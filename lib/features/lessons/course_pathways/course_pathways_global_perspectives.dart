@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 5-9 not yet authored; wired incrementally, one completed
+// Terms 6-9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,11 +58246,17 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseGpTerm1, _igcseGpTerm2, _igcseGpTerm3, _igcseGpTerm4],
+  terms: [
+    _igcseGpTerm1,
+    _igcseGpTerm2,
+    _igcseGpTerm3,
+    _igcseGpTerm4,
+    _igcseGpTerm5,
+  ],
 );
 // =====================================================================
 // IGCSE Global Perspectives -- Term 2, Week 5: "Moral Dilemmas and
@@ -62515,5 +62521,1459 @@ const CourseTermDef _igcseGpTerm4 = CourseTermDef(
   certificateTitleEn: "Environment, Climate and Sustainability",
   certificateTitleMy: "ပတ်ဝန်းကျင်၊ ရာသီဥတုနှင့် ရေရှည်တည်တံ့မှု",
   weeks: [_igcseGpWeek13, _igcseGpWeek14, _igcseGpWeek15, _igcseGpWeek16],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 5, Week 17: "The Artificial
+// Intelligence Revolution and Ethics"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek17 = CourseWeekDef(
+  id: "course-igcse-gp-w17",
+  weekNumber: 17,
+  titleEn: "The Artificial Intelligence Revolution and Ethics",
+  titleMy: "Artificial Intelligence တော်လှန်ရေးနှင့် ကျင့်ဝတ်ဆိုင်ရာ ပြဿနာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w17-d1",
+      dayNumber: 1,
+      titleEn: "How AI Systems Work and Where Bias Comes From",
+      titleMy: "AI System များ အလုပ်လုပ်ပုံနှင့် Bias မည်သို့ ဖြစ်ပေါ်လာသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why can an AI hiring tool trained on a company's past hiring data end up discriminating against a group even without anyone intending it to?",
+          questionMy:
+              "ကုမ္ပဏီတစ်ခု၏ လွန်ခဲ့သော ခန့်အပ်မှု Data ဖြင့် Train လုပ်ထားသော AI Hiring Tool တစ်ခုသည် မည်သူမျှ ရည်ရွယ်ချက်မထားဘဲ အုပ်စုတစ်ခုကို Discriminate လုပ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "If past hiring data reflects historical bias, the AI learns and repeats that same pattern rather than correcting it",
+            "AI systems are always neutral and can never reflect any bias whatsoever",
+            "AI tools deliberately choose to discriminate against specific groups",
+            "Training data has no actual influence on what an AI system learns to do",
+          ],
+          optionsMy: [
+            "လွန်ခဲ့သော ခန့်အပ်မှု Data သည် သမိုင်းဆိုင်ရာ Bias ကို ထင်ဟပ်ပါက AI သည် ထို Pattern တူတူကို ပြင်ဆင်မည့်အစား သင်ယူပြီး ထပ်လုပ်သည်",
+            "AI System များသည် အမြဲ Neutral ဖြစ်ပြီး Bias မည်သို့မျှ ဘယ်တော့မှ ထင်ဟပ်နိုင်ခြင်း မရှိခြင်း",
+            "AI Tool များသည် သီးခြားအုပ်စုများကို Discriminate လုပ်ရန် တမင်ရွေးချယ်ခြင်း",
+            "Training Data သည် AI System တစ်ခု ဘာလုပ်ရန် သင်ယူသည်ဆိုသည်ကို အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a company historically hired mostly one demographic, the AI learns 'successful candidates look like this' from that skewed history, not from any fair, objective standard.",
+          ],
+          hintsMy: [
+            "ကုမ္ပဏီတစ်ခုသည် သမိုင်းအရ Demographic တစ်ခုတည်းကို အများဆုံး ခန့်အပ်ခဲ့ပါက AI သည် တရားမျှတ၊ Objective စံနှုန်းတစ်ခုမှ မဟုတ်ဘဲ ထို Skewed သမိုင်းမှ 'အောင်မြင်သော ကိုယ်စားလှယ်လောင်းများသည် ဤကဲ့သို့ ဖြစ်သည်' ဟု သင်ယူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does 'black box' mean when describing certain AI decision-making systems?",
+          questionMy:
+              "AI ဆုံးဖြတ်ချက်ချသော System အချို့ကို ဖော်ပြရာတွင် 'Black Box' က အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "It is difficult or impossible to fully explain exactly why the system produced a specific decision or output",
+            "The system is physically stored inside a black-colored box",
+            "It means the AI system is guaranteed to be completely accurate",
+            "It refers to the AI system's electricity usage",
+          ],
+          optionsMy: [
+            "System တစ်ခုသည် တိကျသော ဆုံးဖြတ်ချက် (သို့) Output တစ်ခု အဘယ်ကြောင့် ထုတ်ပေးခဲ့ကြောင်းကို အပြည့်အစုံ ရှင်းပြရန် ခက်ခဲ (သို့) မဖြစ်နိုင်ခြင်း",
+            "System ကို အနက်ရောင် ဘောက်စ်အတွင်း ရုပ်ပိုင်းဆိုင်ရာ သိမ်းဆည်းထားခြင်း",
+            "AI System သည် အပြည့်အစုံ တိကျကြောင်း အာမခံချက်ရှိခြင်း",
+            "AI System ၏ လျှပ်စစ်သုံးစွဲမှုကို ရည်ညွှန်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Complex machine learning models, especially deep neural networks, can make accurate predictions while even their own creators struggle to explain the exact internal reasoning.",
+          ],
+          hintsMy: [
+            "Complex Machine Learning Model များ၊ အထူးသဖြင့် Deep Neural Network များသည် တိကျသော ခန့်မှန်းချက်များ ပြုလုပ်နိုင်သော်လည်း ၎င်းတို့ကိုယ်ပိုင် ဖန်တီးသူများပင် အတွင်းပိုင်း Reasoning အတိအကျကို ရှင်းပြရန် ခက်ခဲကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do many ethicists argue that a human should remain 'in the loop' for high-stakes AI decisions (e.g. medical diagnosis, criminal sentencing)?",
+          questionMy:
+              "High-Stakes AI ဆုံးဖြတ်ချက်များ (ဥပမာ - ဆေးဘက်ဆိုင်ရာ ရောဂါရှာဖွေခြင်း၊ ရာဇဝတ်ကျင့်ကြံမှု ပြစ်ဒဏ်ချမှတ်ခြင်း) အတွက် လူသားတစ်ဦး 'In the Loop' ရှိနေသင့်ကြောင်း Ethicist အများအပြားက အဘယ်ကြောင့် ငြင်းခုံကြသနည်း။",
+          optionsEn: [
+            "Human oversight can catch AI errors, biases, or edge cases the system was never designed to handle, before real harm occurs",
+            "Humans are always faster and more accurate than any AI system at every task",
+            "AI systems never make errors of any kind in high-stakes decisions",
+            "Human oversight has no real value in any high-stakes decision-making context",
+          ],
+          optionsMy: [
+            "လူသားများ၏ Oversight သည် System က ကိုင်တွယ်ရန် ဒီဇိုင်းဆွဲမထားခဲ့သော AI အမှား၊ Bias (သို့) Edge Case များကို စစ်မှန်သော ထိခိုက်မှု မဖြစ်ပေါ်မီ ဖမ်းမိနိုင်သည်",
+            "လူသားများသည် AI System မည်သည့်အလုပ်တွင်မဆို အမြဲ ပိုမြန်ပြီး ပိုတိကျခြင်း",
+            "AI System များသည် High-Stakes ဆုံးဖြတ်ချက်များတွင် မည်သည့်အမှားမျှ ဘယ်တော့မှ မလုပ်ခြင်း",
+            "Human Oversight သည် High-Stakes ဆုံးဖြတ်ချက်ချသော Context မည်သည်တွင်မျှ အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to the 'black box' idea from the previous question -- if a system's reasoning can't be fully explained, a human check is a safeguard against undetected errors.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခင်မေးခွန်းမှ 'Black Box' Idea နှင့် ချိတ်ဆက်သည် -- System တစ်ခု၏ Reasoning ကို အပြည့်အစုံ ရှင်းပြ၍ မရပါက လူသား စစ်ဆေးမှုသည် မသိရှိသော အမှားများကို ကာကွယ်ရန် အကာအကွယ် တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: AI Ethics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - AI Ethics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w17-dm-1",
+          termEn: "Algorithmic bias",
+          termMy: "Algorithmic Bias",
+          matchEn:
+              "Systematic unfairness in an AI system's outputs, often traced to skewed training data",
+          matchMy:
+              "AI System တစ်ခု၏ Output များတွင် Systematic မတရားမှု၊ များသောအားဖြင့် Skewed Training Data မှ ဖြစ်ပေါ်လာခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w17-dm-2",
+          termEn: "Black box model",
+          termMy: "Black Box Model",
+          matchEn:
+              "An AI system whose internal decision-making process is not fully explainable",
+          matchMy:
+              "အတွင်းပိုင်း ဆုံးဖြတ်ချက်ချသော Process ကို အပြည့်အစုံ ရှင်းပြ၍ မရသော AI System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w17-dm-3",
+          termEn: "Human in the loop",
+          termMy: "Human in the Loop",
+          matchEn:
+              "A safeguard requiring human review before a high-stakes AI decision takes effect",
+          matchMy:
+              "High-Stakes AI ဆုံးဖြတ်ချက် အကျိုးသက်ရောက်မှုမတိုင်မီ လူသား ပြန်လည်သုံးသပ်မှု လိုအပ်သော အကာအကွယ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w17-dm-4",
+          termEn: "Deepfake",
+          termMy: "Deepfake",
+          matchEn:
+              "AI-generated synthetic media that convincingly depicts a real person doing or saying something fabricated",
+          matchMy:
+              "စစ်မှန်သော လူတစ်ဦးက လုပ်ဆောင်နေသည် (သို့) ပြောနေသည်ဟု ယုံကြည်စေအောင် တီထွင်ဖန်တီးထားသော AI-Generated Synthetic Media",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w17-dm-5",
+          termEn: "Explainable AI",
+          termMy: "Explainable AI",
+          matchEn:
+              "AI systems specifically designed so their reasoning can be understood by humans",
+          matchMy:
+              "၎င်းတို့၏ Reasoning ကို လူသားများ နားလည်နိုင်စေရန် အထူး Design ပြုလုပ်ထားသော AI System များ",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Appropriate or Risky AI Use Case?",
+      titleMy: "စီစစ်ကြမည် - AI အသုံးပြုမှု သင့်လျော် (သို့) အန္တရာယ်ရှိ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Lower-Risk AI Use",
+          "High-Risk AI Use Requiring Human Oversight",
+        ],
+        bucketsMy: [
+          "Lower-Risk AI အသုံးပြုမှု",
+          "Human Oversight လိုအပ်သော High-Risk AI အသုံးပြုမှု",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w17-sort-1",
+            labelEn: "An AI recommending which movie to watch next",
+            labelMy: "နောက်ထပ် ကြည့်ရန် Movie ကို AI က အကြံပြုခြင်း",
+            correctBucketEn: "Lower-Risk AI Use",
+            correctBucketMy: "Lower-Risk AI အသုံးပြုမှု",
+          ),
+          SortingItem(
+            id: "igcgp-w17-sort-2",
+            labelEn:
+                "An AI system used alone to decide a criminal defendant's prison sentence",
+            labelMy:
+                "ရာဇဝတ် တရားခံတစ်ဦး၏ ထောင်ဒဏ်ကို တစ်ဦးတည်း ဆုံးဖြတ်ရန် အသုံးပြုသော AI System",
+            correctBucketEn: "High-Risk AI Use Requiring Human Oversight",
+            correctBucketMy:
+                "Human Oversight လိုအပ်သော High-Risk AI အသုံးပြုမှု",
+          ),
+          SortingItem(
+            id: "igcgp-w17-sort-3",
+            labelEn: "An AI sorting spam emails into a separate folder",
+            labelMy: "Spam Email များကို သီးခြား Folder အဖြစ် AI က စီစဉ်ခြင်း",
+            correctBucketEn: "Lower-Risk AI Use",
+            correctBucketMy: "Lower-Risk AI အသုံးပြုမှု",
+          ),
+          SortingItem(
+            id: "igcgp-w17-sort-4",
+            labelEn:
+                "An AI alone approving or denying a patient's cancer treatment without any doctor review",
+            labelMy:
+                "ဆရာဝန် ပြန်လည်သုံးသပ်မှု မည်သည်မှ မပါဘဲ လူနာတစ်ဦး၏ ကင်ဆာ ကုသမှုကို AI တစ်ဦးတည်းက အတည်ပြု (သို့) ငြင်းပယ်ခြင်း",
+            correctBucketEn: "High-Risk AI Use Requiring Human Oversight",
+            correctBucketMy:
+                "Human Oversight လိုအပ်သော High-Risk AI အသုံးပြုမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's AI Ethics Debate",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ AI Ethics အငြင်းအခုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's AI Ethics Debate",
+        titleMy: "Su Myat Noe ၏ AI Ethics အငြင်းအခုံ",
+        passageEn:
+            "Ko Zin Ko Ko opened Term 5 with a classroom debate: should an AI system ever be allowed to make a high-stakes decision entirely on its own, with no human reviewing it? Su Myat Noe was assigned to argue against fully autonomous AI decision-making, and she built her case around two ideas from the week's own lessons: algorithmic bias and the black box problem.\n\nHer first argument used a real-world-style example: an AI hiring tool trained on ten years of a company's past hiring data could learn to systematically favor one group over another, not because anyone programmed it to discriminate, but because the historical data itself reflected decades of human bias. If no human reviewed the AI's shortlist before it was finalized, that bias would repeat and compound, invisible to anyone unless someone specifically went looking for it.\n\nHer second argument addressed the black box problem directly: many advanced AI systems, especially deep learning models, cannot fully explain why they reached a particular decision, even to the engineers who built them. Su Myat Noe argued that for low-stakes decisions -- like a movie recommendation -- this opacity barely matters. But for a decision that could send someone to prison or deny someone medical treatment, a decision nobody can fully explain is a decision nobody can properly challenge if it turns out to be wrong.\n\nHer conclusion tied both arguments to the 'human in the loop' principle: not banning AI from high-stakes fields entirely, but requiring a human reviewer with the power to catch and correct the system's errors before real harm is done. Ko Zin Ko Ko noted that her argument mirrored the actual position taken by most professional AI ethics boards worldwide -- a strong signal that her research and reasoning, not just her opinion, had shaped a genuinely well-supported case.",
+        passageMy:
+            "AI System တစ်ခုအား High-Stakes ဆုံးဖြတ်ချက်တစ်ခုကို လူသား ပြန်လည်သုံးသပ်မှု မည်သည်မှ မပါဘဲ လုံးဝ ကိုယ်တိုင် ဆုံးဖြတ်ခွင့်ပြုသင့်သလားဆိုသည့် Classroom Debate တစ်ခုဖြင့် ကိုဇင်ကိုကို Term 5 ကို ဖွင့်လှစ်ခဲ့သည်။ Fully Autonomous AI ဆုံးဖြတ်ချက်ချမှုကို ကန့်ကွက်ရန် Su Myat Noe ကို တာဝန်ပေးအပ်ခဲ့ပြီး ၎င်းသည် အပတ်စဉ်ကိုယ်ပိုင် သင်ခန်းစာများမှ Idea နှစ်ခု - Algorithmic Bias နှင့် Black Box ပြဿနာ - ပတ်ပတ်လည်တွင် ၎င်း၏ Case ကို တည်ဆောက်ခဲ့သည်။\n\n၎င်း၏ ပထမ Argument သည် Real-World-Style ဥပမာတစ်ခု အသုံးပြုခဲ့သည် - ကုမ္ပဏီတစ်ခု၏ လွန်ခဲ့သည့်နှစ် ဆယ်နှစ် ခန့်အပ်မှု Data ဖြင့် Train လုပ်ထားသော AI Hiring Tool တစ်ခုသည် မည်သူမျှ Discriminate လုပ်ရန် Program မရေးခဲ့သောကြောင့်မဟုတ်ဘဲ သမိုင်းဆိုင်ရာ Data ကိုယ်တိုင်က ဆယ်စုနှစ်များစွာ လူသား Bias ကို ထင်ဟပ်နေသောကြောင့် အုပ်စုတစ်ခုကို Systematic အားဖြင့် Favour ပြုနိုင်သည်။ AI ၏ Shortlist ကို အတည်ပြုမီ လူသား ပြန်လည်သုံးသပ်မှု မည်သည်မှ မရှိပါက ထို Bias သည် တစ်စုံတစ်ယောက်က တမင်ရှာဖွေမှသာ တွေ့နိုင်ဘဲ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်ကာ ပိုမိုဆိုးရွားလာမည် ဖြစ်သည်။\n\n၎င်း၏ ဒုတိယ Argument သည် Black Box ပြဿနာကို တိုက်ရိုက် ကိုင်တွယ်ခဲ့သည် - Advanced AI System အများအပြား၊ အထူးသဖြင့် Deep Learning Model များသည် ၎င်းတို့ကို တည်ဆောက်ခဲ့သော Engineer များကိုပင် ဆုံးဖြတ်ချက်တစ်ခု အဘယ်ကြောင့် ရောက်ခဲ့ကြောင်း အပြည့်အစုံ ရှင်းပြ၍ မရပါ။ Low-Stakes ဆုံးဖြတ်ချက်များ - Movie အကြံပြုချက်ကဲ့သို့ - အတွက် ဤ Opacity သည် ဂရုမစိုက်ရလောက်အောင် ဖြစ်သော်လည်း တစ်စုံတစ်ယောက်ကို ထောင်ချရန် (သို့) ဆေးကုသမှု ငြင်းပယ်ရန် ဖြစ်နိုင်သော ဆုံးဖြတ်ချက်တစ်ခုအတွက် မည်သူမျှ အပြည့်အစုံ ရှင်းပြ၍ မရသော ဆုံးဖြတ်ချက်တစ်ခုသည် မှားယွင်းကြောင်း ပေါ်လာပါက မည်သူမျှ သင့်လျော်စွာ စိန်ခေါ်၍ မရသော ဆုံးဖြတ်ချက်တစ်ခု ဖြစ်သည် ဟု Su Myat Noe ငြင်းခုံခဲ့သည်။\n\n၎င်း၏ ကောက်ချက်သည် Argument နှစ်ခုစလုံးကို 'Human in the Loop' Principle နှင့် ချိတ်ဆက်ခဲ့သည် - High-Stakes နယ်ပယ်များမှ AI ကို လုံးဝ တားမြစ်ခြင်းမဟုတ်ဘဲ System ၏ အမှားများကို စစ်မှန်သော ထိခိုက်မှု မဖြစ်ပေါ်မီ ဖမ်းမိပြီး ပြင်ဆင်နိုင်သော အာဏာရှိသော လူသား ပြန်လည်သုံးသပ်သူ တစ်ဦး လိုအပ်ကြောင်း တောင်းဆိုခြင်းသာ ဖြစ်သည်။ ၎င်း၏ Argument သည် ကမ္ဘာတစ်ဝှမ်းရှိ Professional AI Ethics Board အများစု၏ အမှန်တကယ် ရပ်တည်ချက်ကို ထင်ဟပ်နေကြောင်း ကိုဇင်ကိုကို မှတ်ချက်ပြုခဲ့သည် -- ၎င်း၏ ထင်မြင်ချက်တစ်ခုတည်းမက ၎င်း၏ သုတေသနနှင့် Reasoning ကလည်း စစ်မှန်စွာ ကောင်းမွန်စွာ ထောက်ခံထားသော Case တစ်ခုကို ပုံဖော်ပေးခဲ့ကြောင်း ခိုင်မာသော အချက်ပြခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why might an AI hiring tool discriminate even without deliberate programming?",
+            questionMy:
+                "AI Hiring Tool တစ်ခုသည် တမင်ရေးသားထားသော Program မရှိဘဲ Discriminate လုပ်ရနိုင်သည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Historical hiring data itself reflected decades of human bias, which the AI learned and repeated",
+              "The AI was deliberately programmed to discriminate",
+              "There was no reason at all; discrimination is impossible without deliberate programming",
+              "The AI randomly selected candidates with no pattern",
+            ],
+            optionsMy: [
+              "သမိုင်းဆိုင်ရာ ခန့်အပ်မှု Data ကိုယ်တိုင်က ဆယ်စုနှစ်များစွာ လူသား Bias ကို ထင်ဟပ်နေပြီး AI က ၎င်းကို သင်ယူ၍ ထပ်လုပ်ခဲ့ခြင်း",
+              "AI ကို Discriminate လုပ်ရန် တမင် Program ရေးခဲ့ခြင်း",
+              "အကြောင်းရင်း လုံးဝ မရှိခြင်း; တမင်ရေးသားထားသော Program မရှိဘဲ Discrimination မဖြစ်နိုင်ခြင်း",
+              "AI သည် Pattern မည်သည်မှ မပါဘဲ ကိုယ်စားလှယ်လောင်းများကို ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the hiring example.",
+            ],
+            hintsMy: [
+              "Hiring ဥပမာ၏ ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why does the black box problem matter more for high-stakes decisions?",
+            questionMy:
+                "High-Stakes ဆုံးဖြတ်ချက်များအတွက် Black Box ပြဿနာ အဘယ်ကြောင့် ပို၍ အရေးကြီးသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A decision nobody can fully explain is a decision nobody can properly challenge if it turns out wrong",
+              "Black box models are always completely accurate for high-stakes decisions",
+              "High-stakes decisions never actually use AI systems",
+              "The black box problem only applies to movie recommendations",
+            ],
+            optionsMy: [
+              "မည်သူမျှ အပြည့်အစုံ ရှင်းပြ၍ မရသော ဆုံးဖြတ်ချက်တစ်ခုသည် မှားယွင်းကြောင်း ပေါ်လာပါက မည်သူမျှ သင့်လျော်စွာ စိန်ခေါ်၍ မရသော ဆုံးဖြတ်ချက်တစ်ခု ဖြစ်ခြင်း",
+              "Black Box Model များသည် High-Stakes ဆုံးဖြတ်ချက်များအတွက် အမြဲ လုံးဝ တိကျခြင်း",
+              "High-Stakes ဆုံးဖြတ်ချက်များသည် AI System များကို အမှန်တကယ် ဘယ်တော့မှ အသုံးမပြုခြင်း",
+              "Black Box ပြဿနာသည် Movie အကြံပြုချက်များနှင့်သာ သက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence contrasting low-stakes and high-stakes decisions.",
+            ],
+            hintsMy: [
+              "Low-Stakes နှင့် High-Stakes ဆုံးဖြတ်ချက်များကို နှိုင်းယှဉ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does the 'human in the loop' principle actually require?",
+            questionMy:
+                "'Human in the Loop' Principle က အမှန်တကယ် ဘာလိုအပ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A human reviewer with the power to catch and correct the AI's errors before real harm is done, not a full ban on AI",
+              "A complete ban on AI in every field without exception",
+              "No human involvement of any kind in any AI decision",
+              "Replacing all AI systems with fully manual human processes",
+            ],
+            optionsMy: [
+              "AI ကို လုံးဝ ပိတ်ပင်ခြင်း မဟုတ်ဘဲ စစ်မှန်သော ထိခိုက်မှု မဖြစ်ပေါ်မီ AI ၏ အမှားများကို ဖမ်းမိပြီး ပြင်ဆင်နိုင်သော အာဏာရှိသော လူသား ပြန်လည်သုံးသပ်သူ",
+              "ချွင်းချက်မရှိ နယ်ပယ်တိုင်းတွင် AI ကို လုံးဝ ပိတ်ပင်ခြင်း",
+              "AI ဆုံးဖြတ်ချက် မည်သည်တွင်မျှ လူသား ပါဝင်မှု မည်သည်မှ မရှိခြင်း",
+              "AI System အားလုံးကို လူသား Manual Process များဖြင့် အစားထိုးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's explanation of the conclusion.",
+            ],
+            hintsMy: [
+              "ကောက်ချက်၏ ရှင်းလင်းချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w17-d5",
+      dayNumber: 5,
+      titleEn: "Recap: AI Revolution and Ethics",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - AI တော်လှန်ရေးနှင့် ကျင့်ဝတ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Algorithmic bias most often originates from...",
+          questionMy:
+              "Algorithmic Bias သည် များသောအားဖြင့် ...မှ ဖြစ်ပေါ်လာသည်",
+          optionsEn: [
+            "Skewed or biased training data",
+            "Perfectly neutral training data",
+            "A lack of any data at all",
+            "Random chance with no cause",
+          ],
+          optionsMy: [
+            "Skewed (သို့) Biased Training Data",
+            "အပြည့်အစုံ Neutral Training Data",
+            "Data လုံးဝ မရှိခြင်း",
+            "အကြောင်းရင်း မရှိသော ကျပန်းအခြေအနေ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A 'black box' AI system is one whose...",
+          questionMy: "'Black Box' AI System သည် ...၏ System တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Internal reasoning cannot be fully explained",
+            "Reasoning is always perfectly clear to everyone",
+            "Decisions are made entirely by humans",
+            "Outputs are never used for any decision",
+          ],
+          optionsMy: [
+            "အတွင်းပိုင်း Reasoning ကို အပြည့်အစုံ ရှင်းပြ၍ မရခြင်း",
+            "Reasoning သည် လူတိုင်းအတွက် အမြဲ ရှင်းလင်းခြင်း",
+            "ဆုံးဖြတ်ချက်များကို လူသားများသာ လုံးဝ ချမှတ်ခြင်း",
+            "Output များကို ဆုံးဖြတ်ချက် မည်သည်အတွက်မျှ ဘယ်တော့မှ မသုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "'Human in the loop' means...",
+          questionMy: "'Human in the Loop' ဆိုသည်မှာ...",
+          optionsEn: [
+            "A human reviews high-stakes AI decisions before they take effect",
+            "No human is ever involved in any AI decision",
+            "AI decisions can never be reviewed by anyone",
+            "Humans make every single decision without any AI assistance",
+          ],
+          optionsMy: [
+            "High-Stakes AI ဆုံးဖြတ်ချက်များ အကျိုးသက်ရောက်မီ လူသားက ပြန်လည်သုံးသပ်ခြင်း",
+            "AI ဆုံးဖြတ်ချက် မည်သည်တွင်မျှ လူသား ပါဝင်မှု ဘယ်တော့မှ မရှိခြင်း",
+            "AI ဆုံးဖြတ်ချက်များကို မည်သူမျှ ဘယ်တော့မှ ပြန်လည်သုံးသပ်၍ မရခြင်း",
+            "AI အကူအညီ မည်သည်မှ မပါဘဲ လူသားများက ဆုံးဖြတ်ချက်တိုင်းကို ချမှတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 5, Week 18: "Surveillance
+// Capitalism and Data Privacy"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek18 = CourseWeekDef(
+  id: "course-igcse-gp-w18",
+  weekNumber: 18,
+  titleEn: "Surveillance Capitalism and Data Privacy",
+  titleMy: "စောင့်ကြည့်ခြင်း အရင်းရှင်စနစ်နှင့် Data ကိုယ်ရေးလုံခြုံမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w18-d1",
+      dayNumber: 1,
+      titleEn: "How Free Services Turn Personal Data into Profit",
+      titleMy:
+          "အခမဲ့ Service များသည် ကိုယ်ရေးကိုယ်တာ Data ကို အမြတ်အဖြစ် မည်သို့ ပြောင်းလဲသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does the phrase 'if the product is free, you are the product' most accurately describe?",
+          questionMy:
+              "'Product ကို အခမဲ့ဖြစ်ပါက သင်ကိုယ်တိုင်ပင် Product ဖြစ်သည်' ဆိုသော စကားစုသည် အဘယ်အရာကို အတိအကျ ဖော်ပြသနည်း။",
+          optionsEn: [
+            "A business model where a company profits by collecting and monetizing users' personal data and attention rather than charging a direct fee",
+            "A business model where companies never make any profit from free services",
+            "A guarantee that all free digital services are completely private and secure",
+            "A situation where users always pay a hidden direct cash fee",
+          ],
+          optionsMy: [
+            "ကုမ္ပဏီတစ်ခုသည် တိုက်ရိုက်အခကြေးငွေ ကောက်ခံမည့်အစား User များ၏ ကိုယ်ရေးကိုယ်တာ Data နှင့် အာရုံစိုက်မှုကို စုဆောင်း၍ ငွေရှာသော စီးပွားရေး Model",
+            "ကုမ္ပဏီများသည် အခမဲ့ Service များမှ အမြတ်အစွန်း မည်သည်မျှ ဘယ်တော့မှ မရရှိသော စီးပွားရေး Model",
+            "အခမဲ့ Digital Service အားလုံးသည် လုံးဝ Private ဖြစ်ပြီး လုံခြုံသည်ဟု အာမခံချက်",
+            "User များသည် ဝှက်ထားသော တိုက်ရိုက် ငွေသားအခကြေးငွေကို အမြဲ ပေးရသော အခြေအနေ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about how social media platforms and search engines actually earn revenue while charging users nothing directly -- through targeted advertising built on collected user data.",
+          ],
+          hintsMy: [
+            "Social Media Platform များနှင့် Search Engine များသည် User များထံမှ တိုက်ရိုက်ငွေ တစ်ချက်မျှ မကောက်ဘဲ Revenue အမှန်တကယ် မည်သို့ ရှာနေသည်ကို စဉ်းစားပါ -- စုဆောင်းထားသော User Data ပေါ် အခြေခံသည့် Targeted Advertising မှတစ်ဆင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might targeted advertising based on personal data raise ethical concerns beyond simple annoyance?",
+          questionMy:
+              "ကိုယ်ရေးကိုယ်တာ Data ပေါ် အခြေခံသော Targeted Advertising သည် ရိုးရှင်းသော စိတ်တိုမှုထက် ကျင့်ဝတ်ဆိုင်ရာ စိုးရိမ်မှုများကို အဘယ်ကြောင့် ဖြစ်ပေါ်စေနိုင်သနည်း။",
+          optionsEn: [
+            "Detailed personal profiling can enable manipulation, discrimination, or exploitation of vulnerable users based on sensitive inferred traits",
+            "Targeted advertising has no real ethical dimension of any kind",
+            "All targeted advertising is legally required to be completely transparent everywhere",
+            "Personal data collection never actually reveals anything sensitive about users",
+          ],
+          optionsMy: [
+            "အသေးစိတ် ကိုယ်ရေးကိုယ်တာ Profiling သည် Sensitive Inferred Trait များအပေါ် အခြေခံ၍ Manipulation၊ Discrimination (သို့) အားနည်းသော User များအား Exploit ပြုနိုင်သည်",
+            "Targeted Advertising သည် အမှန်တကယ် ကျင့်ဝတ်ဆိုင်ရာ Dimension မည်သည်မှ ဘယ်တော့မှ မရှိခြင်း",
+            "Targeted Advertising အားလုံးသည် နေရာတိုင်းတွင် လုံးဝ ပွင့်လင်းမြင်သာရန် ဥပဒေအရ တောင်းဆိုခြင်း",
+            "ကိုယ်ရေးကိုယ်တာ Data စုဆောင်းခြင်းသည် User များအကြောင်း Sensitive အရာ မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မဖော်ထုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Consider how inferred data (e.g. detecting a health condition or financial vulnerability from browsing patterns) could be used to target ads in ways the person never consented to and might find harmful.",
+          ],
+          hintsMy: [
+            "Inferred Data (ဥပမာ - Browsing Pattern များမှ ကျန်းမာရေးအခြေအနေ (သို့) ငွေကြေးအားနည်းချက်ကို ရှာဖွေတွေ့ရှိခြင်း) ကို ထိခိုက်စေနိုင်သည်ဟု ထင်ရသည့် နည်းလမ်းများဖြင့် Ad များ ရည်ရွယ်ရန် မည်သို့ အသုံးပြုနိုင်သည်ကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is 'informed consent' in the context of data privacy?",
+          questionMy:
+              "Data Privacy Context တွင် 'Informed Consent' ဆိုသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A user genuinely understanding what data is collected and how it will be used before agreeing to share it",
+            "Automatically agreeing to any terms without reading them",
+            "A company collecting data without ever asking the user at all",
+            "A legal requirement that applies only to paid services, never free ones",
+          ],
+          optionsMy: [
+            "User တစ်ဦးသည် Data မည်သည်ကို စုဆောင်းမည်၊ မည်သို့ အသုံးပြုမည်ကို မျှဝေရန် သဘောတူမီ စစ်မှန်စွာ နားလည်ခြင်း",
+            "Term များကို မဖတ်ဘဲ မည်သည့် Term ကိုမဆို အလိုအလျောက် သဘောတူခြင်း",
+            "ကုမ္ပဏီတစ်ခုသည် User ကို လုံးဝ မမေးဘဲ Data စုဆောင်းခြင်း",
+            "အခပေး Service များနှင့်သာ သက်ဆိုင်ပြီး အခမဲ့ Service များနှင့် ဘယ်တော့မှ မသက်ဆိုင်သော ဥပဒေရေးရာ လိုအပ်ချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'Informed' is the key word -- it requires real understanding, not just clicking 'I Agree' on a long, unread terms-of-service document.",
+          ],
+          hintsMy: [
+            "'Informed' သည် အဓိက စကားလုံး ဖြစ်သည် -- ရှည်လျားပြီး မဖတ်ရသော Terms-of-Service Document တွင် 'I Agree' ကို Click ခြင်းသာမက စစ်မှန်သော နားလည်မှု လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Privacy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Data Privacy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w18-dm-1",
+          termEn: "Surveillance capitalism",
+          termMy: "Surveillance Capitalism",
+          matchEn:
+              "An economic system built on collecting and monetizing personal behavioral data",
+          matchMy:
+              "ကိုယ်ရေးကိုယ်တာ Behavioral Data ကို စုဆောင်း၍ ငွေရှာခြင်းအပေါ် တည်ဆောက်ထားသော စီးပွားရေးစနစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w18-dm-2",
+          termEn: "Targeted advertising",
+          termMy: "Targeted Advertising",
+          matchEn:
+              "Ads customized to an individual based on their personal data and inferred interests",
+          matchMy:
+              "ပုဂ္ဂိုလ်တစ်ဦး၏ ကိုယ်ရေးကိုယ်တာ Data နှင့် Inferred Interest များအပေါ် အခြေခံ၍ ချိန်ညှိထားသော Ad များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w18-dm-3",
+          termEn: "Informed consent",
+          termMy: "Informed Consent",
+          matchEn:
+              "Genuinely understanding and agreeing to how one's data will be collected and used",
+          matchMy:
+              "ကိုယ်ပိုင် Data ကို မည်သို့ စုဆောင်းမည်၊ မည်သို့ အသုံးပြုမည်ကို စစ်မှန်စွာ နားလည်ကာ သဘောတူခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w18-dm-4",
+          termEn: "Data broker",
+          termMy: "Data Broker",
+          matchEn:
+              "A company that collects and sells personal data gathered from multiple sources",
+          matchMy:
+              "အရင်းအမြစ်များစွာမှ စုဆောင်းထားသော ကိုယ်ရေးကိုယ်တာ Data ကို ရောင်းချသော ကုမ္ပဏီ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w18-dm-5",
+          termEn: "GDPR",
+          termMy: "GDPR",
+          matchEn:
+              "A major European Union regulation setting strict rules for personal data protection",
+          matchMy:
+              "ကိုယ်ရေးကိုယ်တာ Data ကာကွယ်မှုအတွက် တင်းကျပ်သော စည်းမျဉ်းများ သတ်မှတ်ထားသော European Union ၏ အဓိက စည်းကမ်းချက်",
+          colorValue: 0xFFE91E63,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Privacy Practice?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော (သို့) အားနည်းသော Privacy Practice",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Privacy Practice", "Weak Privacy Practice"],
+        bucketsMy: [
+          "ခိုင်မာသော Privacy Practice",
+          "အားနည်းသော Privacy Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w18-sort-1",
+            labelEn:
+                "A clear, plain-language privacy policy explaining exactly what data is collected",
+            labelMy:
+                "Data မည်သည်ကို စုဆောင်းသည်ကို အတိအကျ ရှင်းပြသော ရှင်းလင်း၊ ရိုးရှင်းသော ဘာသာစကားဖြင့် Privacy Policy",
+            correctBucketEn: "Strong Privacy Practice",
+            correctBucketMy: "ခိုင်မာသော Privacy Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w18-sort-2",
+            labelEn:
+                "A 50-page terms-of-service document deliberately written to discourage anyone from reading it",
+            labelMy:
+                "မည်သူမျှ မဖတ်စေရန် တမင် ရေးသားထားသော စာမျက်နှာ ၅၀ ရှိ Terms-of-Service Document",
+            correctBucketEn: "Weak Privacy Practice",
+            correctBucketMy: "အားနည်းသော Privacy Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w18-sort-3",
+            labelEn:
+                "Giving users a genuine, easy option to opt out of data collection",
+            labelMy:
+                "Data စုဆောင်းခြင်းမှ Opt Out ပြုလုပ်ရန် User များအား စစ်မှန်၊ လွယ်ကူသော ရွေးချယ်စရာ ပေးခြင်း",
+            correctBucketEn: "Strong Privacy Practice",
+            correctBucketMy: "ခိုင်မာသော Privacy Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w18-sort-4",
+            labelEn:
+                "Selling detailed personal data to third parties without any clear user notification",
+            labelMy:
+                "ရှင်းလင်းသော User အကြောင်းကြားချက် မည်သည်မှ မပါဘဲ အသေးစိတ် ကိုယ်ရေးကိုယ်တာ Data ကို တတိယအဖွဲ့သို့ ရောင်းချခြင်း",
+            correctBucketEn: "Weak Privacy Practice",
+            correctBucketMy: "အားနည်းသော Privacy Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's App Privacy Audit",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ App Privacy စစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's App Privacy Audit",
+        titleMy: "Su Myat Noe ၏ App Privacy စစ်ဆေးမှု",
+        passageEn:
+            "For Week 18's assignment, Ko Zin Ko Ko asked students to read the privacy policy of one app they used daily and report what they found. Su Myat Noe chose a popular social media app on her phone, expecting a quick, routine exercise. Instead, she found the policy stretched across dozens of pages of dense legal language, and buried within it were permissions she had never consciously agreed to: the app could access her precise location at all times, not just when she used it, and it could share her data with an extensive network of undisclosed 'business partners.'\n\nShe connected this directly to the week's central idea, surveillance capitalism: the app was free to download and use, but its actual business model depended on continuously collecting her behavioral data and monetizing it through targeted advertising. She noted that when she first installed the app, she had tapped 'I Agree' within seconds, without reading a single paragraph -- exactly the kind of uninformed, technically-but-not-really consent the week's lesson had warned about.\n\nWhen she compared the app's policy to the GDPR principles Ko Zin Ko Ko had introduced, she found it fell short in specific, identifiable ways: the policy was not written in plain, accessible language, and opting out of certain data-sharing features was buried three menus deep, deliberately difficult to find. Su Myat Noe's final report recommended that she personally adjust her app's privacy settings to limit unnecessary data sharing, and she argued more broadly that companies should be required to make privacy policies genuinely readable, not just technically available. Ko Zin Ko Ko praised the audit specifically because it turned an abstract policy debate into a concrete, personally verified example -- the strongest kind of evidence for an argument.",
+        passageMy:
+            "Week 18 ၏ Assignment အတွက် နေ့စဉ် အသုံးပြုသော App တစ်ခု၏ Privacy Policy ကို ဖတ်ပြီး တွေ့ရှိချက်ကို တင်ပြရန် ကျောင်းသားများကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ Su Myat Noe သည် လျင်မြန်ရိုးရှင်းသော Exercise ကို မျှော်လင့်ကာ ၎င်း၏ ဖုန်းပေါ်ရှိ လူကြိုက်များသော Social Media App တစ်ခုကို ရွေးချယ်ခဲ့သည်။ ယင်းအစား Policy သည် ထူထပ်သော ဥပဒေရေးရာ ဘာသာစကား စာမျက်နှာများစွာ ကျယ်ပြန့်နေသည်ကို တွေ့ရှိခဲ့ပြီး ၎င်းအတွင်းတွင် ၎င်း ဘယ်တော့မှ တိုက်ရိုက် သဘောမတူခဲ့သော Permission များ ပုန်းကွယ်နေသည် - App သည် အသုံးပြုစဉ်တွင်သာ မဟုတ်ဘဲ အချိန်တိုင်း ၎င်း၏ တိကျသော တည်နေရာကို ဝင်ရောက်ကြည့်ရှုနိုင်ပြီး ၎င်း၏ Data ကို ဖော်ပြထားခြင်းမရှိသော 'Business Partner' Network ကျယ်ပြန့်စွာသို့ မျှဝေနိုင်သည်။\n\n၎င်းကို အပတ်စဉ်၏ အဓိက Idea ဖြစ်သော Surveillance Capitalism နှင့် တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - App သည် Download ချ၍ အသုံးပြုရန် အခမဲ့ ဖြစ်သော်လည်း ၎င်း၏ အမှန်တကယ် စီးပွားရေး Model သည် ၎င်း၏ Behavioral Data ကို ဆက်တိုက် စုဆောင်း၍ Targeted Advertising မှတစ်ဆင့် ငွေရှာခြင်းအပေါ် မူတည်နေသည်။ App ကို ပထမဆုံး Install လုပ်ချိန်တွင် စာပိုဒ်တစ်ခုမျှ မဖတ်ဘဲ စက္ကန့်အနည်းငယ်အတွင်း 'I Agree' ကို Tap ခဲ့ကြောင်း သတိပြုမိခဲ့သည် -- အပတ်စဉ် သင်ခန်းစာက သတိပေးခဲ့သော Uninformed၊ Technically-but-not-really Consent အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nကိုဇင်ကိုကို မိတ်ဆက်ပေးခဲ့သော GDPR Principle များနှင့် App ၏ Policy ကို နှိုင်းယှဉ်ကြည့်ချိန် တိကျသော၊ ဖော်ထုတ်နိုင်သော နည်းလမ်းများဖြင့် နည်းသည်ကို တွေ့ရှိခဲ့သည် - Policy ကို ရိုးရှင်း၊ ဝင်ရောက်နိုင်သော ဘာသာစကားဖြင့် ရေးသားထားခြင်း မရှိဘဲ Data-Sharing Feature အချို့မှ Opt Out ပြုလုပ်ခြင်းသည် Menu သုံးထပ်အတွင်း ပုန်းကွယ်နေကာ ရှာဖွေရန် တမင် ခက်ခဲစေထားသည်။ Su Myat Noe ၏ နောက်ဆုံး အစီရင်ခံစာသည် မလိုအပ်သော Data Sharing ကို ကန့်သတ်ရန် ၎င်းကိုယ်တိုင် App ၏ Privacy Setting များကို ချိန်ညှိရန် အကြံပြုခဲ့ပြီး ကုမ္ပဏီများသည် Privacy Policy များကို Technically ရရှိနိုင်ခြင်းသာမက စစ်မှန်စွာ ဖတ်ရှုနိုင်စေရန် တောင်းဆိုသင့်ကြောင်း ပို၍ ကျယ်ပြန့်စွာ ငြင်းခုံခဲ့သည်။ စစ်ဆေးမှုသည် Abstract Policy အငြင်းအခုံကို တိကျသော၊ ကိုယ်တိုင် အတည်ပြုထားသော ဥပမာတစ်ခုအဖြစ် ပြောင်းလဲပေးခဲ့သောကြောင့် - Argument တစ်ခုအတွက် အခိုင်မာဆုံး Evidence အမျိုးအစား - ကိုဇင်ကိုကို ဤစစ်ဆေးမှုကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what permissions did Su Myat Noe discover buried in the app's policy?",
+            questionMy:
+                "App ၏ Policy တွင် ပုန်းကွယ်နေသော Permission များကို Su Myat Noe တွေ့ရှိခဲ့သည်ဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Constant precise location access and data sharing with undisclosed business partners",
+              "No unusual permissions were found at all",
+              "Access to her camera only, with no other permissions",
+              "A requirement to pay a hidden monthly fee",
+            ],
+            optionsMy: [
+              "အမြဲတမ်း တိကျသော တည်နေရာ ဝင်ရောက်ကြည့်ရှုနိုင်ခြင်းနှင့် ဖော်ပြထားခြင်းမရှိသော Business Partner များနှင့် Data မျှဝေခြင်း",
+              "မထူးဆန်းသော Permission မည်သည်မှ ဘယ်တော့မှ တွေ့ရှိခဲ့ခြင်း မရှိခြင်း",
+              "အခြား Permission မည်သည်မှ မပါဘဲ ၎င်း၏ Camera ကိုသာ ဝင်ရောက်ကြည့်ရှုနိုင်ခြင်း",
+              "ဝှက်ထားသော လစဉ် အခကြေးငွေ ပေးရန် လိုအပ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's list of what she found."],
+            hintsMy: [
+              "၎င်း တွေ့ရှိခဲ့သည့် အရာများကို စာရင်းပြုထားသော စာပိုဒ် ၁ ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, in what specific ways did the app's policy fall short of GDPR principles?",
+            questionMy:
+                "GDPR Principle များနှင့် App ၏ Policy မည်သည့် တိကျသော နည်းလမ်းများဖြင့် နည်းသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was not written in plain language and opting out was deliberately buried and hard to find",
+              "The policy exceeded every GDPR requirement with no shortcomings",
+              "GDPR does not apply to any app whatsoever",
+              "The policy had no written text at all",
+            ],
+            optionsMy: [
+              "ရိုးရှင်းသော ဘာသာစကားဖြင့် ရေးသားထားခြင်း မရှိဘဲ Opt Out ပြုလုပ်ခြင်းသည် တမင် ပုန်းကွယ်ကာ ရှာဖွေရန် ခက်ခဲခဲ့ခြင်း",
+              "Policy သည် GDPR လိုအပ်ချက် တိုင်းကို ကျော်လွန်ပြီး ချို့ယွင်းချက် မည်သည်မှ မရှိခြင်း",
+              "GDPR သည် App မည်သည်နှင့်မျှ လုံးဝ မသက်ဆိုင်ခြင်း",
+              "Policy တွင် ရေးသားထားသော Text လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence listing the specific shortcomings."],
+            hintsMy: [
+              "တိကျသော ချို့ယွင်းချက်များကို စာရင်းပြုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Ko Zin Ko Ko specifically praise the audit?",
+            questionMy:
+                "စစ်ဆေးမှုကို ကိုဇင်ကိုကို အထူးသဖြင့် ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It turned an abstract policy debate into a concrete, personally verified example",
+              "It was the longest report submitted in the class",
+              "It avoided discussing GDPR entirely",
+              "It contained no personal analysis of any kind",
+            ],
+            optionsMy: [
+              "Abstract Policy အငြင်းအခုံကို တိကျသော၊ ကိုယ်တိုင် အတည်ပြုထားသော ဥပမာတစ်ခုအဖြစ် ပြောင်းလဲပေးခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အရှည်ဆုံး Report ဖြစ်ခြင်း",
+              "GDPR အကြောင်း ဆွေးနွေးခြင်းကို လုံးဝ ရှောင်ရှားခဲ့ခြင်း",
+              "ကိုယ်ပိုင် Analysis မည်သည်မှ ပါဝင်ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w18-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Surveillance Capitalism and Privacy",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Surveillance Capitalism နှင့် Privacy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "'If the product is free, you are the product' describes...",
+          questionMy:
+              "'Product ကို အခမဲ့ဖြစ်ပါက သင်ကိုယ်တိုင်ပင် Product ဖြစ်သည်' က ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "Companies profiting from collecting and monetizing user data",
+            "A guarantee of complete user privacy",
+            "Free services that never collect any data",
+            "A direct cash payment model",
+          ],
+          optionsMy: [
+            "User Data စုဆောင်း၍ ငွေရှာခြင်းမှ အမြတ်ရသော ကုမ္ပဏီများ",
+            "အပြည့်အစုံ User Privacy အာမခံချက်",
+            "Data မည်သည်မျှ ဘယ်တော့မှ မစုဆောင်းသော အခမဲ့ Service များ",
+            "တိုက်ရိုက် ငွေသား ပေးချေမှု Model",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Informed consent requires...",
+          questionMy: "Informed Consent တွင် ...လိုအပ်သည်",
+          optionsEn: [
+            "Genuine understanding before agreeing to data collection",
+            "Clicking 'I Agree' without reading anything",
+            "No agreement of any kind",
+            "Automatic data collection without any notice",
+          ],
+          optionsMy: [
+            "Data စုဆောင်းခြင်းကို သဘောမတူမီ စစ်မှန်သော နားလည်မှု",
+            "မည်သည်ကိုမျှ မဖတ်ဘဲ 'I Agree' ကို Click ခြင်း",
+            "သဘောတူညီမှု မည်သည်မှ မရှိခြင်း",
+            "အကြောင်းကြားချက် မည်သည်မှ မပါဘဲ အလိုအလျောက် Data စုဆောင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "GDPR is best described as...",
+          questionMy: "GDPR ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A major EU data protection regulation",
+            "A social media app",
+            "An advertising company",
+            "A type of computer virus",
+          ],
+          optionsMy: [
+            "EU ၏ အဓိက Data ကာကွယ်မှု စည်းမျဉ်း",
+            "Social Media App တစ်ခု",
+            "Advertising ကုမ္ပဏီတစ်ခု",
+            "Computer Virus အမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 5, Week 19: "The Digital Divide
+// and Global Inequality"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek19 = CourseWeekDef(
+  id: "course-igcse-gp-w19",
+  weekNumber: 19,
+  titleEn: "The Digital Divide and Global Inequality",
+  titleMy: "Digital Divide နှင့် ကမ္ဘာ့ မညီမျှမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w19-d1",
+      dayNumber: 1,
+      titleEn: "What the Digital Divide Actually Means",
+      titleMy: "Digital Divide က အမှန်တကယ် အဘယ်အရာကို ဆိုလိုသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the digital divide considered a multi-layered problem rather than simply 'having internet or not'?",
+          questionMy:
+              "Digital Divide ကို 'Internet ရှိခြင်း (သို့) မရှိခြင်း' ရိုးရှင်းစွာသာမက Layer များစွာ ပါဝင်သော ပြဿနာအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Even where internet access exists, gaps in affordable devices, reliable electricity, and digital skills can still prevent meaningful use",
+            "The digital divide is entirely solved once any internet connection is available anywhere",
+            "Internet access is the only factor that has ever mattered for digital inclusion",
+            "Digital skills and device affordability have no actual relationship to internet access",
+          ],
+          optionsMy: [
+            "Internet Access ရှိသော နေရာများတွင်ပင် Affordable Device များ၊ ယုံကြည်ရသော လျှပ်စစ်နှင့် Digital Skill များတွင် ကွာဟမှုများသည် အဓိပ္ပာယ်ရှိသော အသုံးပြုမှုကို ဆက်လက် တားဆီးနိုင်သည်",
+            "Digital Divide သည် နေရာမည်သည်တွင်မဆို Internet Connection တစ်ခု ရရှိလာသည်နှင့် လုံးဝ ပြေလည်သွားခြင်း",
+            "Internet Access သည် Digital Inclusion အတွက် တစ်ခုတည်းသော ဘယ်တော့မှ အရေးကြီးသည့် အချက် ဖြစ်ခြင်း",
+            "Digital Skill နှင့် Device Affordability သည် Internet Access နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a village that finally gets a cell tower nearby -- residents may still lack the money for a smartphone, reliable power to charge it, or the skills to use it productively.",
+          ],
+          hintsMy: [
+            "Cell Tower တစ်ခု အနီးအနားတွင် နောက်ဆုံးတွင် ရရှိလာသော ရွာတစ်ခုကို တွေးကြည့်ပါ -- နေထိုင်သူများသည် Smartphone အတွက် ငွေမလုံလောက်ခြင်း၊ Charge လုပ်ရန် ယုံကြည်ရသော လျှပ်စစ်မရှိခြင်း (သို့) ထိရောက်စွာ အသုံးပြုနိုင်ရန် Skill များ မရှိနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How can the digital divide reinforce existing global economic inequality rather than reduce it?",
+          questionMy:
+              "Digital Divide သည် ကမ္ဘာ့ စီးပွားရေး မညီမျှမှု ရှိပြီးသားကို လျှော့ချမည့်အစား မည်သို့ ပို၍ ခိုင်မာစေသနည်း။",
+          optionsEn: [
+            "Populations without reliable digital access are cut off from online education, remote jobs, and digital markets that increasingly drive economic opportunity",
+            "The digital divide has no measurable effect on economic outcomes whatsoever",
+            "Everyone globally has exactly equal digital access already, making this concern irrelevant",
+            "Digital access always automatically closes existing economic gaps within one generation",
+          ],
+          optionsMy: [
+            "ယုံကြည်ရသော Digital Access မရှိသော လူဦးရေများသည် စီးပွားရေး အခွင့်အလမ်းကို တိုးတက်စွာ တွန်းအားပေးနေသော Online ပညာရေး၊ Remote အလုပ်များနှင့် Digital ဈေးကွက်များမှ ဖြတ်တောက်ခံရသည်",
+            "Digital Divide သည် စီးပွားရေး ရလဒ်များအပေါ် တိုင်းတာနိုင်သော သက်ရောက်မှု မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "ကမ္ဘာတစ်ဝှမ်းရှိ လူတိုင်းသည် ယခုပင် တိကျစွာ ညီမျှသော Digital Access ရှိပြီးသား ဖြစ်၍ ဤစိုးရိမ်မှု မသက်ဆိုင်ခြင်း",
+            "Digital Access သည် တစ်မျိုးဆက်အတွင်း ရှိပြီးသား စီးပွားရေး ကွာဟချက်များကို အလိုအလျောက် အမြဲ ပြေလည်စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly echoes Term 3's poverty/wealth-gap lesson -- lack of access to a resource (there, finance; here, digital tools) tends to compound existing disadvantage rather than neutralize it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ ဆင်းရဲမွဲတေမှု/Wealth-Gap သင်ခန်းစာကို တိုက်ရိုက် ထင်ဟပ်သည် -- Resource တစ်ခုကို ဝင်ရောက်ခွင့် မရှိခြင်း (ထိုနေရာတွင် Finance၊ ဤနေရာတွင် Digital Tool များ) သည် ရှိပြီးသား အားနည်းချက်ကို Neutralize လုပ်မည့်အစား ပို၍ ဆိုးရွားစေတတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is 'digital literacy' considered a distinct barrier from simply owning a device with internet access?",
+          questionMy:
+              "'Digital Literacy' ကို Internet Access ပါသော Device တစ်ခု ပိုင်ဆိုင်ခြင်းမှ ခြားနားသော အတားအဆီးအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Effectively using digital tools for education, work, or safe communication requires learned skills, not just physical access to a device",
+            "Owning a device automatically grants full digital literacy with no learning required",
+            "Digital literacy has no relationship at all to using technology effectively",
+            "Digital literacy only matters for professional computer programmers",
+          ],
+          optionsMy: [
+            "ပညာရေး၊ အလုပ် (သို့) လုံခြုံသော ဆက်သွယ်ရေးအတွက် Digital Tool များကို ထိရောက်စွာ အသုံးပြုခြင်းသည် Device တစ်ခုကို ရုပ်ပိုင်းဆိုင်ရာ ဝင်ရောက်ခွင့်သာမက သင်ယူထားသော Skill များ လိုအပ်သည်",
+            "Device တစ်ခု ပိုင်ဆိုင်ခြင်းသည် သင်ယူမှု မလိုအပ်ဘဲ အပြည့်အစုံ Digital Literacy ကို အလိုအလျောက် ပေးအပ်ခြင်း",
+            "Digital Literacy သည် နည်းပညာကို ထိရောက်စွာ အသုံးပြုခြင်းနှင့် ဆက်စပ်မှု လုံးဝ မရှိခြင်း",
+            "Digital Literacy သည် Professional Computer Programmer များနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Someone might own a smartphone but never have learned to identify misinformation, protect passwords, or use it for schoolwork -- device ownership and functional skill are two separate things.",
+          ],
+          hintsMy: [
+            "တစ်စုံတစ်ဦးသည် Smartphone ပိုင်ဆိုင်နိုင်သော်လည်း Misinformation ခွဲခြားသိမြင်ရန်၊ Password ကာကွယ်ရန် (သို့) ကျောင်းလုပ်ငန်းအတွက် အသုံးပြုရန် ဘယ်တော့မှ သင်ယူမထားနိုင်ပါ -- Device ပိုင်ဆိုင်ခြင်းနှင့် Functional Skill သည် သီးခြားနှစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Digital Divide Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Digital Divide ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w19-dm-1",
+          termEn: "Digital divide",
+          termMy: "Digital Divide",
+          matchEn:
+              "The gap between those with reliable digital access/skills and those without",
+          matchMy:
+              "ယုံကြည်ရသော Digital Access/Skill ရှိသူများနှင့် မရှိသူများကြား ကွာဟချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w19-dm-2",
+          termEn: "Digital literacy",
+          termMy: "Digital Literacy",
+          matchEn:
+              "The learned skill of using digital tools effectively and safely",
+          matchMy:
+              "Digital Tool များကို ထိရောက်၊ လုံခြုံစွာ အသုံးပြုသော သင်ယူထားသော Skill",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w19-dm-3",
+          termEn: "Last-mile connectivity",
+          termMy: "Last-Mile Connectivity",
+          matchEn:
+              "The challenge of extending internet infrastructure to remote or rural final stretches",
+          matchMy:
+              "Internet အခြေခံအဆောက်အအုံကို ဝေးလံ (သို့) ကျေးလက် နောက်ဆုံး တစ်ခြမ်းသို့ တိုးချဲ့ရသော စိန်ခေါ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w19-dm-4",
+          termEn: "Digital inclusion",
+          termMy: "Digital Inclusion",
+          matchEn:
+              "Ensuring everyone has affordable access, devices, and skills to participate digitally",
+          matchMy:
+              "လူတိုင်းအတွက် Digitally ပါဝင်နိုင်ရန် Affordable Access၊ Device များနှင့် Skill များ ရှိစေရေး",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Digital Access Barrier or Not?",
+      titleMy: "စီစစ်ကြမည် - Digital Access အတားအဆီး ဖြစ်/မဖြစ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Digital Access Barrier", "Not a Digital Access Barrier"],
+        bucketsMy: [
+          "Digital Access အတားအဆီး",
+          "Digital Access အတားအဆီး မဟုတ်ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w19-sort-1",
+            labelEn: "Unreliable or absent electricity supply in a rural area",
+            labelMy:
+                "ကျေးလက်ဒေသတစ်ခုတွင် မယုံကြည်ရသော (သို့) မရှိသော လျှပ်စစ်ရေးရာ",
+            correctBucketEn: "Digital Access Barrier",
+            correctBucketMy: "Digital Access အတားအဆီး",
+          ),
+          SortingItem(
+            id: "igcgp-w19-sort-2",
+            labelEn:
+                "A student who owns a laptop, has reliable internet, and knows how to use it safely",
+            labelMy:
+                "Laptop ပိုင်ဆိုင်ပြီး ယုံကြည်ရသော Internet ရှိကာ လုံခြုံစွာ အသုံးပြုနည်း သိသော ကျောင်းသား",
+            correctBucketEn: "Not a Digital Access Barrier",
+            correctBucketMy: "Digital Access အတားအဆီး မဟုတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "igcgp-w19-sort-3",
+            labelEn:
+                "A family that cannot afford a smartphone or computer at all",
+            labelMy:
+                "Smartphone (သို့) Computer တစ်ခုကို လုံးဝ ဝယ်ယူနိုင်စွမ်း မရှိသော မိသားစု",
+            correctBucketEn: "Digital Access Barrier",
+            correctBucketMy: "Digital Access အတားအဆီး",
+          ),
+          SortingItem(
+            id: "igcgp-w19-sort-4",
+            labelEn:
+                "Never having learned how to identify a phishing scam or protect personal data online",
+            labelMy:
+                "Phishing Scam ခွဲခြားသိမြင်နည်း (သို့) Online တွင် ကိုယ်ရေးကိုယ်တာ Data ကာကွယ်နည်း ဘယ်တော့မှ သင်ယူထားခြင်း မရှိခြင်း",
+            correctBucketEn: "Digital Access Barrier",
+            correctBucketMy: "Digital Access အတားအဆီး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Village School Investigation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ ရွာကျောင်း စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Village School Investigation",
+        titleMy: "Su Myat Noe ၏ ရွာကျောင်း စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "For Week 19, Ko Zin Ko Ko asked students to investigate a real digital divide case study, applying the multi-layered framework from Monday's lesson. Su Myat Noe chose to research a rural village school two hours from her own city, using published reports and a phone interview with a teacher there arranged through her school's outreach program.\n\nHer investigation revealed that the digital divide there was not simply about internet access, exactly as the week's lesson had predicted. A mobile signal tower had actually been built nearby the previous year, technically providing coverage. But the school itself had no reliable electricity to charge devices consistently, most families could not afford even a basic smartphone, and the one teacher who did own a laptop had never received training on how to use it for actual classroom teaching. Su Myat Noe organized her findings using the exact three-layer structure from the lesson: infrastructure access, device affordability, and digital literacy -- and found the village was failing on all three simultaneously, not just one.\n\nShe connected her findings back to Term 3's poverty and wealth-gap lesson, arguing that the digital divide there was not an isolated problem but one more way existing economic disadvantage was compounding itself: children in that village were now falling behind not just economically, but in access to the same online educational resources increasingly available to students in better-connected areas. Her proposed solution avoided a single simplistic fix, instead recommending a layered response matching the layered problem: subsidized devices, a reliable solar power backup for the school, and basic digital-skills training for teachers. Ko Zin Ko Ko highlighted her report as a strong model of applying a theoretical framework to a real, specific case rather than discussing the digital divide only in the abstract.",
+        passageMy:
+            "Week 19 အတွက် တနင်္လာနေ့ သင်ခန်းစာမှ Multi-Layered Framework ကို အသုံးချကာ စစ်မှန်သော Digital Divide Case Study တစ်ခုကို စုံစမ်းစစ်ဆေးရန် ကျောင်းသားများကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ ၎င်း၏ ကိုယ်ပိုင် မြို့မှ နှစ်နာရီ ခရီးဝေးသော ကျေးလက် ရွာကျောင်းတစ်ခုကို ထုတ်ဝေထားသော အစီရင်ခံစာများနှင့် ၎င်း၏ ကျောင်း၏ ထုတ်ခြင်း Program မှတစ်ဆင့် စီစဉ်ထားသော ဆရာတစ်ဦးနှင့် ဖုန်း Interview တစ်ခု အသုံးပြု၍ လေ့လာရန် Su Myat Noe ရွေးချယ်ခဲ့သည်။\n\n၎င်း၏ စုံစမ်းစစ်ဆေးမှုက ထိုနေရာရှိ Digital Divide သည် အပတ်စဉ် သင်ခန်းစာက ခန့်မှန်းခဲ့သည့်အတိုင်း Internet Access အကြောင်းသာ ရိုးရှင်းစွာ မဟုတ်ကြောင်း ဖော်ထုတ်ခဲ့သည်။ Mobile Signal Tower တစ်ခုကို ယမန်နှစ်က အနီးအနားတွင် တည်ဆောက်ခဲ့ပြီးသား ဖြစ်ကာ Technically Coverage ပေးနေသည်။ သို့သော် ကျောင်းကိုယ်တိုင်တွင် Device များကို တသမတ်တည်း Charge လုပ်ရန် ယုံကြည်ရသော လျှပ်စစ် မရှိဘဲ မိသားစု အများစုသည် အခြေခံ Smartphone တစ်ခုကိုပင် ဝယ်ယူနိုင်စွမ်း မရှိကာ Laptop ပိုင်ဆိုင်သော ဆရာတစ်ဦးတည်းသည်ပင် အမှန်တကယ် Classroom သင်ကြားရေးအတွက် အသုံးပြုနည်း Training ဘယ်တော့မှ ရရှိခဲ့ခြင်း မရှိပါ။ သင်ခန်းစာမှ Layer သုံးခု ဖွဲ့စည်းပုံ - Infrastructure Access၊ Device Affordability နှင့် Digital Literacy ကို အတိအကျ အသုံးပြု၍ ၎င်း၏ တွေ့ရှိချက်များကို စုစည်းခဲ့ပြီး ရွာသည် တစ်ခုတည်းသာမက သုံးခုစလုံးတွင် တစ်ပြိုင်နက် ကျရှုံးနေကြောင်း တွေ့ရှိခဲ့သည်။\n\n၎င်း၏ တွေ့ရှိချက်များကို Term 3 ၏ ဆင်းရဲမွဲတေမှုနှင့် Wealth-Gap သင်ခန်းစာနှင့် ပြန်လည် ချိတ်ဆက်ကာ ထိုနေရာရှိ Digital Divide သည် သီးခြား ပြဿနာတစ်ခု မဟုတ်ဘဲ ရှိပြီးသား စီးပွားရေး အားနည်းချက် ကိုယ်တိုင် ခိုင်မာလာစေသော နောက်ထပ် နည်းလမ်းတစ်ခု ဖြစ်ကြောင်း ငြင်းခုံခဲ့သည် - ထိုရွာရှိ ကလေးများသည် ယခုအခါ စီးပွားရေးအရသာမက ချိတ်ဆက်မှု ပိုကောင်းသော ဒေသများရှိ ကျောင်းသားများအတွက် တိုးတက်စွာ ရရှိနိုင်လာသော Online ပညာရေး အရင်းအမြစ်များကို ဝင်ရောက်ခွင့်တွင်ပါ နောက်ကျကျန်ရစ်နေသည်။ ၎င်း၏ အဆိုပြု ဖြေရှင်းချက်သည် ရိုးရှင်းသော ဖြေရှင်းချက်တစ်ခုတည်းကို ရှောင်ကျဉ်ကာ Layered ပြဿနာနှင့် ကိုက်ညီသော Layered တုံ့ပြန်မှု - Subsidized Device များ၊ ကျောင်းအတွက် ယုံကြည်ရသော Solar Power Backup နှင့် ဆရာများအတွက် အခြေခံ Digital-Skills Training ကို အကြံပြုခဲ့သည်။ Digital Divide ကို Abstract တွင်သာ ဆွေးနွေးမည့်အစား Theoretical Framework တစ်ခုကို စစ်မှန်၊ တိကျသော Case တစ်ခုသို့ အသုံးချသော ခိုင်မာသော Model တစ်ခုအဖြစ် ၎င်း၏ Report ကို ကိုဇင်ကိုကို ဖော်ထုတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three layers of digital divide did Su Myat Noe find failing simultaneously?",
+            questionMy:
+                "Su Myat Noe တွေ့ရှိခဲ့သော Digital Divide ၏ Layer သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Infrastructure access, device affordability, and digital literacy",
+              "Only internet access, with no other issues at all",
+              "Weather conditions, food supply, and transportation only",
+              "Language barriers only, with no technical issues",
+            ],
+            optionsMy: [
+              "Infrastructure Access, Device Affordability နှင့် Digital Literacy",
+              "အခြား ပြဿနာ မည်သည်မှ မပါဘဲ Internet Access တစ်ခုတည်း",
+              "ရာသီဥတု အခြေအနေများ၊ အစားအစာ ရရှိမှုနှင့် သွားလာရေးသာ",
+              "ဘာသာစကား အတားအဆီးများသာ၊ နည်းပညာဆိုင်ရာ ပြဿနာ မပါဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence listing the three-layer structure."],
+            hintsMy: [
+              "Layer သုံးခု ဖွဲ့စည်းပုံကို စာရင်းပြုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe connect her findings to Term 3's lesson?",
+            questionMy:
+                "၎င်း၏ တွေ့ရှိချက်များကို Term 3 သင်ခန်းစာနှင့် Su Myat Noe မည်သို့ ချိတ်ဆက်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The digital divide was compounding existing economic disadvantage, not an isolated problem",
+              "There was no connection at all between the two topics",
+              "The digital divide had already been completely solved in the village",
+              "Term 3's lesson was about an entirely unrelated subject",
+            ],
+            optionsMy: [
+              "Digital Divide သည် သီးခြား ပြဿနာမဟုတ်ဘဲ ရှိပြီးသား စီးပွားရေး အားနည်းချက် ခိုင်မာလာစေခြင်း",
+              "ခေါင်းစဉ်နှစ်ခုကြား ချိတ်ဆက်မှု မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "ရွာတွင် Digital Divide သည် လုံးဝ ပြေလည်ပြီးသား ဖြစ်ခြင်း",
+              "Term 3 သင်ခန်းစာသည် လုံးဝ မဆိုင်သော ခေါင်းစဉ်တစ်ခုအကြောင်း ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's argument connecting to Term 3.",
+            ],
+            hintsMy: [
+              "Term 3 နှင့် ချိတ်ဆက်ထားသော Argument ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Ko Zin Ko Ko highlight the report as a strong model?",
+            questionMy:
+                "Report ကို ခိုင်မာသော Model တစ်ခုအဖြစ် ကိုဇင်ကိုကို ဖော်ထုတ်ခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It applied a theoretical framework to a real, specific case rather than discussing the topic only in the abstract",
+              "It was the shortest report submitted",
+              "It avoided using any framework at all",
+              "It focused only on abstract theory with no real example",
+            ],
+            optionsMy: [
+              "ခေါင်းစဉ်ကို Abstract တွင်သာ ဆွေးနွေးမည့်အစား Theoretical Framework ကို စစ်မှန်၊ တိကျသော Case တစ်ခုသို့ အသုံးချခဲ့ခြင်း",
+              "တင်သွင်းထားသော Report များအနက် အတိုဆုံး ဖြစ်ခြင်း",
+              "Framework မည်သည်မှ လုံးဝ အသုံးမပြုခဲ့ခြင်း",
+              "စစ်မှန်သော ဥပမာ မပါဘဲ Abstract Theory ကိုသာ အာရုံစိုက်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w19-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Digital Divide and Inequality",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Digital Divide နှင့် မညီမျှမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The digital divide is best described as...",
+          questionMy: "Digital Divide ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A multi-layered gap in access, affordability, and skills",
+            "A problem solved by internet access alone",
+            "An issue with no connection to economics",
+            "A concern only in wealthy countries",
+          ],
+          optionsMy: [
+            "Access, Affordability နှင့် Skill များတွင် Multi-Layered ကွာဟချက်",
+            "Internet Access တစ်ခုတည်းဖြင့် ဖြေရှင်းနိုင်သော ပြဿနာ",
+            "စီးပွားရေးနှင့် ချိတ်ဆက်မှု မရှိသော ပြဿနာ",
+            "ချမ်းသာသော နိုင်ငံများတွင်သာ စိုးရိမ်ရသော ကိစ္စ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Digital literacy refers to...",
+          questionMy: "Digital Literacy က ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "The learned skill of using digital tools effectively and safely",
+            "Simply owning a smartphone",
+            "A type of internet cable",
+            "A government tax on technology",
+          ],
+          optionsMy: [
+            "Digital Tool များကို ထိရောက်၊ လုံခြုံစွာ အသုံးပြုသော သင်ယူထားသော Skill",
+            "Smartphone တစ်ခု ပိုင်ဆိုင်ရုံသာ",
+            "Internet Cable အမျိုးအစားတစ်ခု",
+            "နည်းပညာအပေါ် အစိုးရ အခွန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Without intervention, the digital divide tends to...",
+          questionMy:
+              "ကြားဝင်စွက်ဖက်မှု မရှိပါက Digital Divide သည် ...ဖြစ်တတ်သည်",
+          optionsEn: [
+            "Reinforce existing economic inequality",
+            "Automatically disappear within one year",
+            "Have no effect on education or jobs",
+            "Only affect wealthy populations",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား စီးပွားရေး မညီမျှမှုကို ခိုင်မာစေခြင်း",
+            "တစ်နှစ်အတွင်း အလိုအလျောက် ပျောက်ကွယ်သွားခြင်း",
+            "ပညာရေး (သို့) အလုပ်အပေါ် သက်ရောက်မှု မရှိခြင်း",
+            "ချမ်းသာသော လူဦးရေကိုသာ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 5, Week 20 (Capstone/Boss Week):
+// "Technology Policy Regulation Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek20 = CourseWeekDef(
+  id: "course-igcse-gp-w20",
+  weekNumber: 20,
+  titleEn: "Technology Policy Regulation Studio",
+  titleMy: "နည်းပညာ မူဝါဒ စည်းကမ်းချက် အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w20-d1",
+      dayNumber: 1,
+      titleEn: "Designing a Balanced Technology Policy",
+      titleMy: "ဟန်ချက်ညီသော နည်းပညာ မူဝါဒ Design ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why must a genuinely balanced technology policy weigh both innovation and protection from harm, rather than favoring only one?",
+          questionMy:
+              "စစ်မှန်စွာ ဟန်ချက်ညီသော နည်းပညာ မူဝါဒတစ်ခုသည် တစ်ခုတည်းကိုသာ Favour မပြုဘဲ Innovation နှင့် ထိခိုက်မှုမှ ကာကွယ်ခြင်း နှစ်ခုစလုံးကို ချိန်ဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Overly strict regulation can stifle beneficial innovation, while too little regulation can allow real harms (bias, privacy violations, exploitation) to go unchecked",
+            "Innovation and protection from harm are never actually in any tension with each other",
+            "Regulation should always be maximized regardless of any effect on beneficial innovation",
+            "Technology policy has no real connection to either innovation or harm at all",
+          ],
+          optionsMy: [
+            "အလွန်အကျွံ တင်းကျပ်သော Regulation သည် အကျိုးရှိသော Innovation ကို ချုပ်ချယ်နိုင်ပြီး Regulation နည်းလွန်းလျှင် စစ်မှန်သော ထိခိုက်မှုများ (Bias, Privacy Violation, Exploitation) ကို မထိန်းချုပ်ဘဲ ထားနိုင်သည်",
+            "Innovation နှင့် ထိခိုက်မှုမှ ကာကွယ်ခြင်းသည် တစ်ခုနှင့်တစ်ခု ဘယ်တော့မှ Tension အမှန်တကယ် မရှိခြင်း",
+            "အကျိုးရှိသော Innovation အပေါ် သက်ရောက်မှု မည်သို့ပင်ရှိစေ Regulation ကို အမြဲ အများဆုံး ပြုလုပ်သင့်ခြင်း",
+            "နည်းပညာ မူဝါဒသည် Innovation (သို့) ထိခိုက်မှု တစ်ခုနှင့်မျှ အမှန်တကယ် ဆက်စပ်မှု လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This ties together every earlier lesson this term -- AI bias, data privacy, and the digital divide are all real harms, but heavy-handed rules could also block genuinely beneficial technology from reaching people.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခု Term ၏ ယခင် သင်ခန်းစာတိုင်းကို ပေါင်းစပ်ထားသည် -- AI Bias, Data Privacy နှင့် Digital Divide အားလုံးသည် စစ်မှန်သော ထိခိုက်မှုများ ဖြစ်သော်လည်း လွန်ကဲသော စည်းမျဉ်းများသည် စစ်မှန်သော အကျိုးရှိသော နည်းပညာကို လူများထံ ရောက်ရှိရန် ပိတ်ပင်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a technology policy proposal explicitly identify who is affected -- companies, users, and vulnerable groups -- rather than treating 'the public' as one uniform group?",
+          questionMy:
+              "နည်းပညာ မူဝါဒ Proposal တစ်ခုသည် 'Public' ကို တစ်ညီညာတည်း အုပ်စုတစ်ခုအဖြစ် သတ်မှတ်မည့်အစား ကုမ္ပဏီများ၊ User များနှင့် အားနည်းသော အုပ်စုများ -- မည်သူများ ထိခိုက်ခံစားနေရသည်ကို ရှင်းလင်းစွာ ဖော်ထုတ်သင့်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Different stakeholder groups are affected differently by the same policy, and a proposal ignoring this may fail to protect those most at risk",
+            "All stakeholder groups are always affected in exactly the same way by every policy",
+            "Identifying stakeholders has no actual impact on how effective or fair a policy is",
+            "Only companies are ever affected by technology policy, never ordinary users",
+          ],
+          optionsMy: [
+            "Stakeholder အုပ်စု မတူညီသည်များသည် Policy တူတူတစ်ခုတည်းကြောင့် ကွဲပြားစွာ ထိခိုက်ခံစားရပြီး ဤအချက်ကို လျစ်လျူရှုသော Proposal တစ်ခုသည် အန္တရာယ်အများဆုံး ရှိသူများကို ကာကွယ်ရန် ပျက်ကွက်နိုင်သည်",
+            "Stakeholder အုပ်စု အားလုံးသည် Policy တိုင်းကြောင့် အတိအကျ တူညီစွာ အမြဲ ထိခိုက်ခံစားရခြင်း",
+            "Stakeholder များ ဖော်ထုတ်ခြင်းသည် Policy တစ်ခု မည်မျှ ထိရောက် (သို့) မျှတမှု ရှိသည်ဆိုသည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "ကုမ္ပဏီများကိုသာ နည်းပညာ မူဝါဒက ဘယ်တော့မှ ထိခိုက်ခြင်း၊ သာမန် User များကို ဘယ်တော့မှ ထိခိုက်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 3's vulnerable-groups lesson -- a data privacy law that protects the average user well might still fail people with less digital literacy or fewer resources to navigate opt-out systems.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ Vulnerable-Groups သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Average User ကို ကောင်းစွာ ကာကွယ်ပေးသော Data Privacy ဥပဒေတစ်ခုသည် Digital Literacy နည်းသူများ (သို့) Opt-Out System များကို လမ်းညွှန်ရန် Resource နည်းသူများကို ဆက်လက် ပျက်ကွက်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In this week's studio, why must a proposed technology regulation explain how it will actually be enforced, not just what it prohibits?",
+          questionMy:
+              "ဤအပတ်၏ Studio တွင် အဆိုပြု နည်းပညာ Regulation တစ်ခုသည် ဘာတားမြစ်မည်ဆိုသည်ကိုသာမက မည်သို့ Enforce ပြုလုပ်မည်ကို အမှန်တကယ် ရှင်းပြရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A rule with no realistic enforcement mechanism is unlikely to actually change behavior, no matter how well-intentioned it is",
+            "Enforcement is never actually relevant to whether a policy works in practice",
+            "The most strictly worded policy always automatically enforces itself with no mechanism needed",
+            "Only international law requires any enforcement mechanism, never national policy",
+          ],
+          optionsMy: [
+            "လက်တွေ့ကျသော Enforcement Mechanism မပါသော စည်းမျဉ်းတစ်ခုသည် မည်မျှပင် ကောင်းသော ရည်ရွယ်ချက်ရှိစေကာမူ အမူအကျင့်ကို အမှန်တကယ် ပြောင်းလဲနိုင်ခြေ နည်းသည်",
+            "Enforcement သည် Policy တစ်ခု လက်တွေ့တွင် အလုပ်ဖြစ်သည် ရှိမရှိနှင့် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခြင်း မရှိခြင်း",
+            "Mechanism မည်သည်မှ မလိုအပ်ဘဲ Strictly ရေးသားထားသော Policy သည် အမြဲ အလိုအလျောက် ကိုယ်တိုင် Enforce ဖြစ်ခြင်း",
+            "International Law တစ်ခုတည်းကသာ Enforcement Mechanism လိုအပ်ပြီး National Policy ကမူ ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects back to Week 16's feasibility criterion -- a policy proposal, like an action plan, needs a realistic mechanism for making its rules actually happen, not just good intentions on paper.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 16 ၏ Feasibility Criterion သို့ ပြန်ချိတ်ဆက်သည် -- Policy Proposal တစ်ခုသည် Action Plan တစ်ခုကဲ့သို့ စာရွက်ပေါ်ရှိ ရည်ရွယ်ချက်ကောင်းသာမက ၎င်း၏ စည်းမျဉ်းများကို အမှန်တကယ် ဖြစ်ပေါ်စေရန် လက်တွေ့ကျသော Mechanism လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Technology Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 5 Technology ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w20-dm-1",
+          termEn: "Algorithmic accountability",
+          termMy: "Algorithmic Accountability",
+          matchEn:
+              "Holding organizations responsible for the outcomes their AI systems produce",
+          matchMy:
+              "AI System များ ထုတ်ပေးသော ရလဒ်များအတွက် အဖွဲ့အစည်းများ တာဝန်ခံရန်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w20-dm-2",
+          termEn: "Data minimization",
+          termMy: "Data Minimization",
+          matchEn:
+              "Collecting only the personal data genuinely necessary for a stated purpose",
+          matchMy:
+              "ဖော်ပြထားသော ရည်ရွယ်ချက်အတွက် စစ်မှန်စွာ လိုအပ်သော ကိုယ်ရေးကိုယ်တာ Data ကိုသာ စုဆောင်းခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w20-dm-3",
+          termEn: "Universal service obligation",
+          termMy: "Universal Service Obligation",
+          matchEn:
+              "A regulatory requirement that basic services reach underserved areas, not just profitable ones",
+          matchMy:
+              "အခြေခံ Service များသည် အမြတ်အစွန်းရသော နေရာများသာမက Service နည်းပါးသော ဒေသများသို့ ရောက်ရှိစေရန် Regulatory လိုအပ်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w20-dm-4",
+          termEn: "Enforcement mechanism",
+          termMy: "Enforcement Mechanism",
+          matchEn:
+              "The concrete process by which a rule's compliance is monitored and violations penalized",
+          matchMy:
+              "စည်းမျဉ်းတစ်ခု လိုက်နာမှုကို စောင့်ကြည့်ပြီး ဖောက်ဖျက်မှုများကို ပြစ်ဒဏ်ပေးသော တိကျသော Process",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Designed or Weak Policy Proposal?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းစွာ Design ပြုလုပ် (သို့) အားနည်းသော Policy Proposal",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Well-Designed Policy Proposal", "Weak Policy Proposal"],
+        bucketsMy: [
+          "ကောင်းစွာ Design ပြုလုပ်ထားသော Policy Proposal",
+          "အားနည်းသော Policy Proposal",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w20-sort-1",
+            labelEn:
+                "A rule requiring plain-language privacy notices, with a named regulator empowered to issue fines",
+            labelMy:
+                "ဖေါက်ဖျက်မှုအတွက် Fine ထုတ်ပိုင်ခွင့်ရှိသော Regulator အမည်ပါဝင်ကာ ရိုးရှင်းသော ဘာသာစကားဖြင့် Privacy Notice များ လိုအပ်သော စည်းမျဉ်း",
+            correctBucketEn: "Well-Designed Policy Proposal",
+            correctBucketMy: "ကောင်းစွာ Design ပြုလုပ်ထားသော Policy Proposal",
+          ),
+          SortingItem(
+            id: "igcgp-w20-sort-2",
+            labelEn:
+                "A vague rule saying companies should 'act responsibly' with no defined standard or enforcement",
+            labelMy:
+                "သတ်မှတ်ထားသော စံနှုန်း (သို့) Enforcement မပါဘဲ ကုမ္ပဏီများ 'တာဝန်ရှိစွာ ဆောင်ရွက်သင့်သည်' ဟု ဆိုသော Vague စည်းမျဉ်း",
+            correctBucketEn: "Weak Policy Proposal",
+            correctBucketMy: "အားနည်းသော Policy Proposal",
+          ),
+          SortingItem(
+            id: "igcgp-w20-sort-3",
+            labelEn:
+                "A regulation that bans a technology entirely with no consideration of its beneficial uses",
+            labelMy:
+                "အကျိုးရှိသော အသုံးပြုမှုများကို ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ နည်းပညာတစ်ခုကို လုံးဝ တားမြစ်သော Regulation",
+            correctBucketEn: "Weak Policy Proposal",
+            correctBucketMy: "အားနည်းသော Policy Proposal",
+          ),
+          SortingItem(
+            id: "igcgp-w20-sort-4",
+            labelEn:
+                "A digital-inclusion subsidy specifically targeted at underserved rural communities",
+            labelMy:
+                "Service နည်းပါးသော ကျေးလက်ရပ်ရွာများကို အထူးသတ်မှတ်ထားသော Digital-Inclusion Subsidy",
+            correctBucketEn: "Well-Designed Policy Proposal",
+            correctBucketMy: "ကောင်းစွာ Design ပြုလုပ်ထားသော Policy Proposal",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's AI Hiring Regulation Proposal",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ AI Hiring Regulation Proposal",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's AI Hiring Regulation Proposal",
+        titleMy: "Su Myat Noe ၏ AI Hiring Regulation Proposal",
+        passageEn:
+            "For Term 5's capstone, Ko Zin Ko Ko asked every student to write a technology policy proposal combining ideas from across the whole term, then defend it against classmates playing the role of skeptical stakeholders. Su Myat Noe chose to regulate AI hiring tools, directly returning to the algorithmic bias problem from Week 17.\n\nRather than proposing a blanket ban on AI in hiring -- which she recognized would block genuinely useful, time-saving technology for employers -- she designed a balanced rule: companies using AI to screen job applicants would be legally required to conduct an independent bias audit before deployment, publish a plain-language summary of what data the system used, and keep a human reviewer with the authority to override any AI-generated rejection. This directly combined Week 17's human-in-the-loop principle, Week 18's plain-language transparency standard, and Week 20's own emphasis on balancing innovation against harm.\n\nWhen a classmate playing a skeptical small-business owner objected that bias audits would be too expensive for smaller companies, Su Myat Noe had a specific, prepared answer rather than dismissing the concern: her proposal included a lower-cost, simplified audit tier for companies below a defined employee threshold, plus a named regulatory body with the actual legal authority to issue fines for non-compliance -- a concrete enforcement mechanism, not just a stated prohibition. She had learned from Week 16's capstone that a policy without enforcement is not a real policy at all.\n\nKo Zin Ko Ko praised the proposal for synthesizing nearly every strand of the term into one coherent, defensible policy: it named its affected stakeholders precisely, balanced innovation against real harm rather than choosing one extreme, and specified exactly how it would be enforced rather than stopping at good intentions.",
+        passageMy:
+            "Term 5 Capstone အတွက် Term တစ်ခုလုံးမှ Idea များကို ပေါင်းစပ်ထားသော နည်းပညာ မူဝါဒ Proposal တစ်ခု ရေးသားပြီး Skeptical Stakeholder များ ဇာတ်ဆောင်သော အတန်းဖော်များအား ခုခံကာကွယ်ရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ Week 17 ၏ Algorithmic Bias ပြဿနာသို့ တိုက်ရိုက် ပြန်လှည့်ကာ AI Hiring Tool များကို Regulate ပြုလုပ်ရန် Su Myat Noe ရွေးချယ်ခဲ့သည်။\n\nအလုပ်ရှင်များအတွက် စစ်မှန်စွာ အသုံးဝင်၊ အချိန်ချွေတာသော နည်းပညာကို ပိတ်ပင်မည်ဟု ၎င်း သိရှိထားသော Hiring တွင် AI ကို လုံးဝ တားမြစ်ခြင်းကို အဆိုပြုမည့်အစား ဟန်ချက်ညီသော စည်းမျဉ်းတစ်ခု Design ပြုလုပ်ခဲ့သည် - Job Applicant များကို Screen ပြုလုပ်ရန် AI အသုံးပြုသော ကုမ္ပဏီများသည် Deployment မလုပ်မီ လွတ်လပ်သော Bias Audit ပြုလုပ်ရန်၊ System အသုံးပြုသော Data ကို ရိုးရှင်းသော ဘာသာစကားဖြင့် အနှစ်ချုပ် ထုတ်ဝေရန်နှင့် AI-Generated ငြင်းပယ်မှု မည်သည်ကိုမဆို Override ပြုလုပ်ပိုင်ခွင့်ရှိသော လူသား ပြန်လည်သုံးသပ်သူတစ်ဦး ထားရှိရန် ဥပဒေအရ လိုအပ်စေမည် ဖြစ်သည်။ ဤသည်ကား Week 17 ၏ Human-in-the-Loop Principle၊ Week 18 ၏ ရိုးရှင်းသော ဘာသာစကား Transparency စံနှုန်းနှင့် Week 20 ကိုယ်ပိုင် Innovation ကို ထိခိုက်မှုနှင့် ဟန်ချက်ညှိခြင်းအား အလေးထားခြင်းတို့ကို တိုက်ရိုက် ပေါင်းစပ်ထားသည်။\n\nSkeptical Small-Business ပိုင်ရှင် ဇာတ်ဆောင်သော အတန်းဖော်တစ်ဦးက Bias Audit များသည် ကုမ္ပဏီငယ်များအတွက် ဈေးကြီးလွန်းမည်ဟု ကန့်ကွက်ချိန် စိုးရိမ်မှုကို ပယ်ချမည့်အစား Su Myat Noe တွင် တိကျ၊ ကြိုတင်ပြင်ဆင်ထားသော အဖြေတစ်ခု ရှိခဲ့သည် - ၎င်း၏ Proposal သည် သတ်မှတ်ထားသော ဝန်ထမ်း Threshold အောက်ရှိ ကုမ္ပဏီများအတွက် ဈေးသက်သာ၊ ရိုးရှင်းသော Audit Tier တစ်ခုနှင့် Non-Compliance အတွက် Fine ထုတ်ပိုင်ခွင့် ဥပဒေအရ အမှန်တကယ် ရှိသော Regulatory Body တစ်ခု အမည်ပါဝင်သည် - ဖော်ပြထားသော တားမြစ်ချက်တစ်ခုသက်သက်မက တိကျသော Enforcement Mechanism တစ်ခု ဖြစ်သည်။ Enforcement မပါသော Policy တစ်ခုသည် Policy အစစ်အမှန် လုံးဝ မဟုတ်ကြောင်း Week 16 ၏ Capstone မှ ၎င်း သင်ယူခဲ့ခြင်း ဖြစ်သည်။\n\nTerm ၏ Strand အားလုံးနီးပါးကို ညီညွတ်သော၊ ကာကွယ်နိုင်သော Policy တစ်ခုတည်းအဖြစ် Synthesize ပြုလုပ်ထားသောကြောင့် Proposal ကို ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည် - ၎င်း၏ ထိခိုက်ခံရသော Stakeholder များကို တိကျစွာ အမည်တပ်ထားပြီး Innovation ကို စစ်မှန်သော ထိခိုက်မှုနှင့် Extreme တစ်ခုကို ရွေးချယ်မည့်အစား ဟန်ချက်ညှိထားကာ ရည်ရွယ်ချက်ကောင်းတွင် ရပ်တန့်မည့်အစား မည်သို့ Enforce ပြုလုပ်မည်ကို အတိအကျ သတ်မှတ်ထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three requirements did Su Myat Noe's proposal include for AI hiring tools?",
+            questionMy:
+                "AI Hiring Tool များအတွက် Su Myat Noe ၏ Proposal ပါဝင်သော လိုအပ်ချက်သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An independent bias audit, a plain-language data summary, and a human reviewer with override authority",
+              "A complete ban on AI hiring tools with no exceptions",
+              "No requirements at all -- companies could do as they wished",
+              "A requirement that only large companies could use AI at all",
+            ],
+            optionsMy: [
+              "လွတ်လပ်သော Bias Audit, ရိုးရှင်းသော ဘာသာစကား Data အနှစ်ချုပ်နှင့် Override အာဏာရှိသော လူသား ပြန်လည်သုံးသပ်သူ",
+              "ချွင်းချက် မပါဘဲ AI Hiring Tool များကို လုံးဝ တားမြစ်ခြင်း",
+              "လိုအပ်ချက် မည်သည်မှ လုံးဝ မရှိခြင်း -- ကုမ္ပဏီများ လိုသလို လုပ်နိုင်ခြင်း",
+              "ကုမ္ပဏီကြီးများသာ AI ကို လုံးဝ အသုံးပြုနိုင်သော လိုအပ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's list of requirements."],
+            hintsMy: [
+              "လိုအပ်ချက်များ စာရင်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe address the small-business owner's cost objection?",
+            questionMy:
+                "Small-Business ပိုင်ရှင်၏ ကုန်ကျစရိတ် ကန့်ကွက်ချက်ကို Su Myat Noe မည်သို့ ဖြေရှင်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She included a lower-cost, simplified audit tier for smaller companies below a defined threshold",
+              "She ignored the objection completely without any response",
+              "She agreed the rule should not apply to any company at all",
+              "She removed the audit requirement entirely for everyone",
+            ],
+            optionsMy: [
+              "သတ်မှတ်ထားသော Threshold အောက်ရှိ ကုမ္ပဏီငယ်များအတွက် ဈေးသက်သာ၊ ရိုးရှင်းသော Audit Tier တစ်ခု ထည့်သွင်းခဲ့ခြင်း",
+              "ပြန်လည်ဖြေကြားချက် မည်သည်မှ မပါဘဲ ကန့်ကွက်ချက်ကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "ကုမ္ပဏီ မည်သည်နှင့်မျှ စည်းမျဉ်း သက်ဆိုင်မှု မရှိသင့်ကြောင်း သဘောတူခဲ့ခြင်း",
+              "လူတိုင်းအတွက် Audit လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of her prepared answer.",
+            ],
+            hintsMy: [
+              "၎င်း၏ ကြိုတင်ပြင်ဆင်ထားသော အဖြေ ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what three things did Ko Zin Ko Ko praise about the proposal?",
+            questionMy:
+                "Proposal အကြောင်း ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သော အချက်သုံးခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It named affected stakeholders, balanced innovation against harm, and specified enforcement",
+              "It was the shortest proposal submitted",
+              "It ignored stakeholders entirely",
+              "It proposed no enforcement mechanism whatsoever",
+            ],
+            optionsMy: [
+              "ထိခိုက်ခံရသော Stakeholder များကို အမည်တပ်ခဲ့ပြီး Innovation ကို ထိခိုက်မှုနှင့် ဟန်ချက်ညှိကာ Enforcement ကို သတ်မှတ်ခဲ့ခြင်း",
+              "တင်သွင်းထားသော Proposal များအနက် အတိုဆုံး ဖြစ်ခြင်း",
+              "Stakeholder များကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "Enforcement Mechanism မည်သည်မှ လုံးဝ အဆိုမပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: Technology and Digital Future Exam",
+      titleMy: "Term 5 Capstone - Technology and Digital Future စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A balanced technology policy should...",
+          questionMy: "ဟန်ချက်ညီသော နည်းပညာ မူဝါဒတစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Weigh innovation against real harm and specify enforcement",
+            "Ban all new technology without exception",
+            "Ignore who is actually affected by the rule",
+            "Avoid stating how it will be enforced",
+          ],
+          optionsMy: [
+            "Innovation ကို စစ်မှန်သော ထိခိုက်မှုနှင့် ချိန်ဆကာ Enforcement ကို သတ်မှတ်ခြင်း",
+            "နည်းပညာအသစ် အားလုံးကို ချွင်းချက်မရှိ တားမြစ်ခြင်း",
+            "စည်းမျဉ်းက အမှန်တကယ် ထိခိုက်စေသူ မည်သူဖြစ်သည်ကို လျစ်လျူရှုခြင်း",
+            "မည်သို့ Enforce ပြုလုပ်မည်ကို ဖော်ပြခြင်း ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A human-in-the-loop requirement for AI hiring tools primarily addresses...",
+          questionMy:
+              "AI Hiring Tool များအတွက် Human-in-the-Loop လိုအပ်ချက်သည် အဓိကအားဖြင့် ...ကို ဖြေရှင်းသည်",
+          optionsEn: [
+            "The risk of undetected algorithmic bias",
+            "A company's marketing budget",
+            "The speed of the hiring process only",
+            "The color of the job application form",
+          ],
+          optionsMy: [
+            "မသိရှိသော Algorithmic Bias ၏ အန္တရာယ်",
+            "ကုမ္ပဏီတစ်ခု၏ Marketing Budget",
+            "Hiring Process ၏ မြန်နှုန်းသာ",
+            "Job Application Form ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A regulation with no enforcement mechanism is best described as...",
+          questionMy:
+              "Enforcement Mechanism မပါသော Regulation တစ်ခုကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "Unlikely to actually change behavior",
+            "Guaranteed to work perfectly",
+            "The strongest possible type of policy",
+            "Irrelevant to policy design entirely",
+          ],
+          optionsMy: [
+            "အမူအကျင့်ကို အမှန်တကယ် ပြောင်းလဲနိုင်ခြေ နည်းခြင်း",
+            "ပြီးပြည့်စုံစွာ အလုပ်ဖြစ်မည်ဟု အာမခံခြင်း",
+            "ဖြစ်နိုင်ဆုံး အခိုင်မာဆုံး Policy အမျိုးအစား",
+            "Policy Design နှင့် လုံးဝ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 5: "Technology, Digital Future
+// and AI Ethics" (Weeks 17-20)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm5 = CourseTermDef(
+  id: "course-igcse-gp-t5",
+  termNumber: 5,
+  titleEn: "Technology, Digital Future and AI Ethics",
+  titleMy: "နည်းပညာ၊ Digital အနာဂတ်နှင့် AI ကျင့်ဝတ်",
+  certificateTitleEn: "Technology, Digital Future and AI Ethics",
+  certificateTitleMy: "နည်းပညာ၊ Digital အနာဂတ်နှင့် AI ကျင့်ဝတ်",
+  weeks: [_igcseGpWeek17, _igcseGpWeek18, _igcseGpWeek19, _igcseGpWeek20],
 );
 // __IGCSE_GP_MARKER__
