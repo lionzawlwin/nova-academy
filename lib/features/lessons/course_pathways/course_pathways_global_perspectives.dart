@@ -56796,3 +56796,1460 @@ const CoursePathwayDef secondary3GlobalPerspectivesPathway = CoursePathwayDef(
     _secondary3GlobalPerspectivesTerm9,
   ],
 );
+
+// =====================================================================
+// IGCSE Global Perspectives & Research -- assembled Terms 1-9
+// (protagonist: Su Myat Noe, tutor: Ko Zin Ko Ko). Built from the
+// ai_data_bridge/igcse_global_perspectives_research_all_terms.dart
+// blueprint.
+// =====================================================================
+// =====================================================================
+// IGCSE Global Perspectives -- Term 1, Week 1: "Deconstructing Global
+// Issues"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek1 = CourseWeekDef(
+  id: "course-igcse-gp-w1",
+  weekNumber: 1,
+  titleEn: "Deconstructing Global Issues",
+  titleMy: "ကမ္ဘာ့ပြဿနာများကို အပိုင်းပိုင်းခွဲ၍ လေ့လာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w1-d1",
+      dayNumber: 1,
+      titleEn: "Local-Global Links and Perspective-Taking",
+      titleMy: "Local-Global ချိတ်ဆက်မှုနှင့် Perspective-Taking",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does the term 'local-global link' mean in Global Perspectives study?",
+          questionMy:
+              "Global Perspectives ဘာသာရပ်တွင် 'Local-Global Link' ဆိုသည့် ဝေါဟာရသည် အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "The way a global issue affects, and is affected by, events and decisions at the local, community level",
+            "A rule that global issues can never have any local effect at all",
+            "A type of internet cable connecting two countries",
+            "A term used only in economics, never in social issues",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ့ပြဿနာတစ်ခုသည် Local, Community အဆင့်ရှိ ဖြစ်ရပ်များနှင့် ဆုံးဖြတ်ချက်များအပေါ် မည်သို့ သက်ရောက်ပြီး ၎င်းတို့မှ မည်သို့ သက်ရောက်ခံရကြောင်း",
+            "ကမ္ဘာ့ပြဿနာများသည် Local အဆင့်တွင် သက်ရောက်မှု လုံးဝ မရှိနိုင်ကြောင်း စည်းမျဉ်း",
+            "နိုင်ငံနှစ်ခုကို ချိတ်ဆက်ပေးသော အင်တာနက် Cable အမျိုးအစား",
+            "စီးပွားရေးတွင်သာ အသုံးပြုပြီး လူမှုရေး ပြဿနာများတွင် ဘယ်တော့မှ အသုံးမပြုသော အသုံးအနှုန်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Climate change is a global issue, but a specific flood in one village is its local effect -- and that village's farming choices can also contribute back to the global picture.",
+          ],
+          hintsMy: [
+            "ရာသီဥတု ပြောင်းလဲမှုသည် ကမ္ဘာ့ပြဿနာတစ်ခု ဖြစ်သော်လည်း ရွာတစ်ရွာ၏ တိကျသော ရေကြီးမှုသည် ၎င်း၏ Local သက်ရောက်မှု ဖြစ်သည် -- ထို ရွာ၏ လယ်ယာစိုက်ပျိုးရေး ရွေးချယ်မှုများသည်လည်း ကမ္ဘာ့ပုံရိပ်ကို ပြန်လည် ထောက်ပံ့ပေးနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is 'perspective-taking' a core research skill in Global Perspectives?",
+          questionMy:
+              "Global Perspectives တွင် 'Perspective-Taking' သည် အဘယ်ကြောင့် အဓိက သုတေသန Skill တစ်ခု ဖြစ်သနည်း။",
+          optionsEn: [
+            "It requires genuinely understanding how an issue looks from a viewpoint different from your own, not just restating your own opinion",
+            "It means only ever researching topics from your own country's viewpoint",
+            "It requires memorising a fixed list of facts with no analysis",
+            "It is only relevant to economics, not to social or environmental issues",
+          ],
+          optionsMy: [
+            "ပြဿနာတစ်ခု ကိုယ်ပိုင် သဘောထား ပြန်ပြောရုံသာမက ကိုယ်ပိုင် ရှုထောင့်နှင့် ကွဲပြားသော ရှုထောင့်မှ မည်သို့ ပေါ်လာသည်ကို စစ်မှန်စွာ နားလည်ရန် တောင်းဆိုခြင်း",
+            "ကိုယ်ပိုင် နိုင်ငံ၏ ရှုထောင့်မှသာ Topic များကို အမြဲ သုတေသန ပြုလုပ်ရန် ဆိုလိုခြင်း",
+            "ခွဲခြမ်းစိတ်ဖြာမှု မပါဘဲ Fixed List အချက်များကို အလွတ်ကျက်မှတ်ရန် တောင်းဆိုခြင်း",
+            "စီးပွားရေးတွင်သာ သက်ဆိုင်ပြီး လူမှုရေး (သို့) ပတ်ဝန်းကျင် ပြဿနာများနှင့် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A farmer, a factory owner, and an environmental activist may all view the same dam project completely differently -- understanding each view genuinely is perspective-taking.",
+          ],
+          hintsMy: [
+            "လယ်သမား၊ စက်ရုံပိုင်ရှင်နှင့် ပတ်ဝန်းကျင် တက်ကြွလှုပ်ရှားသူတစ်ဦးသည် ရေကာတာ Project တစ်ခုတည်းကို လုံးဝ ကွဲပြားစွာ မြင်နိုင်သည် -- Viewpoint တစ်ခုစီကို စစ်မှန်စွာ နားလည်ခြင်းသည် Perspective-Taking ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When identifying the 'causes and consequences' of a global issue, what is the most important discipline to maintain?",
+          questionMy:
+              "ကမ္ဘာ့ပြဿနာတစ်ခု၏ 'Causes and Consequences' ကို ဖော်ထုတ်ရာတွင် ထိန်းသိမ်းရမည့် အရေးအကြီးဆုံး စည်းကမ်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Distinguishing a genuine cause from a mere correlation, and tracing consequences that are actually supported by evidence",
+            "Listing as many causes as possible with no regard for whether they are actually connected",
+            "Assuming the first cause you think of is automatically correct",
+            "Ignoring consequences entirely and focusing only on causes",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Cause တစ်ခုကို Correlation ရိုးရိုးနှင့် ခွဲခြားပြီး အထောက်အထားက အမှန်တကယ် ထောက်ပံ့သော Consequence များကို ခြေရာခံခြင်း",
+            "ချိတ်ဆက်မှု ရှိမရှိ ဂရုမစိုက်ဘဲ Cause ဖြစ်နိုင်သမျှ များများ စာရင်းပြုခြင်း",
+            "ပထမဆုံး ထင်မိသော Cause ကို အလိုအလျောက် မှန်ကန်သည်ဟု ယူဆခြင်း",
+            "Consequence များကို လုံးဝ လျစ်လျူရှုပြီး Cause များကိုသာ အာရုံစိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Two things happening at the same time does not automatically mean one caused the other -- this is the classic 'correlation is not causation' trap.",
+          ],
+          hintsMy: [
+            "အရာနှစ်ခု တစ်ချိန်တည်း ဖြစ်ခြင်းသည် တစ်ခုက အခြားတစ်ခုကို ဖြစ်စေသည်ဟု အလိုအလျောက် ဆိုလိုခြင်း မဟုတ်ပါ -- ၎င်းသည် 'Correlation is not Causation' ဟူသော ရိုးရာ Trap ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Global Issues Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Global Issues ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w1-dm-1",
+          termEn: "Local-global link",
+          termMy: "Local-Global Link",
+          matchEn:
+              "The two-way connection between a global issue and its effects at the community level",
+          matchMy:
+              "ကမ္ဘာ့ပြဿနာတစ်ခုနှင့် Community အဆင့်ရှိ ၎င်း၏ သက်ရောက်မှုများကြား နှစ်ဖက်လမ်း ချိတ်ဆက်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w1-dm-2",
+          termEn: "Perspective-taking",
+          termMy: "Perspective-Taking",
+          matchEn:
+              "Genuinely understanding how an issue looks from a viewpoint different from your own",
+          matchMy:
+              "ပြဿနာတစ်ခု ကိုယ်ပိုင် ရှုထောင့်နှင့် ကွဲပြားသော ရှုထောင့်မှ မည်သို့ ပေါ်လာသည်ကို စစ်မှန်စွာ နားလည်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w1-dm-3",
+          termEn: "Cause",
+          termMy: "Cause",
+          matchEn:
+              "A factor that genuinely brings about an event or issue, rather than merely coinciding with it",
+          matchMy:
+              "ဖြစ်ရပ် (သို့) ပြဿနာတစ်ခုနှင့် အတူ ကိုက်ညီရုံသာမက စစ်မှန်စွာ ဖြစ်ပေါ်စေသော အချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w1-dm-4",
+          termEn: "Consequence",
+          termMy: "Consequence",
+          matchEn:
+              "An outcome or effect that follows from an issue, supported by evidence",
+          matchMy:
+              "အထောက်အထားက ထောက်ပံ့ထားသော ပြဿနာတစ်ခုမှ ဆက်လက်ဖြစ်ပေါ်လာသော ရလဒ် (သို့) သက်ရောက်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w1-dm-5",
+          termEn: "Correlation",
+          termMy: "Correlation",
+          matchEn:
+              "Two things occurring together, which does not by itself prove one caused the other",
+          matchMy:
+              "အရာနှစ်ခု အတူတကွ ဖြစ်ပျက်ခြင်း၊ ၎င်းတစ်ခုတည်းက တစ်ခုက အခြားတစ်ခုကို ဖြစ်စေသည်ဟု သက်သေမပြနိုင်ပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause or Consequence?",
+      titleMy: "စီစစ်ကြမည် - Cause လား Consequence လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cause", "Consequence"],
+        bucketsMy: ["Cause", "Consequence"],
+        items: [
+          SortingItem(
+            id: "igcgp-w1-sort-1",
+            labelEn: "Rising global temperatures from greenhouse gas emissions",
+            labelMy:
+                "Greenhouse Gas ထုတ်လွှတ်မှုမှ တက်လာသော ကမ္ဘာလုံးဆိုင်ရာ အပူချိန်",
+            correctBucketEn: "Cause",
+            correctBucketMy: "Cause",
+          ),
+          SortingItem(
+            id: "igcgp-w1-sort-2",
+            labelEn: "More frequent flooding in low-lying coastal towns",
+            labelMy:
+                "ကမ်းရိုးတန်း နိမ့်သော မြို့များတွင် ရေကြီးမှု ပိုမို မကြာခဏ ဖြစ်ခြင်း",
+            correctBucketEn: "Consequence",
+            correctBucketMy: "Consequence",
+          ),
+          SortingItem(
+            id: "igcgp-w1-sort-3",
+            labelEn:
+                "A factory relocating to a country with lower labour costs",
+            labelMy:
+                "စက်ရုံတစ်ခု လုပ်အားခ ပို၍ ဈေးသက်သာသော နိုင်ငံသို့ ပြောင်းရွှေ့ခြင်း",
+            correctBucketEn: "Cause",
+            correctBucketMy: "Cause",
+          ),
+          SortingItem(
+            id: "igcgp-w1-sort-4",
+            labelEn: "Rising local unemployment in the town the factory left",
+            labelMy:
+                "စက်ရုံ ထွက်ခွာသွားသော မြို့တွင် Local အလုပ်လက်မဲ့ တက်လာခြင်း",
+            correctBucketEn: "Consequence",
+            correctBucketMy: "Consequence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's River Investigation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ မြစ် စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's River Investigation",
+        titleMy: "Su Myat Noe ၏ မြစ် စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "For her first Global Perspectives task, Su Myat Noe chose to investigate why the river near her town had become visibly more polluted over the past five years. Her tutor, Ko Zin Ko Ko, warned her against jumping straight to a single explanation and instead asked her to deconstruct the issue into every plausible local-global link before writing a single conclusion. She began locally: a new textile factory upstream had opened four years ago, and villagers had also mentioned using more plastic packaging than before as convenience shops multiplied.\n\nBut Ko Zin Ko Ko pushed her to look upward too -- was there a global-level factor connecting to this local story? Su Myat Noe researched and discovered that global demand for cheap, fast-fashion clothing had risen sharply over the same period, and that demand was exactly why textile factories like the one upstream had expanded production so quickly with limited environmental oversight. She now had three candidate causes -- the factory, plastic packaging, and global fashion demand -- and Ko Zin Ko Ko asked her the discipline question: which were genuine causes with real supporting evidence, and which were merely things that happened to occur around the same time?\n\nSu Myat Noe returned to test water samples and interview factory workers, discovering the factory's own records showed a documented increase in untreated wastewater discharge matching the timeline of pollution reports almost exactly -- strong evidence of genuine causation, not mere coincidence. Plastic packaging, by contrast, contributed visible litter but her testing showed it was not linked to the specific chemical contamination in the water samples, making it a real but separate, smaller issue rather than the primary cause. She wrote her first research note with a discipline she would carry through the whole course: state only what the evidence actually supports, and be honest about what remains merely correlated rather than proven to be causal.",
+        passageMy:
+            "သူ့ ပထမဆုံး Global Perspectives Task အတွက် သူ့ မြို့နားရှိ မြစ်သည် လွန်ခဲ့သော နှစ်ငါးနှစ်တာ အတွင်း ရှင်းရှင်းလင်းလင်း ညစ်ညမ်းလာရသည့် အကြောင်းရင်းကို စုံစမ်းစစ်ဆေးရန် Su Myat Noe ရွေးချယ်ခဲ့သည်။ ၎င်း၏ ဆရာ ကိုဇင်ကိုကိုသည် ရှင်းပြချက်တစ်ခုတည်းသို့ တိုက်ရိုက် ခုန်ဝင်မည့်အစား ကောက်ချက်တစ်ခုမျှ မရေးမီ ပြဿနာကို ဖြစ်နိုင်သော Local-Global Link တိုင်းအဖြစ် ဦးစွာ ခွဲခြမ်းစိတ်ဖြာရန် သတိပေးခဲ့သည်။ Local အနေဖြင့် သူ စတင်ခဲ့သည် - မြစ်အထက်ပိုင်းရှိ အထည်ချုပ်စက်ရုံ အသစ်တစ်ခု လွန်ခဲ့သော လေးနှစ်က ဖွင့်လှစ်ခဲ့ပြီး Convenience Shop များ တိုးများလာသည်နှင့်အမျှ ရွာသားများက Plastic Packaging ပို၍ အသုံးပြုနေကြောင်းလည်း ဖော်ပြခဲ့ကြသည်။\n\nသို့သော် အထက်ဘက်ကိုလည်း ကြည့်ရှုရန် ကိုဇင်ကိုကို တွန်းအားပေးခဲ့သည် -- ဤ Local ဇာတ်လမ်းနှင့် ချိတ်ဆက်သော Global-Level Factor တစ်ခု ရှိပါသလား။ ဈေးသက်သာ၊ လျင်မြန်စွာ ဖက်ရှင် အဝတ်အထည်များအတွက် ကမ္ဘာလုံးဆိုင်ရာ ဝယ်လိုအား ကာလတူတူ ပြင်းထန်စွာ တက်လာကြောင်း၊ ထို ဝယ်လိုအားသည် အထက်ပိုင်းရှိ စက်ရုံကဲ့သို့ အထည်ချုပ်စက်ရုံများ ပတ်ဝန်းကျင် စောင့်ကြည့်မှု ကန့်သတ်ချက်ဖြင့် ထုတ်လုပ်မှုကို ဤမျှ လျင်မြန်စွာ ချဲ့ထွင်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း Su Myat Noe သုတေသန ပြုလုပ်၍ တွေ့ရှိခဲ့သည်။ ယခု Cause ဖြစ်နိုင်သည် သုံးခု ရှိလာခဲ့သည် -- စက်ရုံ၊ Plastic Packaging နှင့် Global ဖက်ရှင် ဝယ်လိုအား -- ကိုဇင်ကိုကို စည်းကမ်းဆိုင်ရာ မေးခွန်းကို သူ့ကို မေးမြန်းခဲ့သည် - မည်သည်က အထောက်အထားအစစ်နှင့် စစ်မှန်သော Cause ဖြစ်ပြီး မည်သည်က ကာလတူတူသာ ဖြစ်ပျက်ခဲ့သော အရာများ ဖြစ်သနည်း။\n\nရေနမူနာများ Test လုပ်ပြီး စက်ရုံ အလုပ်သမားများကို Interview ပြန်လုပ်ရန် Su Myat Noe ပြန်သွားခဲ့ပြီး Treat မလုပ်ရသေးသော Wastewater စွန့်ထုတ်မှု တိုးလာခြင်းသည် ညစ်ညမ်းမှု Report များ၏ အချိန်ဇယားနှင့် နီးပါး အတိအကျ ကိုက်ညီကြောင်း ဖော်ပြသော မှတ်တမ်းများကို စက်ရုံ၏ ကိုယ်ပိုင် မှတ်တမ်းများက ပြသခဲ့ကြောင်း တွေ့ရှိခဲ့သည် -- ကာလတူတူ ရိုးရိုးမဟုတ်ဘဲ စစ်မှန်သော Causation ၏ ခိုင်မာသော အထောက်အထား ဖြစ်သည်။ ဆန့်ကျင်ဘက်အားဖြင့် Plastic Packaging သည် မြင်သာသော အမှိုက်များကို ထောက်ပံ့ခဲ့သော်လည်း ရေနမူနာများရှိ တိကျသော ဓာတုဆိုင်ရာ ညစ်ညမ်းမှုနှင့် ချိတ်ဆက်မှု မရှိကြောင်း ၎င်း၏ Test က ပြသခဲ့ပြီး ၎င်းသည် အဓိက Cause အစား စစ်မှန်သော်လည်း သီးခြား၊ ပို၍သေးငယ်သော ပြဿနာ ဖြစ်စေခဲ့သည်။ သင်တန်းတစ်ခုလုံးတစ်လျှောက် ဆက်လက် ယူဆောင်သွားမည့် စည်းကမ်းတစ်ခုဖြင့် သူ့ ပထမဆုံး သုတေသန မှတ်စုကို သူ ရေးသားခဲ့သည် - အထောက်အထားက အမှန်တကယ် ထောက်ပံ့သည့်အရာကိုသာ ဖော်ပြပါ၊ Causal ဟု သက်သေမပြရသေးဘဲ Correlate ရုံသာ ဖြစ်နေသေးသောအရာနှင့်ပတ်သက်၍ ရိုးသားပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two local factors did Su Myat Noe initially identify?",
+            questionMy:
+                "Su Myat Noe ဦးစွာ ဖော်ထုတ်ခဲ့သော Local Factor နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A new upstream textile factory and increased plastic packaging use",
+              "A new highway and a change in local government",
+              "A drought and a change in fish population",
+              "A new school and a new hospital",
+            ],
+            optionsMy: [
+              "မြစ်အထက်ပိုင်းရှိ အထည်ချုပ်စက်ရုံ အသစ်နှင့် Plastic Packaging အသုံးပြုမှု တိုးလာခြင်း",
+              "လမ်းမကြီးအသစ်နှင့် Local အစိုးရ ပြောင်းလဲမှု",
+              "မိုးခေါင်ခြင်းနှင့် ငါးအရေအတွက် ပြောင်းလဲမှု",
+              "ကျောင်းအသစ်နှင့် ဆေးရုံအသစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what global-level factor did Su Myat Noe connect to the local story?",
+            questionMy:
+                "Local ဇာတ်လမ်းနှင့် Su Myat Noe ချိတ်ဆက်ခဲ့သော Global-Level Factor ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rising global demand for cheap, fast-fashion clothing",
+              "A new international trade agreement",
+              "A global decline in textile prices",
+              "A worldwide shortage of cotton",
+            ],
+            optionsMy: [
+              "ဈေးသက်သာ၊ လျင်မြန်စွာ ဖက်ရှင် အဝတ်အထည်များအတွက် ကမ္ဘာလုံးဆိုင်ရာ ဝယ်လိုအား တက်လာခြင်း",
+              "နိုင်ငံတကာ ကုန်သွယ်ရေး သဘောတူညီချက် အသစ်",
+              "အထည်ချုပ် ဈေးနှုန်းများ ကမ္ဘာလုံးဆိုင်ရာ ကျဆင်းခြင်း",
+              "ကွမ်း ကမ္ဘာလုံးဆိုင်ရာ ရှားပါးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about global fashion demand."],
+            hintsMy: [
+              "Global ဖက်ရှင် ဝယ်လိုအားအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was the factory confirmed as a genuine cause rather than a mere correlation?",
+            questionMy:
+                "စက်ရုံသည် Correlation ရိုးရိုးအစား စစ်မှန်သော Cause အဖြစ် အတည်ပြုခံခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its own records showed increased wastewater discharge matching the pollution timeline almost exactly",
+              "The factory admitted guilt without any evidence being checked",
+              "No testing was actually performed",
+              "The plastic packaging was found to be the true cause instead",
+            ],
+            optionsMy: [
+              "၎င်း၏ ကိုယ်ပိုင် မှတ်တမ်းများက Wastewater စွန့်ထုတ်မှု တိုးလာခြင်းသည် ညစ်ညမ်းမှု အချိန်ဇယားနှင့် နီးပါး အတိအကျ ကိုက်ညီကြောင်း ပြသခဲ့ခြင်း",
+              "အထောက်အထား မစစ်ဆေးဘဲ စက်ရုံက အပြစ်ကို ဝန်ခံခဲ့ခြင်း",
+              "Test လုပ်ငန်း မည်သည်ကိုမျှ အမှန်တကယ် မပြုလုပ်ခဲ့ခြင်း",
+              "Plastic Packaging သည် စစ်မှန်သော Cause ဖြစ်ကြောင်း ယင်းအစား တွေ့ရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the factory's own records."],
+            hintsMy: [
+              "စက်ရုံ၏ ကိုယ်ပိုင် မှတ်တမ်းများအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Deconstructing Global Issues",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - ကမ္ဘာ့ပြဿနာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A local-global link describes...",
+          questionMy: "Local-Global Link က ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "The two-way connection between a global issue and community-level effects",
+            "A rule that global issues never have local effects",
+            "A type of internet infrastructure",
+            "A term unique to economics only",
+          ],
+          optionsMy: [
+            "ကမ္ဘာ့ပြဿနာတစ်ခုနှင့် Community-Level သက်ရောက်မှုများကြား နှစ်ဖက်လမ်း ချိတ်ဆက်မှု",
+            "ကမ္ဘာ့ပြဿနာများသည် Local သက်ရောက်မှု ဘယ်တော့မှ မရှိကြောင်း စည်းမျဉ်း",
+            "အင်တာနက် Infrastructure အမျိုးအစား",
+            "စီးပွားရေးအတွက်သာ ထူးခြားသော အသုံးအနှုန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Correlation without further evidence is NOT enough to prove...",
+          questionMy:
+              "ထပ်ဆောင်း အထောက်အထား မပါသော Correlation သည် ...ကို သက်သေပြရန် မလုံလောက်ပါ",
+          optionsEn: [
+            "Causation",
+            "That two events happened",
+            "That data was collected",
+            "That a topic exists",
+          ],
+          optionsMy: [
+            "Causation",
+            "ဖြစ်ရပ်နှစ်ခု ဖြစ်ပျက်ခဲ့ကြောင်း",
+            "Data စုဆောင်းခဲ့ကြောင်း",
+            "Topic တစ်ခု ရှိကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Perspective-taking requires...",
+          questionMy: "Perspective-Taking သည် ...ကို တောင်းဆိုသည်",
+          optionsEn: [
+            "Genuinely understanding a viewpoint different from your own",
+            "Only ever repeating your own opinion",
+            "Ignoring all other viewpoints",
+            "Memorising a fixed list with no analysis",
+          ],
+          optionsMy: [
+            "ကိုယ်ပိုင် ရှုထောင့်နှင့် ကွဲပြားသော Viewpoint ကို စစ်မှန်စွာ နားလည်ခြင်း",
+            "ကိုယ်ပိုင် သဘောထားကိုသာ အမြဲ ထပ်ခါထပ်ခါ ပြောခြင်း",
+            "အခြား Viewpoint အားလုံးကို လျစ်လျူရှုခြင်း",
+            "ခွဲခြမ်းစိတ်ဖြာမှု မပါဘဲ Fixed List ကို အလွတ်ကျက်မှတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 1, Week 2: "Evaluating Sources and
+// Evidence"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek2 = CourseWeekDef(
+  id: "course-igcse-gp-w2",
+  weekNumber: 2,
+  titleEn: "Evaluating Sources and Evidence",
+  titleMy: "သတင်းရင်းမြစ်များနှင့် အထောက်အထားများကို အကဲဖြတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w2-d1",
+      dayNumber: 1,
+      titleEn: "Credibility, Bias and Fact vs Opinion",
+      titleMy: "Credibility, Bias နှင့် Fact vs Opinion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a fact and an opinion in a source?",
+          questionMy:
+              "Source တစ်ခုတွင် Fact နှင့် Opinion ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A fact can be independently verified against evidence; an opinion is a personal judgement that may or may not be shared by others",
+            "A fact and an opinion are simply two different names for the exact same thing",
+            "An opinion is always false, while a fact is always true",
+            "A fact can only ever be a number, never a written statement",
+          ],
+          optionsMy: [
+            "Fact ကို အထောက်အထားနှင့် ဆန့်ကျင်၍ လွတ်လပ်စွာ အတည်ပြုနိုင်သော်လည်း Opinion သည် အခြားသူများ မျှဝေမည် (သို့) မျှဝေမည်မဟုတ်သော ကိုယ်ပိုင် စီရင်ဆုံးဖြတ်ချက် ဖြစ်သည်",
+            "Fact နှင့် Opinion သည် အရာတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်သည်",
+            "Opinion သည် အမြဲ မှားယွင်းပြီး Fact သည် အမြဲ မှန်ကန်သည်",
+            "Fact သည် ဂဏန်းသာ ဖြစ်နိုင်ပြီး ရေးသား ဖော်ပြချက်တစ်ခု ဘယ်တော့မှ မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'The city's population is 5 million' is checkable against census data (fact); 'this city is the best place to live' reflects a value judgement (opinion).",
+          ],
+          hintsMy: [
+            "'မြို့၏ လူဦးရေသည် ငါးသန်း ဖြစ်သည်' သည် သန်းခေါင်စာရင်း Data နှင့် စစ်ဆေးနိုင်သည် (Fact); 'ဤမြို့သည် နေထိုင်ရန် အကောင်းဆုံးနေရာ ဖြစ်သည်' သည် တန်ဖိုးထား စီရင်ဆုံးဖြတ်ချက်ကို ထင်ဟပ်သည် (Opinion)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A news article about a mining company's environmental record is written by a journalist paid by that same company. What should a researcher immediately consider?",
+          questionMy:
+              "သတ္တု တွင်းတူးရေး ကုမ္ပဏီတစ်ခု၏ ပတ်ဝန်းကျင် မှတ်တမ်းအကြောင်း သတင်းဆောင်းပါးတစ်ခုကို ထို ကုမ္ပဏီတည်းက ငွေပေးချေသော သတင်းထောက်တစ်ဦးက ရေးသားသည်။ သုတေသနပညာရှင်တစ်ဦးက ချက်ချင်း ထည့်သွင်းစဉ်းစားသင့်သည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A potential conflict of interest that could bias the article's content in the company's favour",
+            "Nothing at all -- payment source never affects article content",
+            "That the article must automatically be completely false",
+            "That journalists can never be paid by any organisation",
+          ],
+          optionsMy: [
+            "ဆောင်းပါး၏ အကြောင်းအရာကို ကုမ္ပဏီဘက်သို့ ဘက်လိုက်စေနိုင်သော ဖြစ်နိုင်ခြေရှိ Conflict of Interest",
+            "မည်သည့်အရာမျှ -- ငွေပေးချေမှု Source သည် ဆောင်းပါး အကြောင်းအရာကို ဘယ်တော့မှ မထိခိုက်ခြင်း",
+            "ဆောင်းပါးသည် လုံးဝ မှားယွင်းကြောင်း အလိုအလျောက် ဖြစ်ခြင်း",
+            "သတင်းထောက်များအား Organisation မည်သည်ကမျှ ဘယ်တော့မှ ငွေပေးချေ၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The source's funding does not automatically make it false, but it is a strong reason to cross-check its claims against independent sources.",
+          ],
+          hintsMy: [
+            "Source ၏ ရန်ပုံငွေ သည် ၎င်းကို အလိုအလျောက် မှားယွင်းစေခြင်း မဟုတ်သော်လည်း ၎င်း၏ Claim များကို Independent Source များနှင့် Cross-Check ပြုလုပ်ရန် ခိုင်မာသော အကြောင်းရင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following is the strongest technique for assessing a source's reliability?",
+          questionMy:
+              "Source တစ်ခု၏ Reliability ကို အကဲဖြတ်ရန် အောက်ပါအနက် အခိုင်မာဆုံး နည်းစနစ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Cross-referencing its claims against multiple independent sources with different interests",
+            "Trusting the source simply because it looks professionally designed",
+            "Only ever using a single source for any claim",
+            "Assuming any source published online is automatically reliable",
+          ],
+          optionsMy: [
+            "မတူညီသော Interest ရှိသော Independent Source များစွာနှင့် ၎င်း၏ Claim များကို Cross-Reference ပြုလုပ်ခြင်း",
+            "Professionally Design ဖြစ်နေရုံဖြင့် Source ကို ယုံကြည်ခြင်း",
+            "Claim တစ်ခုအတွက် Source တစ်ခုတည်းကိုသာ ဘယ်တော့မှ အသုံးပြုခြင်း",
+            "အွန်လိုင်းတွင် ထုတ်ဝေထားသော Source မည်သည်ကိုမဆို အလိုအလျောက် Reliable ဟု ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If three independent sources with no shared interest all confirm the same claim, that claim is much more credible than one source alone.",
+          ],
+          hintsMy: [
+            "မျှဝေထားသော Interest မရှိသော Independent Source သုံးခုက Claim တစ်ခုတည်းကို အတည်ပြုပါက ထို Claim သည် Source တစ်ခုတည်းထက် ပို၍ ယုံကြည်ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Source Evaluation Terms",
+      titleMy: "တွဲစပ်ကြမည် - Source Evaluation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w2-dm-1",
+          termEn: "Credibility",
+          termMy: "Credibility",
+          matchEn:
+              "How trustworthy and believable a source is, based on its expertise and track record",
+          matchMy:
+              "Source တစ်ခု၏ ကျွမ်းကျင်မှုနှင့် Track Record အပေါ် အခြေခံ၍ ယုံကြည်ရ၊ ယုံကြည်နိုင်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w2-dm-2",
+          termEn: "Bias",
+          termMy: "Bias",
+          matchEn:
+              "A tendency to favour one particular viewpoint, often distorting how information is presented",
+          matchMy:
+              "ဖော်ပြချက် ကို မကြာခဏ ချို့ယွင်းစေသော တိကျသော Viewpoint တစ်ခုကို ဦးစားပေးသည့် ခံယူချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w2-dm-3",
+          termEn: "Conflict of interest",
+          termMy: "Conflict of Interest",
+          matchEn:
+              "A situation where a source's funding or affiliation could bias its content",
+          matchMy:
+              "Source တစ်ခု၏ ရန်ပုံငွေ (သို့) ဆက်စပ်မှုက ၎င်း၏ အကြောင်းအရာကို ဘက်လိုက်စေနိုင်သည့် အခြေအနေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w2-dm-4",
+          termEn: "Fact",
+          termMy: "Fact",
+          matchEn:
+              "A statement that can be independently verified against evidence",
+          matchMy:
+              "အထောက်အထားနှင့် ဆန့်ကျင်၍ လွတ်လပ်စွာ အတည်ပြုနိုင်သော ဖော်ပြချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w2-dm-5",
+          termEn: "Opinion",
+          termMy: "Opinion",
+          matchEn:
+              "A personal judgement or belief that may not be shared by everyone",
+          matchMy:
+              "လူတိုင်း မျှဝေချင်း မဖြစ်နိုင်သော ကိုယ်ပိုင် စီရင်ဆုံးဖြတ်ချက် (သို့) ယုံကြည်ချက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fact or Opinion?",
+      titleMy: "စီစစ်ကြမည် - Fact လား Opinion လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fact", "Opinion"],
+        bucketsMy: ["Fact", "Opinion"],
+        items: [
+          SortingItem(
+            id: "igcgp-w2-sort-1",
+            labelEn: "The country's average annual rainfall is 1,800mm",
+            labelMy: "နိုင်ငံ၏ ပျမ်းမျှ နှစ်စဉ် မိုးရေချိန်သည် 1,800mm ဖြစ်သည်",
+            correctBucketEn: "Fact",
+            correctBucketMy: "Fact",
+          ),
+          SortingItem(
+            id: "igcgp-w2-sort-2",
+            labelEn: "This is the most beautiful country in the world",
+            labelMy: "ဤသည်ကား ကမ္ဘာပေါ်တွင် အလှဆုံး နိုင်ငံ ဖြစ်သည်",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "Opinion",
+          ),
+          SortingItem(
+            id: "igcgp-w2-sort-3",
+            labelEn:
+                "Unemployment rose by 2 percent last year according to government records",
+            labelMy:
+                "အစိုးရ မှတ်တမ်းများအရ ပြီးခဲ့သောနှစ်က အလုပ်လက်မဲ့ ၂ ရာခိုင်နှုန်း တက်လာသည်",
+            correctBucketEn: "Fact",
+            correctBucketMy: "Fact",
+          ),
+          SortingItem(
+            id: "igcgp-w2-sort-4",
+            labelEn:
+                "The government's economic policy is clearly a complete failure",
+            labelMy:
+                "အစိုးရ၏ စီးပွားရေး မူဝါဒသည် ရှင်းရှင်းလင်းလင်း လုံးဝ ကျရှုံးမှုတစ်ခု ဖြစ်သည်",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "Opinion",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Source Comparison",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Source နှိုင်းယှဉ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Source Comparison",
+        titleMy: "Su Myat Noe ၏ Source နှိုင်းယှဉ်မှု",
+        passageEn:
+            "Ko Zin Ko Ko gave Su Myat Noe three sources about a proposed new highway and asked her to evaluate each one's credibility before using any of them in her research. The first was a press release from the construction company itself, describing the highway as bringing 'guaranteed prosperity' to every town it passed through. The second was an independent economic research institute's report, based on data from similar highway projects in other regions, estimating moderate economic benefits alongside specific costs to small businesses displaced by construction. The third was a single resident's social media post claiming the highway would 'ruin everything,' with no supporting data at all.\n\nSu Myat Noe immediately flagged the construction company's press release as carrying an obvious conflict of interest -- the company profits directly from the highway being approved, so its claim of 'guaranteed prosperity' needed to be treated as a persuasive opinion dressed as fact, not independently verified information. The lone social media post, she noted, was a single individual's opinion with zero supporting evidence -- potentially a genuine concern worth investigating further, but not something she could cite as established fact on its own.\n\nThe economic research institute's report stood out for a specific reason Ko Zin Ko Ko asked her to name precisely: it had no direct financial stake in whether the highway was built, its estimates were grounded in comparable data from other real projects rather than speculation, and it explicitly stated both benefits and costs rather than arguing for only one side. Su Myat Noe concluded her evaluation with a rule she would apply throughout the course: a source's independence from the outcome, combined with a transparent methodology, mattered far more to credibility than how confident or professional its claims sounded.",
+        passageMy:
+            "အဆိုပြုထားသော လမ်းမကြီးအသစ်တစ်ခုအကြောင်း Source သုံးခုကို Su Myat Noe ကို ကိုဇင်ကိုကို ပေးအပ်ခဲ့ပြီး သူ့ သုတေသနတွင် မည်သည်ကိုမျှ မသုံးမီ တစ်ခုစီ၏ Credibility ကို အကဲဖြတ်ရန် တောင်းဆိုခဲ့သည်။ ပထမတစ်ခုမှာ လမ်းမကြီးသည် ၎င်း ဖြတ်သန်းသွားသော မြို့တိုင်းသို့ 'ကတိသေချာသော ကြီးပွားချမ်းသာမှု' ယူဆောင်လာလိမ့်မည်ဟု ဖော်ပြသော ဆောက်လုပ်ရေး ကုမ္ပဏီ ကိုယ်တိုင်၏ Press Release ဖြစ်သည်။ ဒုတိယတစ်ခုမှာ အခြား ဒေသများရှိ ဆင်တူသော လမ်းမကြီး Project များ၏ Data ကို အခြေခံ၍ Construction ကြောင့် နေရာပြောင်းရွှေ့ခဲ့ရသော လုပ်ငန်းငယ်များ၏ တိကျသော ကုန်ကျစရိတ်များနှင့်အတူ ယေဘုယျ စီးပွားရေး အကျိုးကျေးဇူးများကို ခန့်မှန်းထားသော Independent Economic Research Institute ၏ Report ဖြစ်သည်။ တတိယတစ်ခုမှာ ထောက်ပံ့ Data လုံးဝ မပါဘဲ လမ်းမကြီးသည် 'အားလုံးကို ဖျက်ဆီးလိမ့်မည်' ဟု Claim ပြုလုပ်သော Resident တစ်ဦးတည်း၏ Social Media Post ဖြစ်သည်။\n\nဆောက်လုပ်ရေး ကုမ္ပဏီ၏ Press Release ကို ရှင်းရှင်းလင်းလင်း Conflict of Interest ပါဝင်သည်ဟု Su Myat Noe ချက်ချင်း အမှတ်အသားပြုခဲ့သည် -- ကုမ္ပဏီသည် လမ်းမကြီးကို အတည်ပြုခံရခြင်းမှ တိုက်ရိုက် အကျိုးအမြတ် ရသောကြောင့် 'ကတိသေချာသော ကြီးပွားချမ်းသာမှု' Claim ကို Independently Verify လုပ်ထားသော Information အဖြစ် မဟုတ်ဘဲ Fact ဟန်ဆောင်ထားသော Persuasive Opinion အဖြစ် ဆက်ဆံရန် လိုအပ်ကြောင်း ဖော်ပြခဲ့သည်။ Social Media Post တစ်ခုတည်းသည် ထောက်ပံ့ အထောက်အထား Zero ပါသော လူတစ်ဦးတည်း၏ Opinion ဖြစ်ကြောင်း သူ မှတ်ချက်ချခဲ့သည် -- ဖြစ်နိုင်ခြေရှိသော စစ်မှန်သော စိုးရိမ်မှုတစ်ခု ဆက်လက် သုတေသန ပြုလုပ်ထိုက်သော်လည်း ၎င်းကိုယ်တိုင်ကို တည်ထောင်ပြီးသား Fact အဖြစ် Cite ပြုလုပ်၍ မရနိုင်ပါ။\n\nကိုဇင်ကိုကို တိကျစွာ အမည်ပေးရန် တောင်းဆိုခဲ့သော တိကျသော အကြောင်းရင်းတစ်ခုကြောင့် Economic Research Institute ၏ Report သည် ထူးခြားခဲ့သည် - လမ်းမကြီး တည်ဆောက်ခြင်း ရှိမရှိနှင့် တိုက်ရိုက် ငွေကြေးဆိုင်ရာ ပါဝင်ပတ်သက်မှု မရှိပါ၊ ၎င်း၏ ခန့်မှန်းချက်များသည် ခန့်မှန်းချက်များမဟုတ်ဘဲ အခြား လက်တွေ့ Project များမှ နှိုင်းယှဉ်နိုင်သော Data တွင် အခြေခံထားပြီး ဘက်တစ်ဖက်တည်းကိုသာ ငြင်းခုံမည့်အစား အကျိုးကျေးဇူးများနှင့် ကုန်ကျစရိတ်များ နှစ်ခုစလုံးကို ရှင်းလင်းစွာ ဖော်ပြခဲ့သည်။ သင်တန်းတစ်ခုလုံးတစ်လျှောက် အသုံးချမည့် စည်းမျဉ်းတစ်ခုဖြင့် သူ့ Evaluation ကို Su Myat Noe ကောက်ချက်ချခဲ့သည် - ရလဒ်မှ Source ၏ Independence သည် ပွင့်လင်းသော Methodology နှင့်ပေါင်းစပ်ပါက ၎င်း၏ Claim များ မည်မျှ ယုံကြည်စိတ်ချ (သို့) Professional အသံထွက်သည်ထက် Credibility အတွက် ပို၍ အရေးကြီးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the construction company's press release claim?",
+            questionMy:
+                "ဆောက်လုပ်ရေး ကုမ္ပဏီ၏ Press Release Claim ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The highway would bring guaranteed prosperity to every town it passed through",
+              "The highway would definitely be cancelled",
+              "The highway would have no effect on any town at all",
+              "The highway would only benefit the construction company's competitors",
+            ],
+            optionsMy: [
+              "လမ်းမကြီးသည် ဖြတ်သန်းသွားသော မြို့တိုင်းသို့ ကတိသေချာသော ကြီးပွားချမ်းသာမှု ယူဆောင်လာလိမ့်မည်",
+              "လမ်းမကြီးကို သေချာစွာ ဖျက်သိမ်းလိမ့်မည်",
+              "လမ်းမကြီးသည် မြို့မည်သည်ကိုမျှ လုံးဝ သက်ရောက်မှု မရှိလိမ့်မည်",
+              "လမ်းမကြီးသည် ဆောက်လုပ်ရေး ကုမ္ပဏီ၏ ပြိုင်ဘက်များကိုသာ အကျိုးပြုလိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence quoting the press release."],
+            hintsMy: [
+              "Press Release ကို Quote ပြုလုပ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was the lone social media post not citable as established fact?",
+            questionMy:
+                "Social Media Post တစ်ခုတည်းသည် တည်ထောင်ပြီးသား Fact အဖြစ် Cite ပြုလုပ်၍ မရနိုင်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was a single individual's opinion with zero supporting evidence",
+              "It was written by the construction company itself",
+              "It contained detailed statistical data",
+              "It was published in an academic journal",
+            ],
+            optionsMy: [
+              "ထောက်ပံ့ အထောက်အထား Zero ပါသော လူတစ်ဦးတည်း၏ Opinion ဖြစ်ခြင်း",
+              "ဆောက်လုပ်ရေး ကုမ္ပဏီ ကိုယ်တိုင်က ရေးသားခဲ့ခြင်း",
+              "အသေးစိတ် စာရင်းအင်း Data ပါဝင်ခြင်း",
+              "ပညာရပ်ဆိုင်ရာ Journal တွင် ထုတ်ဝေခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the social media post."],
+            hintsMy: [
+              "Social Media Post အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what mattered far more to credibility than confident-sounding claims?",
+            questionMy:
+                "ယုံကြည်စိတ်ချသော အသံထွက်ရှိသော Claim များထက် Credibility အတွက် ပို၍ အရေးကြီးသည့်အရာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A source's independence from the outcome combined with a transparent methodology",
+              "How expensive the source's website looked",
+              "How many people shared the source online",
+              "The length of the source's document",
+            ],
+            optionsMy: [
+              "ရလဒ်မှ Source ၏ Independence နှင့် ပွင့်လင်းသော Methodology ပေါင်းစပ်ခြင်း",
+              "Source ၏ Website သည် မည်မျှ စျေးကြီးသော ပုံရှိကြောင်း",
+              "Source ကို အွန်လိုင်းတွင် လူဦးရေ မည်မျှ မျှဝေခဲ့ကြောင်း",
+              "Source ၏ Document အရှည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Evaluating Sources",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Sources များ အကဲဖြတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A conflict of interest exists when...",
+          questionMy: "Conflict of Interest ရှိသည်မှာ...",
+          optionsEn: [
+            "A source's funding or affiliation could bias its content",
+            "A source has no connection to the topic at all",
+            "A source only ever states verified facts",
+            "A source is published by a university",
+          ],
+          optionsMy: [
+            "Source ၏ ရန်ပုံငွေ (သို့) ဆက်စပ်မှုက ၎င်း၏ အကြောင်းအရာကို ဘက်လိုက်စေနိုင်ချိန်",
+            "Source သည် Topic နှင့် ဆက်နွယ်မှု လုံးဝ မရှိချိန်",
+            "Source သည် Verify လုပ်ထားသော Fact များကိုသာ အမြဲ ဖော်ပြချိန်",
+            "Source ကို University တစ်ခုက ထုတ်ဝေချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The strongest way to check a claim's reliability is to...",
+          questionMy:
+              "Claim တစ်ခု၏ Reliability ကို စစ်ဆေးရန် အခိုင်မာဆုံး နည်းလမ်းမှာ...",
+          optionsEn: [
+            "Cross-reference it against multiple independent sources",
+            "Trust the first source found",
+            "Only check sources that agree with your own opinion",
+            "Ignore all sources entirely",
+          ],
+          optionsMy: [
+            "Independent Source များစွာနှင့် Cross-Reference ပြုလုပ်ခြင်း",
+            "ပထမဆုံး တွေ့သော Source ကို ယုံကြည်ခြင်း",
+            "ကိုယ်ပိုင် သဘောထားနှင့် ကိုက်ညီသော Source များကိုသာ စစ်ဆေးခြင်း",
+            "Source အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A fact, unlike an opinion, can be...",
+          questionMy: "Opinion နှင့် မတူဘဲ Fact တစ်ခုကို...",
+          optionsEn: [
+            "Independently verified against evidence",
+            "Only ever believed, never checked",
+            "Written only by government officials",
+            "Changed by personal preference alone",
+          ],
+          optionsMy: [
+            "အထောက်အထားနှင့် ဆန့်ကျင်၍ လွတ်လပ်စွာ အတည်ပြုနိုင်ခြင်း",
+            "မစစ်ဆေးဘဲ ယုံကြည်ရုံသာ",
+            "အစိုးရ အရာရှိများကသာ ရေးသားနိုင်ခြင်း",
+            "ကိုယ်ပိုင် နှစ်သက်မှုတစ်ခုတည်းဖြင့် ပြောင်းလဲနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 1, Week 3: "Formulating Research
+// Questions"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek3 = CourseWeekDef(
+  id: "course-igcse-gp-w3",
+  weekNumber: 3,
+  titleEn: "Formulating Research Questions",
+  titleMy: "သုတေသန မေးခွန်းများ ရေးဆွဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w3-d1",
+      dayNumber: 1,
+      titleEn: "Open-Ended Questions, Feasibility and Scope",
+      titleMy: "Open-Ended Question များ, Feasibility နှင့် Scope",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is 'Is deforestation bad?' a poor research question for an academic investigation?",
+          questionMy:
+              "'Deforestation ဆိုးရွားပါသလား' ဟူသော မေးခွန်းသည် ပညာရပ်ဆိုင်ရာ စုံစမ်းစစ်ဆေးမှုအတွက် အဘယ်ကြောင့် ညံ့ဖျင်းသော သုတေသန မေးခွန်း ဖြစ်သနည်း။",
+          optionsEn: [
+            "It invites a simple yes/no answer and a value judgement, rather than guiding genuine investigation and analysis",
+            "It is too long and complicated for anyone to understand",
+            "It cannot be researched using any source at all",
+            "It only applies to countries with forests",
+          ],
+          optionsMy: [
+            "ရိုးရှင်းသော Yes/No အဖြေနှင့် တန်ဖိုးထား စီရင်ဆုံးဖြတ်ချက်ကို ဖိတ်ခေါ်ပြီး စစ်မှန်သော စုံစမ်းစစ်ဆေးမှုနှင့် ခွဲခြမ်းစိတ်ဖြာမှုကို လမ်းညွှန် မပေးခြင်း",
+            "မည်သူမျှ နားမလည်နိုင်လောက်အောင် ရှည်လျားပြီး ရှုပ်ထွေးလွန်းခြင်း",
+            "Source မည်သည့်ကိုမျှ အသုံးပြု၍ သုတေသန လုံးဝ ပြုလုပ်၍ မရနိုင်ခြင်း",
+            "သစ်တောများ ရှိသော နိုင်ငံများနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A better version might be: 'To what extent has palm oil expansion contributed to deforestation in this region since 2010?' -- specific, researchable, and analytical.",
+          ],
+          hintsMy: [
+            "ပို၍ကောင်းသော Version မှာ - 'ဤ ဒေသတွင် 2010 မှစ၍ Palm Oil ချဲ့ထွင်မှုသည် Deforestation ကို မည်မျှ ပါဝင်ပေးခဲ့သနည်း' -- တိကျ၊ သုတေသန ပြုလုပ်နိုင်ပြီး ခွဲခြမ်းစိတ်ဖြာနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does 'feasibility' mean when evaluating a proposed research question?",
+          questionMy:
+              "အဆိုပြုထားသော သုတေသန မေးခွန်းတစ်ခုကို အကဲဖြတ်ရာတွင် 'Feasibility' ဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Whether the question can realistically be researched given the time, access to sources, and resources actually available",
+            "Whether the question sounds impressive to other students",
+            "Whether the question has ever been asked before by anyone",
+            "Whether the question can be answered in a single word",
+          ],
+          optionsMy: [
+            "အချိန်၊ Source များသို့ ဝင်ရောက်ခွင့်နှင့် အမှန်တကယ် ရရှိနိုင်သော အရင်းအမြစ်များပေါ် အခြေခံ၍ မေးခွန်းကို လက်တွေ့ သုတေသန ပြုလုပ်နိုင်ခြင်း ရှိမရှိ",
+            "မေးခွန်းသည် အခြား ကျောင်းသားများကို ထင်ရှားနေခြင်း ရှိမရှိ",
+            "မေးခွန်းကို မည်သူမဆို ယခင်ကက မေးခဲ့ဖူးခြင်း ရှိမရှိ",
+            "မေးခွန်းကို စကားလုံးတစ်လုံးတည်းဖြင့် ဖြေဆိုနိုင်ခြင်း ရှိမရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A question requiring interviews in a restricted-access military zone may be interesting, but it is not feasible for a student researcher to actually investigate.",
+          ],
+          hintsMy: [
+            "ကန့်သတ်ထားသော စစ်ရေးဇုန်တွင် Interview များ လိုအပ်သော မေးခွန်းသည် စိတ်ဝင်စားဖွယ် ဖြစ်နိုင်သော်လည်း ကျောင်းသား သုတေသနပညာရှင်တစ်ဦးအတွက် လက်တွေ့ စုံစမ်းစစ်ဆေးရန် Feasible မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A research question that tries to cover 'all environmental problems in every country' has a scope problem. What is the fix?",
+          questionMy:
+              "'နိုင်ငံတိုင်းရှိ ပတ်ဝန်းကျင် ပြဿနာအားလုံး' ကို ဖုံးလွှမ်းရန် ကြိုးစားသော သုတေသန မေးခွန်းတစ်ခုတွင် Scope ပြဿနာ ရှိသည်။ ပြင်ဆင်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Narrow the question to a specific issue, place, and timeframe that can genuinely be researched in depth",
+            "Add even more countries and issues to make it more comprehensive",
+            "Remove all specific details to make it as general as possible",
+            "Change it into a yes/no question instead",
+          ],
+          optionsMy: [
+            "စစ်မှန်စွာ နက်နဲစွာ သုတေသန ပြုလုပ်နိုင်သော တိကျသော ပြဿနာ၊ နေရာနှင့် အချိန်ကာလသို့ မေးခွန်းကို ကျဉ်းမြောင်းစေခြင်း",
+            "ပို၍ ပြည့်စုံစေရန် နိုင်ငံများနှင့် ပြဿနာများ ထပ်ထည့်ခြင်း",
+            "ဖြစ်နိုင်သမျှ ယေဘုယျ ဖြစ်စေရန် တိကျသော အသေးစိတ် အားလုံးကို ဖယ်ရှားခြင်း",
+            "Yes/No မေးခွန်းအဖြစ် ယင်းအစား ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Focused questions ('deforestation in this river basin over the last decade') can actually be researched thoroughly; unbounded questions cannot.",
+          ],
+          hintsMy: [
+            "Focused Question များ ('ဤ မြစ်ဝှမ်းတွင် ဆယ်စုနှစ် တစ်ခုတာအတွင်း Deforestation') ကို အမှန်တကယ် အပြည့်အစုံ သုတေသန ပြုလုပ်နိုင်သော်လည်း Unbounded Question များ မဖြစ်နိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Research Question Design Terms",
+      titleMy: "တွဲစပ်ကြမည် - Research Question Design ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w3-dm-1",
+          termEn: "Open-ended question",
+          termMy: "Open-Ended Question",
+          matchEn:
+              "A question inviting analysis and explanation, not a simple yes/no answer",
+          matchMy:
+              "ရိုးရှင်းသော Yes/No အဖြေအစား ခွဲခြမ်းစိတ်ဖြာမှုနှင့် ရှင်းလင်းချက်ကို ဖိတ်ခေါ်သော မေးခွန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w3-dm-2",
+          termEn: "Feasibility",
+          termMy: "Feasibility",
+          matchEn:
+              "Whether a research question can realistically be investigated with the time and resources available",
+          matchMy:
+              "ရရှိနိုင်သော အချိန်နှင့် အရင်းအမြစ်များဖြင့် သုတေသန မေးခွန်းတစ်ခုကို လက်တွေ့ စုံစမ်းနိုင်ခြင်း ရှိမရှိ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w3-dm-3",
+          termEn: "Scope",
+          termMy: "Scope",
+          matchEn:
+              "The boundaries of a research question -- how narrow or broad the topic being investigated is",
+          matchMy:
+              "သုတေသန မေးခွန်းတစ်ခု၏ နယ်နိမိတ်များ -- စုံစမ်းနေသော Topic သည် မည်မျှ ကျဉ်းမြောင်း (သို့) ကျယ်ပြန့်ကြောင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w3-dm-4",
+          termEn: "Research objective",
+          termMy: "Research Objective",
+          matchEn:
+              "A clear statement of what the research aims to find out or achieve",
+          matchMy:
+              "သုတေသနသည် အဘယ်အရာကို ရှာဖွေ (သို့) ရရှိလိုကြောင်း ရှင်းလင်းသော ဖော်ပြချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w3-dm-5",
+          termEn: "Closed question",
+          termMy: "Closed Question",
+          matchEn:
+              "A question answerable with a simple yes/no or single fact, unsuitable for deep analysis",
+          matchMy:
+              "ရိုးရှင်းသော Yes/No (သို့) Fact တစ်ခုတည်းဖြင့် ဖြေဆိုနိုင်သော၊ နက်နဲသော ခွဲခြမ်းစိတ်ဖြာမှုအတွက် မသင့်လျော်သော မေးခွန်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Research Question?",
+      titleMy: "စီစစ်ကြမည် - Research Question ခိုင်မာသလား၊ အားနည်းသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Research Question", "Weak Research Question"],
+        bucketsMy: [
+          "ခိုင်မာသော Research Question",
+          "အားနည်းသော Research Question",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w3-sort-1",
+            labelEn: "Is pollution bad?",
+            labelMy: "ညစ်ညမ်းမှု ဆိုးရွားပါသလား",
+            correctBucketEn: "Weak Research Question",
+            correctBucketMy: "အားနည်းသော Research Question",
+          ),
+          SortingItem(
+            id: "igcgp-w3-sort-2",
+            labelEn:
+                "To what extent has factory expansion affected water quality in this river since 2018?",
+            labelMy:
+                "2018 မှစ၍ ဤမြစ်၏ ရေအရည်အသွေးကို စက်ရုံ ချဲ့ထွင်မှုက မည်မျှ သက်ရောက်ခဲ့သနည်း",
+            correctBucketEn: "Strong Research Question",
+            correctBucketMy: "ခိုင်မာသော Research Question",
+          ),
+          SortingItem(
+            id: "igcgp-w3-sort-3",
+            labelEn:
+                "What are all the environmental problems in every country in the world?",
+            labelMy:
+                "ကမ္ဘာပေါ်ရှိ နိုင်ငံတိုင်းရှိ ပတ်ဝန်းကျင် ပြဿနာအားလုံးမှာ အဘယ်နည်း",
+            correctBucketEn: "Weak Research Question",
+            correctBucketMy: "အားနည်းသော Research Question",
+          ),
+          SortingItem(
+            id: "igcgp-w3-sort-4",
+            labelEn:
+                "How have fair trade certification programmes affected small coffee farmers' incomes in this region?",
+            labelMy:
+                "ဤဒေသရှိ ကော်ဖီ လယ်သမားငယ်များ၏ ဝင်ငွေကို Fair Trade Certification Programme များက မည်သို့ သက်ရောက်ခဲ့သနည်း",
+            correctBucketEn: "Strong Research Question",
+            correctBucketMy: "ခိုင်မာသော Research Question",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Question Redesign",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Question ပြန်လည်ဒီဇိုင်းဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Question Redesign",
+        titleMy: "Su Myat Noe ၏ Question ပြန်လည်ဒီဇိုင်းဆွဲခြင်း",
+        passageEn:
+            "Su Myat Noe's first draft research question was simple: 'Is social media good or bad for teenagers?' She submitted it to Ko Zin Ko Ko expecting quick approval, but he instead asked her three pointed questions in return: could this be answered with a single word, was it actually researchable with real evidence, and was its scope realistic for a student project completed in one term? Su Myat Noe realised, somewhat uncomfortably, that the honest answer to all three was a problem -- the question invited a simple yes/no opinion, covered every possible effect on every teenager everywhere, and offered no way to actually measure 'good' or 'bad' with evidence.\n\nShe returned with a revision: 'How has social media use affected sleep patterns among teenagers in urban areas?' Ko Zin Ko Ko acknowledged this was more specific but pushed further on feasibility -- how exactly would she measure sleep patterns for a research project she needed to complete within a school term, without access to a sleep laboratory or medical equipment? Su Myat Noe had not considered this practical constraint at all, and had to admit her question, while more focused than the first draft, was still not feasible given her actual available resources and timeframe.\n\nHer third attempt finally satisfied all three tests at once: 'According to existing published studies and a survey of 50 students at my school, what is the relationship between reported daily social media use and self-reported sleep quality among teenagers aged 13 to 16?' This version was open-ended, requiring genuine analysis rather than a yes/no answer; it was feasible, since she could realistically survey 50 classmates and review existing published studies within her timeframe; and its scope was appropriately narrow, focused on a specific age group, a specific location, and a specific, measurable relationship rather than a sweeping universal claim. Ko Zin Ko Ko approved it, noting that a strong research question was rarely found on the first attempt -- it was built through this exact process of deliberate, critical revision.",
+        passageMy:
+            "Su Myat Noe ၏ ပထမဆုံး Draft သုတေသန မေးခွန်းသည် ရိုးရှင်းခဲ့သည် - 'Social Media သည် ဆယ်ကျော်သက်များအတွက် ကောင်းပါသလား၊ ဆိုးပါသလား'။ လျင်မြန်စွာ Approve ရလိမ့်မည်ဟု မျှော်လင့်ကာ ကိုဇင်ကိုကိုထံ တင်သွင်းခဲ့သော်လည်း ၎င်းသည် ယင်းအစား မေးခွန်း သုံးခုကို ချက်ချင်း ပြန်မေးခဲ့သည် - ၎င်းကို စကားလုံးတစ်လုံးတည်းဖြင့် ဖြေဆိုနိုင်ပါသလား၊ Real Evidence ဖြင့် အမှန်တကယ် သုတေသန ပြုလုပ်နိုင်ပါသလား၊ Term တစ်ခုတည်းတွင် ပြီးမြောက်ရမည့် ကျောင်းသား Project တစ်ခုအတွက် ၎င်း၏ Scope သည် လက်တွေ့ကျပါသလား။ သုံးခုစလုံးအတွက် ရိုးသားသော အဖြေသည် ပြဿနာတစ်ခု ဖြစ်ကြောင်း Su Myat Noe အနည်းငယ် မသက်မသာ သိရှိခဲ့သည် -- မေးခွန်းသည် ရိုးရှင်းသော Yes/No Opinion ကို ဖိတ်ခေါ်ပြီး နေရာတိုင်းရှိ ဆယ်ကျော်သက်တိုင်းအပေါ် ဖြစ်နိုင်သော သက်ရောက်မှုအားလုံးကို ဖုံးလွှမ်းကာ Evidence ဖြင့် 'ကောင်း' (သို့) 'ဆိုး' ကို အမှန်တကယ် တိုင်းတာနိုင်သော နည်းလမ်း မပေးခဲ့ပါ။\n\nပြင်ဆင်ချက်တစ်ခုနှင့် သူ ပြန်လာခဲ့သည် - 'မြို့ပြ ဒေသများရှိ ဆယ်ကျော်သက်များကြား Social Media အသုံးပြုမှုသည် အိပ်စက်ခြင်း Pattern များကို မည်သို့ သက်ရောက်ခဲ့သနည်း'။ ဤသည် ပို၍ တိကျကြောင်း ကိုဇင်ကိုကို အသိအမှတ်ပြုခဲ့သော်လည်း Feasibility ကို ဆက်လက် တွန်းအားပေးခဲ့သည် -- Sleep Laboratory (သို့) ဆေးဘက်ဆိုင်ရာ ကိရိယာများ ဝင်ရောက်ခွင့် မရှိဘဲ ကျောင်း Term တစ်ခုအတွင်း ပြီးမြောက်ရမည့် Research Project တစ်ခုအတွက် Sleep Pattern များကို ဘယ်လိုတိကျစွာ တိုင်းတာမည်နည်း။ ဤ လက်တွေ့ ကန့်သတ်ချက်ကို Su Myat Noe လုံးဝ မစဉ်းစားခဲ့ဘဲ ၎င်း၏ မေးခွန်းသည် ပထမ Draft ထက် ပို၍ Focused ဖြစ်သော်လည်း ၎င်း၏ အမှန်တကယ် ရရှိနိုင်သော အရင်းအမြစ်များနှင့် အချိန်ကာလအရ ဆက်လက် Feasible မဟုတ်ကြောင်း ဝန်ခံခဲ့ရသည်။\n\n၎င်း၏ တတိယ ကြိုးပမ်းမှုသည် နောက်ဆုံးတွင် Test သုံးခုလုံးကို တစ်ပြိုင်နက် ပြည့်မီခဲ့သည် - 'ရှိပြီးသား ထုတ်ဝေထားသော Study များနှင့် ကျွန်ုပ်၏ ကျောင်းရှိ ကျောင်းသား 50 ၏ Survey အရ Age 13 မှ 16 ကြား ဆယ်ကျော်သက်များကြား Report ပြုလုပ်ထားသော နေ့စဉ် Social Media အသုံးပြုမှုနှင့် Self-Reported Sleep Quality ကြား ဆက်နွယ်မှုမှာ အဘယ်နည်း'။ ဤ Version သည် Open-Ended ဖြစ်ပြီး Yes/No အဖြေအစား စစ်မှန်သော ခွဲခြမ်းစိတ်ဖြာမှုကို တောင်းဆိုခဲ့သည်; ၎င်း Feasible ဖြစ်ခဲ့သည်၊ ၎င်း၏ Timeframe အတွင်း Classmate 50 ကို Survey ပြုလုပ်ပြီး ရှိပြီးသား ထုတ်ဝေထားသော Study များကို လက်တွေ့ သုံးသပ်နိုင်သောကြောင့် ဖြစ်သည်; ၎င်း၏ Scope သည် ကျယ်ပြန့်သော Universal Claim အစား တိကျသော Age Group၊ တိကျသော Location နှင့် တိကျသော၊ တိုင်းတာနိုင်သော ဆက်နွယ်မှုအပေါ် အာရုံစိုက်ကာ သင့်လျော်စွာ ကျဉ်းမြောင်းခဲ့သည်။ ခိုင်မာသော သုတေသန မေးခွန်းတစ်ခုကို ပထမ ကြိုးပမ်းမှုတွင် ရှားရှားပါးပါးသာ တွေ့ရှိကြောင်း၊ ၎င်းကို ဤ ရည်ရွယ်ချက်ရှိရှိ၊ ဝေဖန်ပိုင်းခြားသော ပြန်လည်ပြင်ဆင်မှု Process အတိအကျဖြင့် တည်ဆောက်ကြောင်း မှတ်ချက်ပြုကာ ကိုဇင်ကိုကို ၎င်းကို Approve ပြုလုပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what three problems did Ko Zin Ko Ko's questions reveal in the first draft?",
+            questionMy:
+                "ပထမ Draft တွင် ကိုဇင်ကိုကို၏ မေးခွန်းများ ဖော်ထုတ်ခဲ့သော ပြဿနာသုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It invited a yes/no answer, was not measurable, and had an unbounded scope",
+              "It was too short to be understood",
+              "It contained no English words at all",
+              "It was identical to another student's question",
+            ],
+            optionsMy: [
+              "Yes/No အဖြေကို ဖိတ်ခေါ်ခြင်း၊ တိုင်းတာ၍ မရနိုင်ခြင်းနှင့် Scope ကန့်သတ်ချက် မရှိခြင်း",
+              "နားလည်ရန် အလွန် တိုတောင်းလွန်းခြင်း",
+              "အင်္ဂလိပ်စကားလုံး လုံးဝ မပါဝင်ခြင်း",
+              "အခြား ကျောင်းသားတစ်ဦး၏ မေးခွန်းနှင့် အတိအကျ ထပ်တူ ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was the second draft still not feasible?",
+            questionMy:
+                "ဒုတိယ Draft ဆက်လက် Feasible မဖြစ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She had no access to a sleep laboratory or medical equipment within her timeframe",
+              "It was already a perfect question needing no changes",
+              "The topic of sleep was not allowed in the course",
+              "It was too narrow to research at all",
+            ],
+            optionsMy: [
+              "၎င်း၏ Timeframe အတွင်း Sleep Laboratory (သို့) ဆေးဘက်ဆိုင်ရာ ကိရိယာများ ဝင်ရောက်ခွင့် မရှိခြင်း",
+              "ပြောင်းလဲရန် မလိုအပ်ဘဲ ရှိပြီးသား ပြည့်စုံသော မေးခွန်း ဖြစ်ခဲ့ခြင်း",
+              "Sleep Topic ကို သင်တန်းတွင် ခွင့်မပြုခြင်း",
+              "သုတေသန ပြုလုပ်ရန် အလွန် ကျဉ်းမြောင်းလွန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the sleep laboratory."],
+            hintsMy: ["Sleep Laboratory အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, when is a strong research question typically found?",
+            questionMy:
+                "ခိုင်မာသော သုတေသန မေးခွန်းတစ်ခုကို ပုံမှန်အားဖြင့် မည်သည့်အချိန်တွင် တွေ့ရှိတတ်သည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is built through deliberate, critical revision, rarely found on the first attempt",
+              "It is always found perfectly on the first try",
+              "It never requires any revision whatsoever",
+              "It is chosen randomly with no thought at all",
+            ],
+            optionsMy: [
+              "ရည်ရွယ်ချက်ရှိရှိ၊ ဝေဖန်ပိုင်းခြားသော ပြန်လည်ပြင်ဆင်မှုမှတစ်ဆင့် တည်ဆောက်ပြီး ပထမ ကြိုးပမ်းမှုတွင် ရှားရှားပါးပါးသာ တွေ့ရှိသည်",
+              "ပထမ ကြိုးစားမှုတွင် အမြဲ ပြီးပြည့်စုံစွာ တွေ့ရှိသည်",
+              "ပြန်လည်ပြင်ဆင်မှု မည်သည်ကိုမျှ ဘယ်တော့မှ မလိုအပ်ခြင်း",
+              "အတွေးအခေါ် လုံးဝ မပါဘဲ ကျပန်း ရွေးချယ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Research Questions",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Research Questions",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong research question should be...",
+          questionMy: "ခိုင်မာသော Research Question တစ်ခုသည် ...ဖြစ်သင့်သည်",
+          optionsEn: [
+            "Open-ended, feasible, and appropriately scoped",
+            "Answerable with a single word",
+            "As broad as possible with no boundaries",
+            "Impossible to research with any available resource",
+          ],
+          optionsMy: [
+            "Open-Ended, Feasible ပြီး သင့်လျော်စွာ Scope ချထားခြင်း",
+            "စကားလုံးတစ်လုံးတည်းဖြင့် ဖြေဆိုနိုင်ခြင်း",
+            "နယ်နိမိတ် မရှိဘဲ ဖြစ်နိုင်သမျှ ကျယ်ပြန့်ခြင်း",
+            "ရရှိနိုင်သော အရင်းအမြစ်မည်သည်ဖြင့်မဆို သုတေသန ပြုလုပ်၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Feasibility asks whether a question can be...",
+          questionMy: "Feasibility က မေးခွန်းတစ်ခု ...ရှိမရှိကို မေးမြန်းသည်",
+          optionsEn: [
+            "Realistically researched with available time and resources",
+            "Answered by only one specific person",
+            "Impressive-sounding to a teacher",
+            "Written in fewer than five words",
+          ],
+          optionsMy: [
+            "ရရှိနိုင်သော အချိန်နှင့် အရင်းအမြစ်များဖြင့် လက်တွေ့ သုတေသန ပြုလုပ်နိုင်ခြင်း",
+            "တိကျသော လူတစ်ဦးကသာ ဖြေဆိုနိုင်ခြင်း",
+            "ဆရာတစ်ဦးကို ထင်ရှားနေခြင်း",
+            "စကားလုံး ငါးလုံးအောက် ရေးသားထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "'What are all the causes of every social problem in the world?' has a problem with...",
+          questionMy:
+              "'ကမ္ဘာပေါ်ရှိ လူမှုရေး ပြဿနာတိုင်း၏ Cause အားလုံးမှာ အဘယ်နည်း' တွင် ...နှင့် ပတ်သက်သော ပြဿနာ ရှိသည်",
+          optionsEn: [
+            "Scope",
+            "Spelling",
+            "Length of the words used",
+            "Font formatting",
+          ],
+          optionsMy: [
+            "Scope",
+            "Spelling",
+            "အသုံးပြုထားသော စကားလုံးများ၏ အရှည်",
+            "Font Formatting",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 1, Week 4 (Capstone/Boss Week):
+// "Research Proposal Workshop"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek4 = CourseWeekDef(
+  id: "course-igcse-gp-w4",
+  weekNumber: 4,
+  titleEn: "Research Proposal Workshop",
+  titleMy: "သုတေသန အဆိုပြုချက် အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w4-d1",
+      dayNumber: 1,
+      titleEn: "Drafting Proposals and Selecting Topics",
+      titleMy: "အဆိုပြုချက်များ ရေးသားခြင်းနှင့် Topic ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A good research proposal topic should balance personal interest with which other factor?",
+          questionMy:
+              "ကောင်းသော Research Proposal Topic တစ်ခုသည် ကိုယ်ပိုင် စိတ်ဝင်စားမှုကို မည်သည့် အခြား Factor နှင့် ချိန်ညှိသင့်သနည်း။",
+          optionsEn: [
+            "Whether sufficient credible sources and data actually exist to research it thoroughly",
+            "Whether it is the most popular topic among classmates",
+            "Whether it can be summarised in a single sentence",
+            "Whether it has never been studied by anyone before",
+          ],
+          optionsMy: [
+            "၎င်းကို အပြည့်အစုံ သုတေသန ပြုလုပ်ရန် Credible Source နှင့် Data လုံလောက်စွာ အမှန်တကယ် ရှိမရှိ",
+            "Classmate များကြား Topic အများဆုံး ရေပန်းစားခြင်း ရှိမရှိ",
+            "၎င်းကို စာကြောင်းတစ်ကြောင်းတည်းဖြင့် အနှစ်ချုပ်နိုင်ခြင်း ရှိမရှိ",
+            "မည်သူမျှ ယခင်ကက Study မပြုလုပ်ဖူးခြင်း ရှိမရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A fascinating topic with no available credible evidence cannot become a genuine research project -- the sources must actually exist and be accessible.",
+          ],
+          hintsMy: [
+            "စိတ်ဝင်စားဖွယ်ကောင်းသော Topic တစ်ခုသည် Credible Evidence မရှိပါက စစ်မှန်သော Research Project တစ်ခု ဖြစ်လာနိုင်ခြင်း မရှိပါ -- Source များ အမှန်တကယ် ရှိပြီး ဝင်ရောက်နိုင်ရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the main purpose of peer review during the proposal stage?",
+          questionMy:
+              "Proposal Stage အတွင်း Peer Review ၏ အဓိက ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Getting fresh outside perspectives to catch weaknesses in scope, feasibility, or bias before committing significant time to the project",
+            "Copying a classmate's proposal exactly",
+            "Making sure every student chooses the same topic",
+            "Skipping the need for a tutor's feedback entirely",
+          ],
+          optionsMy: [
+            "Project အတွက် အချိန် သိသိသာသာ မလိုက်မီ Scope, Feasibility (သို့) Bias ရှိ အားနည်းချက်များကို ဖမ်းဆီးရန် ပြင်ပ Perspective အသစ်များ ရယူခြင်း",
+            "Classmate တစ်ဦး၏ Proposal ကို အတိအကျ ကူးယူခြင်း",
+            "ကျောင်းသားတိုင်း Topic တူညီကို ရွေးချယ်ရန် သေချာစေခြင်း",
+            "ဆရာ၏ Feedback လိုအပ်ချက်ကို လုံးဝ ကျော်လွှားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A classmate reading your proposal fresh may spot an unstated bias or an unrealistic scope that you, having written it, no longer notice.",
+          ],
+          hintsMy: [
+            "သင့် Proposal ကို အသစ် ဖတ်ရှုသော Classmate တစ်ဦးသည် ၎င်းကို ရေးသားခဲ့သော သင် ယခုနောက်ပိုင်း သတိမပြုမိတော့သော မဖော်ပြထားသော Bias (သို့) လက်တွေ့နှင့် မကိုက်ညီသော Scope ကို တွေ့ရှိနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-structured research proposal should include which of the following elements?",
+          questionMy:
+              "ကောင်းစွာ ဖွဲ့စည်းထားသော Research Proposal တစ်ခုတွင် အောက်ပါ Element များအနက် မည်သည် ပါဝင်သင့်သနည်း။",
+          optionsEn: [
+            "A clear research question, planned sources, and a realistic timeline",
+            "Only a title with no other content at all",
+            "A list of unrelated topics with no chosen focus",
+            "A guaranteed conclusion decided before any research begins",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော Research Question, စီစဉ်ထားသော Source များနှင့် လက်တွေ့ကျသော Timeline",
+            "အခြား Content မည်သည်မှ မပါဘဲ Title တစ်ခုတည်း",
+            "ရွေးချယ်ထားသော Focus မရှိသော မသက်ဆိုင်သော Topic များ စာရင်း",
+            "သုတေသန မစတင်မီ ဆုံးဖြတ်ထားပြီးသား အာမခံသော ကောက်ချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Deciding the conclusion before researching is a serious bias red flag -- a genuine proposal states a question to investigate, not an answer already assumed.",
+          ],
+          hintsMy: [
+            "သုတေသနမပြုမီ ကောက်ချက်ကို ဆုံးဖြတ်ထားခြင်းသည် ပြင်းထန်သော Bias အချက်ပြခြင်း ဖြစ်သည် -- စစ်မှန်သော Proposal တစ်ခုသည် ရှိပြီးသား ယူဆထားသော အဖြေမဟုတ်ဘဲ စုံစမ်းမည့် မေးခွန်းတစ်ခုကို ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1 Research Skills Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 1 Research Skills ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w4-dm-1",
+          termEn: "Local-global link",
+          termMy: "Local-Global Link",
+          matchEn:
+              "The two-way connection between a global issue and community-level effects",
+          matchMy:
+              "ကမ္ဘာ့ပြဿနာတစ်ခုနှင့် Community-Level သက်ရောက်မှုများကြား နှစ်ဖက်လမ်း ချိတ်ဆက်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w4-dm-2",
+          termEn: "Credibility",
+          termMy: "Credibility",
+          matchEn:
+              "How trustworthy a source is, assessed through independence and transparent methodology",
+          matchMy:
+              "Independence နှင့် ပွင့်လင်းသော Methodology မှတစ်ဆင့် အကဲဖြတ်ထားသော Source တစ်ခု ယုံကြည်ရ ဖြစ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w4-dm-3",
+          termEn: "Feasibility",
+          termMy: "Feasibility",
+          matchEn:
+              "Whether a research question can realistically be investigated with available resources",
+          matchMy:
+              "ရရှိနိုင်သော အရင်းအမြစ်များဖြင့် သုတေသန မေးခွန်းတစ်ခုကို လက်တွေ့ စုံစမ်းနိုင်ခြင်း ရှိမရှိ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w4-dm-4",
+          termEn: "Peer review",
+          termMy: "Peer Review",
+          matchEn:
+              "Getting fresh outside perspectives on a proposal to catch weaknesses before committing time",
+          matchMy:
+              "အချိန် မလိုက်မီ အားနည်းချက်များကို ဖမ်းဆီးရန် Proposal တစ်ခုအပေါ် ပြင်ပ Perspective အသစ် ရယူခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ready for Research or Needs Revision?",
+      titleMy: "စီစစ်ကြမည် - သုတေသနအတွက် အသင့်လား၊ ပြင်ဆင်ရန် လိုအပ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ready for Research", "Needs Revision"],
+        bucketsMy: ["သုတေသနအတွက် အသင့်ဖြစ်သည်", "ပြင်ဆင်ရန် လိုအပ်သည်"],
+        items: [
+          SortingItem(
+            id: "igcgp-w4-sort-1",
+            labelEn:
+                "A question with a clear scope, credible sources identified, and a realistic timeline",
+            labelMy:
+                "ရှင်းလင်းသော Scope, ဖော်ထုတ်ထားသော Credible Source များနှင့် လက်တွေ့ကျသော Timeline ပါသော မေးခွန်း",
+            correctBucketEn: "Ready for Research",
+            correctBucketMy: "သုတေသနအတွက် အသင့်ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcgp-w4-sort-2",
+            labelEn:
+                "A question whose conclusion was decided before any research began",
+            labelMy: "သုတေသန မစတင်မီ ကောက်ချက်ကို ဆုံးဖြတ်ထားပြီးသား မေးခွန်း",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "ပြင်ဆင်ရန် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "igcgp-w4-sort-3",
+            labelEn:
+                "A question narrowed to a specific place, time, and measurable relationship",
+            labelMy:
+                "တိကျသော နေရာ၊ အချိန်နှင့် တိုင်းတာနိုင်သော ဆက်နွယ်မှုသို့ ကျဉ်းမြောင်းစေထားသော မေးခွန်း",
+            correctBucketEn: "Ready for Research",
+            correctBucketMy: "သုတေသနအတွက် အသင့်ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "igcgp-w4-sort-4",
+            labelEn:
+                "A question requiring access to a restricted zone with no realistic way to gather data",
+            labelMy:
+                "Data စုဆောင်းရန် လက်တွေ့ကျသော နည်းလမ်း မရှိသော ကန့်သတ်ဇုန်တစ်ခုသို့ ဝင်ရောက်ခွင့် လိုအပ်သော မေးခွန်း",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "ပြင်ဆင်ရန် လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Proposal Pitch",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Proposal Pitch",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Proposal Pitch",
+        titleMy: "Su Myat Noe ၏ Proposal Pitch",
+        passageEn:
+            "For the Term 1 capstone, Su Myat Noe combined everything from the term into a single formal research proposal: source evaluation, question design, and now a full pitch defended in front of her classmates for peer review. She chose to build on her river pollution investigation, refining it into the research question 'To what extent has upstream textile factory wastewater discharge contributed to declining water quality in the river near my town since 2020, according to factory records, government water-testing data, and resident interviews?'\n\nWhen she pitched this to her classmates, one peer immediately challenged her on feasibility: could she actually obtain factory wastewater records as a student researcher? Su Myat Noe had anticipated this exact question and explained her fallback plan -- if the factory declined a direct records request, she would rely on the government's own published water-testing data instead, which was already publicly available, plus her own resident interviews, giving her a feasible path forward even if her first-choice source proved inaccessible.\n\nA second classmate raised a sharper concern about bias: since Su Myat Noe lived in the affected town herself, could she genuinely research this objectively? She did not dismiss the concern, which Ko Zin Ko Ko later praised as exactly the right response -- she acknowledged her personal connection to the topic openly in her proposal, committed to citing only verifiable data rather than her own impressions, and planned to interview both factory representatives and residents to include perspectives beyond her own. Ko Zin Ko Ko approved her final proposal, noting that the strongest research projects were not the ones written by researchers with no personal stake at all, but the ones where researchers were honest and rigorous about managing a stake they openly acknowledged.",
+        passageMy:
+            "Term 1 Capstone အတွက် Term တစ်ခုလုံးမှ အရာအားလုံးကို Su Myat Noe တရားဝင် Research Proposal တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည် - Source Evaluation, Question Design နှင့် ယခုအခါ Peer Review အတွက် Classmate များ ရှေ့တွင် ခုခံကာကွယ်ရသော Pitch အပြည့်အစုံ။ ၎င်း၏ မြစ် ညစ်ညမ်းမှု စုံစမ်းစစ်ဆေးမှုကို ဆက်လက် တည်ဆောက်ရန် သူ ရွေးချယ်ခဲ့ပြီး 'Factory Record များ၊ အစိုးရ ရေစစ်ဆေးမှု Data နှင့် Resident Interview များအရ 2020 မှစ၍ မြစ်အထက်ပိုင်းရှိ အထည်ချုပ်စက်ရုံ Wastewater စွန့်ထုတ်မှုသည် ကျွန်ုပ်၏ မြို့နားရှိ မြစ်တွင် ရေအရည်အသွေး ကျဆင်းမှုကို မည်မျှ ပါဝင်စေခဲ့သနည်း' ဟူသော Research Question သို့ ချောမွေ့စေခဲ့သည်။\n\nသူ့ Classmate များထံ ဤသည်ကို Pitch လုပ်ခဲ့ချိန် Peer တစ်ဦးက Feasibility ကို ချက်ချင်း စိန်ခေါ်ခဲ့သည် - ကျောင်းသား သုတေသနပညာရှင်တစ်ဦးအနေဖြင့် Factory Wastewater Record များကို ၎င်း အမှန်တကယ် ရရှိနိုင်ပါသလား။ ဤ တိကျသော မေးခွန်းကို Su Myat Noe ကြိုတင်ခန့်မှန်းထားခဲ့ပြီး ၎င်း၏ Fallback Plan ကို ရှင်းပြခဲ့သည် -- Factory က Direct Record Request ကို ငြင်းပယ်ခဲ့ပါက အစိုးရ၏ ကိုယ်ပိုင် ထုတ်ဝေထားသော ရေစစ်ဆေးမှု Data ကို ယင်းအစား အားကိုးမည်ဖြစ်ပြီး ၎င်းသည် လူသိရှင်ကြား ရရှိနိုင်ပြီးသား ဖြစ်ကာ ၎င်း၏ ကိုယ်ပိုင် Resident Interview များပါ ထည့်၍ ပထမ ရွေးချယ်မှု Source မရရှိနိုင်ခဲ့သော်လည်း Feasible Path ရှေ့ဆက်ရန် ရှိနေခဲ့သည်။\n\nဒုတိယ Classmate တစ်ဦးက Bias အကြောင်း ပို၍ ထက်သော စိုးရိမ်မှုတစ်ခု ဖော်ထုတ်ခဲ့သည် - Su Myat Noe ကိုယ်တိုင် ထိခိုက်ခံရသော မြို့တွင် နေထိုင်နေသောကြောင့် ဤသည်ကို ၎င်း စစ်မှန်စွာ Objectively သုတေသန ပြုလုပ်နိုင်ပါသလား။ ဤ စိုးရိမ်မှုကို သူ လက်မခံငြင်းပယ်ခဲ့ဘဲ ကိုဇင်ကိုကို နောက်ပိုင်း အတိအကျ မှန်ကန်သော တုံ့ပြန်ချက်ဟု ချီးမွမ်းခဲ့သည် -- သူ့ Topic နှင့် ကိုယ်ပိုင် ဆက်စပ်မှုကို ၎င်း၏ Proposal တွင် ပွင့်လင်းစွာ အသိအမှတ်ပြုခဲ့ပြီး ၎င်းကိုယ်တိုင်၏ Impression များအစား Verifiable Data များကိုသာ Cite ပြုလုပ်ရန် ကတိပြုကာ ၎င်းကိုယ်တိုင်ထက် ကျော်လွန်သော Perspective များ ပါဝင်ရန် Factory Representative များနှင့် Resident များ နှစ်ဦးစလုံးကို Interview ပြုလုပ်ရန် စီစဉ်ခဲ့သည်။ ကိုဇင်ကိုကို သူ့ Final Proposal ကို Approve ပြုလုပ်ခဲ့ပြီး Research Project အခိုင်မာဆုံးများသည် ကိုယ်ပိုင် Stake လုံးဝ မရှိသော သုတေသနပညာရှင်များက ရေးသားသည့် Project များ မဟုတ်ဘဲ သုတေသနပညာရှင်များက ၎င်းတို့ ပွင့်လင်းစွာ အသိအမှတ်ပြုထားသော Stake တစ်ခုကို စီမံခန့်ခွဲရန် ရိုးသား၊ တင်းကျပ်သော Project များ ဖြစ်ကြောင်း မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was Su Myat Noe's fallback plan if the factory declined her records request?",
+            questionMy:
+                "Factory က ၎င်း၏ Record Request ကို ငြင်းပယ်ခဲ့ပါက Su Myat Noe ၏ Fallback Plan ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rely on the government's published water-testing data plus her own resident interviews",
+              "Abandon the research project entirely",
+              "Make up plausible-sounding data herself",
+              "Ask another student to do the research instead",
+            ],
+            optionsMy: [
+              "အစိုးရ၏ ထုတ်ဝေထားသော ရေစစ်ဆေးမှု Data နှင့် ၎င်း၏ ကိုယ်ပိုင် Resident Interview များကို အားကိုးခြင်း",
+              "Research Project ကို လုံးဝ စွန့်ပယ်ခြင်း",
+              "ယုံကြည်ဖွယ်ရာ Data ကို ကိုယ်တိုင် ဖန်တီးရေးဆွဲခြင်း",
+              "ယင်းအစား ကျောင်းသားတစ်ဦးကို သုတေသန ပြုလုပ်ခိုင်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence describing the fallback plan."],
+            hintsMy: [
+              "Fallback Plan ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe respond to the bias concern rather than dismissing it?",
+            questionMy:
+                "Bias စိုးရိမ်မှုကို လက်မခံငြင်းပယ်မည့်အစား Su Myat Noe မည်သို့ တုံ့ပြန်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She acknowledged her connection openly, committed to citing only verifiable data, and interviewed multiple perspectives",
+              "She refused to include her own town in the research at all",
+              "She ignored the concern completely",
+              "She asked the government to remove her from the project",
+            ],
+            optionsMy: [
+              "၎င်း၏ ဆက်စပ်မှုကို ပွင့်လင်းစွာ အသိအမှတ်ပြုပြီး Verifiable Data များကိုသာ Cite ပြုလုပ်ရန် ကတိပြုကာ Perspective များစွာကို Interview ပြုလုပ်ခြင်း",
+              "သူ့ကိုယ်ပိုင် မြို့ကို Research တွင် လုံးဝ မထည့်သွင်းရန် ငြင်းဆန်ခြင်း",
+              "စိုးရိမ်မှုကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "Project မှ ၎င်းကို ဖယ်ရှားပေးရန် အစိုးရကို တောင်းဆိုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about how she responded."],
+            hintsMy: [
+              "သူ မည်သို့ တုံ့ပြန်ခဲ့သည်ဆိုသည့် စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what made a research project genuinely strong, according to Ko Zin Ko Ko?",
+            questionMy:
+                "ကိုဇင်ကိုကို၏ အဆိုအရ Research Project တစ်ခုကို စစ်မှန်စွာ ခိုင်မာစေသည့်အရာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Being honest and rigorous about managing an openly acknowledged personal stake",
+              "Having absolutely no personal connection to the topic whatsoever",
+              "Writing the shortest possible proposal",
+              "Avoiding all interviews entirely",
+            ],
+            optionsMy: [
+              "ပွင့်လင်းစွာ အသိအမှတ်ပြုထားသော ကိုယ်ရေး Stake တစ်ခုကို စီမံခန့်ခွဲရန် ရိုးသား၊ တင်းကျပ်ခြင်း",
+              "Topic နှင့် ကိုယ်ရေး ဆက်စပ်မှု လုံးဝ မရှိခြင်း",
+              "ဖြစ်နိုင်သမျှ အတိုဆုံး Proposal ရေးသားခြင်း",
+              "Interview အားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: Research Skills Exam",
+      titleMy: "Term 1 Capstone - Research Skills စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A source funded by a party with a direct stake in the outcome carries a risk of...",
+          questionMy:
+              "ရလဒ်တွင် တိုက်ရိုက် ပါဝင်ပတ်သက်သော Party တစ်ဦးက Fund ပေးသော Source တစ်ခုသည် ...အန္တရာယ် ရှိသည်",
+          optionsEn: [
+            "Conflict of interest",
+            "Guaranteed total accuracy",
+            "Automatic peer review",
+            "Perfect neutrality",
+          ],
+          optionsMy: [
+            "Conflict of Interest",
+            "အမြဲ တိကျမှု အာမခံချက်",
+            "အလိုအလျောက် Peer Review",
+            "ပြီးပြည့်စုံသော Neutrality",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A research question that is open-ended, feasible, and appropriately scoped is considered...",
+          questionMy:
+              "Open-Ended, Feasible ပြီး သင့်လျော်စွာ Scope ချထားသော Research Question တစ်ခုကို ...ဟု ယူဆသည်",
+          optionsEn: [
+            "Well-designed",
+            "Impossible to research",
+            "Automatically biased",
+            "Too short to matter",
+          ],
+          optionsMy: [
+            "ကောင်းစွာ Design ပြုလုပ်ထားသော",
+            "သုတေသန ပြုလုပ်၍ မရနိုင်သော",
+            "အလိုအလျောက် Bias ဖြစ်သော",
+            "အရေးမကြီးလောက်အောင် တိုတောင်းသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Peer review at the proposal stage helps catch...",
+          questionMy:
+              "Proposal Stage ရှိ Peer Review သည် ...ကို ဖမ်းဆီးရန် ကူညီသည်",
+          optionsEn: [
+            "Weaknesses in scope, feasibility, or bias before significant time is committed",
+            "Nothing useful at all",
+            "Only spelling mistakes",
+            "The exact final grade a project will receive",
+          ],
+          optionsMy: [
+            "အချိန် သိသိသာသာ မလိုက်မီ Scope, Feasibility (သို့) Bias ရှိ အားနည်းချက်များ",
+            "အသုံးဝင်သည့်အရာ မည်သည်မှ",
+            "စာလုံးပေါင်း အမှားများသာ",
+            "Project တစ်ခု ရရှိမည့် Final Grade အတိအကျ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 1: "Research Skills & Global
+// Issues Introduction" (Weeks 1-4)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm1 = CourseTermDef(
+  id: "course-igcse-gp-t1",
+  termNumber: 1,
+  titleEn: "Research Skills & Global Issues Introduction",
+  titleMy: "Research Skills နှင့် ကမ္ဘာ့ပြဿနာများ မိတ်ဆက်",
+  certificateTitleEn: "Research Skills & Global Issues Introduction",
+  certificateTitleMy: "Research Skills နှင့် ကမ္ဘာ့ပြဿနာများ မိတ်ဆက်",
+  weeks: [_igcseGpWeek1, _igcseGpWeek2, _igcseGpWeek3, _igcseGpWeek4],
+);
+// =====================================================================
+// IGCSE Global Perspectives & Research -- full pathway definition.
+// Terms 2-9 not yet authored; wired incrementally, one completed
+// term at a time.
+// =====================================================================
+
+const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
+  id: "course-igcse-global-perspectives",
+  subject: "globalperspectives",
+  grade: Grade.igcse,
+  titleEn: "IGCSE Global Perspectives & Research",
+  titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
+  descriptionEn:
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review.",
+  descriptionMy:
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [_igcseGpTerm1],
+);
+// __IGCSE_GP_MARKER__

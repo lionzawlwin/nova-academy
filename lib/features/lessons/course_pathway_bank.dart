@@ -78,6 +78,7 @@ const List<CoursePathwayDef> allCoursePathways = [
   igcsePhysicsPathway,
   igcseEnglishPathway,
   igcseComputingPathway,
+  igcseGlobalPerspectivesPathway,
   year3MathematicsPathway,
   year3SciencePathway,
   year3EnglishPathway,
