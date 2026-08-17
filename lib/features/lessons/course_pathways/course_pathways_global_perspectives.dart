@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 6-9 not yet authored; wired incrementally, one completed
+// Terms 7-9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,9 +58246,9 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseGpTerm1,
@@ -58256,6 +58256,7 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
     _igcseGpTerm3,
     _igcseGpTerm4,
     _igcseGpTerm5,
+    _igcseGpTerm6,
   ],
 );
 // =====================================================================
@@ -63975,5 +63976,1433 @@ const CourseTermDef _igcseGpTerm5 = CourseTermDef(
   certificateTitleEn: "Technology, Digital Future and AI Ethics",
   certificateTitleMy: "နည်းပညာ၊ Digital အနာဂတ်နှင့် AI ကျင့်ဝတ်",
   weeks: [_igcseGpWeek17, _igcseGpWeek18, _igcseGpWeek19, _igcseGpWeek20],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 6, Week 21: "The Changing Nature
+// of Work"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek21 = CourseWeekDef(
+  id: "course-igcse-gp-w21",
+  weekNumber: 21,
+  titleEn: "The Changing Nature of Work",
+  titleMy: "အလုပ်အကိုင် ပြောင်းလဲနေသော သဘောသဘာဝ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w21-d1",
+      dayNumber: 1,
+      titleEn: "Automation, the Gig Economy, and Job Security",
+      titleMy: "Automation, Gig Economy နှင့် အလုပ် လုံခြုံမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do economists distinguish between jobs 'displaced' by automation and jobs 'created' by automation, rather than assuming automation only destroys work?",
+          questionMy:
+              "Automation သည် အလုပ်ကို ဖျက်ဆီးရုံသာ ဟု ယူဆမည့်အစား Automation က 'Displace' ပြုလုပ်သော အလုပ်များနှင့် Automation က 'ဖန်တီးသော' အလုပ်များကို စီးပွားရေးပညာရှင်များ ခွဲခြားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Automation eliminates some specific tasks/roles while simultaneously creating new roles (e.g. maintaining, programming, or supervising the automated systems)",
+            "Automation has historically never created any new jobs of any kind whatsoever",
+            "Automation only ever affects factory work and no other industry",
+            "Job displacement and job creation are always exactly equal in every single industry",
+          ],
+          optionsMy: [
+            "Automation သည် တိကျသော Task/Role အချို့ကို ဖျက်သိမ်းသည့်အပြင် Role အသစ်များ (ဥပမာ - Automated System များကို ထိန်းသိမ်း၊ Program ရေး (သို့) ကြီးကြပ်ခြင်း) ကိုလည်း တစ်ပြိုင်နက် ဖန်တီးသည်",
+            "Automation သည် သမိုင်းအရ အလုပ်အသစ် မည်သည်မျှ ဘယ်တော့မှ ဖန်တီးခဲ့ခြင်း မရှိခြင်း",
+            "Automation သည် စက်ရုံ အလုပ်ကိုသာ ဘယ်တော့မှ သက်ရောက်ပြီး အခြား Industry မည်သည်ကိုမျှ သက်ရောက်ခြင်း မရှိခြင်း",
+            "Job Displacement နှင့် Job Creation သည် Industry တစ်ခုချင်းစီတွင် အမြဲ အတိအကျ ညီမျှခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of an automated factory: assembly-line jobs may disappear, but new jobs appear to design, program, and maintain the robots that replaced them.",
+          ],
+          hintsMy: [
+            "Automated စက်ရုံတစ်ခုကို တွေးကြည့်ပါ - Assembly-Line အလုပ်များ ပျောက်ကွယ်သွားနိုင်သော်လည်း ၎င်းတို့ကို အစားထိုးခဲ့သော Robot များကို Design ဆွဲ၊ Program ရေး၊ ထိန်းသိမ်းရန် အလုပ်အသစ်များ ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a key difference between gig-economy work and traditional full-time employment, relevant to worker security?",
+          questionMy:
+              "Worker Security နှင့် သက်ဆိုင်သည့် Gig-Economy အလုပ်နှင့် ရိုးရာ Full-Time အလုပ်ချထားမှုကြား အဓိက ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Gig workers often lack guaranteed hours, employer-provided benefits, and legal protections that traditional employees typically receive",
+            "Gig-economy work always provides identical benefits and job security to traditional employment",
+            "Traditional employment offers no benefits of any kind compared to gig work",
+            "There is no actual difference between gig work and traditional employment",
+          ],
+          optionsMy: [
+            "Gig Worker များတွင် ရိုးရာ ဝန်ထမ်းများ ပုံမှန် ရရှိလေ့ရှိသော အာမခံထားသော အလုပ်ချိန်၊ အလုပ်ရှင်ပေးသော Benefit များနှင့် ဥပဒေရေးရာ ကာကွယ်မှုများ မကြာခဏ ကင်းမဲ့နေတတ်သည်",
+            "Gig-Economy အလုပ်သည် ရိုးရာ အလုပ်ချထားမှုနှင့် တူညီသော Benefit နှင့် အလုပ် လုံခြုံမှု အမြဲ ပေးစွမ်းခြင်း",
+            "ရိုးရာ အလုပ်ချထားမှုသည် Gig Work နှင့် နှိုင်းယှဉ်ပါက Benefit မည်သည်မျှ မပေးစွမ်းခြင်း",
+            "Gig Work နှင့် ရိုးရာ အလုပ်ချထားမှုကြား ခြားနားချက် အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a ride-hailing driver versus a salaried office worker -- one typically has no guaranteed hours, paid sick leave, or pension contributions from an employer; the other typically does.",
+          ],
+          hintsMy: [
+            "Ride-Hailing Driver တစ်ဦးနှင့် Salaried Office Worker တစ်ဦးကို တွေးကြည့်ပါ -- တစ်ဦးတွင် အလုပ်ရှင်ထံမှ အာမခံထားသော အလုပ်ချိန်၊ ဖျားနာလျှင် လစာ (သို့) Pension Contribution ပုံမှန် မရှိတတ်ဘဲ အခြားတစ်ဦးတွင် ပုံမှန် ရှိတတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might policymakers debate whether gig workers should be reclassified as employees rather than independent contractors?",
+          questionMy:
+              "Gig Worker များကို Independent Contractor များအစား ဝန်ထမ်းများအဖြစ် ပြန်လည် အမျိုးအစားခွဲသင့်သလားဆိုသည်ကို Policymaker များ အဘယ်ကြောင့် ငြင်းခုံနိုင်သနည်း။",
+          optionsEn: [
+            "Reclassification would extend legal protections and benefits to gig workers, but could also raise costs for the companies employing them",
+            "This debate has no real-world consequences for anyone involved",
+            "Gig workers already receive identical legal protections to full employees everywhere",
+            "Companies always support reclassification because it reduces their costs",
+          ],
+          optionsMy: [
+            "ပြန်လည် အမျိုးအစားခွဲခြင်းသည် Gig Worker များထံသို့ ဥပဒေရေးရာ ကာကွယ်မှုနှင့် Benefit များကို တိုးချဲ့ပေးမည် ဖြစ်သော်လည်း ၎င်းတို့ကို ငှားရမ်းသော ကုမ္ပဏီများအတွက် ကုန်ကျစရိတ် တိုးမြှင့်နိုင်သည်",
+            "ဤအငြင်းအခုံသည် ပါဝင်ပတ်သက်သူ မည်သူအတွက်မျှ Real-World သက်ရောက်မှု မရှိခြင်း",
+            "Gig Worker များသည် နေရာတိုင်းတွင် Full Employee များနှင့် အတိအကျ တူညီသော ဥပဒေရေးရာ ကာကွယ်မှုများ ရပြီးသား ဖြစ်ခြင်း",
+            "ကုန်ကျစရိတ် လျှော့ချပေးသောကြောင့် ကုမ္ပဏီများသည် ပြန်လည် အမျိုးအစားခွဲခြင်းကို အမြဲ ထောက်ခံခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a genuine trade-off: worker protections typically cost employers money, which is exactly why this remains a contested policy question rather than an easy fix.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား စစ်မှန်သော Trade-Off တစ်ခု ဖြစ်သည် - Worker ကာကွယ်မှုများသည် များသောအားဖြင့် အလုပ်ရှင်များအတွက် ငွေကုန်စေတတ်ပြီး ထို့ကြောင့်ပင် ဤသည် လွယ်ကူသော ဖြေရှင်းချက်မဟုတ်ဘဲ အငြင်းပွားဖွယ် Policy မေးခွန်းတစ်ခု ဖြစ်နေဆဲ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Future of Work Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Future of Work ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w21-dm-1",
+          termEn: "Automation",
+          termMy: "Automation",
+          matchEn:
+              "Using machines or software to perform tasks previously done by humans",
+          matchMy:
+              "ယခင် လူသားများ လုပ်ဆောင်ခဲ့သော Task များကို Machine (သို့) Software အသုံးပြု၍ လုပ်ဆောင်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w21-dm-2",
+          termEn: "Gig economy",
+          termMy: "Gig Economy",
+          matchEn:
+              "A labor market of short-term, flexible, freelance-style work rather than permanent jobs",
+          matchMy:
+              "အမြဲတမ်း အလုပ်များအစား Short-Term, Flexible, Freelance-Style အလုပ်ရှိသော အလုပ်ဈေးကွက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w21-dm-3",
+          termEn: "Reskilling",
+          termMy: "Reskilling",
+          matchEn:
+              "Learning new skills to transition into a different type of job or industry",
+          matchMy:
+              "မတူညီသော အလုပ်အမျိုးအစား (သို့) Industry သို့ ပြောင်းလဲရန် Skill အသစ်များ သင်ယူခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w21-dm-4",
+          termEn: "Job displacement",
+          termMy: "Job Displacement",
+          matchEn:
+              "Workers losing their roles because a task has been automated or restructured",
+          matchMy:
+              "Task တစ်ခုကို Automate (သို့) ပြန်လည် ဖွဲ့စည်းလိုက်သောကြောင့် Worker များ ၎င်းတို့၏ Role ဆုံးရှုံးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Gig Work or Traditional Employment Feature?",
+      titleMy: "စီစစ်ကြမည် - Gig Work (သို့) ရိုးရာ အလုပ်ချထားမှု Feature",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Typical of Gig Work", "Typical of Traditional Employment"],
+        bucketsMy: [
+          "Gig Work ၏ ပုံမှန်ဆန်မှု",
+          "ရိုးရာ အလုပ်ချထားမှု၏ ပုံမှန်ဆန်မှု",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w21-sort-1",
+            labelEn: "Choosing your own hours with no guaranteed minimum work",
+            labelMy:
+                "အနည်းဆုံး အလုပ်ချိန် အာမခံချက် မရှိဘဲ ကိုယ်ပိုင် အချိန် ရွေးချယ်ခြင်း",
+            correctBucketEn: "Typical of Gig Work",
+            correctBucketMy: "Gig Work ၏ ပုံမှန်ဆန်မှု",
+          ),
+          SortingItem(
+            id: "igcgp-w21-sort-2",
+            labelEn:
+                "A fixed monthly salary with employer-provided health insurance",
+            labelMy: "အလုပ်ရှင် ပေးသော ကျန်းမာရေး အာမခံနှင့် Fixed လစဉ်လစာ",
+            correctBucketEn: "Typical of Traditional Employment",
+            correctBucketMy: "ရိုးရာ အလုပ်ချထားမှု၏ ပုံမှန်ဆန်မှု",
+          ),
+          SortingItem(
+            id: "igcgp-w21-sort-3",
+            labelEn:
+                "Paid annual leave and a pension contribution from the employer",
+            labelMy:
+                "အလုပ်ရှင်ထံမှ လစာဖြင့် နှစ်စဉ် ခွင့်နှင့် Pension Contribution",
+            correctBucketEn: "Typical of Traditional Employment",
+            correctBucketMy: "ရိုးရာ အလုပ်ချထားမှု၏ ပုံမှန်ဆန်မှု",
+          ),
+          SortingItem(
+            id: "igcgp-w21-sort-4",
+            labelEn:
+                "Being paid per task completed with no employer benefits provided",
+            labelMy:
+                "အလုပ်ရှင် Benefit မည်သည်မှ မပေးဘဲ ပြီးစီးသော Task အလိုက် လစာ ရရှိခြင်း",
+            correctBucketEn: "Typical of Gig Work",
+            correctBucketMy: "Gig Work ၏ ပုံမှန်ဆန်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Family Business Interview",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ မိသားစု စီးပွားရေး Interview",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Family Business Interview",
+        titleMy: "Su Myat Noe ၏ မိသားစု စီးပွားရေး Interview",
+        passageEn:
+            "Ko Zin Ko Ko opened Term 6 by asking students to interview someone in their own community whose work had changed due to technology or the modern economy. Su Myat Noe interviewed her uncle, who ran a small tailoring shop that had recently begun receiving orders through a delivery app rather than only from walk-in customers.\n\nHer uncle explained that the app brought him significantly more orders than before, but it came with real trade-offs directly matching the week's lesson on the gig economy. Unlike his handful of long-standing walk-in customers, he had no guaranteed minimum number of orders through the app, and the platform could change its commission fees or ranking algorithm at any time, directly affecting his income without any negotiation on his part. He also described how he had needed to learn new digital skills -- managing an online order system, photographing his work for the app's listings -- that his own tailoring training had never covered.\n\nSu Myat Noe connected this directly to the week's automation discussion: while her uncle's actual sewing work had not been automated, the way customers found and hired him had been fundamentally reshaped by digital platforms, creating new kinds of tasks (digital marketing, app management) alongside his traditional craft. She noted that his experience illustrated both sides of the automation debate discussed on Monday -- no jobs were literally destroyed, but the nature of his work, its security, and its required skills had all shifted.\n\nHer final reflection argued that policy debates about gig-worker classification were not abstract for her family -- if her uncle were legally classified as an employee of the delivery platform rather than an independent contractor, he might gain benefits like guaranteed minimum pay, but the platform might also reduce how many tailors it worked with to control costs. Ko Zin Ko Ko praised the interview for grounding a global economic trend in a specific, personally verified local example.",
+        passageMy:
+            "နည်းပညာ (သို့) ခေတ်မီ စီးပွားရေးကြောင့် အလုပ် ပြောင်းလဲသွားသော ၎င်းတို့ကိုယ်ပိုင် Community ထဲရှိ တစ်စုံတစ်ဦးကို Interview ပြုလုပ်ရန် ကျောင်းသားများကို တောင်းဆို၍ ကိုဇင်ကိုကို Term 6 ကို ဖွင့်လှစ်ခဲ့သည်။ Walk-In Customer များမှသာ မဟုတ်ဘဲ Delivery App မှတစ်ဆင့် Order များ မကြာသေးမီက ရရှိစခဲ့သော အထည်ချုပ်ဆိုင်ငယ် လုပ်ကိုင်နေသော ၎င်း၏ ဦးလေးကို Su Myat Noe Interview ပြုလုပ်ခဲ့သည်။\n\nApp သည် ယခင်ထက် Order များစွာ ရရှိစေသော်လည်း အပတ်စဉ် သင်ခန်းစာ Gig Economy နှင့် တိုက်ရိုက် ကိုက်ညီသော စစ်မှန်သော Trade-Off များ ပါလာကြောင်း ၎င်း၏ ဦးလေး ရှင်းပြခဲ့သည်။ ၎င်း၏ ကြာမြင့်စွာ ရှိနေသော Walk-In Customer အနည်းငယ်နှင့် မတူဘဲ App မှတစ်ဆင့် အနည်းဆုံး Order အရေအတွက် အာမခံချက် မရှိသည့်အပြင် Platform သည် ၎င်း၏ Commission Fee (သို့) Ranking Algorithm ကို အချိန်မရွေး ပြောင်းလဲနိုင်ပြီး ၎င်း၏ ဘက်မှ ညှိနှိုင်းခွင့် မည်သည်မှ မရှိဘဲ ၎င်း၏ ဝင်ငွေကို တိုက်ရိုက် သက်ရောက်စေနိုင်သည်။ ၎င်း၏ ကိုယ်ပိုင် အထည်ချုပ် Training တွင် ဘယ်တော့မှ မပါဝင်ခဲ့သော Digital Skill အသစ်များ - Online Order System စီမံခန့်ခွဲခြင်း၊ App ၏ Listing များအတွက် ၎င်း၏ လုပ်ငန်းကို ဓာတ်ပုံရိုက်ခြင်း - သင်ယူရန် လိုအပ်ခဲ့သည်ကိုလည်း ၎င်း ဖော်ပြခဲ့သည်။\n\nဤသည်ကို အပတ်စဉ်၏ Automation ဆွေးနွေးချက်နှင့် Su Myat Noe တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - ၎င်း၏ ဦးလေး၏ အမှန်တကယ် ချုပ်လုပ်ရသော အလုပ်ကို Automate မလုပ်ခဲ့သော်လည်း Customer များ ၎င်းကို ရှာဖွေ၍ ငှားရမ်းသော နည်းလမ်းသည် Digital Platform များဖြင့် အခြေခံကျစွာ ပြန်လည် ပုံသွင်းခံခဲ့ရပြီး ၎င်း၏ ရိုးရာ အတတ်ပညာနှင့်အတူ Task အသစ်အမျိုးအစားများ (Digital Marketing, App စီမံခန့်ခွဲမှု) ဖန်တီးပေးခဲ့သည်။ တနင်္လာနေ့က ဆွေးနွေးခဲ့သော Automation အငြင်းအခုံ၏ ဘက်နှစ်ဘက်စလုံးကို ၎င်း၏ အတွေ့အကြုံက ဖော်ပြနေကြောင်း ၎င်း သတိပြုမိခဲ့သည် - အလုပ် မည်သည်မျှ စာသားအတိုင်း ပျက်ဆီးမသွားခဲ့သော်လည်း ၎င်း၏ အလုပ်၏ သဘောသဘာဝ၊ ၎င်း၏ လုံခြုံမှုနှင့် ၎င်း လိုအပ်သော Skill များ အားလုံး ပြောင်းလဲသွားခဲ့သည်။\n\nGig-Worker အမျိုးအစားခွဲခြင်းဆိုင်ရာ Policy အငြင်းအခုံများသည် ၎င်း၏ မိသားစုအတွက် Abstract မဟုတ်ကြောင်း ၎င်း၏ နောက်ဆုံး Reflection က ငြင်းခုံခဲ့သည် - ၎င်း၏ ဦးလေးကို Independent Contractor အစား Delivery Platform ၏ ဝန်ထမ်းအဖြစ် ဥပဒေအရ အမျိုးအစားခွဲပါက အနည်းဆုံး လစာအာမခံချက် ကဲ့သို့သော Benefit များ ရရှိနိုင်သော်လည်း Platform သည် ကုန်ကျစရိတ် ထိန်းချုပ်ရန် မည်မျှ Tailor များနှင့် အလုပ်လုပ်မည်ဆိုသည်ကို လျှော့ချနိုင်ပါသည်။ ကမ္ဘာ့ စီးပွားရေး Trend တစ်ခုကို တိကျ၊ ကိုယ်တိုင် အတည်ပြုထားသော Local ဥပမာတစ်ခုတွင် အခြေခံစေခဲ့သောကြောင့် Interview ကို ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what trade-offs did Su Myat Noe's uncle experience from using the delivery app?",
+            questionMy:
+                "Delivery App အသုံးပြုခြင်းမှ Su Myat Noe ၏ ဦးလေး ကြုံတွေ့ခဲ့ရသော Trade-Off များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No guaranteed minimum orders, and the platform could change fees or ranking without negotiation",
+              "No trade-offs occurred at all; only benefits resulted",
+              "He lost all his walk-in customers permanently",
+              "The app guaranteed him a fixed monthly salary",
+            ],
+            optionsMy: [
+              "အနည်းဆုံး Order အရေအတွက် အာမခံချက် မရှိသည့်အပြင် Platform သည် ညှိနှိုင်းခွင့် မရှိဘဲ Fee (သို့) Ranking ကို ပြောင်းလဲနိုင်ခြင်း",
+              "Trade-Off မည်သည်မှ လုံးဝ မဖြစ်ပေါ်ခဲ့ခြင်း; အကျိုးကျေးဇူးများသာ ရရှိခဲ့ခြင်း",
+              "၎င်း၏ Walk-In Customer အားလုံးကို အမြဲအတွက် ဆုံးရှုံးခဲ့ခြင်း",
+              "App သည် ၎င်းအား Fixed လစဉ်လစာ အာမခံပေးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's list of trade-offs."],
+            hintsMy: [
+              "Trade-Off များ စာရင်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the app change the nature of the uncle's work without automating his sewing itself?",
+            questionMy:
+                "ဦးလေး၏ ချုပ်လုပ်ခြင်းကို Automate မလုပ်ဘဲ App သည် ၎င်း၏ အလုပ် သဘောသဘာဝကို မည်သို့ ပြောင်းလဲစေခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It reshaped how customers found and hired him, creating new digital-skill tasks alongside his craft",
+              "It replaced his sewing entirely with a robotic machine",
+              "It had absolutely no effect on his work in any way",
+              "It eliminated the need for him to have any customers at all",
+            ],
+            optionsMy: [
+              "Customer များ ၎င်းကို ရှာဖွေ၍ ငှားရမ်းသော နည်းလမ်းကို ပြန်လည် ပုံသွင်းပေးကာ ၎င်း၏ အတတ်ပညာနှင့်အတူ Digital-Skill Task အသစ်များ ဖန်တီးပေးခြင်း",
+              "၎င်း၏ ချုပ်လုပ်ခြင်းကို Robotic Machine တစ်ခုဖြင့် လုံးဝ အစားထိုးခဲ့ခြင်း",
+              "၎င်း၏ အလုပ်ကို မည်သည့်နည်းနှင့်မျှ လုံးဝ သက်ရောက်မှု မရှိခဲ့ခြင်း",
+              "Customer မည်သူမျှ ရှိစရာ မလိုအောင် ဖယ်ရှားပေးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's connection to the automation discussion.",
+            ],
+            hintsMy: [
+              "Automation ဆွေးနွေးချက်နှင့် ချိတ်ဆက်ချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Su Myat Noe say the gig-worker classification debate was not abstract for her family?",
+            questionMy:
+                "Gig-Worker အမျိုးအစားခွဲခြင်း အငြင်းအခုံသည် ၎င်း၏ မိသားစုအတွက် Abstract မဟုတ်ကြောင်း Su Myat Noe အဘယ်ကြောင့် ပြောခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reclassification could bring benefits like guaranteed pay but might also reduce how many tailors the platform works with",
+              "The debate had no connection to her family whatsoever",
+              "Her uncle had already been fully classified as a traditional employee",
+              "The platform had already gone out of business entirely",
+            ],
+            optionsMy: [
+              "ပြန်လည် အမျိုးအစားခွဲခြင်းသည် အာမခံထားသော လစာကဲ့သို့ Benefit များ ယူဆောင်လာနိုင်သော်လည်း Platform လုပ်ဆောင်သော Tailor အရေအတွက်ကို လျှော့ချနိုင်ခြင်း",
+              "အငြင်းအခုံသည် ၎င်း၏ မိသားစုနှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+              "၎င်း၏ ဦးလေးကို ရိုးရာ ဝန်ထမ်းတစ်ဦးအဖြစ် အပြည့်အစုံ အမျိုးအစားခွဲပြီးသား ဖြစ်ခြင်း",
+              "Platform သည် လုံးဝ စီးပွားရေး ရပ်ဆိုင်းသွားပြီးသား ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's argument."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w21-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Changing Nature of Work",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - အလုပ်အကိုင် ပြောင်းလဲနေသော သဘောသဘာဝ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Automation typically...",
+          questionMy: "Automation သည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Displaces some jobs while creating new kinds of jobs",
+            "Only ever creates jobs with no displacement",
+            "Only ever destroys jobs with no creation",
+            "Has no effect on employment of any kind",
+          ],
+          optionsMy: [
+            "အလုပ် အချို့ကို Displace ပြုလုပ်စဉ် အလုပ် အမျိုးအစားအသစ်များ ဖန်တီးခြင်း",
+            "Displacement မပါဘဲ အလုပ်ကိုသာ အမြဲ ဖန်တီးခြင်း",
+            "ဖန်တီးမှု မပါဘဲ အလုပ်ကိုသာ အမြဲ ဖျက်ဆီးခြင်း",
+            "အလုပ်အကိုင်အပေါ် သက်ရောက်မှု မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A key feature of gig-economy work is...",
+          questionMy: "Gig-Economy အလုပ်၏ အဓိက Feature မှာ...",
+          optionsEn: [
+            "Lack of guaranteed hours and traditional employer benefits",
+            "Guaranteed lifetime employment",
+            "Automatic pension contributions",
+            "Fixed monthly salaries for every worker",
+          ],
+          optionsMy: [
+            "အာမခံထားသော အလုပ်ချိန်နှင့် ရိုးရာ အလုပ်ရှင် Benefit များ ကင်းမဲ့ခြင်း",
+            "အသက်ထက်ဆုံး အလုပ်ချထားမှု အာမခံချက်",
+            "အလိုအလျောက် Pension Contribution",
+            "Worker တိုင်းအတွက် Fixed လစဉ်လစာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reclassifying gig workers as employees would most likely...",
+          questionMy:
+              "Gig Worker များကို ဝန်ထမ်းများအဖြစ် ပြန်လည် အမျိုးအစားခွဲခြင်းသည် ဖြစ်နိုင်ခြေအရှိဆုံးအားဖြင့်...",
+          optionsEn: [
+            "Extend legal protections but potentially raise costs for companies",
+            "Have no effect on companies at all",
+            "Automatically eliminate the gig economy entirely",
+            "Guarantee lower prices for consumers",
+          ],
+          optionsMy: [
+            "ဥပဒေရေးရာ ကာကွယ်မှုများ တိုးချဲ့ပေးသော်လည်း ကုမ္ပဏီများအတွက် ကုန်ကျစရိတ် တိုးမြှင့်နိုင်ခြင်း",
+            "ကုမ္ပဏီများအပေါ် သက်ရောက်မှု လုံးဝ မရှိခြင်း",
+            "Gig Economy ကို လုံးဝ အလိုအလျောက် ဖျက်သိမ်းပစ်ခြင်း",
+            "Consumer များအတွက် ဈေးနှုန်း ပိုနိမ့်စေရန် အာမခံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 6, Week 22: "Multinational
+// Corporations and Power"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek22 = CourseWeekDef(
+  id: "course-igcse-gp-w22",
+  weekNumber: 22,
+  titleEn: "Multinational Corporations and Power",
+  titleMy: "Multinational Corporation များနှင့် အာဏာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w22-d1",
+      dayNumber: 1,
+      titleEn: "How Multinational Corporations Wield Influence",
+      titleMy:
+          "Multinational Corporation များ သြဇာလွှမ်းမိုးမှု မည်သို့ ကျင့်သုံးသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why can a large multinational corporation sometimes hold more economic influence over a small country than that country's own government?",
+          questionMy:
+              "Multinational Corporation ကြီးတစ်ခုသည် နိုင်ငံငယ်တစ်ခုအပေါ် ထိုနိုင်ငံ၏ ကိုယ်ပိုင် အစိုးရထက်ပင် စီးပွားရေး သြဇာလွှမ်းမိုးမှု ပို၍ ရှိနိုင်သည့် အကြောင်းရင်းမှာ တစ်ခါတစ်ရံ အဘယ်နည်း။",
+          optionsEn: [
+            "The corporation's revenue, employment footprint, or investment decisions can be large enough to significantly shape a small economy's jobs and government tax revenue",
+            "Multinational corporations never actually have any economic influence anywhere",
+            "Small countries always have more economic power than any corporation",
+            "Corporations are legally required to prioritize a host government's interests over their own",
+          ],
+          optionsMy: [
+            "ကုမ္ပဏီ၏ Revenue, အလုပ်အကိုင် Footprint (သို့) ရင်းနှီးမြှုပ်နှံမှု ဆုံးဖြတ်ချက်များသည် စီးပွားရေးငယ်တစ်ခု၏ အလုပ်အကိုင်နှင့် အစိုးရ အခွန်ဝင်ငွေကို သိသိသာသာ ပုံဖော်ရန် လုံလောက်အောင် ကြီးမားနိုင်သည်",
+            "Multinational Corporation များသည် နေရာတိုင်းတွင် စီးပွားရေး သြဇာလွှမ်းမိုးမှု မည်သည်မျှ အမှန်တကယ် ဘယ်တော့မှ မရှိခြင်း",
+            "နိုင်ငံငယ်များသည် ကုမ္ပဏီ မည်သည်ထက်မဆို စီးပွားရေး အာဏာ ပို၍ ရှိသည်",
+            "Host အစိုးရ၏ အကျိုးစီးပွားကို ၎င်းကိုယ်ပိုင် အကျိုးစီးပွားထက် ဦးစားပေးရန် ကုမ္ပဏီများကို ဥပဒေအရ တောင်းဆိုထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If one corporation's factory employs a significant share of a small country's workforce, that corporation can influence local policy simply by threatening to relocate elsewhere.",
+          ],
+          hintsMy: [
+            "ကုမ္ပဏီတစ်ခု၏ စက်ရုံသည် နိုင်ငံငယ်တစ်ခု၏ လုပ်သားအင်အား၏ သိသာထင်ရှားသော ဝေစုတစ်ခုကို ခန့်အပ်ထားပါက ထိုကုမ္ပဏီသည် အခြားနေရာသို့ ပြောင်းရွှေ့မည်ဟု ခြိမ်းခြောက်ရုံဖြင့် Local Policy ကို သြဇာလွှမ်းမိုးနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the primary concern raised by the practice of 'profit shifting' or 'tax avoidance' by multinational corporations?",
+          questionMy:
+              "Multinational Corporation များ၏ 'Profit Shifting' (သို့) 'Tax Avoidance' အလေ့အထက ဖြစ်ပေါ်စေသော အဓိက စိုးရိမ်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Countries where actual economic activity occurs may lose out on tax revenue that could otherwise fund public services",
+            "Tax avoidance has no actual financial effect on any government anywhere",
+            "Profit shifting always increases the tax revenue of every country involved",
+            "This practice only affects extremely wealthy individuals, never governments",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် စီးပွားရေး လှုပ်ရှားမှု ဖြစ်ပေါ်သော နိုင်ငံများသည် အများသူငှာ Service များကို ငွေထောက်ပံ့နိုင်မည့် အခွန်ဝင်ငွေကို ဆုံးရှုံးနိုင်သည်",
+            "Tax Avoidance သည် နေရာတိုင်းရှိ အစိုးရ မည်သည်အပေါ်မျှ အမှန်တကယ် ငွေကြေးဆိုင်ရာ သက်ရောက်မှု မရှိခြင်း",
+            "Profit Shifting သည် ပါဝင်ပတ်သက်သော နိုင်ငံတိုင်း၏ အခွန်ဝင်ငွေကို အမြဲ တိုးမြှင့်ပေးခြင်း",
+            "ဤအလေ့အထသည် အလွန်ချမ်းသာသော ပုဂ္ဂိုလ်များကိုသာ သက်ရောက်ပြီး အစိုးရများကို ဘယ်တော့မှ သက်ရောက်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a corporation books its profits in a low-tax country rather than where its factories or customers actually are, the country doing the real economic work collects less tax.",
+          ],
+          hintsMy: [
+            "ကုမ္ပဏီတစ်ခုသည် ၎င်း၏ Factory (သို့) Customer များ အမှန်တကယ် ရှိသောနေရာအစား Tax နည်းသော နိုင်ငံတွင် ၎င်း၏ အမြတ်ငွေကို မှတ်တမ်းတင်ပါက အမှန်တကယ် စီးပွားရေး အလုပ်ကို လုပ်ဆောင်နေသော နိုင်ငံသည် Tax နည်းစွာ ကောက်ခံရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a country still choose to attract multinational corporations despite these concerns about power and tax avoidance?",
+          questionMy:
+              "အာဏာနှင့် Tax Avoidance ဆိုင်ရာ ဤစိုးရိမ်မှုများ ရှိသော်လည်း နိုင်ငံတစ်ခုသည် Multinational Corporation များကို ဆက်လက် ဆွဲဆောင်ရန် ဆုံးဖြတ်နိုင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Multinational investment can bring jobs, infrastructure, technology transfer, and economic growth that a country weighs against the risks",
+            "Countries never actually gain any benefit from multinational corporations",
+            "There are no trade-offs involved in this decision whatsoever",
+            "Multinational corporations are legally required to invest in every country equally",
+          ],
+          optionsMy: [
+            "Multinational ရင်းနှီးမြှုပ်နှံမှုသည် နိုင်ငံတစ်ခု အန္တရာယ်များနှင့် နှိုင်းယှဉ်စဉ်းစားသော အလုပ်အကိုင်၊ အခြေခံအဆောက်အအုံ၊ နည်းပညာလွှဲပြောင်းမှုနှင့် စီးပွားရေး တိုးတက်မှု ယူဆောင်လာနိုင်သည်",
+            "နိုင်ငံများသည် Multinational Corporation များထံမှ အကျိုးကျေးဇူး မည်သည်မျှ အမှန်တကယ် ဘယ်တော့မှ မရရှိခြင်း",
+            "ဤဆုံးဖြတ်ချက်တွင် Trade-Off မည်သည်မှ ပါဝင်ခြင်း လုံးဝ မရှိခြင်း",
+            "Multinational Corporation များသည် နိုင်ငံတိုင်းတွင် ညီမျှစွာ ရင်းနှီးမြှုပ်နှံရန် ဥပဒေအရ တောင်းဆိုထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a genuine cost-benefit trade-off -- just like Term 5's technology-policy lesson, no side is purely good or bad; a country weighs real benefits against real risks.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား စစ်မှန်သော Cost-Benefit Trade-Off တစ်ခု ဖြစ်သည် -- Term 5 ၏ Technology-Policy သင်ခန်းစာကဲ့သို့ပင် ဘက်မည်သည်မျှ လုံးဝ ကောင်း (သို့) ဆိုးမဟုတ်ဘဲ နိုင်ငံတစ်ခုသည် စစ်မှန်သော အကျိုးကျေးဇူးများကို စစ်မှန်သော အန္တရာယ်များနှင့် ချိန်ဆသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Corporate Power Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Corporate Power ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w22-dm-1",
+          termEn: "Multinational corporation",
+          termMy: "Multinational Corporation",
+          matchEn:
+              "A company that operates and owns assets in more than one country",
+          matchMy:
+              "တစ်နိုင်ငံထက်ပို၍ ပိုင်ဆိုင်မှုများ လည်ပတ်ကာ ပိုင်ဆိုင်သော ကုမ္ပဏီ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w22-dm-2",
+          termEn: "Tax avoidance",
+          termMy: "Tax Avoidance",
+          matchEn:
+              "Legally minimizing tax owed, often by shifting profits to low-tax jurisdictions",
+          matchMy:
+              "အမြတ်ငွေများကို Tax နည်းသော ဒေသများသို့ ရွှေ့ပြောင်း၍ ပေးရမည့် Tax ကို ဥပဒေအရ လျှော့ချခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w22-dm-3",
+          termEn: "Foreign direct investment",
+          termMy: "Foreign Direct Investment",
+          matchEn:
+              "Investment by a company or individual in business interests located in another country",
+          matchMy:
+              "အခြားနိုင်ငံတွင် တည်ရှိသော လုပ်ငန်း အကျိုးစီးပွားများတွင် ကုမ္ပဏီ (သို့) တစ်ဦးချင်း၏ ရင်းနှီးမြှုပ်နှံမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w22-dm-4",
+          termEn: "Lobbying",
+          termMy: "Lobbying",
+          matchEn:
+              "Attempting to influence government decisions in favor of a particular interest group",
+          matchMy:
+              "သီးခြား အကျိုးစီးပွားအုပ်စု တစ်ခုဘက်သို့ အစိုးရ ဆုံးဖြတ်ချက်များကို သြဇာလွှမ်းမိုးရန် ကြိုးစားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Corporate Benefit or Corporate Risk to a Host Country?",
+      titleMy:
+          "စီစစ်ကြမည် - Host နိုင်ငံအတွက် Corporate အကျိုး (သို့) Corporate အန္တရာယ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Benefit to Host Country", "Risk to Host Country"],
+        bucketsMy: ["Host နိုင်ငံအတွက် အကျိုး", "Host နိုင်ငံအတွက် အန္တရာယ်"],
+        items: [
+          SortingItem(
+            id: "igcgp-w22-sort-1",
+            labelEn: "New factory jobs and skills training for local workers",
+            labelMy:
+                "Local Worker များအတွက် စက်ရုံအလုပ်အသစ်များနှင့် Skill Training",
+            correctBucketEn: "Benefit to Host Country",
+            correctBucketMy: "Host နိုင်ငံအတွက် အကျိုး",
+          ),
+          SortingItem(
+            id: "igcgp-w22-sort-2",
+            labelEn: "Profits shifted abroad, reducing local tax revenue",
+            labelMy:
+                "နိုင်ငံခြားသို့ ရွှေ့ပြောင်းလိုက်သော အမြတ်ငွေများ၊ Local Tax ဝင်ငွေ လျော့ကျစေခြင်း",
+            correctBucketEn: "Risk to Host Country",
+            correctBucketMy: "Host နိုင်ငံအတွက် အန္တရာယ်",
+          ),
+          SortingItem(
+            id: "igcgp-w22-sort-3",
+            labelEn:
+                "Transfer of new technology and management expertise to the local economy",
+            labelMy:
+                "Local စီးပွားရေးသို့ နည်းပညာအသစ်နှင့် စီမံခန့်ခွဲမှု ကျွမ်းကျင်မှု လွှဲပြောင်းပေးခြင်း",
+            correctBucketEn: "Benefit to Host Country",
+            correctBucketMy: "Host နိုင်ငံအတွက် အကျိုး",
+          ),
+          SortingItem(
+            id: "igcgp-w22-sort-4",
+            labelEn:
+                "A corporation threatening to relocate unless the government lowers regulations",
+            labelMy:
+                "အစိုးရ Regulation များ လျှော့ချမှသာ ဆက်လက် ရှိမည့် ကုမ္ပဏီတစ်ခု၏ ပြောင်းရွှေ့မည် ခြိမ်းခြောက်ချက်",
+            correctBucketEn: "Risk to Host Country",
+            correctBucketMy: "Host နိုင်ငံအတွက် အန္တရာယ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Factory Town Case Study",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Factory မြို့ Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Factory Town Case Study",
+        titleMy: "Su Myat Noe ၏ Factory မြို့ Case Study",
+        passageEn:
+            "For Week 22, Ko Zin Ko Ko assigned students a published case study of a small manufacturing town whose economy had become heavily dependent on a single multinational corporation's factory. Su Myat Noe's report analyzed both the benefits and the risks the lesson had introduced, refusing to present either side as the complete picture.\n\nOn the benefit side, she documented that the factory had created thousands of local jobs, funded a new training center that taught technical skills previously unavailable in the town, and brought paved roads and improved electrical infrastructure that the local government alone could not have afforded. Median household income in the town had risen noticeably since the factory opened, exactly the kind of foreign direct investment benefit the week's lesson described.\n\nBut her report also documented the risks in equally specific detail. The corporation paid a lower effective tax rate than smaller local businesses, structuring its accounting so that a significant share of its actual profit was recorded in a different country -- a textbook example of the profit-shifting practice from Tuesday's lesson. More strikingly, when the local government proposed new environmental regulations on factory emissions, the corporation publicly threatened to relocate its operations elsewhere, and the regulations were quietly withdrawn within weeks. Su Myat Noe noted this was a clear, concrete demonstration of a multinational corporation holding more practical influence over local policy than the town's own elected officials.\n\nHer conclusion avoided a simple verdict of 'good' or 'bad,' instead arguing that the town's situation illustrated exactly the trade-off from Wednesday's lesson: real, measurable benefits existed alongside a real loss of local government autonomy, and any responsible policy response would need to preserve the investment's advantages while building stronger, harder-to-threaten regulatory safeguards. Ko Zin Ko Ko praised the balance of her analysis as a model for the week's central skill: evaluating corporate power without oversimplifying it.",
+        passageMy:
+            "Week 22 အတွက် Multinational Corporation တစ်ခု၏ Factory အပေါ် စီးပွားရေး အလွန်အကျွံ မှီခိုနေရသော Manufacturing မြို့ငယ်တစ်ခု၏ ထုတ်ဝေထားသော Case Study တစ်ခုကို ကျောင်းသားများအား ကိုဇင်ကိုကို တာဝန်ပေးအပ်ခဲ့သည်။ Su Myat Noe ၏ Report သည် သင်ခန်းစာက မိတ်ဆက်ပေးခဲ့သော အကျိုးနှင့် အန္တရာယ် နှစ်ခုစလုံးကို ခွဲခြမ်းစိတ်ဖြာခဲ့ပြီး ဘက်မည်သည်ကိုမျှ ပြည့်စုံသော ပုံရိပ်အဖြစ် ဖော်ပြရန် ငြင်းဆန်ခဲ့သည်။\n\nအကျိုးဘက်တွင် Factory သည် Local အလုပ်အကိုင် ထောင်ချီ ဖန်တီးပေးခဲ့ပြီး မြို့တွင် ယခင်က မရရှိနိုင်ခဲ့သော Technical Skill များ သင်ကြားပေးသော Training Center အသစ်ကို ငွေထောက်ပံ့ကာ Local အစိုးရတစ်ခုတည်းက မတတ်နိုင်ခဲ့သော ကတ္တရာလမ်းများနှင့် တိုးတက်သော လျှပ်စစ် အခြေခံအဆောက်အအုံများ ယူဆောင်လာခဲ့ကြောင်း မှတ်တမ်းတင်ခဲ့သည်။ Factory ဖွင့်လှစ်ချိန်မှစ၍ မြို့ရှိ Median Household ဝင်ငွေသည် သိသိသာသာ မြင့်တက်လာခဲ့ပြီး ဤသည်ကား အပတ်စဉ် သင်ခန်းစာက ဖော်ပြခဲ့သော Foreign Direct Investment အကျိုးကျေးဇူး အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nသို့သော် ၎င်း၏ Report သည် အန္တရာယ်များကိုလည်း အလားတူ တိကျသော အသေးစိတ်ဖြင့် မှတ်တမ်းတင်ခဲ့သည်။ ကုမ္ပဏီသည် Local လုပ်ငန်းငယ်များထက် Effective Tax Rate နိမ့်စွာ ပေးဆောင်ခဲ့ပြီး ၎င်း၏ အမှန်တကယ် အမြတ်ငွေ၏ သိသာထင်ရှားသော ဝေစုကို အခြားနိုင်ငံတစ်ခုတွင် မှတ်တမ်းတင်ရန် ၎င်း၏ စာရင်းကိုင်ခြင်းကို ဖွဲ့စည်းခဲ့သည် -- အင်္ဂါနေ့ သင်ခန်းစာမှ Profit-Shifting အလေ့အထ၏ Textbook ဥပမာတစ်ခု ဖြစ်သည်။ ပို၍ ထင်ရှားသည်မှာ Local အစိုးရသည် Factory Emission များအပေါ် ပတ်ဝန်းကျင် Regulation အသစ်များ အဆိုပြုချိန် ကုမ္ပဏီသည် ၎င်း၏ လုပ်ငန်းများကို အခြားနေရာသို့ ပြောင်းရွှေ့မည်ဟု အများသိစေကာ ခြိမ်းခြောက်ခဲ့ပြီး Regulation များကို ရက်သတ္တပတ်အနည်းငယ်အတွင်း တိတ်တဆိတ် ရုပ်သိမ်းခဲ့ကြောင်း ဖြစ်သည်။ Multinational Corporation တစ်ခုသည် မြို့၏ ကိုယ်ပိုင် ရွေးချယ်တင်မြှောက်ခံ အရာရှိများထက်ပင် Local Policy အပေါ် လက်တွေ့ သြဇာလွှမ်းမိုးမှု ပို၍ ရှိသည့် ရှင်းလင်း၊ တိကျသော သရုပ်ဖော်မှုတစ်ခု ဖြစ်ကြောင်း Su Myat Noe မှတ်ချက်ပြုခဲ့သည်။\n\n၎င်း၏ ကောက်ချက်သည် 'ကောင်း' (သို့) 'ဆိုး' ဆိုသော ရိုးရှင်းသော ဆုံးဖြတ်ချက်ကို ရှောင်ရှားကာ မြို့၏ အခြေအနေသည် ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာမှ Trade-Off ကို အတိအကျ သရုပ်ဖော်ကြောင်း ငြင်းခုံခဲ့သည် - စစ်မှန်၊ တိုင်းတာနိုင်သော အကျိုးကျေးဇူးများသည် Local အစိုးရ၏ ကိုယ်ပိုင်စီမံအုပ်ချုပ်ခွင့် စစ်မှန်သော ဆုံးရှုံးမှုနှင့်အတူ ရှိနေပြီး တာဝန်ရှိသော Policy တုံ့ပြန်မှု မည်သည်မဆို ရင်းနှီးမြှုပ်နှံမှု၏ အားသာချက်များကို ထိန်းသိမ်းစဉ် ခြိမ်းခြောက်ရန် ခက်ခဲသော ခိုင်မာသော Regulatory Safeguard များ တည်ဆောက်ရန် လိုအပ်မည် ဖြစ်သည်။ Corporate Power ကို Oversimplify မလုပ်ဘဲ အကဲဖြတ်ရန်ဆိုသော အပတ်စဉ်၏ ဗဟိုချက် Skill အတွက် Model တစ်ခုအဖြစ် ၎င်း၏ ခွဲခြမ်းစိတ်ဖြာမှု၏ ဟန်ချက်ကို ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific benefits did the factory bring to the town?",
+            questionMy:
+                "Factory သည် မြို့သို့ ယူဆောင်လာခဲ့သော တိကျသော အကျိုးကျေးဇူးများကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Thousands of jobs, a training center, and improved roads/electrical infrastructure",
+              "No benefits of any kind resulted from the factory",
+              "Only a small handful of part-time seasonal jobs",
+              "A reduction in median household income",
+            ],
+            optionsMy: [
+              "အလုပ်အကိုင် ထောင်ချီ၊ Training Center နှင့် တိုးတက်သော လမ်းများ/လျှပ်စစ် အခြေခံအဆောက်အအုံ",
+              "Factory မှ အကျိုးကျေးဇူး မည်သည်မှ မဖြစ်ပေါ်ခဲ့ခြင်း",
+              "Part-Time ရာသီအလုပ် အနည်းငယ်သာ",
+              "Median Household ဝင်ငွေ လျော့ကျခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's list of benefits."],
+            hintsMy: [
+              "အကျိုးကျေးဇူးများ စာရင်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happened when the local government proposed new environmental regulations?",
+            questionMy:
+                "Local အစိုးရသည် ပတ်ဝန်းကျင် Regulation အသစ်များ အဆိုပြုချိန် ဘာဖြစ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The corporation threatened to relocate, and the regulations were quietly withdrawn",
+              "The corporation immediately agreed to every regulation without objection",
+              "The government ignored the corporation entirely",
+              "Nothing changed as a result of the proposal",
+            ],
+            optionsMy: [
+              "ကုမ္ပဏီသည် ပြောင်းရွှေ့မည်ဟု ခြိမ်းခြောက်ခဲ့ပြီး Regulation များကို တိတ်တဆိတ် ရုပ်သိမ်းခဲ့ခြင်း",
+              "ကုမ္ပဏီသည် Regulation တိုင်းကို ချက်ချင်း ကန့်ကွက်ချက် မရှိဘဲ သဘောတူခဲ့ခြင်း",
+              "အစိုးရသည် ကုမ္ပဏီကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "အဆိုပြုချက်၏ ရလဒ်အနေဖြင့် မည်သည်မှ မပြောင်းလဲခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's account of the regulation attempt.",
+            ],
+            hintsMy: [
+              "Regulation ကြိုးပမ်းမှု အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Myat Noe's conclusion avoid, and what did she argue instead?",
+            questionMy:
+                "Su Myat Noe ၏ ကောက်ချက်သည် အဘယ်အရာကို ရှောင်ရှားပြီး ၎င်းအစား အဘယ်အရာကို ငြင်းခုံခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She avoided a simple 'good or bad' verdict and argued for preserving benefits while building stronger regulatory safeguards",
+              "She concluded the factory was entirely good with no downsides",
+              "She concluded the factory was entirely bad and should close immediately",
+              "She avoided drawing any conclusion whatsoever",
+            ],
+            optionsMy: [
+              "'ကောင်း (သို့) ဆိုး' ဆိုသော ရိုးရှင်းသော ဆုံးဖြတ်ချက်ကို ရှောင်ရှားကာ အကျိုးကျေးဇူးများကို ထိန်းသိမ်းစဉ် ပိုမိုခိုင်မာသော Regulatory Safeguard များ တည်ဆောက်ရန် ငြင်းခုံခဲ့ခြင်း",
+              "Factory သည် ဆိုးကျိုး မည်သည်မှ မပါဘဲ လုံးဝ ကောင်းမွန်ကြောင်း ကောက်ချက်ချခဲ့ခြင်း",
+              "Factory သည် လုံးဝ ဆိုးရွားပြီး ချက်ချင်း ပိတ်သိမ်းသင့်ကြောင်း ကောက်ချက်ချခဲ့ခြင်း",
+              "ကောက်ချက် မည်သည်မှ လုံးဝ မချခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w22-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Multinational Corporations and Power",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Multinational Corporation များနှင့် အာဏာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A multinational corporation is best defined as...",
+          questionMy:
+              "Multinational Corporation ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A company operating and owning assets in more than one country",
+            "A company operating in exactly one country only",
+            "A government agency",
+            "A type of nonprofit charity",
+          ],
+          optionsMy: [
+            "တစ်နိုင်ငံထက်ပို၍ ပိုင်ဆိုင်မှုများ လည်ပတ်ကာ ပိုင်ဆိုင်သော ကုမ္ပဏီ",
+            "နိုင်ငံတစ်ခုတည်းတွင်သာ လည်ပတ်သော ကုမ္ပဏီ",
+            "အစိုးရ ဌာနတစ်ခု",
+            "အကျိုးအမြတ် မယူသော အလှူအတန်းအမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Profit shifting primarily concerns...",
+          questionMy: "Profit Shifting သည် အဓိကအားဖြင့် ...ကို စိုးရိမ်စေသည်",
+          optionsEn: [
+            "Recording profits where tax is low rather than where activity occurs",
+            "Increasing tax revenue for every country equally",
+            "A type of manufacturing process",
+            "A workplace safety regulation",
+          ],
+          optionsMy: [
+            "လှုပ်ရှားမှု ဖြစ်ပေါ်သောနေရာအစား Tax နည်းသောနေရာတွင် အမြတ်ငွေများ မှတ်တမ်းတင်ခြင်း",
+            "နိုင်ငံတိုင်းအတွက် Tax ဝင်ငွေ ညီမျှစွာ တိုးမြှင့်ခြင်း",
+            "Manufacturing Process အမျိုးအစားတစ်ခု",
+            "အလုပ်ခွင် ဘေးကင်းရေး Regulation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A corporation threatening to relocate unless regulations are loosened demonstrates...",
+          questionMy:
+              "Regulation များ မလျှော့ချလျှင် ပြောင်းရွှေ့မည်ဟု ခြိမ်းခြောက်သော ကုမ္ပဏီတစ်ခုသည် ...ကို သရုပ်ဖော်သည်",
+          optionsEn: [
+            "Corporate influence over local government policy",
+            "A total lack of any corporate influence",
+            "Guaranteed job security for all local workers",
+            "A legal requirement to follow all regulations",
+          ],
+          optionsMy: [
+            "Local အစိုးရ Policy အပေါ် Corporate သြဇာလွှမ်းမိုးမှု",
+            "Corporate သြဇာလွှမ်းမိုးမှု လုံးဝ ကင်းမဲ့ခြင်း",
+            "Local Worker အားလုံးအတွက် အလုပ် လုံခြုံမှု အာမခံချက်",
+            "Regulation အားလုံးကို လိုက်နာရန် ဥပဒေရေးရာ လိုအပ်ချက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 6, Week 23: "Fair Trade and
+// Ethical Consumerism"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek23 = CourseWeekDef(
+  id: "course-igcse-gp-w23",
+  weekNumber: 23,
+  titleEn: "Fair Trade and Ethical Consumerism",
+  titleMy: "Fair Trade နှင့် ကျင့်ဝတ်ဆိုင်ရာ Consumerism",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w23-d1",
+      dayNumber: 1,
+      titleEn: "What Fair Trade Certification Actually Guarantees",
+      titleMy: "Fair Trade လက်မှတ်သည် အမှန်တကယ် အဘယ်အရာကို အာမခံသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What core problem is fair trade certification designed to address in global supply chains?",
+          questionMy:
+              "ကမ္ဘာ့ Supply Chain များတွင် Fair Trade Certification သည် ဖြေရှင်းရန် Design ပြုလုပ်ထားသော အဓိက ပြဿနာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Producers in developing countries, especially small farmers, often receive an unfairly small share of the final retail price for their goods",
+            "Fair trade certification exists to guarantee the lowest possible price for consumers",
+            "Fair trade certification has no actual connection to producer income",
+            "Global supply chains never actually involve any pricing imbalance",
+          ],
+          optionsMy: [
+            "ဖွံ့ဖြိုးဆဲ နိုင်ငံများရှိ ထုတ်လုပ်သူများ၊ အထူးသဖြင့် လယ်သမားငယ်များသည် ၎င်းတို့၏ ကုန်ပစ္စည်းများ၏ နောက်ဆုံး ဈေးနှုန်း၏ မတရားစွာ ငယ်သော ဝေစုကို မကြာခဏ ရရှိတတ်သည်",
+            "Consumer များအတွက် ဖြစ်နိုင်သမျှ အနိမ့်ဆုံး ဈေးနှုန်းကို အာမခံရန် Fair Trade Certification ရှိသည်",
+            "Fair Trade Certification သည် ထုတ်လုပ်သူ ဝင်ငွေနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ကမ္ဘာ့ Supply Chain များတွင် ဈေးနှုန်း မညီမျှမှု မည်သည်မျှ အမှန်တကယ် ပါဝင်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about who along a coffee supply chain -- the farmer, the exporter, the roaster, the retailer -- captures the largest share of what a customer pays for a cup of coffee.",
+          ],
+          hintsMy: [
+            "Coffee Supply Chain တစ်လျှောက် - လယ်သမား၊ Exporter၊ Roaster၊ Retailer - မည်သူက Customer တစ်ဦး Coffee ခွက်တစ်ခွက်အတွက် ပေးဆောင်သည့် ငွေ၏ အများဆုံးဝေစုကို ရရှိသည်ကို တွေးကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a critic argue that fair trade certification, while well-intentioned, does not fully solve global trade inequality?",
+          questionMy:
+              "Fair Trade Certification သည် ရည်ရွယ်ချက် ကောင်းသော်လည်း ကမ္ဘာ့ ကုန်သွယ်ရေး မညီမျှမှုကို အပြည့်အစုံ မဖြေရှင်းနိုင်ကြောင်း Critic တစ်ဦးက ငြင်းခုံနိုင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Certification costs and requirements can be difficult for the poorest producers to afford, and certified goods often reach only a small share of the overall market",
+            "Fair trade certification has already completely eliminated global trade inequality everywhere",
+            "There is no valid criticism of fair trade certification of any kind",
+            "Fair trade certification guarantees every producer in the world an identical income",
+          ],
+          optionsMy: [
+            "Certification ကုန်ကျစရိတ်နှင့် လိုအပ်ချက်များသည် အဆင်းရဲဆုံး ထုတ်လုပ်သူများအတွက် ပေးဆောင်ရန် ခက်ခဲနိုင်ပြီး Certified ကုန်ပစ္စည်းများသည် ဈေးကွက်တစ်ခုလုံး၏ ဝေစုငယ်သာ များသောအားဖြင့် ရောက်ရှိတတ်သည်",
+            "Fair Trade Certification သည် ကမ္ဘာတစ်ဝှမ်းရှိ ကမ္ဘာ့ ကုန်သွယ်ရေး မညီမျှမှုကို လုံးဝ ဖယ်ရှားပြီးသား ဖြစ်ခြင်း",
+            "Fair Trade Certification ကို တရားဝင် Criticism မည်သည်မျှ မရှိခြင်း",
+            "Fair Trade Certification သည် ကမ္ဘာပေါ်ရှိ ထုတ်လုပ်သူတိုင်းကို တူညီသော ဝင်ငွေ အာမခံပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 3's poverty/wealth-gap lesson: the most vulnerable producers who need the most support are often the least able to afford certification's upfront costs.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ ဆင်းရဲမွဲတေမှု/Wealth-Gap သင်ခန်းစာနှင့် ချိတ်ဆက်သည် - အထောက်အပံ့ အလိုအရှိဆုံး အားနည်းဆုံး ထုတ်လုပ်သူများသည် Certification ၏ ကြိုတင်ကုန်ကျစရိတ်ကို ပေးဆောင်နိုင်စွမ်း အနည်းဆုံး ဖြစ်တတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does 'ethical consumerism' mean beyond simply buying fair trade certified products?",
+          questionMy:
+              "Fair Trade Certified ကုန်ပစ္စည်းများ ဝယ်ယူခြင်းထက် ကျော်လွန်၍ 'Ethical Consumerism' က အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Consumers weighing the broader social and environmental impact of their purchasing choices, including labor conditions, environmental cost, and corporate practices",
+            "Ethical consumerism only ever refers to fair trade certification and nothing else",
+            "Ethical consumerism means buying the cheapest available product regardless of any other factor",
+            "Ethical consumerism has no actual connection to labor conditions or environmental impact",
+          ],
+          optionsMy: [
+            "Labor အခြေအနေများ၊ ပတ်ဝန်းကျင် ကုန်ကျစရိတ်နှင့် Corporate အလေ့အထများ အပါအဝင် Consumer များ၏ ဝယ်ယူမှု ရွေးချယ်ခြင်း၏ ကျယ်ပြန့်သော လူမှုရေးနှင့် ပတ်ဝန်းကျင် သက်ရောက်မှုကို ချိန်ဆခြင်း",
+            "Ethical Consumerism သည် Fair Trade Certification ကိုသာ ရည်ညွှန်းပြီး အခြားမည်သည်ကိုမျှ မရည်ညွှန်းခြင်း",
+            "Ethical Consumerism ဆိုသည်မှာ အခြား အချက်မည်သည်ကိုမျှ ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ ရနိုင်ဆုံး ဈေးအသက်သာဆုံး ကုန်ပစ္စည်းကို ဝယ်ယူခြင်း",
+            "Ethical Consumerism သည် Labor အခြေအနေများ (သို့) ပတ်ဝန်းကျင် သက်ရောက်မှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ethical consumerism is a broader mindset than any single label -- it also includes considering a company's labor practices, environmental footprint, and corporate transparency.",
+          ],
+          hintsMy: [
+            "Ethical Consumerism သည် Label တစ်ခုတည်းထက် ကျယ်ပြန့်သော Mindset တစ်ခု ဖြစ်သည် -- ကုမ္ပဏီတစ်ခု၏ Labor Practice, ပတ်ဝန်းကျင် Footprint နှင့် Corporate Transparency ကို ထည့်သွင်းစဉ်းစားခြင်းလည်း ပါဝင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Fair Trade Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Fair Trade ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w23-dm-1",
+          termEn: "Fair trade",
+          termMy: "Fair Trade",
+          matchEn:
+              "A trading partnership guaranteeing producers a fairer share of the final sale price",
+          matchMy:
+              "ထုတ်လုပ်သူများကို နောက်ဆုံး ရောင်းဈေး၏ ပိုမိုတရားမျှတသော ဝေစုကို အာမခံပေးသော ကုန်သွယ်ရေး မိတ်ဖက်ဆက်ဆံမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w23-dm-2",
+          termEn: "Supply chain",
+          termMy: "Supply Chain",
+          matchEn:
+              "The full sequence of steps a product passes through from producer to consumer",
+          matchMy:
+              "ထုတ်လုပ်သူမှ Consumer ထံသို့ ကုန်ပစ္စည်းတစ်ခု ဖြတ်သန်းသွားသော အဆင့်များ အပြည့်အစုံ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w23-dm-3",
+          termEn: "Ethical consumerism",
+          termMy: "Ethical Consumerism",
+          matchEn:
+              "Weighing the social and environmental impact of purchasing choices, not price alone",
+          matchMy:
+              "ဈေးနှုန်းတစ်ခုတည်းသာမက ဝယ်ယူမှု ရွေးချယ်ခြင်း၏ လူမှုရေးနှင့် ပတ်ဝန်းကျင် သက်ရောက်မှုကို ချိန်ဆခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w23-dm-4",
+          termEn: "Greenwashing",
+          termMy: "Greenwashing",
+          matchEn:
+              "A company misleadingly presenting itself as more environmentally responsible than it actually is",
+          matchMy:
+              "ကုမ္ပဏီတစ်ခု အမှန်တကယ်ထက် ပတ်ဝန်းကျင်အတွက် ပို၍ တာဝန်ရှိသည်ဟု လှည့်စားစွာ ဖော်ပြခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Genuine Ethical Practice or Greenwashing?",
+      titleMy: "စီစစ်ကြမည် - စစ်မှန်သော Ethical Practice (သို့) Greenwashing",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Genuine Ethical Practice", "Likely Greenwashing"],
+        bucketsMy: ["စစ်မှန်သော Ethical Practice", "Greenwashing ဖြစ်နိုင်ခြေ"],
+        items: [
+          SortingItem(
+            id: "igcgp-w23-sort-1",
+            labelEn:
+                "A company publishing detailed, independently audited supply chain data",
+            labelMy:
+                "အသေးစိတ်၊ လွတ်လပ်စွာ Audit လုပ်ထားသော Supply Chain Data ထုတ်ဝေသော ကုမ္ပဏီ",
+            correctBucketEn: "Genuine Ethical Practice",
+            correctBucketMy: "စစ်မှန်သော Ethical Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w23-sort-2",
+            labelEn:
+                "A brand printing a green leaf logo on packaging with no actual environmental change to its production",
+            labelMy:
+                "ထုတ်လုပ်မှုတွင် အမှန်တကယ် ပတ်ဝန်းကျင် ပြောင်းလဲမှု မရှိဘဲ Packaging ပေါ်တွင် စိမ်းသော အရွက် Logo ရိုက်နှိပ်သော Brand",
+            correctBucketEn: "Likely Greenwashing",
+            correctBucketMy: "Greenwashing ဖြစ်နိုင်ခြေ",
+          ),
+          SortingItem(
+            id: "igcgp-w23-sort-3",
+            labelEn:
+                "A company paying an independently verified fair-trade minimum price to farmers",
+            labelMy:
+                "လယ်သမားများကို လွတ်လပ်စွာ အတည်ပြုထားသော Fair-Trade အနိမ့်ဆုံး ဈေးနှုန်း ပေးဆောင်သော ကုမ္ပဏီ",
+            correctBucketEn: "Genuine Ethical Practice",
+            correctBucketMy: "စစ်မှန်သော Ethical Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w23-sort-4",
+            labelEn:
+                "Vague marketing claiming a product is 'eco-friendly' with no specific evidence provided",
+            labelMy:
+                "တိကျသော Evidence မပါဘဲ Product တစ်ခုသည် 'Eco-Friendly' ဖြစ်သည်ဟု Vague Marketing ပြောဆိုခြင်း",
+            correctBucketEn: "Likely Greenwashing",
+            correctBucketMy: "Greenwashing ဖြစ်နိုင်ခြေ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Chocolate Bar Investigation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Chocolate Bar စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Chocolate Bar Investigation",
+        titleMy: "Su Myat Noe ၏ Chocolate Bar စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "Ko Zin Ko Ko asked Week 23's class to compare two chocolate bars sold at the same local shop: one carrying a fair trade certification label and costing noticeably more, and one with no such label at a lower price. Su Myat Noe's assignment was to research the actual supply chains behind both, not simply trust the packaging.\n\nHer research into the fair trade bar confirmed the core mechanism from Monday's lesson: the certification required the chocolate company to pay cocoa farmers a guaranteed minimum price regardless of global market fluctuations, plus an additional premium that funded community projects like schools and wells in farming regions. She found independently published audit reports confirming these payments had actually reached farmers, not just the exporting company.\n\nHer research into the cheaper bar's supply chain was harder, exactly illustrating Tuesday's criticism of fair trade's limits: the company provided almost no public information about what it paid cocoa farmers, and independent journalism she found described widespread reports of far lower farmer income in that specific supply region. She also noticed the cheaper bar's packaging displayed a small green leaf icon with the vague text 'nature friendly,' with no certification body, audit, or specific claim behind it -- precisely the kind of unverifiable claim Wednesday's lesson had described as likely greenwashing.\n\nSu Myat Noe's conclusion acknowledged the real trade-off Monday's lesson had raised: fair trade certification was not a perfect system, and its added cost was a genuine barrier for many consumers. But she argued that the transparency gap between the two bars -- one backed by independent audits, one backed by an unverifiable leaf icon -- was itself meaningful evidence, giving a consumer real information to weigh rather than none at all. Ko Zin Ko Ko praised her refusal to treat either bar's marketing claims at face value, instead tracing each one back to actual evidence.",
+        passageMy:
+            "Local ဆိုင်တစ်ခုတွင် ရောင်းချသော Chocolate Bar နှစ်ခုကို နှိုင်းယှဉ်ရန် Week 23 ၏ Class ကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည် - တစ်ခုတွင် Fair Trade Certification Label ပါဝင်ကာ သိသိသာသာ ပို၍ ဈေးကြီးပြီး အခြားတစ်ခုတွင် Label မည်သည်မှ မပါဘဲ ဈေးနိမ့်သည်။ ပက်ကေ့ချ်ကို ယုံကြည်ရုံသာ မဟုတ်ဘဲ နှစ်ခုစလုံး၏ အမှန်တကယ် Supply Chain များကို လေ့လာရန် Su Myat Noe ၏ Assignment ဖြစ်ခဲ့သည်။\n\nFair Trade Bar အကြောင်း ၎င်း၏ လေ့လာမှုက တနင်္လာနေ့ သင်ခန်းစာမှ အဓိက Mechanism ကို အတည်ပြုခဲ့သည် - Certification သည် ကမ္ဘာ့ ဈေးကွက် ဆင်းငိုက်ခြင်း/တက်ခြင်း မည်သို့ ရှိစေကာမူ Cocoa လယ်သမားများကို အာမခံထားသော အနိမ့်ဆုံး ဈေးနှုန်း ပေးရန်နှင့် လယ်သမား ဒေသများတွင် ကျောင်းများနှင့် ရေတွင်းများကဲ့သို့ Community Project များကို ငွေထောက်ပံ့သော Premium ထပ်ဆောင်း ပေးရန် Chocolate ကုမ္ပဏီကို တောင်းဆိုခဲ့သည်။ ဤငွေပေးချေမှုများသည် Exporting ကုမ္ပဏီကိုသာမက လယ်သမားများထံသို့ အမှန်တကယ် ရောက်ရှိကြောင်း အတည်ပြုသော လွတ်လပ်စွာ ထုတ်ဝေထားသော Audit Report များကို ၎င်း တွေ့ရှိခဲ့သည်။\n\nဈေးသက်သာသော Bar ၏ Supply Chain အကြောင်း ၎င်း၏ လေ့လာမှုသည် ပို၍ ခက်ခဲခဲ့ပြီး Fair Trade ၏ ကန့်သတ်ချက်များအကြောင်း အင်္ဂါနေ့ Criticism ကို အတိအကျ သရုပ်ဖော်ခဲ့သည် - ကုမ္ပဏီသည် ၎င်း Cocoa လယ်သမားများကို မည်မျှ ပေးဆောင်သည်ဆိုသည်ကို လူသိရှင်ကြား သတင်းအချက်အလက် နီးပါးမရှိဘဲ ၎င်း တွေ့ရှိခဲ့သော လွတ်လပ်သော Journalism က ထို Supply ဒေသအတွင်း လယ်သမား ဝင်ငွေ ပို၍ နည်းပါးကြောင်း ကျယ်ပြန့်စွာ သတင်းရင်းမြစ်များ ဖော်ပြခဲ့သည်။ ဈေးသက်သာသော Bar ၏ Packaging တွင် Certification Body, Audit (သို့) တိကျသော Claim မည်သည်မှ နောက်ကွယ်မှ မထောက်ပံ့ဘဲ 'Nature Friendly' ဆိုသော Vague Text ပါ Green Leaf Icon ငယ်တစ်ခု ပါဝင်နေသည်ကို ၎င်း သတိပြုမိခဲ့သည် -- ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာက Greenwashing ဖြစ်နိုင်ခြေ ရှိသည်ဟု ဖော်ပြခဲ့သော အတည်ပြု၍ မရသော Claim အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nSu Myat Noe ၏ ကောက်ချက်သည် တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သော စစ်မှန်သော Trade-Off ကို အသိအမှတ်ပြုခဲ့သည် - Fair Trade Certification သည် ပြီးပြည့်စုံသော System မဟုတ်ဘဲ ၎င်း၏ တိုးလာသော ကုန်ကျစရိတ်သည် Consumer အများအပြားအတွက် စစ်မှန်သော အတားအဆီး ဖြစ်သည်။ သို့သော် Bar နှစ်ခုကြား Transparency ကွာဟချက် -- တစ်ခုသည် လွတ်လပ်သော Audit များက ကျောထောက်နောက်ခံ ပေးထားပြီး အခြားတစ်ခုသည် အတည်ပြု၍ မရသော Leaf Icon က ကျောထောက်နောက်ခံ ပေးထားခြင်း -- သည် ကိုယ်တိုင်ပင် အဓိပ္ပာယ်ရှိသော Evidence ဖြစ်ပြီး Consumer တစ်ဦးအား မည်သည်မှ မပေးမည့်အစား ချိန်ဆရန် စစ်မှန်သော သတင်းအချက်အလက် ပေးအပ်ကြောင်း ငြင်းခုံခဲ့သည်။ Bar နှစ်ခု၏ Marketing Claim များကို မျက်နှာစာသက်သက် အနေနှင့် မယူမည့်အစား တစ်ခုချင်းစီကို အမှန်တကယ် Evidence သို့ ပြန်လှမ်းခြင်းအတွက် ၎င်း၏ ငြင်းဆန်မှုကို ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did fair trade certification guarantee for cocoa farmers?",
+            questionMy:
+                "Cocoa လယ်သမားများအတွက် Fair Trade Certification က အဘယ်အရာကို အာမခံခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A guaranteed minimum price plus an additional premium for community projects",
+              "No guarantee of any kind whatsoever",
+              "A guarantee that chocolate prices would fall for consumers",
+              "Free chocolate bars for every farmer",
+            ],
+            optionsMy: [
+              "Community Project များအတွက် ထပ်ဆောင်း Premium နှင့်အတူ အာမခံထားသော အနိမ့်ဆုံး ဈေးနှုန်း",
+              "အာမခံချက် မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "Consumer များအတွက် Chocolate ဈေးနှုန်း ကျဆင်းမည်ဟု အာမခံချက်",
+              "လယ်သမားတိုင်းအတွက် အခမဲ့ Chocolate Bar များ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the certification's mechanism.",
+            ],
+            hintsMy: [
+              "Certification ၏ Mechanism ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what specific detail suggested the cheaper bar's packaging was greenwashing?",
+            questionMy:
+                "ဈေးသက်သာသော Bar ၏ Packaging သည် Greenwashing ဖြစ်ကြောင်း ညွှန်ပြသော တိကျသော အသေးစိတ်ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A vague 'nature friendly' claim with no certification body, audit, or specific evidence",
+              "A detailed, independently audited certification label",
+              "A clear statement of the exact price paid to farmers",
+              "No packaging text of any kind was present",
+            ],
+            optionsMy: [
+              "Certification Body, Audit (သို့) တိကျသော Evidence မပါဘဲ Vague 'Nature Friendly' Claim",
+              "အသေးစိတ်၊ လွတ်လပ်စွာ Audit လုပ်ထားသော Certification Label",
+              "လယ်သမားများကို ပေးဆောင်သည့် အတိအကျ ဈေးနှုန်း ရှင်းလင်းချက်",
+              "Packaging Text မည်သည်မှ လုံးဝ မပါဝင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the fourth paragraph's description of the leaf icon.",
+            ],
+            hintsMy: [
+              "Leaf Icon ရှင်းလင်းချက်ကို စာပိုဒ် ၄ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Myat Noe argue was itself meaningful evidence?",
+            questionMy:
+                "ကိုယ်တိုင်ပင် အဓိပ္ပာယ်ရှိသော Evidence ဖြစ်ကြောင်း Su Myat Noe ငြင်းခုံခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The transparency gap between the audited bar and the unverifiable leaf icon",
+              "The fact that both bars were identically priced",
+              "The fact that neither bar had any packaging text at all",
+              "The fact that fair trade certification was completely free of cost",
+            ],
+            optionsMy: [
+              "Audit လုပ်ထားသော Bar နှင့် အတည်ပြု၍ မရသော Leaf Icon ကြား Transparency ကွာဟချက်",
+              "Bar နှစ်ခုစလုံး ဈေးနှုန်း အတိအကျ တူညီသည်ဟူသော အချက်",
+              "Bar နှစ်ခုစလုံးတွင် Packaging Text မည်သည်မှ လုံးဝ မပါခြင်းဟူသော အချက်",
+              "Fair Trade Certification သည် လုံးဝ ကုန်ကျစရိတ် ကင်းစင်ကြောင်းဟူသော အချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w23-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Fair Trade and Ethical Consumerism",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Fair Trade နှင့် Ethical Consumerism",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Fair trade certification primarily aims to...",
+          questionMy:
+              "Fair Trade Certification သည် အဓိကအားဖြင့် ...ကို ရည်ရွယ်သည်",
+          optionsEn: [
+            "Guarantee producers a fairer share of the sale price",
+            "Guarantee the lowest possible price for consumers",
+            "Eliminate all global trade entirely",
+            "Replace all local currencies with one global currency",
+          ],
+          optionsMy: [
+            "ထုတ်လုပ်သူများကို ရောင်းဈေး၏ ပိုမိုတရားမျှတသော ဝေစု အာမခံခြင်း",
+            "Consumer များအတွက် ဖြစ်နိုင်သမျှ အနိမ့်ဆုံး ဈေးနှုန်းကို အာမခံခြင်း",
+            "ကမ္ဘာ့ ကုန်သွယ်ရေး အားလုံးကို လုံးဝ ဖျက်သိမ်းခြင်း",
+            "Local ငွေကြေး အားလုံးကို ကမ္ဘာ့ ငွေကြေးတစ်ခုတည်းဖြင့် အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Greenwashing refers to...",
+          questionMy: "Greenwashing က ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "A company misleadingly presenting itself as more eco-friendly than it is",
+            "A genuine, independently audited environmental practice",
+            "A government environmental regulation",
+            "A type of recycling facility",
+          ],
+          optionsMy: [
+            "ကုမ္ပဏီတစ်ခု အမှန်တကယ်ထက် Eco-Friendly ပို၍ ရှိသည်ဟု လှည့်စားစွာ ဖော်ပြခြင်း",
+            "စစ်မှန်၊ လွတ်လပ်စွာ Audit လုပ်ထားသော ပတ်ဝန်းကျင် Practice",
+            "အစိုးရ ပတ်ဝန်းကျင် Regulation",
+            "Recycling Facility အမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ethical consumerism involves weighing...",
+          questionMy: "Ethical Consumerism တွင် ...ကို ချိန်ဆခြင်း ပါဝင်သည်",
+          optionsEn: [
+            "Social and environmental impact alongside price",
+            "Only the lowest possible price with no other factor",
+            "Only brand color preferences",
+            "Nothing beyond convenience of purchase",
+          ],
+          optionsMy: [
+            "ဈေးနှုန်းနှင့်အတူ လူမှုရေးနှင့် ပတ်ဝန်းကျင် သက်ရောက်မှု",
+            "အခြားအချက် မည်သည်မှ မပါဘဲ ဖြစ်နိုင်သမျှ အနိမ့်ဆုံး ဈေးနှုန်းသာ",
+            "Brand အရောင် နှစ်သက်မှုသာ",
+            "ဝယ်ယူရန် အဆင်ပြေမှုမှလွဲ၍ မည်သည်မျှ မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 6, Week 24 (Capstone/Boss Week):
+// "Global Economy Case Study Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek24 = CourseWeekDef(
+  id: "course-igcse-gp-w24",
+  weekNumber: 24,
+  titleEn: "Global Economy Case Study Studio",
+  titleMy: "ကမ္ဘာ့ စီးပွားရေး Case Study အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w24-d1",
+      dayNumber: 1,
+      titleEn: "Building a Multi-Perspective Economic Case Study",
+      titleMy: "Multi-Perspective စီးပွားရေး Case Study တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a strong global-economy case study examine the perspectives of workers, corporations, and consumers all together, rather than just one?",
+          questionMy:
+              "ခိုင်မာသော ကမ္ဘာ့-စီးပွားရေး Case Study တစ်ခုသည် တစ်ခုတည်းသာမက Worker, Corporation နှင့် Consumer တို့၏ ရှုထောင့်များကို အတူတကွ စစ်ဆေးသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each stakeholder experiences the same economic system differently, and a study examining only one perspective risks an incomplete or biased picture",
+            "Only one stakeholder group's perspective is ever actually relevant to the global economy",
+            "Workers, corporations, and consumers always experience every economic issue in exactly the same way",
+            "Multiple perspectives add unnecessary complexity with no real analytical value",
+          ],
+          optionsMy: [
+            "Stakeholder တစ်ဦးချင်းစီသည် စီးပွားရေးစနစ်တစ်ခုတည်းကို ကွဲပြားစွာ ကြုံတွေ့ရပြီး ရှုထောင့်တစ်ခုတည်းကိုသာ စစ်ဆေးသော Study တစ်ခုသည် မပြည့်စုံ (သို့) Biased ဖြစ်နိုင်ခြေ ရှိသည်",
+            "Stakeholder အုပ်စု တစ်ခုတည်း၏ ရှုထောင့်ကိုသာ ကမ္ဘာ့ စီးပွားရေးနှင့် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခြင်း",
+            "Worker, Corporation နှင့် Consumer များသည် စီးပွားရေး ကိစ္စတိုင်းကို အတိအကျ တူညီစွာ အမြဲ ကြုံတွေ့ရခြင်း",
+            "ရှုထောင့်များစွာသည် အမှန်တကယ် Analytical တန်ဖိုး မရှိဘဲ မလိုအပ်သော ရှုပ်ထွေးမှုကို ထပ်ပေါင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 22's factory-town case study -- the same factory was simultaneously good news for workers, a tax-avoidance concern for the government, and a profit source for the corporation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 22 ၏ Factory-Town Case Study ကို တိုက်ရိုက် သတိရစေသည် -- Factory တူတူသည် Worker များအတွက် သတင်းကောင်းဖြစ်စဉ် အစိုးရအတွက် Tax-Avoidance စိုးရိမ်မှုနှင့် ကုမ္ပဏီအတွက် အမြတ်ငွေ အရင်းအမြစ် တစ်ပြိုင်နက် ဖြစ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important for a case study to distinguish between correlation and causation when linking an economic policy to an outcome?",
+          questionMy:
+              "စီးပွားရေးမူဝါဒတစ်ခုကို ရလဒ်တစ်ခုနှင့် ချိတ်ဆက်ရာတွင် Case Study တစ်ခုသည် Correlation နှင့် Causation ကို ခွဲခြားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Two things happening around the same time does not necessarily mean one caused the other; other factors may be responsible for the observed change",
+            "Correlation and causation always mean exactly the same thing in economic analysis",
+            "Distinguishing between them has no actual value in serious research",
+            "Any two economic events that happen close in time are always directly caused by each other",
+          ],
+          optionsMy: [
+            "အရာနှစ်ခု တစ်ချိန်တည်းနီးပါး ဖြစ်ပေါ်ခြင်းသည် တစ်ခုက အခြားတစ်ခုကို ဖြစ်စေသည်ဟု မဆိုလိုပါ; တွေ့ရှိထားသော ပြောင်းလဲမှုအတွက် အခြားအချက်များ တာဝန်ရှိနိုင်သည်",
+            "Correlation နှင့် Causation သည် စီးပွားရေး ခွဲခြမ်းစိတ်ဖြာမှုတွင် အတိအကျ တူညီသော အဓိပ္ပာယ် အမြဲ ဆောင်ခြင်း",
+            "၎င်းတို့ကြား ခွဲခြားခြင်းသည် အလေးအနက်ထားသော သုတေသနတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "အချိန်နီးကပ်စွာ ဖြစ်ပေါ်သော စီးပွားရေး အဖြစ်အပျက် နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု အမြဲ တိုက်ရိုက် ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a country's economy grows after signing a trade deal, other factors (global demand, currency shifts, domestic reforms) might be the real cause -- a careful researcher checks before assuming the deal caused the growth.",
+          ],
+          hintsMy: [
+            "နိုင်ငံတစ်ခု၏ စီးပွားရေးသည် ကုန်သွယ်ရေး Deal လက်မှတ်ရေးထိုးပြီးနောက် ကြီးထွားလာပါက အခြားအချက်များ (Global Demand, ငွေကြေး ပြောင်းလဲမှု, ပြည်တွင်း ပြုပြင်ပြောင်းလဲမှု) သည် အမှန်တကယ် အကြောင်းရင်း ဖြစ်နိုင်ပြီး သတိထားသော သုတေသနပညာရှင်တစ်ဦးသည် Deal က ကြီးထွားမှုကို ဖြစ်စေသည်ဟု ယူဆမီ စစ်ဆေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a policy recommendation growing out of a case study explicitly acknowledge trade-offs rather than presenting a single 'perfect' fix?",
+          questionMy:
+              "Case Study တစ်ခုမှ ပေါက်ဖွားလာသော Policy အကြံပြုချက်တစ်ခုသည် 'ပြီးပြည့်စုံသော' ဖြေရှင်းချက်တစ်ခုတည်းကို တင်ပြမည့်အစား Trade-Off များကို ရှင်းလင်းစွာ အသိအမှတ်ပြုသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Real economic policies almost always involve trade-offs between competing interests, and pretending otherwise misrepresents the complexity of the issue",
+            "Trade-offs never actually exist in real economic policy decisions",
+            "A policy recommendation should never consider more than one stakeholder's interests",
+            "Acknowledging trade-offs makes a policy recommendation weaker and less credible",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော စီးပွားရေး မူဝါဒများသည် ယှဉ်ပြိုင်နေသော အကျိုးစီးပွားများကြား Trade-Off များ နီးပါးအမြဲ ပါဝင်ပြီး မဟုတ်ဟန်ဆောင်ခြင်းသည် ပြဿနာ၏ ရှုပ်ထွေးမှုကို မှားယွင်းစွာ ကိုယ်စားပြုသည်",
+            "Trade-Off များသည် စစ်မှန်သော စီးပွားရေး မူဝါဒ ဆုံးဖြတ်ချက်များတွင် အမှန်တကယ် ဘယ်တော့မှ မရှိခြင်း",
+            "Policy အကြံပြုချက်တစ်ခုသည် Stakeholder တစ်ဦး၏ အကျိုးစီးပွားထက်ပို၍ ဘယ်တော့မှ ထည့်သွင်းစဉ်းစားခြင်း မရှိသင့်ခြင်း",
+            "Trade-Off များကို အသိအမှတ်ပြုခြင်းသည် Policy အကြံပြုချက်ကို ပို၍ အားနည်း၊ ယုံကြည်ရမှု နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Week 22's conclusion -- the factory-town case had real benefits and real costs at once; a good recommendation names both rather than pretending only one side exists.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 22 ၏ ကောက်ချက်ကို တိုက်ရိုက် ချိတ်ဆက်သည် -- Factory-Town Case တွင် စစ်မှန်သော အကျိုးနှင့် စစ်မှန်သော ကုန်ကျစရိတ် တစ်ပြိုင်နက် ရှိနေပြီး ကောင်းသော အကြံပြုချက်တစ်ခုသည် ဘက်တစ်ခုတည်းသာ ရှိသည်ဟု ဟန်ဆောင်မည့်အစား နှစ်ခုစလုံးကို အမည်တပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Global Economy Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 6 Global Economy ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w24-dm-1",
+          termEn: "Correlation vs. causation",
+          termMy: "Correlation vs. Causation",
+          matchEn:
+              "The distinction between two things occurring together and one actually causing the other",
+          matchMy:
+              "အရာနှစ်ခု အတူတကွ ဖြစ်ပေါ်ခြင်းနှင့် တစ်ခုက အခြားတစ်ခုကို အမှန်တကယ် ဖြစ်စေခြင်းကြား ခွဲခြားချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w24-dm-2",
+          termEn: "Stakeholder analysis",
+          termMy: "Stakeholder Analysis",
+          matchEn:
+              "Examining how different affected groups experience the same issue differently",
+          matchMy:
+              "ထိခိုက်ခံရသော အုပ်စုများသည် ကိစ္စတစ်ခုတည်းကို ကွဲပြားစွာ မည်သို့ ကြုံတွေ့ရသည်ကို စစ်ဆေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w24-dm-3",
+          termEn: "Policy trade-off",
+          termMy: "Policy Trade-Off",
+          matchEn:
+              "A benefit gained in one area at the cost of a downside in another",
+          matchMy:
+              "အခြားနေရာတစ်ခုတွင် ဆိုးကျိုးတစ်ခု ကုန်ကျပြီး နေရာတစ်ခုတွင် ရရှိသော အကျိုးကျေးဇူး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w24-dm-4",
+          termEn: "Global economy",
+          termMy: "Global Economy",
+          matchEn:
+              "The interconnected system of trade, labor, and finance spanning countries worldwide",
+          matchMy:
+              "ကမ္ဘာတစ်ဝှမ်းရှိ နိုင်ငံများကို ဖြတ်သန်းသော ကုန်သွယ်ရေး၊ Labor နှင့် ဘဏ္ဍာရေး၏ အပြန်အလှန် ဆက်စပ်နေသော System",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Case Study Evidence?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာ (သို့) အားနည်းသော Case Study Evidence",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Case Study Evidence", "Weak Case Study Evidence"],
+        bucketsMy: [
+          "ခိုင်မာသော Case Study Evidence",
+          "အားနည်းသော Case Study Evidence",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w24-sort-1",
+            labelEn: "Independently audited data confirming a specific claim",
+            labelMy:
+                "တိကျသော Claim တစ်ခုကို အတည်ပြုသော လွတ်လပ်စွာ Audit လုပ်ထားသော Data",
+            correctBucketEn: "Strong Case Study Evidence",
+            correctBucketMy: "ခိုင်မာသော Case Study Evidence",
+          ),
+          SortingItem(
+            id: "igcgp-w24-sort-2",
+            labelEn:
+                "Assuming one event caused another simply because they happened around the same time",
+            labelMy:
+                "အဖြစ်အပျက်နှစ်ခု တစ်ချိန်တည်းနီးပါး ဖြစ်ပေါ်သောကြောင့်သာ တစ်ခုက အခြားတစ်ခုကို ဖြစ်စေသည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Weak Case Study Evidence",
+            correctBucketMy: "အားနည်းသော Case Study Evidence",
+          ),
+          SortingItem(
+            id: "igcgp-w24-sort-3",
+            labelEn:
+                "Examining the perspectives of workers, the corporation, and the local government together",
+            labelMy:
+                "Worker, Corporation နှင့် Local အစိုးရ၏ ရှုထောင့်များကို အတူတကွ စစ်ဆေးခြင်း",
+            correctBucketEn: "Strong Case Study Evidence",
+            correctBucketMy: "ခိုင်မာသော Case Study Evidence",
+          ),
+          SortingItem(
+            id: "igcgp-w24-sort-4",
+            labelEn:
+                "Presenting only one stakeholder's opinion as the complete picture",
+            labelMy:
+                "Stakeholder တစ်ဦး၏ ထင်မြင်ချက်ကိုသာ ပြည့်စုံသော ပုံရိပ်အဖြစ် တင်ပြခြင်း",
+            correctBucketEn: "Weak Case Study Evidence",
+            correctBucketMy: "အားနည်းသော Case Study Evidence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Ride-Hailing Case Study",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Ride-Hailing Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Ride-Hailing Case Study",
+        titleMy: "Su Myat Noe ၏ Ride-Hailing Case Study",
+        passageEn:
+            "For Term 6's capstone, Ko Zin Ko Ko asked every student to build a complete case study combining ideas from across the whole term, examining a real global-economy issue from multiple perspectives. Su Myat Noe chose the arrival of an international ride-hailing company in her own city, directly returning to and expanding upon her uncle's tailoring-app interview from Week 21.\n\nHer case study deliberately structured itself around three distinct stakeholder perspectives, exactly following Monday's lesson. From the driver's perspective, she documented both the flexibility drivers valued and the lack of guaranteed income and benefits -- the same gig-economy trade-off from Week 21. From the corporation's perspective, she researched the company's investment in local infrastructure and jobs, but also found reporting on its tax structure that echoed Week 22's profit-shifting lesson. From the consumer's perspective, she surveyed classmates and found most valued the convenience and lower prices, directly illustrating the price-versus-ethics trade-off from Week 23's fair trade lesson.\n\nWhen her initial draft claimed the company's arrival had 'caused' a specific rise in local traffic congestion, Ko Zin Ko Ko pushed back, applying Tuesday's correlation-versus-causation lesson: had she actually ruled out other explanations, like the city's ongoing road construction or population growth during the same period? Su Myat Noe revised her claim, presenting the traffic increase as a correlation worth investigating rather than a proven causal claim, and named the specific alternative explanations she had not yet been able to rule out.\n\nHer final policy recommendation, following Wednesday's lesson, explicitly avoided a single 'perfect' fix: she proposed the city government require minimum driver-earnings guarantees while stopping short of banning the service entirely, acknowledging this would raise costs for the company and possibly for riders, but arguing the trade-off was justified by the driver-protection benefit. Ko Zin Ko Ko highlighted her final report as a genuine synthesis of the whole term -- multiple perspectives, careful evidence, and an honest trade-off rather than a false, simple answer.",
+        passageMy:
+            "Term 6 Capstone အတွက် Term တစ်ခုလုံးမှ Idea များကို ပေါင်းစပ်၍ ကမ္ဘာ့-စီးပွားရေး ကိစ္စစစ်မှန်တစ်ခုကို ရှုထောင့်များစွာမှ စစ်ဆေးသော Case Study အပြည့်အစုံတစ်ခု တည်ဆောက်ရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ Week 21 ၏ ၎င်း၏ ဦးလေး အထည်ချုပ်-App Interview ကို တိုက်ရိုက် ပြန်လှည့်ကာ ချဲ့ထွင်သော ၎င်း၏ ကိုယ်ပိုင် မြို့သို့ International Ride-Hailing ကုမ္ပဏီတစ်ခု ရောက်ရှိလာခြင်းကို Su Myat Noe ရွေးချယ်ခဲ့သည်။\n\n၎င်း၏ Case Study သည် တနင်္လာနေ့ သင်ခန်းစာအတိအကျ လိုက်နာ၍ Stakeholder ရှုထောင့် ခြားနားသော သုံးခုပတ်လည်တွင် တမင် ဖွဲ့စည်းထားသည်။ Driver ရှုထောင့်မှ Driver များ တန်ဖိုးထားသော Flexibility နှင့် အာမခံထားသော ဝင်ငွေနှင့် Benefit ကင်းမဲ့ခြင်း နှစ်ခုစလုံးကို မှတ်တမ်းတင်ခဲ့သည် -- Week 21 မှ Gig-Economy Trade-Off တူတူ ဖြစ်သည်။ Corporation ရှုထောင့်မှ Local Infrastructure နှင့် အလုပ်အကိုင်တွင် ကုမ္ပဏီ၏ ရင်းနှီးမြှုပ်နှံမှုကို လေ့လာခဲ့သော်လည်း Week 22 ၏ Profit-Shifting သင်ခန်းစာကို ထင်ဟပ်သော ၎င်း၏ Tax Structure အကြောင်း Reporting ကိုလည်း တွေ့ရှိခဲ့သည်။ Consumer ရှုထောင့်မှ အတန်းဖော်များကို စစ်တမ်းကောက်ယူခဲ့ပြီး အများစုသည် အဆင်ပြေမှုနှင့် ဈေးနှုန်း နိမ့်ခြင်းကို တန်ဖိုးထားကြောင်း တွေ့ရှိခဲ့ကာ Week 23 ၏ Fair Trade သင်ခန်းစာမှ Price-Versus-Ethics Trade-Off ကို တိုက်ရိုက် သရုပ်ဖော်ခဲ့သည်။\n\nကုမ္ပဏီ ရောက်ရှိလာခြင်းသည် Local ယာဉ်ကြပ်တည်းမှုကို သိသိသာသာ တိုးမြှင့်ခဲ့သည်ဟု ၎င်း၏ ကနဦး Draft က ဆိုချိန် ကိုဇင်ကိုကို အင်္ဂါနေ့ Correlation-Versus-Causation သင်ခန်းစာကို အသုံးချကာ ပြန်လှန်တွန်းအားပေးခဲ့သည် - ထို အချိန်ကာလတွင် မြို့၏ ဆက်လက်ဆောင်ရွက်နေသော လမ်းတည်ဆောက်ရေး (သို့) လူဦးရေတိုးတက်မှုကဲ့သို့ အခြား ရှင်းလင်းချက်များကို ၎င်း အမှန်တကယ် ဖယ်ထုတ်ခဲ့ပြီးလားဆိုသည်။ Su Myat Noe သည် ၎င်း၏ Claim ကို ပြန်လည်ပြင်ဆင်ခဲ့ပြီး ယာဉ်ကြပ်တည်းမှု တိုးမြှင့်ခြင်းကို သက်သေပြထားသော Causal Claim တစ်ခုအစား လေ့လာဖွယ်ကောင်းသော Correlation တစ်ခုအဖြစ် တင်ပြကာ ၎င်း ဘယ်တော့မှ ဖယ်ထုတ်နိုင်ခြင်း မရှိသေးသော တိကျသော အခြား ရှင်းလင်းချက်များကို အမည်တပ်ခဲ့သည်။\n\nဗုဒ္ဓဟူးနေ့ သင်ခန်းစာအတိုင်း ၎င်း၏ နောက်ဆုံး Policy အကြံပြုချက်သည် 'ပြီးပြည့်စုံသော' ဖြေရှင်းချက်တစ်ခုတည်းကို ရှင်းလင်းစွာ ရှောင်ရှားခဲ့သည် - Service ကို လုံးဝ တားမြစ်ခြင်းအထိ မသွားဘဲ Driver-Earnings အနည်းဆုံး အာမခံချက်များကို မြို့အစိုးရက တောင်းဆိုရန် ၎င်း အဆိုပြုခဲ့ပြီး ဤသည်ကား ကုမ္ပဏီနှင့် Rider များအတွက်ပါ ကုန်ကျစရိတ် တိုးမြှင့်စေနိုင်ကြောင်း အသိအမှတ်ပြုခဲ့သော်လည်း Trade-Off သည် Driver-Protection အကျိုးကျေးဇူးဖြင့် တရားမျှတကြောင်း ငြင်းခုံခဲ့သည်။ ၎င်း၏ နောက်ဆုံး Report ကို Term တစ်ခုလုံး၏ စစ်မှန်သော Synthesis တစ်ခုအဖြစ် ကိုဇင်ကိုကို ဖော်ထုတ်ခဲ့သည် -- ရှုထောင့်များစွာ၊ ဂရုတစိုက် Evidence နှင့် မှားယွင်း၊ ရိုးရှင်းသော အဖြေတစ်ခုအစား ရိုးသားသော Trade-Off တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three stakeholder perspectives did Su Myat Noe's case study examine?",
+            questionMy:
+                "Su Myat Noe ၏ Case Study စစ်ဆေးခဲ့သော Stakeholder ရှုထောင့် သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The driver, the corporation, and the consumer",
+              "Only the corporation's perspective, with no other viewpoint",
+              "Only the government's perspective, with no other viewpoint",
+              "The weather, the traffic signals, and the road construction",
+            ],
+            optionsMy: [
+              "Driver, Corporation နှင့် Consumer",
+              "အခြား ရှုထောင့် မပါဘဲ Corporation ၏ ရှုထောင့်တစ်ခုတည်း",
+              "အခြား ရှုထောင့် မပါဘဲ အစိုးရ၏ ရှုထောင့်တစ်ခုတည်း",
+              "ရာသီဥတု, ယာဉ်ကြောလင်း Signal များနှင့် လမ်းတည်ဆောက်ရေး",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's list of three perspectives.",
+            ],
+            hintsMy: [
+              "ရှုထောင့်သုံးခု စာရင်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Ko Zin Ko Ko push back on Su Myat Noe's traffic claim?",
+            questionMy:
+                "Su Myat Noe ၏ ယာဉ်ကြပ်တည်းမှု Claim ကို ကိုဇင်ကိုကို အဘယ်ကြောင့် ပြန်လှန်တွန်းအားပေးခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She had not ruled out other explanations like road construction or population growth before claiming causation",
+              "The claim was already perfectly proven with no possible objection",
+              "He disagreed with her choice of case study topic entirely",
+              "The claim contained a spelling error only",
+            ],
+            optionsMy: [
+              "Causation ကို မဆိုမီ လမ်းတည်ဆောက်ရေး (သို့) လူဦးရေတိုးတက်မှုကဲ့သို့ အခြား ရှင်းလင်းချက်များကို ၎င်း မဖယ်ထုတ်ခဲ့ခြင်း",
+              "Claim သည် ကန့်ကွက်ရန် ဖြစ်နိုင်ခြေ မရှိအောင် ပြီးပြည့်စုံစွာ သက်သေပြပြီးသား ဖြစ်ခြင်း",
+              "၎င်း၏ Case Study ခေါင်းစဉ် ရွေးချယ်မှုကို လုံးဝ သဘောမတူခဲ့ခြင်း",
+              "Claim တွင် စာလုံးပေါင်း အမှား တစ်ခုသာ ပါဝင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of the correlation-versus-causation issue.",
+            ],
+            hintsMy: [
+              "Correlation-Versus-Causation ပြဿနာ ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what trade-off did Su Myat Noe's final policy recommendation acknowledge?",
+            questionMy:
+                "Su Myat Noe ၏ နောက်ဆုံး Policy အကြံပြုချက် အသိအမှတ်ပြုခဲ့သော Trade-Off ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Minimum earnings guarantees could raise costs but were justified by driver protection",
+              "There was no trade-off of any kind involved in her recommendation",
+              "She recommended banning the ride-hailing service entirely with no exceptions",
+              "She recommended no regulation of any kind whatsoever",
+            ],
+            optionsMy: [
+              "အနည်းဆုံး ဝင်ငွေ အာမခံချက်များသည် ကုန်ကျစရိတ် တိုးမြှင့်နိုင်သော်လည်း Driver-Protection ဖြင့် တရားမျှတခြင်း",
+              "၎င်း၏ အကြံပြုချက်တွင် Trade-Off မည်သည်မှ ပါဝင်ခြင်း မရှိခြင်း",
+              "ချွင်းချက် မပါဘဲ Ride-Hailing Service ကို လုံးဝ တားမြစ်ရန် အကြံပြုခဲ့ခြင်း",
+              "Regulation မည်သည်မှ လုံးဝ အကြံပြုခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's description of her recommendation.",
+            ],
+            hintsMy: [
+              "၎င်း၏ အကြံပြုချက် ရှင်းလင်းချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Global Economy Exam",
+      titleMy: "Term 6 Capstone - Global Economy စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong case study examines...",
+          questionMy: "ခိုင်မာသော Case Study တစ်ခုသည် ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "Multiple stakeholder perspectives together",
+            "Only one stakeholder's opinion",
+            "No evidence of any kind",
+            "Only the researcher's personal feelings",
+          ],
+          optionsMy: [
+            "Stakeholder ရှုထောင့်များစွာကို အတူတကွ",
+            "Stakeholder တစ်ဦး၏ ထင်မြင်ချက်သာ",
+            "Evidence မည်သည်မှ",
+            "သုတေသနပညာရှင်၏ ကိုယ်ပိုင် ခံစားချက်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Correlation without ruling out other causes should be presented as...",
+          questionMy:
+              "အခြား အကြောင်းရင်းများကို မဖယ်ထုတ်ဘဲ Correlation ကို ...အဖြစ် တင်ပြသင့်သည်",
+          optionsEn: [
+            "A relationship worth investigating, not a proven cause",
+            "A definitely proven causal claim",
+            "Something with no value at all",
+            "Irrelevant to any policy discussion",
+          ],
+          optionsMy: [
+            "သက်သေပြထားသော အကြောင်းရင်းတစ်ခု မဟုတ်ဘဲ လေ့လာဖွယ်ကောင်းသော ဆက်ဆံရေးတစ်ခု",
+            "သေချာစွာ သက်သေပြထားသော Causal Claim တစ်ခု",
+            "တန်ဖိုး လုံးဝ မရှိသော အရာတစ်ခု",
+            "Policy ဆွေးနွေးချက် မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A responsible policy recommendation should...",
+          questionMy: "တာဝန်ရှိသော Policy အကြံပြုချက်တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Acknowledge real trade-offs rather than claiming a perfect fix",
+            "Claim a single perfect solution with no downsides",
+            "Ignore every stakeholder's interests entirely",
+            "Avoid any evidence of any kind",
+          ],
+          optionsMy: [
+            "ပြီးပြည့်စုံသော ဖြေရှင်းချက်ဟု ဆိုမည့်အစား စစ်မှန်သော Trade-Off များကို အသိအမှတ်ပြုခြင်း",
+            "ဆိုးကျိုး မရှိသော ဖြေရှင်းချက်တစ်ခုတည်းကို ဆိုခြင်း",
+            "Stakeholder တိုင်း၏ အကျိုးစီးပွားကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Evidence မည်သည်မှ ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 6: "The Global Economy: Work,
+// Corporations and Trade" (Weeks 21-24)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm6 = CourseTermDef(
+  id: "course-igcse-gp-t6",
+  termNumber: 6,
+  titleEn: "The Global Economy: Work, Corporations and Trade",
+  titleMy: "ကမ္ဘာ့ စီးပွားရေး - အလုပ်အကိုင်၊ Corporation များနှင့် ကုန်သွယ်ရေး",
+  certificateTitleEn: "The Global Economy: Work, Corporations and Trade",
+  certificateTitleMy:
+      "ကမ္ဘာ့ စီးပွားရေး - အလုပ်အကိုင်၊ Corporation များနှင့် ကုန်သွယ်ရေး",
+  weeks: [_igcseGpWeek21, _igcseGpWeek22, _igcseGpWeek23, _igcseGpWeek24],
 );
 // __IGCSE_GP_MARKER__
