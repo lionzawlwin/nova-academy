@@ -143895,7 +143895,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Terms 3-9 not yet
+// IGCSE Computing -- full pathway definition. Terms 4-9 not yet
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
@@ -143906,10 +143906,1392 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseComputingTerm1, _igcseComputingTerm2],
+  terms: [_igcseComputingTerm1, _igcseComputingTerm2, _igcseComputingTerm3],
+);
+// =====================================================================
+// IGCSE Computing -- Term 3, Week 9: "Computer Architecture (Von
+// Neumann)"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek9 = CourseWeekDef(
+  id: "course-igcse-computing-w9",
+  weekNumber: 9,
+  titleEn: "Computer Architecture (Von Neumann)",
+  titleMy: "ကွန်ပျူတာ ဗိသုကာပုံစံ (Von Neumann Architecture)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w9-d1",
+      dayNumber: 1,
+      titleEn: "CPU Components and the Fetch-Decode-Execute Cycle",
+      titleMy: "CPU အစိတ်အပိုင်းများနှင့် Fetch-Decode-Execute စက်ဝန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the role of the ALU (Arithmetic Logic Unit) inside the CPU?",
+          questionMy:
+              "CPU အတွင်းရှိ ALU (Arithmetic Logic Unit) ၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It performs arithmetic calculations (like addition) and logical comparisons (like AND/OR/greater-than)",
+            "It permanently stores files when the computer is switched off",
+            "It converts electrical signals into sound for speakers",
+            "It manages the connection between the keyboard and the screen only",
+          ],
+          optionsMy: [
+            "ပေါင်းစည်းမှု ကဲ့သို့ သင်္ချာ တွက်ချက်မှုများနှင့် AND/OR/ ပိုကြီးသည် ကဲ့သို့ ယုတ္တိတန် နှိုင်းယှဉ်မှုများကို ဆောင်ရွက်ပေးသည်",
+            "ကွန်ပျူတာ ပိတ်ထားချိန်တွင် File များကို အမြဲတမ်း သိမ်းဆည်းသည်",
+            "လျှပ်စစ် Signal များကို Speaker များအတွက် အသံအဖြစ် ပြောင်းလဲပေးသည်",
+            "Keyboard နှင့် Screen ကြား ချိတ်ဆက်မှုကိုသာ စီမံခန့်ခွဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ALU stands for Arithmetic Logic Unit -- it is where the actual number-crunching and comparison decisions happen.",
+          ],
+          hintsMy: [
+            "ALU သည် Arithmetic Logic Unit ကို ကိုယ်စားပြုသည် -- ဂဏန်းတွက်ချက်မှုနှင့် နှိုင်းယှဉ် ဆုံးဖြတ်ချက်များ အမှန်တကယ် ဖြစ်ပျက်ရာနေရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following correctly describes the fetch-decode-execute cycle?",
+          questionMy:
+              "အောက်ပါ ရွေးချယ်စရာများအနက် Fetch-Decode-Execute Cycle ကို မှန်ကန်စွာ ဖော်ပြထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The CPU fetches an instruction from memory, decodes what it means, then executes it -- and this repeats continuously",
+            "The CPU executes an instruction before fetching it from memory",
+            "The CPU only performs this cycle once, when the computer is first switched on",
+            "The cycle only applies to storing files, not running programs",
+          ],
+          optionsMy: [
+            "CPU သည် Memory မှ Instruction တစ်ခုကို Fetch လုပ်ပြီး ၎င်း၏ အဓိပ္ပာယ်ကို Decode လုပ်ကာ Execute လုပ်သည် -- ၎င်းသည် အဆက်မပြတ် ထပ်ခါထပ်ခါ ဖြစ်ပျက်နေသည်",
+            "CPU သည် Instruction ကို Memory မှ မဆွဲမီ Execute လုပ်သည်",
+            "CPU သည် ကွန်ပျူတာ ပထမဆုံး ဖွင့်ချိန်တွင်သာ ဤ Cycle ကို တစ်ကြိမ်သာ လုပ်ဆောင်သည်",
+            "Cycle သည် Program Run ခြင်းအတွက် မဟုတ်ဘဲ File များ သိမ်းဆည်းရန်သာ သက်ဆိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This cycle happens billions of times per second in a modern CPU -- it is the fundamental process behind every single instruction a program runs.",
+          ],
+          hintsMy: [
+            "ဤ Cycle သည် ခေတ်မီ CPU တစ်ခုတွင် စက္ကန့်တစ်ခုလျှင် သန်းကုဋေ ပေါင်းများစွာ ဖြစ်ပျက်နေသည် -- Program တစ်ခု Run ချိန် Instruction တိုင်းနောက်ကွယ်ရှိ အခြေခံ Process ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which factor has the LEAST direct effect on a CPU's processing performance?",
+          questionMy:
+              "CPU ၏ Processing Performance အပေါ် အနည်းဆုံး တိုက်ရိုက် အကျိုးသက်ရောက်သော Factor မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The colour of the computer's outer plastic casing",
+            "Clock speed -- how many cycles the CPU can complete per second",
+            "The number of cores -- how many instructions can be processed simultaneously",
+            "Cache size -- how much fast, nearby memory the CPU has for frequently used data",
+          ],
+          optionsMy: [
+            "ကွန်ပျူတာ အပြင်ဘက် Plastic Casing ၏ အရောင်",
+            "Clock Speed -- CPU က စက္ကန့်တစ်ခုအတွင်း Cycle မည်မျှ ပြီးမြောက်နိုင်သနည်း",
+            "Core အရေအတွက် -- Instruction မည်မျှကို တစ်ပြိုင်နက် Process လုပ်နိုင်သနည်း",
+            "Cache Size -- မကြာခဏ အသုံးပြုသော Data အတွက် CPU တွင် မြန်ဆန်၍ နီးစပ်သော Memory မည်မျှ ရှိသနည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Clock speed, core count, and cache size are all genuine performance factors covered by IGCSE; a cosmetic property like colour has no effect on processing.",
+          ],
+          hintsMy: [
+            "Clock Speed, Core Count နှင့် Cache Size သည် IGCSE တွင် ဖုံးအုပ်ထားသော စစ်မှန်သော Performance Factor များ ဖြစ်ပြီး အရောင်ကဲ့သို့ ရုပ်ပိုင်းဆိုင်ရာ ဂုဏ်သတ္တိသည် Processing အပေါ် ဘယ်တော့မှ အကျိုးသက်ရောက်ခြင်း မရှိပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: CPU Architecture Terms",
+      titleMy: "တွဲစပ်ကြမည် - CPU Architecture ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w9-dm-1",
+          termEn: "Control Unit (CU)",
+          termMy: "Control Unit (CU)",
+          matchEn:
+              "Directs the operation of the processor, coordinating the fetch-decode-execute cycle",
+          matchMy:
+              "Fetch-Decode-Execute Cycle ကို ညှိနှိုင်းကာ Processor ၏ လုပ်ငန်းစဉ်ကို ညွှန်ကြားပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w9-dm-2",
+          termEn: "Register",
+          termMy: "Register",
+          matchEn:
+              "A tiny, extremely fast storage location inside the CPU holding one piece of data being processed",
+          matchMy:
+              "Process လုပ်နေသော Data အပိုင်းတစ်ခုကို ယူဆောင်ထားသော CPU အတွင်းရှိ အလွန်မြန်ဆန်သော Storage နေရာငယ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w9-dm-3",
+          termEn: "Clock speed",
+          termMy: "Clock Speed",
+          matchEn:
+              "The number of fetch-decode-execute cycles a CPU can complete per second, measured in GHz",
+          matchMy:
+              "CPU က စက္ကန့်တစ်ခုအတွင်း ပြီးမြောက်နိုင်သော Fetch-Decode-Execute Cycle အရေအတွက်၊ GHz ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w9-dm-4",
+          termEn: "Cache",
+          termMy: "Cache",
+          matchEn:
+              "Small, very fast memory close to the CPU that stores frequently accessed data",
+          matchMy:
+              "မကြာခဏ ဝင်ရောက်ကြည့်ရှုသော Data ကို သိမ်းဆည်းသော CPU နှင့် နီးစပ်သည့် သေးငယ်၍ အလွန်မြန်ဆန်သော Memory",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w9-dm-5",
+          termEn: "Core",
+          termMy: "Core",
+          matchEn:
+              "An independent processing unit within a CPU; more cores allow more instructions to run simultaneously",
+          matchMy:
+              "CPU အတွင်းရှိ လွတ်လပ်သော Processing Unit တစ်ခု၊ Core ပို၍များလေ Instruction ပို၍များများ တစ်ပြိုင်နက် Run နိုင်လေ ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fetch, Decode or Execute Stage?",
+      titleMy: "စီစစ်ကြမည် - Fetch, Decode (သို့) Execute Stage",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fetch", "Decode", "Execute"],
+        bucketsMy: ["Fetch", "Decode", "Execute"],
+        items: [
+          SortingItem(
+            id: "igcomp-w9-sort-1",
+            labelEn: "The instruction is retrieved from memory",
+            labelMy: "Instruction ကို Memory မှ ရယူသည်",
+            correctBucketEn: "Fetch",
+            correctBucketMy: "Fetch",
+          ),
+          SortingItem(
+            id: "igcomp-w9-sort-2",
+            labelEn: "The CPU works out what the instruction means",
+            labelMy: "CPU က Instruction ၏ အဓိပ္ပာယ်ကို ဖော်ထုတ်သည်",
+            correctBucketEn: "Decode",
+            correctBucketMy: "Decode",
+          ),
+          SortingItem(
+            id: "igcomp-w9-sort-3",
+            labelEn: "The ALU actually performs the calculation or action",
+            labelMy:
+                "ALU က တွက်ချက်မှု (သို့) လုပ်ဆောင်ချက်ကို အမှန်တကယ် ပြုလုပ်သည်",
+            correctBucketEn: "Execute",
+            correctBucketMy: "Execute",
+          ),
+          SortingItem(
+            id: "igcomp-w9-sort-4",
+            labelEn:
+                "The program counter identifies the next instruction's address",
+            labelMy:
+                "Program Counter က နောက် Instruction ၏ Address ကို ဖော်ထုတ်သည်",
+            correctBucketEn: "Fetch",
+            correctBucketMy: "Fetch",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin Explains the CPU Cycle",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin က CPU Cycle ကို ရှင်းပြသည်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin Explains the CPU Cycle",
+        titleMy: "Zayar Lin က CPU Cycle ကို ရှင်းပြသည်",
+        passageEn:
+            "For an IGCSE oral practice session, Sayar Ye Min asked Zayar Lin to explain the fetch-decode-execute cycle out loud, using a simple everyday analogy rather than jumping straight into technical vocabulary. Zayar Lin compared it to following a recipe: first you fetch the next instruction by reading the next line of the recipe, then you decode it by working out exactly what that line is asking you to do, and finally you execute it by actually performing the action, such as cracking an egg. Once that single instruction is complete, you return to the recipe and fetch the following line, repeating the whole cycle for every remaining step until the recipe is finished.\n\nSayar Ye Min then asked what would happen if the CPU had a higher clock speed. Zayar Lin explained that clock speed measures how many of these fetch-decode-execute cycles the CPU can complete each second, so a higher clock speed means more cycles per second, which generally means instructions get processed faster overall -- though he was careful to add that clock speed alone does not tell the whole story, since a CPU's actual performance also depends on factors like the number of cores and the size of its cache.\n\nTo make sure Zayar Lin truly understood the difference between these factors, Sayar Ye Min asked him to explain why a CPU with more cores could sometimes outperform a CPU with a higher clock speed but only a single core. Zayar Lin reasoned that more cores meant more independent processing units, each capable of running its own fetch-decode-execute cycle at the same time -- so for tasks that could be split into separate independent pieces, a multi-core CPU could process several instruction streams simultaneously, potentially completing the overall task faster than a single, faster core working through everything one instruction at a time.",
+        passageMy:
+            "IGCSE နှုတ်ဖြင့် လေ့ကျင့်ရေး Session တစ်ခုအတွက် နည်းပညာ ဝေါဟာရများသို့ တိုက်ရိုက် ခုန်ဝင်မည့်အစား ရိုးရှင်းသော နေ့စဉ်သုံး နှိုင်းယှဉ်ချက်တစ်ခု အသုံးပြု၍ Fetch-Decode-Execute Cycle ကို အသံထွက်ရှင်းပြရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် ၎င်းကို Recipe တစ်ခု လိုက်နာခြင်းနှင့် နှိုင်းယှဉ်ခဲ့သည် - ဦးစွာ Recipe ၏ နောက်လိုင်းကို ဖတ်ခြင်းဖြင့် နောက် Instruction ကို Fetch လုပ်ပြီး ထိုလိုင်း အမှန်တကယ် အဘယ်အရာ လုပ်ရန် တောင်းဆိုသည်ကို ဖော်ထုတ်ခြင်းဖြင့် Decode လုပ်ကာ နောက်ဆုံးတွင် ကြက်ဥတစ်လုံး ခွဲခြင်းကဲ့သို့ လုပ်ဆောင်ချက်ကို အမှန်တကယ် ဆောင်ရွက်ခြင်းဖြင့် Execute လုပ်သည်။ ထို Instruction တစ်ခုတည်း ပြီးမြောက်သည်နှင့်တစ်ပြိုင်နက် Recipe သို့ ပြန်သွားပြီး နောက်လိုင်းကို Fetch လုပ်ကာ Recipe ပြီးဆုံးသည်အထိ ကျန်ရှိသော အဆင့်တိုင်းအတွက် Cycle တစ်ခုလုံးကို ထပ်ခါထပ်ခါ ပြုလုပ်သည်။\n\nCPU တွင် Clock Speed ပို၍မြင့်လျှင် အဘယ်အရာ ဖြစ်ပျက်မည်နည်းဟု ဆရာရဲမင်းက ဆက်လက် မေးမြန်းခဲ့သည်။ Clock Speed သည် CPU က တစ်စက္ကန့်လျှင် ပြီးမြောက်နိုင်သော ဤ Fetch-Decode-Execute Cycle အရေအတွက်ကို တိုင်းတာသောကြောင့် Clock Speed ပို၍မြင့်လျှင် တစ်စက္ကန့်လျှင် Cycle ပို၍များပြီး ယေဘုယျအားဖြင့် Instruction များ ပို၍ မြန်ဆန်စွာ Process လုပ်ခြင်းကို ဆိုလိုကြောင်း Zayar Lin ရှင်းပြခဲ့သည် -- သို့သော် Clock Speed တစ်ခုတည်းသည် ပုံစံတစ်ခုလုံးကို ဖော်ပြခြင်း မဟုတ်ကြောင်း၊ CPU ၏ အမှန်တကယ် Performance သည် Core အရေအတွက်နှင့် Cache အရွယ်အစားကဲ့သို့ Factor များအပေါ်လည်း မူတည်ကြောင်းကို သတိထား ထည့်သွင်းပြောခဲ့သည်။\n\nဤ Factor များကြား ကွာခြားချက်ကို Zayar Lin အမှန်တကယ် နားလည်ကြောင်း သေချာစေရန် Core ပို၍များသော CPU တစ်ခုသည် Clock Speed ပို၍မြင့်သော်လည်း Core တစ်ခုတည်း ရှိသော CPU ထက် တစ်ခါတစ်ရံ ပို၍ စွမ်းဆောင်ရည် ကောင်းနိုင်သည့် အကြောင်းရင်းကို ရှင်းပြရန် ဆရာရဲမင်းက တောင်းဆိုခဲ့သည်။ Core ပို၍များခြင်းဆိုသည်မှာ ၎င်းတို့ကိုယ်ပိုင် Fetch-Decode-Execute Cycle ကို တစ်ချိန်တည်း Run နိုင်သော Independent Processing Unit ပို၍များခြင်းကို ဆိုလိုသောကြောင့် ကွဲပြားသော Independent အစိတ်အပိုင်းများအဖြစ် ခွဲထားနိုင်သော Task များအတွက် Multi-Core CPU သည် Instruction Stream များစွာကို တစ်ချိန်တည်း Process လုပ်နိုင်ပြီး Instruction တစ်ခုစီကို တစ်ခုချင်းစီ လုပ်ဆောင်နေသော Core တစ်ခုတည်း ပို၍မြန်သော်ငြားလည်း ပို၍ မြန်ဆန်စွာ ပြီးမြောက်နိုင်သည်ဟု Zayar Lin ဆင်ခြင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what action in the recipe analogy represents the 'execute' stage?",
+            questionMy:
+                "Recipe နှိုင်းယှဉ်ချက်တွင် 'Execute' အဆင့်ကို ကိုယ်စားပြုသော လုပ်ဆောင်ချက်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Actually performing the action, such as cracking an egg",
+              "Reading the next line of the recipe",
+              "Working out what a line means",
+              "Closing the recipe book entirely",
+            ],
+            optionsMy: [
+              "ကြက်ဥတစ်လုံး ခွဲခြင်းကဲ့သို့ လုပ်ဆောင်ချက်ကို အမှန်တကယ် ဆောင်ရွက်ခြင်း",
+              "Recipe ၏ နောက်လိုင်းကို ဖတ်ခြင်း",
+              "လိုင်းတစ်ခု၏ အဓိပ္ပာယ်ကို ဖော်ထုတ်ခြင်း",
+              "Recipe စာအုပ်ကို လုံးဝ ပိတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about cracking an egg."],
+            hintsMy: ["ကြက်ဥ ခွဲခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what does clock speed measure?",
+            questionMy:
+                "Clock Speed က အဘယ်အရာကို တိုင်းတာသည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "How many fetch-decode-execute cycles the CPU completes each second",
+              "The total storage capacity of the hard drive",
+              "The physical temperature of the CPU",
+              "The number of USB ports on the computer",
+            ],
+            optionsMy: [
+              "CPU က တစ်စက္ကန့်လျှင် ပြီးမြောက်နိုင်သော Fetch-Decode-Execute Cycle အရေအတွက်",
+              "Hard Drive ၏ Storage Capacity စုစုပေါင်း",
+              "CPU ၏ ရုပ်ပိုင်းဆိုင်ရာ အပူချိန်",
+              "ကွန်ပျူတာပေါ်ရှိ USB Port အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence defining clock speed."],
+            hintsMy: [
+              "Clock Speed ကို သတ်မှတ်ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why can a multi-core CPU sometimes outperform a faster single-core CPU?",
+            questionMy:
+                "Multi-Core CPU တစ်ခုသည် ပို၍မြန်သော Single-Core CPU တစ်ခုထက် တစ်ခါတစ်ရံ ပို၍ ကောင်းနိုင်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It can process several independent instruction streams simultaneously across its multiple cores",
+              "It always uses less electricity than any single-core CPU",
+              "Multi-core CPUs never make any errors",
+              "Single-core CPUs cannot run any programs at all",
+            ],
+            optionsMy: [
+              "၎င်း၏ Core များစွာတစ်လျှောက် Independent Instruction Stream များစွာကို တစ်ပြိုင်နက် Process လုပ်နိုင်ခြင်း",
+              "Single-Core CPU မည်သည့်ထက်မဆို လျှပ်စစ် စွမ်းအင် အမြဲ ပို၍နည်းစွာ သုံးခြင်း",
+              "Multi-Core CPU များသည် အမှား ဘယ်တော့မှ မလုပ်ခြင်း",
+              "Single-Core CPU များသည် Program မည်သည့်အမျိုးအစားမျှ လုံးဝ Run မနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: CPU Architecture",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - CPU Architecture",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The fetch-decode-execute cycle happens in what order?",
+          questionMy:
+              "Fetch-Decode-Execute Cycle သည် မည်သည့် အစီအစဉ်ဖြင့် ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "Fetch, then decode, then execute",
+            "Execute, then fetch, then decode",
+            "Decode, then execute, then fetch",
+            "All three happen at the exact same instant",
+          ],
+          optionsMy: [
+            "Fetch, ထို့နောက် Decode, ထို့နောက် Execute",
+            "Execute, ထို့နောက် Fetch, ထို့နောက် Decode",
+            "Decode, ထို့နောက် Execute, ထို့နောက် Fetch",
+            "သုံးမျိုးလုံး အချိန်တစ်ခုတည်းတွင် ဖြစ်ပျက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The ALU is responsible for...",
+          questionMy: "ALU သည် ...အတွက် တာဝန်ရှိသည်",
+          optionsEn: [
+            "Arithmetic and logical operations",
+            "Permanently storing files",
+            "Displaying images on screen",
+            "Connecting to Wi-Fi networks",
+          ],
+          optionsMy: [
+            "သင်္ချာနှင့် ယုတ္တိ လုပ်ဆောင်ချက်များ",
+            "File များကို အမြဲတမ်း သိမ်းဆည်းခြင်း",
+            "Screen ပေါ်တွင် ပုံများ ပြသခြင်း",
+            "Wi-Fi ကွန်ရက်များသို့ ချိတ်ဆက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A larger cache generally improves performance because it...",
+          questionMy:
+              "Cache ပို၍ ကြီးမားခြင်းသည် ယေဘုယျအားဖြင့် Performance ကို တိုးတက်စေသည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Lets the CPU access frequently used data faster than fetching it from slower main memory",
+            "Increases the physical size of the computer case",
+            "Reduces the number of cores available",
+            "Has no effect on performance whatsoever",
+          ],
+          optionsMy: [
+            "CPU အား နှေးကွေးသော Main Memory မှ ရယူသည်ထက် မကြာခဏ အသုံးပြုသော Data ကို ပို၍ မြန်ဆန်စွာ ဝင်ရောက်ကြည့်ရှုစေနိုင်ခြင်း",
+            "ကွန်ပျူတာ Case ၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစားကို တိုးမြှင့်ခြင်း",
+            "ရရှိနိုင်သော Core အရေအတွက်ကို လျော့ချခြင်း",
+            "Performance အပေါ် ဘယ်အရာမှ အကျိုးသက်ရောက်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 3, Week 10: "Input, Output, and Storage
+// Devices"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek10 = CourseWeekDef(
+  id: "course-igcse-computing-w10",
+  weekNumber: 10,
+  titleEn: "Input, Output, and Storage Devices",
+  titleMy: "ထည့်သွင်း၊ ထုတ်ပေးနှင့် သိုလှောင်သည့် ကိရိယာများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w10-d1",
+      dayNumber: 1,
+      titleEn: "Sensors, Primary Memory and Secondary Storage",
+      titleMy: "Sensors, Primary Memory နှင့် Secondary Storage",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the key difference between RAM and ROM?",
+          questionMy: "RAM နှင့် ROM ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "RAM is volatile (its contents are lost when power is removed) and holds currently running programs/data; ROM is non-volatile and permanently holds startup instructions",
+            "RAM is non-volatile and ROM is volatile -- the exact opposite of the real relationship",
+            "RAM and ROM are simply two different names for the exact same type of memory",
+            "ROM can be freely rewritten by any running program at any time",
+          ],
+          optionsMy: [
+            "RAM သည် Volatile ဖြစ်ပြီး (လျှပ်စစ်ဖြုတ်လိုက်လျှင် ၎င်း၏ အကြောင်းအရာများ ပျောက်ဆုံးသည်) လက်ရှိ Run နေသော Program/Data များကို ယူဆောင်ထားပြီး ROM သည် Non-Volatile ဖြစ်ကာ Startup Instruction များကို အမြဲတမ်း ယူဆောင်ထားသည်",
+            "RAM သည် Non-Volatile ဖြစ်ပြီး ROM သည် Volatile ဖြစ်သည် -- စစ်မှန်သော ဆက်နွယ်မှု၏ လုံးဝ ဆန့်ကျင်ဘက်",
+            "RAM နှင့် ROM သည် Memory အမျိုးအစားတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်သည်",
+            "ROM ကို Run နေသော Program တစ်ခုမဆိုက အချိန်မရွေး လွတ်လပ်စွာ ပြန်ရေးနိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'Volatile' means the memory loses its contents when the power turns off -- this is exactly why unsaved work in RAM disappears if a computer suddenly loses power.",
+          ],
+          hintsMy: [
+            "'Volatile' ဆိုသည်မှာ လျှပ်စစ်ပိတ်သွားလျှင် Memory သည် ၎င်း၏ အကြောင်းအရာများ ဆုံးရှုံးသွားသည်ဟု ဆိုလိုသည် -- ကွန်ပျူတာသည် ရုတ်တရက် လျှပ်စစ်ပြတ်တောက်သွားလျှင် RAM ရှိ မသိမ်းဆည်းရသေးသော အလုပ် ပျောက်ဆုံးရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An automatic streetlight uses a light sensor to detect darkness and switch itself on. What is the actuator in this system?",
+          questionMy:
+              "Automatic Streetlight သည် အမှောင်ကို ရှာဖွေရန် Light Sensor ကို အသုံးပြုပြီး ကိုယ်တိုင် ဖွင့်သည်။ ဤစနစ်တွင် Actuator မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The light bulb itself, since the actuator is the component that physically carries out the response (turning on)",
+            "The light sensor, since it detects the input",
+            "The wire connecting the streetlight to power",
+            "The concrete pole supporting the streetlight",
+          ],
+          optionsMy: [
+            "မီးလုံးကိုယ်တိုင်၊ Actuator သည် တုံ့ပြန်ချက် (ဖွင့်ခြင်း) ကို ရုပ်ပိုင်းဆိုင်ရာ ဆောင်ရွက်ပေးသော Component ဖြစ်သောကြောင့်",
+            "Light Sensor၊ Input ကို ရှာဖွေသောကြောင့်",
+            "Streetlight ကို လျှပ်စစ်နှင့် ချိတ်ဆက်ထားသော Wire",
+            "Streetlight ကို ထောက်ပံ့ထားသော ကွန်ကရစ် တိုင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A sensor detects an input; an actuator produces a physical output response -- the light bulb turning on is that physical response.",
+          ],
+          hintsMy: [
+            "Sensor သည် Input ကို ရှာဖွေပြီး Actuator သည် ရုပ်ပိုင်းဆိုင်ရာ Output တုံ့ပြန်ချက်ကို ထုတ်ပေးသည် -- မီးလုံး ဖွင့်ခြင်းသည် ထို ရုပ်ပိုင်းဆိုင်ရာ တုံ့ပြန်ချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is an SSD (Solid State Drive) generally faster than a traditional magnetic hard disk drive (HDD)?",
+          questionMy:
+              "SSD (Solid State Drive) သည် ရိုးရာ Magnetic Hard Disk Drive (HDD) ထက် ယေဘုယျအားဖြင့် ပို၍ မြန်ဆန်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An SSD has no moving mechanical parts, accessing data electronically, while an HDD must physically move a read/write head across a spinning disk",
+            "An SSD is always physically larger than an HDD",
+            "An HDD uses no power at all",
+            "SSDs cannot store more than a few files at once",
+          ],
+          optionsMy: [
+            "SSD တွင် ရွေ့လျားနေသော Mechanical အစိတ်အပိုင်း မရှိဘဲ Data ကို လျှပ်စစ်ဆိုင်ရာ ဝင်ရောက်ကြည့်ရှုသော်လည်း HDD သည် လည်ပတ်နေသော Disk တစ်ခုတစ်လျှောက် Read/Write Head ကို ရုပ်ပိုင်းဆိုင်ရာ ရွှေ့ရမည် ဖြစ်သည်",
+            "SSD သည် HDD ထက် ရုပ်ပိုင်းဆိုင်ရာ အမြဲ ပို၍ ကြီးမားသည်",
+            "HDD သည် လျှပ်စစ် စွမ်းအင် လုံးဝ မသုံးပါ",
+            "SSD များသည် တစ်ကြိမ်လျှင် File အနည်းငယ်ထက် ပို၍ သိမ်းဆည်း၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Moving physical parts (a spinning disk and a head that must travel to the right position) are inherently slower than purely electronic access.",
+          ],
+          hintsMy: [
+            "ရွေ့လျားနေသော ရုပ်ပိုင်းဆိုင်ရာ အစိတ်အပိုင်းများ (လည်ပတ်နေသော Disk နှင့် မှန်ကန်သော နေရာသို့ ခရီးသွားရမည့် Head) သည် လျှပ်စစ်ဆိုင်ရာ ဝင်ရောက်မှုသက်သက်ထက် ပင်ကိုယ်အားဖြင့် ပို၍ နှေးကွေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: I/O and Storage Terms",
+      titleMy: "တွဲစပ်ကြမည် - I/O နှင့် Storage ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w10-dm-1",
+          termEn: "Sensor",
+          termMy: "Sensor",
+          matchEn:
+              "A device that detects a change in the physical environment, such as light, temperature, or motion",
+          matchMy:
+              "အလင်းရောင်၊ အပူချိန်၊ (သို့) ရွေ့လျားမှု ကဲ့သို့ ရုပ်ပိုင်းဆိုင်ရာ ပတ်ဝန်းကျင်တွင် ပြောင်းလဲမှုကို ရှာဖွေသော Device",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w10-dm-2",
+          termEn: "Actuator",
+          termMy: "Actuator",
+          matchEn:
+              "A device that produces a physical response, such as a motor turning or a light switching on",
+          matchMy:
+              "Motor လှည့်ခြင်း (သို့) မီးဖွင့်ခြင်း ကဲ့သို့ ရုပ်ပိုင်းဆိုင်ရာ တုံ့ပြန်ချက်ကို ထုတ်ပေးသော Device",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w10-dm-3",
+          termEn: "RAM",
+          termMy: "RAM",
+          matchEn:
+              "Volatile primary memory holding currently running programs and data",
+          matchMy:
+              "လက်ရှိ Run နေသော Program နှင့် Data ကို ယူဆောင်ထားသော Volatile Primary Memory",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w10-dm-4",
+          termEn: "ROM",
+          termMy: "ROM",
+          matchEn:
+              "Non-volatile primary memory permanently holding the computer's startup instructions",
+          matchMy:
+              "ကွန်ပျူတာ၏ Startup Instruction များကို အမြဲတမ်း ယူဆောင်ထားသော Non-Volatile Primary Memory",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w10-dm-5",
+          termEn: "SSD",
+          termMy: "SSD",
+          matchEn:
+              "Solid State Drive -- secondary storage with no moving parts, accessing data electronically",
+          matchMy:
+              "Solid State Drive -- ရွေ့လျားနေသော အစိတ်အပိုင်း မရှိဘဲ Data ကို လျှပ်စစ်ဆိုင်ရာ ဝင်ရောက်ကြည့်ရှုသော Secondary Storage",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Input, Output, or Storage Device?",
+      titleMy: "စီစစ်ကြမည် - Input, Output (သို့) Storage Device",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Input Device", "Output Device", "Storage Device"],
+        bucketsMy: ["Input Device", "Output Device", "Storage Device"],
+        items: [
+          SortingItem(
+            id: "igcomp-w10-sort-1",
+            labelEn: "Microphone",
+            labelMy: "Microphone",
+            correctBucketEn: "Input Device",
+            correctBucketMy: "Input Device",
+          ),
+          SortingItem(
+            id: "igcomp-w10-sort-2",
+            labelEn: "Printer",
+            labelMy: "Printer",
+            correctBucketEn: "Output Device",
+            correctBucketMy: "Output Device",
+          ),
+          SortingItem(
+            id: "igcomp-w10-sort-3",
+            labelEn: "SSD",
+            labelMy: "SSD",
+            correctBucketEn: "Storage Device",
+            correctBucketMy: "Storage Device",
+          ),
+          SortingItem(
+            id: "igcomp-w10-sort-4",
+            labelEn: "Light sensor",
+            labelMy: "Light Sensor",
+            correctBucketEn: "Input Device",
+            correctBucketMy: "Input Device",
+          ),
+          SortingItem(
+            id: "igcomp-w10-sort-5",
+            labelEn: "Speaker",
+            labelMy: "Speaker",
+            correctBucketEn: "Output Device",
+            correctBucketMy: "Output Device",
+          ),
+          SortingItem(
+            id: "igcomp-w10-sort-6",
+            labelEn: "Magnetic hard disk drive (HDD)",
+            labelMy: "Magnetic Hard Disk Drive (HDD)",
+            correctBucketEn: "Storage Device",
+            correctBucketMy: "Storage Device",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Greenhouse System",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Greenhouse System",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Greenhouse System",
+        titleMy: "Zayar Lin ၏ Greenhouse System",
+        passageEn:
+            "Sayar Ye Min described a small automated greenhouse system and asked the class to identify every input device, output device, and storage requirement it needed. The greenhouse used a temperature sensor to continuously monitor how hot it was inside, and a soil moisture sensor to check whether the plants needed watering. Zayar Lin correctly identified both of these as input devices, since their job was to detect information from the physical environment and feed it into the controlling microprocessor.\n\nWhen the temperature sensor detected the greenhouse was too hot, the system needed to open a roof vent automatically; when the moisture sensor detected dry soil, it needed to switch on a water pump. Zayar Lin identified the motor opening the vent and the water pump itself as actuators -- output devices producing a physical response based on what the sensors had detected, closing the loop between sensing a problem and physically fixing it.\n\nSayar Ye Min then asked about data storage: the greenhouse also needed to log temperature and moisture readings every ten minutes, all day, so the owner could review trends later on a computer. Zayar Lin reasoned that these logs needed to survive being read repeatedly and persist even if the system lost power overnight, ruling out RAM immediately since RAM is volatile and loses its contents without power. He proposed an SSD for this role rather than a traditional magnetic HDD, since the greenhouse's controller was a small embedded device that would benefit from an SSD's lack of moving parts, faster access speed, and greater resistance to vibration in an outdoor agricultural setting.",
+        passageMy:
+            "ဆရာရဲမင်းသည် အလိုအလျောက် Greenhouse System ငယ်တစ်ခုကို ဖော်ပြပြီး ၎င်း လိုအပ်သော Input Device၊ Output Device နှင့် Storage လိုအပ်ချက် တိုင်းကို ဖော်ထုတ်ရန် အတန်းကို တောင်းဆိုခဲ့သည်။ Greenhouse သည် အတွင်းတွင် မည်မျှ ပူနေသည်ကို အဆက်မပြတ် စောင့်ကြည့်ရန် Temperature Sensor တစ်ခုနှင့် အပင်များ ရေလောင်းရန် လိုအပ်မလိုအပ် စစ်ဆေးရန် Soil Moisture Sensor တစ်ခုကို အသုံးပြုခဲ့သည်။ Zayar Lin သည် ဤ Sensor နှစ်ခုစလုံးကို Input Device များအဖြစ် မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည်၊ အကြောင်းမှာ ၎င်းတို့၏ တာဝန်မှာ ရုပ်ပိုင်းဆိုင်ရာ ပတ်ဝန်းကျင်မှ အချက်အလက်ကို ရှာဖွေပြီး ထိန်းချုပ်နေသော Microprocessor သို့ ထည့်ပေးရန် ဖြစ်သောကြောင့် ဖြစ်သည်။\n\nTemperature Sensor သည် Greenhouse ပူနွေးလွန်းနေကြောင်း ရှာဖွေမိသောအခါ စနစ်သည် ခေါင်မိုး Vent တစ်ခုကို အလိုအလျောက် ဖွင့်ရန် လိုအပ်ပြီး Moisture Sensor သည် ခြောက်သွေ့သော မြေဆီလွှာကို ရှာဖွေမိသောအခါ ရေထောင့်ပန်ကို ဖွင့်ရန် လိုအပ်သည်။ Zayar Lin သည် Vent ကို ဖွင့်ပေးသော Motor နှင့် ရေထောင့်ပန်ကိုယ်တိုင်ကို Actuator များအဖြစ် ဖော်ထုတ်ခဲ့သည် -- Sensor များ ရှာဖွေမိသည့်အရာအပေါ် အခြေခံ၍ ရုပ်ပိုင်းဆိုင်ရာ တုံ့ပြန်ချက်ကို ထုတ်ပေးသော Output Device များ ဖြစ်ပြီး ပြဿနာကို ရှာဖွေခြင်းနှင့် ၎င်းကို ရုပ်ပိုင်းဆိုင်ရာ ပြုပြင်ခြင်း ကြားရှိ Loop ကို ပိတ်ပေးသည်။\n\nData Storage အကြောင်း ဆရာရဲမင်း ဆက်လက် မေးမြန်းခဲ့သည် - Greenhouse သည် Owner က နောက်ပိုင်း ကွန်ပျူတာတစ်ခုပေါ်တွင် Trend များ ပြန်လည်သုံးသပ်နိုင်ရန် Temperature နှင့် Moisture ဖတ်ချက်များကို တစ်နေ့လုံး ဆယ်မိနစ်တိုင်း Log ချရန်လည်း လိုအပ်သည်။ ဤ Log များသည် ထပ်ခါထပ်ခါ ဖတ်ရှုခံရသည်ကို ကျော်လွန်ရမည်ဖြစ်ပြီး ညအချိန် စနစ်သည် လျှပ်စစ် ဆုံးရှုံးသွားသော်ငြားလည်း ဆက်လက် တည်ရှိရမည်ဖြစ်သောကြောင့် RAM ကို ချက်ချင်း ဖယ်ရှားခဲ့သည် -- RAM သည် Volatile ဖြစ်ပြီး လျှပ်စစ် မရှိပါက ၎င်း၏ အကြောင်းအရာများ ဆုံးရှုံးသွားသောကြောင့် ဖြစ်သည်။ Greenhouse ၏ Controller သည် ရွေ့လျားနေသော အစိတ်အပိုင်း မရှိခြင်း၊ ပို၍မြန်ဆန်သော Access Speed နှင့် ပြင်ပ စိုက်ပျိုးရေး ပတ်ဝန်းကျင်တွင် တုန်ခါမှုကို ပို၍ ခံနိုင်ရည်ရှိခြင်းမှ အကျိုးကျေးဇူးရမည့် Embedded Device ငယ်တစ်ခု ဖြစ်သောကြောင့် ရိုးရာ Magnetic HDD အစား ဤ Role အတွက် SSD ကို သူ အဆိုပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Zayar Lin classify the temperature and moisture sensors as input devices?",
+            questionMy:
+                "Temperature နှင့် Moisture Sensor များကို Zayar Lin Input Device များအဖြစ် ခွဲခြားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Their job was to detect information from the environment and feed it into the microprocessor",
+              "They physically opened the roof vent themselves",
+              "They stored the greenhouse's historical data",
+              "They produced sound output for the owner to hear",
+            ],
+            optionsMy: [
+              "ပတ်ဝန်းကျင်မှ အချက်အလက်ကို ရှာဖွေပြီး Microprocessor သို့ ထည့်ပေးရန် ၎င်းတို့၏ တာဝန် ဖြစ်ခြင်း",
+              "ခေါင်မိုး Vent ကို ၎င်းတို့ကိုယ်တိုင် ရုပ်ပိုင်းဆိုင်ရာ ဖွင့်ခြင်း",
+              "Greenhouse ၏ သမိုင်းဝင် Data ကို သိမ်းဆည်းခြင်း",
+              "Owner ကြားရန် အသံ Output ထုတ်ပေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which two components did Zayar Lin identify as actuators?",
+            questionMy:
+                "Zayar Lin Actuator များအဖြစ် ဖော်ထုတ်ခဲ့သော Component နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The motor opening the vent and the water pump",
+              "The temperature sensor and the moisture sensor",
+              "Only the microprocessor",
+              "The SSD and the RAM",
+            ],
+            optionsMy: [
+              "Vent ကို ဖွင့်ပေးသော Motor နှင့် ရေထောင့်ပန်",
+              "Temperature Sensor နှင့် Moisture Sensor",
+              "Microprocessor သာ",
+              "SSD နှင့် RAM",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence naming the actuators."],
+            hintsMy: [
+              "Actuator များကို အမည်ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Zayar Lin rule out RAM for storing the logs?",
+            questionMy:
+                "Log များ သိမ်းဆည်းရန် RAM ကို Zayar Lin ဖယ်ရှားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "RAM is volatile and would lose the logs if the system lost power overnight",
+              "RAM is too expensive for a small embedded device",
+              "RAM cannot store numeric data of any kind",
+              "RAM is only found in desktop computers, not embedded devices",
+            ],
+            optionsMy: [
+              "RAM သည် Volatile ဖြစ်ပြီး ညအချိန် စနစ်သည် လျှပ်စစ် ဆုံးရှုံးသွားပါက Log များ ဆုံးရှုံးသွားမည် ဖြစ်ခြင်း",
+              "RAM သည် Embedded Device ငယ်တစ်ခုအတွက် ကုန်ကျစရိတ် ကြီးလွန်းခြင်း",
+              "RAM သည် ဂဏန်း Data မည်သည့်အမျိုးအစားမျှ သိမ်းဆည်း၍ မရနိုင်ခြင်း",
+              "RAM ကို Desktop ကွန်ပျူတာများတွင်သာ တွေ့ရှိရပြီး Embedded Device များတွင် မတွေ့ရှိရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about RAM being volatile."],
+            hintsMy: ["RAM Volatile ဖြစ်ကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: I/O and Storage",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - I/O နှင့် Storage",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "RAM is described as volatile because it...",
+          questionMy:
+              "RAM ကို Volatile ဟု ဖော်ပြထားသည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Loses its contents when power is removed",
+            "Never loses its contents under any circumstances",
+            "Cannot store any data at all",
+            "Is a type of secondary storage",
+          ],
+          optionsMy: [
+            "လျှပ်စစ်ဖြုတ်လိုက်လျှင် ၎င်း၏ အကြောင်းအရာများ ဆုံးရှုံးသွားခြင်း",
+            "မည်သည့်အခြေအနေတွင်မဆို ၎င်း၏ အကြောင်းအရာများ ဘယ်တော့မှ မဆုံးရှုံးခြင်း",
+            "Data မည်သည့်အမျိုးအစားမျှ သိမ်းဆည်း၍ မရနိုင်ခြင်း",
+            "Secondary Storage အမျိုးအစား ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An actuator's role in an automated system is to...",
+          questionMy: "Automated System တစ်ခုတွင် Actuator ၏ အခန်းကဏ္ဍမှာ...",
+          optionsEn: [
+            "Produce a physical output response based on sensor input",
+            "Detect changes in the physical environment",
+            "Permanently store historical data",
+            "Translate domain names into IP addresses",
+          ],
+          optionsMy: [
+            "Sensor Input အပေါ် အခြေခံ၍ ရုပ်ပိုင်းဆိုင်ရာ Output တုံ့ပြန်ချက် ထုတ်ပေးခြင်း",
+            "ရုပ်ပိုင်းဆိုင်ရာ ပတ်ဝန်းကျင်တွင် ပြောင်းလဲမှုများကို ရှာဖွေခြင်း",
+            "သမိုင်းဝင် Data ကို အမြဲတမ်း သိမ်းဆည်းခြင်း",
+            "Domain Name များကို IP Address များသို့ ဘာသာပြန်ဆိုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An SSD is generally faster than a magnetic HDD mainly because...",
+          questionMy:
+              "SSD သည် Magnetic HDD ထက် ယေဘုယျအားဖြင့် ပို၍ မြန်ဆန်ရသည့် အဓိက အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It has no moving mechanical parts, accessing data purely electronically",
+            "It is always physically smaller",
+            "It never requires any electrical power",
+            "It can only store text files",
+          ],
+          optionsMy: [
+            "Data ကို လျှပ်စစ်ဆိုင်ရာ သက်သက် ဝင်ရောက်ကြည့်ရှုပြီး ရွေ့လျားနေသော Mechanical အစိတ်အပိုင်း မရှိခြင်း",
+            "ရုပ်ပိုင်းဆိုင်ရာ အမြဲ ပို၍ သေးငယ်ခြင်း",
+            "လျှပ်စစ် စွမ်းအင် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Text File များကိုသာ သိမ်းဆည်းနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 3, Week 11: "Logic Gates and Truth Tables"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek11 = CourseWeekDef(
+  id: "course-igcse-computing-w11",
+  weekNumber: 11,
+  titleEn: "Logic Gates and Truth Tables",
+  titleMy: "လော့ဂျစ်ဂိတ်များနှင့် မှန်ကန်မှု ဇယားများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w11-d1",
+      dayNumber: 1,
+      titleEn: "AND, OR, NOT, NAND, NOR and XOR Gates",
+      titleMy: "AND, OR, NOT, NAND, NOR နှင့် XOR Gates",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An AND gate outputs 1 (TRUE) when...",
+          questionMy: "AND Gate သည် ...အခါ 1 (TRUE) ထုတ်ပေးသည်",
+          optionsEn: [
+            "Both of its inputs are 1",
+            "At least one of its inputs is 1",
+            "Neither input is 1",
+            "Exactly one input is 1, but not both",
+          ],
+          optionsMy: [
+            "၎င်း၏ Input နှစ်ခုစလုံး 1 ဖြစ်သောအခါ",
+            "၎င်း၏ Input အနက် အနည်းဆုံး တစ်ခု 1 ဖြစ်သောအခါ",
+            "Input နှစ်ခုစလုံး 1 မဟုတ်သောအခါ",
+            "Input တစ်ခုတည်းသာ 1 ဖြစ်ပြီး နှစ်ခုလုံး မဟုတ်သောအခါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of AND as requiring both conditions to be true at once, like needing both a key AND a code to open a safe.",
+          ],
+          hintsMy: [
+            "Safe တစ်ခုကို ဖွင့်ရန် Key AND Code နှစ်ခုလုံး လိုအပ်သကဲ့သို့ AND ကို အခြေအနေ နှစ်ခုစလုံး တစ်ချိန်တည်း True ဖြစ်ရန် လိုအပ်ကြောင်း စဉ်းစားကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between an OR gate and an XOR (exclusive OR) gate?",
+          questionMy:
+              "OR Gate နှင့် XOR (Exclusive OR) Gate ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "XOR outputs 1 only when the inputs are different from each other; OR outputs 1 whenever at least one input is 1, including when both are 1",
+            "OR and XOR always produce exactly the same output for every possible input",
+            "XOR requires three inputs, while OR only ever accepts one input",
+            "OR outputs 1 only when both inputs are 0",
+          ],
+          optionsMy: [
+            "XOR သည် Input များ တစ်ခုနှင့်တစ်ခု ကွဲပြားသောအခါသာ 1 ထုတ်ပေးပြီး OR သည် Input နှစ်ခုစလုံး 1 ဖြစ်သည့်အခါ အပါအဝင် အနည်းဆုံး Input တစ်ခု 1 ဖြစ်တိုင်း 1 ထုတ်ပေးသည်",
+            "OR နှင့် XOR သည် ဖြစ်နိုင်သော Input တိုင်းအတွက် အတိအကျ Output တူညီစွာ အမြဲ ထုတ်ပေးသည်",
+            "XOR သည် Input သုံးခု လိုအပ်ပြီး OR သည် Input တစ်ခုသာ လက်ခံသည်",
+            "OR သည် Input နှစ်ခုစလုံး 0 ဖြစ်သောအခါသာ 1 ထုတ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Build a truth table for both: for inputs (1,1), OR gives 1 but XOR gives 0, since XOR specifically excludes the both-true case.",
+          ],
+          hintsMy: [
+            "နှစ်ခုလုံးအတွက် Truth Table တည်ဆောက်ကြည့်ပါ - Input (1,1) အတွက် OR က 1 ပေးသော်လည်း XOR က 0 ပေးသည်၊ XOR သည် True နှစ်ခုစလုံးကို အထူးသဖြင့် ဖယ်ချထားသောကြောင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A NAND gate is best described as which combination?",
+          questionMy:
+              "NAND Gate ကို ပေါင်းစပ်မှု မည်သည်ဖြင့် အကောင်းဆုံး ဖော်ပြထားသနည်း။",
+          optionsEn: [
+            "An AND gate followed by a NOT gate -- it outputs the opposite of what a normal AND gate would output",
+            "An OR gate followed by another OR gate",
+            "Exactly the same as an AND gate, just with a different symbol",
+            "A gate that always outputs 0 regardless of its inputs",
+          ],
+          optionsMy: [
+            "AND Gate ပြီးနောက် NOT Gate -- ပုံမှန် AND Gate ထုတ်ပေးမည့်အရာ၏ ဆန့်ကျင်ဘက်ကို ထုတ်ပေးသည်",
+            "OR Gate ပြီးနောက် နောက်ထပ် OR Gate",
+            "AND Gate နှင့် အတူတူပင် ဖြစ်ပြီး Symbol ကွဲပြားရုံသာ",
+            "Input မည်သို့ပင်ရှိစေ 0 ကိုသာ အမြဲ ထုတ်ပေးသော Gate",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "NAND is short for 'NOT AND' -- take the AND gate's normal truth table and flip every output value.",
+          ],
+          hintsMy: [
+            "NAND သည် 'NOT AND' အတိုကောက် ဖြစ်သည် -- AND Gate ၏ ပုံမှန် Truth Table ကို ယူပြီး Output တန်ဖိုးတိုင်းကို ပြောင်းချလိုက်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Logic Gate Definitions",
+      titleMy: "တွဲစပ်ကြမည် - Logic Gate အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w11-dm-1",
+          termEn: "NOT gate",
+          termMy: "NOT Gate",
+          matchEn:
+              "A single-input gate that outputs the opposite of its input (inverts 0 to 1, and 1 to 0)",
+          matchMy:
+              "၎င်း၏ Input ၏ ဆန့်ကျင်ဘက်ကို ထုတ်ပေးသော Input တစ်ခုတည်း Gate (0 ကို 1 သို့၊ 1 ကို 0 သို့ ပြောင်းသည်)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w11-dm-2",
+          termEn: "NOR gate",
+          termMy: "NOR Gate",
+          matchEn:
+              "An OR gate followed by a NOT gate -- outputs 1 only when both inputs are 0",
+          matchMy:
+              "OR Gate ပြီးနောက် NOT Gate -- Input နှစ်ခုစလုံး 0 ဖြစ်သောအခါသာ 1 ထုတ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w11-dm-3",
+          termEn: "Truth table",
+          termMy: "Truth Table",
+          matchEn:
+              "A table listing every possible combination of inputs and the resulting output for a logic gate or circuit",
+          matchMy:
+              "Logic Gate (သို့) Circuit တစ်ခုအတွက် ဖြစ်နိုင်သော Input ပေါင်းစပ်မှုတိုင်းနှင့် ရလဒ် Output ကို စာရင်းပြုသော ဇယား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w11-dm-4",
+          termEn: "Boolean expression",
+          termMy: "Boolean Expression",
+          matchEn:
+              "A written formula using AND, OR, and NOT to describe the logic of a circuit",
+          matchMy:
+              "Circuit တစ်ခု၏ Logic ကို ဖော်ပြရန် AND, OR နှင့် NOT ကို အသုံးပြုသော ဖော်မြူလာ ရေးသားချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w11-dm-5",
+          termEn: "XOR gate",
+          termMy: "XOR Gate",
+          matchEn:
+              "Outputs 1 only when its two inputs are different from each other",
+          matchMy:
+              "၎င်း၏ Input နှစ်ခု တစ်ခုနှင့်တစ်ခု ကွဲပြားသောအခါသာ 1 ထုတ်ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Gate's Behaviour?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Gate ၏ အပြုအမူလဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["AND Gate", "OR Gate", "NOT Gate"],
+        bucketsMy: ["AND Gate", "OR Gate", "NOT Gate"],
+        items: [
+          SortingItem(
+            id: "igcomp-w11-sort-1",
+            labelEn: "Outputs 1 only when both inputs are 1",
+            labelMy: "Input နှစ်ခုစလုံး 1 ဖြစ်သောအခါသာ 1 ထုတ်ပေးသည်",
+            correctBucketEn: "AND Gate",
+            correctBucketMy: "AND Gate",
+          ),
+          SortingItem(
+            id: "igcomp-w11-sort-2",
+            labelEn: "Outputs 1 when at least one input is 1",
+            labelMy: "အနည်းဆုံး Input တစ်ခု 1 ဖြစ်သောအခါ 1 ထုတ်ပေးသည်",
+            correctBucketEn: "OR Gate",
+            correctBucketMy: "OR Gate",
+          ),
+          SortingItem(
+            id: "igcomp-w11-sort-3",
+            labelEn: "Has exactly one input",
+            labelMy: "Input အတိအကျ တစ်ခုသာ ရှိသည်",
+            correctBucketEn: "NOT Gate",
+            correctBucketMy: "NOT Gate",
+          ),
+          SortingItem(
+            id: "igcomp-w11-sort-4",
+            labelEn: "Requires both conditions to be true simultaneously",
+            labelMy: "အခြေအနေနှစ်ခုစလုံး တစ်ချိန်တည်း True ဖြစ်ရန် လိုအပ်သည်",
+            correctBucketEn: "AND Gate",
+            correctBucketMy: "AND Gate",
+          ),
+          SortingItem(
+            id: "igcomp-w11-sort-5",
+            labelEn: "Inverts a single input value",
+            labelMy: "Input တန်ဖိုးတစ်ခုတည်းကို ပြောင်းချသည်",
+            correctBucketEn: "NOT Gate",
+            correctBucketMy: "NOT Gate",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Alarm Circuit",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Alarm Circuit",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Alarm Circuit",
+        titleMy: "Zayar Lin ၏ Alarm Circuit",
+        passageEn:
+            "Sayar Ye Min gave the class a real-world scenario to convert into logic gates: a home security alarm should sound if a door sensor detects the door is open AND the system is armed, but the alarm should never sound if a manual override switch is pressed, regardless of the other two conditions. Zayar Lin started by identifying the three inputs: door open (D), system armed (A), and override pressed (O), and one output: alarm sounds (X).\n\nHe first combined door open and system armed using an AND gate, since the scenario explicitly required both conditions to be true simultaneously before the alarm should even be considered. This gave him an intermediate result: D AND A. But he still needed to handle the override switch, which needed to force the alarm off no matter what the other two inputs were doing. He reasoned that this called for a NOT gate on the override input, producing NOT O, which would be 1 (true, allowing the alarm) only when the override was not pressed.\n\nFinally, Zayar Lin combined his intermediate D AND A result with NOT O using a second AND gate, since the alarm needed both the door/armed condition to be true and the override to be inactive at the same time. His final Boolean expression was X = (D AND A) AND (NOT O). Sayar Ye Min asked him to verify it with a specific case: door open, system armed, but override pressed. Zayar Lin traced through his own expression -- D AND A evaluated to 1, but NOT O evaluated to 0 since the override was pressed, and 1 AND 0 gives 0, correctly silencing the alarm exactly as the scenario required.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Logic Gate များအဖြစ် ပြောင်းလဲရန် လက်တွေ့ Scenario တစ်ခုကို အတန်းကို ပေးအပ်ခဲ့သည် - အိမ်လုံခြုံရေး Alarm သည် တံခါး Sensor သည် တံခါး ဖွင့်ထားကြောင်း ရှာဖွေမိပြီး Systems Armed ဖြစ်နေပါက အသံမြည်ရမည်ဖြစ်သော်လည်း Manual Override Switch ကို နှိပ်ထားပါက အခြား အခြေအနေ နှစ်ခု မည်သို့ပင်ရှိစေ Alarm ဘယ်တော့မှ အသံ မမြည်ရပါ။ Zayar Lin သည် Input သုံးခုကို ဖော်ထုတ်ခြင်းဖြင့် စတင်ခဲ့သည် - တံခါးဖွင့် (D)၊ System Armed (A) နှင့် Override Press (O)၊ Output တစ်ခု - Alarm Sound (X) ။\n\nScenario က Alarm ကို စဉ်းစားခြင်းမပြုမီ အခြေအနေ နှစ်ခုစလုံး တစ်ချိန်တည်း True ဖြစ်ရန် ရှင်းလင်းစွာ တောင်းဆိုထားသောကြောင့် သူသည် တံခါးဖွင့်နှင့် System Armed ကို AND Gate ဖြင့် ဦးစွာ ပေါင်းစပ်ခဲ့သည်။ ဤသည်က D AND A ဟူသော အလယ်ပိုင်း ရလဒ်တစ်ခု ပေးခဲ့သည်။ သို့သော် သူသည် အခြား Input နှစ်ခု မည်သို့ ပြုမူနေသည် မဆိုအခန်း Alarm ကို အတင်း ပိတ်ရန် လိုအပ်သော Override Switch ကို ကိုင်တွယ်ရန် ကျန်ရှိနေသေးသည်။ ၎င်းသည် Override Input ပေါ်ရှိ NOT Gate ကို တောင်းဆိုသည်ဟု သူ ဆင်ခြင်ခဲ့ပြီး NOT O ကို ထုတ်ပေးခဲ့ပြီး Override ကို မနှိပ်ထားသည့်အခါသာ 1 (True, Alarm ကို ခွင့်ပြု) ဖြစ်လိမ့်မည်။\n\nနောက်ဆုံးတွင် Zayar Lin သည် ၎င်း၏ အလယ်ပိုင်း D AND A ရလဒ်ကို NOT O နှင့် ဒုတိယ AND Gate ကို အသုံးပြု၍ ပေါင်းစပ်ခဲ့သည်၊ အကြောင်းမှာ Alarm သည် တံခါး/Armed အခြေအနေ True ဖြစ်ခြင်းနှင့် Override သည် Inactive ဖြစ်ခြင်း နှစ်ခုစလုံး တစ်ချိန်တည်း လိုအပ်ခဲ့သောကြောင့် ဖြစ်သည်။ သူ၏ နောက်ဆုံး Boolean Expression မှာ X = (D AND A) AND (NOT O) ဖြစ်သည်။ တံခါးဖွင့်၊ System Armed သော်လည်း Override ကို နှိပ်ထားသည့် ကိစ္စတစ်ခုဖြင့် ၎င်းကို အတည်ပြုရန် ဆရာရဲမင်းက တောင်းဆိုခဲ့သည်။ Zayar Lin သည် သူ့ Expression ကိုယ်တိုင်ကို ခြေရာခံခဲ့သည် -- D AND A သည် 1 သို့ Evaluate ဖြစ်သော်လည်း Override ကို နှိပ်ထားသောကြောင့် NOT O သည် 0 သို့ Evaluate ဖြစ်ခဲ့ပြီး 1 AND 0 သည် 0 ကို ပေးသဖြင့် Scenario က တောင်းဆိုသည့်အတိုင်း Alarm ကို မှန်ကန်စွာ တိတ်ဆိတ်စေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what were the three inputs Zayar Lin identified?",
+            questionMy:
+                "Zayar Lin ဖော်ထုတ်ခဲ့သော Input သုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Door open, system armed, and override pressed",
+              "Alarm sound, siren volume, and light colour",
+              "Temperature, humidity, and motion",
+              "Password, username, and PIN code",
+            ],
+            optionsMy: [
+              "တံခါးဖွင့်၊ System Armed နှင့် Override Press",
+              "Alarm Sound, Siren Volume နှင့် Light Colour",
+              "Temperature, Humidity နှင့် Motion",
+              "Password, Username နှင့် PIN Code",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence identifying the three inputs."],
+            hintsMy: [
+              "Input သုံးခုကို ဖော်ထုတ်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what gate did Zayar Lin apply to the override input, and why?",
+            questionMy:
+                "Zayar Lin သည် Override Input ပေါ်တွင် မည်သည့် Gate ကို အသုံးချခဲ့သနည်း၊ အဘယ့်ကြောင့်နည်း ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A NOT gate, so the alarm would be forced off whenever the override was pressed",
+              "An OR gate, to make the alarm louder",
+              "An AND gate, to combine it with the temperature sensor",
+              "No gate at all was applied to the override",
+            ],
+            optionsMy: [
+              "NOT Gate၊ Override ကို နှိပ်ထားတိုင်း Alarm ကို အတင်း ပိတ်ရန်",
+              "OR Gate၊ Alarm ကို ပို၍ ကျယ်လောင်စေရန်",
+              "AND Gate၊ Temperature Sensor နှင့် ပေါင်းစပ်ရန်",
+              "Override ပေါ်တွင် Gate မည်သည့်အမျိုးအစားမျှ အသုံးမချခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the NOT gate."],
+            hintsMy: ["NOT Gate အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what was the final output when the door was open, the system was armed, but the override was pressed?",
+            questionMy:
+                "တံခါးဖွင့်၊ System Armed သော်လည်း Override ကို နှိပ်ထားချိန် နောက်ဆုံး Output ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0 -- the alarm did not sound",
+              "1 -- the alarm sounded loudly",
+              "The result could not be determined at all",
+              "The system crashed and produced no output",
+            ],
+            optionsMy: [
+              "0 -- Alarm အသံ မမြည်ခဲ့ပါ",
+              "1 -- Alarm ကျယ်လောင်စွာ အသံမြည်ခဲ့သည်",
+              "ရလဒ်ကို လုံးဝ ဆုံးဖြတ်၍ မရနိုင်ခဲ့ပါ",
+              "System Crash ဖြစ်ပြီး Output မထုတ်ပေးခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Logic Gates",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Logic Gates",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An AND gate requires...",
+          questionMy: "AND Gate သည် ...ကို လိုအပ်သည်",
+          optionsEn: [
+            "Both inputs to be 1 for the output to be 1",
+            "Only one input to be 1 for the output to be 1",
+            "No inputs at all",
+            "Exactly three inputs",
+          ],
+          optionsMy: [
+            "Output 1 ဖြစ်ရန် Input နှစ်ခုစလုံး 1 ဖြစ်ရန်",
+            "Output 1 ဖြစ်ရန် Input တစ်ခုတည်းသာ 1 ဖြစ်ရန်",
+            "Input မည်သည့်အမျိုးအစားမျှ",
+            "Input အတိအကျ သုံးခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A NOT gate always...",
+          questionMy: "NOT Gate သည် အမြဲ...",
+          optionsEn: [
+            "Inverts its single input value",
+            "Requires two inputs",
+            "Outputs 1 regardless of the input",
+            "Combines with an OR gate automatically",
+          ],
+          optionsMy: [
+            "၎င်း၏ Input တန်ဖိုးတစ်ခုတည်းကို ပြောင်းချသည်",
+            "Input နှစ်ခု လိုအပ်သည်",
+            "Input မည်သို့ပင်ရှိစေ 1 ထုတ်ပေးသည်",
+            "OR Gate နှင့် အလိုအလျောက် ပေါင်းစပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the Boolean expression X = A AND (NOT B), if A = 1 and B = 1, what is X?",
+          questionMy:
+              "X = A AND (NOT B) ဟူသော Boolean Expression အတွက် A = 1 နှင့် B = 1 ဖြစ်ပါက X မှာ အဘယ်နည်း။",
+          optionsEn: ["0", "1", "Cannot be determined", "2"],
+          optionsMy: ["0", "1", "ဆုံးဖြတ်၍ မရနိုင်ပါ", "2"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 3, Week 12 (Capstone/Boss Week): "Logic
+// Circuit Design Challenge"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek12 = CourseWeekDef(
+  id: "course-igcse-computing-w12",
+  weekNumber: 12,
+  titleEn: "Logic Circuit Design Challenge",
+  titleMy: "လော့ဂျစ်ပတ်လမ်း ဒီဇိုင်း စိန်ခေါ်မှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w12-d1",
+      dayNumber: 1,
+      titleEn: "Boolean Expressions and Circuit Design",
+      titleMy: "Boolean Expression များနှင့် Circuit ဒီဇိုင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A vending machine dispenses a drink only if coins are inserted AND a valid selection is made. What Boolean expression describes this?",
+          questionMy:
+              "Coin ထည့်ပြီး Selection မှန်ကန်စွာ ပြုလုပ်မှသာ Vending Machine တစ်ခုသည် Drink ထုတ်ပေးသည်။ ၎င်းကို ဖော်ပြသော Boolean Expression မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Coins AND Selection",
+            "Coins OR Selection",
+            "NOT Coins",
+            "Coins XOR Selection",
+          ],
+          optionsMy: [
+            "Coins AND Selection",
+            "Coins OR Selection",
+            "NOT Coins",
+            "Coins XOR Selection",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The word 'AND' in the scenario is a direct clue -- both conditions must be true at once.",
+          ],
+          hintsMy: [
+            "Scenario ရှိ 'AND' စကားလုံးသည် တိုက်ရိုက် အချက်ပြချက် ဖြစ်သည် -- အခြေအနေ နှစ်ခုစလုံး တစ်ချိန်တည်း True ဖြစ်ရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A smoke alarm sounds if smoke is detected OR the manual test button is pressed. What Boolean expression describes this?",
+          questionMy:
+              "Smoke Detect ဖြစ်ခြင်း OR Manual Test Button ကို နှိပ်ခြင်း ဖြစ်ပါက Smoke Alarm အသံမြည်သည်။ ၎င်းကို ဖော်ပြသော Boolean Expression မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Smoke OR TestButton",
+            "Smoke AND TestButton",
+            "NOT Smoke AND NOT TestButton",
+            "Smoke XOR TestButton",
+          ],
+          optionsMy: [
+            "Smoke OR TestButton",
+            "Smoke AND TestButton",
+            "NOT Smoke AND NOT TestButton",
+            "Smoke XOR TestButton",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Either condition alone is enough to trigger the alarm -- this is exactly what OR represents.",
+          ],
+          hintsMy: [
+            "အခြေအနေတစ်ခုတည်းသာဖြင့်ပင် Alarm ကို Trigger လုပ်ရန် လုံလောက်သည် -- ၎င်းသည် OR ကိုယ်စားပြုသည့်အရာ အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For the expression X = (A OR B) AND (NOT C), if A = 0, B = 1, C = 0, what is X?",
+          questionMy:
+              "X = (A OR B) AND (NOT C) အတွက် A = 0, B = 1, C = 0 ဖြစ်ပါက X မှာ အဘယ်နည်း။",
+          optionsEn: ["1", "0", "Cannot be determined", "2"],
+          optionsMy: ["1", "0", "ဆုံးဖြတ်၍ မရနိုင်ပါ", "2"],
+          correctIndex: 0,
+          hintsEn: ["A OR B = 0 OR 1 = 1. NOT C = NOT 0 = 1. 1 AND 1 = 1."],
+          hintsMy: ["A OR B = 0 OR 1 = 1 ။ NOT C = NOT 0 = 1 ။ 1 AND 1 = 1 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Hardware Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 3 Hardware ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w12-dm-1",
+          termEn: "Fetch-decode-execute cycle",
+          termMy: "Fetch-Decode-Execute Cycle",
+          matchEn:
+              "The repeating process by which the CPU retrieves, interprets, and carries out instructions",
+          matchMy:
+              "CPU က Instruction များကို ရယူ၊ အဓိပ္ပာယ်ဖွင့်ဆိုပြီး ဆောင်ရွက်ပေးသော ထပ်ခါထပ်ခါ ဖြစ်ပျက်သော Process",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w12-dm-2",
+          termEn: "Actuator",
+          termMy: "Actuator",
+          matchEn:
+              "A component that produces a physical output response in an automated system",
+          matchMy:
+              "Automated System တစ်ခုတွင် ရုပ်ပိုင်းဆိုင်ရာ Output တုံ့ပြန်ချက်ကို ထုတ်ပေးသော Component",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w12-dm-3",
+          termEn: "NAND gate",
+          termMy: "NAND Gate",
+          matchEn:
+              "An AND gate followed by a NOT gate -- inverts the AND gate's normal output",
+          matchMy:
+              "AND Gate ပြီးနောက် NOT Gate -- AND Gate ၏ ပုံမှန် Output ကို ပြောင်းချသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w12-dm-4",
+          termEn: "SSD",
+          termMy: "SSD",
+          matchEn:
+              "Secondary storage with no moving parts, accessing data electronically for faster performance",
+          matchMy:
+              "ပို၍မြန်ဆန်သော Performance အတွက် Data ကို လျှပ်စစ်ဆိုင်ရာ ဝင်ရောက်ကြည့်ရှုပြီး ရွေ့လျားနေသော အစိတ်အပိုင်း မရှိသော Secondary Storage",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Gate Behaviour Analysis",
+      titleMy: "စီစစ်ကြမည် - Gate အပြုအမူ ခွဲခြမ်းစိတ်ဖြာမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Outputs 1 for Inputs (1,1)", "Outputs 0 for Inputs (1,1)"],
+        bucketsMy: [
+          "Input (1,1) အတွက် 1 ထုတ်ပေးသည်",
+          "Input (1,1) အတွက် 0 ထုတ်ပေးသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w12-sort-1",
+            labelEn: "AND gate",
+            labelMy: "AND Gate",
+            correctBucketEn: "Outputs 1 for Inputs (1,1)",
+            correctBucketMy: "Input (1,1) အတွက် 1 ထုတ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w12-sort-2",
+            labelEn: "OR gate",
+            labelMy: "OR Gate",
+            correctBucketEn: "Outputs 1 for Inputs (1,1)",
+            correctBucketMy: "Input (1,1) အတွက် 1 ထုတ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w12-sort-3",
+            labelEn: "XOR gate",
+            labelMy: "XOR Gate",
+            correctBucketEn: "Outputs 0 for Inputs (1,1)",
+            correctBucketMy: "Input (1,1) အတွက် 0 ထုတ်ပေးသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w12-sort-4",
+            labelEn: "NAND gate",
+            labelMy: "NAND Gate",
+            correctBucketEn: "Outputs 0 for Inputs (1,1)",
+            correctBucketMy: "Input (1,1) အတွက် 0 ထုတ်ပေးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Elevator Safety Circuit",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Elevator Safety Circuit",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Elevator Safety Circuit",
+        titleMy: "Zayar Lin ၏ Elevator Safety Circuit",
+        passageEn:
+            "For the Term 3 capstone project, Sayar Ye Min gave every student a more demanding scenario combining everything from the term: an elevator door should only close automatically if the door-clear sensor confirms nothing is blocking the doorway AND the weight sensor confirms the elevator is not overloaded, but a manual door-hold button, when pressed, must always keep the doors open regardless of what the other two sensors report. Zayar Lin began exactly as he had with the alarm circuit: naming his inputs clearly. He chose C for door-clear, W for not-overloaded, and H for hold-button-pressed, with output X representing doors-close.\n\nHe first combined the door-clear and not-overloaded conditions using an AND gate, since the scenario required both safety checks to pass simultaneously before the doors should even be permitted to move: this gave him C AND W. He then needed to handle the hold button's override power, remembering from the alarm circuit exercise that a button which must block an action regardless of other conditions calls for a NOT gate on that input, producing NOT H, which would only be 1 when the button was not being held.\n\nFinally, Zayar Lin combined C AND W with NOT H using a second AND gate, giving the complete expression X = (C AND W) AND (NOT H). He tested it against a tricky edge case before submitting: door clear, elevator not overloaded, but a passenger holding the button. C AND W evaluated to 1, since both safety conditions passed, but NOT H evaluated to 0 since the button was actively held, and 1 AND 0 gives 0 -- correctly keeping the doors open exactly as real elevator safety systems are designed to behave. Sayar Ye Min awarded full marks specifically because Zayar Lin had shown every intermediate step, not just the final expression, exactly the exam habit the term had been building toward.",
+        passageMy:
+            "Term 3 Capstone ပရောဂျက်အတွက် ဆရာရဲမင်းသည် ကျောင်းသားတိုင်းကို Term တစ်ခုလုံးမှ အရာအားလုံးကို ပေါင်းစပ်ထားသော ပို၍ ခက်ခဲသော Scenario တစ်ခု ပေးအပ်ခဲ့သည် - Elevator တံခါးသည် Door-Clear Sensor က တံခါးဝ ပိတ်ဆို့နေခြင်း မရှိကြောင်း အတည်ပြုပြီး Weight Sensor က Elevator Overload မဖြစ်ကြောင်း အတည်ပြုမှသာ အလိုအလျောက် ပိတ်သင့်သော်လည်း Manual Door-Hold Button ကို နှိပ်ထားပါက အခြား Sensor နှစ်ခု မည်သို့ Report ပြုလုပ်နေသည် မဆိုအခန်း တံခါးများကို အမြဲ ဖွင့်ထားရမည် ဖြစ်သည်။ Zayar Lin သည် Alarm Circuit ဖြင့် ပြုလုပ်ခဲ့သည့်အတိုင်း စတင်ခဲ့သည် - ၎င်း၏ Input များကို ရှင်းလင်းစွာ အမည်ပေးခြင်း။ Door-Clear အတွက် C၊ Not-Overloaded အတွက် W နှင့် Hold-Button-Pressed အတွက် H ကို သူ ရွေးချယ်ခဲ့ပြီး Doors-Close ကို ကိုယ်စားပြုသော Output X ဖြင့် ဖြစ်သည်။\n\nScenario က တံခါးများ ရွေ့လျားခွင့် ပြုမည်မပြုမီ လုံခြုံရေး စစ်ဆေးမှု နှစ်ခုစလုံး တစ်ချိန်တည်း ဖြတ်ရန် တောင်းဆိုထားသောကြောင့် သူသည် Door-Clear နှင့် Not-Overloaded အခြေအနေများကို AND Gate ဖြင့် ဦးစွာ ပေါင်းစပ်ခဲ့သည် - ၎င်းသည် C AND W ကို ပေးခဲ့သည်။ ထို့နောက် Alarm Circuit Exercise မှ အခြားအခြေအနေများ မည်သို့ပင်ရှိစေ Action တစ်ခုကို ပိတ်ဆို့ရမည့် Button တစ်ခုသည် ထို Input ပေါ်ရှိ NOT Gate ကို တောင်းဆိုကြောင်း သတိရလျက် Hold Button ၏ Override စွမ်းအားကို ကိုင်တွယ်ရန် လိုအပ်ခဲ့ပြီး Button ကို မကိုင်ထားချိန်တွင်သာ 1 ဖြစ်လိမ့်မည့် NOT H ကို ထုတ်ပေးခဲ့သည်။\n\nနောက်ဆုံးတွင် Zayar Lin သည် C AND W ကို NOT H နှင့် ဒုတိယ AND Gate ကို အသုံးပြု၍ ပေါင်းစပ်ခဲ့ပြီး ပြည့်စုံသော Expression X = (C AND W) AND (NOT H) ကို ပေးခဲ့သည်။ တင်သွင်းမီ ခက်ခဲသော Edge Case တစ်ခုနှင့် စမ်းသပ်ခဲ့သည် - တံခါး ရှင်းလင်း၊ Elevator Overload မဖြစ်သော်လည်း ခရီးသည်တစ်ဦးက Button ကို ကိုင်ထားသည်။ လုံခြုံရေး အခြေအနေ နှစ်ခုလုံး ဖြတ်သောကြောင့် C AND W သည် 1 သို့ Evaluate ဖြစ်ခဲ့သော်လည်း Button ကို တက်ကြွစွာ ကိုင်ထားသောကြောင့် NOT H သည် 0 သို့ Evaluate ဖြစ်ခဲ့ပြီး 1 AND 0 သည် 0 ကို ပေးသည် -- လက်တွေ့ Elevator လုံခြုံရေး စနစ်များ ပြုမူရန် ဒီဇိုင်းထုတ်ထားသည့်အတိုင်း တံခါးများကို ဖွင့်ထားစေခြင်း မှန်ကန်စွာ ဖြစ်ခဲ့သည်။ Zayar Lin သည် နောက်ဆုံး Expression သာမက အလယ်ပိုင်းအဆင့် တိုင်းကို ပြသခဲ့ခြင်း၊ Term တစ်ခုလုံး တည်ဆောက်လာခဲ့သော စာမေးပွဲ အလေ့အထ အတိအကျအတွက် ဆရာရဲမင်းက အမှတ်အပြည့် ချီးမြှင့်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what four labels did Zayar Lin choose for the elevator scenario?",
+            questionMy:
+                "Elevator Scenario အတွက် Zayar Lin ရွေးချယ်ခဲ့သော Label လေးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "C (door-clear), W (not-overloaded), H (hold-button), X (doors-close)",
+              "A, B, C, D with no specific meaning",
+              "Only two labels: input and output",
+              "Numbers 1, 2, 3, and 4",
+            ],
+            optionsMy: [
+              "C (Door-Clear), W (Not-Overloaded), H (Hold-Button), X (Doors-Close)",
+              "အထူးသတိပေးချက် မပါသော A, B, C, D",
+              "Label နှစ်ခုသာ - Input နှင့် Output",
+              "ဂဏန်း 1, 2, 3, 4",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence naming the four labels."],
+            hintsMy: [
+              "Label လေးခုကို အမည်ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the final Boolean expression?",
+            questionMy:
+                "နောက်ဆုံး Boolean Expression ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "X = (C AND W) AND (NOT H)",
+              "X = C OR W OR H",
+              "X = NOT C AND NOT W",
+              "X = H alone, with no other conditions",
+            ],
+            optionsMy: [
+              "X = (C AND W) AND (NOT H)",
+              "X = C OR W OR H",
+              "X = NOT C AND NOT W",
+              "X = H တစ်ခုတည်း၊ အခြားအခြေအနေ မပါဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence giving the complete expression."],
+            hintsMy: [
+              "ပြည့်စုံသော Expression ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why did Zayar Lin receive full marks?",
+            questionMy:
+                "Zayar Lin အမှတ်အပြည့် ရရှိခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He showed every intermediate step, not just the final expression",
+              "He finished the exercise faster than everyone else",
+              "He used the fewest possible logic gates",
+              "He avoided using any AND gates entirely",
+            ],
+            optionsMy: [
+              "နောက်ဆုံး Expression သာမက အလယ်ပိုင်းအဆင့်တိုင်းကို ပြသခဲ့ခြင်း",
+              "အခြားသူများထက် Exercise ကို ပို၍ မြန်ဆန်စွာ ပြီးမြောက်ခဲ့ခြင်း",
+              "ဖြစ်နိုင်သမျှ Logic Gate အနည်းဆုံးကို အသုံးပြုခဲ့ခြင်း",
+              "AND Gate မည်သည့်အမျိုးအစားမျှ လုံးဝ မသုံးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Hardware and Logic Exam",
+      titleMy: "Term 3 Capstone - Hardware နှင့် Logic စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The fetch-decode-execute cycle is carried out by the...",
+          questionMy: "Fetch-Decode-Execute Cycle ကို ...က ဆောင်ရွက်ပေးသည်",
+          optionsEn: ["CPU", "Hard disk drive", "Printer", "Router"],
+          optionsMy: ["CPU", "Hard Disk Drive", "Printer", "Router"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A sensor's role is to...",
+          questionMy: "Sensor တစ်ခု၏ အခန်းကဏ္ဍမှာ...",
+          optionsEn: [
+            "Detect a change in the physical environment",
+            "Produce a physical response",
+            "Permanently store data",
+            "Encrypt network traffic",
+          ],
+          optionsMy: [
+            "ရုပ်ပိုင်းဆိုင်ရာ ပတ်ဝန်းကျင်တွင် ပြောင်းလဲမှုကို ရှာဖွေခြင်း",
+            "ရုပ်ပိုင်းဆိုင်ရာ တုံ့ပြန်ချက် ထုတ်ပေးခြင်း",
+            "Data ကို အမြဲတမ်း သိမ်းဆည်းခြင်း",
+            "ကွန်ရက် Traffic ကို Encrypt လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For X = A AND B, if A = 1 and B = 0, what is X?",
+          questionMy:
+              "X = A AND B အတွက် A = 1 နှင့် B = 0 ဖြစ်ပါက X မှာ အဘယ်နည်း။",
+          optionsEn: ["0", "1", "Cannot be determined", "Both 0 and 1"],
+          optionsMy: ["0", "1", "ဆုံးဖြတ်၍ မရနိုင်ပါ", "0 နှင့် 1 နှစ်ခုစလုံး"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 3: "Hardware and Logic Gates" (Weeks 9-12)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm3 = CourseTermDef(
+  id: "course-igcse-computing-t3",
+  termNumber: 3,
+  titleEn: "Hardware and Logic Gates",
+  titleMy: "Hardware နှင့် Logic Gates",
+  certificateTitleEn: "Hardware and Logic Gates",
+  certificateTitleMy: "Hardware နှင့် Logic Gates",
+  weeks: [
+    _igcseComputingWeek9,
+    _igcseComputingWeek10,
+    _igcseComputingWeek11,
+    _igcseComputingWeek12,
+  ],
 );
 // __IGCSE_COMPUTING_MARKER__
