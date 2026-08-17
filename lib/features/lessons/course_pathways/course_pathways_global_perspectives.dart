@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 3-9 not yet authored; wired incrementally, one completed
+// Terms 4-9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,11 +58246,11 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseGpTerm1, _igcseGpTerm2],
+  terms: [_igcseGpTerm1, _igcseGpTerm2, _igcseGpTerm3],
 );
 // =====================================================================
 // IGCSE Global Perspectives -- Term 2, Week 5: "Moral Dilemmas and
@@ -59675,5 +59675,1442 @@ const CourseTermDef _igcseGpTerm2 = CourseTermDef(
   certificateTitleEn: "Ethics, Values and Belief Systems",
   certificateTitleMy: "ကျင့်ဝတ်၊ တန်ဖိုးများနှင့် ယုံကြည်မှုစနစ်များ",
   weeks: [_igcseGpWeek5, _igcseGpWeek6, _igcseGpWeek7, _igcseGpWeek8],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 3, Week 9: "Universal Human Rights
+// and Violations"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek9 = CourseWeekDef(
+  id: "course-igcse-gp-w9",
+  weekNumber: 9,
+  titleEn: "Universal Human Rights and Violations",
+  titleMy: "ကမ္ဘာ့လူ့အခွင့်အရေးနှင့် ချိုးဖောက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w9-d1",
+      dayNumber: 1,
+      titleEn: "UDHR, Modern Slavery and Vulnerable Groups",
+      titleMy: "UDHR, Modern Slavery နှင့် Vulnerable Group များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What distinguishes 'modern slavery' from historical, legally sanctioned slavery?",
+          questionMy:
+              "'Modern Slavery' ကို သမိုင်းဝင်၊ ဥပဒေအရ ခွင့်ပြုထားသော Slavery နှင့် ကွဲပြားစေသည့်အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Modern slavery is illegal everywhere yet persists hidden through coercion, debt bondage, or trafficking, rather than being openly legal",
+            "Modern slavery no longer involves any form of forced labour at all",
+            "Modern slavery only affects one specific country in the world",
+            "Modern slavery is exactly identical to historical slavery in every legal respect",
+          ],
+          optionsMy: [
+            "Modern Slavery သည် နေရာတိုင်းတွင် တရားမဝင်သော်လည်း Coercion, Debt Bondage (သို့) Trafficking မှတစ်ဆင့် ပွင့်လင်းစွာ တရားဝင်မည့်အစား ဖျောက်ဖျက်၍ ဆက်လက် တည်ရှိနေခြင်း",
+            "Modern Slavery သည် Forced Labour ပုံစံ မည်သည်ကိုမျှ ဘယ်တော့မှ ထပ်မံ မပါဝင်တော့ခြင်း",
+            "Modern Slavery သည် ကမ္ဘာပေါ်ရှိ တိကျသော နိုင်ငံတစ်ခုနှင့်သာ သက်ဆိုင်ခြင်း",
+            "Modern Slavery သည် ဥပဒေရေးရာ ရှုထောင့်တိုင်းတွင် သမိုင်းဝင် Slavery နှင့် အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "While every country now legally bans slavery, coercive practices like debt bondage or human trafficking still trap millions in forced labour hidden from view.",
+          ],
+          hintsMy: [
+            "နိုင်ငံတိုင်းသည် ယခုအခါ Slavery ကို ဥပဒေအရ တားမြစ်ထားသော်လည်း Debt Bondage (သို့) Human Trafficking ကဲ့သို့ Coercive Practice များသည် ဆက်လက် လူသန်းပေါင်းများစွာကို မမြင်နိုင်သော Forced Labour တွင် ကျော့ကွင်းပိတ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does the UDHR specifically name protections for 'vulnerable groups' such as children and refugees, in addition to general human rights?",
+          questionMy:
+              "UDHR သည် ယေဘုယျ လူ့အခွင့်အရေးများအပြင် ကလေးများနှင့် ဒုက္ခသည်များကဲ့သို့ 'Vulnerable Group' များအတွက် ကာကွယ်မှုများကို အထူးသဖြင့် အမည်ပေးထားသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Certain groups face heightened risks of exploitation or harm and require specific protections tailored to their situation",
+            "Vulnerable groups have fewer rights than other people",
+            "General human rights already cover every situation perfectly with no gaps at all",
+            "It is simply a formality with no real practical effect",
+          ],
+          optionsMy: [
+            "အုပ်စု အချို့သည် အခွင့်ကောင်းယူခံရခြင်း (သို့) ထိခိုက်မှု ပို၍များသော အန္တရာယ် ကြုံတွေ့ရပြီး ၎င်းတို့၏ အခြေအနေအတွက် ချိန်ညှိထားသော တိကျသော ကာကွယ်မှုများ လိုအပ်ခြင်း",
+            "Vulnerable Group များသည် အခြားလူများထက် အခွင့်အရေး ပို၍နည်းသည်",
+            "General Human Rights များက ကွက်လပ် လုံးဝ မရှိဘဲ အခြေအနေတိုင်းကို ပြီးပြည့်စုံစွာ ဖုံးလွှမ်းပြီးသား ဖြစ်ခြင်း",
+            "အမှန်တကယ် လက်တွေ့ သက်ရောက်မှု မပါဘဲ Formality တစ်ခုသက်သက်သာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Children cannot always advocate for themselves, and refugees often lose the legal protections tied to citizenship -- specific instruments address these particular gaps.",
+          ],
+          hintsMy: [
+            "ကလေးများသည် ၎င်းတို့ကိုယ်တိုင် အမြဲ Advocate လုပ်နိုင်ခြင်း မရှိဘဲ ဒုက္ခသည်များသည် နိုင်ငံသားမှုနှင့် ချိတ်ဆက်ထားသော ဥပဒေရေးရာ ကာကွယ်မှုများကို မကြာခဏ ဆုံးရှုံးသည် -- တိကျသော Instrument များသည် ဤ တိကျသော ကွက်လပ်များကို ဖြေရှင်းပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a genuine challenge international human rights bodies face when enforcing rights violations in a specific country?",
+          questionMy:
+              "တိကျသော နိုင်ငံတစ်ခုအတွင်း အခွင့်အရေး ချိုးဖောက်မှုများကို Enforce လုပ်ရာတွင် နိုင်ငံတကာ လူ့အခွင့်အရေး Body များ ကြုံတွေ့ရသော စစ်မှန်သော စိန်ခေါ်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "National sovereignty often limits an international body's ability to directly enforce compliance without that country's own cooperation",
+            "There has never been a single documented human rights violation in world history",
+            "Every country automatically complies with every international ruling instantly",
+            "International bodies have unlimited military power to force compliance anywhere",
+          ],
+          optionsMy: [
+            "National Sovereignty သည် ထို နိုင်ငံ၏ ကိုယ်ပိုင် ပူးပေါင်းဆောင်ရွက်မှု မပါဘဲ Compliance ကို တိုက်ရိုက် Enforce လုပ်နိုင်စွမ်းကို International Body တစ်ခု၏ ကန့်သတ်ချက် မကြာခဏ ဖြစ်စေသည်",
+            "သမိုင်းတစ်လျှောက် တင်ပြခဲ့သော Human Rights ချိုးဖောက်မှု တစ်ခုမျှ ဘယ်တော့မှ မရှိခဲ့ခြင်း",
+            "နိုင်ငံတိုင်းသည် နိုင်ငံတကာ စီရင်ချက်တိုင်းကို ချက်ချင်း အလိုအလျောက် လိုက်နာခြင်း",
+            "International Body များသည် နေရာတိုင်းတွင် Compliance ကို အတင်းအကျပ် ပြုစေရန် ကန့်သတ်ချက် မရှိသော စစ်ရေး အာဏာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "International human rights bodies can investigate, name, and pressure violators, but they generally lack a police force or army to physically enforce compliance against an uncooperative state.",
+          ],
+          hintsMy: [
+            "နိုင်ငံတကာ လူ့အခွင့်အရေး Body များသည် စုံစမ်းစစ်ဆေး၊ အမည်ဖော်ပြီး ဖိအားပေးနိုင်သော်လည်း ပူးပေါင်းဆောင်ရွက်မှု မရှိသော State တစ်ခုကို ဆန့်ကျင်၍ Compliance ကို ရုပ်ပိုင်းဆိုင်ရာ Enforce လုပ်ရန် ရဲတပ်ဖွဲ့ (သို့) စစ်တပ် ယေဘုယျအားဖြင့် မရှိပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Human Rights Terms",
+      titleMy: "တွဲစပ်ကြမည် - Human Rights ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w9-dm-1",
+          termEn: "Modern slavery",
+          termMy: "Modern Slavery",
+          matchEn:
+              "Illegal forced labour persisting hidden through coercion, debt bondage, or trafficking",
+          matchMy:
+              "Coercion, Debt Bondage (သို့) Trafficking မှတစ်ဆင့် ဖျောက်ဖျက်၍ ဆက်လက် တည်ရှိနေသော တရားမဝင် Forced Labour",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w9-dm-2",
+          termEn: "Vulnerable group",
+          termMy: "Vulnerable Group",
+          matchEn:
+              "A group facing heightened risk of exploitation or harm, requiring specific protections",
+          matchMy:
+              "တိကျသော ကာကွယ်မှုများ လိုအပ်သော အခွင့်ကောင်းယူခံရခြင်း (သို့) ထိခိုက်မှု အန္တရာယ် ပို၍များသော အုပ်စု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w9-dm-3",
+          termEn: "National sovereignty",
+          termMy: "National Sovereignty",
+          matchEn:
+              "A country's authority to govern itself, which can limit international bodies' enforcement power",
+          matchMy:
+              "International Body များ၏ Enforcement Power ကို ကန့်သတ်နိုင်သော နိုင်ငံတစ်ခု၏ ကိုယ်ပိုင် အုပ်ချုပ်ခွင့် အာဏာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w9-dm-4",
+          termEn: "Trafficking",
+          termMy: "Trafficking",
+          matchEn:
+              "The illegal trade of people, typically through coercion, for forced labour or exploitation",
+          matchMy:
+              "Forced Labour (သို့) Exploitation အတွက် Coercion မှတစ်ဆင့် ပုံမှန်အားဖြင့် လူများ၏ တရားမဝင် ကုန်သွယ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w9-dm-5",
+          termEn: "Debt bondage",
+          termMy: "Debt Bondage",
+          matchEn:
+              "Being forced to work to pay off a debt, often under conditions that make repayment nearly impossible",
+          matchMy:
+              "ကြွေးဆပ်ရန် အလုပ်လုပ်ရန် အတင်းအကျပ် ခံရခြင်း၊ မကြာခဏ ပြန်ဆပ်ရန် နီးပါး မဖြစ်နိုင်စေသော အခြေအနေများအောက်တွင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Rights Violation or Protective Measure?",
+      titleMy: "စီစစ်ကြမည် - Rights Violation လား Protective Measure လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rights Violation", "Protective Measure"],
+        bucketsMy: ["Rights Violation", "Protective Measure"],
+        items: [
+          SortingItem(
+            id: "igcgp-w9-sort-1",
+            labelEn:
+                "Workers trapped in a factory unable to leave due to unpayable debt",
+            labelMy:
+                "ပြန်ဆပ်၍ မရနိုင်သော ကြွေးကြောင့် ထွက်ခွာ၍ မရနိုင်ဘဲ Factory တစ်ခုတွင် ကျော့ကွင်းပိတ်ထားသော အလုပ်သမားများ",
+            correctBucketEn: "Rights Violation",
+            correctBucketMy: "Rights Violation",
+          ),
+          SortingItem(
+            id: "igcgp-w9-sort-2",
+            labelEn:
+                "A hotline and legal support programme specifically for trafficking survivors",
+            labelMy:
+                "Trafficking Survivor များအတွက် သီးသန့် Hotline နှင့် ဥပဒေရေးရာ Support Programme",
+            correctBucketEn: "Protective Measure",
+            correctBucketMy: "Protective Measure",
+          ),
+          SortingItem(
+            id: "igcgp-w9-sort-3",
+            labelEn: "Children forced into labour instead of attending school",
+            labelMy:
+                "ကျောင်းတက်မည့်အစား အလုပ်လုပ်ရန် အတင်းအကျပ် ခံရသော ကလေးများ",
+            correctBucketEn: "Rights Violation",
+            correctBucketMy: "Rights Violation",
+          ),
+          SortingItem(
+            id: "igcgp-w9-sort-4",
+            labelEn:
+                "A national law setting a minimum working age and enforcing school attendance",
+            labelMy:
+                "အနည်းဆုံး အလုပ်လုပ်ခွင့်ရသော အသက်ကို သတ်မှတ်ပြီး ကျောင်းတက်ရေးကို Enforce လုပ်သော National Law",
+            correctBucketEn: "Protective Measure",
+            correctBucketMy: "Protective Measure",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Enforcement Question",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Enforcement မေးခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Enforcement Question",
+        titleMy: "Su Myat Noe ၏ Enforcement မေးခွန်း",
+        passageEn:
+            "Ko Zin Ko Ko presented a case: an international human rights body had documented clear evidence of forced labour in a country's supply chain, publicly named the responsible companies, and issued a formal condemnation -- yet the practice continued largely unchanged a year later. Su Myat Noe's first reaction was frustration: if the violation was so clearly documented, why hadn't anything actually changed on the ground?\n\nKo Zin Ko Ko pushed her to research what tools the international body actually had available, rather than assuming it had simply failed to try. She discovered that international human rights bodies typically lack any independent enforcement mechanism comparable to a domestic police force -- their real power lies in investigation, public documentation, and reputational pressure, which only translates into real change if other actors, such as consumer boycotts, trading partner governments, or the violating country's own domestic institutions, choose to act on that documented evidence. In this specific case, she found that the country's government had significant economic reasons to continue tolerating the practice, and international buyers had not yet organised enough consumer pressure to make continuing the abuse commercially costly.\n\nThis reframed the question for her entirely: rather than asking simply 'why doesn't the human rights body force change,' the more useful research question became 'what combination of pressures -- economic, diplomatic, and consumer-driven -- would actually need to align for documented violations like this one to translate into real enforcement?' Ko Zin Ko Ko noted this was the shift from naive frustration to genuine policy analysis that IGCSE Global Perspectives aimed to build: understanding not just that a system has limits, but precisely why those limits exist and what would realistically need to change for outcomes to improve.",
+        passageMy:
+            "ကိုဇင်ကိုကို Case တစ်ခု တင်ပြခဲ့သည် - International Human Rights Body တစ်ခုသည် နိုင်ငံတစ်ခု၏ Supply Chain ရှိ Forced Labour ၏ ရှင်းလင်းသော Evidence ကို မှတ်တမ်းတင်ပြီး တာဝန်ရှိသော ကုမ္ပဏီများကို လူသိရှင်ကြား အမည်ဖော်ကာ တရားဝင် Condemnation ထုတ်ပြန်ခဲ့သော်လည်း Practice သည် တစ်နှစ်အကြာတွင် အများအားဖြင့် မပြောင်းလဲဘဲ ဆက်လက် တည်ရှိနေခဲ့သည်။ Su Myat Noe ၏ ပထမ တုံ့ပြန်ချက်မှာ စိတ်ပျက်မှု ဖြစ်ခဲ့သည် - ချိုးဖောက်မှုသည် ဤမျှ ရှင်းလင်းစွာ မှတ်တမ်းတင်ခံခဲ့ရပါလျှင် ကွင်းပေါ်တွင် အဘယ်ကြောင့် မည်သည့်အရာမျှ အမှန်တကယ် မပြောင်းလဲခဲ့ရသနည်း။\n\nInternational Body ကြိုးစားရုံသက်သက် မအောင်မြင်ခဲ့သည်ဟု ယူဆမည့်အစား ၎င်းတွင် အမှန်တကယ် ရရှိနိုင်သော Tool များ အဘယ်နည်းကို သုတေသန ပြုလုပ်ရန် ကိုဇင်ကိုကို တွန်းအားပေးခဲ့သည်။ International Human Rights Body များသည် Domestic Police Force နှင့် နှိုင်းယှဉ်နိုင်သော Independent Enforcement Mechanism မည်သည်ကိုမျှ ပုံမှန်အားဖြင့် မပိုင်ဆိုင်ကြောင်း ၎င်း တွေ့ရှိခဲ့သည် -- ၎င်း၏ စစ်မှန်သော အာဏာသည် Investigation, Public Documentation နှင့် Reputational Pressure တွင် တည်ရှိပြီး Consumer Boycott, Trading Partner Government (သို့) ချိုးဖောက်နေသော နိုင်ငံ၏ ကိုယ်ပိုင် Domestic Institution ကဲ့သို့ Actor အခြားများက ထို မှတ်တမ်းတင်ထားသော Evidence အပေါ် လုပ်ဆောင်ရန် ရွေးချယ်မှသာ စစ်မှန်သော ပြောင်းလဲမှုအဖြစ် ဘာသာပြန်ဆိုနိုင်သည်။ ဤ တိကျသော Case တွင် နိုင်ငံ၏ အစိုးရသည် Practice ကို ဆက်လက် သည်းခံရန် သိသာသော စီးပွားရေး အကြောင်းရင်းများ ရှိကြောင်းနှင့် International Buyer များသည် Abuse ကို ဆက်လက် ကုန်ကျစရိတ်ကြီးစေရန် Consumer Pressure လုံလောက်စွာ မစီစဉ်ရသေးကြောင်း သူ တွေ့ရှိခဲ့သည်။\n\nဤသည်က ၎င်းအတွက် မေးခွန်းကို လုံးဝ ပြန်လည် ပုံဖော်ပေးခဲ့သည် - 'Human Rights Body က ပြောင်းလဲမှု အတင်းအကျပ် အဘယ်ကြောင့် မလုပ်ရသနည်း' ဟု ရိုးရိုးသာ မေးမည့်အစား ပို၍ အသုံးဝင်သော သုတေသန မေးခွန်းသည် 'ဤကဲ့သို့ မှတ်တမ်းတင်ထားသော ချိုးဖောက်မှုများသည် စစ်မှန်သော Enforcement အဖြစ် ဘာသာပြန်ဆိုရန် Economic, Diplomatic နှင့် Consumer-Driven ဖိအားများ ပေါင်းစပ်မှု မည်သည် အမှန်တကယ် ကိုက်ညီရန် လိုအပ်မည်နည်း' ဖြစ်လာခဲ့သည်။ System တစ်ခု ကန့်သတ်ချက် ရှိကြောင်းသာမက ထို ကန့်သတ်ချက်များ အတိအကျ အဘယ်ကြောင့် တည်ရှိနေကြောင်းနှင့် ရလဒ်များ တိုးတက်ရန် လက်တွေ့ကျစွာ အဘယ်အရာ ပြောင်းလဲရန် လိုအပ်မည်ကြောင်း နားလည်ခြင်း -- IGCSE Global Perspectives တည်ဆောက်ရန် ရည်ရွယ်ခဲ့သော ရိုးသားသော စိတ်ပျက်မှုမှ စစ်မှန်သော Policy Analysis သို့ ကူးပြောင်းမှု ဤသည် ဖြစ်ကြောင်း ကိုဇင်ကိုကို မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, where does an international human rights body's real power actually lie?",
+            questionMy:
+                "International Human Rights Body တစ်ခု၏ စစ်မှန်သော အာဏာ အမှန်တကယ် မည်သည်တွင် တည်ရှိသည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Investigation, public documentation, and reputational pressure",
+              "A direct police force with arrest powers in every country",
+              "Unlimited military force",
+              "Automatic economic sanctions with no other actors involved",
+            ],
+            optionsMy: [
+              "Investigation, Public Documentation နှင့် Reputational Pressure",
+              "နိုင်ငံတိုင်းတွင် ဖမ်းဆီးခွင့် အာဏာပါသော တိုက်ရိုက် ရဲတပ်ဖွဲ့",
+              "ကန့်သတ်ချက် မရှိသော စစ်ရေး အင်အား",
+              "Actor အခြား မပါဝင်ဘဲ အလိုအလျောက် စီးပွားရေး ပိတ်ဆို့မှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the body's real power."],
+            hintsMy: [
+              "Body ၏ စစ်မှန်သော အာဏာအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the country's government tolerate the practice?",
+            questionMy:
+                "နိုင်ငံ၏ အစိုးရသည် Practice ကို သည်းခံခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had significant economic reasons to continue tolerating it",
+              "It had never heard of the human rights body at all",
+              "It was legally required to allow the practice",
+              "No evidence of the practice existed",
+            ],
+            optionsMy: [
+              "၎င်းကို ဆက်လက် သည်းခံရန် သိသာသော စီးပွားရေး အကြောင်းရင်းများ ရှိခြင်း",
+              "Human Rights Body အကြောင်း လုံးဝ မကြားဖူးခြင်း",
+              "Practice ကို ခွင့်ပြုရန် ဥပဒေအရ တောင်းဆိုခံရခြင်း",
+              "Practice ၏ Evidence မည်သည်မှ လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the government's economic reasons.",
+            ],
+            hintsMy: [
+              "အစိုးရ၏ စီးပွားရေး အကြောင်းရင်းများအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Ko Zin Ko Ko call the shift from frustration to genuine policy analysis?",
+            questionMy:
+                "စိတ်ပျက်မှုမှ စစ်မှန်သော Policy Analysis သို့ ကူးပြောင်းမှုကို ကိုဇင်ကိုကို မည်သို့ ခေါ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The shift IGCSE Global Perspectives aimed to build",
+              "An impossible skill no student could ever learn",
+              "Something completely unrelated to Global Perspectives",
+              "A mistake Su Myat Noe should never repeat",
+            ],
+            optionsMy: [
+              "IGCSE Global Perspectives တည်ဆောက်ရန် ရည်ရွယ်ခဲ့သော ကူးပြောင်းမှု",
+              "ကျောင်းသားမည်သူမျှ ဘယ်တော့မှ သင်ယူ၍ မရနိုင်သော ကျွမ်းကျင်မှု",
+              "Global Perspectives နှင့် လုံးဝ မသက်ဆိုင်သော အရာတစ်ခု",
+              "Su Myat Noe ဘယ်တော့မှ မထပ်ခါထပ်ခါ လုပ်သင့်သော အမှားတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Human Rights",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Human Rights",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Modern slavery persists mainly through...",
+          questionMy:
+              "Modern Slavery သည် အဓိကအားဖြင့် ...မှတစ်ဆင့် ဆက်လက် တည်ရှိနေသည်",
+          optionsEn: [
+            "Coercion, debt bondage, or trafficking hidden from view",
+            "Open, legally sanctioned ownership of people",
+            "Voluntary employment contracts only",
+            "A practice that no longer exists anywhere",
+          ],
+          optionsMy: [
+            "မမြင်နိုင်သော Coercion, Debt Bondage (သို့) Trafficking",
+            "လူများကို ပွင့်လင်းစွာ ဥပဒေအရ ခွင့်ပြုထားသော ပိုင်ဆိုင်မှု",
+            "စေတနာအလျောက် အလုပ်ခန့်ထားသော စာချုပ်များသာ",
+            "နေရာမည်သည်တွင်မျှ ထပ်မံ မရှိတော့သော Practice",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "International human rights bodies are generally limited by lacking...",
+          questionMy:
+              "International Human Rights Body များသည် ...မရှိသောကြောင့် ယေဘုယျအားဖြင့် ကန့်သတ်ခံရသည်",
+          optionsEn: [
+            "An independent enforcement mechanism comparable to a domestic police force",
+            "Any ability to document violations at all",
+            "Any staff or researchers whatsoever",
+            "Any legal authority whatsoever",
+          ],
+          optionsMy: [
+            "Domestic Police Force နှင့် နှိုင်းယှဉ်နိုင်သော Independent Enforcement Mechanism",
+            "ချိုးဖောက်မှုများကို မှတ်တမ်းတင်နိုင်စွမ်း မည်သည်မှ",
+            "Staff (သို့) Researcher မည်သည်မှ",
+            "ဥပဒေရေးရာ အာဏာ မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Vulnerable groups receive specific protections because...",
+          questionMy:
+              "Vulnerable Group များသည် တိကျသော ကာကွယ်မှုများ ရရှိသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "They face heightened risks of exploitation or harm",
+            "They have fewer rights than others",
+            "General rights already cover every situation with no gaps",
+            "It is a meaningless formality",
+          ],
+          optionsMy: [
+            "အခွင့်ကောင်းယူခံရခြင်း (သို့) ထိခိုက်မှု အန္တရာယ် ပို၍များသောကြောင့်",
+            "အခြားသူများထက် အခွင့်အရေး ပို၍နည်းသောကြောင့်",
+            "General Rights များက ကွက်လပ် မရှိဘဲ အခြေအနေတိုင်းကို ဖုံးလွှမ်းထားပြီးသားဖြစ်သောကြောင့်",
+            "အဓိပ္ပာယ်မဲ့သော Formality တစ်ခု ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 3, Week 10: "Global Migration and
+// Refugee Crises"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek10 = CourseWeekDef(
+  id: "course-igcse-gp-w10",
+  weekNumber: 10,
+  titleEn: "Global Migration and Refugee Crises",
+  titleMy:
+      "ကမ္ဘာလုံးဆိုင်ရာ ရွှေ့ပြောင်းနေထိုင်မှုနှင့် ဒုက္ခသည် အကျပ်အတည်းများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w10-d1",
+      dayNumber: 1,
+      titleEn: "Push-Pull Factors and Refugee Status",
+      titleMy: "Push-Pull Factor များနှင့် Refugee Status",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In migration studies, what is the difference between a 'push factor' and a 'pull factor'?",
+          questionMy:
+              "Migration Studies တွင် 'Push Factor' နှင့် 'Pull Factor' ကြား ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A push factor drives people to leave their origin country (e.g. conflict, poverty); a pull factor attracts them to a destination (e.g. jobs, safety)",
+            "A push factor and a pull factor are simply two names for exactly the same thing",
+            "A push factor only applies to wealthy countries, never poor ones",
+            "A pull factor always forces people to migrate against their will",
+          ],
+          optionsMy: [
+            "Push Factor သည် လူများကို ၎င်းတို့ မူလ နိုင်ငံမှ ထွက်ခွာစေသည် (ဥပမာ Conflict, ဆင်းရဲမွဲတေမှု); Pull Factor သည် ၎င်းတို့ကို Destination တစ်ခုသို့ ဆွဲဆောင်သည် (ဥပမာ အလုပ်အကိုင်များ, လုံခြုံရေး)",
+            "Push Factor နှင့် Pull Factor သည် အရာတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+            "Push Factor သည် ချမ်းသာသော နိုင်ငံများနှင့်သာ သက်ဆိုင်ပြီး ဆင်းရဲသော နိုင်ငံများနှင့် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+            "Pull Factor သည် လူများကို ၎င်းတို့ ဆန္ဒနှင့် ဆန့်ကျင်၍ Migrate ပြုလုပ်ရန် အမြဲ အတင်းအကျပ် ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "War in a home country is a classic push factor; better job opportunities abroad are a classic pull factor -- migration usually involves both working together.",
+          ],
+          hintsMy: [
+            "မိမိနေထိုင်ရာ နိုင်ငံတွင် စစ်ပွဲသည် ရိုးရာ Push Factor တစ်ခု ဖြစ်သည်; ပြည်ပရှိ ပို၍ကောင်းသော အလုပ်အကိုင် အခွင့်အလမ်းများသည် ရိုးရာ Pull Factor တစ်ခု ဖြစ်သည် -- Migration သည် ပုံမှန်အားဖြင့် နှစ်ခုစလုံး အတူတကွ ပါဝင်ပတ်သက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the legal distinction between an 'asylum seeker' and an 'economic migrant'?",
+          questionMy:
+              "'Asylum Seeker' နှင့် 'Economic Migrant' ကြား ဥပဒေရေးရာ ခွဲခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An asylum seeker claims fear of persecution and seeks international protection; an economic migrant moves primarily to seek better economic opportunities",
+            "There is no legal distinction between the two terms at all",
+            "An economic migrant always has more legal rights than an asylum seeker",
+            "An asylum seeker is always guaranteed permanent citizenship immediately upon arrival",
+          ],
+          optionsMy: [
+            "Asylum Seeker သည် Persecution ကို ကြောက်ရွံ့ကြောင်း Claim ပြုလုပ်ပြီး International Protection ရှာဖွေသည်; Economic Migrant သည် ပို၍ကောင်းသော စီးပွားရေး အခွင့်အလမ်းများ ရှာဖွေရန် အဓိကအားဖြင့် ရွှေ့ပြောင်းသည်",
+            "စကားလုံးနှစ်ခုကြား ဥပဒေရေးရာ ခွဲခြားချက် လုံးဝ မရှိခြင်း",
+            "Economic Migrant သည် Asylum Seeker ထက် အခွင့်အရေး အမြဲ ပို၍များခြင်း",
+            "Asylum Seeker သည် ရောက်ရှိချိန် ချက်ချင်း အမြဲ Permanent Citizenship အာမခံခံရခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This distinction matters enormously in international law -- refugee protections under the 1951 Refugee Convention specifically apply to those fleeing persecution, not those seeking better wages alone.",
+          ],
+          hintsMy: [
+            "ဤ ခွဲခြားချက်သည် နိုင်ငံတကာ ဥပဒေတွင် အလွန် အရေးကြီးသည် -- 1951 Refugee Convention အောက်ရှိ Refugee Protection များသည် ပို၍ကောင်းသော လုပ်ခလစာများကိုသာ ရှာဖွေနေသူများမဟုတ်ဘဲ Persecution မှ ထွက်ပြေးနေသူများနှင့် အထူးသဖြင့် သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a genuine challenge involved in successfully integrating migrants and refugees into a host society?",
+          questionMy:
+              "Migrant များနှင့် ဒုက္ခသည်များကို Host Society တစ်ခုအတွင်း အောင်မြင်စွာ Integrate ပြုလုပ်ရာတွင် ပါဝင်သော စစ်မှန်သော စိန်ခေါ်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Balancing genuine support for newcomers (housing, language access, employment) with managing legitimate concerns of existing residents about resources and services",
+            "Integration always happens instantly with no effort or resources required at all",
+            "Multiculturalism has never actually been attempted anywhere in history",
+            "There is never any genuine tension or challenge involved in migration policy",
+          ],
+          optionsMy: [
+            "Existing Resident များ၏ Resource များနှင့် Service များအကြောင်း တရားဝင် စိုးရိမ်ချက်များကို စီမံခန့်ခွဲခြင်းနှင့် ရောက်ရှိလာသူ အသစ်များအတွက် စစ်မှန်သော Support (နေအိမ်၊ ဘာသာစကား ဝင်ရောက်ခွင့်၊ အလုပ်အကိုင်) ကို ချိန်ညှိခြင်း",
+            "Integration သည် ကြိုးစားအားထုတ်မှု (သို့) Resource မည်သည်မှ မလိုအပ်ဘဲ ချက်ချင်း အမြဲ ဖြစ်ပျက်ခြင်း",
+            "Multiculturalism ကို သမိုင်းတစ်လျှောက် နေရာမည်သည်၌မျှ အမှန်တကယ် ဘယ်တော့မှ မကြိုးစားခဲ့ခြင်း",
+            "Migration Policy တွင် စစ်မှန်သော ဆန့်ကျင်မှု (သို့) စိန်ခေါ်မှု မည်သည်မျှ ဘယ်တော့မှ မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Real policy debates involve weighing real, competing legitimate concerns on multiple sides -- not simply one side being right and the other wrong.",
+          ],
+          hintsMy: [
+            "လက်တွေ့ Policy ဆွေးနွေးပွဲများသည် ဘက်များစွာရှိ စစ်မှန်သော၊ ပြိုင်ဆိုင်နေသော တရားဝင် စိုးရိမ်ချက်များကို ချိန်ခွင်လျှာညှိခြင်း ပါဝင်သည် -- ဘက်တစ်ဖက် မှန်ကန်ပြီး အခြားတစ်ဖက် မှားယွင်းသည် ရိုးရိုးမဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Migration Terms",
+      titleMy: "တွဲစပ်ကြမည် - Migration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w10-dm-1",
+          termEn: "Push factor",
+          termMy: "Push Factor",
+          matchEn:
+              "A condition that drives people to leave their origin country, such as conflict or poverty",
+          matchMy:
+              "Conflict (သို့) ဆင်းရဲမွဲတေမှုကဲ့သို့ လူများကို ၎င်းတို့ မူလ နိုင်ငံမှ ထွက်ခွာစေသော အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w10-dm-2",
+          termEn: "Pull factor",
+          termMy: "Pull Factor",
+          matchEn:
+              "A condition that attracts people toward a destination, such as jobs or safety",
+          matchMy:
+              "အလုပ်အကိုင် (သို့) လုံခြုံရေးကဲ့သို့ လူများကို Destination တစ်ခုသို့ ဆွဲဆောင်သော အခြေအနေ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w10-dm-3",
+          termEn: "Asylum seeker",
+          termMy: "Asylum Seeker",
+          matchEn:
+              "Someone claiming fear of persecution and seeking international protection",
+          matchMy:
+              "Persecution ကို ကြောက်ရွံ့ကြောင်း Claim ပြုလုပ်ပြီး International Protection ရှာဖွေသူ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w10-dm-4",
+          termEn: "Economic migrant",
+          termMy: "Economic Migrant",
+          matchEn:
+              "Someone who moves primarily to seek better economic opportunities",
+          matchMy:
+              "ပို၍ကောင်းသော စီးပွားရေး အခွင့်အလမ်းများ ရှာဖွေရန် အဓိကအားဖြင့် ရွှေ့ပြောင်းသူ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w10-dm-5",
+          termEn: "Integration",
+          termMy: "Integration",
+          matchEn:
+              "The process of newcomers and existing residents adapting to live together in a shared society",
+          matchMy:
+              "ရောက်ရှိလာသူ အသစ်များနှင့် Existing Resident များ မျှဝေထားသော Society တစ်ခုတွင် အတူတကွ နေထိုင်ရန် ချိန်ညှိသော Process",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Push Factor or Pull Factor?",
+      titleMy: "စီစစ်ကြမည် - Push Factor လား Pull Factor လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Push Factor", "Pull Factor"],
+        bucketsMy: ["Push Factor", "Pull Factor"],
+        items: [
+          SortingItem(
+            id: "igcgp-w10-sort-1",
+            labelEn: "Ongoing armed conflict in a home region",
+            labelMy: "မိမိ ဒေသတွင် ဆက်လက်ဖြစ်ပွားနေသော လက်နက်ကိုင် ပဋိပက္ခ",
+            correctBucketEn: "Push Factor",
+            correctBucketMy: "Push Factor",
+          ),
+          SortingItem(
+            id: "igcgp-w10-sort-2",
+            labelEn: "Higher wages and job availability abroad",
+            labelMy:
+                "ပြည်ပတွင် ပို၍မြင့်သော လုပ်ခလစာများနှင့် အလုပ်အကိုင် ရရှိနိုင်မှု",
+            correctBucketEn: "Pull Factor",
+            correctBucketMy: "Pull Factor",
+          ),
+          SortingItem(
+            id: "igcgp-w10-sort-3",
+            labelEn: "Severe food shortages caused by prolonged drought",
+            labelMy:
+                "ရေရှည် မိုးခေါင်ခြင်းကြောင့် ဖြစ်ပေါ်လာသော ပြင်းထန်သော အစားအစာ ရှားပါးမှု",
+            correctBucketEn: "Push Factor",
+            correctBucketMy: "Push Factor",
+          ),
+          SortingItem(
+            id: "igcgp-w10-sort-4",
+            labelEn:
+                "A destination country's strong legal protections for workers",
+            labelMy:
+                "Destination နိုင်ငံ၏ အလုပ်သမားများအတွက် ခိုင်မာသော ဥပဒေရေးရာ ကာကွယ်မှုများ",
+            correctBucketEn: "Pull Factor",
+            correctBucketMy: "Pull Factor",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Border Town Interviews",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ နယ်စပ်မြို့ Interview များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Border Town Interviews",
+        titleMy: "Su Myat Noe ၏ နယ်စပ်မြို့ Interview များ",
+        passageEn:
+            "For a case study assignment, Ko Zin Ko Ko asked Su Myat Noe to research a real border town that had received a significant influx of migrants over several years, and to identify the genuine, competing concerns on multiple sides rather than presenting a one-sided narrative. She began by interviewing recently arrived families, who described fleeing severe economic hardship at home -- a clear push factor -- while being drawn specifically to this town by relatives already settled there and reports of available agricultural work -- clear pull factors working together.\n\nShe then interviewed long-term residents of the town, expecting either simple hostility or simple welcome, and instead found a genuinely mixed picture. Several residents described real strain on local schools and clinics that had not received additional funding despite a growing population, alongside real appreciation for new workers filling long-standing labour shortages in the town's farms. Su Myat Noe noted this was exactly the kind of legitimate, two-sided tension Ko Zin Ko Ko had warned her to expect -- not because either side was wrong, but because genuine resource strain and genuine economic benefit were both simultaneously true.\n\nHer final report avoided both extremes she had been tempted toward earlier in her research: neither dismissing residents' concerns as simple prejudice, nor dismissing migrants' hardships as merely economic opportunism unworthy of sympathy. Instead, she proposed that the town's actual policy challenge was matching public service funding to its genuinely changed population, rather than treating migration itself as the root problem -- a distinction, she wrote, that reframed a politically charged debate into a specific, solvable resource allocation question. Ko Zin Ko Ko praised this reframing as the exact skill the unit aimed to build: finding the specific, actionable question hiding inside an emotionally charged general debate.",
+        passageMy:
+            "Case Study Assignment တစ်ခုအတွက် နှစ်ပေါင်းများစွာ Migrant များ သိသာစွာ ရောက်ရှိလာသော လက်တွေ့ နယ်စပ်မြို့တစ်ခုကို သုတေသန ပြုလုပ်ပြီး Su Myat Noe ကို ဘက်တစ်ဖက်တည်း Narrative မတင်ပြဘဲ ဘက်များစွာရှိ စစ်မှန်သော၊ ပြိုင်ဆိုင်နေသော စိုးရိမ်ချက်များကို ဖော်ထုတ်ရန် ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ မကြာသေးမီက ရောက်ရှိလာသော မိသားစုများကို Interview ပြုလုပ်ခြင်းဖြင့် သူ စတင်ခဲ့သည် - ၎င်းတို့သည် Push Factor ရှင်းလင်းသော မိမိနေထိုင်ရာတွင် ပြင်းထန်သော စီးပွားရေး ကျပ်တည်းမှုမှ ထွက်ပြေးခဲ့ကြောင်း ရှင်းပြခဲ့ကြပြီး ယင်းအတူ ရောက်ရှိပြီးသား ဆွေမျိုးများနှင့် ရရှိနိုင်သော လယ်ယာစိုက်ပျိုးရေး အလုပ် Report များ -- Pull Factor ရှင်းလင်းသော နှစ်ခု အတူတကွ ပါဝင်ပတ်သက် -- က ဤ မြို့သို့ တိကျစွာ ဆွဲဆောင်ခံရကြောင်း ဖော်ပြခဲ့ကြသည်။\n\nတစ်ဖက်တည်းသော ရန်လိုမှု (သို့) တစ်ဖက်တည်းသော ကြိုဆိုမှုကို မျှော်လင့်ကာ မြို့၏ ကြာမြင့်စွာ နေထိုင်သော Resident များကို ဆက်လက် Interview ပြုလုပ်ခဲ့ပြီး ယင်းအစား စစ်မှန်စွာ ရောနှောသော ပုံရိပ်တစ်ခုကို တွေ့ရှိခဲ့သည်။ Resident အချို့သည် တိုးများလာသော လူဦးရေ ရှိသော်ငြားလည်း ထပ်ဆောင်း ရန်ပုံငွေ မရရှိခဲ့သော Local School များနှင့် Clinic များအပေါ် အမှန်တကယ် ဖိအားကို ပြောပြခဲ့ကြပြီး မြို့၏ လယ်ယာစိုက်ခင်းများရှိ ကြာမြင့်စွာ လုပ်သားလိုအပ်ချက်များကို ဖြည့်ဆည်းပေးသော Worker အသစ်များအတွက် အမှန်တကယ် တန်ဖိုးထားမှုပါ ရှိခဲ့သည်။ ၎င်းသည် ကိုဇင်ကိုကို မျှော်လင့်ရန် သတိပေးခဲ့သော တရားဝင်၊ ဘက်နှစ်ဖက်ဆိုင်ရာ ဆန့်ကျင်မှု အတိအကျ ဖြစ်ကြောင်း Su Myat Noe မှတ်ချက်ချခဲ့သည် -- ဘက်တစ်ဖက် မှားယွင်းသောကြောင့် မဟုတ်ဘဲ စစ်မှန်သော Resource ဖိအားနှင့် စစ်မှန်သော စီးပွားရေး အကျိုးအမြတ် နှစ်ခုစလုံးသည် တစ်ချိန်တည်း မှန်ကန်နေခဲ့သောကြောင့် ဖြစ်သည်။\n\n၎င်း၏ သုတေသန ရှေ့ပိုင်းတွင် ဆွဲဆောင်ခံခဲ့ရသော အစွန်းနှစ်ဖက်စလုံးကို ၎င်း၏ Final Report က ရှောင်ရှားခဲ့သည် - Resident များ၏ စိုးရိမ်ချက်များကို ရိုးရှင်းသော Prejudice အဖြစ်လည်းကောင်း Migrant များ၏ ကျပ်တည်းမှုများကို ကရုဏာ မထိုက်သော Economic Opportunism ရိုးရိုးအဖြစ်လည်းကောင်း လျစ်လျူမရှုခဲ့ပါ။ ယင်းအစား Migration ကိုယ်တိုင်ကို အခြေခံ ပြဿနာအဖြစ် ဆက်ဆံမည့်အစား မြို့၏ တကယ့် Policy စိန်ခေါ်မှုသည် Public Service ရန်ပုံငွေကို ၎င်း၏ စစ်မှန်စွာ ပြောင်းလဲသွားသော လူဦးရေနှင့် ကိုက်ညီအောင် ပြုလုပ်ခြင်း ဖြစ်ကြောင်း သူ အဆိုပြုခဲ့သည် -- နိုင်ငံရေးအရ တင်းမာသော ဆွေးနွေးပွဲတစ်ခုကို တိကျ၊ ဖြေရှင်းနိုင်သော Resource Allocation မေးခွန်းတစ်ခုအဖြစ် ပြန်လည် ပုံဖော်ပေးသော ခွဲခြားချက်တစ်ခုဖြစ်ကြောင်း သူ ရေးသားခဲ့သည်။ ခံစားချက်ပြင်းထန်သော ယေဘုယျ ဆွေးနွေးပွဲတစ်ခုအတွင်း ဖျောက်ထားသော တိကျ၊ လုပ်ဆောင်နိုင်သော မေးခွန်းကို ရှာဖွေခြင်း -- Unit တည်ဆောက်ရန် ရည်ရွယ်ခဲ့သော Skill အတိအကျ ဤ ပုံဖော်မှုကို ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what were the two pull factors drawing families specifically to this town?",
+            questionMy:
+                "ဤ မြို့သို့ တိကျစွာ ဆွဲဆောင်ခံရသော မိသားစုများ၏ Pull Factor နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Relatives already settled there and available agricultural work",
+              "Free housing and free transportation",
+              "A famous tourist attraction",
+              "A well-known university",
+            ],
+            optionsMy: [
+              "ရောက်ရှိပြီးသား ဆွေမျိုးများနှင့် ရရှိနိုင်သော လယ်ယာစိုက်ပျိုးရေး အလုပ်",
+              "အခမဲ့ နေအိမ်နှင့် အခမဲ့ သယ်ယူပို့ဆောင်ရေး",
+              "ကျော်ကြားသော Tourist Attraction",
+              "ကျော်ကြားသော University",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mixed picture did Su Myat Noe find among long-term residents?",
+            questionMy:
+                "ကြာမြင့်စွာ နေထိုင်သော Resident များကြား Su Myat Noe တွေ့ရှိခဲ့သော ရောနှောသော ပုံရိပ်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Real strain on schools and clinics alongside real appreciation for new workers",
+              "Complete hostility with no positive views at all",
+              "Complete welcome with no concerns at all",
+              "Total indifference to the topic",
+            ],
+            optionsMy: [
+              "Worker အသစ်များအတွက် အမှန်တကယ် တန်ဖိုးထားမှုနှင့်အတူ School များနှင့် Clinic များအပေါ် အမှန်တကယ် ဖိအား",
+              "Positive View မည်သည်မှ မပါဘဲ ပြည့်စုံသော ရန်လိုမှု",
+              "စိုးရိမ်ချက် မည်သည်မှ မပါဘဲ ပြည့်စုံသော ကြိုဆိုမှု",
+              "Topic အပေါ် လုံးဝ ဂရုမစိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence describing the mixed picture."],
+            hintsMy: [
+              "ရောနှောသော ပုံရိပ်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Myat Noe propose the town's actual policy challenge was?",
+            questionMy:
+                "မြို့၏ တကယ့် Policy စိန်ခေါ်မှုကို Su Myat Noe မည်သို့ အဆိုပြုခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Matching public service funding to the genuinely changed population",
+              "Banning all migration into the town entirely",
+              "Ignoring the issue completely",
+              "Forcing all long-term residents to relocate",
+            ],
+            optionsMy: [
+              "Public Service ရန်ပုံငွေကို စစ်မှန်စွာ ပြောင်းလဲသွားသော လူဦးရေနှင့် ကိုက်ညီအောင် ပြုလုပ်ခြင်း",
+              "မြို့ထဲသို့ Migration အားလုံးကို လုံးဝ တားမြစ်ခြင်း",
+              "ပြဿနာကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "ကြာမြင့်စွာ နေထိုင်သော Resident အားလုံးကို နေရာပြောင်းရွှေ့ရန် အတင်းအကျပ် ပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the resource allocation question.",
+            ],
+            hintsMy: [
+              "Resource Allocation မေးခွန်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Migration",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Migration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A push factor is best described as...",
+          questionMy: "Push Factor ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A condition driving people to leave their origin country",
+            "A condition attracting people to a destination",
+            "A type of visa document",
+            "A synonym for tourism",
+          ],
+          optionsMy: [
+            "လူများကို ၎င်းတို့ မူလ နိုင်ငံမှ ထွက်ခွာစေသော အခြေအနေ",
+            "လူများကို Destination တစ်ခုသို့ ဆွဲဆောင်သော အခြေအနေ",
+            "Visa Document အမျိုးအစား",
+            "Tourism ၏ Synonym",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An asylum seeker is legally distinguished by...",
+          questionMy: "Asylum Seeker ကို ဥပဒေအရ ကွဲပြားစေသည်မှာ...",
+          optionsEn: [
+            "Claiming fear of persecution and seeking international protection",
+            "Moving purely for higher wages",
+            "Never leaving their home country",
+            "Automatically receiving citizenship upon arrival",
+          ],
+          optionsMy: [
+            "Persecution ကို ကြောက်ရွံ့ကြောင်း Claim ပြုလုပ်ပြီး International Protection ရှာဖွေခြင်း",
+            "ပို၍မြင့်သော လုပ်ခလစာများအတွက်သာ ရွှေ့ပြောင်းခြင်း",
+            "မိမိ နိုင်ငံမှ ဘယ်တော့မှ မထွက်ခွာခြင်း",
+            "ရောက်ရှိသည်နှင့်တစ်ပြိုင်နက် Citizenship အလိုအလျောက် ရရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A well-reasoned migration case study should...",
+          questionMy:
+              "ကျိုးကြောင်းညီသော Migration Case Study တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Present the genuine, competing concerns of multiple sides",
+            "Only present one side's view as automatically correct",
+            "Ignore all evidence entirely",
+            "Avoid interviewing anyone at all",
+          ],
+          optionsMy: [
+            "ဘက်များစွာရှိ စစ်မှန်သော၊ ပြိုင်ဆိုင်နေသော စိုးရိမ်ချက်များကို တင်ပြခြင်း",
+            "ဘက်တစ်ဖက်တည်း၏ View ကိုသာ အလိုအလျောက် မှန်ကန်သည်ဟု တင်ပြခြင်း",
+            "Evidence အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "မည်သူ့ကိုမျှ Interview မပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 3, Week 11: "Poverty, Wealth Gap,
+// and Social Justice"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek11 = CourseWeekDef(
+  id: "course-igcse-gp-w11",
+  weekNumber: 11,
+  titleEn: "Poverty, Wealth Gap, and Social Justice",
+  titleMy: "ဆင်းရဲမွဲတေမှု၊ ဓနဥစ္စာ ကွာဟချက်နှင့် လူမှု တရားမျှတမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w11-d1",
+      dayNumber: 1,
+      titleEn: "Causes of Poverty and Microfinance",
+      titleMy: "ဆင်းရဲမွဲတေမှု၏ အကြောင်းရင်းများနှင့် Microfinance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do most economists argue that extreme poverty has multiple, interacting causes rather than one single cause?",
+          questionMy:
+              "ပြင်းထန်သော ဆင်းရဲမွဲတေမှုတွင် Cause တစ်ခုတည်းအစား ကွန်ရက်ဆက်သွယ်နေသော Cause များစွာ ရှိကြောင်း စီးပွားရေးပညာရှင် အများစု ငြင်းခုံရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Factors like limited education access, weak infrastructure, conflict, and unstable governance often reinforce each other, making poverty difficult to explain with any single factor alone",
+            "Poverty has never actually existed anywhere in the world",
+            "Poverty is always caused entirely by personal laziness with no other factor involved",
+            "Economists always agree completely on a single, universal cause",
+          ],
+          optionsMy: [
+            "ကန့်သတ်ထားသော ပညာရေး ဝင်ရောက်ခွင့်၊ အားနည်းသော Infrastructure, Conflict နှင့် မတည်ငြိမ်သော Governance ကဲ့သို့ Factor များသည် တစ်ခုနှင့်တစ်ခု မကြာခဏ ပြန်လည် အားဖြည့်ပေးလျက် ဆင်းရဲမွဲတေမှုကို Factor တစ်ခုတည်းဖြင့် ရှင်းပြရန် ခက်ခဲစေသည်",
+            "ဆင်းရဲမွဲတေမှုသည် ကမ္ဘာပေါ်ရှိ နေရာမည်သည်တွင်မျှ ဘယ်တော့မှ အမှန်တကယ် တည်ရှိခဲ့ခြင်း မရှိပါ",
+            "ဆင်းရဲမွဲတေမှုသည် အခြား Factor မပါဘဲ ကိုယ်ရေးအရ ပျင်းရိမှုကြောင့် အမြဲ လုံးဝ ဖြစ်ပေါ်ခြင်း",
+            "စီးပွားရေးပညာရှင်များသည် Cause တစ်ခုတည်း၊ Universal Cause တစ်ခုအပေါ် အမြဲ လုံးဝ သဘောတူသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Conflict can destroy infrastructure, which limits education access, which in turn limits future economic opportunity -- these factors compound rather than acting independently.",
+          ],
+          hintsMy: [
+            "Conflict သည် Infrastructure ကို ဖျက်ဆီးနိုင်ပြီး ၎င်းက ပညာရေး ဝင်ရောက်ခွင့်ကို ကန့်သတ်ကာ ထိုက ဆက်လက်၍ အနာဂတ် စီးပွားရေး အခွင့်အလမ်းကို ကန့်သတ်စေသည် -- ဤ Factor များသည် လွတ်လပ်စွာ လုပ်ဆောင်မည့်အစား Compound ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does microfinance aim to reduce poverty for people excluded from traditional banking?",
+          questionMy:
+              "Microfinance သည် ရိုးရာ ဘဏ်လုပ်ငန်းမှ ဖယ်ထုတ်ခံရသူများအတွက် ဆင်းရဲမွဲတေမှုကို လျော့ချရန် အဘယ်သို့ ရည်ရွယ်သနည်း။",
+          optionsEn: [
+            "By providing very small loans to individuals or small businesses who cannot access traditional bank credit, letting them start or grow income-generating activities",
+            "By giving away money with no expectation of repayment or economic activity at all",
+            "By closing all traditional banks in a region entirely",
+            "By requiring extremely large minimum loan amounts inaccessible to the poor",
+          ],
+          optionsMy: [
+            "ရိုးရာ ဘဏ် Credit ဝင်ရောက်ခွင့် မရှိသော တစ်ဦးချင်း (သို့) လုပ်ငန်းငယ်များသို့ Loan အလွန်ငယ်များ ပေးအပ်ခြင်းဖြင့် ဝင်ငွေ ရရှိစေသော လုပ်ငန်းများကို စတင် (သို့) ချဲ့ထွင်စေခြင်း",
+            "ပြန်ဆပ်မှု (သို့) စီးပွားရေး လုပ်ငန်း မည်သည်ကိုမျှ မမျှော်လင့်ဘဲ ငွေကြေးကို ပေးအပ်ခြင်း",
+            "ဒေသတစ်ခုရှိ ရိုးရာ ဘဏ်အားလုံးကို လုံးဝ ပိတ်ခြင်း",
+            "ဆင်းရဲသားများ ဝင်ရောက်၍ မရနိုင်သော အလွန်ကြီးမားသော အနည်းဆုံး Loan ပမာဏကို တောင်းဆိုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Microfinance's core insight is that small, accessible credit can let someone start a small business (like a market stall) that traditional banks would consider too small or too risky to lend to.",
+          ],
+          hintsMy: [
+            "Microfinance ၏ အဓိက Insight မှာ ငယ်၍ ဝင်ရောက်ရလွယ်သော Credit သည် ရိုးရာ ဘဏ်များက Loan ပေးအပ်ရန် သေးငယ်လွန်း (သို့) Risk များလွန်းသည်ဟု ယူဆမည့် လုပ်ငန်းငယ် (ဈေးရောင်းခုံတစ်ခုကဲ့သို့) စတင်နိုင်စေရန် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a global inequality index, such as the Gini coefficient, actually measure?",
+          questionMy:
+              "Gini Coefficient ကဲ့သို့ Global Inequality Index တစ်ခုသည် အမှန်တကယ် အဘယ်အရာကို တိုင်းတာသနည်း။",
+          optionsEn: [
+            "How evenly or unevenly income or wealth is distributed across a population",
+            "The total population size of a country",
+            "The physical land area of a country",
+            "The number of languages spoken in a country",
+          ],
+          optionsMy: [
+            "လူဦးရေတစ်ခုတစ်လျှောက် ဝင်ငွေ (သို့) ဓနဥစ္စာကို မည်မျှ တညီညီ (သို့) မညီမျှစွာ ဖြန့်ဝေထားကြောင်း",
+            "နိုင်ငံတစ်ခု၏ လူဦးရေ စုစုပေါင်း",
+            "နိုင်ငံတစ်ခု၏ ရုပ်ပိုင်းဆိုင်ရာ မြေဧရိယာ",
+            "နိုင်ငံတစ်ခုတွင် ပြောဆိုသော ဘာသာစကား အရေအတွက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A Gini coefficient of 0 would mean perfectly equal distribution; a higher value indicates a wider gap between the richest and poorest in that population.",
+          ],
+          hintsMy: [
+            "Gini Coefficient 0 ဆိုသည်မှာ ပြီးပြည့်စုံစွာ ညီမျှသော ဖြန့်ဝေမှုကို ဆိုလိုပြီး တန်ဖိုး ပို၍မြင့်ခြင်းသည် ထို လူဦးရေအတွင်းရှိ အချမ်းသာဆုံးနှင့် အဆင်းရဲဆုံးကြား ကွာဟမှု ပို၍ကျယ်ကြောင်း ညွှန်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Poverty and Inequality Terms",
+      titleMy: "တွဲစပ်ကြမည် - Poverty and Inequality ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w11-dm-1",
+          termEn: "Microfinance",
+          termMy: "Microfinance",
+          matchEn:
+              "Very small loans provided to people excluded from traditional banking",
+          matchMy:
+              "ရိုးရာ ဘဏ်လုပ်ငန်းမှ ဖယ်ထုတ်ခံရသူများသို့ ပေးအပ်ထားသော Loan အလွန်ငယ်များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w11-dm-2",
+          termEn: "Gini coefficient",
+          termMy: "Gini Coefficient",
+          matchEn:
+              "A measure of how evenly income or wealth is distributed across a population",
+          matchMy:
+              "လူဦးရေတစ်ခုတစ်လျှောက် ဝင်ငွေ (သို့) ဓနဥစ္စာ မည်မျှ တညီညီ ဖြန့်ဝေထားကြောင်း တိုင်းတာသည့် Measure",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w11-dm-3",
+          termEn: "Extreme poverty",
+          termMy: "Extreme Poverty",
+          matchEn:
+              "Living below a defined minimum threshold needed to meet basic human needs",
+          matchMy:
+              "အခြေခံ လူ့လိုအပ်ချက်များ ဖြည့်ဆည်းရန် လိုအပ်သော သတ်မှတ်ထားသော အနည်းဆုံး Threshold အောက်တွင် နေထိုင်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w11-dm-4",
+          termEn: "Social justice",
+          termMy: "Social Justice",
+          matchEn:
+              "The fair distribution of wealth, opportunities, and privileges within a society",
+          matchMy:
+              "Society တစ်ခုအတွင်း ဓနဥစ္စာ၊ အခွင့်အလမ်းများနှင့် အထူးအခွင့်အရေးများ တရားမျှတစွာ ဖြန့်ဝေခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w11-dm-5",
+          termEn: "Compounding factors",
+          termMy: "Compounding Factors",
+          matchEn:
+              "Multiple causes that reinforce each other, making a problem harder to trace to one source",
+          matchMy:
+              "ပြဿနာတစ်ခုကို Source တစ်ခုသို့ ခြေရာခံရန် ခက်ခဲစေသော တစ်ခုနှင့်တစ်ခု ပြန်လည် အားဖြည့်ပေးသော Cause များစွာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause of Poverty or Anti-Poverty Strategy?",
+      titleMy:
+          "စီစစ်ကြမည် - ဆင်းရဲမွဲတေမှု၏ Cause လား Anti-Poverty Strategy လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cause of Poverty", "Anti-Poverty Strategy"],
+        bucketsMy: ["ဆင်းရဲမွဲတေမှု၏ Cause", "Anti-Poverty Strategy"],
+        items: [
+          SortingItem(
+            id: "igcgp-w11-sort-1",
+            labelEn: "Limited access to primary education in a region",
+            labelMy:
+                "ဒေသတစ်ခုတွင် ပ‌ထမတန်းလွှာ ပညာရေး ဝင်ရောက်ခွင့် ကန့်သတ်ခြင်း",
+            correctBucketEn: "Cause of Poverty",
+            correctBucketMy: "ဆင်းရဲမွဲတေမှု၏ Cause",
+          ),
+          SortingItem(
+            id: "igcgp-w11-sort-2",
+            labelEn:
+                "A microfinance programme providing small business loans to rural women",
+            labelMy:
+                "ကျေးလက် အမျိုးသမီးများသို့ လုပ်ငန်းငယ် Loan များ ပေးအပ်သော Microfinance Programme",
+            correctBucketEn: "Anti-Poverty Strategy",
+            correctBucketMy: "Anti-Poverty Strategy",
+          ),
+          SortingItem(
+            id: "igcgp-w11-sort-3",
+            labelEn: "Ongoing armed conflict destroying local infrastructure",
+            labelMy:
+                "Local Infrastructure ကို ဖျက်ဆီးနေသော ဆက်လက်ဖြစ်ပွားနေသော လက်နက်ကိုင် ပဋိပက္ခ",
+            correctBucketEn: "Cause of Poverty",
+            correctBucketMy: "ဆင်းရဲမွဲတေမှု၏ Cause",
+          ),
+          SortingItem(
+            id: "igcgp-w11-sort-4",
+            labelEn: "A government job-training programme for unemployed youth",
+            labelMy:
+                "အလုပ်လက်မဲ့ လူငယ်များအတွက် အစိုးရ အလုပ် Training Programme",
+            correctBucketEn: "Anti-Poverty Strategy",
+            correctBucketMy: "Anti-Poverty Strategy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Microfinance Evaluation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Microfinance အကဲဖြတ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Microfinance Evaluation",
+        titleMy: "Su Myat Noe ၏ Microfinance အကဲဖြတ်မှု",
+        passageEn:
+            "Ko Zin Ko Ko asked Su Myat Noe to move beyond simply praising microfinance as an anti-poverty tool and instead evaluate it critically using actual outcome data, exactly as a strong Global Perspectives investigation required. She began with the widely cited success story: a rural microfinance programme had lent small amounts to hundreds of women to start home-based businesses, and many reported meaningfully higher household income within two years, alongside greater decision-making power within their families.\n\nBut Ko Zin Ko Ko pushed her to research documented criticisms too, rather than stopping at the encouraging headline. She found that some economists had raised a serious concern: in certain programmes, interest rates on microloans were high enough that borrowers who could not generate sufficient additional income risked falling into a worsening debt cycle rather than escaping poverty, especially when loans were pushed onto borrowers without adequate financial literacy training or realistic business planning support. Su Myat Noe realised the honest picture was neither 'microfinance always works' nor 'microfinance never works,' but something more specific: outcomes appeared to depend heavily on loan design, interest rates, and whether borrowers received genuine business support alongside the capital itself.\n\nHer final evaluation proposed a specific, evidence-grounded conclusion rather than a simple verdict: microfinance functioned best as one tool within a broader support system, including financial literacy training and reasonable interest rates, rather than as a standalone solution to poverty. She noted that this nuanced conclusion, grounded in both the success stories and the documented criticisms, was a far stronger piece of Global Perspectives analysis than either an uncritical celebration or a blanket dismissal of the entire approach -- precisely the kind of balanced, evidence-based judgement the course consistently rewarded.",
+        passageMy:
+            "Microfinance ကို Anti-Poverty Tool တစ်ခုအဖြစ် ရိုးရိုးသာ ချီးမွမ်းမည့်အစား ခိုင်မာသော Global Perspectives စုံစမ်းစစ်ဆေးမှု တစ်ခု တောင်းဆိုသည့်အတိုင်း အမှန်တကယ် Outcome Data ကို အသုံးပြု၍ ၎င်းကို ဝေဖန်ပိုင်းခြားစွာ အကဲဖြတ်ရန် Su Myat Noe ကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ ကျယ်ကျယ်ပြန့်ပြန့် ကိုးကားခံရသော Success Story ဖြင့် သူ စတင်ခဲ့သည် - ကျေးလက် Microfinance Programme တစ်ခုသည် အိမ်ခြေထောက် လုပ်ငန်းများ စတင်ရန် Amount ငယ်များကို အမျိုးသမီး ရာနှင့်ချီ၍ Loan ပေးအပ်ခဲ့ပြီး များစွာသည် နှစ်နှစ်အတွင်း Household Income သိသိသာသာ ပို၍ မြင့်တက်ခဲ့ကြောင်းနှင့် ၎င်းတို့ မိသားစုများအတွင်း Decision-Making Power ပို၍ ရရှိခဲ့ကြောင်း Report ပြုလုပ်ခဲ့ကြသည်။\n\nဤ အားပေးဖွယ် Headline တွင် မရပ်တန့်ဘဲ မှတ်တမ်းတင်ထားသော ဝေဖန်ချက်များကိုပါ သုတေသန ပြုလုပ်ရန် ကိုဇင်ကိုကို ဆက်လက် တွန်းအားပေးခဲ့သည်။ Program အချို့တွင် Microloan များ၏ Interest Rate များသည် လုံလောက်သော ထပ်ဆောင်း ဝင်ငွေ မထုတ်လုပ်နိုင်သော Borrower များကို ဆင်းရဲမွဲတေမှုမှ လွတ်မြောက်ခြင်းထက် ပို၍ ဆိုးရွားလာသော Debt Cycle သို့ ကျဆင်းစေနိုင်လောက်အောင် မြင့်မားကြောင်း၊ အထူးသဖြင့် Loan များကို လုံလောက်သော Financial Literacy Training (သို့) လက်တွေ့ကျသော Business Planning Support မပါဘဲ Borrower များသို့ တွန်းအားပေးထားသောအခါ ပြင်းထန်သော စိုးရိမ်ချက်တစ်ခု ရှိကြောင်း စီးပွားရေးပညာရှင် အချို့ ဖော်ထုတ်ခဲ့ကြောင်း သူ တွေ့ရှိခဲ့သည်။ ရိုးသားသော ပုံရိပ်သည် 'Microfinance အမြဲ အလုပ်ဖြစ်သည်' လည်း မဟုတ်၊ 'Microfinance ဘယ်တော့မှ အလုပ်မဖြစ်ခြင်း' လည်း မဟုတ်ဘဲ ပို၍ တိကျသော အရာတစ်ခု ဖြစ်ကြောင်း Su Myat Noe သိမြင်ခဲ့သည် - Outcome များသည် Loan Design, Interest Rate နှင့် Borrower များသည် Capital ကိုယ်တိုင်နှင့်အတူ စစ်မှန်သော Business Support ရရှိသည် ရှိမရှိအပေါ် များစွာ မူတည်ကြောင်း ပေါ်လာသည်။\n\n၎င်း၏ Final Evaluation သည် ရိုးရှင်းသော Verdict အစား တိကျသော၊ Evidence-Grounded ကောက်ချက်တစ်ခုကို အဆိုပြုခဲ့သည် - Microfinance သည် ဆင်းရဲမွဲတေမှုအတွက် Standalone Solution တစ်ခုအစား Financial Literacy Training နှင့် ကျိုးကြောင်းညီသော Interest Rate များ အပါအဝင် ပို၍ကျယ်ပြန့်သော Support System တစ်ခုအတွင်းရှိ Tool တစ်ခုအဖြစ် အကောင်းဆုံး လုပ်ဆောင်ခဲ့ကြောင်း ဖော်ပြခဲ့သည်။ Success Story များနှင့် မှတ်တမ်းတင်ထားသော ဝေဖန်ချက်များ နှစ်ခုစလုံးတွင် အခြေခံထားသော ဤ Nuanced ကောက်ချက်သည် Approach တစ်ခုလုံးကို ဝေဖန်ခြင်းမပါသော ချီးမွမ်းခြင်း (သို့) ခြုံငုံ လျစ်လျူရှုခြင်းထက် ပို၍ ခိုင်မာသော Global Perspectives ခွဲခြမ်းစိတ်ဖြာမှု ဖြစ်ကြောင်း သူ မှတ်ချက်ချခဲ့သည် -- သင်တန်းက တသမတ်တည်း ချီးမြှင့်သော Balanced, Evidence-Based စီရင်ဆုံးဖြတ်ချက် အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the widely cited success story report?",
+            questionMy:
+                "ကျယ်ကျယ်ပြန့်ပြန့် ကိုးကားခံရသော Success Story က Report ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Meaningfully higher household income and greater decision-making power for women",
+              "A complete collapse of every microfinance programme worldwide",
+              "No effect on income of any kind",
+              "A permanent ban on all small loans",
+            ],
+            optionsMy: [
+              "အမျိုးသမီးများအတွက် သိသိသာသာ ပို၍မြင့်သော Household Income နှင့် Decision-Making Power ပို၍ရရှိခြင်း",
+              "ကမ္ဘာတစ်ဝန်းရှိ Microfinance Programme တိုင်း လုံးဝ ပြိုကွဲသွားခြင်း",
+              "ဝင်ငွေအပေါ် သက်ရောက်မှု မည်သည့်အမျိုးအစားမျှ မရှိခြင်း",
+              "Loan ငယ်များအားလုံးကို အမြဲတမ်း ပိတ်ပင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what serious concern did some economists raise about microloans?",
+            questionMy:
+                "Microloan များအကြောင်း စီးပွားရေးပညာရှင် အချို့ ဖော်ထုတ်ခဲ့သော ပြင်းထန်သော စိုးရိမ်ချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "High interest rates could push some borrowers into a worsening debt cycle",
+              "Microloans always eliminate poverty within one year",
+              "No borrower has ever repaid a microloan",
+              "Microloans are illegal in every country",
+            ],
+            optionsMy: [
+              "မြင့်မားသော Interest Rate များသည် Borrower အချို့ကို ပို၍ ဆိုးရွားလာသော Debt Cycle သို့ တွန်းပို့နိုင်ခြင်း",
+              "Microloan များသည် တစ်နှစ်အတွင်း ဆင်းရဲမွဲတေမှုကို အမြဲ ဖယ်ရှားပေးခြင်း",
+              "Borrower မည်သူမျှ Microloan ကို ဘယ်တော့မှ ပြန်ဆပ်ခဲ့ခြင်း မရှိခြင်း",
+              "Microloan များသည် နိုင်ငံတိုင်းတွင် တရားမဝင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the debt cycle risk."],
+            hintsMy: [
+              "Debt Cycle အန္တရာယ်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what type of judgement did the course consistently reward?",
+            questionMy:
+                "သင်တန်းက တသမတ်တည်း ချီးမြှင့်သော စီရင်ဆုံးဖြတ်ချက် အမျိုးအစားကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A balanced, evidence-based judgement",
+              "An uncritical celebration with no evidence",
+              "A blanket dismissal with no evidence",
+              "A judgement made without any research at all",
+            ],
+            optionsMy: [
+              "Balanced, Evidence-Based စီရင်ဆုံးဖြတ်ချက်",
+              "Evidence မပါသော ဝေဖန်ခြင်းမပါသော ချီးမွမ်းခြင်း",
+              "Evidence မပါသော ခြုံငုံ လျစ်လျူရှုခြင်း",
+              "သုတေသန မည်သည်မှ မပါဘဲ ချမှတ်သော စီရင်ဆုံးဖြတ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Poverty and Inequality",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Poverty and Inequality",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Extreme poverty typically has...",
+          questionMy: "ပြင်းထန်သော ဆင်းရဲမွဲတေမှုတွင် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Multiple, interacting causes",
+            "Exactly one single cause in every case",
+            "No cause of any kind",
+            "Nothing to do with education or infrastructure",
+          ],
+          optionsMy: [
+            "ကွန်ရက်ဆက်သွယ်နေသော Cause များစွာ ရှိသည်",
+            "Case တိုင်းတွင် Cause တစ်ခုတည်း အတိအကျ ရှိသည်",
+            "Cause မည်သည့်အမျိုးအစားမျှ မရှိသည်",
+            "ပညာရေး (သို့) Infrastructure နှင့် မသက်ဆိုင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Microfinance's core purpose is to...",
+          questionMy: "Microfinance ၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Provide small loans to people excluded from traditional banking",
+            "Close down all traditional banks",
+            "Give away money with no conditions or repayment",
+            "Only lend to already wealthy individuals",
+          ],
+          optionsMy: [
+            "ရိုးရာ ဘဏ်လုပ်ငန်းမှ ဖယ်ထုတ်ခံရသူများသို့ Loan ငယ်များ ပေးအပ်ခြင်း",
+            "ရိုးရာ ဘဏ်အားလုံးကို ပိတ်ပင်ခြင်း",
+            "စည်းကမ်း (သို့) ပြန်ဆပ်မှု မပါဘဲ ငွေကြေးကို ပေးအပ်ခြင်း",
+            "ရှိပြီးသား ချမ်းသာသော တစ်ဦးချင်းသို့သာ Loan ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong evaluation of an anti-poverty strategy should be grounded in...",
+          questionMy:
+              "Anti-Poverty Strategy တစ်ခု၏ ခိုင်မာသော Evaluation တစ်ခုသည် ...တွင် အခြေခံသင့်သည်",
+          optionsEn: [
+            "Actual outcome data, including both successes and documented criticisms",
+            "Only the strategy's own promotional materials",
+            "Personal opinion with no evidence at all",
+            "A single anecdote with no other verification",
+          ],
+          optionsMy: [
+            "Success များနှင့် မှတ်တမ်းတင်ထားသော ဝေဖန်ချက်များ နှစ်ခုစလုံး ပါဝင်သော အမှန်တကယ် Outcome Data",
+            "Strategy ကိုယ်ပိုင် Promotional Material များသာ",
+            "Evidence မပါသော ကိုယ်ပိုင် သဘောထား",
+            "အခြား Verification မပါသော Anecdote တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 3, Week 12 (Capstone/Boss Week):
+// "Rights and Migration Simulation"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek12 = CourseWeekDef(
+  id: "course-igcse-gp-w12",
+  weekNumber: 12,
+  titleEn: "Rights and Migration Simulation",
+  titleMy: "အခွင့်အရေးနှင့် ရွှေ့ပြောင်းမှု ပုံစံတူ ဆွေးနွေးပွဲ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w12-d1",
+      dayNumber: 1,
+      titleEn: "Policy Negotiation and Defending Perspectives",
+      titleMy: "Policy Negotiation နှင့် Perspective များ ကာကွယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a policy negotiation simulation about refugee resettlement, why is it valuable to argue a position you personally disagree with?",
+          questionMy:
+              "ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Policy Negotiation Simulation တစ်ခုတွင် ကိုယ်တိုင် သဘောမတူသော Position တစ်ခုကို ငြင်းခုံခြင်းသည် အဘယ်ကြောင့် တန်ဖိုးရှိသနည်း။",
+          optionsEn: [
+            "It builds genuine perspective-taking skill and reveals the strongest version of an argument you might otherwise dismiss too quickly",
+            "It has no educational value of any kind",
+            "It means you must now personally adopt that position forever",
+            "It is only useful for students who plan to become politicians",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Perspective-Taking Skill ကို တည်ဆောက်ပြီး ၎င်းမရှိပါက အလွန်လျင်မြန်စွာ လျစ်လျူရှုနိုင်သော Argument ၏ အခိုင်မာဆုံး Version ကို ဖော်ထုတ်ပေးသည်",
+            "ပညာရေး တန်ဖိုး မည်သည့်အမျိုးအစားမျှ မရှိခြင်း",
+            "ထို Position ကို ထာဝရ ကိုယ်တိုင် လက်ခံရမည်ဟု ဆိုလိုခြင်း",
+            "နိုင်ငံရေးသမား ဖြစ်ရန် စီစဉ်ထားသော ကျောင်းသားများအတွက်သာ အသုံးဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects back to Term 1's core lesson on perspective-taking -- genuinely constructing an argument for a position, not just imagining it, tests real understanding.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Perspective-Taking အဓိက သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- Position တစ်ခုကို စိတ်ကူးရုံသက်သက် မဟုတ်ဘဲ Argument တစ်ခု စစ်မှန်စွာ တည်ဆောက်ခြင်းသည် စစ်မှန်သော နားလည်မှုကို Test လုပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In an international summit simulation, why is compromise sometimes necessary even between parties with strongly opposing views?",
+          questionMy:
+              "International Summit Simulation တစ်ခုတွင် ခိုင်မာစွာ ဆန့်ကျင်ဘက် View ရှိသော Party များကြားပင် Compromise တစ်ခါတစ်ရံ လိုအပ်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Because real-world international cooperation typically requires all parties to gain something for an agreement to actually be adopted and implemented",
+            "Because compromise means one side must always completely surrender",
+            "Because international summits never actually reach any agreement in real life",
+            "Because compromise is always a sign of moral weakness",
+          ],
+          optionsMy: [
+            "လက်တွေ့ကမ္ဘာ Cooperation ပုံမှန်အားဖြင့် Agreement တစ်ခု အမှန်တကယ် လက်ခံအကောင်အထည်ဖော်ရန် Party အားလုံး တစ်ခုခု ရရှိရန် တောင်းဆိုသောကြောင့်",
+            "Compromise ဆိုသည်မှာ ဘက်တစ်ဖက်သည် အမြဲ လုံးဝ လက်လျှော့ရမည်ဟု ဆိုလိုသောကြောင့်",
+            "International Summit များသည် လက်တွေ့ဘဝတွင် Agreement မည်သည်ကိုမျှ ဘယ်တော့မှ အမှန်တကယ် မရရှိသောကြောင့်",
+            "Compromise သည် ကိုယ်ကျင့်တရားဆိုင်ရာ အားနည်းချက်၏ လက္ခဏာ အမြဲ ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a practical, not purely idealistic, insight -- most real international agreements are negotiated compromises rather than one side's complete victory.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Idealistic သက်သက် မဟုတ်ဘဲ Practical Insight တစ်ခု ဖြစ်သည် -- လက်တွေ့ International Agreement အများစုသည် ဘက်တစ်ဖက်၏ ပြီးပြည့်စုံသော အောင်မြင်မှုထက် Negotiate ပြုလုပ်ထားသော Compromise များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What makes a persuasive argument during a collaborative problem-solving simulation genuinely effective, rather than merely loud?",
+          questionMy:
+              "Collaborative Problem-Solving Simulation တစ်ခုအတွင်း ဆွဲဆောင်မှုရှိသော Argument တစ်ခုကို ကျယ်လောင်ရုံမှသာ ကွဲပြားစေပြီး စစ်မှန်စွာ ထိရောက်စေသည့်အရာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Grounding the argument in evidence and acknowledging other parties' legitimate concerns rather than simply repeating a position more forcefully",
+            "Speaking for the longest possible time regardless of content",
+            "Refusing to listen to any other perspective at all",
+            "Interrupting every other speaker as often as possible",
+          ],
+          optionsMy: [
+            "Position တစ်ခုကို ပို၍ တင်းကြပ်စွာ ရိုးရိုးသာ ထပ်ခါထပ်ခါ ပြောမည့်အစား Evidence တွင် Argument ကို အခြေခံပြီး Party အခြားများ၏ တရားဝင် စိုးရိမ်ချက်များကို အသိအမှတ်ပြုခြင်း",
+            "အကြောင်းအရာ မည်သို့ပင်ရှိစေ ဖြစ်နိုင်သမျှ အကြာဆုံး ပြောကြားခြင်း",
+            "အခြား Perspective မည်သည်ကိုမျှ လုံးဝ နားမထောင်ခြင်း",
+            "အခြား Speaker တိုင်းကို ဖြစ်နိုင်သမျှ မကြာခဏ Interrupt ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mirrors the essay-writing skill from Term 2 -- acknowledging the other side's legitimate points before responding is more persuasive than ignoring them.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ Essay-Writing Skill ကို ရောင်ပြန်ဟပ်သည် -- တုံ့ပြန်မီ ဘက်တစ်ဖက်၏ တရားဝင် အချက်များကို အသိအမှတ်ပြုခြင်းသည် ၎င်းတို့ကို လျစ်လျူရှုခြင်းထက် ပို၍ ဆွဲဆောင်မှုရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Rights and Migration Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 3 Rights and Migration ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w12-dm-1",
+          termEn: "National sovereignty",
+          termMy: "National Sovereignty",
+          matchEn:
+              "A country's authority to govern itself, limiting international enforcement power",
+          matchMy:
+              "International Enforcement Power ကို ကန့်သတ်သော နိုင်ငံတစ်ခု၏ ကိုယ်ပိုင် အုပ်ချုပ်ခွင့် အာဏာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w12-dm-2",
+          termEn: "Asylum seeker",
+          termMy: "Asylum Seeker",
+          matchEn:
+              "Someone claiming fear of persecution and seeking international protection",
+          matchMy:
+              "Persecution ကို ကြောက်ရွံ့ကြောင်း Claim ပြုလုပ်ပြီး International Protection ရှာဖွေသူ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w12-dm-3",
+          termEn: "Microfinance",
+          termMy: "Microfinance",
+          matchEn:
+              "Very small loans provided to people excluded from traditional banking",
+          matchMy:
+              "ရိုးရာ ဘဏ်လုပ်ငန်းမှ ဖယ်ထုတ်ခံရသူများသို့ ပေးအပ်ထားသော Loan အလွန်ငယ်များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w12-dm-4",
+          termEn: "Compromise",
+          termMy: "Compromise",
+          matchEn:
+              "An agreement where all parties gain something, often necessary in international negotiation",
+          matchMy:
+              "Party အားလုံး တစ်ခုခု ရရှိသော Agreement၊ International Negotiation တွင် မကြာခဏ လိုအပ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Persuasive or Weak Negotiation Tactic?",
+      titleMy:
+          "စီစစ်ကြမည် - ဆွဲဆောင်မှုရှိသော (သို့) အားနည်းသော Negotiation Tactic",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Persuasive Tactic", "Weak Tactic"],
+        bucketsMy: ["ဆွဲဆောင်မှုရှိသော Tactic", "အားနည်းသော Tactic"],
+        items: [
+          SortingItem(
+            id: "igcgp-w12-sort-1",
+            labelEn:
+                "Acknowledging the other party's legitimate concern before responding with evidence",
+            labelMy:
+                "Evidence ဖြင့် တုံ့ပြန်မီ ဘက်တစ်ဖက်၏ တရားဝင် စိုးရိမ်ချက်ကို အသိအမှတ်ပြုခြင်း",
+            correctBucketEn: "Persuasive Tactic",
+            correctBucketMy: "ဆွဲဆောင်မှုရှိသော Tactic",
+          ),
+          SortingItem(
+            id: "igcgp-w12-sort-2",
+            labelEn:
+                "Simply repeating your original position louder without new evidence",
+            labelMy:
+                "Evidence အသစ် မပါဘဲ ကိုယ်ပိုင် မူလ Position ကို ပို၍ ကျယ်လောင်စွာ ရိုးရိုးသာ ထပ်ခါထပ်ခါ ပြောခြင်း",
+            correctBucketEn: "Weak Tactic",
+            correctBucketMy: "အားနည်းသော Tactic",
+          ),
+          SortingItem(
+            id: "igcgp-w12-sort-3",
+            labelEn:
+                "Proposing a solution that gives every party something of value",
+            labelMy:
+                "Party အားလုံးကို တန်ဖိုးရှိသော တစ်ခုခု ပေးအပ်သော ဖြေရှင်းချက်ကို အဆိုပြုခြင်း",
+            correctBucketEn: "Persuasive Tactic",
+            correctBucketMy: "ဆွဲဆောင်မှုရှိသော Tactic",
+          ),
+          SortingItem(
+            id: "igcgp-w12-sort-4",
+            labelEn: "Refusing to listen to any other perspective in the room",
+            labelMy:
+                "အခန်းထဲရှိ အခြား Perspective မည်သည်ကိုမျှ နားထောင်ရန် ငြင်းဆန်ခြင်း",
+            correctBucketEn: "Weak Tactic",
+            correctBucketMy: "အားနည်းသော Tactic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Summit Role",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Summit Role",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Summit Role",
+        titleMy: "Su Myat Noe ၏ Summit Role",
+        passageEn:
+            "For the Term 3 capstone, Ko Zin Ko Ko organised a simulated international summit combining everything from the term: each student was assigned a role representing a different country negotiating a refugee resettlement agreement, and Su Myat Noe was assigned the role of a host country delegate whose real position, ironically, she personally disagreed with -- her assigned country wanted to significantly limit new arrivals, citing genuine strain on public services she had researched during Week 10's town case study.\n\nRather than arguing half-heartedly for a position she personally opposed, Su Myat Noe treated the assignment exactly as Ko Zin Ko Ko had taught: she built the strongest possible version of her assigned country's case, citing specific evidence about school and clinic capacity rather than vague statements, while explicitly acknowledging in her opening statement that other delegates' concerns about asylum seekers' human rights, drawn from Week 9's UDHR unit, were legitimate and needed to be genuinely addressed, not dismissed. This immediately made her position more persuasive to the room than delegates who simply repeated talking points without engaging the other side.\n\nWhen negotiations stalled between her country's resource concerns and another delegate's insistence on unrestricted resettlement rights, Su Myat Noe proposed a specific compromise drawing on Week 11's microfinance material: phased resettlement tied to matched increases in public service funding, partly financed through an international development fund, so that both her country's genuine capacity concerns and asylum seekers' genuine rights were addressed together rather than treated as a zero-sum conflict. Ko Zin Ko Ko noted this compromise succeeded specifically because it combined evidence from three different weeks of the term into one workable policy proposal -- exactly the kind of synthesis IGCSE Global Perspectives' final assessment components would require her to demonstrate.",
+        passageMy:
+            "Term 3 Capstone အတွက် Term တစ်ခုလုံးမှ အရာအားလုံးကို ပေါင်းစပ်ထားသော Simulated International Summit တစ်ခုကို ကိုဇင်ကိုကို စီစဉ်ခဲ့သည် - ကျောင်းသားတိုင်းကို ဒုက္ခသည် ပြန်လည်နေရာချထားရေး Agreement ငြင်းခုံနေသော ကွဲပြားသော နိုင်ငံ Role တစ်ခုစီကို သတ်မှတ်ပေးခဲ့ပြီး Su Myat Noe ကို ရယ်စရာကောင်းစွာ ၎င်း ကိုယ်တိုင် သဘောမတူသော Host Country Delegate Role ကို ပေးအပ်ခဲ့သည် -- ၎င်း သတ်မှတ်ခံရသော နိုင်ငံသည် Week 10 ၏ မြို့ Case Study အတွင်း ၎င်း သုတေသန ပြုလုပ်ခဲ့သော Public Service များအပေါ် စစ်မှန်သော ဖိအားကို ကိုးကားလျက် ရောက်ရှိလာသူ အသစ်များကို သိသိသာသာ ကန့်သတ်လိုခဲ့သည်။\n\nကိုယ်ပိုင် ဆန့်ကျင်ထားသော Position တစ်ခုအတွက် ခေါင်းမတည့်ဘဲ ငြင်းခုံမည့်အစား Assignment ကို ကိုဇင်ကိုကို သင်ပေးခဲ့သည့်အတိုင်း Su Myat Noe အတိအကျ ဆက်ဆံခဲ့သည် - Vague ဖော်ပြချက်များ အစား School နှင့် Clinic Capacity အကြောင်း တိကျသော Evidence ကို ကိုးကားလျက် ၎င်း သတ်မှတ်ခံရသော နိုင်ငံ၏ Case ၏ ဖြစ်နိုင်ဆုံး Version ကို တည်ဆောက်ခဲ့ပြီး Week 9 ၏ UDHR Unit မှ ဆွဲထုတ်ထားသော Asylum Seeker များ၏ Human Rights အကြောင်း Delegate အခြားများ၏ စိုးရိမ်ချက်များသည် တရားဝင်ပြီး လျစ်လျူမရှုဘဲ စစ်မှန်စွာ ဖြေရှင်းရန် လိုအပ်ကြောင်း ၎င်း၏ Opening Statement တွင် ရှင်းလင်းစွာ အသိအမှတ်ပြုခဲ့သည်။ ဤသည်က Talking Point များကို ဘက်တစ်ဖက်နှင့် မထိတွေ့ဘဲ ရိုးရိုးသာ ထပ်ခါထပ်ခါ ပြောသော Delegate များထက် ၎င်း၏ Position ကို အခန်းအတွင်း ချက်ချင်း ပို၍ ဆွဲဆောင်မှု ရှိစေခဲ့သည်။\n\n၎င်း နိုင်ငံ၏ Resource စိုးရိမ်ချက်များနှင့် Delegate အခြားတစ်ဦး၏ ကန့်သတ်ချက် မရှိသော ပြန်လည်နေရာချထားရေး အခွင့်အရေး တောင်းဆိုချက်ကြား Negotiation များ ရပ်တန့်သွားချိန် Week 11 ၏ Microfinance Material ကို ဆွဲထုတ်၍ Su Myat Noe တိကျသော Compromise တစ်ခု အဆိုပြုခဲ့သည် - International Development Fund တစ်ခုမှတစ်ဆင့် တစ်စိတ်တစ်ပိုင်း ငွေကြေးထောက်ပံ့ထားသော Public Service ရန်ပုံငွေ တိုးမြှင့်မှုနှင့် ကိုက်ညီစွာ Phased Resettlement ဖြစ်ပြီး ၎င်း၏ နိုင်ငံ၏ စစ်မှန်သော Capacity စိုးရိမ်ချက်များနှင့် Asylum Seeker များ၏ စစ်မှန်သော အခွင့်အရေးများ နှစ်ခုစလုံးကို Zero-Sum ပဋိပက္ခအဖြစ် ဆက်ဆံမည့်အစား အတူတကွ ဖြေရှင်းစေသည်။ ဤ Compromise သည် Term ၏ ကွဲပြားသော အပတ် သုံးခုမှ Evidence ကို Workable Policy Proposal တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသောကြောင့် အတိအကျ အောင်မြင်ခဲ့ကြောင်း ကိုဇင်ကိုကို မှတ်ချက်ချခဲ့သည် -- IGCSE Global Perspectives ၏ Final Assessment Component များက ၎င်းကို ပြသရန် တောင်းဆိုမည့် Synthesis အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what irony did Su Myat Noe face in her assigned role?",
+            questionMy:
+                "သူ့ သတ်မှတ်ခံရသော Role တွင် Su Myat Noe ကြုံတွေ့ခဲ့ရသော Irony ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She personally disagreed with the position her assigned country held",
+              "She was assigned no role at all",
+              "She agreed completely with every part of her country's position",
+              "She was not allowed to speak during the simulation",
+            ],
+            optionsMy: [
+              "သူ သတ်မှတ်ခံရသော နိုင်ငံ ကိုင်ဆောင်ထားသော Position ကို ၎င်း ကိုယ်တိုင် သဘောမတူခဲ့ခြင်း",
+              "Role မည်သည်မှ သတ်မှတ်ခံခဲ့ခြင်း မရှိခြင်း",
+              "၎င်း၏ နိုင်ငံ Position ၏ အပိုင်းတိုင်းနှင့် လုံးဝ သဘောတူခဲ့ခြင်း",
+              "Simulation အတွင်း ပြောဆိုခွင့် မပြုခံရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about her personal disagreement."],
+            hintsMy: [
+              "သူ့ ကိုယ်ရေး သဘောမတူခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what made Su Myat Noe's position more persuasive than other delegates?",
+            questionMy:
+                "Su Myat Noe ၏ Position ကို Delegate အခြားများထက် ပို၍ ဆွဲဆောင်မှုရှိစေခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She cited specific evidence and acknowledged other delegates' legitimate rights concerns",
+              "She spoke louder than everyone else in the room",
+              "She refused to acknowledge any other viewpoint",
+              "She simply repeated her opening statement multiple times",
+            ],
+            optionsMy: [
+              "တိကျသော Evidence ကို ကိုးကားပြီး Delegate အခြားများ၏ တရားဝင် Rights စိုးရိမ်ချက်များကို အသိအမှတ်ပြုခဲ့ခြင်း",
+              "အခန်းထဲရှိ အခြားလူတိုင်းထက် ပို၍ ကျယ်လောင်စွာ ပြောကြားခဲ့ခြင်း",
+              "အခြား Viewpoint မည်သည်ကိုမျှ အသိအမှတ်ပြုရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "Opening Statement ကို အကြိမ်ကြိမ် ရိုးရိုးသာ ထပ်ခါထပ်ခါ ပြောခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what made Su Myat Noe's compromise proposal succeed?",
+            questionMy:
+                "Su Myat Noe ၏ Compromise Proposal အောင်မြင်စေခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It combined evidence from three different weeks of the term into one workable policy",
+              "It ignored every other delegate's concerns entirely",
+              "It was chosen at random with no reasoning at all",
+              "It refused to address either side's concerns",
+            ],
+            optionsMy: [
+              "Term ၏ ကွဲပြားသော အပတ် သုံးခုမှ Evidence ကို Workable Policy တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း",
+              "Delegate အခြားတိုင်း၏ စိုးရိမ်ချက်များကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "ဆင်ခြင်တုံတရား မည်သည်မှ မပါဘဲ ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+              "ဘက်နှစ်ဖက်စလုံး၏ စိုးရိမ်ချက်များကို ဖြေရှင်းရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Human Rights and Migration Exam",
+      titleMy: "Term 3 Capstone - Human Rights and Migration စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Modern slavery persists mainly because...",
+          questionMy:
+              "Modern Slavery ဆက်လက် တည်ရှိနေသည့် အဓိက အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Coercive practices like debt bondage remain hidden despite being illegal",
+            "It is openly legal in every country",
+            "It has been completely eliminated worldwide",
+            "It only ever involved voluntary agreements",
+          ],
+          optionsMy: [
+            "Debt Bondage ကဲ့သို့ Coercive Practice များသည် တရားမဝင်သော်လည်း ဖျောက်ဖျက်၍ ဆက်လက် ကျန်ရှိနေခြင်း",
+            "နိုင်ငံတိုင်းတွင် ပွင့်လင်းစွာ တရားဝင်ခြင်း",
+            "ကမ္ဘာတစ်ဝန်း လုံးဝ ပပျောက်ခဲ့ခြင်း",
+            "စေတနာအလျောက် သဘောတူညီချက်များသာ ပါဝင်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A refugee resettlement compromise is strongest when it...",
+          questionMy:
+              "ဒုက္ခသည် ပြန်လည်နေရာချထားရေး Compromise တစ်ခုသည် ...ချိန်တွင် အခိုင်မာဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Addresses both resource concerns and rights concerns together",
+            "Completely ignores one side's genuine concerns",
+            "Is decided by only one country with no negotiation",
+            "Never involves any evidence at all",
+          ],
+          optionsMy: [
+            "Resource စိုးရိမ်ချက်များနှင့် Rights စိုးရိမ်ချက်များ နှစ်ခုစလုံးကို အတူတကွ ဖြေရှင်းချိန်",
+            "ဘက်တစ်ဖက်၏ စစ်မှန်သော စိုးရိမ်ချက်များကို လုံးဝ လျစ်လျူရှုချိန်",
+            "Negotiation မပါဘဲ နိုင်ငံတစ်ခုတည်းက ဆုံးဖြတ်ချိန်",
+            "Evidence မည်သည်မှ ဘယ်တော့မှ မပါဝင်ချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong case study evaluation of an anti-poverty programme should include...",
+          questionMy:
+              "Anti-Poverty Programme တစ်ခု၏ ခိုင်မာသော Case Study Evaluation တွင် ...ပါဝင်သင့်သည်",
+          optionsEn: [
+            "Both documented successes and documented criticisms",
+            "Only the programme's own promotional claims",
+            "No evidence of any kind",
+            "A conclusion decided before any research began",
+          ],
+          optionsMy: [
+            "မှတ်တမ်းတင်ထားသော Success များနှင့် ဝေဖန်ချက်များ နှစ်ခုစလုံး",
+            "Programme ကိုယ်ပိုင် Promotional Claim များသာ",
+            "Evidence မည်သည့်အမျိုးအစားမျှ",
+            "သုတေသန မစတင်မီ ဆုံးဖြတ်ထားသော ကောက်ချက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 3: "Demographics, Migration and
+// Human Rights" (Weeks 9-12)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm3 = CourseTermDef(
+  id: "course-igcse-gp-t3",
+  termNumber: 3,
+  titleEn: "Demographics, Migration and Human Rights",
+  titleMy: "လူဦးရေဆိုင်ရာ၊ ရွှေ့ပြောင်းမှုနှင့် လူ့အခွင့်အရေး",
+  certificateTitleEn: "Demographics, Migration and Human Rights",
+  certificateTitleMy: "လူဦးရေဆိုင်ရာ၊ ရွှေ့ပြောင်းမှုနှင့် လူ့အခွင့်အရေး",
+  weeks: [_igcseGpWeek9, _igcseGpWeek10, _igcseGpWeek11, _igcseGpWeek12],
 );
 // __IGCSE_GP_MARKER__
