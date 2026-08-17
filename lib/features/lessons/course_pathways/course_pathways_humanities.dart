@@ -89249,10 +89249,11 @@ const CoursePathwayDef year3HumanitiesPathway = CoursePathwayDef(
 );
 
 // =====================================================================
-// IGCSE Humanities (History & Geography) -- assembled Terms 1-9
-// (protagonist: Thiha Aung, tutor: Saya Tun Tun Win). Combines Cambridge
-// IGCSE History's 20th-century international relations depth (causes of
-// WWI/WWII, interwar dictatorships, the Cold War) with Cambridge IGCSE
+// IGCSE Humanities (History & Geography) -- complete, all 9 terms
+// authored (36 weeks / 180 daily lessons). Protagonist: Thiha Aung,
+// tutor: Saya Tun Tun Win. Combines Cambridge IGCSE History's
+// 20th-century international relations depth (causes of WWI/WWII,
+// interwar dictatorships, the Cold War) with Cambridge IGCSE
 // Geography's population/development/hazards core themes, closing with
 // a dedicated exam-preparation and graduation term -- the same
 // structure used by every other IGCSE subject pathway in this file.
@@ -90683,9 +90684,9 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation. Term 7, The Cold War: Rivalry, Crisis and Resolution, covers the superpowers' ideological rivalry and spheres of influence, the Berlin and Cuban crises, and proxy wars alongside the Soviet economy's structural strain, closing with a mock trial weighing which factor most shaped the war's overall trajectory. Term 8, Natural Hazards and the Environment, covers tectonic hazards from earthquakes and volcanoes, weather hazards from tropical storms and drought, and climate change's causes and impacts, closing with a Hazard Mitigation Studio combining risk assessment, evidenced resource allocation, and honest acknowledgment of uncertainty into one complete mitigation plan.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation. Term 7, The Cold War: Rivalry, Crisis and Resolution, covers the superpowers' ideological rivalry and spheres of influence, the Berlin and Cuban crises, and proxy wars alongside the Soviet economy's structural strain, closing with a mock trial weighing which factor most shaped the war's overall trajectory. Term 8, Natural Hazards and the Environment, covers tectonic hazards from earthquakes and volcanoes, weather hazards from tropical storms and drought, and climate change's causes and impacts, closing with a Hazard Mitigation Studio combining risk assessment, evidenced resource allocation, and honest acknowledgment of uncertainty into one complete mitigation plan. Term 9, Examination Preparation and Graduation, covers Paper 1 and Paper 2 exam technique, structuring essays and extended writing under time pressure, and full timed mock exam simulations, closing with a graduation week tracing the course's core habits of mind -- weighing multiple factors, grounding claims in specific evidence, and acknowledging honest uncertainty -- all the way from Term 1's first lesson to the final exam.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Cold War: Rivalry, Crisis and Resolution သည် Superpower များ၏ Ideological Rivalry နှင့် Sphere of Influence များ, Berlin နှင့် Cuban Crisis များနှင့် Soviet Economy ၏ Structural Strain နှင့်အတူ Proxy War များကို ဖုံးအုပ်ပြီး Factor မည်သည် စစ်ပွဲ၏ Overall Trajectory ကို အများဆုံး ပုံဖော်ခဲ့သည်ကို ချိန်ဆသော Mock Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards and the Environment သည် ငလျင်နှင့် မီးတောင်များမှ Tectonic Hazard များ၊ Tropical Storm နှင့် ရေရှားပါးမှုမှ Weather Hazard များနှင့် Climate Change ၏ Cause နှင့် Impact များကို ဖုံးအုပ်ပြီး Risk Assessment, Evidenced Resource Allocation နှင့် Uncertainty ရိုးသားစွာ အသိအမှတ်ပြုမှုကို Mitigation Plan အပြည့်အစုံ တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Hazard Mitigation Studio ဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Cold War: Rivalry, Crisis and Resolution သည် Superpower များ၏ Ideological Rivalry နှင့် Sphere of Influence များ, Berlin နှင့် Cuban Crisis များနှင့် Soviet Economy ၏ Structural Strain နှင့်အတူ Proxy War များကို ဖုံးအုပ်ပြီး Factor မည်သည် စစ်ပွဲ၏ Overall Trajectory ကို အများဆုံး ပုံဖော်ခဲ့သည်ကို ချိန်ဆသော Mock Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards and the Environment သည် ငလျင်နှင့် မီးတောင်များမှ Tectonic Hazard များ၊ Tropical Storm နှင့် ရေရှားပါးမှုမှ Weather Hazard များနှင့် Climate Change ၏ Cause နှင့် Impact များကို ဖုံးအုပ်ပြီး Risk Assessment, Evidenced Resource Allocation နှင့် Uncertainty ရိုးသားစွာ အသိအမှတ်ပြုမှုကို Mitigation Plan အပြည့်အစုံ တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Hazard Mitigation Studio ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Examination Preparation and Graduation သည် Paper 1 နှင့် Paper 2 Exam Technique, အချိန်ဖိအားအောက်တွင် Essay များ Structure ချခြင်းနှင့် Extended Writing နှင့် အချိန်ကန့်သတ် Mock Exam Simulation အပြည့်အစုံကို ဖုံးအုပ်ပြီး Term 1 ၏ ပထမဆုံးသင်ခန်းစာမှ နောက်ဆုံး Exam အထိ Factor များစွာ ချိန်ဆခြင်း၊ Claim များကို တိကျသော Evidence တွင် အခြေခံခြင်းနှင့် ရိုးသား Uncertainty အသိအမှတ်ပြုခြင်း -- Course ၏ Core Habits of Mind ကို ခြေရာခံသော ဘွဲ့နှင်းသဘင် အပတ်တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseHumTerm1,
@@ -90696,6 +90697,7 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
     _igcseHumTerm6,
     _igcseHumTerm7,
     _igcseHumTerm8,
+    _igcseHumTerm9,
   ],
 );
 // =====================================================================
@@ -100613,5 +100615,1444 @@ const CourseTermDef _igcseHumTerm8 = CourseTermDef(
   certificateTitleEn: "Natural Hazards and Climate",
   certificateTitleMy: "Natural Hazards and Climate",
   weeks: [_igcseHumWeek29, _igcseHumWeek30, _igcseHumWeek31, _igcseHumWeek32],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 9, Week 33: "Paper 1 (History) and Paper 2
+// (Geography) Exam Technique Intensive"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek33 = CourseWeekDef(
+  id: "course-igcse-hum-w33",
+  weekNumber: 33,
+  titleEn: "Paper 1 (History) and Paper 2 (Geography) Exam Technique",
+  titleMy: "Paper 1 (History) နှင့် Paper 2 (Geography) Exam Technique",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w33-d1",
+      dayNumber: 1,
+      titleEn: "Answering 'How Far' and 'Why' Questions Under Time Pressure",
+      titleMy:
+          "အချိန် ဖိအားအောက်တွင် 'How Far' နှင့် 'Why' မေးခွန်းများ ဖြေဆိုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a Paper 1 'How far do you agree' question, why should an answer weigh multiple factors against each other rather than defending only one factor?",
+          questionMy:
+              "Paper 1 ၏ 'How Far Do You Agree' မေးခွန်းတစ်ခုတွင် အဖြေတစ်ခုသည် Factor တစ်ခုတည်းကိုသာ ကာကွယ်မည့်အစား Factor များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Examiners award the highest marks for a judgement that has genuinely weighed competing factors against each other, not for a one-sided answer that ignores alternatives",
+            "Weighing multiple factors has no actual role in how Paper 1 is assessed",
+            "Only the factor the candidate personally finds most interesting needs to be mentioned",
+            "A one-sided answer defending a single factor always earns full marks",
+          ],
+          optionsMy: [
+            "Examiner များသည် အခြားရွေးချယ်စရာများကို လျစ်လျူရှုသော တစ်ဖက်သတ် အဖြေတစ်ခုအတွက် မဟုတ်ဘဲ ယှဉ်ပြိုင် Factor များကို တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိန်ဆပြီးသော Judgement တစ်ခုအတွက် အမှတ်အမြင့်ဆုံး ပေးအပ်သည်",
+            "Factor များစွာ ချိန်ဆခြင်းသည် Paper 1 ၏ Assessment တွင် အမှန်တကယ် ဘာမှ Role မရှိခြင်း",
+            "ကိုယ်ပိုင် စိတ်ဝင်စားဆုံး Factor တစ်ခုတည်းကိုသာ ဖော်ပြရန် လိုအပ်ခြင်း",
+            "Factor တစ်ခုတည်းကို ကာကွယ်သော တစ်ဖက်သတ် အဖြေတစ်ခုသည် အမှတ်အပြည့် အမြဲ ရရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 3's Week 12 lesson on avoiding a single-cause explanation -- a strong judgement weighs multiple factors, exactly as Term 3's dictatorship-collapse essay required.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Single-Cause Explanation ရှောင်ရှားခြင်းအကြောင်း Term 3 ၏ Week 12 သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Term 3 ၏ Dictatorship-Collapse Essay တောင်းဆိုသည့်အတိုင်း ခိုင်မာသော Judgement တစ်ခုသည် Factor များစွာကို ချိန်ဆသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a Paper 2 geography case study question, why should an answer name the specific real-world location and cite specific data rather than describing the theme in general terms?",
+          questionMy:
+              "Paper 2 ဂျီဩဂရာဖီ Case Study မေးခွန်းတစ်ခုတွင် အဖြေတစ်ခုသည် Theme ကို ယေဘုယျအားဖြင့် ဖော်ပြမည့်အစား တိကျသော Real-World တည်နေရာကို အမည်ဖော်ပြပြီး တိကျသော Data ကိုးကားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Case study questions specifically require applying general geographic themes to a real, named place with real evidence, not a generic description that could apply anywhere",
+            "Naming a specific location and citing data has no actual value in case study answers",
+            "A generic description that could apply to any location always earns the highest marks",
+            "Case study questions never actually require any real-world evidence at all",
+          ],
+          optionsMy: [
+            "Case Study မေးခွန်းများသည် နေရာမည်သည့်နေရာမဆို အသုံးချနိုင်သော Generic ဖော်ပြချက်တစ်ခု မဟုတ်ဘဲ ယေဘုယျ ဂျီဩဂရာဖီ Theme များကို Real Evidence ဖြင့် Real, အမည်ရှိသော နေရာတစ်ခုသို့ အသုံးချရန် တိတိကျကျ တောင်းဆိုသည်",
+            "တိကျသော တည်နေရာ အမည်ဖော်ပြခြင်းနှင့် Data ကိုးကားခြင်းသည် Case Study အဖြေများတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "နေရာမည်သည့်နေရာမဆို အသုံးချနိုင်သော Generic ဖော်ပြချက်တစ်ခုသည် အမှတ်အမြင့်ဆုံး အမြဲ ရရှိခြင်း",
+            "Case Study မေးခွန်းများသည် Real-World Evidence မည်သည်မှ အမှန်တကယ် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 4's and Term 6's case-study capstones -- naming a real location with real data is what distinguishes a case study from a generic theme description.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 4 နှင့် Term 6 ၏ Case-Study Capstone များနှင့် ချိတ်ဆက်သည် -- Real Data ဖြင့် Real တည်နေရာတစ်ခုကို အမည်ဖော်ပြခြင်းသည် Case Study တစ်ခုကို Generic Theme ဖော်ပြချက်တစ်ခုမှ ခွဲခြားပေးသည့် အချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should exam answers under time pressure still distinguish claims well-supported by evidence from claims that remain uncertain, rather than stating everything with equal confidence?",
+          questionMy:
+              "အချိန်ဖိအားအောက်ရှိ စာမေးပွဲအဖြေများသည် အရာအားလုံးကို Confidence တူညီစွာ ဖော်ပြမည့်အစား Evidence က ကောင်းစွာ ထောက်ခံသော Claim များကို ကျန်ရှိနေသေးသော မသေချာသေးသည့် Claim များနှင့် ဆက်လက် ခွဲခြားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This same intellectual honesty distinction applies under exam time pressure as it did throughout the course -- distinguishing well-evidenced claims from uncertain ones is more credible even in a fast-written answer",
+            "Time pressure justifies stating everything with false, equal confidence regardless of evidence",
+            "Distinguishing evidence quality has no actual value in a timed exam context",
+            "Exam answers should never distinguish any level of certainty about anything",
+          ],
+          optionsMy: [
+            "ဤ Intellectual Honesty ခွဲခြားမှုတူတူသည် Course တစ်လျှောက် ကဲ့သို့ပင် Exam အချိန်ဖိအားအောက်တွင် အသုံးချသည် -- Evidence ကောင်းသော Claim များကို မသေချာသေးသည့်တို့မှ ခွဲခြားခြင်းသည် အလျင်စလို ရေးသားထားသော အဖြေတစ်ခုတွင်ပင် ပို၍ ယုံကြည်ရသည်",
+            "အချိန်ဖိအားသည် Evidence မည်သို့ပင်ရှိစေ အရာအားလုံးကို False, Confidence တူညီစွာ ဖော်ပြရန် ခိုင်လုံစေခြင်း",
+            "Evidence အရည်အသွေး ခွဲခြားခြင်းသည် အချိန်ကန့်သတ် Exam Context တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Exam အဖြေများသည် မည်သည့်အရာအကြောင်းမျှ Certainty အဆင့် မည်သည်မှ ဘယ်တော့မှ မခွဲခြားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Term 8's uncertainty-acknowledgment principle applied to exam writing -- honest hedging under time pressure is still more credible than false confidence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Exam ရေးသားမှုတွင် အသုံးချသော Term 8 ၏ Uncertainty-Acknowledgment Principle ဖြစ်သည် -- အချိန်ဖိအားအောက်ရှိ ရိုးသား Hedging သည် False Confidence ထက် ပို၍ ယုံကြည်ရဆဲ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exam Command Words",
+      titleMy: "တွဲစပ်ကြမည် - Exam Command Word များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w33-dm-1",
+          termEn: "Describe",
+          termMy: "Describe",
+          matchEn:
+              "State what something is like, using details, without explaining why",
+          matchMy:
+              "အကြောင်းရင်း မရှင်းပြဘဲ Detail များ အသုံးပြု၍ တစ်ခုခုသည် မည်သို့ရှိသည်ကို ဖော်ပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w33-dm-2",
+          termEn: "Explain",
+          termMy: "Explain",
+          matchEn: "Give reasons for why something happened or is the case",
+          matchMy:
+              "တစ်ခုခု ဖြစ်ပွားခဲ့ခြင်း (သို့) ဖြစ်သည့် အကြောင်းရင်းများကို ဖော်ပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w33-dm-3",
+          termEn: "Evaluate",
+          termMy: "Evaluate",
+          matchEn:
+              "Weigh the strengths and weaknesses of something to reach a judgement",
+          matchMy:
+              "ကောက်ချက်တစ်ခု ရရှိရန် တစ်ခုခု၏ အားသာချက်နှင့် အားနည်းချက်များကို ချိန်ဆခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w33-dm-4",
+          termEn: "To what extent",
+          termMy: "To What Extent",
+          matchEn:
+              "Judge how far a statement is true, weighing supporting and opposing evidence",
+          matchMy:
+              "ထောက်ခံနှင့် ဆန့်ကျင် Evidence များ ချိန်ဆကာ ဖော်ပြချက်တစ်ခု မည်မျှမှန်ကန်သည်ကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igchum-w33-dm-5",
+          termEn: "Compare",
+          termMy: "Compare",
+          matchEn:
+              "Identify similarities and differences between two or more things",
+          matchMy:
+              "အရာနှစ်ခု (သို့) ထို့ထက်ပို သော အရာများ ကြား ဆင်တူမှုနှင့် ကွာခြားမှုများ ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF009688,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Command or Geography Command?",
+      titleMy: "စီစစ်ကြမည် - History Command (သို့) Geography Command",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Paper 1 (History) Typical Focus",
+          "Paper 2 (Geography) Typical Focus",
+        ],
+        bucketsMy: [
+          "Paper 1 (History) ပုံမှန် Focus",
+          "Paper 2 (Geography) ပုံမှန် Focus",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w33-sort-1",
+            labelEn:
+                "Weighing long-term causes against a short-term trigger event",
+            labelMy:
+                "Long-Term Cause များကို Short-Term Trigger Event တစ်ခုနှင့် ချိန်ဆခြင်း",
+            correctBucketEn: "Paper 1 (History) Typical Focus",
+            correctBucketMy: "Paper 1 (History) ပုံမှန် Focus",
+          ),
+          SortingItem(
+            id: "igchum-w33-sort-2",
+            labelEn:
+                "Citing rainfall or population data for a named real-world location",
+            labelMy:
+                "အမည်ရှိသော Real-World တည်နေရာတစ်ခုအတွက် မိုးရွာသွန်းမှု (သို့) လူဦးရေ Data ကိုးကားခြင်း",
+            correctBucketEn: "Paper 2 (Geography) Typical Focus",
+            correctBucketMy: "Paper 2 (Geography) ပုံမှန် Focus",
+          ),
+          SortingItem(
+            id: "igchum-w33-sort-3",
+            labelEn:
+                "Evaluating the reliability of a primary source's origin and purpose",
+            labelMy:
+                "Primary Source တစ်ခု၏ Origin နှင့် Purpose ၏ Reliability ကို အကဲဖြတ်ခြင်း",
+            correctBucketEn: "Paper 1 (History) Typical Focus",
+            correctBucketMy: "Paper 1 (History) ပုံမှန် Focus",
+          ),
+          SortingItem(
+            id: "igchum-w33-sort-4",
+            labelEn:
+                "Explaining a hazard's physical process using a labelled diagram",
+            labelMy:
+                "Label ပါ Diagram အသုံးပြု၍ Hazard တစ်ခု၏ Physical Process ရှင်းပြခြင်း",
+            correctBucketEn: "Paper 2 (Geography) Typical Focus",
+            correctBucketMy: "Paper 2 (Geography) ပုံမှန် Focus",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Exam Technique Notebook",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Exam Technique မှတ်စုစာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Exam Technique Notebook",
+        titleMy: "Thiha Aung ၏ Exam Technique မှတ်စုစာအုပ်",
+        passageEn:
+            "With the real IGCSE History and Geography examinations approaching, Saya Tun Tun Win dedicated Term 9's opening week to exam technique rather than new content, and Thiha Aung began keeping a dedicated notebook of the patterns he noticed across a full year of course material.\n\nFor Paper 1 History questions, his notebook recorded a recurring pattern: every high-scoring model answer he studied weighed multiple factors against each other rather than defending a single cause, exactly like the causation trial from Term 2 and the democracy-collapse essay from Term 3. A 'How far do you agree' question, he wrote, was never really asking for one right factor -- it was asking for a judgement that had genuinely considered the alternatives before reaching a conclusion.\n\nFor Paper 2 Geography questions, his notebook recorded a different but related pattern: every strong case study answer named a specific real place and cited specific data, exactly like the City Growth Case Study Studio from Term 4 and the Development Case Study Studio from Term 6. A generic answer that could apply to any city or any country, he noted, never scored as highly as one grounded in a real, named example.\n\nAcross both papers, one principle appeared again and again in his notebook: intellectually honest answers distinguished what the evidence could support with confidence from what remained genuinely uncertain, exactly like the hazard mitigation plan's honest hedging from Term 8. Saya Tun Tun Win reviewed the notebook and told Thiha Aung that he had done something more valuable than simply memorizing content -- he had identified the underlying reasoning habits that connected every term of the course, and those habits, not memorized facts alone, were what would carry him through the real examination room.",
+        passageMy:
+            "တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများ နီးကပ်လာသည်နှင့်အမျှ Term 9 ၏ ဖွင့်လှစ် အပတ်ကို အကြောင်းအရာအသစ်အစား Exam Technique အတွက် Saya Tun Tun Win ရွေးချယ်ပေးခဲ့ပြီး Course Material တစ်နှစ်စာ အပြည့်အစုံတစ်လျှောက် ၎င်း သတိပြုမိသော Pattern များကို Thiha Aung မှတ်စုစာအုပ် အထူးတစ်ခုတွင် စတင် သိမ်းဆည်းခဲ့သည်။\n\nPaper 1 History မေးခွန်းများအတွက် ၎င်း၏ မှတ်စုစာအုပ်တွင် ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သော Pattern တစ်ခုကို မှတ်တမ်းတင်ခဲ့သည် - ၎င်း လေ့လာခဲ့သော အမှတ်မြင့်စွာ ရရှိသော Model Answer တိုင်းသည် Term 2 ၏ Causation Trial နှင့် Term 3 ၏ Democracy-Collapse Essay ကဲ့သို့ Cause တစ်ခုတည်းကို ကာကွယ်မည့်အစား Factor များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခဲ့သည်။ 'How Far Do You Agree' မေးခွန်းတစ်ခုသည် Factor မှန်ကန်သည် တစ်ခုတည်းကို တောင်းဆိုနေခြင်း အမှန်တကယ် မဟုတ်ကြောင်း ၎င်း ရေးသားခဲ့သည် -- ၎င်းသည် ကောက်ချက်တစ်ခု ရရှိမီ အခြားရွေးချယ်စရာများကို အမှန်တကယ် ထည့်သွင်းစဉ်းစားထားသော Judgement တစ်ခုကို တောင်းဆိုနေခြင်း ဖြစ်သည်။\n\nPaper 2 Geography မေးခွန်းများအတွက် ၎င်း၏ မှတ်စုစာအုပ်တွင် ကွဲပြားသော်လည်း ဆက်စပ်သော Pattern တစ်ခုကို မှတ်တမ်းတင်ခဲ့သည် - ၎င်း လေ့လာခဲ့သော ခိုင်မာသော Case Study အဖြေတိုင်းသည် Term 4 ၏ City Growth Case Study Studio နှင့် Term 6 ၏ Development Case Study Studio ကဲ့သို့ တိကျသော Real နေရာတစ်ခုကို အမည်ဖော်ပြပြီး တိကျသော Data ကိုးကားခဲ့သည်။ မြို့မည်သည် (သို့) နိုင်ငံမည်သည်ကိုမဆို အသုံးချနိုင်သော Generic အဖြေတစ်ခုသည် Real, အမည်ရှိသော ဥပမာတစ်ခုတွင် အခြေခံသော တစ်ခုကဲ့သို့ ဘယ်တော့မှ အမှတ်မြင့်စွာ မရရှိကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည်။\n\nPaper နှစ်ခုစလုံးတစ်လျှောက် Principle တစ်ခုသည် ၎င်း၏ မှတ်စုစာအုပ်တွင် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သည် - Intellectually ရိုးသားသော အဖြေများသည် Term 8 ၏ Hazard Mitigation Plan ၏ ရိုးသား Hedging ကဲ့သို့ Evidence က ယုံကြည်စိတ်ချစွာ ထောက်ခံနိုင်သည်ကို စစ်မှန်စွာ မသေချာသေးသည့်တို့မှ ခွဲခြားခဲ့သည်။ မှတ်စုစာအုပ်ကို Saya Tun Tun Win ပြန်လည်သုံးသပ်ကာ Content ကို ရိုးရှင်းစွာ အလွတ်ကျက်ခြင်းထက် ပို၍ တန်ဖိုးရှိသော အရာတစ်ခုခုကို သူ ပြုလုပ်ခဲ့ကြောင်း Thiha Aung အား ပြောပြခဲ့သည် -- Course ၏ Term တိုင်းကို ချိတ်ဆက်ပေးသော အခြေခံ Reasoning အလေ့အထများကို ၎င်း ဖော်ထုတ်ခဲ့ပြီး ထို အလေ့အထများသည် အလွတ်ကျက် Fact များသာ မဟုတ်ဘဲ တကယ့် စာမေးပွဲခန်းမတွင် ၎င်းကို ကျော်ဖြတ်နိုင်စေမည့် အရာများ ဖြစ်ကြောင်း Saya Tun Tun Win ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what pattern did Thiha Aung notice in high-scoring Paper 1 answers?",
+            questionMy:
+                "အမှတ်မြင့်စွာ ရရှိသော Paper 1 အဖြေများတွင် Thiha Aung သတိပြုမိသော Pattern ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They weighed multiple factors against each other rather than defending a single cause",
+              "They defended only one factor and ignored every alternative",
+              "They contained no reasoning of any kind whatsoever",
+              "They never actually referenced any historical factor at all",
+            ],
+            optionsMy: [
+              "Cause တစ်ခုတည်းကို ကာကွယ်မည့်အစား Factor များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခဲ့ခြင်း",
+              "Factor တစ်ခုတည်းကိုသာ ကာကွယ်ပြီး အခြားရွေးချယ်စရာအားလုံးကို လျစ်လျူရှုခဲ့ခြင်း",
+              "Reasoning မည်သည်မှ လုံးဝ မပါဝင်ခြင်း",
+              "သမိုင်းဆိုင်ရာ Factor မည်သည်ကိုမျှ အမှန်တကယ် ရည်ညွှန်းခြင်း လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's Paper 1 pattern."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Paper 1 Pattern ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what made a Paper 2 case study answer strong?",
+            questionMy:
+                "Paper 2 Case Study အဖြေတစ်ခုကို ခိုင်မာစေသော အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Naming a specific real place and citing specific data rather than staying generic",
+              "Staying entirely generic and avoiding any named place or data",
+              "Ignoring case studies from earlier terms of the course entirely",
+              "Making up data without any real-world basis whatsoever",
+            ],
+            optionsMy: [
+              "Generic မနေဘဲ တိကျသော Real နေရာတစ်ခုကို အမည်ဖော်ပြပြီး တိကျသော Data ကိုးကားခြင်း",
+              "Generic အားလုံး နေပြီး အမည်ရှိသော နေရာ (သို့) Data မည်သည်ကိုမျှ ရှောင်ရှားခြင်း",
+              "Course ၏ အစောပိုင်း Term များမှ Case Study များကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "Real-World အခြေခံ မည်သည်မှ မပါဘဲ Data လုပ်ကြံခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's Paper 2 pattern."],
+            hintsMy: ["တတိယ စာပိုဒ်၏ Paper 2 Pattern ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what principle appeared across both papers in Thiha Aung's notebook?",
+            questionMy:
+                "Paper နှစ်ခုစလုံးတစ်လျှောက် Thiha Aung ၏ မှတ်စုစာအုပ်တွင် ပေါ်လာသော Principle ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Distinguishing what the evidence could support with confidence from what remained genuinely uncertain",
+              "Claiming complete certainty about every single fact with no exceptions",
+              "Ignoring the actual evidence entirely in every exam answer",
+              "Avoiding any judgement or conclusion of any kind whatsoever",
+            ],
+            optionsMy: [
+              "Evidence က ယုံကြည်စိတ်ချစွာ ထောက်ခံနိုင်သည်ကို စစ်မှန်စွာ မသေချာသေးသည့်တို့မှ ခွဲခြားခြင်း",
+              "ခြွင်းချက်မရှိဘဲ Fact တစ်ခုစီအကြောင်း Complete Certainty Claim ပြုလုပ်ခြင်း",
+              "Exam အဖြေတိုင်းတွင် Actual Evidence ကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "Judgement (သို့) ကောက်ချက် မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's shared principle."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ မျှဝေထားသော Principle ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w33-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Exam Technique Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Exam Technique မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong 'How far do you agree' answer should...",
+          questionMy: "ခိုင်မာသော 'How Far Do You Agree' အဖြေတစ်ခုသည် ...",
+          optionsEn: [
+            "Weigh multiple factors against each other before reaching a judgement",
+            "Defend only one factor and ignore every alternative",
+            "Avoid reaching any judgement at all",
+            "State every factor with no reasoning whatsoever",
+          ],
+          optionsMy: [
+            "ကောက်ချက်တစ်ခု မရမီ Factor များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆသင့်သည်",
+            "Factor တစ်ခုတည်းကိုသာ ကာကွယ်ပြီး အခြားအားလုံးကို လျစ်လျူရှုသင့်သည်",
+            "ကောက်ချက် မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားသင့်သည်",
+            "Reasoning မပါဘဲ Factor တိုင်းကို ဖော်ပြသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong Paper 2 case study answer should...",
+          questionMy: "ခိုင်မာသော Paper 2 Case Study အဖြေတစ်ခုသည် ...",
+          optionsEn: [
+            "Name a specific real place and cite specific data",
+            "Stay entirely generic with no named place",
+            "Avoid citing any data whatsoever",
+            "Describe a place that does not actually exist",
+          ],
+          optionsMy: [
+            "တိကျသော Real နေရာတစ်ခုကို အမည်ဖော်ပြပြီး တိကျသော Data ကိုးကားသင့်သည်",
+            "အမည်ရှိသော နေရာမပါဘဲ Generic အားလုံး နေသင့်သည်",
+            "Data မည်သည်ကိုမျှ ကိုးကားခြင်း ရှောင်ရှားသင့်သည်",
+            "အမှန်တကယ် မတည်ရှိသော နေရာတစ်ခုကို ဖော်ပြသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Even under exam time pressure, intellectually honest answers should...",
+          questionMy:
+              "Exam အချိန်ဖိအားအောက်တွင်ပင် Intellectually ရိုးသားသော အဖြေများသည် ...",
+          optionsEn: [
+            "Distinguish well-evidenced claims from genuinely uncertain ones",
+            "State everything with equal, false confidence",
+            "Ignore the quality of evidence entirely",
+            "Avoid distinguishing any level of certainty",
+          ],
+          optionsMy: [
+            "Evidence ကောင်းသော Claim များကို စစ်မှန်စွာ မသေချာသေးသည့်တို့မှ ခွဲခြားသင့်သည်",
+            "အရာအားလုံးကို False, Confidence တူညီစွာ ဖော်ပြသင့်သည်",
+            "Evidence အရည်အသွေးကို လုံးဝ လျစ်လျူရှုသင့်သည်",
+            "Certainty အဆင့် မည်သည်ကိုမျှ ခွဲခြားခြင်း ရှောင်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 9, Week 34: "Structuring Essays and
+// Extended Writing"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek34 = CourseWeekDef(
+  id: "course-igcse-hum-w34",
+  weekNumber: 34,
+  titleEn: "Structuring Essays and Extended Writing",
+  titleMy: "Essay များ Structure ချခြင်းနှင့် Extended Writing",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w34-d1",
+      dayNumber: 1,
+      titleEn: "Building a Paragraph: Point, Evidence, Explanation, Link",
+      titleMy:
+          "Paragraph တစ်ခု တည်ဆောက်ခြင်း - Point, Evidence, Explanation, Link",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a strong extended-writing paragraph explain how its evidence supports its point, rather than stopping after simply stating the evidence?",
+          questionMy:
+              "ခိုင်မာသော Extended-Writing Paragraph တစ်ခုသည် Evidence ကို ရိုးရိုး ဖော်ပြပြီး ရပ်တန့်မည့်အစား ၎င်း၏ Evidence သည် ၎င်း၏ Point ကို မည်သို့ ထောက်ခံသည်ကို ရှင်းပြသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Stated evidence alone does not show the examiner the reasoning connecting it to the point; explaining the link demonstrates the analytical thinking that earns higher marks",
+            "Evidence never actually needs to be connected to the point being made",
+            "Stopping after stating evidence always earns the highest possible marks",
+            "Explaining a link between evidence and a point has no actual value in extended writing",
+          ],
+          optionsMy: [
+            "Evidence ဖော်ပြရုံသက်သက်သည် ၎င်းကို Point သို့ ချိတ်ဆက်သော Reasoning ကို Examiner အား ပြသခြင်း မဟုတ်ပါ၊ Link ကို ရှင်းပြခြင်းသည် အမှတ်ပိုမိုရရှိစေသော Analytical Thinking ကို ပြသသည်",
+            "Evidence သည် ပြုလုပ်နေသော Point နှင့် အမှန်တကယ် ချိတ်ဆက်ရန် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Evidence ဖော်ပြပြီးနောက် ရပ်တန့်ခြင်းသည် ဖြစ်နိုင်သမျှ အမှတ်အမြင့်ဆုံး အမြဲ ရရှိခြင်း",
+            "Evidence နှင့် Point ကြား Link ရှင်းပြခြင်းသည် Extended Writing တွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 6's evidence-based-recommendation lesson -- stating a fact is not the same as explaining why it supports a conclusion.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Evidence-Based-Recommendation သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Fact တစ်ခု ဖော်ပြခြင်းသည် ၎င်းသည် ကောက်ချက်တစ်ခုကို အဘယ်ကြောင့် ထောက်ခံသည်ကို ရှင်းပြခြင်းနှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a paragraph's final 'link' sentence connect back explicitly to the essay question, rather than simply restating the paragraph's evidence again?",
+          questionMy:
+              "Paragraph တစ်ခု၏ နောက်ဆုံး 'Link' စာကြောင်းသည် Paragraph ၏ Evidence ကို ထပ်မံ ပြန်ဖော်ပြမည့်အစား Essay မေးခွန်းသို့ ပြန်လည် ရှင်းလင်းစွာ ချိတ်ဆက်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An explicit connection back to the question shows the examiner the paragraph directly answers what was asked, rather than being interesting but disconnected content",
+            "Restating evidence again always earns more marks than connecting back to the question",
+            "The essay question has no actual relevance to how a paragraph should end",
+            "A paragraph's final sentence should never actually reference the question at all",
+          ],
+          optionsMy: [
+            "မေးခွန်းသို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်ခြင်းသည် Paragraph သည် စိတ်ဝင်စားဖွယ်ဖြစ်သော်လည်း ချိတ်ဆက်မှုမရှိသော Content မဟုတ်ဘဲ မေးထားသည်ကို တိုက်ရိုက် ဖြေဆိုနေကြောင်း Examiner အား ပြသသည်",
+            "Evidence ကို ထပ်မံ ပြန်ဖော်ပြခြင်းသည် မေးခွန်းသို့ ပြန်ချိတ်ဆက်ခြင်းထက် အမှတ် ပို၍ အမြဲ ရရှိခြင်း",
+            "Essay မေးခွန်းသည် Paragraph တစ်ခု မည်သို့ ဆုံးသင့်သည်နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            "Paragraph တစ်ခု၏ နောက်ဆုံးစာကြောင်းသည် မေးခွန်းကို အမှန်တကယ် ဘယ်တော့မှ ရည်ညွှန်းခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Monday's earlier lesson applied further -- the point-evidence-explanation chain should ultimately serve the specific question asked, exactly like a well-targeted mitigation plan from Term 8.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ပို၍ အသုံးချထားသော တနင်္လာနေ့၏ အစောပိုင်း သင်ခန်းစာ ဖြစ်သည် -- Point-Evidence-Explanation Chain သည် Term 8 ၏ ကောင်းစွာ Target ချထားသော Mitigation Plan တစ်ခုကဲ့သို့ တောင်းဆိုထားသော တိကျသော မေးခွန်းကို နောက်ဆုံးတွင် ဝန်ဆောင်ပေးသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should an essay's introduction briefly signal the line of argument the essay will take, rather than simply restating the question with no indication of direction?",
+          questionMy:
+              "Essay တစ်ခု၏ Introduction သည် လမ်းညွှန် မည်သည့် ညွှန်ပြချက်မျှ မပါဘဲ မေးခွန်းကို ရိုးရိုး ပြန်ဖော်ပြမည့်အစား Essay ကိုင်ဆောင်မည့် Argument လမ်းကြောင်းကို အကျဉ်းချုပ် ညွှန်ပြသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Signaling the argument's direction early helps the examiner follow the essay's logic from the start, showing planned, purposeful writing rather than an undirected list of paragraphs",
+            "An introduction should never actually indicate any direction of argument",
+            "Simply restating the question with no direction always earns the highest marks",
+            "The direction of an essay's argument has no actual relevance to its introduction",
+          ],
+          optionsMy: [
+            "Argument ၏ လမ်းကြောင်းကို စောစီးစွာ ညွှန်ပြခြင်းသည် Essay ၏ Logic ကို အစမှစ၍ Examiner လိုက်ပါနားလည်ရန် ကူညီပေးကာ ညွှန်ကြောင်းမဲ့ Paragraph စာရင်းတစ်ခု မဟုတ်ဘဲ စီစဉ်ထားသော၊ ရည်ရွယ်ချက်ရှိသော ရေးသားမှုကို ပြသသည်",
+            "Introduction တစ်ခုသည် Argument ၏ လမ်းကြောင်းကို အမှန်တကယ် ဘယ်တော့မှ မညွှန်ပြသင့်ခြင်း",
+            "လမ်းကြောင်း မပါဘဲ မေးခွန်းကို ရိုးရိုး ပြန်ဖော်ပြခြင်းသည် အမှတ်အမြင့်ဆုံး အမြဲ ရရှိခြင်း",
+            "Essay ၏ Argument လမ်းကြောင်းသည် ၎င်း၏ Introduction နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 3's dictatorship-collapse capstone essay -- a planned causal chain, signaled from the start, reads as far stronger than an unplanned list of points.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ Dictatorship-Collapse Capstone Essay နှင့် ချိတ်ဆက်သည် -- အစမှစ၍ ညွှန်ပြထားသော စီစဉ်ထားသော Causal Chain တစ်ခုသည် စီစဉ်မထားသော Point စာရင်းတစ်ခုထက် ပို၍ ခိုင်မာစွာ ဖတ်ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Essay Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Essay Structure Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w34-dm-1",
+          termEn: "Point",
+          termMy: "Point",
+          matchEn:
+              "The paragraph's main claim, stated clearly in its first sentence",
+          matchMy:
+              "၎င်း၏ ပထမ စာကြောင်းတွင် ရှင်းလင်းစွာ ဖော်ပြထားသော Paragraph ၏ Main Claim",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w34-dm-2",
+          termEn: "Evidence",
+          termMy: "Evidence",
+          matchEn:
+              "Specific facts, data, or source content that supports the point",
+          matchMy:
+              "Point ကို ထောက်ခံသော တိကျသော Fact, Data, (သို့) Source Content",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w34-dm-3",
+          termEn: "Explanation",
+          termMy: "Explanation",
+          matchEn:
+              "The reasoning connecting the evidence to why the point is true",
+          matchMy:
+              "Point မှန်ကန်သည့် အကြောင်းရင်းသို့ Evidence ကို ချိတ်ဆက်ပေးသော Reasoning",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w34-dm-4",
+          termEn: "Link",
+          termMy: "Link",
+          matchEn:
+              "The final sentence connecting the paragraph back to the essay question",
+          matchMy:
+              "Paragraph ကို Essay မေးခွန်းသို့ ပြန်ချိတ်ဆက်ပေးသော နောက်ဆုံးစာကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Structured or Poorly-Structured Paragraph?",
+      titleMy:
+          "စီစစ်ကြမည် - Well-Structured (သို့) Poorly-Structured Paragraph",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Well-Structured Paragraph", "Poorly-Structured Paragraph"],
+        bucketsMy: ["Well-Structured Paragraph", "Poorly-Structured Paragraph"],
+        items: [
+          SortingItem(
+            id: "igchum-w34-sort-1",
+            labelEn:
+                "A paragraph stating a point, citing evidence, explaining the link, then connecting back to the question",
+            labelMy:
+                "Point ဖော်ပြပြီး Evidence ကိုးကားကာ Link ရှင်းပြပြီးနောက် မေးခွန်းသို့ ပြန်ချိတ်ဆက်သော Paragraph",
+            correctBucketEn: "Well-Structured Paragraph",
+            correctBucketMy: "Well-Structured Paragraph",
+          ),
+          SortingItem(
+            id: "igchum-w34-sort-2",
+            labelEn:
+                "A paragraph stating evidence with no explanation of how it connects to any point",
+            labelMy:
+                "Point မည်သည်နှင့်မျှ မည်သို့ ချိတ်ဆက်သည်ကို ရှင်းပြခြင်း မပါဘဲ Evidence ဖော်ပြသော Paragraph",
+            correctBucketEn: "Poorly-Structured Paragraph",
+            correctBucketMy: "Poorly-Structured Paragraph",
+          ),
+          SortingItem(
+            id: "igchum-w34-sort-3",
+            labelEn:
+                "An introduction briefly signaling the essay's line of argument before the main paragraphs",
+            labelMy:
+                "Main Paragraph များမတိုင်မီ Essay ၏ Argument လမ်းကြောင်းကို အကျဉ်းချုပ် ညွှန်ပြသော Introduction",
+            correctBucketEn: "Well-Structured Paragraph",
+            correctBucketMy: "Well-Structured Paragraph",
+          ),
+          SortingItem(
+            id: "igchum-w34-sort-4",
+            labelEn:
+                "A paragraph ending with unrelated content instead of linking back to the question",
+            labelMy:
+                "မေးခွန်းသို့ ပြန်ချိတ်ဆက်မည့်အစား မသက်ဆိုင်သော Content ဖြင့် ဆုံးသော Paragraph",
+            correctBucketEn: "Poorly-Structured Paragraph",
+            correctBucketMy: "Poorly-Structured Paragraph",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Practice Essay Feedback",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Practice Essay Feedback",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Practice Essay Feedback",
+        titleMy: "Thiha Aung ၏ Practice Essay Feedback",
+        passageEn:
+            "For Week 34's extended-writing practice, Saya Tun Tun Win asked Thiha Aung to write a full practice essay on the causes of the Cold War and gave detailed feedback afterward, focused entirely on structure rather than content accuracy.\n\nHis first draft, Saya Tun Tun Win noted, contained accurate facts about ideological rivalry, the Berlin Blockade, and the Cuban Missile Crisis, but several paragraphs simply stated evidence without explaining how it supported the paragraph's opening point. 'You have the facts,' Saya Tun Tun Win wrote in the margin, 'but the reader has to guess why you included them. Show the reasoning, don't make me find it myself.'\n\nThiha Aung's second draft added an explanation sentence to every paragraph, explicitly connecting each piece of evidence back to its point before moving on. He also added a final link sentence to each paragraph, connecting it back to the essay's central question about which factor most shaped the Cold War's trajectory -- directly echoing the mock trial structure from Term 7.\n\nReviewing the revised draft, Saya Tun Tun Win praised the transformation: the same historical knowledge, organized so that every sentence visibly served the argument rather than simply listing facts. 'This is what separates a good essay from an excellent one,' Saya Tun Tun Win said. 'Not more facts -- clearer reasoning connecting the facts you already have to the question you were actually asked.'",
+        passageMy:
+            "Week 34 ၏ Extended-Writing Practice အတွက် Cold War ၏ အကြောင်းရင်းများအကြောင်း Practice Essay အပြည့်အစုံ တစ်ခု ရေးသားရန် Thiha Aung အား Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး Content တိကျမှုထက် Structure ကို လုံးလုံး Focus ပြုသော အသေးစိတ် Feedback တစ်ခု နောက်မှ ပေးခဲ့သည်။\n\n၎င်း၏ ပထမ Draft တွင် Ideological Rivalry, Berlin Blockade နှင့် Cuban Missile Crisis အကြောင်း တိကျသော Fact များ ပါဝင်ခဲ့သော်လည်း Paragraph အများအပြားသည် ၎င်း Paragraph ၏ ဖွင့်လှစ် Point ကို မည်သို့ ထောက်ခံသည်ကို ရှင်းပြခြင်း မပြုဘဲ Evidence ကို ရိုးရိုး ဖော်ပြခဲ့ကြောင်း Saya Tun Tun Win မှတ်ချက်ပြုခဲ့သည်။ 'သင့်တွင် Fact များ ရှိသည်' ဟု Saya Tun Tun Win Margin တွင် ရေးသားခဲ့သည်၊ 'သို့သော် ဖတ်ရှုသူသည် သင် ၎င်းတို့ကို အဘယ်ကြောင့် ထည့်သွင်းခဲ့သည်ကို ခန့်မှန်းရမည်။ Reasoning ကို ပြပါ၊ ကျွန်ုပ်ကိုယ်တိုင် ရှာဖွေရန် မလိုအပ်စေပါနှင့်။'\n\nThiha Aung ၏ ဒုတိယ Draft သည် ဆက်လက် မတိုင်မီ Evidence တစ်ခုစီကို ၎င်း၏ Point သို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်ကာ Paragraph တိုင်းတွင် Explanation စာကြောင်းတစ်ခု ထပ်မံ ထည့်သွင်းခဲ့သည်။ Term 7 ၏ Mock Trial Structure ကို တိုက်ရိုက် ထပ်လောင်းကာ Cold War ၏ Trajectory ကို Factor မည်သည် အများဆုံး ပုံဖော်ခဲ့သည်ဆိုသော Essay ၏ ဗဟိုချက် မေးခွန်းသို့ ပြန်ချိတ်ဆက်ပေးသော နောက်ဆုံး Link စာကြောင်းတစ်ခုကိုလည်း Paragraph တစ်ခုစီတွင် ၎င်း ထပ်မံ ထည့်သွင်းခဲ့သည်။\n\nတည်းဖြတ်ထားသော Draft ကို ပြန်လည်သုံးသပ်ကာ Saya Tun Tun Win သည် ပြောင်းလဲမှုကို ချီးမွမ်းခဲ့သည် - သမိုင်းဆိုင်ရာ အသိပညာ တူတူသော်လည်း Fact များကို ရိုးရိုး စာရင်းပြုစုမည့်အစား စာကြောင်းတိုင်းသည် Argument ကို မြင်သာစွာ ဝန်ဆောင်စေရန် စီစဉ်ထားသည်။ 'ဤသည်ကား ကောင်းသော Essay တစ်ခုနှင့် ထူးချွန်သော Essay တစ်ခုကို ကွဲပြားစေသော အရာ ဖြစ်သည်' ဟု Saya Tun Tun Win ပြောခဲ့သည်။ 'Fact ပိုများခြင်း မဟုတ်ဘဲ -- သင့်တွင် ရှိပြီးသား Fact များကို အမှန်တကယ် မေးခဲ့သော မေးခွန်းသို့ ချိတ်ဆက်ပေးသော ရှင်းလင်းသော Reasoning ဖြစ်သည်။'",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what problem did Saya Tun Tun Win identify in Thiha Aung's first draft?",
+            questionMy:
+                "Thiha Aung ၏ ပထမ Draft တွင် Saya Tun Tun Win ဖော်ထုတ်ခဲ့သော ပြဿနာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Several paragraphs stated evidence without explaining how it supported the paragraph's point",
+              "The essay contained no historical facts of any kind whatsoever",
+              "Every paragraph already explained its evidence perfectly with no issues",
+              "The essay was about a completely unrelated historical topic",
+            ],
+            optionsMy: [
+              "Paragraph ၏ Point ကို Evidence မည်သို့ ထောက်ခံသည်ကို ရှင်းပြခြင်း မပြုဘဲ Paragraph အများအပြားသည် Evidence ဖော်ပြခဲ့ခြင်း",
+              "Essay တွင် သမိုင်းဆိုင်ရာ Fact မည်သည်မှ လုံးဝ မပါဝင်ခြင်း",
+              "Paragraph တိုင်းသည် ပြဿနာ မရှိဘဲ ၎င်း၏ Evidence ကို အပြည့်အစုံ ရှင်းပြပြီးသား ဖြစ်ခြင်း",
+              "Essay သည် လုံးဝ မသက်ဆိုင်သော သမိုင်းဆိုင်ရာ ခေါင်းစဉ်တစ်ခုအကြောင်း ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identified problem."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖော်ထုတ်ထားသော ပြဿနာကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what two additions did Thiha Aung's second draft include?",
+            questionMy:
+                "Thiha Aung ၏ ဒုတိယ Draft ထည့်သွင်းခဲ့သော ထပ်ဆောင်းချက် နှစ်ခုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An explanation sentence connecting evidence to its point, and a final link sentence connecting back to the question",
+              "No additions of any kind were made to the second draft whatsoever",
+              "New evidence with no explanation or connection to the essay's question",
+              "A completely different topic unrelated to the Cold War",
+            ],
+            optionsMy: [
+              "Evidence ကို ၎င်း၏ Point သို့ ချိတ်ဆက်ပေးသော Explanation စာကြောင်းနှင့် မေးခွန်းသို့ ပြန်ချိတ်ဆက်ပေးသော နောက်ဆုံး Link စာကြောင်း",
+              "ဒုတိယ Draft တွင် ထပ်ဆောင်းချက် မည်သည်မှ လုံးဝ မပြုလုပ်ခြင်း",
+              "Essay ၏ မေးခွန်းသို့ Explanation (သို့) Connection မပါဘဲ Evidence အသစ်",
+              "Cold War နှင့် လုံးဝ မသက်ဆိုင်သော ကွဲပြားသော ခေါင်းစဉ်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's two additions."],
+            hintsMy: ["တတိယ စာပိုဒ်၏ ထပ်ဆောင်းချက် နှစ်ခုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win say separates a good essay from an excellent one?",
+            questionMy:
+                "ကောင်းသော Essay တစ်ခုနှင့် ထူးချွန်သော Essay တစ်ခုကို ကွဲပြားစေသည်ဟု Saya Tun Tun Win ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Clearer reasoning connecting existing facts to the actual question asked, not simply more facts",
+              "Simply including more facts with no additional reasoning of any kind",
+              "Avoiding any connection between facts and the question entirely",
+              "Writing the longest possible essay regardless of its actual reasoning",
+            ],
+            optionsMy: [
+              "Fact ပိုများခြင်း မဟုတ်ဘဲ ရှိပြီးသား Fact များကို အမှန်တကယ် မေးခဲ့သော မေးခွန်းသို့ ချိတ်ဆက်ပေးသော ရှင်းလင်းသော Reasoning",
+              "Reasoning ထပ်ဆောင်းခြင်း မည်သည်မှ မပါဘဲ Fact ပိုများခြင်း",
+              "Fact များနှင့် မေးခွန်းကြား ချိတ်ဆက်မှု မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားခြင်း",
+              "၎င်း၏ Actual Reasoning မည်သို့ပင်ရှိစေ ဖြစ်နိုင်သမျှ အရှည်ဆုံး Essay ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated distinction."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော ခွဲခြားချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w34-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Essay Structure Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Essay Structure မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A well-structured paragraph follows the pattern...",
+          questionMy:
+              "ကောင်းစွာ Structure ချထားသော Paragraph တစ်ခုသည် ...ပုံစံကို လိုက်နာသည်",
+          optionsEn: [
+            "Point, Evidence, Explanation, Link",
+            "Evidence alone with no other elements",
+            "Random facts with no structure whatsoever",
+            "Only a link with no point or evidence",
+          ],
+          optionsMy: [
+            "Point, Evidence, Explanation, Link",
+            "အခြား Element မပါဘဲ Evidence တစ်ခုတည်း",
+            "Structure မည်သည်မှ မပါဘဲ ကျပန်း Fact များ",
+            "Point (သို့) Evidence မပါဘဲ Link တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The 'explanation' part of a paragraph should...",
+          questionMy: "Paragraph တစ်ခု၏ 'Explanation' အပိုင်းသည် ...",
+          optionsEn: [
+            "Connect the evidence to why the point is true",
+            "Simply restate the evidence again",
+            "Introduce unrelated new evidence",
+            "Avoid any reasoning whatsoever",
+          ],
+          optionsMy: [
+            "Point မှန်ကန်သည့် အကြောင်းရင်းသို့ Evidence ကို ချိတ်ဆက်သင့်သည်",
+            "Evidence ကို ရိုးရိုး ထပ်ပြန်ဖော်ပြသင့်သည်",
+            "မသက်ဆိုင်သော Evidence အသစ် မိတ်ဆက်သင့်သည်",
+            "Reasoning မည်သည်ကိုမျှ ရှောင်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An essay's introduction should...",
+          questionMy: "Essay တစ်ခု၏ Introduction သည် ...",
+          optionsEn: [
+            "Briefly signal the line of argument the essay will take",
+            "Simply restate the question with no direction",
+            "Contain the essay's full conclusion word for word",
+            "Avoid mentioning the question at all",
+          ],
+          optionsMy: [
+            "Essay ကိုင်ဆောင်မည့် Argument လမ်းကြောင်းကို အကျဉ်းချုပ် ညွှန်ပြသင့်သည်",
+            "လမ်းကြောင်း မပါဘဲ မေးခွန်းကို ရိုးရိုး ပြန်ဖော်ပြသင့်သည်",
+            "Essay ၏ ကောက်ချက်အပြည့်အစုံကို စကားလုံးအတိုင်း ပါဝင်သင့်သည်",
+            "မေးခွန်းအကြောင်း လုံးဝ မဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 9, Week 35: "Full Mock Exam Simulations"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek35 = CourseWeekDef(
+  id: "course-igcse-hum-w35",
+  weekNumber: 35,
+  titleEn: "Full Mock Exam Simulations",
+  titleMy: "Mock Exam Simulation အပြည့်အစုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w35-d1",
+      dayNumber: 1,
+      titleEn: "Managing Time Across a Full Paper",
+      titleMy: "Paper အပြည့်အစုံတစ်ခုတစ်လျှောက် အချိန်စီမံခန့်ခွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a candidate allocate exam time roughly in proportion to each question's mark value, rather than spending equal time on every question regardless of marks?",
+          questionMy:
+              "စာမေးပွဲဖြေဆိုသူတစ်ဦးသည် အမှတ်မည်သို့ပင်ရှိစေ မေးခွန်းတိုင်းတွင် အချိန်တူညီစွာ အသုံးပြုမည့်အစား မေးခွန်းတစ်ခုစီ၏ Mark Value နှင့် အချိုးကျစွာ Exam အချိန်ကို ခွဲဝေသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Spending disproportionate time on a low-mark question leaves too little time for a high-mark question, reducing total achievable marks across the whole paper",
+            "Time allocation has no actual relationship to a question's mark value",
+            "Every question should always receive exactly the same amount of time regardless of marks",
+            "Spending the most time on the lowest-mark question always maximizes total marks",
+          ],
+          optionsMy: [
+            "Mark နည်းသော မေးခွန်းတစ်ခုတွင် အချိန် မမျှတစွာ အသုံးပြုခြင်းသည် Mark များသော မေးခွန်းတစ်ခုအတွက် အချိန် လွန်စွာ နည်းပါးစေကာ Paper တစ်ခုလုံးတစ်လျှောက် စုစုပေါင်း ရရှိနိုင်သော Mark ကို လျော့ကျစေသည်",
+            "အချိန် ခွဲဝေမှုသည် မေးခွန်းတစ်ခု၏ Mark Value နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Mark မည်သို့ပင်ရှိစေ မေးခွန်းတိုင်းသည် အတိအကျ အချိန်တူညီစွာ အမြဲ ရရှိသင့်ခြင်း",
+            "Mark အနည်းဆုံး မေးခွန်းတွင် အချိန် အများဆုံး အသုံးပြုခြင်းသည် စုစုပေါင်း Mark ကို အမြဲ အများဆုံး ဖြစ်စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 8's evidence-based resource-allocation lesson -- limited time, like limited mitigation budget, should be allocated according to evidenced priority (here, mark value).",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 8 ၏ Evidence-Based Resource-Allocation သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ကန့်သတ်ထားသော Mitigation Budget ကဲ့သို့ ကန့်သတ်ထားသော အချိန်ကို Evidenced ဦးစားပေးမှု (ဤနေရာတွင် Mark Value) အလိုက် ခွဲဝေသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it strategically wise to attempt every question on a paper, even briefly, rather than leaving a difficult question completely blank?",
+          questionMy:
+              "ခက်ခဲသော မေးခွန်းတစ်ခုကို လုံးဝ ဗလာချန်ထားမည့်အစား Paper တစ်ခုပေါ်ရှိ မေးခွန်းတိုင်းကို အတို‌ငယ်မျှဖြစ်စေ ကြိုးစားဖြေဆိုခြင်းသည် Strategic အရ ပညာသားရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A blank answer guarantees zero marks, while even a brief, partially correct attempt has a real chance of earning some marks",
+            "A blank answer always earns exactly the same marks as any attempted answer",
+            "Attempting a difficult question always guarantees full marks regardless of quality",
+            "Leaving questions blank has no actual effect on a paper's total score",
+          ],
+          optionsMy: [
+            "ဗလာ အဖြေတစ်ခုသည် Mark သုည ကို အာမခံပေးသော်လည်း အတိုငယ်မျှ၊ တစ်စိတ်တစ်ပိုင်း မှန်ကန်သော ကြိုးစားမှုတစ်ခုသည် Mark အချို့ ရရှိနိုင်ခြေ အစစ်အမှန် ရှိသည်",
+            "ဗလာ အဖြေတစ်ခုသည် ကြိုးစားဖြေဆိုထားသော အဖြေမည်သည်နှင့်မဆို အတိအကျ Mark တူညီစွာ အမြဲ ရရှိခြင်း",
+            "ခက်ခဲသော မေးခွန်းတစ်ခု ကြိုးစားဖြေဆိုခြင်းသည် အရည်အသွေး မည်သို့ပင်ရှိစေ အမှတ်အပြည့် အာမခံသည်",
+            "မေးခွန်းများကို ဗလာချန်ထားခြင်းသည် Paper တစ်ခု၏ စုစုပေါင်း Score အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 8's uncertainty-acknowledgment principle -- an honest partial attempt under uncertainty is more valuable than no attempt at all, exactly as an honest hedged plan is more credible than no plan.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 8 ၏ Uncertainty-Acknowledgment Principle နှင့် ချိတ်ဆက်သည် -- ရိုးသား Hedged Plan တစ်ခုသည် Plan လုံးဝ မရှိသည်ထက် ပို၍ ယုံကြည်ရသကဲ့သို့ Uncertainty အောက်ရှိ ရိုးသား တစ်စိတ်တစ်ပိုင်း ကြိုးစားမှုတစ်ခုသည် ကြိုးစားမှု လုံးဝ မရှိသည်ထက် ပို၍ တန်ဖိုးရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a candidate briefly reread their answers if time remains at the end of a paper, rather than assuming the first draft is final?",
+          questionMy:
+              "Paper တစ်ခု၏ အဆုံးတွင် အချိန် ကျန်ရှိနေပါက ပထမ Draft သည် နောက်ဆုံးဖြစ်သည်ဟု ယူဆမည့်အစား စာမေးပွဲဖြေဆိုသူသည် ၎င်း၏ အဖြေများကို အတို‌ငယ်မျှ ပြန်ဖတ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A brief review can catch missed evidence, unclear explanations, or errors that would otherwise cost marks, improving the answer's quality with genuinely no additional cost",
+            "The first draft of any exam answer is always perfect and requires no review",
+            "Reviewing answers at the end of an exam has no actual value whatsoever",
+            "Rereading answers always makes them worse and should be avoided entirely",
+          ],
+          optionsMy: [
+            "အတိုငယ်မျှ Review တစ်ခုသည် Mark ဆုံးရှုံးစေမည့် လွတ်သွားသော Evidence, မရှင်းလင်းသော Explanation, (သို့) အမှားများကို ဖမ်းယူနိုင်ကာ ထပ်ဆောင်း Cost အမှန်တကယ် မရှိဘဲ အဖြေ၏ အရည်အသွေးကို တိုးတက်စေသည်",
+            "Exam အဖြေ မည်သည်၏ ပထမ Draft သည် Review မလိုအပ်ဘဲ အမြဲ ပြည့်စုံခြင်း",
+            "Exam အဆုံးတွင် အဖြေများ ပြန်လည်သုံးသပ်ခြင်းသည် အမှန်တကယ် တန်ဖိုး မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "အဖြေများ ပြန်ဖတ်ခြင်းသည် ၎င်းတို့ကို အမြဲ ပို၍ ဆိုးဆိုးရွားရွား ဖြစ်စေပြီး လုံးဝ ရှောင်ရှားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mirrors Week 34's revision-improves-quality lesson from Thiha Aung's essay feedback -- reviewing and revising, even briefly, tends to strengthen rather than weaken a written answer.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Thiha Aung ၏ Essay Feedback မှ Week 34 ၏ Revision-Improves-Quality သင်ခန်းစာကို ထပ်လောင်းသည် -- Review ပြုလုပ်ပြီး ပြန်လည်ပြင်ဆင်ခြင်းသည် အတိုငယ်မျှဖြစ်စေ ရေးသားထားသော အဖြေတစ်ခုကို အားနည်းစေမည့်အစား အား‌ကောင်းစေတတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exam Strategy Terms",
+      titleMy: "တွဲစပ်ကြမည် - Exam Strategy Term များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w35-dm-1",
+          termEn: "Time allocation",
+          termMy: "Time Allocation",
+          matchEn:
+              "Dividing available exam time according to each question's mark value",
+          matchMy:
+              "မေးခွန်းတစ်ခုစီ၏ Mark Value အလိုက် ရရှိနိုင်သော Exam အချိန်ကို ခွဲဝေခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w35-dm-2",
+          termEn: "Partial attempt",
+          termMy: "Partial Attempt",
+          matchEn:
+              "A brief, incomplete answer that still has a real chance of earning marks",
+          matchMy:
+              "Mark ရရှိနိုင်ခြေ အစစ်အမှန် ရှိသေးသော အတိုငယ်၊ မပြီးစီးသေးသော အဖြေတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w35-dm-3",
+          termEn: "Review",
+          termMy: "Review",
+          matchEn:
+              "Rereading written answers to catch errors or missed evidence before submitting",
+          matchMy:
+              "တင်သွင်းမီ အမှားများ (သို့) လွတ်သွားသော Evidence ကို ဖမ်းယူရန် ရေးသားထားသော အဖြေများ ပြန်ဖတ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w35-dm-4",
+          termEn: "Mock simulation",
+          termMy: "Mock Simulation",
+          matchEn:
+              "Practicing a full paper under real timed exam conditions before the actual exam",
+          matchMy:
+              "တကယ့် Exam မတိုင်မီ Paper အပြည့်အစုံ တစ်ခုကို Real Timed Exam Condition အောက်တွင် ကျင့်သုံးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good or Poor Time-Management Habit?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းသော (သို့) ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Time-Management Habit", "Poor Time-Management Habit"],
+        bucketsMy: [
+          "ကောင်းသော Time-Management အလေ့အထ",
+          "ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w35-sort-1",
+            labelEn:
+                "Allocating exam time roughly in proportion to each question's mark value",
+            labelMy:
+                "မေးခွန်းတစ်ခုစီ၏ Mark Value နှင့် အချိုးကျစွာ Exam အချိန် ခွဲဝေခြင်း",
+            correctBucketEn: "Good Time-Management Habit",
+            correctBucketMy: "ကောင်းသော Time-Management အလေ့အထ",
+          ),
+          SortingItem(
+            id: "igchum-w35-sort-2",
+            labelEn:
+                "Spending most of the exam on one low-mark question, leaving no time for high-mark ones",
+            labelMy:
+                "Mark များသော မေးခွန်းများအတွက် အချိန် လုံးဝ မကျန်ဘဲ Mark နည်းသော မေးခွန်းတစ်ခုတွင် Exam အချိန် အများစု အသုံးပြုခြင်း",
+            correctBucketEn: "Poor Time-Management Habit",
+            correctBucketMy: "ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+          ),
+          SortingItem(
+            id: "igchum-w35-sort-3",
+            labelEn:
+                "Briefly reviewing answers if time remains at the end of the paper",
+            labelMy:
+                "Paper ၏ အဆုံးတွင် အချိန် ကျန်ရှိပါက အဖြေများကို အတိုငယ်မျှ ပြန်လည်သုံးသပ်ခြင်း",
+            correctBucketEn: "Good Time-Management Habit",
+            correctBucketMy: "ကောင်းသော Time-Management အလေ့အထ",
+          ),
+          SortingItem(
+            id: "igchum-w35-sort-4",
+            labelEn:
+                "Leaving a difficult question completely blank instead of attempting it briefly",
+            labelMy:
+                "အတိုငယ်မျှ ကြိုးစားမည့်အစား ခက်ခဲသော မေးခွန်းတစ်ခုကို လုံးဝ ဗလာ ချန်ထားခြင်း",
+            correctBucketEn: "Poor Time-Management Habit",
+            correctBucketMy: "ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Mock Exam Debrief",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Mock Exam Debrief",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Mock Exam Debrief",
+        titleMy: "Thiha Aung ၏ Mock Exam Debrief",
+        passageEn:
+            "Week 35 opened with a full, timed mock simulation of both Paper 1 and Paper 2 under real exam conditions, and Saya Tun Tun Win held a debrief session afterward to review Thiha Aung's approach rather than just his answers.\n\nThiha Aung admitted his first instinct on Paper 1 was to spend too long on an early, low-mark source question because he found it interesting, before realizing partway through that he had left too little time for the final, high-mark essay question. He caught the problem himself, using Monday's proportional time-allocation lesson, and moved on -- but noted in his debrief that a mock simulation was exactly the right place to make and learn from that mistake, rather than making it in the real exam.\n\nOn Paper 2, Thiha Aung faced a case study question about a hazard type he felt less confident on. Rather than leaving it blank, he applied Monday's partial-attempt lesson: he wrote a brief but structured answer using the point-evidence-explanation-link pattern from Week 34, earning partial credit rather than a guaranteed zero.\n\nWith five minutes remaining on Paper 1, Thiha Aung briefly reread his essay and caught a paragraph where he had stated evidence without explaining its connection to his point -- the exact error Saya Tun Tun Win had flagged in Week 34's practice essay -- and added a missing explanation sentence just in time. Saya Tun Tun Win told him that catching his own recurring error under real time pressure was a stronger sign of readiness than getting every fact right on the first attempt.",
+        passageMy:
+            "Week 35 သည် တကယ့် Exam Condition အောက်တွင် Paper 1 နှင့် Paper 2 နှစ်ခုစလုံး၏ အချိန်ကန့်သတ် Mock Simulation အပြည့်အစုံဖြင့် ဖွင့်လှစ်ခဲ့ပြီး Thiha Aung ၏ အဖြေများကိုသာ မဟုတ်ဘဲ ၎င်း၏ Approach ကို ပြန်လည်သုံးသပ်ရန် Saya Tun Tun Win သည် Debrief Session တစ်ခု နောက်မှ ပြုလုပ်ခဲ့သည်။\n\nPaper 1 ပေါ်တွင် ၎င်း၏ ပထမ Instinct မှာ စိတ်ဝင်စားသောကြောင့် အစောပိုင်း၊ Mark နည်းသော Source မေးခွန်းတစ်ခုတွင် ကြာမြင့်စွာ အချိန်ကုန်ခဲ့ကြောင်း Thiha Aung ဝန်ခံခဲ့ပြီး တစ်ဝက်လောက် ရောက်မှသာ Mark များသော နောက်ဆုံး Essay မေးခွန်းအတွက် အချိန် လွန်စွာ မကျန်တော့ကြောင်း သတိပြုမိခဲ့သည်။ တနင်္လာနေ့၏ Proportional Time-Allocation သင်ခန်းစာ အသုံးပြု၍ ၎င်း ကိုယ်တိုင် ပြဿနာကို ဖမ်းယူပြီး ဆက်လက်သွားခဲ့သော်လည်း တကယ့် Exam တွင် ထို အမှားကို မလုပ်ဘဲ Mock Simulation တစ်ခုသည် ထို အမှားကို ပြုလုပ်ကာ သင်ယူရန် အတိအကျ မှန်ကန်သော နေရာ ဖြစ်ကြောင်း ၎င်း၏ Debrief တွင် မှတ်ချက်ပြုခဲ့သည်။\n\nPaper 2 ပေါ်တွင် ၎င်း၏ Confidence နည်းသော Hazard Type တစ်ခုအကြောင်း Case Study မေးခွန်းတစ်ခုနှင့် Thiha Aung ရင်ဆိုင်ခဲ့ရသည်။ ဗလာချန်ထားမည့်အစား ၎င်းသည် တနင်္လာနေ့၏ Partial-Attempt သင်ခန်းစာကို အသုံးချခဲ့သည် - Week 34 ၏ Point-Evidence-Explanation-Link Pattern အသုံးပြု၍ အတိုငယ်သော်လည်း Structure ကျသော အဖြေတစ်ခု ရေးသားခဲ့ကာ Mark သုည အာမခံမည့်အစား Partial Credit ရရှိခဲ့သည်။\n\nPaper 1 တွင် မိနစ် ငါးမိနစ် ကျန်ရှိစဉ် Thiha Aung သည် ၎င်း၏ Essay ကို အတိုငယ်မျှ ပြန်ဖတ်ကာ ၎င်း၏ Point သို့ Connection ရှင်းပြခြင်း မပြုဘဲ Evidence ဖော်ပြထားသော Paragraph တစ်ခုကို ဖမ်းယူခဲ့သည် -- Week 34 ၏ Practice Essay တွင် Saya Tun Tun Win Flag ပြုလုပ်ခဲ့သော အတိအကျ အမှားတစ်ခု ဖြစ်ကာ လွတ်သွားသော Explanation စာကြောင်းကို အချိန်မီ ထပ်မံ ထည့်သွင်းခဲ့သည်။ တကယ့် အချိန်ဖိအားအောက်တွင် ၎င်း၏ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်တတ်သော အမှားကို ကိုယ်တိုင် ဖမ်းယူနိုင်ခြင်းသည် ပထမအကြိမ် ကြိုးစားမှုတွင် Fact တိုင်း မှန်ကန်ခြင်းထက် အသင့်ဖြစ်မှု၏ ခိုင်မာသော လက္ခဏာတစ်ခု ဖြစ်ကြောင်း Saya Tun Tun Win ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did Thiha Aung make on Paper 1, and how did he handle it?",
+            questionMy:
+                "Paper 1 ပေါ်တွင် Thiha Aung ပြုလုပ်ခဲ့သော အမှားနှင့် ၎င်းကို မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He spent too long on an early low-mark question, but caught and corrected the problem himself using proportional time-allocation",
+              "He left the entire paper blank and made no attempt to correct anything",
+              "He made no mistakes of any kind whatsoever throughout the paper",
+              "He spent no time at all on any question throughout the paper",
+            ],
+            optionsMy: [
+              "အစောပိုင်း Mark နည်းသော မေးခွန်းတစ်ခုတွင် ကြာမြင့်စွာ အချိန်ကုန်ခဲ့သော်လည်း Proportional Time-Allocation အသုံးပြု၍ ပြဿနာကို ကိုယ်တိုင် ဖမ်းယူပြီး ပြင်ဆင်ခဲ့သည်",
+              "Paper တစ်ခုလုံးကို ဗလာ ချန်ထားပြီး မည်သည်ကိုမျှ ပြင်ဆင်ရန် ကြိုးစားခြင်း မရှိခဲ့ခြင်း",
+              "Paper တစ်လျှောက်လုံး အမှား မည်သည်မှ လုံးဝ မပြုလုပ်ခဲ့ခြင်း",
+              "Paper တစ်လျှောက်လုံး မေးခွန်း မည်သည်တွင်မျှ အချိန် လုံးဝ မကုန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described mistake."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ဖော်ပြထားသော အမှားကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung attempt the Paper 2 question he felt less confident on?",
+            questionMy:
+                "Confidence နည်းသော Paper 2 မေးခွန်းကို Thiha Aung အဘယ်ကြောင့် ကြိုးစားဖြေဆိုခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A brief, structured partial attempt has a real chance of earning credit, unlike a blank answer which guarantees zero",
+              "He believed leaving it blank would always earn more marks than attempting it",
+              "He had no actual reason and answered entirely at random with no structure",
+              "Attempting a question he felt uncertain about has no actual strategic value",
+            ],
+            optionsMy: [
+              "ဗလာ အဖြေတစ်ခုက Mark သုည အာမခံသည်နှင့် မတူဘဲ အတိုငယ်၊ Structure ကျသော Partial Attempt တစ်ခုသည် Credit ရရှိနိုင်ခြေ အစစ်အမှန် ရှိသည်",
+              "ဗလာ ချန်ထားခြင်းသည် ကြိုးစားဖြေဆိုခြင်းထက် Mark ပို၍ အမြဲ ရရှိမည်ဟု ၎င်း ယုံကြည်ခဲ့ခြင်း",
+              "Actual အကြောင်းရင်း မရှိဘဲ Structure မပါဘဲ လုံးဝ ကျပန်း ဖြေဆိုခဲ့ခြင်း",
+              "Confidence မရှိသော မေးခွန်းတစ်ခုကို ကြိုးစားဖြေဆိုခြင်းသည် Actual Strategic Value မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reason."],
+            hintsMy: [
+              "တတိယ စာပိုဒ်၏ ဖော်ပြထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win say was a strong sign of readiness?",
+            questionMy:
+                "အသင့်ဖြစ်မှု၏ ခိုင်မာသော လက္ခဏာတစ်ခုဖြစ်သည်ဟု Saya Tun Tun Win ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Catching his own recurring error under real time pressure, rather than getting every fact right on the first attempt",
+              "Getting every single fact perfectly correct on the very first attempt with no errors",
+              "Making no errors of any kind whatsoever throughout the entire mock exam",
+              "Avoiding any review of his answers entirely once time ran out",
+            ],
+            optionsMy: [
+              "ပထမအကြိမ် ကြိုးစားမှုတွင် Fact တိုင်း မှန်ကန်ခြင်းထက် တကယ့် အချိန်ဖိအားအောက်တွင် ၎င်း၏ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်တတ်သော အမှားကို ကိုယ်တိုင် ဖမ်းယူနိုင်ခြင်း",
+              "အမှား မရှိဘဲ ပထမအကြိမ် ကြိုးစားမှုတွင် Fact တစ်ခုချင်းစီကို အပြည့်အစုံ မှန်ကန်ခြင်း",
+              "Mock Exam တစ်ခုလုံးတစ်လျှောက် အမှား မည်သည်မှ လုံးဝ မပြုလုပ်ခြင်း",
+              "အချိန် ကုန်သွားသည်နှင့် ၎င်း၏ အဖြေများကို Review ပြုလုပ်ခြင်း လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated observation."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော Observation ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w35-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Mock Exam Strategy Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Mock Exam Strategy မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Exam time should be allocated...",
+          questionMy: "Exam အချိန်ကို ...ခွဲဝေသင့်သည်",
+          optionsEn: [
+            "Roughly in proportion to each question's mark value",
+            "Equally regardless of mark value",
+            "Entirely on the first question only",
+            "Randomly with no consideration of marks",
+          ],
+          optionsMy: [
+            "မေးခွန်းတစ်ခုစီ၏ Mark Value နှင့် အချိုးကျစွာ",
+            "Mark Value မည်သို့ပင်ရှိစေ ညီညီအောင်",
+            "ပထမမေးခွန်းတွင်သာ လုံးလုံး",
+            "Mark ကို ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ ကျပန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A difficult question should be...",
+          questionMy: "ခက်ခဲသော မေးခွန်းတစ်ခုသည် ...",
+          optionsEn: [
+            "Attempted briefly rather than left blank",
+            "Always left completely blank",
+            "Skipped without any consideration",
+            "Answered with no structure whatsoever",
+          ],
+          optionsMy: [
+            "ဗလာ ချန်ထားမည့်အစား အတိုငယ်မျှ ကြိုးစားသင့်သည်",
+            "အမြဲ လုံးဝ ဗလာ ချန်ထားသင့်သည်",
+            "စဉ်းစားမှု မည်သည်မှ မပါဘဲ ကျော်သင့်သည်",
+            "Structure မည်သည်မှ မပါဘဲ ဖြေဆိုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If time remains at the end of a paper, a candidate should...",
+          questionMy:
+              "Paper တစ်ခု၏ အဆုံးတွင် အချိန် ကျန်ရှိပါက စာမေးပွဲဖြေဆိုသူသည် ...",
+          optionsEn: [
+            "Briefly review answers to catch errors or missed evidence",
+            "Submit immediately without any review whatsoever",
+            "Erase all answers and start over completely",
+            "Leave the exam room without checking anything",
+          ],
+          optionsMy: [
+            "အမှားများ (သို့) လွတ်သွားသော Evidence ကို ဖမ်းယူရန် အဖြေများကို အတိုငယ်မျှ ပြန်လည်သုံးသပ်သင့်သည်",
+            "Review မည်သည်မှ မပါဘဲ ချက်ချင်း တင်သွင်းသင့်သည်",
+            "အဖြေများ အားလုံး ဖျက်ပြီး အစအဆုံး ပြန်စတင်သင့်သည်",
+            "မည်သည်ကိုမျှ စစ်ဆေးခြင်း မပြုဘဲ Exam ခန်းမမှ ထွက်ခွာသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 9, Week 36 (Capstone/Boss Week): "IGCSE
+// Humanities Graduation"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek36 = CourseWeekDef(
+  id: "course-igcse-hum-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Humanities Graduation",
+  titleMy: "IGCSE Humanities ဘွဲ့နှင်းသဘင်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w36-d1",
+      dayNumber: 1,
+      titleEn: "Reviewing a Full Year of History and Geography Reasoning",
+      titleMy:
+          "သမိုင်းနှင့် ပထဝီဝင် Reasoning တစ်နှစ်စာ အပြည့်အစုံ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Looking back across the whole course, why did weighing multiple causes or factors against each other, rather than defending a single explanation, appear again and again from Term 2's causation trial through Term 9's exam technique?",
+          questionMy:
+              "Course တစ်ခုလုံး ပြန်ကြည့်လျှင် Explanation တစ်ခုတည်းကို ကာကွယ်မည့်အစား Cause (သို့) Factor များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခြင်းသည် Term 2 ၏ Causation Trial မှ Term 9 ၏ Exam Technique အထိ အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "Because real historical and geographical events genuinely have multiple contributing causes, and a judgement that honestly weighs them is more accurate and more highly rewarded than a one-sided explanation",
+            "This pattern was actually a coincidence with no genuine connection across the course",
+            "A single-cause explanation is always more accurate than weighing multiple factors",
+            "Weighing multiple causes has no actual value in either history or geography reasoning",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော သမိုင်းနှင့် ပထဝီဝင် Event များသည် Contributing Cause များစွာ အမှန်တကယ် ရှိသောကြောင့်နှင့် ၎င်းတို့ကို ရိုးသားစွာ ချိန်ဆသော Judgement တစ်ခုသည် တစ်ဖက်သတ် Explanation တစ်ခုထက် ပို၍ တိကျပြီး ပို၍ ဆုချသောကြောင့်",
+            "ဤ Pattern သည် Course တစ်ခုလုံးတစ်လျှောက် စစ်မှန်သော ချိတ်ဆက်မှု မရှိသော Coincidence တစ်ခု အမှန်တကယ် ဖြစ်ခြင်း",
+            "Single-Cause Explanation တစ်ခုသည် Factor များစွာ ချိန်ဆခြင်းထက် အမြဲ ပို၍ တိကျခြင်း",
+            "Cause များစွာ ချိန်ဆခြင်းသည် သမိုင်း (သို့) ပထဝီဝင် Reasoning နှစ်ခုလုံးတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 2's WWI causation trial, through Term 3's democracy-collapse essay, to Term 9's 'How far do you agree' exam technique -- the same weighing-multiple-factors discipline recurs throughout.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Term 2 ၏ WWI Causation Trial မှ Term 3 ၏ Democracy-Collapse Essay ကို ဖြတ်၍ Term 9 ၏ 'How Far Do You Agree' Exam Technique အထိ ခြေရာခံပါ -- Factor များစွာ ချိန်ဆသော Discipline တူတူ တစ်လျှောက်လုံး ထပ်ခါထပ်ခါ ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across the whole course, why did grounding claims in specific, named evidence (a specific source, a specific case study, a specific dataset) appear repeatedly from Term 1's source evaluation through Term 9's case study technique?",
+          questionMy:
+              "Course တစ်ခုလုံး ပြန်ကြည့်လျှင် Claim များကို တိကျ၊ အမည်ရှိသော Evidence (တိကျသော Source, တိကျသော Case Study, တိကျသော Dataset) တွင် အခြေခံခြင်းသည် Term 1 ၏ Source Evaluation မှ Term 9 ၏ Case Study Technique အထိ အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "Because a specific, evidenced claim is verifiable and persuasive in a way a generic, unsupported claim never can be, and this distinction matters equally in historical and geographical reasoning",
+            "Specific evidence has no actual advantage over a generic, unsupported claim",
+            "A generic claim with no evidence is always more persuasive than a specific one",
+            "This pattern appeared only once in the entire course and was never repeated",
+          ],
+          optionsMy: [
+            "တိကျ၊ Evidenced Claim တစ်ခုသည် Generic, မထောက်ခံထားသော Claim တစ်ခု ဘယ်တော့မှ မဖြစ်နိုင်သော နည်းလမ်းဖြင့် Verifiable ဖြစ်ပြီး ဆွဲဆောင်မှု ရှိကာ ဤ ခွဲခြားချက်သည် သမိုင်းနှင့် ပထဝီဝင် Reasoning တွင် အညီအမျှ အရေးကြီးသောကြောင့်",
+            "တိကျသော Evidence သည် Generic, မထောက်ခံထားသော Claim တစ်ခုထက် အမှန်တကယ် အားသာချက် မရှိခြင်း",
+            "Evidence မပါသော Generic Claim တစ်ခုသည် တိကျသော တစ်ခုထက် အမြဲ ပို၍ ဆွဲဆောင်မှု ရှိခြင်း",
+            "ဤ Pattern သည် Course တစ်ခုလုံးတွင် တစ်ကြိမ်သာ ပေါ်လာပြီး ဘယ်တော့မှ ထပ်မံ မပေါ်လာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 1's source-corroboration lesson, through Term 4/6's named case-study capstones, to Term 9's case-study exam technique -- specific, named evidence recurs as the standard throughout.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Term 1 ၏ Source-Corroboration သင်ခန်းစာမှ Term 4/6 ၏ အမည်ရှိသော Case-Study Capstone များကို ဖြတ်၍ Term 9 ၏ Case-Study Exam Technique အထိ ခြေရာခံပါ -- တိကျ၊ အမည်ရှိသော Evidence သည် တစ်လျှောက်လုံး Standard အဖြစ် ထပ်ခါထပ်ခါ ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across the whole course, why did acknowledging genuine uncertainty rather than claiming false precision appear repeatedly, from Term 3's historical-determinism caution through Term 8's mitigation plan to Term 9's exam honesty?",
+          questionMy:
+              "Course တစ်ခုလုံး ပြန်ကြည့်လျှင် False Precision Claim မပြုလုပ်ဘဲ စစ်မှန်သော Uncertainty ကို အသိအမှတ်ပြုခြင်းသည် Term 3 ၏ Historical-Determinism သတိပေးချက်မှ Term 8 ၏ Mitigation Plan ကို ဖြတ်၍ Term 9 ၏ Exam ရိုးသားမှုအထိ အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "Because this is a general principle of intellectual honesty that applies across any discipline making claims from limited evidence -- historical, geographical, or otherwise -- not a rule specific to one topic",
+            "This principle only ever applied to one single topic and had no broader relevance",
+            "Claiming false precision is always more credible than acknowledging genuine uncertainty",
+            "Uncertainty has no actual relevance to historical or geographical reasoning of any kind",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ကန့်သတ်ထားသော Evidence မှ Claim ပြုလုပ်သော မည်သည့် Discipline တွင်မဆို အသုံးချသော Intellectual Honesty ၏ ယေဘုယျ Principle တစ်ခု ဖြစ်သောကြောင့် -- သမိုင်း၊ ပထဝီဝင် (သို့) အခြား -- ခေါင်းစဉ်တစ်ခုတည်းအတွက်သာ Rule တစ်ခု မဟုတ်ပါ",
+            "ဤ Principle သည် ခေါင်းစဉ်တစ်ခုတည်းကိုသာ ဘယ်တော့မှ အသုံးချခဲ့ပြီး ပို၍ ကျယ်ပြန့်သော Relevance မရှိခြင်း",
+            "False Precision Claim ပြုလုပ်ခြင်းသည် စစ်မှန်သော Uncertainty အသိအမှတ်ပြုခြင်းထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "Uncertainty သည် သမိုင်း (သို့) ပထဝီဝင် Reasoning မည်သည်တွင်မျှ အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 3's Week 12 caution against determinism, through Term 8's hazard-timing hedging, to Term 9's exam-writing honesty -- the same principle applies across every domain the course covered.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Determinism ဆန့်ကျင်ရေး Term 3 ၏ Week 12 သတိပေးချက်မှ Term 8 ၏ Hazard-Timing Hedging ကို ဖြတ်၍ Term 9 ၏ Exam-Writing ရိုးသားမှုအထိ ခြေရာခံပါ -- Principle တူတူသည် Course ဖုံးအုပ်ခဲ့သော Domain တိုင်းတွင် အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Course's Core Habits of Mind",
+      titleMy: "တွဲစပ်ကြမည် - Course ၏ Core Habits of Mind",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w36-dm-1",
+          termEn: "Weighing multiple factors",
+          termMy: "Weighing Multiple Factors",
+          matchEn:
+              "Judging how several causes or factors compare, rather than defending only one",
+          matchMy:
+              "တစ်ခုတည်းကိုသာ ကာကွယ်မည့်အစား Cause (သို့) Factor များစွာ မည်သို့ ယှဉ်ပြိုင်သည်ကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w36-dm-2",
+          termEn: "Grounded evidence",
+          termMy: "Grounded Evidence",
+          matchEn:
+              "Supporting a claim with a specific, named source, case, or dataset",
+          matchMy:
+              "တိကျ၊ အမည်ရှိသော Source, Case, (သို့) Dataset ဖြင့် Claim တစ်ခုကို ထောက်ခံခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w36-dm-3",
+          termEn: "Honest uncertainty",
+          termMy: "Honest Uncertainty",
+          matchEn:
+              "Distinguishing what evidence can confidently support from what remains unknown",
+          matchMy:
+              "Evidence က ယုံကြည်စိတ်ချစွာ ထောက်ခံနိုင်သည်ကို မသိရှိသေးသည်မှ ခွဲခြားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w36-dm-4",
+          termEn: "Purposeful structure",
+          termMy: "Purposeful Structure",
+          matchEn:
+              "Organizing writing so every part visibly serves the question being answered",
+          matchMy:
+              "ဖြေဆိုနေသော မေးခွန်းကို အစိတ်အပိုင်းတိုင်း မြင်သာစွာ ဝန်ဆောင်စေရန် ရေးသားမှုကို စီစဉ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Skill or Geography Skill (or Both)?",
+      titleMy:
+          "စီစစ်ကြမည် - History Skill (သို့) Geography Skill (သို့) နှစ်ခုလုံး",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Skill Shared by Both History and Geography",
+          "Skill Specific to One Discipline Only",
+        ],
+        bucketsMy: [
+          "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w36-sort-1",
+            labelEn:
+                "Weighing multiple factors before reaching a balanced judgement",
+            labelMy: "ချိန်ညှိထားသော Judgement မရမီ Factor များစွာ ချိန်ဆခြင်း",
+            correctBucketEn: "Skill Shared by Both History and Geography",
+            correctBucketMy:
+                "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          ),
+          SortingItem(
+            id: "igchum-w36-sort-2",
+            labelEn:
+                "Evaluating a primary source's origin, purpose, and reliability",
+            labelMy:
+                "Primary Source တစ်ခု၏ Origin, Purpose နှင့် Reliability ကို အကဲဖြတ်ခြင်း",
+            correctBucketEn: "Skill Specific to One Discipline Only",
+            correctBucketMy: "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+          ),
+          SortingItem(
+            id: "igchum-w36-sort-3",
+            labelEn:
+                "Grounding a claim in specific, named evidence rather than a generic statement",
+            labelMy:
+                "Generic ဖော်ပြချက်တစ်ခုအစား တိကျ၊ အမည်ရှိသော Evidence တွင် Claim တစ်ခု အခြေခံခြင်း",
+            correctBucketEn: "Skill Shared by Both History and Geography",
+            correctBucketMy:
+                "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          ),
+          SortingItem(
+            id: "igchum-w36-sort-4",
+            labelEn:
+                "Reading contour lines and grid references on a physical map",
+            labelMy:
+                "Physical Map ပေါ်ရှိ Contour Line များနှင့် Grid Reference များ ဖတ်ရှုခြင်း",
+            correctBucketEn: "Skill Specific to One Discipline Only",
+            correctBucketMy: "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Graduation Reflection",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ ဘွဲ့နှင်းသဘင် ပြန်လည်သုံးသပ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Graduation Reflection",
+        titleMy: "Thiha Aung ၏ ဘွဲ့နှင်းသဘင် ပြန်လည်သုံးသပ်ချက်",
+        passageEn:
+            "On the final day of the IGCSE Humanities course, Saya Tun Tun Win asked Thiha Aung to write a short reflection tracing the single habit of mind that had mattered most across the full nine terms, rather than reviewing content one last time.\n\nThiha Aung chose the habit of weighing evidence honestly before reaching a conclusion. He traced it all the way back to Term 1's very first lesson on evaluating whether a source was reliable, remembering how strange it had felt at first to question a source rather than simply accept it. He followed the thread through Term 2's WWI causation trial, where he first had to weigh competing causes instead of picking a favorite; through Term 4 and Term 6's case study studios, where he learned that a claim without a specific, named example was not really evidence at all; through Term 8's hazard mitigation plan, where he learned to state honestly what he did not know alongside what he did; and finally to Term 9, where the same habit reappeared as exam technique -- weigh multiple factors, ground every claim in specific evidence, and be honest about uncertainty, even under time pressure.\n\nSaya Tun Tun Win read the reflection and told Thiha Aung that this was exactly the point of the course: not to memorize the Treaty of Versailles's terms or the causes of tropical storms as isolated facts, but to build the habit of reasoning carefully from evidence toward a fair, honest conclusion -- a habit that would serve him in the real IGCSE examination room, and in every serious question he would ever face afterward. With that, Saya Tun Tun Win declared the course complete, and Thiha Aung's nine-term journey through history and geography reached its graduation.",
+        passageMy:
+            "IGCSE Humanities သင်တန်း၏ နောက်ဆုံးနေ့တွင် Content ကို နောက်ဆုံးအကြိမ် ပြန်လည်သုံးသပ်မည့်အစား ကိုးနှစ်ဝက် အပြည့်အစုံတစ်လျှောက် အရေးအကြီးဆုံး ဖြစ်ခဲ့သော Habit of Mind တစ်ခုတည်းကို ခြေရာခံသော ပြန်လည်သုံးသပ်ချက် တိုတို တစ်ခု ရေးသားရန် Thiha Aung အား Saya Tun Tun Win တောင်းဆိုခဲ့သည်။\n\nကောက်ချက်တစ်ခု မရမီ Evidence ကို ရိုးသားစွာ ချိန်ဆသော Habit ကို Thiha Aung ရွေးချယ်ခဲ့သည်။ Source တစ်ခု ယုံကြည်ရသလားဆိုသည်ကို အကဲဖြတ်ရေးအကြောင်း Term 1 ၏ ပထမဆုံးသင်ခန်းစာအထိ ၎င်း ခြေရာခံခဲ့ပြီး ပထမဦးဆုံးတွင် Source တစ်ခုကို ရိုးရိုး လက်ခံမည့်အစား မေးခွန်းထုတ်ရခြင်းသည် မည်မျှ ထူးဆန်းစွာ ခံစားခဲ့ရသည်ကို သတိရခဲ့သည်။ Cause တစ်ခုကို နှစ်သက်ရာ ရွေးချယ်မည့်အစား ယှဉ်ပြိုင် Cause များကို ဦးဆုံး ချိန်ဆရသော Term 2 ၏ WWI Causation Trial ကို ဖြတ်၍ Thread ကို ၎င်း လိုက်ခဲ့သည်၊ တိကျ၊ အမည်ရှိသော ဥပမာမပါသော Claim တစ်ခုသည် Evidence အမှန်တကယ် မဟုတ်ကြောင်း သင်ယူခဲ့သော Term 4 နှင့် Term 6 ၏ Case Study Studio များကို ဖြတ်၍၊ ၎င်း သိသည့်အရာနှင့်အတူ မသိသည့်အရာကို ရိုးသားစွာ ဖော်ပြရန် သင်ယူခဲ့သော Term 8 ၏ Hazard Mitigation Plan ကို ဖြတ်၍ နောက်ဆုံးတွင် Habit တူတူသည် Exam Technique အဖြစ် ပြန်လည်ပေါ်လာသော Term 9 အထိ -- Factor များစွာ ချိန်ဆပြီး Claim တိုင်းကို တိကျသော Evidence တွင် အခြေခံကာ အချိန်ဖိအားအောက်တွင်ပင် Uncertainty အကြောင်း ရိုးသားခြင်း။\n\nပြန်လည်သုံးသပ်ချက်ကို Saya Tun Tun Win ဖတ်ရှုပြီး ဤသည်ကား Course ၏ ရည်ရွယ်ချက် အတိအကျ ဖြစ်ကြောင်း Thiha Aung အား ပြောပြခဲ့သည် - Treaty of Versailles ၏ Term များ (သို့) Tropical Storm များ၏ Cause များကို သီးခြား Fact များအဖြစ် အလွတ်ကျက်ရန် မဟုတ်ဘဲ Evidence မှ တရားမျှတ၊ ရိုးသားသော ကောက်ချက်တစ်ခုသို့ ဂရုတစိုက် Reasoning ပြုလုပ်သော Habit တစ်ခု တည်ဆောက်ရန် ဖြစ်သည် -- တကယ့် IGCSE Exam ခန်းမတွင်လည်းကောင်း နောက်ပိုင်းတွင် ၎င်း ရင်ဆိုင်ရမည့် ပြင်းထန်သော မေးခွန်းတိုင်းတွင်လည်းကောင်း ၎င်းကို ဝန်ဆောင်ပေးမည့် Habit တစ်ခု ဖြစ်သည်။ ထိုအတူ Saya Tun Tun Win သည် Course ပြီးစီးကြောင်း ကြေညာခဲ့ပြီး Thiha Aung ၏ သမိုင်းနှင့် ပထဝီဝင်ကို ဖြတ်သန်းခဲ့သော ကိုးနှစ်ဝက် ခရီးသည် ၎င်း၏ ဘွဲ့နှင်းသဘင်သို့ ရောက်ရှိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which single habit of mind did Thiha Aung choose to trace across the whole course?",
+            questionMy:
+                "Course တစ်ခုလုံးတစ်လျှောက် ခြေရာခံရန် Thiha Aung ရွေးချယ်ခဲ့သော Habit of Mind တစ်ခုတည်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Weighing evidence honestly before reaching a conclusion",
+              "Memorizing every date and name without any reasoning",
+              "Avoiding any evaluation of sources entirely throughout the course",
+              "A habit that had no actual connection to any term of the course",
+            ],
+            optionsMy: [
+              "ကောက်ချက်တစ်ခု မရမီ Evidence ကို ရိုးသားစွာ ချိန်ဆခြင်း",
+              "Reasoning မည်သည်မှ မပါဘဲ ရက်စွဲနှင့် အမည်တိုင်းကို အလွတ်ကျက်ခြင်း",
+              "Course တစ်လျှောက်လုံး Source များ အကဲဖြတ်ခြင်းကို လုံးဝ ရှောင်ရှားခြင်း",
+              "Course ၏ Term မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိသော Habit တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's chosen habit."],
+            hintsMy: [
+              "ဒုတိယ စာပိုဒ်၏ ရွေးချယ်ထားသော Habit ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, through which terms did Thiha Aung trace this habit before reaching Term 9?",
+            questionMy:
+                "Term 9 မရောက်မီ ဤ Habit ကို Thiha Aung ခြေရာခံခဲ့သော Term များကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 1's source evaluation, Term 2's causation trial, Terms 4 and 6's case study studios, and Term 8's mitigation plan",
+              "No terms of the course were mentioned in this trace whatsoever",
+              "Only a single unrelated term with no connection to the others",
+              "Every term except Term 1 and Term 2 entirely",
+            ],
+            optionsMy: [
+              "Term 1 ၏ Source Evaluation, Term 2 ၏ Causation Trial, Term 4 နှင့် Term 6 ၏ Case Study Studio များနှင့် Term 8 ၏ Mitigation Plan",
+              "ဤ Trace တွင် Course ၏ Term မည်သည်ကိုမျှ လုံးဝ ရည်ညွှန်းခြင်း မရှိခြင်း",
+              "အခြားများနှင့် ချိတ်ဆက်မှု မရှိသော မသက်ဆိုင်သော Term တစ်ခုတည်းသာ",
+              "Term 1 နှင့် Term 2 မှလွဲ၍ Term တိုင်း လုံးလုံး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's listed terms."],
+            hintsMy: [
+              "တတိယ စာပိုဒ်၏ စာရင်းပြုစုထားသော Term များကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win say was the real point of the course?",
+            questionMy:
+                "Course ၏ အစစ်အမှန် ရည်ရွယ်ချက်ဖြစ်သည်ဟု Saya Tun Tun Win ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Building the habit of reasoning carefully from evidence toward a fair, honest conclusion, not just memorizing isolated facts",
+              "Memorizing the Treaty of Versailles's terms as isolated facts with no reasoning",
+              "Avoiding any real examination preparation of any kind whatsoever",
+              "Forgetting everything learned in earlier terms of the course",
+            ],
+            optionsMy: [
+              "သီးခြား Fact များကို အလွတ်ကျက်ရုံသက်သက် မဟုတ်ဘဲ Evidence မှ တရားမျှတ၊ ရိုးသားသော ကောက်ချက်တစ်ခုသို့ ဂရုတစိုက် Reasoning ပြုလုပ်သော Habit တစ်ခု တည်ဆောက်ခြင်း",
+              "Treaty of Versailles ၏ Term များကို Reasoning မပါဘဲ သီးခြား Fact များအဖြစ် အလွတ်ကျက်ခြင်း",
+              "Real Examination ပြင်ဆင်မှု မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားခြင်း",
+              "Course ၏ အစောပိုင်း Term များတွင် သင်ယူခဲ့သည့်အရာအားလုံးကို မေ့ပျောက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE Humanities Graduation Exam",
+      titleMy: "IGCSE Humanities ဘွဲ့နှင်းသဘင် စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across the whole IGCSE Humanities course, a strong judgement in both history and geography...",
+          questionMy:
+              "IGCSE Humanities Course တစ်ခုလုံးတစ်လျှောက် သမိုင်းနှင့် ပထဝီဝင် နှစ်ခုလုံးတွင် ခိုင်မာသော Judgement တစ်ခုသည် ...",
+          optionsEn: [
+            "Weighs multiple factors against each other before reaching a conclusion",
+            "Defends only one factor and ignores every alternative",
+            "Avoids reaching any conclusion at all",
+            "Is based on no evidence of any kind whatsoever",
+          ],
+          optionsMy: [
+            "ကောက်ချက်တစ်ခု မရမီ Factor များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆသည်",
+            "Factor တစ်ခုတည်းကိုသာ ကာကွယ်ပြီး အခြားအားလုံးကို လျစ်လျူရှုသည်",
+            "ကောက်ချက် မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားသည်",
+            "Evidence မည်သည်မှ အခြေခံမထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-supported claim in either discipline should be grounded in...",
+          questionMy:
+              "Discipline နှစ်ခုစလုံးတွင် ကောင်းစွာ ထောက်ခံထားသော Claim တစ်ခုသည် ...တွင် အခြေခံသင့်သည်",
+          optionsEn: [
+            "Specific, named evidence such as a source, case study, or dataset",
+            "A generic statement with no specific example",
+            "No evidence of any kind whatsoever",
+            "A claim that could apply to any place or time equally",
+          ],
+          optionsMy: [
+            "Source, Case Study, (သို့) Dataset ကဲ့သို့ တိကျ၊ အမည်ရှိသော Evidence",
+            "တိကျသော ဥပမာမပါသော Generic ဖော်ပြချက်",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "နေရာ (သို့) အချိန် မည်သည်တွင်မဆို အညီအမျှ အသုံးချနိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The habit of mind connecting every term of this course, from Term 1's source evaluation to Term 9's exam technique, was...",
+          questionMy:
+              "Term 1 ၏ Source Evaluation မှ Term 9 ၏ Exam Technique အထိ Course ၏ Term တိုင်းကို ချိတ်ဆက်ပေးသော Habit of Mind မှာ ...",
+          optionsEn: [
+            "Reasoning carefully from evidence toward a fair, honest conclusion",
+            "Memorizing isolated facts with no connecting reasoning",
+            "Avoiding any evaluation of evidence entirely",
+            "Claiming false certainty regardless of what the evidence actually shows",
+          ],
+          optionsMy: [
+            "Evidence မှ တရားမျှတ၊ ရိုးသားသော ကောက်ချက်တစ်ခုသို့ ဂရုတစိုက် Reasoning ပြုလုပ်ခြင်း",
+            "ချိတ်ဆက် Reasoning မပါဘဲ သီးခြား Fact များ အလွတ်ကျက်ခြင်း",
+            "Evidence အကဲဖြတ်ခြင်းကို လုံးဝ ရှောင်ရှားခြင်း",
+            "Evidence က အမှန်တကယ် ပြသနေသည်ကို ဂရုမစိုက်ဘဲ False Certainty Claim ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 9: "Examination Preparation and Graduation"
+// (Weeks 33-36)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm9 = CourseTermDef(
+  id: "course-igcse-hum-t9",
+  termNumber: 9,
+  titleEn: "Examination Preparation and Graduation",
+  titleMy: "Examination Preparation and Graduation",
+  certificateTitleEn: "IGCSE Humanities (History & Geography)",
+  certificateTitleMy: "IGCSE Humanities (သမိုင်းနှင့် ပထဝီဝင်)",
+  weeks: [_igcseHumWeek33, _igcseHumWeek34, _igcseHumWeek35, _igcseHumWeek36],
 );
 // __IGCSE_HUM_MARKER__
