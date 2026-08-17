@@ -90683,9 +90683,9 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation. Term 7, The Cold War: Rivalry, Crisis and Resolution, covers the superpowers' ideological rivalry and spheres of influence, the Berlin and Cuban crises, and proxy wars alongside the Soviet economy's structural strain, closing with a mock trial weighing which factor most shaped the war's overall trajectory.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Cold War: Rivalry, Crisis and Resolution သည် Superpower များ၏ Ideological Rivalry နှင့် Sphere of Influence များ, Berlin နှင့် Cuban Crisis များနှင့် Soviet Economy ၏ Structural Strain နှင့်အတူ Proxy War များကို ဖုံးအုပ်ပြီး Factor မည်သည် စစ်ပွဲ၏ Overall Trajectory ကို အများဆုံး ပုံဖော်ခဲ့သည်ကို ချိန်ဆသော Mock Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseHumTerm1,
@@ -90694,6 +90694,7 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
     _igcseHumTerm4,
     _igcseHumTerm5,
     _igcseHumTerm6,
+    _igcseHumTerm7,
   ],
 );
 // =====================================================================
@@ -97772,5 +97773,1426 @@ const CourseTermDef _igcseHumTerm6 = CourseTermDef(
   certificateTitleEn: "Development, Globalisation and Trade",
   certificateTitleMy: "Development, Globalisation နှင့် Trade",
   weeks: [_igcseHumWeek21, _igcseHumWeek22, _igcseHumWeek23, _igcseHumWeek24],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 7, Week 25: "Origins of the Cold War"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek25 = CourseWeekDef(
+  id: "course-igcse-hum-w25",
+  weekNumber: 25,
+  titleEn: "Origins of the Cold War",
+  titleMy: "Cold War ၏ Origin များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w25-d1",
+      dayNumber: 1,
+      titleEn: "Ideological Rivalry Between the Superpowers",
+      titleMy: "Superpower များကြား Ideological Rivalry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the fundamental ideological differences between the capitalist United States and the communist Soviet Union create a long-term basis for tension after WWII ended?",
+          questionMy:
+              "WWII ပြီးဆုံးပြီးနောက် Capitalist United States နှင့် Communist Soviet Union ကြား အခြေခံ Ideological ခြားနားချက်များသည် Long-Term Tension အခြေခံတစ်ခု ဖန်တီးခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The two systems held fundamentally opposing views on economics, government, and society, making cooperation difficult and mutual suspicion likely to persist even after their shared wartime enemy was defeated",
+            "The United States and Soviet Union had no actual ideological differences of any kind",
+            "Ideological differences had no actual connection to postwar international relations",
+            "Capitalism and communism are identical economic systems with no meaningful distinction",
+          ],
+          optionsMy: [
+            "System နှစ်ခုသည် Economics, Government နှင့် Society အပေါ် Fundamentally ဆန့်ကျင်သော အမြင်များ ကိုင်ဆောင်ထားပြီး Cooperation ကို ခက်ခဲစေကာ ၎င်းတို့ မျှဝေထားသော စစ်ကာလ ရန်သူ ရှုံးနိမ့်ပြီးနောက်ပင် Mutual Suspicion ဆက်လက် ရှိနေနိုင်ခြေ ရှိစေခဲ့သည်",
+            "United States နှင့် Soviet Union သည် Ideological ခြားနားချက် မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "Ideological ခြားနားချက်များသည် Postwar International Relations နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Capitalism နှင့် Communism သည် အဓိပ္ပာယ်ရှိသော ခွဲခြားချက် မပါသော Economic System တူတူ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies Week 5's MAIN-causes reasoning to a new context -- ideological rivalry functions as a genuine long-term cause of tension, similar to how nationalism functioned before WWI.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ MAIN-Causes Reasoning ကို Context အသစ်တစ်ခုသို့ အသုံးချသည် -- Ideological Rivalry သည် WWI မတိုင်မီ Nationalism လုပ်ဆောင်ခဲ့သကဲ့သို့ Tension ၏ စစ်မှန်သော Long-Term Cause တစ်ခုအဖြစ် လုပ်ဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the division of postwar Europe into opposing spheres of influence increase the likelihood of ongoing superpower tension rather than resolving it?",
+          questionMy:
+              "Postwar ဥရောပကို ဆန့်ကျင်ဘက် Sphere of Influence များအဖြစ် ခွဲခြင်းသည် Superpower Tension ကို ဖြေရှင်းမည့်အစား ဆက်လက် ဖြစ်နိုင်ခြေ တိုးမြှင့်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each superpower had direct strategic and ideological stakes in the countries within its sphere, meaning any change in the balance could be seen by the other side as a direct threat",
+            "The division of Europe had no actual connection to superpower relations",
+            "Spheres of influence guaranteed permanent cooperation between the two superpowers",
+            "Neither superpower had any actual interest in the countries within their respective spheres",
+          ],
+          optionsMy: [
+            "Superpower တစ်ခုစီသည် ၎င်း၏ Sphere အတွင်းရှိ နိုင်ငံများတွင် တိုက်ရိုက် မဟာဗျူဟာနှင့် Ideological Stake ရှိပြီး Balance ရှိ ပြောင်းလဲမှု မည်သည်ကိုမဆို အခြားဘက်က တိုက်ရိုက် ခြိမ်းခြောက်မှုတစ်ခုအဖြစ် မြင်နိုင်သည် ဆိုလိုသည်",
+            "ဥရောပကို ခွဲခြင်းသည် Superpower Relation များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Sphere of Influence များသည် Superpower နှစ်ခုကြား ထာဝရ Cooperation ကို အာမခံခဲ့ခြင်း",
+            "Superpower နှစ်ခုစလုံးတွင် ၎င်းတို့ သက်ဆိုင်ရာ Sphere အတွင်းရှိ နိုင်ငံများတွင် Interest မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 5's alliance-system lesson -- like the pre-WWI alliance blocs, dividing the world into two opposing camps meant any local dispute could be interpreted as a broader superpower confrontation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ Alliance-System သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- WWI မတိုင်မီ Alliance Bloc များကဲ့သို့ ကမ္ဘာကို ဆန့်ကျင်ဘက် Camp နှစ်ခုအဖြစ် ခွဲခြင်းသည် Local Dispute မည်သည်ကိုမဆို ကျယ်ပြန့်သော Superpower Confrontation တစ်ခုအဖြစ် အနက်ဖွင့်နိုင်သည်ဟု ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is the term 'Cold War' considered an accurate description of this specific kind of conflict, distinct from the 'hot' wars studied earlier in the course?",
+          questionMy:
+              "'Cold War' ဟူသော ဝေါဟာရကို Course ယခင်က လေ့လာခဲ့သော 'Hot' စစ်ပွဲများနှင့် ကွဲပြားသော Conflict အမျိုးအစား ဤသည့် တိကျသော ဖော်ပြချက်တစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The superpowers avoided direct large-scale military conflict with each other, instead competing through ideology, proxy conflicts, and an arms race rather than direct battlefield combat",
+            "The Cold War involved constant direct military combat between the United States and Soviet Union",
+            "There is no actual difference between a Cold War and the trench warfare studied in Term 2",
+            "The term 'Cold War' has no actual connection to the specific dynamics of the conflict",
+          ],
+          optionsMy: [
+            "Superpower များသည် တစ်ဦးနှင့်တစ်ဦး Direct Large-Scale စစ်ရေးဆိုင်ရာ Conflict ကို ရှောင်ရှားခဲ့ပြီး Direct Battlefield Combat အစား Ideology, Proxy Conflict များနှင့် Arms Race မှတစ်ဆင့် ယှဉ်ပြိုင်ခဲ့သည်",
+            "Cold War သည် United States နှင့် Soviet Union ကြား ဆက်တိုက် Direct စစ်ရေးဆိုင်ရာ Combat ပါဝင်ခဲ့ခြင်း",
+            "Cold War နှင့် Term 2 တွင် လေ့လာခဲ့သော Trench Warfare ကြား ခြားနားချက် အမှန်တကယ် မရှိခြင်း",
+            "'Cold War' ဝေါဟာရသည် Conflict ၏ တိကျသော Dynamics နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike Term 2's trench warfare, where opposing armies fought directly, the Cold War's competition happened primarily through indirect means -- a genuinely different type of conflict worth naming distinctly.",
+          ],
+          hintsMy: [
+            "Army ဆန့်ကျင်ဘက်များ တိုက်ရိုက် တိုက်ခိုက်ခဲ့သော Term 2 ၏ Trench Warfare နှင့်မတူဘဲ Cold War ၏ ယှဉ်ပြိုင်မှုသည် Indirect Means များမှတစ်ဆင့် အဓိကအားဖြင့် ဖြစ်ပျက်ခဲ့ပြီး ရှင်းလင်းစွာ Name ချရန် တန်ဖိုးရှိသော Conflict အမျိုးအစား စစ်မှန်စွာ ကွဲပြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cold War Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cold War ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w25-dm-1",
+          termEn: "Superpower",
+          termMy: "Superpower",
+          matchEn:
+              "A nation with dominant global military, economic, and political influence",
+          matchMy:
+              "လွှမ်းမိုးသော ကမ္ဘာလုံးဆိုင်ရာ Military, Economic နှင့် Political သြဇာလွှမ်းမိုးမှု ရှိသော နိုင်ငံ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w25-dm-2",
+          termEn: "Sphere of influence",
+          termMy: "Sphere of Influence",
+          matchEn:
+              "A region where a major power exercises significant political and economic control",
+          matchMy:
+              "Major Power တစ်ခုသည် သိသာသော နိုင်ငံရေးနှင့် စီးပွားရေးဆိုင်ရာ ထိန်းချုပ်မှု ကျင့်သုံးသော ဒေသ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w25-dm-3",
+          termEn: "Ideological rivalry",
+          termMy: "Ideological Rivalry",
+          matchEn:
+              "Competition rooted in fundamentally opposing political and economic beliefs",
+          matchMy:
+              "Fundamentally ဆန့်ကျင်သော နိုင်ငံရေးနှင့် စီးပွားရေးဆိုင်ရာ ယုံကြည်ချက်များတွင် အမြစ်တွယ်နေသော Competition",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w25-dm-4",
+          termEn: "Cold War",
+          termMy: "Cold War",
+          matchEn:
+              "A prolonged rivalry conducted through indirect means rather than direct military conflict",
+          matchMy:
+              "Direct စစ်ရေးဆိုင်ရာ Conflict အစား Indirect Means များမှတစ်ဆင့် ဆောင်ရွက်သော ကြာမြင့်သော Rivalry",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Direct Conflict or Indirect Cold War Competition?",
+      titleMy:
+          "စီစစ်ကြမည် - Direct Conflict (သို့) Indirect Cold War Competition",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Direct Military Conflict",
+          "Indirect Cold War Competition",
+        ],
+        bucketsMy: [
+          "Direct စစ်ရေးဆိုင်ရာ Conflict",
+          "Indirect Cold War Competition",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w25-sort-1",
+            labelEn:
+                "Two rival superpowers competing to develop the most advanced weapons",
+            labelMy:
+                "အမြင့်မားဆုံး လက်နက်များ ဖန်တီးရန် ယှဉ်ပြိုင်နေသော Rival Superpower နှစ်ခု",
+            correctBucketEn: "Indirect Cold War Competition",
+            correctBucketMy: "Indirect Cold War Competition",
+          ),
+          SortingItem(
+            id: "igchum-w25-sort-2",
+            labelEn:
+                "Soldiers from two opposing armies engaging directly in trench combat",
+            labelMy:
+                "ဆန့်ကျင်ဘက် Army နှစ်ခုမှ စစ်သားများ Trench Combat တွင် တိုက်ရိုက် ပါဝင်ခြင်း",
+            correctBucketEn: "Direct Military Conflict",
+            correctBucketMy: "Direct စစ်ရေးဆိုင်ရာ Conflict",
+          ),
+          SortingItem(
+            id: "igchum-w25-sort-3",
+            labelEn:
+                "Two superpowers competing through propaganda and ideological messaging",
+            labelMy:
+                "Propaganda နှင့် Ideological Messaging မှတစ်ဆင့် ယှဉ်ပြိုင်နေသော Superpower နှစ်ခု",
+            correctBucketEn: "Indirect Cold War Competition",
+            correctBucketMy: "Indirect Cold War Competition",
+          ),
+          SortingItem(
+            id: "igchum-w25-sort-4",
+            labelEn:
+                "A formal declaration of war followed by direct troop deployment",
+            labelMy:
+                "Direct Troop Deployment ဆက်လက်လုပ်ဆောင်သော တရားဝင် စစ်ကြေညာချက်",
+            correctBucketEn: "Direct Military Conflict",
+            correctBucketMy: "Direct စစ်ရေးဆိုင်ရာ Conflict",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Postwar Alliance Map",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Postwar Alliance Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Postwar Alliance Map",
+        titleMy: "Thiha Aung ၏ Postwar Alliance Map",
+        passageEn:
+            "Opening Term 7, Saya Tun Tun Win asked students to build a map of postwar Europe showing how the continent had divided into two opposing spheres of influence, applying Monday's ideological-rivalry lesson to explain why this specific division had occurred rather than simply describing the map's appearance. Thiha Aung's map identified two large blocs, each led by one superpower and organized around fundamentally different economic and political systems.\n\nHis written analysis explained the ideological foundation of the division directly: the countries in the western bloc adopted capitalist economic systems and multi-party democratic government, while the countries in the eastern bloc adopted centrally planned communist economic systems and single-party government, reflecting exactly the deep ideological gap Monday's lesson had described.\n\nApplying Tuesday's sphere-of-influence lesson, Thiha Aung added an important observation: several countries positioned along the boundary between the two blocs became points of especially heightened tension, since a shift in either direction would be interpreted by the opposing superpower as a direct strategic loss. He noted this mirrored the alliance-obligation dynamic from Week 5, where a change affecting one bloc's position could quickly draw in the wider rivalry.\n\nApplying Wednesday's terminology lesson, his final section explicitly justified why 'Cold War' was the accurate term for this rivalry rather than simply calling it another war: despite the deep hostility, the map showed no direct battle lines between American and Soviet forces, unlike the trench lines he had mapped in Term 2's Western Front study -- competition here was ideological and indirect rather than a shared battlefield. Saya Tun Tun Win praised the map and analysis for correctly distinguishing this new kind of conflict from the direct warfare studied earlier in the course.",
+        passageMy:
+            "Term 7 ကို ဖွင့်လှစ်ရန် ကွန်တီနန့်သည် ဆန့်ကျင်ဘက် Sphere of Influence နှစ်ခုသို့ မည်သို့ ခွဲခြားခဲ့သည်ကို ပြသသော Postwar ဥရောပ Map တစ်ခုကို တည်ဆောက်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး Map ၏ ပုံပန်းသဏ္ဍာန်ကို ရိုးရှင်းစွာ ဖော်ပြရုံသက်သက်မက ဤ တိကျသော ခွဲခြားမှု ဘာကြောင့် ဖြစ်ပျက်ခဲ့ကြောင်း ရှင်းပြရန် တနင်္လာနေ့ Ideological-Rivalry သင်ခန်းစာကို အသုံးချရန် တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Map သည် Bloc ကြီးနှစ်ခုကို ဖော်ထုတ်ခဲ့ပြီး တစ်ခုစီကို Superpower တစ်ခုက ဦးဆောင်ကာ Fundamentally ကွဲပြားသော Economic နှင့် Political System ပတ်ပတ်လည်တွင် စုစည်းခဲ့သည်။\n\n၎င်း၏ ရေးသားထားသော Analysis သည် ခွဲခြားမှု၏ Ideological Foundation ကို တိုက်ရိုက် ရှင်းပြခဲ့သည် - Western Bloc ရှိ နိုင်ငံများသည် Capitalist Economic System နှင့် Multi-Party Democratic Government ကို ကျင့်သုံးခဲ့ပြီး Eastern Bloc ရှိ နိုင်ငံများသည် Centrally Planned Communist Economic System နှင့် Single-Party Government ကို ကျင့်သုံးခဲ့ကာ တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သော နက်ရှိုင်းသော Ideological Gap ကို အတိအကျ ထင်ဟပ်ခဲ့သည်။\n\nSphere-of-Influence သင်ခန်းစာ အင်္ဂါနေ့ကို အသုံးချကာ Bloc နှစ်ခုကြား နယ်နိမိတ်တစ်လျှောက် တည်နေရာချထားသော နိုင်ငံများစွာသည် အထူးသဖြင့် မြင့်တက်လာသော Tension ၏ Point များ ဖြစ်လာခဲ့ကြောင်း အရေးကြီးသော Observation တစ်ခုကို Thiha Aung ထပ်ဆောင်းခဲ့သည်၊ အကြောင်းမှာ ဦးတည်ချက်တစ်ခုခု၌ ရွှေ့လျားမှုတစ်ခုကို ဆန့်ကျင်ဘက် Superpower က Direct Strategic ဆုံးရှုံးမှုတစ်ခုအဖြစ် အနက်ဖွင့်လိမ့်မည်။ Bloc တစ်ခု၏ Position ကို သက်ရောက်စေသော ပြောင်းလဲမှုတစ်ခုသည် ကျယ်ပြန့်သော Rivalry ကို လျင်မြန်စွာ ဆွဲသွင်းနိုင်ခဲ့သော Week 5 မှ Alliance-Obligation Dynamics ကို ဤသည် ထင်ဟပ်ကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည်။\n\nဗုဒ္ဓဟူးနေ့ Terminology သင်ခန်းစာကို အသုံးချကာ ဤ Rivalry အတွက် 'Cold War' သည် အခြားစစ်ပွဲတစ်ခု ရိုးရိုးသက်သက် ခေါ်ဆိုမည့်အစား တိကျသော ဝေါဟာရ ဖြစ်ကြောင်း ၎င်း၏ နောက်ဆုံး Section ရှင်းလင်းစွာ ခိုင်လုံစေခဲ့သည် - နက်ရှိုင်းသော Hostility ရှိသော်လည်း American နှင့် Soviet Force များကြား Direct Battle Line မည်သည်မှ Map က မပြခဲ့ဘဲ Term 2 ၏ Western Front Study တွင် ၎င်း Map ဆွဲခဲ့သော Trench Line များနှင့် မတူပါ -- ဤနေရာတွင် Competition သည် Ideological နှင့် Indirect ဖြစ်ပြီး မျှဝေထားသော Battlefield မဟုတ်ပါ။ Course ယခင်က လေ့လာခဲ့သော Direct Warfare မှ Conflict အမျိုးအစားအသစ်ဤသည်ကို မှန်ကန်စွာ ခွဲခြားခဲ့သောကြောင့် Map နှင့် Analysis ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what economic and political systems did each bloc adopt?",
+            questionMy:
+                "Bloc တစ်ခုစီ ကျင့်သုံးခဲ့သော Economic နှင့် Political System များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The western bloc adopted capitalism and democracy; the eastern bloc adopted communism and single-party rule",
+              "Both blocs adopted exactly the same economic and political system",
+              "Neither bloc had any actual economic or political system of any kind",
+              "The western bloc adopted communism while the eastern bloc adopted capitalism",
+            ],
+            optionsMy: [
+              "Western Bloc သည် Capitalism နှင့် Democracy ကို ကျင့်သုံးခဲ့ပြီး Eastern Bloc သည် Communism နှင့် Single-Party Rule ကို ကျင့်သုံးခဲ့ခြင်း",
+              "Bloc နှစ်ခုစလုံးသည် Economic နှင့် Political System တူတူကို ကျင့်သုံးခဲ့ခြင်း",
+              "Bloc နှစ်ခုစလုံးတွင် Economic (သို့) Political System မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Western Bloc သည် Communism ကို ကျင့်သုံးခဲ့ပြီး Eastern Bloc သည် Capitalism ကို ကျင့်သုံးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of the two blocs.",
+            ],
+            hintsMy: [
+              "Bloc နှစ်ခု ဖော်ပြချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did countries along the boundary between the two blocs become points of heightened tension?",
+            questionMy:
+                "Bloc နှစ်ခုကြား နယ်နိမိတ်တစ်လျှောက် နိုင်ငံများသည် Heightened Tension ၏ Point များ ဖြစ်လာခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A shift in either direction would be interpreted by the opposing superpower as a direct strategic loss",
+              "These countries had no actual connection to either superpower",
+              "The boundary countries were completely irrelevant to the wider Cold War rivalry",
+              "Both superpowers ignored these countries entirely with no interest at all",
+            ],
+            optionsMy: [
+              "ဦးတည်ချက်တစ်ခုခု၌ ရွှေ့လျားမှုတစ်ခုကို ဆန့်ကျင်ဘက် Superpower က Direct Strategic ဆုံးရှုံးမှုတစ်ခုအဖြစ် အနက်ဖွင့်လိမ့်မည်",
+              "ဤနိုင်ငံများသည် Superpower တစ်ခုနှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+              "Boundary နိုင်ငံများသည် ကျယ်ပြန့်သော Cold War Rivalry နှင့် လုံးဝ မသက်ဆိုင်ခဲ့ခြင်း",
+              "Superpower နှစ်ခုစလုံးသည် Interest မည်သည်မှ မပါဘဲ ဤနိုင်ငံများကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's observation about boundary countries.",
+            ],
+            hintsMy: [
+              "Boundary နိုင်ငံများအကြောင်း Observation ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what evidence showed the Cold War was different from the direct warfare studied in Term 2?",
+            questionMy:
+                "Term 2 တွင် လေ့လာခဲ့သော Direct Warfare မှ Cold War ကွဲပြားကြောင်း ပြသခဲ့သော Evidence ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The map showed no direct battle lines between American and Soviet forces",
+              "The map showed identical trench lines to the Western Front",
+              "There was no actual difference between the two types of conflict",
+              "American and Soviet forces fought directly on a shared battlefield",
+            ],
+            optionsMy: [
+              "American နှင့် Soviet Force များကြား Direct Battle Line မည်သည်မှ Map က မပြခဲ့ခြင်း",
+              "Western Front နှင့် Trench Line များ တူညီခဲ့ခြင်းကို Map က ပြခဲ့ခြင်း",
+              "Conflict အမျိုးအစားနှစ်ခုကြား ခြားနားချက် အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "American နှင့် Soviet Force များသည် မျှဝေထားသော Battlefield တွင် တိုက်ရိုက် တိုက်ခိုက်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's evidence."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Evidence ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w25-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Origins of the Cold War",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Cold War ၏ Origin များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Ideological rivalry between the superpowers refers to...",
+          questionMy:
+              "Superpower များကြား Ideological Rivalry က ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "Fundamentally opposing political and economic systems",
+            "Two nations with identical political systems",
+            "A dispute with no connection to government or economics",
+            "A temporary disagreement with no lasting significance",
+          ],
+          optionsMy: [
+            "Fundamentally ဆန့်ကျင်သော Political နှင့် Economic System များ",
+            "Political System တူတူ ရှိသော နိုင်ငံနှစ်ခု",
+            "Government (သို့) Economics နှင့် ချိတ်ဆက်မှု မရှိသော Dispute",
+            "ကြာရှည် အရေးပါမှု မရှိသော ယာယီ သဘောကွဲလွဲချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A sphere of influence is best described as...",
+          questionMy: "Sphere of Influence ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A region where a major power exercises significant control",
+            "A country with no connection to any major power",
+            "A neutral zone free of any superpower interest",
+            "A term with no actual geographic meaning",
+          ],
+          optionsMy: [
+            "Major Power တစ်ခု သိသာသော ထိန်းချုပ်မှု ကျင့်သုံးသော ဒေသ",
+            "Major Power မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိသော နိုင်ငံ",
+            "Superpower Interest မည်သည်မှ ကင်းလွတ်သော Neutral Zone",
+            "အမှန်တကယ် ပထဝီဆိုင်ရာ အဓိပ္ပာယ် မရှိသော ဝေါဟာရ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The term 'Cold War' is accurate because the conflict...",
+          questionMy: "'Cold War' ဝေါဟာရသည် Conflict ...ကြောင့် တိကျသည်",
+          optionsEn: [
+            "Avoided direct large-scale military combat, competing indirectly instead",
+            "Involved constant direct military combat between the superpowers",
+            "Was identical to the trench warfare of Term 2",
+            "Had no actual competitive dimension of any kind",
+          ],
+          optionsMy: [
+            "Direct Large-Scale စစ်ရေးဆိုင်ရာ Combat ကို ရှောင်ရှားကာ Indirect ယှဉ်ပြိုင်ခဲ့ခြင်း",
+            "Superpower များကြား ဆက်တိုက် Direct စစ်ရေးဆိုင်ရာ Combat ပါဝင်ခဲ့ခြင်း",
+            "Term 2 ၏ Trench Warfare နှင့် အတိအကျ တူညီခဲ့ခြင်း",
+            "Competitive Dimension မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 7, Week 26: "Cold War Crises: Berlin and
+// Cuba"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek26 = CourseWeekDef(
+  id: "course-igcse-hum-w26",
+  weekNumber: 26,
+  titleEn: "Cold War Crises: Berlin and Cuba",
+  titleMy: "Cold War Crisis များ - Berlin နှင့် Cuba",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w26-d1",
+      dayNumber: 1,
+      titleEn: "The Berlin Blockade and the Cuban Missile Crisis",
+      titleMy: "Berlin Blockade နှင့် Cuban Missile Crisis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the divided city of Berlin become one of the Cold War's most persistent flashpoints, consistent with Week 25's lesson on boundary tension?",
+          questionMy:
+              "Boundary Tension အကြောင်း Week 25 ၏ သင်ခန်းစာနှင့် ကိုက်ညီစွာ ခွဲထားသော Berlin မြို့သည် Cold War ၏ အခိုင်မာဆုံး Flashpoint များထဲမှ တစ်ခု ဖြစ်လာရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Berlin sat physically inside the Soviet sphere but was itself divided between the two blocs, making it a uniquely exposed symbol where any change in control carried outsized strategic and symbolic significance for both superpowers",
+            "Berlin had no actual strategic or symbolic significance to either superpower",
+            "Berlin was located entirely within the Western bloc with no connection to the Soviet sphere",
+            "The city's division had no actual connection to broader Cold War dynamics",
+          ],
+          optionsMy: [
+            "Berlin သည် Soviet Sphere အတွင်း Physically ရှိနေသော်လည်း ၎င်းကိုယ်တိုင် Bloc နှစ်ခုကြား ခွဲထားခံရပြီး ထိန်းချုပ်မှုတွင် ပြောင်းလဲမှု မည်သည်ကမဆို Superpower နှစ်ခုစလုံးအတွက် ကြီးထွားသော Strategic နှင့် Symbolic အရေးပါမှု ဆောင်သော ထူးခြားစွာ ဖော်ထုတ်ခံရသော Symbol တစ်ခု ဖြစ်စေခဲ့သည်",
+            "Berlin တွင် Superpower တစ်ခုနှင့်မျှ Strategic (သို့) Symbolic အရေးပါမှု မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "Berlin သည် Soviet Sphere နှင့် ချိတ်ဆက်မှု မရှိဘဲ Western Bloc အတွင်း လုံးလုံးလျားလျား တည်ရှိခဲ့ခြင်း",
+            "မြို့၏ ခွဲခြားမှုသည် ကျယ်ပြန့်သော Cold War Dynamics နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies last week's boundary-tension lesson -- Berlin was exactly the kind of highly exposed, contested point along the Cold War divide that generated recurring crises.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခင်အပတ်၏ Boundary-Tension သင်ခန်းစာကို တိုက်ရိုက် အသုံးချသည် -- Berlin သည် ထပ်ခါထပ်ခါ Crisis များ ဖန်တီးခဲ့သော Cold War Divide တစ်လျှောက် Highly Exposed, Contested Point အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is the Cuban Missile Crisis considered the closest the Cold War came to direct nuclear conflict between the superpowers?",
+          questionMy:
+              "Superpower များကြား Direct Nuclear Conflict သို့ Cold War အနီးစပ်ဆုံး ရောက်ရှိခဲ့သည်ဟု Cuban Missile Crisis ကို ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Soviet nuclear missiles placed extremely close to American territory created an immediate, direct strategic threat that both sides had to resolve urgently, with the real possibility of escalation to nuclear war",
+            "The crisis had no actual connection to nuclear weapons of any kind",
+            "The Cuban Missile Crisis involved a full-scale direct military invasion by both superpowers",
+            "This crisis was resolved months before any tension actually developed between the two sides",
+          ],
+          optionsMy: [
+            "American နယ်မြေအနီးသို့ အလွန်နီးကပ်စွာ ချထားခဲ့သော Soviet Nuclear Missile များသည် ချက်ချင်း၊ Direct Strategic ခြိမ်းခြောက်မှုတစ်ခု ဖန်တီးခဲ့ပြီး ဘက်နှစ်ဘက်စလုံးသည် Nuclear စစ်ပွဲသို့ Escalation ဖြစ်နိုင်ခြေ စစ်မှန်စွာ ရှိစဉ် အရေးတကြီး ဖြေရှင်းရန် လိုအပ်ခဲ့သည်",
+            "Crisis သည် Nuclear Weapon မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Cuban Missile Crisis တွင် Superpower နှစ်ခုစလုံး၏ Full-Scale Direct Military Invasion ပါဝင်ခဲ့ခြင်း",
+            "ဘက်နှစ်ဘက်ကြား Tension အမှန်တကယ် ဖြစ်ပေါ်မီ လနှင့်ချီ ဤ Crisis ကို ဖြေရှင်းခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike the more slow-building Berlin tensions, missiles placed within striking distance of the US created an immediate, high-stakes deadline for resolution -- a genuinely acute crisis moment.",
+          ],
+          hintsMy: [
+            "ပို၍ ဖြည်းညင်းစွာ တည်ဆောက်လာသော Berlin Tension များနှင့် မတူဘဲ US ၏ Striking Distance အတွင်း ချထားသော Missile များသည် ဖြေရှင်းရန် ချက်ချင်း၊ High-Stakes Deadline တစ်ခုကို ဖန်တီးခဲ့သည် -- စစ်မှန်စွာ Acute Crisis Moment တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does comparing how the Berlin and Cuban crises were each ultimately resolved reveal something important about Cold War crisis management?",
+          questionMy:
+              "Berlin နှင့် Cuban Crisis တစ်ခုစီ နောက်ဆုံးတွင် မည်သို့ ဖြေရှင်းခဲ့သည်ကို နှိုင်းယှဉ်ခြင်းသည် Cold War Crisis Management အကြောင်း အရေးကြီးသော အရာတစ်ခုကို ဖော်ထုတ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Both crises were ultimately resolved through negotiation and compromise rather than direct war, suggesting that despite the intense rivalry, both superpowers shared a strong interest in avoiding actual nuclear conflict",
+            "Both crises ended in immediate large-scale war between the superpowers",
+            "The two crises have no meaningful comparison possible between them",
+            "Neither crisis was ever actually resolved by either superpower",
+          ],
+          optionsMy: [
+            "Crisis နှစ်ခုစလုံးကို Direct စစ်ပွဲအစား Negotiation နှင့် Compromise မှတစ်ဆင့် နောက်ဆုံးတွင် ဖြေရှင်းခဲ့ပြီး ပြင်းထန်သော Rivalry ရှိသော်လည်း Superpower နှစ်ခုစလုံးသည် Actual Nuclear Conflict ကို ရှောင်ရှားရန် ခိုင်မာသော Interest မျှဝေထားကြောင်း ညွှန်ပြသည်",
+            "Crisis နှစ်ခုစလုံးသည် Superpower များကြား Immediate Large-Scale စစ်ပွဲဖြင့် အဆုံးသတ်ခဲ့ခြင်း",
+            "Crisis နှစ်ခုကြား အဓိပ္ပာယ်ရှိသော Comparison ဖြစ်နိုင်ခြင်း မရှိခြင်း",
+            "Superpower တစ်ခုနှင့်မျှ Crisis နှစ်ခုစလုံးကို အမှန်တကယ် ဘယ်တော့မှ ဖြေရှင်းခဲ့ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Wednesday's practical lesson about crisis management -- despite the ideological hostility from Week 25, both sides consistently chose negotiated de-escalation over direct war, a meaningful pattern worth noting.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Crisis Management အကြောင်း ဗုဒ္ဓဟူးနေ့ Practical သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Week 25 မှ Ideological Hostility ရှိသော်လည်း ဘက်နှစ်ဘက်စလုံးသည် Direct စစ်ပွဲထက် Negotiated De-Escalation ကို တသမတ်တည်း ရွေးချယ်ခဲ့ပြီး မှတ်ချက်ပြုဖွယ် အဓိပ္ပာယ်ရှိသော Pattern တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cold War Crisis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cold War Crisis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w26-dm-1",
+          termEn: "Berlin Blockade",
+          termMy: "Berlin Blockade",
+          matchEn:
+              "The Soviet attempt to cut off Western access to divided Berlin",
+          matchMy:
+              "ခွဲထားသော Berlin သို့ Western Access ကို ဖြတ်တောက်ရန် Soviet ကြိုးပမ်းမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w26-dm-2",
+          termEn: "Cuban Missile Crisis",
+          termMy: "Cuban Missile Crisis",
+          matchEn:
+              "The confrontation triggered by Soviet nuclear missiles placed near the United States",
+          matchMy:
+              "United States အနီးသို့ ချထားခဲ့သော Soviet Nuclear Missile များက Trigger ပြုလုပ်ခဲ့သော Confrontation",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w26-dm-3",
+          termEn: "Flashpoint",
+          termMy: "Flashpoint",
+          matchEn:
+              "A location or issue especially likely to trigger a crisis or conflict",
+          matchMy:
+              "Crisis (သို့) Conflict တစ်ခုကို Trigger ပြုလုပ်နိုင်ခြေ အထူးသဖြင့် ရှိသော တည်နေရာ (သို့) ကိစ္စ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w26-dm-4",
+          termEn: "De-escalation",
+          termMy: "De-Escalation",
+          matchEn: "Actions taken to reduce tension and avoid further conflict",
+          matchMy:
+              "Tension လျှော့ချ၍ ဆက်လက် Conflict ရှောင်ရှားရန် ပြုလုပ်သော လုပ်ဆောင်ချက်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Berlin Blockade or Cuban Missile Crisis Detail?",
+      titleMy:
+          "စီစစ်ကြမည် - Berlin Blockade (သို့) Cuban Missile Crisis Detail",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Berlin Blockade Detail", "Cuban Missile Crisis Detail"],
+        bucketsMy: ["Berlin Blockade Detail", "Cuban Missile Crisis Detail"],
+        items: [
+          SortingItem(
+            id: "igchum-w26-sort-1",
+            labelEn:
+                "Soviet forces attempting to cut off supply routes to a divided city",
+            labelMy:
+                "ခွဲထားသော မြို့သို့ Supply Route များကို ဖြတ်တောက်ရန် ကြိုးပမ်းနေသော Soviet Force များ",
+            correctBucketEn: "Berlin Blockade Detail",
+            correctBucketMy: "Berlin Blockade Detail",
+          ),
+          SortingItem(
+            id: "igchum-w26-sort-2",
+            labelEn:
+                "Nuclear missiles discovered on an island near the United States",
+            labelMy:
+                "United States အနီးရှိ ကျွန်းတစ်ကျွန်းတွင် တွေ့ရှိရသော Nuclear Missile များ",
+            correctBucketEn: "Cuban Missile Crisis Detail",
+            correctBucketMy: "Cuban Missile Crisis Detail",
+          ),
+          SortingItem(
+            id: "igchum-w26-sort-3",
+            labelEn:
+                "An airlift bringing supplies to a cut-off city over many months",
+            labelMy:
+                "လများစွာအတွင်း ဖြတ်တောက်ခံရသော မြို့သို့ Supply များ ယူဆောင်လာသော Airlift",
+            correctBucketEn: "Berlin Blockade Detail",
+            correctBucketMy: "Berlin Blockade Detail",
+          ),
+          SortingItem(
+            id: "igchum-w26-sort-4",
+            labelEn:
+                "An intense standoff resolved through direct negotiation between the two superpower leaders",
+            labelMy:
+                "Superpower ခေါင်းဆောင် နှစ်ဦးကြား Direct Negotiation မှတစ်ဆင့် ဖြေရှင်းခဲ့သော ပြင်းထန်သော Standoff",
+            correctBucketEn: "Cuban Missile Crisis Detail",
+            correctBucketMy: "Cuban Missile Crisis Detail",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Crisis Comparison Report",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Crisis Comparison Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Crisis Comparison Report",
+        titleMy: "Thiha Aung ၏ Crisis Comparison Report",
+        passageEn:
+            "For Week 26, Saya Tun Tun Win asked students to build a detailed comparison of the Berlin Blockade and the Cuban Missile Crisis, examining what each revealed about how the Cold War's rivalry actually functioned in practice. Thiha Aung's comparison began by applying Monday's flashpoint lesson to Berlin specifically: the divided city, positioned deep inside the Soviet sphere, became a recurring point of tension precisely because any change in its status carried outsized symbolic weight for both superpowers, exactly as Week 25's boundary-tension lesson had predicted.\n\nHis analysis of the Cuban crisis, applying Tuesday's lesson, emphasized how the missiles' physical proximity to American territory created a fundamentally more acute, time-pressured danger than Berlin's slower-moving standoff -- a crisis measured in days rather than the months-long Berlin blockade, with a real possibility of direct nuclear escalation if not resolved quickly.\n\nApplying Wednesday's resolution-comparison lesson, Thiha Aung's final section noted a striking similarity beneath the two crises' different timescales and intensities: in both cases, despite the deep hostility, the superpowers ultimately chose negotiation over direct war, whether through the sustained diplomatic and logistical effort of the Berlin airlift or the tense but successful back-channel negotiations that ended the Cuban standoff.\n\nHis concluding paragraph argued that this consistent pattern -- competition and hostility coexisting with a shared avoidance of direct war -- was itself the defining characteristic of the Cold War as a distinct category of conflict, connecting directly back to Wednesday's terminology lesson from the previous week. Saya Tun Tun Win praised the report for using two specific, well-researched crises to illustrate a broader pattern, rather than treating each crisis as an isolated, disconnected event.",
+        passageMy:
+            "Week 26 အတွက် Cold War ၏ Rivalry သည် လက်တွေ့တွင် အမှန်တကယ် မည်သို့ လုပ်ဆောင်ခဲ့သည်ကို တစ်ခုစီ ဖော်ထုတ်ခဲ့သည်ကို စစ်ဆေးကာ Berlin Blockade နှင့် Cuban Missile Crisis ၏ နှိုင်းယှဉ်ချက် အသေးစိတ်တစ်ခု တည်ဆောက်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Berlin သီးခြားသို့ တနင်္လာနေ့ Flashpoint သင်ခန်းစာကို အသုံးချကာ Thiha Aung ၏ နှိုင်းယှဉ်ချက် စတင်ခဲ့သည် - Soviet Sphere အတွင်း နက်နက်ရှိုင်းရှိုင်း တည်နေရာချထားသော ခွဲထားသော မြို့သည် ၎င်း၏ Status ရှိ ပြောင်းလဲမှု မည်သည်ကမဆို Superpower နှစ်ခုစလုံးအတွက် ကြီးထွားသော Symbolic Weight ဆောင်ခဲ့သောကြောင့် Week 25 ၏ Boundary-Tension သင်ခန်းစာ ခန့်မှန်းခဲ့သည့်အတိုင်း ထပ်ခါထပ်ခါ Tension ၏ Point တစ်ခု ဖြစ်လာခဲ့သည်။\n\nအင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချသော Cuban Crisis ၏ ၎င်း Analysis သည် Missile များ၏ Physical Proximity သည် American နယ်မြေသို့ Berlin ၏ ပို၍ ဖြည်းညင်းစွာ ရွေ့လျားသော Standoff ထက် Fundamentally ပို၍ Acute, Time-Pressured အန္တရာယ်တစ်ခုကို ဖန်တီးခဲ့သည် -- လများစွာ ကြာမြင့်သော Berlin Blockade အစား ရက်ဖြင့် တိုင်းတာသော Crisis တစ်ခုဖြစ်ပြီး လျင်မြန်စွာ မဖြေရှင်းပါက Direct Nuclear Escalation ဖြစ်နိုင်ခြေ စစ်မှန်စွာ ရှိသည်ကို အလေးပေးခဲ့သည်။\n\nဗုဒ္ဓဟူးနေ့ Resolution-Comparison သင်ခန်းစာကို အသုံးချကာ Crisis နှစ်ခု၏ ကွဲပြားသော Timescale နှင့် Intensity အောက်တွင် ထင်ရှားသော ဆင်တူချက်တစ်ခုကို Thiha Aung ၏ နောက်ဆုံး Section မှတ်ချက်ပြုခဲ့သည် - Case နှစ်ခုစလုံးတွင် နက်ရှိုင်းသော Hostility ရှိသော်လည်း Berlin Airlift ၏ ဆက်တိုက် Diplomatic နှင့် Logistical ကြိုးပမ်းမှုမှတစ်ဆင့်ဖြစ်စေ Cuban Standoff ကို အဆုံးသတ်စေသော တင်းမာသော်လည်း အောင်မြင်သော Back-Channel Negotiation များမှတစ်ဆင့်ဖြစ်စေ Superpower များသည် Direct စစ်ပွဲထက် Negotiation ကို နောက်ဆုံးတွင် ရွေးချယ်ခဲ့ကြသည်။\n\nDirect စစ်ပွဲ၏ မျှဝေထားသော Avoidance ဖြင့် Coexist ဖြစ်နေသော Competition နှင့် Hostility ဤ တသမတ်တည်း Pattern ကိုယ်တိုင်သည် ကွဲပြားသော Conflict Category တစ်ခုအနေဖြင့် Cold War ၏ Defining Characteristic ဖြစ်ကြောင်း ၎င်း၏ ကုန်ဆုံးသော စာပိုဒ်က ငြင်းခုံခဲ့ပြီး ယခင်အပတ်မှ ဗုဒ္ဓဟူးနေ့ Terminology သင်ခန်းစာသို့ တိုက်ရိုက် ပြန်ချိတ်ဆက်ခဲ့သည်။ Crisis တစ်ခုစီကို Isolated, ချိတ်ဆက်မှု မရှိသော Event တစ်ခုအဖြစ် ဆက်ဆံမည့်အစား ကျယ်ပြန့်သော Pattern တစ်ခုကို သရုပ်ဖော်ရန် Well-Researched Crisis တိကျနှစ်ခုကို အသုံးပြုခဲ့သောကြောင့် Report ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the Cuban crisis create a more time-pressured danger than Berlin?",
+            questionMy:
+                "Berlin ထက် Cuban Crisis ပို၍ Time-Pressured အန္တရာယ်တစ်ခု ဖန်တီးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The missiles' physical proximity to American territory created an especially urgent danger",
+              "The Cuban crisis actually took much longer to resolve than the Berlin blockade",
+              "The two crises had no actual difference in urgency at all",
+              "Berlin actually posed a greater nuclear threat than Cuba",
+            ],
+            optionsMy: [
+              "Missile များ၏ American နယ်မြေသို့ Physical Proximity သည် အထူးသဖြင့် အရေးတကြီး အန္တရာယ်တစ်ခုကို ဖန်တီးခဲ့ခြင်း",
+              "Cuban Crisis သည် Berlin Blockade ထက် ဖြေရှင်းရန် ပို၍ ကြာမြင့်စွာ ယူခဲ့ခြင်း",
+              "Crisis နှစ်ခုတွင် Urgency ခြားနားချက် အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Berlin သည် Cuba ထက် Nuclear ခြိမ်းခြောက်မှု ပို၍ ကြီးမားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what similarity did Thiha Aung find beneath the two crises' differences?",
+            questionMy:
+                "Crisis နှစ်ခု၏ ခြားနားချက်များ အောက်တွင် Thiha Aung တွေ့ရှိခဲ့သော ဆင်တူချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both were ultimately resolved through negotiation rather than direct war",
+              "Both crises ended in immediate large-scale military conflict",
+              "There was no meaningful similarity found between the two crises",
+              "Neither crisis was ever actually resolved by any means",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးကို Direct စစ်ပွဲထက် Negotiation မှတစ်ဆင့် နောက်ဆုံးတွင် ဖြေရှင်းခဲ့ခြင်း",
+              "Crisis နှစ်ခုစလုံးသည် Immediate Large-Scale စစ်ရေးဆိုင်ရာ Conflict ဖြင့် အဆုံးသတ်ခဲ့ခြင်း",
+              "Crisis နှစ်ခုကြား အဓိပ္ပာယ်ရှိသော ဆင်တူချက် တွေ့ရှိခဲ့ခြင်း မရှိခြင်း",
+              "Crisis နှစ်ခုစလုံးကို နည်းလမ်း မည်သည်ဖြင့်မျှ အမှန်တကယ် ဘယ်တော့မှ ဖြေရှင်းခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's finding."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ တွေ့ရှိချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Thiha Aung argue was the Cold War's defining characteristic?",
+            questionMy:
+                "Cold War ၏ Defining Characteristic ဟု Thiha Aung ငြင်းခုံခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Competition and hostility coexisting with a shared avoidance of direct war",
+              "Constant direct military combat between the superpowers",
+              "A complete absence of any competition or hostility whatsoever",
+              "Immediate, unresolved nuclear war between the two sides",
+            ],
+            optionsMy: [
+              "Direct စစ်ပွဲ၏ မျှဝေထားသော Avoidance ဖြင့် Coexist ဖြစ်နေသော Competition နှင့် Hostility",
+              "Superpower များကြား ဆက်တိုက် Direct စစ်ရေးဆိုင်ရာ Combat",
+              "Competition (သို့) Hostility မည်သည်မှ လုံးဝ ကင်းမဲ့ခြင်း",
+              "ဘက်နှစ်ဘက်ကြား Immediate, မဖြေရှင်းရသေးသော Nuclear စစ်ပွဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's argument."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w26-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Cold War Crises — Berlin and Cuba",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Cold War Crisis များ - Berlin နှင့် Cuba",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Berlin became a persistent flashpoint because...",
+          questionMy:
+              "Berlin သည် အခိုင်မာဆုံး Flashpoint တစ်ခု ဖြစ်လာရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It was a divided city deep inside the Soviet sphere with outsized symbolic weight",
+            "It had no actual strategic significance of any kind",
+            "It was located entirely outside both superpowers' spheres",
+            "It had no connection to the broader Cold War rivalry",
+          ],
+          optionsMy: [
+            "Soviet Sphere အတွင်း နက်နက်ရှိုင်းရှိုင်း ခွဲထားသော မြို့တစ်ခု ဖြစ်ပြီး ကြီးထွားသော Symbolic Weight ရှိခြင်း",
+            "Strategic အရေးပါမှု မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Superpower နှစ်ခုစလုံး၏ Sphere ပြင်ပတွင် လုံးလုံးလျားလျား တည်ရှိခြင်း",
+            "ကျယ်ပြန့်သော Cold War Rivalry နှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Cuban Missile Crisis was especially acute because...",
+          questionMy:
+              "Cuban Missile Crisis သည် အထူးသဖြင့် Acute ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Missiles were placed in close striking distance of American territory",
+            "It took several years to develop any tension whatsoever",
+            "It had no actual connection to nuclear weapons",
+            "It involved no direct threat to either superpower",
+          ],
+          optionsMy: [
+            "American နယ်မြေနှင့် Striking Distance နီးကပ်စွာ Missile များ ချထားခဲ့ခြင်း",
+            "Tension မည်သည်မှ ဖွံ့ဖြိုးရန် နှစ်များစွာ ယူခဲ့ခြင်း",
+            "Nuclear Weapon များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Superpower နှစ်ခုစလုံးအတွက် Direct ခြိမ်းခြောက်မှု မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Both crises being resolved through negotiation reveals that...",
+          questionMy:
+              "Crisis နှစ်ခုစလုံးကို Negotiation မှတစ်ဆင့် ဖြေရှင်းခဲ့ခြင်းသည် ...ကို ဖော်ထုတ်ပေးသည်",
+          optionsEn: [
+            "Both superpowers shared an interest in avoiding direct nuclear war",
+            "Both superpowers actively sought direct military conflict",
+            "Negotiation was never actually attempted in either crisis",
+            "The two crises had no meaningful pattern in common",
+          ],
+          optionsMy: [
+            "Superpower နှစ်ခုစလုံးသည် Direct Nuclear စစ်ပွဲ ရှောင်ရှားရန် Interest မျှဝေခြင်း",
+            "Superpower နှစ်ခုစလုံးသည် Direct စစ်ရေးဆိုင်ရာ Conflict ကို တက်ကြွစွာ ရှာဖွေခဲ့ခြင်း",
+            "Crisis နှစ်ခုစလုံးတွင် Negotiation ကို အမှန်တကယ် ဘယ်တော့မှ ကြိုးစားခဲ့ခြင်း မရှိခြင်း",
+            "Crisis နှစ်ခုတွင် အဓိပ္ပာယ်ရှိသော Pattern ဆင်တူခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 7, Week 27: "Proxy Wars and the End of
+// the Cold War"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek27 = CourseWeekDef(
+  id: "course-igcse-hum-w27",
+  weekNumber: 27,
+  titleEn: "Proxy Wars and the End of the Cold War",
+  titleMy: "Proxy War များနှင့် Cold War အဆုံးသတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w27-d1",
+      dayNumber: 1,
+      titleEn: "Proxy Wars and Economic Collapse",
+      titleMy: "Proxy War များနှင့် စီးပွားရေး ကျရှုံးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did superpowers fight 'proxy wars' -- supporting opposing sides in conflicts in other countries -- rather than fighting each other directly?",
+          questionMy:
+              "Superpower များသည် တစ်ဦးနှင့်တစ်ဦး တိုက်ရိုက် တိုက်ခိုက်မည့်အစား 'Proxy War' များ -- အခြားနိုင်ငံများရှိ Conflict များတွင် ဆန့်ကျင်ဘက် Side များကို ထောက်ခံခြင်း -- တိုက်ခိုက်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Supporting opposing sides in a third country's conflict allowed each superpower to advance its strategic and ideological interests while avoiding the catastrophic risk of direct nuclear confrontation studied in Week 26",
+            "Proxy wars had no actual connection to the superpowers' broader Cold War rivalry",
+            "Superpowers avoided proxy wars entirely and only fought each other directly",
+            "Proxy wars guaranteed there would never be any real casualties or consequences anywhere",
+          ],
+          optionsMy: [
+            "တတိယ နိုင်ငံ၏ Conflict တွင် ဆန့်ကျင်ဘက် Side များကို ထောက်ခံခြင်းသည် Superpower တစ်ခုစီအား Week 26 တွင် လေ့လာခဲ့သော Direct Nuclear Confrontation ၏ ကပျက်စီးဆုံးရှုံးသော အန္တရာယ်ကို ရှောင်ရှားစဉ် ၎င်း၏ Strategic နှင့် Ideological Interest များကို မြှင့်တင်ရန် ခွင့်ပြုခဲ့သည်",
+            "Proxy War များသည် Superpower များ၏ ကျယ်ပြန့်သော Cold War Rivalry နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Superpower များသည် Proxy War များကို လုံးဝ ရှောင်ရှားကာ တစ်ဦးနှင့်တစ်ဦး Direct တိုက်ခိုက်ကြသာ ဖြစ်ခဲ့ခြင်း",
+            "Proxy War များသည် နေရာမည်သည်တွင်မျှ Casualty (သို့) Consequence စစ်မှန်တစ်ခုမျှ ဘယ်တော့မှ ရှိမည် မဟုတ်ကြောင်း အာမခံခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects to Wednesday's lesson from last week -- if both superpowers wanted to avoid the kind of direct confrontation the Cuban crisis nearly produced, proxy wars offered a way to compete without that catastrophic risk.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခင်အပတ်၏ ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- Cuban Crisis နီးပါး ထုတ်လုပ်ပေးခဲ့သော Direct Confrontation အမျိုးအစားကို Superpower နှစ်ခုစလုံး ရှောင်ရှားလိုပါက Proxy War များသည် ထို ကပျက်စီးဆုံးရှုံးသော အန္တရာယ် မပါဘဲ ယှဉ်ပြိုင်ရန် နည်းလမ်းတစ်ခု ပေးအပ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the Soviet Union's centrally planned economy struggle to keep pace with the West's economic productivity by the 1980s, contributing to the Cold War's eventual end?",
+          questionMy:
+              "Cold War ၏ နောက်ဆုံး အဆုံးသတ်ကို ပံ့ပိုးခဲ့သော Soviet Union ၏ Centrally Planned Economy သည် ၁၉၈၀ ခုနှစ်များအထိ West ၏ စီးပွားရေး Productivity နှင့် ရှေ့ဆက်ရန် ရုန်းကန်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Combined with the enormous ongoing burden of military spending in the arms race, structural economic inefficiencies left the Soviet system unable to sustain both military competition and adequate living standards simultaneously",
+            "The Soviet economy had no actual connection to the Cold War's outcome",
+            "The Soviet economy consistently outperformed Western economies throughout the entire Cold War",
+            "Economic factors played no role whatsoever in the Cold War's end",
+          ],
+          optionsMy: [
+            "Arms Race ရှိ စစ်ရေးဆိုင်ရာ Spending ၏ ကြီးမားသော ဆက်လက် ဝန်ထုပ်ဝန်ပိုးနှင့် ပေါင်းစပ်ကာ Structural Economic Inefficiency များသည် Soviet System ကို Military Competition နှင့် လုံလောက်သော Living Standard များ နှစ်ခုစလုံး တစ်ချိန်တည်း ဆက်လက် ထိန်းသိမ်းနိုင်ရန် စွမ်းရည် ကင်းမဲ့စေခဲ့သည်",
+            "Soviet စီးပွားရေးသည် Cold War ၏ ရလဒ်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Soviet စီးပွားရေးသည် Cold War တစ်ခုလုံးတစ်လျှောက် Western စီးပွားရေးများထက် တသမတ်တည်း Outperform ပြုလုပ်ခဲ့ခြင်း",
+            "Cold War ၏ အဆုံးသတ်ချိန်တွင် Economic Factor များသည် Role မည်သည်မှ မပါခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 5's arms-race lesson -- decades of military spending competition strains an economy, and the Soviet system's structural weaknesses made that strain especially unsustainable over time.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ Arms-Race သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ဆယ်စုနှစ်များစွာ စစ်ရေးဆိုင်ရာ Spending ယှဉ်ပြိုင်မှုသည် စီးပွားရေးကို ဖိစီးစေပြီး Soviet System ၏ Structural Weakness များသည် အချိန်ကြာလာသည်နှင့်အမျှ ထို ဖိစီးမှုကို အထူးသဖြင့် Unsustainable ဖြစ်စေခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is the peaceful, largely negotiated end of the Cold War significant compared to how many earlier major conflicts studied in this course had ended?",
+          questionMy:
+              "ဤ Course တွင် လေ့လာခဲ့သော ယခင် Major Conflict များစွာ မည်သို့ အဆုံးသတ်ခဲ့သည်နှင့် နှိုင်းယှဉ်ပါက Cold War ၏ ငြိမ်းချမ်းသော၊ အများအားဖြင့် Negotiate ပြုလုပ်ထားသော အဆုံးသတ်ချက် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Unlike WWI and WWII, which ended through decisive military defeat and enormous casualties, the Cold War's end came primarily through internal economic and political change rather than direct battlefield victory",
+            "The Cold War ended in exactly the same way as WWI and WWII, through decisive military defeat",
+            "The Cold War never actually ended at any point in history",
+            "Earlier conflicts studied in this course had no connection to how they ultimately concluded",
+          ],
+          optionsMy: [
+            "Decisive Military Defeat နှင့် ကြီးမားသော Casualty များမှတစ်ဆင့် အဆုံးသတ်ခဲ့သော WWI နှင့် WWII နှင့်မတူဘဲ Cold War ၏ အဆုံးသတ်သည် Direct Battlefield Victory တစ်ခုအစား အဓိကအားဖြင့် Internal စီးပွားရေးနှင့် နိုင်ငံရေးဆိုင်ရာ ပြောင်းလဲမှုမှတစ်ဆင့် ဖြစ်ပေါ်ခဲ့သည်",
+            "Cold War သည် WWI နှင့် WWII ကဲ့သို့ Decisive Military Defeat တစ်ခုမှတစ်ဆင့် အတိအကျ တူညီစွာ အဆုံးသတ်ခဲ့ခြင်း",
+            "Cold War သည် သမိုင်း ကာလ မည်သည်တွင်မျှ အမှန်တကယ် ဘယ်တော့မှ အဆုံးသတ်ခဲ့ခြင်း မရှိခြင်း",
+            "ဤ Course တွင် လေ့လာခဲ့သော ယခင် Conflict များသည် ၎င်းတို့ နောက်ဆုံးတွင် အဆုံးသတ်ပုံနှင့် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This contrasts directly with Term 5's WWII study -- unlike a war ending in surrender after military defeat, the Cold War's conclusion came through the Soviet system's internal economic exhaustion and subsequent political reform.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 5 ၏ WWII Study နှင့် တိုက်ရိုက် ဆန့်ကျင်သည် -- Military Defeat ပြီးနောက် Surrender ဖြင့် အဆုံးသတ်သော စစ်ပွဲတစ်ခုနှင့်မတူဘဲ Cold War ၏ ကုန်ဆုံးချက်သည် Soviet System ၏ Internal Economic Exhaustion နှင့် ဆက်လက် နိုင်ငံရေးဆိုင်ရာ ပြုပြင်ပြောင်းလဲမှုမှတစ်ဆင့် ဖြစ်ပေါ်ခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: End of Cold War Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - End of Cold War ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w27-dm-1",
+          termEn: "Proxy war",
+          termMy: "Proxy War",
+          matchEn:
+              "A conflict where major powers support opposing sides without fighting each other directly",
+          matchMy:
+              "Major Power များသည် တစ်ဦးနှင့်တစ်ဦး Direct တိုက်ခိုက်ခြင်း မရှိဘဲ ဆန့်ကျင်ဘက် Side များကို ထောက်ခံသော Conflict",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w27-dm-2",
+          termEn: "Centrally planned economy",
+          termMy: "Centrally Planned Economy",
+          matchEn:
+              "An economic system where the government controls production and distribution decisions",
+          matchMy:
+              "အစိုးရသည် ထုတ်လုပ်မှုနှင့် ဖြန့်ဝေမှု ဆုံးဖြတ်ချက်များကို ထိန်းချုပ်သော Economic System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w27-dm-3",
+          termEn: "Economic exhaustion",
+          termMy: "Economic Exhaustion",
+          matchEn:
+              "A state where sustained strain leaves an economy unable to keep functioning effectively",
+          matchMy:
+              "ဆက်လက် ဖိစီးမှုသည် စီးပွားရေးတစ်ခုကို ထိရောက်စွာ ဆက်လက် အလုပ်လုပ်နိုင်ရန် စွမ်းရည် ကင်းမဲ့စေသော အခြေအနေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w27-dm-4",
+          termEn: "Negotiated resolution",
+          termMy: "Negotiated Resolution",
+          matchEn:
+              "Ending a conflict through diplomatic agreement rather than decisive battlefield defeat",
+          matchMy:
+              "Decisive Battlefield Defeat အစား Diplomatic Agreement မှတစ်ဆင့် Conflict တစ်ခုကို အဆုံးသတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause of the Cold War's End or Not?",
+      titleMy: "စီစစ်ကြမည် - Cold War အဆုံးသတ်ခြင်း၏ Cause ဖြစ်/မဖြစ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Cause of the Cold War's End",
+          "Not a Cause of the Cold War's End",
+        ],
+        bucketsMy: [
+          "Cold War အဆုံးသတ်ခြင်း၏ Cause",
+          "Cold War အဆုံးသတ်ခြင်း၏ Cause မဟုတ်ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w27-sort-1",
+            labelEn:
+                "Decades of unsustainable military spending straining the Soviet economy",
+            labelMy:
+                "Soviet စီးပွားရေးကို ဖိစီးစေသော ဆယ်စုနှစ်များစွာ Unsustainable စစ်ရေးဆိုင်ရာ Spending",
+            correctBucketEn: "Cause of the Cold War's End",
+            correctBucketMy: "Cold War အဆုံးသတ်ခြင်း၏ Cause",
+          ),
+          SortingItem(
+            id: "igchum-w27-sort-2",
+            labelEn:
+                "A decisive military invasion and formal surrender by one superpower",
+            labelMy:
+                "Superpower တစ်ခုက Decisive Military Invasion နှင့် တရားဝင် Surrender",
+            correctBucketEn: "Not a Cause of the Cold War's End",
+            correctBucketMy: "Cold War အဆုံးသတ်ခြင်း၏ Cause မဟုတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w27-sort-3",
+            labelEn:
+                "Structural inefficiencies in a centrally planned economic system",
+            labelMy:
+                "Centrally Planned Economic System တွင် Structural Inefficiency များ",
+            correctBucketEn: "Cause of the Cold War's End",
+            correctBucketMy: "Cold War အဆုံးသတ်ခြင်း၏ Cause",
+          ),
+          SortingItem(
+            id: "igchum-w27-sort-4",
+            labelEn:
+                "A sudden, single trench-warfare battle with no economic connection",
+            labelMy:
+                "Economic ချိတ်ဆက်မှု မပါသော ရုတ်တရက်၊ တစ်ခုတည်းသော Trench-Warfare Battle",
+            correctBucketEn: "Not a Cause of the Cold War's End",
+            correctBucketMy: "Cold War အဆုံးသတ်ခြင်း၏ Cause မဟုတ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Cold War End Essay",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Cold War End Essay",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Cold War End Essay",
+        titleMy: "Thiha Aung ၏ Cold War End Essay",
+        passageEn:
+            "For Week 27, Saya Tun Tun Win asked students to write an essay explaining why the Cold War ended when and how it did, connecting proxy warfare, economic strain, and the manner of resolution into one coherent argument rather than three disconnected facts. Thiha Aung's essay opened by applying Monday's proxy-war lesson to explain the shape competition took for most of the Cold War's duration: rather than direct superpower confrontation, rivalry played out through supporting opposing sides in conflicts across multiple regions, allowing both sides to compete while avoiding the catastrophic risk of direct nuclear war examined in Week 26.\n\nHis essay's central section applied Tuesday's economic-strain lesson directly: decades of proxy conflicts and the ongoing arms race imposed a sustained military spending burden on both superpowers, but the Soviet Union's centrally planned economic system proved structurally less able to absorb this strain while also providing an adequate standard of living, creating growing internal economic pressure that a market-based economy could better withstand.\n\nApplying Wednesday's resolution-comparison lesson, Thiha Aung's conclusion drew an explicit contrast with the earlier wars studied this year: unlike WWI and WWII, which ended through military defeat and formal surrender following enormous casualties, the Cold War concluded primarily through the Soviet system's internal economic exhaustion, leading to political reform and eventual dissolution rather than a battlefield outcome.\n\nHis final paragraph connected all three threads together explicitly: proxy wars allowed the rivalry to continue for decades without direct confrontation, but the underlying economic burden that sustained rivalry created eventually became unsustainable for one side, and when the end came, it arrived through internal transformation rather than the kind of decisive military victory that had concluded the century's earlier major conflicts. Saya Tun Tun Win praised the essay for weaving three distinct historical threads into one connected explanation of a genuinely different kind of conflict resolution.",
+        passageMy:
+            "Week 27 အတွက် Cold War သည် ၎င်း ဖြစ်ခဲ့သည့် အချိန်နှင့် နည်းလမ်း ဘာကြောင့် အဆုံးသတ်ခဲ့သည်ကို ရှင်းပြသော Essay တစ်ခု ရေးသားရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး Proxy Warfare, Economic Strain နှင့် Resolution ၏ ပုံစံကို Fact ချိတ်ဆက်မှု မရှိသော သုံးခုအစား Argument တစ်ခုတည်းသို့ ချိတ်ဆက်ခဲ့သည်။ Thiha Aung ၏ Essay သည် Cold War ၏ ကာလ အများစုအတွက် Competition ယူသော ပုံသဏ္ဍာန်ကို ရှင်းပြရန် တနင်္လာနေ့ Proxy-War သင်ခန်းစာကို အသုံးချကာ ဖွင့်လှစ်ခဲ့သည် - Direct Superpower Confrontation အစား Region များစွာတစ်လျှောက် Conflict များတွင် ဆန့်ကျင်ဘက် Side များကို ထောက်ခံခြင်းမှတစ်ဆင့် Rivalry ကစားခဲ့ပြီး Week 26 တွင် စစ်ဆေးခဲ့သော Direct Nuclear စစ်ပွဲ၏ ကပျက်စီးဆုံးရှုံးသော အန္တရာယ်ကို ရှောင်ရှားစဉ် ဘက်နှစ်ဘက်စလုံးကို ယှဉ်ပြိုင်ခွင့် ပေးခဲ့သည်။\n\n၎င်း၏ Essay ၏ ဗဟိုချက် Section သည် အင်္ဂါနေ့ Economic-Strain သင်ခန်းစာကို တိုက်ရိုက် အသုံးချခဲ့သည် - ဆယ်စုနှစ်များစွာ Proxy Conflict များနှင့် ဆက်လက် Arms Race သည် Superpower နှစ်ခုစလုံးအပေါ် ဆက်လက် Military Spending ဝန်ထုပ်ဝန်ပိုးကို တင်စီးခဲ့သော်လည်း Soviet Union ၏ Centrally Planned Economic System သည် လုံလောက်သော Living Standard တစ်ခု ပေးအပ်စဉ်ပင် ဤ Strain ကို စုတ်ယူရန် Structurally ပို၍ စွမ်းရည် နည်းကြောင်း သက်သေပြခဲ့ပြီး Market-Based Economy တစ်ခု ပို၍ ကောင်းစွာ ခံနိုင်ရည်ရှိသော ကြီးထွားနေသော Internal Economic ဖိအားကို ဖန်တီးခဲ့သည်။\n\nဗုဒ္ဓဟူးနေ့ Resolution-Comparison သင်ခန်းစာကို အသုံးချကာ ယခုနှစ် လေ့လာခဲ့သော ယခင် စစ်ပွဲများနှင့် Explicit Contrast တစ်ခုကို Thiha Aung ၏ ကောက်ချက် ဆွဲထားခဲ့သည် - ကြီးမားသော Casualty များပြီးနောက် Military Defeat နှင့် တရားဝင် Surrender မှတစ်ဆင့် အဆုံးသတ်ခဲ့သော WWI နှင့် WWII နှင့်မတူဘဲ Cold War သည် Battlefield ရလဒ်တစ်ခုအစား Political Reform နှင့် နောက်ဆုံး Dissolution သို့ ဦးဆောင်ခဲ့သော Soviet System ၏ Internal Economic Exhaustion မှတစ်ဆင့် အဓိကအားဖြင့် ကုန်ဆုံးခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး စာပိုဒ်သည် Thread သုံးခုစလုံးကို ရှင်းလင်းစွာ အတူတကွ ချိတ်ဆက်ခဲ့သည် - Proxy War များသည် Direct Confrontation မပါဘဲ Rivalry ကို ဆယ်စုနှစ်များစွာ ဆက်လက် ဖြစ်စေခဲ့သော်လည်း ထို Rivalry ကို ဆက်လက် ရှိစေခဲ့သော အောက်ခံ Economic ဝန်ထုပ်ဝန်ပိုးသည် ဘက်တစ်ဘက်အတွက် နောက်ဆုံးတွင် Unsustainable ဖြစ်လာခဲ့ပြီး အဆုံးသတ် ရောက်ရှိချိန် ၎င်းသည် ရာစုနှစ်၏ ယခင် Major Conflict များ ကုန်ဆုံးစေခဲ့သော Decisive Military Victory အမျိုးအစားအစား Internal Transformation မှတစ်ဆင့် ရောက်ရှိခဲ့သည်။ Genuinely ကွဲပြားသော Conflict Resolution အမျိုးအစားတစ်ခု၏ Connected ရှင်းလင်းချက်တစ်ခုတည်းသို့ Distinct သမိုင်းဆိုင်ရာ Thread သုံးခုကို ရက်ချစပ်ခဲ့သောကြောင့် Essay ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did superpowers rely on proxy wars for most of the Cold War?",
+            questionMy:
+                "Cold War ၏ ကာလ အများစုအတွက် Superpower များ Proxy War ကို အားကိုးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It allowed competition while avoiding the catastrophic risk of direct nuclear war",
+              "Proxy wars had no actual connection to avoiding nuclear risk",
+              "Superpowers actively sought direct nuclear confrontation instead",
+              "Proxy wars were never actually used during the Cold War",
+            ],
+            optionsMy: [
+              "Direct Nuclear စစ်ပွဲ၏ ကပျက်စီးဆုံးရှုံးသော အန္တရာယ်ကို ရှောင်ရှားစဉ် Competition ကို ခွင့်ပြုခဲ့ခြင်း",
+              "Proxy War များသည် Nuclear အန္တရာယ် ရှောင်ရှားခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+              "Superpower များသည် Direct Nuclear Confrontation ကို အစား တက်ကြွစွာ ရှာဖွေခဲ့ခြင်း",
+              "Cold War အတွင်း Proxy War များကို အမှန်တကယ် ဘယ်တော့မှ အသုံးပြုခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's explanation."],
+            hintsMy: ["ပထမ စာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was the Soviet economy less able to withstand the arms race burden?",
+            questionMy:
+                "Arms Race ဝန်ထုပ်ဝန်ပိုးကို Soviet စီးပွားရေး ပို၍ ခံနိုင်ရည် နည်းခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its centrally planned system was structurally less able to sustain both military spending and living standards",
+              "The Soviet economy had no connection to military spending at all",
+              "The Soviet economy was actually stronger than any market-based economy",
+              "Military spending had no actual effect on the Soviet economy",
+            ],
+            optionsMy: [
+              "၎င်း၏ Centrally Planned System သည် Military Spending နှင့် Living Standard နှစ်ခုစလုံးကို ဆက်လက် ထိန်းသိမ်းရန် Structurally ပို၍ စွမ်းရည် နည်းခဲ့ခြင်း",
+              "Soviet စီးပွားရေးသည် Military Spending နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+              "Soviet စီးပွားရေးသည် Market-Based စီးပွားရေး မည်သည်ထက်မဆို အမှန်တကယ် ပို၍ ခိုင်မာခဲ့ခြင်း",
+              "Military Spending သည် Soviet စီးပွားရေးအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the Cold War's end differ from WWI and WWII?",
+            questionMy:
+                "WWI နှင့် WWII မှ Cold War ၏ အဆုံးသတ်ခြင်း ကွဲပြားခဲ့သည့် ပုံစံကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It concluded through internal economic exhaustion rather than military defeat and surrender",
+              "It ended in exactly the same way through decisive battlefield victory",
+              "It ended with no connection to any internal economic factors",
+              "It has no actual comparison possible to the earlier wars",
+            ],
+            optionsMy: [
+              "Military Defeat နှင့် Surrender အစား Internal Economic Exhaustion မှတစ်ဆင့် ကုန်ဆုံးခဲ့ခြင်း",
+              "Decisive Battlefield Victory မှတစ်ဆင့် အတိအကျ တူညီစွာ အဆုံးသတ်ခဲ့ခြင်း",
+              "Internal Economic Factor မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မပါဘဲ အဆုံးသတ်ခဲ့ခြင်း",
+              "ယခင် စစ်ပွဲများနှင့် Comparison ဖြစ်နိုင်ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's contrast."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Contrast ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w27-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Proxy Wars and the End of the Cold War",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Proxy War များနှင့် Cold War အဆုံးသတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Proxy wars allowed superpowers to...",
+          questionMy: "Proxy War များသည် Superpower များကို ...ခွင့်ပြုခဲ့သည်",
+          optionsEn: [
+            "Compete while avoiding direct nuclear confrontation",
+            "Guarantee direct nuclear war would definitely occur",
+            "Avoid any competition of any kind whatsoever",
+            "Fight each other directly on a shared battlefield",
+          ],
+          optionsMy: [
+            "Direct Nuclear Confrontation ရှောင်ရှားစဉ် ယှဉ်ပြိုင်ခြင်း",
+            "Direct Nuclear စစ်ပွဲ ဧကန်ဖြစ်ပေါ်မည်ဟု အာမခံခြင်း",
+            "Competition မည်သည်မှ လုံးဝ ရှောင်ရှားခြင်း",
+            "မျှဝေထားသော Battlefield တွင် တစ်ဦးနှင့်တစ်ဦး Direct တိုက်ခိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Soviet economy struggled under the arms race because...",
+          questionMy:
+              "Arms Race အောက်တွင် Soviet စီးပွားရေး ရုန်းကန်ခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Structural inefficiencies made it hard to sustain both military spending and living standards",
+            "The Soviet economy had no connection to military spending",
+            "The arms race had no economic effect on any country",
+            "The Soviet economy was always stronger than Western economies",
+          ],
+          optionsMy: [
+            "Structural Inefficiency များက Military Spending နှင့် Living Standard နှစ်ခုစလုံးကို ဆက်လက် ထိန်းသိမ်းရန် ခက်ခဲစေခဲ့ခြင်း",
+            "Soviet စီးပွားရေးသည် Military Spending နှင့် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Arms Race သည် နိုင်ငံ မည်သည်၏ စီးပွားရေးအပေါ်မှ Effect မရှိခဲ့ခြင်း",
+            "Soviet စီးပွားရေးသည် Western စီးပွားရေးများထက် အမြဲ ပို၍ ခိုင်မာခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Cold War's end was significant because it...",
+          questionMy: "Cold War ၏ အဆုံးသတ်ခြင်းသည် ...ကြောင့် အရေးကြီးသည်",
+          optionsEn: [
+            "Came through internal transformation rather than battlefield defeat",
+            "Ended in exactly the same way as WWI and WWII",
+            "Involved a decisive military invasion by one superpower",
+            "Had no connection to internal economic change",
+          ],
+          optionsMy: [
+            "Battlefield Defeat အစား Internal Transformation မှတစ်ဆင့် ရောက်ရှိလာခဲ့ခြင်း",
+            "WWI နှင့် WWII နှင့် အတိအကျ တူညီစွာ အဆုံးသတ်ခဲ့ခြင်း",
+            "Superpower တစ်ခုက Decisive Military Invasion ပါဝင်ခဲ့ခြင်း",
+            "Internal စီးပွားရေးဆိုင်ရာ ပြောင်းလဲမှုနှင့် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 7, Week 28 (Capstone/Boss Week): "Cold
+// War Turning Points Trial"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek28 = CourseWeekDef(
+  id: "course-igcse-hum-w28",
+  weekNumber: 28,
+  titleEn: "Cold War Turning Points Trial",
+  titleMy: "Cold War Turning Points Trial",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w28-d1",
+      dayNumber: 1,
+      titleEn: "Building a Balanced Cold War Argument",
+      titleMy: "Balanced Cold War Argument တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a trial assessing which Cold War event was most significant to the conflict's overall trajectory, why should a strong argument compare candidates against explicit criteria (e.g. did it change the conflict's direction) rather than personal preference alone?",
+          questionMy:
+              "Cold War ၏ Overall Trajectory အတွက် Event မည်သည် အရေးကြီးဆုံးဖြစ်သည်ကို အကဲဖြတ်သော Trial တစ်ခုတွင် ခိုင်မာသော Argument တစ်ခုသည် ကိုယ်ပိုင် Preference တစ်ခုတည်းအစား Explicit Criteria (ဥပမာ - Conflict ၏ ဦးတည်ချက်ကို ပြောင်းလဲခဲ့ပါသလား) ကို ထောက်ရှု၍ Candidate များ နှိုင်းယှဉ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This directly applies Week 18's turning-point criterion (a clear before-and-after change in trajectory) consistently across candidates, producing a defensible verdict rather than an arbitrary opinion",
+            "Personal preference is always a more valid basis for historical judgment than any explicit criterion",
+            "There is no actual criterion that can be consistently applied across different historical events",
+            "Historical significance should never be assessed using any consistent standard of any kind",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Week 18 ၏ Turning-Point Criterion (Trajectory တွင် ရှင်းလင်းသော Before-and-After ပြောင်းလဲမှု) ကို Candidate များတစ်လျှောက် တသမတ်တည်း အသုံးချကာ ကျပန်း ထင်မြင်ချက်တစ်ခုအစား ကာကွယ်နိုင်သော Verdict တစ်ခု ထုတ်လုပ်ပေးသည်",
+            "ကိုယ်ပိုင် Preference သည် Explicit Criterion မည်သည်ထက်မဆို သမိုင်းဆိုင်ရာ ဆုံးဖြတ်ချက်အတွက် အမြဲ ပို၍ Valid Basis တစ်ခု ဖြစ်ခြင်း",
+            "ကွဲပြားသော သမိုင်းဆိုင်ရာ Event များတစ်လျှောက် တသမတ်တည်း အသုံးချနိုင်သော Criterion မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "သမိုင်းဆိုင်ရာ အရေးပါမှုကို တသမတ်တည်း Standard မည်သည်ကိုမျှ အသုံးမပြုဘဲ အမြဲ အကဲဖြတ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls the turning-point vocabulary from Term 5's Week 18 -- applying the same explicit standard consistently allows fair comparison between different candidate events rather than a subjective, unsupported choice.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 5 ၏ Week 18 မှ Turning-Point ဝေါဟာရကို တိုက်ရိုက် သတိရစေသည် -- Explicit Standard တူတူကို တသမတ်တည်း အသုံးချခြင်းသည် Subjective, Unsupported ရွေးချယ်မှုတစ်ခုအစား Candidate Event ကွဲပြားများကြား တရားမျှတသော နှိုင်းယှဉ်ချက်ကို ခွင့်ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a Cold War trial argument distinguish between events that were dramatic and highly visible (like the Cuban Missile Crisis) and events with genuinely larger long-term structural impact (like sustained economic strain)?",
+          questionMy:
+              "Cold War Trial Argument တစ်ခုသည် Dramatic နှင့် Highly Visible ဖြစ်သော Event များ (Cuban Missile Crisis ကဲ့သို့) ကို စစ်မှန်စွာ ကြီးမားသော Long-Term Structural Impact ရှိသော Event များ (ဆက်လက် Economic Strain ကဲ့သို့) မှ ခွဲခြားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A dramatic, highly visible moment does not automatically equal the greatest historical significance -- slower, less visible structural processes can have equally or more profound long-term effects, requiring careful weighing rather than simply picking the most attention-grabbing event",
+            "Dramatic events always automatically have more historical significance than any structural process",
+            "Slower structural processes never actually have any significant historical effect",
+            "There is no meaningful way to compare dramatic events against structural processes",
+          ],
+          optionsMy: [
+            "Dramatic, Highly Visible အခိုက်အတန့်တစ်ခုသည် အကြီးမားဆုံး သမိုင်းဆိုင်ရာ အရေးပါမှုနှင့် အလိုအလျောက် ညီမျှခြင်း မရှိပါ -- ဖြည်းညင်းသော၊ Visible နည်းသော Structural Process များသည် ညီမျှ (သို့) ပို၍ ကြီးလေးသော Long-Term Effect များ ရှိနိုင်ပြီး Attention-Grabbing Event ရိုးရှင်းစွာ ရွေးချယ်ခြင်းအစား ဂရုတစိုက် ချိန်ဆရန် လိုအပ်သည်",
+            "Dramatic Event များသည် Structural Process မည်သည်ထက်မဆို သမိုင်းဆိုင်ရာ အရေးပါမှု ပို၍ အလိုအလျောက် အမြဲ ရှိခြင်း",
+            "ဖြည်းညင်းသော Structural Process များသည် သိသာသော သမိုင်းဆိုင်ရာ Effect မည်သည်မှ အမှန်တကယ် ဘယ်တော့မှ မရှိခြင်း",
+            "Dramatic Event များကို Structural Process များနှင့် နှိုင်းယှဉ်ရန် အဓိပ္ပာယ်ရှိသော နည်းလမ်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 26's crisis vocabulary to Week 27's structural-strain lesson -- Thiha Aung's own essay argued the war's actual end came from slow economic exhaustion, not a single dramatic crisis moment.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 26 ၏ Crisis ဝေါဟာရကို Week 27 ၏ Structural-Strain သင်ခန်းစာသို့ ချိတ်ဆက်သည် -- စစ်ပွဲ၏ အမှန်တကယ် အဆုံးသတ်ချက်သည် Dramatic Crisis Moment တစ်ခုတည်းမှမဟုတ်ဘဲ ဖြည်းညင်းသော Economic Exhaustion မှ ရောက်ရှိခဲ့ကြောင်း Thiha Aung ကိုယ်ပိုင် Essay က ငြင်းခုံခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the trial's final verdict cite specific evidence from earlier weeks (the July Crisis, Berlin, Cuba, the arms race) rather than making a general, unsupported claim?",
+          questionMy:
+              "Trial ၏ Final Verdict သည် ယေဘုယျ၊ Unsupported Claim တစ်ခု ပြုလုပ်မည့်အစား ယခင် Week များ (July Crisis, Berlin, Cuba, Arms Race) မှ တိကျသော Evidence ကို ကိုးကားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is the same evidence-based-argument discipline established since Term 1 -- citing specific, verified events demonstrates genuine historical understanding rather than an unsupported assertion",
+            "General claims are always more persuasive than citing specific historical evidence",
+            "Specific evidence has no actual value in a historical trial argument",
+            "A trial verdict should never reference any prior week's content of any kind",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ တည်ထောင်ခဲ့သော Evidence-Based-Argument Discipline တူတူ ဖြစ်သည် -- တိကျသော၊ အတည်ပြုထားသော Event များ ကိုးကားခြင်းသည် Unsupported Assertion တစ်ခုအစား စစ်မှန်သော သမိုင်းဆိုင်ရာ နားလည်မှုကို သရုပ်ပြသည်",
+            "General Claim များသည် တိကျသော သမိုင်းဆိုင်ရာ Evidence ကိုးကားခြင်းထက် အမြဲ ပို၍ ဆွဲဆောင်မှု ရှိခြင်း",
+            "တိကျသော Evidence သည် သမိုင်းဆိုင်ရာ Trial Argument တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Trial Verdict တစ်ခုသည် ယခင် Week မည်သည့်၏ Content ကိုမျှ ဘယ်တော့မှ ရည်ညွှန်းသင့်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same specific-citation discipline from Week 8's WWI causation trial -- a strong verdict quotes specific evidence for every claim it makes, exactly as Thiha Aung did in that earlier trial.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 8 ၏ WWI Causation Trial မှ Specific-Citation Discipline တူတူကို အသုံးချသည် -- ခိုင်မာသော Verdict တစ်ခုသည် ၎င်း ပြုလုပ်သော Claim တိုင်းအတွက် တိကျသော Evidence ကို Quote ပြုလုပ်ပြီး Thiha Aung ထို Trial ယခင်တွင် ပြုလုပ်ခဲ့သည့်အတိုင်း အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Cold War Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 7 Cold War ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w28-dm-1",
+          termEn: "Explicit criterion",
+          termMy: "Explicit Criterion",
+          matchEn:
+              "A clearly stated standard applied consistently to compare historical candidates",
+          matchMy:
+              "သမိုင်းဆိုင်ရာ Candidate များ နှိုင်းယှဉ်ရန် တသမတ်တည်း အသုံးချသော ရှင်းလင်းစွာ ဖော်ပြထားသော Standard",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w28-dm-2",
+          termEn: "Structural process",
+          termMy: "Structural Process",
+          matchEn:
+              "A slow, ongoing change with significant effects, unlike a single dramatic moment",
+          matchMy:
+              "Dramatic အခိုက်အတန့်တစ်ခုတည်းနှင့်မတူဘဲ သိသာသော Effect ရှိသော ဖြည်းညင်း၊ ဆက်လက် ပြောင်းလဲမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w28-dm-3",
+          termEn: "Verdict",
+          termMy: "Verdict",
+          matchEn: "A final judgment supported by cited, specific evidence",
+          matchMy:
+              "ကိုးကားထားသော၊ တိကျသော Evidence က ထောက်ခံထားသော Final Judgment",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w28-dm-4",
+          termEn: "Overall trajectory",
+          termMy: "Overall Trajectory",
+          matchEn:
+              "The general direction a conflict moves in over its full duration",
+          matchMy:
+              "Conflict တစ်ခု ၎င်း၏ ကာလ အပြည့်အစုံအတွင်း ရွေ့လျားသွားသော ယေဘုယျ ဦးတည်ချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Dramatic Crisis or Structural Process?",
+      titleMy: "စီစစ်ကြမည် - Dramatic Crisis (သို့) Structural Process",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Dramatic, Highly Visible Crisis",
+          "Slow, Structural Process",
+        ],
+        bucketsMy: [
+          "Dramatic, Highly Visible Crisis",
+          "ဖြည်းညင်း၊ Structural Process",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w28-sort-1",
+            labelEn:
+                "A tense standoff over missiles resolved within a matter of days",
+            labelMy:
+                "ရက်အနည်းငယ်အတွင်း ဖြေရှင်းခဲ့သော Missile များအပေါ် တင်းမာသော Standoff",
+            correctBucketEn: "Dramatic, Highly Visible Crisis",
+            correctBucketMy: "Dramatic, Highly Visible Crisis",
+          ),
+          SortingItem(
+            id: "igchum-w28-sort-2",
+            labelEn:
+                "Decades of gradually accumulating economic strain from military spending",
+            labelMy:
+                "စစ်ရေးဆိုင်ရာ Spending မှ ဆယ်စုနှစ်များစွာ တဖြည်းဖြည်း စုစည်းလာသော Economic Strain",
+            correctBucketEn: "Slow, Structural Process",
+            correctBucketMy: "ဖြည်းညင်း၊ Structural Process",
+          ),
+          SortingItem(
+            id: "igchum-w28-sort-3",
+            labelEn: "A blockade and airlift lasting many months",
+            labelMy: "လများစွာ ကြာမြင့်သော Blockade နှင့် Airlift",
+            correctBucketEn: "Dramatic, Highly Visible Crisis",
+            correctBucketMy: "Dramatic, Highly Visible Crisis",
+          ),
+          SortingItem(
+            id: "igchum-w28-sort-4",
+            labelEn:
+                "A centrally planned economy's structural inefficiency accumulating over decades",
+            labelMy:
+                "ဆယ်စုနှစ်များစွာ စုစည်းလာသော Centrally Planned Economy တစ်ခု၏ Structural Inefficiency",
+            correctBucketEn: "Slow, Structural Process",
+            correctBucketMy: "ဖြည်းညင်း၊ Structural Process",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Cold War Turning Points Verdict",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Cold War Turning Points Verdict",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Cold War Turning Points Verdict",
+        titleMy: "Thiha Aung ၏ Cold War Turning Points Verdict",
+        passageEn:
+            "For Term 7's capstone, Saya Tun Tun Win staged a mock trial asking each student to argue which single factor was most significant to the Cold War's overall trajectory, judged by a panel of classmates. Thiha Aung was assigned to argue that sustained economic strain, rather than any single dramatic crisis, was the most significant factor overall.\n\nApplying Monday's explicit-criterion lesson, he opened by defining his standard clearly: significance meant genuinely shaping the conflict's ultimate direction and outcome, not simply generating the most attention or tension in the moment. He then applied this criterion consistently to every candidate factor, rather than favoring whichever event felt most dramatic.\n\nHis argument's central section applied Tuesday's dramatic-versus-structural lesson directly: he acknowledged that the Cuban Missile Crisis and Berlin Blockade were genuinely dramatic, closely studied moments, but argued that neither fundamentally altered the Cold War's long-term trajectory -- both were ultimately resolved through negotiation, and the broader rivalry continued largely unchanged afterward. The sustained economic burden of the arms race, by contrast, gradually but genuinely reshaped the trajectory over decades, eventually contributing directly to the war's actual end.\n\nApplying Wednesday's citation lesson, Thiha Aung supported every claim with specific evidence rather than general assertion: he cited the specific timeline of the Berlin airlift's resolution, the days-long duration of the Cuban standoff compared to the decades-long arms race, and the documented economic pressures that contributed to the Soviet system's eventual political transformation. Saya Tun Tun Win's panel ultimately ranked his argument among the strongest submitted, praising it specifically for applying one consistent, explicit standard across multiple candidates and grounding every step in cited evidence -- the exact discipline the whole course had been built to develop since Week 1's first lesson on evaluating sources.",
+        passageMy:
+            "Term 7 Capstone အတွက် Cold War ၏ Overall Trajectory တွင် Factor တစ်ခုတည်းသည် အရေးကြီးဆုံးဖြစ်ကြောင်း ကျောင်းသားတစ်ဦးစီအား ငြင်းခုံရန် တောင်းဆိုကာ Mock Trial တစ်ခုကို Saya Tun Tun Win စီစဉ်ခဲ့ပြီး အတန်းဖော် Panel တစ်ခုက Judge ပြုလုပ်ခဲ့သည်။ Dramatic Crisis တစ်ခုတည်းမဟုတ်ဘဲ ဆက်လက် Economic Strain သည် Overall အရေးကြီးဆုံး Factor ဖြစ်ကြောင်း ငြင်းခုံရန် Thiha Aung ကို တာဝန်ပေးအပ်ခဲ့သည်။\n\nတနင်္လာနေ့ Explicit-Criterion သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ Standard ကို ရှင်းလင်းစွာ Define ပြုလုပ်ကာ ၎င်း ဖွင့်လှစ်ခဲ့သည် - အရေးပါမှု ဆိုသည်မှာ ချက်ချင်း Attention (သို့) Tension အများဆုံး ထုတ်လုပ်ရုံသာမက Conflict ၏ နောက်ဆုံး ဦးတည်ချက်နှင့် ရလဒ်ကို စစ်မှန်စွာ ပုံဖော်ခြင်း ဆိုလိုသည်။ Event မည်သည်ကမဆို ပို၍ Dramatic ခံစားရသည်ကို Favour ပြုမည့်အစား ဤ Criterion ကို Candidate Factor တိုင်းတွင် ၎င်း တသမတ်တည်း အသုံးချခဲ့သည်။\n\n၎င်း၏ Argument ၏ ဗဟိုချက် Section သည် Dramatic-Versus-Structural သင်ခန်းစာ အင်္ဂါနေ့ကို တိုက်ရိုက် အသုံးချခဲ့သည် - Cuban Missile Crisis နှင့် Berlin Blockade သည် စစ်မှန်စွာ Dramatic, ကောင်းစွာ လေ့လာထားသော အခိုက်အတန့်များ ဖြစ်ကြောင်း ၎င်း အသိအမှတ်ပြုခဲ့သော်လည်း နှစ်ခုစလုံးသည် Cold War ၏ Long-Term Trajectory ကို Fundamentally ပြောင်းလဲမှု မရှိခဲ့ဟု ငြင်းခုံခဲ့သည် -- နှစ်ခုစလုံးကို Negotiation မှတစ်ဆင့် နောက်ဆုံးတွင် ဖြေရှင်းခဲ့ပြီး ကျယ်ပြန့်သော Rivalry သည် ၎င်းနောက် အများစု မပြောင်းလဲဘဲ ဆက်လက် ရှိနေခဲ့သည်။ Arms Race ၏ ဆက်လက် Economic ဝန်ထုပ်ဝန်ပိုးသည် ဆန့်ကျင်ဘက်အနေဖြင့် ဆယ်စုနှစ်များစွာ တဖြည်းဖြည်း၊ စစ်မှန်စွာ Trajectory ကို ပြန်လည် ပုံဖော်ခဲ့ပြီး နောက်ဆုံးတွင် စစ်ပွဲ၏ အမှန်တကယ် အဆုံးသတ်ခြင်းသို့ တိုက်ရိုက် ပံ့ပိုးခဲ့သည်။\n\nဗုဒ္ဓဟူးနေ့ Citation သင်ခန်းစာကို အသုံးချကာ ယေဘုယျ Assertion အစား Claim တိုင်းကို တိကျသော Evidence ဖြင့် Thiha Aung ထောက်ခံခဲ့သည် - Berlin Airlift ၏ Resolution တိကျသော Timeline, ဆယ်စုနှစ်များစွာ ကြာမြင့်သော Arms Race နှင့် နှိုင်းယှဉ်ပါက Cuban Standoff ၏ ရက်ဖြင့် တိုင်းတာသော ကြာမြင့်ချိန်နှင့် Soviet System ၏ နောက်ဆုံး နိုင်ငံရေးဆိုင်ရာ Transformation ကို ပံ့ပိုးခဲ့သော Document ပြုလုပ်ထားသော Economic ဖိအားများကို ၎င်း ကိုးကားခဲ့သည်။ Candidate များစွာတစ်လျှောက် တသမတ်တည်း Explicit Standard တစ်ခုတည်းကို အသုံးချကာ Step တိုင်းကို ကိုးကားထားသော Evidence တွင် အခြေခံထားသောကြောင့် Saya Tun Tun Win ၏ Panel သည် ၎င်း၏ Argument ကို တင်သွင်းထားသော ခိုင်မာဆုံးများထဲမှ တစ်ခုအဖြစ် နောက်ဆုံးတွင် Rank ချခဲ့သည် -- Week 1 ၏ Source များ အကဲဖြတ်ခြင်းအကြောင်း ပထမဆုံး သင်ခန်းစာမှစ၍ Course တစ်ခုလုံး ဖွံ့ဖြိုးတိုးတက်ရန် တည်ဆောက်ခဲ့သော Discipline အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Thiha Aung define significance?",
+            questionMy:
+                "အရေးပါမှုကို Thiha Aung မည်သို့ Define ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Genuinely shaping the conflict's ultimate direction and outcome",
+              "Simply generating the most attention or tension in the moment",
+              "He refused to define significance in any way",
+              "Whichever event felt most dramatic to him personally",
+            ],
+            optionsMy: [
+              "Conflict ၏ နောက်ဆုံး ဦးတည်ချက်နှင့် ရလဒ်ကို စစ်မှန်စွာ ပုံဖော်ခြင်း",
+              "ချက်ချင်း Attention (သို့) Tension အများဆုံး ရိုးရှင်းစွာ ထုတ်လုပ်ခြင်း",
+              "အရေးပါမှုကို နည်းလမ်း မည်သည့်နှင့်မျှ Define ပြုလုပ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "၎င်းကိုယ်ပိုင် ပို၍ Dramatic ခံစားရသော Event မည်သည်ဖြစ်စေ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's definition."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Definition ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung argue the arms race mattered more than Cuba or Berlin?",
+            questionMy:
+                "Cuba (သို့) Berlin ထက် Arms Race ပို၍ အရေးကြီးကြောင်း Thiha Aung ငြင်းခုံခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It gradually but genuinely reshaped the war's trajectory and contributed to its end",
+              "Cuba and Berlin actually had no historical significance whatsoever",
+              "The arms race had no actual connection to the war's outcome",
+              "Both crises fundamentally changed the war's trajectory permanently",
+            ],
+            optionsMy: [
+              "စစ်ပွဲ၏ Trajectory ကို တဖြည်းဖြည်း၊ စစ်မှန်စွာ ပြန်လည် ပုံဖော်ပြီး ၎င်း၏ အဆုံးသတ်ခြင်းသို့ ပံ့ပိုးခဲ့ခြင်း",
+              "Cuba နှင့် Berlin တွင် သမိုင်းဆိုင်ရာ အရေးပါမှု မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Arms Race သည် စစ်ပွဲ၏ ရလဒ်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+              "Crisis နှစ်ခုစလုံးသည် စစ်ပွဲ၏ Trajectory ကို ထာဝရ Fundamentally ပြောင်းလဲခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's argument."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the panel rank Thiha Aung's argument among the strongest?",
+            questionMy:
+                "Thiha Aung ၏ Argument ကို ခိုင်မာဆုံးများထဲမှ တစ်ခုအဖြစ် Panel Rank ချခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It applied one consistent standard and grounded every step in cited evidence",
+              "It used a different standard for each candidate factor",
+              "It relied entirely on general assertions with no evidence",
+              "It was the shortest argument submitted in the class",
+            ],
+            optionsMy: [
+              "တသမတ်တည်း Standard တစ်ခုကို အသုံးချကာ Step တိုင်းကို ကိုးကားထားသော Evidence တွင် အခြေခံထားခြင်း",
+              "Candidate Factor တစ်ခုစီအတွက် Standard ကွဲပြားများ အသုံးပြုခဲ့ခြင်း",
+              "Evidence မည်သည်မှ မပါဘဲ ယေဘုယျ Assertion များကို လုံးလုံးလျားလျား အားကိုးခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး Argument ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: The Cold War Exam",
+      titleMy: "Term 7 Capstone - Cold War စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Comparing historical candidates against an explicit criterion is valuable because it...",
+          questionMy:
+              "သမိုင်းဆိုင်ရာ Candidate များကို Explicit Criterion တစ်ခုနှင့် နှိုင်းယှဉ်ခြင်းသည် ...ကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "Produces a defensible verdict rather than arbitrary opinion",
+            "Guarantees every candidate is equally significant",
+            "Has no actual value in historical argument",
+            "Should always be replaced by personal preference",
+          ],
+          optionsMy: [
+            "ကျပန်း ထင်မြင်ချက်တစ်ခုအစား ကာကွယ်နိုင်သော Verdict တစ်ခု ထုတ်လုပ်ပေးခြင်း",
+            "Candidate တိုင်းသည် ညီမျှစွာ အရေးကြီးကြောင်း အာမခံခြင်း",
+            "သမိုင်းဆိုင်ရာ Argument တွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "ကိုယ်ပိုင် Preference ဖြင့် အမြဲ အစားထိုးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A dramatic crisis and a slow structural process differ in that...",
+          questionMy:
+              "Dramatic Crisis နှင့် ဖြည်းညင်းသော Structural Process သည် ကွဲပြားသည့် အချက်မှာ...",
+          optionsEn: [
+            "Dramatic visibility does not automatically equal greater historical significance",
+            "Dramatic events always have more significance than structural change",
+            "Structural processes never have any significant historical effect",
+            "The two cannot be meaningfully compared in any way",
+          ],
+          optionsMy: [
+            "Dramatic Visibility သည် ကြီးမားသော သမိုင်းဆိုင်ရာ အရေးပါမှုနှင့် အလိုအလျောက် ညီမျှခြင်း မရှိခြင်း",
+            "Dramatic Event များသည် Structural ပြောင်းလဲမှုထက် အမြဲ ပို၍ အရေးပါမှု ရှိခြင်း",
+            "Structural Process များသည် သိသာသော သမိုင်းဆိုင်ရာ Effect မည်သည်ကိုမျှ ဘယ်တော့မှ မရှိခြင်း",
+            "နှစ်ခုသည် နည်းလမ်း မည်သည်နှင့်မျှ အဓိပ္ပာယ်ရှိစွာ နှိုင်းယှဉ်၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong trial verdict should cite...",
+          questionMy: "ခိုင်မာသော Trial Verdict တစ်ခုသည် ...ကို ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific evidence from across the term rather than general assertions",
+            "No evidence of any kind whatsoever",
+            "Only personal feelings with no factual support",
+            "A single unverified claim with no corroboration",
+          ],
+          optionsMy: [
+            "ယေဘုယျ Assertion များအစား Term တစ်ခုလုံးမှ တိကျသော Evidence",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Factual ထောက်ခံမှု မပါသော ကိုယ်ပိုင် ခံစားချက်များသာ",
+            "Corroboration မပါသော အတည်မပြုထားသော Claim တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 7: "The Cold War: Rivalry, Crisis and
+// Resolution" (Weeks 25-28)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm7 = CourseTermDef(
+  id: "course-igcse-hum-t7",
+  termNumber: 7,
+  titleEn: "The Cold War: Rivalry, Crisis and Resolution",
+  titleMy: "Cold War - Rivalry, Crisis နှင့် Resolution",
+  certificateTitleEn: "The Cold War: Rivalry, Crisis and Resolution",
+  certificateTitleMy: "Cold War - Rivalry, Crisis နှင့် Resolution",
+  weeks: [_igcseHumWeek25, _igcseHumWeek26, _igcseHumWeek27, _igcseHumWeek28],
 );
 // __IGCSE_HUM_MARKER__
