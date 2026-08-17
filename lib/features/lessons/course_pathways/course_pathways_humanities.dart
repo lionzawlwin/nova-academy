@@ -89247,3 +89247,1446 @@ const CoursePathwayDef year3HumanitiesPathway = CoursePathwayDef(
     _year3HumanitiesTerm5,
   ],
 );
+
+// =====================================================================
+// IGCSE Humanities (History & Geography) -- assembled Terms 1-9
+// (protagonist: Thiha Aung, tutor: Saya Tun Tun Win). Combines Cambridge
+// IGCSE History's 20th-century international relations depth (causes of
+// WWI/WWII, interwar dictatorships, the Cold War) with Cambridge IGCSE
+// Geography's population/development/hazards core themes, closing with
+// a dedicated exam-preparation and graduation term -- the same
+// structure used by every other IGCSE subject pathway in this file.
+// =====================================================================
+// =====================================================================
+// IGCSE Humanities -- Term 1, Week 1: "Historical Sources and
+// Interpretations"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek1 = CourseWeekDef(
+  id: "course-igcse-hum-w1",
+  weekNumber: 1,
+  titleEn: "Historical Sources and Interpretations",
+  titleMy: "သမိုင်းဆိုင်ရာ Source များနှင့် အနက်ဖွင့်ချက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w1-d1",
+      dayNumber: 1,
+      titleEn: "Primary Sources, Secondary Sources, and Reliability",
+      titleMy: "Primary Source, Secondary Source နှင့် ယုံကြည်ရမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a primary source and a secondary source?",
+          questionMy:
+              "Primary Source နှင့် Secondary Source ကြား အဓိက ခြားနားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A primary source was created at the time of the event by someone with direct experience, while a secondary source was created later by someone analyzing the event afterward",
+            "A primary source is always more accurate than any secondary source under every circumstance",
+            "A secondary source is always older than the primary source it discusses",
+            "There is no actual difference between primary and secondary sources",
+          ],
+          optionsMy: [
+            "Primary Source ကို အဖြစ်အပျက်၏ အချိန်အခါတွင် တိုက်ရိုက် အတွေ့အကြုံရှိသူတစ်ဦးက ဖန်တီးခဲ့ပြီး Secondary Source ကို ထို အဖြစ်အပျက်ကို နောက်ပိုင်း ခွဲခြမ်းစိတ်ဖြာသူတစ်ဦးက ဖန်တီးခဲ့ခြင်း",
+            "Primary Source သည် အခြေအနေတိုင်းတွင် Secondary Source မည်သည်ထက် အမြဲ ပို၍ တိကျခြင်း",
+            "Secondary Source သည် ၎င်းဆွေးနွေးသော Primary Source ထက် အမြဲ ပို၍ သက်တမ်းကြာခြင်း",
+            "Primary နှင့် Secondary Source များကြား အမှန်တကယ် ခြားနားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A soldier's diary written during a battle is a primary source; a history book written decades later analyzing that same battle is a secondary source.",
+          ],
+          hintsMy: [
+            "စစ်ပွဲတစ်ခုအတွင်း ရေးသားခဲ့သော စစ်သားတစ်ဦး၏ Diary သည် Primary Source ဖြစ်ပြီး ထို စစ်ပွဲတူတူကို ခွဲခြမ်းစိတ်ဖြာသော ဆယ်စုနှစ်များစွာ ကြာပြီးနောက် ရေးသားထားသော သမိုင်းစာအုပ်တစ်အုပ်သည် Secondary Source ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a government-issued propaganda poster from wartime be considered a valuable but potentially unreliable source for a historian?",
+          questionMy:
+              "စစ်ကာလမှ အစိုးရ ထုတ်ဝေသော Propaganda Poster တစ်ခုကို သမိုင်းပညာရှင်တစ်ဦးအတွက် တန်ဖိုးရှိသော်လည်း ယုံကြည်ရမှု အားနည်းနိုင်ခြေရှိသော Source တစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It reveals genuine insight into what the government wanted citizens to believe, but its content was deliberately shaped to persuade rather than to record objective fact",
+            "Propaganda posters are always completely factual with no persuasive purpose whatsoever",
+            "Propaganda posters have no historical value of any kind to any historian",
+            "A source's purpose has no actual connection to how reliable its factual claims are",
+          ],
+          optionsMy: [
+            "အစိုးရသည် နိုင်ငံသားများ ယုံကြည်စေလိုသော အရာအကြောင်း စစ်မှန်သော ထိုးထွင်းသိမြင်မှုကို ၎င်း ဖော်ထုတ်ပေးသော်လည်း ၎င်း၏ Content ကို Objective Fact ကို မှတ်တမ်းတင်မည့်အစား ဆွဲဆောင်ရန် တမင် ပုံဖော်ထားခြင်း",
+            "Propaganda Poster များသည် Persuasive ရည်ရွယ်ချက် မည်သည်မှ မပါဘဲ အမြဲ လုံးဝ Factual ဖြစ်ခြင်း",
+            "Propaganda Poster များသည် သမိုင်းပညာရှင် မည်သူအတွက်မဆို သမိုင်းဆိုင်ရာ တန်ဖိုး မည်သည်မှ မရှိခြင်း",
+            "Source တစ်ခု၏ ရည်ရွယ်ချက်သည် ၎င်း၏ Factual Claim များ မည်မျှ ယုံကြည်ရသည်ဆိုသည်နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The poster is genuinely useful for understanding wartime attitudes and government messaging, but a historian must separate 'what this source reveals about its creator's intent' from 'what actually happened.'",
+          ],
+          hintsMy: [
+            "Poster သည် စစ်ကာလ သဘောထားနှင့် အစိုးရ Messaging ကို နားလည်ရန် စစ်မှန်စွာ အသုံးဝင်သော်လည်း သမိုင်းပညာရှင်တစ်ဦးသည် 'ဤ Source က ၎င်းဖန်တီးသူ၏ ရည်ရွယ်ချက်အကြောင်း အဘယ်အရာကို ဖော်ထုတ်ပေးသနည်း' ကို 'အမှန်တကယ် ဖြစ်ပျက်ခဲ့သည်' နှင့် ခွဲခြားရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians often cross-check multiple sources about the same event rather than relying on just one?",
+          questionMy:
+              "သမိုင်းပညာရှင်များသည် အဖြစ်အပျက်တူတူအကြောင်း တစ်ခုတည်း အားကိုးမည့်အစား Source များစွာကို Cross-Check ပြုလုပ်လေ့ရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Comparing multiple sources helps reveal bias, gaps, or errors in any single account, producing a more accurate overall picture",
+            "Cross-checking sources has no actual value in historical research",
+            "A single source is always sufficient for a completely accurate historical account",
+            "Historians should always trust the very first source they find without question",
+          ],
+          optionsMy: [
+            "Source များစွာ နှိုင်းယှဉ်ခြင်းသည် Account တစ်ခုတည်း၌ ရှိသော Bias, Gap (သို့) Error များကို ဖော်ထုတ်ရန် ကူညီပြီး ပို၍ တိကျသော Overall ပုံရိပ်ကို ထုတ်လုပ်ပေးသည်",
+            "Source များကို Cross-Check ပြုလုပ်ခြင်းသည် သမိုင်းဆိုင်ရာ သုတေသနတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Source တစ်ခုတည်းသည် လုံးဝ တိကျသော သမိုင်းဆိုင်ရာ Account တစ်ခုအတွက် အမြဲ လုံလောက်ခြင်း",
+            "သမိုင်းပညာရှင်များသည် ၎င်းတို့ ရှာဖွေတွေ့ရှိသော ပထမဆုံး Source ကို မေးခွန်း မထုတ်ဘဲ အမြဲ ယုံကြည်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a general's memoir claims a battle was won easily, but a soldier's letters describe heavy losses, cross-checking these two sources reveals a fuller, more balanced picture than either alone.",
+          ],
+          hintsMy: [
+            "General တစ်ဦး၏ Memoir က စစ်ပွဲတစ်ခု လွယ်ကူစွာ အနိုင်ရခဲ့သည်ဟု Claim ပြုလုပ်သော်လည်း စစ်သားတစ်ဦး၏ Letter များက ကြီးမားသော ဆုံးရှုံးမှုများကို ဖော်ပြပါက ဤ Source နှစ်ခုကို Cross-Check ပြုလုပ်ခြင်းသည် တစ်ခုတည်းထက် ပို၍ ပြည့်စုံ၊ ဟန်ချက်ညီသော ပုံရိပ်ကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Historical Source Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သမိုင်းဆိုင်ရာ Source ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w1-dm-1",
+          termEn: "Primary source",
+          termMy: "Primary Source",
+          matchEn:
+              "A source created at the time of an event by someone with direct experience of it",
+          matchMy:
+              "အဖြစ်အပျက်တစ်ခု၏ အချိန်အခါတွင် ၎င်းနှင့် တိုက်ရိုက် အတွေ့အကြုံရှိသူတစ်ဦးက ဖန်တီးခဲ့သော Source",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w1-dm-2",
+          termEn: "Secondary source",
+          termMy: "Secondary Source",
+          matchEn:
+              "A source created after an event, analyzing or interpreting what happened",
+          matchMy:
+              "အဖြစ်အပျက်တစ်ခုပြီးနောက် ဖြစ်ပျက်ခဲ့သည်ကို ခွဲခြမ်းစိတ်ဖြာ (သို့) အနက်ဖွင့်သော Source",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w1-dm-3",
+          termEn: "Reliability",
+          termMy: "Reliability",
+          matchEn: "How trustworthy a source's factual content is",
+          matchMy: "Source တစ်ခု၏ Factual Content မည်မျှ ယုံကြည်ရသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w1-dm-4",
+          termEn: "Corroboration",
+          termMy: "Corroboration",
+          matchEn:
+              "Confirming a claim by checking it against another independent source",
+          matchMy:
+              "လွတ်လပ်သော Source အခြားတစ်ခုနှင့် စစ်ဆေးကာ Claim တစ်ခုကို အတည်ပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Primary or Secondary Source?",
+      titleMy: "စီစစ်ကြမည် - Primary (သို့) Secondary Source",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary Source", "Secondary Source"],
+        bucketsMy: ["Primary Source", "Secondary Source"],
+        items: [
+          SortingItem(
+            id: "igchum-w1-sort-1",
+            labelEn: "A letter written by a soldier from the trenches in 1916",
+            labelMy:
+                "၁၉၁၆ ခုနှစ်တွင် Trench များမှ စစ်သားတစ်ဦး ရေးသားခဲ့သော Letter တစ်ခု",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+          SortingItem(
+            id: "igchum-w1-sort-2",
+            labelEn:
+                "A history textbook published in 2020 analyzing World War I",
+            labelMy:
+                "World War I ကို ခွဲခြမ်းစိတ်ဖြာသော ၂၀၂၀ ပြည့်နှစ်တွင် ထုတ်ဝေခဲ့သော သမိုင်း Textbook တစ်အုပ်",
+            correctBucketEn: "Secondary Source",
+            correctBucketMy: "Secondary Source",
+          ),
+          SortingItem(
+            id: "igchum-w1-sort-3",
+            labelEn:
+                "A photograph taken during a historical event by someone present",
+            labelMy:
+                "ရှိနေသူတစ်ဦးက သမိုင်းဆိုင်ရာ အဖြစ်အပျက်တစ်ခု အတွင်း ရိုက်ကူးခဲ့သော Photograph တစ်ပုံ",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+          SortingItem(
+            id: "igchum-w1-sort-4",
+            labelEn:
+                "A documentary film made decades later interpreting the causes of a war",
+            labelMy:
+                "စစ်ပွဲတစ်ခု၏ အကြောင်းရင်းများကို အနက်ဖွင့်သော ဆယ်စုနှစ်များစွာ ကြာပြီးနောက် ရိုက်ကူးထားသော Documentary Film တစ်ခု",
+            correctBucketEn: "Secondary Source",
+            correctBucketMy: "Secondary Source",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Museum Archive Visit",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ ပြတိုက် Archive လည်ပတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Museum Archive Visit",
+        titleMy: "Thiha Aung ၏ ပြတိုက် Archive လည်ပတ်ခြင်း",
+        passageEn:
+            "Saya Tun Tun Win opened the IGCSE Humanities course with a field trip to a local museum archive, where students could examine original documents rather than just reading about historical methods in a textbook. Thiha Aung was assigned a folder containing three different sources about the same local event from decades earlier: a factory closure that had displaced hundreds of workers.\n\nThe first source was a newspaper clipping from the week of the closure, reporting the factory owner's official statement blaming falling demand. The second was a handwritten letter from a former worker describing conditions she believed had contributed to the closure, including years of underinvestment in the machinery. The third was a government economic report published two years later, analyzing the closure alongside several other factory closures in the same period as part of a broader regional economic downturn.\n\nThiha Aung immediately recognized the newspaper clipping and the worker's letter as primary sources, created at the time by people with direct connections to the event, while the government report was a secondary source, created later by analysts interpreting the pattern across multiple events. He also noticed that the factory owner's statement and the worker's letter told different stories about the same closure -- exactly illustrating why relying on just one source could be misleading.\n\nWhen Saya Tun Tun Win asked him to weigh the reliability of each source, Thiha Aung reasoned carefully: the owner's public statement might understate his own role in underinvestment, while the worker's private letter, though emotionally invested, offered a firsthand account not filtered through public relations concerns. The government report, written with the benefit of hindsight and access to data from multiple factories, offered useful context but could not capture the lived experience the worker's letter provided. His conclusion was that no single source told the whole story -- corroborating all three together produced a fuller, more balanced picture than any one alone.",
+        passageMy:
+            "IGCSE Humanities Course ကို Textbook တစ်အုပ်တွင် သမိုင်းနည်းလမ်းများအကြောင်း ဖတ်ရှုရုံသက်သက်မက ကျောင်းသားများ မူရင်း Document များကို စစ်ဆေးနိုင်သော Local Museum Archive သို့ Field Trip တစ်ခုဖြင့် Saya Tun Tun Win ဖွင့်လှစ်ခဲ့သည်။ ဆယ်စုနှစ်များစွာ ကြာပြီးသော Local အဖြစ်အပျက်တူတူအကြောင်း Source သုံးခုပါဝင်သော Folder တစ်ခုကို Thiha Aung တာဝန်ပေးအပ်ခံခဲ့ရသည် - Worker များ ရာနှင့်ချီ ဖြတ်တောက်ခံခဲ့ရသော Factory ပိတ်သိမ်းမှုတစ်ခု။\n\nပထမ Source သည် ပိတ်သိမ်းသော ရက်သတ္တပတ်မှ Newspaper Clipping တစ်ခုဖြစ်ပြီး ကျဆင်းနေသော Demand ကို အပြစ်တင်သော Factory ပိုင်ရှင်၏ တရားဝင် ထုတ်ပြန်ချက်ကို Report ပြုလုပ်ခဲ့သည်။ ဒုတိယ Source သည် Machinery တွင် နှစ်များစွာ Underinvestment ပြုလုပ်ခဲ့ခြင်း အပါအဝင် ပိတ်သိမ်းမှုကို ဖြစ်စေသည်ဟု ၎င်း ယုံကြည်ခဲ့သော အခြေအနေများကို ဖော်ပြသော ယခင် Worker တစ်ဦး၏ လက်ရေးဖြင့် Letter တစ်စောင် ဖြစ်သည်။ တတိယ Source သည် ကာလတူတွင် ကျယ်ပြန့်သော Regional စီးပွားရေး ကျဆင်းမှု၏ တစ်စိတ်တစ်ပိုင်းအနေဖြင့် ထို ပိတ်သိမ်းမှုကို အခြား Factory ပိတ်သိမ်းမှုများစွာနှင့်အတူ ခွဲခြမ်းစိတ်ဖြာသော နှစ်နှစ်ကြာ ထုတ်ဝေခဲ့သော အစိုးရ စီးပွားရေး Report တစ်ခု ဖြစ်သည်။\n\nNewspaper Clipping နှင့် Worker ၏ Letter ကို အဖြစ်အပျက်နှင့် တိုက်ရိုက် ဆက်စပ်မှုရှိသူများက အချိန်အခါတွင် ဖန်တီးခဲ့သော Primary Source များအဖြစ် Thiha Aung ချက်ချင်း အသိအမှတ်ပြုခဲ့ပြီး အစိုးရ Report ကို Event များစွာတစ်လျှောက် Pattern ကို အနက်ဖွင့်သော Analyst များက နောက်ပိုင်း ဖန်တီးခဲ့သော Secondary Source တစ်ခုအဖြစ် သိရှိခဲ့သည်။ Factory ပိုင်ရှင်၏ ထုတ်ပြန်ချက်နှင့် Worker ၏ Letter သည် Closure တူတူအကြောင်း ကွဲပြားသော ဇာတ်လမ်းများ ပြောခဲ့ကြောင်းလည်း ၎င်း သတိပြုမိခဲ့သည် -- Source တစ်ခုတည်းသာ အားကိုးခြင်းသည် လမ်းလွှဲသွားနိုင်သည့် အကြောင်းရင်းကို အတိအကျ သရုပ်ဖော်ခဲ့သည်။\n\nSource တစ်ခုစီ၏ Reliability ကို ချိန်ဆရန် Saya Tun Tun Win ၎င်းကို တောင်းဆိုချိန် Thiha Aung ဂရုတစိုက် Reasoning ပြုလုပ်ခဲ့သည် - ပိုင်ရှင်၏ ပြည်သူ့ ထုတ်ပြန်ချက်သည် Underinvestment တွင် ၎င်းကိုယ်ပိုင် Role ကို လျှော့ချ ဖော်ပြနိုင်သော်လည်း Worker ၏ Private Letter သည် စိတ်ပိုင်းဆိုင်ရာ Invested ဖြစ်သော်လည်း Public Relations စိုးရိမ်မှုများ မဖြတ်သန်းခဲ့သော Firsthand Account တစ်ခု ပေးအပ်ခဲ့သည်။ Hindsight ၏ အကျိုးကျေးဇူးနှင့် Factory များစွာမှ Data ဝင်ရောက်ခွင့်ဖြင့် ရေးသားထားသော အစိုးရ Report သည် အသုံးဝင်သော Context ကို ပေးအပ်ခဲ့သော်လည်း Worker ၏ Letter ပေးအပ်ခဲ့သော Lived Experience ကို ဖမ်းယူ၍ မရနိုင်ခဲ့ပါ။ ၎င်း၏ ကောက်ချက်သည် Source တစ်ခုတည်းသည် ဇာတ်လမ်းတစ်ခုလုံးကို ဘယ်တော့မှ မပြောနိုင်ခြင်း ဖြစ်သည် -- သုံးခုစလုံးကို အတူတကွ Corroborate ပြုလုပ်ခြင်းသည် တစ်ခုတည်းထက် ပို၍ ပြည့်စုံ၊ ဟန်ချက်ညီသော ပုံရိပ်ကို ထုတ်လုပ်ပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung classify the government report as a secondary source?",
+            questionMy:
+                "အစိုးရ Report ကို Secondary Source တစ်ခုအဖြစ် Thiha Aung အမျိုးအစားခွဲခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was created later by analysts interpreting the pattern across multiple events",
+              "It was written at the exact moment the factory closed",
+              "It was written by a worker with direct personal experience",
+              "There was no actual reason given for the classification",
+            ],
+            optionsMy: [
+              "Event များစွာတစ်လျှောက် Pattern ကို အနက်ဖွင့်သော Analyst များက နောက်ပိုင်း ဖန်တီးခဲ့ခြင်း",
+              "Factory ပိတ်သိမ်းသော အတိအကျ အခိုက်အတန့်တွင် ရေးသားခဲ့ခြင်း",
+              "တိုက်ရိုက် ကိုယ်ရေးကိုယ်တာ အတွေ့အကြုံရှိသော Worker တစ်ဦးက ရေးသားခဲ့ခြင်း",
+              "အမျိုးအစားခွဲခြင်းအတွက် အကြောင်းရင်း မည်သည်မှ ပေးထားခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's classification reasoning."],
+            hintsMy: [
+              "အမျိုးအစားခွဲခြင်း Reasoning ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what was Thiha Aung's final conclusion about the three sources?",
+            questionMy:
+                "Source သုံးခုအကြောင်း Thiha Aung ၏ နောက်ဆုံး ကောက်ချက်ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Corroborating all three together produced a fuller, more balanced picture than any one alone",
+              "Only the government report should ever be trusted at all",
+              "The worker's letter should be completely disregarded entirely",
+              "No source of any kind could be trusted under any circumstance",
+            ],
+            optionsMy: [
+              "သုံးခုစလုံးကို အတူတကွ Corroborate ပြုလုပ်ခြင်းသည် တစ်ခုတည်းထက် ပို၍ ပြည့်စုံ၊ ဟန်ချက်ညီသော ပုံရိပ်ကို ထုတ်လုပ်ပေးခဲ့ခြင်း",
+              "အစိုးရ Report ကိုသာ အမြဲ ဘယ်တော့မှ ယုံကြည်သင့်ခြင်း",
+              "Worker ၏ Letter ကို လုံးဝ လျစ်လျူရှုသင့်ခြင်း",
+              "Source မည်သည်ကိုမျှ အခြေအနေ မည်သို့ပင်ရှိစေ ယုံကြည်၍ မရနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what different stories did the owner's statement and the worker's letter tell?",
+            questionMy:
+                "ပိုင်ရှင်၏ ထုတ်ပြန်ချက်နှင့် Worker ၏ Letter ပြောခဲ့သော ကွဲပြားသော ဇာတ်လမ်းများကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The owner blamed falling demand while the worker pointed to underinvestment in machinery",
+              "Both sources told exactly the identical story with no differences",
+              "Neither source discussed the factory closure at all",
+              "The owner and the worker were actually the same person",
+            ],
+            optionsMy: [
+              "ပိုင်ရှင်သည် ကျဆင်းနေသော Demand ကို အပြစ်တင်ခဲ့ပြီး Worker သည် Machinery ရှိ Underinvestment ကို ညွှန်ပြခဲ့ခြင်း",
+              "Source နှစ်ခုစလုံးသည် ခြားနားချက် မရှိဘဲ အတိအကျ တူညီသော ဇာတ်လမ်းကို ပြောခဲ့ခြင်း",
+              "Source နှစ်ခုစလုံးသည် Factory ပိတ်သိမ်းမှုကို လုံးဝ မဆွေးနွေးခဲ့ခြင်း",
+              "ပိုင်ရှင်နှင့် Worker သည် အမှန်တကယ် လူတစ်ဦးတည်း ဖြစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's comparison of the two accounts.",
+            ],
+            hintsMy: [
+              "Account နှစ်ခု၏ နှိုင်းယှဉ်ချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w1-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Historical Sources and Interpretations",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - သမိုင်းဆိုင်ရာ Source များနှင့် အနက်ဖွင့်ချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A primary source is best described as...",
+          questionMy: "Primary Source ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "Created at the time of an event by someone with direct experience",
+            "Always written decades after an event by an analyst",
+            "Never useful for historical research",
+            "Always more biased than any secondary source",
+          ],
+          optionsMy: [
+            "အဖြစ်အပျက်တစ်ခု၏ အချိန်အခါတွင် တိုက်ရိုက် အတွေ့အကြုံရှိသူတစ်ဦးက ဖန်တီးခြင်း",
+            "အဖြစ်အပျက်တစ်ခုပြီးနောက် Analyst တစ်ဦးက ဆယ်စုနှစ်များစွာ ကြာမှ အမြဲ ရေးသားခြင်း",
+            "သမိုင်းဆိုင်ရာ သုတေသနအတွက် ဘယ်တော့မှ အသုံးမဝင်ခြင်း",
+            "Secondary Source မည်သည်ထက် အမြဲ ပို၍ Biased ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Corroborating multiple sources helps historians...",
+          questionMy:
+              "Source များစွာကို Corroborate ပြုလုပ်ခြင်းသည် သမိုင်းပညာရှင်များကို...ကူညီသည်",
+          optionsEn: [
+            "Reveal bias, gaps, or errors in any single account",
+            "Guarantee that every source is completely accurate",
+            "Avoid ever comparing different sources",
+            "Rely entirely on one source without question",
+          ],
+          optionsMy: [
+            "Account တစ်ခုတည်း၌ Bias, Gap (သို့) Error များ ဖော်ထုတ်ရန်",
+            "Source တိုင်းသည် လုံးဝ တိကျကြောင်း အာမခံရန်",
+            "Source ကွဲပြားများ နှိုင်းယှဉ်ခြင်း ဘယ်တော့မှ ရှောင်ကြဉ်ရန်",
+            "မေးခွန်း မထုတ်ဘဲ Source တစ်ခုတည်းကို လုံးဝ အားကိုးရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A propaganda poster is a valuable but potentially unreliable source because...",
+          questionMy:
+              "Propaganda Poster တစ်ခုသည် တန်ဖိုးရှိသော်လည်း ယုံကြည်ရမှု အားနည်းနိုင်ခြေရှိသော Source ဖြစ်သည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Its content was shaped to persuade rather than record objective fact",
+            "It always contains perfectly objective, unbiased information",
+            "It has no historical value of any kind whatsoever",
+            "It was always created decades after the event it depicts",
+          ],
+          optionsMy: [
+            "၎င်း၏ Content ကို Objective Fact မှတ်တမ်းတင်မည့်အစား ဆွဲဆောင်ရန် ပုံဖော်ထားခြင်း",
+            "ပြီးပြည့်စုံစွာ Objective, Unbiased အချက်အလက် အမြဲ ပါဝင်ခြင်း",
+            "သမိုင်းဆိုင်ရာ တန်ဖိုး မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "၎င်း သရုပ်ဖော်သော အဖြစ်အပျက်ပြီးနောက် ဆယ်စုနှစ်များစွာတွင် အမြဲ ဖန်တီးခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 1, Week 2: "Causation, Change and
+// Continuity in History"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek2 = CourseWeekDef(
+  id: "course-igcse-hum-w2",
+  weekNumber: 2,
+  titleEn: "Causation, Change and Continuity in History",
+  titleMy: "သမိုင်းတွင် Causation, ပြောင်းလဲမှုနှင့် ဆက်လက်တည်ရှိမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w2-d1",
+      dayNumber: 1,
+      titleEn: "Long-Term, Short-Term, and Trigger Causes",
+      titleMy: "Long-Term, Short-Term နှင့် Trigger Cause များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians distinguish between long-term causes and a short-term 'trigger' event when explaining why something happened?",
+          questionMy:
+              "တစ်စုံတစ်ခု ဖြစ်ပျက်ခဲ့ရသည့် အကြောင်းရင်း ရှင်းပြရာတွင် Long-Term Cause များနှင့် Short-Term 'Trigger' Event ကို သမိုင်းပညာရှင်များ ခွဲခြားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Long-term causes create the underlying conditions that make an event possible, while the trigger is the specific spark that sets it off at a particular moment",
+            "A trigger event is always more important than any long-term cause",
+            "Long-term causes and trigger events are always exactly the same thing",
+            "Historians never actually distinguish between different types of causes",
+          ],
+          optionsMy: [
+            "Long-Term Cause များသည် အဖြစ်အပျက်တစ်ခု ဖြစ်နိုင်စေသော အောက်ခံ အခြေအနေများကို ဖန်တီးပေးပြီး Trigger သည် တိကျသော အခိုက်အတန့်တစ်ခုတွင် ၎င်းကို စတင်စေသော တိကျသော Spark ဖြစ်သည်",
+            "Trigger Event တစ်ခုသည် Long-Term Cause မည်သည်ထက် အမြဲ ပို၍ အရေးကြီးခြင်း",
+            "Long-Term Cause များနှင့် Trigger Event များသည် အမြဲ တစ်ခုတည်းသော အရာတူတူ ဖြစ်ခြင်း",
+            "သမိုင်းပညာရှင်များသည် Cause အမျိုးအစား ကွဲပြားများကို အမှန်တကယ် ဘယ်တော့မှ မခွဲခြားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A pile of dry firewood (the long-term condition) is not the same as the single match (the trigger) that actually starts the fire -- both matter, but they play different roles.",
+          ],
+          hintsMy: [
+            "ထင်းခြောက် အစုအဝေးတစ်ခု (Long-Term Condition) သည် မီးရှို့ကို အမှန်တကယ် စတင်စေသော Match တစ်ချောင်းတည်း (Trigger) နှင့် တူညီခြင်း မဟုတ်ပါ -- နှစ်ခုစလုံး အရေးကြီးသော်လည်း Role ကွဲပြားစွာ ကစားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it a mistake to assume the trigger event is the single 'most important' cause of a historical event?",
+          questionMy:
+              "Trigger Event ကို သမိုင်းဆိုင်ရာ အဖြစ်အပျက်တစ်ခု၏ 'အရေးကြီးဆုံး' Cause တစ်ခုတည်းဟု ယူဆခြင်းသည် အမှားတစ်ခု ဖြစ်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Without the underlying long-term conditions already in place, the same trigger event might not have caused the same outcome at all",
+            "The trigger event is always completely irrelevant to any historical outcome",
+            "Long-term causes never actually contribute to any historical event",
+            "There is no meaningful difference between a trigger and a long-term cause",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား အောက်ခံ Long-Term Condition များ မရှိပါက Trigger Event တူတူသည် ရလဒ်တူတူကို လုံးဝ ဖြစ်စေခြင်း မရှိနိုင်ပါ",
+            "Trigger Event သည် သမိုင်းဆိုင်ရာ ရလဒ် မည်သည်နှင့်မျှ အမြဲ လုံးဝ မသက်ဆိုင်ခြင်း",
+            "Long-Term Cause များသည် သမိုင်းဆိုင်ရာ အဖြစ်အပျက် မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ ပံ့ပိုးမပေးခြင်း",
+            "Trigger တစ်ခုနှင့် Long-Term Cause တစ်ခုကြား အဓိပ္ပာယ်ရှိသော ခြားနားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The same match struck in a wet, empty room produces no fire at all -- the trigger only causes the outcome because the long-term conditions (dry firewood) were already present.",
+          ],
+          hintsMy: [
+            "စိုစွတ်သော၊ ဗလာ အခန်းတစ်ခုတွင် ထိုးထားသော Match တူတူသည် မီးရှို့ လုံးဝ မဖြစ်ပေါ်စေပါ -- Long-Term Condition များ (ထင်းခြောက်) ရှိပြီးသားကြောင့်သာ Trigger သည် ရလဒ်ကို ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should historians also identify what stayed the same (continuity) rather than only focusing on what changed?",
+          questionMy:
+              "ပြောင်းလဲခဲ့သည့် အရာကိုသာ အာရုံစိုက်မည့်အစား ဘာ အတူတူပင် ကျန်ရှိခဲ့သည် (Continuity) ကိုပါ သမိုင်းပညာရှင်များ ဖော်ထုတ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A period of history often contains both dramatic change and important continuity at the same time, and ignoring continuity gives an incomplete, overstated picture of change",
+            "Continuity never actually exists in any period of history",
+            "Historians should always describe every historical period as completely unchanged",
+            "Change and continuity can never coexist within the same historical period",
+          ],
+          optionsMy: [
+            "သမိုင်း ကာလတစ်ခုတွင် Dramatic ပြောင်းလဲမှုနှင့် အရေးကြီးသော Continuity နှစ်ခုစလုံး တစ်ချိန်တည်း ပါဝင်တတ်ပြီး Continuity ကို လျစ်လျူရှုခြင်းသည် ပြောင်းလဲမှု၏ မပြည့်စုံ၊ ချဲ့ကားထားသော ပုံရိပ် ပေးအပ်သည်",
+            "Continuity သည် သမိုင်း ကာလ မည်သည်တွင်မျှ အမှန်တကယ် ဘယ်တော့မှ မရှိခြင်း",
+            "သမိုင်း ကာလတိုင်းကို လုံးဝ မပြောင်းလဲသည်ဟု သမိုင်းပညာရှင်များ အမြဲ ဖော်ပြသင့်ခြင်း",
+            "ပြောင်းလဲမှုနှင့် Continuity သည် သမိုင်း ကာလတူတူအတွင်း အတူတူ ဘယ်တော့မှ ရှိနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Even during a revolutionary period of dramatic political change, many aspects of ordinary daily life -- farming methods, family structures, local customs -- often continued largely unchanged.",
+          ],
+          hintsMy: [
+            "Dramatic နိုင်ငံရေး ပြောင်းလဲမှု ကာလ Revolutionary တစ်ခု အတွင်းပင် သာမန် နေ့စဉ် ဘဝ၏ ရှုထောင့်များစွာ -- လယ်ယာလုပ်ငန်း နည်းလမ်းများ၊ မိသားစု ဖွဲ့စည်းပုံများ၊ Local Custom များ -- သည် များသောအားဖြင့် မပြောင်းလဲဘဲ ဆက်လက် ရှိနေတတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Causation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Causation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w2-dm-1",
+          termEn: "Long-term cause",
+          termMy: "Long-Term Cause",
+          matchEn:
+              "An underlying condition building over years that makes an event possible",
+          matchMy:
+              "အဖြစ်အပျက်တစ်ခု ဖြစ်နိုင်စေသော နှစ်များစွာ တည်ဆောက်လာသော အောက်ခံ အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w2-dm-2",
+          termEn: "Trigger event",
+          termMy: "Trigger Event",
+          matchEn:
+              "The specific short-term spark that sets an already-primed situation into motion",
+          matchMy:
+              "ရှိပြီးသား Primed အခြေအနေတစ်ခုကို လှုပ်ရှားမှုသို့ သွင်းပေးသော တိကျသော Short-Term Spark",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w2-dm-3",
+          termEn: "Continuity",
+          termMy: "Continuity",
+          matchEn:
+              "Aspects of a society that remain unchanged across a period of history",
+          matchMy:
+              "သမိုင်း ကာလတစ်ခုတစ်လျှောက် မပြောင်းလဲဘဲ ဆက်လက် ရှိနေသော လူ့ဘောင်ရှုထောင့်များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w2-dm-4",
+          termEn: "Historical significance",
+          termMy: "Historical Significance",
+          matchEn:
+              "How much lasting impact an event had, beyond its immediate effects",
+          matchMy:
+              "ချက်ချင်း သက်ရောက်မှုများကို ကျော်လွန်၍ အဖြစ်အပျက်တစ်ခု၏ ကြာရှည် သက်ရောက်မှု မည်မျှရှိသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Long-Term Cause or Trigger Event?",
+      titleMy: "စီစစ်ကြမည် - Long-Term Cause (သို့) Trigger Event",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Long-Term Cause", "Trigger Event"],
+        bucketsMy: ["Long-Term Cause", "Trigger Event"],
+        items: [
+          SortingItem(
+            id: "igchum-w2-sort-1",
+            labelEn:
+                "Decades of rising tension between two rival alliance systems",
+            labelMy:
+                "ယှဉ်ပြိုင်သော မဟာမိတ် System နှစ်ခုကြား ဆယ်စုနှစ်များစွာ တက်လာသော Tension",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+          SortingItem(
+            id: "igchum-w2-sort-2",
+            labelEn:
+                "The assassination of a specific political leader on a specific day",
+            labelMy:
+                "တိကျသော နေ့ရက်တွင် တိကျသော နိုင်ငံရေး ခေါင်းဆောင်တစ်ဦး လုပ်ကြံခံရခြင်း",
+            correctBucketEn: "Trigger Event",
+            correctBucketMy: "Trigger Event",
+          ),
+          SortingItem(
+            id: "igchum-w2-sort-3",
+            labelEn:
+                "Years of economic hardship building resentment among a population",
+            labelMy:
+                "လူဦးရေအတွင်း Resentment တည်ဆောက်နေသော နှစ်များစွာ စီးပွားရေး ဒုက္ခ",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+          SortingItem(
+            id: "igchum-w2-sort-4",
+            labelEn:
+                "A single dramatic incident that immediately sparked open conflict",
+            labelMy:
+                "ပွင့်လင်းသော Conflict ကို ချက်ချင်း Spark ပေးခဲ့သော အဖြစ်အပျက် Dramatic တစ်ခုတည်း",
+            correctBucketEn: "Trigger Event",
+            correctBucketMy: "Trigger Event",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Bridge Collapse Investigation",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ တံတား ပြိုကျမှု စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Bridge Collapse Investigation",
+        titleMy: "Thiha Aung ၏ တံတား ပြိုကျမှု စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "For Week 2, Saya Tun Tun Win gave the class a case study designed to practice causation analysis using a historical bridge collapse rather than a war or revolution -- a smaller-scale event with the same underlying causal structure. Thiha Aung's task was to separate the long-term causes from the trigger.\n\nHis research uncovered that the bridge had been built with substandard materials decades earlier, and inspection reports over the following twenty years had repeatedly noted worsening structural weaknesses that were never properly repaired due to budget cuts -- a long-term condition of gradual deterioration. The actual collapse, however, happened on one specific afternoon when an unusually heavy truck crossed the bridge during a storm -- the trigger event that caused the already-weakened structure to finally fail.\n\nThiha Aung initially wanted to blame the truck driver entirely, but revising his analysis using Monday's lesson, he recognized this focused only on the trigger while ignoring the long-term causes that had made the bridge vulnerable in the first place. A structurally sound bridge would likely have survived the same truck crossing; the truck was the spark, but decades of underinvestment were the dry firewood that made the collapse possible at all.\n\nApplying Wednesday's continuity lesson, he also noted what had not changed throughout this story: the same town had relied on that single river crossing for over a century, and even after the collapse, residents continued crossing at roughly the same location using a temporary replacement, showing the community's basic transportation need remained continuous even as the specific structure meeting that need had failed. Saya Tun Tun Win praised the analysis for correctly separating structural, long-building causes from the single moment that triggered the visible outcome, exactly the reasoning historians apply to far larger events like the outbreak of a war.",
+        passageMy:
+            "Week 2 အတွက် စစ်ပွဲ (သို့) Revolution တစ်ခုအစား သမိုင်းဆိုင်ရာ တံတား ပြိုကျမှုတစ်ခု အသုံးပြု၍ Causation Analysis Practice ရန် Design ပြုလုပ်ထားသော Case Study တစ်ခု Class သို့ Saya Tun Tun Win ပေးအပ်ခဲ့သည် -- Causal Structure အောက်ခံတူတူပါသော အတိုင်းအတာ ငယ်သော အဖြစ်အပျက်တစ်ခု ဖြစ်သည်။ Long-Term Cause များကို Trigger မှ ခွဲထုတ်ရန် Thiha Aung ၏ Task ဖြစ်ခဲ့သည်။\n\n၎င်း၏ သုတေသနက တံတားကို ဆယ်စုနှစ်များစွာ ကြာအရင်က Substandard Material များဖြင့် တည်ဆောက်ခဲ့ကြောင်းနှင့် ဆက်လက် နှစ် ၂၀ Inspection Report များက Budget ဖြတ်တောက်မှုကြောင့် သင့်လျော်စွာ ဘယ်တော့မှ ပြင်ဆင်ခြင်း မရှိခဲ့သော ဆိုးရွားလာသော Structural Weakness များကို ထပ်ခါထပ်ခါ မှတ်ချက်ပြုခဲ့ကြောင်း ဖော်ထုတ်ခဲ့သည် -- Gradual Deterioration ၏ Long-Term Condition တစ်ခု ဖြစ်သည်။ သို့သော် အမှန်တကယ် ပြိုကျမှုသည် မိုးသက်တစ်ခုအတွင်း ထူးခြားစွာ အလေးချိန်ကြီးမားသော Truck တစ်စီးသည် တံတားကို ဖြတ်သန်းသွားချိန် တိကျသော နေ့လည်ခင်းတစ်ခုတွင် ဖြစ်ပျက်ခဲ့သည် -- ရှိပြီးသား အားနည်းနေသော Structure ကို နောက်ဆုံး ကျရှုံးစေသော Trigger Event ဖြစ်သည်။\n\nTruck Driver ကို လုံးဝ အပြစ်တင်ရန် Thiha Aung ကနဦးတွင် လိုချင်ခဲ့သော်လည်း တနင်္လာနေ့ သင်ခန်းစာကို အသုံးပြု၍ ၎င်း၏ Analysis ကို ပြန်လည် ပြင်ဆင်ချိန် ဤသည်ကား တံတားကို ကနဦးမှစ၍ Vulnerable ဖြစ်စေခဲ့သော Long-Term Cause များကို လျစ်လျူရှုစဉ် Trigger တစ်ခုတည်းကိုသာ အာရုံစိုက်ခဲ့ကြောင်း ၎င်း သိရှိခဲ့သည်။ Structurally Sound တံတားတစ်ခုသည် Truck ဖြတ်သန်းမှုတူတူကို Survive ဖြစ်နိုင်ခြေ ရှိပြီး Truck သည် Spark ဖြစ်သော်လည်း ဆယ်စုနှစ်များစွာ Underinvestment သည် ပြိုကျမှုကို လုံးဝ ဖြစ်နိုင်စေသော ထင်းခြောက် ဖြစ်ခဲ့သည်။\n\nဗုဒ္ဓဟူးနေ့ Continuity သင်ခန်းစာကို အသုံးချကာ ဤဇာတ်လမ်းတစ်လျှောက် မပြောင်းလဲခဲ့သည်ကို ၎င်း မှတ်ချက်ပြုခဲ့သည် - မြို့တူတူသည် ထို မြစ်ကူးလမ်း တစ်ခုတည်းကို ရာစုနှစ်တစ်ခုကျော် အားကိုးခဲ့ပြီး ပြိုကျပြီးနောက်ပင် ရွာသားများသည် ယာယီ အစားထိုးမှုတစ်ခုကို အသုံးပြု၍ နေရာအတိအကျ နီးပါးတွင် ဆက်လက် ဖြတ်သန်းခဲ့ကြသည်၊ ထို လိုအပ်ချက်ကို ဖြည့်ဆည်းသော တိကျသော Structure ကျရှုံးသွားစဉ်တွင်ပင် Community ၏ အခြေခံ သယ်ယူပို့ဆောင်ရေး လိုအပ်ချက် Continuous ဆက်လက် ရှိနေကြောင်း ပြသခဲ့သည်။ စစ်ပွဲတစ်ခု ဖြစ်ပွားခြင်းကဲ့သို့ ကြီးမားသော အဖြစ်အပျက်များသို့ သမိုင်းပညာရှင်များ အသုံးချသော Reasoning အတိအကျအတိုင်း Structural, Long-Building Cause များကို မြင်သာသော ရလဒ်ကို Trigger ပြုလုပ်ခဲ့သော အခိုက်အတန့်တစ်ခုမှ မှန်ကန်စွာ ခွဲထုတ်ခဲ့သောကြောင့် Analysis ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the long-term cause of the bridge's vulnerability?",
+            questionMy:
+                "တံတား၏ Vulnerability ၏ Long-Term Cause ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Substandard materials and decades of unrepaired structural weaknesses due to budget cuts",
+              "A single truck crossing the bridge on one specific day",
+              "There was no long-term cause identified at all",
+              "A sudden, unexplained event with no prior warning signs",
+            ],
+            optionsMy: [
+              "Substandard Material များနှင့် Budget ဖြတ်တောက်မှုကြောင့် ဆယ်စုနှစ်များစွာ မပြင်ဆင်ခဲ့သော Structural Weakness များ",
+              "တိကျသော နေ့တစ်ခုတွင် တံတားကို ဖြတ်သန်းသွားသော Truck တစ်စီး",
+              "Long-Term Cause မည်သည်မှ ဖော်ထုတ်ခြင်း လုံးဝ မရှိခြင်း",
+              "ကြိုတင် သတိပေးချက် လက္ခဏာ မည်သည်မှ မပါသော ရုတ်တရက်၊ ရှင်းပြ၍ မရသော အဖြစ်အပျက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's account of the bridge's condition.",
+            ],
+            hintsMy: [
+              "တံတား၏ အခြေအနေ အကြောင်းအရာကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was blaming the truck driver alone an incomplete analysis?",
+            questionMy:
+                "Truck Driver ကိုသာ အပြစ်တင်ခြင်းသည် မပြည့်စုံသော Analysis တစ်ခု ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It focused only on the trigger while ignoring the long-term causes that made the bridge vulnerable",
+              "The truck driver had no actual connection to the collapse at all",
+              "The bridge was already perfectly structurally sound before the collapse",
+              "There were no long-term causes to consider in this case",
+            ],
+            optionsMy: [
+              "တံတားကို Vulnerable ဖြစ်စေသော Long-Term Cause များကို လျစ်လျူရှုစဉ် Trigger တစ်ခုတည်းကိုသာ အာရုံစိုက်ခဲ့ခြင်း",
+              "Truck Driver သည် ပြိုကျမှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+              "တံတားသည် ပြိုကျမှုမတိုင်မီ Structurally လုံးဝ Sound ဖြစ်နေခဲ့ခြင်း",
+              "ဤ Case တွင် ထည့်သွင်းစဉ်းစားရန် Long-Term Cause မည်သည်မှ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's reasoning."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Reasoning ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what continuity did Thiha Aung identify in this story?",
+            questionMy:
+                "ဤဇာတ်လမ်းတွင် Thiha Aung ဖော်ထုတ်ခဲ့သော Continuity ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The community's basic need to cross the river at that location remained continuous despite the structure failing",
+              "Nothing at all remained the same before and after the collapse",
+              "The town abandoned the river crossing location entirely after the collapse",
+              "The bridge itself remained completely unchanged after the collapse",
+            ],
+            optionsMy: [
+              "Structure ကျရှုံးသွားသော်လည်း ထို တည်နေရာတွင် မြစ်ဖြတ်ကူးရန် Community ၏ အခြေခံ လိုအပ်ချက် Continuous ဆက်လက် ရှိနေခဲ့ခြင်း",
+              "ပြိုကျမီနှင့်ပြီးနောက် မည်သည်မှ တူညီစွာ မကျန်ရစ်ခဲ့ခြင်း",
+              "ပြိုကျပြီးနောက် မြို့သည် မြစ်ကူးလမ်း တည်နေရာကို လုံးဝ စွန့်ပစ်ခဲ့ခြင်း",
+              "ပြိုကျပြီးနောက် တံတားကိုယ်တိုင် လုံးဝ မပြောင်းလဲဘဲ ကျန်ရစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's continuity observation."],
+            hintsMy: [
+              "Continuity Observation ကို စာပိုဒ် ၄ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w2-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Causation, Change and Continuity",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Causation, ပြောင်းလဲမှုနှင့် Continuity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A long-term cause is best described as...",
+          questionMy: "Long-Term Cause ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "An underlying condition building over years",
+            "A single dramatic moment with no prior buildup",
+            "Always less important than the trigger event",
+            "Something that only exists in geography, never history",
+          ],
+          optionsMy: [
+            "နှစ်များစွာ တည်ဆောက်လာသော အောက်ခံ အခြေအနေ",
+            "ကြိုတင် Buildup မရှိသော Dramatic အခိုက်အတန့် တစ်ခုတည်း",
+            "Trigger Event ထက် အမြဲ ပို၍ အရေးမကြီးခြင်း",
+            "Geography တွင်သာ ရှိသော၊ History တွင် ဘယ်တော့မှ မရှိသော အရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trigger event needs long-term causes already in place because...",
+          questionMy:
+              "Trigger Event တစ်ခုသည် ရှိပြီးသား Long-Term Cause များ လိုအပ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Without them, the same trigger might not produce the same outcome",
+            "Trigger events always work identically regardless of prior conditions",
+            "Long-term causes are always irrelevant to any outcome",
+            "Triggers never actually depend on any prior conditions",
+          ],
+          optionsMy: [
+            "၎င်းတို့ မရှိပါက Trigger တူတူသည် ရလဒ်တူတူကို မဖြစ်စေနိုင်ခြင်း",
+            "Trigger Event များသည် ယခင် အခြေအနေများ မည်သို့ပင်ရှိစေ တူညီစွာ အမြဲ အလုပ်လုပ်ခြင်း",
+            "Long-Term Cause များသည် ရလဒ် မည်သည်နှင့်မျှ အမြဲ မသက်ဆိုင်ခြင်း",
+            "Trigger များသည် ယခင် အခြေအနေ မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မမှီခိုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Continuity in history refers to...",
+          questionMy: "သမိုင်းတွင် Continuity က ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "Aspects of society that remain unchanged across a period",
+            "Only events that changed dramatically overnight",
+            "Something that never coexists with change",
+            "A concept unique to geography, not history",
+          ],
+          optionsMy: [
+            "ကာလတစ်ခုတစ်လျှောက် မပြောင်းလဲဘဲ ဆက်လက် ရှိနေသော လူ့ဘောင် ရှုထောင့်များ",
+            "တစ်ညအတွင်း Dramatic ပြောင်းလဲခဲ့သော အဖြစ်အပျက်များသာ",
+            "ပြောင်းလဲမှုနှင့် ဘယ်တော့မှ အတူတကွ မရှိနိုင်သော အရာ",
+            "History တွင်မဟုတ်ဘဲ Geography အတွက်သာ ထူးခြားသော Concept တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 1, Week 3: "Map Skills and Geographical
+// Inquiry"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek3 = CourseWeekDef(
+  id: "course-igcse-hum-w3",
+  weekNumber: 3,
+  titleEn: "Map Skills and Geographical Inquiry",
+  titleMy: "မြေပုံ Skill များနှင့် Geographical Inquiry",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w3-d1",
+      dayNumber: 1,
+      titleEn: "Grid References, Scale, and Contour Lines",
+      titleMy: "Grid Reference, Scale နှင့် Contour Line များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does a six-figure grid reference locate a point more precisely than a four-figure grid reference?",
+          questionMy:
+              "Six-Figure Grid Reference တစ်ခုသည် Four-Figure Grid Reference တစ်ခုထက် အမှတ်တစ်ခုကို ပို၍ တိကျစွာ တည်နေရာ ဖော်ပြသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The extra digits subdivide each grid square further, narrowing the location down to a smaller specific area within it",
+            "A six-figure reference and a four-figure reference always point to exactly the same precision",
+            "Grid references have no actual connection to how precisely a location can be described",
+            "Adding extra digits to a grid reference makes it less precise, not more",
+          ],
+          optionsMy: [
+            "ထပ်ဆောင်း Digit များသည် Grid Square တစ်ခုစီကို ထပ်မံ ခွဲခြားပေးကာ Location ကို ၎င်းအတွင်းရှိ တိကျသော နေရာငယ်တစ်ခုသို့ ကျဉ်းမြောင်းစေသည်",
+            "Six-Figure Reference နှင့် Four-Figure Reference သည် Precision တူတူကို အမြဲ ညွှန်ပြခြင်း",
+            "Grid Reference များသည် Location တစ်ခု မည်မျှ တိကျစွာ ဖော်ပြနိုင်သည်ဆိုသည်နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Grid Reference တစ်ခုသို့ ထပ်ဆောင်း Digit ထည့်ခြင်းသည် ပို၍ မတိကျစေခြင်း၊ ပို၍ တိကျစေခြင်း မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A four-figure reference identifies which large grid square a feature is in; a six-figure reference divides that same square into a 10x10 grid, pointing to a much smaller specific location.",
+          ],
+          hintsMy: [
+            "Four-Figure Reference သည် Feature တစ်ခု ရှိသော Grid Square ကြီး မည်သည်ကို ဖော်ထုတ်ပြီး Six-Figure Reference သည် Square တူတူကို 10x10 Grid အဖြစ် ခွဲခြားကာ ပို၍ သေးငယ်သော တိကျသော Location တစ်ခုကို ညွှန်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is understanding a map's scale essential before calculating real-world distances from it?",
+          questionMy:
+              "မြေပုံတစ်ခုမှ Real-World အကွာအဝေးများ တွက်ချက်မီ ၎င်း၏ Scale ကို နားလည်ရန် မရှိမဖြစ် လိုအပ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Scale defines the ratio between distance on the map and distance in reality, so without it, a measured map distance cannot be converted into an actual distance",
+            "Every map uses exactly the same scale regardless of what area it shows",
+            "Scale has no actual mathematical relationship to real-world distance",
+            "Map distances are always identical to real-world distances with no conversion needed",
+          ],
+          optionsMy: [
+            "Scale သည် မြေပုံပေါ်ရှိ အကွာအဝေးနှင့် Reality ရှိ အကွာအဝေးကြား Ratio ကို သတ်မှတ်ပေးသောကြောင့် ၎င်း မရှိပါက တိုင်းတာထားသော မြေပုံ အကွာအဝေးကို အမှန်တကယ် အကွာအဝေးအဖြစ် ပြောင်းလဲ၍ မရနိုင်ပါ",
+            "မြေပုံတိုင်းသည် ၎င်း ပြသသော နေရာ မည်သို့ပင်ရှိစေ Scale တူတူကို အသုံးပြုခြင်း",
+            "Scale သည် Real-World အကွာအဝေးနှင့် အမှန်တကယ် သင်္ချာဆိုင်ရာ ဆက်စပ်မှု မရှိခြင်း",
+            "မြေပုံ အကွာအဝေးများသည် Conversion မလိုအပ်ဘဲ Real-World အကွာအဝေးများနှင့် အမြဲ အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A 1cm distance on a 1:50,000 scale map represents 500 meters in reality, but the same 1cm on a 1:1,000,000 scale map represents 10 kilometers -- scale changes the meaning of the same measured distance entirely.",
+          ],
+          hintsMy: [
+            "1:50,000 Scale မြေပုံပေါ်ရှိ 1cm အကွာအဝေးသည် Reality တွင် 500 Meter ကို ကိုယ်စားပြုသော်လည်း 1:1,000,000 Scale မြေပုံပေါ်ရှိ 1cm တူတူသည် Kilometer 10 ကို ကိုယ်စားပြုသည် -- Scale သည် တိုင်းတာထားသော အကွာအဝေးတူတူ၏ အဓိပ္ပာယ်ကို လုံးလုံးလျားလျား ပြောင်းလဲစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do contour lines placed close together on a map indicate steep terrain, while widely spaced lines indicate gentle terrain?",
+          questionMy:
+              "မြေပုံပေါ်ရှိ Contour Line များ ကပ်နီးစွာ ထားရှိထားခြင်းသည် ချောက်ကမ်းပါးသော Terrain ကို ညွှန်ပြပြီး ကျယ်ပြန့်စွာ ခွာထားသော Line များသည် ညင်သာသော Terrain ကို ညွှန်ပြသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each contour line represents a fixed height interval, so closely spaced lines mean elevation rises rapidly over a short horizontal distance",
+            "Contour line spacing has no actual relationship to how steep terrain is",
+            "Widely spaced contour lines always indicate the steepest possible terrain",
+            "Contour lines only ever appear on maps of flat, featureless terrain",
+          ],
+          optionsMy: [
+            "Contour Line တစ်ခုစီသည် Fixed Height Interval ကို ကိုယ်စားပြုသောကြောင့် ကပ်နီးစွာ ခွာထားသော Line များသည် အတိုတောင်း Horizontal အကွာအဝေးတစ်ခုပေါ်တွင် Elevation လျင်မြန်စွာ တက်ကြောင်း ဆိုလိုသည်",
+            "Contour Line Spacing သည် Terrain မည်မျှ ချောက်ကမ်းပါးသည်ဆိုသည်နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "ကျယ်ပြန့်စွာ ခွာထားသော Contour Line များသည် ဖြစ်နိုင်ဆုံး ချောက်ကမ်းပါးဆုံး Terrain ကို အမြဲ ညွှန်ပြခြင်း",
+            "Contour Line များသည် ညီညာ၊ Featureless Terrain မြေပုံများတွင်သာ ဘယ်တော့မှ ပေါ်လာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If each line represents a 10-meter height rise, and five lines are packed into a short horizontal distance, the land is climbing 50 meters very quickly -- a steep slope.",
+          ],
+          hintsMy: [
+            "Line တစ်ခုစီသည် Meter 10 Height တက်ခြင်းကို ကိုယ်စားပြုပြီး Line ငါးခုကို အတိုတောင်း Horizontal အကွာအဝေးတစ်ခုတွင် ထုပ်ပိုးထားပါက မြေသည် Meter 50 လွန်စွာ မြန်ဆန်စွာ တက်နေသည် -- ချောက်ကမ်းပါးသော ကုန်းစောင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Map Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Map Skills ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w3-dm-1",
+          termEn: "Grid reference",
+          termMy: "Grid Reference",
+          matchEn:
+              "A coordinate system used to pinpoint an exact location on a map",
+          matchMy:
+              "မြေပုံပေါ်ရှိ တိကျသော Location တစ်ခုကို ညွှန်ပြရန် အသုံးပြုသော Coordinate System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w3-dm-2",
+          termEn: "Scale",
+          termMy: "Scale",
+          matchEn:
+              "The ratio between distance on a map and the corresponding real-world distance",
+          matchMy:
+              "မြေပုံပေါ်ရှိ အကွာအဝေးနှင့် သက်ဆိုင်ရာ Real-World အကွာအဝေးကြား Ratio",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w3-dm-3",
+          termEn: "Contour line",
+          termMy: "Contour Line",
+          matchEn:
+              "A line connecting points of equal elevation, used to show relief on a map",
+          matchMy:
+              "မြေပုံပေါ်တွင် Relief ပြသရန် အသုံးပြုသော ညီမျှသော Elevation ရှိသော အမှတ်များကို ချိတ်ဆက်သော Line",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w3-dm-4",
+          termEn: "Ordnance Survey (OS) symbol",
+          termMy: "Ordnance Survey (OS) Symbol",
+          matchEn:
+              "A standardized icon representing a specific feature on a topographic map",
+          matchMy:
+              "Topographic မြေပုံတစ်ခုပေါ်ရှိ တိကျသော Feature တစ်ခုကို ကိုယ်စားပြုသော Standardized Icon",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Steep Terrain or Gentle Terrain Clue?",
+      titleMy: "စီစစ်ကြမည် - ချောက်ကမ်းပါး (သို့) ညင်သာသော Terrain Clue",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Indicates Steep Terrain", "Indicates Gentle Terrain"],
+        bucketsMy: [
+          "ချောက်ကမ်းပါးသော Terrain ညွှန်ပြခြင်း",
+          "ညင်သာသော Terrain ညွှန်ပြခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w3-sort-1",
+            labelEn: "Contour lines packed tightly together in a small area",
+            labelMy:
+                "နေရာငယ်တစ်ခုတွင် ကပ်နီးစွာ ထုပ်ပိုးထားသော Contour Line များ",
+            correctBucketEn: "Indicates Steep Terrain",
+            correctBucketMy: "ချောက်ကမ်းပါးသော Terrain ညွှန်ပြခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w3-sort-2",
+            labelEn: "Contour lines spread far apart across a wide area",
+            labelMy:
+                "ကျယ်ပြန့်သော နေရာတစ်ခုတစ်လျှောက် ဝေးစွာ ပြန့်ကျဲထားသော Contour Line များ",
+            correctBucketEn: "Indicates Gentle Terrain",
+            correctBucketMy: "ညင်သာသော Terrain ညွှန်ပြခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w3-sort-3",
+            labelEn: "A mountain cliff face shown by densely bunched lines",
+            labelMy:
+                "ထူထပ်စွာ စုစည်းထားသော Line များဖြင့် ပြသထားသော တောင် ချောက်ကမ်းပါး မျက်နှာပြင်",
+            correctBucketEn: "Indicates Steep Terrain",
+            correctBucketMy: "ချောက်ကမ်းပါးသော Terrain ညွှန်ပြခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w3-sort-4",
+            labelEn:
+                "A flat river valley floor shown by widely separated lines",
+            labelMy:
+                "ကျယ်ပြန့်စွာ ခွဲခြားထားသော Line များဖြင့် ပြသထားသော ညီညာသော မြစ်ချိုင့်ဝှမ်း ကြမ်းပြင်",
+            correctBucketEn: "Indicates Gentle Terrain",
+            correctBucketMy: "ညင်သာသော Terrain ညွှန်ပြခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Fieldwork Route Map",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Fieldwork Route မြေပုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Fieldwork Route Map",
+        titleMy: "Thiha Aung ၏ Fieldwork Route မြေပုံ",
+        passageEn:
+            "For Week 3, Saya Tun Tun Win gave every student an Ordnance Survey-style topographic map of a hillside village and asked them to plan a walking route to a river crossing, using every map skill introduced that week. Thiha Aung's first task was to locate the village school using a six-figure grid reference, which he correctly identified as far more precise than the four-figure reference he had first written, since the extra two digits pinpointed the school within a much smaller sub-square rather than just the larger grid square containing it.\n\nNext, he needed to calculate the real walking distance from the school to the river crossing. Measuring the straight-line distance on the map as 4 centimeters, and reading the map's scale as 1:25,000, he correctly calculated the real-world distance as 1 kilometer, recognizing that ignoring the scale entirely would have made the measurement meaningless.\n\nThe most important skill came when planning the actual route. Two paths connected the school to the river: a shorter path marked by tightly packed contour lines climbing steeply over a ridge, and a longer path where the contour lines were spread much further apart, winding gently around the hillside. Applying Tuesday's contour-line lesson, Thiha Aung correctly predicted that the shorter path, despite its shorter map distance, would involve a much steeper, more difficult climb, while the longer path would be an easier, gentler walk overall.\n\nSaya Tun Tun Win asked the class to justify their final route choice using specific map evidence rather than guesswork. Thiha Aung chose the longer, gentler path, explaining his reasoning by directly citing the contour line spacing he had observed -- exactly the kind of evidence-based geographical reasoning the course would require throughout the rest of the year.",
+        passageMy:
+            "Week 3 အတွက် တောင်ကုန်း ရွာတစ်ရွာ၏ Ordnance Survey-Style Topographic မြေပုံတစ်ခုကို ကျောင်းသားတိုင်းအား Saya Tun Tun Win ပေးအပ်ခဲ့ပြီး ထို အပတ် မိတ်ဆက်ပေးခဲ့သော Map Skill တိုင်းကို အသုံးပြု၍ မြစ်ကူးလမ်းသို့ လမ်းလျှောက်ခရီးစဉ်တစ်ခု Plan ပြုလုပ်ရန် တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ ပထမ Task သည် Six-Figure Grid Reference အသုံးပြု၍ ရွာကျောင်းကို တည်နေရာ ဖော်ထုတ်ခြင်း ဖြစ်ပြီး ၎င်း ကနဦး ရေးသားခဲ့သော Four-Figure Reference ထက် ပို၍ တိကျကြောင်း ၎င်း မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည်၊ အကြောင်းမှာ ထပ်ဆောင်း Digit နှစ်ခုသည် ကျောင်းကို ၎င်းပါဝင်သော Grid Square ကြီးထက် ပို၍ သေးငယ်သော Sub-Square တစ်ခုအတွင်းသို့ ညွှန်ပြခဲ့ခြင်း ဖြစ်သည်။\n\nနောက်တစ်ဆင့်တွင် ကျောင်းမှ မြစ်ကူးလမ်းသို့ Real Walking Distance ကို တွက်ချက်ရန် လိုအပ်ခဲ့သည်။ မြေပုံပေါ်ရှိ Straight-Line Distance ကို Centimeter ၄ ခု အဖြစ် တိုင်းတာပြီး မြေပုံ၏ Scale ကို 1:25,000 အဖြစ် ဖတ်ရှုကာ Real-World အကွာအဝေးကို Kilometer 1 အဖြစ် ၎င်း မှန်ကန်စွာ တွက်ချက်ခဲ့ပြီး Scale ကို လုံးဝ လျစ်လျူရှုခြင်းသည် တိုင်းတာချက်ကို အဓိပ္ပာယ် မရှိစေမည်ဟု သိရှိခဲ့သည်။\n\nအမှန်တကယ် Route ကို Plan ပြုလုပ်ချိန် အရေးအကြီးဆုံး Skill ရောက်ရှိလာခဲ့သည်။ လမ်းကြောင်းနှစ်ခုသည် ကျောင်းကို မြစ်နှင့် ချိတ်ဆက်ထားသည် - Ridge တစ်ခုအပေါ် ချောက်ကမ်းပါးစွာ တက်ရသော ကပ်နီးစွာ ထုပ်ပိုးထားသော Contour Line များဖြင့် အမှတ်အသားပြုထားသော ပိုတိုသော လမ်းကြောင်းနှင့် Contour Line များ ပို၍ ဝေးစွာ ပြန့်ကျဲထားသော ပိုရှည်သော လမ်းကြောင်းသည် တောင်ကုန်းပတ်လည် ညင်သာစွာ ကွေ့ကွေ့ကောက်ကောက် ရှိသည်။ အင်္ဂါနေ့ Contour-Line သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ပိုတိုသော မြေပုံ အကွာအဝေးရှိသော်လည်း ပိုတိုသော လမ်းကြောင်းသည် ပို၍ ချောက်ကမ်းပါး၊ ခက်ခဲသော တက်ခြင်းကို ပါဝင်စေမည်ဖြစ်ပြီး ပိုရှည်သော လမ်းကြောင်းသည် Overall ပို၍ လွယ်ကူ၊ ညင်သာသော လမ်းလျှောက်ခြင်း ဖြစ်မည်ဟု Thiha Aung မှန်ကန်စွာ ခန့်မှန်းခဲ့သည်။\n\nခန့်မှန်းချက်အစား တိကျသော မြေပုံ Evidence ကို အသုံးပြု၍ ၎င်းတို့၏ နောက်ဆုံး Route ရွေးချယ်မှုကို ခိုင်လုံစေရန် Class ကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ ၎င်း သတိပြုမိခဲ့သော Contour Line Spacing ကို တိုက်ရိုက် ကိုးကားကာ Thiha Aung သည် ပိုရှည်၊ ညင်သာသော လမ်းကြောင်းကို ရွေးချယ်ခဲ့ပြီး ၎င်း၏ Reasoning ကို ရှင်းပြခဲ့သည် -- Course တစ်ခုလုံး ကျန်ရှိသေးသော နှစ်တစ်ခုလုံးတစ်လျှောက် လိုအပ်မည့် Evidence-Based Geographical Reasoning အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why was the six-figure grid reference more precise than the four-figure one?",
+            questionMy:
+                "Six-Figure Grid Reference သည် Four-Figure Reference ထက် ပို၍ တိကျခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The extra two digits pinpointed the school within a smaller sub-square rather than the larger grid square",
+              "There was no actual difference in precision between the two references",
+              "The four-figure reference was actually more precise than the six-figure one",
+              "Grid references have no connection to precision of any kind",
+            ],
+            optionsMy: [
+              "ထပ်ဆောင်း Digit နှစ်ခုသည် ကျောင်းကို Grid Square ကြီးထက် ပို၍ သေးငယ်သော Sub-Square တစ်ခုအတွင်းသို့ ညွှန်ပြခဲ့ခြင်း",
+              "Reference နှစ်ခုကြား Precision တွင် ခြားနားချက် အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Four-Figure Reference သည် Six-Figure Reference ထက် အမှန်တကယ် ပို၍ တိကျခဲ့ခြင်း",
+              "Grid Reference များသည် Precision မည်သည်နှင့်မျှ ဆက်စပ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's explanation."],
+            hintsMy: ["ပထမ စာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what real-world distance did Thiha Aung calculate?",
+            questionMy:
+                "Thiha Aung တွက်ချက်ခဲ့သော Real-World အကွာအဝေးကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "1 kilometer, calculated using the map's 1:25,000 scale",
+              "4 centimeters, with no scale conversion applied at all",
+              "He refused to calculate any real-world distance",
+              "100 kilometers, ignoring the map's actual scale",
+            ],
+            optionsMy: [
+              "မြေပုံ၏ 1:25,000 Scale ကို အသုံးပြု၍ တွက်ချက်ထားသော Kilometer 1",
+              "Scale Conversion မည်သည်မှ အသုံးမပြုဘဲ Centimeter 4",
+              "Real-World အကွာအဝေး မည်သည်ကိုမျှ တွက်ချက်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "မြေပုံ၏ အမှန်တကယ် Scale ကို လျစ်လျူရှုကာ Kilometer 100",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, why did Thiha Aung choose the longer path over the shorter one?",
+            questionMy:
+                "ပိုတိုသော လမ်းကြောင်းအစား ပိုရှည်သော လမ်းကြောင်းကို Thiha Aung ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The contour line spacing showed it was gentler and easier despite being longer",
+              "The shorter path did not actually exist on the map",
+              "He chose the path randomly with no evidence considered",
+              "The longer path was actually steeper according to the map",
+            ],
+            optionsMy: [
+              "ပိုရှည်သော်လည်း Contour Line Spacing က ၎င်း ပို၍ ညင်သာ၊ လွယ်ကူကြောင်း ပြသခဲ့ခြင်း",
+              "ပိုတိုသော လမ်းကြောင်းသည် မြေပုံပေါ်တွင် အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Evidence မည်သည်ကိုမျှ ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ ကျပန်း လမ်းကြောင်းကို ရွေးချယ်ခဲ့ခြင်း",
+              "ပိုရှည်သော လမ်းကြောင်းသည် မြေပုံအရ အမှန်တကယ် ပို၍ ချောက်ကမ်းပါးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's reasoning."],
+            hintsMy: ["စာပိုဒ် ၄ ၏ Reasoning ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w3-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Map Skills and Geographical Inquiry",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Map Skills နှင့် Geographical Inquiry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A six-figure grid reference is more precise because it...",
+          questionMy: "Six-Figure Grid Reference သည် ...ကြောင့် ပို၍ တိကျသည်",
+          optionsEn: [
+            "Subdivides a grid square into a smaller specific area",
+            "Removes the need for any grid square at all",
+            "Always points to the exact same location as a four-figure reference",
+            "Has no actual mathematical basis",
+          ],
+          optionsMy: [
+            "Grid Square တစ်ခုကို ပို၍ သေးငယ်သော တိကျသော နေရာအဖြစ် ခွဲခြားပေးခြင်း",
+            "Grid Square မည်သည်မှ လိုအပ်ချက်ကို ဖယ်ရှားခြင်း",
+            "Four-Figure Reference နှင့် Location တူတူကို အမြဲ ညွှန်ပြခြင်း",
+            "အမှန်တကယ် သင်္ချာဆိုင်ရာ အခြေခံ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Map scale is essential because it...",
+          questionMy: "မြေပုံ Scale သည် ...ကြောင့် မရှိမဖြစ် လိုအပ်သည်",
+          optionsEn: [
+            "Converts a measured map distance into a real-world distance",
+            "Is always identical on every map regardless of area",
+            "Has no actual mathematical relationship to distance",
+            "Only applies to maps of flat terrain",
+          ],
+          optionsMy: [
+            "တိုင်းတာထားသော မြေပုံ အကွာအဝေးကို Real-World အကွာအဝေးအဖြစ် ပြောင်းလဲပေးခြင်း",
+            "နေရာ မည်သို့ပင်ရှိစေ မြေပုံတိုင်းတွင် အမြဲ တူညီခြင်း",
+            "အကွာအဝေးနှင့် အမှန်တကယ် သင်္ချာဆိုင်ရာ ဆက်စပ်မှု မရှိခြင်း",
+            "ညီညာသော Terrain မြေပုံများနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Closely spaced contour lines indicate...",
+          questionMy:
+              "ကပ်နီးစွာ ခွာထားသော Contour Line များက ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "Steep terrain",
+            "Flat, gentle terrain",
+            "A body of water only",
+            "A man-made structure only",
+          ],
+          optionsMy: [
+            "ချောက်ကမ်းပါးသော Terrain",
+            "ညီညာ၊ ညင်သာသော Terrain",
+            "ရေအထောက်အကူ တစ်ခုတည်းသာ",
+            "Man-Made Structure တစ်ခုတည်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 1, Week 4 (Capstone/Boss Week):
+// "Investigating a Local History-Geography Mystery"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek4 = CourseWeekDef(
+  id: "course-igcse-hum-w4",
+  weekNumber: 4,
+  titleEn: "Investigating a Local History-Geography Mystery",
+  titleMy: "Local History-Geography အကြောင်းရာ စုံစမ်းစစ်ဆေးခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w4-d1",
+      dayNumber: 1,
+      titleEn: "Combining Sources, Causation, and Maps in One Inquiry",
+      titleMy:
+          "Source, Causation နှင့် Map များကို Inquiry တစ်ခုတည်း၌ ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why might a genuine humanities inquiry into 'why a settlement was founded in a particular location' require both historical sources and map-reading skills together?",
+          questionMy:
+              "'ဒေသခံအခြေချနေထိုင်မှုတစ်ခု သီးခြား တည်နေရာတွင် ဘာကြောင့် တည်ထောင်ခဲ့ကြောင်း' ဟူသော စစ်မှန်သော Humanities Inquiry တစ်ခုသည် သမိုင်းဆိုင်ရာ Source များနှင့် Map-Reading Skill များ နှစ်ခုစလုံးကို လိုအပ်နိုင်ခြင်း အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Historical sources reveal why people chose to settle there, while map skills (rivers, terrain, elevation) reveal the physical geography that made that choice practical",
+            "Historical sources and geographical evidence are always completely unrelated to each other",
+            "Map-reading skills have no actual relevance to understanding why settlements formed",
+            "A genuine inquiry should always use only one type of evidence and ignore the other entirely",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ Source များသည် လူများ ထိုနေရာတွင် အဘယ်ကြောင့် အခြေချရန် ရွေးချယ်ခဲ့သည်ကို ဖော်ထုတ်ပြီး Map Skill များ (မြစ်များ, Terrain, Elevation) သည် ထို ရွေးချယ်မှုကို လက်တွေ့ကျစေသော Physical Geography ကို ဖော်ထုတ်ပေးသည်",
+            "သမိုင်းဆိုင်ရာ Source များနှင့် Geographical Evidence သည် တစ်ခုနှင့်တစ်ခု အမြဲ လုံးဝ မဆိုင်ခြင်း",
+            "Map-Reading Skill များသည် Settlement များ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်း နားလည်ခြင်းနှင့် အမှန်တကယ် သက်ဆိုင်မှု မရှိခြင်း",
+            "စစ်မှန်သော Inquiry တစ်ခုသည် Evidence အမျိုးအစား တစ်ခုတည်းကိုသာ အသုံးပြုပြီး အခြားတစ်ခုကို လုံးဝ လျစ်လျူရှုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Week 1's source-analysis skill and Week 3's map-reading skill -- a written record explaining why settlers chose a river bend, combined with a topographic map showing that bend was also on flat, easily farmable land, tells a fuller story than either alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 1 ၏ Source-Analysis Skill နှင့် Week 3 ၏ Map-Reading Skill သို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- Settler များ မြစ်ကွေ့တစ်ခုကို အဘယ်ကြောင့် ရွေးချယ်ခဲ့ကြောင်း ရှင်းပြသော Written Record တစ်ခုသည် ထို ကွေ့သည် ညီညာ၊ လယ်ယာလုပ်ငန်း လွယ်ကူသော မြေလည်း ဖြစ်ကြောင်း ပြသသော Topographic Map နှင့် ပေါင်းစပ်ပါက တစ်ခုတည်းထက် ပို၍ ပြည့်စုံသော ဇာတ်လမ်းကို ပြောပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should an inquiry into a local historical mystery separate the long-term factors that made a location suitable from the specific trigger that led to its actual founding date?",
+          questionMy:
+              "Local သမိုင်း အကြောင်းရာတစ်ခု၏ Inquiry တစ်ခုသည် တည်နေရာတစ်ခုကို သင့်လျော်စေသော Long-Term Factor များကို ၎င်း၏ အမှန်တကယ် တည်ထောင်သော ရက်စွဲသို့ ဦးဆောင်ခဲ့သော တိကျသော Trigger မှ ခွဲထုတ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This mirrors Week 2's causation lesson: a location could have been geographically suitable for generations before something specific finally triggered settlement at that exact time",
+            "Long-term factors and triggers are always the same thing in a geographical inquiry",
+            "A settlement's founding date has no actual connection to either long-term or trigger factors",
+            "Only trigger events matter in explaining why a settlement was founded, never long-term factors",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Week 2 ၏ Causation သင်ခန်းစာကို ထင်ဟပ်သည် - တည်နေရာတစ်ခုသည် တိကျသော တစ်ခုခုသည် ထို အတိအကျ အချိန်တွင် Settlement ကို နောက်ဆုံး Trigger မပြုလုပ်မီ မျိုးဆက်များစွာ Geographically သင့်လျော်စွာ ရှိနေနိုင်သည်",
+            "Long-Term Factor များနှင့် Trigger များသည် Geographical Inquiry တစ်ခုတွင် အမြဲ တစ်ခုတည်းသော အရာတူတူ ဖြစ်ခြင်း",
+            "Settlement တစ်ခု၏ တည်ထောင်သော ရက်စွဲသည် Long-Term (သို့) Trigger Factor များနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Settlement တစ်ခု ဘာကြောင့် တည်ထောင်ခဲ့ကြောင်း ရှင်းပြရာတွင် Trigger Event များကိုသာ အရေးကြီးပြီး Long-Term Factor များ ဘယ်တော့မှ မအရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A fertile river valley (long-term suitability) might have been known to nearby people for generations before a specific group of migrants, fleeing a specific conflict, finally settled there at a specific trigger moment.",
+          ],
+          hintsMy: [
+            "ရေရရှိသော မြစ်ချိုင့်ဝှမ်းတစ်ခု (Long-Term Suitability) သည် တိကျသော Migrant အုပ်စုတစ်ခု တိကျသော Conflict တစ်ခုမှ ထွက်ပြေးကာ တိကျသော Trigger အခိုက်အတန့်တွင် နောက်ဆုံး အခြေချမီ မျိုးဆက်များစွာ အနီးအနား လူများ ၎င်းကို သိရှိထားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important for an inquiry to explicitly state which claims are well-supported by evidence and which remain uncertain, rather than presenting everything with equal confidence?",
+          questionMy:
+              "Inquiry တစ်ခုသည် အားလုံးကို ညီမျှသော ယုံကြည်စိတ်ချမှုဖြင့် တင်ပြမည့်အစား Claim မည်သည်ကို Evidence က ကောင်းစွာ ထောက်ခံထားပြီး မည်သည်က မသေချာသေးကြောင်း ရှင်းလင်းစွာ ဖော်ပြရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is the same evidence-honesty principle any credible inquiry requires: claims with strong, corroborated evidence deserve more confidence than claims based on limited or single-source evidence",
+            "Every claim in an inquiry should always be presented with exactly the same level of confidence",
+            "Distinguishing well-supported claims from uncertain ones has no actual value in humanities research",
+            "Uncertain claims should never be mentioned in an inquiry under any circumstance",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ယုံကြည်ရသော Inquiry မည်သည်ကမဆို တောင်းဆိုသော Evidence-Honesty Principle တူတူ ဖြစ်သည် - ခိုင်မာ၊ Corroborated Evidence ရှိသော Claim များသည် ကန့်သတ်ထား (သို့) Source တစ်ခုတည်းသာ ရှိသော Claim များထက် ပို၍ ယုံကြည်စိတ်ချမှု ခံစားထိုက်သည်",
+            "Inquiry တစ်ခုရှိ Claim တိုင်းကို ယုံကြည်စိတ်ချမှု Level တူတူဖြင့် အမြဲ တင်ပြသင့်ခြင်း",
+            "Well-Supported Claim များကို Uncertain Claim များမှ ခွဲခြားခြင်းသည် Humanities သုတေသနတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Uncertain Claim များကို Inquiry တစ်ခုတွင် အခြေအနေ မည်သို့ပင်ရှိစေ ဘယ်တော့မှ ဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 1's corroboration lesson -- a claim confirmed by both a written source and a map is stronger than a claim resting on a single unverified account.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 1 ၏ Corroboration သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Written Source နှင့် Map နှစ်ခုစလုံးက အတည်ပြုထားသော Claim တစ်ခုသည် အတည်မပြုထားသော Account တစ်ခုတည်းအပေါ် အခြေခံသော Claim တစ်ခုထက် ပို၍ ခိုင်မာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1 Foundations Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 1 Foundations ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w4-dm-1",
+          termEn: "Multi-source inquiry",
+          termMy: "Multi-Source Inquiry",
+          matchEn:
+              "Combining historical sources with geographical evidence to answer one question",
+          matchMy:
+              "မေးခွန်းတစ်ခုကို ဖြေဆိုရန် သမိုင်းဆိုင်ရာ Source များကို Geographical Evidence နှင့် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w4-dm-2",
+          termEn: "Settlement suitability",
+          termMy: "Settlement Suitability",
+          matchEn:
+              "The long-term geographical factors (water, flat land, defensibility) that make a location good for a settlement",
+          matchMy:
+              "Settlement တစ်ခုအတွက် တည်နေရာ ကောင်းမွန်စေသော Long-Term Geographical အချက်များ (ရေ, ညီညာသော မြေ, ကာကွယ်နိုင်စွမ်း)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w4-dm-3",
+          termEn: "Evidence confidence",
+          termMy: "Evidence Confidence",
+          matchEn:
+              "Distinguishing well-corroborated claims from those still uncertain",
+          matchMy:
+              "Corroborate ကောင်းစွာ ပြုလုပ်ထားသော Claim များကို ဆက်လက် မသေချာသေးသည်များမှ ခွဲခြားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w4-dm-4",
+          termEn: "Founding trigger",
+          termMy: "Founding Trigger",
+          matchEn:
+              "The specific event that led people to settle at an already-suitable location",
+          matchMy:
+              "ရှိပြီးသား သင့်လျော်သော တည်နေရာတစ်ခုတွင် အခြေချရန် လူများကို ဦးဆောင်ခဲ့သော တိကျသော Event",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Supported or Uncertain Claim?",
+      titleMy: "စီစစ်ကြမည် - Well-Supported (သို့) Uncertain Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Well-Supported Claim", "Uncertain Claim"],
+        bucketsMy: ["Well-Supported Claim", "Uncertain Claim"],
+        items: [
+          SortingItem(
+            id: "igchum-w4-sort-1",
+            labelEn:
+                "A claim confirmed by both a written record and independent map evidence",
+            labelMy:
+                "Written Record နှင့် လွတ်လပ်သော Map Evidence နှစ်ခုစလုံးက အတည်ပြုထားသော Claim",
+            correctBucketEn: "Well-Supported Claim",
+            correctBucketMy: "Well-Supported Claim",
+          ),
+          SortingItem(
+            id: "igchum-w4-sort-2",
+            labelEn:
+                "A claim based on a single unverified local legend with no other evidence",
+            labelMy:
+                "အခြား Evidence မည်သည်မှ မပါဘဲ အတည်မပြုထားသော Local Legend တစ်ခုတည်းအပေါ် အခြေခံသော Claim",
+            correctBucketEn: "Uncertain Claim",
+            correctBucketMy: "Uncertain Claim",
+          ),
+          SortingItem(
+            id: "igchum-w4-sort-3",
+            labelEn:
+                "A claim supported by two independent primary sources agreeing with each other",
+            labelMy:
+                "တစ်ခုနှင့်တစ်ခု သဘောတူသော Independent Primary Source နှစ်ခုက ထောက်ခံထားသော Claim",
+            correctBucketEn: "Well-Supported Claim",
+            correctBucketMy: "Well-Supported Claim",
+          ),
+          SortingItem(
+            id: "igchum-w4-sort-4",
+            labelEn:
+                "A claim contradicted by the available map evidence but stated as fact anyway",
+            labelMy:
+                "ရရှိနိုင်သော Map Evidence က ဆန့်ကျင်နေသော်လည်း Fact အဖြစ် ဖော်ပြထားသော Claim",
+            correctBucketEn: "Uncertain Claim",
+            correctBucketMy: "Uncertain Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's River-Bend Village Investigation",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ မြစ်ကွေ့ ရွာ စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's River-Bend Village Investigation",
+        titleMy: "Thiha Aung ၏ မြစ်ကွေ့ ရွာ စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "For Term 1's capstone, Saya Tun Tun Win asked every student to investigate why a real local village had been founded at its specific location and specific time, combining every skill from the term into one coherent inquiry. Thiha Aung chose a village built on a sheltered bend of a river near his own town.\n\nHis map analysis, applying Week 3's skills, revealed the long-term geographical suitability of the site: the six-figure grid reference pinpointed the settlement precisely on a flat floodplain terrace just above the river's normal water level, with widely spaced contour lines confirming gentle, farmable terrain rather than steep hillside. The river bend itself provided natural defensive protection on two sides and a reliable water source.\n\nHis source research, applying Week 1's skills, uncovered two independent primary sources: a colonial-era land survey record and a local elder's oral history transcript, both dating the settlement's founding to roughly the same decade -- a corroboration that gave him confidence in the timing claim. But when he researched why that specific decade rather than an earlier one, he found only a single, unverified local legend claiming a specific flood had driven settlers there; no written record corroborated this story, so following Wednesday's evidence-confidence lesson, he explicitly labeled this trigger explanation as uncertain rather than stating it as established fact.\n\nApplying Tuesday's causation lesson, Thiha Aung's final report clearly separated the two threads: the long-term geographical suitability (well-supported by corroborated map and written evidence) explained why that location was a good choice in principle, while the specific trigger for the exact founding decade (resting on a single uncorroborated legend) remained an open question worth further research. Saya Tun Tun Win praised the report specifically for combining historical and geographical evidence into one coherent argument while being honest about which parts were solidly established and which remained genuinely uncertain.",
+        passageMy:
+            "Term 1 Capstone အတွက် Term တစ်ခုလုံးမှ Skill တိုင်းကို Inquiry တစ်ခုတည်း ညီညွတ်စွာ ပေါင်းစပ်ကာ စစ်မှန်သော Local ရွာတစ်ရွာသည် ၎င်း၏ တိကျသော တည်နေရာနှင့် တိကျသော အချိန်တွင် ဘာကြောင့် တည်ထောင်ခဲ့ကြောင်း စုံစမ်းစစ်ဆေးရန် ကျောင်းသားတိုင်းကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ ၎င်းကိုယ်ပိုင် မြို့အနီးရှိ မြစ်ကွေ့ ကာကွယ်ထားသော နေရာတွင် တည်ဆောက်ထားသော ရွာတစ်ရွာကို Thiha Aung ရွေးချယ်ခဲ့သည်။\n\nWeek 3 ၏ Skill များကို အသုံးချသော ၎င်း၏ Map Analysis သည် ဆိုက်ဒ်၏ Long-Term Geographical Suitability ကို ဖော်ထုတ်ခဲ့သည် - Six-Figure Grid Reference သည် Settlement ကို မြစ်၏ ပုံမှန် ရေအဆင့်ထက် အနည်းငယ်အထက်ရှိ ညီညာသော Floodplain Terrace တစ်ခုပေါ်တွင် တိကျစွာ ညွှန်ပြခဲ့ပြီး ကျယ်ပြန့်စွာ ခွာထားသော Contour Line များသည် ချောက်ကမ်းပါးသော တောင်ကုန်းအစား ညင်သာ၊ လယ်ယာလုပ်နိုင်သော Terrain ကို အတည်ပြုခဲ့သည်။ မြစ်ကွေ့ ကိုယ်တိုင်သည် ဘက်နှစ်ဘက်တွင် သဘာဝ Defensive ကာကွယ်မှုနှင့် ယုံကြည်ရသော ရေအရင်းအမြစ် ပေးအပ်ခဲ့သည်။\n\nWeek 1 ၏ Skill များကို အသုံးချသော ၎င်း၏ Source သုတေသနသည် Independent Primary Source နှစ်ခုကို ဖော်ထုတ်ခဲ့သည် - Colonial-Era Land Survey Record တစ်ခုနှင့် Local ဒေသကြီးတစ်ဦး၏ Oral History Transcript တစ်ခု၊ နှစ်ခုစလုံးသည် Settlement ၏ တည်ထောင်ခြင်းကို ဆယ်စုနှစ်တူတူနီးပါးသို့ ရက်စွဲသတ်မှတ်ခဲ့ကြသည် -- Timing Claim တွင် ၎င်းကို ယုံကြည်စိတ်ချမှု ပေးအပ်ခဲ့သော Corroboration တစ်ခု ဖြစ်သည်။ သို့သော် ယခင်တစ်ခုအစား ထို တိကျသော ဆယ်စုနှစ် ဘာကြောင့် ဖြစ်ခဲ့ကြောင်း ၎င်း သုတေသနပြုလုပ်ချိန် တိကျသော ရေလွှမ်းမှုတစ်ခုက Settler များကို ထိုနေရာသို့ တွန်းအားပေးခဲ့သည်ဟု Claim ပြုလုပ်သော အတည်မပြုထားသော Local Legend တစ်ခုတည်းကိုသာ ၎င်း တွေ့ရှိခဲ့သည်; ဤဇာတ်လမ်းကို Written Record မည်သည်မှ Corroborate မပြုလုပ်ခဲ့ဘဲ ဗုဒ္ဓဟူးနေ့ Evidence-Confidence သင်ခန်းစာအတိုင်း ဤ Trigger ရှင်းလင်းချက်ကို Established Fact အဖြစ် ဖော်ပြမည့်အစား Uncertain အဖြစ် ရှင်းလင်းစွာ ၎င်း Label ချခဲ့သည်။\n\nအင်္ဂါနေ့ Causation သင်ခန်းစာကို အသုံးချကာ Thiha Aung ၏ နောက်ဆုံး Report သည် Thread နှစ်ခုကို ရှင်းလင်းစွာ ခွဲခြားခဲ့သည် - Long-Term Geographical Suitability (Corroborated Map နှင့် Written Evidence က ကောင်းစွာ ထောက်ခံထားသော) သည် ထို တည်နေရာသည် Principle အရ ကောင်းသော ရွေးချယ်မှုတစ်ခု ဖြစ်ကြောင်း ရှင်းပြခဲ့ပြီး တိကျသော တည်ထောင်ခဲ့သော ဆယ်စုနှစ်၏ တိကျသော Trigger (Uncorroborated Legend တစ်ခုတည်းအပေါ် အခြေခံနေသော) သည် ဆက်လက် သုတေသနပြုလုပ်ရန် တန်ဖိုးရှိသော ပွင့်လင်းသော မေးခွန်းတစ်ခုအဖြစ် ကျန်ရစ်ခဲ့သည်။ သမိုင်းနှင့် Geographical Evidence ကို ညီညွတ်သော Argument တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့စဉ် အပိုင်း မည်သည်များ ခိုင်မာစွာ တည်ထောင်ထားပြီး မည်သည်များ စစ်မှန်စွာ မသေချာသေးသည်ကို ရိုးသားစွာ ဖော်ပြခဲ့သောကြောင့် Report ကို Saya Tun Tun Win အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung's map analysis reveal about the village's location?",
+            questionMy:
+                "ရွာ၏ တည်နေရာအကြောင်း Thiha Aung ၏ Map Analysis ဖော်ထုတ်ခဲ့သည့် အချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A flat, farmable floodplain terrace with natural river-bend defense and water access",
+              "A steep, dangerous cliff with no water source of any kind",
+              "There was no geographical evidence found at all",
+              "The location was actually completely unsuitable for any settlement",
+            ],
+            optionsMy: [
+              "မြစ်ကွေ့ Natural Defense နှင့် ရေ ရရှိမှုပါသော ညီညာ၊ လယ်ယာလုပ်နိုင်သော Floodplain Terrace",
+              "ရေအရင်းအမြစ် မည်သည်မှ မပါသော ချောက်ကမ်းပါး၊ အန္တရာယ်ရှိသော Cliff",
+              "Geographical Evidence မည်သည်မှ တွေ့ရှိခြင်း လုံးဝ မရှိခဲ့ခြင်း",
+              "တည်နေရာသည် Settlement မည်သည်နှင့်မဆို အမှန်တကယ် လုံးဝ မသင့်လျော်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's map findings."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Map Findings ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung label the flood-legend trigger as uncertain?",
+            questionMy:
+                "ရေလွှမ်းမှု-Legend Trigger ကို Uncertain အဖြစ် Thiha Aung Label ချခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No written record corroborated the single unverified local legend",
+              "The legend was confirmed by two independent written sources",
+              "He had no reason at all for labeling it uncertain",
+              "The founding decade itself was completely unknown",
+            ],
+            optionsMy: [
+              "Written Record မည်သည်မှ အတည်မပြုထားသော Local Legend တစ်ခုတည်းကို Corroborate မပြုလုပ်ခဲ့ခြင်း",
+              "Independent Written Source နှစ်ခုက Legend ကို အတည်ပြုထားခဲ့ခြင်း",
+              "Uncertain အဖြစ် Label ချရန် အကြောင်းရင်း မည်သည်မှ မရှိခဲ့ခြင်း",
+              "တည်ထောင်ခဲ့သော ဆယ်စုနှစ်ကိုယ်တိုင် လုံးဝ မသိရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of the uncertain claim.",
+            ],
+            hintsMy: [
+              "Uncertain Claim ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise the report?",
+            questionMy:
+                "Report ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It combined historical and geographical evidence while being honest about what was solid versus uncertain",
+              "It was the shortest report submitted in the class",
+              "It presented every single claim with identical, absolute certainty",
+              "It ignored map evidence entirely and used only written sources",
+            ],
+            optionsMy: [
+              "ခိုင်မာသည် Versus မသေချာသေးသည်အကြောင်း ရိုးသားစွာ ဖြစ်ခဲ့စဉ် သမိုင်းနှင့် Geographical Evidence ကို ပေါင်းစပ်ခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး Report ဖြစ်ခြင်း",
+              "Claim တစ်ခုချင်းစီကို တူညီသော၊ Absolute Certainty ဖြင့် တင်ပြခဲ့ခြင်း",
+              "Map Evidence ကို လုံးဝ လျစ်လျူရှုကာ Written Source များကိုသာ အသုံးပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w4-d5",
+      dayNumber: 5,
+      titleEn:
+          "Term 1 Capstone: Foundations of Historical & Geographical Inquiry Exam",
+      titleMy:
+          "Term 1 Capstone - Foundations of Historical & Geographical Inquiry စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong local history-geography inquiry should...",
+          questionMy:
+              "ခိုင်မာသော Local History-Geography Inquiry တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Combine historical sources with geographical map evidence",
+            "Rely only on a single unverified legend",
+            "Ignore all map-based evidence entirely",
+            "Present every claim with identical absolute certainty",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ Source များကို Geographical Map Evidence နှင့် ပေါင်းစပ်ခြင်း",
+            "အတည်မပြုထားသော Legend တစ်ခုတည်းကိုသာ အားကိုးခြင်း",
+            "Map-Based Evidence အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Claim တိုင်းကို တူညီသော Absolute Certainty ဖြင့် တင်ပြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Long-term suitability and a founding trigger are different because...",
+          questionMy:
+              "Long-Term Suitability နှင့် Founding Trigger သည် ကွဲပြားသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "A location could be suitable for generations before a specific event triggered settlement",
+            "They are always exactly the same thing",
+            "Triggers always happen before long-term suitability exists",
+            "Long-term suitability never actually matters to a settlement's founding",
+          ],
+          optionsMy: [
+            "တိကျသော Event တစ်ခုက Settlement ကို Trigger မပြုလုပ်မီ တည်နေရာတစ်ခုသည် မျိုးဆက်များစွာ သင့်လျော်နေနိုင်ခြင်း",
+            "အမြဲ တစ်ခုတည်းသော အရာတူတူ ဖြစ်ခြင်း",
+            "Long-Term Suitability မရှိမီ Trigger များ အမြဲ ဖြစ်ပျက်ခြင်း",
+            "Long-Term Suitability သည် Settlement တစ်ခု တည်ထောင်ခြင်းနှင့် အမှန်တကယ် ဘယ်တော့မှ အရေးမကြီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim based on a single uncorroborated legend should be treated as...",
+          questionMy:
+              "Corroborate မပြုလုပ်ထားသော Legend တစ်ခုတည်းအပေါ် အခြေခံသော Claim တစ်ခုကို ...အဖြစ် ဆက်ဆံသင့်သည်",
+          optionsEn: [
+            "Uncertain rather than established fact",
+            "Absolutely proven beyond any doubt",
+            "More reliable than corroborated evidence",
+            "Irrelevant to any historical inquiry",
+          ],
+          optionsMy: [
+            "Established Fact မဟုတ်ဘဲ Uncertain",
+            "သံသယ မရှိအောင် လုံးဝ သက်သေပြပြီးသား",
+            "Corroborated Evidence ထက် ပို၍ ယုံကြည်ရသော",
+            "သမိုင်းဆိုင်ရာ Inquiry မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 1: "Foundations of Historical &
+// Geographical Inquiry" (Weeks 1-4)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm1 = CourseTermDef(
+  id: "course-igcse-hum-t1",
+  termNumber: 1,
+  titleEn: "Foundations of Historical & Geographical Inquiry",
+  titleMy: "သမိုင်းနှင့် ပထဝီဝင် Inquiry ၏ အခြေခံများ",
+  certificateTitleEn: "Foundations of Historical & Geographical Inquiry",
+  certificateTitleMy: "သမိုင်းနှင့် ပထဝီဝင် Inquiry ၏ အခြေခံများ",
+  weeks: [_igcseHumWeek1, _igcseHumWeek2, _igcseHumWeek3, _igcseHumWeek4],
+);
+
+// =====================================================================
+// IGCSE Humanities -- full pathway definition. Terms 2-9 not yet
+// authored; wired incrementally, one completed term at a time.
+// =====================================================================
+
+const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
+  id: "course-igcse-humanities",
+  subject: "humanities",
+  grade: Grade.igcse,
+  titleEn: "IGCSE Humanities (History & Geography)",
+  titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
+  descriptionEn:
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation.",
+  descriptionMy:
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [_igcseHumTerm1],
+);
+// __IGCSE_HUM_MARKER__
