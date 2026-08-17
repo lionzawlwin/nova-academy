@@ -103490,11 +103490,11 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec1HumTerm1, _sec1HumTerm2],
+  terms: [_sec1HumTerm1, _sec1HumTerm2, _sec1HumTerm3],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 2, Week 5: "Mesopotamia and the
@@ -104934,5 +104934,1432 @@ const CourseTermDef _sec1HumTerm2 = CourseTermDef(
   certificateTitleEn: "Early Civilizations",
   certificateTitleMy: "အစောဆုံး Civilization များ",
   weeks: [_sec1HumWeek5, _sec1HumWeek6, _sec1HumWeek7, _sec1HumWeek8],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 3, Week 9: "Ancient Greece: City-
+// States and Democracy"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek9 = CourseWeekDef(
+  id: "course-sec1-hum-w9",
+  weekNumber: 9,
+  titleEn: "Ancient Greece: City-States and Democracy",
+  titleMy: "ရှေးဟောင်း ဂရိ - City-State များနှင့် ဒီမိုကရေစီ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w9-d1",
+      dayNumber: 1,
+      titleEn: "Athens and Sparta: Two Very Different City-States",
+      titleMy: "အေသင်နှင့် စပါတာ - လွန်စွာ ကွဲပြားသော City-State နှစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it inaccurate to describe 'Ancient Greece' as a single unified nation with one government, rather than a collection of independent city-states?",
+          questionMy:
+              "'ရှေးဟောင်း ဂရိ' ကို Independent City-State များ အစုအဝေးအစား Government တစ်ခုတည်းနှင့် Unified နိုင်ငံတစ်ခုတည်းအဖြစ် ဖော်ပြခြင်းသည် တိကျမှု မရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Ancient Greece was made up of many independent city-states, such as Athens and Sparta, each with its own government, laws, and often rival interests, not one central authority",
+            "Ancient Greece was always ruled by a single, unified central government with no independent city-states at all",
+            "City-states have no actual relevance to understanding ancient Greek history",
+            "Athens and Sparta were actually identical in every meaningful way",
+          ],
+          optionsMy: [
+            "ရှေးဟောင်း ဂရိသည် ဗဟို Authority တစ်ခုတည်း မဟုတ်ဘဲ အေသင်နှင့် စပါတာကဲ့သို့ ကိုယ်ပိုင် Government, ဥပဒေနှင့် မကြာခဏ ယှဉ်ပြိုင် အကျိုးစီးပွားများ ရှိသော Independent City-State များစွာဖြင့် ဖွဲ့စည်းထားခဲ့ခြင်း",
+            "ရှေးဟောင်း ဂရိကို Independent City-State များ လုံးဝ မရှိဘဲ Unified ဗဟို Government တစ်ခုတည်းက အမြဲ အုပ်ချုပ်ခဲ့ခြင်း",
+            "City-State များသည် ရှေးဟောင်း ဂရိ သမိုင်း နားလည်ခြင်းနှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            "အေသင်နှင့် စပါတာသည် အနှစ်သာရအရ တစ်ခုနှင့်တစ်ခု အမှန်တကယ် တူညီခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Just as Term 2 showed three separate civilizations should not be flattened into one identical story, Greece itself should not be flattened into one unified nation.",
+          ],
+          hintsMy: [
+            "Term 2 က Separate Civilization သုံးခုကို Identical ဇာတ်လမ်းတစ်ခုတည်းအဖြစ် မညှစ်ချသင့်ကြောင်း ပြသခဲ့သကဲ့သို့ ဂရိကိုယ်တိုင်ကိုလည်း Unified နိုင်ငံတစ်ခုတည်းအဖြစ် မညှစ်ချသင့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it historically significant that Athens developed a form of direct democracy, even though only a limited group of citizens (excluding women, slaves, and foreigners) could actually participate?",
+          questionMy:
+              "အမှန်တကယ် ပါဝင်နိုင်သည့် Citizen ကန့်သတ်ထားသော အုပ်စု (အမျိုးသမီးများ၊ ကျွန်များနှင့် နိုင်ငံခြားသားများ ဖယ်ထုတ်ထားသော) တစ်ခုသာ ရှိသော်လည်း Direct Democracy ပုံစံတစ်ခု အေသင် ဖွံ့ဖြိုးခဲ့ခြင်းသည် သမိုင်းဆိုင်ရာ အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It was an early, influential example of citizens directly voting on decisions rather than being ruled entirely by one king or a small elite, even though its version of 'citizen' was far narrower than modern definitions",
+            "Athenian democracy has no actual historical significance of any kind",
+            "Athenian democracy was identical in every way to modern democratic systems",
+            "The limitations on who could participate mean the system should be ignored entirely",
+          ],
+          optionsMy: [
+            "၎င်း၏ 'Citizen' Version သည် ခေတ်သစ် အဓိပ္ပာယ်ဖွင့်ဆိုချက်များထက် များစွာ ကျဉ်းမြောင်းသော်လည်း ဘုရင်တစ်ပါးတည်း (သို့) Elite အနည်းစုငယ်တစ်ခုတည်းက လုံးလုံး အုပ်ချုပ်မည့်အစား Citizen များ ဆုံးဖြတ်ချက်များကို တိုက်ရိုက် Vote ပေးသော အစောဆုံး၊ ဩဇာသက်ရောက်မှုရှိသော ဥပမာတစ်ခု ဖြစ်ခဲ့ခြင်း",
+            "Athenian ဒီမိုကရေစီသည် သမိုင်းဆိုင်ရာ အရေးကြီးမှု မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Athenian ဒီမိုကရေစီသည် ခေတ်သစ် ဒီမိုကရေစီ Systems များနှင့် နည်းလမ်းတိုင်းတွင် တူညီခဲ့ခြင်း",
+            "ပါဝင်နိုင်သူများအပေါ် ကန့်သတ်ချက်များသည် System ကို လုံးလုံး လျစ်လျူရှုသင့်ကြောင်း ဆိုလိုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a nuanced claim: significant does not mean perfect or identical to today -- both things can be true at once, exactly the kind of balanced judgement Term 1 and Term 2 practiced.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နက်နဲသော Claim တစ်ခု ဖြစ်သည် - Significant ဆိုသည်မှာ ပြည့်စုံသည် (သို့) ယနေ့နှင့် တူညီသည်ဟု မဆိုလိုပါ -- Term 1 နှင့် Term 2 ကျင့်သုံးခဲ့သော ချိန်ညှိထားသော Judgement အမျိုးအစား အတိအကျဖြင့် နှစ်ခုစလုံး တစ်ပြိုင်နက် မှန်ကန်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid assuming that Sparta's militaristic society and Athens's democratic society represent 'bad' and 'good' city-states respectively, rather than simply two different responses to different circumstances?",
+          questionMy:
+              "စပါတာ၏ စစ်ရေးဆန်သော Society နှင့် အေသင်၏ ဒီမိုကရေစီ Society သည် ကွဲပြားသော အခြေအနေများအတွက် ကွဲပြားသော တုံ့ပြန်မှုနှစ်ခု ရိုးရှင်းစွာ မဟုတ်ဘဲ 'ဆိုးသော' နှင့် 'ကောင်းသော' City-State များကို အသီးသီး ကိုယ်စားပြုသည်ဟု ကျောင်းသားများ အဘယ်ကြောင့် ယူဆခြင်း ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Judging past societies by simple modern moral labels oversimplifies why each city-state developed the way it did in its own historical context, echoing Term 2's caution against ranking civilizations as simply 'best'",
+            "Sparta and Athens should always be ranked with one clearly labeled as morally superior",
+            "Historical societies should never be evaluated or compared in any way whatsoever",
+            "There is no actual difference between how Sparta and Athens were organized",
+          ],
+          optionsMy: [
+            "City-State တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် သမိုင်းဆိုင်ရာ Context တွင် ထိုနည်းလမ်းအတိုင်း အဘယ်ကြောင့် ဖွံ့ဖြိုးခဲ့သည်ကို ရိုးရှင်းသော ခေတ်သစ် Moral Label များဖြင့် Society ဟောင်းများကို ဆုံးဖြတ်ခြင်းသည် Oversimplify ပြုလုပ်ကာ Civilization များကို ရိုးရိုး 'အကောင်းဆုံး' အဖြစ် Rank ပေးခြင်းကို ရှောင်ရှားရန် Term 2 ၏ သတိပေးချက်ကို ထပ်လောင်းသည်",
+            "စပါတာနှင့် အေသင်ကို Morally ပို၍ ကောင်းမြတ်သည်ဟု ရှင်းလင်းစွာ Label တင်ထားသော တစ်ခုနှင့် အမြဲ Rank ပေးသင့်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Society များကို နည်းလမ်း မည်သည်နှင့်မျှ ဘယ်တော့မှ အကဲဖြတ် (သို့) နှိုင်းယှဉ်ခြင်း မပြုသင့်ခြင်း",
+            "စပါတာနှင့် အေသင် စီစဉ်ပုံကြား ကွာခြားချက် အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 2 Week 8's lesson about avoiding a simple 'best civilization' ranking -- the same discipline applies here to comparing two city-states.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား 'အကောင်းဆုံး Civilization' Ranking ရိုးရှင်းသော တစ်ခု ရှောင်ရှားခြင်းအကြောင်း Term 2 Week 8 ၏ သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- City-State နှစ်ခု နှိုင်းယှဉ်ရာတွင် Discipline တူတူ အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ancient Greece Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ရှေးဟောင်း ဂရိ Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w9-dm-1",
+          termEn: "City-state",
+          termMy: "City-State",
+          matchEn:
+              "An independent city and its surrounding territory, with its own government",
+          matchMy:
+              "ကိုယ်ပိုင် Government ပါရှိသော Independent မြို့တစ်ခုနှင့် ၎င်း၏ ပတ်ဝန်းကျင် နယ်မြေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w9-dm-2",
+          termEn: "Direct democracy",
+          termMy: "Direct Democracy",
+          matchEn:
+              "A system where citizens vote directly on decisions rather than through representatives",
+          matchMy:
+              "Representative များမှတစ်ဆင့် မဟုတ်ဘဲ Citizen များ ဆုံးဖြတ်ချက်များကို တိုက်ရိုက် Vote ပေးသော System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w9-dm-3",
+          termEn: "Sparta",
+          termMy: "Sparta",
+          matchEn:
+              "A city-state known for its highly militaristic, disciplined society",
+          matchMy:
+              "၎င်း၏ လွန်စွာ စစ်ရေးဆန်၊ စည်းကမ်းရှိသော Society ဖြင့် နာမည်ကြီးသော City-State",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w9-dm-4",
+          termEn: "Citizen (Athenian sense)",
+          termMy: "Citizen (Athenian Sense)",
+          matchEn:
+              "In Athens, a free adult man born to citizen parents -- a much narrower group than 'citizen' means today",
+          matchMy:
+              "အေသင်တွင် Citizen မိဘများမှ မွေးဖွားသော လွတ်လပ်သော အရွယ်ရောက်ပြီး ယောက်ျား -- ယနေ့ 'Citizen' ဆိုသည့် အဓိပ္ပာယ်ထက် များစွာ ကျဉ်းမြောင်းသော အုပ်စု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Athens or Sparta?",
+      titleMy: "စီစစ်ကြမည် - အေသင် (သို့) စပါတာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Athens", "Sparta"],
+        bucketsMy: ["အေသင်", "စပါတာ"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w9-sort-1",
+            labelEn: "Citizens voted directly on laws and major decisions",
+            labelMy:
+                "Citizen များသည် ဥပဒေများနှင့် အဓိက ဆုံးဖြတ်ချက်များကို တိုက်ရိုက် Vote ပေးခဲ့ခြင်း",
+            correctBucketEn: "Athens",
+            correctBucketMy: "အေသင်",
+          ),
+          SortingItem(
+            id: "sec1hum-w9-sort-2",
+            labelEn:
+                "Boys began rigorous military training at a very young age",
+            labelMy:
+                "ယောက်ျားလေးများသည် ငယ်ရွယ်စွာ ပြင်းထန်သော စစ်ရေး သင်တန်းကို စတင်ခဲ့ခြင်း",
+            correctBucketEn: "Sparta",
+            correctBucketMy: "စပါတာ",
+          ),
+          SortingItem(
+            id: "sec1hum-w9-sort-3",
+            labelEn: "Known as a center of philosophy, art, and drama",
+            labelMy:
+                "Philosophy, အနုပညာနှင့် ပြဇာတ်၏ ဗဟိုချက်တစ်ခုအဖြစ် နာမည်ကြီးခြင်း",
+            correctBucketEn: "Athens",
+            correctBucketMy: "အေသင်",
+          ),
+          SortingItem(
+            id: "sec1hum-w9-sort-4",
+            labelEn:
+                "Society was organized primarily around military strength and discipline",
+            labelMy:
+                "Society ကို အဓိကအားဖြင့် စစ်ရေး ခွန်အားနှင့် စည်းကမ်းအားလုံး စီစဉ်ထားခြင်း",
+            correctBucketEn: "Sparta",
+            correctBucketMy: "စပါတာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Htet's City-State Comparison",
+      titleMy: "စာဖတ်ခြင်း - Ko Htet ၏ City-State နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Htet's City-State Comparison",
+        titleMy: "Ko Htet ၏ City-State နှိုင်းယှဉ်ချက်",
+        passageEn:
+            "For Week 9's assignment, Ko Htet was asked to compare Athens and Sparta and explain why they developed such different societies despite both being Greek city-states.\n\nHis first draft opened with a line calling Sparta 'the bad city-state' because of its harsh military discipline, and Athens 'the good city-state' because of its democracy and art. When his teacher reviewed the draft, she pointed him back to Term 2's museum exhibit lesson: ranking one civilization as simply 'the best' had oversimplified a genuinely multi-sided comparison, and the same problem applied here to labeling one city-state 'good' and the other 'bad'.\n\nKo Htet revised his approach. Instead of moral labels, he researched why each city-state developed as it did: Sparta, surrounded by a large enslaved population (the helots) that vastly outnumbered Spartan citizens, built its entire society around military readiness partly out of fear of rebellion. Athens, with a strong navy and extensive trade connections, developed a political system that gave a wider (though still limited) group of citizens a voice in decisions that affected the whole city.\n\nHis revised conclusion noted that Sparta's militarism and Athens's democracy were both, in a real sense, rational responses to each city-state's own specific circumstances -- not simply one 'good' choice and one 'bad' one. His teacher praised the shift: understanding why a society developed as it did, she said, was far more valuable than simply sorting the past into heroes and villains.",
+        passageMy:
+            "Week 9 ၏ Assignment အတွက် ဂရိ City-State များ နှစ်ခုစလုံး ဖြစ်သော်လည်း Society ကွဲပြားစွာ ဖွံ့ဖြိုးခဲ့ခြင်း အကြောင်းရင်းကို ရှင်းပြရန်နှင့် အေသင်နှင့် စပါတာကို နှိုင်းယှဉ်ရန် Ko Htet အား တောင်းဆိုခဲ့သည်။\n\n၎င်း၏ ပြင်းထန်သော စစ်ရေး စည်းကမ်းကြောင့် စပါတာကို 'City-State ဆိုးတစ်ခု' ဟု၊ ၎င်း၏ ဒီမိုကရေစီနှင့် အနုပညာကြောင့် အေသင်ကို 'City-State ကောင်းတစ်ခု' ဟု ခေါ်ဆိုသော စာကြောင်းတစ်ကြောင်းဖြင့် ၎င်း၏ ပထမ Draft ဖွင့်လှစ်ခဲ့သည်။ Draft ကို ဆရာမ ပြန်လည်သုံးသပ်သောအခါ Term 2 ၏ ပြတိုက် Exhibit သင်ခန်းစာသို့ ၎င်းကို ပြန်ညွှန်ပြခဲ့သည် - Civilization တစ်ခုကို ရိုးရိုး 'အကောင်းဆုံး' အဖြစ် Rank ပေးခြင်းသည် စစ်မှန်စွာ Multi-Sided နှိုင်းယှဉ်ချက်တစ်ခုကို Oversimplify ပြုလုပ်ခဲ့ပြီး City-State တစ်ခုကို 'ကောင်း' ၊ အခြားတစ်ခုကို 'ဆိုး' ဟု Label တင်ခြင်းတွင် ပြဿနာတူတူ အသုံးချသည်။\n\nKo Htet သည် ၎င်း၏ Approach ကို ပြင်ဆင်ခဲ့သည်။ Moral Label များအစား City-State တစ်ခုစီ အဘယ်ကြောင့် ထိုနည်းလမ်းအတိုင်း ဖွံ့ဖြိုးခဲ့သည်ကို ၎င်း Research ပြုလုပ်ခဲ့သည် - Spartan Citizen များထက် အလွန်များပြားသော ကျွန်ခံ လူဦးရေကြီးကြီးမားမား (Helot များ) ဝန်းရံနေသော စပါတာသည် ပုန်ကန်မှုကို စိုးရိမ်သောကြောင့် တစ်စိတ်တစ်ပိုင်း ၎င်း၏ Society တစ်ခုလုံးကို စစ်ရေး အသင့်ဖြစ်မှုအား တည်ဆောက်ခဲ့သည်။ ခွန်အားကောင်းသော Navy နှင့် ကျယ်ပြန့်သော ကုန်သွယ်ရေး ချိတ်ဆက်မှုများ ရှိသော အေသင်သည် မြို့တစ်ခုလုံးကို သက်ရောက်သော ဆုံးဖြတ်ချက်များတွင် ကျယ်ပြန့်သော (သို့သော် ကန့်သတ်ထားသေးသော) Citizen အုပ်စုကို အသံပါစေသော နိုင်ငံရေး System တစ်ခု ဖွံ့ဖြိုးခဲ့သည်။\n\nစပါတာ၏ Militarism နှင့် အေသင်၏ ဒီမိုကရေစီ နှစ်ခုစလုံးသည် အမှန်တကယ် အဓိပ္ပာယ်တစ်ခုတွင် City-State တစ်ခုစီ၏ ကိုယ်ပိုင် တိကျသော အခြေအနေများနှင့် Rational တုံ့ပြန်မှုများ ဖြစ်ကြောင်း -- 'ကောင်း' ရွေးချယ်မှုတစ်ခုနှင့် 'ဆိုး' တစ်ခု ရိုးရိုး မဟုတ်ကြောင်း ၎င်း၏ ပြင်ဆင်ထားသော ကောက်ချက်တွင် မှတ်ချက်ပြုခဲ့သည်။ Society တစ်ခု အဘယ်ကြောင့် ထိုနည်းလမ်းအတိုင်း ဖွံ့ဖြိုးခဲ့သည်ကို နားလည်ခြင်းသည် အတိတ်ကို သူရဲကောင်းများနှင့် ဗီလိန်များအဖြစ် ရိုးရိုး ခွဲခြားခြင်းထက် များစွာ ပို၍ တန်ဖိုးရှိကြောင်း ဆရာမ ပြောကာ ပြောင်းလဲမှုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what previous lesson did the teacher connect Ko Htet's first draft to?",
+            questionMy:
+                "Ko Htet ၏ ပထမ Draft ကို ဆရာမ ချိတ်ဆက်ခဲ့သော အရင်သင်ခန်းစာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's museum exhibit lesson about avoiding a simple 'best civilization' ranking",
+              "A lesson that had never actually been taught in the course",
+              "Term 1's grid reference lesson, with no actual connection to the topic",
+              "No previous lesson was connected in any way whatsoever",
+            ],
+            optionsMy: [
+              "'အကောင်းဆုံး Civilization' Ranking ရိုးရှင်းသော တစ်ခု ရှောင်ရှားခြင်းအကြောင်း Term 2 ၏ ပြတိုက် Exhibit သင်ခန်းစာ",
+              "Course တွင် အမှန်တကယ် ဘယ်တော့မှ သင်ကြားခဲ့ခြင်း မရှိသော သင်ခန်းစာတစ်ခု",
+              "ခေါင်းစဉ်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိသော Term 1 ၏ Grid Reference သင်ခန်းစာ",
+              "အရင်သင်ခန်းစာ မည်သည်ကိုမျှ နည်းလမ်း မည်သည်နှင့်မျှ ချိတ်ဆက်ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Sparta build its society around military readiness?",
+            questionMy:
+                "စစ်ရေး အသင့်ဖြစ်မှုအား စပါတာ ၎င်း၏ Society ကို တည်ဆောက်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Partly out of fear of rebellion from its large enslaved population (the helots)",
+              "Sparta had no actual reason and simply chose militarism at random",
+              "Sparta had no enslaved population and faced no threat of rebellion whatsoever",
+              "Athens forced Sparta to adopt a military-focused society",
+            ],
+            optionsMy: [
+              "၎င်း၏ ကျွန်ခံ လူဦးရေကြီးကြီးမားမား (Helot များ) ထံမှ ပုန်ကန်မှုကို စိုးရိမ်သောကြောင့် တစ်စိတ်တစ်ပိုင်း",
+              "စပါတာတွင် Actual အကြောင်းရင်း မရှိဘဲ Militarism ကို ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+              "စပါတာတွင် ကျွန်ခံ လူဦးရေ လုံးဝ မရှိဘဲ ပုန်ကန်မှု ခြိမ်းခြောက်မှု မည်သည်မှ မရင်ဆိုင်ခဲ့ခြင်း",
+              "စစ်ရေး-ဗဟိုပြု Society တစ်ခု လက်ခံရန် အေသင်က စပါတာကို အတင်းအကျပ် ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated reason for Spartan militarism.",
+            ],
+            hintsMy: [
+              "Spartan Militarism ၏ ဖော်ပြထားသော အကြောင်းရင်းကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Ko Htet's revised conclusion state about Sparta and Athens?",
+            questionMy:
+                "စပါတာနှင့် အေသင်အကြောင်း Ko Htet ၏ ပြင်ဆင်ထားသော ကောက်ချက် ဖော်ပြခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both were rational responses to each city-state's own specific circumstances, not simply one 'good' choice and one 'bad' one",
+              "Sparta was simply a 'bad' city-state with no reasonable explanation for its choices",
+              "Athens was simply a 'good' city-state with no flaws of any kind whatsoever",
+              "Neither city-state's development could be explained by its circumstances at all",
+            ],
+            optionsMy: [
+              "'ကောင်း' ရွေးချယ်မှုတစ်ခုနှင့် 'ဆိုး' တစ်ခု ရိုးရိုး မဟုတ်ဘဲ City-State တစ်ခုစီ၏ ကိုယ်ပိုင် တိကျသော အခြေအနေများနှင့် Rational တုံ့ပြန်မှုများ ဖြစ်ကြောင်း",
+              "စပါတာသည် ၎င်း၏ ရွေးချယ်မှုများအတွက် Reasonable Explanation မရှိဘဲ 'ဆိုး' City-State တစ်ခု ရိုးရိုး ဖြစ်ကြောင်း",
+              "အေသင်သည် ချို့ယွင်းချက် မည်သည်မှ လုံးဝ မပါဘဲ 'ကောင်း' City-State တစ်ခု ရိုးရိုး ဖြစ်ကြောင်း",
+              "City-State တစ်ခုစီ၏ ဖွံ့ဖြိုးတိုးတက်မှုကို ၎င်း၏ အခြေအနေများဖြင့် လုံးဝ ရှင်းပြ၍ မရနိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's stated revised conclusion.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော ပြင်ဆင်ထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w9-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Greek City-States Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - ဂရိ City-State မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ancient Greece was politically organized as...",
+          questionMy: "ရှေးဟောင်း ဂရိကို နိုင်ငံရေးအရ ...စီစဉ်ထားခဲ့သည်",
+          optionsEn: [
+            "Many independent city-states, each with its own government",
+            "One single unified nation with one government",
+            "A territory with no government of any kind",
+            "A single city with no surrounding territory",
+          ],
+          optionsMy: [
+            "Independent City-State များစွာ၊ တစ်ခုစီတွင် ကိုယ်ပိုင် Government ရှိ",
+            "Government တစ်ခုတည်းရှိ Unified နိုင်ငံတစ်ခုတည်း",
+            "Government မည်သည်မှ မရှိသော နယ်မြေတစ်ခု",
+            "ပတ်ဝန်းကျင် နယ်မြေ မပါသော မြို့တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Athenian direct democracy allowed citizens to...",
+          questionMy:
+              "Athenian Direct Democracy သည် Citizen များအား ...ခွင့်ပြုခဲ့သည်",
+          optionsEn: [
+            "Vote directly on decisions rather than through representatives",
+            "Have no involvement in decisions of any kind whatsoever",
+            "Be ruled entirely by one unelected king",
+            "Vote only through elected representatives with no direct say",
+          ],
+          optionsMy: [
+            "Representative များမှတစ်ဆင့် မဟုတ်ဘဲ ဆုံးဖြတ်ချက်များကို တိုက်ရိုက် Vote ပေးရန်",
+            "ဆုံးဖြတ်ချက်များတွင် ပါဝင်မှု မည်သည်မှ လုံးဝ မရှိရန်",
+            "Election မရှိသော ဘုရင်တစ်ပါးတည်းက လုံးလုံး အုပ်ချုပ်ခံရန်",
+            "Direct Say မပါဘဲ Elected Representative များမှတစ်ဆင့်သာ Vote ပေးရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Comparing Sparta and Athens fairly means...",
+          questionMy:
+              "စပါတာနှင့် အေသင်ကို မျှတစွာ နှိုင်းယှဉ်ခြင်းဆိုသည်မှာ ...ဆိုလိုသည်",
+          optionsEn: [
+            "Understanding why each developed as it did, not simply labeling one 'good' and one 'bad'",
+            "Always labeling one city-state as morally superior",
+            "Refusing to compare them in any way whatsoever",
+            "Assuming they had identical societies with no differences",
+          ],
+          optionsMy: [
+            "City-State တစ်ခုကို 'ကောင်း'၊ တစ်ခုကို 'ဆိုး' ဟု ရိုးရိုး Label မတင်ဘဲ တစ်ခုစီ အဘယ်ကြောင့် ထိုနည်းလမ်းအတိုင်း ဖွံ့ဖြိုးခဲ့သည်ကို နားလည်ခြင်း",
+            "City-State တစ်ခုကို Morally ပို၍ ကောင်းမြတ်သည်ဟု အမြဲ Label တင်ခြင်း",
+            "နည်းလမ်း မည်သည်နှင့်မျှ ၎င်းတို့ကို နှိုင်းယှဉ်ခြင်း ငြင်းဆန်ခြင်း",
+            "ကွာခြားချက် မရှိဘဲ Society တူညီသည်ဟု ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 3, Week 10: "Rome: From Republic to
+// Empire"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek10 = CourseWeekDef(
+  id: "course-sec1-hum-w10",
+  weekNumber: 10,
+  titleEn: "Rome: From Republic to Empire",
+  titleMy: "ရောမ - Republic မှ Empire သို့",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w10-d1",
+      dayNumber: 1,
+      titleEn: "Why a Republic Became an Empire",
+      titleMy: "Republic တစ်ခု Empire တစ်ခု အဘယ်ကြောင့် ဖြစ်လာခဲ့သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between the Roman Republic and the Roman Empire that followed it?",
+          questionMy:
+              "Roman Republic နှင့် ၎င်းနောက်တွင် လိုက်ပါလာသော Roman Empire ကြား အဓိက ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Republic was governed by elected officials and a senate representing citizens, while the Empire was ruled by a single emperor holding supreme power",
+            "The Republic and the Empire were governed in exactly the same way with no difference at all",
+            "The Empire had no ruler of any kind, while the Republic was ruled by one emperor",
+            "The Republic was ruled by a single emperor, while the Empire had no central leader at all",
+          ],
+          optionsMy: [
+            "Republic ကို Citizen များ ကိုယ်စားပြုသော Elected Official များနှင့် Senate က အုပ်ချုပ်ခဲ့ပြီး Empire ကို Supreme Power ကိုင်စွဲထားသော Emperor တစ်ဦးတည်းက အုပ်ချုပ်ခဲ့သည်",
+            "Republic နှင့် Empire ကို ကွာခြားချက် လုံးဝ မရှိဘဲ အတိအကျ နည်းလမ်းတူတူ အုပ်ချုပ်ခဲ့ခြင်း",
+            "Empire တွင် Ruler မည်သည်မှ မရှိဘဲ Republic ကို Emperor တစ်ဦးတည်းက အုပ်ချုပ်ခဲ့ခြင်း",
+            "Republic ကို Emperor တစ်ဦးတည်းက အုပ်ချုပ်ခဲ့ပြီး Empire တွင် ဗဟို ခေါင်းဆောင် မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mirrors Week 9's Athens comparison -- the Republic distributed power among elected officials, while the Empire concentrated it in one ruler.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 9 ၏ အေသင် နှိုင်းယှဉ်ချက်ကို ထပ်လောင်းသည် -- Republic သည် Elected Official များကြား Power ဖြန့်ဝေခဲ့ပြီး Empire သည် ၎င်းကို Ruler တစ်ဦးတည်းတွင် စုစည်းခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians treat the transition from Republic to Empire as a gradual process caused by multiple factors (such as political instability, civil wars, and growing inequality), rather than a single sudden event with one cause?",
+          questionMy:
+              "Republic မှ Empire သို့ ကူးပြောင်းမှုကို Historian များသည် Cause တစ်ခုတည်းပါသော ရုတ်တရက် Event တစ်ခုအစား Political Instability, Civil War များနှင့် တိုးပွားလာသော Inequality ကဲ့သို့ Factor များစွာက ဖြစ်ပေါ်စေသော ဖြည်းညင်းသော Process တစ်ခုအဖြစ် အဘယ်ကြောင့် သဘောထားကြသနည်း။",
+          optionsEn: [
+            "Major political shifts are rarely caused by just one factor, and weighing multiple contributing causes gives a more accurate picture than picking a single simple trigger",
+            "The transition from Republic to Empire happened in a single day with no gradual process at all",
+            "Political instability and civil wars had no actual connection to the Republic's collapse",
+            "Multiple causes should always be reduced to a single simple cause for clarity",
+          ],
+          optionsMy: [
+            "Political Shift အကြီးအကျယ်များသည် Factor တစ်ခုတည်းကြောင့် ဖြစ်ရခြင်း ရှားပါးပြီး Contributing Cause များစွာကို ချိန်ဆခြင်းသည် Single Simple Trigger တစ်ခု ရွေးချယ်ခြင်းထက် ပို၍ တိကျသော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Republic မှ Empire သို့ ကူးပြောင်းမှုသည် ဖြည်းညင်းသော Process မည်သည်မှ မပါဘဲ တစ်ရက်တည်းတွင် ဖြစ်ပျက်ခဲ့ခြင်း",
+            "Political Instability နှင့် Civil War များသည် Republic ၏ ပြိုလဲမှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Cause များစွာကို ရှင်းလင်းမှုအတွက် Single Simple Cause တစ်ခုအဖြစ် အမြဲ လျှော့ချသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same 'weigh multiple factors rather than one cause' habit you have practiced since Term 1 -- applied now to a political transition rather than a settlement or civilization.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ ကျင့်သုံးခဲ့သော 'Cause တစ်ခုတည်းအစား Factor များစွာ ချိန်ဆခြင်း' Habit အတိအကျ ဖြစ်ပြီး Settlement (သို့) Civilization တစ်ခုအစား Political Transition တစ်ခုပေါ်တွင် ယခု အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim like 'Julius Caesar single-handedly destroyed the Roman Republic' be treated with caution, even though Caesar was clearly a major figure in the transition?",
+          questionMy:
+              "Caesar သည် ကူးပြောင်းမှုတွင် ထင်ရှားသော ပုဂ္ဂိုလ်ကြီးတစ်ဦး ရှင်းရှင်းလင်းလင်း ဖြစ်ခဲ့သော်လည်း 'Julius Caesar တစ်ဦးတည်းက Roman Republic ကို ဖျက်ဆီးခဲ့သည်' ကဲ့သို့ Claim တစ်ခုကို အဘယ်ကြောင့် သတိထား ကိုင်တွယ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Crediting or blaming one individual entirely for a large historical change overlooks the broader political and social factors that made the change possible in the first place",
+            "Julius Caesar had no actual role in the Republic's transition to Empire",
+            "Individual leaders never have any influence on major historical changes",
+            "This claim is completely accurate and requires no caution whatsoever",
+          ],
+          optionsMy: [
+            "ကြီးမားသော သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုတစ်ခုအတွက် ပုဂ္ဂိုလ်တစ်ဦးတည်းကို လုံးလုံး Credit ပေး (သို့) အပြစ်တင်ခြင်းသည် ပြောင်းလဲမှုကို ပထမဦးဆုံး ဖြစ်နိုင်စေခဲ့သော ပို၍ ကျယ်ပြန့်သော နိုင်ငံရေးနှင့် လူမှုရေး Factor များကို လျစ်လျူရှုသည်",
+            "Republic ၏ Empire သို့ ကူးပြောင်းမှုတွင် Julius Caesar မည်သည့် Role မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "ပုဂ္ဂိုလ်ရေး ခေါင်းဆောင်များသည် ကြီးမားသော သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုများအပေါ် Influence မည်သည်မှ ဘယ်တော့မှ မရှိခြင်း",
+            "ဤ Claim သည် လုံးလုံး တိကျပြီး သတိထားမှု မည်သည်မှ လုံးဝ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to the same historical-determinism caution you will build on further at IGCSE level -- major change usually has structural causes beyond any single individual.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား IGCSE အဆင့်တွင် ပို၍ တည်ဆောက်မည့် Historical-Determinism သတိပေးချက် တူတူနှင့် ချိတ်ဆက်သည် -- ကြီးမားသော ပြောင်းလဲမှုသည် ယေဘုယျအားဖြင့် ပုဂ္ဂိုလ်တစ်ဦးတည်း ကျော်လွန်၍ Structural Cause များ ရှိတတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Roman Government Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Roman Government Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w10-dm-1",
+          termEn: "Republic",
+          termMy: "Republic",
+          matchEn:
+              "A government where elected officials and a senate represent citizens",
+          matchMy:
+              "Elected Official များနှင့် Senate က Citizen များကို ကိုယ်စားပြုသော Government",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w10-dm-2",
+          termEn: "Senate",
+          termMy: "Senate",
+          matchEn:
+              "A council of Roman officials who advised and made key decisions",
+          matchMy:
+              "အကြံပေးပြီး အဓိက ဆုံးဖြတ်ချက်များ ချမှတ်ခဲ့သော ရောမ Official များ၏ Council",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w10-dm-3",
+          termEn: "Emperor",
+          termMy: "Emperor",
+          matchEn: "A single ruler holding supreme power over the Roman Empire",
+          matchMy:
+              "Roman Empire အပေါ် Supreme Power ကိုင်စွဲထားသော Ruler တစ်ဦးတည်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w10-dm-4",
+          termEn: "Civil war",
+          termMy: "Civil War",
+          matchEn:
+              "Armed conflict between groups within the same state, one factor in Rome's transition",
+          matchMy:
+              "ရောမ၏ ကူးပြောင်းမှု၏ Factor တစ်ခုဖြစ်သော နိုင်ငံတစ်ခုတည်းအတွင်း အုပ်စုများကြား လက်နက်ကိုင် ပဋိပက္ခ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Republic Feature or Empire Feature?",
+      titleMy: "စီစစ်ကြမည် - Republic Feature (သို့) Empire Feature",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Republic Feature", "Empire Feature"],
+        bucketsMy: ["Republic Feature", "Empire Feature"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w10-sort-1",
+            labelEn: "Power distributed among elected officials and a senate",
+            labelMy:
+                "Elected Official များနှင့် Senate ကြား ဖြန့်ဝေထားသော Power",
+            correctBucketEn: "Republic Feature",
+            correctBucketMy: "Republic Feature",
+          ),
+          SortingItem(
+            id: "sec1hum-w10-sort-2",
+            labelEn: "Supreme power held by a single ruler",
+            labelMy: "Ruler တစ်ဦးတည်း ကိုင်စွဲထားသော Supreme Power",
+            correctBucketEn: "Empire Feature",
+            correctBucketMy: "Empire Feature",
+          ),
+          SortingItem(
+            id: "sec1hum-w10-sort-3",
+            labelEn:
+                "Officials elected for limited terms rather than ruling for life",
+            labelMy:
+                "တစ်သက်တာ အုပ်ချုပ်မည့်အစား ကန့်သတ် သက်တမ်းအတွက် Elect ခံထားသော Official များ",
+            correctBucketEn: "Republic Feature",
+            correctBucketMy: "Republic Feature",
+          ),
+          SortingItem(
+            id: "sec1hum-w10-sort-4",
+            labelEn:
+                "Authority concentrated in one individual who often ruled until death",
+            labelMy:
+                "မကြာခဏ သေဆုံးသည်အထိ အုပ်ချုပ်ခဲ့သော ပုဂ္ဂိုလ်တစ်ဦးတည်းတွင် စုစည်းထားသော Authority",
+            correctBucketEn: "Empire Feature",
+            correctBucketMy: "Empire Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thandar's Causation Web",
+      titleMy: "စာဖတ်ခြင်း - Thandar ၏ Causation Web",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thandar's Causation Web",
+        titleMy: "Thandar ၏ Causation Web",
+        passageEn:
+            "For Week 10's assignment, Thandar was asked to explain why the Roman Republic transitioned into the Roman Empire. Her first draft stated simply: 'Julius Caesar destroyed the Republic and made himself dictator, which led to the Empire.'\n\nHer teacher asked her to draw a causation web instead of a single-line explanation -- placing the transition in the center and connecting every contributing factor she could find around it, exactly the multi-factor thinking Thandar had practiced since Term 1's foundations.\n\nHer web ended up with several connected factors: decades of political instability as the Republic's institutions struggled to govern an empire that had grown far beyond a single city; a series of civil wars between rival generals competing for power; growing inequality between wealthy elites and ordinary citizens, which fueled unrest; and finally, the actions of individual figures like Julius Caesar and later his adopted heir Octavian (who became the first emperor, Augustus), who took advantage of this instability rather than single-handedly creating it.\n\nHer revised written conclusion stated that Caesar's actions were a significant accelerating factor within a much longer process of structural strain, not the sole cause of the Republic's end. Her teacher praised the web method specifically: seeing all the connected factors at once, she said, made it far harder to fall back into the simple 'one person did it' story that Thandar's first draft had reached for.",
+        passageMy:
+            "Week 10 ၏ Assignment အတွက် Roman Republic သည် Roman Empire သို့ ဘာကြောင့် ကူးပြောင်းခဲ့သည်ကို ရှင်းပြရန် Thandar အား တောင်းဆိုခဲ့သည်။ ၎င်း၏ ပထမ Draft တွင် ရိုးရိုး ဖော်ပြခဲ့သည် - 'Julius Caesar သည် Republic ကို ဖျက်ဆီးပြီး ကိုယ်တိုင် Dictator ဖြစ်လာခဲ့ကာ Empire သို့ ဦးတည်စေခဲ့သည်။'\n\nSingle-Line Explanation တစ်ခုအစား Causation Web တစ်ခု ဆွဲရန် ၎င်း၏ ဆရာမ ၎င်းအား တောင်းဆိုခဲ့သည် -- Term 1 ၏ Foundation များမှစ၍ Thandar ကျင့်သုံးခဲ့သော Multi-Factor Thinking အတိအကျဖြင့် ကူးပြောင်းမှုကို အလယ်တွင် ထားပြီး ၎င်း ရှာဖွေတွေ့ရှိနိုင်သော Contributing Factor တိုင်းကို ၎င်းပတ်လည်တွင် ချိတ်ဆက်ခြင်း။\n\n၎င်း၏ Web တွင် ချိတ်ဆက်ထားသော Factor များစွာ ရှိလာခဲ့သည် - မြို့တစ်ခုတည်းကို များစွာ ကျော်လွန်ကြီးထွားလာသော Empire တစ်ခုကို Republic ၏ Institution များ အုပ်ချုပ်ရန် ရုန်းကန်ခဲ့သော ဆယ်စုနှစ်များစွာ Political Instability; Power အတွက် ယှဉ်ပြိုင်နေသော General ယှဉ်ပြိုင်များကြား Civil War များ Series; Unrest ကို လောင်စာဖြည့်ပေးခဲ့သော ချမ်းသာသော Elite များနှင့် သာမန် Citizen များကြား တိုးပွားလာသော Inequality; နောက်ဆုံးတွင် ဤ Instability ကို ကိုယ်တိုင် ဖန်တီးခဲ့ခြင်းအစား အခွင့်ကောင်း ယူခဲ့သော Julius Caesar နှင့် ၎င်းနောက်ပိုင်း ၎င်း၏ Adopted Heir Octavian (ပထမဆုံး Emperor Augustus ဖြစ်လာခဲ့သူ) ကဲ့သို့ ပုဂ္ဂိုလ်ရေး ပုံရိပ်များ၏ လုပ်ဆောင်ချက်များ။\n\n Caesar ၏ လုပ်ဆောင်ချက်များသည် Republic ၏ အဆုံးသတ်၏ Sole Cause မဟုတ်ဘဲ Structural Strain ၏ ရှည်လျားစွာ ကြာမြင့်သော Process တစ်ခုအတွင်းရှိ Significant Accelerating Factor တစ်ခုသာ ဖြစ်ကြောင်း ၎င်း၏ ပြင်ဆင်ထားသော ရေးသား ကောက်ချက်တွင် ဖော်ပြခဲ့သည်။ Web Method ကို ၎င်း၏ ဆရာမ တိတိကျကျ ချီးမွမ်းခဲ့သည် - ချိတ်ဆက်ထားသော Factor များအားလုံးကို တစ်ပြိုင်နက် မြင်ခြင်းသည် Thandar ၏ ပထမ Draft ရောက်ရှိခဲ့သော ရိုးရှင်းသော 'လူတစ်ဦးတည်းက ပြုလုပ်ခဲ့သည်' ဇာတ်လမ်းသို့ ပြန်ကျဆင်းရန် များစွာ ခက်ခဲစေခဲ့ကြောင်း ၎င်း ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher ask Thandar to draw instead of a single-line explanation?",
+            questionMy:
+                "Single-Line Explanation တစ်ခုအစား Thandar ဆွဲရန် ဆရာမ တောင်းဆိုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A causation web connecting every contributing factor around the central transition",
+              "Nothing at all -- the single-line explanation was accepted as final",
+              "A simple map with no connection to causation of any kind",
+              "A timeline listing only the year of Caesar's death",
+            ],
+            optionsMy: [
+              "ဗဟို ကူးပြောင်းမှုပတ်လည်တွင် Contributing Factor တိုင်းကို ချိတ်ဆက်ထားသော Causation Web တစ်ခု",
+              "ဘာမှ မဟုတ်ခြင်း -- Single-Line Explanation ကို နောက်ဆုံးအဖြစ် လက်ခံခဲ့ခြင်း",
+              "Causation မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိသော ရိုးရှင်းသော Map တစ်ခု",
+              "Caesar ကွယ်လွန်သည့်နှစ်ကိုသာ စာရင်းပြုစုထားသော Timeline တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's teacher's request."],
+            hintsMy: ["ဆရာမ၏ တောင်းဆိုချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which four types of factors did Thandar's web include?",
+            questionMy:
+                "Thandar ၏ Web ပါဝင်ခဲ့သော Factor အမျိုးအစား လေးမျိုးကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Political instability, civil wars, growing inequality, and individual figures' actions",
+              "No factors of any kind were included in the web whatsoever",
+              "Only weather patterns with no connection to politics",
+              "A single factor repeated four times with no variation",
+            ],
+            optionsMy: [
+              "Political Instability, Civil War များ, တိုးပွားလာသော Inequality နှင့် ပုဂ္ဂိုလ်ရေး ပုံရိပ်များ၏ လုပ်ဆောင်ချက်",
+              "Factor မည်သည်ကိုမျှ Web တွင် လုံးဝ ထည့်သွင်းခြင်း မရှိခြင်း",
+              "နိုင်ငံရေးနှင့် ချိတ်ဆက်မှု မရှိသော ရာသီဥတု Pattern များသာ",
+              "အမျိုးအစားမတူ ထားခြင်းမပါဘဲ Factor တစ်ခုတည်းကို လေးကြိမ် ထပ်ခါထပ်ခါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's listed factors."],
+            hintsMy: [
+              "စာရင်းပြုစုထားသော Factor များကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did Thandar's revised conclusion characterize Caesar's role?",
+            questionMy:
+                "Caesar ၏ Role ကို Thandar ၏ ပြင်ဆင်ထားသော ကောက်ချက် မည်သို့ ဖော်ပြခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A significant accelerating factor within a longer process, not the sole cause",
+              "The sole and only cause of the Republic's end with no other factors",
+              "A figure with no actual role in the transition whatsoever",
+              "Someone who had no connection to Rome's political history",
+            ],
+            optionsMy: [
+              "ရှည်လျားသော Process တစ်ခုအတွင်းရှိ Significant Accelerating Factor တစ်ခု၊ Sole Cause မဟုတ်ခြင်း",
+              "အခြား Factor မပါဘဲ Republic ၏ အဆုံးသတ်၏ Sole and Only Cause",
+              "ကူးပြောင်းမှုတွင် Role မည်သည်မှ အမှန်တကယ် မရှိသော ပုံရိပ်တစ်ခု",
+              "ရောမ နိုင်ငံရေး သမိုင်းနှင့် ချိတ်ဆက်မှု မရှိသူတစ်ဦး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated characterization."],
+            hintsMy: [
+              "ဖော်ပြထားသော Characterization ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w10-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Republic to Empire Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Republic to Empire မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The key difference between the Republic and Empire is...",
+          questionMy: "Republic နှင့် Empire ကြား အဓိက ကွာခြားချက်မှာ ...",
+          optionsEn: [
+            "Elected officials vs. a single ruler with supreme power",
+            "No actual difference between the two systems",
+            "The Empire had no ruler at all",
+            "The Republic was ruled by one emperor",
+          ],
+          optionsMy: [
+            "Elected Official များ Vs. Supreme Power ရှိသော Ruler တစ်ဦးတည်း",
+            "System နှစ်ခုကြား ကွာခြားချက် အမှန်တကယ် မရှိခြင်း",
+            "Empire တွင် Ruler လုံးဝ မရှိခြင်း",
+            "Republic ကို Emperor တစ်ဦးတည်းက အုပ်ချုပ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Historians treat the transition from Republic to Empire as...",
+          questionMy:
+              "Republic မှ Empire သို့ ကူးပြောင်းမှုကို Historian များသည် ...အဖြစ် သဘောထားကြသည်",
+          optionsEn: [
+            "A gradual process caused by multiple factors",
+            "A single sudden event with one clear cause",
+            "Something with no cause of any kind",
+            "An event that never actually happened",
+          ],
+          optionsMy: [
+            "Factor များစွာက ဖြစ်ပေါ်စေသော ဖြည်းညင်းသော Process တစ်ခု",
+            "ရှင်းလင်းသော Cause တစ်ခုတည်းပါသော ရုတ်တရက် Event တစ်ခု",
+            "Cause မည်သည်မှ မပါသော အရာတစ်ခု",
+            "အမှန်တကယ် ဘယ်တော့မှ မဖြစ်ပျက်ခဲ့သော Event တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Crediting one individual entirely for a major historical change...",
+          questionMy:
+              "ကြီးမားသော သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုတစ်ခုအတွက် ပုဂ္ဂိုလ်တစ်ဦးတည်းကို လုံးလုံး Credit ပေးခြင်းသည် ...",
+          optionsEn: [
+            "Overlooks the broader structural factors that made the change possible",
+            "Always gives the most accurate historical explanation",
+            "Is the only correct way to explain historical change",
+            "Has no actual bearing on historical accuracy",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲမှုကို ဖြစ်နိုင်စေခဲ့သော ပို၍ ကျယ်ပြန့်သော Structural Factor များကို လျစ်လျူရှုသည်",
+            "အတိကျဆုံး သမိုင်းဆိုင်ရာ Explanation ကို အမြဲ ပေးအပ်သည်",
+            "သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ရှင်းပြရန် တစ်ခုတည်းသော မှန်ကန်သော နည်းလမ်း ဖြစ်သည်",
+            "သမိုင်းဆိုင်ရာ တိကျမှုအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 3, Week 11: "Legacies of Greece and
+// Rome"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek11 = CourseWeekDef(
+  id: "course-sec1-hum-w11",
+  weekNumber: 11,
+  titleEn: "Legacies of Greece and Rome",
+  titleMy: "ဂရိနှင့် ရောမ၏ အမွေအနှစ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w11-d1",
+      dayNumber: 1,
+      titleEn: "Tracing Ideas from Ancient to Modern",
+      titleMy: "ရှေးဟောင်းမှ ခေတ်သစ်သို့ Idea များ ခြေရာခံခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should students verify that a specific modern institution actually traces back to Greece or Rome, rather than assuming any old-sounding idea must have Greek or Roman origins?",
+          questionMy:
+              "ရှေးဟောင်းကဲ့သို့ ထင်ရသော Idea မည်သည်မဆို ဂရိ (သို့) ရောမ ဇာစ်မြစ် ရှိရမည်ဟု ယူဆမည့်အစား ခေတ်သစ် Institution တိကျတစ်ခု ဂရိ (သို့) ရောမသို့ အမှန်တကယ် ခြေရာခံသည်ကို ကျောင်းသားများ အဘယ်ကြောင့် စစ်ဆေး အတည်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "A claimed legacy should be supported by actual evidence of continuity or documented influence, not simply assumed because something sounds old or classical",
+            "Every old-sounding idea automatically originated in ancient Greece or Rome with no need for verification",
+            "Legacy claims never need any evidence and can always be assumed true",
+            "Verifying historical claims has no actual value in studying legacies",
+          ],
+          optionsMy: [
+            "Claim ပြုလုပ်ထားသော Legacy တစ်ခုသည် တစ်ခုခု ဟောင်းနွမ်း (သို့) Classical ကဲ့သို့ ထင်ရသောကြောင့် ရိုးရိုး ယူဆမည့်အစား Continuity (သို့) Document ပြုလုပ်ထားသော Influence ၏ Actual Evidence က ထောက်ခံသင့်သည်",
+            "ဟောင်းနွမ်းကဲ့သို့ ထင်ရသော Idea တိုင်းသည် စစ်ဆေး အတည်ပြုရန် မလိုအပ်ဘဲ ရှေးဟောင်း ဂရိ (သို့) ရောမတွင် အလိုအလျောက် ဇာစ်မြစ်ရှိခဲ့ခြင်း",
+            "Legacy Claim များသည် Evidence မည်သည်မှ ဘယ်တော့မှ မလိုအပ်ဘဲ မှန်ကန်သည်ဟု အမြဲ ယူဆနိုင်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Claim များ အတည်ပြုခြင်းသည် Legacy များ လေ့လာရာတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same evidence-before-claim habit from Term 1's very first lesson -- 'sounds plausible' is not the same as 'is documented'.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ ပထမဆုံး သင်ခန်းစာမှ Evidence-Before-Claim Habit တူတူ ဖြစ်သည် -- 'ဖြစ်နိုင်ချေရှိသည်ဟု ထင်ရသည်' ဆိုသည်မှာ 'Document ပြုလုပ်ထားသည်' နှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is Roman law's influence on many modern legal systems considered a genuine legacy, while the exact form of ancient Roman law was very different from any modern legal code?",
+          questionMy:
+              "ရှေးဟောင်း Roman ဥပဒေ၏ အတိအကျ ပုံစံသည် ခေတ်သစ် ဥပဒေအညွှန်း မည်သည်နှင့်မျှ များစွာ ကွဲပြားသော်လည်း ခေတ်သစ် ဥပဒေ System များစွာအပေါ် Roman ဥပဒေ၏ Influence ကို စစ်မှန်သော Legacy တစ်ခုအဖြစ် သဘောထားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A legacy means the underlying principles or influence carried forward and shaped later systems, not that the exact original form remained unchanged",
+            "A legacy requires the exact original form to remain completely unchanged over time",
+            "Roman law had no actual influence on any modern legal system whatsoever",
+            "Legacy and exact continuity mean precisely the same thing with no distinction",
+          ],
+          optionsMy: [
+            "Legacy ဆိုသည်မှာ Original ပုံစံအတိအကျ မပြောင်းလဲဘဲ ကျန်ရှိနေခြင်း မဟုတ်ဘဲ Underlying Principle (သို့) Influence ဆက်လက် သယ်ဆောင်ကာ နောက်ပိုင်း System များကို ပုံဖော်ခဲ့ခြင်း ဆိုလိုသည်",
+            "Legacy တစ်ခုသည် Original ပုံစံအတိအကျ အချိန်တစ်လျှောက် လုံးလုံး မပြောင်းလဲဘဲ ကျန်ရှိနေရန် လိုအပ်သည်",
+            "Roman ဥပဒေသည် ခေတ်သစ် ဥပဒေ System မည်သည်ကိုမျှ Influence အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "Legacy နှင့် Exact Continuity သည် ခွဲခြားချက် မရှိဘဲ အနက်ကျယ် တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of it like a family resemblance -- a grandchild can carry forward a grandparent's influence without being identical to them.",
+          ],
+          hintsMy: [
+            "မိသားစု ဆင်တူမှုတစ်ခုကဲ့သို့ စဉ်းစားပါ -- မြေးတစ်ဦးသည် အဖွား/အဘိုးနှင့် တူညီစွာ ရှိစရာမလိုဘဲ ၎င်းတို့၏ Influence ကို ဆက်လက် သယ်ဆောင်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students be careful when a source claims that a modern institution's entire structure was 'directly copied' from a Greek or Roman model, rather than developed through a more complex process?",
+          questionMy:
+              "ခေတ်သစ် Institution တစ်ခု၏ Structure တစ်ခုလုံးကို ရှုပ်ထွေးသော Process တစ်ခုမှတစ်ဆင့် ဖွံ့ဖြိုးလာသည့်အစား ဂရိ (သို့) ရောမ Model တစ်ခုမှ 'တိုက်ရိုက် ကူးယူခဲ့သည်' ဟု Source တစ်ခုက Claim ပြုလုပ်သောအခါ ကျောင်းသားများ အဘယ်ကြောင့် သတိထားသင့်ရသနည်း။",
+          optionsEn: [
+            "Institutional development is usually influenced by many sources over time, and 'directly copied' oversimplifies a more layered, complex process of influence and adaptation",
+            "Modern institutions are always directly copied from ancient models with no adaptation whatsoever",
+            "Claims about institutional origins should never be questioned or checked",
+            "Institutions have no actual connection to any historical influence at all",
+          ],
+          optionsMy: [
+            "Institutional ဖွံ့ဖြိုးတိုးတက်မှုသည် ယေဘုယျအားဖြင့် အချိန်ကြာမြင့်စွာ Source များစွာက Influence ရှိတတ်ပြီး 'တိုက်ရိုက် ကူးယူခဲ့သည်' ဆိုသည်မှာ Influence နှင့် Adaptation ၏ ပို၍ Layered, ရှုပ်ထွေးသော Process တစ်ခုကို Oversimplify ပြုလုပ်သည်",
+            "ခေတ်သစ် Institution များသည် Adaptation မည်သည်မှ မပါဘဲ ရှေးဟောင်း Model များမှ အမြဲ တိုက်ရိုက် ကူးယူခဲ့ခြင်း",
+            "Institutional Origin များအကြောင်း Claim များကို ဘယ်တော့မှ မေးခွန်း (သို့) စစ်ဆေးမှု မပြုလုပ်သင့်ခြင်း",
+            "Institution များသည် သမိုင်းဆိုင်ရာ Influence မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'weigh multiple factors, avoid a single simple story' habit from Week 10's causation web, applied now to institutional legacy claims.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Institutional Legacy Claim များပေါ်တွင် ယခု အသုံးချထားသော Week 10 ၏ Causation Web မှ 'Factor များစွာ ချိန်ဆပြီး Single Simple Story ရှောင်ရှားခြင်း' Habit တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Greek and Roman Legacy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဂရိနှင့် ရောမ Legacy Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w11-dm-1",
+          termEn: "Legacy",
+          termMy: "Legacy",
+          matchEn:
+              "An influence or principle that carried forward into later periods, even if the original form changed",
+          matchMy:
+              "Original ပုံစံ ပြောင်းလဲသွားသော်လည်း နောက်ပိုင်း ကာလများသို့ ဆက်လက် သယ်ဆောင်ခဲ့သော Influence (သို့) Principle",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w11-dm-2",
+          termEn: "Philosophy",
+          termMy: "Philosophy",
+          matchEn:
+              "Systematic thinking about knowledge, ethics, and existence, developed extensively in Greece",
+          matchMy:
+              "ဂရိတွင် ကျယ်ပြန့်စွာ ဖွံ့ဖြိုးခဲ့သော Knowledge, Ethics နှင့် Existence အကြောင်း Systematic Thinking",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w11-dm-3",
+          termEn: "Roman law",
+          termMy: "Roman Law",
+          matchEn:
+              "A legal system whose principles influenced many later legal codes",
+          matchMy:
+              "၎င်း၏ Principle များက နောက်ပိုင်း ဥပဒေအညွှန်း အများအပြားကို Influence ပြုစေခဲ့သော ဥပဒေ System",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w11-dm-4",
+          termEn: "Adaptation",
+          termMy: "Adaptation",
+          matchEn:
+              "The way an idea changes and evolves as it is carried forward, rather than being copied unchanged",
+          matchMy:
+              "မပြောင်းလဲဘဲ ကူးယူခြင်းအစား Idea တစ်ခု ဆက်လက် သယ်ဆောင်ရာတွင် ပြောင်းလဲပြီး ဖွံ့ဖြိုးလာပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Verified Legacy Claim or Overclaimed?",
+      titleMy: "စီစစ်ကြမည် - Verified Legacy Claim (သို့) Overclaimed",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Verified Legacy Claim", "Overclaimed Legacy"],
+        bucketsMy: ["Verified Legacy Claim", "Overclaimed Legacy"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w11-sort-1",
+            labelEn:
+                "Roman legal principles documented as influencing later European legal codes",
+            labelMy:
+                "နောက်ပိုင်း ဥရောပ ဥပဒေအညွှန်းများကို Influence ပြုစေခဲ့ကြောင်း Document ပြုလုပ်ထားသော Roman ဥပဒေ Principle များ",
+            correctBucketEn: "Verified Legacy Claim",
+            correctBucketMy: "Verified Legacy Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w11-sort-2",
+            labelEn:
+                "Assuming any old building style must be a direct, unchanged copy of a Greek temple",
+            labelMy:
+                "ဟောင်းနွမ်းသော အဆောက်အအုံ Style မည်သည်မဆို ဂရိ ဘုရားကျောင်းတစ်ခု၏ Direct, မပြောင်းလဲသော ကူးယူချက် ဖြစ်ရမည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Overclaimed Legacy",
+            correctBucketMy: "Overclaimed Legacy",
+          ),
+          SortingItem(
+            id: "sec1hum-w11-sort-3",
+            labelEn:
+                "Tracing how Greek philosophical questioning methods influenced later scholarly traditions",
+            labelMy:
+                "ဂရိ Philosophical Questioning Method များ နောက်ပိုင်း ပညာရှင် ဓလေ့များကို Influence ပြုစေခဲ့ပုံ ခြေရာခံခြင်း",
+            correctBucketEn: "Verified Legacy Claim",
+            correctBucketMy: "Verified Legacy Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w11-sort-4",
+            labelEn:
+                "Claiming a modern parliament was 'directly copied' from Rome with no supporting evidence",
+            labelMy:
+                "ထောက်ခံသော Evidence မပါဘဲ ခေတ်သစ် Parliament တစ်ခုကို ရောမမှ 'တိုက်ရိုက် ကူးယူခဲ့သည်' ဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Overclaimed Legacy",
+            correctBucketMy: "Overclaimed Legacy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Legacy Fact-Check",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Legacy Fact-Check",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Legacy Fact-Check",
+        titleMy: "Zayar Lin ၏ Legacy Fact-Check",
+        passageEn:
+            "For Week 11's project, Zayar Lin was asked to research three claimed legacies of Greece and Rome and verify each one before including it in his report.\n\nHis first claim -- that Greek philosophers developed methods of systematic questioning and logical argument that influenced later scholarly traditions -- checked out well against multiple sources, which documented specific philosophers and traced how their methods were referenced by later thinkers across centuries.\n\nHis second claim was less solid: an online source stated that a specific modern parliament building's design was 'a direct, unchanged copy' of a particular Roman structure. When Zayar Lin looked for supporting evidence, he found the building's architects had cited several different historical influences, only one of which was Roman, and had made substantial original design choices of their own. He revised the claim to say the building was 'influenced by, but not a direct copy of' Roman architectural style -- a more accurate, more modest statement.\n\nHis third claim concerned Roman law: he found strong documentation that core Roman legal principles, such as the presumption of innocence and the idea of a formal written legal code, had influenced many later legal systems, even though modern law looked very different in its exact form and procedure. His teacher praised the report's balance: two claims held up well with evidence, one claim needed correcting from overstatement to something more precise, and all three were now clearly grounded in what the evidence actually supported rather than what simply sounded impressive.",
+        passageMy:
+            "Week 11 ၏ Project အတွက် ဂရိနှင့် ရောမ၏ Claim ပြုလုပ်ထားသော Legacy သုံးခုကို Research ပြုလုပ်ရန်နှင့် ၎င်း၏ Report တွင် ထည့်သွင်းမီ တစ်ခုစီကို အတည်ပြုရန် Zayar Lin အား တောင်းဆိုခဲ့သည်။\n\n၎င်း၏ ပထမ Claim -- နောက်ပိုင်း ပညာရှင် ဓလေ့များကို Influence ပြုစေခဲ့သော Systematic Questioning နှင့် Logical Argument နည်းလမ်းများကို ဂရိ Philosopher များ ဖွံ့ဖြိုးခဲ့ခြင်း -- သည် Philosopher သီးခြားစီကို Document ပြုလုပ်ထားပြီး ၎င်းတို့၏ Method များကို ရာစုနှစ်များစွာတစ်လျှောက် နောက်ပိုင်း Thinker များ ရည်ညွှန်းပုံကို ခြေရာခံထားသော Source များစွာအပေါ် ကောင်းစွာ စစ်ဆေး အတည်ဖြစ်ခဲ့သည်။\n\n၎င်း၏ ဒုတိယ Claim မှာ ပို၍ Solid မဖြစ်ခဲ့ပါ - ခေတ်သစ် Parliament အဆောက်အအုံတစ်ခု၏ Design သည် တိကျသော Roman Structure တစ်ခု၏ 'Direct, မပြောင်းလဲသော ကူးယူချက်' ဖြစ်ကြောင်း Online Source တစ်ခု ဖော်ပြခဲ့သည်။ ထောက်ခံသော Evidence ကို Zayar Lin ရှာဖွေသောအခါ အဆောက်အအုံ၏ Architect များသည် ကွဲပြားသော သမိုင်းဆိုင်ရာ Influence များစွာကို ကိုးကားခဲ့ပြီး ၎င်းတို့ကိုယ်ပိုင် Original Design ရွေးချယ်မှုများစွာလည်း ပြုလုပ်ခဲ့ကြောင်း ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည်၊ ထိုအထဲမှ Roman ဟာ တစ်ခုသာ ဖြစ်သည်။ ဤ Claim ကို ပို၍ တိကျ၊ ပို၍ Modest ဖော်ပြချက်တစ်ခု ဖြစ်သော 'Roman Architectural Style ကြောင့် Influence ရှိသော်လည်း Direct Copy မဟုတ်' ဟု ၎င်း ပြင်ဆင်ခဲ့သည်။\n\n၎င်း၏ တတိယ Claim သည် Roman ဥပဒေနှင့် ပတ်သက်ခဲ့သည် - ခေတ်သစ် ဥပဒေသည် ၎င်း၏ အတိအကျ ပုံစံနှင့် Procedure တွင် များစွာ ကွဲပြားစွာ မြင်ရသော်လည်း Presumption of Innocence နှင့် Formal Written Legal Code Idea ကဲ့သို့ Core Roman ဥပဒေ Principle များသည် နောက်ပိုင်း ဥပဒေ System များစွာကို Influence ပြုစေခဲ့ကြောင်း ခိုင်မာသော Documentation ကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည်။ Report ၏ Balance ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် - Claim နှစ်ခုသည် Evidence ဖြင့် ကောင်းစွာ ရပ်တည်ခဲ့ပြီး Claim တစ်ခုသည် Overstatement မှ ပို၍ တိကျသော အရာတစ်ခုသို့ ပြင်ဆင်ရန် လိုအပ်ခဲ့ကာ သုံးခုစလုံးသည် ရိုးရိုး ထင်ရှားခဲ့သည့်အရာအစား Evidence က အမှန်တကယ် ထောက်ခံသည့်အရာတွင် ယခု ရှင်းလင်းစွာ အခြေခံလာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Zayar Lin's first claim about Greek philosophy fare?",
+            questionMy:
+                "ဂရိ Philosophy အကြောင်း Zayar Lin ၏ ပထမ Claim မည်သို့ ဖြစ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It checked out well against multiple sources documenting specific philosophers and their later influence",
+              "It failed completely and was removed entirely from the report",
+              "No sources of any kind could be found to check the claim",
+              "It was immediately proven completely false with no supporting evidence at all",
+            ],
+            optionsMy: [
+              "တိကျသော Philosopher များနှင့် ၎င်းတို့၏ နောက်ပိုင်း Influence ကို Document ပြုလုပ်ထားသော Source များစွာအပေါ် ကောင်းစွာ စစ်ဆေး အတည်ဖြစ်ခဲ့ခြင်း",
+              "လုံးလုံး ရှုံးနိမ့်ပြီး Report မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "Claim ကို စစ်ဆေးရန် Source မည်သည်ကိုမျှ ရှာမတွေ့ခဲ့ခြင်း",
+              "ထောက်ခံသော Evidence မည်သည်မှ လုံးဝ မပါဘဲ လုံးလုံး မှားယွင်းသည်ဟု ချက်ချင်း သက်သေပြခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's outcome for the first claim.",
+            ],
+            hintsMy: ["ပထမ Claim ၏ ရလဒ်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Zayar Lin revise his second claim about the parliament building?",
+            questionMy:
+                "Parliament အဆောက်အအုံအကြောင်း ၎င်း၏ ဒုတိယ Claim ကို Zayar Lin မည်သို့ ပြင်ဆင်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "From 'a direct, unchanged copy' to 'influenced by, but not a direct copy of' Roman style",
+              "He removed the claim entirely with no revision of any kind",
+              "He kept the original claim exactly as it was with no changes",
+              "He changed it to claim the building had no Roman influence whatsoever",
+            ],
+            optionsMy: [
+              "'Direct, မပြောင်းလဲသော ကူးယူချက်' မှ Roman Style 'ကြောင့် Influence ရှိသော်လည်း Direct Copy မဟုတ်' သို့",
+              "ပြင်ဆင်မှု မည်သည်မှ မပြုလုပ်ဘဲ Claim ကို လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "ပြောင်းလဲမှု မရှိဘဲ Original Claim ကို အတိအကျ ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "Building တွင် Roman Influence လုံးဝ မရှိကြောင်း Claim ပြုလုပ်ရန် ၎င်းကို ပြောင်းလဲခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပြင်ဆင်ချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise about the finished report?",
+            questionMy:
+                "ပြီးစီးသွားသော Report အကြောင်း ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "All three claims were now grounded in what the evidence actually supported, not what simply sounded impressive",
+              "All three claims were removed entirely from the final report",
+              "None of the claims had any actual evidence supporting them",
+              "The report contained no corrections or revisions of any kind",
+            ],
+            optionsMy: [
+              "ရိုးရိုး ထင်ရှားခဲ့သည့်အရာအစား Claim သုံးခုစလုံးသည် Evidence က အမှန်တကယ် ထောက်ခံသည့်အရာတွင် ယခု အခြေခံလာခဲ့ခြင်း",
+              "Claim သုံးခုစလုံးကို Final Report မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "Claim တစ်ခုမျှ ထောက်ခံသော Evidence အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "Report တွင် ပြင်ဆင်ချက် (သို့) Revision မည်သည်မှ မပါခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w11-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Greek and Roman Legacy Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - ဂရိနှင့် ရောမ Legacy မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A legacy claim should be supported by...",
+          questionMy: "Legacy Claim တစ်ခုကို ...ဖြင့် ထောက်ခံသင့်သည်",
+          optionsEn: [
+            "Actual evidence of continuity or documented influence",
+            "Simply sounding old or classical",
+            "No evidence of any kind whatsoever",
+            "Assumption alone with no checking",
+          ],
+          optionsMy: [
+            "Continuity (သို့) Document ပြုလုပ်ထားသော Influence ၏ Actual Evidence",
+            "ရိုးရိုး ဟောင်းနွမ်း (သို့) Classical ကဲ့သို့ ထင်ရခြင်း",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "စစ်ဆေးခြင်း မပါသော Assumption တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A genuine legacy means...",
+          questionMy: "စစ်မှန်သော Legacy တစ်ခုဆိုသည်မှာ ...",
+          optionsEn: [
+            "The underlying influence carried forward, even if the exact form changed",
+            "The exact original form remained completely unchanged",
+            "No connection between old and new systems at all",
+            "A claim that requires no evidence of any kind",
+          ],
+          optionsMy: [
+            "Underlying Influence ဆက်လက် သယ်ဆောင်ခဲ့ခြင်း၊ Exact ပုံစံ ပြောင်းလဲသွားသည့်တိုင်",
+            "Original ပုံစံအတိအကျ လုံးလုံး မပြောင်းလဲဘဲ ကျန်ရှိနေခြင်း",
+            "Old System များနှင့် New System များကြား ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "Evidence မည်သည်မှ မလိုအပ်သော Claim တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim that a modern institution was 'directly copied' from an ancient model should be...",
+          questionMy:
+              "ခေတ်သစ် Institution တစ်ခုကို ရှေးဟောင်း Model တစ်ခုမှ 'တိုက်ရိုက် ကူးယူခဲ့သည်' ဟု Claim တစ်ခုကို ...သင့်သည်",
+          optionsEn: [
+            "Checked carefully rather than automatically accepted",
+            "Automatically accepted with no verification",
+            "Ignored entirely with no consideration",
+            "Assumed true simply because it sounds impressive",
+          ],
+          optionsMy: [
+            "အလိုအလျောက် လက်ခံမည့်အစား ဂရုတစိုက် စစ်ဆေးသင့်သည်",
+            "Verification မရှိဘဲ အလိုအလျောက် လက်ခံသင့်သည်",
+            "စဉ်းစားမှု မပြုဘဲ လုံးလုံး လျစ်လျူရှုသင့်သည်",
+            "ရိုးရိုး ထင်ရှားသောကြောင့် မှန်ကန်သည်ဟု ယူဆသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 3, Week 12 (Capstone/Boss Week):
+// "The 'Greatest Civilization' Debate"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek12 = CourseWeekDef(
+  id: "course-sec1-hum-w12",
+  weekNumber: 12,
+  titleEn: "The 'Greatest Civilization' Debate",
+  titleMy: "'Greatest Civilization' အငြင်းအခုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w12-d1",
+      dayNumber: 1,
+      titleEn: "Debating a Flawed Question on Purpose",
+      titleMy:
+          "ချို့ယွင်းချက်ရှိသော မေးခွန်းတစ်ခုကို တမင်တကာ အငြင်းအခုံပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Given that Term 2 established ranking civilizations as simply 'best' oversimplifies genuine complexity, why can a structured debate on 'which ancient civilization was greatest' still be a valuable exercise, rather than a contradiction of that earlier lesson?",
+          questionMy:
+              "Civilization များကို ရိုးရိုး 'အကောင်းဆုံး' အဖြစ် Rank ပေးခြင်းသည် စစ်မှန်သော Complexity ကို Oversimplify ပြုလုပ်ကြောင်း Term 2 က တည်ထောင်ခဲ့သော်လည်း 'မည်သည့် ရှေးဟောင်း Civilization သည် အကောင်းဆုံး ဖြစ်သနည်း' ဆိုသည့်အပေါ် Structured Debate တစ်ခုသည် ထို အရင် သင်ခန်းစာနှင့် ဆန့်ကျင်မည့်အစား တန်ဖိုးရှိသော Exercise တစ်ခု ဆက်လက် ဖြစ်နေနိုင်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A debate can explicitly explore why the question itself is flawed -- forcing each side to define its own criteria for 'greatest' reveals that different reasonable criteria lead to different answers, which teaches the lesson rather than contradicting it",
+            "The debate proves Term 2's lesson was actually wrong and rankings are always valid",
+            "A debate has no actual educational value when the underlying question is flawed",
+            "Debating a flawed question always produces a single, objectively correct winner",
+          ],
+          optionsMy: [
+            "Debate တစ်ခုသည် မေးခွန်း ကိုယ်တိုင် ဘာကြောင့် ချို့ယွင်းသည်ကို ရှင်းလင်းစွာ စူးစမ်းနိုင်သည် -- ဘက်တစ်ဘက်စီအား 'အကောင်းဆုံး' အတွက် ၎င်းကိုယ်ပိုင် Criteria သတ်မှတ်စေခြင်းသည် ကွဲပြားသော Reasonable Criteria များသည် ကွဲပြားသော အဖြေများ ဦးတည်ကြောင်း ဖော်ထုတ်ပေးကာ ၎င်းသည် သင်ခန်းစာကို ဆန့်ကျင်မည့်အစား သင်ကြားပေးသည်",
+            "Term 2 ၏ သင်ခန်းစာသည် အမှန်တကယ် မှားယွင်းခဲ့ပြီး Ranking များသည် အမြဲ Valid ဖြစ်ကြောင်း Debate က သက်သေပြသည်",
+            "Underlying မေးခွန်းသည် ချို့ယွင်းသောအခါ Debate တစ်ခုသည် Educational Value အမှန်တကယ် မရှိခြင်း",
+            "ချို့ယွင်းချက်ရှိသော မေးခွန်းတစ်ခုကို Debate ပြုလုပ်ခြင်းသည် Objectively မှန်ကန်သော အနိုင်ရရှိသူတစ်ဦးတည်းကို အမြဲ ထုတ်လုပ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The point of this capstone is not to actually crown a 'winner' but to make visible, through debate, exactly why the question resists a single clean answer.",
+          ],
+          hintsMy: [
+            "ဤ Capstone ၏ ရည်ရွယ်ချက်မှာ 'အနိုင်ရရှိသူ' တစ်ဦးကို အမှန်တကယ် ဆုချရန် မဟုတ်ဘဲ မေးခွန်းသည် Single Clean Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို Debate မှတစ်ဆင့် မြင်သာစေရန် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should each debate team be required to explicitly state which criteria (such as 'political innovation', 'lasting legacy', or 'scale of achievement') they are using to judge 'greatness', rather than leaving the term undefined?",
+          questionMy:
+              "'Greatness' ကို အဓိပ္ပာယ်ဖွင့်ဆိုချက် မရှိဘဲ ချန်ထားမည့်အစား ('Political Innovation', 'Lasting Legacy', (သို့) 'Scale of Achievement' ကဲ့သို့) ၎င်းတို့ အသုံးပြုနေသော Criteria ကို ဖော်ပြရန် Debate Team တစ်ခုစီကို အဘယ်ကြောင့် တောင်းဆိုသင့်ရသနည်း။",
+          optionsEn: [
+            "Without stated criteria, a claim of 'greatest' is essentially meaningless -- defining criteria makes the argument checkable and reveals that reasonable people can disagree based on which criteria they value",
+            "Debate teams should never actually state any criteria for their arguments",
+            "The term 'greatness' has an obvious, universally agreed meaning that never needs defining",
+            "Stating criteria makes a debate weaker and less structured",
+          ],
+          optionsMy: [
+            "ဖော်ပြထားသော Criteria မပါဘဲ 'Greatest' Claim တစ်ခုသည် အနှစ်သာရအားဖြင့် အဓိပ္ပာယ်မရှိပါ -- Criteria သတ်မှတ်ခြင်းသည် Argument ကို စစ်ဆေးနိုင်စေကာ မည်သည့် Criteria ကို တန်ဖိုးထားသည်ပေါ် မူတည်ပြီး Reasonable လူများ သဘောကွဲလွဲနိုင်ကြောင်း ဖော်ထုတ်ပေးသည်",
+            "Debate Team များသည် ၎င်းတို့၏ Argument အတွက် Criteria မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မဖော်ပြသင့်ခြင်း",
+            "'Greatness' စကားလုံးသည် အဓိပ္ပာယ်ဖွင့်ဆိုရန် ဘယ်တော့မှ မလိုအပ်သော ထင်ရှား၊ ကမ္ဘာလုံးဆိုင်ရာ သဘောတူညီထားသော အဓိပ္ပာယ် ရှိခြင်း",
+            "Criteria ဖော်ပြခြင်းသည် Debate တစ်ခုကို ပို၍ အားနည်း၊ ပို၍ Structure နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 11's legacy-verification habit -- an unverifiable, undefined claim like 'greatest' with no stated standard cannot actually be checked by anyone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Legacy-Verification Habit နှင့် ချိတ်ဆက်သည် -- ဖော်ပြထားသော Standard မပါသော 'Greatest' ကဲ့သို့ Unverifiable, Undefined Claim တစ်ခုကို မည်သူမျှ အမှန်တကယ် စစ်ဆေး၍ မရနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the debate's final reflection focus on what the exercise revealed about comparison and evidence, rather than simply declaring an official winning civilization?",
+          questionMy:
+              "Debate ၏ Final Reflection သည် တရားဝင် အနိုင်ရရှိသော Civilization တစ်ခုကို ရိုးရိုး ကြေညာမည့်အစား Comparison နှင့် Evidence အကြောင်း Exercise ဖော်ထုတ်ပေးသည့်အရာအပေါ် အဘယ်ကြောင့် Focus ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "The educational value of the debate lies in practicing evidence-based argument and recognizing how criteria shape conclusions, not in producing a definitive, universally correct ranking",
+            "Declaring an official winner is always more educationally valuable than reflecting on the process",
+            "The debate should produce a single, permanently correct answer accepted by everyone",
+            "Reflection on the exercise itself has no actual educational value",
+          ],
+          optionsMy: [
+            "Debate ၏ Educational Value သည် Definitive, ကမ္ဘာလုံးဆိုင်ရာ မှန်ကန်သော Ranking တစ်ခု ထုတ်လုပ်ရာတွင် မဟုတ်ဘဲ Evidence-Based Argument ကျင့်သုံးခြင်းနှင့် Criteria က ကောက်ချက်များကို မည်သို့ ပုံဖော်သည်ကို အသိအမှတ်ပြုခြင်းတွင် တည်ရှိသည်",
+            "တရားဝင် အနိုင်ရရှိသူတစ်ဦး ကြေညာခြင်းသည် Process ပေါ် ပြန်လည်သုံးသပ်ခြင်းထက် Educational အားဖြင့် အမြဲ ပို၍ တန်ဖိုးရှိခြင်း",
+            "Debate သည် လူတိုင်း လက်ခံသော အမြဲထာဝရ မှန်ကန်သော အဖြေတစ်ခုတည်း ထုတ်လုပ်သင့်ခြင်း",
+            "Exercise ကိုယ်တိုင်ပေါ် Reflection သည် Educational Value အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This ties every skill from Term 1 through Term 3 together -- the value was always in the disciplined process of weighing evidence, not in reaching one final ranked answer.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှ Term 3 အထိ Skill တိုင်းကို အတူတကွ ချိတ်ဆက်သည် -- Value သည် Final Ranked Answer တစ်ခု ရရှိရာတွင် မဟုတ်ဘဲ Evidence ကို ချိန်ဆသော Disciplined Process တွင် အမြဲ ရှိခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Skills Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 3 Skills ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w12-dm-1",
+          termEn: "Stated criteria",
+          termMy: "Stated Criteria",
+          matchEn:
+              "A clearly defined standard used to judge a claim, making it checkable",
+          matchMy:
+              "Claim တစ်ခုကို စစ်ဆေးနိုင်စေရန် ရှင်းလင်းစွာ သတ်မှတ်ထားသော Standard",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w12-dm-2",
+          termEn: "Causation web",
+          termMy: "Causation Web",
+          matchEn:
+              "A diagram connecting multiple contributing factors around a central event",
+          matchMy:
+              "ဗဟို Event ပတ်လည်တွင် Contributing Factor များစွာကို ချိတ်ဆက်ထားသော Diagram",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w12-dm-3",
+          termEn: "Verified legacy",
+          termMy: "Verified Legacy",
+          matchEn:
+              "A claimed influence checked against actual supporting evidence",
+          matchMy:
+              "Actual ထောက်ခံသော Evidence နှင့် စစ်ဆေးထားသော Claim ပြုလုပ်ထားသော Influence",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w12-dm-4",
+          termEn: "Balanced judgement",
+          termMy: "Balanced Judgement",
+          matchEn:
+              "A conclusion that weighs multiple factors or criteria rather than picking one simple answer",
+          matchMy:
+              "Simple Answer တစ်ခုတည်းကို ရွေးချယ်မည့်အစား Factor (သို့) Criteria များစွာကို ချိန်ဆသော ကောက်ချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Reasoned Debate Point or Poorly-Reasoned?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းစွာ Reason ချထားသော Debate Point (သို့) ညံ့ဖျင်းစွာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Well-Reasoned Debate Point",
+          "Poorly-Reasoned Debate Point",
+        ],
+        bucketsMy: [
+          "ကောင်းစွာ Reason ချထားသော Debate Point",
+          "ညံ့ဖျင်းစွာ Reason ချထားသော Debate Point",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w12-sort-1",
+            labelEn:
+                "Defining 'greatest' as political innovation, then citing Athens's democracy as evidence",
+            labelMy:
+                "'Greatest' ကို Political Innovation အဖြစ် Define ပြုလုပ်ပြီးနောက် Evidence အဖြစ် အေသင်၏ ဒီမိုကရေစီကို ကိုးကားခြင်း",
+            correctBucketEn: "Well-Reasoned Debate Point",
+            correctBucketMy: "ကောင်းစွာ Reason ချထားသော Debate Point",
+          ),
+          SortingItem(
+            id: "sec1hum-w12-sort-2",
+            labelEn:
+                "Claiming a civilization was 'greatest' with no stated criteria or cited evidence",
+            labelMy:
+                "ဖော်ပြထားသော Criteria (သို့) ကိုးကားထားသော Evidence မပါဘဲ Civilization တစ်ခုသည် 'Greatest' ဖြစ်သည်ဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Poorly-Reasoned Debate Point",
+            correctBucketMy: "ညံ့ဖျင်းစွာ Reason ချထားသော Debate Point",
+          ),
+          SortingItem(
+            id: "sec1hum-w12-sort-3",
+            labelEn:
+                "Acknowledging that a rival team's criteria would reasonably favor a different civilization",
+            labelMy:
+                "ယှဉ်ပြိုင် Team တစ်ခု၏ Criteria သည် Civilization ကွဲပြားစွာကို Reasonably ဦးစားပေးမည်ကို အသိအမှတ်ပြုခြင်း",
+            correctBucketEn: "Well-Reasoned Debate Point",
+            correctBucketMy: "ကောင်းစွာ Reason ချထားသော Debate Point",
+          ),
+          SortingItem(
+            id: "sec1hum-w12-sort-4",
+            labelEn:
+                "Insisting there is only one obviously correct answer with no need to define terms",
+            labelMy:
+                "Term များ Define ပြုလုပ်ရန် မလိုအပ်ဘဲ ထင်ရှားသော မှန်ကန်သော အဖြေတစ်ခုတည်းသာ ရှိသည်ဟု ခိုင်မာစွာ ပြောဆိုခြင်း",
+            correctBucketEn: "Poorly-Reasoned Debate Point",
+            correctBucketMy: "ညံ့ဖျင်းစွာ Reason ချထားသော Debate Point",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Debate Reflection",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Debate Reflection",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Debate Reflection",
+        titleMy: "Su Myat Noe ၏ Debate Reflection",
+        passageEn:
+            "For Term 3's capstone, Nilar's class held a structured debate on the question 'which ancient civilization studied this year was the greatest?' Su Myat Noe was assigned to argue for Athens.\n\nBefore the debate began, the teacher required every team to state its criteria in writing. Su Myat Noe's team chose 'lasting political and philosophical influence' and built their argument around Athenian democracy and philosophy's documented impact on later thinkers -- directly applying Week 11's legacy-verification skill. The team assigned to Sparta chose 'social cohesion and military resilience' as its criteria, while the team assigned to Rome chose 'scale of organized governance and infrastructure'.\n\nDuring the debate, something became clear to Su Myat Noe: every team could construct a genuinely well-evidenced argument, because each was answering a slightly different question based on its own reasonable criteria. Athens looked strongest by one measure, Rome by another, and Sparta by a third. No team was using weak evidence -- they were simply measuring 'greatest' differently.\n\nIn her written reflection afterward, Su Myat Noe did not declare a winner. Instead, she explained that the debate had proven something more useful than any single ranking could: that a claim like 'greatest civilization' is only meaningful once its criteria are defined, and that reasonable people using different reasonable criteria can honestly reach different conclusions from the same set of facts. Her teacher called this exactly the right takeaway -- not a rejection of comparison, but a more careful, defensible way of doing it.",
+        passageMy:
+            "Term 3 ၏ Capstone အတွက် 'ဤနှစ် လေ့လာခဲ့သော ရှေးဟောင်း Civilization မည်သည် အကောင်းဆုံး ဖြစ်သနည်း' ဆိုသော မေးခွန်းအပေါ် Structured Debate တစ်ခုကို Nilar ၏ အတန်းသည် ပြုလုပ်ခဲ့သည်။ အေသင်ဘက်မှ ငြင်းခုံရန် Su Myat Noe အား တာဝန်ပေးခဲ့သည်။\n\nDebate မစတင်မီ ၎င်း၏ Criteria ကို စာဖြင့် ဖော်ပြရန် Team တိုင်းကို ဆရာမ တောင်းဆိုခဲ့သည်။ Su Myat Noe ၏ Team သည် 'Lasting Political and Philosophical Influence' ကို ရွေးချယ်ခဲ့ပြီး Week 11 ၏ Legacy-Verification Skill ကို တိုက်ရိုက် အသုံးချကာ Athenian ဒီမိုကရေစီနှင့် Philosophy ၏ Document ပြုလုပ်ထားသော နောက်ပိုင်း Thinker များအပေါ် Impact ပတ်လည်တွင် ၎င်းတို့၏ Argument တည်ဆောက်ခဲ့သည်။ စပါတာကို တာဝန်ပေးထားသော Team သည် 'Social Cohesion and Military Resilience' ကို ၎င်း၏ Criteria အဖြစ် ရွေးချယ်ခဲ့ပြီး ရောမကို တာဝန်ပေးထားသော Team သည် 'Scale of Organized Governance and Infrastructure' ကို ရွေးချယ်ခဲ့သည်။\n\nDebate အတွင်း Su Myat Noe အား ရှင်းလင်းစွာ ဖြစ်လာသောအရာတစ်ခု ရှိသည် - Team တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် Reasonable Criteria ပေါ် အခြေခံ၍ အနည်းငယ် ကွဲပြားသော မေးခွန်းကို ဖြေဆိုနေကြသောကြောင့် Team တိုင်းသည် စစ်မှန်စွာ Well-Evidenced Argument တစ်ခု တည်ဆောက်နိုင်ခဲ့သည်။ အေသင်သည် Measure တစ်ခုအလိုက် အခိုင်မာဆုံး ဖြစ်ခဲ့ပြီး ရောမသည် အခြားတစ်ခုအလိုက်၊ စပါတာသည် တတိယတစ်ခုအလိုက် ဖြစ်ခဲ့သည်။ Team မည်သည်မှ Evidence အားနည်းသည် အသုံးပြုခြင်း မရှိခဲ့ပါ -- ၎င်းတို့သည် ရိုးရိုး 'Greatest' ကို ကွဲပြားစွာ တိုင်းတာနေကြခြင်းသာ ဖြစ်သည်။\n\nနောက်ပိုင်း ၎င်း၏ ရေးသား Reflection တွင် Su Myat Noe သည် အနိုင်ရရှိသူတစ်ဦးကို မကြေညာခဲ့ပါ။ ယင်းအစား Single Ranking တစ်ခုတည်းက သက်သေပြနိုင်သည်ထက် ပို၍ အသုံးဝင်သောအရာတစ်ခုကို Debate က သက်သေပြခဲ့ကြောင်း ၎င်း ရှင်းပြခဲ့သည် - 'Greatest Civilization' ကဲ့သို့ Claim တစ်ခုသည် ၎င်း၏ Criteria သတ်မှတ်ပြီးမှသာ အဓိပ္ပာယ်ရှိကြောင်းနှင့် ကွဲပြားသော Reasonable Criteria အသုံးပြုသော Reasonable လူများသည် Fact အစုအဝေးတူတူမှ ကွဲပြားသော ကောက်ချက်များကို ရိုးသားစွာ ရောက်ရှိနိုင်ကြောင်း။ ဤသည်ကား အတိအကျ မှန်ကန်သော Takeaway ဖြစ်ကြောင်း ၎င်း၏ ဆရာမ ခေါ်ဆိုခဲ့သည် -- Comparison ငြင်းပယ်ခြင်း မဟုတ်ဘဲ ၎င်းကို ပြုလုပ်ရန် ပို၍ ဂရုတစိုက်၊ ကာကွယ်နိုင်သော နည်းလမ်းတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher require every team to do before the debate began?",
+            questionMy:
+                "Debate မစတင်မီ Team တိုင်းကို ဆရာမ ပြုလုပ်ရန် တောင်းဆိုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "State its criteria for 'greatest' in writing",
+              "Choose a random civilization with no assigned team",
+              "Avoid using any evidence in their arguments",
+              "Declare their winner before the debate started",
+            ],
+            optionsMy: [
+              "'Greatest' အတွက် ၎င်း၏ Criteria ကို စာဖြင့် ဖော်ပြရန်",
+              "Assign ပြုလုပ်ထားသော Team မပါဘဲ Civilization ကျပန်းတစ်ခု ရွေးချယ်ရန်",
+              "၎င်းတို့၏ Argument များတွင် Evidence မည်သည်ကိုမျှ အသုံးမပြုရန်",
+              "Debate မစတင်မီ ၎င်းတို့၏ အနိုင်ရရှိသူကို ကြေညာရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated requirement."],
+            hintsMy: [
+              "ဖော်ပြထားသော Requirement ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did every team produce a genuinely well-evidenced argument despite reaching different conclusions?",
+            questionMy:
+                "ကွဲပြားသော ကောက်ချက်များ ရောက်ရှိသော်လည်း Team တိုင်း စစ်မှန်စွာ Well-Evidenced Argument တစ်ခု ထုတ်လုပ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each team was answering a slightly different question based on its own reasonable criteria",
+              "One team used weak evidence while the others used no evidence at all",
+              "Every team happened to reach the exact same conclusion with no variation",
+              "The teams had no actual criteria and simply guessed randomly",
+            ],
+            optionsMy: [
+              "Team တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် Reasonable Criteria ပေါ် အခြေခံ၍ အနည်းငယ် ကွဲပြားသော မေးခွန်းကို ဖြေဆိုနေခဲ့ခြင်း",
+              "Team တစ်ခုသည် Evidence အားနည်းသည် အသုံးပြုခဲ့ပြီး အခြားများ Evidence လုံးဝ မသုံးခဲ့ခြင်း",
+              "Team တိုင်းသည် ကွဲပြားမှု မရှိဘဲ ကောက်ချက် အတိအကျ တူတူ ရောက်ရှိခဲ့ခြင်း",
+              "Team များတွင် Actual Criteria မရှိဘဲ ရိုးရိုး ကျပန်း ခန့်မှန်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းလင်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Myat Noe's reflection conclude the debate had proven?",
+            questionMy:
+                "Debate သက်သေပြခဲ့ကြောင်း Su Myat Noe ၏ Reflection ကောက်ချက်ချခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A claim like 'greatest' is only meaningful once its criteria are defined, and reasonable people can honestly disagree",
+              "Athens was objectively and permanently proven the greatest civilization",
+              "Comparison between civilizations should always be avoided entirely",
+              "The debate proved nothing of any educational value whatsoever",
+            ],
+            optionsMy: [
+              "'Greatest' ကဲ့သို့ Claim တစ်ခုသည် ၎င်း၏ Criteria သတ်မှတ်ပြီးမှသာ အဓိပ္ပာယ်ရှိပြီး Reasonable လူများသည် ရိုးသားစွာ သဘောကွဲလွဲနိုင်ကြောင်း",
+              "Objectively, ထာဝစဉ် အေသင်ကို Greatest Civilization အဖြစ် သက်သေပြခဲ့ကြောင်း",
+              "Civilization များကြား Comparison ကို အမြဲ လုံးလုံး ရှောင်ရှားသင့်ကြောင်း",
+              "Debate သည် Educational Value မည်သည်မှ လုံးဝ သက်သေမပြခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Greece and Rome Exam",
+      titleMy: "Term 3 Capstone - Greece and Rome စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A claim like 'greatest civilization' only becomes meaningful once...",
+          questionMy:
+              "'Greatest Civilization' ကဲ့သို့ Claim တစ်ခုသည် ...မှသာ အဓိပ္ပာယ်ရှိလာသည်",
+          optionsEn: [
+            "Its judging criteria are clearly defined",
+            "It is stated with maximum confidence",
+            "It is repeated by many different people",
+            "It sounds impressive to a listener",
+          ],
+          optionsMy: [
+            "၎င်း၏ Judging Criteria ရှင်းလင်းစွာ သတ်မှတ်ပြီးမှ",
+            "Maximum Confidence ဖြင့် ဖော်ပြထားမှ",
+            "လူများစွာက ထပ်ခါထပ်ခါ ပြောနေမှ",
+            "ဖတ်ရှုသူအား ထင်ရှားစွာ ကြားရမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Roman Republic transitioned to the Roman Empire due to...",
+          questionMy:
+              "Roman Republic သည် Roman Empire သို့ ...ကြောင့် ကူးပြောင်းခဲ့သည်",
+          optionsEn: [
+            "Multiple contributing factors, not a single simple cause",
+            "One single cause with no other factors involved",
+            "No cause of any kind at all",
+            "A cause completely unrelated to Roman politics",
+          ],
+          optionsMy: [
+            "Cause ရိုးရှင်းတစ်ခုတည်း မဟုတ်ဘဲ Contributing Factor များစွာ",
+            "အခြား Factor မပါဝင်ဘဲ Cause တစ်ခုတည်း",
+            "Cause မည်သည်မှ လုံးဝ",
+            "Roman နိုင်ငံရေးနှင့် လုံးဝ မသက်ဆိုင်သော Cause တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claimed legacy from Greece or Rome should always be...",
+          questionMy:
+              "ဂရိ (သို့) ရောမမှ Claim ပြုလုပ်ထားသော Legacy တစ်ခုသည် အမြဲ ...သင့်သည်",
+          optionsEn: [
+            "Checked against actual supporting evidence",
+            "Accepted automatically with no verification",
+            "Assumed true because it sounds classical",
+            "Ignored entirely regardless of evidence",
+          ],
+          optionsMy: [
+            "Actual ထောက်ခံသော Evidence နှင့် စစ်ဆေးသင့်သည်",
+            "Verification မရှိဘဲ အလိုအလျောက် လက်ခံသင့်သည်",
+            "Classical ကဲ့သို့ ထင်ရသောကြောင့် မှန်ကန်သည်ဟု ယူဆသင့်သည်",
+            "Evidence မည်သို့ပင်ရှိစေ လုံးလုံး လျစ်လျူရှုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 3: "Ancient Greece and Rome" (Weeks
+// 9-12)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm3 = CourseTermDef(
+  id: "course-sec1-hum-t3",
+  termNumber: 3,
+  titleEn: "Ancient Greece and Rome",
+  titleMy: "ရှေးဟောင်း ဂရိနှင့် ရောမ",
+  certificateTitleEn: "Ancient Greece and Rome",
+  certificateTitleMy: "ရှေးဟောင်း ဂရိနှင့် ရောမ",
+  weeks: [_sec1HumWeek9, _sec1HumWeek10, _sec1HumWeek11, _sec1HumWeek12],
 );
 // __SEC_HUM_MARKER__
