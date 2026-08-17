@@ -90683,11 +90683,11 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseHumTerm1, _igcseHumTerm2, _igcseHumTerm3],
+  terms: [_igcseHumTerm1, _igcseHumTerm2, _igcseHumTerm3, _igcseHumTerm4],
 );
 // =====================================================================
 // IGCSE Humanities -- Term 2, Week 5: "Long-Term Causes of World War
@@ -93513,5 +93513,1423 @@ const CourseTermDef _igcseHumTerm3 = CourseTermDef(
   certificateTitleEn: "The Interwar Years and the Rise of Dictatorships",
   certificateTitleMy: "Interwar Years နှင့် Dictatorship တက်လာခြင်း",
   weeks: [_igcseHumWeek9, _igcseHumWeek10, _igcseHumWeek11, _igcseHumWeek12],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 4, Week 13: "Population Growth, Density
+// and Distribution"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek13 = CourseWeekDef(
+  id: "course-igcse-hum-w13",
+  weekNumber: 13,
+  titleEn: "Population Growth, Density and Distribution",
+  titleMy: "Population Growth, Density နှင့် Distribution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w13-d1",
+      dayNumber: 1,
+      titleEn: "Why Population Distributes Unevenly Across the Earth",
+      titleMy:
+          "Population သည် ကမ္ဘာတစ်ဝှမ်း မညီညာစွာ ဖြန့်ဝေနေရသည့် အကြောင်းရင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do physical factors like climate, terrain, and water availability strongly influence where human populations concentrate?",
+          questionMy:
+              "ရာသီဥတု, Terrain နှင့် ရေ ရရှိနိုင်မှုကဲ့သို့ Physical Factor များသည် လူသား လူဦးရေ မည်သည့်နေရာတွင် စုစည်းသည်ဆိုသည်ကို ပြင်းထန်စွာ သြဇာလွှမ်းမိုးရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Regions with favorable climate, fertile flat land, and reliable water access can support agriculture and settlement far more easily than harsh, resource-poor environments",
+            "Physical factors have no actual connection to where humans choose to live",
+            "Population distributes perfectly evenly across the Earth regardless of physical conditions",
+            "Climate and terrain only affect animal populations, never human settlement patterns",
+          ],
+          optionsMy: [
+            "ကောင်းမွန်သော ရာသီဥတု, ရေရရှိသော ညီညာသော မြေနှင့် ယုံကြည်ရသော ရေ Access ရှိသော ဒေသများသည် ခက်ခဲ၊ Resource-Poor Environment များထက် လယ်ယာလုပ်ငန်းနှင့် Settlement ကို ပို၍ လွယ်ကူစွာ ပံ့ပိုးနိုင်သည်",
+            "Physical Factor များသည် လူသားများ မည်သို့ နေထိုင်ရန် ရွေးချယ်သည်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Population သည် Physical Condition မည်သို့ပင်ရှိစေ ကမ္ဘာတစ်ဝှမ်း ပြီးပြည့်စုံစွာ ညီညာစွာ ဖြန့်ဝေခြင်း",
+            "ရာသီဥတုနှင့် Terrain သည် တိရစ္ဆာန် လူဦးရေကိုသာ သက်ရောက်ပြီး လူသား Settlement Pattern ကို ဘယ်တော့မှ မသက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 1's settlement-suitability lesson -- the same geographical factors that made one village site suitable (flat land, water access) explain population distribution patterns at a much larger scale.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Settlement-Suitability သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- ရွာဆိုက်တစ်ခုကို သင့်လျော်စေခဲ့သော ဂျီဩဂရာဖီဆိုင်ရာ Factor တူတူ (ညီညာသော မြေ, ရေ Access) သည် ပို၍ ကြီးမားသော Scale တစ်ခုတွင် Population Distribution Pattern များကို ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between 'population density' and 'population distribution' as geographical concepts?",
+          questionMy:
+              "ဂျီဩဂရာဖီဆိုင်ရာ Concept များအဖြစ် 'Population Density' နှင့် 'Population Distribution' ကြား အဓိက ခြားနားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Density measures how many people live per unit of area, while distribution describes the overall pattern of where people are spread across a wider region",
+            "Density and distribution are always exactly the same concept with no difference",
+            "Distribution only ever applies to a single, tiny area, never a wider region",
+            "Density has no actual mathematical basis of any kind",
+          ],
+          optionsMy: [
+            "Density သည် Area Unit တစ်ခုလျှင် လူဦးရေ မည်မျှ နေထိုင်သည်ကို တိုင်းတာပြီး Distribution သည် ကျယ်ပြန့်သော Region တစ်ခုတစ်လျှောက် လူများ မည်သည့်နေရာတွင် ပျံ့နှံ့နေသည်ဆိုသည့် Overall Pattern ကို ဖော်ပြသည်",
+            "Density နှင့် Distribution သည် ခြားနားချက် မရှိဘဲ အမြဲ တစ်ခုတည်းသော Concept တူတူ ဖြစ်ခြင်း",
+            "Distribution သည် ကျယ်ပြန့်သော Region တစ်ခုကို ဘယ်တော့မှ မဟုတ်ဘဲ နေရာ သေးငယ်တစ်ခုတည်းနှင့်သာ သက်ဆိုင်ခြင်း",
+            "Density သည် အမှန်တကယ် သင်္ချာဆိုင်ရာ အခြေခံ မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Density is a specific number (e.g. people per square kilometer) for one place, while distribution is the broader pattern comparing many places -- some dense, some sparse -- across a region.",
+          ],
+          hintsMy: [
+            "Density သည် နေရာတစ်ခုအတွက် တိကျသော နံပါတ်တစ်ခု (ဥပမာ - Square Kilometer တစ်ခုလျှင် လူဦးရေ) ဖြစ်ပြီး Distribution သည် Region တစ်ခုတစ်လျှောက် နေရာများစွာ - တချို့ Dense, တချို့ Sparse - ကို နှိုင်းယှဉ်သော ကျယ်ပြန့်သော Pattern ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a country with a low overall population density still have areas of extremely high local density?",
+          questionMy:
+              "အနိမ့်ဆုံး Overall Population Density ရှိသော နိုင်ငံတစ်ခုတွင် Extremely High Local Density ရှိသော နေရာများ ဆက်လက် ရှိနိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A national average can hide huge internal variation -- people may cluster heavily in a few favorable areas (like a capital city) while vast other areas remain sparsely populated",
+            "National averages always reflect perfectly even distribution with no internal variation whatsoever",
+            "A country with low density can never have any concentrated population centers",
+            "Population density is always identical in every part of a country regardless of local conditions",
+          ],
+          optionsMy: [
+            "National Average တစ်ခုသည် ကြီးမားသော Internal Variation ကို ဖုံးကွယ်နိုင်သည် -- လူများသည် ကျယ်ပြန့်သော အခြား နေရာများ Sparsely Populated ကျန်ရစ်စဉ် Favorable နေရာအချို့ (Capital City ကဲ့သို့) တွင် လေးနက်စွာ စုစည်းနိုင်သည်",
+            "National Average များသည် Internal Variation မည်သည်မှ မပါဘဲ ပြီးပြည့်စုံစွာ ညီညာသော Distribution ကို အမြဲ ထင်ဟပ်ခြင်း",
+            "Density နိမ့်သော နိုင်ငံတစ်ခုသည် Concentrated Population Center မည်သည်မှ ဘယ်တော့မှ မရှိနိုင်ခြင်း",
+            "Population Density သည် Local Condition မည်သို့ပင်ရှိစေ နိုင်ငံတစ်ခု၏ အစိတ်အပိုင်းတိုင်းတွင် အမြဲ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same statistical caution as Term 7's evidence-weighting lesson (from the Global Perspectives course concept) -- an average can obscure important variation underneath it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Global Perspectives Course Concept ရှိ Term 7 ၏ Evidence-Weighting သင်ခန်းစာတူတူ Statistical သတိထားမှု ဖြစ်သည် -- Average တစ်ခုသည် ၎င်း အောက်ရှိ အရေးကြီးသော Variation ကို ဖုံးကွယ်နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Population Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Population ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w13-dm-1",
+          termEn: "Population density",
+          termMy: "Population Density",
+          matchEn: "The number of people living per unit of area",
+          matchMy: "Area Unit တစ်ခုလျှင် နေထိုင်သော လူဦးရေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w13-dm-2",
+          termEn: "Population distribution",
+          termMy: "Population Distribution",
+          matchEn:
+              "The overall pattern of where people are spread across a region",
+          matchMy:
+              "Region တစ်ခုတစ်လျှောက် လူများ မည်သည့်နေရာတွင် ပျံ့နှံ့နေသည်ဆိုသည့် Overall Pattern",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w13-dm-3",
+          termEn: "Sparsely populated",
+          termMy: "Sparsely Populated",
+          matchEn: "An area with relatively few people living per unit of area",
+          matchMy: "Area Unit တစ်ခုလျှင် လူဦးရေ အနည်းငယ်သာ နေထိုင်သော နေရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w13-dm-4",
+          termEn: "Population cluster",
+          termMy: "Population Cluster",
+          matchEn:
+              "A geographic area where people concentrate heavily due to favorable conditions",
+          matchMy:
+              "ကောင်းမွန်သော Condition များကြောင့် လူများ လေးနက်စွာ စုစည်းသော ပထဝီဆိုင်ရာ နေရာ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Densely Populated or Sparsely Populated Factor?",
+      titleMy:
+          "စီစစ်ကြမည် - Densely Populated (သို့) Sparsely Populated Factor",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Favors Dense Population", "Favors Sparse Population"],
+        bucketsMy: [
+          "Dense Population ကို Favour ပြုသော",
+          "Sparse Population ကို Favour ပြုသော",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w13-sort-1",
+            labelEn: "A fertile flat river valley with reliable rainfall",
+            labelMy:
+                "ယုံကြည်ရသော မိုးရွာသွန်းမှုရှိသော ရေရရှိသော ညီညာသော မြစ်ချိုင့်ဝှမ်း",
+            correctBucketEn: "Favors Dense Population",
+            correctBucketMy: "Dense Population ကို Favour ပြုသော",
+          ),
+          SortingItem(
+            id: "igchum-w13-sort-2",
+            labelEn: "A harsh, cold, mountainous region with poor soil",
+            labelMy: "ကောက်ညက်သော Soil ရှိသော ခက်ခဲ၊ အေးခဲသော တောင်ပေါ်ဒေသ",
+            correctBucketEn: "Favors Sparse Population",
+            correctBucketMy: "Sparse Population ကို Favour ပြုသော",
+          ),
+          SortingItem(
+            id: "igchum-w13-sort-3",
+            labelEn:
+                "A coastal region with a natural harbor and moderate climate",
+            labelMy:
+                "သဘာဝ ဆိပ်ကမ်းနှင့် Moderate ရာသီဥတုရှိသော ကမ်းရိုးတန်း ဒေသ",
+            correctBucketEn: "Favors Dense Population",
+            correctBucketMy: "Dense Population ကို Favour ပြုသော",
+          ),
+          SortingItem(
+            id: "igchum-w13-sort-4",
+            labelEn:
+                "A vast, extremely arid desert with almost no water source",
+            labelMy:
+                "ရေအရင်းအမြစ် နီးပါး မရှိသော ကျယ်ပြန့်၊ ပြင်းထန်စွာ ခြောက်သွေ့သော သဲကန္တာရ",
+            correctBucketEn: "Favors Sparse Population",
+            correctBucketMy: "Sparse Population ကို Favour ပြုသော",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Population Map Analysis",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Population Map Analysis",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Population Map Analysis",
+        titleMy: "Thiha Aung ၏ Population Map Analysis",
+        passageEn:
+            "Opening Term 4's shift back to geography, Saya Tun Tun Win gave students a population density map of a hypothetical country and asked them to explain the pattern using physical factors, exactly as Monday's lesson required. Thiha Aung's analysis began by identifying the country's densest cluster, located along a wide, fertile river valley near the coast.\n\nApplying Monday's reasoning, he explained this cluster using the same suitability factors from Term 1's settlement lesson: reliable water access, flat farmable land, and a nearby natural harbor supporting trade. In contrast, a mountainous region in the country's interior showed extremely sparse population, which Thiha Aung explained using the same physical-factor logic in reverse -- steep terrain, poor soil, and harsh climate made large-scale settlement and farming far more difficult there.\n\nWhen Saya Tun Tun Win asked him to calculate the country's average population density using the total population and total land area, Thiha Aung correctly performed the calculation, but immediately flagged a concern using Wednesday's lesson: this single national average number, while mathematically correct, completely obscured the dramatic difference between the crowded coastal valley and the nearly empty mountain interior. He argued that reporting only the average without the distribution map would give a misleading impression of a country that was actually far from evenly settled.\n\nSaya Tun Tun Win praised Thiha Aung's analysis for correctly distinguishing density from distribution, exactly as Tuesday's vocabulary lesson had established, and for recognizing that a single average statistic, however accurate, can hide the more geographically meaningful pattern underneath it -- a caution that would prove important throughout the rest of the geography-focused terms ahead.",
+        passageMy:
+            "Geography သို့ Term 4 ၏ Shift ကို ဖွင့်လှစ်ရန် Hypothetical နိုင်ငံတစ်ခု၏ Population Density Map တစ်ခုကို ကျောင်းသားများအား Saya Tun Tun Win ပေးအပ်ခဲ့ပြီး တနင်္လာနေ့ သင်ခန်းစာ တောင်းဆိုသည့်အတိုင်း Physical Factor များအသုံးပြု၍ Pattern ကို ရှင်းပြရန် တောင်းဆိုခဲ့သည်။ ကမ်းရိုးတန်းအနီးရှိ ကျယ်ပြန့်၊ ရေရရှိသော မြစ်ချိုင့်ဝှမ်းတစ်လျှောက် တည်ရှိသော နိုင်ငံ၏ Densest Cluster ကို Thiha Aung ၏ Analysis ဖော်ထုတ်ခြင်းဖြင့် စတင်ခဲ့သည်။\n\nတနင်္လာနေ့ Reasoning ကို အသုံးချကာ Term 1 ၏ Settlement သင်ခန်းစာမှ Suitability Factor တူတူကို အသုံးပြု၍ ဤ Cluster ကို ၎င်း ရှင်းပြခဲ့သည် - ယုံကြည်ရသော ရေ Access, ညီညာ၊ လယ်ယာလုပ်နိုင်သော မြေနှင့် ကုန်သွယ်ရေးကို ပံ့ပိုးပေးသော အနီးရှိ သဘာဝ ဆိပ်ကမ်း။ ဆန့်ကျင်ဘက်တွင် နိုင်ငံ၏ Interior ရှိ တောင်ပေါ်ဒေသတစ်ခုသည် Extremely Sparse Population ကို ပြသခဲ့ပြီး ဤသည်ကို Thiha Aung Physical-Factor Logic တူတူကို ပြောင်းပြန်ဖြင့် ရှင်းပြခဲ့သည် -- ချောက်ကမ်းပါးသော Terrain, ကောက်ညက်သော Soil နှင့် ခက်ခဲသော ရာသီဥတုသည် Large-Scale Settlement နှင့် လယ်ယာလုပ်ငန်းကို ထိုနေရာတွင် ပို၍ ခက်ခဲစေခဲ့သည်။\n\nစုစုပေါင်း Population နှင့် Land Area ကို အသုံးပြု၍ နိုင်ငံ၏ Average Population Density ကို တွက်ချက်ရန် Saya Tun Tun Win ၎င်းကို တောင်းဆိုချိန် Thiha Aung တွက်ချက်မှုကို မှန်ကန်စွာ ပြုလုပ်ခဲ့သော်လည်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးပြု၍ စိုးရိမ်မှုတစ်ခုကို ချက်ချင်း Flag ပြုလုပ်ခဲ့သည် - ဤ National Average နံပါတ်တစ်ခုတည်းသည် သင်္ချာအရ မှန်ကန်သော်လည်း Crowded ကမ်းရိုးတန်း ချိုင့်ဝှမ်းနှင့် နီးပါး ဗလာ တောင်ပေါ် Interior ကြား Dramatic ခြားနားချက်ကို လုံးဝ ဖုံးကွယ်ထားခဲ့သည်။ Distribution Map မပါဘဲ Average ကိုသာ Report ပြုလုပ်ခြင်းသည် အမှန်တကယ် ညီညာစွာ Settle ဖြစ်ခြင်းနှင့် ဝေးလှသော နိုင်ငံတစ်ခု၏ လမ်းလွှဲသော Impression ကို ပေးအပ်လိမ့်မည်ဟု ၎င်း ငြင်းခုံခဲ့သည်။\n\nအင်္ဂါနေ့ ဝေါဟာရ သင်ခန်းစာ တည်ထောင်ခဲ့သည့်အတိုင်း Density ကို Distribution မှ မှန်ကန်စွာ ခွဲခြားခဲ့ခြင်းနှင့် Average Statistic တစ်ခုတည်း၊ မည်မျှပင် တိကျစေကာမူ ၎င်း အောက်ရှိ ပို၍ ဂျီဩဂရာဖီဆိုင်ရာ အဓိပ္ပာယ်ရှိသော Pattern ကို ဖုံးကွယ်နိုင်ကြောင်း အသိအမှတ်ပြုခဲ့ခြင်းအတွက် Thiha Aung ၏ Analysis ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည် -- ရှေ့ရှိ Geography-Focused Term များ ကျန်ရှိသေးသော ကာလတစ်လျှောက် အရေးကြီးကြောင်း သက်သေပြမည့် သတိထားမှု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what physical factors explained the sparse mountain population?",
+            questionMy:
+                "Sparse တောင်ပေါ် Population ကို ရှင်းပြခဲ့သော Physical Factor များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Steep terrain, poor soil, and harsh climate",
+              "A fertile river valley with reliable rainfall",
+              "A natural harbor supporting trade",
+              "There were no physical factors mentioned at all",
+            ],
+            optionsMy: [
+              "ချောက်ကမ်းပါးသော Terrain, ကောက်ညက်သော Soil နှင့် ခက်ခဲသော ရာသီဥတု",
+              "ယုံကြည်ရသော မိုးရွာသွန်းမှုရှိသော ရေရရှိသော မြစ်ချိုင့်ဝှမ်း",
+              "ကုန်သွယ်ရေးကို ပံ့ပိုးပေးသော သဘာဝ ဆိပ်ကမ်း",
+              "Physical Factor မည်သည်မှ ဖော်ပြခြင်း လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the mountain region.",
+            ],
+            hintsMy: [
+              "တောင်ပေါ်ဒေသ ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung flag a concern about the average density figure?",
+            questionMy:
+                "Average Density Figure အကြောင်း Thiha Aung စိုးရိမ်မှု Flag ပြုလုပ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It obscured the dramatic difference between the crowded valley and the empty interior",
+              "The calculation itself was mathematically incorrect",
+              "He believed averages should never be calculated for any country",
+              "The average figure had no connection to the map data at all",
+            ],
+            optionsMy: [
+              "Crowded ချိုင့်ဝှမ်းနှင့် ဗလာ Interior ကြား Dramatic ခြားနားချက်ကို ၎င်း ဖုံးကွယ်ထားခဲ့ခြင်း",
+              "တွက်ချက်မှု ကိုယ်တိုင် သင်္ချာအရ မမှန်ကန်ခဲ့ခြင်း",
+              "Average များကို နိုင်ငံ မည်သည်အတွက်မဆို ဘယ်တော့မှ တွက်ချက်မသင့်ဟု ၎င်း ယုံကြည်ခဲ့ခြင်း",
+              "Average Figure သည် Map Data နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of his concern.",
+            ],
+            hintsMy: [
+              "၎င်း၏ စိုးရိမ်မှု ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win specifically praise?",
+            questionMy:
+                "Saya Tun Tun Win အထူးသဖြင့် ချီးမွမ်းခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Correctly distinguishing density from distribution and recognizing what an average can hide",
+              "Only the speed at which the calculation was completed",
+              "A refusal to calculate any statistic of any kind",
+              "Ignoring the map entirely and using only the average number",
+            ],
+            optionsMy: [
+              "Density ကို Distribution မှ မှန်ကန်စွာ ခွဲခြားခြင်းနှင့် Average တစ်ခု ဖုံးကွယ်နိုင်သည်ကို အသိအမှတ်ပြုခြင်း",
+              "တွက်ချက်မှု ပြီးစီးသော အလျင်တစ်ခုတည်းသာ",
+              "Statistic မည်သည်ကိုမျှ တွက်ချက်ရန် ငြင်းဆန်ခြင်း",
+              "Map ကို လုံးဝ လျစ်လျူရှုကာ Average နံပါတ်ကိုသာ အသုံးပြုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's praise."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ချီးမွမ်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w13-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Population Growth, Density and Distribution",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Population Growth, Density နှင့် Distribution",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Physical factors like climate and terrain influence population distribution because...",
+          questionMy:
+              "ရာသီဥတုနှင့် Terrain ကဲ့သို့ Physical Factor များသည် Population Distribution ကို သြဇာလွှမ်းမိုးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Favorable conditions support agriculture and settlement more easily",
+            "Physical factors have no connection to human settlement at all",
+            "Population always distributes perfectly evenly regardless of terrain",
+            "Only animals are affected by climate and terrain",
+          ],
+          optionsMy: [
+            "Favorable Condition များသည် လယ်ယာလုပ်ငန်းနှင့် Settlement ကို ပို၍ လွယ်ကူစွာ ပံ့ပိုးခြင်း",
+            "Physical Factor များသည် လူသား Settlement နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "Terrain မည်သို့ပင်ရှိစေ Population သည် အမြဲ ပြီးပြည့်စုံစွာ ညီညာစွာ ဖြန့်ဝေခြင်း",
+            "ရာသီဥတုနှင့် Terrain က တိရစ္ဆာန်များကိုသာ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Population density measures...",
+          questionMy: "Population Density တိုင်းတာသည်မှာ...",
+          optionsEn: [
+            "People living per unit of area",
+            "The overall pattern across an entire region",
+            "Only the total population with no area considered",
+            "A country's economic output",
+          ],
+          optionsMy: [
+            "Area Unit တစ်ခုလျှင် နေထိုင်သော လူများ",
+            "Region တစ်ခုလုံးတစ်လျှောက် Overall Pattern",
+            "Area ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ Total Population တစ်ခုတည်း",
+            "နိုင်ငံတစ်ခု၏ စီးပွားရေး ထုတ်လုပ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A national average density figure can be misleading because...",
+          questionMy:
+              "National Average Density Figure တစ်ခုသည် လမ်းလွှဲစေနိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It can obscure significant internal variation in distribution",
+            "It is always mathematically incorrect",
+            "Averages never hide any underlying pattern",
+            "It only applies to countries with zero population",
+          ],
+          optionsMy: [
+            "Distribution ရှိ သိသာသော Internal Variation ကို ဖုံးကွယ်နိုင်ခြင်း",
+            "အမြဲ သင်္ချာအရ မမှန်ကန်ခြင်း",
+            "Average များသည် Underlying Pattern မည်သည်ကိုမျှ ဘယ်တော့မှ ဖုံးကွယ်ခြင်း",
+            "Population Zero ရှိသော နိုင်ငံများနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 4, Week 14: "Push-Pull Factors and
+// Migration Patterns"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek14 = CourseWeekDef(
+  id: "course-igcse-hum-w14",
+  weekNumber: 14,
+  titleEn: "Push-Pull Factors and Migration Patterns",
+  titleMy: "Push-Pull Factor များနှင့် Migration Pattern များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w14-d1",
+      dayNumber: 1,
+      titleEn: "Understanding Push and Pull Factors",
+      titleMy: "Push နှင့် Pull Factor များကို နားလည်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a 'push factor' and a 'pull factor' in migration?",
+          questionMy:
+              "Migration တွင် 'Push Factor' နှင့် 'Pull Factor' ကြား အဓိက ခြားနားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A push factor drives people away from their origin (e.g. poverty, conflict), while a pull factor attracts them toward a destination (e.g. jobs, safety)",
+            "Push and pull factors are always exactly the same thing with no difference",
+            "Pull factors only ever apply to the place migrants are leaving, never their destination",
+            "Push factors have no actual connection to why people choose to migrate",
+          ],
+          optionsMy: [
+            "Push Factor သည် လူများကို ၎င်းတို့ Origin မှ ဝေးဝေး တွန်းအားပေးပြီး (ဥပမာ - ဆင်းရဲမွဲတေမှု, Conflict) Pull Factor သည် ၎င်းတို့ကို Destination တစ်ခုဘက်သို့ ဆွဲဆောင်သည် (ဥပမာ - အလုပ်အကိုင်, လုံခြုံမှု)",
+            "Push နှင့် Pull Factor များသည် ခြားနားချက် မရှိဘဲ အမြဲ တစ်ခုတည်းသော အရာတူတူ ဖြစ်ခြင်း",
+            "Pull Factor များသည် Migrant များ ထွက်ခွာနေသော နေရာနှင့်သာ ဘယ်တော့မှ သက်ဆိုင်ပြီး ၎င်းတို့၏ Destination နှင့် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+            "Push Factor များသည် လူများ Migrate ပြုလုပ်ရန် ဘာကြောင့် ရွေးချယ်သည်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of it as two forces working in opposite directions: one pushing someone away from home, the other pulling them toward a new place.",
+          ],
+          hintsMy: [
+            "ဆန့်ကျင်ဘက် ဦးတည်ချက်များ၌ လုပ်ဆောင်နေသော အင်အားနှစ်ခုကဲ့သို့ ၎င်းကို တွေးကြည့်ပါ - တစ်ခုက တစ်စုံတစ်ဦးအား အိမ်မှ ဝေးဝေး တွန်းအားပေးပြီး အခြားတစ်ခုက ၎င်းတို့ကို နေရာသစ်တစ်ခုဘက်သို့ ဆွဲဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might economic push factors (like lack of local jobs) and economic pull factors (like better wages elsewhere) work together to produce a specific migration pattern?",
+          questionMy:
+              "စီးပွားရေး Push Factor များ (Local အလုပ်အကိုင် ကင်းမဲ့ခြင်းကဲ့သို့) နှင့် စီးပွားရေး Pull Factor များ (အခြားနေရာတွင် Wage ပို၍ ကောင်းခြင်းကဲ့သို့) သည် တိကျသော Migration Pattern တစ်ခု ထုတ်လုပ်ရန် အတူတကွ လုပ်ဆောင်နိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A person facing joblessness at home (push) is especially likely to move toward a specific place offering better economic opportunity (pull), making the combination stronger than either factor alone",
+            "Push and pull factors always cancel each other out completely with no net effect",
+            "Economic factors have no actual connection to migration decisions",
+            "Push factors alone, without any pull factor, always fully explain a specific migration destination",
+          ],
+          optionsMy: [
+            "အိမ်တွင် Joblessness ကြုံတွေ့နေသော ပုဂ္ဂိုလ်တစ်ဦး (Push) သည် ပို၍ ကောင်းသော စီးပွားရေး အခွင့်အလမ်း ပေးအပ်သော တိကျသော နေရာတစ်ခုဘက်သို့ (Pull) ရွှေ့လျားနိုင်ခြေ အထူးသဖြင့် ရှိပြီး ပေါင်းစပ်မှုကို Factor တစ်ခုတည်းထက် ပို၍ ခိုင်မာစေသည်",
+            "Push နှင့် Pull Factor များသည် Net သက်ရောက်မှု မရှိဘဲ တစ်ခုနှင့်တစ်ခု ပြီးပြည့်စုံစွာ Cancel ပြုလုပ်ခြင်း",
+            "စီးပွားရေး Factor များသည် Migration ဆုံးဖြတ်ချက်များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Pull Factor မည်သည်မှ မပါဘဲ Push Factor တစ်ခုတည်းသည် တိကျသော Migration Destination တစ်ခုကို အမြဲ အပြည့်အစုံ ရှင်းပြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Someone unemployed at home is a push condition; but they still need a specific pull (a place actually offering jobs) to decide where exactly to move -- the two work together to determine the specific destination.",
+          ],
+          hintsMy: [
+            "အိမ်တွင် အလုပ်လက်မဲ့ ဖြစ်နေသူသည် Push Condition တစ်ခု ဖြစ်သော်လည်း ၎င်းတို့သည် အတိအကျ မည်သို့ ရွှေ့လျားရန် ဆုံးဖြတ်ရန် တိကျသော Pull (အလုပ်အကိုင် အမှန်တကယ် ပေးအပ်သော နေရာတစ်ခု) ဆက်လက် လိုအပ်သည် -- နှစ်ခုစလုံးသည် တိကျသော Destination ကို ဆုံးဖြတ်ရန် အတူတကွ လုပ်ဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do geographers also consider non-economic push and pull factors (like conflict, environmental disaster, or family reunification) rather than treating migration as purely economic?",
+          questionMy:
+              "Migration ကို ကျပန်း Economic တစ်ခုအဖြစ် ဆက်ဆံမည့်အစား Non-Economic Push နှင့် Pull Factor များ (Conflict, ပတ်ဝန်းကျင် ဘေးအန္တရာယ် (သို့) မိသားစု ပြန်လည်ပေါင်းစည်းခြင်းကဲ့သို့) ကို ဂျီဩဂရာဖီပညာရှင်များ ထည့်သွင်းစဉ်းစားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Real migration decisions often involve multiple, interacting motivations beyond economics alone, and ignoring these would give an incomplete picture of why people actually move",
+            "Non-economic factors never actually influence any migration decision",
+            "Migration is always caused exclusively by economic factors with no exceptions",
+            "Conflict and environmental disaster have no actual connection to human movement",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Migration ဆုံးဖြတ်ချက်များသည် Economics တစ်ခုတည်းကို ကျော်လွန်၍ Interacting Motivation များစွာ မကြာခဏ ပါဝင်ကာ ဤအရာများကို လျစ်လျူရှုပါက လူများ အမှန်တကယ် ဘာကြောင့် ရွှေ့လျားသည်ဆိုသည်၏ မပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်လိမ့်မည်",
+            "Non-Economic Factor များသည် Migration ဆုံးဖြတ်ချက် မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ သက်ရောက်ခြင်း",
+            "Migration ကို Economic Factor များကသာ ချွင်းချက် မရှိဘဲ အမြဲ ဖြစ်ပေါ်စေခြင်း",
+            "Conflict နှင့် ပတ်ဝန်းကျင် ဘေးအန္တရာယ်သည် လူသား ရွေ့လျားမှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 6's multi-cause reasoning (from the same causation-thinking pattern developed across this course) -- a complete explanation usually requires multiple interacting factors, not a single-cause oversimplification.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Multi-Cause Reasoning (ဤ Course တစ်လျှောက် တည်ဆောက်ထားသော Causation-Thinking Pattern တူတူမှ) ကို တိုက်ရိုက် သတိရစေသည် -- ပြီးပြည့်စုံသော ရှင်းလင်းချက် တစ်ခုသည် Single-Cause Oversimplification အစား Interacting Factor များစွာ ပုံမှန်အားဖြင့် လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Migration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Migration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w14-dm-1",
+          termEn: "Push factor",
+          termMy: "Push Factor",
+          matchEn:
+              "A condition that drives people to leave their place of origin",
+          matchMy:
+              "လူများ ၎င်းတို့၏ Origin နေရာမှ ထွက်ခွာရန် တွန်းအားပေးသော Condition",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w14-dm-2",
+          termEn: "Pull factor",
+          termMy: "Pull Factor",
+          matchEn:
+              "A condition that attracts migrants toward a specific destination",
+          matchMy:
+              "Migrant များကို တိကျသော Destination တစ်ခုဘက်သို့ ဆွဲဆောင်သော Condition",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w14-dm-3",
+          termEn: "Rural-urban migration",
+          termMy: "Rural-Urban Migration",
+          matchEn: "The movement of people from countryside areas into cities",
+          matchMy: "ကျေးလက် ဒေသများမှ မြို့များထဲသို့ လူများ ရွေ့လျားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w14-dm-4",
+          termEn: "Forced migration",
+          termMy: "Forced Migration",
+          matchEn:
+              "Movement compelled by conflict, disaster, or persecution rather than free choice",
+          matchMy:
+              "လွတ်လပ်သော ရွေးချယ်မှုအစား Conflict, ဘေးအန္တရာယ် (သို့) ညှဉ်းပန်းနှိပ်စက်မှုက တွန်းအားပေးသော ရွေ့လျားမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Push Factor or Pull Factor?",
+      titleMy: "စီစစ်ကြမည် - Push Factor (သို့) Pull Factor",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Push Factor", "Pull Factor"],
+        bucketsMy: ["Push Factor", "Pull Factor"],
+        items: [
+          SortingItem(
+            id: "igchum-w14-sort-1",
+            labelEn: "A severe drought destroying local crops and livelihoods",
+            labelMy:
+                "Local သီးနှံများနှင့် အသက်မွေးဝမ်းကျောင်းများကို ဖျက်ဆီးနေသော ပြင်းထန်သော မိုးခေါင်ခြင်း",
+            correctBucketEn: "Push Factor",
+            correctBucketMy: "Push Factor",
+          ),
+          SortingItem(
+            id: "igchum-w14-sort-2",
+            labelEn:
+                "A city known for offering higher wages and more job opportunities",
+            labelMy:
+                "Wage ပို၍ မြင့်ပြီး အလုပ်အကိုင် အခွင့်အလမ်းများ ပို၍ ပေးအပ်ကြောင်း လူသိများသော မြို့တစ်မြို့",
+            correctBucketEn: "Pull Factor",
+            correctBucketMy: "Pull Factor",
+          ),
+          SortingItem(
+            id: "igchum-w14-sort-3",
+            labelEn: "Ongoing armed conflict making a home region unsafe",
+            labelMy:
+                "အိမ် ဒေသတစ်ခုကို မလုံခြုံစေသော ဆက်တိုက် လက်နက်ကိုင် Conflict",
+            correctBucketEn: "Push Factor",
+            correctBucketMy: "Push Factor",
+          ),
+          SortingItem(
+            id: "igchum-w14-sort-4",
+            labelEn:
+                "A region offering strong political stability and personal safety",
+            labelMy:
+                "ခိုင်မာသော နိုင်ငံရေးဆိုင်ရာ တည်ငြိမ်မှုနှင့် ကိုယ်ရေးကိုယ်တာ လုံခြုံမှု ပေးအပ်သော ဒေသတစ်ခု",
+            correctBucketEn: "Pull Factor",
+            correctBucketMy: "Pull Factor",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Family Migration Interview",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ မိသားစု Migration Interview",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Family Migration Interview",
+        titleMy: "Thiha Aung ၏ မိသားစု Migration Interview",
+        passageEn:
+            "For Week 14, Saya Tun Tun Win asked students to interview a family member or community elder about a real migration decision and analyze it using push-pull vocabulary rather than simply retelling the story. Thiha Aung interviewed his uncle, who had moved from a rural farming town to a large city fifteen years earlier.\n\nApplying Monday's vocabulary directly, Thiha Aung identified his uncle's specific push factors: several consecutive years of poor harvests had made farming increasingly unreliable as a livelihood, and there were very few non-farming jobs available locally. His uncle also described a specific pull factor: a distant relative already living in the city had told him about factory jobs paying significantly more than farming income, information that made one particular city -- rather than migration in general -- the specific destination.\n\nApplying Tuesday's lesson on how push and pull factors combine, Thiha Aung explained in his analysis that the poor harvests alone might not have triggered migration if no specific opportunity had existed to pull his uncle toward it, and the city's job opportunities alone might not have been compelling enough if farming at home had remained a reliable, dignified livelihood -- the combination of both factors together explained the specific decision more completely than either alone.\n\nHis uncle also mentioned a factor Thiha Aung had not initially expected: he had wanted to move somewhere his children could access better schools, a motivation with no direct economic connection at all. Applying Wednesday's lesson on non-economic factors, Thiha Aung added this to his analysis rather than ignoring it as irrelevant, concluding that his uncle's migration decision, like most real migration decisions, resulted from multiple interacting push and pull factors -- economic and otherwise -- rather than any single simple cause.",
+        passageMy:
+            "Week 14 အတွက် ဇာတ်လမ်းကို ရိုးရိုး ပြန်ပြောမည့်အစား Push-Pull ဝေါဟာရကို အသုံးပြု၍ စစ်မှန်သော Migration ဆုံးဖြတ်ချက်တစ်ခုအကြောင်း မိသားစုဝင် (သို့) Community ဒေသကြီးတစ်ဦးကို Interview ပြုလုပ်ပြီး Analyze ပြုလုပ်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ ကျေးလက် လယ်ယာ မြို့ငယ်တစ်ခုမှ နှစ် ၁၅ ခန့်အကြာက ကြီးမားသော မြို့တစ်မြို့သို့ ရွှေ့ပြောင်းခဲ့သော ၎င်း၏ ဦးလေးကို Thiha Aung Interview ပြုလုပ်ခဲ့သည်။\n\nတနင်္လာနေ့ ဝေါဟာရကို တိုက်ရိုက် အသုံးချကာ ၎င်း၏ ဦးလေး၏ တိကျသော Push Factor များကို Thiha Aung ဖော်ထုတ်ခဲ့သည် - စဉ်ဆက်မပြတ် စိုက်ပျိုးသီးနှံ ညံ့ဖျင်းသော နှစ် အနည်းငယ်သည် လယ်ယာလုပ်ငန်းကို အသက်မွေးဝမ်းကျောင်းအဖြစ် ပို၍ မယုံကြည်ရအောင် ဖန်တီးပေးခဲ့ပြီး Local တွင် Farming မဟုတ်သော အလုပ်အကိုင် အလွန် နည်းပါးခဲ့သည်။ ၎င်း၏ ဦးလေးကလည်း တိကျသော Pull Factor တစ်ခုကို ဖော်ပြခဲ့သည် - မြို့တွင် ယခင်ကပင် နေထိုင်ခဲ့သော ဆွေမျိုးဝေးတစ်ဦးက Farming Income ထက် သိသိသာသာ ပို၍ ပေးအပ်သော Factory အလုပ်များအကြောင်း ၎င်းကို ပြောပြခဲ့ပြီး ယေဘုယျ Migration ထက် တိကျသော Destination ဖြစ်စေခဲ့သော သတင်းအချက်အလက် ဖြစ်သည်။\n\nPush နှင့် Pull Factor များ မည်သို့ ပေါင်းစပ်သည်ဆိုသည် အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ဦးလေးကို ဆွဲဆောင်ရန် တိကျသော အခွင့်အလမ်း မည်သည်မှ မရှိပါက သီးနှံ ညံ့ဖျင်းမှုတစ်ခုတည်းသည် Migration ကို Trigger ပြုလုပ်ခြင်း ရှိချေမည် မဟုတ်ကြောင်းနှင့် အိမ်တွင် Farming သည် ယုံကြည်ရ၊ ဂုဏ်သိက္ခာရှိသော အသက်မွေးဝမ်းကျောင်းတစ်ခုအဖြစ် ဆက်လက် ရှိနေပါက မြို့၏ အလုပ်အကိုင် အခွင့်အလမ်းများတစ်ခုတည်းသည် လုံလောက်စွာ ဆွဲဆောင်ခြေ ရှိချေမည် မဟုတ်ကြောင်း -- Factor နှစ်ခုစလုံး ပေါင်းစပ်ခြင်းသည် တိကျသော ဆုံးဖြတ်ချက်ကို တစ်ခုတည်းထက် ပို၍ ပြည့်စုံစွာ ရှင်းပြခဲ့ကြောင်း ၎င်း၏ Analysis တွင် Thiha Aung ရှင်းပြခဲ့သည်။\n\nThiha Aung ကနဦးတွင် မမျှော်လင့်ခဲ့သော Factor တစ်ခုကိုလည်း ၎င်း၏ ဦးလေး ဖော်ပြခဲ့သည် - ၎င်း၏ ကလေးများ ကျောင်းများ ပို၍ ကောင်းစွာ ဝင်ရောက်ခွင့် ရရှိနိုင်မည့် နေရာတစ်ခုသို့ ရွှေ့ပြောင်းလိုခဲ့ကြောင်း၊ တိုက်ရိုက် Economic ချိတ်ဆက်မှု လုံးဝ မပါသော Motivation တစ်ခု ဖြစ်သည်။ Non-Economic Factor များအကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ Analysis တွင် ဤသည်ကို မသက်ဆိုင်ဟု လျစ်လျူရှုမည့်အစား ၎င်း ထည့်သွင်းခဲ့ပြီး Real Migration ဆုံးဖြတ်ချက် အများစုကဲ့သို့ ၎င်း၏ ဦးလေး၏ Migration ဆုံးဖြတ်ချက်သည် ရိုးရှင်းသော Cause တစ်ခုတည်းအစား Interacting Push နှင့် Pull Factor များစွာ -- Economic နှင့် အခြား -- မှ ရလဒ်ဖြစ်ခဲ့ကြောင်း ကောက်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific push and pull factors did Thiha Aung's uncle describe?",
+            questionMy:
+                "Thiha Aung ၏ ဦးလေး ဖော်ပြခဲ့သော တိကျသော Push နှင့် Pull Factor များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Poor harvests (push) and information about better-paying factory jobs (pull)",
+              "No push or pull factors were described at all",
+              "Only a pull factor, with no push factor mentioned",
+              "A desire to leave the city and return to farming",
+            ],
+            optionsMy: [
+              "သီးနှံ ညံ့ဖျင်းမှု (Push) နှင့် ပို၍ ကောင်းသော လစာပေးသော Factory အလုပ်များအကြောင်း သတင်းအချက်အလက် (Pull)",
+              "Push (သို့) Pull Factor မည်သည်မှ ဖော်ပြခြင်း လုံးဝ မရှိခြင်း",
+              "Push Factor မည်သည်မှ မဖော်ပြဘဲ Pull Factor တစ်ခုတည်းသာ",
+              "မြို့မှ ထွက်ခွာ၍ Farming သို့ ပြန်လိုသော ဆန္ဒ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's specific factors."],
+            hintsMy: ["တိကျသော Factor များကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung argue the two factors needed to work together?",
+            questionMy:
+                "Factor နှစ်ခု အတူတကွ လုပ်ဆောင်ရန် လိုအပ်ကြောင်း Thiha Aung ငြင်းခုံခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Neither factor alone might have been sufficient to trigger the specific decision",
+              "Only the pull factor actually mattered, with the push factor irrelevant",
+              "Only the push factor actually mattered, with the pull factor irrelevant",
+              "The two factors had no actual relationship to each other",
+            ],
+            optionsMy: [
+              "Factor တစ်ခုတည်းသည် တိကျသော ဆုံးဖြတ်ချက်ကို Trigger ပြုလုပ်ရန် လုံလောက်ခြေ ရှိချေမည် မဟုတ်ခြင်း",
+              "Pull Factor တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးပြီး Push Factor မသက်ဆိုင်ခြင်း",
+              "Push Factor တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးပြီး Pull Factor မသက်ဆိုင်ခြင်း",
+              "Factor နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု ဆက်ဆံရေး အမှန်တကယ် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's argument."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what non-economic factor did Thiha Aung's uncle mention?",
+            questionMy:
+                "Thiha Aung ၏ ဦးလေး ဖော်ပြခဲ့သော Non-Economic Factor ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Wanting his children to access better schools",
+              "A desire for a higher-paying job with no other motivation",
+              "No non-economic factor was mentioned at all",
+              "A wish to leave his family behind entirely",
+            ],
+            optionsMy: [
+              "၎င်း၏ ကလေးများ ကျောင်းများ ပို၍ ကောင်းစွာ ဝင်ရောက်ခွင့် ရရှိစေလိုခြင်း",
+              "အခြား Motivation မည်သည်မှ မပါဘဲ Wage ပို၍ မြင့်သော အလုပ်အကိုင်အတွက် ဆန္ဒ",
+              "Non-Economic Factor မည်သည်မှ ဖော်ပြခြင်း လုံးဝ မရှိခြင်း",
+              "၎င်း၏ မိသားစုကို လုံးဝ စွန့်ခွာလိုသော ဆန္ဒ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's mention of the school factor.",
+            ],
+            hintsMy: [
+              "ကျောင်း Factor အကြောင်းအရာကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w14-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Push-Pull Factors and Migration Patterns",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Push-Pull Factor များနှင့် Migration Pattern များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A push factor is best described as...",
+          questionMy: "Push Factor ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A condition driving people away from their origin",
+            "A condition attracting people toward a destination",
+            "A factor with no connection to migration",
+            "Something that only ever applies to wealthy countries",
+          ],
+          optionsMy: [
+            "လူများကို ၎င်းတို့ Origin မှ ဝေးဝေး တွန်းအားပေးသော Condition",
+            "လူများကို Destination တစ်ခုဘက်သို့ ဆွဲဆောင်သော Condition",
+            "Migration နှင့် ချိတ်ဆက်မှု မရှိသော Factor တစ်ခု",
+            "ချမ်းသာသော နိုင်ငံများနှင့်သာ ဘယ်တော့မှ သက်ဆိုင်သော အရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Push and pull factors often work together because...",
+          questionMy:
+              "Push နှင့် Pull Factor များသည် မကြာခဏ အတူတကွ လုပ်ဆောင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "A specific destination usually requires both a reason to leave and a reason to go there",
+            "They always cancel each other out with no net effect",
+            "Only one factor type ever actually matters",
+            "They have no actual relationship to each other",
+          ],
+          optionsMy: [
+            "တိကျသော Destination တစ်ခုသည် ပုံမှန်အားဖြင့် ထွက်ခွာရန် အကြောင်းရင်းနှင့် ထို့ဆီသို့ သွားရန် အကြောင်းရင်း နှစ်ခုစလုံး လိုအပ်ခြင်း",
+            "Net သက်ရောက်မှု မရှိဘဲ တစ်ခုနှင့်တစ်ခု အမြဲ Cancel ပြုလုပ်ခြင်း",
+            "Factor အမျိုးအစား တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးခြင်း",
+            "တစ်ခုနှင့်တစ်ခု ဆက်ဆံရေး အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Non-economic push and pull factors like family or education matter because...",
+          questionMy:
+              "မိသားစု (သို့) ပညာရေးကဲ့သို့ Non-Economic Push နှင့် Pull Factor များ အရေးကြီးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Real migration decisions often involve multiple interacting motivations",
+            "Migration is always caused exclusively by economics",
+            "Non-economic factors never actually influence any decision",
+            "Only economic factors deserve any analytical attention",
+          ],
+          optionsMy: [
+            "Real Migration ဆုံးဖြတ်ချက်များသည် Interacting Motivation များစွာ မကြာခဏ ပါဝင်ခြင်း",
+            "Migration ကို Economics ကသာ ချွင်းချက် မရှိဘဲ ဖြစ်ပေါ်စေခြင်း",
+            "Non-Economic Factor များသည် ဆုံးဖြတ်ချက် မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ သက်ရောက်ခြင်း",
+            "Economic Factor များကသာ Analytical Attention ခံထိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 4, Week 15: "Urbanisation and Settlement
+// Hierarchies"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek15 = CourseWeekDef(
+  id: "course-igcse-hum-w15",
+  weekNumber: 15,
+  titleEn: "Urbanisation and Settlement Hierarchies",
+  titleMy: "Urbanisation နှင့် Settlement Hierarchy များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w15-d1",
+      dayNumber: 1,
+      titleEn: "Urbanisation and the Settlement Hierarchy",
+      titleMy: "Urbanisation နှင့် Settlement Hierarchy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is 'urbanisation' defined as the increasing proportion of a population living in urban areas, rather than simply the growth of a city's total population?",
+          questionMy:
+              "'Urbanisation' ကို မြို့တစ်မြို့၏ Total Population ကြီးထွားခြင်းသက်သက်ထက် Urban ဒေသများတွင် နေထိုင်သော Population ၏ တိုးလာသော Proportion ဟု အဓိပ္ပာယ်ဖွင့်ဆိုထားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A country's total population could grow while the rural share grows just as fast, meaning the urban proportion (urbanisation) stays flat even as absolute city numbers rise",
+            "Urbanisation and total population growth are always identical measurements with no difference",
+            "Urban population can never actually increase in any country",
+            "The proportion of people living in urban areas has no actual connection to urbanisation as a concept",
+          ],
+          optionsMy: [
+            "Rural ဝေစုသည် အတူတူ လျင်မြန်စွာ ကြီးထွားနေစဉ် နိုင်ငံတစ်ခု၏ Total Population ကြီးထွားနိုင်ပြီး Absolute City Number များ တက်နေစဉ်ပင် Urban Proportion (Urbanisation) သည် ညီညာစွာ ကျန်ရစ်နိုင်သည်",
+            "Urbanisation နှင့် Total Population Growth သည် ခြားနားချက် မရှိဘဲ အမြဲ တစ်ခုတည်းသော တိုင်းတာချက်များ ဖြစ်ခြင်း",
+            "Urban Population သည် နိုင်ငံ မည်သည်တွင်မျှ အမှန်တကယ် ဘယ်တော့မှ တိုးလာနိုင်ခြင်း မရှိခြင်း",
+            "Urban ဒေသများတွင် နေထိုင်သော လူများ၏ Proportion သည် Concept တစ်ခုအနေဖြင့် Urbanisation နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 13's density-versus-distribution distinction -- a proportion (share of the whole) measures something different from a raw total number.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13 ၏ Density-Versus-Distribution ခွဲခြားချက်ကို တိုက်ရိုက် သတိရစေသည် -- Proportion တစ်ခု (တစ်ခုလုံး၏ ဝေစု) သည် Raw Total Number တစ်ခုနှင့် ကွဲပြားသော အရာကို တိုင်းတာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does a 'settlement hierarchy' describe, and why is it useful for understanding how settlements of different sizes relate to each other?",
+          questionMy:
+              "'Settlement Hierarchy' က အဘယ်အရာကို ဖော်ပြသနည်း၊ အရွယ်အစား မတူညီသော Settlement များ တစ်ခုနှင့်တစ်ခု မည်သို့ ဆက်နွှယ်သည်ကို နားလည်ရန် ဤသည် အသုံးဝင်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It ranks settlements by size and function (hamlet, village, town, city), showing how smaller settlements typically depend on larger ones for higher-order services",
+            "A settlement hierarchy has no actual connection to settlement size or function",
+            "Every settlement in a hierarchy is always exactly the same size with no variation",
+            "Settlement hierarchies only apply to rural areas, never urban ones",
+          ],
+          optionsMy: [
+            "၎င်းသည် Settlement များကို အရွယ်အစားနှင့် Function (Hamlet, Village, Town, City) ဖြင့် Rank ချပြီး Settlement ငယ်များသည် Higher-Order Service များအတွက် Settlement ကြီးများကို ပုံမှန်အားဖြင့် မှီခိုကြောင်း ပြသသည်",
+            "Settlement Hierarchy သည် Settlement Size (သို့) Function နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Hierarchy ရှိ Settlement တိုင်းသည် Variation မပါဘဲ အမြဲ အရွယ်အစားတူ ဖြစ်ခြင်း",
+            "Settlement Hierarchy များသည် Rural ဒေသများနှင့်သာ သက်ဆိုင်ပြီး Urban တစ်ခုနှင့်မျှ ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a small village needing to travel to a larger town for a hospital, and that town in turn depending on a major city for a university -- each level provides higher-order services to the levels below it.",
+          ],
+          hintsMy: [
+            "ဆေးရုံတစ်ခုအတွက် မြို့ကြီးတစ်ခုသို့ သွားရန် လိုအပ်သော ရွာငယ်တစ်ခုနှင့် University တစ်ခုအတွက် မြို့ကြီးတစ်ခုကို မှီခိုသော ထို မြို့တစ်ခုကို တွေးကြည့်ပါ -- Level တစ်ခုစီသည် ၎င်းအောက်ရှိ Level များသို့ Higher-Order Service များ ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does rural-urban migration, studied last week, connect directly to urbanisation as a broader geographical trend?",
+          questionMy:
+              "ယခင်အပတ်က လေ့လာခဲ့သော Rural-Urban Migration သည် ကျယ်ပြန့်သော ဂျီဩဂရာဖီဆိုင်ရာ Trend တစ်ခုအဖြစ် Urbanisation နှင့် တိုက်ရိုက် ချိတ်ဆက်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Individual rural-urban migration decisions, repeated across millions of people, are precisely the mechanism that drives national and global urbanisation trends over time",
+            "Rural-urban migration has no actual connection to urbanisation whatsoever",
+            "Urbanisation happens entirely independently of any individual migration decisions",
+            "Rural-urban migration and urbanisation are always exactly the same measurement",
+          ],
+          optionsMy: [
+            "လူသန်းများစွာတစ်လျှောက် ထပ်ခါထပ်ခါ ဖြစ်ပျက်သော Individual Rural-Urban Migration ဆုံးဖြတ်ချက်များသည် အချိန်ကြာလာသည်နှင့်အမျှ National နှင့် Global Urbanisation Trend များကို တွန်းအားပေးသော Mechanism အတိအကျ ဖြစ်သည်",
+            "Rural-Urban Migration သည် Urbanisation နှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "Urbanisation သည် Individual Migration ဆုံးဖြတ်ချက် မည်သည်ကိုမျှ လွတ်လပ်စွာ လုံးလုံးလျားလျား ဖြစ်ပျက်ခြင်း",
+            "Rural-Urban Migration နှင့် Urbanisation သည် အတိအကျ တိုင်းတာချက် တူတူ အမြဲ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 14's individual-level push-pull decisions to Week 15's larger-scale pattern -- the same mechanism operating at two different scales of analysis.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 14 ၏ Individual-Level Push-Pull ဆုံးဖြတ်ချက်များကို Week 15 ၏ ကြီးမားသော Scale Pattern သို့ ချိတ်ဆက်သည် -- Analysis ၏ Scale ကွဲပြားနှစ်ခုတွင် လုပ်ဆောင်နေသော Mechanism တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Urbanisation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Urbanisation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w15-dm-1",
+          termEn: "Urbanisation",
+          termMy: "Urbanisation",
+          matchEn:
+              "The increasing proportion of a population living in urban areas",
+          matchMy:
+              "Urban ဒေသများတွင် နေထိုင်သော Population ၏ တိုးလာသော Proportion",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w15-dm-2",
+          termEn: "Settlement hierarchy",
+          termMy: "Settlement Hierarchy",
+          matchEn:
+              "A ranking of settlements by size and the services they provide",
+          matchMy:
+              "Settlement များကို Size နှင့် ၎င်းတို့ ပေးအပ်သော Service များဖြင့် Ranking",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w15-dm-3",
+          termEn: "Higher-order service",
+          termMy: "Higher-Order Service",
+          matchEn:
+              "A specialized service (e.g. a university) only found in larger settlements",
+          matchMy:
+              "Settlement ကြီးများတွင်သာ တွေ့ရသော Specialized Service (ဥပမာ - University)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w15-dm-4",
+          termEn: "Mega-city",
+          termMy: "Mega-City",
+          matchEn: "A city with a population of over ten million people",
+          matchMy: "လူဦးရေ ဆယ်သန်း ကျော်သော မြို့",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Higher Level or Lower Level of the Settlement Hierarchy?",
+      titleMy:
+          "စီစစ်ကြမည် - Settlement Hierarchy ၏ Higher Level (သို့) Lower Level",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Higher Level of the Hierarchy",
+          "Lower Level of the Hierarchy",
+        ],
+        bucketsMy: ["Hierarchy ၏ Higher Level", "Hierarchy ၏ Lower Level"],
+        items: [
+          SortingItem(
+            id: "igchum-w15-sort-1",
+            labelEn:
+                "A major city with a university, international airport, and specialist hospitals",
+            labelMy:
+                "University, International Airport နှင့် Specialist ဆေးရုံများ ပါဝင်သော မြို့ကြီးတစ်ခု",
+            correctBucketEn: "Higher Level of the Hierarchy",
+            correctBucketMy: "Hierarchy ၏ Higher Level",
+          ),
+          SortingItem(
+            id: "igchum-w15-sort-2",
+            labelEn: "A small hamlet with only a few houses and no shops",
+            labelMy:
+                "အိမ် အနည်းငယ်သာ ပါဝင်ပြီး ဆိုင် မည်သည်မှ မရှိသော Hamlet ငယ်တစ်ခု",
+            correctBucketEn: "Lower Level of the Hierarchy",
+            correctBucketMy: "Hierarchy ၏ Lower Level",
+          ),
+          SortingItem(
+            id: "igchum-w15-sort-3",
+            labelEn:
+                "A regional city with a large hospital and a shopping center",
+            labelMy:
+                "ဆေးရုံကြီးတစ်ခုနှင့် Shopping Center တစ်ခု ပါဝင်သော Regional မြို့တစ်ခု",
+            correctBucketEn: "Higher Level of the Hierarchy",
+            correctBucketMy: "Hierarchy ၏ Higher Level",
+          ),
+          SortingItem(
+            id: "igchum-w15-sort-4",
+            labelEn:
+                "A village with only a small local shop and a primary school",
+            labelMy:
+                "Local ဆိုင်ငယ်တစ်ခုနှင့် မူလတန်း ကျောင်းတစ်ခုသာ ပါဝင်သော ရွာတစ်ရွာ",
+            correctBucketEn: "Lower Level of the Hierarchy",
+            correctBucketMy: "Hierarchy ၏ Lower Level",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung Maps a Settlement Hierarchy",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Settlement Hierarchy Mapping",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung Maps a Settlement Hierarchy",
+        titleMy: "Thiha Aung ၏ Settlement Hierarchy Mapping",
+        passageEn:
+            "For Week 15, Saya Tun Tun Win asked students to map the settlement hierarchy surrounding their own region, plotting each settlement's size and available services to build a real-world example of Tuesday's abstract concept. Thiha Aung identified four levels in his own region: several small villages, a market town, a regional city, and, further away, the national capital.\n\nHis fieldwork confirmed Tuesday's higher-order-services lesson precisely: the small villages had only basic shops and a primary school, families needing a hospital or secondary school had to travel to the market town, and anyone needing a specialist hospital department or a university had to travel all the way to the regional city or capital. This confirmed that each level of the hierarchy depended on higher levels for increasingly specialized services.\n\nApplying Monday's urbanisation-versus-population-growth distinction, Thiha Aung researched historical data showing his region's market town had grown substantially in total population over two decades, but he calculated that its share of the region's overall population had actually stayed roughly constant, since the surrounding villages had grown at a similar rate. He correctly concluded that the town had experienced population growth, but the region overall had not experienced significant urbanisation, since the urban proportion had not meaningfully increased.\n\nApplying Wednesday's lesson connecting migration to urbanisation, Thiha Aung's final analysis noted that this pattern differed sharply from the regional city, which actually was experiencing genuine urbanisation, driven by exactly the kind of rural-urban migration decisions he had studied in his uncle's story the week before -- families moving there specifically for its higher-order jobs, hospitals, and schools. Saya Tun Tun Win praised the fieldwork for correctly applying the precise vocabulary distinctions from the whole week to real, locally observed data rather than only textbook examples.",
+        passageMy:
+            "Week 15 အတွက် ၎င်းတို့ ကိုယ်ပိုင် ဒေသ ပတ်ဝန်းကျင်ရှိ Settlement Hierarchy ကို Map ဆွဲရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး Settlement တစ်ခုစီ၏ Size နှင့် ရရှိနိုင်သော Service များကို ဆွဲကာ အင်္ဂါနေ့ Abstract Concept ၏ Real-World ဥပမာတစ်ခု တည်ဆောက်ခဲ့သည်။ ၎င်းကိုယ်ပိုင် ဒေသတွင် Level လေးခု Thiha Aung ဖော်ထုတ်ခဲ့သည် - ရွာငယ်များစွာ၊ ဈေးမြို့ငယ်တစ်ခု၊ Regional မြို့တစ်ခုနှင့် ပို၍ ဝေးသော နိုင်ငံ၏ Capital။\n\nAlt Higher-Order-Services သင်ခန်းစာ ကို ၎င်း၏ Fieldwork အတိအကျ အတည်ပြုခဲ့သည် - ရွာငယ်များတွင် အခြေခံ ဆိုင်များနှင့် မူလတန်း ကျောင်းတစ်ခုသာ ရှိပြီး ဆေးရုံ (သို့) အထက်တန်း ကျောင်း လိုအပ်သော မိသားစုများသည် ဈေးမြို့ငယ်သို့ ခရီးသွားခဲ့ရပြီး Specialist ဆေးရုံ Department (သို့) University လိုအပ်သူတိုင်းသည် Regional မြို့ (သို့) Capital သို့ တစ်လျှောက်လုံး ခရီးသွားခဲ့ရသည်။ Hierarchy ၏ Level တစ်ခုစီသည် ပို၍ Specialized Service များအတွက် Higher Level များကို မှီခိုကြောင်း ဤသည် အတည်ပြုခဲ့သည်။\n\nUrbanisation-Versus-Population-Growth ခွဲခြားချက် တနင်္လာနေ့ကို အသုံးချကာ ၎င်း၏ ဒေသ၏ ဈေးမြို့ငယ်သည် ဆယ်စုနှစ်နှစ်ခုအတွင်း Total Population ၌ သိသိသာသာ ကြီးထွားခဲ့ကြောင်း ပြသသော သမိုင်းဆိုင်ရာ Data ကို Thiha Aung သုတေသနပြုလုပ်ခဲ့သော်လည်း ပတ်ဝန်းကျင်ရွာများသည် အလားတူ နှုန်းဖြင့် ကြီးထွားခဲ့သောကြောင့် ဒေသ၏ Overall Population ၏ Share သည် အမှန်တကယ် ခန့်မှန်းချက်အားဖြင့် ကျန်ရစ်ခဲ့ကြောင်း ၎င်း တွက်ချက်ခဲ့သည်။ မြို့ငယ်သည် Population Growth ကို ကြုံတွေ့ခဲ့သော်လည်း Urban Proportion သည် အဓိပ္ပာယ်ရှိစွာ တိုးလာခဲ့ခြင်း မရှိသောကြောင့် ဒေသ Overall သည် သိသာသော Urbanisation ကို ကြုံတွေ့ခဲ့ခြင်း မရှိကြောင်း ၎င်း မှန်ကန်စွာ ကောက်ချက်ချခဲ့သည်။\n\nMigration ကို Urbanisation နှင့် ချိတ်ဆက်ထားသော ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ နောက်ဆုံး Analysis သည် ဤ Pattern သည် Regional မြို့နှင့် ပြင်းထန်စွာ ကွဲပြားကြောင်း မှတ်ချက်ပြုခဲ့သည် - Regional မြို့သည် ယခင်အပတ်က ၎င်း၏ ဦးလေး၏ ဇာတ်လမ်းတွင် ၎င်း လေ့လာခဲ့သော Rural-Urban Migration ဆုံးဖြတ်ချက် အမျိုးအစားတူတူက Drive ပြုလုပ်သော စစ်မှန်သော Urbanisation ကို အမှန်တကယ် ကြုံတွေ့နေခဲ့ခြင်း -- ၎င်း၏ Higher-Order အလုပ်အကိုင်များ, ဆေးရုံများနှင့် ကျောင်းများအတွက် ထိုနေရာသို့ ရွှေ့ပြောင်းသော မိသားစုများ ဖြစ်သည်။ Textbook ဥပမာများသာမက Term တစ်ခုလုံးမှ တိကျသော ဝေါဟာရ ခွဲခြားချက်များကို Real, Locally Observed Data သို့ မှန်ကန်စွာ အသုံးချခဲ့သောကြောင့် Fieldwork ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung's fieldwork confirm about the settlement hierarchy?",
+            questionMy:
+                "Settlement Hierarchy အကြောင်း Thiha Aung ၏ Fieldwork အတည်ပြုခဲ့သည့် အချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each level depended on higher levels for increasingly specialized services",
+              "Every settlement offered exactly the same services with no difference",
+              "Villages had more specialist services than the capital city",
+              "There was no actual hierarchy present in the region at all",
+            ],
+            optionsMy: [
+              "Level တစ်ခုစီသည် ပို၍ Specialized Service များအတွက် Higher Level များကို မှီခိုခဲ့ခြင်း",
+              "Settlement တိုင်းသည် ခြားနားချက် မပါဘဲ Service တူတူကို ပေးအပ်ခဲ့ခြင်း",
+              "ရွာများတွင် Capital City ထက် Specialist Service ပို၍ ရှိခဲ့ခြင်း",
+              "ဒေသတွင် Hierarchy အမှန်တကယ် မည်သည်မှ ရှိနေခြင်း မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's fieldwork findings."],
+            hintsMy: [
+              "Fieldwork တွေ့ရှိချက်များကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiha Aung conclude the market town had grown but not urbanised?",
+            questionMy:
+                "ဈေးမြို့ငယ်သည် ကြီးထွားခဲ့သော်လည်း Urbanise မဖြစ်ခဲ့ကြောင်း Thiha Aung ကောက်ချက်ချခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its share of the region's population stayed roughly constant since villages grew at a similar rate",
+              "Its total population had actually decreased significantly",
+              "The town had no population of any kind whatsoever",
+              "Urbanisation and population growth are always identical concepts",
+            ],
+            optionsMy: [
+              "ရွာများသည် အလားတူ နှုန်းဖြင့် ကြီးထွားခဲ့သောကြောင့် ဒေသ၏ Population ၏ Share သည် ခန့်မှန်းချက်အားဖြင့် ကျန်ရစ်ခဲ့ခြင်း",
+              "၎င်း၏ Total Population သည် အမှန်တကယ် သိသိသာသာ လျော့ကျခဲ့ခြင်း",
+              "မြို့တွင် Population မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+              "Urbanisation နှင့် Population Growth သည် အမြဲ တစ်ခုတည်းသော Concept တူတူ ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what was driving genuine urbanisation in the regional city?",
+            questionMy:
+                "Regional မြို့တွင် စစ်မှန်သော Urbanisation ကို Drive ပြုလုပ်နေသည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rural-urban migration decisions similar to his uncle's story from the previous week",
+              "A complete absence of any migration into the city",
+              "Families moving away from the regional city entirely",
+              "No factor was identified as driving any change at all",
+            ],
+            optionsMy: [
+              "ယခင်အပတ်မှ ၎င်း၏ ဦးလေး၏ ဇာတ်လမ်းနှင့် ဆင်တူသော Rural-Urban Migration ဆုံးဖြတ်ချက်များ",
+              "မြို့ထဲသို့ Migration မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "မိသားစုများ Regional မြို့မှ လုံးဝ ရွှေ့ပြောင်းသွားခြင်း",
+              "ပြောင်းလဲမှု မည်သည်ကိုမျှ Drive ပြုလုပ်ကြောင်း Factor မည်သည်မှ ဖော်ထုတ်ခြင်း မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's connection to migration."],
+            hintsMy: [
+              "Migration နှင့် ချိတ်ဆက်ချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w15-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Urbanisation and Settlement Hierarchies",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Urbanisation နှင့် Settlement Hierarchy များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Urbanisation specifically measures...",
+          questionMy: "Urbanisation သည် အထူးသဖြင့် ...ကို တိုင်းတာသည်",
+          optionsEn: [
+            "The increasing proportion of a population living in urban areas",
+            "The total number of cities in a country with no proportion involved",
+            "A country's total land area",
+            "Only rural population with no reference to cities",
+          ],
+          optionsMy: [
+            "Urban ဒေသများတွင် နေထိုင်သော Population ၏ တိုးလာသော Proportion",
+            "Proportion မပါဘဲ နိုင်ငံတစ်ခုရှိ မြို့ Total အရေအတွက်",
+            "နိုင်ငံတစ်ခု၏ Total Land Area",
+            "မြို့များသို့ ရည်ညွှန်းချက် မပါဘဲ Rural Population တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a settlement hierarchy, smaller settlements typically...",
+          questionMy:
+              "Settlement Hierarchy တစ်ခုတွင် Settlement ငယ်များသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Depend on larger settlements for higher-order services",
+            "Offer more specialist services than large cities",
+            "Have no connection to larger settlements whatsoever",
+            "Are always exactly the same size as major cities",
+          ],
+          optionsMy: [
+            "Higher-Order Service များအတွက် Settlement ကြီးများကို မှီခိုသည်",
+            "မြို့ကြီးများထက် Specialist Service ပို၍ ပေးအပ်ခြင်း",
+            "Settlement ကြီးများနှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "မြို့ကြီးများနှင့် အမြဲ အရွယ်အစားတူ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rural-urban migration connects to urbanisation because...",
+          questionMy:
+              "Rural-Urban Migration သည် Urbanisation နှင့် ချိတ်ဆက်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Repeated individual migration decisions drive the broader urbanisation trend",
+            "The two concepts have no actual relationship at all",
+            "Urbanisation happens entirely without any human movement",
+            "Migration only ever moves people from cities to villages",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါ Individual Migration ဆုံးဖြတ်ချက်များသည် ကျယ်ပြန့်သော Urbanisation Trend ကို Drive ပြုလုပ်ခြင်း",
+            "Concept နှစ်ခုသည် ဆက်ဆံရေး အမှန်တကယ် လုံးဝ မရှိခြင်း",
+            "Urbanisation သည် လူသား ရွေ့လျားမှု မည်သည်မှ မပါဘဲ လုံးလုံးလျားလျား ဖြစ်ပျက်ခြင်း",
+            "Migration သည် လူများကို မြို့များမှ ရွာများသို့ တစ်ခုတည်းသာ ရွှေ့လျားစေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 4, Week 16 (Capstone/Boss Week): "City
+// Growth Case Study Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek16 = CourseWeekDef(
+  id: "course-igcse-hum-w16",
+  weekNumber: 16,
+  titleEn: "City Growth Case Study Studio",
+  titleMy: "City Growth Case Study Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w16-d1",
+      dayNumber: 1,
+      titleEn:
+          "Combining Population, Migration, and Urbanisation into One Case Study",
+      titleMy:
+          "Population, Migration နှင့် Urbanisation ကို Case Study တစ်ခုတည်း၌ ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does a complete explanation of a specific city's rapid growth typically require examining population distribution, migration factors, and urbanisation data together rather than any one alone?",
+          questionMy:
+              "မြို့တိကျတစ်ခု၏ လျင်မြန်သော ကြီးထွားမှုကို ပြည့်စုံသော ရှင်းလင်းချက်တစ်ခုသည် Population Distribution, Migration Factor များနှင့် Urbanisation Data ကို တစ်ခုတည်းမှလွဲ၍ ပုံမှန်အားဖြင့် အတူတကွ စစ်ဆေးရန် လိုအပ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each concept explains a different piece of the puzzle -- why the location was suitable, why specific people chose to move there, and how the proportional urban share actually changed -- together forming a complete picture",
+            "Only one of these three concepts is ever actually relevant to explaining city growth",
+            "Population distribution, migration, and urbanisation have no actual connection to each other",
+            "A complete explanation should always rely on just one concept while ignoring the others entirely",
+          ],
+          optionsMy: [
+            "Concept တစ်ခုစီသည် Puzzle ၏ ကွဲပြားသော အပိုင်းတစ်ခုကို ရှင်းပြသည် -- တည်နေရာ ဘာကြောင့် သင့်လျော်ခဲ့သည်, တိကျသော လူများ ဘာကြောင့် ထိုနေရာသို့ ရွှေ့ပြောင်းရန် ရွေးချယ်ခဲ့သည်နှင့် Proportional Urban Share သည် အမှန်တကယ် မည်သို့ ပြောင်းလဲခဲ့သည် -- အတူတကွ ပြည့်စုံသော ပုံရိပ်တစ်ခု ဖွဲ့စည်းသည်",
+            "Concept သုံးခုအနက် တစ်ခုတည်းသာ မြို့ ကြီးထွားမှု ရှင်းပြရာတွင် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခြင်း",
+            "Population Distribution, Migration နှင့် Urbanisation သည် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ပြည့်စုံသော ရှင်းလင်းချက် တစ်ခုသည် Concept တစ်ခုတည်းကိုသာ အမြဲ အားကိုးပြီး အခြားများကို လုံးဝ လျစ်လျူရှုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same multi-factor discipline from Term 2's MAIN causes and Term 3's causal chain to a geographical question -- each of the three weeks' concepts answers a distinct part of the question.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ MAIN Cause များနှင့် Term 3 ၏ Causal Chain မှ Multi-Factor Discipline တူတူကို ဂျီဩဂရာဖီဆိုင်ရာ မေးခွန်းတစ်ခုသို့ အသုံးချသည် -- Week သုံးခု၏ Concept တစ်ခုစီသည် မေးခွန်း၏ ကွဲပြားသော အပိုင်းတစ်ခုကို ဖြေဆိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a city growth case study distinguish between the growth caused by natural increase (more births than deaths) and growth caused by in-migration?",
+          questionMy:
+              "City Growth Case Study တစ်ခုသည် Natural Increase (Birth များ Death များထက် ပို၍ ရှိခြင်း) က ဖြစ်စေသော Growth နှင့် In-Migration က ဖြစ်စေသော Growth ကို ခွဲခြားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "These are two genuinely distinct mechanisms with different policy implications, and conflating them would misrepresent what is actually driving a city's specific growth pattern",
+            "Natural increase and in-migration are always exactly the same process with no distinction needed",
+            "Only migration can ever cause any population growth in a city",
+            "This distinction has no actual analytical value in a geographical case study",
+          ],
+          optionsMy: [
+            "ဤသည်တို့သည် မတူညီသော Policy Implication ရှိသော စစ်မှန်စွာ ကွဲပြားသော Mechanism နှစ်ခု ဖြစ်ပြီး ၎င်းတို့ကို ရောနှောလိုက်ခြင်းသည် မြို့တစ်ခု၏ တိကျသော Growth Pattern ကို အမှန်တကယ် Drive ပြုလုပ်နေသည်ကို မှားယွင်းစွာ ကိုယ်စားပြုလိမ့်မည်",
+            "Natural Increase နှင့် In-Migration သည် ခွဲခြားရန် မလိုအပ်ဘဲ အမြဲ တစ်ခုတည်းသော Process တူတူ ဖြစ်ခြင်း",
+            "Migration တစ်ခုတည်းသာ မြို့တစ်ခုတွင် Population Growth မည်သည်ကိုမဆို ဘယ်တော့မှ ဖြစ်စေနိုင်ခြင်း",
+            "ဤ ခွဲခြားချက်သည် Geographical Case Study တစ်ခုတွင် အမှန်တကယ် Analytical တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A city growing mainly through migration needs different housing and job policies than one growing mainly through births -- the underlying cause matters for practical response, not just academic classification.",
+          ],
+          hintsMy: [
+            "အဓိကအားဖြင့် Migration မှတစ်ဆင့် ကြီးထွားနေသော မြို့တစ်ခုသည် Birth များမှတစ်ဆင့် အဓိက ကြီးထွားနေသော မြို့တစ်ခုနှင့် မတူညီသော အိမ်ရာနှင့် အလုပ်အကိုင် Policy များ လိုအပ်သည် -- အောက်ခံ Cause သည် Academic Classification တစ်ခုတည်းမက Practical Response အတွက် အရေးကြီးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a proposed policy response to rapid city growth explicitly consider its effects on both the growing city and the settlements it draws migrants away from?",
+          questionMy:
+              "မြို့ လျင်မြန်စွာ ကြီးထွားခြင်းအတွက် အဆိုပြု Policy တုံ့ပြန်မှုတစ်ခုသည် ကြီးထွားနေသော မြို့နှင့် Migrant များကို ဆွဲထုတ်နေသော Settlement များနှစ်ခုစလုံးအပေါ် ၎င်း၏ သက်ရောက်မှုများကို ရှင်းလင်းစွာ ထည့်သွင်းစဉ်းစားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Policies affecting migration have consequences at both ends of the movement -- the destination city and the origin settlements -- and ignoring either side would give an incomplete assessment of the policy's full impact",
+            "Policy responses should only ever consider the growing city and never the origin settlements",
+            "Origin settlements are never actually affected by out-migration in any way",
+            "A policy's effects are always identical regardless of which location is considered",
+          ],
+          optionsMy: [
+            "Migration ကို သက်ရောက်စေသော Policy များသည် ရွေ့လျားမှု၏ ဘက်နှစ်ဘက်စလုံး -- Destination မြို့နှင့် Origin Settlement များ -- တွင် ရလဒ်များ ရှိပြီး ဘက်တစ်ဘက်ကို လျစ်လျူရှုပါက Policy ၏ Full Impact ၏ မပြည့်စုံသော Assessment တစ်ခု ပေးအပ်လိမ့်မည်",
+            "Policy တုံ့ပြန်မှုများသည် ကြီးထွားနေသော မြို့ကိုသာ ထည့်သွင်းစဉ်းစားပြီး Origin Settlement များကို ဘယ်တော့မှ ထည့်သွင်းစဉ်းစားခြင်း မပြုလုပ်သင့်ခြင်း",
+            "Origin Settlement များသည် Out-Migration က မည်သည့်နည်းနှင့်မျှ အမှန်တကယ် ဘယ်တော့မှ မသက်ရောက်ခြင်း",
+            "Location ကို ထည့်သွင်းစဉ်းစားသည် မည်သို့ပင်ရှိစေ Policy တစ်ခု၏ သက်ရောက်မှုများသည် အမြဲ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 24's honest, balanced trade-off reasoning (from earlier in this course's overall approach) -- a responsible policy assessment names effects on all affected parties, not just the most visible one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Course ၏ Overall Approach ယခင်က Week 24 ၏ ရိုးသား၊ Balanced Trade-Off Reasoning နှင့် ချိတ်ဆက်သည် -- တာဝန်ရှိသော Policy Assessment တစ်ခုသည် သိသာမြင်သာဆုံး တစ်ခုတည်းမက ထိခိုက်ခံရသော Party အားလုံးအပေါ် သက်ရောက်မှုများကို အမည်တပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Population Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 4 Population ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w16-dm-1",
+          termEn: "Natural increase",
+          termMy: "Natural Increase",
+          matchEn: "Population growth resulting from more births than deaths",
+          matchMy:
+              "Death များထက် Birth များ ပို၍ ရှိခြင်းမှ ဖြစ်ပေါ်လာသော Population Growth",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w16-dm-2",
+          termEn: "In-migration",
+          termMy: "In-Migration",
+          matchEn: "People moving into a settlement, increasing its population",
+          matchMy:
+              "Settlement တစ်ခုထဲသို့ ရွေ့လျားနေသော လူများ၊ ၎င်း၏ Population ကို တိုးမြှင့်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w16-dm-3",
+          termEn: "Origin settlement",
+          termMy: "Origin Settlement",
+          matchEn:
+              "The place migrants leave, which experiences its own population effects",
+          matchMy:
+              "Migrant များ ထွက်ခွာသောနေရာ၊ ၎င်းကိုယ်ပိုင် Population သက်ရောက်မှုများ ကြုံတွေ့သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w16-dm-4",
+          termEn: "Balanced policy assessment",
+          termMy: "Balanced Policy Assessment",
+          matchEn:
+              "Evaluating effects on all affected parties, not just the most visible one",
+          matchMy:
+              "သိသာမြင်သာဆုံး တစ်ခုတည်းမက ထိခိုက်ခံရသော Party အားလုံးအပေါ် သက်ရောက်မှုများကို အကဲဖြတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Natural Increase or Migration-Driven Growth?",
+      titleMy: "စီစစ်ကြမည် - Natural Increase (သို့) Migration-Driven Growth",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Natural Increase", "Migration-Driven Growth"],
+        bucketsMy: ["Natural Increase", "Migration-Driven Growth"],
+        items: [
+          SortingItem(
+            id: "igchum-w16-sort-1",
+            labelEn:
+                "A city's birth rate substantially exceeding its death rate each year",
+            labelMy:
+                "မြို့တစ်ခု၏ Birth Rate သည် နှစ်စဉ် Death Rate ကို သိသိသာသာ ကျော်လွန်ခြင်း",
+            correctBucketEn: "Natural Increase",
+            correctBucketMy: "Natural Increase",
+          ),
+          SortingItem(
+            id: "igchum-w16-sort-2",
+            labelEn:
+                "Thousands of rural families relocating to the city for factory jobs",
+            labelMy:
+                "Factory အလုပ်များအတွက် မြို့သို့ ပြောင်းရွှေ့နေသော ကျေးလက် မိသားစု ထောင်ချီ",
+            correctBucketEn: "Migration-Driven Growth",
+            correctBucketMy: "Migration-Driven Growth",
+          ),
+          SortingItem(
+            id: "igchum-w16-sort-3",
+            labelEn:
+                "A stable population where families have grown for generations without significant in-migration",
+            labelMy:
+                "သိသာသော In-Migration မပါဘဲ မိသားစုများ မျိုးဆက်များစွာတစ်လျှောက် ကြီးထွားလာသော တည်ငြိမ်သော Population",
+            correctBucketEn: "Natural Increase",
+            correctBucketMy: "Natural Increase",
+          ),
+          SortingItem(
+            id: "igchum-w16-sort-4",
+            labelEn:
+                "A surge of refugees settling in a city due to conflict elsewhere",
+            labelMy:
+                "အခြားနေရာတွင် Conflict ကြောင့် မြို့တစ်ခုတွင် အခြေချနေသော Refugee ဒလစီး",
+            correctBucketEn: "Migration-Driven Growth",
+            correctBucketMy: "Migration-Driven Growth",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's City Growth Case Study",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ City Growth Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's City Growth Case Study",
+        titleMy: "Thiha Aung ၏ City Growth Case Study",
+        passageEn:
+            "For Term 4's capstone, Saya Tun Tun Win asked every student to produce a complete case study explaining a real, rapidly growing city's expansion, combining population distribution, migration, and urbanisation concepts from across the term into one coherent analysis. Thiha Aung chose a mid-sized coastal city that had roughly tripled in population over two decades.\n\nApplying Week 13's population-distribution lesson, he first explained the city's underlying suitability: a natural harbor, flat surrounding land, and reliable freshwater access had made it a favorable location for settlement long before its recent rapid growth, exactly the physical-factor reasoning studied earlier in the term. But suitability alone did not explain why growth accelerated so dramatically in the past twenty years specifically.\n\nApplying Week 16's Monday lesson on distinguishing growth causes, Thiha Aung's research found that natural increase explained only a modest share of the city's growth; the majority came from in-migration, which he traced using Week 14's push-pull framework -- a series of poor harvests in surrounding farming regions (push) combined with the city's expanding port-related industries offering new jobs (pull). This in turn confirmed genuine urbanisation exactly as Week 15 had defined it: the city's share of the wider region's total population had risen substantially, not just its raw population count.\n\nHis final section applied Wednesday's lesson on balanced policy assessment, examining both sides of the migration: the city benefited from a larger workforce but faced housing and infrastructure strain, while the origin farming regions lost working-age population but gained remittance income sent back by migrants to support family members who stayed. Saya Tun Tun Win praised the case study specifically for weaving every concept from the term into a single, coherent explanation of one real place, rather than treating population, migration, and urbanisation as separate, disconnected topics.",
+        passageMy:
+            "Term 4 Capstone အတွက် Term တစ်ခုလုံးမှ Population Distribution, Migration နှင့် Urbanisation Concept များကို Analysis တစ်ခုတည်း ညီညွတ်စွာ ပေါင်းစပ်ကာ Real, Rapidly Growing City တစ်ခု၏ ချဲ့ထွင်မှုကို ရှင်းပြသော Case Study အပြည့်အစုံ ထုတ်လုပ်ရန် ကျောင်းသားတိုင်းကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ ဆယ်စုနှစ်နှစ်ခုအတွင်း Population ခန့်မှန်းချက်အားဖြင့် သုံးဆ ကြီးထွားခဲ့သော အလယ်အလတ် အရွယ်အစား ကမ်းရိုးတန်း မြို့တစ်ခုကို Thiha Aung ရွေးချယ်ခဲ့သည်။\n\nWeek 13 ၏ Population-Distribution သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ကျောခံ Suitability ကို ဦးစွာ ရှင်းပြခဲ့သည် - သဘာဝ ဆိပ်ကမ်းတစ်ခု, ပတ်ဝန်းကျင် ညီညာသော မြေနှင့် ယုံကြည်ရသော သန့်ရေ Access သည် Term အစောပိုင်းတွင် လေ့လာခဲ့သော Physical-Factor Reasoning အတိအကျအတိုင်း ၎င်း၏ လတ်တလော လျင်မြန်သော ကြီးထွားမှုမတိုင်မီ ကြာမြင့်စွာက Settlement အတွက် Favorable Location တစ်ခုအဖြစ် ဖြစ်စေခဲ့သည်။ သို့သော် Suitability တစ်ခုတည်းသည် လွန်ခဲ့သော နှစ် ၂၀ ကာလအတွင်း Growth ဘာကြောင့် Dramatic Accelerate ဖြစ်ခဲ့ကြောင်း အထူးသဖြင့် ရှင်းပြခဲ့ခြင်း မရှိပါ။\n\nGrowth Cause များ ခွဲခြားခြင်းအကြောင်း Week 16 ၏ တနင်္လာနေ့ သင်ခန်းစာကို အသုံးချကာ Natural Increase သည် မြို့၏ Growth ၏ Modest Share တစ်ခုကိုသာ ရှင်းပြကြောင်း Thiha Aung ၏ သုတေသနက တွေ့ရှိခဲ့သည်; အများစုသည် In-Migration မှ လာခဲ့ပြီး Week 14 ၏ Push-Pull Framework ကို အသုံးပြု၍ ၎င်း ခြေရာခံခဲ့သည် -- ပတ်ဝန်းကျင် Farming ဒေသများတွင် ညံ့ဖျင်းသော ရိတ်သိမ်းသီးနှံများ ဆက်တိုက် (Push) သည် အလုပ်အကိုင်အသစ်များ ပေးအပ်သော မြို့၏ ချဲ့ထွင်နေသော Port-Related လုပ်ငန်းများ (Pull) နှင့် ပေါင်းစပ်ခဲ့သည်။ ဤသည် Week 15 အဓိပ္ပာယ် ဖွင့်ဆိုထားသည့်အတိုင်း စစ်မှန်သော Urbanisation ကို အတည်ပြုခဲ့သည် - ၎င်း၏ Raw Population Count တစ်ခုတည်းမက ကျယ်ပြန့်သော ဒေသ၏ Total Population ၏ Share သည် သိသိသာသာ တက်လာခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး Section သည် Balanced Policy Assessment အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ Migration ၏ ဘက်နှစ်ဘက်စလုံးကို စစ်ဆေးခဲ့သည် - မြို့သည် Workforce ကြီးမားသည်ကို အကျိုးရရှိခဲ့သော်လည်း Housing နှင့် Infrastructure ဖိစီးမှုကို ရင်ဆိုင်ခဲ့ပြီး Origin Farming ဒေသများသည် အလုပ်လုပ်ရသော အသက်အရွယ် Population ဆုံးရှုံးခဲ့သော်လည်း ကျန်ရစ်ခဲ့သော မိသားစုဝင်များကို ပံ့ပိုးရန် Migrant များ ပြန်ပို့ပေးသော Remittance ဝင်ငွေ ရရှိခဲ့သည်။ Population, Migration နှင့် Urbanisation ကို ကွဲပြား၊ ဆက်စပ်မှု မရှိသော ခေါင်းစဉ်များအဖြစ် ဆက်ဆံမည့်အစား Real နေရာတစ်ခု၏ ညီညွတ်သော ရှင်းလင်းချက် တစ်ခုတည်း အဖြစ် Term ၏ Concept တိုင်းကို ရက်ချစပ်ခဲ့သောကြောင့် Case Study ကို Saya Tun Tun Win အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what long-term suitability factors did Thiha Aung identify?",
+            questionMy:
+                "Thiha Aung ဖော်ထုတ်ခဲ့သော Long-Term Suitability Factor များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A natural harbor, flat surrounding land, and reliable freshwater access",
+              "A steep, mountainous terrain with no water source",
+              "No suitability factors were identified at all",
+              "A location with no access to any coastline",
+            ],
+            optionsMy: [
+              "သဘာဝ ဆိပ်ကမ်းတစ်ခု, ပတ်ဝန်းကျင် ညီညာသော မြေနှင့် ယုံကြည်ရသော သန့်ရေ Access",
+              "ရေအရင်းအမြစ် မပါသော ချောက်ကမ်းပါး၊ တောင်ပေါ်ဒေသ",
+              "Suitability Factor မည်သည်မှ ဖော်ထုတ်ခြင်း လုံးဝ မရှိခြင်း",
+              "ကမ်းရိုးတန်း မည်သည်ကိုမျှ Access မရှိသော တည်နေရာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's suitability factors."],
+            hintsMy: [
+              "Suitability Factor များကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Thiha Aung find explained most of the city's growth?",
+            questionMy:
+                "မြို့၏ Growth အများစုကို ရှင်းပြသည်ဟု Thiha Aung တွေ့ရှိခဲ့သည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "In-migration driven by push and pull factors",
+              "Natural increase, with no migration involved at all",
+              "There was no explanation found for the city's growth",
+              "A decrease in the city's overall population",
+            ],
+            optionsMy: [
+              "Push နှင့် Pull Factor များက Drive ပြုလုပ်သော In-Migration",
+              "Migration မည်သည်မှ မပါဘဲ Natural Increase",
+              "မြို့၏ Growth အတွက် ရှင်းလင်းချက် မည်သည်မှ တွေ့ရှိခြင်း မရှိခဲ့ခြင်း",
+              "မြို့၏ Overall Population ၏ လျော့ကျခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's finding."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ တွေ့ရှိချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what effect did the origin farming regions experience?",
+            questionMy:
+                "Origin Farming ဒေသများ ကြုံတွေ့ခဲ့သော သက်ရောက်မှုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Lost working-age population but gained remittance income",
+              "Gained a much larger workforce with no losses of any kind",
+              "Experienced no effects of any kind from the migration",
+              "Saw an increase in local factory jobs directly",
+            ],
+            optionsMy: [
+              "အလုပ်လုပ်ရသော အသက်အရွယ် Population ဆုံးရှုံးခဲ့သော်လည်း Remittance ဝင်ငွေ ရရှိခဲ့ခြင်း",
+              "ဆုံးရှုံးမှု မည်သည်မှ မပါဘဲ Workforce ကြီးမားသည်ကို ရရှိခဲ့ခြင်း",
+              "Migration မှ သက်ရောက်မှု မည်သည်မှ ကြုံတွေ့ခဲ့ခြင်း မရှိခြင်း",
+              "Local Factory အလုပ်အကိုင်များ တိုက်ရိုက် တိုးလာသည်ကို တွေ့ရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's dual-sided assessment."],
+            hintsMy: [
+              "Dual-Sided Assessment ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: Population and Settlement Exam",
+      titleMy: "Term 4 Capstone - Population and Settlement စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete city growth explanation should combine...",
+          questionMy:
+              "ပြည့်စုံသော City Growth ရှင်းလင်းချက်တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Population distribution, migration factors, and urbanisation data",
+            "Only population distribution with no other factor",
+            "Only urbanisation data with no other factor",
+            "No geographical concepts of any kind",
+          ],
+          optionsMy: [
+            "Population Distribution, Migration Factor များနှင့် Urbanisation Data",
+            "အခြား Factor မပါဘဲ Population Distribution တစ်ခုတည်း",
+            "အခြား Factor မပါဘဲ Urbanisation Data တစ်ခုတည်း",
+            "ဂျီဩဂရာဖီဆိုင်ရာ Concept မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Distinguishing natural increase from migration matters because...",
+          questionMy:
+              "Natural Increase ကို Migration မှ ခွဲခြားခြင်း အရေးကြီးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "They have different policy implications and require different responses",
+            "They are always exactly the same process",
+            "Only migration can ever cause population change",
+            "This distinction has no analytical value whatsoever",
+          ],
+          optionsMy: [
+            "မတူညီသော Policy Implication ရှိပြီး မတူညီသော Response လိုအပ်ခြင်း",
+            "အမြဲ တစ်ခုတည်းသော Process တူတူ ဖြစ်ခြင်း",
+            "Migration တစ်ခုတည်းသာ Population ပြောင်းလဲမှုကို ဘယ်တော့မှ ဖြစ်စေနိုင်ခြင်း",
+            "ဤ ခွဲခြားချက်သည် Analytical တန်ဖိုး လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced policy assessment of migration should consider...",
+          questionMy:
+              "Migration ၏ Balanced Policy Assessment တစ်ခုသည် ...ကို ထည့်သွင်းစဉ်းစားသင့်သည်",
+          optionsEn: [
+            "Effects on both the destination city and the origin settlements",
+            "Only the destination city, ignoring the origin entirely",
+            "Only the origin settlement, ignoring the destination entirely",
+            "No location's effects at all",
+          ],
+          optionsMy: [
+            "Destination မြို့နှင့် Origin Settlement များ နှစ်ခုစလုံးအပေါ် သက်ရောက်မှုများ",
+            "Origin ကို လုံးဝ လျစ်လျူရှုကာ Destination မြို့ကိုသာ",
+            "Destination ကို လုံးဝ လျစ်လျူရှုကာ Origin Settlement ကိုသာ",
+            "Location မည်သည်၏ သက်ရောက်မှုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 4: "Population, Migration and
+// Settlement" (Weeks 13-16)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm4 = CourseTermDef(
+  id: "course-igcse-hum-t4",
+  termNumber: 4,
+  titleEn: "Population, Migration and Settlement",
+  titleMy: "Population, Migration နှင့် Settlement",
+  certificateTitleEn: "Population, Migration and Settlement",
+  certificateTitleMy: "Population, Migration နှင့် Settlement",
+  weeks: [_igcseHumWeek13, _igcseHumWeek14, _igcseHumWeek15, _igcseHumWeek16],
 );
 // __IGCSE_HUM_MARKER__
