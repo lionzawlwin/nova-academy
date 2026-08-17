@@ -143895,7 +143895,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Terms 5-9 not yet
+// IGCSE Computing -- full pathway definition. Terms 6-9 not yet
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
@@ -143906,15 +143906,16 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseComputingTerm1,
     _igcseComputingTerm2,
     _igcseComputingTerm3,
     _igcseComputingTerm4,
+    _igcseComputingTerm5,
   ],
 );
 // =====================================================================
@@ -146727,6 +146728,1339 @@ const CourseTermDef _igcseComputingTerm4 = CourseTermDef(
     _igcseComputingWeek14,
     _igcseComputingWeek15,
     _igcseComputingWeek16,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 5, Week 17: "Flowcharts and Algorithm
+// Design"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek17 = CourseWeekDef(
+  id: "course-igcse-computing-w17",
+  weekNumber: 17,
+  titleEn: "Flowcharts and Algorithm Design",
+  titleMy: "လုပ်ငန်းစဉ်ပြဇယားများနှင့် အယ်လဂိုရီသမ် ဒီဇိုင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w17-d1",
+      dayNumber: 1,
+      titleEn: "Flowchart Symbols and Trace Tables",
+      titleMy: "Flowchart သင်္ကေတများနှင့် Trace Tables",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a standard IGCSE flowchart, what shape represents a decision (a yes/no branching point)?",
+          questionMy:
+              "စံ IGCSE Flowchart တစ်ခုတွင် Decision (Yes/No ကွဲထွက်ရာ Point) ကို မည်သည့် ပုံသဏ္ဌာန်ဖြင့် ကိုယ်စားပြုသနည်း။",
+          optionsEn: [
+            "A diamond/rhombus",
+            "An oval",
+            "A rectangle",
+            "A parallelogram",
+          ],
+          optionsMy: ["Diamond/Rhombus", "Oval", "Rectangle", "Parallelogram"],
+          correctIndex: 0,
+          hintsEn: [
+            "The diamond shape has two exit paths, matching the two possible answers (yes/true or no/false) to a decision.",
+          ],
+          hintsMy: [
+            "Diamond ပုံသဏ္ဌာန်တွင် ထွက်ပေါက် လမ်းကြောင်း နှစ်ခု ရှိပြီး Decision တစ်ခု၏ ဖြစ်နိုင်သော အဖြေနှစ်ခု (Yes/True သို့မဟုတ် No/False) နှင့် ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the purpose of a trace table when testing an algorithm?",
+          questionMy:
+              "အယ်လဂိုရီသမ်တစ်ခုကို စမ်းသပ်ရာတွင် Trace Table ၏ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It records how each variable's value changes step by step as the algorithm runs, helping verify the logic is correct",
+            "It permanently deletes variables that are no longer needed",
+            "It converts the algorithm directly into a compiled program",
+            "It measures how fast the algorithm runs in milliseconds",
+          ],
+          optionsMy: [
+            "Algorithm Run ဖြစ်နေစဉ် Variable တစ်ခုစီ၏ တန်ဖိုး အဆင့်ဆင့် မည်သို့ ပြောင်းလဲကြောင်း မှတ်တမ်းတင်ပြီး Logic မှန်ကန်ခြင်း ရှိမရှိ အတည်ပြုရန် ကူညီသည်",
+            "မလိုအပ်တော့သော Variable များကို အမြဲတမ်း ဖျက်ချသည်",
+            "Algorithm ကို Compile လုပ်ထားသော Program တစ်ခုသို့ တိုက်ရိုက် ပြောင်းလဲသည်",
+            "Algorithm Run ဖြစ်ချိန်ကို Millisecond ဖြင့် တိုင်းတာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A trace table has one column per variable, and one row per step -- filling it in by hand reveals exactly what the algorithm actually does.",
+          ],
+          hintsMy: [
+            "Trace Table တွင် Variable တစ်ခုလျှင် Column တစ်ခုနှင့် Step တစ်ခုလျှင် Row တစ်ခု ရှိသည် -- လက်ဖြင့် ဖြည့်ခြင်းသည် Algorithm အမှန်တကယ် ပြုလုပ်သည့်အရာကို ရှင်းရှင်းလင်းလင်း ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which flowchart shape is used for an input or output operation, such as reading a value or displaying a result?",
+          questionMy:
+              "တန်ဖိုးတစ်ခု ဖတ်ခြင်း (သို့) ရလဒ်တစ်ခု ပြသခြင်း ကဲ့သို့ Input (သို့) Output Operation တစ်ခုအတွက် မည်သည့် Flowchart ပုံသဏ္ဌာန်ကို အသုံးပြုသနည်း။",
+          optionsEn: ["A parallelogram", "A diamond", "An oval", "A rectangle"],
+          optionsMy: ["Parallelogram", "Diamond", "Oval", "Rectangle"],
+          correctIndex: 0,
+          hintsEn: [
+            "Rectangles represent a general process/action; ovals mark start/end; parallelograms are specifically reserved for input/output.",
+          ],
+          hintsMy: [
+            "Rectangle များက ယေဘုယျ Process/Action ကို ကိုယ်စားပြုပြီး Oval များက Start/End ကို အမှတ်အသားပြုကာ Parallelogram များကို Input/Output အတွက် အထူးသီးသန့် သတ်မှတ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Flowchart and Algorithm Terms",
+      titleMy: "တွဲစပ်ကြမည် - Flowchart နှင့် Algorithm ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w17-dm-1",
+          termEn: "Oval",
+          termMy: "Oval",
+          matchEn: "The flowchart shape marking the start or end of a process",
+          matchMy:
+              "Process တစ်ခု၏ Start (သို့) End ကို အမှတ်အသားပြုသော Flowchart ပုံသဏ္ဌာန်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w17-dm-2",
+          termEn: "Rectangle",
+          termMy: "Rectangle",
+          matchEn:
+              "The flowchart shape representing a general process or action step",
+          matchMy:
+              "ယေဘုယျ Process (သို့) Action Step ကို ကိုယ်စားပြုသော Flowchart ပုံသဏ္ဌာန်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w17-dm-3",
+          termEn: "Diamond",
+          termMy: "Diamond",
+          matchEn:
+              "The flowchart shape representing a yes/no decision with two possible exit paths",
+          matchMy:
+              "ထွက်ပေါက် လမ်းကြောင်းနှစ်ခု ဖြစ်နိုင်သော Yes/No Decision ကို ကိုယ်စားပြုသော Flowchart ပုံသဏ္ဌာန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w17-dm-4",
+          termEn: "Algorithm",
+          termMy: "Algorithm",
+          matchEn:
+              "A precise, ordered sequence of steps that solves a specific problem",
+          matchMy:
+              "တိကျသော ပြဿနာတစ်ခုကို ဖြေရှင်းသော တိကျသော၊ အစီအစဉ်ကျသော အဆင့်များ ဆက်တိုက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w17-dm-5",
+          termEn: "Trace table",
+          termMy: "Trace Table",
+          matchEn:
+              "A table recording how each variable's value changes step by step during execution",
+          matchMy:
+              "Execution အတွင်း Variable တစ်ခုစီ၏ တန်ဖိုး အဆင့်ဆင့် မည်သို့ ပြောင်းလဲကြောင်း မှတ်တမ်းတင်သော ဇယား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Flowchart Shape?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Flowchart ပုံသဏ္ဌာန်လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Oval (Start/End)",
+          "Rectangle (Process)",
+          "Diamond (Decision)",
+        ],
+        bucketsMy: [
+          "Oval (Start/End)",
+          "Rectangle (Process)",
+          "Diamond (Decision)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w17-sort-1",
+            labelEn: "Is the number greater than 10?",
+            labelMy: "ဂဏန်းသည် 10 ထက် ကြီးသလား",
+            correctBucketEn: "Diamond (Decision)",
+            correctBucketMy: "Diamond (Decision)",
+          ),
+          SortingItem(
+            id: "igcomp-w17-sort-2",
+            labelEn: "Add 1 to the counter",
+            labelMy: "Counter သို့ 1 ပေါင်းပါ",
+            correctBucketEn: "Rectangle (Process)",
+            correctBucketMy: "Rectangle (Process)",
+          ),
+          SortingItem(
+            id: "igcomp-w17-sort-3",
+            labelEn: "Start",
+            labelMy: "Start",
+            correctBucketEn: "Oval (Start/End)",
+            correctBucketMy: "Oval (Start/End)",
+          ),
+          SortingItem(
+            id: "igcomp-w17-sort-4",
+            labelEn: "End",
+            labelMy: "End",
+            correctBucketEn: "Oval (Start/End)",
+            correctBucketMy: "Oval (Start/End)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Flowchart Trace",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Flowchart Trace",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Flowchart Trace",
+        titleMy: "Zayar Lin ၏ Flowchart Trace",
+        passageEn:
+            "Sayar Ye Min drew a simple flowchart on the board: start, input a number N, then a diamond asking whether N is even, with one path leading to a box printing 'Even' and the other leading to a box printing 'Odd', both paths rejoining before the flowchart ends. He asked Zayar Lin to trace through the flowchart for two different inputs and record the results in a trace table to prove his understanding, rather than just guessing the answer.\n\nFor the first input, N equal to 4, Zayar Lin began his trace table with a single column for N and a column for the output. He worked through the flowchart exactly as drawn: input 4 into N, reach the diamond, evaluate whether 4 is even, which it is, follow the 'yes' path to the box, and output 'Even'. His trace table showed N as 4 and the output as 'Even', matching what he already knew about even numbers, confirming the flowchart's logic worked correctly for this case.\n\nSayar Ye Min then asked him to trace a trickier input: N equal to 0. Zayar Lin initially hesitated, since 0 felt like a special case, but he forced himself to follow the flowchart exactly as written rather than relying on intuition. At the diamond, he evaluated whether 0 is even -- which mathematically it is, since 0 divided by 2 leaves no remainder -- so the trace correctly followed the 'yes' path once again, outputting 'Even'. He noted this as an important exam lesson: a trace table forces you to follow the algorithm's actual written logic precisely, catching edge cases like zero that intuition alone might handle inconsistently, which is exactly why IGCSE Paper 2 so often tests trace tables with deliberately tricky boundary values.",
+        passageMy:
+            "ဆရာရဲမင်းသည် ရိုးရှင်းသော Flowchart တစ်ခုကို ဘုတ်ပေါ်တွင် ရေးဆွဲခဲ့သည် - Start, ဂဏန်း N တစ်ခု Input ထည့်ခြင်း၊ ထို့နောက် N သည် Even ဖြစ်သလားဟု မေးမြန်းသော Diamond တစ်ခု၊ လမ်းကြောင်းတစ်ခုက 'Even' Print ထုတ်သော Box သို့ ဦးတည်ပြီး အခြားလမ်းကြောင်းက 'Odd' Print ထုတ်သော Box သို့ ဦးတည်ကာ Flowchart ပြီးဆုံးမီ လမ်းကြောင်း နှစ်ခုစလုံး ပြန်လည် ပေါင်းစည်းသည်။ ရိုးရိုး အဖြေကို ခန့်မှန်းရုံမက သူ၏ နားလည်မှုကို သက်သေပြရန် Flowchart ကို Input နှစ်ခုအတွက် ခြေရာခံပြီး ရလဒ်များကို Trace Table တွင် မှတ်တမ်းတင်ရန် Zayar Lin ကို သူ တောင်းဆိုခဲ့သည်။\n\nပထမ Input, N သည် 4 နှင့် ညီအတွက် Zayar Lin သည် N အတွက် Column တစ်ခုနှင့် Output အတွက် Column တစ်ခုဖြင့် ၎င်း၏ Trace Table ကို စတင်ခဲ့သည်။ ဆွဲထားသည့်အတိုင်း Flowchart ကို သူ ဖြတ်သန်းခဲ့သည် - N သို့ 4 ကို Input ထည့်ခြင်း၊ Diamond သို့ ရောက်ခြင်း၊ 4 သည် Even ဟုတ်မဟုတ် Evaluate လုပ်ခြင်း (ဟုတ်ပါသည်)၊ Box သို့ 'Yes' လမ်းကြောင်းကို လိုက်ခြင်း၊ 'Even' Output ထုတ်ခြင်း။ ၎င်း၏ Trace Table သည် N ကို 4 အဖြစ်နှင့် Output ကို 'Even' အဖြစ် ပြသခဲ့ပြီး Even ဂဏန်းများအကြောင်း သူ ရှိပြီးသား သိထားသည့်အရာနှင့် ကိုက်ညီကာ ဤ Case အတွက် Flowchart ၏ Logic မှန်ကန်စွာ အလုပ်လုပ်ကြောင်း အတည်ပြုခဲ့သည်။\n\nပို၍ ခက်ခဲသော Input တစ်ခု၊ N သည် 0 နှင့် ညီအတွက် ခြေရာခံရန် ဆရာရဲမင်း ဆက်လက် တောင်းဆိုခဲ့သည်။ 0 သည် အထူး Case တစ်ခုကဲ့သို့ ခံစားရသောကြောင့် Zayar Lin သည် ပထမ တွန့်ဆုတ်ခဲ့သော်လည်း Intuition အပေါ် အားကိုးမည့်အစား Flowchart ကို ရေးသားထားသည့်အတိုင်း အတိအကျ လိုက်နာရန် သူ့ကိုယ်သူ အတင်း ပြုလုပ်ခဲ့သည်။ Diamond တွင် 0 သည် Even ဟုတ်မဟုတ် သူ Evaluate လုပ်ခဲ့သည် -- 0 ကို 2 ဖြင့် စားလျှင် ကျန်ငြိမ်း မရှိသောကြောင့် သင်္ချာအရ Even ဖြစ်သည် -- ထို့ကြောင့် Trace သည် 'Yes' လမ်းကြောင်းကို ထပ်မံ မှန်ကန်စွာ လိုက်ခဲ့ပြီး 'Even' Output ထုတ်ခဲ့သည်။ ၎င်းကို အရေးကြီးသော စာမေးပွဲ သင်ခန်းစာအဖြစ် သူ မှတ်ချက်ချခဲ့သည် - Trace Table သည် Intuition တစ်ခုတည်းက တသမတ်တည်း ကိုင်တွယ်နိုင်ခြင်း မရှိနိုင်သော Zero ကဲ့သို့ Edge Case များကို ဖမ်းဆီးလျက် Algorithm ၏ အမှန်တကယ် ရေးသားထားသော Logic ကို အတိအကျ လိုက်နာရန် အတင်းအကျပ် ဖြစ်စေသည် -- ၎င်းသည် IGCSE Paper 2 သည် ရည်ရွယ်ချက်ရှိရှိ ခက်ခဲသော Boundary တန်ဖိုးများဖြင့် Trace Table များကို မကြာခဏ စစ်ဆေးရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the output for N equal to 4?",
+            questionMy:
+                "N သည် 4 နှင့် ညီအတွက် Output ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["Even", "Odd", "Zero", "No output at all"],
+            optionsMy: ["Even", "Odd", "Zero", "Output လုံးဝ မရှိခြင်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating the output for N = 4."],
+            hintsMy: [
+              "N = 4 အတွက် Output ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, why is 0 considered even?",
+            questionMy:
+                "0 ကို Even ဟု ယူဆရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0 divided by 2 leaves no remainder",
+              "0 is not actually a real number",
+              "The flowchart always outputs Even regardless of input",
+              "Zayar Lin's teacher told him to assume it was even",
+            ],
+            optionsMy: [
+              "0 ကို 2 ဖြင့် စားလျှင် ကျန်ငြိမ်း မရှိခြင်း",
+              "0 သည် အမှန်တကယ် ဂဏန်းအစစ် မဟုတ်ခြင်း",
+              "Flowchart သည် Input မည်သို့ပင်ရှိစေ Even ကို အမြဲ Output ထုတ်ခြင်း",
+              "Zayar Lin ၏ ဆရာက Even ဟု ယူဆရန် ပြောကြားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence explaining why 0 is mathematically even.",
+            ],
+            hintsMy: [
+              "0 သည် သင်္ချာအရ Even ဖြစ်ကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why does IGCSE Paper 2 often use tricky boundary values in trace table questions?",
+            questionMy:
+                "IGCSE Paper 2 သည် Trace Table မေးခွန်းများတွင် ခက်ခဲသော Boundary တန်ဖိုးများကို မကြာခဏ အသုံးပြုရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To catch edge cases that intuition alone might handle inconsistently",
+              "Because boundary values are always easier than normal values",
+              "Because trace tables cannot handle normal values at all",
+              "To make the flowchart shorter",
+            ],
+            optionsMy: [
+              "Intuition တစ်ခုတည်းက တသမတ်တည်း ကိုင်တွယ်နိုင်ခြင်း မရှိနိုင်သော Edge Case များကို ဖမ်းဆီးရန်",
+              "Boundary တန်ဖိုးများသည် ပုံမှန် တန်ဖိုးများထက် အမြဲ ပို၍ လွယ်ကူသောကြောင့်",
+              "Trace Table များသည် ပုံမှန် တန်ဖိုးများကို လုံးဝ ကိုင်တွယ်၍ မရနိုင်သောကြောင့်",
+              "Flowchart ကို တိုတောင်းစေရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Flowcharts",
+      titleMy: "ဒသမသတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Flowcharts",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A decision in a flowchart is represented by a...",
+          questionMy:
+              "Flowchart တစ်ခုတွင် Decision တစ်ခုကို ...ဖြင့် ကိုယ်စားပြုသည်",
+          optionsEn: ["Diamond", "Oval", "Rectangle", "Circle"],
+          optionsMy: ["Diamond", "Oval", "Rectangle", "Circle"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trace table helps verify an algorithm by...",
+          questionMy:
+              "Trace Table က Algorithm တစ်ခုကို ...ဖြင့် အတည်ပြုရန် ကူညီသည်",
+          optionsEn: [
+            "Recording how each variable's value changes step by step",
+            "Permanently deleting the algorithm",
+            "Automatically fixing any errors found",
+            "Converting the algorithm into machine code",
+          ],
+          optionsMy: [
+            "Variable တစ်ခုစီ၏ တန်ဖိုး အဆင့်ဆင့် မည်သို့ ပြောင်းလဲကြောင်း မှတ်တမ်းတင်ခြင်း",
+            "Algorithm ကို အမြဲတမ်း ဖျက်ချခြင်း",
+            "တွေ့ရှိသော အမှားမည်သည်ကိုမဆို အလိုအလျောက် ပြင်ဆင်ပေးခြင်း",
+            "Algorithm ကို Machine Code သို့ ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The oval shape in a flowchart marks the...",
+          questionMy:
+              "Flowchart တစ်ခုတွင် Oval ပုံသဏ္ဌာန်က ...ကို အမှတ်အသားပြုသည်",
+          optionsEn: [
+            "Start or end of the process",
+            "A decision point",
+            "An input/output operation",
+            "A loop counter",
+          ],
+          optionsMy: [
+            "Process ၏ Start (သို့) End",
+            "Decision Point",
+            "Input/Output Operation",
+            "Loop Counter",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 5, Week 18: "Pseudocode Basics and Control
+// Structures"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek18 = CourseWeekDef(
+  id: "course-igcse-computing-w18",
+  weekNumber: 18,
+  titleEn: "Pseudocode Basics and Control Structures",
+  titleMy: "Pseudocode အခြေခံနှင့် ထိန်းချုပ်ရေး ဖွဲ့စည်းပုံများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w18-d1",
+      dayNumber: 1,
+      titleEn: "IF/ELSE, CASE and Loops",
+      titleMy: "IF/ELSE, CASE နှင့် Loops",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a FOR loop and a WHILE loop?",
+          questionMy:
+              "FOR Loop နှင့် WHILE Loop ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A FOR loop runs a known, fixed number of times; a WHILE loop keeps running only while a stated condition remains true, which may be an unknown number of times",
+            "A FOR loop can never contain any calculations",
+            "A WHILE loop always runs exactly once",
+            "FOR and WHILE loops are simply two different names for exactly the same structure",
+          ],
+          optionsMy: [
+            "FOR Loop သည် သိထားပြီးသား၊ သတ်မှတ်ထားသော အကြိမ်ရေအထိ Run သော်လည်း WHILE Loop သည် ဖော်ပြထားသော အခြေအနေ True ဆက်တည်ရှိနေချိန်တွင်သာ ဆက်လက် Run သည် -- ၎င်းသည် အကြိမ်ရေ မသိရသေးသော အရေအတွက် ဖြစ်နိုင်သည်",
+            "FOR Loop သည် တွက်ချက်မှု မည်သည့်အမျိုးအစားမျှ လုံးဝ ပါဝင်၍ မရနိုင်ခြင်း",
+            "WHILE Loop သည် အတိအကျ တစ်ကြိမ်သာ အမြဲ Run ခြင်း",
+            "FOR နှင့် WHILE Loop သည် ဖွဲ့စည်းပုံတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'FOR i = 1 TO 10' clearly states the loop runs 10 times; 'WHILE userInput != stopValue' could run any number of times depending on what the user types.",
+          ],
+          hintsMy: [
+            "'FOR i = 1 TO 10' သည် Loop 10 ကြိမ် Run သည်ဟု ရှင်းရှင်းလင်းလင်း ဖော်ပြသော်လည်း 'WHILE userInput != stopValue' သည် User မည်သို့ ရိုက်ထည့်သည်အပေါ် မူတည်၍ မည်သည့် အကြိမ်ရေမျှ Run နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When is a CASE statement typically preferred over a long chain of IF/ELSE IF statements?",
+          questionMy:
+              "CASE Statement ကို IF/ELSE IF Statement ရှည်လျားသော ကွင်းဆက်ထက် ပုံမှန်အားဖြင့် မည်သည့်အခါ ပို၍ ရွေးချယ်ခံရသနည်း။",
+          optionsEn: [
+            "When checking one variable against many distinct possible values -- it is often clearer and more readable than nested IF/ELSE IF statements",
+            "A CASE statement can never actually replace an IF statement",
+            "CASE statements can only be used for arithmetic calculations",
+            "CASE statements must always contain exactly two options",
+          ],
+          optionsMy: [
+            "Variable တစ်ခုကို ဖြစ်နိုင်သော ကွဲပြားသော တန်ဖိုးများစွာနှင့် နှိုင်းယှဉ်စစ်ဆေးသောအခါ -- Nested IF/ELSE IF Statement များထက် ပို၍ ရှင်းလင်းပြီး ဖတ်ရှုရလွယ်ကူလေ့ ရှိသည်",
+            "CASE Statement သည် IF Statement ကို အမှန်တကယ် ဘယ်တော့မှ အစားထိုး၍ မရနိုင်ခြင်း",
+            "CASE Statement များကို သင်္ချာ တွက်ချက်မှုများအတွက်သာ အသုံးပြုနိုင်ခြင်း",
+            "CASE Statement များတွင် ရွေးချယ်စရာ နှစ်ခု အတိအကျ ပါဝင်ရမည် ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a menu system checking a single choice variable against options 1, 2, 3, 4, 5 -- a CASE statement lists each option cleanly, rather than nesting five IF/ELSE IF checks.",
+          ],
+          hintsMy: [
+            "Choice Variable တစ်ခုတည်းကို Option 1, 2, 3, 4, 5 နှင့် နှိုင်းယှဉ်စစ်ဆေးသော Menu System တစ်ခုကို စဉ်းစားကြည့်ပါ -- CASE Statement က Option ငါးခုကို Nest လုပ်ထားသော IF/ELSE IF Check ငါးခုအစား Option တစ်ခုစီကို သန့်ရှင်းစွာ စာရင်းပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Consider this pseudocode: total = 0; FOR i = 1 TO 3; total = total + i; ENDFOR. What is the final value of total?",
+          questionMy:
+              "ဤ Pseudocode ကို စဉ်းစားပါ - total = 0; FOR i = 1 TO 3; total = total + i; ENDFOR ။ total ၏ နောက်ဆုံး တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["6", "3", "1", "0"],
+          optionsMy: ["6", "3", "1", "0"],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace it: i=1, total=0+1=1. i=2, total=1+2=3. i=3, total=3+3=6.",
+          ],
+          hintsMy: [
+            "Trace လုပ်ကြည့်ပါ - i=1, total=0+1=1 ။ i=2, total=1+2=3 ။ i=3, total=3+3=6 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Pseudocode Control Structure Terms",
+      titleMy: "တွဲစပ်ကြမည် - Pseudocode Control Structure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w18-dm-1",
+          termEn: "FOR loop",
+          termMy: "FOR Loop",
+          matchEn: "Repeats a fixed, known number of times",
+          matchMy:
+              "သိထားပြီးသား၊ သတ်မှတ်ထားသော အကြိမ်ရေအထိ ထပ်ခါထပ်ခါ လုပ်ဆောင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w18-dm-2",
+          termEn: "WHILE loop",
+          termMy: "WHILE Loop",
+          matchEn:
+              "Checks its condition before each repeat; keeps repeating only while the condition is true",
+          matchMy:
+              "ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်းမတိုင်မီ ၎င်း၏ အခြေအနေကို စစ်ဆေးသည်၊ အခြေအနေ True ဖြစ်နေချိန်သာ ဆက်လက် ထပ်ခါထပ်ခါ လုပ်ဆောင်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w18-dm-3",
+          termEn: "REPEAT UNTIL loop",
+          termMy: "REPEAT UNTIL Loop",
+          matchEn:
+              "Checks its condition after each repeat, so the loop body always runs at least once",
+          matchMy:
+              "ထပ်ခါထပ်ခါ လုပ်ဆောင်ပြီးနောက် ၎င်း၏ အခြေအနေကို စစ်ဆေးသောကြောင့် Loop Body သည် အနည်းဆုံး တစ်ကြိမ် အမြဲ Run သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w18-dm-4",
+          termEn: "Assignment",
+          termMy: "Assignment",
+          matchEn: "Storing a value into a variable, e.g. total = 0",
+          matchMy:
+              "Variable တစ်ခုသို့ တန်ဖိုးတစ်ခု သိမ်းဆည်းခြင်း၊ ဥပမာ total = 0",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w18-dm-5",
+          termEn: "CASE statement",
+          termMy: "CASE Statement",
+          matchEn:
+              "Checks one variable against several distinct possible values, cleaner than many nested IFs",
+          matchMy:
+              "Variable တစ်ခုကို ကွဲပြားသော ဖြစ်နိုင်သော တန်ဖိုးများစွာနှင့် နှိုင်းယှဉ်စစ်ဆေးသည်၊ Nested IF များစွာထက် ပို၍ သန့်ရှင်းသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: FOR, WHILE or REPEAT UNTIL?",
+      titleMy: "စီစစ်ကြမည် - FOR, WHILE (သို့) REPEAT UNTIL",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["FOR Loop Best Fit", "WHILE/REPEAT UNTIL Best Fit"],
+        bucketsMy: [
+          "FOR Loop ပို၍ ကိုက်ညီသည်",
+          "WHILE/REPEAT UNTIL ပို၍ ကိုက်ညီသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w18-sort-1",
+            labelEn: "Printing the numbers 1 to 10",
+            labelMy: "ဂဏန်း 1 မှ 10 ကို Print ထုတ်ခြင်း",
+            correctBucketEn: "FOR Loop Best Fit",
+            correctBucketMy: "FOR Loop ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w18-sort-2",
+            labelEn:
+                "Keep asking for a password until the correct one is entered",
+            labelMy:
+                "မှန်ကန်သော Password ရိုက်ထည့်သည်အထိ ဆက်လက် တောင်းဆိုနေခြင်း",
+            correctBucketEn: "WHILE/REPEAT UNTIL Best Fit",
+            correctBucketMy: "WHILE/REPEAT UNTIL ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w18-sort-3",
+            labelEn: "Processing exactly 30 students' exam scores",
+            labelMy:
+                "ကျောင်းသား 30 ဦး၏ စာမေးပွဲ ရမှတ်များကို အတိအကျ Process လုပ်ခြင်း",
+            correctBucketEn: "FOR Loop Best Fit",
+            correctBucketMy: "FOR Loop ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w18-sort-4",
+            labelEn: "Reading sensor data until the sensor reports zero",
+            labelMy:
+                "Sensor သည် Zero Report ပြုလုပ်သည်အထိ Sensor Data ဖတ်ခြင်း",
+            correctBucketEn: "WHILE/REPEAT UNTIL Best Fit",
+            correctBucketMy: "WHILE/REPEAT UNTIL ပို၍ ကိုက်ညီသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Loop Choice",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Loop ရွေးချယ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Loop Choice",
+        titleMy: "Zayar Lin ၏ Loop ရွေးချယ်မှု",
+        passageEn:
+            "Sayar Ye Min gave the class two pseudocode design tasks and asked each student to justify their choice of loop type before writing a single line, rather than picking one at random and hoping it worked. The first task was to write pseudocode that calculated the average of exactly 25 students' test scores. Zayar Lin reasoned that since the number of repetitions, 25, was known and fixed in advance, a FOR loop was the natural choice: FOR i = 1 TO 25, reading one score and adding it to a running total on each pass, then dividing the total by 25 once the loop finished.\n\nThe second task was trickier: write pseudocode for a simple login system that kept asking the user for a password until they entered the correct one, with no fixed number of attempts specified in advance. Zayar Lin immediately recognised this could not be a FOR loop, since there was no way to know in advance how many attempts a user might need -- it could be one attempt or twenty. He chose a WHILE loop instead, reasoning that a WHILE loop checks its condition before each repeat, which felt like the right fit: WHILE enteredPassword != correctPassword, keep asking and reading a new password.\n\nSayar Ye Min then asked a follow-up question that made Zayar Lin reconsider: what if the system needed to ask for the password at least once no matter what, even before any input existed to check against? Zayar Lin realised a WHILE loop actually checks its condition before the loop body ever runs, so if there were no password entered yet to compare, the very first check could fail strangely. He concluded that a REPEAT UNTIL loop, which runs its body first and checks the condition only afterward, better matched a login system's natural flow: REPEAT, ask for and read a password, UNTIL enteredPassword = correctPassword -- guaranteeing the user is always asked at least once before any comparison happens.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Pseudocode Design Task နှစ်ခုကို Class ကို ပေးအပ်ပြီး လိုင်းတစ်ကြောင်းမျှ မ ရေးမီ ကျပန်း ရွေးချယ်ပြီး အလုပ်ဖြစ်ရန် မျှော်လင့်မည့်အစား ၎င်းတို့ Loop အမျိုးအစား ရွေးချယ်မှုကို ခိုင်လုံစေရန် တောင်းဆိုခဲ့သည်။ ပထမ Task မှာ ကျောင်းသား 25 ဦး၏ Test ရမှတ် ပျမ်းမျှကို တွက်ချက်သော Pseudocode ရေးသားခြင်း ဖြစ်သည်။ ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်၊ 25 သည် သိထားပြီးသား၊ ကြိုတင် သတ်မှတ်ထားသောကြောင့် FOR Loop သည် သဘာဝကျသော ရွေးချယ်မှု ဖြစ်ကြောင်း Zayar Lin ဆင်ခြင်ခဲ့သည် - FOR i = 1 TO 25, ရမှတ်တစ်ခု ဖတ်ပြီး ဖြတ်တောက် တိုင်း Running Total သို့ ပေါင်းထည့်ခြင်း၊ Loop ပြီးဆုံးသောအခါ Total ကို 25 ဖြင့် စားခြင်း။\n\nဒုတိယ Task မှာ ပို၍ ခက်ခဲသည် - User မှန်ကန်သော Password ရိုက်ထည့်သည်အထိ Password ကို ဆက်လက် တောင်းဆိုနေသော ရိုးရှင်းသော Login System အတွက် Pseudocode ရေးသားခြင်း၊ ကြိုတင် သတ်မှတ်ထားသော ကြိုးစားမှု အရေအတွက် တစ်ခုမျှ မပါဘဲ။ User သည် ကြိုးစားမှု တစ်ကြိမ် (သို့) နှစ်ဆယ် လိုအပ်နိုင်သောကြောင့် ကြိုတင် မသိနိုင်သော ကြောင့် ဤသည် FOR Loop မဖြစ်နိုင်ကြောင်း Zayar Lin ချက်ချင်း သိမြင်ခဲ့သည်။ WHILE Loop သည် ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်းမတိုင်မီ ၎င်း၏ အခြေအနေကို စစ်ဆေးကြောင်း ဆင်ခြင်ကာ မှန်ကန်သော ရွေးချယ်မှုကဲ့သို့ ခံစားရသဖြင့် သူသည် WHILE Loop ကို ယင်းအစား ရွေးချယ်ခဲ့သည် - WHILE enteredPassword != correctPassword, Password အသစ် ဆက်လက် တောင်းဆိုပြီး ဖတ်ခြင်း။\n\nZayar Lin ကို ပြန်လည် ဆင်ခြင်စေသော Follow-Up မေးခွန်းတစ်ခုကို ဆရာရဲမင်း ဆက်လက် မေးမြန်းခဲ့သည် - System သည် Compare ပြုလုပ်ရန် Input မရှိသေးမီပင် Password ကို အနည်းဆုံး တစ်ကြိမ် မည်သို့ပင်ဖြစ်စေ တောင်းဆိုရန် လိုအပ်ပါက အဘယ်နည်း။ WHILE Loop သည် Loop Body မည်သည့်အခါမျှ Run မမှီ ၎င်း၏ အခြေအနေကို စစ်ဆေးကြောင်း Zayar Lin သိမြင်ခဲ့ပြီး နှိုင်းယှဉ်ရန် Password မည်သည်ကိုမျှ Input ထည့်ရသေးခြင်း မရှိလျှင် ပထမဆုံး Check သည် ထူးဆန်းစွာ Fail ဖြစ်နိုင်သည်။ Body ကို ဦးစွာ Run ပြီး ထို့နောက်မှသာ အခြေအနေကို စစ်ဆေးသော REPEAT UNTIL Loop သည် Login System ၏ သဘာဝကျသော Flow နှင့် ပို၍ ကိုက်ညီကြောင်း သူ ကောက်ချက်ချခဲ့သည် - REPEAT, Password တစ်ခု တောင်းဆိုပြီး ဖတ်ခြင်း, UNTIL enteredPassword = correctPassword -- Comparison မည်သည့်အခါမျှ ဖြစ်ပျက်မီ User ကို အနည်းဆုံး တစ်ကြိမ် အမြဲ တောင်းဆိုကြောင်း အာမခံသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Zayar Lin choose a FOR loop for the average calculation task?",
+            questionMy:
+                "ပျမ်းမျှ တွက်ချက်မှု Task အတွက် Zayar Lin FOR Loop ကို ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The number of repetitions, 25, was known and fixed in advance",
+              "FOR loops are always faster than WHILE loops",
+              "The task required no repetition at all",
+              "He simply guessed at random",
+            ],
+            optionsMy: [
+              "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်၊ 25 သည် သိထားပြီးသား၊ ကြိုတင် သတ်မှတ်ထားခြင်း",
+              "FOR Loop များသည် WHILE Loop များထက် အမြဲ ပို၍ မြန်ခြင်း",
+              "Task သည် ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် လုံးဝ မလိုအပ်ခြင်း",
+              "သူ ကျပန်းသာ ခန့်မှန်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining why FOR fits."],
+            hintsMy: [
+              "FOR ကိုက်ညီကြောင်း ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin initially rule out a FOR loop for the login system?",
+            questionMy:
+                "Login System အတွက် FOR Loop ကို Zayar Lin ပထမဦးဆုံး ဖယ်ရှားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "There was no way to know in advance how many attempts a user might need",
+              "FOR loops cannot ever be used with passwords",
+              "The password was already known in advance",
+              "Login systems never require any loops",
+            ],
+            optionsMy: [
+              "User မည်မျှ ကြိုးစားမှု လိုအပ်နိုင်သည်ကို ကြိုတင် သိနိုင်ခြင်း မရှိသောကြောင့်",
+              "FOR Loop များကို Password များနှင့် ဘယ်တော့မှ အသုံးမပြုနိုင်ခြင်း",
+              "Password ကို ကြိုတင် သိထားပြီးသား ဖြစ်ခြင်း",
+              "Login System များသည် Loop မည်သည့်အမျိုးအစားမျှ မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about not knowing the number of attempts.",
+            ],
+            hintsMy: [
+              "ကြိုးစားမှု အရေအတွက် မသိကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Zayar Lin switch from a WHILE loop to a REPEAT UNTIL loop?",
+            questionMy:
+                "WHILE Loop မှ REPEAT UNTIL Loop သို့ Zayar Lin ပြောင်းလဲခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The user needed to be asked for a password at least once before any comparison could happen",
+              "WHILE loops cannot exist in pseudocode",
+              "REPEAT UNTIL loops always run faster",
+              "His teacher told him WHILE loops were banned",
+            ],
+            optionsMy: [
+              "Comparison မည်သည်မျှ မဖြစ်ပျက်မီ User ကို Password အနည်းဆုံး တစ်ကြိမ် တောင်းဆိုရန် လိုအပ်ခြင်း",
+              "WHILE Loop များသည် Pseudocode တွင် ရှိနိုင်ခြင်း မရှိခြင်း",
+              "REPEAT UNTIL Loop များသည် အမြဲ ပို၍ မြန်စွာ Run ခြင်း",
+              "WHILE Loop များကို ပိတ်ပင်ထားကြောင်း သူ့ဆရာက ပြောကြားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Pseudocode Control Structures",
+      titleMy: "ဒသမအဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Pseudocode Control Structures",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A FOR loop is best used when...",
+          questionMy: "FOR Loop ကို ...ချိန်တွင် အသုံးပြုရန် ပို၍ ကောင်းသည်",
+          optionsEn: [
+            "The number of repetitions is known in advance",
+            "The number of repetitions is never known",
+            "No repetition is needed at all",
+            "The program has finished running",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်ကို ကြိုတင် သိထားခြင်း",
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်ကို ဘယ်တော့မှ မသိခြင်း",
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် လုံးဝ မလိုအပ်ခြင်း",
+            "Program Run ပြီးမြောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A REPEAT UNTIL loop always runs its body...",
+          questionMy:
+              "REPEAT UNTIL Loop တစ်ခုသည် ၎င်း၏ Body ကို အမြဲ ...Run သည်",
+          optionsEn: [
+            "At least once, checking the condition afterward",
+            "Zero times, always",
+            "Exactly ten times, always",
+            "Only if the condition is checked first",
+          ],
+          optionsMy: [
+            "အနည်းဆုံး တစ်ကြိမ်၊ အခြေအနေကို နောက်တွင် စစ်ဆေးသည်",
+            "အမြဲ Zero ကြိမ်",
+            "အမြဲ အတိအကျ ဆယ်ကြိမ်",
+            "အခြေအနေကို ဦးစွာ စစ်ဆေးမှသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A CASE statement is generally clearer than nested IF/ELSE IF when...",
+          questionMy:
+              "CASE Statement သည် Nested IF/ELSE IF ထက် ယေဘုယျအားဖြင့် ...ချိန်တွင် ပို၍ ရှင်းလင်းသည်",
+          optionsEn: [
+            "Checking one variable against many distinct possible values",
+            "No variable exists in the program at all",
+            "The program only ever has one possible outcome",
+            "Loops are being used instead of conditions",
+          ],
+          optionsMy: [
+            "Variable တစ်ခုကို ဖြစ်နိုင်သော ကွဲပြားသော တန်ဖိုးများစွာနှင့် နှိုင်းယှဉ်စစ်ဆေးချိန်",
+            "Program တွင် Variable မည်သည်မှ လုံးဝ မရှိချိန်",
+            "Program တွင် ဖြစ်နိုင်သော ရလဒ်တစ်ခုတည်းသာ ရှိချိန်",
+            "အခြေအနေအစား Loop များ အသုံးပြုနေချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 5, Week 19: "Validation and Verification"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek19 = CourseWeekDef(
+  id: "course-igcse-computing-w19",
+  weekNumber: 19,
+  titleEn: "Validation and Verification",
+  titleMy: "အချက်အလက် စစ်ဆေးခြင်းနှင့် အတည်ပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w19-d1",
+      dayNumber: 1,
+      titleEn: "Validation Checks and Check Digits",
+      titleMy: "Validation Check များနှင့် Check Digit များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between validation and verification?",
+          questionMy:
+              "Validation နှင့် Verification ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "Validation checks whether data is reasonable/sensible according to rules; verification checks whether data matches its original source exactly",
+            "Validation and verification are simply two different names for exactly the same process",
+            "Verification can only be performed by a computer, never a human",
+            "Validation always requires typing data in twice",
+          ],
+          optionsMy: [
+            "Validation သည် Data သည် စည်းမျဉ်းများနှင့်အညီ ယုတ္တိတန်/သင့်လျော်ခြင်း ရှိမရှိ စစ်ဆေးသော်လည်း Verification သည် Data သည် ၎င်း၏ မူရင်း Source နှင့် အတိအကျ ကိုက်ညီခြင်း ရှိမရှိ စစ်ဆေးသည်",
+            "Validation နှင့် Verification သည် Process တစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+            "Verification ကို ကွန်ပျူတာကသာ ပြုလုပ်နိုင်ပြီး လူသားကသည် ဘယ်တော့မှ မပြုလုပ်နိုင်ခြင်း",
+            "Validation သည် Data ကို နှစ်ကြိမ် ရိုက်ထည့်ရန် အမြဲ လိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Validation asks 'is this data sensible?' (e.g. is an age between 0 and 120); verification asks 'is this data exactly what was intended?' (e.g. re-typing a password to confirm it matches).",
+          ],
+          hintsMy: [
+            "Validation က 'ဤ Data သည် ယုတ္တိတန်သလား' ဟု မေးသည် (ဥပမာ Age သည် 0 နှင့် 120 ကြားလား); Verification က 'ဤ Data သည် ရည်ရွယ်ထားသည့်အတိုင်း အတိအကျ ဟုတ်သလား' ဟု မေးသည် (ဥပမာ ကိုက်ညီကြောင်း အတည်ပြုရန် Password ကို ပြန်ရိုက်ခြင်း)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A validation check requires a student's age to be between 4 and 19 inclusive. What type of validation check is this?",
+          questionMy:
+              "Validation Check တစ်ခုသည် ကျောင်းသားတစ်ဦး၏ Age ကို 4 နှင့် 19 ကြား (ထိစပ်၍) ဖြစ်ရန် တောင်းဆိုသည်။ ဤသည် မည်သည့် Validation Check အမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: [
+            "Range check",
+            "Presence check",
+            "Format check",
+            "Check digit",
+          ],
+          optionsMy: [
+            "Range Check",
+            "Presence Check",
+            "Format Check",
+            "Check Digit",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A range check verifies a value falls between an acceptable minimum and maximum.",
+          ],
+          hintsMy: [
+            "Range Check သည် တန်ဖိုးတစ်ခု လက်ခံနိုင်သော အနည်းဆုံးနှင့် အများဆုံးကြား ကျရောက်ကြောင်း အတည်ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does a check digit help detect during data entry?",
+          questionMy:
+              "Check Digit တစ်ခုသည် Data Entry လုပ်ငန်းစဉ်အတွင်း အဘယ်အရာကို ရှာဖွေတွေ့ရှိရန် ကူညီသနည်း။",
+          optionsEn: [
+            "A mistyped digit, such as an incorrect number entered while typing a barcode or ID number",
+            "Whether the data is written in the correct human language",
+            "Whether the data's colour depth is correct",
+            "Whether an image file is correctly compressed",
+          ],
+          optionsMy: [
+            "Barcode (သို့) ID Number ရိုက်ထည့်စဉ် ရိုက်ချက်လွဲသွားသော Digit ကဲ့သို့ မှားယွင်းသော ဂဏန်း",
+            "Data ကို မှန်ကန်သော လူသားဘာသာစကားဖြင့် ရေးသားထားခြင်း ရှိမရှိ",
+            "Data ၏ Colour Depth မှန်ကန်ခြင်း ရှိမရှိ",
+            "ပုံ File တစ်ခု မှန်ကန်စွာ Compress ဖြစ်ခြင်း ရှိမရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A check digit is calculated from the other digits of a number using a formula; if a digit is mistyped, the recalculated check digit will not match, flagging the error.",
+          ],
+          hintsMy: [
+            "Check Digit ကို ဂဏန်းတစ်ခု၏ အခြား Digit များမှ ဖော်မြူလာကို အသုံးပြု၍ တွက်ချက်သည် -- Digit တစ်ခု ရိုက်ချက်လွဲသွားပါက ပြန်လည် တွက်ချက်ထားသော Check Digit သည် မကိုက်ညီပါက အမှားကို အချက်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Validation and Verification Terms",
+      titleMy: "တွဲစပ်ကြမည် - Validation နှင့် Verification ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w19-dm-1",
+          termEn: "Presence check",
+          termMy: "Presence Check",
+          matchEn: "Verifies that a required field has not been left blank",
+          matchMy: "လိုအပ်သော Field တစ်ခု ဗလာ မထားခဲ့ကြောင်း အတည်ပြုသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w19-dm-2",
+          termEn: "Format check",
+          termMy: "Format Check",
+          matchEn:
+              "Verifies data follows a specific pattern, such as an email address containing an @ symbol",
+          matchMy:
+              "@ Symbol ပါဝင်သော Email Address ကဲ့သို့ Data သည် တိကျသော Pattern ကို လိုက်နာကြောင်း အတည်ပြုသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w19-dm-3",
+          termEn: "Range check",
+          termMy: "Range Check",
+          matchEn:
+              "Verifies a value falls between an acceptable minimum and maximum",
+          matchMy:
+              "တန်ဖိုးတစ်ခု လက်ခံနိုင်သော အနည်းဆုံးနှင့် အများဆုံးကြား ကျရောက်ကြောင်း အတည်ပြုသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w19-dm-4",
+          termEn: "Check digit",
+          termMy: "Check Digit",
+          matchEn:
+              "A digit calculated from a number's other digits, used to catch mistyped entries",
+          matchMy:
+              "ရိုက်ချက်လွဲသွားသော Entry များကို ဖမ်းဆီးရန် အသုံးပြုသော ဂဏန်းတစ်ခု၏ အခြား Digit များမှ တွက်ချက်ထားသော Digit",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w19-dm-5",
+          termEn: "Double data entry",
+          termMy: "Double Data Entry",
+          matchEn:
+              "A verification method requiring data to be typed twice and compared for an exact match",
+          matchMy:
+              "Data ကို နှစ်ကြိမ် ရိုက်ထည့်ပြီး အတိအကျ ကိုက်ညီခြင်း ရှိမရှိ နှိုင်းယှဉ်ရန် တောင်းဆိုသော Verification နည်းလမ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Validation Check?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Validation Check လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Range Check", "Presence Check", "Format Check"],
+        bucketsMy: ["Range Check", "Presence Check", "Format Check"],
+        items: [
+          SortingItem(
+            id: "igcomp-w19-sort-1",
+            labelEn: "A test score must be between 0 and 100",
+            labelMy: "Test ရမှတ်သည် 0 နှင့် 100 ကြား ဖြစ်ရမည်",
+            correctBucketEn: "Range Check",
+            correctBucketMy: "Range Check",
+          ),
+          SortingItem(
+            id: "igcomp-w19-sort-2",
+            labelEn: "The 'name' field cannot be left empty",
+            labelMy: "'Name' Field ကို ဗလာ ထား၍ မရပါ",
+            correctBucketEn: "Presence Check",
+            correctBucketMy: "Presence Check",
+          ),
+          SortingItem(
+            id: "igcomp-w19-sort-3",
+            labelEn: "A phone number must match a pattern of exactly 10 digits",
+            labelMy:
+                "ဖုန်းနံပါတ်သည် ဂဏန်း 10 လုံး အတိအကျ Pattern နှင့် ကိုက်ညီရမည်",
+            correctBucketEn: "Format Check",
+            correctBucketMy: "Format Check",
+          ),
+          SortingItem(
+            id: "igcomp-w19-sort-4",
+            labelEn: "A percentage value must be between 0 and 100",
+            labelMy: "ရာခိုင်နှုန်း တန်ဖိုးသည် 0 နှင့် 100 ကြား ဖြစ်ရမည်",
+            correctBucketEn: "Range Check",
+            correctBucketMy: "Range Check",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Validation Design",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Validation ဒီဇိုင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Validation Design",
+        titleMy: "Zayar Lin ၏ Validation ဒီဇိုင်း",
+        passageEn:
+            "Sayar Ye Min asked Zayar Lin to design a complete set of validation checks for a school library's book-borrowing form, using every check type learned this week, and to justify why each specific check was needed rather than just listing checks generically. The form had three fields: the student's ID number, the number of days they wanted to borrow the book for, and their email address for return reminders.\n\nFor the student ID number, Zayar Lin recommended two separate checks working together: a presence check to ensure the field was not submitted blank, since an empty ID would make it impossible to identify the borrower, and a format check to ensure the ID matched the school's exact pattern of two letters followed by four digits, catching typos that a presence check alone could not. For the number of borrowing days, he recommended a range check, reasoning that the library's policy allowed borrowing for between 1 and 14 days, so any value outside that range, including 0 or a negative number, needed to be rejected before being accepted.\n\nFor the email address, Zayar Lin initially considered only a presence check, but Sayar Ye Min pushed him further: what about someone typing a genuinely nonsensical string of characters with no @ symbol at all into that field? Zayar Lin recognised this called for a format check specifically verifying the presence of an @ symbol and a domain-like pattern, since a presence check alone would happily accept 'not an email' as valid input. He also proposed asking the student to type their email twice as a verification step, since even a perfectly formatted but subtly mistyped email address, such as one with a single wrong letter, could pass every validation check while still being genuinely wrong -- a case where validation alone was not enough, and verification against a second, independent entry was needed to catch the kind of error validation could never detect.",
+        passageMy:
+            "ကျောင်း စာကြည့်တိုက်၏ Book-Borrowing Form တစ်ခုအတွက် ဤအပတ်တွင် သင်ယူထားသော Check Type အားလုံးကို အသုံးပြု၍ Validation Check အစုံအလင်ကို ဒီဇိုင်းဆွဲပြီး Check တစ်ခုစီကို ယေဘုယျအားဖြင့် စာရင်းပြုမည့်အစား Check တစ်ခုစီ အဘယ်ကြောင့် လိုအပ်ကြောင်း ခိုင်လုံစေရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည်။ Form တွင် Field သုံးခု ရှိသည် - ကျောင်းသား၏ ID Number၊ စာအုပ်ကို ငှားရှိလိုသော ရက်အရေအတွက်နှင့် ပြန်အပ် သတိပေးချက်များအတွက် ၎င်းတို့၏ Email Address ။\n\nကျောင်းသား ID Number အတွက် Zayar Lin သည် အတူတကွ အလုပ်လုပ်သော ကွဲပြားသော Check နှစ်ခုကို အကြံပြုခဲ့သည် - Field ကို ဗလာ မတင်သွင်းစေရန် Presence Check ဖြင့်၊ ID ဗလာဖြစ်ပါက ငှားရှင်ကို ဖော်ထုတ်ရန် မဖြစ်နိုင်တော့သောကြောင့်၊ Format Check ဖြင့် ID သည် Presence Check တစ်ခုတည်းက ဖမ်းဆီး၍ မရနိုင်သော ရိုက်ချက်လွဲမှုများကို ဖမ်းဆီးလျက် ကျောင်း၏ အက္ခရာနှစ်လုံးနောက် ဂဏန်းလေးလုံး Pattern အတိအကျနှင့် ကိုက်ညီကြောင်း သေချာစေရန်။ ငှားရှိသော ရက်အရေအတွက်အတွက် Range Check ကို သူ အကြံပြုခဲ့ပြီး စာကြည့်တိုက်၏ Policy သည် 1 နှင့် 14 ရက် ကြား ငှားရှိခွင့်ပြုသောကြောင့် ထို Range ပြင်ပရှိ တန်ဖိုးတိုင်း၊ 0 (သို့) Negative ဂဏန်း အပါအဝင်၊ လက်ခံခံရမီ ငြင်းပယ်ခံရန် လိုအပ်ကြောင်း ဆင်ခြင်ခဲ့သည်။\n\nEmail Address အတွက် Zayar Lin သည် ပထမဦးစွာ Presence Check တစ်ခုတည်းသာ စဉ်းစားခဲ့သော်လည်း ဆရာရဲမင်းက ဆက်လက် တွန်းအားပေးခဲ့သည် - ထို Field ထဲသို့ @ Symbol လုံးဝ မပါဘဲ အဓိပ္ပာယ်မရှိသော Character String တစ်ခုကို တစ်စုံတစ်ဦးက ရိုက်ထည့်ပါက အဘယ်နည်း။ Presence Check တစ်ခုတည်းသည် 'not an email' ကို Valid Input အဖြစ် ဝမ်းသာစွာ လက်ခံမည်ဖြစ်သောကြောင့် ၎င်းသည် @ Symbol ရှိမရှိနှင့် Domain-Like Pattern ကို အထူးသဖြင့် အတည်ပြုသော Format Check ကို တောင်းဆိုကြောင်း Zayar Lin သိမြင်ခဲ့သည်။ Verification Step တစ်ခုအဖြစ် သူ့ Email ကို နှစ်ကြိမ် ရိုက်ထည့်ရန် ကျောင်းသားကို တောင်းဆိုရန်လည်း သူ အဆိုပြုခဲ့သည်၊ ပြီးပြည့်စုံစွာ Format ကျသော်လည်း စကားလုံးတစ်လုံး မှားယွင်းသော Email Address ကဲ့သို့ ခေတ္တစိတ်ကျန်း ရိုက်ချက်လွဲသွားသော Email Address ပင်လျှင် Validation Check တိုင်းကို ဖြတ်နိုင်ပြီး စစ်မှန်စွာ မှားယွင်းနေနိုင်သောကြောင့် -- Validation တစ်ခုတည်းသာ မလုံလောက်ဘဲ Validation ဘယ်တော့မှ ရှာဖွေမတွေ့နိုင်သော အမှားအမျိုးအစားကို ဖမ်းဆီးရန် ဒုတိယ၊ လွတ်လပ်သော Entry တစ်ခုနှင့် Verification လိုအပ်သော Case တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin recommend two checks for the student ID field?",
+            questionMy:
+                "ကျောင်းသား ID Field အတွက် Check နှစ်ခု Zayar Lin အကြံပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A presence check ensures it is not blank, while a format check catches typos in the ID pattern",
+              "One check is always enough for any field",
+              "The school required exactly three checks for every field",
+              "Format checks and presence checks are the same thing",
+            ],
+            optionsMy: [
+              "Presence Check က ဗလာ မဖြစ်ကြောင်း သေချာစေပြီး Format Check က ID Pattern ရှိ ရိုက်ချက်လွဲမှုများကို ဖမ်းဆီးခြင်း",
+              "Field တိုင်းအတွက် Check တစ်ခုသာ အမြဲ လုံလောက်ခြင်း",
+              "ကျောင်းက Field တိုင်းအတွက် Check အတိအကျ သုံးခု တောင်းဆိုခြင်း",
+              "Format Check နှင့် Presence Check သည် အရာတစ်ခုတည်း ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the two ID checks."],
+            hintsMy: ["ID Check နှစ်ခုအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what range did Zayar Lin recommend for the borrowing days check?",
+            questionMy:
+                "ငှားရှိသော ရက် Check အတွက် Zayar Lin အကြံပြုခဲ့သော Range ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Between 1 and 14 days",
+              "Between 0 and 100 days",
+              "Exactly 30 days only",
+              "No range at all was needed",
+            ],
+            optionsMy: [
+              "1 နှင့် 14 ရက် ကြား",
+              "0 နှင့် 100 ရက် ကြား",
+              "30 ရက် အတိအကျသာ",
+              "Range မည်သည်မှ လုံးဝ မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating the library's policy."],
+            hintsMy: [
+              "စာကြည့်တိုက်၏ Policy ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why is validation alone not enough to catch a mistyped-but-correctly-formatted email?",
+            questionMy:
+                "ရိုက်ချက်လွဲသော်လည်း Format ကျသော Email တစ်ခုကို ဖမ်းဆီးရန် Validation တစ်ခုတည်းသာ မလုံလောက်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It could pass every format check while still being genuinely wrong, requiring verification to catch",
+              "Validation checks are always completely useless",
+              "Email addresses can never contain an @ symbol",
+              "Format checks always catch every possible typo",
+            ],
+            optionsMy: [
+              "Format Check တိုင်းကို ဖြတ်နိုင်ပြီး စစ်မှန်စွာ မှားယွင်းနေနိုင်ပြီး ဖမ်းဆီးရန် Verification လိုအပ်ခြင်း",
+              "Validation Check များသည် လုံးဝ အသုံးမဝင်ခြင်း",
+              "Email Address များတွင် @ Symbol ဘယ်တော့မှ ပါဝင်၍ မရနိုင်ခြင်း",
+              "Format Check များသည် ဖြစ်နိုင်သော ရိုက်ချက်လွဲမှု အားလုံးကို အမြဲ ဖမ်းဆီးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Validation and Verification",
+      titleMy: "ဒသမနဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Validation and Verification",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Verification checks whether...",
+          questionMy: "Verification သည် ...ရှိမရှိ စစ်ဆေးသည်",
+          optionsEn: [
+            "Data matches its original source exactly",
+            "Data falls within a reasonable range",
+            "A field has not been left blank",
+            "A number is odd or even",
+          ],
+          optionsMy: [
+            "Data သည် ၎င်း၏ မူရင်း Source နှင့် အတိအကျ ကိုက်ညီခြင်း",
+            "Data သည် ယုတ္တိတန် Range အတွင်း ကျရောက်ခြင်း",
+            "Field တစ်ခု ဗလာ မဖြစ်ခြင်း",
+            "ဂဏန်းတစ်ခု Odd (သို့) Even ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A check digit is used to catch...",
+          questionMy: "Check Digit ကို ...ဖမ်းဆီးရန် အသုံးပြုသည်",
+          optionsEn: [
+            "A mistyped digit within a number",
+            "A blank text field",
+            "An out-of-range date",
+            "An incorrectly formatted image file",
+          ],
+          optionsMy: [
+            "ဂဏန်းတစ်ခုအတွင်း ရိုက်ချက်လွဲသွားသော Digit",
+            "ဗလာ Text Field",
+            "Range ပြင်ပ ရက်စွဲ",
+            "မှားယွင်းစွာ Format ဖြစ်သော ပုံ File",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A range check for a percentage grade would reject...",
+          questionMy:
+              "ရာခိုင်နှုန်း Grade အတွက် Range Check သည် ...ကို ငြင်းပယ်လိမ့်မည်",
+          optionsEn: [
+            "A value of 150",
+            "A value of 50",
+            "A value of 0",
+            "A value of 100",
+          ],
+          optionsMy: ["တန်ဖိုး 150", "တန်ဖိုး 50", "တန်ဖိုး 0", "တန်ဖိုး 100"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 5, Week 20 (Capstone/Boss Week): "Pseudocode
+// Masterclass"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek20 = CourseWeekDef(
+  id: "course-igcse-computing-w20",
+  weekNumber: 20,
+  titleEn: "Pseudocode Masterclass",
+  titleMy: "Pseudocode အထူးသင်ခန်းစာ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w20-d1",
+      dayNumber: 1,
+      titleEn: "Complex Algorithm Design",
+      titleMy: "ရှုပ်ထွေးသော Algorithm ဒီဇိုင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Consider this pseudocode: count = 0; FOR i = 1 TO 5; IF i MOD 2 = 0 THEN; count = count + 1; ENDIF; ENDFOR. What is the final value of count?",
+          questionMy:
+              "ဤ Pseudocode ကို စဉ်းစားပါ - count = 0; FOR i = 1 TO 5; IF i MOD 2 = 0 THEN; count = count + 1; ENDIF; ENDFOR ။ count ၏ နောက်ဆုံး တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["2", "5", "3", "0"],
+          optionsMy: ["2", "5", "3", "0"],
+          correctIndex: 0,
+          hintsEn: [
+            "i takes values 1,2,3,4,5. i MOD 2 = 0 is true for i=2 and i=4 -- exactly two even numbers, so count increments twice.",
+          ],
+          hintsMy: [
+            "i သည် 1,2,3,4,5 တန်ဖိုးများ ယူသည်။ i MOD 2 = 0 သည် i=2 နှင့် i=4 အတွက် True ဖြစ်သည် -- Even ဂဏန်း နှစ်ခု အတိအကျ ဖြစ်ပြီး count ကို နှစ်ကြိမ် တိုးမြှင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Consider this pseudocode: total = 0; i = 1; WHILE i <= 4; total = total + i; i = i + 1; ENDWHILE. What is the final value of total?",
+          questionMy:
+              "ဤ Pseudocode ကို စဉ်းစားပါ - total = 0; i = 1; WHILE i <= 4; total = total + i; i = i + 1; ENDWHILE ။ total ၏ နောက်ဆုံး တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["10", "4", "6", "0"],
+          optionsMy: ["10", "4", "6", "0"],
+          correctIndex: 0,
+          hintsEn: ["1+2+3+4 = 10, with the loop stopping once i exceeds 4."],
+          hintsMy: ["i သည် 4 ကျော်သွားသောအခါ Loop ရပ်တန့်ပြီး 1+2+3+4 = 10 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which validation check should be applied to a form field for a person's month of birth (1-12)?",
+          questionMy:
+              "လူတစ်ဦး၏ မွေးရက် လ (1-12) Form Field တွင် မည်သည့် Validation Check ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "A range check",
+            "A check digit",
+            "Double data entry",
+            "No check is needed",
+          ],
+          optionsMy: [
+            "Range Check",
+            "Check Digit",
+            "Double Data Entry",
+            "Check မည်သည်မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A month must fall between 1 and 12 -- the definition of a range check.",
+          ],
+          hintsMy: [
+            "လသည် 1 နှင့် 12 ကြား ကျရောက်ရမည် -- Range Check ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Algorithms Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 5 Algorithms ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w20-dm-1",
+          termEn: "Flowchart",
+          termMy: "Flowchart",
+          matchEn:
+              "A visual diagram of an algorithm using standard shapes for start/end, process, and decision",
+          matchMy:
+              "Start/End, Process နှင့် Decision အတွက် စံ ပုံသဏ္ဌာန်များကို အသုံးပြု၍ Algorithm တစ်ခု၏ ရုပ်ပိုင်းဆိုင်ရာ ပုံကား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w20-dm-2",
+          termEn: "Pseudocode",
+          termMy: "Pseudocode",
+          matchEn:
+              "Structured, code-like text describing an algorithm's logic without a specific programming language's exact syntax",
+          matchMy:
+              "တိကျသော Programming Language ၏ အတိအကျ Syntax မပါဘဲ Algorithm ၏ Logic ကို ဖော်ပြသော ဖွဲ့စည်းထားသော၊ Code-Like Text",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w20-dm-3",
+          termEn: "Validation",
+          termMy: "Validation",
+          matchEn:
+              "Checking whether data is sensible according to defined rules, such as a range or format",
+          matchMy:
+              "Range (သို့) Format ကဲ့သို့ သတ်မှတ်ထားသော စည်းမျဉ်းများနှင့်အညီ Data သည် ယုတ္တိတန်ခြင်း ရှိမရှိ စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w20-dm-4",
+          termEn: "Verification",
+          termMy: "Verification",
+          matchEn:
+              "Checking whether data matches its original intended source exactly",
+          matchMy:
+              "Data သည် ၎င်း၏ မူရင်း ရည်ရွယ်ထားသော Source နှင့် အတိအကျ ကိုက်ညီခြင်း ရှိမရှိ စစ်ဆေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Trace Table Practice",
+      titleMy: "စီစစ်ကြမည် - Trace Table လေ့ကျင့်ခန်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True Statement", "False Statement"],
+        bucketsMy: ["မှန်ကန်သော ဖော်ပြချက်", "မှားယွင်းသော ဖော်ပြချက်"],
+        items: [
+          SortingItem(
+            id: "igcomp-w20-sort-1",
+            labelEn:
+                "A FOR loop's exact repeat count is known before it starts running",
+            labelMy:
+                "FOR Loop ၏ အတိအကျ ထပ်ခါထပ်ခါ Count ကို Run မစတင်မီ သိထားသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "igcomp-w20-sort-2",
+            labelEn: "A trace table can only track one variable at a time",
+            labelMy:
+                "Trace Table သည် Variable တစ်ခုကိုသာ တစ်ချိန်တည်း ခြေရာခံနိုင်သည်",
+            correctBucketEn: "False Statement",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "igcomp-w20-sort-3",
+            labelEn:
+                "A range check verifies a value falls between a minimum and maximum",
+            labelMy:
+                "Range Check သည် တန်ဖိုးတစ်ခု အနည်းဆုံးနှင့် အများဆုံးကြား ကျရောက်ကြောင်း အတည်ပြုသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "igcomp-w20-sort-4",
+            labelEn:
+                "A REPEAT UNTIL loop can never run its body more than once",
+            labelMy:
+                "REPEAT UNTIL Loop သည် ၎င်း၏ Body ကို တစ်ကြိမ်ထက် ဘယ်တော့မှ Run နိုင်ခြင်း မရှိပါ",
+            correctBucketEn: "False Statement",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Grade Calculator Algorithm",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Grade Calculator Algorithm",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Grade Calculator Algorithm",
+        titleMy: "Zayar Lin ၏ Grade Calculator Algorithm",
+        passageEn:
+            "For the Term 5 capstone, Sayar Ye Min gave every student a Paper 2-style design task combining everything from the term: design an algorithm that reads a student's percentage score, validates it is a sensible mark, then outputs the correct grade letter using the boundaries A for 80 and above, B for 60 to 79, C for 40 to 59, and D for below 40. Zayar Lin began with validation, since an unreasonable score should never even reach the grading logic: he chose a range check requiring the score to be between 0 and 100 inclusive, using a REPEAT UNTIL loop so the program kept asking for a new score until a valid one was entered, guaranteeing the user was asked at least once.\n\nFor the grading logic itself, Zayar Lin reasoned through the boundary values carefully rather than guessing, since IGCSE mark schemes are strict about boundary correctness. He wrote a chain of IF/ELSE IF statements, checking the highest boundary first: IF score >= 80 THEN grade = 'A', ELSE IF score >= 60 THEN grade = 'B', ELSE IF score >= 40 THEN grade = 'C', ELSE grade = 'D'. He specifically checked the order mattered by tracing a score of 85 through his own pseudocode: the first condition, score >= 80, was true immediately, so grade was set to 'A' and the remaining ELSE IF branches were correctly skipped entirely.\n\nSayar Ye Min then asked Zayar Lin to trace a boundary case that could reveal a subtle bug: a score of exactly 60. Zayar Lin traced it precisely: score >= 80 was false since 60 is less than 80, so the program moved to the next condition; score >= 60 was true since 60 equals 60 exactly, so grade was correctly set to 'B'. He noted that if he had mistakenly written score > 60 instead of score >= 60, a score of exactly 60 would have incorrectly fallen through to the 'C' branch -- exactly the kind of off-by-one boundary error that a careful trace table catches and a careless guess does not, and precisely the discipline the whole term had been building toward.",
+        passageMy:
+            "Term 5 Capstone အတွက် ဆရာရဲမင်းသည် Term တစ်ခုလုံးမှ အရာအားလုံးကို ပေါင်းစပ်ထားသော Paper 2-Style Design Task ကို ကျောင်းသားတိုင်းကို ပေးအပ်ခဲ့သည် - ကျောင်းသားတစ်ဦး၏ ရာခိုင်နှုန်း ရမှတ်ကို ဖတ်ရှုပြီး ၎င်း ယုတ္တိတန်သော Mark ဖြစ်ခြင်း ရှိမရှိ Validate လုပ်ကာ 80 နှင့် အထက်အတွက် A, 60 မှ 79 အတွက် B, 40 မှ 59 အတွက် C နှင့် 40 အောက်အတွက် D ဟူသော Boundary များ အသုံးပြု၍ မှန်ကန်သော Grade Letter ကို Output ထုတ်ပေးသော Algorithm တစ်ခု ဒီဇိုင်းဆွဲပါ။ ယုတ္တိမတန်သော ရမှတ်တစ်ခု Grading Logic သို့ ဘယ်တော့မှ မရောက်သင့်သောကြောင့် Zayar Lin Validation ဖြင့် စတင်ခဲ့သည် - Score ကို 0 နှင့် 100 ကြား (ထိစပ်၍) ဖြစ်ရန် တောင်းဆိုသော Range Check ကို သူ ရွေးချယ်ခဲ့ပြီး Program သည် Valid Score တစ်ခု ရိုက်ထည့်သည်အထိ Score အသစ် ဆက်လက် တောင်းဆိုကြောင်း အာမခံရန် REPEAT UNTIL Loop ကို အသုံးပြုခဲ့သည်။\n\nGrading Logic ကိုယ်တိုင်အတွက် IGCSE Mark Scheme များသည် Boundary မှန်ကန်မှုအတွက် တင်းကျပ်သောကြောင့် ခန့်မှန်းမည့်အစား Boundary တန်ဖိုးများကို Zayar Lin သေချာစွာ ဆင်ခြင်ခဲ့သည်။ အမြင့်ဆုံး Boundary ကို ဦးစွာ စစ်ဆေးလျက် IF/ELSE IF Statement ကွင်းဆက်တစ်ခု ရေးသားခဲ့သည် - IF score >= 80 THEN grade = 'A', ELSE IF score >= 60 THEN grade = 'B', ELSE IF score >= 40 THEN grade = 'C', ELSE grade = 'D' ။ 85 ရမှတ်ကို သူ့ Pseudocode ကိုယ်တိုင် ဖြတ်၍ Order အရေးကြီးကြောင်း သူ အထူးသဖြင့် စစ်ဆေးခဲ့သည် - ပထမ Condition, score >= 80 သည် ချက်ချင်း True ဖြစ်ခဲ့ပြီး grade ကို 'A' သို့ သတ်မှတ်ခဲ့ကာ ကျန် ELSE IF Branch များကို လုံးဝ မှန်ကန်စွာ ကျော်လွှားခဲ့သည်။\n\nနူးညံ့သော Bug တစ်ခုကို ဖော်ထုတ်နိုင်သော Boundary Case တစ်ခုကို Trace ရန် ဆရာရဲမင်းက Zayar Lin ကို ဆက်လက် တောင်းဆိုခဲ့သည် - 60 ရမှတ် အတိအကျ ။ Zayar Lin တိကျစွာ Trace ခဲ့သည် - score >= 80 သည် 60 သည် 80 ထက် နည်းသောကြောင့် False ဖြစ်ခဲ့ပြီး Program သည် နောက် Condition သို့ ရွှေ့ခဲ့သည်; score >= 60 သည် 60 သည် 60 နှင့် အတိအကျ ညီသောကြောင့် True ဖြစ်ခဲ့ပြီး grade ကို 'B' သို့ မှန်ကန်စွာ သတ်မှတ်ခဲ့သည်။ score > 60 ကို score >= 60 အစား မှားယွင်းစွာ ရေးမိခဲ့လျှင် 60 ရမှတ် အတိအကျသည် 'C' Branch သို့ မှားယွင်းစွာ ကျရောက်သွားလိမ့်မည် ဖြစ်ကြောင်း သူ မှတ်ချက်ချခဲ့သည် -- ဂရုစိုက် Trace Table တစ်ခုက ဖမ်းဆီးပြီး ဂရုမစိုက်သော ခန့်မှန်းချက်က မဖမ်းဆီးနိုင်သော Off-By-One Boundary Error အမျိုးအစား အတိအကျ ဖြစ်ပြီး Term တစ်ခုလုံး တည်ဆောက်လာခဲ့သော စည်းကမ်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what loop type did Zayar Lin use for the score validation?",
+            questionMy:
+                "Score Validation အတွက် Zayar Lin အသုံးပြုခဲ့သော Loop အမျိုးအစားကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A REPEAT UNTIL loop",
+              "A FOR loop",
+              "No loop was used at all",
+              "A nested FOR loop",
+            ],
+            optionsMy: [
+              "REPEAT UNTIL Loop",
+              "FOR Loop",
+              "Loop မည်သည်မှ လုံးဝ မသုံးခြင်း",
+              "Nested FOR Loop",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the validation loop."],
+            hintsMy: ["Validation Loop အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Zayar Lin check the highest boundary (80) first?",
+            questionMy:
+                "အမြင့်ဆုံး Boundary (80) ကို Zayar Lin ဦးစွာ စစ်ဆေးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "IGCSE mark schemes are strict about boundary correctness, and order matters for the IF/ELSE IF chain",
+              "It was simply a random choice",
+              "The lowest boundary must always be checked last in every algorithm",
+              "80 was the only boundary that mattered",
+            ],
+            optionsMy: [
+              "IGCSE Mark Scheme များသည် Boundary မှန်ကန်မှုအတွက် တင်းကျပ်ပြီး IF/ELSE IF ကွင်းဆက်အတွက် Order အရေးကြီးခြင်း",
+              "ကျပန်း ရွေးချယ်မှုသာ ဖြစ်ခြင်း",
+              "အနိမ့်ဆုံး Boundary ကို Algorithm တိုင်းတွင် နောက်ဆုံး အမြဲ စစ်ဆေးရမည် ဖြစ်ခြင်း",
+              "80 သာလျှင် အရေးကြီးသော Boundary တစ်ခုတည်း ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining boundary correctness."],
+            hintsMy: [
+              "Boundary မှန်ကန်မှုကို ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what would have happened with score > 60 instead of score >= 60?",
+            questionMy:
+                "score >= 60 အစား score > 60 ဖြစ်ခဲ့ပါက အဘယ်အရာ ဖြစ်ပျက်မည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A score of exactly 60 would have incorrectly fallen through to the C branch",
+              "The algorithm would have run twice as fast",
+              "The program would have refused to run at all",
+              "The result would have been exactly the same either way",
+            ],
+            optionsMy: [
+              "60 ရမှတ် အတိအကျသည် C Branch သို့ မှားယွင်းစွာ ကျရောက်သွားလိမ့်မည်",
+              "Algorithm သည် နှစ်ဆ ပို၍ မြန်စွာ Run လိမ့်မည်",
+              "Program သည် Run ရန် လုံးဝ ငြင်းဆန်လိမ့်မည်",
+              "ရလဒ်သည် နည်းလမ်း မည်သို့ပင်ရှိစေ အတိအကျ တူညီလိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: Algorithms and Pseudocode Exam",
+      titleMy: "Term 5 Capstone - Algorithms and Pseudocode စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In a flowchart, a decision point is drawn as a...",
+          questionMy: "Flowchart တစ်ခုတွင် Decision Point ကို ...အဖြစ် ဆွဲသည်",
+          optionsEn: ["Diamond", "Oval", "Rectangle", "Triangle"],
+          optionsMy: ["Diamond", "Oval", "Rectangle", "Triangle"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A FOR loop is most appropriate when...",
+          questionMy: "FOR Loop သည် ...ချိန်တွင် အကောင်းဆုံး ကိုက်ညီသည်",
+          optionsEn: [
+            "The exact number of repetitions is known in advance",
+            "The number of repetitions can never be known",
+            "No repetition is required",
+            "The condition must be checked after the loop body",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အတိအကျ အရေအတွက်ကို ကြိုတင် သိထားခြင်း",
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်ကို ဘယ်တော့မှ မသိနိုင်ခြင်း",
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် မလိုအပ်ခြင်း",
+            "Loop Body ပြီးနောက် Condition ကို စစ်ဆေးရမည် ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A range check for a percentage score between 0 and 100 would flag a score of...",
+          questionMy:
+              "0 နှင့် 100 ကြား ရာခိုင်နှုန်း ရမှတ်အတွက် Range Check သည် ...ရမှတ်ကို အချက်ပြလိမ့်မည်",
+          optionsEn: ["120", "0", "50", "100"],
+          optionsMy: ["120", "0", "50", "100"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 5: "Algorithms, Flowcharts and Pseudocode"
+// (Weeks 17-20)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm5 = CourseTermDef(
+  id: "course-igcse-computing-t5",
+  termNumber: 5,
+  titleEn: "Algorithms, Flowcharts and Pseudocode",
+  titleMy: "အယ်လဂိုရီသမ်၊ Flowchart နှင့် Pseudocode",
+  certificateTitleEn: "Algorithms, Flowcharts and Pseudocode",
+  certificateTitleMy: "အယ်လဂိုရီသမ်၊ Flowchart နှင့် Pseudocode",
+  weeks: [
+    _igcseComputingWeek17,
+    _igcseComputingWeek18,
+    _igcseComputingWeek19,
+    _igcseComputingWeek20,
   ],
 );
 // __IGCSE_COMPUTING_MARKER__
