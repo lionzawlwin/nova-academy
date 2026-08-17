@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 2-9 not yet authored; wired incrementally, one completed
+// Terms 3-9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,10 +58246,1434 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseGpTerm1],
+  terms: [_igcseGpTerm1, _igcseGpTerm2],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 2, Week 5: "Moral Dilemmas and
+// Ethical Frameworks"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek5 = CourseWeekDef(
+  id: "course-igcse-gp-w5",
+  weekNumber: 5,
+  titleEn: "Moral Dilemmas and Ethical Frameworks",
+  titleMy: "ကိုယ်ကျင့်တရားဆိုင်ရာ အကျပ်အတည်းများနှင့် ကျင့်ဝတ်ဘောင်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w5-d1",
+      dayNumber: 1,
+      titleEn: "Utilitarianism, Rights and Bioethics",
+      titleMy: "Utilitarianism, Rights နှင့် Bioethics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "According to a utilitarian ethical framework, an action is judged right or wrong mainly by...",
+          questionMy:
+              "Utilitarian ကျင့်ဝတ်ဘောင်တစ်ခုအရ Action တစ်ခုကို အဓိကအားဖြင့် ...ဖြင့် မှန်၊ မမှန် ဆုံးဖြတ်သည်",
+          optionsEn: [
+            "Whether it produces the greatest overall benefit (or least harm) for the greatest number of people",
+            "Whether it was performed by a person in a position of authority",
+            "Whether it happened to be legal in that specific country",
+            "Whether it was popular on social media at the time",
+          ],
+          optionsMy: [
+            "လူဦးရေ အများဆုံးအတွက် စုစုပေါင်း အကျိုးအမြတ် အများဆုံး (သို့) ထိခိုက်မှု အနည်းဆုံး ဖြစ်စေခြင်း ရှိမရှိ",
+            "အာဏာရှိသော ရာထူးရှိသူတစ်ဦးက ၎င်းကို ပြုလုပ်ခဲ့ခြင်း ရှိမရှိ",
+            "ထို တိကျသော နိုင်ငံတွင် ဥပဒေနှင့် ကိုက်ညီခြင်း ရှိမရှိ",
+            "ထိုအချိန်တွင် Social Media ပေါ်တွင် ရေပန်းစားခြင်း ရှိမရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Utilitarianism weighs the total consequences for everyone affected -- 'the greatest good for the greatest number' is its classic summary phrase.",
+          ],
+          hintsMy: [
+            "Utilitarianism သည် ထိခိုက်ခံရသူ အားလုံးအတွက် စုစုပေါင်း ရလဒ်များကို ချိန်ခွင်လျှာညီသည် -- 'လူဦးရေ အများဆုံးအတွက် အကောင်းဆုံးအရာ' သည် ၎င်း၏ ရိုးရာ အနှစ်ချုပ် စကားစု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rights-based ethical framework differs from strict utilitarianism because it...",
+          questionMy:
+              "Rights-Based ကျင့်ဝတ်ဘောင်တစ်ခုသည် တင်းကျပ်သော Utilitarianism နှင့် ကွဲပြားသည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Insists certain individual rights should not be violated even if doing so would produce a greater overall benefit",
+            "Ignores individuals entirely and only considers group outcomes",
+            "Never applies to any real ethical dilemma",
+            "Is identical to utilitarianism in every situation",
+          ],
+          optionsMy: [
+            "ထိုသို့ ပြုလုပ်ခြင်းသည် စုစုပေါင်း အကျိုးအမြတ် ပို၍ရနိုင်စေသော်လည်း တစ်ဦးချင်း အခွင့်အရေး အချို့ကို ချိုးဖောက်ခြင်း မပြုသင့်ဟု ဆိုလိုခြင်း",
+            "တစ်ဦးချင်းကို လုံးဝ လျစ်လျူရှုပြီး အုပ်စု ရလဒ်များကိုသာ ထည့်သွင်းစဉ်းစားခြင်း",
+            "စစ်မှန်သော ကျင့်ဝတ်ဆိုင်ရာ အကျပ်အတည်းမည်သည်နှင့်မျှ ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+            "အခြေအနေတိုင်းတွင် Utilitarianism နှင့် အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Example: strict utilitarianism might justify harming one person if it saves five; a rights-based view would say that individual's right not to be harmed cannot simply be overridden by the math.",
+          ],
+          hintsMy: [
+            "ဥပမာ - တင်းကျပ်သော Utilitarianism သည် လူငါးဦး ကယ်တင်နိုင်ပါက လူတစ်ဦးကို ထိခိုက်စေခြင်းကို ကျိုးကြောင်းညီစေနိုင်သည်; Rights-Based View က ထိခိုက်ခံရခြင်း မပြုရသော ထို တစ်ဦးချင်း၏ အခွင့်အရေးကို ဂဏန်းတွက်ချက်မှုဖြင့် ရိုးရိုးသာ Override မလုပ်နိုင်ဟု ဆိုမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a bioethics case study, why might two doctors reach opposite conclusions using different ethical frameworks?",
+          questionMy:
+              "Bioethics Case Study တစ်ခုတွင် ဆရာဝန် နှစ်ဦးသည် ကျင့်ဝတ်ဘောင် မတူညီများကို အသုံးပြု၍ ဆန့်ကျင်ဘက် ကောက်ချက်များသို့ ရောက်ရှိနိုင်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each framework weighs values like overall benefit, individual autonomy, and duty differently, so the same facts can support different justified conclusions",
+            "One of the two doctors must always be lying about the facts",
+            "Ethical frameworks are identical, so this could never actually happen",
+            "Only one doctor is allowed to have a valid opinion by definition",
+          ],
+          optionsMy: [
+            "Framework တစ်ခုစီသည် စုစုပေါင်း အကျိုးအမြတ်၊ တစ်ဦးချင်း Autonomy နှင့် Duty ကဲ့သို့ တန်ဖိုးများကို မတူညီစွာ ချိန်ခွင်လျှာညှိသောကြောင့် Fact တူညီသည် ကွဲပြားသော ခိုင်လုံသော ကောက်ချက်များကို ထောက်ခံနိုင်ခြင်း",
+            "ဆရာဝန် နှစ်ဦးအနက် တစ်ဦးသည် Fact များအကြောင်း အမြဲ လိမ်ပြောနေရမည်",
+            "ကျင့်ဝတ်ဘောင်များသည် အတိအကျ တူညီသောကြောင့် ဤသည် အမှန်တကယ် ဘယ်တော့မှ ဖြစ်ပျက်နိုင်ခြင်း မရှိပါ",
+            "ဆရာဝန် တစ်ဦးတည်းကသာ Valid သဘောထားရှိရန် အဓိပ္ပာယ်အရ ခွင့်ပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly why bioethics case studies are so widely used in Global Perspectives -- they show reasonable people disagreeing through different, internally consistent value systems.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Bioethics Case Study များသည် Global Perspectives တွင် ဤမျှ ကျယ်ကျယ်ပြန့်ပြန့် အသုံးပြုရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည် -- ၎င်းတို့သည် ကွဲပြားသော၊ အတွင်းစည်း တသမတ်တည်း ရှိသော တန်ဖိုးစနစ်များမှတစ်ဆင့် ကျိုးကြောင်းကျိုကျသော လူများ သဘောကွဲလွဲနေသည်ကို ပြသသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ethical Framework Terms",
+      titleMy: "တွဲစပ်ကြမည် - Ethical Framework ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w5-dm-1",
+          termEn: "Utilitarianism",
+          termMy: "Utilitarianism",
+          matchEn:
+              "Judges actions by whether they produce the greatest overall benefit for the greatest number",
+          matchMy:
+              "Action များကို လူဦးရေ အများဆုံးအတွက် စုစုပေါင်း အကျိုးအမြတ် အများဆုံး ဖြစ်စေခြင်း ရှိမရှိဖြင့် ဆုံးဖြတ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w5-dm-2",
+          termEn: "Rights-based ethics",
+          termMy: "Rights-Based Ethics",
+          matchEn:
+              "Insists certain individual rights should not be violated regardless of overall benefit",
+          matchMy:
+              "စုစုပေါင်း အကျိုးအမြတ် မည်သို့ပင်ရှိစေ တစ်ဦးချင်း အခွင့်အရေး အချို့ကို မချိုးဖောက်သင့်ဟု ဆိုလိုသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w5-dm-3",
+          termEn: "Moral dilemma",
+          termMy: "Moral Dilemma",
+          matchEn:
+              "A situation with conflicting ethical values, where every option has a genuine moral cost",
+          matchMy:
+              "Option တိုင်းတွင် စစ်မှန်သော ကိုယ်ကျင့်တရား ကုန်ကျစရိတ် ရှိသော ဆန့်ကျင်ဘက် ကျင့်ဝတ်ဆိုင်ရာ တန်ဖိုးများ ရှိသော အခြေအနေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w5-dm-4",
+          termEn: "Bioethics",
+          termMy: "Bioethics",
+          matchEn:
+              "The study of ethical issues arising from medicine, biology, and healthcare decisions",
+          matchMy:
+              "ဆေးပညာ၊ ဇီဝဗေဒနှင့် ကျန်းမာရေးဆိုင်ရာ ဆုံးဖြတ်ချက်များမှ ပေါ်ပေါက်လာသော ကျင့်ဝတ်ဆိုင်ရာ ပြဿနာများ လေ့လာမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w5-dm-5",
+          termEn: "Autonomy",
+          termMy: "Autonomy",
+          matchEn:
+              "An individual's right to make their own informed decisions about their own life or body",
+          matchMy:
+              "တစ်ဦးချင်း၏ ကိုယ်ပိုင်ဘဝ (သို့) ခန္ဓာကိုယ်အကြောင်း Informed Decision ကို ကိုယ်တိုင် ချမှတ်ခွင့်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Utilitarian or Rights-Based Reasoning?",
+      titleMy: "စီစစ်ကြမည် - Utilitarian လား Rights-Based Reasoning လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Utilitarian Reasoning", "Rights-Based Reasoning"],
+        bucketsMy: ["Utilitarian Reasoning", "Rights-Based Reasoning"],
+        items: [
+          SortingItem(
+            id: "igcgp-w5-sort-1",
+            labelEn:
+                "A policy is justified because it benefits the majority, even if a small group loses out",
+            labelMy:
+                "Group ငယ်တစ်ခု ဆုံးရှုံးသော်လည်း Policy တစ်ခုသည် အများစုကို အကျိုးပြုသောကြောင့် ကျိုးကြောင်းညီသည်",
+            correctBucketEn: "Utilitarian Reasoning",
+            correctBucketMy: "Utilitarian Reasoning",
+          ),
+          SortingItem(
+            id: "igcgp-w5-sort-2",
+            labelEn:
+                "A patient's right to refuse treatment must be respected even if refusing harms overall efficiency",
+            labelMy:
+                "ငြင်းဆန်ခြင်းသည် စုစုပေါင်း Efficiency ကို ထိခိုက်စေသော်လည်း ကုသမှု ငြင်းဆန်ခွင့် လူနာ၏ အခွင့်အရေးကို လေးစားရမည်",
+            correctBucketEn: "Rights-Based Reasoning",
+            correctBucketMy: "Rights-Based Reasoning",
+          ),
+          SortingItem(
+            id: "igcgp-w5-sort-3",
+            labelEn:
+                "Total wellbeing across the population is calculated before deciding on the policy",
+            labelMy:
+                "Policy ဆုံးဖြတ်မီ လူဦးရေတစ်ခုလုံး၏ စုစုပေါင်း Wellbeing ကို တွက်ချက်သည်",
+            correctBucketEn: "Utilitarian Reasoning",
+            correctBucketMy: "Utilitarian Reasoning",
+          ),
+          SortingItem(
+            id: "igcgp-w5-sort-4",
+            labelEn:
+                "An individual cannot be forced to sacrifice their basic rights for the group's benefit",
+            labelMy:
+                "Group ၏ အကျိုးအတွက် တစ်ဦးချင်း၏ အခြေခံ အခွင့်အရေးများကို စွန့်ခိုင်း၍ မရနိုင်ပါ",
+            correctBucketEn: "Rights-Based Reasoning",
+            correctBucketMy: "Rights-Based Reasoning",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Vaccine Priority Debate",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ ကာကွယ်ဆေး ဦးစားပေးမှု ဆွေးနွေးပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Vaccine Priority Debate",
+        titleMy: "Su Myat Noe ၏ ကာကွယ်ဆေး ဦးစားပေးမှု ဆွေးနွေးပွဲ",
+        passageEn:
+            "Ko Zin Ko Ko posed a classic bioethics dilemma to the class: during a severe vaccine shortage, should limited doses go first to elderly citizens most at risk of dying, or to young essential workers who keep hospitals, food supply, and power running for everyone else? He asked Su Myat Noe to argue the utilitarian case first. She reasoned that prioritising essential workers could be justified on pure numbers: keeping hospitals staffed and food supply chains running protects far more lives indirectly than protecting the smaller number of people directly vaccinated, producing the greatest overall benefit for the whole population.\n\nHe then asked her to argue the opposing rights-based case just as rigorously. Su Myat Noe reasoned that a rights-based framework would object to using elderly citizens' greater risk of death as a mere input into a utilitarian calculation -- each individual, regardless of their instrumental usefulness to society, has an equal right to protection from serious harm, and a system that explicitly deprioritises the group facing the highest personal risk of dying raises a serious rights violation, even if it produces a better aggregate outcome.\n\nSu Myat Noe admitted this was uncomfortable: both arguments were logically coherent, used real evidence, and were argued in good faith, yet they reached opposite conclusions. Ko Zin Ko Ko explained this discomfort was exactly the point of studying ethical frameworks explicitly -- real policy makers face genuine dilemmas like this constantly, and understanding which specific framework underlies a given argument, rather than just having a gut feeling about which side sounds nicer, was the actual skill IGCSE Global Perspectives was building. He noted that a strong exam answer would not just pick a side, but explicitly name which framework justified it and honestly acknowledge what the opposing framework would say in response.",
+        passageMy:
+            "ကာကွယ်ဆေး ပြင်းထန်စွာ ရှားပါးနေချိန် ကန့်သတ်ထားသော ဆေးထိုးများကို သေဆုံးနိုင်ခြေ အများဆုံး သက်ကြီးရွယ်အိုများသို့ ဦးစွာ ပေးအပ်သင့်ပါသလား၊ (သို့) အခြားသူများအတွက် ဆေးရုံများ၊ အစားအစာ ထောက်ပံ့မှုနှင့် လျှပ်စစ်ကို ဆက်လက် လုပ်ဆောင်ပေးသော လူငယ် Essential Worker များသို့ ပေးသင့်ပါသလား ဟူသော ရိုးရာ Bioethics ဒွိဟတစ်ခုကို ကိုဇင်ကိုကိုသည် Class ကို တင်ပြခဲ့သည်။ Utilitarian Case ကို ဦးစွာ ငြင်းခုံရန် Su Myat Noe ကို သူ တောင်းဆိုခဲ့သည်။ Essential Worker များကို ဦးစားပေးခြင်းသည် ဂဏန်းသက်သက်ပေါ်တွင် ကျိုးကြောင်းညီနိုင်ကြောင်း သူမ ဆင်ခြင်ခဲ့သည် - ဆေးရုံများနှင့် အစားအစာ Supply Chain များကို ဝန်ထမ်းအင်အား အပြည့်ဖြင့် ဆက်လက် လုပ်ဆောင်စေခြင်းသည် တိုက်ရိုက် ကာကွယ်ဆေးထိုးထားသော လူဦးရေနည်းနည်းကို ကာကွယ်ခြင်းထက် လူများစွာကို သွယ်ဝိုက်၍ ကာကွယ်ပေးပြီး လူဦးရေတစ်ခုလုံးအတွက် စုစုပေါင်း အကျိုးအမြတ် အများဆုံး ဖြစ်စေသည်။\n\nဆန့်ကျင်ဘက် Rights-Based Case ကိုလည်း အလားတူ တင်းကျပ်စွာ ငြင်းခုံရန် ဆက်လက် သူ့ကို တောင်းဆိုခဲ့သည်။ Rights-Based Framework တစ်ခုသည် သက်ကြီးရွယ်အိုများ၏ သေဆုံးနိုင်ခြေ ပို၍များခြင်းကို Utilitarian တွက်ချက်မှု၏ Input ရိုးရိုးအဖြစ် အသုံးပြုခြင်းကို ကန့်ကွက်နိုင်ကြောင်း Su Myat Noe ဆင်ခြင်ခဲ့သည် -- လူမှုအသိုက်အဝန်းအတွက် Instrumental အသုံးဝင်မှု မည်သို့ပင်ရှိစေ တစ်ဦးချင်း တိုင်းသည် ပြင်းထန်သော ထိခိုက်မှုမှ ကာကွယ်ခံရန် တန်းတူ အခွင့်အရေး ရှိပြီး ကိုယ်ရေးအရ သေဆုံးနိုင်ခြေ အများဆုံး ကြုံနေရသော Group ကို ရှင်းရှင်းလင်းလင်း Deprioritise ပြုလုပ်သော System တစ်ခုသည် Aggregate ရလဒ် ပို၍ ကောင်းစေသော်ငြားလည်း ပြင်းထန်သော Rights ချိုးဖောက်မှုတစ်ခု ဖြစ်ပေါ်စေသည်။\n\nဤသည် မသက်မသာ ဖြစ်ကြောင်း Su Myat Noe ဝန်ခံခဲ့သည် - Argument နှစ်ခုစလုံးသည် ယုတ္တိတန်၊ Real Evidence အသုံးပြုပြီး Good Faith ဖြင့် ငြင်းခုံခဲ့သော်လည်း ဆန့်ကျင်ဘက် ကောက်ချက်များသို့ ရောက်ရှိခဲ့သည်။ ဤ မသက်မသာမှုသည် Ethical Framework များကို ရှင်းရှင်းလင်းလင်း လေ့လာရသည့် အဓိကရည်ရွယ်ချက် အတိအကျ ဖြစ်ကြောင်း ကိုဇင်ကိုကို ရှင်းပြခဲ့သည် -- တကယ့် Policy Maker များသည် ဤကဲ့သို့ စစ်မှန်သော ဒွိဟများကို အမြဲ ကြုံတွေ့နေရပြီး မည်သည့် ဘက်က ပို၍ လှပသော အသံ ထွက်ကြောင်း Gut Feeling ရိုးရိုးထက် Argument တစ်ခုအောက်ရှိ တိကျသော Framework မည်သည်ကို နားလည်ခြင်းသည် IGCSE Global Perspectives တည်ဆောက်နေသော အမှန်တကယ် Skill ဖြစ်သည်။ ခိုင်မာသော စာမေးပွဲ အဖြေတစ်ခုသည် ဘက်တစ်ဖက်ကိုသာ မရွေးဘဲ ၎င်းကို ကျိုးကြောင်းညီစေသော Framework မည်သည်ကို ရှင်းလင်းစွာ အမည်ပေးပြီး ဆန့်ကျင်ဘက် Framework က မည်သို့ တုံ့ပြန်မည်ကို ရိုးသားစွာ အသိအမှတ်ပြုသင့်ကြောင်း သူ မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was Su Myat Noe's utilitarian argument?",
+            questionMy:
+                "Su Myat Noe ၏ Utilitarian Argument ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Prioritising essential workers protects far more lives indirectly, producing the greatest overall benefit",
+              "Elderly citizens should always be vaccinated first regardless of any other factor",
+              "Vaccines should never be distributed to anyone at all",
+              "Only the wealthy should receive vaccines first",
+            ],
+            optionsMy: [
+              "Essential Worker များကို ဦးစားပေးခြင်းသည် သွယ်ဝိုက်၍ လူများစွာကို ကာကွယ်ပေးပြီး စုစုပေါင်း အကျိုးအမြတ် အများဆုံး ဖြစ်စေခြင်း",
+              "အခြား Factor မည်သည်ပင်ရှိစေ သက်ကြီးရွယ်အိုများသို့ အမြဲ ဦးစွာ ကာကွယ်ဆေးထိုးသင့်ခြင်း",
+              "ကာကွယ်ဆေးများကို မည်သူ့ကိုမျှ လုံးဝ မဝေမျှသင့်ခြင်း",
+              "ချမ်းသာသူများသာ ကာကွယ်ဆေးကို ဦးစွာ ရရှိသင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the rights-based framework object to?",
+            questionMy:
+                "Rights-Based Framework က မည်သည်ကို ကန့်ကွက်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Using elderly citizens' greater risk as a mere input into a utilitarian calculation",
+              "Vaccinating anyone at all under any circumstances",
+              "The existence of essential workers",
+              "The concept of risk itself",
+            ],
+            optionsMy: [
+              "သက်ကြီးရွယ်အိုများ၏ ပို၍များသော Risk ကို Utilitarian တွက်ချက်မှု၏ Input ရိုးရိုးအဖြစ် အသုံးပြုခြင်း",
+              "မည်သည့် အခြေအနေတွင်မဆို မည်သူ့ကိုမဆို ကာကွယ်ဆေးထိုးခြင်း",
+              "Essential Worker များ ရှိနေခြင်း",
+              "Risk သဘောတရား ကိုယ်တိုင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the rights-based objection."],
+            hintsMy: [
+              "Rights-Based ကန့်ကွက်ချက်အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what does a strong exam answer explicitly do?",
+            questionMy:
+                "ခိုင်မာသော စာမေးပွဲ အဖြေတစ်ခု ရှင်းလင်းစွာ ပြုလုပ်သည့်အရာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Names which framework justifies the answer and acknowledges the opposing framework's view",
+              "Picks a side with no explanation at all",
+              "Refuses to consider more than one framework",
+              "Avoids mentioning ethics entirely",
+            ],
+            optionsMy: [
+              "အဖြေကို ကျိုးကြောင်းညီစေသော Framework ကို အမည်ပေးပြီး ဆန့်ကျင်ဘက် Framework ၏ View ကို အသိအမှတ်ပြုခြင်း",
+              "ရှင်းလင်းချက် လုံးဝ မပါဘဲ ဘက်တစ်ဖက် ရွေးချယ်ခြင်း",
+              "Framework တစ်ခုထက် ပို၍ စဉ်းစားရန် ငြင်းဆန်ခြင်း",
+              "Ethics အကြောင်း လုံးဝ မဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Ethical Frameworks",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Ethical Frameworks",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Utilitarianism judges actions primarily by...",
+          questionMy:
+              "Utilitarianism သည် Action များကို အဓိကအားဖြင့် ...ဖြင့် ဆုံးဖြတ်သည်",
+          optionsEn: [
+            "Overall benefit for the greatest number",
+            "Whether an individual's rights are ever mentioned",
+            "Popularity alone",
+            "Legal status alone, regardless of consequences",
+          ],
+          optionsMy: [
+            "လူဦးရေ အများဆုံးအတွက် စုစုပေါင်း အကျိုးအမြတ်",
+            "တစ်ဦးချင်း၏ အခွင့်အရေးများကို ဖော်ပြထားခြင်း ရှိမရှိ",
+            "ရေပန်းစားမှုတစ်ခုတည်း",
+            "ရလဒ် မည်သို့ပင်ရှိစေ ဥပဒေရေးရာ အနေအထားတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rights-based framework would object to a policy that...",
+          questionMy:
+              "Rights-Based Framework တစ်ခုသည် ...သော Policy တစ်ခုကို ကန့်ကွက်လိမ့်မည်",
+          optionsEn: [
+            "Violates an individual's basic rights for the sake of overall benefit",
+            "Protects every individual's rights equally",
+            "Has no effect on anyone at all",
+            "Is supported by every citizen unanimously",
+          ],
+          optionsMy: [
+            "စုစုပေါင်း အကျိုးအမြတ်အတွက် တစ်ဦးချင်း၏ အခြေခံ အခွင့်အရေးများကို ချိုးဖောက်ခြင်း",
+            "တစ်ဦးချင်း၏ အခွင့်အရေးများကို တန်းတူညီမျှစွာ ကာကွယ်ခြင်း",
+            "မည်သူ့ကိုမျှ မထိခိုက်ခြင်း",
+            "နိုင်ငံသားတိုင်းက တညီတညွတ်တည်း ထောက်ခံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A moral dilemma is a situation where...",
+          questionMy: "Moral Dilemma ဆိုသည်မှာ ...သော အခြေအနေ ဖြစ်သည်",
+          optionsEn: [
+            "Every available option carries a genuine ethical cost",
+            "There is only ever one obviously correct option",
+            "No ethical values are involved at all",
+            "The answer is always simple and uncontroversial",
+          ],
+          optionsMy: [
+            "ရရှိနိုင်သော Option တိုင်းတွင် စစ်မှန်သော ကျင့်ဝတ်ဆိုင်ရာ ကုန်ကျစရိတ် ရှိသော အခြေအနေ",
+            "ထင်ရှားသော မှန်ကန်သော Option တစ်ခုတည်းသာ ရှိသော အခြေအနေ",
+            "ကျင့်ဝတ်ဆိုင်ရာ တန်ဖိုးများ မပါဝင်သော အခြေအနေ",
+            "အဖြေသည် အမြဲ ရိုးရှင်းပြီး ငြင်းခုံစရာ မရှိသော အခြေအနေ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 2, Week 6: "Belief Systems and
+// Cultural Relativism"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek6 = CourseWeekDef(
+  id: "course-igcse-gp-w6",
+  weekNumber: 6,
+  titleEn: "Belief Systems and Cultural Relativism",
+  titleMy: "ယုံကြည်မှုစနစ်များနှင့် ယဉ်ကျေးမှု ဆွေမျိုးစပ်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w6-d1",
+      dayNumber: 1,
+      titleEn: "Cultural Relativism vs Universal Rights",
+      titleMy: "Cultural Relativism vs Universal Rights",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What does 'cultural relativism' mean as an approach to evaluating a practice from another culture?",
+          questionMy:
+              "အခြား ယဉ်ကျေးမှုတစ်ခုမှ Practice တစ်ခုကို အကဲဖြတ်ရာတွင် Approach တစ်ခုအနေဖြင့် 'Cultural Relativism' ဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "The view that a practice should be understood and judged within the context of its own culture, rather than by an outside culture's standards alone",
+            "The belief that every culture must adopt exactly the same practices",
+            "The claim that no culture has ever had any beliefs at all",
+            "A rule that only applies to economic policy, never to social practices",
+          ],
+          optionsMy: [
+            "Practice တစ်ခုကို ပြင်ပ ယဉ်ကျေးမှု၏ စံနှုန်းများတစ်ခုတည်းဖြင့် မဟုတ်ဘဲ ၎င်းကိုယ်ပိုင် ယဉ်ကျေးမှု၏ Context အတွင်းမှ နားလည်ပြီး စီရင်ဆုံးဖြတ်သင့်သည်ဟူသော အမြင်",
+            "ယဉ်ကျေးမှုတိုင်း Practice အတိအကျ တူညီစွာ လက်ခံရမည်ဟူသော ယုံကြည်ချက်",
+            "ယဉ်ကျေးမှု မည်သည်မှ ယုံကြည်ချက် မည်သည်ကိုမျှ ဘယ်တော့မှ မရှိခဲ့ဟူသော Claim",
+            "စီးပွားရေး မူဝါဒတွင်သာ သက်ဆိုင်ပြီး လူမှုရေး Practice များနှင့် ဘယ်တော့မှ မသက်ဆိုင်သော စည်းမျဉ်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cultural relativism asks 'what does this practice mean within its own cultural context?' before making a judgement, rather than immediately applying an outsider's standard.",
+          ],
+          hintsMy: [
+            "Cultural Relativism သည် စီရင်ဆုံးဖြတ်ချက် မချမီ ပြင်ပသူ၏ စံနှုန်းကို ချက်ချင်း အသုံးမချဘဲ 'ဤ Practice သည် ၎င်းကိုယ်ပိုင် ယဉ်ကျေးမှု Context အတွင်း အဘယ်အရာကို ဆိုလိုသနည်း' ဟု ဦးစွာ မေးမြန်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the strongest criticism of taking cultural relativism to its extreme?",
+          questionMy:
+              "Cultural Relativism ကို ၎င်း၏ အစွန်းရောက်အထိ ယူဆောင်ခြင်းအပေါ် အခိုင်မာဆုံး ဝေဖန်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It could be used to excuse genuine human rights violations simply because they are described as 'traditional'",
+            "It requires every country to have exactly the same laws",
+            "It makes cross-cultural research completely impossible",
+            "It only applies to countries with no written history",
+          ],
+          optionsMy: [
+            "'ရိုးရာ' ဟု ဖော်ပြရုံသက်သက်ဖြင့် စစ်မှန်သော လူ့အခွင့်အရေး ချိုးဖောက်မှုများကို အကြောင်းပြချက်ပြရန် အသုံးပြုနိုင်ခြင်း",
+            "နိုင်ငံတိုင်း ဥပဒေ အတိအကျ တူညီရန် တောင်းဆိုခြင်း",
+            "Cross-Cultural သုတေသနကို လုံးဝ မဖြစ်နိုင်စေခြင်း",
+            "ရေးသားထားသော သမိုင်း မရှိသော နိုင်ငံများနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the core tension in the debate: at what point does respecting cultural context become an excuse for allowing real harm, such as forced practices, to continue unquestioned?",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဆွေးနွေးပွဲ၏ အဓိက ဆန့်ကျင်မှု ဖြစ်သည် - ယဉ်ကျေးမှု Context ကို လေးစားခြင်းသည် Force ပြုလုပ်ထားသော Practice များကဲ့သို့ စစ်မှန်သော ထိခိုက်မှုကို မေးခွန်း မထုတ်ဘဲ ဆက်လက် တည်ရှိနေစေရန် ဆင်ခြေတစ်ခု ဖြစ်လာနိုင်သည့် အချိန်မှာ မည်သည့်အချိန်နည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to the Universal Declaration of Human Rights (UDHR), what is its central claim about rights?",
+          questionMy:
+              "Universal Declaration of Human Rights (UDHR) အရ အခွင့်အရေးများအကြောင်း ၎င်း၏ အဓိက Claim ကား အဘယ်နည်း။",
+          optionsEn: [
+            "Certain fundamental rights belong to every human being everywhere, regardless of culture, nationality, or tradition",
+            "Rights only apply to citizens of the country that wrote the declaration",
+            "Rights can be completely removed if a majority of a population votes to remove them",
+            "Rights only apply to adults over the age of 40",
+          ],
+          optionsMy: [
+            "အခြေခံ အခွင့်အရေး အချို့သည် ယဉ်ကျေးမှု၊ နိုင်ငံသားမှု (သို့) ရိုးရာ မည်သို့ပင်ရှိစေ နေရာတိုင်းရှိ လူသားတိုင်းပိုင်သည်",
+            "အခွင့်အရေးများသည် ကြေညာစာတမ်း ရေးသားသော နိုင်ငံ၏ နိုင်ငံသားများနှင့်သာ သက်ဆိုင်သည်",
+            "လူဦးရေ အများစုက ဖယ်ရှားရန် Vote ပေးပါက အခွင့်အရေးများကို လုံးဝ ဖယ်ရှားနိုင်သည်",
+            "အခွင့်အရေးများသည် Age 40 ကျော် လူကြီးများနှင့်သာ သက်ဆိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The UDHR was deliberately written to be universal -- applying to all humans by virtue of being human, not because of any specific nationality or vote.",
+          ],
+          hintsMy: [
+            "UDHR ကို Universal ဖြစ်စေရန် ရည်ရွယ်ချက်ရှိရှိ ရေးသားခဲ့သည် -- တိကျသော နိုင်ငံသားမှု (သို့) Vote တစ်ခုခုကြောင့် မဟုတ်ဘဲ လူသားဖြစ်ခြင်းကြောင့် လူသားအားလုံးနှင့် သက်ဆိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Culture and Rights Terms",
+      titleMy: "တွဲစပ်ကြမည် - Culture and Rights ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w6-dm-1",
+          termEn: "Cultural relativism",
+          termMy: "Cultural Relativism",
+          matchEn:
+              "Understanding and judging a practice within the context of its own culture",
+          matchMy:
+              "Practice တစ်ခုကို ၎င်းကိုယ်ပိုင် ယဉ်ကျေးမှု Context အတွင်းမှ နားလည်ပြီး စီရင်ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w6-dm-2",
+          termEn: "Universal human rights",
+          termMy: "Universal Human Rights",
+          matchEn:
+              "Fundamental rights held to belong to every human being regardless of culture or tradition",
+          matchMy:
+              "ယဉ်ကျေးမှု (သို့) ရိုးရာ မည်သို့ပင်ရှိစေ လူသားတိုင်းပိုင်ဆိုင်သည်ဟု ယူဆထားသော အခြေခံ အခွင့်အရေးများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w6-dm-3",
+          termEn: "Tradition",
+          termMy: "Tradition",
+          matchEn:
+              "A belief or practice passed down through generations within a culture",
+          matchMy:
+              "ယဉ်ကျေးမှုတစ်ခုအတွင်း မျိုးဆက်များတစ်လျှောက် ပေးအပ်ခဲ့သော ယုံကြည်ချက် (သို့) Practice",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w6-dm-4",
+          termEn: "Ethnocentrism",
+          termMy: "Ethnocentrism",
+          matchEn:
+              "Judging another culture entirely by the standards of your own culture",
+          matchMy:
+              "အခြား ယဉ်ကျေးမှုတစ်ခုကို ကိုယ်ပိုင် ယဉ်ကျေးမှု၏ စံနှုန်းများဖြင့် လုံးဝ စီရင်ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w6-dm-5",
+          termEn: "UDHR",
+          termMy: "UDHR",
+          matchEn:
+              "The Universal Declaration of Human Rights, a foundational international human rights document",
+          matchMy:
+              "Universal Declaration of Human Rights, အခြေခံ နိုင်ငံတကာ လူ့အခွင့်အရေး စာတမ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Respecting Diversity or Human Rights Concern?",
+      titleMy:
+          "စီစစ်ကြမည် - Diversity လေးစားခြင်းလား Human Rights စိုးရိမ်ချက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cultural Diversity to Respect", "Human Rights Concern"],
+        bucketsMy: [
+          "လေးစားသင့်သော ယဉ်ကျေးမှု Diversity",
+          "Human Rights စိုးရိမ်ချက်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w6-sort-1",
+            labelEn: "Different traditional clothing styles across regions",
+            labelMy: "ဒေသအလိုက် ကွဲပြားသော ရိုးရာ အဝတ်အစားပုံစံများ",
+            correctBucketEn: "Cultural Diversity to Respect",
+            correctBucketMy: "လေးစားသင့်သော ယဉ်ကျေးမှု Diversity",
+          ),
+          SortingItem(
+            id: "igcgp-w6-sort-2",
+            labelEn:
+                "A practice that forces individuals into marriage against their will",
+            labelMy:
+                "တစ်ဦးချင်းအား ၎င်းတို့ ဆန္ဒမပါဘဲ လက်ထပ်ရန် အတင်းအကျပ် ပြုလုပ်စေသော Practice",
+            correctBucketEn: "Human Rights Concern",
+            correctBucketMy: "Human Rights စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "igcgp-w6-sort-3",
+            labelEn: "Different traditional foods and cuisines",
+            labelMy: "ကွဲပြားသော ရိုးရာ အစားအစာများနှင့် ချက်ပြုတ်နည်းများ",
+            correctBucketEn: "Cultural Diversity to Respect",
+            correctBucketMy: "လေးစားသင့်သော ယဉ်ကျေးမှု Diversity",
+          ),
+          SortingItem(
+            id: "igcgp-w6-sort-4",
+            labelEn:
+                "A practice that denies children access to basic education",
+            labelMy: "ကလေးများ အခြေခံ ပညာရေး ရရှိခွင့်ကို ငြင်းပယ်သော Practice",
+            correctBucketEn: "Human Rights Concern",
+            correctBucketMy: "Human Rights စိုးရိမ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Ceremony Case Study",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ အခမ်းအနား Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Ceremony Case Study",
+        titleMy: "Su Myat Noe ၏ အခမ်းအနား Case Study",
+        passageEn:
+            "Ko Zin Ko Ko gave Su Myat Noe a case study about a traditional coming-of-age ceremony practiced in a specific community, involving days of ritual and physical endurance that outsiders had sometimes criticised as harsh. He asked her to apply cultural relativism first: within the community itself, elders explained the ceremony as a voluntary rite that participants actively wanted to complete, symbolising resilience and belonging, with strong community-wide support and understanding of its meaning that outside critics often missed entirely.\n\nHe then complicated the case study: what if evidence showed some participants, particularly younger children, were not actually voluntary participants at all, but were coerced by family or social pressure they had no realistic way to refuse? Su Myat Noe recognised this changed the analysis significantly -- cultural relativism explains and contextualises a practice, but it does not by itself resolve whether coercion within that practice violates a person's rights. She reasoned that genuine cultural understanding and human rights concern were not automatically opposed to each other; the two questions -- 'what does this mean within its cultural context?' and 'is anyone being coerced or genuinely harmed against their will?' -- could and should be asked separately.\n\nSu Myat Noe's written conclusion tried to hold both truths at once without collapsing into either extreme: dismissing the entire ceremony as 'barbaric' without understanding its cultural meaning would be ethnocentric and disrespectful, but using 'it's their tradition' to wave away genuine evidence of coercion, especially involving children unable to meaningfully consent, would be a real failure to take human rights seriously. Ko Zin Ko Ko praised this as exactly the nuanced position IGCSE Global Perspectives rewarded -- not picking cultural relativism or universal rights as an absolute rule to apply blindly, but examining each specific case's actual facts about consent and harm before reaching a conclusion.",
+        passageMy:
+            "ပြင်ပသူများက တစ်ခါတစ်ရံ ခက်ထန်သည်ဟု ဝေဖန်ခဲ့သော Ritual များနှင့် ရုပ်ပိုင်းဆိုင်ရာ Endurance ရက်ပေါင်းများစွာ ပါဝင်သည့် သတ်မှတ်ထားသော Community တစ်ခု၏ ရိုးရာ လူလားမြောက် အခမ်းအနားအကြောင်း Case Study တစ်ခုကို Su Myat Noe ကို ကိုဇင်ကိုကို ပေးအပ်ခဲ့သည်။ Cultural Relativism ကို ဦးစွာ အသုံးချရန် သူ့ကို တောင်းဆိုခဲ့သည် - Community ကိုယ်တိုင် အတွင်းတွင် Elder များက ဤ အခမ်းအနားကို Participant များ အလုပ်ခန့်လိုသော Voluntary Rite အဖြစ် ရှင်းပြခဲ့ပြီး Resilience နှင့် Belonging ကို ကိုယ်စားပြုကာ ပြင်ပ ဝေဖန်သူများ မကြာခဏ လုံးဝ လွတ်သွားခဲ့သော ၎င်း၏ အဓိပ္ပာယ်ကို ခိုင်မာသော Community-Wide ထောက်ခံမှုနှင့် နားလည်မှု ရှိခဲ့သည်။\n\nCase Study ကို သူ ဆက်လက် ရှုပ်ထွေးစေခဲ့သည် - Participant အချို့၊ အထူးသဖြင့် ကလေးငယ်များသည် Voluntary Participant အမှန်တကယ် မဟုတ်ဘဲ ငြင်းဆန်ရန် လက်တွေ့ကျသော နည်းလမ်း မရှိသော မိသားစု (သို့) လူမှုရေး ဖိအားကြောင့် Coerce ခံရကြောင်း Evidence ပြသခဲ့ပါက အဘယ်နည်း။ ဤသည် ခွဲခြမ်းစိတ်ဖြာမှုကို သိသိသာသာ ပြောင်းလဲစေကြောင်း Su Myat Noe သိမြင်ခဲ့သည် -- Cultural Relativism သည် Practice တစ်ခုကို ရှင်းပြပြီး Context ပေးသော်လည်း ထို Practice အတွင်းရှိ Coercion သည် လူတစ်ဦး၏ အခွင့်အရေးများကို ချိုးဖောက်ခြင်း ရှိမရှိကို ၎င်းတစ်ခုတည်းက ဖြေရှင်း၍ မရနိုင်ပါ။ Genuine Cultural Understanding နှင့် Human Rights စိုးရိမ်ချက်သည် တစ်ခုနှင့်တစ်ခု အလိုအလျောက် ဆန့်ကျင်နေခြင်း မဟုတ်ကြောင်း သူ ဆင်ခြင်ခဲ့သည် - 'ဤ ယဉ်ကျေးမှု Context အတွင်း ဤသည် အဘယ်အရာကို ဆိုလိုသနည်း' နှင့် 'တစ်စုံတစ်ဦးသည် ၎င်းတို့ ဆန္ဒနှင့် ဆန့်ကျင်၍ Coerce (သို့) စစ်မှန်စွာ ထိခိုက်ခံနေရပါသလား' ဟူသော မေးခွန်းနှစ်ခုကို သီးခြားစီ မေးမြန်းနိုင်ပြီး မေးမြန်းသင့်သည်။\n\nSu Myat Noe ၏ ရေးသား ကောက်ချက်သည် အစွန်းနှစ်ဖက်အနက် မည်သည်သို့ ပြိုကျမသွားဘဲ Truth နှစ်ခုစလုံးကို တစ်ချိန်တည်း ကိုင်ထားရန် ကြိုးစားခဲ့သည် - ယဉ်ကျေးမှုဆိုင်ရာ အဓိပ္ပာယ်ကို နားမလည်ဘဲ အခမ်းအနားတစ်ခုလုံးကို 'ရိုင်းစိုင်းသည်' ဟု လျစ်လျူရှုခြင်းသည် Ethnocentric ဖြစ်ပြီး လေးစားမှု ကင်းမဲ့မည် ဖြစ်သော်လည်း Coercion ၏ စစ်မှန်သော Evidence၊ အထူးသဖြင့် အဓိပ္ပာယ်ရှိစွာ Consent မပေးနိုင်သော ကလေးများ ပါဝင်ခြင်းကို '၎င်းတို့ ရိုးရာ' ဟု လှုပ်ခါဖယ်ရှားခြင်းသည် Human Rights ကို အလေးအနက် မထားခြင်း စစ်မှန်သော ချို့ယွင်းချက် ဖြစ်လိမ့်မည်။ Cultural Relativism (သို့) Universal Rights ကို မျက်စိမှိတ် အသုံးချရန် Absolute Rule အဖြစ် မရွေးချယ်ဘဲ Consent နှင့် Harm အကြောင်း Case တိကျတစ်ခုစီ၏ အမှန်တကယ် Fact များကို ကောက်ချက်မချမီ စစ်ဆေးခြင်း -- IGCSE Global Perspectives ချီးမြှင့်သော Nuanced Position အတိအကျ ဖြစ်ကြောင်း ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did community elders explain the ceremony?",
+            questionMy:
+                "Community Elder များ အခမ်းအနားကို မည်သို့ ရှင်းပြခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As a voluntary rite symbolising resilience and belonging with strong community support",
+              "As a punishment imposed on unwilling children",
+              "As a practice with no meaning at all",
+              "As something recently invented with no tradition behind it",
+            ],
+            optionsMy: [
+              "ခိုင်မာသော Community ထောက်ခံမှုဖြင့် Resilience နှင့် Belonging ကို ကိုယ်စားပြုသော Voluntary Rite အဖြစ်",
+              "မလိုလားသော ကလေးများအပေါ် ချမှတ်သော ပြစ်ဒဏ်တစ်ခု အဖြစ်",
+              "အဓိပ္ပာယ် လုံးဝ မရှိသော Practice တစ်ခုအဖြစ်",
+              "နောက်ကွယ်တွင် Tradition မရှိဘဲ မကြာသေးမီက တီထွင်ထားသော အရာတစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two questions did Su Myat Noe say could be asked separately?",
+            questionMy:
+                "သီးခြားစီ မေးမြန်းနိုင်သည်ဟု Su Myat Noe ပြောကြားခဲ့သော မေးခွန်းနှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "What the practice means culturally, and whether anyone is being coerced or harmed against their will",
+              "How old the tradition is, and how many people attend it",
+              "How much it costs, and how long it lasts",
+              "Only one question could ever be asked at a time",
+            ],
+            optionsMy: [
+              "Practice သည် ယဉ်ကျေးမှုအရ အဘယ်အရာကို ဆိုလိုသနည်းနှင့် တစ်စုံတစ်ဦးသည် ၎င်းတို့ ဆန္ဒနှင့် ဆန့်ကျင်၍ Coerce (သို့) ထိခိုက်ခံနေရပါသလား",
+              "Tradition သည် မည်မျှ ကြာမြင့်ပြီနည်းနှင့် လူဦးရေ မည်မျှ တက်ရောက်သနည်း",
+              "ကုန်ကျစရိတ် မည်မျှနှင့် မည်မျှ ကြာမြင့်သနည်း",
+              "မေးခွန်းတစ်ခုတည်းသာ တစ်ချိန်တည်း မေးမြန်းနိုင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what nuanced position did Ko Zin Ko Ko praise?",
+            questionMy:
+                "ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သော Nuanced Position ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Examining each case's actual facts about consent and harm rather than blindly applying one absolute rule",
+              "Always siding with cultural relativism no matter what",
+              "Always siding with universal rights no matter what",
+              "Avoiding any conclusion at all",
+            ],
+            optionsMy: [
+              "Absolute Rule တစ်ခုကို မျက်စိမှိတ် အသုံးမချဘဲ Consent နှင့် Harm အကြောင်း Case တစ်ခုစီ၏ အမှန်တကယ် Fact များကို စစ်ဆေးခြင်း",
+              "မည်သို့ပင်ရှိစေ Cultural Relativism ဘက်ကို အမြဲ ရပ်တည်ခြင်း",
+              "မည်သို့ပင်ရှိစေ Universal Rights ဘက်ကို အမြဲ ရပ်တည်ခြင်း",
+              "ကောက်ချက် မည်သည်ကိုမျှ လုံးဝ မချခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Belief Systems",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Belief Systems",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Cultural relativism argues that a practice should be judged...",
+          questionMy:
+              "Cultural Relativism က Practice တစ်ခုကို ...စီရင်ဆုံးဖြတ်သင့်သည်ဟု ငြင်းခုံသည်",
+          optionsEn: [
+            "Within the context of its own culture",
+            "Only by an outside culture's standards",
+            "By no standard at all, ever",
+            "By whichever culture has the most global power",
+          ],
+          optionsMy: [
+            "၎င်းကိုယ်ပိုင် ယဉ်ကျေးမှု၏ Context အတွင်းမှ",
+            "ပြင်ပ ယဉ်ကျေးမှု၏ စံနှုန်းများဖြင့်သာ",
+            "စံနှုန်း မည်သည်ကိုမျှ ဘယ်တော့မှ",
+            "Global Power အများဆုံးရှိသော ယဉ်ကျေးမှု မည်သည်ဖြင့်မဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The UDHR asserts that fundamental rights belong to...",
+          questionMy:
+              "UDHR က အခြေခံ အခွင့်အရေးများသည် ...ပိုင်ဆိုင်ကြောင်း ဆိုသည်",
+          optionsEn: [
+            "Every human being, regardless of culture or nationality",
+            "Only citizens of one specific country",
+            "Only people over a certain income level",
+            "No one at all",
+          ],
+          optionsMy: [
+            "ယဉ်ကျေးမှု (သို့) နိုင်ငံသားမှု မည်သို့ပင်ရှိစေ လူသားတိုင်း",
+            "တိကျသော နိုင်ငံတစ်ခု၏ နိုင်ငံသားများသာ",
+            "ဝင်ငွေ အဆင့်တစ်ခု အထက်ရှိ လူများသာ",
+            "မည်သူမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The strongest criticism of extreme cultural relativism is that it could...",
+          questionMy:
+              "အစွန်းရောက် Cultural Relativism ၏ အခိုင်မာဆုံး ဝေဖန်ချက်မှာ ၎င်းသည် ...နိုင်ကြောင်း ဖြစ်သည်",
+          optionsEn: [
+            "Excuse genuine human rights violations as merely 'traditional'",
+            "Make all cultures identical",
+            "Guarantee perfect fairness everywhere",
+            "Eliminate the need for any research at all",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Human Rights ချိုးဖောက်မှုများကို 'ရိုးရာ' ဟု ရိုးရိုးသာ ဆင်ခြေပြခြင်း",
+            "ယဉ်ကျေးမှုအားလုံးကို တူညီစေခြင်း",
+            "နေရာတိုင်းတွင် ပြီးပြည့်စုံသော တရားမျှတမှုကို အာမခံခြင်း",
+            "သုတေသန မည်သည်ကိုမျှ မလိုအပ်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 2, Week 7: "Freedom of Expression
+// and Censorship"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek7 = CourseWeekDef(
+  id: "course-igcse-gp-w7",
+  weekNumber: 7,
+  titleEn: "Freedom of Expression and Censorship",
+  titleMy: "ထုတ်ဖော်ပြောဆိုခွင့် လွတ်လပ်မှုနှင့် သတင်းဆင်ဆာဖြတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w7-d1",
+      dayNumber: 1,
+      titleEn: "Limits of Free Speech and State Control",
+      titleMy: "Free Speech ၏ ကန့်သတ်ချက်များနှင့် State Control",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do most legal systems place some limits on freedom of speech, such as laws against direct incitement to violence?",
+          questionMy:
+              "အကြမ်းဖက်မှုကို တိုက်ရိုက် လှုံ့ဆော်ခြင်းကို တားမြစ်သော ဥပဒေများကဲ့သို့ Freedom of Speech အပေါ် ကန့်သတ်ချက် အနည်းငယ် Legal System အများစုက ထားရှိရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To balance one person's right to expression against the genuine, serious harm that speech could directly cause to others",
+            "Because free speech should never exist in any form at all",
+            "Because governments always agree completely on where to draw every limit",
+            "Because speech can never cause any real-world harm",
+          ],
+          optionsMy: [
+            "လူတစ်ဦး၏ ထုတ်ဖော်ပြောဆိုခွင့် အခွင့်အရေးကို Speech က အခြားသူများအပေါ် တိုက်ရိုက် ဖြစ်ပေါ်စေနိုင်သော စစ်မှန်သော၊ ပြင်းထန်သော ထိခိုက်မှုနှင့် ချိန်ညှိရန်",
+            "Free Speech သည် မည်သည့်ပုံစံမျှ ဘယ်တော့မှ ရှိသင့်ခြင်း မဟုတ်သောကြောင့်",
+            "ကန့်သတ်ချက်တိုင်းကို မည်သို့ ဆွဲသင့်ကြောင်း အစိုးရများသည် အမြဲ လုံးဝ သဘောတူသောကြောင့်",
+            "Speech သည် လက်တွေ့ကမ္ဘာ ထိခိုက်မှု မည်သည်ကိုမျှ ဘယ်တော့မှ ဖြစ်ပေါ်စေနိုင်ခြင်း မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Free speech laws typically protect controversial or unpopular opinions while still drawing a line at speech that directly and immediately incites real violence.",
+          ],
+          hintsMy: [
+            "Free Speech ဥပဒေများသည် ပုံမှန်အားဖြင့် အငြင်းပွားဖွယ် (သို့) ရေပန်းမစားသော သဘောထားများကို ကာကွယ်ပေးသော်လည်း အမှန်တကယ် အကြမ်းဖက်မှုကို တိုက်ရိုက်၊ ချက်ချင်း လှုံ့ဆော်သော Speech တွင် လိုင်းတစ်ကြောင်း ဆက်လက် ဆွဲထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A government blocks all foreign news websites, claiming it protects citizens from 'harmful foreign influence.' What is the central Global Perspectives tension in this scenario?",
+          questionMy:
+              "'ထိခိုက်စေသော နိုင်ငံခြား သက်ရောက်မှု' မှ နိုင်ငံသားများကို ကာကွယ်ပေးသည်ဟု Claim ပြုလုပ်ကာ အစိုးရတစ်ခုသည် နိုင်ငံခြား သတင်း Website အားလုံးကို ပိတ်ပင်သည်။ ဤ Scenario ၏ အဓိက Global Perspectives ဆန့်ကျင်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Balancing a state's claimed interest in protecting citizens against citizens' own right to access information and form their own views",
+            "There is no tension at all -- governments should always be trusted completely without question",
+            "This scenario has nothing to do with freedom of expression",
+            "Foreign websites are always automatically more reliable than domestic ones",
+          ],
+          optionsMy: [
+            "နိုင်ငံသားများ ကာကွယ်ရန် State ၏ Claim ပြုလုပ်ထားသော Interest ကို နိုင်ငံသားများ ကိုယ်တိုင်၏ Information ရရှိပြီး ကိုယ်ပိုင် View များ ဖန်တီးခွင့် အခွင့်အရေးနှင့် ချိန်ညှိခြင်း",
+            "ဆန့်ကျင်မှု လုံးဝ မရှိပါ -- အစိုးရများကို မေးခွန်း မထုတ်ဘဲ အမြဲ လုံးဝ ယုံကြည်သင့်သည်",
+            "ဤ Scenario သည် Freedom of Expression နှင့် မသက်ဆိုင်ပါ",
+            "နိုင်ငံခြား Website များသည် Domestic Website များထက် အမြဲ ပို၍ ယုံကြည်ရသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a classic Global Perspectives case study: both the state's stated justification and the citizens' right to information deserve real, critical examination rather than automatic acceptance of either side.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ရိုးရာ Global Perspectives Case Study ဖြစ်သည် - State ၏ ဖော်ပြထားသော အကြောင်းပြချက်နှင့် နိုင်ငံသားများ၏ Information ရရှိခွင့် နှစ်ခုစလုံးသည် ဘက်တစ်ဖက်ကို အလိုအလျောက် လက်ခံခြင်းထက် စစ်မှန်သော၊ ဝေဖန်ပိုင်းခြားသော စစ်ဆေးမှုကို ထိုက်တန်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a key ethical concern regarding digital surveillance conducted in the name of national security?",
+          questionMy:
+              "နိုင်ငံတော် လုံခြုံရေးအမည်ဖြင့် ပြုလုပ်သော Digital Surveillance နှင့်ပတ်သက်၍ အဓိက ကျင့်ဝတ်ဆိုင်ရာ စိုးရိမ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Mass surveillance can be used to monitor and suppress legitimate dissent, not only genuine security threats",
+            "Surveillance technology has never been used by any government in history",
+            "Surveillance always makes a country completely free of any crime",
+            "There is no possible ethical concern with any form of state surveillance",
+          ],
+          optionsMy: [
+            "Mass Surveillance ကို စစ်မှန်သော လုံခြုံရေး ခြိမ်းခြောက်မှုများသာမက တရားဝင် ကန့်ကွက်မှုများကို စောင့်ကြည့်ဖိနှိပ်ရန်လည်း အသုံးပြုနိုင်ခြင်း",
+            "Surveillance Technology ကို သမိုင်းတစ်လျှောက် အစိုးရမည်သည် ဘယ်တော့မှ အသုံးပြုခဲ့ခြင်း မရှိပါ",
+            "Surveillance သည် နိုင်ငံတစ်ခုကို ရာဇဝတ်မှု မည်သည်မှ လုံးဝ ကင်းစင်စေသည်",
+            "State Surveillance ပုံစံ မည်သည့်အမျိုးအစားနှင့်မျှ ဖြစ်နိုင်သော ကျင့်ဝတ်ဆိုင်ရာ စိုးရိမ်ချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The same surveillance tools designed to catch genuine threats can also be pointed at journalists, activists, or opposition figures -- this dual-use potential is the core ethical concern.",
+          ],
+          hintsMy: [
+            "စစ်မှန်သော ခြိမ်းခြောက်မှုများကို ဖမ်းဆီးရန် ဒီဇိုင်းထုတ်ထားသော Surveillance Tool တူညီများကို သတင်းထောက်များ၊ တက်ကြွလှုပ်ရှားသူများ (သို့) ဆန့်ကျင်ဘက် ကိုယ်စားလှယ်များသို့လည်း ညွှန်းနိုင်သည် -- ဤ Dual-Use ဖြစ်နိုင်ခြေသည် အဓိက ကျင့်ဝတ်ဆိုင်ရာ စိုးရိမ်ချက် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Free Expression Terms",
+      titleMy: "တွဲစပ်ကြမည် - Free Expression ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w7-dm-1",
+          termEn: "Freedom of expression",
+          termMy: "Freedom of Expression",
+          matchEn:
+              "The right to hold and share opinions and information without unjustified government interference",
+          matchMy:
+              "အကြောင်းပြချက် မခိုင်လုံသော အစိုးရ စွက်ဖက်မှု မပါဘဲ သဘောထားနှင့် Information များ ကိုင်ဆောင်ပြီး မျှဝေခွင့်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w7-dm-2",
+          termEn: "Censorship",
+          termMy: "Censorship",
+          matchEn:
+              "The suppression or restriction of speech, publication, or other information by an authority",
+          matchMy:
+              "အာဏာပိုင်တစ်ခုက Speech, Publication (သို့) အခြား Information ကို ဖိနှိပ်ခြင်း (သို့) ကန့်သတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w7-dm-3",
+          termEn: "Incitement to violence",
+          termMy: "Incitement to Violence",
+          matchEn:
+              "Speech that directly encourages others to commit real, imminent violent acts",
+          matchMy:
+              "အခြားသူများကို အမှန်တကယ်၊ မကြာမီ အကြမ်းဖက် လုပ်ရပ်များ ကျူးလွန်ရန် တိုက်ရိုက် အားပေးသော Speech",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w7-dm-4",
+          termEn: "Mass surveillance",
+          termMy: "Mass Surveillance",
+          matchEn:
+              "Large-scale monitoring of communications, often justified in the name of national security",
+          matchMy:
+              "မကြာခဏ နိုင်ငံတော် လုံခြုံရေးအမည်ဖြင့် အကြောင်းပြထားသော ဆက်သွယ်ရေးများကို အကျယ်တဝင့် စောင့်ကြည့်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcgp-w7-dm-5",
+          termEn: "Dissent",
+          termMy: "Dissent",
+          matchEn:
+              "Publicly disagreeing with or opposing an official policy or authority",
+          matchMy:
+              "တရားဝင် Policy (သို့) အာဏာပိုင်တစ်ခုနှင့် လူသိရှင်ကြား သဘောမတူခြင်း (သို့) ကန့်ကွက်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Protected Speech or Genuine Restriction?",
+      titleMy: "စီစစ်ကြမည် - ကာကွယ်ထားသော Speech လား စစ်မှန်သော ကန့်သတ်ချက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Typically Protected Speech",
+          "Typically Restricted Speech",
+        ],
+        bucketsMy: [
+          "ပုံမှန်အားဖြင့် ကာကွယ်ထားသော Speech",
+          "ပုံမှန်အားဖြင့် ကန့်သတ်ထားသော Speech",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w7-sort-1",
+            labelEn: "Publicly criticising a government's economic policy",
+            labelMy: "အစိုးရ၏ စီးပွားရေး Policy ကို လူသိရှင်ကြား ဝေဖန်ခြင်း",
+            correctBucketEn: "Typically Protected Speech",
+            correctBucketMy: "ပုံမှန်အားဖြင့် ကာကွယ်ထားသော Speech",
+          ),
+          SortingItem(
+            id: "igcgp-w7-sort-2",
+            labelEn:
+                "Directly and immediately calling on a crowd to physically attack a specific person right now",
+            labelMy:
+                "လူတစ်စုကို တိကျသော လူတစ်ဦးအား ယခုပင် ရုပ်ပိုင်းဆိုင်ရာ တိုက်ခိုက်ရန် တိုက်ရိုက်၊ ချက်ချင်း တောင်းဆိုခြင်း",
+            correctBucketEn: "Typically Restricted Speech",
+            correctBucketMy: "ပုံမှန်အားဖြင့် ကန့်သတ်ထားသော Speech",
+          ),
+          SortingItem(
+            id: "igcgp-w7-sort-3",
+            labelEn: "Expressing an unpopular political opinion in an essay",
+            labelMy:
+                "ရေပန်းမစားသော နိုင်ငံရေး သဘောထားကို Essay တစ်ခုတွင် ဖော်ပြခြင်း",
+            correctBucketEn: "Typically Protected Speech",
+            correctBucketMy: "ပုံမှန်အားဖြင့် ကာကွယ်ထားသော Speech",
+          ),
+          SortingItem(
+            id: "igcgp-w7-sort-4",
+            labelEn:
+                "Publishing another person's private medical records without consent to harm them",
+            labelMy:
+                "လူတစ်ဦးကို ထိခိုက်စေရန် Consent မပါဘဲ ၎င်း၏ ကိုယ်ရေးအရ ဆေးဘက်ဆိုင်ရာ မှတ်တမ်းများကို ထုတ်ဝေခြင်း",
+            correctBucketEn: "Typically Restricted Speech",
+            correctBucketMy: "ပုံမှန်အားဖြင့် ကန့်သတ်ထားသော Speech",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Censorship Balance",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Censorship ဟန်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Censorship Balance",
+        titleMy: "Su Myat Noe ၏ Censorship ဟန်ချက်",
+        passageEn:
+            "Ko Zin Ko Ko presented Su Myat Noe with a real-world-style case: a country passed a law banning 'hate speech,' defined broadly as any statement 'likely to cause offence to any group.' He asked her to evaluate whether this law genuinely balanced free expression against protection from harm, or whether it tilted too far toward restriction. Su Myat Noe first identified the law's legitimate goal: protecting vulnerable groups from speech that incites real hostility or violence against them is a widely recognised, reasonable limit on speech that most rights frameworks accept.\n\nBut she then examined the law's actual wording more critically. 'Likely to cause offence to any group' was, she noted, an extremely broad and subjective standard -- almost any strong political opinion, satire, or critical journalism could offend someone, meaning the law could technically be used to silence legitimate dissent or uncomfortable but true reporting, not just genuine incitement to violence. She researched how the law had actually been applied since passage and found several cases where it had been used against journalists reporting on government corruption rather than against genuine hate speech targeting vulnerable groups.\n\nHer conclusion tried to hold the nuance Ko Zin Ko Ko had been teaching all term: the stated goal of protecting people from hate speech was legitimate and important, but the law's vague wording and its actual pattern of enforcement suggested it was being used well beyond that original justification. She proposed that a genuinely well-designed law would narrowly and precisely define what counts as incitement to real harm, rather than using broad language capable of being stretched to suppress ordinary criticism -- distinguishing a law's stated purpose from its actual real-world effect was, she wrote, the single most important skill this unit had taught her.",
+        passageMy:
+            "နိုင်ငံတစ်ခုသည် 'အုပ်စု မည်သည်ကိုမဆို မကျေနပ်မှု ဖြစ်ပေါ်စေနိုင်သော' ဖော်ပြချက်တိုင်းအဖြစ် ကျယ်ကျယ်ပြန့်ပြန့် အဓိပ္ပာယ်ဖွင့်ဆိုထားသော 'Hate Speech' ကို တားမြစ်သည့် ဥပဒေတစ်ခု ပြဋ္ဌာန်းခဲ့ကြောင်း လက်တွေ့ကမ္ဘာ Style Case တစ်ခုကို Su Myat Noe ကို ကိုဇင်ကိုကို တင်ပြခဲ့သည်။ ဤ ဥပဒေသည် Free Expression ကို Harm မှ ကာကွယ်ခြင်းနှင့် စစ်မှန်စွာ ချိန်ညှိပေးသလား၊ (သို့) ကန့်သတ်ချက်ဘက်သို့ လွန်ကဲစွာ စောင်းနေသလားကို အကဲဖြတ်ရန် သူ့ကို တောင်းဆိုခဲ့သည်။ ဥပဒေ၏ တရားဝင် ရည်မှန်းချက်ကို Su Myat Noe ဦးစွာ ဖော်ထုတ်ခဲ့သည် - ချို့ယွင်းလွယ်သော အုပ်စုများကို ၎င်းတို့အပေါ် စစ်မှန်သော ရန်လိုမှု (သို့) အကြမ်းဖက်မှု လှုံ့ဆော်သော Speech မှ ကာကွယ်ပေးခြင်းသည် Rights Framework အများစု လက်ခံသော ကျယ်ကျယ်ပြန့်ပြန့် အသိအမှတ်ပြုထားသော၊ ကျိုးကြောင်းညီသော Speech ကန့်သတ်ချက် ဖြစ်သည်။\n\nသို့သော် ဥပဒေ၏ အမှန်တကယ် စာသားကို ဆက်လက် ပို၍ ဝေဖန်ပိုင်းခြားစွာ စစ်ဆေးခဲ့သည်။ 'အုပ်စု မည်သည်ကိုမဆို မကျေနပ်မှု ဖြစ်ပေါ်စေနိုင်သော' ဆိုသည်မှာ အလွန် ကျယ်ကျယ်ပြန့်ပြန့်၊ ကိုယ်ပိုင် စံနှုန်း ဖြစ်ကြောင်း သူ မှတ်ချက်ချခဲ့သည် -- ခိုင်မာသော နိုင်ငံရေး သဘောထား၊ Satire (သို့) ဝေဖန်ရေး သတင်းလုပ်ငန်း တစ်ခုနီးပါးသည် တစ်စုံတစ်ဦးကို မကျေနပ်မှု ဖြစ်ပေါ်စေနိုင်သည်ဟု ဆိုလိုသည်၊ ဥပဒေကို စစ်မှန်သော အကြမ်းဖက်မှု လှုံ့ဆော်ခြင်းသာမက တရားဝင် ကန့်ကွက်မှု (သို့) မသက်မသာ သော်လည်း မှန်ကန်သော Reporting ကို ဆိတ်ဆိတ်စေရန် Technically အသုံးပြုနိုင်သည်ဟု ဆိုလိုသည်။ ပြဋ္ဌာန်းချိန်မှစ၍ ဥပဒေကို အမှန်တကယ် မည်သို့ အသုံးချခဲ့ကြောင်း သုတေသန ပြုလုပ်ခဲ့ပြီး ချို့ယွင်းလွယ်သော အုပ်စုများကို ပစ်မှတ်ထားသော စစ်မှန်သော Hate Speech ကို ဆန့်ကျင်ခြင်းအစား အစိုးရ ခြစားမှုအကြောင်း Report ပြုလုပ်နေသော သတင်းထောက်များကို ဆန့်ကျင်၍ အသုံးချခဲ့သော Case များစွာကို တွေ့ရှိခဲ့သည်။\n\nTerm တစ်ခုလုံးတစ်လျှောက် ကိုဇင်ကိုကို သင်ပေးနေခဲ့သော Nuance ကို ၎င်း၏ ကောက်ချက်တွင် ကိုင်ထားရန် ကြိုးစားခဲ့သည် - Hate Speech မှ လူများကို ကာကွယ်ရန် ဖော်ပြထားသော ရည်မှန်းချက်သည် တရားဝင်ပြီး အရေးကြီးသော်လည်း ဥပဒေ၏ ရှုပ်ထွေးသော စာသားနှင့် ၎င်း၏ အမှန်တကယ် Enforcement Pattern သည် ထို မူလ အကြောင်းပြချက်ထက် ကျော်လွန်၍ အသုံးချခံနေရကြောင်း ညွှန်ပြခဲ့သည်။ ကောင်းစွာ Design ပြုလုပ်ထားသော ဥပဒေတစ်ခုသည် ပုံမှန် ဝေဖန်ချက်ကို ဖိနှိပ်ရန် ဆန့်တန်းနိုင်သော ကျယ်ပြန့်သော ဘာသာစကားကို အသုံးမပြုဘဲ စစ်မှန်သော Harm ကို Incitement ဟု ရေတွက်ရမည့်အရာကို ကျဉ်းမြောင်း၊ တိကျစွာ သတ်မှတ်လိမ့်မည်ဟု သူ အဆိုပြုခဲ့သည် -- ဥပဒေတစ်ခု၏ ဖော်ပြထားသော ရည်ရွယ်ချက်ကို ၎င်း၏ အမှန်တကယ် လက်တွေ့ကမ္ဘာ သက်ရောက်မှုနှင့် ခွဲခြားခြင်းသည် ဤ Unit က သင်ပေးခဲ့သော အရေးအကြီးဆုံး Skill တစ်ခုတည်း ဖြစ်ကြောင်း သူ ရေးသားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what legitimate goal did Su Myat Noe identify in the law?",
+            questionMy:
+                "ဥပဒေတွင် Su Myat Noe ဖော်ထုတ်ခဲ့သော တရားဝင် ရည်မှန်းချက်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Protecting vulnerable groups from speech inciting real hostility or violence against them",
+              "Banning all forms of political discussion entirely",
+              "Preventing any journalist from ever publishing anything",
+              "Ensuring every citizen agreed with the government",
+            ],
+            optionsMy: [
+              "ချို့ယွင်းလွယ်သော အုပ်စုများကို ၎င်းတို့အပေါ် စစ်မှန်သော ရန်လိုမှု (သို့) အကြမ်းဖက်မှု လှုံ့ဆော်သော Speech မှ ကာကွယ်ခြင်း",
+              "နိုင်ငံရေး ဆွေးနွေးမှု ပုံစံအားလုံးကို လုံးဝ တားမြစ်ခြင်း",
+              "သတင်းထောက် မည်သူမျှ မည်သည်ကိုမျှ ဘယ်တော့မှ ထုတ်ဝေခွင့် မပေးခြင်း",
+              "နိုင်ငံသားတိုင်း အစိုးရနှင့် သဘောတူကြောင်း သေချာစေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Su Myat Noe find when researching how the law had actually been applied?",
+            questionMy:
+                "ဥပဒေကို အမှန်တကယ် မည်သို့ အသုံးချခဲ့ကြောင်း သုတေသန ပြုလုပ်ချိန် Su Myat Noe တွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had been used against journalists reporting on government corruption",
+              "It had never once been used since being passed",
+              "It had only ever been used against genuine hate speech",
+              "It had been immediately repealed",
+            ],
+            optionsMy: [
+              "အစိုးရ ခြစားမှုအကြောင်း Report ပြုလုပ်နေသော သတင်းထောက်များကို ဆန့်ကျင်၍ အသုံးချခံခဲ့ရခြင်း",
+              "ပြဋ္ဌာန်းပြီးနောက် တစ်ကြိမ်မျှ အသုံးမပြုခဲ့ခြင်း",
+              "စစ်မှန်သော Hate Speech ကိုသာ အသုံးချခဲ့ခြင်း",
+              "ချက်ချင်း ဖျက်သိမ်းခံခဲ့ရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what was the single most important skill this unit taught Su Myat Noe?",
+            questionMy:
+                "ဤ Unit သည် Su Myat Noe ကို သင်ပေးခဲ့သော အရေးအကြီးဆုံး Skill တစ်ခုတည်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Distinguishing a law's stated purpose from its actual real-world effect",
+              "Memorising the exact wording of every law",
+              "Never questioning any law under any circumstances",
+              "Assuming all laws are perfectly designed",
+            ],
+            optionsMy: [
+              "ဥပဒေတစ်ခု၏ ဖော်ပြထားသော ရည်ရွယ်ချက်ကို ၎င်း၏ အမှန်တကယ် လက်တွေ့ကမ္ဘာ သက်ရောက်မှုနှင့် ခွဲခြားခြင်း",
+              "ဥပဒေတိုင်း၏ စာသား အတိအကျကို အလွတ်ကျက်မှတ်ခြင်း",
+              "မည်သည့် အခြေအနေတွင်မဆို ဥပဒေ မည်သည်ကိုမျှ ဘယ်တော့မှ မေးခွန်း မထုတ်ခြင်း",
+              "ဥပဒေအားလုံးကို ပြီးပြည့်စုံစွာ Design ပြုလုပ်ထားသည်ဟု ယူဆခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Freedom of Expression",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Freedom of Expression",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Most legal systems limit free speech mainly to prevent...",
+          questionMy:
+              "Legal System အများစုသည် အဓိကအားဖြင့် ...ကာကွယ်ရန် Free Speech ကို ကန့်သတ်သည်",
+          optionsEn: [
+            "Direct incitement to real, serious harm against others",
+            "Any expression of political opinion at all",
+            "All forms of journalism entirely",
+            "Peaceful, unpopular but non-harmful speech",
+          ],
+          optionsMy: [
+            "အခြားသူများအပေါ် အမှန်တကယ်၊ ပြင်းထန်သော Harm ကို တိုက်ရိုက် လှုံ့ဆော်ခြင်း",
+            "နိုင်ငံရေး သဘောထား ဖော်ပြမှု မည်သည်မဆို",
+            "သတင်းလုပ်ငန်း ပုံစံအားလုံး",
+            "ငြိမ်းချမ်း၊ ရေပန်းမစားသော်လည်း Harm မရှိသော Speech",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A censorship law with vague, overly broad wording risks...",
+          questionMy:
+              "ရှုပ်ထွေး၊ အလွန် ကျယ်ပြန့်သော စာသားပါသော Censorship ဥပဒေတစ်ခုသည် ...အန္တရာယ် ရှိသည်",
+          optionsEn: [
+            "Being used to silence legitimate dissent beyond its stated purpose",
+            "Being impossible to write in any language",
+            "Automatically protecting every citizen perfectly",
+            "Having no effect on anyone at all",
+          ],
+          optionsMy: [
+            "ဖော်ပြထားသော ရည်ရွယ်ချက်ထက် ကျော်လွန်၍ တရားဝင် ကန့်ကွက်မှုများကို ဆိတ်ဆိတ်စေရန် အသုံးချခံရခြင်း",
+            "ဘာသာစကား မည်သည်နှင့်မျှ ရေးသား၍ မရနိုင်ခြင်း",
+            "နိုင်ငံသားတိုင်းကို ပြီးပြည့်စုံစွာ အလိုအလျောက် ကာကွယ်ပေးခြင်း",
+            "မည်သူ့ကိုမျှ မထိခိုက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A key ethical concern about mass surveillance is that it could be used to...",
+          questionMy:
+              "Mass Surveillance အကြောင်း အဓိက ကျင့်ဝတ်ဆိုင်ရာ စိုးရိမ်ချက်မှာ ၎င်းကို ...အသုံးချနိုင်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Monitor and suppress legitimate dissent, not only genuine threats",
+            "Eliminate the need for any government service",
+            "Guarantee complete privacy for every citizen",
+            "Prevent all forms of crime permanently",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော ခြိမ်းခြောက်မှုများသာမက တရားဝင် ကန့်ကွက်မှုများကို စောင့်ကြည့်ဖိနှိပ်ရန်",
+            "အစိုးရ ဝန်ဆောင်မှု မည်သည်၏ လိုအပ်ချက်ကိုမျှ ဖယ်ရှားရန်",
+            "နိုင်ငံသားတိုင်းအတွက် ပြီးပြည့်စုံသော Privacy အာမခံရန်",
+            "ရာဇဝတ်မှု ပုံစံအားလုံးကို အမြဲတမ်း တားဆီးရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 2, Week 8 (Capstone/Boss Week):
+// "Ethical Perspectives Essay Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek8 = CourseWeekDef(
+  id: "course-igcse-gp-w8",
+  weekNumber: 8,
+  titleEn: "Ethical Perspectives Essay Studio",
+  titleMy: "ကျင့်ဝတ်ဆိုင်ရာ ရှုထောင့်များ အက်ဆေး အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w8-d1",
+      dayNumber: 1,
+      titleEn: "Structuring Ethical Arguments and Refuting Counter-Claims",
+      titleMy:
+          "Ethical Argument များ ဖွဲ့စည်းခြင်းနှင့် Counter-Claim များ ငြင်းချေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a structured ethical essay, why is it important to explicitly address the strongest counter-argument, not just your own view?",
+          questionMy:
+              "ဖွဲ့စည်းထားသော Ethical Essay တစ်ခုတွင် ကိုယ်ပိုင် View သာမက အခိုင်မာဆုံး Counter-Argument ကို ရှင်းလင်းစွာ ဖော်ပြရန် အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "It demonstrates genuine critical thinking and shows the writer has honestly considered the issue from more than one side before reaching a conclusion",
+            "It makes the essay exactly twice as long with no other benefit",
+            "It is required only in essays about mathematics, never ethics",
+            "It automatically proves the writer's own position is wrong",
+          ],
+          optionsMy: [
+            "ကောက်ချက်မချမီ ဘက်တစ်ဖက်ထက်ပို၍ ပြဿနာကို Writer က ရိုးသားစွာ ထည့်သွင်းစဉ်းစားခဲ့ကြောင်း စစ်မှန်သော ဝေဖန်ပိုင်းခြားစဉ်းစားမှုကို ပြသသည်",
+            "အခြား အကျိုးကျေးဇူး မပါဘဲ Essay ကို အတိအကျ နှစ်ဆ ရှည်စေသည်",
+            "သင်္ချာအကြောင်း Essay များတွင်သာ လိုအပ်ပြီး Ethics တွင် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Writer ကိုယ်ပိုင် Position မှားယွင်းကြောင်း အလိုအလျောက် သက်သေပြသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "IGCSE Global Perspectives specifically rewards essays that show multiple perspectives were genuinely weighed, not one-sided arguments that ignore the opposing view.",
+          ],
+          hintsMy: [
+            "IGCSE Global Perspectives သည် ဆန့်ကျင်ဘက် View ကို လျစ်လျူရှုသော Argument တစ်ဖက်တည်းထက် Perspective များစွာကို စစ်မှန်စွာ ချိန်ခွင်လျှာညှိခဲ့ကြောင်း ပြသသော Essay များကို အထူးသဖြင့် ချီးမြှင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does it mean to 'refute' a counter-claim effectively, rather than simply dismissing it?",
+          questionMy:
+              "Counter-Claim တစ်ခုကို ရိုးရိုးသာ လျစ်လျူရှုမည့်အစား ထိရောက်စွာ 'Refute' ပြုလုပ်ခြင်းသည် အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Directly engaging with the counter-claim's actual reasoning and explaining specifically why it is weaker than your position, using evidence or logic",
+            "Ignoring the counter-claim entirely and hoping the reader does not notice",
+            "Insulting whoever holds the counter-claim's view",
+            "Simply repeating your own original claim louder",
+          ],
+          optionsMy: [
+            "Counter-Claim ၏ အမှန်တကယ် ဆင်ခြင်တုံတရားနှင့် တိုက်ရိုက် ထိတွေ့ကာ Evidence (သို့) Logic ကို အသုံးပြု၍ ၎င်း သင့် Position ထက် အဘယ်ကြောင့် ပို၍ အားနည်းကြောင်း တိကျစွာ ရှင်းပြခြင်း",
+            "Counter-Claim ကို လုံးဝ လျစ်လျူရှုပြီး ဖတ်သူက သတိမပြုမိမည်ဟု မျှော်လင့်ခြင်း",
+            "Counter-Claim ၏ View ကိုင်ဆောင်သူကို စော်ကားခြင်း",
+            "ကိုယ်ပိုင် မူလ Claim ကို ပို၍ ကျယ်လောင်စွာ ထပ်ခါထပ်ခါ ပြောခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A genuine refutation names the counter-argument's specific weakness -- perhaps it relies on a false assumption, weak evidence, or an inconsistency -- rather than just asserting it is wrong.",
+          ],
+          hintsMy: [
+            "စစ်မှန်သော Refutation တစ်ခုသည် ၎င်း မှားယွင်းသည်ဟု ရိုးရိုးသာ ငြင်းခုံမည့်အစား Counter-Argument ၏ တိကျသော အားနည်းချက်ကို အမည်ပေးသည် -- ၎င်းသည် False Assumption၊ အားနည်းသော Evidence (သို့) Inconsistency ကို မှီခိုနေနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a typical IGCSE Global Perspectives essay structure, what should come after presenting and evaluating multiple perspectives?",
+          questionMy:
+              "ပုံမှန် IGCSE Global Perspectives Essay ဖွဲ့စည်းပုံတစ်ခုတွင် Perspective များစွာကို တင်ပြပြီး အကဲဖြတ်ပြီးနောက် အဘယ်အရာ ဆက်လာသင့်သနည်း။",
+          optionsEn: [
+            "A justified personal conclusion that explains, based on the evidence weighed, which position the writer finds most persuasive and why",
+            "An immediate change of topic to something completely unrelated",
+            "A demand that the reader agree with the very first sentence of the essay",
+            "No conclusion at all -- the essay should simply stop mid-argument",
+          ],
+          optionsMy: [
+            "ချိန်ခွင်လျှာညှိထားသော Evidence အပေါ် အခြေခံ၍ Writer သည် Position မည်သည်ကို ပို၍ ယုံကြည်စိတ်ချကြောင်းနှင့် အဘယ်ကြောင့်ကြောင်း ရှင်းပြသော ခိုင်လုံသော ကိုယ်ပိုင် ကောက်ချက်",
+            "လုံးဝ မသက်ဆိုင်သော အရာသို့ ချက်ချင်း Topic ပြောင်းခြင်း",
+            "Essay ၏ ပထမဆုံး စာကြောင်းနှင့် သဘောတူရန် ဖတ်သူကို တောင်းဆိုခြင်း",
+            "ကောက်ချက် မည်သည်ကိုမျှ -- Essay သည် Argument အလယ်တွင် ရိုးရိုးသာ ရပ်တန့်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A strong conclusion is not simply a summary -- it makes a genuine, justified judgement that follows logically from the evidence and perspectives already discussed.",
+          ],
+          hintsMy: [
+            "ခိုင်မာသော ကောက်ချက်တစ်ခုသည် အနှစ်ချုပ်ရိုးရိုးသာ မဟုတ်ပါ -- ၎င်းသည် ဆွေးနွေးပြီးသား Evidence နှင့် Perspective များမှ ယုတ္တိကျစွာ ဆက်စပ်လာသော စစ်မှန်ပြီး ခိုင်လုံသော စီရင်ဆုံးဖြတ်ချက်တစ်ခု ပြုလုပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 Ethics Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 2 Ethics ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w8-dm-1",
+          termEn: "Utilitarianism",
+          termMy: "Utilitarianism",
+          matchEn: "Judges actions by overall benefit for the greatest number",
+          matchMy:
+              "Action များကို လူဦးရေ အများဆုံးအတွက် စုစုပေါင်း အကျိုးအမြတ်ဖြင့် ဆုံးဖြတ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w8-dm-2",
+          termEn: "Cultural relativism",
+          termMy: "Cultural Relativism",
+          matchEn:
+              "Understanding and judging a practice within the context of its own culture",
+          matchMy:
+              "Practice တစ်ခုကို ၎င်းကိုယ်ပိုင် ယဉ်ကျေးမှု Context အတွင်းမှ နားလည်ပြီး စီရင်ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w8-dm-3",
+          termEn: "Censorship",
+          termMy: "Censorship",
+          matchEn:
+              "The suppression or restriction of speech or information by an authority",
+          matchMy:
+              "အာဏာပိုင်တစ်ခုက Speech (သို့) Information ကို ဖိနှိပ်ခြင်း (သို့) ကန့်သတ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w8-dm-4",
+          termEn: "Refutation",
+          termMy: "Refutation",
+          matchEn:
+              "Directly engaging with a counter-argument's reasoning to show it is weaker than your own position",
+          matchMy:
+              "Counter-Argument ၏ ဆင်ခြင်တုံတရားနှင့် တိုက်ရိုက် ထိတွေ့ကာ ၎င်း သင့် Position ထက် အားနည်းကြောင်း ပြသခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Ethical Framework Applies?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Ethical Framework သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Utilitarian Reasoning", "Rights-Based Reasoning"],
+        bucketsMy: ["Utilitarian Reasoning", "Rights-Based Reasoning"],
+        items: [
+          SortingItem(
+            id: "igcgp-w8-sort-1",
+            labelEn:
+                "A city builds a highway that displaces 20 families but saves 10,000 commuters an hour daily",
+            labelMy:
+                "မြို့တစ်ခုသည် မိသားစု ၂၀ ကို နေရာပြောင်းရွှေ့စေသော်လည်း Commuter ၁၀,၀၀၀ ၏ နေ့စဉ် တစ်နာရီ ချွေတာပေးသော လမ်းမကြီးတစ်ခု ဆောက်လုပ်သည်",
+            correctBucketEn: "Utilitarian Reasoning",
+            correctBucketMy: "Utilitarian Reasoning",
+          ),
+          SortingItem(
+            id: "igcgp-w8-sort-2",
+            labelEn:
+                "A court rules that even one wrongly displaced family's property rights cannot simply be overridden by majority benefit",
+            labelMy:
+                "Court တစ်ခုသည် မှားယွင်းစွာ နေရာပြောင်းရွှေ့ခံရသော မိသားစု တစ်စုတည်း၏ ပိုင်ဆိုင်မှု အခွင့်အရေးများကိုပင် အများစု အကျိုးအမြတ်က ရိုးရိုးသာ Override မလုပ်နိုင်ဟု စီရင်သည်",
+            correctBucketEn: "Rights-Based Reasoning",
+            correctBucketMy: "Rights-Based Reasoning",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Essay on Cultural Preservation",
+      titleMy:
+          "စာဖတ်ခြင်း - ယဉ်ကျေးမှု ထိန်းသိမ်းရေးအကြောင်း Su Myat Noe ၏ Essay",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Essay on Cultural Preservation",
+        titleMy: "ယဉ်ကျေးမှု ထိန်းသိမ်းရေးအကြောင်း Su Myat Noe ၏ Essay",
+        passageEn:
+            "For the Term 2 capstone, Ko Zin Ko Ko asked every student to write a structured essay answering: 'Should governments restrict the free expression of individuals when doing so protects the traditional cultural practices of a minority community?' Su Myat Noe planned her essay by first stating the strongest case for restriction: some traditional practices, especially those of small minority communities, could genuinely be eroded by outside cultural influence spreading through unrestricted media and expression, and a rights-based argument could claim that community's collective right to cultural continuity deserves real protection.\n\nBefore presenting her own conclusion, she deliberately built the strongest possible counter-argument and then refuted it directly, exactly as the week's lesson required. The counter-argument was utilitarian: restricting individual expression to protect tradition denies the greater number of people -- including many members of that same minority community who might actually want outside influences or new ideas -- their own right to choose freely, producing less overall benefit than an unrestricted approach. Su Myat Noe refuted this by pointing to evidence from her earlier belief-systems unit: coercion and genuine free choice are different things, and a well-designed policy could protect space for traditional practices to continue existing without forcibly preventing individuals within that same community from choosing differently for themselves.\n\nHer final conclusion did not simply pick one side outright, but proposed a specific, evidence-based synthesis: government support for optional cultural preservation programmes, rather than restrictions on individual expression, could protect a tradition's continued existence without violating anyone's right to choose. Ko Zin Ko Ko marked this as an excellent essay specifically because it engaged honestly with the strongest opposing argument, refuted it with actual evidence rather than dismissal, and reached a nuanced conclusion grounded in specific reasoning rather than an unsupported gut feeling -- precisely the essay structure IGCSE Global Perspectives Paper 1 rewards most highly.",
+        passageMy:
+            "Term 2 Capstone အတွက် 'Minority Community တစ်ခု၏ ရိုးရာ ယဉ်ကျေးမှု Practice များကို ကာကွယ်ပေးလျှင် အစိုးရများသည် တစ်ဦးချင်း၏ ထုတ်ဖော်ပြောဆိုခွင့် လွတ်လပ်မှုကို ကန့်သတ်သင့်ပါသလား' ဟူသော မေးခွန်းကို ဖြေဆိုသည့် ဖွဲ့စည်းထားသော Essay တစ်ခု ရေးသားရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ ကန့်သတ်ချက်အတွက် အခိုင်မာဆုံး Case ကို ဦးစွာ ဖော်ပြခြင်းဖြင့် ၎င်း၏ Essay ကို Su Myat Noe စီစဉ်ခဲ့သည် - Traditional Practice အချို့၊ အထူးသဖြင့် Minority Community ငယ်များ၏ Practice များသည် ကန့်သတ်ချက်မရှိသော Media နှင့် Expression မှတစ်ဆင့် ပျံ့နှံ့နေသော ပြင်ပ ယဉ်ကျေးမှု သက်ရောက်မှုက စစ်မှန်စွာ ဖျက်ဆီးနိုင်ပြီး Rights-Based Argument တစ်ခုသည် ထို Community ၏ Collective Cultural Continuity အခွင့်အရေးသည် စစ်မှန်သော ကာကွယ်မှု ထိုက်တန်ကြောင်း Claim ပြုလုပ်နိုင်သည်။\n\nကိုယ်ပိုင် ကောက်ချက် မတင်ပြမီ အပတ်စဉ် သင်ခန်းစာ တောင်းဆိုသည့်အတိုင်း ဖြစ်နိုင်ဆုံး Counter-Argument ကို ရည်ရွယ်ချက်ရှိရှိ တည်ဆောက်ပြီး ထို့နောက် တိုက်ရိုက် Refute ပြုလုပ်ခဲ့သည်။ Counter-Argument သည် Utilitarian ဖြစ်ခဲ့သည် - Tradition ကာကွယ်ရန် တစ်ဦးချင်း Expression ကို ကန့်သတ်ခြင်းသည် ပြင်ပ သက်ရောက်မှု (သို့) အတွေးအခေါ်သစ်များကို အမှန်တကယ် လိုချင်နိုင်သော ထို Minority Community ၏ Member များစွာ အပါအဝင် လူဦးရေ ပို၍များသည့်သူများ၏ လွတ်လပ်စွာ ရွေးချယ်ခွင့် ကိုယ်ပိုင် အခွင့်အရေးကို ငြင်းပယ်ကာ ကန့်သတ်ချက်မရှိသော Approach ထက် စုစုပေါင်း အကျိုးအမြတ် ပို၍နည်းစေသည်။ ယခင် Belief-Systems Unit မှ Evidence ကို ညွှန်ပြခြင်းဖြင့် Su Myat Noe ၎င်းကို Refute ပြုလုပ်ခဲ့သည် - Coercion နှင့် စစ်မှန်သော လွတ်လပ်စွာ ရွေးချယ်ခွင့်သည် ကွဲပြားသော အရာများ ဖြစ်ပြီး ကောင်းစွာ Design ပြုလုပ်ထားသော Policy တစ်ခုသည် ထို Community တစ်ခုတည်းအတွင်းရှိ တစ်ဦးချင်းကို ကွဲပြားစွာ ရွေးချယ်ခွင့်မှ အတင်းအကျပ် တားဆီးခြင်း မပြုဘဲ Tradition Practice များ ဆက်လက် တည်ရှိရန် နေရာကို ကာကွယ်ပေးနိုင်သည်။\n\n၎င်း၏ Final ကောက်ချက်သည် ဘက်တစ်ဖက်ကို ရိုးရိုးသာ လုံးဝ ရွေးချယ်ခြင်း မဟုတ်ဘဲ Evidence-Based Synthesis တိကျတစ်ခုကို အဆိုပြုခဲ့သည် - တစ်ဦးချင်း Expression အပေါ် ကန့်သတ်ချက်များ ယင်းအစား Optional Cultural Preservation Programme များအတွက် အစိုးရ ထောက်ခံမှုသည် မည်သူ၏ ရွေးချယ်ခွင့် အခွင့်အရေးကိုမျှ မချိုးဖောက်ဘဲ Tradition တစ်ခု၏ ဆက်လက် တည်ရှိမှုကို ကာကွယ်ပေးနိုင်သည်။ အားနည်းကြောင်း ရိုးရိုးသာ ငြင်းခုံမည့်အစား ရိုးသားစွာ အခိုင်မာဆုံး ဆန့်ကျင်ဘက် Argument နှင့် ထိတွေ့ကာ Actual Evidence ဖြင့် Refute ပြုလုပ်ပြီး Unsupported Gut Feeling ထက် တိကျသော ဆင်ခြင်တုံတရားတွင် အခြေခံထားသော Nuanced ကောက်ချက်တစ်ခုသို့ ရောက်ရှိခဲ့သောကြောင့် ဤသည်ကို ကောင်းမွန်သော Essay တစ်ခုအဖြစ် ကိုဇင်ကိုကို အမှတ်ပေးခဲ့သည် -- IGCSE Global Perspectives Paper 1 အများဆုံး ချီးမြှင့်သော Essay ဖွဲ့စည်းပုံ အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was the strongest case for restriction that Su Myat Noe first stated?",
+            questionMy:
+                "Su Myat Noe ဦးစွာ ဖော်ပြခဲ့သော ကန့်သတ်ချက်အတွက် အခိုင်မာဆုံး Case ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Traditional practices could be eroded by outside cultural influence, and communities deserve protection for cultural continuity",
+              "All expression should be completely banned everywhere",
+              "Traditions never change under any circumstances",
+              "Governments should never protect any culture at all",
+            ],
+            optionsMy: [
+              "Traditional Practice များသည် ပြင်ပ ယဉ်ကျေးမှု သက်ရောက်မှုက ဖျက်ဆီးနိုင်ပြီး Community များသည် Cultural Continuity အတွက် ကာကွယ်မှု ထိုက်တန်ခြင်း",
+              "Expression အားလုံးကို နေရာတိုင်းတွင် လုံးဝ တားမြစ်သင့်ခြင်း",
+              "Tradition များသည် မည်သည့် အခြေအနေတွင်မဆို ဘယ်တော့မှ ပြောင်းလဲခြင်း မရှိခြင်း",
+              "အစိုးရများသည် ယဉ်ကျေးမှု မည်သည်ကိုမျှ ဘယ်တော့မှ မကာကွယ်သင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Su Myat Noe refute the utilitarian counter-argument?",
+            questionMy:
+                "Utilitarian Counter-Argument ကို Su Myat Noe မည်သို့ Refute ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By distinguishing coercion from genuine free choice, using evidence from her earlier belief-systems unit",
+              "By ignoring the counter-argument entirely",
+              "By insulting anyone who disagreed with her",
+              "By refusing to write anything further",
+            ],
+            optionsMy: [
+              "ယခင် Belief-Systems Unit မှ Evidence ကို အသုံးပြု၍ Coercion နှင့် စစ်မှန်သော လွတ်လပ်စွာ ရွေးချယ်ခွင့်ကို ခွဲခြားခြင်းဖြင့်",
+              "Counter-Argument ကို လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+              "သူနှင့် သဘောမတူသူ မည်သူ့ကိုမဆို စော်ကားခြင်းဖြင့်",
+              "ဆက်လက် မည်သည်ကိုမျှ ရေးသားရန် ငြင်းဆန်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about distinguishing coercion from free choice.",
+            ],
+            hintsMy: [
+              "Coercion နှင့် လွတ်လပ်စွာ ရွေးချယ်ခွင့်ကို ခွဲခြားခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why did Ko Zin Ko Ko mark this as an excellent essay?",
+            questionMy:
+                "ကိုဇင်ကိုကို ဤသည်ကို ကောင်းမွန်သော Essay တစ်ခုအဖြစ် အမှတ်ပေးခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It engaged honestly with the strongest counter-argument and reached a nuanced, evidence-based conclusion",
+              "It was the shortest essay submitted",
+              "It avoided taking any position at all",
+              "It agreed completely with the teacher's own opinion",
+            ],
+            optionsMy: [
+              "အခိုင်မာဆုံး Counter-Argument နှင့် ရိုးသားစွာ ထိတွေ့ပြီး Nuanced, Evidence-Based ကောက်ချက်တစ်ခုသို့ ရောက်ရှိခဲ့ခြင်း",
+              "တင်သွင်းထားသော Essay များအနက် အတိုဆုံး ဖြစ်ခြင်း",
+              "Position မည်သည်ကိုမျှ လုံးဝ မယူခြင်း",
+              "ဆရာ၏ ကိုယ်ပိုင် သဘောထားနှင့် လုံးဝ သဘောတူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Ethical Frameworks Exam",
+      titleMy: "Term 2 Capstone - Ethical Frameworks စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong ethical essay should explicitly...",
+          questionMy:
+              "ခိုင်မာသော Ethical Essay တစ်ခုသည် ...ရှင်းလင်းစွာ ပြုလုပ်သင့်သည်",
+          optionsEn: [
+            "Address and refute the strongest counter-argument with evidence",
+            "Ignore every opposing viewpoint entirely",
+            "Avoid reaching any conclusion at all",
+            "Repeat the same sentence multiple times",
+          ],
+          optionsMy: [
+            "Evidence ဖြင့် အခိုင်မာဆုံး Counter-Argument ကို ဖြေရှင်းပြီး Refute ပြုလုပ်ခြင်း",
+            "ဆန့်ကျင်ဘက် Viewpoint မည်သည်ကိုမျှ လုံးဝ လျစ်လျူရှုခြင်း",
+            "ကောက်ချက် မည်သည်ကိုမျှ မချရောက်ခြင်း",
+            "စာကြောင်းတစ်ကြောင်းတည်းကို ထပ်ခါထပ်ခါ ထပ်ရေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Cultural relativism and universal human rights can both be genuinely considered by...",
+          questionMy:
+              "Cultural Relativism နှင့် Universal Human Rights နှစ်ခုစလုံးကို ...ဖြင့် စစ်မှန်စွာ ထည့်သွင်းစဉ်းစားနိုင်သည်",
+          optionsEn: [
+            "Examining specific facts about consent and harm in each case",
+            "Always choosing one framework as an absolute rule with no exceptions",
+            "Ignoring both frameworks entirely",
+            "Assuming they can never coexist under any circumstances",
+          ],
+          optionsMy: [
+            "Case တစ်ခုစီရှိ Consent နှင့် Harm အကြောင်း တိကျသော Fact များကို စစ်ဆေးခြင်း",
+            "ချွင်းချက် မရှိသော Absolute Rule အဖြစ် Framework တစ်ခုတည်းကို အမြဲ ရွေးချယ်ခြင်း",
+            "Framework နှစ်ခုစလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "မည်သည့် အခြေအနေတွင်မဆို ၎င်းတို့ ဘယ်တော့မှ အတူ မတည်ရှိနိုင်ဟု ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A censorship law is most concerning when its wording is...",
+          questionMy:
+              "Censorship ဥပဒေတစ်ခု၏ စာသားသည် ...ချိန်တွင် စိုးရိမ်ဖွယ် အများဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Vague and overly broad, capable of being used well beyond its stated purpose",
+            "Narrowly and precisely defined to target only real incitement to violence",
+            "Reviewed regularly by an independent court",
+            "Publicly published and openly debated before being passed",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Incitement to Violence ကိုသာ ပစ်မှတ်ထားရန် ကျဉ်းမြောင်း၊ တိကျစွာ သတ်မှတ်ခြင်းအစား ရှုပ်ထွေးပြီး အလွန် ကျယ်ပြန့်ပြီး ဖော်ပြထားသော ရည်ရွယ်ချက်ထက် ကျော်လွန်၍ အသုံးချနိုင်ခြင်း",
+            "စစ်မှန်သော Incitement to Violence ကိုသာ ပစ်မှတ်ထားရန် ကျဉ်းမြောင်း၊ တိကျစွာ သတ်မှတ်ခြင်း",
+            "Independent Court တစ်ခုက ပုံမှန် ပြန်လည်သုံးသပ်ခြင်း",
+            "ပြဋ္ဌာန်းမီ လူသိရှင်ကြား ထုတ်ဝေပြီး ပွင့်လင်းစွာ ဆွေးနွေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 2: "Ethics, Values and Belief
+// Systems" (Weeks 5-8)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm2 = CourseTermDef(
+  id: "course-igcse-gp-t2",
+  termNumber: 2,
+  titleEn: "Ethics, Values and Belief Systems",
+  titleMy: "ကျင့်ဝတ်၊ တန်ဖိုးများနှင့် ယုံကြည်မှုစနစ်များ",
+  certificateTitleEn: "Ethics, Values and Belief Systems",
+  certificateTitleMy: "ကျင့်ဝတ်၊ တန်ဖိုးများနှင့် ယုံကြည်မှုစနစ်များ",
+  weeks: [_igcseGpWeek5, _igcseGpWeek6, _igcseGpWeek7, _igcseGpWeek8],
 );
 // __IGCSE_GP_MARKER__
