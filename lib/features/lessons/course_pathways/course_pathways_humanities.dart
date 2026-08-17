@@ -90683,10 +90683,1413 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseHumTerm1],
+  terms: [_igcseHumTerm1, _igcseHumTerm2],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 2, Week 5: "Long-Term Causes of World War
+// One: Alliances, Militarism, Imperialism, Nationalism"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek5 = CourseWeekDef(
+  id: "course-igcse-hum-w5",
+  weekNumber: 5,
+  titleEn: "Long-Term Causes of World War One",
+  titleMy: "World War One ၏ Long-Term Cause များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w5-d1",
+      dayNumber: 1,
+      titleEn: "Alliances, Militarism, Imperialism, and Nationalism",
+      titleMy: "Alliances, Militarism, Imperialism နှင့် Nationalism",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the alliance system in Europe before 1914 make a localized conflict between two countries more likely to spread into a much wider war?",
+          questionMy:
+              "၁၉၁၄ မတိုင်မီ ဥရောပရှိ Alliance System သည် နိုင်ငံနှစ်ခုကြား Localized Conflict တစ်ခုကို ပို၍ ကျယ်ပြန့်သော စစ်ပွဲတစ်ခုသို့ ပျံ့နှံ့သွားနိုင်ခြေ ပို၍ များစေရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Countries had promised to defend their allies if attacked, so a conflict between two nations could automatically pull their allied partners into the fighting as well",
+            "Alliances in this period had no actual obligation to provide military support of any kind",
+            "The alliance system guaranteed that any conflict would always remain small and localized",
+            "European countries in this period had no formal alliances with one another at all",
+          ],
+          optionsMy: [
+            "နိုင်ငံများသည် တိုက်ခိုက်ခံရပါက ၎င်းတို့၏ မဟာမိတ်များကို ကာကွယ်ရန် ကတိပြုထားခဲ့ပြီး နိုင်ငံနှစ်ခုကြား Conflict တစ်ခုသည် ၎င်းတို့၏ Allied Partner များကို တိုက်ခိုက်မှုထဲသို့ အလိုအလျောက် ဆွဲသွင်းနိုင်သည်",
+            "ဤကာလအတွင်း Alliance များသည် စစ်ရေးဆိုင်ရာ ပံ့ပိုးမှု မည်သည်ကိုမျှ ပေးအပ်ရန် အမှန်တကယ် တာဝန် မရှိခြင်း",
+            "Alliance System သည် Conflict မည်သည်ကိုမဆို အမြဲ ငယ်၊ Localized ဖြစ်နေမည်ဟု အာမခံခြင်း",
+            "ဤကာလအတွင်း ဥရောပ နိုင်ငံများသည် တစ်နိုင်ငံနှင့်တစ်နိုင်ငံ တရားဝင် Alliance မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of it like a chain reaction: if Country A attacks Country B, and Country B has an ally C, and Country A has an ally D, the original two-country conflict can quickly become a four-country war.",
+          ],
+          hintsMy: [
+            "၎င်းကို Chain Reaction တစ်ခုကဲ့သို့ တွေးကြည့်ပါ - Country A သည် Country B ကို တိုက်ခိုက်ပြီး Country B တွင် Ally C ရှိကာ Country A တွင် Ally D ရှိပါက မူလ နိုင်ငံနှစ်ခု Conflict သည် လျင်မြန်စွာ နိုင်ငံလေးခု စစ်ပွဲတစ်ခု ဖြစ်လာနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How did militarism (the build-up of large armies and navies) contribute to a tense atmosphere in pre-war Europe?",
+          questionMy:
+              "Militarism (တပ်မတော်နှင့် သင်္ဘောတပ်ကြီးများ ဆောက်လုပ်ခြင်း) သည် စစ်ကာလမတိုင်မီ ဥရောပတွင် တင်းမာသော Atmosphere တစ်ခုကို မည်သို့ ပံ့ပိုးခဲ့သနည်း။",
+          optionsEn: [
+            "As countries competed to build ever-larger militaries, each felt more threatened by its neighbors, creating a cycle of suspicion and further arms build-up",
+            "Militarism in this period had no actual effect on international relations between countries",
+            "Building larger militaries always guaranteed lasting peace between neighboring countries",
+            "European countries in this period had no military forces of any kind",
+          ],
+          optionsMy: [
+            "နိုင်ငံများသည် ပို၍ ကြီးမားသော Militaries ဆောက်လုပ်ရန် ယှဉ်ပြိုင်ချိန် တစ်ဦးစီသည် ၎င်း၏ အိမ်နီးချင်းများက ခြိမ်းခြောက်နေသည်ဟု ပို၍ ခံစားရပြီး Suspicion နှင့် ဆက်လက် Arms Build-Up ၏ Cycle တစ်ခုကို ဖန်တီးခဲ့သည်",
+            "ဤကာလအတွင်း Militarism သည် နိုင်ငံများကြား International Relations အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "Militaries ပို၍ ကြီးမားစွာ ဆောက်လုပ်ခြင်းသည် Neighboring နိုင်ငံများကြား ကြာရှည်သော ငြိမ်းချမ်းရေးကို အမြဲ အာမခံခြင်း",
+            "ဤကာလအတွင်း ဥရောပ နိုင်ငံများသည် Military Force မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a classic arms-race dynamic: as one country builds up its navy, its rival feels compelled to build up its navy too, and the resulting mutual buildup increases tension rather than reducing it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Classic Arms-Race Dynamics တစ်ခု ဖြစ်သည် - နိုင်ငံတစ်ခု ၎င်း၏ Navy ကို ဆောက်လုပ်လာချိန် ၎င်း၏ Rival သည် ၎င်း Navy ကိုလည်း ဆောက်လုပ်ရန် ဖိအားခံရသည်ဟု ခံစားရပြီး ရလဒ် Mutual Buildup သည် Tension ကို လျှော့ချမည့်အစား တိုးမြှင့်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did imperialism (competition for overseas colonies) create tension between European powers even outside of Europe itself?",
+          questionMy:
+              "Imperialism (ပင်လယ်ရပ်ခြား Colony များအတွက် ယှဉ်ပြိုင်ခြင်း) သည် ဥရောပ ကိုယ်တိုင်ကို ကျော်လွန်၍ ဥရောပ Power များကြား Tension ဖန်တီးခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Rival powers repeatedly competed for the same territories, resources, and trade routes abroad, creating friction that could easily spill back into European diplomacy",
+            "Imperial competition had no actual connection to tensions within Europe",
+            "All European powers always cooperated peacefully over every colonial territory",
+            "Colonies played no actual economic or strategic role for any European power",
+          ],
+          optionsMy: [
+            "Rival Power များသည် ပင်လယ်ရပ်ခြားရှိ နယ်မြေ၊ အရင်းအမြစ်နှင့် ကုန်သွယ်ရေးလမ်းကြောင်း တူတူကို ထပ်ခါထပ်ခါ ယှဉ်ပြိုင်ခဲ့ပြီး ဥရောပ Diplomacy သို့ လွယ်ကူစွာ ပြန်လည် ကျဆင်းနိုင်သော Friction ကို ဖန်တီးခဲ့သည်",
+            "Imperial ယှဉ်ပြိုင်မှုသည် ဥရောပအတွင်း Tension များနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "ဥရောပ Power များအားလုံးသည် Colonial နယ်မြေတိုင်းအပေါ် ငြိမ်းချမ်းစွာ အမြဲ ပူးပေါင်းဆောင်ရွက်ခဲ့ခြင်း",
+            "Colony များသည် ဥရောပ Power မည်သည်အတွက်မဆို စီးပွားရေး (သို့) မဟာဗျူဟာဆိုင်ရာ Role မည်သည်မှ မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Colonial disputes over African or Asian territory repeatedly brought European powers into direct diplomatic confrontation, since both sides believed the colony's resources and strategic position mattered.",
+          ],
+          hintsMy: [
+            "အာဖရိက (သို့) အာရှ နယ်မြေအပေါ် Colonial အငြင်းပွားမှုများသည် ဘက်နှစ်ဘက်စလုံးက Colony ၏ အရင်းအမြစ်များနှင့် မဟာဗျူဟာ တည်နေရာ အရေးကြီးသည်ဟု ယုံကြည်ခဲ့ကြောင့် ဥရောပ Power များကို တိုက်ရိုက် Diplomatic Confrontation သို့ ထပ်ခါထပ်ခါ ရောက်ရှိစေခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: WWI Causation Vocabulary (MAIN)",
+      titleMy: "တွဲစပ်ကြမည် - WWI Causation ဝေါဟာရများ (MAIN)",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w5-dm-1",
+          termEn: "Alliance system",
+          termMy: "Alliance System",
+          matchEn: "A network of mutual defense agreements between countries",
+          matchMy: "နိုင်ငံများကြား Mutual Defense Agreement များ၏ Network",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w5-dm-2",
+          termEn: "Militarism",
+          termMy: "Militarism",
+          matchEn:
+              "The build-up of large armed forces and glorification of military strength",
+          matchMy:
+              "ကြီးမားသော Armed Force များ ဆောက်လုပ်ခြင်းနှင့် စစ်ရေး ခွန်အားကို ချီးမြှင့်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w5-dm-3",
+          termEn: "Imperialism",
+          termMy: "Imperialism",
+          matchEn:
+              "Competition among powerful nations to acquire overseas colonies and territory",
+          matchMy:
+              "ပင်လယ်ရပ်ခြား Colony နှင့် နယ်မြေများ ရယူရန် အားကောင်းသော နိုင်ငံများကြား ယှဉ်ပြိုင်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w5-dm-4",
+          termEn: "Nationalism",
+          termMy: "Nationalism",
+          matchEn:
+              "Intense pride in and loyalty to one's own nation, sometimes at the expense of others",
+          matchMy:
+              "ကိုယ်ပိုင် နိုင်ငံအပေါ် ပြင်းထန်သော ဂုဏ်ယူမှုနှင့် သစ္စာရှိမှု၊ တစ်ခါတစ်ရံ အခြားများ၏ ကုန်ကျစရိတ်ဖြင့်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which MAIN Cause Is This?",
+      titleMy: "စီစစ်ကြမည် - ဤသည် MAIN Cause မည်သည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Militarism", "Imperialism"],
+        bucketsMy: ["Militarism", "Imperialism"],
+        items: [
+          SortingItem(
+            id: "igchum-w5-sort-1",
+            labelEn:
+                "Two rival nations racing to build the largest battleship fleet",
+            labelMy:
+                "အကြီးမားဆုံး Battleship တပ်ဖွဲ့ ဆောက်လုပ်ရန် ပြိုင်ဆိုင်နေသော Rival နိုင်ငံနှစ်ခု",
+            correctBucketEn: "Militarism",
+            correctBucketMy: "Militarism",
+          ),
+          SortingItem(
+            id: "igchum-w5-sort-2",
+            labelEn:
+                "Two powers disputing control over a resource-rich African territory",
+            labelMy:
+                "အရင်းအမြစ် ကြွယ်ဝသော အာဖရိက နယ်မြေတစ်ခု၏ ထိန်းချုပ်မှုအပေါ် ငြင်းခုံနေသော Power နှစ်ခု",
+            correctBucketEn: "Imperialism",
+            correctBucketMy: "Imperialism",
+          ),
+          SortingItem(
+            id: "igchum-w5-sort-3",
+            labelEn: "A nation rapidly expanding its standing army each year",
+            labelMy:
+                "နှစ်စဉ် ၎င်း၏ Standing Army ကို လျင်မြန်စွာ ချဲ့ထွင်နေသော နိုင်ငံတစ်ခု",
+            correctBucketEn: "Militarism",
+            correctBucketMy: "Militarism",
+          ),
+          SortingItem(
+            id: "igchum-w5-sort-4",
+            labelEn: "Two countries competing to claim new colonies in Asia",
+            labelMy:
+                "အာရှတွင် Colony အသစ်များ ရရှိရန် ယှဉ်ပြိုင်နေသော နိုင်ငံနှစ်ခု",
+            correctBucketEn: "Imperialism",
+            correctBucketMy: "Imperialism",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's MAIN Causes Presentation",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ MAIN Causes Presentation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's MAIN Causes Presentation",
+        titleMy: "Thiha Aung ၏ MAIN Causes Presentation",
+        passageEn:
+            "To open Term 2's study of World War One, Saya Tun Tun Win divided the class into four groups, each assigned to research one of the four long-term causes -- Militarism, Alliances, Imperialism, and Nationalism, together known as MAIN -- and present how it built tension in Europe before 1914. Thiha Aung's group was assigned Alliances.\n\nHis group's research traced how Europe had split into two major alliance blocs in the decades before the war, with each country promising mutual defense to its partners. They found specific evidence that this system had already nearly triggered wider conflicts in earlier crises, when a dispute between two countries had drawn in their allies before diplomats managed to calm the situation. Thiha Aung's presentation explained that this was exactly why the alliance system was dangerous: it meant no conflict between two countries could easily stay contained to just those two.\n\nDuring the group presentations, Thiha Aung noticed how the four causes connected to each other rather than existing in isolation. The Militarism group described how the same countries locked in defensive alliances were also racing to out-build each other's armies and navies, and the Imperialism group described how competition over African and Asian colonies had already caused several near-conflicts between the very same alliance partners. The Nationalism group added that intense national pride made political leaders reluctant to back down from disputes, fearing their citizens would see compromise as weakness.\n\nSaya Tun Tun Win closed the lesson by asking the class to explain why no single MAIN cause alone could fully explain the tension in pre-war Europe. Thiha Aung's answer, drawing on all four presentations, argued that the four causes reinforced each other: alliances made conflicts spread further, militarism made countries more willing to fight, imperialism gave them specific things to fight over, and nationalism made backing down feel unacceptable -- together creating a Europe where a serious conflict had become increasingly likely well before any specific event actually triggered one.",
+        passageMy:
+            "Term 2 ၏ World War One လေ့လာမှုကို ဖွင့်လှစ်ရန် Long-Term Cause လေးခု -- Militarism, Alliances, Imperialism နှင့် Nationalism၊ အတူတကွ MAIN ဟု ခေါ်ဆိုသော -- ၏ တစ်ခုစီကို သုတေသနပြုလုပ်ရန် တာဝန်ပေးအပ်ကာ ၁၉၁၄ မတိုင်မီ ဥရောပတွင် Tension မည်သို့ တည်ဆောက်ခဲ့သည်ကို တင်ပြရန် Class ကို အုပ်စုလေးခု Saya Tun Tun Win ခွဲခဲ့သည်။ Thiha Aung ၏ အုပ်စုကို Alliances တာဝန်ပေးအပ်ခဲ့သည်။\n\n၎င်း၏ အုပ်စု၏ သုတေသနသည် စစ်ပွဲမတိုင်မီ ဆယ်စုနှစ်များစွာတွင် ဥရောပသည် Major Alliance Bloc နှစ်ခုသို့ မည်သို့ ကွဲထွက်ခဲ့သည်ကို ခြေရာခံခဲ့ပြီး နိုင်ငံတစ်ခုစီသည် ၎င်း၏ Partner များကို Mutual Defense ကတိပြုခဲ့သည်။ Diplomat များက အခြေအနေကို ငြိမ်သက်စေရန် စီမံမီ နိုင်ငံနှစ်ခုကြား အငြင်းပွားမှုတစ်ခုသည် ၎င်းတို့၏ Ally များကို ဆွဲသွင်းခဲ့ရာ ဤ System သည် ယခင် Crisis များတွင် ကျယ်ပြန့်သော Conflict များကို နီးပါး Trigger ပြုလုပ်ခဲ့ကြောင်း တိကျသော Evidence ကို ၎င်းတို့ တွေ့ရှိခဲ့သည်။ Alliance System သည် ဘာကြောင့် အန္တရာယ်ရှိသည်ဆိုသည်ကို Thiha Aung ၏ Presentation ရှင်းပြခဲ့သည် - ၎င်းက နိုင်ငံနှစ်ခုကြား Conflict မည်သည်ကိုမဆို ထို နှစ်ခုတွင်သာ ထိန်းချုပ်ထားရန် လွယ်ကူစွာ ဖြစ်နိုင်ခြင်း မရှိကြောင်း ဆိုလိုသည်။\n\nအုပ်စု Presentation များအတွင်း Cause လေးခုသည် Isolation တွင် ရှိနေမည့်အစား တစ်ခုနှင့်တစ်ခု မည်သို့ ချိတ်ဆက်နေသည်ကို Thiha Aung သတိပြုမိခဲ့သည်။ Defensive Alliance များတွင် Lock ချထားသော နိုင်ငံတူတူသည် ၎င်းတို့၏ Army နှင့် Navy များကို တစ်ဦးနှင့်တစ်ဦး Out-Build ရန် ယှဉ်ပြိုင်နေခြင်းကိုပါ Militarism အုပ်စုက ဖော်ပြခဲ့ပြီး Alliance Partner တူတူကြား Near-Conflict များစွာကို အာဖရိကနှင့် အာရှ Colony များအပေါ် ယှဉ်ပြိုင်မှုက ယခင်ကပင် ဖြစ်စေခဲ့ကြောင်းကို Imperialism အုပ်စုက ဖော်ပြခဲ့သည်။ ပြင်းထန်သော National Pride သည် နိုင်ငံရေး ခေါင်းဆောင်များကို ငြင်းခုံမှုများမှ ရှောင်တိမ်းရန် တွန့်ဆုတ်စေခဲ့ကြောင်း၊ Compromise ကို ၎င်းတို့၏ နိုင်ငံသားများ Weakness အဖြစ် မြင်လိမ့်မည်ဟု စိုးရိမ်ခဲ့ကြောင်း Nationalism အုပ်စုက ထပ်ဆောင်း ဖော်ပြခဲ့သည်။\n\nMAIN Cause တစ်ခုတည်းသာ ဥရောပ ကာလမတိုင်မီ Tension ကို အပြည့်အစုံ ရှင်းပြ၍ မရနိုင်ကြောင်း ရှင်းပြရန် Class ကို Saya Tun Tun Win တောင်းဆိုကာ သင်ခန်းစာကို ပိတ်ခဲ့သည်။ Presentation လေးခုစလုံးကို အခြေခံသော Thiha Aung ၏ အဖြေသည် Cause လေးခုသည် တစ်ခုနှင့်တစ်ခု ခိုင်မာစေခဲ့ကြောင်း ငြင်းခုံခဲ့သည် - Alliance များသည် Conflict များ ပို၍ ကျယ်ပြန့်စွာ ပျံ့နှံ့စေခဲ့ပြီး Militarism သည် နိုင်ငံများကို ပို၍ တိုက်ခိုက်ချင်စေခဲ့ကာ Imperialism သည် တိုက်ခိုက်ရန် တိကျသော အရာများ ပေးအပ်ခဲ့ပြီး Nationalism သည် ရှောင်တိမ်းခြင်းကို လက်ခံနိုင်ဖွယ် ရှိမနေအောင် ခံစားစေခဲ့သည် -- တိကျသော Event မည်သည်မှ တစ်ခုခုကို အမှန်တကယ် Trigger မပြုလုပ်မီ ဂရုတစိုက် Conflict တစ်ခု ဖြစ်လာနိုင်ခြေ လျင်မြန်စွာ ပို၍ များလာသော ဥရောပတစ်ခုကို အတူတကွ ဖန်တီးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why was the alliance system considered dangerous?",
+            questionMy:
+                "Alliance System ကို အန္တရာယ်ရှိသည်ဟု ယူဆရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No conflict between two countries could easily stay contained to just those two",
+              "Alliances guaranteed every conflict would remain small",
+              "The alliance system had no actual effect on any earlier crisis",
+              "Countries in alliances never actually promised any mutual defense",
+            ],
+            optionsMy: [
+              "နိုင်ငံနှစ်ခုကြား Conflict မည်သည်ကိုမဆို ထို နှစ်ခုတွင်သာ ထိန်းချုပ်ထားရန် လွယ်ကူစွာ ဖြစ်နိုင်ခြင်း မရှိခြင်း",
+              "Conflict တိုင်း ငယ်၊ ကျန်ရစ်မည်ဟု Alliance များက အာမခံခဲ့ခြင်း",
+              "Alliance System သည် ယခင် Crisis မည်သည်အပေါ်မျှ အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+              "Alliance များရှိ နိုင်ငံများသည် Mutual Defense မည်သည်မှ အမှန်တကယ် ဘယ်တော့မှ ကတိပြုခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the Militarism and Imperialism groups' findings connect to the Alliance system?",
+            questionMy:
+                "Militarism နှင့် Imperialism အုပ်စု၏ တွေ့ရှိချက်များသည် Alliance System နှင့် မည်သို့ ချိတ်ဆက်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The same alliance partners were also racing militarily and clashing over colonies",
+              "They had no connection to the Alliance system whatsoever",
+              "Only countries outside any alliance were involved in militarism or imperialism",
+              "Militarism and imperialism only occurred after the war had already started",
+            ],
+            optionsMy: [
+              "Alliance Partner တူတူသည် စစ်ရေးအရလည်း ပြိုင်ဆိုင်ကာ Colony များအပေါ် တိုက်ခိုက်နေခဲ့ခြင်း",
+              "Alliance System နှင့် ချိတ်ဆက်မှု မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+              "Alliance မည်သည်ကမျှ ပါဝင်ခြင်း မရှိသော နိုင်ငံများသာ Militarism (သို့) Imperialism တွင် ပါဝင်ခဲ့ခြင်း",
+              "Militarism နှင့် Imperialism သည် စစ်ပွဲ ရှိပြီးသား စတင်ပြီးနောက်သာ ဖြစ်ပျက်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's connections between the causes.",
+            ],
+            hintsMy: [
+              "Cause များကြား ချိတ်ဆက်ချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what was Thiha Aung's argument about why no single MAIN cause was sufficient alone?",
+            questionMy:
+                "MAIN Cause တစ်ခုတည်းသာ လုံလောက်ခြင်း မရှိသည့် အကြောင်းရင်းအကြောင်း Thiha Aung ၏ Argument ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The four causes reinforced each other, together making conflict increasingly likely",
+              "Only nationalism actually mattered, and the other three causes were irrelevant",
+              "None of the four causes had any actual connection to the war",
+              "A single cause was in fact fully sufficient on its own",
+            ],
+            optionsMy: [
+              "Cause လေးခုသည် တစ်ခုနှင့်တစ်ခု ခိုင်မာစေခဲ့ပြီး Conflict ဖြစ်လာနိုင်ခြေ တိုးလာစေခဲ့ခြင်း",
+              "Nationalism တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးပြီး အခြား Cause သုံးခုသည် မသက်ဆိုင်ခြင်း",
+              "Cause လေးခုအနက် မည်သည်မှ စစ်ပွဲနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "Cause တစ်ခုတည်းသည် ၎င်းကိုယ်တိုင် လုံလောက်ကြောင်း အမှန်တကယ် ဖြစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's argument."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w5-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Long-Term Causes of World War One",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - World War One ၏ Long-Term Cause များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The alliance system contributed to war by...",
+          questionMy: "Alliance System သည် ...ဖြင့် စစ်ပွဲကို ပံ့ပိုးခဲ့သည်",
+          optionsEn: [
+            "Pulling allied partners into conflicts between two countries",
+            "Guaranteeing all conflicts stayed small",
+            "Preventing any military build-up entirely",
+            "Having no actual effect on international relations",
+          ],
+          optionsMy: [
+            "နိုင်ငံနှစ်ခုကြား Conflict များထဲသို့ Allied Partner များကို ဆွဲသွင်းခြင်း",
+            "Conflict အားလုံး ငယ်နေမည်ဟု အာမခံခြင်း",
+            "Military Build-Up မည်သည်မှ လုံးဝ တားဆီးခြင်း",
+            "International Relations အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Militarism refers to...",
+          questionMy: "Militarism က ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "The build-up of large armed forces",
+            "The complete absence of any military",
+            "Competition over overseas colonies specifically",
+            "A form of religious belief",
+          ],
+          optionsMy: [
+            "ကြီးမားသော Armed Force များ ဆောက်လုပ်ခြင်း",
+            "Military မည်သည်မှ လုံးဝ ကင်းမဲ့ခြင်း",
+            "ပင်လယ်ရပ်ခြား Colony များအပေါ် ယှဉ်ပြိုင်မှု အထူးသဖြင့်",
+            "ဘာသာရေး ယုံကြည်ချက် အမျိုးအစားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The four MAIN causes are best understood as...",
+          questionMy: "MAIN Cause လေးခုကို အကောင်းဆုံး နားလည်ရန်မှာ...",
+          optionsEn: [
+            "Interconnected factors that reinforced each other",
+            "Completely unrelated, isolated factors",
+            "Only relevant after the war had already ended",
+            "A concept unique to geography, not history",
+          ],
+          optionsMy: [
+            "တစ်ခုနှင့်တစ်ခု ခိုင်မာစေသော ချိတ်ဆက်ထားသော အချက်များ",
+            "လုံးဝ မဆိုင်၊ Isolated Factor များ",
+            "စစ်ပွဲ ရှိပြီးသား ပြီးဆုံးပြီးနောက်သာ သက်ဆိုင်ခြင်း",
+            "History တွင်မဟုတ်ဘဲ Geography အတွက်သာ ထူးခြားသော Concept တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 2, Week 6: "The July Crisis and Outbreak
+// of War"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek6 = CourseWeekDef(
+  id: "course-igcse-hum-w6",
+  weekNumber: 6,
+  titleEn: "The July Crisis and Outbreak of War",
+  titleMy: "July Crisis နှင့် စစ်ပွဲ ဖြစ်ပွားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w6-d1",
+      dayNumber: 1,
+      titleEn: "From Sarajevo to General War",
+      titleMy: "Sarajevo မှ General စစ်ပွဲသို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the assassination of Archduke Franz Ferdinand in Sarajevo considered a 'trigger' rather than a long-term cause of World War One?",
+          questionMy:
+              "Sarajevo ရှိ Archduke Franz Ferdinand လုပ်ကြံခံရခြင်းကို World War One ၏ Long-Term Cause တစ်ခုအစား 'Trigger' တစ်ခုဟု ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It was a single specific event on a specific day that set the already-tense alliance system into motion, rather than a decades-long underlying condition",
+            "The assassination had no actual connection to the outbreak of the war at all",
+            "It was the only cause of the war, with no long-term factors involved",
+            "Long-term causes and triggers mean exactly the same thing in this context",
+          ],
+          optionsMy: [
+            "ဆယ်စုနှစ်များစွာ ကြာသော အောက်ခံ Condition တစ်ခုအစား ရှိပြီးသား တင်းမာနေသော Alliance System ကို လှုပ်ရှားမှုသို့ သွင်းပေးခဲ့သော တိကျသော နေ့ရက်တစ်ခုရှိ တိကျသော Event တစ်ခုတည်း ဖြစ်ခဲ့ခြင်း",
+            "လုပ်ကြံခံရခြင်းသည် စစ်ပွဲ ဖြစ်ပွားခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+            "Long-Term Factor မည်သည်မှ မပါဘဲ စစ်ပွဲ၏ တစ်ခုတည်းသော Cause ဖြစ်ခဲ့ခြင်း",
+            "ဤ Context တွင် Long-Term Cause များနှင့် Trigger များသည် အတိအကျ တူညီသော အဓိပ္ပာယ် ဆောင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies Week 2's causation vocabulary: the MAIN causes were the dry firewood built up over decades, and the assassination was the single match that finally lit it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 2 ၏ Causation ဝေါဟာရကို တိုက်ရိုက် အသုံးချသည် - MAIN Cause များသည် ဆယ်စုနှစ်များစွာ တည်ဆောက်လာသော ထင်းခြောက် ဖြစ်ပြီး လုပ်ကြံခံရခြင်းသည် နောက်ဆုံး ၎င်းကို မီးရှို့ခဲ့သော Match တစ်ချောင်းတည်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did Austria-Hungary's ultimatum to Serbia, following the assassination, escalate the crisis rather than resolve it?",
+          questionMy:
+              "လုပ်ကြံခံရပြီးနောက် ဆားဗီးယားသို့ ဩစတြီးယား-ဟန်ဂေရီ၏ Ultimatum သည် Crisis ကို ဖြေရှင်းမည့်အစား Escalate ပြုလုပ်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The ultimatum's harsh demands were deliberately difficult for Serbia to fully accept, and the alliance system meant Serbia's ally Russia was drawn in once Austria-Hungary declared war",
+            "The ultimatum immediately resolved all tension between the two countries with no further conflict",
+            "Serbia had no allies of any kind who might become involved",
+            "The ultimatum had no actual connection to the alliance system discussed in Week 5",
+          ],
+          optionsMy: [
+            "Ultimatum ၏ တင်းကျပ်သော တောင်းဆိုချက်များကို ဆားဗီးယားက အပြည့်အစုံ လက်ခံရန် တမင် ခက်ခဲစေခဲ့ပြီး ဩစတြီးယား-ဟန်ဂေရီ စစ်ကြေညာချိန် Alliance System က ဆားဗီးယား၏ Ally ဖြစ်သော ရုရှား ကို ဆွဲသွင်းခဲ့ခြင်း ဆိုလိုသည်",
+            "Ultimatum သည် နိုင်ငံနှစ်ခုကြား Tension အားလုံးကို ထပ်မံ Conflict မရှိဘဲ ချက်ချင်း ဖြေရှင်းခဲ့ခြင်း",
+            "ဆားဗီးယားတွင် ပါဝင်လာနိုင်သော Ally မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+            "Ultimatum သည် Week 5 ဆွေးနွေးခဲ့သော Alliance System နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies Week 5's alliance-system lesson -- exactly as predicted, the conflict between Austria-Hungary and Serbia quickly pulled in their respective alliance partners.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ Alliance-System သင်ခန်းစာကို တိုက်ရိုက် အသုံးချသည် -- ခန့်မှန်းထားသည့်အတိုင်း ဩစတြီးယား-ဟန်ဂေရီနှင့် ဆားဗီးယားကြား Conflict သည် ၎င်းတို့၏ သက်ဆိုင်ရာ Alliance Partner များကို လျင်မြန်စွာ ဆွဲသွင်းခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the war escalate from a conflict involving a few countries into a war involving most of Europe within roughly one month?",
+          questionMy:
+              "စစ်ပွဲသည် နိုင်ငံအနည်းငယ် ပါဝင်သော Conflict တစ်ခုမှ ဥရောပ အများစု ပါဝင်သော စစ်ပွဲတစ်ခုအဖြစ် တစ်လခန့်အတွင်း Escalate ဖြစ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Mobilization and declarations of war activated the interlocking alliance system in a rapid chain reaction, with each country's declaration triggering its allies' own obligations",
+            "The war remained limited to only Austria-Hungary and Serbia throughout its entire duration",
+            "Alliance obligations had no actual bearing on which countries eventually joined the war",
+            "European countries declared war entirely at random with no connection to prior alliances",
+          ],
+          optionsMy: [
+            "Mobilization နှင့် စစ်ကြေညာချက်များသည် Interlocking Alliance System ကို Chain Reaction လျင်မြန်စွာ တစ်ခုအတွင်း Activate ပြုလုပ်ခဲ့ပြီး နိုင်ငံတစ်ခုစီ၏ ကြေညာချက်သည် ၎င်း၏ Ally များ၏ ကိုယ်ပိုင် တာဝန်ကို Trigger ပြုလုပ်ခဲ့သည်",
+            "စစ်ပွဲသည် ၎င်း၏ တစ်ခုလုံး ကာလတစ်လျှောက် ဩစတြီးယား-ဟန်ဂေရီနှင့် ဆားဗီးယားတွင်သာ ကန့်သတ်ခံခဲ့ခြင်း",
+            "မည်သည့် နိုင်ငံများ နောက်ဆုံးတွင် စစ်ပွဲထဲသို့ ဝင်ရောက်ခဲ့သည်ဆိုသည်တွင် Alliance တာဝန်များ အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "ဥရောပ နိုင်ငံများသည် ယခင် Alliance များနှင့် ချိတ်ဆက်မှု မရှိဘဲ ကျပန်း လုံးဝ စစ်ကြေညာခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace the chain: Austria-Hungary declares war on Serbia; Russia mobilizes to support Serbia; Germany declares war on Russia (and then France, Russia's ally); Britain enters after Germany invades Belgium -- each link triggering the next.",
+          ],
+          hintsMy: [
+            "Chain ကို ခြေရာခံကြည့်ပါ - ဩစတြီးယား-ဟန်ဂေရီသည် ဆားဗီးယားကို စစ်ကြေညာသည်; ရုရှားသည် ဆားဗီးယားကို ပံ့ပိုးရန် Mobilize ပြုလုပ်သည်; ဂျာမနီသည် ရုရှား (ထို့နောက် ရုရှား၏ Ally ဖရင့်) ကို စစ်ကြေညာသည်; ဂျာမနီ ဘယ်လ်ဂျီယံကို ကျူးကျော်ပြီးနောက် ဗြိတိန် ဝင်ရောက်သည် -- Link တစ်ခုစီသည် နောက်တစ်ခုကို Trigger ပြုလုပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: July Crisis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - July Crisis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w6-dm-1",
+          termEn: "Assassination",
+          termMy: "Assassination",
+          matchEn:
+              "The deliberate killing of a prominent political figure, often for political reasons",
+          matchMy:
+              "များသောအားဖြင့် နိုင်ငံရေး အကြောင်းရင်းများအတွက် ထင်ရှားသော နိုင်ငံရေး ပုဂ္ဂိုလ်တစ်ဦးကို တမင် သတ်ဖြတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w6-dm-2",
+          termEn: "Ultimatum",
+          termMy: "Ultimatum",
+          matchEn:
+              "A final, non-negotiable set of demands, often threatening consequences if refused",
+          matchMy:
+              "ငြင်းပယ်ပါက ရလဒ်များ ခြိမ်းခြောက်လေ့ရှိသော နောက်ဆုံး၊ Negotiate မလုပ်နိုင်သော တောင်းဆိုချက်များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w6-dm-3",
+          termEn: "Mobilization",
+          termMy: "Mobilization",
+          matchEn:
+              "Preparing and organizing a country's armed forces for active war service",
+          matchMy:
+              "Active စစ်ရေး Service အတွက် နိုင်ငံတစ်ခု၏ Armed Force များ ပြင်ဆင်၍ စီစဉ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w6-dm-4",
+          termEn: "Chain reaction",
+          termMy: "Chain Reaction",
+          matchEn:
+              "A rapid sequence of events where each one triggers the next in turn",
+          matchMy:
+              "တစ်ခုစီသည် နောက်တစ်ခုကို အလှည့်ကျ Trigger ပြုလုပ်သော အဖြစ်အပျက်များ၏ လျင်မြန်သော Sequence",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: MAIN Long-Term Cause or July Crisis Trigger?",
+      titleMy: "စီစစ်ကြမည် - MAIN Long-Term Cause (သို့) July Crisis Trigger",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["MAIN Long-Term Cause", "July Crisis Trigger"],
+        bucketsMy: ["MAIN Long-Term Cause", "July Crisis Trigger"],
+        items: [
+          SortingItem(
+            id: "igchum-w6-sort-1",
+            labelEn:
+                "Decades of naval arms competition between Britain and Germany",
+            labelMy:
+                "ဗြိတိန်နှင့် ဂျာမနီကြား ဆယ်စုနှစ်များစွာ Naval Arms ယှဉ်ပြိုင်မှု",
+            correctBucketEn: "MAIN Long-Term Cause",
+            correctBucketMy: "MAIN Long-Term Cause",
+          ),
+          SortingItem(
+            id: "igchum-w6-sort-2",
+            labelEn:
+                "The assassination of Archduke Franz Ferdinand in Sarajevo",
+            labelMy: "Sarajevo တွင် Archduke Franz Ferdinand လုပ်ကြံခံရခြင်း",
+            correctBucketEn: "July Crisis Trigger",
+            correctBucketMy: "July Crisis Trigger",
+          ),
+          SortingItem(
+            id: "igchum-w6-sort-3",
+            labelEn:
+                "Austria-Hungary's ultimatum to Serbia after the assassination",
+            labelMy:
+                "လုပ်ကြံခံရပြီးနောက် ဆားဗီးယားသို့ ဩစတြီးယား-ဟန်ဂေရီ၏ Ultimatum",
+            correctBucketEn: "July Crisis Trigger",
+            correctBucketMy: "July Crisis Trigger",
+          ),
+          SortingItem(
+            id: "igchum-w6-sort-4",
+            labelEn:
+                "Decades of overlapping colonial rivalry in Africa and Asia",
+            labelMy:
+                "အာဖရိကနှင့် အာရှတွင် ဆယ်စုနှစ်များစွာ Overlap ဖြစ်သော Colonial Rivalry",
+            correctBucketEn: "MAIN Long-Term Cause",
+            correctBucketMy: "MAIN Long-Term Cause",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Timeline of the July Crisis",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ July Crisis Timeline",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Timeline of the July Crisis",
+        titleMy: "Thiha Aung ၏ July Crisis Timeline",
+        passageEn:
+            "For Week 6, Saya Tun Tun Win asked students to construct a detailed day-by-day timeline of the July Crisis, explicitly labeling each event as either directly caused by the MAIN long-term causes or as part of the rapid trigger chain reaction. Thiha Aung's timeline began on June 28th with the assassination in Sarajevo, which he labeled clearly as the trigger, not a long-term cause -- consistent with Week 2's causation vocabulary.\n\nHis timeline then traced the escalation precisely: Austria-Hungary's ultimatum to Serbia in late July, deliberately worded with demands Thiha Aung's research suggested were designed to be difficult to fully accept; Serbia's partial acceptance followed by Austria-Hungary's declaration of war regardless; Russia's mobilization in support of its ally Serbia; Germany's declaration of war on Russia, followed by France as Russia's ally; and finally Britain's entry after Germany's invasion of neutral Belgium.\n\nAt each step, Thiha Aung annotated which MAIN cause was activating: the alliance system explained why Russia, Germany, France, and eventually Britain were pulled in one after another, while militarism explained why countries were willing and prepared to mobilize their large standing armies so rapidly once the crisis began. He noted that without the alliance obligations built up over the previous decades, the same assassination might have produced only a limited Austria-Hungary-Serbia conflict rather than a war involving most of Europe.\n\nSaya Tun Tun Win reviewed the finished timeline and specifically praised Thiha Aung for correctly distinguishing between the trigger (the assassination and the specific diplomatic decisions of July 1914) and the underlying MAIN causes that made the resulting chain reaction possible in the first place -- exactly the causation reasoning the whole term was designed to build.",
+        passageMy:
+            "Week 6 အတွက် July Crisis ၏ နေ့ချင်းစီ Timeline အသေးစိတ်တစ်ခုကို တည်ဆောက်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး အဖြစ်အပျက်တစ်ခုစီကို MAIN Long-Term Cause များက တိုက်ရိုက် ဖြစ်စေခြင်း (သို့) လျင်မြန်သော Trigger Chain Reaction ၏ တစ်စိတ်တစ်ပိုင်းအဖြစ် ရှင်းလင်းစွာ Label ချရန် တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Timeline သည် Sarajevo ရှိ လုပ်ကြံမှုဖြင့် ဇွန်လ ၂၈ ရက်နေ့မှ စတင်ခဲ့ပြီး Week 2 ၏ Causation ဝေါဟာရနှင့် ကိုက်ညီစွာ Long-Term Cause တစ်ခုမဟုတ်ဘဲ Trigger တစ်ခုအဖြစ် ရှင်းလင်းစွာ ၎င်း Label ချခဲ့သည်။\n\n၎င်း၏ Timeline သည် Escalation ကို အတိအကျ ခြေရာခံခဲ့သည် - ဇူလိုင်လ နောက်ပိုင်းတွင် ဆားဗီးယားသို့ ဩစတြီးယား-ဟန်ဂေရီ၏ Ultimatum၊ အပြည့်အစုံ လက်ခံရန် ခက်ခဲရန် Design ပြုလုပ်ထားသည်ဟု Thiha Aung ၏ သုတေသန ညွှန်ပြခဲ့သော တောင်းဆိုချက်များဖြင့် တမင် စကားလုံးအသုံးအနှုန်းပြုလုပ်ထားသည်; ဆားဗီးယား၏ တစ်စိတ်တစ်ပိုင်း လက်ခံမှု၊ ၎င်းနောက် ဩစတြီးယား-ဟန်ဂေရီ၏ မည်သို့ပင်ရှိစေ စစ်ကြေညာမှု; ၎င်း၏ Ally ဆားဗီးယားကို ပံ့ပိုးသော ရုရှား၏ Mobilization; ရုရှား၏ Ally ဖရင့်၊ ဆက်လက်၍ ရုရှားအပေါ် ဂျာမနီ၏ စစ်ကြေညာမှု; နောက်ဆုံးတွင် Neutral ဘယ်လ်ဂျီယံကို ဂျာမနီ ကျူးကျော်ပြီးနောက် ဗြိတိန် ဝင်ရောက်ခြင်း။\n\nအဆင့်တစ်ခုစီတွင် MAIN Cause မည်သည် Activate ဖြစ်နေသည်ကို Thiha Aung Annotate ပြုလုပ်ခဲ့သည် - ရုရှား, ဂျာမနီ, ဖရင့်နှင့် နောက်ဆုံးတွင် ဗြိတိန်ကို တစ်ဦးပြီးတစ်ဦး ဆွဲသွင်းခဲ့ရသည့် အကြောင်းရင်းကို Alliance System ရှင်းပြခဲ့ပြီး Crisis စတင်ချိန် ၎င်းတို့၏ ကြီးမားသော Standing Army များကို Mobilize ပြုလုပ်ရန် နိုင်ငံများ လျင်မြန်စွာ စိတ်ဆန္ဒရှိ၊ ပြင်ဆင်ထားခြင်းကို Militarism ရှင်းပြခဲ့သည်။ ယခင် ဆယ်စုနှစ်များစွာတွင် တည်ဆောက်လာသော Alliance တာဝန်များ မရှိပါက လုပ်ကြံမှုတူတူသည် ဥရောပ အများစု ပါဝင်သော စစ်ပွဲတစ်ခုအစား ကန့်သတ်ထားသော ဩစတြီးယား-ဟန်ဂေရီ-ဆားဗီးယား Conflict တစ်ခုကိုသာ ထုတ်လုပ်ပေးနိုင်ခြေ ရှိကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည်။\n\nပြီးစီးသော Timeline ကို Saya Tun Tun Win ပြန်လည်သုံးသပ်ခဲ့ပြီး Trigger (လုပ်ကြံမှုနှင့် ၁၉၁၄ ဇူလိုင် Diplomatic ဆုံးဖြတ်ချက်များ) ကို ရလဒ် Chain Reaction ကို ကနဦးမှစ၍ ဖြစ်နိုင်စေခဲ့သော အောက်ခံ MAIN Cause များမှ မှန်ကန်စွာ ခွဲခြားခဲ့ခြင်းအတွက် Thiha Aung ကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည် -- Term တစ်ခုလုံး တည်ဆောက်ရန် Design ပြုလုပ်ထားသော Causation Reasoning အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did Thiha Aung label the June 28th assassination?",
+            questionMy:
+                "ဇွန်လ ၂၈ ရက်နေ့ လုပ်ကြံမှုကို Thiha Aung မည်သို့ Label ချခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As the trigger, not a long-term cause",
+              "As one of the four long-term MAIN causes",
+              "As having no actual connection to the war at all",
+              "As the very first event in the entire timeline of tension",
+            ],
+            optionsMy: [
+              "Long-Term Cause တစ်ခုမဟုတ်ဘဲ Trigger တစ်ခုအဖြစ်",
+              "MAIN Long-Term Cause လေးခုအနက် တစ်ခုအဖြစ်",
+              "စစ်ပွဲနှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိသည်ဟု",
+              "Tension Timeline တစ်ခုလုံးရှိ ပထမဆုံး Event တစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's labeling explanation."],
+            hintsMy: ["ပထမ စာပိုဒ်၏ Labeling ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Thiha Aung note about the alliance obligations built up over previous decades?",
+            questionMy:
+                "ယခင် ဆယ်စုနှစ်များစွာတွင် တည်ဆောက်လာသော Alliance တာဝန်များအကြောင်း Thiha Aung မှတ်ချက်ပြုခဲ့သည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Without them, the same assassination might have produced only a limited conflict",
+              "They had no actual effect on how the war spread at all",
+              "They guaranteed the war would remain limited to two countries",
+              "They were created for the very first time during the July Crisis itself",
+            ],
+            optionsMy: [
+              "၎င်းတို့ မရှိပါက လုပ်ကြံမှုတူတူသည် ကန့်သတ်ထားသော Conflict တစ်ခုကိုသာ ထုတ်လုပ်ပေးနိုင်ခြေ ရှိကြောင်း",
+              "စစ်ပွဲ မည်သို့ ပျံ့နှံ့သည်အပေါ် အမှန်တကယ် သက်ရောက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+              "စစ်ပွဲသည် နိုင်ငံနှစ်ခုတွင်သာ ကန့်သတ်ထားမည်ဟု အာမခံခဲ့ခြင်း",
+              "July Crisis ကိုယ်တိုင် အတွင်းတွင် ပထမဆုံးအကြိမ် ဖန်တီးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's observation."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Observation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise Thiha Aung's timeline?",
+            questionMy:
+                "Thiha Aung ၏ Timeline ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He correctly distinguished the trigger from the underlying MAIN causes",
+              "It was the shortest timeline submitted in the class",
+              "It ignored the alliance system entirely",
+              "It presented the assassination as the sole cause with no other factors",
+            ],
+            optionsMy: [
+              "Trigger ကို အောက်ခံ MAIN Cause များမှ မှန်ကန်စွာ ခွဲခြားခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး Timeline ဖြစ်ခြင်း",
+              "Alliance System ကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "အခြား Factor မည်သည်မှ မပါဘဲ လုပ်ကြံမှုကို တစ်ခုတည်းသော Cause အဖြစ် တင်ပြခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's praise."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ချီးမွမ်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w6-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The July Crisis and Outbreak of War",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - July Crisis နှင့် စစ်ပွဲ ဖြစ်ပွားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The assassination of Archduke Franz Ferdinand is best classified as...",
+          questionMy:
+              "Archduke Franz Ferdinand လုပ်ကြံခံရခြင်းကို အကောင်းဆုံး အမျိုးအစားခွဲထားသည်မှာ...",
+          optionsEn: [
+            "A trigger event",
+            "A long-term MAIN cause",
+            "Completely unrelated to the war",
+            "An event that happened after the war ended",
+          ],
+          optionsMy: [
+            "Trigger Event တစ်ခု",
+            "Long-Term MAIN Cause တစ်ခု",
+            "စစ်ပွဲနှင့် လုံးဝ မဆိုင်ခြင်း",
+            "စစ်ပွဲ ပြီးဆုံးပြီးနောက် ဖြစ်ပျက်ခဲ့သော Event တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The alliance system caused the war to spread because...",
+          questionMy:
+              "စစ်ပွဲ ပျံ့နှံ့စေခဲ့ရသည့် အကြောင်းရင်းမှာ Alliance System ...",
+          optionsEn: [
+            "Each declaration of war triggered allies' own defense obligations",
+            "Alliances guaranteed the conflict would stay limited",
+            "No countries actually had any alliance obligations",
+            "Alliances only became relevant after the war had ended",
+          ],
+          optionsMy: [
+            "စစ်ကြေညာမှု တစ်ခုစီသည် Ally များ၏ ကိုယ်ပိုင် Defense တာဝန်များကို Trigger ပြုလုပ်ခဲ့ခြင်း",
+            "Conflict ကန့်သတ်ထားမည်ဟု Alliance များက အာမခံခဲ့ခြင်း",
+            "နိုင်ငံ မည်သည်မှ Alliance တာဝန် မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "စစ်ပွဲ ပြီးဆုံးပြီးနောက်သာ Alliance များ သက်ဆိုင်လာခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Correctly separating a trigger from long-term causes requires...",
+          questionMy:
+              "Long-Term Cause များမှ Trigger တစ်ခုကို မှန်ကန်စွာ ခွဲခြားခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Recognizing that the trigger only works because long-term conditions were already present",
+            "Treating the trigger as the sole cause of everything",
+            "Ignoring long-term causes entirely",
+            "Assuming the trigger and long-term causes are identical",
+          ],
+          optionsMy: [
+            "Long-Term Condition များ ရှိပြီးသားကြောင့်သာ Trigger သည် အလုပ်လုပ်ကြောင်း အသိအမှတ်ပြုခြင်း",
+            "Trigger ကို အရာအားလုံး၏ တစ်ခုတည်းသော Cause အဖြစ် ဆက်ဆံခြင်း",
+            "Long-Term Cause များကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Trigger နှင့် Long-Term Cause များသည် တူညီသည်ဟု ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 2, Week 7: "Trench Warfare and the
+// Western Front"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek7 = CourseWeekDef(
+  id: "course-igcse-hum-w7",
+  weekNumber: 7,
+  titleEn: "Trench Warfare and the Western Front",
+  titleMy: "Trench Warfare နှင့် Western Front",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w7-d1",
+      dayNumber: 1,
+      titleEn: "Why the Western Front Became a Stalemate",
+      titleMy: "Western Front သည် Stalemate ဖြစ်လာရသည့် အကြောင်းရင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did new defensive technology (machine guns, barbed wire, artillery) make it extremely costly for either side to advance across open ground on the Western Front?",
+          questionMy:
+              "Western Front တွင် ဘက်နှစ်ဘက်စလုံးအတွက် ပွင့်လင်းသော မြေပြင်တစ်လျှောက် ချီတက်ခြင်းသည် အလွန် ကုန်ကျစရိတ်ကြီးမားစေရသည့် Defensive Technology အသစ် (Machine Gun, Barbed Wire, Artillery) ၏ အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Machine guns could fire rapidly at advancing soldiers crossing open ground, while barbed wire and artillery further slowed and exposed attackers, giving defenders a massive advantage",
+            "This defensive technology made attacking troops completely invisible to defenders",
+            "New defensive technology had no actual effect on how battles were fought",
+            "Machine guns and barbed wire made attacking across open ground perfectly safe",
+          ],
+          optionsMy: [
+            "Machine Gun များသည် ပွင့်လင်းသော မြေပြင်ကို ဖြတ်သန်းနေသော ချီတက် စစ်သားများကို လျင်မြန်စွာ ပစ်ခတ်နိုင်ပြီး Barbed Wire နှင့် Artillery သည် တိုက်ခိုက်သူများကို ဆက်လက် နှေးကွေးစေကာ ဖော်ထုတ်ပေးခဲ့ကာ Defender များကို ကြီးမားသော အားသာချက် ပေးအပ်ခဲ့သည်",
+            "ဤ Defensive Technology သည် Defender များအား ချီတက်နေသော တပ်များကို လုံးဝ မမြင်နိုင်စေခဲ့သည်",
+            "Defensive Technology အသစ်သည် Battle များ မည်သို့ တိုက်ခိုက်ခဲ့သည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "Machine Gun များနှင့် Barbed Wire များသည် ပွင့်လင်းသော မြေပြင်ကို ဖြတ်သန်းတိုက်ခိုက်ခြင်းကို ပြီးပြည့်စုံစွာ လုံခြုံစေခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Soldiers advancing 'over the top' out of trenches into no-man's-land had almost no cover, while machine guns positioned in fortified trenches could fire continuously -- an enormous defensive advantage.",
+          ],
+          hintsMy: [
+            "Trench များမှ No-Man's-Land ထဲသို့ 'Over the Top' ချီတက်နေသော စစ်သားများသည် Cover နီးပါး မရှိသလို Fortified Trench များတွင် တည်ထားသော Machine Gun များသည် ဆက်တိုက် ပစ်ခတ်နိုင်ခဲ့ခြင်း -- ကြီးမားသော Defensive အားသာချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is the Western Front described as reaching a 'stalemate' rather than one side steadily winning?",
+          questionMy:
+              "Western Front ကို ဘက်တစ်ဘက် တည်ငြိမ်စွာ အနိုင်ရမည့်အစား 'Stalemate' တစ်ခု ရောက်ရှိသည်ဟု ဖော်ပြထားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Neither side could achieve a decisive breakthrough, since any attempted advance faced the same overwhelming defensive advantages the other side also possessed",
+            "One side achieved a rapid, decisive victory within the first weeks of fighting",
+            "Both sides agreed to stop fighting entirely for the rest of the war",
+            "The term 'stalemate' has no actual meaning in a military context",
+          ],
+          optionsMy: [
+            "အခြားဘက်တွင်လည်း ရှိသော Overwhelming Defensive အားသာချက်တူတူကို ကြိုးစားထားသော ချီတက်မှု မည်သည်ကမဆို ရင်ဆိုင်ခဲ့ရသောကြောင့် ဘက်နှစ်ဘက်စလုံးသည် Decisive Breakthrough တစ်ခု မရရှိနိုင်ခဲ့ခြင်း",
+            "ဘက်တစ်ဘက်သည် တိုက်ခိုက်မှု ပထမ ရက်သတ္တပတ်များအတွင်း လျင်မြန်၊ Decisive အောင်ပွဲရရှိခဲ့ခြင်း",
+            "ဘက်နှစ်ဘက်စလုံးသည် စစ်ပွဲ ကျန်ရှိသေးသော ကာလအတွက် တိုက်ခိုက်မှု လုံးဝ ရပ်တန့်ရန် သဘောတူခဲ့ခြင်း",
+            "'Stalemate' ဟူသော ဝေါဟာရသည် စစ်ရေးဆိုင်ရာ Context တစ်ခုတွင် အမှန်တကယ် အဓိပ္ပာယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since both sides had similar defensive technology, whenever one side attacked, they faced the same disadvantage the other side would face if they attacked -- producing years of grinding, indecisive fighting.",
+          ],
+          hintsMy: [
+            "ဘက်နှစ်ဘက်စလုံးတွင် အလားတူ Defensive Technology ရှိသောကြောင့် ဘက်တစ်ဘက် တိုက်ခိုက်တိုင်း ၎င်းတို့ တိုက်ခိုက်ပါက အခြားဘက် ကြုံတွေ့ရမည့် Disadvantage တူတူကို ကြုံတွေ့ခဲ့ရပြီး နှစ်များစွာ ကြေမွစေသော၊ Indecisive တိုက်ခိုက်မှုများကို ထုတ်လုပ်ပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is trench warfare considered a strong example of how new technology can dramatically change how wars are fought?",
+          questionMy:
+              "နည်းပညာအသစ်တစ်ခုသည် စစ်ပွဲများ မည်သို့ တိုက်ခိုက်ခြင်းကို Dramatic ပြောင်းလဲနိုင်ကြောင်း ခိုင်မာသော ဥပမာတစ်ခုအဖြစ် Trench Warfare ကို ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Defensive weapons technology outpaced offensive tactics of the era, forcing armies to adapt to a completely new, static form of warfare unlike previous mobile wars",
+            "Trench warfare had no actual connection to any technological development",
+            "Trench warfare was identical to how every previous war in history had been fought",
+            "Technology has never actually influenced how any war was conducted",
+          ],
+          optionsMy: [
+            "Defensive လက်နက် Technology သည် ကာလ၏ Offensive Tactic များထက် ကျော်လွန်ခဲ့ပြီး ယခင် Mobile စစ်ပွဲများနှင့် မတူဘဲ လုံးဝ အသစ်၊ Static Warfare ပုံစံတစ်ခုသို့ ချိန်ညှိရန် တပ်များကို ဖိအားပေးခဲ့သည်",
+            "Trench Warfare သည် Technological Development မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "Trench Warfare သည် သမိုင်းတွင် ယခင် စစ်ပွဲတိုင်း မည်သို့ တိုက်ခိုက်ခဲ့သည်နှင့် အတိအကျ တူညီခဲ့ခြင်း",
+            "Technology သည် စစ်ပွဲ မည်သည်ကမျှ မည်သို့ လုပ်ဆောင်ခဲ့သည်အပေါ် အမှန်တကယ် ဘယ်တော့မှ သက်ရောက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Earlier 19th-century wars were fought with more mobile tactics; the defensive firepower available by 1914 made those older tactics disastrously costly, forcing a fundamental shift to trenches.",
+          ],
+          hintsMy: [
+            "ယခင် ၁၉ ရာစု စစ်ပွဲများကို Mobile Tactic များ ပို၍ ပါဝင်စွာ တိုက်ခိုက်ခဲ့ပြီး ၁၉၁၄ တွင် ရနိုင်သော Defensive Firepower သည် ထို ယခင် Tactic များကို ကပျက်စီးစွာ ကုန်ကျစရိတ်ကြီးမားစေခဲ့ကာ Trench များသို့ Fundamental Shift တစ်ခုကို ဖိအားပေးခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Trench Warfare Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Trench Warfare ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w7-dm-1",
+          termEn: "Stalemate",
+          termMy: "Stalemate",
+          matchEn:
+              "A prolonged situation where neither side can achieve a decisive advantage",
+          matchMy:
+              "ဘက်နှစ်ဘက်စလုံး Decisive အားသာချက် တစ်ခုကို မရရှိနိုင်သော ကြာမြင့်သော အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w7-dm-2",
+          termEn: "No-man's-land",
+          termMy: "No-Man's-Land",
+          matchEn: "The dangerous open area between opposing trenches",
+          matchMy:
+              "ဆန့်ကျင်ဘက် Trench များကြား အန္တရာယ်ရှိသော ပွင့်လင်းသော နေရာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w7-dm-3",
+          termEn: "Attrition",
+          termMy: "Attrition",
+          matchEn:
+              "A strategy of gradually wearing down an enemy through sustained losses over time",
+          matchMy:
+              "အချိန်ကြာလာသည်နှင့်အမျှ ဆက်တိုက် ဆုံးရှုံးမှုများမှတစ်ဆင့် ရန်သူကို တဖြည်းဖြည်း ရှုံ့နွမ်းစေသော Strategy",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w7-dm-4",
+          termEn: "Defensive advantage",
+          termMy: "Defensive Advantage",
+          matchEn:
+              "The military edge held by fortified defenders over attackers crossing open ground",
+          matchMy:
+              "ပွင့်လင်းသော မြေပြင်ကို ဖြတ်သန်းသော Attacker များထက် Fortified Defender များ ရရှိသော စစ်ရေးဆိုင်ရာ အသာစီး",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Defensive Advantage or Offensive Disadvantage?",
+      titleMy: "စီစစ်ကြမည် - Defensive Advantage (သို့) Offensive Disadvantage",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Defensive Advantage", "Offensive Disadvantage"],
+        bucketsMy: ["Defensive Advantage", "Offensive Disadvantage"],
+        items: [
+          SortingItem(
+            id: "igchum-w7-sort-1",
+            labelEn:
+                "Machine guns positioned in a fortified trench, able to fire continuously",
+            labelMy:
+                "ဆက်တိုက် ပစ်ခတ်နိုင်သော Fortified Trench တွင် တည်ထားသော Machine Gun များ",
+            correctBucketEn: "Defensive Advantage",
+            correctBucketMy: "Defensive Advantage",
+          ),
+          SortingItem(
+            id: "igchum-w7-sort-2",
+            labelEn:
+                "Soldiers crossing open, exposed ground with almost no cover",
+            labelMy:
+                "Cover နီးပါး မရှိသော ပွင့်လင်း၊ ဖော်ထုတ်ထားသော မြေပြင်ကို ဖြတ်သန်းနေသော စစ်သားများ",
+            correctBucketEn: "Offensive Disadvantage",
+            correctBucketMy: "Offensive Disadvantage",
+          ),
+          SortingItem(
+            id: "igchum-w7-sort-3",
+            labelEn:
+                "Barbed wire slowing attackers down within range of enemy fire",
+            labelMy:
+                "ရန်သူ ပစ်ခတ်မှု အကွာအဝေးအတွင်း Attacker များ နှေးကွေးစေသော Barbed Wire",
+            correctBucketEn: "Offensive Disadvantage",
+            correctBucketMy: "Offensive Disadvantage",
+          ),
+          SortingItem(
+            id: "igchum-w7-sort-4",
+            labelEn:
+                "A deep, fortified trench providing cover from artillery and gunfire",
+            labelMy:
+                "Artillery နှင့် Gunfire မှ Cover ပေးအပ်သော နက်ရှိုင်း၊ Fortified Trench",
+            correctBucketEn: "Defensive Advantage",
+            correctBucketMy: "Defensive Advantage",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Primary Source Trench Letters",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Primary Source Trench Letter များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Primary Source Trench Letters",
+        titleMy: "Thiha Aung ၏ Primary Source Trench Letter များ",
+        passageEn:
+            "Applying Week 1's source-evaluation skills to Week 7's new topic, Saya Tun Tun Win gave students a collection of soldiers' letters home from the Western Front and asked them to use these primary sources to explain why the front became a stalemate rather than simply describing conditions in general terms. Thiha Aung selected three letters spanning different points in the war.\n\nThe first letter, written early in the conflict, described an attempted advance across open ground that resulted in devastating losses within minutes, the soldier writing that machine gun fire made it 'impossible to move ten steps.' Thiha Aung connected this directly to Monday's lesson: this single account provided vivid primary-source evidence of exactly the defensive-technology advantage the lesson had explained in the abstract.\n\nThe second letter, written a year later, described the same static front lines still roughly in the same location despite continued fighting, the soldier noting with frustration that 'we take a trench, then lose it again the following week.' Thiha Aung used this as direct evidence of Tuesday's stalemate concept: neither side's repeated attempts to advance produced any lasting territorial change.\n\nThe third letter described the exhausting, demoralizing routine of trench life itself -- the mud, the waiting, the constant danger without decisive action -- which Thiha Aung connected to Wednesday's technology-shift lesson, arguing this static, defensive-dominated warfare was fundamentally different from the mobile campaigns described in earlier military history he had studied. Saya Tun Tun Win praised his analysis for using specific primary-source quotations to support each historical claim rather than making general assertions without evidence, exactly the disciplined source-based argument Week 1 had established as the course's foundation.",
+        passageMy:
+            "Week 1 ၏ Source-Evaluation Skill များကို Week 7 ခေါင်းစဉ်အသစ်သို့ အသုံးချကာ Western Front မှ အိမ်သို့ ပို့ခဲ့သော စစ်သားများ၏ Letter စုစည်းမှုတစ်ခုကို ကျောင်းသားများအား Saya Tun Tun Win ပေးအပ်ခဲ့ပြီး ယေဘုယျ Term များဖြင့် အခြေအနေများကို ရိုးရှင်းစွာ ဖော်ပြရုံသာမက Front သည် Stalemate ဖြစ်လာရသည့် အကြောင်းရင်း ရှင်းပြရန် ဤ Primary Source များကို အသုံးပြုရန် တောင်းဆိုခဲ့သည်။ စစ်ပွဲ၏ ကွဲပြားသော အချိန်များကို ဖြတ်သန်းသော Letter သုံးစောင်ကို Thiha Aung ရွေးချယ်ခဲ့သည်။\n\nConflict အစောပိုင်းတွင် ရေးသားခဲ့သော ပထမ Letter သည် မိနစ်အနည်းငယ်အတွင်း ပျက်စီးဆုံးရှုံးမှု ဖြစ်စေခဲ့သော ပွင့်လင်းသော မြေပြင် ချီတက်ကြိုးပမ်းမှုတစ်ခုကို ဖော်ပြခဲ့ပြီး Machine Gun ပစ်ခတ်မှုက 'ခြေတစ်လှမ်းဆယ်လှမ်း ရွေ့လျား၍ မရနိုင်' ဟု စစ်သားက ရေးသားခဲ့သည်။ ဤအချက်ကို တနင်္လာနေ့ သင်ခန်းစာသို့ Thiha Aung တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - ဤ Account တစ်ခုတည်းသည် သင်ခန်းစာက Abstract တွင် ရှင်းပြခဲ့သော Defensive-Technology အားသာချက်၏ ရှင်းလင်းသော Primary-Source Evidence ကို ပေးအပ်ခဲ့သည်။\n\nနှစ်တစ်နှစ်ကြာပြီးနောက် ရေးသားခဲ့သော ဒုတိယ Letter သည် ဆက်လက် တိုက်ခိုက်နေသော်လည်း Static Front Line တူတူသည် နေရာအတိအကျ နီးပါးတွင် ဆက်လက် ရှိနေသည်ကို ဖော်ပြခဲ့ပြီး 'Trench တစ်ခု ရရှိပြီး နောက်ပတ်တွင် ပြန်ဆုံးရှုံးသည်' ဟု စစ်သားက Frustration ဖြင့် မှတ်ချက်ပြုခဲ့သည်။ အင်္ဂါနေ့ Stalemate Concept ၏ Direct Evidence အဖြစ် Thiha Aung ဤသည်ကို အသုံးပြုခဲ့သည် - ဘက်နှစ်ဘက်စလုံး၏ ဆက်တိုက် ချီတက်ကြိုးစားမှုများသည် ကြာရှည်သော Territorial ပြောင်းလဲမှု မည်သည်ကိုမျှ ထုတ်လုပ်ပေးခဲ့ခြင်း မရှိပါ။\n\nတတိယ Letter သည် Trench ဘဝကိုယ်တိုင်၏ မောပန်း၊ စိတ်ကျစေသော Routine ကို ဖော်ပြခဲ့သည် -- ရွှံ့ညှော်၊ စောင့်ဆိုင်းမှု၊ Decisive Action မပါဘဲ ဆက်တိုက် အန္တရာယ် -- ဗုဒ္ဓဟူးနေ့ Technology-Shift သင်ခန်းစာသို့ Thiha Aung ချိတ်ဆက်ခဲ့ပြီး ဤ Static, Defensive-Dominated Warfare သည် ၎င်း လေ့လာခဲ့ဖူးသော ယခင် စစ်ရေးဆိုင်ရာ သမိုင်း Mobile Campaign များနှင့် Fundamentally ကွဲပြားကြောင်း ငြင်းခုံခဲ့သည်။ Evidence မပါဘဲ ယေဘုယျ Assertion ပြုလုပ်မည့်အစား သမိုင်းဆိုင်ရာ Claim တစ်ခုစီကို ထောက်ခံရန် တိကျသော Primary-Source Quotation များ အသုံးပြုခဲ့သောကြောင့် ၎င်း၏ Analysis ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည် -- Week 1 က Course ၏ Foundation အဖြစ် တည်ထောင်ခဲ့သော Disciplined Source-Based Argument အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the first letter provide evidence of?",
+            questionMy:
+                "ပထမ Letter ပေးအပ်ခဲ့သော Evidence ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The defensive-technology advantage described in Monday's lesson",
+              "A completely successful advance with no losses whatsoever",
+              "An event that had no connection to trench warfare at all",
+              "A peaceful negotiation between the two opposing armies",
+            ],
+            optionsMy: [
+              "တနင်္လာနေ့ သင်ခန်းစာတွင် ဖော်ပြထားသော Defensive-Technology အားသာချက်",
+              "ဆုံးရှုံးမှု မည်သည်မှ မပါသော လုံးဝ အောင်မြင်သော ချီတက်မှု",
+              "Trench Warfare နှင့် လုံးဝ ချိတ်ဆက်မှု မရှိသော Event တစ်ခု",
+              "ဆန့်ကျင်ဘက် တပ်နှစ်ခုကြား ငြိမ်းချမ်းသော Negotiation",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the first letter.",
+            ],
+            hintsMy: [
+              "ပထမ Letter ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what stalemate evidence did the second letter provide?",
+            questionMy:
+                "ဒုတိယ Letter ပေးအပ်ခဲ့သော Stalemate Evidence ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Repeated attempts to advance produced no lasting territorial change",
+              "One side achieved a decisive, permanent victory",
+              "The front lines moved dramatically forward every single week",
+              "There was no fighting described in this letter at all",
+            ],
+            optionsMy: [
+              "ချီတက်ရန် ထပ်ခါထပ်ခါ ကြိုးစားမှုများသည် ကြာရှည်သော Territorial ပြောင်းလဲမှု မည်သည်ကိုမျှ ထုတ်လုပ်ပေးခဲ့ခြင်း မရှိခြင်း",
+              "ဘက်တစ်ဘက်သည် Decisive, ထာဝရ အောင်ပွဲ ရရှိခဲ့ခြင်း",
+              "Front Line များသည် ရက်သတ္တပတ်တိုင်း Dramatic ရှေ့သို့ ရွေ့လျားခဲ့ခြင်း",
+              "ဤ Letter တွင် တိုက်ခိုက်မှု မည်သည်မှ ဖော်ပြခြင်း လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of the second letter.",
+            ],
+            hintsMy: [
+              "ဒုတိယ Letter ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise Thiha Aung's analysis?",
+            questionMy:
+                "Thiha Aung ၏ Analysis ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It used specific primary-source quotations to support each historical claim",
+              "It made general assertions with no evidence of any kind",
+              "It ignored the letters entirely and relied on personal opinion",
+              "It was the shortest analysis submitted in the class",
+            ],
+            optionsMy: [
+              "သမိုင်းဆိုင်ရာ Claim တစ်ခုစီကို ထောက်ခံရန် တိကျသော Primary-Source Quotation များ အသုံးပြုခဲ့ခြင်း",
+              "Evidence မည်သည်မှ မပါဘဲ ယေဘုယျ Assertion များ ပြုလုပ်ခဲ့ခြင်း",
+              "Letter များကို လုံးဝ လျစ်လျူရှုကာ ကိုယ်ပိုင် ထင်မြင်ချက်ကို အားကိုးခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး Analysis ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's praise."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ချီးမွမ်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w7-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Trench Warfare and the Western Front",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Trench Warfare နှင့် Western Front",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Machine guns and barbed wire gave a major advantage to...",
+          questionMy:
+              "Machine Gun များနှင့် Barbed Wire များသည် ...ကို အဓိက အားသာချက် ပေးအပ်ခဲ့သည်",
+          optionsEn: [
+            "Defenders in fortified positions",
+            "Attackers crossing open ground",
+            "Neither side in any way",
+            "Civilians far from the front lines",
+          ],
+          optionsMy: [
+            "Fortified Position ရှိ Defender များ",
+            "ပွင့်လင်းသော မြေပြင်ကို ဖြတ်သန်းသော Attacker များ",
+            "ဘက်နှစ်ဘက်စလုံး မည်သည့်နည်းနှင့်မျှ",
+            "Front Line များမှ ဝေးသော Civilian များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A stalemate occurs when...",
+          questionMy: "Stalemate ဖြစ်ပေါ်သည်မှာ ...အခါ ဖြစ်သည်",
+          optionsEn: [
+            "Neither side can achieve a decisive breakthrough",
+            "One side wins a rapid, decisive victory",
+            "Fighting stops completely for the rest of the war",
+            "Only one army has any weapons at all",
+          ],
+          optionsMy: [
+            "ဘက်နှစ်ဘက်စလုံး Decisive Breakthrough တစ်ခု မရရှိနိုင်ခြင်း",
+            "ဘက်တစ်ဘက်သည် လျင်မြန်၊ Decisive အောင်ပွဲ ရရှိခြင်း",
+            "စစ်ပွဲ ကျန်ရှိသေးသော ကာလအတွက် တိုက်ခိုက်မှု လုံးဝ ရပ်တန့်ခြင်း",
+            "တပ်တစ်ခုတည်းသာ လက်နက် မည်သည်မှ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Trench warfare emerged because...",
+          questionMy: "Trench Warfare ပေါ်ထွက်လာရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Defensive weapons technology outpaced offensive tactics of the era",
+            "It was identical to how all previous wars had been fought",
+            "Defensive technology had no actual role in warfare",
+            "Armies deliberately chose it for no strategic reason",
+          ],
+          optionsMy: [
+            "Defensive လက်နက် Technology သည် ကာလ၏ Offensive Tactic များထက် ကျော်လွန်ခဲ့ခြင်း",
+            "ယခင် စစ်ပွဲအားလုံး မည်သို့ တိုက်ခိုက်ခဲ့သည်နှင့် အတိအကျ တူညီခဲ့ခြင်း",
+            "Defensive Technology သည် Warfare တွင် အမှန်တကယ် Role မည်သည်မှ မရှိခဲ့ခြင်း",
+            "မဟာဗျူဟာ အကြောင်းရင်း မည်သည်မှ မပါဘဲ တပ်များက တမင် ရွေးချယ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 2, Week 8 (Capstone/Boss Week): "WWI
+// Causation Trial"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek8 = CourseWeekDef(
+  id: "course-igcse-hum-w8",
+  weekNumber: 8,
+  titleEn: "WWI Causation Trial",
+  titleMy: "WWI Causation Trial",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w8-d1",
+      dayNumber: 1,
+      titleEn: "Building a Balanced Causation Argument",
+      titleMy: "Balanced Causation Argument တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a historical 'causation trial' assessing which factor was most responsible for the outbreak of WWI, why should a strong argument weigh multiple causes against each other rather than defending only one cause absolutely?",
+          questionMy:
+              "WWI ဖြစ်ပွားခြင်းအတွက် Factor မည်သည် တာဝန်အများဆုံးရှိသည်ကို အကဲဖြတ်သော သမိုင်းဆိုင်ရာ 'Causation Trial' တစ်ခုတွင် ခိုင်မာသော Argument တစ်ခုသည် Cause တစ်ခုတည်းကို လုံးဝ ကာကွယ်မည့်အစား Cause များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The MAIN causes and the trigger all interacted together, so a genuinely strong argument explains how they combined rather than claiming one factor alone caused everything",
+            "Only one MAIN cause was ever actually relevant to the outbreak of the war",
+            "Weighing multiple causes against each other has no actual analytical value",
+            "A strong historical argument should always ignore every cause except the trigger",
+          ],
+          optionsMy: [
+            "MAIN Cause များနှင့် Trigger သည် အားလုံး အတူတကွ အပြန်အလှန် သက်ရောက်ခဲ့သောကြောင့် Factor တစ်ခုတည်းက အရာအားလုံးကို ဖြစ်စေသည်ဟု Claim ပြုလုပ်မည့်အစား စစ်မှန်စွာ ခိုင်မာသော Argument တစ်ခုသည် ၎င်းတို့ မည်သို့ ပေါင်းစပ်ခဲ့သည်ကို ရှင်းပြသည်",
+            "MAIN Cause တစ်ခုတည်းသာ စစ်ပွဲ ဖြစ်ပွားခြင်းနှင့် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခဲ့ခြင်း",
+            "Cause များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခြင်းသည် အမှန်တကယ် Analytical တန်ဖိုး မရှိခြင်း",
+            "ခိုင်မာသော သမိုင်းဆိုင်ရာ Argument တစ်ခုသည် Trigger မှလွဲ၍ Cause တိုင်းကို အမြဲ လျစ်လျူရှုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 5's closing lesson -- Thiha Aung's own conclusion was that the MAIN causes reinforced each other; a strong trial argument builds on that same interconnected reasoning rather than a single-cause claim.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ ကုန်ဆုံးသော သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- MAIN Cause များသည် တစ်ခုနှင့်တစ်ခု ခိုင်မာစေခဲ့ကြောင်း Thiha Aung ကိုယ်ပိုင် ကောက်ချက် ဖြစ်ခဲ့သည်; ခိုင်မာသော Trial Argument တစ်ခုသည် Cause တစ်ခုတည်း Claim တစ်ခုအစား ချိတ်ဆက်ထားသော Reasoning တူတူပေါ် တည်ဆောက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a causation trial argument cite specific primary-source evidence, like the trench letters studied in Week 7, rather than relying only on general statements?",
+          questionMy:
+              "Causation Trial Argument တစ်ခုသည် ယေဘုယျ ဖော်ပြချက်များကိုသာ အားကိုးမည့်အစား Week 7 တွင် လေ့လာခဲ့သော Trench Letter များကဲ့သို့ တိကျသော Primary-Source Evidence ကို ကိုးကားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Specific evidence demonstrates genuine understanding and gives the argument real credibility, exactly as Week 1's source-evaluation lessons established",
+            "Primary sources are never actually relevant to a causation argument",
+            "General statements are always more persuasive than specific evidence",
+            "Evidence-based argument has no actual connection to how the course was structured",
+          ],
+          optionsMy: [
+            "တိကျသော Evidence သည် စစ်မှန်သော နားလည်မှုကို သရုပ်ပြပြီး Argument ကို အမှန်တကယ် ယုံကြည်ရမှု ပေးအပ်သည် -- Week 1 ၏ Source-Evaluation သင်ခန်းစာများ တည်ထောင်ခဲ့သည့်အတိုင်း အတိအကျ ဖြစ်သည်",
+            "Primary Source များသည် Causation Argument တစ်ခုနှင့် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခြင်း",
+            "ယေဘုယျ ဖော်ပြချက်များသည် တိကျသော Evidence ထက် အမြဲ ပို၍ ဆွဲဆောင်မှု ရှိခြင်း",
+            "Evidence-Based Argument သည် Course ဖွဲ့စည်းထားပုံနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 7's lesson praising Thiha Aung for citing specific letter quotations rather than making unsupported general claims -- the same discipline applies to a full causation trial argument.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Ununsupported ယေဘုယျ Claim များ ပြုလုပ်မည့်အစား Letter Quotation တိကျစွာ ကိုးကားခဲ့သောကြောင့် Thiha Aung ကို ချီးမွမ်းခဲ့သော Week 7 ၏ သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- Discipline တူတူသည် Causation Trial Argument အပြည့်အစုံနှင့် သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a causation trial verdict distinguish between what caused the war's outbreak and what determined how the war was actually fought once it began?",
+          questionMy:
+              "Causation Trial ၏ Verdict တစ်ခုသည် စစ်ပွဲ ဖြစ်ပွားခြင်းကို ဖြစ်စေသည့်အရာနှင့် စတင်ပြီးနောက် စစ်ပွဲကို အမှန်တကယ် မည်သို့ တိုက်ခိုက်သည်ကို ဆုံးဖြတ်ခဲ့သော အရာကို ခွဲခြားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "These are two distinct historical questions -- the MAIN causes and July Crisis explain the outbreak, while defensive technology and trench warfare explain the subsequent conduct of the fighting, and conflating them weakens the analysis",
+            "The outbreak of the war and how it was fought are always exactly the same question",
+            "Trench warfare actually caused the war to begin in the first place",
+            "There is no meaningful distinction between these two historical questions",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ကွဲပြားသော သမိုင်းဆိုင်ရာ မေးခွန်းနှစ်ခု ဖြစ်သည် -- MAIN Cause များနှင့် July Crisis သည် ဖြစ်ပွားခြင်းကို ရှင်းပြပြီး Defensive Technology နှင့် Trench Warfare သည် ဆက်လက် တိုက်ခိုက်မှု လုပ်ဆောင်ပုံကို ရှင်းပြသည်၊ ၎င်းတို့ကို ရောနှောလိုက်ခြင်းသည် Analysis ကို အားနည်းစေသည်",
+            "စစ်ပွဲ ဖြစ်ပွားခြင်းနှင့် ၎င်း မည်သို့ တိုက်ခိုက်ခဲ့သည်ဆိုသည်သည် အမြဲ တစ်ခုတည်းသော မေးခွန်းတူတူ ဖြစ်ခြင်း",
+            "Trench Warfare သည် စစ်ပွဲ ကနဦးမှစတင်ရန် အမှန်တကယ် ဖြစ်စေခဲ့ခြင်း",
+            "သမိုင်းဆိုင်ရာ မေးခွန်းနှစ်ခုကြား အဓိပ္ပာယ်ရှိသော ခွဲခြားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This tests whether students keep the term's three separate weeks distinct: Week 5's MAIN causes, Week 6's trigger, and Week 7's conduct-of-war technology are related but answer different historical questions.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ကျောင်းသားများ Term ၏ သီးခြား Week သုံးခုကို ကွဲပြားစွာ ထားရှိသည် ရှိမရှိ Test ပြုလုပ်သည် - Week 5 ၏ MAIN Cause များ၊ Week 6 ၏ Trigger နှင့် Week 7 ၏ Conduct-of-War Technology သည် ဆက်စပ်နေသော်လည်း ကွဲပြားသော သမိုင်းဆိုင်ရာ မေးခွန်းများကို ဖြေဆိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 WWI Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 2 WWI ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w8-dm-1",
+          termEn: "MAIN causes",
+          termMy: "MAIN Causes",
+          matchEn:
+              "Militarism, Alliances, Imperialism, and Nationalism -- the long-term causes of WWI",
+          matchMy:
+              "Militarism, Alliances, Imperialism နှင့် Nationalism -- WWI ၏ Long-Term Cause များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w8-dm-2",
+          termEn: "July Crisis",
+          termMy: "July Crisis",
+          matchEn:
+              "The rapid chain of diplomatic events after the assassination that led to war",
+          matchMy:
+              "စစ်ပွဲသို့ ဦးဆောင်ခဲ့သော လုပ်ကြံမှုပြီးနောက် Diplomatic Event များ၏ လျင်မြန်သော Chain",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w8-dm-3",
+          termEn: "Balanced argument",
+          termMy: "Balanced Argument",
+          matchEn:
+              "Weighing multiple causes against each other rather than defending only one",
+          matchMy:
+              "တစ်ခုတည်းကိုသာ ကာကွယ်မည့်အစား Cause များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w8-dm-4",
+          termEn: "Primary-source citation",
+          termMy: "Primary-Source Citation",
+          matchEn:
+              "Supporting a historical claim with a specific quotation from an original source",
+          matchMy:
+              "မူရင်း Source တစ်ခုမှ တိကျသော Quotation တစ်ခုဖြင့် သမိုင်းဆိုင်ရာ Claim တစ်ခုကို ထောက်ခံခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w8-d3",
+      dayNumber: 3,
+      titleEn:
+          "Sort: Explains the Outbreak or Explains How the War Was Fought?",
+      titleMy:
+          "စီစစ်ကြမည် - ဖြစ်ပွားခြင်း ရှင်းပြခြင်း (သို့) စစ်ပွဲ မည်သို့ တိုက်ခိုက်ခဲ့သည် ရှင်းပြခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Explains the War's Outbreak",
+          "Explains How the War Was Fought",
+        ],
+        bucketsMy: [
+          "စစ်ပွဲ ဖြစ်ပွားခြင်း ရှင်းပြခြင်း",
+          "စစ်ပွဲ မည်သို့ တိုက်ခိုက်ခဲ့သည် ရှင်းပြခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w8-sort-1",
+            labelEn:
+                "The alliance system pulling multiple countries into the conflict",
+            labelMy:
+                "နိုင်ငံများစွာကို Conflict ထဲသို့ ဆွဲသွင်းသော Alliance System",
+            correctBucketEn: "Explains the War's Outbreak",
+            correctBucketMy: "စစ်ပွဲ ဖြစ်ပွားခြင်း ရှင်းပြခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w8-sort-2",
+            labelEn:
+                "Machine guns and barbed wire producing a defensive stalemate",
+            labelMy:
+                "Defensive Stalemate ထုတ်လုပ်ပေးသော Machine Gun များနှင့် Barbed Wire",
+            correctBucketEn: "Explains How the War Was Fought",
+            correctBucketMy: "စစ်ပွဲ မည်သို့ တိုက်ခိုက်ခဲ့သည် ရှင်းပြခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w8-sort-3",
+            labelEn: "The assassination of Archduke Franz Ferdinand",
+            labelMy: "Archduke Franz Ferdinand လုပ်ကြံခံရခြင်း",
+            correctBucketEn: "Explains the War's Outbreak",
+            correctBucketMy: "စစ်ပွဲ ဖြစ်ပွားခြင်း ရှင်းပြခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w8-sort-4",
+            labelEn: "The static, trench-based structure of the Western Front",
+            labelMy: "Western Front ၏ Static, Trench-Based Structure",
+            correctBucketEn: "Explains How the War Was Fought",
+            correctBucketMy: "စစ်ပွဲ မည်သို့ တိုက်ခိုက်ခဲ့သည် ရှင်းပြခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Causation Trial Closing Argument",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Causation Trial Closing Argument",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Causation Trial Closing Argument",
+        titleMy: "Thiha Aung ၏ Causation Trial Closing Argument",
+        passageEn:
+            "For Term 2's capstone, Saya Tun Tun Win staged a mock 'causation trial,' assigning each student to argue for or against the claim that one specific MAIN cause was most responsible for World War One, while a panel of classmates acted as judges. Thiha Aung was assigned to argue against the claim that the alliance system alone was most responsible.\n\nRather than dismissing the alliance system's importance, Thiha Aung built a balanced argument acknowledging its clear role in spreading the conflict, exactly as Week 6's July Crisis timeline had shown, while arguing that militarism and imperialism had made the underlying atmosphere dangerous enough that some form of major conflict was becoming likely regardless of which specific alliance obligation eventually triggered it. He cited the arms race dynamic from Week 5 and the specific colonial tensions his classmates had researched as evidence that multiple causes, not alliances alone, had built the powder keg.\n\nHis argument then turned to distinguishing two separate historical questions, applying Wednesday's lesson directly: the alliance system explained why the war spread so widely so quickly, but it did not explain why the resulting fighting became the specific grinding trench stalemate described in Week 7's soldier letters. That outcome, he argued, resulted from defensive military technology unrelated to the alliance system itself -- a genuinely separate historical cause requiring its own explanation.\n\nWhen a classmate-judge challenged him to cite specific evidence rather than general reasoning, Thiha Aung was ready: he quoted the exact ultimatum language from Week 6's timeline research and the machine-gun account from Week 7's trench letters to support each distinct claim. Saya Tun Tun Win praised the argument as a model closing case, precisely because it wove together evidence and reasoning from every prior week of the term into one coherent, appropriately balanced position rather than reducing a complex historical question to a single oversimplified cause.",
+        passageMy:
+            "Term 2 Capstone အတွက် MAIN Cause တိကျတစ်ခုသည် World War One အတွက် တာဝန်အများဆုံးရှိသည်ဟူသော Claim ကို ထောက်ခံ (သို့) ဆန့်ကျင်ရန် ကျောင်းသားတစ်ဦးစီအား တာဝန်ပေးအပ်ကာ Mock 'Causation Trial' တစ်ခုကို Saya Tun Tun Win စီစဉ်ခဲ့ပြီး အတန်းဖော် Panel တစ်ခုသည် Judge များအဖြစ် ဆောင်ရွက်ခဲ့သည်။ Alliance System တစ်ခုတည်းသာ တာဝန်အများဆုံးရှိသည်ဟူသော Claim ကို ဆန့်ကျင်ရန် Thiha Aung ကို တာဝန်ပေးအပ်ခဲ့သည်။\n\nAlliance System ၏ အရေးကြီးမှုကို ပယ်ချမည့်အစား Conflict ပျံ့နှံ့ရာတွင် ၎င်း၏ ရှင်းလင်းသော Role ကို အသိအမှတ်ပြု Balanced Argument တစ်ခုကို Thiha Aung တည်ဆောက်ခဲ့သည် -- Week 6 ၏ July Crisis Timeline ပြသခဲ့သည့်အတိုင်း အတိအကျ ဖြစ်ပြီး Militarism နှင့် Imperialism သည် အောက်ခံ Atmosphere ကို မည်သည့် တိကျသော Alliance တာဝန်က နောက်ဆုံး Trigger ပြုလုပ်သည်ဆိုသည် မည်သို့ပင်ရှိစေ Major Conflict အချို့ ဖြစ်လာနိုင်ခြေ တိုးလာစေရန် လုံလောက်အောင် အန္တရာယ်ရှိစေခဲ့ကြောင်း ငြင်းခုံခဲ့သည်။ Alliance များတစ်ခုတည်းမဟုတ်ဘဲ Cause များစွာသည် ထုပ်ဆံဆေးအိုးကို တည်ဆောက်ခဲ့ကြောင်း Evidence အဖြစ် Week 5 ၏ Arms Race Dynamics နှင့် ၎င်း၏ အတန်းဖော်များ သုတေသနပြုလုပ်ခဲ့သော တိကျသော Colonial Tension များကို ၎င်း ကိုးကားခဲ့သည်။\n\n၎င်း၏ Argument သည် ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို တိုက်ရိုက် အသုံးချကာ ကွဲပြားသော သမိုင်းဆိုင်ရာ မေးခွန်းနှစ်ခုကို ခွဲခြားရန် ဆက်လက် ရွေ့လျားခဲ့သည် - Alliance System သည် စစ်ပွဲ ဘာကြောင့် လျင်မြန်စွာ ကျယ်ပြန့်စွာ ပျံ့နှံ့ခဲ့ကြောင်း ရှင်းပြခဲ့သော်လည်း ရလဒ် တိုက်ခိုက်မှုသည် Week 7 ၏ စစ်သား Letter များ ဖော်ပြခဲ့သော တိကျသော ကြေမွစေသော Trench Stalemate ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းကို မရှင်းပြခဲ့ပါ။ ထို ရလဒ်သည် Alliance System ကိုယ်တိုင်နှင့် မဆိုင်သော Defensive စစ်ရေး Technology မှ ဖြစ်ပေါ်ခဲ့ကြောင်း ၎င်း ငြင်းခုံခဲ့သည် -- ၎င်းကိုယ်ပိုင် ရှင်းလင်းချက် လိုအပ်သော စစ်မှန်စွာ သီးခြား သမိုင်းဆိုင်ရာ Cause တစ်ခု ဖြစ်သည်။\n\nယေဘုယျ Reasoning အစား တိကျသော Evidence ကို ကိုးကားရန် အတန်းဖော် Judge တစ်ဦးက ၎င်းကို စိန်ခေါ်ချိန် Thiha Aung အသင့်ရှိနေခဲ့သည် - ကွဲပြားသော Claim တစ်ခုစီကို ထောက်ခံရန် Week 6 ၏ Timeline သုတေသနမှ Ultimatum ဘာသာစကား အတိအကျနှင့် Week 7 ၏ Trench Letter များမှ Machine-Gun Account ကို ၎င်း Quote ပြုလုပ်ခဲ့သည်။ Term ၏ ယခင် Week တိုင်းမှ Evidence နှင့် Reasoning ကို ရှုပ်ထွေးသော သမိုင်းဆိုင်ရာ မေးခွန်းတစ်ခုကို Oversimplified Cause တစ်ခုတည်းသို့ လျှော့ချမည့်အစား ညီညွတ်၊ သင့်လျော်စွာ Balanced Position တစ်ခုတည်းအဖြစ် ရက်ချစပ်ခဲ့သောကြောင့် Argument ကို Model Closing Case တစ်ခုအဖြစ် Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung argue instead of dismissing the alliance system's role?",
+            questionMy:
+                "Alliance System ၏ Role ကို ပယ်ချမည့်အစား Thiha Aung ငြင်းခုံခဲ့သည့် အချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Militarism and imperialism had also made major conflict likely regardless of which alliance obligation triggered it",
+              "The alliance system had absolutely no role in the war at all",
+              "Only the alliance system mattered, with no other cause relevant",
+              "He refused to make any argument of any kind",
+            ],
+            optionsMy: [
+              "Militarism နှင့် Imperialism သည် မည်သည့် Alliance တာဝန်က ၎င်းကို Trigger ပြုလုပ်သည်ဆိုသည် မည်သို့ပင်ရှိစေ Major Conflict ဖြစ်လာနိုင်ခြေ ပို၍ တိုးလာစေခဲ့ခြင်း",
+              "Alliance System သည် စစ်ပွဲတွင် Role မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+              "Alliance System တစ်ခုတည်းသာ အရေးကြီးပြီး အခြား Cause မည်သည်မှ မသက်ဆိုင်ခြင်း",
+              "Argument မည်သည်မှ ပြုလုပ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's argument."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what two distinct historical questions did Thiha Aung separate?",
+            questionMy:
+                "Thiha Aung ခွဲခြားခဲ့သော ကွဲပြားသော သမိုင်းဆိုင်ရာ မေးခွန်းနှစ်ခုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Why the war spread widely versus why the fighting became a trench stalemate",
+              "Two questions with no actual connection to the topic",
+              "Only one question, repeated twice for emphasis",
+              "Questions about an entirely unrelated historical period",
+            ],
+            optionsMy: [
+              "စစ်ပွဲ ဘာကြောင့် ကျယ်ပြန့်စွာ ပျံ့နှံ့ခဲ့သည် Versus တိုက်ခိုက်မှု ဘာကြောင့် Trench Stalemate ဖြစ်လာခဲ့သည်",
+              "ခေါင်းစဉ်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိသော မေးခွန်းနှစ်ခု",
+              "အလေးထားရန် နှစ်ကြိမ် ထပ်ခါထပ်ပြောခဲ့သော မေးခွန်းတစ်ခုတည်း",
+              "လုံးဝ မဆိုင်သော သမိုင်း ကာလတစ်ခုအကြောင်း မေးခွန်းများ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's distinction."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ခွဲခြားချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win call Thiha Aung's argument a model closing case?",
+            questionMy:
+                "Thiha Aung ၏ Argument ကို Model Closing Case တစ်ခု Saya Tun Tun Win ခေါ်ဆိုခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It wove together evidence and reasoning from every prior week into one balanced position",
+              "It relied entirely on general assertions with no specific evidence",
+              "It reduced the entire question to one oversimplified cause",
+              "It ignored every earlier week's content completely",
+            ],
+            optionsMy: [
+              "ယခင် Week တိုင်းမှ Evidence နှင့် Reasoning ကို Balanced Position တစ်ခုတည်းအဖြစ် ရက်ချစပ်ခဲ့ခြင်း",
+              "တိကျသော Evidence မည်သည်မှ မပါဘဲ ယေဘုယျ Assertion များကို လုံးဝ အားကိုးခဲ့ခြင်း",
+              "မေးခွန်းတစ်ခုလုံးကို Oversimplified Cause တစ်ခုတည်းသို့ လျှော့ချခဲ့ခြင်း",
+              "ယခင် Week တိုင်း၏ Content ကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: World War One Exam",
+      titleMy: "Term 2 Capstone - World War One စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The four MAIN long-term causes of WWI are...",
+          questionMy: "WWI ၏ Long-Term Cause လေးခု MAIN မှာ...",
+          optionsEn: [
+            "Militarism, Alliances, Imperialism, and Nationalism",
+            "Only trench warfare and machine guns",
+            "Only the assassination of one leader",
+            "Only economic factors with no political causes",
+          ],
+          optionsMy: [
+            "Militarism, Alliances, Imperialism နှင့် Nationalism",
+            "Trench Warfare နှင့် Machine Gun များသာ",
+            "ခေါင်းဆောင်တစ်ဦး လုပ်ကြံခံရခြင်းသာ",
+            "နိုင်ငံရေး Cause မပါဘဲ စီးပွားရေး Factor များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced causation trial argument should...",
+          questionMy: "Balanced Causation Trial Argument တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Weigh multiple causes against each other with cited evidence",
+            "Defend only one cause absolutely with no evidence",
+            "Ignore all primary sources entirely",
+            "Claim there was no cause of any kind",
+          ],
+          optionsMy: [
+            "ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခြင်း",
+            "Evidence မပါဘဲ Cause တစ်ခုတည်းကို လုံးဝ ကာကွယ်ခြင်း",
+            "Primary Source အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Cause မည်သည်မှ မရှိခဲ့ကြောင်း Claim ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The war's outbreak and the way it was fought are best understood as...",
+          questionMy:
+              "စစ်ပွဲ ဖြစ်ပွားခြင်းနှင့် ၎င်း တိုက်ခိုက်ခဲ့ပုံကို အကောင်းဆုံး နားလည်ရန်မှာ...",
+          optionsEn: [
+            "Two distinct historical questions with different explanations",
+            "Exactly the same single question",
+            "Completely unrelated to any historical evidence",
+            "A question with no answer of any kind",
+          ],
+          optionsMy: [
+            "ခြားနားသော ရှင်းလင်းချက် ရှိသော ကွဲပြားသော သမိုင်းဆိုင်ရာ မေးခွန်းနှစ်ခု",
+            "အတိအကျ တူညီသော မေးခွန်းတစ်ခုတည်း",
+            "သမိုင်းဆိုင်ရာ Evidence မည်သည်နှင့်မျှ လုံးဝ မဆိုင်ခြင်း",
+            "အဖြေ မည်သည်မှ မရှိသော မေးခွန်းတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 2: "The First World War: Causes and
+// Course" (Weeks 5-8)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm2 = CourseTermDef(
+  id: "course-igcse-hum-t2",
+  termNumber: 2,
+  titleEn: "The First World War: Causes and Course",
+  titleMy: "ပထမ ကမ္ဘာစစ် - Cause များနှင့် Course",
+  certificateTitleEn: "The First World War: Causes and Course",
+  certificateTitleMy: "ပထမ ကမ္ဘာစစ် - Cause များနှင့် Course",
+  weeks: [_igcseHumWeek5, _igcseHumWeek6, _igcseHumWeek7, _igcseHumWeek8],
 );
 // __IGCSE_HUM_MARKER__
