@@ -90683,11 +90683,17 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseHumTerm1, _igcseHumTerm2, _igcseHumTerm3, _igcseHumTerm4],
+  terms: [
+    _igcseHumTerm1,
+    _igcseHumTerm2,
+    _igcseHumTerm3,
+    _igcseHumTerm4,
+    _igcseHumTerm5,
+  ],
 );
 // =====================================================================
 // IGCSE Humanities -- Term 2, Week 5: "Long-Term Causes of World War
@@ -94931,5 +94937,1419 @@ const CourseTermDef _igcseHumTerm4 = CourseTermDef(
   certificateTitleEn: "Population, Migration and Settlement",
   certificateTitleMy: "Population, Migration နှင့် Settlement",
   weeks: [_igcseHumWeek13, _igcseHumWeek14, _igcseHumWeek15, _igcseHumWeek16],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 5, Week 17: "Causes and Outbreak of the
+// Second World War"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek17 = CourseWeekDef(
+  id: "course-igcse-hum-w17",
+  weekNumber: 17,
+  titleEn: "Causes and Outbreak of the Second World War",
+  titleMy: "ဒုတိယ ကမ္ဘာစစ် ၏ Cause များနှင့် ဖြစ်ပွားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w17-d1",
+      dayNumber: 1,
+      titleEn: "Appeasement and the Failure to Stop Aggression",
+      titleMy: "Appeasement နှင့် Aggression ကို ရပ်တန့်ရန် ကျရှုံးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did Britain and France pursue a policy of 'appeasement' toward Nazi Germany's early territorial demands in the late 1930s?",
+          questionMy:
+              "၁၉၃၀ ခုနှစ်နှောင်းပိုင်းတွင် Nazi Germany ၏ ကနဦး Territorial တောင်းဆိုချက်များအပေါ် ဗြိတိန်နှင့် ဖရင့်သည် 'Appeasement' Policy တစ်ခုကို ဆောင်ရွက်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Many leaders hoped that making limited concessions would satisfy Hitler's demands and avoid the devastating kind of war Europe had experienced only two decades earlier",
+            "Britain and France had no actual concerns about the prospect of another major war",
+            "Appeasement meant declaring war immediately at the very first sign of any German expansion",
+            "The policy of appeasement had no actual connection to memories of the First World War",
+          ],
+          optionsMy: [
+            "ကန့်သတ်ထားသော Concession များ ပြုလုပ်ခြင်းသည် Hitler ၏ တောင်းဆိုချက်များကို ကျေနပ်စေပြီး ဆယ်စုနှစ်နှစ်ခုသာ ကြာမြင့်ခဲ့သော ကပျက်စီးဆုံးရှုံးသော စစ်ပွဲ အမျိုးအစားကို ရှောင်ရှားနိုင်လိမ့်မည်ဟု ခေါင်းဆောင်များစွာ မျှော်လင့်ခဲ့သည်",
+            "အခြား Major စစ်ပွဲ ဖြစ်ပေါ်နိုင်ခြေအကြောင်း ဗြိတိန်နှင့် ဖရင့်တွင် စိုးရိမ်မှု မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "German Expansion ၏ ပထမဆုံး လက္ခဏာချက်ချင်း စစ်ကြေညာမည်ဟု Appeasement ဆိုလိုခဲ့ခြင်း",
+            "Appeasement Policy သည် First World War ၏ Memory များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Term 2's trench-warfare lesson -- the devastating human cost of WWI made leaders desperate to avoid a repeat, even at the cost of tolerating some territorial demands.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ Trench-Warfare သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- WWI ၏ ကပျက်စီးဆုံးရှုံးသော လူသား ကုန်ကျစရိတ်သည် ခေါင်းဆောင်များကို Territorial တောင်းဆိုချက်အချို့ ခံနိုင်ရည်ရှိရသည့်တိုင် ထပ်ခါထပ်ခါ ဖြစ်ခြင်းကို ရှောင်ရှားလိုစိတ် ဖြစ်စေခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is appeasement now widely viewed by historians as having encouraged further aggression rather than preventing it?",
+          questionMy:
+              "Aggression ကို ကာကွယ်မည့်အစား ဆက်လက် ဖြစ်ပွားစေရန် အားပေးခဲ့ကြောင်း Appeasement ကို သမိုင်းပညာရှင်များ ယခုအခါ ကျယ်ပြန့်စွာ ယူဆကြသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each concession granted without meaningful resistance may have signaled that further expansion would also go unchallenged, encouraging escalating demands",
+            "Appeasement had no actual effect on Hitler's subsequent decisions whatsoever",
+            "Appeasement guaranteed permanent peace with no possibility of further conflict",
+            "Historians universally agree appeasement was the most effective policy possible",
+          ],
+          optionsMy: [
+            "အဓိပ္ပာယ်ရှိသော ခုခံမှု မပါဘဲ ခွင့်ပြုခဲ့သော Concession တစ်ခုစီသည် နောက်ထပ် Expansion ကိုလည်း စိန်ခေါ်မှု မရှိဘဲ သွားလိမ့်မည်ဟု အချက်ပြခဲ့ကာ Escalating တောင်းဆိုချက်များကို အားပေးခဲ့နိုင်သည်",
+            "Appeasement သည် Hitler ၏ ဆက်လက် ဆုံးဖြတ်ချက်များအပေါ် အမှန်တကယ် သက်ရောက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+            "Appeasement သည် နောက်ထပ် Conflict ဖြစ်နိုင်ခြေ မည်သည်မှ မပါဘဲ ထာဝရ ငြိမ်းချမ်းရေးကို အာမခံခဲ့ခြင်း",
+            "Appeasement သည် ဖြစ်နိုင်ဆုံး Effective Policy ဖြစ်ကြောင်း သမိုင်းပညာရှင်များ ကမ္ဘာလုံးဆိုင်ရာ သဘောတူကြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mirrors the same logic as unchallenged assertions in an argument -- if a claim (or demand) goes unopposed once, it can embolden further, larger claims.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Argument တစ်ခုရှိ စိန်ခေါ်ခံရခြင်း မရှိသော Assertion များနှင့် Logic တူတူ ထင်ဟပ်သည် -- Claim (သို့) တောင်းဆိုချက်တစ်ခုသည် တစ်ကြိမ် ဆန့်ကျင်ခံရခြင်း မရှိပါက ပို၍ကြီးမားသော Claim များကို အားပေးနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is the invasion of Poland in September 1939 considered the specific trigger for the outbreak of WWII, in the same way the Sarajevo assassination triggered WWI?",
+          questionMy:
+              "စက်တင်ဘာလ ၁၉၃၉ ပိုလန် ကျူးကျော်ခြင်းကို Sarajevo လုပ်ကြံမှုက WWI ကို Trigger ပြုလုပ်ခဲ့သည့် အတိအကျ နည်းလမ်းတူတူဖြင့် WWII ၏ ဖြစ်ပွားခြင်းအတွက် တိကျသော Trigger တစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It was the specific event that finally activated the alliance obligations Britain and France had made to Poland, converting years of tension into open war",
+            "The invasion of Poland had no actual connection to the outbreak of the war",
+            "Long-term causes played no role in explaining why the war finally broke out",
+            "The invasion of Poland and the assassination in Sarajevo are unrelated events with no common structure",
+          ],
+          optionsMy: [
+            "ပိုလန်သို့ ဗြိတိန်နှင့် ဖရင့် ပြုလုပ်ခဲ့သော Alliance တာဝန်များကို နောက်ဆုံး Activate ပြုလုပ်ခဲ့ကာ နှစ်များစွာ Tension ကို ပွင့်လင်းသော စစ်ပွဲအဖြစ် ပြောင်းလဲပေးခဲ့သော တိကျသော Event တစ်ခု ဖြစ်ခဲ့ခြင်း",
+            "ပိုလန် ကျူးကျော်ခြင်းသည် စစ်ပွဲ ဖြစ်ပွားခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "စစ်ပွဲ နောက်ဆုံး ဘာကြောင့် ဖြစ်ပွားခဲ့ကြောင်း ရှင်းပြရာတွင် Long-Term Cause များ Role မည်သည်မှ မပါခဲ့ခြင်း",
+            "ပိုလန် ကျူးကျော်ခြင်းနှင့် Sarajevo လုပ်ကြံမှုသည် Common Structure မည်သည်မှ မပါသော မဆိုင်သော Event များ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies Week 2's trigger-versus-long-term-cause vocabulary and Week 6's July Crisis pattern to a new war -- appeasement's failure, rearmament, and territorial ambition were the long-term causes; Poland was the specific trigger.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 2 ၏ Trigger-Versus-Long-Term-Cause ဝေါဟာရနှင့် Week 6 ၏ July Crisis Pattern ကို စစ်ပွဲအသစ်တစ်ခုသို့ တိုက်ရိုက် အသုံးချသည် -- Appeasement ကျရှုံးမှု, Rearmament နှင့် Territorial Ambition သည် Long-Term Cause များ ဖြစ်ပြီး ပိုလန်သည် တိကျသော Trigger ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: WWII Causation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - WWII Causation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w17-dm-1",
+          termEn: "Appeasement",
+          termMy: "Appeasement",
+          matchEn:
+              "A policy of making concessions to an aggressive power to avoid conflict",
+          matchMy:
+              "Conflict ရှောင်ရှားရန် Aggressive Power တစ်ခုသို့ Concession ပြုလုပ်သော Policy",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w17-dm-2",
+          termEn: "Rearmament",
+          termMy: "Rearmament",
+          matchEn:
+              "Rebuilding a country's military strength after a period of reduction",
+          matchMy:
+              "လျှော့ချမှု ကာလတစ်ခုပြီးနောက် နိုင်ငံတစ်ခု၏ စစ်ရေးဆိုင်ရာ ခွန်အား ပြန်လည် တည်ဆောက်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w17-dm-3",
+          termEn: "Territorial ambition",
+          termMy: "Territorial Ambition",
+          matchEn:
+              "A political goal to expand a nation's borders and control over new land",
+          matchMy:
+              "နိုင်ငံတစ်ခု၏ နယ်နိမိတ်များနှင့် မြေ အသစ်များအပေါ် ထိန်းချုပ်မှု ချဲ့ထွင်ရန် နိုင်ငံရေးဆိုင်ရာ ပန်းတိုင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w17-dm-4",
+          termEn: "Invasion of Poland",
+          termMy: "Invasion of Poland",
+          matchEn:
+              "The September 1939 trigger event that activated the alliance system, starting the war",
+          matchMy:
+              "Alliance System ကို Activate ပြုလုပ်၍ စစ်ပွဲကို စတင်စေခဲ့သော စက်တင်ဘာ ၁၉၃၉ Trigger Event",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Long-Term Cause or Trigger of WWII?",
+      titleMy: "စီစစ်ကြမည် - WWII ၏ Long-Term Cause (သို့) Trigger",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Long-Term Cause", "Trigger"],
+        bucketsMy: ["Long-Term Cause", "Trigger"],
+        items: [
+          SortingItem(
+            id: "igchum-w17-sort-1",
+            labelEn:
+                "Years of failed appeasement encouraging further territorial demands",
+            labelMy:
+                "နောက်ထပ် Territorial တောင်းဆိုချက်များကို အားပေးခဲ့သော ကျရှုံးသော Appeasement နှစ်များစွာ",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+          SortingItem(
+            id: "igchum-w17-sort-2",
+            labelEn: "The specific invasion of Poland in September 1939",
+            labelMy: "စက်တင်ဘာလ ၁၉၃၉ ရှိ ပိုလန်ကို တိကျသော ကျူးကျော်ခြင်း",
+            correctBucketEn: "Trigger",
+            correctBucketMy: "Trigger",
+          ),
+          SortingItem(
+            id: "igchum-w17-sort-3",
+            labelEn: "Nazi Germany's ongoing rearmament throughout the 1930s",
+            labelMy:
+                "၁၉၃၀ ခုနှစ်များတစ်လျှောက် Nazi Germany ၏ ဆက်လက် Rearmament",
+            correctBucketEn: "Long-Term Cause",
+            correctBucketMy: "Long-Term Cause",
+          ),
+          SortingItem(
+            id: "igchum-w17-sort-4",
+            labelEn:
+                "Britain and France's declaration of war following the Polish invasion",
+            labelMy:
+                "ပိုလန် ကျူးကျော်ခြင်းပြီးနောက် ဗြိတိန်နှင့် ဖရင့်၏ စစ်ကြေညာချက်",
+            correctBucketEn: "Trigger",
+            correctBucketMy: "Trigger",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Appeasement Debate Essay",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Appeasement Debate Essay",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Appeasement Debate Essay",
+        titleMy: "Thiha Aung ၏ Appeasement Debate Essay",
+        passageEn:
+            "Opening Term 5, Saya Tun Tun Win asked students to write a short essay evaluating whether appeasement was a reasonable policy given what leaders knew at the time, or a clear historical mistake visible even then. Thiha Aung's essay took a carefully balanced position rather than a simple verdict.\n\nHe first argued in appeasement's defense, connecting directly to Term 2's trench-warfare lessons: leaders who had personally witnessed or lived through the catastrophic losses of WWI had genuine, understandable reasons to seek any reasonable path avoiding a repeat, and limited territorial concessions seemed, at the time, a smaller price than another continental war.\n\nHe then turned to the case against appeasement, applying Tuesday's lesson directly: each unchallenged demand seemed to invite the next, larger one, and by the time German ambitions became clearly insatiable, the earlier concessions had already allowed Germany's military strength to grow substantially through rearmament -- making eventual confrontation more costly than it might have been if challenged earlier.\n\nHis essay's conclusion applied Wednesday's trigger lesson to tie both arguments together: regardless of whether appeasement was reasonable at each individual decision point, the invasion of Poland in September 1939 was the specific event that finally proved the policy had failed to prevent war, activating the alliance system exactly as the July Crisis had in 1914. Saya Tun Tun Win praised the essay for avoiding a simplistic 'right or wrong' verdict, instead showing how a policy could be understandable given the information available at the time while still, in retrospect, having failed to achieve its central goal.",
+        passageMy:
+            "Term 5 ကို ဖွင့်လှစ်ရန် ခေါင်းဆောင်များ ထိုအချိန်တွင် သိရှိထားသည့်အတိုင်း Appeasement သည် ခိုင်လုံသော Policy တစ်ခု ဖြစ်ခဲ့သလား၊ (သို့) ထိုအချိန်ကပင် မြင်နိုင်သော ရှင်းလင်းသော သမိုင်းဆိုင်ရာ အမှားတစ်ခုလား ဟု အကဲဖြတ်သော Essay တိုတောင်းတစ်ခု ရေးသားရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Essay သည် ရိုးရှင်းသော Verdict တစ်ခုအစား ဂရုတစိုက် Balanced Position တစ်ခု ယူခဲ့သည်။\n\nTerm 2 ၏ Trench-Warfare သင်ခန်းစာများနှင့် တိုက်ရိုက် ချိတ်ဆက်ကာ Appeasement ကို ကာကွယ်ရန် ၎င်း ဦးစွာ ငြင်းခုံခဲ့သည် - WWI ၏ ကပျက်စီးဆုံးရှုံးသော ဆုံးရှုံးမှုများကို ကိုယ်တိုင် တွေ့မြင်ခဲ့ (သို့) ဖြတ်သန်းခဲ့ရသော ခေါင်းဆောင်များတွင် ထပ်ခါထပ်ခါ ဖြစ်ခြင်းကို ရှောင်ရှားနိုင်မည့် Reasonable Path မည်သည်ကိုမဆို ရှာဖွေရန် စစ်မှန်၊ နားလည်နိုင်သော အကြောင်းရင်းများ ရှိခဲ့ပြီး ကန့်သတ်ထားသော Territorial Concession များသည် ထိုအချိန်က Continental စစ်ပွဲအသစ်တစ်ခုထက် ငွေကျပ်ငယ်တစ်ခုဟု ထင်ရသည်။\n\nအင်္ဂါနေ့ သင်ခန်းစာကို တိုက်ရိုက် အသုံးချကာ Appeasement ကို ဆန့်ကျင်သော Case ကို ၎င်း ဆက်လက် ရွေ့လျားခဲ့သည် - တောင်းဆိုချက် ဆန့်ကျင်ခံရခြင်း မရှိသော တစ်ခုစီသည် နောက်ထပ်၊ ကြီးမားသော တစ်ခုကို ဖိတ်ခေါ်နေဟန် ရှိပြီး Germany ၏ Ambition များ ရှင်းလင်းစွာ ကျေနပ်၍ မရနိုင်တော့ချိန်တွင် ယခင် Concession များသည် Rearmament မှတစ်ဆင့် Germany ၏ စစ်ရေးဆိုင်ရာ ခွန်အားကို သိသိသာသာ ကြီးထွားစေရန် ခွင့်ပြုခဲ့ပြီးသား ဖြစ်သည် -- စောစီးစွာ စိန်ခေါ်ခဲ့ပါက ရလိမ့်မည်ထက် နောက်ဆုံး Confrontation ကို ပို၍ ကုန်ကျစေခဲ့သည်။\n\n၎င်း၏ Essay ၏ ကောက်ချက်သည် Argument နှစ်ခုစလုံးကို ချိတ်ဆက်ရန် ဗုဒ္ဓဟူးနေ့ Trigger သင်ခန်းစာကို အသုံးချခဲ့သည် - Decision Point တစ်ခုစီတွင် Appeasement ခိုင်လုံသည် ရှိသည် မရှိသည် မည်သို့ပင်ရှိစေ စက်တင်ဘာလ ၁၉၃၉ ပိုလန် ကျူးကျော်ခြင်းသည် Policy သည် စစ်ပွဲ ကာကွယ်ရန် ကျရှုံးခဲ့ကြောင်း နောက်ဆုံး သက်သေပြခဲ့ပြီး ၁၉၁၄ တွင် July Crisis ပြုလုပ်ခဲ့ခဲ့သည့် အတိအကျ Alliance System ကို Activate ပြုလုပ်ခဲ့သော တိကျသော Event ဖြစ်သည်။ 'မှန် (သို့) မှား' ရိုးရှင်းသော Verdict ကို ရှောင်ရှားကာ ထိုအချိန်တွင် ရရှိနိုင်သော သတင်းအချက်အလက်ကို ထောက်ရှုပါက Policy တစ်ခုသည် နားလည်နိုင်သော်လည်း Retrospect တွင် ၎င်း၏ ဗဟိုချက် ပန်းတိုင် ရရှိရန် ကျရှုံးခဲ့ကြောင်း ပြသခဲ့သောကြောင့် Essay ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Thiha Aung argue appeasement was understandable at the time?",
+            questionMy:
+                "ထိုအချိန်တွင် Appeasement နားလည်နိုင်သည်ဟု Thiha Aung ငြင်းခုံခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Leaders wanted to avoid repeating the catastrophic losses of WWI",
+              "Leaders had no memory of WWI whatsoever",
+              "Appeasement was universally seen as certain to fail even at the time",
+              "There was no reasoning provided of any kind",
+            ],
+            optionsMy: [
+              "ခေါင်းဆောင်များသည် WWI ၏ ကပျက်စီးဆုံးရှုံးသော ဆုံးရှုံးမှုများကို ထပ်ခါထပ်ခါ ဖြစ်ခြင်းကို ရှောင်ရှားလိုခဲ့ခြင်း",
+              "ခေါင်းဆောင်များတွင် WWI ၏ Memory မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+              "Appeasement ကို ထိုအချိန်ကပင် ကျရှုံးမည်ဟု ကမ္ဘာလုံးဆိုင်ရာ မြင်ခဲ့ကြခြင်း",
+              "Reasoning မည်သည်မှ ပေးအပ်ခြင်း လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's argument."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what happened as a result of earlier unchallenged concessions?",
+            questionMy:
+                "ယခင် ဆန့်ကျင်ခံရခြင်း မရှိသော Concession များ၏ ရလဒ်အနေဖြင့် ဖြစ်ပျက်ခဲ့သည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Germany's military strength grew substantially through rearmament",
+              "Germany's military strength decreased significantly",
+              "No further territorial demands were ever made",
+              "The concessions had no effect on Germany's military at all",
+            ],
+            optionsMy: [
+              "Rearmament မှတစ်ဆင့် Germany ၏ စစ်ရေးဆိုင်ရာ ခွန်အား သိသိသာသာ ကြီးထွားခဲ့ခြင်း",
+              "Germany ၏ စစ်ရေးဆိုင်ရာ ခွန်အား သိသိသာသာ လျော့ကျခဲ့ခြင်း",
+              "နောက်ထပ် Territorial တောင်းဆိုချက် မည်သည်မှ ဘယ်တော့မှ ပြုလုပ်ခဲ့ခြင်း မရှိခြင်း",
+              "Concession များသည် Germany ၏ Military အပေါ် သက်ရောက်မှု မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's consequence."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ရလဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya Tun Tun Win praise about Thiha Aung's essay?",
+            questionMy:
+                "Thiha Aung ၏ Essay အကြောင်း Saya Tun Tun Win ချီးမွမ်းခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It avoided a simplistic verdict, showing the policy was understandable yet ultimately failed",
+              "It gave an absolute verdict with no nuance whatsoever",
+              "It ignored the invasion of Poland entirely",
+              "It claimed appeasement had succeeded completely",
+            ],
+            optionsMy: [
+              "ရိုးရှင်းသော Verdict ကို ရှောင်ရှားကာ Policy သည် နားလည်နိုင်သော်လည်း နောက်ဆုံး ကျရှုံးခဲ့ကြောင်း ပြသခဲ့ခြင်း",
+              "Nuance မည်သည်မှ မပါဘဲ Absolute Verdict တစ်ခု ပေးခဲ့ခြင်း",
+              "ပိုလန် ကျူးကျော်ခြင်းကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "Appeasement သည် အပြည့်အစုံ အောင်မြင်ခဲ့ကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w17-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Causes and Outbreak of the Second World War",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - ဒုတိယ ကမ္ဘာစစ် ၏ Cause များနှင့် ဖြစ်ပွားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Appeasement was pursued partly because...",
+          questionMy:
+              "Appeasement ကို တစ်စိတ်တစ်ပိုင်း ဆောင်ရွက်ခဲ့ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Leaders wanted to avoid repeating WWI's devastation",
+            "Leaders had no memory of any previous war",
+            "Appeasement guaranteed permanent peace",
+            "It was universally seen as certain to succeed",
+          ],
+          optionsMy: [
+            "ခေါင်းဆောင်များသည် WWI ၏ ဖျက်ဆီးမှုကို ထပ်ခါထပ်ခါ ဖြစ်ခြင်းကို ရှောင်ရှားလိုခဲ့ခြင်း",
+            "ခေါင်းဆောင်များတွင် ယခင် စစ်ပွဲ မည်သည်၏ Memory မှ မရှိခဲ့ခြင်း",
+            "Appeasement က ထာဝရ ငြိမ်းချမ်းရေးကို အာမခံခဲ့ခြင်း",
+            "ကမ္ဘာလုံးဆိုင်ရာ အောင်မြင်မည်ဟု ယူဆကြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Historians now often view appeasement as having...",
+          questionMy:
+              "Appeasement ကို ယခုအခါ သမိုင်းပညာရှင်များ မကြာခဏ ...ဟု မြင်ကြသည်",
+          optionsEn: [
+            "Encouraged further aggression rather than preventing it",
+            "Completely prevented all future conflict",
+            "Had no actual effect on subsequent events",
+            "Been universally praised with no criticism",
+          ],
+          optionsMy: [
+            "ကာကွယ်မည့်အစား ဆက်လက် Aggression ကို အားပေးခဲ့ခြင်း",
+            "အနာဂတ် Conflict အားလုံးကို လုံးဝ ကာကွယ်ခဲ့ခြင်း",
+            "ဆက်လက် Event များအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "Criticism မည်သည်မှ မပါဘဲ ကမ္ဘာလုံးဆိုင်ရာ ချီးမွမ်းခံခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The invasion of Poland functioned as...",
+          questionMy: "ပိုလန် ကျူးကျော်ခြင်းသည် ...အဖြစ် လုပ်ဆောင်ခဲ့သည်",
+          optionsEn: [
+            "The trigger activating the alliance system, starting the war",
+            "A long-term cause building over decades",
+            "An event with no connection to the war's outbreak",
+            "The final battle that ended the war",
+          ],
+          optionsMy: [
+            "Alliance System ကို Activate ပြုလုပ်ကာ စစ်ပွဲကို စတင်စေသော Trigger",
+            "ဆယ်စုနှစ်များစွာ တည်ဆောက်လာသော Long-Term Cause",
+            "စစ်ပွဲ ဖြစ်ပွားခြင်းနှင့် ချိတ်ဆက်မှု မရှိသော Event",
+            "စစ်ပွဲကို ပြီးဆုံးစေသော နောက်ဆုံး တိုက်ပွဲ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 5, Week 18: "Turning Points of the
+// Second World War"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek18 = CourseWeekDef(
+  id: "course-igcse-hum-w18",
+  weekNumber: 18,
+  titleEn: "Turning Points of the Second World War",
+  titleMy: "ဒုတိယ ကမ္ဘာစစ် ၏ Turning Point များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w18-d1",
+      dayNumber: 1,
+      titleEn: "Stalingrad, D-Day, and the Pacific Theater",
+      titleMy: "Stalingrad, D-Day နှင့် Pacific Theater",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the Battle of Stalingrad considered a decisive turning point on the Eastern Front, rather than just one battle among many?",
+          questionMy:
+              "Stalingrad တိုက်ပွဲကို Battle များစွာအနက် တစ်ခုတည်း အစား Eastern Front တွင် ဆုံးဖြတ်ချက်ချသော Turning Point တစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The decisive Soviet victory destroyed a major German army and marked the point after which German forces were consistently pushed back rather than advancing further into Soviet territory",
+            "The battle had no actual effect on the broader course of the war",
+            "The battle was a minor skirmish with no lasting strategic significance",
+            "German forces continued advancing steadily after this battle with no change in momentum",
+          ],
+          optionsMy: [
+            "Decisive Soviet အောင်ပွဲသည် Major German Army တစ်ခုကို ဖျက်ဆီးပစ်ခဲ့ပြီး German Force များသည် Soviet နယ်မြေထဲသို့ ဆက်လက် ချီတက်မည့်အစား ဆက်တိုက် နောက်ပြန်လှန်ခံရသော Point ကို အမှတ်အသားပြုခဲ့သည်",
+            "Battle သည် စစ်ပွဲ၏ ကျယ်ပြန့်သော Course အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+            "Battle သည် ကြာရှည် မဟာဗျူဟာဆိုင်ရာ အရေးပါမှု မည်သည်မှ မပါသော Minor Skirmish တစ်ခု ဖြစ်ခဲ့ခြင်း",
+            "German Force များသည် ဤ Battle ပြီးနောက် Momentum ပြောင်းလဲမှု မည်သည်မှ မပါဘဲ ဆက်တိုက် ချီတက်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A genuine 'turning point' means the overall direction of the war changed afterward -- before Stalingrad, German forces were advancing; after it, they were consistently retreating on that front.",
+          ],
+          hintsMy: [
+            "စစ်မှန်သော 'Turning Point' တစ်ခု ဆိုသည်မှာ ၎င်းပြီးနောက် စစ်ပွဲ၏ Overall ဦးတည်ချက် ပြောင်းလဲသွားသည်ဟု ဆိုလိုသည် -- Stalingrad မတိုင်မီ German Force များသည် ချီတက်နေခဲ့ပြီး ၎င်းပြီးနောက် ထို Front တွင် ဆက်တိုက် နောက်ဆုတ်ခဲ့ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did the D-Day landings in 1944 open a genuinely new dimension to the war, distinct from the fighting already occurring on the Eastern Front?",
+          questionMy:
+              "၁၉၄၄ D-Day ချမှုများသည် Eastern Front တွင် ဖြစ်ပွားနေပြီးသား တိုက်ခိုက်မှုနှင့် ကွဲပြားသော စစ်ပွဲ၏ စစ်မှန်သော Dimension အသစ်တစ်ခုကို ဖွင့်လှစ်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It established a major second front in Western Europe, forcing German forces to fight simultaneously in two widely separated directions and dividing their resources",
+            "D-Day had no actual strategic significance for the broader war effort",
+            "D-Day and the Eastern Front were exactly the same battle happening in the same location",
+            "Opening a second front made no difference to how German forces could be deployed",
+          ],
+          optionsMy: [
+            "Western Europe တွင် Major Second Front တစ်ခု တည်ထောင်ခဲ့ပြီး German Force များကို ကျယ်ပြန့်စွာ ခွဲထားသော ဦးတည်ချက်နှစ်ခုတွင် တစ်ပြိုင်နက် တိုက်ခိုက်ရန် ဖိအားပေးကာ ၎င်းတို့၏ Resource များကို ခွဲထားစေခဲ့သည်",
+            "D-Day သည် ကျယ်ပြန့်သော စစ်ပွဲ ကြိုးပမ်းမှုအတွက် မဟာဗျူဟာဆိုင်ရာ အရေးပါမှု မည်သည်မှ အမှန်တကယ် မရှိခဲ့ခြင်း",
+            "D-Day နှင့် Eastern Front သည် နေရာတူတွင် ဖြစ်ပွားနေသော Battle အတိအကျ တူတူ ဖြစ်ခဲ့ခြင်း",
+            "Second Front ဖွင့်လှစ်ခြင်းသည် German Force များ မည်သို့ Deploy ပြုလုပ်နိုင်သည်ကို ခြားနားချက် မည်သည်မှ မဖြစ်စေခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same military-strain logic Term 2's trench warfare hinted at -- fighting on two simultaneous fronts strains resources and command far more than concentrating forces on just one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ Trench Warfare ညွှန်ပြခဲ့သော Military-Strain Logic တူတူကို အသုံးချသည် -- Front နှစ်ခု တစ်ပြိုင်နက် တိုက်ခိုက်ခြင်းသည် Force များကို တစ်ခုတည်းတွင် စုစည်းထားခြင်းထက် Resource နှင့် Command ကို ပို၍ ဖိစီးစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a study of WWII's turning points examine multiple fronts (European and Pacific) rather than focusing on only one theater of the war?",
+          questionMy:
+              "WWII ၏ Turning Point များ လေ့လာမှုတစ်ခုသည် စစ်ပွဲ၏ Theater တစ်ခုတည်းကိုသာ Focus ပြုမည့်အစား Front များစွာ (European နှင့် Pacific) ကို စစ်ဆေးသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "WWII was a genuinely global conflict fought across distinct theaters simultaneously, and a complete understanding requires examining how events in each theater related to the overall outcome",
+            "The Pacific theater had no actual connection to the European theater of the war",
+            "Only the European theater actually mattered, with the Pacific theater irrelevant to the war's outcome",
+            "A complete historical study should always focus on just one location while ignoring all others",
+          ],
+          optionsMy: [
+            "WWII သည် Distinct Theater များတွင် တစ်ပြိုင်နက် တိုက်ခိုက်ခဲ့သော စစ်မှန်သော Global Conflict တစ်ခု ဖြစ်ပြီး ပြည့်စုံသော နားလည်မှုတစ်ခုသည် Theater တစ်ခုစီရှိ Event များ Overall ရလဒ်နှင့် မည်သို့ သက်ဆိုင်သည်ကို စစ်ဆေးရန် လိုအပ်သည်",
+            "Pacific Theater သည် စစ်ပွဲ၏ European Theater နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+            "European Theater တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးပြီး Pacific Theater သည် စစ်ပွဲ၏ ရလဒ်နှင့် မသက်ဆိုင်ခြင်း",
+            "ပြည့်စုံသော သမိုင်းဆိုင်ရာ လေ့လာမှုတစ်ခုသည် အခြားများကို လျစ်လျူရှုစဉ် နေရာတစ်ခုတည်းကို အမြဲ Focus ပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 4's multi-factor case-study discipline -- a complete geographical or historical explanation examines every relevant dimension rather than a single, convenient piece.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 4 ၏ Multi-Factor Case-Study Discipline နှင့် ချိတ်ဆက်သည် -- ပြည့်စုံသော ဂျီဩဂရာဖီဆိုင်ရာ (သို့) သမိုင်းဆိုင်ရာ ရှင်းလင်းချက်တစ်ခုသည် Convenient အပိုင်းတစ်ခုတည်းအစား သက်ဆိုင်ရာ Dimension တိုင်းကို စစ်ဆေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: WWII Turning Points Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - WWII Turning Points ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w18-dm-1",
+          termEn: "Turning point",
+          termMy: "Turning Point",
+          matchEn:
+              "An event after which the overall direction or momentum of a conflict changes",
+          matchMy:
+              "Conflict တစ်ခု၏ Overall ဦးတည်ချက် (သို့) Momentum ပြောင်းလဲသွားသော Event",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w18-dm-2",
+          termEn: "Eastern Front",
+          termMy: "Eastern Front",
+          matchEn:
+              "The theater of war between Nazi Germany and the Soviet Union",
+          matchMy: "Nazi Germany နှင့် Soviet Union ကြား စစ်ပွဲ Theater",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w18-dm-3",
+          termEn: "Second front",
+          termMy: "Second Front",
+          matchEn:
+              "A new theater of war opened to divide an enemy's forces and resources",
+          matchMy:
+              "ရန်သူ၏ Force များနှင့် Resource များကို ခွဲရန် ဖွင့်လှစ်ထားသော စစ်ပွဲ Theater အသစ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w18-dm-4",
+          termEn: "Pacific theater",
+          termMy: "Pacific Theater",
+          matchEn:
+              "The distinct arena of WWII fighting between Japan and the Allied powers",
+          matchMy:
+              "ဂျပန်နှင့် Allied Power များကြား WWII တိုက်ခိုက်မှု၏ ကွဲပြားသော နယ်ပယ်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Turning Point or Not a Turning Point?",
+      titleMy: "စီစစ်ကြမည် - Turning Point (သို့) Turning Point မဟုတ်ခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Genuine Turning Point", "Not a Turning Point"],
+        bucketsMy: ["စစ်မှန်သော Turning Point", "Turning Point မဟုတ်ခြင်း"],
+        items: [
+          SortingItem(
+            id: "igchum-w18-sort-1",
+            labelEn:
+                "A decisive battle after which the losing side is permanently pushed back",
+            labelMy:
+                "ရှုံးနိမ့်သောဘက်ကို ထာဝရ နောက်ပြန်လှန်ခံရသော ဆုံးဖြတ်ချက်ချသော Battle တစ်ခုပြီးနောက်",
+            correctBucketEn: "Genuine Turning Point",
+            correctBucketMy: "စစ်မှန်သော Turning Point",
+          ),
+          SortingItem(
+            id: "igchum-w18-sort-2",
+            labelEn:
+                "A minor skirmish with no lasting strategic effect on the war's direction",
+            labelMy:
+                "စစ်ပွဲ၏ ဦးတည်ချက်အပေါ် ကြာရှည် မဟာဗျူဟာဆိုင်ရာ သက်ရောက်မှု မရှိသော Minor Skirmish တစ်ခု",
+            correctBucketEn: "Not a Turning Point",
+            correctBucketMy: "Turning Point မဟုတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "igchum-w18-sort-3",
+            labelEn:
+                "The opening of a major second front that forces the enemy to divide resources",
+            labelMy:
+                "ရန်သူကို Resource ခွဲရန် ဖိအားပေးသော Major Second Front တစ်ခု ဖွင့်လှစ်ခြင်း",
+            correctBucketEn: "Genuine Turning Point",
+            correctBucketMy: "စစ်မှန်သော Turning Point",
+          ),
+          SortingItem(
+            id: "igchum-w18-sort-4",
+            labelEn:
+                "A routine troop movement with no change in the overall course of the war",
+            labelMy:
+                "စစ်ပွဲ၏ Overall Course တွင် ပြောင်းလဲမှု မည်သည်မှ မပါသော Routine Troop ရွေ့လျားမှု",
+            correctBucketEn: "Not a Turning Point",
+            correctBucketMy: "Turning Point မဟုတ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Three-Theater Turning Point Chart",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Theater သုံးခု Turning Point Chart",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Three-Theater Turning Point Chart",
+        titleMy: "Thiha Aung ၏ Theater သုံးခု Turning Point Chart",
+        passageEn:
+            "For Week 18, Saya Tun Tun Win asked students to build a comparative chart examining a genuine turning point in each of three separate war theaters, testing whether they could apply the same 'turning point' criterion consistently across different contexts rather than describing events loosely. Thiha Aung structured his chart around Stalingrad, D-Day, and a major Pacific battle.\n\nFor Stalingrad, applying Monday's lesson, he specified precisely what changed: German forces had been advancing into Soviet territory before the battle, but after the decisive Soviet victory, German forces were consistently pushed back on that front for the remainder of the war -- a clear directional reversal meeting the turning-point criterion exactly.\n\nFor D-Day, he applied Tuesday's second-front lesson, explaining that its significance was not simply another battle but the structural change it created: German forces now had to divide their strength between two widely separated, simultaneous fronts, a strain that had not existed before the landings and that measurably weakened Germany's ability to respond fully to either front.\n\nFor the Pacific theater, applying Wednesday's multi-theater lesson, Thiha Aung deliberately chose a battle that shifted naval and strategic advantage from Japan to the Allied powers, explaining that despite happening in a completely different geographic region with different combatants, it met the exact same historical criterion as the European examples: a clear before-and-after change in the war's overall trajectory. Saya Tun Tun Win praised the chart specifically for applying one consistent analytical standard across three very different contexts rather than treating each theater with a separate, looser definition of significance.",
+        passageMy:
+            "Week 18 အတွက် Event များကို ရွေ့ကျော် ဖော်ပြမည့်အစား ကွဲပြားသော Context များတစ်လျှောက် 'Turning Point' Criterion တူတူကို တသမတ်တည်း အသုံးချနိုင်သည် ရှိမရှိ Test ပြုလုပ်ကာ ကွဲပြားသော War Theater သုံးခုတစ်ခုစီတွင် စစ်မှန်သော Turning Point တစ်ခုကို စစ်ဆေးသော Comparative Chart တစ်ခု တည်ဆောက်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Stalingrad, D-Day နှင့် Major Pacific Battle တစ်ခုပတ်လည်တွင် ၎င်း၏ Chart ကို Thiha Aung ဖွဲ့စည်းခဲ့သည်။\n\nStalingrad အတွက် တနင်္လာနေ့ သင်ခန်းစာကို အသုံးချကာ မည်သည် ပြောင်းလဲခဲ့သည်ကို ၎င်း အတိအကျ သတ်မှတ်ခဲ့သည် - Battle မတိုင်မီ German Force များသည် Soviet နယ်မြေထဲသို့ ချီတက်နေခဲ့ပြီး Decisive Soviet အောင်ပွဲပြီးနောက် German Force များသည် ကျန်စစ်ပွဲကာလ တစ်လျှောက် ထို Front တွင် ဆက်တိုက် နောက်ပြန်လှန်ခံရခဲ့သည် -- Turning-Point Criterion ကို အတိအကျ ကိုက်ညီသော ရှင်းလင်းသော ဦးတည်ချက် Reversal တစ်ခု ဖြစ်သည်။\n\nD-Day အတွက် Second-Front သင်ခန်းစာ အင်္ဂါနေ့ကို ၎င်း အသုံးချကာ ၎င်း၏ အရေးပါမှုသည် Battle အခြားတစ်ခု ရိုးရိုးသက်သက်မဟုတ်ဘဲ ၎င်း ဖန်တီးခဲ့သော Structural ပြောင်းလဲမှု ဖြစ်ကြောင်း ရှင်းပြခဲ့သည် - German Force များသည် ယခုအခါ ကျယ်ပြန့်စွာ ခွဲထားသော၊ တစ်ပြိုင်နက် Front နှစ်ခုကြား ၎င်းတို့ ခွန်အားကို ခွဲရန် လိုအပ်ခဲ့ပြီး ချမှုများ မတိုင်မီ မရှိခဲ့သော Strain တစ်ခုဖြစ်ကာ Front နှစ်ခုစလုံးကို အပြည့်အစုံ တုံ့ပြန်နိုင်ရန် Germany ၏ စွမ်းရည်ကို တိုင်းတာနိုင်လောက်အောင် အားနည်းစေခဲ့သည်။\n\nPacific Theater အတွက် Multi-Theater သင်ခန်းစာ ဗုဒ္ဓဟူးနေ့ကို အသုံးချကာ ဂျပန်မှ Allied Power များသို့ Naval နှင့် Strategic အသာစီးကို ပြောင်းလဲပေးခဲ့သော Battle တစ်ခုကို Thiha Aung တမင် ရွေးချယ်ခဲ့ပြီး Combatant ကွဲပြားများနှင့် လုံးဝ ကွဲပြားသော ပထဝီဆိုင်ရာ ဒေသတစ်ခုတွင် ဖြစ်ပျက်ခဲ့သော်လည်း European ဥပမာများနှင့် အတိအကျ တူညီသော သမိုင်းဆိုင်ရာ Criterion ကို ကိုက်ညီခဲ့ကြောင်း ရှင်းပြခဲ့သည် - စစ်ပွဲ၏ Overall Trajectory တွင် ရှင်းလင်းသော Before-and-After ပြောင်းလဲမှု။ Theater တစ်ခုစီကို သီးခြား၊ ပို၍ Loose သော အရေးပါမှု အဓိပ္ပာယ်ဖွင့်ဆိုချက်ဖြင့် ဆက်ဆံမည့်အစား Context ကွဲပြားများစွာ သုံးခုတစ်လျှောက် တသမတ်တည်း Analytical စံနှုန်းတစ်ခုကို အသုံးချခဲ့သောကြောင့် Chart ကို Saya Tun Tun Win အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific change did Thiha Aung identify at Stalingrad?",
+            questionMy:
+                "Stalingrad တွင် Thiha Aung ဖော်ထုတ်ခဲ့သော တိကျသော ပြောင်းလဲမှုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "German forces went from advancing to being consistently pushed back",
+              "German forces continued advancing at the same pace after the battle",
+              "No change of any kind occurred at Stalingrad",
+              "Soviet forces were pushed back after this battle",
+            ],
+            optionsMy: [
+              "German Force များသည် ချီတက်နေခြင်းမှ ဆက်တိုက် နောက်ပြန်လှန်ခံရခြင်းသို့ ပြောင်းလဲခဲ့ခြင်း",
+              "Battle ပြီးနောက် German Force များ နှုန်းတူတူဖြင့် ချီတက်ဆက်လက် ခဲ့ခြင်း",
+              "Stalingrad တွင် ပြောင်းလဲမှု မည်သည်မှ ဖြစ်ပျက်ခဲ့ခြင်း မရှိခြင်း",
+              "ဤ Battle ပြီးနောက် Soviet Force များ နောက်ပြန်လှန်ခံရခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's Stalingrad explanation."],
+            hintsMy: [
+              "Stalingrad ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what structural change did D-Day create?",
+            questionMy:
+                "D-Day ဖန်တီးခဲ့သော Structural ပြောင်းလဲမှုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Germany had to divide its strength between two widely separated, simultaneous fronts",
+              "Germany's military strength doubled instantly with no strain",
+              "No change occurred to German military strategy at all",
+              "The Eastern Front was closed entirely as a result of D-Day",
+            ],
+            optionsMy: [
+              "Germany သည် ၎င်း၏ ခွန်အားကို ကျယ်ပြန့်စွာ ခွဲထားသော၊ တစ်ပြိုင်နက် Front နှစ်ခုကြား ခွဲရန် လိုအပ်ခဲ့ခြင်း",
+              "Germany ၏ စစ်ရေးဆိုင်ရာ ခွန်အား Strain မပါဘဲ ချက်ချင်း နှစ်ဆ ဖြစ်ခဲ့ခြင်း",
+              "German စစ်ရေးဆိုင်ရာ မဟာဗျူဟာသို့ ပြောင်းလဲမှု မည်သည်မှ ဖြစ်ပျက်ခြင်း မရှိခဲ့ခြင်း",
+              "D-Day ၏ ရလဒ်အနေဖြင့် Eastern Front ကို လုံးဝ ပိတ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's D-Day explanation."],
+            hintsMy: ["D-Day ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise Thiha Aung's chart?",
+            questionMy:
+                "Thiha Aung ၏ Chart ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It applied one consistent analytical standard across three different contexts",
+              "It used a different, looser definition for each theater",
+              "It ignored the Pacific theater entirely",
+              "It was the shortest chart submitted in the class",
+            ],
+            optionsMy: [
+              "Context ကွဲပြားများ သုံးခုတစ်လျှောက် တသမတ်တည်း Analytical စံနှုန်းတစ်ခုကို အသုံးချခဲ့ခြင်း",
+              "Theater တစ်ခုစီအတွက် ကွဲပြား၊ Loose သော Definition တစ်ခု အသုံးပြုခဲ့ခြင်း",
+              "Pacific Theater ကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး Chart ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w18-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Turning Points of the Second World War",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - ဒုတိယ ကမ္ဘာစစ် ၏ Turning Point များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A genuine turning point is best defined as...",
+          questionMy:
+              "စစ်မှန်သော Turning Point တစ်ခုကို အကောင်းဆုံး Define ပြုလုပ်ထားသည်မှာ...",
+          optionsEn: [
+            "An event after which the overall direction of a conflict changes",
+            "Any battle with no lasting effect on the war",
+            "An event that has no connection to military strategy",
+            "A routine skirmish with no strategic significance",
+          ],
+          optionsMy: [
+            "Conflict တစ်ခု၏ Overall ဦးတည်ချက် ပြောင်းလဲသွားသော Event",
+            "စစ်ပွဲအပေါ် ကြာရှည် သက်ရောက်မှု မရှိသော Battle မည်သည်မဆို",
+            "စစ်ရေးဆိုင်ရာ မဟာဗျူဟာနှင့် ချိတ်ဆက်မှု မရှိသော Event",
+            "မဟာဗျူဟာဆိုင်ရာ အရေးပါမှု မရှိသော Routine Skirmish",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "D-Day's significance was primarily that it...",
+          questionMy: "D-Day ၏ အရေးပါမှုသည် အဓိကအားဖြင့် ...ဖြစ်သည်",
+          optionsEn: [
+            "Opened a second front, dividing German resources",
+            "Had no strategic effect of any kind",
+            "Closed the Eastern Front entirely",
+            "Was identical in significance to a routine patrol",
+          ],
+          optionsMy: [
+            "Second Front ဖွင့်လှစ်ကာ German Resource များကို ခွဲခြင်း",
+            "စစ်ရေးဆိုင်ရာ သက်ရောက်မှု မည်သည်မှ မရှိခြင်း",
+            "Eastern Front ကို လုံးဝ ပိတ်ခဲ့ခြင်း",
+            "Routine Patrol တစ်ခုနှင့် အရေးပါမှု တူညီခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Examining multiple war theaters together is valuable because...",
+          questionMy:
+              "War Theater များစွာကို အတူတကွ စစ်ဆေးခြင်း တန်ဖိုးရှိသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "WWII was a global conflict requiring examination of every relevant dimension",
+            "Only one theater ever actually mattered",
+            "Different theaters have no connection to the same war",
+            "A complete study should always focus on just one location",
+          ],
+          optionsMy: [
+            "WWII သည် သက်ဆိုင်ရာ Dimension တိုင်းကို စစ်ဆေးရန် လိုအပ်သော Global Conflict တစ်ခု ဖြစ်ခြင်း",
+            "Theater တစ်ခုတည်းသာ အမှန်တကယ် အရေးကြီးခြင်း",
+            "Theater ကွဲပြားများသည် စစ်ပွဲတူတူနှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ပြည့်စုံသော Study တစ်ခုသည် နေရာတစ်ခုတည်းကို အမြဲ Focus ပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 5, Week 19: "The Holocaust: Memory and
+// Responsibility"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek19 = CourseWeekDef(
+  id: "course-igcse-hum-w19",
+  weekNumber: 19,
+  titleEn: "The Holocaust: Memory and Responsibility",
+  titleMy: "Holocaust - Memory နှင့် တာဝန်ယူမှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w19-d1",
+      dayNumber: 1,
+      titleEn: "Understanding the Holocaust as Historical Fact",
+      titleMy: "Holocaust ကို သမိုင်းဆိုင်ရာ Fact အဖြစ် နားလည်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the Holocaust -- the systematic, state-organized murder of six million Jews and millions of others by Nazi Germany -- studied as one of the most thoroughly documented events in history?",
+          questionMy:
+              "Holocaust -- Nazi Germany မှ ဂျူး ခြောက်သန်းနှင့် အခြားများစွာ Systematic, State-Organized လုပ်ကြံမှု -- ကို သမိုင်းတွင် အစည်းအရုံး ကောင်းစွာ Document ပြုလုပ်ထားသော Event တစ်ခုအဖြစ် လေ့လာရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It is supported by overwhelming corroborating evidence -- Nazi administrative records, physical evidence, and testimony from survivors, perpetrators, and liberating soldiers -- exactly the kind of multi-source corroboration Term 1 established as the foundation of reliable history",
+            "The Holocaust has no actual historical documentation of any kind",
+            "It is based entirely on a single, unverified source with no corroboration",
+            "Historians disagree on whether the Holocaust actually occurred at all",
+          ],
+          optionsMy: [
+            "Nazi Administrative Record များ, Physical Evidence နှင့် Survivor, Perpetrator နှင့် Liberating Soldier များ၏ Testimony -- Term 1 ယုံကြည်ရသော သမိုင်း၏ Foundation အဖြစ် တည်ထောင်ခဲ့သော Multi-Source Corroboration အမျိုးအစား အတိအကျ -- Overwhelming Corroborating Evidence က ထောက်ခံထားသည်",
+            "Holocaust သည် သမိုင်းဆိုင်ရာ Documentation မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Corroboration မည်သည်မှ မပါဘဲ Source တစ်ခုတည်း၊ အတည်မပြုထားသည်အပေါ် လုံးလုံးလျားလျား အခြေခံထားခြင်း",
+            "Holocaust အမှန်တကယ် ဖြစ်ပျက်ခဲ့သည် ရှိမရှိ သမိုင်းပညာရှင်များ သဘောကွဲလွဲကြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 1's corroboration lesson -- the Holocaust's historical reliability rests on independent confirmation from many different kinds of sources, not just one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Corroboration သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- Holocaust ၏ သမိုင်းဆိုင်ရာ Reliability သည် Source တစ်ခုတည်းသာမက ကွဲပြားသော Source အမျိုးအစားများစွာမှ Independent Confirmation ပေါ်တွင် အခြေခံသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians treat firsthand survivor testimony as an especially valuable primary source, while also being mindful of the limits any individual account has?",
+          questionMy:
+              "တစ်ဦးချင်း Account တစ်ခု ရှိသော ကန့်သတ်ချက်များကို သတိထားနေစဉ် Firsthand Survivor Testimony ကို အထူးသဖြင့် တန်ဖိုးရှိသော Primary Source တစ်ခုအဖြစ် သမိုင်းပညာရှင်များ ဆက်ဆံရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Survivor testimony provides irreplaceable firsthand human experience of events, but like any single source, it reflects one person's specific perspective and benefits from being corroborated alongside other evidence",
+            "Survivor testimony should always be dismissed as completely unreliable",
+            "A single survivor's account alone provides a complete, universal picture of the entire event with no limitations",
+            "Firsthand testimony has no actual value as a historical source of any kind",
+          ],
+          optionsMy: [
+            "Survivor Testimony သည် Event များ၏ အစားထိုး၍ မရသော Firsthand Human Experience ပေးအပ်သော်လည်း Source တစ်ခုတူတူကဲ့သို့ ၎င်းသည် ပုဂ္ဂိုလ်တစ်ဦး၏ တိကျသော Perspective ကို ထင်ဟပ်ပြီး အခြား Evidence နှင့်အတူ Corroborate ပြုလုပ်ခြင်းမှ အကျိုးရရှိသည်",
+            "Survivor Testimony ကို လုံးဝ ယုံကြည်ရမှု မရှိဟု အမြဲ ပယ်ချသင့်ခြင်း",
+            "Survivor တစ်ဦး၏ Account တစ်ခုတည်းသည် ကန့်သတ်ချက် မည်သည်မှ မပါဘဲ Event တစ်ခုလုံး၏ ပြည့်စုံ၊ Universal ပုံရိပ်တစ်ခု ပေးအပ်ခြင်း",
+            "Firsthand Testimony သည် သမိုင်းဆိုင်ရာ Source တစ်ခုအနေဖြင့် တန်ဖိုး မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the exact same primary-source principle from Term 1's Week 1 -- valuable and irreplaceable, but still one perspective that historians corroborate against other evidence rather than treating as the entire picture alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Week 1 မှ Primary-Source Principle အတိအကျတူတူကို အသုံးချသည် -- တန်ဖိုးရှိပြီး အစားထိုး၍ မရသော်လည်း ပုံရိပ်တစ်ခုလုံးအဖြစ် ဆက်ဆံမည့်အစား သမိုင်းပညာရှင်များ အခြား Evidence နှင့် Corroborate ပြုလုပ်သော ရှုထောင့်တစ်ခုသာ ဖြစ်ဆဲ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is studying the Holocaust considered relevant to understanding the broader pattern of how the Nazi regime consolidated power, studied earlier in this term, rather than a separate, unrelated topic?",
+          questionMy:
+              "Holocaust လေ့လာမှုကို Term အစောပိုင်းတွင် လေ့လာခဲ့သော Nazi Regime အာဏာ Consolidate ပြုလုပ်ပုံ၏ ကျယ်ပြန့်သော Pattern နားလည်ရန် သီးခြား၊ မဆိုင်သော ခေါင်းစဉ်တစ်ခုအစား သက်ဆိုင်သည်ဟု ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Holocaust was a direct consequence of the same regime's ideology, propaganda, and consolidated control examined in Term 3, showing how those earlier mechanisms enabled catastrophic real-world outcomes",
+            "The Holocaust has no actual connection to the Nazi regime's rise to power studied earlier",
+            "Term 3's lessons on propaganda and consolidation have no relevance to understanding events later in the war",
+            "The Holocaust and the Nazi Party's earlier consolidation of power are entirely separate, unconnected historical topics",
+          ],
+          optionsMy: [
+            "Holocaust သည် Term 3 တွင် စစ်ဆေးခဲ့သော Regime တူတူ၏ Ideology, Propaganda နှင့် Consolidated Control ၏ တိုက်ရိုက် ရလဒ်တစ်ခု ဖြစ်ပြီး ထို ယခင် Mechanism များသည် ကပျက်စီးဆုံးရှုံးသော Real-World ရလဒ်များကို မည်သို့ ဖြစ်နိုင်စေခဲ့သည်ကို ပြသသည်",
+            "Holocaust သည် ယခင်က လေ့လာခဲ့သော Nazi Regime ၏ အာဏာသို့ တက်လာခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Propaganda နှင့် Consolidation အကြောင်း Term 3 ၏ သင်ခန်းစာများသည် စစ်ပွဲ၌ နောက်ပိုင်း Event များ နားလည်ရန်နှင့် သက်ဆိုင်မှု မရှိခြင်း",
+            "Holocaust နှင့် Nazi Party ၏ ယခင် အာဏာ Consolidation သည် လုံးဝ သီးခြား၊ ချိတ်ဆက်မှု မရှိသော သမိုင်းဆိုင်ရာ ခေါင်းစဉ်များ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This ties directly back to Term 3's lesson on propaganda and control of information as tools that consolidated power -- understanding how that power was ultimately used is part of the same historical story, not a separate one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား အာဏာကို Consolidate ပြုလုပ်ခဲ့သော Tool များအဖြစ် Propaganda နှင့် သတင်းအချက်အလက် ထိန်းချုပ်မှုအကြောင်း Term 3 ၏ သင်ခန်းစာသို့ တိုက်ရိုက် ပြန်ချိတ်ဆက်သည် -- ထို အာဏာကို နောက်ဆုံးတွင် မည်သို့ အသုံးပြုခဲ့သည်ကို နားလည်ခြင်းသည် သီးခြားတစ်ခုမဟုတ်ဘဲ သမိုင်းဆိုင်ရာ ဇာတ်လမ်းတူတူ၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Holocaust Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Holocaust ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w19-dm-1",
+          termEn: "Survivor testimony",
+          termMy: "Survivor Testimony",
+          matchEn:
+              "A firsthand account given by someone who lived through the Holocaust",
+          matchMy:
+              "Holocaust ကို ဖြတ်သန်းခဲ့သူတစ်ဦးက ပေးအပ်သော Firsthand Account",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w19-dm-2",
+          termEn: "Historical documentation",
+          termMy: "Historical Documentation",
+          matchEn:
+              "Records, physical evidence, and testimony together establishing what actually occurred",
+          matchMy:
+              "အမှန်တကယ် ဖြစ်ပျက်ခဲ့သည်ကို အတူတကွ တည်ထောင်ပေးသော Record, Physical Evidence နှင့် Testimony",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w19-dm-3",
+          termEn: "Collective memory",
+          termMy: "Collective Memory",
+          matchEn:
+              "How a society remembers and passes down understanding of a historical event",
+          matchMy:
+              "သမိုင်းဆိုင်ရာ Event တစ်ခု၏ နားလည်မှုကို လူ့ဘောင်တစ်ခု မည်သို့ မှတ်မိကာ လက်ဆင့်ကမ်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w19-dm-4",
+          termEn: "Historical responsibility",
+          termMy: "Historical Responsibility",
+          matchEn:
+              "The ongoing obligation to accurately remember and learn from a documented historical event",
+          matchMy:
+              "Document ပြုလုပ်ထားသော သမိုင်းဆိုင်ရာ Event တစ်ခုကို တိကျစွာ မှတ်မိကာ သင်ယူရန် ဆက်လက် တာဝန်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reliable Historical Practice or Not?",
+      titleMy: "စီစစ်ကြမည် - ယုံကြည်ရသော သမိုင်းဆိုင်ရာ Practice ဖြစ်/မဖြစ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Reliable Historical Practice",
+          "Unreliable Historical Practice",
+        ],
+        bucketsMy: [
+          "ယုံကြည်ရသော သမိုင်းဆိုင်ရာ Practice",
+          "ယုံကြည်ရမှု အားနည်းသော သမိုင်းဆိုင်ရာ Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w19-sort-1",
+            labelEn:
+                "Cross-referencing survivor testimony against administrative records and physical evidence",
+            labelMy:
+                "Survivor Testimony ကို Administrative Record များနှင့် Physical Evidence နှင့် Cross-Referencing ပြုလုပ်ခြင်း",
+            correctBucketEn: "Reliable Historical Practice",
+            correctBucketMy: "ယုံကြည်ရသော သမိုင်းဆိုင်ရာ Practice",
+          ),
+          SortingItem(
+            id: "igchum-w19-sort-2",
+            labelEn:
+                "Dismissing overwhelming corroborated evidence without any counter-evidence",
+            labelMy:
+                "Counter-Evidence မည်သည်မှ မပါဘဲ Overwhelming Corroborated Evidence ကို ပယ်ချခြင်း",
+            correctBucketEn: "Unreliable Historical Practice",
+            correctBucketMy: "ယုံကြည်ရမှု အားနည်းသော သမိုင်းဆိုင်ရာ Practice",
+          ),
+          SortingItem(
+            id: "igchum-w19-sort-3",
+            labelEn:
+                "Treating a documented historical event as connected to its earlier historical causes",
+            labelMy:
+                "Document ပြုလုပ်ထားသော သမိုင်းဆိုင်ရာ Event တစ်ခုကို ၎င်း၏ ယခင် သမိုင်းဆိုင်ရာ Cause များနှင့် ချိတ်ဆက်ထားသည်ဟု ဆက်ဆံခြင်း",
+            correctBucketEn: "Reliable Historical Practice",
+            correctBucketMy: "ယုံကြည်ရသော သမိုင်းဆိုင်ရာ Practice",
+          ),
+          SortingItem(
+            id: "igchum-w19-sort-4",
+            labelEn:
+                "Presenting a single unverified claim as equally valid to overwhelming documented evidence",
+            labelMy:
+                "Claim တစ်ခုတည်း အတည်မပြုထားသည်ကို Overwhelming Document ပြုလုပ်ထားသော Evidence နှင့် ညီမျှစွာ Valid ဖြစ်သည်ဟု တင်ပြခြင်း",
+            correctBucketEn: "Unreliable Historical Practice",
+            correctBucketMy: "ယုံကြည်ရမှု အားနည်းသော သမိုင်းဆိုင်ရာ Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Memorial Museum Visit Reflection",
+      titleMy:
+          "စာဖတ်ခြင်း - Thiha Aung ၏ Memorial ပြတိုက် လည်ပတ်ခြင်း Reflection",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Memorial Museum Visit Reflection",
+        titleMy: "Thiha Aung ၏ Memorial ပြတိုက် လည်ပတ်ခြင်း Reflection",
+        passageEn:
+            "For Week 19, Saya Tun Tun Win arranged a virtual tour of a Holocaust memorial museum's digital archive, asking students to write a reflection connecting the exhibits' historical evidence to the source-evaluation skills built across the whole course. Thiha Aung's reflection focused on three parts of the archive he found most significant.\n\nThe first was a room of administrative documents: shipping manifests, camp records, and official correspondence generated by the Nazi regime itself. Applying Monday's documentation lesson, Thiha Aung noted that this kind of internal bureaucratic record was particularly powerful evidence precisely because it was never intended for public persuasion -- unlike propaganda, it recorded operational reality rather than a message crafted for an audience.\n\nThe second was a recorded survivor testimony, in which one woman described her specific experience in careful, detailed terms. Applying Tuesday's lesson, Thiha Aung reflected that her account was irreplaceable as a firsthand record of human experience, while also noting that the museum had thoughtfully placed it alongside dozens of other independent testimonies and physical evidence -- corroboration that gave her individual account even greater historical weight rather than standing alone.\n\nThe third was a timeline connecting the exhibits directly back to Term 3's content: propaganda posters from the early 1930s, legal documents restricting Jewish citizens' rights through the mid-1930s, and finally the camp records from the war years, presented as one continuous historical process rather than a sudden, disconnected event. Applying Wednesday's lesson, Thiha Aung's reflection concluded that understanding the Holocaust required understanding it as the culmination of the propaganda and legal consolidation studied earlier in the term, not as an isolated topic -- and that this connected understanding was itself part of the historical responsibility the museum's curators clearly intended visitors to carry forward.",
+        passageMy:
+            "Week 19 အတွက် Holocaust Memorial ပြတိုက်၏ Digital Archive Virtual Tour တစ်ခုကို Saya Tun Tun Win စီစဉ်ခဲ့ပြီး Exhibit များ၏ သမိုင်းဆိုင်ရာ Evidence ကို Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ထားသော Source-Evaluation Skill များနှင့် ချိတ်ဆက်ကာ Reflection တစ်ခု ရေးသားရန် ကျောင်းသားများကို တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Reflection သည် ၎င်း အရေးအကြီးဆုံးဟု ယူဆသော Archive ၏ အပိုင်းသုံးပိုင်းကို Focus ပြုခဲ့သည်။\n\nပထမတစ်ခုသည် Administrative Document Room ဖြစ်သည် - Shipping Manifest, Camp Record များနှင့် Nazi Regime ကိုယ်တိုင် ထုတ်လုပ်ခဲ့သော Official Correspondence။ တနင်္လာနေ့ Documentation သင်ခန်းစာကို အသုံးချကာ Propaganda နှင့်မတူဘဲ ဤအမျိုးအစား Internal Bureaucratic Record သည် Public Persuasion အတွက် ရည်ရွယ်ခြင်း ဘယ်တော့မှ မရှိခဲ့ကြောင့်ပင် Especially Powerful Evidence ဖြစ်ခဲ့ကြောင်း Thiha Aung မှတ်ချက်ပြုခဲ့သည် -- Audience တစ်ခုအတွက် Craft ပြုလုပ်ထားသော Message တစ်ခုအစား Operational Reality ကို ၎င်းက မှတ်တမ်းတင်ခဲ့သည်။\n\nဒုတိယတစ်ခုသည် Recorded Survivor Testimony တစ်ခု ဖြစ်ပြီး ၎င်းတွင် အမျိုးသမီးတစ်ဦးက ၎င်း၏ တိကျသော အတွေ့အကြုံကို ဂရုတစိုက်၊ အသေးစိတ် Term များဖြင့် ဖော်ပြခဲ့သည်။ အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ Account သည် လူသား အတွေ့အကြုံ၏ Firsthand Record တစ်ခုအနေဖြင့် အစားထိုး၍ မရနိုင်ကြောင်း Thiha Aung ဆင်ခြင်ခဲ့ပြီး ပြတိုက်သည် ၎င်းကို ဂရုတစိုက်ဖြင့် Independent Testimony များစွာ Dozens နှင့် Physical Evidence နှင့်အတူ ထားရှိခဲ့ကြောင်းလည်း မှတ်ချက်ပြုခဲ့သည် -- သီးခြား ရပ်တည်နေမည့်အစား ၎င်း၏ Individual Account ကို ပို၍ ကြီးမားသော သမိုင်းဆိုင်ရာ အလေးထားမှု ပေးအပ်ခဲ့သော Corroboration ဖြစ်သည်။\n\nတတိယတစ်ခုသည် Exhibit များကို Term 3 ၏ Content သို့ တိုက်ရိုက် ပြန်ချိတ်ဆက်သော Timeline တစ်ခု ဖြစ်သည် - ၁၉၃၀ ခုနှစ်များ အစောပိုင်းမှ Propaganda Poster များ, ၁၉၃၀ ခုနှစ်များ အလယ်ပိုင်းအထိ ဂျူး နိုင်ငံသားများ၏ အခွင့်အရေးများကို ကန့်သတ်သော Legal Document များနှင့် နောက်ဆုံးတွင် စစ်ပွဲ နှစ်များမှ Camp Record များ၊ ရုတ်တရက်၊ ချိတ်ဆက်မှု မရှိသော Event တစ်ခုအစား Continuous သမိုင်းဆိုင်ရာ Process တစ်ခုအဖြစ် တင်ပြထားသည်။ ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ Holocaust ကို နားလည်ခြင်းသည် Isolated ခေါင်းစဉ်တစ်ခုမဟုတ်ဘဲ Term အစောပိုင်းတွင် လေ့လာခဲ့သော Propaganda နှင့် Legal Consolidation ၏ Culmination အဖြစ် နားလည်ရန် လိုအပ်ကြောင်း Thiha Aung ၏ Reflection ကောက်ချက်ချခဲ့သည် -- ဤ ချိတ်ဆက်ထားသော နားလည်မှုကိုယ်တိုင်သည် ပြတိုက်၏ Curator များက Visitor များ ဆက်လက် သယ်ဆောင်စေလိုကြောင်း ရှင်းလင်းစွာ ရည်ရွယ်ခဲ့သော သမိုင်းဆိုင်ရာ တာဝန်ယူမှု၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Thiha Aung consider the administrative documents particularly powerful evidence?",
+            questionMy:
+                "Administrative Document များကို အထူးသဖြင့် Powerful Evidence ဟု Thiha Aung ယူဆခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They were never intended for public persuasion, recording operational reality instead",
+              "They were created specifically to persuade the public of a particular message",
+              "They had no actual connection to the Nazi regime whatsoever",
+              "They were the only source of evidence available in the entire archive",
+            ],
+            optionsMy: [
+              "Public Persuasion အတွက် ရည်ရွယ်ခြင်း ဘယ်တော့မှ မရှိခဲ့ဘဲ Operational Reality ကို ၎င်းအစား မှတ်တမ်းတင်ခဲ့ခြင်း",
+              "တိကျသော Message တစ်ခု ပြည်သူကို ဆွဲဆောင်ရန် အထူးသဖြင့် ဖန်တီးခဲ့ခြင်း",
+              "Nazi Regime နှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+              "Archive တစ်ခုလုံးတွင် ရရှိနိုင်သော Evidence ၏ တစ်ခုတည်းသော Source ဖြစ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the documents.",
+            ],
+            hintsMy: [
+              "Document များ ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the corroboration alongside other testimonies matter for the survivor's account?",
+            questionMy:
+                "Survivor ၏ Account အတွက် အခြား Testimony များနှင့်အတူ Corroboration အရေးကြီးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It gave her individual account even greater historical weight rather than standing alone",
+              "It made her testimony completely unreliable and worthless",
+              "It had no actual effect on the account's historical value",
+              "It replaced the need for her testimony entirely",
+            ],
+            optionsMy: [
+              "သီးခြား ရပ်တည်နေမည့်အစား ၎င်း၏ Individual Account ကို ပို၍ ကြီးမားသော သမိုင်းဆိုင်ရာ အလေးထားမှု ပေးအပ်ခဲ့ခြင်း",
+              "၎င်း၏ Testimony ကို လုံးဝ ယုံကြည်ရမှု မရှိ၊ တန်ဖိုး မရှိအောင် ပြုလုပ်ခဲ့ခြင်း",
+              "Account ၏ သမိုင်းဆိုင်ရာ တန်ဖိုးအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+              "၎င်း၏ Testimony လိုအပ်ချက်ကို လုံးဝ အစားထိုးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's reflection on corroboration.",
+            ],
+            hintsMy: [
+              "Corroboration အပေါ် Reflection ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did the timeline connect the Holocaust to Term 3's content?",
+            questionMy:
+                "Timeline သည် Holocaust ကို Term 3 ၏ Content နှင့် မည်သို့ ချိတ်ဆက်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It presented propaganda, legal restrictions, and camp records as one continuous historical process",
+              "It showed the Holocaust had no connection to any earlier events at all",
+              "It presented the events as completely random and disconnected",
+              "It ignored Term 3's content entirely with no reference to it",
+            ],
+            optionsMy: [
+              "Propaganda, Legal Restriction များနှင့် Camp Record များကို Continuous သမိုင်းဆိုင်ရာ Process တစ်ခုတည်းအဖြစ် တင်ပြခဲ့ခြင်း",
+              "Holocaust သည် ယခင် Event မည်သည်နှင့်မျှ ချိတ်ဆက်မှု လုံးဝ မရှိကြောင်း ပြသခဲ့ခြင်း",
+              "Event များကို လုံးဝ ကျပန်း၊ ချိတ်ဆက်မှု မရှိသည်ဟု တင်ပြခဲ့ခြင်း",
+              "Term 3 ၏ Content ကို ရည်ညွှန်းချက် မည်သည်မှ မပါဘဲ လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's timeline description."],
+            hintsMy: [
+              "Timeline ဖော်ပြချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w19-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Holocaust — Memory and Responsibility",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Holocaust - Memory နှင့် တာဝန်ယူမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Holocaust is considered one of history's most thoroughly documented events because...",
+          questionMy:
+              "Holocaust ကို သမိုင်း၏ အစည်းအရုံး ကောင်းစွာ Document ပြုလုပ်ထားသော Event တစ်ခုဟု ယူဆရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Overwhelming corroborating evidence from multiple independent sources supports it",
+            "It rests on a single, unverified account with no corroboration",
+            "No historical evidence of any kind exists",
+            "Historians disagree about whether it occurred",
+          ],
+          optionsMy: [
+            "Independent Source များစွာမှ Overwhelming Corroborating Evidence က ၎င်းကို ထောက်ခံခြင်း",
+            "Corroboration မည်သည်မှ မပါဘဲ Account တစ်ခုတည်း၊ အတည်မပြုထားသည်အပေါ် အခြေခံခြင်း",
+            "သမိုင်းဆိုင်ရာ Evidence မည်သည်မှ မရှိခြင်း",
+            "ဖြစ်ပျက်ခဲ့သည် ရှိမရှိ သမိုင်းပညာရှင်များ သဘောကွဲလွဲကြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Survivor testimony is especially valuable because...",
+          questionMy:
+              "Survivor Testimony သည် အထူးသဖြင့် တန်ဖိုးရှိရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It provides irreplaceable firsthand human experience, corroborated alongside other evidence",
+            "It should always be dismissed as unreliable",
+            "A single account alone provides a complete universal picture",
+            "It has no value as a historical source",
+          ],
+          optionsMy: [
+            "အခြား Evidence နှင့်အတူ Corroborate ပြုလုပ်ထားသော အစားထိုး၍ မရနိုင်သော Firsthand Human Experience ပေးအပ်ခြင်း",
+            "ယုံကြည်ရမှု မရှိဟု အမြဲ ပယ်ချသင့်ခြင်း",
+            "Account တစ်ခုတည်းသည် ပြည့်စုံသော Universal ပုံရိပ်တစ်ခု ပေးအပ်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Source တစ်ခုအနေဖြင့် တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Understanding the Holocaust connects to Term 3's content because...",
+          questionMy:
+              "Holocaust နားလည်မှုသည် Term 3 ၏ Content နှင့် ချိတ်ဆက်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It was a consequence of the same regime's propaganda and consolidated control",
+            "The two topics have no historical relationship whatsoever",
+            "Term 3's content is irrelevant to understanding later events",
+            "Propaganda had no actual role in enabling later events",
+          ],
+          optionsMy: [
+            "Regime တူတူ၏ Propaganda နှင့် Consolidated Control ၏ ရလဒ်တစ်ခု ဖြစ်ခြင်း",
+            "ခေါင်းစဉ်နှစ်ခုသည် သမိုင်းဆိုင်ရာ ဆက်နွှယ်မှု မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "Term 3 ၏ Content သည် နောက်ပိုင်း Event များ နားလည်ရန်နှင့် မသက်ဆိုင်ခြင်း",
+            "နောက်ပိုင်း Event များ ဖြစ်နိုင်စေရာတွင် Propaganda ၏ Role မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 5, Week 20 (Capstone/Boss Week): "WWII
+// Legacy Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek20 = CourseWeekDef(
+  id: "course-igcse-hum-w20",
+  weekNumber: 20,
+  titleEn: "WWII Legacy Studio",
+  titleMy: "WWII Legacy Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w20-d1",
+      dayNumber: 1,
+      titleEn: "Tracing WWII's Full Arc from Cause to Legacy",
+      titleMy: "Cause မှ Legacy သို့ WWII ၏ Arc အပြည့်အစုံကို ခြေရာခံခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a complete study of WWII connect its long-term causes, its turning points, and its human consequences into one continuous narrative rather than treating them as three separate topics?",
+          questionMy:
+              "WWII ၏ ပြည့်စုံသော Study တစ်ခုသည် ၎င်း၏ Long-Term Cause များ, ၎င်း၏ Turning Point များနှင့် ၎င်း၏ လူသား ရလဒ်များကို ခေါင်းစဉ်သီးခြား သုံးခုအဖြစ် ဆက်ဆံမည့်အစား Continuous Narrative တစ်ခုတည်းသို့ ချိတ်ဆက်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The war's causes explain why it began, its turning points explain how it unfolded, and its human consequences explain why the full story matters -- together forming one coherent historical arc rather than disconnected fragments",
+            "These three aspects of the war have no actual connection to each other whatsoever",
+            "Only the causes of the war actually matter, with turning points and consequences irrelevant",
+            "A complete study should always examine each historical topic in complete isolation from all others",
+          ],
+          optionsMy: [
+            "စစ်ပွဲ၏ Cause များက ၎င်း ဘာကြောင့် စတင်ခဲ့ကြောင်း ရှင်းပြပြီး ၎င်း၏ Turning Point များက ၎င်း မည်သို့ ဖြန့်ချခဲ့ကြောင်း ရှင်းပြကာ ၎င်း၏ လူသား ရလဒ်များက ဇာတ်လမ်းအပြည့်အစုံ ဘာကြောင့် အရေးကြီးကြောင်း ရှင်းပြသည် -- ချိတ်ဆက်မှု မရှိသော Fragment များအစား ညီညွတ်သော သမိုင်းဆိုင်ရာ Arc တစ်ခုတည်း အတူတကွ ဖွဲ့စည်းသည်",
+            "စစ်ပွဲ၏ ရှုထောင့်သုံးခုသည် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "စစ်ပွဲ၏ Cause များသာ အမှန်တကယ် အရေးကြီးပြီး Turning Point များနှင့် ရလဒ်များ မသက်ဆိုင်ခြင်း",
+            "ပြည့်စုံသော Study တစ်ခုသည် သမိုင်းဆိုင်ရာ ခေါင်းစဉ်တိုင်းကို အခြားများမှ Complete Isolation ၌ အမြဲ စစ်ဆေးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same coherence discipline from Week 12's capstone essay -- a genuine historical explanation traces a connected chain, not a list of separate, unconnected facts.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 12 ၏ Capstone Essay မှ Coherence Discipline တူတူကို အသုံးချသည် -- စစ်မှန်သော သမိုင်းဆိုင်ရာ ရှင်းလင်းချက်တစ်ခုသည် သီးခြား၊ ချိတ်ဆက်မှု မရှိသော Fact များ စာရင်းတစ်ခုမဟုတ်ဘဲ ချိတ်ဆက်ထားသော Chain တစ်ခုကို ခြေရာခံသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it appropriate for a WWII legacy studio to consider how the war's outcome shaped the postwar world (e.g. new international institutions, shifted global power), rather than ending the analysis at the moment of victory?",
+          questionMy:
+              "WWII Legacy Studio တစ်ခုသည် Victory ၏ အခိုက်အတန့်တွင် Analysis ကို အဆုံးသတ်မည့်အစား စစ်ပွဲ၏ ရလဒ်သည် Postwar ကမ္ဘာကို (ဥပမာ - International Institution အသစ်များ, ကမ္ဘာလုံးဆိုင်ရာ အာဏာ ပြောင်းလဲသွားခြင်း) မည်သို့ ပုံဖော်ခဲ့သည်ကို ထည့်သွင်းစဉ်းစားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A war's true historical significance extends beyond its final battle into how it reshaped the world that followed, making the postwar consequences part of the complete story",
+            "A historical event's significance ends completely the moment the fighting stops",
+            "The postwar world has no actual connection to the war that preceded it",
+            "Studying long-term consequences has no actual historical value of any kind",
+          ],
+          optionsMy: [
+            "စစ်ပွဲတစ်ခု၏ စစ်မှန်သော သမိုင်းဆိုင်ရာ အရေးပါမှုသည် ၎င်း၏ နောက်ဆုံး Battle ကို ကျော်လွန်၍ ဆက်လက်ဖြစ်ပေါ်လာသော ကမ္ဘာကို ၎င်း မည်သို့ ပြန်လည် ပုံဖော်ခဲ့သည်ထိ ချဲ့ထွင်ကာ Postwar ရလဒ်များကို ဇာတ်လမ်းအပြည့်အစုံ၏ တစ်စိတ်တစ်ပိုင်းအဖြစ် ပြုလုပ်သည်",
+            "သမိုင်းဆိုင်ရာ Event တစ်ခု၏ အရေးပါမှုသည် တိုက်ခိုက်မှု ရပ်တန့်သည့် အခိုက်အတန့်တွင် လုံးဝ အဆုံးသတ်ခြင်း",
+            "Postwar ကမ္ဘာသည် ၎င်းမတိုင်မီ ရှိခဲ့သော စစ်ပွဲနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Long-Term Consequence များ လေ့လာခြင်းသည် သမိုင်းဆိုင်ရာ တန်ဖိုး မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 3's lesson on the treaty's long-term consequences -- just as Versailles shaped the following decades, WWII's outcome shaped the postwar decades in ways worth tracing.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား စာချုပ်၏ Long-Term Consequence များအကြောင်း Term 3 ၏ သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Versailles သည် နောက်ဆယ်စုနှစ်များကို ပုံဖော်ခဲ့သကဲ့သို့ WWII ၏ ရလဒ်သည် ခြေရာခံဖွယ် နည်းလမ်းများဖြင့် Postwar ဆယ်စုနှစ်များကို ပုံဖော်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a legacy studio's discussion of the Holocaust connect responsible historical memory to broader lessons about the danger of unchecked propaganda and consolidated power, rather than treating it as an isolated tragedy with no wider relevance?",
+          questionMy:
+              "Legacy Studio တစ်ခု၏ Holocaust ဆွေးနွေးချက်သည် ကျယ်ပြန့်သော Relevance မပါသော Isolated ဆိုးရွားမှုတစ်ခုအဖြစ် ဆက်ဆံမည့်အစား တာဝန်ရှိသော သမိုင်းဆိုင်ရာ Memory ကို Unchecked Propaganda နှင့် Consolidated Power ၏ အန္တရာယ်အကြောင်း ကျယ်ပြန့်သော သင်ခန်းစာများနှင့် ချိတ်ဆက်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Connecting the specific historical tragedy to the general pattern of how it became possible gives the memory ongoing relevance, helping ensure similar mechanisms are recognized and challenged in the future",
+            "The Holocaust has no actual connection to any broader historical pattern of any kind",
+            "Historical tragedies should always be studied in complete isolation with no wider lessons drawn",
+            "Propaganda and consolidated power have no actual relevance to preventing future harm",
+          ],
+          optionsMy: [
+            "တိကျသော သမိုင်းဆိုင်ရာ ဆိုးရွားမှုကို ၎င်း မည်သို့ ဖြစ်နိုင်လာခဲ့သည်ဆိုသည့် General Pattern သို့ ချိတ်ဆက်ခြင်းသည် Memory ကို ဆက်လက် Relevance ပေးအပ်ကာ အလားတူ Mechanism များကို အနာဂတ်တွင် အသိအမှတ်ပြုကာ စိန်ခေါ်ကြောင်း သေချာစေရန် ကူညီသည်",
+            "Holocaust သည် ကျယ်ပြန့်သော သမိုင်းဆိုင်ရာ Pattern မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "သမိုင်းဆိုင်ရာ ဆိုးရွားမှုများကို ကျယ်ပြန့်သော သင်ခန်းစာများ မဆွဲထုတ်ဘဲ Complete Isolation ၌ အမြဲ လေ့လာသင့်ခြင်း",
+            "Propaganda နှင့် Consolidated Power သည် အနာဂတ် ထိခိုက်မှု ကာကွယ်ခြင်းနှင့် အမှန်တကယ် Relevance မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 12's broader-relevance lesson about Weimar Germany -- a specific historical case illustrates a general pattern worth understanding beyond that one case alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Weimar Germany အကြောင်း Week 12 ၏ Broader-Relevance သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- တိကျသော သမိုင်းဆိုင်ရာ Case တစ်ခုသည် ထို Case တစ်ခုတည်းကို ကျော်လွန်၍ နားလည်ရန် တန်ဖိုးရှိသော General Pattern တစ်ခုကို သရုပ်ဖော်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 WWII Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 5 WWII ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w20-dm-1",
+          termEn: "Historical arc",
+          termMy: "Historical Arc",
+          matchEn:
+              "A connected narrative tracing an event's causes through to its lasting consequences",
+          matchMy:
+              "Event တစ်ခု၏ Cause များကို ၎င်း၏ ကြာရှည် ရလဒ်များအထိ ခြေရာခံသော ချိတ်ဆက်ထားသော Narrative",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w20-dm-2",
+          termEn: "Postwar legacy",
+          termMy: "Postwar Legacy",
+          matchEn:
+              "The lasting effects a war has on the world after the fighting ends",
+          matchMy:
+              "တိုက်ခိုက်မှု ရပ်တန့်ပြီးနောက် ကမ္ဘာပေါ်တွင် စစ်ပွဲတစ်ခု ရှိသော ကြာရှည် သက်ရောက်မှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w20-dm-3",
+          termEn: "Historical memory",
+          termMy: "Historical Memory",
+          matchEn:
+              "How societies preserve and pass down understanding of past events",
+          matchMy:
+              "လွန်ခဲ့သော Event များ၏ နားလည်မှုကို လူ့ဘောင်များ မည်သို့ ထိန်းသိမ်း၍ လက်ဆင့်ကမ်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w20-dm-4",
+          termEn: "General historical lesson",
+          termMy: "General Historical Lesson",
+          matchEn:
+              "A pattern from a specific case that extends relevance beyond that single event",
+          matchMy:
+              "Event တစ်ခုတည်းထက် ကျော်လွန်ရေးရာ Relevance ရှိသော တိကျသော Case တစ်ခုမှ Pattern",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause, Turning Point, or Legacy?",
+      titleMy: "စီစစ်ကြမည် - Cause, Turning Point, (သို့) Legacy",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cause of the War", "Postwar Legacy"],
+        bucketsMy: ["စစ်ပွဲ၏ Cause", "Postwar Legacy"],
+        items: [
+          SortingItem(
+            id: "igchum-w20-sort-1",
+            labelEn:
+                "Years of failed appeasement encouraging further aggression",
+            labelMy:
+                "နောက်ထပ် Aggression ကို အားပေးခဲ့သော ကျရှုံးသော Appeasement နှစ်များစွာ",
+            correctBucketEn: "Cause of the War",
+            correctBucketMy: "စစ်ပွဲ၏ Cause",
+          ),
+          SortingItem(
+            id: "igchum-w20-sort-2",
+            labelEn:
+                "New international institutions created to help prevent future conflicts",
+            labelMy:
+                "အနာဂတ် Conflict များ ကာကွယ်ရန် ကူညီရန် ဖန်တီးထားသော International Institution အသစ်များ",
+            correctBucketEn: "Postwar Legacy",
+            correctBucketMy: "Postwar Legacy",
+          ),
+          SortingItem(
+            id: "igchum-w20-sort-3",
+            labelEn:
+                "Nazi Germany's ongoing rearmament and territorial ambitions",
+            labelMy:
+                "Nazi Germany ၏ ဆက်လက် Rearmament နှင့် Territorial Ambition များ",
+            correctBucketEn: "Cause of the War",
+            correctBucketMy: "စစ်ပွဲ၏ Cause",
+          ),
+          SortingItem(
+            id: "igchum-w20-sort-4",
+            labelEn:
+                "A shift in global power between major nations following the war's end",
+            labelMy:
+                "စစ်ပွဲ ပြီးဆုံးပြီးနောက် Major နိုင်ငံများကြား ကမ္ဘာလုံးဆိုင်ရာ အာဏာ ပြောင်းလဲမှု",
+            correctBucketEn: "Postwar Legacy",
+            correctBucketMy: "Postwar Legacy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's WWII Legacy Presentation",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ WWII Legacy Presentation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's WWII Legacy Presentation",
+        titleMy: "Thiha Aung ၏ WWII Legacy Presentation",
+        passageEn:
+            "For Term 5's capstone, Saya Tun Tun Win asked every student to present a complete arc of WWII -- causes, turning points, and legacy -- as one connected historical narrative rather than three separate reports. Thiha Aung's presentation opened by applying Monday's arc lesson directly: he explicitly stated his thesis that appeasement's failure, the Poland trigger, the Stalingrad and D-Day turning points, and the postwar consequences were all links in a single continuous chain, not isolated facts to memorize separately.\n\nHis presentation's middle section moved chronologically through the material studied across the term: the long-term causes of appeasement and rearmament from Week 17, the specific military turning points from Week 18 that determined how the war's momentum shifted, and the human consequences documented in Week 19's Holocaust study, which he explicitly connected back to Term 3's propaganda and consolidation lessons rather than presenting as a separate, disconnected topic.\n\nApplying Tuesday's postwar-legacy lesson, his final section extended the analysis beyond the moment of victory: he researched how the war's outcome led to the creation of new international institutions specifically designed to prevent future large-scale conflict, and how global power shifted significantly among the major nations involved -- concrete evidence that the war's significance extended well past 1945 itself.\n\nHis closing argument, applying Wednesday's general-lesson principle, connected the Holocaust specifically to a broader historical pattern worth carrying forward: unchecked propaganda and consolidated political power, studied as abstract mechanisms in Term 3, had produced genuinely catastrophic real-world consequences when combined with wartime conditions -- a pattern historical memory exists specifically to help future generations recognize and resist. Saya Tun Tun Win praised the presentation as a true term-long synthesis, showing that the causes, course, and consequences of WWII were never separate topics but one continuous, connected story.",
+        passageMy:
+            "Term 5 Capstone အတွက် WWII ၏ Arc အပြည့်အစုံ -- Cause များ, Turning Point များနှင့် Legacy -- ကို Report သီးခြား သုံးခုအစား Connected သမိုင်းဆိုင်ရာ Narrative တစ်ခုတည်းအဖြစ် တင်ပြရန် ကျောင်းသားတိုင်းကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Presentation သည် တနင်္လာနေ့ Arc သင်ခန်းစာကို တိုက်ရိုက် အသုံးချကာ ဖွင့်လှစ်ခဲ့သည် - Appeasement ကျရှုံးမှု, ပိုလန် Trigger, Stalingrad နှင့် D-Day Turning Point များနှင့် Postwar ရလဒ်များသည် သီးခြားစီ အလွတ်ကျက်ရန် Isolated Fact များမဟုတ်ဘဲ Continuous Chain တစ်ခုတည်း၌ Link များ ဖြစ်ကြောင်း ၎င်း၏ Thesis ကို ရှင်းလင်းစွာ ဖော်ပြခဲ့သည်။\n\n၎င်း၏ Presentation ၏ အလယ်ပိုင်း Section သည် Term တစ်ခုလုံးတစ်လျှောက် လေ့လာခဲ့သော Material ကို Chronologically ရွေ့လျားခဲ့သည် - Week 17 မှ Appeasement နှင့် Rearmament ၏ Long-Term Cause များ, စစ်ပွဲ၏ Momentum မည်သို့ ပြောင်းလဲသွားသည်ကို ဆုံးဖြတ်ခဲ့သော Week 18 မှ တိကျသော စစ်ရေးဆိုင်ရာ Turning Point များနှင့် Week 19 ၏ Holocaust Study တွင် Document ပြုလုပ်ထားသော လူသား ရလဒ်များ၊ ၎င်းကို ၎င်း သီးခြား၊ ချိတ်ဆက်မှု မရှိသော ခေါင်းစဉ်တစ်ခုအဖြစ် တင်ပြမည့်အစား Term 3 ၏ Propaganda နှင့် Consolidation သင်ခန်းစာများသို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်ခဲ့သည်။\n\nအင်္ဂါနေ့ Postwar-Legacy သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ နောက်ဆုံး Section သည် Victory ၏ အခိုက်အတန့်ကို ကျော်လွန်၍ Analysis ကို ချဲ့ထွင်ခဲ့သည် - Future Large-Scale Conflict ကို ကာကွယ်ရန် အထူးသဖြင့် Design ပြုလုပ်ထားသော International Institution အသစ်များ ဖန်တီးရန် စစ်ပွဲ၏ ရလဒ် မည်သို့ ဦးဆောင်ခဲ့သည်နှင့် ပါဝင်ခဲ့သော Major နိုင်ငံများကြား ကမ္ဘာလုံးဆိုင်ရာ အာဏာ သိသိသာသာ မည်သို့ ပြောင်းလဲသွားသည်ကို ၎င်း သုတေသနပြုလုပ်ခဲ့သည် -- စစ်ပွဲ၏ အရေးပါမှုသည် ၁၉၄၅ ကိုယ်တိုင်ကို ကျော်လွန်၍ ချဲ့ထွင်ခဲ့ကြောင်း တိကျသော Evidence။\n\nဗုဒ္ဓဟူးနေ့ General-Lesson Principle ကို အသုံးချကာ ၎င်း၏ ကုန်ဆုံးသော Argument သည် Holocaust ကို ဆက်လက် သယ်ဆောင်ရန် တန်ဖိုးရှိသော ကျယ်ပြန့်သော သမိုင်းဆိုင်ရာ Pattern တစ်ခုသို့ အထူးသဖြင့် ချိတ်ဆက်ခဲ့သည် - Term 3 တွင် Abstract Mechanism များအဖြစ် လေ့လာခဲ့သော Unchecked Propaganda နှင့် Consolidated Political Power သည် စစ်ပွဲ ကာလ အခြေအနေများနှင့် ပေါင်းစပ်ချိန် စစ်မှန်စွာ ကပျက်စီးဆုံးရှုံးသော Real-World ရလဒ်များ ထုတ်လုပ်ပေးခဲ့သည် -- အနာဂတ် မျိုးဆက်များ အသိအမှတ်ပြု၍ ခုခံနိုင်ရန် ကူညီရန် အထူးသဖြင့် ရှိနေသော Historical Memory ၏ Pattern တစ်ခု ဖြစ်သည်။ WWII ၏ Cause များ, Course နှင့် ရလဒ်များသည် ခေါင်းစဉ်သီးခြား ဘယ်တော့မှ မဟုတ်ခဲ့ဘဲ Continuous, Connected ဇာတ်လမ်းတစ်ခုတည်း ဖြစ်ကြောင်း ပြသခဲ့သောကြောင့် True Term-Long Synthesis တစ်ခုအဖြစ် Presentation ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was Thiha Aung's opening thesis?",
+            questionMy:
+                "Thiha Aung ၏ ဖွင့်လှစ် Thesis ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The causes, turning points, and consequences were all links in a single continuous chain",
+              "Each topic was completely isolated from the others with no connection",
+              "Only the war's causes mattered, with everything else irrelevant",
+              "He refused to state any thesis of any kind",
+            ],
+            optionsMy: [
+              "Cause များ, Turning Point များနှင့် ရလဒ်များသည် Continuous Chain တစ်ခုတည်း၌ Link များ ဖြစ်ခဲ့ခြင်း",
+              "ခေါင်းစဉ်တစ်ခုစီသည် ချိတ်ဆက်မှု မရှိဘဲ အခြားများမှ လုံးဝ Isolated ဖြစ်ခဲ့ခြင်း",
+              "စစ်ပွဲ၏ Cause များကိုသာ အရေးကြီးပြီး အခြား အားလုံး မသက်ဆိုင်ခြင်း",
+              "Thesis မည်သည်ကိုမျှ ဖော်ပြရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's opening thesis."],
+            hintsMy: ["ပထမ စာပိုဒ်၏ ဖွင့်လှစ် Thesis ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what concrete evidence showed the war's significance extended past 1945?",
+            questionMy:
+                "စစ်ပွဲ၏ အရေးပါမှုသည် ၁၉၄၅ ကို ကျော်လွန်ခဲ့ကြောင်း ပြသသော တိကျသော Evidence ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "New international institutions were created and global power shifted significantly",
+              "No evidence of any kind existed beyond the war's final battle",
+              "The war had no actual effect on the world after 1945",
+              "Global power remained exactly the same with no shift whatsoever",
+            ],
+            optionsMy: [
+              "International Institution အသစ်များ ဖန်တီးခဲ့ပြီး ကမ္ဘာလုံးဆိုင်ရာ အာဏာ သိသိသာသာ ပြောင်းလဲသွားခဲ့ခြင်း",
+              "စစ်ပွဲ၏ နောက်ဆုံး Battle ကို ကျော်လွန်၍ Evidence မည်သည်မှ မရှိခဲ့ခြင်း",
+              "၁၉၄၅ ပြီးနောက် ကမ္ဘာပေါ်တွင် စစ်ပွဲ အမှန်တကယ် သက်ရောက်မှု မရှိခဲ့ခြင်း",
+              "ကမ္ဘာလုံးဆိုင်ရာ အာဏာသည် ပြောင်းလဲမှု မည်သည်မှ မပါဘဲ အတိအကျ ဆက်လက် ရှိနေခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's postwar evidence."],
+            hintsMy: ["Postwar Evidence ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise Thiha Aung's presentation?",
+            questionMy:
+                "Thiha Aung ၏ Presentation ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It showed the causes, course, and consequences were one continuous, connected story",
+              "It treated each topic as completely separate with no connections",
+              "It ignored the postwar period entirely",
+              "It was the shortest presentation submitted in the class",
+            ],
+            optionsMy: [
+              "Cause များ, Course နှင့် ရလဒ်များသည် Continuous, Connected ဇာတ်လမ်းတစ်ခုတည်း ဖြစ်ကြောင်း ပြသခဲ့ခြင်း",
+              "ခေါင်းစဉ်တစ်ခုစီကို ချိတ်ဆက်ချက် မပါဘဲ လုံးဝ သီးခြားအဖြစ် ဆက်ဆံခဲ့ခြင်း",
+              "Postwar ကာလကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး Presentation ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: The Second World War Exam",
+      titleMy: "Term 5 Capstone - ဒုတိယ ကမ္ဘာစစ် စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete study of WWII should connect...",
+          questionMy:
+              "WWII ၏ ပြည့်စုံသော Study တစ်ခုသည် ...ကို ချိတ်ဆက်သင့်သည်",
+          optionsEn: [
+            "Causes, turning points, and consequences into one continuous narrative",
+            "Only the causes with no reference to anything else",
+            "Only the turning points with no connection to causes",
+            "Nothing at all, treating each fact in isolation",
+          ],
+          optionsMy: [
+            "Cause များ, Turning Point များနှင့် ရလဒ်များကို Continuous Narrative တစ်ခုတည်းအဖြစ်",
+            "အခြားမည်သည်ကိုမျှ ရည်ညွှန်းချက် မပါဘဲ Cause များသာ",
+            "Cause များနှင့် ချိတ်ဆက်ချက် မပါဘဲ Turning Point များသာ",
+            "Fact တစ်ခုစီကို Isolation ၌ ဆက်ဆံကာ မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A war's postwar legacy is significant because...",
+          questionMy:
+              "စစ်ပွဲတစ်ခု၏ Postwar Legacy အရေးကြီးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It shows the war's significance extended beyond the final battle",
+            "The postwar period has no connection to the war at all",
+            "Historical significance always ends the moment fighting stops",
+            "Legacy studies have no actual historical value",
+          ],
+          optionsMy: [
+            "စစ်ပွဲ၏ အရေးပါမှုသည် နောက်ဆုံး Battle ကို ကျော်လွန်ခဲ့ကြောင်း ၎င်း ပြသခြင်း",
+            "Postwar ကာလသည် စစ်ပွဲနှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "တိုက်ခိုက်မှု ရပ်တန့်သည့် အခိုက်အတန့်တွင် သမိုင်းဆိုင်ရာ အရေးပါမှု အမြဲ အဆုံးသတ်ခြင်း",
+            "Legacy Study များသည် သမိုင်းဆိုင်ရာ တန်ဖိုး အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Connecting the Holocaust to a broader historical pattern matters because...",
+          questionMy:
+              "Holocaust ကို ကျယ်ပြန့်သော သမိုင်းဆိုင်ရာ Pattern တစ်ခုသို့ ချိတ်ဆက်ခြင်း အရေးကြီးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It helps future generations recognize and resist similar mechanisms",
+            "It has no relevance to preventing any future harm",
+            "Historical tragedies should always be studied in complete isolation",
+            "General patterns have no actual connection to specific historical cases",
+          ],
+          optionsMy: [
+            "အလားတူ Mechanism များကို အနာဂတ် မျိုးဆက်များ အသိအမှတ်ပြုကာ ခုခံနိုင်ရန် ကူညီခြင်း",
+            "အနာဂတ် ထိခိုက်မှု မည်သည်ကိုမဆို ကာကွယ်ခြင်းနှင့် Relevance မရှိခြင်း",
+            "သမိုင်းဆိုင်ရာ ဆိုးရွားမှုများကို Complete Isolation ၌ အမြဲ လေ့လာသင့်ခြင်း",
+            "General Pattern များသည် တိကျသော သမိုင်းဆိုင်ရာ Case များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 5: "The Second World War and the
+// Holocaust" (Weeks 17-20)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm5 = CourseTermDef(
+  id: "course-igcse-hum-t5",
+  termNumber: 5,
+  titleEn: "The Second World War and the Holocaust",
+  titleMy: "ဒုတိယ ကမ္ဘာစစ်နှင့် Holocaust",
+  certificateTitleEn: "The Second World War and the Holocaust",
+  certificateTitleMy: "ဒုတိယ ကမ္ဘာစစ်နှင့် Holocaust",
+  weeks: [_igcseHumWeek17, _igcseHumWeek18, _igcseHumWeek19, _igcseHumWeek20],
 );
 // __IGCSE_HUM_MARKER__
