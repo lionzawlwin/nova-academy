@@ -90683,9 +90683,9 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseHumTerm1,
@@ -90693,6 +90693,7 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
     _igcseHumTerm3,
     _igcseHumTerm4,
     _igcseHumTerm5,
+    _igcseHumTerm6,
   ],
 );
 // =====================================================================
@@ -96351,5 +96352,1425 @@ const CourseTermDef _igcseHumTerm5 = CourseTermDef(
   certificateTitleEn: "The Second World War and the Holocaust",
   certificateTitleMy: "ဒုတိယ ကမ္ဘာစစ်နှင့် Holocaust",
   weeks: [_igcseHumWeek17, _igcseHumWeek18, _igcseHumWeek19, _igcseHumWeek20],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 6, Week 21: "Measuring Development"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek21 = CourseWeekDef(
+  id: "course-igcse-hum-w21",
+  weekNumber: 21,
+  titleEn: "Measuring Development",
+  titleMy: "Development တိုင်းတာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w21-d1",
+      dayNumber: 1,
+      titleEn: "GNI, HDI, and the Limits of a Single Indicator",
+      titleMy: "GNI, HDI နှင့် Single Indicator ၏ ကန့်သတ်ချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why might a country's Gross National Income (GNI) per capita alone give an incomplete picture of its actual level of development?",
+          questionMy:
+              "နိုင်ငံတစ်ခု၏ Gross National Income (GNI) Per Capita တစ်ခုတည်းသည် ၎င်း၏ Development အဆင့် အမှန်တကယ်၏ မပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်နိုင်ခြေ ရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "GNI measures average income but says nothing about how that income is distributed, or about health, education, and quality of life -- factors just as central to genuine development",
+            "GNI per capita always perfectly captures every aspect of a country's development",
+            "GNI has no actual connection to a country's economic condition whatsoever",
+            "Income has no actual relationship to any measure of development",
+          ],
+          optionsMy: [
+            "GNI သည် ပျမ်းမျှ ဝင်ငွေကို တိုင်းတာသော်လည်း ထို ဝင်ငွေ မည်သို့ ဖြန့်ဝေသည်ဆိုသည် (သို့) ကျန်းမာရေး, ပညာရေးနှင့် Quality of Life -- စစ်မှန်သော Development အတွက် ဗဟိုချက် ဖြစ်သော Factor များ အကြောင်း မည်သည်ကိုမျှ မဆိုခြင်း",
+            "GNI Per Capita သည် နိုင်ငံတစ်ခု၏ Development ၏ ရှုထောင့်တိုင်းကို အမြဲ ပြီးပြည့်စုံစွာ ဖမ်းယူခြင်း",
+            "GNI သည် နိုင်ငံတစ်ခု၏ စီးပွားရေး အခြေအနေနှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "ဝင်ငွေသည် Development ၏ Measure မည်သည်နှင့်မျှ အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 13's density-versus-distribution and average-can-hide-variation lesson -- a national average income figure can hide huge internal inequality, just like a national population density average can hide huge distribution variation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13 ၏ Density-Versus-Distribution နှင့် Average-Can-Hide-Variation သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- National Average ဝင်ငွေ Figure တစ်ခုသည် National Population Density Average တစ်ခုသည် ကြီးမားသော Distribution Variation ကို ဖုံးကွယ်နိုင်သကဲ့သို့ ကြီးမားသော Internal Inequality ကို ဖုံးကွယ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does the Human Development Index (HDI) combine income with life expectancy and education, rather than relying on a single measure?",
+          questionMy:
+              "Human Development Index (HDI) သည် Measure တစ်ခုတည်းကို အားကိုးမည့်အစား ဝင်ငွေကို Life Expectancy နှင့် Education နှင့် ပေါင်းစပ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Combining multiple dimensions gives a more complete picture of human wellbeing than any single economic figure alone can provide",
+            "HDI actually relies exclusively on income with no other factors included",
+            "Life expectancy and education have no actual connection to human development",
+            "A single indicator always provides a more complete picture than multiple combined indicators",
+          ],
+          optionsMy: [
+            "Dimension များစွာ ပေါင်းစပ်ခြင်းသည် Economic Figure တစ်ခုတည်းက ပေးအပ်နိုင်သည်ထက် Human Wellbeing ၏ ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "HDI သည် အခြား Factor မည်သည်မှ မပါဘဲ Income တစ်ခုတည်းကို အမှန်တကယ် အားကိုးသည်",
+            "Life Expectancy နှင့် Education သည် Human Development နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Single Indicator တစ်ခုသည် Multiple Combined Indicator များထက် ပို၍ ပြည့်စုံသော ပုံရိပ် အမြဲ ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies Term 5's multi-dimensional analysis discipline -- just as WWII required examining causes, turning points, and legacy together, development requires examining wealth, health, and education together.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 5 ၏ Multi-Dimensional Analysis Discipline ကို တိုက်ရိုက် အသုံးချသည် -- WWII သည် Cause များ, Turning Point များနှင့် Legacy ကို အတူတကွ စစ်ဆေးရန် လိုအပ်ခဲ့သကဲ့သို့ Development သည် Wealth, ကျန်းမာရေးနှင့် Education ကို အတူတကွ စစ်ဆေးရန် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why can two countries with similar GNI per capita still have significantly different HDI scores?",
+          questionMy:
+              "ဆင်တူသော GNI Per Capita ရှိသော နိုင်ငံနှစ်ခုသည် သိသိသာသာ ကွဲပြားသော HDI Score များ ဆက်လက် ရှိနိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The countries could differ substantially in how effectively income translates into actual health and education outcomes for their populations, even with similar overall wealth",
+            "GNI and HDI are always exactly the same measurement with no possible variation",
+            "Two countries can never have different HDI scores under any circumstance",
+            "Health and education outcomes have no actual connection to a country's HDI score",
+          ],
+          optionsMy: [
+            "Overall Wealth ဆင်တူသော်လည်း ဝင်ငွေသည် ၎င်းတို့ လူဦးရေအတွက် အမှန်တကယ် ကျန်းမာရေးနှင့် ပညာရေး ရလဒ်များအဖြစ် မည်မျှ ထိရောက်စွာ ပြောင်းလဲသည်ဆိုသည်တွင် နိုင်ငံများသည် သိသိသာသာ ကွဲပြားနိုင်ခြင်း",
+            "GNI နှင့် HDI သည် ဖြစ်နိုင်သော Variation မည်သည်မှ မပါဘဲ အမြဲ တစ်ခုတည်းသော တိုင်းတာချက် တူတူ ဖြစ်ခြင်း",
+            "နိုင်ငံနှစ်ခုသည် အခြေအနေ မည်သို့ပင်ရှိစေ HDI Score ကွဲပြားများ ဘယ်တော့မှ မရှိနိုင်ခြင်း",
+            "ကျန်းမာရေးနှင့် ပညာရေး ရလဒ်များသည် နိုင်ငံတစ်ခု၏ HDI Score နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A country might have high average income but underinvest in public healthcare and schools, while another with similar income invests more effectively -- producing different HDI outcomes from similar starting wealth.",
+          ],
+          hintsMy: [
+            "နိုင်ငံတစ်ခုသည် ပျမ်းမျှ ဝင်ငွေ မြင့်နိုင်သော်လည်း Public Healthcare နှင့် ကျောင်းများတွင် Underinvest ပြုလုပ်နိုင်ပြီး ဝင်ငွေ ဆင်တူသော အခြားတစ်ခုသည် ပို၍ ထိရောက်စွာ ရင်းနှီးမြှုပ်နှံနိုင်သည် -- ဆင်တူသော ကနဦး Wealth မှ ကွဲပြားသော HDI ရလဒ်များ ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Development Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Development ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w21-dm-1",
+          termEn: "GNI per capita",
+          termMy: "GNI Per Capita",
+          matchEn:
+              "A country's total income divided by its population, showing average income",
+          matchMy:
+              "ပျမ်းမျှ ဝင်ငွေကို ပြသကာ နိုင်ငံတစ်ခု၏ Total ဝင်ငွေကို ၎င်း၏ Population ဖြင့် ခွဲထားခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w21-dm-2",
+          termEn: "Human Development Index (HDI)",
+          termMy: "Human Development Index (HDI)",
+          matchEn:
+              "A composite measure combining income, life expectancy, and education",
+          matchMy:
+              "Income, Life Expectancy နှင့် Education ကို ပေါင်းစပ်ထားသော Composite Measure",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w21-dm-3",
+          termEn: "Life expectancy",
+          termMy: "Life Expectancy",
+          matchEn:
+              "The average number of years a person is expected to live in a given population",
+          matchMy:
+              "Population တစ်ခုတွင် ပုဂ္ဂိုလ်တစ်ဦး နေထိုင်နိုင်မည်ဟု မျှော်လင့်ထားသော ပျမ်းမျှ နှစ် အရေအတွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w21-dm-4",
+          termEn: "Composite indicator",
+          termMy: "Composite Indicator",
+          matchEn:
+              "A measure combining multiple dimensions rather than relying on one alone",
+          matchMy:
+              "တစ်ခုတည်းကို အားကိုးမည့်အစား Dimension များစွာ ပေါင်းစပ်ထားသော Measure",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: What GNI Measures or What HDI Adds?",
+      titleMy: "စီစစ်ကြမည် - GNI တိုင်းတာသည့်အရာ (သို့) HDI ထပ်ဆောင်းသည့်အရာ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["What GNI Alone Measures", "What HDI Adds Beyond GNI"],
+        bucketsMy: [
+          "GNI တစ်ခုတည်း တိုင်းတာသည့်အရာ",
+          "GNI ကို ကျော်လွန်၍ HDI ထပ်ဆောင်းသည့်အရာ",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w21-sort-1",
+            labelEn: "A country's average income per person",
+            labelMy: "နိုင်ငံတစ်ခု၏ လူတစ်ဦးလျှင် ပျမ်းမျှ ဝင်ငွေ",
+            correctBucketEn: "What GNI Alone Measures",
+            correctBucketMy: "GNI တစ်ခုတည်း တိုင်းတာသည့်အရာ",
+          ),
+          SortingItem(
+            id: "igchum-w21-sort-2",
+            labelEn: "How long people are expected to live on average",
+            labelMy:
+                "လူများ ပျမ်းမျှ မည်မျှ ကြာမြင့်စွာ နေထိုင်နိုင်မည်ဟု မျှော်လင့်ထားသည်",
+            correctBucketEn: "What HDI Adds Beyond GNI",
+            correctBucketMy: "GNI ကို ကျော်လွန်၍ HDI ထပ်ဆောင်းသည့်အရာ",
+          ),
+          SortingItem(
+            id: "igchum-w21-sort-3",
+            labelEn:
+                "The total value of goods and services produced, averaged per person",
+            labelMy:
+                "ထုတ်လုပ်ထားသော ကုန်ပစ္စည်းနှင့် ဝန်ဆောင်မှုများ၏ Total တန်ဖိုး၊ လူတစ်ဦးလျှင် ပျမ်းမျှ",
+            correctBucketEn: "What GNI Alone Measures",
+            correctBucketMy: "GNI တစ်ခုတည်း တိုင်းတာသည့်အရာ",
+          ),
+          SortingItem(
+            id: "igchum-w21-sort-4",
+            labelEn: "How much access people have to education",
+            labelMy: "ပညာရေးကို လူများ မည်မျှ Access ရှိသည်",
+            correctBucketEn: "What HDI Adds Beyond GNI",
+            correctBucketMy: "GNI ကို ကျော်လွန်၍ HDI ထပ်ဆောင်းသည့်အရာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung Compares Two Countries' Development",
+      titleMy:
+          "စာဖတ်ခြင်း - Thiha Aung ၏ နိုင်ငံနှစ်ခု Development နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung Compares Two Countries' Development",
+        titleMy: "Thiha Aung ၏ နိုင်ငံနှစ်ခု Development နှိုင်းယှဉ်ချက်",
+        passageEn:
+            "Opening Term 6's shift to development geography, Saya Tun Tun Win gave students published GNI and HDI data for two countries with almost identical GNI per capita figures, and asked them to compare the countries and explain any surprising findings. Thiha Aung's analysis found the two countries' HDI scores differed substantially despite the similar income data.\n\nApplying Monday's lesson directly, Thiha Aung investigated why: the country with the higher HDI score had significantly higher public spending on healthcare and education as a share of its economy, resulting in longer average life expectancy and higher school enrollment rates, while the country with the lower HDI score, despite similar overall income, had invested proportionally less in these areas. He concluded that income alone did not automatically translate into development outcomes.\n\nApplying Tuesday's lesson on why HDI combines multiple dimensions, Thiha Aung explained that if the assignment had used only GNI data, the two countries would have looked nearly identical -- masking a real and meaningful difference in citizens' actual quality of life that the combined index correctly captured.\n\nApplying Wednesday's lesson, his final analysis explained the specific mechanism behind the gap: similar national income did not guarantee similar public investment decisions, and the country prioritizing healthcare and education spending achieved meaningfully better human development outcomes from a comparable economic starting point. Saya Tun Tun Win praised the comparison for demonstrating precisely why development geographers rely on composite indicators rather than single economic figures alone -- a single number, however accurate as far as it goes, can conceal exactly the differences that matter most.",
+        passageMy:
+            "Development ဂျီဩဂရာဖီသို့ Term 6 ၏ Shift ကို ဖွင့်လှစ်ရန် နီးပါး တူညီသော GNI Per Capita Figure ရှိသော နိုင်ငံနှစ်ခုအတွက် ထုတ်ဝေထားသော GNI နှင့် HDI Data ကို ကျောင်းသားများအား Saya Tun Tun Win ပေးအပ်ခဲ့ပြီး နိုင်ငံများကို နှိုင်းယှဉ်၍ ထူးဆန်းသော တွေ့ရှိချက် မည်သည်ကိုမဆို ရှင်းပြရန် တောင်းဆိုခဲ့သည်။ ဆင်တူသော ဝင်ငွေ Data ရှိသော်လည်း နိုင်ငံနှစ်ခု၏ HDI Score များသည် သိသိသာသာ ကွဲပြားခဲ့ကြောင်း Thiha Aung ၏ Analysis တွေ့ရှိခဲ့သည်။\n\nတနင်္လာနေ့ သင်ခန်းစာကို တိုက်ရိုက် အသုံးချကာ ဘာကြောင့်ဆိုသည်ကို Thiha Aung စုံစမ်းစစ်ဆေးခဲ့သည် - HDI Score မြင့်သော နိုင်ငံသည် ၎င်း၏ စီးပွားရေး၏ Share တစ်ခုအနေဖြင့် ကျန်းမာရေးနှင့် ပညာရေးအပေါ် Public Spending သိသိသာသာ ပို၍ မြင့်ခဲ့ပြီး ပျမ်းမျှ Life Expectancy ပို၍ ကြာမြင့်ကာ ကျောင်း Enrollment နှုန်း မြင့်ခဲ့ပြီး HDI Score နိမ့်သော နိုင်ငံသည် Overall ဝင်ငွေ ဆင်တူသော်လည်း ဤနေရာများတွင် အချိုးကျ ပို၍ နည်းစွာ ရင်းနှီးမြှုပ်နှံခဲ့သည်။ ဝင်ငွေတစ်ခုတည်းသည် Development ရလဒ်များအဖြစ် အလိုအလျောက် ပြောင်းလဲခြင်း မရှိကြောင်း ၎င်း ကောက်ချက်ချခဲ့သည်။\n\nHDI Dimension များစွာ ပေါင်းစပ်ရသည့် အကြောင်းရင်းအကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ Assignment တွင် GNI Data တစ်ခုတည်းကိုသာ အသုံးပြုပါက နိုင်ငံနှစ်ခု နီးပါး တူညီစွာ မြင်ရလိမ့်မည်ဟု Thiha Aung ရှင်းပြခဲ့သည် -- ပေါင်းစပ်ထားသော Index က မှန်ကန်စွာ ဖမ်းယူထားသော နိုင်ငံသားများ၏ အမှန်တကယ် Quality of Life ရှိ စစ်မှန်၊ အဓိပ္ပာယ်ရှိသော ခြားနားချက်ကို ဖုံးကွယ်ထားသည်။\n\nဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ နောက်ဆုံး Analysis သည် Gap နောက်ကွယ်ရှိ တိကျသော Mechanism ကို ရှင်းပြခဲ့သည် - National Income ဆင်တူခြင်းသည် Public Investment ဆုံးဖြတ်ချက် ဆင်တူခြင်းကို အာမခံခြင်း မရှိဘဲ ကျန်းမာရေးနှင့် ပညာရေး Spending ကို ဦးစားပေးသော နိုင်ငံသည် ဆင်တူသော စီးပွားရေး ကနဦး Point မှ ပို၍ ကောင်းမွန်သော အဓိပ္ပာယ်ရှိသော Human Development ရလဒ်များ ရရှိခဲ့သည်။ Development ဂျီဩဂရာဖီပညာရှင်များ Economic Figure တစ်ခုတည်းအစား Composite Indicator များကို အဘယ်ကြောင့် အားကိုးရသည် အတိအကျ သရုပ်ပြခဲ့သောကြောင့် နှိုင်းယှဉ်ချက်ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည် -- နံပါတ်တစ်ခုတည်းသည် ၎င်း သွားနိုင်သည်အထိ မည်မျှပင် တိကျစေကာမူ အရေးအကြီးဆုံး ခြားနားချက်များကို ဖုံးကွယ်နိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the two countries' HDI scores differ despite similar GNI?",
+            questionMy:
+                "GNI ဆင်တူသော်လည်း နိုင်ငံနှစ်ခု၏ HDI Score များ ကွဲပြားခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One country invested proportionally more in healthcare and education than the other",
+              "GNI and HDI always produce exactly identical scores in every case",
+              "There was no actual difference between the two countries' HDI scores",
+              "The two countries had no economic connection whatsoever",
+            ],
+            optionsMy: [
+              "နိုင်ငံတစ်ခုသည် ကျန်းမာရေးနှင့် ပညာရေးတွင် အခြားတစ်ခုထက် အချိုးကျ ပို၍ ရင်းနှီးမြှုပ်နှံခဲ့ခြင်း",
+              "GNI နှင့် HDI သည် Case တိုင်းတွင် အတိအကျ တူညီသော Score များ အမြဲ ထုတ်လုပ်ခြင်း",
+              "နိုင်ငံနှစ်ခု၏ HDI Score များကြား ခြားနားချက် အမှန်တကယ် မရှိခဲ့ခြင်း",
+              "နိုင်ငံနှစ်ခုတွင် စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's investigation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Investigation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what would have happened if the assignment had used only GNI data?",
+            questionMy:
+                "Assignment တွင် GNI Data တစ်ခုတည်းကိုသာ အသုံးပြုပါက ဖြစ်ပျက်လိမ့်မည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The two countries would have looked nearly identical, masking a real difference",
+              "The countries would have shown an even bigger difference than HDI revealed",
+              "GNI alone would have revealed the exact same information as HDI",
+              "The comparison would have been impossible using GNI data",
+            ],
+            optionsMy: [
+              "စစ်မှန်သော ခြားနားချက်ကို ဖုံးကွယ်ကာ နိုင်ငံနှစ်ခု နီးပါး တူညီစွာ မြင်ရလိမ့်မည်",
+              "HDI ဖော်ထုတ်ခဲ့သည်ထက် ကြီးမားသော ခြားနားချက်တစ်ခုကို နိုင်ငံများ ပြသလိမ့်မည်",
+              "GNI တစ်ခုတည်းသည် HDI နှင့် အတိအကျ တူညီသော သတင်းအချက်အလက်ကို ဖော်ထုတ်ပေးလိမ့်မည်",
+              "GNI Data ကို အသုံးပြု၍ နှိုင်းယှဉ်ခြင်းသည် မဖြစ်နိုင်လိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise the comparison?",
+            questionMy:
+                "နှိုင်းယှဉ်ချက်ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It demonstrated why composite indicators are used rather than a single economic figure",
+              "It relied entirely on a single economic figure with no other data",
+              "It was the shortest comparison submitted in the class",
+              "It ignored HDI entirely and used only GNI",
+            ],
+            optionsMy: [
+              "Economic Figure တစ်ခုတည်းအစား Composite Indicator များ အသုံးပြုရသည့် အကြောင်းရင်းကို သရုပ်ပြခဲ့ခြင်း",
+              "အခြား Data မည်သည်မှ မပါဘဲ Economic Figure တစ်ခုတည်းကို လုံးဝ အားကိုးခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး နှိုင်းယှဉ်ချက် ဖြစ်ခြင်း",
+              "HDI ကို လုံးဝ လျစ်လျူရှုကာ GNI ကိုသာ အသုံးပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w21-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Measuring Development",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Development တိုင်းတာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "GNI per capita alone can give an incomplete picture because...",
+          questionMy:
+              "GNI Per Capita တစ်ခုတည်းသည် မပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်နိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It says nothing about health, education, or income distribution",
+            "It always perfectly captures every aspect of development",
+            "It has no connection to a country's economy at all",
+            "Income never actually relates to development in any way",
+          ],
+          optionsMy: [
+            "ကျန်းမာရေး, ပညာရေး (သို့) ဝင်ငွေ ဖြန့်ဝေမှုအကြောင်း မည်သည်ကိုမျှ မဆိုခြင်း",
+            "Development ၏ ရှုထောင့်တိုင်းကို အမြဲ ပြီးပြည့်စုံစွာ ဖမ်းယူခြင်း",
+            "နိုင်ငံတစ်ခု၏ စီးပွားရေးနှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "ဝင်ငွေသည် Development နှင့် နည်းလမ်းမည်သည့်နည်းနှင့်မျှ အမှန်တကယ် မဆက်စပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "HDI combines income with...",
+          questionMy: "HDI သည် ...နှင့် Income ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "Life expectancy and education",
+            "Only military spending",
+            "Only population size",
+            "Nothing beyond income itself",
+          ],
+          optionsMy: [
+            "Life Expectancy နှင့် Education",
+            "Military Spending တစ်ခုတည်း",
+            "Population Size တစ်ခုတည်း",
+            "Income ကိုယ်တိုင်မှလွဲ၍ မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two countries with similar GNI can have different HDI scores because...",
+          questionMy:
+              "GNI ဆင်တူသော နိုင်ငံနှစ်ခုသည် HDI Score ကွဲပြားနိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Public investment in health and education can differ significantly",
+            "GNI and HDI are always exactly identical",
+            "Development is entirely random with no explainable pattern",
+            "Life expectancy has no connection to HDI at all",
+          ],
+          optionsMy: [
+            "ကျန်းမာရေးနှင့် ပညာရေးတွင် Public Investment သည် သိသိသာသာ ကွဲပြားနိုင်ခြင်း",
+            "GNI နှင့် HDI သည် အမြဲ အတိအကျ တူညီခြင်း",
+            "Development သည် ရှင်းပြနိုင်သော Pattern မပါဘဲ လုံးဝ ကျပန်း ဖြစ်ခြင်း",
+            "Life Expectancy သည် HDI နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 6, Week 22: "Globalisation and
+// Transnational Corporations"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek22 = CourseWeekDef(
+  id: "course-igcse-hum-w22",
+  weekNumber: 22,
+  titleEn: "Globalisation and Transnational Corporations",
+  titleMy: "Globalisation နှင့် Transnational Corporation များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w22-d1",
+      dayNumber: 1,
+      titleEn: "How TNCs Shape Development in Host Countries",
+      titleMy:
+          "TNC များသည် Host နိုင်ငံများတွင် Development ကို မည်သို့ ပုံဖော်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why might a transnational corporation (TNC) building a factory in a developing country bring genuine benefits like jobs and infrastructure, while also creating real risks?",
+          questionMy:
+              "ဖွံ့ဖြိုးဆဲ နိုင်ငံတစ်ခုတွင် Factory တစ်ခု တည်ဆောက်နေသော Transnational Corporation (TNC) တစ်ခုသည် အလုပ်အကိုင်နှင့် Infrastructure ကဲ့သို့ စစ်မှန်သော အကျိုးကျေးဇူးများကို ယူဆောင်လာနိုင်စဉ် စစ်မှန်သော အန္တရာယ်များကိုလည်း ဖန်တီးနိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Investment can genuinely create employment and infrastructure while also creating dependency, unequal bargaining power, or environmental costs -- both real effects can exist at once, requiring balanced assessment rather than a one-sided view",
+            "TNC investment always produces only benefits with no possible downsides whatsoever",
+            "TNC investment always produces only harm with no possible benefits whatsoever",
+            "Foreign investment has no actual connection to a developing country's economy",
+          ],
+          optionsMy: [
+            "ရင်းနှီးမြှုပ်နှံမှုသည် Dependency, မညီမျှသော Bargaining Power (သို့) ပတ်ဝန်းကျင် ကုန်ကျစရိတ်များကိုလည်း ဖန်တီးနိုင်စဉ် အလုပ်အကိုင်နှင့် Infrastructure ကို စစ်မှန်စွာ ဖန်တီးနိုင်သည် -- သက်ရောက်မှု စစ်မှန် နှစ်ခုစလုံး တစ်ချိန်တည်း ရှိနိုင်ပြီး One-Sided View တစ်ခုအစား Balanced Assessment လိုအပ်သည်",
+            "TNC ရင်းနှီးမြှုပ်နှံမှုသည် ဖြစ်နိုင်သော ဆိုးကျိုး မည်သည်မှ မပါဘဲ အကျိုးကျေးဇူးများကိုသာ အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "TNC ရင်းနှီးမြှုပ်နှံမှုသည် ဖြစ်နိုင်သော အကျိုးကျေးဇူး မည်သည်မှ မပါဘဲ ဆိုးကျိုးကိုသာ အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "နိုင်ငံခြား ရင်းနှီးမြှုပ်နှံမှုသည် ဖွံ့ဖြိုးဆဲ နိုင်ငံတစ်ခု၏ စီးပွားရေးနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 6's factory-town case study from earlier in this course (the multinational corporation and power lesson) -- real benefits and real costs can coexist, requiring nuanced assessment rather than a simplistic verdict.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ယခင်က Multinational Corporation နှင့် Power သင်ခန်းစာမှ Term 6 ၏ Factory-Town Case Study ကို တိုက်ရိုက် သတိရစေသည် -- စစ်မှန်သော အကျိုးကျေးဇူးနှင့် စစ်မှန်သော ကုန်ကျစရိတ်များသည် အတူတကွ ရှိနိုင်ပြီး ရိုးရှင်းသော Verdict တစ်ခုအစား Nuanced Assessment လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does globalisation of trade and production tend to increase economic interconnection between countries, similar to the pattern studied in the Great Depression's global spread?",
+          questionMy:
+              "ကုန်သွယ်ရေးနှင့် ထုတ်လုပ်မှု၏ Globalisation သည် Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုတွင် လေ့လာခဲ့သော Pattern နှင့် ဆင်တူစွာ နိုင်ငံများကြား စီးပွားရေးဆိုင်ရာ Interconnection ကို တိုးမြှင့်တတ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "As supply chains, investment, and trade increasingly cross national borders, economic events in one country become more likely to affect others, exactly the interconnection dynamic studied earlier in the course",
+            "Globalisation has completely eliminated any economic connection between countries",
+            "Trade and production have never actually crossed national borders in any period of history",
+            "Economic interconnection has no actual relationship to globalisation as a concept",
+          ],
+          optionsMy: [
+            "Supply Chain, ရင်းနှီးမြှုပ်နှံမှုနှင့် ကုန်သွယ်ရေးသည် နိုင်ငံ နယ်နိမိတ်များကို တိုးတက်စွာ ကျော်လွန်လာသောကြောင့် နိုင်ငံတစ်ခု၏ စီးပွားရေးဆိုင်ရာ Event များသည် အခြားများကို သက်ရောက်ခြေ ပို၍ များလာသည် -- Course ယခင်က လေ့လာခဲ့သော Interconnection Dynamics အတိအကျ ဖြစ်သည်",
+            "Globalisation သည် နိုင်ငံများကြား စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု မည်သည်ကိုမဆို လုံးဝ ဖျက်သိမ်းခဲ့ခြင်း",
+            "ကုန်သွယ်ရေးနှင့် ထုတ်လုပ်မှုသည် သမိုင်း ကာလ မည်သည်တွင်မျှ နိုင်ငံ နယ်နိမိတ်များကို အမှန်တကယ် ဘယ်တော့မှ ကျော်လွန်ခဲ့ခြင်း မရှိခြင်း",
+            "Economic Interconnection သည် Concept တစ်ခုအနေဖြင့် Globalisation နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects to the Great Depression's global-interconnection lesson studied earlier this term -- more economic linkages mean shocks and benefits both travel more easily between countries.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခု Term အစောပိုင်းတွင် လေ့လာခဲ့သော Great Depression ၏ Global-Interconnection သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု ပို၍ များလေ၊ Shock များနှင့် အကျိုးကျေးဇူးများ နှစ်ခုစလုံး နိုင်ငံများကြား ပို၍ လွယ်ကူစွာ သွားနိုင်လေ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a country weigh the specific bargaining power it has with a TNC (e.g. the size of its market, the uniqueness of its resources) when negotiating investment terms?",
+          questionMy:
+              "ရင်းနှီးမြှုပ်နှံမှု Term များ ညှိနှိုင်းစဉ် နိုင်ငံတစ်ခုသည် TNC တစ်ခုနှင့် ၎င်း၏ တိကျသော Bargaining Power (ဥပမာ - ၎င်း၏ ဈေးကွက် အရွယ်အစား, ၎င်း၏ အရင်းအမြစ်များ၏ ထူးခြားမှု) ကို ချိန်ဆနိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A country with unique resources or a large market has more leverage to negotiate favorable terms, while one with fewer alternatives may have to accept less favorable conditions",
+            "Bargaining power has no actual effect on the terms of any investment negotiation",
+            "Every country always has exactly identical bargaining power with any TNC",
+            "TNCs never actually negotiate terms with any host country government",
+          ],
+          optionsMy: [
+            "ထူးခြားသော အရင်းအမြစ်များ (သို့) ဈေးကွက်ကြီးများ ရှိသော နိုင်ငံတစ်ခုသည် Favorable Term များ ညှိနှိုင်းရန် Leverage ပို၍ ရှိပြီး Alternative နည်းသော တစ်ခုသည် ပို၍ Favorable မဟုတ်သော Condition များကို လက်ခံရနိုင်သည်",
+            "Bargaining Power သည် ရင်းနှီးမြှုပ်နှံမှု ညှိနှိုင်းမှု မည်သည်၏ Term များအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "နိုင်ငံတိုင်းသည် TNC မည်သည်နှင့်မဆို Bargaining Power တူညီစွာ အမြဲ ရှိခြင်း",
+            "TNC များသည် Host နိုင်ငံ အစိုးရ မည်သည်နှင့်မျှ Term များကို အမှန်တကယ် ဘယ်တော့မှ ညှိနှိုင်းခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same power-and-leverage reasoning from the earlier multinational-corporation lesson -- outcomes depend on the specific relative bargaining position each side holds, not a fixed universal rule.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခင် Multinational-Corporation သင်ခန်းစာမှ Power-and-Leverage Reasoning တူတူကို အသုံးချသည် -- ရလဒ်များသည် ဘက်တစ်ဘက်စီ ကိုင်ဆောင်ထားသော တိကျသော Relative Bargaining Position ပေါ် မူတည်ပြီး Fixed Universal စည်းမျဉ်း မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Globalisation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Globalisation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w22-dm-1",
+          termEn: "Transnational corporation (TNC)",
+          termMy: "Transnational Corporation (TNC)",
+          matchEn:
+              "A company operating and owning assets in multiple countries",
+          matchMy:
+              "နိုင်ငံများစွာတွင် ပိုင်ဆိုင်မှုများ လည်ပတ်ကာ ပိုင်ဆိုင်သော ကုမ္ပဏီ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w22-dm-2",
+          termEn: "Supply chain",
+          termMy: "Supply Chain",
+          matchEn:
+              "The full sequence of production steps a product passes through across countries",
+          matchMy:
+              "ကုန်ပစ္စည်းတစ်ခု နိုင်ငံများတစ်လျှောက် ဖြတ်သန်းသွားသော ထုတ်လုပ်မှု အဆင့်များ အပြည့်အစုံ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w22-dm-3",
+          termEn: "Foreign direct investment",
+          termMy: "Foreign Direct Investment",
+          matchEn:
+              "Investment by a company from one country in business interests in another",
+          matchMy:
+              "အခြားနိုင်ငံရှိ လုပ်ငန်း အကျိုးစီးပွားများတွင် နိုင်ငံတစ်ခုမှ ကုမ္ပဏီ၏ ရင်းနှီးမြှုပ်နှံမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w22-dm-4",
+          termEn: "Bargaining power",
+          termMy: "Bargaining Power",
+          matchEn: "The relative leverage a party holds when negotiating terms",
+          matchMy:
+              "Term များ ညှိနှိုင်းချိန် Party တစ်ခု ကိုင်ဆောင်ထားသော Relative Leverage",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Benefit or Risk of TNC Investment?",
+      titleMy: "စီစစ်ကြမည် - TNC ရင်းနှီးမြှုပ်နှံမှု၏ အကျိုး (သို့) အန္တရာယ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Benefit of TNC Investment", "Risk of TNC Investment"],
+        bucketsMy: [
+          "TNC ရင်းနှီးမြှုပ်နှံမှု၏ အကျိုး",
+          "TNC ရင်းနှီးမြှုပ်နှံမှု၏ အန္တရာယ်",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w22-sort-1",
+            labelEn: "Thousands of new local jobs created by a factory",
+            labelMy: "Factory တစ်ခုက ဖန်တီးထားသော Local အလုပ်အကိုင် ထောင်ချီ",
+            correctBucketEn: "Benefit of TNC Investment",
+            correctBucketMy: "TNC ရင်းနှီးမြှုပ်နှံမှု၏ အကျိုး",
+          ),
+          SortingItem(
+            id: "igchum-w22-sort-2",
+            labelEn:
+                "A host country's economy becoming heavily dependent on one corporation",
+            labelMy:
+                "Host နိုင်ငံ၏ စီးပွားရေးသည် ကုမ္ပဏီတစ်ခုတည်းအပေါ် လေးလေးနက်နက် မှီခိုလာခြင်း",
+            correctBucketEn: "Risk of TNC Investment",
+            correctBucketMy: "TNC ရင်းနှီးမြှုပ်နှံမှု၏ အန္တရာယ်",
+          ),
+          SortingItem(
+            id: "igchum-w22-sort-3",
+            labelEn:
+                "New roads and electrical infrastructure funded by the corporation",
+            labelMy:
+                "ကုမ္ပဏီက ငွေထောက်ပံ့ထားသော လမ်းအသစ်များနှင့် လျှပ်စစ် အခြေခံအဆောက်အအုံ",
+            correctBucketEn: "Benefit of TNC Investment",
+            correctBucketMy: "TNC ရင်းနှီးမြှုပ်နှံမှု၏ အကျိုး",
+          ),
+          SortingItem(
+            id: "igchum-w22-sort-4",
+            labelEn: "Environmental damage from unregulated factory emissions",
+            labelMy:
+                "Regulate မလုပ်ထားသော Factory Emission များမှ ပတ်ဝန်းကျင် ပျက်စီးမှု",
+            correctBucketEn: "Risk of TNC Investment",
+            correctBucketMy: "TNC ရင်းနှီးမြှုပ်နှံမှု၏ အန္တရာယ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's TNC Investment Negotiation Report",
+      titleMy:
+          "စာဖတ်ခြင်း - Thiha Aung ၏ TNC ရင်းနှီးမြှုပ်နှံမှု ညှိနှိုင်းမှု Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's TNC Investment Negotiation Report",
+        titleMy: "Thiha Aung ၏ TNC ရင်းနှီးမြှုပ်နှံမှု ညှိနှိုင်းမှု Report",
+        passageEn:
+            "For Week 22, Saya Tun Tun Win assigned students a case study of a real negotiation between a developing country's government and a major TNC seeking to build a mining operation, asking them to assess both the benefits and risks rather than presenting a one-sided account. Thiha Aung's report documented the specific terms both sides ultimately agreed to.\n\nApplying Monday's lesson, he identified concrete benefits the government secured: a guaranteed minimum number of local jobs, a requirement that the corporation fund a portion of new road infrastructure, and a fixed royalty payment on extracted resources. But he also identified real risks: the agreement gave the corporation significant tax exemptions for the first decade of operation, and the country's economy would become substantially more dependent on this single resource export.\n\nApplying Tuesday's lesson on interconnection, Thiha Aung's report noted that this dependency created a specific vulnerability: if global demand or prices for that particular resource fell sharply, the country's economy would be disproportionately affected, exactly the kind of interconnected economic risk studied in the Great Depression's global spread earlier in the term.\n\nApplying Wednesday's lesson on bargaining power, his final analysis explained why the government secured relatively favorable terms despite these risks: the resource deposit was unusually rich and geologically rare, giving the government meaningful leverage the corporation could not easily find elsewhere, unlike a country offering only generic labor with no unique advantage. Saya Tun Tun Win praised the report for assessing the deal with genuine balance -- neither dismissing the real benefits nor ignoring the real risks, and explaining the negotiation outcome through the country's specific bargaining position rather than treating all such deals as identical.",
+        passageMy:
+            "Week 22 အတွက် One-Sided Account တစ်ခု တင်ပြမည့်အစား အကျိုးနှင့် အန္တရာယ် နှစ်ခုစလုံးကို အကဲဖြတ်ရန် တောင်းဆိုကာ Mining Operation တစ်ခု တည်ဆောက်လိုသော Major TNC တစ်ခုနှင့် ဖွံ့ဖြိုးဆဲ နိုင်ငံတစ်ခု၏ အစိုးရကြား စစ်မှန်သော ညှိနှိုင်းမှု Case Study တစ်ခုကို ကျောင်းသားများကို Saya Tun Tun Win တာဝန်ပေးအပ်ခဲ့သည်။ ဘက်နှစ်ဘက်စလုံး နောက်ဆုံးတွင် သဘောတူခဲ့သော တိကျသော Term များကို Thiha Aung ၏ Report ဆေးတမ်းတင်ခဲ့သည်။\n\nတနင်္လာနေ့ သင်ခန်းစာကို အသုံးချကာ အစိုးရ ရရှိခဲ့သော တိကျသော အကျိုးကျေးဇူးများကို ၎င်း ဖော်ထုတ်ခဲ့သည် - အနည်းဆုံး Local အလုပ်အကိုင် အရေအတွက် အာမခံချက်၊ လမ်းအသစ် Infrastructure ၏ ဝေစုတစ်ခုကို ကုမ္ပဏီက ငွေထောက်ပံ့ရန် လိုအပ်ချက်နှင့် ထုတ်ယူထားသော အရင်းအမြစ်များအပေါ် Fixed Royalty ပေးချေမှု။ သို့သော် ၎င်းသည် စစ်မှန်သော အန္တရာယ်များကိုလည်း ဖော်ထုတ်ခဲ့သည် - သဘောတူညီချက်သည် Operation ၏ ပထမ ဆယ်စုနှစ်အတွက် Corporation ကို သိသာသော Tax Exemption ပေးအပ်ခဲ့ပြီး နိုင်ငံ၏ စီးပွားရေးသည် ဤ Resource Export တစ်ခုတည်းအပေါ် သိသိသာသာ ပို၍ မှီခိုလာလိမ့်မည်။\n\nInterconnection အကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ ဤ Dependency သည် တိကျသော Vulnerability တစ်ခုကို ဖန်တီးခဲ့ကြောင်း Thiha Aung ၏ Report မှတ်ချက်ပြုခဲ့သည် - ထို တိကျသော Resource အတွက် Global Demand (သို့) ဈေးနှုန်းများ ပြင်းထန်စွာ ကျဆင်းပါက နိုင်ငံ၏ စီးပွားရေးသည် Disproportionately ထိခိုက်လိမ့်မည်ဖြစ်ပြီး Term အစောပိုင်းတွင် Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုတွင် လေ့လာခဲ့သော Interconnected Economic Risk အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nBargaining Power အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ဤ အန္တရာယ်များ ရှိသော်လည်း Relatively Favorable Term များ အစိုးရ ရရှိခဲ့ရသည့် အကြောင်းရင်းကို ၎င်း၏ နောက်ဆုံး Analysis ရှင်းပြခဲ့သည် - Resource Deposit သည် ထူးဆန်းစွာ ကြွယ်ဝပြီး Geologically ရှားပါးခဲ့ပြီး ထူးခြားသော အကျိုးကျေးဇူး မည်သည်မှ မပါဘဲ Generic Labor တစ်ခုတည်းကို ပေးအပ်သော နိုင်ငံနှင့်မတူဘဲ Corporation က အခြားနေရာတွင် လွယ်ကူစွာ ရှာမတွေ့နိုင်သော အဓိပ္ပာယ်ရှိသော Leverage ကို အစိုးရအား ပေးအပ်ခဲ့သည်။ စစ်မှန်သော အကျိုးကျေးဇူးများကို ပယ်ချခြင်း (သို့) စစ်မှန်သော အန္တရာယ်များကို လျစ်လျူရှုခြင်း မရှိဘဲ Deal ကို စစ်မှန်သော Balance ဖြင့် အကဲဖြတ်ခဲ့ပြီး Deal အားလုံးကို တူညီသည်ဟု ဆက်ဆံမည့်အစား ညှိနှိုင်းမှု ရလဒ်ကို နိုင်ငံ၏ တိကျသော Bargaining Position မှတစ်ဆင့် ရှင်းပြခဲ့သောကြောင့် Report ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what benefits did the government secure in the deal?",
+            questionMy:
+                "Deal တွင် အစိုးရ ရရှိခဲ့သော အကျိုးကျေးဇူးများကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Guaranteed local jobs, road infrastructure funding, and royalty payments",
+              "No benefits of any kind were secured in the agreement",
+              "Complete ownership of the corporation itself",
+              "A guarantee that resource prices would never fall",
+            ],
+            optionsMy: [
+              "အာမခံထားသော Local အလုပ်အကိုင်, လမ်း Infrastructure ငွေထောက်ပံ့မှုနှင့် Royalty ပေးချေမှုများ",
+              "သဘောတူညီချက်တွင် အကျိုးကျေးဇူး မည်သည်မှ ရရှိခဲ့ခြင်း မရှိခြင်း",
+              "Corporation ကိုယ်တိုင်၏ Complete Ownership",
+              "Resource ဈေးနှုန်းများ ဘယ်တော့မှ ကျဆင်းမည် မဟုတ်ကြောင်း အာမခံချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's list of benefits."],
+            hintsMy: [
+              "အကျိုးကျေးဇူးများ စာရင်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what vulnerability did the resulting dependency create?",
+            questionMy:
+                "ရလဒ် Dependency ဖန်တီးခဲ့သော Vulnerability ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The economy would be disproportionately affected if global demand for the resource fell",
+              "No vulnerability of any kind was created by the dependency",
+              "The country became completely immune to any global economic changes",
+              "The dependency had no connection to global demand whatsoever",
+            ],
+            optionsMy: [
+              "Resource အတွက် Global Demand ကျဆင်းပါက စီးပွားရေးသည် Disproportionately ထိခိုက်လိမ့်မည်",
+              "Dependency က ဖန်တီးခဲ့သော Vulnerability မည်သည်မှ မရှိခြင်း",
+              "နိုင်ငံသည် ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေး ပြောင်းလဲမှု မည်သည်ကိုမျှ လုံးဝ Immune ဖြစ်လာခဲ့ခြင်း",
+              "Dependency သည် Global Demand နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of the vulnerability.",
+            ],
+            hintsMy: [
+              "Vulnerability ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the government secure relatively favorable terms?",
+            questionMy:
+                "Relatively Favorable Term များ အစိုးရ ရရှိခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The resource deposit was unusually rich and rare, giving the government meaningful leverage",
+              "The government had no leverage of any kind in the negotiation",
+              "The corporation had no interest in the deal whatsoever",
+              "The country offered only generic labor with no unique advantage",
+            ],
+            optionsMy: [
+              "Resource Deposit သည် ထူးဆန်းစွာ ကြွယ်ဝ၊ ရှားပါးခဲ့ပြီး အစိုးရကို အဓိပ္ပာယ်ရှိသော Leverage ပေးအပ်ခဲ့ခြင်း",
+              "ညှိနှိုင်းမှုတွင် အစိုးရတွင် Leverage မည်သည်မှ မရှိခဲ့ခြင်း",
+              "Deal တွင် Corporation ၏ စိတ်ဝင်စားမှု မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+              "ထူးခြားသော အကျိုးကျေးဇူး မည်သည်မှ မပါဘဲ Generic Labor တစ်ခုတည်းကိုသာ နိုင်ငံက ပေးအပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w22-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Globalisation and Transnational Corporations",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Globalisation နှင့် Transnational Corporation များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "TNC investment in a host country typically involves...",
+          questionMy:
+              "Host နိုင်ငံတစ်ခုတွင် TNC ရင်းနှီးမြှုပ်နှံမှုတွင် ပုံမှန်အားဖြင့် ...ပါဝင်သည်",
+          optionsEn: [
+            "Both genuine benefits and real risks requiring balanced assessment",
+            "Only benefits with absolutely no possible risks",
+            "Only risks with absolutely no possible benefits",
+            "No economic effect of any kind whatsoever",
+          ],
+          optionsMy: [
+            "Balanced Assessment လိုအပ်သော စစ်မှန်သော အကျိုးကျေးဇူးနှင့် စစ်မှန်သော အန္တရာယ် နှစ်ခုစလုံး",
+            "ဖြစ်နိုင်သော အန္တရာယ် လုံးဝ မပါသော အကျိုးကျေးဇူးများသာ",
+            "ဖြစ်နိုင်သော အကျိုးကျေးဇူး လုံးဝ မပါသော အန္တရာယ်များသာ",
+            "စီးပွားရေးဆိုင်ရာ သက်ရောက်မှု မည်သည်မှ လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Globalisation increases economic interconnection because...",
+          questionMy:
+              "Globalisation သည် စီးပွားရေးဆိုင်ရာ Interconnection ကို တိုးမြှင့်ပေးရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Supply chains and trade increasingly cross national borders",
+            "Trade has never crossed national borders in any period",
+            "Globalisation eliminates all economic connections",
+            "Interconnection has no relationship to trade whatsoever",
+          ],
+          optionsMy: [
+            "Supply Chain များနှင့် ကုန်သွယ်ရေးသည် နိုင်ငံ နယ်နိမိတ်များကို တိုးတက်စွာ ကျော်လွန်လာခြင်း",
+            "ကာလ မည်သည်တွင်မျှ ကုန်သွယ်ရေးသည် နိုင်ငံ နယ်နိမိတ်များကို ဘယ်တော့မှ ကျော်လွန်ခဲ့ခြင်း မရှိခြင်း",
+            "Globalisation သည် စီးပွားရေးဆိုင်ရာ ချိတ်ဆက်မှု အားလုံးကို ဖျက်သိမ်းခြင်း",
+            "Interconnection သည် ကုန်သွယ်ရေးနှင့် ဆက်စပ်မှု လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A country's bargaining power with a TNC depends on...",
+          questionMy:
+              "TNC တစ်ခုနှင့် နိုင်ငံတစ်ခု၏ Bargaining Power သည် ...အပေါ် မူတည်သည်",
+          optionsEn: [
+            "The uniqueness of its resources or the size of its market",
+            "Nothing at all, since all countries have identical power",
+            "Only the corporation's preferences with no country factor",
+            "The number of days in a negotiation session",
+          ],
+          optionsMy: [
+            "၎င်း၏ အရင်းအမြစ်များ၏ ထူးခြားမှု (သို့) ၎င်း၏ ဈေးကွက် အရွယ်အစား",
+            "နိုင်ငံအားလုံးတွင် Power တူညီစွာ ရှိသောကြောင့် မည်သည်မှ",
+            "Country Factor မပါဘဲ Corporation ၏ Preference တစ်ခုတည်း",
+            "ညှိနှိုင်းမှု Session ရှိ ရက် အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 6, Week 23: "Aid, Debt and Development
+// Strategies"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek23 = CourseWeekDef(
+  id: "course-igcse-hum-w23",
+  weekNumber: 23,
+  titleEn: "Aid, Debt and Development Strategies",
+  titleMy: "Aid, Debt နှင့် Development Strategy များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w23-d1",
+      dayNumber: 1,
+      titleEn: "Types of Aid and the Debt Trap",
+      titleMy: "Aid အမျိုးအစားများနှင့် Debt Trap",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do geographers distinguish between short-term emergency aid (e.g. disaster relief) and long-term development aid (e.g. infrastructure or education funding)?",
+          questionMy:
+              "Short-Term Emergency Aid (ဥပမာ - Disaster Relief) နှင့် Long-Term Development Aid (ဥပမာ - Infrastructure (သို့) Education Funding) ကို ဂျီဩဂရာဖီပညာရှင်များ ခွဲခြားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "They serve genuinely different purposes and timeframes -- emergency aid addresses an immediate crisis, while development aid aims at longer-term structural improvement -- and conflating them can misjudge whether aid is achieving its intended goal",
+            "Emergency aid and development aid are always exactly the same thing with no difference",
+            "Aid never actually serves any distinguishable purpose of any kind",
+            "Development aid is always identical in structure to emergency disaster relief",
+          ],
+          optionsMy: [
+            "Emergency Aid သည် ချက်ချင်း Crisis တစ်ခုကို ကိုင်တွယ်ပြီး Development Aid သည် ပို၍ ကြာမြင့်သော Structural တိုးတက်မှုကို ရည်မှန်းသည် -- ၎င်းတို့သည် စစ်မှန်စွာ ကွဲပြားသော ရည်ရွယ်ချက်နှင့် အချိန်ကာလ ဆောင်ရွက်ပြီး ၎င်းတို့ကို ရောနှောလိုက်ခြင်းသည် Aid သည် ရည်ရွယ်ထားသော ပန်းတိုင်ကို ရရှိနေသည် ရှိမရှိ မှားယွင်းစွာ ဆုံးဖြတ်စေနိုင်သည်",
+            "Emergency Aid နှင့် Development Aid သည် ခြားနားချက် မရှိဘဲ အမြဲ တစ်ခုတည်းသော အရာတူတူ ဖြစ်ခြင်း",
+            "Aid သည် ခွဲခြားနိုင်သော ရည်ရွယ်ချက် မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ ဆောင်ရွက်ခြင်း",
+            "Development Aid သည် Emergency Disaster Relief နှင့် Structure အရ အမြဲ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies Week 16's natural-increase-versus-migration distinction to a new context -- two different mechanisms serving different purposes need to be distinguished for a clear analysis.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 16 ၏ Natural-Increase-Versus-Migration ခွဲခြားချက်ကို Context အသစ်တစ်ခုသို့ အသုံးချသည် -- ကွဲပြားသော ရည်ရွယ်ချက်များ ဆောင်ရွက်သော Mechanism ကွဲပြားနှစ်ခုကို ရှင်းလင်းသော Analysis တစ်ခုအတွက် ခွဲခြားရန် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a developing country accepting a large international loan risk becoming trapped in a cycle of unsustainable debt?",
+          questionMy:
+              "International Loan ကြီးတစ်ခုကို လက်ခံသော ဖွံ့ဖြိုးဆဲ နိုင်ငံတစ်ခုသည် Unsustainable Debt ၏ Cycle တစ်ခုတွင် ချုပ်နှောင်ခံရနိုင်ခြေ ရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "If loan repayments consume a large share of national revenue over many years, the country may struggle to invest in the very development that would help it repay the debt, creating a difficult ongoing cycle",
+            "Loans always have no actual repayment obligation of any kind",
+            "Debt has no connection to a country's ability to invest in development",
+            "Every loan a country accepts is always immediately and fully repaid within one year",
+          ],
+          optionsMy: [
+            "Loan ပြန်ဆပ်မှုများသည် နှစ်များစွာတစ်လျှောက် National Revenue ၏ ဝေစုကြီးကို စားသုံးပါက နိုင်ငံသည် Debt ကို ပြန်ဆပ်ရန် ကူညီမည့် Development ကိုယ်တိုင်တွင် ရင်းနှီးမြှုပ်နှံရန် ရုန်းကန်ရနိုင်ပြီး ခက်ခဲသော ဆက်လက် Cycle တစ်ခုကို ဖန်တီးနိုင်သည်",
+            "Loan များသည် Repayment ၏ တာဝန် မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Debt သည် Development တွင် ရင်းနှီးမြှုပ်နှံနိုင်သော နိုင်ငံတစ်ခု၏ စွမ်းရည်နှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+            "နိုင်ငံတစ်ခု လက်ခံသော Loan တိုင်းသည် တစ်နှစ်အတွင်း ချက်ချင်း၊ အပြည့်အစုံ ပြန်ဆပ်ခြင်း အမြဲ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 3's reparations lesson -- ongoing financial obligations can strain an economy over years, just as Germany's reparations did, leaving less room for other necessary investment.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ Reparation သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- ဆက်လက် ငွေကြေးဆိုင်ရာ တာဝန်များသည် Germany ၏ Reparation များကဲ့သို့ နှစ်များစွာ စီးပွားရေးကို ဖိစီးစေနိုင်ကာ အခြား လိုအပ်သော ရင်းနှီးမြှုပ်နှံမှုအတွက် နေရာ ပို၍ နည်းစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might development strategies that build local capacity (e.g. training, technology transfer) be considered more sustainable than aid providing only direct, one-time financial support?",
+          questionMy:
+              "Local Capacity တည်ဆောက်သော Development Strategy များ (ဥပမာ - Training, Technology Transfer) ကို တိုက်ရိုက်၊ တစ်ကြိမ်တည်း ငွေကြေးဆိုင်ရာ ပံ့ပိုးမှု ပေးသော Aid ထက် ပို၍ Sustainable ဟု ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Building local skills and infrastructure creates ongoing capacity that continues generating benefits after the aid program ends, rather than providing a one-time boost with no lasting structural change",
+            "Direct financial support always produces more lasting development than capacity-building of any kind",
+            "Capacity-building strategies have no actual connection to long-term development outcomes",
+            "One-time financial aid and capacity-building always produce identical long-term results",
+          ],
+          optionsMy: [
+            "Local Skill များနှင့် Infrastructure တည်ဆောက်ခြင်းသည် Aid Program ပြီးဆုံးပြီးနောက် ဆက်လက် အကျိုးကျေးဇူး ထုတ်လုပ်နေသော ဆက်လက် Capacity ကို ဖန်တီးပေးပြီး ကြာရှည် Structural ပြောင်းလဲမှု မပါသော တစ်ကြိမ်တည်း Boost တစ်ခုကို ပေးအပ်မည့်အစား",
+            "Direct Financial Support သည် Capacity-Building မည်သည်ထက် ပို၍ ကြာရှည်သော Development ကို အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "Capacity-Building Strategy များသည် Long-Term Development ရလဒ်များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "One-Time Financial Aid နှင့် Capacity-Building သည် Long-Term ရလဒ် တူညီစွာ အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies Term 5's postwar-legacy lesson about lasting effects extending beyond the immediate moment -- capacity-building creates effects that continue generating value after the aid itself has stopped, unlike a one-time payment.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ချက်ချင်း အခိုက်အတန့်ကို ကျော်လွန်၍ ချဲ့ထွင်သော ကြာရှည် သက်ရောက်မှုများအကြောင်း Term 5 ၏ Postwar-Legacy သင်ခန်းစာကို အသုံးချသည် -- Capacity-Building သည် Aid ကိုယ်တိုင် ရပ်တန့်သွားပြီးနောက် တန်ဖိုး ဆက်လက် ထုတ်လုပ်ပေးနေသော Effect များကို ဖန်တီးပေးသည်၊ One-Time Payment တစ်ခုနှင့် မတူပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Aid and Debt Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Aid and Debt ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w23-dm-1",
+          termEn: "Emergency aid",
+          termMy: "Emergency Aid",
+          matchEn:
+              "Short-term relief provided immediately following a disaster or crisis",
+          matchMy:
+              "ဘေးအန္တရာယ် (သို့) Crisis တစ်ခုပြီးနောက် ချက်ချင်း ပေးအပ်သော Short-Term Relief",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w23-dm-2",
+          termEn: "Development aid",
+          termMy: "Development Aid",
+          matchEn:
+              "Long-term support aimed at structural economic and social improvement",
+          matchMy:
+              "Structural စီးပွားရေးနှင့် လူမှုရေးဆိုင်ရာ တိုးတက်မှု ရည်ရွယ်ထားသော Long-Term ပံ့ပိုးမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w23-dm-3",
+          termEn: "Debt trap",
+          termMy: "Debt Trap",
+          matchEn:
+              "A cycle where loan repayments consume resources needed for development",
+          matchMy:
+              "Loan ပြန်ဆပ်မှုများသည် Development အတွက် လိုအပ်သော Resource များကို စားသုံးသော Cycle",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w23-dm-4",
+          termEn: "Capacity building",
+          termMy: "Capacity Building",
+          matchEn:
+              "Training and infrastructure development creating lasting local ability",
+          matchMy:
+              "ကြာရှည် Local စွမ်းရည် ဖန်တီးပေးသော Training နှင့် Infrastructure ဖွံ့ဖြိုးမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Sustainable or Risky Development Strategy?",
+      titleMy: "စီစစ်ကြမည် - Sustainable (သို့) Risky Development Strategy",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Sustainable Development Strategy",
+          "Risky Development Strategy",
+        ],
+        bucketsMy: [
+          "Sustainable Development Strategy",
+          "Risky Development Strategy",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w23-sort-1",
+            labelEn:
+                "Training local teachers and engineers who continue working after aid ends",
+            labelMy:
+                "Aid ပြီးဆုံးပြီးနောက် ဆက်လက် အလုပ်လုပ်နေသော Local ဆရာများနှင့် အင်ဂျင်နီယာများ Training ပေးခြင်း",
+            correctBucketEn: "Sustainable Development Strategy",
+            correctBucketMy: "Sustainable Development Strategy",
+          ),
+          SortingItem(
+            id: "igchum-w23-sort-2",
+            labelEn:
+                "Accepting a large loan with repayment terms consuming most future revenue",
+            labelMy:
+                "အနာဂတ် Revenue အများစုကို စားသုံးမည့် Repayment Term များပါသော Loan ကြီးတစ်ခု လက်ခံခြင်း",
+            correctBucketEn: "Risky Development Strategy",
+            correctBucketMy: "Risky Development Strategy",
+          ),
+          SortingItem(
+            id: "igchum-w23-sort-3",
+            labelEn:
+                "Transferring farming technology that continues raising yields long-term",
+            labelMy:
+                "Long-Term Yield များ ဆက်လက် တိုးမြှင့်ပေးနေသော Farming Technology လွှဲပြောင်းခြင်း",
+            correctBucketEn: "Sustainable Development Strategy",
+            correctBucketMy: "Sustainable Development Strategy",
+          ),
+          SortingItem(
+            id: "igchum-w23-sort-4",
+            labelEn:
+                "Relying entirely on one-time cash payments with no lasting structural investment",
+            labelMy:
+                "ကြာရှည် Structural ရင်းနှီးမြှုပ်နှံမှု မပါဘဲ တစ်ကြိမ်တည်း ငွေသား ပေးချေမှုများကို လုံးဝ အားကိုးခြင်း",
+            correctBucketEn: "Risky Development Strategy",
+            correctBucketMy: "Risky Development Strategy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Aid Effectiveness Report",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Aid Effectiveness Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Aid Effectiveness Report",
+        titleMy: "Thiha Aung ၏ Aid Effectiveness Report",
+        passageEn:
+            "For Week 23, Saya Tun Tun Win asked students to research and compare two real international aid projects in the same region -- one emergency-focused and one development-focused -- and evaluate their effectiveness against their own stated goals rather than judging both by the same standard. Thiha Aung's report examined a flood relief program and a separate agricultural training program operating in the same country.\n\nApplying Monday's lesson, he evaluated the flood relief program against its actual purpose: providing immediate shelter, food, and medical care to displaced families within days of a disaster. Judged against this emergency standard, the program succeeded clearly, reaching affected families quickly and preventing further immediate harm -- exactly what emergency aid is designed to achieve.\n\nThe agricultural training program had a very different goal, and Thiha Aung researched its funding structure carefully, applying Tuesday's debt-trap lesson: unlike the flood relief, which was funded through outright grants requiring no repayment, this program was partly funded through a loan, and he calculated that the country's existing debt service payments already consumed a significant share of its national budget, raising a legitimate concern about long-term sustainability.\n\nApplying Wednesday's capacity-building lesson, Thiha Aung's final assessment praised the specific design of the training program: rather than simply distributing seeds or equipment once, it trained local agricultural extension workers who continued teaching new techniques to farmers for years afterward, creating lasting local capacity that would continue generating benefit long after the original funding period ended. Saya Tun Tun Win praised the report for evaluating each program against its own appropriate purpose and timeframe, rather than applying a single uniform standard to fundamentally different kinds of aid.",
+        passageMy:
+            "Week 23 အတွက် Region တူတူတွင် Real International Aid Project နှစ်ခု -- Emergency-Focused တစ်ခုနှင့် Development-Focused တစ်ခု -- ကို သုတေသနပြုလုပ်၍ နှိုင်းယှဉ်ကာ Standard တူတူဖြင့် နှစ်ခုစလုံးကို အကဲဖြတ်မည့်အစား ၎င်းတို့ကိုယ်ပိုင် ဖော်ပြထားသော ပန်းတိုင်များကို ထောက်ရှု၍ ၎င်းတို့၏ Effectiveness ကို အကဲဖြတ်ရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Thiha Aung ၏ Report သည် ရေလွှမ်းမှု ကူညီရေး Program တစ်ခုနှင့် နိုင်ငံတူတူတွင် ဆောင်ရွက်နေသော သီးခြား Agricultural Training Program တစ်ခုကို စစ်ဆေးခဲ့သည်။\n\nတနင်္လာနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ အမှန်တကယ် ရည်ရွယ်ချက်နှင့် ရေလွှမ်းမှု ကူညီရေး Program ကို ၎င်း အကဲဖြတ်ခဲ့သည် - Disaster တစ်ခု၏ ရက်အနည်းငယ်အတွင်း ရွှေ့ပြောင်းခဲ့ရသော မိသားစုများသို့ ချက်ချင်း နေရာနှင့် အစားအစာနှင့် ဆေးဘက်ဆိုင်ရာ စောင့်ရှောက်မှု ပေးအပ်ခြင်း။ ဤ Emergency Standard ကို ထောက်ရှု၍ တရားစီရင်ပါက Program သည် ရှင်းလင်းစွာ အောင်မြင်ခဲ့ပြီး ထိခိုက်ခံရသော မိသားစုများထံသို့ လျင်မြန်စွာ ရောက်ရှိကာ ချက်ချင်း ဆက်လက် ထိခိုက်မှုများကို ကာကွယ်ခဲ့သည် -- Emergency Aid ရရှိရန် Design ပြုလုပ်ထားသည် အတိအကျ ဖြစ်သည်။\n\nAgricultural Training Program တွင် အလွန် ကွဲပြားသော ပန်းတိုင်တစ်ခု ရှိခဲ့ပြီး Debt-Trap သင်ခန်းစာ အင်္ဂါနေ့ကို အသုံးချကာ ၎င်း၏ Funding Structure ကို Thiha Aung ဂရုတစိုက် သုတေသနပြုလုပ်ခဲ့သည် - Repayment မလိုအပ်သော Outright Grant များမှတစ်ဆင့် ငွေထောက်ပံ့ခဲ့သော ရေလွှမ်းမှု ကူညီရေးနှင့်မတူဘဲ ဤ Program ကို Loan တစ်ခုမှတစ်ဆင့် တစ်စိတ်တစ်ပိုင်း ငွေထောက်ပံ့ခဲ့ပြီး နိုင်ငံ၏ ရှိပြီးသား Debt Service ပေးချေမှုများသည် ၎င်း၏ National Budget ၏ သိသာသော ဝေစုကို ယခုပင် စားသုံးနေကြောင်း ၎င်း တွက်ချက်ခဲ့ပြီး Long-Term Sustainability အကြောင်း တရားဝင် စိုးရိမ်မှုတစ်ခု ထောက်ပြခဲ့သည်။\n\nCapacity-Building သင်ခန်းစာ ဗုဒ္ဓဟူးနေ့ကို အသုံးချကာ Training Program ၏ တိကျသော Design ကို Thiha Aung ၏ နောက်ဆုံး Assessment ချီးမွမ်းခဲ့သည် - မျိုးစေ့ (သို့) ကိရိယာများကို တစ်ကြိမ်တည်း ဖြန့်ဝေရုံသက်သက်မဟုတ်ဘဲ နောက်ပိုင်း နှစ်များစွာ လယ်သမားများသို့ Technique အသစ်များ ဆက်လက် သင်ကြားပေးသော Local Agricultural Extension Worker များကို Train ပြုလုပ်ခဲ့ပြီး မူလ Funding ကာလ ပြီးဆုံးပြီးနောက် ကြာရှည် အကျိုးကျေးဇူး ဆက်လက် ထုတ်လုပ်ပေးနေမည့် ကြာရှည် Local Capacity ကို ဖန်တီးခဲ့သည်။ ခြားနားသော Aid အမျိုးအစားအတွက် Uniform Standard တစ်ခုတည်းကို အသုံးပြုမည့်အစား Program တစ်ခုစီကို ၎င်းကိုယ်ပိုင် သင့်လျော်သော ရည်ရွယ်ချက်နှင့် အချိန်ကာလကို ထောက်ရှု၍ အကဲဖြတ်ခဲ့သောကြောင့် Report ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Thiha Aung judge the flood relief program?",
+            questionMy:
+                "ရေလွှမ်းမှု ကူညီရေး Program ကို Thiha Aung မည်သို့ တရားစီရင်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He judged it against its emergency purpose and found it succeeded",
+              "He judged it as a complete failure with no positive outcomes",
+              "He refused to evaluate the program in any way",
+              "He judged it using the same standard as a long-term development program",
+            ],
+            optionsMy: [
+              "၎င်း၏ Emergency ရည်ရွယ်ချက်ကို ထောက်ရှု၍ တရားစီရင်ကာ အောင်မြင်ခဲ့ကြောင်း တွေ့ရှိခဲ့ခြင်း",
+              "အောင်မြင်သော ရလဒ် မည်သည်မှ မပါသော Complete Failure တစ်ခုအဖြစ် တရားစီရင်ခဲ့ခြင်း",
+              "Program ကို မည်သည့်နည်းနှင့်မျှ အကဲဖြတ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "Long-Term Development Program တစ်ခု၏ Standard တူတူကို အသုံးပြု၍ တရားစီရင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's evaluation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Evaluation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what concern did Thiha Aung raise about the training program's funding?",
+            questionMy:
+                "Training Program ၏ Funding အကြောင်း Thiha Aung ထောက်ပြခဲ့သော စိုးရိမ်မှုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its loan-based funding raised concerns given already-high debt service payments",
+              "The program had no funding source of any kind whatsoever",
+              "The funding was entirely a grant with no repayment obligation",
+              "There was no concern raised about the funding at all",
+            ],
+            optionsMy: [
+              "ယခင်ကပင် မြင့်နေသော Debt Service ပေးချေမှုများကို ထောက်ရှု၍ ၎င်း၏ Loan-Based Funding သည် စိုးရိမ်မှု ထောက်ပြခဲ့ခြင်း",
+              "Program တွင် Funding Source မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+              "Funding သည် Repayment တာဝန် မည်သည်မှ မပါဘဲ Grant တစ်ခုတည်း ဖြစ်ခဲ့ခြင်း",
+              "Funding အကြောင်း စိုးရိမ်မှု မည်သည်မှ ထောက်ပြခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's concern."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ စိုးရိမ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Thiha Aung praise the training program's design?",
+            questionMy:
+                "Training Program ၏ Design ကို Thiha Aung ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It created lasting local capacity that continued generating benefit after funding ended",
+              "It provided only a one-time distribution with no ongoing effect",
+              "It had no actual connection to local farmers whatsoever",
+              "It ended immediately with no lasting impact of any kind",
+            ],
+            optionsMy: [
+              "Funding ပြီးဆုံးပြီးနောက် အကျိုးကျေးဇူး ဆက်လက် ထုတ်လုပ်ပေးနေမည့် ကြာရှည် Local Capacity ကို ဖန်တီးခဲ့ခြင်း",
+              "ဆက်လက် သက်ရောက်မှု မပါဘဲ တစ်ကြိမ်တည်း ဖြန့်ဝေမှုတစ်ခုကိုသာ ပေးအပ်ခဲ့ခြင်း",
+              "Local လယ်သမားများနှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခဲ့ခြင်း",
+              "ကြာရှည် Impact မည်သည်မှ မပါဘဲ ချက်ချင်း ပြီးဆုံးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's praise."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ချီးမွမ်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w23-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Aid, Debt and Development Strategies",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Aid, Debt နှင့် Development Strategy များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Emergency aid and development aid should be evaluated...",
+          questionMy:
+              "Emergency Aid နှင့် Development Aid ကို ...အကဲဖြတ်သင့်သည်",
+          optionsEn: [
+            "Against their own distinct purposes and timeframes",
+            "Using exactly the same standard for both",
+            "Without any consideration of their actual goals",
+            "Only by how quickly funds were spent",
+          ],
+          optionsMy: [
+            "၎င်းတို့ကိုယ်ပိုင် ကွဲပြားသော ရည်ရွယ်ချက်နှင့် အချိန်ကာလကို ထောက်ရှု၍",
+            "နှစ်ခုစလုံးအတွက် Standard တူတူ အသုံးပြု၍",
+            "၎င်းတို့၏ အမှန်တကယ် ပန်းတိုင်များကို ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ",
+            "ရန်ပုံငွေများ မည်မျှ လျင်မြန်စွာ သုံးစွဲသည်ဆိုသည်ဖြင့်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A debt trap can occur when...",
+          questionMy: "Debt Trap တစ်ခု ဖြစ်ပေါ်နိုင်ချိန်မှာ...",
+          optionsEn: [
+            "Loan repayments consume resources needed for development",
+            "Loans always require no repayment of any kind",
+            "Debt has no connection to a country's budget",
+            "A loan is fully repaid within one week",
+          ],
+          optionsMy: [
+            "Loan ပြန်ဆပ်မှုများသည် Development အတွက် လိုအပ်သော Resource များကို စားသုံးချိန်",
+            "Loan များတွင် Repayment တာဝန် မည်သည်မှ အမြဲ မလိုအပ်ခြင်း",
+            "Debt သည် နိုင်ငံတစ်ခု၏ Budget နှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Loan တစ်ခုကို တစ်ပတ်အတွင်း အပြည့်အစုံ ပြန်ဆပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Capacity-building strategies tend to be more sustainable because...",
+          questionMy:
+              "Capacity-Building Strategy များသည် ပို၍ Sustainable ဖြစ်တတ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "They create lasting ability that continues generating benefit after aid ends",
+            "They provide only a one-time payment with no lasting effect",
+            "They have no actual connection to long-term development",
+            "They always cost more than direct financial aid with no benefit",
+          ],
+          optionsMy: [
+            "Aid ပြီးဆုံးပြီးနောက် အကျိုးကျေးဇူး ဆက်လက် ထုတ်လုပ်ပေးနေသော ကြာရှည် စွမ်းရည်ကို ဖန်တီးပေးခြင်း",
+            "ကြာရှည် သက်ရောက်မှု မပါဘဲ တစ်ကြိမ်တည်း ပေးချေမှုတစ်ခုကိုသာ ပေးအပ်ခြင်း",
+            "Long-Term Development နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "အကျိုးကျေးဇူး မပါဘဲ Direct Financial Aid ထက် အမြဲ ပို၍ ကုန်ကျခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 6, Week 24 (Capstone/Boss Week):
+// "Development Case Study Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek24 = CourseWeekDef(
+  id: "course-igcse-hum-w24",
+  weekNumber: 24,
+  titleEn: "Development Case Study Studio",
+  titleMy: "Development Case Study Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w24-d1",
+      dayNumber: 1,
+      titleEn: "Building a Complete Development Case Study",
+      titleMy: "Development Case Study အပြည့်အစုံ တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a complete development case study combine measurement (HDI/GNI), external investment (TNCs), and aid strategy into one analysis rather than treating each as a separate report?",
+          questionMy:
+              "ပြည့်စုံသော Development Case Study တစ်ခုသည် Report သီးခြားတစ်ခုစီအဖြစ် ဆက်ဆံမည့်အစား Measurement (HDI/GNI), External Investment (TNC) နှင့် Aid Strategy ကို Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Each concept explains a different dimension of a country's development situation, and a complete picture requires understanding how they interact rather than examining any one in isolation",
+            "These three concepts have no actual relationship to a country's development situation",
+            "Only measurement statistics actually matter, with investment and aid strategy irrelevant",
+            "A complete case study should always focus on just one dimension while ignoring the others entirely",
+          ],
+          optionsMy: [
+            "Concept တစ်ခုစီသည် နိုင်ငံတစ်ခု၏ Development အခြေအနေ၏ ကွဲပြားသော Dimension ကို ရှင်းပြပြီး ပြည့်စုံသော ပုံရိပ်တစ်ခုသည် တစ်ခုတည်းကို Isolation ၌ စစ်ဆေးမည့်အစား ၎င်းတို့ မည်သို့ Interact ပြုလုပ်သည်ကို နားလည်ရန် လိုအပ်သည်",
+            "Concept သုံးခုသည် နိုင်ငံတစ်ခု၏ Development အခြေအနေနှင့် အမှန်တကယ် ဆက်ဆံရေး မည်သည်မှ မရှိခြင်း",
+            "Measurement Statistic များကိုသာ အမှန်တကယ် အရေးကြီးပြီး Investment နှင့် Aid Strategy မသက်ဆိုင်ခြင်း",
+            "ပြည့်စုံသော Case Study တစ်ခုသည် အခြားများကို လုံးဝ လျစ်လျူရှုစဉ် Dimension တစ်ခုတည်းကို အမြဲ Focus ပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same multi-factor discipline as Week 16's city growth case study -- combining every relevant concept produces a picture more complete than any single one alone can provide.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 16 ၏ City Growth Case Study Multi-Factor Discipline တူတူကို အသုံးချသည် -- သက်ဆိုင်ရာ Concept တိုင်းကို ပေါင်းစပ်ခြင်းသည် တစ်ခုတည်းသာ ပေးအပ်နိုင်သည်ထက် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a development case study's recommendation section weigh trade-offs explicitly (e.g. TNC investment's benefits against its risks) rather than presenting only one side?",
+          questionMy:
+              "Development Case Study တစ်ခု၏ Recommendation Section သည် ဘက်တစ်ဘက်ကိုသာ တင်ပြမည့်အစား Trade-Off များ (ဥပမာ - TNC ရင်းနှီးမြှုပ်နှံမှု၏ အန္တရာယ်ကို ဆန့်ကျင် အကျိုးကျေးဇူး) ကို ရှင်းလင်းစွာ ချိန်ဆသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is the same honest, balanced trade-off principle established across the course -- a credible recommendation acknowledges both benefits and costs rather than presenting a one-sided, incomplete picture",
+            "Recommendations should always present only the most favorable possible interpretation",
+            "Trade-offs never actually exist in real development policy decisions",
+            "A one-sided presentation is always more persuasive and credible than a balanced one",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Course တစ်လျှောက် တည်ထောင်ခဲ့သော ရိုးသား၊ Balanced Trade-Off Principle တူတူ ဖြစ်သည် -- ယုံကြည်ရသော Recommendation တစ်ခုသည် One-Sided, မပြည့်စုံသော ပုံရိပ် တင်ပြမည့်အစား အကျိုးကျေးဇူးနှင့် ကုန်ကျစရိတ် နှစ်ခုစလုံးကို အသိအမှတ်ပြုသည်",
+            "Recommendation များသည် ဖြစ်နိုင်ဆုံး Favorable Interpretation ကိုသာ အမြဲ တင်ပြသင့်ခြင်း",
+            "Trade-Off များသည် စစ်မှန်သော Development Policy ဆုံးဖြတ်ချက်များတွင် အမှန်တကယ် ဘယ်တော့မှ မရှိခြင်း",
+            "One-Sided Presentation တစ်ခုသည် Balanced တစ်ခုထက် အမြဲ ပို၍ ဆွဲဆောင်မှုရှိ၊ ယုံကြည်ရမှု ရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Week 22's TNC lesson -- a genuine assessment names both real benefits and real risks, exactly as Thiha Aung's mining negotiation report did.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 22 ၏ TNC သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- Thiha Aung ၏ Mining Negotiation Report ပြုလုပ်ခဲ့သကဲ့သို့ စစ်မှန်သော Assessment တစ်ခုသည် စစ်မှန်သော အကျိုးကျေးဇူးနှင့် စစ်မှန်သော အန္တရာယ် နှစ်ခုစလုံးကို အမည်တပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a proposed development strategy for a specific country be justified using evidence about that country's specific situation, rather than a generic strategy claimed to work everywhere?",
+          questionMy:
+              "နိုင်ငံ တိကျတစ်ခုအတွက် အဆိုပြု Development Strategy တစ်ခုသည် နေရာတိုင်းတွင် အလုပ်ဖြစ်သည်ဟု Claim ပြုလုပ်ထားသော Generic Strategy တစ်ခုအစား ထို နိုင်ငံ၏ တိကျသော အခြေအနေအကြောင်း Evidence ကို အသုံးပြု၍ ခိုင်လုံစေသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Different countries face different specific bargaining positions, debt situations, and development gaps, so a strategy effective for one context may not transfer directly to another without adjustment",
+            "Every country's development situation is always exactly identical with no meaningful differences",
+            "Generic strategies always work equally well in every possible context without exception",
+            "Country-specific evidence has no actual relevance to designing an effective development strategy",
+          ],
+          optionsMy: [
+            "နိုင်ငံ ကွဲပြားများသည် ကွဲပြားသော တိကျသော Bargaining Position, Debt အခြေအနေနှင့် Development Gap များ ရင်ဆိုင်ရသောကြောင့် Context တစ်ခုအတွက် ထိရောက်သော Strategy တစ်ခုသည် ချိန်ညှိမှု မပါဘဲ အခြားတစ်ခုသို့ တိုက်ရိုက် လွှဲပြောင်း၍ မရနိုင်ပါ",
+            "နိုင်ငံတိုင်း၏ Development အခြေအနေသည် အဓိပ္ပာယ်ရှိသော ခြားနားချက် မပါဘဲ အမြဲ တိကျစွာ တူညီခြင်း",
+            "Generic Strategy များသည် ချွင်းချက် မပါဘဲ ဖြစ်နိုင်သော Context တိုင်းတွင် ညီညီအောင်မြင် အမြဲ အလုပ်ဖြစ်ခြင်း",
+            "Country-Specific Evidence သည် ထိရောက်သော Development Strategy တစ်ခု Design ပြုလုပ်ရန်နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 22's bargaining-power lesson -- a country with unique resources has different leverage than one without, meaning the same generic strategy will not fit every context equally well.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 22 ၏ Bargaining-Power သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ထူးခြားသော အရင်းအမြစ်များ ရှိသော နိုင်ငံတစ်ခုသည် မရှိသော တစ်ခုနှင့် ကွဲပြားသော Leverage ရှိပြီး Generic Strategy တူတူသည် Context တိုင်းနှင့် ညီညီအောင်မြင် မကိုက်ညီနိုင်ကြောင်း ဆိုလိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Development Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 6 Development ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w24-dm-1",
+          termEn: "Multi-dimensional case study",
+          termMy: "Multi-Dimensional Case Study",
+          matchEn:
+              "An analysis combining measurement, investment, and aid concepts into one picture",
+          matchMy:
+              "Measurement, Investment နှင့် Aid Concept များကို ပုံရိပ်တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Analysis",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w24-dm-2",
+          termEn: "Development gap",
+          termMy: "Development Gap",
+          matchEn:
+              "The measurable difference in wellbeing between more and less developed countries",
+          matchMy:
+              "ပို၍ ဖွံ့ဖြိုးသော နှင့် ဖွံ့ဖြိုးမှု နည်းသော နိုင်ငံများကြား Wellbeing ရှိ တိုင်းတာနိုင်သော ခြားနားချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w24-dm-3",
+          termEn: "Evidence-based recommendation",
+          termMy: "Evidence-Based Recommendation",
+          matchEn:
+              "A policy proposal justified using specific data about the situation it addresses",
+          matchMy:
+              "၎င်း ကိုင်တွယ်သော အခြေအနေအကြောင်း တိကျသော Data ကို အသုံးပြု၍ ခိုင်လုံစေထားသော Policy Proposal",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w24-dm-4",
+          termEn: "Context-specific strategy",
+          termMy: "Context-Specific Strategy",
+          matchEn:
+              "A development approach tailored to a particular country's specific situation",
+          matchMy:
+              "နိုင်ငံတိကျတစ်ခု၏ တိကျသော အခြေအနေအတွက် ချိန်ညှိထားသော Development Approach",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Justified or Poorly-Justified Recommendation?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းစွာ ခိုင်လုံ (သို့) ညံ့ဖျင်းစွာ ခိုင်လုံသော Recommendation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Well-Justified Recommendation",
+          "Poorly-Justified Recommendation",
+        ],
+        bucketsMy: [
+          "ကောင်းစွာ ခိုင်လုံသော Recommendation",
+          "ညံ့ဖျင်းစွာ ခိုင်လုံသော Recommendation",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w24-sort-1",
+            labelEn:
+                "A strategy citing the country's specific debt levels and resource advantages",
+            labelMy:
+                "နိုင်ငံ၏ တိကျသော Debt Level များနှင့် Resource အားသာချက်များကို ကိုးကားသော Strategy",
+            correctBucketEn: "Well-Justified Recommendation",
+            correctBucketMy: "ကောင်းစွာ ခိုင်လုံသော Recommendation",
+          ),
+          SortingItem(
+            id: "igchum-w24-sort-2",
+            labelEn:
+                "A generic strategy claimed to work identically in every country with no evidence",
+            labelMy:
+                "Evidence မည်သည်မှ မပါဘဲ နိုင်ငံတိုင်းတွင် တူညီစွာ အလုပ်ဖြစ်သည်ဟု Claim ပြုလုပ်သော Generic Strategy",
+            correctBucketEn: "Poorly-Justified Recommendation",
+            correctBucketMy: "ညံ့ဖျင်းစွာ ခိုင်လုံသော Recommendation",
+          ),
+          SortingItem(
+            id: "igchum-w24-sort-3",
+            labelEn:
+                "A recommendation weighing TNC investment benefits against its specific risks",
+            labelMy:
+                "TNC ရင်းနှီးမြှုပ်နှံမှု အကျိုးကျေးဇူးများကို ၎င်း၏ တိကျသော အန္တရာယ်များနှင့် ချိန်ဆသော Recommendation",
+            correctBucketEn: "Well-Justified Recommendation",
+            correctBucketMy: "ကောင်းစွာ ခိုင်လုံသော Recommendation",
+          ),
+          SortingItem(
+            id: "igchum-w24-sort-4",
+            labelEn:
+                "A one-sided proposal ignoring any possible risks or trade-offs entirely",
+            labelMy:
+                "ဖြစ်နိုင်သော အန္တရာယ် (သို့) Trade-Off မည်သည်ကိုမျှ လုံးဝ လျစ်လျူရှုသော One-Sided Proposal",
+            correctBucketEn: "Poorly-Justified Recommendation",
+            correctBucketMy: "ညံ့ဖျင်းစွာ ခိုင်လုံသော Recommendation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Development Case Study Portfolio",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Development Case Study Portfolio",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Development Case Study Portfolio",
+        titleMy: "Thiha Aung ၏ Development Case Study Portfolio",
+        passageEn:
+            "For Term 6's capstone, Saya Tun Tun Win asked every student to build a full development case study of a real country, combining measurement, foreign investment, and aid strategy into one connected analysis and closing with an evidence-based recommendation. Thiha Aung chose a country with a mid-range HDI score and a recent history of significant TNC investment.\n\nApplying Monday's lesson, his opening section presented both GNI and HDI data side by side, exactly as Week 21 had taught, showing that the country's HDI score lagged somewhat behind what its GNI alone might suggest -- pointing to a specific gap in health or education investment worth investigating further, rather than assuming income and development moved in perfect lockstep.\n\nHis middle section, applying Week 22's TNC lesson, examined a real foreign mining investment in the country, weighing the jobs and infrastructure it had genuinely created against the environmental costs and revenue-dependency risks it had also introduced -- neither dismissing the benefits nor ignoring the risks. He connected this directly to the country's bargaining position, noting its unique mineral resources had given its government meaningful negotiating leverage.\n\nHis final section, applying Week 23's aid lesson, examined the country's mix of aid received: some in the form of loans contributing to a growing debt burden, some in the form of capacity-building grants funding teacher and technician training with lasting effects. Applying Wednesday's context-specific lesson, his recommendation avoided a generic prescription, instead proposing that the country prioritize capacity-building grants over new loans specifically because its existing debt service was already straining its budget -- a recommendation grounded in the country's own specific data rather than a one-size-fits-all formula. Saya Tun Tun Win praised the portfolio as a genuine term-long synthesis, connecting measurement, investment, and aid into one coherent, evidence-based development picture.",
+        passageMy:
+            "Term 6 Capstone အတွက် Measurement, Foreign Investment နှင့် Aid Strategy ကို Connected Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်၍ Evidence-Based Recommendation တစ်ခုဖြင့် ကုန်ဆုံးသော နိုင်ငံစစ်မှန်တစ်ခု၏ Development Case Study အပြည့်အစုံ တစ်ခုကို ကျောင်းသားတိုင်းအား တည်ဆောက်ရန် Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ HDI Score Mid-Range ရှိပြီး TNC ရင်းနှီးမြှုပ်နှံမှု သိသာသော လွန်ခဲ့သော သမိုင်းရှိသော နိုင်ငံတစ်ခုကို Thiha Aung ရွေးချယ်ခဲ့သည်။\n\nတနင်္လာနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ဖွင့်လှစ် Section သည် Week 21 သင်ကြားပေးခဲ့သည့်အတိုင်း GNI နှင့် HDI Data နှစ်ခုစလုံးကို ဘေးချင်းယှဉ် တင်ပြခဲ့ပြီး ၎င်း၏ HDI Score သည် GNI တစ်ခုတည်းက ညွှန်ပြနိုင်သည်ထက် အနည်းငယ် နောက်ကျနေကြောင်း ပြသခဲ့သည် -- Income နှင့် Development သည် ပြီးပြည့်စုံစွာ Lockstep ၌ ရွေ့လျားသည်ဟု ယူဆမည့်အစား ဆက်လက် သုတေသနပြုလုပ်ဖွယ် ကျန်းမာရေး (သို့) ပညာရေး ရင်းနှီးမြှုပ်နှံမှုတွင် တိကျသော Gap တစ်ခုကို ညွှန်ပြခဲ့သည်။\n\nWeek 22 ၏ TNC သင်ခန်းစာကို အသုံးချသော ၎င်း၏ အလယ်ပိုင်း Section သည် နိုင်ငံရှိ Real Foreign Mining Investment တစ်ခုကို စစ်ဆေးခဲ့ပြီး ၎င်း စစ်မှန်စွာ ဖန်တီးခဲ့သော အလုပ်အကိုင်နှင့် Infrastructure ကို ၎င်း ဆက်လက် မိတ်ဆက်ပေးခဲ့သော ပတ်ဝန်းကျင် ကုန်ကျစရိတ်များနှင့် Revenue-Dependency အန္တရာယ်များနှင့် ချိန်ဆခဲ့သည် -- အကျိုးကျေးဇူးများကို ပယ်ချခြင်း (သို့) အန္တရာယ်များကို လျစ်လျူရှုခြင်း မရှိပါ။ ၎င်း၏ ထူးခြားသော Mineral Resource များသည် ၎င်း၏ အစိုးရအား အဓိပ္ပာယ်ရှိသော Negotiating Leverage ပေးအပ်ခဲ့ကြောင်း ဤသည်ကို နိုင်ငံ၏ Bargaining Position သို့ ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည်။\n\nWeek 23 ၏ Aid သင်ခန်းစာကို အသုံးချသော ၎င်း၏ နောက်ဆုံး Section သည် နိုင်ငံ ရရှိခဲ့သော Aid ရောစပ်မှုကို စစ်ဆေးခဲ့သည် - တခြို့သည် ကြီးထွားနေသော Debt ဝန်ထုပ်ဝန်ပိုးထဲသို့ ပါဝင်ခဲ့သော Loan ပုံစံ၊ တခြို့သည် ကြာရှည် သက်ရောက်မှုရှိသော ဆရာနှင့် Technician Training ငွေထောက်ပံ့ခဲ့သော Capacity-Building Grant ပုံစံ။ ဗုဒ္ဓဟူးနေ့ Context-Specific သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ Recommendation သည် Generic Prescription တစ်ခုကို ရှောင်ရှားခဲ့ပြီး ၎င်း၏ ရှိပြီးသား Debt Service သည် ၎င်း၏ Budget ကို ယခုပင် ဖိစီးနေသောကြောင့် Loan အသစ်များထက် Capacity-Building Grant များကို ဦးစားပေးရန် အထူးသဖြင့် အဆိုပြုခဲ့သည် -- One-Size-Fits-All Formula တစ်ခုအစား နိုင်ငံကိုယ်ပိုင် တိကျသော Data ပေါ်တွင် အခြေခံထားသော Recommendation တစ်ခု ဖြစ်သည်။ Measurement, Investment နှင့် Aid ကို ညီညွတ်၊ Evidence-Based Development ပုံရိပ်တစ်ခုတည်းအဖြစ် ချိတ်ဆက်ခဲ့ကာ Term-Long Synthesis စစ်မှန်တစ်ခုအဖြစ် Portfolio ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung's opening section reveal about the country?",
+            questionMy:
+                "နိုင်ငံအကြောင်း Thiha Aung ၏ ဖွင့်လှစ် Section ဖော်ထုတ်ခဲ့သည့် အချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its HDI score lagged behind what its GNI alone might suggest",
+              "Its HDI and GNI were always exactly identical numbers",
+              "The country had no measurable development data of any kind",
+              "Income and development always moved in perfect lockstep",
+            ],
+            optionsMy: [
+              "၎င်း၏ HDI Score သည် GNI တစ်ခုတည်းက ညွှန်ပြနိုင်သည်ထက် နောက်ကျနေခဲ့ခြင်း",
+              "၎င်း၏ HDI နှင့် GNI သည် အတိအကျ တူညီသော နံပါတ်များ အမြဲ ဖြစ်ခဲ့ခြင်း",
+              "နိုင်ငံတွင် တိုင်းတာနိုင်သော Development Data မည်သည်မှ မရှိခဲ့ခြင်း",
+              "Income နှင့် Development သည် ပြီးပြည့်စုံစွာ Lockstep ၌ အမြဲ ရွေ့လျားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's finding."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ တွေ့ရှိချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Thiha Aung assess the mining investment?",
+            questionMy:
+                "Mining Investment ကို Thiha Aung မည်သို့ အကဲဖြတ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He weighed genuine benefits against real environmental and dependency risks",
+              "He presented only the benefits with no mention of risks",
+              "He presented only the risks with no mention of benefits",
+              "He refused to assess the investment in any way",
+            ],
+            optionsMy: [
+              "စစ်မှန်သော အကျိုးကျေးဇူးများကို စစ်မှန်သော ပတ်ဝန်းကျင်နှင့် Dependency အန္တရာယ်များနှင့် ချိန်ဆခဲ့ခြင်း",
+              "အန္တရာယ်များကို ဖော်ပြခြင်း မပါဘဲ အကျိုးကျေးဇူးများကိုသာ တင်ပြခဲ့ခြင်း",
+              "အကျိုးကျေးဇူးများကို ဖော်ပြခြင်း မပါဘဲ အန္တရာယ်များကိုသာ တင်ပြခဲ့ခြင်း",
+              "Investment ကို မည်သည့်နည်းနှင့်မျှ အကဲဖြတ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's assessment."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Assessment ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Thiha Aung's recommendation prioritize and why?",
+            questionMy:
+                "Thiha Aung ၏ Recommendation ဦးစားပေးခဲ့သော အရာနှင့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Capacity-building grants over new loans, given the country's already-strained debt service",
+              "New loans over grants with no reference to the country's debt situation",
+              "A completely generic strategy with no country-specific evidence",
+              "No recommendation of any kind was actually made",
+            ],
+            optionsMy: [
+              "နိုင်ငံ၏ ယခင်ကပင် ဖိစီးနေသော Debt Service ကို ထောက်ရှု၍ Loan အသစ်များထက် Capacity-Building Grant များ",
+              "နိုင်ငံ၏ Debt အခြေအနေကို ရည်ညွှန်းချက် မပါဘဲ Grant များထက် Loan အသစ်များ",
+              "Country-Specific Evidence မပါဘဲ လုံးဝ Generic Strategy တစ်ခု",
+              "Recommendation မည်သည်ကိုမျှ အမှန်တကယ် ပြုလုပ်ခဲ့ခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's recommendation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Recommendation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Development, Globalisation and Trade Exam",
+      titleMy:
+          "Term 6 Capstone - Development, Globalisation and Trade စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete development case study should combine...",
+          questionMy:
+              "ပြည့်စုံသော Development Case Study တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Measurement, investment, and aid strategy into one analysis",
+            "Only measurement data with nothing else",
+            "Only investment data with nothing else",
+            "No geographical concepts of any kind",
+          ],
+          optionsMy: [
+            "Measurement, Investment နှင့် Aid Strategy ကို Analysis တစ်ခုတည်းအဖြစ်",
+            "အခြားမည်သည်မှ မပါဘဲ Measurement Data တစ်ခုတည်း",
+            "အခြားမည်သည်မှ မပါဘဲ Investment Data တစ်ခုတည်း",
+            "ဂျီဩဂရာဖီဆိုင်ရာ Concept မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A credible development recommendation should...",
+          questionMy:
+              "ယုံကြည်ရသော Development Recommendation တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Weigh benefits and risks explicitly rather than presenting one side",
+            "Present only the most favorable interpretation",
+            "Claim trade-offs never exist in real decisions",
+            "Avoid any evidence of any kind",
+          ],
+          optionsMy: [
+            "ဘက်တစ်ဘက်ကိုသာ တင်ပြမည့်အစား အကျိုးကျေးဇူးနှင့် အန္တရာယ်ကို ရှင်းလင်းစွာ ချိန်ဆခြင်း",
+            "ဖြစ်နိုင်ဆုံး Favorable Interpretation ကိုသာ တင်ပြခြင်း",
+            "Trade-Off များသည် စစ်မှန်သော ဆုံးဖြတ်ချက်များတွင် ဘယ်တော့မှ မရှိကြောင်း Claim ပြုလုပ်ခြင်း",
+            "Evidence မည်သည်မှ ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A development strategy should be justified using...",
+          questionMy:
+              "Development Strategy တစ်ခုကို ...အသုံးပြု၍ ခိုင်လုံစေသင့်သည်",
+          optionsEn: [
+            "Evidence about that specific country's situation",
+            "A generic formula claimed to work everywhere",
+            "No evidence of any kind whatsoever",
+            "Only the preferences of the investing corporation",
+          ],
+          optionsMy: [
+            "ထို တိကျသော နိုင်ငံ၏ အခြေအနေအကြောင်း Evidence",
+            "နေရာတိုင်းတွင် အလုပ်ဖြစ်သည်ဟု Claim ပြုလုပ်ထားသော Generic Formula",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "ရင်းနှီးမြှုပ်နှံနေသော Corporation ၏ Preference များသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 6: "Development, Globalisation and Trade"
+// (Weeks 21-24)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm6 = CourseTermDef(
+  id: "course-igcse-hum-t6",
+  termNumber: 6,
+  titleEn: "Development, Globalisation and Trade",
+  titleMy: "Development, Globalisation နှင့် Trade",
+  certificateTitleEn: "Development, Globalisation and Trade",
+  certificateTitleMy: "Development, Globalisation နှင့် Trade",
+  weeks: [_igcseHumWeek21, _igcseHumWeek22, _igcseHumWeek23, _igcseHumWeek24],
 );
 // __IGCSE_HUM_MARKER__
