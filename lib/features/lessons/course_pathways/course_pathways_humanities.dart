@@ -90683,9 +90683,9 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
   titleEn: "IGCSE Humanities (History & Geography)",
   titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation. Term 7, The Cold War: Rivalry, Crisis and Resolution, covers the superpowers' ideological rivalry and spheres of influence, the Berlin and Cuban crises, and proxy wars alongside the Soviet economy's structural strain, closing with a mock trial weighing which factor most shaped the war's overall trajectory.",
+      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation. Term 7, The Cold War: Rivalry, Crisis and Resolution, covers the superpowers' ideological rivalry and spheres of influence, the Berlin and Cuban crises, and proxy wars alongside the Soviet economy's structural strain, closing with a mock trial weighing which factor most shaped the war's overall trajectory. Term 8, Natural Hazards and the Environment, covers tectonic hazards from earthquakes and volcanoes, weather hazards from tropical storms and drought, and climate change's causes and impacts, closing with a Hazard Mitigation Studio combining risk assessment, evidenced resource allocation, and honest acknowledgment of uncertainty into one complete mitigation plan.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Cold War: Rivalry, Crisis and Resolution သည် Superpower များ၏ Ideological Rivalry နှင့် Sphere of Influence များ, Berlin နှင့် Cuban Crisis များနှင့် Soviet Economy ၏ Structural Strain နှင့်အတူ Proxy War များကို ဖုံးအုပ်ပြီး Factor မည်သည် စစ်ပွဲ၏ Overall Trajectory ကို အများဆုံး ပုံဖော်ခဲ့သည်ကို ချိန်ဆသော Mock Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Cold War: Rivalry, Crisis and Resolution သည် Superpower များ၏ Ideological Rivalry နှင့် Sphere of Influence များ, Berlin နှင့် Cuban Crisis များနှင့် Soviet Economy ၏ Structural Strain နှင့်အတူ Proxy War များကို ဖုံးအုပ်ပြီး Factor မည်သည် စစ်ပွဲ၏ Overall Trajectory ကို အများဆုံး ပုံဖော်ခဲ့သည်ကို ချိန်ဆသော Mock Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards and the Environment သည် ငလျင်နှင့် မီးတောင်များမှ Tectonic Hazard များ၊ Tropical Storm နှင့် ရေရှားပါးမှုမှ Weather Hazard များနှင့် Climate Change ၏ Cause နှင့် Impact များကို ဖုံးအုပ်ပြီး Risk Assessment, Evidenced Resource Allocation နှင့် Uncertainty ရိုးသားစွာ အသိအမှတ်ပြုမှုကို Mitigation Plan အပြည့်အစုံ တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Hazard Mitigation Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseHumTerm1,
@@ -90695,6 +90695,7 @@ const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
     _igcseHumTerm5,
     _igcseHumTerm6,
     _igcseHumTerm7,
+    _igcseHumTerm8,
   ],
 );
 // =====================================================================
@@ -99194,5 +99195,1423 @@ const CourseTermDef _igcseHumTerm7 = CourseTermDef(
   certificateTitleEn: "The Cold War: Rivalry, Crisis and Resolution",
   certificateTitleMy: "Cold War - Rivalry, Crisis နှင့် Resolution",
   weeks: [_igcseHumWeek25, _igcseHumWeek26, _igcseHumWeek27, _igcseHumWeek28],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 8, Week 29: "Tectonic Hazards:
+// Earthquakes and Volcanoes"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek29 = CourseWeekDef(
+  id: "course-igcse-hum-w29",
+  weekNumber: 29,
+  titleEn: "Tectonic Hazards: Earthquakes and Volcanoes",
+  titleMy: "Tectonic Hazard များ - ငလျင်များနှင့် Volcano များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w29-d1",
+      dayNumber: 1,
+      titleEn: "Plate Boundaries and Why Tectonic Hazards Cluster",
+      titleMy:
+          "Plate Boundary များနှင့် Tectonic Hazard များ Cluster ဖြစ်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do earthquakes and volcanic eruptions occur predominantly along tectonic plate boundaries rather than being randomly distributed across the Earth's surface?",
+          questionMy:
+              "ငလျင်များနှင့် Volcanic Eruption များသည် ကမ္ဘာမြေပြင်တစ်ဝှမ်း ကျပန်း ဖြန့်ဝေခြင်းအစား Tectonic Plate Boundary များတစ်လျှောက် အဓိကအားဖြင့် ဖြစ်ပွားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The stress and movement generated where plates meet, collide, or slide past each other releases the energy that produces earthquakes and creates pathways for magma to reach the surface as volcanic activity",
+            "Earthquakes and volcanic eruptions occur with exactly equal frequency everywhere on Earth",
+            "Plate boundaries have no actual connection to where tectonic hazards occur",
+            "Tectonic activity is entirely random with no relationship to the Earth's geological structure",
+          ],
+          optionsMy: [
+            "Plate များ ကြုံဆုံ၊ တိုက်မိ (သို့) တစ်ခုနှင့်တစ်ခု ဖြတ်သန်းသွားသော နေရာတွင် ဖြစ်ပေါ်လာသော Stress နှင့် Movement သည် ငလျင်များကို ထုတ်လုပ်ပေးသော Energy ကို ထုတ်လွှတ်ပေးပြီး Magma သည် Volcanic Activity အဖြစ် မြေပြင်သို့ ရောက်ရှိနိုင်ရန် Pathway များ ဖန်တီးပေးသည်",
+            "ငလျင်များနှင့် Volcanic Eruption များသည် ကမ္ဘာပေါ်ရှိ နေရာတိုင်းတွင် အတိအကျ ညီမျှသော Frequency ဖြင့် ဖြစ်ပွားခြင်း",
+            "Plate Boundary များသည် Tectonic Hazard ဖြစ်ပွားသောနေရာနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Tectonic Activity သည် ကမ္ဘာမြေ၏ ဂျီဩလော်ဂျီဆိုင်ရာ Structure နှင့် ဆက်စပ်မှု မရှိဘဲ လုံးလုံးလျားလျား ကျပန်း ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same physical-cause reasoning from Week 13's population-distribution lesson -- just as physical geography explains where people settle, physical geology explains where tectonic hazards concentrate.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13 ၏ Population-Distribution သင်ခန်းစာမှ Physical-Cause Reasoning တူတူကို အသုံးချသည် -- Physical Geography သည် လူများ မည်သို့ အခြေချသည်ကို ရှင်းပြသကဲ့သို့ Physical Geology သည် Tectonic Hazard များ မည်သို့ စုစည်းသည်ကို ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do earthquakes at different types of plate boundaries (e.g. transform versus convergent) tend to produce different characteristics of ground movement?",
+          questionMy:
+              "Plate Boundary အမျိုးအစား ကွဲပြားများ (ဥပမာ - Transform Versus Convergent) ရှိ ငလျင်များသည် Ground Movement ၏ ကွဲပြားသော ဂုဏ်သတ္တိများ ထုတ်လုပ်ပေးတတ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The specific way plates interact -- sliding past, colliding, or pulling apart -- produces different stress patterns and release mechanisms, resulting in earthquakes with different depths and characteristics",
+            "All plate boundaries produce exactly identical earthquake characteristics with no variation",
+            "The type of plate boundary has no actual effect on earthquake characteristics",
+            "Earthquakes only ever occur at one single type of plate boundary",
+          ],
+          optionsMy: [
+            "Plate များ Interact ပြုလုပ်သော တိကျသော နည်းလမ်း -- ဖြတ်သန်း၊ တိုက်မိ (သို့) ဆွဲထုတ်ခြင်း -- သည် ကွဲပြားသော Stress Pattern များနှင့် Release Mechanism များ ထုတ်လုပ်ပေးပြီး Depth နှင့် ဂုဏ်သတ္တိများ ကွဲပြားသော ငလျင်များ ဖြစ်ပေါ်စေသည်",
+            "Plate Boundary အားလုံးသည် Variation မပါဘဲ ငလျင် ဂုဏ်သတ္တိများ အတိအကျ တူညီစွာ ထုတ်လုပ်ပေးခြင်း",
+            "Plate Boundary အမျိုးအစားသည် ငလျင် ဂုဏ်သတ္တိများအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "ငလျင်များသည် Plate Boundary အမျိုးအစား တစ်ခုတည်းတွင်သာ ဘယ်တော့မှ ဖြစ်ပွားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Just as different causal mechanisms in history produce different outcomes (Week 5's MAIN causes versus Week 6's trigger), different physical interactions between plates produce genuinely different hazard characteristics.",
+          ],
+          hintsMy: [
+            "သမိုင်းတွင် ကွဲပြားသော Causal Mechanism များ ကွဲပြားသော ရလဒ်များ ထုတ်လုပ်ပေးသကဲ့သို့ (Week 5 ၏ MAIN Cause များ Versus Week 6 ၏ Trigger) Plate များကြား ကွဲပြားသော Physical Interaction များသည် စစ်မှန်စွာ ကွဲပြားသော Hazard ဂုဏ်သတ္တိများ ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a city located directly on a plate boundary need fundamentally different disaster preparedness planning than a city located far from any boundary?",
+          questionMy:
+              "Plate Boundary တစ်ခုတည်းပေါ်တွင် တိုက်ရိုက် တည်ရှိသော မြို့တစ်ခုသည် Boundary မည်သည်မှ ဝေးသော မြို့တစ်ခုထက် Fundamentally ကွဲပြားသော Disaster Preparedness Planning လိုအပ်နိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The geological risk profile differs substantially based on proximity to a plate boundary, so preparedness resources should be allocated according to the specific hazard likelihood a location actually faces",
+            "Every location on Earth faces exactly identical tectonic hazard risk regardless of geological position",
+            "Disaster preparedness planning should never actually consider a location's specific geological risk",
+            "Plate boundary proximity has no actual connection to a location's earthquake risk",
+          ],
+          optionsMy: [
+            "Geological Risk Profile သည် Plate Boundary တစ်ခုနှင့် နီးကပ်မှုပေါ် မူတည်၍ သိသိသာသာ ကွဲပြားသောကြောင့် Preparedness Resource များကို တည်နေရာတစ်ခု အမှန်တကယ် ကြုံတွေ့ရသော တိကျသော Hazard ဖြစ်နိုင်ခြေအရ ခွဲဝေသင့်သည်",
+            "ကမ္ဘာပေါ်ရှိ တည်နေရာတိုင်းသည် Geological Position မည်သို့ပင်ရှိစေ Tectonic Hazard Risk အတိအကျ တူညီစွာ ကြုံတွေ့ခြင်း",
+            "Disaster Preparedness Planning သည် တည်နေရာတစ်ခု၏ တိကျသော Geological Risk ကို အမှန်တကယ် ဘယ်တော့မှ ထည့်သွင်းစဉ်းစားသင့်ခြင်း",
+            "Plate Boundary နှင့် နီးကပ်မှုသည် တည်နေရာတစ်ခု၏ ငလျင် Risk နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 6's context-specific-strategy lesson -- just as a country's development strategy should reflect its specific situation, a city's disaster planning should reflect its specific geological risk.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Context-Specific-Strategy သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- နိုင်ငံတစ်ခု၏ Development Strategy သည် ၎င်း၏ တိကျသော အခြေအနေကို ထင်ဟပ်သင့်သကဲ့သို့ မြို့တစ်ခု၏ Disaster Planning သည် ၎င်း၏ တိကျသော Geological Risk ကို ထင်ဟပ်သင့်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Tectonic Hazard Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Tectonic Hazard ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w29-dm-1",
+          termEn: "Plate boundary",
+          termMy: "Plate Boundary",
+          matchEn: "The edge where two tectonic plates meet and interact",
+          matchMy:
+              "Tectonic Plate နှစ်ခု ကြုံဆုံကာ Interact ပြုလုပ်သော အနားစွန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w29-dm-2",
+          termEn: "Magnitude",
+          termMy: "Magnitude",
+          matchEn: "A measure of the energy released by an earthquake",
+          matchMy: "ငလျင်တစ်ခုက ထုတ်လွှတ်သော Energy ၏ တိုင်းတာချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w29-dm-3",
+          termEn: "Magma",
+          termMy: "Magma",
+          matchEn:
+              "Molten rock beneath the Earth's surface that can erupt as lava",
+          matchMy:
+              "Lava အဖြစ် Erupt ဖြစ်နိုင်သော ကမ္ဘာမြေပြင် အောက်ရှိ အရည်ပျော် ကျောက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w29-dm-4",
+          termEn: "Disaster preparedness",
+          termMy: "Disaster Preparedness",
+          matchEn:
+              "Planning and resource allocation based on a location's specific hazard risk",
+          matchMy:
+              "တည်နေရာတစ်ခု၏ တိကျသော Hazard Risk ပေါ် အခြေခံသော Planning နှင့် Resource ခွဲဝေမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: High Tectonic Risk or Low Tectonic Risk Location?",
+      titleMy:
+          "စီစစ်ကြမည် - High Tectonic Risk (သို့) Low Tectonic Risk Location",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["High Tectonic Risk", "Low Tectonic Risk"],
+        bucketsMy: ["High Tectonic Risk", "Low Tectonic Risk"],
+        items: [
+          SortingItem(
+            id: "igchum-w29-sort-1",
+            labelEn: "A city located directly along an active plate boundary",
+            labelMy:
+                "Active Plate Boundary တစ်လျှောက် တိုက်ရိုက် တည်ရှိသော မြို့တစ်ခု",
+            correctBucketEn: "High Tectonic Risk",
+            correctBucketMy: "High Tectonic Risk",
+          ),
+          SortingItem(
+            id: "igchum-w29-sort-2",
+            labelEn:
+                "A region located in the stable center of a continental plate, far from any boundary",
+            labelMy:
+                "Boundary မည်သည်မှ ဝေးသော Continental Plate တစ်ခု၏ တည်ငြိမ်သော Center တွင် တည်ရှိသော ဒေသတစ်ခု",
+            correctBucketEn: "Low Tectonic Risk",
+            correctBucketMy: "Low Tectonic Risk",
+          ),
+          SortingItem(
+            id: "igchum-w29-sort-3",
+            labelEn: "A town near an active volcano along a subduction zone",
+            labelMy:
+                "Subduction Zone တစ်လျှောက် Active Volcano အနီးရှိ မြို့ငယ်တစ်ခု",
+            correctBucketEn: "High Tectonic Risk",
+            correctBucketMy: "High Tectonic Risk",
+          ),
+          SortingItem(
+            id: "igchum-w29-sort-4",
+            labelEn:
+                "A plateau located far from any recorded fault lines or plate margins",
+            labelMy:
+                "မှတ်တမ်းတင်ထားသော Fault Line (သို့) Plate Margin မည်သည်မှ ဝေးသော Plateau တစ်ခု",
+            correctBucketEn: "Low Tectonic Risk",
+            correctBucketMy: "Low Tectonic Risk",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Tectonic Risk Zone Map",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Tectonic Risk Zone Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Tectonic Risk Zone Map",
+        titleMy: "Thiha Aung ၏ Tectonic Risk Zone Map",
+        passageEn:
+            "Opening Term 8's shift to hazard geography, Saya Tun Tun Win gave students a world map showing plate boundaries and asked them to plot the world's most significant historical earthquakes and volcanic eruptions on top of it, applying Monday's lesson to explain the resulting pattern rather than simply describing it.\n\nThiha Aung's completed map showed exactly what Monday's lesson predicted: the overwhelming majority of major historical earthquakes and eruptions clustered tightly along plate boundary lines, with very few events occurring in the stable interior regions of continental plates far from any boundary. He explained this pattern using the physical mechanism directly -- boundary regions concentrate the geological stress and magma pathways that produce tectonic hazards, while interior regions lack these specific conditions.\n\nApplying Tuesday's lesson on boundary types, Thiha Aung's map included a secondary layer distinguishing different boundary types, and he noted that regions along boundaries where plates collide directly tended to produce different earthquake depth patterns than regions where plates slide past each other -- a distinction he researched using data from real historical events at each boundary type.\n\nApplying Wednesday's lesson on location-specific planning, his written analysis concluded by comparing two real cities: one located directly on an active plate boundary with a documented history of major earthquakes, and one located in a geologically stable continental interior with almost no earthquake history. He argued that the first city's disaster preparedness budget should reasonably prioritize earthquake-resistant building codes and public earthquake drills far more heavily than the second city's, since their actual geological risk profiles were fundamentally different despite both being similarly sized urban areas. Saya Tun Tun Win praised the map and analysis for grounding a geographical pattern in the same evidence-based, location-specific reasoning the course had built since Term 1's map skills.",
+        passageMy:
+            "Hazard ဂျီဩဂရာဖီသို့ Term 8 ၏ Shift ကို ဖွင့်လှစ်ရန် Plate Boundary များ ပြသသော ကမ္ဘာ့ Map တစ်ခုကို ကျောင်းသားများအား Saya Tun Tun Win ပေးအပ်ခဲ့ပြီး ကမ္ဘာ့ အရေးအကြီးဆုံး သမိုင်းဆိုင်ရာ ငလျင်များနှင့် Volcanic Eruption များကို ၎င်းအပေါ် Plot ဆွဲရန် တောင်းဆိုကာ ရလဒ် Pattern ကို ရိုးရှင်းစွာ ဖော်ပြရုံသက်သက်မက ရှင်းပြရန် တနင်္လာနေ့ သင်ခန်းစာကို အသုံးချရန် တောင်းဆိုခဲ့သည်။\n\nThiha Aung ၏ ပြီးစီးသော Map သည် တနင်္လာနေ့ သင်ခန်းစာ ခန့်မှန်းခဲ့သည့်အတိုင်း အတိအကျ ပြသခဲ့သည် - Major သမိုင်းဆိုင်ရာ ငလျင်များနှင့် Eruption များ အများစုသည် Plate Boundary Line များတစ်လျှောက် ကျဉ်းကျဉ်း Cluster ဖြစ်ခဲ့ပြီး Boundary မည်သည်မှ ဝေးသော Continental Plate များ၏ တည်ငြိမ်သော Interior ဒေသများတွင် Event အနည်းငယ်သာ ဖြစ်ပွားခဲ့သည်။ Physical Mechanism ကို တိုက်ရိုက် အသုံးပြု၍ ဤ Pattern ကို ၎င်း ရှင်းပြခဲ့သည် -- Boundary ဒေသများသည် Tectonic Hazard များ ထုတ်လုပ်ပေးသော Geological Stress နှင့် Magma Pathway များကို စုစည်းစေသော်လည်း Interior ဒေသများတွင် ဤ တိကျသော Condition များ ကင်းမဲ့သည်။\n\nBoundary Type များအကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ Thiha Aung ၏ Map သည် Boundary Type ကွဲပြားများ ခွဲခြားသော Secondary Layer တစ်ခု ပါဝင်ခဲ့ပြီး Plate များ တိုက်ရိုက် တိုက်မိသော Boundary တစ်လျှောက် ဒေသများသည် တစ်ဦးနှင့်တစ်ဦး ဖြတ်သန်းသွားသော Plate ရှိ ဒေသများထက် ကွဲပြားသော ငလျင် Depth Pattern ထုတ်လုပ်ပေးတတ်ကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည် -- Boundary Type တစ်ခုစီရှိ Real သမိုင်းဆိုင်ရာ Event များမှ Data ကို အသုံးပြု၍ ၎င်း သုတေသနပြုလုပ်ခဲ့သော ခွဲခြားချက်တစ်ခု ဖြစ်သည်။\n\nLocation-Specific Planning အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ရေးသားထားသော Analysis သည် Real မြို့နှစ်ခုကို နှိုင်းယှဉ်ခြင်းဖြင့် ကုန်ဆုံးခဲ့သည် - Major ငလျင်များ၏ Document ပြုလုပ်ထားသော သမိုင်းရှိသော Active Plate Boundary တစ်ခုပေါ်တွင် တိုက်ရိုက် တည်ရှိသော တစ်ခုနှင့် ငလျင် သမိုင်း နီးပါး မရှိသော Geologically တည်ငြိမ်သော Continental Interior တွင် တည်ရှိသော တစ်ခု။ ၎င်းတို့ အမှန်တကယ် Geological Risk Profile များသည် အလားတူ အရွယ်အစားရှိသော Urban Area များ ဖြစ်ကြသော်လည်း Fundamentally ကွဲပြားသောကြောင့် ပထမ မြို့၏ Disaster Preparedness Budget သည် ဒုတိယ မြို့ထက် Earthquake-Resistant Building Code များနှင့် Public Earthquake Drill များကို ပို၍ လေးလေးနက်နက် ဦးစားပေးသင့်ကြောင်း ၎င်း ငြင်းခုံခဲ့သည်။ Term 1 ၏ Map Skill များမှစ၍ Course တည်ဆောက်ခဲ့သော Evidence-Based, Location-Specific Reasoning တူတူတွင် ဂျီဩဂရာဖီဆိုင်ရာ Pattern တစ်ခုကို ကျောခံထားခဲ့သောကြောင့် Map နှင့် Analysis ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what pattern did Thiha Aung's map show?",
+            questionMy:
+                "Thiha Aung ၏ Map ပြသခဲ့သော Pattern ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Most major earthquakes and eruptions clustered along plate boundary lines",
+              "Earthquakes and eruptions were distributed with exactly equal frequency everywhere",
+              "No pattern of any kind could be identified from the map",
+              "Most events occurred in stable continental interiors far from any boundary",
+            ],
+            optionsMy: [
+              "Major ငလျင်များနှင့် Eruption များ အများစုသည် Plate Boundary Line များတစ်လျှောက် Cluster ဖြစ်ခဲ့ခြင်း",
+              "ငလျင်များနှင့် Eruption များသည် နေရာတိုင်းတွင် အတိအကျ ညီမျှသော Frequency ဖြင့် ဖြန့်ဝေခဲ့ခြင်း",
+              "Map မှ Pattern မည်သည်မှ ဖော်ထုတ်၍ မရနိုင်ခဲ့ခြင်း",
+              "Event အများစုသည် Boundary မည်သည်မှ ဝေးသော တည်ငြိမ်သော Continental Interior များတွင် ဖြစ်ပွားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's map findings."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Map Findings ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what secondary layer did Thiha Aung add to his map?",
+            questionMy:
+                "Thiha Aung ၎င်း၏ Map တွင် ထည့်သွင်းခဲ့သော Secondary Layer ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A layer distinguishing different plate boundary types and their earthquake depth patterns",
+              "No secondary layer was added to the map at all",
+              "A layer showing only population density with no connection to tectonics",
+              "A layer showing weather patterns with no connection to plate boundaries",
+            ],
+            optionsMy: [
+              "Plate Boundary Type ကွဲပြားများနှင့် ၎င်းတို့၏ ငလျင် Depth Pattern များကို ခွဲခြားသော Layer",
+              "Map သို့ Secondary Layer မည်သည်မှ ထည့်သွင်းခဲ့ခြင်း လုံးဝ မရှိခြင်း",
+              "Tectonics နှင့် ချိတ်ဆက်မှု မပါဘဲ Population Density တစ်ခုတည်းကိုသာ ပြသော Layer",
+              "Plate Boundary များနှင့် ချိတ်ဆက်မှု မပါဘဲ Weather Pattern ပြသော Layer",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's description of the secondary layer.",
+            ],
+            hintsMy: [
+              "Secondary Layer ဖော်ပြချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Thiha Aung argue about the two cities' disaster preparedness budgets?",
+            questionMy:
+                "မြို့နှစ်ခု၏ Disaster Preparedness Budget များအကြောင်း Thiha Aung ငြင်းခုံခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The city on the plate boundary should prioritize earthquake preparedness far more heavily",
+              "Both cities should have exactly identical disaster preparedness budgets",
+              "Neither city needed any disaster preparedness budget of any kind",
+              "The stable interior city should prioritize earthquake preparedness more heavily",
+            ],
+            optionsMy: [
+              "Plate Boundary ပေါ်ရှိ မြို့သည် Earthquake Preparedness ကို ပို၍ လေးလေးနက်နက် ဦးစားပေးသင့်ခြင်း",
+              "မြို့နှစ်ခုစလုံးတွင် Disaster Preparedness Budget အတိအကျ တူညီစွာ ရှိသင့်ခြင်း",
+              "မြို့နှစ်ခုစလုံးတွင် Disaster Preparedness Budget မည်သည်မှ မလိုအပ်ခြင်း",
+              "တည်ငြိမ်သော Interior မြို့သည် Earthquake Preparedness ကို ပို၍ လေးလေးနက်နက် ဦးစားပေးသင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's argument."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ Argument ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w29-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Tectonic Hazards",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Tectonic Hazard များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Earthquakes and eruptions cluster along plate boundaries because...",
+          questionMy:
+              "ငလျင်များနှင့် Eruption များသည် Plate Boundary များတစ်လျှောက် Cluster ဖြစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Stress and magma pathways concentrate at plate interactions",
+            "Boundaries have no connection to geological stress",
+            "Hazards are randomly distributed with no pattern",
+            "Interior regions always produce more hazards than boundaries",
+          ],
+          optionsMy: [
+            "Plate Interaction များတွင် Stress နှင့် Magma Pathway များ စုစည်းခြင်း",
+            "Boundary များသည် Geological Stress နှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Hazard များသည် Pattern မပါဘဲ ကျပန်း ဖြန့်ဝေခြင်း",
+            "Interior ဒေသများသည် Boundary များထက် Hazard ပို၍ အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Different plate boundary types can produce...",
+          questionMy:
+              "Plate Boundary Type ကွဲပြားများသည် ...ထုတ်လုပ်ပေးနိုင်သည်",
+          optionsEn: [
+            "Different earthquake depth patterns and characteristics",
+            "Exactly identical earthquake characteristics with no variation",
+            "No connection to earthquake characteristics at all",
+            "Only volcanic eruptions and never earthquakes",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော ငလျင် Depth Pattern များနှင့် ဂုဏ်သတ္တိများ",
+            "Variation မပါဘဲ ငလျင် ဂုဏ်သတ္တိများ အတိအကျ တူညီခြင်း",
+            "ငလျင် ဂုဏ်သတ္တိများနှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "Volcanic Eruption များကိုသာ ထုတ်လုပ်ပေးပြီး ငလျင်များကို ဘယ်တော့မှ မထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Disaster preparedness planning should be based on...",
+          questionMy:
+              "Disaster Preparedness Planning ကို ...ပေါ် အခြေခံသင့်သည်",
+          optionsEn: [
+            "A location's specific geological risk profile",
+            "Identical assumptions regardless of geological position",
+            "No consideration of actual hazard likelihood",
+            "The same plan applied uniformly everywhere on Earth",
+          ],
+          optionsMy: [
+            "တည်နေရာတစ်ခု၏ တိကျသော Geological Risk Profile",
+            "Geological Position မည်သို့ပင်ရှိစေ တူညီသော Assumption များ",
+            "အမှန်တကယ် Hazard ဖြစ်နိုင်ခြေကို ထည့်သွင်းစဉ်းစားခြင်း မရှိခြင်း",
+            "ကမ္ဘာပေါ်ရှိ နေရာတိုင်းတွင် တညီတညာတည်း အသုံးပြုသော Plan တူတူ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 8, Week 30: "Weather Hazards: Tropical
+// Storms and Drought"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek30 = CourseWeekDef(
+  id: "course-igcse-hum-w30",
+  weekNumber: 30,
+  titleEn: "Weather Hazards: Tropical Storms and Drought",
+  titleMy: "Weather Hazard များ - Tropical Storm များနှင့် မိုးခေါင်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w30-d1",
+      dayNumber: 1,
+      titleEn: "Why Tropical Storms and Droughts Form",
+      titleMy:
+          "Tropical Storm များနှင့် မိုးခေါင်ခြင်းများ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do tropical storms form specifically over warm ocean waters rather than over land or cold ocean regions?",
+          questionMy:
+              "Tropical Storm များသည် မြေပြင် (သို့) အေးခဲသော Ocean ဒေသများထက် နွေးထွေးသော Ocean ရေများအပေါ် အထူးသဖြင့် ဖြစ်ပေါ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Warm ocean water evaporates rapidly, feeding moist air upward and releasing the heat energy that powers a storm's rotation and intensity, a process land and cold water cannot sustain in the same way",
+            "Tropical storms form with exactly equal frequency over land, warm water, and cold water",
+            "Ocean water temperature has no actual connection to tropical storm formation",
+            "Tropical storms only ever form over frozen polar regions",
+          ],
+          optionsMy: [
+            "နွေးထွေးသော Ocean ရေသည် လျင်မြန်စွာ Evaporate ဖြစ်ပြီး Moist Air ကို အထက်သို့ ပို့ပေးကာ Storm ၏ Rotation နှင့် Intensity ကို ပံ့ပိုးသော Heat Energy ကို ထုတ်လွှတ်ပေးသည်၊ မြေပြင်နှင့် အေးခဲသော ရေသည် အလားတူ ဆက်လက် မထိန်းသိမ်းနိုင်သော Process ဖြစ်သည်",
+            "Tropical Storm များသည် မြေပြင်၊ နွေးထွေးသော ရေနှင့် အေးခဲသော ရေအပေါ် အတိအကျ ညီမျှသော Frequency ဖြင့် ဖြစ်ပေါ်ခြင်း",
+            "Ocean ရေ Temperature သည် Tropical Storm ဖွဲ့စည်းမှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Tropical Storm များသည် Frozen Polar ဒေသများအပေါ်တွင်သာ ဘယ်တော့မှ ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Warm water acts like fuel for a storm engine -- evaporation and heat release drive the rotating wind system, which is why storms weaken quickly once they move over land or cooler water.",
+          ],
+          hintsMy: [
+            "နွေးထွေးသော ရေသည် Storm Engine တစ်ခုအတွက် Fuel ကဲ့သို့ လုပ်ဆောင်သည် -- Evaporation နှင့် Heat Release သည် Rotating Wind System ကို ဦးဆောင်ပြီး Storm များသည် မြေပြင် (သို့) အေးမြသော ရေအပေါ်သို့ ရွေ့လျားလိုက်သည်နှင့် လျင်မြန်စွာ အားနည်းသွားရသည့် အကြောင်းရင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is drought better understood as a prolonged deficiency in expected rainfall over time, rather than simply the complete absence of any rain?",
+          questionMy:
+              "မိုးခေါင်ခြင်းကို မိုးရွာသွန်းမှု လုံးဝ ကင်းမဲ့ခြင်းရိုးရိုးအစား အချိန်ကြာလာသည်နှင့်အမျှ မျှော်လင့်ထားသော မိုးရွာသွန်းမှုတွင် ကြာမြင့်သော Deficiency တစ်ခုအဖြစ် ပို၍ ကောင်းစွာ နားလည်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A region can receive significantly below-average rainfall over an extended period, causing genuine agricultural and water-supply stress, even if some rain still falls occasionally",
+            "Drought only ever occurs when literally zero rain falls for an entire year",
+            "Rainfall deficiency has no actual connection to the concept of drought",
+            "A single day without rain is always sufficient to classify a region as experiencing drought",
+          ],
+          optionsMy: [
+            "အချို့ မိုး ကျခဲကျခဲ ရွာသွန်းနေသေးသော်လည်း ကျယ်ပြန့်သော ကာလတစ်ခုအတွင်း Region တစ်ခုသည် Average ထက် သိသိသာသာ နိမ့်သော မိုးရွာသွန်းမှု ရရှိနိုင်ပြီး စစ်မှန်သော လယ်ယာနှင့် ရေထောက်ပံ့မှု ဖိစီးမှု ဖြစ်စေနိုင်သည်",
+            "မိုးခေါင်ခြင်းသည် နှစ်တစ်ခုလုံးအတွက် မိုး လုံးဝ (Zero) မရွာသောအခါတွင်သာ ဘယ်တော့မှ ဖြစ်ပေါ်ခြင်း",
+            "မိုးရွာသွန်းမှု Deficiency သည် Drought Concept နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "မိုးမရွာသော တစ်ရက်တည်းသည် Region တစ်ခုကို Drought ကြုံတွေ့နေသည်ဟု အမျိုးအစားခွဲရန် အမြဲ လုံလောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 21's development-measurement lesson -- like HDI needing a nuanced, multi-factor definition rather than a single crude measure, drought needs a nuanced definition (deficiency over time) rather than an absolute yes/no of any rain at all.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21 ၏ Development-Measurement သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- HDI သည် Single Crude Measure တစ်ခုအစား Nuanced, Multi-Factor Definition လိုအပ်သကဲ့သို့ Drought သည် မိုးရွာသွန်းမှု မည်သည် ရှိသည် ရှိမရှိ Absolute Yes/No တစ်ခုအစား Nuanced Definition (အချိန်ကြာလာသည်နှင့်အမျှ Deficiency) လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might the human impact of a tropical storm or drought vary significantly between two regions experiencing hazards of similar physical intensity?",
+          questionMy:
+              "Physical Intensity ဆင်တူသော Hazard များ ကြုံတွေ့နေသော Region နှစ်ခုကြား Tropical Storm (သို့) Drought တစ်ခု၏ Human Impact သည် သိသိသာသာ ကွဲပြားနိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Differences in infrastructure, early-warning systems, and economic resources mean that the same physical hazard can produce very different levels of actual harm depending on a region's preparedness and resilience",
+            "The physical intensity of a hazard is always the only factor determining its human impact",
+            "Infrastructure and preparedness have no actual connection to how a hazard affects a population",
+            "Two regions facing similar hazard intensity will always experience exactly identical human impact",
+          ],
+          optionsMy: [
+            "Infrastructure, Early-Warning System များနှင့် Economic Resource များတွင် ခြားနားချက်များသည် Physical Hazard တူတူတစ်ခုသည် Region တစ်ခု၏ Preparedness နှင့် Resilience ပေါ် မူတည်ပြီး အလွန် ကွဲပြားသော အမှန်တကယ် ထိခိုက်မှု Level များ ထုတ်လုပ်ပေးနိုင်ကြောင်း ဆိုလိုသည်",
+            "Hazard တစ်ခု၏ Physical Intensity သည် ၎င်း၏ Human Impact ကို ဆုံးဖြတ်သော တစ်ခုတည်းသော Factor အမြဲ ဖြစ်ခြင်း",
+            "Infrastructure နှင့် Preparedness သည် Hazard တစ်ခု Population တစ်ခုကို မည်သို့ သက်ရောက်စေသည်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ဆင်တူသော Hazard Intensity ကြုံတွေ့နေသော Region နှစ်ခုသည် Human Impact အတိအကျ တူညီစွာ အမြဲ ကြုံတွေ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 29's location-specific preparedness lesson -- just as geological preparedness varies by risk profile, weather-hazard preparedness varies by infrastructure and resources, producing different outcomes from similar physical events.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 29 ၏ Location-Specific Preparedness သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Geological Preparedness သည် Risk Profile အလိုက် ကွဲပြားသကဲ့သို့ Weather-Hazard Preparedness သည် Infrastructure နှင့် Resource အလိုက် ကွဲပြားပြီး ဆင်တူသော Physical Event များမှ ကွဲပြားသော ရလဒ်များ ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Weather Hazard Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Weather Hazard ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w30-dm-1",
+          termEn: "Tropical storm",
+          termMy: "Tropical Storm",
+          matchEn:
+              "A rotating weather system fueled by evaporation from warm ocean water",
+          matchMy:
+              "နွေးထွေးသော Ocean ရေမှ Evaporation က Fuel ပေးထားသော Rotating Weather System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w30-dm-2",
+          termEn: "Drought",
+          termMy: "Drought",
+          matchEn:
+              "A prolonged deficiency in expected rainfall over an extended period",
+          matchMy:
+              "ကျယ်ပြန့်သော ကာလတစ်ခုအတွင်း မျှော်လင့်ထားသော မိုးရွာသွန်းမှုတွင် ကြာမြင့်သော Deficiency",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w30-dm-3",
+          termEn: "Early-warning system",
+          termMy: "Early-Warning System",
+          matchEn:
+              "Infrastructure designed to alert a population before a hazard strikes",
+          matchMy:
+              "Hazard မထိခိုက်မီ Population တစ်ခုကို သတိပေးရန် Design ပြုလုပ်ထားသော Infrastructure",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w30-dm-4",
+          termEn: "Resilience",
+          termMy: "Resilience",
+          matchEn:
+              "A community's ability to withstand and recover from a hazard's impact",
+          matchMy:
+              "Hazard တစ်ခု၏ Impact မှ ခံနိုင်ရည်ရှိ၍ ပြန်လည်ကောင်းမွန်နိုင်သော Community တစ်ခု၏ စွမ်းရည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w30-d3",
+      dayNumber: 3,
+      titleEn:
+          "Sort: Increases or Decreases a Region's Weather-Hazard Vulnerability?",
+      titleMy:
+          "စီစစ်ကြမည် - Region တစ်ခု၏ Weather-Hazard Vulnerability ကို တိုးမြှင့် (သို့) လျှော့ချသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Vulnerability", "Decreases Vulnerability"],
+        bucketsMy: [
+          "Vulnerability ကို တိုးမြှင့်သည်",
+          "Vulnerability ကို လျှော့ချသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w30-sort-1",
+            labelEn:
+                "A region with no functioning early-warning system for approaching storms",
+            labelMy:
+                "ချဉ်းကပ်လာနေသော Storm များအတွက် Functioning Early-Warning System မရှိသော Region",
+            correctBucketEn: "Increases Vulnerability",
+            correctBucketMy: "Vulnerability ကို တိုးမြှင့်သည်",
+          ),
+          SortingItem(
+            id: "igchum-w30-sort-2",
+            labelEn:
+                "Strong storm-resistant infrastructure and evacuation planning",
+            labelMy:
+                "ခိုင်မာသော Storm-Resistant Infrastructure နှင့် Evacuation Planning",
+            correctBucketEn: "Decreases Vulnerability",
+            correctBucketMy: "Vulnerability ကို လျှော့ချသည်",
+          ),
+          SortingItem(
+            id: "igchum-w30-sort-3",
+            labelEn:
+                "A community with almost no economic resources for drought-resistant crops",
+            labelMy:
+                "Drought-Resistant သီးနှံများအတွက် Economic Resource နီးပါး မရှိသော Community",
+            correctBucketEn: "Increases Vulnerability",
+            correctBucketMy: "Vulnerability ကို တိုးမြှင့်သည်",
+          ),
+          SortingItem(
+            id: "igchum-w30-sort-4",
+            labelEn:
+                "Reliable water storage and irrigation systems built ahead of drought season",
+            labelMy:
+                "Drought ရာသီမတိုင်မီ တည်ဆောက်ထားသော ယုံကြည်ရသော ရေသိုလှောင်ခန်းနှင့် Irrigation System များ",
+            correctBucketEn: "Decreases Vulnerability",
+            correctBucketMy: "Vulnerability ကို လျှော့ချသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Two-Country Storm Impact Comparison",
+      titleMy:
+          "စာဖတ်ခြင်း - Thiha Aung ၏ နိုင်ငံနှစ်ခု Storm Impact နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Two-Country Storm Impact Comparison",
+        titleMy: "Thiha Aung ၏ နိုင်ငံနှစ်ခု Storm Impact နှိုင်းယှဉ်ချက်",
+        passageEn:
+            "For Week 30, Saya Tun Tun Win gave students published data on two tropical storms of very similar physical intensity that struck two different countries, asking them to compare the resulting human impact and explain any significant difference. Thiha Aung's comparison found the two storms produced dramatically different casualty and damage outcomes despite their similar wind speeds and physical characteristics.\n\nApplying Monday's formation lesson, he first confirmed both storms had formed through the same physical mechanism -- warm ocean water fueling their intensity -- ruling out any difference in the storms' fundamental nature as an explanation for the differing outcomes.\n\nApplying Tuesday's precision-in-definition lesson, Thiha Aung was careful in how he described the storms' rainfall impact, avoiding vague language and instead citing the specific measured rainfall totals and their deviation from seasonal averages in each affected region, exactly the precise, evidence-based description the week's lesson had modeled with drought.\n\nApplying Wednesday's lesson on resilience differences, his central finding explained the outcome gap: the country with significantly lower casualties had invested heavily in early-warning systems and mandatory evacuation infrastructure, allowing most residents in the storm's path to relocate to safety well before landfall, while the country with far higher casualties had limited warning infrastructure and residents received far less advance notice. Saya Tun Tun Win praised the comparison for correctly identifying that a hazard's physical intensity and its human impact are related but genuinely distinct measures -- exactly the kind of careful distinction the week's lessons had built toward.",
+        passageMy:
+            "Week 30 အတွက် နိုင်ငံ ကွဲပြားနှစ်ခုတွင် ထိခိုက်ခဲ့သော အလွန် ဆင်တူသော Physical Intensity ရှိသော Tropical Storm နှစ်ခုအကြောင်း ထုတ်ဝေထားသော Data ကို ကျောင်းသားများအား Saya Tun Tun Win ပေးအပ်ခဲ့ပြီး ရလဒ် Human Impact ကို နှိုင်းယှဉ်၍ သိသာသော ခြားနားချက် မည်သည်ကိုမဆို ရှင်းပြရန် တောင်းဆိုခဲ့သည်။ Wind Speed နှင့် Physical Characteristic ဆင်တူသော်လည်း Storm နှစ်ခုသည် Dramatic ကွဲပြားသော Casualty နှင့် Damage ရလဒ်များ ထုတ်လုပ်ပေးခဲ့ကြောင်း Thiha Aung ၏ နှိုင်းယှဉ်ချက် တွေ့ရှိခဲ့သည်။\n\nတနင်္လာနေ့ Formation သင်ခန်းစာကို အသုံးချကာ Storm နှစ်ခုစလုံးသည် Physical Mechanism တူတူ -- ၎င်းတို့၏ Intensity ကို Fuel ပေးသော နွေးထွေးသော Ocean ရေ -- မှတစ်ဆင့် ဖွဲ့စည်းခဲ့ကြောင်း ၎င်း ဦးစွာ အတည်ပြုခဲ့ပြီး ကွဲပြားသော ရလဒ်များအတွက် ရှင်းလင်းချက်တစ်ခုအဖြစ် Storm များ၏ Fundamental Nature ရှိ ခြားနားချက် မည်သည်ကိုမျှ ဖယ်ထုတ်ခဲ့သည်။\n\nAlt Definition-Precision သင်ခန်းစာ အင်္ဂါနေ့ကို အသုံးချကာ Storm များ၏ မိုးရွာသွန်းမှု Impact ကို ၎င်း ဖော်ပြပုံတွင် Thiha Aung ဂရုတစိုက် ဖြစ်ခဲ့ပြီး Vague ဘာသာစကားကို ရှောင်ရှားကာ ထိခိုက်ခံရသော Region တစ်ခုစီရှိ တိုင်းတာထားသော မိုးရွာသွန်းမှု စုစုပေါင်းနှင့် Seasonal Average များမှ ၎င်းတို့၏ Deviation ကို ကိုးကားခဲ့သည် -- အပတ်စဉ် သင်ခန်းစာက Drought ဖြင့် Model ပြုလုပ်ခဲ့သော တိကျ၊ Evidence-Based ဖော်ပြချက် အတိအကျ ဖြစ်သည်။\n\nResilience ခြားနားချက်များအကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ဗဟိုချက် တွေ့ရှိချက်သည် ရလဒ် Gap ကို ရှင်းပြခဲ့သည် - Casualty သိသိသာသာ နိမ့်သော နိုင်ငံသည် Early-Warning System များနှင့် မဖြစ်မနေ Evacuation Infrastructure တွင် လေးလေးနက်နက် ရင်းနှီးမြှုပ်နှံခဲ့ပြီး Storm ၏ လမ်းကြောင်းရှိ နေထိုင်သူ အများစုကို Landfall မတိုင်မီ လုံခြုံသော နေရာသို့ ကောင်းစွာ ပြောင်းရွှေ့ခွင့် ပေးခဲ့သည်၊ Casualty ပို၍ မြင့်သော နိုင်ငံသည် Warning Infrastructure ကန့်သတ်ထားပြီး နေထိုင်သူများသည် Advance Notice ပို၍ နည်းစွာ ရရှိခဲ့ကြသည်။ Hazard တစ်ခု၏ Physical Intensity နှင့် ၎င်း၏ Human Impact သည် ဆက်စပ်နေသော်လည်း စစ်မှန်စွာ ခြားနားသော Measure များ ဖြစ်ကြောင်း မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သောကြောင့် နှိုင်းယှဉ်ချက်ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည် -- အပတ်စဉ် သင်ခန်းစာများ တည်ဆောက်ခဲ့သော ဂရုတစိုက် ခွဲခြားချက် အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Thiha Aung confirm both storms had formed the same way?",
+            questionMy:
+                "Storm နှစ်ခုစလုံး ပုံစံတူတူ ဖွဲ့စည်းခဲ့ကြောင်း Thiha Aung အတည်ပြုခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To rule out any difference in the storms' fundamental nature as an explanation for the outcomes",
+              "He never actually confirmed anything about the storms' formation",
+              "The two storms had actually formed through entirely different mechanisms",
+              "The storms' formation had no connection to the comparison at all",
+            ],
+            optionsMy: [
+              "ရလဒ်များအတွက် ရှင်းလင်းချက်တစ်ခုအဖြစ် Storm များ၏ Fundamental Nature ရှိ ခြားနားချက် မည်သည်ကိုမျှ ဖယ်ထုတ်ရန်",
+              "Storm များ ဖွဲ့စည်းပုံအကြောင်း မည်သည်ကိုမျှ ၎င်း အမှန်တကယ် အတည်ပြုခဲ့ခြင်း မရှိခြင်း",
+              "Storm နှစ်ခုသည် လုံးဝ ကွဲပြားသော Mechanism များမှတစ်ဆင့် အမှန်တကယ် ဖွဲ့စည်းခဲ့ခြင်း",
+              "Storm များ ဖွဲ့စည်းပုံသည် နှိုင်းယှဉ်ချက်နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what explained the gap in casualties between the two countries?",
+            questionMy:
+                "နိုင်ငံနှစ်ခုကြား Casualty Gap ကို ရှင်းပြခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Differences in early-warning systems and evacuation infrastructure",
+              "The two storms actually had completely different physical intensity",
+              "There was no explanation found for the difference in casualties",
+              "Both countries had identical early-warning infrastructure",
+            ],
+            optionsMy: [
+              "Early-Warning System များနှင့် Evacuation Infrastructure ရှိ ခြားနားချက်များ",
+              "Storm နှစ်ခုသည် Physical Intensity လုံးဝ ကွဲပြားခဲ့ခြင်း",
+              "Casualty ခြားနားချက်အတွက် ရှင်းလင်းချက် တွေ့ရှိခြင်း မရှိခြင်း",
+              "နိုင်ငံနှစ်ခုစလုံးတွင် Early-Warning Infrastructure အတိအကျ တူညီခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's finding."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ တွေ့ရှိချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Saya Tun Tun Win praise the comparison?",
+            questionMy:
+                "နှိုင်းယှဉ်ချက်ကို Saya Tun Tun Win ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It correctly distinguished physical intensity from human impact as related but distinct measures",
+              "It claimed physical intensity and human impact are always exactly identical",
+              "It ignored resilience factors entirely",
+              "It was the shortest comparison submitted in the class",
+            ],
+            optionsMy: [
+              "Physical Intensity ကို Human Impact မှ ဆက်စပ်နေသော်လည်း ခြားနားသော Measure များအဖြစ် မှန်ကန်စွာ ခွဲခြားခဲ့ခြင်း",
+              "Physical Intensity နှင့် Human Impact သည် အတိအကျ တူညီသည်ဟု Claim ပြုလုပ်ခဲ့ခြင်း",
+              "Resilience Factor များကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+              "Class ထဲတွင် တင်သွင်းခဲ့သော အတိုဆုံး နှိုင်းယှဉ်ချက် ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w30-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Weather Hazards",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Weather Hazard များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Tropical storms are fueled primarily by...",
+          questionMy: "Tropical Storm များကို အဓိကအားဖြင့် ...က Fuel ပေးသည်",
+          optionsEn: [
+            "Evaporation from warm ocean water",
+            "Cold air over frozen land",
+            "A complete absence of any moisture",
+            "Volcanic activity along plate boundaries",
+          ],
+          optionsMy: [
+            "နွေးထွေးသော Ocean ရေမှ Evaporation",
+            "Frozen မြေပြင်အပေါ်ရှိ အေးမြသော လေ",
+            "Moisture မည်သည်မှ လုံးဝ ကင်းမဲ့ခြင်း",
+            "Plate Boundary များတစ်လျှောက် Volcanic Activity",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Drought is best understood as...",
+          questionMy: "Drought ကို အကောင်းဆုံး နားလည်ရန်မှာ...",
+          optionsEn: [
+            "A prolonged deficiency in expected rainfall",
+            "A single day with zero rainfall",
+            "A concept unrelated to rainfall entirely",
+            "Something that only occurs in polar regions",
+          ],
+          optionsMy: [
+            "မျှော်လင့်ထားသော မိုးရွာသွန်းမှုတွင် ကြာမြင့်သော Deficiency",
+            "မိုးရွာသွန်းမှု Zero ဖြစ်သော တစ်ရက်တည်း",
+            "မိုးရွာသွန်းမှုနှင့် လုံးဝ မဆိုင်သော Concept",
+            "Polar ဒေသများတွင်သာ ဖြစ်ပေါ်သော အရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two regions facing hazards of similar intensity can have different human impact because of...",
+          questionMy:
+              "Intensity ဆင်တူသော Hazard များ ကြုံတွေ့နေသော Region နှစ်ခုသည် ...ကြောင့် ကွဲပြားသော Human Impact ရှိနိုင်သည်",
+          optionsEn: [
+            "Differences in infrastructure, warning systems, and resources",
+            "Physical intensity being the only factor that ever matters",
+            "No possible variation in human impact between regions",
+            "Human impact always being identical regardless of preparedness",
+          ],
+          optionsMy: [
+            "Infrastructure, Warning System များနှင့် Resource ရှိ ခြားနားချက်များ",
+            "Physical Intensity သာလျှင် ဘယ်တော့မှ အရေးကြီးသော Factor တစ်ခုတည်း ဖြစ်ခြင်း",
+            "Region များကြား Human Impact ၌ ဖြစ်နိုင်သော Variation မရှိခြင်း",
+            "Preparedness မည်သို့ပင်ရှိစေ Human Impact အမြဲ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 8, Week 31: "Climate Change: Causes and
+// Impacts"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek31 = CourseWeekDef(
+  id: "course-igcse-hum-w31",
+  weekNumber: 31,
+  titleEn: "Climate Change: Causes and Impacts",
+  titleMy: "Climate Change - Cause များနှင့် Impact များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w31-d1",
+      dayNumber: 1,
+      titleEn: "The Enhanced Greenhouse Effect and Human Causes",
+      titleMy: "Enhanced Greenhouse Effect နှင့် လူသား Cause များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it important to distinguish between the natural greenhouse effect (which makes Earth habitable) and the 'enhanced' greenhouse effect linked to human activity?",
+          questionMy:
+              "သဘာဝ Greenhouse Effect (ကမ္ဘာမြေကို နေထိုင်နိုင်စေသော) နှင့် လူသား လုပ်ဆောင်ချက်နှင့် ဆက်စပ်နေသော 'Enhanced' Greenhouse Effect ကြား ခွဲခြားရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The natural greenhouse effect is essential and beneficial, while the enhanced effect refers specifically to additional warming caused by human-released gases beyond that natural baseline -- conflating them misrepresents what is actually being studied as a problem",
+            "The natural greenhouse effect and the enhanced greenhouse effect are always exactly the same phenomenon",
+            "The greenhouse effect has no actual connection to Earth's climate at all",
+            "Human activity has no actual relationship to greenhouse gas levels in the atmosphere",
+          ],
+          optionsMy: [
+            "သဘာဝ Greenhouse Effect သည် မရှိမဖြစ်၊ အကျိုးရှိသော်လည်း Enhanced Effect သည် ထို သဘာဝ Baseline ကို ကျော်လွန်၍ လူသား ထုတ်လွှတ်သော Gas များက ဖြစ်စေသော ထပ်ဆောင်း အပူချိန် တိုးလာမှုကို အထူးသဖြင့် ရည်ညွှန်းသည် -- ၎င်းတို့ကို ရောနှောလိုက်ခြင်းသည် ပြဿနာတစ်ခုအဖြစ် အမှန်တကယ် လေ့လာနေသည်ကို မှားယွင်းစွာ ကိုယ်စားပြုသည်",
+            "သဘာဝ Greenhouse Effect နှင့် Enhanced Greenhouse Effect သည် အမြဲ တစ်ခုတည်းသော Phenomenon တူတူ ဖြစ်ခြင်း",
+            "Greenhouse Effect သည် ကမ္ဘာမြေ၏ Climate နှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "လူသား လုပ်ဆောင်ချက်သည် ကောင်းကင်ရှိ Greenhouse Gas Level များနှင့် အမှန်တကယ် ဆက်ဆံရေး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies Week 30's precision-in-definition lesson to a new context -- exactly as drought needed careful distinction from a simple absence of rain, the greenhouse effect needs careful distinction between its natural and human-enhanced forms.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 30 ၏ Definition-Precision သင်ခန်းစာကို Context အသစ်တစ်ခုသို့ တိုက်ရိုက် အသုံးချသည် -- Drought သည် မိုးမရှိခြင်းရိုးရိုးမှ ဂရုတစိုက် ခွဲခြားရန် လိုအပ်ခဲ့သကဲ့သို့ Greenhouse Effect သည် ၎င်း၏ Natural နှင့် Human-Enhanced ပုံစံများကြား ဂရုတစိုက် ခွဲခြားရန် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do climate scientists rely on multiple independent lines of evidence (temperature records, ice cores, sea level data) rather than a single data source to establish that climate change is occurring?",
+          questionMy:
+              "Climate Change ဖြစ်ပေါ်နေကြောင်း တည်ထောင်ရန် Data Source တစ်ခုတည်းအစား Climate Scientist များသည် Independent Evidence Line များစွာ (Temperature Record, Ice Core, Sea Level Data) ကို အားကိုးရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Multiple independent sources agreeing with each other provides much stronger corroboration than any single measurement alone, exactly the source-reliability principle established since Term 1",
+            "Climate scientists actually rely on exactly one single data source with no corroboration",
+            "Multiple lines of evidence have no actual value compared to a single data source",
+            "Corroboration has no actual connection to scientific reliability of any kind",
+          ],
+          optionsMy: [
+            "Independent Source များစွာသည် တစ်ခုနှင့်တစ်ခု သဘောတူညီခြင်းသည် Measurement တစ်ခုတည်းထက် ပို၍ ခိုင်မာသော Corroboration ပေးအပ်သည် -- Term 1 မှစ၍ တည်ထောင်ခဲ့သော Source-Reliability Principle အတိအကျ ဖြစ်သည်",
+            "Climate Scientist များသည် Corroboration မပါဘဲ Data Source တစ်ခုတည်းသာ အမှန်တကယ် အားကိုးခြင်း",
+            "Evidence Line များစွာသည် Data Source တစ်ခုတည်းနှင့် နှိုင်းယှဉ်ပါက အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Corroboration သည် Scientific Reliability နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 1's Week 1 lesson on corroborating primary sources -- independent scientific measurements agreeing with each other function the same way as multiple historical sources confirming the same event.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Week 1 သင်ခန်းစာ Primary Source များ Corroborate ပြုလုပ်ခြင်းအကြောင်းကို တိုက်ရိုက် သတိရစေသည် -- တစ်ခုနှင့်တစ်ခု သဘောတူညီသော Independent Scientific Measurement များသည် Event တူတူကို အတည်ပြုသော သမိုင်းဆိုင်ရာ Source များစွာကဲ့သို့ လုပ်ဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might the physical and human impacts of climate change (e.g. sea level rise, changing rainfall patterns) be expected to vary significantly between different regions of the world?",
+          questionMy:
+              "Climate Change ၏ Physical နှင့် Human Impact (ဥပမာ - Sea Level Rise, Rainfall Pattern ပြောင်းလဲခြင်း) သည် ကမ္ဘာ့ Region ကွဲပြားများကြား သိသိသာသာ ကွဲပြားနိုင်ခြေ ရှိသည်ဟု မျှော်လင့်နိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Regional differences in geography, existing climate, coastal exposure, and economic resilience mean the same global-scale climate shift produces genuinely different specific effects and levels of harm from place to place",
+            "Climate change is expected to have exactly identical effects on every region of the world",
+            "Geography and existing climate have no actual connection to how climate change affects a specific region",
+            "Regional variation in climate change impact has no scientific basis of any kind",
+          ],
+          optionsMy: [
+            "Geography, ရှိပြီးသား Climate, ကမ်းရိုးတန်း Exposure နှင့် Economic Resilience ရှိ Regional ခြားနားချက်များသည် Global-Scale Climate Shift တူတူသည် နေရာမှနေရာ စစ်မှန်စွာ ကွဲပြားသော တိကျသော Effect များနှင့် ဆိုးကျိုး Level များ ထုတ်လုပ်ပေးကြောင်း ဆိုလိုသည်",
+            "Climate Change သည် ကမ္ဘာပေါ်ရှိ Region တိုင်းအပေါ် အတိအကျ ညီမျှသော Effect များ ရှိမည်ဟု မျှော်လင့်ခြင်း",
+            "Geography နှင့် ရှိပြီးသား Climate သည် Climate Change က Region တိကျတစ်ခုကို မည်သို့ သက်ရောက်စေသည်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Climate Change Impact ရှိ Regional Variation သည် Scientific Basis မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 30's resilience lesson -- just as similar-intensity storms produce different human impact based on regional preparedness, similar climate shifts produce different specific effects based on regional geography and resources.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 30 ၏ Resilience သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Intensity ဆင်တူသော Storm များသည် Regional Preparedness ပေါ် အခြေခံ၍ ကွဲပြားသော Human Impact ထုတ်လုပ်ပေးသကဲ့သို့ Climate Shift ဆင်တူများသည် Regional Geography နှင့် Resource ပေါ် အခြေခံ၍ ကွဲပြားသော တိကျသော Effect များ ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Climate Change Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Climate Change ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w31-dm-1",
+          termEn: "Enhanced greenhouse effect",
+          termMy: "Enhanced Greenhouse Effect",
+          matchEn:
+              "Additional warming beyond the natural baseline, caused by human-released gases",
+          matchMy:
+              "လူသား ထုတ်လွှတ်သော Gas များက ဖြစ်စေသော သဘာဝ Baseline ကို ကျော်လွန်သော ထပ်ဆောင်း အပူချိန် တိုးလာမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w31-dm-2",
+          termEn: "Ice core data",
+          termMy: "Ice Core Data",
+          matchEn:
+              "Evidence from ancient ice layers used to reconstruct past climate conditions",
+          matchMy:
+              "ယခင် Climate Condition များကို ပြန်လည် တည်ဆောက်ရန် အသုံးပြုသော ရှေးဟောင်း ရေခဲ Layer များမှ Evidence",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w31-dm-3",
+          termEn: "Sea level rise",
+          termMy: "Sea Level Rise",
+          matchEn:
+              "A rise in ocean levels linked to melting ice and thermal expansion",
+          matchMy:
+              "ရေခဲ အရည်ပျော်ခြင်းနှင့် Thermal Expansion နှင့် ဆက်စပ်နေသော Ocean Level များ တက်လာခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w31-dm-4",
+          termEn: "Regional variation",
+          termMy: "Regional Variation",
+          matchEn:
+              "Differences in how a global process affects different specific places",
+          matchMy:
+              "Global Process တစ်ခုသည် ကွဲပြားသော တိကျသော နေရာများကို မည်သို့ သက်ရောက်စေသည်ရှိ ခြားနားချက်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Natural Greenhouse Effect or Enhanced (Human) Effect?",
+      titleMy:
+          "စီစစ်ကြမည် - Natural Greenhouse Effect (သို့) Enhanced (Human) Effect",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Natural Greenhouse Effect", "Enhanced (Human) Effect"],
+        bucketsMy: ["Natural Greenhouse Effect", "Enhanced (Human) Effect"],
+        items: [
+          SortingItem(
+            id: "igchum-w31-sort-1",
+            labelEn:
+                "The baseline warming that has always made Earth habitable for life",
+            labelMy:
+                "ကမ္ဘာမြေကို သက်ရှိများ အတွက် နေထိုင်နိုင်စေသော Baseline အပူချိန် တိုးလာမှု",
+            correctBucketEn: "Natural Greenhouse Effect",
+            correctBucketMy: "Natural Greenhouse Effect",
+          ),
+          SortingItem(
+            id: "igchum-w31-sort-2",
+            labelEn:
+                "Additional warming linked to gases released by burning fossil fuels",
+            labelMy:
+                "Fossil Fuel များ မီးရှို့ခြင်းက ထုတ်လွှတ်သော Gas များနှင့် ဆက်စပ်နေသော ထပ်ဆောင်း အပူချိန် တိုးလာမှု",
+            correctBucketEn: "Enhanced (Human) Effect",
+            correctBucketMy: "Enhanced (Human) Effect",
+          ),
+          SortingItem(
+            id: "igchum-w31-sort-3",
+            labelEn:
+                "The pre-industrial atmospheric condition present for millennia",
+            labelMy:
+                "ထောင်စုနှစ်များစွာ တည်ရှိခဲ့သော Pre-Industrial ကောင်းကင်ဆိုင်ရာ အခြေအနေ",
+            correctBucketEn: "Natural Greenhouse Effect",
+            correctBucketMy: "Natural Greenhouse Effect",
+          ),
+          SortingItem(
+            id: "igchum-w31-sort-4",
+            labelEn:
+                "Rapid warming trends measured specifically since industrialization began",
+            labelMy:
+                "Industrialization စတင်ချိန်မှစ၍ အထူးသဖြင့် တိုင်းတာထားသော လျင်မြန်သော အပူချိန် Trend",
+            correctBucketEn: "Enhanced (Human) Effect",
+            correctBucketMy: "Enhanced (Human) Effect",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Climate Evidence Portfolio",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Climate Evidence Portfolio",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Climate Evidence Portfolio",
+        titleMy: "Thiha Aung ၏ Climate Evidence Portfolio",
+        passageEn:
+            "For Week 31, Saya Tun Tun Win asked students to compile a portfolio of independent evidence sources demonstrating climate change, explicitly modeling this on the corroboration discipline established in Term 1. Thiha Aung's portfolio included published temperature records, ice core data, and sea level measurements, each sourced from a different independent scientific body.\n\nApplying Monday's precision lesson, his written introduction carefully distinguished the natural greenhouse effect from the enhanced effect his portfolio focused on, explicitly noting that his evidence concerned the additional warming beyond the natural baseline rather than the greenhouse effect as a whole, avoiding the conflation the week's lesson had warned against.\n\nApplying Tuesday's corroboration lesson directly, Thiha Aung organized his portfolio to show how the three independent evidence types reinforced each other: rising temperature records, ice core data showing atmospheric gas concentrations at levels unprecedented in the historical record they covered, and measured sea level rise all pointed toward the same underlying conclusion despite coming from entirely different measurement methods and data sources -- exactly the multi-source corroboration pattern Term 1's Week 1 had established as the foundation of reliable evidence.\n\nApplying Wednesday's regional-variation lesson, his final section compared how two different regions -- a low-lying coastal area and a mountainous interior region -- would likely experience different specific climate impacts despite facing the same underlying global trend, citing each region's distinct geography as the reason for the difference. Saya Tun Tun Win praised the portfolio for treating climate evidence with the same rigorous, corroboration-based standard the course had applied to historical sources since its very first week.",
+        passageMy:
+            "Week 31 အတွက် Climate Change ကို သရုပ်ပြသော Independent Evidence Source Portfolio တစ်ခု စုစည်းရန် ကျောင်းသားများကို Saya Tun Tun Win တောင်းဆိုခဲ့ပြီး Term 1 တွင် တည်ထောင်ခဲ့သော Corroboration Discipline အပေါ် ဤသည်ကို ရှင်းလင်းစွာ Model ပြုလုပ်ခဲ့သည်။ Thiha Aung ၏ Portfolio တွင် ထုတ်ဝေထားသော Temperature Record များ, Ice Core Data နှင့် Sea Level Measurement များ ပါဝင်ခဲ့ပြီး တစ်ခုစီကို ကွဲပြားသော Independent Scientific Body တစ်ခုမှ Source ရယူခဲ့သည်။\n\nတနင်္လာနေ့ Precision သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ရေးသားထားသော Introduction သည် ၎င်း၏ Portfolio Focus ပြုထားသော Enhanced Effect နှင့် သဘာဝ Greenhouse Effect ကို ဂရုတစိုက် ခွဲခြားခဲ့ပြီး ၎င်း၏ Evidence သည် Greenhouse Effect တစ်ခုလုံးအစား သဘာဝ Baseline ကို ကျော်လွန်သော ထပ်ဆောင်း အပူချိန် တိုးလာမှုနှင့် သက်ဆိုင်ကြောင်း ရှင်းလင်းစွာ မှတ်ချက်ပြုခဲ့ကာ အပတ်စဉ် သင်ခန်းစာ သတိပေးခဲ့သော Conflation ကို ရှောင်ရှားခဲ့သည်။\n\nCorroboration သင်ခန်းစာ အင်္ဂါနေ့ကို တိုက်ရိုက် အသုံးချကာ Independent Evidence Type သုံးခုသည် တစ်ခုနှင့်တစ်ခု မည်သို့ ခိုင်မာစေခဲ့သည်ကို ပြသရန် Thiha Aung ၎င်း၏ Portfolio ကို စီစဉ်ခဲ့သည် - တက်လာသော Temperature Record များ, ၎င်းတို့ ဖုံးအုပ်ခဲ့သော သမိုင်းဆိုင်ရာ Record ၌ Unprecedented Level များတွင် ကောင်းကင်ဆိုင်ရာ Gas Concentration များ ပြသသော Ice Core Data နှင့် တိုင်းတာထားသော Sea Level Rise အားလုံးသည် လုံးလုံးလျားလျား ကွဲပြားသော Measurement Method များနှင့် Data Source များမှ လာသော်လည်း အောက်ခံ ကောက်ချက်တူတူဘက်သို့ ညွှန်ပြခဲ့ကြသည် -- Term 1 ၏ Week 1 က ယုံကြည်ရသော Evidence ၏ Foundation အဖြစ် တည်ထောင်ခဲ့သော Multi-Source Corroboration Pattern အတိအကျ ဖြစ်သည်။\n\nRegional-Variation သင်ခန်းစာ ဗုဒ္ဓဟူးနေ့ကို အသုံးချကာ ၎င်း၏ နောက်ဆုံး Section သည် Region ကွဲပြားနှစ်ခု -- Low-Lying ကမ်းရိုးတန်း ဒေသတစ်ခုနှင့် တောင်ပေါ် Interior ဒေသတစ်ခု -- သည် အောက်ခံ ကမ္ဘာလုံးဆိုင်ရာ Trend တူတူ ရင်ဆိုင်နေသော်လည်း ကွဲပြားသော တိကျသော Climate Impact ကို မည်သို့ ကြုံတွေ့နိုင်ခြေရှိသည်ကို နှိုင်းယှဉ်ခဲ့ပြီး ခြားနားချက်၏ အကြောင်းရင်းအဖြစ် Region တစ်ခုစီ၏ ကွဲပြားသော Geography ကို ကိုးကားခဲ့သည်။ Course တွင် ၎င်း၏ ပထမဆုံး Week မှစ၍ သမိုင်းဆိုင်ရာ Source များသို့ အသုံးချခဲ့သော Rigorous, Corroboration-Based Standard တူတူဖြင့် Climate Evidence ကို ဆက်ဆံခဲ့သောကြောင့် Portfolio ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what distinction did Thiha Aung's introduction carefully make?",
+            questionMy:
+                "Thiha Aung ၏ Introduction ဂရုတစိုက် ပြုလုပ်ခဲ့သော ခွဲခြားချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The natural greenhouse effect versus the enhanced effect his portfolio focused on",
+              "No distinction was made in the introduction at all",
+              "A distinction between two entirely unrelated topics",
+              "The difference between ice cores and sea level data only",
+            ],
+            optionsMy: [
+              "၎င်း၏ Portfolio Focus ပြုထားသော Enhanced Effect Versus သဘာဝ Greenhouse Effect",
+              "Introduction တွင် ခွဲခြားချက် မည်သည်မှ ပြုလုပ်ခဲ့ခြင်း လုံးဝ မရှိခြင်း",
+              "လုံးဝ မဆိုင်သော ခေါင်းစဉ်နှစ်ခုကြား ခွဲခြားချက်တစ်ခု",
+              "Ice Core များနှင့် Sea Level Data ကြား ခြားနားချက်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's distinction."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ခွဲခြားချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the three evidence types support each other despite coming from different sources?",
+            questionMy:
+                "Evidence Type သုံးခုသည် Source ကွဲပြားများမှ လာသော်လည်း တစ်ခုနှင့်တစ်ခု ထောက်ခံရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They all pointed toward the same underlying conclusion despite using different measurement methods",
+              "They actually contradicted each other completely",
+              "The three evidence types had no actual connection to each other",
+              "Only one evidence type was actually used in the portfolio",
+            ],
+            optionsMy: [
+              "ကွဲပြားသော Measurement Method များ အသုံးပြုသော်လည်း အားလုံးသည် အောက်ခံ ကောက်ချက်တူတူဘက်သို့ ညွှန်ပြခဲ့ခြင်း",
+              "တစ်ခုနှင့်တစ်ခု ပြီးပြည့်စုံစွာ ဆန့်ကျင်ခဲ့ခြင်း",
+              "Evidence Type သုံးခုသည် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခဲ့ခြင်း",
+              "Evidence Type တစ်ခုတည်းကိုသာ Portfolio တွင် အမှန်တကယ် အသုံးပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Thiha Aung's final section compare two regions?",
+            questionMy:
+                "Region နှစ်ခုကို Thiha Aung ၏ နောက်ဆုံး Section နှိုင်းယှဉ်ခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To show how regional geography produces different specific impacts from the same global trend",
+              "To show both regions would experience identical climate impacts",
+              "Regional comparison had no actual connection to the portfolio's purpose",
+              "To prove climate change only affects coastal regions and not interior regions",
+            ],
+            optionsMy: [
+              "Regional Geography သည် Global Trend တူတူမှ ကွဲပြားသော တိကျသော Impact များ ထုတ်လုပ်ပေးပုံ ပြသရန်",
+              "Region နှစ်ခုစလုံး Climate Impact အတိအကျ တူညီစွာ ကြုံတွေ့မည်ဟု ပြသရန်",
+              "Regional Comparison သည် Portfolio ၏ ရည်ရွယ်ချက်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "Climate Change သည် ကမ်းရိုးတန်း Region များကိုသာ သက်ရောက်ပြီး Interior Region များကို မသက်ရောက်ကြောင်း သက်သေပြရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's purpose."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ရည်ရွယ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w31-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Climate Change — Causes and Impacts",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Climate Change - Cause များနှင့် Impact များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The enhanced greenhouse effect refers specifically to...",
+          questionMy:
+              "Enhanced Greenhouse Effect က အထူးသဖြင့် ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "Additional warming beyond the natural baseline caused by human activity",
+            "The entire natural greenhouse effect as a whole",
+            "A phenomenon with no connection to human activity",
+            "A concept unrelated to atmospheric gases",
+          ],
+          optionsMy: [
+            "လူသား လုပ်ဆောင်ချက်က ဖြစ်စေသော သဘာဝ Baseline ကို ကျော်လွန်သော ထပ်ဆောင်း အပူချိန် တိုးလာမှု",
+            "သဘာဝ Greenhouse Effect တစ်ခုလုံး",
+            "လူသား လုပ်ဆောင်ချက်နှင့် ချိတ်ဆက်မှု မရှိသော Phenomenon",
+            "ကောင်းကင်ဆိုင်ရာ Gas များနှင့် မဆိုင်သော Concept",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Multiple independent lines of climate evidence agreeing with each other...",
+          questionMy:
+              "တစ်ခုနှင့်တစ်ခု သဘောတူညီသော Climate Evidence Line များစွာသည်...",
+          optionsEn: [
+            "Provides stronger corroboration than a single source alone",
+            "Has no actual value compared to one measurement",
+            "Always contradicts each other completely",
+            "Should be treated as equally weak as a single source",
+          ],
+          optionsMy: [
+            "Source တစ်ခုတည်းထက် ပို၍ ခိုင်မာသော Corroboration ပေးအပ်ခြင်း",
+            "Measurement တစ်ခုတည်းနှင့် နှိုင်းယှဉ်ပါက အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "တစ်ခုနှင့်တစ်ခု ပြီးပြည့်စုံစွာ အမြဲ ဆန့်ကျင်ခြင်း",
+            "Source တစ်ခုတည်းကဲ့သို့ ညီမျှစွာ အားနည်းသည်ဟု ဆက်ဆံသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Climate change impacts vary by region because...",
+          questionMy:
+              "Climate Change Impact များသည် Region အလိုက် ကွဲပြားရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Regional geography and resources shape how a global trend plays out locally",
+            "Every region experiences exactly identical impacts with no variation",
+            "Geography has no connection to climate impact of any kind",
+            "Only coastal regions are ever affected by climate change",
+          ],
+          optionsMy: [
+            "Regional Geography နှင့် Resource များသည် Global Trend တစ်ခု Local တွင် မည်သို့ ဖြစ်ပေါ်သည်ကို ပုံဖော်ခြင်း",
+            "Region တိုင်းသည် Variation မပါဘဲ Impact အတိအကျ ညီမျှစွာ ကြုံတွေ့ခြင်း",
+            "Geography သည် Climate Impact မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိခြင်း",
+            "ကမ်းရိုးတန်း Region များကိုသာ Climate Change က ဘယ်တော့မှ သက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Humanities -- Term 8, Week 32 (Capstone/Boss Week): "Hazard
+// Mitigation Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseHumWeek32 = CourseWeekDef(
+  id: "course-igcse-hum-w32",
+  weekNumber: 32,
+  titleEn: "Hazard Mitigation Studio",
+  titleMy: "Hazard Mitigation Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igchum-w32-d1",
+      dayNumber: 1,
+      titleEn: "Designing a Complete Hazard Mitigation Plan",
+      titleMy: "Hazard Mitigation Plan အပြည့်အစုံ တစ်ခု Design ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a complete hazard mitigation plan for a specific location combine an accurate hazard-type assessment (tectonic, weather, or climate-related) with an honest evaluation of that location's specific resilience factors?",
+          questionMy:
+              "တည်နေရာတစ်ခုအတွက် ပြည့်စုံသော Hazard Mitigation Plan တစ်ခုသည် တိကျသော Hazard-Type Assessment (Tectonic, Weather, (သို့) Climate-Related) ကို ထို တည်နေရာ၏ တိကျသော Resilience Factor များ ရိုးသားသော Evaluation နှင့် ပေါင်းစပ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An effective plan requires knowing both what specific hazard a location actually faces and what resources and vulnerabilities exist there, since the same hazard produces different outcomes depending on local resilience",
+            "Hazard type and resilience factors have no actual connection to each other in mitigation planning",
+            "A mitigation plan should always ignore a location's specific hazard type entirely",
+            "Every location faces identical hazards and requires an identical generic plan",
+          ],
+          optionsMy: [
+            "ထိရောက်သော Plan တစ်ခုသည် Hazard တူတူသည် Local Resilience ပေါ် မူတည်ပြီး ကွဲပြားသော ရလဒ်များ ထုတ်လုပ်ပေးသောကြောင့် တည်နေရာတစ်ခု အမှန်တကယ် ကြုံတွေ့ရသော တိကျသော Hazard နှင့် ထိုနေရာတွင် ရှိသော Resource နှင့် Vulnerability နှစ်ခုစလုံးကို သိရှိရန် လိုအပ်သည်",
+            "Hazard Type နှင့် Resilience Factor များသည် Mitigation Planning တွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Mitigation Plan တစ်ခုသည် တည်နေရာတစ်ခု၏ တိကျသော Hazard Type ကို လုံးဝ လျစ်လျူရှုသင့်ခြင်း",
+            "တည်နေရာတိုင်းသည် Hazard တူတူ ကြုံတွေ့ရပြီး Generic Plan တူတူ လိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same multi-dimensional case-study discipline from Week 24 and Week 16's capstones -- combining relevant concepts (here, hazard type and resilience) produces a more complete plan than either alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 24 နှင့် Week 16 ၏ Capstone များမှ Multi-Dimensional Case-Study Discipline တူတူကို အသုံးချသည် -- သက်ဆိုင်ရာ Concept များ (ဤနေရာတွင် Hazard Type နှင့် Resilience) ပေါင်းစပ်ခြင်းသည် တစ်ခုတည်းသာထက် ပို၍ ပြည့်စုံသော Plan တစ်ခု ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a mitigation plan explicitly justify its resource allocation using the specific hazard evidence for that location, rather than applying a generic set of precautions?",
+          questionMy:
+              "Mitigation Plan တစ်ခုသည် Generic Precaution များကို အသုံးပြုမည့်အစား ထို တည်နေရာအတွက် တိကျသော Hazard Evidence ကို အသုံးပြု၍ ၎င်း၏ Resource ခွဲဝေမှုကို ရှင်းလင်းစွာ ခိုင်လုံစေသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Resources are limited, so allocating them based on the specific, evidenced likelihood and severity of hazards that location actually faces ensures the plan addresses genuine risk rather than a generic, poorly targeted precaution",
+            "Resource allocation should never actually be connected to specific hazard evidence",
+            "A generic plan applied everywhere is always more effective than a location-specific one",
+            "Hazard evidence has no actual relevance to how mitigation resources should be spent",
+          ],
+          optionsMy: [
+            "Resource များ ကန့်သတ်ထားသောကြောင့် ထို တည်နေရာ အမှန်တကယ် ကြုံတွေ့ရသော Hazard များ၏ တိကျ၊ Evidenced ဖြစ်နိုင်ခြေနှင့် ပြင်းထန်မှုအပေါ် အခြေခံ၍ ခွဲဝေခြင်းသည် Plan သည် Generic, Poorly Targeted Precaution တစ်ခုအစား စစ်မှန်သော Risk ကို ကိုင်တွယ်ကြောင်း သေချာစေသည်",
+            "Resource ခွဲဝေမှုသည် တိကျသော Hazard Evidence နှင့် အမှန်တကယ် ဘယ်တော့မှ ချိတ်ဆက်မှု မရှိသင့်ခြင်း",
+            "နေရာတိုင်းတွင် အသုံးပြုသော Generic Plan တစ်ခုသည် Location-Specific တစ်ခုထက် အမြဲ ပို၍ ထိရောက်ခြင်း",
+            "Mitigation Resource များ မည်သို့ သုံးစွဲသင့်သည်နှင့် Hazard Evidence သည် အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 6's evidence-based-recommendation lesson -- just as a development strategy should be justified with country-specific data, a mitigation plan should be justified with location-specific hazard evidence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Evidence-Based-Recommendation သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Development Strategy တစ်ခုသည် Country-Specific Data ဖြင့် ခိုင်လုံသင့်သကဲ့သို့ Mitigation Plan တစ်ခုသည် Location-Specific Hazard Evidence ဖြင့် ခိုင်လုံသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a mitigation studio's final proposal explicitly acknowledge what remains uncertain (e.g. exact timing of a future hazard) rather than presenting false certainty?",
+          questionMy:
+              "Mitigation Studio တစ်ခု၏ Final Proposal သည် False Certainty တစ်ခု တင်ပြမည့်အစား ကျန်ရှိနေသေးသော မသေချာသေးသည် (ဥပမာ - အနာဂတ် Hazard တစ်ခု၏ အတိအကျ Timing) ကို ရှင်းလင်းစွာ အသိအမှတ်ပြုသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is the same intellectual honesty principle established across the course -- acknowledging genuine uncertainty (like the exact timing of future hazards) is more credible than overstating precision the available evidence cannot actually support",
+            "Mitigation plans should always claim complete certainty about exactly when a hazard will occur",
+            "Acknowledging uncertainty has no actual value in a scientific or planning context",
+            "A plan claiming false certainty is always more credible than an honest one",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Course တစ်လျှောက် တည်ထောင်ခဲ့သော Intellectual Honesty Principle တူတူ ဖြစ်သည် -- စစ်မှန်သော Uncertainty (အနာဂတ် Hazard များ၏ အတိအကျ Timing ကဲ့သို့) ကို အသိအမှတ်ပြုခြင်းသည် ရရှိနိုင်သော Evidence က အမှန်တကယ် ထောက်ပံ့၍ မရနိုင်သော Precision ချဲ့ကားခြင်းထက် ပို၍ ယုံကြည်ရသည်",
+            "Mitigation Plan များသည် Hazard တစ်ခု အတိအကျ ဘယ်အချိန်တွင် ဖြစ်ပွားမည်ဆိုသည် Certainty အပြည့်အစုံကို အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+            "Uncertainty ကို အသိအမှတ်ပြုခြင်းသည် Scientific (သို့) Planning Context တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "False Certainty Claim ပြုလုပ်သော Plan တစ်ခုသည် ရိုးသားသော တစ်ခုထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Term 3's Week 12 lesson on avoiding historical determinism -- just as a historical conclusion should distinguish 'more likely' from 'certain,' a hazard plan should distinguish known risk from unknowable exact timing.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Historical Determinism ရှောင်ရှားခြင်းအကြောင်း Term 3 ၏ Week 12 သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- သမိုင်းဆိုင်ရာ ကောက်ချက်တစ်ခုသည် 'ဖြစ်နိုင်ခြေ ပို၍များသည်' ကို 'သေချာသည်' မှ ခွဲခြားသင့်သကဲ့သို့ Hazard Plan တစ်ခုသည် Known Risk ကို Unknowable Exact Timing မှ ခွဲခြားသင့်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Hazards Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 8 Hazard ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igchum-w32-dm-1",
+          termEn: "Hazard mitigation",
+          termMy: "Hazard Mitigation",
+          matchEn:
+              "Actions taken to reduce the harm caused by a potential hazard",
+          matchMy:
+              "ဖြစ်နိုင်ခြေရှိသော Hazard တစ်ခု ဖြစ်စေသော ဆိုးကျိုးကို လျှော့ချရန် ပြုလုပ်သော လုပ်ဆောင်ချက်များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igchum-w32-dm-2",
+          termEn: "Risk assessment",
+          termMy: "Risk Assessment",
+          matchEn:
+              "Evaluating the likelihood and potential severity of a specific hazard",
+          matchMy:
+              "တိကျသော Hazard တစ်ခု၏ ဖြစ်နိုင်ခြေနှင့် ဖြစ်နိုင်သော ပြင်းထန်မှုကို အကဲဖြတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igchum-w32-dm-3",
+          termEn: "Resource allocation",
+          termMy: "Resource Allocation",
+          matchEn:
+              "Distributing limited funds and effort according to evidenced priority",
+          matchMy:
+              "Evidenced ဦးစားပေးမှုအလိုက် ကန့်သတ်ထားသော ရန်ပုံငွေနှင့် ကြိုးပမ်းအားထုတ်မှု ဖြန့်ဝေခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igchum-w32-dm-4",
+          termEn: "Acknowledged uncertainty",
+          termMy: "Acknowledged Uncertainty",
+          matchEn:
+              "Honestly stating what remains unknown rather than claiming false precision",
+          matchMy:
+              "False Precision Claim မပြုလုပ်ဘဲ မသိရှိသေးသည်ကို ရိုးသားစွာ ဖော်ပြခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Justified or Poorly-Justified Mitigation Plan?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းစွာ ခိုင်လုံ (သို့) ညံ့ဖျင်းစွာ ခိုင်လုံသော Mitigation Plan",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Well-Justified Mitigation Plan",
+          "Poorly-Justified Mitigation Plan",
+        ],
+        bucketsMy: [
+          "ကောင်းစွာ ခိုင်လုံသော Mitigation Plan",
+          "ညံ့ဖျင်းစွာ ခိုင်လုံသော Mitigation Plan",
+        ],
+        items: [
+          SortingItem(
+            id: "igchum-w32-sort-1",
+            labelEn:
+                "A plan prioritizing earthquake resources for a city on an active plate boundary",
+            labelMy:
+                "Active Plate Boundary ပေါ်ရှိ မြို့တစ်ခုအတွက် Earthquake Resource များ ဦးစားပေးသော Plan",
+            correctBucketEn: "Well-Justified Mitigation Plan",
+            correctBucketMy: "ကောင်းစွာ ခိုင်လုံသော Mitigation Plan",
+          ),
+          SortingItem(
+            id: "igchum-w32-sort-2",
+            labelEn:
+                "A generic plan applied identically to every location regardless of actual hazard type",
+            labelMy:
+                "အမှန်တကယ် Hazard Type မည်သို့ပင်ရှိစေ နေရာတိုင်းတွင် တူညီစွာ အသုံးပြုသော Generic Plan",
+            correctBucketEn: "Poorly-Justified Mitigation Plan",
+            correctBucketMy: "ညံ့ဖျင်းစွာ ခိုင်လုံသော Mitigation Plan",
+          ),
+          SortingItem(
+            id: "igchum-w32-sort-3",
+            labelEn:
+                "A plan citing specific rainfall data to justify drought-resistant crop investment",
+            labelMy:
+                "Drought-Resistant သီးနှံ ရင်းနှီးမြှုပ်နှံမှုကို ခိုင်လုံစေရန် တိကျသော မိုးရွာသွန်းမှု Data ကိုးကားသော Plan",
+            correctBucketEn: "Well-Justified Mitigation Plan",
+            correctBucketMy: "ကောင်းစွာ ခိုင်လုံသော Mitigation Plan",
+          ),
+          SortingItem(
+            id: "igchum-w32-sort-4",
+            labelEn:
+                "A plan claiming false certainty about the exact date a future hazard will strike",
+            labelMy:
+                "အနာဂတ် Hazard တစ်ခု ဘယ်အချိန်တွင် ထိခိုက်မည်ဆိုသည် အတိအကျ ရက်စွဲအကြောင်း False Certainty Claim ပြုလုပ်သော Plan",
+            correctBucketEn: "Poorly-Justified Mitigation Plan",
+            correctBucketMy: "ညံ့ဖျင်းစွာ ခိုင်လုံသော Mitigation Plan",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Hazard Mitigation Plan",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Hazard Mitigation Plan",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Hazard Mitigation Plan",
+        titleMy: "Thiha Aung ၏ Hazard Mitigation Plan",
+        passageEn:
+            "For Term 8's capstone, Saya Tun Tun Win asked every student to design a complete hazard mitigation plan for a real city of their choosing, combining tectonic, weather, and climate hazard concepts from across the term into one evidence-based, honestly hedged proposal. Thiha Aung chose a coastal city located near a plate boundary and vulnerable to both tropical storms and long-term sea level rise.\n\nApplying Monday's combined-assessment lesson, his plan's opening section presented a full risk profile rather than focusing on just one hazard type: the city's plate boundary proximity created genuine earthquake risk, its coastal, tropical location created tropical storm exposure, and its low elevation made it specifically vulnerable to the sea level rise documented in Week 31's climate evidence.\n\nApplying Tuesday's resource-justification lesson, Thiha Aung allocated his proposed mitigation budget according to the specific, evidenced severity of each risk rather than dividing it evenly by default: citing the city's documented earthquake history, he proposed the largest single investment in earthquake-resistant building codes, followed by storm-surge barriers justified by historical storm data, with climate adaptation funding for gradual coastal reinforcement given the slower but sustained nature of sea level rise.\n\nApplying Wednesday's uncertainty lesson, his final section explicitly distinguished between what his evidence could support with confidence and what remained genuinely uncertain: the city's elevated earthquake and storm risk was well-established by historical data, but the exact timing of any future specific event could not be predicted, and his plan explicitly stated this limitation rather than implying false precision. Saya Tun Tun Win praised the plan as a genuine capstone synthesis, combining tectonic, weather, and climate concepts into one coherent, evidence-based, and appropriately honest proposal -- exactly the disciplined reasoning the whole course had built toward since its first lesson on evaluating sources.",
+        passageMy:
+            "Term 8 Capstone အတွက် Tectonic, Weather နှင့် Climate Hazard Concept များကို Term တစ်ခုလုံးမှ Evidence-Based, ရိုးသားစွာ Hedged Proposal တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ကာ ၎င်းတို့ ရွေးချယ်ထားသော Real မြို့တစ်ခုအတွက် Hazard Mitigation Plan အပြည့်အစုံ တစ်ခု Design ပြုလုပ်ရန် ကျောင်းသားတိုင်းအား Saya Tun Tun Win တောင်းဆိုခဲ့သည်။ Plate Boundary အနီးရှိ Tropical Storm နှင့် Long-Term Sea Level Rise နှစ်ခုစလုံးကို Vulnerable ဖြစ်သော ကမ်းရိုးတန်း မြို့တစ်ခုကို Thiha Aung ရွေးချယ်ခဲ့သည်။\n\nCombined-Assessment သင်ခန်းစာ တနင်္လာနေ့ကို အသုံးချကာ ၎င်း၏ Plan ၏ ဖွင့်လှစ် Section သည် Hazard Type တစ်ခုတည်းကိုသာ Focus ပြုမည့်အစား Risk Profile အပြည့်အစုံကို တင်ပြခဲ့သည် - မြို့၏ Plate Boundary နှင့် နီးကပ်မှုသည် စစ်မှန်သော Earthquake Risk ကို ဖန်တီးခဲ့ပြီး ၎င်း၏ ကမ်းရိုးတန်း၊ Tropical Location သည် Tropical Storm Exposure ကို ဖန်တီးခဲ့ကာ ၎င်း၏ Low Elevation သည် Week 31 ၏ Climate Evidence ၌ Document ပြုလုပ်ထားသော Sea Level Rise ကို အထူးသဖြင့် Vulnerable ဖြစ်စေခဲ့သည်။\n\nResource-Justification သင်ခန်းစာ အင်္ဂါနေ့ကို အသုံးချကာ ၎င်းကို Default Evenly ခွဲမည့်အစား Risk တစ်ခုစီ၏ တိကျ၊ Evidenced ပြင်းထန်မှုအလိုက် ၎င်း၏ အဆိုပြု Mitigation Budget ကို Thiha Aung ခွဲဝေခဲ့သည် - မြို့၏ Document ပြုလုပ်ထားသော Earthquake သမိုင်းကို ကိုးကားကာ Earthquake-Resistant Building Code များတွင် Single Investment အကြီးဆုံးကို ၎င်း အဆိုပြုခဲ့ပြီး သမိုင်းဆိုင်ရာ Storm Data က ခိုင်လုံစေသော Storm-Surge Barrier များ ဆက်လက်လာကာ Sea Level Rise ၏ ဖြည်းညင်းသော်လည်း ဆက်လက် သဘောသဘာဝကို ထောက်ရှု၍ Gradual ကမ်းရိုးတန်း Reinforcement အတွက် Climate Adaptation Funding။\n\nUncertainty သင်ခန်းစာ ဗုဒ္ဓဟူးနေ့ကို အသုံးချကာ ၎င်း၏ Evidence က ယုံကြည်စိတ်ချစွာ ထောက်ခံနိုင်သည်နှင့် စစ်မှန်စွာ မသေချာသေးသည် ကြားကို ၎င်း၏ နောက်ဆုံး Section ရှင်းလင်းစွာ ခွဲခြားခဲ့သည် - မြို့၏ မြင့်တက်နေသော Earthquake နှင့် Storm Risk သည် သမိုင်းဆိုင်ရာ Data က ကောင်းစွာ တည်ထောင်ထားသော်လည်း အနာဂတ် တိကျသော Event မည်သည်၏ အတိအကျ Timing ကို ခန့်မှန်း၍ မရနိုင်ပါ၊ ၎င်း၏ Plan သည် False Precision ညွှန်ပြမည့်အစား ဤ ကန့်သတ်ချက်ကို ရှင်းလင်းစွာ ဖော်ပြခဲ့သည်။ Genuine Capstone Synthesis တစ်ခုအဖြစ် Tectonic, Weather နှင့် Climate Concept များကို Coherent, Evidence-Based နှင့် သင့်လျော်စွာ ရိုးသားသော Proposal တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သောကြောင့် Plan ကို Saya Tun Tun Win ချီးမွမ်းခဲ့သည် -- Source များ အကဲဖြတ်ခြင်းအကြောင်း ၎င်း၏ ပထမဆုံး သင်ခန်းစာမှစ၍ Course တစ်ခုလုံး ဖွံ့ဖြိုးတိုးတက်ရန် တည်ဆောက်ခဲ့သော Disciplined Reasoning အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three hazard types did Thiha Aung's risk profile identify?",
+            questionMy:
+                "Thiha Aung ၏ Risk Profile ဖော်ထုတ်ခဲ့သော Hazard Type သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Earthquake risk, tropical storm exposure, and sea level rise vulnerability",
+              "Only one hazard type, with no other risks considered",
+              "No hazard types were identified in his risk profile at all",
+              "A hazard type unrelated to the city's actual geography",
+            ],
+            optionsMy: [
+              "Earthquake Risk, Tropical Storm Exposure နှင့် Sea Level Rise Vulnerability",
+              "Hazard Type တစ်ခုတည်းသာ၊ အခြား Risk မည်သည်မှ ထည့်သွင်းစဉ်းစားခြင်း မရှိခြင်း",
+              "Risk Profile တွင် Hazard Type မည်သည်မှ ဖော်ထုတ်ခြင်း လုံးဝ မရှိခြင်း",
+              "မြို့၏ အမှန်တကယ် Geography နှင့် မဆိုင်သော Hazard Type တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's risk profile."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ Risk Profile ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Thiha Aung allocate his mitigation budget?",
+            questionMy:
+                "၎င်း၏ Mitigation Budget ကို Thiha Aung မည်သို့ ခွဲဝေခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "According to the specific, evidenced severity of each risk rather than evenly by default",
+              "Evenly across all hazard types with no evidence considered",
+              "Entirely toward climate adaptation with nothing for earthquakes or storms",
+              "Randomly with no justification of any kind",
+            ],
+            optionsMy: [
+              "Default Evenly အစား Risk တစ်ခုစီ၏ တိကျ၊ Evidenced ပြင်းထန်မှုအလိုက်",
+              "Evidence မည်သည်မှ ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ Hazard Type အားလုံးတစ်လျှောက် ညီညီအောင်",
+              "Earthquake (သို့) Storm များအတွက် မည်သည်မှ မပါဘဲ Climate Adaptation ဘက်သို့ လုံးဝ",
+              "ခိုင်လုံမှု မည်သည်မှ မပါဘဲ ကျပန်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's allocation."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ Allocation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what limitation did Thiha Aung's plan explicitly state?",
+            questionMy:
+                "Thiha Aung ၏ Plan ရှင်းလင်းစွာ ဖော်ပြခဲ့သော ကန့်သတ်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The exact timing of any future specific hazard event could not be predicted",
+              "The city faced no actual hazard risk of any kind whatsoever",
+              "The mitigation budget had no connection to any hazard evidence",
+              "Every future event's exact timing could be predicted with full certainty",
+            ],
+            optionsMy: [
+              "အနာဂတ် တိကျသော Hazard Event မည်သည်၏ အတိအကျ Timing ကို ခန့်မှန်း၍ မရနိုင်ခြင်း",
+              "မြို့သည် Hazard Risk မည်သည်မှ အမှန်တကယ် လုံးဝ ကြုံတွေ့ခြင်း မရှိခြင်း",
+              "Mitigation Budget သည် Hazard Evidence မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိခြင်း",
+              "အနာဂတ် Event တိုင်း၏ အတိအကျ Timing ကို Full Certainty ဖြင့် ခန့်မှန်းနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated limitation."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော ကန့်သတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igchum-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Natural Hazards and Climate Exam",
+      titleMy: "Term 8 Capstone - Natural Hazards and Climate စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete mitigation plan should combine...",
+          questionMy:
+              "ပြည့်စုံသော Mitigation Plan တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Hazard-type assessment with location-specific resilience factors",
+            "Only hazard type with no resilience factors",
+            "Only resilience factors with no hazard assessment",
+            "No geographical evidence of any kind",
+          ],
+          optionsMy: [
+            "Location-Specific Resilience Factor များနှင့် Hazard-Type Assessment",
+            "Resilience Factor မပါဘဲ Hazard Type တစ်ခုတည်း",
+            "Hazard Assessment မပါဘဲ Resilience Factor တစ်ခုတည်း",
+            "ဂျီဩဂရာဖီဆိုင်ရာ Evidence မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Resource allocation in a mitigation plan should be justified using...",
+          questionMy:
+              "Mitigation Plan တစ်ခု၏ Resource Allocation ကို ...အသုံးပြု၍ ခိုင်လုံစေသင့်သည်",
+          optionsEn: [
+            "Specific, evidenced hazard severity for that location",
+            "A generic formula applied identically everywhere",
+            "No evidence of any kind whatsoever",
+            "Random selection with no justification",
+          ],
+          optionsMy: [
+            "ထို တည်နေရာအတွက် တိကျ၊ Evidenced Hazard ပြင်းထန်မှု",
+            "နေရာတိုင်းတွင် တူညီစွာ အသုံးပြုသော Generic Formula",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "ခိုင်လုံမှု မည်သည်မှ မပါသော ကျပန်း ရွေးချယ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A credible mitigation plan should acknowledge...",
+          questionMy:
+              "ယုံကြည်ရသော Mitigation Plan တစ်ခုသည် ...ကို အသိအမှတ်ပြုသင့်သည်",
+          optionsEn: [
+            "Genuine uncertainty about exact future timing rather than claiming false precision",
+            "Complete certainty about exactly when every hazard will occur",
+            "No limitations of any kind whatsoever",
+            "Only the most favorable possible scenario",
+          ],
+          optionsMy: [
+            "False Precision Claim မပြုလုပ်ဘဲ အနာဂတ် အတိအကျ Timing အကြောင်း စစ်မှန်သော Uncertainty",
+            "Hazard တိုင်း ဘယ်အချိန်တွင် ဖြစ်ပွားမည်ဆိုသည် အတိအကျ Complete Certainty",
+            "ကန့်သတ်ချက် မည်သည်မှ လုံးဝ",
+            "ဖြစ်နိုင်ဆုံး Favorable Scenario တစ်ခုတည်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Humanities -- Term 8: "Natural Hazards and Climate" (Weeks
+// 29-32)
+// =====================================================================
+
+const CourseTermDef _igcseHumTerm8 = CourseTermDef(
+  id: "course-igcse-hum-t8",
+  termNumber: 8,
+  titleEn: "Natural Hazards and Climate",
+  titleMy: "Natural Hazards and Climate",
+  certificateTitleEn: "Natural Hazards and Climate",
+  certificateTitleMy: "Natural Hazards and Climate",
+  weeks: [_igcseHumWeek29, _igcseHumWeek30, _igcseHumWeek31, _igcseHumWeek32],
 );
 // __IGCSE_HUM_MARKER__
