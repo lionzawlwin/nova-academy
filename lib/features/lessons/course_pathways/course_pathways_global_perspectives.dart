@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 8-9 not yet authored; wired incrementally, one completed
+// Term 9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,9 +58246,9 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs. Term 7, The Independent Research Report: Design and Execution, covers choosing quantitative versus qualitative methods, building a synthesized literature review, and executing ethical, bias-free fieldwork, closing with a Research Progress Review Studio where students audit their own methodology and honestly report what remains unfinished.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs. Term 7, The Independent Research Report: Design and Execution, covers choosing quantitative versus qualitative methods, building a synthesized literature review, and executing ethical, bias-free fieldwork, closing with a Research Progress Review Studio where students audit their own methodology and honestly report what remains unfinished. Term 8, Analysis, Conclusions and the Complete Research Report, covers analyzing quantitative and qualitative data, weighing evidence to formulate honest conclusions, and reflective thinking about personal growth, closing with a full report-assembly capstone where students combine every section into one coherent, consistent research report.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Independent Research Report: Design and Execution သည် Quantitative vs Qualitative Method ရွေးချယ်ခြင်း၊ Synthesized Literature Review တည်ဆောက်ခြင်းနှင့် ကျင့်ဝတ်ရှိ၊ Bias ကင်းသော Fieldwork ဆောင်ရွက်ခြင်းတို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ကာ ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံသော Research Progress Review Studio ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Independent Research Report: Design and Execution သည် Quantitative vs Qualitative Method ရွေးချယ်ခြင်း၊ Synthesized Literature Review တည်ဆောက်ခြင်းနှင့် ကျင့်ဝတ်ရှိ၊ Bias ကင်းသော Fieldwork ဆောင်ရွက်ခြင်းတို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ကာ ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံသော Research Progress Review Studio ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Analysis, Conclusions and the Complete Research Report သည် Quantitative နှင့် Qualitative Data ခွဲခြမ်းစိတ်ဖြာခြင်း၊ ရိုးသားသော ကောက်ချက်များ ဖွဲ့စည်းရန် Evidence ချိန်ဆခြင်းနှင့် ကိုယ်ပိုင် တိုးတက်မှုအကြောင်း Reflective Thinking တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Section တိုင်းကို ညီညွတ်၊ Consistent သော သုတေသန Report တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Report-Assembly Capstone တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseGpTerm1,
@@ -58258,6 +58258,7 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
     _igcseGpTerm5,
     _igcseGpTerm6,
     _igcseGpTerm7,
+    _igcseGpTerm8,
   ],
 );
 // =====================================================================
@@ -66863,5 +66864,1463 @@ const CourseTermDef _igcseGpTerm7 = CourseTermDef(
   certificateTitleEn: "The Independent Research Report: Design and Execution",
   certificateTitleMy: "လွတ်လပ်သော သုတေသန အစီရင်ခံစာ - Design နှင့် Execution",
   weeks: [_igcseGpWeek25, _igcseGpWeek26, _igcseGpWeek27, _igcseGpWeek28],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 8, Week 29: "Analyzing
+// Quantitative and Qualitative Data"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek29 = CourseWeekDef(
+  id: "course-igcse-gp-w29",
+  weekNumber: 29,
+  titleEn: "Analyzing Quantitative and Qualitative Data",
+  titleMy: "Quantitative နှင့် Qualitative Data ခွဲခြမ်းစိတ်ဖြာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w29-d1",
+      dayNumber: 1,
+      titleEn: "Turning Raw Survey Numbers into Meaningful Findings",
+      titleMy:
+          "Survey နံပါတ် Raw များကို အဓိပ္ပာယ်ရှိသော တွေ့ရှိချက်များအဖြစ် ပြောင်းလဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is calculating a percentage often more useful for comparison than reporting raw counts alone (e.g. '18 rural students' versus '9 urban students' had internet access)?",
+          questionMy:
+              "Raw Count တစ်ခုတည်း (ဥပမာ - 'Rural ကျောင်းသား ၁၈ ဦး' နှင့် 'Urban ကျောင်းသား ၉ ဦး' Internet Access ရှိသည်) ကို အစီရင်ခံခြင်းထက် နှိုင်းယှဉ်ရန် ရာခိုင်နှုန်း တွက်ချက်ခြင်း များသောအားဖြင့် ပို၍ အသုံးဝင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Percentages account for different group sizes, allowing a fair comparison even when the two groups surveyed were not the same size",
+            "Raw counts are always more accurate than percentages under every circumstance",
+            "Percentages and raw counts always produce exactly the same comparative conclusion",
+            "Percentage calculation has no actual mathematical relationship to raw counts",
+          ],
+          optionsMy: [
+            "Percentage များသည် ကွဲပြားသော Group အရွယ်အစားများကို ထည့်သွင်းစဉ်းစားပေးပြီး Survey လုပ်ခဲ့သော Group နှစ်ခုသည် အရွယ်အစား တူညီခြင်း မရှိသည့်တိုင် တရားမျှတသော နှိုင်းယှဉ်ချက်ကို ခွင့်ပြုသည်",
+            "Raw Count များသည် အခြေအနေတိုင်းတွင် Percentage များထက် အမြဲ ပို၍ တိကျခြင်း",
+            "Percentage များနှင့် Raw Count များသည် နှိုင်းယှဉ်ချက် ကောက်ချက်တူညီစွာ အမြဲ ထုတ်ပေးခြင်း",
+            "Percentage တွက်ချက်ခြင်းသည် Raw Count များနှင့် အမှန်တကယ် သင်္ချာဆိုင်ရာ ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If the rural sample had 30 students and the urban sample had 20, comparing '18 of 30' (60%) to '9 of 20' (45%) is far more meaningful than comparing raw counts of 18 versus 9.",
+          ],
+          hintsMy: [
+            "Rural Sample တွင် ကျောင်းသား ၃၀ ဦးနှင့် Urban Sample တွင် ကျောင်းသား ၂၀ ဦး ရှိပါက '၃၀ တွင် ၁၈' (၆၀%) ကို '၂၀ တွင် ၉' (၄၅%) နှင့် နှိုင်းယှဉ်ခြင်းသည် Raw Count ၁၈ နှင့် ၉ ကို နှိုင်းယှဉ်ခြင်းထက် ပို၍ အဓိပ္ပာယ်ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does 'coding' qualitative interview data mean, in the context of analyzing interview transcripts?",
+          questionMy:
+              "Interview Transcript များကို ခွဲခြမ်းစိတ်ဖြာသော Context တွင် Qualitative Interview Data ကို 'Coding' ပြုလုပ်ခြင်း ဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Systematically labeling recurring themes or ideas across multiple transcripts so patterns can be identified and compared",
+            "Coding means literally writing computer programming code for the interviews",
+            "Coding means deleting all interview transcripts before drawing any conclusions",
+            "Coding has no actual analytical purpose in qualitative research",
+          ],
+          optionsMy: [
+            "Pattern များ ဖော်ထုတ်ကာ နှိုင်းယှဉ်နိုင်ရန် Transcript များစွာတစ်လျှောက် ထပ်ခါထပ်ခါ ပေါ်လာသော Theme (သို့) Idea များကို Systematically Label ချထားခြင်း",
+            "Coding ဆိုသည်မှာ Interview များအတွက် Computer Programming Code ကို စာသားအတိုင်း ရေးသားခြင်း",
+            "Coding ဆိုသည်မှာ ကောက်ချက် မည်သည်ကိုမျှ မချမီ Interview Transcript အားလုံးကို ဖျက်ပစ်ခြင်း",
+            "Coding သည် Qualitative သုတေသနတွင် အမှန်တကယ် Analytical ရည်ရွယ်ချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If five students each independently mention 'not enough affordable devices' during their interviews, a researcher would label ('code') each mention with a shared tag like 'device affordability' to track how often that theme recurs.",
+          ],
+          hintsMy: [
+            "ကျောင်းသား ငါးဦးစီသည် ၎င်းတို့၏ Interview အတွင်း 'ဈေးသက်သာသော Device လုံလောက်မှု မရှိခြင်း' ကို သီးခြားစီ ဖော်ပြပါက သုတေသနပညာရှင်သည် ထို Theme မည်မျှ ထပ်ခါထပ်ခါ ပေါ်လာသည်ကို ခြေရာခံနိုင်ရန် ဖော်ပြချက်တစ်ခုစီကို 'Device Affordability' ကဲ့သို့ မျှဝေထားသော Tag ဖြင့် Label (Code) ပြုလုပ်မည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a researcher be cautious about drawing a strong conclusion from a survey result that shows only a small numerical difference between two groups?",
+          questionMy:
+              "Group နှစ်ခုကြား နံပါတ်ဆိုင်ရာ ခြားနားချက် အနည်းငယ်ကိုသာ ပြသသော Survey ရလဒ်တစ်ခုမှ ခိုင်မာသော ကောက်ချက်တစ်ခု ချရန် သုတေသနပညာရှင်တစ်ဦး သတိထားသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A small difference could be due to normal sampling variation rather than a genuine, meaningful difference between the groups",
+            "Small differences always represent the most important and reliable findings in any study",
+            "Numerical differences of any size always represent an absolutely certain, meaningful pattern",
+            "Sample-related caution is irrelevant once data has already been collected",
+          ],
+          optionsMy: [
+            "ခြားနားချက်ငယ်တစ်ခုသည် Group များကြား စစ်မှန်၊ အဓိပ္ပာယ်ရှိသော ခြားနားချက်တစ်ခုအစား ပုံမှန် Sampling Variation ကြောင့် ဖြစ်နိုင်သည်",
+            "ခြားနားချက်ငယ်များသည် လေ့လာမှု မည်သည်တွင်မဆို အရေးအကြီးဆုံး၊ အယုံကြည်ရဆုံး တွေ့ရှိချက်များကို အမြဲ ကိုယ်စားပြုခြင်း",
+            "မည်သည့်အရွယ်အစား ရှိသော နံပါတ်ဆိုင်ရာ ခြားနားချက်များသည် လုံးဝ သေချာ၊ အဓိပ္ပာယ်ရှိသော Pattern တစ်ခုကို အမြဲ ကိုယ်စားပြုခြင်း",
+            "Data စုဆောင်းပြီးနောက် Sample-Related သတိထားမှုသည် မသက်ဆိုင်တော့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 6's correlation-versus-causation lesson -- a small gap in a small sample might just be random noise, not a real, reliable pattern that would hold up in a larger study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Correlation-Versus-Causation သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Sample ငယ်တစ်ခုရှိ ကွာဟချက်ငယ်တစ်ခုသည် Study ကြီးတစ်ခုတွင် ခိုင်မာနေမည့် စစ်မှန်၊ ယုံကြည်ရသော Pattern တစ်ခုမဟုတ်ဘဲ Random Noise တစ်ခုသာ ဖြစ်နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Analysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Data Analysis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w29-dm-1",
+          termEn: "Percentage comparison",
+          termMy: "Percentage Comparison",
+          matchEn:
+              "Comparing proportions rather than raw counts to account for different group sizes",
+          matchMy:
+              "ကွဲပြားသော Group အရွယ်အစားများကို ထည့်သွင်းစဉ်းစားရန် Raw Count များအစား Proportion များ နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w29-dm-2",
+          termEn: "Thematic coding",
+          termMy: "Thematic Coding",
+          matchEn:
+              "Labeling recurring themes across qualitative interview transcripts",
+          matchMy:
+              "Qualitative Interview Transcript များတစ်လျှောက် ထပ်ခါထပ်ခါ ပေါ်လာသော Theme များကို Label ချခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w29-dm-3",
+          termEn: "Data visualization",
+          termMy: "Data Visualization",
+          matchEn:
+              "Presenting data as a chart or graph to make patterns easier to see",
+          matchMy:
+              "Pattern များ ပို၍ မြင်သာအောင် Chart (သို့) Graph တစ်ခုအဖြစ် Data တင်ပြခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w29-dm-4",
+          termEn: "Sampling variation",
+          termMy: "Sampling Variation",
+          matchEn:
+              "Natural differences in results that can occur simply due to which sample was studied",
+          matchMy:
+              "မည်သည့် Sample လေ့လာခဲ့သည်ဆိုသည်ကြောင့်သာ ဖြစ်ပေါ်နိုင်သော ရလဒ်များတွင် သဘာဝ ခြားနားချက်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Quantitative or Qualitative Analysis Technique?",
+      titleMy:
+          "စီစစ်ကြမည် - Quantitative (သို့) Qualitative Analysis Technique",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Quantitative Analysis Technique",
+          "Qualitative Analysis Technique",
+        ],
+        bucketsMy: [
+          "Quantitative Analysis Technique",
+          "Qualitative Analysis Technique",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w29-sort-1",
+            labelEn:
+                "Calculating what percentage of survey respondents answered 'yes'",
+            labelMy:
+                "Survey Respondent ရာခိုင်နှုန်းမည်မျှသည် 'Yes' ဟု ဖြေခဲ့သည်ကို တွက်ချက်ခြင်း",
+            correctBucketEn: "Quantitative Analysis Technique",
+            correctBucketMy: "Quantitative Analysis Technique",
+          ),
+          SortingItem(
+            id: "igcgp-w29-sort-2",
+            labelEn:
+                "Labeling recurring themes across ten interview transcripts",
+            labelMy:
+                "Interview Transcript ဆယ်ခုတစ်လျှောက် ထပ်ခါထပ်ခါ ပေါ်လာသော Theme များကို Label ချခြင်း",
+            correctBucketEn: "Qualitative Analysis Technique",
+            correctBucketMy: "Qualitative Analysis Technique",
+          ),
+          SortingItem(
+            id: "igcgp-w29-sort-3",
+            labelEn: "Creating a bar chart showing survey results by age group",
+            labelMy:
+                "အသက်အုပ်စုအလိုက် Survey ရလဒ်များ ပြသသော Bar Chart တစ်ခု ဖန်တီးခြင်း",
+            correctBucketEn: "Quantitative Analysis Technique",
+            correctBucketMy: "Quantitative Analysis Technique",
+          ),
+          SortingItem(
+            id: "igcgp-w29-sort-4",
+            labelEn:
+                "Selecting a representative quotation that illustrates a common interview theme",
+            labelMy:
+                "အများသုံး Interview Theme တစ်ခုကို သရုပ်ဖော်သော Representative Quotation တစ်ခု ရွေးချယ်ခြင်း",
+            correctBucketEn: "Qualitative Analysis Technique",
+            correctBucketMy: "Qualitative Analysis Technique",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe Codes Her Interview Transcripts",
+      titleMy:
+          "စာဖတ်ခြင်း - Su Myat Noe ၏ Interview Transcript များ Coding ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe Codes Her Interview Transcripts",
+        titleMy: "Su Myat Noe ၏ Interview Transcript များ Coding ပြုလုပ်ခြင်း",
+        passageEn:
+            "Following her Term 7 progress review, Su Myat Noe spent Week 29 finally analyzing the data she had collected. Starting with her quantitative survey, she applied Monday's percentage lesson directly: rather than simply reporting that 18 rural students and 24 urban students had reliable internet access, she calculated that this represented 60% of her rural sample of 30 versus 80% of her urban sample of 30, a clear and comparable 20-percentage-point gap.\n\nHer qualitative analysis required more work. Following Tuesday's coding lesson, she read through all ten interview transcripts twice, and on her second pass, began labeling recurring ideas with consistent tags: 'device affordability' appeared in seven of ten transcripts, 'lack of digital skills training' appeared in six, and 'unreliable electricity' appeared in five. This coding process transformed a pile of raw transcripts into countable, comparable patterns -- the same three-layer structure she had first noticed in her own Week 19 village investigation, now confirmed by systematically coded interview data rather than casual impression.\n\nWhen she found one quantitative result -- rural students at a slightly wealthier household income bracket showing internet access rates only 3 percentage points different from students in a lower bracket -- she initially wanted to claim this difference proved household income barely mattered. Applying Wednesday's caution lesson, Ko Zin Ko Ko asked her to consider her sample size for that specific comparison: only eight students fell into the wealthier bracket, a small enough group that a 3-point difference could easily be sampling variation rather than a genuine pattern. Su Myat Noe revised her claim, describing this specific finding as inconclusive given the small sub-sample rather than presenting it as a confirmed result.\n\nBy the end of the week, Su Myat Noe had a clear, defensible set of findings: a quantitative internet-access gap of 20 percentage points, three consistently coded qualitative themes explaining the human experience behind that gap, and an honest acknowledgment of which specific findings needed more data before being stated with confidence.",
+        passageMy:
+            "Term 7 Progress Review ပြီးနောက် ၎င်း စုဆောင်းထားခဲ့သော Data ကို နောက်ဆုံးတွင် Analyze ပြုလုပ်ရန် Week 29 ကို Su Myat Noe ကုန်ဆုံးစေခဲ့သည်။ ၎င်း၏ Quantitative Survey မှစ၍ တနင်္လာနေ့ Percentage သင်ခန်းစာကို တိုက်ရိုက် အသုံးချခဲ့သည် - Rural ကျောင်းသား ၁၈ ဦးနှင့် Urban ကျောင်းသား ၂၄ ဦးသည် ယုံကြည်ရသော Internet Access ရှိသည်ဟု ရိုးရှင်းစွာ အစီရင်ခံမည့်အစား ၎င်း၏ Rural Sample ၃၀ ၏ ၆၀% နှင့် ၎င်း၏ Urban Sample ၃၀ ၏ ၈၀% ကို ကိုယ်စားပြုကြောင်း တွက်ချက်ခဲ့ပြီး ရှင်းလင်း၊ နှိုင်းယှဉ်နိုင်သော Percentage-Point ၂၀ ကွာဟချက် ဖြစ်ခဲ့သည်။\n\n၎င်း၏ Qualitative Analysis သည် ပို၍ အလုပ် လိုအပ်ခဲ့သည်။ အင်္ဂါနေ့ Coding သင်ခန်းစာအတိုင်း Interview Transcript ဆယ်ခုစလုံးကို နှစ်ကြိမ် ဖတ်ရှုခဲ့ပြီး ၎င်း၏ ဒုတိယ Pass တွင် ထပ်ခါထပ်ခါ ပေါ်လာသော Idea များကို တသမတ်တည်း Tag များဖြင့် Label ချစတင်ခဲ့သည် - 'Device Affordability' သည် Transcript ဆယ်ခုအနက် ခုနစ်ခုတွင် ပေါ်လာပြီး 'Digital Skills Training ကင်းမဲ့ခြင်း' သည် ခြောက်ခုတွင် ပေါ်လာကာ 'Unreliable လျှပ်စစ်' သည် ငါးခုတွင် ပေါ်လာခဲ့သည်။ ဤ Coding Process သည် Raw Transcript ပုံအစုအဝေးတစ်ခုကို ရေတွက်နိုင်၊ နှိုင်းယှဉ်နိုင်သော Pattern များအဖြစ် ပြောင်းလဲပေးခဲ့သည် -- ၎င်း၏ Week 19 ရွာ စုံစမ်းစစ်ဆေးမှု၌ ၎င်းပထမဆုံး သတိပြုမိခဲ့သော Layer သုံးခု ဖွဲ့စည်းပုံတူတူသည် ယခု ရိုးရိုး ခံစားချက်အစား Systematically Coding ပြုလုပ်ထားသော Interview Data က အတည်ပြုခဲ့သည်။\n\nQuantitative ရလဒ်တစ်ခု -- Household ဝင်ငွေ အနည်းငယ် ချမ်းသာသော Bracket ရှိ Rural ကျောင်းသားများသည် Bracket နိမ့်ကွာသော ကျောင်းသားများနှင့် Internet Access နှုန်းများ Percentage Point ၃ ခု ခြားနားချက်သာ ပြသကြောင်း ၎င်း တွေ့ရှိချိန် Household ဝင်ငွေသည် သိပ်မအရေးကြီးကြောင်း ဤခြားနားချက်က သက်သေပြသည်ဟု ကနဦးတွင် Claim ပြုလုပ်လိုခဲ့သည်။ ဗုဒ္ဓဟူးနေ့ သတိထားမှု သင်ခန်းစာကို အသုံးချကာ ထို တိကျသော နှိုင်းယှဉ်ချက်အတွက် ၎င်း၏ Sample Size ကို ထည့်သွင်းစဉ်းစားရန် ကိုဇင်ကိုကို ၎င်းကို တောင်းဆိုခဲ့သည် - ချမ်းသာသော Bracket တွင် ကျောင်းသား ရှစ်ဦးသာ ပါဝင်ခဲ့ပြီး Point ၃ ခု ခြားနားချက်သည် စစ်မှန်သော Pattern တစ်ခုအစား Sampling Variation ဖြစ်နိုင်ခြေရှိသော Group ငယ် ဖြစ်ခဲ့သည်။ Su Myat Noe သည် ၎င်း၏ Claim ကို ပြန်လည်ပြင်ဆင်ခဲ့ပြီး ဤ တိကျသော တွေ့ရှိချက်ကို အတည်ပြုပြီးသား ရလဒ်တစ်ခုအဖြစ် တင်ပြမည့်အစား Sub-Sample ငယ်ကြောင့် Inconclusive အဖြစ် ဖော်ပြခဲ့သည်။\n\nအပတ်အဆုံးတွင် Su Myat Noe တွင် ရှင်းလင်း၊ ကာကွယ်နိုင်သော တွေ့ရှိချက်အစုအဝေးတစ်ခု ရှိခဲ့သည် - Percentage Point ၂၀ Quantitative Internet-Access ကွာဟချက်၊ ထို ကွာဟချက်၏ နောက်ကွယ်ရှိ လူသား အတွေ့အကြုံကို ရှင်းပြသော တသမတ်တည်း Coding ပြုလုပ်ထားသော Qualitative Theme သုံးခုနှင့် ယုံကြည်စိတ်ချစွာ ပြောကြားမီ Data ပို၍ လိုအပ်သော တိကျသော တွေ့ရှိချက်များကို ရိုးသားစွာ အသိအမှတ်ပြုခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Su Myat Noe calculate percentages instead of reporting raw counts?",
+            questionMy:
+                "Raw Count များ အစီရင်ခံမည့်အစား Percentage များ Su Myat Noe တွက်ချက်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Percentages provided a clear, comparable measure since the samples were the same size but the point stands for varying sizes too",
+              "She was required to avoid using any numbers of any kind",
+              "Percentages and raw counts are always mathematically identical",
+              "She wanted to hide the actual survey results from her teacher",
+            ],
+            optionsMy: [
+              "Sample များသည် အရွယ်အစား တူညီသော်လည်း အမှတ်သည် ကွဲပြားသော အရွယ်အစားများအတွက်လည်း သက်ရောက်သောကြောင့် Percentage များသည် ရှင်းလင်း၊ နှိုင်းယှဉ်နိုင်သော တိုင်းတာချက် ပေးအပ်ခဲ့ခြင်း",
+              "နံပါတ် မည်သည်မျှ အသုံးမပြုရန် တောင်းဆိုခံခဲ့ရခြင်း",
+              "Percentage နှင့် Raw Count များသည် သင်္ချာအရ အမြဲ တူညီခြင်း",
+              "Survey ရလဒ်အမှန်ကို ၎င်း၏ ဆရာမှ ဖျောက်ထားလိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first paragraph's percentage calculation explanation.",
+            ],
+            hintsMy: [
+              "Percentage တွက်ချက်ခြင်း ရှင်းလင်းချက်ကို စာပိုဒ် ၁ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three themes emerged from Su Myat Noe's coding of her interview transcripts?",
+            questionMy:
+                "Interview Transcript Coding မှ ပေါ်ထွက်လာသော Theme သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Device affordability, lack of digital skills training, and unreliable electricity",
+              "No themes emerged from the coding process at all",
+              "Only one theme appeared across all ten transcripts",
+              "Themes related entirely to unrelated topics like food and weather",
+            ],
+            optionsMy: [
+              "Device Affordability, Digital Skills Training ကင်းမဲ့ခြင်းနှင့် Unreliable လျှပ်စစ်",
+              "Coding Process မှ Theme မည်သည်မှ လုံးဝ မပေါ်ထွက်ခဲ့ခြင်း",
+              "Transcript ဆယ်ခုစလုံးတစ်လျှောက် Theme တစ်ခုတည်းသာ ပေါ်ခဲ့ခြင်း",
+              "အစားအစာနှင့် ရာသီဥတုကဲ့သို့ လုံးဝ မဆိုင်သော ခေါင်းစဉ်များနှင့် သက်ဆိုင်သော Theme များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's list of coded themes."],
+            hintsMy: [
+              "Coding ပြုလုပ်ထားသော Theme စာရင်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Ko Zin Ko Ko caution Su Myat Noe about her household-income finding?",
+            questionMy:
+                "Household-Income တွေ့ရှိချက်အကြောင်း Su Myat Noe ကို ကိုဇင်ကိုကို သတိပေးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sub-sample was small enough that the small difference could be sampling variation rather than a real pattern",
+              "The finding was already completely proven with no possible doubt",
+              "He disagreed with her entire research topic",
+              "The finding contained a spelling error in the transcript",
+            ],
+            optionsMy: [
+              "ခြားနားချက်ငယ်သည် စစ်မှန်သော Pattern တစ်ခုအစား Sampling Variation ဖြစ်နိုင်ခြေရှိသော Sub-Sample ငယ် ဖြစ်ခဲ့ခြင်း",
+              "တွေ့ရှိချက်သည် သံသယ ဖြစ်နိုင်ခြေ မရှိအောင် ယခုပင် အပြည့်အစုံ သက်သေပြပြီးသား ဖြစ်ခြင်း",
+              "၎င်း၏ သုတေသန ခေါင်းစဉ်တစ်ခုလုံးကို သဘောမတူခဲ့ခြင်း",
+              "တွေ့ရှိချက်တွင် Transcript ၌ စာလုံးပေါင်း အမှားတစ်ခု ပါဝင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of the caution.",
+            ],
+            hintsMy: [
+              "သတိပေးခြင်း ရှင်းလင်းချက်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w29-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Analyzing Quantitative and Qualitative Data",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Quantitative နှင့် Qualitative Data ခွဲခြမ်းစိတ်ဖြာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Calculating percentages instead of raw counts is useful because it...",
+          questionMy:
+              "Raw Count များအစား Percentage များ တွက်ချက်ခြင်းသည် ...ကြောင့် အသုံးဝင်သည်",
+          optionsEn: [
+            "Accounts for different group sizes in a comparison",
+            "Always produces a larger number than raw counts",
+            "Has no actual mathematical basis",
+            "Only applies to qualitative research",
+          ],
+          optionsMy: [
+            "နှိုင်းယှဉ်ချက်တွင် ကွဲပြားသော Group အရွယ်အစားများကို ထည့်သွင်းစဉ်းစားခြင်း",
+            "Raw Count များထက် နံပါတ် ကြီးမြတ်သည်ကို အမြဲ ထုတ်ပေးခြင်း",
+            "အမှန်တကယ် သင်္ချာအခြေခံ မရှိခြင်း",
+            "Qualitative သုတေသနနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Thematic coding of interview transcripts involves...",
+          questionMy:
+              "Interview Transcript များ၏ Thematic Coding တွင် ...ပါဝင်သည်",
+          optionsEn: [
+            "Labeling recurring ideas to identify patterns",
+            "Deleting all transcript content immediately",
+            "Writing computer programming code",
+            "Ignoring every interview response",
+          ],
+          optionsMy: [
+            "Pattern များ ဖော်ထုတ်ရန် ထပ်ခါထပ်ခါ ပေါ်လာသော Idea များကို Label ချခြင်း",
+            "Transcript Content အားလုံးကို ချက်ချင်း ဖျက်ပစ်ခြင်း",
+            "Computer Programming Code ရေးသားခြင်း",
+            "Interview တုံ့ပြန်မှုတိုင်းကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A small numerical difference within a small sub-sample should be treated with...",
+          questionMy:
+              "Sub-Sample ငယ်တစ်ခုအတွင်း နံပါတ်ဆိုင်ရာ ခြားနားချက်ငယ်တစ်ခုကို ...ဖြင့် ဆက်ဆံသင့်သည်",
+          optionsEn: [
+            "Caution, since it could be sampling variation",
+            "Absolute certainty with no further checking",
+            "Complete disregard for the finding",
+            "Automatic assumption that it proves causation",
+          ],
+          optionsMy: [
+            "Sampling Variation ဖြစ်နိုင်ခြေရှိသောကြောင့် သတိထားမှု",
+            "ထပ်မံ စစ်ဆေးခြင်း မလိုအပ်သော လုံးဝ ဧကန်မှုစိတ်ချမှု",
+            "တွေ့ရှိချက်ကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Causation ကို သက်သေပြသည်ဟု အလိုအလျောက် ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 8, Week 30: "Evaluating
+// Perspectives and Formulating Conclusions"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek30 = CourseWeekDef(
+  id: "course-igcse-gp-w30",
+  weekNumber: 30,
+  titleEn: "Evaluating Perspectives and Formulating Conclusions",
+  titleMy: "ရှုထောင့်များ အကဲဖြတ်ခြင်းနှင့် ကောက်ချက်များ ဖွဲ့စည်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w30-d1",
+      dayNumber: 1,
+      titleEn: "Weighing Evidence Strength Before Concluding",
+      titleMy: "ကောက်ချက်မချမီ Evidence ခိုင်မာမှုကို ချိန်ဆခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a researcher weigh evidence from a large, representative sample more heavily than evidence from a single anecdote when forming a conclusion?",
+          questionMy:
+              "ကောက်ချက်တစ်ခု ဖွဲ့စည်းရာတွင် ဇာတ်လမ်းတစ်ပုဒ်တည်းမှ Evidence ထက် Sample ကြီး၊ Representative တစ်ခုမှ Evidence ကို သုတေသနပညာရှင်တစ်ဦး ပို၍ လေးလေးနက်နက် ချိန်ဆသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A large, representative sample is more likely to reflect a genuine pattern across a population, while a single anecdote could be an unusual exception",
+            "A single anecdote is always more reliable than data from a large sample",
+            "Evidence strength has no actual relationship to sample size or representativeness",
+            "All evidence should always be treated as equally strong regardless of its source",
+          ],
+          optionsMy: [
+            "Sample ကြီး၊ Representative တစ်ခုသည် Population တစ်ခုတစ်လျှောက် စစ်မှန်သော Pattern တစ်ခုကို ထင်ဟပ်နိုင်ခြေ ပို၍ များပြီး ဇာတ်လမ်းတစ်ပုဒ်တည်းသည် ထူးခြားသော ချွင်းချက်တစ်ခု ဖြစ်နိုင်သည်",
+            "ဇာတ်လမ်းတစ်ပုဒ်တည်းသည် Sample ကြီးတစ်ခုမှ Data ထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "Evidence ခိုင်မာမှုသည် Sample Size (သို့) Representativeness နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Evidence အားလုံးကို ၎င်း၏ Source မည်သို့ပင်ရှိစေ အမြဲ ညီမျှစွာ ခိုင်မာသည်ဟု ဆက်ဆံသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 7's sample-representativeness lesson -- a story about one student's experience is real, but a pattern across fifty students is far more likely to generalize.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 7 ၏ Sample-Representativeness သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- ကျောင်းသားတစ်ဦး၏ အတွေ့အကြုံအကြောင်း ဇာတ်လမ်းသည် အမှန်ဖြစ်သော်လည်း ကျောင်းသား ငါးဆယ်တစ်လျှောက် Pattern တစ်ခုသည် Generalize ဖြစ်နိုင်ခြေ ပို၍ များသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a research conclusion explicitly acknowledge conflicting evidence, rather than only presenting evidence that supports the researcher's expected finding?",
+          questionMy:
+              "သုတေသနပညာရှင်၏ မျှော်လင့်ထားသော တွေ့ရှိချက်ကို ထောက်ခံသော Evidence ကိုသာ တင်ပြမည့်အစား သုတေသန ကောက်ချက်တစ်ခုသည် ဆန့်ကျင်သော Evidence ကို ရှင်းလင်းစွာ အသိအမှတ်ပြုသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Selectively presenting only supporting evidence misrepresents the full picture and undermines the credibility of the research",
+            "Conflicting evidence should always be deleted before writing a conclusion",
+            "Acknowledging conflicting evidence has no actual effect on research credibility",
+            "A conclusion is stronger when it ignores any evidence that complicates the expected story",
+          ],
+          optionsMy: [
+            "ထောက်ခံသော Evidence ကိုသာ ရွေးချယ် တင်ပြခြင်းသည် ပုံရိပ်အပြည့်အစုံကို မှားယွင်းစွာ ကိုယ်စားပြုကာ သုတေသန၏ ယုံကြည်ရမှုကို ချိုးဖျက်သည်",
+            "ဆန့်ကျင်သော Evidence ကို ကောက်ချက် မရေးသားမီ အမြဲ ဖျက်ပစ်သင့်ခြင်း",
+            "ဆန့်ကျင်သော Evidence ကို အသိအမှတ်ပြုခြင်းသည် သုတေသန ယုံကြည်ရမှုအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "မျှော်လင့်ထားသော ဇာတ်လမ်းကို ရှုပ်ထွေးစေမည့် Evidence မည်သည်ကိုမျှ လျစ်လျူရှုသောအခါ ကောက်ချက်တစ်ခု ပို၍ ခိုင်မာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 24's honest-trade-off lesson and Week 28's transparency lesson -- a credible conclusion names complications and conflicting findings rather than hiding them.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 24 ၏ ရိုးသား-Trade-Off သင်ခန်းစာနှင့် Week 28 ၏ Transparency သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ယုံကြည်ရသော ကောက်ချက်တစ်ခုသည် ၎င်းတို့ကို ဖျောက်ထားမည့်အစား ရှုပ်ထွေးမှုများနှင့် ဆန့်ကျင်သော တွေ့ရှိချက်များကို အမည်တပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a conclusion state its claims with appropriate hedging language (e.g. 'suggests' or 'indicates') rather than absolute certainty, when evidence is strong but not exhaustive?",
+          questionMy:
+              "Evidence ခိုင်မာသော်လည်း Exhaustive မဟုတ်သောအခါ ကောက်ချက်တစ်ခုသည် Absolute Certainty အစား သင့်လျော်သော Hedging ဘာသာစကား (ဥပမာ - 'ညွှန်ပြသည်' (သို့) 'ရည်ညွှန်းသည်') ဖြင့် ၎င်း၏ Claim များကို ဖော်ပြသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Hedging language accurately reflects that a study's specific sample cannot definitively prove something true for an entire, larger population",
+            "Hedging language should never be used in any research report under any circumstance",
+            "Absolute certainty is always the most accurate and appropriate way to state any finding",
+            "The choice of language has no actual connection to how confident a claim should be",
+          ],
+          optionsMy: [
+            "Hedging ဘာသာစကားသည် Study တစ်ခု၏ တိကျသော Sample သည် ကြီးမားသော Population တစ်ခုလုံးအတွက် တစ်စုံတစ်ခု မှန်ကန်ကြောင်း ဆုံးဖြတ်ချက်ချ၍ သက်သေပြ၍ မရနိုင်ကြောင်း တိကျစွာ ထင်ဟပ်သည်",
+            "Hedging ဘာသာစကားကို အခြေအနေ မည်သို့ပင်ရှိစေ သုတေသန အစီရင်ခံစာ မည်သည်တွင်မဆို ဘယ်တော့မှ အသုံးမပြုသင့်ခြင်း",
+            "Absolute Certainty သည် တွေ့ရှိချက် မည်သည်ကိုမဆို ဖော်ပြရန် အမြဲ အတိကျဆုံး၊ အသင့်လျော်ဆုံး နည်းလမ်း ဖြစ်ခြင်း",
+            "ဘာသာစကား ရွေးချယ်ခြင်းသည် Claim တစ်ခု မည်မျှ ယုံကြည်စိတ်ချရသင့်သည်ဆိုသည်နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Term 6's correlation-versus-causation lesson -- a strong survey result 'suggests' a broader pattern, but stating it as absolutely proven overstates what any single study can actually establish.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Correlation-Versus-Causation သင်ခန်းစာနှင့် တိုက်ရိုက် ချိတ်ဆက်သည် -- ခိုင်မာသော Survey ရလဒ်တစ်ခုသည် ကျယ်ပြန့်သော Pattern တစ်ခုကို 'ညွှန်ပြသည်' သော်လည်း ၎င်းကို လုံးဝ သက်သေပြပြီးဟု ဖော်ပြခြင်းသည် Study တစ်ခုတည်း အမှန်တကယ် တည်ထောင်နိုင်သည်ထက် ပို၍ ဆိုနေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Conclusion-Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Conclusion-Writing ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w30-dm-1",
+          termEn: "Evidence weighting",
+          termMy: "Evidence Weighting",
+          matchEn:
+              "Judging how much confidence a piece of evidence deserves based on its strength",
+          matchMy:
+              "Evidence တစ်ခု၏ ခိုင်မာမှုအပေါ် အခြေခံ၍ ၎င်း ခံစားထိုက်သော ယုံကြည်စိတ်ချမှုကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w30-dm-2",
+          termEn: "Conflicting evidence",
+          termMy: "Conflicting Evidence",
+          matchEn:
+              "Findings that do not agree with the researcher's initial expectation",
+          matchMy:
+              "သုတေသနပညာရှင်၏ ကနဦး မျှော်လင့်ချက်နှင့် သဘောမတူသော တွေ့ရှိချက်များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w30-dm-3",
+          termEn: "Hedging language",
+          termMy: "Hedging Language",
+          matchEn:
+              "Careful wording (e.g. 'suggests') that avoids overstating certainty",
+          matchMy:
+              "Certainty ကို ချဲ့ကားခြင်း ရှောင်ရှားသော ဂရုတစိုက် စကားလုံးအသုံးအနှုန်း (ဥပမာ - 'ညွှန်ပြသည်')",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w30-dm-4",
+          termEn: "Generalizability",
+          termMy: "Generalizability",
+          matchEn:
+              "How well a study's findings apply to a wider population beyond the sample",
+          matchMy:
+              "Study တစ်ခု၏ တွေ့ရှိချက်များသည် Sample ကို ကျော်လွန်၍ ကျယ်ပြန့်သော Population တစ်ခုအတွက် မည်မျှ ကောင်းစွာ သက်ဆိုင်သနည်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Overstated Conclusion?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာ (သို့) ချဲ့ကားထားသော ကောက်ချက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Appropriately Worded Conclusion", "Overstated Conclusion"],
+        bucketsMy: [
+          "သင့်လျော်စွာ ဖော်ပြထားသော ကောက်ချက်",
+          "ချဲ့ကားထားသော ကောက်ချက်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w30-sort-1",
+            labelEn:
+                "'The survey data suggests a meaningful gap in internet access between the two schools'",
+            labelMy:
+                "'Survey Data က ကျောင်းနှစ်ခုကြား Internet Access တွင် အဓိပ္ပာယ်ရှိသော ကွာဟချက်တစ်ခုကို ညွှန်ပြသည်'",
+            correctBucketEn: "Appropriately Worded Conclusion",
+            correctBucketMy: "သင့်လျော်စွာ ဖော်ပြထားသော ကောက်ချက်",
+          ),
+          SortingItem(
+            id: "igcgp-w30-sort-2",
+            labelEn:
+                "'This proves with absolute certainty that every rural student in the country lacks internet access'",
+            labelMy:
+                "'ဤသည်က နိုင်ငံအတွင်းရှိ Rural ကျောင်းသားတိုင်းသည် Internet Access ကင်းမဲ့ကြောင်း လုံးဝ သေချာမှုနှင့် သက်သေပြသည်'",
+            correctBucketEn: "Overstated Conclusion",
+            correctBucketMy: "ချဲ့ကားထားသော ကောက်ချက်",
+          ),
+          SortingItem(
+            id: "igcgp-w30-sort-3",
+            labelEn:
+                "'Given the small sub-sample, this specific finding remains inconclusive'",
+            labelMy:
+                "'Sub-Sample ငယ်ကို ထောက်ရှုပါက ဤ တိကျသော တွေ့ရှိချက်သည် Inconclusive ဖြစ်နေဆဲ ဖြစ်သည်'",
+            correctBucketEn: "Appropriately Worded Conclusion",
+            correctBucketMy: "သင့်လျော်စွာ ဖော်ပြထားသော ကောက်ချက်",
+          ),
+          SortingItem(
+            id: "igcgp-w30-sort-4",
+            labelEn:
+                "Presenting only the supporting evidence while hiding all conflicting data",
+            labelMy:
+                "ဆန့်ကျင်သော Data အားလုံးကို ဖျောက်ထားစဉ် ထောက်ခံသော Evidence ကိုသာ တင်ပြခြင်း",
+            correctBucketEn: "Overstated Conclusion",
+            correctBucketMy: "ချဲ့ကားထားသော ကောက်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe Drafts Her Conclusion",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ ကောက်ချက် Draft ရေးသားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe Drafts Her Conclusion",
+        titleMy: "Su Myat Noe ၏ ကောက်ချက် Draft ရေးသားခြင်း",
+        passageEn:
+            "With her quantitative and qualitative findings coded and analyzed, Su Myat Noe spent Week 30 writing the conclusion section of her research report. Her first attempt confidently stated that her research 'proves rural Myanmar students are being left behind by the digital divide' -- language Ko Zin Ko Ko immediately flagged against Wednesday's lesson on hedging appropriately.\n\nHe reminded her that her study, however carefully conducted, covered two specific schools with a combined sample of sixty students -- strong evidence for a pattern worth taking seriously, but not proof covering every rural school in the entire country. Su Myat Noe revised her language to 'the findings suggest that students at the surveyed rural school face a significant, multi-layered digital access gap compared to their urban counterparts,' which accurately reflected what her specific evidence could and could not support.\n\nApplying Monday's evidence-weighting lesson, she structured her conclusion to give the most weight to her strongest evidence: the clear 20-percentage-point quantitative gap backed by a full sample of sixty students, and the three consistently coded qualitative themes appearing across a majority of her ten interviews. She gave appropriately less weight to weaker evidence, including her Week 29 finding about household income, which she again described as inconclusive rather than confirmed.\n\nFollowing Tuesday's lesson, she also deliberately included one piece of evidence that complicated her expected story: two interviewed students, despite having reliable internet access, still reported struggling academically, suggesting internet access alone did not guarantee good learning outcomes. Rather than omitting this inconvenient finding, Su Myat Noe discussed it directly, arguing it strengthened rather than weakened her overall argument -- since it showed her three-layer framework (access, affordability, and skills) was more accurate than a simplified single-factor explanation. Ko Zin Ko Ko praised the revised conclusion as a genuine model of intellectual honesty: confident where the evidence was strong, appropriately cautious where it was not, and transparent about complications rather than hiding them.",
+        passageMy:
+            "၎င်း၏ Quantitative နှင့် Qualitative တွေ့ရှိချက်များ Coding ပြု၍ Analyze ပြီးနောက် ၎င်း၏ သုတေသန အစီရင်ခံစာ၏ ကောက်ချက် Section ကို ရေးသားရန် Week 30 ကို Su Myat Noe ကုန်ဆုံးစေခဲ့သည်။ ၎င်း၏ ပထမ ကြိုးပမ်းချက်သည် ၎င်း၏ သုတေသနက 'Digital Divide က Rural မြန်မာ ကျောင်းသားများကို နောက်ကျကျန်စေနေကြောင်း သက်သေပြသည်' ဟု ယုံကြည်စွာ ဆိုခဲ့ပြီး -- ဤဘာသာစကားကို Hedging Appropriately အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာနှင့် ကိုဇင်ကိုကို ချက်ချင်း Flag ပြုလုပ်ခဲ့သည်။\n\n၎င်း၏ Study သည် ဂရုတစိုက် ဆောင်ရွက်ခဲ့သော်လည်း ကျောင်းသား ၆၀ ပေါင်းစပ် Sample ပါဝင်သော ကျောင်းနှစ်ခုကို ဖုံးအုပ်ခဲ့ကြောင်း -- Pattern တစ်ခုကို အလေးအနက် ထားရန် တန်ဖိုးရှိသော ခိုင်မာသော Evidence ဖြစ်သော်လည်း နိုင်ငံတစ်ခုလုံးရှိ Rural ကျောင်းတိုင်းကို ဖုံးအုပ်သော Proof မဟုတ်ကြောင်း သူ ၎င်းကို သတိပေးခဲ့သည်။ ၎င်း၏ ဘာသာစကားကို 'Survey ပြုလုပ်ခဲ့သော Rural ကျောင်းရှိ ကျောင်းသားများသည် ၎င်းတို့၏ Urban Counterpart များနှင့် နှိုင်းယှဉ်ပါက သိသာသော၊ Multi-Layered Digital Access ကွာဟချက်ကို ကြုံတွေ့နေကြောင်း တွေ့ရှိချက်များ ညွှန်ပြသည်' ဟု Su Myat Noe ပြန်လည်ပြင်ဆင်ခဲ့ပြီး ၎င်း၏ တိကျသော Evidence က ထောက်ပံ့နိုင်သည်နှင့် ထောက်ပံ့၍ မရနိုင်သည်ကို တိကျစွာ ထင်ဟပ်ခဲ့သည်။\n\nတနင်္လာနေ့ Evidence-Weighting သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ အခိုင်မာဆုံး Evidence ကို အလေးအနက်အများဆုံး ပေးရန် ၎င်း၏ ကောက်ချက်ကို ဖွဲ့စည်းခဲ့သည် - ကျောင်းသား ၆၀ ၏ Sample အပြည့်အစုံက ထောက်ပံ့ထားသော ရှင်းလင်းသော Percentage-Point ၂၀ Quantitative ကွာဟချက်နှင့် ၎င်း၏ Interview ဆယ်ခုအနက် အများစုတစ်လျှောက် ပေါ်လာသော တသမတ်တည်း Coding ပြုလုပ်ထားသော Qualitative Theme သုံးခု။ ၎င်း Confirmed အစား Inconclusive ဟု ထပ်မံ ဖော်ပြခဲ့သော Week 29 Household ဝင်ငွေအကြောင်း ၎င်း၏ တွေ့ရှိချက် အပါအဝင် အားနည်းသော Evidence ကို ၎င်း သင့်လျော်စွာ အလေးအနက် နည်းပေးခဲ့သည်။\n\nအင်္ဂါနေ့ သင်ခန်းစာအတိုင်း ၎င်း၏ မျှော်လင့်ထားသော ဇာတ်လမ်းကို ရှုပ်ထွေးစေသော Evidence တစ်ခုကိုလည်း ၎င်း တမင် ထည့်သွင်းခဲ့သည် - Interview ပြုလုပ်ခဲ့သော ကျောင်းသား နှစ်ဦးသည် ယုံကြည်ရသော Internet Access ရှိသော်လည်း ပညာရေးတွင် ဆက်လက် ရုန်းကန်ခဲ့ကြောင်း ဖော်ပြခဲ့ပြီး Internet Access တစ်ခုတည်းက ကောင်းမွန်သော သင်ယူမှု ရလဒ်များကို အာမခံမည် မဟုတ်ကြောင်း ညွှန်ပြခဲ့သည်။ ဤ အဆင်မပြေသော တွေ့ရှိချက်ကို ချန်ထားမည့်အစား Su Myat Noe သည် ၎င်းကို တိုက်ရိုက် ဆွေးနွေးခဲ့ပြီး ၎င်းသည် ၎င်း၏ Layer သုံးခု Framework (Access, Affordability နှင့် Skills) သည် ရိုးရှင်းသော Single-Factor ရှင်းလင်းချက်ထက် ပို၍ တိကျကြောင်း ပြသသောကြောင့် ၎င်း၏ Overall Argument ကို အားနည်းစေမည့်အစား ခိုင်မာစေခဲ့ကြောင်း ငြင်းခုံခဲ့သည်။ Evidence ခိုင်မာသော နေရာတွင် ယုံကြည်စိတ်ချမှုရှိကာ Evidence မခိုင်မာသော နေရာတွင် သင့်လျော်စွာ သတိထားပြီး ရှုပ်ထွေးမှုများကို ဖျောက်ထားမည့်အစား ပွင့်လင်းမြင်သာစွာ ရှိကြောင်းအတွက် ပြန်လည် ပြင်ဆင်ထားသော ကောက်ချက်ကို ပညာရေးဆိုင်ရာ ရိုးသားမှု၏ စစ်မှန်သော Model တစ်ခုအဖြစ် ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Su Myat Noe revise her overstated conclusion?",
+            questionMy:
+                "၎င်း၏ ချဲ့ကားထားသော ကောက်ချက်ကို Su Myat Noe မည်သို့ ပြန်လည် ပြင်ဆင်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She used hedging language like 'suggest' to accurately reflect what her specific evidence supported",
+              "She deleted her conclusion entirely with no replacement",
+              "She kept the exact same absolute-certainty wording unchanged",
+              "She claimed her study covered every rural school in the country",
+            ],
+            optionsMy: [
+              "၎င်း၏ တိကျသော Evidence က ထောက်ပံ့သည်ကို တိကျစွာ ထင်ဟပ်ရန် 'ညွှန်ပြသည်' ကဲ့သို့ Hedging ဘာသာစကား အသုံးပြုခဲ့ခြင်း",
+              "အစားထိုးချက် မပါဘဲ ၎င်း၏ ကောက်ချက်ကို လုံးဝ ဖျက်ပစ်ခဲ့ခြင်း",
+              "Absolute-Certainty စကားလုံးအသုံးအနှုန်း အတိအကျကို မပြောင်းလဲဘဲ ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "၎င်း၏ Study သည် နိုင်ငံအတွင်းရှိ Rural ကျောင်းတိုင်းကို ဖုံးအုပ်ကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's revised wording."],
+            hintsMy: [
+              "ပြန်လည် ပြင်ဆင်ထားသော စကားလုံးအသုံးအနှုန်းကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what complicating evidence did Su Myat Noe deliberately include?",
+            questionMy:
+                "Su Myat Noe တမင် ထည့်သွင်းခဲ့သော ရှုပ်ထွေးစေသော Evidence ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two students with reliable internet access who still struggled academically",
+              "No complicating evidence was included at all",
+              "Evidence that contradicted every single finding in her report",
+              "A finding about an entirely different, unrelated topic",
+            ],
+            optionsMy: [
+              "ယုံကြည်ရသော Internet Access ရှိသော်လည်း ပညာရေးတွင် ဆက်လက် ရုန်းကန်ခဲ့သော ကျောင်းသား နှစ်ဦး",
+              "ရှုပ်ထွေးစေသော Evidence မည်သည်မှ လုံးဝ ထည့်သွင်းခဲ့ခြင်း မရှိခြင်း",
+              "၎င်း၏ Report ရှိ တွေ့ရှိချက်တိုင်းကို ဆန့်ကျင်သော Evidence",
+              "လုံးဝ ခြားနားသော၊ မဆိုင်သော ခေါင်းစဉ်တစ်ခုအကြောင်း တွေ့ရှိချက်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the fourth paragraph's example of complicating evidence.",
+            ],
+            hintsMy: [
+              "ရှုပ်ထွေးစေသော Evidence ဥပမာကို စာပိုဒ် ၄ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what did Ko Zin Ko Ko praise the revised conclusion as a model of?",
+            questionMy:
+                "ပြန်လည် ပြင်ဆင်ထားသော ကောက်ချက်ကို ကိုဇင်ကိုကို အဘယ်အရာ၏ Model အဖြစ် ချီးမွမ်းခဲ့သည်ကို နောက်ဆုံးစကားကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Intellectual honesty -- confident where evidence was strong, cautious where it was not",
+              "Writing the shortest possible conclusion",
+              "Avoiding any mention of evidence whatsoever",
+              "Absolute certainty regardless of evidence strength",
+            ],
+            optionsMy: [
+              "ပညာရေးဆိုင်ရာ ရိုးသားမှု -- Evidence ခိုင်မာသော နေရာတွင် ယုံကြည်စိတ်ချမှုရှိကာ Evidence မခိုင်မာသော နေရာတွင် သတိထားခြင်း",
+              "ဖြစ်နိုင်သမျှ တိုတောင်းသော ကောက်ချက် ရေးသားခြင်း",
+              "Evidence အကြောင်း ဖော်ပြချက် မည်သည်ကိုမျှ ရှောင်ကြဉ်ခြင်း",
+              "Evidence ခိုင်မာမှု မည်သို့ပင်ရှိစေ Absolute Certainty",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစကားကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w30-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Evaluating Perspectives and Formulating Conclusions",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - ရှုထောင့်များ အကဲဖြတ်ခြင်းနှင့် ကောက်ချက်များ ဖွဲ့စည်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Strong evidence for a conclusion typically comes from...",
+          questionMy:
+              "ကောက်ချက်တစ်ခုအတွက် ခိုင်မာသော Evidence သည် ပုံမှန်အားဖြင့် ...မှ ရလာသည်",
+          optionsEn: [
+            "A large, representative sample",
+            "A single unverified anecdote",
+            "Data with no sample of any kind",
+            "Guesswork with no research basis",
+          ],
+          optionsMy: [
+            "Sample ကြီး၊ Representative တစ်ခု",
+            "အတည်မပြုသေးသော ဇာတ်လမ်းတစ်ပုဒ်တည်း",
+            "Sample မည်သည်မှ မပါသော Data",
+            "သုတေသန အခြေခံ မရှိသော ခန့်မှန်းချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A credible conclusion should...",
+          questionMy: "ယုံကြည်ရသော ကောက်ချက်တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Acknowledge conflicting evidence rather than hiding it",
+            "Present only supporting evidence",
+            "Ignore all complicating findings",
+            "Claim absolute certainty regardless of evidence strength",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်သော Evidence ကို ဖျောက်ထားမည့်အစား အသိအမှတ်ပြုခြင်း",
+            "ထောက်ခံသော Evidence ကိုသာ တင်ပြခြင်း",
+            "ရှုပ်ထွေးစေသော တွေ့ရှိချက်အားလုံးကို လျစ်လျူရှုခြင်း",
+            "Evidence ခိုင်မာမှု မည်သို့ပင်ရှိစေ Absolute Certainty Claim ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Hedging language like 'suggests' is appropriate when...",
+          questionMy:
+              "'ညွှန်ပြသည်' ကဲ့သို့ Hedging ဘာသာစကားသည် ...အခါ သင့်လျော်သည်",
+          optionsEn: [
+            "Evidence is strong but does not cover the entire wider population",
+            "The researcher has no evidence at all",
+            "The finding is already absolutely proven for everyone everywhere",
+            "The report contains no data of any kind",
+          ],
+          optionsMy: [
+            "Evidence ခိုင်မာသော်လည်း ကျယ်ပြန့်သော Population တစ်ခုလုံးကို မဖုံးအုပ်သောအခါ",
+            "သုတေသနပညာရှင်တွင် Evidence မည်သည်မှ လုံးဝ မရှိသောအခါ",
+            "တွေ့ရှိချက်သည် နေရာတိုင်းရှိ လူတိုင်းအတွက် ယခုပင် လုံးဝ သက်သေပြပြီးသားအခါ",
+            "Report တွင် Data မည်သည်မှ လုံးဝ မပါသောအခါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 8, Week 31: "Reflective Thinking
+// and Personal Growth"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek31 = CourseWeekDef(
+  id: "course-igcse-gp-w31",
+  weekNumber: 31,
+  titleEn: "Reflective Thinking and Personal Growth",
+  titleMy: "Reflective Thinking နှင့် ကိုယ်ပိုင် တိုးတက်မှု",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w31-d1",
+      dayNumber: 1,
+      titleEn: "What Makes a Reflection Genuine Rather Than Generic",
+      titleMy: "Reflection တစ်ခုကို Generic မဟုတ်ဘဲ စစ်မှန်စေသော အချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is 'I learned that research is hard' considered a weak, generic reflection compared to 'I learned that my assumption about internet access being the whole problem was wrong, because my coded interviews showed digital skills mattered just as much'?",
+          questionMy:
+              "'သုတေသနသည် ခက်ခဲကြောင်း ကျွန်ုပ် သင်ယူခဲ့သည်' ကို 'Internet Access သည် ပြဿနာတစ်ခုလုံး ဖြစ်သည်ဟု ကျွန်ုပ်၏ ယူဆချက် မှားယွင်းကြောင်း ကျွန်ုပ်၏ Coding ပြုလုပ်ထားသော Interview များက Digital Skills သည် အလားတူအရေးကြီးကြောင်း ပြသသောကြောင့် ကျွန်ုပ် သင်ယူခဲ့သည်' ဟု ဆိုသည်နှင့် နှိုင်းယှဉ်ပါက Weak, Generic Reflection တစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The specific version names an exact assumption, explains why it changed, and ties the change to actual evidence, while the generic version could apply to almost any experience",
+            "Both versions are equally specific and equally strong reflections",
+            "A generic reflection is always more valuable than a specific one",
+            "Reflection quality has no actual relationship to specificity or evidence",
+          ],
+          optionsMy: [
+            "တိကျသော Version သည် တိကျသော ယူဆချက်တစ်ခုကို အမည်တပ်ကာ ၎င်း အဘယ်ကြောင့် ပြောင်းလဲခဲ့သည်ကို ရှင်းပြပြီး ပြောင်းလဲမှုကို အမှန်တကယ် Evidence နှင့် ချည်နှောင်ထားသော်လည်း Generic Version သည် အတွေ့အကြုံ မည်သည်နှင့်မဆို နီးပါး အသုံးချနိုင်သည်",
+            "Version နှစ်ခုစလုံးသည် ညီမျှစွာ တိကျပြီး ညီမျှစွာ ခိုင်မာသော Reflection ဖြစ်ခြင်း",
+            "Generic Reflection တစ်ခုသည် Specific တစ်ခုထက် အမြဲ ပို၍ တန်ဖိုးရှိခြင်း",
+            "Reflection အရည်အသွေးသည် Specificity (သို့) Evidence နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The weak version could have been written by anyone about anything without ever having actually done the research; the strong version could only have been written by someone who genuinely engaged with their specific findings.",
+          ],
+          hintsMy: [
+            "Weak Version ကို သုတေသနကို အမှန်တကယ် လုပ်ဆောင်ခဲ့ခြင်း လုံးဝ မရှိဘဲ မည်သူမဆို အရာမည်သည်ကိုမဆို ရေးသားနိုင်သော်လည်း Strong Version ကို ၎င်းတို့၏ တိကျသော တွေ့ရှိချက်များနှင့် စစ်မှန်စွာ ထိတွေ့ခဲ့သူတစ်ဦးသာ ရေးသားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is reflecting on a research process's limitations (what you would do differently) considered a sign of academic maturity rather than a weakness?",
+          questionMy:
+              "သုတေသန Process တစ်ခု၏ ကန့်သတ်ချက်များ (ကွဲပြားစွာ ဘာလုပ်မည်) အပေါ် ပြန်လည် သုံးသပ်ခြင်းကို အားနည်းချက်တစ်ခုအစား ပညာရေးဆိုင်ရာ ရင့်ကျက်မှု၏ လက္ခဏာတစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Every real research project has limitations, and recognizing them shows critical self-awareness rather than a failure specific to that researcher",
+            "Reflecting on limitations always means the entire research project was worthless",
+            "Only genuinely flawed research contains any limitations at all",
+            "Acknowledging limitations has no actual connection to academic skill",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော သုတေသန Project တိုင်းတွင် ကန့်သတ်ချက်များ ရှိပြီး ၎င်းတို့ကို အသိအမှတ်ပြုခြင်းသည် ထို သုတေသနပညာရှင် တစ်ဦးတည်းနှင့် ဆိုင်သော ကျရှုံးမှုတစ်ခုအစား Critical Self-Awareness ကို ပြသသည်",
+            "ကန့်သတ်ချက်များအပေါ် ပြန်လည် သုံးသပ်ခြင်းသည် သုတေသန Project တစ်ခုလုံး တန်ဖိုး မရှိကြောင်း အမြဲ ဆိုလိုခြင်း",
+            "စစ်မှန်စွာ ချို့ယွင်းသော သုတေသနတွင်သာ ကန့်သတ်ချက် မည်သည်မှ အမှန်တကယ် ပါဝင်ခြင်း",
+            "ကန့်သတ်ချက်များကို အသိအမှတ်ပြုခြင်းသည် ပညာရေးဆိုင်ရာ Skill နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Even the strongest professional research studies include a 'limitations' section -- naming what could have been done better is standard academic practice, not a sign of a bad researcher.",
+          ],
+          hintsMy: [
+            "အခိုင်မာဆုံး Professional သုတေသန Study များပင် 'Limitations' Section ပါဝင်သည် -- ပို၍ ကောင်းစွာ လုပ်ဆောင်နိုင်ခဲ့သည် အရာကို အမည်တပ်ခြင်းသည် သုတေသနပညာရှင် ဆိုးဝါးကြောင်း လက္ခဏာမဟုတ်ဘဲ စံနှုန်း ပညာရေးဆိုင်ရာ Practice ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a personal-growth reflection connect back to specific moments in the research process, rather than making only broad, unsupported claims about growth?",
+          questionMy:
+              "တိုးတက်မှုအကြောင်း ကျယ်ပြန့်၊ ထောက်ခံမှု မရှိသော Claim များကိုသာ ပြုလုပ်မည့်အစား Personal-Growth Reflection တစ်ခုသည် သုတေသန Process ရှိ တိကျသော အခိုက်အတန့်များသို့ ပြန်လှမ်း ချိတ်ဆက်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Connecting growth to specific moments provides evidence for the claim, just as a research conclusion needs evidence rather than unsupported assertions",
+            "Broad, unsupported claims are always more persuasive than evidence-based reflection",
+            "Specific moments have no actual connection to demonstrating genuine growth",
+            "A reflection should never reference anything that actually happened during the research",
+          ],
+          optionsMy: [
+            "သုတေသန ကောက်ချက်တစ်ခုသည် ထောက်ခံမှု မရှိသော Assertion များအစား Evidence လိုအပ်သကဲ့သို့ တိကျသော အခိုက်အတန့်များနှင့် တိုးတက်မှုကို ချိတ်ဆက်ခြင်းသည် Claim အတွက် Evidence ပေးအပ်သည်",
+            "ကျယ်ပြန့်၊ ထောက်ခံမှု မရှိသော Claim များသည် Evidence-Based Reflection ထက် အမြဲ ပို၍ ဆွဲဆောင်မှုရှိခြင်း",
+            "တိကျသော အခိုက်အတန့်များသည် စစ်မှန်သော တိုးတက်မှုကို သရုပ်ပြခြင်းနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Reflection တစ်ခုသည် သုတေသနစဉ် အမှန်တကယ် ဖြစ်ပျက်ခဲ့သည် မည်သည်ကိုမျှ ဘယ်တော့မှ ရည်ညွှန်းသင့်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same evidence-based-conclusion principle from Wednesday's Week 30 lesson to writing about yourself -- 'I grew a lot' needs the same kind of specific support that any other claim in the report needs.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 30 ၏ ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာမှ Evidence-Based-Conclusion Principle တူတူကို ကိုယ်ကိုယ်တိုင်အကြောင်း ရေးသားခြင်းအတွက် အသုံးချသည် -- 'ကျွန်ုပ် များစွာ တိုးတက်ခဲ့သည်' တွင် Report ရှိ အခြား Claim မည်သည်မဆို လိုအပ်သော တိကျသော ထောက်ခံမှု အမျိုးအစားတူတူ လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Reflective Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Reflective Writing ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w31-dm-1",
+          termEn: "Reflective practice",
+          termMy: "Reflective Practice",
+          matchEn:
+              "Deliberately examining one's own thinking and process to identify growth and change",
+          matchMy:
+              "တိုးတက်မှုနှင့် ပြောင်းလဲမှုကို ဖော်ထုတ်ရန် ၎င်းကိုယ်ပိုင် တွေးခေါ်မှုနှင့် Process ကို တမင် စစ်ဆေးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w31-dm-2",
+          termEn: "Research limitation",
+          termMy: "Research Limitation",
+          matchEn:
+              "An honestly acknowledged constraint or weakness in how a study was conducted",
+          matchMy:
+              "Study တစ်ခု မည်သို့ ဆောင်ရွက်ခဲ့သည်တွင် ရိုးသားစွာ အသိအမှတ်ပြုထားသော ကန့်သတ်ချက် (သို့) အားနည်းချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w31-dm-3",
+          termEn: "Assumption",
+          termMy: "Assumption",
+          matchEn:
+              "A belief taken for granted before being tested against evidence",
+          matchMy:
+              "Evidence နှင့် စမ်းသပ်ရန် မတိုင်မီ ယူဆချက်အဖြစ် ယူထားသော ယုံကြည်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w31-dm-4",
+          termEn: "Specific evidence-based reflection",
+          termMy: "Specific Evidence-Based Reflection",
+          matchEn:
+              "A reflection that names a concrete moment and supports it with actual evidence",
+          matchMy:
+              "တိကျသော အခိုက်အတန့်ကို အမည်တပ်ကာ ၎င်းကို Evidence အမှန်တကယ်ဖြင့် ထောက်ခံသော Reflection",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Generic or Specific Reflection?",
+      titleMy: "စီစစ်ကြမည် - Generic (သို့) Specific Reflection",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Specific, Evidence-Based Reflection",
+          "Generic, Unsupported Reflection",
+        ],
+        bucketsMy: [
+          "Specific, Evidence-Based Reflection",
+          "Generic, Unsupported Reflection",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w31-sort-1",
+            labelEn:
+                "'I learned that surveys can be great' with no further explanation",
+            labelMy:
+                "ထပ်မံ ရှင်းလင်းချက် မပါဘဲ 'Survey များသည် ကောင်းမွန်နိုင်ကြောင်း ကျွန်ုပ် သင်ယူခဲ့သည်'",
+            correctBucketEn: "Generic, Unsupported Reflection",
+            correctBucketMy: "Generic, Unsupported Reflection",
+          ),
+          SortingItem(
+            id: "igcgp-w31-sort-2",
+            labelEn:
+                "'My initial assumption that internet access alone explained the gap was wrong, because seven of ten interviewees named digital skills as equally important'",
+            labelMy:
+                "'Internet Access တစ်ခုတည်းက ကွာဟချက်ကို ရှင်းပြသည်ဟူသော ကျွန်ုပ် ကနဦး ယူဆချက်သည် မှားယွင်းခဲ့သည်၊ အကြောင်းမှာ Interviewee ဆယ်ဦးအနက် ခုနစ်ဦးက Digital Skills ကို ညီမျှစွာ အရေးကြီးသည်ဟု အမည်တပ်ခဲ့သောကြောင့် ဖြစ်သည်'",
+            correctBucketEn: "Specific, Evidence-Based Reflection",
+            correctBucketMy: "Specific, Evidence-Based Reflection",
+          ),
+          SortingItem(
+            id: "igcgp-w31-sort-3",
+            labelEn:
+                "'I grew a lot as a person during this project' with no other detail",
+            labelMy:
+                "ထပ်မံ အသေးစိတ် မပါဘဲ 'ဤ Project အတွင်း ကျွန်ုပ် လူတစ်ဦးအနေဖြင့် များစွာ တိုးတက်ခဲ့သည်'",
+            correctBucketEn: "Generic, Unsupported Reflection",
+            correctBucketMy: "Generic, Unsupported Reflection",
+          ),
+          SortingItem(
+            id: "igcgp-w31-sort-4",
+            labelEn:
+                "'If I repeated this study, I would extend my rural sampling period, since reaching fifty responses took three visits rather than the one I originally planned'",
+            labelMy:
+                "'ဤ Study ကို ထပ်မံ လုပ်ဆောင်ပါက ကျွန်ုပ် ၏ Rural Sampling ကာလကို ချဲ့ထွင်မည်ဖြစ်ပြီး အကြောင်းမှာ Response ငါးဆယ် ရရှိရန် ကျွန်ုပ် မူလ Plan ပြုလုပ်ခဲ့သော တစ်ကြိမ်အစား သွားရောက်မှု သုံးကြိမ် ယူခဲ့ရသောကြောင့် ဖြစ်သည်'",
+            correctBucketEn: "Specific, Evidence-Based Reflection",
+            correctBucketMy: "Specific, Evidence-Based Reflection",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe Writes Her Reflection Section",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Reflection Section ရေးသားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe Writes Her Reflection Section",
+        titleMy: "Su Myat Noe ၏ Reflection Section ရေးသားခြင်း",
+        passageEn:
+            "For Week 31, Ko Zin Ko Ko asked students to write the personal reflection section required by the real IGCSE research report, applying the whole term's discipline to writing honestly about their own growth rather than their findings. Su Myat Noe's first draft read simply: 'This project taught me a lot about research and about myself. I feel like I grew a lot as a researcher.' Ko Zin Ko Ko immediately flagged this against Monday's lesson -- it could have been written by any student about any topic without ever having actually conducted the study.\n\nRevising her draft, Su Myat Noe named a specific assumption she had held at the start of Term 1: she had assumed, based only on her own experience in an urban school, that internet access alone was the core of the digital divide problem. She then traced exactly how that assumption changed -- through her Week 26 literature review's three-layer framework, her Week 27 fieldwork uncovering device-affordability and digital-literacy barriers alongside access barriers, and her Week 29 coding showing these themes appeared as often as internet access itself in her interview data. This was a specific, evidence-traced change in thinking, not a vague claim of growth.\n\nApplying Tuesday's lesson on academic maturity, she also included a genuine limitations reflection rather than presenting her research as flawless: her sample of sixty students across two schools, while carefully collected, remained too small to generalize confidently to all of rural Myanmar, and she explicitly stated that a larger, multi-region study would be needed to test whether her three-layer framework held true more broadly. Rather than treating this as an embarrassing admission, she framed it as exactly the kind of honest scope-limitation a professional researcher states clearly.\n\nHer final reflection closed by connecting a specific research moment -- the instant she realized her three-layer coding results matched patterns already established in existing global literature -- to a specific claim about her own growth: she now understood that a genuinely rigorous conclusion required weighing new evidence against existing knowledge, not simply generating new data in isolation. Ko Zin Ko Ko praised this final paragraph as exactly the kind of specific, evidence-grounded reflection Monday's lesson had described, closing the loop on a term built around genuine intellectual honesty.",
+        passageMy:
+            "Week 31 အတွက် တွေ့ရှိချက်များအစား ၎င်းတို့ကိုယ်ပိုင် တိုးတက်မှုအကြောင်း ရိုးသားစွာ ရေးသားရန် Term တစ်ခုလုံး၏ Discipline ကို အသုံးချကာ တကယ့် IGCSE သုတေသန အစီရင်ခံစာက တောင်းဆိုထားသော Personal Reflection Section ကို ရေးသားရန် ကျောင်းသားများကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ Su Myat Noe ၏ ပထမ Draft သည် ရိုးရှင်းစွာ ဤသို့ ဖတ်ရသည် - 'ဤ Project က သုတေသနနှင့် ကျွန်ုပ်ကိုယ်ပိုင်အကြောင်း များစွာ သင်ကြားပေးခဲ့သည်။ သုတေသနပညာရှင်တစ်ဦးအနေဖြင့် ကျွန်ုပ် များစွာ တိုးတက်ခဲ့သည်ဟု ခံစားရသည်။' ဤသည်ကို ကျောင်းသား မည်သူမဆို ခေါင်းစဉ် မည်သည်ကိုမဆို Study ကို အမှန်တကယ် လုပ်ဆောင်ခဲ့ခြင်း လုံးဝ မရှိဘဲ ရေးသားနိုင်ကြောင်း တနင်္လာနေ့ သင်ခန်းစာနှင့် ကိုဇင်ကိုကို ချက်ချင်း Flag ပြုလုပ်ခဲ့သည်။\n\n၎င်း၏ Draft ကို ပြန်လည် ပြင်ဆင်ချိန် Term 1 အစတွင် ၎င်း ထားရှိခဲ့သော တိကျသော ယူဆချက်တစ်ခုကို Su Myat Noe အမည်တပ်ခဲ့သည် - Urban ကျောင်းရှိ ၎င်းကိုယ်ပိုင် အတွေ့အကြုံအပေါ်သာ အခြေခံ၍ Internet Access တစ်ခုတည်းသည် Digital Divide ပြဿနာ၏ အဓိက ဖြစ်သည်ဟု ၎င်း ယူဆခဲ့သည်။ ထို ယူဆချက် မည်သို့ ပြောင်းလဲခဲ့သည်ကို အတိအကျ ၎င်းက ပြန်လှမ်းခဲ့သည် - ၎င်း၏ Week 26 Literature Review ၏ Layer သုံးခု Framework, ၎င်း၏ Week 27 Fieldwork သည် Access အတားအဆီးများနှင့်အတူ Device-Affordability နှင့် Digital-Literacy အတားအဆီးများကို ဖော်ထုတ်ခဲ့ခြင်းနှင့် ဤ Theme များသည် ၎င်း၏ Interview Data ၌ Internet Access ကိုယ်တိုင်ကဲ့သို့ မကြာခဏ ပေါ်ခဲ့ကြောင်း ပြသခဲ့သော ၎င်း၏ Week 29 Coding မှတစ်ဆင့်။ ဤသည်ကား တွေးခေါ်မှုတွင် တိကျ၊ Evidence-Traced ပြောင်းလဲမှုတစ်ခု ဖြစ်ပြီး တိုးတက်မှု Vague Claim တစ်ခု မဟုတ်ပါ။\n\nပညာရေးဆိုင်ရာ ရင့်ကျက်မှုအကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ သုတေသနကို ချို့ယွင်းချက် မရှိသည်ဟု တင်ပြမည့်အစား စစ်မှန်သော Limitations Reflection ကိုလည်း ထည့်သွင်းခဲ့သည် - ကျောင်းနှစ်ခုတစ်လျှောက် ကျောင်းသား ၆၀ ၏ ၎င်း၏ Sample သည် ဂရုတစိုက် စုဆောင်းထားသော်လည်း Rural မြန်မာတစ်ခုလုံးသို့ ယုံကြည်စွာ Generalize ပြုလုပ်ရန် ငယ်လွန်းနေဆဲ ဖြစ်ကြောင်းနှင့် ၎င်း၏ Layer သုံးခု Framework ပို၍ ကျယ်ပြန့်စွာ မှန်ကန်သည် ရှိမရှိ စမ်းသပ်ရန် ကျယ်ပြန့်သော၊ Multi-Region Study တစ်ခု လိုအပ်မည်ဖြစ်ကြောင်း ရှင်းလင်းစွာ ဖော်ပြခဲ့သည်။ ဤသည်ကို ရှက်ကြောက်စရာ ဝန်ခံချက်တစ်ခုအဖြစ် ဆက်ဆံမည့်အစား Professional သုတေသနပညာရှင်တစ်ဦး ရှင်းလင်းစွာ ဆိုသော ရိုးသား Scope-Limitation အမျိုးအစား အတိအကျအဖြစ် ၎င်း Frame ပြုလုပ်ခဲ့သည်။\n\n၎င်း၏ Layer သုံးခု Coding ရလဒ်များသည် ရှိပြီးသား Global Literature တွင် တည်ထောင်ပြီးသား Pattern များနှင့် ကိုက်ညီသည်ကို ၎င်း သိရှိခဲ့သော ချက်ခြင်း တိကျသော သုတေသန အခိုက်အတန့်ကို ၎င်းကိုယ်ပိုင် တိုးတက်မှုအကြောင်း တိကျသော Claim တစ်ခုနှင့် ချိတ်ဆက်၍ ၎င်း၏ နောက်ဆုံး Reflection ကုန်ဆုံးသွားခဲ့သည် - စစ်မှန်စွာ Rigorous ကောက်ချက်တစ်ခုသည် သီးခြား Isolation တွင် Data အသစ် ထုတ်လုပ်ရုံသက်သက်မက Evidence အသစ်ကို ရှိပြီးသား Knowledge နှင့် ချိန်ဆရန် လိုအပ်ကြောင်း ယခု ၎င်း နားလည်ခဲ့သည်။ ဤ နောက်ဆုံး စာပိုဒ်ကို တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သော Specific, Evidence-Grounded Reflection အမျိုးအစား အတိအကျအဖြစ် ကိုဇင်ကိုကို ချီးမွမ်းခဲ့ပြီး စစ်မှန်သော ပညာရေးဆိုင်ရာ ရိုးသားမှုပတ်လည် တည်ဆောက်ထားသော Term တစ်ခု၏ Loop ကို ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific assumption did Su Myat Noe identify as having changed?",
+            questionMy:
+                "ပြောင်းလဲခဲ့သည်ဟု Su Myat Noe ဖော်ထုတ်ခဲ့သော တိကျသော ယူဆချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That internet access alone was the core of the digital divide problem",
+              "That research was too difficult to complete successfully",
+              "That her chosen research topic was entirely uninteresting",
+              "That surveys were less useful than interviews in every situation",
+            ],
+            optionsMy: [
+              "Internet Access တစ်ခုတည်းသည် Digital Divide ပြဿနာ၏ အဓိက ဖြစ်ကြောင်း",
+              "သုတေသနသည် အောင်မြင်စွာ ပြီးစီးရန် ခက်ခဲလွန်းကြောင်း",
+              "၎င်း ရွေးချယ်ထားသော သုတေသန ခေါင်းစဉ်သည် လုံးဝ စိတ်ဝင်စားစရာ မကောင်းကြောင်း",
+              "Survey များသည် အခြေအနေတိုင်းတွင် Interview များထက် အသုံးဝင်မှု နည်းကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of the assumption.",
+            ],
+            hintsMy: [
+              "ယူဆချက် ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what limitation did Su Myat Noe honestly acknowledge?",
+            questionMy:
+                "Su Myat Noe ရိုးသားစွာ အသိအမှတ်ပြုခဲ့သော ကန့်သတ်ချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her sample was too small to generalize confidently to all of rural Myanmar",
+              "Her research contained absolutely no limitations of any kind",
+              "She had never actually conducted any fieldwork at all",
+              "Her sample size was larger than needed for any conclusion",
+            ],
+            optionsMy: [
+              "Rural မြန်မာတစ်ခုလုံးသို့ ယုံကြည်စွာ Generalize ပြုလုပ်ရန် ၎င်း၏ Sample ငယ်လွန်းနေခြင်း",
+              "၎င်း၏ သုတေသနတွင် ကန့်သတ်ချက် မည်သည်မှ လုံးဝ မပါဝင်ကြောင်း",
+              "Fieldwork မည်သည်ကိုမျှ ဘယ်တော့မှ ဆောင်ရွက်ခဲ့ခြင်း မရှိကြောင်း",
+              "၎င်း၏ Sample Size သည် ကောက်ချက် မည်သည်အတွက်မဆို လိုအပ်သည်ထက် ကြီးမားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's account of the limitation.",
+            ],
+            hintsMy: [
+              "ကန့်သတ်ချက် အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Myat Noe realize about rigorous conclusions?",
+            questionMy:
+                "Rigorous ကောက်ချက်များအကြောင်း Su Myat Noe နားလည်ခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They require weighing new evidence against existing knowledge, not generating data in isolation",
+              "They require ignoring all existing literature entirely",
+              "They require no evidence of any kind whatsoever",
+              "They require avoiding any reference to prior research",
+            ],
+            optionsMy: [
+              "သီးခြား Isolation တွင် Data ထုတ်လုပ်ရုံသက်သက်မက Evidence အသစ်ကို ရှိပြီးသား Knowledge နှင့် ချိန်ဆရန် လိုအပ်ကြောင်း",
+              "ရှိပြီးသား Literature အားလုံးကို လုံးဝ လျစ်လျူရှုရန် လိုအပ်ကြောင်း",
+              "Evidence မည်သည်မှ လုံးဝ မလိုအပ်ကြောင်း",
+              "ယခင် သုတေသနသို့ ရည်ညွှန်းချက် မည်သည်ကိုမျှ ရှောင်ကြဉ်ရန် လိုအပ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing sentence."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ကုန်ဆုံးသည့် စကားကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w31-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Reflective Thinking and Personal Growth",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Reflective Thinking နှင့် ကိုယ်ပိုင် တိုးတက်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A specific, evidence-based reflection is stronger than a generic one because it...",
+          questionMy:
+              "Specific, Evidence-Based Reflection တစ်ခုသည် Generic တစ်ခုထက် ခိုင်မာသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Names a concrete moment and supports it with evidence",
+            "Could apply to any student about any topic",
+            "Contains no reference to actual research findings",
+            "Is always shorter than a generic reflection",
+          ],
+          optionsMy: [
+            "တိကျသော အခိုက်အတန့်ကို အမည်တပ်၍ Evidence ဖြင့် ထောက်ခံခြင်း",
+            "ကျောင်းသား မည်သူမဆို ခေါင်းစဉ် မည်သည်ကိုမဆို အသုံးချနိုင်ခြင်း",
+            "သုတေသန တွေ့ရှိချက် အမှန်တကယ်အကြောင်း ရည်ညွှန်းချက် မပါခြင်း",
+            "Generic Reflection ထက် အမြဲ တိုတောင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Acknowledging a research limitation is a sign of...",
+          questionMy:
+              "သုတေသန ကန့်သတ်ချက်တစ်ခုကို အသိအမှတ်ပြုခြင်းသည် ...၏ လက္ခဏာ ဖြစ်သည်",
+          optionsEn: [
+            "Academic maturity and critical self-awareness",
+            "A completely worthless research project",
+            "A failure that should never be mentioned",
+            "Research that contains no real findings",
+          ],
+          optionsMy: [
+            "ပညာရေးဆိုင်ရာ ရင့်ကျက်မှုနှင့် Critical Self-Awareness",
+            "လုံးဝ တန်ဖိုး မရှိသော သုတေသန Project",
+            "ဘယ်တော့မှ ဖော်ပြသင့်ခြင်း မရှိသော ကျရှုံးမှု",
+            "တွေ့ရှိချက် အစစ်အမှန် မည်သည်မှ မပါသော သုတေသန",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Connecting personal growth claims to specific research moments matters because it...",
+          questionMy:
+              "ကိုယ်ပိုင် တိုးတက်မှု Claim များကို တိကျသော သုတေသန အခိုက်အတန့်များနှင့် ချိတ်ဆက်ခြင်းသည် ...ကြောင့် အရေးကြီးသည်",
+          optionsEn: [
+            "Provides evidence for the growth claim, just like any other conclusion",
+            "Makes the claim automatically less believable",
+            "Has no actual value in a research report",
+            "Should always be avoided entirely",
+          ],
+          optionsMy: [
+            "အခြား ကောက်ချက် မည်သည့်ကဲ့သို့ တိုးတက်မှု Claim အတွက် Evidence ပေးအပ်ခြင်း",
+            "Claim ကို အလိုအလျောက် ပို၍ ယုံကြည်ရမှု နည်းစေခြင်း",
+            "သုတေသန Report တွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "အမြဲ လုံးဝ ရှောင်ကြဉ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 8, Week 32 (Capstone/Boss Week):
+// "Drafting the Full IGCSE Research Report"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek32 = CourseWeekDef(
+  id: "course-igcse-gp-w32",
+  weekNumber: 32,
+  titleEn: "Drafting the Full IGCSE Research Report",
+  titleMy: "IGCSE သုတေသန အစီရင်ခံစာ အပြည့်အစုံ Draft ရေးသားခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w32-d1",
+      dayNumber: 1,
+      titleEn: "Assembling Every Section into One Coherent Report",
+      titleMy: "Section တိုင်းကို ညီညွတ်သော Report တစ်ခုတည်းအဖြစ် စုစည်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why must a full research report's introduction and conclusion sections directly connect back to the same original research question, rather than drifting onto different topics?",
+          questionMy:
+              "Full သုတေသန Report တစ်ခု၏ Introduction နှင့် Conclusion Section များသည် ကွဲပြားသော ခေါင်းစဉ်များသို့ ရွေ့လျားမည့်အစား မူလ သုတေသန မေးခွန်းတူတူသို့ တိုက်ရိုက် ပြန်လှမ်း ချိတ်ဆက်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A coherent report must show that its findings and conclusions actually answer the specific question it set out to investigate, not a different one",
+            "Introduction and conclusion sections should never actually relate to each other in any way",
+            "A research report's coherence has no actual connection to its research question",
+            "It is standard practice to change the research question freely between the introduction and the conclusion",
+          ],
+          optionsMy: [
+            "ညီညွတ်သော Report တစ်ခုသည် ၎င်း၏ တွေ့ရှိချက်များနှင့် ကောက်ချက်များသည် အခြားတစ်ခုမဟုတ်ဘဲ ၎င်း စစ်ဆေးရန် တင်ပြခဲ့သော တိကျသော မေးခွန်းကို အမှန်တကယ် ဖြေဆိုကြောင်း ပြသရမည်",
+            "Introduction နှင့် Conclusion Section များသည် နည်းလမ်းမည်သည်နှင့်မျှ တစ်ခုနှင့်တစ်ခု ဘယ်တော့မှ အမှန်တကယ် ဆက်စပ်မှု မရှိသင့်ခြင်း",
+            "သုတေသန Report တစ်ခု၏ Coherence သည် ၎င်း၏ သုတေသန မေးခွန်းနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Introduction နှင့် Conclusion ကြား သုတေသန မေးခွန်းကို လွတ်လပ်စွာ ပြောင်းလဲခြင်းသည် စံနှုန်း Practice ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 28's research-alignment lesson -- a report that starts with one question and drifts to answering a completely different one has failed the core test of coherence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 28 ၏ Research-Alignment သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- မေးခွန်းတစ်ခုဖြင့် စတင်ကာ လုံးဝ ကွဲပြားသော မေးခွန်းတစ်ခုကို ဖြေဆိုသို့ ရွေ့လျားသွားသော Report တစ်ခုသည် Coherence ၏ အဓိက Test ကို ကျရှုံးခဲ့ပြီ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important for the methodology section of a report to match what was actually done in the fieldwork, rather than describing an idealized or different process?",
+          questionMy:
+              "Report တစ်ခု၏ Methodology Section သည် Idealized (သို့) ကွဲပြားသော Process တစ်ခုကို ဖော်ပြမည့်အစား Fieldwork တွင် အမှန်တကယ် လုပ်ဆောင်ခဲ့သည်နှင့် ကိုက်ညီရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Accurately describing the actual methodology allows readers to properly judge the reliability and limitations of the findings",
+            "The methodology section should always describe an imaginary process rather than the real one",
+            "Accuracy in the methodology section has no actual connection to a report's credibility",
+            "Readers never actually need to know how research was conducted",
+          ],
+          optionsMy: [
+            "အမှန်တကယ် Methodology ကို တိကျစွာ ဖော်ပြခြင်းသည် တွေ့ရှိချက်များ၏ ယုံကြည်ရမှုနှင့် ကန့်သတ်ချက်များကို စနစ်တကျ ဆုံးဖြတ်ရန် စာဖတ်သူများကို ခွင့်ပြုသည်",
+            "Methodology Section သည် အစစ်အမှန် Process တစ်ခုအစား စိတ်ကူးဖြင့် Process တစ်ခုကို အမြဲ ဖော်ပြသင့်ခြင်း",
+            "Methodology Section ရှိ တိကျမှုသည် Report တစ်ခု၏ ယုံကြည်ရမှုနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "သုတေသနကို မည်သို့ ဆောင်ရွက်ခဲ့သည်ကို စာဖတ်သူများ အမှန်တကယ် သိရန် လိုအပ်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If Su Myat Noe's report claimed a perfectly even fifty-fifty sample split without mentioning the extra sampling days it actually took, readers would have a misleading picture of how reliable the data collection process was.",
+          ],
+          hintsMy: [
+            "အမှန်တကယ် ယူခဲ့ရသော ထပ်ဆောင်း Sampling ရက်များကို မဖော်ပြဘဲ Su Myat Noe ၏ Report သည် ပြီးပြည့်စုံသော ငါးဆယ်-ငါးဆယ် Sample Split ကို ဆိုပါက Data Collection Process မည်မျှ ယုံကြည်ရသည်ဆိုသည် လမ်းလွှဲသော ပုံရိပ် စာဖတ်သူများ ရရှိမည် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a full report be reviewed for consistency between its sections (e.g. does the conclusion match the evidence presented earlier) before being considered finished?",
+          questionMy:
+              "Report အပြည့်အစုံတစ်ခုသည် ပြီးစီးသည်ဟု ယူဆမီ ၎င်း၏ Section များကြား Consistency (ဥပမာ - ကောက်ချက်သည် ယခင်က တင်ပြထားသော Evidence နှင့် ကိုက်ညီသလား) အတွက် ပြန်လည် သုံးသပ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Sections written separately over time can drift apart, and a final consistency check catches contradictions before a reader does",
+            "Consistency between report sections has no actual value or purpose",
+            "A report's sections should always contradict each other for the strongest possible argument",
+            "Once each section is written individually, no further review is ever necessary",
+          ],
+          optionsMy: [
+            "အချိန်ကြာမြင့်စွာ သီးခြားစီ ရေးသားထားသော Section များသည် တစ်ခုနှင့်တစ်ခု ကွဲထွက်နိုင်ပြီး နောက်ဆုံး Consistency Check တစ်ခုသည် စာဖတ်သူ မတွေ့ရှိမီ ဆန့်ကျင်ချက်များကို ဖမ်းမိသည်",
+            "Report Section များကြား Consistency သည် အမှန်တကယ် တန်ဖိုး (သို့) ရည်ရွယ်ချက် မရှိခြင်း",
+            "Report တစ်ခု၏ Section များသည် ဖြစ်နိုင်ဆုံး အခိုင်မာဆုံး Argument အတွက် တစ်ခုနှင့်တစ်ခု အမြဲ ဆန့်ကျင်သင့်ခြင်း",
+            "Section တစ်ခုစီကို တစ်ဦးချင်း ရေးသားပြီးနောက် ထပ်မံ ပြန်လည်သုံးသပ်ရန် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since Su Myat Noe wrote her methodology, analysis, and reflection sections across several different weeks, a final read-through is needed to make sure earlier and later sections still agree with each other.",
+          ],
+          hintsMy: [
+            "Su Myat Noe သည် ၎င်း၏ Methodology, Analysis နှင့် Reflection Section များကို မတူညီသော အပတ်များစွာတစ်လျှောက် ရေးသားခဲ့သောကြောင့် ယခင်နှင့် နောက်ပိုင်း Section များ တစ်ခုနှင့်တစ်ခု ဆက်လက် သဘောတူနေသည်ကို သေချာစေရန် နောက်ဆုံး Read-Through တစ်ခု လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Research Report Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 8 Research Report ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w32-dm-1",
+          termEn: "Report coherence",
+          termMy: "Report Coherence",
+          matchEn:
+              "Every section of a report consistently addressing the same original research question",
+          matchMy:
+              "Report တစ်ခု၏ Section တိုင်းသည် မူလ သုတေသန မေးခွန်းတူတူကို တသမတ်တည်း ဖြေဆိုခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w32-dm-2",
+          termEn: "Methodology accuracy",
+          termMy: "Methodology Accuracy",
+          matchEn:
+              "Describing exactly what was actually done, not an idealized version of the process",
+          matchMy:
+              "Process ၏ Idealized Version တစ်ခုမဟုတ်ဘဲ အမှန်တကယ် လုပ်ဆောင်ခဲ့သည်ကို အတိအကျ ဖော်ပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w32-dm-3",
+          termEn: "Consistency review",
+          termMy: "Consistency Review",
+          matchEn:
+              "A final check that all report sections agree with each other before submission",
+          matchMy:
+              "တင်သွင်းမီ Report Section အားလုံး တစ်ခုနှင့်တစ်ခု သဘောတူနေသည်ကို နောက်ဆုံး စစ်ဆေးမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w32-dm-4",
+          termEn: "Independent research report",
+          termMy: "Independent Research Report",
+          matchEn:
+              "A self-directed study combining a research question, methodology, findings, and reflection",
+          matchMy:
+              "သုတေသန မေးခွန်း၊ Methodology, တွေ့ရှိချက်များနှင့် Reflection ကို ပေါင်းစပ်ထားသော Self-Directed Study",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Coherent or Inconsistent Report Section?",
+      titleMy: "စီစစ်ကြမည် - Coherent (သို့) Inconsistent Report Section",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Coherent With the Research Question",
+          "Inconsistent With the Research Question",
+        ],
+        bucketsMy: [
+          "သုတေသန မေးခွန်းနှင့် Coherent",
+          "သုတေသန မေးခွန်းနှင့် Inconsistent",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w32-sort-1",
+            labelEn:
+                "A conclusion that directly answers the digital-divide question posed in the introduction",
+            labelMy:
+                "Introduction တွင် တင်ပြထားသော Digital-Divide မေးခွန်းကို တိုက်ရိုက် ဖြေဆိုသော ကောက်ချက်",
+            correctBucketEn: "Coherent With the Research Question",
+            correctBucketMy: "သုတေသန မေးခွန်းနှင့် Coherent",
+          ),
+          SortingItem(
+            id: "igcgp-w32-sort-2",
+            labelEn:
+                "A methodology section describing a survey that was never actually conducted",
+            labelMy:
+                "အမှန်တကယ် ဘယ်တော့မှ မပြုလုပ်ခဲ့သော Survey တစ်ခုကို ဖော်ပြသော Methodology Section",
+            correctBucketEn: "Inconsistent With the Research Question",
+            correctBucketMy: "သုတေသန မေးခွန်းနှင့် Inconsistent",
+          ),
+          SortingItem(
+            id: "igcgp-w32-sort-3",
+            labelEn:
+                "A findings section presenting coded interview themes that match the stated fieldwork process",
+            labelMy:
+                "ဖော်ပြထားသော Fieldwork Process နှင့် ကိုက်ညီသော Coding ပြုလုပ်ထားသော Interview Theme များ တင်ပြသော Findings Section",
+            correctBucketEn: "Coherent With the Research Question",
+            correctBucketMy: "သုတေသန မေးခွန်းနှင့် Coherent",
+          ),
+          SortingItem(
+            id: "igcgp-w32-sort-4",
+            labelEn:
+                "A conclusion that suddenly discusses an entirely different topic than the original research question",
+            labelMy:
+                "မူလ သုတေသန မေးခွန်းထက် လုံးဝ ကွဲပြားသော ခေါင်းစဉ်တစ်ခုအကြောင်း ရုတ်တရက် ဆွေးနွေးသော ကောက်ချက်",
+            correctBucketEn: "Inconsistent With the Research Question",
+            correctBucketMy: "သုတေသန မေးခွန်းနှင့် Inconsistent",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Final Report Assembly",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ နောက်ဆုံး Report စုစည်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Final Report Assembly",
+        titleMy: "Su Myat Noe ၏ နောက်ဆုံး Report စုစည်းခြင်း",
+        passageEn:
+            "For Term 8's capstone, Ko Zin Ko Ko asked every student to assemble every section written across the term -- introduction, literature review, methodology, findings, conclusion, and reflection -- into one complete, coherent research report, exactly mirroring the real IGCSE Global Perspectives report component. Su Myat Noe's assembly process revealed the value of Monday's consistency-review lesson immediately.\n\nReading her sections together for the first time, she noticed her introduction, written back in Term 1, still described her research question in slightly different wording than her conclusion, written in Term 8 -- a small drift that had crept in over many months of work. Following Monday's coherence lesson, she revised her introduction's wording to precisely match the question her conclusion actually answered, ensuring a reader moving from the first page to the last would recognize it as the same investigation throughout.\n\nHer methodology section required a similar accuracy check, applying Tuesday's lesson directly. Her original Term 7 draft had described her sampling plan in its idealized, as-designed form -- fifty students split evenly between two schools, collected efficiently. Rather than leaving this inaccurate version in her final report, she rewrote it to accurately describe what had actually happened: the extra sampling days needed to reach her rural target, and the leading-question correction she had caught before distribution. This honest account, she recognized, was actually a strength rather than something to hide, since it demonstrated a working, self-correcting research process.\n\nHer final full read-through, following Wednesday's consistency-review lesson, caught one more issue: her findings section reported the household-income comparison as 'inconclusive due to small sub-sample,' but an earlier draft of her conclusion had briefly referenced it as if it were a confirmed pattern. She corrected the conclusion to match her more careful findings-section language exactly. Ko Zin Ko Ko's review of her assembled report praised it specifically for reading as one unified argument built by a single consistent voice across nine months, rather than eight separate assignments stapled together -- the exact standard the real IGCSE report component would require.",
+        passageMy:
+            "Term 8 Capstone အတွက် Term တစ်ခုလုံးတစ်လျှောက် ရေးသားခဲ့သော Section တိုင်း -- Introduction, Literature Review, Methodology, Findings, Conclusion နှင့် Reflection -- ကို Report ပြည့်စုံ၊ ညီညွတ်တစ်ခုတည်းအဖြစ် စုစည်းရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့ပြီး တကယ့် IGCSE Global Perspectives Report Component ကို အတိအကျ ထင်ဟပ်စေခဲ့သည်။ Su Myat Noe ၏ Assembly Process သည် တနင်္လာနေ့ Consistency-Review သင်ခန်းစာ၏ တန်ဖိုးကို ချက်ချင်း ဖော်ထုတ်ခဲ့သည်။\n\n၎င်း၏ Section များကို ပထမဆုံးအကြိမ် အတူတကွ ဖတ်ရှုချိန် Term 1 တွင် ရေးသားခဲ့သော ၎င်း၏ Introduction သည် Term 8 တွင် ရေးသားခဲ့သော ၎င်း၏ Conclusion ထက် ၎င်း၏ သုတေသန မေးခွန်းကို အနည်းငယ် ကွဲပြားသော စကားလုံးအသုံးအနှုန်းဖြင့် ဆက်လက် ဖော်ပြနေဆဲ ဖြစ်ကြောင်း ၎င်း သတိပြုမိခဲ့သည် -- လအတော်များစွာ အလုပ်လုပ်ခဲ့ရာမှ ဝင်ရောက်လာခဲ့သော Drift ငယ်တစ်ခု ဖြစ်သည်။ တနင်္လာနေ့ Coherence သင်ခန်းစာအတိုင်း ၎င်း၏ Conclusion အမှန်တကယ် ဖြေဆိုခဲ့သော မေးခွန်းနှင့် တိကျစွာ ကိုက်ညီစေရန် ၎င်း၏ Introduction ၏ စကားလုံးအသုံးအနှုန်းကို ၎င်း ပြန်လည် ပြင်ဆင်ခဲ့ပြီး ပထမ စာမျက်နှာမှ နောက်ဆုံးသို့ ရွှေ့လျားသော စာဖတ်သူတစ်ဦးသည် ၎င်းကို တစ်လျှောက်လုံး စုံစမ်းစစ်ဆေးမှုတူတူအဖြစ် အသိအမှတ်ပြုစေရန် သေချာစေခဲ့သည်။\n\n၎င်း၏ Methodology Section သည် အင်္ဂါနေ့ သင်ခန်းစာကို တိုက်ရိုက် အသုံးချကာ အလားတူ တိကျမှု စစ်ဆေးချက် လိုအပ်ခဲ့သည်။ ၎င်း၏ မူလ Term 7 Draft သည် ၎င်း၏ Sampling Plan ကို Idealized, As-Designed Form ၌ ဖော်ပြခဲ့သည် - ကျောင်းနှစ်ခုကြား ညီညီညာညာ ခွဲထားသော ကျောင်းသား ငါးဆယ်၊ ထိရောက်စွာ စုဆောင်းထားသည်။ ဤ မမှန်ကန်သော Version ကို ၎င်း၏ နောက်ဆုံး Report တွင် ချန်ထားမည့်အစား အမှန်တကယ် ဖြစ်ပျက်ခဲ့သည်ကို တိကျစွာ ဖော်ပြရန် ၎င်း ပြန်လည် ရေးသားခဲ့သည် - ၎င်း၏ Rural Target ကို ရောက်ရှိရန် လိုအပ်ခဲ့သော ထပ်ဆောင်း Sampling ရက်များနှင့် ဖြန်ဝေမီ ၎င်း ဖမ်းမိခဲ့သော Leading-Question ပြင်ဆင်ချက်။ ဤ ရိုးသား Account သည် Working, Self-Correcting သုတေသန Process တစ်ခုကို သရုပ်ဖော်ပြသောကြောင့် ဖျောက်ထားရန် အရာတစ်ခုအစား အမှန်တကယ် အားသာချက်တစ်ခု ဖြစ်ကြောင်း ၎င်း သိရှိခဲ့သည်။\n\n၎င်း၏ Read-Through အပြည့်အစုံ နောက်ဆုံး၊ ဗုဒ္ဓဟူးနေ့ Consistency-Review သင်ခန်းစာအတိုင်း ပြဿနာတစ်ခု ထပ်မံ ဖမ်းမိခဲ့သည် - ၎င်း၏ Findings Section သည် Household-Income နှိုင်းယှဉ်ချက်ကို 'Sub-Sample ငယ်ကြောင့် Inconclusive' ဟု အစီရင်ခံခဲ့သော်လည်း ၎င်း၏ Conclusion ၏ ယခင် Draft သည် ၎င်းကို Confirmed Pattern တစ်ခုကဲ့သို့ အတိုချုပ် ရည်ညွှန်းခဲ့သည်။ ၎င်း၏ ပို၍ ဂရုတစိုက် Findings-Section ဘာသာစကားနှင့် အတိအကျ ကိုက်ညီစေရန် ၎င်း Conclusion ကို ပြင်ဆင်ခဲ့သည်။ ၎င်း၏ Assembled Report ကို ကိုဇင်ကိုကို ပြန်လည်သုံးသပ်ချက်သည် ခြောက်လသတ္တပတ်တစ်လျှောက် တပ်ဆက်ထားသော ခွဲခြားသော Assignment ရှစ်ခုအစား ကိုးလတစ်လျှောက် တသမတ်တည်း ရင့်သန်းတစ်ဦး တည်ဆောက်ထားသော Argument တစ်ခုတည်းကဲ့သို့ ဖတ်ရှုရသောကြောင့် အထူးသဖြင့် ၎င်းကို ချီးမွမ်းခဲ့သည် -- တကယ့် IGCSE Report Component တောင်းဆိုမည့် စံနှုန်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what small drift did Su Myat Noe find between her introduction and conclusion?",
+            questionMy:
+                "၎င်း၏ Introduction နှင့် Conclusion ကြား Su Myat Noe တွေ့ရှိခဲ့သော Drift ငယ်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The introduction described her research question in slightly different wording than the conclusion",
+              "The introduction and conclusion were already perfectly identical",
+              "The introduction discussed a completely different subject entirely",
+              "There was no drift of any kind found between the two sections",
+            ],
+            optionsMy: [
+              "Introduction သည် ၎င်း၏ သုတေသန မေးခွန်းကို Conclusion ထက် အနည်းငယ် ကွဲပြားသော စကားလုံးအသုံးအနှုန်းဖြင့် ဖော်ပြခဲ့ခြင်း",
+              "Introduction နှင့် Conclusion သည် ယခုပင် အတိအကျ တူညီပြီးသား ဖြစ်ခြင်း",
+              "Introduction သည် လုံးဝ ကွဲပြားသော ခေါင်းစဉ်တစ်ခုအကြောင်း ဆွေးနွေးခဲ့ခြင်း",
+              "Section နှစ်ခုကြား Drift မည်သည်မှ တွေ့ရှိခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of the drift.",
+            ],
+            hintsMy: ["Drift ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe fix her methodology section?",
+            questionMy:
+                "၎င်း၏ Methodology Section ကို Su Myat Noe မည်သို့ ပြင်ဆင်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She rewrote it to accurately describe what actually happened, including the extra sampling days and the question correction",
+              "She deleted the methodology section entirely with no replacement",
+              "She left the idealized, inaccurate version unchanged",
+              "She replaced it with a description of an entirely different research project",
+            ],
+            optionsMy: [
+              "ထပ်ဆောင်း Sampling ရက်များနှင့် မေးခွန်း ပြင်ဆင်ချက် အပါအဝင် အမှန်တကယ် ဖြစ်ပျက်ခဲ့သည်ကို တိကျစွာ ဖော်ပြရန် ၎င်း ပြန်လည် ရေးသားခဲ့ခြင်း",
+              "အစားထိုးချက် မပါဘဲ Methodology Section ကို လုံးဝ ဖျက်ပစ်ခဲ့ခြင်း",
+              "Idealized, မမှန်ကန်သော Version ကို မပြောင်းလဲဘဲ ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "လုံးဝ ကွဲပြားသော သုတေသန Project တစ်ခု၏ ဖော်ပြချက်ဖြင့် ၎င်းကို အစားထိုးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's account of her revision."],
+            hintsMy: [
+              "၎င်း၏ ပြင်ဆင်ချက် အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what final consistency issue did Su Myat Noe catch and fix?",
+            questionMy:
+                "Su Myat Noe ဖမ်းမိ၍ ပြင်ဆင်ခဲ့သော နောက်ဆုံး Consistency ပြဿနာကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her conclusion had referenced the household-income finding as confirmed when her findings section called it inconclusive",
+              "There was no consistency issue found in her final read-through at all",
+              "Her entire report contained no findings section whatsoever",
+              "Her conclusion contradicted every single section of the report",
+            ],
+            optionsMy: [
+              "၎င်း၏ Findings Section က Inconclusive ဟု ခေါ်ဆိုခဲ့သော Household-Income တွေ့ရှိချက်ကို ၎င်း၏ Conclusion က Confirmed အဖြစ် ရည်ညွှန်းခဲ့ခြင်း",
+              "၎င်း၏ နောက်ဆုံး Read-Through တွင် Consistency ပြဿနာ မည်သည်မှ တွေ့ရှိခြင်း မရှိခြင်း",
+              "၎င်း၏ Report တစ်ခုလုံးတွင် Findings Section မည်သည်မှ လုံးဝ မပါဝင်ခြင်း",
+              "၎င်း၏ Conclusion သည် Report ရှိ Section တစ်ခုချင်းစီကို ဆန့်ကျင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the fourth paragraph's account of the final catch.",
+            ],
+            hintsMy: [
+              "နောက်ဆုံး ဖမ်းမိချက် အကြောင်းအရာကို စာပိုဒ် ၄ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Research Report Exam",
+      titleMy: "Term 8 Capstone - Research Report စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A coherent research report must...",
+          questionMy: "ညီညွတ်သော သုတေသန Report တစ်ခုသည် ...ရမည်",
+          optionsEn: [
+            "Consistently address the same original research question throughout",
+            "Change its research question freely between sections",
+            "Contain sections that contradict each other",
+            "Avoid connecting its conclusion to its introduction",
+          ],
+          optionsMy: [
+            "တစ်လျှောက်လုံး မူလ သုတေသန မေးခွန်းတူတူကို တသမတ်တည်း ဖြေဆိုရမည်",
+            "Section များကြား ၎င်း၏ သုတေသန မေးခွန်းကို လွတ်လပ်စွာ ပြောင်းလဲရမည်",
+            "တစ်ခုနှင့်တစ်ခု ဆန့်ကျင်သော Section များ ပါဝင်ရမည်",
+            "၎င်း၏ Conclusion ကို ၎င်း၏ Introduction နှင့် ချိတ်ဆက်ခြင်း ရှောင်ကြဉ်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A methodology section should describe...",
+          questionMy: "Methodology Section တစ်ခုသည် ...ကို ဖော်ပြသင့်သည်",
+          optionsEn: [
+            "What was actually done, including any corrections made",
+            "Only an idealized version of the plan",
+            "A completely different research project",
+            "Nothing about how the research was conducted",
+          ],
+          optionsMy: [
+            "ပြုလုပ်ခဲ့သော ပြင်ဆင်ချက် မည်သည်ကိုမဆို အပါအဝင် အမှန်တကယ် ဆောင်ရွက်ခဲ့သည်ကို",
+            "Plan ၏ Idealized Version တစ်ခုတည်းသာ",
+            "လုံးဝ ကွဲပြားသော သုတေသန Project တစ်ခု",
+            "သုတေသနကို မည်သို့ ဆောင်ရွက်ခဲ့သည်ဆိုသည်အကြောင်း မည်သည်ကိုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A final consistency review checks whether...",
+          questionMy: "နောက်ဆုံး Consistency Review တစ်ခုသည် ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "All report sections agree with each other",
+            "The report contains the correct number of pages",
+            "The font used matches the school's official style",
+            "The report was submitted before a deadline",
+          ],
+          optionsMy: [
+            "Report Section အားလုံး တစ်ခုနှင့်တစ်ခု သဘောတူသည် ရှိမရှိ",
+            "Report တွင် စာမျက်နှာ အရေအတွက် မှန်ကန်သည် ရှိမရှိ",
+            "အသုံးပြုထားသော Font သည် ကျောင်း၏ တရားဝင် Style နှင့် ကိုက်ညီသည် ရှိမရှိ",
+            "Report ကို Deadline မတိုင်မီ တင်သွင်းခဲ့သည် ရှိမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 8: "Analysis, Conclusions and the
+// Complete Research Report" (Weeks 29-32)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm8 = CourseTermDef(
+  id: "course-igcse-gp-t8",
+  termNumber: 8,
+  titleEn: "Analysis, Conclusions and the Complete Research Report",
+  titleMy: "Analysis, Conclusion များနှင့် Research Report အပြည့်အစုံ",
+  certificateTitleEn: "Analysis, Conclusions and the Complete Research Report",
+  certificateTitleMy:
+      "Analysis, Conclusion များနှင့် Research Report အပြည့်အစုံ",
+  weeks: [_igcseGpWeek29, _igcseGpWeek30, _igcseGpWeek31, _igcseGpWeek32],
 );
 // __IGCSE_GP_MARKER__
