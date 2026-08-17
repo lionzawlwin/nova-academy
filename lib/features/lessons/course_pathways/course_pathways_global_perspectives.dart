@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 7-9 not yet authored; wired incrementally, one completed
+// Terms 8-9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,9 +58246,9 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs. Term 7, The Independent Research Report: Design and Execution, covers choosing quantitative versus qualitative methods, building a synthesized literature review, and executing ethical, bias-free fieldwork, closing with a Research Progress Review Studio where students audit their own methodology and honestly report what remains unfinished.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Independent Research Report: Design and Execution သည် Quantitative vs Qualitative Method ရွေးချယ်ခြင်း၊ Synthesized Literature Review တည်ဆောက်ခြင်းနှင့် ကျင့်ဝတ်ရှိ၊ Bias ကင်းသော Fieldwork ဆောင်ရွက်ခြင်းတို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ကာ ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံသော Research Progress Review Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseGpTerm1,
@@ -58257,6 +58257,7 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
     _igcseGpTerm4,
     _igcseGpTerm5,
     _igcseGpTerm6,
+    _igcseGpTerm7,
   ],
 );
 // =====================================================================
@@ -65404,5 +65405,1463 @@ const CourseTermDef _igcseGpTerm6 = CourseTermDef(
   certificateTitleMy:
       "ကမ္ဘာ့ စီးပွားရေး - အလုပ်အကိုင်၊ Corporation များနှင့် ကုန်သွယ်ရေး",
   weeks: [_igcseGpWeek21, _igcseGpWeek22, _igcseGpWeek23, _igcseGpWeek24],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 7, Week 25: "Research Design and
+// Methodology"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek25 = CourseWeekDef(
+  id: "course-igcse-gp-w25",
+  weekNumber: 25,
+  titleEn: "Research Design and Methodology",
+  titleMy: "သုတေသန Design နှင့် Methodology",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w25-d1",
+      dayNumber: 1,
+      titleEn: "Choosing Between Qualitative and Quantitative Methods",
+      titleMy: "Qualitative နှင့် Quantitative Method များကြား ရွေးချယ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why would a researcher studying 'how many students in a school use public transport' choose a quantitative method rather than a qualitative one?",
+          questionMy:
+              "'ကျောင်းတစ်ခုရှိ ကျောင်းသား မည်မျှသည် အများသုံး သယ်ယူပို့ဆောင်ရေး အသုံးပြုသည်' ကို လေ့လာနေသော သုတေသနပညာရှင်တစ်ဦးသည် Qualitative Method တစ်ခုအစား Quantitative Method တစ်ခုကို ရွေးချယ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The question asks for a countable, numerical answer across a population, which quantitative methods (like a survey) are specifically designed to measure",
+            "Quantitative methods can never actually produce any numerical data",
+            "Qualitative methods are always superior for every possible research question",
+            "The choice between methods has no actual relationship to the research question being asked",
+          ],
+          optionsMy: [
+            "မေးခွန်းသည် လူဦးရေတစ်ခုလုံးတစ်လျှောက် ရေတွက်နိုင်၊ နံပါတ်ဆိုင်ရာ အဖြေတစ်ခု တောင်းဆိုပြီး Quantitative Method (Survey ကဲ့သို့) သည် ၎င်းကို တိုင်းတာရန် အထူး Design ပြုလုပ်ထားသည်",
+            "Quantitative Method များသည် နံပါတ်ဆိုင်ရာ Data မည်သည်မျှ အမှန်တကယ် ဘယ်တော့မှ မထုတ်ပေးနိုင်ခြင်း",
+            "Qualitative Method များသည် ဖြစ်နိုင်သော သုတေသန မေးခွန်း မည်သည်အတွက်မဆို အမြဲ ပို၍ ကောင်းမွန်ခြင်း",
+            "Method များကြား ရွေးချယ်ခြင်းသည် မေးနေသော သုတေသန မေးခွန်းနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'How many' is a counting question -- a numbers-based survey of the whole school population answers it far more directly than in-depth interviews with a handful of students.",
+          ],
+          hintsMy: [
+            "'မည်မျှ' ဆိုသည်မှာ ရေတွက်ခြင်း မေးခွန်း ဖြစ်သည် -- ကျောင်း လူဦးရေတစ်ခုလုံး၏ နံပါတ်-အခြေခံ Survey သည် ကျောင်းသား အနည်းငယ်နှင့် Interview နက်နက်ရှိုင်းရှိုင်းထက် ၎င်းကို ပို၍ တိုက်ရိုက် ဖြေကြားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why would a researcher studying 'why students feel anxious before exams' likely choose a qualitative method?",
+          questionMy:
+              "'ကျောင်းသားများ စာမေးပွဲမတိုင်မီ စိုးရိမ်စိတ် အဘယ်ကြောင့် ခံစားရသနည်း' ကို လေ့လာနေသော သုတေသနပညာရှင်တစ်ဦးသည် Qualitative Method တစ်ခုကို ရွေးချယ်နိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The question seeks to understand personal experiences and reasons in depth, which interviews or open-ended surveys capture better than pure numerical counting",
+            "Qualitative methods can only ever produce numerical data",
+            "This kind of question can never actually be researched using any method",
+            "Quantitative and qualitative methods are always completely interchangeable for every question",
+          ],
+          optionsMy: [
+            "မေးခွန်းသည် ကိုယ်ပိုင် အတွေ့အကြုံများနှင့် အကြောင်းရင်းများကို နက်နက်ရှိုင်းရှိုင်း နားလည်ရန် ရှာဖွေပြီး Interview (သို့) Open-Ended Survey များသည် စစ်မှန်သော နံပါတ်-ရေတွက်ခြင်းထက် ၎င်းကို ပို၍ ကောင်းစွာ ဖမ်းယူသည်",
+            "Qualitative Method များသည် နံပါတ်ဆိုင်ရာ Data ကိုသာ ဘယ်တော့မှ ထုတ်ပေးနိုင်ခြင်း",
+            "ဤအမျိုးအစား မေးခွန်းကို Method မည်သည်ကိုမျှ အသုံးပြု၍ အမှန်တကယ် ဘယ်တော့မှ သုတေသနပြုလုပ်၍ မရနိုင်ခြင်း",
+            "Quantitative နှင့် Qualitative Method များသည် မေးခွန်းတိုင်းအတွက် အမြဲ လုံးဝ အပြန်အလှန် အစားထိုးနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'Why' questions about feelings and personal reasons need depth and narrative detail, which a multiple-choice survey number cannot fully capture on its own.",
+          ],
+          hintsMy: [
+            "ခံစားချက်များနှင့် ကိုယ်ပိုင် အကြောင်းရင်းများအကြောင်း 'ဘာကြောင့်' မေးခွန်းများသည် Multiple-Choice Survey နံပါတ်တစ်ခုတည်းက အပြည့်အစုံ ဖမ်းယူ၍ မရနိုင်သော အနက်ရှိုင်းမှုနှင့် Narrative အသေးစိတ် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a strong Global Perspectives research report combine both quantitative and qualitative methods rather than choosing only one?",
+          questionMy:
+              "ခိုင်မာသော Global Perspectives သုတေသန အစီရင်ခံစာတစ်ခုသည် တစ်ခုတည်းကိုသာ ရွေးချယ်မည့်အစား Quantitative နှင့် Qualitative Method နှစ်ခုစလုံးကို ပေါင်းစပ်နိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Combining methods can show both the scale of an issue (numbers) and the human reasons behind it (depth), giving a more complete picture",
+            "Combining methods is always technically impossible in any research project",
+            "Using more than one method automatically weakens the research's credibility",
+            "Quantitative and qualitative methods can never be used within the same research project",
+          ],
+          optionsMy: [
+            "Method များ ပေါင်းစပ်ခြင်းသည် ပြဿနာတစ်ခု၏ အတိုင်းအတာ (နံပါတ်များ) နှင့် ၎င်း၏ နောက်ကွယ်ရှိ လူသား အကြောင်းရင်းများ (နက်ရှိုင်းမှု) နှစ်ခုစလုံးကို ပြသနိုင်ကာ ပို၍ ပြည့်စုံသော ပုံရိပ်ပေးနိုင်သည်",
+            "Method များ ပေါင်းစပ်ခြင်းသည် သုတေသန Project မည်သည်တွင်မဆို Technically ဖြစ်နိုင်ခြင်း မရှိခြင်း",
+            "Method တစ်ခုထက်ပို၍ အသုံးပြုခြင်းသည် သုတေသန၏ ယုံကြည်ရမှုကို အလိုအလျောက် အားနည်းစေခြင်း",
+            "Quantitative နှင့် Qualitative Method များကို သုတေသန Project တစ်ခုတည်းအတွင်း ဘယ်တော့မှ အသုံးမပြုနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects both earlier questions: a survey could show what percentage of students feel exam anxiety, while interviews explain why -- together they answer both 'how many' and 'why' more completely than either alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ယခင်မေးခွန်း နှစ်ခုစလုံးနှင့် ချိတ်ဆက်သည် - Survey တစ်ခုသည် ကျောင်းသား ရာခိုင်နှုန်း မည်မျှသည် စာမေးပွဲ စိုးရိမ်စိတ် ခံစားရသည်ကို ပြသနိုင်ပြီး Interview များက အဘယ်ကြောင့်ကို ရှင်းပြသည် -- အတူတကွ 'မည်မျှ' နှင့် 'ဘာကြောင့်' နှစ်ခုစလုံးကို တစ်ခုတည်းထက် ပို၍ ပြည့်စုံစွာ ဖြေကြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Research Methodology Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Research Methodology ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w25-dm-1",
+          termEn: "Quantitative method",
+          termMy: "Quantitative Method",
+          matchEn: "A research approach collecting numerical, measurable data",
+          matchMy:
+              "နံပါတ်ဆိုင်ရာ၊ တိုင်းတာနိုင်သော Data စုဆောင်းသော သုတေသန Approach",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w25-dm-2",
+          termEn: "Qualitative method",
+          termMy: "Qualitative Method",
+          matchEn:
+              "A research approach exploring experiences, opinions, and reasons in depth",
+          matchMy:
+              "အတွေ့အကြုံများ၊ ထင်မြင်ချက်များနှင့် အကြောင်းရင်းများကို နက်ရှိုင်းစွာ စူးစမ်းသော သုတေသန Approach",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w25-dm-3",
+          termEn: "Sample size",
+          termMy: "Sample Size",
+          matchEn: "The number of people or cases included in a research study",
+          matchMy: "သုတေသန လေ့လာမှုတစ်ခုတွင် ပါဝင်သော လူ (သို့) Case အရေအတွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w25-dm-4",
+          termEn: "Mixed methods",
+          termMy: "Mixed Methods",
+          matchEn:
+              "Combining quantitative and qualitative approaches within one research study",
+          matchMy:
+              "သုတေသန လေ့လာမှု တစ်ခုအတွင်း Quantitative နှင့် Qualitative Approach များ ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Quantitative or Qualitative Research Question?",
+      titleMy: "စီစစ်ကြမည် - Quantitative (သို့) Qualitative သုတေသန မေးခွန်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Quantitative Research Question",
+          "Qualitative Research Question",
+        ],
+        bucketsMy: [
+          "Quantitative သုတေသန မေးခွန်း",
+          "Qualitative သုတေသန မေးခွန်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w25-sort-1",
+            labelEn:
+                "What percentage of a city's population has reliable internet access?",
+            labelMy:
+                "မြို့တစ်ခု၏ လူဦးရေ ရာခိုင်နှုန်းမည်မျှသည် ယုံကြည်ရသော Internet Access ရှိသနည်း။",
+            correctBucketEn: "Quantitative Research Question",
+            correctBucketMy: "Quantitative သုတေသန မေးခွန်း",
+          ),
+          SortingItem(
+            id: "igcgp-w25-sort-2",
+            labelEn:
+                "How do refugee families describe their experience adjusting to a new country?",
+            labelMy:
+                "ဒုက္ခသည် မိသားစုများသည် နိုင်ငံအသစ်တစ်ခုသို့ ရင့်ကျက်ညှိနှိုင်းခြင်း ၎င်းတို့ အတွေ့အကြုံကို မည်သို့ ဖော်ပြသနည်း။",
+            correctBucketEn: "Qualitative Research Question",
+            correctBucketMy: "Qualitative သုတေသန မေးခွန်း",
+          ),
+          SortingItem(
+            id: "igcgp-w25-sort-3",
+            labelEn:
+                "How many hours per week does the average teenager spend on social media?",
+            labelMy:
+                "ပျမ်းမျှ ဆယ်ကျော်သက်တစ်ဦးသည် Social Media တွင် တစ်ပတ်လျှင် နာရီ မည်မျှ ကုန်ဆုံးသနည်း။",
+            correctBucketEn: "Quantitative Research Question",
+            correctBucketMy: "Quantitative သုတေသန မေးခွန်း",
+          ),
+          SortingItem(
+            id: "igcgp-w25-sort-4",
+            labelEn:
+                "Why do some small business owners feel threatened by automation?",
+            labelMy:
+                "လုပ်ငန်းငယ် ပိုင်ရှင်အချို့သည် Automation ကြောင့် ခြိမ်းခြောက်ခံရသည်ဟု အဘယ်ကြောင့် ခံစားရသနည်း။",
+            correctBucketEn: "Qualitative Research Question",
+            correctBucketMy: "Qualitative သုတေသန မေးခွန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe Chooses Her Research Methodology",
+      titleMy:
+          "စာဖတ်ခြင်း - Su Myat Noe ၎င်း၏ သုတေသန Methodology ရွေးချယ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe Chooses Her Research Methodology",
+        titleMy: "Su Myat Noe ၎င်း၏ သုတေသန Methodology ရွေးချယ်ခြင်း",
+        passageEn:
+            "Ko Zin Ko Ko opened Term 7 by returning students to their Term 1 research proposals and asking them to now design the actual methodology for their final independent research report. Su Myat Noe's original research question, developed back in Week 3, asked how the digital divide affected students in rural versus urban schools -- and she now needed to decide exactly how she would investigate it.\n\nFollowing Monday's lesson on quantitative versus qualitative methods, she recognized her question actually contained two distinct parts. The first part, measuring the scale of the gap -- what percentage of rural versus urban students had reliable internet access, owned a personal device, or could access online learning resources -- was a clearly quantitative question, best answered through a structured survey distributed across both types of schools. The second part, understanding how that gap actually affected students' daily learning experience and emotional relationship to schoolwork, was a clearly qualitative question, better suited to in-depth interviews with a smaller number of students and teachers.\n\nRather than picking one approach and forcing her whole research question to fit it, Su Myat Noe designed a mixed-methods study combining both, exactly as Wednesday's lesson had described. Her plan specified a survey with a target sample size of at least fifty students split evenly between a rural school and an urban school, providing the quantitative scale of the divide, paired with in-depth interviews of five students and two teachers from each school, providing the qualitative depth behind the numbers.\n\nWhen Ko Zin Ko Ko reviewed her draft methodology, he specifically praised her for justifying each method choice against the exact part of her research question it was designed to answer, rather than choosing methods arbitrarily. He noted this careful methodological reasoning -- not just picking a method, but explaining why it fit the specific question -- was exactly what the real IGCSE research report component would require her to demonstrate.",
+        passageMy:
+            "Term 7 ကို ကျောင်းသားများ ၎င်းတို့၏ Term 1 သုတေသန Proposal များထံသို့ ပြန်လည် ခေါ်ဆောင်၍ ၎င်းတို့၏ နောက်ဆုံး လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အမှန်တကယ် Methodology ကို ယခု Design ပြုလုပ်ရန် တောင်းဆို၍ ကိုဇင်ကိုကို ဖွင့်လှစ်ခဲ့သည်။ Week 3 တွင် ဖန်တီးခဲ့သော Su Myat Noe ၏ မူလ သုတေသန မေးခွန်းသည် Digital Divide သည် Rural နှင့် Urban ကျောင်းများရှိ ကျောင်းသားများကို မည်သို့ သက်ရောက်စေသည်ကို မေးခဲ့ပြီး ယခု ၎င်း လေ့လာစူးစမ်းမည့် အတိအကျ နည်းလမ်းကို ဆုံးဖြတ်ရန် လိုအပ်ခဲ့သည်။\n\nတနင်္လာနေ့ Quantitative Versus Qualitative Method သင်ခန်းစာအတိုင်း ၎င်း၏ မေးခွန်းသည် သီးခြား အပိုင်းနှစ်ပိုင်း အမှန်တကယ် ပါဝင်ကြောင်း သိရှိခဲ့သည်။ ပထမအပိုင်း ကွာဟချက်၏ အတိုင်းအတာကို တိုင်းတာခြင်း -- Rural Versus Urban ကျောင်းသား ရာခိုင်နှုန်းမည်မျှသည် ယုံကြည်ရသော Internet Access ရှိပြီး ကိုယ်ပိုင် Device ပိုင်ဆိုင်ကာ Online Learning Resource များကို ဝင်ရောက်ခွင့်ရသနည်း -- သည် ရှင်းလင်းစွာ Quantitative မေးခွန်းတစ်ခု ဖြစ်ပြီး ကျောင်း နှစ်မျိုးစလုံးတစ်လျှောက် ဖြန့်ဝေထားသော Structured Survey မှတစ်ဆင့် အကောင်းဆုံး ဖြေကြားနိုင်သည်။ ဒုတိယအပိုင်း ထိုကွာဟချက်သည် ကျောင်းသားများ၏ နေ့စဉ် သင်ယူမှု အတွေ့အကြုံနှင့် ကျောင်းလုပ်ငန်းအပေါ် စိတ်ပိုင်းဆိုင်ရာ ဆက်ဆံရေးကို အမှန်တကယ် မည်သို့ သက်ရောက်စေသည်ကို နားလည်ခြင်း သည် ရှင်းလင်းစွာ Qualitative မေးခွန်းတစ်ခု ဖြစ်ပြီး ကျောင်းသားနှင့် ဆရာ အနည်းငယ်နှင့် Interview နက်နက်ရှိုင်းရှိုင်းနှင့် ပို၍ သင့်လျော်သည်။\n\nApproach တစ်ခုတည်းကို ရွေးချယ်ကာ ၎င်း၏ သုတေသန မေးခွန်းတစ်ခုလုံးကို ကိုက်ညီအောင် အတင်းအကြပ် လုပ်မည့်အစား ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သည့်အတိုင်း Su Myat Noe သည် Method နှစ်ခုစလုံးကို ပေါင်းစပ်ထားသော Mixed-Methods Study တစ်ခု Design ပြုလုပ်ခဲ့သည်။ ၎င်း၏ Plan သည် Rural ကျောင်းတစ်ခုနှင့် Urban ကျောင်းတစ်ခုကြား ညီညီညာညာ ခွဲထားသော အနည်းဆုံး ကျောင်းသား ငါးဆယ် Target Sample Size ပါ Survey တစ်ခု သတ်မှတ်ခဲ့ပြီး Divide ၏ Quantitative အတိုင်းအတာကို ပေးအပ်ကာ ကျောင်းတစ်ခုစီမှ ကျောင်းသား ငါးဦးနှင့် ဆရာ နှစ်ဦး၏ Interview နက်နက်ရှိုင်းရှိုင်းနှင့် တွဲဖက်ကာ နံပါတ်များ နောက်ကွယ်ရှိ Qualitative နက်ရှိုင်းမှုကို ပေးအပ်ခဲ့သည်။\n\n၎င်း၏ Draft Methodology ကို ကိုဇင်ကိုကို ပြန်လည်သုံးသပ်ချိန် Method များကို ကျပန်း ရွေးချယ်မည့်အစား Method ရွေးချယ်မှုတစ်ခုစီကို ၎င်း ဖြေဆိုရန် Design ပြုလုပ်ထားသော ၎င်း၏ သုတေသန မေးခွန်း အတိအကျ အပိုင်းနှင့် ကိုက်ညီစွာ ခိုင်လုံစေခဲ့သောကြောင့် ၎င်းကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။ ဤ ဂရုတစိုက် Methodological Reasoning -- Method တစ်ခုကို ရွေးချယ်ရုံသာမက ၎င်းသည် တိကျသော မေးခွန်းနှင့် အဘယ်ကြောင့် ကိုက်ညီသည်ကို ရှင်းပြခြင်း -- သည် တကယ့် IGCSE သုတေသန အစီရင်ခံစာ Component က ၎င်း သရုပ်ပြရန် လိုအပ်မည့်အရာ အတိအကျ ဖြစ်ကြောင်း ၎င်း သတိပြုမိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Su Myat Noe conclude her research question had two distinct parts?",
+            questionMy:
+                "၎င်း၏ သုတေသန မေးခွန်းသည် သီးခြား အပိုင်းနှစ်ပိုင်း ရှိကြောင်း Su Myat Noe အဘယ်ကြောင့် ကောက်ချက်ချခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One part measured the scale of the gap (quantitative) and the other explored the lived experience behind it (qualitative)",
+              "Both parts of her question were identical with no real difference",
+              "Her research question had no actual parts of any kind",
+              "Both parts required exactly the same research method",
+            ],
+            optionsMy: [
+              "အပိုင်းတစ်ခုက ကွာဟချက်၏ အတိုင်းအတာ (Quantitative) ကို တိုင်းတာပြီး အခြားတစ်ခုက ၎င်း၏ နောက်ကွယ်ရှိ Lived Experience (Qualitative) ကို စူးစမ်းခြင်း",
+              "၎င်း၏ မေးခွန်း အပိုင်းနှစ်ပိုင်းသည် ခြားနားချက် အမှန်တကယ် မရှိဘဲ တူညီခဲ့ခြင်း",
+              "၎င်း၏ သုတေသန မေးခွန်းတွင် အပိုင်း မည်သည်မျှ အမှန်တကယ် မရှိခြင်း",
+              "အပိုင်းနှစ်ပိုင်းစလုံးတွင် သုတေသန Method အတိအကျ တူညီစွာ လိုအပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the two parts.",
+            ],
+            hintsMy: [
+              "အပိုင်းနှစ်ပိုင်း ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Myat Noe's mixed-methods plan specify?",
+            questionMy:
+                "Su Myat Noe ၏ Mixed-Methods Plan သတ်မှတ်ခဲ့သည့် အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A survey of at least fifty students plus interviews with five students and two teachers per school",
+              "A survey with no defined sample size at all",
+              "Interviews only, with no survey component whatsoever",
+              "A survey of exactly one student from each school",
+            ],
+            optionsMy: [
+              "အနည်းဆုံး ကျောင်းသား ငါးဆယ် Survey နှင့် ကျောင်းတစ်ခုစီမှ ကျောင်းသား ငါးဦးနှင့် ဆရာ နှစ်ဦး Interview",
+              "Sample Size တိကျစွာ သတ်မှတ်ခြင်း မရှိသော Survey",
+              "Survey Component မည်သည်မှ မပါဘဲ Interview ကိုသာ",
+              "ကျောင်းတစ်ခုစီမှ ကျောင်းသား တစ်ဦးတည်း Survey",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's specific plan details."],
+            hintsMy: ["Plan အသေးစိတ်ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Ko Zin Ko Ko specifically praise about her draft?",
+            questionMy:
+                "၎င်း၏ Draft အကြောင်း ကိုဇင်ကိုကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She justified each method choice against the specific part of her question it answered",
+              "She chose methods entirely at random with no justification",
+              "She avoided using any methodology whatsoever",
+              "She used only one method with no reasoning provided",
+            ],
+            optionsMy: [
+              "Method ရွေးချယ်မှုတစ်ခုစီကို ၎င်း ဖြေဆိုသော ၎င်း၏ မေးခွန်း တိကျသော အပိုင်းနှင့် ခိုင်လုံစေခဲ့ခြင်း",
+              "Justification မည်သည်မှ မပါဘဲ Method များကို လုံးဝ ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+              "Methodology မည်သည်မှ လုံးဝ မသုံးခဲ့ခြင်း",
+              "Reasoning မည်သည်မှ မပါဘဲ Method တစ်ခုတည်းကိုသာ သုံးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's explanation of the praise.",
+            ],
+            hintsMy: [
+              "ချီးမွမ်းခြင်း ရှင်းလင်းချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w25-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Research Design and Methodology",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - သုတေသန Design နှင့် Methodology",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A 'how many' research question is typically best answered with...",
+          questionMy:
+              "'မည်မျှ' သုတေသန မေးခွန်းတစ်ခုကို ပုံမှန်အားဖြင့် ...ဖြင့် အကောင်းဆုံး ဖြေကြားနိုင်သည်",
+          optionsEn: [
+            "A quantitative method like a survey",
+            "A qualitative interview only",
+            "Guesswork with no data",
+            "Ignoring the question entirely",
+          ],
+          optionsMy: [
+            "Survey ကဲ့သို့ Quantitative Method",
+            "Qualitative Interview တစ်ခုတည်း",
+            "Data မပါသော ခန့်မှန်းချက်",
+            "မေးခွန်းကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A 'why do people feel' research question is typically best answered with...",
+          questionMy:
+              "'လူများ အဘယ်ကြောင့် ခံစားရသနည်း' သုတေသန မေးခွန်းတစ်ခုကို ပုံမှန်အားဖြင့် ...ဖြင့် အကောင်းဆုံး ဖြေကြားနိုင်သည်",
+          optionsEn: [
+            "A qualitative method like in-depth interviews",
+            "A survey with only yes/no answers",
+            "No research method at all",
+            "A random number generator",
+          ],
+          optionsMy: [
+            "In-Depth Interview ကဲ့သို့ Qualitative Method",
+            "Yes/No အဖြေသာ ပါသော Survey",
+            "သုတေသန Method မည်သည်မှ",
+            "ကျပန်း နံပါတ် ထုတ်ပေးသော Generator",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Mixed methods research is best described as...",
+          questionMy: "Mixed Methods သုတေသနကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "Combining quantitative and qualitative approaches together",
+            "Using only one method under all circumstances",
+            "Avoiding any data collection entirely",
+            "A method that never appears in real research",
+          ],
+          optionsMy: [
+            "Quantitative နှင့် Qualitative Approach များ အတူတကွ ပေါင်းစပ်ခြင်း",
+            "အခြေအနေတိုင်းတွင် Method တစ်ခုတည်းကိုသာ အသုံးပြုခြင်း",
+            "Data စုဆောင်းခြင်း မည်သည်မှ လုံးဝ ရှောင်ကြဉ်ခြင်း",
+            "စစ်မှန်သော သုတေသနတွင် ဘယ်တော့မှ မပေါ်လာသော Method",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 7, Week 26: "Literature Review
+// and Contextual Analysis"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek26 = CourseWeekDef(
+  id: "course-igcse-gp-w26",
+  weekNumber: 26,
+  titleEn: "Literature Review and Contextual Analysis",
+  titleMy: "Literature Review နှင့် Contextual Analysis",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w26-d1",
+      dayNumber: 1,
+      titleEn: "Why a Literature Review Comes Before Original Research",
+      titleMy:
+          "Literature Review သည် မူလ သုတေသနမတိုင်မီ ဘာကြောင့် ရှေ့ဆုံးရောက်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the primary purpose of a literature review before conducting original research?",
+          questionMy:
+              "မူလ သုတေသန မလုပ်ဆောင်မီ Literature Review ၏ အဓိက ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It shows what is already known about a topic, helping the researcher identify a genuine gap their own research can fill",
+            "A literature review has no actual purpose and can always be skipped entirely",
+            "It replaces the need for any original research whatsoever",
+            "It only exists to make a research report appear longer than it needs to be",
+          ],
+          optionsMy: [
+            "ခေါင်းစဉ်တစ်ခုအကြောင်း ယခုပင် သိထားပြီးသားကို ပြသကာ သုတေသနပညာရှင်အား ၎င်းကိုယ်ပိုင် သုတေသနက ဖြည့်ဆည်းနိုင်မည့် စစ်မှန်သော Gap တစ်ခု ဖော်ထုတ်ရန် ကူညီသည်",
+            "Literature Review သည် အမှန်တကယ် ရည်ရွယ်ချက် မရှိဘဲ အမြဲ လုံးဝ ကျော်ခွင်ရနိုင်ခြင်း",
+            "မူလ သုတေသန မည်သည်မဆို လိုအပ်ချက်ကို အစားထိုးပေးခြင်း",
+            "သုတေသန အစီရင်ခံစာကို လိုအပ်သည်ထက် ပို၍ ရှည်လျားဟန် ဖြစ်စေရန်သာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If you don't know what other researchers have already found, you risk 'discovering' something already well established, or missing a genuinely unanswered question your research could address.",
+          ],
+          hintsMy: [
+            "အခြား သုတေသနပညာရှင်များ ယခင်က တွေ့ရှိထားသည်ကို မသိပါက ခိုင်မာစွာ တည်ထောင်ပြီးသား အရာတစ်ခုကို 'ရှာဖွေတွေ့' နေမည့်အန္တရာယ် ရှိသလို ၎င်း၏ သုတေသနက ဖြေကြားနိုင်မည့် အဖြေမရသေးသော မေးခွန်းစစ်မှန်တစ်ခုကို လွတ်သွားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to consider the historical and cultural context in which a source was written, not just its content?",
+          questionMy:
+              "Source တစ်ခု၏ Content တစ်ခုတည်းသာမက ၎င်းကို ရေးသားခဲ့သော သမိုင်းနှင့် ယဉ်ကျေးမှုဆိုင်ရာ Context ကို ထည့်သွင်းစဉ်းစားရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A source's findings, assumptions, or relevance may be shaped by the specific time, place, or circumstances in which it was produced",
+            "Context has no actual effect on how a source's findings should be interpreted",
+            "Every source is equally relevant regardless of when or where it was written",
+            "Historical and cultural context only matters for sources written more than 100 years ago",
+          ],
+          optionsMy: [
+            "Source တစ်ခု၏ တွေ့ရှိချက်များ၊ ယူဆချက်များ (သို့) သက်ဆိုင်မှုသည် ၎င်းထုတ်လုပ်ခဲ့သော တိကျသော အချိန်၊ နေရာ (သို့) အခြေအနေများက ပုံဖော်နိုင်သည်",
+            "Source တစ်ခု၏ တွေ့ရှိချက်များကို မည်သို့ အနက်ဖွင့်ရမည်ဆိုသည်အပေါ် Context ၏ အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "Source တိုင်းသည် မည်သည့်အချိန်၊ မည်သည့်နေရာတွင် ရေးသားခဲ့သည်ဆိုသည် မည်သို့ပင်ရှိစေ ညီမျှစွာ သက်ဆိုင်ခြင်း",
+            "သမိုင်းနှင့် ယဉ်ကျေးမှုဆိုင်ရာ Context သည် နှစ် ၁၀၀ ကျော် ကြာမြင့်သော Source များနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly echoes Term 1's source-evaluation lesson -- a study on internet use from before smartphones existed would need to be interpreted very differently from one written today.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Source-Evaluation သင်ခန်းစာကို တိုက်ရိုက် ထင်ဟပ်သည် -- Smartphone မတိုင်မီ ကာလမှ Internet အသုံးပြုမှု Study တစ်ခုကို ယနေ့ ရေးသားထားသော တစ်ခုနှင့် အလွန် ကွဲပြားစွာ အနက်ဖွင့်ရန် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What does it mean to 'synthesize' sources in a literature review, rather than simply listing them one after another?",
+          questionMy:
+              "Literature Review တစ်ခုတွင် Source များကို တစ်ခုပြီးတစ်ခု စာရင်းပြုစုရုံသာမက 'Synthesize' ပြုလုပ်ခြင်းဆိုသည်မှာ အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "Comparing and connecting multiple sources to identify patterns, agreements, and disagreements between them",
+            "Synthesizing means copying each source's text directly without any analysis",
+            "Synthesizing means ignoring every source except the most recent one",
+            "Synthesizing has no actual difference from simply listing sources one by one",
+          ],
+          optionsMy: [
+            "Source များစွာကြား Pattern, သဘောတူညီမှုနှင့် သဘောကွဲလွဲမှုများ ဖော်ထုတ်ရန် နှိုင်းယှဉ်ကာ ချိတ်ဆက်ခြင်း",
+            "Synthesize ပြုလုပ်ခြင်းဆိုသည်မှာ Analysis မည်သည်မှ မပါဘဲ Source တစ်ခုစီ၏ Text ကို တိုက်ရိုက် ကူးယူခြင်း",
+            "Synthesize ပြုလုပ်ခြင်းဆိုသည်မှာ လတ်တလော Source တစ်ခုမှလွဲ၍ Source တိုင်းကို လျစ်လျူရှုခြင်း",
+            "Synthesize ပြုလုပ်ခြင်းသည် Source များကို တစ်ခုပြီးတစ်ခု စာရင်းပြုစုရုံနှင့် အမှန်တကယ် ခြားနားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Synthesis means asking 'what do these sources agree or disagree about, and what pattern emerges when I look at them together?' rather than summarizing each in isolation.",
+          ],
+          hintsMy: [
+            "Synthesis ဆိုသည်မှာ တစ်ခုချင်းစီကို သီးခြား အနှစ်ချုပ်ခြင်းအစား 'ဤ Source များသည် အဘယ်အရာအား သဘောတူ (သို့) သဘောကွဲလွဲသနည်း၊ အတူတကွ ကြည့်ရှုသောအခါ Pattern မည်သို့ ပေါ်ထွက်လာသနည်း' ဟု မေးခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Literature Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Literature Review ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w26-dm-1",
+          termEn: "Literature review",
+          termMy: "Literature Review",
+          matchEn:
+              "A summary and analysis of existing research relevant to a topic",
+          matchMy:
+              "ခေါင်းစဉ်တစ်ခုနှင့် သက်ဆိုင်သော ရှိပြီးသား သုတေသန၏ အနှစ်ချုပ်နှင့် ခွဲခြမ်းစိတ်ဖြာချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w26-dm-2",
+          termEn: "Research gap",
+          termMy: "Research Gap",
+          matchEn:
+              "A question or area existing research has not yet fully addressed",
+          matchMy:
+              "ရှိပြီးသား သုတေသနက အပြည့်အစုံ မဖြေရှင်းရသေးသော မေးခွန်း (သို့) နယ်ပယ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w26-dm-3",
+          termEn: "Contextual analysis",
+          termMy: "Contextual Analysis",
+          matchEn:
+              "Examining the historical, cultural, or circumstantial factors shaping a source",
+          matchMy:
+              "Source တစ်ခုကို ပုံဖော်သော သမိုင်း၊ ယဉ်ကျေးမှု (သို့) အခြေအနေဆိုင်ရာ အချက်များကို စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w26-dm-4",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn:
+              "Comparing and connecting multiple sources to identify patterns between them",
+          matchMy:
+              "Source များစွာကြား Pattern ဖော်ထုတ်ရန် နှိုင်းယှဉ်ကာ ချိတ်ဆက်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Summarizing or Synthesizing Sources?",
+      titleMy:
+          "စီစစ်ကြမည် - Source များ အနှစ်ချုပ်ခြင်း (သို့) Synthesize ပြုလုပ်ခြင်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Summarizing (Listing Sources Separately)",
+          "Synthesizing (Connecting Sources)",
+        ],
+        bucketsMy: [
+          "အနှစ်ချုပ်ခြင်း (Source များ သီးခြား စာရင်းပြု)",
+          "Synthesize ပြုလုပ်ခြင်း (Source များ ချိတ်ဆက်)",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w26-sort-1",
+            labelEn:
+                "'Source A found X. Source B found Y. Source C found Z.' with no comparison",
+            labelMy:
+                "'Source A သည် X ကို တွေ့ရှိသည်။ Source B သည် Y ကို တွေ့ရှိသည်။ Source C သည် Z ကို တွေ့ရှိသည်။' နှိုင်းယှဉ်ခြင်း မပါဘဲ",
+            correctBucketEn: "Summarizing (Listing Sources Separately)",
+            correctBucketMy: "အနှစ်ချုပ်ခြင်း (Source များ သီးခြား စာရင်းပြု)",
+          ),
+          SortingItem(
+            id: "igcgp-w26-sort-2",
+            labelEn:
+                "'While Sources A and B agree on X, Source C's differing context suggests why it reached Y instead'",
+            labelMy:
+                "'Source A နှင့် B သည် X အပေါ် သဘောတူသော်လည်း Source C ၏ ကွဲပြားသော Context က ၎င်း Y ကို မည်သို့ ရရှိခဲ့သည် အကြောင်း ညွှန်ပြသည်'",
+            correctBucketEn: "Synthesizing (Connecting Sources)",
+            correctBucketMy: "Synthesize ပြုလုပ်ခြင်း (Source များ ချိတ်ဆက်)",
+          ),
+          SortingItem(
+            id: "igcgp-w26-sort-3",
+            labelEn:
+                "Three separate paragraphs each describing one source with no links between them",
+            labelMy:
+                "စာပိုဒ်သီးခြား သုံးခု၊ တစ်ခုစီသည် Source တစ်ခုစီကို ချိတ်ဆက်မှု မပါဘဲ ဖော်ပြခြင်း",
+            correctBucketEn: "Summarizing (Listing Sources Separately)",
+            correctBucketMy: "အနှစ်ချုပ်ခြင်း (Source များ သီးခြား စာရင်းပြု)",
+          ),
+          SortingItem(
+            id: "igcgp-w26-sort-4",
+            labelEn:
+                "Identifying a pattern shared across five different sources on the same topic",
+            labelMy:
+                "ခေါင်းစဉ်တူ Source ငါးခုတစ်လျှောက် မျှဝေထားသော Pattern တစ်ခု ဖော်ထုတ်ခြင်း",
+            correctBucketEn: "Synthesizing (Connecting Sources)",
+            correctBucketMy: "Synthesize ပြုလုပ်ခြင်း (Source များ ချိတ်ဆက်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Literature Review Draft",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Literature Review Draft",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Literature Review Draft",
+        titleMy: "Su Myat Noe ၏ Literature Review Draft",
+        passageEn:
+            "Before beginning her survey and interviews, Su Myat Noe spent Week 26 gathering existing research on the digital divide, exactly as Monday's lesson required. She found several published studies, but her first draft simply summarized each one in its own paragraph -- what one study found in one country, what another study found in another region -- with no connections drawn between them.\n\nWhen Ko Zin Ko Ko reviewed this draft, he pointed directly to Wednesday's lesson on synthesis: her review was a list, not yet a review. He asked her to look across all her sources together and identify what pattern actually emerged. Revising her work, Su Myat Noe noticed that despite being written in different countries and years, nearly every source she'd found agreed on one specific point: infrastructure access alone did not close the digital divide without also addressing device affordability and digital literacy training -- the same three-layer structure she had discovered independently in her own Week 19 village investigation.\n\nHer revision also applied Tuesday's contextual-analysis lesson directly: she noticed one influential source was published nearly a decade earlier, before smartphones had become widely affordable in developing regions, and she explicitly flagged that its specific cost estimates were likely outdated even though its three-layer framework remained useful. This distinction between a source's still-valid framework and its outdated specific data was exactly the kind of contextual thinking the week's lesson had asked for.\n\nFrom this synthesized review, Su Myat Noe identified her genuine research gap: while the three-layer framework was well established globally, very little existing research had specifically examined how it applied to Myanmar's rural-urban divide, which was exactly the gap her own mixed-methods study, designed the previous week, was positioned to fill. Ko Zin Ko Ko praised her final draft specifically because the gap she identified now grew directly and logically out of a genuinely synthesized review, rather than being chosen first and justified afterward.",
+        passageMy:
+            "၎င်း၏ Survey နှင့် Interview များ မစတင်မီ Digital Divide အကြောင်း ရှိပြီးသား သုတေသနများကို Week 26 တွင် Su Myat Noe အချိန်ယူ စုဆောင်းခဲ့သည် - တနင်္လာနေ့ သင်ခန်းစာ တောင်းဆိုသည့်အတိုင်း အတိအကျ ဖြစ်သည်။ ထုတ်ဝေထားသော Study များစွာကို ၎င်း တွေ့ရှိခဲ့သော်လည်း ၎င်း၏ ပထမ Draft သည် တစ်ခုစီကို ၎င်းကိုယ်ပိုင် စာပိုဒ်တွင် ရိုးရှင်းစွာသာ အနှစ်ချုပ်ခဲ့သည် - Study တစ်ခုသည် နိုင်ငံတစ်ခုတွင် ဘာတွေ့ရှိခဲ့ပြီး Study အခြားတစ်ခုသည် ဒေသအခြားတစ်ခုတွင် ဘာတွေ့ရှိခဲ့သည် -- ၎င်းတို့ကြား ချိတ်ဆက်ခြင်း မည်သည်မှ မပါဘဲ ဖြစ်သည်။\n\nဤ Draft ကို ကိုဇင်ကိုကို ပြန်လည်သုံးသပ်ချိန် Synthesis အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာသို့ တိုက်ရိုက် ညွှန်ပြခဲ့သည် - ၎င်း၏ Review သည် Review တစ်ခုမဟုတ်သေးဘဲ Listing တစ်ခု ဖြစ်သည်။ ၎င်း၏ Source အားလုံးကို အတူတကွ ကြည့်ရှုပြီး Pattern မည်သည် အမှန်တကယ် ပေါ်ထွက်လာသည်ကို ဖော်ထုတ်ရန် ၎င်းကို ၎င်း တောင်းဆိုခဲ့သည်။ ၎င်း၏ အလုပ်ကို ပြန်လည် ပြင်ဆင်ချိန် နိုင်ငံနှင့် နှစ်စဉ် ကွဲပြားစွာ ရေးသားထားသော်လည်း ၎င်း တွေ့ရှိခဲ့သော Source နီးပါးအားလုံးသည် တိကျသော အချက်တစ်ခုအပေါ် သဘောတူခဲ့ကြောင်း Su Myat Noe သတိပြုမိခဲ့သည် - Device Affordability နှင့် Digital Literacy Training ကိုပါ ဖြေရှင်းခြင်း မရှိဘဲ Infrastructure Access တစ်ခုတည်းက Digital Divide ကို မပြေလည်ခဲ့ -- ၎င်း၏ Week 19 ရွာ စုံစမ်းစစ်ဆေးမှု၌ ၎င်းကိုယ်တိုင် သီးခြား တွေ့ရှိခဲ့သော Layer သုံးခု ဖွဲ့စည်းပုံတူတူ ဖြစ်သည်။\n\n၎င်း၏ ပြန်လည် ပြင်ဆင်မှုသည် အင်္ဂါနေ့ Contextual-Analysis သင်ခန်းစာကို တိုက်ရိုက် အသုံးချခဲ့သည် - Smartphone များသည် ဖွံ့ဖြိုးဆဲ ဒေသများတွင် ကျယ်ပြန့်စွာ ဈေးသက်သာစွာ ရရှိနိုင်မှု မဖြစ်ခင် နှစ်ဆယ်ချီ ကျော်လွန်ခဲ့သော ထုတ်ဝေထားသော Source တစ်ခုကို ၎င်း သတိပြုမိခဲ့ပြီး ၎င်း၏ Layer သုံးခု Framework ဆက်လက် အသုံးဝင်နေသော်လည်း ၎င်း၏ တိကျသော ကုန်ကျစရိတ် ခန့်မှန်းချက်များသည် Outdated ဖြစ်နိုင်ခြေ ရှိကြောင်း ရှင်းလင်းစွာ Flag ပြုလုပ်ခဲ့သည်။ Source တစ်ခု၏ ဆက်လက် တရားဝင်သော Framework နှင့် ၎င်း၏ Outdated တိကျသော Data ကြား ဤခွဲခြားချက်သည် အပတ်စဉ် သင်ခန်းစာ တောင်းဆိုခဲ့သော Contextual Thinking အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nဤ Synthesized Review မှ Su Myat Noe သည် ၎င်း၏ စစ်မှန်သော Research Gap ကို ဖော်ထုတ်ခဲ့သည် - Layer သုံးခု Framework သည် ကမ္ဘာတစ်ဝှမ်း ခိုင်မာစွာ တည်ထောင်ပြီးသား ဖြစ်သော်လည်း ရှိပြီးသား သုတေသန အလွန်နည်းပါးသည်သာ ၎င်းသည် မြန်မာနိုင်ငံ၏ Rural-Urban Divide နှင့် အတိအကျ မည်သို့ သက်ဆိုင်သည်ကို စစ်ဆေးထားပြီး ယခင်အပတ်က Design ပြုလုပ်ခဲ့သော ၎င်းကိုယ်ပိုင် Mixed-Methods Study က ဖြည့်ဆည်းရန် နေရာချထားသော Gap အတိအကျ ဖြစ်သည်။ ဖော်ထုတ်ခဲ့သော Gap သည် ပထမဆုံး ရွေးချယ်ပြီး နောက်ပိုင်း ခိုင်လုံစေခြင်း အစား စစ်မှန်စွာ Synthesize ပြုလုပ်ထားသော Review တစ်ခုမှ တိုက်ရိုက်၊ Logical အားဖြင့် ပေါက်ဖွားလာသောကြောင့် ၎င်း၏ နောက်ဆုံး Draft ကို ကိုဇင်ကိုကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what problem did Ko Zin Ko Ko identify in Su Myat Noe's first draft?",
+            questionMy:
+                "Su Myat Noe ၏ ပထမ Draft တွင် ကိုဇင်ကိုကို ဖော်ထုတ်ခဲ့သော ပြဿနာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was a list of separately summarized sources rather than a synthesized review",
+              "It contained no sources of any kind",
+              "It was too short to contain any useful information",
+              "It contained factual errors about the digital divide",
+            ],
+            optionsMy: [
+              "Synthesize ပြုလုပ်ထားသော Review တစ်ခုမဟုတ်ဘဲ သီးခြား အနှစ်ချုပ်ထားသော Source များ Listing တစ်ခု ဖြစ်ခြင်း",
+              "Source မည်သည်မှ လုံးဝ မပါခြင်း",
+              "အသုံးဝင်သော အချက်အလက် မည်သည်ကိုမှ ပါဝင်ရန် တိုတောင်းလွန်းခြင်း",
+              "Digital Divide အကြောင်း Factual Error ပါဝင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of the first draft's problem.",
+            ],
+            hintsMy: [
+              "ပထမ Draft ၏ ပြဿနာ ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe apply the contextual-analysis lesson to one older source?",
+            questionMy:
+                "Source အဟောင်းတစ်ခုအပေါ် Contextual-Analysis သင်ခန်းစာကို Su Myat Noe မည်သို့ အသုံးချခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She flagged its cost estimates as likely outdated while noting its framework remained useful",
+              "She discarded the source entirely without further consideration",
+              "She assumed the older source's data was automatically more accurate than newer sources",
+              "She ignored the source's publication date entirely",
+            ],
+            optionsMy: [
+              "၎င်း၏ Framework ဆက်လက် အသုံးဝင်နေကြောင်း မှတ်ချက်ပြုစဉ် ၎င်း၏ ကုန်ကျစရိတ် ခန့်မှန်းချက်များကို Outdated ဖြစ်နိုင်ခြေရှိသည်ဟု Flag ပြုလုပ်ခဲ့ခြင်း",
+              "ထပ်မံ စဉ်းစားမှု မပါဘဲ Source ကို လုံးဝ စွန့်ပစ်ခဲ့ခြင်း",
+              "Source အဟောင်း၏ Data သည် Source အသစ်များထက် ပို၍ တိကျသည်ဟု အလိုအလျောက် ယူဆခဲ့ခြင်း",
+              "Source ၏ ထုတ်ဝေသည့်ရက်စွဲကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's account of the older source.",
+            ],
+            hintsMy: [
+              "Source အဟောင်း အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what research gap did Su Myat Noe identify from her synthesis?",
+            questionMy:
+                "၎င်း၏ Synthesis မှ Su Myat Noe ဖော်ထုတ်ခဲ့သော Research Gap ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Little research had examined how the three-layer framework applied specifically to Myanmar's rural-urban divide",
+              "There was no research gap of any kind remaining in the field",
+              "The three-layer framework had never been studied anywhere in the world",
+              "Her research gap had nothing to do with her earlier village investigation",
+            ],
+            optionsMy: [
+              "Layer သုံးခု Framework သည် မြန်မာနိုင်ငံ၏ Rural-Urban Divide နှင့် အတိအကျ မည်သို့ သက်ဆိုင်သည်ကို သုတေသန အနည်းငယ်သာ စစ်ဆေးထားခြင်း",
+              "နယ်ပယ်တွင် Research Gap မည်သည်မှ ကျန်ရှိနေခြင်း မရှိခြင်း",
+              "Layer သုံးခု Framework ကို ကမ္ဘာပေါ်ရှိ နေရာမည်သည်တွင်မျှ ဘယ်တော့မှ လေ့လာခဲ့ခြင်း မရှိခြင်း",
+              "၎င်း၏ Research Gap သည် ၎င်း၏ ယခင် ရွာ စုံစမ်းစစ်ဆေးမှုနှင့် မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's description of the research gap.",
+            ],
+            hintsMy: [
+              "Research Gap ရှင်းလင်းချက်ကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w26-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Literature Review and Contextual Analysis",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Literature Review နှင့် Contextual Analysis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A literature review primarily helps a researcher...",
+          questionMy:
+              "Literature Review သည် အဓိကအားဖြင့် သုတေသနပညာရှင်အား ...ကူညီသည်",
+          optionsEn: [
+            "Identify a genuine gap their research can fill",
+            "Avoid reading any existing research",
+            "Guarantee their research will have no flaws",
+            "Replace the need for original data collection",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ သုတေသနက ဖြည့်ဆည်းနိုင်မည့် စစ်မှန်သော Gap ဖော်ထုတ်ရန်",
+            "ရှိပြီးသား သုတေသန မည်သည်ကိုမျှ ဖတ်ရှုခြင်း ရှောင်ကြဉ်ရန်",
+            "၎င်းတို့၏ သုတေသနတွင် ချို့ယွင်းချက် မရှိကြောင်း အာမခံရန်",
+            "မူလ Data စုဆောင်းမှု လိုအပ်ချက်ကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Synthesizing sources means...",
+          questionMy: "Source များကို Synthesize ပြုလုပ်ခြင်း ဆိုသည်မှာ...",
+          optionsEn: [
+            "Connecting multiple sources to identify shared patterns",
+            "Listing each source in a separate paragraph with no links",
+            "Ignoring every source except one",
+            "Copying source text word for word",
+          ],
+          optionsMy: [
+            "မျှဝေထားသော Pattern များ ဖော်ထုတ်ရန် Source များစွာ ချိတ်ဆက်ခြင်း",
+            "ချိတ်ဆက်မှု မပါဘဲ Source တစ်ခုစီကို စာပိုဒ် သီးခြားစီတွင် စာရင်းပြုစုခြင်း",
+            "Source တစ်ခုမှလွဲ၍ Source တိုင်းကို လျစ်လျူရှုခြင်း",
+            "Source Text ကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Contextual analysis of a source considers...",
+          questionMy:
+              "Source တစ်ခု၏ Contextual Analysis သည် ...ကို ထည့်သွင်းစဉ်းစားသည်",
+          optionsEn: [
+            "The historical/cultural circumstances that shaped it",
+            "Only the font used in the source document",
+            "Nothing beyond the source's word count",
+            "Only the color of the source's cover page",
+          ],
+          optionsMy: [
+            "၎င်းကို ပုံဖော်ခဲ့သော သမိုင်း/ယဉ်ကျေးမှုဆိုင်ရာ အခြေအနေများ",
+            "Source Document တွင် အသုံးပြုထားသော Font တစ်ခုတည်း",
+            "Source ၏ စကားလုံး အရေအတွက်မှလွဲ၍ မည်သည်မျှ",
+            "Source ၏ Cover Page အရောင်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 7, Week 27: "Data Collection and
+// Fieldwork Execution"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek27 = CourseWeekDef(
+  id: "course-igcse-gp-w27",
+  weekNumber: 27,
+  titleEn: "Data Collection and Fieldwork Execution",
+  titleMy: "Data Collection နှင့် Fieldwork Execution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w27-d1",
+      dayNumber: 1,
+      titleEn: "Avoiding Bias While Collecting Real Data",
+      titleMy: "Data အစစ်အမှန် စုဆောင်းစဉ် Bias ကို ရှောင်ရှားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why can a leading survey question (e.g. 'Don't you agree that social media is harmful?') undermine the reliability of collected data?",
+          questionMy:
+              "ဦးဆောင် Survey မေးခွန်းတစ်ခု (ဥပမာ - 'Social Media သည် အန္တရာယ်ရှိသည်ဟု သင် သဘောတူသည် မဟုတ်လား') သည် စုဆောင်းထားသော Data ၏ ယုံကြည်ရမှုကို ချိုးဖျက်နိုင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It subtly pressures respondents toward a particular answer rather than measuring their genuine, independent opinion",
+            "Leading questions always produce completely accurate and unbiased data",
+            "Question wording has no actual effect on how respondents answer a survey",
+            "This kind of question is required by all professional research standards",
+          ],
+          optionsMy: [
+            "Respondent များ၏ စစ်မှန်၊ လွတ်လပ်သော ထင်မြင်ချက်ကို တိုင်းတာမည့်အစား သတ်မှတ်ထားသော အဖြေတစ်ခုဘက်သို့ ၎င်းသည် သိမ်မွေ့စွာ ဖိအားပေးသည်",
+            "ဦးဆောင် မေးခွန်းများသည် အမြဲ လုံးဝ တိကျ၊ Bias ကင်းစင်သော Data ကို ထုတ်ပေးခြင်း",
+            "မေးခွန်း ရေးသားပုံသည် Respondent များ Survey ကို မည်သို့ ဖြေကြားသည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "ဤအမျိုးအစား မေးခွန်းသည် Professional သုတေသန စံနှုန်းများအားလုံးက တောင်းဆိုထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compare this to a neutral phrasing like 'How do you feel about social media's effect on wellbeing?' -- the leading version nudges respondents toward agreeing before they've even formed their own view.",
+          ],
+          hintsMy: [
+            "'Wellbeing အပေါ် Social Media ၏ သက်ရောက်မှုအကြောင်း သင် မည်သို့ ခံစားရသနည်း' ကဲ့သို့ Neutral စကားစုနှင့် ဤသည်ကို နှိုင်းယှဉ်ကြည့်ပါ -- ဦးဆောင်ဗားရှင်းသည် Respondent များ ၎င်းတို့ကိုယ်ပိုင် ရှုထောင့် မဖွဲ့စည်းမီပင် သဘောတူဘက်သို့ တွန်းပို့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a small or unrepresentative sample size threaten the validity of a data collection effort?",
+          questionMy:
+              "Data Collection ကြိုးပမ်းမှုတစ်ခု၏ Validity ကို Sample Size ငယ် (သို့) Unrepresentative Sample Size တစ်ခုက ခြိမ်းခြောက်နိုင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Findings from a small or skewed sample may not accurately reflect the broader population the researcher intends to draw conclusions about",
+            "Sample size has no actual effect on how reliable research findings are",
+            "A sample of just one or two people is always sufficient for any research question",
+            "Representativeness only matters for quantitative research, never qualitative research",
+          ],
+          optionsMy: [
+            "Sample ငယ် (သို့) Skewed Sample မှ တွေ့ရှိချက်များသည် သုတေသနပညာရှင် ကောက်ချက်ချရန် ရည်ရွယ်သော ကျယ်ပြန့်သော လူဦးရေကို တိကျစွာ ထင်ဟပ်နိုင်ခြင်း မရှိနိုင်ပါ",
+            "Sample Size သည် သုတေသန တွေ့ရှိချက်များ မည်မျှ ယုံကြည်ရမှု ရှိသည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "လူတစ်ဦး (သို့) နှစ်ဦးသာ ပါသော Sample သည် သုတေသန မေးခွန်း မည်သည်အတွက်မဆို အမြဲ လုံလောက်ခြင်း",
+            "Representativeness သည် Quantitative သုတေသနနှင့်သာ သက်ဆိုင်ပြီး Qualitative သုတေသနနှင့် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If you survey only your five closest friends about a national issue, their answers likely won't represent the views of a whole country or even a whole school.",
+          ],
+          hintsMy: [
+            "အမျိုးသား ကိစ္စတစ်ခုအကြောင်း ၎င်း၏ ရင်းနှီးဆုံး သူငယ်ချင်း ငါးဦးကိုသာ Survey ကောက်ယူပါက ၎င်းတို့၏ အဖြေများသည် နိုင်ငံတစ်ခုလုံး (သို့) ကျောင်းတစ်ခုလုံး၏ ရှုထောင့်များကို ကိုယ်စားပြုနိုင်ခြေ နည်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important to obtain informed consent from participants before collecting data through interviews?",
+          questionMy:
+              "Interview များမှတစ်ဆင့် Data စုဆောင်းမီ ပါဝင်သူများထံမှ Informed Consent ရယူရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Participants have an ethical right to understand how their information will be used and to choose freely whether to share it",
+            "Informed consent is an unnecessary formality with no real ethical purpose",
+            "Participants automatically consent to anything simply by agreeing to be interviewed",
+            "Consent only matters for quantitative surveys, never for qualitative interviews",
+          ],
+          optionsMy: [
+            "ပါဝင်သူများသည် ၎င်းတို့၏ အချက်အလက်ကို မည်သို့ အသုံးပြုမည်ကို နားလည်ရန်နှင့် ၎င်းကို မျှဝေမည်၊ မမျှဝေမည်ကို လွတ်လပ်စွာ ရွေးချယ်ရန် ကျင့်ဝတ်ဆိုင်ရာ အခွင့်အရေး ရှိသည်",
+            "Informed Consent သည် အမှန်တကယ် ကျင့်ဝတ်ဆိုင်ရာ ရည်ရွယ်ချက် မရှိသော မလိုအပ်သော Formality တစ်ခု",
+            "ပါဝင်သူများသည် Interview ပြုလုပ်ရန် သဘောတူရုံဖြင့် မည်သည့်အရာကိုမဆို အလိုအလျောက် သဘောတူခြင်း",
+            "Consent သည် Quantitative Survey များနှင့်သာ သက်ဆိုင်ပြီး Qualitative Interview များနှင့် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 5's data-privacy lesson -- 'informed' consent requires genuine understanding of how data will be used, not just a casual agreement to talk.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 5 ၏ Data-Privacy သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- 'Informed' Consent သည် စကားပြောရန် ရိုးရိုး သဘောတူညီမှုတစ်ခုသာမက Data ကို မည်သို့ အသုံးပြုမည်ဆိုသည် စစ်မှန်စွာ နားလည်ရန် လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Fieldwork Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Fieldwork ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w27-dm-1",
+          termEn: "Leading question",
+          termMy: "Leading Question",
+          matchEn:
+              "A question phrased to push respondents toward a particular answer",
+          matchMy:
+              "Respondent များအား သတ်မှတ်ထားသော အဖြေတစ်ခုဘက်သို့ တွန်းပို့ရန် ရေးသားထားသော မေးခွန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w27-dm-2",
+          termEn: "Representative sample",
+          termMy: "Representative Sample",
+          matchEn:
+              "A sample that accurately reflects the characteristics of the wider population",
+          matchMy:
+              "ကျယ်ပြန့်သော လူဦးရေ၏ ဂုဏ်သတ္တိများကို တိကျစွာ ထင်ဟပ်သော Sample",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w27-dm-3",
+          termEn: "Fieldwork",
+          termMy: "Fieldwork",
+          matchEn:
+              "Data collection carried out in a real-world setting rather than a lab or desk",
+          matchMy:
+              "Lab (သို့) Desk တစ်ခုအစား Real-World Setting တစ်ခုတွင် ဆောင်ရွက်သော Data Collection",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w27-dm-4",
+          termEn: "Participant consent",
+          termMy: "Participant Consent",
+          matchEn:
+              "A participant's informed, voluntary agreement to take part in research",
+          matchMy:
+              "သုတေသနတွင် ပါဝင်ရန် ပါဝင်သူတစ်ဦး၏ Informed, ဆန္ဒအလျောက် သဘောတူညီမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Sound or Flawed Data Collection Practice?",
+      titleMy:
+          "စီစစ်ကြမည် - ခိုင်မာ (သို့) ချို့ယွင်းသော Data Collection Practice",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Sound Data Collection Practice",
+          "Flawed Data Collection Practice",
+        ],
+        bucketsMy: [
+          "ခိုင်မာသော Data Collection Practice",
+          "ချို့ယွင်းသော Data Collection Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w27-sort-1",
+            labelEn:
+                "Asking neutrally phrased questions to a large, varied sample of respondents",
+            labelMy:
+                "ကွဲပြားသော Respondent Sample ကြီးတစ်ခုကို Neutral စကားစုပါ မေးခွန်းများ မေးမြန်းခြင်း",
+            correctBucketEn: "Sound Data Collection Practice",
+            correctBucketMy: "ခိုင်မာသော Data Collection Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w27-sort-2",
+            labelEn:
+                "Surveying only close friends who already share the researcher's opinion",
+            labelMy:
+                "သုတေသနပညာရှင်၏ ထင်မြင်ချက်ကို ယခုပင် မျှဝေထားသော ရင်းနှီးသူငယ်ချင်းများကိုသာ Survey ကောက်ယူခြင်း",
+            correctBucketEn: "Flawed Data Collection Practice",
+            correctBucketMy: "ချို့ယွင်းသော Data Collection Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w27-sort-3",
+            labelEn:
+                "Explaining the research purpose clearly and obtaining consent before each interview",
+            labelMy:
+                "Interview တစ်ခုစီ မတိုင်မီ သုတေသန ရည်ရွယ်ချက်ကို ရှင်းလင်းစွာ ရှင်းပြပြီး Consent ရယူခြင်း",
+            correctBucketEn: "Sound Data Collection Practice",
+            correctBucketMy: "ခိုင်မာသော Data Collection Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w27-sort-4",
+            labelEn:
+                "Using a leading question that pushes respondents toward a predetermined answer",
+            labelMy:
+                "Respondent များအား ကြိုတင်သတ်မှတ်ထားသော အဖြေတစ်ခုဘက်သို့ တွန်းပို့သော ဦးဆောင် မေးခွန်း အသုံးပြုခြင်း",
+            correctBucketEn: "Flawed Data Collection Practice",
+            correctBucketMy: "ချို့ယွင်းသော Data Collection Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Fieldwork Week",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Fieldwork အပတ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Fieldwork Week",
+        titleMy: "Su Myat Noe ၏ Fieldwork အပတ်",
+        passageEn:
+            "With her literature review complete and research gap identified, Su Myat Noe spent Week 27 actually executing her survey and interviews across the rural and urban schools in her study. Before distributing a single survey, she carefully reviewed her question wording against Monday's lesson on leading questions, catching and rewriting one item that had originally asked 'Don't you think rural students are falling behind?' -- replacing it with the neutral 'How would you describe your access to online learning resources?'\n\nExecuting her sampling plan proved harder than designing it. Her original target of fifty students split evenly between the rural and urban school ran into a real obstacle: the rural school had fewer students overall, and getting fifty responses there required visiting on three separate days rather than one. Rather than quietly settling for a smaller, less representative rural sample just to save time, she recognized this would violate Tuesday's lesson on sample representativeness, and she persisted until she reached her original target in both locations.\n\nHer interviews required careful attention to Wednesday's consent lesson. Before each interview, she explained in plain language what the research was for, how the interview would be used, and that participants could stop or decline to answer any question at any time. One student initially agreed to be interviewed but grew visibly uncomfortable when asked about family financial struggles limiting device access; Su Myat Noe immediately moved past that question rather than pressing for an answer, exactly honoring the voluntary nature of consent the lesson had described.\n\nBy the end of the week, Su Myat Noe had collected complete survey data from both schools and interview transcripts from ten students and four teachers. Ko Zin Ko Ko's review praised not just the data itself, but the specific methodological discipline she had shown throughout collection: catching her own biased question before it caused harm, refusing to compromise her sample's representativeness for convenience, and treating every participant's consent as genuinely revocable rather than a one-time formality.",
+        passageMy:
+            "Literature Review ပြီးစီးပြီး Research Gap ဖော်ထုတ်ပြီးနောက် ၎င်း၏ Study ၌ Rural နှင့် Urban ကျောင်းများတစ်လျှောက် Survey နှင့် Interview များကို အမှန်တကယ် ဆောင်ရွက်၍ Week 27 ကို Su Myat Noe ကုန်ဆုံးစေခဲ့သည်။ Survey တစ်ခုကို ဖြန့်ဝေမီ ၎င်း၏ မေးခွန်း ရေးသားပုံကို Leading Question များအကြောင်း တနင်္လာနေ့ သင်ခန်းစာနှင့် ဂရုတစိုက် ပြန်လည် သုံးသပ်ခဲ့ပြီး 'Rural ကျောင်းသားများ နောက်ကျကျန်နေသည်ဟု သင် မထင်ပါလား' ဟု မူလ မေးခဲ့သော Item တစ်ခုကို ဖမ်းမိကာ ပြန်လည် ရေးသားခဲ့သည် -- ၎င်းကို Neutral 'သင်၏ Online Learning Resource များ ဝင်ရောက်ခွင့်ကို သင် မည်သို့ ဖော်ပြမည်နည်း' ဖြင့် အစားထိုးခဲ့သည်။\n\n၎င်း၏ Sampling Plan ကို Execute ပြုလုပ်ခြင်းသည် ၎င်းကို Design ပြုလုပ်ခြင်းထက် ပို၍ ခက်ခဲကြောင်း သက်သေပြခဲ့သည်။ Rural နှင့် Urban ကျောင်းကြား ညီညီညာညာ ခွဲထားသော ကျောင်းသား ငါးဆယ် ၎င်း၏ မူလ Target သည် စစ်မှန်သော အတားအဆီးတစ်ခုနှင့် ရင်ဆိုင်ခဲ့ရသည် - Rural ကျောင်းတွင် စုစုပေါင်း ကျောင်းသား ပိုနည်းပြီး ထိုနေရာတွင် ကျောင်းသား ငါးဆယ် အဖြေရရှိရန် တစ်ရက်အစား သီးခြား ရက်သုံးရက် သွားရောက်ရန် လိုအပ်ခဲ့သည်။ အချိန် ချွေတာရန် Rural Sample ငယ်၊ Representative နည်းသော တစ်ခုနှင့် တိတ်တဆိတ် ရာနေမည့်အစား Sample Representativeness အကြောင်း အင်္ဂါနေ့ သင်ခန်းစာကို ဤသည် ချိုးဖျက်နိုင်ကြောင်း ၎င်း သိရှိခဲ့ပြီး နေရာနှစ်ခုစလုံးတွင် ၎င်း၏ မူလ Target ကို ရောက်ရှိသည်အထိ ဆက်လက် ကြိုးပမ်းခဲ့သည်။\n\n၎င်း၏ Interview များသည် Consent အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို ဂရုတစိုက် အာရုံစိုက်ရန် လိုအပ်ခဲ့သည်။ Interview တစ်ခုစီ မတိုင်မီ သုတေသနသည် အဘယ်အတွက် ရှိသည်၊ Interview ကို မည်သို့ အသုံးပြုမည်နှင့် ပါဝင်သူများသည် မေးခွန်း မည်သည်ကိုမဆို အချိန်မရွေး ရပ်တန့် (သို့) ဖြေကြားရန် ငြင်းဆန်နိုင်ကြောင်း ရိုးရှင်းသော ဘာသာစကားဖြင့် ရှင်းပြခဲ့သည်။ ကျောင်းသားတစ်ဦးသည် Interview ပြုလုပ်ရန် ပထမ သဘောတူခဲ့သော်လည်း Device Access ကို ကန့်သတ်နေသော မိသားစု ငွေကြေး ပြဿနာများအကြောင်း မေးမြန်းချိန် သိသိသာသာ မသက်မသာ ဖြစ်လာခဲ့သည်; Su Myat Noe သည် အဖြေတစ်ခု ရရန် ဖိအားပေးမည့်အစား ထို မေးခွန်းကို ချက်ချင်း ကျော်သွားခဲ့ပြီး သင်ခန်းစာ ဖော်ပြခဲ့သော Consent ၏ ဆန္ဒအလျောက် သဘောသဘာဝကို အတိအကျ ချီးမြှောက်ခဲ့သည်။\n\nအပတ်အဆုံးတွင် ကျောင်းနှစ်ခုစလုံးမှ ပြည့်စုံသော Survey Data နှင့် ကျောင်းသား ဆယ်ဦး၊ ဆရာ လေးဦးမှ Interview Transcript များကို Su Myat Noe စုဆောင်းပြီးစီးခဲ့သည်။ ကိုဇင်ကိုကို ၏ Review သည် Data ကိုယ်တိုင်ကိုသာမက Collection တစ်လျှောက် ၎င်း ပြသခဲ့သော တိကျသော Methodological Discipline ကိုပါ ချီးမွမ်းခဲ့သည် - ၎င်းကိုယ်ပိုင် Biased မေးခွန်းကို ထိခိုက်မှု မဖြစ်ပေါ်မီ ဖမ်းမိခြင်း၊ အဆင်ပြေမှုအတွက် ၎င်း၏ Sample ၏ Representativeness ကို လျှော့ချရန် ငြင်းဆန်ခြင်းနှင့် ပါဝင်သူတိုင်း၏ Consent ကို တစ်ကြိမ် Formality တစ်ခုသာမက စစ်မှန်စွာ Revocable ဖြစ်ခြင်းအဖြစ် ဆက်ဆံခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what leading question did Su Myat Noe catch and rewrite?",
+            questionMy:
+                "Su Myat Noe ဖမ်းမိ၍ ပြန်လည် ရေးသားခဲ့သော Leading Question ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "'Don't you think rural students are falling behind?'",
+              "There was no leading question found in her survey at all",
+              "A question about her own personal opinion of the topic",
+              "A question asking respondents for their name and age",
+            ],
+            optionsMy: [
+              "'Rural ကျောင်းသားများ နောက်ကျကျန်နေသည်ဟု သင် မထင်ပါလား'",
+              "၎င်း၏ Survey တွင် Leading Question မည်သည်မှ မတွေ့ရှိခဲ့ခြင်း",
+              "ခေါင်းစဉ်ကို ၎င်းကိုယ်ပိုင် ထင်မြင်ချက်အကြောင်း မေးခွန်း",
+              "Respondent များအား ၎င်းတို့၏ အမည်နှင့် အသက်ကို မေးမြန်းသော မေးခွန်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first paragraph's example of the leading question.",
+            ],
+            hintsMy: [
+              "Leading Question ဥပမာကို စာပိုဒ် ၁ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Su Myat Noe persist through the extra rural sampling days instead of accepting a smaller sample?",
+            questionMy:
+                "Sample ငယ်ကို လက်ခံမည့်အစား ထပ်ဆောင်း Rural Sampling ရက်များတစ်လျှောက် Su Myat Noe ဆက်လက် ကြိုးပမ်းခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A smaller rural sample would have violated the principle of sample representativeness",
+              "She had unlimited time available with no schedule pressure at all",
+              "The rural school required no additional visits of any kind",
+              "She wanted to make her research appear artificially longer",
+            ],
+            optionsMy: [
+              "Sample ငယ်တစ်ခုသည် Sample Representativeness စည်းမျဉ်းကို ချိုးဖျက်မည် ဖြစ်ခြင်း",
+              "Schedule ဖိအား မရှိဘဲ အကန့်အသတ်မရှိသော အချိန် ရရှိခဲ့ခြင်း",
+              "Rural ကျောင်းသည် ထပ်ဆောင်း သွားရောက်မှု မည်သည်မှ မလိုအပ်ခဲ့ခြင်း",
+              "၎င်း၏ သုတေသနကို လှုပ်ရှားစွာ ပို၍ ရှည်လျားဟန် ဖြစ်စေလိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of her decision.",
+            ],
+            hintsMy: [
+              "၎င်း၏ ဆုံးဖြတ်ချက် ရှင်းလင်းချက်ကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe respond when a student grew uncomfortable during an interview?",
+            questionMy:
+                "Interview တစ်ခု အတွင်း ကျောင်းသားတစ်ဦး မသက်မသာ ဖြစ်လာချိန် Su Myat Noe မည်သို့ တုံ့ပြန်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She immediately moved past the question rather than pressing for an answer",
+              "She pressured the student to answer the question anyway",
+              "She ended the entire research project immediately",
+              "She ignored the student's discomfort entirely",
+            ],
+            optionsMy: [
+              "အဖြေတစ်ခု ရရန် ဖိအားပေးမည့်အစား ထို မေးခွန်းကို ချက်ချင်း ကျော်သွားခဲ့ခြင်း",
+              "မည်သို့ပင်ရှိစေ မေးခွန်းကို ဖြေကြားရန် ကျောင်းသားကို ဖိအားပေးခဲ့ခြင်း",
+              "သုတေသန Project တစ်ခုလုံးကို ချက်ချင်း အဆုံးသတ်ခဲ့ခြင်း",
+              "ကျောင်းသား၏ မသက်မသာမှုကို လုံးဝ လျစ်လျူရှုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's account of the uncomfortable moment.",
+            ],
+            hintsMy: [
+              "မသက်မသာ ဖြစ်ခဲ့သော အခိုက်အတန့် အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w27-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Data Collection and Fieldwork Execution",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Data Collection နှင့် Fieldwork Execution",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A leading question tends to...",
+          questionMy: "Leading Question တစ်ခု ...တတ်သည်",
+          optionsEn: [
+            "Push respondents toward a particular answer",
+            "Always produce perfectly unbiased results",
+            "Have no effect on survey responses",
+            "Only be used in qualitative interviews",
+          ],
+          optionsMy: [
+            "Respondent များကို သတ်မှတ်ထားသော အဖြေတစ်ခုဘက်သို့ တွန်းပို့ခြင်း",
+            "အမြဲ လုံးဝ Bias ကင်းစင်သော ရလဒ်များ ထုတ်ပေးခြင်း",
+            "Survey တုံ့ပြန်မှုများအပေါ် သက်ရောက်မှု မရှိခြင်း",
+            "Qualitative Interview များတွင်သာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A representative sample is important because...",
+          questionMy:
+              "Representative Sample သည် အရေးကြီးသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It helps findings reflect the broader population accurately",
+            "Sample size never actually matters",
+            "Any single respondent represents an entire country",
+            "Representativeness only matters in laboratory experiments",
+          ],
+          optionsMy: [
+            "ကျယ်ပြန့်သော လူဦးရေကို တွေ့ရှိချက်များ တိကျစွာ ထင်ဟပ်ရန် ကူညီခြင်း",
+            "Sample Size သည် အမှန်တကယ် ဘယ်တော့မှ အရေးမကြီးခြင်း",
+            "Respondent တစ်ဦးတည်းသည် နိုင်ငံတစ်ခုလုံးကို ကိုယ်စားပြုခြင်း",
+            "Representativeness သည် Laboratory စမ်းသပ်မှုများတွင်သာ အရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Informed consent in fieldwork requires...",
+          questionMy: "Fieldwork တွင် Informed Consent တွင် ...လိုအပ်သည်",
+          optionsEn: [
+            "Participants genuinely understanding and voluntarily agreeing to take part",
+            "Participants agreeing automatically with no explanation",
+            "No explanation of the research purpose whatsoever",
+            "Forcing participants to answer every question asked",
+          ],
+          optionsMy: [
+            "ပါဝင်သူများ စစ်မှန်စွာ နားလည်ကာ ဆန္ဒအလျောက် ပါဝင်ရန် သဘောတူညီခြင်း",
+            "ရှင်းပြချက် မပါဘဲ ပါဝင်သူများ အလိုအလျောက် သဘောတူခြင်း",
+            "သုတေသန ရည်ရွယ်ချက် ရှင်းပြချက် မည်သည်မှ မရှိခြင်း",
+            "မေးထားသော မေးခွန်းတိုင်းကို ဖြေကြားရန် ပါဝင်သူများကို အတင်းအကြပ် လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 7, Week 28 (Capstone/Boss Week):
+// "Research Progress Review Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek28 = CourseWeekDef(
+  id: "course-igcse-gp-w28",
+  weekNumber: 28,
+  titleEn: "Research Progress Review Studio",
+  titleMy: "သုတေသန တိုးတက်မှု ပြန်လည်သုံးသပ်ခြင်း အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w28-d1",
+      dayNumber: 1,
+      titleEn: "Auditing Your Own Research Process",
+      titleMy: "၎င်းကိုယ်ပိုင် သုတေသန Process ကို Audit ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it valuable for a researcher to pause mid-project and audit their own methodology, rather than only reviewing it at the very end?",
+          questionMy:
+              "အဆုံးသတ်တွင်သာ ပြန်လည်သုံးသပ်မည့်အစား Project တစ်ဝက်တွင် ရပ်တန့်ကာ ၎င်းကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ခြင်းသည် သုတေသနပညာရှင်တစ်ဦးအတွက် တန်ဖိုးရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Catching a methodological flaw partway through allows time to correct it, while waiting until the end may make the flaw impossible to fix",
+            "A mid-project audit has no actual value and should always be skipped",
+            "Reviewing methodology only matters after all data has already been permanently discarded",
+            "Auditing mid-project guarantees the final report will contain zero errors",
+          ],
+          optionsMy: [
+            "တစ်ဝက်တွင် Methodological ချို့ယွင်းချက်တစ်ခုကို ဖမ်းမိခြင်းသည် ၎င်းကို ပြင်ဆင်ရန် အချိန်ပေးသော်လည်း အဆုံးသတ်အထိ စောင့်ခြင်းသည် ချို့ယွင်းချက်ကို ပြင်ဆင်၍ မရနိုင်စေနိုင်သည်",
+            "Mid-Project Audit တစ်ခုသည် အမှန်တကယ် တန်ဖိုး မရှိဘဲ အမြဲ ကျော်ခွင်ရနိုင်ခြင်း",
+            "Data အားလုံးကို ထာဝရ စွန့်ပစ်ပြီးနောက်တွင်သာ Methodology ပြန်လည်သုံးသပ်ခြင်း အရေးကြီးခြင်း",
+            "Mid-Project တွင် Audit ပြုလုပ်ခြင်းသည် နောက်ဆုံး Report တွင် Error လုံးဝ မပါကြောင်း အာမခံခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If Su Myat Noe had discovered a leading question only after all surveys were already distributed and completed, she could not have gone back and fixed it -- catching it early made correction possible.",
+          ],
+          hintsMy: [
+            "Survey အားလုံး ဖြန့်ဝေပြီး ပြီးစီးပြီးနောက်တွင်သာ Su Myat Noe သည် Leading Question တစ်ခုကို တွေ့ရှိခဲ့ပါက ၎င်းသည် ပြန်လည်၍ ပြင်ဆင်၍ မရနိုင်ခဲ့ပါ -- ၎င်းကို စောစီးစွာ ဖမ်းမိခြင်းသည် ပြင်ဆင်ခြင်းကို ဖြစ်နိုင်စေခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a mid-project research review specifically compare completed work against the original research question, rather than just checking that data was collected?",
+          questionMy:
+              "Mid-Project သုတေသန Review တစ်ခုသည် Data စုဆောင်းခဲ့ကြောင်း စစ်ဆေးရုံသက်သက်မက ပြီးစီးပြီးသား အလုပ်ကို မူလ သုတေသန မေးခွန်းနှင့် အထူးသဖြင့် နှိုင်းယှဉ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Data can be collected successfully yet still fail to actually answer the specific research question that was originally posed",
+            "The original research question becomes irrelevant once data collection begins",
+            "Checking against the research question has no actual analytical value",
+            "Any data collected automatically answers any research question regardless of relevance",
+          ],
+          optionsMy: [
+            "Data ကို အောင်မြင်စွာ စုဆောင်းနိုင်သော်လည်း မူလ တင်ပြခဲ့သော တိကျသော သုတေသန မေးခွန်းကို အမှန်တကယ် ဖြေကြားရန် ဆက်လက် ပျက်ကွက်နိုင်သေးသည်",
+            "Data Collection စတင်သည်နှင့် မူလ သုတေသန မေးခွန်းသည် မသက်ဆိုင်တော့ခြင်း",
+            "သုတေသန မေးခွန်းနှင့် နှိုင်းယှဉ် စစ်ဆေးခြင်းသည် အမှန်တကယ် Analytical တန်ဖိုး မရှိခြင်း",
+            "စုဆောင်းထားသော Data မည်သည်ဆိုသည်သည် သက်ဆိုင်မှု မည်သို့ပင်ရှိစေ သုတေသန မေးခွန်း မည်သည်ကိုမဆို အလိုအလျောက် ဖြေကြားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A researcher could collect lots of data that is technically real and valid, but which doesn't actually address the specific gap they set out to fill -- a review checks for this drift.",
+          ],
+          hintsMy: [
+            "သုတေသနပညာရှင်တစ်ဦးသည် Technically အမှန်တကယ် ရှိပြီး Valid ဖြစ်သော Data များစွာကို စုဆောင်းနိုင်သော်လည်း ၎င်းသည် ၎င်း ဖြည့်ဆည်းရန် ရည်ရွယ်ခဲ့သော တိကျသော Gap ကို အမှန်တကယ် မဖြေရှင်းနိုင်ပါ -- Review တစ်ခုသည် ဤ Drift ကို စစ်ဆေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it valuable for a research progress review to explicitly name what remains unfinished or uncertain, rather than presenting only completed work?",
+          questionMy:
+              "ပြီးစီးပြီးသား အလုပ်ကိုသာ တင်ပြမည့်အစား သုတေသန တိုးတက်မှု Review တစ်ခုသည် မပြီးစီးသေးသော (သို့) မသေချာသေးသော အရာများကို ရှင်းလင်းစွာ အမည်တပ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Honestly identifying gaps and uncertainties allows a researcher and their supervisor to plan realistically for what work remains",
+            "Progress reviews should always claim the project is completely finished regardless of actual status",
+            "Naming unfinished work has no actual planning value",
+            "A progress review exists only to celebrate success with no honest self-assessment",
+          ],
+          optionsMy: [
+            "Gap များနှင့် မသေချာမှုများကို ရိုးသားစွာ ဖော်ထုတ်ခြင်းသည် သုတေသနပညာရှင်နှင့် ၎င်းတို့၏ Supervisor အား ကျန်ရှိနေသော အလုပ်အတွက် လက်တွေ့ကျစွာ Plan ပြုလုပ်ရန် ခွင့်ပြုသည်",
+            "Progress Review များသည် Status အမှန်တကယ် မည်သို့ပင်ရှိစေ Project ပြီးစီးပြီးကြောင်း အမြဲ ဆိုသင့်ခြင်း",
+            "အလုပ် မပြီးစီးသေးကြောင်း အမည်တပ်ခြင်းသည် အမှန်တကယ် Planning တန်ဖိုး မရှိခြင်း",
+            "Progress Review တစ်ခုသည် ရိုးသား Self-Assessment မပါဘဲ အောင်မြင်မှုကို ဆင်ခြေအတွက်သာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 24's honest-trade-off lesson -- an honest report about what's still missing lets the next phase of work be planned realistically, rather than discovered as a crisis later.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 24 ၏ ရိုးသား-Trade-Off သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ဆက်လက် ပျောက်ဆုံးနေသေးသော အရာအကြောင်း ရိုးသားသော Report တစ်ခုသည် နောက်ပိုင်း Crisis တစ်ခုအဖြစ် ရှာဖွေတွေ့ရှိမည့်အစား လက်တွေ့ကျစွာ Plan ပြုလုပ်ရန် ခွင့်ပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Research Process Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 7 Research Process ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w28-dm-1",
+          termEn: "Methodological audit",
+          termMy: "Methodological Audit",
+          matchEn:
+              "A mid-project check for flaws in how research is being conducted",
+          matchMy:
+              "သုတေသန မည်သို့ ဆောင်ရွက်နေသည်တွင် ချို့ယွင်းချက်များအတွက် Mid-Project စစ်ဆေးမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w28-dm-2",
+          termEn: "Research alignment",
+          termMy: "Research Alignment",
+          matchEn:
+              "Whether collected data actually addresses the original research question",
+          matchMy:
+              "စုဆောင်းထားသော Data သည် မူလ သုတေသန မေးခွန်းကို အမှန်တကယ် ဖြေဆိုသည် ရှိမရှိ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w28-dm-3",
+          termEn: "Progress transparency",
+          termMy: "Progress Transparency",
+          matchEn:
+              "Honestly reporting what is complete and what still remains unfinished",
+          matchMy:
+              "ပြီးစီးပြီးသော အရာနှင့် ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w28-dm-4",
+          termEn: "Fieldwork discipline",
+          termMy: "Fieldwork Discipline",
+          matchEn:
+              "Consistently following ethical and methodological standards during data collection",
+          matchMy:
+              "Data Collection အတွင်း ကျင့်ဝတ်ဆိုင်ရာနှင့် Methodological စံနှုန်းများကို တသမတ်တည်း လိုက်နာခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: On Track or Needs Revision?",
+      titleMy: "စီစစ်ကြမည် - On Track (သို့) ပြန်လည် ပြင်ဆင်ရန် လိုအပ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Research On Track", "Needs Revision"],
+        bucketsMy: ["On Track ရှိသော သုတေသန", "ပြန်လည် ပြင်ဆင်ရန် လိုအပ်"],
+        items: [
+          SortingItem(
+            id: "igcgp-w28-sort-1",
+            labelEn:
+                "Collected data directly answers the original research question",
+            labelMy:
+                "စုဆောင်းထားသော Data သည် မူလ သုတေသန မေးခွန်းကို တိုက်ရိုက် ဖြေဆိုသည်",
+            correctBucketEn: "Research On Track",
+            correctBucketMy: "On Track ရှိသော သုတေသန",
+          ),
+          SortingItem(
+            id: "igcgp-w28-sort-2",
+            labelEn:
+                "A sample was collected only from one type of school despite claiming to compare two",
+            labelMy:
+                "နှစ်မျိုး နှိုင်းယှဉ်မည်ဟု ဆိုထားသော်လည်း ကျောင်း တစ်မျိုးတည်းမှသာ Sample စုဆောင်းထားခြင်း",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "ပြန်လည် ပြင်ဆင်ရန် လိုအပ်",
+          ),
+          SortingItem(
+            id: "igcgp-w28-sort-3",
+            labelEn:
+                "All interviews were conducted with documented informed consent",
+            labelMy:
+                "Interview အားလုံးကို မှတ်တမ်းတင်ထားသော Informed Consent ဖြင့် ဆောင်ရွက်ခဲ့ခြင်း",
+            correctBucketEn: "Research On Track",
+            correctBucketMy: "On Track ရှိသော သုတေသန",
+          ),
+          SortingItem(
+            id: "igcgp-w28-sort-4",
+            labelEn:
+                "The final report has no clear statement of what work still remains",
+            labelMy:
+                "ကျန်ရှိနေသေးသော အလုပ် မည်သည်ဆိုသည် ရှင်းလင်းသော ဖော်ပြချက် Final Report တွင် မရှိခြင်း",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "ပြန်လည် ပြင်ဆင်ရန် လိုအပ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Progress Review Presentation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ တိုးတက်မှု Review Presentation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Progress Review Presentation",
+        titleMy: "Su Myat Noe ၏ တိုးတက်မှု Review Presentation",
+        passageEn:
+            "For Term 7's capstone, Ko Zin Ko Ko asked every student to present a structured progress review of their independent research, auditing their own work exactly as Monday's lesson described rather than simply announcing everything was going well. Su Myat Noe's presentation followed a clear three-part structure matching the week's lessons.\n\nFirst, she conducted a methodological audit of her completed fieldwork, reporting specifically on the leading question she had caught and corrected before distribution, and the extra sampling days she had insisted on to preserve rural-sample representativeness. Rather than hiding these as mistakes, she presented them as evidence of a working self-correction process -- exactly the value of a mid-project audit Monday's lesson had described.\n\nSecond, following Tuesday's lesson on research alignment, she directly checked her collected data against her original research question about how the digital divide affected rural-versus-urban students. She reported that her quantitative survey data clearly answered the 'scale' half of her question, but her qualitative interview transcripts, while rich, had not yet been systematically coded or analyzed -- meaning the 'lived experience' half of her question was not yet actually answered, only the raw material for answering it had been gathered.\n\nThird, applying Wednesday's transparency lesson, she explicitly named what remained: analyzing and coding her ten interview transcripts, cross-referencing her qualitative findings against her quantitative results, and drafting her final written report. When a classmate asked whether admitting this much unfinished work made her presentation look weak, Ko Zin Ko Ko intervened directly: an honest, specific account of remaining work was exactly what a genuine progress review was for, and presenting false completeness would have been the actual weakness. He praised Su Myat Noe's review as a model of the self-auditing discipline the whole term had built toward.",
+        passageMy:
+            "Term 7 Capstone အတွက် လုပ်ငန်းအားလုံး ကောင်းစွာ လုပ်ဆောင်နေကြောင်း ရိုးရှင်းစွာ ကြေညာမည့်အစား တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သည့်အတိုင်း ၎င်းတို့ကိုယ်ပိုင် အလုပ်ကို Audit ပြုလုပ်၍ ၎င်းတို့၏ လွတ်လပ်သော သုတေသန ဖွဲ့စည်းထားသော Progress Review တစ်ခု တင်ပြရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ Su Myat Noe ၏ Presentation သည် အပတ်စဉ် သင်ခန်းစာများနှင့် ကိုက်ညီသော ရှင်းလင်းသော အပိုင်းသုံးပိုင်း ဖွဲ့စည်းပုံကို လိုက်နာခဲ့သည်။\n\nပထမအချက်အနေဖြင့် ၎င်း၏ ပြီးစီးပြီးသား Fieldwork ၏ Methodological Audit တစ်ခု ပြုလုပ်ခဲ့ပြီး ဖြန့်ဝေမီ ၎င်း ဖမ်းမိကာ ပြင်ဆင်ခဲ့သော Leading Question နှင့် Rural-Sample Representativeness ထိန်းသိမ်းရန် ၎င်း တောင်းဆိုခဲ့သော ထပ်ဆောင်း Sampling ရက်များအကြောင်း အထူးသဖြင့် အစီရင်ခံခဲ့သည်။ ဤအရာများကို အမှားများအဖြစ် ဖုံးကွယ်မည့်အစား လုပ်ဆောင်နေသော Self-Correction Process တစ်ခု၏ သက်သေအဖြစ် ၎င်း တင်ပြခဲ့သည် -- Mid-Project Audit တစ်ခု၏ တန်ဖိုးကို တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သည့်အတိုင်း အတိအကျ ဖြစ်သည်။\n\nဒုတိယအချက်အနေဖြင့် Research Alignment အကြောင်း အင်္ဂါနေ့ သင်ခန်းစာအတိုင်း Digital Divide သည် Rural-Versus-Urban ကျောင်းသားများကို မည်သို့ သက်ရောက်စေသည်ဆိုသော ၎င်း၏ မူလ သုတေသန မေးခွန်းနှင့် ၎င်း၏ စုဆောင်းထားသော Data ကို တိုက်ရိုက် စစ်ဆေးခဲ့သည်။ ၎င်း၏ Quantitative Survey Data သည် ၎င်း၏ မေးခွန်း၏ 'အတိုင်းအတာ' တစ်ဝက်ကို ရှင်းလင်းစွာ ဖြေဆိုနေသော်လည်း ၎င်း၏ Qualitative Interview Transcript များသည် အနှစ်ချုပ် ကြွယ်ဝသော်လည်း Systematically Coding (သို့) Analyze မလုပ်ရသေးကြောင်း အစီရင်ခံခဲ့သည် -- ၎င်း၏ မေးခွန်း၏ 'Lived Experience' တစ်ဝက်ကို အမှန်တကယ် မဖြေဆိုသေးဘဲ ၎င်းကို ဖြေဆိုရန် Raw Material ကိုသာ စုဆောင်းထားသေးကြောင်း ဆိုလိုသည်။\n\nတတိယအချက်အနေဖြင့် Transparency အကြောင်း ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာကို အသုံးချကာ ကျန်ရှိနေသေးသော အရာများကို ရှင်းလင်းစွာ အမည်တပ်ခဲ့သည် - ၎င်း၏ Interview Transcript ဆယ်ခုကို Analyze ပြု၍ Coding ပြုလုပ်ခြင်း၊ ၎င်း၏ Qualitative တွေ့ရှိချက်များကို ၎င်း၏ Quantitative ရလဒ်များနှင့် Cross-Reference ပြုလုပ်ခြင်းနှင့် ၎င်း၏ နောက်ဆုံး ရေးသားထားသော Report ကို Draft ရေးသားခြင်း။ ဤမျှလောက် မပြီးစီးသေးသော အလုပ်ကို ဝန်ခံခြင်းသည် ၎င်း၏ Presentation ကို အားနည်းဟန် ဖြစ်စေသလားဟု အတန်းဖော်တစ်ဦးက မေးခွန်းထုတ်ချိန် ကိုဇင်ကိုကို တိုက်ရိုက် ဝင်ရောက် ကြားဝင်ခဲ့သည် - ကျန်ရှိနေသေးသော အလုပ်၏ ရိုးသား၊ တိကျသော ရှင်းလင်းချက်သည် စစ်မှန်သော Progress Review တစ်ခု ရှိသည့် ရည်ရွယ်ချက် အတိအကျ ဖြစ်ပြီး မှားယွင်းသော ပြီးစီးမှုကို တင်ပြခဲ့ခြင်းသာ အမှန်တကယ် အားနည်းချက် ဖြစ်ခဲ့လိမ့်မည်။ Term တစ်ခုလုံး တည်ဆောက်ခဲ့သော Self-Auditing Discipline ၏ Model တစ်ခုအဖြစ် Su Myat Noe ၏ Review ကို ၎င်း ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Su Myat Noe report in her methodological audit?",
+            questionMy:
+                "၎င်း၏ Methodological Audit တွင် Su Myat Noe အစီရင်ခံခဲ့သော အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The leading question she caught and corrected, and the extra sampling days she insisted on",
+              "That her research contained no issues of any kind whatsoever",
+              "That she had abandoned her entire research project",
+              "That she had never conducted any fieldwork at all",
+            ],
+            optionsMy: [
+              "၎င်း ဖမ်းမိ၍ ပြင်ဆင်ခဲ့သော Leading Question နှင့် ၎င်း တောင်းဆိုခဲ့သော ထပ်ဆောင်း Sampling ရက်များ",
+              "၎င်း၏ သုတေသနတွင် ပြဿနာ မည်သည်မှ လုံးဝ မပါဝင်ကြောင်း",
+              "၎င်း၏ သုတေသန Project တစ်ခုလုံးကို စွန့်လွှတ်ခဲ့ကြောင်း",
+              "Fieldwork မည်သည်ကိုမျှ ဘယ်တော့မှ ဆောင်ရွက်ခဲ့ခြင်း မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's account of her audit."],
+            hintsMy: [
+              "၎င်း၏ Audit အကြောင်းအရာကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Myat Noe find when checking her data against her research question?",
+            questionMy:
+                "၎င်း၏ သုတေသန မေးခွန်းနှင့် Data ကို စစ်ဆေးချိန် Su Myat Noe တွေ့ရှိခဲ့သည့် အချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The quantitative half was answered, but the qualitative half still needed analysis",
+              "Neither half of her question had been addressed in any way",
+              "Both halves of her question were already completely answered",
+              "Her data had no connection to her research question whatsoever",
+            ],
+            optionsMy: [
+              "Quantitative တစ်ဝက်ကို ဖြေဆိုပြီးသား ဖြစ်သော်လည်း Qualitative တစ်ဝက်ကို Analysis လိုအပ်နေသေးခြင်း",
+              "၎င်း၏ မေးခွန်း၏ တစ်ဝက်မျှ မည်သည့်နည်းနှင့်မျှ မဖြေဆိုခဲ့ခြင်း",
+              "၎င်း၏ မေးခွန်း၏ တစ်ဝက်စလုံးကို ယခုပင် အပြည့်အစုံ ဖြေဆိုပြီးသား ဖြစ်ခြင်း",
+              "၎င်း၏ Data သည် ၎င်း၏ သုတေသန မေးခွန်းနှင့် မည်သည့်နည်းနှင့်မျှ ချိတ်ဆက်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's account of her alignment check.",
+            ],
+            hintsMy: [
+              "၎င်း၏ Alignment စစ်ဆေးမှု အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did Ko Zin Ko Ko respond to the classmate's question about unfinished work looking weak?",
+            questionMy:
+                "မပြီးစီးသေးသော အလုပ်သည် အားနည်းဟန် ဖြစ်စေမည်ဆိုသည့် အတန်းဖော်၏ မေးခွန်းကို ကိုဇင်ကိုကို မည်သို့ တုံ့ပြန်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He explained that honest reporting of remaining work was the actual purpose of a progress review",
+              "He agreed the presentation was weak and should be redone entirely",
+              "He refused to answer the classmate's question at all",
+              "He stated that progress reviews should never mention unfinished work",
+            ],
+            optionsMy: [
+              "ကျန်ရှိနေသေးသော အလုပ်ကို ရိုးသားစွာ အစီရင်ခံခြင်းသည် Progress Review တစ်ခု၏ အမှန်တကယ် ရည်ရွယ်ချက် ဖြစ်ကြောင်း ရှင်းပြခဲ့ခြင်း",
+              "Presentation သည် အားနည်းသည်ဟု သဘောတူပြီး လုံးဝ ပြန်လည်ပြုလုပ်သင့်ကြောင်း ဆိုခဲ့ခြင်း",
+              "အတန်းဖော်၏ မေးခွန်းကို လုံးဝ ဖြေကြားရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "Progress Review များသည် မပြီးစီးသေးသော အလုပ်ကို ဘယ်တော့မှ ဖော်ပြခြင်း မရှိသင့်ကြောင်း ဆိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's account of Ko Zin Ko Ko's intervention.",
+            ],
+            hintsMy: [
+              "ကိုဇင်ကိုကို ၏ ကြားဝင်မှု အကြောင်းအရာကို နောက်ဆုံးစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Research Methods Exam",
+      titleMy: "Term 7 Capstone - Research Methods စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A mid-project methodological audit is valuable because it...",
+          questionMy:
+              "Mid-Project Methodological Audit တစ်ခုသည် ...ကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "Allows flaws to be caught and corrected while there is still time",
+            "Guarantees a project will have zero flaws",
+            "Should only happen after a project is fully finished",
+            "Has no actual connection to research quality",
+          ],
+          optionsMy: [
+            "အချိန် ရှိနေဆဲတွင် ချို့ယွင်းချက်များ ဖမ်းမိ၍ ပြင်ဆင်ရန် ခွင့်ပြုခြင်း",
+            "Project တစ်ခု ချို့ယွင်းချက် လုံးဝ မရှိကြောင်း အာမခံခြင်း",
+            "Project တစ်ခု အပြီးသတ် ပြီးစီးမှသာ ဖြစ်သင့်ခြင်း",
+            "သုတေသန အရည်အသွေးနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Checking data against the original research question tests whether...",
+          questionMy:
+              "မူလ သုတေသန မေးခွန်းနှင့် Data ကို စစ်ဆေးခြင်းသည် ...ကို စမ်းသပ်သည်",
+          optionsEn: [
+            "The collected data actually addresses the specific question posed",
+            "Data collection took the correct amount of time",
+            "The researcher's handwriting is legible",
+            "The survey used the correct paper size",
+          ],
+          optionsMy: [
+            "စုဆောင်းထားသော Data သည် တင်ပြထားသော တိကျသော မေးခွန်းကို အမှန်တကယ် ဖြေဆိုသည် ရှိမရှိ",
+            "Data Collection သည် မှန်ကန်သော အချိန်ပမာဏ ယူခဲ့သည် ရှိမရှိ",
+            "သုတေသနပညာရှင်၏ လက်ရေး ဖတ်နိုင်သည် ရှိမရှိ",
+            "Survey သည် မှန်ကန်သော စာရွက် အရွယ်အစား အသုံးပြုသည် ရှိမရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A genuine progress review should...",
+          questionMy: "စစ်မှန်သော Progress Review တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Honestly name what remains unfinished",
+            "Always claim the project is completely finished",
+            "Avoid mentioning any remaining work",
+            "Hide any methodological corrections that were made",
+          ],
+          optionsMy: [
+            "ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အမည်တပ်ခြင်း",
+            "Project ပြီးစီးပြီးကြောင်း အမြဲ ဆိုခြင်း",
+            "ကျန်ရှိနေသေးသော အလုပ် မည်သည်ကိုမျှ ဖော်ပြခြင်း ရှောင်ကြဉ်ခြင်း",
+            "ပြုလုပ်ခဲ့သော Methodological ပြင်ဆင်ချက် မည်သည်ကိုမျှ ဖုံးကွယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 7: "The Independent Research
+// Report: Design and Execution" (Weeks 25-28)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm7 = CourseTermDef(
+  id: "course-igcse-gp-t7",
+  termNumber: 7,
+  titleEn: "The Independent Research Report: Design and Execution",
+  titleMy: "လွတ်လပ်သော သုတေသန အစီရင်ခံစာ - Design နှင့် Execution",
+  certificateTitleEn: "The Independent Research Report: Design and Execution",
+  certificateTitleMy: "လွတ်လပ်သော သုတေသန အစီရင်ခံစာ - Design နှင့် Execution",
+  weeks: [_igcseGpWeek25, _igcseGpWeek26, _igcseGpWeek27, _igcseGpWeek28],
 );
 // __IGCSE_GP_MARKER__
