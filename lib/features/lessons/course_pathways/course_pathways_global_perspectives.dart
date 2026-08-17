@@ -58234,9 +58234,8 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
   weeks: [_igcseGpWeek1, _igcseGpWeek2, _igcseGpWeek3, _igcseGpWeek4],
 );
 // =====================================================================
-// IGCSE Global Perspectives & Research -- full pathway definition.
-// Term 9 not yet authored; wired incrementally, one completed
-// term at a time.
+// IGCSE Global Perspectives & Research -- complete, all 9 terms
+// authored (36 weeks / 180 daily lessons).
 // =====================================================================
 
 const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
@@ -58246,9 +58245,9 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs. Term 7, The Independent Research Report: Design and Execution, covers choosing quantitative versus qualitative methods, building a synthesized literature review, and executing ethical, bias-free fieldwork, closing with a Research Progress Review Studio where students audit their own methodology and honestly report what remains unfinished. Term 8, Analysis, Conclusions and the Complete Research Report, covers analyzing quantitative and qualitative data, weighing evidence to formulate honest conclusions, and reflective thinking about personal growth, closing with a full report-assembly capstone where students combine every section into one coherent, consistent research report.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs. Term 7, The Independent Research Report: Design and Execution, covers choosing quantitative versus qualitative methods, building a synthesized literature review, and executing ethical, bias-free fieldwork, closing with a Research Progress Review Studio where students audit their own methodology and honestly report what remains unfinished. Term 8, Analysis, Conclusions and the Complete Research Report, covers analyzing quantitative and qualitative data, weighing evidence to formulate honest conclusions, and reflective thinking about personal growth, closing with a full report-assembly capstone where students combine every section into one coherent, consistent research report. Term 9, Examination Preparation and Graduation, covers Paper 1 exam technique and balanced evaluation writing, presentation skills for the reflective paper, and full combined-component mock simulation, closing with a graduation capstone that traces the course's core habit of mind -- fair, evidence-based reasoning -- across all nine terms.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Independent Research Report: Design and Execution သည် Quantitative vs Qualitative Method ရွေးချယ်ခြင်း၊ Synthesized Literature Review တည်ဆောက်ခြင်းနှင့် ကျင့်ဝတ်ရှိ၊ Bias ကင်းသော Fieldwork ဆောင်ရွက်ခြင်းတို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ကာ ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံသော Research Progress Review Studio ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Analysis, Conclusions and the Complete Research Report သည် Quantitative နှင့် Qualitative Data ခွဲခြမ်းစိတ်ဖြာခြင်း၊ ရိုးသားသော ကောက်ချက်များ ဖွဲ့စည်းရန် Evidence ချိန်ဆခြင်းနှင့် ကိုယ်ပိုင် တိုးတက်မှုအကြောင်း Reflective Thinking တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Section တိုင်းကို ညီညွတ်၊ Consistent သော သုတေသန Report တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Report-Assembly Capstone တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Independent Research Report: Design and Execution သည် Quantitative vs Qualitative Method ရွေးချယ်ခြင်း၊ Synthesized Literature Review တည်ဆောက်ခြင်းနှင့် ကျင့်ဝတ်ရှိ၊ Bias ကင်းသော Fieldwork ဆောင်ရွက်ခြင်းတို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ကာ ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံသော Research Progress Review Studio ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Analysis, Conclusions and the Complete Research Report သည် Quantitative နှင့် Qualitative Data ခွဲခြမ်းစိတ်ဖြာခြင်း၊ ရိုးသားသော ကောက်ချက်များ ဖွဲ့စည်းရန် Evidence ချိန်ဆခြင်းနှင့် ကိုယ်ပိုင် တိုးတက်မှုအကြောင်း Reflective Thinking တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Section တိုင်းကို ညီညွတ်၊ Consistent သော သုတေသန Report တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Report-Assembly Capstone တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Examination Preparation and Graduation သည် Paper 1 Exam Technique နှင့် Balanced Evaluation ရေးသားခြင်း၊ Reflective Paper အတွက် Presentation Skill များနှင့် Combined-Component Mock Simulation အပြည့်အစုံတို့ကို ဖုံးအုပ်ပြီး Term ကိုးခုစလုံးတစ်လျှောက် Course ၏ Core Habit of Mind -- တရားမျှတ၊ Evidence-Based Reasoning -- ကို ခြေရာခံသော ဘွဲ့နှင်းသဘင် Capstone တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _igcseGpTerm1,
@@ -58259,6 +58258,7 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
     _igcseGpTerm6,
     _igcseGpTerm7,
     _igcseGpTerm8,
+    _igcseGpTerm9,
   ],
 );
 // =====================================================================
@@ -68322,5 +68322,1445 @@ const CourseTermDef _igcseGpTerm8 = CourseTermDef(
   certificateTitleMy:
       "Analysis, Conclusion များနှင့် Research Report အပြည့်အစုံ",
   weeks: [_igcseGpWeek29, _igcseGpWeek30, _igcseGpWeek31, _igcseGpWeek32],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 9, Week 33: "Paper 1 (Written
+// Examination) Intensive"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek33 = CourseWeekDef(
+  id: "course-igcse-gp-w33",
+  weekNumber: 33,
+  titleEn: "Paper 1 (Written Examination) Intensive",
+  titleMy: "Paper 1 (စာဖြင့် စာမေးပွဲ) Intensive",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w33-d1",
+      dayNumber: 1,
+      titleEn:
+          "Answering Perspective and Argument Questions Under Time Pressure",
+      titleMy:
+          "အချိန် ဖိအားအောက်တွင် Perspective နှင့် Argument မေးခွန်းများ ဖြေဆိုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a Paper 1 question asking you to evaluate two different perspectives on an issue, why is it important to represent each perspective fairly before giving your own view?",
+          questionMy:
+              "ပြဿနာတစ်ခုအပေါ် ကွဲပြားသော ရှုထောင့်နှစ်ခုကို အကဲဖြတ်ရန် တောင်းဆိုသော Paper 1 မေးခွန်းတစ်ခုတွင် ကိုယ်ပိုင်အမြင် မပေးမီ ရှုထောင့်တစ်ခုစီကို တရားမျှတစွာ ကိုယ်စားပြုရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Examiners assess whether a candidate genuinely understands opposing viewpoints, not just whether the candidate agrees with one side",
+            "Fair representation of perspectives has no actual role in how Paper 1 is assessed",
+            "Only the perspective the candidate personally agrees with needs to be mentioned at all",
+            "Examiners never actually read how perspectives are represented in an answer",
+          ],
+          optionsMy: [
+            "Examiner များသည် Candidate တစ်ဦး ဘက်တစ်ခုကို သဘောတူသည်ဆိုသည်ထက် ဆန့်ကျင်ဘက် ရှုထောင့်များကို စစ်မှန်စွာ နားလည်သည် ရှိမရှိကို အကဲဖြတ်သည်",
+            "ရှုထောင့်များကို တရားမျှတစွာ ကိုယ်စားပြုခြင်းသည် Paper 1 ကို မည်သို့ အကဲဖြတ်သည်ဆိုသည်တွင် အမှန်တကယ် အခန်းကဏ္ဍ မရှိခြင်း",
+            "Candidate ကိုယ်တိုင် သဘောတူသော ရှုထောင့်တစ်ခုသာ ဖော်ပြရန် လိုအပ်ခြင်း",
+            "Examiner များသည် အဖြေတစ်ခုအတွင်း ရှုထောင့်များကို မည်သို့ ကိုယ်စားပြုသည်ကို အမှန်တကယ် ဘယ်တော့မှ မဖတ်ရှုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 6's multi-stakeholder-analysis lesson -- a strong answer shows the examiner you can genuinely represent a view you may not personally hold, not just argue for your own opinion.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Multi-Stakeholder-Analysis သင်ခန်းစာကို တိုက်ရိုက် သတိရစေသည် -- ခိုင်မာသော အဖြေတစ်ခုသည် ကိုယ်ပိုင် ထင်မြင်ချက်အတွက်သာ မဟုတ်ဘဲ ကိုယ်တိုင် ကိုင်ဆောင်ချင်မည် မဟုတ်သော အမြင်တစ်ခုကို စစ်မှန်စွာ ကိုယ်စားပြုနိုင်ကြောင်း Examiner ကို ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is time allocation planning important before starting to write a Paper 1 essay-style response?",
+          questionMy:
+              "Paper 1 Essay-Style Response တစ်ခု စတင် မရေးသားမီ အချိန် Allocation Planning အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Without planning, a candidate risks spending too long on one section and running out of time for others, reducing the overall quality of the whole paper",
+            "Time allocation has no actual effect on how well a candidate performs on the exam",
+            "Every section of Paper 1 should always receive exactly equal time regardless of its point value",
+            "Planning time allocation is only relevant for candidates who write very slowly",
+          ],
+          optionsMy: [
+            "Planning မရှိပါက Candidate တစ်ဦးသည် Section တစ်ခုတွင် ကြာမြင့်စွာ ကုန်ဆုံးပြီး အခြားများအတွက် အချိန် ကုန်သွားနိုင်ပြီး Paper တစ်ခုလုံး၏ အရည်အသွေးကို ကျဆင်းစေနိုင်သည်",
+            "Time Allocation သည် Candidate တစ်ဦး Exam တွင် မည်မျှ ကောင်းစွာ လုပ်ဆောင်သည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "Paper 1 ၏ Section တိုင်းသည် ၎င်း၏ Point တန်ဖိုး မည်သို့ပင်ရှိစေ အတိအကျ ညီမျှသော အချိန် အမြဲ ရသင့်ခြင်း",
+            "Time Allocation Planning သည် အလွန် ဖြည်းညင်းစွာ ရေးသားသော Candidate များနှင့်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a high-mark question is left with only five minutes remaining, no amount of knowledge can compensate for the lost time to write a complete answer.",
+          ],
+          hintsMy: [
+            "Mark မြင့်သော မေးခွန်းတစ်ခုတွင် မိနစ် ငါးမိနစ်သာ ကျန်ရှိပါက အသိပညာ မည်မျှပင် ရှိစေကာမူ ပြီးပြည့်စုံသော အဖြေတစ်ခု ရေးသားရန် ဆုံးရှုံးသွားသော အချိန်ကို အစားထိုး၍ မရနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does a Paper 1 answer that explicitly states a clear line of argument from the first paragraph tend to score better than one that only reveals its position at the very end?",
+          questionMy:
+              "ပထမ စာပိုဒ်မှစ၍ ရှင်းလင်းသော Argument လမ်းကြောင်းကို ရှင်းလင်းစွာ ဖော်ပြသော Paper 1 အဖြေတစ်ခုသည် အဆုံးတွင်သာ ၎င်း၏ Position ကို ဖော်ပြသော တစ်ခုထက် ပို၍ ကောင်းစွာ Score ရနိုင်ခြေရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A clear early thesis lets the examiner follow the logic of the argument throughout, rather than having to reconstruct the candidate's reasoning after the fact",
+            "Examiners never actually read the first paragraph of any answer",
+            "Revealing a position only at the end always produces a stronger, more surprising essay",
+            "Where a thesis statement appears has no actual effect on how an answer is assessed",
+          ],
+          optionsMy: [
+            "ရှေးဦး Thesis ရှင်းလင်းမှုသည် Candidate ၏ Reasoning ကို နောက်ကျမှ ပြန်လည် တည်ဆောက်ရမည့်အစား Argument ၏ Logic ကို တစ်လျှောက်လုံး Examiner လိုက်နာနိုင်စေသည်",
+            "Examiner များသည် အဖြေ မည်သည်၏ ပထမ စာပိုဒ်ကို အမှန်တကယ် ဘယ်တော့မှ မဖတ်ရှုခြင်း",
+            "အဆုံးတွင်သာ Position တစ်ခု ဖော်ပြခြင်းသည် ပို၍ ခိုင်မာ၊ အံ့သြဖွယ် Essay တစ်ခုကို အမြဲ ထုတ်ပေးခြင်း",
+            "Thesis Statement ပေါ်လာသည့်နေရာသည် အဖြေတစ်ခု မည်သို့ အကဲဖြတ်သည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 32's report-coherence lesson -- a reader (or examiner) who knows the destination early can better evaluate whether every following paragraph actually supports it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 32 ၏ Report-Coherence သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ဦးစွာ ဦးတည်ရာကို သိသော စာဖတ်သူ (သို့) Examiner သည် ဆက်လက်ပါဝင်သော စာပိုဒ်တိုင်း ၎င်းကို အမှန်တကယ် ထောက်ခံသည် ရှိမရှိကို ပို၍ ကောင်းစွာ အကဲဖြတ်နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exam Technique Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Exam Technique ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w33-dm-1",
+          termEn: "Time allocation",
+          termMy: "Time Allocation",
+          matchEn:
+              "Planning how much time to spend on each exam section based on its point value",
+          matchMy:
+              "Point တန်ဖိုးအပေါ် အခြေခံ၍ Exam Section တစ်ခုစီအတွက် အချိန် မည်မျှ အသုံးပြုမည်ဆိုသည်ကို Planning ပြုလုပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w33-dm-2",
+          termEn: "Thesis statement",
+          termMy: "Thesis Statement",
+          matchEn:
+              "A clear statement of an essay's central argument, usually given early",
+          matchMy:
+              "Essay တစ်ခု၏ ဗဟိုချက် Argument ကို ရှင်းလင်းစွာ ဖော်ပြချက်၊ များသောအားဖြင့် ရှေးဦးတွင် ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w33-dm-3",
+          termEn: "Balanced evaluation",
+          termMy: "Balanced Evaluation",
+          matchEn:
+              "Fairly representing multiple perspectives before stating one's own view",
+          matchMy:
+              "ကိုယ်ပိုင် အမြင် မဖော်ပြမီ ရှုထောင့်များစွာကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w33-dm-4",
+          termEn: "Command word",
+          termMy: "Command Word",
+          matchEn:
+              "A key instruction word in a question (e.g. 'evaluate') that signals what kind of answer is required",
+          matchMy:
+              "မည်သည့်အမျိုးအစား အဖြေ လိုအပ်သည်ကို ညွှန်ပြသော မေးခွန်းတစ်ခုရှိ အဓိက ညွှန်ကြားချက် စကားလုံး (ဥပမာ - 'Evaluate')",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Exam Technique?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာ (သို့) အားနည်းသော Exam Technique",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Exam Technique", "Weak Exam Technique"],
+        bucketsMy: ["ခိုင်မာသော Exam Technique", "အားနည်းသော Exam Technique"],
+        items: [
+          SortingItem(
+            id: "igcgp-w33-sort-1",
+            labelEn:
+                "Planning roughly how much time each question deserves before starting to write",
+            labelMy:
+                "မရေးသားမီ မေးခွန်းတစ်ခုစီ မည်မျှ အချိန် ခံစားထိုက်သည်ကို ခန့်မှန်းစွာ Planning ပြုလုပ်ခြင်း",
+            correctBucketEn: "Strong Exam Technique",
+            correctBucketMy: "ခိုင်မာသော Exam Technique",
+          ),
+          SortingItem(
+            id: "igcgp-w33-sort-2",
+            labelEn:
+                "Spending forty minutes on a five-mark question and rushing a twenty-mark question",
+            labelMy:
+                "Mark ၅ ပါသော မေးခွန်းတွင် မိနစ် ၄၀ ကုန်ဆုံးပြီး Mark ၂၀ ပါသော မေးခွန်းကို အလျင်စလို ဖြေဆိုခြင်း",
+            correctBucketEn: "Weak Exam Technique",
+            correctBucketMy: "အားနည်းသော Exam Technique",
+          ),
+          SortingItem(
+            id: "igcgp-w33-sort-3",
+            labelEn:
+                "Presenting both sides of an issue fairly before giving a reasoned personal view",
+            labelMy:
+                "အကြောင်းရင်းရှိသော ကိုယ်ပိုင်အမြင် မပေးမီ ပြဿနာတစ်ခု၏ ဘက်နှစ်ဘက်စလုံးကို တရားမျှတစွာ တင်ပြခြင်း",
+            correctBucketEn: "Strong Exam Technique",
+            correctBucketMy: "ခိုင်မာသော Exam Technique",
+          ),
+          SortingItem(
+            id: "igcgp-w33-sort-4",
+            labelEn:
+                "Ignoring the command word and answering a different question than what was asked",
+            labelMy:
+                "Command Word ကို လျစ်လျူရှု၍ မေးထားသည်မှ ကွဲပြားသော မေးခွန်းကို ဖြေဆိုခြင်း",
+            correctBucketEn: "Weak Exam Technique",
+            correctBucketMy: "အားနည်းသော Exam Technique",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's First Timed Practice Paper",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ ပထမ Timed Practice Paper",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's First Timed Practice Paper",
+        titleMy: "Su Myat Noe ၏ ပထမ Timed Practice Paper",
+        passageEn:
+            "With her research report drafted, Su Myat Noe turned to Term 9's final focus: the Paper 1 written examination. Ko Zin Ko Ko assigned a full, strictly timed practice paper on Monday, and her first attempt exposed exactly the technique gaps the week's lessons addressed.\n\nHer biggest problem was time allocation. She spent nearly twenty-five minutes on the paper's first question, a five-mark item asking her to briefly define a global issue, polishing her wording far beyond what the mark allocation justified. By the time she reached the final twenty-mark evaluation question -- asking her to weigh two perspectives on international aid effectiveness -- she had only twelve minutes left, and her answer was visibly rushed and underdeveloped compared to her actual analytical ability.\n\nReviewing her paper, Ko Zin Ko Ko also flagged her evaluation question directly against Wednesday's balanced-representation lesson: she had described the perspective she personally agreed with in detail, but dismissed the opposing perspective in a single, unfair sentence before moving on. He reminded her this was precisely the multi-stakeholder discipline her own Term 6 case study had required, and that Paper 1 rewarded the same fairness her research work had already demonstrated she could produce under less time pressure.\n\nFor her second timed attempt three days later, Su Myat Noe applied both lessons directly. She allocated roughly one minute per mark before writing a single word, spending under five minutes on the opening definition question and reserving nearly twenty-five minutes for the closing evaluation. On that evaluation question, she deliberately wrote a full paragraph representing the opposing perspective's strongest form before presenting her own reasoned view -- exactly the balanced approach Wednesday's lesson had described. Her second attempt, while not perfect, showed dramatically stronger development in every section, and Ko Zin Ko Ko noted this was less about learning new content and more about applying disciplined exam technique to knowledge she already had.",
+        passageMy:
+            "၎င်း၏ သုတေသန Report Draft ပြီးစီးပြီးနောက် Term 9 ၏ နောက်ဆုံး Focus သို့ Su Myat Noe လှည့်ခဲ့သည် - Paper 1 စာဖြင့် စာမေးပွဲ။ တနင်္လာနေ့တွင် Strictly Timed Practice Paper အပြည့်အစုံ ကိုဇင်ကိုကို တာဝန်ပေးအပ်ခဲ့ပြီး ၎င်း၏ ပထမ ကြိုးပမ်းချက်သည် အပတ်စဉ် သင်ခန်းစာများ ကိုင်တွယ်ခဲ့သော Technique Gap များကို အတိအကျ ဖော်ထုတ်ခဲ့သည်။\n\n၎င်း၏ အကြီးမားဆုံး ပြဿနာမှာ Time Allocation ဖြစ်ခဲ့သည်။ Paper ၏ ပထမ မေးခွန်းတွင် (ကမ္ဘာ့ ပြဿနာတစ်ခုကို အတိုချုပ် Define ပြုလုပ်ရန် တောင်းဆိုသော Mark ၅ Item) မိနစ် ၂၅ နီးပါး ကုန်ဆုံးခဲ့ပြီး Mark Allocation ခိုင်လုံစေမည့် အကျေအလည်ထက် ၎င်း၏ စကားလုံးအသုံးအနှုန်းကို ချွတ်ချွတ်ချွန်ချွန် ရေးသားခဲ့သည်။ ၎င်း Reach ရောက်ရှိချိန်တွင် နောက်ဆုံး Mark ၂၀ Evaluation မေးခွန်း -- International Aid Effectiveness အကြောင်း ရှုထောင့်နှစ်ခုကို ချိန်ဆရန် တောင်းဆိုသော -- ၎င်းတွင် မိနစ် ၁၂ သာ ကျန်ရှိပြီး ၎င်း၏ အဖြေသည် ၎င်း၏ အမှန်တကယ် Analytical Ability နှင့် နှိုင်းယှဉ်ပါက အလျင်စလိုနှင့် Underdeveloped ဖြစ်နေသည်ကို မြင်သာစွာ တွေ့ရှိရသည်။\n\n၎င်း၏ Paper ကို ပြန်လည်သုံးသပ်ချိန် Balanced-Representation ဆိုင်ရာ ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာနှင့် ၎င်း၏ Evaluation မေးခွန်းကို ကိုဇင်ကိုကို တိုက်ရိုက် Flag ပြုလုပ်ခဲ့သည် - ၎င်း ကိုယ်တိုင် သဘောတူသော ရှုထောင့်ကို အသေးစိတ် ဖော်ပြခဲ့သော်လည်း ဆန့်ကျင်သော ရှုထောင့်ကို ဆက်လက် ရွေ့လျားမီ တစ်ကြောင်းတည်း၊ မတရားသော စာကြောင်းတွင် ပယ်ချခဲ့သည်။ ဤသည်ကား ၎င်း၏ ကိုယ်ပိုင် Term 6 Case Study တောင်းဆိုခဲ့သော Multi-Stakeholder Discipline အတိအကျ ဖြစ်ကြောင်းနှင့် Paper 1 သည် ၎င်း၏ သုတေသနအလုပ် အချိန်ဖိအား နည်းနည်းအောက်တွင် ထုတ်လုပ်နိုင်ကြောင်း ယခုပင် သရုပ်ပြထားသော တရားမျှတမှုတူတူကို ဆုချသည်ဟု ၎င်းကို ၎င်း သတိပေးခဲ့သည်။\n\nနေ့ရက်သုံးရက်အကြာတွင် ၎င်း၏ ဒုတိယ Timed ကြိုးပမ်းချက်အတွက် Su Myat Noe သည် သင်ခန်းစာနှစ်ခုစလုံးကို တိုက်ရိုက် အသုံးချခဲ့သည်။ စကားလုံးတစ်လုံးမျှ မရေးသားမီ Mark တစ်ခုလျှင် မိနစ် တစ်မိနစ်ခန့် ၎င်း Allocate ပြုလုပ်ခဲ့ပြီး ဖွင့်လှစ်သော Definition မေးခွန်းတွင် မိနစ် ငါးမိနစ်အောက် ကုန်ဆုံးကာ ပိတ်ဆို့သော Evaluation အတွက် မိနစ် ၂၅ နီးပါး Reserve ပြုလုပ်ခဲ့သည်။ ထို Evaluation မေးခွန်းတွင် ၎င်း၏ ကိုယ်ပိုင် Reasoned View တင်ပြမီ ဆန့်ကျင်သော ရှုထောင့်၏ အခိုင်မာဆုံး Form ကို ကိုယ်စားပြုသော စာပိုဒ်အပြည့်အစုံ တမင် ရေးသားခဲ့သည် -- ဗုဒ္ဓဟူးနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သော Balanced Approach အတိအကျ ဖြစ်သည်။ ၎င်း၏ ဒုတိယ ကြိုးပမ်းချက်သည် ပြီးပြည့်စုံသော်မဟုတ်သော်လည်း Section တိုင်းတွင် သိသိသာသာ ပို၍ ခိုင်မာသော Development ကို ပြသခဲ့ပြီး ဤသည်ကား Content အသစ် သင်ယူခြင်းထက် ၎င်း ရှိပြီးသား Knowledge အပေါ် Disciplined Exam Technique အသုံးချခြင်းအကြောင်း ပို၍ ဖြစ်ကြောင်း ကိုဇင်ကိုကို မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what time-allocation mistake did Su Myat Noe make on her first practice paper?",
+            questionMy:
+                "၎င်း၏ ပထမ Practice Paper တွင် Su Myat Noe ပြုလုပ်ခဲ့သော Time-Allocation အမှားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She spent too long on the five-mark question, leaving too little time for the twenty-mark evaluation question",
+              "She finished the entire paper in under five minutes total",
+              "She spent equal time on every question with no imbalance at all",
+              "She skipped the evaluation question entirely without attempting it",
+            ],
+            optionsMy: [
+              "Mark ၅ မေးခွန်းတွင် ကြာမြင့်စွာ ကုန်ဆုံးခဲ့ပြီး Mark ၂၀ Evaluation မေးခွန်းအတွက် အချိန် အလွန်နည်းစွာ ကျန်ရစ်ခဲ့ခြင်း",
+              "Paper တစ်ခုလုံးကို စုစုပေါင်း မိနစ် ငါးမိနစ်အောက်တွင် ပြီးစီးခဲ့ခြင်း",
+              "Imbalance မည်သည်မှ မပါဘဲ မေးခွန်းတိုင်းတွင် ညီညီညာညာ အချိန် ကုန်ဆုံးခဲ့ခြင်း",
+              "Evaluation မေးခွန်းကို ကြိုးစား၍ ဖြေဆိုခြင်း လုံးဝ မရှိဘဲ ကျော်သွားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's account of her time allocation.",
+            ],
+            hintsMy: [
+              "Time Allocation အကြောင်းအရာကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Ko Zin Ko Ko critique her evaluation-question answer?",
+            questionMy:
+                "၎င်း၏ Evaluation-Question အဖြေကို ကိုဇင်ကိုကို မည်သို့ Critique ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She had detailed her preferred perspective but unfairly dismissed the opposing one in a single sentence",
+              "She had represented both perspectives with perfectly equal detail and fairness",
+              "She had refused to state any personal view at all",
+              "She had answered a completely different question than what was asked",
+            ],
+            optionsMy: [
+              "၎င်း နှစ်သက်သော ရှုထောင့်ကို အသေးစိတ် ဖော်ပြခဲ့သော်လည်း ဆန့်ကျင်သော ရှုထောင့်ကို စာကြောင်းတစ်ကြောင်းတည်းတွင် မတရားစွာ ပယ်ချခဲ့ခြင်း",
+              "ရှုထောင့်နှစ်ခုစလုံးကို အတိအကျ ညီမျှသော အသေးစိတ်နှင့် တရားမျှတမှုဖြင့် ကိုယ်စားပြုခဲ့ခြင်း",
+              "ကိုယ်ပိုင်အမြင် မည်သည်ကိုမျှ ဖော်ပြရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "မေးထားသည်မှ လုံးဝ ကွဲပြားသော မေးခွန်းကို ဖြေဆိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's critique."],
+            hintsMy: ["Critique ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Ko Zin Ko Ko say improved between her first and second attempts?",
+            questionMy:
+                "ပထမနှင့် ဒုတိယ ကြိုးပမ်းချက်ကြား တိုးတက်ခဲ့သည်ဟု ကိုဇင်ကိုကို ဆိုခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her disciplined application of exam technique to knowledge she already had, not new content learning",
+              "She had learned an entirely new subject between the two attempts",
+              "Nothing improved at all between the two attempts",
+              "She had memorized a completely different set of facts",
+            ],
+            optionsMy: [
+              "Content အသစ် သင်ယူခြင်းမဟုတ်ဘဲ ၎င်း ရှိပြီးသား Knowledge အပေါ် Disciplined Exam Technique အသုံးချခြင်း",
+              "ကြိုးပမ်းချက်နှစ်ခုကြား ၎င်း လုံးဝ ဘာသာရပ်အသစ်တစ်ခု သင်ယူခဲ့ခြင်း",
+              "ကြိုးပမ်းချက်နှစ်ခုကြား မည်သည်မှ လုံးဝ တိုးတက်ခဲ့ခြင်း မရှိခြင်း",
+              "လုံးဝ ကွဲပြားသော အချက်အလက်များကို ၎င်း အလွတ်ကျက်မှတ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing remark."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ကုန်ဆုံးသော မှတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w33-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Paper 1 Exam Technique",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Paper 1 Exam Technique",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Effective time allocation means...",
+          questionMy: "ထိရောက်သော Time Allocation ဆိုသည်မှာ...",
+          optionsEn: [
+            "Spending time proportional to each question's mark value",
+            "Spending equal time regardless of mark value",
+            "Ignoring time limits entirely",
+            "Answering only the first question on the paper",
+          ],
+          optionsMy: [
+            "မေးခွန်းတစ်ခုစီ၏ Mark တန်ဖိုးနှင့် အချိုးကျ အချိန် ကုန်ဆုံးခြင်း",
+            "Mark တန်ဖိုး မည်သို့ပင်ရှိစေ ညီမျှသော အချိန် ကုန်ဆုံးခြင်း",
+            "အချိန် ကန့်သတ်ချက်ကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Paper ပေါ်ရှိ ပထမမေးခွန်းကိုသာ ဖြေဆိုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced evaluation answer should...",
+          questionMy: "Balanced Evaluation အဖြေတစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Fairly represent multiple perspectives before giving a personal view",
+            "Only mention the perspective the candidate agrees with",
+            "Dismiss opposing views in a single unfair sentence",
+            "Avoid stating any personal view whatsoever",
+          ],
+          optionsMy: [
+            "ကိုယ်ပိုင်အမြင် မပေးမီ ရှုထောင့်များစွာကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+            "Candidate သဘောတူသော ရှုထောင့်ကိုသာ ဖော်ပြခြင်း",
+            "ဆန့်ကျင်သော အမြင်များကို စာကြောင်းတစ်ကြောင်းတည်း၊ မတရားသောနည်းဖြင့် ပယ်ချခြင်း",
+            "ကိုယ်ပိုင်အမြင် မည်သည်ကိုမျှ ဖော်ပြခြင်း ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A clear thesis statement early in an essay helps because it...",
+          questionMy:
+              "Essay တစ်ခု၏ ရှေးဦးတွင် ရှင်းလင်းသော Thesis Statement တစ်ခု ...ကြောင့် ကူညီသည်",
+          optionsEn: [
+            "Lets the reader follow the argument's logic throughout",
+            "Guarantees the highest possible mark regardless of content",
+            "Should always be avoided in any exam answer",
+            "Has no actual connection to how an answer is assessed",
+          ],
+          optionsMy: [
+            "Argument ၏ Logic ကို တစ်လျှောက်လုံး လိုက်နာနိုင်ရန် စာဖတ်သူကို ခွင့်ပြုခြင်း",
+            "Content မည်သို့ပင်ရှိစေ ရနိုင်ဆုံး Mark အမြင့်ဆုံးကို အာမခံခြင်း",
+            "Exam အဖြေ မည်သည်တွင်မဆို အမြဲ ရှောင်ကြဉ်သင့်ခြင်း",
+            "အဖြေတစ်ခု မည်သို့ အကဲဖြတ်သည်နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 9, Week 34: "Reflective Paper and
+// Presentation Skills"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek34 = CourseWeekDef(
+  id: "course-igcse-gp-w34",
+  weekNumber: 34,
+  titleEn: "Reflective Paper and Presentation Skills",
+  titleMy: "Reflective Paper နှင့် Presentation Skill များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w34-d1",
+      dayNumber: 1,
+      titleEn: "Presenting Research Findings Clearly to an Audience",
+      titleMy:
+          "သုတေသန တွေ့ရှိချက်များကို ပရိသတ်တစ်ခုသို့ ရှင်းလင်းစွာ တင်ပြခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a presentation of research findings lead with the most important finding rather than a lengthy chronological account of every step taken?",
+          questionMy:
+              "သုတေသန တွေ့ရှိချက်များ Presentation တစ်ခုသည် ယူခဲ့သော အဆင့်တိုင်း၏ ရှည်လျားသော Chronological Account တစ်ခုအစား အရေးကြီးဆုံး တွေ့ရှိချက်ဖြင့် ဦးဆောင်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An audience's attention and time are limited, so leading with the key finding ensures the most important information is communicated even if time runs short",
+            "Audiences always prefer a strict chronological account over any other structure",
+            "Leading with a key finding has no actual effect on how well a presentation communicates",
+            "A presentation should always describe every single step taken with no prioritization",
+          ],
+          optionsMy: [
+            "ပရိသတ်၏ အာရုံစူးစိုက်မှုနှင့် အချိန်သည် ကန့်သတ်ထားသောကြောင့် Key Finding ဖြင့် ဦးဆောင်ခြင်းသည် အချိန် လျင်မြန်စွာ ကုန်ဆုံးသွားစေကာမူ အရေးအကြီးဆုံး သတင်းအချက်အလက်ကို ဆက်သွယ်ကြောင်း သေချာစေသည်",
+            "ပရိသတ်များသည် Structure အခြားမည်သည်ထက် Strict Chronological Account တစ်ခုကို အမြဲ ပို၍ နှစ်သက်ခြင်း",
+            "Key Finding ဖြင့် ဦးဆောင်ခြင်းသည် Presentation တစ်ခု မည်မျှ ကောင်းစွာ ဆက်သွယ်သည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "Presentation တစ်ခုသည် Prioritization မည်သည်မှ မပါဘဲ ယူခဲ့သော အဆင့်တိုင်းကို အမြဲ ဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If a listener's attention drifts partway through, leading with the key finding first means they still walk away knowing the most important result, rather than missing it entirely.",
+          ],
+          hintsMy: [
+            "နားထောင်သူတစ်ဦး၏ အာရုံစူးစိုက်မှု တစ်ဝက်တွင် ရွေ့လျားသွားပါက Key Finding ဖြင့် ဦးစွာ ဦးဆောင်ခြင်းသည် ၎င်းတို့ ၎င်းကို လုံးဝ လွတ်သွားမည့်အစား အရေးကြီးဆုံး ရလဒ်ကို ဆက်လက် သိရှိစေနိုင်သည်ဟု ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a presenter prepare answers to likely challenging questions in advance, rather than only preparing the presentation itself?",
+          questionMy:
+              "Presentation ကိုယ်တိုင်ကိုသာ ပြင်ဆင်မည့်အစား Presenter တစ်ဦးသည် ဖြစ်နိုင်ခြေ ရှိသော စိန်ခေါ်သည့် မေးခွန်းများကို ကြိုတင် ပြင်ဆင်ရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Anticipating likely questions demonstrates genuine command of the material and prevents being caught off guard by predictable challenges",
+            "Audiences never actually ask challenging questions after any presentation",
+            "Preparing for questions has no actual connection to a presenter's credibility",
+            "Only the visual slides of a presentation matter, never the anticipated discussion",
+          ],
+          optionsMy: [
+            "ဖြစ်နိုင်ခြေ ရှိသော မေးခွန်းများကို ကြိုတင် ခန့်မှန်းခြင်းသည် Material အပေါ် စစ်မှန်သော ကျွမ်းကျင်မှုကို သရုပ်ပြပြီး ခန့်မှန်းနိုင်သော စိန်ခေါ်မှုများက ရုတ်တရက် ဖမ်းဆီးမခံရစေရန် တားဆီးသည်",
+            "Presentation မည်သည့်ပြီးနောက်မဆို ပရိသတ်များသည် စိန်ခေါ်သော မေးခွန်းများကို အမှန်တကယ် ဘယ်တော့မှ မမေးခြင်း",
+            "မေးခွန်းများအတွက် ပြင်ဆင်ခြင်းသည် Presenter တစ်ဦး၏ ယုံကြည်ရမှုနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Presentation ၏ Visual Slide များသာ အရေးကြီးပြီး မျှော်လင့်ထားသော ဆွေးနွေးချက်သည် ဘယ်တော့မှ မအရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly to Week 28's methodological-audit lesson -- a researcher who has already honestly audited their own work's weaknesses is far better prepared to answer challenging questions about them.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 28 ၏ Methodological-Audit သင်ခန်းစာကို တိုက်ရိုက် ချိတ်ဆက်သည် -- ၎င်းကိုယ်ပိုင် အလုပ်၏ အားနည်းချက်များကို ရိုးသားစွာ ကြိုတင် Audit ပြုလုပ်ထားခဲ့သော သုတေသနပညာရှင်တစ်ဦးသည် ၎င်းတို့အကြောင်း စိန်ခေါ်သော မေးခွန်းများကို ဖြေဆိုရန် ပို၍ ပြင်ဆင်ထားပြီး ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important for visual slides or supporting materials in a presentation to complement spoken content rather than simply repeating it word-for-word?",
+          questionMy:
+              "Presentation တစ်ခုရှိ Visual Slide (သို့) ထောက်ခံသော Material များသည် စကားလုံးအတိုင်း ရိုးရိုး ထပ်ခါထပ်ခါ ပြောမည့်အစား စကားပြော Content ကို ပြည့်စုံစေရန် အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Slides that add visual clarity (charts, key data points) reinforce understanding, while slides that just repeat spoken words add no additional value",
+            "Slides should always contain the exact same words the presenter is speaking, with no visual elements",
+            "Visual materials have no actual role in helping an audience understand research findings",
+            "The best presentations avoid using any visual aids of any kind whatsoever",
+          ],
+          optionsMy: [
+            "Visual Clarity (Chart, Key Data Point) ထပ်ဆောင်းသော Slide များသည် နားလည်မှုကို အားဖြည့်ပေးသော်လည်း စကားလုံးများကိုသာ ထပ်ခါထပ်ခါ ပြောနေသော Slide များသည် ထပ်ဆောင်း တန်ဖိုး မထည့်ပေးခြင်း",
+            "Slide များသည် Visual Element မည်သည်မှ မပါဘဲ Presenter ပြောနေသော စကားလုံးအတိုင်း အတိအကျ အမြဲ ပါဝင်သင့်ခြင်း",
+            "Visual Material များသည် ပရိသတ်အား သုတေသန တွေ့ရှိချက်များကို နားလည်ရန် ကူညီရာတွင် အမှန်တကယ် အခန်းကဏ္ဍ မရှိခြင်း",
+            "အကောင်းဆုံး Presentation များသည် Visual Aid မည်သည်ကိုမျှ ဘယ်တော့မှ လုံးဝ အသုံးမပြုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 29's data-visualization vocabulary -- a chart showing the 20-percentage-point gap communicates more instantly than a slide of text repeating the same number in a sentence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 29 ၏ Data-Visualization ဝေါဟာရနှင့် ချိတ်ဆက်သည် -- Percentage-Point ၂၀ ကွာဟချက် ပြသသော Chart တစ်ခုသည် Sentence တစ်ခုတွင် နံပါတ်တူတူကို ထပ်ခါထပ်ခါ ပြောနေသော Text Slide တစ်ခုထက် ချက်ချင်း ဆက်သွယ်နိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Presentation Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Presentation Skills ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w34-dm-1",
+          termEn: "Key finding",
+          termMy: "Key Finding",
+          matchEn:
+              "The most important result a presentation should communicate first",
+          matchMy: "Presentation တစ်ခု ဦးစွာ ဆက်သွယ်ရမည့် အရေးအကြီးဆုံး ရလဒ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w34-dm-2",
+          termEn: "Anticipated question",
+          termMy: "Anticipated Question",
+          matchEn:
+              "A likely challenging question a presenter prepares an answer for in advance",
+          matchMy:
+              "Presenter တစ်ဦး ကြိုတင် အဖြေ ပြင်ဆင်ထားသော ဖြစ်နိုင်ခြေရှိသော စိန်ခေါ်သည့် မေးခွန်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w34-dm-3",
+          termEn: "Visual complement",
+          termMy: "Visual Complement",
+          matchEn:
+              "A slide or chart that adds clarity beyond simply repeating spoken words",
+          matchMy:
+              "စကားလုံးများကို ရိုးရိုး ထပ်ခါထပ်ခါ ပြောခြင်းထက် Clarity ထပ်ဆောင်းပေးသော Slide (သို့) Chart",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w34-dm-4",
+          termEn: "Audience engagement",
+          termMy: "Audience Engagement",
+          matchEn:
+              "Techniques that keep listeners attentive and involved throughout a presentation",
+          matchMy:
+              "Presentation တစ်ခုတစ်လျှောက် နားထောင်သူများကို အာရုံစူးစိုက်ကာ ပါဝင်စေသော Technique များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Presentation Practice?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာ (သို့) အားနည်းသော Presentation Practice",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Strong Presentation Practice",
+          "Weak Presentation Practice",
+        ],
+        bucketsMy: [
+          "ခိုင်မာသော Presentation Practice",
+          "အားနည်းသော Presentation Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w34-sort-1",
+            labelEn: "Opening with the single most important research finding",
+            labelMy:
+                "အရေးအကြီးဆုံး သုတေသန တွေ့ရှိချက်တစ်ခုတည်းဖြင့် ဖွင့်လှစ်ခြင်း",
+            correctBucketEn: "Strong Presentation Practice",
+            correctBucketMy: "ခိုင်မာသော Presentation Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w34-sort-2",
+            labelEn:
+                "Reading every slide word-for-word with no additional explanation",
+            labelMy:
+                "ထပ်ဆောင်း ရှင်းလင်းချက် မပါဘဲ Slide တိုင်းကို စကားလုံးအတိုင်း ဖတ်ရှုခြင်း",
+            correctBucketEn: "Weak Presentation Practice",
+            correctBucketMy: "အားနည်းသော Presentation Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w34-sort-3",
+            labelEn:
+                "Rehearsing answers to likely difficult questions before the presentation",
+            labelMy:
+                "Presentation မတိုင်မီ ဖြစ်နိုင်ခြေ ရှိသော ခက်ခဲသော မေးခွန်းများ၏ အဖြေများကို Rehearsal ပြုလုပ်ခြင်း",
+            correctBucketEn: "Strong Presentation Practice",
+            correctBucketMy: "ခိုင်မာသော Presentation Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w34-sort-4",
+            labelEn:
+                "Being caught completely off guard by a predictable, expected question",
+            labelMy:
+                "ခန့်မှန်းနိုင်၊ မျှော်လင့်ထားသော မေးခွန်းတစ်ခုက လုံးဝ ရုတ်တရက် ဖမ်းဆီးခံရခြင်း",
+            correctBucketEn: "Weak Presentation Practice",
+            correctBucketMy: "အားနည်းသော Presentation Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Practice Presentation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Practice Presentation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Practice Presentation",
+        titleMy: "Su Myat Noe ၏ Practice Presentation",
+        passageEn:
+            "For Week 34, Ko Zin Ko Ko asked every student to deliver a five-minute practice presentation of their research findings to the class, mirroring the reflective paper and presentation component of the real IGCSE assessment. Su Myat Noe's first rehearsal, timed privately at home, ran nearly nine minutes -- because she had structured it chronologically, walking through Term 1's proposal, Term 7's fieldwork, and Term 8's analysis in full sequence before ever mentioning her actual findings.\n\nApplying Monday's lead-with-findings lesson, she restructured her opening entirely: her very first sentence now stated the headline result directly -- a 20-percentage-point internet-access gap between her rural and urban samples, driven by a three-layer barrier of infrastructure, affordability, and digital literacy. Only after establishing this key finding did she briefly walk through how she had reached it, compressing eight terms of process into a concise, purposeful summary rather than a full chronological retelling.\n\nFollowing Tuesday's anticipated-questions lesson, she also prepared specifically for the challenge she expected Ko Zin Ko Ko to raise: given her Week 31 reflection had already acknowledged her sixty-student sample was too small to generalize confidently to all of rural Myanmar, how would she respond if a listener pointed this out? Rather than being caught off guard, she had a ready answer prepared: her findings suggested a pattern worth further, larger-scale investigation, not a nationally confirmed fact -- precisely the same hedged language her written conclusion had used.\n\nHer visual slide for the presentation, designed following Wednesday's lesson, displayed a simple bar chart showing the 60% versus 80% internet-access comparison rather than a paragraph of text repeating the numbers verbally. When Ko Zin Ko Ko did ask about her sample size limitation during the practice run, Su Myat Noe answered smoothly using her prepared response. He noted that her presentation now demonstrated the same disciplined communication skill her written report had shown -- leading with what mattered most, anticipating scrutiny, and using visuals to clarify rather than merely repeat.",
+        passageMy:
+            "Week 34 အတွက် တကယ့် IGCSE Assessment ၏ Reflective Paper and Presentation Component ကို ထင်ဟပ်စေသော ၎င်းတို့၏ သုတေသန တွေ့ရှိချက်များ Practice Presentation ငါးမိနစ် ကို Class သို့ တင်ပြရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ အိမ်တွင် Privately Timed ပြုလုပ်ခဲ့သော Su Myat Noe ၏ ပထမ Rehearsal သည် မိနစ် ကိုးမိနစ်နီးပါး ကြာခဲ့သည် -- ၎င်း၏ တွေ့ရှိချက် အမှန်တကယ် မဖော်ပြမီ Term 1 ၏ Proposal, Term 7 ၏ Fieldwork နှင့် Term 8 ၏ Analysis တို့ကို Full Sequence ၌ လမ်းလျှောက်ကာ Chronologically ဖွဲ့စည်းခဲ့သောကြောင့် ဖြစ်သည်။\n\nတနင်္လာနေ့ Lead-With-Findings သင်ခန်းစာကို အသုံးချကာ ၎င်း၏ ဖွင့်လှစ်ချက်ကို လုံးဝ ပြန်လည် ဖွဲ့စည်းခဲ့သည် - ၎င်း၏ ပထမ စကားကြောင်းသည် ယခု Headline ရလဒ်ကို တိုက်ရိုက် ဖော်ပြခဲ့သည် - Infrastructure, Affordability နှင့် Digital Literacy ၏ Layer သုံးခု အတားအဆီးက တွန်းအားပေးခဲ့သော ၎င်း၏ Rural နှင့် Urban Sample ကြား Percentage-Point ၂၀ Internet-Access ကွာဟချက်။ ဤ Key Finding ကို တည်ထောင်ပြီးနောက်သာ ၎င်း ၎င်းသို့ မည်သို့ ရောက်ရှိခဲ့သည်ကို အတိုချုပ် လမ်းလျှောက်ခဲ့ပြီး Full Chronological Retelling တစ်ခုအစား Term ရှစ်ခု Process ကို တိကျ၊ ရည်ရွယ်ချက်ရှိသော အနှစ်ချုပ်တစ်ခုအဖြစ် Compress ပြုလုပ်ခဲ့သည်။\n\nအင်္ဂါနေ့ Anticipated-Questions သင်ခန်းစာအတိုင်း ကိုဇင်ကိုကို ထောင်မည်ဟု ၎င်း မျှော်လင့်ထားသော စိန်ခေါ်မှုအတွက်လည်း ၎င်း တိကျစွာ ပြင်ဆင်ခဲ့သည် - ၎င်း၏ Week 31 Reflection သည် ၎င်း၏ ကျောင်းသား ၆၀ Sample သည် Rural မြန်မာတစ်ခုလုံးသို့ ယုံကြည်စွာ Generalize ပြုလုပ်ရန် ငယ်လွန်းနေကြောင်း ယခုပင် အသိအမှတ်ပြုထားခဲ့ရာ နားထောင်သူတစ်ဦးက ဤသည်ကို ထောက်ပြပါက ၎င်း မည်သို့ တုံ့ပြန်မည်နည်း။ ရုတ်တရက် ဖမ်းဆီးခံရမည့်အစား ၎င်းတွင် အသင့်ပြင်ဆင်ထားသော အဖြေတစ်ခု ရှိခဲ့သည် - ၎င်း၏ တွေ့ရှိချက်များသည် နိုင်ငံအတိုင်းအတာ အတည်ပြုထားသော Fact တစ်ခုမဟုတ်ဘဲ ပို၍ ကျယ်ပြန့်၊ ကြီးမားသော စုံစမ်းစစ်ဆေးမှုအတွက် တန်ဖိုးရှိသော Pattern တစ်ခုကို ညွှန်ပြသည် -- ၎င်း၏ ရေးသားထားသော ကောက်ချက် အသုံးပြုခဲ့သော Hedged ဘာသာစကားတူတူ အတိအကျ ဖြစ်သည်။\n\nဗုဒ္ဓဟူးနေ့ သင်ခန်းစာအတိုင်း Design ပြုလုပ်ထားသော Presentation အတွက် ၎င်း၏ Visual Slide သည် နံပါတ်များကို စကားဖြင့် ထပ်ခါထပ်ခါ ပြောသော Text စာပိုဒ်တစ်ခုအစား ၆၀% Versus ၈၀% Internet-Access နှိုင်းယှဉ်ချက် ပြသသော ရိုးရှင်းသော Bar Chart တစ်ခုကို ပြသခဲ့သည်။ Practice Run အတွင်း ၎င်း၏ Sample Size ကန့်သတ်ချက်အကြောင်း ကိုဇင်ကိုကို အမှန်တကယ် မေးမြန်းချိန် Su Myat Noe သည် ၎င်း၏ ပြင်ဆင်ထားသော တုံ့ပြန်ချက်ကို အသုံးပြု၍ ချောမွေ့စွာ ဖြေကြားခဲ့သည်။ ၎င်း၏ Presentation ယခု ၎င်း၏ ရေးသားထားသော Report ပြသခဲ့သော Disciplined Communication Skill တူတူကို သရုပ်ပြနေကြောင်း သူ မှတ်ချက်ပြုခဲ့သည် -- အရေးအကြီးဆုံးဖြင့် ဦးဆောင်ခြင်း၊ Scrutiny ကို ကြိုတင် ခန့်မှန်းခြင်းနှင့် ရိုးရိုး ထပ်ခါထပ်ခါ ပြောခြင်းအစား ရှင်းလင်းရန် Visual များ အသုံးပြုခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Su Myat Noe restructure her presentation's opening?",
+            questionMy:
+                "၎င်း၏ Presentation ၏ ဖွင့်လှစ်ချက်ကို Su Myat Noe မည်သို့ ပြန်လည် ဖွဲ့စည်းခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She stated the headline finding immediately, before walking through the process that reached it",
+              "She kept the original nine-minute chronological structure unchanged",
+              "She removed all mention of her findings entirely",
+              "She began with an unrelated topic before introducing her research",
+            ],
+            optionsMy: [
+              "၎င်းသို့ ရောက်ရှိခဲ့သော Process ကို လမ်းလျှောက်မီ Headline Finding ကို ချက်ချင်း ဖော်ပြခဲ့ခြင်း",
+              "မူလ မိနစ်ကိုး Chronological Structure ကို မပြောင်းလဲဘဲ ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "၎င်း၏ တွေ့ရှိချက်များအကြောင်း ဖော်ပြချက်အားလုံးကို ဖယ်ရှားခဲ့ခြင်း",
+              "၎င်း၏ သုတေသနကို မိတ်ဆက်မီ မဆိုင်သော ခေါင်းစဉ်တစ်ခုဖြင့် စတင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's account of the restructuring.",
+            ],
+            hintsMy: [
+              "ပြန်လည် ဖွဲ့စည်းခြင်း အကြောင်းအရာကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe prepare for the anticipated sample-size question?",
+            questionMy:
+                "မျှော်လင့်ထားသော Sample-Size မေးခွန်းအတွက် Su Myat Noe မည်သို့ ပြင်ဆင်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She prepared a ready answer describing her finding as a pattern worth further investigation, not a confirmed national fact",
+              "She had no answer prepared and hoped the question would not be asked",
+              "She planned to refuse answering the question entirely",
+              "She decided to remove her sample size information from the presentation",
+            ],
+            optionsMy: [
+              "၎င်း၏ တွေ့ရှိချက်ကို နိုင်ငံအတိုင်းအတာ အတည်ပြုထားသော Fact တစ်ခုမဟုတ်ဘဲ ပို၍ စုံစမ်းစစ်ဆေးမှုအတွက် တန်ဖိုးရှိသော Pattern တစ်ခုအဖြစ် ဖော်ပြသော အသင့်ပြင်ဆင်ထားသော အဖြေတစ်ခု ပြင်ဆင်ခဲ့ခြင်း",
+              "အဖြေ ပြင်ဆင်ထားခြင်း မရှိဘဲ မေးခွန်း မမေးမြန်းလိမ့်မည်ဟု မျှော်လင့်ခဲ့ခြင်း",
+              "မေးခွန်းကို လုံးဝ ဖြေကြားရန် ငြင်းဆန်ရန် ကြံစည်ခဲ့ခြင်း",
+              "Presentation မှ ၎င်း၏ Sample Size သတင်းအချက်အလက်ကို ဖယ်ရှားရန် ဆုံးဖြတ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's account of her preparation.",
+            ],
+            hintsMy: [
+              "၎င်း၏ ပြင်ဆင်မှု အကြောင်းအရာကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what did Su Myat Noe's visual slide show?",
+            questionMy:
+                "Su Myat Noe ၏ Visual Slide ဖော်ပြခဲ့သည့် အရာကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A simple bar chart showing the 60% versus 80% internet-access comparison",
+              "A paragraph of text repeating the numbers verbally with no chart",
+              "An entirely unrelated image with no connection to the research",
+              "No visual content of any kind was shown",
+            ],
+            optionsMy: [
+              "၆၀% Versus ၈၀% Internet-Access နှိုင်းယှဉ်ချက် ပြသသော ရိုးရှင်းသော Bar Chart",
+              "Chart မပါဘဲ နံပါတ်များကို စကားဖြင့် ထပ်ခါထပ်ခါ ပြောသော Text စာပိုဒ်",
+              "သုတေသနနှင့် ချိတ်ဆက်မှု မရှိသော လုံးဝ မဆိုင်သော ပုံတစ်ပုံ",
+              "Visual Content မည်သည်မှ ပြသခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the fourth paragraph's description of the slide.",
+            ],
+            hintsMy: ["Slide ရှင်းလင်းချက်ကို စာပိုဒ် ၄ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w34-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Reflective Paper and Presentation Skills",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Reflective Paper နှင့် Presentation Skill များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong presentation should lead with...",
+          questionMy:
+              "ခိုင်မာသော Presentation တစ်ခုသည် ...ဖြင့် ဦးဆောင်သင့်သည်",
+          optionsEn: [
+            "The most important finding",
+            "A full chronological retelling of every step",
+            "An unrelated introduction with no connection to the topic",
+            "The least significant detail available",
+          ],
+          optionsMy: [
+            "အရေးအကြီးဆုံး တွေ့ရှိချက်",
+            "အဆင့်တိုင်း၏ Full Chronological Retelling",
+            "ခေါင်းစဉ်နှင့် ချိတ်ဆက်မှု မရှိသော မဆိုင်သော မိတ်ဆက်",
+            "ရရှိနိုင်သော အနည်းဆုံး သိသာသော အသေးစိတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Preparing answers to anticipated questions helps a presenter...",
+          questionMy:
+              "မျှော်လင့်ထားသော မေးခွန်းများအတွက် အဖြေများ ပြင်ဆင်ခြင်းသည် Presenter တစ်ဦးကို ...ကူညီသည်",
+          optionsEn: [
+            "Avoid being caught off guard by predictable challenges",
+            "Guarantee no questions will ever be asked",
+            "Skip preparing the presentation content entirely",
+            "Avoid ever discussing limitations of any kind",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းနိုင်သော စိန်ခေါ်မှုများက ရုတ်တရက် ဖမ်းဆီးမခံရစေရန် ရှောင်ရှားခြင်း",
+            "မေးခွန်း မည်သည်မှ ဘယ်တော့မှ မမေးခြင်း အာမခံခြင်း",
+            "Presentation Content ပြင်ဆင်ခြင်းကို လုံးဝ ကျော်ခြင်း",
+            "Limitation မည်သည်ကိုမျှ ဘယ်တော့မှ ဆွေးနွေးခြင်း ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good visual slide should...",
+          questionMy: "ကောင်းမွန်သော Visual Slide တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Add clarity beyond simply repeating spoken words",
+            "Contain only the exact words being spoken",
+            "Never include any charts or data",
+            "Be avoided entirely in every presentation",
+          ],
+          optionsMy: [
+            "စကားလုံးများကို ရိုးရိုး ထပ်ခါထပ်ခါ ပြောခြင်းထက် Clarity ထပ်ဆောင်းခြင်း",
+            "ပြောနေသော စကားလုံးအတိုင်းသာ ပါဝင်ခြင်း",
+            "Chart (သို့) Data မည်သည်ကိုမျှ ဘယ်တော့မှ ထည့်သွင်းခြင်း",
+            "Presentation တိုင်းတွင် လုံးဝ ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 9, Week 35: "Full Component Mock
+// Simulations"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek35 = CourseWeekDef(
+  id: "course-igcse-gp-w35",
+  weekNumber: 35,
+  titleEn: "Full Component Mock Simulations",
+  titleMy: "Component အပြည့်အစုံ Mock Simulation များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w35-d1",
+      dayNumber: 1,
+      titleEn: "Simulating Every Assessed Component Under Real Conditions",
+      titleMy:
+          "Real Condition အောက်တွင် Assess ပြုလုပ်သော Component တိုင်းကို Simulate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it valuable to run a full mock simulation combining the written paper, the research report, and the presentation in one condensed period, rather than practicing each component in isolation only?",
+          questionMy:
+              "Component တစ်ခုစီကို သီးခြားစီသာ Practice ပြုလုပ်မည့်အစား စာဖြင့် Paper, သုတေသန Report နှင့် Presentation ကို Condensed ကာလတစ်ခုအတွင်း ပေါင်းစပ်၍ Full Mock Simulation တစ်ခု ဆောင်ရွက်ခြင်းသည် တန်ဖိုးရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A combined simulation tests stamina, time management across components, and how well skills transfer under realistic combined pressure -- something isolated practice cannot reveal",
+            "Combined simulations have no actual advantage over practicing components separately",
+            "Isolated component practice always produces identical results to combined simulation",
+            "There is no meaningful difference between practicing skills separately versus together",
+          ],
+          optionsMy: [
+            "ပေါင်းစပ် Simulation တစ်ခုသည် Isolated Practice က ဖော်ထုတ်၍ မရနိုင်သော Stamina, Component များတစ်လျှောက် Time Management နှင့် Skill များ လက်တွေ့ကျသော ပေါင်းစပ် ဖိအားအောက်တွင် မည်မျှ ကောင်းစွာ Transfer ဖြစ်သည်ကို Test ပြုလုပ်သည်",
+            "ပေါင်းစပ် Simulation များသည် Component များကို သီးခြားစီ Practice ပြုလုပ်ခြင်းထက် အမှန်တကယ် အားသာချက် မရှိခြင်း",
+            "Isolated Component Practice သည် Combined Simulation နှင့် အတိအကျ တူညီသော ရလဒ်များကို အမြဲ ထုတ်ပေးခြင်း",
+            "Skill များကို သီးခြားစီ Versus အတူတကွ Practice ပြုလုပ်ခြင်းကြား အဓိပ္ပာယ်ရှိသော ခြားနားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Writing a strong essay after just one hour is different from writing one at hour four after also completing a report review and a presentation -- fatigue and time-management across a whole assessment day are real factors only a combined simulation reveals.",
+          ],
+          hintsMy: [
+            "တစ်နာရီပြီးနောက် ခိုင်မာသော Essay တစ်ခု ရေးသားခြင်းသည် Report Review နှင့် Presentation တစ်ခုကို ပြီးစီးပြီးနောက် နာရီလေးတွင် တစ်ခုကို ရေးသားခြင်းနှင့် ကွဲပြားသည် -- Assessment နေ့တစ်ခုလုံးတစ်လျှောက် Fatigue နှင့် Time-Management သည် Combined Simulation တစ်ခုကသာ ဖော်ထုတ်ပေးနိုင်သော စစ်မှန်သော အချက်များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a mock simulation be reviewed against the same standards a real examiner would use, rather than judged only by whether it 'felt' successful?",
+          questionMy:
+              "Mock Simulation တစ်ခုသည် ၎င်း 'Feel' အောင်မြင်သည်ဟု ယူဆခြင်းအားဖြင့်သာ ဆုံးဖြတ်မည့်အစား စစ်မှန်သော Examiner တစ်ဦး အသုံးပြုမည့် စံနှုန်းတူတူနှင့် ပြန်လည်သုံးသပ်သင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Personal impressions of performance can be inaccurate, while standards-based review provides objective feedback that actually predicts real exam results",
+            "A candidate's personal feeling of success is always a perfectly accurate predictor of actual exam performance",
+            "Standards-based review has no actual advantage over relying purely on personal impression",
+            "Examiner standards are irrelevant to how a mock simulation should be assessed",
+          ],
+          optionsMy: [
+            "စွမ်းဆောင်ရည်၏ ကိုယ်ရေးကိုယ်တာ Impression များသည် မတိကျနိုင်သော်လည်း Standards-Based Review သည် စစ်မှန်သော Exam ရလဒ်များကို အမှန်တကယ် ကြိုတင်ခန့်မှန်းသော Objective Feedback ပေးအပ်သည်",
+            "Candidate တစ်ဦး၏ အောင်မြင်မှုအကြောင်း ကိုယ်ရေးကိုယ်တာ ခံစားချက်သည် အမှန်တကယ် Exam Performance ၏ ပြီးပြည့်စုံသော တိကျသော Predictor တစ်ခု အမြဲ ဖြစ်ခြင်း",
+            "Standards-Based Review သည် ကိုယ်ရေးကိုယ်တာ Impression တစ်ခုတည်းကို အားကိုးခြင်းထက် အမှန်တကယ် အားသာချက် မရှိခြင်း",
+            "Examiner Standard များသည် Mock Simulation တစ်ခု မည်သို့ အကဲဖြတ်သင့်သည်ဆိုသည်နှင့် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Su Myat Noe's Week 33 experience is a good example -- her first practice paper likely felt fine while writing it, but a standards-based review revealed the time-allocation and balance problems she couldn't see from the inside.",
+          ],
+          hintsMy: [
+            "Su Myat Noe ၏ Week 33 အတွေ့အကြုံသည် ကောင်းသော ဥပမာတစ်ခု ဖြစ်သည် -- ၎င်း၏ ပထမ Practice Paper သည် ၎င်းကို ရေးသားနေစဉ် ကောင်းသည်ဟု ခံစားရနိုင်သော်လည်း Standards-Based Review တစ်ခုက ၎င် အတွင်းမှ မမြင်နိုင်ခဲ့သော Time-Allocation နှင့် Balance ပြဿနာများကို ဖော်ထုတ်ပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it useful for a mock simulation to include deliberately unpredictable elements (e.g. a question phrased differently than expected), rather than only rehearsing exactly what a student expects to see?",
+          questionMy:
+              "ကျောင်းသားတစ်ဦး မြင်တွေ့ရမည်ဟု မျှော်လင့်ထားသည်ကိုသာ Rehearsal ပြုလုပ်မည့်အစား Mock Simulation တစ်ခုတွင် တမင် ခန့်မှန်း၍ မရနိုင်သော Element များ (ဥပမာ - မျှော်လင့်ထားသည်ထက် ကွဲပြားစွာ ဖော်ပြထားသော မေးခွန်းတစ်ခု) ထည့်သွင်းခြင်း အသုံးဝင်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Real exams often present material in unexpected ways, so practicing adaptability builds genuine readiness rather than a fragile reliance on memorized, predictable patterns",
+            "Real exams always present material in exactly the same predictable format every single time",
+            "Unpredictable elements in a mock simulation serve no actual preparatory purpose",
+            "Students should only ever practice with material identical to what they have seen before",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Exam များသည် Material ကို မျှော်လင့်မထားသော နည်းလမ်းများဖြင့် မကြာခဏ တင်ပြတတ်ပြီး Adaptability Practice ပြုလုပ်ခြင်းသည် အလွတ်ကျက်ထားသော၊ ခန့်မှန်းနိုင်သော Pattern များအပေါ် ကြေမွသော အားကိုးမှုအစား စစ်မှန်သော Readiness ကို တည်ဆောက်ပေးသည်",
+            "စစ်မှန်သော Exam များသည် အချိန်တိုင်း အတိအကျ တူညီသော ခန့်မှန်းနိုင်သော Format ၌ Material ကို အမြဲ တင်ပြခြင်း",
+            "Mock Simulation တစ်ခုရှိ Unpredictable Element များသည် အမှန်တကယ် ပြင်ဆင်မှု ရည်ရွယ်ချက် မရှိခြင်း",
+            "ကျောင်းသားများသည် ယခင်က ၎င်းတို့ မြင်တွေ့ခဲ့သည်နှင့် အတိအကျ တူညီသော Material ဖြင့်သာ ဘယ်တော့မှ Practice ပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies the same discipline Su Myat Noe used for anticipated questions in Week 34 -- true readiness means being able to handle a variation, not just a memorized script.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 34 တွင် Anticipated Question များအတွက် Su Myat Noe အသုံးပြုခဲ့သော Discipline တူတူကို အသုံးချသည် -- စစ်မှန်သော Readiness ဆိုသည်မှာ အလွတ်ကျက် Script တစ်ခုသာမက Variation တစ်ခုကို ကိုင်တွယ်နိုင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mock Simulation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mock Simulation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w35-dm-1",
+          termEn: "Full mock simulation",
+          termMy: "Full Mock Simulation",
+          matchEn:
+              "Practicing every assessed component together under realistic conditions",
+          matchMy:
+              "Assess ပြုလုပ်သော Component တိုင်းကို လက်တွေ့ကျသော အခြေအနေအောက်တွင် အတူတကွ Practice ပြုလုပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w35-dm-2",
+          termEn: "Standards-based review",
+          termMy: "Standards-Based Review",
+          matchEn:
+              "Assessing practice work against the same criteria a real examiner would use",
+          matchMy:
+              "စစ်မှန်သော Examiner တစ်ဦး အသုံးပြုမည့် Criteria တူတူနှင့် Practice အလုပ်ကို အကဲဖြတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w35-dm-3",
+          termEn: "Stamina",
+          termMy: "Stamina",
+          matchEn:
+              "The ability to maintain quality performance across an extended assessment period",
+          matchMy:
+              "ကျယ်ပြန့်သော Assessment ကာလတစ်လျှောက် အရည်အသွေးရှိသော Performance ကို ထိန်းသိမ်းနိုင်စွမ်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w35-dm-4",
+          termEn: "Adaptability",
+          termMy: "Adaptability",
+          matchEn:
+              "The ability to respond effectively to unexpected variations in a question or task",
+          matchMy:
+              "မေးခွန်း (သို့) Task တစ်ခုရှိ မမျှော်လင့်ထားသော Variation များကို ထိရောက်စွာ တုံ့ပြန်နိုင်စွမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Genuine Exam Readiness or False Confidence?",
+      titleMy: "စီစစ်ကြမည် - စစ်မှန်သော Exam Readiness (သို့) False Confidence",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Genuine Exam Readiness", "False Confidence"],
+        bucketsMy: ["စစ်မှန်သော Exam Readiness", "False Confidence"],
+        items: [
+          SortingItem(
+            id: "igcgp-w35-sort-1",
+            labelEn:
+                "Performance reviewed against objective examiner-style criteria and found strong",
+            labelMy:
+                "Objective Examiner-Style Criteria နှင့် ပြန်လည်သုံးသပ်ကာ ခိုင်မာသည်ဟု တွေ့ရှိခဲ့သော Performance",
+            correctBucketEn: "Genuine Exam Readiness",
+            correctBucketMy: "စစ်မှန်သော Exam Readiness",
+          ),
+          SortingItem(
+            id: "igcgp-w35-sort-2",
+            labelEn:
+                "Feeling confident after a session with no objective review of the actual work",
+            labelMy:
+                "အမှန်တကယ် အလုပ်ကို Objective Review မလုပ်ဘဲ Session တစ်ခုပြီးနောက် ယုံကြည်စိတ်ချစွာ ခံစားရခြင်း",
+            correctBucketEn: "False Confidence",
+            correctBucketMy: "False Confidence",
+          ),
+          SortingItem(
+            id: "igcgp-w35-sort-3",
+            labelEn:
+                "Successfully handling a question phrased differently than expected",
+            labelMy:
+                "မျှော်လင့်ထားသည်ထက် ကွဲပြားစွာ ဖော်ပြထားသော မေးခွန်းတစ်ခုကို အောင်မြင်စွာ ကိုင်တွယ်ခြင်း",
+            correctBucketEn: "Genuine Exam Readiness",
+            correctBucketMy: "စစ်မှန်သော Exam Readiness",
+          ),
+          SortingItem(
+            id: "igcgp-w35-sort-4",
+            labelEn:
+                "Only ever practicing with a memorized script that never varies at all",
+            labelMy:
+                "ဘယ်တော့မှ Vary မဖြစ်သော အလွတ်ကျက်ထားသော Script တစ်ခုနှင့်သာ Practice ပြုလုပ်ခြင်း",
+            correctBucketEn: "False Confidence",
+            correctBucketMy: "False Confidence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Full Mock Day",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Mock Day အပြည့်အစုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Full Mock Day",
+        titleMy: "Su Myat Noe ၏ Mock Day အပြည့်အစုံ",
+        passageEn:
+            "For Week 35, Ko Zin Ko Ko organized what he called a full mock day: a single condensed session combining a timed Paper 1 practice, a review of the final research report draft, and a live practice presentation, back to back with only short breaks -- exactly the combined-condition simulation Monday's lesson had described.\n\nSu Myat Noe noticed the difference immediately. Her Paper 1 writing, strong when practiced fresh in Week 33, felt noticeably more tiring by the time she reached the evaluation question after already having completed two hours of other assessed work -- a fatigue effect isolated practice had never revealed. She recognized this was exactly why Monday's lesson valued combined simulation: it tested stamina across a whole assessment day, not just isolated skill in ideal conditions.\n\nWhen Ko Zin Ko Ko reviewed her mock day work, he applied Tuesday's standards-based-review lesson strictly, using the same criteria a real IGCSE examiner would use rather than simply telling her it 'felt good.' His feedback was specific: her Paper 1 evaluation answer, while balanced, needed a clearer thesis statement in its opening sentence, and her presentation's timing had run ninety seconds over the target despite her rehearsed structure.\n\nThe mock day's final surprise came from Wednesday's unpredictability principle: Ko Zin Ko Ko deliberately phrased one Paper 1 question differently than any practice question she had seen, testing an underlying skill rather than a memorized pattern. Su Myat Noe recognized the underlying command word and structure despite the unfamiliar phrasing, successfully applying her balanced-evaluation technique to a genuinely new question. Ko Zin Ko Ko noted that her ability to adapt, rather than simply recall a rehearsed script, was the clearest evidence yet that eight terms of skill-building had produced genuine readiness rather than memorized performance.",
+        passageMy:
+            "Week 35 အတွက် Full Mock Day ဟု ၎င်း ခေါ်ဆိုသောအရာကို ကိုဇင်ကိုကို စီစဉ်ခဲ့သည် - Timed Paper 1 Practice, နောက်ဆုံး သုတေသန Report Draft ၏ Review နှင့် Live Practice Presentation ကို အနားနားတိုတို ဖြင့်သာ Session တစ်ခုတည်း Condensed ၌ Back to Back ပေါင်းစပ်ထားသော -- Combined-Condition Simulation ကို တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သည့်အတိုင်း အတိအကျ ဖြစ်သည်။\n\nSu Myat Noe သည် ခြားနားချက်ကို ချက်ချင်း သတိပြုမိခဲ့သည်။ Week 33 တွင် Fresh အနေဖြင့် Practice ပြုလုပ်ချိန် ခိုင်မာခဲ့သော ၎င်း၏ Paper 1 ရေးသားခြင်းသည် Assess ပြုလုပ်ထားသော အလုပ် အခြားနှစ်နာရီ ပြီးစီးပြီးနောက် Evaluation မေးခွန်းသို့ ၎င်း Reach ရောက်ရှိချိန် သိသိသာသာ ပို၍ မောပန်းခဲ့သည်ကို ခံစားရခဲ့သည် -- Isolated Practice က ဘယ်တော့မှ ဖော်ထုတ်ပေးခဲ့ခြင်း မရှိခဲ့သော Fatigue Effect တစ်ခု ဖြစ်သည်။ Assessment နေ့တစ်ခုလုံးတစ်လျှောက် Stamina ကို Test ပြုလုပ်သောကြောင့်၊ Ideal Condition အောက်ရှိ Isolated Skill တစ်ခုတည်းကိုသာမက ဤသည်ကား Combined Simulation ကို တနင်္လာနေ့ သင်ခန်းစာ တန်ဖိုးထားခဲ့ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း ၎င်း သိရှိခဲ့သည်။\n\n၎င်း၏ Mock Day အလုပ်ကို ကိုဇင်ကိုကို ပြန်လည်သုံးသပ်ချိန် ၎င်း 'ကောင်းသည်ဟု ခံစားရသည်' ဟုသာ ရိုးရိုး ပြောမည့်အစား တကယ့် IGCSE Examiner တစ်ဦး အသုံးပြုမည့် Criteria တူတူကို အသုံးပြု၍ အင်္ဂါနေ့ Standards-Based-Review သင်ခန်းစာကို တင်းကျပ်စွာ ၎င်း အသုံးချခဲ့သည်။ ၎င်း၏ Feedback သည် တိကျခဲ့သည် - ၎င်း၏ Paper 1 Evaluation အဖြေသည် Balanced ဖြစ်သော်လည်း ၎င်း၏ ဖွင့်လှစ် စကားကြောင်းတွင် ပို၍ ရှင်းလင်းသော Thesis Statement လိုအပ်ခဲ့ပြီး ၎င်း၏ Presentation ၏ Timing သည် ၎င်း၏ Rehearsed Structure ရှိနေဆဲ Target ထက် စက္ကန့် ၉၀ ကျော်လွန်ခဲ့သည်။\n\nMock Day ၏ နောက်ဆုံး အံ့သြဖွယ်သည် ဗုဒ္ဓဟူးနေ့ Unpredictability Principle မှ လာခဲ့သည် - ၎င်း တွေ့ခဲ့သော Practice Question မည်သည်ထက် ကွဲပြားစွာ Paper 1 မေးခွန်းတစ်ခုကို ကိုဇင်ကိုကို တမင် ဖော်ပြခဲ့ပြီး အလွတ်ကျက်ထားသော Pattern တစ်ခုအစား Underlying Skill ကို Test ပြုလုပ်ခဲ့သည်။ မရင်းနှီးသော Phrasing ရှိသော်လည်း Underlying Command Word နှင့် Structure ကို Su Myat Noe အသိအမှတ်ပြုခဲ့ပြီး ၎င်း၏ Balanced-Evaluation Technique ကို စစ်မှန်သော မေးခွန်းအသစ်တစ်ခုသို့ အောင်မြင်စွာ အသုံးချခဲ့သည်။ Rehearsed Script တစ်ခုကို ရိုးရိုး Recall ပြုလုပ်မည့်အစား ၎င်း Adapt ပြုလုပ်နိုင်စွမ်းသည် Term ရှစ်ခု Skill-Building သည် Memorized Performance အစား စစ်မှန်သော Readiness ထုတ်လုပ်ပေးခဲ့ကြောင်း ယခုအထိ အရှင်းလင်းဆုံး Evidence ဖြစ်ကြောင်း ကိုဇင်ကိုကို မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what fatigue effect did Su Myat Noe notice during the combined mock day?",
+            questionMy:
+                "Combined Mock Day အတွင်း Su Myat Noe သတိပြုမိခဲ့သော Fatigue Effect ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her evaluation-question writing felt more tiring after two hours of other assessed work than when practiced fresh",
+              "She felt no fatigue of any kind throughout the entire mock day",
+              "Her writing quality improved dramatically the longer the mock day continued",
+              "Fatigue only affected her presentation, never her written work",
+            ],
+            optionsMy: [
+              "အခြား Assess ပြုလုပ်ထားသော အလုပ် နှစ်နာရီပြီးနောက် ၎င်း၏ Evaluation-Question ရေးသားခြင်းသည် Fresh Practice ထက် ပို၍ မောပန်းစွာ ခံစားရခြင်း",
+              "Mock Day တစ်ခုလုံးတစ်လျှောက် Fatigue မည်သည်မှ ခံစားရခြင်း မရှိခြင်း",
+              "Mock Day ကြာမြင့်လာသည်နှင့်အမျှ ၎င်း၏ ရေးသားမှု အရည်အသွေး သိသိသာသာ တိုးတက်ခဲ့ခြင်း",
+              "Fatigue သည် ၎င်း၏ Presentation ကိုသာ သက်ရောက်ပြီး ၎င်း၏ ရေးသားထားသော အလုပ်ကို ဘယ်တော့မှ မသက်ရောက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's account of the fatigue effect.",
+            ],
+            hintsMy: [
+              "Fatigue Effect အကြောင်းအရာကို စာပိုဒ် ၂ တွင် ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specific feedback did Ko Zin Ko Ko give using standards-based review?",
+            questionMy:
+                "Standards-Based Review အသုံးပြု၍ ကိုဇင်ကိုကို ပေးခဲ့သော တိကျသော Feedback ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Her thesis statement needed to be clearer, and her presentation ran ninety seconds over target",
+              "He simply said her work 'felt good' with no specific detail",
+              "He gave no feedback of any kind on her mock day performance",
+              "He said her work was completely perfect with no possible improvement",
+            ],
+            optionsMy: [
+              "၎င်း၏ Thesis Statement ပို၍ ရှင်းလင်းရန် လိုအပ်ပြီး ၎င်း၏ Presentation သည် Target ထက် စက္ကန့် ၉၀ ကျော်လွန်ခဲ့ခြင်း",
+              "'ကောင်းသည်ဟု ခံစားရသည်' ဟုသာ တိကျသော အသေးစိတ် မပါဘဲ ရိုးရိုး ဆိုခဲ့ခြင်း",
+              "၎င်း၏ Mock Day Performance အပေါ် Feedback မည်သည်မှ ပေးခဲ့ခြင်း မရှိခြင်း",
+              "ဖြစ်နိုင်ခြေရှိသော တိုးတက်မှု မည်သည်မှ မပါဘဲ ၎င်း၏ အလုပ် လုံးဝ ပြီးပြည့်စုံသည်ဟု ဆိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's specific feedback."],
+            hintsMy: ["တိကျသော Feedback ကို စာပိုဒ် ၃ တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Su Myat Noe's handling of the unfamiliar question demonstrate?",
+            questionMy:
+                "မရင်းနှီးသော မေးခွန်းကို Su Myat Noe ကိုင်တွယ်ခဲ့ပုံ သရုပ်ပြခဲ့သော အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That eight terms of skill-building had produced genuine adaptability rather than memorized performance",
+              "That she had only memorized a fixed script with no real understanding",
+              "That she was completely unable to handle any question phrased differently than expected",
+              "That her skills applied only to the exact questions she had already practiced",
+            ],
+            optionsMy: [
+              "Term ရှစ်ခု Skill-Building သည် Memorized Performance အစား စစ်မှန်သော Adaptability ထုတ်လုပ်ပေးခဲ့ကြောင်း",
+              "၎င်း စစ်မှန်သော နားလည်မှု မပါဘဲ Fixed Script တစ်ခုကိုသာ အလွတ်ကျက်ခဲ့ကြောင်း",
+              "မျှော်လင့်ထားသည်ထက် ကွဲပြားစွာ ဖော်ပြထားသော မေးခွန်း မည်သည်ကိုမျှ ကိုင်တွယ်ရန် ၎င်း လုံးဝ မတတ်နိုင်ခဲ့ကြောင်း",
+              "၎င်း Practice ပြီးသား တိကျသော မေးခွန်းများနှင့်သာ ၎င်း၏ Skill များ သက်ဆိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing remark."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ကုန်ဆုံးသော မှတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w35-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Full Component Mock Simulations",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Component အပြည့်အစုံ Mock Simulation များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A full mock simulation combining all components tests...",
+          questionMy:
+              "Component အားလုံး ပေါင်းစပ်ထားသော Full Mock Simulation တစ်ခုသည် ...ကို Test ပြုလုပ်သည်",
+          optionsEn: [
+            "Stamina and time management across a whole assessment day",
+            "Nothing beyond a single isolated skill",
+            "Only the shortest possible task available",
+            "A candidate's favorite color preference",
+          ],
+          optionsMy: [
+            "Assessment နေ့တစ်ခုလုံးတစ်လျှောက် Stamina နှင့် Time Management",
+            "Isolated Skill တစ်ခုတည်းမှလွဲ၍ မည်သည်မျှ",
+            "ရရှိနိုင်သော အတိုဆုံး Task တစ်ခုတည်းသာ",
+            "Candidate တစ်ဦး၏ နှစ်သက်ရာ အရောင် ရွေးချယ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Standards-based review is valuable because it...",
+          questionMy: "Standards-Based Review သည် ...ကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "Provides objective feedback rather than relying on personal feeling",
+            "Always confirms a candidate's work was already perfect",
+            "Has no actual connection to real exam performance",
+            "Should always be replaced by personal impression alone",
+          ],
+          optionsMy: [
+            "ကိုယ်ရေးကိုယ်တာ ခံစားချက်ကို အားကိုးမည့်အစား Objective Feedback ပေးအပ်ခြင်း",
+            "Candidate တစ်ဦး၏ အလုပ်သည် ပြီးပြည့်စုံပြီးသားဟု အမြဲ အတည်ပြုခြင်း",
+            "စစ်မှန်သော Exam Performance နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "ကိုယ်ရေးကိုယ်တာ Impression တစ်ခုတည်းဖြင့် အမြဲ အစားထိုးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Including unpredictable elements in mock practice builds...",
+          questionMy:
+              "Mock Practice တွင် Unpredictable Element များ ထည့်သွင်းခြင်းသည် ...ကို တည်ဆောက်ပေးသည်",
+          optionsEn: [
+            "Genuine adaptability rather than memorized recall",
+            "A reliance on a single fixed, memorized script",
+            "No actual preparatory value at all",
+            "A guarantee of an identical exam experience every time",
+          ],
+          optionsMy: [
+            "Memorized Recall အစား စစ်မှန်သော Adaptability",
+            "Fixed, Memorized Script တစ်ခုတည်းအပေါ် အားကိုးမှု",
+            "ပြင်ဆင်မှု တန်ဖိုး မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "အချိန်တိုင်း တိကျစွာ တူညီသော Exam အတွေ့အကြုံတစ်ခု အာမခံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 9, Week 36 (Capstone/Boss Week):
+// "IGCSE Global Perspectives & Research Graduation"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek36 = CourseWeekDef(
+  id: "course-igcse-gp-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Global Perspectives & Research Graduation",
+  titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန ဘွဲ့နှင်းသဘင်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w36-d1",
+      dayNumber: 1,
+      titleEn: "Reviewing a Full Year of Global Perspectives Skills",
+      titleMy:
+          "Global Perspectives Skill တစ်နှစ်စာ အပြည့်အစုံ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across the whole course, why did nearly every term's capstone require combining skills from multiple earlier weeks, rather than testing one isolated skill at a time?",
+          questionMy:
+              "Course တစ်ခုလုံးတစ်လျှောက် Term တိုင်းနီးပါး၏ Capstone သည် Isolated Skill တစ်ခုတည်းကို အချိန်တစ်ခုတည်း Test ပြုလုပ်မည့်အစား ယခင် Week များစွာမှ Skill များ ပေါင်းစပ်ရန် လိုအပ်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Real global-perspectives work -- like the actual IGCSE research report and exam -- requires synthesizing multiple skills together, not applying them one at a time in isolation",
+            "Capstone weeks never actually required combining more than one skill",
+            "Isolated single-skill testing is always superior to combined skill application",
+            "The structure of the course had no actual relationship to real-world research or exam demands",
+          ],
+          optionsMy: [
+            "တကယ့် IGCSE သုတေသန Report နှင့် Exam ကဲ့သို့ စစ်မှန်သော Global-Perspectives အလုပ်သည် Skill များကို တစ်ခုချင်းစီ Isolation တွင် အသုံးချမည့်အစား Skill များစွာကို အတူတကွ Synthesize ပြုလုပ်ရန် လိုအပ်သည်",
+            "Capstone Week များသည် Skill တစ်ခုထက် ပို၍ ပေါင်းစပ်ရန် အမှန်တကယ် ဘယ်တော့မှ လိုအပ်ခဲ့ခြင်း မရှိခြင်း",
+            "Isolated Single-Skill Testing သည် Combined Skill Application ထက် အမြဲ ပို၍ ကောင်းမွန်ခြင်း",
+            "Course ၏ Structure သည် Real-World သုတေသန (သို့) Exam တောင်းဆိုချက်များနှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back across the whole course: Week 16's Environmental Action Plan combined feasibility, local-global links, and specific goal-setting all at once -- exactly like a real research report combines methodology, evidence, and honest conclusions together.",
+          ],
+          hintsMy: [
+            "Course တစ်ခုလုံးကို ပြန်လှန် တွေးကြည့်ပါ - Week 16 ၏ Environmental Action Plan သည် Feasibility, Local-Global Link များနှင့် Specific Goal-Setting ကို တစ်ပြိုင်နက် ပေါင်းစပ်ခဲ့သည် -- တကယ့် သုတေသန Report တစ်ခုသည် Methodology, Evidence နှင့် ရိုးသားသော ကောက်ချက်များကို ပေါင်းစပ်သကဲ့သို့ အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across all nine terms, why was the recurring emphasis on 'weighing evidence honestly rather than overstating certainty' considered a core Global Perspectives skill rather than a minor detail?",
+          questionMy:
+              "Term ကိုးခုစလုံးကို ပြန်လှန် ကြည့်ရှုသောအခါ 'Certainty ကို ချဲ့ကားမည့်အစား Evidence ကို ရိုးသားစွာ ချိန်ဆခြင်း' ထပ်ခါထပ်ခါ အလေးပေးခြင်းကို အသေးအဖွဲ့ အသေးစိတ်တစ်ခုအစား Core Global Perspectives Skill တစ်ခုအဖြစ် ယူဆရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This principle appeared repeatedly across sources, data, corporate claims, and personal conclusions because critically evaluating evidence, not just collecting it, is the foundation of genuine global-perspectives thinking",
+            "This principle only ever appeared once, in a single unrelated lesson",
+            "Honest evidence-weighing has no actual connection to the subject's core purpose",
+            "Overstating certainty is always considered the stronger academic approach",
+          ],
+          optionsMy: [
+            "Source များ၊ Data များ၊ Corporate Claim များနှင့် ကိုယ်ပိုင် ကောက်ချက်များတစ်လျှောက် ဤ Principle ထပ်ခါထပ်ခါ ပေါ်ခဲ့သည့် အကြောင်းရင်းမှာ Evidence ကို စုဆောင်းရုံသက်သက်မက Critically Evaluate ပြုလုပ်ခြင်းသည် စစ်မှန်သော Global-Perspectives Thinking ၏ အခြေခံ ဖြစ်သောကြောင့် ဖြစ်သည်",
+            "ဤ Principle သည် တစ်ခါတည်း မဆိုင်သော သင်ခန်းစာတစ်ခုတွင်သာ ဘယ်တော့မှ ပေါ်ခဲ့ခြင်း",
+            "ရိုးသားသော Evidence-Weighing သည် ဘာသာရပ်၏ Core ရည်ရွယ်ချက်နှင့် အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+            "Certainty ချဲ့ကားခြင်းကို ပို၍ ခိုင်မာသော ပညာရေးဆိုင်ရာ Approach အဖြစ် အမြဲ ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread: Term 1's source evaluation, Term 6's correlation-versus-causation, Term 8's hedged conclusions -- the same core discipline reappeared in a new context nearly every term.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို ခြေရာခံကြည့်ပါ - Term 1 ၏ Source Evaluation, Term 6 ၏ Correlation-Versus-Causation, Term 8 ၏ Hedged Conclusion များ -- Core Discipline တူတူသည် Term တိုင်းနီးပါးတွင် Context အသစ်တစ်ခု၌ ပြန်လည် ပေါ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does genuine readiness for the real IGCSE Global Perspectives & Research assessment ultimately depend on habits of mind (fairness, evidence-weighing, honest reflection) rather than memorized facts alone?",
+          questionMy:
+              "တကယ့် IGCSE Global Perspectives & Research Assessment အတွက် စစ်မှန်သော Readiness သည် အလွတ်ကျက်ထားသော Fact များတစ်ခုတည်းအစား Habits of Mind (တရားမျှတမှု, Evidence-Weighing, ရိုးသားသော Reflection) အပေါ် နောက်ဆုံးတွင် မှီခိုနေသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The assessment presents new, unpredictable topics and questions each time, so a candidate needs transferable thinking habits rather than a fixed set of memorized answers",
+            "The real assessment always asks exactly the same fixed questions every single year",
+            "Habits of mind have no actual relevance to global perspectives or research skills",
+            "Memorized facts alone are always sufficient for any research or exam context",
+          ],
+          optionsMy: [
+            "Assessment သည် အကြိမ်တိုင်း ကွဲပြား၊ ခန့်မှန်း၍ မရနိုင်သော ခေါင်းစဉ်နှင့် မေးခွန်းများကို တင်ပြသောကြောင့် Candidate တစ်ဦးသည် အလွတ်ကျက်ထားသော အဖြေများ အစုံအစား Transferable Thinking Habit များ လိုအပ်သည်",
+            "တကယ့် Assessment သည် နှစ်တိုင်းတွင် အတိအကျ တူညီသော Fixed မေးခွန်းများကို အမြဲ မေးမြန်းခြင်း",
+            "Habits of Mind သည် Global Perspectives (သို့) Research Skill များနှင့် အမှန်တကယ် သက်ဆိုင်မှု မရှိခြင်း",
+            "အလွတ်ကျက်ထားသော Fact များသာလျှင် သုတေသန (သို့) Exam Context မည်သည်အတွက်မဆို အမြဲ လုံလောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 35's adaptability lesson -- Su Myat Noe succeeded on an unfamiliar question because she had internalized a way of thinking, not because she had memorized the specific answer in advance.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 35 ၏ Adaptability သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Su Myat Noe သည် ကြိုတင် တိကျသော အဖြေကို အလွတ်ကျက်ထားခြင်းကြောင့် မဟုတ်ဘဲ တွေးခေါ်ပုံ တစ်ခုကို Internalize ပြုလုပ်ထားခဲ့သောကြောင့် မရင်းနှီးသော မေးခွန်းတွင် အောင်မြင်ခဲ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nine-Term Global Perspectives Journey",
+      titleMy: "တွဲစပ်ကြမည် - Term ကိုးခု Global Perspectives ခရီးစဉ်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w36-dm-1",
+          termEn: "Local-global connection",
+          termMy: "Local-Global Connection",
+          matchEn:
+              "Term 1's foundational skill: linking a specific local action to a wider global issue",
+          matchMy:
+              "Term 1 ၏ အခြေခံ Skill - တိကျသော Local Action တစ်ခုကို ကျယ်ပြန့်သော Global ပြဿနာတစ်ခုနှင့် ချိတ်ဆက်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w36-dm-2",
+          termEn: "Balanced ethical reasoning",
+          termMy: "Balanced Ethical Reasoning",
+          matchEn:
+              "Term 2's skill: weighing competing values and frameworks fairly",
+          matchMy:
+              "Term 2 ၏ Skill - ယှဉ်ပြိုင်နေသော တန်ဖိုးများနှင့် Framework များကို တရားမျှတစွာ ချိန်ဆခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w36-dm-3",
+          termEn: "Evidence-based conclusion",
+          termMy: "Evidence-Based Conclusion",
+          matchEn:
+              "A recurring skill across Terms 6-8: weighing evidence honestly before drawing a conclusion",
+          matchMy:
+              "Term 6-8 တစ်လျှောက် ထပ်ခါထပ်ခါ ပေါ်ခဲ့သော Skill - ကောက်ချက် မချမီ Evidence ကို ရိုးသားစွာ ချိန်ဆခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w36-dm-4",
+          termEn: "Exam adaptability",
+          termMy: "Exam Adaptability",
+          matchEn:
+              "Term 9's skill: applying internalized thinking habits to genuinely new questions",
+          matchMy:
+              "Term 9 ၏ Skill - Internalize ပြုလုပ်ထားသော တွေးခေါ်ပုံ Habit များကို စစ်မှန်သော မေးခွန်းအသစ်များသို့ အသုံးချခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Global Perspectives Habit of Mind or Not?",
+      titleMy: "စီစစ်ကြမည် - Global Perspectives Habit of Mind ဖြစ်/မဖြစ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Genuine Global Perspectives Habit of Mind",
+          "Not a Global Perspectives Habit of Mind",
+        ],
+        bucketsMy: [
+          "စစ်မှန်သော Global Perspectives Habit of Mind",
+          "Global Perspectives Habit of Mind မဟုတ်ခြင်း",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w36-sort-1",
+            labelEn:
+                "Fairly representing an opposing perspective before giving your own view",
+            labelMy:
+                "ကိုယ်ပိုင်အမြင် မပေးမီ ဆန့်ကျင်သော ရှုထောင့်ကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+            correctBucketEn: "Genuine Global Perspectives Habit of Mind",
+            correctBucketMy: "စစ်မှန်သော Global Perspectives Habit of Mind",
+          ),
+          SortingItem(
+            id: "igcgp-w36-sort-2",
+            labelEn:
+                "Memorizing a single fixed script without understanding the underlying reasoning",
+            labelMy:
+                "Underlying Reasoning ကို နားမလည်ဘဲ Fixed Script တစ်ခုတည်းကို အလွတ်ကျက်ခြင်း",
+            correctBucketEn: "Not a Global Perspectives Habit of Mind",
+            correctBucketMy: "Global Perspectives Habit of Mind မဟုတ်ခြင်း",
+          ),
+          SortingItem(
+            id: "igcgp-w36-sort-3",
+            labelEn:
+                "Weighing evidence honestly and using hedged language when certainty is not warranted",
+            labelMy:
+                "Certainty မရှိသင့်သောအခါ Evidence ကို ရိုးသားစွာ ချိန်ဆ၍ Hedged ဘာသာစကား အသုံးပြုခြင်း",
+            correctBucketEn: "Genuine Global Perspectives Habit of Mind",
+            correctBucketMy: "စစ်မှန်သော Global Perspectives Habit of Mind",
+          ),
+          SortingItem(
+            id: "igcgp-w36-sort-4",
+            labelEn:
+                "Presenting only supporting evidence while hiding anything that complicates the story",
+            labelMy:
+                "ဇာတ်လမ်းကို ရှုပ်ထွေးစေမည့် အရာ မည်သည်ကိုမျှ ဖျောက်ထားစဉ် ထောက်ခံသော Evidence ကိုသာ တင်ပြခြင်း",
+            correctBucketEn: "Not a Global Perspectives Habit of Mind",
+            correctBucketMy: "Global Perspectives Habit of Mind မဟုတ်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Graduation Reflection",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ ဘွဲ့နှင်းသဘင် Reflection",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Graduation Reflection",
+        titleMy: "Su Myat Noe ၏ ဘွဲ့နှင်းသဘင် Reflection",
+        passageEn:
+            "On the final day of the course, Ko Zin Ko Ko asked each student to write one closing reflection connecting the very first lesson of Term 1 to the very last lesson of Term 9 -- tracing a single thread across the entire nine-term journey. Su Myat Noe chose to trace the thread of evidence-based honesty, and found it everywhere once she started looking.\n\nIt began in Term 1's Week 3, when she first learned that a strong research question needed to be specific and feasible rather than vague. It continued through Term 3's simulated summit, where she had to represent a perspective on refugee policy she did not personally hold, fairly and accurately. It deepened in Term 6, when Ko Zin Ko Ko taught her to distinguish correlation from causation rather than assuming any two related events were automatically connected. It became personal in Term 7 and 8, when her own fieldwork forced her to catch a biased question before it caused harm, and her own conclusion required hedged language rather than overstated certainty about her sixty-student sample. And it returned one final time in Term 9's mock exam, when she successfully argued both sides of an international aid debate before defending her own reasoned position.\n\nSu Myat Noe's reflection concluded that Global Perspectives had never really been about memorizing facts about migration, technology, or economics -- each term's specific content had mattered, but the real skill running underneath all nine terms was a consistent way of thinking: representing others fairly, weighing evidence honestly, and stating conclusions with exactly the confidence the evidence actually supported, no more and no less.\n\nKo Zin Ko Ko's final comment on her graduation reflection noted that this was precisely the transferable habit of mind the entire course had been built to develop -- not preparation for a single exam only, but a way of engaging with any complex global issue for the rest of her life, whether or not a teacher was there to grade the answer.",
+        passageMy:
+            "Course ၏ နောက်ဆုံးနေ့တွင် Term 1 ၏ ပထမဆုံး သင်ခန်းစာမှ Term 9 ၏ နောက်ဆုံး သင်ခန်းစာသို့ ချိတ်ဆက်သော နောက်ဆုံး Reflection တစ်ခု ရေးသားရန် ကျောင်းသားတစ်ဦးစီအား ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည် -- Term ကိုးခု ခရီးစဉ်တစ်ခုလုံးတစ်လျှောက် Thread တစ်ခုတည်းကို ခြေရာခံခြင်း။ Evidence-Based Honesty ၏ Thread ကို ခြေရာခံရန် Su Myat Noe ရွေးချယ်ခဲ့ပြီး ၎င်း စတင် ရှာဖွေချိန် နေရာတိုင်းတွင် ၎င်းကို တွေ့ခဲ့သည်။\n\n၎င်းသည် ခိုင်မာသော Research Question တစ်ခုသည် Vague အစား Specific, Feasible ဖြစ်ရန် လိုအပ်ကြောင်း ပထမဆုံးအကြိမ် ၎င်း သင်ယူခဲ့သော Term 1 ၏ Week 3 တွင် စတင်ခဲ့သည်။ ၎င်းသည် ဒုက္ခသည် မူဝါဒအပေါ် ၎င်းကိုယ်ပိုင် မကိုင်ဆောင်ခဲ့သော ရှုထောင့်တစ်ခုကို တရားမျှတ၊ တိကျစွာ ကိုယ်စားပြုရသော Term 3 ၏ Simulated Summit မှတစ်ဆင့် ဆက်လက် ရှိခဲ့သည်။ ဆက်ဆံသော အဖြစ်အပျက်နှစ်ခုသည် အလိုအလျောက် ချိတ်ဆက်နေသည်ဟု ယူဆမည့်အစား Correlation ကို Causation မှ ခွဲခြားရန် ကိုဇင်ကိုကို ၎င်းကို သင်ကြားပေးခဲ့သော Term 6 တွင် ၎င်း ပို၍ နက်ရှိုင်းလာခဲ့သည်။ ၎င်း၏ ကိုယ်ပိုင် Fieldwork သည် စစ်မှန်သော ထိခိုက်မှု မဖြစ်ပေါ်မီ Biased မေးခွန်းတစ်ခုကို ဖမ်းမိရန် ၎င်းကို တွန်းအားပေးခဲ့ပြီး ၎င်းကိုယ်ပိုင် ကောက်ချက်သည် ၎င်း၏ ကျောင်းသား ၆၀ Sample အကြောင်း ချဲ့ကားထားသော Certainty အစား Hedged ဘာသာစကား လိုအပ်ခဲ့သော Term 7 နှင့် 8 တွင် ၎င်းသည် ကိုယ်ပိုင်ဆန်လာခဲ့သည်။ ၎င်းသည် ၎င်းကိုယ်ပိုင် Reasoned Position ကို ခုခံကာကွယ်မီ International Aid Debate တစ်ခု၏ ဘက်နှစ်ဘက်စလုံးကို ၎င်း အောင်မြင်စွာ ငြင်းခုံခဲ့သော Term 9 ၏ Mock Exam တွင် နောက်ဆုံးအကြိမ် ပြန်လည် ရောက်ရှိလာခဲ့သည်။\n\nGlobal Perspectives သည် Migration, Technology (သို့) Economics အကြောင်း Fact များ အလွတ်ကျက်ခြင်းအကြောင်း တကယ်တမ်း ဘယ်တော့မှ မဟုတ်ခဲ့ကြောင်း Su Myat Noe ၏ Reflection ကောက်ချက်ချခဲ့သည် -- Term တစ်ခုစီ၏ တိကျသော Content သည် အရေးကြီးခဲ့သော်လည်း Term ကိုးခုစလုံး၏ အောက်ခံ အမှန်တကယ် Skill သည် တသမတ်တည်း တွေးခေါ်ပုံတစ်ခု ဖြစ်ခဲ့သည် - အခြားသူများကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း၊ Evidence ကို ရိုးသားစွာ ချိန်ဆခြင်းနှင့် Evidence က အမှန်တကယ် ထောက်ပံ့သည့် ယုံကြည်စိတ်ချမှု အတိအကျဖြင့် ကောက်ချက်များကို ဖော်ပြခြင်း၊ ပို၍မဟုတ်၊ နည်း၍မဟုတ်။\n\n၎င်း၏ ဘွဲ့နှင်းသဘင် Reflection အပေါ် ကိုဇင်ကိုကို ၏ နောက်ဆုံး မှတ်ချက်သည် ဤသည်ကား Exam တစ်ခုတည်းအတွက် ပြင်ဆင်မှုသာမက ဆရာတစ်ဦး အဖြေကို Grade ချရန် ထိုနေရာတွင် ရှိသည် ရှိမရှိ မည်သို့ပင်ရှိစေ ၎င်း၏ ကျန်ရှိသေးသော ဘဝတစ်ခုလုံးအတွက် Complex Global ပြဿနာ မည်သည်နှင့်မဆို ထိတွေ့ဆက်ဆံသော နည်းလမ်းတစ်ခု -- Course တစ်ခုလုံး ဖွံ့ဖြိုးတိုးတက်ရန် တည်ဆောက်ခဲ့သော Transferable Habit of Mind အတိအကျ ဖြစ်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what thread did Su Myat Noe choose to trace across the nine terms?",
+            questionMy:
+                "Term ကိုးခုတစ်လျှောက် ခြေရာခံရန် Su Myat Noe ရွေးချယ်ခဲ့သော Thread ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Evidence-based honesty",
+              "The history of ride-hailing companies specifically",
+              "A thread with no actual connection across any terms",
+              "Only the events of Term 9 alone",
+            ],
+            optionsMy: [
+              "Evidence-Based Honesty",
+              "Ride-Hailing ကုမ္ပဏီများ၏ သမိုင်းကြောင်း အထူးသဖြင့်",
+              "Term မည်သည်တစ်လျှောက်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိသော Thread တစ်ခု",
+              "Term 9 ၏ အဖြစ်အပျက်များကိုသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's opening statement."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ ဖွင့်လှစ် ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Myat Noe conclude Global Perspectives had really been about?",
+            questionMy:
+                "Global Perspectives သည် အမှန်တကယ် အဘယ်အရာအကြောင်း ဖြစ်ခဲ့ကြောင်း Su Myat Noe ကောက်ချက်ချခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A consistent way of thinking -- fairness, honest evidence-weighing, and appropriately confident conclusions",
+              "Memorizing facts about migration, technology, and economics alone",
+              "Nothing beyond passing a single written exam",
+              "A subject with no actual underlying skill connecting its terms",
+            ],
+            optionsMy: [
+              "တသမတ်တည်း တွေးခေါ်ပုံတစ်ခု -- တရားမျှတမှု, ရိုးသားသော Evidence-Weighing နှင့် သင့်လျော်စွာ ယုံကြည်စိတ်ချသော ကောက်ချက်များ",
+              "Migration, Technology နှင့် Economics အကြောင်း Fact များကိုသာ အလွတ်ကျက်ခြင်း",
+              "စာဖြင့် Exam တစ်ခုတည်း အောင်မြင်ခြင်းမှလွဲ၍ မည်သည်မျှ",
+              "၎င်း၏ Term များကို ချိတ်ဆက်သော Underlying Skill အမှန်တကယ် မရှိသော ဘာသာရပ်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conclusion."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Ko Zin Ko Ko say the course had really been built to develop?",
+            questionMy:
+                "Course သည် အမှန်တကယ် အဘယ်အရာ ဖွံ့ဖြိုးတိုးတက်ရန် တည်ဆောက်ခဲ့ကြောင်း ကိုဇင်ကိုကို ဆိုခဲ့သည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A transferable habit of mind for engaging with global issues throughout life, not just exam preparation",
+              "Preparation for a single exam with no relevance beyond that exam",
+              "Nothing of any lasting value beyond the nine terms themselves",
+              "A skill relevant only while a teacher is present to grade the work",
+            ],
+            optionsMy: [
+              "Exam ပြင်ဆင်မှုတစ်ခုတည်းသာမက ဘဝတစ်ခုလုံးတစ်လျှောက် Global ပြဿနာများနှင့် ထိတွေ့ဆက်ဆံရန် Transferable Habit of Mind တစ်ခု",
+              "ထို Exam ကို ကျော်လွန်၍ သက်ဆိုင်မှု မရှိသော Exam တစ်ခုတည်းအတွက် ပြင်ဆင်မှု",
+              "Term ကိုးခုကိုယ်တိုင်ကို ကျော်လွန်၍ ကြာရှည် တန်ဖိုးရှိသော အရာ မည်သည်မျှ",
+              "အလုပ်ကို Grade ချရန် ဆရာတစ်ဦး ရှိချိန်တွင်သာ သက်ဆိုင်သော Skill",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing comment."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ကုန်ဆုံးသော မှတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w36-d5",
+      dayNumber: 5,
+      titleEn: "IGCSE Global Perspectives & Research Graduation Exam",
+      titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန ဘွဲ့နှင်းသဘင် စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The recurring core skill running across all nine terms of Global Perspectives was...",
+          questionMy:
+              "Global Perspectives ၏ Term ကိုးခုစလုံးတစ်လျှောက် ထပ်ခါထပ်ခါ ပေါ်ခဲ့သော Core Skill သည်...",
+          optionsEn: [
+            "Fairly weighing evidence and perspectives before drawing honest conclusions",
+            "Memorizing a fixed list of facts with no critical thinking",
+            "Always choosing the most extreme possible position",
+            "Avoiding any consideration of opposing viewpoints",
+          ],
+          optionsMy: [
+            "ရိုးသားသော ကောက်ချက်များ မချမီ Evidence နှင့် ရှုထောင့်များကို တရားမျှတစွာ ချိန်ဆခြင်း",
+            "Critical Thinking မပါဘဲ Fixed Fact စာရင်းကို အလွတ်ကျက်ခြင်း",
+            "ဖြစ်နိုင်ဆုံး Extreme Position ကို အမြဲ ရွေးချယ်ခြင်း",
+            "ဆန့်ကျင်သော အမြင်များကို ထည့်သွင်းစဉ်းစားခြင်း ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Genuine exam readiness, as shown in Term 9, ultimately depends most on...",
+          questionMy:
+              "Term 9 တွင် ပြသခဲ့သည့်အတိုင်း စစ်မှန်သော Exam Readiness သည် နောက်ဆုံးတွင် အများဆုံး ...အပေါ် မှီခိုသည်",
+          optionsEn: [
+            "Transferable thinking habits rather than a fixed memorized script",
+            "A single memorized script that never varies",
+            "Ignoring all feedback from teachers or examiners",
+            "Avoiding any practice under realistic conditions",
+          ],
+          optionsMy: [
+            "Fixed Memorized Script တစ်ခုအစား Transferable Thinking Habit များ",
+            "ဘယ်တော့မှ Vary မဖြစ်သော Memorized Script တစ်ခုတည်း",
+            "ဆရာ (သို့) Examiner များထံမှ Feedback အားလုံးကို လျစ်လျူရှုခြင်း",
+            "လက်တွေ့ကျသော အခြေအနေအောက်တွင် Practice ပြုလုပ်ခြင်း ရှောင်ကြဉ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Su Myat Noe's graduation reflection concluded that Global Perspectives skills apply...",
+          questionMy:
+              "Global Perspectives Skill များ သက်ဆိုင်ကြောင်း Su Myat Noe ၏ ဘွဲ့နှင်းသဘင် Reflection ကောက်ချက်ချခဲ့သည်မှာ...",
+          optionsEn: [
+            "To engaging with global issues throughout life, not just one exam",
+            "Only to the single written exam and nothing else",
+            "Only while a teacher is physically present",
+            "To no situation beyond the nine-term course itself",
+          ],
+          optionsMy: [
+            "Exam တစ်ခုတည်းသာမက ဘဝတစ်ခုလုံးတစ်လျှောက် Global ပြဿနာများနှင့် ထိတွေ့ဆက်ဆံရာတွင်",
+            "စာဖြင့် Exam တစ်ခုတည်းနှင့် အခြားမည်သည်ကိုမျှ မသက်ဆိုင်ခြင်း",
+            "ဆရာတစ်ဦး ရုပ်ပိုင်းဆိုင်ရာ ရှိနေချိန်တွင်သာ",
+            "Term ကိုးခု Course ကိုယ်တိုင်ကို ကျော်လွန်၍ အခြေအနေ မည်သည်တွင်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 9: "Examination Preparation and
+// Graduation" (Weeks 33-36)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm9 = CourseTermDef(
+  id: "course-igcse-gp-t9",
+  termNumber: 9,
+  titleEn: "Examination Preparation and Graduation",
+  titleMy: "စာမေးပွဲ ပြင်ဆင်မှုနှင့် ဘွဲ့နှင်းသဘင်",
+  certificateTitleEn: "Examination Preparation and Graduation",
+  certificateTitleMy: "စာမေးပွဲ ပြင်ဆင်မှုနှင့် ဘွဲ့နှင်းသဘင်",
+  weeks: [_igcseGpWeek33, _igcseGpWeek34, _igcseGpWeek35, _igcseGpWeek36],
 );
 // __IGCSE_GP_MARKER__
