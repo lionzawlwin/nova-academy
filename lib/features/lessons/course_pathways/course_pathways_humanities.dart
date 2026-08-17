@@ -103490,10 +103490,1449 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec1HumTerm1],
+  terms: [_sec1HumTerm1, _sec1HumTerm2],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 2, Week 5: "Mesopotamia and the
+// Fertile Crescent"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek5 = CourseWeekDef(
+  id: "course-sec1-hum-w5",
+  weekNumber: 5,
+  titleEn: "Mesopotamia and the Fertile Crescent",
+  titleMy: "Mesopotamia နှင့် Fertile Crescent",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w5-d1",
+      dayNumber: 1,
+      titleEn: "Why Civilizations Began Between Two Rivers",
+      titleMy: "မြစ်နှစ်စင်းကြား Civilization များ အဘယ်ကြောင့် စတင်ခဲ့သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did one of the world's earliest civilizations develop specifically in the land between the Tigris and Euphrates rivers, rather than in a dry desert with no rivers nearby?",
+          questionMy:
+              "ကမ္ဘာ့ အစောဆုံး Civilization များထဲမှ တစ်ခုသည် အနီးတွင် မြစ် မရှိသော ခြောက်သွေ့သည့် သဲကန္တာရတစ်ခုအစား Tigris နှင့် Euphrates မြစ်နှစ်စင်းကြား မြေတွင် တိကျစွာ အဘယ်ကြောင့် ဖွံ့ဖြိုးခဲ့သနည်း။",
+          optionsEn: [
+            "The rivers provided reliable water for farming and drinking, and the flooding left behind fertile soil, allowing a large, settled population to be fed",
+            "River location has no actual connection to where early civilizations formed",
+            "Deserts with no water were always more suitable for early farming than river valleys",
+            "The location of the rivers was pure coincidence with no relevance to the civilization's growth",
+          ],
+          optionsMy: [
+            "မြစ်များသည် စိုက်ပျိုးရေးနှင့် သောက်ရေအတွက် ယုံကြည်ရသော ရေကို ပေးစွမ်းပြီး ရေလွှမ်းမိုးမှုက ကျန်ရစ်ခဲ့သော မြေဩဇာသည် ကြီးမားသော၊ အခြေချနေထိုင်သော လူဦးရေကို ကျွေးမွေးနိုင်စေခဲ့သည်",
+            "မြစ်၏ တည်နေရာသည် အစောဆုံး Civilization များ ဖွဲ့စည်းရာနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ရေ မရှိသော သဲကန္တာရများသည် မြစ်ချိုင့်ဝှမ်းများထက် အစောဆုံး စိုက်ပျိုးရေးအတွက် အမြဲ ပို၍ သင့်တော်ခြင်း",
+            "မြစ်များ၏ တည်နေရာသည် Civilization ၏ ဖွံ့ဖြိုးတိုးတက်မှုနှင့် Relevance မရှိသော Pure Coincidence တစ်ခု ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same geography-shapes-history principle from Term 1's capstone -- reliable water and fertile soil are physical factors that directly enabled a large settled population.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Capstone မှ Geography-Shapes-History Principle တူတူ ဖြစ်သည် -- ယုံကြည်ရသော ရေနှင့် မြေဩဇာသည် ကြီးမားသော အခြေချနေထိုင်မှု လူဦးရေကို တိုက်ရိုက် ဖြစ်ပေါ်စေသော Physical Factor များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why was the invention of writing (cuneiform) such a significant development for Mesopotamian civilization, beyond simply being a new skill?",
+          questionMy:
+              "Cuneiform (စာရေးနည်း) တီထွင်ခြင်းသည် Skill အသစ်တစ်ခု ရိုးရိုးထက်ကျော်၍ Mesopotamian Civilization အတွက် အရေးကြီးသော ဖွံ့ဖြိုးတိုးတက်မှု ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Writing allowed records, laws, and trade agreements to be stored and communicated accurately over distance and time, rather than relying only on memory",
+            "Writing had no actual practical use in Mesopotamian society",
+            "Spoken memory was always more reliable than any written record",
+            "Writing was invented purely for decoration with no functional purpose",
+          ],
+          optionsMy: [
+            "စာရေးနည်းသည် မှတ်ဉာဏ်တစ်ခုတည်း အားကိုးမည့်အစား Record, Law နှင့် ကုန်သွယ်ရေး သဘောတူညီချက်များကို အကွာအဝေးနှင့် အချိန်တစ်လျှောက် တိကျစွာ သိမ်းဆည်း၊ ဆက်သွယ်နိုင်စေခဲ့သည်",
+            "စာရေးနည်းသည် Mesopotamian Society တွင် အမှန်တကယ် လက်တွေ့ အသုံးဝင်မှု မရှိခြင်း",
+            "စကားပြော မှတ်ဉာဏ်သည် ရေးသားထားသော Record မည်သည်ထက်မဆို အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "စာရေးနည်းကို Functional ရည်ရွယ်ချက် မပါဘဲ အလှဆင်ရန်အတွက်သာ တီထွင်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 1's primary-record lesson -- writing created a way to preserve information more reliably than memory alone, exactly like a primary record does for a historian.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Primary-Record သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Historian တစ်ဦးအတွက် Primary Record တစ်ခု ပြုလုပ်သကဲ့သို့ စာရေးနည်းသည် Information ကို မှတ်ဉာဏ်တစ်ခုတည်းထက် ပို၍ ယုံကြည်ရစွာ ထိန်းသိမ်းရန် နည်းလမ်းတစ်ခု ဖန်တီးပေးခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students treat Mesopotamian law codes (such as Hammurabi's Code) as valuable historical evidence about that society, rather than just a list of old rules?",
+          questionMy:
+              "ကျောင်းသားများသည် Mesopotamian ဥပဒေအညွှန်းများ (Hammurabi's Code ကဲ့သို့) ကို စည်းမျဉ်းဟောင်း စာရင်းတစ်ခုအဖြစ်သာမက ထို Society အကြောင်း တန်ဖိုးရှိသော သမိုင်းဆိုင်ရာ Evidence တစ်ခုအဖြစ် အဘယ်ကြောင့် သဘောထားသင့်ရသနည်း။",
+          optionsEn: [
+            "A law code reveals what a society valued, feared, and considered fair or unfair, giving real insight into how people actually lived and were governed",
+            "A law code has no actual connection to understanding a society's values",
+            "Old laws are always irrelevant to historical study and should be ignored",
+            "Law codes were written purely for entertainment with no serious purpose",
+          ],
+          optionsMy: [
+            "ဥပဒေအညွှန်းတစ်ခုသည် Society တစ်ခု တန်ဖိုးထား၊ ကြောက်ရွံ့၊ မျှတသည် (သို့) မတရားသည်ဟု ယူဆသည့်အရာကို ဖော်ထုတ်ပေးကာ လူများ တကယ်တမ်း မည်သို့ နေထိုင်၊ အုပ်ချုပ်ခံခဲ့ရသည်ကို အစစ်အမှန် Insight ပေးအပ်သည်",
+            "ဥပဒေအညွှန်းတစ်ခုသည် Society တစ်ခု၏ တန်ဖိုးများ နားလည်ခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ဥပဒေဟောင်းများသည် သမိုင်း လေ့လာမှုနှင့် အမြဲ မသက်ဆိုင်ဘဲ လျစ်လျူရှုသင့်ခြင်း",
+            "ဥပဒေအညွှန်းများကို ပြင်းထန်သော ရည်ရွယ်ချက် မပါဘဲ ဖျော်ဖြေရေးအတွက်သာ ရေးသားခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is your first taste of using a specific document as evidence for a broader social claim -- a skill you will practice much more across the whole course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ကျယ်ပြန့်သော Social Claim တစ်ခုအတွက် Evidence အဖြစ် တိကျသော Document တစ်ခု အသုံးပြုခြင်း၏ ပထမဆုံး အရသာ ဖြစ်ပြီး Course တစ်ခုလုံးတစ်လျှောက် ပို၍ ကျင့်သုံးမည့် Skill တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mesopotamia Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mesopotamia Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w5-dm-1",
+          termEn: "Fertile Crescent",
+          termMy: "Fertile Crescent",
+          matchEn:
+              "The crescent-shaped region of fertile land in the Middle East where early farming began",
+          matchMy:
+              "အစောဆုံး စိုက်ပျိုးရေး စတင်ခဲ့သော Middle East ရှိ မြေဩဇာကောင်းသော Crescent ပုံစံ ဒေသ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w5-dm-2",
+          termEn: "Cuneiform",
+          termMy: "Cuneiform",
+          matchEn:
+              "One of the world's earliest writing systems, pressed into clay tablets",
+          matchMy:
+              "ရွှံ့သားပြားများပေါ်တွင် နှိပ်၍ ရေးသားသော ကမ္ဘာ့ အစောဆုံး စာရေးနည်း စနစ်များထဲမှ တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w5-dm-3",
+          termEn: "Ziggurat",
+          termMy: "Ziggurat",
+          matchEn:
+              "A large stepped temple structure built by Mesopotamian city-states",
+          matchMy:
+              "Mesopotamian မြို့ပြ-နိုင်ငံများ တည်ဆောက်ခဲ့သော ကြီးမားသော လှေကားထစ် ဘုရားကျောင်း အဆောက်အအုံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w5-dm-4",
+          termEn: "Law code",
+          termMy: "Law Code",
+          matchEn:
+              "A written set of rules and punishments, such as Hammurabi's Code",
+          matchMy:
+              "Hammurabi's Code ကဲ့သို့ စာရေး ဥပဒေနှင့် အပြစ်ဒဏ်များ အစုအဝေး",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cause or Effect of River Civilization?",
+      titleMy: "စီစစ်ကြမည် - မြစ် Civilization ၏ Cause (သို့) Effect",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Cause (Why the Civilization Formed There)",
+          "Effect (What the Civilization Achieved)",
+        ],
+        bucketsMy: [
+          "Cause (Civilization ထိုနေရာတွင် ဖွဲ့စည်းရသည့် အကြောင်းရင်း)",
+          "Effect (Civilization ၏ ရလဒ်)",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w5-sort-1",
+            labelEn: "Two rivers provided reliable water for farming",
+            labelMy:
+                "မြစ်နှစ်စင်းက စိုက်ပျိုးရေးအတွက် ယုံကြည်ရသော ရေ ပေးစွမ်းခဲ့ခြင်း",
+            correctBucketEn: "Cause (Why the Civilization Formed There)",
+            correctBucketMy:
+                "Cause (Civilization ထိုနေရာတွင် ဖွဲ့စည်းရသည့် အကြောင်းရင်း)",
+          ),
+          SortingItem(
+            id: "sec1hum-w5-sort-2",
+            labelEn:
+                "A writing system (cuneiform) was invented to record information",
+            labelMy:
+                "Information မှတ်တမ်းတင်ရန် စာရေးနည်း စနစ် (Cuneiform) တီထွင်ခဲ့ခြင်း",
+            correctBucketEn: "Effect (What the Civilization Achieved)",
+            correctBucketMy: "Effect (Civilization ၏ ရလဒ်)",
+          ),
+          SortingItem(
+            id: "sec1hum-w5-sort-3",
+            labelEn: "Flooding left behind fertile soil for growing crops",
+            labelMy:
+                "ရေလွှမ်းမိုးမှုက သီးနှံစိုက်ပျိုးရန်အတွက် မြေဩဇာ ကျန်ရစ်ခဲ့ခြင်း",
+            correctBucketEn: "Cause (Why the Civilization Formed There)",
+            correctBucketMy:
+                "Cause (Civilization ထိုနေရာတွင် ဖွဲ့စည်းရသည့် အကြောင်းရင်း)",
+          ),
+          SortingItem(
+            id: "sec1hum-w5-sort-4",
+            labelEn:
+                "A written law code (Hammurabi's Code) was created to govern the society",
+            labelMy:
+                "Society ကို အုပ်ချုပ်ရန် စာရေး ဥပဒေအညွှန်း (Hammurabi's Code) ဖန်တီးခဲ့ခြင်း",
+            correctBucketEn: "Effect (What the Civilization Achieved)",
+            correctBucketMy: "Effect (Civilization ၏ ရလဒ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko's Cuneiform Discovery",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko ၏ Cuneiform ရှာဖွေတွေ့ရှိမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko's Cuneiform Discovery",
+        titleMy: "Zin Ko ၏ Cuneiform ရှာဖွေတွေ့ရှိမှု",
+        passageEn:
+            "For Week 5's research task, Zin Ko was asked to explain why Mesopotamian civilization developed where it did, and why cuneiform writing mattered so much once it was invented.\n\nZin Ko began with the geography: the land between the Tigris and Euphrates rivers received regular flooding that left behind rich, fertile soil, and the rivers themselves provided a steady water supply that a dry surrounding desert could never offer. Farmers could grow surplus food -- more than their own families needed -- which meant not everyone had to farm, freeing some people to become priests, craftspeople, traders, and record-keepers instead.\n\nThat last group, the record-keepers, needed a way to track surplus grain, trade agreements, and temple taxes accurately across a growing population -- memory alone was no longer enough. This need, Zin Ko explained, is why cuneiform writing was invented: not as decoration, but as a practical tool to solve a real problem created by the civilization's own success.\n\nZin Ko then looked at a translated excerpt from Hammurabi's Code and noted that its harsh punishments and detailed rules about property, trade, and family revealed exactly what the society valued and feared. He concluded his report by connecting all three points into one causal chain: the rivers enabled surplus farming, surplus farming created specialized roles and complex trade, and complex trade created the need for written records and law -- geography, in this civilization's story, was the root cause of nearly everything that followed.",
+        passageMy:
+            "Week 5 ၏ Research Task အတွက် Mesopotamian Civilization သည် ထိုနေရာတွင် အဘယ်ကြောင့် ဖွံ့ဖြိုးခဲ့ကြောင်းနှင့် Cuneiform စာရေးနည်းသည် တီထွင်ပြီးသောအခါ အဘယ်ကြောင့် အလွန်အရေးကြီးလာခဲ့ကြောင်းကို ရှင်းပြရန် Zin Ko အား တောင်းဆိုခဲ့သည်။\n\nZin Ko သည် Geography နှင့် စတင်ခဲ့သည် - Tigris နှင့် Euphrates မြစ်နှစ်စင်းကြားရှိ မြေသည် ကြွယ်ဝ၊ မြေဩဇာကောင်းသော မြေဆီလွှာ ကျန်ရစ်ခဲ့သော ပုံမှန် ရေလွှမ်းမိုးမှုကို ရရှိခဲ့ပြီး မြစ်များကိုယ်တိုင်ကလည်း ပတ်ဝန်းကျင်ရှိ ခြောက်သွေ့သော သဲကန္တာရက ဘယ်တော့မှ မပေးစွမ်းနိုင်သော တည်ငြိမ်သော ရေရရှိမှုကို ပေးစွမ်းခဲ့သည်။ လယ်သမားများသည် ၎င်းတို့ကိုယ်ပိုင် မိသားစု လိုအပ်သည်ထက် ပို၍ Surplus Food စိုက်ပျိုးနိုင်ခဲ့ပြီး ၎င်းက လူတိုင်း စိုက်ပျိုးရန် မလိုအပ်ကြောင်း ဆိုလိုကာ အချို့သူများကို ဘုန်းတော်ကြီး၊ လက်မှုပညာရှင်၊ ကုန်သည်နှင့် Record-Keeper များအဖြစ် လွတ်လပ်စေခဲ့သည်။\n\nထို နောက်ဆုံးအုပ်စု၊ Record-Keeper များသည် တိုးပွားလာသော လူဦးရေတစ်ခုတစ်လျှောက် Surplus Grain, ကုန်သွယ်ရေး သဘောတူညီချက်များနှင့် ဘုရားကျောင်း အခွန်များကို တိကျစွာ ခြေရာခံရန် နည်းလမ်းတစ်ခု လိုအပ်ခဲ့သည် -- မှတ်ဉာဏ်တစ်ခုတည်းသည် လုံလောက်တော့ခြင်း မရှိပါ။ ဤ လိုအပ်ချက်သည် Cuneiform စာရေးနည်း အဘယ်ကြောင့် တီထွင်ခဲ့ရသည်ကို Zin Ko ရှင်းပြခဲ့သည် - အလှဆင်ရန်မဟုတ်ဘဲ Civilization ကိုယ်ပိုင် အောင်မြင်မှုက ဖန်တီးခဲ့သော အမှန်တကယ် ပြဿနာတစ်ခု ဖြေရှင်းရန် လက်တွေ့ ကိရိယာတစ်ခု ဖြစ်သည်။\n\nZin Ko သည် Hammurabi's Code မှ ဘာသာပြန်ထားသော Excerpt တစ်ခုကို ကြည့်ရှုကာ ၎င်း၏ ပြင်းထန်သော အပြစ်ဒဏ်များနှင့် ပိုင်ဆိုင်မှု၊ ကုန်သွယ်ရေးနှင့် မိသားစုအကြောင်း အသေးစိတ် စည်းမျဉ်းများသည် Society တစ်ခု မည်သို့ တန်ဖိုးထား၊ ကြောက်ရွံ့ခဲ့သည်ကို အတိအကျ ဖော်ထုတ်ပေးကြောင်း မှတ်ချက်ပြုခဲ့သည်။ Point သုံးခုစလုံးကို Causal Chain တစ်ခုတည်းအဖြစ် ချိတ်ဆက်ကာ ၎င်း၏ Report ကို ၎င်း နိဂုံးချုပ်ခဲ့သည် - မြစ်များသည် Surplus Farming ကို ဖြစ်ပေါ်စေခဲ့ပြီး Surplus Farming သည် Specialized Role များနှင့် ရှုပ်ထွေးသော ကုန်သွယ်ရေးကို ဖန်တီးခဲ့ကာ ရှုပ်ထွေးသော ကုန်သွယ်ရေးသည် စာရေး Record နှင့် ဥပဒေ လိုအပ်ချက်ကို ဖန်တီးခဲ့သည် -- ဤ Civilization ၏ ဇာတ်လမ်းတွင် Geography သည် ဆက်လက်ဖြစ်ပေါ်လာသည့်အရာ နီးပါးအားလုံး၏ Root Cause ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did surplus food allow within Mesopotamian society?",
+            questionMy:
+                "Mesopotamian Society အတွင်း Surplus Food အခွင့်အလမ်းပေးခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Not everyone had to farm, freeing some people to become priests, craftspeople, traders, and record-keepers",
+              "Every single person in the society was required to farm with no exceptions",
+              "Surplus food had no actual effect on how the society was organized",
+              "The society abandoned farming entirely once surplus food existed",
+            ],
+            optionsMy: [
+              "လူတိုင်း စိုက်ပျိုးရန် မလိုအပ်ဘဲ အချို့သူများကို ဘုန်းတော်ကြီး၊ လက်မှုပညာရှင်၊ ကုန်သည်နှင့် Record-Keeper များအဖြစ် လွတ်လပ်စေခဲ့ခြင်း",
+              "ခြွင်းချက်မရှိဘဲ Society ရှိ လူတိုင်းသည် စိုက်ပျိုးရန် လိုအပ်ခဲ့ခြင်း",
+              "Surplus Food သည် Society စီစဉ်ပုံအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+              "Surplus Food ရှိလာသည်နှင့် Society သည် စိုက်ပျိုးရေးကို လုံးလုံး စွန့်လွှတ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's described effect of surplus food.",
+            ],
+            hintsMy: [
+              "Surplus Food ၏ ဖော်ပြထားသော Effect ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did record-keepers need cuneiform writing?",
+            questionMy:
+                "Record-Keeper များ Cuneiform စာရေးနည်း အဘယ်ကြောင့် လိုအပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Memory alone was no longer enough to track surplus grain, trade agreements, and taxes accurately across a growing population",
+              "They needed writing purely for decoration with no practical purpose",
+              "Record-keepers had no actual need for any form of writing whatsoever",
+              "The population was shrinking, making written records unnecessary",
+            ],
+            optionsMy: [
+              "တိုးပွားလာသော လူဦးရေတစ်ခုတစ်လျှောက် Surplus Grain, ကုန်သွယ်ရေး သဘောတူညီချက်များနှင့် အခွန်များကို တိကျစွာ ခြေရာခံရန် မှတ်ဉာဏ်တစ်ခုတည်းသည် လုံလောက်တော့ခြင်း မရှိသောကြောင့်",
+              "Practical ရည်ရွယ်ချက် မပါဘဲ အလှဆင်ရန်အတွက်သာ စာရေးနည်း လိုအပ်ခဲ့ခြင်း",
+              "Record-Keeper များသည် စာရေးနည်း ပုံစံ မည်သည်ကိုမျှ အမှန်တကယ် မလိုအပ်ခြင်း",
+              "လူဦးရေ လျော့ကျလာသောကြောင့် စာရေး Record များ မလိုအပ်တော့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated need for writing."],
+            hintsMy: [
+              "စာရေးနည်းအတွက် ဖော်ပြထားသော လိုအပ်ချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what causal chain did Zin Ko trace in his conclusion?",
+            questionMy:
+                "Zin Ko ၏ ကောက်ချက်တွင် ခြေရာခံခဲ့သော Causal Chain ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rivers enabled surplus farming, which created specialized roles and trade, which created the need for writing and law",
+              "The causal chain had no actual connection between geography and any later development",
+              "Writing was invented first, and only afterward did farming or trade begin",
+              "Rivers had no actual role in any part of the causal chain described",
+            ],
+            optionsMy: [
+              "မြစ်များက Surplus Farming ကို ဖြစ်ပေါ်စေပြီး Specialized Role များနှင့် ကုန်သွယ်ရေးကို ဖန်တီးကာ စာရေးနည်းနှင့် ဥပဒေ လိုအပ်ချက်ကို ဖန်တီးခဲ့သည်",
+              "Causal Chain တွင် Geography နှင့် နောက်ပိုင်း ဖွံ့ဖြိုးတိုးတက်မှု မည်သည်ကြား အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "စာရေးနည်းကို ဦးစွာ တီထွင်ခဲ့ပြီး စိုက်ပျိုးရေး (သို့) ကုန်သွယ်ရေးကို နောက်မှသာ စတင်ခဲ့ခြင်း",
+              "ဖော်ပြထားသော Causal Chain ၏ အစိတ်အပိုင်း မည်သည်တွင်မျှ မြစ်များ Role မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's traced causal chain."],
+            hintsMy: [
+              "ခြေရာခံထားသော Causal Chain ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w5-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Mesopotamia Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Mesopotamia မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Mesopotamian civilization developed between two rivers mainly because...",
+          questionMy:
+              "Mesopotamian Civilization သည် အနှစ်သာရအားဖြင့် ...ကြောင့် မြစ်နှစ်စင်းကြား ဖွံ့ဖြိုးခဲ့သည်",
+          optionsEn: [
+            "The rivers provided reliable water and fertile flooded soil",
+            "The location had no water or fertile soil of any kind",
+            "Rivers made farming completely impossible",
+            "The location was chosen entirely at random",
+          ],
+          optionsMy: [
+            "မြစ်များက ယုံကြည်ရသော ရေနှင့် ရေလွှမ်းမိုးထားသော မြေဩဇာကို ပေးစွမ်းခဲ့သည်",
+            "တည်နေရာတွင် ရေ (သို့) မြေဩဇာ မည်သည်မှ မရှိခြင်း",
+            "မြစ်များက စိုက်ပျိုးရေးကို လုံးလုံး မဖြစ်နိုင်စေခြင်း",
+            "တည်နေရာကို လုံးလုံး ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cuneiform writing was invented mainly to...",
+          questionMy:
+              "Cuneiform စာရေးနည်းကို အနှစ်သာရအားဖြင့် ...ရန် တီထွင်ခဲ့သည်",
+          optionsEn: [
+            "Track surplus grain, trade, and taxes accurately",
+            "Serve as decoration with no practical use",
+            "Replace farming entirely",
+            "Prevent any form of trade from happening",
+          ],
+          optionsMy: [
+            "Surplus Grain, ကုန်သွယ်ရေးနှင့် အခွန်များကို တိကျစွာ ခြေရာခံရန်",
+            "Practical အသုံးဝင်မှု မပါဘဲ အလှဆင်ရန်",
+            "စိုက်ပျိုးရေးကို လုံးလုံး အစားထိုးရန်",
+            "ကုန်သွယ်ရေး ပုံစံ မည်သည်ကိုမျှ မဖြစ်ပွားစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A written law code like Hammurabi's Code is valuable evidence because it reveals...",
+          questionMy:
+              "Hammurabi's Code ကဲ့သို့ စာရေး ဥပဒေအညွှန်းတစ်ခုသည် ...ဖော်ထုတ်ပေးသောကြောင့် တန်ဖိုးရှိသော Evidence ဖြစ်သည်",
+          optionsEn: [
+            "What a society valued, feared, and considered fair",
+            "Nothing at all about the society that wrote it",
+            "Only decorative artistic preferences",
+            "Information entirely unrelated to how people lived",
+          ],
+          optionsMy: [
+            "Society တစ်ခု တန်ဖိုးထား၊ ကြောက်ရွံ့ပြီး မျှတသည်ဟု ယူဆသည့်အရာ",
+            "၎င်းကို ရေးသားခဲ့သော Society အကြောင်း ဘာမှ",
+            "အလှဆင် Artistic ဦးစားပေးမှုများသာ",
+            "လူများ မည်သို့ နေထိုင်ခဲ့သည်နှင့် လုံးဝ မသက်ဆိုင်သော Information",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 2, Week 6: "Ancient Egypt"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek6 = CourseWeekDef(
+  id: "course-sec1-hum-w6",
+  weekNumber: 6,
+  titleEn: "Ancient Egypt",
+  titleMy: "ရှေးဟောင်း အီဂျစ်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w6-d1",
+      dayNumber: 1,
+      titleEn: "The Gift of the Nile",
+      titleMy: "Nile ၏ လက်ဆောင်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is Egypt sometimes called 'the gift of the Nile', connecting directly to the same principle you saw in Mesopotamia?",
+          questionMy:
+              "Mesopotamia တွင် သင် မြင်ခဲ့သော Principle တူတူနှင့် တိုက်ရိုက် ချိတ်ဆက်၍ အီဂျစ်ကို တခါတရံ 'Nile ၏ လက်ဆောင်' ဟု အဘယ်ကြောင့် ခေါ်ကြသနည်း။",
+          optionsEn: [
+            "The Nile's predictable annual flooding deposited fertile soil along its banks, enabling reliable farming in an otherwise dry desert -- the same river-enabled-civilization pattern seen in Mesopotamia",
+            "The Nile has no actual connection to Egyptian civilization's development",
+            "Egypt's fertile land existed with no relationship to any river whatsoever",
+            "The Nile's flooding was destructive with no beneficial effect at all",
+          ],
+          optionsMy: [
+            "Nile ၏ ခန့်မှန်းနိုင်သော နှစ်စဉ် ရေလွှမ်းမိုးမှုသည် ၎င်း၏ ကမ်းများတစ်လျှောက် မြေဩဇာ ကျန်ရစ်စေခဲ့ပြီး အခြားနေရာတွင် ခြောက်သွေ့သော သဲကန္တာရတစ်ခုတွင် ယုံကြည်ရသော စိုက်ပျိုးရေးကို ဖြစ်ပေါ်စေခဲ့သည် -- Mesopotamia တွင် တွေ့ရှိခဲ့သော River-Enabled-Civilization Pattern တူတူ ဖြစ်သည်",
+            "Nile မြစ်သည် အီဂျစ် Civilization ၏ ဖွံ့ဖြိုးတိုးတက်မှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "အီဂျစ်၏ မြေဩဇာကောင်းသော မြေသည် မြစ်မည်သည်နှင့်မျှ ဆက်စပ်မှု မရှိဘဲ တည်ရှိခဲ့ခြင်း",
+            "Nile ၏ ရေလွှမ်းမိုးမှုသည် အကျိုးရှိသော သက်ရောက်မှု လုံးဝ မရှိဘဲ ဖျက်ဆီးတတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same physical-factor reasoning from Week 5's Mesopotamia lesson, applied now to a second river civilization.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဒုတိယ မြစ် Civilization တစ်ခုပေါ်တွင် ယခု အသုံးချထားသော Week 5 ၏ Mesopotamia သင်ခန်းစာမှ Physical-Factor Reasoning အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians treat Egyptian pyramids as evidence of the pharaoh's power and the state's organizational ability, rather than just impressive buildings?",
+          questionMy:
+              "Historian များသည် အီဂျစ် ပိရမစ်များကို ရိုးရိုး ထင်ရှားသော အဆောက်အအုံများအစား ဖာရိုမင်း၏ အာဏာနှင့် Government ၏ Organizational Ability Evidence အဖြစ် အဘယ်ကြောင့် သဘောထားကြသနည်း။",
+          optionsEn: [
+            "Building a pyramid required organizing, feeding, and coordinating a massive workforce over years, which reveals a highly organized state with real administrative power",
+            "Pyramids have no actual connection to understanding the political power of ancient Egypt",
+            "Impressive buildings never reveal anything meaningful about the society that built them",
+            "The pyramids were built entirely by one person with no organization required",
+          ],
+          optionsMy: [
+            "ပိရမစ်တစ်ခု တည်ဆောက်ခြင်းသည် နှစ်ပေါင်းများစွာအတွင်း လူအင်အား ကြီးမားစွာ Organize, ကျွေးမွေး, ညှိနှိုင်းရန် လိုအပ်ခဲ့ကြောင်းက စစ်မှန်သော Administrative Power ရှိသော အလွန် Organized Government တစ်ခုကို ဖော်ထုတ်ပေးသည်",
+            "ပိရမစ်များသည် ရှေးဟောင်း အီဂျစ်၏ နိုင်ငံရေး အာဏာ နားလည်ခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ထင်ရှားသော အဆောက်အအုံများသည် ၎င်းကို တည်ဆောက်ခဲ့သော Society အကြောင်း အဓိပ္ပာယ်ရှိသည့်အရာ ဘယ်တော့မှ ဖော်ထုတ်မပြခြင်း",
+            "ပိရမစ်များကို Organization မလိုအပ်ဘဲ လူတစ်ဦးတည်းက လုံးလုံး တည်ဆောက်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'evidence reveals values and structure' habit from Week 5's Hammurabi's Code lesson, applied now to a physical structure instead of a written document.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ရေးသား Document တစ်ခုအစား Physical Structure တစ်ခုပေါ်တွင် ယခု အသုံးချထားသော Week 5 ၏ Hammurabi's Code သင်ခန်းစာမှ 'Evidence Reveals Values and Structure' Habit တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students be cautious about ancient Egyptian sources that describe a pharaoh in an entirely positive, flattering way, without treating that account as automatically false?",
+          questionMy:
+              "ထို Account ကို အလိုအလျောက် မှားယွင်းသည်ဟု သဘောထားခြင်း မပြုဘဲ ဖာရိုမင်းတစ်ပါးကို လုံးဝ အပြုသဘောဆောင်၊ ချော့မော့သော နည်းလမ်းဖြင့် ဖော်ပြသော ရှေးဟောင်း အီဂျစ် Source များကို ကျောင်းသားများ အဘယ်ကြောင့် သတိထားသင့်ရသနည်း။",
+          optionsEn: [
+            "Sources commissioned by a ruler may present a one-sided view designed to glorify them, so a careful reader should weigh them alongside other evidence rather than accepting or rejecting them automatically",
+            "Any source describing a ruler positively should always be accepted as completely accurate without question",
+            "Any source describing a ruler positively should always be dismissed as completely false",
+            "The origin and purpose of a source has no actual bearing on how it should be read",
+          ],
+          optionsMy: [
+            "ဘုရင်တစ်ပါးက Commission ပြုလုပ်ထားသော Source များသည် ၎င်းတို့ကို ချီးမွမ်းရန် ရည်ရွယ်ထားသော တစ်ဖက်သတ် အမြင်တစ်ခု တင်ပြနိုင်သောကြောင့် ဂရုတစိုက် ဖတ်ရှုသူတစ်ဦးသည် အလိုအလျောက် လက်ခံ (သို့) ငြင်းပယ်မည့်အစား ၎င်းတို့ကို အခြား Evidence နှင့်အတူ ချိန်ဆသင့်သည်",
+            "ဘုရင်တစ်ပါးကို အပြုသဘောဆောင် ဖော်ပြသော Source မည်သည်ကိုမဆို မေးခွန်း မထုတ်ဘဲ လုံးလုံး တိကျသည်ဟု အမြဲ လက်ခံသင့်ခြင်း",
+            "ဘုရင်တစ်ပါးကို အပြုသဘောဆောင် ဖော်ပြသော Source မည်သည်ကိုမဆို လုံးလုံး မှားယွင်းသည်ဟု အမြဲ ပယ်ချသင့်ခြင်း",
+            "Source တစ်ခု၏ Origin နှင့် Purpose သည် ၎င်းကို မည်သို့ ဖတ်ရှုသင့်သည်အပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a deeper version of Term 1's source-evaluation habit -- knowing who commissioned a source (its origin) helps you judge how much weight to give it, without dismissing it outright.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Source-Evaluation Habit ၏ ပို၍ နက်ရှိုင်းသော ဗားရှင်းတစ်ခု ဖြစ်သည် -- Source တစ်ခုကို မည်သူ Commission ပြုလုပ်ခဲ့သည် (၎င်း၏ Origin) ကို သိရှိခြင်းသည် ၎င်းကို လုံးလုံး ပယ်ချခြင်း မပြုဘဲ မည်မျှ အလေးထားသင့်သည်ကို ဆုံးဖြတ်ရန် ကူညီပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ancient Egypt Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ရှေးဟောင်း အီဂျစ် Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w6-dm-1",
+          termEn: "Pharaoh",
+          termMy: "Pharaoh",
+          matchEn: "The ruler of ancient Egypt, seen as a god-king",
+          matchMy:
+              "ဘုရားရှင်-ဘုရင်တစ်ပါးအဖြစ် ရှုမြင်ခံရသော ရှေးဟောင်း အီဂျစ်၏ ဘုရင်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w6-dm-2",
+          termEn: "Nile flooding",
+          termMy: "Nile Flooding",
+          matchEn:
+              "The predictable yearly rise of the river that deposited fertile soil",
+          matchMy:
+              "မြေဩဇာကောင်းသော မြေဆီလွှာ ကျန်ရစ်စေခဲ့သော မြစ်၏ ခန့်မှန်းနိုင်သော နှစ်စဉ် မြင့်တက်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w6-dm-3",
+          termEn: "Pyramid",
+          termMy: "Pyramid",
+          matchEn:
+              "A massive stone tomb built for a pharaoh, requiring huge organized labor",
+          matchMy:
+              "ဖာရိုမင်းတစ်ပါးအတွက် တည်ဆောက်ထားသော ကြီးမားသော ကျောက်တိုက်၊ Organized လုပ်သားအင်အား ကြီးမားစွာ လိုအပ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w6-dm-4",
+          termEn: "Commissioned source",
+          termMy: "Commissioned Source",
+          matchEn:
+              "A record created on the order of a ruler, which may present a one-sided view",
+          matchMy:
+              "ဘုရင်တစ်ပါး၏ Order ဖြင့် ဖန်တီးထားသော၊ တစ်ဖက်သတ် အမြင် တင်ပြနိုင်သော မှတ်တမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Reliable Reading of a Source or Careless Reading?",
+      titleMy:
+          "စီစစ်ကြမည် - Source တစ်ခုကို ယုံကြည်ရသော ဖတ်ရှုမှု (သို့) မဂရုစိုက်သော ဖတ်ရှုမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Reliable Reading of a Source",
+          "Careless Reading of a Source",
+        ],
+        bucketsMy: [
+          "Source တစ်ခုကို ယုံကြည်ရသော ဖတ်ရှုမှု",
+          "Source တစ်ခုကို မဂရုစိုက်သော ဖတ်ရှုမှု",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w6-sort-1",
+            labelEn:
+                "Noting that a flattering inscription was commissioned by the pharaoh it describes",
+            labelMy:
+                "ချီးမွမ်းထားသော ကမ္ပည်းကို ၎င်းဖော်ပြသော ဖာရိုမင်းက Commission ပြုလုပ်ခဲ့ကြောင်း မှတ်သားခြင်း",
+            correctBucketEn: "Reliable Reading of a Source",
+            correctBucketMy: "Source တစ်ခုကို ယုံကြည်ရသော ဖတ်ရှုမှု",
+          ),
+          SortingItem(
+            id: "sec1hum-w6-sort-2",
+            labelEn:
+                "Accepting a flattering inscription as completely accurate with no question at all",
+            labelMy:
+                "ချီးမွမ်းထားသော ကမ္ပည်းကို မေးခွန်း မထုတ်ဘဲ လုံးလုံး တိကျသည်ဟု လက်ခံခြင်း",
+            correctBucketEn: "Careless Reading of a Source",
+            correctBucketMy: "Source တစ်ခုကို မဂရုစိုက်သော ဖတ်ရှုမှု",
+          ),
+          SortingItem(
+            id: "sec1hum-w6-sort-3",
+            labelEn:
+                "Using the scale of the pyramids as evidence of state organizational power",
+            labelMy:
+                "State Organizational Power Evidence အဖြစ် ပိရမစ်များ၏ Scale ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Reliable Reading of a Source",
+            correctBucketMy: "Source တစ်ခုကို ယုံကြည်ရသော ဖတ်ရှုမှု",
+          ),
+          SortingItem(
+            id: "sec1hum-w6-sort-4",
+            labelEn:
+                "Dismissing every positive account of a pharaoh as automatically false with no consideration",
+            labelMy:
+                "စဉ်းစားမှု မပြုဘဲ ဖာရိုမင်းတစ်ပါးအကြောင်း အပြုသဘောဆောင် Account တိုင်းကို အလိုအလျောက် မှားယွင်းသည်ဟု ပယ်ချခြင်း",
+            correctBucketEn: "Careless Reading of a Source",
+            correctBucketMy: "Source တစ်ခုကို မဂရုစိုက်သော ဖတ်ရှုမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su and the Two Inscriptions",
+      titleMy: "စာဖတ်ခြင်း - Su Su နှင့် ကမ္ပည်းနှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su and the Two Inscriptions",
+        titleMy: "Su Su နှင့် ကမ္ပည်းနှစ်ခု",
+        passageEn:
+            "For Week 6's project, Su Su compared two ancient Egyptian inscriptions describing the same pharaoh's military campaign: one commissioned by the pharaoh's own temple, and one found in a foreign kingdom's independent records.\n\nThe temple inscription described a total, overwhelming victory, with the enemy kingdom completely destroyed and the pharaoh's power unmatched. The foreign kingdom's record described the same campaign very differently -- a costly battle with no clear winner, after which both sides withdrew and eventually negotiated a treaty.\n\nSu Su's first instinct was to assume the temple inscription must simply be a lie. Her teacher pushed back gently: dismissing a source entirely, she said, was just as uncareful as accepting it entirely. Instead, Su Su considered why each source might describe events the way it did -- the temple inscription was commissioned specifically to glorify the pharaoh, giving it a clear reason to exaggerate, while the foreign record had less reason to inflate Egypt's success and some incentive to downplay its own kingdom's losses too.\n\nWeighing both accounts together, Su Su concluded the most likely truth sat between the two extremes: a real, hard-fought battle that ended without a clear victor, which the temple inscription later reframed as a total triumph. Her teacher praised the conclusion, noting that Su Su had done exactly what a careful historian does -- not picking one flattering or convenient source, but weighing multiple accounts against each other to reach a balanced judgement.",
+        passageMy:
+            "Week 6 ၏ Project အတွက် ဖာရိုမင်း တစ်ပါးတည်း၏ စစ်ရေးလှုပ်ရှားမှုကို ဖော်ပြသော ရှေးဟောင်း အီဂျစ် ကမ္ပည်းနှစ်ခုကို Su Su နှိုင်းယှဉ်ခဲ့သည် - တစ်ခုကို ဖာရိုမင်း၏ ကိုယ်ပိုင် ဘုရားကျောင်းက Commission ပြုလုပ်ခဲ့ပြီး တစ်ခုကို နိုင်ငံခြား ဘုရင့်နိုင်ငံ၏ Independent မှတ်တမ်းများတွင် တွေ့ရှိခဲ့သည်။\n\nဘုရားကျောင်း ကမ္ပည်းသည် ရန်သူ ဘုရင့်နိုင်ငံ လုံးလုံး ဖျက်ဆီးခံခဲ့ရပြီး ဖာရိုမင်း၏ အာဏာသည် အနှိုင်းမဲ့ ဖြစ်ကြောင်း Total, Overwhelming အောင်ပွဲတစ်ခုကို ဖော်ပြခဲ့သည်။ နိုင်ငံခြား ဘုရင့်နိုင်ငံ၏ မှတ်တမ်းသည် စစ်ရေးလှုပ်ရှားမှု တူတူကို လွန်စွာ ကွဲပြားစွာ ဖော်ပြခဲ့သည် -- ရှင်းလင်းသော အနိုင်ရရှိသူ မရှိသော ကုန်ကျစရိတ်များသော တိုက်ပွဲတစ်ခု ဖြစ်ပြီး ထို့နောက် ဘက်နှစ်ဘက်စလုံး ဆုတ်ခွာကာ နောက်ဆုံးတွင် စာချုပ်တစ်ခု ညှိနှိုင်းခဲ့သည်။\n\nSu Su ၏ ပထမ Instinct မှာ ဘုရားကျောင်း ကမ္ပည်းသည် ရိုးရိုး လိမ်လည်ချက်တစ်ခုသာ ဖြစ်ရမည်ဟု ယူဆခြင်း ဖြစ်ခဲ့သည်။ ၎င်း၏ ဆရာမ ညင်သာစွာ ပြန်လှန် ထောက်ပြခဲ့သည် - Source တစ်ခုကို လုံးလုံး ပယ်ချခြင်းသည် ၎င်းကို လုံးလုံး လက်ခံခြင်းလောက် မဂရုစိုက်သည်ဟု ၎င်း ပြောခဲ့သည်။ ယင်းအစား Source တစ်ခုစီသည် Event များကို ၎င်း ဖော်ပြသည့်နည်းလမ်းအတိုင်း အဘယ်ကြောင့် ဖော်ပြခဲ့ရသနည်းဆိုသည်ကို Su Su ထည့်သွင်းစဉ်းစားခဲ့သည် -- ဖာရိုမင်းကို ချီးမွမ်းရန် တိတိကျကျ Commission ပြုလုပ်ခဲ့သော ဘုရားကျောင်း ကမ္ပည်းသည် ချဲ့ကားရန် ရှင်းလင်းသော အကြောင်းရင်းတစ်ခု ရှိခဲ့ပြီး နိုင်ငံခြား မှတ်တမ်းသည် အီဂျစ်၏ အောင်မြင်မှုကို ချဲ့ကားရန် အကြောင်းရင်း နည်းပါးပြီး ၎င်းကိုယ်ပိုင် ဘုရင့်နိုင်ငံ၏ ရှုံးနိမ့်မှုများကိုပါ လျှော့တွက်ရန် Incentive အချို့ ရှိနေခဲ့သည်။\n\nAccount နှစ်ခုစလုံးကို အတူတကွ ချိန်ဆကာ ဖြစ်နိုင်ချေအရှိဆုံး အမှန်တရားသည် အစွန်းနှစ်ဖက်ကြားတွင် ရှိကြောင်း Su Su ကောက်ချက်ချခဲ့သည် - ရှင်းလင်းသော အနိုင်ရရှိသူ မရှိဘဲ ပြီးဆုံးသွားသော စစ်မှန်၊ ခက်ခဲစွာ တိုက်ခိုက်ခဲ့သော တိုက်ပွဲတစ်ခုကို ဘုရားကျောင်း ကမ္ပည်းက နောက်ပိုင်းတွင် Total Triumph တစ်ခုအဖြစ် ပြန်လည် ဖော်ပြခဲ့ခြင်း ဖြစ်သည်။ ချီးမွမ်းစရာ (သို့) အဆင်ပြေသော Source တစ်ခုတည်းကို ရွေးချယ်ခြင်း မဟုတ်ဘဲ ချိန်ညှိထားသော Judgement တစ်ခု ရရှိရန် Account များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခြင်း -- ဂရုတစိုက် Historian တစ်ဦး ပြုလုပ်သည့်အရာကို Su Su အတိအကျ ပြုလုပ်ခဲ့ကြောင်း ကောက်ချက်ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did the two inscriptions describe the same campaign differently?",
+            questionMy:
+                "စစ်ရေးလှုပ်ရှားမှု တူတူကို ကမ္ပည်းနှစ်ခု မည်သို့ ကွဲပြားစွာ ဖော်ပြခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One described a total victory; the other described a costly battle with no clear winner",
+              "Both inscriptions described the exact same result with no difference whatsoever",
+              "Neither inscription described the campaign at all",
+              "Both inscriptions agreed the pharaoh's kingdom lost decisively",
+            ],
+            optionsMy: [
+              "တစ်ခုက Total Victory တစ်ခု ဖော်ပြခဲ့ပြီး အခြားတစ်ခုက ရှင်းလင်းသော အနိုင်ရရှိသူ မရှိသော ကုန်ကျစရိတ်များသော တိုက်ပွဲတစ်ခု ဖော်ပြခဲ့သည်",
+              "ကမ္ပည်းနှစ်ခုစလုံးသည် ကွာခြားချက် လုံးဝ မရှိဘဲ ရလဒ်တူတူကို ဖော်ပြခဲ့ခြင်း",
+              "ကမ္ပည်းနှစ်ခုစလုံးသည် စစ်ရေးလှုပ်ရှားမှုကို လုံးဝ မဖော်ပြခဲ့ခြင်း",
+              "ဖာရိုမင်း၏ ဘုရင့်နိုင်ငံ ဆုံးရှုံးသည်ဟု ကမ္ပည်းနှစ်ခုစလုံး သဘောတူခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's comparison of the two inscriptions.",
+            ],
+            hintsMy: [
+              "ကမ္ပည်းနှစ်ခု နှိုင်းယှဉ်ချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the teacher say was just as uncareful as blindly accepting a source?",
+            questionMy:
+                "Source တစ်ခုကို မျက်စိကွယ်စွာ လက်ခံခြင်းလောက် မဂရုစိုက်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Dismissing a source entirely without considering it",
+              "Comparing a source with other independent accounts",
+              "Considering why a source might describe events a certain way",
+              "Weighing multiple accounts against each other",
+            ],
+            optionsMy: [
+              "Source တစ်ခုကို ထည့်သွင်းစဉ်းစားခြင်း မပြုဘဲ လုံးလုံး ပယ်ချခြင်း",
+              "Source တစ်ခုကို အခြား Independent Account များနှင့် နှိုင်းယှဉ်ခြင်း",
+              "Source တစ်ခုသည် Event များကို နည်းလမ်းတစ်ခုအတိုင်း အဘယ်ကြောင့် ဖော်ပြခဲ့ရသနည်းဆိုသည်ကို ထည့်သွင်းစဉ်းစားခြင်း",
+              "Account များစွာကို တစ်ခုနှင့်တစ်ခု ချိန်ဆခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated teacher's comment."],
+            hintsMy: [
+              "ဆရာမ ပြောခဲ့သော မှတ်ချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what conclusion did Su Su reach about the likely truth of the campaign?",
+            questionMy:
+                "စစ်ရေးလှုပ်ရှားမှု၏ ဖြစ်နိုင်ချေအရှိဆုံး အမှန်တရားအကြောင်း Su Su ရောက်ရှိခဲ့သော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A real, hard-fought battle with no clear victor, later reframed by the temple as a total triumph",
+              "The temple inscription was completely accurate with no exaggeration at all",
+              "The foreign record was completely accurate with no bias at all",
+              "Neither source contained any useful information whatsoever",
+            ],
+            optionsMy: [
+              "ရှင်းလင်းသော အနိုင်ရရှိသူ မရှိဘဲ ခက်ခဲစွာ တိုက်ခိုက်ခဲ့သော စစ်မှန်သော တိုက်ပွဲတစ်ခု၊ နောက်ပိုင်းတွင် ဘုရားကျောင်းက Total Triumph တစ်ခုအဖြစ် ပြန်လည် ဖော်ပြခဲ့ခြင်း",
+              "ချဲ့ကားမှု လုံးဝ မရှိဘဲ ဘုရားကျောင်း ကမ္ပည်းသည် လုံးလုံး တိကျခဲ့ခြင်း",
+              "Bias လုံးဝ မရှိဘဲ နိုင်ငံခြား မှတ်တမ်းသည် လုံးလုံး တိကျခဲ့ခြင်း",
+              "Source နှစ်ခုစလုံးတွင် အသုံးဝင်သော Information မည်သည်မှ မပါဝင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w6-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Ancient Egypt Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - ရှေးဟောင်း အီဂျစ် မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Egypt is called 'the gift of the Nile' because...",
+          questionMy:
+              "အီဂျစ်ကို 'Nile ၏ လက်ဆောင်' ဟု ခေါ်ရသည့် အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "Predictable flooding deposited fertile soil, enabling farming",
+            "The Nile had no actual effect on Egyptian farming",
+            "The Nile made farming completely impossible",
+            "Egypt had no relationship with the Nile at all",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းနိုင်သော ရေလွှမ်းမိုးမှုက မြေဩဇာ ကျန်ရစ်စေကာ စိုက်ပျိုးရေးကို ဖြစ်ပေါ်စေခဲ့သည်",
+            "Nile သည် အီဂျစ် စိုက်ပျိုးရေးအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+            "Nile က စိုက်ပျိုးရေးကို လုံးလုံး မဖြစ်နိုင်စေခြင်း",
+            "အီဂျစ်သည် Nile နှင့် ဆက်စပ်မှု လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The scale of the pyramids is treated as evidence of...",
+          questionMy: "ပိရမစ်များ၏ Scale ကို ...၏ Evidence အဖြစ် သဘောထားသည်",
+          optionsEn: [
+            "The state's organizational power and ability to coordinate labor",
+            "Nothing meaningful about ancient Egyptian society",
+            "A single person's individual effort with no organization",
+            "A complete absence of any political structure",
+          ],
+          optionsMy: [
+            "Government ၏ Organizational Power နှင့် လုပ်သားအင်အား ညှိနှိုင်းနိုင်စွမ်း",
+            "ရှေးဟောင်း အီဂျစ် Society အကြောင်း အဓိပ္ပာယ်ရှိသည့်အရာ ဘာမှ",
+            "Organization မပါဘဲ လူတစ်ဦးတည်း၏ ကြိုးပမ်းမှု",
+            "နိုင်ငံရေး Structure မည်သည်မှ လုံးဝ ကင်းမဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When reading a flattering, commissioned source, a careful historian should...",
+          questionMy:
+              "ချီးမွမ်းထားသော၊ Commission ပြုလုပ်ထားသော Source တစ်ခုကို ဖတ်ရှုသောအခါ ဂရုတစိုက် Historian တစ်ဦးသည် ...သင့်သည်",
+          optionsEn: [
+            "Weigh it against other evidence rather than accepting or rejecting it automatically",
+            "Accept it as completely accurate with no question",
+            "Reject it entirely as automatically false",
+            "Ignore all sources of this kind completely",
+          ],
+          optionsMy: [
+            "အလိုအလျောက် လက်ခံ (သို့) ငြင်းပယ်မည့်အစား ၎င်းကို အခြား Evidence နှင့် ချိန်ဆသင့်သည်",
+            "မေးခွန်း မထုတ်ဘဲ လုံးလုံး တိကျသည်ဟု လက်ခံသင့်သည်",
+            "အလိုအလျောက် မှားယွင်းသည်ဟု လုံးလုံး ငြင်းပယ်သင့်သည်",
+            "ဤအမျိုးအစား Source အားလုံးကို လုံးလုံး လျစ်လျူရှုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 2, Week 7: "The Indus Valley
+// Civilization"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek7 = CourseWeekDef(
+  id: "course-sec1-hum-w7",
+  weekNumber: 7,
+  titleEn: "The Indus Valley Civilization",
+  titleMy: "Indus Valley Civilization",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w7-d1",
+      dayNumber: 1,
+      titleEn: "A Civilization Without Deciphered Writing",
+      titleMy: "ဖျက်ဆီးမရသေးသော စာရေးနည်း မရှိသေးသော Civilization တစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it especially difficult for historians to study the Indus Valley Civilization compared to Mesopotamia or Egypt?",
+          questionMy:
+              "Mesopotamia (သို့) အီဂျစ်နှင့် နှိုင်းယှဉ်ပါက Indus Valley Civilization ကို လေ့လာရန် Historian များအတွက် အထူးသဖြင့် အခက်အခဲ ရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The Indus script has not yet been deciphered, so historians cannot read its written records the way they can cuneiform or Egyptian hieroglyphs",
+            "The Indus Valley Civilization left behind no evidence of any kind whatsoever",
+            "The Indus script has been fully deciphered with no remaining difficulty at all",
+            "Studying the Indus Valley Civilization is exactly as easy as studying Mesopotamia",
+          ],
+          optionsMy: [
+            "Indus Script ကို မဖျက်ဆီးရသေးသောကြောင့် Cuneiform (သို့) Egyptian Hieroglyph များကို ဖတ်နိုင်သကဲ့သို့ ၎င်း၏ စာရေး Record များကို Historian များ ဖတ်၍ မရနိုင်ပါ",
+            "Indus Valley Civilization သည် Evidence မည်သည်မှ လုံးဝ ကျန်ရစ်ခဲ့ခြင်း မရှိခြင်း",
+            "Indus Script ကို ကျန်ရှိသော အခက်အခဲ လုံးဝ မရှိဘဲ အပြည့်အစုံ ဖျက်ဆီးပြီး ဖြစ်ခြင်း",
+            "Indus Valley Civilization လေ့လာခြင်းသည် Mesopotamia လေ့လာခြင်းနှင့် အတိအကျ လွယ်ကူမှု တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 5's cuneiform lesson -- being able to actually read a civilization's writing is what lets historians use it as detailed evidence.",
+          ],
+          hintsMy: [
+            "Week 5 ၏ Cuneiform သင်ခန်းစာကို ပြန်သတိရပါ -- Civilization တစ်ခု၏ စာရေးနည်းကို အမှန်တကယ် ဖတ်နိုင်ခြင်းသည် ၎င်းကို Historian များ Detailed Evidence အဖြစ် အသုံးချနိုင်စေသည့်အရာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians rely heavily on city planning and physical remains (such as drainage systems and standardized bricks) to study the Indus Valley Civilization, since its writing cannot be read?",
+          questionMy:
+              "၎င်း၏ စာရေးနည်းကို ဖတ်၍ မရသောကြောင့် Indus Valley Civilization ကို လေ့လာရန် Historian များသည် City Planning နှင့် Physical Remains (ရေဆိုးစနစ်နှင့် Standardized အုတ်ကဲ့သို့) ကို အဘယ်ကြောင့် လေးနက်စွာ အားကိုးကြသနည်း။",
+          optionsEn: [
+            "Physical evidence like organized streets, drainage, and standardized building materials is itself a form of evidence about how organized and skilled the society was, even without readable text",
+            "Physical remains have no actual value as evidence when writing cannot be read",
+            "City planning has no actual connection to understanding a society's organization",
+            "Historians can only study a civilization if its writing has been fully deciphered",
+          ],
+          optionsMy: [
+            "စီစဉ်ထားသော လမ်းများ၊ ရေဆိုးစနစ်နှင့် Standardized တည်ဆောက်ရေး ပစ္စည်းများကဲ့သို့ Physical Evidence သည် ဖတ်နိုင်သော Text မပါဘဲပင် Society သည် မည်မျှ Organized ဖြစ်ပြီး ကျွမ်းကျင်ခဲ့သည်ကို ဖော်ပြသော Evidence ပုံစံတစ်ခု ကိုယ်တိုင် ဖြစ်သည်",
+            "စာရေးနည်းကို ဖတ်၍ မရသောအခါ Physical Remains များသည် Evidence အဖြစ် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "City Planning သည် Society တစ်ခု၏ Organization နားလည်ခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Civilization တစ်ခု၏ စာရေးနည်း အပြည့်အစုံ ဖျက်ဆီးထားမှသာ Historian များ လေ့လာနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a new kind of evidence beyond written documents -- a civilization's physical remains can reveal its organization and priorities even without a single readable word.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ရေးသား Document များကျော်လွန်၍ Evidence အမျိုးအစား အသစ်တစ်ခု ဖြစ်သည် -- ဖတ်နိုင်သော စကားလုံး တစ်လုံးမျှ မပါဘဲပင် Civilization တစ်ခု၏ Physical Remains သည် ၎င်း၏ Organization နှင့် ဦးစားပေးမှုများကို ဖော်ထုတ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid claiming they know exactly why the Indus Valley Civilization declined, when historians themselves are not fully certain?",
+          questionMy:
+              "Historian များကိုယ်တိုင် အပြည့်အစုံ မသေချာသောအခါ Indus Valley Civilization ဘာကြောင့် ကျဆင်းခဲ့သည်ကို အတိအကျ သိသည်ဟု ကျောင်းသားများ အဘယ်ကြောင့် Claim ပြုလုပ်ခြင်း ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Presenting a debated, uncertain topic as settled fact would misrepresent the actual state of historical evidence, which honest scholarship should avoid",
+            "There is no actual uncertainty about why the Indus Valley Civilization declined",
+            "Historians should always claim complete certainty even when evidence is incomplete",
+            "The decline of the Indus Valley Civilization has no actual relevance to this course",
+          ],
+          optionsMy: [
+            "Debated, Uncertain ခေါင်းစဉ်တစ်ခုကို Fact အဆုံးသတ်ပြီးသားအဖြစ် တင်ပြခြင်းသည် ရိုးသား Scholarship တစ်ခု ရှောင်ရှားသင့်သော သမိုင်းဆိုင်ရာ Evidence ၏ အမှန်တကယ် အခြေအနေကို လွဲမှားစွာ ကိုယ်စားပြုမည် ဖြစ်သည်",
+            "Indus Valley Civilization ဘာကြောင့် ကျဆင်းခဲ့သည်အကြောင်း Uncertainty မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Evidence မပြည့်စုံသောအခါပင် Historian များသည် Complete Certainty ကို အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+            "Indus Valley Civilization ၏ ကျဆင်းမှုသည် Course ဤ Course နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is your first taste of the honest-uncertainty habit you will practice much more later in the course -- some historical questions genuinely remain unresolved.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Course နောက်ပိုင်းတွင် ပို၍ ကျင့်သုံးမည့် Honest-Uncertainty Habit ၏ ပထမဆုံး အရသာ ဖြစ်သည် -- သမိုင်းဆိုင်ရာ မေးခွန်း အချို့သည် အမှန်တကယ် ဖြေရှင်း၍ မရသေးပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Indus Valley Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Indus Valley Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w7-dm-1",
+          termEn: "Indus script",
+          termMy: "Indus Script",
+          matchEn:
+              "The still-undeciphered writing system of the Indus Valley Civilization",
+          matchMy:
+              "Indus Valley Civilization ၏ ယနေ့တိုင် မဖျက်ဆီးရသေးသော စာရေးနည်း စနစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w7-dm-2",
+          termEn: "City planning",
+          termMy: "City Planning",
+          matchEn:
+              "Organized streets and buildings, used as evidence of a society's structure",
+          matchMy:
+              "Society တစ်ခု၏ Structure Evidence အဖြစ် အသုံးပြုသော Organized လမ်းများနှင့် အဆောက်အအုံများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w7-dm-3",
+          termEn: "Standardized bricks",
+          termMy: "Standardized Bricks",
+          matchEn:
+              "Building materials made to the same size across the whole civilization",
+          matchMy:
+              "Civilization တစ်ခုလုံးတစ်လျှောက် အရွယ်အစား တူညီစွာ ပြုလုပ်ထားသော တည်ဆောက်ရေး ပစ္စည်းများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w7-dm-4",
+          termEn: "Unresolved question",
+          termMy: "Unresolved Question",
+          matchEn:
+              "A historical question, such as why a civilization declined, that remains genuinely uncertain",
+          matchMy:
+              "Civilization တစ်ခု ဘာကြောင့် ကျဆင်းခဲ့သည်ကဲ့သို့ စစ်မှန်စွာ မသေချာသေးသော သမိုင်းဆိုင်ရာ မေးခွန်းတစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Physical Evidence or Written Evidence?",
+      titleMy: "စီစစ်ကြမည် - Physical Evidence (သို့) Written Evidence",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Physical Evidence", "Written Evidence"],
+        bucketsMy: ["Physical Evidence", "Written Evidence"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w7-sort-1",
+            labelEn: "An organized drainage system found in an excavated city",
+            labelMy:
+                "တူးဖော်ခဲ့သော မြို့တစ်ခုတွင် တွေ့ရှိခဲ့သော Organized ရေဆိုးစနစ်",
+            correctBucketEn: "Physical Evidence",
+            correctBucketMy: "Physical Evidence",
+          ),
+          SortingItem(
+            id: "sec1hum-w7-sort-2",
+            labelEn: "A cuneiform tablet recording a trade agreement",
+            labelMy:
+                "ကုန်သွယ်ရေး သဘောတူညီချက်တစ်ခု မှတ်တမ်းတင်ထားသော Cuneiform ပြားတစ်ခု",
+            correctBucketEn: "Written Evidence",
+            correctBucketMy: "Written Evidence",
+          ),
+          SortingItem(
+            id: "sec1hum-w7-sort-3",
+            labelEn:
+                "Bricks of the exact same standardized size found across many sites",
+            labelMy:
+                "နေရာများစွာတွင် တွေ့ရှိခဲ့သော အတိအကျ Standardized အရွယ်အစားတူညီသော အုတ်များ",
+            correctBucketEn: "Physical Evidence",
+            correctBucketMy: "Physical Evidence",
+          ),
+          SortingItem(
+            id: "sec1hum-w7-sort-4",
+            labelEn: "An inscription describing a pharaoh's military campaign",
+            labelMy:
+                "ဖာရိုမင်းတစ်ပါး၏ စစ်ရေးလှုပ်ရှားမှုကို ဖော်ပြသော ကမ္ပည်းတစ်ခု",
+            correctBucketEn: "Written Evidence",
+            correctBucketMy: "Written Evidence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myint's Undeciphered Puzzle",
+      titleMy: "စာဖတ်ခြင်း - Aung Myint ၏ မဖျက်ဆီးရသေးသော ပဟေဠိ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myint's Undeciphered Puzzle",
+        titleMy: "Aung Myint ၏ မဖျက်ဆီးရသေးသော ပဟေဠိ",
+        passageEn:
+            "For Week 7's research task, Aung Myint chose to investigate the Indus Valley Civilization, expecting it to be similar to studying Mesopotamia or Egypt. He quickly discovered a major difference: the Indus script, found on thousands of small seals, has never been deciphered, meaning no historian can currently read a single sentence the Indus people wrote.\n\nAt first, Aung Myint worried this meant almost nothing could be known about the civilization at all. His research corrected that assumption. Archaeologists had excavated entire cities, including Mohenjo-daro, and found remarkably organized streets laid out in a grid, sophisticated covered drainage systems running beneath the streets, and bricks manufactured to a standardized size across sites separated by hundreds of kilometers. None of this required reading a single word -- the physical remains themselves were evidence of a highly organized, coordinated society.\n\nWhen Aung Myint reached the topic of why the civilization eventually declined, he found competing theories: climate change and river shifts, invasion, internal social change, or some combination of causes. No single explanation was proven beyond doubt. His first draft stated confidently that 'the civilization collapsed due to invasion,' but his teacher asked him to check his sources again -- that theory was only one of several the evidence could support, not a settled conclusion.\n\nAung Myint rewrote his conclusion to state that historians propose several possible explanations for the decline, with no single cause definitively proven, and that this genuinely remains an open historical question. His teacher noted that this revised version was actually stronger than a false certainty would have been: it accurately reflected what the evidence could and could not support, exactly like the honest hedging Su Su had used when weighing two competing inscriptions in Week 6.",
+        passageMy:
+            "Week 7 ၏ Research Task အတွက် Mesopotamia (သို့) အီဂျစ် လေ့လာခြင်းနှင့် ဆင်တူမည်ဟု မျှော်လင့်ကာ Indus Valley Civilization ကို စုံစမ်းစစ်ဆေးရန် Aung Myint ရွေးချယ်ခဲ့သည်။ အဓိက ကွာခြားချက်တစ်ခုကို ၎င်း လျင်မြန်စွာ ရှာဖွေတွေ့ရှိခဲ့သည် - တံဆိပ်ငယ်များထောင်ပေါင်းများစွာတွင် တွေ့ရှိခဲ့သော Indus Script ကို ဘယ်တော့မှ မဖျက်ဆီးရသေးဘဲ Indus လူများ ရေးသားခဲ့သော စာကြောင်းတစ်ကြောင်းမျှ Historian မည်သူမျှ ယခုအခါ ဖတ်၍ မရနိုင်ကြောင်း ဆိုလိုသည်။\n\nပထမတွင် ၎င်းက ၎င်းသည် Civilization အကြောင်း လုံးလုံးနီးပါး ဘာမှ မသိနိုင်ကြောင်း ဆိုလိုသည်ဟု Aung Myint စိုးရိမ်ခဲ့သည်။ ၎င်း၏ Research က ထို Assumption ကို ပြင်ဆင်ပေးခဲ့သည်။ Mohenjo-daro အပါအဝင် မြို့တစ်ခုလုံးကို Archaeologist များ တူးဖော်ခဲ့ပြီး Grid ပုံစံဖြင့် စီစဉ်ထားသော Organized လမ်းများ၊ လမ်းများအောက်တွင် ပြေးနေသော ခေတ်မီ Covered ရေဆိုးစနစ်များနှင့် ကီလိုမီတာ ရာနှင့်ချီ ကွာဟနေသော နေရာများတစ်လျှောက် Standardized အရွယ်အစားဖြင့် ထုတ်လုပ်ထားသော အုတ်များကို တွေ့ရှိခဲ့သည်။ ၎င်းအားလုံးသည် စကားလုံးတစ်လုံးမျှ ဖတ်ရန် မလိုအပ်ခဲ့ပါ -- Physical Remains များ ကိုယ်တိုင်ကပင် အလွန် Organized, ညှိနှိုင်းထားသော Society တစ်ခု၏ Evidence ဖြစ်ခဲ့သည်။\n\nCivilization သည် နောက်ဆုံး ဘာကြောင့် ကျဆင်းခဲ့သည်ဆိုသော ခေါင်းစဉ်သို့ ရောက်ရှိသောအခါ ယှဉ်ပြိုင် Theory များ ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - Climate Change နှင့် မြစ် အပြောင်းအလဲများ, ကျူးကျော်မှု, Internal Social Change, (သို့) Cause များ ပေါင်းစပ်မှု တစ်ခုခု။ Explanation တစ်ခုတည်းမျှ သံသယ ကင်းစင်စွာ သက်သေမပြသေးပါ။ ၎င်း၏ ပထမ Draft တွင် 'Civilization သည် ကျူးကျော်မှုကြောင့် ပြိုလဲသွားခဲ့သည်' ဟု ယုံကြည်စိတ်ချစွာ ဖော်ပြခဲ့သော်လည်း ၎င်း၏ ဆရာမ ၎င်း၏ Source များကို ပြန်စစ်ဆေးရန် တောင်းဆိုခဲ့သည် -- ထို Theory သည် Evidence ထောက်ခံနိုင်သော အခြားများစွာထဲမှ တစ်ခုသာ ဖြစ်ပြီး ပြီးဆုံးပြီးသား ကောက်ချက် မဟုတ်ပါ။\n\nCause တစ်ခုတည်း ပကတိအတည်ဖြစ်မထားဘဲ Historian များသည် ကျဆင်းမှုအတွက် ဖြစ်နိုင်ချေရှိသော Explanation များစွာ အဆိုပြုကြောင်းနှင့် ဤသည်ကား စစ်မှန်စွာ ဖွင့်ထားသော သမိုင်းဆိုင်ရာ မေးခွန်းတစ်ခုအဖြစ် ဆက်လက်ရှိနေကြောင်း Aung Myint ၏ ကောက်ချက်ကို ၎င်း ပြန်လည်ရေးသားခဲ့သည်။ Week 6 တွင် ယှဉ်ပြိုင် ကမ္ပည်းနှစ်ခုကို ချိန်ဆသောအခါ Su Su အသုံးပြုခဲ့သော ရိုးသား Hedging အတိအကျ ကဲ့သို့ ဤ ပြင်ဆင်ထားသော Version သည် Evidence က ထောက်ခံ (သို့) မထောက်ခံနိုင်သည်ကို တိကျစွာ ထင်ဟပ်ပြသောကြောင့် False Certainty တစ်ခုထက် အမှန်တကယ် ပို၍ ခိုင်မာကြောင်း ၎င်း၏ ဆရာမ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what major difficulty does the Indus script present for historians?",
+            questionMy:
+                "Historian များအတွက် Indus Script ဖြစ်ပေါ်စေသော အဓိက အခက်အခဲကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It has never been deciphered, so no one can currently read what it says",
+              "It has been fully deciphered with no remaining difficulty at all",
+              "It was never actually found on any archaeological site",
+              "It presents no difficulty whatsoever for historical study",
+            ],
+            optionsMy: [
+              "ဘယ်တော့မှ မဖျက်ဆီးရသေးသောကြောင့် ၎င်း ဖော်ပြသည့်အရာကို ယခုအခါ မည်သူမျှ ဖတ်၍ မရနိုင်ခြင်း",
+              "ကျန်ရှိသော အခက်အခဲ လုံးဝ မရှိဘဲ အပြည့်အစုံ ဖျက်ဆီးပြီး ဖြစ်ခြင်း",
+              "Archaeological Site မည်သည်တွင်မျှ အမှန်တကယ် ရှာမတွေ့ခဲ့ခြင်း",
+              "သမိုင်း လေ့လာမှုအတွက် အခက်အခဲ မည်သည်မှ မဖြစ်ပေါ်စေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's described difficulty."],
+            hintsMy: ["ဖော်ပြထားသော အခက်အခဲကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what physical evidence did archaeologists find at Mohenjo-daro?",
+            questionMy:
+                "Mohenjo-daro တွင် Archaeologist များ တွေ့ရှိခဲ့သော Physical Evidence ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Organized grid streets, covered drainage systems, and standardized bricks",
+              "No physical evidence of any kind was ever found at the site",
+              "Only written cuneiform tablets with no physical structures",
+              "Evidence proving the city had no organization whatsoever",
+            ],
+            optionsMy: [
+              "Organized Grid လမ်းများ၊ Covered ရေဆိုးစနစ်များနှင့် Standardized အုတ်များ",
+              "ထိုနေရာတွင် Physical Evidence မည်သည်မှ ဘယ်တော့မှ ရှာမတွေ့ခဲ့ခြင်း",
+              "Physical Structure မပါဘဲ စာရေး Cuneiform ပြားများသာ",
+              "မြို့တွင် Organization လုံးဝ မရှိကြောင်း သက်သေပြသော Evidence",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's listed physical evidence.",
+            ],
+            hintsMy: [
+              "စာရင်းပြုစုထားသော Physical Evidence ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why was Aung Myint's revised conclusion stronger than his first draft?",
+            questionMy:
+                "Aung Myint ၏ ပြင်ဆင်ထားသော ကောက်ချက်သည် ၎င်း၏ ပထမ Draft ထက် ပို၍ ခိုင်မာသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It accurately reflected what the evidence could and could not support, rather than claiming false certainty",
+              "It claimed complete certainty about a single proven cause of the decline",
+              "It contained no actual reasoning of any kind whatsoever",
+              "It ignored all the competing theories entirely",
+            ],
+            optionsMy: [
+              "False Certainty Claim မပြုလုပ်ဘဲ Evidence က ထောက်ခံ (သို့) မထောက်ခံနိုင်သည်ကို တိကျစွာ ထင်ဟပ်ပြခဲ့ခြင်း",
+              "ကျဆင်းမှု၏ သက်သေပြပြီးသား Cause တစ်ခုတည်းအကြောင်း Complete Certainty Claim ပြုလုပ်ခဲ့ခြင်း",
+              "Reasoning မည်သည်မှ အမှန်တကယ် မပါဝင်ခဲ့ခြင်း",
+              "ယှဉ်ပြိုင် Theory အားလုံးကို လုံးလုံး လျစ်လျူရှုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated reason."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်၏ ဖော်ပြထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w7-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Indus Valley Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Indus Valley မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Indus Valley Civilization is hard to study in detail mainly because...",
+          questionMy:
+              "Indus Valley Civilization ကို အသေးစိတ် လေ့လာရန် ခက်ခဲသည့် အနှစ်သာရ အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "Its writing system has not yet been deciphered",
+            "It left behind no evidence of any kind",
+            "Its writing has been fully deciphered with ease",
+            "It is exactly as easy to study as Mesopotamia",
+          ],
+          optionsMy: [
+            "၎င်း၏ စာရေးနည်း စနစ်ကို မဖျက်ဆီးရသေးခြင်း",
+            "Evidence မည်သည်မှ ကျန်ရစ်ခဲ့ခြင်း မရှိခြင်း",
+            "၎င်း၏ စာရေးနည်းကို လွယ်ကူစွာ အပြည့်အစုံ ဖျက်ဆီးပြီးဖြစ်ခြင်း",
+            "Mesopotamia လေ့လာသကဲ့သို့ အတိအကျ လွယ်ကူခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Organized streets and standardized bricks serve as evidence of...",
+          questionMy:
+              "Organized လမ်းများနှင့် Standardized အုတ်များသည် ...၏ Evidence အဖြစ် ဆောင်ရွက်သည်",
+          optionsEn: [
+            "A highly organized, coordinated society",
+            "A society with no organization of any kind",
+            "Nothing meaningful about the society at all",
+            "Evidence unrelated to social structure",
+          ],
+          optionsMy: [
+            "အလွန် Organized, ညှိနှိုင်းထားသော Society",
+            "Organization မည်သည်မှ မရှိသော Society",
+            "Society အကြောင်း အဓိပ္ပာယ်ရှိသည့်အရာ ဘာမှ",
+            "Social Structure နှင့် မသက်ဆိုင်သော Evidence",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When multiple theories exist and none is definitively proven, a careful historian should...",
+          questionMy:
+              "Theory များစွာ ရှိပြီး တစ်ခုမျှ ပကတိအတည်ဖြစ်မထားသောအခါ ဂရုတစိုက် Historian တစ်ဦးသည် ...သင့်သည်",
+          optionsEn: [
+            "State that the question remains genuinely open, not settled",
+            "Pick one theory and claim it as certain fact",
+            "Ignore all theories and state nothing at all",
+            "Invent a new theory with no evidence at all",
+          ],
+          optionsMy: [
+            "မေးခွန်းသည် ဖြေရှင်းပြီးမဟုတ်ဘဲ စစ်မှန်စွာ ဖွင့်ထားဆဲ ဖြစ်ကြောင်း ဖော်ပြသင့်သည်",
+            "Theory တစ်ခုကို ရွေးချယ်ကာ Certain Fact အဖြစ် Claim ပြုလုပ်သင့်သည်",
+            "Theory အားလုံးကို လျစ်လျူရှုပြီး ဘာမှ မဖော်ပြသင့်ခြင်း",
+            "Evidence မရှိဘဲ Theory အသစ်တစ်ခု တီထွင်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 2, Week 8 (Capstone/Boss Week):
+// "Civilization Comparison Museum Exhibit"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek8 = CourseWeekDef(
+  id: "course-sec1-hum-w8",
+  weekNumber: 8,
+  titleEn: "Civilization Comparison Museum Exhibit",
+  titleMy: "Civilization Comparison ပြတိုက် ပြပွဲ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w8-d1",
+      dayNumber: 1,
+      titleEn: "Comparing Three Civilizations Fairly",
+      titleMy: "Civilization သုံးခုကို မျှတစွာ နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a fair comparison of Mesopotamia, Egypt, and the Indus Valley note their shared river-based pattern as well as their genuine differences, rather than treating all three as identical?",
+          questionMy:
+              "Mesopotamia, အီဂျစ်နှင့် Indus Valley ကို မျှတစွာ နှိုင်းယှဉ်ခြင်းသည် သုံးခုစလုံးကို တူညီသည်ဟု သဘောထားမည့်အစား ၎င်းတို့ မျှဝေထားသော River-Based Pattern နှင့် စစ်မှန်သော ကွာခြားချက်များကို အဘယ်ကြောင့် မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "A fair comparison shows both what genuinely connects the civilizations (rivers enabling surplus and complexity) and what genuinely distinguishes them (like readable vs. undeciphered writing), giving a more accurate picture than either extreme",
+            "Treating all three civilizations as identical always gives the most accurate comparison",
+            "Comparing civilizations for shared patterns has no actual value in historical study",
+            "Genuine differences between civilizations should always be ignored entirely",
+          ],
+          optionsMy: [
+            "မျှတသော နှိုင်းယှဉ်ချက်တစ်ခုသည် Civilization များကို အမှန်တကယ် ချိတ်ဆက်ပေးသည့်အရာ (Surplus နှင့် Complexity ဖြစ်ပေါ်စေသော မြစ်များ) နှင့် ၎င်းတို့ကို အမှန်တကယ် ခွဲခြားပေးသည့်အရာ (ဖတ်နိုင်သော Vs. မဖျက်ဆီးရသေးသော စာရေးနည်း ကဲ့သို့) နှစ်ခုစလုံးကို ပြသကာ အစွန်းနှစ်ဖက်ထက် ပို၍ တိကျသော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Civilization သုံးခုစလုံးကို တူညီသည်ဟု သဘောထားခြင်းသည် အမြဲ အတိကျဆုံး နှိုင်းယှဉ်ချက် ပေးအပ်ခြင်း",
+            "Shared Pattern များအတွက် Civilization များ နှိုင်းယှဉ်ခြင်းသည် သမိုင်း လေ့လာမှုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Civilization များကြား စစ်မှန်သော ကွာခြားချက်များကို အမြဲ လုံးလုံး လျစ်လျူရှုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'weigh multiple sources/factors fairly' habit built across the whole term, applied now to comparing three civilizations at once.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော 'Multiple Source/Factor များကို မျှတစွာ ချိန်ဆခြင်း' Habit တူတူကို Civilization သုံးခုကို တစ်ပြိုင်နက် နှိုင်းယှဉ်ခြင်းအတွက် ယခု အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a museum exhibit comparing civilizations, why should each claim about a civilization be labeled with the type of evidence it rests on (written record, physical remains, or an uncertain theory)?",
+          questionMy:
+              "Civilization များ နှိုင်းယှဉ်သော ပြတိုက် ပြပွဲတစ်ခုတွင် Civilization တစ်ခုအကြောင်း Claim တစ်ခုစီကို ၎င်း အခြေခံသော Evidence အမျိုးအစား (Written Record, Physical Remains, (သို့) Uncertain Theory) ဖြင့် အဘယ်ကြောင့် Label တင်သင့်ရသနည်း။",
+          optionsEn: [
+            "Labeling the evidence type lets visitors judge how confident they should be in each claim, exactly matching the honest-uncertainty habit practiced across the term",
+            "The type of evidence behind a claim has no actual relevance to a museum visitor",
+            "Every claim in a museum exhibit should be presented with identical, unlabeled confidence",
+            "Labeling evidence type only matters for written sources, never for physical remains",
+          ],
+          optionsMy: [
+            "Evidence Type ကို Label တင်ခြင်းသည် Claim တစ်ခုစီကို မည်မျှ ယုံကြည်ရမည်ကို Visitor များ ဆုံးဖြတ်နိုင်စေကာ Term တစ်ခုလုံးတစ်လျှောက် ကျင့်သုံးခဲ့သော Honest-Uncertainty Habit နှင့် အတိအကျ ကိုက်ညီသည်",
+            "Claim တစ်ခု၏ နောက်ကွယ်ရှိ Evidence Type သည် ပြတိုက် Visitor တစ်ဦးနှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            "ပြတိုက် ပြပွဲတစ်ခုရှိ Claim တိုင်းကို Label မတင်ဘဲ တူညီသော Confidence ဖြင့် တင်ပြသင့်ခြင်း",
+            "Evidence Type Label တင်ခြင်းသည် Written Source များအတွက်သာ အရေးကြီးပြီး Physical Remains များအတွက် ဘယ်တော့မှ အရေးမကြီးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 7's Indus Valley decline lesson -- clearly labeling the strength of evidence behind a claim is more honest than presenting every claim with equal, unlabeled confidence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 7 ၏ Indus Valley ကျဆင်းမှု သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Claim တစ်ခု၏ နောက်ကွယ်ရှိ Evidence ၏ Strength ကို ရှင်းလင်းစွာ Label တင်ခြင်းသည် Claim တိုင်းကို Label မတင်ဘဲ Confidence တူညီစွာ တင်ပြခြင်းထက် ပို၍ ရိုးသားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a museum exhibit avoid claiming that one of the three civilizations was simply 'the best', while still allowing meaningful comparison between them?",
+          questionMy:
+              "Civilization သုံးခုကြား အဓိပ္ပာယ်ရှိသော နှိုင်းယှဉ်ချက်ကို ဆက်လက် ခွင့်ပြုစဉ် ပြတိုက် ပြပွဲတစ်ခုသည် Civilization သုံးခုထဲမှ တစ်ခုသည် ရိုးရိုး 'အကောင်းဆုံး' ဖြစ်သည်ဟု Claim ပြုလုပ်ခြင်း အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "'Best' depends on which criteria are chosen, and different, equally valid criteria would favor different civilizations, so a single ranking oversimplifies genuine complexity",
+            "Comparing civilizations for their different strengths has no actual educational value",
+            "One civilization can always be objectively proven better than all others with no debate",
+            "A museum exhibit should never allow any comparison between civilizations at all",
+          ],
+          optionsMy: [
+            "'အကောင်းဆုံး' သည် မည်သည့် Criteria ရွေးချယ်သည်ပေါ် မူတည်ပြီး ကွဲပြားသော၊ တန်ဖိုးတူညီသော Criteria များသည် Civilization ကွဲပြားစွာကို ဦးစားပေးမည် ဖြစ်၍ Ranking တစ်ခုတည်းသည် စစ်မှန်သော Complexity ကို ရိုးရှင်းလွန်းစွာ ဖော်ပြသည်",
+            "Civilization များ၏ ကွဲပြားသော အားသာချက်များကို နှိုင်းယှဉ်ခြင်းသည် Educational Value အမှန်တကယ် မရှိခြင်း",
+            "Debate မရှိဘဲ Civilization တစ်ခုသည် အခြားအားလုံးထက် Objectively ကောင်းသည်ဟု အမြဲ သက်သေပြနိုင်ခြင်း",
+            "ပြတိုက် ပြပွဲတစ်ခုသည် Civilization များကြား နှိုင်းယှဉ်ချက် မည်သည်ကိုမျှ ဘယ်တော့မှ ခွင့်မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 1's weighing-multiple-factors habit -- ranking one civilization as simply 'the best' collapses a genuinely multi-sided comparison into a false single answer.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Weighing-Multiple-Factors Habit နှင့် ချိတ်ဆက်သည် -- Civilization တစ်ခုကို ရိုးရိုး 'အကောင်းဆုံး' အဖြစ် Rank ပေးခြင်းသည် စစ်မှန်စွာ Multi-Sided နှိုင်းယှဉ်ချက်တစ်ခုကို False Single Answer တစ်ခုအဖြစ် ကျုံ့သွားစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 Civilizations Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 2 Civilization ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w8-dm-1",
+          termEn: "Mesopotamia",
+          termMy: "Mesopotamia",
+          matchEn:
+              "Civilization between the Tigris and Euphrates, home of cuneiform writing",
+          matchMy:
+              "Tigris နှင့် Euphrates ကြားရှိ Civilization၊ Cuneiform စာရေးနည်း၏ ဇာစ်မြစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w8-dm-2",
+          termEn: "Egypt",
+          termMy: "Egypt",
+          matchEn:
+              "Civilization along the Nile, known for pharaohs and pyramids",
+          matchMy:
+              "Nile တစ်လျှောက်ရှိ Civilization၊ ဖာရိုမင်းများနှင့် ပိရမစ်များအတွက် နာမည်ကြီး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w8-dm-3",
+          termEn: "Indus Valley",
+          termMy: "Indus Valley",
+          matchEn:
+              "Civilization known for city planning, with a still-undeciphered script",
+          matchMy:
+              "City Planning အတွက် နာမည်ကြီး၊ ယနေ့တိုင် မဖျက်ဆီးရသေးသော Script ပါရှိသော Civilization",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w8-dm-4",
+          termEn: "Shared pattern",
+          termMy: "Shared Pattern",
+          matchEn:
+              "Rivers enabling surplus food, which in turn enabled complex society",
+          matchMy:
+              "Surplus Food ဖြစ်ပေါ်စေသော မြစ်များ၊ ၎င်းက ရှုပ်ထွေးသော Society ကို ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Civilization Does This Belong To?",
+      titleMy: "စီစစ်ကြမည် - ဤသည် မည်သည့် Civilization နှင့် သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Egypt", "Indus Valley"],
+        bucketsMy: ["အီဂျစ်", "Indus Valley"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w8-sort-1",
+            labelEn: "Massive stone tombs built for god-kings",
+            labelMy:
+                "ဘုရားရှင်-ဘုရင်များအတွက် တည်ဆောက်ထားသော ကြီးမားသော ကျောက်တိုက်များ",
+            correctBucketEn: "Egypt",
+            correctBucketMy: "အီဂျစ်",
+          ),
+          SortingItem(
+            id: "sec1hum-w8-sort-2",
+            labelEn: "A writing system that remains undeciphered to this day",
+            labelMy: "ယနေ့တိုင် မဖျက်ဆီးရသေးသော စာရေးနည်း စနစ်တစ်ခု",
+            correctBucketEn: "Indus Valley",
+            correctBucketMy: "Indus Valley",
+          ),
+          SortingItem(
+            id: "sec1hum-w8-sort-3",
+            labelEn:
+                "Predictable annual river flooding that fertilized farmland",
+            labelMy:
+                "လယ်ယာမြေကို မြေဩဇာဖြစ်စေသော ခန့်မှန်းနိုင်သော နှစ်စဉ် မြစ် ရေလွှမ်းမိုးမှု",
+            correctBucketEn: "Egypt",
+            correctBucketMy: "အီဂျစ်",
+          ),
+          SortingItem(
+            id: "sec1hum-w8-sort-4",
+            labelEn:
+                "Cities with standardized bricks and organized drainage systems",
+            labelMy:
+                "Standardized အုတ်များနှင့် Organized ရေဆိုးစနစ်များပါရှိသော မြို့များ",
+            correctBucketEn: "Indus Valley",
+            correctBucketMy: "Indus Valley",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Class Museum Exhibit",
+      titleMy: "စာဖတ်ခြင်း - အတန်း ပြတိုက် ပြပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Class Museum Exhibit",
+        titleMy: "အတန်း ပြတိုက် ပြပွဲ",
+        passageEn:
+            "For Term 2's capstone, each group in Nilar's class designed one panel of a shared museum exhibit comparing Mesopotamia, Egypt, and the Indus Valley, with the whole class combining their panels into one connected display.\n\nThe first panel, on shared patterns, showed that all three civilizations formed near rivers that enabled surplus farming, which in turn enabled specialized roles, complex trade, and eventually writing or organized cities -- the same physical-factor chain Zin Ko had traced back in Week 5. The panel was careful to note this was a genuine pattern, not proof that the civilizations were otherwise identical.\n\nThe second panel, on genuine differences, highlighted that Mesopotamia and Egypt left readable written records, while the Indus Valley's script remains undeciphered -- meaning historians must rely more heavily on physical evidence like city layouts for that civilization, exactly as Aung Myint's research had shown in Week 7.\n\nThe final panel labeled each major claim with its evidence type: 'written record' for cuneiform law codes, 'physical remains' for pyramid construction and Indus city planning, and 'debated theory' for the Indus Valley's decline. When one group's first draft included a line claiming Egypt was simply 'the greatest ancient civilization', the class discussed it together and agreed to remove the ranking -- each civilization excelled by different measures, and choosing one 'best' civilization would flatten a genuinely multi-sided comparison into a false simple answer. The finished exhibit, their teacher said, demonstrated everything the term had built toward: comparing fairly, citing evidence honestly, and resisting the pull toward an oversimplified conclusion.",
+        passageMy:
+            "Term 2 ၏ Capstone အတွက် Mesopotamia, အီဂျစ်နှင့် Indus Valley ကို နှိုင်းယှဉ်သော မျှဝေ ပြတိုက် ပြပွဲ၏ Panel တစ်ခုစီကို Nilar ၏ အတန်းရှိ Group တစ်ခုစီက Design ပြုလုပ်ခဲ့ပြီး အတန်းတစ်ခုလုံးသည် ၎င်းတို့၏ Panel များကို ချိတ်ဆက်ထားသော Display တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည်။\n\nShared Pattern များအကြောင်း ပထမ Panel သည် Civilization သုံးခုစလုံးသည် Surplus Farming ကို ဖြစ်ပေါ်စေသော မြစ်များအနီးတွင် ဖွဲ့စည်းခဲ့ကြောင်းနှင့် ၎င်းက Specialized Role များ၊ ရှုပ်ထွေးသော ကုန်သွယ်ရေးနှင့် နောက်ဆုံးတွင် စာရေးနည်း (သို့) Organized မြို့များကို ဖြစ်ပေါ်စေခဲ့ကြောင်း ပြသခဲ့သည် -- Week 5 တွင် Zin Ko ခြေရာခံခဲ့သော Physical-Factor Chain တူတူ ဖြစ်သည်။ ဤသည်ကား စစ်မှန်သော Pattern တစ်ခုသာ ဖြစ်ပြီး Civilization များသည် အခြားအားဖြင့် တူညီကြောင်း သက်သေပြခြင်း မဟုတ်ကြောင်း Panel က ဂရုတစိုက် မှတ်သားခဲ့သည်။\n\nစစ်မှန်သော ကွာခြားချက်များအကြောင်း ဒုတိယ Panel သည် Mesopotamia နှင့် အီဂျစ်သည် ဖတ်နိုင်သော စာရေး Record များ ကျန်ရစ်ခဲ့ကြောင်းနှင့် Indus Valley ၏ Script မူ ယနေ့တိုင် မဖျက်ဆီးရသေးကြောင်း -- Week 7 တွင် Aung Myint ၏ Research ပြသခဲ့သည့်အတိုင်း ထို Civilization အတွက် Historian များသည် City Layout ကဲ့သို့ Physical Evidence ကို ပို၍ လေးနက်စွာ အားကိုးရမည် ဆိုလိုကြောင်း ထင်ရှားစေခဲ့သည်။\n\nနောက်ဆုံး Panel သည် Claim အဓိကတစ်ခုစီကို ၎င်း၏ Evidence Type ဖြင့် Label တင်ခဲ့သည် - Cuneiform ဥပဒေအညွှန်းများအတွက် 'Written Record'၊ ပိရမစ် တည်ဆောက်ခြင်းနှင့် Indus City Planning အတွက် 'Physical Remains'၊ Indus Valley ၏ ကျဆင်းမှုအတွက် 'Debated Theory'။ Group တစ်ခု၏ ပထမ Draft တွင် အီဂျစ်ကို ရိုးရိုး 'ရှေးအကောင်းဆုံး Civilization' ဟု Claim ပြုလုပ်သော စာကြောင်းတစ်ကြောင်း ပါဝင်ခဲ့သောအခါ အတန်းသည် အတူတကွ ဆွေးနွေးကာ Ranking ကို ဖယ်ရှားရန် သဘောတူခဲ့သည် -- Civilization တစ်ခုစီသည် ကွဲပြားသော Measure များအလိုက် ထူးချွန်ခဲ့ပြီး 'အကောင်းဆုံး' Civilization တစ်ခုကို ရွေးချယ်ခြင်းသည် စစ်မှန်စွာ Multi-Sided နှိုင်းယှဉ်ချက်တစ်ခုကို False Simple Answer တစ်ခုအဖြစ် ညှစ်ချေခြင်း ဖြစ်လိမ့်မည်။ ပြီးစီးသွားသော Exhibit သည် Term က တည်ဆောက်ခဲ့သော အရာအားလုံးကို သရုပ်ပြခဲ့ကြောင်း ၎င်းတို့၏ ဆရာမ ပြောခဲ့သည် - မျှတစွာ နှိုင်းယှဉ်ခြင်း၊ Evidence ကို ရိုးသားစွာ ကိုးကားခြင်းနှင့် Oversimplified ကောက်ချက်တစ်ခုသို့ ဆွဲငင်ခြင်းကို ခုခံနိုင်ခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what shared pattern did the first panel identify across all three civilizations?",
+            questionMy:
+                "Civilization သုံးခုစလုံးတစ်လျှောက် ပထမ Panel ဖော်ထုတ်ခဲ့သော Shared Pattern ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rivers enabled surplus farming, which led to specialized roles, trade, and complex society",
+              "All three civilizations had no actual connection to any river whatsoever",
+              "All three civilizations developed identical, fully readable writing systems",
+              "The three civilizations shared no pattern of any kind at all",
+            ],
+            optionsMy: [
+              "မြစ်များက Surplus Farming ကို ဖြစ်ပေါ်စေပြီး Specialized Role, ကုန်သွယ်ရေးနှင့် ရှုပ်ထွေးသော Society ကို ဦးတည်စေခဲ့ခြင်း",
+              "Civilization သုံးခုစလုံးသည် မြစ် မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "Civilization သုံးခုစလုံးသည် တူညီ၊ လုံးလုံး ဖတ်နိုင်သော စာရေးနည်း စနစ်များ ဖွံ့ဖြိုးခဲ့ခြင်း",
+              "Civilization သုံးခုသည် Pattern မည်သည်ကိုမျှ လုံးဝ မျှဝေခြင်း မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's described shared pattern.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Shared Pattern ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the class remove the line calling Egypt 'the greatest ancient civilization'?",
+            questionMy:
+                "အီဂျစ်ကို 'ရှေးအကောင်းဆုံး Civilization' ဟု ခေါ်ဆိုသော စာကြောင်းကို အတန်းက ဖယ်ရှားခဲ့သည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each civilization excelled by different measures, so a single ranking would oversimplify a genuinely multi-sided comparison",
+              "Egypt was actually proven objectively worse than the other two civilizations",
+              "The class had no actual reason and removed the line at random",
+              "Rankings of any kind are always required in a fair comparison",
+            ],
+            optionsMy: [
+              "Civilization တစ်ခုစီသည် ကွဲပြားသော Measure များအလိုက် ထူးချွန်ခဲ့သောကြောင့် Ranking တစ်ခုတည်းသည် စစ်မှန်စွာ Multi-Sided နှိုင်းယှဉ်ချက်တစ်ခုကို Oversimplify ပြုလုပ်လိမ့်မည်",
+              "အခြား Civilization နှစ်ခုထက် Objectively ပို၍ ညံ့ဖျင်းသည်ဟု အီဂျစ်ကို အမှန်တကယ် သက်သေပြခဲ့ခြင်း",
+              "အတန်းတွင် Actual အကြောင်းရင်း မရှိဘဲ စာကြောင်းကို ကျပန်း ဖယ်ရှားခဲ့ခြင်း",
+              "Ranking မည်သည့်အမျိုးအစားမဆို မျှတသော နှိုင်းယှဉ်ချက်တစ်ခုတွင် အမြဲ လိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's stated reason for removing the ranking.",
+            ],
+            hintsMy: [
+              "Ranking ဖယ်ရှားရသည့် ဖော်ပြထားသော အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the finished exhibit demonstrate?",
+            questionMy:
+                "ပြီးစီးသွားသော Exhibit သရုပ်ပြခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Comparing fairly, citing evidence honestly, and resisting an oversimplified conclusion",
+              "That a single civilization is always objectively the best in every respect",
+              "That evidence citation has no actual value in a museum exhibit",
+              "That fair comparison is impossible between any two civilizations",
+            ],
+            optionsMy: [
+              "မျှတစွာ နှိုင်းယှဉ်ခြင်း၊ Evidence ကို ရိုးသားစွာ ကိုးကားခြင်းနှင့် Oversimplified ကောက်ချက်တစ်ခုကို ခုခံနိုင်ခြင်း",
+              "Civilization တစ်ခုတည်းသည် အမြဲ Objectively ရှုထောင့်တိုင်းတွင် အကောင်းဆုံး ဖြစ်ကြောင်း",
+              "Evidence Citation သည် ပြတိုက် Exhibit တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိကြောင်း",
+              "Civilization နှစ်ခုကြား မျှတသော နှိုင်းယှဉ်ချက်သည် မဖြစ်နိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated demonstration."],
+            hintsMy: [
+              "ဖော်ပြထားသော Demonstration ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Early Civilizations Exam",
+      titleMy: "Term 2 Capstone - Early Civilizations စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A fair comparison of civilizations should note...",
+          questionMy:
+              "Civilization များ၏ မျှတသော နှိုင်းယှဉ်ချက်တစ်ခုသည် ...မှတ်သားသင့်သည်",
+          optionsEn: [
+            "Both shared patterns and genuine differences",
+            "Only shared patterns with no differences",
+            "Only differences with no shared patterns at all",
+            "Neither patterns nor differences",
+          ],
+          optionsMy: [
+            "Shared Pattern နှင့် စစ်မှန်သော ကွာခြားချက် နှစ်ခုစလုံး",
+            "ကွာခြားချက်မပါဘဲ Shared Pattern တစ်ခုတည်း",
+            "Shared Pattern မပါဘဲ ကွာခြားချက်တစ်ခုတည်း",
+            "Pattern နှင့် ကွာခြားချက် နှစ်ခုစလုံး မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Labeling each claim with its evidence type helps a reader...",
+          questionMy:
+              "Claim တစ်ခုစီကို ၎င်း၏ Evidence Type ဖြင့် Label တင်ခြင်းသည် ဖတ်ရှုသူတစ်ဦးကို ...ကူညီပေးသည်",
+          optionsEn: [
+            "Judge how confident to be in each claim",
+            "Ignore all evidence entirely",
+            "Assume every claim is equally certain",
+            "Avoid thinking about evidence at all",
+          ],
+          optionsMy: [
+            "Claim တစ်ခုစီကို မည်မျှ ယုံကြည်ရမည်ကို ဆုံးဖြတ်ရန်",
+            "Evidence အားလုံးကို လုံးလုံး လျစ်လျူရှုရန်",
+            "Claim တိုင်းသည် Certain တူညီသည်ဟု ယူဆရန်",
+            "Evidence အကြောင်း လုံးလုံး မစဉ်းစားရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ranking one civilization as simply 'the best' is problematic because...",
+          questionMy:
+              "Civilization တစ်ခုကို ရိုးရိုး 'အကောင်းဆုံး' အဖြစ် Rank ပေးခြင်းသည် ပြဿနာရှိသော အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "Different, equally valid criteria would favor different civilizations",
+            "Every civilization is always identical in every way",
+            "Rankings always accurately reflect complex reality",
+            "Comparison itself has no actual value at all",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော၊ တန်ဖိုးတူညီသော Criteria များသည် Civilization ကွဲပြားစွာကို ဦးစားပေးမည် ဖြစ်ခြင်း",
+            "Civilization တိုင်းသည် နည်းလမ်းတိုင်းတွင် အမြဲ တူညီခြင်း",
+            "Ranking များသည် ရှုပ်ထွေးသော အမှန်တရားကို အမြဲ တိကျစွာ ထင်ဟပ်ပြခြင်း",
+            "နှိုင်းယှဉ်ခြင်း ကိုယ်တိုင်တွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 2: "Early Civilizations" (Weeks 5-8)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm2 = CourseTermDef(
+  id: "course-sec1-hum-t2",
+  termNumber: 2,
+  titleEn: "Early Civilizations",
+  titleMy: "အစောဆုံး Civilization များ",
+  certificateTitleEn: "Early Civilizations",
+  certificateTitleMy: "အစောဆုံး Civilization များ",
+  weeks: [_sec1HumWeek5, _sec1HumWeek6, _sec1HumWeek7, _sec1HumWeek8],
 );
 // __SEC_HUM_MARKER__
