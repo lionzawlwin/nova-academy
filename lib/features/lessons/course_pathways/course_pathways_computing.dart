@@ -143895,8 +143895,8 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
   ],
 );
 // =====================================================================
-// IGCSE Computing -- full pathway definition. Term 9 not yet
-// authored; wired incrementally, one completed term at a time.
+// IGCSE Computing -- complete, all 9 terms authored (36 weeks / 180
+// daily lessons).
 // =====================================================================
 
 const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
@@ -143906,9 +143906,9 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
   titleEn: "IGCSE Computer Science",
   titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project. Term 7, Databases and SQL, covers database structure (tables/records/fields/keys), SQL query writing (SELECT/WHERE/ORDER BY), and database management/integrity (multi-table queries, redundancy), closing with an SQL database studio capstone. Term 8, Automated Systems and Robotics, covers microprocessors and feedback loops, robotics and machine learning fundamentals, and testing/verification strategies (test data categories, debugging), closing with an automated system design project.",
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project. Term 7, Databases and SQL, covers database structure (tables/records/fields/keys), SQL query writing (SELECT/WHERE/ORDER BY), and database management/integrity (multi-table queries, redundancy), closing with an SQL database studio capstone. Term 8, Automated Systems and Robotics, covers microprocessors and feedback loops, robotics and machine learning fundamentals, and testing/verification strategies (test data categories, debugging), closing with an automated system design project. Term 9, Exam Prep & Final Capstone, drills Paper 1 theory and Paper 2 problem-solving/programming across every prior term, runs full timed mock examinations with diagnostic debriefing, and closes the entire pathway with a graduation capstone reflecting on the course's central discipline: tracing logic step by step before trusting it is correct.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Databases and SQL သည် Database ဖွဲ့စည်းပုံ (Table/Record/Field/Key)၊ SQL Query ရေးသားခြင်း (SELECT/WHERE/ORDER BY)၊ Database Management/Integrity (Multi-Table Query, Redundancy) တို့ကို ဖုံးအုပ်ပြီး SQL Database Studio Capstone ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Automated Systems and Robotics သည် Microprocessor များနှင့် Feedback Loop များ၊ Robotics နှင့် Machine Learning အခြေခံများ၊ Testing/Verification Strategy (Test Data အမျိုးအစားများ, Debugging) တို့ကို ဖုံးအုပ်ပြီး Automated System Design Project ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Databases and SQL သည် Database ဖွဲ့စည်းပုံ (Table/Record/Field/Key)၊ SQL Query ရေးသားခြင်း (SELECT/WHERE/ORDER BY)၊ Database Management/Integrity (Multi-Table Query, Redundancy) တို့ကို ဖုံးအုပ်ပြီး SQL Database Studio Capstone ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Automated Systems and Robotics သည် Microprocessor များနှင့် Feedback Loop များ၊ Robotics နှင့် Machine Learning အခြေခံများ၊ Testing/Verification Strategy (Test Data အမျိုးအစားများ, Debugging) တို့ကို ဖုံးအုပ်ပြီး Automated System Design Project ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Exam Prep & Final Capstone သည် Term ရှေ့ပိုင်းအားလုံးတစ်လျှောက် Paper 1 Theory နှင့် Paper 2 Problem-Solving/Programming ကို လေ့ကျင့်ပြီး Diagnostic Debriefing ပါသော အချိန်သတ်မှတ်ထားသော Full Mock Exam များ ဖြေဆိုကာ သင်တန်း၏ အဓိက စည်းကမ်းကို ပြန်လည်သုံးသပ်သော ဘွဲ့နှင်းသဘင် Capstone ဖြင့် Pathway တစ်ခုလုံးကို ပိတ်သိမ်းသည် - မှန်ကန်ကြောင်း မယုံကြည်မီ Logic ကို အဆင့်ဆင့် Trace လုပ်ခြင်း။",
   totalWeeks: 36,
   terms: [
     _igcseComputingTerm1,
@@ -143919,6 +143919,7 @@ const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
     _igcseComputingTerm6,
     _igcseComputingTerm7,
     _igcseComputingTerm8,
+    _igcseComputingTerm9,
   ],
 );
 // =====================================================================
@@ -152295,6 +152296,1350 @@ const CourseTermDef _igcseComputingTerm8 = CourseTermDef(
     _igcseComputingWeek30,
     _igcseComputingWeek31,
     _igcseComputingWeek32,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 9, Week 33: "Paper 1 Theory Exam Intensive"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek33 = CourseWeekDef(
+  id: "course-igcse-computing-w33",
+  weekNumber: 33,
+  titleEn: "Paper 1 Theory Exam Intensive",
+  titleMy: "Paper 1 သီအိုရီ စာမေးပွဲ အထူးကြပ်မတ် လေ့ကျင့်ခန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w33-d1",
+      dayNumber: 1,
+      titleEn: "Hardware, Software and Data Representation Drill",
+      titleMy: "Hardware, Software နှင့် Data Representation လေ့ကျင့်ခန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Convert the denary number 156 into 8-bit binary.",
+          questionMy: "Denary ဂဏန်း 156 ကို 8-bit Binary အဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["10011100", "10011010", "11001100", "10101100"],
+          optionsMy: ["10011100", "10011010", "11001100", "10101100"],
+          correctIndex: 0,
+          hintsEn: [
+            "156 = 128 + 16 + 8 + 4, which are the 128, 16, 8, and 4 place-value columns.",
+          ],
+          hintsMy: [
+            "156 = 128 + 16 + 8 + 4 ဖြစ်ပြီး ၎င်းတို့မှာ 128, 16, 8, 4 နေရာတန်ဖိုး column များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which component of the CPU coordinates the fetch-decode-execute cycle?",
+          questionMy:
+              "CPU ၏ မည်သည့် Component က Fetch-Decode-Execute Cycle ကို ညှိနှိုင်းပေးသနည်း။",
+          optionsEn: [
+            "The Control Unit (CU)",
+            "The monitor",
+            "The keyboard",
+            "The printer",
+          ],
+          optionsMy: ["Control Unit (CU)", "Monitor", "Keyboard", "Printer"],
+          correctIndex: 0,
+          hintsEn: [
+            "The Control Unit directs the operation of the processor, distinct from the ALU which performs calculations.",
+          ],
+          hintsMy: [
+            "Control Unit သည် တွက်ချက်မှုများ ပြုလုပ်ပေးသော ALU နှင့် ကွဲပြားစွာ Processor ၏ လုပ်ငန်းစဉ်ကို ညွှန်ကြားပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A firewall's main purpose in network security is to...",
+          questionMy: "Network Security တွင် Firewall ၏ အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Filter incoming and outgoing traffic based on security rules",
+            "Permanently delete every file on a network",
+            "Physically repair damaged cables",
+            "Speed up an internet connection",
+          ],
+          optionsMy: [
+            "လုံခြုံရေး စည်းမျဉ်းများအပေါ် အခြေခံ၍ ဝင်ရောက်မှုနှင့် ထွက်ခွာမှု Traffic ကို စစ်ထုတ်ခြင်း",
+            "ကွန်ရက်ပေါ်ရှိ File တိုင်းကို အမြဲတမ်း ဖျက်ချခြင်း",
+            "ပျက်စီးနေသော Cable များကို ရုပ်ပိုင်းဆိုင်ရာ ပြင်ဆင်ခြင်း",
+            "အင်တာနက် ချိတ်ဆက်မှုကို အရှိန်မြှင့်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's network security lesson -- a firewall acts as a security checkpoint at a network's boundary.",
+          ],
+          hintsMy: [
+            "Term 2 ၏ Network Security သင်ခန်းစာကို ပြန်သတိရပါ -- Firewall သည် ကွန်ရက်၏ နယ်နိမိတ်ရှိ လုံခြုံရေး စစ်ဆေးရေးဂိတ်တစ်ခုအဖြစ် လုပ်ဆောင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cross-Term Vocabulary Sweep",
+      titleMy: "တွဲစပ်ကြမည် - Term များ ကျော်လွှား ဝေါဟာရ ရှင်းလင်းမှု",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w33-dm-1",
+          termEn: "ALU",
+          termMy: "ALU",
+          matchEn:
+              "Performs arithmetic calculations and logical comparisons inside the CPU",
+          matchMy:
+              "CPU အတွင်း သင်္ချာ တွက်ချက်မှုများနှင့် ယုတ္တိတန် နှိုင်းယှဉ်မှုများကို ပြုလုပ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w33-dm-2",
+          termEn: "Overflow error",
+          termMy: "Overflow Error",
+          matchEn:
+              "Occurs when a calculation's result needs more bits than the register has available",
+          matchMy:
+              "တွက်ချက်မှု တစ်ခု၏ ရလဒ်သည် Register တွင် ရရှိနိုင်သည်ထက် Bit ပို၍ လိုအပ်သောအခါ ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w33-dm-3",
+          termEn: "Asymmetric encryption",
+          termMy: "Asymmetric Encryption",
+          matchEn:
+              "Uses a public key to encrypt and a different private key to decrypt",
+          matchMy:
+              "Encrypt ရန် Public Key နှင့် Decrypt ရန် ကွဲပြားသော Private Key ကို အသုံးပြုသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w33-dm-4",
+          termEn: "Interpreter",
+          termMy: "Interpreter",
+          matchEn: "Translates and executes a program one line at a time",
+          matchMy:
+              "Program ကို တစ်ကြောင်းချင်းစီ ဘာသာပြန်ဆိုပြီး Execute လုပ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w33-dm-5",
+          termEn: "Phishing",
+          termMy: "Phishing",
+          matchEn:
+              "Tricking a user into revealing sensitive information, often via a fake email",
+          matchMy:
+              "အတု Email မှတစ်ဆင့် User ကို လှည့်ဖျား၍ အထွေထွေ အချက်အလက်များ ဖော်ထုတ်စေခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mark Scheme Command Words",
+      titleMy: "စီစစ်ကြမည် - Mark Scheme Command Word များ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Requires a Short Definition",
+          "Requires a Full Explanation with Reasoning",
+        ],
+        bucketsMy: [
+          "အတိုချုပ် အဓိပ္ပာယ်ဖွင့်ဆိုချက် တောင်းဆိုသည်",
+          "ဆင်ခြင်တုံတရားပါ ရှင်းလင်းချက်အပြည့်အစုံ တောင်းဆိုသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w33-sort-1",
+            labelEn: "'State' what a variable is",
+            labelMy: "Variable တစ်ခု၏ အဓိပ္ပာယ်ကို 'State' ပြုလုပ်ရန်",
+            correctBucketEn: "Requires a Short Definition",
+            correctBucketMy: "အတိုချုပ် အဓိပ္ပာယ်ဖွင့်ဆိုချက် တောင်းဆိုသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w33-sort-2",
+            labelEn: "'Explain' why binary search is faster than linear search",
+            labelMy:
+                "Binary Search သည် Linear Search ထက် ပို၍ မြန်ရသည့် အကြောင်းရင်းကို 'Explain' ပြုလုပ်ရန်",
+            correctBucketEn: "Requires a Full Explanation with Reasoning",
+            correctBucketMy:
+                "ဆင်ခြင်တုံတရားပါ ရှင်းလင်းချက်အပြည့်အစုံ တောင်းဆိုသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w33-sort-3",
+            labelEn: "'Define' the term compiler",
+            labelMy: "Compiler ဟူသော ဝေါဟာရကို 'Define' ပြုလုပ်ရန်",
+            correctBucketEn: "Requires a Short Definition",
+            correctBucketMy: "အတိုချုပ် အဓိပ္ပာယ်ဖွင့်ဆိုချက် တောင်းဆိုသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w33-sort-4",
+            labelEn:
+                "'Discuss' the ethical implications of storing biometric data",
+            labelMy:
+                "Biometric Data သိမ်းဆည်းခြင်း၏ ကျင့်ဝတ်ဆိုင်ရာ သက်ရောက်မှုများကို 'Discuss' ပြုလုပ်ရန်",
+            correctBucketEn: "Requires a Full Explanation with Reasoning",
+            correctBucketMy:
+                "ဆင်ခြင်တုံတရားပါ ရှင်းလင်းချက်အပြည့်အစုံ တောင်းဆိုသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Paper 1 Revision Strategy",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Paper 1 ပြန်လည်လေ့ကျင့်ရေး ဗျူဟာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Paper 1 Revision Strategy",
+        titleMy: "Zayar Lin ၏ Paper 1 ပြန်လည်လေ့ကျင့်ရေး ဗျူဟာ",
+        passageEn:
+            "With his IGCSE Computer Science Paper 1 exam approaching, Zayar Lin sat down with Sayar Ye Min to build a genuine revision strategy rather than simply rereading his notes from the beginning of the course. Sayar Ye Min asked him a pointed question first: which topics had he actually gotten wrong on past practice questions, rather than which topics he merely felt uncertain about? Zayar Lin admitted he had never kept a proper record, so his first concrete step was going back through every past quiz across the whole course and writing down the specific concept behind every question he had gotten wrong.\n\nThe pattern that emerged surprised him: he had rarely made mistakes on straightforward definition-style questions, like stating what RAM stood for, but had repeatedly struggled with 'explain' and 'discuss' questions requiring him to connect two concepts together, such as explaining why a compiler suits safety-critical software better than an interpreter. Sayar Ye Min explained this was an extremely common pattern -- memorising isolated facts is far easier than practising the reasoning that connects them, and Paper 1's higher-mark questions specifically target that reasoning skill rather than simple recall.\n\nBased on this diagnosis, Zayar Lin restructured his remaining revision time: instead of re-reading definitions he already knew cold, he spent the majority of his time re-answering every 'explain' and 'discuss' style question he had gotten wrong across the entire course, writing out full-sentence answers each time rather than just thinking through them mentally, since writing forced him to notice gaps a mental walkthrough let him skip past. He kept a running list of exactly which command words had tripped him up most often, and made a point of writing a two- or three-sentence full explanation for every one of them before moving on to full past papers, treating this diagnostic-driven approach as far more valuable than his old habit of simply rereading the textbook from start to finish.",
+        passageMy:
+            "IGCSE ကွန်ပျူတာသိပ္ပံ Paper 1 စာမေးပွဲ နီးကပ်လာသည်နှင့်အမျှ သင်တန်း အစမှ သူ့ မှတ်စုများကို ရိုးရိုးသာ ပြန်ဖတ်မည့်အစား စစ်မှန်သော ပြန်လည်လေ့ကျင့်ရေး ဗျူဟာ တည်ဆောက်ရန် Zayar Lin သည် ဆရာရဲမင်းနှင့် ထိုင်ခဲ့သည်။ ဆရာရဲမင်းက ချက်ချင်း ရှုပ်ထွေးသော မေးခွန်း မေးမြန်းခဲ့သည် - ၎င်း မသေချာဟု ခံစားရသော Topic များ မဟုတ်ဘဲ Past Practice Question များတွင် အမှန်တကယ် မှားယွင်းခဲ့သော Topic များ မည်သည်များနည်း။ မှန်ကန်သော မှတ်တမ်းတစ်ခု ဘယ်တော့မှ မထားခဲ့ကြောင်း Zayar Lin ဝန်ခံခဲ့ပြီး သူ၏ ပထမ တိကျသော အဆင့်မှာ သင်တန်းတစ်ခုလုံးမှ Past Quiz တိုင်းကို ပြန်လှည့်ပြီး မှားယွင်းခဲ့သော မေးခွန်းတိုင်းနောက်ကွယ်ရှိ တိကျသော Concept ကို ချရေးခြင်း ဖြစ်ခဲ့သည်။\n\nပေါ်ပေါက်လာသော Pattern သည် သူ့ကို အံ့ဩစေခဲ့သည် - RAM ကို ကိုယ်စားပြုသော အမည်ကို ဖော်ပြခြင်းကဲ့သို့ ရှင်းလင်းသော Definition-Style မေးခွန်းများတွင် ရှားရှားပါးပါးသာ အမှားလုပ်ခဲ့သော်လည်း Compiler သည် Safety-Critical Software အတွက် Interpreter ထက် ပို၍ ကိုက်ညီသည့် အကြောင်းရင်းကို ရှင်းပြခြင်းကဲ့သို့ Concept နှစ်ခုကို ချိတ်ဆက်ရန် တောင်းဆိုသော 'Explain' နှင့် 'Discuss' မေးခွန်းများတွင် ထပ်ခါထပ်ခါ ရုန်းကန်ခဲ့ရသည်။ ၎င်းသည် အလွန် အများသုံး Pattern ဖြစ်ကြောင်း ဆရာရဲမင်း ရှင်းပြခဲ့သည် -- ခွဲထားသော အချက်များကို အလွတ်ကျက်မှတ်ခြင်းသည် ၎င်းတို့ကို ချိတ်ဆက်ပေးသော Reasoning ကို လေ့ကျင့်ခြင်းထက် ပို၍ လွယ်ကူပြီး Paper 1 ၏ အမှတ်ပို၍များသော မေးခွန်းများသည် ရိုးရှင်း Recall အစား ထို Reasoning Skill ကို အထူးသဖြင့် ပစ်မှတ်ထားသည်။\n\nဤ ရောဂါရှာဖွေမှုအပေါ် အခြေခံ၍ Zayar Lin သည် ကျန်ရှိသေးသော ပြန်လည်လေ့ကျင့်ရေး အချိန်ကို ပြန်လည် ဖွဲ့စည်းခဲ့သည် - Cold ကျက်မှတ်ထားပြီးသား Definition များ ပြန်ဖတ်မည့်အစား သင်တန်းတစ်ခုလုံးမှ မှားယွင်းခဲ့သော 'Explain' နှင့် 'Discuss' Style မေးခွန်းတိုင်းကို ပြန်ဖြေဆိုရန် အချိန် အများစု အသုံးပြုခဲ့ပြီး ၎င်းတို့ကို စိတ်ထဲတွင်သာ စဉ်းစားမည့်အစား အကြိမ်တိုင်း Full-Sentence Answer များ ချရေးခဲ့သည်၊ ရေးသားခြင်းသည် Mental Walkthrough တစ်ခုက ကျော်လွှားစေနိုင်သော ကွက်လပ်များကို သတိပြုမိစေရန် အတင်းအကျပ် ဖြစ်စေသောကြောင့် ဖြစ်သည်။ မည်သည့် Command Word များက သူ့ကို အများဆုံး ချော်လဲစေခဲ့ကြောင်း Running List တစ်ခု ထားရှိခဲ့ပြီး Past Paper အပြည့်အစုံသို့ ဆက်လက်မသွားမီ ၎င်းတို့ တစ်ခုစီအတွက် Full Explanation နှစ်ကြောင်း (သို့) သုံးကြောင်း ချရေးရန် အထူး ဂရုစိုက်ခဲ့ပြီး Textbook ကို အစမှအဆုံး ရိုးရိုးသာ ပြန်ဖတ်ခြင်း သူ့ဟောင်းနွမ်း အလေ့အထထက် ဤ Diagnostic-Driven Approach ကို ပို၍ တန်ဖိုးရှိသည်ဟု ဆက်ဆံခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was Zayar Lin's first concrete revision step?",
+            questionMy:
+                "Zayar Lin ၏ ပထမ တိကျသော ပြန်လည်လေ့ကျင့်ရေး အဆင့်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reviewing every past quiz and writing down the concept behind each wrong answer",
+              "Immediately taking a full mock exam with no preparation",
+              "Rereading the textbook from the very beginning",
+              "Ignoring all past quizzes entirely",
+            ],
+            optionsMy: [
+              "Past Quiz တိုင်းကို ပြန်သုံးသပ်ပြီး မှားယွင်းသော အဖြေတစ်ခုစီနောက်ကွယ်ရှိ Concept ကို ချရေးခြင်း",
+              "ပြင်ဆင်မှု မရှိဘဲ Full Mock Exam တစ်ခုကို ချက်ချင်း ဖြေဆိုခြင်း",
+              "Textbook ကို အစအဦးဆုံးမှ ပြန်ဖတ်ခြင်း",
+              "Past Quiz အားလုံးကို လုံးဝ လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which type of question did Zayar Lin repeatedly struggle with?",
+            questionMy:
+                "Zayar Lin ထပ်ခါထပ်ခါ ရုန်းကန်ခဲ့ရသော မေးခွန်း အမျိုးအစားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "'Explain' and 'discuss' questions requiring connecting two concepts together",
+              "Simple definition-style questions like stating what RAM stood for",
+              "Questions about spelling only",
+              "Questions with no words at all",
+            ],
+            optionsMy: [
+              "Concept နှစ်ခုကို ချိတ်ဆက်ရန် တောင်းဆိုသော 'Explain' နှင့် 'Discuss' မေးခွန်းများ",
+              "RAM ကို ကိုယ်စားပြုသော အမည်ကို ဖော်ပြခြင်းကဲ့သို့ ရိုးရှင်းသော Definition-Style မေးခွန်းများ",
+              "စာလုံးပေါင်းအကြောင်း မေးခွန်းများသာ",
+              "စကားလုံး မည်သည်မှ မပါသော မေးခွန်းများ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about explain and discuss questions.",
+            ],
+            hintsMy: [
+              "Explain နှင့် Discuss မေးခွန်းများအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did Zayar Lin write full-sentence answers rather than just thinking through them mentally?",
+            questionMy:
+                "စိတ်ထဲတွင်သာ စဉ်းစားမည့်အစား Full-Sentence Answer များ Zayar Lin ချရေးခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Writing forced him to notice gaps a mental walkthrough let him skip past",
+              "Writing was required by school rules with no other reason",
+              "He was not allowed to think about anything mentally",
+              "It made the revision process take less time overall",
+            ],
+            optionsMy: [
+              "Mental Walkthrough တစ်ခုက ကျော်လွှားစေနိုင်သော ကွက်လပ်များကို သတိပြုမိစေရန် ရေးသားခြင်းက အတင်းအကျပ် ဖြစ်စေခြင်း",
+              "ရေးသားခြင်းကို ကျောင်းစည်းမျဉ်းက အခြားအကြောင်းရင်း မပါဘဲ တောင်းဆိုခြင်း",
+              "မည်သည့်အရာကိုမျှ စိတ်ထဲတွင် စဉ်းစားခွင့် မရှိခြင်း",
+              "ပြန်လည်လေ့ကျင့်ရေး Process ကို စုစုပေါင်း အချိန် ပို၍ နည်းအောင် ပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about writing forcing him to notice gaps.",
+            ],
+            hintsMy: [
+              "ရေးသားခြင်းက ကွက်လပ်များကို သတိပြုမိစေခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Paper 1 Theory",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Paper 1 Theory",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Control Unit's main job is to...",
+          questionMy: "Control Unit ၏ အဓိက တာဝန်မှာ...",
+          optionsEn: [
+            "Coordinate the fetch-decode-execute cycle",
+            "Permanently store files",
+            "Display images on screen",
+            "Connect to Wi-Fi networks",
+          ],
+          optionsMy: [
+            "Fetch-Decode-Execute Cycle ကို ညှိနှိုင်းခြင်း",
+            "File များကို အမြဲတမ်း သိမ်းဆည်းခြင်း",
+            "Screen ပေါ်တွင် ပုံများ ပြသခြင်း",
+            "Wi-Fi ကွန်ရက်များသို့ ချိတ်ဆက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "'Explain' and 'discuss' style exam questions typically require...",
+          questionMy:
+              "'Explain' နှင့် 'Discuss' Style စာမေးပွဲ မေးခွန်းများသည် ပုံမှန်အားဖြင့် ...ကို တောင်းဆိုသည်",
+          optionsEn: [
+            "Connecting concepts together with clear reasoning",
+            "A single one-word answer only",
+            "No written explanation at all",
+            "Drawing a picture with no text",
+          ],
+          optionsMy: [
+            "ရှင်းလင်းသော ဆင်ခြင်တုံတရားဖြင့် Concept များကို ချိတ်ဆက်ခြင်း",
+            "စကားလုံးတစ်လုံးတည်း အဖြေသာ",
+            "ရေးသား ရှင်းပြချက် မည်သည်မှ",
+            "Text မပါဘဲ ပုံဆွဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Asymmetric encryption uses...",
+          questionMy: "Asymmetric Encryption သည် ...ကို အသုံးပြုသည်",
+          optionsEn: [
+            "A public key to encrypt and a private key to decrypt",
+            "The exact same key for both encrypting and decrypting",
+            "No key of any kind",
+            "Only a firewall",
+          ],
+          optionsMy: [
+            "Encrypt ရန် Public Key နှင့် Decrypt ရန် Private Key",
+            "Encrypt နှင့် Decrypt နှစ်ခုလုံးအတွက် Key အတိအကျ တစ်ခုတည်း",
+            "Key မည်သည့်အမျိုးအစားမျှ",
+            "Firewall တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 9, Week 34: "Paper 2 Problem-Solving &
+// Programming"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek34 = CourseWeekDef(
+  id: "course-igcse-computing-w34",
+  weekNumber: 34,
+  titleEn: "Paper 2 Problem-Solving & Programming",
+  titleMy: "Paper 2 ပြဿနာဖြေရှင်းခြင်းနှင့် ပရိုဂရမ်ရေးခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w34-d1",
+      dayNumber: 1,
+      titleEn: "Pseudocode, Trace Tables and SQL/Python Drill",
+      titleMy: "Pseudocode, Trace Table နှင့် SQL/Python လေ့ကျင့်ခန်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Consider this pseudocode: x = 2; FOR i = 1 TO 3; x = x * 2; ENDFOR. What is the final value of x?",
+          questionMy:
+              "ဤ Pseudocode ကို စဉ်းစားပါ - x = 2; FOR i = 1 TO 3; x = x * 2; ENDFOR ။ x ၏ နောက်ဆုံး တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["16", "8", "6", "4"],
+          optionsMy: ["16", "8", "6", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace it: x=2, then x=4, then x=8, then x=16 -- doubling three times.",
+          ],
+          hintsMy: [
+            "Trace လုပ်ကြည့်ပါ - x=2, ထို့နောက် x=4, ထို့နောက် x=8, ထို့နောက် x=16 -- သုံးကြိမ် နှစ်ဆတိုးခြင်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which SQL statement correctly returns every book with a title starting with 'The'?",
+          questionMy:
+              "'The' ဖြင့် အစပြုသော ခေါင်းစဉ်ရှိ စာအုပ်တိုင်းကို မှန်ကန်စွာ ပြန်ပေးသော SQL Statement မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "SELECT * FROM Books WHERE Title LIKE 'The%'",
+            "SELECT * FROM Books WHERE Title = 'The'",
+            "SELECT * FROM Books ORDER BY Title",
+            "DELETE FROM Books WHERE Title LIKE 'The%'",
+          ],
+          optionsMy: [
+            "SELECT * FROM Books WHERE Title LIKE 'The%'",
+            "SELECT * FROM Books WHERE Title = 'The'",
+            "SELECT * FROM Books ORDER BY Title",
+            "DELETE FROM Books WHERE Title LIKE 'The%'",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "LIKE 'The%' matches any title beginning with 'The', followed by anything else.",
+          ],
+          hintsMy: [
+            "LIKE 'The%' သည် 'The' ဖြင့် အစပြုပြီး ထို့နောက် မည်သည့်အရာမဆို လိုက်သော ခေါင်းစဉ် မည်သည်နှင့်မဆို ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Python, what does the expression len(myList) return for a list containing 7 items?",
+          questionMy:
+              "Python တွင် Item 7 ခု ပါဝင်သော List တစ်ခုအတွက် Expression len(myList) သည် အဘယ်အရာကို ပြန်ပေးသနည်း။",
+          optionsEn: ["7", "6", "8", "0"],
+          optionsMy: ["7", "6", "8", "0"],
+          correctIndex: 0,
+          hintsEn: [
+            "len() returns the total count of items in a list, not an index -- it is unaffected by zero-based indexing.",
+          ],
+          hintsMy: [
+            "len() သည် List တစ်ခုရှိ Item စုစုပေါင်း အရေအတွက်ကို ပြန်ပေးပြီး Index မဟုတ်ပါ -- Zero-Based Indexing ၏ သက်ရောက်မှု မရှိပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Paper 2 Skill Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Paper 2 Skill ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w34-dm-1",
+          termEn: "Trace table",
+          termMy: "Trace Table",
+          matchEn:
+              "Records how each variable's value changes step by step to verify an algorithm",
+          matchMy:
+              "Algorithm တစ်ခုကို အတည်ပြုရန် Variable တစ်ခုစီ၏ တန်ဖိုး အဆင့်ဆင့် မည်သို့ ပြောင်းလဲကြောင်း မှတ်တမ်းတင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w34-dm-2",
+          termEn: "Multi-table query",
+          termMy: "Multi-Table Query",
+          matchEn:
+              "Joins two or more tables via shared keys to avoid data redundancy",
+          matchMy:
+              "Data Redundancy ကို ရှောင်ရှားရန် Shared Key များမှတစ်ဆင့် Table နှစ်ခု (သို့) ထို့ထက်ပို၍ ပေါင်းစပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w34-dm-3",
+          termEn: "Parameter",
+          termMy: "Parameter",
+          matchEn:
+              "A value passed into a function or procedure when it is called",
+          matchMy:
+              "Function (သို့) Procedure ကို ခေါ်ယူသောအခါ ၎င်းသို့ ဖြတ်သန်းပေးသော တန်ဖိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w34-dm-4",
+          termEn: "Boundary test data",
+          termMy: "Boundary Test Data",
+          matchEn:
+              "A value at the exact edge of a valid range, catching off-by-one errors",
+          matchMy:
+              "Off-By-One အမှားများကို ဖမ်းဆီးသော Valid Range ၏ အစွန်း အတိအကျရှိ တန်ဖိုး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w34-dm-5",
+          termEn: "Binary search",
+          termMy: "Binary Search",
+          matchEn:
+              "A fast search method on sorted arrays, halving the search space each comparison",
+          matchMy:
+              "Comparison တိုင်းတွင် Search Space ကို ထက်ဝက် ပိုင်းသော Sort လုပ်ထားသော Array များပေါ်ရှိ အမြန်နှုန်း Search နည်းလမ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Pseudocode Logic?",
+      titleMy: "စီစစ်ကြမည် - Pseudocode Logic မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Logic", "Incorrect Logic"],
+        bucketsMy: ["မှန်ကန်သော Logic", "မှားယွင်းသော Logic"],
+        items: [
+          SortingItem(
+            id: "igcomp-w34-sort-1",
+            labelEn:
+                "total = 0 placed before a FOR loop that accumulates a sum",
+            labelMy:
+                "ပေါင်းစည်းမှုတစ်ခုကို စုစည်းသော FOR Loop မတိုင်မီ ထားရှိသော total = 0",
+            correctBucketEn: "Correct Logic",
+            correctBucketMy: "မှန်ကန်သော Logic",
+          ),
+          SortingItem(
+            id: "igcomp-w34-sort-2",
+            labelEn:
+                "total = 0 placed inside a FOR loop that is meant to accumulate a sum",
+            labelMy:
+                "ပေါင်းစည်းမှုတစ်ခုကို စုစည်းရန် ရည်ရွယ်ထားသော FOR Loop အတွင်း ထားရှိသော total = 0",
+            correctBucketEn: "Incorrect Logic",
+            correctBucketMy: "မှားယွင်းသော Logic",
+          ),
+          SortingItem(
+            id: "igcomp-w34-sort-3",
+            labelEn:
+                "Using score >= 60 to include a boundary score of exactly 60 as a pass",
+            labelMy:
+                "60 အတိအကျ Boundary Score ကို Pass အဖြစ် ထည့်သွင်းရန် score >= 60 အသုံးပြုခြင်း",
+            correctBucketEn: "Correct Logic",
+            correctBucketMy: "မှန်ကန်သော Logic",
+          ),
+          SortingItem(
+            id: "igcomp-w34-sort-4",
+            labelEn:
+                "Using score > 60 when the requirement stated exactly 60 should also pass",
+            labelMy:
+                "လိုအပ်ချက်က 60 အတိအကျပါ Pass ဖြစ်သင့်ကြောင်း ဖော်ပြထားသော်လည်း score > 60 အသုံးပြုခြင်း",
+            correctBucketEn: "Incorrect Logic",
+            correctBucketMy: "မှားယွင်းသော Logic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Paper 2 Mock Question",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Paper 2 Mock Question",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Paper 2 Mock Question",
+        titleMy: "Zayar Lin ၏ Paper 2 Mock Question",
+        passageEn:
+            "Sayar Ye Min gave Zayar Lin an authentic-style Paper 2 question combining pseudocode design and a trace table in a single task: write an algorithm that reads exam scores one at a time until a sentinel value of -1 is entered, and then outputs how many scores were above 50. Zayar Lin recognised this needed a WHILE loop rather than a FOR loop immediately, since the number of scores to be entered was unknown in advance -- exactly the reasoning he had practised weeks earlier with the login-system example.\n\nHe wrote: count = 0, INPUT score, WHILE score != -1, IF score > 50 THEN count = count + 1, INPUT score, ENDWHILE, OUTPUT count. Before considering the pseudocode finished, he built a trace table to verify it against a specific test sequence: 60, 40, 70, -1. His trace table had columns for score and count, and he stepped through the loop exactly as written: first score 60 entered, 60 > 50 true, count becomes 1, next input requested; score 40 entered, 40 > 50 false, count stays 1, next input requested; score 70 entered, 70 > 50 true, count becomes 2, next input requested; score -1 entered, loop condition score != -1 now false, loop ends, OUTPUT count prints 2.\n\nSayar Ye Min then asked him to trace a trickier sequence: what if the very first input was -1 itself, with no scores entered at all? Zayar Lin traced it precisely: count starts at 0, INPUT score reads -1, the WHILE condition score != -1 is immediately false, so the loop body never executes even once, and OUTPUT count correctly prints 0 -- confirming his algorithm correctly handled the edge case of no valid scores being entered, exactly the kind of boundary scenario that separates a fully correct Paper 2 answer from one that only works for typical inputs.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Pseudocode Design နှင့် Trace Table ကို Task တစ်ခုတည်းတွင် ပေါင်းစပ်ထားသော စစ်မှန်သော Style Paper 2 မေးခွန်းတစ်ခု Zayar Lin ကို ပေးအပ်ခဲ့သည် - Sentinel Value -1 ရိုက်ထည့်သည်အထိ စာမေးပွဲ ရမှတ်များကို တစ်ခုချင်းစီ ဖတ်ရှုပြီး 50 ထက် ကြီးသော ရမှတ် မည်မျှ ရှိသည်ကို Output ထုတ်ပေးသော Algorithm ရေးသားပါ။ ရိုက်ထည့်ရမည့် ရမှတ်အရေအတွက်ကို ကြိုတင် မသိရသေးသောကြောင့် WHILE Loop လိုအပ်ကြောင်း Zayar Lin ချက်ချင်း သိမြင်ခဲ့သည် -- Login-System ဥပမာဖြင့် အပတ်များအရင် လေ့ကျင့်ခဲ့သော Reasoning အတိအကျ ဖြစ်သည်။\n\ncount = 0, INPUT score, WHILE score != -1, IF score > 50 THEN count = count + 1, INPUT score, ENDWHILE, OUTPUT count ဟု သူ ရေးသားခဲ့သည်။ Pseudocode ပြီးဆုံးသည်ဟု မယူဆမီ တိကျသော Test Sequence: 60, 40, 70, -1 ဖြင့် အတည်ပြုရန် Trace Table တစ်ခု တည်ဆောက်ခဲ့သည်။ ၎င်း၏ Trace Table တွင် score နှင့် count အတွက် Column များ ရှိပြီး ရေးသားထားသည့်အတိုင်း Loop ကို အတိအကျ ဖြတ်သန်းခဲ့သည် - ပထမ score 60 ရိုက်ထည့်သည်၊ 60 > 50 True ဖြစ်၍ count သည် 1 ဖြစ်လာပြီး Input နောက်တစ်ခု တောင်းဆိုသည်; score 40 ရိုက်ထည့်သည်၊ 40 > 50 False ဖြစ်၍ count 1 ဖြစ်ဆက်နေသည်၊ Input နောက်တစ်ခု တောင်းဆိုသည်; score 70 ရိုက်ထည့်သည်၊ 70 > 50 True ဖြစ်၍ count သည် 2 ဖြစ်လာပြီး Input နောက်တစ်ခု တောင်းဆိုသည်; score -1 ရိုက်ထည့်သည်၊ Loop Condition score != -1 သည် ယခု False ဖြစ်၍ Loop ပြီးဆုံးကာ OUTPUT count သည် 2 ကို Print ထုတ်သည်။\n\nပို၍ ခက်ခဲသော Sequence တစ်ခုကို Trace ရန် ဆရာရဲမင်း ဆက်လက် တောင်းဆိုခဲ့သည် - ပထမဆုံး Input သည် ရမှတ်မည်သည်မှ လုံးဝ မရိုက်ထည့်ရသေးဘဲ -1 ကိုယ်တိုင် ဖြစ်ခဲ့ပါက အဘယ်နည်း။ Zayar Lin တိကျစွာ Trace ခဲ့သည် - count သည် 0 မှ စတင်၊ INPUT score က -1 ကို ဖတ်ရှု၊ WHILE Condition score != -1 သည် ချက်ချင်း False ဖြစ်ခဲ့ပြီး Loop Body သည် တစ်ကြိမ်ပင် ဘယ်တော့မှ Execute မဖြစ်ဘဲ OUTPUT count သည် 0 ကို မှန်ကန်စွာ Print ထုတ်ခဲ့သည် -- Valid Score မည်သည်မျှ ရိုက်ထည့်ခြင်း မရှိသော Edge Case ကို ၎င်း၏ Algorithm မှန်ကန်စွာ ကိုင်တွယ်ခဲ့ကြောင်း အတည်ပြုခဲ့ပြီး ပုံမှန် Input များအတွက်သာ အလုပ်လုပ်သော အဖြေတစ်ခုနှင့် ပြည့်စုံစွာ မှန်ကန်သော Paper 2 အဖြေတစ်ခုကို ကွဲပြားစေသော Boundary Scenario အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Zayar Lin choose a WHILE loop rather than a FOR loop?",
+            questionMy:
+                "FOR Loop အစား WHILE Loop ကို Zayar Lin ရွေးချယ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The number of scores to be entered was unknown in advance",
+              "WHILE loops are always faster to write than FOR loops",
+              "FOR loops cannot ever be used with scores",
+              "The teacher told him to always avoid FOR loops",
+            ],
+            optionsMy: [
+              "ရိုက်ထည့်ရမည့် ရမှတ် အရေအတွက်ကို ကြိုတင် မသိရသေးခြင်း",
+              "WHILE Loop များသည် FOR Loop များထက် ရေးသားရန် အမြဲ ပို၍ မြန်ခြင်း",
+              "FOR Loop များကို ရမှတ်များနှင့် ဘယ်တော့မှ အသုံးမပြု၍ ရနိုင်ခြင်း",
+              "FOR Loop များကို အမြဲ ရှောင်ရှားရန် ဆရာက ပြောကြားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about the unknown number of scores.",
+            ],
+            hintsMy: ["ရမှတ် အရေအတွက် မသိကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the trace table output for the sequence 60, 40, 70, -1?",
+            questionMy:
+                "Sequence 60, 40, 70, -1 အတွက် Trace Table ၏ Output ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["2", "3", "1", "0"],
+            optionsMy: ["2", "3", "1", "0"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the algorithm output when -1 was entered first?",
+            questionMy:
+                "-1 ကို ပထမဆုံး ရိုက်ထည့်ချိန် Algorithm ၏ Output ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0",
+              "1",
+              "An error message",
+              "It ran forever without stopping",
+            ],
+            optionsMy: [
+              "0",
+              "1",
+              "Error Message",
+              "မရပ်တန့်ဘဲ ထာဝရ Run နေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Paper 2 Problem-Solving",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Paper 2 Problem-Solving",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A WHILE loop should be used instead of a FOR loop when...",
+          questionMy: "FOR Loop အစား WHILE Loop ကို အသုံးပြုသင့်သည့်အခါမှာ...",
+          optionsEn: [
+            "The number of repetitions is not known in advance",
+            "The number of repetitions is always exactly 10",
+            "No repetition is required at all",
+            "The condition must never be checked",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်ကို ကြိုတင် မသိသောအခါ",
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် အရေအတွက်သည် အတိအကျ 10 ဖြစ်နေသောအခါ",
+            "ထပ်ခါထပ်ခါ လုပ်ဆောင်ချက် လုံးဝ မလိုအပ်သောအခါ",
+            "Condition ကို ဘယ်တော့မှ မစစ်ဆေးသင့်သောအခါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trace table is especially useful right before submitting an answer because it...",
+          questionMy:
+              "Trace Table သည် အဖြေ မတင်သွင်းမီ အထူးသဖြင့် အသုံးဝင်သည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Verifies the algorithm's logic against specific test sequences before relying on it",
+            "Automatically fixes every possible bug",
+            "Replaces the need to write any pseudocode",
+            "Only works for SQL queries, never pseudocode",
+          ],
+          optionsMy: [
+            "အားကိုးမီ Test Sequence တိကျများအပေါ် Algorithm ၏ Logic ကို အတည်ပြုခြင်း",
+            "ဖြစ်နိုင်သော Bug တိုင်းကို အလိုအလျောက် ပြင်ဆင်ပေးခြင်း",
+            "Pseudocode မည်သည်ကိုမျှ ရေးသားရန် လိုအပ်ချက်ကို အစားထိုးခြင်း",
+            "SQL Query များအတွက်သာ အလုပ်လုပ်ပြီး Pseudocode အတွက် ဘယ်တော့မှ မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "WHERE Title LIKE 'The%' in SQL matches titles that...",
+          questionMy:
+              "SQL ရှိ WHERE Title LIKE 'The%' သည် ...ခေါင်းစဉ်များနှင့် ကိုက်ညီသည်",
+          optionsEn: [
+            "Begin with 'The'",
+            "End with 'The'",
+            "Contain no letters at all",
+            "Are exactly three characters long",
+          ],
+          optionsMy: [
+            "'The' ဖြင့် စတင်ခြင်း",
+            "'The' ဖြင့် အဆုံးသတ်ခြင်း",
+            "အက္ခရာ လုံးဝ မပါဝင်ခြင်း",
+            "Character သုံးလုံးတည်း အတိအကျ ရှည်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 9, Week 35: "Full Past Paper Mock
+// Examinations"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek35 = CourseWeekDef(
+  id: "course-igcse-computing-w35",
+  weekNumber: 35,
+  titleEn: "Full Past Paper Mock Examinations",
+  titleMy: "မေးခွန်းဟောင်း ပုံစံတူ စာမေးပွဲ အစုံအလင် ဖြေဆိုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w35-d1",
+      dayNumber: 1,
+      titleEn: "Mock Paper 1: Mixed Theory Recall",
+      titleMy: "Mock Paper 1 - Mixed Theory Recall",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the denary value of the hexadecimal number 1F?",
+          questionMy: "Hexadecimal ဂဏန်း 1F ၏ Denary တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["31", "16", "15", "21"],
+          optionsMy: ["31", "16", "15", "21"],
+          correctIndex: 0,
+          hintsEn: [
+            "1F = (1 x 16) + F, and F in hex equals 15 in denary, so (1 x 16) + 15 = 31.",
+          ],
+          hintsMy: [
+            "1F = (1 x 16) + F, Hex တွင် F သည် Denary 15 နှင့် ညီသောကြောင့် (1 x 16) + 15 = 31 ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A NAND gate is best described as...",
+          questionMy: "NAND Gate ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "An AND gate followed by a NOT gate",
+            "An OR gate followed by another OR gate",
+            "Exactly the same as an AND gate",
+            "A gate that always outputs 0",
+          ],
+          optionsMy: [
+            "AND Gate ပြီးနောက် NOT Gate",
+            "OR Gate ပြီးနောက် နောက်ထပ် OR Gate",
+            "AND Gate နှင့် အတူတူပင်",
+            "0 ကိုသာ အမြဲ ထုတ်ပေးသော Gate",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which of the following is a valid example of a range check?",
+          questionMy: "အောက်ပါအနက် Range Check ၏ Valid ဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A month value must be between 1 and 12",
+            "A field must not be left blank",
+            "A phone number must match a specific pattern",
+            "A password must be typed twice to confirm",
+          ],
+          optionsMy: [
+            "လ တန်ဖိုးသည် 1 နှင့် 12 ကြား ဖြစ်ရမည်",
+            "Field ကို ဗလာ ထား၍ မရပါ",
+            "ဖုန်းနံပါတ်သည် တိကျသော Pattern နှင့် ကိုက်ညီရမည်",
+            "Password ကို အတည်ပြုရန် နှစ်ကြိမ် ရိုက်ထည့်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mock Paper 1 Command Word Practice",
+      titleMy: "တွဲစပ်ကြမည် - Mock Paper 1 Command Word လေ့ကျင့်ခန်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w35-dm-1",
+          termEn: "State",
+          termMy: "State",
+          matchEn: "Give a short, direct answer with no explanation needed",
+          matchMy:
+              "ရှင်းပြချက် မလိုအပ်ဘဲ တိုတောင်း၊ တိုက်ရိုက် အဖြေတစ်ခု ပေးရန်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w35-dm-2",
+          termEn: "Explain",
+          termMy: "Explain",
+          matchEn:
+              "Give reasons or a step-by-step account of why or how something happens",
+          matchMy:
+              "တစ်ခုခု အဘယ်ကြောင့် (သို့) မည်သို့ ဖြစ်ပျက်ကြောင်း အကြောင်းပြချက် (သို့) အဆင့်ဆင့် ရှင်းလင်းချက် ပေးရန်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w35-dm-3",
+          termEn: "Compare",
+          termMy: "Compare",
+          matchEn:
+              "Identify similarities and/or differences between two or more things",
+          matchMy:
+              "အရာနှစ်ခု (သို့) ထို့ထက်ပို၍ ကြား ဆင်တူချက်များနှင့်/(သို့) ကွာခြားချက်များ ဖော်ထုတ်ရန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w35-dm-4",
+          termEn: "Evaluate",
+          termMy: "Evaluate",
+          matchEn:
+              "Weigh up strengths and weaknesses to reach a justified conclusion",
+          matchMy:
+              "ခိုင်လုံသော ကောက်ချက်တစ်ခုသို့ ရောက်ရှိရန် အားသာချက်နှင့် အားနည်းချက်များကို ချိန်ခွင်လျှာညီစစ်ဆေးရန်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Mock Paper 2 Diagnostic Check",
+      titleMy: "စီစစ်ကြမည် - Mock Paper 2 Diagnostic စစ်ဆေးမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Syntax Error", "Logic Error"],
+        bucketsMy: ["Syntax Error", "Logic Error"],
+        items: [
+          SortingItem(
+            id: "igcomp-w35-sort-1",
+            labelEn:
+                "Missing a colon at the end of an if statement's header line",
+            labelMy:
+                "If Statement ၏ Header လိုင်း အဆုံးတွင် Colon လွတ်သွားခြင်း",
+            correctBucketEn: "Syntax Error",
+            correctBucketMy: "Syntax Error",
+          ),
+          SortingItem(
+            id: "igcomp-w35-sort-2",
+            labelEn:
+                "A program runs successfully but the average calculation forgets to divide",
+            labelMy:
+                "Program သည် အောင်မြင်စွာ Run သော်လည်း ပျမ်းမျှတွက်ချက်မှုက စားရန် မေ့သွားခြင်း",
+            correctBucketEn: "Logic Error",
+            correctBucketMy: "Logic Error",
+          ),
+          SortingItem(
+            id: "igcomp-w35-sort-3",
+            labelEn:
+                "Spelling a keyword incorrectly, stopping the program from running at all",
+            labelMy:
+                "Keyword တစ်ခုကို စာလုံးပေါင်းမှားပြီး Program ကို လုံးဝ Run မလုပ်စေခြင်း",
+            correctBucketEn: "Syntax Error",
+            correctBucketMy: "Syntax Error",
+          ),
+          SortingItem(
+            id: "igcomp-w35-sort-4",
+            labelEn:
+                "A loop that runs one time too few because of an off-by-one condition",
+            labelMy: "Off-By-One Condition ကြောင့် တစ်ကြိမ် နည်းသွားသော Loop",
+            correctBucketEn: "Logic Error",
+            correctBucketMy: "Logic Error",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Mock Exam Debrief",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Mock Exam Debrief",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Mock Exam Debrief",
+        titleMy: "Zayar Lin ၏ Mock Exam Debrief",
+        passageEn:
+            "After Zayar Lin completed a full timed mock of both Paper 1 and Paper 2 under strict exam conditions, Sayar Ye Min sat down with him for a debrief focused entirely on patterns in his mistakes, not just his overall mark. Zayar Lin's Paper 1 score was strong, losing marks mainly on two 'discuss' questions where he had given technically correct facts but never actually weighed them against each other to reach a justified conclusion, exactly the command-word gap identified back in Week 33.\n\nHis Paper 2 result told a different story. He had lost marks not from misunderstanding any single concept, but from careless slips under real time pressure: writing WHILE score > -1 instead of WHILE score != -1 in one trace-table question, which silently changed the loop's exit condition and threw off every subsequent row of his trace. Sayar Ye Min pointed out this was not a conceptual gap at all -- Zayar Lin clearly understood sentinel-controlled loops, since he had explained the concept correctly earlier in the same paper. It was a transcription slip made while working quickly under time pressure, a completely different problem requiring a completely different fix.\n\nBased on this diagnosis, Sayar Ye Min recommended a specific technique for the remaining mock exams: after writing any pseudocode involving a loop condition, Zayar Lin should pause for ten seconds and reread that one line in isolation before moving on, checking it matched his intended logic exactly, rather than trusting his first-draft typing under pressure. Zayar Lin tried this on his next timed practice paper and caught two similar near-slips himself before they became costly mistakes, confirming that his actual knowledge gaps and his exam-technique gaps were genuinely different problems requiring genuinely different revision strategies -- precisely the distinction the whole term's diagnostic approach had been built to reveal.",
+        passageMy:
+            "Zayar Lin သည် Paper 1 နှင့် Paper 2 နှစ်ခုစလုံး၏ အချိန်သတ်မှတ်ထားသော Mock Exam အပြည့်အစုံကို တင်းကျပ်သော စာမေးပွဲ အခြေအနေများအောက်တွင် ပြီးမြောက်စွာ ဖြေဆိုပြီးနောက် သူ့ စုစုပေါင်း အမှတ်သာမက အမှားများ၏ Pattern အပေါ် လုံးဝ အာရုံစိုက်ထားသော Debrief တစ်ခုအတွက် ဆရာရဲမင်းသည် သူနှင့် ထိုင်ခဲ့သည်။ Zayar Lin ၏ Paper 1 ရမှတ်သည် ခိုင်မာခဲ့ပြီး Technically မှန်ကန်သော အချက်အလက်များ ပေးထားသော်လည်း ခိုင်လုံသော ကောက်ချက်တစ်ခုသို့ ရောက်ရှိရန် ၎င်းတို့ကို တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိန်ခွင်လျှာမညှိခဲ့သော Discuss မေးခွန်းနှစ်ခုတွင် အဓိက အမှတ်ဆုံးရှုံးခဲ့ပြီး ၎င်းသည် Week 33 တွင် ဖော်ထုတ်ခဲ့သော Command-Word Gap အတိအကျ ဖြစ်သည်။\n\n၎င်း၏ Paper 2 ရလဒ်သည် ကွဲပြားသော ဇာတ်လမ်းတစ်ခု ပြောပြခဲ့သည်။ Concept တစ်ခုတည်းကို နားလည်မှု မှားယွင်းခြင်းမှ မဟုတ်ဘဲ စစ်မှန်သော အချိန်ဖိအားအောက်တွင် ဂရုမစိုက်သော ချော်ချက်များမှ အမှတ်များ ဆုံးရှုံးခဲ့သည် - Trace-Table မေးခွန်းတစ်ခုတွင် WHILE score != -1 အစား WHILE score > -1 ကို ရေးမိခဲ့ခြင်းသည် Loop ၏ Exit Condition ကို တိတ်ဆိတ်စွာ ပြောင်းလဲစေပြီး ၎င်း၏ Trace ရှိ ဆက်လက်ဖြစ်ပေါ်သော Row တိုင်းကို ချော်ဖော်စေခဲ့သည်။ ဤသည်ကား Concept Gap လုံးဝ မဟုတ်ကြောင်း ဆရာရဲမင်း ညွှန်ပြခဲ့သည် -- Zayar Lin သည် Sentinel-Controlled Loop များကို ရှင်းရှင်းလင်းလင်း နားလည်ခဲ့ပြီး Paper တစ်ခုတည်းအတွင်း ရှေ့ပိုင်းတွင် Concept ကို မှန်ကန်စွာ ရှင်းပြခဲ့သည်။ ၎င်းသည် အချိန်ဖိအားအောက်တွင် လျင်မြန်စွာ အလုပ်လုပ်နေစဉ် ပြုလုပ်မိသော Transcription Slip ဖြစ်ပြီး လုံးဝ ကွဲပြားသော ပြင်ဆင်ချက် လိုအပ်သော လုံးဝ ကွဲပြားသော ပြဿနာ ဖြစ်သည်။\n\nဤ ရောဂါရှာဖွေမှုအပေါ် အခြေခံ၍ ကျန်ရှိသေးသော Mock Exam များအတွက် တိကျသော နည်းလမ်းတစ်ခုကို ဆရာရဲမင်း အကြံပြုခဲ့သည် - Loop Condition ပါဝင်သော Pseudocode မည်သည်ကိုမဆို ရေးသားပြီးနောက် Zayar Lin သည် ဆက်မသွားမီ ထို လိုင်းတစ်ကြောင်းတည်းကို သီးခြား ပြန်ဖတ်ရန် ဆက္ကန့် ဆယ်ခန့် ခေတ္တရပ်ပြီး ၎င်း၏ ရည်ရွယ်ထားသော Logic နှင့် အတိအကျ ကိုက်ညီခြင်း ရှိမရှိ စစ်ဆေးသင့်ကြောင်း၊ အချိန်ဖိအားအောက် သူ့ ပထမ Draft Typing ကို ယုံကြည်မည့်အစား ဖြစ်သည်။ Zayar Lin သည် ၎င်း၏ နောက်ထပ် အချိန်သတ်မှတ်ထားသော Practice Paper တွင် ၎င်းကို စမ်းသပ်ခဲ့ပြီး ကုန်ကျစရိတ်ကြီးမားသော အမှားများ မဖြစ်လာမီ ဆင်တူသော Slip နီးပါးများကို ကိုယ်တိုင် နှစ်ကြိမ် ဖမ်းဆီးနိုင်ခဲ့ပြီး ၎င်း၏ အမှန်တကယ် အသိပညာ Gap များနှင့် ၎င်း၏ စာမေးပွဲ နည်းပညာ Gap များသည် စစ်မှန်စွာ ကွဲပြားသော ပြဿနာများဖြစ်ကြောင်း စစ်မှန်စွာ ကွဲပြားသော ပြန်လည်လေ့ကျင့်ရေး ဗျူဟာများ လိုအပ်ကြောင်း အတည်ပြုခဲ့သည် -- ၎င်းသည် Term တစ်ခုလုံး၏ Diagnostic Approach ဖော်ထုတ်ရန် တည်ဆောက်ခဲ့သော ကွဲပြားချက် အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did Zayar Lin lose marks on the two 'discuss' questions?",
+            questionMy:
+                "Discuss မေးခွန်းနှစ်ခုတွင် Zayar Lin အမှတ်ဆုံးရှုံးခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He gave correct facts but never weighed them against each other to reach a justified conclusion",
+              "He wrote nothing at all for those questions",
+              "He answered a completely different question by mistake",
+              "He ran out of time before starting Paper 1",
+            ],
+            optionsMy: [
+              "မှန်ကန်သော အချက်အလက်များ ပေးထားသော်လည်း ခိုင်လုံသော ကောက်ချက်တစ်ခုသို့ ရောက်ရှိရန် ၎င်းတို့ကို တစ်ခုနှင့်တစ်ခု ဘယ်တော့မှ မချိန်ခွင်လျှာညှိခဲ့ခြင်း",
+              "ထို မေးခွန်းများအတွက် မည်သည်ကိုမျှ လုံးဝ မရေးခဲ့ခြင်း",
+              "အမှားအယွင်းအားဖြင့် လုံးဝ ကွဲပြားသော မေးခွန်းကို ဖြေဆိုခဲ့ခြင်း",
+              "Paper 1 မစတင်မီ အချိန် ကုန်သွားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what type of mistake did Zayar Lin make on the trace-table question?",
+            questionMy:
+                "Trace-Table မေးခွန်းတွင် Zayar Lin ပြုလုပ်မိခဲ့သော အမှား အမျိုးအစားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A transcription slip under time pressure, not a conceptual misunderstanding",
+              "A complete failure to understand loops at all",
+              "Refusing to attempt the question entirely",
+              "Copying another student's answer",
+            ],
+            optionsMy: [
+              "Concept နားလည်မှု မှားယွင်းခြင်း မဟုတ်ဘဲ အချိန်ဖိအားအောက် Transcription Slip",
+              "Loop များကို လုံးဝ နားလည်မှု ပြည့်စုံစွာ ပျက်ကွက်ခြင်း",
+              "မေးခွန်းကို လုံးဝ ဖြေဆိုရန် ငြင်းဆန်ခြင်း",
+              "အခြား ကျောင်းသားတစ်ဦး၏ အဖြေ ကူးယူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the transcription slip."],
+            hintsMy: [
+              "Transcription Slip အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what technique did Sayar Ye Min recommend for loop conditions?",
+            questionMy:
+                "Loop Condition များအတွက် ဆရာရဲမင်း အကြံပြုခဲ့သော နည်းလမ်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Pause for ten seconds and reread the line in isolation before moving on",
+              "Never write any loop conditions at all",
+              "Skip loop questions entirely on the real exam",
+              "Always ask another student for the answer",
+            ],
+            optionsMy: [
+              "ဆက်မသွားမီ ဆက္ကန့် ဆယ်ခန့် ခေတ္တရပ်ပြီး လိုင်းကို သီးခြား ပြန်ဖတ်ခြင်း",
+              "Loop Condition မည်သည်ကိုမျှ ဘယ်တော့မှ မရေးခြင်း",
+              "တကယ့် စာမေးပွဲတွင် Loop မေးခွန်းများကို လုံးဝ ကျော်လွှားခြင်း",
+              "အဖြေအတွက် အခြား ကျောင်းသားတစ်ဦးကို အမြဲ မေးမြန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about pausing for ten seconds."],
+            hintsMy: [
+              "ဆက္ကန့် ဆယ်ခန့် ခေတ္တရပ်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Mock Exam Diagnostics",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Mock Exam Diagnostics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A 'discuss' question typically requires...",
+          questionMy:
+              "'Discuss' မေးခွန်းတစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို တောင်းဆိုသည်",
+          optionsEn: [
+            "Weighing points against each other to reach a justified conclusion",
+            "A single one-word answer",
+            "No written response at all",
+            "Only a drawn diagram with no text",
+          ],
+          optionsMy: [
+            "ခိုင်လုံသော ကောက်ချက်တစ်ခုသို့ ရောက်ရှိရန် အချက်များကို တစ်ခုနှင့်တစ်ခု ချိန်ခွင်လျှာညှိခြင်း",
+            "စကားလုံးတစ်လုံးတည်း အဖြေ",
+            "ရေးသား တုံ့ပြန်ချက် မည်သည်မှ",
+            "Text မပါဘဲ ဆွဲထားသော Diagram တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A transcription slip under time pressure is best fixed by...",
+          questionMy:
+              "အချိန်ဖိအားအောက် Transcription Slip တစ်ခုကို ...ဖြင့် အကောင်းဆုံး ပြင်ဆင်နိုင်သည်",
+          optionsEn: [
+            "Pausing briefly to reread critical lines before moving on",
+            "Studying more theory concepts with no change to exam technique",
+            "Writing faster with less care",
+            "Ignoring it since it never affects the final answer",
+          ],
+          optionsMy: [
+            "ဆက်မသွားမီ အရေးကြီးသော လိုင်းများကို တိုတောင်းစွာ ခေတ္တရပ် ပြန်ဖတ်ခြင်း",
+            "စာမေးပွဲ နည်းပညာကို မပြောင်းလဲဘဲ Theory Concept ပို၍ လေ့လာခြင်း",
+            "ဂရုနည်းစွာဖြင့် ပို၍ မြန်စွာ ရေးသားခြင်း",
+            "နောက်ဆုံး အဖြေကို ဘယ်တော့မှ မထိခိုက်သောကြောင့် လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Distinguishing a knowledge gap from an exam-technique gap matters because...",
+          questionMy:
+              "Knowledge Gap ကို Exam-Technique Gap နှင့် ခွဲခြားသိရှိခြင်း အရေးကြီးသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Each requires a genuinely different revision strategy to fix",
+            "They are always exactly the same problem",
+            "Only knowledge gaps actually exist",
+            "Exam-technique gaps can never be fixed",
+          ],
+          optionsMy: [
+            "တစ်ခုစီသည် ပြင်ဆင်ရန် စစ်မှန်စွာ ကွဲပြားသော ပြန်လည်လေ့ကျင့်ရေး ဗျူဟာ လိုအပ်ခြင်း",
+            "အမြဲ အတိအကျ ပြဿနာတစ်ခုတည်း ဖြစ်ခြင်း",
+            "Knowledge Gap များသာ အမှန်တကယ် တည်ရှိခြင်း",
+            "Exam-Technique Gap များကို ဘယ်တော့မှ ပြင်ဆင်၍ မရနိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 9, Week 36 (Capstone/Boss Week): "IGCSE
+// Computer Science Graduation"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek36 = CourseWeekDef(
+  id: "course-igcse-computing-w36",
+  weekNumber: 36,
+  titleEn: "IGCSE Computer Science Graduation",
+  titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ ဘွဲ့နှင်းသဘင် အထိမ်းအမှတ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w36-d1",
+      dayNumber: 1,
+      titleEn: "Full-Course Review: Terms 1-4",
+      titleMy: "သင်တန်းအပြည့်အစုံ ပြန်လည်သုံးသပ်ခြင်း - Term 1-4",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the denary value of the binary number 10110?",
+          questionMy: "Binary ဂဏန်း 10110 ၏ Denary တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["22", "20", "24", "18"],
+          optionsMy: ["22", "20", "24", "18"],
+          correctIndex: 0,
+          hintsEn: [
+            "10110 = (1x16) + (0x8) + (1x4) + (1x2) + (0x1) = 16 + 0 + 4 + 2 + 0 = 22.",
+          ],
+          hintsMy: [
+            "10110 = (1x16) + (0x8) + (1x4) + (1x2) + (0x1) = 16 + 0 + 4 + 2 + 0 = 22 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "DNS translates domain names into...",
+          questionMy: "DNS သည် Domain Name များကို ...အဖြစ် ဘာသာပြန်ဆိုသည်",
+          optionsEn: [
+            "Numeric IP addresses",
+            "MAC addresses only",
+            "HTML tags",
+            "Compiled machine code",
+          ],
+          optionsMy: [
+            "ဂဏန်း IP Address များ",
+            "MAC Address များသာ",
+            "HTML Tag များ",
+            "Compile လုပ်ထားသော Machine Code",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A compiler is generally preferred for safety-critical software because it...",
+          questionMy:
+              "Safety-Critical Software အတွက် Compiler ကို ယေဘုယျအားဖြင့် ဦးစားပေးရသည့် အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Catches every syntax error before deployment, not mid-execution",
+            "Is always free of charge",
+            "Cannot ever be used with Python",
+            "Runs slower than every interpreter in all cases",
+          ],
+          optionsMy: [
+            "Deployment မတိုင်မီ Syntax Error တိုင်းကို ဖမ်းဆီးပြီး Execution အလယ်ပိုင်းတွင် မဟုတ်ခြင်း",
+            "အမြဲ အခမဲ့ ဖြစ်ခြင်း",
+            "Python နှင့် ဘယ်တော့မှ မသုံး၍ ရနိုင်ခြင်း",
+            "အခြေအနေတိုင်းတွင် Interpreter တိုင်းထက် ပို၍ နှေးကွေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w36-d2",
+      dayNumber: 2,
+      titleEn: "Full-Course Review: Terms 5-8",
+      titleMy: "သင်တန်းအပြည့်အစုံ ပြန်လည်သုံးသပ်ခြင်း - Term 5-8",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w36-dm-1",
+          termEn: "Trace table",
+          termMy: "Trace Table",
+          matchEn:
+              "Records how each variable changes step by step to verify an algorithm's logic",
+          matchMy:
+              "Algorithm ၏ Logic ကို အတည်ပြုရန် Variable တစ်ခုစီ မည်သို့ ပြောင်းလဲကြောင်း အဆင့်ဆင့် မှတ်တမ်းတင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w36-dm-2",
+          termEn: "Zero-based indexing",
+          termMy: "Zero-Based Indexing",
+          matchEn:
+              "The convention where an array's or list's first element sits at position 0",
+          matchMy:
+              "Array (သို့) List ၏ ပထမဆုံး Element သည် Position 0 တွင် ရှိသော Convention",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w36-dm-3",
+          termEn: "Foreign key",
+          termMy: "Foreign Key",
+          matchEn:
+              "A field linking to another table's primary key, avoiding data redundancy",
+          matchMy:
+              "Data Redundancy ကို ရှောင်ရှားလျက် အခြား Table တစ်ခု၏ Primary Key သို့ ချိတ်ဆက်ပေးသော Field",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w36-dm-4",
+          termEn: "Feedback loop",
+          termMy: "Feedback Loop",
+          matchEn:
+              "A continuous cycle of measuring, deciding, and acting that never permanently stops",
+          matchMy:
+              "ဘယ်တော့မှ အမြဲတမ်း မရပ်တန့်သော တိုင်းတာခြင်း၊ ဆုံးဖြတ်ခြင်းနှင့် ဆောင်ရွက်ခြင်း၏ အဆက်မပြတ် Cycle",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w36-dm-5",
+          termEn: "Erroneous test data",
+          termMy: "Erroneous Test Data",
+          matchEn:
+              "Deliberately invalid input checking a system handles mistakes safely",
+          matchMy:
+              "System သည် အမှားများကို လုံခြုံစွာ ကိုင်တွယ်ခြင်း ရှိမရှိ စစ်ဆေးသော ရည်ရွယ်ချက်ရှိရှိ Invalid Input",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: One Full-Course Sweep",
+      titleMy: "စီစစ်ကြမည် - သင်တန်းအပြည့်အစုံ တစ်ကြိမ်တည်း ခြုံငုံမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Hardware/Data Concept", "Software/Programming Concept"],
+        bucketsMy: ["Hardware/Data Concept", "Software/Programming Concept"],
+        items: [
+          SortingItem(
+            id: "igcomp-w36-sort-1",
+            labelEn: "Logic gate",
+            labelMy: "Logic Gate",
+            correctBucketEn: "Hardware/Data Concept",
+            correctBucketMy: "Hardware/Data Concept",
+          ),
+          SortingItem(
+            id: "igcomp-w36-sort-2",
+            labelEn: "Python function returning a value",
+            labelMy: "တန်ဖိုးတစ်ခု ပြန်ပေးသော Python Function",
+            correctBucketEn: "Software/Programming Concept",
+            correctBucketMy: "Software/Programming Concept",
+          ),
+          SortingItem(
+            id: "igcomp-w36-sort-3",
+            labelEn: "RAM and ROM",
+            labelMy: "RAM နှင့် ROM",
+            correctBucketEn: "Hardware/Data Concept",
+            correctBucketMy: "Hardware/Data Concept",
+          ),
+          SortingItem(
+            id: "igcomp-w36-sort-4",
+            labelEn: "SQL SELECT query",
+            labelMy: "SQL SELECT Query",
+            correctBucketEn: "Software/Programming Concept",
+            correctBucketMy: "Software/Programming Concept",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Graduation Reflection",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ ဘွဲ့နှင်းသဘင် ပြန်လည်သုံးသပ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Graduation Reflection",
+        titleMy: "Zayar Lin ၏ ဘွဲ့နှင်းသဘင် ပြန်လည်သုံးသပ်ချက်",
+        passageEn:
+            "On the final day of the course, Sayar Ye Min asked Zayar Lin to write a short reflection connecting his very first lesson, tracing binary addition and discovering his first overflow error, to the student he had become by the end of Term 9. Zayar Lin realised the connecting thread was not any single fact he had memorised, but a discipline he had built gradually: trace before you trust. Whether it was a binary calculation, a logic circuit, a Python function, an SQL query, or a control system's feedback loop, the habit of working through exactly what a piece of logic actually did, step by step, before assuming it was correct, had carried him through every single term.\n\nHe traced his own growth across the subjects the way he now traced code: Term 1 had taught him that computers represent everything, ultimately, as patterns of bits; Term 3 had shown him that those bits flow through physical logic gates built from simple AND/OR/NOT rules; Term 5 and Term 6 had taught him to express solutions first as careful pseudocode and then as real, runnable Python; Term 7 had taught him that well-organised data avoids redundancy through relationships, not repetition; and Term 8 had shown him that real-world automated systems succeed or fail based on the same rigorous testing discipline he had first practised debugging his own five-line programs.\n\nSayar Ye Min's final piece of advice was not about any specific IGCSE topic at all: he told Zayar Lin that the specific syntax of Python, or the exact SQL keywords, or even the details of this particular exam board's mark scheme, would all fade somewhat with time and eventually be replaced by newer tools and technologies -- but the underlying discipline of decomposing a large problem into small, traceable, testable steps was the genuinely durable skill computer science had been teaching him all along, one that would transfer to any future language, tool, or problem he would ever encounter. Zayar Lin left his final IGCSE Computer Science lesson not just with a strong exam preparation, but with a way of thinking he recognised he would carry forward long after the exam itself was behind him.",
+        passageMy:
+            "သင်တန်း၏ နောက်ဆုံးနေ့တွင် ၎င်း၏ ပထမဆုံး သင်ခန်းစာ၊ Binary ပေါင်းစည်းမှုကို Trace လုပ်ပြီး ပထမဆုံး Overflow Error ကို ရှာဖွေတွေ့ရှိခြင်းမှ Term 9 အဆုံးတွင် သူ ဖြစ်လာခဲ့သော ကျောင်းသားသို့ ချိတ်ဆက်သော ပြန်လည်သုံးသပ်ချက်တိုတောင်းတစ်ခု ရေးသားရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည်။ ချိတ်ဆက်သော အချည်းမှာ သူ အလွတ်ကျက်မှတ်ခဲ့သော အချက်တစ်ခုတည်း မဟုတ်ဘဲ ဖြည်းဖြည်းချင်း တည်ဆောက်လာခဲ့သော စည်းကမ်းတစ်ခု ဖြစ်ကြောင်း Zayar Lin သိရှိခဲ့သည် - Trust မလုပ်မီ Trace လုပ်ပါ။ Binary တွက်ချက်မှု၊ Logic Circuit၊ Python Function၊ SQL Query၊ (သို့) Control System ၏ Feedback Loop မည်သည် ဖြစ်စေ Logic အပိုင်းတစ်ခု အမှန်တကယ် အဘယ်အရာ ပြုလုပ်ကြောင်း မှန်ကန်ကြောင်း မယူဆမီ အဆင့်ဆင့် ဖြတ်သန်း လုပ်ဆောင်သော အလေ့အထသည် Term တိုင်းတစ်လျှောက် သူ့ကို ခေါ်ဆောင်လာခဲ့သည်။\n\nယခုအခါ Code ကို Trace လုပ်သော ပုံစံအတိုင်း ဘာသာရပ်များတစ်လျှောက် ၎င်းကိုယ်ပိုင် ကြီးထွားမှုကို သူ Trace ခဲ့သည် - Term 1 သည် ကွန်ပျူတာများသည် အရာအားလုံးကို နောက်ဆုံးတွင် Bit များ၏ Pattern အဖြစ် ကိုယ်စားပြုကြောင်း သင်ပေးခဲ့ပြီး; Term 3 သည် ထို Bit များသည် ရိုးရှင်းသော AND/OR/NOT စည်းမျဉ်းများမှ တည်ဆောက်ထားသော ရုပ်ပိုင်းဆိုင်ရာ Logic Gate များတစ်လျှောက် စီးဆင်းကြောင်း ပြသခဲ့သည်; Term 5 နှင့် Term 6 သည် ဖြေရှင်းချက်များကို သတိထားသော Pseudocode အဖြစ် ဦးစွာ ဖော်ပြပြီး ထို့နောက် Real, Runnable Python အဖြစ် ဖော်ပြရန် သင်ပေးခဲ့သည်; Term 7 သည် စနစ်တကျ စီစဉ်ထားသော Data သည် ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းမဟုတ်ဘဲ ဆက်နွယ်မှုများမှတစ်ဆင့် Redundancy ကို ရှောင်ရှားကြောင်း သင်ပေးခဲ့သည်; Term 8 သည် လက်တွေ့ ကမ္ဘာ Automated System များသည် သူ Line ငါးကြောင်း Program ကိုယ်တိုင်ကို Debug လုပ်ရာတွင် ပထမဦးဆုံး လေ့ကျင့်ခဲ့သော တင်းကျပ်သော Testing စည်းကမ်းတူညီအပေါ် အခြေခံ၍ အောင်မြင်ခြင်း (သို့) ရှုံးနိမ့်ခြင်း ဖြစ်ကြောင်း ပြသခဲ့သည်။\n\nဆရာရဲမင်း၏ နောက်ဆုံး အကြံဉာဏ်သည် တိကျသော IGCSE Topic မည်သည်ကိုမျှ လုံးဝ မဆိုင်ခဲ့ပါ - Python ၏ တိကျသော Syntax၊ တိကျသော SQL Keyword များ (သို့) ဤ တိကျသော Exam Board ၏ Mark Scheme အသေးစိတ်ပင်လျှင် အချိန်နှင့်အမျှ အနည်းငယ် ဖျောက်ဖျက်ပျောက်ကွယ်သွားပြီး နောက်ဆုံးတွင် ပို၍ အသစ်သော Tool များနှင့် Technology များဖြင့် အစားထိုးခံရလိမ့်မည် -- သို့သော် ပြဿနာကြီးတစ်ခုကို သေးငယ်၊ Traceable၊ Testable အဆင့်များအဖြစ် ခွဲခြမ်းစိတ်ဖြာနိုင်သော နောက်ကွယ်ရှိ စည်းကမ်းသည် Computer Science က သူ့ကို အစဉ်တစ်လျှောက် သင်ပေးခဲ့သော စစ်မှန်စွာ ခံနိုင်ရည်ရှိသော Skill ဖြစ်ကြောင်း၊ ၎င်းသည် သူ ကြုံတွေ့မည့် အနာဂတ် ဘာသာစကား၊ Tool (သို့) ပြဿနာ မည်သည်သို့ ကူးပြောင်းလိမ့်မည် ဖြစ်ကြောင်း ဆရာရဲမင်း ပြောကြားခဲ့သည်။ Zayar Lin သည် သူ့ နောက်ဆုံး IGCSE Computer Science သင်ခန်းစာမှ ခိုင်မာသော စာမေးပွဲ ပြင်ဆင်မှုနှင့်သာမက စာမေးပွဲ ကိုယ်တိုင် ကျော်လွန်သွားပြီးနောက်လည်း သယ်ဆောင်သွားလိမ့်မည်ဟု သူ အသိအမှတ်ပြုသော တွေးခေါ်ပုံဖြင့် ထွက်ခွာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what discipline connected Zayar Lin's very first and very last lessons?",
+            questionMy:
+                "Zayar Lin ၏ ပထမဆုံးနှင့် နောက်ဆုံး သင်ခန်းစာများကို ချိတ်ဆက်ပေးသော စည်းကမ်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Tracing exactly what logic actually did, step by step, before assuming it was correct",
+              "Memorising every fact without ever checking them",
+              "Never using a computer at all throughout the course",
+              "Guessing answers randomly on every exam",
+            ],
+            optionsMy: [
+              "မှန်ကန်ကြောင်း မယူဆမီ Logic တစ်ခု အမှန်တကယ် အဘယ်အရာ ပြုလုပ်ကြောင်း အဆင့်ဆင့် Trace လုပ်ခြင်း",
+              "မည်သည်ကိုမျှ ဘယ်တော့မှ မစစ်ဆေးဘဲ အချက်တိုင်းကို အလွတ်ကျက်မှတ်ခြင်း",
+              "သင်တန်းတစ်ခုလုံးတွင် ကွန်ပျူတာကို ဘယ်တော့မှ လုံးဝ မသုံးခြင်း",
+              "စာမေးပွဲတိုင်းတွင် အဖြေများကို ကျပန်း ခန့်မှန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about 'trace before you trust'."],
+            hintsMy: [
+              "'Trust မလုပ်မီ Trace လုပ်ပါ' အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Term 7 teach Zayar Lin?",
+            questionMy:
+                "Term 7 က Zayar Lin ကို သင်ပေးခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Well-organised data avoids redundancy through relationships, not repetition",
+              "Logic gates are built from simple AND/OR/NOT rules",
+              "Computers represent everything as patterns of bits",
+              "Automated systems require rigorous testing",
+            ],
+            optionsMy: [
+              "စနစ်တကျ စီစဉ်ထားသော Data သည် ထပ်ခါထပ်ခါ ပြုလုပ်ခြင်းမဟုတ်ဘဲ ဆက်နွယ်မှုများမှတစ်ဆင့် Redundancy ကို ရှောင်ရှားခြင်း",
+              "Logic Gate များသည် ရိုးရှင်းသော AND/OR/NOT စည်းမျဉ်းများမှ တည်ဆောက်ထားခြင်း",
+              "ကွန်ပျူတာများသည် အရာအားလုံးကို Bit များ၏ Pattern အဖြစ် ကိုယ်စားပြုခြင်း",
+              "Automated System များသည် တင်းကျပ်သော Testing လိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about Term 7 in paragraph 2."],
+            hintsMy: [
+              "စာပိုဒ် ၂ ရှိ Term 7 အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Sayar Ye Min say was the genuinely durable skill?",
+            questionMy:
+                "စစ်မှန်စွာ ခံနိုင်ရည်ရှိသော Skill ဖြစ်ကြောင်း ဆရာရဲမင်း ပြောကြားခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Decomposing a large problem into small, traceable, testable steps",
+              "Memorising the exact syntax of Python forever",
+              "Memorising this specific exam board's mark scheme forever",
+              "Never learning any new tool or language again",
+            ],
+            optionsMy: [
+              "ပြဿနာကြီးတစ်ခုကို သေးငယ်၊ Traceable၊ Testable အဆင့်များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း",
+              "Python ၏ တိကျသော Syntax ကို ထာဝရ အလွတ်ကျက်မှတ်ခြင်း",
+              "ဤ တိကျသော Exam Board ၏ Mark Scheme ကို ထာဝရ အလွတ်ကျက်မှတ်ခြင်း",
+              "Tool (သို့) ဘာသာစကား အသစ်မည်သည်ကိုမျှ ထပ်မံ ဘယ်တော့မှ မသင်ယူခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about decomposing problems."],
+            hintsMy: [
+              "ပြဿနာများ ခွဲခြမ်းစိတ်ဖြာခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w36-d5",
+      dayNumber: 5,
+      titleEn: "Term 9 Capstone: IGCSE Computer Science Graduation Exam",
+      titleMy:
+          "Term 9 Capstone - IGCSE Computer Science ဘွဲ့နှင်းသဘင် စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across the whole IGCSE Computer Science course, the single most emphasised habit was...",
+          questionMy:
+              "IGCSE Computer Science သင်တန်းတစ်ခုလုံးတစ်လျှောက် အထူးဂရုစိုက်ထားသော အလေ့အထတစ်ခုတည်းမှာ...",
+          optionsEn: [
+            "Tracing logic step by step before trusting it is correct",
+            "Memorising facts without ever verifying them",
+            "Avoiding all forms of testing entirely",
+            "Never writing any pseudocode before coding",
+          ],
+          optionsMy: [
+            "မှန်ကန်ကြောင်း မယုံကြည်မီ Logic ကို အဆင့်ဆင့် Trace လုပ်ခြင်း",
+            "ဘယ်တော့မှ မစစ်ဆေးဘဲ အချက်များကို အလွတ်ကျက်မှတ်ခြင်း",
+            "Testing ပုံစံအားလုံးကို လုံးဝ ရှောင်ရှားခြင်း",
+            "Code မရေးမီ Pseudocode မည်သည်ကိုမျှ ဘယ်တော့မှ မရေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A foreign key's role, learned in Term 7, is to...",
+          questionMy: "Term 7 တွင် သင်ယူခဲ့သော Foreign Key ၏ အခန်းကဏ္ဍမှာ...",
+          optionsEn: [
+            "Reference another table's primary key, avoiding redundancy",
+            "Permanently delete a table",
+            "Encrypt an entire database",
+            "Replace the need for SQL entirely",
+          ],
+          optionsMy: [
+            "Redundancy ကို ရှောင်ရှားလျက် အခြား Table တစ်ခု၏ Primary Key ကို ရည်ညွှန်းခြင်း",
+            "Table တစ်ခုကို အမြဲတမ်း ဖျက်ချခြင်း",
+            "Database တစ်ခုလုံးကို Encrypt လုပ်ခြင်း",
+            "SQL လိုအပ်ချက်ကို လုံးဝ အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Congratulations on completing IGCSE Computer Science! What skill will transfer to any future programming language you learn?",
+          questionMy:
+              "IGCSE Computer Science ပြီးဆုံးအောင် အထူးပင် ဂုဏ်ယူပါသည်! သင် သင်ယူမည့် အနာဂတ် Programming Language မည်သည်သို့မဆို ကူးပြောင်းလိမ့်မည့် Skill မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Decomposing problems into small, traceable, testable steps",
+            "The exact keyword spelling of one specific language only",
+            "Nothing transfers between different languages at all",
+            "Only the ability to use one specific exam board's format",
+          ],
+          optionsMy: [
+            "ပြဿနာများကို သေးငယ်၊ Traceable၊ Testable အဆင့်များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း",
+            "တိကျသော ဘာသာစကား တစ်ခုတည်း၏ Keyword စာလုံးပေါင်း အတိအကျ",
+            "ဘာသာစကား မတူညီများကြား မည်သည်မှ လုံးဝ မကူးပြောင်းခြင်း",
+            "တိကျသော Exam Board တစ်ခုတည်း၏ Format ကို အသုံးပြုနိုင်စွမ်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 9: "Exam Prep & Final Capstone" (Weeks
+// 33-36)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm9 = CourseTermDef(
+  id: "course-igcse-computing-t9",
+  termNumber: 9,
+  titleEn: "Exam Prep & Final Capstone",
+  titleMy: "စာမေးပွဲ ပြင်ဆင်ရေးနှင့် နောက်ဆုံး Capstone",
+  certificateTitleEn: "IGCSE Computer Science Graduate",
+  certificateTitleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ ဘွဲ့ရ",
+  weeks: [
+    _igcseComputingWeek33,
+    _igcseComputingWeek34,
+    _igcseComputingWeek35,
+    _igcseComputingWeek36,
   ],
 );
 // __IGCSE_COMPUTING_MARKER__
