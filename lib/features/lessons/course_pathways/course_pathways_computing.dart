@@ -141130,3 +141130,2786 @@ const CoursePathwayDef year3ComputingPathway = CoursePathwayDef(
     _year3ComputingTerm9,
   ],
 );
+
+// =====================================================================
+// IGCSE Computing -- assembled Terms 1-9 (protagonist: Zayar Lin,
+// continuing from Secondary 3 Computing's IGCSE-prep flavour text;
+// tutor: Sayar Ye Min). Built from the ai_data_bridge/
+// igcse_computer_science_all_terms.dart blueprint.
+// =====================================================================
+// =====================================================================
+// IGCSE Computing -- Term 1, Week 1: "Binary Systems and Conversions"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek1 = CourseWeekDef(
+  id: "course-igcse-computing-w1",
+  weekNumber: 1,
+  titleEn: "Binary Systems and Conversions",
+  titleMy: "ဘိုင်နရီစနစ်နှင့် ကိန်းဂဏန်း ပြောင်းလဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w1-d1",
+      dayNumber: 1,
+      titleEn: "Denary, Binary and Hexadecimal",
+      titleMy: "Denary, Binary နှင့် Hexadecimal",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the denary (base 10) value of the binary number 1011?",
+          questionMy:
+              "Binary ဂဏန်း 1011 ၏ Denary (base 10) တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["11", "13", "9", "15"],
+          optionsMy: ["11", "13", "9", "15"],
+          correctIndex: 0,
+          hintsEn: [
+            "Reading right to left, the place values are 1, 2, 4, 8. Add up the columns where there is a 1.",
+            "1011 = (1x8) + (0x4) + (1x2) + (1x1) = 8 + 0 + 2 + 1 = 11.",
+          ],
+          hintsMy: [
+            "ညာမှဘယ်သို့ ဖတ်လျှင် နေရာတန်ဖိုးများမှာ 1, 2, 4, 8 ဖြစ်သည်။ 1 ရှိသော column များကို ပေါင်းပါ။",
+            "1011 = (1x8) + (0x4) + (1x2) + (1x1) = 8 + 0 + 2 + 1 = 11 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the 8-bit binary equivalent of the denary number 42?",
+          questionMy:
+              "Denary ဂဏန်း 42 ၏ 8-bit Binary ညီမျှတန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["00101010", "00101011", "01010100", "00110010"],
+          optionsMy: ["00101010", "00101011", "01010100", "00110010"],
+          correctIndex: 0,
+          hintsEn: [
+            "42 = 32 + 8 + 2, which are the 32, 8, and 2 place-value columns.",
+            "Setting the 32, 8, and 2 bits to 1 and every other bit to 0 in an 8-bit register gives 00101010.",
+          ],
+          hintsMy: [
+            "42 = 32 + 8 + 2 ဖြစ်ပြီး ၎င်းတို့မှာ 32, 8, 2 နေရာတန်ဖိုး column များ ဖြစ်သည်။",
+            "8-bit register တစ်ခုတွင် 32, 8, 2 bit များကို 1 သတ်မှတ်ပြီး ကျန် bit များကို 0 ချထားလျှင် 00101010 ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In hexadecimal, a single hex digit represents how many binary bits, and why is hex commonly used to represent memory addresses?",
+          questionMy:
+              "Hexadecimal တွင် Hex Digit တစ်လုံးသည် Binary bit မည်မျှကို ကိုယ်စားပြုပြီး memory address များကို ဖော်ပြရန် Hex ကို အဘယ်ကြောင့် အသုံးများသနည်း။",
+          optionsEn: [
+            "4 bits per hex digit -- it lets long binary strings be written far more compactly and readably",
+            "8 bits per hex digit -- it is exactly one byte per digit",
+            "1 bit per hex digit -- the same as binary itself",
+            "2 bits per hex digit -- it matches denary's base-10 system",
+          ],
+          optionsMy: [
+            "Hex Digit တစ်လုံးလျှင် 4 bit -- ရှည်လျားသော binary string များကို ပို၍ တိုတောင်းစွာနှင့် ဖတ်ရလွယ်စွာ ရေးသားနိုင်စေသည်",
+            "Hex Digit တစ်လုံးလျှင် 8 bit -- Digit တစ်လုံးလျှင် Byte တစ်ခု အတိအကျ ဖြစ်သည်",
+            "Hex Digit တစ်လုံးလျှင် 1 bit -- Binary ကိုယ်တိုင်နှင့် အတူတူ ဖြစ်သည်",
+            "Hex Digit တစ်လုံးလျှင် 2 bit -- Denary ၏ Base-10 စနစ်နှင့် ကိုက်ညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each hex digit (0-9, A-F) covers exactly the 16 values representable by 4 binary bits (0000 to 1111).",
+          ],
+          hintsMy: [
+            "Hex Digit တစ်လုံးစီ (0-9, A-F) သည် Binary bit 4 ခုဖြင့် ကိုယ်စားပြုနိုင်သော တန်ဖိုး 16 ခု (0000 မှ 1111) ကို အတိအကျ ဖုံးလွှမ်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Number System Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ကိန်းဂဏန်းစနစ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w1-dm-1",
+          termEn: "Bit",
+          termMy: "Bit",
+          matchEn:
+              "A single binary digit, either 0 or 1 -- the smallest unit of data",
+          matchMy:
+              "0 သို့မဟုတ် 1 တစ်ခုတည်း ရှိသော Binary Digit တစ်ခု -- အသေးငယ်ဆုံး data ယူနစ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w1-dm-2",
+          termEn: "Byte",
+          termMy: "Byte",
+          matchEn:
+              "A group of 8 bits, able to represent 256 different values (0-255)",
+          matchMy:
+              "တန်ဖိုး 256 (0-255) ကို ကိုယ်စားပြုနိုင်သော Bit 8 ခု အုပ်စု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w1-dm-3",
+          termEn: "Overflow error",
+          termMy: "Overflow Error",
+          matchEn:
+              "When a binary addition produces a result too large to fit in the available bits",
+          matchMy:
+              "Binary ပေါင်းစည်းမှုက ရရှိနိုင်သော Bit များတွင် မဝင်နိုင်လောက်အောင် ကြီးမားသော ရလဒ်ကို ထုတ်ပေးသောအခါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w1-dm-4",
+          termEn: "Hexadecimal",
+          termMy: "Hexadecimal",
+          matchEn: "A base-16 number system using digits 0-9 and letters A-F",
+          matchMy:
+              "0-9 ဂဏန်းများနှင့် A-F အက္ခရာများကို အသုံးပြုသော Base-16 ကိန်းဂဏန်းစနစ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w1-dm-5",
+          termEn: "Nibble",
+          termMy: "Nibble",
+          matchEn:
+              "Half a byte -- a group of 4 bits, exactly matched by one hex digit",
+          matchMy:
+              "Byte ၏ ထက်ဝက် -- Hex Digit တစ်လုံးနှင့် အတိအကျ ကိုက်ညီသော Bit 4 ခု အုပ်စု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Valid or Invalid Binary Number?",
+      titleMy: "စီစစ်ကြမည် - Binary ဂဏန်း မှန်လား၊ မမှန်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Valid Binary Number", "Invalid Binary Number"],
+        bucketsMy: ["Valid Binary Number", "Invalid Binary Number"],
+        items: [
+          SortingItem(
+            id: "igcomp-w1-sort-1",
+            labelEn: "1010",
+            labelMy: "1010",
+            correctBucketEn: "Valid Binary Number",
+            correctBucketMy: "Valid Binary Number",
+          ),
+          SortingItem(
+            id: "igcomp-w1-sort-2",
+            labelEn: "1029",
+            labelMy: "1029",
+            correctBucketEn: "Invalid Binary Number",
+            correctBucketMy: "Invalid Binary Number",
+          ),
+          SortingItem(
+            id: "igcomp-w1-sort-3",
+            labelEn: "0000",
+            labelMy: "0000",
+            correctBucketEn: "Valid Binary Number",
+            correctBucketMy: "Valid Binary Number",
+          ),
+          SortingItem(
+            id: "igcomp-w1-sort-4",
+            labelEn: "11112",
+            labelMy: "11112",
+            correctBucketEn: "Invalid Binary Number",
+            correctBucketMy: "Invalid Binary Number",
+          ),
+          SortingItem(
+            id: "igcomp-w1-sort-5",
+            labelEn: "11111111",
+            labelMy: "11111111",
+            correctBucketEn: "Valid Binary Number",
+            correctBucketMy: "Valid Binary Number",
+          ),
+          SortingItem(
+            id: "igcomp-w1-sort-6",
+            labelEn: "1A01",
+            labelMy: "1A01",
+            correctBucketEn: "Invalid Binary Number",
+            correctBucketMy: "Invalid Binary Number",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Binary Overflow",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Binary Overflow",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Binary Overflow",
+        titleMy: "Zayar Lin ၏ Binary Overflow",
+        passageEn:
+            "On the first day of IGCSE Computer Science, Sayar Ye Min wrote an 8-bit binary addition on the board: 11111111 plus 00000001. Zayar Lin worked through it column by column exactly like denary addition, carrying a 1 whenever a column summed to more than the base allowed. In the rightmost column, 1 plus 1 made 10 in binary, so he wrote 0 and carried a 1 into the next column. That carry cascaded all the way across every column, since each one was already 1 plus the incoming carry, producing another 10 and another carry, until he reached the leftmost, ninth bit -- a 1 that had nowhere left to go inside an 8-bit register.\n\nSayar Ye Min explained that this was exactly what an overflow error looked like: the true mathematical answer, 100000000 in binary (256 in denary), needed 9 bits to store correctly, but the register only had 8 bits available. The 9th bit, the carry with nowhere to go, was simply discarded, leaving the register holding 00000000 -- mathematically wrong, since the computer now believed 255 plus 1 equalled 0. Zayar Lin immediately connected this to something he had read about older video games where a character's score or health would suddenly jump to zero or a huge negative number after passing a certain point, a real-world consequence of exactly this kind of overflow bug.\n\nHe asked whether the fix was simply to use a bigger number where more precision was needed. Sayar Ye Min agreed that was the standard solution in real systems -- moving from an 8-bit register to a 16-bit or 32-bit register vastly increases the maximum value that can be stored before an overflow occurs, though it never eliminates the risk entirely; it only raises the ceiling. Zayar Lin noted this down as his first exam-technique rule for data representation questions: always check whether a stated register size is actually large enough for the calculation being asked, since IGCSE Paper 1 questions frequently test this overflow concept directly.",
+        passageMy:
+            "IGCSE ကွန်ပျူတာသိပ္ပံ ပထမနေ့တွင် ဆရာရဲမင်းသည် 8-bit Binary ပေါင်းစည်းမှုတစ်ခုကို ဘုတ်ပေါ်တွင် ရေးခဲ့သည် - 11111111 ပေါင်း 00000001 ။ Zayar Lin သည် Denary ပေါင်းစည်းမှုနှင့် အတိအကျ တူညီစွာ column တစ်ခုချင်းစီ ဖြေရှင်းခဲ့ပြီး column တစ်ခုစုစုပေါင်း base ခွင့်ပြုချက်ထက် ကျော်လွန်တိုင်း 1 ကို carry ယူခဲ့သည်။ အညာဘက်ဆုံး column တွင် 1 ပေါင်း 1 သည် Binary တွင် 10 ဖြစ်လာသောကြောင့် သူသည် 0 ကို ရေးပြီး နောက် column သို့ 1 ကို carry ယူခဲ့သည်။ ထို carry သည် column တိုင်းကို ဖြတ်ကျော်ကာ ကူးပြောင်းသွားခဲ့သည်၊ အကြောင်းမှာ column တစ်ခုစီသည် ဝင်လာသော carry ပေါင်း 1 ရှိပြီးသားဖြစ်၍ 10 နှင့် နောက်ထပ် carry တစ်ခု ထပ်မံထုတ်ပေးလျက် ဘယ်ဘက်ဆုံး ကိုးခုမြောက် bit ကို ရောက်သည်အထိ ဖြစ်ခဲ့သည် -- 8-bit register အတွင်း မည်သည့်နေရာမျှ မရှိတော့သော 1 တစ်ခု ။\n\nဤသည်ကား Overflow Error ၏ ပုံစံအတိအကျ ဖြစ်ကြောင်း ဆရာရဲမင်းက ရှင်းပြခဲ့သည် - မှန်ကန်သော သင်္ချာအဖြေ၊ Binary တွင် 100000000 (Denary တွင် 256) သည် မှန်ကန်စွာ သိမ်းဆည်းရန် Bit 9 ခု လိုအပ်သော်လည်း Register တွင် Bit 8 ခုသာ ရရှိနိုင်သည်။ 9 ခုမြောက် Bit၊ သွားစရာမရှိတော့သော carry ကို ရိုးရှင်းစွာ ပယ်ချခဲ့ပြီး Register တွင် 00000000 ကျန်ရစ်ခဲ့သည် -- သင်္ချာအရ မှားယွင်းသည်၊ အကြောင်းမှာ ကွန်ပျူတာသည် ယခု 255 ပေါင်း 1 သည် 0 နှင့် ညီသည်ဟု ယုံကြည်နေသောကြောင့် ဖြစ်သည်။ Zayar Lin သည် ဤအရာကို ဟောင်းနွမ်းသော ဗီဒီယိုဂိမ်းများတွင် ဇာတ်ကောင်တစ်ခု၏ ရမှတ် သို့မဟုတ် ကျန်းမာရေးသည် အမှတ်တစ်ခုကို ကျော်လွန်ပြီးနောက် ရုတ်တရက် သုည သို့မဟုတ် အလွန်ကြီးမားသော negative ဂဏန်းသို့ ခုန်တက်သွားသည့်အကြောင်း သူဖတ်ဖူးသော အရာနှင့် ချက်ချင်း ချိတ်ဆက်မိခဲ့သည် -- ဤ Overflow Bug ပုံစံမျိုး၏ လက်တွေ့ကမ္ဘာ ရလဒ်ပင် ဖြစ်သည်။\n\nတိကျမှု ပို၍ လိုအပ်သည့်နေရာတွင် ဂဏန်းကြီးတစ်ခုကို အသုံးပြုခြင်းသည် ဖြေရှင်းချက် ဖြစ်ခဲ့ပါသလားဟု သူ မေးမြန်းခဲ့သည်။ ၎င်းသည် လက်တွေ့စနစ်များတွင် စံ ဖြေရှင်းနည်း ဖြစ်ကြောင်း ဆရာရဲမင်း သဘောတူခဲ့သည် -- 8-bit register မှ 16-bit သို့မဟုတ် 32-bit register သို့ ပြောင်းခြင်းသည် Overflow မဖြစ်မီ သိမ်းဆည်းနိုင်သော အများဆုံးတန်ဖိုးကို များစွာ တိုးမြှင့်ပေးသော်လည်း အန္တရာယ်ကို လုံးဝ ဖယ်ရှားနိုင်ခြင်း မရှိပါ -- ၎င်းသည် အမြင့်ကို တိုးမြှင့်ပေးရုံသာ ဖြစ်သည်။ Zayar Lin သည် ၎င်းကို Data Representation မေးခွန်းများအတွက် သူ့ ပထမဆုံး စာမေးပွဲ နည်းပညာ စည်းမျဉ်းအဖြစ် မှတ်တမ်းတင်ခဲ့သည် - ဖော်ပြထားသော Register အရွယ်အစားသည် တောင်းဆိုထားသော တွက်ချက်မှုအတွက် အမှန်တကယ် လုံလောက်ခြင်း ရှိမရှိကို အမြဲ စစ်ဆေးရန်၊ အကြောင်းမှာ IGCSE Paper 1 မေးခွန်းများသည် ဤ Overflow သဘောတရားကို တိုက်ရိုက် မကြာခဏ စစ်ဆေးလေ့ရှိသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did the register end up holding 00000000?",
+            questionMy:
+                "Register သည် 00000000 ကျန်ရစ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The 9th bit, the final carry, had nowhere to go in an 8-bit register and was discarded",
+              "Zayar Lin made an arithmetic mistake while adding",
+              "The teacher told him to reset the register",
+              "8-bit registers cannot store the value zero",
+            ],
+            optionsMy: [
+              "9 ခုမြောက် bit၊ နောက်ဆုံး carry သည် 8-bit register အတွင်း သွားစရာမရှိသဖြင့် ပယ်ချခံခဲ့ရသည်",
+              "Zayar Lin သည် ပေါင်းစည်းစဉ် သင်္ချာအမှား ပြုလုပ်မိခဲ့သည်",
+              "ဆရာက Register ကို ပြန်လည်သတ်မှတ်ရန် ပြောကြားခဲ့သည်",
+              "8-bit register များသည် တန်ဖိုးသုညကို သိမ်းဆည်း၍မရပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the 9th bit."],
+            hintsMy: ["9 ခုမြောက် bit အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is the standard real-world fix for overflow risk?",
+            questionMy:
+                "Overflow အန္တရာယ်အတွက် စံ လက်တွေ့ ဖြေရှင်းနည်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Use a larger register size, such as 16-bit or 32-bit, to raise the maximum storable value",
+              "Never perform binary addition at all",
+              "Always round numbers down to zero",
+              "Switch entirely to denary arithmetic",
+            ],
+            optionsMy: [
+              "အများဆုံး သိမ်းဆည်းနိုင်သော တန်ဖိုးကို တိုးမြှင့်ရန် 16-bit သို့မဟုတ် 32-bit ကဲ့သို့ Register အရွယ်အစား ကြီးသည်ကို အသုံးပြုခြင်း",
+              "Binary ပေါင်းစည်းမှုကို လုံးဝ မလုပ်ခြင်း",
+              "ဂဏန်းများကို အမြဲ သုညသို့ ချရေးခြင်း",
+              "Denary တွက်ချက်မှုသို့ လုံးဝ ပြောင်းလဲခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about 16-bit or 32-bit registers."],
+            hintsMy: [
+              "16-bit သို့မဟုတ် 32-bit register အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What exam-technique rule did Zayar Lin write down at the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် Zayar Lin မည်သည့် စာမေးပွဲ နည်းပညာ စည်းမျဉ်းကို ချရေးခဲ့သနည်း။",
+            optionsEn: [
+              "Always check whether a stated register size is large enough for the calculation being asked",
+              "Always use the largest possible register size for every question",
+              "Never trust a question that mentions binary numbers",
+              "Always convert binary to hexadecimal before answering",
+            ],
+            optionsMy: [
+              "ဖော်ပြထားသော Register အရွယ်အစားသည် တောင်းဆိုထားသော တွက်ချက်မှုအတွက် လုံလောက်ခြင်း ရှိမရှိကို အမြဲ စစ်ဆေးရန်",
+              "မေးခွန်းတိုင်းအတွက် ရနိုင်သမျှ အကြီးဆုံး Register အရွယ်အစားကို အမြဲ အသုံးပြုရန်",
+              "Binary ဂဏန်းများ ဖော်ပြထားသော မေးခွန်းကို လုံးဝ မယုံကြည်ရန်",
+              "မဖြေဆိုမီ Binary ကို Hexadecimal သို့ အမြဲ ပြောင်းလဲရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Binary and Hex",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Binary နှင့် Hex",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the denary value of binary 1100?",
+          questionMy: "Binary 1100 ၏ Denary တန်ဖိုးမှာ အဘယ်နည်း။",
+          optionsEn: ["12", "10", "14", "8"],
+          optionsMy: ["12", "10", "14", "8"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "One hexadecimal digit represents exactly how many binary bits?",
+          questionMy:
+              "Hexadecimal Digit တစ်လုံးသည် Binary bit မည်မျှကို အတိအကျ ကိုယ်စားပြုသနည်း။",
+          optionsEn: ["4", "8", "2", "1"],
+          optionsMy: ["4", "8", "2", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An overflow error occurs when...",
+          questionMy: "Overflow Error သည် ...သည့်အခါ ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "A calculation's result needs more bits than the register has available",
+            "A number is written in denary instead of binary",
+            "A hexadecimal digit is used incorrectly",
+            "A byte contains exactly 8 bits",
+          ],
+          optionsMy: [
+            "တွက်ချက်မှု တစ်ခု၏ ရလဒ်သည် Register တွင် ရရှိနိုင်သည်ထက် Bit ပို၍ လိုအပ်သောအခါ",
+            "ဂဏန်းတစ်ခုကို Binary အစား Denary ဖြင့် ရေးသားထားသောအခါ",
+            "Hexadecimal Digit တစ်ခုကို မှားယွင်းစွာ အသုံးပြုသောအခါ",
+            "Byte တစ်ခုတွင် Bit 8 ခု အတိအကျ ပါဝင်သောအခါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 1, Week 2: "Text, Sound, and Images"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek2 = CourseWeekDef(
+  id: "course-igcse-computing-w2",
+  weekNumber: 2,
+  titleEn: "Text, Sound, and Images",
+  titleMy: "စာသား၊ အသံနှင့် ပုံရိပ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w2-d1",
+      dayNumber: 1,
+      titleEn: "ASCII, Unicode, Sound and Pixels",
+      titleMy: "ASCII, Unicode, အသံနှင့် Pixel များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Why was Unicode developed as an extension beyond ASCII?",
+          questionMy:
+              "Unicode ကို ASCII ထက် ကျော်လွန်သော extension တစ်ခုအဖြစ် အဘယ်ကြောင့် တီထွင်ခဲ့သနည်း။",
+          optionsEn: [
+            "ASCII's 7 or 8 bits could not represent the characters of every world language, so Unicode uses more bits to cover far more characters",
+            "ASCII was too slow for modern computers to process",
+            "Unicode uses fewer bits than ASCII, saving storage space",
+            "ASCII could only represent numbers, not letters",
+          ],
+          optionsMy: [
+            "ASCII ၏ Bit 7 သို့မဟုတ် 8 ခုသည် ကမ္ဘာ့ ဘာသာစကားတိုင်း၏ အက္ခရာများကို ကိုယ်စားပြုနိုင်ခြင်း မရှိသဖြင့် Unicode သည် အက္ခရာများစွာကို ဖုံးလွှမ်းရန် Bit ပို၍ အသုံးပြုသည်",
+            "ASCII သည် ခေတ်မီ ကွန်ပျူတာများ Process လုပ်ရန် နှေးကွေးလွန်းသောကြောင့်",
+            "Unicode သည် Storage နေရာ ချွေတာရန် ASCII ထက် Bit နည်းစွာ အသုံးပြုသောကြောင့်",
+            "ASCII သည် ဂဏန်းများကိုသာ ကိုယ်စားပြုနိုင်ပြီး အက္ခရာများကို မကိုယ်စားပြုနိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ASCII's limited bit range covers only the English alphabet, digits, and basic symbols -- not accented letters, Chinese characters, or Myanmar script.",
+          ],
+          hintsMy: [
+            "ASCII ၏ ကန့်သတ်ထားသော Bit အပိုင်းအခြားသည် အင်္ဂလိပ် အက္ခရာ၊ ဂဏန်းနှင့် အခြေခံ သင်္ကေတများကိုသာ ဖုံးလွှမ်းပြီး Accent ပါသော အက္ခရာများ၊ တရုတ်စာလုံးများ (သို့) မြန်မာစာများကို ဖုံးလွှမ်းခြင်း မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sound is sampled at a higher sampling rate and a higher bit depth (sample resolution). What is the trade-off?",
+          questionMy:
+              "အသံတစ်ခုကို ပို၍မြင့်သော Sampling Rate နှင့် ပို၍မြင့်သော Bit Depth (Sample Resolution) ဖြင့် Sample လုပ်သည်။ ဖလှယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The recording sounds more like the original, but the file size becomes larger",
+            "The recording sounds worse, but the file size becomes smaller",
+            "There is no trade-off -- both quality and file size improve together",
+            "The file size stays exactly the same regardless of sampling rate",
+          ],
+          optionsMy: [
+            "Recording သည် မူရင်းနှင့် ပို၍ဆင်တူသော်လည်း File အရွယ်အစား ကြီးလာသည်",
+            "Recording သည် ပို၍ ညံ့ဖျင်းလာသော်လည်း File အရွယ်အစား ငယ်လာသည်",
+            "ဖလှယ်ချက် လုံးဝ မရှိပါ -- အရည်အသွေးနှင့် File အရွယ်အစား နှစ်ခုစလုံး တစ်ပြိုင်နက် တိုးတက်လာသည်",
+            "Sampling Rate မည်သို့ပင်ဖြစ်စေ File အရွယ်အစားသည် အတိအကျ တူညီနေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "More samples per second, and more possible values per sample, both mean more data must be stored -- more accuracy always costs more storage.",
+          ],
+          hintsMy: [
+            "စက္ကန့်တစ်ခုလျှင် Sample ပို၍များခြင်းနှင့် Sample တစ်ခုစီအတွက် ဖြစ်နိုင်သော တန်ဖိုးပို၍များခြင်း နှစ်ခုစလုံးက Data ပို၍ သိမ်းရန် ဆိုလိုသည် -- တိကျမှု ပို၍ရလေ Storage ကုန်ကျစရိတ် ပို၍များလေ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bitmap image has a higher colour (pixel) depth. What does this specifically increase?",
+          questionMy:
+              "Bitmap ပုံတစ်ခုတွင် ပို၍မြင့်သော အရောင် (Pixel) Depth ရှိသည်။ ၎င်းက အဘယ်အရာကို အထူးသဖြင့် တိုးမြှင့်ပေးသနည်း။",
+          optionsEn: [
+            "The number of different colours each individual pixel can represent",
+            "The physical width and height of the image in centimetres",
+            "The speed the image loads on a slow internet connection",
+            "The number of pixels in a single row of the image",
+          ],
+          optionsMy: [
+            "Pixel တစ်ခုချင်းစီ ကိုယ်စားပြုနိုင်သော မတူညီသော အရောင် အရေအတွက်",
+            "ပုံ၏ စင်တီမီတာ အလိုက် ရုပ်ပိုင်းဆိုင်ရာ အနံနှင့် အမြင့်",
+            "အင်တာနက် ချိတ်ဆက်မှု နှေးသောအခါ ပုံ Load ဖြစ်သည့် အမြန်နှုန်း",
+            "ပုံ၏ တန်းတန်းတစ်လိုင်းရှိ Pixel အရေအတွက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Colour/pixel depth is the number of bits used to store the colour of one pixel -- more bits per pixel means more possible shades that pixel can display.",
+          ],
+          hintsMy: [
+            "အရောင်/Pixel Depth ဆိုသည်မှာ Pixel တစ်ခု၏ အရောင်ကို သိမ်းဆည်းရန် အသုံးပြုသော Bit အရေအတွက် ဖြစ်သည် -- Pixel တစ်ခုလျှင် Bit ပို၍များလေ ထို Pixel ပြသနိုင်သော အရောင်အသွေး ပို၍များလေ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Representation Terms",
+      titleMy: "တွဲစပ်ကြမည် - Data Representation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w2-dm-1",
+          termEn: "ASCII",
+          termMy: "ASCII",
+          matchEn:
+              "A 7 or 8-bit character code representing English letters, digits, and symbols",
+          matchMy:
+              "အင်္ဂလိပ် အက္ခရာ၊ ဂဏန်းနှင့် သင်္ကေတများကို ကိုယ်စားပြုသော 7 သို့မဟုတ် 8-bit Character Code",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w2-dm-2",
+          termEn: "Sampling rate",
+          termMy: "Sampling Rate",
+          matchEn:
+              "How many times per second an analogue sound wave is measured during recording",
+          matchMy:
+              "Recording ပြုလုပ်စဉ် Analogue အသံလှိုင်းကို တစ်စက္ကန့်အတွင်း အကြိမ်ရေ မည်မျှ တိုင်းတာသနည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w2-dm-3",
+          termEn: "Resolution",
+          termMy: "Resolution",
+          matchEn:
+              "The total number of pixels in an image, usually given as width x height",
+          matchMy:
+              "ပုံတစ်ခုရှိ Pixel စုစုပေါင်း အရေအတွက်၊ ပုံမှန်အားဖြင့် Width x Height အဖြစ် ဖော်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w2-dm-4",
+          termEn: "Colour depth",
+          termMy: "Colour Depth",
+          matchEn:
+              "The number of bits used to represent the colour of a single pixel",
+          matchMy:
+              "Pixel တစ်ခု၏ အရောင်ကို ကိုယ်စားပြုရန် အသုံးပြုသော Bit အရေအတွက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w2-dm-5",
+          termEn: "Metadata",
+          termMy: "Metadata",
+          matchEn:
+              "Data about data -- e.g. an image file's resolution and colour depth stored inside the file itself",
+          matchMy:
+              "Data အကြောင်း Data -- ဥပမာ ပုံ File ၏ Resolution နှင့် Colour Depth ကို File ကိုယ်တိုင် အတွင်းတွင် သိမ်းဆည်းထားခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Text, Sound or Image Concept?",
+      titleMy: "စီစစ်ကြမည် - Text, Sound (သို့) Image သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Text", "Sound", "Image"],
+        bucketsMy: ["Text", "Sound", "Image"],
+        items: [
+          SortingItem(
+            id: "igcomp-w2-sort-1",
+            labelEn: "ASCII code",
+            labelMy: "ASCII Code",
+            correctBucketEn: "Text",
+            correctBucketMy: "Text",
+          ),
+          SortingItem(
+            id: "igcomp-w2-sort-2",
+            labelEn: "Sampling rate",
+            labelMy: "Sampling Rate",
+            correctBucketEn: "Sound",
+            correctBucketMy: "Sound",
+          ),
+          SortingItem(
+            id: "igcomp-w2-sort-3",
+            labelEn: "Pixel depth",
+            labelMy: "Pixel Depth",
+            correctBucketEn: "Image",
+            correctBucketMy: "Image",
+          ),
+          SortingItem(
+            id: "igcomp-w2-sort-4",
+            labelEn: "Unicode",
+            labelMy: "Unicode",
+            correctBucketEn: "Text",
+            correctBucketMy: "Text",
+          ),
+          SortingItem(
+            id: "igcomp-w2-sort-5",
+            labelEn: "Bit depth of a recording",
+            labelMy: "Recording ၏ Bit Depth",
+            correctBucketEn: "Sound",
+            correctBucketMy: "Sound",
+          ),
+          SortingItem(
+            id: "igcomp-w2-sort-6",
+            labelEn: "Image resolution (width x height)",
+            labelMy: "ပုံ Resolution (Width x Height)",
+            correctBucketEn: "Image",
+            correctBucketMy: "Image",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Bitmap Calculation",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Bitmap တွက်ချက်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Bitmap Calculation",
+        titleMy: "Zayar Lin ၏ Bitmap တွက်ချက်မှု",
+        passageEn:
+            "Sayar Ye Min held up a tiny 4-pixel-wide by 4-pixel-tall bitmap image on his tablet and asked Zayar Lin to work out how the computer actually stored it. Zayar Lin recalled from the ASCII and pixel lesson that a bitmap image is really just a grid of pixels, and each pixel's colour is stored as a binary number using a fixed number of bits -- the colour depth. If this tiny image used a colour depth of 8 bits per pixel, meaning 256 possible colours per pixel, he reasoned that the total file size before any compression would simply be the number of pixels multiplied by the colour depth.\n\nHe counted the pixels first: 4 pixels wide times 4 pixels tall gave 16 pixels total. Multiplying 16 pixels by 8 bits per pixel gave 128 bits. Sayar Ye Min then asked him to convert that into bytes, reminding him that 8 bits make one byte, so 128 bits divided by 8 gave exactly 16 bytes for this tiny uncompressed image. Zayar Lin immediately saw why real photographs, which might be thousands of pixels wide and tall with a colour depth of 24 bits for millions of colours, would produce enormous uncompressed file sizes -- which was exactly why compression techniques existed.\n\nSayar Ye Min then increased the colour depth in the example to 24 bits per pixel instead of 8, and asked Zayar Lin to recalculate. Using the same 16 pixels, 16 multiplied by 24 gave 384 bits, which divided by 8 gave 48 bytes -- exactly three times the original file size, since 24 bits is exactly three times 8 bits. Zayar Lin wrote down the general formula for himself: file size in bits equals the number of pixels multiplied by the colour depth in bits per pixel, and dividing that total by 8 converts it into bytes.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Pixel 4 ခု အကျယ်၊ Pixel 4 ခု အမြင့် ရှိသော ငယ်ကွေးလေးသော Bitmap ပုံကို သူ့ Tablet ပေါ်တွင် ကိုင်ပြပြီး ကွန်ပျူတာသည် ၎င်းကို အမှန်တကယ် မည်သို့ သိမ်းဆည်းထားသနည်းကို Zayar Lin ကို ဖော်ထုတ်ခိုင်းခဲ့သည်။ Bitmap ပုံတစ်ခုသည် Pixel ဇယားတစ်ခု အမှန်တကယ် ဖြစ်ကြောင်းနှင့် Pixel တစ်ခုစီ၏ အရောင်ကို သတ်မှတ်ထားသော Bit အရေအတွက် -- Colour Depth ကို အသုံးပြု၍ Binary ဂဏန်းအဖြစ် သိမ်းဆည်းသည်ကို ASCII နှင့် Pixel သင်ခန်းစာမှ Zayar Lin သတိရခဲ့သည်။ ဤ ငယ်ကွေးလေးသော ပုံသည် Pixel တစ်ခုလျှင် Colour Depth 8 bit ကို အသုံးပြုပါက Pixel တစ်ခုလျှင် ဖြစ်နိုင်သော အရောင် 256 ကို ဆိုလိုပြီး Compression မလုပ်မီ File အရွယ်အစား စုစုပေါင်းသည် Pixel အရေအတွက်ကို Colour Depth ဖြင့် မြှောက်ရုံသာ ဖြစ်သည်ဟု သူ ဆင်ခြင်ခဲ့သည်။\n\nသူသည် Pixel များကို ဦးစွာ ရေတွက်ခဲ့သည် - Pixel 4 ခု အကျယ်ကို Pixel 4 ခု အမြင့်ဖြင့် မြှောက်လျှင် Pixel စုစုပေါင်း 16 ခု ရရှိသည်။ Pixel 16 ခုကို Pixel တစ်ခုလျှင် Bit 8 ခုဖြင့် မြှောက်လျှင် Bit 128 ခု ရရှိသည်။ ဆရာရဲမင်းသည် Bit 8 ခုသည် Byte တစ်ခု ဖြစ်ကြောင်း သတိပေးကာ ထိုကို Byte သို့ ပြောင်းလဲခိုင်းခဲ့သဖြင့် Bit 128 ခုကို 8 ဖြင့် စားလျှင် ဤ ငယ်ကွေးလေးသော Compression မလုပ်ရသေးသော ပုံအတွက် Byte 16 ခု အတိအကျ ရရှိခဲ့သည်။ Pixel ထောင်ပေါင်းများစွာ အကျယ်နှင့် အမြင့်ရှိကာ အရောင်သန်း ပေါင်းများစွာအတွက် Colour Depth 24 bit ရှိသော လက်တွေ့ ဓာတ်ပုံများသည် အဘယ်ကြောင့် ကြီးမားသော Compression မလုပ်ရသေးသော File အရွယ်အစားများ ထုတ်ပေးမည်ကို Zayar Lin ချက်ချင်း သိမြင်ခဲ့သည် -- ၎င်းသည် Compression နည်းပညာများ ရှိနေရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\n\nဆရာရဲမင်းသည် ဥပမာရှိ Colour Depth ကို 8 bit အစား Pixel တစ်ခုလျှင် 24 bit သို့ တိုးမြှင့်ပြီး ပြန်လည်တွက်ချက်ရန် Zayar Lin ကို တောင်းဆိုခဲ့သည်။ Pixel 16 ခု အတူတူကို အသုံးပြု၍ 16 ကို 24 ဖြင့် မြှောက်လျှင် Bit 384 ခု ရရှိပြီး 8 ဖြင့် စားလျှင် Byte 48 ခု ရရှိသည် -- 24 bit သည် 8 bit ၏ အတိအကျ သုံးဆ ဖြစ်သောကြောင့် မူရင်း File အရွယ်အစား၏ အတိအကျ သုံးဆ ဖြစ်သည်။ Zayar Lin သည် သူ့ကိုယ်သူ အထွေထွေ ဖော်မြူလာကို ချရေးခဲ့သည် - Bit ဖြင့် File အရွယ်အစားသည် Pixel အရေအတွက်ကို Pixel တစ်ခုလျှင် Bit ဖြင့် Colour Depth နှင့် မြှောက်ခြင်းနှင့် ညီပြီး ထို စုစုပေါင်းကို 8 ဖြင့် စားခြင်းသည် Byte အဖြစ် ပြောင်းလဲပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how many bytes did the 8-bit-per-pixel example use?",
+            questionMy:
+                "Pixel တစ်ခုလျှင် 8-bit ဥပမာသည် Byte မည်မျှ အသုံးပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: ["16 bytes", "128 bytes", "8 bytes", "48 bytes"],
+            optionsMy: ["16 bytes", "128 bytes", "8 bytes", "48 bytes"],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence dividing 128 bits by 8."],
+            hintsMy: [
+              "Bit 128 ကို 8 ဖြင့် စားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the 24-bit example produce exactly three times the file size?",
+            questionMy:
+                "24-bit ဥပမာသည် File အရွယ်အစား၏ သုံးဆ အတိအကျ ထုတ်ပေးရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "24 bits is exactly three times 8 bits",
+              "There were three times as many pixels",
+              "The image was resized to be three times larger",
+              "Sayar Ye Min made an error in the calculation",
+            ],
+            optionsMy: [
+              "24 bit သည် 8 bit ၏ အတိအကျ သုံးဆ ဖြစ်သောကြောင့်",
+              "Pixel အရေအတွက် သုံးဆ ပို၍များခဲ့သောကြောင့်",
+              "ပုံကို သုံးဆ ကြီးအောင် အရွယ်အစား ပြောင်းခဲ့သောကြောင့်",
+              "ဆရာရဲမင်းသည် တွက်ချက်မှုတွင် အမှား ပြုလုပ်မိခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 3."],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "What general formula did Zayar Lin write down at the end of the passage?",
+            questionMy:
+                "စာပိုဒ်၏ အဆုံးတွင် Zayar Lin မည်သည့် အထွေထွေ ဖော်မြူလာကို ချရေးခဲ့သနည်း။",
+            optionsEn: [
+              "File size in bits equals number of pixels multiplied by colour depth in bits per pixel, then divided by 8 for bytes",
+              "File size always equals exactly 16 bytes regardless of pixel count",
+              "File size equals the image's width in centimetres",
+              "File size cannot be calculated before the image is created",
+            ],
+            optionsMy: [
+              "Bit ဖြင့် File အရွယ်အစားသည် Pixel အရေအတွက်ကို Pixel တစ်ခုလျှင် Bit ဖြင့် Colour Depth နှင့် မြှောက်ပြီး Byte ရရန် 8 ဖြင့် စားခြင်း ဖြစ်သည်",
+              "File အရွယ်အစားသည် Pixel အရေအတွက် မည်သို့ပင်ရှိစေ Byte 16 ခု အတိအကျ အမြဲ ညီသည်",
+              "File အရွယ်အစားသည် ပုံ၏ စင်တီမီတာဖြင့် အနံနှင့် ညီသည်",
+              "ပုံ မဖန်တီးမီ File အရွယ်အစားကို တွက်ချက်၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Text, Sound and Images",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Text, Sound နှင့် Images",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ASCII and Unicode are both used to represent...",
+          questionMy:
+              "ASCII နှင့် Unicode နှစ်ခုစလုံးကို ...ကိုယ်စားပြုရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Text characters",
+            "Sound waves",
+            "Image colours",
+            "Video frames",
+          ],
+          optionsMy: [
+            "Text အက္ခရာများ",
+            "Sound လှိုင်းများ",
+            "Image အရောင်များ",
+            "Video Frame များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A higher sampling rate for a sound recording means...",
+          questionMy:
+              "Sound Recording တစ်ခုအတွက် ပို၍မြင့်သော Sampling Rate ဆိုသည်မှာ...",
+          optionsEn: [
+            "More samples are taken per second, improving accuracy but increasing file size",
+            "Fewer samples are taken per second",
+            "The recording becomes silent",
+            "The file size always shrinks",
+          ],
+          optionsMy: [
+            "စက္ကန့်တစ်ခုလျှင် Sample ပို၍ ရယူပြီး တိကျမှု တိုးတက်စေသော်လည်း File အရွယ်အစား တိုးလာသည်",
+            "စက္ကန့်တစ်ခုလျှင် Sample ပို၍နည်းစွာ ရယူသည်",
+            "Recording သည် အသံတိတ်သွားသည်",
+            "File အရွယ်အစားသည် အမြဲ ကျုံ့သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Colour depth determines...",
+          questionMy: "Colour Depth က ...ကို သတ်မှတ်ပေးသည်",
+          optionsEn: [
+            "How many different colours a single pixel can display",
+            "The physical size of the screen",
+            "The internet speed needed to view an image",
+            "The number of pixels in an image",
+          ],
+          optionsMy: [
+            "Pixel တစ်ခု ပြသနိုင်သော မတူညီသော အရောင် အရေအတွက်",
+            "Screen ၏ ရုပ်ပိုင်းဆိုင်ရာ အရွယ်အစား",
+            "ပုံတစ်ခုကို ကြည့်ရန် လိုအပ်သော အင်တာနက် အမြန်နှုန်း",
+            "ပုံတစ်ခုရှိ Pixel အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 1, Week 3: "Data Storage and Compression"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek3 = CourseWeekDef(
+  id: "course-igcse-computing-w3",
+  weekNumber: 3,
+  titleEn: "Data Storage and Compression",
+  titleMy: "အချက်အလက် သိုလှောင်မှုနှင့် ဖိုင်ချုံ့ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w3-d1",
+      dayNumber: 1,
+      titleEn: "Lossy vs Lossless Compression",
+      titleMy: "Lossy Compression နှင့် Lossless Compression",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between lossy and lossless compression?",
+          questionMy:
+              "Lossy Compression နှင့် Lossless Compression ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "Lossless compression allows the original file to be perfectly reconstructed; lossy compression permanently discards some data to shrink the file further",
+            "Lossy compression always produces a larger file than the original",
+            "Lossless compression cannot be used on image files",
+            "There is no actual difference between the two methods",
+          ],
+          optionsMy: [
+            "Lossless Compression သည် မူရင်း File ကို ပြီးပြည့်စုံစွာ ပြန်လည်တည်ဆောက်နိုင်စေသော်လည်း Lossy Compression သည် File ကို ပို၍ ကျုံ့ရန် Data အချို့ကို အမြဲတမ်း ပယ်ချသည်",
+            "Lossy Compression သည် မူရင်းထက် အမြဲ ကြီးမားသော File ကို ထုတ်ပေးသည်",
+            "Lossless Compression ကို ပုံ File များပေါ်တွင် အသုံးမပြုနိုင်ပါ",
+            "နည်းလမ်းနှစ်ခုကြား အမှန်တကယ် ကွာခြားချက် မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Lossless is used for text files, program code, and spreadsheets where every bit must be preserved exactly.",
+            "Lossy is used for photos and music where a small, often unnoticeable loss of quality is an acceptable trade for a much smaller file.",
+          ],
+          hintsMy: [
+            "Lossless ကို Text File များ၊ Program Code နှင့် Bit တိုင်းကို အတိအကျ ထိန်းသိမ်းရမည့် Spreadsheet များအတွက် အသုံးပြုသည်။",
+            "Lossy ကို ဓာတ်ပုံများနှင့် ဂီတများအတွက် အသုံးပြုသည် -- File ငယ်ရန် အရည်အသွေး အနည်းငယ် ဆုံးရှုံးခြင်းကို လက်ခံနိုင်သောကြောင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which file format is most commonly associated with lossy compression?",
+          questionMy:
+              "Lossy Compression နှင့် အများဆုံး ဆက်စပ်နေသော File Format မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "JPEG (photos)",
+            "ZIP (general archives)",
+            "PNG for line art",
+            "Plain text (.txt)",
+          ],
+          optionsMy: [
+            "JPEG (ဓာတ်ပုံများ)",
+            "ZIP (Archive များ)",
+            "လိုင်းအနုပညာအတွက် PNG",
+            "စာသားသက်သက် (.txt)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "JPEG deliberately discards colour information the human eye is less sensitive to, in exchange for a much smaller photo file.",
+          ],
+          hintsMy: [
+            "JPEG သည် လူ့မျက်လုံးက အာရုံခံနိုင်စွမ်း နည်းသော အရောင် အချက်အလက်ကို ဓာတ်ပုံ File ငယ်ရန် ရည်ရွယ်ချက်ရှိရှိ ပယ်ချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An uncompressed bitmap image is 10 pixels wide, 10 pixels tall, with an 8-bit colour depth. What is its file size in bytes?",
+          questionMy:
+              "Compression မလုပ်ရသေးသော Bitmap ပုံတစ်ခုသည် Pixel 10 ခု အကျယ်၊ Pixel 10 ခု အမြင့်နှင့် 8-bit Colour Depth ရှိသည်။ Byte ဖြင့် ၎င်း၏ File အရွယ်အစားမှာ အဘယ်နည်း။",
+          optionsEn: ["100 bytes", "800 bytes", "10 bytes", "80 bytes"],
+          optionsMy: ["100 bytes", "800 bytes", "10 bytes", "80 bytes"],
+          correctIndex: 0,
+          hintsEn: [
+            "Pixels = 10 x 10 = 100. Bits = 100 x 8 = 800 bits. Bytes = 800 / 8 = 100 bytes.",
+          ],
+          hintsMy: [
+            "Pixel = 10 x 10 = 100 ။ Bit = 100 x 8 = 800 bit ။ Byte = 800 / 8 = 100 byte ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Storage and Compression Terms",
+      titleMy: "တွဲစပ်ကြမည် - Storage နှင့် Compression ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w3-dm-1",
+          termEn: "Lossless compression",
+          termMy: "Lossless Compression",
+          matchEn:
+              "Compression that allows the original file to be perfectly restored, e.g. ZIP or FLAC",
+          matchMy:
+              "မူရင်း File ကို ပြီးပြည့်စုံစွာ ပြန်လည်ရယူနိုင်စေသော Compression, ဥပမာ ZIP သို့မဟုတ် FLAC",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w3-dm-2",
+          termEn: "Lossy compression",
+          termMy: "Lossy Compression",
+          matchEn:
+              "Compression that permanently discards some data for a much smaller file, e.g. JPEG or MP3",
+          matchMy:
+              "File ငယ်ရန် Data အချို့ကို အမြဲတမ်း ပယ်ချသော Compression, ဥပမာ JPEG သို့မဟုတ် MP3",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w3-dm-3",
+          termEn: "File size",
+          termMy: "File Size",
+          matchEn:
+              "The total amount of storage space a file occupies, usually measured in bytes",
+          matchMy:
+              "File တစ်ခု ယူဆောင်သော Storage နေရာ စုစုပေါင်း၊ ပုံမှန်အားဖြင့် Byte ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w3-dm-4",
+          termEn: "Kilobyte (KB)",
+          termMy: "Kilobyte (KB)",
+          matchEn:
+              "1024 bytes, using the binary-based convention commonly used in computing",
+          matchMy:
+              "ကွန်ပျူတာသိပ္ပံတွင် အများသုံး Binary-based convention အရ Byte 1024 ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w3-dm-5",
+          termEn: "Compression ratio",
+          termMy: "Compression Ratio",
+          matchEn:
+              "The relationship between the original file size and the compressed file size",
+          matchMy:
+              "မူရင်း File အရွယ်အစားနှင့် Compress လုပ်ပြီး File အရွယ်အစားကြား ဆက်နွယ်မှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Lossy or Lossless Use Case?",
+      titleMy: "စီစစ်ကြမည် - Lossy လား Lossless Use Case လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Best Suited to Lossless", "Best Suited to Lossy"],
+        bucketsMy: [
+          "Lossless နှင့် ပို၍ ကိုက်ညီသည်",
+          "Lossy နှင့် ပို၍ ကိုက်ညီသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w3-sort-1",
+            labelEn: "Source code of a computer program",
+            labelMy: "ကွန်ပျူတာ ပရိုဂရမ်၏ Source Code",
+            correctBucketEn: "Best Suited to Lossless",
+            correctBucketMy: "Lossless နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w3-sort-2",
+            labelEn: "A holiday photo shared on social media",
+            labelMy: "Social Media တွင် မျှဝေထားသော အားလပ်ရက် ဓာတ်ပုံ",
+            correctBucketEn: "Best Suited to Lossy",
+            correctBucketMy: "Lossy နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w3-sort-3",
+            labelEn: "A hospital patient record spreadsheet",
+            labelMy: "ဆေးရုံ လူနာ မှတ်တမ်း Spreadsheet",
+            correctBucketEn: "Best Suited to Lossless",
+            correctBucketMy: "Lossless နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w3-sort-4",
+            labelEn: "A streamed music track",
+            labelMy: "Stream လုပ်ထားသော ဂီတသီချင်း",
+            correctBucketEn: "Best Suited to Lossy",
+            correctBucketMy: "Lossy နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w3-sort-5",
+            labelEn: "A legal contract text document",
+            labelMy: "ဥပဒေရေးရာ စာချုပ် Text စာတမ်း",
+            correctBucketEn: "Best Suited to Lossless",
+            correctBucketMy: "Lossless နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Compression Choice",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Compression ရွေးချယ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Compression Choice",
+        titleMy: "Zayar Lin ၏ Compression ရွေးချယ်မှု",
+        passageEn:
+            "For his end-of-week homework, Sayar Ye Min asked Zayar Lin to choose the correct compression type, lossy or lossless, for three different real files and justify each choice using what he had learned about how each method actually works. The first file was a school's official transcript of exam results, stored as a text document that would later be legally certified. Zayar Lin reasoned that since lossless compression guarantees the file can be perfectly reconstructed with every character intact, it was the only safe choice here -- a lossy method could silently corrupt a single digit in a student's grade, an error that might never be noticed until it caused real harm.\n\nThe second file was a two-minute video his classmate had recorded on a phone, intended to be shared quickly over a mobile data connection with limited bandwidth. Zayar Lin recognised that lossy compression was the practical choice: video files are enormous when uncompressed, and human eyes are relatively insensitive to the fine detail that lossy video compression discards, so the size reduction would be dramatic while the visible quality loss would likely go unnoticed by most viewers on a phone screen.\n\nThe third file was trickier: a scanned image of a doctor's handwritten prescription, which needed to remain sharp enough that a pharmacist could read the exact dosage without any ambiguity. Zayar Lin initially wanted to choose lossy compression, since it was an image file, but he reconsidered after remembering that lossy compression specifically discards fine detail -- exactly the kind of detail that makes handwriting legible. He concluded that a document where every fine detail carried critical meaning needed lossless compression instead, even though the resulting file would be considerably larger than a lossy alternative. Sayar Ye Min confirmed this reasoning was correct: the deciding factor was never the file type alone, but whether losing fine detail would matter for that specific file's actual purpose.",
+        passageMy:
+            "အပတ်စဉ်အဆုံး Homework အတွက် လက်တွေ့ File သုံးခုအတွက် Compression Type၊ Lossy သို့မဟုတ် Lossless ကို မှန်ကန်စွာ ရွေးချယ်ပြီး နည်းလမ်းတစ်ခုစီ အမှန်တကယ် မည်သို့ အလုပ်လုပ်ကြောင်း သင်ယူထားသည်ကို အသုံးပြု၍ ရွေးချယ်မှု တစ်ခုစီကို ခိုင်လုံစွာ ဖော်ပြရန် ဆရာရဲမင်းက Zayar Lin ကို တောင်းဆိုခဲ့သည်။ ပထမ File မှာ နောက်ပိုင်းတွင် ဥပဒေအရ Certify ပြုလုပ်မည့် Text စာတမ်းအဖြစ် သိမ်းဆည်းထားသော ကျောင်းတစ်ကျောင်း၏ တရားဝင် စာမေးပွဲရလဒ် မှတ်တမ်း ဖြစ်သည်။ Lossless Compression သည် Character တိုင်း အပြည့်အစုံပါဝင်စေဘဲ File ကို ပြီးပြည့်စုံစွာ ပြန်လည်တည်ဆောက်နိုင်ကြောင်း အာမခံသောကြောင့် ဤနေရာတွင် တစ်ခုတည်းသော လုံခြုံစိတ်ချရသည့် ရွေးချယ်မှုဖြစ်ကြောင်း Zayar Lin ဆင်ခြင်ခဲ့သည် -- Lossy နည်းလမ်းသည် ကျောင်းသားတစ်ဦး၏ အမှတ်ရှိ ဂဏန်းတစ်လုံးကို တိတ်ဆိတ်စွာ ချို့ယွင်းစေနိုင်ပြီး ထိုအမှားသည် အမှန်တကယ် ထိခိုက်မှု ဖြစ်စေသည်အထိ ဘယ်တော့မှ သတိမပြုမိနိုင်ပါ။\n\nဒုတိယ File မှာ Bandwidth ကန့်သတ်ထားသော Mobile Data ချိတ်ဆက်မှု တစ်ခုမှတစ်ဆင့် လျင်မြန်စွာ မျှဝေရန် ရည်ရွယ်ထားသော သူ့ Classmate က Phone ဖြင့် Record လုပ်ခဲ့သည့် မိနစ်နှစ်မိနစ် Video ဖြစ်သည်။ Lossy Compression သည် လက်တွေ့ ကျသော ရွေးချယ်မှု ဖြစ်ကြောင်း Zayar Lin သိမြင်ခဲ့သည် - Video File များသည် Compression မလုပ်ပါက အလွန်ကြီးမားပြီး လူ့မျက်လုံးများသည် Lossy Video Compression က ပယ်ချသော အသေးစိတ်အချက်များကို အတော်အသင့် အာရုံခံနိုင်စွမ်း နည်းသည် -- ထို့ကြောင့် Phone Screen ပေါ်ရှိ Viewer အများစုသည် မြင်နိုင်သော အရည်အသွေး ဆုံးရှုံးမှုကို မသတိပြုမိလျက် အရွယ်အစား သိသိသာသာ လျော့ကျမည် ဖြစ်သည်။\n\nတတိယ File မှာ ပို၍ ရှုပ်ထွေးသည် - ဆေးဝါးဆိုင်ရာ ဆရာဝန်တစ်ဦးက ဆေးညွှန်း အတိအကျ ဆေးအညွှန်းကို ရှင်းလင်းစွာ ဖတ်နိုင်ရန် ရှင်းလင်းမှု လက်ရေးထားသော ဆေးညွှန်း Scan ပုံ ဖြစ်သည်။ ပုံ File တစ်ခု ဖြစ်သောကြောင့် Zayar Lin သည် Lossy Compression ကို ဦးစွာ ရွေးလိုခဲ့သော်လည်း Lossy Compression သည် အသေးစိတ်အချက်အလက်ကို အထူးသဖြင့် ပယ်ချကြောင်း -- လက်ရေးကို ဖတ်ရလွယ်စေသော အသေးစိတ်အချက်အလက် အမျိုးအစားနှင့် အတိအကျ ဖြစ်ကြောင်း ပြန်သတိရမိပြီးနောက် ပြန်လည် ဆင်ခြင်ခဲ့သည်။ အသေးစိတ်အချက်တိုင်းက အရေးကြီးသော အဓိပ္ပာယ်ကို ယူဆောင်နေသော စာတမ်းသည် Lossless Compression လိုအပ်ကြောင်း သူ ကောက်ချက်ချခဲ့သည် -- ရလဒ် File သည် Lossy Alternative ထက် သိသိသာသာ ကြီးမားသော်လည်းပင် ဖြစ်သည်။ ဤ ဆင်ခြင်တုံတရားသည် မှန်ကန်ကြောင်း ဆရာရဲမင်း အတည်ပြုခဲ့သည် - ဆုံးဖြတ်ချက်ချသော အချက်မှာ File အမျိုးအစားတစ်ခုတည်းဘယ်တော့မှ မဟုတ်ဘဲ အသေးစိတ်အချက်အလက် ဆုံးရှုံးခြင်းသည် ထို File ၏ အမှန်တကယ် ရည်ရွယ်ချက်အတွက် အရေးကြီးသလား မကြီးသလား ဖြစ်ကြောင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why was lossless compression the only safe choice for the exam transcript?",
+            questionMy:
+                "စာမေးပွဲ မှတ်တမ်းအတွက် Lossless Compression သည် တစ်ခုတည်း လုံခြုံသော ရွေးချယ်မှု ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A lossy method could silently corrupt a digit in a student's grade without being noticed",
+              "Text files cannot be compressed at all",
+              "Lossless compression always produces smaller files than lossy compression",
+              "The transcript file was too small to compress",
+            ],
+            optionsMy: [
+              "Lossy နည်းလမ်းသည် သတိမပြုမိဘဲ ကျောင်းသားတစ်ဦး၏ အမှတ်ရှိ ဂဏန်းကို တိတ်ဆိတ်စွာ ချို့ယွင်းစေနိုင်ခြင်း",
+              "Text File များကို လုံးဝ Compress လုပ်၍ မရနိုင်ခြင်း",
+              "Lossless Compression သည် Lossy Compression ထက် အမြဲ ငယ်သော File များ ထုတ်ပေးခြင်း",
+              "စာမေးပွဲ မှတ်တမ်း File သည် Compress လုပ်ရန် သေးလွန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Zayar Lin change his mind about the prescription scan?",
+            questionMy:
+                "ဆေးညွှန်း Scan ပုံအကြောင်း Zayar Lin စိတ်ပြောင်းလဲခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He remembered lossy compression discards fine detail, exactly the kind that makes handwriting legible",
+              "He decided image files can never be compressed",
+              "The teacher told him the file was already too large",
+              "He realised prescriptions do not need to be readable",
+            ],
+            optionsMy: [
+              "Lossy Compression သည် လက်ရေးကို ဖတ်ရလွယ်စေသော အသေးစိတ် အချက်အလက်ကို ပယ်ချကြောင်း ပြန်သတိရမိခဲ့ခြင်း",
+              "ပုံ File များကို ဘယ်တော့မှ Compress လုပ်၍ မရနိုင်ဟု ဆုံးဖြတ်ခဲ့ခြင်း",
+              "File သည် အလွန်ကြီးလွန်းနေပြီဟု ဆရာက ပြောကြားခဲ့ခြင်း",
+              "ဆေးညွှန်းများသည် ဖတ်ရလွယ်ရန် မလိုအပ်ဟု နားလည်မိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about reconsidering."],
+            hintsMy: [
+              "ပြန်လည် ဆင်ခြင်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what was the true deciding factor between lossy and lossless?",
+            questionMy:
+                "Lossy နှင့် Lossless ကြား စစ်မှန်သော ဆုံးဖြတ်ချက် ချသော အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether losing fine detail would matter for that specific file's actual purpose",
+              "The file type alone, regardless of purpose",
+              "How large the file already was",
+              "Which method was faster to apply",
+            ],
+            optionsMy: [
+              "အသေးစိတ်အချက်အလက် ဆုံးရှုံးခြင်းသည် ထို File ၏ အမှန်တကယ် ရည်ရွယ်ချက်အတွက် အရေးကြီးသလား",
+              "ရည်ရွယ်ချက် မည်သို့ပင်ရှိစေ File အမျိုးအစားတစ်ခုတည်း",
+              "File သည် ရှိပြီးသား မည်မျှ ကြီးမားသနည်း",
+              "မည်သည့် နည်းလမ်းက အသုံးချရန် ပို၍ မြန်သနည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Storage and Compression",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Storage နှင့် Compression",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Lossless compression is best suited to...",
+          questionMy: "Lossless Compression သည် ...အတွက် ပို၍ ကိုက်ညီသည်",
+          optionsEn: [
+            "Files where every bit must be preserved exactly, like program code or legal documents",
+            "Holiday photos shared casually online",
+            "Streamed background music",
+            "Any file, since there is never a difference in outcome",
+          ],
+          optionsMy: [
+            "Program Code (သို့) ဥပဒေရေးရာ စာတမ်းများကဲ့သို့ Bit တိုင်းကို အတိအကျ ထိန်းသိမ်းရမည့် File များ",
+            "အွန်လိုင်းတွင် ပေါ့ပေါ့ပါးပါး မျှဝေထားသော အားလပ်ရက် ဓာတ်ပုံများ",
+            "Stream လုပ်ထားသော နောက်ခံ ဂီတ",
+            "ရလဒ်တွင် ဘယ်တော့မှ ကွာခြားချက် မရှိသောကြောင့် File မည်သည့် အမျိုးအစားမဆို",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A 20-pixel by 20-pixel bitmap with 8-bit colour depth has a file size of...",
+          questionMy:
+              "8-bit Colour Depth ရှိသော Pixel 20 x 20 Bitmap တစ်ခု၏ File အရွယ်အစားမှာ...",
+          optionsEn: ["400 bytes", "3200 bytes", "40 bytes", "160 bytes"],
+          optionsMy: ["400 bytes", "3200 bytes", "40 bytes", "160 bytes"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Lossy compression reduces file size by...",
+          questionMy:
+              "Lossy Compression သည် ...ဖြင့် File အရွယ်အစားကို လျော့ချသည်",
+          optionsEn: [
+            "Permanently discarding some data the human eye or ear is less sensitive to",
+            "Perfectly preserving every single bit of the original file",
+            "Increasing the colour depth of an image",
+            "Adding extra metadata to the file",
+          ],
+          optionsMy: [
+            "လူ့မျက်လုံး (သို့) နားက အာရုံခံနိုင်စွမ်း နည်းသော Data အချို့ကို အမြဲတမ်း ပယ်ချခြင်း",
+            "မူရင်း File ၏ Bit တိုင်းကို ပြီးပြည့်စုံစွာ ထိန်းသိမ်းခြင်း",
+            "ပုံ၏ Colour Depth ကို တိုးမြှင့်ခြင်း",
+            "File သို့ Metadata ထပ်ဆောင်း ထည့်သွင်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 1, Week 4 (Capstone/Boss Week): "Data
+// Representation Project"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek4 = CourseWeekDef(
+  id: "course-igcse-computing-w4",
+  weekNumber: 4,
+  titleEn: "Data Representation Project",
+  titleMy: "အချက်အလက် ဖော်ပြမှု ပရောဂျက်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w4-d1",
+      dayNumber: 1,
+      titleEn: "Binary Calculation Tests",
+      titleMy: "Binary တွက်ချက်မှု စမ်းသပ်ခန်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Convert the denary number 200 into 8-bit binary.",
+          questionMy: "Denary ဂဏန်း 200 ကို 8-bit Binary အဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["11001000", "11000100", "10101000", "11011000"],
+          optionsMy: ["11001000", "11000100", "10101000", "11011000"],
+          correctIndex: 0,
+          hintsEn: [
+            "200 = 128 + 64 + 8, which are the 128, 64, and 8 place-value columns.",
+          ],
+          hintsMy: [
+            "200 = 128 + 64 + 8 ဖြစ်ပြီး ၎င်းတို့မှာ 128, 64, 8 နေရာတန်ဖိုး column များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Add the binary numbers 01101101 and 00010011. What is the result?",
+          questionMy:
+              "Binary ဂဏန်း 01101101 နှင့် 00010011 ကို ပေါင်းပါ။ ရလဒ်မှာ အဘယ်နည်း။",
+          optionsEn: ["10000000", "01111111", "10000001", "01110000"],
+          optionsMy: ["10000000", "01111111", "10000001", "01110000"],
+          correctIndex: 0,
+          hintsEn: [
+            "In denary: 01101101 = 109 and 00010011 = 19. 109 + 19 = 128, which is 10000000 in binary.",
+          ],
+          hintsMy: [
+            "Denary တွင် 01101101 = 109 နှင့် 00010011 = 19 ။ 109 + 19 = 128, Binary တွင် 10000000 ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Convert the hexadecimal number 2F into denary.",
+          questionMy: "Hexadecimal ဂဏန်း 2F ကို Denary အဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["47", "37", "45", "62"],
+          optionsMy: ["47", "37", "45", "62"],
+          correctIndex: 0,
+          hintsEn: [
+            "2F = (2 x 16) + F. F in hex equals 15 in denary, so (2 x 16) + 15 = 32 + 15 = 47.",
+          ],
+          hintsMy: [
+            "2F = (2 x 16) + F ။ Hex တွင် F သည် Denary 15 နှင့် ညီသောကြောင့် (2 x 16) + 15 = 32 + 15 = 47 ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Representation Formulas",
+      titleMy: "တွဲစပ်ကြမည် - Data Representation ဖော်မြူလာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w4-dm-1",
+          termEn: "Image file size formula",
+          termMy: "ပုံ File Size ဖော်မြူလာ",
+          matchEn:
+              "Image height x image width x colour depth (in bits, then divide by 8 for bytes)",
+          matchMy:
+              "ပုံအမြင့် x ပုံအကျယ် x Colour Depth (Bit ဖြင့်၊ Byte ရရန် 8 ဖြင့် စား)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w4-dm-2",
+          termEn: "Sound file size formula",
+          termMy: "Sound File Size ဖော်မြူလာ",
+          matchEn:
+              "Sampling rate x sample resolution (bit depth) x duration in seconds",
+          matchMy:
+              "Sampling Rate x Sample Resolution (Bit Depth) x ကြာချိန် (စက္ကန့်)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w4-dm-3",
+          termEn: "Binary to denary",
+          termMy: "Binary မှ Denary",
+          matchEn:
+              "Sum the place values (1, 2, 4, 8, 16...) of every column containing a 1",
+          matchMy:
+              "1 ပါဝင်သော column တိုင်း၏ နေရာတန်ဖိုး (1, 2, 4, 8, 16...) ကို ပေါင်းပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w4-dm-4",
+          termEn: "Hexadecimal to denary",
+          termMy: "Hexadecimal မှ Denary",
+          matchEn:
+              "Multiply the leftmost digit's denary value by 16, then add the rightmost digit's denary value",
+          matchMy:
+              "ဘယ်ဘက်ဆုံး Digit ၏ Denary တန်ဖိုးကို 16 နှင့် မြှောက်ပြီး ညာဘက်ဆုံး Digit ၏ Denary တန်ဖိုးနှင့် ပေါင်းပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Compression Efficiency Analysis",
+      titleMy: "စီစစ်ကြမည် - Compression စွမ်းဆောင်ရည် ခွဲခြမ်းစိတ်ဖြာမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases File Size", "Decreases File Size"],
+        bucketsMy: ["File Size ကို တိုးမြှင့်သည်", "File Size ကို လျော့ချသည်"],
+        items: [
+          SortingItem(
+            id: "igcomp-w4-sort-1",
+            labelEn: "Increasing colour depth from 8-bit to 24-bit",
+            labelMy: "Colour Depth ကို 8-bit မှ 24-bit သို့ တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases File Size",
+            correctBucketMy: "File Size ကို တိုးမြှင့်သည်",
+          ),
+          SortingItem(
+            id: "igcomp-w4-sort-2",
+            labelEn: "Applying lossy JPEG compression to a bitmap photo",
+            labelMy: "Bitmap ဓာတ်ပုံတွင် Lossy JPEG Compression အသုံးပြုခြင်း",
+            correctBucketEn: "Decreases File Size",
+            correctBucketMy: "File Size ကို လျော့ချသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w4-sort-3",
+            labelEn: "Increasing a sound recording's sampling rate",
+            labelMy: "Sound Recording ၏ Sampling Rate ကို တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases File Size",
+            correctBucketMy: "File Size ကို တိုးမြှင့်သည်",
+          ),
+          SortingItem(
+            id: "igcomp-w4-sort-4",
+            labelEn: "Reducing image resolution before saving",
+            labelMy: "မသိမ်းဆည်းမီ ပုံ Resolution ကို လျော့ချခြင်း",
+            correctBucketEn: "Decreases File Size",
+            correctBucketMy: "File Size ကို လျော့ချသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Data Representation Project",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Data Representation ပရောဂျက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Data Representation Project",
+        titleMy: "Zayar Lin ၏ Data Representation ပရောဂျက်",
+        passageEn:
+            "For the Term 1 capstone project, Sayar Ye Min gave every student a single real scenario to fully analyse using every concept from the term: a school wanted to store 500 student ID photos, each 200 pixels wide by 200 pixels tall with a 24-bit colour depth, and needed to know whether they would fit on a 50-megabyte storage drive both before and after lossless compression roughly halved the total size. Zayar Lin began, as he always did now, by finding the size of one image in bits: 200 x 200 x 24 = 960,000 bits. Dividing by 8 gave 120,000 bytes per uncompressed photo.\n\nMultiplying by 500 photos gave 60,000,000 bytes total, and since 1 megabyte is 1,000,000 bytes by the decimal convention his teacher specified for this exercise, that came to exactly 60 megabytes uncompressed -- already over the 50-megabyte drive's capacity before any compression was even applied. Zayar Lin double-checked his arithmetic, since getting a 'no, it does not fit' answer felt like it might be a mistake, but Sayar Ye Min confirmed this was precisely the point of the exercise: real IGCSE exam questions often require you to prove a negative result just as rigorously as a positive one.\n\nApplying the roughly-50%-reduction lossless compression figure given in the scenario, Zayar Lin halved 60 megabytes to get approximately 30 megabytes -- comfortably under the 50-megabyte limit. He wrote his final answer as a two-part conclusion, exactly as Sayar Ye Min had taught the class to structure IGCSE extended-response answers: first, the uncompressed photos would not fit on the drive, since 60 megabytes exceeds the 50-megabyte capacity; second, after lossless compression roughly halved the total to approximately 30 megabytes, the photos would comfortably fit with room to spare. He noted that showing every step of the calculation, not just the final numbers, was what separated full marks from partial marks on this style of question.",
+        passageMy:
+            "Term 1 Capstone ပရောဂျက်အတွက် ဆရာရဲမင်းသည် ကျောင်းသားတိုင်းကို Term တစ်ခုလုံးမှ သဘောတရားတိုင်းကို အသုံးပြု၍ အပြည့်အစုံ ခွဲခြမ်းစိတ်ဖြာရန် လက်တွေ့ Scenario တစ်ခုတည်း ပေးအပ်ခဲ့သည် - ကျောင်းတစ်ကျောင်းသည် ကျောင်းသား ID ဓာတ်ပုံ 500 ကို Pixel 200 x 200 အကျယ်အမြင့်ဖြင့် 24-bit Colour Depth ဖြင့် သိမ်းဆည်းလိုပြီး Compression မလုပ်မီနှင့် Lossless Compression ဖြင့် စုစုပေါင်း အရွယ်အစားကို ခန့်မှန်းချေ ထက်ဝက် လျော့ချပြီးနောက် Megabyte 50 Storage Drive တွင် ဝင်နိုင်မဝင်နိုင် သိလိုသည်။ Zayar Lin သည် ယခုအခါ သူ အမြဲ ပြုလုပ်သည့်အတိုင်း ပုံတစ်ပုံ၏ Bit ဖြင့် အရွယ်အစားကို ရှာဖွေခြင်းဖြင့် စတင်ခဲ့သည် - 200 x 200 x 24 = 960,000 bit ။ 8 ဖြင့် စားလျှင် Compression မလုပ်ရသေးသော ဓာတ်ပုံတစ်ပုံလျှင် Byte 120,000 ရရှိသည်။\n\nဓာတ်ပုံ 500 ဖြင့် မြှောက်လျှင် Byte 60,000,000 စုစုပေါင်း ရရှိပြီး ဤ Exercise အတွက် ဆရာက သတ်မှတ်ထားသော Decimal Convention အရ Megabyte 1 သည် Byte 1,000,000 ဖြစ်သောကြောင့် ၎င်းသည် Compression မည်သည့် အသုံးမပြုမီ Compression မလုပ်ရသေးဘဲ Megabyte 60 အတိအကျ ဖြစ်သည် -- Megabyte 50 Drive ၏ စွမ်းဆောင်ရည်ထက် ပင်လျှင် Compression မလုပ်မီ ပို၍ ကျော်လွန်နေပြီ ဖြစ်သည်။ 'ဝင်၍ မရပါ' ဟူသော အဖြေရခြင်းသည် အမှားတစ်ခု ဖြစ်နိုင်သကဲ့သို့ ခံစားရသောကြောင့် Zayar Lin သည် သူ့ သင်္ချာကို နှစ်ကြိမ် ပြန်စစ်ခဲ့သော်လည်း ဤသည်ကား Exercise ၏ အဓိကရည်ရွယ်ချက် အတိအကျ ဖြစ်ကြောင်း ဆရာရဲမင်း အတည်ပြုခဲ့သည် - တကယ့် IGCSE စာမေးပွဲ မေးခွန်းများသည် Positive ရလဒ်ကဲ့သို့ပင် Negative ရလဒ်ကိုလည်း တင်းကြပ်စွာ သက်သေပြရန် မကြာခဏ လိုအပ်သည်။\n\nScenario တွင် ပေးအပ်ထားသော ခန့်မှန်းချေ 50%-လျော့ချမှု Lossless Compression ကိန်းဂဏန်းကို အသုံးပြု၍ Zayar Lin သည် Megabyte 60 ကို ထက်ဝက်ပိုင်း၍ ခန့်မှန်းချေ Megabyte 30 ရရှိခဲ့ပြီး -- Megabyte 50 ကန့်သတ်ချက်အောက်တွင် သက်တောင့်သက်သာ ရှိနေသည်။ ဆရာရဲမင်းက အတန်းကို IGCSE Extended-Response အဖြေများ ဖွဲ့စည်းရန် သင်ပေးခဲ့သည့်အတိုင်း သူ့ နောက်ဆုံး အဖြေကို အပိုင်းနှစ်ပိုင်း ကောက်ချက်အဖြစ် ချရေးခဲ့သည် - ပထမအနေဖြင့် Compression မလုပ်ရသေးသော ဓာတ်ပုံများသည် Megabyte 60 သည် Megabyte 50 စွမ်းဆောင်ရည်ကို ကျော်လွန်နေသောကြောင့် Drive တွင် ဝင်မည် မဟုတ်ပါ၊ ဒုတိယအနေဖြင့် Lossless Compression သည် စုစုပေါင်းကို ခန့်မှန်းချေ Megabyte 30 သို့ ထက်ဝက်ခန့် လျော့ချပြီးနောက် ဓာတ်ပုံများသည် နေရာအလွန်အကျွံ ကျန်ရစ်လျက် သက်တောင့်သက်သာ ဝင်မည် ဖြစ်သည်။ နောက်ဆုံး ဂဏန်းများသာမက အဆင့်တိုင်း တွက်ချက်မှုကို ပြသခြင်းသည် ဤပုံစံ မေးခွန်းများတွင် အမှတ်အပြည့်နှင့် အမှတ်တစ်စိတ်တစ်ပိုင်းကို ကွဲပြားစေသည့် အချက် ဖြစ်ကြောင်း သူ မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what was the total uncompressed size of all 500 photos?",
+            questionMy:
+                "ဓာတ်ပုံ 500 လုံး၏ Compression မလုပ်ရသေးသော စုစုပေါင်း အရွယ်အစားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "60 megabytes",
+              "50 megabytes",
+              "120,000 bytes",
+              "30 megabytes",
+            ],
+            optionsMy: [
+              "60 megabytes",
+              "50 megabytes",
+              "120,000 bytes",
+              "30 megabytes",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating the total in megabytes."],
+            hintsMy: [
+              "Megabyte ဖြင့် စုစုပေါင်းကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the approximate size after lossless compression?",
+            questionMy:
+                "Lossless Compression ပြီးနောက် ခန့်မှန်းချေ အရွယ်အစားကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Approximately 30 megabytes",
+              "Approximately 60 megabytes",
+              "Exactly 50 megabytes",
+              "Approximately 120 megabytes",
+            ],
+            optionsMy: [
+              "ခန့်မှန်းချေ Megabyte 30",
+              "ခန့်မှန်းချေ Megabyte 60",
+              "Megabyte 50 အတိအကျ",
+              "ခန့်မှန်းချေ Megabyte 120",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about halving 60 megabytes."],
+            hintsMy: [
+              "Megabyte 60 ကို ထက်ဝက်ပိုင်းသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what separates full marks from partial marks on this style of question?",
+            questionMy:
+                "ဤပုံစံ မေးခွန်းများတွင် အမှတ်အပြည့်နှင့် အမှတ်တစ်စိတ်တစ်ပိုင်းကို ကွဲပြားစေသည့် အချက်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Showing every step of the calculation, not just the final numbers",
+              "Writing the answer as quickly as possible",
+              "Only giving the final numeric answer without explanation",
+              "Using a calculator instead of working by hand",
+            ],
+            optionsMy: [
+              "နောက်ဆုံး ဂဏန်းများသာမက အဆင့်တိုင်း တွက်ချက်မှုကို ပြသခြင်း",
+              "အဖြေကို တတ်နိုင်သမျှ လျင်မြန်စွာ ရေးသားခြင်း",
+              "ရှင်းလင်းချက် မပါဘဲ နောက်ဆုံး ဂဏန်းဖြေချက်တစ်ခုတည်း ပေးခြင်း",
+              "လက်ဖြင့် ဖြေရှင်းမည့်အစား Calculator သုံးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: Data Representation Exam",
+      titleMy: "Term 1 Capstone - Data Representation စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Convert binary 1111 into denary.",
+          questionMy: "Binary 1111 ကို Denary အဖြစ် ပြောင်းလဲပါ။",
+          optionsEn: ["15", "16", "14", "11"],
+          optionsMy: ["15", "16", "14", "11"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A bitmap image's file size (in bits) is calculated as...",
+          questionMy:
+              "Bitmap ပုံတစ်ခု၏ File Size (Bit ဖြင့်) ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Width x height x colour depth",
+            "Width plus height plus colour depth",
+            "Width divided by height",
+            "Colour depth alone, regardless of size",
+          ],
+          optionsMy: [
+            "Width x Height x Colour Depth",
+            "Width ပေါင်း Height ပေါင်း Colour Depth",
+            "Width ကို Height ဖြင့် စား",
+            "အရွယ်အစား မည်သို့ပင်ရှိစေ Colour Depth တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which is the best example of an appropriate use of lossless compression?",
+          questionMy:
+              "Lossless Compression ကို သင့်လျော်စွာ အသုံးပြုမှု၏ အကောင်းဆုံး ဥပမာမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Compressing a spreadsheet of financial records",
+            "Compressing a casual holiday photo for social media",
+            "Compressing background music for streaming",
+            "Compressing a video clip to send over mobile data",
+          ],
+          optionsMy: [
+            "ငွေကြေးရေးရာ မှတ်တမ်း Spreadsheet ကို Compress လုပ်ခြင်း",
+            "Social Media အတွက် ပေါ့ပေါ့ပါးပါး အားလပ်ရက် ဓာတ်ပုံကို Compress လုပ်ခြင်း",
+            "Stream လုပ်ရန်အတွက် နောက်ခံ ဂီတကို Compress လုပ်ခြင်း",
+            "Mobile Data ဖြင့် ပို့ရန် Video Clip ကို Compress လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 1: "Data Representation" (Weeks 1-4)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm1 = CourseTermDef(
+  id: "course-igcse-computing-t1",
+  termNumber: 1,
+  titleEn: "Data Representation",
+  titleMy: "အချက်အလက် ဖော်ပြမှု",
+  certificateTitleEn: "Data Representation",
+  certificateTitleMy: "အချက်အလက် ဖော်ပြမှု",
+  weeks: [
+    _igcseComputingWeek1,
+    _igcseComputingWeek2,
+    _igcseComputingWeek3,
+    _igcseComputingWeek4,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 2, Week 5: "Data Transmission"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek5 = CourseWeekDef(
+  id: "course-igcse-computing-w5",
+  weekNumber: 5,
+  titleEn: "Data Transmission",
+  titleMy: "အချက်အလက် ပို့လွှတ်ခြင်း (Data Transmission)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w5-d1",
+      dayNumber: 1,
+      titleEn: "Packet Switching and Error Detection",
+      titleMy: "Packet Switching နှင့် Error Detection",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In packet switching, what happens to a large piece of data before it is sent across a network?",
+          questionMy:
+              "Packet Switching တွင် Data အကြီးစားတစ်ခုကို ကွန်ရက်တစ်လျှောက် မပို့မီ အဘယ်အရာ ဖြစ်ပျက်သနည်း။",
+          optionsEn: [
+            "It is split into smaller packets, each labelled and possibly sent by a different route, then reassembled at the destination",
+            "It is sent as one single unbroken stream that cannot be interrupted",
+            "It is deleted and a request is made for the data again",
+            "It is converted entirely into hexadecimal before sending",
+          ],
+          optionsMy: [
+            "ပို့ဆောင်မှု ခရီးလမ်း မတူညီစွာဖြင့် ပို့နိုင်သော Label တပ်ထားသော Packet ငယ်များအဖြစ် ခွဲပြီး ဦးတည်ရာနေရာတွင် ပြန်လည် စုစည်းသည်",
+            "ဖြတ်တောက်၍မရသော ဖြောင့်ဖြောင့်စီးဆင်းမှု တစ်ခုတည်းအဖြစ် ပို့သည်",
+            "ဖျက်ချပြီး Data ကို ထပ်မံ တောင်းဆိုသည်",
+            "မပို့မီ Hexadecimal အဖြစ် လုံးလုံး ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each packet carries a header with source/destination addresses and a sequence number so it can be reassembled correctly.",
+          ],
+          hintsMy: [
+            "Packet တစ်ခုစီသည် ၎င်းကို မှန်ကန်စွာ ပြန်လည်စုစည်းနိုင်ရန် Source/Destination လိပ်စာများနှင့် Sequence Number ပါဝင်သော Header တစ်ခုကို ယူဆောင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a parity check help detect a transmission error?",
+          questionMy:
+              "Parity Check သည် ပို့လွှတ်မှု အမှားကို ရှာဖွေရန် မည်သို့ ကူညီသနည်း။",
+          optionsEn: [
+            "An extra parity bit makes the total number of 1-bits either always even or always odd; a mismatch on arrival signals an error",
+            "It re-sends every packet twice regardless of whether an error occurred",
+            "It encrypts the data so errors cannot occur",
+            "It converts the data into a checksum that replaces the original data entirely",
+          ],
+          optionsMy: [
+            "Parity Bit ထပ်ဆောင်းတစ်ခုက 1-bit စုစုပေါင်း အရေအတွက်ကို အမြဲ Even (သို့) အမြဲ Odd ဖြစ်စေသည် -- ရောက်ရှိချိန်တွင် မကိုက်ညီပါက အမှားကို အချက်ပြသည်",
+            "အမှား ဖြစ်ပျက်သည် ဖြစ်မဖြစ် မည်သို့ပင်ရှိစေ Packet တိုင်းကို နှစ်ကြိမ် ပြန်ပို့သည်",
+            "အမှားများ မဖြစ်ပေါ်နိုင်ရန် Data ကို Encrypt လုပ်သည်",
+            "မူရင်း Data ကို လုံးဝ အစားထိုးမည့် Checksum အဖြစ် ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Even parity adds a bit so the total 1s is even; if the receiver counts an odd total, it knows an error occurred somewhere.",
+          ],
+          hintsMy: [
+            "Even Parity သည် 1 စုစုပေါင်း Even ဖြစ်စေရန် Bit တစ်ခု ထပ်ထည့်သည် -- Receiver က Odd စုစုပေါင်းကို ရေတွက်မိပါက တစ်နေရာနေရာတွင် အမှားဖြစ်ကြောင်း သိရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key advantage of serial data transmission over parallel transmission for long-distance cables?",
+          questionMy:
+              "အကွာအဝေးရှည် Cable များအတွက် Serial Data Transmission သည် Parallel Transmission ထက် အဓိက အားသာချက် အဘယ်နည်း။",
+          optionsEn: [
+            "Serial transmission avoids skew (data arriving out of sync across multiple wires), making it more reliable over long distances",
+            "Serial transmission always sends data faster than parallel transmission",
+            "Serial transmission needs no cable at all",
+            "Serial transmission cannot experience any transmission errors",
+          ],
+          optionsMy: [
+            "Serial Transmission သည် Skew (Wire အများအတွင်း Data Sync မကိုက်ညီစွာ ရောက်ရှိခြင်း) ကို ရှောင်ရှားနိုင်သဖြင့် အကွာအဝေးရှည်တွင် ပို၍ ယုံကြည်ရသည်",
+            "Serial Transmission သည် Parallel Transmission ထက် Data ကို အမြဲ ပို၍ မြန်စွာ ပို့သည်",
+            "Serial Transmission တွင် Cable လုံးဝ မလိုအပ်ပါ",
+            "Serial Transmission တွင် ပို့လွှတ်မှု အမှားများ လုံးဝ မဖြစ်ပေါ်နိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Parallel transmission sends multiple bits at once over multiple wires, but over long distances the wires' signals can arrive slightly out of sync.",
+          ],
+          hintsMy: [
+            "Parallel Transmission သည် Wire အများအတွင်း Bit အများကို တစ်ပြိုင်နက် ပို့သော်လည်း အကွာအဝေးရှည်တွင် Wire များ၏ Signal များသည် Sync အနည်းငယ် မကိုက်ညီဘဲ ရောက်ရှိနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Data Transmission Terms",
+      titleMy: "တွဲစပ်ကြမည် - Data Transmission ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w5-dm-1",
+          termEn: "Packet",
+          termMy: "Packet",
+          matchEn:
+              "A small unit of data, with a header, that data is split into before network transmission",
+          matchMy:
+              "ကွန်ရက်ပို့လွှတ်မှု မပြုမီ Data ခွဲထားသော Header ပါသော Data ယူနစ်ငယ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w5-dm-2",
+          termEn: "Checksum",
+          termMy: "Checksum",
+          matchEn:
+              "A calculated value sent with data, recalculated on arrival to check the data was not corrupted",
+          matchMy:
+              "Data နှင့်အတူ ပို့သော တွက်ချက်ထားသည့် တန်ဖိုး၊ Data ချို့ယွင်းမှု ရှိမရှိ စစ်ဆေးရန် ရောက်ရှိချိန်တွင် ပြန်လည်တွက်ချက်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w5-dm-3",
+          termEn: "Parity bit",
+          termMy: "Parity Bit",
+          matchEn:
+              "An extra bit added so the total number of 1-bits is always even (or always odd)",
+          matchMy:
+              "1-bit စုစုပေါင်း အရေအတွက်ကို အမြဲ Even (သို့) အမြဲ Odd ဖြစ်စေရန် ထည့်သွင်းထားသော Bit ထပ်ဆောင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w5-dm-4",
+          termEn: "Serial transmission",
+          termMy: "Serial Transmission",
+          matchEn:
+              "Sending bits one after another, in sequence, along a single wire",
+          matchMy:
+              "Wire တစ်ခုတည်းအတွင်း Bit များကို တစ်ခုပြီးတစ်ခု အစဉ်လိုက် ပို့လွှတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w5-dm-5",
+          termEn: "Parallel transmission",
+          termMy: "Parallel Transmission",
+          matchEn:
+              "Sending multiple bits at the same time, over multiple wires side by side",
+          matchMy:
+              "Wire အများ၏ ဘေးချင်းယှဉ်တစ်လျှောက် Bit အများကို တစ်ချိန်တည်း ပို့လွှတ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Serial or Parallel Transmission?",
+      titleMy: "စီစစ်ကြမည် - Serial (သို့) Parallel Transmission",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Serial Transmission", "Parallel Transmission"],
+        bucketsMy: ["Serial Transmission", "Parallel Transmission"],
+        items: [
+          SortingItem(
+            id: "igcomp-w5-sort-1",
+            labelEn: "Bits sent one after another along a single wire",
+            labelMy:
+                "Wire တစ်ခုတည်းအတွင်း Bit များ တစ်ခုပြီးတစ်ခု ပို့လွှတ်ခြင်း",
+            correctBucketEn: "Serial Transmission",
+            correctBucketMy: "Serial Transmission",
+          ),
+          SortingItem(
+            id: "igcomp-w5-sort-2",
+            labelEn:
+                "Best suited to long-distance cables, e.g. USB or internet connections",
+            labelMy:
+                "အကွာအဝေးရှည် Cable များ (ဥပမာ USB, အင်တာနက် ချိတ်ဆက်မှု) နှင့် ပို၍ ကိုက်ညီသည်",
+            correctBucketEn: "Serial Transmission",
+            correctBucketMy: "Serial Transmission",
+          ),
+          SortingItem(
+            id: "igcomp-w5-sort-3",
+            labelEn: "Multiple bits sent at once over multiple wires",
+            labelMy:
+                "Wire အများအတွင်း Bit အများကို တစ်ပြိုင်နက် ပို့လွှတ်ခြင်း",
+            correctBucketEn: "Parallel Transmission",
+            correctBucketMy: "Parallel Transmission",
+          ),
+          SortingItem(
+            id: "igcomp-w5-sort-4",
+            labelEn: "Can suffer from skew over long distances",
+            labelMy: "အကွာအဝေးရှည်တွင် Skew ခံစားရနိုင်သည်",
+            correctBucketEn: "Parallel Transmission",
+            correctBucketMy: "Parallel Transmission",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Parity Check",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Parity Check",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Parity Check",
+        titleMy: "Zayar Lin ၏ Parity Check",
+        passageEn:
+            "Sayar Ye Min sent a byte of data, 01101100, across a simulated noisy channel to demonstrate how even parity worked. Before sending, he added an extra parity bit at the end so that the total number of 1-bits, including the parity bit itself, was always even. Zayar Lin counted the 1-bits in 01101100 first: there were four of them, which is already an even number, so the parity bit added had to be 0 to keep the total at four, an even count.\n\nSayar Ye Min then deliberately corrupted a single bit during the simulated transmission, flipping one of the middle bits from 1 to 0, and asked Zayar Lin to check the received byte using the parity rule. Zayar Lin recounted the 1-bits in the received, corrupted byte and found only three -- an odd number. Since the agreed rule was that the total should always be even, an odd count on arrival meant something had gone wrong during transmission, and the receiving device could flag this byte as corrupted and request it be resent.\n\nZayar Lin then asked a sharper question: what if two bits were flipped instead of one? Sayar Ye Min explained this was exactly the well-known weakness of simple parity checking -- flipping two bits changes the count by two, which keeps the total's evenness or oddness exactly the same as before, so a double-bit error can slip through undetected. This was why more robust methods like checksums, and even more advanced techniques the class would meet later in the course, existed for situations where reliability mattered more than simplicity. Zayar Lin wrote this limitation down carefully, recognising it as a common IGCSE exam question: 'state one limitation of parity checking.'",
+        passageMy:
+            "ဆရာရဲမင်းသည် Even Parity မည်သို့ အလုပ်လုပ်ကြောင်း သရုပ်ပြရန် Data Byte တစ်ခု၊ 01101100 ကို Simulated ဆူညံသံ Channel တစ်ခုတစ်လျှောက် ပို့လွှတ်ခဲ့သည်။ မပို့မီ 1-bit စုစုပေါင်း အရေအတွက်ကို Parity Bit ကိုယ်တိုင် အပါအဝင် အမြဲ Even ဖြစ်စေရန် အဆုံးတွင် Parity Bit ထပ်ဆောင်း တစ်ခု ထည့်ခဲ့သည်။ Zayar Lin သည် 01101100 ရှိ 1-bit များကို ဦးစွာ ရေတွက်ခဲ့သည် - လေးလုံး ရှိပြီး ၎င်းသည် ရှိပြီးသား Even ဂဏန်း ဖြစ်သည်၊ ထို့ကြောင့် စုစုပေါင်းကို လေးလုံး Even Count ဖြင့် ဆက်ရှိစေရန် ထပ်ထည့်ခဲ့သော Parity Bit သည် 0 ဖြစ်ရမည် ဖြစ်သည်။\n\nဆရာရဲမင်းသည် Simulated ပို့လွှတ်မှုအတွင်း Bit တစ်ခုကို ရည်ရွယ်ချက်ရှိရှိ ချို့ယွင်းစေခဲ့ပြီး အလယ် Bit တစ်ခုကို 1 မှ 0 သို့ ပြောင်းလဲခဲ့ပြီးနောက် Parity စည်းမျဉ်းကို အသုံးပြု၍ ရောက်ရှိလာသော Byte ကို စစ်ဆေးရန် Zayar Lin ကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် ရောက်ရှိလာသော ချို့ယွင်းနေသော Byte ရှိ 1-bit များကို ပြန်ရေတွက်ခဲ့ပြီး သုံးလုံးသာ တွေ့ခဲ့သည် -- Odd ဂဏန်း ဖြစ်သည်။ သဘောတူထားသော စည်းမျဉ်းက စုစုပေါင်းသည် အမြဲ Even ဖြစ်ရမည် ဖြစ်သောကြောင့် ရောက်ရှိချိန်တွင် Odd Count ဆိုသည်မှာ ပို့လွှတ်မှုအတွင်း တစ်ခုခု မှားယွင်းသွားကြောင်း ဆိုလိုပြီး Receive ပြုလုပ်သော Device က ဤ Byte ကို ချို့ယွင်းသည်ဟု အမှတ်အသားပြုပြီး ထပ်မံ ပို့ပေးရန် တောင်းဆိုနိုင်သည်။\n\nZayar Lin သည် ပို၍ထက်သော မေးခွန်းတစ်ခု ဆက်မေးခဲ့သည် - Bit တစ်ခုအစား Bit နှစ်ခု ပြောင်းလဲသွားပါက အဘယ်နည်း။ ဤသည်ကား ရိုးရှင်းသော Parity Checking ၏ ကောင်းစွာ လူသိများသော အားနည်းချက် အတိအကျ ဖြစ်ကြောင်း ဆရာရဲမင်းက ရှင်းပြခဲ့သည် -- Bit နှစ်ခု ပြောင်းလဲခြင်းသည် Count ကို နှစ်ခုဖြင့် ပြောင်းလဲစေပြီး ၎င်းသည် စုစုပေါင်း၏ Even/Odd Status ကို ယခင်နှင့် အတိအကျ တူညီစေသဖြင့် Bit နှစ်ခု အမှားသည် မတွေ့ရှိဘဲ ချော်ဖော်သွားနိုင်သည်။ ဤသည်ကား ယုံကြည်စိတ်ချရမှုသည် ရိုးရှင်းမှုထက် ပို၍ အရေးကြီးသော အခြေအနေများအတွက် Checksum ကဲ့သို့ ပို၍ ခိုင်မာသော နည်းလမ်းများနှင့် သင်တန်းတွင် နောက်ပိုင်း တွေ့ကြုံရမည့် ပို၍ အဆင့်မြင့်သော နည်းပညာများပင် ရှိနေရသည့် အကြောင်းရင်း ဖြစ်သည်။ Zayar Lin သည် ဤ ကန့်သတ်ချက်ကို 'Parity Checking ၏ ကန့်သတ်ချက် တစ်ခုကို ဖော်ပြပါ' ဟူသော အများသုံး IGCSE စာမေးပွဲ မေးခွန်းအဖြစ် အသိအမှတ်ပြုကာ သေချာစွာ ချရေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why was the added parity bit set to 0?",
+            questionMy:
+                "ထပ်ထည့်ခဲ့သော Parity Bit ကို 0 သတ်မှတ်ခဲ့ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The original byte already had an even number (four) of 1-bits",
+              "Zero is always the default parity bit value",
+              "The teacher chose it randomly",
+              "The byte contained no 1-bits at all",
+            ],
+            optionsMy: [
+              "မူရင်း Byte တွင် ရှိပြီးသား 1-bit Even အရေအတွက် (လေးလုံး) ရှိနေခဲ့သောကြောင့်",
+              "Zero သည် ပုံမှန် Parity Bit တန်ဖိုး အမြဲ ဖြစ်သောကြောင့်",
+              "ဆရာက ကျပန်း ရွေးချယ်ခဲ့သောကြောင့်",
+              "Byte တွင် 1-bit လုံးဝ မပါဝင်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence counting the original 1-bits."],
+            hintsMy: [
+              "မူရင်း 1-bit များကို ရေတွက်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Zayar Lin know the received byte was corrupted?",
+            questionMy:
+                "ရောက်ရှိလာသော Byte ချို့ယွင်းနေကြောင်း Zayar Lin မည်သို့ သိရှိခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The received byte had an odd number of 1-bits, breaking the agreed even-parity rule",
+              "The byte arrived completely blank",
+              "Sayar Ye Min told him directly which bit was wrong",
+              "The byte was too short to be valid",
+            ],
+            optionsMy: [
+              "ရောက်ရှိလာသော Byte တွင် Odd 1-bit အရေအတွက် ရှိနေပြီး သဘောတူထားသော Even-Parity စည်းမျဉ်းကို ချိုးဖောက်ခဲ့သောကြောင့်",
+              "Byte သည် လုံးဝ Blank ဖြင့် ရောက်ရှိခဲ့သောကြောင့်",
+              "မည်သည့် Bit မှား ကြောင်းကို ဆရာရဲမင်းက တိုက်ရိုက် ပြောကြားခဲ့သောကြောင့်",
+              "Byte သည် တရားဝင်ရန် အလွန်တို ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about recounting the 1-bits."],
+            hintsMy: [
+              "1-bit များကို ပြန်ရေတွက်ခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why can a double-bit error slip past a simple parity check undetected?",
+            questionMy:
+                "Bit နှစ်ခု အမှားသည် ရိုးရှင်းသော Parity Check မှ မတွေ့ရှိဘဲ ချော်ဖော်သွားနိုင်ရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Flipping two bits changes the count by two, keeping the total's evenness or oddness unchanged",
+              "Parity checks only work for a single bit of data",
+              "Two-bit errors are physically impossible",
+              "Checksums always replace parity checks entirely",
+            ],
+            optionsMy: [
+              "Bit နှစ်ခု ပြောင်းလဲခြင်းသည် Count ကို နှစ်ခုဖြင့် ပြောင်းလဲစေပြီး စုစုပေါင်း၏ Even/Odd Status ကို မပြောင်းလဲစေခြင်း",
+              "Parity Check များသည် Data Bit တစ်ခုတည်းအတွက်သာ အလုပ်လုပ်သောကြောင့်",
+              "Bit နှစ်ခု အမှားများသည် ရုပ်ပိုင်းဆိုင်ရာ မဖြစ်နိုင်သောကြောင့်",
+              "Checksum များက Parity Check များကို အမြဲ လုံးဝ အစားထိုးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence explaining the count change."],
+            hintsMy: [
+              "Count ပြောင်းလဲမှု ရှင်းပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Data Transmission",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Data Transmission",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Packet switching splits data into...",
+          questionMy: "Packet Switching သည် Data ကို ...အဖြစ် ခွဲသည်",
+          optionsEn: [
+            "Smaller labelled packets that can travel different routes and be reassembled",
+            "A single unbreakable stream",
+            "Random unrelated fragments with no order",
+            "Only text characters",
+          ],
+          optionsMy: [
+            "ခရီးလမ်းမတူညီစွာ ခရီးသွားနိုင်ပြီး ပြန်လည်စုစည်းနိုင်သော Label တပ်ထားသော Packet ငယ်များ",
+            "မကွဲနိုင်သော စီးဆင်းမှု တစ်ခုတည်း",
+            "အစီအစဉ်မရှိသော ကျပန်း မသက်ဆိုင်သော အပိုင်းအစများ",
+            "Text Character များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A limitation of simple parity checking is that it cannot detect...",
+          questionMy:
+              "ရိုးရှင်းသော Parity Checking ၏ ကန့်သတ်ချက်မှာ ...ကို မတွေ့ရှိနိုင်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "An error where exactly two bits have been flipped",
+            "Any error at all under any circumstances",
+            "Errors in text files only",
+            "Errors that occur during storage rather than transmission",
+          ],
+          optionsMy: [
+            "Bit နှစ်ခု အတိအကျ ပြောင်းလဲသွားသော အမှား",
+            "မည်သည့်အခြေအနေမဆို အမှား အားလုံး",
+            "Text File များရှိ အမှားများသာ",
+            "ပို့လွှတ်မှုအစား Storage အတွင်း ဖြစ်ပေါ်သော အမှားများ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Serial transmission is generally preferred over parallel for long distances because it...",
+          questionMy:
+              "Serial Transmission သည် အကွာအဝေးရှည်များအတွက် Parallel ထက် ပို၍ ရွေးချယ်ခံရသော အကြောင်းရင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Avoids the timing skew that can occur across multiple parallel wires",
+            "Uses no cable at all",
+            "Cannot ever experience any errors",
+            "Is always slower in every situation",
+          ],
+          optionsMy: [
+            "Parallel Wire အများအတွင်း ဖြစ်ပေါ်နိုင်သော Timing Skew ကို ရှောင်ရှားနိုင်ခြင်း",
+            "Cable လုံးဝ မလိုအပ်ခြင်း",
+            "မည်သည့် အမှားမှ ဘယ်တော့မှ ဖြစ်ပေါ်နိုင်ခြင်း မရှိခြင်း",
+            "အခြေအနေတိုင်းတွင် အမြဲ ပို၍ နှေးကွေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 2, Week 6: "The Internet and World Wide Web"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek6 = CourseWeekDef(
+  id: "course-igcse-computing-w6",
+  weekNumber: 6,
+  titleEn: "The Internet and World Wide Web",
+  titleMy: "အင်တာနက်နှင့် ကမ္ဘာ့ဝဘ်ချိတ်ဆက်မှု (WWW)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w6-d1",
+      dayNumber: 1,
+      titleEn: "IP Addresses, MAC Addresses and DNS",
+      titleMy: "IP Address, MAC Address နှင့် DNS",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between an IP address and a MAC address?",
+          questionMy:
+              "IP Address နှင့် MAC Address ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "An IP address can change (assigned by a network) and identifies a device's location on a network, while a MAC address is a permanent, unique identifier built into the network hardware",
+            "A MAC address changes every time a device restarts, while an IP address never changes",
+            "IP addresses and MAC addresses are simply two different names for the exact same thing",
+            "MAC addresses are only used for Apple devices",
+          ],
+          optionsMy: [
+            "IP Address သည် (ကွန်ရက်မှ သတ်မှတ်သော) ပြောင်းလဲနိုင်ပြီး ကွန်ရက်ပေါ်ရှိ Device တစ်ခု၏ တည်နေရာကို ဖော်ပြသော်လည်း MAC Address သည် ကွန်ရက် Hardware အတွင်း တည်ဆောက်ထားသော အမြဲတမ်း၊ တစ်ခုတည်းသော Identifier ဖြစ်သည်",
+            "MAC Address သည် Device ပြန်စတင်တိုင်း ပြောင်းလဲသော်လည်း IP Address ဘယ်တော့မှ မပြောင်းလဲပါ",
+            "IP Address နှင့် MAC Address သည် အရာတစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်သည်",
+            "MAC Address များကို Apple Device များအတွက်သာ အသုံးပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a MAC address as a device's permanent serial number, and an IP address as its current postal address on a specific network.",
+          ],
+          hintsMy: [
+            "MAC Address ကို Device တစ်ခု၏ အမြဲတမ်း Serial Number အဖြစ်၊ IP Address ကို ကွန်ရက်တစ်ခုတွင် လက်ရှိ စာပို့လိပ်စာအဖြစ် စဉ်းစားကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What does a Domain Name Server (DNS) actually do?",
+          questionMy:
+              "Domain Name Server (DNS) သည် အမှန်တကယ် အဘယ်အရာ လုပ်ဆောင်သနည်း။",
+          optionsEn: [
+            "Translates human-readable website names (like example.com) into the numeric IP address computers use to locate the server",
+            "Physically stores every website's files on one central server",
+            "Encrypts all traffic passing through a router",
+            "Blocks websites considered inappropriate for children",
+          ],
+          optionsMy: [
+            "လူဖတ်ရလွယ်သော Website အမည်များ (ဥပမာ example.com) ကို ကွန်ပျူတာများက Server ရှာဖွေရန် အသုံးပြုသော ဂဏန်း IP Address သို့ ဘာသာပြန်ဆိုသည်",
+            "Website တိုင်း၏ File များကို Central Server တစ်ခုတည်းတွင် ရုပ်ပိုင်းဆိုင်ရာ သိမ်းဆည်းသည်",
+            "Router တစ်ခုကို ဖြတ်သန်းသော Traffic အားလုံးကို Encrypt လုပ်သည်",
+            "ကလေးများအတွက် မသင့်လျော်ဟု သတ်မှတ်ထားသော Website များကို ပိတ်ပင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Without DNS, users would have to memorise a numeric address like 93.184.216.34 instead of a name like example.com.",
+          ],
+          hintsMy: [
+            "DNS မရှိပါက User များသည် example.com ကဲ့သို့ အမည်အစား 93.184.216.34 ကဲ့သို့ ဂဏန်း လိပ်စာကို အလွတ်ကျက်မှတ်ရလိမ့်မည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the role of HTML in a webpage, as distinct from CSS?",
+          questionMy:
+              "CSS နှင့် ကွဲပြားစွာ Webpage တစ်ခုတွင် HTML ၏ အခန်းကဏ္ဍမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "HTML defines the structure and content of a page (headings, paragraphs, links); CSS defines its visual presentation (colours, fonts, layout)",
+            "HTML controls only colours; CSS controls only text",
+            "HTML and CSS are two names for exactly the same language",
+            "HTML runs on the server, while CSS never reaches the user's browser at all",
+          ],
+          optionsMy: [
+            "HTML က Page တစ်ခု၏ ဖွဲ့စည်းပုံနှင့် အကြောင်းအရာ (ခေါင်းစဉ်များ၊ စာပိုဒ်များ၊ Link များ) ကို သတ်မှတ်ပြီး CSS က ၎င်း၏ ရုပ်ပိုင်းဆိုင်ရာ တင်ဆက်မှု (အရောင်များ၊ Font များ၊ Layout) ကို သတ်မှတ်သည်",
+            "HTML သည် အရောင်များကိုသာ ထိန်းချုပ်ပြီး CSS သည် Text ကိုသာ ထိန်းချုပ်သည်",
+            "HTML နှင့် CSS သည် ဘာသာစကားတစ်ခုတည်းအတွက် အမည်နှစ်ခု ဖြစ်သည်",
+            "HTML သည် Server ပေါ်တွင် Run ပြီး CSS သည် User ၏ Browser သို့ လုံးဝ မရောက်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "HTML tags like <h1> or <p> describe what a piece of content IS, while CSS describes how it should LOOK.",
+          ],
+          hintsMy: [
+            "<h1> သို့မဟုတ် <p> ကဲ့သို့ HTML Tag များသည် Content အပိုင်းတစ်ခု မည်သို့ဖြစ်ကြောင်း ဖော်ပြပြီး CSS သည် ၎င်းသည် မည်သို့ ပုံပေါ်သင့်ကြောင်း ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Internet Infrastructure Terms",
+      titleMy: "တွဲစပ်ကြမည် - Internet Infrastructure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w6-dm-1",
+          termEn: "Router",
+          termMy: "Router",
+          matchEn:
+              "A device that forwards data packets between networks, finding the best available path",
+          matchMy:
+              "ကွန်ရက်များကြား Data Packet များကို ရရှိနိုင်သော အကောင်းဆုံး လမ်းကြောင်းကို ရှာဖွေပြီး ပို့ဆောင်ပေးသော Device",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w6-dm-2",
+          termEn: "DNS",
+          termMy: "DNS",
+          matchEn:
+              "The system that translates domain names into numeric IP addresses",
+          matchMy:
+              "Domain Name များကို ဂဏန်း IP Address များသို့ ဘာသာပြန်ဆိုသော စနစ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w6-dm-3",
+          termEn: "HTML",
+          termMy: "HTML",
+          matchEn:
+              "The markup language that defines the structure and content of a webpage",
+          matchMy:
+              "Webpage တစ်ခု၏ ဖွဲ့စည်းပုံနှင့် အကြောင်းအရာကို သတ်မှတ်သော Markup ဘာသာစကား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w6-dm-4",
+          termEn: "IP address",
+          termMy: "IP Address",
+          matchEn:
+              "A numeric address identifying a device's location on a network, which can change over time",
+          matchMy:
+              "ကွန်ရက်ပေါ်ရှိ Device တစ်ခု၏ တည်နေရာကို ဖော်ပြသော ဂဏန်း Address၊ အချိန်နှင့်အမျှ ပြောင်းလဲနိုင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w6-dm-5",
+          termEn: "MAC address",
+          termMy: "MAC Address",
+          matchEn:
+              "A permanent, unique identifier built into a device's network hardware at manufacture",
+          matchMy:
+              "Manufacture လုပ်ချိန်တွင် Device ၏ ကွန်ရက် Hardware အတွင်း တည်ဆောက်ထားသော အမြဲတမ်း၊ တစ်ခုတည်းသော Identifier",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: HTML Structure or CSS Presentation?",
+      titleMy: "စီစစ်ကြမည် - HTML Structure လား CSS Presentation လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["HTML (Structure)", "CSS (Presentation)"],
+        bucketsMy: ["HTML (Structure)", "CSS (Presentation)"],
+        items: [
+          SortingItem(
+            id: "igcomp-w6-sort-1",
+            labelEn: "Defining a page's main heading",
+            labelMy: "Page ၏ အဓိက ခေါင်းစဉ် သတ်မှတ်ခြင်း",
+            correctBucketEn: "HTML (Structure)",
+            correctBucketMy: "HTML (Structure)",
+          ),
+          SortingItem(
+            id: "igcomp-w6-sort-2",
+            labelEn: "Setting the background colour of a page",
+            labelMy: "Page ၏ Background အရောင် သတ်မှတ်ခြင်း",
+            correctBucketEn: "CSS (Presentation)",
+            correctBucketMy: "CSS (Presentation)",
+          ),
+          SortingItem(
+            id: "igcomp-w6-sort-3",
+            labelEn: "Creating a hyperlink to another page",
+            labelMy: "အခြား Page သို့ Hyperlink ဖန်တီးခြင်း",
+            correctBucketEn: "HTML (Structure)",
+            correctBucketMy: "HTML (Structure)",
+          ),
+          SortingItem(
+            id: "igcomp-w6-sort-4",
+            labelEn: "Choosing the font size of a paragraph",
+            labelMy: "စာပိုဒ်တစ်ခု၏ Font Size ရွေးချယ်ခြင်း",
+            correctBucketEn: "CSS (Presentation)",
+            correctBucketMy: "CSS (Presentation)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin Traces a Web Request",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin က Web Request ကို ခြေရာခံသည်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin Traces a Web Request",
+        titleMy: "Zayar Lin က Web Request ကို ခြေရာခံသည်",
+        passageEn:
+            "Sayar Ye Min asked the class to trace, step by step, everything that happened between typing a website's name into a browser and the page appearing on screen. Zayar Lin started with what he knew: the user types a human-readable domain name, but computers on the internet actually locate each other using numeric IP addresses, not names. So the very first step, he reasoned, had to involve translating that name into an address somehow.\n\nHe recalled the DNS lesson and explained that the browser sends a request to a Domain Name Server, which looks up the domain name and returns the matching numeric IP address of the server hosting that website. Once the browser has that IP address, it can request the actual webpage content from the correct server. Sayar Ye Min pressed further: how does that request actually travel from the user's device to a server that might be on the other side of the world? Zayar Lin connected this to the previous week's packet-switching lesson -- the request, and later the webpage data sent back, would be broken into packets, and routers along the way would forward each packet toward its destination, each router choosing the best available path at that moment.\n\nFinally, Sayar Ye Min asked what the browser actually does once the raw webpage data arrives. Zayar Lin explained that the server sends back HTML, which defines the page's structure and content, along with CSS, which defines how that structure should visually look -- the browser reads both and renders them together into the finished page the user sees. He summarised the whole chain for his notes: domain name, DNS lookup, IP address, packet-switched request across routers, HTML and CSS response, and finally the browser rendering the result on screen.",
+        passageMy:
+            "Browser တစ်ခုတွင် Website အမည်တစ်ခု ရိုက်ထည့်ခြင်းနှင့် Page ကို Screen ပေါ်တွင် ပေါ်လာခြင်းကြား ဖြစ်ပျက်သမျှကို အဆင့်ဆင့် ခြေရာခံရန် ဆရာရဲမင်းက အတန်းကို တောင်းဆိုခဲ့သည်။ Zayar Lin သည် သူသိသည့် အရာဖြင့် စတင်ခဲ့သည် - User သည် လူဖတ်ရလွယ်သော Domain Name ကို ရိုက်ထည့်သော်လည်း အင်တာနက်ပေါ်ရှိ ကွန်ပျူတာများသည် အချင်းချင်း တည်နေရာ ရှာဖွေရန် အမည်များ မဟုတ်ဘဲ ဂဏန်း IP Address များကို အမှန်တကယ် အသုံးပြုသည်။ ထို့ကြောင့် ပထမဆုံး အဆင့်တွင် ထိုအမည်ကို Address တစ်ခုသို့ တစ်နည်းနည်းဖြင့် ဘာသာပြန်ဆိုရမည် ဖြစ်ရမည်ဟု သူ ဆင်ခြင်ခဲ့သည်။\n\nသူသည် DNS သင်ခန်းစာကို သတိရပြီး Browser သည် Domain Name Server သို့ Request တစ်ခု ပို့ကြောင်း၊ ၎င်းက Domain Name ကို ရှာဖွေပြီး ထို Website ကို Host လုပ်နေသော Server ၏ ကိုက်ညီသော ဂဏန်း IP Address ကို ပြန်ပေးကြောင်း ရှင်းပြခဲ့သည်။ Browser တွင် ထို IP Address ရရှိသည်နှင့်တစ်ပြိုင်နက် အမှန်တကယ် Webpage Content ကို မှန်ကန်သော Server ထံမှ တောင်းဆိုနိုင်သည်။ ဆရာရဲမင်းက ဆက်လက် အနက်ရှိုင်း မေးမြန်းခဲ့သည် - ထို Request သည် User ၏ Device မှ ကမ္ဘာ၏ တစ်ဖက်ခြမ်းတွင် ရှိနိုင်သော Server သို့ အမှန်တကယ် မည်သို့ ခရီးသွားသနည်း။ Zayar Lin သည် ၎င်းကို ယခင်အပတ်၏ Packet-Switching သင်ခန်းစာနှင့် ချိတ်ဆက်ခဲ့သည် -- Request နှင့် နောက်ပိုင်း ပြန်ပို့သော Webpage Data သည် Packet များအဖြစ် ခွဲထားပြီး လမ်းတစ်လျှောက်ရှိ Router များက Packet တစ်ခုစီကို ၎င်း၏ ဦးတည်ရာသို့ ပို့ဆောင်ပေးမည်ဖြစ်ပြီး Router တစ်ခုစီသည် ထိုအချိန်တွင် ရရှိနိုင်သော အကောင်းဆုံး လမ်းကြောင်းကို ရွေးချယ်မည် ဖြစ်သည်။\n\nနောက်ဆုံးတွင် Webpage Data အစစ်အမှန် ရောက်ရှိလာသောအခါ Browser သည် အမှန်တကယ် အဘယ်အရာ လုပ်ဆောင်သနည်းဟု ဆရာရဲမင်းက မေးမြန်းခဲ့သည်။ Server သည် Page ၏ ဖွဲ့စည်းပုံနှင့် အကြောင်းအရာကို သတ်မှတ်သော HTML ကို ထို ဖွဲ့စည်းပုံ မည်သို့ ရုပ်ပိုင်းဆိုင်ရာ ပေါ်သင့်ကြောင်း သတ်မှတ်သော CSS နှင့်အတူ ပြန်ပို့ကြောင်း -- Browser သည် နှစ်ခုစလုံးကို ဖတ်ပြီး User မြင်တွေ့ရသော ပြီးစီးသော Page အဖြစ် တွဲဖက် Render လုပ်ကြောင်း Zayar Lin ရှင်းပြခဲ့သည်။ သူသည် သူ့ မှတ်စုများအတွက် ကွင်းဆက်တစ်ခုလုံးကို အနှစ်ချုပ်ခဲ့သည် - Domain Name, DNS Lookup, IP Address, Router များ ဖြတ်သန်းသော Packet-Switched Request, HTML နှင့် CSS Response နှင့် နောက်ဆုံးတွင် Browser က ရလဒ်ကို Screen ပေါ်တွင် Render လုပ်ခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what does DNS return to the browser?",
+            questionMy:
+                "DNS က Browser သို့ အဘယ်အရာ ပြန်ပေးသည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The matching numeric IP address of the server hosting the website",
+              "The full HTML content of the page",
+              "A list of every website on the internet",
+              "The user's own IP address",
+            ],
+            optionsMy: [
+              "Website ကို Host လုပ်နေသော Server ၏ ကိုက်ညီသော ဂဏန်း IP Address",
+              "Page ၏ HTML Content အပြည့်အစုံ",
+              "အင်တာနက်ပေါ်ရှိ Website အားလုံး၏ စာရင်း",
+              "User ၏ ကိုယ်ပိုင် IP Address",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the DNS lookup."],
+            hintsMy: ["DNS Lookup အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how does the request travel from the user's device to the server?",
+            questionMy:
+                "Request သည် User ၏ Device မှ Server သို့ မည်သို့ ခရီးသွားသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is broken into packets, forwarded by routers each choosing the best available path",
+              "It travels as one single unbroken message with no routing",
+              "It is sent only by physical mail",
+              "It never actually leaves the user's device",
+            ],
+            optionsMy: [
+              "Packet များအဖြစ် ခွဲထားပြီး Router များက အကောင်းဆုံး ရရှိနိုင်သော လမ်းကြောင်းကို ရွေးချယ်ကာ ပို့ဆောင်ပေးသည်",
+              "Routing မရှိဘဲ တစ်ခုတည်း ဖြောင့်ဖြောင့် Message အဖြစ် ခရီးသွားသည်",
+              "စာတိုက် ရုပ်ပိုင်းဆိုင်ရာဖြင့်သာ ပို့လွှတ်သည်",
+              "User ၏ Device မှ လုံးဝ ထွက်ခွာသွားခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence connecting to packet switching."],
+            hintsMy: [
+              "Packet Switching နှင့် ချိတ်ဆက်ထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what two things does the browser receive and render together?",
+            questionMy:
+                "Browser က တွဲဖက် လက်ခံပြီး Render လုပ်သော အရာနှစ်ခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "HTML (structure) and CSS (presentation)",
+              "Only the domain name and the IP address",
+              "Only images, with no text",
+              "The router's location and the user's IP address",
+            ],
+            optionsMy: [
+              "HTML (Structure) နှင့် CSS (Presentation)",
+              "Domain Name နှင့် IP Address သာ",
+              "Text မပါဘဲ ပုံများသာ",
+              "Router ၏ တည်နေရာနှင့် User ၏ IP Address",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ အနှစ်ချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: The Internet and WWW",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Internet နှင့် WWW",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "DNS translates domain names into...",
+          questionMy: "DNS သည် Domain Name များကို ...အဖြစ် ဘာသာပြန်ဆိုသည်",
+          optionsEn: [
+            "Numeric IP addresses",
+            "MAC addresses only",
+            "HTML tags",
+            "CSS colour codes",
+          ],
+          optionsMy: [
+            "ဂဏန်း IP Address များ",
+            "MAC Address များသာ",
+            "HTML Tag များ",
+            "CSS အရောင် Code များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A MAC address is best described as...",
+          questionMy: "MAC Address ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "A permanent, unique hardware identifier that does not change",
+            "A temporary address that changes every few seconds",
+            "The same thing as a domain name",
+            "A type of webpage styling code",
+          ],
+          optionsMy: [
+            "မပြောင်းလဲသော အမြဲတမ်း၊ တစ်ခုတည်းသော Hardware Identifier",
+            "စက္ကန့်အနည်းငယ်တိုင်း ပြောင်းလဲသော ယာယီ Address",
+            "Domain Name နှင့် အတူတူပင် ဖြစ်ခြင်း",
+            "Webpage Styling Code အမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "HTML is primarily responsible for a webpage's...",
+          questionMy: "HTML သည် Webpage တစ်ခု၏ ...အတွက် အဓိက တာဝန်ရှိသည်",
+          optionsEn: [
+            "Structure and content",
+            "Visual colours and fonts only",
+            "Internet speed",
+            "Router configuration",
+          ],
+          optionsMy: [
+            "ဖွဲ့စည်းပုံနှင့် အကြောင်းအရာ",
+            "ရုပ်ပိုင်းဆိုင်ရာ အရောင်နှင့် Font များသာ",
+            "အင်တာနက် အမြန်နှုန်း",
+            "Router Configuration",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 2, Week 7: "Network Security and Encryption"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek7 = CourseWeekDef(
+  id: "course-igcse-computing-w7",
+  weekNumber: 7,
+  titleEn: "Network Security and Encryption",
+  titleMy: "ကွန်ရက် လုံခြုံရေးနှင့် ကုဒ်ဝှက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w7-d1",
+      dayNumber: 1,
+      titleEn: "Encryption, Firewalls and Malware",
+      titleMy: "Encryption, Firewall နှင့် Malware",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between symmetric and asymmetric encryption?",
+          questionMy:
+              "Symmetric Encryption နှင့် Asymmetric Encryption ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "Symmetric encryption uses the same key to encrypt and decrypt; asymmetric encryption uses a public key to encrypt and a different, private key to decrypt",
+            "Symmetric encryption never uses any key at all",
+            "Asymmetric encryption is always less secure than symmetric encryption",
+            "Symmetric and asymmetric encryption are simply two names for the same process",
+          ],
+          optionsMy: [
+            "Symmetric Encryption သည် Encrypt နှင့် Decrypt လုပ်ရန် Key တစ်ခုတည်းကို အသုံးပြုပြီး Asymmetric Encryption သည် Encrypt ရန် Public Key နှင့် Decrypt ရန် ကွဲပြားသော Private Key ကို အသုံးပြုသည်",
+            "Symmetric Encryption သည် Key မည်သည့်အမျိုးအစားမျှ လုံးဝ မအသုံးပြုပါ",
+            "Asymmetric Encryption သည် Symmetric Encryption ထက် အမြဲ လုံခြုံမှု နည်းသည်",
+            "Symmetric နှင့် Asymmetric Encryption သည် Process တစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Asymmetric encryption solves the problem of safely sharing a key over an insecure network: the public key can be shared openly, but only the matching private key can decrypt.",
+          ],
+          hintsMy: [
+            "Asymmetric Encryption သည် Key တစ်ခုကို လုံခြုံမှုမရှိသော ကွန်ရက်တစ်ခုတစ်လျှောက် လုံခြုံစွာ မျှဝေရသော ပြဿနာကို ဖြေရှင်းပေးသည် - Public Key ကို ပွင့်လင်းစွာ မျှဝေနိုင်သော်လည်း ကိုက်ညီသော Private Key ကသာ Decrypt လုပ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the main purpose of a firewall?",
+          questionMy: "Firewall တစ်ခု၏ အဓိက ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It monitors and filters incoming and outgoing network traffic, blocking traffic that does not meet set security rules",
+            "It permanently deletes all data on a hard drive",
+            "It encrypts every file stored on a device automatically",
+            "It speeds up an internet connection",
+          ],
+          optionsMy: [
+            "ကွန်ရက် Traffic ဝင်ရောက်မှုနှင့် ထွက်ခွာမှုကို စောင့်ကြည့်စစ်ထုတ်ပြီး သတ်မှတ်ထားသော လုံခြုံရေး စည်းမျဉ်းနှင့် မကိုက်ညီသော Traffic ကို ပိတ်ပင်သည်",
+            "Hard Drive ပေါ်ရှိ Data အားလုံးကို အမြဲတမ်း ဖျက်ချသည်",
+            "Device ပေါ်တွင် သိမ်းဆည်းထားသော File တိုင်းကို အလိုအလျောက် Encrypt လုပ်သည်",
+            "အင်တာနက် ချိတ်ဆက်မှုကို အရှိန်မြှင့်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A firewall acts like a security checkpoint at the boundary of a network, deciding what traffic is allowed to pass in either direction.",
+          ],
+          hintsMy: [
+            "Firewall သည် ကွန်ရက်၏ နယ်နိမိတ်တွင် လုံခြုံရေး စစ်ဆေးရေးဂိတ်တစ်ခုကဲ့သို့ လုပ်ဆောင်ပြီး ဦးတည်ချက် မည်သို့ပင်ရှိစေ Traffic မည်သည်ကို ဖြတ်သန်းခွင့်ပြုသည်ကို ဆုံးဖြတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What distinguishes phishing from other types of malware attack?",
+          questionMy:
+              "Phishing ကို Malware တိုက်ခိုက်မှု အမျိုးအစားများနှင့် ကွဲပြားစေသော အချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Phishing relies on tricking a human user (usually via a fake email or website) into revealing sensitive information, rather than exploiting a technical software flaw",
+            "Phishing only affects mobile phones, never computers",
+            "Phishing physically damages computer hardware",
+            "Phishing always requires no user interaction at all",
+          ],
+          optionsMy: [
+            "Phishing သည် Software နည်းပညာဆိုင်ရာ ချို့ယွင်းချက်ကို အခွင့်ကောင်းယူမည့်အစား User ကို လှည့်ဖျား၍ (ပုံမှန်အားဖြင့် အတု Email သို့မဟုတ် Website ဖြင့်) အထွေထွေ အချက်အလက်များကို ဖော်ထုတ်စေသည်",
+            "Phishing သည် Mobile Phone များကိုသာ ထိခိုက်စေပြီး ကွန်ပျူတာများကို ဘယ်တော့မှ ထိခိုက်မစေပါ",
+            "Phishing သည် ကွန်ပျူတာ Hardware ကို ရုပ်ပိုင်းဆိုင်ရာ ထိခိုက်စေသည်",
+            "Phishing သည် User Interaction လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Phishing is a type of social engineering -- it targets human trust and habits rather than a bug in the software itself.",
+          ],
+          hintsMy: [
+            "Phishing သည် Social Engineering အမျိုးအစား တစ်ခု ဖြစ်သည် -- ၎င်းသည် Software ကိုယ်တိုင်ရှိ Bug မဟုတ်ဘဲ လူသား ယုံကြည်မှုနှင့် အလေ့အထများကို ပစ်မှတ်ထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Network Security Terms",
+      titleMy: "တွဲစပ်ကြမည် - Network Security ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w7-dm-1",
+          termEn: "Firewall",
+          termMy: "Firewall",
+          matchEn:
+              "Software or hardware that filters network traffic based on security rules",
+          matchMy:
+              "လုံခြုံရေး စည်းမျဉ်းများအပေါ် အခြေခံ၍ ကွန်ရက် Traffic ကို စစ်ထုတ်သော Software သို့မဟုတ် Hardware",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w7-dm-2",
+          termEn: "Proxy server",
+          termMy: "Proxy Server",
+          matchEn:
+              "An intermediary server that forwards requests, hiding the original user's real IP address",
+          matchMy:
+              "မူရင်း User ၏ IP Address အစစ်အမှန်ကို ဖျောက်ဖျက်ပေးလျက် Request များကို ပို့ဆောင်ပေးသော ကြားဝင် Server",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w7-dm-3",
+          termEn: "Phishing",
+          termMy: "Phishing",
+          matchEn:
+              "Tricking a user, often via a fake email or website, into revealing sensitive information",
+          matchMy:
+              "User ကို အတု Email သို့မဟုတ် Website မှတစ်ဆင့် လှည့်ဖျား၍ အထွေထွေ အချက်အလက်များ ဖော်ထုတ်စေခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w7-dm-4",
+          termEn: "Pharming",
+          termMy: "Pharming",
+          matchEn:
+              "Maliciously redirecting a user from a genuine website to a fake copy without their knowledge",
+          matchMy:
+              "User ၏ သိရှိမှု မရှိဘဲ Genuine Website တစ်ခုမှ အတု Copy တစ်ခုသို့ ဆိုးရွားစွာ ညွှန်းပို့ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "igcomp-w7-dm-5",
+          termEn: "Symmetric key encryption",
+          termMy: "Symmetric Key Encryption",
+          matchEn:
+              "Encryption using the exact same key to both encrypt and decrypt the data",
+          matchMy:
+              "Data ကို Encrypt နှင့် Decrypt နှစ်မျိုးလုံး ပြုလုပ်ရန် Key အတိအကျ တစ်ခုတည်းကို အသုံးပြုသော Encryption",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Threat or Defence?",
+      titleMy: "စီစစ်ကြမည် - ခြိမ်းခြောက်မှုလား ကာကွယ်ရေးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Security Threat", "Security Defence"],
+        bucketsMy: ["လုံခြုံရေး ခြိမ်းခြောက်မှု", "လုံခြုံရေး ကာကွယ်မှု"],
+        items: [
+          SortingItem(
+            id: "igcomp-w7-sort-1",
+            labelEn: "Phishing email",
+            labelMy: "Phishing Email",
+            correctBucketEn: "Security Threat",
+            correctBucketMy: "လုံခြုံရေး ခြိမ်းခြောက်မှု",
+          ),
+          SortingItem(
+            id: "igcomp-w7-sort-2",
+            labelEn: "Firewall filtering traffic",
+            labelMy: "Traffic ကို စစ်ထုတ်သော Firewall",
+            correctBucketEn: "Security Defence",
+            correctBucketMy: "လုံခြုံရေး ကာကွယ်မှု",
+          ),
+          SortingItem(
+            id: "igcomp-w7-sort-3",
+            labelEn: "Malware disguised as a legitimate program",
+            labelMy: "တရားဝင် Program တစ်ခုအဖြစ် ဟန်ဆောင်ထားသော Malware",
+            correctBucketEn: "Security Threat",
+            correctBucketMy: "လုံခြုံရေး ခြိမ်းခြောက်မှု",
+          ),
+          SortingItem(
+            id: "igcomp-w7-sort-4",
+            labelEn: "Encrypting sensitive data before sending it",
+            labelMy: "မပို့မီ အထွေထွေ Data ကို Encrypt လုပ်ခြင်း",
+            correctBucketEn: "Security Defence",
+            correctBucketMy: "လုံခြုံရေး ကာကွယ်မှု",
+          ),
+          SortingItem(
+            id: "igcomp-w7-sort-5",
+            labelEn: "Pharming redirecting users to a fake website",
+            labelMy: "User များကို အတု Website သို့ ညွှန်းပို့သော Pharming",
+            correctBucketEn: "Security Threat",
+            correctBucketMy: "လုံခြုံရေး ခြိမ်းခြောက်မှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Encryption Debate",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Encryption ဆွေးနွေးပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Encryption Debate",
+        titleMy: "Zayar Lin ၏ Encryption ဆွေးနွေးပွဲ",
+        passageEn:
+            "Sayar Ye Min posed a scenario to the class: a bank needs to send an encrypted message to a customer who they have never communicated with before, over the open internet. Zayar Lin's first instinct was to suggest symmetric encryption, since he remembered it was simpler and faster to process than asymmetric encryption. But when he thought it through aloud, he ran into a problem: symmetric encryption uses the exact same key for both encrypting and decrypting, so the bank would somehow need to securely send that same key to the customer first -- and if an attacker could intercept that key during the exchange, they could decrypt every future message using it.\n\nSayar Ye Min confirmed this was exactly the weakness that asymmetric encryption was designed to solve. He explained that the customer would generate a matching pair of keys: a public key, which could be shared completely openly, even posted publicly, and a private key, which the customer alone kept secret and never shared with anyone. The bank would encrypt its message using the customer's public key, and critically, only the matching private key could decrypt that specific message -- meaning even if an attacker intercepted the encrypted message in transit, they could not read it without the customer's private key.\n\nZayar Lin asked the obvious follow-up question: since asymmetric encryption solved the key-sharing problem so well, why did symmetric encryption still exist at all? Sayar Ye Min explained the real-world trade-off: asymmetric encryption's extra mathematical complexity makes it significantly slower to process than symmetric encryption, especially for large amounts of data. In practice, many real systems use both together -- asymmetric encryption to safely exchange a temporary symmetric key at the start of a session, and then fast symmetric encryption for the actual bulk of the data afterward, getting the security benefit of one and the speed benefit of the other.",
+        passageMy:
+            "ဆရာရဲမင်းသည် Scenario တစ်ခုကို အတန်းကို တင်ပြခဲ့သည် - Bank တစ်ခုသည် ယခင် ဆက်သွယ်ခဲ့ဖူးခြင်း မရှိသေးသော Customer တစ်ဦးထံသို့ ပွင့်လင်းသော အင်တာနက်ပေါ်တစ်လျှောက် Encrypt လုပ်ထားသော Message တစ်ခု ပို့လွှတ်ရန် လိုအပ်သည်။ Zayar Lin ၏ ပထမ ပင်ကိုယ်ခံစားမှုမှာ Symmetric Encryption ကို အကြံပြုရန် ဖြစ်ခဲ့သည်၊ အကြောင်းမှာ ၎င်းသည် Asymmetric Encryption ထက် ရိုးရှင်းပြီး Process လုပ်ရန် ပို၍ မြန်ကြောင်း သတိရမိသောကြောင့် ဖြစ်သည်။ သို့သော် အသံထွက်၍ ဆင်ခြင်ကြည့်သောအခါ ပြဿနာတစ်ခုနှင့် ကြုံခဲ့ရသည် - Symmetric Encryption သည် Encrypt နှင့် Decrypt နှစ်ခုလုံးအတွက် Key အတိအကျ တစ်ခုတည်းကို အသုံးပြုသောကြောင့် Bank သည် ထို Key တူညီတစ်ခုကို Customer ထံသို့ ဦးစွာ လုံခြုံစွာ တစ်နည်းနည်းဖြင့် ပို့ရလိမ့်မည် -- Attacker တစ်ဦးက ထို ဖလှယ်မှုအတွင်း ထို Key ကို ဖြတ်ယူနိုင်ပါက နောင်ကြုံလာမည့် Message တိုင်းကို ထို Key ဖြင့် Decrypt လုပ်နိုင်လိမ့်မည်။\n\nဤသည်ကား Asymmetric Encryption ဖြေရှင်းရန် ဒီဇိုင်းထုတ်ခဲ့သော အားနည်းချက် အတိအကျ ဖြစ်ကြောင်း ဆရာရဲမင်း အတည်ပြုခဲ့သည်။ Customer သည် ကိုက်ညီသော Key စုံတွဲတစ်ခု ထုတ်ပေးမည် ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည် - လုံးဝ ပွင့်လင်းစွာ မျှဝေနိုင်ပြီး ပွင့်လင်းစွာ တင်ထားနိုင်သည့် Public Key နှင့် Customer တစ်ဦးတည်းသာ လျှို့ဝှက်ထားပြီး မည်သူနှင့်မျှ ဘယ်တော့မှ မမျှဝေသော Private Key ။ Bank သည် Customer ၏ Public Key ကို အသုံးပြု၍ ၎င်း၏ Message ကို Encrypt လုပ်မည်ဖြစ်ပြီး အရေးကြီးသည်မှာ ကိုက်ညီသော Private Key ကသာ ထို Message အတိအကျ ကို Decrypt လုပ်နိုင်သည် -- Attacker တစ်ဦးက ပို့လွှတ်နေစဉ် Encrypt လုပ်ထားသော Message ကို ဖြတ်ယူနိုင်ခဲ့သော်ငြားလည်း Customer ၏ Private Key မရှိဘဲ ၎င်းကို ဖတ်၍ မရနိုင်ပါ။\n\nZayar Lin သည် ရှင်းရှင်းလင်းလင်း ဆက်လက် မေးခွန်း မေးမြန်းခဲ့သည် - Asymmetric Encryption သည် Key ဖလှယ်ခြင်း ပြဿနာကို ဤမျှ ကောင်းစွာ ဖြေရှင်းနိုင်သောကြောင့် Symmetric Encryption သည် အဘယ်ကြောင့် ဆက်လက် တည်ရှိနေသနည်း။ လက်တွေ့ ဖလှယ်ချက်ကို ဆရာရဲမင်းက ရှင်းပြခဲ့သည် - Asymmetric Encryption ၏ ထပ်ဆောင်း သင်္ချာ ရှုပ်ထွေးမှုက ၎င်းကို Symmetric Encryption ထက် Process လုပ်ရန် သိသိသာသာ နှေးကွေးစေသည်၊ အထူးသဖြင့် Data ပမာဏ အများကြီးအတွက် ဖြစ်သည်။ လက်တွေ့တွင် လက်တွေ့ စနစ်များစွာသည် နှစ်ခုစလုံးကို အတူတကွ အသုံးပြုကြသည် -- Session တစ်ခု စတင်ချိန်တွင် ယာယီ Symmetric Key ကို လုံခြုံစွာ ဖလှယ်ရန် Asymmetric Encryption နှင့် ထို့နောက် Data ၏ အဓိက အစုအား အတွက် မြန်ဆန်သော Symmetric Encryption -- တစ်ခု၏ လုံခြုံရေး အကျိုးကျေးဇူးနှင့် အခြားတစ်ခု၏ အမြန်နှုန်း အကျိုးကျေးဇူး နှစ်ခုစလုံး ရရှိစေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what problem did Zayar Lin identify with using symmetric encryption in this scenario?",
+            questionMy:
+                "ဤ Scenario တွင် Symmetric Encryption အသုံးပြုခြင်းနှင့်ပတ်သက်၍ Zayar Lin ဖော်ထုတ်ခဲ့သော ပြဿနာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The bank would need to securely share the same key with the customer first, risking interception",
+              "Symmetric encryption cannot be used over the internet at all",
+              "Symmetric encryption is always illegal for banks to use",
+              "The customer's device could not process any encryption",
+            ],
+            optionsMy: [
+              "Bank သည် Key တူညီကို Customer နှင့် ဦးစွာ လုံခြုံစွာ မျှဝေရန် လိုအပ်ပြီး ဖြတ်ယူခံရနိုင်သည့် အန္တရာယ် ရှိသည်",
+              "Symmetric Encryption ကို အင်တာနက်ပေါ်တွင် လုံးဝ အသုံးမပြုနိုင်ပါ",
+              "Bank များ Symmetric Encryption အသုံးပြုခြင်းသည် ဥပဒေနှင့် အမြဲ ဆန့်ကျင်သည်",
+              "Customer ၏ Device က Encryption မည်သည့်အမျိုးအစားမျှ Process မလုပ်နိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about intercepting the key."],
+            hintsMy: ["Key ဖြတ်ယူခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which key does the bank use to encrypt its message?",
+            questionMy:
+                "Bank သည် ၎င်း၏ Message ကို Encrypt လုပ်ရန် မည်သည့် Key ကို အသုံးပြုသည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The customer's public key",
+              "The customer's private key",
+              "The bank's own private key",
+              "No key is needed at all",
+            ],
+            optionsMy: [
+              "Customer ၏ Public Key",
+              "Customer ၏ Private Key",
+              "Bank ၏ ကိုယ်ပိုင် Private Key",
+              "Key မည်သည့်အမျိုးအစားမျှ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing what the bank encrypts with.",
+            ],
+            hintsMy: [
+              "Bank Encrypt လုပ်ရာတွင် အသုံးပြုသည့်အရာကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why do many real systems use both symmetric and asymmetric encryption together?",
+            questionMy:
+                "လက်တွေ့ စနစ်များစွာသည် Symmetric နှင့် Asymmetric Encryption နှစ်ခုလုံးကို အတူတကွ အသုံးပြုရသည့် အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To gain asymmetric's key-sharing security and symmetric's processing speed together",
+              "Because only one of the two methods actually works",
+              "Because the law requires both to be used at once",
+              "Because asymmetric encryption is always faster than symmetric",
+            ],
+            optionsMy: [
+              "Asymmetric ၏ Key-Sharing လုံခြုံရေးနှင့် Symmetric ၏ Process လုပ်နှုန်း အမြန်နှုန်း နှစ်ခုစလုံး ရရှိစေရန်",
+              "နည်းလမ်းနှစ်ခုအနက် တစ်ခုတည်းသာ အမှန်တကယ် အလုပ်လုပ်သောကြောင့်",
+              "ဥပဒေက နှစ်ခုလုံးကို တစ်ပြိုင်နက် အသုံးပြုရန် တောင်းဆိုသောကြောင့်",
+              "Asymmetric Encryption သည် Symmetric ထက် အမြဲ ပို၍ မြန်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Security and Encryption",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Security နှင့် Encryption",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Asymmetric encryption uses...",
+          questionMy: "Asymmetric Encryption သည် ...ကို အသုံးပြုသည်",
+          optionsEn: [
+            "A public key to encrypt and a different private key to decrypt",
+            "The exact same key for both encrypting and decrypting",
+            "No key of any kind",
+            "Only a firewall, with no key needed",
+          ],
+          optionsMy: [
+            "Encrypt ရန် Public Key နှင့် Decrypt ရန် ကွဲပြားသော Private Key",
+            "Encrypt နှင့် Decrypt နှစ်ခုလုံးအတွက် Key အတိအကျ တစ်ခုတည်း",
+            "မည်သည့် အမျိုးအစား Key မျှ",
+            "Firewall တစ်ခုတည်း၊ Key မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A firewall's main job is to...",
+          questionMy: "Firewall ၏ အဓိက တာဝန်မှာ...",
+          optionsEn: [
+            "Filter network traffic based on security rules",
+            "Physically repair damaged hardware",
+            "Automatically write new software",
+            "Speed up file downloads",
+          ],
+          optionsMy: [
+            "လုံခြုံရေး စည်းမျဉ်းများအပေါ် အခြေခံ၍ ကွန်ရက် Traffic ကို စစ်ထုတ်ခြင်း",
+            "ပျက်စီးနေသော Hardware ကို ရုပ်ပိုင်းဆိုင်ရာ ပြင်ဆင်ခြင်း",
+            "Software အသစ်ကို အလိုအလျောက် ရေးသားခြင်း",
+            "File Download လုပ်ငန်းစဉ်ကို အရှိန်မြှင့်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Phishing is best described as...",
+          questionMy: "Phishing ကို အကောင်းဆုံး ဖော်ပြထားသည်မှာ...",
+          optionsEn: [
+            "Tricking a human user into revealing sensitive information, often via fake emails",
+            "A type of network cable",
+            "A hardware fault in a router",
+            "A method for speeding up encryption",
+          ],
+          optionsMy: [
+            "အတု Email များမှတစ်ဆင့် User ကို လှည့်ဖျား၍ အထွေထွေ အချက်အလက်များ ဖော်ထုတ်စေခြင်း",
+            "ကွန်ရက် Cable အမျိုးအစား တစ်ခု",
+            "Router ရှိ Hardware အမှား",
+            "Encryption ကို အရှိန်မြှင့်ရန် နည်းလမ်းတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- Term 2, Week 8 (Capstone/Boss Week): "Network
+// Architecture Audit"
+// =====================================================================
+
+const CourseWeekDef _igcseComputingWeek8 = CourseWeekDef(
+  id: "course-igcse-computing-w8",
+  weekNumber: 8,
+  titleEn: "Network Architecture Audit",
+  titleMy: "ကွန်ရက် ဗိသုကာ စစ်ဆေးမှု ပရောဂျက်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcomp-w8-d1",
+      dayNumber: 1,
+      titleEn: "Designing a Secure Network",
+      titleMy: "လုံခြုံသော ကွန်ရက် ဒီဇိုင်းဆွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A company wants to let staff securely access internal servers while off-site. Which combination of measures addresses this best?",
+          questionMy:
+              "ကုမ္ပဏီတစ်ခုသည် ဝန်ထမ်းများကို Off-Site ရှိစဉ် Internal Server များသို့ လုံခြုံစွာ ဝင်ရောက်ခွင့်ပေးလိုသည်။ ၎င်းကို အကောင်းဆုံး ဖြေရှင်းပေးနိုင်သော အစီအမံ ပေါင်းစပ်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "An encrypted connection (such as a VPN) combined with a firewall that restricts which traffic can reach the internal servers",
+            "Removing all passwords so staff can log in faster",
+            "Publishing the server's IP address publicly for convenience",
+            "Disabling the firewall entirely to allow unrestricted access",
+          ],
+          optionsMy: [
+            "Internal Server များသို့ ရောက်ရှိနိုင်သော Traffic ကို ကန့်သတ်ထားသော Firewall တစ်ခုနှင့် ပေါင်းစပ်ထားသော Encrypt လုပ်ထားသော ချိတ်ဆက်မှု (ဥပမာ VPN)",
+            "ဝန်ထမ်းများ ပို၍ မြန်ဆန်စွာ Log In ဝင်နိုင်ရန် Password များအားလုံးကို ဖယ်ရှားခြင်း",
+            "အဆင်ပြေမှုအတွက် Server ၏ IP Address ကို လူသိရှင်ကြား ထုတ်ဖော်ခြင်း",
+            "ကန့်သတ်ချက်မရှိသော ဝင်ရောက်ခွင့်ပေးရန် Firewall ကို လုံးဝ ပိတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Encryption protects data in transit; a firewall restricts what is allowed to connect in the first place -- combining both gives layered (defence-in-depth) security.",
+          ],
+          hintsMy: [
+            "Encryption သည် ခရီးသွားနေသော Data ကို ကာကွယ်ပေးပြီး Firewall သည် ဦးဆုံး ချိတ်ဆက်ခွင့် ပေးမည့်အရာကို ကန့်သတ်သည် -- နှစ်ခုစလုံးကို ပေါင်းစပ်ခြင်းသည် အလွှာများသော (Defence-in-Depth) လုံခြုံရေးကို ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a proposed secure network design, why is it good practice to place public-facing web servers on a separate segment from sensitive internal databases?",
+          questionMy:
+              "Secure Network Design အဆိုပြုချက်တစ်ခုတွင် Public-Facing Web Server များကို Sensitive Internal Database များနှင့် ကွဲပြားသော Segment ပေါ်တွင် ထားရှိခြင်းသည် အဘယ်ကြောင့် ကောင်းသော Practice တစ်ခု ဖြစ်သနည်း။",
+          optionsEn: [
+            "If the public-facing server is compromised, the attacker still cannot directly reach the more sensitive internal systems",
+            "It makes the network run faster with no security benefit",
+            "It removes the need for any firewall at all",
+            "It is required so the servers can share the same IP address",
+          ],
+          optionsMy: [
+            "Public-Facing Server ချို့ယွင်းသွားပါက Attacker သည် ပို၍ Sensitive ဖြစ်သော Internal System များသို့ တိုက်ရိုက် ရောက်ရှိနိုင်ခြင်း မရှိပါ",
+            "လုံခြုံရေး အကျိုးကျေးဇူး မရှိဘဲ ကွန်ရက်ကို ပို၍ မြန်ဆန်စွာ Run စေသည်",
+            "Firewall မည်သည့်အမျိုးအစားမျှ မလိုအပ်တော့ကြောင်း ဖယ်ရှားပေးသည်",
+            "Server များ IP Address တူညီစွာ မျှဝေနိုင်ရန် လိုအပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is network segmentation -- limiting how far an attacker can move if one part of the network is breached.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Network Segmentation ဖြစ်သည် -- ကွန်ရက်၏ အစိတ်အပိုင်းတစ်ခု ချို့ယွင်းသွားပါက Attacker တစ်ဦး မည်မျှ ရွေ့လျားနိုင်သည်ကို ကန့်သတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When designing an encryption scheme for a customer-facing banking app, which approach best balances security and performance?",
+          questionMy:
+              "Customer-Facing Banking App တစ်ခုအတွက် Encryption Scheme တစ်ခု ဒီဇိုင်းဆွဲရာတွင် လုံခြုံရေးနှင့် စွမ်းဆောင်ရည်ကို အကောင်းဆုံး ဟန်ချက်ညီစေသော Approach မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Use asymmetric encryption briefly to securely exchange a session key, then use fast symmetric encryption for the ongoing session data",
+            "Use only asymmetric encryption for every single piece of data throughout the entire session",
+            "Use no encryption at all to maximise speed",
+            "Use only symmetric encryption and email the key to every customer in plain text",
+          ],
+          optionsMy: [
+            "Session Key ကို လုံခြုံစွာ ဖလှယ်ရန် Asymmetric Encryption ကို တိုတိုသာ အသုံးပြုပြီး ဆက်လက်ဖြစ်ပေါ်နေသော Session Data အတွက် မြန်ဆန်သော Symmetric Encryption ကို အသုံးပြုခြင်း",
+            "Session တစ်ခုလုံးတွင် Data အစိတ်အပိုင်းတိုင်းအတွက် Asymmetric Encryption တစ်ခုတည်းသာ အသုံးပြုခြင်း",
+            "အမြန်နှုန်း အများဆုံးရရှိရန် Encryption မည်သည့်အမျိုးအစားမျှ လုံးဝ မသုံးခြင်း",
+            "Symmetric Encryption တစ်ခုတည်းသာ အသုံးပြုပြီး Customer တိုင်းထံသို့ Key ကို Plain Text ဖြင့် Email ပို့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This hybrid approach is exactly what real-world protocols like TLS/HTTPS use in practice.",
+          ],
+          hintsMy: [
+            "ဤ Hybrid Approach သည် TLS/HTTPS ကဲ့သို့ လက်တွေ့ Protocol များ လက်တွေ့တွင် အသုံးပြုသည့် အတိအကျ နည်းလမ်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 Networks Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 2 Networks ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcomp-w8-dm-1",
+          termEn: "Network segmentation",
+          termMy: "Network Segmentation",
+          matchEn:
+              "Splitting a network into separate zones to limit how far a breach can spread",
+          matchMy:
+              "ချို့ယွင်းမှုတစ်ခု မည်မျှ ပျံ့နှံ့နိုင်သည်ကို ကန့်သတ်ရန် ကွန်ရက်တစ်ခုကို ကွဲပြားသော Zone များအဖြစ် ခွဲထားခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcomp-w8-dm-2",
+          termEn: "Defence in depth",
+          termMy: "Defence in Depth",
+          matchEn:
+              "Using multiple layered security measures together, so one failure alone does not compromise everything",
+          matchMy:
+              "ချို့ယွင်းမှုတစ်ခုတည်းက အားလုံးကို မထိခိုက်စေရန် လုံခြုံရေး အစီအမံ အလွှာများစွာကို အတူတကွ အသုံးပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcomp-w8-dm-3",
+          termEn: "VPN",
+          termMy: "VPN",
+          matchEn:
+              "A Virtual Private Network -- creates an encrypted tunnel over a public network for secure remote access",
+          matchMy:
+              "Virtual Private Network -- Remote ဝင်ရောက်မှု လုံခြုံရန် Public Network တစ်ခုပေါ်တွင် Encrypt လုပ်ထားသော Tunnel တစ်ခု ဖန်တီးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcomp-w8-dm-4",
+          termEn: "Hybrid encryption",
+          termMy: "Hybrid Encryption",
+          matchEn:
+              "Using asymmetric encryption to exchange a key, then fast symmetric encryption for the actual data",
+          matchMy:
+              "Key ဖလှယ်ရန် Asymmetric Encryption ကို အသုံးပြုပြီး Data အစစ်အမှန်အတွက် မြန်ဆန်သော Symmetric Encryption ကို အသုံးပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Encryption Scenario Analysis",
+      titleMy: "စီစစ်ကြမည် - Encryption Scenario ခွဲခြမ်းစိတ်ဖြာမှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Best Suited to Symmetric", "Best Suited to Asymmetric"],
+        bucketsMy: [
+          "Symmetric နှင့် ပို၍ ကိုက်ညီသည်",
+          "Asymmetric နှင့် ပို၍ ကိုက်ညီသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcomp-w8-sort-1",
+            labelEn:
+                "Encrypting a large video file already shared between two trusted colleagues",
+            labelMy:
+                "ယုံကြည်ရသော လုပ်ဖော်ကိုင်ဖက် နှစ်ဦးကြား မျှဝေထားပြီးသား ကြီးမားသော Video File ကို Encrypt လုပ်ခြင်း",
+            correctBucketEn: "Best Suited to Symmetric",
+            correctBucketMy: "Symmetric နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w8-sort-2",
+            labelEn:
+                "Securely sending a first message to someone you have never contacted before",
+            labelMy:
+                "ယခင် ဆက်သွယ်ခဲ့ဖူးခြင်း မရှိသေးသော သူတစ်ဦးထံသို့ ပထမဆုံး Message ကို လုံခြုံစွာ ပို့လွှတ်ခြင်း",
+            correctBucketEn: "Best Suited to Asymmetric",
+            correctBucketMy: "Asymmetric နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w8-sort-3",
+            labelEn:
+                "Verifying a website's digital certificate before establishing a connection",
+            labelMy:
+                "ချိတ်ဆက်မှု မတည်ဆောက်မီ Website ၏ Digital Certificate ကို အတည်ပြုခြင်း",
+            correctBucketEn: "Best Suited to Asymmetric",
+            correctBucketMy: "Asymmetric နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+          SortingItem(
+            id: "igcomp-w8-sort-4",
+            labelEn: "Fast bulk encryption of an entire session's ongoing data",
+            labelMy:
+                "Session တစ်ခုလုံး၏ ဆက်လက် ဖြစ်ပေါ်နေသော Data ကို မြန်ဆန်စွာ Bulk Encrypt လုပ်ခြင်း",
+            correctBucketEn: "Best Suited to Symmetric",
+            correctBucketMy: "Symmetric နှင့် ပို၍ ကိုက်ညီသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Network Audit Report",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Network Audit Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Network Audit Report",
+        titleMy: "Zayar Lin ၏ Network Audit Report",
+        passageEn:
+            "For the Term 2 capstone, Sayar Ye Min asked each student to audit a fictional company's flawed network design and propose fixes, using every concept from the term. The original design had every server, including the public website and the sensitive customer database, connected to the same open network segment with no firewall at all -- a single point of entry led directly to everything. Zayar Lin's first recommendation was to separate the public-facing web server onto its own segment, protected from the internal database segment by a firewall, so that even if the website itself were compromised, an attacker would not automatically gain a direct path to the customer data.\n\nHis second finding concerned how the company's remote staff connected while travelling: the original design had them connecting over an unencrypted public Wi-Fi connection directly to internal systems, with no protection at all. Zayar Lin recommended a VPN, explaining in his report that this would create an encrypted tunnel for all remote traffic, meaning that even if an attacker intercepted the data travelling over the public Wi-Fi, it would appear as unreadable ciphertext without the correct key.\n\nHis third and final finding addressed how the customer database itself communicated with the company's banking partner over the internet. Since this involved parties who had never securely exchanged a shared secret key before, Zayar Lin recommended the hybrid approach from the encryption lesson: asymmetric encryption to safely exchange a temporary session key at the start of each connection, then fast symmetric encryption for the actual bulk of financial data transferred afterward. He concluded his report by explicitly connecting each fix back to a specific weakness in the original design, exactly as Sayar Ye Min had instructed, rather than simply listing security terms without justification -- a habit he now recognised as essential for full marks on IGCSE extended-response questions.",
+        passageMy:
+            "Term 2 Capstone အတွက် ဆရာရဲမင်းသည် ကျောင်းသားတိုင်းကို Term တစ်ခုလုံးမှ သဘောတရားတိုင်းကို အသုံးပြု၍ စိတ်ကူးဖန်တီးထားသော ကုမ္ပဏီတစ်ခု၏ ချို့ယွင်းနေသော Network Design ကို Audit လုပ်ပြီး ပြင်ဆင်ချက်များ အဆိုပြုရန် တောင်းဆိုခဲ့သည်။ မူရင်း Design တွင် Public Website နှင့် Sensitive Customer Database အပါအဝင် Server တိုင်းသည် Firewall လုံးဝ မပါဘဲ Open Network Segment တစ်ခုတည်းသို့ ချိတ်ဆက်ထားသည် -- ဝင်ပေါက် တစ်ခုတည်းသည် အားလုံးသို့ တိုက်ရိုက် ဦးတည်ခဲ့သည်။ Zayar Lin ၏ ပထမ အကြံပြုချက်မှာ Public-Facing Web Server ကို ၎င်းကိုယ်ပိုင် Segment ပေါ်သို့ ခွဲထားပြီး Firewall တစ်ခုဖြင့် Internal Database Segment မှ ကာကွယ်ရန် ဖြစ်ခဲ့သည် -- Website ကိုယ်တိုင် ချို့ယွင်းသွားခဲ့သော်ငြားလည်း Attacker တစ်ဦးသည် Customer Data သို့ တိုက်ရိုက် လမ်းကြောင်းတစ်ခု အလိုအလျောက် ရရှိလိမ့်မည် မဟုတ်ပါ။\n\nသူ၏ ဒုတိယ တွေ့ရှိချက်မှာ ကုမ္ပဏီ၏ Remote ဝန်ထမ်းများ ခရီးသွားစဉ် မည်သို့ ချိတ်ဆက်ကြောင်း ဖြစ်သည် - မူရင်း Design တွင် ၎င်းတို့သည် Encrypt မလုပ်ရသေးသော Public Wi-Fi ချိတ်ဆက်မှုတစ်ခုပေါ်တွင် Internal System များသို့ တိုက်ရိုက် ချိတ်ဆက်ထားပြီး ကာကွယ်မှု လုံးဝ မရှိခဲ့ပါ။ Zayar Lin သည် VPN ကို အကြံပြုခဲ့ပြီး Remote Traffic အားလုံးအတွက် Encrypt လုပ်ထားသော Tunnel တစ်ခု ဖန်တီးပေးမည်ဖြစ်ကြောင်း ၎င်း၏ Report တွင် ရှင်းပြခဲ့သည် -- Attacker တစ်ဦးက Public Wi-Fi ပေါ်တွင် ခရီးသွားနေသော Data ကို ဖြတ်ယူနိုင်ခဲ့သော်ငြားလည်း မှန်ကန်သော Key မရှိဘဲ ဖတ်ရှု၍မရနိုင်သော Ciphertext အဖြစ် ပေါ်လာလိမ့်မည် ဖြစ်ကြောင်း ဆိုလိုသည်။\n\nသူ၏ တတိယနှင့် နောက်ဆုံး တွေ့ရှိချက်မှာ Customer Database ကိုယ်တိုင် ကုမ္ပဏီ၏ Banking Partner နှင့် အင်တာနက်ပေါ်တစ်လျှောက် မည်သို့ ဆက်သွယ်ကြောင်း ဖြစ်သည်။ ဤသည်တွင် ယခင် Shared Secret Key ကို ဘယ်တော့မှ လုံခြုံစွာ ဖလှယ်ခဲ့ဖူးခြင်း မရှိသေးသော Party များ ပါဝင်နေသောကြောင့် Zayar Lin သည် Encryption သင်ခန်းစာမှ Hybrid Approach ကို အကြံပြုခဲ့သည် - ချိတ်ဆက်မှု တစ်ခုစီ စတင်ချိန်တွင် ယာယီ Session Key ကို လုံခြုံစွာ ဖလှယ်ရန် Asymmetric Encryption နှင့် ထို့နောက် လွှဲပြောင်းသော ငွေကြေးရေးရာ Data ၏ အဓိက အစုအား အတွက် မြန်ဆန်သော Symmetric Encryption ။ ဆရာရဲမင်းက ညွှန်ကြားခဲ့သည့်အတိုင်း ပြင်ဆင်ချက် တစ်ခုစီကို မူရင်း Design ရှိ တိကျသော အားနည်းချက်တစ်ခုနှင့် ရှင်းလင်းစွာ ချိတ်ဆက်၍ Report ကို ပြီးဆုံးအောင် ရေးခဲ့ပြီး လုံခြုံရေး ဝေါဟာရများကိုသာ ခိုင်လုံမှု မပါဘဲ စာရင်းပြုရေးသားခြင်းထက် ဤနည်းလမ်းသည် IGCSE Extended-Response မေးခွန်းများတွင် အမှတ်အပြည့်အတွက် မရှိမဖြစ် အလေ့အထတစ်ခုဟု ယခုအခါ သူ အသိအမှတ်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was Zayar Lin's first recommendation?",
+            questionMy: "Zayar Lin ၏ ပထမ အကြံပြုချက်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Separate the public web server onto its own segment, protected from the database by a firewall",
+              "Delete the customer database entirely",
+              "Remove the firewall to simplify the network",
+              "Connect every server to the same segment for convenience",
+            ],
+            optionsMy: [
+              "Public Web Server ကို ၎င်းကိုယ်ပိုင် Segment ပေါ်သို့ ခွဲထားပြီး Firewall တစ်ခုဖြင့် Database မှ ကာကွယ်ခြင်း",
+              "Customer Database ကို လုံးဝ ဖျက်ချခြင်း",
+              "ကွန်ရက်ကို ရိုးရှင်းစေရန် Firewall ကို ဖယ်ရှားခြင်း",
+              "အဆင်ပြေမှုအတွက် Server တိုင်းကို Segment တစ်ခုတည်းသို့ ချိတ်ဆက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about separating the web server."],
+            hintsMy: [
+              "Web Server ခွဲထားခြင်းအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what would a VPN accomplish for the remote staff?",
+            questionMy:
+                "VPN သည် Remote ဝန်ထမ်းများအတွက် အဘယ်အရာကို ပြီးမြောက်စေမည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Create an encrypted tunnel so intercepted data would appear as unreadable ciphertext",
+              "Make the internet connection completely free",
+              "Physically block public Wi-Fi from working at all",
+              "Delete all data sent over the connection",
+            ],
+            optionsMy: [
+              "ဖြတ်ယူခံရသော Data သည် ဖတ်ရှု၍မရနိုင်သော Ciphertext အဖြစ် ပေါ်လာစေရန် Encrypt လုပ်ထားသော Tunnel တစ်ခု ဖန်တီးခြင်း",
+              "အင်တာနက် ချိတ်ဆက်မှုကို လုံးဝ အခမဲ့ ဖြစ်စေခြင်း",
+              "Public Wi-Fi ကို လုံးဝ အလုပ်မလုပ်စေရန် ရုပ်ပိုင်းဆိုင်ရာ ပိတ်ပင်ခြင်း",
+              "ချိတ်ဆက်မှုပေါ်တွင် ပို့လွှတ်သော Data အားလုံးကို ဖျက်ချခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the encrypted tunnel."],
+            hintsMy: [
+              "Encrypt လုပ်ထားသော Tunnel အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what habit did Zayar Lin recognise as essential for full marks?",
+            questionMy:
+                "အမှတ်အပြည့်အတွက် မရှိမဖြစ်ဟု Zayar Lin အသိအမှတ်ပြုခဲ့သော အလေ့အထကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Explicitly connecting each fix back to a specific weakness in the original design",
+              "Listing as many security terms as possible without explanation",
+              "Writing the shortest possible report",
+              "Avoiding any mention of encryption entirely",
+            ],
+            optionsMy: [
+              "ပြင်ဆင်ချက် တစ်ခုစီကို မူရင်း Design ရှိ တိကျသော အားနည်းချက်တစ်ခုနှင့် ရှင်းလင်းစွာ ချိတ်ဆက်ခြင်း",
+              "ရှင်းလင်းချက် မပါဘဲ လုံခြုံရေး ဝေါဟာရများ တတ်နိုင်သမျှ များများ စာရင်းပြုခြင်း",
+              "အတိုဆုံး Report ဖြစ်အောင် ရေးသားခြင်း",
+              "Encryption အကြောင်း လုံးဝ မဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcomp-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Network Security Exam",
+      titleMy: "Term 2 Capstone - Network Security စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Placing sensitive servers on a separate segment from public-facing servers is called...",
+          questionMy:
+              "Sensitive Server များကို Public-Facing Server များနှင့် ကွဲပြားသော Segment ပေါ်တွင် ထားရှိခြင်းကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Network segmentation",
+            "Packet switching",
+            "Domain name resolution",
+            "Colour depth reduction",
+          ],
+          optionsMy: [
+            "Network Segmentation",
+            "Packet Switching",
+            "Domain Name Resolution",
+            "Colour Depth Reduction",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A VPN protects remote traffic mainly by...",
+          questionMy: "VPN သည် Remote Traffic ကို အဓိက ...ဖြင့် ကာကွယ်ပေးသည်",
+          optionsEn: [
+            "Creating an encrypted tunnel across the public network",
+            "Physically blocking all internet access",
+            "Deleting the data after it is sent",
+            "Increasing the colour depth of transmitted images",
+          ],
+          optionsMy: [
+            "Public Network တစ်ခုလျှောက် Encrypt လုပ်ထားသော Tunnel တစ်ခု ဖန်တီးခြင်း",
+            "အင်တာနက် ဝင်ရောက်ခွင့် အားလုံးကို ရုပ်ပိုင်းဆိုင်ရာ ပိတ်ပင်ခြင်း",
+            "ပို့လွှတ်ပြီးနောက် Data ကို ဖျက်ချခြင်း",
+            "ပို့လွှတ်ထားသော ပုံများ၏ Colour Depth ကို တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A hybrid encryption approach uses asymmetric encryption to...",
+          questionMy:
+              "Hybrid Encryption Approach သည် Asymmetric Encryption ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Securely exchange a temporary session key, before switching to fast symmetric encryption",
+            "Encrypt every byte of a large video file from start to finish",
+            "Replace firewalls entirely",
+            "Slow down the network intentionally",
+          ],
+          optionsMy: [
+            "မြန်ဆန်သော Symmetric Encryption သို့ ပြောင်းလဲမီ ယာယီ Session Key ကို လုံခြုံစွာ ဖလှယ်ရန်",
+            "ကြီးမားသော Video File ၏ Byte တိုင်းကို အစမှအဆုံး Encrypt လုပ်ရန်",
+            "Firewall များကို လုံးဝ အစားထိုးရန်",
+            "ကွန်ရက်ကို ရည်ရွယ်ချက်ရှိရှိ နှေးကွေးစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Computing -- Term 2: "Communication and Internet Technologies"
+// (Weeks 5-8)
+// =====================================================================
+
+const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
+  id: "course-igcse-computing-t2",
+  termNumber: 2,
+  titleEn: "Communication and Internet Technologies",
+  titleMy: "ဆက်သွယ်ရေးနှင့် အင်တာနက် နည်းပညာများ",
+  certificateTitleEn: "Communication and Internet Technologies",
+  certificateTitleMy: "ဆက်သွယ်ရေးနှင့် အင်တာနက် နည်းပညာများ",
+  weeks: [
+    _igcseComputingWeek5,
+    _igcseComputingWeek6,
+    _igcseComputingWeek7,
+    _igcseComputingWeek8,
+  ],
+);
+// =====================================================================
+// IGCSE Computing -- full pathway definition. Terms 3-9 not yet
+// authored; wired incrementally, one completed term at a time.
+// =====================================================================
+
+const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
+  id: "course-igcse-computing",
+  subject: "computing",
+  grade: Grade.igcse,
+  titleEn: "IGCSE Computer Science",
+  titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
+  descriptionEn:
+      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone.",
+  descriptionMy:
+      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [_igcseComputingTerm1, _igcseComputingTerm2],
+);
+// __IGCSE_COMPUTING_MARKER__
