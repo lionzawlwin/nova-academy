@@ -58235,7 +58235,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 );
 // =====================================================================
 // IGCSE Global Perspectives & Research -- full pathway definition.
-// Terms 4-9 not yet authored; wired incrementally, one completed
+// Terms 5-9 not yet authored; wired incrementally, one completed
 // term at a time.
 // =====================================================================
 
@@ -58246,11 +58246,11 @@ const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
   titleEn: "IGCSE Global Perspectives & Research",
   titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement.",
+      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။",
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_igcseGpTerm1, _igcseGpTerm2, _igcseGpTerm3],
+  terms: [_igcseGpTerm1, _igcseGpTerm2, _igcseGpTerm3, _igcseGpTerm4],
 );
 // =====================================================================
 // IGCSE Global Perspectives -- Term 2, Week 5: "Moral Dilemmas and
@@ -61112,5 +61112,1408 @@ const CourseTermDef _igcseGpTerm3 = CourseTermDef(
   certificateTitleEn: "Demographics, Migration and Human Rights",
   certificateTitleMy: "လူဦးရေဆိုင်ရာ၊ ရွှေ့ပြောင်းမှုနှင့် လူ့အခွင့်အရေး",
   weeks: [_igcseGpWeek9, _igcseGpWeek10, _igcseGpWeek11, _igcseGpWeek12],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 4, Week 13: "Climate Change
+// Politics and Policy"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek13 = CourseWeekDef(
+  id: "course-igcse-gp-w13",
+  weekNumber: 13,
+  titleEn: "Climate Change Politics and Policy",
+  titleMy: "ရာသီဥတု ပြောင်းလဲမှု နိုင်ငံရေးနှင့် မူဝါဒများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w13-d1",
+      dayNumber: 1,
+      titleEn: "Climate Agreements and Policy Tools",
+      titleMy: "Climate Agreement များနှင့် Policy Tool များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the fundamental purpose of an international agreement like the Paris Agreement?",
+          questionMy:
+              "Paris Agreement ကဲ့သို့ International Agreement တစ်ခု၏ အခြေခံ ရည်ရွယ်ချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "To coordinate multiple countries' commitments to reduce greenhouse gas emissions toward a shared global target",
+            "To ban international trade between all countries entirely",
+            "To require every country to use exactly the same energy source",
+            "To have no actual targets or commitments of any kind",
+          ],
+          optionsMy: [
+            "မျှဝေထားသော ကမ္ဘာလုံးဆိုင်ရာ ပစ်မှတ်တစ်ခုသို့ Greenhouse Gas ထုတ်လွှတ်မှု လျှော့ချရန် နိုင်ငံများစွာ၏ ကတိကဝတ်များကို ညှိနှိုင်းရန်",
+            "နိုင်ငံအားလုံးကြား နိုင်ငံတကာ ကုန်သွယ်ရေးကို လုံးဝ တားမြစ်ရန်",
+            "နိုင်ငံတိုင်း စွမ်းအင် Source အတိအကျ တူညီစွာ အသုံးပြုရန် တောင်းဆိုရန်",
+            "ပစ်မှတ် (သို့) ကတိကဝတ် မည်သည့်အမျိုးအစားမျှ အမှန်တကယ် မရှိစေရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Climate change is a genuinely global problem -- one country's emission cuts alone cannot solve it, so international coordination through shared targets is central to any real solution.",
+          ],
+          hintsMy: [
+            "ရာသီဥတု ပြောင်းလဲမှုသည် စစ်မှန်သော Global ပြဿနာ ဖြစ်သည် -- နိုင်ငံတစ်ခုတည်း၏ ထုတ်လွှတ်မှု လျှော့ချခြင်းသည် ၎င်းကို မဖြေရှင်းနိုင်ပါ၊ ထို့ကြောင့် မျှဝေထားသော ပစ်မှတ်များမှတစ်ဆင့် International Coordination သည် စစ်မှန်သော ဖြေရှင်းချက်တိုင်း၏ ဗဟိုချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the key difference between a carbon tax and a cap-and-trade system as climate policy tools?",
+          questionMy:
+              "Climate Policy Tool အဖြစ် Carbon Tax နှင့် Cap-and-Trade System ကြား အဓိက ကွာခြားချက်ကား အဘယ်နည်း။",
+          optionsEn: [
+            "A carbon tax sets a fixed price per unit of emissions; a cap-and-trade system sets a fixed total emissions limit and lets the market determine the price of permits",
+            "A carbon tax and cap-and-trade are simply two names for the exact same policy",
+            "A cap-and-trade system has no limit on total emissions whatsoever",
+            "A carbon tax can only ever be applied to individual households, never companies",
+          ],
+          optionsMy: [
+            "Carbon Tax သည် ထုတ်လွှတ်မှု ယူနစ်တစ်ခုလျှင် Fixed ဈေးနှုန်း သတ်မှတ်သော်လည်း Cap-and-Trade System သည် Total ထုတ်လွှတ်မှု ကန့်သတ်ချက် သတ်မှတ်ပြီး Permit ဈေးနှုန်းကို ဈေးကွက်က ဆုံးဖြတ်စေသည်",
+            "Carbon Tax နှင့် Cap-and-Trade သည် Policy တစ်ခုတည်းအတွက် အမည်နှစ်ခု ရိုးရိုးသာ ဖြစ်သည်",
+            "Cap-and-Trade System တွင် Total ထုတ်လွှတ်မှုအပေါ် ကန့်သတ်ချက် လုံးဝ မရှိပါ",
+            "Carbon Tax ကို ကုမ္ပဏီများအတွက် ဘယ်တော့မှ မဟုတ်ဘဲ တစ်ဦးချင်း အိမ်ထောင်စုများအတွက်သာ အသုံးပြုနိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a carbon tax as setting the price directly, while cap-and-trade sets the quantity directly and lets buying and selling of permits determine the price.",
+          ],
+          hintsMy: [
+            "Carbon Tax ကို ဈေးနှုန်းကို တိုက်ရိုက် သတ်မှတ်ခြင်းအဖြစ် စဉ်းစားကြည့်ပါ၊ Cap-and-Trade က ပမာဏကို တိုက်ရိုက် သတ်မှတ်ပြီး Permit ဝယ်ရောင်းခြင်းက ဈေးနှုန်းကို ဆုံးဖြတ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do climate negotiations between countries often involve genuine tension between 'national interests' and 'global action'?",
+          questionMy:
+              "နိုင်ငံများကြား Climate Negotiation များသည် 'National Interest' နှင့် 'Global Action' ကြား စစ်မှန်သော ဆန့်ကျင်မှု မကြာခဏ ပါဝင်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Emission cuts often carry short-term domestic economic costs for an individual country, while the benefits of a stable climate are shared globally over the long term",
+            "No country has ever cared about the climate at all",
+            "Global action always costs every country exactly the same amount with no variation",
+            "National interests and global action are always perfectly identical with no tension whatsoever",
+          ],
+          optionsMy: [
+            "ထုတ်လွှတ်မှု လျှော့ချခြင်းသည် တစ်ဦးချင်း နိုင်ငံအတွက် ရေတိုသက်တမ်း Domestic Economic Cost မကြာခဏ ယူဆောင်လာသော်လည်း တည်ငြိမ်သော ရာသီဥတု၏ အကျိုးကျေးဇူးများသည် ရေရှည်တွင် ကမ္ဘာလုံးဆိုင်ရာ မျှဝေခံရသောကြောင့်",
+            "နိုင်ငံမည်သည်မျှ ရာသီဥတုအကြောင်း ဘယ်တော့မှ ဂရုစိုက်ခဲ့ခြင်း မရှိသောကြောင့်",
+            "Global Action သည် ကွဲပြားမှု လုံးဝ မရှိဘဲ နိုင်ငံတိုင်းကို ပမာဏ တူတူ အမြဲ ကုန်ကျစေသောကြောင့်",
+            "National Interest နှင့် Global Action သည် ဆန့်ကျင်မှု လုံးဝ မရှိဘဲ အမြဲ ပြီးပြည့်စုံစွာ တူညီသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a classic 'collective action problem' -- everyone benefits if everyone cooperates, but any single country faces a real incentive to under-commit while hoping others do more.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ရိုးရာ 'Collective Action Problem' ဖြစ်သည် -- လူတိုင်းက ပူးပေါင်းဆောင်ရွက်ပါက လူတိုင်း အကျိုးရသော်လည်း နိုင်ငံတစ်ခုစီသည် အခြားသူများ ပို၍ လုပ်ဆောင်ပေးလိမ့်မည်ဟု မျှော်လင့်လျက် Under-Commit ပြုလုပ်ရန် စစ်မှန်သော Incentive ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Climate Policy Terms",
+      titleMy: "တွဲစပ်ကြမည် - Climate Policy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w13-dm-1",
+          termEn: "Carbon tax",
+          termMy: "Carbon Tax",
+          matchEn: "A fixed price charged per unit of greenhouse gas emissions",
+          matchMy:
+              "Greenhouse Gas ထုတ်လွှတ်မှု ယူနစ်တစ်ခုလျှင် ကောက်ခံသော Fixed ဈေးနှုန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w13-dm-2",
+          termEn: "Cap-and-trade",
+          termMy: "Cap-and-Trade",
+          matchEn:
+              "A system setting a fixed emissions limit while letting the market determine permit prices",
+          matchMy:
+              "ဈေးကွက်က Permit ဈေးနှုန်း ဆုံးဖြတ်စေလျက် Fixed ထုတ်လွှတ်မှု ကန့်သတ်ချက် သတ်မှတ်ထားသော System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w13-dm-3",
+          termEn: "Collective action problem",
+          termMy: "Collective Action Problem",
+          matchEn:
+              "A situation where everyone benefits from cooperation, but each party has an incentive to under-contribute",
+          matchMy:
+              "လူတိုင်း ပူးပေါင်းဆောင်ရွက်မှုမှ အကျိုးရသော်လည်း Party တစ်ခုစီတွင် Under-Contribute ပြုလုပ်ရန် Incentive ရှိသော အခြေအနေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w13-dm-4",
+          termEn: "International agreement",
+          termMy: "International Agreement",
+          matchEn:
+              "A coordinated commitment among multiple countries toward a shared global target",
+          matchMy:
+              "မျှဝေထားသော ကမ္ဘာလုံးဆိုင်ရာ ပစ်မှတ်တစ်ခုသို့ နိုင်ငံများစွာကြား ညှိနှိုင်းထားသော ကတိကဝတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Carbon Tax or Cap-and-Trade Feature?",
+      titleMy: "စီစစ်ကြမည် - Carbon Tax (သို့) Cap-and-Trade Feature",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Carbon Tax Feature", "Cap-and-Trade Feature"],
+        bucketsMy: ["Carbon Tax Feature", "Cap-and-Trade Feature"],
+        items: [
+          SortingItem(
+            id: "igcgp-w13-sort-1",
+            labelEn: "The price per tonne of emissions is fixed by government",
+            labelMy:
+                "ထုတ်လွှတ်မှု တန်ချိန်တစ်ခုလျှင် ဈေးနှုန်းကို အစိုးရက Fixed သတ်မှတ်သည်",
+            correctBucketEn: "Carbon Tax Feature",
+            correctBucketMy: "Carbon Tax Feature",
+          ),
+          SortingItem(
+            id: "igcgp-w13-sort-2",
+            labelEn:
+                "The total emissions quantity is fixed and permits are traded on a market",
+            labelMy:
+                "Total ထုတ်လွှတ်မှု ပမာဏကို Fixed သတ်မှတ်ပြီး Permit များကို ဈေးကွက်တွင် ရောင်းဝယ်သည်",
+            correctBucketEn: "Cap-and-Trade Feature",
+            correctBucketMy: "Cap-and-Trade Feature",
+          ),
+          SortingItem(
+            id: "igcgp-w13-sort-3",
+            labelEn:
+                "Companies pay a set amount for every unit of pollution they release",
+            labelMy:
+                "ကုမ္ပဏီများသည် ၎င်းတို့ ထုတ်လွှတ်သော ညစ်ညမ်းမှု ယူနစ်တိုင်းအတွက် သတ်မှတ်ထားသော ပမာဏကို ပေးဆောင်သည်",
+            correctBucketEn: "Carbon Tax Feature",
+            correctBucketMy: "Carbon Tax Feature",
+          ),
+          SortingItem(
+            id: "igcgp-w13-sort-4",
+            labelEn:
+                "Companies that pollute less than their allowance can sell the surplus to others",
+            labelMy:
+                "၎င်းတို့ ခွင့်ပြုချက်ထက် နည်းစွာ ညစ်ညမ်းစေသော ကုမ္ပဏီများသည် ပိုလျှံသည်ကို အခြားသူများသို့ ရောင်းချနိုင်သည်",
+            correctBucketEn: "Cap-and-Trade Feature",
+            correctBucketMy: "Cap-and-Trade Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Policy Comparison",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Policy နှိုင်းယှဉ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Policy Comparison",
+        titleMy: "Su Myat Noe ၏ Policy နှိုင်းယှဉ်မှု",
+        passageEn:
+            "Ko Zin Ko Ko asked Su Myat Noe to compare a carbon tax and a cap-and-trade system for a specific policy scenario: a government wanted to cut national emissions by a precise, guaranteed amount within five years, with businesses strongly preferring policy predictability so they could plan investments confidently. Su Myat Noe reasoned through the trade-off carefully rather than assuming one approach was simply 'better' in the abstract.\n\nA carbon tax, she noted, gives businesses price certainty -- they know exactly what they will pay per tonne of emissions -- but it does not guarantee a precise total emissions outcome, since companies might simply choose to pay the tax and keep emitting if the price is not high enough to change behaviour. A cap-and-trade system does the opposite: it guarantees the total emissions cap will be met, since the total number of permits is fixed, but the price of those permits can fluctuate based on market demand, creating exactly the cost uncertainty for businesses that carbon tax avoided.\n\nGiven the specific scenario's requirement -- a precise, guaranteed emissions cut -- Su Myat Noe concluded that cap-and-trade better matched the government's stated goal, since only a fixed cap could guarantee the exact reduction target regardless of market price movements. She noted this conclusion depended entirely on the specific priority stated in the scenario; if the government had instead prioritised price predictability for businesses over a guaranteed emissions number, a carbon tax would have been the better match. Ko Zin Ko Ko confirmed this was exactly the right way to approach policy comparison questions: match the tool to the specific stated priority, rather than declaring one policy universally superior.",
+        passageMy:
+            "တိကျသော Policy Scenario တစ်ခုအတွက် Carbon Tax နှင့် Cap-and-Trade System ကို Su Myat Noe ကို ကိုဇင်ကိုကို နှိုင်းယှဉ်ခိုင်းခဲ့သည် - အစိုးရတစ်ခုသည် ငါးနှစ်အတွင်း တိကျ၊ အာမခံချက်ရှိသော ပမာဏတစ်ခုဖြင့် National ထုတ်လွှတ်မှုကို လျှော့ချလိုပြီး လုပ်ငန်းများက ရင်းနှီးမြှုပ်နှံမှုများကို ယုံကြည်စိတ်ချစွာ စီစဉ်နိုင်ရန် Policy Predictability ကို ခိုင်မာစွာ နှစ်သက်သည်။ Approach တစ်ခုကို Abstract အဆင့်တွင် ရိုးရိုးသာ 'ကောင်းသည်' ဟု ယူဆမည့်အစား Su Myat Noe သည် Trade-Off ကို သေချာစွာ ဆင်ခြင်ခဲ့သည်။\n\nCarbon Tax သည် လုပ်ငန်းများကို Price Certainty ပေးကြောင်း သူ မှတ်ချက်ချခဲ့သည် -- ၎င်းတို့သည် ထုတ်လွှတ်မှု တန်ချိန်တစ်ခုလျှင် မည်မျှ ပေးဆောင်ရမည်ကို အတိအကျ သိရှိသည် -- သို့သော် Price သည် အပြုအမူ ပြောင်းလဲရန် လုံလောက်စွာ မမြင့်ပါက ကုမ္ပဏီများသည် Tax ကို ရိုးရိုးသာ ပေးဆောင်ပြီး ထုတ်လွှတ်မှုကို ဆက်လက် ထိန်းသိမ်းနိုင်သောကြောင့် ၎င်းသည် တိကျသော Total ထုတ်လွှတ်မှု ရလဒ်ကို အာမခံခြင်း မဟုတ်ပါ။ Cap-and-Trade System က ဆန့်ကျင်ဘက် ပြုလုပ်သည် - Permit စုစုပေါင်း အရေအတွက် Fixed ဖြစ်သောကြောင့် Total ထုတ်လွှတ်မှု Cap ကို ဖြည့်ဆည်းလိမ့်မည်ကို အာမခံသော်လည်း ထို Permit များ၏ ဈေးနှုန်းသည် ဈေးကွက် ဝယ်လိုအားပေါ် အခြေခံ၍ အတက်အကျ ဖြစ်နိုင်ပြီး Carbon Tax ရှောင်ရှားခဲ့သည့် Cost Uncertainty ကို လုပ်ငန်းများအတွက် အတိအကျ ဖန်တီးသည်။\n\nတိကျသော Scenario ၏ လိုအပ်ချက် -- တိကျ၊ အာမခံချက်ရှိသော ထုတ်လွှတ်မှု လျှော့ချမှု -- ကို ထောက်ခံ၍ Fixed Cap တစ်ခုတည်းသာ ဈေးကွက် Price ရွေ့လျားမှု မည်သို့ပင်ရှိစေ တိကျသော လျှော့ချမှု ပစ်မှတ်ကို အာမခံနိုင်သောကြောင့် Cap-and-Trade သည် အစိုးရ၏ ဖော်ပြထားသော ရည်မှန်းချက်နှင့် ပို၍ ကိုက်ညီကြောင်း Su Myat Noe ကောက်ချက်ချခဲ့သည်။ ဤ ကောက်ချက်သည် Scenario တွင် ဖော်ပြထားသော တိကျသော Priority အပေါ် လုံးဝ မူတည်ကြောင်း သူ မှတ်ချက်ချခဲ့သည် - အစိုးရက အာမခံချက်ရှိသော ထုတ်လွှတ်မှု ဂဏန်းထက် လုပ်ငန်းများအတွက် Price Predictability ကို ယင်းအစား ဦးစားပေးခဲ့ပါက Carbon Tax သည် ပို၍ ကိုက်ညီသော ရွေးချယ်မှု ဖြစ်လိမ့်မည်။ Policy Comparison မေးခွန်းများအတွက် ဤသည်ကား မှန်ကန်သော Approach အတိအကျ ဖြစ်ကြောင်း ကိုဇင်ကိုကို အတည်ပြုခဲ့သည် - Policy တစ်ခုကို Universal Superior ဟု ကြေညာမည့်အစား Tool ကို ဖော်ပြထားသော တိကျသော Priority နှင့် ကိုက်ညီစေခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what does a carbon tax NOT guarantee?",
+            questionMy:
+                "Carbon Tax သည် အဘယ်အရာကို အာမခံခြင်း မရှိကြောင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A precise total emissions outcome",
+              "A fixed price per tonne of emissions",
+              "Any price at all for emissions",
+              "Business awareness of the tax rate",
+            ],
+            optionsMy: [
+              "တိကျသော Total ထုတ်လွှတ်မှု ရလဒ်",
+              "ထုတ်လွှတ်မှု တန်ချိန်တစ်ခုလျှင် Fixed ဈေးနှုန်း",
+              "ထုတ်လွှတ်မှုအတွက် ဈေးနှုန်း မည်သည်မျှ",
+              "Tax Rate အကြောင်း လုပ်ငန်းများ၏ သိရှိမှု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about what carbon tax does not guarantee.",
+            ],
+            hintsMy: [
+              "Carbon Tax အာမခံခြင်း မရှိကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what uncertainty does cap-and-trade create for businesses?",
+            questionMy:
+                "Cap-and-Trade သည် လုပ်ငန်းများအတွက် ဖန်တီးသော Uncertainty ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Permit prices can fluctuate based on market demand",
+              "The total emissions cap is never fixed at all",
+              "Businesses never know how many permits exist",
+              "There is no uncertainty of any kind",
+            ],
+            optionsMy: [
+              "Permit ဈေးနှုန်းများသည် ဈေးကွက် ဝယ်လိုအားပေါ် အခြေခံ၍ အတက်အကျ ဖြစ်နိုင်ခြင်း",
+              "Total ထုတ်လွှတ်မှု Cap သည် ဘယ်တော့မှ Fixed မဖြစ်ခြင်း",
+              "Permit မည်မျှ ရှိကြောင်း လုပ်ငန်းများ ဘယ်တော့မှ မသိရှိခြင်း",
+              "Uncertainty မည်သည့်အမျိုးအစားမျှ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 2."],
+            hintsMy: ["စာပိုဒ် ၂ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what is the right approach to policy comparison questions?",
+            questionMy:
+                "Policy Comparison မေးခွန်းများအတွက် မှန်ကန်သော Approach ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Match the tool to the specific stated priority rather than declaring one universally superior",
+              "Always declare carbon tax universally superior in every case",
+              "Always declare cap-and-trade universally superior in every case",
+              "Avoid comparing any policies at all",
+            ],
+            optionsMy: [
+              "Policy တစ်ခုကို Universal Superior ဟု ကြေညာမည့်အစား Tool ကို ဖော်ပြထားသော တိကျသော Priority နှင့် ကိုက်ညီစေခြင်း",
+              "Case တိုင်းတွင် Carbon Tax ကို Universal Superior ဟု အမြဲ ကြေညာခြင်း",
+              "Case တိုင်းတွင် Cap-and-Trade ကို Universal Superior ဟု အမြဲ ကြေညာခြင်း",
+              "Policy မည်သည်ကိုမျှ နှိုင်းယှဉ်ခြင်းကို ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Climate Policy",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Climate Policy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A carbon tax fixes the...",
+          questionMy: "Carbon Tax သည် ...ကို Fixed သတ်မှတ်သည်",
+          optionsEn: [
+            "Price per unit of emissions",
+            "Total emissions quantity",
+            "Number of countries involved",
+            "Length of the agreement in years",
+          ],
+          optionsMy: [
+            "ထုတ်လွှတ်မှု ယူနစ်တစ်ခုလျှင် ဈေးနှုန်း",
+            "Total ထုတ်လွှတ်မှု ပမာဏ",
+            "ပါဝင်သော နိုင်ငံ အရေအတွက်",
+            "Agreement ၏ နှစ်ရေအလိုက် ကြာချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A collective action problem occurs when...",
+          questionMy: "Collective Action Problem သည် ...ချိန်တွင် ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Everyone benefits from cooperation, but each party has an incentive to under-contribute",
+            "No cooperation is ever possible under any circumstances",
+            "Every party always contributes the exact same maximum amount",
+            "There is no benefit to anyone from cooperating",
+          ],
+          optionsMy: [
+            "လူတိုင်း ပူးပေါင်းဆောင်ရွက်မှုမှ အကျိုးရသော်လည်း Party တစ်ခုစီတွင် Under-Contribute ပြုလုပ်ရန် Incentive ရှိချိန်",
+            "မည်သည့် အခြေအနေတွင်မဆို ပူးပေါင်းဆောင်ရွက်မှု ဘယ်တော့မှ မဖြစ်နိုင်ချိန်",
+            "Party တိုင်းသည် အများဆုံး ပမာဏတူတူကို အမြဲ ပါဝင်ကူညီချိန်",
+            "ပူးပေါင်းဆောင်ရွက်ခြင်းမှ မည်သူ့ကိုမျှ အကျိုးမရှိချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A cap-and-trade system guarantees...",
+          questionMy: "Cap-and-Trade System သည် ...ကို အာမခံသည်",
+          optionsEn: [
+            "The total emissions cap will be met",
+            "A fixed permit price forever",
+            "No businesses will ever pollute",
+            "Unlimited emissions with no restriction",
+          ],
+          optionsMy: [
+            "Total ထုတ်လွှတ်မှု Cap ကို ဖြည့်ဆည်းလိမ့်မည်",
+            "ထာဝရ Fixed Permit ဈေးနှုန်း",
+            "လုပ်ငန်းမည်သည်မှ ဘယ်တော့မှ ညစ်ညမ်းစေမည် မဟုတ်ခြင်း",
+            "ကန့်သတ်ချက် မရှိသော ကန့်သတ်မထားသော ထုတ်လွှတ်မှု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 4, Week 14: "Biodiversity Loss and
+// Ecosystem Collapse"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek14 = CourseWeekDef(
+  id: "course-igcse-gp-w14",
+  weekNumber: 14,
+  titleEn: "Biodiversity Loss and Ecosystem Collapse",
+  titleMy: "ဇီဝမျိုးစုံမျိုးကွဲ ဆုံးရှုံးခြင်းနှင့် ဂေဟစနစ် ပြိုလဲခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w14-d1",
+      dayNumber: 1,
+      titleEn: "Deforestation, Conservation and Ecosystem Value",
+      titleMy: "Deforestation, Conservation နှင့် Ecosystem Value",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is meant by the term 'ecosystem services' when evaluating the economic value of a forest?",
+          questionMy:
+              "သစ်တောတစ်ခု၏ စီးပွားရေး တန်ဖိုးကို အကဲဖြတ်ရာတွင် 'Ecosystem Services' ဟူသော ဝေါဟာရသည် အဘယ်အရာကို ဆိုလိုသနည်း။",
+          optionsEn: [
+            "The genuine, measurable benefits an ecosystem provides to people, such as clean water filtration, flood control, and carbon storage, beyond just its timber value",
+            "The wages paid to workers who cut down trees",
+            "A government tax specifically applied to forested land",
+            "A term with no real economic meaning at all",
+          ],
+          optionsMy: [
+            "Timber တန်ဖိုးကို ကျော်လွန်၍ Clean Water Filtration, Flood Control နှင့် Carbon Storage ကဲ့သို့ Ecosystem တစ်ခုက လူများသို့ ပေးအပ်သော စစ်မှန်၊ တိုင်းတာနိုင်သော အကျိုးကျေးဇူးများ",
+            "သစ်ခုတ်သော အလုပ်သမားများသို့ ပေးဆောင်သော လုပ်ခလစာ",
+            "သစ်တောနေရာအတွက် တိကျစွာ အသုံးချထားသော အစိုးရ အခွန်",
+            "အမှန်တကယ် စီးပွားရေးဆိုင်ရာ အဓိပ္ပာယ် လုံးဝ မရှိသော ဝေါဟာရတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A standing forest filters water and prevents flooding whether or not anyone pays for it directly -- ecosystem services attempt to give these invisible benefits a measurable value.",
+          ],
+          hintsMy: [
+            "ရပ်တည်နေသော သစ်တောတစ်ခုသည် တစ်စုံတစ်ဦးက တိုက်ရိုက် ပေးဆောင်သည် ဖြစ်စေ မဖြစ်စေ ရေကို Filter လုပ်ပြီး ရေကြီးမှုကို ကာကွယ်ပေးသည် -- Ecosystem Services သည် ဤ မမြင်နိုင်သော အကျိုးကျေးဇူးများကို တိုင်းတာနိုင်သော တန်ဖိုးတစ်ခု ပေးရန် ကြိုးစားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is deforestation for agriculture often framed as a genuine dilemma rather than a simple 'bad choice'?",
+          questionMy:
+              "စိုက်ပျိုးရေးအတွက် Deforestation ကို ရိုးရှင်းသော 'Bad Choice' တစ်ခုအစား စစ်မှန်သော Dilemma တစ်ခုအဖြစ် မကြာခဏ ပုံဖော်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It often provides genuine, immediate economic benefit to communities facing real poverty, even as it produces long-term environmental costs",
+            "Deforestation never has any economic benefit to anyone at all",
+            "Deforestation has no environmental cost whatsoever",
+            "It is a topic with no genuine complexity that anyone should have to think about",
+          ],
+          optionsMy: [
+            "ရေရှည် ပတ်ဝန်းကျင် ကုန်ကျစရိတ်များ ထုတ်လုပ်နေချိန်ပင် ၎င်းသည် အမှန်တကယ် ဆင်းရဲမွဲတေမှု ကြုံနေရသော Community များကို စစ်မှန်၊ ချက်ချင်း စီးပွားရေး အကျိုးကျေးဇူး မကြာခဏ ပေးအပ်ခြင်း",
+            "Deforestation သည် မည်သူ့ကိုမျှ စီးပွားရေး အကျိုးကျေးဇူး ဘယ်တော့မှ မရှိခြင်း",
+            "Deforestation တွင် ပတ်ဝန်းကျင် ကုန်ကျစရိတ် လုံးဝ မရှိခြင်း",
+            "မည်သူမျှ စဉ်းစားစရာ မလိုအပ်သော စစ်မှန်သော ရှုပ်ထွေးမှု မရှိသော Topic တစ်ခု ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a genuine Global Perspectives tension -- a family clearing land for subsistence farming faces real immediate needs, alongside a real long-term cost to biodiversity.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား စစ်မှန်သော Global Perspectives ဆန့်ကျင်မှု ဖြစ်သည် -- Subsistence Farming အတွက် မြေရှင်းလင်းနေသော မိသားစုတစ်စုသည် Biodiversity အတွက် ရေရှည် ကုန်ကျစရိတ်စစ်မှန်နှင့်အတူ စစ်မှန်သော ချက်ချင်း လိုအပ်ချက်များ ကြုံတွေ့နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a common feature of successful conservation strategies documented in Global Perspectives case studies?",
+          questionMy:
+              "Global Perspectives Case Study များတွင် မှတ်တမ်းတင်ထားသော အောင်မြင်သော Conservation Strategy များ၏ အများသုံး Feature မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "They often involve local communities directly, giving them an economic stake in preservation rather than only imposing restrictions from outside",
+            "They always exclude local communities entirely from any decision-making",
+            "They never involve any economic considerations whatsoever",
+            "They are guaranteed to succeed regardless of local context or cooperation",
+          ],
+          optionsMy: [
+            "ပြင်ပမှ ကန့်သတ်ချက်များကိုသာ ချမှတ်မည့်အစား Local Community များကို ထိန်းသိမ်းမှုတွင် စီးပွားရေးဆိုင်ရာ Stake တစ်ခု ပေးအပ်ခြင်းဖြင့် ၎င်းတို့ကို တိုက်ရိုက် ပါဝင်စေခြင်း",
+            "ဆုံးဖြတ်ချက်ချမှတ်ခြင်း မည်သည်မှ Local Community များကို အမြဲ လုံးဝ ဖယ်ထုတ်ခြင်း",
+            "စီးပွားရေးဆိုင်ရာ ထည့်သွင်းစဉ်းစားမှု မည်သည်မျှ ဘယ်တော့မှ မပါဝင်ခြင်း",
+            "Local Context (သို့) Cooperation မည်သို့ပင်ရှိစေ အောင်မြင်ရန် အာမခံထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ecotourism programmes that pay local communities to protect wildlife, rather than simply banning their traditional access, are a classic example of aligning conservation with local economic interest.",
+          ],
+          hintsMy: [
+            "ရိုးရာ ဝင်ရောက်ခွင့်ကို ရိုးရိုးသာ တားမြစ်မည့်အစား Wildlife ကို ကာကွယ်ရန် Local Community များကို ငွေပေးချေသော Ecotourism Programme များသည် Conservation ကို Local Economic Interest နှင့် ချိန်ညှိပေးသော ရိုးရာ ဥပမာ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Biodiversity Terms",
+      titleMy: "တွဲစပ်ကြမည် - Biodiversity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w14-dm-1",
+          termEn: "Ecosystem services",
+          termMy: "Ecosystem Services",
+          matchEn:
+              "Measurable benefits an ecosystem provides, such as water filtration and flood control",
+          matchMy:
+              "Water Filtration နှင့် Flood Control ကဲ့သို့ Ecosystem တစ်ခုက ပေးအပ်သော တိုင်းတာနိုင်သော အကျိုးကျေးဇူးများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w14-dm-2",
+          termEn: "Deforestation",
+          termMy: "Deforestation",
+          matchEn:
+              "The clearing or removal of forests, often for agriculture or development",
+          matchMy:
+              "မကြာခဏ စိုက်ပျိုးရေး (သို့) ဖွံ့ဖြိုးတိုးတက်ရေးအတွက် သစ်တောများ ရှင်းလင်း (သို့) ဖယ်ရှားခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w14-dm-3",
+          termEn: "Ecotourism",
+          termMy: "Ecotourism",
+          matchEn:
+              "Tourism that generates income for local communities by protecting rather than exploiting nature",
+          matchMy:
+              "သဘာဝကို အခွင့်ကောင်းယူမည့်အစား ကာကွယ်ခြင်းဖြင့် Local Community များအတွက် ဝင်ငွေ ထုတ်လုပ်ပေးသော Tourism",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w14-dm-4",
+          termEn: "Biodiversity",
+          termMy: "Biodiversity",
+          matchEn:
+              "The variety of living species within a given ecosystem or on Earth as a whole",
+          matchMy:
+              "ပေးထားသော Ecosystem တစ်ခု (သို့) ကမ္ဘာတစ်ခုလုံးတွင် ရှင်သန်နေသော မျိုးစိတ်များ အမျိုးမျိုး",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Supports Conservation or Drives Biodiversity Loss?",
+      titleMy:
+          "စီစစ်ကြမည် - Conservation ကို ထောက်ခံသလား Biodiversity Loss ဖြစ်စေသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Supports Conservation", "Drives Biodiversity Loss"],
+        bucketsMy: [
+          "Conservation ကို ထောက်ခံသည်",
+          "Biodiversity Loss ဖြစ်စေသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "igcgp-w14-sort-1",
+            labelEn: "Large-scale clearing of rainforest for cattle ranching",
+            labelMy:
+                "Cattle Ranching အတွက် Rainforest ကျယ်ပြန့်စွာ ရှင်းလင်းခြင်း",
+            correctBucketEn: "Drives Biodiversity Loss",
+            correctBucketMy: "Biodiversity Loss ဖြစ်စေသည်",
+          ),
+          SortingItem(
+            id: "igcgp-w14-sort-2",
+            labelEn:
+                "An ecotourism programme paying villagers to protect a wildlife reserve",
+            labelMy:
+                "Wildlife Reserve တစ်ခု ကာကွယ်ရန် ရွာသားများသို့ ငွေပေးချေသော Ecotourism Programme",
+            correctBucketEn: "Supports Conservation",
+            correctBucketMy: "Conservation ကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "igcgp-w14-sort-3",
+            labelEn: "Illegal logging in a protected national park",
+            labelMy:
+                "ကာကွယ်ထားသော National Park တွင် တရားမဝင် သစ်ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Drives Biodiversity Loss",
+            correctBucketMy: "Biodiversity Loss ဖြစ်စေသည်",
+          ),
+          SortingItem(
+            id: "igcgp-w14-sort-4",
+            labelEn:
+                "A legally protected marine reserve enforcing a no-fishing zone",
+            labelMy:
+                "No-Fishing Zone ကို Enforce လုပ်သော ဥပဒေအရ ကာကွယ်ထားသော Marine Reserve",
+            correctBucketEn: "Supports Conservation",
+            correctBucketMy: "Conservation ကို ထောက်ခံသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Forest Dilemma",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ သစ်တော Dilemma",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Forest Dilemma",
+        titleMy: "Su Myat Noe ၏ သစ်တော Dilemma",
+        passageEn:
+            "Ko Zin Ko Ko presented Su Myat Noe with a case study of a rural community facing pressure to clear a section of nearby forest for subsistence farming, since existing farmland could no longer support the community's growing population. He asked her to genuinely engage with both the community's needs and the ecological cost, rather than simply condemning the clearing from a comfortable distance.\n\nSu Myat Noe first researched the community's actual situation: without additional farmland, families faced real food insecurity within the coming year, a genuine and immediate human need. She then researched the forest's ecosystem services, discovering it fed a watershed supplying clean drinking water to three downstream towns and stored a significant amount of carbon -- meaning clearing it would create real costs for people well beyond the immediate community, costs that would not show up in the community's own short-term calculations.\n\nRather than declaring the community simply wrong for considering clearing the land, Su Myat Noe researched alternative models that other communities facing similar pressure had used successfully: agroforestry systems that allowed limited, sustainable farming alongside preserved forest cover, and payment-for-ecosystem-services programmes where downstream water users financially compensated upstream communities for maintaining forest cover that protected their water supply. Her final recommendation proposed connecting this specific community with a payment-for-ecosystem-services arrangement, funded partly by the downstream towns that benefited from the watershed, so that the community's immediate economic need and the forest's genuine ecological value could both be addressed together, rather than treating conservation and community welfare as an unavoidable trade-off. Ko Zin Ko Ko praised this as a genuinely researched, evidence-based solution rather than a moralising judgement from outside the situation.",
+        passageMy:
+            "လက်ရှိ လယ်ယာမြေသည် Community ၏ တိုးများလာသော လူဦးရေကို ဆက်လက် မထောက်ပံ့နိုင်တော့သဖြင့် Subsistence Farming အတွက် အနီးရှိ သစ်တော အပိုင်းတစ်ခုကို ရှင်းလင်းရန် ဖိအား ကြုံနေရသော ကျေးလက် Community တစ်ခု၏ Case Study ကို Su Myat Noe ကို ကိုဇင်ကိုကို တင်ပြခဲ့သည်။ အဆင်ပြေသော အကွာအဝေးမှ ရှင်းလင်းခြင်းကို ရိုးရိုးသာ ရှုတ်ချမည့်အစား Community ၏ လိုအပ်ချက်များနှင့် Ecological ကုန်ကျစရိတ် နှစ်ခုစလုံးနှင့် စစ်မှန်စွာ ထိတွေ့ရန် သူ့ကို တောင်းဆိုခဲ့သည်။\n\nCommunity ၏ အမှန်တကယ် အခြေအနေကို Su Myat Noe ဦးစွာ သုတေသန ပြုလုပ်ခဲ့သည် - ထပ်ဆောင်း လယ်ယာမြေ မရှိပါက မိသားစုများသည် လာမည့်နှစ်အတွင်း စစ်မှန်၊ ချက်ချင်း လူသား လိုအပ်ချက်ဖြစ်သော စစ်မှန်သော အစားအစာ လုံခြုံမှု ချို့တဲ့မှု ကြုံတွေ့ရလိမ့်မည်။ ထို့နောက် သစ်တော၏ Ecosystem Services ကို သုတေသန ပြုလုပ်ခဲ့ပြီး ၎င်းသည် Downstream မြို့သုံးမြို့သို့ Clean Drinking Water ထောက်ပံ့ပေးသော Watershed တစ်ခုကို ကျွေးမွေးပေးပြီး Carbon ပမာဏ များစွာကို သိမ်းဆည်းထားကြောင်း တွေ့ရှိခဲ့သည် -- ၎င်းကို ရှင်းလင်းခြင်းသည် Community ကိုယ်ပိုင် ရေတို တွက်ချက်မှုများတွင် မပေါ်လာနိုင်သော Community ကိုကျော်လွန်၍ လူများအတွက် စစ်မှန်သော ကုန်ကျစရိတ်များ ဖန်တီးလိမ့်မည်ဟု ဆိုလိုသည်။\n\nမြေကို ရှင်းလင်းရန် စဉ်းစားခြင်းအတွက် Community ကို ရိုးရိုးသာ မှားယွင်းသည်ဟု ကြေညာမည့်အစား ဆင်တူသော ဖိအားကို ကြုံတွေ့ရသော Community အခြားများ အောင်မြင်စွာ အသုံးပြုခဲ့သော Alternative Model များကို Su Myat Noe သုတေသန ပြုလုပ်ခဲ့သည် - ထိန်းသိမ်းထားသော သစ်တော ဖုံးလွှမ်းမှုနှင့်အတူ ကန့်သတ်ထား၊ ရေရှည်တည်တံ့သော စိုက်ပျိုးရေးကို ခွင့်ပြုသော Agroforestry System များနှင့် Downstream Water User များသည် ၎င်းတို့ ရေထောက်ပံ့မှုကို ကာကွယ်ပေးသော သစ်တော ဖုံးလွှမ်းမှု ထိန်းသိမ်းခြင်းအတွက် Upstream Community များသို့ ငွေကြေးအရ လျော်ကြေးပေးသော Payment-for-Ecosystem-Services Programme များ။ Watershed မှ အကျိုးရရှိသော Downstream မြို့များက တစ်စိတ်တစ်ပိုင်း ငွေကြေးထောက်ပံ့ထားသော Payment-for-Ecosystem-Services Arrangement တစ်ခုနှင့် ဤ တိကျသော Community ကို ချိတ်ဆက်ရန် ၎င်း၏ Final အကြံပြုချက် အဆိုပြုခဲ့သည်၊ Conservation နှင့် Community Welfare ကို ရှောင်လွှဲ၍မရသော Trade-Off တစ်ခုအဖြစ် ဆက်ဆံမည့်အစား Community ၏ ချက်ချင်း စီးပွားရေး လိုအပ်ချက်နှင့် သစ်တော၏ စစ်မှန်သော Ecological တန်ဖိုး နှစ်ခုစလုံးကို အတူတကွ ဖြေရှင်းနိုင်ရန်။ ဤသည်ကား အခြေအနေ ပြင်ပမှ ကိုယ်ကျင့်တရားဆိုင်ရာ စီရင်ဆုံးဖြတ်ချက်ထက် စစ်မှန်စွာ သုတေသန ပြုလုပ်ထားသော Evidence-Based ဖြေရှင်းချက်တစ်ခုဟု ကိုဇင်ကိုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what real problem did the community face without additional farmland?",
+            questionMy:
+                "ထပ်ဆောင်း လယ်ယာမြေ မရှိပါက Community ကြုံတွေ့ရသော စစ်မှန်သော ပြဿနာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Real food insecurity within the coming year",
+              "A shortage of clean water only",
+              "No problem at all",
+              "A shortage of building materials only",
+            ],
+            optionsMy: [
+              "လာမည့်နှစ်အတွင်း စစ်မှန်သော အစားအစာ လုံခြုံမှု ချို့တဲ့မှု",
+              "Clean Water ရှားပါးမှုသာ",
+              "ပြဿနာ မည်သည်မှ",
+              "ဆောက်လုပ်ရေး ပစ္စည်းများ ရှားပါးမှုသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what ecosystem service did the forest provide?",
+            questionMy:
+                "သစ်တောသည် ပေးအပ်ခဲ့သော Ecosystem Service ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Feeding a watershed supplying clean drinking water to three downstream towns",
+              "Producing electricity for the region",
+              "Providing internet connectivity",
+              "Nothing of any value at all",
+            ],
+            optionsMy: [
+              "Downstream မြို့သုံးမြို့သို့ Clean Drinking Water ထောက်ပံ့ပေးသော Watershed ကို ကျွေးမွေးပေးခြင်း",
+              "ဒေသအတွက် လျှပ်စစ် ထုတ်လုပ်ပေးခြင်း",
+              "အင်တာနက် ချိတ်ဆက်မှု ပေးအပ်ခြင်း",
+              "တန်ဖိုး မည်သည်မျှ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the watershed."],
+            hintsMy: ["Watershed အကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Myat Noe's final recommendation propose?",
+            questionMy:
+                "Su Myat Noe ၏ Final အကြံပြုချက် အဆိုပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A payment-for-ecosystem-services arrangement funded by downstream towns",
+              "Immediately clearing the entire forest with no restrictions",
+              "Permanently relocating the entire community elsewhere",
+              "Ignoring the community's needs completely",
+            ],
+            optionsMy: [
+              "Downstream မြို့များက ငွေကြေးထောက်ပံ့ထားသော Payment-for-Ecosystem-Services Arrangement",
+              "ကန့်သတ်ချက် မရှိဘဲ သစ်တောတစ်ခုလုံးကို ချက်ချင်း ရှင်းလင်းခြင်း",
+              "Community တစ်ခုလုံးကို အခြားနေရာသို့ အမြဲတမ်း နေရာပြောင်းရွှေ့ခြင်း",
+              "Community ၏ လိုအပ်ချက်များကို လုံးဝ လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence describing the final recommendation.",
+            ],
+            hintsMy: [
+              "Final အကြံပြုချက်ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Biodiversity",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Biodiversity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ecosystem services include benefits such as...",
+          questionMy:
+              "Ecosystem Services တွင် ...ကဲ့သို့ အကျိုးကျေးဇူးများ ပါဝင်သည်",
+          optionsEn: [
+            "Water filtration and flood control",
+            "Only timber sales",
+            "Only tourism income",
+            "Nothing measurable at all",
+          ],
+          optionsMy: [
+            "Water Filtration နှင့် Flood Control",
+            "Timber ရောင်းချမှုသာ",
+            "Tourism ဝင်ငွေသာ",
+            "တိုင်းတာနိုင်သည့်အရာ မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Payment-for-ecosystem-services programmes work by...",
+          questionMy:
+              "Payment-for-Ecosystem-Services Programme များ အလုပ်လုပ်ပုံမှာ...",
+          optionsEn: [
+            "Compensating communities financially for maintaining ecosystems that benefit others",
+            "Banning all human activity in a region permanently",
+            "Ignoring downstream communities entirely",
+            "Requiring no funding of any kind",
+          ],
+          optionsMy: [
+            "အခြားသူများကို အကျိုးပြုသော Ecosystem များ ထိန်းသိမ်းခြင်းအတွက် Community များကို ငွေကြေးအရ လျော်ကြေးပေးခြင်း",
+            "ဒေသတစ်ခုတွင် လူသား လုပ်ဆောင်ချက်အားလုံးကို အမြဲတမ်း တားမြစ်ခြင်း",
+            "Downstream Community များကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "ရန်ပုံငွေ မည်သည့်အမျိုးအစားမျှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A genuinely well-researched conservation solution should...",
+          questionMy:
+              "စစ်မှန်စွာ ကောင်းစွာ သုတေသန ပြုလုပ်ထားသော Conservation ဖြေရှင်းချက်တစ်ခုသည်...",
+          optionsEn: [
+            "Address both community needs and ecological value together",
+            "Ignore community needs entirely",
+            "Ignore ecological value entirely",
+            "Be decided without any research at all",
+          ],
+          optionsMy: [
+            "Community လိုအပ်ချက်များနှင့် Ecological တန်ဖိုး နှစ်ခုစလုံးကို အတူတကွ ဖြေရှင်းသင့်သည်",
+            "Community လိုအပ်ချက်များကို လုံးဝ လျစ်လျူရှုသင့်သည်",
+            "Ecological တန်ဖိုးကို လုံးဝ လျစ်လျူရှုသင့်သည်",
+            "သုတေသန မည်သည်မှ မပါဘဲ ဆုံးဖြတ်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 4, Week 15: "Sustainable
+// Urbanisation and Energy"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek15 = CourseWeekDef(
+  id: "course-igcse-gp-w15",
+  weekNumber: 15,
+  titleEn: "Sustainable Urbanisation and Energy",
+  titleMy: "ရေရှည်တည်တံ့သော မြို့ပြထွန်းကားမှုနှင့် စွမ်းအင်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w15-d1",
+      dayNumber: 1,
+      titleEn: "Smart Cities, Renewables and Circular Economy",
+      titleMy: "Smart City, Renewable Energy နှင့် Circular Economy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the core idea behind a 'circular economy' model, as distinct from a traditional linear economy?",
+          questionMy:
+              "ရိုးရာ Linear Economy နှင့် ကွဲပြားသော 'Circular Economy' Model နောက်ကွယ်ရှိ အဓိက အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Designing products and systems to keep materials in use through reuse, repair, and recycling, rather than the traditional 'take-make-dispose' pattern",
+            "Producing as much waste as physically possible in the shortest time",
+            "Using only new raw materials for every single product manufactured",
+            "Eliminating all manufacturing of any kind, everywhere",
+          ],
+          optionsMy: [
+            "ရိုးရာ 'Take-Make-Dispose' Pattern အစား Reuse, Repair နှင့် Recycling မှတစ်ဆင့် Material များကို အသုံးပြုနေစေရန် Product များနှင့် System များကို Design ပြုလုပ်ခြင်း",
+            "ဖြစ်နိုင်သမျှ အနည်းဆုံး အချိန်အတွင်း ဖြစ်နိုင်သမျှ များများ စွန့်ပစ်ပစ္စည်း ထုတ်လုပ်ခြင်း",
+            "ထုတ်လုပ်ထားသော Product တစ်ခုစီအတွက် Raw Material အသစ်များကိုသာ အသုံးပြုခြင်း",
+            "နေရာတိုင်းတွင် Manufacturing မည်သည့်အမျိုးအစားကိုမျှ လုံးဝ ဖျက်သိမ်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The name 'circular' contrasts with 'linear' -- instead of raw material flowing one direction toward waste, it loops back into use again and again.",
+          ],
+          hintsMy: [
+            "'Circular' ဟူသော အမည်သည် 'Linear' နှင့် ဆန့်ကျင်သည် -- Raw Material သည် အမှိုက်ဘက်သို့ ဦးတည်ချက် တစ်ခုတည်း စီးဆင်းမည့်အစား ၎င်းသည် ထပ်ခါထပ်ခါ အသုံးပြုနေခြင်းသို့ Loop ပြန်ဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is a genuine challenge in transitioning a city's energy system from fossil fuels to renewables?",
+          questionMy:
+              "မြို့တစ်ခု၏ စွမ်းအင်စနစ်ကို Fossil Fuel များမှ Renewable များသို့ ကူးပြောင်းရာတွင် စစ်မှန်သော စိန်ခေါ်မှုမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Balancing the upfront infrastructure cost and intermittency of some renewable sources against the long-term environmental and economic benefits",
+            "Renewable energy has never actually been successfully implemented anywhere",
+            "Fossil fuels have absolutely no environmental cost whatsoever",
+            "There is no meaningful difference between fossil fuels and renewables",
+          ],
+          optionsMy: [
+            "ရေရှည် ပတ်ဝန်းကျင်နှင့် စီးပွားရေး အကျိုးကျေးဇူးများကို Renewable Source အချို့၏ ကနဦး Infrastructure ကုန်ကျစရိတ်နှင့် Intermittency နှင့် ချိန်ညှိခြင်း",
+            "Renewable Energy ကို နေရာမည်သည်တွင်မျှ အောင်မြင်စွာ အကောင်အထည်ဖော်ခဲ့ခြင်း အမှန်တကယ် ဘယ်တော့မှ မရှိခြင်း",
+            "Fossil Fuel များတွင် ပတ်ဝန်းကျင် ကုန်ကျစရိတ် လုံးဝ မရှိခြင်း",
+            "Fossil Fuel များနှင့် Renewable များကြား အဓိပ္ပာယ်ရှိသော ကွာခြားချက် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Solar and wind power depend on weather and time of day (intermittency), and building new infrastructure requires significant upfront investment -- real trade-offs a Global Perspectives essay should acknowledge.",
+          ],
+          hintsMy: [
+            "Solar နှင့် Wind Power သည် ရာသီဥတုနှင့် နေ့စဉ်အချိန်ပေါ် မှီခိုနေသည် (Intermittency)၊ Infrastructure အသစ် တည်ဆောက်ခြင်းသည် သိသာသော ကနဦး ရင်းနှီးမြှုပ်နှံမှု လိုအပ်သည် -- Global Perspectives Essay တစ်ခု အသိအမှတ်ပြုသင့်သော စစ်မှန်သော Trade-Off များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "What is the fundamental idea behind a 'smart city' approach to urban planning?",
+          questionMy:
+              "Urban Planning အတွက် 'Smart City' Approach နောက်ကွယ်ရှိ အခြေခံ အယူအဆမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Using data and connected technology to manage city resources (like traffic, energy, and waste) more efficiently",
+            "Building only very tall buildings with no other planning consideration",
+            "Removing all technology from a city entirely",
+            "A city with no residents living in it at all",
+          ],
+          optionsMy: [
+            "Traffic, Energy နှင့် Waste ကဲ့သို့ မြို့ Resource များကို ပို၍ ထိရောက်စွာ စီမံခန့်ခွဲရန် Data နှင့် Connected Technology ကို အသုံးပြုခြင်း",
+            "အခြား Planning ထည့်သွင်းစဉ်းစားမှု မပါဘဲ အလွန်မြင့်သော Building များကိုသာ တည်ဆောက်ခြင်း",
+            "မြို့တစ်ခုမှ Technology အားလုံးကို လုံးဝ ဖယ်ရှားခြင်း",
+            "Resident မည်သူမျှ နေထိုင်ခြင်း လုံးဝ မရှိသော မြို့တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Traffic sensors adjusting signals in real time, or smart grids balancing energy demand, are practical examples of 'smart city' technology solving genuine urban management problems.",
+          ],
+          hintsMy: [
+            "Real Time တွင် Signal များ ချိန်ညှိသော Traffic Sensor များ (သို့) Energy Demand ကို ချိန်ညှိသော Smart Grid များသည် စစ်မှန်သော Urban Management ပြဿနာများကို ဖြေရှင်းသော 'Smart City' Technology ၏ လက်တွေ့ ဥပမာများ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sustainability Terms",
+      titleMy: "တွဲစပ်ကြမည် - Sustainability ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w15-dm-1",
+          termEn: "Circular economy",
+          termMy: "Circular Economy",
+          matchEn:
+              "An economic model keeping materials in use through reuse, repair, and recycling",
+          matchMy:
+              "Reuse, Repair နှင့် Recycling မှတစ်ဆင့် Material များကို အသုံးပြုနေစေသော စီးပွားရေး Model",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w15-dm-2",
+          termEn: "Intermittency",
+          termMy: "Intermittency",
+          matchEn:
+              "The tendency of some renewable energy sources to be inconsistent, depending on weather or time of day",
+          matchMy:
+              "ရာသီဥတု (သို့) နေ့စဉ်အချိန်ပေါ် မူတည်၍ Renewable Energy Source အချို့ Inconsistent ဖြစ်တတ်သော ဂုဏ်သတ္တိ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w15-dm-3",
+          termEn: "Smart city",
+          termMy: "Smart City",
+          matchEn:
+              "A city using data and connected technology to manage resources more efficiently",
+          matchMy:
+              "Resource များကို ပို၍ ထိရောက်စွာ စီမံခန့်ခွဲရန် Data နှင့် Connected Technology ကို အသုံးပြုသော မြို့",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w15-dm-4",
+          termEn: "Renewable energy",
+          termMy: "Renewable Energy",
+          matchEn:
+              "Energy from naturally replenishing sources, such as solar, wind, or hydro power",
+          matchMy:
+              "Solar, Wind (သို့) Hydro Power ကဲ့သို့ သဘာဝအလျောက် ပြန်လည်ဖြည့်တင်းသော Source များမှ စွမ်းအင်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Circular Economy or Linear Economy Practice?",
+      titleMy: "စီစစ်ကြမည် - Circular Economy (သို့) Linear Economy Practice",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Circular Economy Practice", "Linear Economy Practice"],
+        bucketsMy: ["Circular Economy Practice", "Linear Economy Practice"],
+        items: [
+          SortingItem(
+            id: "igcgp-w15-sort-1",
+            labelEn:
+                "A phone company designing devices to be easily repaired rather than replaced",
+            labelMy:
+                "အစားထိုးမည့်အစား ပြင်ဆင်ရလွယ်ကူစေရန် Device များကို Design ပြုလုပ်သော ဖုန်း ကုမ္ပဏီ",
+            correctBucketEn: "Circular Economy Practice",
+            correctBucketMy: "Circular Economy Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w15-sort-2",
+            labelEn:
+                "A factory producing single-use plastic items designed to be discarded after one use",
+            labelMy:
+                "တစ်ကြိမ်သုံးပြီးနောက် စွန့်ပစ်ရန် Design ပြုလုပ်ထားသော Single-Use Plastic ပစ္စည်းများ ထုတ်လုပ်သော Factory",
+            correctBucketEn: "Linear Economy Practice",
+            correctBucketMy: "Linear Economy Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w15-sort-3",
+            labelEn:
+                "A city-wide programme recycling construction materials for new buildings",
+            labelMy:
+                "Building အသစ်များအတွက် Construction Material များကို Recycle ပြုလုပ်သော မြို့တစ်ခုလုံးအတိုင်း Programme",
+            correctBucketEn: "Circular Economy Practice",
+            correctBucketMy: "Circular Economy Practice",
+          ),
+          SortingItem(
+            id: "igcgp-w15-sort-4",
+            labelEn:
+                "A retailer encouraging customers to buy new items every season regardless of need",
+            labelMy:
+                "လိုအပ်ချက် မည်သို့ပင်ရှိစေ ရာသီတိုင်း ပစ္စည်းအသစ်များ ဝယ်ယူရန် Customer များကို တွန်းအားပေးသော Retailer",
+            correctBucketEn: "Linear Economy Practice",
+            correctBucketMy: "Linear Economy Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Energy Transition Report",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Energy Transition Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Energy Transition Report",
+        titleMy: "Su Myat Noe ၏ Energy Transition Report",
+        passageEn:
+            "Ko Zin Ko Ko asked Su Myat Noe to research a real city that had transitioned a significant share of its electricity supply from coal to solar and wind power, and to write a balanced report covering both the genuine successes and the genuine remaining challenges, rather than a one-sided celebration. She found real successes worth documenting: air quality measurably improved as coal plants were retired, and the city had created a meaningful number of new jobs in renewable installation and maintenance during the transition.\n\nShe then researched the challenges the city's own planning documents openly acknowledged, rather than looking only at celebratory press coverage. The intermittency problem was real: on days with low wind and heavy cloud cover, the city still needed backup power, which for several years continued to come partly from natural gas plants, meaning the transition away from fossil fuels was gradual rather than complete. She also found that the upfront infrastructure investment had been substantial, requiring years of planning and significant public financing before the benefits became fully visible.\n\nHer final report avoided declaring the transition either a total triumph or a failure, instead presenting a specific, evidence-based timeline: measurable air quality and job creation benefits had already materialised, while complete fossil fuel independence remained a longer-term goal still requiring further battery storage investment to solve the intermittency problem. Ko Zin Ko Ko noted that this kind of honest, evidence-grounded progress report -- neither overselling early wins nor dismissing genuine progress because the transition was not yet fully complete -- was exactly the analytical maturity IGCSE Global Perspectives aimed to develop in its students' written work.",
+        passageMy:
+            "Coal မှ Solar နှင့် Wind Power သို့ ၎င်း၏ လျှပ်စစ် ထောက်ပံ့မှု၏ သိသာသော ဝေစုတစ်ခုကို ကူးပြောင်းခဲ့သော လက်တွေ့ မြို့တစ်ခုကို သုတေသန ပြုလုပ်ပြီး ဘက်တစ်ဖက်တည်း ချီးမွမ်းချက်အစား စစ်မှန်သော အောင်မြင်မှုများနှင့် စစ်မှန်သော ကျန်ရှိနေသေးသော စိန်ခေါ်မှုများ နှစ်ခုစလုံးကို ဖုံးလွှမ်းသော Balanced Report တစ်ခု ရေးသားရန် Su Myat Noe ကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ မှတ်တမ်းတင်ထိုက်သော စစ်မှန်သော အောင်မြင်မှုများကို သူ တွေ့ရှိခဲ့သည် - Coal Plant များ ရပ်စဲသွားသည်နှင့်အမျှ Air Quality သည် တိုင်းတာနိုင်လောက်အောင် တိုးတက်လာခဲ့ပြီး မြို့သည် Transition အတွင်း Renewable Installation နှင့် Maintenance တွင် အလုပ်အကိုင် သိသာသော အရေအတွက် အသစ် ဖန်တီးခဲ့သည်။\n\nချီးမွမ်းသော Press Coverage ကိုသာ ကြည့်ရှုမည့်အစား မြို့ကိုယ်ပိုင် Planning Document များ ပွင့်လင်းစွာ အသိအမှတ်ပြုထားသော စိန်ခေါ်မှုများကို ဆက်လက် သုတေသန ပြုလုပ်ခဲ့သည်။ Intermittency ပြဿနာသည် စစ်မှန်ခဲ့သည် - Wind နည်းပြီး Cloud Cover ထူထပ်သော နေ့ရက်များတွင် မြို့သည် Backup Power ဆက်လက် လိုအပ်ခဲ့ပြီး နှစ်ပေါင်းများစွာအတွက် တစ်စိတ်တစ်ပိုင်း Natural Gas Plant များမှ ဆက်လက် ရရှိခဲ့ကြောင်း Fossil Fuel များမှ Transition သည် ပြီးပြည့်စုံခြင်းထက် ဖြည်းဖြည်းချင်း ဖြစ်ကြောင်း ဆိုလိုသည်။ Benefit များ ပြည့်ပြည့်စုံစုံ မမြင်နိုင်မီ နှစ်ပေါင်းများစွာ Planning နှင့် သိသာသော Public Financing လိုအပ်ခဲ့ပြီး ကနဦး Infrastructure ရင်းနှီးမြှုပ်နှံမှုသည် သိသာစွာ ကြီးမားခဲ့ကြောင်းလည်း သူ တွေ့ရှိခဲ့သည်။\n\n၎င်း၏ Final Report သည် Transition ကို Total Triumph (သို့) Failure တစ်ခုအဖြစ် ကြေညာခြင်းကို ရှောင်ရှားခဲ့ပြီး ယင်းအစား တိကျသော၊ Evidence-Based Timeline တစ်ခု တင်ပြခဲ့သည် - တိုင်းတာနိုင်သော Air Quality နှင့် Job Creation အကျိုးကျေးဇူးများ ရှိပြီးသား ဖြစ်လာခဲ့ပြီး ပြီးပြည့်စုံသော Fossil Fuel Independence သည် Intermittency ပြဿနာကို ဖြေရှင်းရန် Battery Storage ရင်းနှီးမြှုပ်နှံမှု ထပ်ဆောင်း လိုအပ်နေသေးသော ရေရှည် ရည်မှန်းချက် ဆက်လက် ကျန်ရှိနေသည်။ ဤကဲ့သို့ ရိုးသား၊ Evidence-Grounded Progress Report -- ကနဦး ရလဒ်များကို လွန်ကဲစွာ ရောင်းချခြင်းမပြုဘဲ Transition မပြီးပြည့်စုံသေးသောကြောင့် စစ်မှန်သော တိုးတက်မှုကို လျစ်လျူမရှုဘဲ -- IGCSE Global Perspectives သည် ကျောင်းသားများ၏ ရေးသားခြင်း အလုပ်များတွင် တိုးတက်စေလိုသော Analytical Maturity အတိအကျ ဖြစ်ကြောင်း ကိုဇင်ကိုကို မှတ်ချက်ချခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two genuine successes did Su Myat Noe find?",
+            questionMy:
+                "Su Myat Noe တွေ့ရှိခဲ့သော စစ်မှန်သော အောင်မြင်မှု နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Measurably improved air quality and new jobs in renewable installation and maintenance",
+              "Complete elimination of all electricity costs",
+              "No successes were found at all",
+              "A doubling of the city's population",
+            ],
+            optionsMy: [
+              "တိုင်းတာနိုင်လောက်အောင် တိုးတက်လာသော Air Quality နှင့် Renewable Installation/Maintenance တွင် အလုပ်အကိုင်အသစ်",
+              "လျှပ်စစ် ကုန်ကျစရိတ်အားလုံးကို လုံးဝ ဖယ်ရှားခြင်း",
+              "အောင်မြင်မှု မည်သည်မှ ရှာမတွေ့ခြင်း",
+              "မြို့၏ လူဦးရေ နှစ်ဆ ဖြစ်လာခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of paragraph 1."],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the city still need on days with low wind and heavy cloud cover?",
+            questionMy:
+                "Wind နည်းပြီး Cloud Cover ထူထပ်သော နေ့ရက်များတွင် မြို့ ဆက်လက် လိုအပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Backup power, partly from natural gas plants",
+              "No power of any kind",
+              "Additional solar panels only",
+              "A complete city-wide blackout",
+            ],
+            optionsMy: [
+              "တစ်စိတ်တစ်ပိုင်း Natural Gas Plant များမှ Backup Power",
+              "Power မည်သည့်အမျိုးအစားမျှ",
+              "Solar Panel ထပ်ဆောင်းများသာ",
+              "မြို့တစ်ခုလုံး ပြည့်စုံစွာ လျှပ်စစ်ပြတ်တောက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the intermittency problem."],
+            hintsMy: [
+              "Intermittency ပြဿနာအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what analytical maturity did Ko Zin Ko Ko say IGCSE Global Perspectives aimed to develop?",
+            questionMy:
+                "IGCSE Global Perspectives တိုးတက်စေလိုသော Analytical Maturity ကို ကိုဇင်ကိုကို ပြောကြားခဲ့သည့်အရာကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Neither overselling early wins nor dismissing genuine progress because it is incomplete",
+              "Always declaring every project a complete failure",
+              "Always declaring every project a complete success",
+              "Avoiding research entirely",
+            ],
+            optionsMy: [
+              "ကနဦး ရလဒ်များကို လွန်ကဲစွာ ရောင်းချခြင်း (သို့) မပြီးပြည့်စုံသေးသောကြောင့် စစ်မှန်သော တိုးတက်မှုကို လျစ်လျူရှုခြင်း နှစ်ခုစလုံး မလုပ်ခြင်း",
+              "Project တိုင်းကို Complete Failure ဟု အမြဲ ကြေညာခြင်း",
+              "Project တိုင်းကို Complete Success ဟု အမြဲ ကြေညာခြင်း",
+              "သုတေသနကို လုံးဝ ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Sustainable Urbanisation",
+      titleMy: "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Sustainable Urbanisation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A circular economy aims to...",
+          questionMy: "Circular Economy သည် ...ကို ရည်ရွယ်သည်",
+          optionsEn: [
+            "Keep materials in use through reuse, repair, and recycling",
+            "Maximise waste production",
+            "Use only brand-new raw materials for everything",
+            "Eliminate manufacturing entirely",
+          ],
+          optionsMy: [
+            "Reuse, Repair နှင့် Recycling မှတစ်ဆင့် Material များကို အသုံးပြုနေစေရန်",
+            "စွန့်ပစ်ပစ္စည်း ထုတ်လုပ်မှု အများဆုံး ဖြစ်စေရန်",
+            "အရာအားလုံးအတွက် Raw Material အသစ်များကိုသာ အသုံးပြုရန်",
+            "Manufacturing ကို လုံးဝ ဖျက်သိမ်းရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Intermittency is a genuine challenge for...",
+          questionMy:
+              "Intermittency သည် ...အတွက် စစ်မှန်သော စိန်ခေါ်မှု ဖြစ်သည်",
+          optionsEn: [
+            "Some renewable energy sources like solar and wind",
+            "Coal power plants only",
+            "No energy source at all",
+            "Only nuclear power plants",
+          ],
+          optionsMy: [
+            "Solar နှင့် Wind ကဲ့သို့ Renewable Energy Source အချို့",
+            "Coal Power Plant များသာ",
+            "Energy Source မည်သည်မှ",
+            "Nuclear Power Plant များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An honest energy transition progress report should...",
+          questionMy:
+              "ရိုးသားသော Energy Transition Progress Report တစ်ခုသည်...",
+          optionsEn: [
+            "Present both measurable successes and remaining challenges",
+            "Only present successes with no challenges mentioned",
+            "Only present challenges with no successes mentioned",
+            "Avoid presenting any evidence at all",
+          ],
+          optionsMy: [
+            "တိုင်းတာနိုင်သော အောင်မြင်မှုများနှင့် ကျန်ရှိနေသေးသော စိန်ခေါ်မှုများ နှစ်ခုစလုံးကို တင်ပြသင့်သည်",
+            "စိန်ခေါ်မှုများ မဖော်ပြဘဲ အောင်မြင်မှုများကိုသာ တင်ပြသင့်သည်",
+            "အောင်မြင်မှုများ မဖော်ပြဘဲ စိန်ခေါ်မှုများကိုသာ တင်ပြသင့်သည်",
+            "Evidence မည်သည်ကိုမျှ တင်ပြခြင်း ရှောင်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// IGCSE Global Perspectives -- Term 4, Week 16 (Capstone/Boss Week):
+// "Environmental Action Plan Studio"
+// =====================================================================
+
+const CourseWeekDef _igcseGpWeek16 = CourseWeekDef(
+  id: "course-igcse-gp-w16",
+  weekNumber: 16,
+  titleEn: "Environmental Action Plan Studio",
+  titleMy: "ပတ်ဝန်းကျင် လှုပ်ရှားမှု စီမံချက် အလုပ်ရုံ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-igcgp-w16-d1",
+      dayNumber: 1,
+      titleEn: "Local-Global Environmental Projects and Feasibility",
+      titleMy: "Local-Global ပတ်ဝန်းကျင် Project များနှင့် Feasibility",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For a genuinely feasible local environmental action plan, why is it important to identify specific, measurable outcomes rather than vague aspirations?",
+          questionMy:
+              "စစ်မှန်စွာ Feasible ဖြစ်သော Local ပတ်ဝန်းကျင် Action Plan တစ်ခုအတွက် Vague Aspiration များအစား တိကျ၊ တိုင်းတာနိုင်သော Outcome များ ဖော်ထုတ်ခြင်း အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Specific, measurable goals allow progress to be tracked and the plan's actual effectiveness to be honestly evaluated afterward",
+            "Vague goals are always more inspiring and effective than specific ones",
+            "Measurable goals are never actually possible for environmental projects",
+            "Specificity has no real benefit in policy planning of any kind",
+          ],
+          optionsMy: [
+            "တိကျ၊ တိုင်းတာနိုင်သော ပန်းတိုင်များသည် တိုးတက်မှုကို ခြေရာခံနိုင်ပြီး Plan ၏ အမှန်တကယ် ထိရောက်မှုကို နောက်ပိုင်း ရိုးသားစွာ အကဲဖြတ်နိုင်စေသည်",
+            "Vague ပန်းတိုင်များသည် တိကျသော ပန်းတိုင်များထက် အမြဲ ပို၍ Inspiring ဖြစ်ပြီး ထိရောက်ခြင်း",
+            "တိုင်းတာနိုင်သော ပန်းတိုင်များသည် ပတ်ဝန်းကျင် Project များအတွက် အမှန်တကယ် ဘယ်တော့မှ ဖြစ်နိုင်ခြင်း မရှိခြင်း",
+            "Policy Planning မည်သည့်အမျိုးအစားတွင်မဆို Specificity ၏ အမှန်တကယ် အကျိုးကျေးဇူး မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "'Reduce plastic waste at our school by 30% within one year' can be tracked; 'help the environment' cannot be evaluated with any precision at all.",
+          ],
+          hintsMy: [
+            "'ကျွန်ုပ်တို့ ကျောင်းတွင် Plastic Waste ကို တစ်နှစ်အတွင်း ၃၀% လျှော့ချရန်' ကို ခြေရာခံနိုင်သည်; 'ပတ်ဝန်းကျင်ကို ကူညီရန်' ကို တိကျမှု မည်သို့ဖြင့်မျှ အကဲဖြတ်၍ မရနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a genuinely well-designed local environmental action plan explicitly explain its local-global connection?",
+          questionMy:
+              "စစ်မှန်စွာ ကောင်းစွာ Design ပြုလုပ်ထားသော Local ပတ်ဝန်းကျင် Action Plan တစ်ခုသည် ၎င်း၏ Local-Global ချိတ်ဆက်မှုကို ရှင်းလင်းစွာ ရှင်းပြသင့်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It demonstrates genuine understanding of how a specific local action contributes to addressing a larger global issue, rather than existing in isolation",
+            "Local-global connections are never actually relevant to environmental planning",
+            "It is only a formality with no real analytical purpose",
+            "It guarantees the plan will automatically succeed regardless of execution",
+          ],
+          optionsMy: [
+            "တစ်ဦးတည်း ရပ်တည်နေမည့်အစား တိကျသော Local Action တစ်ခုသည် ကြီးမားသော Global ပြဿနာတစ်ခု ဖြေရှင်းရန် မည်သို့ ပါဝင်ကြောင်း စစ်မှန်သော နားလည်မှုကို ပြသသည်",
+            "Local-Global ချိတ်ဆက်မှုများသည် ပတ်ဝန်းကျင် Planning နှင့် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခြင်း မရှိခြင်း",
+            "အမှန်တကယ် Analytical ရည်ရွယ်ချက် မပါသော Formality တစ်ခုသက်သက်သာ ဖြစ်ခြင်း",
+            "Execution မည်သို့ပင်ရှိစေ Plan ကို အလိုအလျောက် အောင်မြင်စေခြင်း အာမခံခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects directly back to Term 1's Week 1 lesson -- a genuinely thoughtful project explains not just what it will do locally, but why that local action matters within the wider global picture.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Week 1 သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- စစ်မှန်စွာ တွေးတောသော Project တစ်ခုသည် Local Action မည်သို့ လုပ်ဆောင်မည်ကိုသာမက ကျယ်ပြန့်သော Global ပုံရိပ်အတွင်း ထို Local Action အဘယ်ကြောင့် အရေးကြီးကြောင်းကို ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In assessing the feasibility of an action plan, why is it important to consider what resources (time, budget, people) are actually available?",
+          questionMy:
+              "Action Plan တစ်ခု၏ Feasibility ကို အကဲဖြတ်ရာတွင် Resource (အချိန်, Budget, လူ) မည်သည် အမှန်တကယ် ရရှိနိုင်ကြောင်း ထည့်သွင်းစဉ်းစားရန် အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "An ambitious plan that ignores real resource constraints is unlikely to actually be implemented successfully",
+            "Resources are never actually relevant to whether a plan can succeed",
+            "The most ambitious plan is always automatically the best plan regardless of resources",
+            "Feasibility only matters for large international organisations, never small student or community projects",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော Resource ကန့်သတ်ချက်များကို လျစ်လျူရှုသော Ambitious Plan တစ်ခုသည် အောင်မြင်စွာ အမှန်တကယ် Implement ဖြစ်နိုင်ခြေ နည်းသည်",
+            "Resource များသည် Plan တစ်ခု အောင်မြင်နိုင်ခြင်း ရှိမရှိနှင့် အမှန်တကယ် ဘယ်တော့မှ သက်ဆိုင်ခြင်း မရှိခြင်း",
+            "Resource မည်သို့ပင်ရှိစေ Ambitious ဆုံး Plan သည် အကောင်းဆုံး Plan အမြဲ အလိုအလျောက် ဖြစ်ခြင်း",
+            "Feasibility သည် International Organisation ကြီးများနှင့်သာ သက်ဆိုင်ပြီး ကျောင်းသား (သို့) Community Project ငယ်များနှင့် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects to the feasibility criterion from Term 1's Week 3 lesson on formulating research questions -- action plans need the same realistic assessment.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Research Question များ ရေးဆွဲခြင်းအကြောင်း Term 1 ၏ Week 3 သင်ခန်းစာမှ Feasibility Criterion သို့ တိုက်ရိုက် ချိတ်ဆက်သည် -- Action Plan များသည် အလားတူ လက်တွေ့ကျသော Assessment လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Environment Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 4 Environment ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "igcgp-w16-dm-1",
+          termEn: "Carbon tax",
+          termMy: "Carbon Tax",
+          matchEn: "A fixed price charged per unit of greenhouse gas emissions",
+          matchMy:
+              "Greenhouse Gas ထုတ်လွှတ်မှု ယူနစ်တစ်ခုလျှင် ကောက်ခံသော Fixed ဈေးနှုန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "igcgp-w16-dm-2",
+          termEn: "Ecosystem services",
+          termMy: "Ecosystem Services",
+          matchEn:
+              "Measurable benefits an ecosystem provides, such as water filtration",
+          matchMy:
+              "Water Filtration ကဲ့သို့ Ecosystem တစ်ခုက ပေးအပ်သော တိုင်းတာနိုင်သော အကျိုးကျေးဇူးများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "igcgp-w16-dm-3",
+          termEn: "Circular economy",
+          termMy: "Circular Economy",
+          matchEn:
+              "An economic model keeping materials in use through reuse, repair, and recycling",
+          matchMy:
+              "Reuse, Repair နှင့် Recycling မှတစ်ဆင့် Material များကို အသုံးပြုနေစေသော စီးပွားရေး Model",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "igcgp-w16-dm-4",
+          termEn: "Feasibility",
+          termMy: "Feasibility",
+          matchEn:
+              "Whether a plan can realistically be implemented given available resources",
+          matchMy:
+              "ရရှိနိုင်သော Resource ပေါ်တွင် Plan တစ်ခုကို လက်တွေ့ Implement ပြုလုပ်နိုင်ခြင်း ရှိမရှိ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific/Measurable or Vague Goal?",
+      titleMy: "စီစစ်ကြမည် - Specific/Measurable (သို့) Vague ပန်းတိုင်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific and Measurable Goal", "Vague Goal"],
+        bucketsMy: ["Specific and Measurable ပန်းတိုင်", "Vague ပန်းတိုင်"],
+        items: [
+          SortingItem(
+            id: "igcgp-w16-sort-1",
+            labelEn:
+                "Reduce school cafeteria food waste by 25% within six months",
+            labelMy:
+                "ကျောင်း စားသောက်ဆိုင် အစားအစာ Waste ကို ခြောက်လအတွင်း ၂၅% လျှော့ချရန်",
+            correctBucketEn: "Specific and Measurable Goal",
+            correctBucketMy: "Specific and Measurable ပန်းတိုင်",
+          ),
+          SortingItem(
+            id: "igcgp-w16-sort-2",
+            labelEn: "Help the environment somehow",
+            labelMy: "တစ်နည်းနည်းဖြင့် ပတ်ဝန်းကျင်ကို ကူညီရန်",
+            correctBucketEn: "Vague Goal",
+            correctBucketMy: "Vague ပန်းတိုင်",
+          ),
+          SortingItem(
+            id: "igcgp-w16-sort-3",
+            labelEn:
+                "Install recycling bins in every classroom by the end of the term",
+            labelMy:
+                "Term အဆုံးတွင် Classroom တိုင်းတွင် Recycling Bin များ တပ်ဆင်ရန်",
+            correctBucketEn: "Specific and Measurable Goal",
+            correctBucketMy: "Specific and Measurable ပန်းတိုင်",
+          ),
+          SortingItem(
+            id: "igcgp-w16-sort-4",
+            labelEn: "Make things generally more sustainable eventually",
+            labelMy:
+                "နောက်ဆုံးတွင် အရာများကို ယေဘုယျအားဖြင့် ပို၍ ရေရှည်တည်တံ့စေရန်",
+            correctBucketEn: "Vague Goal",
+            correctBucketMy: "Vague ပန်းတိုင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's School Waste Plan",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ ကျောင်း Waste Plan",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's School Waste Plan",
+        titleMy: "Su Myat Noe ၏ ကျောင်း Waste Plan",
+        passageEn:
+            "For the Term 4 capstone, Ko Zin Ko Ko asked every student to design a specific, feasible local environmental action plan combining everything from the term, and to present it defending both its feasibility and its local-global connection. Su Myat Noe chose her own school's cafeteria, where she had observed significant food waste being thrown away daily without any tracking or intervention.\n\nRather than proposing a vague goal like 'reduce waste,' she set a specific, measurable target drawn from Week 16's own lesson: cut measured food waste by 25% within one school term, tracked through simple daily weighing at the bins before and after implementing changes. Her plan combined ideas from across the whole term: a circular-economy-inspired composting system turning food scraps into fertiliser for the school garden rather than sending them to landfill, and a simple awareness campaign explaining to students the carbon footprint connection between food waste and the same climate policy concepts studied in Week 13.\n\nWhen Ko Zin Ko Ko pressed her on feasibility, Su Myat Noe had already prepared a realistic resource assessment: composting bins could be built cheaply from materials the school already had, the daily weighing required only ten minutes of a rotating student volunteer's time, and she had already spoken informally with the cafeteria manager, who was supportive of the idea. She explicitly connected her local project to the global picture, exactly as the week's lesson required: food waste globally is a significant contributor to greenhouse gas emissions when it decomposes in landfills, so her school-level composting project connected directly, if modestly, to the same climate issue explored at a global scale earlier in the term. Ko Zin Ko Ko praised the proposal specifically for combining a genuinely feasible, resourced plan with an explicitly stated local-global connection -- exactly the synthesis the capstone was designed to test.",
+        passageMy:
+            "Term 4 Capstone အတွက် Term တစ်ခုလုံးမှ အရာအားလုံးကို ပေါင်းစပ်ထားသော Feasible, Local ပတ်ဝန်းကျင် Action Plan တိကျတစ်ခု Design ပြုလုပ်ပြီး ၎င်း၏ Feasibility နှင့် Local-Global ချိတ်ဆက်မှု နှစ်ခုစလုံးကို ခုခံကာကွယ်ကာ တင်ပြရန် ကျောင်းသားတိုင်းကို ကိုဇင်ကိုကို တောင်းဆိုခဲ့သည်။ Tracking (သို့) Intervention မည်သည်မှ မပါဘဲ နေ့စဉ် သိသာသော Food Waste စွန့်ပစ်နေသည်ကို သတိထားမိခဲ့သော ၎င်းကိုယ်ပိုင် ကျောင်း၏ စားသောက်ဆိုင်ကို Su Myat Noe ရွေးချယ်ခဲ့သည်။\n\n'Waste လျှော့ချရန်' ကဲ့သို့ Vague ပန်းတိုင်တစ်ခု အဆိုပြုမည့်အစား Week 16 ကိုယ်ပိုင် သင်ခန်းစာမှ ဆွဲထုတ်ထားသော Specific, Measurable Target တစ်ခု သတ်မှတ်ခဲ့သည် - ကျောင်း Term တစ်ခုအတွင်း တိုင်းတာထားသော Food Waste ကို ၂၅% လျှော့ချရန်၊ ပြောင်းလဲမှုများ Implement မလုပ်မီနှင့်ပြီးနောက် Bin များတွင် ရိုးရှင်းသော နေ့စဉ် အလေးချိန်ချခြင်းမှတစ်ဆင့် ခြေရာခံခြင်း။ ၎င်း၏ Plan သည် Term တစ်ခုလုံးမှ Idea များကို ပေါင်းစပ်ခဲ့သည် - Landfill သို့ ပို့မည့်အစား Food Scraps များကို ကျောင်း Garden အတွက် ရေဆေးအဖြစ် ပြောင်းလဲပေးသော Circular-Economy-Inspired Composting System နှင့် Food Waste နှင့် Week 13 တွင် လေ့လာခဲ့သော Climate Policy Concept တူညီကြား Carbon Footprint ချိတ်ဆက်မှုကို ကျောင်းသားများသို့ ရှင်းပြသော ရိုးရှင်းသော Awareness Campaign။\n\nFeasibility ကို ကိုဇင်ကိုကို ဆက်လက် တွန်းအားပေးချိန် Su Myat Noe သည် လက်တွေ့ကျသော Resource Assessment တစ်ခု ကြိုတင် ပြင်ဆင်ထားပြီးသား ဖြစ်ခဲ့သည် - Composting Bin များကို ကျောင်းရှိပြီးသား Material များမှ ဈေးသက်သာစွာ တည်ဆောက်နိုင်ပြီး နေ့စဉ် အလေးချိန်ချခြင်းသည် Rotating Student Volunteer တစ်ဦး၏ မိနစ် ဆယ်မိနစ်သာ လိုအပ်ကာ Cafeteria Manager နှင့် Informal အားဖြင့် ဆက်သွယ်ပြီးသား ဖြစ်ပြီး ၎င်းသည် Idea ကို ထောက်ခံခဲ့သည်။ အပတ်စဉ် သင်ခန်းစာ တောင်းဆိုသည့်အတိုင်း ၎င်း၏ Local Project ကို Global ပုံရိပ်နှင့် ရှင်းလင်းစွာ ချိတ်ဆက်ခဲ့သည် - Food Waste သည် Landfill များတွင် Decompose ဖြစ်ချိန် Greenhouse Gas Emission များ၏ သိသာသော Contributor တစ်ခု ဖြစ်ကြောင်း Globally ဖြစ်သောကြောင့် ၎င်း၏ ကျောင်း-Level Composting Project သည် Term ရှေ့ပိုင်းတွင် Global Scale တွင် စူးစမ်းခဲ့သော Climate ပြဿနာတူတူနှင့် အနည်းငယ် ဖြစ်စေကာမူ တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည်။ Explicitly ဖော်ပြထားသော Local-Global ချိတ်ဆက်မှုနှင့် စစ်မှန်စွာ Feasible၊ Resourced Plan တစ်ခုကို ပေါင်းစပ်ထားခြင်းအတွက် Proposal ကို ကိုဇင်ကိုကို အထူးသဖြင့် ချီးမွမ်းခဲ့သည် -- Capstone Test ပြုလုပ်ရန် Design ပြုလုပ်ထားသော Synthesis အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific, measurable target did Su Myat Noe set?",
+            questionMy:
+                "Su Myat Noe သတ်မှတ်ခဲ့သော Specific, Measurable Target ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cut measured food waste by 25% within one school term",
+              "Eliminate all food waste completely within one week",
+              "Double the size of the cafeteria",
+              "Increase food prices by 50%",
+            ],
+            optionsMy: [
+              "ကျောင်း Term တစ်ခုအတွင်း တိုင်းတာထားသော Food Waste ကို ၂၅% လျှော့ချရန်",
+              "တစ်ပတ်အတွင်း Food Waste အားလုံးကို ပြီးပြည့်စုံစွာ ဖယ်ရှားရန်",
+              "စားသောက်ဆိုင်၏ အရွယ်အစားကို နှစ်ဆ တိုးမြှင့်ရန်",
+              "အစားအစာ ဈေးနှုန်းများကို ၅၀% တိုးမြှင့်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence stating the specific target."],
+            hintsMy: [
+              "တိကျသော Target ကို ဖော်ပြထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what evidence did Su Myat Noe provide for feasibility?",
+            questionMy:
+                "Feasibility အတွက် Su Myat Noe ပေးအပ်ခဲ့သော Evidence ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cheap materials for bins, minimal volunteer time, and cafeteria manager support",
+              "A guarantee that nothing could ever go wrong",
+              "No evidence was provided at all",
+              "A promise that the plan would cost nothing whatsoever",
+            ],
+            optionsMy: [
+              "Bin များအတွက် ဈေးသက်သာသော Material များ၊ Minimal Volunteer အချိန်နှင့် Cafeteria Manager ၏ ထောက်ခံမှု",
+              "မည်သည့်အရာမျှ ဘယ်တော့မှ မှားယွင်းမည် မဟုတ်ကြောင်း အာမခံချက်",
+              "Evidence မည်သည်မှ ပေးအပ်ခဲ့ခြင်း မရှိခြင်း",
+              "Plan သည် လုံးဝ ကုန်ကျစရိတ် ရှိမည် မဟုတ်ကြောင်း ကတိ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence listing her resource assessment."],
+            hintsMy: [
+              "Resource Assessment ကို စာရင်းပြုထားသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why did Ko Zin Ko Ko praise the proposal?",
+            questionMy:
+                "Proposal ကို ကိုဇင်ကိုကို ချီးမွမ်းခဲ့ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It combined a genuinely feasible plan with an explicitly stated local-global connection",
+              "It was the shortest proposal submitted",
+              "It ignored feasibility entirely",
+              "It made no connection to any global issue at all",
+            ],
+            optionsMy: [
+              "Explicitly ဖော်ပြထားသော Local-Global ချိတ်ဆက်မှုနှင့် စစ်မှန်စွာ Feasible Plan တစ်ခုကို ပေါင်းစပ်ထားခြင်း",
+              "တင်သွင်းထားသော Proposal များအနက် အတိုဆုံး ဖြစ်ခြင်း",
+              "Feasibility ကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "Global ပြဿနာ မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-igcgp-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: Environment and Sustainability Exam",
+      titleMy: "Term 4 Capstone - Environment and Sustainability စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A well-designed action plan should include...",
+          questionMy:
+              "ကောင်းစွာ Design ပြုလုပ်ထားသော Action Plan တစ်ခုတွင် ...ပါဝင်သင့်သည်",
+          optionsEn: [
+            "Specific, measurable goals and a clear local-global connection",
+            "Only vague aspirations with no way to measure progress",
+            "No consideration of available resources at all",
+            "A conclusion decided before any planning began",
+          ],
+          optionsMy: [
+            "Specific, Measurable ပန်းတိုင်များနှင့် ရှင်းလင်းသော Local-Global ချိတ်ဆက်မှု",
+            "တိုးတက်မှု တိုင်းတာနည်း မပါသော Vague Aspiration များသာ",
+            "ရရှိနိုင်သော Resource များကို ထည့်သွင်းစဉ်းစားခြင်း လုံးဝ မရှိခြင်း",
+            "Planning မစတင်မီ ဆုံးဖြတ်ထားသော ကောက်ချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Carbon tax and cap-and-trade differ mainly in that...",
+          questionMy: "Carbon Tax နှင့် Cap-and-Trade ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "One fixes price while the other fixes total emissions",
+            "They are exactly identical policies",
+            "Neither has ever been used by any government",
+            "Only one of them involves any cost to businesses",
+          ],
+          optionsMy: [
+            "တစ်ခုက ဈေးနှုန်းကို Fixed သတ်မှတ်ပြီး အခြားတစ်ခုက Total ထုတ်လွှတ်မှုကို Fixed သတ်မှတ်ခြင်း",
+            "Policy အတိအကျ တူညီခြင်း",
+            "အစိုးရ မည်သည်ကမျှ ဘယ်တော့မှ အသုံးပြုခဲ့ခြင်း မရှိခြင်း",
+            "တစ်ခုတည်းသာ လုပ်ငန်းများအတွက် ကုန်ကျစရိတ် ပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ecosystem services demonstrate that a forest has value beyond...",
+          questionMy:
+              "Ecosystem Services က သစ်တောတွင် ...ထက် ကျော်လွန်သော တန်ဖိုး ရှိကြောင်း ပြသသည်",
+          optionsEn: [
+            "Its timber value alone",
+            "Any value whatsoever",
+            "Its size in hectares",
+            "Its geographic location",
+          ],
+          optionsMy: [
+            "Timber တန်ဖိုးတစ်ခုတည်း",
+            "တန်ဖိုး မည်သည်မဆို",
+            "Hectare ဖြင့် ၎င်း၏ အရွယ်အစား",
+            "၎င်း၏ ပထဝီဆိုင်ရာ တည်နေရာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// IGCSE Global Perspectives -- Term 4: "Environment, Climate and
+// Sustainability" (Weeks 13-16)
+// =====================================================================
+
+const CourseTermDef _igcseGpTerm4 = CourseTermDef(
+  id: "course-igcse-gp-t4",
+  termNumber: 4,
+  titleEn: "Environment, Climate and Sustainability",
+  titleMy: "ပတ်ဝန်းကျင်၊ ရာသီဥတုနှင့် ရေရှည်တည်တံ့မှု",
+  certificateTitleEn: "Environment, Climate and Sustainability",
+  certificateTitleMy: "ပတ်ဝန်းကျင်၊ ရာသီဥတုနှင့် ရေရှည်တည်တံ့မှု",
+  weeks: [_igcseGpWeek13, _igcseGpWeek14, _igcseGpWeek15, _igcseGpWeek16],
 );
 // __IGCSE_GP_MARKER__
