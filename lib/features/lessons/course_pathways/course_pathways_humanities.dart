@@ -103490,11 +103490,11 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec1HumTerm1, _sec1HumTerm2, _sec1HumTerm3],
+  terms: [_sec1HumTerm1, _sec1HumTerm2, _sec1HumTerm3, _sec1HumTerm4],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 2, Week 5: "Mesopotamia and the
@@ -106361,5 +106361,1431 @@ const CourseTermDef _sec1HumTerm3 = CourseTermDef(
   certificateTitleEn: "Ancient Greece and Rome",
   certificateTitleMy: "ရှေးဟောင်း ဂရိနှင့် ရောမ",
   weeks: [_sec1HumWeek9, _sec1HumWeek10, _sec1HumWeek11, _sec1HumWeek12],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 4: "Physical Geography Foundations"
+// (Weeks 13-16). A deliberate breadth strand switching from history to
+// physical geography, breaking up the history-heavy arc of Terms 1-3.
+// Term 4, Week 13: "Landforms and Rivers"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek13 = CourseWeekDef(
+  id: "course-sec1-hum-w13",
+  weekNumber: 13,
+  titleEn: "Landforms and Rivers",
+  titleMy: "Landform များနှင့် မြစ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w13-d1",
+      dayNumber: 1,
+      titleEn: "How Rivers Shape the Land",
+      titleMy: "မြစ်များသည် မြေကို မည်သို့ ပုံဖော်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do rivers typically look very different near their source (upper course) compared to near where they meet the sea (lower course)?",
+          questionMy:
+              "မြစ်များသည် ၎င်းတို့ ပင်လယ်နှင့် တွေ့ဆုံရာအနီး (Lower Course) နှင့် နှိုင်းယှဉ်ပါက ၎င်းတို့၏ Source (Upper Course) အနီးတွင် ယေဘုယျအားဖြင့် အလွန် ကွဲပြားစွာ မြင်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The river's speed, steepness, and the balance of erosion and deposition change along its course, producing different landforms at each stage",
+            "Rivers look exactly the same along their entire course with no variation at all",
+            "A river's appearance has no actual connection to erosion or deposition processes",
+            "Only the lower course of a river is shaped by any physical process whatsoever",
+          ],
+          optionsMy: [
+            "မြစ်၏ မြန်နှုန်း၊ Steepness နှင့် Erosion နှင့် Deposition ၏ Balance သည် ၎င်း၏ Course တစ်လျှောက် ပြောင်းလဲသွားကာ အဆင့်တစ်ခုစီတွင် ကွဲပြားသော Landform များ ဖြစ်ပေါ်စေသည်",
+            "မြစ်များသည် ၎င်းတို့၏ Course တစ်ခုလုံးတစ်လျှောက် ကွဲပြားမှု လုံးဝ မရှိဘဲ အတိအကျ တူညီစွာ မြင်ရခြင်း",
+            "မြစ်တစ်ခု၏ Appearance သည် Erosion (သို့) Deposition Process များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "မြစ်တစ်ခု၏ Lower Course တစ်ခုတည်းသာ Physical Process မည်သည်ဖြင့်မဆို ပုံဖော်ခံရခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a new kind of physical-factor reasoning -- similar to Term 2's rivers-enable-civilization lesson, but now examining the river itself as the subject of geographical study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Physical-Factor Reasoning အမျိုးအစား အသစ်တစ်ခု ဖြစ်သည် -- Term 2 ၏ Rivers-Enable-Civilization သင်ခန်းစာနှင့် ဆင်တူသော်လည်း ယခု မြစ်ကိုယ်တိုင်ကို Geographical Study ၏ Subject အဖြစ် စစ်ဆေးနေခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do geographers distinguish 'erosion' (wearing away land) from 'deposition' (dropping carried material) as two separate processes, rather than treating river shaping as one single unlabeled process?",
+          questionMy:
+              "Geographer များသည် မြစ် ပုံဖော်ခြင်းကို Label မတင်ထားသော Process တစ်ခုတည်းအဖြစ် သဘောထားမည့်အစား 'Erosion' (မြေကို ဖျက်ဆီးခြင်း) ကို 'Deposition' (သယ်ဆောင်လာသော ပစ္စည်းချထားခြင်း) မှ သီးခြား Process နှစ်ခုအဖြစ် အဘယ်ကြောင့် ခွဲခြားကြသနည်း။",
+          optionsEn: [
+            "Naming the two processes separately lets geographers explain precisely why a landform (like a valley or a delta) formed, rather than offering only a vague, unexplained description",
+            "Erosion and deposition are actually the exact same process with no meaningful difference",
+            "Naming these processes has no actual usefulness in explaining any landform",
+            "Only erosion actually occurs in real rivers, with no deposition ever happening",
+          ],
+          optionsMy: [
+            "Process နှစ်ခုကို သီးခြားစီ အမည်ပေးခြင်းသည် Vague, ရှင်းပြချက် မပါသော Description တစ်ခုသာ ပေးအပ်မည့်အစား Landform တစ်ခု (Valley (သို့) Delta ကဲ့သို့) အဘယ်ကြောင့် ဖွဲ့စည်းခဲ့သည်ကို Geographer များ တိကျစွာ ရှင်းပြနိုင်စေသည်",
+            "Erosion နှင့် Deposition သည် အနက်ကျယ် ကွာခြားချက် မရှိဘဲ အနှစ်သာရအရ Process တူတူ ဖြစ်ခြင်း",
+            "ဤ Process များ အမည်ပေးခြင်းသည် Landform မည်သည်ကိုမျှ ရှင်းပြရာတွင် အမှန်တကယ် အသုံးဝင်မှု မရှိခြင်း",
+            "Erosion တစ်ခုတည်းသာ Real မြစ်များတွင် ဖြစ်ပျက်ပြီး Deposition ဘယ်တော့မှ မဖြစ်ပျက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same precise-vocabulary habit as Week 5's cuneiform/law-code lessons -- naming distinct processes separately allows more precise, checkable explanations.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ Cuneiform/Law-Code သင်ခန်းစာများ၏ Precise-Vocabulary Habit တူတူ ဖြစ်သည် -- ကွဲပြားသော Process များကို သီးခြားစီ အမည်ပေးခြင်းသည် ပို၍ တိကျ၊ စစ်ဆေးနိုင်သော ရှင်းပြချက်များကို ခွင့်ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a geography report explaining a specific delta's formation cite the specific river's characteristics (such as its sediment load and flow speed), rather than giving a generic description that could apply to any river?",
+          questionMy:
+              "Delta တိကျတစ်ခု၏ ဖွဲ့စည်းမှုကို ရှင်းပြသော Geography Report တစ်ခုသည် မြစ်မည်သည်တွင်မဆို အသုံးချနိုင်သော Generic Description တစ်ခု ပေးအပ်မည့်အစား မြစ်တိကျ၏ Characteristic များ (၎င်း၏ Sediment Load နှင့် Flow Speed ကဲ့သို့) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, evidenced explanation grounded in that river's actual characteristics is more accurate and more useful than a generic description that ignores what makes each river's situation unique",
+            "Generic descriptions are always more useful than specific, cited characteristics",
+            "A delta's formation has no actual connection to a river's sediment load or flow speed",
+            "Every river forms deltas in an identical way with no meaningful variation",
+          ],
+          optionsMy: [
+            "ထို မြစ်၏ Actual Characteristic များတွင် အခြေခံသော တိကျ၊ Evidenced ရှင်းပြချက်တစ်ခုသည် မြစ်တစ်ခုစီ၏ အခြေအနေကို ထူးခြားစေသည့်အရာကို လျစ်လျူရှုသော Generic Description တစ်ခုထက် ပို၍ တိကျပြီး ပို၍ အသုံးဝင်သည်",
+            "Generic Description များသည် တိကျ၊ ကိုးကားထားသော Characteristic များထက် အမြဲ ပို၍ အသုံးဝင်ခြင်း",
+            "Delta တစ်ခု၏ ဖွဲ့စည်းမှုသည် မြစ်တစ်ခု၏ Sediment Load (သို့) Flow Speed နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "မြစ်တိုင်းသည် အနက်ကျယ် ကွဲပြားမှု မရှိဘဲ Delta များကို တူညီသော နည်းလမ်းဖြင့် ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same evidence-specificity habit from Term 1's map-reading and Term 2's case-study lessons, applied now to physical geography.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Physical Geography ပေါ်တွင် ယခု အသုံးချထားသော Term 1 ၏ Map-Reading နှင့် Term 2 ၏ Case-Study သင်ခန်းစာများမှ Evidence-Specificity Habit တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: River and Landform Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - River and Landform Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w13-dm-1",
+          termEn: "Erosion",
+          termMy: "Erosion",
+          matchEn:
+              "The wearing away and removal of land by moving water, wind, or ice",
+          matchMy:
+              "ရွေ့လျားနေသော ရေ၊ လေ၊ (သို့) ရေခဲမှ မြေကို ဖျက်ဆီး ဖယ်ရှားခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w13-dm-2",
+          termEn: "Deposition",
+          termMy: "Deposition",
+          matchEn:
+              "The dropping of material a river has carried, often when the river slows down",
+          matchMy:
+              "မြစ်သယ်ဆောင်လာသော ပစ္စည်းများ ချထားခြင်း၊ မြစ်နှေးလာသောအခါ မကြာခဏ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w13-dm-3",
+          termEn: "Delta",
+          termMy: "Delta",
+          matchEn:
+              "A landform where a river deposits sediment as it meets a larger body of water",
+          matchMy:
+              "ရေအစုအဝေးကြီးတစ်ခုနှင့် တွေ့ဆုံသောအခါ မြစ်တစ်ခု Sediment ချထားသော Landform",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w13-dm-4",
+          termEn: "River source",
+          termMy: "River Source",
+          matchEn:
+              "The starting point of a river, often high in hills or mountains",
+          matchMy:
+              "တောင်ကုန်းများ (သို့) တောင်များတွင် မကြာခဏ မြင့်မားသော မြစ်တစ်ခု၏ အစပြု နေရာ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Erosion Process or Deposition Process?",
+      titleMy: "စီစစ်ကြမည် - Erosion Process (သို့) Deposition Process",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Erosion Process", "Deposition Process"],
+        bucketsMy: ["Erosion Process", "Deposition Process"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w13-sort-1",
+            labelEn:
+                "Fast-moving water near a river's source wearing away rock",
+            labelMy:
+                "မြစ်၏ Source အနီးရှိ လျင်မြန်စွာ ရွေ့လျားနေသော ရေက ကျောက်ကို ဖျက်ဆီးခြင်း",
+            correctBucketEn: "Erosion Process",
+            correctBucketMy: "Erosion Process",
+          ),
+          SortingItem(
+            id: "sec1hum-w13-sort-2",
+            labelEn:
+                "A slowing river near the sea dropping sediment to form a delta",
+            labelMy:
+                "ပင်လယ်အနီး နှေးကွေးလာသော မြစ်တစ်ခုက Delta ဖွဲ့စည်းရန် Sediment ချထားခြင်း",
+            correctBucketEn: "Deposition Process",
+            correctBucketMy: "Deposition Process",
+          ),
+          SortingItem(
+            id: "sec1hum-w13-sort-3",
+            labelEn:
+                "A river cutting a deep valley into hillside rock over time",
+            labelMy:
+                "အချိန်ကြာမြင့်စွာ တောင်ကုန်း ကျောက်ထဲသို့ မြစ်တစ်ခု Valley နက်နက်ရှိုင်းရှိုင်း ဖြတ်တောက်ခြင်း",
+            correctBucketEn: "Erosion Process",
+            correctBucketMy: "Erosion Process",
+          ),
+          SortingItem(
+            id: "sec1hum-w13-sort-4",
+            labelEn:
+                "Fertile silt being left behind on a floodplain after a flood recedes",
+            labelMy:
+                "ရေကြီးမှု ဆုတ်ခွာပြီးနောက် Floodplain ပေါ်တွင် ကျန်ရစ်သော မြေဩဇာကောင်းသော ရွှံ့",
+            correctBucketEn: "Deposition Process",
+            correctBucketMy: "Deposition Process",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Sett's River Field Notes",
+      titleMy: "စာဖတ်ခြင်း - Kaung Sett ၏ မြစ် Field Notes",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Sett's River Field Notes",
+        titleMy: "Kaung Sett ၏ မြစ် Field Notes",
+        passageEn:
+            "For Week 13's project, Kaung Sett researched a river near his hometown and compared its upper, middle, and lower course, applying the erosion-and-deposition vocabulary from Monday's lesson to explain what he found.\n\nNear the river's source in the hills, he found a narrow, steep-sided valley with fast-moving water and visible rocky banks -- clear evidence of erosion dominating that stage, as the fast current wore away rock and carried the loosened material downstream. In the middle course, the valley widened and the river began to curve more, still eroding its outer banks while beginning to deposit some material on its inner, slower-moving bends.\n\nNear the river's mouth where it met the sea, Kaung Sett found the opposite pattern: the river moved much more slowly, spreading out and depositing large amounts of fertile silt, building up a small delta over time. He noted this matched exactly what Monday's lesson predicted -- speed and steepness change along a river's course, and erosion or deposition dominates depending on those conditions.\n\nHis first draft had described the delta simply as 'mud building up at the end of the river,' but his teacher asked him to be more specific, citing this particular river's slow flow speed and heavy sediment load as the actual cause -- not just a vague description of the result. Kaung Sett revised his report to explain the delta's formation with those specific, cited characteristics, exactly the specificity habit the course had built since Term 1.",
+        passageMy:
+            "Week 13 ၏ Project အတွက် ၎င်း၏ ဇာတိမြို့အနီးရှိ မြစ်တစ်ခုကို Kaung Sett Research ပြုလုပ်ကာ ၎င်း၏ Upper, Middle နှင့် Lower Course ကို နှိုင်းယှဉ်ခဲ့ပြီး ၎င် ရှာဖွေတွေ့ရှိသည်ကို ရှင်းပြရန် တနင်္လာနေ့သင်ခန်းစာမှ Erosion-and-Deposition Vocabulary ကို အသုံးချခဲ့သည်။\n\nတောင်ကုန်းများရှိ မြစ်၏ Source အနီးတွင် လျင်မြန်စွာ ရွေ့လျားနေသော ရေနှင့် မြင်နိုင်သော ကျောက်ကမ်းများရှိသော ကျဉ်းမြောင်း၊ Steep-Sided Valley တစ်ခုကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် -- လျင်မြန်သော Current သည် ကျောက်ကို ဖျက်ဆီးကာ လွတ်ကျန်သော ပစ္စည်းကို Downstream သို့ သယ်ဆောင်ခဲ့ကြောင်း ထို Stage တွင် Erosion လွှမ်းမိုးနေကြောင်း ရှင်းလင်းသော Evidence ဖြစ်သည်။ Middle Course တွင် Valley ကျယ်ဝန်းလာပြီး မြစ်သည် ပို၍ ကွေ့ဝိုက်စတင်လာသည်၊ ၎င်း၏ ပို၍ နှေးကွေးသော Bend အတွင်းပိုင်းတွင် Material အချို့ ချထားစတင်စဉ် ၎င်း၏ ပြင်ပ ကမ်းများကို ဆက်လက် Erode ပြုလုပ်နေဆဲ ဖြစ်သည်။\n\nပင်လယ်နှင့် တွေ့ဆုံရာ မြစ်၏ Mouth အနီးတွင် ဆန့်ကျင်ဘက် Pattern ကို Kaung Sett ရှာဖွေတွေ့ရှိခဲ့သည် - မြစ်သည် များစွာ ပို၍ နှေးကွေးစွာ ရွေ့လျားခဲ့ပြီး ပျံ့နှံ့သွားကာ ကြွယ်ဝသော မြေဩဇာကောင်းသော ရွှံ့ အမြောက်အမြား ချထားကာ အချိန်ကြာလာသည်နှင့်အမျှ Delta ငယ်တစ်ခု တည်ဆောက်ခဲ့သည်။ တနင်္လာနေ့ သင်ခန်းစာ ခန့်မှန်းခဲ့သည့်အတိုင်း ဤသည် အတိအကျ ကိုက်ညီကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည် - မြန်နှုန်းနှင့် Steepness သည် မြစ်၏ Course တစ်လျှောက် ပြောင်းလဲသွားပြီး Erosion (သို့) Deposition သည် ထို Condition များပေါ် မူတည်၍ လွှမ်းမိုးသည်။\n\n၎င်း၏ ပထမ Draft တွင် Delta ကို 'မြစ်အဆုံးတွင် တည်ဆောက်နေသော ရွှံ့' ဟု ရိုးရိုးသာ ဖော်ပြခဲ့သော်လည်း Result ၏ Vague ဖော်ပြချက်တစ်ခုသက်သက် မဟုတ်ဘဲ Actual Cause အဖြစ် ဤ မြစ်တိကျ၏ နှေးကွေးသော Flow Speed နှင့် လေးလံသော Sediment Load ကို ကိုးကားကာ ပို၍ တိကျရန် ၎င်း၏ ဆရာမ ၎င်းအား တောင်းဆိုခဲ့သည်။ Term 1 မှစ၍ Course က တည်ဆောက်ခဲ့သော Specificity Habit အတိအကျဖြင့် ဤ တိကျ၊ ကိုးကားထားသော Characteristic များဖြင့် Delta ၏ ဖွဲ့စည်းမှုကို ရှင်းပြရန် Kaung Sett ၎င်း၏ Report ကို ပြင်ဆင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Kaung Sett find near the river's source in the hills?",
+            questionMy:
+                "တောင်ကုန်းများရှိ မြစ်၏ Source အနီးတွင် Kaung Sett ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A narrow, steep-sided valley with fast-moving water and clear evidence of erosion",
+              "A wide, flat delta with slow-moving water and heavy sediment deposits",
+              "No evidence of any physical process whatsoever",
+              "A completely dry riverbed with no water present at all",
+            ],
+            optionsMy: [
+              "လျင်မြန်စွာ ရွေ့လျားနေသော ရေနှင့် Erosion ၏ ရှင်းလင်းသော Evidence ပါရှိသော ကျဉ်းမြောင်း၊ Steep-Sided Valley တစ်ခု",
+              "နှေးကွေးစွာ ရွေ့လျားနေသော ရေနှင့် လေးလံသော Sediment Deposit များပါရှိသော ကျယ်ဝန်း၊ ညီညာသော Delta တစ်ခု",
+              "Physical Process မည်သည်၏ Evidence မှ လုံးဝ",
+              "ရေ လုံးဝ မရှိသော လုံးလုံး ခြောက်သွေ့သော မြစ်ကမ်းခြေ တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described findings."],
+            hintsMy: [
+              "ဖော်ပြထားသော Findings ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what pattern did Kaung Sett find near the river's mouth?",
+            questionMy:
+                "မြစ်၏ Mouth အနီးတွင် Kaung Sett ရှာဖွေတွေ့ရှိခဲ့သော Pattern ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Slower water spreading out and depositing large amounts of fertile silt to build a delta",
+              "Faster water eroding a deep, narrow valley with no deposition at all",
+              "No water movement of any kind at the river's mouth",
+              "A pattern completely unrelated to the river's speed or sediment",
+            ],
+            optionsMy: [
+              "ကြွယ်ဝသော မြေဩဇာကောင်းသော ရွှံ့ အမြောက်အမြားကို Delta တစ်ခု တည်ဆောက်ရန် ပျံ့နှံ့ကာ ချထားသော ပို၍ နှေးကွေးသော ရေ",
+              "Deposition လုံးဝ မပါဘဲ နက်ရှိုင်း၊ ကျဉ်းမြောင်းသော Valley ကို Erode ပြုလုပ်နေသော ပို၍ မြန်ဆန်သော ရေ",
+              "မြစ်၏ Mouth တွင် ရေရွေ့လျားမှု မည်သည်မှ မရှိခြင်း",
+              "မြစ်၏ Speed (သို့) Sediment နှင့် လုံးဝ မသက်ဆိုင်သော Pattern တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described pattern."],
+            hintsMy: [
+              "ဖော်ပြထားသော Pattern ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the teacher ask Kaung Sett to revise his delta description?",
+            questionMy:
+                "Delta ဖော်ပြချက်ကို ပြင်ဆင်ရန် Kaung Sett အား ဆရာမ တောင်းဆိုခဲ့သည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The first draft was a vague description of the result, not a specific, cited explanation of the cause",
+              "The first draft contained no actual description of the delta at all",
+              "The first draft was already perfectly specific with no revision needed",
+              "The teacher wanted the description removed entirely from the report",
+            ],
+            optionsMy: [
+              "ပထမ Draft သည် Actual Cause ၏ တိကျ၊ ကိုးကားထားသော ရှင်းပြချက် မဟုတ်ဘဲ Result ၏ Vague ဖော်ပြချက်တစ်ခု ဖြစ်ခဲ့ခြင်း",
+              "ပထမ Draft တွင် Delta ၏ ဖော်ပြချက် မည်သည်မှ လုံးဝ မပါခြင်း",
+              "ပြင်ဆင်ရန် မလိုအပ်ဘဲ ပထမ Draft သည် အတိအကျ ကိုးကားထားပြီးသား ဖြစ်ခြင်း",
+              "Description ကို Report မှ လုံးလုံး ဖယ်ရှားစေလိုကြောင်း ဆရာမ ဆန္ဒရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's stated reason for revision.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w13-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Rivers and Landforms Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Rivers and Landforms မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A river's appearance changes along its course mainly because...",
+          questionMy:
+              "မြစ်တစ်ခု၏ Appearance သည် အနှစ်သာရအားဖြင့် ...ကြောင့် ၎င်း၏ Course တစ်လျှောက် ပြောင်းလဲသွားသည်",
+          optionsEn: [
+            "Speed, steepness, and erosion/deposition balance change along its course",
+            "Rivers never actually change in appearance at any point",
+            "Only the source of a river has any physical characteristics",
+            "The river's course has no connection to its appearance",
+          ],
+          optionsMy: [
+            "Speed, Steepness နှင့် Erosion/Deposition Balance သည် ၎င်း၏ Course တစ်လျှောက် ပြောင်းလဲသွားခြင်း",
+            "မြစ်များသည် အချက်အလက် မည်သည်တွင်မျှ Appearance အမှန်တကယ် ပြောင်းလဲခြင်း မရှိခြင်း",
+            "မြစ်တစ်ခု၏ Source တွင်သာ Physical Characteristic ရှိခြင်း",
+            "မြစ်၏ Course သည် ၎င်း၏ Appearance နှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Deposition typically dominates where...",
+          questionMy:
+              "Deposition သည် ယေဘုယျအားဖြင့် ...နေရာတွင် လွှမ်းမိုးလေ့ရှိသည်",
+          optionsEn: [
+            "A river slows down, such as near its mouth",
+            "A river moves fastest, such as near its source",
+            "No water is present at all",
+            "Erosion and deposition never actually differ by location",
+          ],
+          optionsMy: [
+            "မြစ်တစ်ခု နှေးကွေးလာသောနေရာ၊ ၎င်း၏ Mouth အနီးကဲ့သို့",
+            "မြစ်တစ်ခု အမြန်ဆုံး ရွေ့လျားသောနေရာ၊ ၎င်း၏ Source အနီးကဲ့သို့",
+            "ရေ လုံးဝ မရှိသောနေရာ",
+            "Erosion နှင့် Deposition သည် တည်နေရာအလိုက် အမှန်တကယ် ဘယ်တော့မှ မကွဲပြားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A geography report explaining a landform's formation should cite...",
+          questionMy:
+              "Landform တစ်ခု၏ ဖွဲ့စည်းမှုကို ရှင်းပြသော Geography Report တစ်ခုသည် ...ကို ကိုးကားသင့်သည်",
+          optionsEn: [
+            "That specific river's characteristics, such as flow speed and sediment load",
+            "A generic description that could apply to any river",
+            "No specific evidence of any kind whatsoever",
+            "Only the river's name with no other detail",
+          ],
+          optionsMy: [
+            "Flow Speed နှင့် Sediment Load ကဲ့သို့ မြစ်တိကျ၏ Characteristic များ",
+            "မြစ်မည်သည်တွင်မဆို အသုံးချနိုင်သော Generic Description",
+            "တိကျသော Evidence မည်သည်မှ လုံးဝ",
+            "အခြား Detail မပါဘဲ မြစ်၏ အမည်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 4, Week 14: "Weather vs. Climate"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek14 = CourseWeekDef(
+  id: "course-sec1-hum-w14",
+  weekNumber: 14,
+  titleEn: "Weather vs. Climate",
+  titleMy: "Weather Vs. Climate",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w14-d1",
+      dayNumber: 1,
+      titleEn: "A Precise Distinction: Weather vs. Climate",
+      titleMy: "တိကျသော ခွဲခြားချက် - Weather Vs. Climate",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it inaccurate to say 'it was cold today, so climate change must not be happening', treating one day's weather as evidence about long-term climate?",
+          questionMy:
+              "တစ်ရက်တာ Weather ကို Long-Term Climate အကြောင်း Evidence အဖြစ် သဘောထားကာ 'ယနေ့ အေးလို့ Climate Change ဖြစ်ပျက်နေခြင်း မဖြစ်နိုင်ဘူး' ဟု ပြောခြင်းသည် တိကျမှု မရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Weather is a short-term, day-to-day condition, while climate is the long-term average pattern over decades -- a single day's weather cannot meaningfully confirm or deny a long-term climate trend",
+            "Weather and climate mean exactly the same thing with no meaningful difference",
+            "A single day's weather always accurately proves or disproves long-term climate trends",
+            "Climate has no actual relationship to weather patterns of any kind",
+          ],
+          optionsMy: [
+            "Weather သည် Short-Term, နေ့စဉ် အခြေအနေတစ်ခု ဖြစ်ပြီး Climate သည် ဆယ်စုနှစ်များစွာအတွင်း Long-Term Average Pattern ဖြစ်သည် -- တစ်ရက်တာ Weather သည် Long-Term Climate Trend တစ်ခုကို အဓိပ္ပာယ်ရှိစွာ အတည်ပြု (သို့) ငြင်းပယ်၍ မရနိုင်ပါ",
+            "Weather နှင့် Climate သည် အနက်ကျယ် ကွာခြားချက် မရှိဘဲ အဓိပ္ပာယ်တူတူ ဖြစ်ခြင်း",
+            "တစ်ရက်တာ Weather သည် Long-Term Climate Trend များကို တိကျစွာ အမြဲ သက်သေပြ (သို့) ငြင်းပယ်ခြင်း",
+            "Climate သည် Weather Pattern မည်သည်ဖြင့်မဆို အမှန်တကယ် ဆက်စပ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same precise-vocabulary discipline from Term 4's own Week 13 (erosion vs. deposition) -- two related but genuinely different concepts should not be collapsed into one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 4 ကိုယ်တိုင်၏ Week 13 (Erosion Vs. Deposition) မှ Precise-Vocabulary Discipline တူတူ ဖြစ်သည် -- ဆက်စပ်နေသော်လည်း စစ်မှန်စွာ ကွဲပြားသော Concept နှစ်ခုကို တစ်ခုတည်းအဖြစ် မညှစ်ချသင့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do climate scientists typically use at least 30 years of data when describing a region's climate, rather than just a few years of observations?",
+          questionMy:
+              "ရာသီဥတု သိပ္ပံပညာရှင်များသည် ဒေသတစ်ခု၏ Climate ကို ဖော်ပြသောအခါ Observation နှစ်အနည်းငယ်သာအစား အနည်းဆုံး နှစ် ၃၀ Data ကို ယေဘုယျအားဖြင့် အဘယ်ကြောင့် အသုံးပြုကြသနည်း။",
+          optionsEn: [
+            "A longer time period smooths out short-term, year-to-year variation and reveals the genuine underlying pattern, rather than being distorted by one unusually hot or cold year",
+            "Using more years of data always makes the description less accurate",
+            "A single year of data is always sufficient to describe a region's long-term climate",
+            "The length of the data period has no actual bearing on climate description accuracy",
+          ],
+          optionsMy: [
+            "အချိန်ကာလ ပို၍ ရှည်လျားခြင်းသည် Short-Term, Year-To-Year Variation ကို ချောမွေ့စေကာ တစ်ခုတည်းသော ထူးဆန်းစွာ ပူသော (သို့) အေးသော နှစ်တစ်နှစ်က Distort မလုပ်ဘဲ စစ်မှန်သော Underlying Pattern ကို ဖော်ထုတ်ပေးသည်",
+            "Data နှစ် ပို၍ များများ အသုံးပြုခြင်းသည် Description ကို အမြဲ ပို၍ တိကျမှု နည်းစေသည်",
+            "Data နှစ်တစ်နှစ်တည်းသည် ဒေသတစ်ခု၏ Long-Term Climate ကို ဖော်ပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Data Period ၏ ရှည်လျားမှုသည် Climate Description ၏ တိကျမှုအပေါ် အမှန်တကယ် သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 1's timeline lesson about long stretches being easier to compare -- a longer data period reveals a genuine pattern the way a longer historical period does.",
+          ],
+          hintsMy: [
+            "ကာလရှည်များ နှိုင်းယှဉ်ရလွယ်ကူခြင်းအကြောင်း Term 1 ၏ Timeline သင်ခန်းစာကို ပြန်သတိရပါ -- Data Period ရှည်လျားခြင်းသည် Historical Period ရှည်လျားခြင်းကဲ့သို့ Genuine Pattern တစ်ခုကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim about a region's climate cite specific long-term data (such as average temperatures across decades) rather than relying on personal impression or a few memorable recent events?",
+          questionMy:
+              "ဒေသတစ်ခု၏ Climate အကြောင်း Claim တစ်ခုသည် ပုဂ္ဂိုလ်ရေး Impression (သို့) မှတ်မိထားသော လတ်တလော Event အနည်းငယ်ကို အားကိုးမည့်အစား တိကျသော Long-Term Data (ဆယ်စုနှစ်များတစ်လျှောက် Average Temperature ကဲ့သို့) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Personal impressions and a handful of memorable events are easily skewed by recent or emotionally striking experiences, while long-term systematic data gives a more reliable, checkable picture",
+            "Personal impressions are always more reliable than any systematic long-term data",
+            "Citing specific data has no actual value when describing a region's climate",
+            "A few memorable recent events always accurately represent a long-term climate pattern",
+          ],
+          optionsMy: [
+            "ပုဂ္ဂိုလ်ရေး Impression များနှင့် မှတ်မိထားသော Event အနည်းငယ်သည် လတ်တလော (သို့) စိတ်ခံစားမှု ထိခိုက်စေသော အတွေ့အကြုံများဖြင့် လွယ်ကူစွာ Skew ဖြစ်တတ်ပြီး Long-Term Systematic Data သည် ပို၍ ယုံကြည်ရ၊ စစ်ဆေးနိုင်သော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "ပုဂ္ဂိုလ်ရေး Impression များသည် Systematic Long-Term Data မည်သည်ထက်မဆို အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "တိကျသော Data ကိုးကားခြင်းသည် ဒေသတစ်ခု၏ Climate ဖော်ပြရာတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "မှတ်မိထားသော လတ်တလော Event အနည်းငယ်သည် Long-Term Climate Pattern တစ်ခုကို အမြဲ တိကျစွာ ကိုယ်စားပြုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 1's evidence-vs-guess principle -- personal impression is a kind of unverified guess when it comes to something that requires systematic measurement over time.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Evidence-Vs-Guess Principle နှင့် ချိတ်ဆက်သည် -- အချိန်တစ်လျှောက် Systematic Measurement လိုအပ်သော အရာတစ်ခုနှင့် ပတ်သက်လာသောအခါ ပုဂ္ဂိုလ်ရေး Impression သည် Unverified Guess တစ်မျိုး ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Weather and Climate Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Weather and Climate Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w14-dm-1",
+          termEn: "Weather",
+          termMy: "Weather",
+          matchEn: "The short-term, day-to-day condition of the atmosphere",
+          matchMy: "လေထု၏ Short-Term, နေ့စဉ် အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w14-dm-2",
+          termEn: "Climate",
+          termMy: "Climate",
+          matchEn:
+              "The long-term average weather pattern of a region over decades",
+          matchMy:
+              "ဆယ်စုနှစ်များစွာအတွင်း ဒေသတစ်ခု၏ Long-Term Average Weather Pattern",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w14-dm-3",
+          termEn: "Average temperature",
+          termMy: "Average Temperature",
+          matchEn:
+              "A systematic measurement used as evidence when describing climate",
+          matchMy:
+              "Climate ဖော်ပြသောအခါ Evidence အဖြစ် အသုံးပြုသော Systematic Measurement",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w14-dm-4",
+          termEn: "Long-term data",
+          termMy: "Long-Term Data",
+          matchEn:
+              "Data collected over many years, smoothing out short-term year-to-year variation",
+          matchMy:
+              "Short-Term Year-To-Year Variation ကို ချောမွေ့စေသော နှစ်များစွာအတွင်း စုဆောင်းထားသော Data",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Weather Statement or Climate Statement?",
+      titleMy: "စီစစ်ကြမည် - Weather Statement (သို့) Climate Statement",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Weather Statement", "Climate Statement"],
+        bucketsMy: ["Weather Statement", "Climate Statement"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w14-sort-1",
+            labelEn: "It is raining heavily in the city right now",
+            labelMy: "ယခုအချိန် မြို့တွင် မိုးသည်းထန်စွာ ရွာနေသည်",
+            correctBucketEn: "Weather Statement",
+            correctBucketMy: "Weather Statement",
+          ),
+          SortingItem(
+            id: "sec1hum-w14-sort-2",
+            labelEn:
+                "This region has had a hot, dry average climate over the past thirty years",
+            labelMy:
+                "ဤဒေသသည် လွန်ခဲ့သော နှစ် သုံးဆယ်တစ်လျှောက် ပူပြင်း၊ ခြောက်သွေ့သော Average Climate ရှိခဲ့သည်",
+            correctBucketEn: "Climate Statement",
+            correctBucketMy: "Climate Statement",
+          ),
+          SortingItem(
+            id: "sec1hum-w14-sort-3",
+            labelEn:
+                "Tomorrow's forecast predicts strong wind and a chance of rain",
+            labelMy:
+                "မနက်ဖြန် ခန့်မှန်းချက်သည် ခွန်အားကောင်းသော လေနှင့် မိုးရွာနိုင်ခြေ ခန့်မှန်းသည်",
+            correctBucketEn: "Weather Statement",
+            correctBucketMy: "Weather Statement",
+          ),
+          SortingItem(
+            id: "sec1hum-w14-sort-4",
+            labelEn:
+                "This zone is classified as tropical based on decades of temperature and rainfall data",
+            labelMy:
+                "ဤဇုန်ကို ဆယ်စုနှစ်များစွာ Temperature နှင့် Rainfall Data အပေါ် အခြေခံ၍ Tropical အဖြစ် အမျိုးအစား ခွဲခြားထားသည်",
+            correctBucketEn: "Climate Statement",
+            correctBucketMy: "Climate Statement",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aye Aye's Weather Diary Mistake",
+      titleMy: "စာဖတ်ခြင်း - Aye Aye ၏ Weather Diary အမှား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aye Aye's Weather Diary Mistake",
+        titleMy: "Aye Aye ၏ Weather Diary အမှား",
+        passageEn:
+            "For Week 14's project, Aye Aye kept a daily weather diary for two weeks and was then asked to use it to describe her region's climate.\n\nHer first draft confidently stated: 'My region has a cool, rainy climate,' based entirely on the fact that it had rained on nine of her fourteen diary days. Her teacher asked a pointed question: was two weeks of observation, taken during what happened to be a particularly rainy stretch, really enough to describe a long-term climate pattern?\n\nAye Aye realized her mistake and researched her region's actual long-term climate data instead -- thirty years of average temperature and rainfall records from a national weather service. That data told a different story: her region had a generally dry climate overall, and her two-week diary had simply happened to fall during an unusually wet period, not a representative sample of the typical year.\n\nHer revised report carefully distinguished the two: 'The weather during my two-week diary period was unusually rainy, but the region's actual climate, based on thirty years of data, is classified as generally dry.' Her teacher praised the correction, noting that confusing a short, personally observed period with a long-term pattern is one of the most common climate-related errors -- and catching it, as Aye Aye had, was exactly the kind of precise thinking the course had been building since Term 1.",
+        passageMy:
+            "Week 14 ၏ Project အတွက် Aye Aye သည် ရက်သတ္တပတ် နှစ်ပတ်ကြာ Daily Weather Diary တစ်ခု ထိန်းသိမ်းခဲ့ပြီး ၎င်း၏ ဒေသ Climate ကို ဖော်ပြရန် ၎င်းကို အသုံးပြုရန် နောက်မှ တောင်းဆိုခံခဲ့ရသည်။\n\n၎င်း၏ Diary ရက် ၁၄ ရက်ထဲမှ ၉ ရက်တွင် မိုးရွာခဲ့သောအချက်တစ်ခုတည်းအပေါ် လုံးလုံး အခြေခံ၍ ၎င်း၏ ပထမ Draft သည် 'ကျွန်ုပ်ဒေသတွင် အေး၊ မိုးရွာသော Climate ရှိသည်' ဟု ယုံကြည်စိတ်ချစွာ ဖော်ပြခဲ့သည်။ Long-Term Climate Pattern တစ်ခု ဖော်ပြရန် ထူးထူးခြားခြား မိုးများသော ကာလတစ်ခုအတွင်း ယူထားသော ရက်သတ္တပတ် နှစ်ပတ်တာ Observation သည် တကယ်တမ်း လုံလောက်သလားဟု ၎င်း၏ ဆရာမ ထောက်ပြသော မေးခွန်းတစ်ခု မေးခဲ့သည်။\n\nAye Aye သည် ၎င်း၏ အမှားကို သိရှိလာပြီး ၎င်းအစား ၎င်း၏ ဒေသ Actual Long-Term Climate Data ကို Research ပြုလုပ်ခဲ့သည် -- Weather Service အမျိုးသားတစ်ခုမှ Average Temperature နှင့် Rainfall မှတ်တမ်း နှစ် ၃၀ စာ။ ထို Data က ကွဲပြားသော ဇာတ်လမ်းတစ်ခု ပြောပြခဲ့သည် - ၎င်း၏ ဒေသသည် ယေဘုယျအားဖြင့် ခြောက်သွေ့သော Climate ရှိခဲ့ပြီး ၎င်း၏ ရက်သတ္တပတ် နှစ်ပတ် Diary သည် ရိုးရိုးသာ ထူးထူးခြားခြား စိုစွတ်သော ကာလတစ်ခုအတွင်း ကျရောက်ခဲ့ခြင်း ဖြစ်ပြီး ပုံမှန်နှစ်၏ ကိုယ်စားပြု Sample တစ်ခု မဟုတ်ပါ။\n\n၎င်း၏ ပြင်ဆင်ထားသော Report သည် နှစ်ခုကို ဂရုတစိုက် ခွဲခြားခဲ့သည် - 'ကျွန်ုပ်၏ ရက်သတ္တပတ်နှစ်ပတ် Diary ကာလအတွင်း Weather သည် ထူးထူးခြားခြား မိုးများခဲ့သော်လည်း ဒေသ၏ Actual Climate သည် နှစ် ၃၀ Data အပေါ် အခြေခံ၍ ယေဘုယျအားဖြင့် ခြောက်သွေ့သည်ဟု အမျိုးအစား ခွဲခြားထားသည်။' ရေတိုကို ပုဂ္ဂိုလ်ရေး Observe ပြုလုပ်ထားသော ကာလတစ်ခုကို Long-Term Pattern တစ်ခုနှင့် ရှုပ်ထွေးစေခြင်းသည် Climate-Related အမှားများထဲမှ အဖြစ်များဆုံးတစ်ခု ဖြစ်ကြောင်း ၎င်း၏ ဆရာမ ပြင်ဆင်ချက်ကို ချီးမွမ်းကာ မှတ်ချက်ပြုခဲ့သည် -- Aye Aye ပြုလုပ်ခဲ့သကဲ့သို့ ၎င်းကို ဖမ်းယူခြင်းသည် Term 1 မှစ၍ Course တည်ဆောက်ခဲ့သော Precise Thinking အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what question did the teacher ask about Aye Aye's first draft?",
+            questionMy:
+                "Aye Aye ၏ ပထမ Draft အကြောင်း ဆရာမ မေးခဲ့သော မေးခွန်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether two weeks of observation during a rainy stretch was enough to describe long-term climate",
+              "Whether Aye Aye had kept the diary at all",
+              "Whether rain had ever occurred in the region historically",
+              "A question with no connection to the diary's time period",
+            ],
+            optionsMy: [
+              "မိုးများသော ကာလတစ်ခုအတွင်း ရက်သတ္တပတ်နှစ်ပတ် Observation သည် Long-Term Climate ဖော်ပြရန် လုံလောက်ခဲ့ခြင်း ရှိမရှိ",
+              "Aye Aye Diary ကို ထိန်းသိမ်းခဲ့ခြင်း ရှိမရှိ",
+              "ဒေသတွင် သမိုင်းအရ မိုးရွာဖူးခြင်း ရှိမရှိ",
+              "Diary ၏ အချိန်ကာလနှင့် ချိတ်ဆက်မှု မရှိသော မေးခွန်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated question."],
+            hintsMy: [
+              "ဖော်ပြထားသော မေးခွန်းကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the thirty-year data reveal about Aye Aye's region?",
+            questionMy:
+                "Aye Aye ၏ ဒေသအကြောင်း နှစ် ၃၀ Data ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The region had a generally dry climate overall, unlike her rainy two-week sample",
+              "The region had no climate of any kind whatsoever",
+              "The two-week diary was a perfectly representative sample of the whole year",
+              "The data contained no useful information about the region's climate",
+            ],
+            optionsMy: [
+              "ဒေသသည် ၎င်း၏ မိုးများသော ရက်သတ္တပတ်နှစ်ပတ် Sample နှင့် မတူဘဲ ယေဘုယျအားဖြင့် ခြောက်သွေ့သော Climate ရှိခဲ့ခြင်း",
+              "ဒေသတွင် Climate မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "ရက်သတ္တပတ်နှစ်ပတ် Diary သည် နှစ်တစ်ခုလုံး၏ ပြည့်စုံစွာ ကိုယ်စားပြု Sample တစ်ခု ဖြစ်ခြင်း",
+              "Data တွင် ဒေသ၏ Climate အကြောင်း အသုံးဝင်သော Information မည်သည်မှ မပါခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated data revelation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Data Revelation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what common error did the teacher say Aye Aye had caught?",
+            questionMy:
+                "Aye Aye ဖမ်းယူခဲ့ကြောင်း ဆရာမ ပြောခဲ့သော ဖြစ်လေ့ဖြစ်ထ အမှားကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Confusing a short, personally observed period with a long-term climate pattern",
+              "Failing to keep any weather diary of any kind whatsoever",
+              "Using too much long-term data instead of personal observation",
+              "An error entirely unrelated to weather or climate",
+            ],
+            optionsMy: [
+              "ရေတို၊ ပုဂ္ဂိုလ်ရေး Observe ပြုလုပ်ထားသော ကာလတစ်ခုကို Long-Term Climate Pattern တစ်ခုနှင့် ရှုပ်ထွေးစေခြင်း",
+              "Weather Diary မည်သည်ကိုမျှ လုံးဝ မထိန်းသိမ်းခဲ့ခြင်း",
+              "ပုဂ္ဂိုလ်ရေး Observation အစား Long-Term Data ပို၍ များများ အသုံးပြုခြင်း",
+              "Weather (သို့) Climate နှင့် လုံးဝ မသက်ဆိုင်သော အမှားတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated common error."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဖြစ်လေ့ဖြစ်ထ အမှားကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w14-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Weather vs. Climate Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Weather Vs. Climate မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Weather refers to...",
+          questionMy: "Weather ဆိုသည်မှာ ...ကို ရည်ညွှန်းသည်",
+          optionsEn: [
+            "Short-term, day-to-day atmospheric conditions",
+            "The long-term average pattern over decades",
+            "Something with no time dimension at all",
+            "Exactly the same thing as climate",
+          ],
+          optionsMy: [
+            "Short-Term, နေ့စဉ် လေထု အခြေအနေများ",
+            "ဆယ်စုနှစ်များစွာအတွင်း Long-Term Average Pattern",
+            "အချိန် Dimension လုံးဝ မပါသော အရာတစ်ခု",
+            "Climate နှင့် အတိအကျ တူညီသော အရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Climate descriptions typically rely on...",
+          questionMy:
+              "Climate ဖော်ပြချက်များသည် ယေဘုယျအားဖြင့် ...ကို အားကိုးကြသည်",
+          optionsEn: [
+            "Decades of systematic long-term data",
+            "A single day's personal observation",
+            "No data of any kind whatsoever",
+            "Emotional impressions with no measurement",
+          ],
+          optionsMy: [
+            "ဆယ်စုနှစ်များစွာ Systematic Long-Term Data",
+            "တစ်ရက်တာ ပုဂ္ဂိုလ်ရေး Observation တစ်ခု",
+            "Data မည်သည်မှ လုံးဝ",
+            "Measurement မပါသော စိတ်ခံစားမှု Impression များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A short, unusually rainy period should not be presented as...",
+          questionMy:
+              "ရေတို၊ ထူးထူးခြားခြား မိုးများသော ကာလတစ်ခုကို ...အဖြစ် မတင်ပြသင့်ပါ",
+          optionsEn: [
+            "Proof of the region's overall long-term climate",
+            "A specific, dated diary observation",
+            "One data point among many collected over time",
+            "An honestly labeled short-term event",
+          ],
+          optionsMy: [
+            "ဒေသ၏ ယေဘုယျ Long-Term Climate ၏ Proof",
+            "တိကျသော၊ ရက်စွဲပါသော Diary Observation တစ်ခု",
+            "အချိန်ကြာမြင့်စွာ စုဆောင်းထားသော Data Point များစွာထဲမှ တစ်ခု",
+            "ရိုးသားစွာ Label တင်ထားသော Short-Term Event တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 4, Week 15: "Climate Zones of the
+// World"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek15 = CourseWeekDef(
+  id: "course-sec1-hum-w15",
+  weekNumber: 15,
+  titleEn: "Climate Zones of the World",
+  titleMy: "ကမ္ဘာ့ Climate Zone များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w15-d1",
+      dayNumber: 1,
+      titleEn: "Why Climate Varies Across the Globe",
+      titleMy: "Climate သည် ကမ္ဘာတစ်ဝန်း အဘယ်ကြောင့် ကွဲပြားသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does a location's distance from the equator (its latitude) strongly influence its climate zone?",
+          questionMy:
+              "တည်နေရာတစ်ခု၏ Equator မှ အကွာအဝေး (၎င်း၏ Latitude) သည် ၎င်း၏ Climate Zone ကို အဘယ်ကြောင့် အားကောင်းစွာ Influence ပြုသနည်း။",
+          optionsEn: [
+            "Areas near the equator receive more direct, concentrated sunlight year-round, while areas farther away receive sunlight at a more spread-out angle, producing consistently warmer or cooler average temperatures",
+            "Latitude has no actual connection to a location's climate",
+            "Every latitude on Earth receives exactly the same amount and angle of sunlight",
+            "Distance from the equator only affects a location's time zone, not its climate",
+          ],
+          optionsMy: [
+            "Equator အနီးရှိ ဒေသများသည် တစ်နှစ်ပတ်လုံး ပို၍ တိုက်ရိုက်၊ စူးစူးစိုက်စိုက် နေရောင်ခြည် ရရှိပြီး ပို၍ ဝေးကွာသော ဒေသများသည် ပို၍ ပျံ့နှံ့သော Angle ဖြင့် နေရောင်ခြည် ရရှိကာ တသမတ်တည်း ပို၍ နွေး (သို့) ပို၍ အေးသော Average Temperature ကို ဖြစ်ပေါ်စေသည်",
+            "Latitude သည် တည်နေရာတစ်ခု၏ Climate နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ကမ္ဘာပေါ်ရှိ Latitude တိုင်းသည် နေရောင်ခြည် ပမာဏနှင့် Angle အတိအကျ တူညီစွာ ရရှိခြင်း",
+            "Equator မှ အကွာအဝေးသည် တည်နေရာတစ်ခု၏ Time Zone ကိုသာ သက်ရောက်ပြီး ၎င်း၏ Climate ကို မသက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a physical-factor explanation, similar in structure to Term 2's river-enables-civilization reasoning -- a physical condition (sunlight angle) directly causes a measurable outcome (temperature).",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ River-Enables-Civilization Reasoning နှင့် Structure ဆင်တူသော Physical-Factor ရှင်းပြချက်တစ်ခု ဖြစ်သည် -- Physical Condition တစ်ခု (Sunlight Angle) သည် တိုင်းတာနိုင်သော ရလဒ်တစ်ခု (Temperature) ကို တိုက်ရိုက် ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do two locations at a similar latitude sometimes have noticeably different climates, such as a coastal city and an inland desert at roughly the same distance from the equator?",
+          questionMy:
+              "Coastal မြို့တစ်ခုနှင့် Equator မှ ခန့်မှန်း အကွာအဝေးတူညီသော Inland သဲကန္တာရတစ်ခုကဲ့သို့ Latitude ဆင်တူသော တည်နေရာနှစ်ခုတွင် တခါတရံ သိသာစွာ ကွဲပြားသော Climate ရှိတတ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Latitude is only one factor among several -- proximity to oceans, altitude, and prevailing winds also shape climate, so no single factor determines climate alone",
+            "Latitude is the only factor that has ever affected any location's climate",
+            "Climate is entirely random with no connection to any physical factor whatsoever",
+            "Coastal and inland locations always have identical climates regardless of any other factor",
+          ],
+          optionsMy: [
+            "Latitude သည် Factor များစွာထဲမှ တစ်ခုသာ ဖြစ်သည် -- သမုဒ္ဒရာနှင့် နီးကပ်မှု၊ Altitude နှင့် Prevailing Wind များသည်လည်း Climate ကို ပုံဖော်ပေးသောကြောင့် Factor တစ်ခုတည်းက Climate ကို ဆုံးဖြတ်ခြင်း မဟုတ်ပါ",
+            "Latitude သည် တည်နေရာတစ်ခု၏ Climate ကို ဘယ်တော့မှ သက်ရောက်ခဲ့သော တစ်ခုတည်းသော Factor ဖြစ်ခြင်း",
+            "Climate သည် Physical Factor မည်သည်ဖြင့်မဆို ချိတ်ဆက်မှု မရှိဘဲ လုံးလုံး ကျပန်း ဖြစ်ခြင်း",
+            "Coastal နှင့် Inland တည်နေရာများသည် အခြား Factor မည်သို့ပင်ရှိစေ Climate အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'weigh multiple factors, not just one' habit built since Term 1 -- latitude matters, but it is not the only factor shaping climate.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ တည်ဆောက်ခဲ့သော 'Factor တစ်ခုတည်းမဟုတ်ဘဲ Factor များစွာ ချိန်ဆခြင်း' Habit တူတူ ဖြစ်သည် -- Latitude သည် အရေးကြီးသော်လည်း Climate ပုံဖော်ပေးသော တစ်ခုတည်းသော Factor မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim that 'the tropics are always hot every single day with no variation' be treated with caution, even though tropical zones are indeed generally warm?",
+          questionMy:
+              "Tropical Zone များသည် အမှန်တကယ် ယေဘုယျအားဖြင့် နွေးထွေးသော်လည်း 'Tropics သည် Variation မရှိဘဲ နေ့တိုင်း အမြဲ ပူသည်' ဆိုသော Claim တစ်ခုကို အဘယ်ကြောင့် သတိထား ကိုင်တွယ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A climate zone describes a general long-term pattern, not an absolute rule with zero exceptions -- even a generally hot climate zone can have cooler days, seasonal variation, or high-altitude cool spots",
+            "Tropical zones actually have no variation of any kind on any day whatsoever",
+            "Climate zone descriptions should always be treated as absolute rules with no exceptions",
+            "This claim is completely accurate with no need for any caution at all",
+          ],
+          optionsMy: [
+            "Climate Zone တစ်ခုသည် Zero Exception ပါသော Absolute Rule တစ်ခု မဟုတ်ဘဲ ယေဘုယျ Long-Term Pattern တစ်ခုကို ဖော်ပြသည် -- ယေဘုယျအားဖြင့် ပူသော Climate Zone တစ်ခုပင် ပို၍ အေးသော ရက်များ၊ ရာသီအလိုက် Variation၊ (သို့) Altitude မြင့်သော အအေးနေရာများ ရှိနိုင်သည်",
+            "Tropical Zone များသည် ရက်မည်သည်တွင်မျှ Variation မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Climate Zone ဖော်ပြချက်များကို Exception မပါသော Absolute Rule များအဖြစ် အမြဲ သဘောထားသင့်ခြင်း",
+            "ဤ Claim သည် သတိထားမှု မလိုအပ်ဘဲ လုံးလုံး တိကျခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Term 4's own weather-vs-climate distinction applied one level deeper -- a general pattern (climate zone) still allows for day-to-day and local variation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 4 ကိုယ်တိုင်၏ Weather-Vs-Climate ခွဲခြားချက်ကို တစ်ဆင့် ပို၍ နက်ရှိုင်းစွာ အသုံးချထားခြင်း ဖြစ်သည် -- ယေဘုယျ Pattern တစ်ခု (Climate Zone) သည် နေ့စဉ်နှင့် Local Variation ကို ဆက်လက် ခွင့်ပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Climate Zone Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Climate Zone Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w15-dm-1",
+          termEn: "Tropical zone",
+          termMy: "Tropical Zone",
+          matchEn: "A climate zone near the equator, generally warm year-round",
+          matchMy:
+              "Equator အနီးရှိ Climate Zone တစ်ခု၊ တစ်နှစ်ပတ်လုံး ယေဘုယျအားဖြင့် နွေးထွေး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w15-dm-2",
+          termEn: "Temperate zone",
+          termMy: "Temperate Zone",
+          matchEn:
+              "A climate zone with four distinct seasons and moderate temperatures",
+          matchMy:
+              "ကွဲပြားသော ရာသီ လေးမျိုးနှင့် Moderate Temperature ရှိသော Climate Zone",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w15-dm-3",
+          termEn: "Polar zone",
+          termMy: "Polar Zone",
+          matchEn:
+              "A climate zone near the poles, generally very cold year-round",
+          matchMy:
+              "Pole များအနီးရှိ Climate Zone တစ်ခု၊ တစ်နှစ်ပတ်လုံး ယေဘုယျအားဖြင့် အလွန် အေး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w15-dm-4",
+          termEn: "Altitude",
+          termMy: "Altitude",
+          matchEn:
+              "Height above sea level, another factor that can make a location cooler",
+          matchMy:
+              "ပင်လယ်ရေမျက်နှာပြင်အထက် အမြင့်၊ တည်နေရာတစ်ခုကို ပို၍ အေးစေနိုင်သော Factor တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Tropical, Temperate, or Polar?",
+      titleMy: "စီစစ်ကြမည် - Tropical, Temperate, (သို့) Polar",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Tropical or Temperate Feature", "Polar Feature"],
+        bucketsMy: ["Tropical (သို့) Temperate Feature", "Polar Feature"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w15-sort-1",
+            labelEn:
+                "A location near the equator with warm temperatures year-round",
+            labelMy:
+                "Equator အနီးရှိ တစ်နှစ်ပတ်လုံး နွေးထွေးသော Temperature ရှိသော တည်နေရာ",
+            correctBucketEn: "Tropical or Temperate Feature",
+            correctBucketMy: "Tropical (သို့) Temperate Feature",
+          ),
+          SortingItem(
+            id: "sec1hum-w15-sort-2",
+            labelEn:
+                "A location near a pole with ice cover for most of the year",
+            labelMy:
+                "Pole အနီးရှိ နှစ်ကို အများစုအတွက် ရေခဲ ဖုံးအုပ်ထားသော တည်နေရာ",
+            correctBucketEn: "Polar Feature",
+            correctBucketMy: "Polar Feature",
+          ),
+          SortingItem(
+            id: "sec1hum-w15-sort-3",
+            labelEn: "A mid-latitude location with four distinct seasons",
+            labelMy: "ကွဲပြားသော ရာသီ လေးမျိုးရှိသော Mid-Latitude တည်နေရာ",
+            correctBucketEn: "Tropical or Temperate Feature",
+            correctBucketMy: "Tropical (သို့) Temperate Feature",
+          ),
+          SortingItem(
+            id: "sec1hum-w15-sort-4",
+            labelEn:
+                "Very low average temperatures throughout nearly the entire year",
+            labelMy:
+                "နှစ်တစ်ခုလုံးနီးပါးတစ်လျှောက် Average Temperature အလွန် နိမ့်ခြင်း",
+            correctBucketEn: "Polar Feature",
+            correctBucketMy: "Polar Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Climate Zone Investigation",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Climate Zone Investigation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Climate Zone Investigation",
+        titleMy: "Nay Chi ၏ Climate Zone Investigation",
+        passageEn:
+            "For Week 15's project, Nay Chi was asked to investigate why two cities at a similar latitude had noticeably different climates -- one a warm coastal city, the other a much colder inland city at high altitude, despite both being roughly the same distance from the equator.\n\nHer first instinct was that the data must be wrong, since both cities were tropical-latitude locations and should therefore have similar climates. Instead of assuming an error, she researched further and found the explanation: the inland city sat much higher above sea level, and altitude significantly lowers temperature regardless of latitude -- exactly the kind of second, non-latitude factor Monday's lesson had described.\n\nNay Chi also found that the coastal city's proximity to the ocean moderated its temperature swings, keeping it consistently warm, while the inland city experienced greater temperature variation due to its distance from any large body of water. Latitude alone, she concluded, could not explain the difference -- altitude and ocean proximity were equally necessary parts of the full explanation.\n\nHer final report was careful to note one more thing: even though the coastal city was classified as tropical, this did not mean literally every single day was identically hot with zero variation -- the classification described the region's general long-term pattern, not an absolute rule with no exceptions. Her teacher praised the report for weighing multiple physical factors together rather than relying on latitude alone, and for correctly treating the climate zone label as a general pattern rather than an absolute claim.",
+        passageMy:
+            "Week 15 ၏ Project အတွက် Latitude ဆင်တူသော မြို့နှစ်ခုတွင် သိသာစွာ ကွဲပြားသော Climate ရှိခဲ့ရသည့် အကြောင်းရင်းကို -- Equator နှင့် ခန့်မှန်း အကွာအဝေးတူညီသော်လည်း တစ်ခုကို Coastal, နွေးထွေးသော မြို့၊ အခြားတစ်ခုကို Altitude မြင့်မားသော များစွာ ပို၍ အေးသော Inland မြို့ -- Nay Chi စုံစမ်းစစ်ဆေးရန် တောင်းဆိုခဲ့သည်။\n\nမြို့နှစ်ခုစလုံးသည် Tropical-Latitude တည်နေရာများ ဖြစ်၍ Climate ဆင်တူသင့်သောကြောင့် Data သည် မှားယွင်းနေရမည်ဟု ၎င်း၏ ပထမ Instinct ဖြစ်ခဲ့သည်။ အမှားတစ်ခုဟု ယူဆမည့်အစား ၎င်း ပို၍ Research ပြုလုပ်ခဲ့ပြီး ရှင်းလင်းချက်ကို ရှာဖွေတွေ့ရှိခဲ့သည် - Inland မြို့သည် ပင်လယ်ရေမျက်နှာပြင်ထက် များစွာ ပို၍ မြင့်မားစွာ တည်ရှိပြီး Altitude သည် Latitude မည်သို့ပင်ရှိစေ Temperature ကို သိသိသာသာ လျော့ကျစေသည် -- တနင်္လာနေ့သင်ခန်းစာ ဖော်ပြခဲ့သော Latitude-Not Factor ဒုတိယတစ်ခု အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nသမုဒ္ဒရာနှင့် Coastal မြို့၏ နီးကပ်မှုသည် ၎င်း၏ Temperature Swing များကို Moderate ပြုလုပ်ကာ တသမတ်တည်း နွေးထွေးစွာ ထားရှိစေပြီး ရေအစုအဝေးကြီးမည်သည်နှင့်မှ ဝေးကွာမှုကြောင့် Inland မြို့သည် ပို၍ ကြီးမားသော Temperature Variation ကို ရင်ဆိုင်ခဲ့ရကြောင်းကိုလည်း Nay Chi ရှာဖွေတွေ့ရှိခဲ့သည်။ Latitude တစ်ခုတည်းသည် ကွာခြားချက်ကို ရှင်းပြ၍ မရနိုင်ကြောင်း၊ Altitude နှင့် Ocean Proximity တို့သည် ပြည့်စုံသော ရှင်းပြချက်၏ အညီအမျှ လိုအပ်သော အစိတ်အပိုင်းများ ဖြစ်ကြောင်း ၎င်း ကောက်ချက်ချခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး Report သည် နောက်ထပ် အချက်တစ်ခုကို မှတ်သားရန် ဂရုတစိုက် ဖြစ်ခဲ့သည် - Coastal မြို့ကို Tropical အဖြစ် အမျိုးအစား ခွဲခြားထားသော်လည်း ဤသည်ကား Zero Variation ပါသော ပူပြင်းသော ရက်တိုင်း အတိအကျ တူညီသည်ဟု ဆိုလိုခြင်း မဟုတ်ပါ -- Classification သည် Exception မပါသော Absolute Rule တစ်ခု မဟုတ်ဘဲ ဒေသ၏ ယေဘုယျ Long-Term Pattern ကို ဖော်ပြခြင်း ဖြစ်သည်။ Latitude တစ်ခုတည်း အားကိုးမည့်အစား Physical Factor များစွာကို အတူတကွ ချိန်ဆခြင်းနှင့် Climate Zone Label ကို Absolute Claim တစ်ခုအစား ယေဘုယျ Pattern တစ်ခုအဖြစ် မှန်ကန်စွာ သဘောထားခြင်းအတွက် Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's research find explained the inland city's cooler climate?",
+            questionMy:
+                "Inland မြို့၏ ပို၍ အေးသော Climate ကို ရှင်းပြသည့်အရာကို Nay Chi ၏ Research ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its much higher altitude, which lowers temperature regardless of latitude",
+              "The data was simply incorrect and should have been discarded",
+              "Latitude alone, with no other factor involved at all",
+              "The inland city had no actual explanation for its climate whatsoever",
+            ],
+            optionsMy: [
+              "Latitude မည်သို့ပင်ရှိစေ Temperature ကို လျော့ကျစေသော ၎င်း၏ များစွာ ပို၍ မြင့်မားသော Altitude",
+              "Data သည် ရိုးရိုး မှားယွင်းနေပြီး ပယ်ချသင့်ခဲ့ခြင်း",
+              "အခြား Factor မည်သည်မှ မပါဝင်ဘဲ Latitude တစ်ခုတည်း",
+              "Inland မြို့တွင် ၎င်း၏ Climate အတွက် Explanation မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းပြချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nay Chi conclude about explaining the difference between the two cities?",
+            questionMy:
+                "မြို့နှစ်ခုကြား ကွာခြားချက်ကို ရှင်းပြခြင်းအကြောင်း Nay Chi ကောက်ချက်ချခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Latitude alone could not explain it; altitude and ocean proximity were equally necessary parts of the explanation",
+              "Latitude alone was completely sufficient with no other factor needed",
+              "No factor of any kind could ever explain the difference",
+              "Ocean proximity had no actual relevance to either city's climate",
+            ],
+            optionsMy: [
+              "Latitude တစ်ခုတည်းက ၎င်းကို ရှင်းပြ၍ မရနိုင်ပါ၊ Altitude နှင့် Ocean Proximity တို့သည် ရှင်းပြချက်၏ အညီအမျှ လိုအပ်သော အစိတ်အပိုင်းများ ဖြစ်ခြင်း",
+              "အခြား Factor မလိုအပ်ဘဲ Latitude တစ်ခုတည်းသည် လုံးလုံး လုံလောက်ခြင်း",
+              "Factor မည်သည်ကမျှ ကွာခြားချက်ကို ဘယ်တော့မှ ရှင်းပြ၍ မရနိုင်ခြင်း",
+              "Ocean Proximity သည် မြို့နှစ်ခုစလုံး၏ Climate နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Nay Chi's report note about the 'tropical' classification?",
+            questionMy:
+                "'Tropical' Classification အကြောင်း Nay Chi ၏ Report မှတ်သားခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It describes a general long-term pattern, not that literally every day is identically hot",
+              "It means every single day in that zone is identically hot with zero variation",
+              "The classification has no actual meaning or usefulness whatsoever",
+              "It applies only to inland locations, never to coastal ones",
+            ],
+            optionsMy: [
+              "ရက်တိုင်း အတိအကျ ပူသည်ဟု အနက်မဟုတ်ဘဲ ယေဘုယျ Long-Term Pattern တစ်ခုကို ဖော်ပြခြင်း",
+              "ထို Zone ရှိ ရက်တိုင်း Variation Zero ဖြင့် အတိအကျ ပူသည်ဟု ဆိုလိုခြင်း",
+              "Classification တွင် အဓိပ္ပာယ် (သို့) အသုံးဝင်မှု မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+              "Inland တည်နေရာများအတွက်သာ အသုံးချပြီး Coastal များအတွက် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's stated note about the classification.",
+            ],
+            hintsMy: [
+              "Classification အကြောင်း ဖော်ပြထားသော မှတ်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w15-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Climate Zones Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Climate Zones မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Latitude strongly influences climate because...",
+          questionMy:
+              "Latitude သည် Climate ကို အားကောင်းစွာ Influence ပြုသည့် အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "It affects how direct and concentrated sunlight is at a location",
+            "It has no actual connection to sunlight of any kind",
+            "Every latitude receives identical sunlight",
+            "It only affects time zones, not climate",
+          ],
+          optionsMy: [
+            "တည်နေရာတစ်ခုတွင် နေရောင်ခြည် မည်မျှ တိုက်ရိုက်၊ စူးစူးစိုက်စိုက် ဖြစ်သည်ကို သက်ရောက်ခြင်း",
+            "နေရောင်ခြည် မည်သည်ဖြင့်မဆို အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Latitude တိုင်းသည် နေရောင်ခြည် အတိအကျ တူညီစွာ ရရှိခြင်း",
+            "Time Zone ကိုသာ သက်ရောက်ပြီး Climate ကို မသက်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two locations at similar latitude can have different climates due to...",
+          questionMy:
+              "Latitude ဆင်တူသော တည်နေရာနှစ်ခုသည် ...ကြောင့် Climate ကွဲပြားနိုင်သည်",
+          optionsEn: [
+            "Other factors like altitude and ocean proximity",
+            "Latitude being the only factor that ever matters",
+            "Random chance with no physical cause at all",
+            "Climate never actually varying by location",
+          ],
+          optionsMy: [
+            "Altitude နှင့် Ocean Proximity ကဲ့သို့ အခြား Factor များ",
+            "အရေးကြီးသော တစ်ခုတည်းသော Factor ဖြစ်သော Latitude",
+            "Physical Cause မည်သည်မှ မပါသော ကျပန်း အခြေအနေ",
+            "Climate သည် တည်နေရာအလိုက် အမှန်တကယ် ဘယ်တော့မှ မကွဲပြားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A climate zone classification like 'tropical' describes...",
+          questionMy:
+              "'Tropical' ကဲ့သို့ Climate Zone Classification တစ်ခုသည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "A general long-term pattern, not an absolute rule with zero exceptions",
+            "An absolute rule where every single day is identical",
+            "Nothing meaningful about the region at all",
+            "A rule that applies only to one specific day",
+          ],
+          optionsMy: [
+            "Zero Exception ပါသော Absolute Rule တစ်ခု မဟုတ်ဘဲ ယေဘုယျ Long-Term Pattern တစ်ခု",
+            "ရက်တိုင်း အတိအကျ တူညီသော Absolute Rule တစ်ခု",
+            "ဒေသအကြောင်း အဓိပ္ပာယ်ရှိသည့်အရာ လုံးဝ ဘာမှ",
+            "တိကျသော ရက်တစ်ရက်အတွက်သာ အသုံးချသော Rule တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 4, Week 16 (Capstone/Boss Week):
+// "Climate Zone Travel Brochure Studio"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek16 = CourseWeekDef(
+  id: "course-sec1-hum-w16",
+  weekNumber: 16,
+  titleEn: "Climate Zone Travel Brochure Studio",
+  titleMy: "Climate Zone Travel Brochure Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w16-d1",
+      dayNumber: 1,
+      titleEn: "Designing an Accurate Climate Brochure",
+      titleMy: "တိကျသော Climate Brochure တစ်ခု Design ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a travel brochure describing a destination's climate cite specific physical factors (latitude, altitude, ocean proximity) rather than simply stating 'it's always nice weather here'?",
+          questionMy:
+              "ခရီးသွား Brochure တစ်ခုသည် ရိုးရိုး 'ဤနေရာတွင် Weather အမြဲ ကောင်းသည်' ဟု ဖော်ပြမည့်အစား ဦးဆုံးနေရာတစ်ခု၏ Climate ကို ဖော်ပြသောအခါ တိကျသော Physical Factor များ (Latitude, Altitude, Ocean Proximity) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific physical factors grounds the description in checkable evidence, matching the same evidence-based approach practiced throughout the whole term, rather than an unsupported vague impression",
+            "Vague, unsupported statements are always more persuasive than specific evidence",
+            "Physical factors have no actual relevance to describing a destination's climate",
+            "A travel brochure should never actually mention any physical geography at all",
+          ],
+          optionsMy: [
+            "တိကျသော Physical Factor များကို ကိုးကားခြင်းသည် Term တစ်ခုလုံးတစ်လျှောက် ကျင့်သုံးထားသော Evidence-Based Approach တူတူနှင့် ကိုက်ညီစွာ Description ကို ထောက်ခံမှု မရှိသော Vague Impression တစ်ခုအစား စစ်ဆေးနိုင်သော Evidence ပေါ်တွင် အခြေခံသည်",
+            "Vague, ထောက်ခံမှု မရှိသော ဖော်ပြချက်များသည် တိကျသော Evidence ထက် အမြဲ ပို၍ ဆွဲဆောင်မှု ရှိခြင်း",
+            "Physical Factor များသည် ဦးဆုံးနေရာတစ်ခု၏ Climate ဖော်ပြခြင်းနှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            "ခရီးသွား Brochure တစ်ခုသည် Physical Geography မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ ဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines every physical-factor lesson from Weeks 13-15 into one practical output -- rivers, weather vs. climate, and climate zones are all specific, evidenced explanations.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13-15 မှ Physical-Factor သင်ခန်းစာတိုင်းကို Practical Output တစ်ခုတည်းအဖြစ် ပေါင်းစပ်သည် -- မြစ်များ, Weather Vs. Climate နှင့် Climate Zone များသည် တိကျ၊ Evidenced ရှင်းပြချက်များ အားလုံး ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a brochure honestly note a destination's seasonal variation or occasional extreme weather, rather than implying the described climate applies identically every single day?",
+          questionMy:
+              "Brochure တစ်ခုသည် ဖော်ပြထားသော Climate သည် ရက်တိုင်း အတိအကျ တူညီစွာ အသုံးချသည်ဟု ညွှန်ပြမည့်အစား ဦးဆုံးနေရာတစ်ခု၏ ရာသီအလိုက် Variation (သို့) ရံဖန်ရံခါ Extreme Weather ကို အဘယ်ကြောင့် ရိုးသားစွာ မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "Presenting a climate zone as absolutely uniform with no variation would misrepresent it, exactly the caution Week 15 established about climate classifications not being zero-exception rules",
+            "Honestly noting variation always makes a brochure less useful to readers",
+            "Seasonal variation and extreme weather have no actual relevance to accurate climate description",
+            "A destination's climate should always be presented as completely uniform with no exceptions",
+          ],
+          optionsMy: [
+            "Climate Zone တစ်ခုကို Variation မရှိဘဲ လုံးလုံး Uniform အဖြစ် တင်ပြခြင်းသည် ၎င်းကို Misrepresent ပြုလုပ်လိမ့်မည်၊ Climate Classification များသည် Zero-Exception Rule များ မဟုတ်ကြောင်း Week 15 က တည်ထောင်ခဲ့သော သတိပေးချက် အတိအကျ ဖြစ်သည်",
+            "Variation ကို ရိုးသားစွာ မှတ်သားခြင်းသည် Brochure ကို ဖတ်ရှုသူများအတွက် အမြဲ ပို၍ အသုံးဝင်မှု နည်းစေသည်",
+            "ရာသီအလိုက် Variation နှင့် Extreme Weather သည် တိကျသော Climate Description နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+            "ဦးဆုံးနေရာတစ်ခု၏ Climate ကို Exception မရှိဘဲ လုံးလုံး Uniform အဖြစ် အမြဲ တင်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 15's caution against treating a climate zone as an absolute rule, applied now to a practical travel document.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Practical ခရီးသွား Document တစ်ခုပေါ်တွင် ယခု အသုံးချထားသော Climate Zone တစ်ခုကို Absolute Rule တစ်ခုအဖြစ် သဘောထားခြင်းကို ဆန့်ကျင်သော Week 15 ၏ သတိပေးချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it important for a brochure describing a coastal destination to distinguish short-term weather forecasts (useful for packing for a specific trip) from the region's overall climate (useful for choosing which season to visit)?",
+          questionMy:
+              "Coastal ဦးဆုံးနေရာတစ်ခုကို ဖော်ပြသော Brochure တစ်ခုသည် Short-Term Weather Forecast (တိကျသော ခရီးစဉ်တစ်ခုအတွက် ပစ္စည်းထုပ်ရန် အသုံးဝင်) ကို ဒေသ၏ ယေဘုယျ Climate (ခရီးသွားရန် ရာသီ မည်သည်ကို ရွေးချယ်ရန် အသုံးဝင်) မှ ခွဲခြားခြင်း အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The two serve genuinely different, useful purposes for a traveler, and confusing them -- exactly the weather-vs-climate error from Week 14 -- could lead to poor travel planning",
+            "Weather forecasts and climate descriptions serve exactly the same purpose with no difference",
+            "A brochure should only ever include weather forecasts, never any climate information",
+            "This distinction has no actual practical value for anyone planning travel",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံးသည် ခရီးသွားသူတစ်ဦးအတွက် စစ်မှန်စွာ ကွဲပြား၊ အသုံးဝင်သော ရည်ရွယ်ချက်များကို ဆောင်ရွက်ပေးပြီး ၎င်းတို့ကို ရှုပ်ထွေးစေခြင်းသည် -- Week 14 ၏ Weather-Vs-Climate အမှား အတိအကျ -- ညံ့ဖျင်းသော ခရီးသွား စီစဉ်မှုသို့ ဦးတည်စေနိုင်သည်",
+            "Weather Forecast များနှင့် Climate Description များသည် ကွာခြားချက် မရှိဘဲ ရည်ရွယ်ချက် အတိအကျ တူညီခြင်း",
+            "Brochure တစ်ခုသည် Weather Forecast များကိုသာ ထည့်သွင်းသင့်ပြီး Climate Information မည်သည်ကိုမျှ ဘယ်တော့မှ ထည့်သွင်းမသင့်ခြင်း",
+            "ဤ ခွဲခြားချက်သည် ခရီးသွားစီစဉ်နေသူ မည်သူအတွက်မဆို Practical Value အမှန်တကယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 14's Aye Aye reading -- weather and climate are genuinely different things serving different purposes, not interchangeable labels.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 14 ၏ Aye Aye စာဖတ်ခြင်းကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Weather နှင့် Climate သည် Interchangeable Label များ မဟုတ်ဘဲ ကွဲပြားသော ရည်ရွယ်ချက်များကို ဆောင်ရွက်ပေးသော စစ်မှန်စွာ ကွဲပြားသော အရာများ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Physical Geography Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 4 Physical Geography ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w16-dm-1",
+          termEn: "Erosion vs. deposition",
+          termMy: "Erosion Vs. Deposition",
+          matchEn:
+              "Two distinct river processes that shape landforms differently along a river's course",
+          matchMy:
+              "မြစ်တစ်ခု၏ Course တစ်လျှောက် Landform များကို ကွဲပြားစွာ ပုံဖော်ပေးသော ကွဲပြားသော မြစ် Process နှစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w16-dm-2",
+          termEn: "Weather vs. climate",
+          termMy: "Weather Vs. Climate",
+          matchEn:
+              "Short-term daily conditions versus the long-term average pattern",
+          matchMy:
+              "Short-Term နေ့စဉ် အခြေအနေများ Versus Long-Term Average Pattern",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w16-dm-3",
+          termEn: "Latitude",
+          termMy: "Latitude",
+          matchEn:
+              "Distance from the equator, a major factor shaping a location's climate",
+          matchMy:
+              "Equator မှ အကွာအဝေး၊ တည်နေရာတစ်ခု၏ Climate ကို ပုံဖော်ပေးသော အဓိက Factor တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w16-dm-4",
+          termEn: "Honest brochure",
+          termMy: "Honest Brochure",
+          matchEn:
+              "A travel document that cites evidence and notes variation rather than overclaiming",
+          matchMy:
+              "Overclaim မလုပ်ဘဲ Evidence ကိုးကားပြီး Variation မှတ်သားသော ခရီးသွား Document",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Accurate Brochure Claim or Overclaimed?",
+      titleMy: "စီစစ်ကြမည် - တိကျသော Brochure Claim (သို့) Overclaimed",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Accurate Brochure Claim", "Overclaimed Brochure Claim"],
+        bucketsMy: ["တိကျသော Brochure Claim", "Overclaimed Brochure Claim"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w16-sort-1",
+            labelEn:
+                "This coastal destination has a warm tropical climate based on decades of temperature data",
+            labelMy:
+                "ဤ Coastal ဦးဆုံးနေရာသည် ဆယ်စုနှစ်များစွာ Temperature Data အပေါ် အခြေခံ၍ နွေးထွေးသော Tropical Climate ရှိသည်",
+            correctBucketEn: "Accurate Brochure Claim",
+            correctBucketMy: "တိကျသော Brochure Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w16-sort-2",
+            labelEn:
+                "It is always perfect weather here every single day with zero exceptions ever",
+            labelMy:
+                "ဤနေရာတွင် Exception Zero ဖြင့် ရက်တိုင်း Weather ပြည့်စုံစွာ ရှိသည်",
+            correctBucketEn: "Overclaimed Brochure Claim",
+            correctBucketMy: "Overclaimed Brochure Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w16-sort-3",
+            labelEn:
+                "This high-altitude city is cooler than its latitude alone would suggest",
+            labelMy:
+                "ဤ Altitude မြင့်သော မြို့သည် ၎င်း၏ Latitude တစ်ခုတည်း ညွှန်ပြမည့်အရာထက် ပို၍ အေးသည်",
+            correctBucketEn: "Accurate Brochure Claim",
+            correctBucketMy: "တိကျသော Brochure Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w16-sort-4",
+            labelEn:
+                "This destination has literally never experienced any rain at any point in recorded history",
+            labelMy:
+                "ဤ ဦးဆုံးနေရာသည် Record ပြုလုပ်ထားသော သမိုင်း အချက်တစ်ခုတွင်မျှ မိုးတစ်ခါမျှ ရွာဖူးခြင်း မရှိသေးပါ",
+            correctBucketEn: "Overclaimed Brochure Claim",
+            correctBucketMy: "Overclaimed Brochure Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Honest Brochure",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ ရိုးသား Brochure",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Honest Brochure",
+        titleMy: "Ko Zin Ko Ko ၏ ရိုးသား Brochure",
+        passageEn:
+            "For Term 4's capstone, Ko Zin Ko Ko designed a travel brochure for a real coastal destination, combining every physical geography skill from the term into one practical document.\n\nHis opening section applied Week 13's river vocabulary, briefly explaining how the region's river delta had created the fertile coastal plain visitors would see, citing the river's slow flow speed and heavy sediment load as the specific cause -- not a vague description.\n\nHis climate section applied Week 15's zone knowledge, explaining that the destination's tropical classification came from its low latitude, moderated by its coastal position, which kept temperature swings smaller than an inland location at the same latitude would experience. He was careful, following Week 15's caution, to note this was a general long-term pattern rather than a promise that every single day would be identically warm.\n\nHis final section applied Week 14's weather-vs-climate distinction directly: a clear box separated 'Climate (general pattern, useful for choosing when to visit)' from 'Weather (check a forecast closer to your trip, useful for packing)' -- explicitly telling readers not to confuse the two, exactly the error Aye Aye had caught in her own diary back in Week 14.\n\nHis teacher praised the brochure specifically for what it did not claim: no promise of guaranteed perfect weather, no pretense that the climate classification meant zero variation, and no vague unsupported description standing in for a specific, evidenced explanation. 'A good brochure and a good geography report,' she said, 'follow the exact same rules of evidence and honesty -- one just has better pictures.'",
+        passageMy:
+            "Term 4 ၏ Capstone အတွက် Real Coastal ဦးဆုံးနေရာတစ်ခုအတွက် ခရီးသွား Brochure တစ်ခု Ko Zin Ko Ko Design ပြုလုပ်ခဲ့ပြီး Term မှ Physical Geography Skill တိုင်းကို Practical Document တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ခဲ့သည်။\n\n၎င်း၏ ဖွင့်လှစ် Section သည် Week 13 ၏ River Vocabulary ကို အသုံးချကာ ဒေသ၏ မြစ် Delta သည် ခရီးသွားများ မြင်တွေ့ရမည့် ကြွယ်ဝသော Coastal Plain ကို မည်သို့ ဖန်တီးခဲ့သည်ကို အကျဉ်းချုပ် ရှင်းပြပြီး Vague ဖော်ပြချက်တစ်ခု မဟုတ်ဘဲ Actual Cause အဖြစ် မြစ်၏ နှေးကွေးသော Flow Speed နှင့် လေးလံသော Sediment Load ကို ကိုးကားခဲ့သည်။\n\n၎င်း၏ Climate Section သည် Week 15 ၏ Zone Knowledge ကို အသုံးချကာ ဦးဆုံးနေရာ၏ Tropical Classification သည် ၎င်း၏ နိမ့်သော Latitude မှ ဖြစ်ပေါ်လာကြောင်းနှင့် ၎င်း၏ Coastal Position က Moderate ပြုလုပ်ပေးကာ Latitude တူညီသော Inland တည်နေရာတစ်ခု ကြုံတွေ့ရမည့်အရာထက် Temperature Swing များ ငယ်စေခဲ့ကြောင်း ရှင်းပြခဲ့သည်။ Week 15 ၏ သတိပေးချက်ကို လိုက်နာကာ ရက်တိုင်း အတိအကျ နွေးထွေးမည်ဟု ကတိကဝတ်တစ်ခု မဟုတ်ဘဲ ယေဘုယျ Long-Term Pattern တစ်ခု ဖြစ်ကြောင်း မှတ်သားရန် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး Section သည် Week 14 ၏ Weather-Vs-Climate ခွဲခြားချက်ကို တိုက်ရိုက် အသုံးချခဲ့သည် - ရှင်းလင်းသော Box တစ်ခုသည် 'Climate (ယေဘုယျ Pattern၊ ခရီးသွားရန် ရာသီ မည်သည်ကို ရွေးချယ်ရန် အသုံးဝင်)' ကို 'Weather (သင့်ခရီးစဉ်နှင့် ပို၍ နီးကပ်စွာ Forecast စစ်ဆေးပါ၊ ပစ္စည်းထုပ်ရန် အသုံးဝင်)' မှ ခွဲခြားထားသည် -- Week 14 တွင် Aye Aye ၎င်းကိုယ်ပိုင် Diary တွင် ဖမ်းယူခဲ့သော အမှား အတိအကျဖြင့် နှစ်ခုကို ရှုပ်ထွေးမနေရန် ဖတ်ရှုသူများကို ရှင်းလင်းစွာ ပြောပြထားသည်။\n\n၎င်း Claim မပြုလုပ်ခဲ့သည့်အရာအတွက် Brochure ကို ၎င်း၏ ဆရာမ တိတိကျကျ ချီးမွမ်းခဲ့သည် - Weather ပြည့်စုံမည်ဟု ကတိကဝတ် မရှိခြင်း၊ Climate Classification သည် Zero Variation ကို ဆိုလိုသည်ဟု ဟန်ဆောင်မှု မရှိခြင်းနှင့် တိကျ၊ Evidenced ရှင်းပြချက်တစ်ခုအစား Vague, ထောက်ခံမှု မရှိသော ဖော်ပြချက် မရှိခြင်း။ 'ကောင်းသော Brochure တစ်ခုနှင့် ကောင်းသော Geography Report တစ်ခုသည် Evidence နှင့် ရိုးသားမှု၏ Rule တူတူကို လိုက်နာသည်' ဟု ၎င်း ပြောခဲ့သည် '- တစ်ခုက ပုံပိုကောင်းရုံသာ ကွာခြားသည်။'",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ko Zin Ko Ko's opening section cite as the specific cause of the fertile coastal plain?",
+            questionMy:
+                "ကြွယ်ဝသော Coastal Plain ၏ Specific Cause အဖြစ် Ko Zin Ko Ko ၏ ဖွင့်လှစ် Section ကိုးကားခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The river's slow flow speed and heavy sediment load",
+              "No cause of any kind was cited whatsoever",
+              "A vague description with no specific evidence at all",
+              "A completely unrelated factor with no connection to the river",
+            ],
+            optionsMy: [
+              "မြစ်၏ နှေးကွေးသော Flow Speed နှင့် လေးလံသော Sediment Load",
+              "Cause မည်သည်ကိုမျှ ကိုးကားခြင်း လုံးဝ မရှိခြင်း",
+              "Specific Evidence မည်သည်မှ မပါသော Vague ဖော်ပြချက်တစ်ခု",
+              "မြစ်နှင့် ချိတ်ဆက်မှု မရှိသော လုံးလုံး မသက်ဆိုင်သော Factor တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited cause."],
+            hintsMy: [
+              "ကိုးကားထားသော Cause ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what did the brochure's final section separate into two labeled boxes?",
+            questionMy:
+                "Label တင်ထားသော Box နှစ်ခုအဖြစ် Brochure ၏ နောက်ဆုံး Section ခွဲခြားခဲ့သည့်အရာကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Climate (general pattern) and Weather (check closer to your trip)",
+              "Two identical boxes with no actual difference between them",
+              "Only one box with no separation of any kind",
+              "Information entirely unrelated to weather or climate",
+            ],
+            optionsMy: [
+              "Climate (ယေဘုယျ Pattern) နှင့် Weather (သင့်ခရီးစဉ်နှင့် ပို၍ နီးကပ်စွာ စစ်ဆေးပါ)",
+              "တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ကွာခြားချက် မရှိသော Box နှစ်ခု တူတူ",
+              "ခွဲခြားမှု မည်သည်မှ မပါသော Box တစ်ခုတည်း",
+              "Weather (သို့) Climate နှင့် လုံးဝ မသက်ဆိုင်သော Information",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the fourth paragraph's described box separation.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Box ခွဲခြားမှုကို စတုတ္ထ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say a good brochure and a good geography report share?",
+            questionMy:
+                "ကောင်းသော Brochure တစ်ခုနှင့် ကောင်းသော Geography Report တစ်ခု မျှဝေသည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The exact same rules of evidence and honesty",
+              "No actual similarity of any kind whatsoever",
+              "Completely different, unrelated sets of rules",
+              "Only their use of decorative pictures",
+            ],
+            optionsMy: [
+              "Evidence နှင့် ရိုးသားမှု၏ Rule တူတူ",
+              "Similarity မည်သည်မှ အမှန်တကယ် လုံးဝ မရှိခြင်း",
+              "လုံးလုံး ကွဲပြား၊ မသက်ဆိုင်သော Rule အစုအဝေးများ",
+              "အလှဆင် ပုံများ အသုံးပြုခြင်း တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated shared principle."],
+            hintsMy: [
+              "ဖော်ပြထားသော မျှဝေထားသော Principle ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: Physical Geography Exam",
+      titleMy: "Term 4 Capstone - Physical Geography စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A brochure describing a destination's climate should cite...",
+          questionMy:
+              "ဦးဆုံးနေရာတစ်ခု၏ Climate ကို ဖော်ပြသော Brochure တစ်ခုသည် ...ကို ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific physical factors like latitude and altitude",
+            "A vague, unsupported impression",
+            "Nothing at all about the climate",
+            "A guess with no actual evidence",
+          ],
+          optionsMy: [
+            "Latitude နှင့် Altitude ကဲ့သို့ တိကျသော Physical Factor များ",
+            "ထောက်ခံမှု မရှိသော Vague Impression တစ်ခု",
+            "Climate အကြောင်း ဘာမှ",
+            "Actual Evidence မပါသော ခန့်မှန်းချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A responsible brochure should acknowledge that a climate zone classification...",
+          questionMy:
+              "တာဝန်သိသော Brochure တစ်ခုသည် Climate Zone Classification တစ်ခုသည် ...ကို အသိအမှတ်ပြုသင့်သည်",
+          optionsEn: [
+            "Describes a general pattern, not zero-exception uniformity",
+            "Guarantees identical weather every single day",
+            "Has no actual connection to physical geography",
+            "Should never be mentioned in travel materials",
+          ],
+          optionsMy: [
+            "Zero-Exception Uniformity မဟုတ်ဘဲ ယေဘုယျ Pattern တစ်ခုကို ဖော်ပြသည်",
+            "ရက်တိုင်း Weather အတိအကျ တူညီစွာ အာမခံသည်",
+            "Physical Geography နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိသည်",
+            "ခရီးသွား Material များတွင် ဘယ်တော့မှ မဖော်ပြသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Weather forecasts and climate descriptions serve...",
+          questionMy:
+              "Weather Forecast များနှင့် Climate Description များသည် ...ဆောင်ရွက်ပေးသည်",
+          optionsEn: [
+            "Different, genuinely useful purposes for a traveler",
+            "Exactly the same purpose with no difference",
+            "No actual purpose of any kind whatsoever",
+            "Purposes unrelated to travel planning",
+          ],
+          optionsMy: [
+            "ခရီးသွားသူတစ်ဦးအတွက် ကွဲပြား၊ စစ်မှန်စွာ အသုံးဝင်သော ရည်ရွယ်ချက်များ",
+            "ကွာခြားချက် မရှိဘဲ ရည်ရွယ်ချက် အတိအကျ တူညီခြင်း",
+            "ရည်ရွယ်ချက် မည်သည်မှ အမှန်တကယ် လုံးဝ မရှိခြင်း",
+            "ခရီးသွား စီစဉ်မှုနှင့် မသက်ဆိုင်သော ရည်ရွယ်ချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 4: "Physical Geography Foundations"
+// (Weeks 13-16)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm4 = CourseTermDef(
+  id: "course-sec1-hum-t4",
+  termNumber: 4,
+  titleEn: "Physical Geography Foundations",
+  titleMy: "Physical Geography Foundations",
+  certificateTitleEn: "Physical Geography Foundations",
+  certificateTitleMy: "Physical Geography Foundations",
+  weeks: [_sec1HumWeek13, _sec1HumWeek14, _sec1HumWeek15, _sec1HumWeek16],
 );
 // __SEC_HUM_MARKER__
