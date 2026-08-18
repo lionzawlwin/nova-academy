@@ -229,44 +229,40 @@ class _RemedialReviewCard extends StatelessWidget {
           for (final lesson in lessons)
             Padding(
               padding: const EdgeInsets.only(bottom: 8),
-              child: InkWell(
-                borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
+              child: CandyBevelSurface(
+                faceColor: theme.colorScheme.surfaceContainerHigh,
+                bevelDepth: CandyBevelDepth.secondary,
+                borderRadius: AppTheme.radiusMedium,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 10,
+                ),
                 onTap: () => onOpenLesson(lesson),
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 10,
-                  ),
-                  decoration: BoxDecoration(
-                    color: theme.colorScheme.surfaceContainerHigh,
-                    borderRadius: BorderRadius.circular(AppTheme.radiusMedium),
-                  ),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          lc == 'my' ? lesson.titleMy : lesson.titleEn,
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                          ),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        lc == 'my' ? lesson.titleMy : lesson.titleEn,
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          fontWeight: FontWeight.w600,
                         ),
                       ),
-                      const SizedBox(width: 8),
-                      Icon(
-                        Icons.replay_rounded,
-                        size: 18,
+                    ),
+                    const SizedBox(width: 8),
+                    Icon(
+                      Icons.replay_rounded,
+                      size: 18,
+                      color: AppColors.accent,
+                    ),
+                    const SizedBox(width: 4),
+                    Text(
+                      l10n.coursePathwayReviewLessonHint,
+                      style: theme.textTheme.labelSmall?.copyWith(
                         color: AppColors.accent,
+                        fontWeight: FontWeight.w700,
                       ),
-                      const SizedBox(width: 4),
-                      Text(
-                        l10n.coursePathwayReviewLessonHint,
-                        style: theme.textTheme.labelSmall?.copyWith(
-                          color: AppColors.accent,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
             ),
