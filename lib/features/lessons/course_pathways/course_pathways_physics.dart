@@ -13952,8 +13952,8 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 8,
-  terms: [year12PhysicsTerm1, year12PhysicsTerm2],
+  totalWeeks: 12,
+  terms: [year12PhysicsTerm1, year12PhysicsTerm2, year12PhysicsTerm3],
 );
 
 // =====================================================================
@@ -15266,6 +15266,1343 @@ const CourseTermDef year12PhysicsTerm2 = CourseTermDef(
   weeks: [_y12PhysWeek5, _y12PhysWeek6, _y12PhysWeek7, _y12PhysWeek8],
   certificateTitleEn: "AS Physics: Kinematics",
   certificateTitleMy: "AS ရူပဗေဒ - Kinematics",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 3: "Dynamics (Newton's Laws and Momentum)"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Newton's Laws of Motion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek9 = CourseWeekDef(
+  id: "course-y12-phys-w9",
+  weekNumber: 9,
+  titleEn: "Newton's Laws of Motion",
+  titleMy: "Newton ၏ ရွေ့လျားမှု ဥပဒေများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w9-d1",
+      dayNumber: 1,
+      titleEn: "The Three Laws",
+      titleMy: "ဥပဒေ သုံးခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Newton's first law states that an object will remain at rest or move at constant velocity unless...",
+          questionMy:
+              "Newton ၏ ပထမ ဥပဒေအရ ပစ္စည်းတစ်ခုသည် ...မှလွဲ၍ ရပ်ငြိမ်နေမည် (သို့) Constant Velocity ဖြင့် ရွေ့လျားနေမည် ဖြစ်သည်",
+          optionsEn: [
+            "A resultant (net) force acts on it",
+            "It is touched by a person",
+            "Time passes",
+            "It has non-zero mass",
+          ],
+          optionsMy: [
+            "Resultant (Net) Force တစ်ခု ၎င်းပေါ် သက်ရောက်ခြင်း",
+            "လူတစ်ဦးက ၎င်းကို ထိတွေ့ခြင်း",
+            "အချိန် ကုန်ဆုံးခြင်း",
+            "Mass Zero မဟုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the law of inertia -- velocity only changes when a net (unbalanced) force acts.",
+          ],
+          hintsMy: [
+            "ဤသည် Law of Inertia ဖြစ်သည် -- Net (Unbalanced) Force တစ်ခု သက်ရောက်မှသာ Velocity ပြောင်းလဲသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Newton's second law, F = ma, a resultant force of 20 N acting on a 4 kg mass produces an acceleration of...",
+          questionMy:
+              "Newton ၏ ဒုတိယ ဥပဒေ F = ma အရ Mass 4 kg ပေါ် သက်ရောက်နေသော Resultant Force 20 N သည် ဖြစ်ပေါ်စေသော Acceleration မှာ...",
+          optionsEn: ["5 m s⁻²", "80 m s⁻²", "0.2 m s⁻²", "16 m s⁻²"],
+          optionsMy: ["5 m s⁻²", "80 m s⁻²", "0.2 m s⁻²", "16 m s⁻²"],
+          correctIndex: 0,
+          hintsEn: ["a = F / m = 20 / 4 = 5 m s⁻²."],
+          hintsMy: ["a = F / m = 20 / 4 = 5 m s⁻² ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Newton's third law states that when object A exerts a force on object B...",
+          questionMy:
+              "Newton ၏ တတိယ ဥပဒေအရ Object A သည် Object B ပေါ် Force သက်ရောက်စေသည့်အခါ...",
+          optionsEn: [
+            "Object B exerts an equal and opposite force on object A",
+            "Object B accelerates twice as fast as object A",
+            "Object A always stays perfectly still",
+            "No force acts on object B at all",
+          ],
+          optionsMy: [
+            "Object B သည် Object A ပေါ် ညီမျှပြီး ဆန့်ကျင်ဘက် Force ပြန်သက်ရောက်စေသည်",
+            "Object B သည် Object A ထက် နှစ်ဆ မြန်စွာ အရှိန်တက်သည်",
+            "Object A သည် အမြဲ လုံးဝ ငြိမ်နေသည်",
+            "Object B ပေါ် Force လုံးဝ မသက်ရောက်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Newton's third law pairs always act on two DIFFERENT objects, are equal in magnitude, and are opposite in direction -- they never cancel each other since they act on different bodies.",
+          ],
+          hintsMy: [
+            "Newton ၏ တတိယ ဥပဒေ Pair များသည် ကွဲပြားသော Object နှစ်ခုပေါ် အမြဲ သက်ရောက်ပြီး Magnitude တူညီကာ Direction ဆန့်ကျင်ဘက် ဖြစ်သည် -- ကွဲပြားသော Body များပေါ် သက်ရောက်သောကြောင့် တစ်ခုနှင့်တစ်ခု လုံးဝ မချေဖျက်ကြပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Newton's Laws in Everyday Situations",
+      titleMy: "တွဲစပ်ကြမည် - နေ့စဉ် အခြေအနေများရှိ Newton ၏ ဥပဒေများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w9-dm-1",
+          termEn: "A passenger lurches forward when a bus suddenly stops",
+          termMy:
+              "ဘတ်စ်ကား ရုတ်တရက် ရပ်လိုက်သောအခါ ခရီးသည်တစ်ဦး ရှေ့သို့ တွန်းထွက်သည်",
+          matchEn: "Newton's first law (inertia)",
+          matchMy: "Newton ၏ ပထမ ဥပဒေ (Inertia)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w9-dm-2",
+          termEn:
+              "A heavier trolley needs a bigger push to reach the same acceleration",
+          termMy:
+              "ပိုလေးသော Trolley တစ်ခုအား Acceleration တူညီအောင် ပိုကြီးသော တွန်းအား လိုအပ်သည်",
+          matchEn: "Newton's second law (F = ma)",
+          matchMy: "Newton ၏ ဒုတိယ ဥပဒေ (F = ma)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w9-dm-3",
+          termEn: "A swimmer pushes water backward and moves forward",
+          termMy:
+              "ရေကူးသူတစ်ဦးသည် ရေကို နောက်သို့ တွန်းပြီး ရှေ့သို့ ရွေ့လျားသည်",
+          matchEn: "Newton's third law (action-reaction)",
+          matchMy: "Newton ၏ တတိယ ဥပဒေ (Action-Reaction)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w9-dm-4",
+          termEn: "A rocket expels gas downward and accelerates upward",
+          termMy:
+              "ဒုံးပျံတစ်စင်းသည် ဓာတ်ငွေ့ကို အောက်သို့ ထုတ်လွှတ်ပြီး အထက်သို့ အရှိန်တက်သည်",
+          matchEn: "Newton's third law (action-reaction)",
+          matchMy: "Newton ၏ တတိယ ဥပဒေ (Action-Reaction)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w9-dm-5",
+          termEn: "A book resting on a table stays still with balanced forces",
+          termMy:
+              "စားပွဲပေါ်ရှိ စာအုပ်တစ်အုပ်သည် ချိန်ညှိထားသော Force များဖြင့် မငြိမ်နေသည်",
+          matchEn: "Newton's first law (equilibrium)",
+          matchMy: "Newton ၏ ပထမ ဥပဒေ (Equilibrium)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Newton's First, Second or Third Law?",
+      titleMy: "စီစစ်ကြမည် - Newton ၏ ပထမ၊ ဒုတိယ၊ တတိယ ဥပဒေ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["First Law (Inertia)", "Third Law (Action-Reaction)"],
+        bucketsMy: ["ပထမ ဥပဒေ (Inertia)", "တတိယ ဥပဒေ (Action-Reaction)"],
+        items: [
+          SortingItem(
+            id: "y12phys-w9-sort-1",
+            labelEn: "A ball keeps rolling until friction slows it down",
+            labelMy:
+                "ဘောလုံးတစ်လုံးသည် Friction က နှေးကွေးစေသည်အထိ လိမ့်နေဆဲ ဖြစ်သည်",
+            correctBucketEn: "First Law (Inertia)",
+            correctBucketMy: "ပထမ ဥပဒေ (Inertia)",
+          ),
+          SortingItem(
+            id: "y12phys-w9-sort-2",
+            labelEn: "A gun recoils backward when a bullet fires forward",
+            labelMy:
+                "ကျည်ဆံ ရှေ့သို့ ပစ်ခတ်သောအခါ သေနတ်သည် နောက်သို့ ပြန်တွန်းသည်",
+            correctBucketEn: "Third Law (Action-Reaction)",
+            correctBucketMy: "တတိယ ဥပဒေ (Action-Reaction)",
+          ),
+          SortingItem(
+            id: "y12phys-w9-sort-3",
+            labelEn:
+                "A seated passenger tends to stay seated unless a force acts",
+            labelMy:
+                "ထိုင်နေသော ခရီးသည်သည် Force တစ်ခု မသက်ရောက်ပါက ထိုင်နေဆဲ ဖြစ်ချင်သည်",
+            correctBucketEn: "First Law (Inertia)",
+            correctBucketMy: "ပထမ ဥပဒေ (Inertia)",
+          ),
+          SortingItem(
+            id: "y12phys-w9-sort-4",
+            labelEn: "Walking forward by pushing backward against the ground",
+            labelMy:
+                "မြေပြင်ကို နောက်သို့ တွန်းခြင်းဖြင့် ရှေ့သို့ လမ်းလျှောက်ခြင်း",
+            correctBucketEn: "Third Law (Action-Reaction)",
+            correctBucketMy: "တတိယ ဥပဒေ (Action-Reaction)",
+          ),
+          SortingItem(
+            id: "y12phys-w9-sort-5",
+            labelEn:
+                "An object with no resultant force stays at constant velocity",
+            labelMy:
+                "Resultant Force မရှိသော ပစ္စည်းတစ်ခုသည် Constant Velocity တွင် ဆက်ရှိနေသည်",
+            correctBucketEn: "First Law (Inertia)",
+            correctBucketMy: "ပထမ ဥပဒေ (Inertia)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Lift and the Bathroom Scale",
+      titleMy: "စာဖတ်ခြင်း - Lift နှင့် ရေချိုးခန်း စကေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Lift and the Bathroom Scale",
+        titleMy: "Lift နှင့် ရေချိုးခန်း စကေး",
+        passageEn:
+            "Sayar Htay Aung posed a classic Newton's-second-law problem: a 60 kg student stands on a bathroom scale inside a lift, and he asked what the scale reads in three situations -- the lift stationary, the lift accelerating upward at 2 m s⁻², and the lift accelerating downward at 2 m s⁻².\n\nEi Ei Phyo explained that a scale actually reads the normal contact force it exerts upward on the student, not their true weight directly. When the lift is stationary (or moving at constant velocity), the resultant force on the student is zero, so the normal force N exactly balances weight: N = mg = 60 x 9.81 = 588.6 N, and the scale reads the student's normal weight.\n\nWhen the lift accelerates upward at 2 m s⁻², there is now a resultant force acting upward on the student, so N must be larger than weight: applying Newton's second law, N - mg = ma, which rearranges to N = m(g + a) = 60 x (9.81 + 2) = 708.6 N -- the scale reads more than normal weight, which matches the familiar feeling of being pressed down into the floor as a lift starts moving up. When the lift accelerates downward at 2 m s⁻², the resultant force acts downward instead, so N = m(g - a) = 60 x (9.81 - 2) = 468.6 N -- the scale reads less than normal weight, matching the familiar light, floating feeling as a lift starts moving down. Sayar Htay Aung noted that if the lift's downward acceleration ever reached exactly g (9.81 m s⁻²), the scale would read zero -- true apparent weightlessness, exactly as astronauts experience in orbit.",
+        passageMy:
+            "ဆရာထွေးအောင်သည် Newton ၏ ဒုတိယ ဥပဒေ ရိုးရာ ပြဿနာတစ်ခုကို တင်ပြခဲ့သည် - Mass 60 kg ရှိသော ကျောင်းသားတစ်ဦးသည် Lift အတွင်းရှိ ရေချိုးခန်း စကေးပေါ် ရပ်နေသည်ဟု ဆိုကာ Lift ရပ်ငြိမ်နေချိန်၊ Lift 2 m s⁻² ဖြင့် အထက်သို့ အရှိန်တက်ချိန်နှင့် Lift 2 m s⁻² ဖြင့် အောက်သို့ အရှိန်တက်ချိန်၊ အခြေအနေ သုံးမျိုးတွင် Scale ဘာဖတ်မည်ကို မေးမြန်းခဲ့သည်။\n\nScale တစ်ခုသည် တကယ်တမ်း ၎င်း၏ Weight တိုက်ရိုက် မဟုတ်ဘဲ ကျောင်းသားပေါ် အထက်သို့ သက်ရောက်စေသော Normal Contact Force ကို ဖတ်ရှုသည်ဟု Ei Ei Phyo ရှင်းပြခဲ့သည်။ Lift ရပ်ငြိမ်နေချိန် (သို့) Constant Velocity ဖြင့် ရွေ့လျားနေချိန်တွင် ကျောင်းသားပေါ် Resultant Force သည် Zero ဖြစ်သောကြောင့် Normal Force N သည် Weight ကို အတိအကျ ချိန်ညှိပေးသည် - N = mg = 60 x 9.81 = 588.6 N ဖြစ်ပြီး Scale သည် ကျောင်းသား၏ ပုံမှန် Weight ကို ဖတ်ရှုသည်။\n\nLift သည် 2 m s⁻² ဖြင့် အထက်သို့ အရှိန်တက်သောအခါ ကျောင်းသားပေါ် အထက်သို့ Resultant Force တစ်ခု ယခုအခါ သက်ရောက်နေသောကြောင့် N သည် Weight ထက် ပိုကြီးရမည် - Newton ၏ ဒုတိယ ဥပဒေကို အသုံးပြု၍ N - mg = ma ဖြစ်ပြီး N = m(g + a) = 60 x (9.81 + 2) = 708.6 N အဖြစ် ပြန်စီစဉ်နိုင်သည် -- Scale သည် ပုံမှန် Weight ထက် ပိုမို ဖတ်ရှုသည်၊ ၎င်းသည် Lift အထက်သို့ ရွေ့လျားစတင်သောအခါ ကြမ်းပြင်ထဲသို့ ဖိနှိပ်ခံရသော ရင်းနှီးသော ခံစားချက်နှင့် ကိုက်ညီသည်။ Lift သည် 2 m s⁻² ဖြင့် အောက်သို့ အရှိန်တက်သောအခါ Resultant Force သည် အောက်သို့ အစား သက်ရောက်နေသောကြောင့် N = m(g - a) = 60 x (9.81 - 2) = 468.6 N ဖြစ်သည် -- Scale သည် ပုံမှန် Weight ထက် ပိုနည်း ဖတ်ရှုသည်၊ ၎င်းသည် Lift အောက်သို့ ရွေ့လျားစတင်သောအခါ ရင်းနှီးသော ပေါ့ပါး၊ မျောနေသည့် ခံစားချက်နှင့် ကိုက်ညီသည်။ Lift ၏ အောက်သို့ Acceleration သည် g (9.81 m s⁻²) အတိအကျ ရောက်ရှိလာပါက Scale သည် Zero ဖတ်ရှုမည် ဖြစ်ကြောင်း -- Orbit ထဲရှိ Astronaut များ ခံစားရသကဲ့သို့ တကယ့် Apparent Weightlessness ဖြစ်ကြောင်း ဆရာထွေးအောင် ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does a bathroom scale actually measure?",
+            questionMy:
+                "ရေချိုးခန်း စကေးတစ်ခုသည် တကယ်တမ်း အဘယ်ကို တိုင်းတာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The normal contact force it exerts on the person",
+              "The person's mass directly",
+              "The lift's total speed",
+              "The gravitational field strength alone",
+            ],
+            optionsMy: [
+              "လူပေါ် သက်ရောက်စေသော Normal Contact Force",
+              "လူ၏ Mass တိုက်ရိုက်",
+              "Lift ၏ စုစုပေါင်း Speed",
+              "Gravitational Field Strength တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does the scale read when the lift accelerates upward?",
+            questionMy:
+                "Lift အထက်သို့ အရှိန်တက်သောအခါ Scale ဘာဖတ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "708.6 N, more than normal weight",
+              "468.6 N, less than normal weight",
+              "588.6 N, exactly normal weight",
+              "Zero, true weightlessness",
+            ],
+            optionsMy: [
+              "708.6 N, ပုံမှန် Weight ထက် ပိုများသည်",
+              "468.6 N, ပုံမှန် Weight ထက် ပိုနည်းသည်",
+              "588.6 N, ပုံမှန် Weight အတိအကျ",
+              "Zero, တကယ့် Weightlessness",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what would happen if the lift's downward acceleration equalled g?",
+            questionMy:
+                "Lift ၏ အောက်သို့ Acceleration သည် g နှင့် ညီမျှလျှင် အဘယ်ဖြစ်လာမည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The scale would read zero -- true apparent weightlessness",
+              "The scale would break completely",
+              "The scale would read double the normal weight",
+              "Nothing would change from the stationary case",
+            ],
+            optionsMy: [
+              "Scale သည် Zero ဖတ်မည် -- တကယ့် Apparent Weightlessness",
+              "Scale လုံးဝ ပျက်စီးသွားမည်",
+              "Scale သည် ပုံမှန် Weight ၏ နှစ်ဆ ဖတ်မည်",
+              "ရပ်ငြိမ်နေချိန်ကိစ္စမှ မည်သည့်အရာမျှ မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Newton's Laws",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Newton ၏ ဥပဒေများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "F = ma is a statement of Newton's...",
+          questionMy: "F = ma သည် Newton ၏ ...ကို ဖော်ပြသော ဖော်မြူလာ ဖြစ်သည်",
+          optionsEn: [
+            "Second law",
+            "First law",
+            "Third law",
+            "Law of gravitation",
+          ],
+          optionsMy: [
+            "ဒုတိယ ဥပဒေ",
+            "ပထမ ဥပဒေ",
+            "တတိယ ဥပဒေ",
+            "Law of Gravitation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Newton's third law pairs act on...",
+          questionMy: "Newton ၏ တတိယ ဥပဒေ Pair များသည် ...ပေါ် သက်ရောက်သည်",
+          optionsEn: [
+            "Two different objects",
+            "The same single object",
+            "No object at all",
+            "Only massless objects",
+          ],
+          optionsMy: [
+            "ကွဲပြားသော Object နှစ်ခု",
+            "Object တစ်ခုတည်း",
+            "Object လုံးဝ မရှိပါ",
+            "Mass မရှိသော Object များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A resultant force of 10 N on a 2 kg mass produces an acceleration of...",
+          questionMy:
+              "Mass 2 kg ပေါ် Resultant Force 10 N သည် ဖြစ်ပေါ်စေသော Acceleration မှာ...",
+          optionsEn: ["5 m s⁻²", "20 m s⁻²", "0.2 m s⁻²", "12 m s⁻²"],
+          optionsMy: ["5 m s⁻²", "20 m s⁻²", "0.2 m s⁻²", "12 m s⁻²"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Momentum and Conservation of Momentum"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek10 = CourseWeekDef(
+  id: "course-y12-phys-w10",
+  weekNumber: 10,
+  titleEn: "Momentum and Conservation of Momentum",
+  titleMy: "Momentum နှင့် Conservation of Momentum",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w10-d1",
+      dayNumber: 1,
+      titleEn: "Defining and Calculating Momentum",
+      titleMy: "Momentum အဓိပ္ပာယ်ဖွင့်ဆိုခြင်းနှင့် တွက်ချက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Momentum p is defined as...",
+          questionMy: "Momentum p ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Mass multiplied by velocity (p = mv)",
+            "Mass multiplied by acceleration",
+            "Force multiplied by time",
+            "Mass divided by velocity",
+          ],
+          optionsMy: [
+            "Mass ကို Velocity ဖြင့် မြှောက်ခြင်း (p = mv)",
+            "Mass ကို Acceleration ဖြင့် မြှောက်ခြင်း",
+            "Force ကို Time ဖြင့် မြှောက်ခြင်း",
+            "Mass ကို Velocity ဖြင့် စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A 1200 kg car travels at 15 m s⁻¹. Its momentum is...",
+          questionMy:
+              "Car 1200 kg သည် 15 m s⁻¹ ဖြင့် ခရီးသွားသည်။ ၎င်း၏ Momentum မှာ...",
+          optionsEn: [
+            "18000 kg m s⁻¹",
+            "1215 kg m s⁻¹",
+            "80 kg m s⁻¹",
+            "9000 kg m s⁻¹",
+          ],
+          optionsMy: [
+            "18000 kg m s⁻¹",
+            "1215 kg m s⁻¹",
+            "80 kg m s⁻¹",
+            "9000 kg m s⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: ["p = mv = 1200 x 15 = 18000 kg m s⁻¹."],
+          hintsMy: ["p = mv = 1200 x 15 = 18000 kg m s⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The principle of conservation of momentum states that, in a closed system with no external forces...",
+          questionMy:
+              "External Force မရှိသော Closed System တစ်ခုတွင် Conservation of Momentum ၏ နိယာမအရ...",
+          optionsEn: [
+            "Total momentum before an event equals total momentum after",
+            "Total momentum always increases over time",
+            "Momentum is only conserved if kinetic energy is also conserved",
+            "Each object's individual momentum must stay unchanged",
+          ],
+          optionsMy: [
+            "ဖြစ်ရပ်တစ်ခု မဖြစ်ပွားမီ စုစုပေါင်း Momentum သည် ဖြစ်ပွားပြီးနောက် စုစုပေါင်း Momentum နှင့် ညီမျှသည်",
+            "စုစုပေါင်း Momentum သည် အချိန်ကြာလာသည်နှင့်အမျှ အမြဲ တိုးလာသည်",
+            "Kinetic Energy ပါ ထိန်းသိမ်းမှသာ Momentum ကို ထိန်းသိမ်းသည်",
+            "Object တစ်ခုစီ၏ ကိုယ်ပိုင် Momentum သည် မပြောင်းလဲဘဲ ရှိနေရမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Total momentum is conserved for the whole system, even though individual objects' momenta can change dramatically -- this is different from conservation of kinetic energy, which only holds in elastic collisions.",
+          ],
+          hintsMy: [
+            "Object တစ်ခုစီ၏ Momentum သည် ဆိုးရွားစွာ ပြောင်းလဲနိုင်သော်လည်း System တစ်ခုလုံး၏ စုစုပေါင်း Momentum ကို ထိန်းသိမ်းထားသည် -- ၎င်းသည် Elastic Collision များတွင်သာ ရှိသော Kinetic Energy ထိန်းသိမ်းမှုနှင့် ကွဲပြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Momentum Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Momentum ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w10-dm-1",
+          termEn: "Momentum",
+          termMy: "Momentum",
+          matchEn: "A vector quantity equal to mass x velocity",
+          matchMy: "Mass x Velocity နှင့် ညီမျှသော Vector Quantity",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w10-dm-2",
+          termEn: "Closed system",
+          termMy: "Closed System",
+          matchEn: "A system with no external forces acting on it",
+          matchMy: "External Force မသက်ရောက်သော System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w10-dm-3",
+          termEn: "Conservation of momentum",
+          termMy: "Conservation of Momentum",
+          matchEn:
+              "Total momentum before an interaction equals total momentum after",
+          matchMy:
+              "Interaction မဖြစ်ပွားမီ စုစုပေါင်း Momentum သည် ဖြစ်ပွားပြီးနောက် စုစုပေါင်း Momentum နှင့် ညီမျှသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w10-dm-4",
+          termEn: "Recoil",
+          termMy: "Recoil",
+          matchEn:
+              "The backward motion of an object after ejecting mass forward",
+          matchMy:
+              "Mass ကို ရှေ့သို့ ထုတ်လွှတ်ပြီးနောက် Object ၏ နောက်ပြန် ရွေ့လျားမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w10-dm-5",
+          termEn: "Vector sum",
+          termMy: "Vector Sum",
+          matchEn: "How individual momenta combine, accounting for direction",
+          matchMy:
+              "Direction ကို ထည့်တွက်၍ Individual Momentum များ ပေါင်းစပ်ပုံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Momentum Conserved or Not?",
+      titleMy: "စီစစ်ကြမည် - Momentum ထိန်းသိမ်းသလား၊ မထိန်းသိမ်းဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Momentum Conserved", "Momentum Not Conserved"],
+        bucketsMy: ["Momentum ထိန်းသိမ်းသည်", "Momentum မထိန်းသိမ်းပါ"],
+        items: [
+          SortingItem(
+            id: "y12phys-w10-sort-1",
+            labelEn: "Two trolleys colliding on a frictionless track",
+            labelMy:
+                "Friction မရှိသော Track ပေါ်တွင် Trolley နှစ်ခု တိုက်မိခြင်း",
+            correctBucketEn: "Momentum Conserved",
+            correctBucketMy: "Momentum ထိန်းသိမ်းသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w10-sort-2",
+            labelEn: "A ball rolling to a stop due to friction with the ground",
+            labelMy:
+                "မြေပြင်နှင့် Friction ကြောင့် ရပ်တန့်သွားသော လိမ့်နေသည့် ဘောလုံး",
+            correctBucketEn: "Momentum Not Conserved",
+            correctBucketMy: "Momentum မထိန်းသိမ်းပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w10-sort-3",
+            labelEn:
+                "A gun firing a bullet, with the gun and bullet as the whole system",
+            labelMy:
+                "သေနတ်နှင့် ကျည်ဆံကို System တစ်ခုလုံးအဖြစ် ယူ၍ ကျည်ဆံ ပစ်လိုက်သော သေနတ်",
+            correctBucketEn: "Momentum Conserved",
+            correctBucketMy: "Momentum ထိန်းသိမ်းသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w10-sort-4",
+            labelEn:
+                "A car braking to a stop with the road's external friction force",
+            labelMy:
+                "လမ်း၏ External Friction Force ဖြင့် ရပ်တန့်ရန် ဘရိတ်နှိပ်နေသော ကား",
+            correctBucketEn: "Momentum Not Conserved",
+            correctBucketMy: "Momentum မထိန်းသိမ်းပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w10-sort-5",
+            labelEn: "Two ice skaters pushing apart on frictionless ice",
+            labelMy:
+                "Friction မရှိသော ရေခဲပေါ်တွင် အချင်းချင်း တွန်းကာ ကွဲသွားသော ရေခဲလျှောသမား နှစ်ဦး",
+            correctBucketEn: "Momentum Conserved",
+            correctBucketMy: "Momentum ထိန်းသိမ်းသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Railway Truck Collision",
+      titleMy: "စာဖတ်ခြင်း - Railway Truck တိုက်မိမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Railway Truck Collision",
+        titleMy: "Railway Truck တိုက်မိမှု",
+        passageEn:
+            "Sayar Aung Kyaw Moe set his class a conservation-of-momentum problem: a 2000 kg railway truck moving at 3 m s⁻¹ collides with a stationary 3000 kg truck, and the two trucks couple together and move off as one combined mass. He asked the class to find their combined velocity after the collision.\n\nThiri Aung began by calculating the total momentum before the collision. Since the second truck was stationary, only the first truck contributed: momentum before = (2000 x 3) + (3000 x 0) = 6000 + 0 = 6000 kg m s⁻¹. By the conservation of momentum, this total must equal the total momentum after the collision, when the two trucks move together as a single combined mass of 2000 + 3000 = 5000 kg.\n\nSetting momentum after equal to momentum before: 5000 x v = 6000, so v = 6000 / 5000 = 1.2 m s⁻¹. Sayar Aung Kyaw Moe then asked the class to check whether kinetic energy was also conserved in this collision, since students often incorrectly assume momentum and kinetic energy are conserved together. Kinetic energy before was ½ x 2000 x 3² = 9000 J. Kinetic energy after was ½ x 5000 x 1.2² = 3600 J -- clearly less than before, confirming that kinetic energy was lost, converted into heat and sound as the trucks deformed and coupled together. This identified the collision as perfectly inelastic: momentum is always conserved in any collision, but kinetic energy is only conserved in the special case of an elastic collision.",
+        passageMy:
+            "ဆရာအောင်ကျော်မိုးသည် သူ၏ အတန်းအား Conservation of Momentum ပြဿနာတစ်ခု ပေးခဲ့သည် - 3 m s⁻¹ ဖြင့် ရွေ့လျားနေသော Railway Truck 2000 kg သည် ရပ်ငြိမ်နေသော Truck 3000 kg နှင့် တိုက်မိပြီး Truck နှစ်စီးသည် ပေါင်းစပ်ကာ ပေါင်းစပ်ထားသော Mass တစ်ခုအဖြစ် ရွေ့လျားသွားသည်ဟု ဆိုကာ တိုက်မိပြီးနောက် ၎င်းတို့၏ ပေါင်းစပ် Velocity ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nThiri Aung သည် တိုက်မိမှု မဖြစ်ပွားမီ စုစုပေါင်း Momentum ကို တွက်ချက်ရာမှ စတင်ခဲ့သည်။ ဒုတိယ Truck ရပ်ငြိမ်နေသောကြောင့် ပထမ Truck တစ်ခုတည်းသာ ပါဝင်ခဲ့သည် - Momentum Before = (2000 x 3) + (3000 x 0) = 6000 + 0 = 6000 kg m s⁻¹ ။ Conservation of Momentum အရ ဤစုစုပေါင်းသည် Truck နှစ်စီး ပေါင်းစပ် Mass 2000 + 3000 = 5000 kg အဖြစ် အတူတကွ ရွေ့လျားသောအခါ တိုက်မိမှု ပြီးနောက် စုစုပေါင်း Momentum နှင့် အတိအကျ ညီမျှရမည်။\n\nMomentum After ကို Momentum Before နှင့် ညီမျှအောင် သတ်မှတ်ခြင်း - 5000 x v = 6000 ဖြစ်သောကြောင့် v = 6000 / 5000 = 1.2 m s⁻¹ ။ ကျောင်းသားများသည် Momentum နှင့် Kinetic Energy ကို အတူတကွ ထိန်းသိမ်းသည်ဟု မကြာခဏ မှားယွင်းစွာ ယူဆတတ်သောကြောင့် ဤ တိုက်မိမှုတွင် Kinetic Energy ပါ ထိန်းသိမ်းသလားဟု ဆရာအောင်ကျော်မိုး ထို့နောက် အတန်းကို မေးမြန်းခဲ့သည်။ Kinetic Energy Before သည် ½ x 2000 x 3² = 9000 J ဖြစ်ခဲ့သည်။ Kinetic Energy After သည် ½ x 5000 x 1.2² = 3600 J ဖြစ်ခဲ့ပြီး -- ယခင်ထက် ထင်ရှားစွာ နည်းသွားခဲ့ကာ Truck များ ပုံပျက်ကာ ပေါင်းစပ်သွားစဉ် Kinetic Energy သည် အပူနှင့် အသံအဖြစ် ပြောင်းလဲသွားကြောင်း အတည်ပြုသည်။ ၎င်းသည် ဤတိုက်မိမှုကို Perfectly Inelastic ဖြစ်ကြောင်း ဖော်ထုတ်ပေးသည် - Momentum ကို Collision မည်သည့်အမျိုးအစားတွင်မဆို အမြဲ ထိန်းသိမ်းထားသော်လည်း Kinetic Energy ကို Elastic Collision ၏ အထူးအခြေအနေတွင်သာ ထိန်းသိမ်းထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the total momentum before the collision?",
+            questionMy:
+                "တိုက်မိမှု မဖြစ်ပွားမီ စုစုပေါင်း Momentum ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "6000 kg m s⁻¹",
+              "9000 kg m s⁻¹",
+              "5000 kg m s⁻¹",
+              "3600 kg m s⁻¹",
+            ],
+            optionsMy: [
+              "6000 kg m s⁻¹",
+              "9000 kg m s⁻¹",
+              "5000 kg m s⁻¹",
+              "3600 kg m s⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the combined velocity after the collision?",
+            questionMy:
+                "တိုက်မိမှု ပြီးနောက် ပေါင်းစပ် Velocity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1.2 m s⁻¹", "3 m s⁻¹", "6000 m s⁻¹", "0 m s⁻¹"],
+            optionsMy: ["1.2 m s⁻¹", "3 m s⁻¹", "6000 m s⁻¹", "0 m s⁻¹"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why was kinetic energy not conserved in this collision?",
+            questionMy:
+                "ဤတိုက်မိမှုတွင် Kinetic Energy အဘယ့်ကြောင့် မထိန်းသိမ်းခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It converted into heat and sound as the trucks deformed and coupled",
+              "The trucks had different masses",
+              "Momentum was also not conserved",
+              "The calculation contained an arithmetic mistake",
+            ],
+            optionsMy: [
+              "Truck များ ပုံပျက်ကာ ပေါင်းစပ်သွားစဉ် အပူနှင့် အသံအဖြစ် ပြောင်းလဲသွားသောကြောင့်",
+              "Truck များသည် Mass ကွဲပြားသောကြောင့်",
+              "Momentum ကိုလည်း မထိန်းသိမ်းခဲ့သောကြောင့်",
+              "တွက်ချက်မှုတွင် ဂဏန်းသင်္ချာ အမှား ပါဝင်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Momentum",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Momentum",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Momentum is calculated using...",
+          questionMy: "Momentum ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["p = mv", "p = ma", "p = Ft", "p = ½mv²"],
+          optionsMy: ["p = mv", "p = ma", "p = Ft", "p = ½mv²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In any collision, which quantity is always conserved?",
+          questionMy:
+              "Collision မည်သည့်အမျိုးအစားတွင်မဆို မည်သည့် ပမာဏကို အမြဲ ထိန်းသိမ်းသနည်း",
+          optionsEn: [
+            "Total momentum",
+            "Kinetic energy always",
+            "Individual speeds",
+            "Individual masses only, never momentum",
+          ],
+          optionsMy: [
+            "စုစုပေါင်း Momentum",
+            "Kinetic Energy အမြဲ",
+            "Individual Speed များ",
+            "Individual Mass များသာ၊ Momentum လုံးဝ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A perfectly inelastic collision is one where...",
+          questionMy: "Perfectly Inelastic Collision တစ်ခု ဆိုသည်မှာ...",
+          optionsEn: [
+            "The objects stick together and move as one after colliding",
+            "Kinetic energy is fully conserved",
+            "No momentum is transferred at all",
+            "The objects pass through each other",
+          ],
+          optionsMy: [
+            "Object များသည် တိုက်မိပြီးနောက် ကပ်တွဲကာ တစ်ခုတည်းအဖြစ် ရွေ့လျားသည်",
+            "Kinetic Energy ကို အပြည့်အဝ ထိန်းသိမ်းထားသည်",
+            "Momentum လုံးဝ မလွှဲပြောင်းပါ",
+            "Object များသည် တစ်ခုနှင့်တစ်ခု ဖြတ်သန်းသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "Impulse, Force-Time Graphs and Collision Types"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek11 = CourseWeekDef(
+  id: "course-y12-phys-w11",
+  weekNumber: 11,
+  titleEn: "Impulse, Force-Time Graphs and Collision Types",
+  titleMy: "Impulse, Force-Time ဂရပ်များနှင့် Collision အမျိုးအစားများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w11-d1",
+      dayNumber: 1,
+      titleEn: "Impulse and Newton's Second Law",
+      titleMy: "Impulse နှင့် Newton ၏ ဒုတိယ ဥပဒေ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Impulse is defined as...",
+          questionMy: "Impulse ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Force multiplied by the time it acts (Ft), equal to the change in momentum",
+            "Mass multiplied by velocity",
+            "Force divided by time",
+            "The maximum force reached during a collision",
+          ],
+          optionsMy: [
+            "Force ကို ၎င်း သက်ရောက်ချိန်ဖြင့် မြှောက်ခြင်း (Ft)၊ Momentum ပြောင်းလဲမှုနှင့် ညီမျှသည်",
+            "Mass ကို Velocity ဖြင့် မြှောက်ခြင်း",
+            "Force ကို Time ဖြင့် စားခြင်း",
+            "Collision အတွင်း ရောက်ရှိသော Maximum Force",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Impulse = FΔt = Δ(mv) -- this follows directly from F = ma = m(Δv/Δt), rearranged.",
+          ],
+          hintsMy: [
+            "Impulse = FΔt = Δ(mv) -- ၎င်းသည် F = ma = m(Δv/Δt) ကို ပြန်စီစဉ်ခြင်းမှ တိုက်ရိုက် ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force of 50 N acts on an object for 0.2 s. The impulse delivered is...",
+          questionMy:
+              "Force 50 N သည် ပစ္စည်းတစ်ခုပေါ် 0.2 s ကြာ သက်ရောက်သည်။ ပေးအပ်သော Impulse မှာ...",
+          optionsEn: ["10 N s", "250 N s", "50.2 N s", "0.004 N s"],
+          optionsMy: ["10 N s", "250 N s", "50.2 N s", "0.004 N s"],
+          correctIndex: 0,
+          hintsEn: ["Impulse = F x t = 50 x 0.2 = 10 N s."],
+          hintsMy: ["Impulse = F x t = 50 x 0.2 = 10 N s ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a force-time graph, the impulse delivered is found from...",
+          questionMy: "Force-Time ဂရပ်တွင် ပေးအပ်သော Impulse ကို ...မှ ရှာသည်",
+          optionsEn: [
+            "The area under the graph",
+            "The gradient of the line",
+            "The maximum force value alone",
+            "The total time only",
+          ],
+          optionsMy: [
+            "ဂရပ်အောက်ရှိ ဧရိယာ",
+            "မျဉ်း၏ Gradient",
+            "Maximum Force တန်ဖိုးသာ",
+            "စုစုပေါင်း Time သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Collision Types and Their Properties",
+      titleMy:
+          "တွဲစပ်ကြမည် - Collision အမျိုးအစားများနှင့် ၎င်းတို့၏ ဂုဏ်သတ္တိများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w11-dm-1",
+          termEn: "Elastic collision",
+          termMy: "Elastic Collision",
+          matchEn: "Both momentum and kinetic energy are conserved",
+          matchMy: "Momentum နှင့် Kinetic Energy နှစ်ခုစလုံး ထိန်းသိမ်းထားသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w11-dm-2",
+          termEn: "Inelastic collision",
+          termMy: "Inelastic Collision",
+          matchEn: "Momentum is conserved, but kinetic energy is not",
+          matchMy:
+              "Momentum ကို ထိန်းသိမ်းထားသော်လည်း Kinetic Energy ကို မထိန်းသိမ်းပါ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w11-dm-3",
+          termEn: "Perfectly inelastic collision",
+          termMy: "Perfectly Inelastic Collision",
+          matchEn: "The objects stick together and move with a common velocity",
+          matchMy: "Object များသည် ကပ်တွဲကာ ဘုံ Velocity ဖြင့် ရွေ့လျားသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w11-dm-4",
+          termEn: "Airbag in a car crash",
+          termMy: "ကားတိုက်မှုတွင် Airbag",
+          matchEn:
+              "Increases collision time to reduce the peak force (same impulse)",
+          matchMy:
+              "အမြင့်ဆုံး Force ကို လျှော့ချရန် Collision Time ကို တိုးစေသည် (Impulse တူညီသည်)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w11-dm-5",
+          termEn: "Newton's cradle",
+          termMy: "Newton's Cradle",
+          matchEn: "A classic demonstration of nearly elastic collisions",
+          matchMy: "Elastic Collision နီးပါးများ၏ ရိုးရာ သရုပ်ပြမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases the Peak Force?",
+      titleMy: "စီစစ်ကြမည် - အမြင့်ဆုံး Force ကို တိုးစေလား၊ လျော့စေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Decreases Peak Force (longer time)",
+          "Increases Peak Force (shorter time)",
+        ],
+        bucketsMy: [
+          "အမြင့်ဆုံး Force ကို လျော့စေသည် (Time ပိုရှည်)",
+          "အမြင့်ဆုံး Force ကို တိုးစေသည် (Time ပိုတို)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12phys-w11-sort-1",
+            labelEn: "A car's crumple zone deforming during a crash",
+            labelMy: "ကားတိုက်မှုအတွင်း ပုံပျက်သွားသော Crumple Zone",
+            correctBucketEn: "Decreases Peak Force (longer time)",
+            correctBucketMy: "အမြင့်ဆုံး Force ကို လျော့စေသည် (Time ပိုရှည်)",
+          ),
+          SortingItem(
+            id: "y12phys-w11-sort-2",
+            labelEn: "Catching a fast ball with a rigid, unmoving hand",
+            labelMy:
+                "မရွေ့မလှုပ်သော လက်ခက်ဖြင့် မြန်ဆန်သော ဘောလုံးကို ဖမ်းယူခြင်း",
+            correctBucketEn: "Increases Peak Force (shorter time)",
+            correctBucketMy: "အမြင့်ဆုံး Force ကို တိုးစေသည် (Time ပိုတို)",
+          ),
+          SortingItem(
+            id: "y12phys-w11-sort-3",
+            labelEn: "A padded landing mat in gymnastics",
+            labelMy: "Gymnastics ရှိ Padding ပါသော ကျရောက်ရာ ခင်း",
+            correctBucketEn: "Decreases Peak Force (longer time)",
+            correctBucketMy: "အမြင့်ဆုံး Force ကို လျော့စေသည် (Time ပိုရှည်)",
+          ),
+          SortingItem(
+            id: "y12phys-w11-sort-4",
+            labelEn: "Bubble wrap packaging absorbing an impact",
+            labelMy: "Impact ကို ရှုမှုန်ပေးသော Bubble Wrap ထုပ်ပိုးမှု",
+            correctBucketEn: "Decreases Peak Force (longer time)",
+            correctBucketMy: "အမြင့်ဆုံး Force ကို လျော့စေသည် (Time ပိုရှည်)",
+          ),
+          SortingItem(
+            id: "y12phys-w11-sort-5",
+            labelEn: "A ball bouncing off a hard concrete wall",
+            labelMy: "မာကျောသော ကွန်ကရစ် နံရံမှ ခုန်ပြန်လာသော ဘောလုံး",
+            correctBucketEn: "Increases Peak Force (shorter time)",
+            correctBucketMy: "အမြင့်ဆုံး Force ကို တိုးစေသည် (Time ပိုတို)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Airbags Save Lives",
+      titleMy:
+          "စာဖတ်ခြင်း - Airbag များသည် အသက်များကို အဘယ့်ကြောင့် ကယ်တင်ကြသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Airbags Save Lives",
+        titleMy: "Airbag များသည် အသက်များကို အဘယ့်ကြောင့် ကယ်တင်ကြသနည်း",
+        passageEn:
+            "Sayama Khin Sandar Win asked her class to explain, using the impulse-momentum relationship, why airbags reduce injury in a car crash even though the car's change in momentum is exactly the same with or without one.\n\nZeyar Lin worked through the physics: impulse equals the change in momentum, FΔt = Δ(mv), and this change in momentum is fixed by the crash itself -- how fast the car and driver were going and how fast they end up going (usually zero) does not depend on whether an airbag is present. Since Δ(mv) is fixed, the equation shows that force F and time Δt are inversely related: increasing the collision time decreases the peak force, and decreasing the collision time increases the peak force, for the same fixed impulse.\n\nWithout an airbag, a driver's head might stop very abruptly against the steering wheel or windscreen -- a very short collision time, meaning a very large peak force concentrated on a small area, which is what causes serious injury. An airbag inflates and deflates over a longer period, cushioning the driver's deceleration over perhaps 0.1-0.2 seconds instead of a few milliseconds, spread over a larger contact area. Zeyar Lin calculated a simplified example: a 75 kg driver decelerating from 15 m s⁻¹ to 0 m s⁻¹ has a momentum change of 75 x 15 = 1125 kg m s⁻¹. Without an airbag, if this happens in just 0.01 s, the average force is 1125 / 0.01 = 112500 N. With an airbag extending the time to 0.15 s, the average force drops to 1125 / 0.15 = 7500 N -- fifteen times smaller, for exactly the same change in momentum.",
+        passageMy:
+            "Impulse-Momentum ဆက်စပ်မှုကို အသုံးပြု၍ Airbag ရှိသည်ဖြစ်စေ မရှိသည်ဖြစ်စေ ကား၏ Momentum ပြောင်းလဲမှုသည် အတိအကျ တူညီနေသော်လည်း Airbag များသည် ကားတိုက်မှုတွင် ဒဏ်ရာကို အဘယ့်ကြောင့် လျော့ချပေးသည်ကို ရှင်းပြရန် ဆရာမ ခင်စန္ဒာဝင်း သူမ၏ အတန်းကို တောင်းဆိုခဲ့သည်။\n\nZeyar Lin သည် Physics ကို ဖြေရှင်းခဲ့သည် - Impulse သည် Momentum ပြောင်းလဲမှုနှင့် ညီမျှသည်၊ FΔt = Δ(mv)၊ ဤ Momentum ပြောင်းလဲမှုကို တိုက်မိမှုကိုယ်တိုင်က သတ်မှတ်ထားသည် -- ကားနှင့် ယာဉ်မောင်း မည်မျှမြန်စွာ သွားနေခဲ့သည်၊ နောက်ဆုံး မည်မျှသွားလာနေမည် (ပုံမှန် Zero) သည် Airbag ရှိမရှိပေါ် မမူတည်ပါ။ Δ(mv) ကို သတ်မှတ်ထားသောကြောင့် Force F နှင့် Time Δt တို့သည် Inversely ဆက်စပ်နေကြောင်း Equation က ပြသသည် - Collision Time ကို တိုးခြင်းသည် အမြင့်ဆုံး Force ကို လျော့ချပြီး Collision Time ကို လျော့ချခြင်းသည် အမြင့်ဆုံး Force ကို တိုးစေသည်၊ Impulse သတ်မှတ်ထားသော အတွက် ဖြစ်သည်။\n\nAirbag မရှိပါက ယာဉ်မောင်း၏ ဦးခေါင်းသည် Steering Wheel သို့မဟုတ် Windscreen ကို ရုတ်တရက် ရပ်တန့်ချင်ပေမည် -- အလွန်တို Collision Time ဖြစ်ပြီး ဆိုလိုသည်မှာ ဧရိယာ သေးငယ်ပေါ်တွင် စုစည်းထားသော အလွန်ကြီးသော အမြင့်ဆုံး Force ဖြစ်ပြီး ၎င်းသည် ပြင်းထန်သော ဒဏ်ရာကို ဖြစ်ပေါ်စေသော အကြောင်းရင်း ဖြစ်သည်။ Airbag သည် ပိုကြာသော ကာလတစ်ခုအတွင်း ဖောင်းကားပြီး ပြန်ချုံ့သွားကာ Millisecond အနည်းငယ် အစား 0.1-0.2 Second ခန့်အတွင်း ယာဉ်မောင်း၏ Deceleration ကို ပိုကြီးသော ဧရိယာတစ်ခုပေါ်တွင် နူးညံ့စွာ ခံစားစေသည်။ Zeyar Lin သည် ရိုးရှင်းသော ဥပမာတစ်ခုကို တွက်ချက်ခဲ့သည် - Mass 75 kg ရှိသော ယာဉ်မောင်းသည် 15 m s⁻¹ မှ 0 m s⁻¹ သို့ Deceleration ဖြစ်ပါက Momentum ပြောင်းလဲမှုသည် 75 x 15 = 1125 kg m s⁻¹ ဖြစ်သည်။ Airbag မရှိဘဲ ၎င်းသည် 0.01 s တွင်သာ ဖြစ်ပွားပါက ပျမ်းမျှ Force သည် 1125 / 0.01 = 112500 N ဖြစ်သည်။ Airbag ဖြင့် Time ကို 0.15 s အထိ ချဲ့ထွင်ပါက ပျမ်းမျှ Force သည် 1125 / 0.15 = 7500 N သို့ ကျဆင်းသွားသည် -- Momentum ပြောင်းလဲမှု အတိအကျ တူညီစွာအတွက် တစ်ဆယ့်ငါးဆ သေးငယ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what stays fixed regardless of whether an airbag is present?",
+            questionMy:
+                "Airbag ရှိမရှိပေါ် မမူတည်ဘဲ အဘယ်အရာ သတ်မှတ်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The change in momentum",
+              "The peak force",
+              "The collision time",
+              "The driver's mass alone",
+            ],
+            optionsMy: [
+              "Momentum ပြောင်းလဲမှု",
+              "အမြင့်ဆုံး Force",
+              "Collision Time",
+              "ယာဉ်မောင်း၏ Mass တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what is the average force without an airbag in the example?",
+            questionMy:
+                "ဥပမာတွင် Airbag မရှိသော ပျမ်းမျှ Force ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["112500 N", "7500 N", "1125 N", "15 N"],
+            optionsMy: ["112500 N", "7500 N", "1125 N", "15 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the calculation near the end of the passage."],
+            hintsMy: ["စာပိုဒ် အဆုံးနားရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many times smaller is the force with an airbag compared to without?",
+            questionMy:
+                "Airbag မရှိသည်နှင့် နှိုင်းယှဉ်လျှင် Airbag ရှိသော Force သည် မည်မျှဆ သေးငယ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fifteen times smaller",
+              "Twice as small",
+              "Exactly the same size",
+              "One hundred times smaller",
+            ],
+            optionsMy: [
+              "တစ်ဆယ့်ငါးဆ သေးငယ်သည်",
+              "နှစ်ဆ သေးငယ်သည်",
+              "အရွယ်အစား အတိအကျ တူညီသည်",
+              "တစ်ရာဆ သေးငယ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Impulse and Collisions",
+      titleMy: "အဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Impulse နှင့် Collision များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Impulse equals...",
+          questionMy: "Impulse ညီမျှသည်...",
+          optionsEn: [
+            "The change in momentum",
+            "The initial momentum only",
+            "Force divided by mass",
+            "Velocity squared",
+          ],
+          optionsMy: [
+            "Momentum ပြောင်းလဲမှု",
+            "Initial Momentum သာ",
+            "Force ကို Mass ဖြင့် စားခြင်း",
+            "Velocity Squared",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For a fixed impulse, increasing the collision time...",
+          questionMy:
+              "Impulse သတ်မှတ်ထားလျှင် Collision Time ကို တိုးခြင်းသည်...",
+          optionsEn: [
+            "Decreases the peak force",
+            "Increases the peak force",
+            "Has no effect on force",
+            "Doubles the momentum change",
+          ],
+          optionsMy: [
+            "အမြင့်ဆုံး Force ကို လျော့ချသည်",
+            "အမြင့်ဆုံး Force ကို တိုးစေသည်",
+            "Force ပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "Momentum ပြောင်းလဲမှုကို နှစ်ဆ ဖြစ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In an elastic collision...",
+          questionMy: "Elastic Collision တွင်...",
+          optionsEn: [
+            "Both momentum and kinetic energy are conserved",
+            "Only kinetic energy is conserved",
+            "Neither momentum nor kinetic energy is conserved",
+            "The objects always stick together",
+          ],
+          optionsMy: [
+            "Momentum နှင့် Kinetic Energy နှစ်ခုစလုံး ထိန်းသိမ်းထားသည်",
+            "Kinetic Energy တစ်ခုတည်းသာ ထိန်းသိမ်းထားသည်",
+            "Momentum နှင့် Kinetic Energy နှစ်ခုစလုံး မထိန်းသိမ်းပါ",
+            "Object များသည် အမြဲ ကပ်တွဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12: "Dynamics Capstone: Forces, Momentum and Collisions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek12 = CourseWeekDef(
+  id: "course-y12-phys-w12",
+  weekNumber: 12,
+  titleEn: "Dynamics Capstone: Forces, Momentum and Collisions",
+  titleMy: "Dynamics အထွတ်အထိပ် - Forces, Momentum နှင့် Collision များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w12-d1",
+      dayNumber: 1,
+      titleEn: "Combining Newton's Laws with Momentum",
+      titleMy: "Newton ၏ ဥပဒေများကို Momentum နှင့် ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A 0.5 kg ball moving at 8 m s⁻¹ hits a wall and rebounds at 6 m s⁻¹ in the opposite direction. The change in momentum is...",
+          questionMy:
+              "Mass 0.5 kg ရှိသော ဘောလုံးသည် 8 m s⁻¹ ဖြင့် ရွေ့လျားနေရာမှ နံရံကို ရိုက်ပြီး ဆန့်ကျင်ဘက် ဦးတည်ချက်တွင် 6 m s⁻¹ ဖြင့် ပြန်ခုန်သည်။ Momentum ပြောင်းလဲမှု မှာ...",
+          optionsEn: ["7 kg m s⁻¹", "1 kg m s⁻¹", "4 kg m s⁻¹", "14 kg m s⁻¹"],
+          optionsMy: ["7 kg m s⁻¹", "1 kg m s⁻¹", "4 kg m s⁻¹", "14 kg m s⁻¹"],
+          correctIndex: 0,
+          hintsEn: [
+            "Taking the initial direction as positive: initial momentum = 0.5 x 8 = 4, final momentum = 0.5 x (-6) = -3. Change = -3 - 4 = -7, so the magnitude is 7 kg m s⁻¹.",
+          ],
+          hintsMy: [
+            "Initial Direction ကို Positive အဖြစ် ယူ၍ - Initial Momentum = 0.5 x 8 = 4, Final Momentum = 0.5 x (-6) = -3 ။ ပြောင်းလဲမှု = -3 - 4 = -7 ဖြစ်သောကြောင့် Magnitude သည် 7 kg m s⁻¹ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A rocket in deep space (no external forces) can accelerate forward by...",
+          questionMy:
+              "အာကာသနက်ရှိသော ဒုံးပျံတစ်စင်း (External Force မရှိ) သည် ...ဖြင့် ရှေ့သို့ အရှိန်တက်နိုင်သည်",
+          optionsEn: [
+            "Expelling exhaust gas backward, conserving total momentum",
+            "Waiting for gravity from a nearby planet",
+            "Increasing its own mass",
+            "It cannot accelerate at all without external forces",
+          ],
+          optionsMy: [
+            "စုစုပေါင်း Momentum ထိန်းသိမ်းလျက် Exhaust Gas ကို နောက်သို့ ထုတ်လွှတ်ခြင်းဖြင့်",
+            "အနီးရှိ ဂြိုလ်တစ်ခုမှ Gravity ကို စောင့်ဆိုင်းခြင်းဖြင့်",
+            "ကိုယ်ပိုင် Mass ကို တိုးမြှင့်ခြင်းဖြင့်",
+            "External Force မပါဘဲ လုံးဝ အရှိန်တက်၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Newton's third law (action-reaction) with conservation of momentum -- the exhaust's backward momentum is balanced by the rocket's forward momentum.",
+          ],
+          hintsMy: [
+            "ဤသည် Newton ၏ တတိယ ဥပဒေ (Action-Reaction) ကို Conservation of Momentum နှင့် ပေါင်းစပ်ထားသည် -- Exhaust ၏ နောက်ပြန် Momentum ကို ဒုံးပျံ၏ ရှေ့ပြန် Momentum က ချိန်ညှိပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force-time graph for a collision has an area of 15 N s. If the collision lasted 0.05 s, the average force was...",
+          questionMy:
+              "Collision တစ်ခု၏ Force-Time ဂရပ်သည် 15 N s ဧရိယာ ရှိသည်။ Collision သည် 0.05 s ကြာခဲ့လျှင် ပျမ်းမျှ Force မှာ...",
+          optionsEn: ["300 N", "0.75 N", "15.05 N", "3 N"],
+          optionsMy: ["300 N", "0.75 N", "15.05 N", "3 N"],
+          correctIndex: 0,
+          hintsEn: [
+            "Area = impulse = F x t, so average F = impulse / t = 15 / 0.05 = 300 N.",
+          ],
+          hintsMy: [
+            "Area = Impulse = F x t ဖြစ်သောကြောင့် Average F = Impulse / t = 15 / 0.05 = 300 N ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Dynamics Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Dynamics ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w12-dm-1",
+          termEn: "F = ma",
+          termMy: "F = ma",
+          matchEn:
+              "Newton's second law: resultant force equals mass times acceleration",
+          matchMy:
+              "Newton ၏ ဒုတိယ ဥပဒေ: Resultant Force သည် Mass x Acceleration နှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w12-dm-2",
+          termEn: "p = mv",
+          termMy: "p = mv",
+          matchEn: "Momentum: mass times velocity",
+          matchMy: "Momentum: Mass x Velocity",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w12-dm-3",
+          termEn: "FΔt = Δ(mv)",
+          termMy: "FΔt = Δ(mv)",
+          matchEn: "Impulse-momentum theorem",
+          matchMy: "Impulse-Momentum Theorem",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w12-dm-4",
+          termEn: "Σp before = Σp after",
+          termMy: "Σp Before = Σp After",
+          matchEn: "Conservation of momentum",
+          matchMy: "Conservation of Momentum",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w12-dm-5",
+          termEn: "N - mg = ma",
+          termMy: "N - mg = ma",
+          matchEn: "Apparent weight in an accelerating lift",
+          matchMy: "အရှိန်တက်နေသော Lift အတွင်းရှိ Apparent Weight",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Newton's Laws or Momentum Concept?",
+      titleMy: "စီစစ်ကြမည် - Newton ၏ ဥပဒေများလား၊ Momentum သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Newton's Laws", "Momentum Concept"],
+        bucketsMy: ["Newton ၏ ဥပဒေများ", "Momentum သဘောတရား"],
+        items: [
+          SortingItem(
+            id: "y12phys-w12-sort-1",
+            labelEn: "Action and reaction forces are equal and opposite",
+            labelMy:
+                "Action နှင့် Reaction Force များသည် ညီမျှပြီး ဆန့်ကျင်ဘက် ဖြစ်သည်",
+            correctBucketEn: "Newton's Laws",
+            correctBucketMy: "Newton ၏ ဥပဒေများ",
+          ),
+          SortingItem(
+            id: "y12phys-w12-sort-2",
+            labelEn: "Total momentum is conserved in a closed system",
+            labelMy:
+                "Closed System တစ်ခုတွင် စုစုပေါင်း Momentum ကို ထိန်းသိမ်းထားသည်",
+            correctBucketEn: "Momentum Concept",
+            correctBucketMy: "Momentum သဘောတရား",
+          ),
+          SortingItem(
+            id: "y12phys-w12-sort-3",
+            labelEn: "An object stays at rest unless a resultant force acts",
+            labelMy:
+                "Resultant Force မသက်ရောက်ပါက ပစ္စည်းတစ်ခုသည် ရပ်ငြိမ်နေဆဲ ဖြစ်သည်",
+            correctBucketEn: "Newton's Laws",
+            correctBucketMy: "Newton ၏ ဥပဒေများ",
+          ),
+          SortingItem(
+            id: "y12phys-w12-sort-4",
+            labelEn: "Impulse equals the change in an object's momentum",
+            labelMy:
+                "Impulse သည် ပစ္စည်းတစ်ခု၏ Momentum ပြောင်းလဲမှုနှင့် ညီမျှသည်",
+            correctBucketEn: "Momentum Concept",
+            correctBucketMy: "Momentum သဘောတရား",
+          ),
+          SortingItem(
+            id: "y12phys-w12-sort-5",
+            labelEn: "Acceleration is proportional to resultant force",
+            labelMy: "Acceleration သည် Resultant Force နှင့် အချိုးကျသည်",
+            correctBucketEn: "Newton's Laws",
+            correctBucketMy: "Newton ၏ ဥပဒေများ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Crash Test Engineer",
+      titleMy: "စာဖတ်ခြင်း - Crash Test အင်ဂျင်နီယာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Crash Test Engineer",
+        titleMy: "Crash Test အင်ဂျင်နီယာ",
+        passageEn:
+            "A guest speaker, automotive safety engineer Daw Yamin Aung, visited Sayar Htet Wai's AS class to explain how every concept from the term -- Newton's laws, momentum, impulse, and elastic versus inelastic collisions -- comes together in a real crash test.\n\nShe explained that engineers deliberately design a car's front end to crumple in a controlled way during a collision, applying Newton's second and third laws together: as the crumple zone deforms, it exerts a smaller, more sustained force on the car's occupants (via Newton's third law, the same force acts back on the frame), extending the collision time and, by the impulse-momentum relationship, reducing the peak force compared to a rigid structure that would stop almost instantly.\n\nShe also explained why crash tests deliberately study perfectly inelastic collisions rather than elastic ones: two real cars colliding stick together, crumple, and lose kinetic energy to heat, sound, and permanent deformation -- exactly matching the inelastic model the class had studied, not the idealised elastic collisions of a physics textbook's billiard balls. Momentum is still conserved throughout, which is precisely how engineers calculate the expected forces and decelerations occupants will experience, and therefore how strong the crumple zone, seatbelt, and airbag system need to be to keep those forces survivable.",
+        passageMy:
+            "ဧည့်သည် ဟောပြောသူ Automotive Safety Engineer ဒေါ်ရာမင်းအောင်သည် Term တစ်ခုလုံးမှ သဘောတရားတိုင်း -- Newton ၏ ဥပဒေများ၊ Momentum၊ Impulse နှင့် Elastic vs. Inelastic Collision များ -- တကယ့် Crash Test တစ်ခုတွင် မည်သို့ ပေါင်းစပ်လာသည်ကို ရှင်းပြရန် ဆရာထက်ဝေ၏ AS အတန်းသို့ လာရောက်ခဲ့သည်။\n\nအင်ဂျင်နီယာများသည် ကား၏ ရှေ့ပိုင်းကို Collision တစ်ခုအတွင်း ထိန်းချုပ်ထားသော နည်းလမ်းဖြင့် ချုံ့သွားစေရန် တမင် ဒီဇိုင်းဆွဲကြောင်း Newton ၏ ဒုတိယနှင့် တတိယ ဥပဒေများကို အတူတကွ အသုံးပြုလျက် သူမ ရှင်းပြခဲ့သည် - Crumple Zone ပုံပျက်သွားစဉ် ၎င်းသည် ကားစီးသူများပေါ် ပိုသေးငယ်ပြီး ပိုကြာရှည်သော Force ကို သက်ရောက်စေသည် (Newton ၏ တတိယ ဥပဒေအရ Force တူညီသည် Frame ပေါ်လည်း ပြန်သက်ရောက်သည်)၊ Collision Time ကို ချဲ့ထွင်ပေးပြီး Impulse-Momentum ဆက်စပ်မှုအရ ချက်ချင်း ရပ်တန့်စေမည့် မာကျောသော ဖွဲ့စည်းပုံနှင့် နှိုင်းယှဉ်လျှင် အမြင့်ဆုံး Force ကို လျှော့ချပေးသည်။\n\nCrash Test များသည် Elastic Collision များ အစား Perfectly Inelastic Collision များကို အဘယ့်ကြောင့် တမင် လေ့လာကြသည်ကိုလည်း သူမ ရှင်းပြခဲ့သည် - တကယ့်ကား နှစ်စီးတိုက်မိသောအခါ ကပ်တွဲကာ ချုံ့သွားပြီး Kinetic Energy ကို အပူ၊ အသံနှင့် အမြဲတမ်း ပုံပျက်ခြင်းအဖြစ် ဆုံးရှုံးသည် -- ၎င်းသည် Physics Textbook ၏ Billiard Ball များ၏ စံပြ Elastic Collision များ မဟုတ်ဘဲ အတန်း လေ့လာခဲ့သော Inelastic Model နှင့် အတိအကျ ကိုက်ညီသည်။ Momentum ကို တစ်လျှောက်လုံး ဆက်လက် ထိန်းသိမ်းထားပြီး ၎င်းသည် ကားစီးသူများ ခံစားရမည့် ခန့်မှန်း Force နှင့် Deceleration များကို အင်ဂျင်နီယာများ မည်သို့ တွက်ချက်ကြသည်၊ ထို့ကြောင့် ထို Force များ အသက်ရှင်နိုင်ဖွယ် ရှိစေရန် Crumple Zone, Seatbelt နှင့် Airbag စနစ်သည် မည်မျှ ခိုင်မာရမည်ကို အတိအကျ ဆုံးဖြတ်ပေးသော နည်းလမ်းပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does the crumple zone extend, according to the impulse-momentum relationship?",
+            questionMy:
+                "Impulse-Momentum ဆက်စပ်မှုအရ Crumple Zone သည် အဘယ်ကို ချဲ့ထွင်ပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The collision time",
+              "The car's total mass",
+              "The driver's reaction time",
+              "The speed limit",
+            ],
+            optionsMy: [
+              "Collision Time",
+              "ကား၏ စုစုပေါင်း Mass",
+              "ယာဉ်မောင်း၏ Reaction Time",
+              "အမြန်နှုန်း ကန့်သတ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why do crash tests study inelastic rather than elastic collisions?",
+            questionMy:
+                "Crash Test များသည် Elastic Collision အစား Inelastic Collision ကို အဘယ့်ကြောင့် လေ့လာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Real cars stick together, crumple, and lose kinetic energy -- matching the inelastic model",
+              "Elastic collisions are physically impossible to test",
+              "Inelastic collisions never conserve momentum",
+              "Cars always bounce apart cleanly like billiard balls",
+            ],
+            optionsMy: [
+              "တကယ့်ကားများသည် ကပ်တွဲကာ ချုံ့သွားပြီး Kinetic Energy ဆုံးရှုံးသည် -- Inelastic Model နှင့် ကိုက်ညီသည်",
+              "Elastic Collision များကို ရုပ်ပိုင်းဆိုင်ရာ စမ်းသပ်၍ မရနိုင်ပါ",
+              "Inelastic Collision များသည် Momentum ကို လုံးဝ မထိန်းသိမ်းပါ",
+              "ကားများသည် Billiard Ball များကဲ့သို့ အမြဲ သန့်ရှင်းစွာ ပြန်ခုန်ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what does momentum conservation let engineers calculate?",
+            questionMy:
+                "Momentum Conservation သည် အင်ဂျင်နီယာများအား အဘယ်ကို တွက်ချက်ခွင့်ပြုသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Expected forces and decelerations, and therefore required safety-system strength",
+              "The exact colour the car should be painted",
+              "How many passengers the car can legally carry",
+              "The car's fuel efficiency rating",
+            ],
+            optionsMy: [
+              "ခန့်မှန်း Force နှင့် Deceleration၊ ထို့ကြောင့် လိုအပ်သော Safety System ခိုင်မာမှု",
+              "ကားကို ဆေးသုတ်ရမည့် အတိအကျ အရောင်",
+              "ကားက ဥပဒေအရ တင်ဆောင်နိုင်သော ခရီးသည် အရေအတွက်",
+              "ကား၏ Fuel Efficiency Rating",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Dynamics",
+      titleMy: "Term ၃ အထွတ်အထိပ် - Dynamics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which law explains why a passenger continues moving forward when a car suddenly stops?",
+          questionMy:
+              "ကား ရုတ်တရက် ရပ်လိုက်သောအခါ ခရီးသည်တစ်ဦး ရှေ့သို့ ဆက်ရွေ့လျားရသည့် အကြောင်းရင်းကို မည်သည့် ဥပဒေက ရှင်းပြသနည်း",
+          optionsEn: [
+            "Newton's first law (inertia)",
+            "Newton's second law only",
+            "Newton's third law only",
+            "Conservation of energy",
+          ],
+          optionsMy: [
+            "Newton ၏ ပထမ ဥပဒေ (Inertia)",
+            "Newton ၏ ဒုတိယ ဥပဒေသာ",
+            "Newton ၏ တတိယ ဥပဒေသာ",
+            "Conservation of Energy",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A 2 kg object's velocity changes from 3 m s⁻¹ to 8 m s⁻¹. Its change in momentum is...",
+          questionMy:
+              "Mass 2 kg ရှိသော Object ၏ Velocity သည် 3 m s⁻¹ မှ 8 m s⁻¹ သို့ ပြောင်းလဲသည်။ ၎င်း၏ Momentum ပြောင်းလဲမှုမှာ...",
+          optionsEn: [
+            "10 kg m s⁻¹",
+            "5 kg m s⁻¹",
+            "16 kg m s⁻¹",
+            "22 kg m s⁻¹",
+          ],
+          optionsMy: [
+            "10 kg m s⁻¹",
+            "5 kg m s⁻¹",
+            "16 kg m s⁻¹",
+            "22 kg m s⁻¹",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Impulse and momentum change are related by...",
+          questionMy: "Impulse နှင့် Momentum ပြောင်းလဲမှု ဆက်စပ်ပုံမှာ...",
+          optionsEn: [
+            "They are exactly equal (Impulse = Δp)",
+            "Impulse is always twice the momentum change",
+            "They are unrelated quantities",
+            "Impulse only applies to elastic collisions",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံး အတိအကျ ညီမျှသည် (Impulse = Δp)",
+            "Impulse သည် Momentum ပြောင်းလဲမှု၏ အမြဲ နှစ်ဆ ဖြစ်သည်",
+            "ဆက်စပ်မှု မရှိသော ပမာဏများ ဖြစ်ကြသည်",
+            "Impulse သည် Elastic Collision တွင်သာ သက်ဆိုင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A crumple zone reduces injury by...",
+          questionMy: "Crumple Zone သည် ဒဏ်ရာကို ...ဖြင့် လျော့ချသည်",
+          optionsEn: [
+            "Extending collision time to reduce peak force",
+            "Making the car heavier",
+            "Increasing the car's top speed",
+            "Eliminating momentum entirely",
+          ],
+          optionsMy: [
+            "အမြင့်ဆုံး Force ကို လျော့ချရန် Collision Time ကို ချဲ့ထွင်ခြင်း",
+            "ကားကို ပိုလေးအောင် ပြုလုပ်ခြင်း",
+            "ကား၏ အမြင့်ဆုံး Speed ကို တိုးမြှင့်ခြင်း",
+            "Momentum ကို လုံးဝ ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm3 = CourseTermDef(
+  id: "course-y12-phys-term3",
+  termNumber: 3,
+  titleEn: "Dynamics (Newton's Laws and Momentum)",
+  titleMy: "Dynamics (Newton ၏ ဥပဒေများနှင့် Momentum)",
+  weeks: [_y12PhysWeek9, _y12PhysWeek10, _y12PhysWeek11, _y12PhysWeek12],
+  certificateTitleEn: "AS Physics: Dynamics",
+  certificateTitleMy: "AS ရူပဗေဒ - Dynamics",
 );
 
 // __TERMS_MARKER__
