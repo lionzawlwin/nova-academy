@@ -116369,11 +116369,11 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec2HumTerm1, _sec2HumTerm2],
+  terms: [_sec2HumTerm1, _sec2HumTerm2, _sec2HumTerm3],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 2: "Renaissance and Scientific
@@ -117804,5 +117804,1436 @@ const CourseTermDef _sec2HumTerm2 = CourseTermDef(
   certificateTitleEn: "Renaissance and Scientific Revolution",
   certificateTitleMy: "Renaissance and Scientific Revolution",
   weeks: [_sec2HumWeek5, _sec2HumWeek6, _sec2HumWeek7, _sec2HumWeek8],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 3: "Empires and Colonialism" (Weeks
+// 9-12)
+// Term 3, Week 9: "What Empires Are and How They Form"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek9 = CourseWeekDef(
+  id: "course-sec2-hum-w9",
+  weekNumber: 9,
+  titleEn: "What Empires Are and How They Form",
+  titleMy: "Empire ဆိုသည်မှာ အဘယ်နည်း၊ မည်သို့ ဖွဲ့စည်းသနည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w9-d1",
+      dayNumber: 1,
+      titleEn: "Direct Rule, Indirect Rule, and Settler Colonies",
+      titleMy: "Direct Rule, Indirect Rule နှင့် Settler Colony များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it important to distinguish direct rule, indirect rule, and settler colonization as genuinely different methods of imperial control, rather than treating 'colonialism' as one single, uniform practice?",
+          questionMy:
+              "'Colonialism' ကို Uniform Practice တစ်ခုတည်းအဖြစ် သဘောထားမည့်အစား Direct Rule, Indirect Rule နှင့် Settler Colonization ကို Genuinely ကွဲပြားသော Imperial Control နည်းလမ်းများအဖြစ် ခွဲခြားခြင်း အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Each method involved genuinely different structures, levels of local authority, and consequences for colonized populations, so treating them as identical oversimplifies real historical variation",
+            "All three methods were in fact identical with no meaningful difference between them",
+            "The specific method of imperial control has no actual connection to its consequences",
+            "Distinguishing these methods has no actual educational value in studying empires",
+          ],
+          optionsMy: [
+            "Method တစ်ခုစီသည် Genuinely ကွဲပြားသော Structure, Local Authority Level နှင့် Colonized Population များအတွက် Consequence များ ပါဝင်ခဲ့သောကြောင့် ၎င်းတို့ကို Identical အဖြစ် သဘောထားခြင်းသည် Real သမိုင်းဆိုင်ရာ Variation ကို Oversimplify ပြုလုပ်သည်",
+            "Method သုံးခုစလုံးသည် တစ်ခုနှင့်တစ်ခု Meaningful ကွာခြားချက် မရှိဘဲ တကယ်တမ်း Identical ဖြစ်ခဲ့ခြင်း",
+            "Imperial Control ၏ Specific Method သည် ၎င်း၏ Consequence များနှင့် Actual Connection မရှိခြင်း",
+            "Method များ ခွဲခြားခြင်းသည် Empire များ လေ့လာရာတွင် Actual Educational Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same precise-vocabulary discipline built throughout Secondary 1 -- a broad word like 'colonialism' covers genuinely different, distinguishable methods that deserve separate analysis.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Precise-Vocabulary Discipline တူတူ ဖြစ်သည် -- 'Colonialism' ကဲ့သို့ ကျယ်ပြန့်သော စကားလုံးတစ်ခုသည် သီးခြား Analysis ခံထိုက်သော Genuinely ကွဲပြားသော, ခွဲခြားနိုင်သော Method များကို ဖုံးအုပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid assuming every empire in history expanded and was organized for identical reasons, given the multi-motive habit established in Term 1's exploration lesson?",
+          questionMy:
+              "Term 1 ၏ Exploration သင်ခန်းစာတွင် တည်ထောင်ခဲ့သော Multi-Motive Habit ကို ထောက်ရှု၍ သမိုင်းရှိ Empire တိုင်းသည် အကြောင်းရင်း အတိအကျ တူတူဖြင့် ချဲ့ထွင်၊ စုစည်း ဖွဲ့စည်းခဲ့သည်ဟု ကျောင်းသားများ ယူဆခြင်းကို အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Different empires across different periods and regions had their own documented, often multiple motives (economic, strategic, religious, or competitive), so a single uniform explanation oversimplifies genuinely varied history",
+            "Every empire throughout all of history expanded for exactly the same single reason with no variation",
+            "The motives behind imperial expansion have no actual documented evidence supporting them",
+            "Assuming identical motives across all empires always produces the most historically accurate picture",
+          ],
+          optionsMy: [
+            "ကာလနှင့် ဒေသ ကွဲပြားများရှိ Empire ကွဲပြားများသည် ၎င်းတို့ ကိုယ်ပိုင် Documented, မကြာခဏ Multiple Motive များ (Economic, Strategic, Religious, (သို့) Competitive) ရှိခဲ့ကြောင်း Single Uniform Explanation တစ်ခုသည် Genuinely ကွဲပြားသော သမိုင်းကို Oversimplify ပြုလုပ်သည်",
+            "သမိုင်းတစ်ခုလုံးတစ်လျှောက် Empire တိုင်းသည် Variation မရှိဘဲ Reason တစ်ခုတည်း အတိအကျအတွက်သာ ချဲ့ထွင်ခဲ့ခြင်း",
+            "Imperial Expansion နောက်ကွယ်ရှိ Motive များတွင် ၎င်းတို့ကို ထောက်ခံသော Actual Documented Evidence မရှိခြင်း",
+            "Empire အားလုံးတစ်လျှောက် Identical Motive များ ယူဆခြင်းသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same weigh-multiple-motives habit from Term 1's exploration lesson, applied now to imperial expansion more broadly.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Imperial Expansion ကျယ်ပြန့်စွာပေါ်တွင် ယခု အသုံးချထားသော Term 1 ၏ Exploration သင်ခန်းစာမှ Weigh-Multiple-Motives Habit အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim about a specific empire's method of control cite documented administrative structures (such as specific colonial offices or local governance arrangements) rather than a vague, generic description?",
+          questionMy:
+              "Empire တိကျတစ်ခု၏ Control Method အကြောင်း Claim တစ်ခုသည် Vague, Generic Description တစ်ခုအစား Documented Administrative Structure များ (Specific Colonial Office (သို့) Local Governance Arrangement ကဲ့သို့) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific, documented administrative details make a claim checkable and precise, matching the specificity habit maintained throughout the entire course rather than an unverifiable general impression",
+            "Vague, generic descriptions are always more historically informative than specific administrative details",
+            "Citing specific administrative structures has no actual value when studying empires",
+            "Documented colonial offices and governance arrangements have no actual connection to a specific empire's method of control",
+          ],
+          optionsMy: [
+            "Specific, Documented Administrative Detail များသည် Unverifiable General Impression တစ်ခုအစား Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specificity Habit နှင့် ကိုက်ညီစွာ Claim ကို Checkable, Precise ဖြစ်စေသည်",
+            "Vague, Generic Description များသည် Specific Administrative Detail များထက် သမိုင်းအရ အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Administrative Structure များ ကိုးကားခြင်းသည် Empire များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Documented Colonial Office များနှင့် Governance Arrangement များတွင် Empire တိကျတစ်ခု၏ Control Method နှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-achievement/specific-evidence habit maintained throughout Secondary 1 and Secondary 2, applied now to imperial administrative structures.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Imperial Administrative Structure များပေါ်တွင် ယခု အသုံးချထားသော Secondary 1 နှင့် Secondary 2 တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Documented-Achievement/Specific-Evidence Habit ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Empire and Colonialism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Empire and Colonialism Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w9-dm-1",
+          termEn: "Direct rule",
+          termMy: "Direct Rule",
+          matchEn:
+              "Colonial control administered directly by officials from the imperial power",
+          matchMy:
+              "Imperial Power မှ Official များက တိုက်ရိုက် စီမံခန့်ခွဲသော Colonial Control",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w9-dm-2",
+          termEn: "Indirect rule",
+          termMy: "Indirect Rule",
+          matchEn:
+              "Colonial control exercised through existing local leaders or structures",
+          matchMy:
+              "ရှိပြီးသား Local ခေါင်းဆောင်များ (သို့) Structure များမှတစ်ဆင့် ကျင့်သုံးသော Colonial Control",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w9-dm-3",
+          termEn: "Settler colony",
+          termMy: "Settler Colony",
+          matchEn:
+              "A colony where large numbers of people from the imperial power permanently settled",
+          matchMy:
+              "Imperial Power မှ လူအရေအတွက်များစွာ အမြဲတမ်း အခြေချနေထိုင်ခဲ့သော Colony",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w9-dm-4",
+          termEn: "Administrative structure",
+          termMy: "Administrative Structure",
+          matchEn:
+              "A specific, documented office or arrangement used to govern a colony",
+          matchMy:
+              "Colony တစ်ခုကို အုပ်ချုပ်ရန် အသုံးပြုသော Specific, Documented Office (သို့) Arrangement",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Direct Rule, Indirect Rule, or Settler Colony?",
+      titleMy: "စီစစ်ကြမည် - Direct Rule, Indirect Rule, (သို့) Settler Colony",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Direct or Indirect Rule", "Settler Colony"],
+        bucketsMy: ["Direct (သို့) Indirect Rule", "Settler Colony"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w9-sort-1",
+            labelEn:
+                "Imperial officials administering a territory directly with no local intermediary",
+            labelMy:
+                "Local Intermediary မပါဘဲ Territory တစ်ခုကို တိုက်ရိုက် စီမံခန့်ခွဲသော Imperial Official များ",
+            correctBucketEn: "Direct or Indirect Rule",
+            correctBucketMy: "Direct (သို့) Indirect Rule",
+          ),
+          SortingItem(
+            id: "sec2hum-w9-sort-2",
+            labelEn:
+                "Large numbers of people from the imperial power permanently establishing homes and farms",
+            labelMy:
+                "Imperial Power မှ လူအရေအတွက်များစွာ အိမ်များနှင့် လယ်ယာမြေများ အမြဲတမ်း တည်ထောင်ခြင်း",
+            correctBucketEn: "Settler Colony",
+            correctBucketMy: "Settler Colony",
+          ),
+          SortingItem(
+            id: "sec2hum-w9-sort-3",
+            labelEn:
+                "Existing local rulers retained with authority delegated from the imperial power",
+            labelMy:
+                "Imperial Power မှ Delegate ပြုလုပ်ထားသော Authority ဖြင့် ရှိပြီးသား Local ဘုရင်များ ဆက်လက် ထားရှိခြင်း",
+            correctBucketEn: "Direct or Indirect Rule",
+            correctBucketMy: "Direct (သို့) Indirect Rule",
+          ),
+          SortingItem(
+            id: "sec2hum-w9-sort-4",
+            labelEn:
+                "Entire communities relocating permanently to a colonized territory to live",
+            labelMy:
+                "Community တစ်ခုလုံး Colonized Territory တစ်ခုသို့ နေထိုင်ရန် အမြဲတမ်း ပြောင်းရွှေ့ခြင်း",
+            correctBucketEn: "Settler Colony",
+            correctBucketMy: "Settler Colony",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Method Comparison",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ Method Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Method Comparison",
+        titleMy: "Su Su ၏ Method Comparison",
+        passageEn:
+            "For Week 9's project, Su Su was asked to compare two documented colonial territories governed by different methods, and her first draft described both simply as 'colonized' with no further distinction.\n\nHer teacher asked her to be more precise: what specific method of control was used in each case? Researching further, Su Su found that one territory had been governed through direct rule, with imperial officials holding administrative positions themselves, while the other had been governed through indirect rule, with an existing local ruling structure retained but made accountable to the imperial power.\n\nApplying Term 1's weighed-motive habit, she also researched why each method had been chosen and found documented reasons that varied by territory: administrative cost, existing local political structures, and strategic priorities all played different roles in each case, rather than one single, universal reason explaining every choice of method.\n\nHer revised report cited the specific administrative structure in each territory and the documented reasoning behind each choice, rather than treating 'colonialism' as one undifferentiated practice. Her teacher praised the precision, noting that distinguishing genuinely different colonial methods mattered just as much as distinguishing serfs from vassals had mattered back in Secondary 1 -- broad categories often hide meaningful, documented variation.",
+        passageMy:
+            "Week 9 ၏ Project အတွက် ကွဲပြားသော Method များဖြင့် အုပ်ချုပ်ခံရသော Documented Colonial Territory နှစ်ခုကို နှိုင်းယှဉ်ရန် Su Su အား တောင်းဆိုခဲ့ပြီး ၎င်း၏ ပထမ Draft သည် နှစ်ခုစလုံးကို ထပ်ဆောင်း ခွဲခြားချက် မပါဘဲ 'Colonized' ဟု ရိုးရိုးသာ ဖော်ပြခဲ့သည်။\n\nMethod Control တိကျတစ်ခုစီတွင် အသုံးပြုခဲ့သည်ကို ပို၍ တိကျရန် ၎င်း၏ ဆရာမ တောင်းဆိုခဲ့သည်။ ပို၍ Research ပြုလုပ်သောအခါ Territory တစ်ခုသည် Imperial Official များ ၎င်းတို့ကိုယ်တိုင် Administrative Position များ ကိုင်ဆောင်ခဲ့သော Direct Rule မှတစ်ဆင့် အုပ်ချုပ်ခံခဲ့ရကြောင်း၊ အခြားတစ်ခုမူ ရှိပြီးသား Local Ruling Structure ကို ဆက်လက် ထားရှိသော်လည်း Imperial Power သို့ Accountable ဖြစ်စေသော Indirect Rule မှတစ်ဆင့် အုပ်ချုပ်ခံခဲ့ရကြောင်း Su Su ရှာဖွေတွေ့ရှိခဲ့သည်။\n\nTerm 1 ၏ Weighed-Motive Habit အသုံးချကာ Method တစ်ခုစီ အဘယ်ကြောင့် ရွေးချယ်ခံခဲ့ရသည်ကိုလည်း ၎င်း Research ပြုလုပ်ခဲ့ပြီး Territory အလိုက် ကွဲပြားသော Documented Reason များကို ရှာဖွေတွေ့ရှိခဲ့သည် - Administrative Cost, ရှိပြီးသား Local Political Structure များနှင့် Strategic Priority များ Case တစ်ခုစီတွင် Role ကွဲပြားစွာ ပါဝင်ခဲ့ပြီး Method Choice တိုင်းကို ရှင်းပြသော Single, Universal Reason တစ်ခု မဟုတ်ပါ။\n\n'Colonialism' ကို Undifferentiated Practice တစ်ခုတည်းအဖြစ် သဘောထားမည့်အစား Territory တစ်ခုစီရှိ Specific Administrative Structure နှင့် Choice တစ်ခုစီနောက်ကွယ်ရှိ Documented Reasoning ကို ၎င်း၏ ပြင်ဆင်ထားသော Report ကိုးကားခဲ့သည်။ Genuinely ကွဲပြားသော Colonial Method များ ခွဲခြားခြင်းသည် Secondary 1 တွင် Serf များကို Vassal များမှ ခွဲခြားခြင်း အရေးကြီးခဲ့သကဲ့သို့ တူညီစွာ အရေးကြီးကြောင်း Precision ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် -- ကျယ်ပြန့်သော Category များသည် Meaningful, Documented Variation ကို မကြာခဏ ဖုံးကွယ်တတ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Su Su's research find about the two territories' methods of control?",
+            questionMy:
+                "Territory နှစ်ခု၏ Control Method များအကြောင်း Su Su ၏ Research ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One was governed by direct rule, the other by indirect rule through a retained local structure",
+              "Both territories were governed by exactly identical methods with no distinction",
+              "Neither territory had any documented method of control whatsoever",
+              "Both territories used settler colonization with no administrative rule of any kind",
+            ],
+            optionsMy: [
+              "တစ်ခုကို Direct Rule ဖြင့် အုပ်ချုပ်ခဲ့ပြီး အခြားတစ်ခုကို ဆက်လက်ထားရှိသော Local Structure တစ်ခုမှတစ်ဆင့် Indirect Rule ဖြင့်",
+              "Territory နှစ်ခုစလုံးကို ခွဲခြားချက် မရှိဘဲ Method အတိအကျ တူတူဖြင့် အုပ်ချုပ်ခဲ့ခြင်း",
+              "Territory နှစ်ခုစလုံးတွင် Documented Method Control မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "Territory နှစ်ခုစလုံးသည် Administrative Rule မည်သည်မှ မပါဘဲ Settler Colonization အသုံးပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's research finding."],
+            hintsMy: ["Research Finding ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why were different methods chosen for different territories?",
+            questionMy:
+                "Territory ကွဲပြားများအတွက် Method ကွဲပြားများ ဘာကြောင့် ရွေးချယ်ခံခဲ့ရသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Administrative cost, existing local structures, and strategic priorities varied by territory",
+              "No actual reason existed for the choice of method in any territory",
+              "Every territory used the exact same reasoning with no variation whatsoever",
+              "The choice of method had no actual connection to any documented factor",
+            ],
+            optionsMy: [
+              "Administrative Cost, ရှိပြီးသား Local Structure များနှင့် Strategic Priority များသည် Territory အလိုက် ကွဲပြားခဲ့ခြင်း",
+              "Territory မည်သည်တွင်မျှ Method ရွေးချယ်မှုအတွက် Actual Reason မရှိခဲ့ခြင်း",
+              "Territory တိုင်းသည် Variation မည်သည်မှ မရှိဘဲ Reasoning အတိအကျ တူတူ အသုံးပြုခဲ့ခြင်း",
+              "Method ရွေးချယ်မှုသည် Documented Factor မည်သည်နှင့်မျှ Actual Connection မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reasons."],
+            hintsMy: [
+              "ဖော်ပြထားသော အကြောင်းရင်းများကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say broad categories often do?",
+            questionMy:
+                "ကျယ်ပြန့်သော Category များ မကြာခဏ ပြုလုပ်တတ်သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Hide meaningful, documented variation",
+              "Always reveal every possible detail with perfect clarity",
+              "Have no actual connection to historical accuracy whatsoever",
+              "Make historical study completely unnecessary",
+            ],
+            optionsMy: [
+              "Meaningful, Documented Variation ကို ဖုံးကွယ်ခြင်း",
+              "ဖြစ်နိုင်သမျှ Detail တိုင်းကို Perfect Clarity ဖြင့် အမြဲ ဖော်ထုတ်ခြင်း",
+              "သမိုင်းဆိုင်ရာ တိကျမှုနှင့် Actual Connection မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "သမိုင်းဆိုင်ရာ လေ့လာမှုကို လုံးလုံး မလိုအပ်စေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated observation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Observation ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w9-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Empires and Colonialism Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Empires and Colonialism မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Direct rule, indirect rule, and settler colonization are...",
+          questionMy:
+              "Direct Rule, Indirect Rule နှင့် Settler Colonization သည် ...",
+          optionsEn: [
+            "Genuinely different methods with different structures and consequences",
+            "Exactly identical practices with no meaningful difference",
+            "Methods with no actual connection to imperial control",
+            "Terms that mean exactly the same thing",
+          ],
+          optionsMy: [
+            "Structure နှင့် Consequence ကွဲပြားများပါသော Genuinely ကွဲပြားသော Method များ",
+            "Meaningful ကွာခြားချက် မရှိသော Practice အတိအကျ တူတူများ",
+            "Imperial Control နှင့် Actual Connection မရှိသော Method များ",
+            "အဓိပ္ပာယ် အတိအကျ တူသော Term များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Empires expanded and were organized for...",
+          questionMy: "Empire များသည် ...အတွက် ချဲ့ထွင်ကာ ဖွဲ့စည်းခဲ့ကြသည်",
+          optionsEn: [
+            "Varied, often multiple documented reasons, not one universal cause",
+            "Exactly one single, identical reason with no variation whatsoever",
+            "No documented reason of any kind whatsoever",
+            "Reasons entirely unrelated to any historical evidence",
+          ],
+          optionsMy: [
+            "Cause Universal တစ်ခုတည်း မဟုတ်ဘဲ ကွဲပြား, မကြာခဏ Multiple Documented Reason များ",
+            "Variation မရှိဘဲ Reason တစ်ခုတည်း၊ Identical အတိအကျ",
+            "Documented Reason မည်သည်မှ လုံးဝ",
+            "သမိုင်းဆိုင်ရာ Evidence မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်သော Reason များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim about a specific empire's control method should cite...",
+          questionMy:
+              "Empire တိကျတစ်ခု၏ Control Method အကြောင်း Claim တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Documented administrative structures such as specific offices",
+            "A vague, generic description with no specific detail",
+            "No evidence of any kind whatsoever",
+            "An assumption with no supporting documentation",
+          ],
+          optionsMy: [
+            "Specific Office များကဲ့သို့ Documented Administrative Structure များ",
+            "Specific Detail မပါသော Vague, Generic Description",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Supporting Documentation မပါသော Assumption တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 3, Week 10: "Economic Structures of
+// Empire: Mercantilism and Resource Extraction"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek10 = CourseWeekDef(
+  id: "course-sec2-hum-w10",
+  weekNumber: 10,
+  titleEn: "Economic Structures of Empire",
+  titleMy: "Empire ၏ Economic Structure များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w10-d1",
+      dayNumber: 1,
+      titleEn: "Mercantilism and Trade Monopolies",
+      titleMy: "Mercantilism နှင့် ကုန်သွယ်ရေး Monopoly များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did mercantilist economic policy, which restricted colonies to trading primarily with their own imperial power, matter as a specific, documented economic structure rather than simply being a vague background detail?",
+          questionMy:
+              "Colony များကို ၎င်းတို့ကိုယ်ပိုင် Imperial Power နှင့် အဓိက ကုန်သွယ်ရန် ကန့်သတ်ထားသော Mercantilist Economic Policy သည် Vague Background Detail တစ်ခု ရိုးရိုးသက်သက်ထက် Specific, Documented Economic Structure တစ်ခုအဖြစ် အဘယ်ကြောင့် အရေးကြီးရသနည်း။",
+          optionsEn: [
+            "Mercantilist policy shaped documented, specific trade restrictions and economic relationships between colonies and imperial powers, with real, checkable consequences for who profited and who did not",
+            "Mercantilism had no actual connection to specific colonial trade patterns whatsoever",
+            "Economic policy has no actual relevance to understanding how empires functioned",
+            "Trade restrictions between colonies and imperial powers never actually existed in documented history",
+          ],
+          optionsMy: [
+            "Mercantilist Policy သည် Documented, Specific ကုန်သွယ်ရေး Restriction များနှင့် Colony များနှင့် Imperial Power များကြား Economic Relationship များကို ပုံဖော်ပေးကာ မည်သူ အမြတ်ရရှိပြီး မည်သူ မရရှိသည်အတွက် Real, Checkable Consequence များ ရှိခဲ့သည်",
+            "Mercantilism တွင် Specific Colonial Trade Pattern များနှင့် Actual Connection မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "Economic Policy သည် Empire များ မည်သို့ Function ပြုလုပ်ခဲ့သည် နားလည်ခြင်းနှင့် Actual Relevance မရှိခြင်း",
+            "Colony များနှင့် Imperial Power များကြား ကုန်သွယ်ရေး Restriction များသည် Documented သမိုင်းတွင် အမှန်တကယ် ဘယ်တော့မှ မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same underlying-logic reasoning from Secondary 1's feudalism and manor-system lessons -- an economic structure's specific mechanics reveal how a system actually functioned.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Feudalism နှင့် Manor-System သင်ခန်းစာများမှ Underlying-Logic Reasoning တူတူ ဖြစ်သည် -- Economic Structure တစ်ခု၏ Specific Mechanic များသည် System တစ်ခု အမှန်တကယ် မည်သို့ Function ပြုလုပ်ခဲ့သည်ကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim about resource extraction from a specific colony cite documented export figures or specific extracted goods, rather than a vague claim that 'the colony was exploited economically'?",
+          questionMy:
+              "Colony တိကျတစ်ခုမှ Resource Extraction အကြောင်း Claim တစ်ခုသည် 'Colony သည် Economically Exploited ခံခဲ့ရသည်' ဆိုသော Vague Claim တစ်ခုအစား Documented Export ကိန်းဂဏန်းများ (သို့) Specific Extracted Goods ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific, documented figures make an economic claim checkable and precise, matching the specificity habit maintained throughout the entire course rather than an unverifiable generalization",
+            "Vague, general claims about exploitation are always more historically informative than specific documented figures",
+            "Citing specific export figures has no actual value when studying colonial economics",
+            "Documented export figures have no actual connection to understanding a colony's economic relationship with its imperial power",
+          ],
+          optionsMy: [
+            "Specific, Documented ကိန်းဂဏန်းများသည် Unverifiable Generalization တစ်ခုအစား Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specificity Habit နှင့် ကိုက်ညီစွာ Economic Claim တစ်ခုကို Checkable, Precise ဖြစ်စေသည်",
+            "Exploitation အကြောင်း Vague, General Claim များသည် Specific Documented Figure များထက် သမိုင်းအရ အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Export ကိန်းဂဏန်းများ ကိုးကားခြင်းသည် Colonial Economics လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Documented Export ကိန်းဂဏန်းများတွင် Colony တစ်ခု၏ Imperial Power နှင့် Economic Relationship နားလည်ခြင်းနှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-data habit from Secondary 1's natural resources lesson, applied now to colonial resource extraction.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Colonial Resource Extraction ပေါ်တွင် ယခု အသုံးချထားသော Secondary 1 ၏ Natural Resources သင်ခန်းစာမှ Specific-Data Habit ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students weigh both the documented economic benefit to the imperial power and the documented economic cost to the colony, rather than presenting only one side of a mercantilist trade relationship?",
+          questionMy:
+              "Mercantilist ကုန်သွယ်ရေး Relationship တစ်ခု၏ ဘက်တစ်ဘက်တည်းကိုသာ တင်ပြမည့်အစား Imperial Power ၏ Documented Economic Benefit နှင့် Colony ၏ Documented Economic Cost နှစ်ခုစလုံးကို ကျောင်းသားများ အဘယ်ကြောင့် ချိန်ဆသင့်ရသနည်း။",
+          optionsEn: [
+            "A trade relationship genuinely has consequences for both parties, and presenting only the benefit or only the cost would each be an incomplete, unbalanced account of the same documented structure",
+            "Mercantilist trade relationships only ever benefited one side with no cost to anyone at all",
+            "Weighing both sides of an economic relationship has no actual value in historical study",
+            "Presenting only one side of a trade relationship always gives the most accurate picture",
+          ],
+          optionsMy: [
+            "ကုန်သွယ်ရေး Relationship တစ်ခုသည် ဘက်နှစ်ဘက်စလုံးအတွက် Consequence များ အမှန်တကယ် ရှိပြီး Benefit တစ်ခုတည်း (သို့) Cost တစ်ခုတည်း တင်ပြခြင်းသည် Documented Structure တူတူ၏ Incomplete, Unbalanced Account တစ်ခုစီ ဖြစ်လိမ့်မည်",
+            "Mercantilist ကုန်သွယ်ရေး Relationship များသည် မည်သူမျှ Cost မပါဘဲ ဘက်တစ်ဘက်တည်းကိုသာ ဘယ်တော့မှ အကျိုးရှိခဲ့ခြင်း",
+            "Economic Relationship တစ်ခု၏ ဘက်နှစ်ဘက်စလုံး ချိန်ဆခြင်းတွင် သမိုင်းလေ့လာမှုတွင် Actual Value မရှိခြင်း",
+            "ကုန်သွယ်ရေး Relationship တစ်ခု၏ ဘက်တစ်ဘက်တည်းကိုသာ တင်ပြခြင်းသည် အတိကျဆုံး ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Term 1's Columbian Exchange lesson, applied now to mercantilist economic relationships.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Mercantilist Economic Relationship များပေါ်တွင် ယခု အသုံးချထားသော Term 1 ၏ Columbian Exchange သင်ခန်းစာမှ Balanced-Account Discipline ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Economic Structures Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Economic Structures Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w10-dm-1",
+          termEn: "Mercantilism",
+          termMy: "Mercantilism",
+          matchEn:
+              "An economic policy restricting colonial trade primarily to the imperial power",
+          matchMy:
+              "Colonial Trade ကို Imperial Power နှင့် အဓိက ကန့်သတ်ထားသော Economic Policy",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w10-dm-2",
+          termEn: "Resource extraction",
+          termMy: "Resource Extraction",
+          matchEn:
+              "Removing valuable materials from a colony for the imperial power's benefit",
+          matchMy:
+              "Imperial Power ၏ အကျိုးအတွက် Colony တစ်ခုမှ တန်ဖိုးရှိသော Material များ ဖယ်ရှားခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w10-dm-3",
+          termEn: "Trade monopoly",
+          termMy: "Trade Monopoly",
+          matchEn:
+              "Exclusive control over a colony's trade, documented through specific policies",
+          matchMy:
+              "Specific Policy များမှတစ်ဆင့် Document ပြုလုပ်ထားသော Colony တစ်ခု၏ ကုန်သွယ်ရေး Exclusive Control",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w10-dm-4",
+          termEn: "Documented export figure",
+          termMy: "Documented Export Figure",
+          matchEn:
+              "A specific, checkable number showing goods sent from a colony",
+          matchMy:
+              "Colony တစ်ခုမှ ပို့ဆောင်ထားသော ကုန်ပစ္စည်းများ ပြသသော Specific, Checkable ဂဏန်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Economic Evidence or Vague Claim?",
+      titleMy: "စီစစ်ကြမည် - Specific Economic Evidence (သို့) Vague Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Economic Evidence", "Vague Claim"],
+        bucketsMy: ["Specific Economic Evidence", "Vague Claim"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w10-sort-1",
+            labelEn:
+                "Documented export records showing a specific quantity of a named resource",
+            labelMy:
+                "Named Resource တစ်ခု၏ Specific ပမာဏ ပြသသော Documented Export Record များ",
+            correctBucketEn: "Specific Economic Evidence",
+            correctBucketMy: "Specific Economic Evidence",
+          ),
+          SortingItem(
+            id: "sec2hum-w10-sort-2",
+            labelEn:
+                "The colony was just economically exploited with no specific evidence given",
+            labelMy:
+                "Specific Evidence မပေးဘဲ Colony သည် Economically Exploited ခံခဲ့ရသည်",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w10-sort-3",
+            labelEn:
+                "A documented mercantilist policy restricting trade to a named imperial power",
+            labelMy:
+                "Named Imperial Power နှင့်သာ ကုန်သွယ်ရေးကို ကန့်သတ်ထားသော Documented Mercantilist Policy",
+            correctBucketEn: "Specific Economic Evidence",
+            correctBucketMy: "Specific Economic Evidence",
+          ),
+          SortingItem(
+            id: "sec2hum-w10-sort-4",
+            labelEn:
+                "The empire just benefited a lot economically with no cited figures at all",
+            labelMy:
+                "Cited ကိန်းဂဏန်း မည်သည်မှ မပါဘဲ Empire သည် Economically များစွာ အကျိုးရှိခဲ့သည်",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko Ko's Trade Data Report",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko Ko ၏ Trade Data Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko Ko's Trade Data Report",
+        titleMy: "Zin Ko Ko ၏ Trade Data Report",
+        passageEn:
+            "For Week 10's project, Zin Ko Ko set out to explain the economic relationship between a documented colony and its imperial power, and his first draft stated simply that 'the empire benefited economically and the colony suffered.'\n\nHis teacher asked him to replace this vague, one-sided claim with specific, documented figures on both sides of the relationship. Zin Ko Ko found records showing a documented mercantilist policy restricting the colony's trade almost entirely to its imperial power, along with specific export figures for a named resource extracted in significant, recorded quantities.\n\nApplying Term 1's balanced-account habit, he was careful to represent this as a real economic relationship with consequences for both sides, rather than a purely one-directional story: the imperial power gained access to resources and a captive market, documented through specific trade records, while the colony's economy was documented as shaped around meeting imperial demand rather than developing more broadly.\n\nHis revised report cited specific export figures, the specific documented mercantilist policy, and a balanced account of the relationship's consequences for both sides. His teacher praised the shift from a vague general claim to specific, checkable evidence -- the same specificity standard that had applied to every economic and resource claim since Secondary 1.",
+        passageMy:
+            "Week 10 ၏ Project အတွက် Documented Colony တစ်ခုနှင့် ၎င်း၏ Imperial Power ကြား Economic Relationship ကို ရှင်းပြရန် Zin Ko Ko စတင်ခဲ့ပြီး ၎င်း၏ ပထမ Draft တွင် 'Empire သည် Economically အကျိုးရှိပြီး Colony သည် ဒုက္ခခံခဲ့ရသည်' ဟု ရိုးရိုးသာ ဖော်ပြခဲ့သည်။\n\nဤ Vague, One-Sided Claim ကို Relationship ၏ ဘက်နှစ်ဘက်စလုံးရှိ Specific, Documented ကိန်းဂဏန်းများဖြင့် အစားထိုးရန် ၎င်း၏ ဆရာမ တောင်းဆိုခဲ့သည်။ Colony ၏ ကုန်သွယ်ရေးကို ၎င်း၏ Imperial Power နှင့် လုံးလုံးနီးပါး ကန့်သတ်ထားသော Documented Mercantilist Policy တစ်ခုနှင့် Significant, Recorded ပမာဏများတွင် ထုတ်ယူထားသော Named Resource တစ်ခု၏ Specific Export ကိန်းဂဏန်းများကို Zin Ko Ko ရှာဖွေတွေ့ရှိခဲ့သည်။\n\nTerm 1 ၏ Balanced-Account Habit အသုံးချကာ Purely One-Directional Story တစ်ခုအစား ဘက်နှစ်ဘက်စလုံးအတွက် Consequence များပါသော Real Economic Relationship တစ်ခုအဖြစ် ဤသည်ကို ကိုယ်စားပြုရန် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည် - Specific ကုန်သွယ်ရေး Record များမှတစ်ဆင့် Document ပြုလုပ်ထားသော Resource များနှင့် Captive Market သို့ Imperial Power Access ရရှိခဲ့ပြီး Colony ၏ Economy သည် ကျယ်ပြန့်စွာ ဖွံ့ဖြိုးခြင်းအစား Imperial Demand ဖြည့်ဆည်းပေးရန် ပတ်လည် ပုံဖော်ထားသည်ဟု Document ပြုလုပ်ထားသည်။\n\nSpecific Export ကိန်းဂဏန်းများ, Specific Documented Mercantilist Policy နှင့် Relationship ၏ Consequence ဘက်နှစ်ဘက်စလုံးအတွက် Balanced Account ကို ၎င်း၏ ပြင်ဆင်ထားသော Report ကိုးကားခဲ့သည်။ Vague General Claim တစ်ခုမှ Specific, Checkable Evidence သို့ Shift ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် -- Secondary 1 မှစ၍ Economic နှင့် Resource Claim တိုင်းအတွက် အသုံးချခဲ့သော Specificity Standard တူတူ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Zin Ko Ko's research find documented evidence of?",
+            questionMy:
+                "Zin Ko Ko ၏ Research ရှာဖွေတွေ့ရှိခဲ့သော Documented Evidence ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A mercantilist policy restricting trade, and specific export figures for a named resource",
+              "No documented evidence of any kind existed about this economic relationship",
+              "Only a vague impression with no specific figures or policies cited",
+              "Evidence entirely unrelated to trade or resource extraction",
+            ],
+            optionsMy: [
+              "ကုန်သွယ်ရေးကို ကန့်သတ်ထားသော Mercantilist Policy တစ်ခုနှင့် Named Resource တစ်ခု၏ Specific Export ကိန်းဂဏန်းများ",
+              "ဤ Economic Relationship အကြောင်း Documented Evidence မည်သည်မှ မရှိခဲ့ခြင်း",
+              "Specific ကိန်းဂဏန်း (သို့) Policy ကိုးကားခြင်း မပါဘဲ Vague Impression တစ်ခုသာ",
+              "ကုန်သွယ်ရေး (သို့) Resource Extraction နှင့် လုံးလုံး မသက်ဆိုင်သော Evidence",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's found evidence."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော Evidence ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Zin Ko Ko represent the economic relationship?",
+            questionMy:
+                "Economic Relationship ကို Zin Ko Ko မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As a real relationship with documented consequences for both the imperial power and the colony",
+              "As a purely one-directional story with no consequences for either side",
+              "As something with no actual documented consequences of any kind",
+              "As a relationship benefiting only the colony with no benefit to the empire",
+            ],
+            optionsMy: [
+              "Imperial Power နှင့် Colony နှစ်ခုစလုံးအတွက် Documented Consequence များပါသော Real Relationship တစ်ခုအဖြစ်",
+              "ဘက်တစ်ဘက်မျှအတွက် Consequence မပါဘဲ Purely One-Directional Story တစ်ခုအဖြစ်",
+              "Documented Consequence မည်သည်မှ Actual မပါသော အရာတစ်ခုအဖြစ်",
+              "Empire အတွက် Benefit မပါဘဲ Colony တစ်ခုတည်းအတွက်သာ အကျိုးရှိသော Relationship တစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described representation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Representation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise about the revised report?",
+            questionMy:
+                "ပြင်ဆင်ထားသော Report အကြောင်း ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The shift from a vague general claim to specific, checkable evidence",
+              "The removal of all evidence and figures from the report entirely",
+              "A shift toward even vaguer, less specific claims than before",
+              "The report's complete avoidance of any economic topic",
+            ],
+            optionsMy: [
+              "Vague General Claim တစ်ခုမှ Specific, Checkable Evidence သို့ Shift",
+              "Report မှ Evidence နှင့် ကိန်းဂဏန်းများအားလုံး လုံးလုံး ဖယ်ရှားခြင်း",
+              "ယခင်ထက် ပို၍ Vague, Specific နည်းသော Claim များသို့ Shift",
+              "Economic ခေါင်းစဉ် မည်သည်ကိုမျှ Report ၏ လုံးလုံး ရှောင်ရှားမှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w10-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Economic Structures of Empire Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Economic Structures of Empire မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Mercantilist policy is significant because it...",
+          questionMy: "Mercantilist Policy သည် ...ကြောင့် Significant ဖြစ်သည်",
+          optionsEn: [
+            "Shaped documented, specific trade restrictions with real consequences",
+            "Had no actual connection to colonial trade patterns",
+            "Was simply a vague background detail with no real effect",
+            "Applied identically with no variation across every empire",
+          ],
+          optionsMy: [
+            "Real Consequence များပါသော Documented, Specific ကုန်သွယ်ရေး Restriction များကို ပုံဖော်ပေးခဲ့ခြင်း",
+            "Colonial Trade Pattern များနှင့် Actual Connection မရှိခြင်း",
+            "Real Effect မပါဘဲ Vague Background Detail တစ်ခု ရိုးရိုးသက်သက် ဖြစ်ခြင်း",
+            "Empire တိုင်းတွင် Variation မရှိဘဲ Identically အသုံးချခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A claim about resource extraction should cite...",
+          questionMy:
+              "Resource Extraction အကြောင်း Claim တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Documented export figures or specific extracted goods",
+            "A vague claim with no specific figures",
+            "No evidence of any kind whatsoever",
+            "An assumption with no documentation",
+          ],
+          optionsMy: [
+            "Documented Export ကိန်းဂဏန်းများ (သို့) Specific Extracted Goods",
+            "Specific ကိန်းဂဏန်း မပါသော Vague Claim",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Documentation မပါသော Assumption တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trade relationship's economic consequences should be represented as affecting...",
+          questionMy:
+              "ကုန်သွယ်ရေး Relationship တစ်ခု၏ Economic Consequence များကို ...အပေါ် သက်ရောက်သည်ဟု ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Both the imperial power and the colony",
+            "Only the imperial power with no cost to the colony",
+            "Only the colony with no benefit to the imperial power",
+            "Neither party in any documented way",
+          ],
+          optionsMy: [
+            "Imperial Power နှင့် Colony နှစ်ခုစလုံး",
+            "Colony အတွက် Cost မပါဘဲ Imperial Power တစ်ခုတည်း",
+            "Imperial Power အတွက် Benefit မပါဘဲ Colony တစ်ခုတည်း",
+            "Documented နည်းလမ်း မည်သည်တွင်မျှ ဘက်ကို",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 3, Week 11: "Colonial Impact on
+// Colonized Peoples"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek11 = CourseWeekDef(
+  id: "course-sec2-hum-w11",
+  weekNumber: 11,
+  titleEn: "Colonial Impact on Colonized Peoples",
+  titleMy: "Colonized လူများအပေါ် Colonial Impact",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w11-d1",
+      dayNumber: 1,
+      titleEn: "Documenting Impact Honestly and Completely",
+      titleMy: "Impact ကို ရိုးသား၊ ပြည့်စုံစွာ Document ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a historically complete account of colonialism represent both documented harms to colonized peoples (such as economic exploitation, cultural disruption, and resistance movements against these) and documented infrastructural or administrative changes, rather than presenting only one dimension?",
+          questionMy:
+              "Colonialism ၏ သမိုင်းအရ ပြည့်စုံသော Account တစ်ခုသည် Dimension တစ်ခုတည်းကိုသာ တင်ပြမည့်အစား Colonized လူများအပေါ် Documented Harm များ (Economic Exploitation, Cultural Disruption နှင့် ၎င်းတို့ကို ဆန့်ကျင်သော Resistance Movement များကဲ့သို့) နှင့် Documented Infrastructural (သို့) Administrative ပြောင်းလဲမှုများ နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "Colonialism was a complex historical process with multiple, simultaneous, well-documented consequences, and representing only convenient or only difficult aspects would each be an incomplete, misleading account",
+            "Colonialism had only one single documented consequence with no other dimensions of any kind",
+            "Documented harms to colonized peoples have no actual historical evidence supporting them",
+            "Presenting only one dimension of colonialism always gives the most accurate historical picture",
+          ],
+          optionsMy: [
+            "Colonialism သည် Multiple, တစ်ပြိုင်နက်, ကောင်းစွာ Documented Consequence များပါသော ရှုပ်ထွေးသော သမိုင်းဆိုင်ရာ Process တစ်ခု ဖြစ်ခဲ့ပြီး အဆင်ပြေသော (သို့) ခက်ခဲသော Aspect များကိုသာ တင်ပြခြင်းသည် တစ်ခုစီသည် Incomplete, Misleading Account တစ်ခု ဖြစ်လိမ့်မည်",
+            "Colonialism တွင် Dimension အခြားမည်သည်မှ မပါဘဲ Documented Consequence တစ်ခုတည်း ရှိခဲ့ခြင်း",
+            "Colonized လူများအပေါ် Documented Harm များတွင် ၎င်းတို့ကို ထောက်ခံသော Actual သမိုင်းဆိုင်ရာ Evidence မရှိခြင်း",
+            "Colonialism ၏ Dimension တစ်ခုတည်းကိုသာ တင်ပြခြင်းသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same balanced-account discipline from Term 1's Columbian Exchange lesson -- a complex event's full picture requires every major documented dimension, not just the comfortable one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Columbian Exchange သင်ခန်းစာမှ Balanced-Account Discipline အတိအကျ ဖြစ်သည် -- ရှုပ်ထွေးသော Event တစ်ခု၏ ပြည့်စုံသော ပုံရိပ်သည် အဆင်ပြေသော တစ်ခုတည်းမက Major Documented Dimension တိုင်းကို လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students cite specific, documented resistance movements against colonial rule (naming specific leaders, events, or dates) rather than a vague claim that 'colonized peoples resisted'?",
+          questionMy:
+              "'Colonized လူများ ခုခံခဲ့ကြသည်' ဆိုသော Vague Claim တစ်ခုအစား Colonial Rule ကို ဆန့်ကျင်သော Specific, Documented Resistance Movement များကို (Specific ခေါင်းဆောင်များ, Event များ, (သို့) ရက်စွဲများ အမည်ဖော်ပြ) ကျောင်းသားများ အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Naming specific resistance movements with documented leaders and dates makes the claim checkable and gives resistance its full historical weight, rather than reducing it to a vague, unspecific gesture",
+            "Vague claims about resistance are always more historically informative than specific, named movements",
+            "Citing specific resistance movements has no actual value when studying colonial history",
+            "Documented resistance leaders and events have no actual connection to understanding colonialism",
+          ],
+          optionsMy: [
+            "Documented ခေါင်းဆောင်များနှင့် ရက်စွဲများပါသော Specific Resistance Movement များ အမည်ဖော်ပြခြင်းသည် Claim ကို Checkable ဖြစ်စေကာ Vague, Unspecific Gesture တစ်ခုအဖြစ် လျှော့ချမည့်အစား Resistance ကို ၎င်း၏ Full Historical Weight ပေးအပ်သည်",
+            "Resistance အကြောင်း Vague Claim များသည် Specific, Named Movement များထက် သမိုင်းအရ အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Resistance Movement များ ကိုးကားခြင်းသည် Colonial History လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Documented Resistance ခေါင်းဆောင်များနှင့် Event များတွင် Colonialism နားလည်ခြင်းနှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-achievement/specific-evidence habit maintained throughout the course, applied now to resistance movements specifically.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Resistance Movement များပေါ်တွင် တိတိကျကျ ယခု အသုံးချထားသော Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Documented-Achievement/Specific-Evidence Habit ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid claiming that infrastructural or administrative changes introduced under colonial rule automatically 'justified' or 'balanced out' documented harms, treating this as a simple moral equation?",
+          questionMy:
+              "Colonial Rule အောက်တွင် မိတ်ဆက်ပေးခဲ့သော Infrastructural (သို့) Administrative ပြောင်းလဲမှုများသည် Documented Harm များကို အလိုအလျောက် 'ခိုင်လုံစေသည်' (သို့) 'ချိန်ညှိပေးသည်' ဟု Claim ပြုလုပ်ခြင်း၊ ၎င်းကို Simple Moral Equation တစ်ခုအဖြစ် သဘောထားခြင်းကို ကျောင်းသားများ အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Both dimensions are separately documented historical facts, and asserting that one automatically cancels out or justifies the other is a value judgement beyond what the historical evidence itself establishes -- each should be represented accurately in its own right",
+            "Infrastructural changes always completely justify any documented harm with no further consideration needed",
+            "Documented harms and documented infrastructural changes have no actual connection to each other",
+            "Historical study should always present one dimension as automatically outweighing the other",
+          ],
+          optionsMy: [
+            "Dimension နှစ်ခုစလုံးသည် သီးခြားစီ Documented သမိုင်းဆိုင်ရာ Fact များ ဖြစ်ပြီး တစ်ခုသည် အခြားတစ်ခုကို အလိုအလျောက် ပယ်ဖျက် (သို့) ခိုင်လုံစေသည်ဟု Assert ပြုလုပ်ခြင်းသည် သမိုင်းဆိုင်ရာ Evidence ကိုယ်တိုင် တည်ထောင်ထားသည်ထက် ကျော်လွန်သော Value Judgement တစ်ခု ဖြစ်သည် -- တစ်ခုစီကို ၎င်းကိုယ်ပိုင် အခွင့်အရေးဖြင့် တိကျစွာ ကိုယ်စားပြုသင့်သည်",
+            "Infrastructural ပြောင်းလဲမှုများသည် ထပ်ဆောင်း Consideration မလိုအပ်ဘဲ Documented Harm မည်သည်ကိုမဆို လုံးလုံး အမြဲ ခိုင်လုံစေခြင်း",
+            "Documented Harm များနှင့် Documented Infrastructural ပြောင်းလဲမှုများတွင် တစ်ခုနှင့်တစ်ခု Actual Connection မရှိခြင်း",
+            "သမိုင်းလေ့လာမှုသည် Dimension တစ်ခုကို အခြားတစ်ခုထက် အလိုအလျောက် အလေးသာသည်ဟု အမြဲ တင်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This extends the balanced-account principle further -- weighing multiple documented dimensions honestly is different from claiming one automatically cancels out or excuses the other.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Balanced-Account Principle ကို ပို၍ ချဲ့ထွင်သည် -- Documented Dimension များစွာကို ရိုးသားစွာ ချိန်ဆခြင်းသည် တစ်ခုသည် အခြားတစ်ခုကို အလိုအလျောက် ပယ်ဖျက် (သို့) ချေဖျက်သည်ဟု Claim ပြုလုပ်ခြင်းနှင့် ကွဲပြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Colonial Impact Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Colonial Impact Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w11-dm-1",
+          termEn: "Cultural disruption",
+          termMy: "Cultural Disruption",
+          matchEn:
+              "Documented harm to existing languages, practices, or social structures under colonial rule",
+          matchMy:
+              "Colonial Rule အောက်တွင် ရှိပြီးသား ဘာသာစကား, Practice, (သို့) Social Structure များအပေါ် Documented Harm",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w11-dm-2",
+          termEn: "Resistance movement",
+          termMy: "Resistance Movement",
+          matchEn:
+              "A specific, documented organized effort to oppose colonial rule",
+          matchMy:
+              "Colonial Rule ကို ဆန့်ကျင်ရန် Specific, Documented Organized ကြိုးပမ်းမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w11-dm-3",
+          termEn: "Infrastructural change",
+          termMy: "Infrastructural Change",
+          matchEn:
+              "Documented development such as roads or administrative systems introduced during colonial rule",
+          matchMy:
+              "Colonial Rule အတွင်း မိတ်ဆက်ပေးခဲ့သော လမ်းများ (သို့) Administrative System များကဲ့သို့ Documented Development",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w11-dm-4",
+          termEn: "Complete account",
+          termMy: "Complete Account",
+          matchEn:
+              "A representation of every major documented dimension, not only convenient ones",
+          matchMy:
+              "အဆင်ပြေသော ဒိစိတ်များကိုသာ မဟုတ်ဘဲ Major Documented Dimension တိုင်း၏ ကိုယ်စားပြုချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Documented Claim or Vague Claim?",
+      titleMy: "စီစစ်ကြမည် - Specific Documented Claim (သို့) Vague Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Claim", "Vague Claim"],
+        bucketsMy: ["Specific Documented Claim", "Vague Claim"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w11-sort-1",
+            labelEn:
+                "A named resistance leader and a specific dated uprising cited from historical records",
+            labelMy:
+                "သမိုင်းဆိုင်ရာ Record များမှ ကိုးကားထားသော Named Resistance ခေါင်းဆောင်တစ်ဦးနှင့် Specific ရက်စွဲပါ Uprising တစ်ခု",
+            correctBucketEn: "Specific Documented Claim",
+            correctBucketMy: "Specific Documented Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w11-sort-2",
+            labelEn:
+                "Colonized peoples resisted, with no named leader or event cited",
+            labelMy:
+                "Named ခေါင်းဆောင် (သို့) Event ကိုးကားခြင်း မပါဘဲ Colonized လူများ ခုခံခဲ့ကြသည်",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w11-sort-3",
+            labelEn:
+                "A documented administrative system introduced with cited dates and specific structure",
+            labelMy:
+                "Cited ရက်စွဲများနှင့် Specific Structure ပါသော Documented Administrative System တစ်ခု မိတ်ဆက်ပေးခြင်း",
+            correctBucketEn: "Specific Documented Claim",
+            correctBucketMy: "Specific Documented Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w11-sort-4",
+            labelEn:
+                "Some infrastructure was built, with no specific detail or citation at all",
+            labelMy:
+                "Specific Detail (သို့) Citation မည်သည်မှ မပါဘဲ Infrastructure အချို့ တည်ဆောက်ခဲ့သည်",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Complete Impact Report",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Complete Impact Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Complete Impact Report",
+        titleMy: "Nay Chi ၏ Complete Impact Report",
+        passageEn:
+            "For Week 11's assignment, Nay Chi researched the documented impact of colonial rule on a specific territory, and her first draft focused almost entirely on infrastructural changes -- railways, ports, and administrative buildings introduced during the period.\n\nHer teacher asked her to check whether this was a complete account. Researching further, Nay Chi found extensive documented evidence of economic exploitation through the mercantilist policies studied in Week 10, cultural disruption affecting existing local institutions, and -- significantly -- a specific, named resistance movement with dated events and documented leaders who organized opposition to colonial rule.\n\nNay Chi revised her report to represent all of these documented dimensions honestly, rather than presenting only the infrastructural changes. She was careful, following Monday's lesson, not to claim that the infrastructural development automatically justified or canceled out the documented harms -- she presented both as separately real, separately documented historical facts, without asserting that one erased the other.\n\nHer final report cited the resistance movement by name, with specific dated events, giving it the same historical weight and specificity as the infrastructural changes rather than reducing it to a vague mention. Her teacher praised the revision for representing colonialism's genuine, documented complexity -- exactly the honest, complete-account standard the course had built since Term 1's Columbian Exchange lesson.",
+        passageMy:
+            "Week 11 ၏ Assignment အတွက် Territory တိကျတစ်ခုအပေါ် Colonial Rule ၏ Documented Impact ကို Nay Chi Research ပြုလုပ်ခဲ့ပြီး ၎င်း၏ ပထမ Draft သည် ကာလအတွင်း မိတ်ဆက်ပေးခဲ့သော Railway, Port နှင့် Administrative Building များ -- Infrastructural ပြောင်းလဲမှုများတွင် လုံးလုံးနီးပါး Focus ပြုခဲ့သည်။\n\nဤသည်ကား Complete Account တစ်ခု ဖြစ်ခြင်း ရှိမရှိ စစ်ဆေးရန် ၎င်း၏ ဆရာမ တောင်းဆိုခဲ့သည်။ ပို၍ Research ပြုလုပ်သောအခါ Week 10 တွင် လေ့လာခဲ့သော Mercantilist Policy များမှတစ်ဆင့် Economic Exploitation, ရှိပြီးသား Local Institution များကို သက်ရောက်စေသော Cultural Disruption နှင့် -- Significantly -- Colonial Rule ကို ဆန့်ကျင်ရန် စုစည်းခဲ့သော ရက်စွဲပါ Event များနှင့် Documented ခေါင်းဆောင်များပါသော Specific, Named Resistance Movement တစ်ခု၏ ကျယ်ပြန့်သော Documented Evidence ကို Nay Chi ရှာဖွေတွေ့ရှိခဲ့သည်။\n\nInfrastructural ပြောင်းလဲမှုများကိုသာ တင်ပြမည့်အစား ဤ Documented Dimension အားလုံးကို ရိုးသားစွာ ကိုယ်စားပြုရန် Nay Chi ၎င်း၏ Report ကို ပြင်ဆင်ခဲ့သည်။ တနင်္လာနေ့၏ သင်ခန်းစာကို လိုက်နာကာ Infrastructural Development သည် Documented Harm များကို အလိုအလျောက် ခိုင်လုံစေသည် (သို့) ပယ်ဖျက်သည်ဟု Claim မပြုလုပ်ရန် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည် -- တစ်ခုသည် အခြားတစ်ခုကို ဖျက်သိမ်းသည်ဟု Assert မပြုဘဲ နှစ်ခုစလုံးကို သီးခြားစီ Real, သီးခြားစီ Documented သမိုင်းဆိုင်ရာ Fact များအဖြစ် ၎င်း တင်ပြခဲ့သည်။\n\nResistance Movement ကို Vague Mention တစ်ခုအဖြစ် လျှော့ချမည့်အစား Infrastructural ပြောင်းလဲမှုများ၏ Historical Weight နှင့် Specificity တူတူပေးအပ်ကာ Specific ရက်စွဲပါ Event များနှင့် အမည်ဖြင့် ၎င်း၏ နောက်ဆုံး Report ကိုးကားခဲ့သည်။ Colonialism ၏ Genuine, Documented Complexity ကို ကိုယ်စားပြုခဲ့သောကြောင့် Revision ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် -- Term 1 ၏ Columbian Exchange သင်ခန်းစာမှစ၍ Course တည်ဆောက်ခဲ့သော Honest, Complete-Account Standard အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three additional documented dimensions did Nay Chi's research find?",
+            questionMy:
+                "Nay Chi ၏ Research ရှာဖွေတွေ့ရှိခဲ့သော ထပ်ဆောင်း Documented Dimension သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Economic exploitation, cultural disruption, and a specific, named resistance movement",
+              "No additional dimensions of any kind were found by the research",
+              "Only more details about infrastructure with nothing else discovered",
+              "Dimensions entirely unrelated to colonial rule or its documented impact",
+            ],
+            optionsMy: [
+              "Economic Exploitation, Cultural Disruption နှင့် Specific, Named Resistance Movement တစ်ခု",
+              "Research က ထပ်ဆောင်း Dimension မည်သည်မှ ရှာမတွေ့ခဲ့ခြင်း",
+              "Infrastructure အကြောင်း Detail ပိုများများသာ ရှာဖွေတွေ့ရှိခဲ့ပြီး အခြား ဘာမှ ရှာမတွေ့ခဲ့ခြင်း",
+              "Colonial Rule (သို့) ၎င်း၏ Documented Impact နှင့် လုံးလုံး မသက်ဆိုင်သော Dimension များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's found dimensions."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော Dimension များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nay Chi avoid claiming about infrastructural development and documented harms?",
+            questionMy:
+                "Infrastructural Development နှင့် Documented Harm များအကြောင်း Nay Chi Claim ပြုလုပ်ခြင်း ရှောင်ရှားခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That infrastructural development automatically justified or canceled out the harms",
+              "That infrastructural development and harms were both documented historical facts",
+              "That either dimension had any actual documented evidence supporting it",
+              "That the two dimensions should be represented separately and honestly",
+            ],
+            optionsMy: [
+              "Infrastructural Development သည် Harm များကို အလိုအလျောက် ခိုင်လုံစေသည် (သို့) ပယ်ဖျက်သည်",
+              "Infrastructural Development နှင့် Harm များ နှစ်ခုစလုံးသည် Documented သမိုင်းဆိုင်ရာ Fact များ ဖြစ်ခြင်း",
+              "Dimension နှစ်ခုစလုံးတွင် ၎င်းကို ထောက်ခံသော Actual Documented Evidence ရှိခြင်း",
+              "Dimension နှစ်ခုကို သီးခြားစီ, ရိုးသားစွာ ကိုယ်စားပြုသင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's avoided claim."],
+            hintsMy: [
+              "ရှောင်ရှားခဲ့သော Claim ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise the revision for?",
+            questionMy:
+                "Revision ကို ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Representing colonialism's genuine, documented complexity honestly",
+              "Removing all difficult topics from the report entirely",
+              "Presenting only the infrastructural changes with nothing else",
+              "Avoiding any mention of resistance movements at all",
+            ],
+            optionsMy: [
+              "Colonialism ၏ Genuine, Documented Complexity ကို ရိုးသားစွာ ကိုယ်စားပြုခြင်း",
+              "ခက်ခဲသော ခေါင်းစဉ်အားလုံးကို Report မှ လုံးလုံး ဖယ်ရှားခြင်း",
+              "အခြား ဘာမှ မပါဘဲ Infrastructural ပြောင်းလဲမှုများကိုသာ တင်ပြခြင်း",
+              "Resistance Movement များအကြောင်း ရည်ညွှန်းချက် မည်သည်ကိုမျှ လုံးလုံး ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w11-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Colonial Impact Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Colonial Impact မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A complete account of colonial impact should represent...",
+          questionMy:
+              "Colonial Impact ၏ Complete Account တစ်ခုသည် ...ကို ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Every major documented dimension, including both harm and infrastructural change",
+            "Only infrastructural changes with no mention of documented harm",
+            "Only documented harm with no mention of infrastructural change",
+            "Neither dimension of this historical process",
+          ],
+          optionsMy: [
+            "Harm နှင့် Infrastructural Change နှစ်ခုစလုံးအပါအဝင် Major Documented Dimension တိုင်း",
+            "Documented Harm ရည်ညွှန်းချက် မပါဘဲ Infrastructural Change များသာ",
+            "Infrastructural Change ရည်ညွှန်းချက် မပါဘဲ Documented Harm သာ",
+            "ဤ သမိုင်းဆိုင်ရာ Process ၏ Dimension နှစ်ခုစလုံး မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A resistance movement should be cited using...",
+          questionMy:
+              "Resistance Movement တစ်ခုကို ...အသုံးပြု၍ ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Named leaders, specific events, and dates",
+            "A vague claim with no specific detail",
+            "No evidence of any kind whatsoever",
+            "An assumption with no documentation",
+          ],
+          optionsMy: [
+            "Named ခေါင်းဆောင်များ, Specific Event များနှင့် ရက်စွဲများ",
+            "Specific Detail မပါသော Vague Claim",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Documentation မပါသော Assumption တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Claiming that infrastructural change automatically justifies documented harm is...",
+          questionMy:
+              "Infrastructural Change သည် Documented Harm ကို အလိုအလျောက် ခိုင်လုံစေသည်ဟု Claim ပြုလုပ်ခြင်းသည် ...",
+          optionsEn: [
+            "A value judgement beyond what evidence alone establishes",
+            "Always accurately supported by the historical evidence itself",
+            "The only correct way to represent colonial history",
+            "A claim with no actual moral or historical implications",
+          ],
+          optionsMy: [
+            "Evidence တစ်ခုတည်း တည်ထောင်ထားသည်ထက် ကျော်လွန်သော Value Judgement တစ်ခု",
+            "သမိုင်းဆိုင်ရာ Evidence ကိုယ်တိုင်က အမြဲ တိကျစွာ ထောက်ခံသည်",
+            "Colonial History ကိုယ်စားပြုရန် တစ်ခုတည်းသော မှန်ကန်သော နည်းလမ်း",
+            "Actual Moral (သို့) Historical Implication မရှိသော Claim တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 3, Week 12 (Capstone/Boss Week):
+// "Colonial Impact Report Studio"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek12 = CourseWeekDef(
+  id: "course-sec2-hum-w12",
+  weekNumber: 12,
+  titleEn: "Colonial Impact Report Studio",
+  titleMy: "Colonial Impact Report Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w12-d1",
+      dayNumber: 1,
+      titleEn: "Writing a Complete, Balanced Colonial Report",
+      titleMy: "ပြည့်စုံ၊ Balanced Colonial Report တစ်ခု ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a colonial impact report combine the documented method of control (from Week 9), the documented economic structure (from Week 10), and the documented, balanced human and infrastructural impact (from Week 11), rather than covering only one dimension?",
+          questionMy:
+              "Colonial Impact Report တစ်ခုသည် Dimension တစ်ခုတည်းကိုသာ ဖုံးအုပ်မည့်အစား Documented Method of Control (Week 9 မှ), Documented Economic Structure (Week 10 မှ) နှင့် Documented, Balanced Human နှင့် Infrastructural Impact (Week 11 မှ) ကို အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Each element answers a different, necessary question about how a specific territory was governed, and combining them gives the most complete, historically honest picture, applying the same combined-element discipline built throughout the entire course",
+            "A colonial impact report only ever needs to cover one single dimension, never all three together",
+            "Combining multiple documented dimensions always produces a less accurate report than covering just one",
+            "The method of control, economic structure, and human impact have no actual connection to each other",
+          ],
+          optionsMy: [
+            "Element တစ်ခုစီသည် Territory တိကျတစ်ခု မည်သို့ အုပ်ချုပ်ခံခဲ့ရသည်အကြောင်း ကွဲပြားသော, လိုအပ်သော မေးခွန်းတစ်ခုကို ဖြေဆိုပြီး ၎င်းတို့ ပေါင်းစပ်ခြင်းသည် Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Combined-Element Discipline တူတူ အသုံးချကာ အပြည့်စုံဆုံး, သမိုင်းအရ ရိုးသားဆုံး ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Colonial Impact Report တစ်ခုသည် Dimension တစ်ခုတည်းကိုသာ ဖုံးအုပ်ရန် လိုအပ်ပြီး သုံးခုစလုံးကို ဘယ်တော့မှ အတူတကွ မလိုအပ်ခြင်း",
+            "Documented Dimension များစွာ ပေါင်းစပ်ခြင်းသည် တစ်ခုတည်း ဖုံးအုပ်ခြင်းထက် Report ကို တိကျမှု နည်းသော အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "Method of Control, Economic Structure နှင့် Human Impact တွင် တစ်ခုနှင့်တစ်ခု Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same combined-element discipline from Term 1's logbook project and Term 2's showcase profile -- multiple relevant questions together give a fuller picture.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Logbook Project နှင့် Term 2 ၏ Showcase Profile မှ Combined-Element Discipline တူတူ ဖြစ်သည် -- Relevant မေးခွန်း များစွာ အတူတကွသည် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the report's account of human impact represent both documented harm and documented resistance with equal specificity, following Week 11's standard, rather than describing harm vaguely while naming resistance specifically (or vice versa)?",
+          questionMy:
+              "Report ၏ Human Impact Account သည် Harm ကို Vague ဖော်ပြစဉ် Resistance ကို Specific အမည်ဖော်ပြခြင်း (သို့) ဆန့်ကျင်ဘက် ပြုလုပ်မည့်အစား Week 11 ၏ Standard လိုက်နာကာ Documented Harm နှင့် Documented Resistance နှစ်ခုစလုံးကို Specificity တူညီစွာ အဘယ်ကြောင့် ကိုယ်စားပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "Consistent specificity across every documented dimension keeps the report equally rigorous throughout, rather than applying a high evidence standard selectively to only some parts",
+            "Harm should always be described vaguely while resistance is described specifically, or the reverse",
+            "Specificity standards should vary randomly across different sections of a historical report",
+            "Consistency in evidence standards has no actual value in a colonial impact report",
+          ],
+          optionsMy: [
+            "Documented Dimension တိုင်းတစ်လျှောက် Consistent Specificity သည် အစိတ်အပိုင်းအချို့တွင်သာ Selectively High Evidence Standard အသုံးပြုမည့်အစား Report ကို တစ်လျှောက်လုံး Rigorous တူညီစွာ ဆက်လက် ထားရှိသည်",
+            "Harm ကို Vague ဖော်ပြသင့်ပြီး Resistance ကို Specific ဖော်ပြသင့်သည် (သို့) ဆန့်ကျင်ဘက်",
+            "Specificity Standard များသည် သမိုင်းဆိုင်ရာ Report တစ်ခု၏ Section ကွဲပြားများတစ်လျှောက် ကျပန်း ကွဲပြားသင့်သည်",
+            "Evidence Standard များတွင် Consistency သည် Colonial Impact Report တစ်ခုတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 11's Nay Chi reading -- resistance deserves the same specificity and historical weight as any other documented dimension.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Nay Chi စာဖတ်ခြင်းကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Resistance သည် အခြား Documented Dimension မည်သည်နှင့်မဆို Specificity နှင့် Historical Weight တူတူ ခံထိုက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the report explicitly note any gaps or unresolved questions in the documented record for the specific territory studied, rather than presenting every claim with equal, complete confidence?",
+          questionMy:
+              "Report သည် Claim တိုင်းကို ညီညီ, Complete Confidence ဖြင့် တင်ပြမည့်အစား လေ့လာထားသော Territory တိကျတစ်ခုအတွက် Documented Record ရှိ Gap များ (သို့) မဖြေရှင်းသေးသော မေးခွန်းများကို အဘယ်ကြောင့် ရှင်းလင်းစွာ မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "Honestly acknowledging gaps and uncertainty, as practiced since Term 6's kingdom comparison capstone in Secondary 1, is more historically accurate than implying every detail is fully known and settled",
+            "Every documented record about colonial territories is completely free of any gaps or uncertainty",
+            "Acknowledging gaps in the record has no actual value in a historical report",
+            "A report should always claim complete certainty regardless of the actual state of evidence",
+          ],
+          optionsMy: [
+            "Secondary 1 ရှိ Term 6 ၏ Kingdom Comparison Capstone မှစ၍ ကျင့်သုံးခဲ့သကဲ့သို့ Gap များနှင့် Uncertainty ကို ရိုးသားစွာ အသိအမှတ်ပြုခြင်းသည် Detail တိုင်း အပြည့်အစုံ သိရှိ, ဖြေရှင်းပြီးဟု ညွှန်ပြခြင်းထက် သမိုင်းအရ ပို၍ တိကျသည်",
+            "Colonial Territory များအကြောင်း Documented Record တိုင်းသည် Gap (သို့) Uncertainty မည်သည်မှ လုံးလုံး ကင်းစင်ခြင်း",
+            "Record ရှိ Gap များ အသိအမှတ်ပြုခြင်းသည် သမိုင်းဆိုင်ရာ Report တစ်ခုတွင် Actual Value မရှိခြင်း",
+            "Actual Evidence Status မည်သို့ပင်ရှိစေ Report တစ်ခုသည် Complete Certainty ကို အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the honest-uncertainty principle maintained throughout the course, applied now to the capstone of Empires and Colonialism.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Empires and Colonialism ၏ Capstone ပေါ်တွင် ယခု အသုံးချထားသော Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Honest-Uncertainty Principle ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Empires Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 3 Empires ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w12-dm-1",
+          termEn: "Documented control method",
+          termMy: "Documented Control Method",
+          matchEn:
+              "The specific, cited form of rule (direct, indirect, or settler) used in a territory",
+          matchMy:
+              "Territory တစ်ခုတွင် အသုံးပြုသော Specific, Cited Rule ပုံစံ (Direct, Indirect, (သို့) Settler)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w12-dm-2",
+          termEn: "Documented economic structure",
+          termMy: "Documented Economic Structure",
+          matchEn:
+              "Specific, cited mercantilist policies and export figures for a territory",
+          matchMy:
+              "Territory တစ်ခုအတွက် Specific, Cited Mercantilist Policy များနှင့် Export ကိန်းဂဏန်းများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w12-dm-3",
+          termEn: "Balanced human impact",
+          termMy: "Balanced Human Impact",
+          matchEn: "Equally specific documentation of both harm and resistance",
+          matchMy:
+              "Harm နှင့် Resistance နှစ်ခုစလုံး၏ Specificity တူညီသော Documentation",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w12-dm-4",
+          termEn: "Acknowledged gap",
+          termMy: "Acknowledged Gap",
+          matchEn:
+              "An honest note about what remains unclear in the documented record",
+          matchMy:
+              "Documented Record ရှိ မရှင်းလင်းသေးသည်ကို ရိုးသားစွာ မှတ်ချက်ပြုချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Colonial Report Practice or Weak?",
+      titleMy:
+          "စီစစ်ကြမည် - ခိုင်မာသော Colonial Report Practice (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Strong Colonial Report Practice",
+          "Weak Colonial Report Practice",
+        ],
+        bucketsMy: [
+          "ခိုင်မာသော Colonial Report Practice",
+          "အားနည်းသော Colonial Report Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w12-sort-1",
+            labelEn:
+                "Combining control method, economic structure, and balanced human impact with citations",
+            labelMy:
+                "Citation များပါသော Control Method, Economic Structure နှင့် Balanced Human Impact ပေါင်းစပ်ခြင်း",
+            correctBucketEn: "Strong Colonial Report Practice",
+            correctBucketMy: "ခိုင်မာသော Colonial Report Practice",
+          ),
+          SortingItem(
+            id: "sec2hum-w12-sort-2",
+            labelEn:
+                "Describing infrastructure specifically while mentioning resistance only vaguely",
+            labelMy:
+                "Resistance ကို Vague ဖော်ပြရုံသာ ဖော်ပြစဉ် Infrastructure ကို Specific ဖော်ပြခြင်း",
+            correctBucketEn: "Weak Colonial Report Practice",
+            correctBucketMy: "အားနည်းသော Colonial Report Practice",
+          ),
+          SortingItem(
+            id: "sec2hum-w12-sort-3",
+            labelEn:
+                "Noting which specific details about the territory remain uncertain or debated",
+            labelMy:
+                "Territory အကြောင်း Detail တိကျမည်သည်များ မသေချာသေးသည် (သို့) ငြင်းခုံနေဆဲ ဖြစ်သည်ကို မှတ်သားခြင်း",
+            correctBucketEn: "Strong Colonial Report Practice",
+            correctBucketMy: "ခိုင်မာသော Colonial Report Practice",
+          ),
+          SortingItem(
+            id: "sec2hum-w12-sort-4",
+            labelEn:
+                "Presenting every claim about the territory with equal, unqualified confidence",
+            labelMy:
+                "Territory အကြောင်း Claim တိုင်းကို ညီညီ, Unqualified Confidence ဖြင့် တင်ပြခြင်း",
+            correctBucketEn: "Weak Colonial Report Practice",
+            correctBucketMy: "အားနည်းသော Colonial Report Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Sett's Complete Colonial Report",
+      titleMy: "စာဖတ်ခြင်း - Kaung Sett ၏ ပြည့်စုံသော Colonial Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Sett's Complete Colonial Report",
+        titleMy: "Kaung Sett ၏ ပြည့်စုံသော Colonial Report",
+        passageEn:
+            "For Term 3's capstone, Kaung Sett produced a full colonial impact report on a specific documented territory, combining every skill from the term into one connected account.\n\nHis control section, following Week 9's lesson, cited the specific, documented administrative structure used to govern the territory, precisely naming the method rather than a vague reference to 'colonialism' in general.\n\nHis economic section, following Week 10's lesson, cited specific mercantilist trade policies and documented export figures, representing the relationship's consequences for both the imperial power and the territory rather than a one-sided account.\n\nHis human impact section, following Week 11's lesson, gave equal specificity to documented harm and documented resistance: he named a specific resistance movement with dated events and documented leaders, giving it the same historical weight as the territory's documented infrastructural changes, and was careful not to claim the infrastructure automatically justified the harm.\n\nHis final reflection honestly noted one specific gap in the documented record -- the exact population affected by one policy remained disputed among his sources -- rather than presenting a false certainty. His teacher praised the finished report as a genuine synthesis of the term: specific control methods, specific economic data, balanced human impact, and honest acknowledgment of uncertainty, all cited to sources -- the same disciplined standard built since Secondary 1, now applied to one of history's most consequential and complex processes.",
+        passageMy:
+            "Term 3 ၏ Capstone အတွက် Term မှ Skill တိုင်းကို ပေါင်းစပ် Account တစ်ခုတည်းအဖြစ် Document ပြုလုပ်ထားသော Territory တိကျတစ်ခုအပေါ် Colonial Impact Report အပြည့်အစုံကို Kaung Sett ထုတ်လုပ်ခဲ့သည်။\n\nWeek 9 ၏ သင်ခန်းစာကို လိုက်နာသော ၎င်း၏ Control Section သည် ယေဘုယျ 'Colonialism' ကို Vague ရည်ညွှန်းမည့်အစား Method ကို တိကျစွာ အမည်ဖော်ပြကာ Territory ကို အုပ်ချုပ်ရန် အသုံးပြုသော Specific, Documented Administrative Structure ကို ကိုးကားခဲ့သည်။\n\nWeek 10 ၏ သင်ခန်းစာကို လိုက်နာသော ၎င်း၏ Economic Section သည် Specific Mercantilist Trade Policy များနှင့် Documented Export ကိန်းဂဏန်းများကို ကိုးကားကာ One-Sided Account တစ်ခုအစား Imperial Power နှင့် Territory နှစ်ခုစလုံးအတွက် Relationship ၏ Consequence များကို ကိုယ်စားပြုခဲ့သည်။\n\nWeek 11 ၏ သင်ခန်းစာကို လိုက်နာသော ၎င်း၏ Human Impact Section သည် Documented Harm နှင့် Documented Resistance နှစ်ခုစလုံးအတွက် Specificity တူညီ ပေးအပ်ခဲ့သည် - ရက်စွဲပါ Event များနှင့် Documented ခေါင်းဆောင်များပါသော Resistance Movement တိကျတစ်ခုကို အမည်ဖော်ပြကာ Territory ၏ Documented Infrastructural ပြောင်းလဲမှုများနှင့် Historical Weight တူတူပေးအပ်ခဲ့ပြီး Infrastructure သည် Harm ကို အလိုအလျောက် ခိုင်လုံစေသည်ဟု Claim မပြုလုပ်ရန် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည်။\n\nFalse Certainty တစ်ခု တင်ပြမည့်အစား Documented Record ရှိ Specific Gap တစ်ခုကို ၎င်း၏ နောက်ဆုံး Reflection ရိုးသားစွာ မှတ်သားခဲ့သည် -- Policy တစ်ခုက သက်ရောက်စေသော Exact Population သည် ၎င်း၏ Source များကြား Disputed ဆက်လက် ဖြစ်နေဆဲ ဖြစ်သည်။ Specific Control Method များ, Specific Economic Data, Balanced Human Impact နှင့် Uncertainty ရိုးသားစွာ အသိအမှတ်ပြုခြင်း, Source များအားလုံး ကိုးကားထားခြင်း -- Secondary 1 မှစ၍ တည်ဆောက်ခဲ့သော Disciplined Standard တူတူဖြင့် သမိုင်း၏ Consequential, ရှုပ်ထွေးဆုံး Process တစ်ခုပေါ်တွင် ယခု အသုံးချထားခြင်း -- Term ၏ Genuine Synthesis တစ်ခုအဖြစ် ပြီးစီးသွားသော Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Kaung Sett's control section cite instead of a vague reference to colonialism?",
+            questionMy:
+                "Colonialism အကြောင်း Vague ရည်ညွှန်းချက်တစ်ခုအစား Kaung Sett ၏ Control Section ကိုးကားခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific, documented administrative structure used to govern the territory",
+              "Nothing at all -- no specific method was cited in this section",
+              "A completely unrelated topic with no connection to control methods",
+              "A vague impression with no actual documentation",
+            ],
+            optionsMy: [
+              "Territory ကို အုပ်ချုပ်ရန် အသုံးပြုသော Specific, Documented Administrative Structure",
+              "ဘာမှ -- ဤ Section တွင် Specific Method မည်သည်မှ ကိုးကားခြင်း မရှိခဲ့ခြင်း",
+              "Control Method များနှင့် Connection မရှိသော လုံးလုံး မသက်ဆိုင်သော ခေါင်းစဉ်တစ်ခု",
+              "Actual Documentation မပါသော Vague Impression တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited content."],
+            hintsMy: [
+              "ကိုးကားထားသော Content ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, how did Kaung Sett's human impact section treat resistance compared to infrastructure?",
+            questionMy:
+                "Infrastructure နှင့် နှိုင်းယှဉ်ပါက Resistance ကို ၎င်း၏ Human Impact Section မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He gave resistance the same historical weight and specificity as documented infrastructural changes",
+              "He described infrastructure specifically while mentioning resistance only vaguely",
+              "He removed all mention of resistance from the section entirely",
+              "He claimed resistance had no actual documented evidence supporting it",
+            ],
+            optionsMy: [
+              "Documented Infrastructural ပြောင်းလဲမှုများနှင့် Historical Weight နှင့် Specificity တူညီ Resistance ကို ပေးအပ်ခဲ့ခြင်း",
+              "Resistance ကို Vague ဖော်ပြရုံသာ ဖော်ပြစဉ် Infrastructure ကို Specific ဖော်ပြခဲ့ခြင်း",
+              "Section မှ Resistance အကြောင်း ရည်ညွှန်းချက်အားလုံးကို လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "Resistance တွင် ၎င်းကို ထောက်ခံသော Actual Documented Evidence မရှိကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's described treatment."],
+            hintsMy: [
+              "ဖော်ပြထားသော Treatment ကို စတုတ္ထ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what gap did Kaung Sett's final reflection honestly note?",
+            questionMy:
+                "Kaung Sett ၏ Final Reflection ရိုးသားစွာ မှတ်သားခဲ့သော Gap ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The exact population affected by one policy remained disputed among his sources",
+              "No gaps of any kind existed in any of his documented sources",
+              "Every single detail in his report was completely and permanently certain",
+              "A gap entirely unrelated to population or any documented policy",
+            ],
+            optionsMy: [
+              "Policy တစ်ခုက သက်ရောက်စေသော Exact Population သည် ၎င်း၏ Source များကြား Disputed ဆက်လက် ဖြစ်နေဆဲ",
+              "၎င်း၏ Documented Source မည်သည်တွင်မျှ Gap မည်သည်မှ မရှိခဲ့ခြင်း",
+              "၎င်း၏ Report ရှိ Detail တစ်ခုချင်းစီသည် လုံးလုံး, အမြဲထာဝစဉ် သေချာခြင်း",
+              "Population (သို့) Documented Policy မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်သော Gap တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's noted gap."],
+            hintsMy: [
+              "မှတ်သားထားသော Gap ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Empires and Colonialism Exam",
+      titleMy: "Term 3 Capstone - Empires and Colonialism စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete colonial impact report should combine...",
+          questionMy:
+              "ပြည့်စုံသော Colonial Impact Report တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Control method, economic structure, and balanced human impact",
+            "Only control method with no economic or human dimension",
+            "Only economic structure with no control or human dimension",
+            "None of these three elements",
+          ],
+          optionsMy: [
+            "Control Method, Economic Structure နှင့် Balanced Human Impact",
+            "Economic (သို့) Human Dimension မပါဘဲ Control Method သာ",
+            "Control (သို့) Human Dimension မပါဘဲ Economic Structure သာ",
+            "Element သုံးခုထဲမှ တစ်ခုမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Documented harm and documented resistance should be represented with...",
+          questionMy:
+              "Documented Harm နှင့် Documented Resistance ကို ...ဖြင့် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Equal specificity, both cited to specific evidence",
+            "Harm described vaguely and resistance ignored entirely",
+            "No evidence of any kind for either dimension",
+            "Only one of the two dimensions with no mention of the other",
+          ],
+          optionsMy: [
+            "Specific Evidence တွင် ကိုးကားထားသော Equal Specificity",
+            "Vague ဖော်ပြထားသော Harm နှင့် လုံးလုံး လျစ်လျူရှုထားသော Resistance",
+            "Dimension နှစ်ခုစလုံးအတွက် Evidence မည်သည်မှ",
+            "အခြားတစ်ခု ရည်ညွှန်းချက် မပါဘဲ နှစ်ခုထဲမှ တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When part of the documented record remains disputed, a report should...",
+          questionMy:
+              "Documented Record ၏ အစိတ်အပိုင်းတစ်ခု Disputed ဆက်လက်ဖြစ်နေသောအခါ Report တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Honestly note the gap rather than presenting false certainty",
+            "Claim complete certainty regardless of the actual evidence",
+            "Remove all mention of the disputed topic entirely",
+            "Ignore the dispute and present only one side as fact",
+          ],
+          optionsMy: [
+            "False Certainty တင်ပြမည့်အစား Gap ကို ရိုးသားစွာ မှတ်သားသင့်သည်",
+            "Actual Evidence မည်သို့ပင်ရှိစေ Complete Certainty Claim ပြုလုပ်သင့်သည်",
+            "Disputed ခေါင်းစဉ်အကြောင်း ရည်ညွှန်းချက်အားလုံးကို လုံးလုံး ဖယ်ရှားသင့်သည်",
+            "Dispute ကို လျစ်လျူရှုပြီး ဘက်တစ်ဘက်တည်းကို Fact အဖြစ် တင်ပြသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 3: "Empires and Colonialism" term
+// definition (Weeks 9-12)
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm3 = CourseTermDef(
+  id: "course-sec2-hum-t3",
+  termNumber: 3,
+  titleEn: "Empires and Colonialism",
+  titleMy: "Empires and Colonialism",
+  certificateTitleEn: "Empires and Colonialism",
+  certificateTitleMy: "Empires and Colonialism",
+  weeks: [_sec2HumWeek9, _sec2HumWeek10, _sec2HumWeek11, _sec2HumWeek12],
 );
 // __SEC_HUM_MARKER__
