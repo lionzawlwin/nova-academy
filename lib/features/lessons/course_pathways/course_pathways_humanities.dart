@@ -129351,10 +129351,1456 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec3HumTerm1],
+  terms: [_sec3HumTerm1, _sec3HumTerm2],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 2: "Imperialism and the Scramble for
+// Africa" (Weeks 5-8)
+// Term 2, Week 5: "What Is Imperialism? Documented Motives"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek5 = CourseWeekDef(
+  id: "course-sec3-hum-w5",
+  weekNumber: 5,
+  titleEn: "What Is Imperialism? Documented Motives",
+  titleMy: "Imperialism ဆိုသည်မှာ အဘယ်နည်း - Documented Motive များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w5-d1",
+      dayNumber: 1,
+      titleEn: "Multiple Documented Motives for Imperialism",
+      titleMy: "Imperialism အတွက် Documented Motive များစွာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document several factors combining to motivate late-nineteenth-century European imperialism: economic competition for raw materials and markets, political rivalry between European powers, and the ideological belief (now documented as a self-serving justification) that colonization was a 'civilizing mission.' Why cite this specific combination rather than a single motive?",
+          questionMy:
+              "Historian များသည် ဆယ့်ကိုးရာစု နှောင်းပိုင်း European Imperialism ကို လှုံ့ဆော်ပေးခဲ့သော Factor များစွာ ပေါင်းစပ်ခြင်းကို Document ပြုလုပ်ထားသည် -- Raw Material များနှင့် Market များအတွက် Economic Competition, European Power များကြား Political Rivalry နှင့် Colonization ကို 'Civilizing Mission' တစ်ခုအဖြစ် (ယခု Self-Serving Justification တစ်ခုအဖြစ် Document ပြုလုပ်ထားသော) Ideological ယုံကြည်ချက်။ Motive တစ်ခုတည်းအစား ဤ Specific Combination ကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout this course -- major historical developments usually result from several documented factors working together, not one motive alone",
+            "A single documented motive is always sufficient to explain imperialism fully",
+            "None of these factors have any actual documented connection to European imperialism",
+            "Economic competition, political rivalry, and ideology are documented as completely unrelated to each other",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- Major သမိုင်းဆိုင်ရာ Development များသည် များသောအားဖြင့် Motive တစ်ခုတည်းအစား အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာသည်",
+            "Documented Motive တစ်ခုတည်းသည် Imperialism ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ European Imperialism နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Economic Competition, Political Rivalry နှင့် Ideology ကို တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle carried forward from Secondary 2's colonialism and industrialization work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Colonialism နှင့် Industrialization အလုပ်မှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians document the 'civilizing mission' ideology as a documented self-serving justification rather than accepting it as an accurate, neutral description of imperial motives?",
+          questionMy:
+              "Historian များသည် 'Civilizing Mission' Ideology ကို Imperial Motive များ၏ Accurate, Neutral ဖော်ပြချက်တစ်ခုအဖြစ် လက်ခံမည့်အစား Documented Self-Serving Justification တစ်ခုအဖြစ် အဘယ်ကြောင့် Document ပြုလုပ်ထားသနည်း။",
+          optionsEn: [
+            "Documented evidence shows this ideology served to justify economic and political motives already in play, rather than being the actual primary documented cause -- the same critical evidence-evaluation habit applied throughout this course",
+            "The 'civilizing mission' ideology has no actual documented connection to imperialism of any kind",
+            "This ideology should always be accepted as a fully accurate, neutral description with no further evaluation",
+            "Documented evidence has no actual role in evaluating historical justifications for imperialism",
+          ],
+          optionsMy: [
+            "Documented Evidence က ဤ Ideology သည် Actual Primary Documented Cause ဖြစ်မည့်အစား Play ထဲတွင် ရှိနှင့်ပြီးသား Economic နှင့် Political Motive များကို Justify ပြုလုပ်ရန် ဆောင်ရွက်ခဲ့ကြောင်း ပြသသည် -- ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Critical Evidence-Evaluation အလေ့အထ တူတူ ဖြစ်သည်",
+            "'Civilizing Mission' Ideology တွင် Imperialism မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "ဤ Ideology ကို ထပ်ဆောင်း Evaluation မပြုဘဲ Fully Accurate, Neutral ဖော်ပြချက်တစ်ခုအဖြစ် အမြဲ လက်ခံသင့်ခြင်း",
+            "Documented Evidence တွင် Imperialism အတွက် သမိုင်းဆိုင်ရာ Justification များ Evaluate ပြုလုပ်ရာ၌ Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Secondary 2's colonial-impact work, which taught not to accept a stated justification uncritically without checking documented evidence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Documented Evidence မစစ်ဆေးဘဲ Stated Justification တစ်ခုကို Uncritically မလက်ခံရန် သင်ကြားခဲ့သော Secondary 2 ၏ Colonial-Impact အလုပ်နှင့် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes European imperialism using only the vague phrase 'countries wanted more land' with no specific documented economic, political, or ideological factor named. What historical-evidence habit should the student apply?",
+          questionMy:
+              "Student တစ်ဦးသည် Specific Documented Economic, Political (သို့) Ideological Factor မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ 'Country များသည် Land ပို၍ လိုချင်ခဲ့ကြသည်' ဟူသော Vague Phrase ကိုသာ အသုံးပြု၍ European Imperialism ကို ဖော်ပြသည်။ Student ဘယ် Historical-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Citing specific, named documented factors (economic competition, political rivalry, ideological justification) rather than a vague, unspecified phrase, the same specific-evidence habit taught since Secondary 1's Term 1",
+            "Vague phrases are always more historically accurate than specific documented factors",
+            "Specific documented factors have no actual role in explaining imperialism",
+            "Imperialism should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Vague, Unspecified Phrase တစ်ခုအစား Specific, Named Documented Factor များ (Economic Competition, Political Rivalry, Ideological Justification) ကို Cite ပြုလုပ်ခြင်း, Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague Phrase များသည် Specific Documented Factor များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Specific Documented Factor များတွင် Imperialism ကို ရှင်းပြရာ၌ Actual Role မရှိခြင်း",
+            "Imperialism ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Secondary 1's Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Imperialism Motives Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Imperialism Motives Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w5-dm-1",
+          termEn: "Economic competition",
+          termMy: "Economic Competition",
+          matchEn:
+              "A documented motive: rivalry over raw materials and markets between imperial powers",
+          matchMy:
+              "Documented Motive တစ်ခု - Imperial Power များကြား Raw Material များနှင့် Market များအပေါ် Rivalry",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w5-dm-2",
+          termEn: "Political rivalry",
+          termMy: "Political Rivalry",
+          matchEn:
+              "A documented motive: competition for prestige and power between European nations",
+          matchMy:
+              "Documented Motive တစ်ခု - European Nation များကြား Prestige နှင့် Power အတွက် Competition",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w5-dm-3",
+          termEn: "Civilizing mission",
+          termMy: "Civilizing Mission",
+          matchEn:
+              "A documented self-serving ideological justification for imperial expansion",
+          matchMy:
+              "Imperial ချဲ့ထွင်မှုအတွက် Documented Self-Serving Ideological Justification",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w5-dm-4",
+          termEn: "Critical evidence evaluation",
+          termMy: "Critical Evidence Evaluation",
+          matchEn:
+              "Checking a stated justification against documented evidence rather than accepting it uncritically",
+          matchMy:
+              "Uncritically မလက်ခံဘဲ Stated Justification တစ်ခုကို Documented Evidence နှင့် စစ်ဆေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Economic, Political, or Ideological Motive?",
+      titleMy: "စီစစ်ကြမည် - Economic, Political (သို့) Ideological Motive",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Economic or Political Motive",
+          "Ideological Justification",
+        ],
+        bucketsMy: [
+          "Economic (သို့) Political Motive",
+          "Ideological Justification",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w5-sort-1",
+            labelEn: "Competing for raw materials and new markets abroad",
+            labelMy:
+                "ပြည်ပရှိ Raw Material များနှင့် Market အသစ်များအတွက် ယှဉ်ပြိုင်ခြင်း",
+            correctBucketEn: "Economic or Political Motive",
+            correctBucketMy: "Economic (သို့) Political Motive",
+          ),
+          SortingItem(
+            id: "sec3hum-w5-sort-2",
+            labelEn: "Claiming colonization would 'civilize' colonized peoples",
+            labelMy:
+                "Colonization သည် ကိုလိုနီဖြစ်ခဲ့ရသော လူများကို 'Civilize' ပြုလုပ်မည်ဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Ideological Justification",
+            correctBucketMy: "Ideological Justification",
+          ),
+          SortingItem(
+            id: "sec3hum-w5-sort-3",
+            labelEn:
+                "Competing for prestige and power against rival European nations",
+            labelMy:
+                "ယှဉ်ပြိုင်နေသော European Nation များအား Prestige နှင့် Power အတွက် ယှဉ်ပြိုင်ခြင်း",
+            correctBucketEn: "Economic or Political Motive",
+            correctBucketMy: "Economic (သို့) Political Motive",
+          ),
+          SortingItem(
+            id: "sec3hum-w5-sort-4",
+            labelEn:
+                "A self-serving justification masking underlying economic and political motives",
+            labelMy:
+                "နောက်ကွယ်ရှိ Economic နှင့် Political Motive များကို ဖုံးကွယ်ထားသော Self-Serving Justification",
+            correctBucketEn: "Ideological Justification",
+            correctBucketMy: "Ideological Justification",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sandar's Motive Investigation",
+      titleMy: "စာဖတ်ခြင်း - Sandar ၏ Motive Investigation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sandar's Motive Investigation",
+        titleMy: "Sandar ၏ Motive Investigation",
+        passageEn:
+            "For Week 5's assignment, Sandar's first draft described European imperialism using only the vague phrase 'countries wanted more land,' with no specific documented factor named. Her teacher asked her to apply the specific-evidence habit taught since Secondary 1's Term 1 -- what specific, documented motives was she actually referring to?\n\nSandar revised her investigation, citing three documented factors working together: economic competition for raw materials and markets, political rivalry between European powers for prestige, and the ideological 'civilizing mission' claim. Her first version treated the civilizing mission as an accurate, neutral motive equal to the other two, but her teacher reminded her of Secondary 2's colonial-impact discipline -- stated justifications should be checked against documented evidence, not accepted uncritically.\n\nSandar researched further and found that historians document the civilizing mission as a self-serving justification that masked the economic and political motives already driving imperial expansion, rather than being an independent, neutral cause in its own right. She revised her investigation to reflect this critical distinction. Her teacher praised the revision for applying both the multi-causation principle and the critical evidence-evaluation habit built across Secondary 1 and Secondary 2 to this new topic.",
+        passageMy:
+            "Week 5 ၏ Assignment အတွက် Sandar ၏ ပထမဆုံး Draft တွင် Specific Documented Factor မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ 'Country များသည် Land ပို၍ လိုချင်ခဲ့ကြသည်' ဟူသော Vague Phrase ကိုသာ အသုံးပြု၍ European Imperialism ကို ဖော်ပြခဲ့သည်။ Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Motive မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nအတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor သုံးခုကို Cite ပြုလုပ်ကာ ၎င်း၏ Investigation ကို Sandar ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Raw Material များနှင့် Market များအတွက် Economic Competition, Prestige အတွက် European Power များကြား Political Rivalry နှင့် Ideological 'Civilizing Mission' Claim။ ၎င်း၏ ပထမဆုံး Version တွင် Civilizing Mission ကို အခြားနှစ်ခုနှင့် ညီမျှသော Accurate, Neutral Motive တစ်ခုအဖြစ် သဘောထားခဲ့သော်လည်း Secondary 2 ၏ Colonial-Impact Discipline ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- Stated Justification များကို Uncritically မလက်ခံဘဲ Documented Evidence နှင့် စစ်ဆေးသင့်သည်။\n\nHistorian များသည် Civilizing Mission ကို ၎င်းကိုယ်ပိုင် Independent, Neutral Cause တစ်ခုမဟုတ်ဘဲ Imperial ချဲ့ထွင်မှုကို ရှေးဦးစွာ ဆွဲဆောင်ခဲ့သော Economic နှင့် Political Motive များကို ဖုံးကွယ်ထားသော Self-Serving Justification တစ်ခုအဖြစ် Document ပြုလုပ်ထားကြောင်း Sandar ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ ဤ Critical Distinction ကို ထင်ဟပ်စေရန် ၎င်း၏ Investigation ကို ၎င်း ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Secondary 1 နှင့် Secondary 2 တစ်လျှောက် တည်ဆောက်ခဲ့သော Multi-Causation Principle နှင့် Critical Evidence-Evaluation အလေ့အထ နှစ်ခုစလုံးကို Topic အသစ်တစ်ခုပေါ်တွင် အသုံးချသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Sandar's first draft?",
+            questionMy:
+                "Sandar ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any specific documented factor named",
+              "Any mention of imperialism at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Specific Documented Factor မည်သည်ကိုမျှ အမည်တပ်ခြင်း",
+              "Imperialism ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how do historians document the civilizing mission?",
+            questionMy:
+                "Civilizing Mission ကို Historian များ မည်သို့ Document ပြုလုပ်ထားသည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As a self-serving justification masking economic and political motives",
+              "As an independent, neutral cause equal to all others",
+              "As having no actual documented connection to imperialism",
+              "As the only documented motive for imperial expansion",
+            ],
+            optionsMy: [
+              "Economic နှင့် Political Motive များကို ဖုံးကွယ်ထားသော Self-Serving Justification တစ်ခုအဖြစ်",
+              "အခြားအားလုံးနှင့် ညီမျှသော Independent, Neutral Cause တစ်ခုအဖြစ်",
+              "Imperialism နှင့် Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+              "Imperial ချဲ့ထွင်မှုအတွက် Documented Motive တစ်ခုတည်းအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated documentation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Documentation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Sandar's teacher remind her to check justifications against?",
+            questionMy:
+                "Justification များကို ဘာနှင့် စစ်ဆေးရန် Sandar ၏ ဆရာ သတိပေးခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented evidence, rather than accepting them uncritically",
+              "Nothing -- justifications never need checking",
+              "An even vaguer explanation with less evidence",
+              "A source unrelated to documented historical evidence",
+            ],
+            optionsMy: [
+              "Uncritically မလက်ခံဘဲ Documented Evidence",
+              "ဘာမှ -- Justification များသည် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+              "Evidence နည်းပြီး ပို၍ Vague ဖြစ်သော ရှင်းပြချက်",
+              "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော Source",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated reminder."],
+            hintsMy: [
+              "ဖော်ပြထားသော သတိပေးချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w5-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Imperialism Motives Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Imperialism Motives မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "European imperialism is documented as resulting from...",
+          questionMy:
+              "European Imperialism ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented factors working together",
+            "A single unspecified motive with no evidence",
+            "No documented motive of any kind",
+            "A vague phrase with no supporting evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာ",
+            "Evidence မပါသော Unspecified Motive တစ်ခုတည်း",
+            "Documented Motive မည်သည် အမျိုးအစားမှ",
+            "Supporting Evidence မပါသော Vague Phrase",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The 'civilizing mission' is documented as...",
+          questionMy:
+              "'Civilizing Mission' ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "A self-serving ideological justification",
+            "An accurate, neutral description of imperial motives",
+            "Unrelated to any documented economic or political motive",
+            "The single, complete explanation for imperialism",
+          ],
+          optionsMy: [
+            "Self-Serving Ideological Justification တစ်ခု",
+            "Imperial Motive များ၏ Accurate, Neutral ဖော်ပြချက်တစ်ခု",
+            "Documented Economic (သို့) Political Motive မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "Imperialism အတွက် Single, Complete ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A stated historical justification should be...",
+          questionMy: "Stated သမိုင်းဆိုင်ရာ Justification တစ်ခုကို ...သင့်သည်",
+          optionsEn: [
+            "Checked against documented evidence, not accepted uncritically",
+            "Accepted automatically with no verification",
+            "Ignored regardless of documented evidence",
+            "Assumed accurate without any documented check",
+          ],
+          optionsMy: [
+            "Uncritically မလက်ခံဘဲ Documented Evidence နှင့် စစ်ဆေး",
+            "Verification မရှိဘဲ အလိုအလျောက် လက်ခံ",
+            "Documented Evidence မည်သို့ပင်ရှိစေ လျစ်လျူရှု",
+            "Documented Check မရှိဘဲ တိကျကြောင်း ယူဆ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 2, Week 6: "The Scramble for Africa:
+// Documented Events"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek6 = CourseWeekDef(
+  id: "course-sec3-hum-w6",
+  weekNumber: 6,
+  titleEn: "The Scramble for Africa: Documented Events",
+  titleMy: "The Scramble for Africa - Documented Event များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w6-d1",
+      dayNumber: 1,
+      titleEn: "The Berlin Conference and Documented Partition",
+      titleMy: "Berlin Conference နှင့် Documented Partition",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Berlin Conference of 1884-85 is documented as a specific meeting where European powers negotiated rules for dividing African territory among themselves, with no African representatives present. Why does citing this specific documented date and detail matter more than vaguely saying 'Europe divided up Africa'?",
+          questionMy:
+              "1884-85 Berlin Conference ကို African Representative မရှိဘဲ European Power များ ၎င်းတို့ ကိုယ်တိုင်ကြား African Territory ခွဲဝေရန် Rule များ ညှိနှိုင်းခဲ့သော Specific Meeting တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်။ 'Europe က Africa ကို ခွဲဝေခဲ့သည်' ဟု Vague စွာ ပြောမည့်အစား ဤ Specific Documented Date နှင့် Detail ကို Cite ပြုလုပ်ခြင်း အဘယ်ကြောင့် ပို၍ အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Specific documented details (date, participants, and the absence of African representation) show precisely how and by whom this documented decision was made, the same specific-evidence habit taught since Term 1",
+            "Vague descriptions are always more historically accurate than specific documented dates and details",
+            "The Berlin Conference has no actual documented connection to how African territory was divided",
+            "Specific documented dates and details have no actual value in studying this period",
+          ],
+          optionsMy: [
+            "Specific Documented Detail များ (Date, Participant များနှင့် African Representation မရှိခြင်း) သည် ဤ Documented ဆုံးဖြတ်ချက်ကို မည်သူက မည်သို့ ပြုလုပ်ခဲ့သည်ကို တိကျစွာ ပြသပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague ဖော်ပြချက်များသည် Specific Documented Date များနှင့် Detail များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Berlin Conference တွင် African Territory ခွဲဝေခဲ့ပုံနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Date များနှင့် Detail များတွင် ဤကာလ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-citation discipline used for legislation dates in Secondary 2's abolition and revolutions terms.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Abolition နှင့် Revolution Term များတွင် Legislation Date များအတွက် အသုံးပြုခဲ့သော Specific-Citation Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it historically significant to document specifically that no African representatives were present at the Berlin Conference, rather than omitting this detail?",
+          questionMy:
+              "ဤ Detail ကို ချန်ထားမည့်အစား Berlin Conference တွင် African Representative မရှိခဲ့ကြောင်း တိကျစွာ Document ပြုလုပ်ခြင်း သမိုင်းအရ အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This documented fact is directly relevant to understanding how and by whom decisions affecting African peoples were actually made, connecting to the balanced-account/agency principle established in Secondary 2",
+            "This detail has no actual documented significance to understanding this period",
+            "African representation at the conference should be assumed without checking documented evidence",
+            "Omitting documented details always produces a more accurate historical account",
+          ],
+          optionsMy: [
+            "ဤ Documented Fact သည် African လူများကို အကျိုးသက်ရောက်စေသော ဆုံးဖြတ်ချက်များကို မည်သူက Actual မည်သို့ ပြုလုပ်ခဲ့သည်ကို နားလည်ရန် တိုက်ရိုက် သက်ဆိုင်ပြီး Secondary 2 တွင် တည်ထောင်ခဲ့သော Balanced-Account/Agency Principle သို့ ချိတ်ဆက်သည်",
+            "ဤ Detail တွင် ဤကာလကို နားလည်ရန် Actual Documented Significance မရှိခြင်း",
+            "Documented Evidence မစစ်ဆေးဘဲ Conference တွင် African Representation ကို ယူဆသင့်ခြင်း",
+            "Documented Detail များ ချန်ထားခြင်းသည် ပို၍ တိကျသော သမိုင်းဆိုင်ရာ Account တစ်ခုကို အမြဲ ထုတ်လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Secondary 2's Week 11 and Week 15 -- documenting who had agency and who did not is part of an accurate, balanced account.",
+          ],
+          hintsMy: [
+            "Secondary 2 ၏ Week 11 နှင့် Week 15 ကို သတိရပါ -- မည်သူတွင် Agency ရှိခဲ့ပြီး မည်သူတွင် မရှိခဲ့သည်ကို Document ပြုလုပ်ခြင်းသည် တိကျသော, Balanced Account တစ်ခု၏ တစ်စိတ်တစ်ပိုင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing the Scramble for Africa name specific documented colonial powers and territories rather than describing the process only in vague, generic terms?",
+          questionMy:
+              "Scramble For Africa ကို Cite ပြုလုပ်သော Student များသည် Process ကို Vague, Generic Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Colonial Power များနှင့် Territory များကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific citation shows precisely which powers claimed which documented territories, demonstrating genuine understanding rather than generic description, the same precision habit used throughout this course",
+            "Vague, generic descriptions are always more accurate than specific documented citation",
+            "Specific documented colonial powers and territories have no actual value in studying this period",
+            "This period should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Citation သည် Power မည်သည်က Territory Documented မည်သည်ကို Claim ပြုလုပ်ခဲ့သည်ကို တိကျစွာ ပြသကာ Generic Description ထက် Genuine နားလည်မှု ကို သရုပ်ပြပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Precision အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, Generic ဖော်ပြချက်များသည် Specific Documented Citation ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Colonial Power များနှင့် Territory များတွင် ဤကာလ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "ဤကာလကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-citation habit used throughout the course, applied to naming powers and territories.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Power များနှင့် Territory များ အမည်တပ်ရန် အသုံးချထားသော ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Scramble for Africa Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Scramble for Africa Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w6-dm-1",
+          termEn: "Berlin Conference, 1884-85",
+          termMy: "Berlin Conference, 1884-85",
+          matchEn:
+              "A documented meeting where European powers negotiated African territorial division",
+          matchMy:
+              "European Power များ African Territorial Division ကို ညှိနှိုင်းခဲ့သော Documented Meeting",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w6-dm-2",
+          termEn: "Partition",
+          termMy: "Partition",
+          matchEn:
+              "The documented division of African territory among competing colonial powers",
+          matchMy:
+              "ယှဉ်ပြိုင်နေသော Colonial Power များကြား African Territory ၏ Documented Division",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w6-dm-3",
+          termEn: "No African representation",
+          termMy: "African Representation မရှိခြင်း",
+          matchEn:
+              "A documented fact directly relevant to understanding who had agency in these decisions",
+          matchMy:
+              "ဤ ဆုံးဖြတ်ချက်များတွင် မည်သူတွင် Agency ရှိခဲ့သည်ကို နားလည်ရန် တိုက်ရိုက် သက်ဆိုင်သော Documented Fact",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w6-dm-4",
+          termEn: "Specific colonial power",
+          termMy: "Specific Colonial Power",
+          matchEn:
+              "A named documented nation that claimed specific African territory",
+          matchMy:
+              "Specific African Territory ကို Claim ပြုလုပ်ခဲ့သော Named Documented Nation",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Fact or Vague Generalization?",
+      titleMy: "စီစစ်ကြမည် - Documented Fact (သို့) Vague Generalization",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Fact", "Vague Generalization"],
+        bucketsMy: ["Specific Documented Fact", "Vague Generalization"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w6-sort-1",
+            labelEn:
+                "The Berlin Conference took place in 1884-85 with no African representatives present",
+            labelMy:
+                "Berlin Conference သည် African Representative မရှိဘဲ 1884-85 တွင် ကျင်းပခဲ့သည်",
+            correctBucketEn: "Specific Documented Fact",
+            correctBucketMy: "Specific Documented Fact",
+          ),
+          SortingItem(
+            id: "sec3hum-w6-sort-2",
+            labelEn: "Europe divided up Africa at some point",
+            labelMy: "Europe သည် တစ်ချိန်ချိန်တွင် Africa ကို ခွဲဝေခဲ့သည်",
+            correctBucketEn: "Vague Generalization",
+            correctBucketMy: "Vague Generalization",
+          ),
+          SortingItem(
+            id: "sec3hum-w6-sort-3",
+            labelEn:
+                "Named specific colonial powers claimed specific documented African territories",
+            labelMy:
+                "Named Specific Colonial Power များသည် Specific Documented African Territory များကို Claim ပြုလုပ်ခဲ့သည်",
+            correctBucketEn: "Specific Documented Fact",
+            correctBucketMy: "Specific Documented Fact",
+          ),
+          SortingItem(
+            id: "sec3hum-w6-sort-4",
+            labelEn: "Countries wanted more territory in general",
+            labelMy:
+                "Country များသည် ယေဘုယျအားဖြင့် Territory ပို၍ လိုချင်ခဲ့ကြသည်",
+            correctBucketEn: "Vague Generalization",
+            correctBucketMy: "Vague Generalization",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Partition Map Project",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Partition Map Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Partition Map Project",
+        titleMy: "Nay Chi ၏ Partition Map Project",
+        passageEn:
+            "For Week 6's project, Nay Chi's first draft described the Scramble for Africa only as 'Europe divided up Africa at some point,' with no specific documented date, participants, or territories cited. Her teacher asked her to apply the specific-citation habit used throughout Secondary 1 and Secondary 2.\n\nNay Chi revised her map with specific documented detail: the Berlin Conference took place in 1884-85, where European powers negotiated rules for dividing African territory among themselves. She was careful to document a specific fact her first draft had omitted -- no African representatives were present at this conference -- noting that this detail was directly relevant to understanding who actually had agency in these documented decisions, connecting back to the same balanced-account principle Secondary 2 had applied to colonized peoples' agency.\n\nShe then labeled her map with named specific colonial powers and the specific territories each documented power claimed, rather than describing the process only in generic terms. Her teacher praised the project for applying the same specific-citation discipline used throughout the course, and noted that Week 7 would build on this documented foundation to examine the balanced impact of this partition on African peoples themselves.",
+        passageMy:
+            "Week 6 ၏ Project အတွက် Nay Chi ၏ ပထမဆုံး Draft တွင် Specific Documented Date, Participant (သို့) Territory မည်သည်ကိုမျှ Cite မပြုဘဲ Scramble For Africa ကို 'Europe သည် တစ်ချိန်ချိန်တွင် Africa ကို ခွဲဝေခဲ့သည်' ဟုသာ ဖော်ပြခဲ့သည်။ Secondary 1 နှင့် Secondary 2 တစ်လျှောက် အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။\n\nSpecific Documented Detail ဖြင့် ၎င်း၏ Map ကို Nay Chi ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Berlin Conference သည် 1884-85 တွင် ကျင်းပခဲ့ပြီး European Power များသည် ၎င်းတို့ ကိုယ်တိုင်ကြား African Territory ခွဲဝေရန် Rule များ ညှိနှိုင်းခဲ့သည်။ ၎င်း၏ ပထမဆုံး Draft ချန်ထားခဲ့သော Specific Fact တစ်ခုကို Document ပြုလုပ်ရန် ၎င်း သတိထားခဲ့သည် -- ဤ Conference တွင် African Representative မရှိခဲ့ခြင်း -- ဤ Detail သည် ဤ Documented ဆုံးဖြတ်ချက်များတွင် မည်သူ Actual Agency ရှိခဲ့သည်ကို နားလည်ရန် တိုက်ရိုက် သက်ဆိုင်ကြောင်း, ကိုလိုနီဖြစ်ခဲ့ရသော လူများ၏ Agency ပေါ် Secondary 2 အသုံးချခဲ့သော Balanced-Account Principle တူတူသို့ ပြန်လည် ချိတ်ဆက်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။\n\nProcess ကို Generic Term များဖြင့်သာ ဖော်ပြမည့်အစား Named Specific Colonial Power များနှင့် Documented Power တစ်ခုစီ Claim ပြုလုပ်ခဲ့သော Specific Territory များဖြင့် ၎င်း၏ Map ကို ၎င်း Label တပ်ခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Citation Discipline တူတူကို အသုံးချသောကြောင့် Project ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Week 7 သည် African လူများ ကိုယ်တိုင်ပေါ် ဤ Partition ၏ Balanced Impact ကို စစ်ဆေးရန် ဤ Documented Foundation ပေါ်တွင် တည်ဆောက်မည်ဖြစ်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific fact had Nay Chi's first draft omitted?",
+            questionMy:
+                "Nay Chi ၏ ပထမဆုံး Draft ချန်ထားခဲ့သော Specific Fact ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That no African representatives were present at the Berlin Conference",
+              "The exact location of the Berlin Conference",
+              "No documented fact was actually omitted",
+              "A fact entirely unrelated to the Berlin Conference",
+            ],
+            optionsMy: [
+              "Berlin Conference တွင် African Representative မရှိခဲ့ကြောင်း",
+              "Berlin Conference ၏ တိကျသော Location",
+              "Documented Fact မည်သည်မှ Actual ချန်ထားခြင်း မရှိခဲ့ခြင်း",
+              "Berlin Conference နှင့် လုံးလုံး မသက်ဆိုင်သော Fact",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated omission."],
+            hintsMy: [
+              "ဖော်ပြထားသော Omission ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Nay Chi note this detail's relevance?",
+            questionMy:
+                "ဤ Detail ၏ Relevance ကို Nay Chi အဘယ်ကြောင့် မှတ်ချက်ပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is directly relevant to understanding who had agency in these documented decisions",
+              "It has no actual documented relevance to this topic",
+              "It is unrelated to any balanced-account principle used this course",
+              "It should always be omitted from any documented account",
+            ],
+            optionsMy: [
+              "ဤ Documented ဆုံးဖြတ်ချက်များတွင် မည်သူတွင် Agency ရှိခဲ့သည်ကို နားလည်ရန် တိုက်ရိုက် သက်ဆိုင်ခြင်း",
+              "ဤ Topic နှင့် Actual Documented Relevance မရှိခြင်း",
+              "ဤ Course အသုံးပြုခဲ့သော Balanced-Account Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+              "Documented Account မည်သည်မှ ဘယ်တော့မှ ချန်ထားသင့်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what will Week 7 build on this documented foundation to examine?",
+            questionMy:
+                "ဤ Documented Foundation ပေါ်တွင် Week 7 တည်ဆောက်ကာ စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The balanced impact of this partition on African peoples themselves",
+              "A topic entirely unrelated to the Scramble for Africa",
+              "No documented topic of any kind",
+              "Only the celebratory aspects with no other dimension",
+            ],
+            optionsMy: [
+              "African လူများ ကိုယ်တိုင်ပေါ် ဤ Partition ၏ Balanced Impact",
+              "Scramble For Africa နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "အခြား Dimension မပါဘဲ Celebratory Aspect များသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 7.",
+            ],
+            hintsMy: [
+              "Week 7 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w6-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Scramble for Africa Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Scramble for Africa မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Berlin Conference is documented as taking place in...",
+          questionMy:
+              "Berlin Conference ကို ...တွင် ကျင်းပခဲ့ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "1884-85, with no African representatives present",
+            "An unspecified year with no documented detail",
+            "A year unrelated to the partition of Africa",
+            "A conference with full African representation",
+          ],
+          optionsMy: [
+            "African Representative မရှိဘဲ 1884-85",
+            "Documented Detail မပါသော Unspecified Year",
+            "Africa ၏ Partition နှင့် မသက်ဆိုင်သော Year",
+            "African Representation အပြည့်အဝ ရှိသော Conference",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The absence of African representatives at the Berlin Conference is documented as...",
+          questionMy:
+              "Berlin Conference တွင် African Representative များ မရှိခြင်းကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Directly relevant to understanding who had agency in these decisions",
+            "An unimportant detail with no historical significance",
+            "Unrelated to any documented balanced-account principle",
+            "A fact that should always be omitted from historical accounts",
+          ],
+          optionsMy: [
+            "ဤ ဆုံးဖြတ်ချက်များတွင် မည်သူတွင် Agency ရှိခဲ့သည်ကို နားလည်ရန် တိုက်ရိုက် သက်ဆိုင်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Significance မရှိသော Unimportant Detail",
+            "Documented Balanced-Account Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Account များမှ ဘယ်တော့မှ ချန်ထားသင့်သော Fact",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Describing the Scramble for Africa accurately requires...",
+          questionMy:
+              "Scramble For Africa ကို တိကျစွာ ဖော်ပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Naming specific documented colonial powers and territories",
+            "Only vague, generic descriptions with no specific evidence",
+            "No documented evidence of any kind",
+            "Descriptions unrelated to any documented colonial power",
+          ],
+          optionsMy: [
+            "Specific Documented Colonial Power များနှင့် Territory များ အမည်တပ်ခြင်း",
+            "Specific Evidence မပါဘဲ Vague, Generic ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented Colonial Power မည်သည်နှင့်မျှ မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 2, Week 7: "Balanced Account of
+// Imperial Impact in Africa"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek7 = CourseWeekDef(
+  id: "course-sec3-hum-w7",
+  weekNumber: 7,
+  titleEn: "Balanced Account of Imperial Impact in Africa",
+  titleMy: "Africa ရှိ Imperial Impact ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w7-d1",
+      dayNumber: 1,
+      titleEn: "Representing Harm and Resistance Fairly",
+      titleMy: "Harm နှင့် Resistance ကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, documented account of imperial impact in Africa represents both documented harm (resource extraction, disrupted political structures, forced labor in some documented cases) and documented resistance by African peoples themselves. Why must both dimensions be represented?",
+          questionMy:
+              "Africa ရှိ Imperial Impact ၏ Balanced, Documented Account တစ်ခုသည် Documented Harm (Resource Extraction, ပျက်ပြားသွားသော Political Structure များ, Documented Case အချို့တွင် Forced Labor) နှင့် African လူများ ကိုယ်တိုင်၏ Documented Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသည်။ Dimension နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used for Secondary 2's colonial-impact work -- an accurate account represents every major documented dimension, including the agency of colonized peoples, not only the convenient one",
+            "Only documented harm should ever be represented in any account of this period",
+            "Only documented resistance should ever be represented, with no mention of any documented harm",
+            "Balance has no actual role in accurately representing imperial impact in Africa",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Colonial-Impact အလုပ်အတွက် အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် ကိုလိုနီဖြစ်ခဲ့ရသော လူများ၏ Agency အပါအဝင် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "ဤကာလ၏ Account မည်သည်တွင်မဆို Documented Harm ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Harm မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Resistance ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Africa ရှိ Imperial Impact ကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Secondary 2's Week 11 colonial-impact work, applied here to African peoples specifically.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား African လူများပေါ် တိကျစွာ ဤနေရာတွင် အသုံးချထားသော Secondary 2 ၏ Week 11 Colonial-Impact အလုပ်မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students representing African resistance movements document them as historical agency (people actively shaping events) rather than only as passive subjects that colonization happened to?",
+          questionMy:
+              "African Resistance Movement များကို ကိုယ်စားပြုသော Student များသည် Colonization ဖြစ်ပေါ်ရာတွင် ရှိနေသော Passive Subject များအဖြစ်သာမက Historical Agency (Event များကို တက်ကြွစွာ ပုံဖော်ခဲ့သော လူများ) အဖြစ် ၎င်းတို့ကို အဘယ်ကြောင့် Document ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same agency principle applied to colonized peoples in Secondary 2's Term 3 and to enslaved people's own resistance in Secondary 2's Term 4",
+            "African resistance movements had no actual documented historical agency of any kind",
+            "Only colonial powers should ever be credited with any historical agency in this period",
+            "Historical agency should never actually be attributed to African peoples during this period",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Term 3 ရှိ ကိုလိုနီဖြစ်ခဲ့ရသော လူများနှင့် Secondary 2 ၏ Term 4 ရှိ ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance ပေါ် အသုံးချထားသော Agency Principle တူတူကို လိုက်နာသည်",
+            "African Resistance Movement များတွင် Actual Documented Historical Agency မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "ဤကာလ၏ Historical Agency မည်သည်ကိုမဆို Colonial Power များကိုသာ Credit ပေးသင့်ခြင်း",
+            "ဤကာလအတွင်း African လူများအား Historical Agency ကို ဘယ်တော့မှ Actual မသတ်မှတ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same agency principle used consistently across Secondary 2, now applied to African resistance specifically.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 တစ်လျှောက် တသမတ်တည်း အသုံးပြုခဲ့သော Agency Principle တူတူဖြစ်ပြီး ယခု African Resistance ပေါ် တိကျစွာ အသုံးချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this balanced account cite specific documented examples of harm and resistance rather than describing imperial impact only in vague, general terms?",
+          questionMy:
+              "ဤ Balanced Account သည် Imperial Impact ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Harm နှင့် Resistance ၏ Specific Documented ဥပမာများကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented examples demonstrate genuine understanding of this complex period and follow the same precision habit used throughout this course, rather than relying on vague generalizations",
+            "Vague, general descriptions are always more accurate than specific documented examples",
+            "Specific documented examples have no actual value in representing this period accurately",
+            "Imperial impact should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented ဥပမာများသည် ဤ Complex ကာလ၏ Genuine နားလည်မှု ကို သရုပ်ပြပြီး Vague Generalization များအပေါ် မှီခိုမည့်အစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Precision အလေ့အထ ကို လိုက်နာသည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented ဥပမာများထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented ဥပမာများတွင် ဤကာလကို တိကျစွာ ကိုယ်စားပြုရာ၌ Actual Value မရှိခြင်း",
+            "Imperial Impact ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Imperial Impact Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Imperial Impact Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w7-dm-1",
+          termEn: "Resource extraction",
+          termMy: "Resource Extraction",
+          matchEn:
+              "A documented form of imperial harm: removing valuable resources for the colonizer's benefit",
+          matchMy:
+              "Colonizer ၏ အကျိုးအတွက် တန်ဖိုးရှိသော Resource များ ဖယ်ရှားခြင်း - Imperial Harm ၏ Documented Form တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w7-dm-2",
+          termEn: "African resistance",
+          termMy: "African Resistance",
+          matchEn:
+              "Documented actions by African peoples actively opposing colonial rule",
+          matchMy:
+              "Colonial Rule ကို တက်ကြွစွာ ဆန့်ကျင်ခဲ့သော African လူများ၏ Documented Action များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w7-dm-3",
+          termEn: "Historical agency",
+          termMy: "Historical Agency",
+          matchEn:
+              "Representing affected people as actively shaping events, not only as passive subjects",
+          matchMy:
+              "Passive Subject များအဖြစ်သာမက Event များကို တက်ကြွစွာ ပုံဖော်ခဲ့သော လူများအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w7-dm-4",
+          termEn: "Disrupted political structure",
+          termMy: "ပျက်ပြားသွားသော Political Structure",
+          matchEn:
+              "A documented form of harm: existing African governance systems disrupted by colonization",
+          matchMy:
+              "Colonization က ဖျက်ဆီးခဲ့သော ရှိပြီးသား African Governance System များ - Harm ၏ Documented Form တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Harm or Documented Resistance?",
+      titleMy: "စီစစ်ကြမည် - Documented Harm (သို့) Documented Resistance",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Harm", "Documented Resistance"],
+        bucketsMy: ["Documented Harm", "Documented Resistance"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w7-sort-1",
+            labelEn:
+                "Colonizers extracting valuable resources for their own benefit",
+            labelMy:
+                "Colonizer များသည် ၎င်းတို့ ကိုယ်ပိုင်အကျိုးအတွက် တန်ဖိုးရှိသော Resource များ ထုတ်ယူခြင်း",
+            correctBucketEn: "Documented Harm",
+            correctBucketMy: "Documented Harm",
+          ),
+          SortingItem(
+            id: "sec3hum-w7-sort-2",
+            labelEn:
+                "African leaders organizing documented opposition to colonial rule",
+            labelMy:
+                "African ခေါင်းဆောင်များသည် Colonial Rule ကို Documented Opposition စုစည်းခြင်း",
+            correctBucketEn: "Documented Resistance",
+            correctBucketMy: "Documented Resistance",
+          ),
+          SortingItem(
+            id: "sec3hum-w7-sort-3",
+            labelEn:
+                "Existing African political structures disrupted by colonization",
+            labelMy:
+                "Colonization က ဖျက်ဆီးခဲ့သော ရှိပြီးသား African Political Structure များ",
+            correctBucketEn: "Documented Harm",
+            correctBucketMy: "Documented Harm",
+          ),
+          SortingItem(
+            id: "sec3hum-w7-sort-4",
+            labelEn:
+                "Documented movements actively working to end colonial rule",
+            labelMy:
+                "Colonial Rule အဆုံးသတ်ရန် တက်ကြွစွာ လုပ်ဆောင်ခဲ့သော Documented Movement များ",
+            correctBucketEn: "Documented Resistance",
+            correctBucketMy: "Documented Resistance",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ye Min's Balanced Impact Report",
+      titleMy: "စာဖတ်ခြင်း - Ye Min ၏ Balanced Impact Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ye Min's Balanced Impact Report",
+        titleMy: "Ye Min ၏ Balanced Impact Report",
+        passageEn:
+            "For Week 7's assignment, Ye Min's first draft described imperial impact in Africa only through documented harm -- resource extraction and disrupted political structures -- with no mention of African resistance. His teacher returned the draft with a reminder of the balanced-account principle used since Secondary 2's Week 11: had he checked documented resistance alongside documented harm?\n\nYe Min researched further and found that African peoples were documented as actively resisting colonial rule, not merely passive subjects it happened to. He revised his report to represent African resistance as historical agency, the same principle Secondary 2 had applied to colonized peoples generally and to enslaved people's own resistance specifically -- people who organized, opposed, and shaped events themselves.\n\nHe was careful to cite specific documented examples of both harm and resistance rather than describing either in vague terms. His teacher praised the revision for representing this complex period fairly, combining specific documented citation with the balanced-account and agency principles built across Secondary 2, and noted this same discipline would carry directly into Week 8's capstone case study.",
+        passageMy:
+            "Week 7 ၏ Assignment အတွက် Ye Min ၏ ပထမဆုံး Draft တွင် African Resistance ၏ ဖော်ပြချက် မပါဘဲ Documented Harm -- Resource Extraction နှင့် ပျက်ပြားသွားသော Political Structure များ -- မှတစ်ဆင့်သာ Africa ရှိ Imperial Impact ကို ဖော်ပြခဲ့သည်။ Secondary 2 ၏ Week 11 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Harm များနှင့်အတူ Documented Resistance ကိုလည်း ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nAfrican လူများသည် Colonization ဖြစ်ပေါ်ရာတွင် ရှိနေသော Passive Subject များသာမက Colonial Rule ကို တက်ကြွစွာ ဆန့်ကျင်ခဲ့ကြောင်း Document ပြုလုပ်ထားကြောင်း Ye Min ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ African Resistance ကို Historical Agency အဖြစ် ကိုယ်စားပြုရန် ၎င်း၏ Report ကို ပြန်လည် ပြင်ဆင်ခဲ့သည် -- ကိုလိုနီဖြစ်ခဲ့ရသော လူများ ယေဘုယျအားဖြင့်နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance ပေါ် Secondary 2 တိကျစွာ အသုံးချခဲ့သော Principle တူတူ -- Organize ပြုလုပ်ခဲ့ကာ, ဆန့်ကျင်ခဲ့ပြီး Event များကို ကိုယ်တိုင် ပုံဖော်ခဲ့သော လူများ။\n\nနှစ်ခုစလုံးကို Vague Term များဖြင့် ဖော်ပြမည့်အစား Harm နှင့် Resistance နှစ်ခုစလုံး၏ Specific Documented ဥပမာများကို Cite ပြုလုပ်ရန် ၎င်း သတိထားခဲ့သည်။ Secondary 2 တစ်လျှောက် တည်ဆောက်ခဲ့သော Balanced-Account နှင့် Agency Principle များနှင့် Specific Documented Citation ကို ပေါင်းစပ်ကာ ဤ Complex ကာလကို တရားမျှတစွာ ကိုယ်စားပြုသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး ဤ Discipline တူတူသည် Week 8 ၏ Capstone Case Study သို့ တိုက်ရိုက် ဆက်လက် သယ်ဆောင်သွားမည်ဟု မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Ye Min's first draft?",
+            questionMy:
+                "Ye Min ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any mention of African resistance",
+              "Any mention of documented harm at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "African Resistance ၏ ဖော်ပြချက် မည်သည်မှ",
+              "Documented Harm ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Ye Min represent African resistance after revision?",
+            questionMy:
+                "Revision ပြီးနောက် African Resistance ကို Ye Min မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As historical agency -- people who organized, opposed, and shaped events themselves",
+              "As passive subjects with no actual role in events",
+              "As having no actual documented historical significance",
+              "As unrelated to any principle used in Secondary 2",
+            ],
+            optionsMy: [
+              "Historical Agency အဖြစ် -- Organize ပြုလုပ်ခဲ့ကာ, ဆန့်ကျင်ခဲ့ပြီး Event များကို ကိုယ်တိုင် ပုံဖော်ခဲ့သော လူများ",
+              "Event များတွင် Actual Role မရှိသော Passive Subject များအဖြစ်",
+              "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိကြောင်း",
+              "Secondary 2 အသုံးပြုခဲ့သော Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated representation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Representation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Ye Min cite instead of describing harm and resistance in vague terms?",
+            questionMy:
+                "Harm နှင့် Resistance ကို Vague Term များဖြင့် ဖော်ပြမည့်အစား Ye Min Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specific documented examples of both harm and resistance",
+              "No documented evidence of any kind",
+              "Only vague, unspecified descriptions with no evidence",
+              "Content entirely unrelated to imperial impact",
+            ],
+            optionsMy: [
+              "Harm နှင့် Resistance နှစ်ခုစလုံး၏ Specific Documented ဥပမာများ",
+              "Documented Evidence မည်သည် အမျိုးအစားမှ",
+              "Evidence မပါသော Vague, Unspecified ဖော်ပြချက်များသာ",
+              "Imperial Impact နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated citation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Citation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w7-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Balanced Impact Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Balanced Impact မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced account of imperial impact in Africa represents...",
+          questionMy:
+              "Africa ရှိ Imperial Impact ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented harm and documented resistance",
+            "Only documented harm with no resistance mentioned",
+            "Only documented resistance with no harm mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Harm နှင့် Documented Resistance နှစ်ခုစလုံး",
+            "Resistance ကို ဖော်ပြခြင်းမရှိဘဲ Documented Harm များသာ",
+            "Harm ကို ဖော်ပြခြင်းမရှိဘဲ Documented Resistance များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "African resistance movements should be represented as...",
+          questionMy:
+              "African Resistance Movement များကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Historical agency, actively shaping events",
+            "Passive subjects with no actual role in events",
+            "Movements with no actual documented historical significance",
+            "Unrelated to any agency principle used this course",
+          ],
+          optionsMy: [
+            "Historical Agency, Event များကို တက်ကြွစွာ ပုံဖော်ခြင်း",
+            "Event များတွင် Actual Role မရှိသော Passive Subject",
+            "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိသော Movement",
+            "ဤ Course အသုံးပြုခဲ့သော Agency Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Describing imperial impact accurately requires...",
+          questionMy: "Imperial Impact ကို တိကျစွာ ဖော်ပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented examples rather than vague generalizations",
+            "Only vague, general descriptions with no specific evidence",
+            "No documented evidence of any kind",
+            "Descriptions unrelated to any documented historical evidence",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented ဥပမာများ",
+            "Specific Evidence မပါဘဲ Vague, General ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 2, Week 8 (Capstone / Boss Week):
+// "Imperialism Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek8 = CourseWeekDef(
+  id: "course-sec3-hum-w8",
+  weekNumber: 8,
+  titleEn: "Capstone: Imperialism Case Study",
+  titleMy: "Capstone - Imperialism Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w8-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 2 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 2 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must combine documented motives (Week 5), specific documented events like the Berlin Conference (Week 6), and a balanced account of impact (Week 7) for one chosen African territory. Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် ရွေးချယ်ထားသော African Territory တစ်ခုအတွက် Documented Motive များ (Week 5), Berlin Conference ကဲ့သို့ Specific Documented Event များ (Week 6) နှင့် Impact ၏ Balanced Account (Week 7) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding why imperialism happened, how it unfolded through documented events, and its balanced documented impact together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain an imperialism case fully",
+            "Motives, events, and balanced impact have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် Imperialism အဘယ်ကြောင့် ဖြစ်ပေါ်ခဲ့သည်၊ Documented Event များမှတစ်ဆင့် မည်သို့ ဖြစ်ပွားခဲ့သည်နှင့် ၎င်း၏ Balanced Documented Impact ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Imperialism Case တစ်ခုကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Motive များ, Event များနှင့် Balanced Impact တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 5 (motives), Week 6 (documented events), and Week 7 (balanced impact) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 (Motive), Week 6 (Documented Event) နှင့် Week 7 (Balanced Impact) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft accepts the 'civilizing mission' as an accurate motive without checking it critically, and describes impact only through documented harm with no African resistance mentioned. Following this term's established standards, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် 'Civilizing Mission' ကို Critically မစစ်ဆေးဘဲ Accurate Motive တစ်ခုအဖြစ် လက်ခံကာ African Resistance ကို ဖော်ပြခြင်းမရှိဘဲ Documented Harm မှတစ်ဆင့်သာ Impact ကို ဖော်ပြသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard များအတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to critically evaluate the civilizing mission against documented evidence (Week 5) and represent both documented harm and African resistance fairly (Week 7)",
+            "Nothing -- accepting the civilizing mission uncritically and describing only harm is the required approach for this term",
+            "Remove all documented evidence about the chosen territory from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Week 5 တွင် Documented Evidence နှင့် Civilizing Mission ကို Critically Evaluate ပြုလုပ်ကာ Week 7 တွင် Documented Harm နှင့် African Resistance နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Civilizing Mission ကို Uncritically လက်ခံခြင်းနှင့် Harm ကိုသာ ဖော်ပြခြင်းသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော Territory အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines the critical-evaluation standard from Week 5 and the balanced-account standard from Week 7, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 5 မှ Critical-Evaluation Standard နှင့် Week 7 မှ Balanced-Account Standard ကို ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project cite the specific documented territory chosen, the specific colonial power involved, and specific documented events, rather than describing the case in vague, general terms?",
+          questionMy:
+              "Capstone Project သည် Case ကို Vague, General Term များဖြင့် ဖော်ပြမည့်အစား ရွေးချယ်ထားသော Specific Documented Territory, ပါဝင်သော Specific Colonial Power နှင့် Specific Documented Event များကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented citation demonstrates genuine understanding of a real historical case rather than generic description, the same precision habit taught since Term 1 and applied at every capstone",
+            "Vague, general descriptions are always more accurate than specific documented citation",
+            "Specific documented citation has no actual value in an imperialism capstone project",
+            "Precision has no actual connection to demonstrating understanding of a documented historical case",
+          ],
+          optionsMy: [
+            "Specific Documented Citation သည် Generic Description ထက် Real Historical Case တစ်ခု၏ Genuine နားလည်မှု ကို သရုပ်ပြပြီး Term 1 မှစ၍ သင်ကြားခဲ့ကာ Capstone တိုင်းတွင် အသုံးချထားသော Precision အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Citation ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Citation သည် Imperialism Capstone Project တွင် Actual Value မရှိခြင်း",
+            "Precision သည် Documented Historical Case တစ်ခု၏ နားလည်မှု သရုပ်ပြခြင်းနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1, applied to the final capstone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နောက်ဆုံး Capstone ပေါ်တွင် အသုံးချထားသော Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 2 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w8-dm-1",
+          termEn: "Critical evidence evaluation",
+          termMy: "Critical Evidence Evaluation",
+          matchEn:
+              "Checking a stated justification like the civilizing mission against documented evidence",
+          matchMy:
+              "Civilizing Mission ကဲ့သို့ Stated Justification တစ်ခုကို Documented Evidence နှင့် စစ်ဆေးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w8-dm-2",
+          termEn: "Berlin Conference",
+          termMy: "Berlin Conference",
+          matchEn:
+              "A specific documented event (1884-85) central to understanding the partition of Africa",
+          matchMy:
+              "Africa ၏ Partition ကို နားလည်ရန် ဗဟိုချက်ဖြစ်သော Specific Documented Event (1884-85)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w8-dm-3",
+          termEn: "Balanced impact account",
+          termMy: "Balanced Impact Account",
+          matchEn:
+              "Representing both documented harm and African resistance fairly",
+          matchMy:
+              "Documented Harm နှင့် African Resistance နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w8-dm-4",
+          termEn: "Specific documented territory",
+          termMy: "Specific Documented Territory",
+          matchEn:
+              "A named, cited region rather than a vague, unspecified area",
+          matchMy:
+              "Vague, Unspecified Area တစ်ခုအစား Named, Cite ပြုလုပ်ထားသော Region",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w8-sort-1",
+            labelEn:
+                "Documented motives critically evaluated rather than accepted at face value",
+            labelMy:
+                "Face Value တွင် လက်ခံမည့်အစား Critically Evaluate ပြုလုပ်ထားသော Documented Motive များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w8-sort-2",
+            labelEn:
+                "A balanced account representing both documented harm and African resistance",
+            labelMy:
+                "Documented Harm နှင့် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w8-sort-3",
+            labelEn:
+                "Specific documented events, territories, and colonial powers named precisely",
+            labelMy:
+                "တိကျစွာ အမည်တပ်ထားသော Specific Documented Event များ, Territory များနှင့် Colonial Power များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w8-sort-4",
+            labelEn:
+                "The civilizing mission accepted uncritically as an accurate motive",
+            labelMy:
+                "Accurate Motive တစ်ခုအဖြစ် Uncritically လက်ခံထားသော Civilizing Mission",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Capstone Case Study",
+        titleMy: "Su Su ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 2 capstone, Su Su chose one specific documented African territory as her case study, combining three documented elements from across the term. From Week 5, she cited multiple documented motives working together (economic competition, political rivalry) and critically evaluated the civilizing mission as a self-serving justification rather than accepting it as an accurate, neutral motive.\n\nFrom Week 6, she cited the specific documented Berlin Conference of 1884-85 and named the specific colonial power that claimed her chosen territory, avoiding any vague, generic description of the partition process. From Week 7, she built a balanced account of impact: documented harm including resource extraction and disrupted political structures, alongside documented resistance by African peoples in her chosen territory, representing them as historical agents rather than only passive subjects.\n\nHer first draft had described the civilizing mission uncritically and mentioned no resistance, but she checked it against both Week 5's and Week 7's standards and revised it accordingly. Her teacher praised the case study for combining critically evaluated motives, specific documented events, and a balanced impact account into one connected project -- exactly the standard built across every capstone since Secondary 1, and a strong foundation as the class moved into Term 3's decolonization content.",
+        passageMy:
+            "Term 2 Capstone အတွက် Term တစ်ခုလုံးမှ Documented Element သုံးခုကို ပေါင်းစပ်ကာ Specific Documented African Territory တစ်ခုကို ၎င်း၏ Case Study အဖြစ် Su Su ရွေးချယ်ခဲ့သည်။ Week 5 မှ အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Motive များစွာ (Economic Competition, Political Rivalry) ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး Civilizing Mission ကို Accurate, Neutral Motive တစ်ခုအဖြစ် လက်ခံမည့်အစား Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ခဲ့သည်။\n\nWeek 6 မှ 1884-85 Specific Documented Berlin Conference ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး ၎င်း ရွေးချယ်ထားသော Territory ကို Claim ပြုလုပ်ခဲ့သော Specific Colonial Power ကို အမည်တပ်ခဲ့ကာ Partition Process ၏ Vague, Generic ဖော်ပြချက် မည်သည်ကိုမျှ ရှောင်ကြဉ်ခဲ့သည်။ Week 7 မှ Impact ၏ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Resource Extraction နှင့် ပျက်ပြားသွားသော Political Structure များအပါအဝင် Documented Harm, ၎င်း ရွေးချယ်ထားသော Territory ရှိ African လူများ၏ Documented Resistance နှင့်အတူ, Passive Subject များအဖြစ်သာမက Historical Agent များအဖြစ် ၎င်းတို့ကို ကိုယ်စားပြုခြင်း။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Civilizing Mission ကို Uncritically ဖော်ပြခဲ့ပြီး Resistance မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိခဲ့သော်လည်း Week 5 နှင့် Week 7 ၏ Standard နှစ်ခုစလုံးနှင့် ၎င်း စစ်ဆေးကာ ၎င်းအလိုက် ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို Connected Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းနှင့် Class Term 3 ၏ Decolonization Content ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did Su Su evaluate the civilizing mission?",
+            questionMy:
+                "Civilizing Mission ကို Su Su မည်သို့ Evaluate ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Critically, as a self-serving justification rather than an accurate, neutral motive",
+              "Uncritically, accepting it as a fully accurate, neutral motive",
+              "By ignoring it entirely with no documented evaluation",
+              "As having no actual documented connection to imperialism",
+            ],
+            optionsMy: [
+              "Critically, Accurate, Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ်",
+              "Uncritically, Fully Accurate, Neutral Motive တစ်ခုအဖြစ် လက်ခံခြင်း",
+              "Documented Evaluation မရှိဘဲ လုံးလုံး လျစ်လျူရှုခြင်းဖြင့်",
+              "Imperialism နှင့် Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated evaluation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Evaluation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Su Su represent African resistance in her chosen territory?",
+            questionMy:
+                "၎င်း ရွေးချယ်ထားသော Territory ရှိ African Resistance ကို Su Su မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As historical agents rather than only passive subjects",
+              "As passive subjects with no actual role in events",
+              "As having no actual documented historical significance",
+              "By omitting any mention of resistance entirely",
+            ],
+            optionsMy: [
+              "Passive Subject များအဖြစ်သာမက Historical Agent များအဖြစ်",
+              "Event များတွင် Actual Role မရှိသော Passive Subject များအဖြစ်",
+              "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိကြောင်း",
+              "Resistance ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ချန်ထားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated representation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Representation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Su Su's case study?",
+            questionMy:
+                "Su Su ၏ Case Study ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For combining critically evaluated motives, specific events, and a balanced account into one project",
+              "For accepting the civilizing mission uncritically",
+              "For ignoring every documented factor from the entire term",
+              "For making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Event များနှင့် Balanced Account ကို Project တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်းအတွက်",
+              "Civilizing Mission ကို Uncritically လက်ခံခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Recap: Imperialism and the Scramble for Africa",
+      titleMy:
+          "Term 2 ပြန်လည်သုံးသပ်ခြင်း - Imperialism and the Scramble for Africa",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "European imperialism is documented as resulting from...",
+          questionMy:
+              "European Imperialism ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented motives working together, critically evaluated",
+            "A single, uncritically accepted motive",
+            "No documented motive of any kind",
+            "A vague explanation with no supporting evidence",
+          ],
+          optionsMy: [
+            "Critically Evaluate ပြုလုပ်ထားသော အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Motive များစွာ",
+            "Uncritically လက်ခံထားသော Motive တစ်ခုတည်း",
+            "Documented Motive မည်သည် အမျိုးအစားမှ",
+            "Supporting Evidence မပါသော Vague ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Berlin Conference is documented as a specific event that...",
+          questionMy:
+              "Berlin Conference ကို ...Specific Event တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Took place in 1884-85 with no African representatives present",
+            "Included full African representation with no documented exclusion",
+            "Has no actual documented connection to the partition of Africa",
+            "Occurred at an unspecified date with no documented detail",
+          ],
+          optionsMy: [
+            "African Representative မရှိဘဲ 1884-85 တွင် ကျင်းပခဲ့ခြင်း",
+            "Documented Exclusion မပါဘဲ Full African Representation ပါဝင်ခြင်း",
+            "Africa ၏ Partition နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Detail မပါဘဲ Unspecified Date တွင် ဖြစ်ပျက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced account of imperial impact represents...",
+          questionMy:
+              "Imperial Impact ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented harm and African resistance as historical agency",
+            "Only documented harm with no resistance mentioned",
+            "Only resistance with no harm mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံး",
+            "Resistance ကို ဖော်ပြခြင်းမရှိဘဲ Documented Harm များသာ",
+            "Harm ကို ဖော်ပြခြင်းမရှိဘဲ Resistance များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 2: "Imperialism and the Scramble for
+// Africa" (Weeks 5-8). Documents multiple motives for European
+// imperialism, critically evaluating the "civilizing mission" as a
+// self-serving justification rather than an accurate neutral motive
+// (Week 5), the specific documented events of the Scramble for Africa
+// including the Berlin Conference and the absence of African
+// representation (Week 6), and a balanced account of imperial impact
+// representing both documented harm and African resistance as
+// historical agency (Week 7), closing with a capstone case study
+// combining critically evaluated motives, specific documented events,
+// and a balanced impact account for one chosen African territory
+// (Week 8).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm2 = CourseTermDef(
+  id: "course-sec3-hum-t2",
+  termNumber: 2,
+  titleEn: "Imperialism and the Scramble for Africa",
+  titleMy: "Imperialism and the Scramble for Africa",
+  certificateTitleEn: "Imperialism and the Scramble for Africa Certificate",
+  certificateTitleMy:
+      "Imperialism and the Scramble for Africa သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek5, _sec3HumWeek6, _sec3HumWeek7, _sec3HumWeek8],
 );
 // __SEC_HUM_MARKER__
