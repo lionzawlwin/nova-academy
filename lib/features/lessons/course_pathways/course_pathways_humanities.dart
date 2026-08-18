@@ -127901,15 +127901,21 @@ const CourseTermDef _sec2HumTerm9 = CourseTermDef(
 );
 // =====================================================================
 // Secondary 3 Humanities (Year 9) -- "Nationalism, Global Change and
-// the Path to IGCSE". Topic-driven, following the same Secondary-tier
-// convention as Secondary 1/2 Humanities (a rotating cast of named
-// Myanmar students rather than one fixed protagonist). Continues
-// directly from Secondary 2's foundations, moving the history strand
-// into nationalism, imperialism, and decolonization while deliberately
-// priming (without duplicating) specific IGCSE Humanities terms, and
-// advances the geography strand into population geography, migration,
-// development, and natural hazards -- closing the Secondary tier with
-// an IGCSE-readiness capstone.
+// the Path to IGCSE" -- complete, all 9 terms authored (36 weeks / 180
+// daily lessons); the full Secondary Humanities trilogy (Secondary 1,
+// 2, and 3) is now complete. Topic-driven, following the same
+// Secondary-tier convention as Secondary 1/2 Humanities (a rotating
+// cast of named Myanmar students rather than one fixed protagonist).
+// Continues directly from Secondary 2's foundations, moving the
+// history strand into nationalism, imperialism, and decolonization
+// while deliberately priming (without duplicating) specific IGCSE
+// Humanities terms (Terms 3, 5, 7, and 8), and advances the geography
+// strand into population geography, migration, development, and
+// natural hazards -- closing the Secondary tier with a Term 9 IGCSE-
+// readiness/graduation-exhibition capstone naming the documented-
+// evidence habits (multi-causation, historical/geographic agency,
+// critical evidence evaluation, specific citation) built across the
+// whole Secondary tier.
 // Term 1: Nationalism and Unification (Weeks 1-4)
 // Term 1, Week 1: "What Is Nationalism? Documented Unification
 // Movements"
@@ -129351,9 +129357,9 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account. Term 7, Development and Global Inequality, deliberately primes IGCSE Humanities' fuller development unit: specific documented development indicators used together rather than relying on one alone, specific documented causes of global inequality traced back to Term 2's colonial economic structures, and a balanced account of documented development aid representing recipients as active participants, closing with a Development Case Study combining a documented country's indicators, causes, and balanced aid account. Term 8, Natural Hazards Foundations, deliberately primes IGCSE Humanities' fuller natural hazards unit: distinct documented hazard categories (tectonic and climatic), documented plate boundaries explaining why tectonic hazards concentrate in specific locations rather than occurring randomly, and a balanced account of documented risk and human response representing hazard-prone communities as active agents building preparedness rather than passive victims, closing with a Natural Hazards Case Study combining a documented hazard type, plate-boundary connection, and balanced risk-response account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account. Term 7, Development and Global Inequality, deliberately primes IGCSE Humanities' fuller development unit: specific documented development indicators used together rather than relying on one alone, specific documented causes of global inequality traced back to Term 2's colonial economic structures, and a balanced account of documented development aid representing recipients as active participants, closing with a Development Case Study combining a documented country's indicators, causes, and balanced aid account. Term 8, Natural Hazards Foundations, deliberately primes IGCSE Humanities' fuller natural hazards unit: distinct documented hazard categories (tectonic and climatic), documented plate boundaries explaining why tectonic hazards concentrate in specific locations rather than occurring randomly, and a balanced account of documented risk and human response representing hazard-prone communities as active agents building preparedness rather than passive victims, closing with a Natural Hazards Case Study combining a documented hazard type, plate-boundary connection, and balanced risk-response account. Term 9, IGCSE Readiness and Graduation, reviews the documented historical-thinking skills (multi-causation, historical agency, critical evidence evaluation, specific citation) built across Terms 1-4, 6, and 7, and the documented geographic-thinking skills (cumulative connected content across grades, multi-indicator thinking, spiral-curriculum priming) built across Terms 5-8, closing with a graduation exhibition combining one history topic and one geography topic, each with its IGCSE-priming purpose explicitly identified, under the full set of documented evidence standards built across the entire Secondary tier.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Development and Global Inequality သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Development Unit ကို တမင် Priming ပြုလုပ်သည် -- တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Specific Documented Development Indicator များကို အတူတကွ အသုံးပြုကာ Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Global Inequality ၏ Specific Documented Cause များနှင့် Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Development Aid ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Country တစ်ခု၏ Indicator များ, Cause များနှင့် Balanced Aid Account ကို ပေါင်းစပ်ထားသော Development Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Natural Hazards Unit ကို တမင် Priming ပြုလုပ်သည် -- Distinct Documented Hazard Category များ (Tectonic နှင့် Climatic), Tectonic Hazard များ ကျပန်း ဖြစ်ပျက်မည့်အစား Specific Location များတွင် အဘယ်ကြောင့် စုစည်းသည်ကို ရှင်းပြသော Documented Plate Boundary များနှင့် Hazard-Prone Community များကို Passive Victim များအစား Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုသော Documented Risk နှင့် Human Response ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Hazard Type, Plate-Boundary Connection နှင့် Balanced Risk-Response Account ကို ပေါင်းစပ်ထားသော Natural Hazards Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Development and Global Inequality သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Development Unit ကို တမင် Priming ပြုလုပ်သည် -- တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Specific Documented Development Indicator များကို အတူတကွ အသုံးပြုကာ Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Global Inequality ၏ Specific Documented Cause များနှင့် Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Development Aid ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Country တစ်ခု၏ Indicator များ, Cause များနှင့် Balanced Aid Account ကို ပေါင်းစပ်ထားသော Development Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Natural Hazards Unit ကို တမင် Priming ပြုလုပ်သည် -- Distinct Documented Hazard Category များ (Tectonic နှင့် Climatic), Tectonic Hazard များ ကျပန်း ဖြစ်ပျက်မည့်အစား Specific Location များတွင် အဘယ်ကြောင့် စုစည်းသည်ကို ရှင်းပြသော Documented Plate Boundary များနှင့် Hazard-Prone Community များကို Passive Victim များအစား Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုသော Documented Risk နှင့် Human Response ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Hazard Type, Plate-Boundary Connection နှင့် Balanced Risk-Response Account ကို ပေါင်းစပ်ထားသော Natural Hazards Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ IGCSE Readiness and Graduation သည် Term 1-4, 6 နှင့် 7 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Historical-Thinking Skill များ (Multi-Causation, Historical Agency, Critical Evidence Evaluation, Specific Citation) နှင့် Term 5-8 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Geographic-Thinking Skill များ (Grade များတစ်လျှောက် Cumulative Connected Content, Multi-Indicator Thinking, Spiral-Curriculum Priming) ကို ပြန်လည်သုံးသပ်ပြီး Whole Secondary Tier တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Standard အပြည့်အစုံဖြင့် History Topic တစ်ခုနှင့် Geography Topic တစ်ခုကို ပေါင်းစပ်ကာ Topic တစ်ခုစီ၏ IGCSE-Priming Purpose ကို ရှင်းလင်းစွာ ဖော်ထုတ်ထားသော Graduation Exhibition တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec3HumTerm1,
@@ -129364,6 +129370,7 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
     _sec3HumTerm6,
     _sec3HumTerm7,
     _sec3HumTerm8,
+    _sec3HumTerm9,
   ],
 );
 // =====================================================================
@@ -139450,5 +139457,1448 @@ const CourseTermDef _sec3HumTerm8 = CourseTermDef(
   certificateTitleEn: "Natural Hazards Foundations Certificate",
   certificateTitleMy: "Natural Hazards Foundations သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek29, _sec3HumWeek30, _sec3HumWeek31, _sec3HumWeek32],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 9: "IGCSE Readiness and Graduation"
+// (Weeks 33-36)
+// Term 9, Week 33: "Historical Skills Review"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek33 = CourseWeekDef(
+  id: "course-sec3-hum-w33",
+  weekNumber: 33,
+  titleEn: "Historical Skills Review",
+  titleMy: "Historical Skills ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w33-d1",
+      dayNumber: 1,
+      titleEn: "The Year's Historical Habits",
+      titleMy: "ဤနှစ်၏ Historical အလေ့အထများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Terms 1, 2, 3, 4, 6, and 7 all cited multiple documented factors combining to explain nationalism, imperialism, pre-war tension, decolonization, migration, and global inequality. What single skill does this reflect?",
+          questionMy:
+              "Term 1, 2, 3, 4, 6 နှင့် 7 အားလုံးသည် Nationalism, Imperialism, Pre-War Tension, Decolonization, Migration နှင့် Global Inequality ကို ရှင်းပြရန် ပေါင်းစပ်ထားသော Documented Factor များစွာကို Cite ပြုလုပ်ခဲ့ကြသည်။ ဤသည်က Skill တစ်ခုတည်းကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "Multi-causation: recognizing that major historical and geographic developments usually result from several documented factors working together",
+            "This pattern reflects no actual documented skill of any kind",
+            "Single-causation: recognizing that only one documented factor ever explains historical change",
+            "This pattern is unrelated to any documented skill taught this year",
+          ],
+          optionsMy: [
+            "Multi-Causation: Major သမိုင်းဆိုင်ရာနှင့် Geographic Development များသည် ယေဘုယျအားဖြင့် အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာသည်ကို အသိအမှတ်ပြုခြင်း",
+            "ဤ Pattern သည် Actual Documented Skill မည်သည်ကိုမျှ မထင်ဟပ်ခြင်း",
+            "Single-Causation: Documented Factor တစ်ခုတည်းသာ သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ဘယ်တော့မှ ရှင်းပြသည်ကို အသိအမှတ်ပြုခြင်း",
+            "ဤ Pattern သည် ဤနှစ် သင်ကြားခဲ့သော Documented Skill မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back across every term this year -- nationalism, imperialism, pre-war tension, decolonization, migration, inequality -- what habit reappeared in each?",
+          ],
+          hintsMy: [
+            "ဤနှစ်၏ Term တိုင်းကို ပြန်စဉ်းစားပါ -- Nationalism, Imperialism, Pre-War Tension, Decolonization, Migration, Inequality -- Term တစ်ခုစီတွင် ဘယ် Habit ထပ်မံ ပေါ်ပေါက်ခဲ့သနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Terms 2, 4, 6, and 7 all required representing affected people (Africans under colonialism, formerly colonized peoples, informal-settlement residents, aid recipients) as active agents, not only passive subjects. What single skill does this reflect?",
+          questionMy:
+              "Term 2, 4, 6 နှင့် 7 အားလုံးသည် အကျိုးသက်ရောက်ခဲ့သော လူများ (Colonialism အောက်ရှိ African များ, ယခင် ကိုလိုနီဖြစ်ခဲ့ရသော လူများ, Informal-Settlement Resident များ, Aid Recipient များ) ကို Passive Subject များအဖြစ်သာမက Active Agent များအဖြစ် ကိုယ်စားပြုရန် လိုအပ်ခဲ့သည်။ ဤသည်က Skill တစ်ခုတည်းကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "The historical/geographic agency principle: representing affected people as actively shaping outcomes, not only as passive subjects",
+            "This pattern reflects no actual documented skill of any kind",
+            "The passive-subject principle: representing affected people only as passive recipients of outside action",
+            "This pattern is unrelated to any documented agency principle taught this year",
+          ],
+          optionsMy: [
+            "Historical/Geographic Agency Principle: အကျိုးသက်ရောက်ခဲ့သော လူများကို Passive Subject များအဖြစ်သာမက Outcome များကို တက်ကြွစွာ ပုံဖော်ခဲ့သူများအဖြစ် ကိုယ်စားပြုခြင်း",
+            "ဤ Pattern သည် Actual Documented Skill မည်သည်ကိုမျှ မထင်ဟပ်ခြင်း",
+            "Passive-Subject Principle: အကျိုးသက်ရောက်ခဲ့သော လူများကို Outside Action ၏ Passive Recipient များအဖြစ်သာ ကိုယ်စားပြုခြင်း",
+            "ဤ Pattern သည် ဤနှစ် သင်ကြားခဲ့သော Documented Agency Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back to how each of these terms insisted on representing affected people as shaping their own outcomes.",
+          ],
+          hintsMy: [
+            "ဤ Term များတစ်ခုစီသည် အကျိုးသက်ရောက်ခဲ့သော လူများကို ၎င်းတို့ ကိုယ်ပိုင် Outcome များကို ပုံဖော်ခြင်းအဖြစ် ကိုယ်စားပြုရန် မည်သို့ တောင်းဆိုခဲ့သည်ကို ပြန်စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Term 2's critical evaluation of the 'civilizing mission' taught that stated justifications should be checked against documented evidence rather than accepted uncritically. What is this specific skill called?",
+          questionMy:
+              "'Civilizing Mission' ၏ Term 2 ၏ Critical Evaluation သည် Stated Justification များကို Uncritically မလက်ခံဘဲ Documented Evidence နှင့် စစ်ဆေးသင့်ကြောင်း သင်ကြားခဲ့သည်။ ဤ Specific Skill ကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: [
+            "Critical evidence evaluation: checking a stated justification against documented evidence rather than accepting it uncritically",
+            "This process has no actual documented name or definition",
+            "Uncritical acceptance: accepting any stated justification without checking documented evidence",
+            "This skill is unrelated to any documented evidence-evaluation habit taught this year",
+          ],
+          optionsMy: [
+            "Critical Evidence Evaluation: Uncritically မလက်ခံဘဲ Stated Justification တစ်ခုကို Documented Evidence နှင့် စစ်ဆေးခြင်း",
+            "ဤ Process တွင် Actual Documented Name (သို့) Definition မရှိခြင်း",
+            "Uncritical Acceptance: Documented Evidence စစ်ဆေးခြင်း မရှိဘဲ Stated Justification မည်သည်ကိုမဆို လက်ခံခြင်း",
+            "ဤ Skill သည် ဤနှစ် သင်ကြားခဲ့သော Documented Evidence-Evaluation Habit မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same term used since Term 2's Week 5, applied throughout this term's review.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ Week 5 မှစ၍ အသုံးပြုခဲ့ပြီး ဤ Term ၏ Review တစ်လျှောက် အသုံးချထားသော Term တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Historical Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Historical Skills Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w33-dm-1",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "Explaining historical change through several documented factors working together",
+          matchMy:
+              "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှတစ်ဆင့် သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ရှင်းပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w33-dm-2",
+          termEn: "Historical agency",
+          termMy: "Historical Agency",
+          matchEn:
+              "Representing affected people as actively shaping outcomes, not only as passive subjects",
+          matchMy:
+              "Passive Subject များအဖြစ်သာမက Outcome များကို တက်ကြွစွာ ပုံဖော်ခဲ့သော လူများအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w33-dm-3",
+          termEn: "Critical evidence evaluation",
+          termMy: "Critical Evidence Evaluation",
+          matchEn:
+              "Checking a stated justification against documented evidence rather than accepting it uncritically",
+          matchMy:
+              "Uncritically မလက်ခံဘဲ Stated Justification တစ်ခုကို Documented Evidence နှင့် စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w33-dm-4",
+          termEn: "Spiral curriculum priming",
+          termMy: "Spiral Curriculum Priming",
+          matchEn:
+              "Introducing a documented topic at appropriate depth before fuller coverage at IGCSE",
+          matchMy:
+              "IGCSE ၏ ပို၍ ပြည့်စုံသော Coverage မတိုင်မီ သင့်လျော်သော Depth တွင် Documented Topic တစ်ခု မိတ်ဆက်ပေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - ဘယ် Skill သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Multi-Causation", "Historical Agency"],
+        bucketsMy: ["Multi-Causation", "Historical Agency"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w33-sort-1",
+            labelEn:
+                "Citing colonial legacy, trade patterns, and capital access together for inequality",
+            labelMy:
+                "Inequality အတွက် Colonial Legacy, Trade Pattern များနှင့် Capital Access ကို အတူတကွ Cite ပြုလုပ်ခြင်း",
+            correctBucketEn: "Multi-Causation",
+            correctBucketMy: "Multi-Causation",
+          ),
+          SortingItem(
+            id: "sec3hum-w33-sort-2",
+            labelEn:
+                "Representing African resistance movements as historical actors shaping events",
+            labelMy:
+                "African Resistance Movement များကို Event များ ပုံဖော်ခဲ့သော Historical Actor များအဖြစ် ကိုယ်စားပြုခြင်း",
+            correctBucketEn: "Historical Agency",
+            correctBucketMy: "Historical Agency",
+          ),
+          SortingItem(
+            id: "sec3hum-w33-sort-3",
+            labelEn:
+                "Citing nationalist rivalry, imperial competition, alliances, and militarism together",
+            labelMy:
+                "Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို အတူတကွ Cite ပြုလုပ်ခြင်း",
+            correctBucketEn: "Multi-Causation",
+            correctBucketMy: "Multi-Causation",
+          ),
+          SortingItem(
+            id: "sec3hum-w33-sort-4",
+            labelEn:
+                "Representing aid recipients as active participants shaping how aid is used",
+            labelMy:
+                "Aid Recipient များကို Aid အသုံးပြုပုံကို ပုံဖော်နေသော Active Participant များအဖြစ် ကိုယ်စားပြုခြင်း",
+            correctBucketEn: "Historical Agency",
+            correctBucketMy: "Historical Agency",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Year-in-Review Notes",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ Year-In-Review Notes",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Year-in-Review Notes",
+        titleMy: "Htet Wai Yan ၏ Year-In-Review Notes",
+        passageEn:
+            "For Week 33's assignment, Htet Wai Yan was asked to identify the historical-thinking skills that reappeared most often across this year's terms, rather than simply listing topics term by term.\n\nHe traced multi-causation first: Term 1's unification, Term 2's imperialism, Term 3's pre-war tensions, Term 4's decolonization, Term 6's migration, and Term 7's global inequality had all been explained through several documented factors working together, never a single cause alone. He then traced historical agency: Term 2's African resistance, Term 4's independence movements, Term 6's informal-settlement residents, and Term 7's aid recipients had all been represented as active agents shaping outcomes, not only as passive subjects things happened to.\n\nFinally, he traced critical evidence evaluation back to Term 2's civilizing-mission work, noting that checking a stated justification against documented evidence rather than accepting it uncritically was a skill reinforced throughout the year. His teacher praised the notes for recognizing that this year's terms were not simply nine separate, unconnected topics, but nine applications of a small set of documented evidence skills, each reinforced in a new historical context -- including the deliberate spiral-curriculum priming of Terms 3, 5, 7, and 8 toward fuller IGCSE coverage.",
+        passageMy:
+            "Week 33 ၏ Assignment အတွက် Topic များကို Term အလိုက် ရိုးရိုး List ပြုလုပ်မည့်အစား ဤနှစ်၏ Term များတစ်လျှောက် အများဆုံး ထပ်ခါထပ်ခါ ပေါ်ပေါက်ခဲ့သော Historical-Thinking Skill များကို ဖော်ထုတ်ရန် Htet Wai Yan အား တောင်းဆိုခဲ့သည်။\n\nMulti-Causation ကို ဦးစွာ ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Term 1 ၏ Unification, Term 2 ၏ Imperialism, Term 3 ၏ Pre-War Tension များ, Term 4 ၏ Decolonization, Term 6 ၏ Migration နှင့် Term 7 ၏ Global Inequality အားလုံးကို Cause တစ်ခုတည်းမဟုတ်ဘဲ အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှတစ်ဆင့် ရှင်းပြခဲ့သည်။ ထို့နောက် Historical Agency ကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Term 2 ၏ African Resistance, Term 4 ၏ Independence Movement များ, Term 6 ၏ Informal-Settlement Resident များနှင့် Term 7 ၏ Aid Recipient များ အားလုံးကို Passive Subject များအဖြစ်သာမက Outcome များကို ပုံဖော်ခဲ့သော Active Agent များအဖြစ် ကိုယ်စားပြုခဲ့သည်။\n\nနောက်ဆုံးတွင် Term 2 ၏ Civilizing-Mission အလုပ်သို့ Critical Evidence Evaluation ကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့ပြီး Stated Justification တစ်ခုကို Uncritically မလက်ခံဘဲ Documented Evidence နှင့် စစ်ဆေးခြင်းသည် နှစ်တစ်လျှောက် ထပ်မံ အားဖြည့်ခဲ့သော Skill တစ်ခု ဖြစ်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။ ဤနှစ်၏ Term များသည် Separate, Unconnected Topic ကိုးခုတည်းမဟုတ်ဘဲ Documented Evidence Skill Set သေးငယ်တူတူ၏ Application ကိုးခု ဖြစ်ကြောင်း, တစ်ခုစီသည် Historical Context အသစ်တစ်ခုတွင် ထပ်မံ အားဖြည့်ထားကြောင်း -- IGCSE ပို၍ ပြည့်စုံသော Coverage ဘက်သို့ Term 3, 5, 7 နှင့် 8 ၏ Deliberate Spiral-Curriculum Priming အပါအဝင် -- အသိအမှတ်ပြုသောကြောင့် Notes ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which terms did Htet Wai Yan cite as examples of multi-causation?",
+            questionMy:
+                "Multi-Causation ၏ ဥပမာများအဖြစ် Htet Wai Yan Cite ပြုလုပ်ခဲ့သော Term များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Terms 1, 2, 3, 4, 6, and 7",
+              "No terms of any kind",
+              "Only Term 5 and Term 8",
+              "Terms entirely unrelated to multi-causation",
+            ],
+            optionsMy: [
+              "Term 1, 2, 3, 4, 6 နှင့် 7",
+              "Term မည်သည် အမျိုးအစားမှ",
+              "Term 5 နှင့် Term 8 သာ",
+              "Multi-Causation နှင့် လုံးလုံး မသက်ဆိုင်သော Term များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited terms."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Term များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the historical-agency principle require?",
+            questionMy:
+                "Historical-Agency Principle လိုအပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Representing affected people as active agents shaping outcomes",
+              "Representing affected people only as passive subjects",
+              "No documented representation of any kind",
+              "Ignoring every affected group entirely",
+            ],
+            optionsMy: [
+              "အကျိုးသက်ရောက်ခဲ့သော လူများကို Outcome များကို ပုံဖော်ခဲ့သော Active Agent များအဖြစ် ကိုယ်စားပြုခြင်း",
+              "အကျိုးသက်ရောက်ခဲ့သော လူများကို Passive Subject များအဖြစ်သာ ကိုယ်စားပြုခြင်း",
+              "Documented Representation မည်သည် အမျိုးအစားမှ",
+              "Affected Group တိုင်းကို လုံးလုံး လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated requirement."],
+            hintsMy: [
+              "ဖော်ပြထားသော Requirement ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which terms did the notes cite as deliberately priming IGCSE coverage?",
+            questionMy:
+                "IGCSE Coverage ကို တမင် Priming ပြုလုပ်ကြောင်း Notes Cite ပြုလုပ်ခဲ့သော Term များကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Terms 3, 5, 7, and 8",
+              "No terms of any kind",
+              "Only Term 1 and Term 2",
+              "Terms entirely unrelated to IGCSE",
+            ],
+            optionsMy: [
+              "Term 3, 5, 7 နှင့် 8",
+              "Term မည်သည် အမျိုးအစားမှ",
+              "Term 1 နှင့် Term 2 သာ",
+              "IGCSE နှင့် လုံးလုံး မသက်ဆိုင်သော Term များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated priming terms."],
+            hintsMy: [
+              "ဖော်ပြထားသော Priming Term များကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w33-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Historical Skills Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Historical Skills မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Multi-causation means explaining historical change through...",
+          questionMy:
+              "Multi-Causation ဆိုသည်မှာ ...မှတစ်ဆင့် သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ရှင်းပြခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Several documented factors working together",
+            "A single documented factor alone",
+            "No documented factor of any kind",
+            "Factors unrelated to any documented evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာ",
+            "Documented Factor တစ်ခုတည်း",
+            "Documented Factor မည်သည် အမျိုးအစားမှ",
+            "Documented Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Historical agency means representing affected people as...",
+          questionMy:
+              "Historical Agency ဆိုသည်မှာ အကျိုးသက်ရောက်ခဲ့သော လူများကို ...အဖြစ် ကိုယ်စားပြုခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Active agents shaping outcomes",
+            "Passive subjects with no actual role",
+            "People with no actual documented significance",
+            "Agents unrelated to any documented event",
+          ],
+          optionsMy: [
+            "Outcome များကို ပုံဖော်သော Active Agent များ",
+            "Actual Role မရှိသော Passive Subject များ",
+            "Actual Documented Significance မရှိသော လူများ",
+            "Documented Event မည်သည်နှင့်မျှ မသက်ဆိုင်သော Agent များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Critical evidence evaluation means checking a stated justification against...",
+          questionMy:
+              "Critical Evidence Evaluation ဆိုသည်မှာ Stated Justification တစ်ခုကို ...နှင့် စစ်ဆေးခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Documented evidence, not accepting it uncritically",
+            "Nothing -- justifications never need checking",
+            "No documented evidence of any kind",
+            "Sources unrelated to the justification being checked",
+          ],
+          optionsMy: [
+            "Uncritically မလက်ခံဘဲ Documented Evidence",
+            "ဘာမှ -- Justification များသည် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "စစ်ဆေးနေသော Justification နှင့် မသက်ဆိုင်သော Source များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 9, Week 34: "Geographic Skills Review"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek34 = CourseWeekDef(
+  id: "course-sec3-hum-w34",
+  weekNumber: 34,
+  titleEn: "Geographic Skills Review",
+  titleMy: "Geographic Skills ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w34-d1",
+      dayNumber: 1,
+      titleEn: "The Year's Geographic Habits",
+      titleMy: "ဤနှစ်၏ Geographic အလေ့အထများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Term 5's population indicators, Term 7's multiple development indicators, and Term 8's plate-boundary citations all required checking a claim against specific documented data rather than a vague general description. What single skill does this reflect?",
+          questionMy:
+              "Term 5 ၏ Population Indicator များ, Term 7 ၏ Multiple Development Indicator များနှင့် Term 8 ၏ Plate-Boundary Citation များ အားလုံးသည် Vague General ဖော်ပြချက်တစ်ခုအစား Specific Documented Data နှင့် Claim တစ်ခုကို စစ်ဆေးရန် လိုအပ်ခဲ့သည်။ ဤသည်က Skill တစ်ခုတည်းကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "Specific-evidence-over-vague-generalization: checking claims against precise, documented data before accepting them",
+            "This pattern reflects no actual documented skill of any kind",
+            "Vague-generalization-over-specific-evidence: preferring vague description over precise, documented data",
+            "This pattern is unrelated to any documented geographic-thinking skill taught this year",
+          ],
+          optionsMy: [
+            "Specific-Evidence-Over-Vague-Generalization: Claim များကို လက်ခံမီ Precise, Documented Data နှင့် စစ်ဆေးခြင်း",
+            "ဤ Pattern သည် Actual Documented Skill မည်သည်ကိုမျှ မထင်ဟပ်ခြင်း",
+            "Vague-Generalization-Over-Specific-Evidence: Precise, Documented Data ထက် Vague ဖော်ပြချက်ကို ပိုနှစ်သက်ခြင်း",
+            "ဤ Pattern သည် ဤနှစ် သင်ကြားခဲ့သော Documented Geographic-Thinking Skill မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same principle from Term 1's historical citation discipline, applied across every geography term this year.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤနှစ် Geography Term တိုင်းတွင် အသုံးချထားသော Term 1 ၏ Historical Citation Discipline မှ Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Term 6's migration and urban growth, Term 7's development, and Term 8's natural hazards all built directly on Secondary 2's earlier documented content (push-pull factors, factory-era urbanization, and colonial economic structures respectively) rather than treating each topic as brand new. What does this reflect about how geography content develops across grades?",
+          questionMy:
+              "Term 6 ၏ Migration and Urban Growth, Term 7 ၏ Development နှင့် Term 8 ၏ Natural Hazards အားလုံးသည် Topic တစ်ခုစီကို Brand New အဖြစ် သဘောထားမည့်အစား Secondary 2 ၏ ယခင် Documented Content (Push-Pull Factor များ, Factory-ခေတ် Urbanization နှင့် Colonial Economic Structure များ အသီးသီး) ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ခဲ့ကြသည်။ ဤသည်က Grade များတစ်လျှောက် Geography Content မည်သို့ တိုးတက်သည်ကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "Geography content builds cumulatively across grades -- later topics connect back to and apply earlier documented principles rather than starting fresh each time",
+            "Geography topics are documented as always completely isolated from each other across grades with no connection",
+            "Geography content never actually builds on earlier documented principles from prior grades",
+            "This pattern is unrelated to how any documented geography course develops across grades",
+          ],
+          optionsMy: [
+            "Geography Content သည် Grade များတစ်လျှောက် Cumulatively တည်ဆောက်သည် -- Topic နောက်ပိုင်းများသည် အချိန်တိုင်း အသစ် မစတင်ဘဲ ယခင် Documented Principle များသို့ ပြန်လည် ချိတ်ဆက်ကာ အသုံးချသည်",
+            "Geography Topic များကို Grade များတစ်လျှောက် တစ်ခုနှင့်တစ်ခု ဆက်နွယ်မှု မရှိဘဲ အမြဲ လုံးလုံး Isolated ဖြစ်ကြောင်း Document ပြုလုပ်ထားသည်",
+            "Geography Content သည် ယခင် Grade များမှ Documented Principle များပေါ်တွင် ဘယ်တော့မှ Actual မတည်ဆောက်ခြင်း",
+            "ဤ Pattern သည် Documented Geography Course မည်သည် Grade များတစ်လျှောက် မည်သို့ တိုးတက်သည်နှင့် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace how many terms this year explicitly referenced back to Secondary 2's earlier geography foundations.",
+          ],
+          hintsMy: [
+            "ဤနှစ်ရှိ Term အရေအတွက် Secondary 2 ၏ ယခင် Geography Foundation များသို့ ရှင်းလင်းစွာ ရည်ညွှန်းခဲ့သည့် အရေအတွက်ကို လိုက်လံ ဖော်ထုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Term 5, Term 7, and Term 8 all deliberately primed IGCSE Humanities content at an appropriate depth without fully covering it. What is this deliberate design called?",
+          questionMy:
+              "Term 5, Term 7 နှင့် Term 8 အားလုံးသည် IGCSE Humanities Content ကို အပြည့်အစုံ မဖုံးအုပ်ဘဲ သင့်လျော်သော Depth တွင် တမင် Priming ပြုလုပ်ခဲ့ကြသည်။ ဤ Deliberate Design ကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: [
+            "Spiral curriculum design: introducing documented topics at appropriate depth now, building toward fuller coverage later",
+            "This design has no actual documented name or definition",
+            "Full coverage design: covering every topic in complete depth at every grade level",
+            "This design is unrelated to any documented curriculum principle used this course",
+          ],
+          optionsMy: [
+            "Spiral Curriculum Design: ယခု သင့်လျော်သော Depth တွင် Documented Topic များကို မိတ်ဆက်ပေးကာ နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage ဘက်သို့ တည်ဆောက်ခြင်း",
+            "ဤ Design တွင် Actual Documented Name (သို့) Definition မရှိခြင်း",
+            "Full Coverage Design: Grade Level တိုင်းတွင် Topic တိုင်းကို Complete Depth ဖြင့် ဖုံးအုပ်ခြင်း",
+            "ဤ Design သည် ဤ Course အသုံးပြုခဲ့သော Documented Curriculum Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same spiral curriculum principle explicitly stated in Term 3's Week 12 capstone and reinforced in Term 5, Term 7, and Term 8.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ Week 12 Capstone တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့ပြီး Term 5, Term 7 နှင့် Term 8 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Spiral Curriculum Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Geographic Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Geographic Skills Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w34-dm-1",
+          termEn: "Cumulative geography",
+          termMy: "Cumulative Geography",
+          matchEn:
+              "Later geographic topics building on documented principles from earlier grades",
+          matchMy:
+              "ယခင် Grade များမှ Documented Principle များပေါ်တွင် တည်ဆောက်ထားသော Geographic Topic နောက်ပိုင်းများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w34-dm-2",
+          termEn: "Multi-indicator thinking",
+          termMy: "Multi-Indicator Thinking",
+          matchEn:
+              "Using several documented measures together rather than relying on one alone",
+          matchMy:
+              "Measure တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Documented Measure များစွာကို အတူတကွ အသုံးပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w34-dm-3",
+          termEn: "Spiral curriculum design",
+          termMy: "Spiral Curriculum Design",
+          matchEn:
+              "Priming documented topics at appropriate depth before fuller coverage at IGCSE",
+          matchMy:
+              "IGCSE ၏ ပို၍ ပြည့်စုံသော Coverage မတိုင်မီ သင့်လျော်သော Depth တွင် Documented Topic များ Priming ပြုလုပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w34-dm-4",
+          termEn: "Specific documented data",
+          termMy: "Specific Documented Data",
+          matchEn:
+              "Precise, cited figures or characteristics rather than vague geographic generalizations",
+          matchMy:
+              "Vague Geographic Generalization များအစား Precise, Cite ပြုလုပ်ထားသော Figure (သို့) Characteristic",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Primes This IGCSE Content?",
+      titleMy: "စီစစ်ကြမည် - ဤ IGCSE Content ကို ဘယ် Term Priming ပြုလုပ်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primed by Term 5 or Term 7", "Primed by Term 3 or Term 8"],
+        bucketsMy: [
+          "Term 5 (သို့) Term 7 Priming ပြုလုပ်သည်",
+          "Term 3 (သို့) Term 8 Priming ပြုလုပ်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w34-sort-1",
+            labelEn:
+                "Documented demographic transition and population pyramid content",
+            labelMy:
+                "Documented Demographic Transition နှင့် Population Pyramid Content",
+            correctBucketEn: "Primed by Term 5 or Term 7",
+            correctBucketMy: "Term 5 (သို့) Term 7 Priming ပြုလုပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w34-sort-2",
+            labelEn:
+                "Documented alliance systems and militarism before the Great War",
+            labelMy:
+                "Great War မတိုင်မီ Documented Alliance System များနှင့် Militarism",
+            correctBucketEn: "Primed by Term 3 or Term 8",
+            correctBucketMy: "Term 3 (သို့) Term 8 Priming ပြုလုပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w34-sort-3",
+            labelEn:
+                "Documented development indicators and global inequality causes",
+            labelMy:
+                "Documented Development Indicator များနှင့် Global Inequality Cause များ",
+            correctBucketEn: "Primed by Term 5 or Term 7",
+            correctBucketMy: "Term 5 (သို့) Term 7 Priming ပြုလုပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w34-sort-4",
+            labelEn: "Documented plate tectonics and natural hazard risk",
+            labelMy: "Documented Plate Tectonics နှင့် Natural Hazard Risk",
+            correctBucketEn: "Primed by Term 3 or Term 8",
+            correctBucketMy: "Term 3 (သို့) Term 8 Priming ပြုလုပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko's Geography Skills Map",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko ၏ Geography Skills Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko's Geography Skills Map",
+        titleMy: "Zin Ko ၏ Geography Skills Map",
+        passageEn:
+            "For Week 34's assignment, Zin Ko built a map tracing how this year's geography content connected across terms and back to Secondary 2, rather than treating Term 5's population content and Term 8's natural hazards as unrelated units.\n\nHe started with Term 5's demographic transition and traced its connection back to Secondary 2's population density work, then forward to Term 6's migration content and Term 7's development indicators, all sharing the same multi-indicator, specific-evidence discipline. He then traced Term 6's urban growth and Term 8's natural hazards, noting that both extended Secondary 2's earlier documented content (factory-era urbanization and colonial economic structures) into new documented contexts rather than starting fresh.\n\nHe labeled this a cumulative pattern, the same insight Term 3's Week 12 capstone had reached for history: this course's geography strand deliberately primed Terms 5, 7, and 8 at an appropriate depth for later, fuller IGCSE study rather than covering everything now. His teacher praised the map for showing that this course's geography strand was one connected body of knowledge spanning grades, not nine separate topics -- the same insight Week 33 had reached for the history strand.",
+        passageMy:
+            "Week 34 ၏ Assignment အတွက် Term 5 ၏ Population Content နှင့် Term 8 ၏ Natural Hazards ကို Unrelated Unit များအဖြစ် သဘောထားမည့်အစား ဤနှစ်၏ Geography Content Term များတစ်လျှောက်နှင့် Secondary 2 သို့ ပြန်လည် မည်သို့ ချိတ်ဆက်သည်ကို လိုက်လံ ဖော်ထုတ်ကာ Map တစ်ခု Zin Ko တည်ဆောက်ခဲ့သည်။\n\nTerm 5 ၏ Demographic Transition တွင် ၎င်း စတင်ခဲ့ပြီး Secondary 2 ၏ Population Density အလုပ်သို့ ၎င်း၏ Connection ကို လိုက်လံ ဖော်ထုတ်ကာ ထို့နောက် Term 6 ၏ Migration Content နှင့် Term 7 ၏ Development Indicator များသို့ ရှေ့ဆက် ဖော်ထုတ်ခဲ့ပြီး အားလုံးသည် Multi-Indicator, Specific-Evidence Discipline တူတူကို မျှဝေခဲ့ကြသည်။ ထို့နောက် Term 6 ၏ Urban Growth နှင့် Term 8 ၏ Natural Hazards ကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့ပြီး နှစ်ခုစလုံးသည် အသစ် မစတင်ဘဲ Secondary 2 ၏ ယခင် Documented Content (Factory-ခေတ် Urbanization နှင့် Colonial Economic Structure များ) ကို Documented Context အသစ်များသို့ တိုးချဲ့ခဲ့ကြောင်း မှတ်ချက်ပြုခဲ့သည်။\n\nHistory အတွက် Term 3 ၏ Week 12 Capstone ရောက်ရှိခဲ့သော Insight တူတူ, Cumulative Pattern တစ်ခုအဖြစ် ၎င်း Label တပ်ခဲ့သည် -- ဤ Course ၏ Geography Strand သည် ယခု အားလုံးကို ဖုံးအုပ်မည့်အစား နောက်ပိုင်း ပို၍ ပြည့်စုံသော IGCSE Study အတွက် သင့်လျော်သော Depth တွင် Term 5, 7 နှင့် 8 ကို တမင် Priming ပြုလုပ်ခဲ့သည်။ ဤ Course ၏ Geography Strand သည် Separate Topic ကိုးခုမဟုတ်ဘဲ Grade များ ဖြတ်သန်းသော Connected Body Of Knowledge တစ်ခု ဖြစ်ကြောင်း ပြသသောကြောင့် Map ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး History Strand အတွက် Week 33 ရောက်ရှိခဲ့သော Insight တူတူ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Zin Ko trace Term 5's demographic transition back to?",
+            questionMy:
+                "Term 5 ၏ Demographic Transition ကို Zin Ko ပြန်လည် လိုက်လံ ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Secondary 2's population density work",
+              "No documented content of any kind",
+              "Content entirely unrelated to Secondary 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Secondary 2 ၏ Population Density အလုပ်",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Secondary 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Term 6 and Term 8 both extend from Secondary 2?",
+            questionMy:
+                "Secondary 2 မှ Term 6 နှင့် Term 8 နှစ်ခုစလုံး တိုးချဲ့ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Factory-era urbanization and colonial economic structures",
+              "No documented content of any kind",
+              "Content entirely unrelated to Secondary 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Factory-ခေတ် Urbanization နှင့် Colonial Economic Structure များ",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Secondary 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Zin Ko's teacher praise the map for showing?",
+            questionMy:
+                "Map ပြသခဲ့သည့်အရာအတွက် Zin Ko ၏ ဆရာ ချီးမွမ်းခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the geography strand was one connected body of knowledge spanning grades",
+              "That every geography topic was completely isolated from every other topic",
+              "That the geography strand had no actual documented connection across grades",
+              "That geography content never builds on earlier documented principles",
+            ],
+            optionsMy: [
+              "Geography Strand သည် Grade များ ဖြတ်သန်းသော Connected Body Of Knowledge တစ်ခု ဖြစ်ကြောင်း",
+              "Geography Topic တိုင်းသည် အခြား Topic တိုင်းနှင့် လုံးလုံး Isolated ဖြစ်ကြောင်း",
+              "Geography Strand တွင် Grade များတစ်လျှောက် Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+              "Geography Content သည် ယခင် Documented Principle များပေါ်တွင် ဘယ်တော့မှ မတည်ဆောက်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w34-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Geographic Skills Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Geographic Skills မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Geography content across grades is documented as...",
+          questionMy:
+              "Grade များတစ်လျှောက် Geography Content ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Cumulative, with later topics building on earlier grades' principles",
+            "Completely isolated, with no connection between grades",
+            "Unrelated to any documented earlier content",
+            "Random, with no traceable documented pattern",
+          ],
+          optionsMy: [
+            "Cumulative ဖြစ်ပြီး Topic နောက်ပိုင်းများသည် ယခင် Grade များ၏ Principle များပေါ်တွင် တည်ဆောက်ခြင်း",
+            "Grade များကြား ဆက်နွယ်မှု မရှိဘဲ လုံးလုံး Isolated ဖြစ်ခြင်း",
+            "ယခင် Documented Content မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "Traceable Documented Pattern မရှိဘဲ Random ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Spiral curriculum design means...",
+          questionMy: "Spiral Curriculum Design ဆိုသည်မှာ ...ဆိုလိုသည်",
+          optionsEn: [
+            "Priming documented topics at appropriate depth before fuller coverage later",
+            "Fully covering every documented topic in complete depth immediately",
+            "Never actually mentioning any content covered later at IGCSE",
+            "A design unrelated to any documented curriculum principle",
+          ],
+          optionsMy: [
+            "နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage မတိုင်မီ သင့်လျော်သော Depth တွင် Documented Topic များ Priming ပြုလုပ်ခြင်း",
+            "Documented Topic တိုင်းကို ချက်ချင်း Complete Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်ခြင်း",
+            "IGCSE တွင် နောက်ပိုင်း ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မဖော်ပြခြင်း",
+            "Documented Curriculum Principle မည်သည်နှင့်မျှ မသက်ဆိုင်သော Design",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Checking a claim against specific documented data rather than vague description is called...",
+          questionMy:
+              "Vague ဖော်ပြချက်တစ်ခုအစား Specific Documented Data နှင့် Claim တစ်ခုကို စစ်ဆေးခြင်းကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Specific-evidence-over-vague-generalization",
+            "Vague-generalization-over-specific-evidence",
+            "A skill unrelated to any documented evidence",
+            "A process with no documented name of any kind",
+          ],
+          optionsMy: [
+            "Specific-Evidence-Over-Vague-Generalization",
+            "Vague-Generalization-Over-Specific-Evidence",
+            "Documented Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်သော Skill",
+            "Documented Name မည်သည် အမျိုးအစားမှ မပါသော Process",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 9, Week 35: "Building the IGCSE
+// Readiness Exhibition"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek35 = CourseWeekDef(
+  id: "course-sec3-hum-w35",
+  weekNumber: 35,
+  titleEn: "Building the IGCSE Readiness Exhibition",
+  titleMy: "IGCSE Readiness Exhibition တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w35-d1",
+      dayNumber: 1,
+      titleEn: "Choosing and Planning an IGCSE-Readiness Topic",
+      titleMy: "IGCSE-Readiness Topic ရွေးချယ်ခြင်းနှင့် စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For the final exhibition, a student must choose one history topic and one geography topic from this year and explicitly identify which IGCSE unit each was designed to prime. Why require this explicit identification rather than simply presenting the topics on their own?",
+          questionMy:
+              "Final Exhibition အတွက် Student တစ်ဦးသည် ဤနှစ်မှ History Topic တစ်ခုနှင့် Geography Topic တစ်ခုကို ရွေးချယ်ကာ Topic တစ်ခုစီ Prime ပြုလုပ်ရန် Design ပြုလုပ်ထားသော IGCSE Unit မည်သည်ကို ရှင်းလင်းစွာ ဖော်ထုတ်ရမည်။ Topic များကို ၎င်းတို့ ကိုယ်တိုင် တင်ပြရုံမက ဤ Explicit Identification ကို အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "This demonstrates genuine understanding of the spiral curriculum design running throughout this course, showing awareness of how this year's content specifically prepares for IGCSE rather than existing in isolation",
+            "Identifying IGCSE connections has no actual value in a final exhibition",
+            "Topics should always be presented without any awareness of their connection to future study",
+            "This course has no actual documented connection to any specific IGCSE unit",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး လည်ပတ်နေသော Spiral Curriculum Design ၏ Genuine နားလည်မှု ကို သရုပ်ပြပြီး ဤနှစ်၏ Content သည် Isolation တွင် တည်ရှိမည့်အစား IGCSE အတွက် တိကျစွာ မည်သို့ ပြင်ဆင်ပေးသည်ကို Awareness ပြသသည်",
+            "IGCSE Connection များ ဖော်ထုတ်ခြင်းတွင် Final Exhibition တွင် Actual Value မရှိခြင်း",
+            "Topic များကို Future Study သို့ ၎င်းတို့၏ Connection Awareness မပါဘဲ အမြဲ တင်ပြသင့်ခြင်း",
+            "ဤ Course သည် Specific IGCSE Unit မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines every skill identified in Week 33 (history) and Week 34 (geography) into one final graduating project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33 (History) နှင့် Week 34 (Geography) တွင် ဖော်ထုတ်ခဲ့သော Skill တိုင်းကို Final Graduating Project တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a student planning their exhibition topic choose a specific, narrow documented topic (e.g., 'the documented causes of the Berlin Conference') rather than an extremely broad, vague one (e.g., 'colonial history')?",
+          questionMy:
+              "Exhibition Topic စီစဉ်နေသော Student တစ်ဦးသည် Extremely Broad, Vague Topic (ဥပမာ, 'Colonial History') တစ်ခုအစား Specific, Narrow Documented Topic (ဥပမာ, 'Berlin Conference ၏ Documented Cause များ') တစ်ခုကို အဘယ်ကြောင့် ရွေးချယ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, narrow topic allows genuine depth of documented evidence and precise citation, the same specific-over-vague habit taught since Term 1, rather than shallow coverage of an unmanageably broad subject",
+            "A broad, vague topic is always easier to research thoroughly with specific documented evidence",
+            "Specific, narrow documented topics have no actual value in exhibition planning",
+            "Topic scope has no actual connection to the depth of documented evidence a project can achieve",
+          ],
+          optionsMy: [
+            "Specific, Narrow Topic တစ်ခုသည် Manageable မဟုတ်သော Broad Subject တစ်ခု၏ Shallow Coverage အစား Genuine Documented Evidence Depth နှင့် Precise Citation ကို ခွင့်ပြုသည်, Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်",
+            "Broad, Vague Topic တစ်ခုသည် Specific Documented Evidence ဖြင့် အမြဲ ပို၍ လွယ်ကူစွာ Research ပြုလုပ်နိုင်ခြင်း",
+            "Specific, Narrow Documented Topic များတွင် Exhibition Planning ၌ Actual Value မရှိခြင်း",
+            "Topic Scope သည် Project တစ်ခု ရရှိနိုင်သော Documented Evidence ၏ Depth နှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-over-vague habit applied to topic selection itself, from Secondary 2's Term 9's exhibition planning.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Term 9 Exhibition Planning မှ Topic Selection ကိုယ်တိုင်ပေါ်တွင် အသုံးချထားသော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students planning to connect their history and geography topics check that the connection is genuinely documented, rather than simply asserting a connection exists because both topics come from the same year?",
+          questionMy:
+              "History နှင့် Geography Topic များကို ချိတ်ဆက်ရန် စီစဉ်နေသော Student များသည် Topic နှစ်ခုစလုံး နှစ်တူတည်းမှ လာသောကြောင့် ချိတ်ဆက်မှု တည်ရှိသည်ဟု ရိုးရိုး Assert ပြုလုပ်မည့်အစား ချိတ်ဆက်မှု Genuinely Documented ဖြစ်မဖြစ် အဘယ်ကြောင့် စစ်ဆေးသင့်ရသနည်း။",
+          optionsEn: [
+            "An asserted but unverified connection is not the same as a documented one, so checking the connection against actual course evidence maintains the same evidence-based rigor applied throughout this course, following Secondary 2's Term 9 precedent",
+            "Any asserted connection between topics is always automatically documented and accurate",
+            "Connections between history and geography topics should never actually be checked against evidence",
+            "Checking a connection against documented evidence has no actual value in exhibition work",
+          ],
+          optionsMy: [
+            "Assert ပြုလုပ်ထားသော်လည်း Unverified ချိတ်ဆက်မှုသည် Documented တစ်ခုနှင့် မတူဘဲ Actual Course Evidence နှင့် ချိတ်ဆက်မှုကို စစ်ဆေးခြင်းသည် Secondary 2 ၏ Term 9 Precedent ကို လိုက်နာကာ ဤ Course တစ်လျှောက် အသုံးချထားသော Evidence-Based Rigor တူတူကို ထိန်းသိမ်းသည်",
+            "Topic များကြား Assert ပြုလုပ်ထားသော ချိတ်ဆက်မှု မည်သည်ကိုမဆို အမြဲ အလိုအလျောက် Documented ဖြစ်ပြီး တိကျသည်",
+            "History နှင့် Geography Topic များကြား ချိတ်ဆက်မှုများကို Evidence နှင့် ဘယ်တော့မှ Actual မစစ်ဆေးသင့်ခြင်း",
+            "Documented Evidence နှင့် ချိတ်ဆက်မှုတစ်ခုကို စစ်ဆေးခြင်းတွင် Exhibition Work ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same evidence-checking discipline from Secondary 2's Term 9 exhibition planning, applied here to verifying cross-topic connections.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Cross-Topic ချိတ်ဆက်မှုကို အတည်ပြုရန် ဤနေရာ၌ အသုံးချထားသော Secondary 2 ၏ Term 9 Exhibition Planning မှ Evidence-Checking Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exhibition Planning Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Exhibition Planning Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w35-dm-1",
+          termEn: "IGCSE-readiness identification",
+          termMy: "IGCSE-Readiness Identification",
+          matchEn:
+              "Explicitly naming which IGCSE unit a chosen topic was designed to prime",
+          matchMy:
+              "ရွေးချယ်ထားသော Topic တစ်ခု Prime ပြုလုပ်ရန် Design ပြုလုပ်ထားသော IGCSE Unit မည်သည်ကို ရှင်းလင်းစွာ အမည်တပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w35-dm-2",
+          termEn: "Narrow, specific topic",
+          termMy: "Narrow, Specific Topic",
+          matchEn:
+              "A focused documented subject allowing genuine depth rather than shallow, broad coverage",
+          matchMy:
+              "Shallow, Broad Coverage အစား Genuine Depth ခွင့်ပြုသော Focused Documented Subject",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w35-dm-3",
+          termEn: "Verified cross-topic connection",
+          termMy: "Verified Cross-Topic Connection",
+          matchEn:
+              "A link between history and geography topics checked against actual documented evidence",
+          matchMy:
+              "Actual Documented Evidence နှင့် စစ်ဆေးထားသော History နှင့် Geography Topic များကြား Link",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w35-dm-4",
+          termEn: "Exhibition topic",
+          termMy: "Exhibition Topic",
+          matchEn:
+              "A student's chosen focus for the final capstone, drawn from this year's documented content",
+          matchMy:
+              "ဤနှစ်၏ Documented Content မှ ရယူထားသော Final Capstone အတွက် Student ရွေးချယ်ထားသော Focus",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Topic Choice or Needs Revision?",
+      titleMy: "စီစစ်ကြမည် - Topic Choice ကောင်းသည် (သို့) Revision လိုအပ်သည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Exhibition Topic Choice", "Needs Revision"],
+        bucketsMy: ["Exhibition Topic Choice ကောင်းသည်", "Revision လိုအပ်သည်"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w35-sort-1",
+            labelEn:
+                "The documented Berlin Conference, specifically, primed for IGCSE colonialism content",
+            labelMy:
+                "IGCSE Colonialism Content အတွက် Prime ပြုလုပ်ထားသော Documented Berlin Conference, Specifically",
+            correctBucketEn: "Good Exhibition Topic Choice",
+            correctBucketMy: "Exhibition Topic Choice ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w35-sort-2",
+            labelEn:
+                "All of colonial history, described in vague general terms",
+            labelMy:
+                "Vague General Term များဖြင့် ဖော်ပြထားသော Colonial History အားလုံး",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "Revision လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w35-sort-3",
+            labelEn:
+                "Documented demographic transition in a specific country, primed for IGCSE population content",
+            labelMy:
+                "IGCSE Population Content အတွက် Prime ပြုလုပ်ထားသော Specific Country ရှိ Documented Demographic Transition",
+            correctBucketEn: "Good Exhibition Topic Choice",
+            correctBucketMy: "Exhibition Topic Choice ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w35-sort-4",
+            labelEn:
+                "A claimed history-geography connection with no documented evidence checked",
+            labelMy:
+                "Documented Evidence စစ်ဆေးခြင်း မရှိသော Claimed History-Geography Connection",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "Revision လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Exhibition Plan",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Exhibition Plan",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Exhibition Plan",
+        titleMy: "Nay Chi ၏ Exhibition Plan",
+        passageEn:
+            "For Week 35, Nay Chi planned her exhibition project, choosing a specific history topic (the documented Berlin Conference and its connection to decolonization's legacy) and a specific geography topic (demographic transition in one documented country), rather than broad, vague subjects.\n\nFor each topic, she explicitly identified the IGCSE unit it was designed to prime: the Berlin Conference connected to IGCSE's colonialism and Great War tensions content, while demographic transition connected to IGCSE's fuller population geography unit. Her first draft claimed the two topics were 'connected because they both involve documented change,' but her teacher asked her to check that claim against actual documented evidence rather than simply asserting it.\n\nNay Chi revised her plan: she found no direct documented historical connection between these two specific topics, but noted that her course-wide skills of multi-causation and specific-evidence citation applied equally to both, planning to demonstrate that shared skill explicitly rather than forcing an unverified topical connection. Her teacher praised the plan for choosing focused, specific topics, explicitly identifying their IGCSE-priming purpose, and being honest about what was and was not a genuinely documented connection.",
+        passageMy:
+            "Week 35 အတွက် Broad, Vague Subject များအစား Specific History Topic (Documented Berlin Conference နှင့် Decolonization ၏ Legacy သို့ ၎င်း၏ Connection) နှင့် Specific Geography Topic (Documented Country တစ်ခုရှိ Demographic Transition) ကို ရွေးချယ်ကာ ၎င်း၏ Exhibition Project ကို Nay Chi စီစဉ်ခဲ့သည်။\n\nTopic တစ်ခုစီအတွက် ၎င်း Prime ပြုလုပ်ရန် Design ပြုလုပ်ထားသော IGCSE Unit ကို ၎င်း ရှင်းလင်းစွာ ဖော်ထုတ်ခဲ့သည် -- Berlin Conference သည် IGCSE ၏ Colonialism နှင့် Great War Tension Content သို့ ချိတ်ဆက်ခဲ့ပြီး Demographic Transition သည် IGCSE ၏ ပို၍ ပြည့်စုံသော Population Geography Unit သို့ ချိတ်ဆက်ခဲ့သည်။ Topic နှစ်ခုသည် 'Documented Change နှစ်ခုစလုံး ပါဝင်သောကြောင့် ချိတ်ဆက်နေသည်' ဟု ၎င်း၏ ပထမဆုံး Draft တွင် Claim ပြုလုပ်ခဲ့သော်လည်း ရိုးရိုး Assert ပြုလုပ်မည့်အစား Actual Documented Evidence နှင့် ထို Claim ကို စစ်ဆေးရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။\n\nNay Chi ၏ Plan ကို ပြန်လည် ပြင်ဆင်ခဲ့သည် -- ဤ Specific Topic နှစ်ခုကြား Direct Documented သမိုင်းဆိုင်ရာ Connection မတွေ့ရှိခဲ့သော်လည်း ၎င်း၏ Course-Wide Skill များ Multi-Causation နှင့် Specific-Evidence Citation သည် နှစ်ခုစလုံးအတွက် တစ်ပြေးညီ အသုံးချကြောင်း မှတ်ချက်ပြုခဲ့ပြီး Unverified Topical Connection တစ်ခုကို အတင်း မတွန်းအားပေးဘဲ ထို Shared Skill ကို ရှင်းလင်းစွာ သရုပ်ပြရန် ၎င်း စီစဉ်ခဲ့သည်။ Focused, Specific Topic များ ရွေးချယ်ခြင်း, ၎င်းတို့၏ IGCSE-Priming Purpose ကို ရှင်းလင်းစွာ ဖော်ထုတ်ခြင်းနှင့် Genuinely Documented Connection ဖြစ်သည်နှင့် မဖြစ်သည်ကို ရိုးသားစွာ ဖော်ပြခြင်းတို့ကြောင့် Plan ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two specific topics did Nay Chi choose?",
+            questionMy:
+                "Nay Chi ရွေးချယ်ခဲ့သော Specific Topic နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Berlin Conference and demographic transition in one country",
+              "No specific documented topic of any kind",
+              "Only a broad, vague subject with no specific focus",
+              "Topics entirely unrelated to this year's course content",
+            ],
+            optionsMy: [
+              "Berlin Conference နှင့် Country တစ်ခုရှိ Demographic Transition",
+              "Specific Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Specific Focus မပါဘဲ Broad, Vague Subject တစ်ခုတည်း",
+              "ဤနှစ်၏ Course Content နှင့် လုံးလုံး မသက်ဆိုင်သော Topic များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated topic choices."],
+            hintsMy: [
+              "ဖော်ပြထားသော Topic Choice များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi explicitly identify for each topic?",
+            questionMy:
+                "Topic တစ်ခုစီအတွက် Nay Chi ရှင်းလင်းစွာ ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The IGCSE unit it was designed to prime",
+              "No connection of any kind",
+              "A connection unrelated to IGCSE",
+              "Only a vague, unspecified purpose",
+            ],
+            optionsMy: [
+              "Prime ပြုလုပ်ရန် Design ပြုလုပ်ထားသော IGCSE Unit",
+              "ဆက်နွယ်မှု မည်သည် အမျိုးအစားမှ",
+              "IGCSE နှင့် မသက်ဆိုင်သော Connection",
+              "Vague, Unspecified Purpose တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated identification."],
+            hintsMy: [
+              "ဖော်ပြထားသော Identification ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nay Chi find when she checked the claimed connection between her two topics?",
+            questionMy:
+                "၎င်း၏ Topic နှစ်ခုကြား Claimed Connection ကို စစ်ဆေးခဲ့သောအခါ Nay Chi တွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No direct documented historical connection, but shared course-wide skills",
+              "A strong, fully documented historical connection between the topics",
+              "No documented evidence of any kind existed for either topic",
+              "The two topics were documented as completely identical",
+            ],
+            optionsMy: [
+              "Direct Documented သမိုင်းဆိုင်ရာ Connection မရှိသော်လည်း Shared Course-Wide Skill များ",
+              "Topic များကြား ခိုင်မာသော, အပြည့်အဝ Documented သမိုင်းဆိုင်ရာ Connection",
+              "Topic နှစ်ခုစလုံးအတွက် Documented Evidence မည်သည် အမျိုးအစားမှ မရှိခဲ့ခြင်း",
+              "Topic နှစ်ခုကို လုံးဝ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w35-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Exhibition Planning Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Exhibition Planning မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An IGCSE-readiness exhibition topic should be...",
+          questionMy:
+              "IGCSE-Readiness Exhibition Topic တစ်ခုသည် ...ဖြစ်သင့်သည်",
+          optionsEn: [
+            "Specific and narrow, with its IGCSE-priming purpose identified",
+            "Extremely broad and vague, with no IGCSE connection identified",
+            "Chosen with no consideration of documented evidence",
+            "Unrelated to any content studied this year",
+          ],
+          optionsMy: [
+            "Specific နှင့် Narrow ဖြစ်ပြီး ၎င်း၏ IGCSE-Priming Purpose ဖော်ထုတ်ထားခြင်း",
+            "IGCSE Connection ဖော်ထုတ်ခြင်း မရှိဘဲ Extremely Broad နှင့် Vague ဖြစ်ခြင်း",
+            "Documented Evidence ကို စဉ်းစားမှု မရှိဘဲ ရွေးချယ်ခြင်း",
+            "ဤနှစ် လေ့လာခဲ့သော Content မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A claimed connection between two topics should be...",
+          questionMy: "Topic နှစ်ခုကြား Claimed Connection တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Checked against actual documented evidence",
+            "Accepted automatically with no verification",
+            "Ignored regardless of documented evidence",
+            "Assumed true without any documented check",
+          ],
+          optionsMy: [
+            "Actual Documented Evidence နှင့် စစ်ဆေး",
+            "Verification မရှိဘဲ အလိုအလျောက် လက်ခံ",
+            "Documented Evidence မည်သို့ပင်ရှိစေ လျစ်လျူရှု",
+            "Documented Check မရှိဘဲ မှန်ကန်ကြောင်း ယူဆ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The final exhibition is designed to demonstrate...",
+          questionMy: "Final Exhibition ကို ...သရုပ်ပြရန် Design ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Mastery of every documented evidence skill built across the year and IGCSE readiness",
+            "Only one isolated documented skill with no other connection",
+            "No documented skill of any kind",
+            "Skills entirely unrelated to this year's course content",
+          ],
+          optionsMy: [
+            "နှစ်တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း၏ Mastery နှင့် IGCSE Readiness",
+            "အခြား ဆက်နွယ်မှု မပါဘဲ Isolated Documented Skill တစ်ခုတည်း",
+            "Documented Skill မည်သည် အမျိုးအစားမှ",
+            "ဤနှစ်၏ Course Content နှင့် လုံးလုံး မသက်ဆိုင်သော Skill များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 9, Week 36 (Capstone / Boss Week):
+// "Final Exhibition and Graduation"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek36 = CourseWeekDef(
+  id: "course-sec3-hum-w36",
+  weekNumber: 36,
+  titleEn: "Capstone: Final Exhibition and Graduation",
+  titleMy: "Capstone - Final Exhibition and Graduation",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w36-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: The Full Year's Evidence Standards",
+      titleMy: "Capstone Quiz - နှစ်တစ်နှစ်လုံး၏ Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's final exhibition must apply multi-causation, historical/geographic agency, critical evidence evaluation, and specific documented citation to both a chosen history topic and a chosen geography topic, explicitly naming each topic's IGCSE-priming purpose. Why does this final capstone require every skill together rather than any single one?",
+          questionMy:
+              "Student ၏ Final Exhibition သည် Topic တစ်ခုစီ၏ IGCSE-Priming Purpose ကို ရှင်းလင်းစွာ အမည်တပ်ကာ ရွေးချယ်ထားသော History Topic နှင့် Geography Topic နှစ်ခုစလုံးအပေါ် Multi-Causation, Historical/Geographic Agency, Critical Evidence Evaluation နှင့် Specific Documented Citation ကို အသုံးချရမည်။ ဤ Final Capstone သည် Skill တစ်ခုတည်းမည်သည်ထက် Skill တိုင်းကို အတူတကွ အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "This capstone is designed to demonstrate genuine mastery of the complete documented evidence toolkit built across all nine terms, the same full-standard rigor established in Week 35's planning and in Secondary 2's Term 9",
+            "A single documented skill is always sufficient to demonstrate a full year of learning",
+            "The full set of skills has no actual documented value in a final year-end exhibition",
+            "Combining every documented skill together has no actual value in demonstrating a year of learning",
+          ],
+          optionsMy: [
+            "ဤ Capstone သည် Term ကိုးခုစလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Complete Documented Evidence Toolkit ၏ Genuine Mastery ကို သရုပ်ပြရန် Design ပြုလုပ်ထားသည်, Week 35 ၏ Planning နှင့် Secondary 2 ၏ Term 9 တွင် တည်ထောင်ခဲ့သော Full-Standard Rigor တူတူ ဖြစ်သည်",
+            "Documented Skill တစ်ခုတည်းသည် နှစ်တစ်နှစ်လုံး၏ Learning ကို သရုပ်ပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Skill Set အပြည့်အစုံတွင် Final Year-End Exhibition ၌ Actual Documented Value မရှိခြင်း",
+            "Documented Skill တိုင်းကို အတူတကွ ပေါင်းစပ်ခြင်းတွင် နှစ်တစ်နှစ်လုံး Learning သရုပ်ပြရာ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Weeks 33-35's identified skills into one final graduating project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33-35 တွင် ဖော်ထုတ်ခဲ့သော Skill များကို Final Graduating Project တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft exhibition presents its topics as if this course had already fully covered the Great War, population geography, development, and natural hazards in complete IGCSE depth. Following this course's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft Exhibition တွင် ဤ Course သည် Great War, Population Geography, Development နှင့် Natural Hazards ကို Complete IGCSE Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်ပြီးသားကဲ့သို့ ၎င်း၏ Topic များကို တင်ပြသည်။ ဤ Course ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the exhibition to honestly represent this course's role as priming these topics at an appropriate depth for fuller IGCSE study, following the same honest spiral-curriculum standard used since Term 3 and reinforced across Terms 5, 7, and 8",
+            "Nothing -- claiming complete IGCSE-depth coverage is the required and correct approach for a final exhibition",
+            "Remove all documented evidence about these topics from the exhibition entirely",
+            "Replace the entire exhibition with content unrelated to this year's subject",
+          ],
+          optionsMy: [
+            "Term 3 မှစ၍ အသုံးပြုခဲ့ပြီး Term 5, 7 နှင့် 8 တစ်လျှောက် ထပ်မံ အားဖြည့်ခဲ့သော Honest Spiral-Curriculum Standard တူတူကို လိုက်နာကာ ဤ Topic များကို IGCSE ပို၍ ပြည့်စုံသော Study အတွက် သင့်လျော်သော Depth တွင် Priming ပြုလုပ်ခြင်းအဖြစ် ဤ Course ၏ Role ကို ရိုးသားစွာ ကိုယ်စားပြုရန် Exhibition ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Complete IGCSE-Depth Coverage ကို Claim ပြုလုပ်ခြင်းသည် Final Exhibition အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "ဤ Topic များအကြောင်း Documented Evidence အားလုံးကို Exhibition မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤနှစ်၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Exhibition တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same honest-priming standard reinforced across every spiral-curriculum term this year, applied at the final graduation level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Final Graduation Level ၌ အသုံးချထားသော ဤနှစ် Spiral-Curriculum Term တိုင်းတွင် ထပ်မံ အားဖြည့်ခဲ့သော Honest-Priming Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this final exhibition explicitly connect its chosen topics back to Secondary 1 and Secondary 2's earlier content (as Week 33's and Week 34's reviews both modeled), rather than presenting them as brand-new, disconnected content?",
+          questionMy:
+              "Chosen Topic များကို Brand-New, Disconnected Content များအဖြစ် တင်ပြမည့်အစား ဤ Final Exhibition သည် ၎င်း၏ Chosen Topic များကို Secondary 1 နှင့် Secondary 2 ၏ ယခင် Content သို့ (Week 33 ၏ နှင့် Week 34 ၏ Review များ နှစ်ခုစလုံး Model ပြုလုပ်ခဲ့သကဲ့သို့) ရှင်းလင်းစွာ အဘယ်ကြောင့် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "This course's content builds cumulatively across three full grades, and demonstrating that connection shows genuine understanding of the whole Secondary tier as one connected body of knowledge rather than isolated units",
+            "Secondary 1, Secondary 2, and this course have no actual documented connection to each other",
+            "Presenting content as disconnected and isolated is always more historically and geographically accurate",
+            "Tracing connections back to earlier grades has no actual value in a final exhibition",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Content သည် Full Grade သုံးခုတစ်လျှောက် Cumulatively တည်ဆောက်သည်၊ ထို ချိတ်ဆက်မှုကို သရုပ်ပြခြင်းသည် Isolated Unit များအစား Whole Secondary Tier ကို Connected Body Of Knowledge တစ်ခုအဖြစ် Genuine နားလည်မှု ကို ပြသသည်",
+            "Secondary 1, Secondary 2 နှင့် ဤ Course တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Content ကို Disconnected, Isolated အဖြစ် တင်ပြခြင်းသည် အမြဲ ပို၍ သမိုင်းနှင့် Geographic အရ တိကျသည်",
+            "ယခင် Grade များသို့ ချိတ်ဆက်မှုများကို လိုက်လံ ဖော်ထုတ်ခြင်းတွင် Final Exhibition ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same cumulative-connection principle demonstrated explicitly in Week 33 and Week 34's skills-review work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33 နှင့် Week 34 ၏ Skills-Review အလုပ်တွင် ရှင်းလင်းစွာ သရုပ်ပြခဲ့သော Cumulative-Connection Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Full Secondary Tier Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Full Secondary Tier Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w36-dm-1",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "Explaining change through several documented factors together, used across all three grades",
+          matchMy:
+              "Grade သုံးခုစလုံးတစ်လျှောက် အသုံးပြုထားသော Documented Factor များစွာမှတစ်ဆင့် ပြောင်းလဲမှုကို ရှင်းပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w36-dm-2",
+          termEn: "Historical/geographic agency",
+          termMy: "Historical/Geographic Agency",
+          matchEn:
+              "Representing affected people as active agents, the Secondary tier's most repeated standard",
+          matchMy:
+              "Secondary Tier ၏ အထပ်ထပ်ဆုံး Standard, Active Agent များအဖြစ် အကျိုးသက်ရောက်ခဲ့သော လူများကို ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w36-dm-3",
+          termEn: "Cumulative Secondary-tier knowledge",
+          termMy: "Cumulative Secondary-Tier Knowledge",
+          matchEn:
+              "Three grades of content as one connected body of knowledge, not isolated units",
+          matchMy:
+              "Isolated Unit များမဟုတ်ဘဲ Connected Body Of Knowledge တစ်ခုအဖြစ် Grade သုံးခု၏ Content",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w36-dm-4",
+          termEn: "Graduation exhibition",
+          termMy: "Graduation Exhibition",
+          matchEn:
+              "The final capstone demonstrating mastery of every documented evidence skill built this year",
+          matchMy:
+              "ဤနှစ် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း၏ Mastery ကို သရုပ်ပြသော Final Capstone",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Graduation Checklist",
+      titleMy: "စီစစ်ကြမည် - Graduation Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Final Exhibition",
+          "Not Appropriate for the Final Exhibition",
+        ],
+        bucketsMy: [
+          "Final Exhibition တွင် လိုအပ်သည်",
+          "Final Exhibition အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w36-sort-1",
+            labelEn:
+                "Multi-causation, agency, and critical evaluation applied to both chosen topics",
+            labelMy:
+                "ရွေးချယ်ထားသော Topic နှစ်ခုစလုံးအပေါ် Multi-Causation, Agency နှင့် Critical Evaluation အသုံးချခြင်း",
+            correctBucketEn: "Required in the Final Exhibition",
+            correctBucketMy: "Final Exhibition တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w36-sort-2",
+            labelEn:
+                "An explicit statement of each topic's IGCSE-priming purpose",
+            labelMy:
+                "Topic တစ်ခုစီ၏ IGCSE-Priming Purpose ၏ Explicit ဖော်ပြချက်",
+            correctBucketEn: "Required in the Final Exhibition",
+            correctBucketMy: "Final Exhibition တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w36-sort-3",
+            labelEn:
+                "An explicit connection back to Secondary 1 and Secondary 2's content",
+            labelMy:
+                "Secondary 1 နှင့် Secondary 2 ၏ Content သို့ Explicit ချိတ်ဆက်မှု",
+            correctBucketEn: "Required in the Final Exhibition",
+            correctBucketMy: "Final Exhibition တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w36-sort-4",
+            labelEn:
+                "A claim that this course fully covered every topic at complete IGCSE depth",
+            labelMy:
+                "ဤ Course သည် Topic တိုင်းကို Complete IGCSE Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်ကြောင်း Claim",
+            correctBucketEn: "Not Appropriate for the Final Exhibition",
+            correctBucketMy: "Final Exhibition အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Sett's Graduation Exhibition",
+      titleMy: "စာဖတ်ခြင်း - Kaung Sett ၏ Graduation Exhibition",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Sett's Graduation Exhibition",
+        titleMy: "Kaung Sett ၏ Graduation Exhibition",
+        passageEn:
+            "For the Term 9 capstone, Kaung Sett presented his final exhibition, combining a history topic (Term 4's decolonization case study, connected back to Term 2's Berlin Conference) and a geography topic (Term 8's natural hazards case study, connected back to Secondary 2's earlier geography foundations), following the specific, narrow-topic planning modeled in Week 35.\n\nFor his history topic, he applied multi-causation by citing decolonization's documented causes together rather than any single explanation, and applied historical agency by representing independence movements as active agents making deliberate strategic choices, not passive subjects. He explicitly named the IGCSE unit his topic primed -- colonialism and its legacy -- and traced the connection back to Term 2's documented Berlin Conference and, further back, to Secondary 2's colonial-impact work.\n\nFor his geography topic, he applied the same multi-indicator and balanced-account discipline used since Term 5, citing specific documented plate-boundary evidence rather than vague claims, and representing hazard-prone communities as active agents building preparedness. He named the IGCSE natural hazards unit this topic primed, and honestly noted that this course's coverage was priming, not complete IGCSE depth. He closed by explicitly naming the shared skills running through both topics -- multi-causation, agency, critical evaluation, and specific citation -- showing they were not two separate projects but one demonstration of the same documented evidence toolkit built since Secondary 1's Term 1. His teacher confirmed the pathway complete, praising Kaung Sett's exhibition as exactly the kind of connected, evidence-rigorous, IGCSE-ready work this course had built toward across all nine terms, and congratulated the graduating class on completing the full Secondary Humanities tier.",
+        passageMy:
+            "Term 9 Capstone အတွက် Week 35 တွင် Model ပြုလုပ်ခဲ့သော Specific, Narrow-Topic Planning ကို လိုက်နာကာ History Topic (Term 2 ၏ Berlin Conference သို့ ပြန်လည် ချိတ်ဆက်ထားသော Term 4 ၏ Decolonization Case Study) နှင့် Geography Topic (Secondary 2 ၏ ယခင် Geography Foundation များသို့ ပြန်လည် ချိတ်ဆက်ထားသော Term 8 ၏ Natural Hazards Case Study) ကို ပေါင်းစပ်ကာ ၎င်း၏ Final Exhibition ကို Kaung Sett တင်ပြခဲ့သည်။\n\n၎င်း၏ History Topic အတွက် Single Explanation မည်သည်ကိုမဆို မဟုတ်ဘဲ Decolonization ၏ Documented Cause များကို အတူတကွ Cite ပြုလုပ်ကာ Multi-Causation ကို ၎င်း အသုံးချခဲ့ပြီး Independence Movement များကို Passive Subject မဟုတ်ဘဲ Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Active Agent များအဖြစ် ကိုယ်စားပြုကာ Historical Agency ကို အသုံးချခဲ့သည်။ ၎င်း၏ Topic Prime ပြုလုပ်ခဲ့သော IGCSE Unit -- Colonialism နှင့် ၎င်း၏ Legacy -- ကို ၎င်း ရှင်းလင်းစွာ အမည်တပ်ခဲ့ပြီး Term 2 ၏ Documented Berlin Conference နှင့် ပို၍ နောက်ကျသို့ Secondary 2 ၏ Colonial-Impact အလုပ်သို့ Connection ကို လိုက်လံ ဖော်ထုတ်ခဲ့သည်။\n\n၎င်း၏ Geography Topic အတွက် Vague Claim များအစား Specific Documented Plate-Boundary Evidence ကို Cite ပြုလုပ်ကာ Term 5 မှစ၍ အသုံးပြုခဲ့သော Multi-Indicator နှင့် Balanced-Account Discipline တူတူကို ၎င်း အသုံးချခဲ့ပြီး Hazard-Prone Community များကို Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုခဲ့သည်။ ဤ Topic Prime ပြုလုပ်ခဲ့သော IGCSE Natural Hazards Unit ကို ၎င်း အမည်တပ်ခဲ့ပြီး ဤ Course ၏ Coverage သည် Complete IGCSE Depth မဟုတ်ဘဲ Priming ဖြစ်ကြောင်း ရိုးသားစွာ မှတ်ချက်ပြုခဲ့သည်။ Topic နှစ်ခုလုံးကို ဖြတ်သန်း ရှိနေသော Shared Skill များကို ရှင်းလင်းစွာ အမည်တပ်ကာ ၎င်း ပြီးဆုံးခဲ့သည် -- Multi-Causation, Agency, Critical Evaluation နှင့် Specific Citation -- ၎င်းတို့သည် Separate Project နှစ်ခုမဟုတ်ဘဲ Secondary 1 ၏ Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Documented Evidence Toolkit တူတူ၏ Demonstration တစ်ခုတည်း ဖြစ်ကြောင်း ပြသခဲ့သည်။ Pathway ပြီးဆုံးကြောင်း ၎င်း၏ ဆရာ အတည်ပြုခဲ့ပြီး Term ကိုးခုလုံးတစ်လျှောက် ဤ Course တည်ဆောက်ခဲ့သော Connected, Evidence-Rigorous, IGCSE-Ready Work အမျိုးအစား အတိအကျ ဖြစ်ကြောင်း Kaung Sett ၏ Exhibition ကို ချီးမွမ်းကာ Full Secondary Humanities Tier ကို ပြီးဆုံးအောင် ဆောင်ရွက်ခဲ့သည့်အတွက် Graduating Class ကို ဂုဏ်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two topics did Kaung Sett combine for his exhibition?",
+            questionMy:
+                "၎င်း၏ Exhibition အတွက် Kaung Sett ပေါင်းစပ်ခဲ့သော Topic နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 4's decolonization case study and Term 8's natural hazards case study",
+              "No specific documented topic of any kind",
+              "Only a broad, vague subject with no specific focus",
+              "Topics entirely unrelated to this year's course content",
+            ],
+            optionsMy: [
+              "Term 4 ၏ Decolonization Case Study နှင့် Term 8 ၏ Natural Hazards Case Study",
+              "Specific Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Specific Focus မပါဘဲ Broad, Vague Subject တစ်ခုတည်း",
+              "ဤနှစ်၏ Course Content နှင့် လုံးလုံး မသက်ဆိုင်သော Topic များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated topic choices."],
+            hintsMy: [
+              "ဖော်ပြထားသော Topic Choice များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what IGCSE unit did Kaung Sett name for his history topic?",
+            questionMy:
+                "၎င်း၏ History Topic အတွက် Kaung Sett အမည်တပ်ခဲ့သော IGCSE Unit ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Colonialism and its legacy",
+              "No IGCSE unit of any kind",
+              "A unit entirely unrelated to his history topic",
+              "Natural hazards, unrelated to decolonization",
+            ],
+            optionsMy: [
+              "Colonialism နှင့် ၎င်း၏ Legacy",
+              "IGCSE Unit မည်သည် အမျိုးအစားမှ",
+              "၎င်း၏ History Topic နှင့် လုံးလုံး မသက်ဆိုင်သော Unit",
+              "Decolonization နှင့် မသက်ဆိုင်သော Natural Hazards",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated IGCSE unit."],
+            hintsMy: [
+              "ဖော်ပြထားသော IGCSE Unit ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Kaung Sett show by naming the shared skills across both topics?",
+            questionMy:
+                "Topic နှစ်ခုလုံးရှိ Shared Skill များကို အမည်တပ်ခြင်းဖြင့် Kaung Sett ပြသခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the two topics were one demonstration of the same documented evidence toolkit",
+              "That the two topics had no actual connection to each other",
+              "That each topic required a completely different, unrelated skill set",
+              "That the documented evidence toolkit had no actual value across topics",
+            ],
+            optionsMy: [
+              "Topic နှစ်ခုသည် Documented Evidence Toolkit တူတူ၏ Demonstration တစ်ခုတည်း ဖြစ်ကြောင်း",
+              "Topic နှစ်ခုတွင် တစ်ခုနှင့်တစ်ခု Actual ဆက်နွယ်မှု မရှိကြောင်း",
+              "Topic တစ်ခုစီသည် လုံးဝ ကွဲပြားသော, မသက်ဆိုင်သော Skill Set တစ်ခု လိုအပ်ကြောင်း",
+              "Documented Evidence Toolkit တွင် Topic များတစ်လျှောက် Actual Value မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော Conclusion ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w36-d5",
+      dayNumber: 5,
+      titleEn: "Term 9 Recap: IGCSE Readiness and Graduation",
+      titleMy: "Term 9 ပြန်လည်သုံးသပ်ခြင်း - IGCSE Readiness and Graduation",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "This course's content across all nine terms is documented as forming...",
+          questionMy:
+              "ဤ Course ၏ Content ကို Term ကိုးခုလုံးတစ်လျှောက် ...ကို ဖွဲ့စည်းကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "One connected body of knowledge built cumulatively across grades",
+            "Nine completely isolated, unrelated units",
+            "No documented connection of any kind",
+            "Content unrelated to any shared documented skill",
+          ],
+          optionsMy: [
+            "Grade များတစ်လျှောက် Cumulatively တည်ဆောက်ထားသော Connected Body Of Knowledge တစ်ခု",
+            "လုံးလုံး Isolated, Unrelated Unit ကိုးခု",
+            "Documented ဆက်နွယ်မှု မည်သည် အမျိုးအစားမှ",
+            "Shared Documented Skill မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The final exhibition must explicitly identify each topic's...",
+          questionMy:
+              "Final Exhibition သည် Topic တစ်ခုစီ၏ ...ကို ရှင်းလင်းစွာ ဖော်ထုတ်ရမည်",
+          optionsEn: [
+            "IGCSE-priming purpose",
+            "No documented purpose of any kind",
+            "Purpose unrelated to any future study",
+            "A purpose that should always be hidden from the reader",
+          ],
+          optionsMy: [
+            "IGCSE-Priming Purpose",
+            "Documented Purpose မည်သည် အမျိုးအစားမှ",
+            "Future Study မည်သည်နှင့်မျှ မသက်ဆိုင်သော Purpose",
+            "Reader ထံမှ အမြဲ ဖျောက်ထားသင့်သော Purpose",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A graduating exhibition represents this course's coverage as...",
+          questionMy:
+              "Graduating Exhibition တစ်ခုသည် ဤ Course ၏ Coverage ကို ...အဖြစ် ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Honest priming for fuller IGCSE study, not complete IGCSE depth",
+            "Complete, full IGCSE-depth coverage of every topic",
+            "Entirely unrelated to any future IGCSE study",
+            "A topic this course never actually addressed",
+          ],
+          optionsMy: [
+            "IGCSE ပို၍ ပြည့်စုံသော Study အတွက် Complete IGCSE Depth မဟုတ်ဘဲ Honest Priming",
+            "Topic တိုင်း၏ Complete, Full IGCSE-Depth Coverage",
+            "Future IGCSE Study မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်ခြင်း",
+            "ဤ Course ဘယ်တော့မှ Actual မကိုင်တွယ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 9: "IGCSE Readiness and Graduation"
+// (Weeks 33-36) -- pathway complete, all 9 terms authored (36 weeks /
+// 180 daily lessons). Reviews the documented historical-thinking
+// skills (multi-causation, historical agency, critical evidence
+// evaluation, specific citation) built across Terms 1-4, 6, and 7
+// (Week 33), and the documented geographic-thinking skills (cumulative
+// connected content across grades, multi-indicator thinking, specific
+// data over vague generalization, spiral-curriculum priming) built
+// across Terms 5, 6, 7, and 8 (Week 34), then has students plan (Week
+// 35) and present (Week 36) a final graduation exhibition combining
+// one history topic and one geography topic, each with its IGCSE-
+// priming purpose explicitly identified, under the full set of
+// documented evidence standards built across the entire Secondary
+// tier (Secondary 1, Secondary 2, and Secondary 3).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm9 = CourseTermDef(
+  id: "course-sec3-hum-t9",
+  termNumber: 9,
+  titleEn: "IGCSE Readiness and Graduation",
+  titleMy: "IGCSE Readiness and Graduation",
+  certificateTitleEn: "Secondary 3 Humanities Certificate",
+  certificateTitleMy: "Secondary 3 Humanities သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek33, _sec3HumWeek34, _sec3HumWeek35, _sec3HumWeek36],
 );
 // __SEC_HUM_MARKER__
