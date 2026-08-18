@@ -114933,12 +114933,17 @@ const CourseTermDef _sec1HumTerm9 = CourseTermDef(
 );
 // =====================================================================
 // Secondary 2 Humanities (Year 8) -- "Exploration, Empire and
-// Change". Topic-driven, following the same Secondary-tier convention
-// as Secondary 1 Humanities (a rotating cast of named Myanmar
-// students rather than one fixed protagonist). Continues directly
-// from Secondary 1's foundations, moving the history strand forward
-// in time (medieval to early modern/industrial) while continuing the
-// geography strand (rivers/agriculture, population/movement).
+// Change" -- complete, all 9 terms authored (36 weeks / 180 daily
+// lessons). Topic-driven, following the same Secondary-tier
+// convention as Secondary 1 Humanities (a rotating cast of named
+// Myanmar students rather than one fixed protagonist). Continues
+// directly from Secondary 1's foundations, moving the history strand
+// forward in time (exploration through revolutions) while continuing
+// the geography strand (rivers/agriculture, population/movement),
+// and closes with a Term 9 skills-review/graduation-exhibition
+// capstone naming the documented-evidence habits (multi-causation,
+// balanced accounts, corroboration, specific citation) built across
+// the whole year.
 // Term 1: The Age of Exploration (Weeks 1-4)
 // Term 1, Week 1: "Motives for Exploration: God, Gold, and Glory"
 // =====================================================================
@@ -116369,9 +116374,9 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact. Term 7, Revolutions and New Ideas, covers Enlightenment political philosophy connected back to Term 2's Scientific Revolution, the documented American Revolution and French Revolution each with specific multi-causal explanation and a direct Enlightenment connection to their founding declarations, closing with a Revolutions Comparison Studio combining documented causes, a traced philosophical connection, and a balanced check on who actually received extended rights afterward. Term 8, Population and Movement, covers documented population density and distribution connected back to Term 5's river-geography factors, a specific push-pull migration framework connected to Term 6's factory-era urbanization, and balanced modern urbanization trends representing both documented benefit and challenge, closing with a Population Movement Case Study combining density data, specific push-pull factors, and a balanced urbanization account.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact. Term 7, Revolutions and New Ideas, covers Enlightenment political philosophy connected back to Term 2's Scientific Revolution, the documented American Revolution and French Revolution each with specific multi-causal explanation and a direct Enlightenment connection to their founding declarations, closing with a Revolutions Comparison Studio combining documented causes, a traced philosophical connection, and a balanced check on who actually received extended rights afterward. Term 8, Population and Movement, covers documented population density and distribution connected back to Term 5's river-geography factors, a specific push-pull migration framework connected to Term 6's factory-era urbanization, and balanced modern urbanization trends representing both documented benefit and challenge, closing with a Population Movement Case Study combining density data, specific push-pull factors, and a balanced urbanization account. Term 9, Skills Review and Exhibition, reviews the documented historical-thinking skills (multi-causation, balanced accounts, corroboration, specific citation) built across Terms 1-4, 6, and 7, and the documented geographic-thinking skills (cumulative connected content, specific data over vague generalization, balanced urbanization accounts) built across Terms 5 and 8, closing with a graduation exhibition combining one history topic and one geography topic under the full set of documented evidence standards built across the entire year.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Revolutions and New Ideas သည် Term 2 ၏ Scientific Revolution သို့ ပြန်လည် ချိတ်ဆက်ထားသော Enlightenment Political Philosophy, ၎င်းတို့၏ Founding Declaration များသို့ Specific Multi-Causal ရှင်းပြချက်နှင့် တိုက်ရိုက် Enlightenment ဆက်နွယ်မှုတစ်ခုစီဖြင့် Documented American Revolution နှင့် French Revolution ကို ဖုံးအုပ်ပြီး Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ Actual ရရှိခဲ့သူ မည်သူများကို Balanced Check ကို ပေါင်းစပ်ထားသော Revolutions Comparison Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Population and Movement သည် Term 5 ၏ River-Geography Factor များသို့ ပြန်လည် ချိတ်ဆက်ထားသော Documented Population Density နှင့် Distribution, Term 6 ၏ Factory-ခေတ် Urbanization သို့ ချိတ်ဆက်ထားသော Specific Push-Pull Migration Framework နှင့် Documented Benefit နှင့် Challenge နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Modern Urbanization Trend များကို ဖုံးအုပ်ပြီး Density Data, Specific Push-Pull Factor များနှင့် Balanced Urbanization Account ကို ပေါင်းစပ်ထားသော Population Movement Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Revolutions and New Ideas သည် Term 2 ၏ Scientific Revolution သို့ ပြန်လည် ချိတ်ဆက်ထားသော Enlightenment Political Philosophy, ၎င်းတို့၏ Founding Declaration များသို့ Specific Multi-Causal ရှင်းပြချက်နှင့် တိုက်ရိုက် Enlightenment ဆက်နွယ်မှုတစ်ခုစီဖြင့် Documented American Revolution နှင့် French Revolution ကို ဖုံးအုပ်ပြီး Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ Actual ရရှိခဲ့သူ မည်သူများကို Balanced Check ကို ပေါင်းစပ်ထားသော Revolutions Comparison Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Population and Movement သည် Term 5 ၏ River-Geography Factor များသို့ ပြန်လည် ချိတ်ဆက်ထားသော Documented Population Density နှင့် Distribution, Term 6 ၏ Factory-ခေတ် Urbanization သို့ ချိတ်ဆက်ထားသော Specific Push-Pull Migration Framework နှင့် Documented Benefit နှင့် Challenge နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Modern Urbanization Trend များကို ဖုံးအုပ်ပြီး Density Data, Specific Push-Pull Factor များနှင့် Balanced Urbanization Account ကို ပေါင်းစပ်ထားသော Population Movement Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Skills Review and Exhibition သည် Term 1-4, 6 နှင့် 7 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Historical-Thinking Skill များ (Multi-Causation, Balanced Account, Corroboration, Specific Citation) နှင့် Term 5 နှင့် 8 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Geographic-Thinking Skill များ (Cumulative Connected Content, Vague Generalization ထက် Specific Data, Balanced Urbanization Account) ကို ပြန်လည်သုံးသပ်ပြီး နှစ်တစ်နှစ်လုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Standard အပြည့်အစုံဖြင့် History Topic တစ်ခုနှင့် Geography Topic တစ်ခုကို ပေါင်းစပ်ထားသော Graduation Exhibition တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec2HumTerm1,
@@ -116382,6 +116387,7 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
     _sec2HumTerm6,
     _sec2HumTerm7,
     _sec2HumTerm8,
+    _sec2HumTerm9,
   ],
 );
 // =====================================================================
@@ -126454,5 +126460,1443 @@ const CourseTermDef _sec2HumTerm8 = CourseTermDef(
   certificateTitleEn: "Population and Movement Certificate",
   certificateTitleMy: "Population and Movement သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec2HumWeek29, _sec2HumWeek30, _sec2HumWeek31, _sec2HumWeek32],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 9: "Skills Review and Exhibition"
+// (Weeks 33-36)
+// Term 9, Week 33: "Historical Skills Review"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek33 = CourseWeekDef(
+  id: "course-sec2-hum-w33",
+  weekNumber: 33,
+  titleEn: "Historical Skills Review",
+  titleMy: "Historical Skills ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w33-d1",
+      dayNumber: 1,
+      titleEn: "The Year's Historical Habits",
+      titleMy: "ဤနှစ်၏ Historical အလေ့အထများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across Terms 1, 3, 4, 6, and 7 this year, historical explanations for exploration, colonialism, abolition, industrialization, and revolutions all cited multiple documented factors working together. What single skill does this reflect?",
+          questionMy:
+              "ဤနှစ်အတွင်း Term 1, 3, 4, 6 နှင့် 7 တစ်လျှောက် Exploration, Colonialism, Abolition, Industrialization နှင့် Revolution များအတွက် သမိုင်းဆိုင်ရာ ရှင်းပြချက်များအားလုံးသည် အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာကို Cite ပြုလုပ်ခဲ့သည်။ ဤသည်က Skill တစ်ခုတည်းကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "Multi-causation: recognizing that major historical change usually results from several documented factors working together, not one cause alone",
+            "This pattern reflects no actual documented skill of any kind",
+            "Single-causation: recognizing that only one documented factor ever explains historical change",
+            "This pattern is unrelated to any documented historical-thinking skill taught this year",
+          ],
+          optionsMy: [
+            "Multi-Causation: Major သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် Cause တစ်ခုတည်းအစား အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာသည်ကို အသိအမှတ်ပြုခြင်း",
+            "ဤ Pattern သည် Actual Documented Skill မည်သည်ကိုမျှ မထင်ဟပ်ခြင်း",
+            "Single-Causation: Documented Factor တစ်ခုတည်းသာ သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ဘယ်တော့မှ ရှင်းပြသည်ကို အသိအမှတ်ပြုခြင်း",
+            "ဤ Pattern သည် ဤနှစ် သင်ကြားခဲ့သော Documented Historical-Thinking Skill မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back across every term this year -- exploration, colonialism, abolition, industrialization, revolutions -- what habit reappeared in each?",
+          ],
+          hintsMy: [
+            "ဤနှစ်၏ Term တိုင်းကို ပြန်စဉ်းစားပါ -- Exploration, Colonialism, Abolition, Industrialization, Revolution များ -- Term တစ်ခုစီတွင် ဘယ် Habit ထပ်မံ ပေါ်ပေါက်ခဲ့သနည်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Weeks 11, 15, 23, and 26/27 all required representing every major documented dimension fairly -- both harm and resistance in colonialism, both opportunity and hardship in industrialization, both outcome celebration and unequal rights extension in the revolutions. What single skill does this reflect?",
+          questionMy:
+              "Week 11, 15, 23 နှင့် 26/27 အားလုံးသည် Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုရန် လိုအပ်ခဲ့သည် -- Colonialism ၌ Harm နှင့် Resistance နှစ်ခုစလုံး, Industrialization ၌ Opportunity နှင့် Hardship နှစ်ခုစလုံး, Revolution များ၌ Outcome Celebration နှင့် Unequal Rights Extension နှစ်ခုစလုံး။ ဤသည်က Skill တစ်ခုတည်းကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "The balanced-account principle: representing every major documented dimension of a historical topic fairly, not only the convenient one",
+            "This pattern reflects no actual documented skill of any kind",
+            "The single-dimension principle: representing only one convenient documented dimension of any historical topic",
+            "This pattern is unrelated to any documented historical-thinking skill taught this year",
+          ],
+          optionsMy: [
+            "Balanced-Account Principle: သမိုင်းဆိုင်ရာ Topic တစ်ခု၏ Major Documented Dimension တိုင်းကို Convenient တစ်ခုတည်းမဟုတ်ဘဲ တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+            "ဤ Pattern သည် Actual Documented Skill မည်သည်ကိုမျှ မထင်ဟပ်ခြင်း",
+            "Single-Dimension Principle: သမိုင်းဆိုင်ရာ Topic မည်သည်၏ Convenient Documented Dimension တစ်ခုတည်းကိုသာ ကိုယ်စားပြုခြင်း",
+            "ဤ Pattern သည် ဤနှစ် သင်ကြားခဲ့သော Documented Historical-Thinking Skill မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think back to how each of these weeks insisted on representing more than one side of a documented historical topic.",
+          ],
+          hintsMy: [
+            "ဤ Week များတစ်ခုစီသည် သမိုင်းဆိုင်ရာ Documented Topic တစ်ခု၏ ဘက်တစ်ဘက်ထက်ပို၍ ကိုယ်စားပြုရန် မည်သို့ တောင်းဆိုခဲ့သည်ကို ပြန်စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Weeks 13-14 emphasized checking testimony against other independent sources before trusting it fully. What is this specific documented historical skill called?",
+          questionMy:
+              "Week 13-14 သည် Testimony ကို အပြည့်အဝ မယုံကြည်မီ အခြား Independent Source များနှင့် စစ်ဆေးခြင်းကို အလေးထားခဲ့သည်။ ဤ Specific Documented Historical Skill ကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: [
+            "Corroboration: checking one documented account against other independent sources for shared, confirmed details",
+            "This process has no actual documented name or definition",
+            "Isolation: accepting a single documented account with no further checking",
+            "This skill is unrelated to any documented evidence-evaluation habit taught this year",
+          ],
+          optionsMy: [
+            "Corroboration: Shared, Confirmed Detail များအတွက် Documented Account တစ်ခုကို အခြား Independent Source များနှင့် စစ်ဆေးခြင်း",
+            "ဤ Process တွင် Actual Documented Name (သို့) Definition မရှိခြင်း",
+            "Isolation: ထပ်ဆောင်း စစ်ဆေးမှု မရှိဘဲ Documented Account တစ်ခုတည်းကို လက်ခံခြင်း",
+            "ဤ Skill သည် ဤနှစ် သင်ကြားခဲ့သော Documented Evidence-Evaluation Habit မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same term used since Secondary 1's Term 1 and reinforced in Weeks 13-14 this year.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Term 1 မှစ၍ အသုံးပြုခဲ့ပြီး ဤနှစ် Week 13-14 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Term တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Historical Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Historical Skills Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w33-dm-1",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "Explaining historical change through several documented factors working together",
+          matchMy:
+              "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှတစ်ဆင့် သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ရှင်းပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w33-dm-2",
+          termEn: "Balanced account",
+          termMy: "Balanced Account",
+          matchEn:
+              "Representing every major documented dimension of a topic fairly, not only the convenient one",
+          matchMy:
+              "Convenient တစ်ခုတည်းမဟုတ်ဘဲ Topic တစ်ခု၏ Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w33-dm-3",
+          termEn: "Corroboration",
+          termMy: "Corroboration",
+          matchEn:
+              "Checking one documented account against other independent sources",
+          matchMy:
+              "Documented Account တစ်ခုကို အခြား Independent Source များနှင့် စစ်ဆေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w33-dm-4",
+          termEn: "Specific citation",
+          termMy: "Specific Citation",
+          matchEn:
+              "Naming precise documented dates, figures, and events rather than vague generalizations",
+          matchMy:
+              "Vague Generalization များအစား Precise Documented Date များ, Figure များနှင့် Event များ အမည်တပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Skill Applies?",
+      titleMy: "စီစစ်ကြမည် - ဘယ် Skill သက်ဆိုင်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Multi-Causation", "Balanced Account"],
+        bucketsMy: ["Multi-Causation", "Balanced Account"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w33-sort-1",
+            labelEn:
+                "Citing coal, capital, labor, and existing mill technology together for industrialization",
+            labelMy:
+                "Industrialization အတွက် ကျောက်မီးသွေး, Capital, Labor နှင့် ရှိပြီးသား Mill Technology ကို အတူတကွ Cite ပြုလုပ်ခြင်း",
+            correctBucketEn: "Multi-Causation",
+            correctBucketMy: "Multi-Causation",
+          ),
+          SortingItem(
+            id: "sec2hum-w33-sort-2",
+            labelEn:
+                "Representing both colonial harm and colonized peoples' resistance",
+            labelMy:
+                "Colonial Harm နှင့် ကိုလိုနီဖြစ်ခဲ့ရသော လူများ၏ Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုခြင်း",
+            correctBucketEn: "Balanced Account",
+            correctBucketMy: "Balanced Account",
+          ),
+          SortingItem(
+            id: "sec2hum-w33-sort-3",
+            labelEn:
+                "Citing taxation disputes, trade restrictions, and Enlightenment ideas together",
+            labelMy:
+                "Taxation ငြင်းခုံမှု, Trade Restriction များနှင့် Enlightenment Idea များကို အတူတကွ Cite ပြုလုပ်ခြင်း",
+            correctBucketEn: "Multi-Causation",
+            correctBucketMy: "Multi-Causation",
+          ),
+          SortingItem(
+            id: "sec2hum-w33-sort-4",
+            labelEn:
+                "Checking who actually received extended rights, not just celebrating the outcome",
+            labelMy:
+                "Outcome ကို ချီးကျူးရုံသာမက ချဲ့ထွင်ပေးသော Right များ ရရှိခဲ့သူ Actual မည်သူများကို စစ်ဆေးခြင်း",
+            correctBucketEn: "Balanced Account",
+            correctBucketMy: "Balanced Account",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ye Min's Year-in-Review Notes",
+      titleMy: "စာဖတ်ခြင်း - Ye Min ၏ Year-In-Review Notes",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ye Min's Year-in-Review Notes",
+        titleMy: "Ye Min ၏ Year-In-Review Notes",
+        passageEn:
+            "For Week 33's assignment, Ye Min was asked to identify the historical-thinking skills that reappeared most often across this year's terms, rather than simply listing topics term by term.\n\nHe traced multi-causation first: Term 1's exploration motives, Term 3's colonialism, Term 4's abolition, Term 6's industrialization, and Term 7's revolutions had all been explained through several documented factors working together, never a single cause alone. He then traced the balanced-account principle: Week 11's colonial impact, Week 15's abolition causes, Week 23's factory-era social impact, and Weeks 26-27's revolution outcomes had all required representing every major documented dimension fairly, including dimensions that were less convenient or celebratory.\n\nFinally, he traced corroboration back to Weeks 13-14's work on survivor testimony, noting that checking one account against other independent documented sources was the same discipline established all the way back in Secondary 1's Term 1. His teacher praised the notes for recognizing that this year's terms were not simply nine separate, unconnected topics, but nine applications of the same small set of documented historical-thinking skills, each reinforced in a new historical context.",
+        passageMy:
+            "Week 33 ၏ Assignment အတွက် Topic များကို Term အလိုက် ရိုးရိုး List ပြုလုပ်မည့်အစား ဤနှစ်၏ Term များတစ်လျှောက် အများဆုံး ထပ်ခါထပ်ခါ ပေါ်ပေါက်ခဲ့သော Historical-Thinking Skill များကို ဖော်ထုတ်ရန် Ye Min အား တောင်းဆိုခဲ့သည်။\n\nMulti-Causation ကို ဦးစွာ ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Term 1 ၏ Exploration Motive များ, Term 3 ၏ Colonialism, Term 4 ၏ Abolition, Term 6 ၏ Industrialization နှင့် Term 7 ၏ Revolution များ အားလုံးကို Cause တစ်ခုတည်းမဟုတ်ဘဲ အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှတစ်ဆင့် ရှင်းပြခဲ့သည်။ ထို့နောက် Balanced-Account Principle ကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Week 11 ၏ Colonial Impact, Week 15 ၏ Abolition Cause များ, Week 23 ၏ Factory-ခေတ် Social Impact နှင့် Week 26-27 ၏ Revolution Outcome များ အားလုံးသည် Convenient (သို့) Celebratory နည်းသော Dimension များ အပါအဝင် Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုရန် လိုအပ်ခဲ့သည်။\n\nနောက်ဆုံးတွင် Survivor Testimony အပေါ် Week 13-14 ၏ အလုပ်သို့ Corroboration ကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့ပြီး Account တစ်ခုကို အခြား Independent Documented Source များနှင့် စစ်ဆေးခြင်းသည် Secondary 1 ၏ Term 1 အထိ ပြန်လည် တည်ထောင်ခဲ့သော Discipline တူတူ ဖြစ်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။ ဤနှစ်၏ Term များသည် Separate, Unconnected Topic ကိုးခုတည်းမဟုတ်ဘဲ Documented Historical-Thinking Skill Set သေးငယ်တူတူ၏ Application ကိုးခု ဖြစ်ကြောင်း, တစ်ခုစီသည် Historical Context အသစ်တစ်ခုတွင် ထပ်မံ အားဖြည့်ထားကြောင်း အသိအမှတ်ပြုသောကြောင့် Notes ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which terms did Ye Min cite as examples of multi-causation?",
+            questionMy:
+                "Multi-Causation ၏ ဥပမာများအဖြစ် Ye Min Cite ပြုလုပ်ခဲ့သော Term များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Terms 1, 3, 4, 6, and 7",
+              "No terms of any kind",
+              "Only Term 5 and Term 8",
+              "Terms entirely unrelated to multi-causation",
+            ],
+            optionsMy: [
+              "Term 1, 3, 4, 6 နှင့် 7",
+              "Term မည်သည် အမျိုးအစားမှ",
+              "Term 5 နှင့် Term 8 သာ",
+              "Multi-Causation နှင့် လုံးလုံး မသက်ဆိုင်သော Term များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited terms."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Term များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the balanced-account principle require?",
+            questionMy:
+                "Balanced-Account Principle လိုအပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Representing every major documented dimension fairly, including less convenient ones",
+              "Representing only the most convenient documented dimension",
+              "No documented representation of any kind",
+              "Ignoring every dimension that was not celebratory",
+            ],
+            optionsMy: [
+              "Convenient နည်းသော Dimension များ အပါအဝင် Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+              "Convenient ဆုံး Documented Dimension တစ်ခုတည်းကိုသာ ကိုယ်စားပြုခြင်း",
+              "Documented Representation မည်သည် အမျိုးအစားမှ",
+              "Celebratory မဟုတ်သော Dimension တိုင်းကို လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated requirement."],
+            hintsMy: [
+              "ဖော်ပြထားသော Requirement ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how far back does the corroboration discipline trace?",
+            questionMy:
+                "Corroboration Discipline မည်မျှ နောက်ကြောင်းသို့ လိုက်လံ ဖော်ထုတ်ကြောင်း စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "All the way back to Secondary 1's Term 1",
+              "It has no documented origin of any kind",
+              "Only to this year's Week 13",
+              "It is unrelated to any earlier documented term",
+            ],
+            optionsMy: [
+              "Secondary 1 ၏ Term 1 အထိ",
+              "Documented Origin မည်သည် အမျိုးအစားမှ",
+              "ဤနှစ် Week 13 တစ်ခုတည်းသို့သာ",
+              "ယခင် Documented Term မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated origin."],
+            hintsMy: ["ဖော်ပြထားသော Origin ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w33-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Historical Skills Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Historical Skills မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Multi-causation means explaining historical change through...",
+          questionMy:
+              "Multi-Causation ဆိုသည်မှာ ...မှတစ်ဆင့် သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကို ရှင်းပြခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Several documented factors working together",
+            "A single documented factor alone",
+            "No documented factor of any kind",
+            "Factors unrelated to any documented evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာ",
+            "Documented Factor တစ်ခုတည်း",
+            "Documented Factor မည်သည် အမျိုးအစားမှ",
+            "Documented Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced account represents...",
+          questionMy: "Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Every major documented dimension fairly",
+            "Only the most convenient documented dimension",
+            "No documented dimension of any kind",
+            "Only celebratory dimensions with no other perspective",
+          ],
+          optionsMy: [
+            "Major Documented Dimension တိုင်းကို တရားမျှတစွာ",
+            "Convenient ဆုံး Documented Dimension တစ်ခုတည်းကိုသာ",
+            "Documented Dimension မည်သည် အမျိုးအစားမှ",
+            "အခြား Perspective မပါဘဲ Celebratory Dimension များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Corroboration means checking a documented account against...",
+          questionMy:
+              "Corroboration ဆိုသည်မှာ Documented Account တစ်ခုကို ...နှင့် စစ်ဆေးခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Other independent documented sources",
+            "Nothing -- a single account is always sufficient",
+            "No documented source of any kind",
+            "Sources unrelated to the account being checked",
+          ],
+          optionsMy: [
+            "အခြား Independent Documented Source များ",
+            "ဘာမှ -- Account တစ်ခုတည်းသည် အမြဲ လုံလောက်ခြင်း",
+            "Documented Source မည်သည် အမျိုးအစားမှ",
+            "စစ်ဆေးနေသော Account နှင့် မသက်ဆိုင်သော Source များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 9, Week 34: "Geographic Skills Review"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek34 = CourseWeekDef(
+  id: "course-sec2-hum-w34",
+  weekNumber: 34,
+  titleEn: "Geographic Skills Review",
+  titleMy: "Geographic Skills ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w34-d1",
+      dayNumber: 1,
+      titleEn: "The Year's Geographic Habits",
+      titleMy: "ဤနှစ်၏ Geographic အလေ့အထများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Week 17's river-landform labeling, Week 21's cause-checking, and Week 29's density claims all required checking a claim against specific documented characteristics or data rather than a vague general description. What single skill does this reflect?",
+          questionMy:
+              "Week 17 ၏ River-Landform Labeling, Week 21 ၏ Cause-Checking နှင့် Week 29 ၏ Density Claim များ အားလုံးသည် Vague General ဖော်ပြချက်တစ်ခုအစား Specific Documented Characteristic (သို့) Data နှင့် Claim တစ်ခုကို စစ်ဆေးရန် လိုအပ်ခဲ့သည်။ ဤသည်က Skill တစ်ခုတည်းကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "Specific-evidence-over-vague-generalization: checking claims against precise, documented characteristics or data before accepting them",
+            "This pattern reflects no actual documented skill of any kind",
+            "Vague-generalization-over-specific-evidence: preferring vague description over precise, documented data",
+            "This pattern is unrelated to any documented geographic-thinking skill taught this year",
+          ],
+          optionsMy: [
+            "Specific-Evidence-Over-Vague-Generalization: Claim များကို လက်ခံမီ Precise, Documented Characteristic (သို့) Data နှင့် စစ်ဆေးခြင်း",
+            "ဤ Pattern သည် Actual Documented Skill မည်သည်ကိုမျှ မထင်ဟပ်ခြင်း",
+            "Vague-Generalization-Over-Specific-Evidence: Precise, Documented Data ထက် Vague ဖော်ပြချက်ကို ပိုနှစ်သက်ခြင်း",
+            "ဤ Pattern သည် ဤနှစ် သင်ကြားခဲ့သော Documented Geographic-Thinking Skill မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same principle from Term 1's historical citation discipline, applied across every geography week this year.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤနှစ် Geography Week တိုင်းတွင် အသုံးချထားသော Term 1 ၏ Historical Citation Discipline မှ Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Week 18's agriculture, Week 19's trade networks, Week 20's settlement siting, Week 22's factory location, and Week 30's migration factors all built directly on Week 17's river-geography content rather than treating each topic in isolation. What does this reflect about how geography content develops across a course?",
+          questionMy:
+              "Week 18 ၏ Agriculture, Week 19 ၏ Trade Network များ, Week 20 ၏ Settlement Siting, Week 22 ၏ Factory Location နှင့် Week 30 ၏ Migration Factor များ အားလုံးသည် Topic တစ်ခုစီကို Isolation တွင် သဘောထားမည့်အစား Week 17 ၏ River-Geography Content ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ခဲ့သည်။ ဤသည်က Course တစ်ခုတစ်လျှောက် Geography Content မည်သို့ တိုးတက်သည်ကို ထင်ဟပ်သနည်း။",
+          optionsEn: [
+            "Geography content builds cumulatively -- later topics connect back to and apply earlier documented principles rather than starting fresh each time",
+            "Geography topics are documented as always completely isolated from each other with no connection",
+            "Geography content never actually builds on earlier documented principles",
+            "This pattern is unrelated to how any documented geography course develops",
+          ],
+          optionsMy: [
+            "Geography Content သည် Cumulatively တည်ဆောက်သည် -- Topic နောက်ပိုင်းများသည် အချိန်တိုင်း အသစ် မစတင်ဘဲ ယခင် Documented Principle များသို့ ပြန်လည် ချိတ်ဆက်ကာ အသုံးချသည်",
+            "Geography Topic များကို တစ်ခုနှင့်တစ်ခု ဆက်နွယ်မှု မရှိဘဲ အမြဲ လုံးလုံး Isolated ဖြစ်ကြောင်း Document ပြုလုပ်ထားသည်",
+            "Geography Content သည် ယခင် Documented Principle များပေါ်တွင် ဘယ်တော့မှ Actual မတည်ဆောက်ခြင်း",
+            "ဤ Pattern သည် Documented Geography Course မည်သည် မည်သို့ တိုးတက်သည်နှင့် မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace how many later geography weeks explicitly referenced back to Week 17's river-geography foundations.",
+          ],
+          hintsMy: [
+            "Geography Week နောက်ပိုင်းများ Week 17 ၏ River-Geography Foundation များသို့ ရှင်းလင်းစွာ ရည်ညွှန်းခဲ့သည့် အရေအတွက်ကို လိုက်လံ ဖော်ထုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Week 23 and Week 31 both required representing both documented benefits and documented challenges of urbanization, rather than only one side. What is this specific documented skill called?",
+          questionMy:
+              "Week 23 နှင့် Week 31 နှစ်ခုစလုံးသည် ဘက်တစ်ဘက်တည်းမဟုတ်ဘဲ Urbanization ၏ Documented Benefit နှင့် Documented Challenge နှစ်ခုစလုံးကို ကိုယ်စားပြုရန် လိုအပ်ခဲ့သည်။ ဤ Specific Documented Skill ကို ဘာဟု ခေါ်သနည်း။",
+          optionsEn: [
+            "The balanced-account principle, the same skill applied across historical topics this year, now applied to geographic social-impact topics",
+            "This process has no actual documented name or definition",
+            "The single-dimension principle: representing only documented benefits with no challenge",
+            "This skill is unrelated to any documented evidence-evaluation habit taught this year",
+          ],
+          optionsMy: [
+            "Balanced-Account Principle, ဤနှစ် သမိုင်းဆိုင်ရာ Topic များတစ်လျှောက် အသုံးချထားသော Skill တူတူ, ယခု Geographic Social-Impact Topic များပေါ်တွင် အသုံးချခြင်း",
+            "ဤ Process တွင် Actual Documented Name (သို့) Definition မရှိခြင်း",
+            "Single-Dimension Principle: Challenge မပါဘဲ Documented Benefit များကိုသာ ကိုယ်စားပြုခြင်း",
+            "ဤ Skill သည် ဤနှစ် သင်ကြားခဲ့သော Documented Evidence-Evaluation Habit မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account skill from Week 33's historical review, now shown to apply to geography topics too.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33 ၏ Historical Review မှ Balanced-Account Skill တူတူဖြစ်ပြီး ယခု Geography Topic များတွင်လည်း အသုံးချကြောင်း ပြသသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Geographic Skills Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Geographic Skills Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w34-dm-1",
+          termEn: "Cumulative geography",
+          termMy: "Cumulative Geography",
+          matchEn:
+              "Later geographic topics building on and connecting back to earlier documented principles",
+          matchMy:
+              "ယခင် Documented Principle များသို့ တည်ဆောက်ကာ ပြန်လည် ချိတ်ဆက်ထားသော Geographic Topic နောက်ပိုင်းများ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w34-dm-2",
+          termEn: "Multi-factor decision",
+          termMy: "Multi-Factor Decision",
+          matchEn:
+              "A geographic choice, such as settlement siting, combining several documented factors together",
+          matchMy:
+              "Documented Factor များစွာ ပေါင်းစပ်ထားသော Geographic Choice, Settlement Siting ကဲ့သို့",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w34-dm-3",
+          termEn: "Balanced urbanization account",
+          termMy: "Balanced Urbanization Account",
+          matchEn:
+              "Representing both documented benefits and documented challenges of urbanization fairly",
+          matchMy:
+              "Urbanization ၏ Documented Benefit နှင့် Documented Challenge နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w34-dm-4",
+          termEn: "Specific documented data",
+          termMy: "Specific Documented Data",
+          matchEn:
+              "Precise, cited figures or characteristics rather than vague geographic generalizations",
+          matchMy:
+              "Vague Geographic Generalization များအစား Precise, Cite ပြုလုပ်ထားသော Figure (သို့) Characteristic",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Does This Trace Back To?",
+      titleMy: "စီစစ်ကြမည် - ဤသည် ဘယ် Term သို့ လိုက်လံ ချိတ်ဆက်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Traces Back to Term 5 (Rivers)",
+          "Traces Back to Term 6 (Industrial)",
+        ],
+        bucketsMy: [
+          "Term 5 (Rivers) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          "Term 6 (Industrial) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w34-sort-1",
+            labelEn:
+                "Population density explained by fertile floodplain soil and water access",
+            labelMy:
+                "Fertile Floodplain Soil နှင့် Water ရရှိမှုဖြင့် ရှင်းပြထားသော Population Density",
+            correctBucketEn: "Traces Back to Term 5 (Rivers)",
+            correctBucketMy: "Term 5 (Rivers) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w34-sort-2",
+            labelEn:
+                "Migration push-pull factors driving rural-to-urban movement for factory work",
+            labelMy:
+                "Factory အလုပ်အတွက် Rural-To-Urban Movement ကို ဖြစ်ပေါ်စေသော Migration Push-Pull Factor များ",
+            correctBucketEn: "Traces Back to Term 6 (Industrial)",
+            correctBucketMy: "Term 6 (Industrial) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w34-sort-3",
+            labelEn: "A water-powered mill built along a flowing river",
+            labelMy:
+                "စီးဆင်းနေသော River တစ်လျှောက် တည်ဆောက်ထားသော Water-Powered Mill",
+            correctBucketEn: "Traces Back to Term 5 (Rivers)",
+            correctBucketMy: "Term 5 (Rivers) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w34-sort-4",
+            labelEn:
+                "Urbanization trends showing continued growth in urban population share",
+            labelMy:
+                "Urban Population Share ၏ ဆက်လက် ကြီးထွားမှု ပြသသော Urbanization Trend များ",
+            correctBucketEn: "Traces Back to Term 6 (Industrial)",
+            correctBucketMy: "Term 6 (Industrial) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Geography Skills Map",
+      titleMy: "စာဖတ်ခြင်း - Thiri ၏ Geography Skills Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Geography Skills Map",
+        titleMy: "Thiri ၏ Geography Skills Map",
+        passageEn:
+            "For Week 34's assignment, Thiri built a map tracing how this year's geography content connected across terms, rather than treating Term 5's rivers and Term 8's population as unrelated units.\n\nShe started at Week 17's river-landform work and traced its influence forward: Week 18's agriculture depended on floodplain soil fertility, Week 19's water mills required river access, Week 20's settlement siting combined both, Week 22's factory location was defined by its freedom from that same river constraint, and Week 29's population density directly echoed the same soil-and-water logic. She labeled this a cumulative pattern -- later topics building on and connecting back to earlier documented principles rather than starting fresh each time.\n\nShe then traced a second skill: the balanced-account principle appearing in Week 23's factory-era social impact and again in Week 31's urbanization trends, both requiring documented benefits and documented challenges to be represented together. Her teacher praised the map for showing that this course's geography strand was not nine separate topics but one connected body of knowledge, built up skill by skill and term by term, the same insight Week 33 had reached for the history strand.",
+        passageMy:
+            "Week 34 ၏ Assignment အတွက် Term 5 ၏ River များနှင့် Term 8 ၏ Population ကို Unrelated Unit များအဖြစ် သဘောထားမည့်အစား ဤနှစ်၏ Geography Content Term များတစ်လျှောက် မည်သို့ ချိတ်ဆက်သည်ကို လိုက်လံ ဖော်ထုတ်ကာ Map တစ်ခု Thiri တည်ဆောက်ခဲ့သည်။\n\nWeek 17 ၏ River-Landform အလုပ်တွင် ၎င်း စတင်ခဲ့ပြီး ၎င်း၏ Influence ကို ရှေ့ဆက် လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Week 18 ၏ Agriculture သည် Floodplain Soil Fertility ပေါ်တွင် မှီခိုခဲ့ပြီး Week 19 ၏ Water Mill များသည် River ရရှိမှု လိုအပ်ခဲ့ကာ Week 20 ၏ Settlement Siting သည် နှစ်ခုစလုံးကို ပေါင်းစပ်ခဲ့ပြီး Week 22 ၏ Factory Location ကို ထို River Constraint တူတူမှ ၎င်း၏ Freedom ဖြင့် သတ်မှတ်ခဲ့ကာ Week 29 ၏ Population Density သည် Soil-And-Water Logic တူတူကို တိုက်ရိုက် ထပ်ကြားခဲ့သည်။ ၎င်းသည် ဤသည်ကို Cumulative Pattern တစ်ခုအဖြစ် Label တပ်ခဲ့သည် -- Topic နောက်ပိုင်းများသည် အချိန်တိုင်း အသစ် မစတင်ဘဲ ယခင် Documented Principle များသို့ တည်ဆောက်ကာ ပြန်လည် ချိတ်ဆက်သည်။\n\nSkill ဒုတိယတစ်ခုကို ၎င်း ထပ်မံ လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Balanced-Account Principle သည် Week 23 ၏ Factory-ခေတ် Social Impact တွင်နှင့် Week 31 ၏ Urbanization Trend များတွင် ထပ်မံ ပေါ်ပေါက်ခဲ့ပြီး နှစ်ခုစလုံးသည် Documented Benefit များနှင့် Documented Challenge များကို အတူတကွ ကိုယ်စားပြုရန် လိုအပ်ခဲ့သည်။ ဤ Course ၏ Geography Strand သည် Separate Topic ကိုးခုမဟုတ်ဘဲ Skill By Skill နှင့် Term By Term တည်ဆောက်ထားသော Connected Body Of Knowledge တစ်ခု ဖြစ်ကြောင်း ပြသသောကြောင့် Map ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး History Strand အတွက် Week 33 ရောက်ရှိခဲ့သော Insight တူတူ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiri find Week 22's factory location was defined by?",
+            questionMy:
+                "Week 22 ၏ Factory Location ကို ဘာက Define ပြုလုပ်ကြောင်း Thiri တွေ့ရှိခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its freedom from the river constraint studied in Week 17",
+              "No documented connection to any earlier week",
+              "A constraint entirely unrelated to river geography",
+              "Requiring an even stricter river-location constraint",
+            ],
+            optionsMy: [
+              "Week 17 တွင် လေ့လာခဲ့သော River Constraint မှ ၎င်း၏ Freedom",
+              "ယခင် Week မည်သည်နှင့်မျှ Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "River Geography နှင့် လုံးလုံး မသက်ဆိုင်သော Constraint",
+              "ပို၍ တင်းကျပ်သော River-Location Constraint လိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, which two weeks did Thiri cite for the balanced-account principle?",
+            questionMy:
+                "Balanced-Account Principle အတွက် Thiri Cite ပြုလုပ်ခဲ့သော Week နှစ်ခုကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Week 23 and Week 31",
+              "No week of any kind",
+              "Only Week 17 and Week 18",
+              "Weeks entirely unrelated to the balanced-account principle",
+            ],
+            optionsMy: [
+              "Week 23 နှင့် Week 31",
+              "Week မည်သည် အမျိုးအစားမှ",
+              "Week 17 နှင့် Week 18 သာ",
+              "Balanced-Account Principle နှင့် လုံးလုံး မသက်ဆိုင်သော Week များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's cited weeks."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Week များကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Thiri's teacher praise the map for showing?",
+            questionMy:
+                "Map ပြသခဲ့သည့်အရာအတွက် Thiri ၏ ဆရာ ချီးမွမ်းခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the geography strand was one connected body of knowledge, not nine separate topics",
+              "That every geography topic was completely isolated from every other topic",
+              "That the geography strand had no actual documented connection across terms",
+              "That geography content never builds on earlier documented principles",
+            ],
+            optionsMy: [
+              "Geography Strand သည် Separate Topic ကိုးခုမဟုတ်ဘဲ Connected Body Of Knowledge တစ်ခု ဖြစ်ကြောင်း",
+              "Geography Topic တိုင်းသည် အခြား Topic တိုင်းနှင့် လုံးလုံး Isolated ဖြစ်ကြောင်း",
+              "Geography Strand တွင် Term များတစ်လျှောက် Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+              "Geography Content သည် ယခင် Documented Principle များပေါ်တွင် ဘယ်တော့မှ မတည်ဆောက်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w34-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Geographic Skills Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Geographic Skills မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Geography content across this year is documented as...",
+          questionMy:
+              "ဤနှစ်တစ်လျှောက် Geography Content ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Cumulative, with later topics building on earlier principles",
+            "Completely isolated, with no connection between topics",
+            "Unrelated to any documented earlier content",
+            "Random, with no traceable documented pattern",
+          ],
+          optionsMy: [
+            "Cumulative ဖြစ်ပြီး Topic နောက်ပိုင်းများသည် ယခင် Principle များပေါ်တွင် တည်ဆောက်ခြင်း",
+            "Topic များကြား ဆက်နွယ်မှု မရှိဘဲ လုံးလုံး Isolated ဖြစ်ခြင်း",
+            "ယခင် Documented Content မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "Traceable Documented Pattern မရှိဘဲ Random ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The balanced-account principle applies to...",
+          questionMy: "Balanced-Account Principle သည် ...တွင် အသုံးချသည်",
+          optionsEn: [
+            "Both historical and geographic topics this year",
+            "Only historical topics, never geographic ones",
+            "Only geographic topics, never historical ones",
+            "Neither historical nor geographic topics",
+          ],
+          optionsMy: [
+            "ဤနှစ် Historical နှင့် Geographic Topic နှစ်ခုစလုံး",
+            "Historical Topic များကိုသာ, Geographic များကို ဘယ်တော့မှ",
+            "Geographic Topic များကိုသာ, Historical များကို ဘယ်တော့မှ",
+            "Historical (သို့) Geographic Topic မည်သည်ကိုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Checking a claim against specific documented data rather than vague description is called...",
+          questionMy:
+              "Vague ဖော်ပြချက်တစ်ခုအစား Specific Documented Data နှင့် Claim တစ်ခုကို စစ်ဆေးခြင်းကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Specific-evidence-over-vague-generalization",
+            "Vague-generalization-over-specific-evidence",
+            "A skill unrelated to any documented evidence",
+            "A process with no documented name of any kind",
+          ],
+          optionsMy: [
+            "Specific-Evidence-Over-Vague-Generalization",
+            "Vague-Generalization-Over-Specific-Evidence",
+            "Documented Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်သော Skill",
+            "Documented Name မည်သည် အမျိုးအစားမှ မပါသော Process",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 9, Week 35: "Building the Exhibition
+// Project"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek35 = CourseWeekDef(
+  id: "course-sec2-hum-w35",
+  weekNumber: 35,
+  titleEn: "Building the Exhibition Project",
+  titleMy: "Exhibition Project တည်ဆောက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w35-d1",
+      dayNumber: 1,
+      titleEn: "Choosing and Planning an Exhibition Topic",
+      titleMy: "Exhibition Topic ရွေးချယ်ခြင်းနှင့် စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For the final exhibition, a student must choose one history topic and one geography topic from this year and apply the full set of documented evidence standards (multi-causation, balanced account, specific citation, corroboration where relevant) to each. Why require the full standard set rather than just one skill?",
+          questionMy:
+              "နောက်ဆုံး Exhibition အတွက် Student တစ်ဦးသည် ဤနှစ်မှ History Topic တစ်ခုနှင့် Geography Topic တစ်ခုကို ရွေးချယ်ကာ Documented Evidence Standard အပြည့်အစုံ (Multi-Causation, Balanced Account, Specific Citation, သက်ဆိုင်ရာ Corroboration) ကို တစ်ခုစီအပေါ် အသုံးချရမည်။ Skill တစ်ခုတည်းသာ အစား Standard Set အပြည့်အစုံ အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "This exhibition is designed to demonstrate mastery of every documented evidence skill built across the year together, not just one isolated habit -- reflecting genuine command of the full toolkit",
+            "A single documented skill is always sufficient to demonstrate a full year of learning",
+            "The full standard set has no actual documented value in a final exhibition project",
+            "Combining multiple documented skills together has no actual value in demonstrating learning",
+          ],
+          optionsMy: [
+            "ဤ Exhibition သည် Isolated Habit တစ်ခုတည်းသာမက ဤနှစ်တစ်လျှောက် အတူတကွ တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း၏ Mastery ကို သရုပ်ပြရန် Design ပြုလုပ်ထားသည် -- Toolkit အပြည့်အစုံ၏ Genuine Command ကို ထင်ဟပ်သည်",
+            "Documented Skill တစ်ခုတည်းသည် နှစ်တစ်နှစ်လုံး၏ Learning ကို သရုပ်ပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Standard Set အပြည့်အစုံတွင် Final Exhibition Project ၌ Actual Documented Value မရှိခြင်း",
+            "Documented Skill များစွာ ပေါင်းစပ်ခြင်းတွင် Learning သရုပ်ပြရာ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines every skill identified in Week 33 (history) and Week 34 (geography) into one final project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33 (History) နှင့် Week 34 (Geography) တွင် ဖော်ထုတ်ခဲ့သော Skill တိုင်းကို Final Project တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a student planning their exhibition topic choose a specific, narrow documented topic (e.g., 'the documented causes of the French Revolution') rather than an extremely broad, vague one (e.g., 'European history')?",
+          questionMy:
+              "Exhibition Topic စီစဉ်နေသော Student တစ်ဦးသည် Extremely Broad, Vague Topic (ဥပမာ, 'European History') တစ်ခုအစား Specific, Narrow Documented Topic (ဥပမာ, 'French Revolution ၏ Documented Cause များ') တစ်ခုကို အဘယ်ကြောင့် ရွေးချယ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, narrow topic allows genuine depth of documented evidence and precise citation, the same specific-over-vague habit taught since Term 1, rather than shallow coverage of an unmanageably broad subject",
+            "A broad, vague topic is always easier to research thoroughly with specific documented evidence",
+            "Specific, narrow documented topics have no actual value in exhibition planning",
+            "Topic scope has no actual connection to the depth of documented evidence a project can achieve",
+          ],
+          optionsMy: [
+            "Specific, Narrow Topic တစ်ခုသည် Manageable မဟုတ်သော Broad Subject တစ်ခု၏ Shallow Coverage အစား Genuine Documented Evidence Depth နှင့် Precise Citation ကို ခွင့်ပြုသည်, Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်",
+            "Broad, Vague Topic တစ်ခုသည် Specific Documented Evidence ဖြင့် အမြဲ ပို၍ လွယ်ကူစွာ Research ပြုလုပ်နိုင်ခြင်း",
+            "Specific, Narrow Documented Topic များတွင် Exhibition Planning ၌ Actual Value မရှိခြင်း",
+            "Topic Scope သည် Project တစ်ခု ရရှိနိုင်သော Documented Evidence ၏ Depth နှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-over-vague habit applied to topic selection itself, not just individual claims within a project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Project တစ်ခုအတွင်း Individual Claim များတစ်ခုတည်းသာမက Topic Selection ကိုယ်တိုင်ပေါ်တွင် အသုံးချထားသော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students planning to connect their history and geography topics (e.g., linking Term 6's Industrial Revolution to Term 8's urbanization) check that the connection is genuinely documented, rather than simply asserting a connection exists?",
+          questionMy:
+              "History နှင့် Geography Topic များကို ချိတ်ဆက်ရန် စီစဉ်နေသော Student များသည် (ဥပမာ, Term 6 ၏ Industrial Revolution ကို Term 8 ၏ Urbanization နှင့် ချိတ်ဆက်ခြင်း) ချိတ်ဆက်မှု တည်ရှိကြောင်း ရိုးရိုး Assert ပြုလုပ်မည့်အစား ချိတ်ဆက်မှု Genuinely Documented ဖြစ်မဖြစ် အဘယ်ကြောင့် စစ်ဆေးသင့်ရသနည်း။",
+          optionsEn: [
+            "An asserted but unverified connection is not the same as a documented one, so checking the connection against actual course evidence maintains the same evidence-based rigor applied throughout the year",
+            "Any asserted connection between topics is always automatically documented and accurate",
+            "Connections between history and geography topics should never actually be checked against evidence",
+            "Checking a connection against documented evidence has no actual value in exhibition work",
+          ],
+          optionsMy: [
+            "Assert ပြုလုပ်ထားသော်လည်း Unverified ချိတ်ဆက်မှုသည် Documented တစ်ခုနှင့် မတူဘဲ Actual Course Evidence နှင့် ချိတ်ဆက်မှုကို စစ်ဆေးခြင်းသည် နှစ်တစ်လျှောက် အသုံးချထားသော Evidence-Based Rigor တူတူကို ထိန်းသိမ်းသည်",
+            "Topic များကြား Assert ပြုလုပ်ထားသော ချိတ်ဆက်မှု မည်သည်ကိုမဆို အမြဲ အလိုအလျောက် Documented ဖြစ်ပြီး တိကျသည်",
+            "History နှင့် Geography Topic များကြား ချိတ်ဆက်မှုများကို Evidence နှင့် ဘယ်တော့မှ Actual မစစ်ဆေးသင့်ခြင်း",
+            "Documented Evidence နှင့် ချိတ်ဆက်မှုတစ်ခုကို စစ်ဆေးခြင်းတွင် Exhibition Work ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same evidence-checking discipline from Term 1, now applied to verifying cross-topic connections themselves.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Cross-Topic ချိတ်ဆက်မှု ကိုယ်တိုင်ကို အတည်ပြုရန် ယခု အသုံးချထားသော Term 1 မှ Evidence-Checking Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exhibition Planning Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Exhibition Planning Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w35-dm-1",
+          termEn: "Full standard set",
+          termMy: "Full Standard Set",
+          matchEn:
+              "Every documented evidence skill built across the year, applied together in one project",
+          matchMy:
+              "Project တစ်ခုတွင် အတူတကွ အသုံးချထားသော နှစ်တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w35-dm-2",
+          termEn: "Narrow, specific topic",
+          termMy: "Narrow, Specific Topic",
+          matchEn:
+              "A focused documented subject allowing genuine depth rather than shallow, broad coverage",
+          matchMy:
+              "Shallow, Broad Coverage အစား Genuine Depth ခွင့်ပြုသော Focused Documented Subject",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w35-dm-3",
+          termEn: "Verified cross-topic connection",
+          termMy: "Verified Cross-Topic Connection",
+          matchEn:
+              "A link between history and geography topics checked against actual documented evidence",
+          matchMy:
+              "Actual Documented Evidence နှင့် စစ်ဆေးထားသော History နှင့် Geography Topic များကြား Link",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w35-dm-4",
+          termEn: "Exhibition topic",
+          termMy: "Exhibition Topic",
+          matchEn:
+              "A student's chosen focus for the final capstone, drawn from this year's documented content",
+          matchMy:
+              "ဤနှစ်၏ Documented Content မှ ရယူထားသော Final Capstone အတွက် Student ရွေးချယ်ထားသော Focus",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Topic Choice or Needs Revision?",
+      titleMy: "စီစစ်ကြမည် - Topic Choice ကောင်းသည် (သို့) Revision လိုအပ်သည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Exhibition Topic Choice", "Needs Revision"],
+        bucketsMy: ["Exhibition Topic Choice ကောင်းသည်", "Revision လိုအပ်သည်"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w35-sort-1",
+            labelEn:
+                "The documented causes of Britain's Industrial Revolution, specifically",
+            labelMy:
+                "Britain ၏ Industrial Revolution ၏ Documented Cause များ, Specifically",
+            correctBucketEn: "Good Exhibition Topic Choice",
+            correctBucketMy: "Exhibition Topic Choice ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w35-sort-2",
+            labelEn: "All of world history, described in vague general terms",
+            labelMy:
+                "Vague General Term များဖြင့် ဖော်ပြထားသော ကမ္ဘာ့သမိုင်း အားလုံး",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "Revision လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w35-sort-3",
+            labelEn:
+                "Population density patterns in a specific documented river valley region",
+            labelMy:
+                "Specific Documented River Valley Region ရှိ Population Density Pattern များ",
+            correctBucketEn: "Good Exhibition Topic Choice",
+            correctBucketMy: "Exhibition Topic Choice ကောင်းသည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w35-sort-4",
+            labelEn:
+                "A claimed history-geography connection with no documented evidence checked",
+            labelMy:
+                "Documented Evidence စစ်ဆေးခြင်း မရှိသော Claimed History-Geography Connection",
+            correctBucketEn: "Needs Revision",
+            correctBucketMy: "Revision လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Exhibition Plan",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Exhibition Plan",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Exhibition Plan",
+        titleMy: "Su Myat Noe ၏ Exhibition Plan",
+        passageEn:
+            "For Week 35, Su Myat Noe planned her exhibition project, choosing a specific history topic (the documented causes of the French Revolution) and a specific geography topic (population density in a documented river valley region), rather than broad, vague subjects.\n\nHer first draft claimed the two topics were 'connected because they both happened in history,' but her teacher asked her to check that claim against actual documented evidence rather than simply asserting it. Su Myat Noe revised her plan: she noted that while these two specific topics did not have a direct documented historical connection, her course-wide skill of multi-causation applied equally to both, and she planned to demonstrate that shared skill explicitly rather than forcing an unverified topical connection.\n\nFor her history topic, she planned to apply multi-causation (citing France's financial crisis, unequal tax structure, and Enlightenment ideas together) and specific citation (naming the Declaration of the Rights of Man precisely). For her geography topic, she planned specific documented density data and a connection back to Term 5's river-geography principles. Her teacher praised the plan for choosing focused, specific topics, for being honest about what was and was not a genuinely documented connection, and for planning to demonstrate the full set of documented evidence skills built across the year.",
+        passageMy:
+            "Week 35 အတွက် Broad, Vague Subject များအစား Specific History Topic (French Revolution ၏ Documented Cause များ) နှင့် Specific Geography Topic (Documented River Valley Region ရှိ Population Density) ကို ရွေးချယ်ကာ ၎င်း၏ Exhibition Project ကို Su Myat Noe စီစဉ်ခဲ့သည်။\n\nTopic နှစ်ခုသည် 'သမိုင်းတွင် နှစ်ခုစလုံး ဖြစ်ပျက်ခဲ့သောကြောင့် ချိတ်ဆက်နေသည်' ဟု ၎င်း၏ ပထမဆုံး Draft တွင် Claim ပြုလုပ်ခဲ့သော်လည်း ရိုးရိုး Assert ပြုလုပ်မည့်အစား Actual Documented Evidence နှင့် ထို Claim ကို စစ်ဆေးရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။ Su Myat Noe ၏ Plan ကို ပြန်လည် ပြင်ဆင်ခဲ့သည် -- ဤ Specific Topic နှစ်ခုတွင် Direct Documented သမိုင်းဆိုင်ရာ ဆက်နွယ်မှု မရှိခဲ့သော်လည်း ၎င်း၏ Course-Wide Skill Multi-Causation သည် နှစ်ခုစလုံးအတွက် တစ်ပြေးညီ အသုံးချကြောင်း မှတ်ချက်ပြုခဲ့ပြီး Unverified Topical Connection တစ်ခုကို အတင်း မတွန်းအားပေးဘဲ ထို Shared Skill ကို ရှင်းလင်းစွာ သရုပ်ပြရန် ၎င်း စီစဉ်ခဲ့သည်။\n\n၎င်း၏ History Topic အတွက် Multi-Causation ကို အသုံးချရန် ၎င်း စီစဉ်ခဲ့သည် (France ၏ Financial Crisis, Unequal Tax Structure နှင့် Enlightenment Idea များကို အတူတကွ Cite ပြုလုပ်ခြင်း) နှင့် Specific Citation (Declaration Of The Rights Of Man ကို တိကျစွာ အမည်တပ်ခြင်း)။ ၎င်း၏ Geography Topic အတွက် Specific Documented Density Data နှင့် Term 5 ၏ River-Geography Principle များသို့ ချိတ်ဆက်မှုကို ၎င်း စီစဉ်ခဲ့သည်။ Focused, Specific Topic များ ရွေးချယ်ခြင်း, Genuinely Documented Connection ဖြစ်သည်နှင့် မဖြစ်သည်ကို ရိုးသားစွာ ဖော်ပြခြင်းနှင့် နှစ်တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Skill အပြည့်အစုံကို သရုပ်ပြရန် စီစဉ်ခြင်းတို့ကြောင့် Plan ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two specific topics did Su Myat Noe choose?",
+            questionMy:
+                "Su Myat Noe ရွေးချယ်ခဲ့သော Specific Topic နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "French Revolution causes and population density in a river valley region",
+              "No specific documented topic of any kind",
+              "Only a broad, vague subject with no specific focus",
+              "Topics entirely unrelated to this year's course content",
+            ],
+            optionsMy: [
+              "French Revolution Cause များနှင့် River Valley Region ရှိ Population Density",
+              "Specific Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Specific Focus မပါဘဲ Broad, Vague Subject တစ်ခုတည်း",
+              "ဤနှစ်၏ Course Content နှင့် လုံးလုံး မသက်ဆိုင်သော Topic များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated topic choices."],
+            hintsMy: [
+              "ဖော်ပြထားသော Topic Choice များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Su Myat Noe do instead of forcing an unverified topical connection?",
+            questionMy:
+                "Unverified Topical Connection တစ်ခုကို အတင်း မတွန်းအားပေးဘဲ Su Myat Noe ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She planned to demonstrate the shared skill of multi-causation explicitly",
+              "She removed both topics from her plan entirely",
+              "She kept the unverified connection claim unchanged",
+              "She chose a topic entirely unrelated to either subject",
+            ],
+            optionsMy: [
+              "Multi-Causation ၏ Shared Skill ကို ရှင်းလင်းစွာ သရုပ်ပြရန် ၎င်း စီစဉ်ခဲ့ခြင်း",
+              "Topic နှစ်ခုစလုံးကို ၎င်း၏ Plan မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "Unverified Connection Claim ကို ပြောင်းလဲမှု မရှိဘဲ ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "Subject နှစ်ခုစလုံးနှင့် လုံးလုံး မသက်ဆိုင်သော Topic တစ်ခု ရွေးချယ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Su Myat Noe's plan?",
+            questionMy:
+                "Su Myat Noe ၏ Plan ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For choosing focused topics and honestly checking a claimed connection against evidence",
+              "For asserting an unverified connection without checking it",
+              "For choosing broad, vague topics with no specific documented focus",
+              "For ignoring every documented evidence skill built across the year",
+            ],
+            optionsMy: [
+              "Focused Topic များ ရွေးချယ်ခြင်းနှင့် Claimed Connection ကို Evidence နှင့် ရိုးသားစွာ စစ်ဆေးခြင်းအတွက်",
+              "Unverified Connection ကို စစ်ဆေးခြင်း မရှိဘဲ Assert ပြုလုပ်ခြင်းအတွက်",
+              "Specific Documented Focus မပါဘဲ Broad, Vague Topic များ ရွေးချယ်ခြင်းအတွက်",
+              "နှစ်တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w35-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Exhibition Planning Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Exhibition Planning မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An exhibition topic should be...",
+          questionMy: "Exhibition Topic တစ်ခုသည် ...ဖြစ်သင့်သည်",
+          optionsEn: [
+            "Specific and narrow, allowing genuine documented depth",
+            "Extremely broad and vague, covering everything at once",
+            "Chosen with no consideration of documented evidence",
+            "Unrelated to any content studied this year",
+          ],
+          optionsMy: [
+            "Specific နှင့် Narrow ဖြစ်ပြီး Genuine Documented Depth ခွင့်ပြုခြင်း",
+            "Extremely Broad နှင့် Vague ဖြစ်ပြီး အားလုံးကို တစ်ပြိုင်နက် ဖုံးအုပ်ခြင်း",
+            "Documented Evidence ကို စဉ်းစားမှု မရှိဘဲ ရွေးချယ်ခြင်း",
+            "ဤနှစ် လေ့လာခဲ့သော Content မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A claimed connection between two topics should be...",
+          questionMy: "Topic နှစ်ခုကြား Claimed Connection တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Checked against actual documented evidence",
+            "Accepted automatically with no verification",
+            "Ignored regardless of documented evidence",
+            "Assumed true without any documented check",
+          ],
+          optionsMy: [
+            "Actual Documented Evidence နှင့် စစ်ဆေး",
+            "Verification မရှိဘဲ အလိုအလျောက် လက်ခံ",
+            "Documented Evidence မည်သို့ပင်ရှိစေ လျစ်လျူရှု",
+            "Documented Check မရှိဘဲ မှန်ကန်ကြောင်း ယူဆ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The final exhibition is designed to demonstrate...",
+          questionMy: "Final Exhibition ကို ...သရုပ်ပြရန် Design ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Mastery of every documented evidence skill built across the year",
+            "Only one isolated documented skill with no other connection",
+            "No documented skill of any kind",
+            "Skills entirely unrelated to this year's course content",
+          ],
+          optionsMy: [
+            "နှစ်တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း၏ Mastery",
+            "အခြား ဆက်နွယ်မှု မပါဘဲ Isolated Documented Skill တစ်ခုတည်း",
+            "Documented Skill မည်သည် အမျိုးအစားမှ",
+            "ဤနှစ်၏ Course Content နှင့် လုံးလုံး မသက်ဆိုင်သော Skill များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 9, Week 36 (Capstone / Boss Week):
+// "Year Exhibition and Graduation"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek36 = CourseWeekDef(
+  id: "course-sec2-hum-w36",
+  weekNumber: 36,
+  titleEn: "Capstone: Year Exhibition and Graduation",
+  titleMy: "Capstone - Year Exhibition and Graduation",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w36-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: The Full Year's Evidence Standards",
+      titleMy: "Capstone Quiz - နှစ်တစ်နှစ်လုံး၏ Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's final exhibition must apply multi-causation, a balanced account, specific citation, and (where relevant) corroboration to both a chosen history topic and a chosen geography topic. Why does this final capstone require every skill together rather than any single one?",
+          questionMy:
+              "Student ၏ Final Exhibition သည် ရွေးချယ်ထားသော History Topic နှင့် Geography Topic နှစ်ခုစလုံးအပေါ် Multi-Causation, Balanced Account, Specific Citation နှင့် (Relevant ရှိလျှင်) Corroboration ကို အသုံးချရမည်။ ဤ Final Capstone သည် Skill တစ်ခုတည်းမည်သည်ထက် Skill တိုင်းကို အတူတကွ အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "This capstone is designed to demonstrate genuine mastery of the complete documented evidence toolkit built across all nine terms, the same full-standard rigor established in Week 35's planning",
+            "A single documented skill is always sufficient to demonstrate a full year of learning",
+            "The full set of skills has no actual documented value in a final year-end exhibition",
+            "Combining every documented skill together has no actual value in demonstrating a year of learning",
+          ],
+          optionsMy: [
+            "ဤ Capstone သည် Term ကိုးခုစလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Complete Documented Evidence Toolkit ၏ Genuine Mastery ကို သရုပ်ပြရန် Design ပြုလုပ်ထားသည်, Week 35 ၏ Planning တွင် တည်ထောင်ခဲ့သော Full-Standard Rigor တူတူ ဖြစ်သည်",
+            "Documented Skill တစ်ခုတည်းသည် နှစ်တစ်နှစ်လုံး၏ Learning ကို သရုပ်ပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Skill Set အပြည့်အစုံတွင် Final Year-End Exhibition ၌ Actual Documented Value မရှိခြင်း",
+            "Documented Skill တိုင်းကို အတူတကွ ပေါင်းစပ်ခြင်းတွင် နှစ်တစ်နှစ်လုံး Learning သရုပ်ပြရာ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Weeks 33-35's identified skills into one final graduating project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33-35 တွင် ဖော်ထုတ်ခဲ့သော Skill များကို Final Graduating Project တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft exhibition celebrates a topic's outcome only positively with no check on documented hardship, resistance, or unequal impact. Following this course's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft Exhibition တွင် Documented Hardship, Resistance (သို့) Unequal Impact ကို Check မပြုဘဲ Topic ၏ Outcome ကို Positively ချီးကျူးခြင်းသာ ရှိသည်။ ဤ Course ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the exhibition to represent every major documented dimension fairly, following the same balanced-account discipline used since Week 11 and reinforced across every later term",
+            "Nothing -- celebrating only the positive outcome is the required and correct approach for a final exhibition",
+            "Remove all documented evidence about the topic's outcome from the exhibition entirely",
+            "Replace the entire exhibition with content unrelated to this year's subject",
+          ],
+          optionsMy: [
+            "Week 11 မှစ၍ အသုံးပြုခဲ့ပြီး Term နောက်ပိုင်းတိုင်းတွင် ထပ်မံ အားဖြည့်ခဲ့သော Balanced-Account Discipline တူတူကို လိုက်နာကာ Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုရန် Exhibition ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Positive Outcome တစ်ခုတည်းကို ချီးကျူးခြင်းသည် Final Exhibition အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "Topic ၏ Outcome အကြောင်း Documented Evidence အားလုံးကို Exhibition မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤနှစ်၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Exhibition တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account standard reinforced across every term this year, applied at the final graduation level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Final Graduation Level ၌ အသုံးချထားသော ဤနှစ် Term တိုင်းတွင် ထပ်မံ အားဖြည့်ခဲ့သော Balanced-Account Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this final exhibition explicitly connect its chosen topics back to earlier terms in the course (as Week 34's geography map and Week 35's planning both modeled), rather than presenting them as brand-new, disconnected content?",
+          questionMy:
+              "Chosen Topic များကို Brand-New, Disconnected Content များအဖြစ် တင်ပြမည့်အစား ဤ Final Exhibition သည် ၎င်း၏ Chosen Topic များကို Course ရှိ Term နောက်ပိုင်းများသို့ (Week 34 ၏ Geography Map နှင့် Week 35 ၏ Planning နှစ်ခုစလုံး Model ပြုလုပ်ခဲ့သကဲ့သို့) ရှင်းလင်းစွာ အဘယ်ကြောင့် ပြန်လည် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "This course's content builds cumulatively, and demonstrating that connection shows genuine understanding of the full course as one connected body of knowledge rather than nine isolated units",
+            "Earlier terms have no actual documented connection to any later term's content",
+            "Presenting content as disconnected and isolated is always more historically and geographically accurate",
+            "Tracing connections back to earlier terms has no actual value in a final exhibition",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Content သည် Cumulatively တည်ဆောက်သည်၊ ထို ချိတ်ဆက်မှုကို သရုပ်ပြခြင်းသည် Isolated Unit ကိုးခုတစ်ခုတည်းအစား Course အပြည့်အစုံကို Connected Body Of Knowledge တစ်ခုအဖြစ် Genuine နားလည်မှုကို ပြသသည်",
+            "Term နောက်ပိုင်းများ၏ Content နှင့် ယခင် Term များတွင် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Content ကို Disconnected, Isolated အဖြစ် တင်ပြခြင်းသည် အမြဲ ပို၍ သမိုင်းနှင့် Geographic အရ တိကျသည်",
+            "ယခင် Term များသို့ ချိတ်ဆက်မှုများကို လိုက်လံ ဖော်ထုတ်ခြင်းတွင် Final Exhibition ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same cumulative-connection principle demonstrated explicitly in Week 33 and Week 34's skills-review work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 33 နှင့် Week 34 ၏ Skills-Review အလုပ်တွင် ရှင်းလင်းစွာ သရုပ်ပြခဲ့သော Cumulative-Connection Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Full Year Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Full Year Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w36-dm-1",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "Explaining change through several documented factors together, used across history and geography",
+          matchMy:
+              "History နှင့် Geography တစ်လျှောက် အသုံးပြုထားသော Documented Factor များစွာမှတစ်ဆင့် ပြောင်းလဲမှုကို ရှင်းပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w36-dm-2",
+          termEn: "Balanced account",
+          termMy: "Balanced Account",
+          matchEn:
+              "Representing every major documented dimension fairly, the year's most repeated standard",
+          matchMy:
+              "Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း, နှစ်၏ အထပ်ထပ်ဆုံး Standard",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w36-dm-3",
+          termEn: "Cumulative course knowledge",
+          termMy: "Cumulative Course Knowledge",
+          matchEn:
+              "This year's nine terms as one connected body of knowledge, not isolated units",
+          matchMy:
+              "ဤနှစ်၏ Term ကိုးခုကို Isolated Unit များမဟုတ်ဘဲ Connected Body Of Knowledge တစ်ခုအဖြစ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w36-dm-4",
+          termEn: "Graduation exhibition",
+          termMy: "Graduation Exhibition",
+          matchEn:
+              "The final capstone demonstrating mastery of every documented evidence skill built this year",
+          matchMy:
+              "ဤနှစ် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း၏ Mastery ကို သရုပ်ပြသော Final Capstone",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Graduation Checklist",
+      titleMy: "စီစစ်ကြမည် - Graduation Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Final Exhibition",
+          "Not Appropriate for the Final Exhibition",
+        ],
+        bucketsMy: [
+          "Final Exhibition တွင် လိုအပ်သည်",
+          "Final Exhibition အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w36-sort-1",
+            labelEn:
+                "Multi-causation applied to both the chosen history and geography topics",
+            labelMy:
+                "ရွေးချယ်ထားသော History နှင့် Geography Topic နှစ်ခုစလုံးပေါ် Multi-Causation အသုံးချခြင်း",
+            correctBucketEn: "Required in the Final Exhibition",
+            correctBucketMy: "Final Exhibition တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w36-sort-2",
+            labelEn:
+                "A balanced account representing every major documented dimension fairly",
+            labelMy:
+                "Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုသော Balanced Account",
+            correctBucketEn: "Required in the Final Exhibition",
+            correctBucketMy: "Final Exhibition တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w36-sort-3",
+            labelEn:
+                "An explicit connection back to earlier terms in the course",
+            labelMy: "Course ရှိ Term နောက်ပိုင်းများသို့ Explicit ချိတ်ဆက်မှု",
+            correctBucketEn: "Required in the Final Exhibition",
+            correctBucketMy: "Final Exhibition တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w36-sort-4",
+            labelEn:
+                "A topic's outcome celebrated only positively with no documented balance check",
+            labelMy:
+                "Documented Balance Check မရှိဘဲ Positively သာ ချီးကျူးထားသော Topic ၏ Outcome",
+            correctBucketEn: "Not Appropriate for the Final Exhibition",
+            correctBucketMy: "Final Exhibition အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar's Graduation Exhibition",
+      titleMy: "စာဖတ်ခြင်း - Nilar ၏ Graduation Exhibition",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Graduation Exhibition",
+        titleMy: "Nilar ၏ Graduation Exhibition",
+        passageEn:
+            "For the Term 9 capstone, Nilar presented her final exhibition, combining a history topic (the documented causes and legacy of the Transatlantic Slave Trade, Term 4) and a geography topic (population movement patterns, Term 8), following the specific, narrow-topic planning modeled in Week 35.\n\nFor her history topic, she applied multi-causation by citing the triangular trade's documented structure alongside abolition's several documented causes -- resistance, campaigning, and legislation together, not any single cause alone. She applied the balanced-account principle by representing enslaved people's own documented resistance as historical agency, not only outside campaigners' actions, and by corroborating survivor testimony against other independent documented sources, exactly as Weeks 13-16 had required.\n\nFor her geography topic, she applied the same push-pull migration framework from Week 30, citing specific documented factors rather than vague categories, and traced her population-density evidence back to Term 5's river-geography principles, the same cumulative-connection habit Week 34 had modeled. She closed by explicitly naming the shared skills running through both topics -- multi-causation, balanced accounts, specific citation, and corroboration -- showing they were not two separate projects but one demonstration of the same documented evidence toolkit built since Term 1. Her teacher confirmed the pathway complete, praising Nilar's exhibition as exactly the kind of connected, evidence-rigorous work this course had built toward across all nine terms, and welcomed her onward to Secondary 3.",
+        passageMy:
+            "Term 9 Capstone အတွက် Week 35 တွင် Model ပြုလုပ်ခဲ့သော Specific, Narrow-Topic Planning ကို လိုက်နာကာ History Topic (Transatlantic Slave Trade ၏ Documented Cause များနှင့် Legacy, Term 4) နှင့် Geography Topic (Population Movement Pattern များ, Term 8) ကို ပေါင်းစပ်ကာ ၎င်း၏ Final Exhibition ကို Nilar တင်ပြခဲ့သည်။\n\n၎င်း၏ History Topic အတွက် Cause တစ်ခုတည်းမဟုတ်ဘဲ Resistance, Campaigning နှင့် Legislation အတူတကွ -- Abolition ၏ Documented Cause များစွာနှင့်အတူ Triangular Trade ၏ Documented Structure ကို Cite ပြုလုပ်ကာ Multi-Causation ကို ၎င်း အသုံးချခဲ့သည်။ Outside Campaigner များ၏ Action များသာမက ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Documented Resistance ကို သမိုင်းဆိုင်ရာ Agency အဖြစ် ကိုယ်စားပြုခြင်းဖြင့် Balanced-Account Principle ကို ၎င်း အသုံးချခဲ့ပြီး Week 13-16 လိုအပ်ခဲ့သည့်အတိုင်း Survivor Testimony ကို အခြား Independent Documented Source များနှင့် Corroborate ပြုလုပ်ခဲ့သည်။\n\n၎င်း၏ Geography Topic အတွက် Week 30 မှ Push-Pull Migration Framework တူတူကို ၎င်း အသုံးချခဲ့ပြီး Vague Category များအစား Specific Documented Factor များကို Cite ပြုလုပ်ကာ ၎င်း၏ Population-Density Evidence ကို Term 5 ၏ River-Geography Principle များသို့ လိုက်လံ ဖော်ထုတ်ခဲ့ပြီး Week 34 Model ပြုလုပ်ခဲ့သော Cumulative-Connection အလေ့အထ တူတူ ဖြစ်သည်။ Topic နှစ်ခုလုံးကို ဖြတ်သန်း ရှိနေသော Shared Skill များကို ရှင်းလင်းစွာ အမည်တပ်ကာ ၎င်း ပြီးဆုံးခဲ့သည် -- Multi-Causation, Balanced Account, Specific Citation နှင့် Corroboration -- ၎င်းတို့သည် Separate Project နှစ်ခုမဟုတ်ဘဲ Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Documented Evidence Toolkit တူတူ၏ Demonstration တစ်ခုတည်း ဖြစ်ကြောင်း ပြသခဲ့သည်။ Pathway ပြီးဆုံးကြောင်း ၎င်း၏ ဆရာ အတည်ပြုခဲ့ပြီး Term ကိုးခုလုံးတစ်လျှောက် ဤ Course တည်ဆောက်ခဲ့သော Connected, Evidence-Rigorous Work အမျိုးအစား အတိအကျ ဖြစ်ကြောင်း Nilar ၏ Exhibition ကို ချီးမွမ်းကာ Secondary 3 သို့ ဆက်လက် ကြိုဆိုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what two topics did Nilar combine for her exhibition?",
+            questionMy:
+                "၎င်း၏ Exhibition အတွက် Nilar ပေါင်းစပ်ခဲ့သော Topic နှစ်ခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Transatlantic Slave Trade's causes/legacy and population movement patterns",
+              "No specific documented topic of any kind",
+              "Only a broad, vague subject with no specific focus",
+              "Topics entirely unrelated to this year's course content",
+            ],
+            optionsMy: [
+              "Transatlantic Slave Trade ၏ Cause/Legacy နှင့် Population Movement Pattern များ",
+              "Specific Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Specific Focus မပါဘဲ Broad, Vague Subject တစ်ခုတည်း",
+              "ဤနှစ်၏ Course Content နှင့် လုံးလုံး မသက်ဆိုင်သော Topic များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated topic choices."],
+            hintsMy: [
+              "ဖော်ပြထားသော Topic Choice များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nilar apply the balanced-account principle to her history topic?",
+            questionMy:
+                "၎င်း၏ History Topic ပေါ် Balanced-Account Principle ကို Nilar မည်သို့ အသုံးချခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By representing enslaved people's own documented resistance as historical agency",
+              "By representing only outside campaigners' actions with no other dimension",
+              "By ignoring every documented dimension of the topic entirely",
+              "By representing no documented resistance of any kind",
+            ],
+            optionsMy: [
+              "ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Documented Resistance ကို သမိုင်းဆိုင်ရာ Agency အဖြစ် ကိုယ်စားပြုခြင်းဖြင့်",
+              "အခြား Dimension မပါဘဲ Outside Campaigner များ၏ Action များကိုသာ ကိုယ်စားပြုခြင်းဖြင့်",
+              "Topic ၏ Documented Dimension တိုင်းကို လုံးလုံး လျစ်လျူရှုခြင်းဖြင့်",
+              "Documented Resistance မည်သည် အမျိုးအစားမှ ကိုယ်စားပြုခြင်း မရှိဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's stated balanced-account application.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Balanced-Account Application ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nilar show by naming the shared skills across both topics?",
+            questionMy:
+                "Topic နှစ်ခုလုံးရှိ Shared Skill များကို အမည်တပ်ခြင်းဖြင့် Nilar ပြသခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the two topics were one demonstration of the same documented evidence toolkit",
+              "That the two topics had no actual connection to each other",
+              "That each topic required a completely different, unrelated skill set",
+              "That the documented evidence toolkit had no actual value across topics",
+            ],
+            optionsMy: [
+              "Topic နှစ်ခုသည် Documented Evidence Toolkit တူတူ၏ Demonstration တစ်ခုတည်း ဖြစ်ကြောင်း",
+              "Topic နှစ်ခုတွင် တစ်ခုနှင့်တစ်ခု Actual ဆက်နွယ်မှု မရှိကြောင်း",
+              "Topic တစ်ခုစီသည် လုံးဝ ကွဲပြားသော, မသက်ဆိုင်သော Skill Set တစ်ခု လိုအပ်ကြောင်း",
+              "Documented Evidence Toolkit တွင် Topic များတစ်လျှောက် Actual Value မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော Conclusion ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w36-d5",
+      dayNumber: 5,
+      titleEn: "Term 9 Recap: Skills Review and Exhibition",
+      titleMy: "Term 9 ပြန်လည်သုံးသပ်ခြင်း - Skills Review and Exhibition",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "This year's nine terms are documented as forming...",
+          questionMy:
+              "ဤနှစ်၏ Term ကိုးခုသည် ...ကို ဖွဲ့စည်းကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "One connected body of knowledge built cumulatively",
+            "Nine completely isolated, unrelated units",
+            "No documented connection of any kind",
+            "Content unrelated to any shared documented skill",
+          ],
+          optionsMy: [
+            "Cumulatively တည်ဆောက်ထားသော Connected Body Of Knowledge တစ်ခု",
+            "လုံးလုံး Isolated, Unrelated Unit ကိုးခု",
+            "Documented ဆက်နွယ်မှု မည်သည် အမျိုးအစားမှ",
+            "Shared Documented Skill မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The final exhibition must apply the full standard set because it...",
+          questionMy:
+              "Full Standard Set ကို Final Exhibition အသုံးချရမည့် အကြောင်းရင်းမှာ ...ကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "Demonstrates mastery of every documented evidence skill built across the year",
+            "Requires only one isolated skill with no other connection",
+            "Has no actual documented purpose of any kind",
+            "Applies to content unrelated to this year's course",
+          ],
+          optionsMy: [
+            "နှစ်တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Skill တိုင်း၏ Mastery ကို သရုပ်ပြခြင်း",
+            "အခြား ဆက်နွယ်မှု မပါဘဲ Isolated Skill တစ်ခုတည်း လိုအပ်ခြင်း",
+            "Actual Documented Purpose မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "ဤနှစ်၏ Course နှင့် မသက်ဆိုင်သော Content တွင် အသုံးချခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced graduation exhibition represents...",
+          questionMy:
+              "Balanced Graduation Exhibition တစ်ခုသည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Every major documented dimension fairly, not only celebratory ones",
+            "Only celebratory, positive dimensions with no other check",
+            "No documented dimension of any kind",
+            "Dimensions unrelated to any topic studied this year",
+          ],
+          optionsMy: [
+            "Celebratory Dimension များကိုသာမက Major Documented Dimension တိုင်းကို တရားမျှတစွာ",
+            "အခြား Check မပါဘဲ Celebratory, Positive Dimension များသာ",
+            "Documented Dimension မည်သည် အမျိုးအစားမှ",
+            "ဤနှစ် လေ့လာခဲ့သော Topic မည်သည်နှင့်မျှ မသက်ဆိုင်သော Dimension များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 9: "Skills Review and Exhibition"
+// (Weeks 33-36) -- pathway complete, all 9 terms authored (36 weeks /
+// 180 daily lessons). Reviews the documented historical-thinking
+// skills (multi-causation, balanced accounts, corroboration, specific
+// citation) built across Terms 1-4, 6, and 7 (Week 33), and the
+// documented geographic-thinking skills (cumulative, connected
+// content; specific data over vague generalization; balanced
+// urbanization accounts) built across Terms 5 and 8 (Week 34), then
+// has students plan (Week 35) and present (Week 36) a final graduation
+// exhibition combining one history topic and one geography topic under
+// the full set of documented evidence standards built across the
+// entire year.
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm9 = CourseTermDef(
+  id: "course-sec2-hum-t9",
+  termNumber: 9,
+  titleEn: "Skills Review and Exhibition",
+  titleMy: "Skills Review and Exhibition",
+  certificateTitleEn: "Secondary 2 Humanities Certificate",
+  certificateTitleMy: "Secondary 2 Humanities သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec2HumWeek33, _sec2HumWeek34, _sec2HumWeek35, _sec2HumWeek36],
 );
 // __SEC_HUM_MARKER__
