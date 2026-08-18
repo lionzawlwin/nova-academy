@@ -103490,9 +103490,9 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history. Term 7, Settlements and Where People Live, covers why settlements form where they do, the precise distinction between urban and rural, and settlement patterns within Myanmar itself, closing with a My Town or City Case Study combining site-factor explanation with honest, evidenced classification.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Settlements and Where People Live သည် Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသည်၊ Urban နှင့် Rural ကြား တိကျသော ခွဲခြားချက်နှင့် မြန်မာနိုင်ငံအတွင်းရှိ Settlement Pattern များကို ဖုံးအုပ်ပြီး Site-Factor Explanation ကို ရိုးသား၊ Evidenced Classification နှင့် ပေါင်းစပ်ထားသော My Town or City Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec1HumTerm1,
@@ -103501,6 +103501,7 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
     _sec1HumTerm4,
     _sec1HumTerm5,
     _sec1HumTerm6,
+    _sec1HumTerm7,
   ],
 );
 // =====================================================================
@@ -110638,5 +110639,1427 @@ const CourseTermDef _sec1HumTerm6 = CourseTermDef(
   certificateTitleEn: "The Medieval World II",
   certificateTitleMy: "The Medieval World II",
   weeks: [_sec1HumWeek21, _sec1HumWeek22, _sec1HumWeek23, _sec1HumWeek24],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 7: "Settlements and Where People
+// Live" (Weeks 25-28). Returns to the geography strand, following the
+// spiral pattern established since Term 4.
+// Term 7, Week 25: "Why Settlements Form Where They Do"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek25 = CourseWeekDef(
+  id: "course-sec1-hum-w25",
+  weekNumber: 25,
+  titleEn: "Why Settlements Form Where They Do",
+  titleMy: "Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသနည်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w25-d1",
+      dayNumber: 1,
+      titleEn: "Site Factors: Why Here and Not There",
+      titleMy: "Site Factor များ - ဤနေရာတွင် ဘာကြောင့်၊ အခြားနေရာတွင် မဟုတ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do geographers examine multiple site factors (water supply, defensible position, flat buildable land, fertile surrounding soil) together when explaining why a settlement formed in a specific spot?",
+          questionMy:
+              "Settlement တစ်ခု နေရာတိကျတစ်ခုတွင် ဘာကြောင့် ဖွဲ့စည်းခဲ့သည်ကို ရှင်းပြသောအခါ Geographer များသည် Site Factor များစွာ (ရေရရှိမှု, ကာကွယ်နိုင်သော Position, ညီညာ၊ တည်ဆောက်နိုင်သော မြေ, ပတ်ဝန်းကျင် မြေဩဇာကောင်းမှု) ကို အတူတကွ အဘယ်ကြောင့် စစ်ဆေးကြသနည်း။",
+          optionsEn: [
+            "Real settlement locations are usually the result of several advantages combining together, so weighing multiple factors gives a fuller explanation than focusing on just one",
+            "Only one single factor has ever determined where any settlement in history formed",
+            "Site factors have no actual connection to explaining settlement location",
+            "Considering multiple factors always produces a less accurate explanation than one factor alone",
+          ],
+          optionsMy: [
+            "Real Settlement တည်နေရာများသည် ယေဘုယျအားဖြင့် Advantage များစွာ ပေါင်းစပ်ခြင်း၏ ရလဒ် ဖြစ်တတ်သောကြောင့် Factor များစွာ ချိန်ဆခြင်းသည် တစ်ခုတည်း Focus ပြုခြင်းထက် ပို၍ ပြည့်စုံသော ရှင်းပြချက်တစ်ခု ပေးအပ်သည်",
+            "Factor တစ်ခုတည်းသာ သမိုင်းတွင် Settlement မည်သည်၏ တည်နေရာကို ဘယ်တော့မှ ဆုံးဖြတ်ခဲ့ခြင်း",
+            "Site Factor များသည် Settlement တည်နေရာ ရှင်းပြခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Factor များစွာ ထည့်သွင်းစဉ်းစားခြင်းသည် Factor တစ်ခုတည်းထက် ရှင်းပြချက် ပို၍ တိကျမှု နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same weigh-multiple-factors habit built since Term 1 -- applied now to explaining a settlement's physical location.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Weigh-Multiple-Factors Habit အတိအကျ ဖြစ်ပြီး Settlement တစ်ခု၏ Physical တည်နေရာ ရှင်းပြခြင်းပေါ်တွင် ယခု အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why might a settlement's original site factors (such as a defensible hilltop position) become less important to the settlement's continued growth over time, even though they explain its original founding?",
+          questionMy:
+              "Settlement တစ်ခု၏ Original Site Factor များ (ကာကွယ်နိုင်သော တောင်ထိပ် Position ကဲ့သို့) သည် ၎င်း၏ Original တည်ထောင်မှုကို ရှင်းပြသော်လည်း Settlement ၏ ဆက်လက် ကြီးထွားမှုအတွက် အချိန်ကြာလာသည်နှင့်အမျှ အဘယ်ကြောင့် အရေးပါမှု နည်းလာနိုင်သနည်း။",
+          optionsEn: [
+            "The reasons a settlement was originally founded (like defense in a dangerous era) can differ from the reasons it continues to grow later (like being an established trade or administrative center), so both the original and current situation should be examined separately",
+            "A settlement's site factors always remain exactly as important throughout its entire history with no change",
+            "Original founding reasons and later growth reasons are always identical with no distinction needed",
+            "Site factors have no actual relevance to a settlement's growth at any point in its history",
+          ],
+          optionsMy: [
+            "Settlement တစ်ခု ကနဦး တည်ထောင်ခဲ့ရသည့် အကြောင်းရင်းများ (အန္တရာယ်ရှိသော ကာလတွင် ကာကွယ်ရေးကဲ့သို့) သည် ၎င်း နောက်ပိုင်း ဆက်လက် ကြီးထွားရသည့် အကြောင်းရင်းများ (တည်ထောင်ပြီးသား ကုန်သွယ်ရေး (သို့) အုပ်ချုပ်ရေး ဗဟိုချက်တစ်ခုအဖြစ်) နှင့် ကွဲပြားနိုင်သောကြောင့် Original နှင့် Current အခြေအနေ နှစ်ခုစလုံးကို သီးခြားစီ စစ်ဆေးသင့်သည်",
+            "Settlement တစ်ခု၏ Site Factor များသည် ၎င်း၏ သမိုင်းတစ်ခုလုံးတစ်လျှောက် ပြောင်းလဲမှု မရှိဘဲ အတိအကျ အရေးပါမှု တူညီစွာ ဆက်လက် ရှိနေခြင်း",
+            "Original တည်ထောင်ခဲ့ရသည့် အကြောင်းရင်းများနှင့် နောက်ပိုင်း ကြီးထွားရသည့် အကြောင်းရင်းများသည် ခွဲခြားရန် မလိုအပ်ဘဲ အမြဲ အတိအကျ တူညီခြင်း",
+            "Site Factor များသည် Settlement တစ်ခု၏ သမိုင်း အဆင့်တိုင်းတွင် ကြီးထွားမှုနှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 6's caution about flattening a long history into one moment -- a settlement's story, like a temple's construction, can span changing circumstances over time.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ရှည်လျားသော သမိုင်းကို ခဏတစ်ခုအဖြစ် ညှစ်ချခြင်းကို ဆန့်ကျင်သော Term 6 ၏ သတိပေးချက်နှင့် ချိတ်ဆက်သည် -- Settlement တစ်ခု၏ ဇာတ်လမ်းသည် ဘုရားကျောင်းတစ်ခု၏ Construction ကဲ့သို့ အချိန်တစ်လျှောက် ပြောင်းလဲနေသော အခြေအနေများကို ကျော်လွန်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students cite specific evidence (such as a settlement's known founding history, or documented site factors) when explaining why a real town or city exists where it does, rather than guessing based on how the location looks today?",
+          questionMy:
+              "ယနေ့ ထိုနေရာ မည်သို့ မြင်ရသည်ကို အခြေခံ၍ ခန့်မှန်းမည့်အစား Real မြို့ (သို့) မြို့တော်တစ်ခု ထိုနေရာတွင် အဘယ်ကြောင့် ရှိနေသည်ကို ရှင်းပြသောအခါ Tikyet Evidence (Settlement ၏ လူသိများသော တည်ထောင်ခြင်း သမိုင်း, (သို့) Document ပြုလုပ်ထားသော Site Factor များကဲ့သို့) ကို ကျောင်းသားများ အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Guessing from present-day appearance risks missing the actual historical reasons a settlement began, which may no longer be visible today -- specific evidence gives a more accurate explanation",
+            "A settlement's current appearance always perfectly explains why it was originally founded",
+            "Citing specific founding evidence has no actual value when studying settlements",
+            "Historical founding reasons are always identical to what a location looks like today",
+          ],
+          optionsMy: [
+            "ယနေ့ Appearance မှ ခန့်မှန်းခြင်းသည် ယနေ့ ထင်ရှားချက် မဖြစ်နိုင်တော့သော Settlement တစ်ခု ဘာကြောင့် စတင်ခဲ့သည်ဆိုသော Actual သမိုင်းဆိုင်ရာ အကြောင်းရင်းများ လွတ်သွားနိုင်ခြေ ရှိသည် -- Specific Evidence သည် ပို၍ တိကျသော ရှင်းပြချက်တစ်ခု ပေးအပ်သည်",
+            "Settlement တစ်ခု၏ ယနေ့ Appearance သည် ၎င်း Original အဘယ်ကြောင့် တည်ထောင်ခဲ့သည်ကို အမြဲ ပြည့်စုံစွာ ရှင်းပြခြင်း",
+            "Specific Founding Evidence ကိုးကားခြင်းသည် Settlement များ လေ့လာရာတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "သမိုင်းဆိုင်ရာ Founding အကြောင်းရင်းများသည် ယနေ့ တည်နေရာတစ်ခု မည်သို့ မြင်ရသည်နှင့် အမြဲ အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same Term 1 Week 1 caution applied to settlements -- a guess based on present appearance is not the same as checked, evidenced history.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Settlement များပေါ်တွင် အသုံးချထားသော Term 1 Week 1 ၏ သတိပေးချက် တူတူ ဖြစ်သည် -- ယနေ့ Appearance ပေါ် အခြေခံသော ခန့်မှန်းချက်တစ်ခုသည် စစ်ဆေးထားသော၊ Evidenced သမိုင်းနှင့် မတူပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Settlement Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Settlement Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w25-dm-1",
+          termEn: "Site factor",
+          termMy: "Site Factor",
+          matchEn:
+              "A specific physical advantage, such as water or flat land, explaining a settlement's exact location",
+          matchMy:
+              "Settlement တစ်ခု၏ တိကျသော တည်နေရာကို ရှင်းပြသော ရေ (သို့) ညီညာသော မြေကဲ့သို့ တိကျသော Physical Advantage",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w25-dm-2",
+          termEn: "Defensible position",
+          termMy: "Defensible Position",
+          matchEn:
+              "A location, such as a hilltop, that is naturally easier to defend",
+          matchMy:
+              "သဘာဝအလျောက် ကာကွယ်ရန် ပို၍ လွယ်ကူသော တောင်ထိပ်ကဲ့သို့ တည်နေရာတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w25-dm-3",
+          termEn: "Founding history",
+          termMy: "Founding History",
+          matchEn:
+              "The documented original reasons a settlement began at a specific spot",
+          matchMy:
+              "Settlement တစ်ခု နေရာတိကျတစ်ခုတွင် စတင်ခဲ့ရသည့် Document ပြုလုပ်ထားသော Original အကြောင်းရင်းများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w25-dm-4",
+          termEn: "Continued growth factor",
+          termMy: "Continued Growth Factor",
+          matchEn:
+              "A reason a settlement kept growing that may differ from its original founding reason",
+          matchMy:
+              "Settlement တစ်ခု ဆက်လက် ကြီးထွားရသည့် ၎င်း၏ Original Founding အကြောင်းရင်းနှင့် ကွဲပြားနိုင်သော အကြောင်းရင်းတစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Site Factor or Not?",
+      titleMy: "စီစစ်ကြမည် - Site Factor (သို့) မဟုတ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Genuine Site Factor", "Not a Site Factor"],
+        bucketsMy: ["စစ်မှန်သော Site Factor", "Site Factor မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w25-sort-1",
+            labelEn: "Reliable access to fresh water for drinking and farming",
+            labelMy: "သောက်ရေနှင့် စိုက်ပျိုးရေးအတွက် ယုံကြည်ရသော ရေရရှိမှု",
+            correctBucketEn: "Genuine Site Factor",
+            correctBucketMy: "စစ်မှန်သော Site Factor",
+          ),
+          SortingItem(
+            id: "sec1hum-w25-sort-2",
+            labelEn:
+                "A resident's personal opinion about which color to paint their house",
+            labelMy:
+                "၎င်းတို့၏ အိမ်ကို ဘယ်အရောင် ဆေးသုတ်မည်ဆိုသည် အကြောင်း နေထိုင်သူတစ်ဦး၏ ကိုယ်ပိုင် အမြင်",
+            correctBucketEn: "Not a Site Factor",
+            correctBucketMy: "Site Factor မဟုတ်",
+          ),
+          SortingItem(
+            id: "sec1hum-w25-sort-3",
+            labelEn: "Flat, buildable land suitable for construction",
+            labelMy:
+                "တည်ဆောက်ခြင်းနှင့် သင့်တော်သော ညီညာ၊ တည်ဆောက်နိုင်သော မြေ",
+            correctBucketEn: "Genuine Site Factor",
+            correctBucketMy: "စစ်မှန်သော Site Factor",
+          ),
+          SortingItem(
+            id: "sec1hum-w25-sort-4",
+            labelEn:
+                "The specific brand of vehicle most commonly seen on a street today",
+            labelMy:
+                "ယနေ့ လမ်းတစ်ခုတွင် အများဆုံး တွေ့မြင်ရသော ယာဉ်၏ တိကျသော Brand",
+            correctBucketEn: "Not a Site Factor",
+            correctBucketMy: "Site Factor မဟုတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Zin's Two Explanations",
+      titleMy: "စာဖတ်ခြင်း - Kyaw Zin ၏ ရှင်းပြချက်နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Zin's Two Explanations",
+        titleMy: "Kyaw Zin ၏ ရှင်းပြချက်နှစ်ခု",
+        passageEn:
+            "For Week 25's project, Kyaw Zin researched why a real town near his family's home originally formed where it did, expecting a simple, single-factor answer.\n\nHis first search suggested the town began because of a reliable river crossing point -- a plausible single explanation. But when he checked the local historical society's records, he found the fuller founding story involved several factors working together: the river crossing, yes, but also nearby fertile farmland and a defensible slightly elevated position that had mattered during an earlier, more dangerous period.\n\nKyaw Zin also noticed something worth separating out clearly: the town's original defensive advantage had mattered far less in recent centuries as regional conflict declined, while its role as a trade and administrative crossing point had become the town's main reason for continued growth. The original founding reasons and the current growth reasons were related but not identical.\n\nHis final report cited both the specific historical founding evidence and the specific present-day growth factors, rather than assuming today's appearance explained the town's entire history. His teacher praised the report for applying exactly the multi-factor, evidence-based habit built since Term 1 -- to a real, local example this time, rather than a distant historical civilization.",
+        passageMy:
+            "Week 25 ၏ Project အတွက် ၎င်း၏ မိသားစု အိမ်အနီးရှိ Real မြို့တစ်ခု ထိုနေရာတွင် Original အဘယ်ကြောင့် ဖွဲ့စည်းခဲ့သည်ကို Kyaw Zin Research ပြုလုပ်ခဲ့ပြီး ရိုးရှင်း၊ Factor တစ်ခုတည်း အဖြေတစ်ခုကို မျှော်လင့်ခဲ့သည်။\n\n၎င်း၏ ပထမ ရှာဖွေမှုသည် ယုံကြည်ရသော မြစ်ဖြတ်ကျော်ရာ Point တစ်ခုကြောင့် မြို့ စတင်ခဲ့ကြောင်း ညွှန်ပြခဲ့သည် -- ဖြစ်နိုင်ချေရှိသော Single Explanation တစ်ခု ဖြစ်သည်။ သို့သော် Local Historical Society ၏ Record များကို ၎င်း စစ်ဆေးသောအခါ ပို၍ ပြည့်စုံသော တည်ထောင်ခြင်း ဇာတ်လမ်းတွင် Factor များစွာ အတူတကွ လုပ်ဆောင်ခဲ့ကြောင်း ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - မြစ်ဖြတ်ကျော်ရာ Point ဟုတ်ပါသည်၊ သို့သော် နီးကပ်သော မြေဩဇာကောင်းသော လယ်ယာမြေနှင့် အစောပိုင်း၊ ပို၍ အန္တရာယ်ရှိသော ကာလအတွင်း အရေးပါခဲ့သော Defensible အနည်းငယ် မြင့်တက်နေသော Position တစ်ခုလည်း ပါဝင်ခဲ့သည်။\n\nရှင်းလင်းစွာ ခွဲထုတ်ထိုက်သည့်အရာတစ်ခုကို Kyaw Zin လည်း သတိပြုမိခဲ့သည် - ဒေသဆိုင်ရာ ပဋိပက္ခ လျော့ကျလာသည်နှင့်အမျှ မြို့၏ Original Defensive Advantage သည် လွန်ခဲ့သော ရာစုနှစ်များတွင် အရေးပါမှု များစွာ နည်းပါးလာခဲ့ပြီး ကုန်သွယ်ရေးနှင့် အုပ်ချုပ်ရေး ဖြတ်ကျော်ရာ Point တစ်ခုအဖြစ် ၎င်း၏ Role သည် မြို့ ဆက်လက် ကြီးထွားရသည့် အဓိက အကြောင်းရင်း ဖြစ်လာခဲ့သည်။ Original တည်ထောင်ခြင်း အကြောင်းရင်းများနှင့် Current ကြီးထွားမှု အကြောင်းရင်းများသည် ဆက်စပ်နေသော်လည်း အတိအကျ တူညီခြင်း မရှိခဲ့ပါ။\n\nယနေ့ Appearance က မြို့၏ သမိုင်းတစ်ခုလုံးကို ရှင်းပြသည်ဟု ယူဆမည့်အစား တိကျသော သမိုင်းဆိုင်ရာ Founding Evidence နှင့် တိကျသော ယနေ့ Growth Factor နှစ်ခုစလုံးကို ၎င်း၏ နောက်ဆုံး Report ကိုးကားခဲ့သည်။ ဤအကြိမ်တွင် ဝေးလံသော သမိုင်းဆိုင်ရာ Civilization တစ်ခုအစား Real, Local ဥပမာတစ်ခုပေါ်တွင် Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Multi-Factor, Evidence-Based Habit အတိအကျ အသုံးချသောကြောင့် Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the local historical society's records reveal beyond the river crossing explanation?",
+            questionMy:
+                "မြစ်ဖြတ်ကျော်ရာ ရှင်းပြချက်ကျော်လွန်၍ Local Historical Society ၏ Record များ ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Additional factors: nearby fertile farmland and a defensible elevated position",
+              "That the river crossing explanation was completely wrong with no truth at all",
+              "No additional information beyond the single river crossing factor",
+              "A completely unrelated explanation with no connection to geography",
+            ],
+            optionsMy: [
+              "ထပ်ဆောင်း Factor များ - နီးကပ်သော မြေဩဇာကောင်းသော လယ်ယာမြေနှင့် Defensible မြင့်တက်နေသော Position",
+              "မြစ်ဖြတ်ကျော်ရာ ရှင်းပြချက်သည် အမှန်တရား လုံးဝ မပါဘဲ လုံးလုံး မှားယွင်းကြောင်း",
+              "မြစ်ဖြတ်ကျော်ရာ Factor တစ်ခုတည်း ကျော်လွန်၍ ထပ်ဆောင်း Information မရှိခြင်း",
+              "Geography နှင့် ချိတ်ဆက်မှု မရှိသော လုံးလုံး မသက်ဆိုင်သော ရှင်းပြချက်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's revealed additional factors.",
+            ],
+            hintsMy: [
+              "ဖော်ထုတ်ခဲ့သော ထပ်ဆောင်း Factor များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the town's defensive advantage change over time?",
+            questionMy:
+                "မြို့၏ Defensive Advantage သည် အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ ပြောင်းလဲခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It mattered far less as regional conflict declined, while trade/administrative role grew in importance",
+              "It remained exactly as important throughout the town's entire history with no change",
+              "It had no actual importance at any point in the town's history",
+              "It became more important over time while trade importance declined",
+            ],
+            optionsMy: [
+              "ဒေသဆိုင်ရာ ပဋိပက္ခ လျော့ကျလာသည်နှင့်အမျှ အရေးပါမှု များစွာ နည်းပါးလာခဲ့ပြီး ကုန်သွယ်ရေး/အုပ်ချုပ်ရေး Role ၏ အရေးပါမှု ကြီးထွားလာခဲ့ခြင်း",
+              "မြို့၏ သမိုင်းတစ်ခုလုံးတစ်လျှောက် ပြောင်းလဲမှု မရှိဘဲ အတိအကျ အရေးပါမှု တူညီစွာ ဆက်လက် ရှိနေခြင်း",
+              "မြို့၏ သမိုင်း အဆင့်တိုင်းတွင် Actual အရေးပါမှု မရှိခြင်း",
+              "ကုန်သွယ်ရေး အရေးပါမှု လျော့ကျလာစဉ် အချိန်ကြာလာသည်နှင့်အမျှ ပို၍ အရေးပါလာခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described change."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပြောင်းလဲမှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Kyaw Zin's report cite instead of assuming today's appearance explained everything?",
+            questionMy:
+                "ယနေ့ Appearance က အားလုံးကို ရှင်းပြသည်ဟု ယူဆမည့်အစား Kyaw Zin ၏ Report ကိုးကားခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both specific historical founding evidence and specific present-day growth factors",
+              "Nothing at all -- the report contained no citations of any kind",
+              "Only a vague, unsupported guess with no actual evidence",
+              "A single factor with no connection to either history or the present",
+            ],
+            optionsMy: [
+              "တိကျသော သမိုင်းဆိုင်ရာ Founding Evidence နှင့် တိကျသော ယနေ့ Growth Factor နှစ်ခုစလုံး",
+              "ဘာမှ -- Report တွင် Citation မည်သည်မှ မပါခြင်း",
+              "Actual Evidence မပါသော Vague, ထောက်ခံမှု မရှိသော ခန့်မှန်းချက်တစ်ခုသာ",
+              "သမိုင်း (သို့) ပစ္စုပ္ပန် နှစ်ခုစလုံးနှင့် ချိတ်ဆက်မှု မရှိသော Factor တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated citations."],
+            hintsMy: [
+              "ဖော်ပြထားသော Citation များကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w25-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Settlement Site Factors Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Settlement Site Factor မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Explaining a settlement's location usually requires...",
+          questionMy:
+              "Settlement တစ်ခု၏ တည်နေရာကို ရှင်းပြခြင်းသည် ယေဘုယျအားဖြင့် ...လိုအပ်သည်",
+          optionsEn: [
+            "Weighing multiple site factors together",
+            "Focusing on exactly one factor with no others",
+            "No actual factors of any kind",
+            "Guessing with no evidence at all",
+          ],
+          optionsMy: [
+            "Site Factor များစွာကို အတူတကွ ချိန်ဆခြင်း",
+            "အခြားများ မပါဘဲ Factor တစ်ခုတည်းကို Focus ပြုခြင်း",
+            "Factor မည်သည်မှ အမှန်တကယ်",
+            "Evidence မပါဘဲ ခန့်မှန်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A settlement's original founding factors and its later growth factors...",
+          questionMy:
+              "Settlement တစ်ခု၏ Original Founding Factor များနှင့် ၎င်း၏ နောက်ပိုင်း Growth Factor များသည် ...",
+          optionsEn: [
+            "May differ, so both deserve separate examination",
+            "Are always exactly identical with no exceptions",
+            "Have no actual connection to each other whatsoever",
+            "Never change at any point in a settlement's history",
+          ],
+          optionsMy: [
+            "ကွဲပြားနိုင်သောကြောင့် နှစ်ခုစလုံး သီးခြား စစ်ဆေးထိုက်သည်",
+            "ခြွင်းချက်မရှိဘဲ အမြဲ အတိအကျ တူညီသည်",
+            "တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိသည်",
+            "Settlement တစ်ခု၏ သမိုင်း အဆင့် မည်သည်တွင်မျှ ဘယ်တော့မှ မပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A settlement's location should be explained using...",
+          questionMy:
+              "Settlement တစ်ခု၏ တည်နေရာကို ...အသုံးပြု၍ ရှင်းပြသင့်သည်",
+          optionsEn: [
+            "Specific, cited historical and geographic evidence",
+            "A guess based only on how the location looks today",
+            "No evidence of any kind whatsoever",
+            "Assumption alone with no checking",
+          ],
+          optionsMy: [
+            "Specific, Cited သမိုင်းဆိုင်ရာနှင့် Geographic Evidence",
+            "ယနေ့ တည်နေရာ မည်သို့ မြင်ရသည်အပေါ် အခြေခံသာ ခန့်မှန်းချက်တစ်ခု",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "စစ်ဆေးခြင်း မပါသော Assumption တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 7, Week 26: "Urban vs. Rural"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek26 = CourseWeekDef(
+  id: "course-sec1-hum-w26",
+  weekNumber: 26,
+  titleEn: "Urban vs. Rural",
+  titleMy: "Urban Vs. Rural",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w26-d1",
+      dayNumber: 1,
+      titleEn: "Defining Urban and Rural Precisely",
+      titleMy: "Urban နှင့် Rural ကို တိကျစွာ အဓိပ္ပာယ်ဖွင့်ဆိုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is 'urban' better defined by measurable characteristics (population density, concentration of non-farming jobs) rather than simply 'a place that feels like a city'?",
+          questionMy:
+              "'Urban' ကို ရိုးရိုး 'မြို့ကဲ့သို့ ခံစားရသော နေရာတစ်ခု' အစား တိုင်းတာနိုင်သော Characteristic များ (Population Density, စိုက်ပျိုးရေး-မဟုတ်သော အလုပ်များ Concentration) ဖြင့် အဘယ်ကြောင့် ပို၍ ကောင်းစွာ အဓိပ္ပာယ်ဖွင့်ဆိုသင့်ရသနည်း။",
+          optionsEn: [
+            "Measurable characteristics allow consistent, checkable comparison between places, while a subjective feeling varies from person to person and cannot be verified",
+            "A subjective feeling is always more precise than any measurable characteristic",
+            "Measurable characteristics have no actual usefulness in defining urban areas",
+            "Population density and job concentration have no actual connection to urban areas",
+          ],
+          optionsMy: [
+            "တိုင်းတာနိုင်သော Characteristic များသည် နေရာများကြား တသမတ်တည်း၊ စစ်ဆေးနိုင်သော Comparison ကို ခွင့်ပြုသော်လည်း Subjective Feeling တစ်ခုသည် လူတစ်ဦးမှ တစ်ဦးသို့ ကွဲပြားပြီး အတည်ပြု၍ မရနိုင်ပါ",
+            "Subjective Feeling တစ်ခုသည် တိုင်းတာနိုင်သော Characteristic မည်သည်ထက်မဆို အမြဲ ပို၍ တိကျခြင်း",
+            "တိုင်းတာနိုင်သော Characteristic များသည် Urban Area များ အဓိပ္ပာယ်ဖွင့်ဆိုရာတွင် အမှန်တကယ် အသုံးဝင်မှု မရှိခြင်း",
+            "Population Density နှင့် Job Concentration သည် Urban Area များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same precise-vocabulary discipline from Week 14's weather-vs-climate lesson -- a measurable definition can be checked, while a vague feeling cannot.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 14 ၏ Weather-Vs-Climate သင်ခန်းစာမှ Precise-Vocabulary Discipline တူတူ ဖြစ်သည် -- တိုင်းတာနိုင်သော Definition တစ်ခုကို စစ်ဆေးနိုင်သော်လည်း Vague Feeling တစ်ခုကို မစစ်ဆေးနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid assuming that 'rural' automatically means 'poor' or 'undeveloped', given what a precise geographic definition of rural actually describes?",
+          questionMy:
+              "Rural ၏ တိကျသော Geographic Definition တစ်ခု အမှန်တကယ် ဖော်ပြသည့်အရာကို ထောက်ရှု၍ 'Rural' ဆိုသည်မှာ 'ဆင်းရဲသော' (သို့) 'ဖွံ့ဖြိုးမှု နောက်ကျသော' ဟု အလိုအလျောက် ဆိုလိုသည်ဟု ကျောင်းသားများ ယူဆခြင်းကို အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "'Rural' describes lower population density and land-use patterns, a geographic fact, while wealth and development level are separate, independently variable characteristics not automatically implied by the term",
+            "Every rural area in the world is definitionally identical in wealth and development",
+            "The word 'rural' has no actual geographic meaning of any kind",
+            "'Rural' and 'poor' are simply two words for exactly the same concept",
+          ],
+          optionsMy: [
+            "'Rural' သည် Population Density နိမ့်ခြင်းနှင့် Land-Use Pattern များ၊ Geographic Fact တစ်ခုကို ဖော်ပြသော်လည်း ချမ်းသာကြွယ်ဝမှုနှင့် Development Level သည် Term ကြောင့် အလိုအလျောက် မဆိုလိုသော သီးခြား၊ Independently Variable Characteristic များ ဖြစ်သည်",
+            "ကမ္ဘာပေါ်ရှိ Rural Area တိုင်းသည် ချမ်းသာကြွယ်ဝမှုနှင့် Development တွင် Definitionally တူညီခြင်း",
+            "'Rural' စကားလုံးတွင် Geographic Meaning မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "'Rural' နှင့် 'ဆင်းရဲသော' သည် Concept အတိအကျ တူညီသည့် စကားလုံးနှစ်လုံးသာ ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same caution as Week 15's tropical-zone lesson -- a technical classification (rural, tropical) describes one specific characteristic, not every possible related quality.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 15 ၏ Tropical-Zone သင်ခန်းစာမှ သတိပေးချက် တူတူ ဖြစ်သည် -- Technical Classification တစ်ခု (Rural, Tropical) သည် ဖြစ်နိုင်သော ဆက်စပ် Quality တိုင်းကို မဟုတ်ဘဲ Specific Characteristic တစ်ခုကို ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim comparing urban and rural areas cite specific data (population figures, employment statistics) rather than a general impression of which 'seems busier'?",
+          questionMy:
+              "Urban နှင့် Rural Area များ နှိုင်းယှဉ်သော Claim တစ်ခုသည် မည်သည်က 'ပို၍ လှုပ်ရှားနေသည်ဟု ထင်ရသည်' ဆိုသော General Impression တစ်ခုအစား Specific Data (Population ကိန်းဂဏန်းများ, အလုပ်အကိုင် စာရင်းအင်းများ) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific data gives a checkable, precise basis for comparison, matching the specificity habit built throughout the course, while a general impression is subjective and unverifiable",
+            "A general impression is always more accurate than specific data of any kind",
+            "Specific data has no actual value when comparing urban and rural areas",
+            "Population and employment statistics have no actual connection to defining urban or rural character",
+          ],
+          optionsMy: [
+            "Specific Data သည် Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specificity Habit နှင့် ကိုက်ညီစွာ Comparison အတွက် စစ်ဆေးနိုင်၊ တိကျသော Basis တစ်ခု ပေးအပ်သော်လည်း General Impression တစ်ခုသည် Subjective ဖြစ်ပြီး Unverifiable ဖြစ်သည်",
+            "General Impression တစ်ခုသည် Specific Data မည်သည်ထက်မဆို အမြဲ ပို၍ တိကျခြင်း",
+            "Specific Data သည် Urban နှင့် Rural Area များ နှိုင်းယှဉ်ရာတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "Population နှင့် Employment Statistics သည် Urban (သို့) Rural Character အဓိပ္ပာယ်ဖွင့်ဆိုခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 14's weather diary lesson -- a systematic measurement gives a more reliable comparison than a subjective, unverified impression.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 14 ၏ Weather Diary သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Systematic Measurement တစ်ခုသည် Subjective, Unverified Impression တစ်ခုထက် ပို၍ ယုံကြည်ရသော Comparison တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Urban and Rural Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Urban and Rural Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w26-dm-1",
+          termEn: "Urban area",
+          termMy: "Urban Area",
+          matchEn:
+              "A place with high population density and concentrated non-farming jobs",
+          matchMy:
+              "Population Density မြင့်မားပြီး စိုက်ပျိုးရေး-မဟုတ်သော အလုပ်များ Concentrated ဖြစ်သော နေရာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w26-dm-2",
+          termEn: "Rural area",
+          termMy: "Rural Area",
+          matchEn:
+              "A place with lower population density, often with more land used for farming",
+          matchMy:
+              "Population Density နိမ့်ပြီး မကြာခဏ စိုက်ပျိုးရေးအတွက် မြေ ပိုများသော နေရာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w26-dm-3",
+          termEn: "Population density",
+          termMy: "Population Density",
+          matchEn: "The number of people living within a given area of land",
+          matchMy: "မြေ ဧရိယာသတ်မှတ်ချက်တစ်ခုအတွင်း နေထိုင်နေသော လူဦးရေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w26-dm-4",
+          termEn: "Independent characteristic",
+          termMy: "Independent Characteristic",
+          matchEn:
+              "A quality like wealth that is not automatically implied by a term like 'rural'",
+          matchMy:
+              "'Rural' ကဲ့သို့ Term တစ်ခုက အလိုအလျောက် မဆိုလိုသော ချမ်းသာကြွယ်ဝမှုကဲ့သို့ Quality တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Measurable Fact or Unsupported Assumption?",
+      titleMy: "စီစစ်ကြမည် - Measurable Fact (သို့) Unsupported Assumption",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Measurable Fact", "Unsupported Assumption"],
+        bucketsMy: ["Measurable Fact", "Unsupported Assumption"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w26-sort-1",
+            labelEn:
+                "This district has a documented population density of a specific number per square kilometer",
+            labelMy:
+                "ဤ District တွင် စတုရန်းကီလိုမီတာအလိုက် တိကျသော ဂဏန်း Documented Population Density ရှိသည်",
+            correctBucketEn: "Measurable Fact",
+            correctBucketMy: "Measurable Fact",
+          ),
+          SortingItem(
+            id: "sec1hum-w26-sort-2",
+            labelEn:
+                "This rural village must be poor simply because it is rural, with no data checked",
+            labelMy:
+                "Data စစ်ဆေးခြင်း မပြုဘဲ ဤ Rural ကျေးရွာသည် Rural ဖြစ်သောကြောင့်သာ ဆင်းရဲရမည်",
+            correctBucketEn: "Unsupported Assumption",
+            correctBucketMy: "Unsupported Assumption",
+          ),
+          SortingItem(
+            id: "sec1hum-w26-sort-3",
+            labelEn:
+                "Employment statistics show a specific percentage of non-farming jobs in this city",
+            labelMy:
+                "ဤမြို့တွင် စိုက်ပျိုးရေး-မဟုတ်သော အလုပ်များ တိကျသော Percentage ကို Employment Statistics ပြသသည်",
+            correctBucketEn: "Measurable Fact",
+            correctBucketMy: "Measurable Fact",
+          ),
+          SortingItem(
+            id: "sec1hum-w26-sort-4",
+            labelEn:
+                "This place feels like a city so it must be urban, with no data checked at all",
+            labelMy:
+                "Data စစ်ဆေးခြင်း လုံးဝ မပြုဘဲ ဤနေရာသည် မြို့တစ်ခုကဲ့သို့ ခံစားရသောကြောင့် Urban ဖြစ်ရမည်",
+            correctBucketEn: "Unsupported Assumption",
+            correctBucketMy: "Unsupported Assumption",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sandar's Data-Based Comparison",
+      titleMy: "စာဖတ်ခြင်း - Sandar ၏ Data-Based Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sandar's Data-Based Comparison",
+        titleMy: "Sandar ၏ Data-Based Comparison",
+        passageEn:
+            "For Week 26's project, Sandar was asked to compare a nearby city district and a nearby rural township, and initially wrote that the city 'obviously felt more developed and important' than the rural area.\n\nHer teacher pushed back, asking her to replace the impression with specific, checkable data. Sandar found the city district's actual population density figures, which were many times higher than the township's, and employment records showing the city was dominated by non-farming jobs while the township's economy centered on agriculture -- the precise, measurable definitions from Monday's lesson.\n\nWhen Sandar looked deeper into the rural township's economic data, she found something that corrected her original assumption: while population density was indeed lower, the township's agricultural exports were a significant contributor to the wider regional economy, and average household income there was not meaningfully different from parts of the city. Rural did not automatically mean poor or unimportant -- that had been an unsupported assumption, not a checked fact.\n\nHer revised report defined urban and rural using precise population and employment data, then separately and carefully compared wealth and economic contribution using their own specific evidence, rather than assuming one followed automatically from the other. Her teacher praised the report for correctly treating urban/rural classification and economic status as two genuinely separate questions, each requiring its own evidence.",
+        passageMy:
+            "Week 26 ၏ Project အတွက် နီးကပ်သော မြို့ District တစ်ခုနှင့် နီးကပ်သော Rural မြို့နယ်တစ်ခုကို နှိုင်းယှဉ်ရန် Sandar အား တောင်းဆိုခဲ့ပြီး Rural Area ထက် မြို့သည် 'ထင်ရှားစွာ ပို၍ ဖွံ့ဖြိုးတိုးတက်၊ အရေးကြီးသည်ဟု ခံစားရသည်' ဟု ၎င်း ကနဦးတွင် ရေးသားခဲ့သည်။\n\nImpression ကို Specific, စစ်ဆေးနိုင်သော Data ဖြင့် အစားထိုးရန် ၎င်း၏ ဆရာမ ပြန်လှန် တောင်းဆိုခဲ့သည်။ မြို့ District ၏ Actual Population Density ကိန်းဂဏန်းများကို Sandar ရှာဖွေတွေ့ရှိခဲ့ပြီး ၎င်းသည် မြို့နယ်ထက် နှစ်ဆများစွာ မြင့်မားခဲ့ကာ မြို့သည် စိုက်ပျိုးရေး-မဟုတ်သော အလုပ်များက လွှမ်းမိုးခဲ့ပြီး မြို့နယ်၏ စီးပွားရေးသည် စိုက်ပျိုးရေးတွင် ဗဟိုပြုခဲ့ကြောင်း ပြသသော Employment Record များ -- တနင်္လာနေ့ သင်ခန်းစာမှ တိကျ၊ တိုင်းတာနိုင်သော Definition များ ဖြစ်သည်။\n\nRural မြို့နယ်၏ Economic Data ထဲသို့ Sandar ပို၍ နက်ရှိုင်းစွာ ကြည့်ရှုသောအခါ ၎င်း၏ Original Assumption ကို ပြင်ဆင်ပေးခဲ့သော အရာတစ်ခုကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - Population Density သည် အမှန်တကယ် နိမ့်ခဲ့သော်လည်း မြို့နယ်၏ စိုက်ပျိုးရေး Export များသည် ပို၍ ကျယ်ပြန့်သော Regional Economy ကို Significant Contributor တစ်ခု ဖြစ်ခဲ့ပြီး ထိုနေရာရှိ Average Household Income သည် မြို့၏ အစိတ်အပိုင်းအချို့နှင့် အနက်ရှိသော ကွာခြားချက် မရှိခဲ့ပါ။ Rural ဆိုသည်မှာ ဆင်းရဲ (သို့) အရေးမကြီး ဟု အလိုအလျောက် မဆိုလိုပါ -- ၎င်းသည် Checked Fact တစ်ခု မဟုတ်ဘဲ Unsupported Assumption တစ်ခု ဖြစ်ခဲ့သည်။\n\nတစ်ခုသည် အခြားတစ်ခုမှ အလိုအလျောက် လိုက်နာသည်ဟု ယူဆမည့်အစား တိကျသော Population နှင့် Employment Data အသုံးပြု၍ Urban နှင့် Rural ကို ၎င်း၏ ပြင်ဆင်ထားသော Report အဓိပ္ပာယ်ဖွင့်ဆိုကာ ၎င်းတို့ကိုယ်ပိုင် Specific Evidence အသုံးပြု၍ ချမ်းသာကြွယ်ဝမှုနှင့် Economic Contribution ကို သီးခြားစီ၊ ဂရုတစိုက် နှိုင်းယှဉ်ခဲ့သည်။ Urban/Rural Classification နှင့် Economic Status ကို Genuinely သီးခြား မေးခွန်းနှစ်ခု၊ တစ်ခုစီအတွက် ၎င်းကိုယ်ပိုင် Evidence လိုအပ်သည်ဟု မှန်ကန်စွာ သဘောထားသောကြောင့် Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher ask Sandar to replace her impression with?",
+            questionMy:
+                "၎င်း၏ Impression ကို အစားထိုးရန် Sandar အား ဆရာမ တောင်းဆိုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specific, checkable population density and employment data",
+              "Nothing at all -- the original impression was accepted as final",
+              "A different, equally vague impression with no data",
+              "Information entirely unrelated to population or employment",
+            ],
+            optionsMy: [
+              "Specific, စစ်ဆေးနိုင်သော Population Density နှင့် Employment Data",
+              "ဘာမှ -- Original Impression ကို နောက်ဆုံးအဖြစ် လက်ခံခဲ့ခြင်း",
+              "Data မပါသော ကွဲပြားသော၊ Vague Impression တစ်ခု တူတူ",
+              "Population (သို့) Employment နှင့် လုံးလုံး မသက်ဆိုင်သော Information",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's teacher's request."],
+            hintsMy: ["ဆရာမ၏ တောင်းဆိုချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Sandar discover about the rural township's economy?",
+            questionMy:
+                "Rural မြို့နယ်၏ Economy အကြောင်း Sandar ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its agricultural exports contributed significantly to the regional economy, with income not meaningfully different from parts of the city",
+              "The rural township had no economy of any kind whatsoever",
+              "It was definitely poorer than the city with no exceptions of any kind",
+              "It had no connection to the wider regional economy at all",
+            ],
+            optionsMy: [
+              "၎င်း၏ စိုက်ပျိုးရေး Export များသည် Regional Economy ကို Significantly ပံ့ပိုးခဲ့ပြီး Income သည် မြို့၏ အစိတ်အပိုင်းအချို့နှင့် အနက်ရှိသော ကွာခြားချက် မရှိခြင်း",
+              "Rural မြို့နယ်တွင် Economy မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "ခြွင်းချက် မည်သည်မှ မရှိဘဲ မြို့ထက် ဆင်းရဲသည်ကို ဧကန်အမှန် ဖြစ်ခြင်း",
+              "ပို၍ ကျယ်ပြန့်သော Regional Economy နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's discovered detail."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော Detail ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise about the revised report's approach?",
+            questionMy:
+                "ပြင်ဆင်ထားသော Report ၏ Approach အကြောင်း ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Treating urban/rural classification and economic status as separate questions each needing evidence",
+              "Assuming urban/rural classification and economic status are always identical",
+              "Ignoring economic status entirely with no discussion of any kind",
+              "Using no evidence for either classification or economic status",
+            ],
+            optionsMy: [
+              "Urban/Rural Classification နှင့် Economic Status ကို Evidence လိုအပ်သော သီးခြား မေးခွန်းများအဖြစ် သဘောထားခြင်း",
+              "Urban/Rural Classification နှင့် Economic Status အမြဲ တူညီသည်ဟု ယူဆခြင်း",
+              "ဆွေးနွေးချက် မည်သည်မှ မပါဘဲ Economic Status ကို လုံးလုံး လျစ်လျူရှုခြင်း",
+              "Classification (သို့) Economic Status နှစ်ခုစလုံးအတွက် Evidence မည်သည်မှ အသုံးမပြုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w26-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Urban vs. Rural Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Urban Vs. Rural မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "'Urban' is best defined using...",
+          questionMy:
+              "'Urban' ကို ...အသုံးပြု၍ အကောင်းဆုံး အဓိပ္ပာယ်ဖွင့်ဆိုသင့်သည်",
+          optionsEn: [
+            "Measurable characteristics like population density",
+            "A subjective feeling with no measurement",
+            "No characteristics of any kind whatsoever",
+            "A characteristic unrelated to population or jobs",
+          ],
+          optionsMy: [
+            "Population Density ကဲ့သို့ တိုင်းတာနိုင်သော Characteristic များ",
+            "တိုင်းတာမှု မပါသော Subjective Feeling တစ်ခု",
+            "Characteristic မည်သည်မှ အမှန်တကယ်",
+            "Population (သို့) Job များနှင့် မသက်ဆိုင်သော Characteristic တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "'Rural' does not automatically imply...",
+          questionMy: "'Rural' သည် ...ကို အလိုအလျောက် မဆိုလိုပါ",
+          optionsEn: [
+            "Poverty or lack of development",
+            "Lower population density",
+            "A land-use pattern with more farming",
+            "A geographic classification of some kind",
+          ],
+          optionsMy: [
+            "ဆင်းရဲမှု (သို့) Development ချို့တဲ့ခြင်း",
+            "Population Density နိမ့်ခြင်း",
+            "စိုက်ပျိုးရေး ပိုများသော Land-Use Pattern",
+            "Geographic Classification တစ်ခုအမျိုးအစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Comparing urban and rural areas should rely on...",
+          questionMy:
+              "Urban နှင့် Rural Area များ နှိုင်းယှဉ်ခြင်းသည် ...ကို အားကိုးသင့်သည်",
+          optionsEn: [
+            "Specific, checkable data",
+            "A general impression of which seems busier",
+            "No evidence of any kind whatsoever",
+            "Assumption alone with no data",
+          ],
+          optionsMy: [
+            "Specific, စစ်ဆေးနိုင်သော Data",
+            "မည်သည်က ပို၍ လှုပ်ရှားသည်ဟု ထင်ရသော General Impression",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Data မပါသော Assumption တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 7, Week 27: "Settlement Patterns in
+// Myanmar"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek27 = CourseWeekDef(
+  id: "course-sec1-hum-w27",
+  weekNumber: 27,
+  titleEn: "Settlement Patterns in Myanmar",
+  titleMy: "မြန်မာနိုင်ငံရှိ Settlement Pattern များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w27-d1",
+      dayNumber: 1,
+      titleEn: "Applying Settlement Concepts to Myanmar",
+      titleMy: "Settlement Concept များကို မြန်မာနိုင်ငံသို့ အသုံးချခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does the Ayeyarwady River's floodplain contain a particularly high concentration of settlements, applying the site-factor reasoning from earlier in this term?",
+          questionMy:
+              "ဤ Term အစောပိုင်းမှ Site-Factor Reasoning ကို အသုံးချပါက ဧရာဝတီမြစ်၏ Floodplain တွင် Settlement များ အထူးသဖြင့် အလွန် မြင့်မားသော Concentration ရှိရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The floodplain combines multiple advantageous site factors -- fertile soil from flooding, reliable water access, and flat buildable land -- the same kind of combined-factor explanation studied in Week 25",
+            "The Ayeyarwady floodplain has no actual connection to settlement patterns of any kind",
+            "Settlement concentration along the river is purely random with no explainable factors",
+            "Only a single unrelated factor explains settlement patterns along the Ayeyarwady",
+          ],
+          optionsMy: [
+            "Floodplain သည် ရေလွှမ်းမိုးမှုမှ မြေဩဇာကောင်းမှု၊ ယုံကြည်ရသော ရေရရှိမှုနှင့် ညီညာ၊ တည်ဆောက်နိုင်သော မြေ -- Week 25 တွင် လေ့လာခဲ့သော Combined-Factor Explanation အမျိုးအစား တူတူ -- Advantageous Site Factor များစွာကို ပေါင်းစပ်ထားသည်",
+            "ဧရာဝတီ Floodplain သည် Settlement Pattern မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "မြစ်တစ်လျှောက် Settlement Concentration သည် ရှင်းပြနိုင်သော Factor မည်သည်မှ မပါဘဲ လုံးလုံး ကျပန်း ဖြစ်ခြင်း",
+            "ဧရာဝတီတစ်လျှောက် Settlement Pattern များကို Factor တစ်ခုတည်း၊ မသက်ဆိုင်သော Factor တစ်ခုတည်းက ရှင်းပြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly applies Week 25's site-factor lesson to a real, familiar river system -- multiple advantages combining, not one factor alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Real, ရင်းနှီးသော မြစ် System တစ်ခုပေါ်တွင် Week 25 ၏ Site-Factor သင်ခန်းစာကို တိုက်ရိုက် အသုံးချသည် -- Factor တစ်ခုတည်း မဟုတ်ဘဲ Advantage များစွာ ပေါင်းစပ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim comparing a specific Myanmar city and a specific Myanmar rural township cite actual population and employment data (as practiced in Week 26), rather than a general impression of which seems more developed?",
+          questionMy:
+              "မြန်မာနိုင်ငံရှိ မြို့တိကျတစ်ခုနှင့် Rural မြို့နယ်တိကျတစ်ခု နှိုင်းယှဉ်သော Claim တစ်ခုသည် မည်သည်က ပို၍ ဖွံ့ဖြိုးတိုးတက်သည်ဟု ထင်ရသည်ဆိုသော General Impression တစ်ခုအစား (Week 26 ကျင့်သုံးခဲ့သကဲ့သို့) Actual Population နှင့် Employment Data ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "The same evidence-based standard applies to Myanmar as to any other location studied -- specific data checks a claim, while impression alone does not",
+            "Myanmar locations should be held to a lower evidence standard than locations studied elsewhere",
+            "General impressions are always more accurate than data when the topic is closer to home",
+            "Citing data has no actual value when discussing familiar, local places",
+          ],
+          optionsMy: [
+            "Evidence-Based Standard တူတူသည် အခြားနေရာလေ့လာသည့်အတိုင်း မြန်မာနိုင်ငံအတွက်လည်း အသုံးချသည် -- Specific Data သည် Claim တစ်ခုကို စစ်ဆေးသော်လည်း Impression တစ်ခုတည်းက မစစ်ဆေးနိုင်ပါ",
+            "အခြားနေရာများတွင် လေ့လာသော Location များထက် မြန်မာနိုင်ငံ Location များကို Evidence Standard နိမ့်စွာ ကိုင်တွယ်သင့်ခြင်း",
+            "ခေါင်းစဉ်သည် နေအိမ်နှင့် ပို၍ နီးကပ်သောအခါ General Impression များသည် Data ထက် အမြဲ ပို၍ တိကျခြင်း",
+            "Familiar, Local နေရာများ ဆွေးနွေးသောအခါ Data ကိုးကားခြင်းသည် အမှန်တကယ် Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The evidence standard from Week 26 doesn't lower just because the topic is familiar or local -- the same rigor applies everywhere.",
+          ],
+          hintsMy: [
+            "ခေါင်းစဉ်သည် Familiar (သို့) Local ဖြစ်ခြင်းကြောင့် Week 26 မှ Evidence Standard မလျော့ကျပါ -- Rigor တူတူသည် နေရာတိုင်းတွင် အသုံးချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid assuming Myanmar's settlement patterns are somehow exceptional or entirely different from the site-factor and urban-rural principles studied elsewhere in this term?",
+          questionMy:
+              "မြန်မာနိုင်ငံ၏ Settlement Pattern များသည် ဤ Term ၏ အခြားနေရာတွင် လေ့လာခဲ့သော Site-Factor နှင့် Urban-Rural Principle များနှင့် တစ်နည်းနည်းဖြင့် ထူးခြား (သို့) လုံးလုံး ကွဲပြားသည်ဟု ကျောင်းသားများ ယူဆခြင်းကို အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "The same underlying geographic principles (site factors, population density, land use) apply everywhere, including Myanmar -- the specific evidence differs by place, but the analytical framework does not",
+            "Myanmar's settlement patterns follow entirely different rules with no connection to geography anywhere else",
+            "Geographic principles studied for other regions have no application to Myanmar whatsoever",
+            "Every country requires a completely separate, unrelated set of geographic principles",
+          ],
+          optionsMy: [
+            "Underlying Geographic Principle တူတူ (Site Factor, Population Density, Land Use) သည် မြန်မာနိုင်ငံအပါအဝင် နေရာတိုင်းတွင် အသုံးချသည် -- Specific Evidence သည် နေရာအလိုက် ကွဲပြားသော်လည်း Analytical Framework က မကွဲပြားပါ",
+            "မြန်မာနိုင်ငံ၏ Settlement Pattern များသည် အခြားနေရာ Geography မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိသော လုံးလုံး ကွဲပြားသော Rule များကို လိုက်နာခြင်း",
+            "အခြားဒေသများအတွက် လေ့လာခဲ့သော Geographic Principle များတွင် မြန်မာနိုင်ငံနှင့် Application လုံးဝ မရှိခြင်း",
+            "နိုင်ငံတိုင်းသည် လုံးလုံး သီးခြား၊ မသက်ဆိုင်သော Geographic Principle အစုအဝေးတစ်ခု လိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same universality point made throughout the course -- a general principle (like weighing multiple factors) applies to Myanmar exactly as it applies to Ghana, China, or Athens.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Course တစ်ခုလုံးတစ်လျှောက် ပြုလုပ်ခဲ့သော Universality Point တူတူ ဖြစ်သည် -- General Principle တစ်ခု (Factor များစွာ ချိန်ဆခြင်းကဲ့သို့) သည် ဂါနာ, တရုတ်, (သို့) အေသင်တွင် အသုံးချသကဲ့သို့ မြန်မာနိုင်ငံတွင် အတိအကျ အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Myanmar Settlement Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - မြန်မာနိုင်ငံ Settlement Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w27-dm-1",
+          termEn: "Ayeyarwady floodplain",
+          termMy: "ဧရာဝတီ Floodplain",
+          matchEn:
+              "A high-concentration settlement zone combining fertile soil, water access, and flat land",
+          matchMy:
+              "မြေဩဇာကောင်းမှု၊ ရေရရှိမှုနှင့် ညီညာသော မြေ ပေါင်းစပ်ထားသော Concentration မြင့်မားသော Settlement Zone",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w27-dm-2",
+          termEn: "Regional data",
+          termMy: "Regional Data",
+          matchEn:
+              "Specific population and employment figures for a particular Myanmar location",
+          matchMy:
+              "မြန်မာနိုင်ငံရှိ တိကျသော တည်နေရာအတွက် Specific Population နှင့် Employment ကိန်းဂဏန်းများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w27-dm-3",
+          termEn: "Township",
+          termMy: "မြို့နယ်",
+          matchEn:
+              "An administrative division used in Myanmar, which may be more urban or more rural",
+          matchMy:
+              "မြန်မာနိုင်ငံတွင် အသုံးပြုသော Administrative Division တစ်ခု၊ Urban ပို၍များ (သို့) Rural ပို၍များနိုင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w27-dm-4",
+          termEn: "Universal principle",
+          termMy: "Universal Principle",
+          matchEn:
+              "A geographic concept, like site factors, that applies to any location including Myanmar",
+          matchMy:
+              "မြန်မာနိုင်ငံအပါအဝင် တည်နေရာမည်သည်တွင်မဆို အသုံးချသော Site Factor ကဲ့သို့ Geographic Concept တစ်ခု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Applied Correctly or Applied Carelessly?",
+      titleMy: "စီစစ်ကြမည် - မှန်ကန်စွာ အသုံးချ (သို့) မဂရုစိုက်ဘဲ အသုံးချ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Applied Correctly", "Applied Carelessly"],
+        bucketsMy: ["မှန်ကန်စွာ အသုံးချ", "မဂရုစိုက်ဘဲ အသုံးချ"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w27-sort-1",
+            labelEn:
+                "Citing specific site factors to explain why settlements cluster along the Ayeyarwady",
+            labelMy:
+                "ဧရာဝတီတစ်လျှောက် Settlement များ Cluster ဖြစ်ရသည့် အကြောင်းရင်းကို ရှင်းပြရန် Specific Site Factor များ ကိုးကားခြင်း",
+            correctBucketEn: "Applied Correctly",
+            correctBucketMy: "မှန်ကန်စွာ အသုံးချ",
+          ),
+          SortingItem(
+            id: "sec1hum-w27-sort-2",
+            labelEn:
+                "Assuming a Myanmar rural township is automatically poor with no data checked",
+            labelMy:
+                "Data စစ်ဆေးခြင်း မပြုဘဲ မြန်မာ Rural မြို့နယ်တစ်ခုသည် အလိုအလျောက် ဆင်းရဲသည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Applied Carelessly",
+            correctBucketMy: "မဂရုစိုက်ဘဲ အသုံးချ",
+          ),
+          SortingItem(
+            id: "sec1hum-w27-sort-3",
+            labelEn:
+                "Citing actual population data when comparing a Myanmar city and township",
+            labelMy:
+                "မြန်မာ မြို့နှင့် မြို့နယ် နှိုင်းယှဉ်သောအခါ Actual Population Data ကိုးကားခြင်း",
+            correctBucketEn: "Applied Correctly",
+            correctBucketMy: "မှန်ကန်စွာ အသုံးချ",
+          ),
+          SortingItem(
+            id: "sec1hum-w27-sort-4",
+            labelEn:
+                "Assuming Myanmar's geography follows entirely different rules with no connection to any other country",
+            labelMy:
+                "မြန်မာနိုင်ငံ၏ Geography သည် အခြားနိုင်ငံမည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိသော လုံးလုံး ကွဲပြားသော Rule များ လိုက်နာသည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Applied Carelessly",
+            correctBucketMy: "မဂရုစိုက်ဘဲ အသုံးချ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Regional Data Project",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Regional Data Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Regional Data Project",
+        titleMy: "Nay Chi ၏ Regional Data Project",
+        passageEn:
+            "For Week 27's project, Nay Chi was asked to apply the term's site-factor and urban-rural concepts to a real comparison within Myanmar, choosing a city and a rural township to research.\n\nApplying Week 25's site-factor lesson, she explained the city's location using multiple combined factors: its position along a major river provided reliable water and historically supported trade, while surrounding flat land had allowed steady expansion over time -- not a single explanation, but several factors working together.\n\nApplying Week 26's urban-rural lesson, she gathered actual population density figures and employment breakdowns for both places rather than relying on impression. The city showed dramatically higher population density and a workforce concentrated in non-farming sectors, while the township showed the opposite pattern -- exactly the precise, measurable distinction the term had built toward.\n\nWhen Nay Chi researched the rural township's economic contribution, she found it was a significant agricultural exporter supporting the wider regional economy, directly correcting the unsupported assumption that 'rural' meant 'unimportant.' Her final report noted explicitly that every concept applied in her research -- site factors, urban-rural definitions, and not assuming rural means poor -- was the exact same framework used earlier in the term for Ghana, Song China, and medieval Europe. Her teacher praised the project for proving these were genuinely universal geographic principles, not concepts that only applied to faraway places.",
+        passageMy:
+            "Week 27 ၏ Project အတွက် Term ၏ Site-Factor နှင့် Urban-Rural Concept များကို မြန်မာနိုင်ငံအတွင်းရှိ Real Comparison တစ်ခုတွင် အသုံးချရန် Nay Chi အား တောင်းဆိုခဲ့ပြီး Research ပြုလုပ်ရန် မြို့တစ်ခုနှင့် Rural မြို့နယ်တစ်ခုကို ၎င်း ရွေးချယ်ခဲ့သည်။\n\nWeek 25 ၏ Site-Factor သင်ခန်းစာ အသုံးချကာ Combined Factor များစွာ အသုံးပြု၍ မြို့၏ တည်နေရာကို ၎င်း ရှင်းပြခဲ့သည် - မြစ်ကြီးတစ်ခုတစ်လျှောက် ၎င်း၏ Position သည် ယုံကြည်ရသော ရေကို ပေးအပ်ကာ သမိုင်းအရ ကုန်သွယ်ရေးကို ထောက်ပံ့ခဲ့ပြီး ပတ်ဝန်းကျင်ရှိ ညီညာသော မြေသည် အချိန်ကြာလာသည်နှင့်အမျှ တည်ငြိမ်သော Expansion ကို ခွင့်ပြုခဲ့သည် -- Single Explanation တစ်ခု မဟုတ်ဘဲ Factor များစွာ အတူတကွ လုပ်ဆောင်ခဲ့ခြင်း ဖြစ်သည်။\n\nWeek 26 ၏ Urban-Rural သင်ခန်းစာ အသုံးချကာ Impression ကို အားကိုးမည့်အစား နေရာနှစ်ခုစလုံးအတွက် Actual Population Density ကိန်းဂဏန်းများနှင့် Employment Breakdown များကို ၎င်း စုဆောင်းခဲ့သည်။ မြို့သည် သိသိသာသာ ပို၍ မြင့်မားသော Population Density နှင့် စိုက်ပျိုးရေး-မဟုတ်သော Sector များတွင် Concentrated ဖြစ်သော Workforce ကို ပြသခဲ့ပြီး မြို့နယ်သည် ဆန့်ကျင်ဘက် Pattern ကို ပြသခဲ့သည် -- Term တည်ဆောက်ခဲ့သော တိကျ၊ တိုင်းတာနိုင်သော ခွဲခြားချက် အတိအကျ ဖြစ်သည်။\n\nRural မြို့နယ်၏ Economic Contribution ကို Nay Chi Research ပြုလုပ်သောအခါ ၎င်းသည် ပို၍ ကျယ်ပြန့်သော Regional Economy ကို ထောက်ပံ့သော Significant စိုက်ပျိုးရေး Exporter တစ်ခု ဖြစ်ကြောင်း ၎င်း ရှာဖွေတွေ့ရှိခဲ့ပြီး 'Rural' ဆိုသည်မှာ 'အရေးမကြီး' ဟု ဆိုလိုသည်ဆိုသော Unsupported Assumption ကို တိုက်ရိုက် ပြင်ဆင်ပေးခဲ့သည်။ ၎င်း၏ Research တွင် အသုံးချထားသော Concept တိုင်း -- Site Factor, Urban-Rural Definition များနှင့် Rural ဆိုသည်မှာ ဆင်းရဲသည်ဟု မယူဆခြင်း -- သည် Term အစောပိုင်းတွင် ဂါနာ, Song တရုတ်နှင့် Medieval ဥရောပအတွက် အသုံးပြုခဲ့သော Framework အတိအကျ တူတူ ဖြစ်ကြောင်း ၎င်း၏ နောက်ဆုံး Report ရှင်းလင်းစွာ မှတ်သားခဲ့သည်။ ၎င်းတို့သည် ဝေးကွာသော နေရာများအတွက်သာ အသုံးချသော Concept များ မဟုတ်ဘဲ Genuinely Universal Geographic Principle များ ဖြစ်ကြောင်း သက်သေပြခဲ့သောကြောင့် Project ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what multiple factors did Nay Chi cite for the city's location?",
+            questionMy:
+                "မြို့၏ တည်နေရာအတွက် Nay Chi ကိုးကားခဲ့သော Factor များစွာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Reliable water and trade support from the river, plus surrounding flat land enabling expansion",
+              "No factors of any kind were cited for the city's location",
+              "Only a single unrelated factor with no other explanation given",
+              "A factor entirely unconnected to geography or water",
+            ],
+            optionsMy: [
+              "မြစ်မှ ယုံကြည်ရသော ရေနှင့် ကုန်သွယ်ရေး ထောက်ပံ့မှု၊ Expansion ကို ဖြစ်ပေါ်စေသော ပတ်ဝန်းကျင်ရှိ ညီညာသော မြေနှင့်အတူ",
+              "မြို့၏ တည်နေရာအတွက် Factor မည်သည်မှ ကိုးကားခြင်း မရှိခြင်း",
+              "Factor တစ်ခုတည်း၊ မသက်ဆိုင်သော တစ်ခုတည်းကိုသာ ကိုးကားခဲ့ပြီး အခြား ရှင်းပြချက် မပေးခြင်း",
+              "Geography (သို့) ရေနှင့် လုံးလုံး ချိတ်ဆက်မှု မရှိသော Factor တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited factors."],
+            hintsMy: [
+              "ကိုးကားထားသော Factor များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what assumption did Nay Chi's research correct about the rural township?",
+            questionMy:
+                "Rural မြို့နယ်အကြောင်း Nay Chi ၏ Research ပြင်ဆင်ပေးခဲ့သော Assumption ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That 'rural' meant 'unimportant', which was corrected by its significant agricultural export contribution",
+              "That the township had no economy of any kind whatsoever",
+              "That the city and township had exactly identical population density",
+              "That no data existed about the township at all",
+            ],
+            optionsMy: [
+              "'Rural' ဆိုသည်မှာ 'အရေးမကြီး' ဟု ဆိုလိုသည်ဆိုသော Assumption၊ ၎င်း၏ Significant စိုက်ပျိုးရေး Export Contribution က ပြင်ဆင်ပေးခဲ့ခြင်း",
+              "မြို့နယ်တွင် Economy မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "မြို့နှင့် မြို့နယ်သည် Population Density အတိအကျ တူညီခြင်း",
+              "မြို့နယ်အကြောင်း Data မည်သည်မှ လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's corrected assumption."],
+            hintsMy: [
+              "ပြင်ဆင်ပေးခဲ့သော Assumption ကို စတုတ္ထ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say the project proved?",
+            questionMy:
+                "Project သက်သေပြခဲ့ကြောင်း ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The concepts were genuinely universal geographic principles, not concepts that only applied to faraway places",
+              "The concepts only ever applied to faraway places, never to Myanmar",
+              "No concept from earlier in the term had any relevance to this project",
+              "Geographic principles change completely depending on which country is studied",
+            ],
+            optionsMy: [
+              "Concept များသည် ဝေးကွာသော နေရာများအတွက်သာ အသုံးချသော Concept များ မဟုတ်ဘဲ Genuinely Universal Geographic Principle များ ဖြစ်ကြောင်း",
+              "Concept များသည် ဝေးကွာသော နေရာများအတွက်သာ အမြဲ အသုံးချပြီး မြန်မာနိုင်ငံအတွက် ဘယ်တော့မှ အသုံးမချခြင်း",
+              "Term အစောပိုင်းမှ Concept မည်သည်မှ ဤ Project နှင့် Relevance မရှိခြင်း",
+              "Geographic Principle များသည် Country မည်သည် လေ့လာသည်ပေါ် မူတည်ပြီး လုံးလုံး ပြောင်းလဲခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated proof."],
+            hintsMy: [
+              "ဖော်ပြထားသော Proof ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w27-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Myanmar Settlement Patterns Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - မြန်မာနိုင်ငံ Settlement Pattern မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Settlement concentration along the Ayeyarwady floodplain is explained by...",
+          questionMy:
+              "ဧရာဝတီ Floodplain တစ်လျှောက် Settlement Concentration ကို ...ဖြင့် ရှင်းပြသည်",
+          optionsEn: [
+            "Multiple combined site factors, not a single cause",
+            "No explainable factors at all",
+            "A single unrelated cause with no connection to geography",
+            "Pure random chance with no physical explanation",
+          ],
+          optionsMy: [
+            "Cause တစ်ခုတည်း မဟုတ်ဘဲ Combined Site Factor များစွာ",
+            "ရှင်းပြနိုင်သော Factor မည်သည်မှ",
+            "Geography နှင့် ချိတ်ဆက်မှု မရှိသော Cause တစ်ခုတည်း",
+            "Physical ရှင်းပြချက် မပါသော Pure Random Chance",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Comparing Myanmar locations should use...",
+          questionMy:
+              "မြန်မာနိုင်ငံ တည်နေရာများ နှိုင်းယှဉ်ခြင်းသည် ...အသုံးပြုသင့်သည်",
+          optionsEn: [
+            "The same evidence standard used everywhere else in the course",
+            "A lower evidence standard since the topic is familiar",
+            "No evidence of any kind whatsoever",
+            "Assumption alone with no data checking",
+          ],
+          optionsMy: [
+            "Course တစ်ခုလုံး၏ အခြားနေရာများတွင် အသုံးပြုသည့် Evidence Standard တူတူ",
+            "ခေါင်းစဉ် Familiar ဖြစ်သောကြောင့် Evidence Standard နိမ့်သော တစ်ခု",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Data Checking မပါသော Assumption တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The geographic principles studied throughout this term...",
+          questionMy:
+              "ဤ Term တစ်ခုလုံးတစ်လျှောက် လေ့လာခဲ့သော Geographic Principle များသည် ...",
+          optionsEn: [
+            "Apply universally, including to Myanmar",
+            "Apply only to places outside Myanmar",
+            "Have no actual application anywhere in the world",
+            "Change completely depending on the country studied",
+          ],
+          optionsMy: [
+            "မြန်မာနိုင်ငံအပါအဝင် Universally အသုံးချသည်",
+            "မြန်မာနိုင်ငံ ပြင်ပရှိ နေရာများအတွက်သာ အသုံးချသည်",
+            "ကမ္ဘာပေါ်ရှိ နေရာမည်သည်တွင်မျှ Actual Application မရှိသည်",
+            "Country မည်သည် လေ့လာသည်ပေါ် မူတည်ပြီး လုံးလုံး ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 7, Week 28 (Capstone/Boss Week): "My
+// Town or City Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek28 = CourseWeekDef(
+  id: "course-sec1-hum-w28",
+  weekNumber: 28,
+  titleEn: "My Town or City Case Study",
+  titleMy: "ကျွန်ုပ်၏ မြို့ (သို့) မြို့တော် Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w28-d1",
+      dayNumber: 1,
+      titleEn: "Combining Site Factors and Classification Data",
+      titleMy: "Site Factor များနှင့် Classification Data ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a case study of your own town or city combine site-factor explanation (why it formed there) with urban-rural classification data (what kind of place it is now), rather than covering only one?",
+          questionMy:
+              "သင့်ကိုယ်ပိုင် မြို့ (သို့) မြို့တော်၏ Case Study တစ်ခုသည် တစ်ခုတည်းသာ ဖုံးအုပ်မည့်အစား Site-Factor Explanation (၎င်း ထိုနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းခဲ့သည်) ကို Urban-Rural Classification Data (၎င်းသည် ယခု မည်သည့်အမျိုးအစား နေရာဖြစ်သည်) နှင့် အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "The two questions address different things -- why the place began and what it has become -- and combining them gives a fuller picture than either alone, applying the same combined-lens discipline from Term 1's capstone",
+            "Site factors and classification data have no actual connection to each other",
+            "A case study only ever needs to answer why a place formed, never what it has become",
+            "Combining both types of evidence always produces a less accurate case study",
+          ],
+          optionsMy: [
+            "မေးခွန်းနှစ်ခုသည် ကွဲပြားသောအရာများကို ဖြေဆိုသည် -- နေရာတစ်ခု အဘယ်ကြောင့် စတင်ခဲ့သည်နှင့် ၎င်း အဘယ်အရာ ဖြစ်လာသည် -- ၎င်းတို့ ပေါင်းစပ်ခြင်းသည် Term 1 ၏ Capstone မှ Combined-Lens Discipline တူတူ အသုံးချကာ တစ်ခုတည်းထက် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Site Factor များနှင့် Classification Data တွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Case Study တစ်ခုသည် နေရာတစ်ခု အဘယ်ကြောင့် ဖွဲ့စည်းခဲ့သည်ကိုသာ ဖြေဆိုရန် လိုအပ်ပြီး ၎င်း အဘယ်အရာ ဖြစ်လာသည်ကို ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Evidence အမျိုးအစားနှစ်ခုစလုံး ပေါင်းစပ်ခြင်းသည် Case Study ကို တိကျမှု နည်းသော အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same combined-lens discipline from Term 1's capstone -- the historian's question and the geographer's classification question together give a fuller picture.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Capstone မှ Combined-Lens Discipline တူတူ ဖြစ်သည် -- Historian ၏ မေးခွန်းနှင့် Geographer ၏ Classification မေးခွန်း အတူတကွသည် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the case study explicitly avoid assuming a rural classification automatically means poor or unimportant, and an urban classification automatically means wealthy or superior?",
+          questionMy:
+              "Case Study တစ်ခုသည် Rural Classification တစ်ခု အလိုအလျောက် ဆင်းရဲ (သို့) အရေးမကြီးဟု ဆိုလိုကြောင်းနှင့် Urban Classification တစ်ခု အလိုအလျောက် ချမ်းသာ (သို့) သာလွန်ကြောင်း ယူဆခြင်းကို ရှင်းလင်းစွာ အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "This is exactly the unsupported assumption Week 26 and Week 27 corrected -- urban/rural is a geographic classification, not an automatic measure of wealth or worth",
+            "Urban classification always automatically means a place is superior in every possible way",
+            "Rural classification always automatically means a place is poor with no exceptions",
+            "This assumption has no actual connection to anything studied earlier in the term",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Week 26 နှင့် Week 27 ပြင်ဆင်ပေးခဲ့သော Unsupported Assumption အတိအကျ ဖြစ်သည် -- Urban/Rural သည် Geographic Classification တစ်ခုသာ ဖြစ်ပြီး ချမ်းသာကြွယ်ဝမှု (သို့) တန်ဖိုး၏ Automatic Measure တစ်ခု မဟုတ်ပါ",
+            "Urban Classification သည် နေရာတစ်ခု ဖြစ်နိုင်သမျှ နည်းလမ်းတိုင်းတွင် Superior ဖြစ်ကြောင်း အလိုအလျောက် အမြဲ ဆိုလိုသည်",
+            "Rural Classification သည် ခြွင်းချက်မရှိဘဲ နေရာတစ်ခု ဆင်းရဲကြောင်း အလိုအလျောက် အမြဲ ဆိုလိုသည်",
+            "ဤ Assumption သည် Term အစောပိုင်းမှ လေ့လာခဲ့သည့်အရာ မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 26's Sandar reading and Week 27's Nay Chi reading -- the exact same caution applied now to your own town's case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 26 ၏ Sandar စာဖတ်ခြင်းနှင့် Week 27 ၏ Nay Chi စာဖတ်ခြင်းကို တိုက်ရိုက် ပြန်သတိရစေသည် -- သင့်ကိုယ်ပိုင် မြို့၏ Case Study ပေါ်တွင် ယခု အသုံးချထားသော သတိပေးချက် အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the case study honestly note if certain local data (such as an exact founding date) could not be found or confirmed, rather than inventing a plausible-sounding number?",
+          questionMy:
+              "Local Data အချို့ (တိကျသော တည်ထောင်ရက်စွဲကဲ့သို့) ကို ရှာမတွေ့ (သို့) အတည်မပြုနိုင်ပါက ဖြစ်နိုင်ချေရှိဟန် ရှိသော ဂဏန်းတစ်ခု တီထွင်မည့်အစား Case Study တစ်ခုသည် အဘယ်ကြောင့် ရိုးသားစွာ မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "Inventing a plausible-sounding number to fill a gap is dishonest and misleading, while noting genuine uncertainty matches the honest-uncertainty habit built since Term 2",
+            "Inventing numbers to fill gaps is always acceptable in a student case study",
+            "Noting genuine data gaps has no actual value in a case study",
+            "A case study should always claim complete knowledge regardless of what could actually be confirmed",
+          ],
+          optionsMy: [
+            "Gap တစ်ခု ဖြည့်ရန် ဖြစ်နိုင်ချေရှိဟန် ရှိသော ဂဏန်းတစ်ခု တီထွင်ခြင်းသည် ရိုးမသားပါ၊ လှည့်ဖြားစေပြီး စစ်မှန်သော Uncertainty ကို မှတ်သားခြင်းသည် Term 2 မှစ၍ တည်ဆောက်ခဲ့သော Honest-Uncertainty Habit နှင့် ကိုက်ညီသည်",
+            "Gap များ ဖြည့်ရန် ဂဏန်းများ တီထွင်ခြင်းသည် ကျောင်းသား Case Study တစ်ခုတွင် အမြဲ လက်ခံနိုင်ခြင်း",
+            "Genuine Data Gap များ မှတ်သားခြင်းသည် Case Study တစ်ခုတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "Case Study တစ်ခုသည် Actual Confirm ပြုလုပ်နိုင်သည့်အရာ မည်သို့ပင်ရှိစေ Complete Knowledge ကို အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same honest-uncertainty principle from Term 2's museum exhibit and Term 5's Silk Road project, applied now to your own case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ ပြတိုက် Exhibit နှင့် Term 5 ၏ Silk Road Project မှ Honest-Uncertainty Principle တူတူ ဖြစ်ပြီး ယခု သင့်ကိုယ်ပိုင် Case Study ပေါ်တွင် အသုံးချထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Skills Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 7 Skills ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w28-dm-1",
+          termEn: "Combined case study",
+          termMy: "Combined Case Study",
+          matchEn:
+              "A report answering both why a place formed and what it is classified as today",
+          matchMy:
+              "နေရာတစ်ခု အဘယ်ကြောင့် ဖွဲ့စည်းခဲ့သည်နှင့် ယနေ့ မည်သို့ Classify ပြုလုပ်ထားသည် နှစ်ခုစလုံးကို ဖြေဆိုသော Report",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w28-dm-2",
+          termEn: "Unsupported wealth assumption",
+          termMy: "Unsupported Wealth Assumption",
+          matchEn:
+              "Wrongly assuming a classification like 'rural' automatically means poor",
+          matchMy:
+              "'Rural' ကဲ့သို့ Classification တစ်ခုသည် အလိုအလျောက် ဆင်းရဲသည်ဟု မှားယွင်းစွာ ယူဆခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w28-dm-3",
+          termEn: "Confirmed local data",
+          termMy: "Confirmed Local Data",
+          matchEn:
+              "Population and site information verified through actual local sources",
+          matchMy:
+              "Actual Local Source များမှတစ်ဆင့် အတည်ပြုထားသော Population နှင့် Site Information",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w28-dm-4",
+          termEn: "Noted data gap",
+          termMy: "Noted Data Gap",
+          matchEn:
+              "Honestly marking information that could not be found or confirmed",
+          matchMy:
+              "ရှာမတွေ့ (သို့) အတည်မပြုနိုင်သော Information ကို ရိုးသားစွာ မှတ်သားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Case Study Practice or Weak?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော Case Study Practice (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Case Study Practice", "Weak Case Study Practice"],
+        bucketsMy: [
+          "ခိုင်မာသော Case Study Practice",
+          "အားနည်းသော Case Study Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w28-sort-1",
+            labelEn:
+                "Explaining both site factors and current urban-rural classification with evidence",
+            labelMy:
+                "Evidence ဖြင့် Site Factor များနှင့် Current Urban-Rural Classification နှစ်ခုစလုံး ရှင်းပြခြင်း",
+            correctBucketEn: "Strong Case Study Practice",
+            correctBucketMy: "ခိုင်မာသော Case Study Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w28-sort-2",
+            labelEn:
+                "Assuming the town is unimportant simply because it is classified as rural",
+            labelMy:
+                "Rural အဖြစ် Classify ပြုလုပ်ထားသောကြောင့်သာ မြို့သည် အရေးမကြီးဟု ယူဆခြင်း",
+            correctBucketEn: "Weak Case Study Practice",
+            correctBucketMy: "အားနည်းသော Case Study Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w28-sort-3",
+            labelEn:
+                "Noting honestly that an exact founding date could not be confirmed",
+            labelMy:
+                "တည်ထောင်ရက်စွဲ အတိအကျကို အတည်မပြုနိုင်ခဲ့ကြောင်း ရိုးသားစွာ မှတ်သားခြင်း",
+            correctBucketEn: "Strong Case Study Practice",
+            correctBucketMy: "ခိုင်မာသော Case Study Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w28-sort-4",
+            labelEn:
+                "Inventing a specific founding date with no actual source to support it",
+            labelMy:
+                "ထောက်ခံသော Source အမှန်တကယ် မပါဘဲ တိကျသော တည်ထောင်ရက်စွဲတစ်ခု တီထွင်ခြင်း",
+            correctBucketEn: "Weak Case Study Practice",
+            correctBucketMy: "အားနည်းသော Case Study Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thura's Complete Town Case Study",
+      titleMy: "စာဖတ်ခြင်း - Thura ၏ ပြည့်စုံသော မြို့ Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's Complete Town Case Study",
+        titleMy: "Thura ၏ ပြည့်စုံသော မြို့ Case Study",
+        passageEn:
+            "For Term 7's capstone, Thura produced a full case study of his own hometown, combining every skill from the term into one connected report.\n\nHis site-factor section explained his town's location using several combined advantages, following Week 25's lesson: a nearby stream for water, moderately fertile surrounding land, and a slightly elevated position that had historically offered some natural protection. He cited local records rather than guessing from the modern-day layout alone.\n\nHis classification section applied Week 26's precise definitions, gathering the town's actual population figures and the balance of farming versus non-farming employment to determine, with real data, that the town sat closer to the rural end of the spectrum. He was careful to add a note applying Week 27's lesson directly: this rural classification described population density and land use only, not the town's overall importance -- the town's agricultural output made a real, documented contribution to the surrounding district's economy.\n\nWhen Thura tried to confirm the exact year the town was first settled, his sources disagreed, with some suggesting one century and others a different one. Rather than picking a number that sounded reasonable, he wrote plainly that the exact founding date remained uncertain based on available records, and that his best-supported estimate fell within a documented range rather than a single precise year.\n\nHis teacher praised the finished case study as a genuine synthesis of the whole term: combined site-factor and classification analysis, a rejection of the false rural-equals-unimportant assumption, and honest acknowledgment of a genuine gap in the historical record -- exactly the disciplined habits built since Term 1, now applied to the place Thura knew best.",
+        passageMy:
+            "Term 7 ၏ Capstone အတွက် Term မှ Skill တိုင်းကို ပေါင်းစပ် Report တစ်ခုတည်းအဖြစ် ၎င်းကိုယ်ပိုင် ဇာတိမြို့၏ Case Study အပြည့်အစုံကို Thura ထုတ်လုပ်ခဲ့သည်။\n\n၎င်း၏ Site-Factor Section သည် Week 25 ၏ သင်ခန်းစာကို လိုက်နာကာ Combined Advantage များစွာ အသုံးပြု၍ ၎င်း၏ မြို့၏ တည်နေရာကို ရှင်းပြခဲ့သည် - ရေအတွက် နီးကပ်သော ချောင်းငယ်တစ်ခု၊ Moderately မြေဩဇာကောင်းသော ပတ်ဝန်းကျင်ရှိ မြေနှင့် သမိုင်းအရ သဘာဝ Protection အချို့ ပေးအပ်ခဲ့သော အနည်းငယ် မြင့်တက်နေသော Position။ ခေတ်သစ် Layout တစ်ခုတည်းမှ ခန့်မှန်းမည့်အစား Local Record များကို ၎င်း ကိုးကားခဲ့သည်။\n\n၎င်း၏ Classification Section သည် Week 26 ၏ တိကျသော Definition များကို အသုံးချကာ မြို့သည် Spectrum ၏ Rural End နှင့် ပို၍ နီးကပ်စွာ တည်ရှိကြောင်း Real Data ဖြင့် ဆုံးဖြတ်ရန် မြို့၏ Actual Population ကိန်းဂဏန်းများနှင့် Farming Versus Non-Farming Employment Balance ကို စုဆောင်းခဲ့သည်။ Week 27 ၏ သင်ခန်းစာကို တိုက်ရိုက် အသုံးချသော မှတ်ချက်တစ်ခု ထပ်ထည့်ရန် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည် - ဤ Rural Classification သည် Population Density နှင့် Land Use ကိုသာ ဖော်ပြခဲ့ပြီး မြို့၏ ယေဘုယျ Importance ကို မဟုတ်ပါ -- မြို့၏ စိုက်ပျိုးရေး ထုတ်ကုန်သည် ပတ်ဝန်းကျင် District ၏ Economy သို့ Real, Documented Contribution တစ်ခု ပြုလုပ်ခဲ့သည်။\n\nမြို့ ပထမဆုံး အခြေချ နေထိုင်ခဲ့သော အတိအကျ နှစ်ကို Thura အတည်ပြုရန် ကြိုးစားသောအခါ ၎င်း၏ Source များ သဘောမကွဲလွဲခဲ့ပါ၊ အချို့က ရာစုနှစ်တစ်ခုကို ညွှန်ပြခဲ့ပြီး အချို့က ကွဲပြားသော တစ်ခုကို ညွှန်ပြခဲ့သည်။ Reasonable ကဲ့သို့ ထင်ရသော ဂဏန်းတစ်ခုကို ရွေးချယ်မည့်အစား ရရှိနိုင်သော Record များ အခြေခံ၍ အတိအကျ တည်ထောင်ရက်စွဲသည် မသေချာသေးကြောင်းနှင့် ၎င်း၏ ကောင်းဆုံး ထောက်ခံထားသော ခန့်မှန်းချက်သည် တစ်ခုတည်းသော တိကျသော နှစ်တစ်ခုအစား Document ပြုလုပ်ထားသော Range တစ်ခုအတွင်း ကျရောက်ကြောင်း ၎င်း ရှင်းလင်းစွာ ရေးသားခဲ့သည်။\n\nComplete Synthesis တစ်ခုအဖြစ် ပြီးစီးသွားသော Case Study ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် - Combined Site-Factor နှင့် Classification Analysis, False Rural-Equals-Unimportant Assumption ငြင်းပယ်ခြင်းနှင့် သမိုင်းဆိုင်ရာ Record ရှိ Genuine Gap တစ်ခု ရိုးသားစွာ အသိအမှတ်ပြုခြင်း -- Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Disciplined Habit များ အတိအကျဖြင့် Thura အကောင်းဆုံး သိရှိသော နေရာပေါ်တွင် ယခု အသုံးချထားခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what combined advantages did Thura cite for his town's site factors?",
+            questionMy:
+                "၎င်း၏ မြို့၏ Site Factor များအတွက် Thura ကိုးကားခဲ့သော Combined Advantage များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A nearby stream, moderately fertile land, and a slightly elevated defensible position",
+              "No advantages of any kind were cited for the town's site",
+              "Only a single unrelated factor with no other detail given",
+              "Advantages entirely unrelated to geography or water access",
+            ],
+            optionsMy: [
+              "နီးကပ်သော ချောင်းငယ်တစ်ခု၊ Moderately မြေဩဇာကောင်းသော မြေနှင့် အနည်းငယ် မြင့်တက်နေသော Defensible Position",
+              "မြို့၏ Site အတွက် Advantage မည်သည်မှ ကိုးကားခြင်း မရှိခြင်း",
+              "Factor တစ်ခုတည်း၊ မသက်ဆိုင်သော တစ်ခုတည်းကိုသာ ကိုးကားခဲ့ပြီး အခြား Detail မပေးခြင်း",
+              "Geography (သို့) ရေ Access နှင့် လုံးလုံး မသက်ဆိုင်သော Advantage များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited advantages."],
+            hintsMy: [
+              "ကိုးကားထားသော Advantage များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what note did Thura add about the town's rural classification?",
+            questionMy:
+                "မြို့၏ Rural Classification အကြောင်း Thura ထပ်ထည့်ခဲ့သော မှတ်ချက်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It described population density and land use only, not the town's overall importance",
+              "It meant the town had no economic contribution of any kind whatsoever",
+              "It proved the town was definitely more important than any nearby city",
+              "It had no actual connection to population or land use at all",
+            ],
+            optionsMy: [
+              "၎င်းသည် Population Density နှင့် Land Use ကိုသာ ဖော်ပြခဲ့ပြီး မြို့၏ ယေဘုယျ Importance ကို မဟုတ်ခြင်း",
+              "မြို့တွင် Economic Contribution မည်သည်မှ လုံးဝ မရှိကြောင်း ဆိုလိုခြင်း",
+              "အနီးရှိ မြို့ မည်သည်ထက်မဆို မြို့သည် ဧကန်အမှန် ပို၍ အရေးကြီးကြောင်း သက်သေပြခြင်း",
+              "Population (သို့) Land Use နှင့် အမှန်တကယ် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's added note."],
+            hintsMy: [
+              "ထပ်ထည့်ခဲ့သော မှတ်ချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, how did Thura handle the disagreement about the town's founding date?",
+            questionMy:
+                "မြို့၏ တည်ထောင်ရက်စွဲအကြောင်း Disagreement ကို Thura မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He wrote plainly that the exact date remained uncertain and gave a documented range instead",
+              "He picked a random number that sounded reasonable with no evidence",
+              "He refused to mention the founding date in any way whatsoever",
+              "He claimed complete certainty about the exact founding year with no doubt",
+            ],
+            optionsMy: [
+              "အတိအကျ ရက်စွဲသည် မသေချာသေးကြောင်း ရှင်းလင်းစွာ ရေးသားခဲ့ပြီး ၎င်းအစား Document ပြုလုပ်ထားသော Range တစ်ခု ပေးအပ်ခဲ့ခြင်း",
+              "Evidence မပါဘဲ Reasonable ကဲ့သို့ ထင်ရသော ကျပန်း ဂဏန်းတစ်ခု ရွေးချယ်ခဲ့ခြင်း",
+              "တည်ထောင်ရက်စွဲကို နည်းလမ်း မည်သည်နှင့်မျှ ဖော်ပြရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "အတိအကျ တည်ထောင်နှစ်အကြောင်း သံသယ မရှိဘဲ Complete Certainty Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's described handling."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကိုင်တွယ်ပုံကို စတုတ္ထ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Settlements and Where People Live Exam",
+      titleMy: "Term 7 Capstone - Settlements and Where People Live စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong town case study combines...",
+          questionMy:
+              "ခိုင်မာသော မြို့ Case Study တစ်ခုသည် ...ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "Site-factor explanation and urban-rural classification data",
+            "Only site factors with no classification data",
+            "Only classification data with no site factors",
+            "Neither site factors nor classification data",
+          ],
+          optionsMy: [
+            "Site-Factor Explanation နှင့် Urban-Rural Classification Data",
+            "Classification Data မပါဘဲ Site Factor များသာ",
+            "Site Factor မပါဘဲ Classification Data သာ",
+            "Site Factor နှင့် Classification Data နှစ်ခုစလုံး မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A rural classification means...",
+          questionMy: "Rural Classification တစ်ခုသည် ...ဆိုလိုသည်",
+          optionsEn: [
+            "Lower population density, not automatically low importance",
+            "The place is automatically poor and unimportant",
+            "The place has no economic contribution of any kind",
+            "Exactly the same thing as 'urban'",
+          ],
+          optionsMy: [
+            "Population Density နိမ့်ခြင်း၊ Importance နိမ့်သည်ဟု အလိုအလျောက် မဆိုလိုခြင်း",
+            "နေရာသည် အလိုအလျောက် ဆင်းရဲပြီး အရေးမကြီးခြင်း",
+            "နေရာတွင် Economic Contribution မည်သည်မှ မရှိခြင်း",
+            "'Urban' နှင့် အတိအကျ တူညီသည့်အရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When a specific historical detail like a founding date cannot be confirmed, a case study should...",
+          questionMy:
+              "တည်ထောင်ရက်စွဲကဲ့သို့ တိကျသော သမိုင်းဆိုင်ရာ Detail တစ်ခုကို အတည်မပြုနိုင်သောအခါ Case Study တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Honestly note the uncertainty rather than inventing a number",
+            "Invent a plausible-sounding number to fill the gap",
+            "Remove all mention of the town's history entirely",
+            "Claim complete certainty regardless of the evidence",
+          ],
+          optionsMy: [
+            "ဂဏန်းတစ်ခု တီထွင်မည့်အစား Uncertainty ကို ရိုးသားစွာ မှတ်သားသင့်သည်",
+            "Gap ဖြည့်ရန် ဖြစ်နိုင်ချေရှိဟန် ရှိသော ဂဏန်းတစ်ခု တီထွင်သင့်သည်",
+            "မြို့၏ သမိုင်းအကြောင်း ဖော်ပြချက်အားလုံးကို လုံးလုံး ဖယ်ရှားသင့်သည်",
+            "Evidence မည်သို့ပင်ရှိစေ Complete Certainty Claim ပြုလုပ်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 7: "Settlements and Where People
+// Live" (Weeks 25-28)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm7 = CourseTermDef(
+  id: "course-sec1-hum-t7",
+  termNumber: 7,
+  titleEn: "Settlements and Where People Live",
+  titleMy: "Settlements and Where People Live",
+  certificateTitleEn: "Settlements and Where People Live",
+  certificateTitleMy: "Settlements and Where People Live",
+  weeks: [_sec1HumWeek25, _sec1HumWeek26, _sec1HumWeek27, _sec1HumWeek28],
 );
 // __SEC_HUM_MARKER__
