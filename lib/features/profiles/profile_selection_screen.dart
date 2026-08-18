@@ -12,6 +12,7 @@ import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
 import '../../providers/locale_provider.dart';
 import '../children/add_child_dialog.dart';
+import '../children/edit_child_dialog.dart';
 
 /// The Netflix-style "Who's learning?" picker every authenticated session
 /// starts on. Picking a tile just writes to [activeProfileProvider]; the
@@ -94,7 +95,26 @@ class ProfileSelectionScreen extends ConsumerWidget {
                           _SelfProfileTile(role: userModel.role),
                         ...childrenAsync.maybeWhen(
                           data: (children) => children
-                              .map((child) => _ChildProfileTile(child: child))
+                              .map(
+                                (child) => _ChildProfileTile(
+                                  child: child,
+                                  // Edit/delete are parent/owner actions
+                                  // only. childrenForCurrentUserProvider
+                                  // also surfaces children linked to a
+                                  // teacher (see that provider's doc
+                                  // comment) -- Firestore rules happen to
+                                  // already permit a linked teacher to
+                                  // write those documents, but nothing in
+                                  // the app exposes that today, and this
+                                  // menu shouldn't be the first place a
+                                  // teacher gets a way to rename or delete
+                                  // a family's child profile.
+                                  canManage:
+                                      userModel != null &&
+                                      (userModel.role == UserRole.owner ||
+                                          child.parentId == userModel.id),
+                                ),
+                              )
                               .toList(),
                           orElse: () => const [],
                         ),
@@ -222,6 +242,7 @@ class _ProfileTileShell extends StatefulWidget {
     required this.icon,
     required this.color,
     required this.onTap,
+    this.onLongPress,
   });
 
   final String label;
@@ -229,6 +250,12 @@ class _ProfileTileShell extends StatefulWidget {
   final IconData icon;
   final Color color;
   final VoidCallback onTap;
+
+  /// Only ever wired from [_ChildProfileTile] -- the "Continue as Owner"/
+  /// self-profile tile and the "Add Child" tile never pass this, so
+  /// long-pressing them does nothing rather than accidentally exposing
+  /// edit/delete on an account tile.
+  final VoidCallback? onLongPress;
 
   @override
   State<_ProfileTileShell> createState() => _ProfileTileShellState();
@@ -245,6 +272,7 @@ class _ProfileTileShellState extends State<_ProfileTileShell> {
       onTapUp: (_) => setState(() => _pressed = false),
       onTapCancel: () => setState(() => _pressed = false),
       onTap: widget.onTap,
+      onLongPress: widget.onLongPress,
       child: AnimatedScale(
         scale: _pressed ? 0.93 : 1.0,
         duration: const Duration(milliseconds: 120),
@@ -324,22 +352,138 @@ class _SelfProfileTile extends ConsumerWidget {
 }
 
 class _ChildProfileTile extends ConsumerWidget {
-  const _ChildProfileTile({required this.child});
+  const _ChildProfileTile({required this.child, required this.canManage});
 
   final ChildModel child;
+
+  /// Whether the current viewer may edit/delete this specific child --
+  /// true only for the parent who created the profile, or the owner
+  /// account. See the call site's doc comment for why a linked teacher
+  /// (who can also see this tile) does not get this menu.
+  final bool canManage;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context);
-    return _ProfileTileShell(
+    final tile = _ProfileTileShell(
       label: child.aliasName,
       subtitle: gradeLabel(l10n, child.currentGrade),
       icon: Icons.emoji_emotions_rounded,
       color: AppColors.secondary,
       onTap: () => ref.read(activeProfileProvider.notifier).state =
           StudentProfile(child),
+      onLongPress: canManage
+          ? () => _showChildActionsMenu(context, ref, child)
+          : null,
+    );
+    if (!canManage) return tile;
+
+    return Stack(
+      clipBehavior: Clip.none,
+      children: [
+        tile,
+        // A visible affordance for the same menu long-press opens --
+        // long-press alone is easy to miss, especially for a parent who
+        // has never used this screen before.
+        Positioned(
+          top: -4,
+          right: -4,
+          child: _ChildActionsButton(
+            onTap: () => _showChildActionsMenu(context, ref, child),
+          ),
+        ),
+      ],
     );
   }
+}
+
+/// The small circular "more" affordance in the corner of a [_ChildProfileTile].
+class _ChildActionsButton extends StatelessWidget {
+  const _ChildActionsButton({required this.onTap});
+
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: Colors.white,
+      shape: const CircleBorder(),
+      elevation: 3,
+      child: InkWell(
+        customBorder: const CircleBorder(),
+        onTap: onTap,
+        child: const Padding(
+          padding: EdgeInsets.all(6),
+          child: Icon(
+            Icons.more_vert_rounded,
+            size: 16,
+            color: AppColors.charcoalNavy,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Bottom sheet offering "Edit" and "Delete" for [child] -- opened either by
+/// long-pressing a [_ChildProfileTile] or tapping its [_ChildActionsButton]
+/// affordance. Never reachable from [_SelfProfileTile] (the "Continue as
+/// Owner"/self/parent/teacher tile) or [_AddChildTile], since neither of
+/// those wires an `onLongPress`/calls this function.
+void _showChildActionsMenu(
+  BuildContext context,
+  WidgetRef ref,
+  ChildModel child,
+) {
+  final l10n = AppLocalizations.of(context);
+  showModalBottomSheet<void>(
+    context: context,
+    shape: const RoundedRectangleBorder(
+      borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+    ),
+    builder: (sheetContext) => SafeArea(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 16, 20, 8),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                child.aliasName,
+                style: Theme.of(
+                  sheetContext,
+                ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+              ),
+            ),
+          ),
+          ListTile(
+            leading: const Icon(Icons.edit_outlined),
+            title: Text(l10n.actionEdit),
+            onTap: () {
+              Navigator.of(sheetContext).pop();
+              showEditChildDialog(context, ref, child);
+            },
+          ),
+          ListTile(
+            leading: Icon(
+              Icons.delete_outline,
+              color: Theme.of(sheetContext).colorScheme.error,
+            ),
+            title: Text(
+              l10n.actionDelete,
+              style: TextStyle(color: Theme.of(sheetContext).colorScheme.error),
+            ),
+            onTap: () {
+              Navigator.of(sheetContext).pop();
+              confirmDeleteChild(context, ref, child);
+            },
+          ),
+          const SizedBox(height: 8),
+        ],
+      ),
+    ),
+  );
 }
 
 class _AddChildTile extends ConsumerWidget {

@@ -12,10 +12,10 @@ import '../../models/user_model.dart';
 import '../../providers/auth_providers.dart';
 import '../../providers/billing_providers.dart';
 import '../../providers/children_providers.dart';
-import '../../providers/firebase_providers.dart';
 import '../../providers/mock_state_providers.dart';
 import '../../routing/app_router.dart';
 import '../children/add_child_dialog.dart';
+import '../children/edit_child_dialog.dart';
 
 /// The parent's home base: paywall status, their children's profiles, and
 /// a lightweight "invite a teacher" flow.
@@ -497,143 +497,17 @@ class _ChildTile extends ConsumerWidget {
             IconButton(
               tooltip: l10n.actionEdit,
               icon: const Icon(Icons.edit_outlined),
-              onPressed: () => _showEditDialog(context, ref, child),
+              onPressed: () => showEditChildDialog(context, ref, child),
             ),
             IconButton(
               tooltip: l10n.actionDelete,
               icon: const Icon(Icons.delete_outline),
-              onPressed: () => _confirmDelete(context, ref, child),
+              onPressed: () => confirmDeleteChild(context, ref, child),
             ),
           ],
         ),
       ),
     );
-  }
-
-  Future<void> _showEditDialog(
-    BuildContext context,
-    WidgetRef ref,
-    ChildModel child,
-  ) async {
-    final l10n = AppLocalizations.of(context);
-    final aliasController = TextEditingController(text: child.aliasName);
-    Grade selectedGrade = child.currentGrade;
-
-    final saved = await showDialog<bool>(
-      context: context,
-      builder: (dialogContext) => StatefulBuilder(
-        builder: (dialogContext, setState) => AlertDialog(
-          title: Text(l10n.actionEdit),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              TextField(
-                controller: aliasController,
-                decoration: InputDecoration(
-                  labelText: l10n.profileAliasName,
-                  border: const OutlineInputBorder(),
-                ),
-              ),
-              const SizedBox(height: 16),
-              DropdownButtonFormField<Grade>(
-                initialValue: selectedGrade,
-                decoration: InputDecoration(
-                  labelText: l10n.profileChooseGrade,
-                  border: const OutlineInputBorder(),
-                ),
-                items: Grade.values
-                    .map(
-                      (g) => DropdownMenuItem(
-                        value: g,
-                        child: Text(gradeLabel(l10n, g)),
-                      ),
-                    )
-                    .toList(),
-                onChanged: (value) {
-                  if (value != null) setState(() => selectedGrade = value);
-                },
-              ),
-            ],
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(dialogContext).pop(false),
-              child: Text(l10n.actionCancel),
-            ),
-            FilledButton(
-              onPressed: () => Navigator.of(dialogContext).pop(true),
-              child: Text(l10n.actionSave),
-            ),
-          ],
-        ),
-      ),
-    );
-
-    if (saved != true) return;
-    try {
-      await updateChild(
-        ref.read(firestoreProvider),
-        child.copyWith(
-          aliasName: aliasController.text.trim(),
-          currentGrade: selectedGrade,
-        ),
-      );
-      if (context.mounted) {
-        ScaffoldMessenger.of(context)
-          ..hideCurrentSnackBar()
-          ..showSnackBar(SnackBar(content: Text(l10n.profileUpdated)));
-      }
-    } catch (_) {
-      if (context.mounted) {
-        ScaffoldMessenger.of(context)
-          ..hideCurrentSnackBar()
-          ..showSnackBar(SnackBar(content: Text(l10n.actionError)));
-      }
-    }
-  }
-
-  Future<void> _confirmDelete(
-    BuildContext context,
-    WidgetRef ref,
-    ChildModel child,
-  ) async {
-    final l10n = AppLocalizations.of(context);
-    final confirmed = await showDialog<bool>(
-      context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: Text(l10n.actionDelete),
-        content: Text(l10n.childDeleteConfirmMessage(child.aliasName)),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
-            child: Text(l10n.actionCancel),
-          ),
-          FilledButton(
-            style: FilledButton.styleFrom(
-              backgroundColor: Theme.of(dialogContext).colorScheme.error,
-            ),
-            onPressed: () => Navigator.of(dialogContext).pop(true),
-            child: Text(l10n.actionDelete),
-          ),
-        ],
-      ),
-    );
-
-    if (confirmed != true) return;
-    try {
-      await deleteChild(ref.read(firestoreProvider), child.id);
-      if (context.mounted) {
-        ScaffoldMessenger.of(context)
-          ..hideCurrentSnackBar()
-          ..showSnackBar(SnackBar(content: Text(l10n.profileDeleted)));
-      }
-    } catch (_) {
-      if (context.mounted) {
-        ScaffoldMessenger.of(context)
-          ..hideCurrentSnackBar()
-          ..showSnackBar(SnackBar(content: Text(l10n.actionError)));
-      }
-    }
   }
 }
 
