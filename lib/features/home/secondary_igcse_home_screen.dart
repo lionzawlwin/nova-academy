@@ -98,6 +98,115 @@ bool _isModuleCompleted(ChildModel? child, LearningModuleModel module) {
   return child?.completedModuleIds.contains(module.id) ?? false;
 }
 
+/// Picks which module a tap on a [_SubjectCard] should open: the first
+/// not-yet-completed module in [gradeModules] whose `subject` matches
+/// [subjectKey] (falling back to that subset's first module once every one
+/// of them is complete), or `null` when this grade has no authored content
+/// for that subject at all -- in which case the card keeps showing an
+/// honest "not available yet" message instead of a fake link.
+///
+/// [isLocked] mirrors the exact rule `_ModuleListTile`'s caller already
+/// applies (locked unless it or its immediate predecessor in the *full*
+/// `gradeModules` order is complete), computed against the target's real
+/// position in that full list -- not a subject-scoped index -- so tapping a
+/// subject card never bypasses the same unlock progression the "Upcoming
+/// Modules" list enforces.
+({LearningModuleModel module, bool isLocked})? _targetModuleForSubject(
+  List<LearningModuleModel> gradeModules,
+  ChildModel? child,
+  String subjectKey,
+) {
+  final matches = gradeModules
+      .where((m) => m.subject.toLowerCase() == subjectKey)
+      .toList();
+  if (matches.isEmpty) return null;
+
+  final target = matches.firstWhere(
+    (m) => !_isModuleCompleted(child, m),
+    orElse: () => matches.first,
+  );
+  final overallIndex = gradeModules.indexOf(target);
+  final isLocked =
+      overallIndex > 0 &&
+      !_isModuleCompleted(child, gradeModules[overallIndex]) &&
+      !_isModuleCompleted(child, gradeModules[overallIndex - 1]);
+  return (module: target, isLocked: isLocked);
+}
+
+/// Shows the module-detail dialog for [module] -- shared by
+/// `_ModuleListTile`'s "Upcoming Modules" row and `_SubjectCard`'s subject
+/// grid, so both entry points into the same module land on identical UI.
+/// The Explore button dispatches through [pushLessonForModule] rather than
+/// hardcoding the MCQ quiz route, so fill-in-blank/drag-match modules land
+/// on their own lesson screens while existing quiz modules keep working
+/// exactly as before (the function's fallback path).
+void _showModuleDetail(
+  BuildContext context,
+  LearningModuleModel module,
+  String locale,
+) {
+  final l10n = AppLocalizations.of(context);
+  final theme = Theme.of(context);
+  final title = locale == 'my' ? module.titleMy : module.titleEn;
+  final description = locale == 'my'
+      ? module.descriptionMy
+      : module.descriptionEn;
+
+  showDialog<void>(
+    context: context,
+    builder: (dialogContext) => AlertDialog(
+      title: Text(title),
+      content: description.isEmpty ? null : Text(description),
+      actions: [
+        CandyBevelSurface(
+          faceColor: theme.colorScheme.surfaceContainerHighest,
+          bevelDepth: CandyBevelDepth.secondary,
+          borderRadius: AppTheme.radiusSmall,
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+          onTap: () => Navigator.of(dialogContext).pop(),
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              l10n.actionClose,
+              style: theme.textTheme.labelLarge?.copyWith(
+                fontWeight: FontWeight.w700,
+                color: theme.colorScheme.onSurface,
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(width: 10),
+        CandyBevelSurface(
+          faceColor: AppColors.deepCobalt,
+          bevelDepth: CandyBevelDepth.secondary,
+          borderRadius: AppTheme.radiusSmall,
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+          onTap: () {
+            Navigator.of(dialogContext).pop();
+            pushLessonForModule(
+              context,
+              module: module,
+              title: title,
+              subjectKey: module.subject,
+              stars: module.starsReward,
+            );
+          },
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              l10n.actionExplore,
+              style: theme.textTheme.labelLarge?.copyWith(
+                fontWeight: FontWeight.w800,
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ),
+      ],
+    ),
+  );
+}
+
 /// The Secondary/IGCSE student home: a mature, information-dense dashboard
 /// -- subject cards, a progress summary, and an upcoming modules list --
 /// in a muted-premium palette rather than the brighter tones of the
@@ -170,11 +279,19 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
                 final count = gradeModules
                     .where((m) => m.subject.toLowerCase() == subject.key)
                     .length;
+                final target = _targetModuleForSubject(
+                  gradeModules,
+                  child,
+                  subject.key,
+                );
                 return _SubjectCard(
                   label: _labelFor(l10n, subject.key),
                   icon: subject.icon,
                   moduleCount: count,
                   index: index,
+                  targetModule: target?.module,
+                  isTargetLocked: target?.isLocked ?? false,
+                  locale: locale,
                 );
               },
             ),
@@ -239,7 +356,9 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
   /// the product directive: General Knowledge, Science, Geography, History
   /// -- every Secondary/IGCSE grade has real seeded content for all four
   /// after the depth-parity rollout (`secondary_curriculum_bank.dart`).
-  List<ChallengeZoneItem> _secondaryChallengeZoneItems(AppLocalizations l10n) => [
+  List<ChallengeZoneItem> _secondaryChallengeZoneItems(
+    AppLocalizations l10n,
+  ) => [
     ChallengeZoneItem(
       label: l10n.subjectGeneralKnowledge,
       icon: Icons.emoji_objects_rounded,
@@ -304,7 +423,9 @@ class SecondaryIgcseHomeScreen extends ConsumerWidget {
     if (matches.isEmpty) {
       ScaffoldMessenger.of(context)
         ..hideCurrentSnackBar()
-        ..showSnackBar(SnackBar(content: Text(l10n.homeChallengeZoneComingSoon)));
+        ..showSnackBar(
+          SnackBar(content: Text(l10n.homeChallengeZoneComingSoon)),
+        );
       return;
     }
     final module = matches.first;
@@ -601,12 +722,27 @@ class _SubjectCard extends StatefulWidget {
     required this.icon,
     required this.moduleCount,
     required this.index,
+    required this.targetModule,
+    required this.isTargetLocked,
+    required this.locale,
   });
 
   final String label;
   final IconData icon;
   final int moduleCount;
   final int index;
+
+  /// The module a tap should open, from [_targetModuleForSubject] --
+  /// `null` when this grade has no authored content for this subject, in
+  /// which case tapping still shows the honest "not available yet" message
+  /// rather than pretending there's somewhere to go.
+  final LearningModuleModel? targetModule;
+
+  /// Whether [targetModule] is still gated by the same unlock progression
+  /// `_ModuleListTile` enforces -- ignored when [targetModule] is `null`.
+  final bool isTargetLocked;
+
+  final String locale;
 
   @override
   State<_SubjectCard> createState() => _SubjectCardState();
@@ -684,9 +820,20 @@ class _SubjectCardState extends State<_SubjectCard>
         padding: const EdgeInsets.all(16),
         border: Border.all(color: AppColors.deepCobalt.withValues(alpha: 0.35)),
         onTap: () {
-          ScaffoldMessenger.of(context)
-            ..hideCurrentSnackBar()
-            ..showSnackBar(SnackBar(content: Text(l10n.actionComingSoon)));
+          final target = widget.targetModule;
+          if (target == null) {
+            ScaffoldMessenger.of(context)
+              ..hideCurrentSnackBar()
+              ..showSnackBar(SnackBar(content: Text(l10n.actionComingSoon)));
+            return;
+          }
+          if (widget.isTargetLocked) {
+            ScaffoldMessenger.of(context)
+              ..hideCurrentSnackBar()
+              ..showSnackBar(SnackBar(content: Text(l10n.homeLessonLocked)));
+            return;
+          }
+          _showModuleDetail(context, target, widget.locale);
         },
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -885,76 +1032,9 @@ class _ModuleListTile extends StatelessWidget {
               ..showSnackBar(SnackBar(content: Text(l10n.homeLessonLocked)));
             return;
           }
-          _showDetail(context, title, description);
+          _showModuleDetail(context, module, locale);
         },
         child: isLocked ? Opacity(opacity: 0.5, child: row) : row,
-      ),
-    );
-  }
-
-  /// The module-detail dialog itself stays flat/elevation-0 (unchanged
-  /// theme convention -- "chrome stays calm"), but its actionable Close/
-  /// Explore buttons get the shallow [CandyBevelSurface] treatment per the
-  /// spec's "every actionable element inside [a dialog] still gets the
-  /// two-layer bevel treatment" rule. The Explore button now dispatches
-  /// through [pushLessonForModule] rather than hardcoding the MCQ quiz
-  /// route, so fill-in-blank/drag-match modules land on their own lesson
-  /// screens while existing quiz modules keep working exactly as before
-  /// (the function's fallback path).
-  void _showDetail(BuildContext context, String title, String description) {
-    final l10n = AppLocalizations.of(context);
-    final theme = Theme.of(context);
-    showDialog<void>(
-      context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: Text(title),
-        content: description.isEmpty ? null : Text(description),
-        actions: [
-          CandyBevelSurface(
-            faceColor: theme.colorScheme.surfaceContainerHighest,
-            bevelDepth: CandyBevelDepth.secondary,
-            borderRadius: AppTheme.radiusSmall,
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
-            onTap: () => Navigator.of(dialogContext).pop(),
-            child: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                l10n.actionClose,
-                style: theme.textTheme.labelLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                  color: theme.colorScheme.onSurface,
-                ),
-              ),
-            ),
-          ),
-          const SizedBox(width: 10),
-          CandyBevelSurface(
-            faceColor: AppColors.deepCobalt,
-            bevelDepth: CandyBevelDepth.secondary,
-            borderRadius: AppTheme.radiusSmall,
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
-            onTap: () {
-              Navigator.of(dialogContext).pop();
-              pushLessonForModule(
-                context,
-                module: module,
-                title: title,
-                subjectKey: module.subject,
-                stars: module.starsReward,
-              );
-            },
-            child: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                l10n.actionExplore,
-                style: theme.textTheme.labelLarge?.copyWith(
-                  fontWeight: FontWeight.w800,
-                  color: Colors.white,
-                ),
-              ),
-            ),
-          ),
-        ],
       ),
     );
   }
