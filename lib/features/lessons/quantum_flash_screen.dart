@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/candy_bevel_surface.dart';
 import '../../providers/active_profile_provider.dart';
 import '../../providers/children_providers.dart';
 import '../../providers/firebase_providers.dart';
@@ -567,38 +568,43 @@ class _AnswerChip extends StatelessWidget {
   final bool revealResult;
   final VoidCallback onTap;
 
+  /// Same idle/correct/incorrect/disabled state pattern
+  /// `McqQuizScreen`/`FillInTheBlankScreen`'s option tiles already use: once
+  /// [revealResult] is true, the correct choice always shows gold (even if
+  /// it wasn't the one tapped), the tapped-and-wrong choice shows cherry,
+  /// and every other choice recedes rather than staying plain white with no
+  /// differentiation.
+  CandyBevelState get _state {
+    if (!revealResult) return CandyBevelState.idle;
+    if (isCorrectAnswer) return CandyBevelState.correct;
+    if (isTapped) return CandyBevelState.incorrect;
+    return CandyBevelState.disabled;
+  }
+
   @override
   Widget build(BuildContext context) {
-    Color background = Colors.white;
-    if (revealResult) {
-      if (isCorrectAnswer) {
-        background = const Color(0xFF4ED87A);
-      } else if (isTapped) {
-        background = const Color(0xFFE64545);
-      }
-    }
-
     return SizedBox(
       width: double.infinity,
-      child: Material(
-        color: background,
-        borderRadius: BorderRadius.circular(999),
-        elevation: 3,
-        child: InkWell(
-          borderRadius: BorderRadius.circular(999),
-          onTap: revealResult ? null : onTap,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
-            child: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                label,
-                maxLines: 1,
-                style: const TextStyle(
-                  fontWeight: FontWeight.w800,
-                  fontSize: 20,
-                ),
-              ),
+      child: CandyBevelSurface(
+        faceColor: Colors.white,
+        bevelDepth: CandyBevelDepth.nursery,
+        borderRadius: 999,
+        state: _state,
+        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
+        onTap: revealResult ? null : onTap,
+        child: FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(
+            label,
+            maxLines: 1,
+            style: TextStyle(
+              fontWeight: FontWeight.w800,
+              fontSize: 20,
+              color:
+                  _state == CandyBevelState.correct ||
+                      _state == CandyBevelState.incorrect
+                  ? AppColors.charcoalNavy
+                  : null,
             ),
           ),
         ),
