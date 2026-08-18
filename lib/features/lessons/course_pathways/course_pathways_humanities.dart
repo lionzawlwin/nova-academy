@@ -116369,10 +116369,1440 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec2HumTerm1],
+  terms: [_sec2HumTerm1, _sec2HumTerm2],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 2: "Renaissance and Scientific
+// Revolution" (Weeks 5-8)
+// Term 2, Week 5: "Renaissance Ideas and Art"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek5 = CourseWeekDef(
+  id: "course-sec2-hum-w5",
+  weekNumber: 5,
+  titleEn: "Renaissance Ideas and Art",
+  titleMy: "Renaissance Idea များနှင့် အနုပညာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w5-d1",
+      dayNumber: 1,
+      titleEn: "Humanism and the Return to Classical Ideas",
+      titleMy: "Humanism နှင့် Classical Idea များသို့ ပြန်လည်ရောက်ရှိခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the Renaissance's revival of Greek and Roman classical ideas best understood as a documented legacy and adaptation, rather than an exact, unchanged copy of ancient thought?",
+          questionMy:
+              "Renaissance ၏ Greek နှင့် Roman Classical Idea များ ပြန်လည် ရှင်သန်စေခြင်းကို ရှေးဟောင်း Thought ၏ Exact, မပြောင်းလဲသော ကူးယူချက်တစ်ခုအစား Documented Legacy နှင့် Adaptation တစ်ခုအဖြစ် အကောင်းဆုံး နားလည်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Renaissance thinkers studied and were influenced by classical texts but combined them with new ideas and their own historical context, exactly the legacy-not-exact-copy distinction established in Secondary 1",
+            "The Renaissance involved no actual connection to Greek or Roman classical ideas whatsoever",
+            "Renaissance thought was an exact, word-for-word copy of ancient Greek and Roman texts with no adaptation",
+            "Classical Greek and Roman ideas had no actual influence on Renaissance thinkers",
+          ],
+          optionsMy: [
+            "Renaissance Thinker များသည် Classical Text များကို လေ့လာကာ Influence ခံခဲ့သော်လည်း ၎င်းတို့ကို Idea အသစ်များနှင့် ၎င်းတို့ ကိုယ်ပိုင် သမိုင်းဆိုင်ရာ Context နှင့် ပေါင်းစပ်ခဲ့ပြီး Secondary 1 တွင် တည်ထောင်ခဲ့သော Legacy-Not-Exact-Copy ခွဲခြားချက် အတိအကျ ဖြစ်သည်",
+            "Renaissance တွင် Greek (သို့) Roman Classical Idea များနှင့် Actual Connection မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "Renaissance Thought သည် Adaptation မပါဘဲ ရှေးဟောင်း Greek နှင့် Roman Text များ၏ Exact, Word-For-Word ကူးယူချက်တစ်ခု ဖြစ်ခြင်း",
+            "Classical Greek နှင့် Roman Idea များတွင် Renaissance Thinker များအပေါ် Actual Influence မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same legacy-verification habit from Secondary 1's Greek and Roman legacy lesson -- a genuine legacy is influence carried forward and adapted, not an unchanged copy.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ ဂရိနှင့် ရောမ Legacy သင်ခန်းစာမှ Legacy-Verification Habit တူတူ ဖြစ်သည် -- စစ်မှန်သော Legacy တစ်ခုသည် ဆက်လက် သယ်ဆောင်ကာ Adapt ပြုလုပ်ထားသော Influence တစ်ခု ဖြစ်ပြီး မပြောင်းလဲသော ကူးယူချက် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim that a specific Renaissance patron 'funded art purely out of love for beauty' be checked against documented evidence of that patron's political and economic interests, rather than accepted as the complete explanation?",
+          questionMy:
+              "Renaissance Patron တိကျတစ်ဦးသည် 'အလှတရားအတွက် ချစ်ခြင်းကြောင့်ပင် အနုပညာကို ရန်ပုံငွေထောက်ပံ့ခဲ့သည်' ဆိုသော Claim တစ်ခုကို Complete Explanation တစ်ခုအဖြစ် လက်ခံမည့်အစား ထို Patron ၏ နိုင်ငံရေးနှင့် စီးပွားရေး အကျိုးစီးပွားများ၏ Documented Evidence နှင့် အဘယ်ကြောင့် စစ်ဆေးသင့်ရသနည်း။",
+          optionsEn: [
+            "Historical patronage often served multiple functions simultaneously -- artistic, political, and economic -- so a single, simplified motive risks overlooking well-documented additional reasons, exactly as Secondary 1's exploration-motives lesson taught",
+            "Renaissance patrons only ever funded art for a single, simple reason with no other motives",
+            "Political and economic interests never actually connected to Renaissance art patronage",
+            "A simplified, single-motive explanation always gives the most accurate historical picture",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ Patronage သည် Artistic, Political နှင့် Economic -- Function များစွာကို မကြာခဏ တစ်ပြိုင်နက် ဆောင်ရွက်ပေးခဲ့သောကြောင့် Simplified Motive တစ်ခုတည်းသည် ကောင်းစွာ Documented ထပ်ဆောင်း အကြောင်းရင်းများကို လွတ်သွားစေနိုင်ခြေ ရှိပြီး Secondary 1 ၏ Exploration-Motives သင်ခန်းစာ သင်ကြားပေးခဲ့သည့်အတိုင်း ဖြစ်သည်",
+            "Renaissance Patron များသည် အခြား Motive မပါဘဲ Simple Reason တစ်ခုတည်းအတွက်သာ ဘယ်တော့မှ အနုပညာကို ရန်ပုံငွေထောက်ပံ့ခဲ့ခြင်း",
+            "Political နှင့် Economic အကျိုးစီးပွားများသည် Renaissance အနုပညာ Patronage နှင့် အမှန်တကယ် ဘယ်တော့မှ ချိတ်ဆက်မှု မရှိခြင်း",
+            "Simplified, Single-Motive Explanation တစ်ခုသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 1's exploration-motives lesson -- a single, simplified motive for a complex historical decision usually oversimplifies a documented, multi-factor reality.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Exploration-Motives သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- ရှုပ်ထွေးသော သမိုင်းဆိုင်ရာ ဆုံးဖြတ်ချက်တစ်ခုအတွက် Simplified Motive တစ်ခုတည်းသည် ယေဘုယျအားဖြင့် Documented, Multi-Factor Reality တစ်ခုကို Oversimplify ပြုလုပ်တတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students cite specific, named Renaissance artists and specific, documented techniques (such as linear perspective) rather than making a vague claim that 'Renaissance art was more realistic'?",
+          questionMy:
+              "'Renaissance Art သည် ပို၍ Realistic ဖြစ်ခဲ့သည်' ဟု Vague Claim တစ်ခု ပြုလုပ်မည့်အစား ကျောင်းသားများသည် Specific, Named Renaissance Artist များနှင့် Specific, Documented Technique များ (Linear Perspective ကဲ့သို့) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Naming specific artists and specific, documented techniques makes a claim checkable and precise, matching the specificity habit built throughout Secondary 1 rather than an unverifiable general impression",
+            "Vague claims about art being 'more realistic' are always more historically informative than named techniques",
+            "Citing specific artists and techniques has no actual value when discussing Renaissance art",
+            "Linear perspective and other documented techniques have no actual connection to Renaissance art",
+          ],
+          optionsMy: [
+            "Specific Artist များနှင့် Specific, Documented Technique များ အမည်ဖော်ပြခြင်းသည် Unverifiable General Impression တစ်ခုအစား Secondary 1 တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specificity Habit နှင့် ကိုက်ညီစွာ Claim တစ်ခုကို Checkable, Precise ဖြစ်စေသည်",
+            "Art 'ပို၍ Realistic' ဖြစ်ခြင်းအကြောင်း Vague Claim များသည် အမည်ဖော်ထားသော Technique များထက် သမိုင်းအရ အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Artist များနှင့် Technique များ ကိုးကားခြင်းသည် Renaissance Art ဆွေးနွေးရာတွင် Actual Value မရှိခြင်း",
+            "Linear Perspective နှင့် အခြား Documented Technique များတွင် Renaissance Art နှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-achievement habit from Secondary 1's Islamic Golden Age and Song China lessons, applied now to Renaissance art.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Renaissance Art ပေါ်တွင် ယခု အသုံးချထားသော Secondary 1 ၏ Islamic Golden Age နှင့် Song တရုတ် သင်ခန်းစာများမှ Documented-Achievement Habit တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Renaissance Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Renaissance Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w5-dm-1",
+          termEn: "Humanism",
+          termMy: "Humanism",
+          matchEn:
+              "An intellectual movement emphasizing classical learning and human potential",
+          matchMy:
+              "Classical Learning နှင့် Human Potential ကို အလေးပေးသော Intellectual Movement",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w5-dm-2",
+          termEn: "Patronage",
+          termMy: "Patronage",
+          matchEn:
+              "Financial support for artists, often serving multiple political and economic purposes",
+          matchMy:
+              "Political နှင့် Economic ရည်ရွယ်ချက်များစွာကို မကြာခဏ ဆောင်ရွက်ပေးသော Artist များအတွက် Financial Support",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w5-dm-3",
+          termEn: "Linear perspective",
+          termMy: "Linear Perspective",
+          matchEn:
+              "A documented technique creating the illusion of depth on a flat surface",
+          matchMy:
+              "ညီညာသော မျက်နှာပြင်ပေါ်တွင် Depth ၏ Illusion ဖန်တီးသော Documented Technique",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w5-dm-4",
+          termEn: "Classical legacy",
+          termMy: "Classical Legacy",
+          matchEn:
+              "Greek and Roman influence carried forward and adapted, not copied unchanged",
+          matchMy:
+              "မပြောင်းလဲဘဲ ကူးယူထားခြင်း မဟုတ်ဘဲ ဆက်လက် သယ်ဆောင်ကာ Adapt ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Influence",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Verified Renaissance Claim or Vague Impression?",
+      titleMy:
+          "စီစစ်ကြမည် - Verified Renaissance Claim (သို့) Vague Impression",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Verified Renaissance Claim", "Vague Impression"],
+        bucketsMy: ["Verified Renaissance Claim", "Vague Impression"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w5-sort-1",
+            labelEn:
+                "A named artist's documented use of linear perspective in a specific dated work",
+            labelMy:
+                "ရက်စွဲပါ Specific အလုပ်တစ်ခုတွင် Named Artist တစ်ဦး၏ Linear Perspective Documented အသုံးပြုမှု",
+            correctBucketEn: "Verified Renaissance Claim",
+            correctBucketMy: "Verified Renaissance Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w5-sort-2",
+            labelEn:
+                "Renaissance art was just generally more realistic with no specific example given",
+            labelMy:
+                "Specific ဥပမာ မပေးဘဲ Renaissance Art သည် ယေဘုယျအားဖြင့် ပို၍ Realistic ဖြစ်ခဲ့သည်",
+            correctBucketEn: "Vague Impression",
+            correctBucketMy: "Vague Impression",
+          ),
+          SortingItem(
+            id: "sec2hum-w5-sort-3",
+            labelEn:
+                "A patron's documented political and economic interests alongside artistic support",
+            labelMy:
+                "Artistic Support နှင့်အတူ Patron တစ်ဦး၏ Documented Political နှင့် Economic အကျိုးစီးပွားများ",
+            correctBucketEn: "Verified Renaissance Claim",
+            correctBucketMy: "Verified Renaissance Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w5-sort-4",
+            labelEn:
+                "A patron funded art 'purely out of love for beauty' with no other reason cited",
+            labelMy:
+                "အခြား အကြောင်းရင်း မကိုးကားဘဲ Patron တစ်ဦးသည် 'အလှတရားအတွက် ချစ်ခြင်းကြောင့်ပင်' အနုပညာကို ရန်ပုံငွေထောက်ပံ့ခဲ့သည်",
+            correctBucketEn: "Vague Impression",
+            correctBucketMy: "Vague Impression",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ye Min's Patronage Investigation",
+      titleMy: "စာဖတ်ခြင်း - Ye Min ၏ Patronage Investigation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ye Min's Patronage Investigation",
+        titleMy: "Ye Min ၏ Patronage Investigation",
+        passageEn:
+            "For Week 5's project, Ye Min researched a specific documented Renaissance patron known for funding several famous artworks, initially planning to write that the patron 'simply loved beauty and wanted to support great art.'\n\nApplying Term 1's weighed-motive habit, he checked this simplified claim against documented historical records. He found a more complicated picture: the patron's family used art patronage partly to display and reinforce their political standing among rival families, and partly to build favor with religious authorities whose support mattered for the family's broader influence -- genuine political and economic motives alongside any personal appreciation of art.\n\nYe Min also researched a specific artist connected to this patron and found documented evidence of that artist's use of linear perspective in a dated, named work, allowing him to cite a specific technique rather than a vague claim that Renaissance art was 'more realistic.'\n\nHis final report presented patronage as serving multiple, simultaneous purposes -- artistic, political, and economic -- rather than a single simplified motive, and grounded his claims about artistic technique in a specific, named, dated example. His teacher praised the report for applying the same weighing-multiple-factors and specific-evidence habits from Secondary 1 to this new historical period, rather than treating the Renaissance as requiring an entirely different way of thinking.",
+        passageMy:
+            "Week 5 ၏ Project အတွက် Famous Artwork များစွာကို ရန်ပုံငွေထောက်ပံ့ခဲ့သည်ဟု နာမည်ကြီးသော Documented Renaissance Patron တိကျတစ်ဦးကို Ye Min Research ပြုလုပ်ခဲ့ပြီး Patron သည် 'အလှတရားကို ရိုးရိုးသက်သက် ချစ်ခဲ့ပြီး အနုပညာကြီးများကို ထောက်ပံ့လိုခဲ့သည်' ဟု ရေးသားရန် ကနဦးတွင် စီစဉ်ခဲ့သည်။\n\nTerm 1 ၏ Weighed-Motive Habit အသုံးချကာ ဤ Simplified Claim ကို Documented သမိုင်းဆိုင်ရာ Record များနှင့် ၎င်း စစ်ဆေးခဲ့သည်။ ပို၍ ရှုပ်ထွေးသော ပုံရိပ်တစ်ခုကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - Patron ၏ မိသားစုသည် ယှဉ်ပြိုင် မိသားစုများကြား ၎င်းတို့၏ နိုင်ငံရေး Standing ကို ပြသ၊ အားဖြည့်ရန် တစ်စိတ်တစ်ပိုင်းနှင့် မိသားစု၏ ကျယ်ပြန့်သော Influence အတွက် Support အရေးကြီးသော ဘာသာရေးဆိုင်ရာ Authority များနှင့် Favor တည်ဆောက်ရန် တစ်စိတ်တစ်ပိုင်း Art Patronage ကို အသုံးပြုခဲ့သည် -- Art ၏ Personal Appreciation မည်သို့ပင်ရှိစေ Genuine Political နှင့် Economic Motive များ။\n\nဤ Patron နှင့် ချိတ်ဆက်ထားသော Artist တိကျတစ်ဦးကိုလည်း Ye Min Research ပြုလုပ်ခဲ့ပြီး Renaissance Art 'ပို၍ Realistic' ဖြစ်ခဲ့သည်ဆိုသော Vague Claim တစ်ခုအစား Specific Technique တစ်ခု ကိုးကားနိုင်ရန် ရက်စွဲပါ, အမည်ရှိသော အလုပ်တစ်ခုတွင် ထို Artist ၏ Linear Perspective အသုံးပြုမှု၏ Documented Evidence ကို ရှာဖွေတွေ့ရှိခဲ့သည်။\n\nSimplified Motive တစ်ခုတည်းအစား Multiple, Simultaneous ရည်ရွယ်ချက်များ -- Artistic, Political နှင့် Economic -- ကို ဆောင်ရွက်ပေးသော Patronage အဖြစ် ၎င်း၏ နောက်ဆုံး Report တင်ပြခဲ့ပြီး Artistic Technique အကြောင်း ၎င်း၏ Claim များကို Specific, Named, ရက်စွဲပါ ဥပမာတစ်ခုတွင် အခြေခံခဲ့သည်။ Renaissance ကို လုံးလုံး ကွဲပြားသော Thinking နည်းလမ်းတစ်ခု လိုအပ်သည်ဟု သဘောထားမည့်အစား သမိုင်းကာလ အသစ်တစ်ခုပေါ်တွင် Secondary 1 မှ Weighing-Multiple-Factors နှင့် Specific-Evidence Habit တူတူကို အသုံးချသောကြောင့် Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ye Min's research find about the patron's motives?",
+            questionMy:
+                "Patron ၏ Motive များအကြောင်း Ye Min ၏ Research ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Genuine political and economic motives alongside any personal appreciation of art",
+              "The patron funded art for no reason of any kind whatsoever",
+              "Only a single, simple motive with no other documented reasons",
+              "Motives entirely unrelated to political standing or religious favor",
+            ],
+            optionsMy: [
+              "Art ၏ Personal Appreciation မည်သို့ပင်ရှိစေ Genuine Political နှင့် Economic Motive များ",
+              "Patron သည် အကြောင်းရင်း မည်သည်မှ မပါဘဲ Art ကို ရန်ပုံငွေထောက်ပံ့ခဲ့ခြင်း",
+              "အခြား Documented Reason မပါဘဲ Simple Motive တစ်ခုတည်း",
+              "နိုင်ငံရေး Standing (သို့) ဘာသာရေးဆိုင်ရာ Favor နှင့် လုံးလုံး မသက်ဆိုင်သော Motive များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's found motives."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော Motive များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specific technique did Ye Min cite evidence for?",
+            questionMy:
+                "Ye Min Evidence ကိုးကားခဲ့သော Specific Technique ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Linear perspective, documented in a dated, named work by a specific artist",
+              "No specific technique was cited with any evidence",
+              "A vague technique with no connection to any named artist",
+              "A technique entirely unrelated to Renaissance art",
+            ],
+            optionsMy: [
+              "Specific Artist တစ်ဦး၏ ရက်စွဲပါ, အမည်ရှိသော အလုပ်တစ်ခုတွင် Document ပြုလုပ်ထားသော Linear Perspective",
+              "Evidence မည်သည်နှင့်မျှ Specific Technique ကိုးကားခြင်း မရှိခြင်း",
+              "Named Artist မည်သည်နှင့်မျှ Connection မရှိသော Vague Technique",
+              "Renaissance Art နှင့် လုံးလုံး မသက်ဆိုင်သော Technique တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's cited technique."],
+            hintsMy: [
+              "ကိုးကားထားသော Technique ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise about the report?",
+            questionMy:
+                "Report အကြောင်း ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Applying the same weighing-multiple-factors and specific-evidence habits from Secondary 1 to a new period",
+              "Treating the Renaissance as requiring an entirely different way of thinking",
+              "Ignoring every habit built during Secondary 1 in favor of a new approach",
+              "Presenting patronage as serving only one single, simple purpose",
+            ],
+            optionsMy: [
+              "Period အသစ်တစ်ခုပေါ်တွင် Secondary 1 မှ Weighing-Multiple-Factors နှင့် Specific-Evidence Habit တူတူ အသုံးချခြင်း",
+              "Renaissance ကို လုံးလုံး ကွဲပြားသော Thinking နည်းလမ်းတစ်ခု လိုအပ်သည်ဟု သဘောထားခြင်း",
+              "Approach အသစ်တစ်ခုအတွက် Secondary 1 အတွင်း တည်ဆောက်ခဲ့သော Habit တိုင်းကို လျစ်လျူရှုခြင်း",
+              "Purpose Simple, တစ်ခုတည်းကိုသာ ဆောင်ရွက်ပေးသည်ဟု Patronage ကို တင်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w5-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Renaissance Ideas and Art Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Renaissance Ideas and Art မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Renaissance's revival of classical ideas is best understood as...",
+          questionMy:
+              "Renaissance ၏ Classical Idea များ ပြန်လည် ရှင်သန်စေခြင်းကို ...အဖြစ် အကောင်းဆုံး နားလည်ရသည်",
+          optionsEn: [
+            "A documented legacy carried forward and adapted",
+            "An exact, unchanged copy of ancient thought",
+            "Something with no actual connection to Greek or Roman ideas",
+            "A complete rejection of all classical influence",
+          ],
+          optionsMy: [
+            "ဆက်လက် သယ်ဆောင်ကာ Adapt ပြုလုပ်ထားသော Documented Legacy တစ်ခု",
+            "ရှေးဟောင်း Thought ၏ Exact, မပြောင်းလဲသော ကူးယူချက်တစ်ခု",
+            "ဂရိ (သို့) ရောမ Idea များနှင့် Actual Connection မရှိသော အရာတစ်ခု",
+            "Classical Influence အားလုံးကို လုံးလုံး ငြင်းပယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim about a patron's motive should be checked against...",
+          questionMy:
+              "Patron တစ်ဦး၏ Motive အကြောင်း Claim တစ်ခုကို ...နှင့် စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Documented evidence of political and economic interests",
+            "Nothing at all -- the simplest explanation is always correct",
+            "No evidence of any kind whatsoever",
+            "Only the patron's own stated intentions with no other checking",
+          ],
+          optionsMy: [
+            "Political နှင့် Economic အကျိုးစီးပွားများ၏ Documented Evidence",
+            "ဘာမှ -- ရိုးရှင်းဆုံး Explanation သည် အမြဲ မှန်ကန်သည်",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "အခြား Checking မပြုဘဲ Patron ၏ ကိုယ်ပိုင် ဖော်ပြထားသော Intention များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A claim about Renaissance art should cite...",
+          questionMy:
+              "Renaissance Art အကြောင်း Claim တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "A specific, named artist and a specific, documented technique",
+            "A vague impression with no specific example",
+            "No evidence of any kind whatsoever",
+            "A generic claim that could apply to any period",
+          ],
+          optionsMy: [
+            "Specific, Named Artist တစ်ဦးနှင့် Specific, Documented Technique",
+            "Specific ဥပမာ မပါသော Vague Impression",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "ကာလ မည်သည်တွင်မဆို အသုံးချနိုင်သော Generic Claim",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 2, Week 6: "The Scientific
+// Revolution"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek6 = CourseWeekDef(
+  id: "course-sec2-hum-w6",
+  weekNumber: 6,
+  titleEn: "The Scientific Revolution",
+  titleMy: "Scientific Revolution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w6-d1",
+      dayNumber: 1,
+      titleEn: "From Authority to Observation and Evidence",
+      titleMy: "Authority မှ Observation နှင့် Evidence သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the shift from relying on ancient authority to relying on direct observation and testable evidence considered the central change of the Scientific Revolution?",
+          questionMy:
+              "ရှေးဟောင်း Authority အားကိုးခြင်းမှ တိုက်ရိုက် Observation နှင့် Testable Evidence အားကိုးခြင်းသို့ ပြောင်းလဲမှုကို Scientific Revolution ၏ ဗဟိုချက် ပြောင်းလဲမှုအဖြစ် သဘောထားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This shift changed how new claims about the natural world could be checked -- from trusting a respected ancient source to testing a claim directly against observable, repeatable evidence",
+            "This shift had no actual connection to how scientific claims were evaluated",
+            "Ancient authority and direct observation were always treated as exactly the same kind of evidence",
+            "The Scientific Revolution involved no actual change in how claims were evaluated",
+          ],
+          optionsMy: [
+            "ဤ Shift သည် သဘာဝကမ္ဘာအကြောင်း Claim အသစ်များကို မည်သို့ စစ်ဆေးနိုင်သည်ကို ပြောင်းလဲစေခဲ့သည် -- ရိုသေလေးစားခံရသော ရှေးဟောင်း Source တစ်ခုကို ယုံကြည်ခြင်းမှ Observable, Repeatable Evidence နှင့် Claim တစ်ခုကို တိုက်ရိုက် စစ်ဆေးခြင်းသို့",
+            "ဤ Shift တွင် Scientific Claim များ မည်သို့ အကဲဖြတ်ခံခဲ့ရသည်နှင့် Actual Connection မရှိခြင်း",
+            "ရှေးဟောင်း Authority နှင့် Direct Observation ကို Evidence အမျိုးအစား အတိအကျ တူတူအဖြစ် အမြဲ သဘောထားခဲ့ခြင်း",
+            "Scientific Revolution တွင် Claim များ မည်သို့ အကဲဖြတ်ခံခဲ့ရသည်၌ Actual Change မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same evidence-vs-guess (or evidence-vs-authority) principle from Secondary 1's very first lesson -- a checkable claim is more reliable than one accepted purely on trust.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ ပထမဆုံး သင်ခန်းစာမှ Evidence-Vs-Guess (သို့) Evidence-Vs-Authority Principle အတိအကျ ဖြစ်သည် -- Checkable Claim တစ်ခုသည် Trust တစ်ခုတည်းအပေါ် လက်ခံထားသည်ထက် ပို၍ ယုံကြည်ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim about a specific Scientific Revolution discovery cite the named scientist and the specific documented observation or experiment, rather than a vague claim that 'science advanced a lot during this period'?",
+          questionMy:
+              "Scientific Revolution ရှာဖွေတွေ့ရှိမှု တိကျတစ်ခုအကြောင်း Claim တစ်ခုသည် 'ဤကာလအတွင်း သိပ္ပံ များစွာ ဖွံ့ဖြိုးတိုးတက်ခဲ့သည်' ဆိုသော Vague Claim တစ်ခုအစား အမည်ရှိသော သိပ္ပံပညာရှင်နှင့် Specific Documented Observation (သို့) Experiment ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Naming a specific scientist and a specific, documented observation makes the claim checkable and precise, matching the specificity habit maintained throughout Secondary 1 and Secondary 2",
+            "Vague claims about scientific advancement are always more informative than specific, named discoveries",
+            "Citing a specific scientist and observation has no actual value when discussing this period",
+            "Named scientists and specific experiments have no actual connection to the Scientific Revolution",
+          ],
+          optionsMy: [
+            "Specific သိပ္ပံပညာရှင်နှင့် Specific, Documented Observation အမည်ဖော်ပြခြင်းသည် Secondary 1 နှင့် Secondary 2 တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specificity Habit နှင့် ကိုက်ညီစွာ Claim ကို Checkable, Precise ဖြစ်စေသည်",
+            "Scientific Advancement အကြောင်း Vague Claim များသည် Named Discovery များထက် အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific သိပ္ပံပညာရှင်နှင့် Observation ကိုးကားခြင်းသည် ဤကာလ ဆွေးနွေးရာတွင် Actual Value မရှိခြင်း",
+            "Named သိပ္ပံပညာရှင်များနှင့် Specific Experiment များတွင် Scientific Revolution နှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-achievement habit from Secondary 1's Islamic Golden Age and Song China lessons, now applied to the Scientific Revolution.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Scientific Revolution ပေါ်တွင် ယခု အသုံးချထားသော Secondary 1 ၏ Islamic Golden Age နှင့် Song တရုတ် သင်ခန်းစာများမှ Documented-Achievement Habit တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid claiming that Scientific Revolution thinkers developed all their ideas in complete isolation, given what was established about cross-cultural exchange and legacy in Secondary 1?",
+          questionMy:
+              "Cross-Cultural Exchange နှင့် Legacy အကြောင်း Secondary 1 တွင် တည်ထောင်ထားခဲ့သည့်အရာကို ထောက်ရှု၍ Scientific Revolution Thinker များသည် ၎င်းတို့၏ Idea အားလုံးကို လုံးဝ Isolation တွင် ဖွံ့ဖြိုးခဲ့သည်ဟု Claim ပြုလုပ်ခြင်းကို ကျောင်းသားများ အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Scientific Revolution thinkers built on earlier documented knowledge (including classical, Islamic Golden Age, and earlier European sources), so claiming complete isolation misrepresents how ideas actually developed",
+            "Scientific Revolution thinkers genuinely developed every idea with absolutely no connection to any earlier source",
+            "Cross-cultural exchange and earlier documented knowledge have no actual relevance to the Scientific Revolution",
+            "Claiming complete isolation always gives the most historically accurate picture",
+          ],
+          optionsMy: [
+            "Scientific Revolution Thinker များသည် အစောပိုင်း Documented Knowledge (Classical, Islamic Golden Age နှင့် အစောပိုင်း European Source များအပါအဝင်) ပေါ် တည်ဆောက်ခဲ့သောကြောင့် Complete Isolation Claim ပြုလုပ်ခြင်းသည် Idea များ အမှန်တကယ် ဖွံ့ဖြိုးတိုးတက်ပုံကို Misrepresent ပြုလုပ်သည်",
+            "Scientific Revolution Thinker များသည် အစောပိုင်း Source မည်သည်နှင့်မျှ Connection လုံးဝ မပါဘဲ Idea တိုင်းကို အမှန်တကယ် ဖွံ့ဖြိုးခဲ့ခြင်း",
+            "Cross-Cultural Exchange နှင့် အစောပိုင်း Documented Knowledge သည် Scientific Revolution နှင့် Actual Relevance မရှိခြင်း",
+            "Complete Isolation Claim ပြုလုပ်ခြင်းသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Secondary 1's Islamic Golden Age lesson about cross-cultural exchange, applied now to the Scientific Revolution -- major intellectual progress usually builds on prior traditions.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Scientific Revolution ပေါ်တွင် ယခု အသုံးချထားသော Cross-Cultural Exchange အကြောင်း Secondary 1 ၏ Islamic Golden Age သင်ခန်းစာ ဖြစ်သည် -- Major Intellectual Progress သည် ယေဘုယျအားဖြင့် Prior Tradition များပေါ် တည်ဆောက်တတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Scientific Revolution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Scientific Revolution Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w6-dm-1",
+          termEn: "Observation",
+          termMy: "Observation",
+          matchEn:
+              "Direct, careful watching of a natural phenomenon as a source of evidence",
+          matchMy:
+              "Evidence ၏ Source တစ်ခုအဖြစ် သဘာဝ Phenomenon တစ်ခု၏ Direct, ဂရုတစိုက် ကြည့်ရှုခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w6-dm-2",
+          termEn: "Testable claim",
+          termMy: "Testable Claim",
+          matchEn:
+              "A statement that can be checked through repeatable observation or experiment",
+          matchMy:
+              "Repeatable Observation (သို့) Experiment မှတစ်ဆင့် စစ်ဆေးနိုင်သော Statement",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w6-dm-3",
+          termEn: "Ancient authority",
+          termMy: "Ancient Authority",
+          matchEn:
+              "A respected old source once trusted without independent testing",
+          matchMy:
+              "Independent Testing မပါဘဲ ယုံကြည်ခဲ့ဖူးသော ရိုသေလေးစားခံရသော ရှေးဟောင်း Source",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w6-dm-4",
+          termEn: "Built on prior knowledge",
+          termMy: "Built on Prior Knowledge",
+          matchEn:
+              "New ideas developing from earlier documented traditions, not complete isolation",
+          matchMy:
+              "Complete Isolation မဟုတ်ဘဲ အစောပိုင်း Documented Tradition များမှ ဖွံ့ဖြိုးလာသော Idea အသစ်များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Evidence-Based Claim or Authority-Based Claim?",
+      titleMy: "စီစစ်ကြမည် - Evidence-Based Claim (သို့) Authority-Based Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Evidence-Based Claim", "Authority-Based Claim"],
+        bucketsMy: ["Evidence-Based Claim", "Authority-Based Claim"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w6-sort-1",
+            labelEn:
+                "A conclusion reached through repeated, documented observation and experiment",
+            labelMy:
+                "ထပ်ခါထပ်ခါ, Documented Observation နှင့် Experiment မှတစ်ဆင့် ရောက်ရှိခဲ့သော ကောက်ချက်",
+            correctBucketEn: "Evidence-Based Claim",
+            correctBucketMy: "Evidence-Based Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w6-sort-2",
+            labelEn:
+                "A claim accepted only because a respected ancient source stated it",
+            labelMy:
+                "ရိုသေလေးစားခံရသော ရှေးဟောင်း Source တစ်ခုက ဖော်ပြခဲ့သောကြောင့်သာ လက်ခံထားသော Claim",
+            correctBucketEn: "Authority-Based Claim",
+            correctBucketMy: "Authority-Based Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w6-sort-3",
+            labelEn:
+                "A finding checked through a documented, repeatable experiment",
+            labelMy:
+                "Documented, Repeatable Experiment တစ်ခုမှတစ်ဆင့် စစ်ဆေးထားသော ရှာဖွေတွေ့ရှိချက်",
+            correctBucketEn: "Evidence-Based Claim",
+            correctBucketMy: "Evidence-Based Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w6-sort-4",
+            labelEn:
+                "A claim never independently tested, trusted purely due to its ancient origin",
+            labelMy:
+                "Independently Test မလုပ်ဖူးဘဲ ၎င်း၏ ရှေးဟောင်း Origin ကြောင့်သာ ယုံကြည်ခံရသော Claim",
+            correctBucketEn: "Authority-Based Claim",
+            correctBucketMy: "Authority-Based Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myint's Evidence Comparison",
+      titleMy: "စာဖတ်ခြင်း - Aung Myint ၏ Evidence Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myint's Evidence Comparison",
+        titleMy: "Aung Myint ၏ Evidence Comparison",
+        passageEn:
+            "For Week 6's project, Aung Myint was asked to explain why the Scientific Revolution is considered a major turning point, and his first draft stated simply that 'people started believing in science instead of old ideas.'\n\nHis teacher asked him to be more precise: what specifically changed, and how could he show it with evidence rather than a vague impression? Aung Myint researched a specific, documented case -- a named scientist whose repeated, recorded observations directly contradicted a long-trusted ancient authority on a particular natural phenomenon.\n\nWhat mattered, Aung Myint realized, was not that the ancient authority had been wrong, but that the new standard for settling the disagreement had changed: instead of the debate being settled by which ancient source carried more prestige, it was settled by whose claim survived repeated, independent testing. He cited the specific dated observations and the documented reaction from other scientists who tested the claim themselves.\n\nHe was also careful, applying Secondary 1's cross-cultural-exchange lesson, not to claim the scientist worked in complete isolation -- his notes referenced earlier astronomical records from multiple older traditions that he built on and reinterpreted. His teacher praised the revised report: it named a specific person, cited specific dated evidence, and correctly showed the change as a shift in method -- from authority to testable evidence -- rather than a vague story about science suddenly appearing from nothing.",
+        passageMy:
+            "Week 6 ၏ Project အတွက် Scientific Revolution ကို Major Turning Point တစ်ခုအဖြစ် သဘောထားရသည့် အကြောင်းရင်းကို ရှင်းပြရန် Aung Myint အား တောင်းဆိုခဲ့ပြီး ၎င်း၏ ပထမ Draft တွင် 'လူများသည် Idea ဟောင်းများအစား Science ကို ယုံကြည်စတင်ခဲ့ကြသည်' ဟု ရိုးရိုးသာ ဖော်ပြခဲ့သည်။\n\nတိကျစွာ အဘယ်အရာ ပြောင်းလဲခဲ့ပြီး Vague Impression တစ်ခုအစား Evidence ဖြင့် ၎င်းကို မည်သို့ ပြသနိုင်သည်ကို ပို၍ တိကျရန် ၎င်း၏ ဆရာမ တောင်းဆိုခဲ့သည်။ ရှေးဟောင်း Authority ရေရှည်ယုံကြည်ခံရသော သဘာဝ Phenomenon တိကျတစ်ခုကို ထပ်ခါထပ်ခါ, မှတ်တမ်းတင်ထားသော Observation များ တိုက်ရိုက် ဆန့်ကျင်ခဲ့ကြောင်း Documented Case တိကျတစ်ခု -- Named Scientist တစ်ဦး -- ကို Aung Myint Research ပြုလုပ်ခဲ့သည်။\n\nရှေးဟောင်း Authority မှားခဲ့ခြင်း မဟုတ်ဘဲ Disagreement ဖြေရှင်းရန် Standard အသစ်သည် ပြောင်းလဲခဲ့ကြောင်း Aung Myint သိရှိလာခဲ့သည် - Debate ကို ရှေးဟောင်း Source မည်သည်က Prestige ပို၍ ရှိသည်ဖြင့် ဖြေရှင်းမည့်အစား Claim မည်သည်က ထပ်ခါထပ်ခါ, Independent Testing ကို ကျော်လွှားနိုင်သည်ဖြင့် ဖြေရှင်းခဲ့သည်။ Claim ကို ကိုယ်တိုင် Test ပြုလုပ်ခဲ့သော အခြား သိပ္ပံပညာရှင်များ၏ Documented Reaction နှင့် Specific ရက်စွဲပါ Observation များကို ၎င်း ကိုးကားခဲ့သည်။\n\nSecondary 1 ၏ Cross-Cultural-Exchange သင်ခန်းစာ အသုံးချကာ သိပ္ပံပညာရှင်သည် Complete Isolation တွင် အလုပ်လုပ်ခဲ့သည်ဟု Claim မပြုလုပ်ရန်လည်း ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည် -- ၎င်း၏ Note များသည် ၎င်း တည်ဆောက်ကာ ပြန်လည် အနက်ဖွင့်ခဲ့သော ဟောင်း Tradition များစွာမှ အစောပိုင်း Astronomical Record များကို ရည်ညွှန်းခဲ့သည်။ လူတစ်ဦးကို အမည်ဖော်ပြခဲ့ခြင်း, Specific ရက်စွဲပါ Evidence ကိုးကားခဲ့ခြင်းနှင့် ဘာမှမရှိသည်မှ ရုတ်တရက် ပေါ်ပေါက်လာသော Science အကြောင်း Vague ဇာတ်လမ်းတစ်ခုအစား Method ၏ Shift တစ်ခု -- Authority မှ Testable Evidence သို့ -- အဖြစ် ပြောင်းလဲမှုကို မှန်ကန်စွာ ပြသခဲ့သောကြောင့် ပြင်ဆင်ထားသော Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Aung Myint realize the new standard for settling disagreements was based on?",
+            questionMy:
+                "Disagreement ဖြေရှင်းရန် Standard အသစ် မည်သည်အပေါ် အခြေခံသည်ဟု Aung Myint သိရှိလာခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whose claim survived repeated, independent testing, rather than which source carried more prestige",
+              "Which ancient source carried the most prestige, with no testing involved",
+              "No standard of any kind was ever used to settle disagreements",
+              "A standard entirely unrelated to testing or evidence of any kind",
+            ],
+            optionsMy: [
+              "Source မည်သည်က Prestige ပို၍ ရှိသည်ဖြင့်မဟုတ်ဘဲ Claim မည်သည်က ထပ်ခါထပ်ခါ, Independent Testing ကို ကျော်လွှားနိုင်သည်ဖြင့်",
+              "Testing မပါဘဲ ရှေးဟောင်း Source မည်သည်က Prestige အများဆုံး ရှိသည်",
+              "Disagreement ဖြေရှင်းရန် Standard မည်သည်မှ ဘယ်တော့မှ အသုံးမပြုခဲ့ခြင်း",
+              "Testing (သို့) Evidence မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်သော Standard တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated realization."],
+            hintsMy: [
+              "ဖော်ပြထားသော Realization ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, what did Aung Myint's notes reveal about the scientist's isolation?",
+            questionMy:
+                "သိပ္ပံပညာရှင်၏ Isolation အကြောင်း Aung Myint ၏ Note များ ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The scientist built on and reinterpreted earlier astronomical records from multiple older traditions",
+              "The scientist worked in complete isolation with no connection to any earlier tradition",
+              "No prior records of any kind existed before this scientist's work",
+              "The scientist rejected all earlier traditions entirely with no reference to them",
+            ],
+            optionsMy: [
+              "သိပ္ပံပညာရှင်သည် ဟောင်း Tradition များစွာမှ အစောပိုင်း Astronomical Record များကို တည်ဆောက်ကာ ပြန်လည် အနက်ဖွင့်ခဲ့ခြင်း",
+              "သိပ္ပံပညာရှင်သည် အစောပိုင်း Tradition မည်သည်နှင့်မျှ Connection မပါဘဲ Complete Isolation တွင် အလုပ်လုပ်ခဲ့ခြင်း",
+              "ဤသိပ္ပံပညာရှင်၏ အလုပ်မတိုင်မီ Prior Record မည်သည်မှ မရှိခဲ့ခြင်း",
+              "Reference မပြုဘဲ အစောပိုင်း Tradition အားလုံးကို သိပ္ပံပညာရှင် လုံးလုံး ပယ်ချခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's revealed connection."],
+            hintsMy: [
+              "ဖော်ထုတ်ခဲ့သော Connection ကို စတုတ္ထ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise the revised report for showing?",
+            questionMy:
+                "ပြင်ဆင်ထားသော Report ပြသခဲ့သည့်အရာအတွက် ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The change as a shift in method -- from authority to testable evidence",
+              "A vague story about science suddenly appearing from nothing",
+              "No actual change of any kind occurring during this period",
+              "A change entirely unrelated to how claims were evaluated",
+            ],
+            optionsMy: [
+              "Method ၏ Shift တစ်ခုအဖြစ် ပြောင်းလဲမှု -- Authority မှ Testable Evidence သို့",
+              "ဘာမှမရှိသည်မှ ရုတ်တရက် ပေါ်ပေါက်လာသော Science အကြောင်း Vague ဇာတ်လမ်းတစ်ခု",
+              "ဤကာလအတွင်း ဖြစ်ပျက်နေသော Actual Change မည်သည်မှ",
+              "Claim များ မည်သို့ အကဲဖြတ်ခံခဲ့ရသည်နှင့် လုံးလုံး မသက်ဆိုင်သော Change တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w6-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Scientific Revolution Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Scientific Revolution မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The central change of the Scientific Revolution was a shift from...",
+          questionMy:
+              "Scientific Revolution ၏ ဗဟိုချက် ပြောင်းလဲမှုမှာ ...မှ Shift တစ်ခု ဖြစ်ခဲ့သည်",
+          optionsEn: [
+            "Ancient authority to observation and testable evidence",
+            "Testable evidence to ancient authority alone",
+            "No actual method of evaluating claims at all",
+            "One form of authority to a different, unrelated authority",
+          ],
+          optionsMy: [
+            "Observation နှင့် Testable Evidence သို့ ရှေးဟောင်း Authority",
+            "ရှေးဟောင်း Authority တစ်ခုတည်းသို့ Testable Evidence",
+            "Claim များ အကဲဖြတ်ရန် Actual Method မည်သည်မှ",
+            "Authority ပုံစံတစ်ခုမှ ကွဲပြား, မသက်ဆိုင်သော Authority တစ်ခုသို့",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim about a Scientific Revolution discovery should cite...",
+          questionMy:
+              "Scientific Revolution ရှာဖွေတွေ့ရှိမှု တစ်ခုအကြောင်း Claim တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "A named scientist and a specific documented observation",
+            "A vague claim that science advanced a lot",
+            "No evidence of any kind whatsoever",
+            "A generic statement with no specific example",
+          ],
+          optionsMy: [
+            "Named သိပ္ပံပညာရှင်နှင့် Specific Documented Observation",
+            "Science များစွာ ဖွံ့ဖြိုးတိုးတက်ခဲ့သည်ဆိုသော Vague Claim",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Specific ဥပမာ မပါသော Generic Statement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Scientific Revolution thinkers should not be described as working in...",
+          questionMy:
+              "Scientific Revolution Thinker များကို ...တွင် အလုပ်လုပ်ခဲ့သည်ဟု မဖော်ပြသင့်ပါ",
+          optionsEn: [
+            "Complete isolation with no connection to earlier knowledge",
+            "A period with any documented intellectual activity",
+            "A time connected to earlier traditions in some way",
+            "Any historical context whatsoever",
+          ],
+          optionsMy: [
+            "အစောပိုင်း Knowledge နှင့် Connection မပါဘဲ Complete Isolation",
+            "Documented Intellectual Activity ပါသော ကာလ တစ်ခု",
+            "နည်းလမ်းတစ်ခုနှင့် အစောပိုင်း Tradition များနှင့် ချိတ်ဆက်ထားသော အချိန်တစ်ခု",
+            "သမိုင်းဆိုင်ရာ Context မည်သည်မဆို",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 2, Week 7: "Changing Worldviews"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek7 = CourseWeekDef(
+  id: "course-sec2-hum-w7",
+  weekNumber: 7,
+  titleEn: "Changing Worldviews",
+  titleMy: "ပြောင်းလဲနေသော Worldview များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w7-d1",
+      dayNumber: 1,
+      titleEn: "How New Evidence Reshaped Old Beliefs",
+      titleMy:
+          "Evidence အသစ်သည် ယုံကြည်ချက်ဟောင်းများကို မည်သို့ ပြန်လည် ပုံဖော်ခဲ့သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the Renaissance and Scientific Revolution together contribute to a gradual, documented shift in how educated Europeans understood their place in the natural world, rather than causing an instant, complete change?",
+          questionMy:
+              "Renaissance နှင့် Scientific Revolution တို့သည် Instant, Complete ပြောင်းလဲမှုတစ်ခု ဖြစ်ပေါ်စေမည့်အစား ပညာတတ် European များ သဘာဝကမ္ဘာတွင် ၎င်းတို့၏ နေရာကို မည်သို့ နားလည်သည်ကို တဖြည်းဖြည်း, Documented Shift တစ်ခု အတူတကွ ဖြစ်ပေါ်စေခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Genuine intellectual and cultural change usually happens gradually as new ideas spread, are debated, and are tested over time, rather than replacing old beliefs everywhere all at once",
+            "The Renaissance and Scientific Revolution caused an instant, complete change with no gradual spread of any kind",
+            "These two movements had no actual connection to how Europeans understood the natural world",
+            "Worldview change never actually happens gradually in any documented historical period",
+          ],
+          optionsMy: [
+            "Genuine Intellectual နှင့် Cultural Change သည် နေရာတိုင်းတွင် Old Belief များကို တစ်ပြိုင်နက် အစားထိုးမည့်အစား Idea အသစ်များ ပျံ့နှံ့, ငြင်းခုံခံရ, အချိန်ကြာလာသည်နှင့်အမျှ Test ခံရသည်နှင့်အမျှ ယေဘုယျအားဖြင့် တဖြည်းဖြည်း ဖြစ်ပျက်တတ်သည်",
+            "Renaissance နှင့် Scientific Revolution တို့သည် Gradual Spread မည်သည်မှ မပါဘဲ Instant, Complete ပြောင်းလဲမှုတစ်ခု ဖြစ်ပေါ်စေခဲ့ခြင်း",
+            "Movement နှစ်ခုတွင် European များ သဘာဝကမ္ဘာကို မည်သို့ နားလည်သည်နှင့် Actual Connection မရှိခြင်း",
+            "Worldview Change သည် Documented သမိုင်းကာလ မည်သည်တွင်မျှ တဖြည်းဖြည်း အမှန်တကယ် ဘယ်တော့မှ မဖြစ်ပျက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to the same gradual, multi-factor change habit from Secondary 1's Rome Republic-to-Empire causation web -- major transitions usually happen over time, not instantly.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ ရောမ Republic-To-Empire Causation Web မှ Gradual, Multi-Factor Change Habit တူတူနှင့် ချိတ်ဆက်သည် -- Major Transition များသည် ယေဘုယျအားဖြင့် Instant မဟုတ်ဘဲ အချိန်တစ်လျှောက် ဖြစ်ပျက်တတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid claiming that every educated European instantly and uniformly adopted new evidence-based worldviews, given what has been documented about resistance and gradual acceptance during this period?",
+          questionMy:
+              "ဤကာလအတွင်း Resistance နှင့် Gradual Acceptance အကြောင်း Document ပြုလုပ်ထားသည့်အရာကို ထောက်ရှု၍ ပညာတတ် European တိုင်းသည် Evidence-Based Worldview အသစ်များကို Instantly, Uniformly လက်ခံခဲ့သည်ဟု Claim ပြုလုပ်ခြင်းကို ကျောင်းသားများ အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Documented historical evidence shows significant resistance, debate, and uneven acceptance across different individuals and institutions, so a claim of instant, uniform adoption oversimplifies a genuinely varied reality",
+            "Every single educated European instantly and uniformly adopted new worldviews with zero exceptions or resistance",
+            "Resistance to new ideas has no actual documented evidence supporting it during this period",
+            "Claiming uniform, instant adoption always produces the most historically accurate picture",
+          ],
+          optionsMy: [
+            "Documented သမိုင်းဆိုင်ရာ Evidence က Individual နှင့် Institution ကွဲပြားများတစ်လျှောက် Significant Resistance, Debate နှင့် Uneven Acceptance ကို ပြသသောကြောင့် Instant, Uniform Adoption Claim တစ်ခုသည် Genuinely ကွဲပြားသော Reality တစ်ခုကို Oversimplify ပြုလုပ်သည်",
+            "ပညာတတ် European တိုင်းသည် Exception (သို့) Resistance Zero ဖြင့် Worldview အသစ်များကို Instantly, Uniformly လက်ခံခဲ့ခြင်း",
+            "ဤကာလအတွင်း Idea အသစ်များအပေါ် Resistance တွင် ၎င်းကို ထောက်ခံသော Actual Documented Evidence မရှိခြင်း",
+            "Uniform, Instant Adoption Claim ပြုလုပ်ခြင်းသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same caution against flattening a broad category into one identical story, applied now to a broad population's response to new ideas rather than a social class or civilization.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Social Class (သို့) Civilization တစ်ခုအစား Idea အသစ်များအပေါ် ကျယ်ပြန့်သော Population တစ်ခု၏ Response ပေါ်တွင် ယခု အသုံးချထားသော ကျယ်ပြန့်သော Category တစ်ခုကို Identical Story တစ်ခုတည်းအဖြစ် မညှစ်ချရန် သတိပေးချက် တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim about changing worldviews cite specific documented reactions (such as recorded debates or institutional responses) rather than a vague, unsupported claim about 'how people thought' in general?",
+          questionMy:
+              "ပြောင်းလဲနေသော Worldview များအကြောင်း Claim တစ်ခုသည် ယေဘုယျအားဖြင့် 'လူများ မည်သို့ တွေးခေါ်ခဲ့ကြသည်' ဆိုသော Vague, ထောက်ခံမှု မရှိသော Claim တစ်ခုအစား Specific Documented Reaction များ (Recorded Debate များ (သို့) Institutional Response များကဲ့သို့) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented reactions give a checkable, precise basis for a historical claim, exactly matching the specificity habit built throughout the entire course",
+            "A vague claim about general thought patterns is always more historically accurate than specific documented reactions",
+            "Specific documented reactions have no actual value when studying changing worldviews",
+            "Recorded debates and institutional responses have no actual connection to understanding worldview change",
+          ],
+          optionsMy: [
+            "Specific Documented Reaction များသည် Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specificity Habit နှင့် အတိအကျ ကိုက်ညီစွာ သမိုင်းဆိုင်ရာ Claim တစ်ခုအတွက် Checkable, Precise Basis တစ်ခု ပေးအပ်သည်",
+            "General Thought Pattern အကြောင်း Vague Claim တစ်ခုသည် Specific Documented Reaction များထက် သမိုင်းအရ အမြဲ ပို၍ တိကျခြင်း",
+            "Specific Documented Reaction များသည် ပြောင်းလဲနေသော Worldview များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Recorded Debate များနှင့် Institutional Response များသည် Worldview Change နားလည်ခြင်းနှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence discipline maintained throughout the entire course, applied now to documenting how worldviews actually changed.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Worldview များ အမှန်တကယ် ပြောင်းလဲပုံကို Document ပြုလုပ်ခြင်းပေါ်တွင် ယခု အသုံးချထားသော Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specific-Evidence Discipline ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Changing Worldviews Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Changing Worldviews Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w7-dm-1",
+          termEn: "Gradual change",
+          termMy: "Gradual Change",
+          matchEn:
+              "A shift in belief or practice that happens over time, not instantly",
+          matchMy:
+              "Instant မဟုတ်ဘဲ အချိန်တစ်လျှောက် ဖြစ်ပျက်သော Belief (သို့) Practice ၏ Shift",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w7-dm-2",
+          termEn: "Uneven acceptance",
+          termMy: "Uneven Acceptance",
+          matchEn:
+              "Different individuals and institutions responding to new ideas at different rates",
+          matchMy:
+              "Individual နှင့် Institution ကွဲပြားများ Idea အသစ်များကို Rate ကွဲပြားများဖြင့် တုံ့ပြန်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w7-dm-3",
+          termEn: "Documented reaction",
+          termMy: "Documented Reaction",
+          matchEn:
+              "A recorded debate or institutional response used as specific evidence",
+          matchMy:
+              "Specific Evidence အဖြစ် အသုံးပြုသော Recorded Debate (သို့) Institutional Response",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w7-dm-4",
+          termEn: "Resistance to new ideas",
+          termMy: "Resistance to New Ideas",
+          matchEn:
+              "Documented pushback against evidence-based claims from those favoring older views",
+          matchMy:
+              "အမြင်ဟောင်းများကို ဦးစားပေးသူများထံမှ Evidence-Based Claim များကို ဆန့်ကျင်သော Documented Pushback",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Nuanced Claim or Oversimplified Claim?",
+      titleMy: "စီစစ်ကြမည် - Nuanced Claim (သို့) Oversimplified Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Nuanced Claim", "Oversimplified Claim"],
+        bucketsMy: ["Nuanced Claim", "Oversimplified Claim"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w7-sort-1",
+            labelEn:
+                "Documented evidence shows the new worldview spread gradually with uneven acceptance",
+            labelMy:
+                "Documented Evidence က Worldview အသစ်သည် Uneven Acceptance ဖြင့် တဖြည်းဖြည်း ပျံ့နှံ့ခဲ့ကြောင်း ပြသသည်",
+            correctBucketEn: "Nuanced Claim",
+            correctBucketMy: "Nuanced Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w7-sort-2",
+            labelEn:
+                "Every single educated person instantly and uniformly changed their entire worldview",
+            labelMy:
+                "ပညာတတ် လူတိုင်းသည် ၎င်းတို့၏ Worldview တစ်ခုလုံးကို Instantly, Uniformly ပြောင်းလဲခဲ့သည်",
+            correctBucketEn: "Oversimplified Claim",
+            correctBucketMy: "Oversimplified Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w7-sort-3",
+            labelEn:
+                "A specific institution's recorded debate reveals genuine resistance alongside acceptance",
+            labelMy:
+                "Institution တစ်ခု၏ Recorded Debate တိကျတစ်ခုသည် Acceptance နှင့်အတူ Genuine Resistance ကို ဖော်ထုတ်ပြသသည်",
+            correctBucketEn: "Nuanced Claim",
+            correctBucketMy: "Nuanced Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w7-sort-4",
+            labelEn:
+                "No one in Europe ever resisted or debated any of the new ideas at all",
+            labelMy:
+                "ဥရောပရှိ မည်သူမျှ Idea အသစ်များထဲမှ မည်သည်ကိုမျှ ဘယ်တော့မှ ဆန့်ကျင် (သို့) ငြင်းခုံခဲ့ခြင်း မရှိခဲ့ပါ",
+            correctBucketEn: "Oversimplified Claim",
+            correctBucketMy: "Oversimplified Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thandar's Worldview Timeline",
+      titleMy: "စာဖတ်ခြင်း - Thandar ၏ Worldview Timeline",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thandar's Worldview Timeline",
+        titleMy: "Thandar ၏ Worldview Timeline",
+        passageEn:
+            "For Week 7's project, Thandar was asked to trace how a specific new scientific idea from the period spread and was received, and her first draft stated that 'everyone quickly accepted the new evidence-based view.'\n\nApplying Term 1's balanced-account habit, she checked this against documented sources and found a genuinely mixed picture: some scholars and institutions adopted the new view relatively quickly, citing the strength of the supporting evidence, while others resisted for years or decades, sometimes for genuinely evidence-based reasons of their own and sometimes for reasons connected to established institutional authority.\n\nRather than picking one side of this story, Thandar built a timeline showing documented moments of acceptance and documented moments of resistance side by side, citing a specific institution's recorded debate as one clear example of genuine, evidenced disagreement rather than instant unanimous agreement.\n\nHer revised conclusion stated that the worldview shift was real and significant, but gradual and uneven rather than instant and universal -- exactly the kind of precise, evidenced claim the course had built toward since Secondary 1's very first lesson on evidence versus assumption. Her teacher praised the timeline for showing genuine complexity honestly, rather than smoothing a messy, real historical process into a tidy but inaccurate story.",
+        passageMy:
+            "Week 7 ၏ Project အတွက် ကာလ၏ Specific Idea သိပ္ပံအသစ်တစ်ခု မည်သို့ ပျံ့နှံ့ကာ လက်ခံခံခဲ့ရသည်ကို ခြေရာခံရန် Thandar အား တောင်းဆိုခဲ့ပြီး ၎င်း၏ ပထမ Draft တွင် 'လူတိုင်းသည် Evidence-Based View အသစ်ကို လျင်မြန်စွာ လက်ခံခဲ့ကြသည်' ဟု ဖော်ပြခဲ့သည်။\n\nTerm 1 ၏ Balanced-Account Habit အသုံးချကာ Documented Source များနှင့် ၎င်း ၎င်းကို စစ်ဆေးခဲ့ပြီး Genuinely ရောနှောနေသော ပုံရိပ်တစ်ခု ရှာဖွေတွေ့ရှိခဲ့သည် - ပညာရှင်နှင့် Institution အချို့သည် Supporting Evidence ၏ Strength ကို ကိုးကားကာ View အသစ်ကို အတော်လေး လျင်မြန်စွာ လက်ခံခဲ့ကြသော်လည်း အခြားများသည် နှစ်များစွာ (သို့) ဆယ်စုနှစ်များစွာ ဆန့်ကျင်ခဲ့ကြပြီး တခါတရံ ၎င်းတို့ ကိုယ်ပိုင် Genuinely Evidence-Based Reason များကြောင့်၊ တခါတရံ တည်ထောင်ပြီးသား Institutional Authority နှင့် ချိတ်ဆက်ထားသော Reason များကြောင့် ဖြစ်သည်။\n\nဤ Story ၏ ဘက်တစ်ဘက်ကို ရွေးချယ်မည့်အစား Acceptance ၏ Documented Moment များနှင့် Resistance ၏ Documented Moment များကို ဘေးချင်းယှဉ် ပြသသော Timeline တစ်ခုကို Thandar တည်ဆောက်ခဲ့ပြီး Instant Unanimous Agreement တစ်ခုအစား Genuine, Evidenced Disagreement ၏ ရှင်းလင်းသော ဥပမာတစ်ခုအဖြစ် Institution တစ်ခု၏ Recorded Debate တိကျတစ်ခုကို ကိုးကားခဲ့သည်။\n\nWorldview Shift သည် Real, Significant ဖြစ်သော်လည်း Instant, Universal မဟုတ်ဘဲ Gradual, Uneven ဖြစ်ခဲ့ကြောင်း ၎င်း၏ ပြင်ဆင်ထားသော ကောက်ချက် ဖော်ပြခဲ့သည် -- Secondary 1 ၏ Evidence Versus Assumption ပထမဆုံး သင်ခန်းစာမှစ၍ Course တည်ဆောက်ခဲ့သော Precise, Evidenced Claim အမျိုးအစား အတိအကျ ဖြစ်သည်။ ရှုပ်ထွေး, Real သမိုင်းဆိုင်ရာ Process တစ်ခုကို သပ်ရပ်သော်လည်း Inaccurate ဇာတ်လမ်းတစ်ခုအဖြစ် ချောမွေ့စေမည့်အစား Genuine Complexity ကို ရိုးသားစွာ ပြသခဲ့သောကြောင့် Timeline ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mixed picture did Thandar find when checking documented sources?",
+            questionMy:
+                "Documented Source များ စစ်ဆေးသောအခါ Thandar ရှာဖွေတွေ့ရှိခဲ့သော ရောနှောနေသော ပုံရိပ်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Some scholars adopted the new view relatively quickly while others resisted for years or decades",
+              "Every single scholar rejected the new view completely with no exceptions",
+              "No documented sources of any kind existed about this topic",
+              "Every scholar adopted the new view at exactly the same instant",
+            ],
+            optionsMy: [
+              "ပညာရှင်အချို့သည် View အသစ်ကို အတော်လေး လျင်မြန်စွာ လက်ခံခဲ့ကြသော်လည်း အခြားများသည် နှစ်များစွာ (သို့) ဆယ်စုနှစ်များစွာ ဆန့်ကျင်ခဲ့ကြခြင်း",
+              "ပညာရှင်တိုင်းသည် Exception မရှိဘဲ View အသစ်ကို လုံးလုံး ငြင်းပယ်ခဲ့ခြင်း",
+              "ဤခေါင်းစဉ်အကြောင်း Documented Source မည်သည်မှ မရှိခဲ့ခြင်း",
+              "ပညာရှင်တိုင်းသည် View အသစ်ကို Instant တူတူတွင် လက်ခံခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's found picture."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော ပုံရိပ်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Thandar's timeline show side by side?",
+            questionMy:
+                "ဘေးချင်းယှဉ် Thandar ၏ Timeline ပြသခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented moments of acceptance and documented moments of resistance",
+              "Only moments of acceptance with no resistance shown at all",
+              "Only moments of resistance with no acceptance shown at all",
+              "Neither acceptance nor resistance -- an entirely blank timeline",
+            ],
+            optionsMy: [
+              "Acceptance ၏ Documented Moment များနှင့် Resistance ၏ Documented Moment များ",
+              "Resistance ပြသခြင်း လုံးဝ မပါဘဲ Acceptance ၏ Moment များသာ",
+              "Acceptance ပြသခြင်း လုံးဝ မပါဘဲ Resistance ၏ Moment များသာ",
+              "Acceptance (သို့) Resistance နှစ်ခုစလုံး မပါဘဲ -- လုံးလုံး ဗလာ Timeline တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described timeline."],
+            hintsMy: [
+              "ဖော်ပြထားသော Timeline ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Thandar's revised conclusion state about the worldview shift?",
+            questionMy:
+                "Worldview Shift အကြောင်း Thandar ၏ ပြင်ဆင်ထားသော ကောက်ချက် ဖော်ပြခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was real and significant, but gradual and uneven rather than instant and universal",
+              "It never actually happened at all in any documented historical record",
+              "It was instant and universal with no gradual spread of any kind",
+              "It had no actual significance worth studying or documenting",
+            ],
+            optionsMy: [
+              "Real, Significant ဖြစ်သော်လည်း Instant, Universal မဟုတ်ဘဲ Gradual, Uneven ဖြစ်ခဲ့ခြင်း",
+              "Documented သမိုင်းဆိုင်ရာ Record မည်သည်တွင်မျှ အမှန်တကယ် ဘယ်တော့မှ မဖြစ်ပျက်ခဲ့ခြင်း",
+              "Gradual Spread မည်သည်မှ မပါဘဲ Instant, Universal ဖြစ်ခဲ့ခြင်း",
+              "လေ့လာ (သို့) Document ပြုလုပ်ထိုက်သည့် Actual Significance မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w7-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Changing Worldviews Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Changing Worldviews မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Worldview change during this period happened...",
+          questionMy: "ဤကာလအတွင်း Worldview Change သည် ...ဖြစ်ပျက်ခဲ့သည်",
+          optionsEn: [
+            "Gradually and unevenly, not instantly and universally",
+            "Instantly and identically for every single person",
+            "Not at all -- no documented change occurred",
+            "Only among people entirely unrelated to scholarship",
+          ],
+          optionsMy: [
+            "Instantly, Universally မဟုတ်ဘဲ Gradually, Unevenly",
+            "လူတစ်ဦးချင်းစီအတွက် Instantly, Identically",
+            "လုံးဝ -- Documented Change မည်သည်မှ မဖြစ်ပျက်ခဲ့ခြင်း",
+            "Scholarship နှင့် လုံးလုံး မသက်ဆိုင်သော လူများကြားတွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim about how people responded to new ideas should be based on...",
+          questionMy:
+              "လူများ Idea အသစ်များကို မည်သို့ တုံ့ပြန်ခဲ့သည်ဆိုသော Claim တစ်ခုသည် ...အပေါ် အခြေခံသင့်သည်",
+          optionsEn: [
+            "Specific documented reactions such as recorded debates",
+            "A vague claim about how people thought in general",
+            "No evidence of any kind whatsoever",
+            "An assumption that everyone reacted identically",
+          ],
+          optionsMy: [
+            "Recorded Debate များကဲ့သို့ Specific Documented Reaction များ",
+            "လူများ ယေဘုယျအားဖြင့် မည်သို့ တွေးခေါ်ခဲ့သည်ဆိုသော Vague Claim",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "လူတိုင်း Identically တုံ့ပြန်ခဲ့သည်ဟု Assumption",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Claiming that everyone instantly adopted new evidence-based views...",
+          questionMy:
+              "လူတိုင်းသည် Evidence-Based View အသစ်များကို Instantly လက်ခံခဲ့သည်ဟု Claim ပြုလုပ်ခြင်းသည် ...",
+          optionsEn: [
+            "Oversimplifies a genuinely varied, documented reality",
+            "Always gives the most historically accurate picture",
+            "Has no actual connection to documented historical evidence",
+            "Is the only correct way to describe this period",
+          ],
+          optionsMy: [
+            "Genuinely ကွဲပြား, Documented Reality တစ်ခုကို Oversimplify ပြုလုပ်သည်",
+            "အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်သည်",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် Actual Connection မရှိသည်",
+            "ဤကာလကို ဖော်ပြရန် တစ်ခုတည်းသော မှန်ကန်သော နည်းလမ်း ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 2, Week 8 (Capstone/Boss Week):
+// "Renaissance Innovation Showcase"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek8 = CourseWeekDef(
+  id: "course-sec2-hum-w8",
+  weekNumber: 8,
+  titleEn: "Renaissance Innovation Showcase",
+  titleMy: "Renaissance Innovation Showcase",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w8-d1",
+      dayNumber: 1,
+      titleEn: "Building a Complete Innovation Profile",
+      titleMy: "Innovation Profile အပြည့်အစုံ တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a showcase profile of a Renaissance or Scientific Revolution figure combine their documented achievement, its connection to prior traditions, and its documented reception (acceptance and resistance), rather than covering only the achievement itself?",
+          questionMy:
+              "Renaissance (သို့) Scientific Revolution ပုံရိပ်တစ်ခု၏ Showcase Profile သည် Achievement ကိုယ်တိုင်ကိုသာ ဖုံးအုပ်မည့်အစား ၎င်းတို့၏ Documented Achievement, Prior Tradition များနှင့် ၎င်း၏ ချိတ်ဆက်မှုနှင့် ၎င်း၏ Documented Reception (Acceptance နှင့် Resistance) ကို အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Each element answers a different, necessary question -- what was achieved, where it came from, and how it was received -- and combining them gives the most complete, historically honest picture, applying the same combined-element discipline built since Secondary 1",
+            "A showcase profile only ever needs to describe the achievement itself, never its origins or reception",
+            "Combining multiple elements always produces a less accurate profile than covering just the achievement",
+            "Prior traditions and documented reception have no actual connection to a Renaissance figure's achievement",
+          ],
+          optionsMy: [
+            "Element တစ်ခုစီသည် ကွဲပြားသော, လိုအပ်သော မေးခွန်းတစ်ခု -- အဘယ်အရာ အောင်မြင်ခဲ့သည်, ၎င်း မည်သည့်နေရာမှ လာသည်နှင့် ၎င်း မည်သို့ လက်ခံခံရသည် -- ကို ဖြေဆိုပြီး ၎င်းတို့ ပေါင်းစပ်ခြင်းသည် Secondary 1 မှစ၍ တည်ဆောက်ခဲ့သော Combined-Element Discipline တူတူ အသုံးချကာ အပြည့်စုံဆုံး, သမိုင်းအရ ရိုးသားဆုံး ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Showcase Profile တစ်ခုသည် Achievement ကိုယ်တိုင်ကိုသာ ဖော်ပြရန် လိုအပ်ပြီး ၎င်း၏ Origin (သို့) Reception ကို ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Element များစွာ ပေါင်းစပ်ခြင်းသည် Achievement ကိုယ်တိုင် ဖုံးအုပ်ခြင်းထက် Profile ကို တိကျမှု နည်းသော အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "Prior Tradition များနှင့် Documented Reception တွင် Renaissance ပုံရိပ်တစ်ခု၏ Achievement နှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same combined-element discipline from Secondary 1's capstones and Term 1's logbook project -- multiple relevant questions together give a fuller picture than any one alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Capstone များနှင့် Term 1 ၏ Logbook Project မှ Combined-Element Discipline တူတူ ဖြစ်သည် -- Relevant မေးခွန်း များစွာ အတူတကွသည် တစ်ခုတည်းထက် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the showcase avoid claiming any single Renaissance or Scientific Revolution figure was 'the greatest' without stated criteria, consistent with Secondary 1's lesson about the flawed 'greatest civilization' framing?",
+          questionMy:
+              "Secondary 1 ၏ 'Greatest Civilization' Framing ချို့ယွင်းချက်အကြောင်း သင်ခန်းစာနှင့် ကိုက်ညီစွာ Showcase သည် Stated Criteria မပါဘဲ Renaissance (သို့) Scientific Revolution ပုံရိပ်တစ်ဦးတည်းသည် 'အကောင်းဆုံး' ဖြစ်သည်ဟု Claim ပြုလုပ်ခြင်းကို အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Without stated criteria, a 'greatest' claim is essentially meaningless and unverifiable -- different reasonable criteria (influence, technique, documented resistance overcome) would favor different figures",
+            "There is always exactly one objectively correct 'greatest' figure with no need for stated criteria",
+            "Comparing figures from this period has no actual educational value",
+            "Stated criteria make a comparison weaker and less meaningful than an undefined claim",
+          ],
+          optionsMy: [
+            "Stated Criteria မပါဘဲ 'Greatest' Claim တစ်ခုသည် အနှစ်သာရအားဖြင့် အဓိပ္ပာယ်မရှိပြီး Unverifiable ဖြစ်သည် -- ကွဲပြားသော Reasonable Criteria များ (Influence, Technique, Documented Resistance ကျော်လွှားခြင်း) သည် ပုံရိပ်ကွဲပြားစွာကို ဦးစားပေးလိမ့်မည်",
+            "Stated Criteria မလိုအပ်ဘဲ Objectively မှန်ကန်သော 'Greatest' ပုံရိပ်တစ်ဦး အတိအကျ အမြဲ ရှိခြင်း",
+            "ဤကာလမှ ပုံရိပ်များ နှိုင်းယှဉ်ခြင်းတွင် Actual Educational Value မရှိခြင်း",
+            "Stated Criteria သည် Undefined Claim တစ်ခုထက် Comparison ကို ပို၍ အားနည်း, ပို၍ အဓိပ္ပာယ်နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Secondary 1's 'Greatest Civilization' debate lesson -- an unstated basis for comparison is not actually checkable or meaningful.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ 'Greatest Civilization' Debate သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Comparison ၏ Unstated Basis တစ်ခုသည် အမှန်တကယ် စစ်ဆေးနိုင်၊ အဓိပ္ပာယ်ရှိသည် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the showcase's account of each figure's reception honestly note both documented acceptance and documented resistance, following Week 7's lesson, rather than presenting a smooth, uncomplicated success story?",
+          questionMy:
+              "Showcase ၏ ပုံရိပ်တစ်ခုစီ၏ Reception Account သည် Week 7 ၏ သင်ခန်းစာကို လိုက်နာကာ Smooth, ရှုပ်ထွေးမှု မရှိသော အောင်မြင်မှု ဇာတ်လမ်းတစ်ခု တင်ပြမည့်အစား Documented Acceptance နှင့် Documented Resistance နှစ်ခုစလုံးကို အဘယ်ကြောင့် ရိုးသားစွာ မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "A complete, honest account represents the genuine, documented complexity of how an idea was received, exactly the standard Week 7's worldview lesson established",
+            "Presenting only a smooth success story always gives the most historically accurate picture",
+            "Documented resistance has no actual relevance to a figure's achievement showcase",
+            "The showcase should always claim every idea was instantly and universally accepted",
+          ],
+          optionsMy: [
+            "Complete, Honest Account တစ်ခုသည် Idea တစ်ခု မည်သို့ လက်ခံခံရသည် ၏ Genuine, Documented Complexity ကို ကိုယ်စားပြုပြီး Week 7 ၏ Worldview သင်ခန်းစာ တည်ထောင်ခဲ့သော Standard အတိအကျ ဖြစ်သည်",
+            "Smooth Success Story တစ်ခုကိုသာ တင်ပြခြင်းသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်ခြင်း",
+            "Documented Resistance တွင် ပုံရိပ်တစ်ခု၏ Achievement Showcase နှင့် Actual Relevance မရှိခြင်း",
+            "Idea တိုင်းသည် Instantly, Universally လက်ခံခံခဲ့သည်ဟု Showcase သည် အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 7's worldview-change lesson -- represent the genuine mixed reception honestly, rather than smoothing it into a tidy but inaccurate narrative.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 7 ၏ Worldview-Change သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- သပ်ရပ်သော်လည်း Inaccurate Narrative တစ်ခုအဖြစ် ချောမွေ့စေမည့်အစား Genuine ရောနှောနေသော Reception ကို ရိုးသားစွာ ကိုယ်စားပြုပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 Renaissance and Science Overview",
+      titleMy:
+          "တွဲစပ်ကြမည် - Term 2 Renaissance and Science ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w8-dm-1",
+          termEn: "Multi-purpose patronage",
+          termMy: "Multi-Purpose Patronage",
+          matchEn:
+              "Financial support serving artistic, political, and economic goals simultaneously",
+          matchMy:
+              "Artistic, Political နှင့် Economic ရည်မှန်းချက်များကို တစ်ပြိုင်နက် ဆောင်ရွက်ပေးသော Financial Support",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w8-dm-2",
+          termEn: "Testable evidence",
+          termMy: "Testable Evidence",
+          matchEn:
+              "The new scientific standard replacing reliance on ancient authority alone",
+          matchMy:
+              "ရှေးဟောင်း Authority တစ်ခုတည်း အားကိုးမှုကို အစားထိုးသော Scientific Standard အသစ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w8-dm-3",
+          termEn: "Gradual, uneven change",
+          termMy: "Gradual, Uneven Change",
+          matchEn:
+              "Worldview shift documented as happening over time, not instantly or uniformly",
+          matchMy:
+              "Instant (သို့) Uniform မဟုတ်ဘဲ အချိန်တစ်လျှောက် ဖြစ်ပျက်ကြောင်း Documented Worldview Shift",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w8-dm-4",
+          termEn: "Stated criteria",
+          termMy: "Stated Criteria",
+          matchEn:
+              "A clearly named standard, required before any 'greatest' comparison is meaningful",
+          matchMy:
+              "'Greatest' Comparison မည်သည် အဓိပ္ပာယ်ရှိမီ လိုအပ်သော ရှင်းလင်းစွာ အမည်ပေးထားသော Standard",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Showcase Profile or Weak?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော Showcase Profile (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Showcase Profile", "Weak Showcase Profile"],
+        bucketsMy: [
+          "ခိုင်မာသော Showcase Profile",
+          "အားနည်းသော Showcase Profile",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w8-sort-1",
+            labelEn:
+                "Citing documented achievement, prior influences, and documented reception together",
+            labelMy:
+                "Documented Achievement, Prior Influence များနှင့် Documented Reception ကို အတူတကွ ကိုးကားခြင်း",
+            correctBucketEn: "Strong Showcase Profile",
+            correctBucketMy: "ခိုင်မာသော Showcase Profile",
+          ),
+          SortingItem(
+            id: "sec2hum-w8-sort-2",
+            labelEn:
+                "Declaring a figure 'the greatest of the era' with no stated criteria",
+            labelMy:
+                "Stated Criteria မပါဘဲ ပုံရိပ်တစ်ခုကို 'ကာလ၏ အကောင်းဆုံး' ဟု ကြေညာခြင်း",
+            correctBucketEn: "Weak Showcase Profile",
+            correctBucketMy: "အားနည်းသော Showcase Profile",
+          ),
+          SortingItem(
+            id: "sec2hum-w8-sort-3",
+            labelEn:
+                "Noting both documented acceptance and documented resistance to an idea",
+            labelMy:
+                "Idea တစ်ခုအပေါ် Documented Acceptance နှင့် Documented Resistance နှစ်ခုစလုံး မှတ်သားခြင်း",
+            correctBucketEn: "Strong Showcase Profile",
+            correctBucketMy: "ခိုင်မာသော Showcase Profile",
+          ),
+          SortingItem(
+            id: "sec2hum-w8-sort-4",
+            labelEn:
+                "Presenting only a smooth, uncomplicated success story with no resistance mentioned",
+            labelMy:
+                "Resistance ရည်ညွှန်းချက် မပါဘဲ Smooth, ရှုပ်ထွေးမှု မရှိသော Success Story တစ်ခုကိုသာ တင်ပြခြင်း",
+            correctBucketEn: "Weak Showcase Profile",
+            correctBucketMy: "အားနည်းသော Showcase Profile",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Class Innovation Showcase",
+      titleMy: "စာဖတ်ခြင်း - အတန်း Innovation Showcase",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Class Innovation Showcase",
+        titleMy: "အတန်း Innovation Showcase",
+        passageEn:
+            "For Term 2's capstone, each group in the class produced one profile for a shared Renaissance Innovation Showcase, combining every skill from the term into a connected exhibit covering artists, patrons, and scientists from the period.\n\nEvery profile followed the same three-part structure: a documented achievement (an artwork with linear perspective, a scientific observation, an architectural innovation), its connection to prior traditions (classical influence, earlier astronomical records, earlier artistic techniques), and its documented reception (both citations of acceptance and citations of genuine, recorded resistance or debate).\n\nWhen one group's draft included a line calling their profiled scientist 'the single greatest mind of the era,' the class discussed it together and agreed to remove the unranked claim, replacing it with a specific, cited description of what that scientist's evidence-based method had actually changed -- exactly the stated-criteria lesson from Week 8's own opening lesson, itself built on Secondary 1's 'greatest civilization' caution.\n\nThe finished showcase, once assembled, demonstrated the term's full arc: legacy without exact copying, motives weighed rather than simplified, evidence over authority, and gradual, honestly documented change rather than a tidy but inaccurate story. Their teacher called it proof that the disciplined habits from Secondary 1 Humanities were not left behind with that year -- they were the actual foundation this new period of history was being built on.",
+        passageMy:
+            "Term 2 ၏ Capstone အတွက် ကာလမှ Artist, Patron နှင့် Scientist များကို ဖုံးအုပ်သော ချိတ်ဆက်ထားသော Exhibit တစ်ခုတွင် Term မှ Skill တိုင်းကို ပေါင်းစပ် Shared Renaissance Innovation Showcase အတွက် Profile တစ်ခုစီကို အတန်းရှိ Group တစ်ခုစီက ထုတ်လုပ်ခဲ့သည်။\n\nProfile တိုင်းသည် Structure သုံးပိုင်းတူတူကို လိုက်နာခဲ့သည် - Documented Achievement (Linear Perspective ပါသော Artwork, Scientific Observation, Architectural Innovation), Prior Tradition များနှင့် ၎င်း၏ ချိတ်ဆက်မှု (Classical Influence, အစောပိုင်း Astronomical Record များ, အစောပိုင်း Artistic Technique များ) နှင့် ၎င်း၏ Documented Reception (Acceptance Citation များနှင့် Genuine, Recorded Resistance (သို့) Debate Citation များ နှစ်ခုစလုံး)။\n\nGroup တစ်ခု၏ Draft တွင် ၎င်းတို့ Profile ပြုလုပ်ထားသော Scientist ကို 'ကာလ၏ တစ်ဦးတည်း အကြီးမားဆုံး Mind' ဟု ခေါ်ဆိုသော စာကြောင်းတစ်ကြောင်း ပါဝင်ခဲ့သောအခါ အတန်းသည် အတူတကွ ဆွေးနွေးကာ Unranked Claim ကို ဖယ်ရှားရန် သဘောတူခဲ့ပြီး ထို Scientist ၏ Evidence-Based Method သည် အမှန်တကယ် အဘယ်အရာကို ပြောင်းလဲခဲ့သည်ကို Specific, Cited ဖော်ပြချက်ဖြင့် အစားထိုးခဲ့သည် -- Secondary 1 ၏ 'Greatest Civilization' သတိပေးချက်ပေါ် ကိုယ်တိုင် တည်ဆောက်ထားသော Week 8 ကိုယ်တိုင်၏ ဖွင့်လှစ် သင်ခန်းစာမှ Stated-Criteria သင်ခန်းစာ အတိအကျ ဖြစ်သည်။\n\nပေါင်းစည်းပြီးနောက် ပြီးစီးသွားသော Showcase သည် Term ၏ Full Arc ကို သရုပ်ပြခဲ့သည် - Exact Copying မပါသော Legacy, Simplify မဟုတ်ဘဲ Weighed Motive များ, Authority ထက် Evidence နှင့် သပ်ရပ်သော်လည်း Inaccurate ဇာတ်လမ်းတစ်ခုအစား Gradual, ရိုးသားစွာ Documented Change။ Secondary 1 Humanities မှ Disciplined Habit များသည် ထို နှစ်နှင့်အတူ ကျန်ရစ်ခဲ့ခြင်း မဟုတ်ဘဲ -- ၎င်းတို့သည် သမိုင်းကာလ အသစ်တစ်ခု တည်ဆောက်ခံရေးအတွက် Actual Foundation ဖြစ်ကြောင်း Proof အဖြစ် ၎င်းတို့၏ ဆရာမ ခေါ်ဆိုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three-part structure did every profile follow?",
+            questionMy:
+                "Profile တိုင်း လိုက်နာခဲ့သော Structure သုံးပိုင်းကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented achievement, connection to prior traditions, and documented reception",
+              "No structure of any kind was followed by any profile",
+              "Only a single element with no other required parts",
+              "A structure entirely unrelated to achievement, tradition, or reception",
+            ],
+            optionsMy: [
+              "Documented Achievement, Prior Tradition များနှင့် ချိတ်ဆက်မှုနှင့် Documented Reception",
+              "Profile မည်သည်ကမျှ Structure မည်သည်မှ မလိုက်နာခဲ့ခြင်း",
+              "အခြား လိုအပ်သော အပိုင်းများ မပါဘဲ Element တစ်ခုတည်း",
+              "Achievement, Tradition (သို့) Reception နှင့် လုံးလုံး မသက်ဆိုင်သော Structure တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described structure."],
+            hintsMy: [
+              "ဖော်ပြထားသော Structure ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the class do about the 'single greatest mind' claim?",
+            questionMy:
+                "'Single Greatest Mind' Claim အကြောင်း အတန်း ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They removed the unranked claim and replaced it with a specific, cited description of the actual change",
+              "They kept the claim exactly as it was with no discussion of any kind",
+              "They added even more unranked claims of the same kind to the profile",
+              "They removed the scientist's profile from the showcase entirely",
+            ],
+            optionsMy: [
+              "Unranked Claim ကို ဖယ်ရှားပြီး Actual Change ၏ Specific, Cited ဖော်ပြချက်ဖြင့် အစားထိုးခဲ့ခြင်း",
+              "ဆွေးနွေးမှု မည်သည်မှ မပြုဘဲ Claim ကို အတိအကျ ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "အမျိုးအစားတူ Unranked Claim ထပ်ပိုများများကို Profile သို့ ထပ်ထည့်ခဲ့ခြင်း",
+              "Scientist ၏ Profile ကို Showcase မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described action."],
+            hintsMy: ["ဖော်ပြထားသော Action ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher call the disciplined habits from Secondary 1 Humanities?",
+            questionMy:
+                "Secondary 1 Humanities မှ Disciplined Habit များကို ဆရာမ မည်သို့ ခေါ်ဆိုခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The actual foundation this new period of history was being built on",
+              "Habits that were left behind and no longer relevant",
+              "Something with no actual connection to Secondary 2's work",
+              "A set of rules that applied only to ancient civilizations",
+            ],
+            optionsMy: [
+              "သမိုင်းကာလ အသစ်တစ်ခု တည်ဆောက်ခံရေးအတွက် Actual Foundation",
+              "ကျန်ရစ်ခဲ့ပြီး နောက်ထပ် Relevant မဟုတ်တော့သော Habit များ",
+              "Secondary 2 ၏ အလုပ်နှင့် Actual Connection မရှိသော အရာတစ်ခု",
+              "ရှေးဟောင်း Civilization များအတွက်သာ အသုံးချသော Rule အစုအဝေးတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated description."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဖော်ပြချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Renaissance and Scientific Revolution Exam",
+      titleMy:
+          "Term 2 Capstone - Renaissance and Scientific Revolution စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete showcase profile should combine...",
+          questionMy:
+              "ပြည့်စုံသော Showcase Profile တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Documented achievement, prior influences, and documented reception",
+            "Only the achievement with no other elements",
+            "Only prior influences with no achievement or reception",
+            "None of these three elements",
+          ],
+          optionsMy: [
+            "Documented Achievement, Prior Influence များနှင့် Documented Reception",
+            "အခြား Element မပါဘဲ Achievement တစ်ခုတည်း",
+            "Achievement (သို့) Reception မပါဘဲ Prior Influence များသာ",
+            "Element သုံးခုထဲမှ တစ်ခုမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Claiming a figure was 'the greatest' requires...",
+          questionMy:
+              "ပုံရိပ်တစ်ခုသည် 'အကောင်းဆုံး' ဖြစ်သည်ဟု Claim ပြုလုပ်ခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Explicitly stated criteria for the comparison",
+            "No criteria of any kind whatsoever",
+            "An assumption with no need for evidence",
+            "A comparison that never needs to be checked",
+          ],
+          optionsMy: [
+            "Comparison အတွက် ရှင်းလင်းစွာ Stated Criteria",
+            "Criteria မည်သည်မှ လုံးဝ",
+            "Evidence မလိုအပ်ဘဲ Assumption တစ်ခု",
+            "ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်သော Comparison တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A figure's reception should be represented as...",
+          questionMy: "ပုံရိပ်တစ်ခု၏ Reception ကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Genuinely mixed, with both acceptance and resistance documented honestly",
+            "A smooth, uncomplicated success story with no resistance",
+            "Something with no actual documented evidence of any kind",
+            "Instant and universal with no variation whatsoever",
+          ],
+          optionsMy: [
+            "Acceptance နှင့် Resistance နှစ်ခုစလုံး ရိုးသားစွာ Document ပြုလုပ်ထားသော Genuinely ရောနှောနေခြင်း",
+            "Resistance မပါသော Smooth, ရှုပ်ထွေးမှု မရှိသော Success Story တစ်ခု",
+            "Actual Documented Evidence မည်သည်မှ မပါသော အရာတစ်ခု",
+            "Variation မရှိဘဲ Instant, Universal",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 2: "Renaissance and Scientific
+// Revolution" term definition (Weeks 5-8)
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm2 = CourseTermDef(
+  id: "course-sec2-hum-t2",
+  termNumber: 2,
+  titleEn: "Renaissance and Scientific Revolution",
+  titleMy: "Renaissance and Scientific Revolution",
+  certificateTitleEn: "Renaissance and Scientific Revolution",
+  certificateTitleMy: "Renaissance and Scientific Revolution",
+  weeks: [_sec2HumWeek5, _sec2HumWeek6, _sec2HumWeek7, _sec2HumWeek8],
 );
 // __SEC_HUM_MARKER__
