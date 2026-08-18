@@ -127899,4 +127899,1462 @@ const CourseTermDef _sec2HumTerm9 = CourseTermDef(
   certificateTitleMy: "Secondary 2 Humanities သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec2HumWeek33, _sec2HumWeek34, _sec2HumWeek35, _sec2HumWeek36],
 );
+// =====================================================================
+// Secondary 3 Humanities (Year 9) -- "Nationalism, Global Change and
+// the Path to IGCSE". Topic-driven, following the same Secondary-tier
+// convention as Secondary 1/2 Humanities (a rotating cast of named
+// Myanmar students rather than one fixed protagonist). Continues
+// directly from Secondary 2's foundations, moving the history strand
+// into nationalism, imperialism, and decolonization while deliberately
+// priming (without duplicating) specific IGCSE Humanities terms, and
+// advances the geography strand into population geography, migration,
+// development, and natural hazards -- closing the Secondary tier with
+// an IGCSE-readiness capstone.
+// Term 1: Nationalism and Unification (Weeks 1-4)
+// Term 1, Week 1: "What Is Nationalism? Documented Unification
+// Movements"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek1 = CourseWeekDef(
+  id: "course-sec3-hum-w1",
+  weekNumber: 1,
+  titleEn: "What Is Nationalism? Documented Unification Movements",
+  titleMy:
+      "Nationalism ဆိုသည်မှာ အဘယ်နည်း - Documented Unification Movement များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w1-d1",
+      dayNumber: 1,
+      titleEn: "Defining Nationalism with Documented Evidence",
+      titleMy: "Documented Evidence ဖြင့် Nationalism အဓိပ္ပာယ်ဖွင့်ဆိုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document nationalism as the belief that people sharing a common language, culture, or history should form and govern their own unified nation-state. Why cite this specific, documented definition rather than describing nationalism only as vague 'national pride'?",
+          questionMy:
+              "Historian များသည် Nationalism ကို Common Language, Culture (သို့) History မျှဝေထားသော လူများသည် ၎င်းတို့ကိုယ်ပိုင် Unified Nation-State ကို ဖွဲ့စည်းကာ Govern ပြုလုပ်သင့်သည်ဟူသော ယုံကြည်ချက်အဖြစ် Document ပြုလုပ်ထားသည်။ Nationalism ကို Vague 'National Pride' အဖြစ်သာ ဖော်ပြမည့်အစား ဤ Specific, Documented Definition ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, documented definition allows precise historical analysis of documented unification movements, the same specific-over-vague habit taught since Secondary 2's Term 1",
+            "Vague descriptions like 'national pride' are always more historically accurate than specific documented definitions",
+            "Nationalism has no actual documented definition of any kind",
+            "Specific documented definitions have no actual value in studying historical movements",
+          ],
+          optionsMy: [
+            "Specific, Documented Definition တစ်ခုသည် Documented Unification Movement များ၏ Precise သမိုင်းဆိုင်ရာ Analysis ကို ခွင့်ပြုပြီး Secondary 2 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်",
+            "'National Pride' ကဲ့သို့ Vague ဖော်ပြချက်များသည် Specific Documented Definition များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Nationalism တွင် Actual Documented Definition မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Specific Documented Definition များတွင် သမိုင်းဆိုင်ရာ Movement များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit carried forward from every prior term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Historians document Italian unification and German unification as separate, distinct movements with their own specific leaders and events (such as Garibaldi and Cavour for Italy, Bismarck for Germany), rather than one single generic 'unification movement.' Why keep these documented movements distinct?",
+          questionMy:
+              "Historian များသည် Italian Unification နှင့် German Unification ကို (Italy အတွက် Garibaldi နှင့် Cavour, Germany အတွက် Bismarck ကဲ့သို့) ၎င်းတို့ ကိုယ်ပိုင် Specific Leader များနှင့် Event များဖြင့် Generic 'Unification Movement' တစ်ခုတည်းမဟုတ်ဘဲ Separate, Distinct Movement များအဖြစ် Document ပြုလုပ်ထားသည်။ ဤ Documented Movement များကို Distinct အဖြစ် အဘယ်ကြောင့် ထားရှိသနည်း။",
+          optionsEn: [
+            "Each documented movement had its own specific leaders, methods, and timeline, so treating them separately preserves the precise documented evidence rather than blending distinct histories into one vague category",
+            "Italian and German unification are documented as having identical leaders, methods, and events",
+            "Only one of these two documented movements actually occurred historically",
+            "Distinguishing documented movements has no actual value in historical study",
+          ],
+          optionsMy: [
+            "Documented Movement တစ်ခုစီတွင် ၎င်း ကိုယ်ပိုင် Specific Leader များ, Method များနှင့် Timeline ရှိသောကြောင့် ၎င်းတို့ကို သီးခြားစီ သဘောထားခြင်းသည် Distinct History များကို Vague Category တစ်ခုတည်းအဖြစ် ရောစပ်မည့်အစား Precise Documented Evidence ကို ထိန်းသိမ်းသည်",
+            "Italian နှင့် German Unification ကို Identical Leader များ, Method များနှင့် Event များ ရှိကြောင်း Document ပြုလုပ်ထားသည်",
+            "Documented Movement နှစ်ခုအနက် တစ်ခုတည်းသာ သမိုင်းအရ Actual ဖြစ်ပျက်ခဲ့ခြင်း",
+            "Documented Movement များကို ခွဲခြားခြင်းတွင် သမိုင်းဆိုင်ရာ လေ့လာမှု၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of this the same way Secondary 2's Week 27 kept the American and French Revolutions distinct despite shared Enlightenment influence.",
+          ],
+          hintsMy: [
+            "Shared Enlightenment Influence ရှိသော်လည်း Secondary 2 ၏ Week 27 က American နှင့် French Revolution များကို Distinct ထားရှိခဲ့သကဲ့သို့ ဤသည်ကို စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students studying unification movements cite specific documented events (such as named battles, treaties, or dates) rather than describing unification only as 'countries coming together'?",
+          questionMy:
+              "Unification Movement များ လေ့လာသော Student များသည် Unification ကို 'Country များ အတူတကွ လာခြင်း' ဟုသာ ဖော်ပြမည့်အစား Specific Documented Event များ (Named Battle များ, Treaty များ, သို့ Date များ) ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented events shows precisely how unification actually happened as a historical process, the same specific-citation discipline used throughout Secondary 1 and Secondary 2",
+            "Vague descriptions are always more accurate than specific documented events",
+            "Specific documented events have no actual value in studying unification",
+            "Unification should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Event များ Cite ပြုလုပ်ခြင်းသည် Unification Actual သမိုင်းဆိုင်ရာ Process တစ်ခုအဖြစ် မည်သို့ ဖြစ်ပျက်ခဲ့သည်ကို တိကျစွာ ပြသပြီး Secondary 1 နှင့် Secondary 2 တစ်လျှောက် အသုံးပြုခဲ့သော Specific-Citation Discipline တူတူ ဖြစ်သည်",
+            "Vague ဖော်ပြချက်များသည် Specific Documented Event များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Event များတွင် Unification လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Unification ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Secondary 1's Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nationalism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Nationalism Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w1-dm-1",
+          termEn: "Nationalism",
+          termMy: "Nationalism",
+          matchEn:
+              "The documented belief that people sharing common identity should form their own nation-state",
+          matchMy:
+              "Common Identity မျှဝေထားသော လူများသည် ၎င်းတို့ကိုယ်ပိုင် Nation-State ဖွဲ့စည်းသင့်သည်ဟူသော Documented ယုံကြည်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w1-dm-2",
+          termEn: "Italian unification",
+          termMy: "Italian Unification",
+          matchEn:
+              "A documented movement led by specific figures including Garibaldi and Cavour",
+          matchMy:
+              "Garibaldi နှင့် Cavour အပါအဝင် Specific Figure များ ဦးဆောင်ခဲ့သော Documented Movement",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w1-dm-3",
+          termEn: "German unification",
+          termMy: "German Unification",
+          matchEn:
+              "A documented movement associated with the specific figure Otto von Bismarck",
+          matchMy:
+              "Specific Figure Otto von Bismarck နှင့် ဆက်စပ်ထားသော Documented Movement",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w1-dm-4",
+          termEn: "Documented event citation",
+          termMy: "Documented Event Citation",
+          matchEn:
+              "Naming specific battles, treaties, or dates rather than vague descriptions",
+          matchMy:
+              "Vague ဖော်ပြချက်များအစား Specific Battle များ, Treaty များ (သို့) Date များ အမည်တပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Italian Unification or German Unification?",
+      titleMy: "စီစစ်ကြမည် - Italian Unification (သို့) German Unification",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Specific to Italian Unification",
+          "Specific to German Unification",
+        ],
+        bucketsMy: [
+          "Italian Unification ၏ Specific",
+          "German Unification ၏ Specific",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w1-sort-1",
+            labelEn: "Giuseppe Garibaldi's documented military campaigns",
+            labelMy: "Giuseppe Garibaldi ၏ Documented စစ်ရေး Campaign များ",
+            correctBucketEn: "Specific to Italian Unification",
+            correctBucketMy: "Italian Unification ၏ Specific",
+          ),
+          SortingItem(
+            id: "sec3hum-w1-sort-2",
+            labelEn:
+                "Otto von Bismarck's documented diplomatic and military strategy",
+            labelMy:
+                "Otto von Bismarck ၏ Documented Diplomatic နှင့် စစ်ရေး Strategy",
+            correctBucketEn: "Specific to German Unification",
+            correctBucketMy: "German Unification ၏ Specific",
+          ),
+          SortingItem(
+            id: "sec3hum-w1-sort-3",
+            labelEn: "Camillo di Cavour's documented diplomatic negotiations",
+            labelMy:
+                "Camillo di Cavour ၏ Documented Diplomatic ညှိနှိုင်းမှုများ",
+            correctBucketEn: "Specific to Italian Unification",
+            correctBucketMy: "Italian Unification ၏ Specific",
+          ),
+          SortingItem(
+            id: "sec3hum-w1-sort-4",
+            labelEn:
+                "The documented unification of German states under Prussian leadership",
+            labelMy:
+                "Prussian ခေါင်းဆောင်မှုအောက် German State များ၏ Documented Unification",
+            correctBucketEn: "Specific to German Unification",
+            correctBucketMy: "German Unification ၏ Specific",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Unification Notes",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ Unification Notes",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Unification Notes",
+        titleMy: "Htet Wai Yan ၏ Unification Notes",
+        passageEn:
+            "For Week 1's assignment, Htet Wai Yan's first draft described nationalism only as 'national pride' and unification only as 'countries coming together,' with no specific documented figures, events, or dates cited. His teacher asked him to apply the specific-evidence habit carried forward from every term of Secondary 1 and Secondary 2 -- what specific, documented content was he actually referring to?\n\nHtet Wai Yan revised his notes with the documented definition of nationalism (the belief that people sharing common identity should form their own nation-state) and specific documented content for two distinct movements: Italian unification, led by figures including Garibaldi and Cavour, and German unification, associated with Bismarck's documented diplomatic and military strategy. He was careful to keep the two movements distinct rather than blending them into one vague category, since each had its own specific documented leaders, methods, and timeline.\n\nHis teacher praised the revision for applying the same specific-over-vague habit used throughout Secondary 1 and Secondary 2, and noted that this term would build directly on that habit as the class moved into imperialism and the tensions before the Great War -- topics that would need the same precise, documented approach to avoid vague or misleading generalizations about a complex period.",
+        passageMy:
+            "Week 1 ၏ Assignment အတွက် Htet Wai Yan ၏ ပထမဆုံး Draft တွင် Specific Documented Figure, Event (သို့) Date မည်သည်ကိုမျှ Cite မပြုဘဲ Nationalism ကို 'National Pride' အဖြစ်သာ, Unification ကို 'Country များ အတူတကွ လာခြင်း' အဖြစ်သာ ဖော်ပြခဲ့သည်။ Secondary 1 နှင့် Secondary 2 ၏ Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Content မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nNationalism ၏ Documented Definition (Common Identity မျှဝေထားသော လူများသည် ၎င်းတို့ကိုယ်ပိုင် Nation-State ဖွဲ့စည်းသင့်သည်ဟူသော ယုံကြည်ချက်) နှင့် Distinct Movement နှစ်ခုအတွက် Specific Documented Content ဖြင့် ၎င်း၏ Notes ကို Htet Wai Yan ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Garibaldi နှင့် Cavour အပါအဝင် Figure များ ဦးဆောင်ခဲ့သော Italian Unification နှင့် Bismarck ၏ Documented Diplomatic နှင့် စစ်ရေး Strategy နှင့် ဆက်စပ်ထားသော German Unification။ Movement တစ်ခုစီတွင် ၎င်း ကိုယ်ပိုင် Specific Documented Leader များ, Method များနှင့် Timeline ရှိသောကြောင့် ၎င်းတို့ကို Vague Category တစ်ခုတည်းအဖြစ် ရောစပ်မည့်အစား Distinct အဖြစ် ဆက်လက် ထားရှိရန် ၎င်း သတိထားခဲ့သည်။\n\nSecondary 1 နှင့် Secondary 2 တစ်လျှောက် အသုံးပြုခဲ့သော Specific-Over-Vague အလေ့အထ တူတူကို အသုံးချသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Class Imperialism နှင့် Great War မတိုင်မီ Tension များသို့ ရွေ့လျားလာသည်နှင့်အမျှ ဤ Term သည် ထို အလေ့အထပေါ်တွင် တိုက်ရိုက် တည်ဆောက်မည်ဖြစ်ကြောင်း, ရှုပ်ထွေးသော ကာလတစ်ခုအကြောင်း Vague (သို့) Misleading Generalization များကို ရှောင်ရှားရန် Precise, Documented Approach တူတူ လိုအပ်မည်ဖြစ်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Htet Wai Yan's first draft?",
+            questionMy:
+                "Htet Wai Yan ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specific documented figures, events, or dates",
+              "Any mention of nationalism or unification at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Specific Documented Figure များ, Event များ (သို့) Date များ",
+              "Nationalism (သို့) Unification ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Htet Wai Yan keep the two unification movements distinct?",
+            questionMy:
+                "Unification Movement နှစ်ခုကို Htet Wai Yan Distinct အဖြစ် အဘယ်ကြောင့် ထားရှိခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each had its own specific documented leaders, methods, and timeline",
+              "The two movements are documented as always identical",
+              "Only one of the two movements actually occurred historically",
+              "Distinguishing movements has no actual documented value",
+            ],
+            optionsMy: [
+              "တစ်ခုစီတွင် ၎င်း ကိုယ်ပိုင် Specific Documented Leader များ, Method များနှင့် Timeline ရှိခြင်း",
+              "Movement နှစ်ခုကို အမြဲ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+              "Movement နှစ်ခုအနက် တစ်ခုတည်းသာ သမိုင်းအရ Actual ဖြစ်ပျက်ခဲ့ခြင်း",
+              "Movement များကို ခွဲခြားခြင်းတွင် Actual Documented Value မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the teacher say this term would build toward?",
+            questionMy:
+                "ဤ Term ဘာဆီသို့ တည်ဆောက်မည်ဟု ဆရာ ပြောခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Imperialism and the tensions before the Great War",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to this year's course",
+              "Content with no connection to specific, documented evidence",
+            ],
+            optionsMy: [
+              "Imperialism နှင့် Great War မတိုင်မီ Tension များ",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "ဤနှစ်၏ Course နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Specific, Documented Evidence နှင့် ဆက်နွယ်မှု မပါသော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w1-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Nationalism Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Nationalism မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Nationalism is documented as the belief that...",
+          questionMy:
+              "Nationalism ကို ...ဟူသော ယုံကြည်ချက်အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "People sharing common identity should form their own nation-state",
+            "No documented belief of any kind exists about national identity",
+            "National identity has no actual connection to statehood",
+            "Common identity should never actually influence governance",
+          ],
+          optionsMy: [
+            "Common Identity မျှဝေထားသော လူများသည် ၎င်းတို့ကိုယ်ပိုင် Nation-State ဖွဲ့စည်းသင့်ခြင်း",
+            "National Identity အကြောင်း Documented Belief မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "National Identity သည် Statehood နှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "Common Identity သည် Governance ကို ဘယ်တော့မှ Actual Influence မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Italian unification and German unification are documented as...",
+          questionMy:
+              "Italian Unification နှင့် German Unification ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Separate, distinct movements with their own specific leaders",
+            "One identical movement with no distinguishing features",
+            "Movements with no documented leaders of any kind",
+            "Events unrelated to any documented historical process",
+          ],
+          optionsMy: [
+            "ကိုယ်ပိုင် Specific Leader များနှင့် Separate, Distinct Movement များ",
+            "ကွဲပြားသော Feature မပါဘဲ Identical Movement တစ်ခုတည်း",
+            "Documented Leader မည်သည် အမျိုးအစားမှ မပါသော Movement များ",
+            "Documented သမိုင်းဆိုင်ရာ Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Event များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying unification movements requires citing...",
+          questionMy:
+              "Unification Movement များ လေ့လာခြင်းသည် ...ကို Cite ပြုလုပ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented events, figures, and dates",
+            "Only vague descriptions with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific historical movement",
+          ],
+          optionsMy: [
+            "Specific Documented Event များ, Figure များနှင့် Date များ",
+            "Specific Documented Evidence မပါဘဲ Vague ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific သမိုင်းဆိုင်ရာ Movement မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 1, Week 2: "Causes and Methods of
+// Unification"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek2 = CourseWeekDef(
+  id: "course-sec3-hum-w2",
+  weekNumber: 2,
+  titleEn: "Causes and Methods of Unification",
+  titleMy: "Unification ၏ Cause များနှင့် Method များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w2-d1",
+      dayNumber: 1,
+      titleEn: "Multiple Documented Causes and Methods",
+      titleMy: "Documented Cause များနှင့် Method များစွာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document several factors combining to cause unification movements: shared language and culture, economic benefits of a unified market, and specific political leadership. Why cite this combination rather than a single cause?",
+          questionMy:
+              "Historian များသည် Unification Movement များကို ဖြစ်စေသော Factor များစွာ ပေါင်းစပ်ခြင်းကို Document ပြုလုပ်ထားသည် -- Shared Language နှင့် Culture, Unified Market ၏ Economic Benefit များနှင့် Specific Political Leadership။ Cause တစ်ခုတည်းအစား ဤ Combination ကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout Secondary 1 and Secondary 2 -- major historical change usually results from several documented factors working together",
+            "A single documented factor is always sufficient to explain unification fully",
+            "None of these factors have any actual documented connection to unification movements",
+            "Shared culture, economic benefit, and political leadership are documented as completely unrelated to each other",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 1 နှင့် Secondary 2 တစ်လျှောက် အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- Major သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် များသောအားဖြင့် အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာသည်",
+            "Documented Factor တစ်ခုတည်းသည် Unification ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ Unification Movement များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Shared Culture, Economic Benefit နှင့် Political Leadership ကို တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle carried forward from Secondary 2's Term 7 revolutions work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Term 7 Revolution အလုပ်မှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Historians document that unification was achieved through different specific documented methods in different cases -- diplomacy and alliance-building in some instances, and direct military conflict (such as the documented Franco-Prussian War) in others. Why does this matter for accurate historical understanding?",
+          questionMy:
+              "Case ကွဲပြားချင်းတွင် Diplomacy နှင့် Alliance-Building, အခြား Case များတွင် Direct စစ်ရေး Conflict (Documented Franco-Prussian War ကဲ့သို့) ကဲ့သို့ ကွဲပြားသော Specific Documented Method များမှတစ်ဆင့် Unification ကို ရရှိခဲ့ကြောင်း Historian များ Document ပြုလုပ်ထားသည်။ ဤသည်က တိကျသော သမိုင်းဆိုင်ရာ နားလည်မှုအတွက် အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Recognizing distinct documented methods rather than assuming one uniform process gives a precise, accurate picture of how each specific unification actually unfolded",
+            "All documented unification movements used identical methods with no distinction",
+            "Documented methods have no actual historical significance in unification study",
+            "Military conflict is documented as the only method ever used in any unification movement",
+          ],
+          optionsMy: [
+            "Uniform Process တစ်ခုတည်းဟု ယူဆမည့်အစား Distinct Documented Method များကို အသိအမှတ်ပြုခြင်းသည် Unification Specific တစ်ခုစီ Actual မည်သို့ ဖြစ်ပေါ်ခဲ့သည်ကို Precise, Accurate ပုံရိပ်ကို ပေးအပ်သည်",
+            "Documented Unification Movement အားလုံးသည် Distinction မရှိဘဲ Identical Method များ အသုံးပြုခဲ့သည်",
+            "Documented Method များတွင် Unification Study ၌ Actual သမိုင်းဆိုင်ရာ Significance မရှိခြင်း",
+            "စစ်ရေး Conflict ကို Unification Movement မည်သည်တွင်မဆို ဘယ်တော့မှ အသုံးပြုခဲ့သော Method တစ်ခုတည်းအဖြစ် Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to the specific-citation discipline from Week 1 -- naming the actual documented method for each case rather than generalizing.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Generalize ပြုလုပ်မည့်အစား Case တစ်ခုစီအတွက် Actual Documented Method ကို အမည်တပ်ရန် Week 1 ၏ Specific-Citation Discipline သို့ ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes the Franco-Prussian War only as 'a war that happened' with no documented year, participants, or outcome cited. What historical-evidence habit should the student apply?",
+          questionMy:
+              "Student တစ်ဦးသည် Documented Year, Participant (သို့) Outcome မည်သည်ကိုမျှ Cite မပြုဘဲ Franco-Prussian War ကို 'ဖြစ်ပျက်ခဲ့သော စစ်ပွဲတစ်ခု' ဟုသာ ဖော်ပြသည်။ Student ဘယ် Historical-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Citing specific documented details (year, participants, outcome) rather than a vague, unspecified description, the same specific-evidence habit taught since Secondary 1's Term 1",
+            "Vague, unspecified descriptions are always more historically accurate than specific documented details",
+            "Specific documented details have no actual value in describing a historical event",
+            "Documented details should never actually be cited for any historical war",
+          ],
+          optionsMy: [
+            "Vague, Unspecified ဖော်ပြချက်တစ်ခုအစား Specific Documented Detail များ (Year, Participant, Outcome) ကို Cite ပြုလုပ်ခြင်း, Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, Unspecified ဖော်ပြချက်များသည် Specific Documented Detail များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Specific Documented Detail များတွင် သမိုင်းဆိုင်ရာ Event တစ်ခု ဖော်ပြရာ၌ Actual Value မရှိခြင်း",
+            "Documented Detail များကို သမိုင်းဆိုင်ရာ စစ်ပွဲ မည်သည်အတွက်မျှ ဘယ်တော့မှ Actual Cite မပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Secondary 1's Term 1, applied to this specific documented war.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Specific Documented စစ်ပွဲပေါ်တွင် အသုံးချထားသော Secondary 1 ၏ Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Unification Methods Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Unification Methods Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w2-dm-1",
+          termEn: "Diplomacy and alliance-building",
+          termMy: "Diplomacy and Alliance-Building",
+          matchEn:
+              "A documented peaceful method of achieving unification through negotiation",
+          matchMy:
+              "Negotiation မှတစ်ဆင့် Unification ရရှိရန် Documented ငြိမ်းချမ်းသော Method",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w2-dm-2",
+          termEn: "Franco-Prussian War",
+          termMy: "Franco-Prussian War",
+          matchEn:
+              "A documented military conflict that contributed directly to German unification",
+          matchMy:
+              "German Unification သို့ တိုက်ရိုက် ပံ့ပိုးခဲ့သော Documented စစ်ရေး Conflict",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w2-dm-3",
+          termEn: "Economic benefit of unity",
+          termMy: "Unity ၏ Economic Benefit",
+          matchEn:
+              "A documented cause of unification: the advantages of a single, unified market",
+          matchMy:
+              "Unification ၏ Documented Cause တစ်ခု - Unified Market တစ်ခုတည်း၏ Advantage များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w2-dm-4",
+          termEn: "Specific documented method",
+          termMy: "Specific Documented Method",
+          matchEn:
+              "Naming the precise documented approach used in a case rather than generalizing",
+          matchMy:
+              "Generalize ပြုလုပ်မည့်အစား Case တစ်ခုတွင် အသုံးပြုသော Precise Documented Approach ကို အမည်တပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Cause or Documented Method?",
+      titleMy: "စီစစ်ကြမည် - Documented Cause (သို့) Documented Method",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Cause", "Documented Method"],
+        bucketsMy: ["Documented Cause", "Documented Method"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w2-sort-1",
+            labelEn: "Shared language and culture across a region",
+            labelMy: "Region တစ်ခုတစ်လျှောက် Shared Language နှင့် Culture",
+            correctBucketEn: "Documented Cause",
+            correctBucketMy: "Documented Cause",
+          ),
+          SortingItem(
+            id: "sec3hum-w2-sort-2",
+            labelEn: "Diplomatic alliance-building between political leaders",
+            labelMy: "Political Leader များကြား Diplomatic Alliance-Building",
+            correctBucketEn: "Documented Method",
+            correctBucketMy: "Documented Method",
+          ),
+          SortingItem(
+            id: "sec3hum-w2-sort-3",
+            labelEn: "Economic advantages of a unified market",
+            labelMy: "Unified Market ၏ Economic Advantage များ",
+            correctBucketEn: "Documented Cause",
+            correctBucketMy: "Documented Cause",
+          ),
+          SortingItem(
+            id: "sec3hum-w2-sort-4",
+            labelEn:
+                "Direct military conflict, such as the Franco-Prussian War",
+            labelMy: "Franco-Prussian War ကဲ့သို့ Direct စစ်ရေး Conflict",
+            correctBucketEn: "Documented Method",
+            correctBucketMy: "Documented Method",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Causes-and-Methods Chart",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Causes-And-Methods Chart",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Causes-and-Methods Chart",
+        titleMy: "Zayar Lin ၏ Causes-And-Methods Chart",
+        passageEn:
+            "For Week 2's project, Zayar Lin built a chart separating documented causes of unification from documented methods, applying the multi-causation principle carried forward from Secondary 2's Term 7. He cited three documented causes working together: shared language and culture, the economic advantages of a unified market, and specific political leadership.\n\nHe then researched documented methods separately, finding that unification was not achieved through one uniform process. Some unification efforts relied on diplomacy and alliance-building, while German unification specifically involved direct military conflict, including the documented Franco-Prussian War. His first draft described this war only as 'a war that happened,' but his teacher asked him to apply the specific-evidence habit from Secondary 1's Term 1 -- what documented year, participants, and outcome was he actually referring to?\n\nZayar Lin revised his chart to cite the war's specific documented role in German unification rather than leaving it vague. His teacher praised the chart for keeping causes and methods in separate, clearly labeled categories and for replacing every vague reference with specific, documented citation, exactly the discipline the class would need going into Week 3's more complex, double-edged look at nationalism.",
+        passageMy:
+            "Week 2 ၏ Project အတွက် Secondary 2 ၏ Term 7 မှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle ကို အသုံးချကာ Unification ၏ Documented Cause များကို Documented Method များမှ ခွဲခြားထားသော Chart တစ်ခု Zayar Lin တည်ဆောက်ခဲ့သည်။ အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause သုံးခုကို ၎င်း Cite ပြုလုပ်ခဲ့သည် -- Shared Language နှင့် Culture, Unified Market ၏ Economic Advantage များနှင့် Specific Political Leadership။\n\nDocumented Method များကို ၎င်း သီးခြားစီ Research ပြုလုပ်ခဲ့ပြီး Unification ကို Uniform Process တစ်ခုတည်းမှတစ်ဆင့် မရရှိခဲ့ကြောင်း တွေ့ရှိခဲ့သည်။ Unification Effort အချို့သည် Diplomacy နှင့် Alliance-Building ပေါ်တွင် မှီခိုခဲ့ပြီး German Unification သည် Documented Franco-Prussian War အပါအဝင် Direct စစ်ရေး Conflict ကို တိကျစွာ ပါဝင်ခဲ့သည်။ ၎င်း၏ ပထမဆုံး Draft တွင် ဤစစ်ပွဲကို 'ဖြစ်ပျက်ခဲ့သော စစ်ပွဲတစ်ခု' ဟုသာ ဖော်ပြခဲ့သော်လည်း Secondary 1 ၏ Term 1 မှ Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Documented Year, Participant နှင့် Outcome မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nဤစစ်ပွဲကို Vague ချန်ထားမည့်အစား German Unification ၌ ၎င်း၏ Specific Documented Role ကို Cite ပြုလုပ်ရန် ၎င်း၏ Chart ကို Zayar Lin ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Cause များနှင့် Method များကို Separate, ရှင်းလင်းစွာ Label တပ်ထားသော Category များတွင် ထားရှိခြင်းနှင့် Vague Reference တိုင်းကို Specific, Documented Citation ဖြင့် အစားထိုးခြင်းအတွက် Chart ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Class Week 3 ၏ ပို၍ ရှုပ်ထွေးသော, Nationalism ၏ Double-Edged Look သို့ ဝင်ရောက်ရန် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what three documented causes did Zayar Lin cite?",
+            questionMy:
+                "Zayar Lin Cite ပြုလုပ်ခဲ့သော Documented Cause သုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Shared language and culture, economic advantages, and political leadership",
+              "Only a single unspecified cause with no documented evidence",
+              "Causes entirely unrelated to unification",
+              "No documented cause of any kind",
+            ],
+            optionsMy: [
+              "Shared Language နှင့် Culture, Economic Advantage များနှင့် Political Leadership",
+              "Documented Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+              "Unification နှင့် လုံးလုံး မသက်ဆိုင်သော Cause များ",
+              "Documented Cause မည်သည် အမျိုးအစားမှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's cited causes."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Cause များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what method did German unification specifically involve?",
+            questionMy:
+                "German Unification တိကျစွာ ပါဝင်ခဲ့သော Method ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Direct military conflict, including the Franco-Prussian War",
+              "Only diplomacy with no military conflict of any kind",
+              "No documented method of any kind",
+              "A method entirely unrelated to unification",
+            ],
+            optionsMy: [
+              "Franco-Prussian War အပါအဝင် Direct စစ်ရေး Conflict",
+              "စစ်ရေး Conflict မည်သည် အမျိုးအစားမှ မပါဘဲ Diplomacy သာ",
+              "Documented Method မည်သည် အမျိုးအစားမှ",
+              "Unification နှင့် လုံးလုံး မသက်ဆိုင်သော Method",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated method."],
+            hintsMy: [
+              "ဖော်ပြထားသော Method ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Zayar Lin's chart?",
+            questionMy:
+                "Zayar Lin ၏ Chart ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For keeping causes and methods separate and replacing vague references with specific citation",
+              "For blending causes and methods into one vague category",
+              "For removing all documented evidence from the chart entirely",
+              "For making no changes to the original vague draft",
+            ],
+            optionsMy: [
+              "Cause များနှင့် Method များကို Separate ထားရှိခြင်းနှင့် Vague Reference များကို Specific Citation ဖြင့် အစားထိုးခြင်းအတွက်",
+              "Cause များနှင့် Method များကို Vague Category တစ်ခုတည်းအဖြစ် ရောစပ်ခြင်းအတွက်",
+              "Chart မှ Documented Evidence အားလုံးကို လုံးလုံး ဖယ်ရှားခြင်းအတွက်",
+              "မူလ Vague Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w2-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Causes and Methods Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Causes and Methods မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Unification movements are documented as resulting from...",
+          questionMy:
+              "Unification Movement များကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented causes working together",
+            "A single unspecified cause with no evidence",
+            "No documented cause of any kind",
+            "A vague explanation with no supporting evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause များစွာ",
+            "Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Supporting Evidence မပါသော Vague ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Franco-Prussian War is documented as...",
+          questionMy: "Franco-Prussian War ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "A specific documented method that contributed to German unification",
+            "An event with no documented connection to unification",
+            "A vague, unspecified war with no documented role",
+            "A method unrelated to any historical unification process",
+          ],
+          optionsMy: [
+            "German Unification သို့ ပံ့ပိုးခဲ့သော Specific Documented Method",
+            "Unification နှင့် Documented ဆက်နွယ်မှု မရှိသော Event",
+            "Documented Role မရှိသော Vague, Unspecified စစ်ပွဲ",
+            "သမိုင်းဆိုင်ရာ Unification Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Method",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Documented causes and documented methods of unification should be treated as...",
+          questionMy:
+              "Unification ၏ Documented Cause များနှင့် Documented Method များကို ...အဖြစ် သဘောထားသင့်သည်",
+          optionsEn: [
+            "Separate, distinct categories",
+            "One identical, interchangeable category",
+            "Unrelated to any documented evidence",
+            "Categories that never need to be distinguished",
+          ],
+          optionsMy: [
+            "Separate, Distinct Category များ",
+            "Interchangeable, Identical Category တစ်ခုတည်း",
+            "Documented Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "ဘယ်တော့မှ ခွဲခြားရန် မလိုအပ်သော Category များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 1, Week 3: "Nationalism's Double-Edged
+// Nature"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek3 = CourseWeekDef(
+  id: "course-sec3-hum-w3",
+  weekNumber: 3,
+  titleEn: "Nationalism's Double-Edged Nature",
+  titleMy: "Nationalism ၏ Double-Edged သဘောသဘာဝ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w3-d1",
+      dayNumber: 1,
+      titleEn: "A Balanced, Documented Account",
+      titleMy: "Balanced, Documented Account တစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, historically accurate account of nationalism documents both its unifying documented effect (bringing together people sharing common identity, as in Weeks 1-2) and its documented capacity to fuel rivalry and exclusion between nations. Why must both dimensions be represented rather than only one?",
+          questionMy:
+              "Nationalism ၏ Balanced, သမိုင်းအရ တိကျသော Account တစ်ခုသည် ၎င်း၏ Unifying Documented Effect (Week 1-2 ကဲ့သို့ Common Identity မျှဝေထားသော လူများကို အတူတကွ ဆောင်ယူခြင်း) နှင့် Nation များကြား Rivalry နှင့် Exclusion ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Documented Capacity နှစ်ခုစလုံးကို Document ပြုလုပ်သည်။ Dimension နှစ်ခုစလုံးကို တစ်ခုတည်းအစား အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used throughout Secondary 2 -- an accurate account represents every major documented dimension, not only the convenient one",
+            "Only the unifying dimension should ever be documented in any account of nationalism",
+            "Only the divisive dimension should ever be documented, with no mention of any unifying effect",
+            "Balance has no actual role in accurately representing nationalism as a historical force",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 တစ်လျှောက် အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Nationalism ၏ Account မည်သည်တွင်မဆို Unifying Dimension ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Unifying Effect မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Divisive Dimension ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Nationalism ကို သမိုင်းဆိုင်ရာ Force တစ်ခုအဖြစ် တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Secondary 2's colonial-impact and factory-era social-impact work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Colonial-Impact နှင့် Factory-ခေတ် Social-Impact အလုပ်မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it appropriate for this course to note that documented nationalist rivalries in the late nineteenth century contributed to tensions later studied in more depth at IGCSE, without fully covering the Great War's causes here?",
+          questionMy:
+              "IGCSE တွင် ပို၍ နက်နဲစွာ နောက်ပိုင်း လေ့လာမည့် Tension များသို့ ဆယ့်ကိုးရာစု နှောင်းပိုင်း Documented Nationalist Rivalry များ ပံ့ပိုးခဲ့ကြောင်း ဤ Course က Great War ၏ Cause များကို ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ မှတ်ချက်ပြုရန် သင့်လျော်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Introducing a documented connection at an appropriate depth for this level, while reserving fuller coverage for IGCSE, follows a deliberate spiral curriculum design rather than either ignoring or fully duplicating later content",
+            "This course should never actually mention any content that will be covered again at IGCSE",
+            "Documented nationalist rivalries have no actual connection to any later historical tension",
+            "This course should fully cover the Great War's causes in complete depth at this stage",
+          ],
+          optionsMy: [
+            "IGCSE အတွက် ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် ဤ Level အတွက် သင့်လျော်သော Depth တွင် Documented Connection တစ်ခုကို မိတ်ဆက်ပေးခြင်းသည် Content နောက်ပိုင်းကို လျစ်လျူရှုခြင်း (သို့) အပြည့်အဝ Duplicate ပြုလုပ်ခြင်းမှလွဲ၍ တမင် Spiral Curriculum Design တစ်ခုကို လိုက်နာသည်",
+            "ဤ Course သည် IGCSE တွင် ထပ်မံ ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+            "Documented Nationalist Rivalry များတွင် နောက်ပိုင်း သမိုင်းဆိုင်ရာ Tension မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "ဤ Course သည် ဤအဆင့်တွင် Great War ၏ Cause များကို Complete Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of this as priming a future topic at an age-appropriate depth, the same spiral pattern used across every grade in this curriculum.",
+          ],
+          hintsMy: [
+            "ဤသည်ကို Age-Appropriate Depth တစ်ခုတွင် Topic အနာဂတ်တစ်ခုကို Priming ပြုလုပ်ခြင်းအဖြစ် စဉ်းစားပါ၊ ဤ Curriculum ရှိ Grade တိုင်းတွင် အသုံးပြုထားသော Spiral Pattern တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student claims 'nationalism only ever unites people, with no documented negative effect at all.' Why does this claim need to be checked against actual documented evidence?",
+          questionMy:
+              "Student တစ်ဦးက 'Nationalism သည် Documented Negative Effect မည်သည်မှ မပါဘဲ လူများကိုသာ ဘယ်တော့မှ စည်းလုံးစေသည်' ဟု Claim ပြုလုပ်သည်။ ဤ Claim ကို Actual Documented Evidence နှင့် အဘယ်ကြောင့် စစ်ဆေးရန် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "Documented history shows nationalism has also fueled rivalry and exclusion between nations, so a claim describing only its unifying effect is incomplete and should be checked against this fuller evidence, the same habit taught since Term 1",
+            "Nationalism is documented as having no actual effect of any kind on historical relations between nations",
+            "Documented rivalry between nations has no actual connection to nationalism of any kind",
+            "Vague, one-sided claims are always more historically accurate than balanced documented accounts",
+          ],
+          optionsMy: [
+            "Documented သမိုင်းက Nationalism သည် Nation များကြား Rivalry နှင့် Exclusion ကိုလည်း လောင်စာဖြည့်ခဲ့ကြောင်း ပြသသောကြောင့် ၎င်း၏ Unifying Effect ကိုသာ ဖော်ပြသော Claim တစ်ခုသည် Incomplete ဖြစ်ပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော အလေ့အထ တူတူဖြင့် ဤ ပို၍ ပြည့်စုံသော Evidence နှင့် စစ်ဆေးသင့်သည်",
+            "Nationalism တွင် Nation များကြား သမိုင်းဆိုင်ရာ Relation များပေါ် Actual Effect မည်သည် အမျိုးအစားမှ မရှိကြောင်း Document ပြုလုပ်ထားသည်",
+            "Nation များကြား Documented Rivalry တွင် Nationalism မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "Vague, One-Sided Claim များသည် Balanced Documented Account များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account principle applied to check any one-sided claim, now applied to nationalism itself.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား One-Sided Claim မည်သည်ကိုမဆို စစ်ဆေးရန် အသုံးချထားသော Balanced-Account Principle တူတူဖြစ်ပြီး ယခု Nationalism ကိုယ်တိုင်ပေါ်တွင် အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Double-Edged Nationalism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Double-Edged Nationalism Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w3-dm-1",
+          termEn: "Unifying documented effect",
+          termMy: "Unifying Documented Effect",
+          matchEn:
+              "Nationalism bringing together people who share a common documented identity",
+          matchMy:
+              "Common Documented Identity မျှဝေထားသော လူများကို အတူတကွ ဆောင်ယူသော Nationalism",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w3-dm-2",
+          termEn: "Documented rivalry",
+          termMy: "Documented Rivalry",
+          matchEn:
+              "Competition and tension between nations, a documented consequence of nationalism",
+          matchMy:
+              "Nation များကြား Competition နှင့် Tension, Nationalism ၏ Documented Consequence တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w3-dm-3",
+          termEn: "Spiral curriculum priming",
+          termMy: "Spiral Curriculum Priming",
+          matchEn:
+              "Introducing a documented connection at an appropriate depth before fuller coverage later",
+          matchMy:
+              "နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage မတိုင်မီ သင့်လျော်သော Depth တွင် Documented Connection တစ်ခု မိတ်ဆက်ပေးခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w3-dm-4",
+          termEn: "Balanced nationalism account",
+          termMy: "Balanced Nationalism Account",
+          matchEn:
+              "Representing both unifying and divisive documented effects fairly",
+          matchMy:
+              "Unifying နှင့် Divisive Documented Effect နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Unifying Effect or Divisive Effect?",
+      titleMy: "စီစစ်ကြမည် - Unifying Effect (သို့) Divisive Effect",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Unifying Effect", "Documented Divisive Effect"],
+        bucketsMy: ["Documented Unifying Effect", "Documented Divisive Effect"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w3-sort-1",
+            labelEn:
+                "Bringing together people who share a common documented language",
+            labelMy:
+                "Common Documented Language မျှဝေထားသော လူများကို အတူတကွ ဆောင်ယူခြင်း",
+            correctBucketEn: "Documented Unifying Effect",
+            correctBucketMy: "Documented Unifying Effect",
+          ),
+          SortingItem(
+            id: "sec3hum-w3-sort-2",
+            labelEn:
+                "Fueling documented competition and tension between neighboring nations",
+            labelMy:
+                "အိမ်နီးချင်း Nation များကြား Documented Competition နှင့် Tension ကို လောင်စာဖြည့်ခြင်း",
+            correctBucketEn: "Documented Divisive Effect",
+            correctBucketMy: "Documented Divisive Effect",
+          ),
+          SortingItem(
+            id: "sec3hum-w3-sort-3",
+            labelEn:
+                "Uniting a shared cultural and historical identity into one nation-state",
+            labelMy:
+                "Shared Cultural နှင့် Historical Identity ကို Nation-State တစ်ခုအဖြစ် စည်းလုံးစေခြင်း",
+            correctBucketEn: "Documented Unifying Effect",
+            correctBucketMy: "Documented Unifying Effect",
+          ),
+          SortingItem(
+            id: "sec3hum-w3-sort-4",
+            labelEn:
+                "Contributing to documented exclusion of groups outside the national identity",
+            labelMy:
+                "National Identity ပြင်ပ Group များ၏ Documented Exclusion သို့ ပံ့ပိုးခြင်း",
+            correctBucketEn: "Documented Divisive Effect",
+            correctBucketMy: "Documented Divisive Effect",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko's Balanced Nationalism Report",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko ၏ Balanced Nationalism Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko's Balanced Nationalism Report",
+        titleMy: "Zin Ko ၏ Balanced Nationalism Report",
+        passageEn:
+            "For Week 3's assignment, Zin Ko's first draft claimed that 'nationalism only ever unites people, with no negative effect at all.' His teacher returned the draft with a reminder of the balanced-account principle used throughout Secondary 2 -- had he checked the documented divisive effects alongside the documented unifying ones?\n\nZin Ko researched further and found both dimensions clearly documented. Nationalism's unifying effect was real and documented in Weeks 1-2's unification movements, bringing together people who shared common language, culture, and identity into single nation-states. But documented history also showed nationalism fueling rivalry and exclusion between nations, as competing nationalist movements across Europe increasingly viewed each other with suspicion in the decades that followed unification.\n\nHis teacher noted that this documented rivalry would be studied in fuller depth later at IGCSE, and that this term was deliberately introducing the connection at an appropriate depth now rather than either ignoring it or covering the Great War's full causes prematurely -- the same spiral curriculum design used across the whole course. Zin Ko revised his report to represent both dimensions fairly, and his teacher praised the revision for applying the balanced-account discipline to nationalism itself, not just to colonial or industrial topics as in Secondary 2.",
+        passageMy:
+            "Week 3 ၏ Assignment အတွက် Zin Ko ၏ ပထမဆုံး Draft တွင် 'Nationalism သည် Negative Effect လုံးလုံး မပါဘဲ လူများကိုသာ ဘယ်တော့မှ စည်းလုံးစေသည်' ဟု Claim ပြုလုပ်ခဲ့သည်။ Secondary 2 တစ်လျှောက် အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Unifying Effect များနှင့်အတူ Documented Divisive Effect များကိုလည်း ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nDimension နှစ်ခုစလုံးကို ရှင်းလင်းစွာ Document ပြုလုပ်ထားကြောင်း Zin Ko ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ Nationalism ၏ Unifying Effect သည် Real ဖြစ်ပြီး Common Language, Culture နှင့် Identity မျှဝေထားသော လူများကို Single Nation-State များအဖြစ် အတူတကွ ဆောင်ယူသော Week 1-2 ၏ Unification Movement များတွင် Document ပြုလုပ်ထားခဲ့သည်။ သို့သော် Documented သမိုင်းက Nationalism သည် Rivalry နှင့် Exclusion ကို Nation များကြား လောင်စာဖြည့်ခဲ့ကြောင်းလည်း ပြသခဲ့ပြီး Unification ပြီးနောက် ဆယ်စုနှစ်များအတွင်း Europe တစ်ဝှမ်းရှိ ယှဉ်ပြိုင်နေသော Nationalist Movement များသည် တစ်ခုနှင့်တစ်ခု ယုံသံသယနှင့် ပိုမို ကြည့်ခဲ့ကြသည်။\n\nဤ Documented Rivalry ကို IGCSE တွင် နောက်ပိုင်း ပို၍ ပြည့်စုံသော Depth ၌ လေ့လာမည်ဖြစ်ကြောင်းနှင့် ဤ Term သည် ၎င်းကို လျစ်လျူရှုခြင်း (သို့) Great War ၏ Full Cause များကို အချိန်မတန်မီ ဖုံးအုပ်ခြင်းမှလွဲ၍ ယခု သင့်လျော်သော Depth တွင် Connection ကို တမင် မိတ်ဆက်ပေးနေကြောင်း -- Course တစ်ခုလုံးတစ်လျှောက် အသုံးပြုထားသော Spiral Curriculum Design တူတူ -- ၎င်း၏ ဆရာ မှတ်ချက်ပြုခဲ့သည်။ Dimension နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် ၎င်း၏ Report ကို Zin Ko ပြန်လည် ပြင်ဆင်ခဲ့ပြီး Secondary 2 ၏ Colonial (သို့) Industrial Topic များကိုသာမက Nationalism ကိုယ်တိုင်ပေါ်တွင် Balanced-Account Discipline ကို အသုံးချသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Zin Ko's first draft claim?",
+            questionMy:
+                "Zin Ko ၏ ပထမဆုံး Draft Claim ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That nationalism only ever unites people with no negative effect",
+              "That nationalism has both unifying and divisive documented effects",
+              "That nationalism has no actual documented effect of any kind",
+              "That divisive effects are the only documented dimension of nationalism",
+            ],
+            optionsMy: [
+              "Nationalism သည် Negative Effect မပါဘဲ လူများကိုသာ ဘယ်တော့မှ စည်းလုံးစေကြောင်း",
+              "Nationalism တွင် Unifying နှင့် Divisive Documented Effect နှစ်ခုစလုံး ရှိကြောင်း",
+              "Nationalism တွင် Actual Documented Effect မည်သည် အမျိုးအစားမှ မရှိကြောင်း",
+              "Divisive Effect များသည် Nationalism ၏ Documented Dimension တစ်ခုတည်း ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated first-draft claim."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပထမဆုံး Draft Claim ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did documented history show about competing nationalist movements after unification?",
+            questionMy:
+                "Unification ပြီးနောက် ယှဉ်ပြိုင်နေသော Nationalist Movement များအကြောင်း Documented သမိုင်း ပြသခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They increasingly viewed each other with suspicion",
+              "They had no actual documented relationship with each other",
+              "They always cooperated peacefully with no documented tension",
+              "They merged into a single documented movement with no distinction",
+            ],
+            optionsMy: [
+              "တစ်ခုနှင့်တစ်ခု ယုံသံသယနှင့် ပိုမို ကြည့်ခဲ့ကြခြင်း",
+              "တစ်ခုနှင့်တစ်ခု Actual Documented Relationship မရှိခြင်း",
+              "Documented Tension မရှိဘဲ ငြိမ်းချမ်းစွာ အမြဲ ပူးပေါင်းခဲ့ခြင်း",
+              "Distinction မရှိဘဲ Movement တစ်ခုတည်းအဖြစ် ပေါင်းစည်းခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher introduce the rivalry connection now rather than covering the Great War's full causes?",
+            questionMy:
+                "Great War ၏ Full Cause များကို ဖုံးအုပ်မည့်အစား Rivalry Connection ကို ဆရာ ယခု အဘယ်ကြောင့် မိတ်ဆက်ပေးခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Following the same spiral curriculum design used across the whole course",
+              "Because this course never actually mentions any future topic",
+              "Because documented rivalry has no actual connection to nationalism",
+              "Because the Great War's causes have no documented connection to this term",
+            ],
+            optionsMy: [
+              "Course တစ်ခုလုံးတစ်လျှောက် အသုံးပြုထားသော Spiral Curriculum Design တူတူကို လိုက်နာကာ",
+              "ဤ Course သည် Topic အနာဂတ် မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မဖော်ပြခြင်းကြောင့်",
+              "Documented Rivalry တွင် Nationalism နှင့် Actual ဆက်နွယ်မှု မရှိခြင်းကြောင့်",
+              "Great War ၏ Cause များတွင် ဤ Term နှင့် Documented ဆက်နွယ်မှု မရှိခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w3-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Double-Edged Nationalism Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Double-Edged Nationalism မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A balanced account of nationalism represents...",
+          questionMy:
+              "Nationalism ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented unifying and divisive effects",
+            "Only documented unifying effects with no divisive effect",
+            "Only documented divisive effects with no unifying effect",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Unifying နှင့် Divisive Effect နှစ်ခုစလုံး",
+            "Divisive Effect မပါဘဲ Documented Unifying Effect များသာ",
+            "Unifying Effect မပါဘဲ Documented Divisive Effect များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This course introduces the nationalism-rivalry connection now because it...",
+          questionMy:
+              "ဤ Course သည် Nationalism-Rivalry Connection ကို ယခု မိတ်ဆက်ပေးခြင်း အကြောင်းရင်းမှာ ...ကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "Follows a spiral curriculum design priming for fuller IGCSE coverage",
+            "Fully covers the Great War's causes in complete depth here",
+            "Never actually mentions any content covered later at IGCSE",
+            "Has no actual documented connection to any future topic",
+          ],
+          optionsMy: [
+            "IGCSE Coverage ပို၍ ပြည့်စုံစွာအတွက် Priming ပြုလုပ်သော Spiral Curriculum Design ကို လိုက်နာခြင်း",
+            "ဤနေရာတွင် Great War ၏ Cause များကို Complete Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်ခြင်း",
+            "IGCSE တွင် နောက်ပိုင်း ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မဖော်ပြခြင်း",
+            "Topic အနာဂတ် မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A one-sided claim about nationalism's effects should be checked against...",
+          questionMy:
+              "Nationalism ၏ Effect များအကြောင်း One-Sided Claim တစ်ခုကို ...နှင့် စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Fuller, balanced documented evidence",
+            "Nothing -- one-sided claims never need checking",
+            "An even more one-sided explanation with less evidence",
+            "A claim unrelated to documented historical evidence",
+          ],
+          optionsMy: [
+            "ပို၍ ပြည့်စုံသော, Balanced Documented Evidence",
+            "ဘာမှ -- One-Sided Claim များသည် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Evidence နည်းပြီး ပို၍ One-Sided ဖြစ်သော ရှင်းပြချက်",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 1, Week 4 (Capstone / Boss Week):
+// "Unification Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek4 = CourseWeekDef(
+  id: "course-sec3-hum-w4",
+  weekNumber: 4,
+  titleEn: "Capstone: Unification Case Study",
+  titleMy: "Capstone - Unification Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w4-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 1 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 1 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must choose one documented unification case (Italian or German) and combine documented causes, documented methods, and a balanced account of nationalism's double-edged nature. Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Documented Unification Case တစ်ခု (Italian သို့ German) ကို ရွေးချယ်ကာ Documented Cause များ, Documented Method များနှင့် Nationalism ၏ Double-Edged Nature ၏ Balanced Account ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding why unification happened, how it happened, and its balanced documented impact together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain a unification case fully",
+            "Causes, methods, and balanced impact have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် Unification အဘယ်ကြောင့် ဖြစ်ပေါ်ခဲ့သည်၊ မည်သို့ ဖြစ်ပေါ်ခဲ့သည်နှင့် ၎င်း၏ Balanced Documented Impact ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Unification Case တစ်ခုကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Cause များ, Method များနှင့် Balanced Impact တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 1 (definitions), Week 2 (causes/methods), and Week 3 (balanced account) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 1 (Definition), Week 2 (Cause/Method) နှင့် Week 3 (Balanced Account) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes their chosen unification case using only vague generalizations, with no named leaders, events, or dates cited. Following this term's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Named Leader, Event (သို့) Date မည်သည်ကိုမျှ Cite မပြုဘဲ Vague Generalization များကိုသာ အသုံးပြု၍ ၎င်း ရွေးချယ်ထားသော Unification Case ကို ဖော်ပြသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to cite specific, named documented leaders, events, and dates, following the same specific-evidence discipline used since Week 1",
+            "Nothing -- vague generalizations are the required and correct approach for this term",
+            "Remove all documented evidence about the chosen case from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Week 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence Discipline တူတူကို လိုက်နာကာ Specific, Named Documented Leader များ, Event များနှင့် Date များကို Cite ပြုလုပ်ရန် Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Vague Generalization များသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော Case အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence standard from Week 1 and Week 2, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 1 နှင့် Week 2 မှ Specific-Evidence Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project represent both the unifying achievement of the chosen case and its documented connection to later nationalist rivalry, rather than presenting unification only as an unambiguous triumph?",
+          questionMy:
+              "Capstone Project သည် Unification ကို Unambiguous Triumph တစ်ခုအဖြစ်သာ တင်ပြမည့်အစား ရွေးချယ်ထားသော Case ၏ Unifying Achievement နှင့် နောက်ပိုင်း Nationalist Rivalry သို့ ၎င်း၏ Documented ဆက်နွယ်မှု နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same balanced-account principle established in Week 3 -- an accurate account represents every major documented dimension, including less celebratory ones, not only the convenient one",
+            "Unification should always be represented only as an unambiguous triumph with no other dimension",
+            "Documented connections to later rivalry have no actual place in a unification case study",
+            "Balance has no actual role in accurately representing a historical case study",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Week 3 တွင် တည်ထောင်ခဲ့သော Balanced-Account Principle တူတူကို လိုက်နာသည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Celebratory နည်းသော Dimension များ အပါအဝင် Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Unification ကို အခြား Dimension မပါဘဲ Unambiguous Triumph တစ်ခုအဖြစ်သာ အမြဲ ကိုယ်စားပြုသင့်ခြင်း",
+            "Unification Case Study တစ်ခုတွင် နောက်ပိုင်း Rivalry သို့ Documented Connection များ Actual နေရာ မရှိခြင်း",
+            "Balance သည် သမိုင်းဆိုင်ရာ Case Study တစ်ခုကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account standard from Week 3, applied to the capstone case study itself.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Case Study ကိုယ်တိုင်ပေါ်တွင် အသုံးချထားသော Week 3 မှ Balanced-Account Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 1 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w4-dm-1",
+          termEn: "Nationalism",
+          termMy: "Nationalism",
+          matchEn:
+              "The documented belief that people sharing common identity should form their own nation-state",
+          matchMy:
+              "Common Identity မျှဝေထားသော လူများသည် ၎င်းတို့ကိုယ်ပိုင် Nation-State ဖွဲ့စည်းသင့်သည်ဟူသော Documented ယုံကြည်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w4-dm-2",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "Explaining unification through several documented factors working together",
+          matchMy:
+              "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှတစ်ဆင့် Unification ကို ရှင်းပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w4-dm-3",
+          termEn: "Documented method",
+          termMy: "Documented Method",
+          matchEn:
+              "The specific, cited approach (diplomacy or military conflict) used in a unification case",
+          matchMy:
+              "Unification Case တစ်ခုတွင် အသုံးပြုသော Specific, Cite ပြုလုပ်ထားသော Approach (Diplomacy သို့ စစ်ရေး Conflict)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w4-dm-4",
+          termEn: "Double-edged balance",
+          termMy: "Double-Edged Balance",
+          matchEn:
+              "Representing both unifying achievement and divisive documented consequence fairly",
+          matchMy:
+              "Unifying Achievement နှင့် Divisive Documented Consequence နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w4-sort-1",
+            labelEn:
+                "Specific, named documented causes for the chosen unification case",
+            labelMy:
+                "ရွေးချယ်ထားသော Unification Case အတွက် Specific, Named Documented Cause များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w4-sort-2",
+            labelEn:
+                "A balanced account of both unifying achievement and divisive consequence",
+            labelMy:
+                "Unifying Achievement နှင့် Divisive Consequence နှစ်ခုစလုံး၏ Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w4-sort-3",
+            labelEn: "The specific documented method used in the chosen case",
+            labelMy:
+                "ရွေးချယ်ထားသော Case တွင် အသုံးပြုသော Specific Documented Method",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w4-sort-4",
+            labelEn:
+                "A vague description with no named leaders, events, or dates",
+            labelMy:
+                "Named Leader, Event (သို့) Date မည်သည်ကိုမျှ မပါသော Vague ဖော်ပြချက်",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thura's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Thura ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's Capstone Case Study",
+        titleMy: "Thura ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 1 capstone, Thura chose German unification as his case study, combining three documented elements from across the term. From Week 1, he cited the specific documented definition of nationalism and named Bismarck's specific role, avoiding any vague, generic description. From Week 2, he cited multiple documented causes working together (shared language and culture, economic advantages of unity) alongside the specific documented method used -- direct military conflict, including the Franco-Prussian War, naming its role precisely rather than describing it as simply 'a war that happened.'\n\nFrom Week 3, he built a balanced account: German unification was a genuine documented unifying achievement, bringing together German-speaking states under shared identity, but he also noted its documented connection to the nationalist rivalries that grew across Europe in the following decades -- a connection this course was priming for fuller study at IGCSE, not fully covering here.\n\nHis first draft had described unification only as an unambiguous triumph, but he checked it against the balanced-account standard from Week 3 and revised it to represent both dimensions fairly. His teacher praised the case study for combining specific documented causes, a specific documented method, and a balanced account into one connected project -- exactly the standard built across every capstone since Secondary 1, and a strong foundation for Term 2's move into imperialism.",
+        passageMy:
+            "Term 1 Capstone အတွက် Term တစ်ခုလုံးမှ Element သုံးခုကို ပေါင်းစပ်ကာ German Unification ကို ၎င်း၏ Case Study အဖြစ် Thura ရွေးချယ်ခဲ့သည်။ Week 1 မှ Nationalism ၏ Specific Documented Definition ကို ၎င်း Cite ပြုလုပ်ကာ Bismarck ၏ Specific Role ကို အမည်တပ်ခဲ့ပြီး Vague, Generic ဖော်ပြချက် မည်သည်ကိုမျှ ရှောင်ကြဉ်ခဲ့သည်။ Week 2 မှ Unity ၏ Specific Documented Method -- Franco-Prussian War အပါအဝင် Direct စစ်ရေး Conflict နှင့်အတူ (Shared Language နှင့် Culture, Unity ၏ Economic Advantage များ) အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause များစွာကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး 'ဖြစ်ပျက်ခဲ့သော စစ်ပွဲတစ်ခု' ဟု ရိုးရိုး ဖော်ပြမည့်အစား ၎င်း၏ Role ကို တိကျစွာ အမည်တပ်ခဲ့သည်။\n\nWeek 3 မှ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- German Unification သည် German-Speaking State များကို Shared Identity အောက် အတူတကွ ဆောင်ယူသော Genuine Documented Unifying Achievement တစ်ခု ဖြစ်ခဲ့သော်လည်း နောက်ဆယ်စုနှစ်များအတွင်း Europe တစ်ဝှမ်း ကြီးထွားလာသော Nationalist Rivalry များသို့ ၎င်း၏ Documented ဆက်နွယ်မှုကိုလည်း ၎င်း မှတ်ချက်ပြုခဲ့သည် -- ဤ Course သည် ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE တွင် ပို၍ ပြည့်စုံသော Study အတွက် Priming ပြုလုပ်ခဲ့သော Connection တစ်ခု ဖြစ်သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Unification ကို Unambiguous Triumph တစ်ခုအဖြစ်သာ ဖော်ပြခဲ့သော်လည်း Week 3 မှ Balanced-Account Standard နှင့် ၎င်း စစ်ဆေးကာ Dimension နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် ၎င်းကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Specific Documented Cause များ, Specific Documented Method နှင့် Balanced Account ကို Connected Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းနှင့် Term 2 ၏ Imperialism ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Thura cite from Week 2?",
+            questionMy:
+                "Week 2 မှ Thura Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Multiple documented causes and the specific documented method of military conflict",
+              "No documented cause or method of any kind",
+              "Only a vague, unspecified description with no evidence",
+              "A cause entirely unrelated to German unification",
+            ],
+            optionsMy: [
+              "Documented Cause များစွာနှင့် စစ်ရေး Conflict ၏ Specific Documented Method",
+              "Documented Cause (သို့) Method မည်သည် အမျိုးအစားမှ",
+              "Evidence မပါသော Vague, Unspecified ဖော်ပြချက်သာ",
+              "German Unification နှင့် လုံးလုံး မသက်ဆိုင်သော Cause",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's Week 2 citation."],
+            hintsMy: ["Week 2 Citation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Thura describe German unification's connection to later rivalry?",
+            questionMy:
+                "နောက်ပိုင်း Rivalry သို့ German Unification ၏ ဆက်နွယ်မှုကို Thura မည်သို့ ဖော်ပြခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As a documented connection this course was priming for fuller IGCSE study",
+              "As having no actual documented connection to later rivalry",
+              "As a topic this course would fully cover in complete depth here",
+              "As unrelated to any historical nationalist movement",
+            ],
+            optionsMy: [
+              "IGCSE Study ပို၍ ပြည့်စုံစွာအတွက် ဤ Course Priming ပြုလုပ်ခဲ့သော Documented Connection တစ်ခုအဖြစ်",
+              "နောက်ပိုင်း Rivalry နှင့် Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+              "ဤနေရာတွင် Complete Depth ဖြင့် ဤ Course အပြည့်အစုံ ဖုံးအုပ်မည့် Topic တစ်ခုအဖြစ်",
+              "သမိုင်းဆိုင်ရာ Nationalist Movement မည်သည်နှင့်မျှ မသက်ဆိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated description."],
+            hintsMy: [
+              "ဖော်ပြထားသော Description ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Thura's case study?",
+            questionMy:
+                "Thura ၏ Case Study ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For combining specific causes, a specific method, and a balanced account into one project",
+              "For describing unification only as an unambiguous triumph",
+              "For ignoring every documented factor from the entire term",
+              "For making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Specific Cause များ, Specific Method နှင့် Balanced Account ကို Project တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်းအတွက်",
+              "Unification ကို Unambiguous Triumph တစ်ခုအဖြစ်သာ ဖော်ပြခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Recap: Nationalism and Unification",
+      titleMy: "Term 1 ပြန်လည်သုံးသပ်ခြင်း - Nationalism and Unification",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Nationalism is documented as the belief that...",
+          questionMy:
+              "Nationalism ကို ...ဟူသော ယုံကြည်ချက်အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "People sharing common identity should form their own nation-state",
+            "No documented belief of any kind exists about national identity",
+            "National identity has no actual connection to statehood",
+            "Common identity should never actually influence governance",
+          ],
+          optionsMy: [
+            "Common Identity မျှဝေထားသော လူများသည် ၎င်းတို့ကိုယ်ပိုင် Nation-State ဖွဲ့စည်းသင့်ခြင်း",
+            "National Identity အကြောင်း Documented Belief မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "National Identity သည် Statehood နှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "Common Identity သည် Governance ကို ဘယ်တော့မှ Actual Influence မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Unification movements are documented as combining...",
+          questionMy:
+              "Unification Movement များကို ...ပေါင်းစပ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented causes with specific documented methods",
+            "A single documented factor with no method of any kind",
+            "Causes unrelated to any documented method",
+            "No documented cause or method of any kind",
+          ],
+          optionsMy: [
+            "Specific Documented Method များနှင့် Documented Cause များစွာ",
+            "Method မည်သည် အမျိုးအစားမှ မပါသော Documented Factor တစ်ခုတည်း",
+            "Documented Method မည်သည်နှင့်မျှ မသက်ဆိုင်သော Cause များ",
+            "Documented Cause (သို့) Method မည်သည် အမျိုးအစားမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced account of a unification case represents...",
+          questionMy:
+              "Unification Case တစ်ခု၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both unifying achievement and documented divisive consequence",
+            "Only unifying achievement with no other dimension",
+            "Only divisive consequence with no unifying achievement",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Unifying Achievement နှင့် Documented Divisive Consequence နှစ်ခုစလုံး",
+            "အခြား Dimension မပါဘဲ Unifying Achievement သာ",
+            "Unifying Achievement မပါဘဲ Divisive Consequence သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 1: "Nationalism and Unification"
+// (Weeks 1-4). Defines nationalism with documented precision and
+// traces two distinct documented unification movements (Italian and
+// German) through their specific causes and methods (Weeks 1-2),
+// introduces the balanced-account principle applied to nationalism
+// itself -- its documented unifying effect alongside its documented
+// capacity to fuel rivalry, deliberately priming (without fully
+// covering) tensions later studied at IGCSE (Week 3), and closes with
+// a capstone case study combining documented causes, a documented
+// method, and a balanced account for one chosen unification case
+// (Week 4).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm1 = CourseTermDef(
+  id: "course-sec3-hum-t1",
+  termNumber: 1,
+  titleEn: "Nationalism and Unification",
+  titleMy: "Nationalism and Unification",
+  certificateTitleEn: "Nationalism and Unification Certificate",
+  certificateTitleMy: "Nationalism and Unification သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek1, _sec3HumWeek2, _sec3HumWeek3, _sec3HumWeek4],
+);
+
+const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
+  id: "course-secondary3-humanities",
+  subject: "humanities",
+  grade: Grade.secondary3,
+  titleEn: "Humanities — Full Year Course",
+  titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
+  descriptionEn:
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account.",
+  descriptionMy:
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [_sec3HumTerm1],
+);
 // __SEC_HUM_MARKER__

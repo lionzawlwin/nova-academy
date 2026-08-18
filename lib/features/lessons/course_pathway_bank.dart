@@ -33,6 +33,7 @@ import 'course_pathways/course_pathways_physics.dart';
 const List<CoursePathwayDef> allCoursePathways = [
   secondary1HumanitiesPathway,
   secondary2HumanitiesPathway,
+  secondary3HumanitiesPathway,
   secondary1ComputingPathway,
   secondary2ComputingPathway,
   secondary3ComputingPathway,
