@@ -14649,13 +14649,13 @@ const CourseTermDef _secondary1ComputingTerm9 = CourseTermDef(
 /// (Coursera-style), not a literal 12-week school term: this Year 1
 /// vertical slice authors 4 weeks per term (9 terms x 4 weeks = 36
 /// weeks) rather than a literal ~12-week term. A Year 2 pathway (Grade
-/// [Grade.secondary2] onward) would be a new, separate
+/// [Grade.year8] onward) would be a new, separate
 /// [CoursePathwayDef] appended to [allCoursePathways], not more terms
 /// grafted onto this one.
 const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
-  grade: Grade.secondary1,
+  grade: Grade.year7,
   titleEn: 'Computing — Full Year Course',
   titleMy: 'ကွန်ပျူတာ — နှစ်တစ်ခုလုံး သင်တန်း',
   descriptionEn:
@@ -29565,7 +29565,7 @@ const CourseTermDef _secondary2ComputingTerm9 = CourseTermDef(
   // builds, and tests one program combining every tool from Terms 1-8
 );
 
-/// Secondary 2 Computing's pathway (Grade [Grade.secondary2]) -- the "Year
+/// Secondary 2 Computing's pathway (Grade [Grade.year8]) -- the "Year
 /// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
 /// than more terms grafted onto Secondary 1. All nine terms are now
@@ -29679,7 +29679,7 @@ const CourseTermDef _secondary2ComputingTerm9 = CourseTermDef(
 const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
-  grade: Grade.secondary2,
+  grade: Grade.year8,
   titleEn: "Computing — Year 2 Course",
   titleMy: "ကွန်ပျူတာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -45598,7 +45598,7 @@ const CoursePathwayDef year5ComputingPathway = CoursePathwayDef(
 // =====================================================================
 //
 // Secondary 3 Computing is a new, separate [CoursePathwayDef] for Grade
-// [Grade.secondary3], picking up directly from Secondary 2's lists/
+// [Grade.year9], picking up directly from Secondary 2's lists/
 // functions/searching-and-sorting foundation. Term 1 (Advanced Algorithms
 // and Python) revisits linear and binary search at a deeper level --
 // writing and tracing real Python-style code and comparing efficiency --
@@ -61457,7 +61457,7 @@ const CourseTermDef _secondary3ComputingTerm9 = CourseTermDef(
 const CoursePathwayDef secondary3ComputingPathway = CoursePathwayDef(
   id: "course-secondary3-computing",
   subject: "computing",
-  grade: Grade.secondary3,
+  grade: Grade.year9,
   titleEn: "Computing — Year 3 Course",
   titleMy: "ကွန်ပျူတာ — တတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -143899,22 +143899,37 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
 // daily lessons).
 // =====================================================================
 
-const CoursePathwayDef igcseComputingPathway = CoursePathwayDef(
-  id: "course-igcse-computing",
+const CoursePathwayDef computingYear10Pathway = CoursePathwayDef(
+  id: "course-year10-computing",
   subject: "computing",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Computer Science",
-  titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ",
+  grade: Grade.year10,
+  titleEn: "IGCSE Computer Science \u2014 Year 10",
+  titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "The full IGCSE Computer Science course: daily bite-sized lessons across nine thematic terms, following Zayar Lin (tutored by Sayar Ye Min) as he prepares for the real IGCSE Computer Science examination. Term 1, Data Representation, covers binary and hexadecimal number systems and conversions, how text/sound/images are represented digitally, and lossy versus lossless compression, closing with a full data-representation calculation exam. Term 2, Communication and Internet Technologies, covers data transmission and error detection, internet infrastructure (IP/MAC addressing, DNS, HTML/CSS), and network security and encryption, closing with a network architecture audit capstone. Term 3, Hardware and Logic Gates, covers Von Neumann CPU architecture and the fetch-decode-execute cycle, input/output/storage devices, and logic gates and truth tables, closing with a logic circuit design challenge. Term 4, Software and Operating Systems, covers OS functions/interrupts/utility software, high-level versus low-level languages and translators, and security/privacy/ethics, closing with a combined software-and-ethics case study. Term 5, Algorithms, Flowcharts and Pseudocode, covers flowchart symbols and trace tables, pseudocode control structures (IF/CASE/loops), and validation versus verification, closing with a Paper 2-style pseudocode masterclass. Term 6, Programming Concepts in Python, covers Python variables/selection/iteration, arrays and searching/sorting algorithms, and functions/procedures/scope, closing with a complete console application build project. Term 7, Databases and SQL, covers database structure (tables/records/fields/keys), SQL query writing (SELECT/WHERE/ORDER BY), and database management/integrity (multi-table queries, redundancy), closing with an SQL database studio capstone. Term 8, Automated Systems and Robotics, covers microprocessors and feedback loops, robotics and machine learning fundamentals, and testing/verification strategies (test data categories, debugging), closing with an automated system design project. Term 9, Exam Prep & Final Capstone, drills Paper 1 theory and Paper 2 problem-solving/programming across every prior term, runs full timed mock examinations with diagnostic debriefing, and closes the entire pathway with a graduation capstone reflecting on the course's central discipline: tracing logic step by step before trusting it is correct.",
+      "IGCSE Computer Science -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Data Representation; Term 2 Communication and Internet Technologies; Term 3 Hardware and Logic Gates; Term 4 Software and Operating Systems. Continues in IGCSE Computer Science -- Year 11.",
   descriptionMy:
-      "IGCSE ကွန်ပျူတာသိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ကွန်ပျူတာသိပ္ပံ စာမေးပွဲအတွက် အသင့်ပြင်နေသော Zayar Lin (ဆရာရဲမင်း လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Data Representation သည် Binary နှင့် Hexadecimal ကိန်းဂဏန်းစနစ်များနှင့် ပြောင်းလဲခြင်း၊ Text/Sound/Image များကို ဒစ်ဂျစ်တယ်အနေဖြင့် မည်သို့ ဖော်ပြကြောင်း၊ Lossy နှင့် Lossless Compression တို့ကို ဖုံးအုပ်ပြီး Data Representation တွက်ချက်မှု စာမေးပွဲအပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Communication and Internet Technologies သည် Data Transmission နှင့် Error Detection၊ Internet Infrastructure (IP/MAC Addressing, DNS, HTML/CSS)၊ Network Security နှင့် Encryption တို့ကို ဖုံးအုပ်ပြီး Network Architecture Audit Capstone ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Hardware and Logic Gates သည် Von Neumann CPU Architecture နှင့် Fetch-Decode-Execute Cycle၊ Input/Output/Storage Device များ၊ Logic Gates နှင့် Truth Table များကို ဖုံးအုပ်ပြီး Logic Circuit Design Challenge ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Software and Operating Systems သည် OS Function/Interrupt/Utility Software၊ High-Level vs Low-Level Language များနှင့် Translator များ၊ Security/Privacy/Ethics တို့ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Software-and-Ethics Case Study ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Algorithms, Flowcharts and Pseudocode သည် Flowchart သင်္ကေတများနှင့် Trace Table များ၊ Pseudocode Control Structure (IF/CASE/Loop) များ၊ Validation vs Verification တို့ကို ဖုံးအုပ်ပြီး Paper 2-Style Pseudocode Masterclass ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Programming Concepts in Python သည် Python Variables/Selection/Iteration, Array များနှင့် Searching/Sorting Algorithm များ၊ Functions/Procedures/Scope တို့ကို ဖုံးအုပ်ပြီး Console Application အပြည့်အစုံ တည်ဆောက်ရေး ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Databases and SQL သည် Database ဖွဲ့စည်းပုံ (Table/Record/Field/Key)၊ SQL Query ရေးသားခြင်း (SELECT/WHERE/ORDER BY)၊ Database Management/Integrity (Multi-Table Query, Redundancy) တို့ကို ဖုံးအုပ်ပြီး SQL Database Studio Capstone ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Automated Systems and Robotics သည် Microprocessor များနှင့် Feedback Loop များ၊ Robotics နှင့် Machine Learning အခြေခံများ၊ Testing/Verification Strategy (Test Data အမျိုးအစားများ, Debugging) တို့ကို ဖုံးအုပ်ပြီး Automated System Design Project ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Exam Prep & Final Capstone သည် Term ရှေ့ပိုင်းအားလုံးတစ်လျှောက် Paper 1 Theory နှင့် Paper 2 Problem-Solving/Programming ကို လေ့ကျင့်ပြီး Diagnostic Debriefing ပါသော အချိန်သတ်မှတ်ထားသော Full Mock Exam များ ဖြေဆိုကာ သင်တန်း၏ အဓိက စည်းကမ်းကို ပြန်လည်သုံးသပ်သော ဘွဲ့နှင်းသဘင် Capstone ဖြင့် Pathway တစ်ခုလုံးကို ပိတ်သိမ်းသည် - မှန်ကန်ကြောင်း မယုံကြည်မီ Logic ကို အဆင့်ဆင့် Trace လုပ်ခြင်း။",
-  totalWeeks: 36,
+      "IGCSE ကွန်ပျူတာသိပ္ပံ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: အချက်အလက်ကိုယ်စားပြုမှု၊ ၂: ဆက်သွယ်ရေးနှင့် အင်တာနက်နည်းပညာများ၊ ၃: Hardware နှင့် Logic Gates၊ ၄: Software နှင့် Operating System များ။ IGCSE ကွန်ပျူတာသိပ္ပံ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     _igcseComputingTerm1,
     _igcseComputingTerm2,
     _igcseComputingTerm3,
     _igcseComputingTerm4,
+  ],
+);
+
+const CoursePathwayDef computingYear11Pathway = CoursePathwayDef(
+  id: "course-year11-computing",
+  subject: "computing",
+  grade: Grade.year11,
+  titleEn: "IGCSE Computer Science \u2014 Year 11",
+  titleMy: "IGCSE ကွန်ပျူတာသိပ္ပံ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Computer Science -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Algorithms, Flowcharts and Pseudocode; Term 6 Programming Concepts in Python; Term 7 Databases and SQL; Term 8 Automated Systems and Robotics; Term 9 Exam Prep & Final Capstone. Continues from IGCSE Computer Science -- Year 10, closing with the IGCSE Computer Science Graduation capstone.",
+  descriptionMy:
+      "IGCSE ကွန်ပျူတာသိပ္ပံ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: Algorithm၊ Flowchart နှင့် Pseudocode၊ ၆: Python ဖြင့် Programming သဘောတရားများ၊ ၇: Database များနှင့် SQL၊ ၈: အလိုအလျောက်စနစ်များနှင့် Robotics၊ ၉: စာမေးပွဲပြင်ဆင်မှုနှင့် နောက်ဆုံးအထွတ်အထိပ်။ IGCSE ကွန်ပျူတာသိပ္ပံ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Computer Science ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     _igcseComputingTerm5,
     _igcseComputingTerm6,
     _igcseComputingTerm7,

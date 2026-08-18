@@ -12897,7 +12897,7 @@ const CourseTermDef _secondary1MathematicsTerm9 = CourseTermDef(
   ],
 );
 
-/// Secondary 1 Mathematics's full-year pathway (Grade [Grade.secondary1])
+/// Secondary 1 Mathematics's full-year pathway (Grade [Grade.year7])
 /// -- a new, independent subject pathway alongside
 /// [secondary1ComputingPathway] rather than more terms grafted onto it:
 /// same grade, different subject. All 9 terms (Weeks 1-36) are now
@@ -12918,7 +12918,7 @@ const CourseTermDef _secondary1MathematicsTerm9 = CourseTermDef(
 const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
   id: "course-secondary1-mathematics",
   subject: "mathematics",
-  grade: Grade.secondary1,
+  grade: Grade.year7,
   titleEn: "Mathematics — Year 1 Course",
   titleMy: "သင်္ချာ — ပထမနှစ် သင်တန်း",
   descriptionEn:
@@ -86393,7 +86393,7 @@ const CourseTermDef _secondary2MathematicsTerm9 = CourseTermDef(
 const CoursePathwayDef secondary2MathematicsPathway = CoursePathwayDef(
   id: "course-secondary2-mathematics",
   subject: "mathematics",
-  grade: Grade.secondary2,
+  grade: Grade.year8,
   titleEn: "Mathematics",
   titleMy: "သင်္ချာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -113325,7 +113325,7 @@ const CourseTermDef _secondary3MathematicsTerm9 = CourseTermDef(
 const CoursePathwayDef secondary3MathematicsPathway = CoursePathwayDef(
   id: "course-secondary3-mathematics",
   subject: "mathematics",
-  grade: Grade.secondary3,
+  grade: Grade.year9,
   titleEn: "Mathematics",
   titleMy: "သင်္ချာ — တတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -126892,22 +126892,37 @@ const CourseTermDef _igcseMathematicsTerm9 = CourseTermDef(
 /// Transformations, Matrices and Functions; Advanced Modelling and
 /// Problem Solving; Exam Intensive - Paper 2 & Paper 4 (Extended);
 /// and Final Countdown & IGCSE Graduation.
-const CoursePathwayDef igcseMathematicsPathway = CoursePathwayDef(
-  id: "course-igcse-mathematics",
+const CoursePathwayDef mathematicsYear10Pathway = CoursePathwayDef(
+  id: "course-year10-mathematics",
   subject: "mathematics",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Mathematics",
-  titleMy: "IGCSE သင်္ချာ",
+  grade: Grade.year10,
+  titleEn: "IGCSE Mathematics \u2014 Year 10",
+  titleMy: "IGCSE သင်္ချာ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "The full IGCSE Mathematics (Core and Extended) course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Mathematics examination, built from the ai_data_bridge/igcse_maths_all_terms.dart blueprint. Term 1, Advanced Number and Sets, covers set notation and Venn diagrams, indices and standard form, and compound interest/depreciation/reverse percentages, closing with a Number Mastery Exam Prep capstone on ratio, proportion, and speed-distance-time graphs. Term 2, Algebra and Graphs, covers solving quadratic equations (factorising, completing the square, the quadratic formula), linear-quadratic simultaneous equations, and sketching exponential/trigonometric graphs and estimating gradients, closing with an Algebraic Proofs capstone on constructing rigorous algebraic arguments. Term 3, Coordinate Geometry and Mensuration, covers the distance/midpoint formulas and perpendicular bisectors, sector area/arc length and 3D volumes (cones, spheres, pyramids), and advanced circle theorems (angle at centre, cyclic quadrilaterals, alternate segment theorem), closing with a Geometry and Mensuration Exam Studio capstone on multi-step proofs and composite shapes. Term 4, Trigonometry and Vectors, covers the sine rule/cosine rule/trigonometric area formula, 3D trigonometry (angles between lines and planes, space diagonals), and vector geometry proofs (position vectors, the midpoint theorem, collinearity, parallelograms), closing with a Trig and Vector Masterclass capstone combining advanced bearings with vector proof challenges. Term 5, Probability and Statistics, covers conditional probability/tree diagrams and the multiplication/addition laws, cumulative frequency and box plots (IQR, comparing distributions), and histograms with unequal class intervals (frequency density, estimating the median), closing with a Statistics and Probability Studio capstone weaving box plots, histograms, and conditional probability into one connected scenario. Term 6, Transformations, Matrices and Functions, covers 2x2 transformation matrices (rotation, reflection, enlargement, shear), composite and inverse functions, and an introduction to differentiation (the power rule, gradients, turning points), closing with an Advanced Algebra and Calculus Challenge capstone combining optimisation with matrices and functions. Term 7, Advanced Modelling and Problem Solving, covers real-world exponential growth/decay/financial models, formal geometric proofs of congruence and similarity (with area/volume scale factors), and surds and exact arithmetic (simplifying, rationalising denominators, conjugates), closing with a Mathematical Investigation Project capstone generalising a pattern into a proven formula. Term 8, Exam Intensive - Paper 2 & Paper 4 (Extended), covers Paper 2 non-calculator intensive practice, Paper 4 calculator intensive practice, and error analysis/Cambridge mark scheme mastery (method, accuracy, and follow-through marks), closing with a Full Mock Exam Series 1 capstone sitting both papers under real exam timing. Term 9, Final Countdown & IGCSE Graduation, covers a targeted topic weakness workshop built from evidenced mock-paper data, a second full mock exam series confirming the targeted gaps have closed, and exam day readiness/mental preparation (time management, stress management, logistics), closing with the IGCSE Mathematics Graduation capstone reviewing the whole course.",
+      "IGCSE Mathematics -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Advanced Number and Sets; Term 2 Algebra and Graphs; Term 3 Coordinate Geometry and Mensuration; Term 4 Trigonometry and Vectors. Continues in IGCSE Mathematics -- Year 11.",
   descriptionMy:
-      "IGCSE သင်္ချာ (Core and Extended) သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE သင်္ချာ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_maths_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ Advanced Number and Sets သည် set notation နှင့် Venn diagrams, indices နှင့် standard form, compound interest/depreciation/reverse percentages တို့ကို ဖုံးအုပ်ပြီး ratio, proportion နှင့် speed-distance-time graphs အကြောင်း Number Mastery Exam Prep အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Algebra and Graphs သည် quadratic equations ဖြေရှင်းခြင်း (factorising, completing the square, quadratic formula), linear-quadratic simultaneous equations, နှင့် exponential/trigonometric graphs ပုံဖော်ခြင်းနှင့် gradients ခန့်မှန်းခြင်းတို့ကို ဖုံးအုပ်ပြီး rigorous algebraic argument များ တည်ဆောက်ခြင်းအကြောင်း Algebraic Proofs အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Coordinate Geometry and Mensuration သည် distance/midpoint formula များနှင့် perpendicular bisectors, sector area/arc length နှင့် 3D volumes (cones, spheres, pyramids), နှင့် အဆင့်မြင့် circle theorems (angle at centre, cyclic quadrilaterals, alternate segment theorem) တို့ကို ဖုံးအုပ်ပြီး multi-step proofs နှင့် composite shapes အကြောင်း Geometry and Mensuration Exam Studio အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Trigonometry and Vectors သည် sine rule/cosine rule/trigonometric area formula, 3D trigonometry (angles between lines and planes, space diagonals), နှင့် vector geometry proofs (position vectors, midpoint theorem, collinearity, parallelograms) တို့ကို ဖုံးအုပ်ပြီး advanced bearings နှင့် vector proof challenges ပေါင်းစပ်ထားသော Trig and Vector Masterclass အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Probability and Statistics သည် conditional probability/tree diagrams နှင့် multiplication/addition laws, cumulative frequency and box plots (IQR, distribution နှိုင်းယှဉ်ခြင်း), နှင့် unequal class interval ပါသော histograms (frequency density, median ခန့်မှန်းခြင်း) တို့ကို ဖုံးအုပ်ပြီး box plots, histograms, conditional probability တို့ကို ဆက်စပ်ထားသော scenario တစ်ခုတည်းအတွင်း ပေါင်းစပ်ထားသော Statistics and Probability Studio အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Transformations, Matrices and Functions သည် 2x2 Transformation Matrix များ (Rotation, Reflection, Enlargement, Shear), Composite and Inverse Functions, Differentiation မိတ်ဆက် (Power Rule, Gradients, Turning Points) တို့ကို ဖုံးအုပ်ပြီး Optimisation ကို Matrices and Functions နှင့် ပေါင်းစပ်ထားသော Advanced Algebra and Calculus Challenge အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Advanced Modelling and Problem Solving သည် လက်တွေ့ဘဝ Exponential Growth/Decay/Financial Model များ၊ Congruence and Similarity ၏ တရားဝင် ဂျီဩမေတြီ သက်သေပြချက်များ (Area/Volume Scale Factor များနှင့်အတူ), Surds and Exact Arithmetic (ရိုးရှင်းခြင်း, Denominator Rationalise ပြုလုပ်ခြင်း, Conjugates) တို့ကို ဖုံးအုပ်ပြီး ပုံစံတစ်ခုကို သက်သေပြထားသော Formula တစ်ခုအဖြစ် အထွေထွေထုတ်ဖော်ထားသော Mathematical Investigation Project အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Exam Intensive - Paper 2 & Paper 4 (Extended) သည် Paper 2 Non-Calculator Intensive Practice, Paper 4 Calculator Intensive Practice, Error Analysis/Cambridge Mark Scheme ကျွမ်းကျင်မှု (Method, Accuracy, Follow-Through Marks) တို့ကို ဖုံးအုပ်ပြီး အမှန်တကယ် စာမေးပွဲ အချိန်ကိုက်ခြင်းအောက်တွင် စာစောင်နှစ်ခုလုံး ဖြေဆိုသော Full Mock Exam Series 1 အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Final Countdown & IGCSE Graduation သည် ပုံစံတူ စာစောင် Data အထောက်အထားရှိ Targeted Topic Weakness Workshop, Targeted ကွာဟချက်များ ပိတ်သွားပြီးကြောင်း အတည်ပြုသော ဒုတိယ Full Mock Exam Series, စာမေးပွဲနေ့ အသင့်ဖြစ်မှု/စိတ်ပိုင်းဆိုင်ရာ ပြင်ဆင်မှု (အချိန် စီမံခန့်ခွဲမှု, စိတ်ဖိစီးမှု စီမံခန့်ခွဲမှု, Logistics) တို့ကို ဖုံးအုပ်ပြီး သင်တန်းလုံးကို ပြန်လည်သုံးသပ်သော IGCSE Mathematics Graduation အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။",
-  totalWeeks: 36,
+      "IGCSE သင်္ချာ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: အဆင့်မြင့်ကိန်းဂဏန်းနှင့် အစုများ၊ ၂: အက္ခရာသင်္ချာနှင့် ဂရပ်များ၊ ၃: Coordinate ဂျီဩမေတြီနှင့် ချင်နှိုင်းရေတွက်ခြင်း၊ ၄: ထရိဂိုနိုမေတြီနှင့် Vector များ။ IGCSE သင်္ချာ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     _igcseMathematicsTerm1,
     _igcseMathematicsTerm2,
     _igcseMathematicsTerm3,
     _igcseMathematicsTerm4,
+  ],
+);
+
+const CoursePathwayDef mathematicsYear11Pathway = CoursePathwayDef(
+  id: "course-year11-mathematics",
+  subject: "mathematics",
+  grade: Grade.year11,
+  titleEn: "IGCSE Mathematics \u2014 Year 11",
+  titleMy: "IGCSE သင်္ချာ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Mathematics -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Probability and Statistics; Term 6 Transformations, Matrices and Functions; Term 7 Advanced Modelling and Problem Solving; Term 8 Exam Intensive - Paper 2 & Paper 4 (Extended); Term 9 Final Countdown & IGCSE Graduation. Continues from IGCSE Mathematics -- Year 10, closing with the IGCSE Mathematics Graduation capstone.",
+  descriptionMy:
+      "IGCSE သင်္ချာ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: ဖြစ်နိုင်ခြေနှင့် စာရင်းအင်း၊ ၆: ပုံသဏ္ဍာန်ပြောင်းလဲမှု၊ Matrix နှင့် Function များ၊ ၇: အဆင့်မြင့်မော်ဒယ်ပုံဖော်မှုနှင့် ပြဿနာဖြေရှင်းမှု၊ ၈: စာမေးပွဲအထူးလေ့ကျင့်မှု - Paper 2 နှင့် Paper 4 (Extended)၊ ၉: နောက်ဆုံးရေတွက်ချိန်နှင့် IGCSE ဘွဲ့နှင်းသဘင်။ IGCSE သင်္ချာ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Mathematics ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     _igcseMathematicsTerm5,
     _igcseMathematicsTerm6,
     _igcseMathematicsTerm7,

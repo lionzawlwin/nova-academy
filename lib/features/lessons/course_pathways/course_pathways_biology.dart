@@ -15104,7 +15104,8 @@ const CourseTermDef igcseBiologyTerm9 = CourseTermDef(
 );
 
 // =====================================================================
-// IGCSE Biology -- Full 36-Week Pathway (Grade.igcse)
+// IGCSE Biology -- split into Year 10 (Terms 1-4, Grade.year10) and
+// Year 11 (Terms 5-9, Grade.year11)
 // =====================================================================
 
 /// The IGCSE Biology course's full-year pathway. All 9 terms (Weeks
@@ -15118,22 +15119,37 @@ const CourseTermDef igcseBiologyTerm9 = CourseTermDef(
 /// Prep, closing with a Week 36 IGCSE Biology Graduation capstone),
 /// following the blueprint at
 /// `ai_data_bridge/igcse_biology_all_terms.dart`.
-const CoursePathwayDef igcseBiologyPathway = CoursePathwayDef(
-  id: "course-igcse-biology",
+const CoursePathwayDef biologyYear10Pathway = CoursePathwayDef(
+  id: "course-year10-biology",
   subject: "biology",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Biology",
-  titleMy: "IGCSE ဇီဝဗေဒ",
+  grade: Grade.year10,
+  titleEn: "IGCSE Biology \u2014 Year 10",
+  titleMy: "IGCSE ဇီဝဗေဒ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "The full IGCSE Biology course: daily bite-sized lessons across nine thematic terms preparing students for the real IGCSE Biology examination, built from the ai_data_bridge/igcse_biology_all_terms.dart blueprint. Term 1, Characteristics and Classification of Living Organisms, covers the seven MRS GREN life processes and the binomial naming system, the five-kingdom classification system with vertebrate/invertebrate groups and dichotomous keys, and plant/animal cell ultrastructure with specialised cells and levels of organisation, closing with a Cellular Biology Practical Studio capstone on microscope usage and magnification calculations. Term 2, Movement In and Out of Cells and Biological Molecules, covers diffusion and osmosis (including water potential, turgid and plasmolysed cells), active transport against a concentration gradient using ATP, and the building blocks of carbohydrates/proteins/lipids, closing with a Biological Molecules Practical Lab capstone on the four food tests (Benedict's, iodine, Biuret, and the ethanol emulsion test). Term 3, Enzymes and Plant Nutrition, covers enzyme action and the lock-and-key model, factors affecting enzyme activity (temperature/denaturation and pH), and photosynthesis with leaf structure adaptations for gas exchange, closing with a Plant Nutrition Practical Studio capstone on testing leaves for starch and limiting-factor experiments. Term 4, Human Nutrition and Transport in Plants, covers balanced diet components and deficiency diseases, the human alimentary canal and the five stages of digestion (ingestion/digestion/absorption/assimilation/egestion) including bile and pancreatic juice, and xylem/phloem transport with transpiration pull, closing with a Physiology Practical Studio capstone on potometer experiments and a visking-tubing digestion simulation. Term 5, Transport in Animals and Disease, covers the structure of the heart and double circulation, blood components and immunity (phagocytosis, antibodies, active/passive immunity), and disease transmission routes and prevention, closing with a Circulation and Disease Studio capstone on heart rate investigations. Term 6, Gas Exchange and Respiration, covers alveoli adaptations and the mechanics of breathing, the harmful effects of tobacco smoke (nicotine, tar, carbon monoxide) and smoking-related diseases, and aerobic/anaerobic respiration with oxygen debt, closing with a Respiration Practical Lab capstone on respirometer and yeast fermentation experiments. Term 7, Coordination, Response and Homeostasis, covers the nervous system and reflex arcs, the eye's pupil reflex and hormones versus nerves, and blood glucose control (insulin/glucagon) and thermoregulation, closing with a Coordination and Homeostasis Studio capstone on diabetes mellitus case studies. Term 8, Reproduction and Genetics, covers asexual/sexual reproduction with pollination and the human reproductive system, DNA/genes/chromosomes with mitosis versus meiosis and monohybrid Punnett-square crosses, and continuous/discontinuous variation with natural selection and selective breeding, closing with a Genetics Problem-Solving Studio capstone on test crosses and pedigree chart analysis. Term 9, Biotechnology, Ecosystems and Final Exam Prep, covers biotechnology and genetic engineering (plasmids, fermenters, and genetically engineered insulin), food chains/webs and the roughly 10% energy transfer between trophic levels, and a Week 35 full past-paper mock exam week revising every prior term, closing with a Week 36 IGCSE Biology Graduation capstone reflecting on the whole course and previewing A-Level Biology.",
+      "IGCSE Biology -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Characteristics and Classification of Living Organisms; Term 2 Movement In and Out of Cells and Biological Molecules; Term 3 Enzymes and Plant Nutrition; Term 4 Human Nutrition and Transport in Plants. Continues in IGCSE Biology -- Year 11.",
   descriptionMy:
-      "IGCSE ဇီဝဗေဒ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ဇီဝဗေဒ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ai_data_bridge/igcse_biology_all_terms.dart blueprint မှ တည်ဆောက်ထားသော အပိုင်းကိုးပိုင်း နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သက်ရှိသတ္တဝါများ၏ လက္ခဏာများနှင့် အမျိုးအစားခွဲခြားခြင်းသည် MRS GREN သက်ရှင်ဖြစ်စဉ်ခုနစ်ခုနှင့် Binomial အမည်တပ်စနစ်၊ ဘုရင်ငါးမျိုး ခွဲခြားမှုစနစ်နှင့် ကျောရိုးရှိ/ကျောရိုးမဲ့ အုပ်စုများ၊ Dichotomous Keys၊ အပင်/တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ အသေးစိတ်နှင့် အထူးပြုဆဲလ်များ၊ အဆင့်ဆင့်စုစည်းပုံတို့ကို ဖုံးအုပ်ပြီး Microscope သုံးနည်းနှင့် Magnification တွက်ချက်မှုအကြောင်း ဆဲလ်ဇီဝဗေဒ လက်တွေ့စာသင်ခန်း အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝ မော်လီကျူးများသည် Diffusion နှင့် Osmosis (ရေအလားအလာ၊ Turgid နှင့် Plasmolysed ဆဲလ်များအပါအဝင်)၊ ATP သုံး၍ သိပ်သည်းဆကွာဟမှုကို ဆန့်ကျင်သော Active Transport၊ ကာဗိုဟိုက်ဒရိတ်/ပရိုတင်း/Lipid တို့၏ အခြေခံတည်ဆောက်ပုံများကို ဖုံးအုပ်ပြီး အစားအစာစမ်းသပ်မှု လေးမျိုး (Benedict's, Iodine, Biuret နှင့် Ethanol Emulsion Test) အကြောင်း ဇီဝ မော်လီကျူးများ ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အင်ဇိုင်းများနှင့် အပင် အာဟာရသည် အင်ဇိုင်းလုပ်ဆောင်ချက်နှင့် Lock-and-Key Model၊ အင်ဇိုင်း လုပ်ဆောင်ချက်ကို သက်ရောက်သော အကြောင်းရင်းများ (အပူချိန်/Denaturation နှင့် pH)၊ ဓာတ်ငွေ့ဖလှယ်မှုအတွက် အရွက်ဖွဲ့စည်းပုံ လိုက်လျောညီထွေမှုပါဝင်သော Photosynthesis ကို ဖုံးအုပ်ပြီး အရွက်များတွင် Starch စမ်းသပ်ခြင်းနှင့် Limiting Factor စမ်းသပ်မှုများအကြောင်း အပင် အာဟာရ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ လူသားတို့၏ အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေးသည် Balanced Diet အစိတ်အပိုင်းများနှင့် ချို့တဲ့မှုရောဂါများ၊ လူ့အစာခြေလမ်းကြောင်းနှင့် အစာချေဖျက်ခြင်း အဆင့်ငါးဆင့် (Ingestion/Digestion/Absorption/Assimilation/Egestion) အပါအဝင် Bile နှင့် Pancreatic Juice၊ Transpiration Pull ပါဝင်သော Xylem/Phloem သယ်ယူပို့ဆောင်ရေးကို ဖုံးအုပ်ပြီး Potometer စမ်းသပ်မှုများနှင့် Visking Tubing Digestion Simulation အကြောင်း ဇီဝကမ္မဗေဒ လက်တွေ့စမ်းသပ်မှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒသည် နှလုံး၏ ဖွဲ့စည်းပုံနှင့် Double Circulation၊ သွေးအစိတ်အပိုင်းများနှင့် ကိုယ်ခံအားစနစ် (Phagocytosis, Antibody, Active/Passive Immunity)၊ ရောဂါကူးစက်မှု လမ်းကြောင်းများနှင့် ကာကွယ်ရေးကို ဖုံးအုပ်ပြီး နှလုံးခုန်နှုန်း စူးစမ်းလေ့လာမှုများအကြောင်း သွေးလည်ပတ်မှုနှင့် ရောဂါဗေဒ အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ဓာတ်ငွေ့လဲလှယ်မှုနှင့် Respiration သည် Alveoli လိုက်လျောညီထွေမှုများနှင့် အသက်ရှူခြင်း ယန္တရားများ၊ ဆေးလိပ်ခိုးငွေ့၏ အန္တရာယ်ရှိသော သက်ရောက်မှုများ (Nicotine, Tar, ကာဗွန်မိုနောက်ဆိုဒ်) နှင့် ဆေးလိပ်ဆိုင်ရာ ရောဂါများ၊ Oxygen Debt ပါဝင်သော Aerobic/Anaerobic Respiration ကို ဖုံးအုပ်ပြီး Respirometer နှင့် တဆေး Fermentation စမ်းသပ်မှုများအကြောင်း Respiration ဓာတ်ခွဲခန်း လက်တွေ့စမ်းသပ်မှု အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှုသည် အာရုံကြောစနစ်နှင့် Reflex Arc, မျက်စိ၏ Pupil Reflex နှင့် Hormones vs Nerves, သွေးဂလူးကို့စ်ထိန်းချုပ်မှု (Insulin/Glucagon) နှင့် Thermoregulation ကို ဖုံးအုပ်ပြီး ဆီးချိုရောဂါ Case Study များအကြောင်း ညှိနှိုင်းမှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇသည် Pollination နှင့် လူ့မျိုးပွားစနစ် ပါဝင်သော Asexual/Sexual Reproduction၊ Mitosis vs Meiosis နှင့် Monohybrid Punnett-Square Cross ပါဝင်သော DNA/Gene/Chromosome၊ Natural Selection နှင့် Selective Breeding ပါဝင်သော Continuous/Discontinuous Variation ကို ဖုံးအုပ်ပြီး Test Cross များနှင့် Pedigree Chart ခွဲခြမ်းစိတ်ဖြာခြင်းအကြောင်း မျိုးရိုးဗီဇ ပြဿနာဖြေရှင်းခြင်း အလုပ်ရုံ အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ ဇီဝနည်းပညာ၊ ဂေဟစနစ်များနှင့် နောက်ဆုံး စာမေးပွဲပြင်ဆင်မှုသည် ဇီဝနည်းပညာနှင့် Genetic Engineering (Plasmid, Fermenter နှင့် Genetically Engineered Insulin)၊ အစားအစာကွင်းဆက်/ကွန်ရက်များနှင့် Trophic Level များကြား ၁၀% ခန့် စွမ်းအင်လွှဲပြောင်းမှု၊ ယခင်နှစ်ဝက်တိုင်းကို ပြန်လည်ကျက်မှတ်သော Week 35 မေးခွန်းဟောင်းပုံစံတူ စာမေးပွဲအပတ်တစ်ခုလုံးကို ဖုံးအုပ်ပြီး၊ သင်တန်းတစ်ခုလုံးကို ပြန်လည်သုံးသပ်ကာ A-Level ဇီဝဗေဒကို အကြိုကြည့်ရှုသော Week 36 IGCSE ဇီဝဗေဒ ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 36,
+      "IGCSE ဇီဝဗေဒ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: သက်ရှိများ၏ လက္ခဏာနှင့် အမျိုးအစားခွဲခြားခြင်း၊ ၂: ဆဲလ်တွင်း/အပြင် ရွေ့လျားမှုနှင့် ဇီဝမော်လီကျူးများ၊ ၃: အင်ဇိုင်းများနှင့် အပင်အာဟာရ၊ ၄: လူ့အာဟာရနှင့် အပင်များရှိ သယ်ယူပို့ဆောင်ရေး။ IGCSE ဇီဝဗေဒ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     igcseBiologyTerm1,
     igcseBiologyTerm2,
     igcseBiologyTerm3,
     igcseBiologyTerm4,
+  ],
+);
+
+const CoursePathwayDef biologyYear11Pathway = CoursePathwayDef(
+  id: "course-year11-biology",
+  subject: "biology",
+  grade: Grade.year11,
+  titleEn: "IGCSE Biology \u2014 Year 11",
+  titleMy: "IGCSE ဇီဝဗေဒ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Biology -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Transport in Animals and Disease; Term 6 Gas Exchange and Respiration; Term 7 Coordination, Response and Homeostasis; Term 8 Reproduction and Genetics; Term 9 Biotechnology, Ecosystems and Final Exam Prep. Continues from IGCSE Biology -- Year 10, closing with the IGCSE Biology Graduation capstone.",
+  descriptionMy:
+      "IGCSE ဇီဝဗေဒ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: တိရစ္ဆာန်များရှိ သယ်ယူပို့ဆောင်ရေးနှင့် ရောဂါဗေဒ၊ ၆: ဓာတ်ငွေ့ဖလှယ်မှုနှင့် အသက်ရှုခြင်း၊ ၇: ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် ဟန်ချက်ထိန်းသိမ်းမှု၊ ၈: မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇ၊ ၉: ဇီဝနည်းပညာ၊ ဂေဟစနစ်နှင့် နောက်ဆုံးစာမေးပွဲပြင်ဆင်မှု။ IGCSE ဇီဝဗေဒ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Biology ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     igcseBiologyTerm5,
     igcseBiologyTerm6,
     igcseBiologyTerm7,

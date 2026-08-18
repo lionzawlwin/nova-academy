@@ -36,7 +36,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-algebra-1',
     subject: 'algebra',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Linear Equations',
     titleMy: 'မျဉ်းညီညွှတ်ညီမျှခြင်းများ',
@@ -86,7 +86,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-algebra-2',
     subject: 'algebra',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Expanding Brackets',
     titleMy: 'အနားသတ်ကွင်းများ ဖြန့်ချခြင်း',
@@ -134,7 +134,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-algebra-3',
     subject: 'algebra',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Substitution',
     titleMy: 'အစားထိုးခြင်း',
@@ -186,7 +186,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-physics-1',
     subject: 'physics',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Forces and Motion',
     titleMy: 'အားများနှင့် ရွေ့လျားမှု',
@@ -260,7 +260,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-physics-2',
     subject: 'physics',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Forms of Energy',
     titleMy: 'စွမ်းအင်၏ ပုံစံများ',
@@ -369,7 +369,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-physics-3',
     subject: 'physics',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Simple Circuits',
     titleMy: 'ရိုးရှင်းသော ဆားကစ်များ',
@@ -458,7 +458,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-chemistry-1',
     subject: 'chemistry',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'States of Matter',
     titleMy: 'ရုပ်ဝတ္ထု၏ အခြေအနေများ',
@@ -543,7 +543,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-chemistry-2',
     subject: 'chemistry',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Elements, Compounds and Mixtures',
     titleMy: 'ဒြပ်စင်များ၊ ဒြပ်ပေါင်းများနှင့် ရောနှောပစ္စည်းများ',
@@ -618,7 +618,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-chemistry-3',
     subject: 'chemistry',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Separating Techniques',
     titleMy: 'ခွဲခြားနည်းများ',
@@ -715,7 +715,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-biology-1',
     subject: 'biology',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Cells and Organization',
     titleMy: 'ဆဲလ်များနှင့် ဖွဲ့စည်းပုံ',
@@ -792,7 +792,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-biology-2',
     subject: 'biology',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Classification of Living Things',
     titleMy: 'သက်ရှိများ၏ အုပ်စုခွဲခြားခြင်း',
@@ -880,7 +880,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-biology-3',
     subject: 'biology',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Introduction to Human Body Systems',
     titleMy: 'လူ့ခန္ဓာကိုယ်စနစ်များ နိဒါန်း',
@@ -969,7 +969,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-ict-1',
     subject: 'ict',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Computer Systems and Hardware',
     titleMy: 'ကွန်ပျူတာစနစ်နှင့် ဟာ့ဒ်ဝဲ',
@@ -1043,7 +1043,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-ict-2',
     subject: 'ict',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Data Representation Basics',
     titleMy: 'ဒေတာဖော်ပြမှု အခြေခံများ',
@@ -1105,7 +1105,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-ict-3',
     subject: 'ict',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Internet Safety',
     titleMy: 'အင်တာနက် ဘေးကင်းလုံခြုံမှု',
@@ -1214,7 +1214,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-socialstudies-1',
     subject: 'socialstudies',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Myanmar Geography',
     titleMy: 'မြန်မာနိုင်ငံ၏ ပထဝီဝင်',
@@ -1304,7 +1304,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-socialstudies-2',
     subject: 'socialstudies',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'World Geography',
     titleMy: 'ကမ္ဘာ့ပထဝီဝင်',
@@ -1380,7 +1380,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-socialstudies-3',
     subject: 'socialstudies',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Government and Citizenship',
     titleMy: 'အစိုးရနှင့် နိုင်ငံသားဖြစ်မှု',
@@ -1487,7 +1487,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-algebra-1',
     subject: 'algebra',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Simultaneous Equations',
     titleMy: 'တစ်ပြိုင်နက်ညီမျှခြင်းများ',
@@ -1543,7 +1543,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-algebra-2',
     subject: 'algebra',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Quadratic Expressions',
     titleMy: 'စတုရန်းဖော်ပြချက်များ',
@@ -1594,7 +1594,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-algebra-3',
     subject: 'algebra',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Inequalities',
     titleMy: 'မညီမျှခြင်းများ',
@@ -1645,7 +1645,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-physics-1',
     subject: 'physics',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Waves: Sound and Light',
     titleMy: 'လှိုင်းများ- အသံနှင့်အလင်း',
@@ -1725,7 +1725,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-physics-2',
     subject: 'physics',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Pressure',
     titleMy: 'ဖိအား',
@@ -1811,7 +1811,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-physics-3',
     subject: 'physics',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Work and Power',
     titleMy: 'အလုပ်နှင့် စွမ်းအား',
@@ -1885,7 +1885,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-chemistry-1',
     subject: 'chemistry',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Atomic Structure and the Periodic Table',
     titleMy: 'အက်တမ်ဖွဲ့စည်းပုံနှင့် ဒြပ်စင်ဇယား',
@@ -1980,7 +1980,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-chemistry-2',
     subject: 'chemistry',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Chemical Reactions and Equations',
     titleMy: 'ဓာတုတုံ့ပြန်မှုများနှင့် ညီမျှခြင်းများ',
@@ -2087,7 +2087,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-chemistry-3',
     subject: 'chemistry',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Acids and Bases',
     titleMy: 'အက်ဆစ်များနှင့် ဘေ့စ်များ',
@@ -2166,7 +2166,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-biology-1',
     subject: 'biology',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Nutrition and Digestion',
     titleMy: 'အာဟာရနှင့် အစာချေဖျက်ခြင်း',
@@ -2250,7 +2250,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-biology-2',
     subject: 'biology',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Respiration and Photosynthesis',
     titleMy: 'အသက်ရှူခြင်းနှင့် ဓာတ်ပေါင်းစပ်ခြင်း',
@@ -2345,7 +2345,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-biology-3',
     subject: 'biology',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Introduction to Reproduction',
     titleMy: 'မျိုးပွားခြင်း နိဒါန်း',
@@ -2449,7 +2449,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-ict-1',
     subject: 'ict',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Networks Basics',
     titleMy: 'ကွန်ရက် အခြေခံများ',
@@ -2541,7 +2541,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-ict-2',
     subject: 'ict',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Introduction to Databases',
     titleMy: 'ဒေတာဘေ့စ် နိဒါန်း',
@@ -2634,7 +2634,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-ict-3',
     subject: 'ict',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Algorithms and Flowcharts',
     titleMy: 'အယ်လဂိုရီသမ်များနှင့် စီးဆင်းပုံများ',
@@ -2732,7 +2732,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-socialstudies-1',
     subject: 'socialstudies',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'World History Overview',
     titleMy: 'ကမ္ဘာ့သမိုင်း ခြုံငုံသုံးသပ်ချက်',
@@ -2837,7 +2837,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-socialstudies-2',
     subject: 'socialstudies',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Economics Basics',
     titleMy: 'စီးပွားရေးဗဟုသုတ အခြေခံများ',
@@ -2939,7 +2939,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-socialstudies-3',
     subject: 'socialstudies',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Human Rights',
     titleMy: 'လူ့အခွင့်အရေးများ',
@@ -3047,7 +3047,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-algebra-1',
     subject: 'algebra',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Quadratic Equations',
     titleMy: 'စတုရန်းညီမျှခြင်းများ',
@@ -3139,7 +3139,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-algebra-2',
     subject: 'algebra',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Indices and Surds',
     titleMy: 'ညွှန်ကိန်းများနှင့် အမြစ်ကိန်းများ',
@@ -3189,7 +3189,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-algebra-3',
     subject: 'algebra',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Sequences',
     titleMy: 'ဂဏန်းအစဉ်များ',
@@ -3258,7 +3258,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-physics-1',
     subject: 'physics',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Electricity: Ohm\'s Law and Circuits',
     titleMy: 'လျှပ်စစ်- အုမ်၏ဥပဒေနှင့် ဆားကစ်များ',
@@ -3346,7 +3346,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-physics-2',
     subject: 'physics',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Magnetism',
     titleMy: 'သံလိုက်ဓာတ်',
@@ -3454,7 +3454,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-physics-3',
     subject: 'physics',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Energy Resources',
     titleMy: 'စွမ်းအားရင်းမြစ်များ',
@@ -3557,7 +3557,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-chemistry-1',
     subject: 'chemistry',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Bonding: Ionic, Covalent, and Metallic',
     titleMy: 'ချည်နှောင်မှု - အိုင်းယွန်းဆက်၊ ကိုဗာလင့်ဆက်နှင့် သတ္တုဆက်',
@@ -3665,7 +3665,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-chemistry-2',
     subject: 'chemistry',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Rates of Reaction',
     titleMy: 'တုံ့ပြန်မှုနှုန်းများ',
@@ -3773,7 +3773,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-chemistry-3',
     subject: 'chemistry',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Energetics: Exothermic and Endothermic Reactions',
     titleMy: 'စွမ်းအင်ဗေဒ - အပူထုတ်တုံ့ပြန်မှုနှင့် အပူစုတ်တုံ့ပြန်မှုများ',
@@ -3881,7 +3881,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-biology-1',
     subject: 'biology',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Genetics and Inheritance',
     titleMy: 'မျိုးရိုးဗီဇနှင့် မျိုးရိုးလက္ခဏာ ကူးစက်ခြင်း',
@@ -3975,7 +3975,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-biology-2',
     subject: 'biology',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Ecosystems and Energy Flow',
     titleMy: 'ဂေဟစနစ်များနှင့် စွမ်းအင်စီးဆင်းမှု',
@@ -4071,7 +4071,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-biology-3',
     subject: 'biology',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Homeostasis and the Body',
     titleMy: 'ခန္ဓာကိုယ်ဟန်ချက်ညီမှု (homeostasis)',
@@ -4167,7 +4167,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-ict-1',
     subject: 'ict',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Python Functions',
     titleMy: 'Python Function များ',
@@ -4268,7 +4268,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-ict-2',
     subject: 'ict',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Python Loops and Conditionals',
     titleMy: 'Python Loop များနှင့် Conditional များ',
@@ -4366,7 +4366,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-ict-3',
     subject: 'ict',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Cybersecurity Basics',
     titleMy: 'ဆိုက်ဘာလုံခြုံရေး အခြေခံများ',
@@ -4470,7 +4470,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-socialstudies-1',
     subject: 'socialstudies',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Global Issues: Climate and Environment',
     titleMy:
@@ -4575,7 +4575,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-socialstudies-2',
     subject: 'socialstudies',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Poverty and Development',
     titleMy: 'ဆင်းရဲမွဲတေမှုနှင့် ဖွံ့ဖြိုးတိုးတက်ရေး',
@@ -4683,7 +4683,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-socialstudies-3',
     subject: 'socialstudies',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Myanmar History and Culture',
     titleMy: 'မြန်မာ့သမိုင်းနှင့် ယဉ်ကျေးမှု',
@@ -4785,7 +4785,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-algebra-1',
     subject: 'algebra',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Functions and Graphs',
     titleMy: 'ဖန်ရှင်များနှင့် ဂရပ်များ',
@@ -4849,7 +4849,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-algebra-2',
     subject: 'algebra',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Algebraic Fractions',
     titleMy: 'အက္ခရာသင်္ချာ အပိုင်းကိန်းများ',
@@ -4919,7 +4919,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-algebra-3',
     subject: 'algebra',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Further Quadratics',
     titleMy: 'အဆင့်မြင့် စတုရန်းညီမျှခြင်းများ',
@@ -5024,7 +5024,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-physics-1',
     subject: 'physics',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Motion Graphs and Momentum',
     titleMy: 'ရွေ့လျားမှုဂရပ်များနှင့် ရွေ့လျားအား (momentum)',
@@ -5114,7 +5114,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-physics-2',
     subject: 'physics',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Thermal Physics',
     titleMy: 'အပူရူပဗေဒ',
@@ -5204,7 +5204,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-physics-3',
     subject: 'physics',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Atomic Physics',
     titleMy: 'အက်တမ်ရူပဗေဒ',
@@ -5304,7 +5304,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-chemistry-1',
     subject: 'chemistry',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Stoichiometry: Moles and Chemical Calculations',
     titleMy: 'စတွိကီယိုမက်ထရီ - မိုလ်နှင့် ဓာတုတွက်ချက်မှုများ',
@@ -5406,7 +5406,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-chemistry-2',
     subject: 'chemistry',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Organic Chemistry Basics: Hydrocarbons and Functional Groups',
     titleMy:
@@ -5556,7 +5556,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-chemistry-3',
     subject: 'chemistry',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Electrolysis: Principles and Applications',
     titleMy: 'လျှပ်စစ်ဓာတ်ခွဲမှု - မူများနှင့် အသုံးချမှုများ',
@@ -5728,7 +5728,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-biology-1',
     subject: 'biology',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Cell Biology and Membrane Transport',
     titleMy: 'ဆဲလ်ဇီဝဗေဒနှင့် အမြှေးပါး ပို့ဆောင်မှု',
@@ -5838,7 +5838,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-biology-2',
     subject: 'biology',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Coordination and Response',
     titleMy: 'ညှိနှိုင်းမှုနှင့် တုံ့ပြန်မှု',
@@ -5947,7 +5947,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-biology-3',
     subject: 'biology',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Human Reproduction and Genetics',
     titleMy: 'လူသား မျိုးပွားခြင်းနှင့် မျိုးရိုးဗီဇ',
@@ -6052,7 +6052,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-ict-1',
     subject: 'ict',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Computer System Architecture',
     titleMy: 'ကွန်ပျူတာစနစ် ဗိသုကာပုံစံ',
@@ -6161,7 +6161,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-ict-2',
     subject: 'ict',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Advanced Data Representation',
     titleMy: 'အဆင့်မြင့် ဒေတာဖော်ပြမှု',
@@ -6265,7 +6265,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-ict-3',
     subject: 'ict',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Algorithm Design and Efficiency',
     titleMy: 'Algorithm ဒီဇိုင်းနှင့် ထိရောက်မှု',
@@ -6375,7 +6375,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-socialstudies-1',
     subject: 'socialstudies',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Comparative Government',
     titleMy: 'နိုင်ငံရေးအုပ်ချုပ်မှုစနစ်များ နှိုင်းယှဉ်လေ့လာခြင်း',
@@ -6485,7 +6485,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-socialstudies-2',
     subject: 'socialstudies',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Global Economics',
     titleMy: 'ကမ္ဘာလုံးဆိုင်ရာ စီးပွားရေးပညာ',
@@ -6595,7 +6595,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-socialstudies-3',
     subject: 'socialstudies',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Contemporary Global Issues',
     titleMy: 'ခေတ်ပြိုင်ကမ္ဘာလုံးဆိုင်ရာပြဿနာများ',
@@ -6713,7 +6713,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-coding-1',
     subject: 'coding',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Algorithmic Thinking',
     titleMy: 'Algorithm ဆိုင်ရာ တွေးခေါ်မှု',
@@ -6801,7 +6801,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-engineering-1',
     subject: 'engineering',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Introduction to Engineering Disciplines',
     titleMy: 'အင်ဂျင်နီယာဘာသာရပ်များ နိဒါန်း',
@@ -6908,7 +6908,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-coding-1',
     subject: 'coding',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Functions and Loops in Python',
     titleMy: 'Python ရှိ Function နှင့် Loop များ',
@@ -6975,7 +6975,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-engineering-1',
     subject: 'engineering',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Forces in Structures',
     titleMy: 'အဆောက်အအုံများရှိ အားများ',
@@ -7076,7 +7076,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-coding-1',
     subject: 'coding',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Data Structures: Lists and Arrays',
     titleMy: 'Data Structure- List နှင့် Array',
@@ -7146,7 +7146,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-engineering-1',
     subject: 'engineering',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Basic Electrical Circuits',
     titleMy: 'လျှပ်စစ်ဆားကစ်များ အခြေခံ',
@@ -7231,7 +7231,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-coding-1',
     subject: 'coding',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Programming Foundations: Algorithms and the Web',
     titleMy: 'ပရိုဂရမ်းမင်း အခြေခံ- Algorithm နှင့် Web',
@@ -7335,7 +7335,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-coding-2',
     subject: 'coding',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Making Decisions: if/else and Boolean Logic in Python',
     titleMy:
@@ -7403,7 +7403,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-coding-2',
     subject: 'coding',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Working with Strings in Python',
     titleMy: 'Python တွင် စာသားများ (Strings) နှင့် လုပ်ဆောင်ခြင်း',
@@ -7492,7 +7492,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-coding-2',
     subject: 'coding',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Searching and Sorting Algorithms',
     titleMy: 'ရှာဖွေခြင်းနှင့် စီစဉ်ခြင်း အယ်လဂိုရီသမ်များ',
@@ -7602,7 +7602,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-coding-2',
     subject: 'coding',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Object-Oriented Programming: Classes and Objects',
     titleMy: 'အော်ဂျက်အခြေပြု ပရိုဂရမ်းမင်းအခြေခံ - Class နှင့် Object များ',
@@ -7710,7 +7710,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-engineering-1',
     subject: 'engineering',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Applied Engineering: Motion and Design',
     titleMy: 'လက်တွေ့အင်ဂျင်နီယာပညာ- ရွေ့လျားမှုနှင့် ဒီဇိုင်း',
@@ -7804,7 +7804,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-engineering-2',
     subject: 'engineering',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'The Engineering Design Process and Simple Machines',
     titleMy: 'အင်ဂျင်နီယာဒီဇိုင်းလုပ်ငန်းစဉ်နှင့် ရိုးရှင်းသောစက်ပစ္စည်းများ',
@@ -7910,7 +7910,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-engineering-2',
     subject: 'engineering',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Mechanical Advantage: Levers, Gears, and Pulleys',
     titleMy:
@@ -8022,7 +8022,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-engineering-2',
     subject: 'engineering',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Materials Science: Choosing the Right Material',
     titleMy: 'ပစ္စည်းသိပ္ပံပညာ — မှန်ကန်သောပစ္စည်းရွေးချယ်ခြင်း',
@@ -8127,7 +8127,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-engineering-2',
     subject: 'engineering',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn:
         'Engineering Systems and Control: Feedback, Sensors and Sustainable Design',
@@ -8244,7 +8244,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-computing-1',
     subject: 'computing',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Data Representation & Programming Basics',
     titleMy: 'ဒေတာကိုယ်စားပြုမှုနှင့် ပရိုဂရမ်းမင်းအခြေခံများ',
@@ -8311,7 +8311,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-history-1',
     subject: 'history',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'The Age of Exploration',
     titleMy: 'ရှာဖွေတွေ့ရှိမှု ခေတ်ကာလ',
@@ -8419,7 +8419,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-geography-1',
     subject: 'geography',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Population and Settlement',
     titleMy: 'လူဦးရေနှင့် နေထိုင်မှုပုံစံများ',
@@ -8531,7 +8531,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-computing-1',
     subject: 'computing',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Networks and Program Design',
     titleMy: 'ကွန်ရက်များနှင့် ပရိုဂရမ် ဒီဇိုင်း',
@@ -8615,7 +8615,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-history-1',
     subject: 'history',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'The Industrial Revolution',
     titleMy: 'စက်မှုတော်လှန်ရေး',
@@ -8708,7 +8708,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-geography-1',
     subject: 'geography',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Tectonic Hazards and River Landscapes',
     titleMy: 'သဘာဝဘေးအန္တရာယ်များနှင့် မြစ်ရှိရာလှမ်းမြေပြင်ပုံစံများ',
@@ -8819,7 +8819,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-computing-1',
     subject: 'computing',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Databases and Cybersecurity',
     titleMy: 'ဒေတာဘေ့စ်များနှင့် ဆိုက်ဘာလုံခြုံရေး',
@@ -8903,7 +8903,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-history-1',
     subject: 'history',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: '20th Century Conflict and Decolonization',
     titleMy: '၂၀ ရာစု ပဋိပက္ခနှင့် ကိုလိုနီခြင်း လွတ်မြောက်မှု',
@@ -9002,7 +9002,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-geography-1',
     subject: 'geography',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Development and Globalization',
     titleMy: 'ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ကမ္ဘာလုံးဆိုင်ရာ ချိတ်ဆက်မှု',
@@ -9112,7 +9112,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-computing-1',
     subject: 'computing',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Algorithms, Ethics, and Computer Systems',
     titleMy: 'အယ်လဂိုရီသမ်များ၊ ကျင့်ဝတ်နှင့် ကွန်ပျူတာစနစ်များ',
@@ -9222,7 +9222,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-history-1',
     subject: 'history',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Historical Enquiry: Sources and Interpretations',
     titleMy:
@@ -9332,7 +9332,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-geography-1',
     subject: 'geography',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Climate Change and Sustainable Development',
     titleMy: 'ရာသီဥတုပြောင်းလဲမှုနှင့် ရေရှည်တည်တံ့သော ဖွံ့ဖြိုးတိုးတက်မှု',
@@ -9451,7 +9451,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-geography-2',
     subject: 'geography',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Weather and Climate Basics',
     titleMy: 'ရာသီဥတုနှင့် ကမ္ဘာ့ဥတုဇုန်များ',
@@ -9559,7 +9559,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-geography-2',
     subject: 'geography',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'World Biomes and Ecosystems',
     titleMy: 'ကမ္ဘာ့ဇီဝဇုန်များနှင့် ဂေဟစနစ်များ',
@@ -9669,7 +9669,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-geography-2',
     subject: 'geography',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Urbanization and Urban Challenges',
     titleMy: 'မြို့ပြဖြစ်ထွန်းမှုနှင့် မြို့ပြပြဿနာများ',
@@ -9777,7 +9777,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-geography-2',
     subject: 'geography',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Water Resources and Management',
     titleMy: 'ရေအရင်းအမြစ်များနှင့် စီမံခန့်ခွဲမှု',
@@ -9895,7 +9895,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-history-2',
     subject: 'history',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'The Renaissance and Scientific Revolution',
     titleMy: 'ပြန်လည်ရှင်သန်ခေတ်နှင့် သိပ္ပံပြောင်းလဲမှုကြီး',
@@ -9990,7 +9990,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-history-2',
     subject: 'history',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Revolutions and New Ideas: America and France Rise Up',
     titleMy: 'တော်လှန်ရေးများနှင့် အယူအဆသစ်များ: အမေရိကန်နှင့် ပြင်သစ်ထကြွမှု',
@@ -10100,7 +10100,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-history-2',
     subject: 'history',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'The Cold War: Rivalry and Key Events',
     titleMy: 'စစ်အေးတိုက်ပွဲ - အင်အားပြိုင်ဆိုင်မှုနှင့် အရေးကြီးဖြစ်ရပ်များ',
@@ -10209,7 +10209,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-history-2',
     subject: 'history',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'The United Nations and International Peacekeeping',
     titleMy: 'ကုလသမဂ္ဂနှင့် နိုင်ငံတကာ ငြိမ်းချမ်းရေးထိန်းသိမ်းမှု',
@@ -10327,7 +10327,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary1-computing-2',
     subject: 'computing',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'quiz',
     titleEn: 'Hardware & Software Basics',
     titleMy: 'Hardware နှင့် Software အခြေခံများ',
@@ -10437,7 +10437,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary2-computing-2',
     subject: 'computing',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'quiz',
     titleEn: 'Boolean Logic and Logic Gates',
     titleMy: 'Boolean Logic နှင့် Logic Gates များ',
@@ -10506,7 +10506,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-secondary3-computing-2',
     subject: 'computing',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'quiz',
     titleEn: 'Programming Languages and Translators',
     titleMy: 'ပရိုဂရမ်းမင်းဘာသာစကားများနှင့် ဘာသာပြန်ပရိုဂရမ်များ',
@@ -10606,7 +10606,7 @@ const List<SecondaryActivityDef> secondaryCurriculumBank = [
   SecondaryActivityDef(
     id: 'mock-igcse-computing-2',
     subject: 'computing',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'quiz',
     titleEn: 'Data Structures & Sorting: Stacks, Queues, and Bubble Sort',
     titleMy: 'ဒေတာဖွဲ့စည်းပုံနှင့် Sorting — Stack၊ Queue နှင့် Bubble Sort',

@@ -292,16 +292,25 @@ class AppLocalizationsMy extends AppLocalizations {
   String get gradeYear6 => 'ဆဌမတန်း';
 
   @override
-  String get gradeSecondary1 => 'အထက်တန်း ၁';
+  String get gradeYear7 => 'Year ၇';
 
   @override
-  String get gradeSecondary2 => 'အထက်တန်း ၂';
+  String get gradeYear8 => 'Year ၈';
 
   @override
-  String get gradeSecondary3 => 'အထက်တန်း ၃';
+  String get gradeYear9 => 'Year ၉';
 
   @override
-  String get gradeIgcse => 'IGCSE';
+  String get gradeYear10 => 'Year ၁၀ (IGCSE)';
+
+  @override
+  String get gradeYear11 => 'Year ၁၁ (IGCSE)';
+
+  @override
+  String get gradeYear12 => 'Year ၁၂ (A Level)';
+
+  @override
+  String get gradeYear13 => 'Year ၁၃ (A Level)';
 
   @override
   String get subjectMath => 'သင်္ချာ';

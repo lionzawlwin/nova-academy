@@ -650,29 +650,47 @@ abstract class AppLocalizations {
   /// **'Year 6'**
   String get gradeYear6;
 
-  /// No description provided for @gradeSecondary1.
+  /// No description provided for @gradeYear7.
   ///
   /// In en, this message translates to:
-  /// **'Secondary 1'**
-  String get gradeSecondary1;
+  /// **'Year 7'**
+  String get gradeYear7;
 
-  /// No description provided for @gradeSecondary2.
+  /// No description provided for @gradeYear8.
   ///
   /// In en, this message translates to:
-  /// **'Secondary 2'**
-  String get gradeSecondary2;
+  /// **'Year 8'**
+  String get gradeYear8;
 
-  /// No description provided for @gradeSecondary3.
+  /// No description provided for @gradeYear9.
   ///
   /// In en, this message translates to:
-  /// **'Secondary 3'**
-  String get gradeSecondary3;
+  /// **'Year 9'**
+  String get gradeYear9;
 
-  /// No description provided for @gradeIgcse.
+  /// No description provided for @gradeYear10.
   ///
   /// In en, this message translates to:
-  /// **'IGCSE'**
-  String get gradeIgcse;
+  /// **'Year 10'**
+  String get gradeYear10;
+
+  /// No description provided for @gradeYear11.
+  ///
+  /// In en, this message translates to:
+  /// **'Year 11'**
+  String get gradeYear11;
+
+  /// No description provided for @gradeYear12.
+  ///
+  /// In en, this message translates to:
+  /// **'Year 12'**
+  String get gradeYear12;
+
+  /// No description provided for @gradeYear13.
+  ///
+  /// In en, this message translates to:
+  /// **'Year 13'**
+  String get gradeYear13;
 
   /// No description provided for @subjectMath.
   ///

@@ -17,10 +17,17 @@ HomeTier homeTierForGrade(Grade grade) {
     case Grade.year5:
     case Grade.year6:
       return HomeTier.primary;
-    case Grade.secondary1:
-    case Grade.secondary2:
-    case Grade.secondary3:
-    case Grade.igcse:
+    case Grade.year7:
+    case Grade.year8:
+    case Grade.year9:
+    case Grade.year10:
+    case Grade.year11:
+    // Year 12/13 (A Level) share the Secondary/IGCSE dashboard shell for
+    // now -- no dedicated A-Level UI exists yet, and this tier's muted,
+    // information-dense treatment fits an older student better than
+    // Primary's or Nursery's.
+    case Grade.year12:
+    case Grade.year13:
       return HomeTier.secondary;
   }
 }

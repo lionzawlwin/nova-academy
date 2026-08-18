@@ -290,16 +290,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get gradeYear6 => 'Year 6';
 
   @override
-  String get gradeSecondary1 => 'Secondary 1';
+  String get gradeYear7 => 'Year 7';
 
   @override
-  String get gradeSecondary2 => 'Secondary 2';
+  String get gradeYear8 => 'Year 8';
 
   @override
-  String get gradeSecondary3 => 'Secondary 3';
+  String get gradeYear9 => 'Year 9';
 
   @override
-  String get gradeIgcse => 'IGCSE';
+  String get gradeYear10 => 'Year 10';
+
+  @override
+  String get gradeYear11 => 'Year 11';
+
+  @override
+  String get gradeYear12 => 'Year 12';
+
+  @override
+  String get gradeYear13 => 'Year 13';
 
   @override
   String get subjectMath => 'Math';

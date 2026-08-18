@@ -23,6 +23,7 @@ LearningModuleModel _$LearningModuleModelFromJson(Map<String, dynamic> json) {
 mixin _$LearningModuleModel {
   String get id => throw _privateConstructorUsedError;
   String get subject => throw _privateConstructorUsedError;
+  @GradeJsonConverter()
   Grade get grade => throw _privateConstructorUsedError;
   String get contentType => throw _privateConstructorUsedError;
   String get titleEn => throw _privateConstructorUsedError;
@@ -55,7 +56,7 @@ abstract class $LearningModuleModelCopyWith<$Res> {
   $Res call({
     String id,
     String subject,
-    Grade grade,
+    @GradeJsonConverter() Grade grade,
     String contentType,
     String titleEn,
     String titleMy,
@@ -170,7 +171,7 @@ abstract class _$$LearningModuleModelImplCopyWith<$Res>
   $Res call({
     String id,
     String subject,
-    Grade grade,
+    @GradeJsonConverter() Grade grade,
     String contentType,
     String titleEn,
     String titleMy,
@@ -277,7 +278,7 @@ class _$LearningModuleModelImpl implements _LearningModuleModel {
   const _$LearningModuleModelImpl({
     required this.id,
     required this.subject,
-    required this.grade,
+    @GradeJsonConverter() required this.grade,
     required this.contentType,
     required this.titleEn,
     required this.titleMy,
@@ -298,6 +299,7 @@ class _$LearningModuleModelImpl implements _LearningModuleModel {
   @override
   final String subject;
   @override
+  @GradeJsonConverter()
   final Grade grade;
   @override
   final String contentType;
@@ -397,7 +399,7 @@ abstract class _LearningModuleModel implements LearningModuleModel {
   const factory _LearningModuleModel({
     required final String id,
     required final String subject,
-    required final Grade grade,
+    @GradeJsonConverter() required final Grade grade,
     required final String contentType,
     required final String titleEn,
     required final String titleMy,
@@ -418,6 +420,7 @@ abstract class _LearningModuleModel implements LearningModuleModel {
   @override
   String get subject;
   @override
+  @GradeJsonConverter()
   Grade get grade;
   @override
   String get contentType;

@@ -51837,7 +51837,7 @@ const CourseTermDef _secondary1EnglishTerm9 = CourseTermDef(
 const CoursePathwayDef secondary1EnglishPathway = CoursePathwayDef(
   id: "course-secondary1-english",
   subject: "english",
-  grade: Grade.secondary1,
+  grade: Grade.year7,
   titleEn: "English — Year 1 Course",
   titleMy: "အင်္ဂလိပ်စာ — ပထမနှစ် သင်တန်း",
   descriptionEn:
@@ -71014,7 +71014,7 @@ const CourseTermDef _secondary2EnglishTerm9 = CourseTermDef(
 const CoursePathwayDef secondary2EnglishPathway = CoursePathwayDef(
   id: "course-secondary2-english",
   subject: "english",
-  grade: Grade.secondary2,
+  grade: Grade.year8,
   titleEn: "English — Year 2 Course",
   titleMy: "အင်္ဂလိပ်စာ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -133984,7 +133984,7 @@ const CourseTermDef _secondary3EnglishTerm9 = CourseTermDef(
 const CoursePathwayDef secondary3EnglishPathway = CoursePathwayDef(
   id: "course-secondary3-english",
   subject: "english",
-  grade: Grade.secondary3,
+  grade: Grade.year9,
   titleEn: "English — Year 3 Course",
   titleMy: "အင်္ဂလိပ်စာ — တတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -151425,22 +151425,37 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
 /// argumentative, and literary composition, advanced grammar and
 /// stylistic editing, and intensive exam practice to the final
 /// countdown and graduation.
-const CoursePathwayDef igcseEnglishPathway = CoursePathwayDef(
-  id: "course-igcse-english",
+const CoursePathwayDef englishYear10Pathway = CoursePathwayDef(
+  id: "course-year10-english",
   subject: "english",
-  grade: Grade.igcse,
-  titleEn: "IGCSE English",
-  titleMy: "IGCSE အင်္ဂလိပ်စာ",
+  grade: Grade.year10,
+  titleEn: "IGCSE English \u2014 Year 10",
+  titleMy: "IGCSE အင်္ဂလိပ်စာ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "A rigorous, exam-focused Cambridge IGCSE First Language English pathway covering advanced reading comprehension, directed writing, narrative and descriptive composition, argumentative and discursive writing, literature and poetry analysis, advanced grammar and stylistic editing, and intensive past paper practice.",
+      "IGCSE English -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Advanced Reading Comprehension; Term 2 Directed Writing & Persuasive Techniques; Term 3 Narrative Composition; Term 4 Descriptive Composition. Continues in IGCSE English -- Year 11.",
   descriptionMy:
-      "အဆင့်မြင့် ဖတ်ရှု နားလည်မှု၊ Directed Writing၊ ဇာတ်ကြောင်းပြောနှင့် သရုပ်ဖော် ရေးသားမှု၊ အငြင်းပွားမှုနှင့် ဆွေးနွေးတင်ပြမှု အရေးအသား၊ စာပေနှင့် ကဗျာ ခွဲခြမ်းစိတ်ဖြာမှု၊ အဆင့်မြင့် သဒ္ဒါနှင့် စတိုင်လ် တည်းဖြတ်မှုနှင့် မေးခွန်းဟောင်း လေ့ကျင့်မှုများကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE First Language English လမ်းကြောင်း။",
-  totalWeeks: 36,
+      "IGCSE အင်္ဂလိပ်စာ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: အဆင့်မြင့် ဖတ်ရှုနားလည်မှု၊ ၂: ညွှန်ကြားရေးသားမှုနှင့် စည်းရုံးသိမ်းသွင်းမှုနည်းပညာများ၊ ၃: ဇာတ်ကြောင်းဆောင်ရေးသားမှု၊ ၄: ဖော်ပြချက်ရေးသားမှု။ IGCSE အင်္ဂလိပ်စာ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     igcseEnglishTerm1,
     igcseEnglishTerm2,
     igcseEnglishTerm3,
     igcseEnglishTerm4,
+  ],
+);
+
+const CoursePathwayDef englishYear11Pathway = CoursePathwayDef(
+  id: "course-year11-english",
+  subject: "english",
+  grade: Grade.year11,
+  titleEn: "IGCSE English \u2014 Year 11",
+  titleMy: "IGCSE အင်္ဂလိပ်စာ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE English -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Argumentative & Discursive Composition; Term 6 Literature & Poetry Analysis; Term 7 Advanced Grammar, Syntax & Stylistic Editing; Term 8 Intensive Past Paper Simulations; Term 9 Final Exam Countdown & Graduation. Continues from IGCSE English -- Year 10, closing with the IGCSE English Graduation capstone.",
+  descriptionMy:
+      "IGCSE အင်္ဂလိပ်စာ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: ငြင်းခုံဆွေးနွေးရေးသားမှု၊ ၆: စာပေနှင့် ကဗျာခွဲခြမ်းစိတ်ဖြာမှု၊ ၇: အဆင့်မြင့်သဒ္ဒါ၊ ဝါကျဖွဲ့စည်းပုံနှင့် တည်းဖြတ်မှု၊ ၈: ယခင်စာမေးပွဲမေးခွန်း အထူးလေ့ကျင့်မှု၊ ၉: နောက်ဆုံးစာမေးပွဲရေတွက်ချိန်နှင့် ဘွဲ့နှင်းသဘင်။ IGCSE အင်္ဂလိပ်စာ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE English ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     igcseEnglishTerm5,
     igcseEnglishTerm6,
     igcseEnglishTerm7,

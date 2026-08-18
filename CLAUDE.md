@@ -2,7 +2,7 @@
 
 ## Project
 
-Nova Academy — a bilingual (English/Burmese) Flutter/Firebase EdTech app for Myanmar, covering Nursery through IGCSE. Firebase Spark (free) plan only; no paid APIs or paid packages.
+Nova Academy — a bilingual (English/Burmese) Flutter/Firebase EdTech app for Myanmar, covering Nursery through Year 13 on the standard Cambridge sequence (Primary Year 1-6, Lower Secondary Year 7-9, IGCSE Year 10-11, A Level Year 12-13). Firebase Spark (free) plan only; no paid APIs or paid packages.
 
 ## Commands
 
@@ -45,4 +45,5 @@ Firebase/Vercel/Android CI deployment details (targets, secrets, signing, seed-d
 
 ## Known Gaps (check before assuming a feature works end-to-end)
 
-- Secondary/IGCSE curriculum content is complete (`secondary_curriculum_bank.dart`), alongside Nursery–Year6 — full grade coverage Nursery through IGCSE exists across all curriculum banks.
+- Year 7-9 and IGCSE (Year 10-11) curriculum content is complete (`secondary_curriculum_bank.dart`, `course_pathways/`), alongside Nursery–Year 6 — full grade coverage Nursery through Year 11 exists across all curriculum banks. `Grade.year12`/`Grade.year13` (A Level) are placeholders only — no curriculum content is authored for them yet; they route to the Secondary/IGCSE dashboard shell and show an honest "not available" state.
+- `Grade`'s pre-Cambridge-rename values (`secondary1`/`secondary2`/`secondary3`/`igcse`) are gone from the enum but still accepted forever on read via `GradeJsonConverter` (`lib/models/child_model.dart`) — any `Children`/`LearningModules` Firestore document written before the rename keeps deserializing correctly with no migration needed. `ChildModel`'s normal save path additionally rewrites the field to the new value the next time that document is saved, so real profiles migrate to the new format gradually through ordinary use.

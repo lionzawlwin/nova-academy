@@ -13459,22 +13459,37 @@ const CourseTermDef igcseChemistryTerm9 = CourseTermDef(
 /// chemistry, organic chemistry, experimental skills and qualitative
 /// analysis, and a Week 36 graduation capstone previewing A-Level
 /// Chemistry.
-const CoursePathwayDef igcseChemistryPathway = CoursePathwayDef(
-  id: "course-igcse-chemistry",
+const CoursePathwayDef chemistryYear10Pathway = CoursePathwayDef(
+  id: "course-year10-chemistry",
   subject: "chemistry",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Chemistry",
-  titleMy: "IGCSE ဓာတုဗေဒ",
+  grade: Grade.year10,
+  titleEn: "IGCSE Chemistry \u2014 Year 10",
+  titleMy: "IGCSE ဓာတုဗေဒ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "A rigorous, exam-focused Cambridge IGCSE Chemistry pathway covering particulate matter, atomic structure, bonding, stoichiometry, energetics, rates of reaction, acids and bases, the periodic table, organic chemistry, and experimental technique.",
+      "IGCSE Chemistry -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 States of Matter and Atomic Structure; Term 2 Stoichiometry and Chemical Calculations; Term 3 Electricity and Chemistry & Energetics; Term 4 Chemical Reactions, Rates and Equilibrium. Continues in IGCSE Chemistry -- Year 11.",
   descriptionMy:
-      "အမှုန်ဒြပ်ဝတ္ထု၊ အက်တမ်ဖွဲ့စည်းပုံ၊ တွဲစပ်မှု၊ Stoichiometry၊ Energetics၊ ဓာတ်ပြုမြန်နှုန်း၊ အက်ဆစ်နှင့် ဘေ့စ်၊ Periodic Table၊ ဇီဝဓာတုဗေဒနှင့် လက်တွေ့စမ်းသပ်မှု နည်းစနစ်များကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE ဓာတုဗေဒ လမ်းကြောင်း။",
-  totalWeeks: 36,
+      "IGCSE ဓာတုဗေဒ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: ဒြပ်ပစ္စည်း၏ အခြေအနေများနှင့် အက်တမ်ဖွဲ့စည်းပုံ၊ ၂: Stoichiometry နှင့် ဓာတုတွက်ချက်မှုများ၊ ၃: လျှပ်စစ်ဓာတုဗေဒနှင့် စွမ်းအင်ဗေဒ၊ ၄: ဓာတုတုံ့ပြန်မှု၊ နှုန်းနှင့် ဟန်ချက်ညီမှု။ IGCSE ဓာတုဗေဒ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     igcseChemistryTerm1,
     igcseChemistryTerm2,
     igcseChemistryTerm3,
     igcseChemistryTerm4,
+  ],
+);
+
+const CoursePathwayDef chemistryYear11Pathway = CoursePathwayDef(
+  id: "course-year11-chemistry",
+  subject: "chemistry",
+  grade: Grade.year11,
+  titleEn: "IGCSE Chemistry \u2014 Year 11",
+  titleMy: "IGCSE ဓာတုဗေဒ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Chemistry -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Acids, Bases, Salts and The Periodic Table; Term 6 Metals and Chemistry of the Environment; Term 7 Organic Chemistry; Term 8 Experimental Skills & Qualitative Analysis; Term 9 Exam Prep & Final Countdown. Continues from IGCSE Chemistry -- Year 10, closing with the IGCSE Chemistry Graduation capstone.",
+  descriptionMy:
+      "IGCSE ဓာတုဗေဒ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: အက်စစ်၊ ဘေ့စ်၊ ဆားများနှင့် Periodic Table၊ ၆: သတ္တုများနှင့် ပတ်ဝန်းကျင်ဓာတုဗေဒ၊ ၇: သြဂဲနစ်ဓာတုဗေဒ၊ ၈: စမ်းသပ်မှုစွမ်းရည်နှင့် အရည်အသွေးခွဲခြမ်းစိတ်ဖြာမှု၊ ၉: စာမေးပွဲပြင်ဆင်မှုနှင့် နောက်ဆုံးရေတွက်ချိန်။ IGCSE ဓာတုဗေဒ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Chemistry ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     igcseChemistryTerm5,
     igcseChemistryTerm6,
     igcseChemistryTerm7,

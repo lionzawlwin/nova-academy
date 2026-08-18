@@ -90677,22 +90677,34 @@ const CourseTermDef _igcseHumTerm1 = CourseTermDef(
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
-const CoursePathwayDef igcseHumanitiesPathway = CoursePathwayDef(
-  id: "course-igcse-humanities",
+const CoursePathwayDef humanitiesYear10Pathway = CoursePathwayDef(
+  id: "course-year10-humanities",
   subject: "humanities",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Humanities (History & Geography)",
-  titleMy: "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်)",
+  grade: Grade.year10,
+  titleEn: "IGCSE Humanities (History & Geography) \u2014 Year 10",
+  titleMy:
+      "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်) \u2014 Year \u1041\u1040",
   descriptionEn:
-      "The full IGCSE Humanities course, combining Cambridge IGCSE History's 20th-century international relations depth with Cambridge IGCSE Geography's population, development, and hazards core themes: daily bite-sized lessons across nine thematic terms, following Thiha Aung (tutored by Saya Tun Tun Win) as he prepares for the real IGCSE History and Geography examinations. Term 1, Foundations of Historical & Geographical Inquiry, covers evaluating primary and secondary sources for reliability, distinguishing long-term causes from trigger events, and core map skills (grid references, scale, contour lines), closing with a combined history-geography local investigation. Term 2, The First World War: Causes and Course, covers the MAIN long-term causes (Militarism, Alliances, Imperialism, Nationalism), the July Crisis trigger chain, and trench warfare's defensive stalemate, closing with a mock causation trial weighing multiple causes with cited evidence. Term 3, The Interwar Years and the Rise of Dictatorships, covers the Treaty of Versailles's war guilt/reparations/territorial consequences, the Great Depression's global spread and mass unemployment, and the Nazi Party's exploitation of crisis and legal political processes, closing with a capstone essay tracing the full causal chain of Weimar democracy's collapse. Term 4, Population, Migration and Settlement, covers physical factors shaping population density and distribution, push-pull migration factors, and urbanisation versus the settlement hierarchy, closing with a City Growth Case Study Studio combining every population concept into one coherent, balanced analysis. Term 5, The Second World War and the Holocaust, covers appeasement's failure and the Poland trigger, decisive turning points across the European and Pacific theaters, and the historically documented reality of the Holocaust, closing with a WWII Legacy Studio tracing the full arc from cause to postwar consequence. Term 6, Development, Globalisation and Trade, covers measuring development with GNI and HDI, transnational corporations' benefits and risks in host countries, and aid types versus the debt trap, closing with a Development Case Study Studio combining measurement, investment, and aid into one evidence-based recommendation. Term 7, The Cold War: Rivalry, Crisis and Resolution, covers the superpowers' ideological rivalry and spheres of influence, the Berlin and Cuban crises, and proxy wars alongside the Soviet economy's structural strain, closing with a mock trial weighing which factor most shaped the war's overall trajectory. Term 8, Natural Hazards and the Environment, covers tectonic hazards from earthquakes and volcanoes, weather hazards from tropical storms and drought, and climate change's causes and impacts, closing with a Hazard Mitigation Studio combining risk assessment, evidenced resource allocation, and honest acknowledgment of uncertainty into one complete mitigation plan. Term 9, Examination Preparation and Graduation, covers Paper 1 and Paper 2 exam technique, structuring essays and extended writing under time pressure, and full timed mock exam simulations, closing with a graduation week tracing the course's core habits of mind -- weighing multiple factors, grounding claims in specific evidence, and acknowledging honest uncertainty -- all the way from Term 1's first lesson to the final exam.",
+      "IGCSE Humanities (History & Geography) -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Foundations of Historical & Geographical Inquiry; Term 2 The First World War: Causes and Course; Term 3 The Interwar Years and the Rise of Dictatorships; Term 4 Population, Migration and Settlement. Continues in IGCSE Humanities (History & Geography) -- Year 11.",
   descriptionMy:
-      "Cambridge IGCSE History ၏ 20th-Century International Relations နက်ရှိုင်းမှုကို Cambridge IGCSE Geography ၏ Population, Development နှင့် Hazards Core Theme များနှင့် ပေါင်းစပ်ထားသော IGCSE Humanities သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE History နှင့် Geography စာမေးပွဲများအတွက် အသင့်ပြင်နေသော Thiha Aung (Saya Tun Tun Win လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Foundations of Historical & Geographical Inquiry သည် Reliability အတွက် Primary နှင့် Secondary Source များ အကဲဖြတ်ခြင်း၊ Long-Term Cause များကို Trigger Event များမှ ခွဲခြားခြင်းနှင့် Core Map Skill များ (Grid Reference, Scale, Contour Line) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် History-Geography Local Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ The First World War: Causes and Course သည် MAIN Long-Term Cause များ (Militarism, Alliances, Imperialism, Nationalism)၊ July Crisis Trigger Chain နှင့် Trench Warfare ၏ Defensive Stalemate ကို ဖုံးအုပ်ပြီး ကိုးကားထားသော Evidence ဖြင့် Cause များစွာကို ချိန်ဆသော Mock Causation Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ The Interwar Years and the Rise of Dictatorships သည် Treaty of Versailles ၏ War Guilt/Reparations/Territorial ရလဒ်များ၊ Great Depression ၏ ကမ္ဘာလုံးဆိုင်ရာ ပျံ့နှံ့မှုနှင့် Mass Unemployment၊ Nazi Party ၏ Crisis နှင့် Legal နိုင်ငံရေး Process များ Exploitation ကို ဖုံးအုပ်ပြီး Weimar Democracy ကျရှုံးမှု၏ Causal Chain အပြည့်အစုံကို ခြေရာခံသော Capstone Essay တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Population, Migration and Settlement သည် Population Density နှင့် Distribution ကို ပုံဖော်သော Physical Factor များ၊ Push-Pull Migration Factor များနှင့် Urbanisation Versus Settlement Hierarchy ကို ဖုံးအုပ်ပြီး Population Concept တိုင်းကို ညီညွတ်၊ Balanced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော City Growth Case Study Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Second World War and the Holocaust သည် Appeasement ကျရှုံးမှုနှင့် ပိုလန် Trigger, European နှင့် Pacific Theater များတစ်လျှောက် ဆုံးဖြတ်ချက်ချသော Turning Point များနှင့် Holocaust ၏ သမိုင်းဆိုင်ရာ Document ပြုလုပ်ထားသော Reality ကို ဖုံးအုပ်ပြီး Cause မှ Postwar ရလဒ်အထိ Arc အပြည့်အစုံကို ခြေရာခံသော WWII Legacy Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Development, Globalisation and Trade သည် GNI နှင့် HDI ဖြင့် Development တိုင်းတာခြင်း၊ Host နိုင်ငံများတွင် Transnational Corporation များ၏ အကျိုးကျေးဇူးနှင့် အန္တရာယ်များနှင့် Aid အမျိုးအစားများ Versus Debt Trap ကို ဖုံးအုပ်ပြီး Measurement, Investment နှင့် Aid ကို Evidence-Based Recommendation တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Development Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Cold War: Rivalry, Crisis and Resolution သည် Superpower များ၏ Ideological Rivalry နှင့် Sphere of Influence များ, Berlin နှင့် Cuban Crisis များနှင့် Soviet Economy ၏ Structural Strain နှင့်အတူ Proxy War များကို ဖုံးအုပ်ပြီး Factor မည်သည် စစ်ပွဲ၏ Overall Trajectory ကို အများဆုံး ပုံဖော်ခဲ့သည်ကို ချိန်ဆသော Mock Trial တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards and the Environment သည် ငလျင်နှင့် မီးတောင်များမှ Tectonic Hazard များ၊ Tropical Storm နှင့် ရေရှားပါးမှုမှ Weather Hazard များနှင့် Climate Change ၏ Cause နှင့် Impact များကို ဖုံးအုပ်ပြီး Risk Assessment, Evidenced Resource Allocation နှင့် Uncertainty ရိုးသားစွာ အသိအမှတ်ပြုမှုကို Mitigation Plan အပြည့်အစုံ တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Hazard Mitigation Studio ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Examination Preparation and Graduation သည် Paper 1 နှင့် Paper 2 Exam Technique, အချိန်ဖိအားအောက်တွင် Essay များ Structure ချခြင်းနှင့် Extended Writing နှင့် အချိန်ကန့်သတ် Mock Exam Simulation အပြည့်အစုံကို ဖုံးအုပ်ပြီး Term 1 ၏ ပထမဆုံးသင်ခန်းစာမှ နောက်ဆုံး Exam အထိ Factor များစွာ ချိန်ဆခြင်း၊ Claim များကို တိကျသော Evidence တွင် အခြေခံခြင်းနှင့် ရိုးသား Uncertainty အသိအမှတ်ပြုခြင်း -- Course ၏ Core Habits of Mind ကို ခြေရာခံသော ဘွဲ့နှင်းသဘင် အပတ်တစ်ခုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 36,
+      "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်) -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: သမိုင်းနှင့် ပထဝီဝင် စူးစမ်းလေ့လာမှု အခြေခံများ၊ ၂: ပထမကမ္ဘာစစ်: အကြောင်းရင်းများနှင့် အဖြစ်အပျက်၊ ၃: စစ်ကြားနှစ်များနှင့် အာဏာရှင်စနစ်များ ပေါ်ပေါက်လာမှု၊ ၄: လူဦးရေ၊ ရွှေ့ပြောင်းနေထိုင်မှုနှင့် အခြေချနေထိုင်မှု။ IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်) -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
+  terms: [_igcseHumTerm1, _igcseHumTerm2, _igcseHumTerm3, _igcseHumTerm4],
+);
+
+const CoursePathwayDef humanitiesYear11Pathway = CoursePathwayDef(
+  id: "course-year11-humanities",
+  subject: "humanities",
+  grade: Grade.year11,
+  titleEn: "IGCSE Humanities (History & Geography) \u2014 Year 11",
+  titleMy:
+      "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်) \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Humanities (History & Geography) -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 The Second World War and the Holocaust; Term 6 Development, Globalisation and Trade; Term 7 The Cold War: Rivalry, Crisis and Resolution; Term 8 Natural Hazards and the Environment; Term 9 Examination Preparation and Graduation. Continues from IGCSE Humanities (History & Geography) -- Year 10, closing with the IGCSE Humanities (History & Geography) Graduation capstone.",
+  descriptionMy:
+      "IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်) -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: ဒုတိယကမ္ဘာစစ်နှင့် Holocaust၊ ၆: ဖွံ့ဖြိုးတိုးတက်မှု၊ ကမ္ဘာလုံးဆိုင်ရာဖြစ်ထွန်းမှုနှင့် ကုန်သွယ်မှု၊ ၇: အေးမြသောစစ်ပွဲ: ယှဉ်ပြိုင်မှု၊ အကျပ်အတည်းနှင့် ဖြေရှင်းမှု၊ ၈: သဘာဝဘေးအန္တရာယ်များနှင့် ပတ်ဝန်းကျင်၊ ၉: စာမေးပွဲပြင်ဆင်မှုနှင့် ဘွဲ့နှင်းသဘင်။ IGCSE လူမှုရေးဘာသာရပ် (သမိုင်းနှင့် ပထဝီဝင်) -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Humanities (History & Geography) ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
   terms: [
-    _igcseHumTerm1,
-    _igcseHumTerm2,
-    _igcseHumTerm3,
-    _igcseHumTerm4,
     _igcseHumTerm5,
     _igcseHumTerm6,
     _igcseHumTerm7,
@@ -103487,7 +103499,7 @@ const CourseTermDef _sec1HumTerm1 = CourseTermDef(
 const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   id: "course-secondary1-humanities",
   subject: "humanities",
-  grade: Grade.secondary1,
+  grade: Grade.year7,
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
@@ -116370,7 +116382,7 @@ const CourseTermDef _sec2HumTerm1 = CourseTermDef(
 const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   id: "course-secondary2-humanities",
   subject: "humanities",
-  grade: Grade.secondary2,
+  grade: Grade.year8,
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
@@ -129353,7 +129365,7 @@ const CourseTermDef _sec3HumTerm1 = CourseTermDef(
 const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   id: "course-secondary3-humanities",
   subject: "humanities",
-  grade: Grade.secondary3,
+  grade: Grade.year9,
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:

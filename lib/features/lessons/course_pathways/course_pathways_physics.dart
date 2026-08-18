@@ -12649,22 +12649,37 @@ const CourseTermDef igcsePhysicsTerm9 = CourseTermDef(
 /// physics, waves and optics, electricity and magnetism, electromagnetic
 /// effects, atomic and nuclear physics, space physics, and experimental
 /// technique, to exam prep and graduation.
-const CoursePathwayDef igcsePhysicsPathway = CoursePathwayDef(
-  id: "course-igcse-physics",
+const CoursePathwayDef physicsYear10Pathway = CoursePathwayDef(
+  id: "course-year10-physics",
   subject: "physics",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Physics",
-  titleMy: "IGCSE ရူပဗေဒ",
+  grade: Grade.year10,
+  titleEn: "IGCSE Physics \u2014 Year 10",
+  titleMy: "IGCSE ရူပဗေဒ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "A rigorous, exam-focused Cambridge IGCSE Physics pathway covering motion and forces, thermal physics, waves and optics, electricity and magnetism, electromagnetic effects, atomic physics, space physics, and experimental technique.",
+      "IGCSE Physics -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Motion, Forces and Energy; Term 2 Thermal Physics; Term 3 Properties of Waves; Term 4 Electricity and Magnetism. Continues in IGCSE Physics -- Year 11.",
   descriptionMy:
-      "ရွေ့လျားမှုနှင့် အားများ၊ အပူရူပဗေဒ၊ လှိုင်းနှင့် အလင်းဗေဒ၊ လျှပ်စစ်နှင့် သံလိုက်စွမ်းပကား၊ လျှပ်စစ်သံလိုက် သက်ရောက်မှုများ၊ အက်တမ် ရူပဗေဒ၊ အာကာသ ရူပဗေဒနှင့် လက်တွေ့စမ်းသပ်မှု နည်းစနစ်များကို လွှမ်းခြုံသော တင်းကျပ်ပြီး စာမေးပွဲဗဟိုပြု Cambridge IGCSE ရူပဗေဒ လမ်းကြောင်း။",
-  totalWeeks: 36,
+      "IGCSE ရူပဗေဒ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: ရွေ့လျားမှု၊ အား နှင့် စွမ်းအင်၊ ၂: အပူဗေဒ၊ ၃: လှိုင်းများ၏ သဘောသဘာဝ၊ ၄: လျှပ်စစ်နှင့် သံလိုက်။ IGCSE ရူပဗေဒ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     igcsePhysicsTerm1,
     igcsePhysicsTerm2,
     igcsePhysicsTerm3,
     igcsePhysicsTerm4,
+  ],
+);
+
+const CoursePathwayDef physicsYear11Pathway = CoursePathwayDef(
+  id: "course-year11-physics",
+  subject: "physics",
+  grade: Grade.year11,
+  titleEn: "IGCSE Physics \u2014 Year 11",
+  titleMy: "IGCSE ရူပဗေဒ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Physics -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Electromagnetic Effects; Term 6 Atomic Physics; Term 7 Space Physics; Term 8 Experimental Skills; Term 9 Exam Prep & Graduation. Continues from IGCSE Physics -- Year 10, closing with the IGCSE Physics Graduation capstone.",
+  descriptionMy:
+      "IGCSE ရူပဗေဒ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: လျှပ်စစ်သံလိုက် သက်ရောက်မှုများ၊ ၆: အက်တမ်ရူပဗေဒ၊ ၇: အာကာသရူပဗေဒ၊ ၈: စမ်းသပ်မှုစွမ်းရည်၊ ၉: စာမေးပွဲပြင်ဆင်မှုနှင့် ဘွဲ့နှင်းသဘင်။ IGCSE ရူပဗေဒ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Physics ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     igcsePhysicsTerm5,
     igcsePhysicsTerm6,
     igcsePhysicsTerm7,

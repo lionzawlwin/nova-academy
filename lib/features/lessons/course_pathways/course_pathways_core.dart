@@ -41,7 +41,7 @@
 /// through Week 36.
 ///
 /// Secondary 2 Computing (see [secondary2ComputingPathway]) is a separate,
-/// independent pathway for Grade [Grade.secondary2] rather than more terms
+/// independent pathway for Grade [Grade.year8] rather than more terms
 /// grafted onto Secondary 1's own 36-week pathway. Term 1 (Weeks 1-4,
 /// Lists and Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term
 /// 3 (Weeks 9-12, Searching and Sorting Algorithms), and Term 4 (Weeks

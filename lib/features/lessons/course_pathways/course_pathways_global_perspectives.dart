@@ -19546,7 +19546,7 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm9 = CourseTermDef(
 const CoursePathwayDef secondary1GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-secondary1-globalperspectives",
   subject: "globalperspectives",
-  grade: Grade.secondary1,
+  grade: Grade.year7,
   titleEn: "Global Perspectives — Full Year Course",
   titleMy: "ကမ္ဘာ့အမြင် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
@@ -39390,7 +39390,7 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm9 = CourseTermDef(
 const CoursePathwayDef secondary2GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-secondary2-globalperspectives",
   subject: "globalperspectives",
-  grade: Grade.secondary2,
+  grade: Grade.year8,
   titleEn: "Global Perspectives — Year 2 Course",
   titleMy: "ကမ္ဘာ့အမြင် — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -56776,7 +56776,7 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm9 = CourseTermDef(
 const CoursePathwayDef secondary3GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-secondary3-globalperspectives",
   subject: "globalperspectives",
-  grade: Grade.secondary3,
+  grade: Grade.year9,
   titleEn: "Global Perspectives — Year 3 Course",
   titleMy: "ကမ္ဘာ့အမြင် — တတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -58238,22 +58238,32 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 // authored (36 weeks / 180 daily lessons).
 // =====================================================================
 
-const CoursePathwayDef igcseGlobalPerspectivesPathway = CoursePathwayDef(
-  id: "course-igcse-global-perspectives",
+const CoursePathwayDef globalperspectivesYear10Pathway = CoursePathwayDef(
+  id: "course-year10-globalperspectives",
   subject: "globalperspectives",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Global Perspectives & Research",
-  titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန",
+  grade: Grade.year10,
+  titleEn: "IGCSE Global Perspectives & Research \u2014 Year 10",
+  titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန \u2014 Year \u1041\u1040",
   descriptionEn:
-      "The full IGCSE Global Perspectives & Research course: daily bite-sized lessons across nine thematic terms, following Su Myat Noe (tutored by Ko Zin Ko Ko) as she prepares for the real IGCSE Global Perspectives examination and independent research report. Term 1, Research Skills & Global Issues Introduction, covers deconstructing global issues into local-global links, evaluating sources for credibility and bias, and formulating strong research questions, closing with a full research proposal workshop and peer review. Term 2, Ethics, Values and Belief Systems, covers utilitarian versus rights-based ethical frameworks, cultural relativism versus universal human rights, and freedom of expression versus censorship, closing with a structured ethical perspectives essay studio. Term 3, Demographics, Migration and Human Rights, covers UDHR/modern slavery/vulnerable groups, migration push-pull factors and refugee status, and poverty/inequality/microfinance, closing with a simulated international summit on refugee resettlement. Term 4, Environment, Climate and Sustainability, covers climate change politics and carbon policy, biodiversity loss and ecosystem services, and the circular economy and sustainable urbanisation, closing with an Environmental Action Plan Studio where students design and defend a feasible, locally-grounded environmental project. Term 5, Technology, Digital Future and AI Ethics, covers algorithmic bias and the black box problem, surveillance capitalism and data privacy, and the digital divide's multi-layered barriers, closing with a Technology Policy Regulation Studio where students draft and defend a balanced, enforceable technology policy. Term 6, The Global Economy: Work, Corporations and Trade, covers the changing nature of work and the gig economy, multinational corporate power and tax avoidance, and fair trade versus greenwashing, closing with a Global Economy Case Study Studio combining multi-stakeholder analysis, correlation-versus-causation reasoning, and honest policy trade-offs. Term 7, The Independent Research Report: Design and Execution, covers choosing quantitative versus qualitative methods, building a synthesized literature review, and executing ethical, bias-free fieldwork, closing with a Research Progress Review Studio where students audit their own methodology and honestly report what remains unfinished. Term 8, Analysis, Conclusions and the Complete Research Report, covers analyzing quantitative and qualitative data, weighing evidence to formulate honest conclusions, and reflective thinking about personal growth, closing with a full report-assembly capstone where students combine every section into one coherent, consistent research report. Term 9, Examination Preparation and Graduation, covers Paper 1 exam technique and balanced evaluation writing, presentation skills for the reflective paper, and full combined-component mock simulation, closing with a graduation capstone that traces the course's core habit of mind -- fair, evidence-based reasoning -- across all nine terms.",
+      "IGCSE Global Perspectives & Research -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Research Skills & Global Issues Introduction; Term 2 Ethics, Values and Belief Systems; Term 3 Demographics, Migration and Human Rights; Term 4 Environment, Climate and Sustainability. Continues in IGCSE Global Perspectives & Research -- Year 11.",
   descriptionMy:
-      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE Global Perspectives စာမေးပွဲနှင့် လွတ်လပ်သော သုတေသန အစီရင်ခံစာအတွက် အသင့်ပြင်နေသော Su Myat Noe (ကိုဇင်ကိုကို လမ်းညွှန်ပေးသော) ကို လိုက်ပါကာ ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ Research Skills & Global Issues Introduction သည် ကမ္ဘာ့ပြဿနာများကို Local-Global Link များအဖြစ် ခွဲခြမ်းစိတ်ဖြာခြင်း၊ Credibility နှင့် Bias အတွက် Source များ အကဲဖြတ်ခြင်း၊ ခိုင်မာသော Research Question များ ရေးဆွဲခြင်းကို ဖုံးအုပ်ပြီး Research Proposal Workshop အပြည့်အစုံနှင့် Peer Review ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Ethics, Values and Belief Systems သည် Utilitarian vs Rights-Based Ethical Framework များ၊ Cultural Relativism vs Universal Human Rights၊ Freedom of Expression vs Censorship တို့ကို ဖုံးအုပ်ပြီး ဖွဲ့စည်းထားသော Ethical Perspectives Essay Studio ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Demographics, Migration and Human Rights သည် UDHR/Modern Slavery/Vulnerable Group များ၊ Migration Push-Pull Factor များနှင့် Refugee Status၊ ဆင်းရဲမွဲတေမှု/မညီမျှမှု/Microfinance တို့ကို ဖုံးအုပ်ပြီး ဒုက္ခသည် ပြန်လည်နေရာချထားရေးအကြောင်း Simulated International Summit ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Environment, Climate and Sustainability သည် Climate Change Politics နှင့် Carbon Policy၊ Biodiversity Loss နှင့် Ecosystem Services၊ Circular Economy နှင့် Sustainable Urbanisation တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Feasible, Local-Based ပတ်ဝန်းကျင် Project တစ်ခုကို Design ပြုလုပ်ကာ ခုခံကာကွယ်ရသော Environmental Action Plan Studio ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Technology, Digital Future and AI Ethics သည် Algorithmic Bias နှင့် Black Box ပြဿနာ၊ Surveillance Capitalism နှင့် Data Privacy၊ Digital Divide ၏ Multi-Layered အတားအဆီးများကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ဟန်ချက်ညီ၊ Enforce ပြုလုပ်နိုင်သော နည်းပညာ မူဝါဒတစ်ခုကို ရေးဆွဲကာ ခုခံကာကွယ်ရသော Technology Policy Regulation Studio ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Global Economy: Work, Corporations and Trade သည် ပြောင်းလဲနေသော အလုပ်အကိုင် သဘောသဘာဝနှင့် Gig Economy၊ Multinational Corporate Power နှင့် Tax Avoidance၊ Fair Trade vs Greenwashing တို့ကို ဖုံးအုပ်ပြီး Multi-Stakeholder Analysis, Correlation-Versus-Causation Reasoning နှင့် ရိုးသားသော Policy Trade-Off များကို ပေါင်းစပ်ထားသော Global Economy Case Study Studio ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ The Independent Research Report: Design and Execution သည် Quantitative vs Qualitative Method ရွေးချယ်ခြင်း၊ Synthesized Literature Review တည်ဆောက်ခြင်းနှင့် ကျင့်ဝတ်ရှိ၊ Bias ကင်းသော Fieldwork ဆောင်ရွက်ခြင်းတို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် Methodology ကို Audit ပြုလုပ်ကာ ကျန်ရှိနေသေးသော အရာကို ရိုးသားစွာ အစီရင်ခံသော Research Progress Review Studio ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Analysis, Conclusions and the Complete Research Report သည် Quantitative နှင့် Qualitative Data ခွဲခြမ်းစိတ်ဖြာခြင်း၊ ရိုးသားသော ကောက်ချက်များ ဖွဲ့စည်းရန် Evidence ချိန်ဆခြင်းနှင့် ကိုယ်ပိုင် တိုးတက်မှုအကြောင်း Reflective Thinking တို့ကို ဖုံးအုပ်ပြီး ကျောင်းသားများ Section တိုင်းကို ညီညွတ်၊ Consistent သော သုတေသန Report တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Report-Assembly Capstone တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Examination Preparation and Graduation သည် Paper 1 Exam Technique နှင့် Balanced Evaluation ရေးသားခြင်း၊ Reflective Paper အတွက် Presentation Skill များနှင့် Combined-Component Mock Simulation အပြည့်အစုံတို့ကို ဖုံးအုပ်ပြီး Term ကိုးခုစလုံးတစ်လျှောက် Course ၏ Core Habit of Mind -- တရားမျှတ၊ Evidence-Based Reasoning -- ကို ခြေရာခံသော ဘွဲ့နှင်းသဘင် Capstone တစ်ခုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 36,
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: သုတေသနစွမ်းရည်နှင့် ကမ္ဘာ့ကိစ္စရပ်များ မိတ်ဆက်၊ ၂: ကျင့်ဝတ်၊ တန်ဖိုးထားမှုနှင့် ယုံကြည်ချက်စနစ်များ၊ ၃: လူဦးရေဗေဒ၊ ရွှေ့ပြောင်းနေထိုင်မှုနှင့် လူ့အခွင့်အရေး၊ ၄: ပတ်ဝန်းကျင်၊ ရာသီဥတုနှင့် ရေရှည်တည်တံ့မှု။ IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
+  terms: [_igcseGpTerm1, _igcseGpTerm2, _igcseGpTerm3, _igcseGpTerm4],
+);
+
+const CoursePathwayDef globalperspectivesYear11Pathway = CoursePathwayDef(
+  id: "course-year11-globalperspectives",
+  subject: "globalperspectives",
+  grade: Grade.year11,
+  titleEn: "IGCSE Global Perspectives & Research \u2014 Year 11",
+  titleMy: "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Global Perspectives & Research -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Technology, Digital Future and AI Ethics; Term 6 The Global Economy: Work, Corporations and Trade; Term 7 The Independent Research Report: Design and Execution; Term 8 Analysis, Conclusions and the Complete Research Report; Term 9 Examination Preparation and Graduation. Continues from IGCSE Global Perspectives & Research -- Year 10, closing with the IGCSE Global Perspectives & Research Graduation capstone.",
+  descriptionMy:
+      "IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: နည်းပညာ၊ ဒစ်ဂျစ်တယ်အနာဂတ်နှင့် AI ကျင့်ဝတ်၊ ၆: ကမ္ဘာ့စီးပွားရေး: အလုပ်၊ ကုမ္ပဏီများနှင့် ကုန်သွယ်မှု၊ ၇: သီးခြားသုတေသနအစီရင်ခံစာ: ဒီဇိုင်းနှင့် အကောင်အထည်ဖော်မှု၊ ၈: ခွဲခြမ်းစိတ်ဖြာမှု၊ နိဂုံးနှင့် အပြီးသတ်သုတေသနအစီရင်ခံစာ၊ ၉: စာမေးပွဲပြင်ဆင်မှုနှင့် ဘွဲ့နှင်းသဘင်။ IGCSE ကမ္ဘာ့အမြင်နှင့် သုတေသန -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Global Perspectives & Research ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
   terms: [
-    _igcseGpTerm1,
-    _igcseGpTerm2,
-    _igcseGpTerm3,
-    _igcseGpTerm4,
     _igcseGpTerm5,
     _igcseGpTerm6,
     _igcseGpTerm7,

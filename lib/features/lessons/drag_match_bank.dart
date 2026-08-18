@@ -643,7 +643,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-secondary1-algebra-dragmatch-1',
     subject: 'algebra',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'dragMatch',
     titleEn: 'Algebra Terms',
     titleMy: 'အက္ခရာသင်္ချာ စကားလုံးများ',
@@ -698,7 +698,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-secondary2-chemistry-dragmatch-1',
     subject: 'chemistry',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'dragMatch',
     titleEn: 'Chemistry Terms',
     titleMy: 'ဓာတုဗေဒ စကားလုံးများ',
@@ -755,7 +755,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-secondary3-physics-dragmatch-1',
     subject: 'physics',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'dragMatch',
     titleEn: 'Physics Terms',
     titleMy: 'ရူပဗေဒ စကားလုံးများ',
@@ -810,7 +810,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-igcse-biology-dragmatch-1',
     subject: 'biology',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'dragMatch',
     titleEn: 'Biology Terms',
     titleMy: 'ဇီဝဗေဒ စကားလုံးများ',
@@ -868,7 +868,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-secondary1-computing-dragmatch-1',
     subject: 'computing',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'dragMatch',
     titleEn: 'Computer Systems Words',
     titleMy: 'ကွန်ပျူတာစနစ် စကားလုံးများ',
@@ -923,7 +923,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-secondary3-history-dragmatch-1',
     subject: 'history',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'dragMatch',
     titleEn: '20th Century History Words',
     titleMy: '၂၀ ရာစု သမိုင်းဝေါဟာရများ',
@@ -976,7 +976,7 @@ const List<DragMatchModuleDef> secondaryDragMatchBank = [
   DragMatchModuleDef(
     id: 'mock-igcse-geography-dragmatch-1',
     subject: 'geography',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'dragMatch',
     titleEn: 'Development & Climate Words',
     titleMy: 'ဖွံ့ဖြိုးတိုးတက်မှုနှင့် ရာသီဥတု စကားလုံးများ',

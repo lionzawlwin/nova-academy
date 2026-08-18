@@ -11,7 +11,7 @@ _$LearningModuleModelImpl _$$LearningModuleModelImplFromJson(
 ) => _$LearningModuleModelImpl(
   id: json['id'] as String,
   subject: json['subject'] as String,
-  grade: $enumDecode(_$GradeEnumMap, json['grade']),
+  grade: const GradeJsonConverter().fromJson(json['grade'] as String),
   contentType: json['contentType'] as String,
   titleEn: json['titleEn'] as String,
   titleMy: json['titleMy'] as String,
@@ -29,7 +29,7 @@ Map<String, dynamic> _$$LearningModuleModelImplToJson(
 ) => <String, dynamic>{
   'id': instance.id,
   'subject': instance.subject,
-  'grade': _$GradeEnumMap[instance.grade]!,
+  'grade': const GradeJsonConverter().toJson(instance.grade),
   'contentType': instance.contentType,
   'titleEn': instance.titleEn,
   'titleMy': instance.titleMy,
@@ -40,19 +40,4 @@ Map<String, dynamic> _$$LearningModuleModelImplToJson(
   'pathTitleEn': instance.pathTitleEn,
   'pathTitleMy': instance.pathTitleMy,
   'pathOrder': instance.pathOrder,
-};
-
-const _$GradeEnumMap = {
-  Grade.nursery: 'nursery',
-  Grade.kg: 'kg',
-  Grade.year1: 'year1',
-  Grade.year2: 'year2',
-  Grade.year3: 'year3',
-  Grade.year4: 'year4',
-  Grade.year5: 'year5',
-  Grade.year6: 'year6',
-  Grade.secondary1: 'secondary1',
-  Grade.secondary2: 'secondary2',
-  Grade.secondary3: 'secondary3',
-  Grade.igcse: 'igcse',
 };

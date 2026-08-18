@@ -25,6 +25,7 @@ mixin _$ChildModel {
   String get parentId => throw _privateConstructorUsedError;
   String get aliasName => throw _privateConstructorUsedError;
   String get avatarUrl => throw _privateConstructorUsedError;
+  @GradeJsonConverter()
   Grade get currentGrade => throw _privateConstructorUsedError;
   int get totalStars => throw _privateConstructorUsedError;
   List<String> get completedModuleIds =>
@@ -59,7 +60,7 @@ abstract class $ChildModelCopyWith<$Res> {
     String parentId,
     String aliasName,
     String avatarUrl,
-    Grade currentGrade,
+    @GradeJsonConverter() Grade currentGrade,
     int totalStars,
     List<String> completedModuleIds,
     int currentStreakDays,
@@ -156,7 +157,7 @@ abstract class _$$ChildModelImplCopyWith<$Res>
     String parentId,
     String aliasName,
     String avatarUrl,
-    Grade currentGrade,
+    @GradeJsonConverter() Grade currentGrade,
     int totalStars,
     List<String> completedModuleIds,
     int currentStreakDays,
@@ -245,7 +246,7 @@ class _$ChildModelImpl implements _ChildModel {
     required this.parentId,
     required this.aliasName,
     this.avatarUrl = '',
-    this.currentGrade = Grade.nursery,
+    @GradeJsonConverter() this.currentGrade = Grade.nursery,
     this.totalStars = 0,
     final List<String> completedModuleIds = const <String>[],
     this.currentStreakDays = 0,
@@ -267,6 +268,7 @@ class _$ChildModelImpl implements _ChildModel {
   final String avatarUrl;
   @override
   @JsonKey()
+  @GradeJsonConverter()
   final Grade currentGrade;
   @override
   @JsonKey()
@@ -365,7 +367,7 @@ abstract class _ChildModel implements ChildModel {
     required final String parentId,
     required final String aliasName,
     final String avatarUrl,
-    final Grade currentGrade,
+    @GradeJsonConverter() final Grade currentGrade,
     final int totalStars,
     final List<String> completedModuleIds,
     final int currentStreakDays,
@@ -385,6 +387,7 @@ abstract class _ChildModel implements ChildModel {
   @override
   String get avatarUrl;
   @override
+  @GradeJsonConverter()
   Grade get currentGrade;
   @override
   int get totalStars;

@@ -20374,7 +20374,7 @@ const CourseTermDef _secondary1ScienceTerm9 = CourseTermDef(
   ],
 );
 
-/// Secondary 1 Science's pathway (Grade [Grade.secondary1]) -- a new,
+/// Secondary 1 Science's pathway (Grade [Grade.year7]) -- a new,
 /// independent subject pathway alongside [secondary1ComputingPathway] and
 /// [secondary1MathematicsPathway] rather than more terms grafted onto
 /// either: same grade, different subject. Term 1 ("Introduction to Physics
@@ -20399,7 +20399,7 @@ const CourseTermDef _secondary1ScienceTerm9 = CourseTermDef(
 const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
   id: "course-secondary1-science",
   subject: "science",
-  grade: Grade.secondary1,
+  grade: Grade.year7,
   titleEn: "Science — Year 1 Course",
   titleMy: "သိပ္ပံ — ပထမနှစ် သင်တန်း",
   descriptionEn:
@@ -107321,7 +107321,7 @@ const CourseTermDef _secondary3ScienceTerm9 = CourseTermDef(
 const CoursePathwayDef secondary3SciencePathway = CoursePathwayDef(
   id: "course-secondary3-science",
   subject: "science",
-  grade: Grade.secondary3,
+  grade: Grade.year9,
   titleEn: "Science — Year 3 Course",
   titleMy: "သိပ္ပံ — တတိယနှစ် သင်တန်း",
   descriptionEn:
@@ -124526,7 +124526,8 @@ const CourseTermDef igcseCombinedScienceTerm9 = CourseTermDef(
 );
 
 // =====================================================================
-// IGCSE Combined Science -- Full 36-Week Pathway (Grade.igcse)
+// IGCSE Combined Science -- split into Year 10 (Terms 1-4, Grade.year10)
+// and Year 11 (Terms 5-9, Grade.year11)
 // =====================================================================
 
 /// The IGCSE Combined Science course's full-year pathway. All 9 terms
@@ -124543,22 +124544,37 @@ const CourseTermDef igcseCombinedScienceTerm9 = CourseTermDef(
 /// single fixed character) and follows the same
 /// DailyLessonDef/CourseWeekDef/CourseTermDef schema and id/xp
 /// conventions as every other pathway in this file.
-const CoursePathwayDef igcseCombinedSciencePathway = CoursePathwayDef(
-  id: "course-igcse-combined-science",
+const CoursePathwayDef scienceYear10Pathway = CoursePathwayDef(
+  id: "course-year10-science",
   subject: "science",
-  grade: Grade.igcse,
-  titleEn: "IGCSE Combined Science",
-  titleMy: "IGCSE ပေါင်းစပ်သိပ္ပံ",
+  grade: Grade.year10,
+  titleEn: "IGCSE Combined Science \u2014 Year 10",
+  titleMy: "IGCSE ပေါင်းစပ်သိပ္ပံ \u2014 Year \u1041\u1040",
   descriptionEn:
-      "The full IGCSE Combined Science course: daily bite-sized lessons across nine thematic terms weaving together biology, chemistry, and physics, preparing students for the real IGCSE Combined Science examination. Term 1, Cell Biology and Organisation, covers plant and animal cell structure, diffusion/osmosis/active transport, and enzyme action, closing with a cellular biology practical lab. Term 2, The Particulate Nature of Matter and Stoichiometry, covers states of matter, atomic structure and bonding, and mole calculations, closing with a stoichiometry exam studio. Term 3, Motion, Forces and Energy, covers speed/velocity/acceleration, Newton's laws, and energy resources, closing with a forces and energy lab. Term 4, Plant and Human Nutrition, covers photosynthesis, human digestion, and transport in plants and humans, closing with a physiology studio. Term 5, Acids, Bases and the Periodic Table, covers acid-base reactions, periodic trends, and metal reactivity, closing with an inorganic chemistry practical lab identifying unknown salts. Term 6, Thermal Physics and Waves, covers conduction/convection/radiation, the wave equation, and total internal reflection, closing with an optics and waves practical lab. Term 7, Coordination, Response and Reproduction, covers the nervous and hormonal systems, homeostasis and excretion, and reproduction in plants and humans, closing with a menstrual-cycle case-study review. Term 8, Air, Water and Organic Chemistry, covers atmospheric composition and water treatment, alkanes/alkenes/polymerisation, and a Week 31 genetics-and-evolution breadth strand (DNA, monohybrid crosses, natural selection via the peppered moth), closing with an organic and environmental chemistry studio. Term 9, Electricity, Magnetism and Final Prep, covers circuits and Ohm's law, electrical safety and electromagnets, a dedicated Week 35 comprehensive revision week spanning all three sciences, and closes the entire pathway with a Week 36 capstone mirroring a real IGCSE Combined Science exam sitting: a multiple-choice paper, a theory paper, and a practical-test-simulation paper.",
+      "IGCSE Combined Science -- Year 10: the first half of the two-year Cambridge IGCSE programme, covering terms 1-4. Term 1 Cell Biology and Organisation; Term 2 The Particulate Nature of Matter and Stoichiometry; Term 3 Motion, Forces and Energy; Term 4 Plant and Human Nutrition. Continues in IGCSE Combined Science -- Year 11.",
   descriptionMy:
-      "IGCSE ပေါင်းစပ်သိပ္ပံ သင်တန်းအပြည့်အစုံ -- တကယ့် IGCSE ပေါင်းစပ်သိပ္ပံ စာမေးပွဲအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ဇီဝဗေဒ၊ ဓာတုဗေဒနှင့် ရူပဗေဒကို ရက်ချစပ်ထားသော နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ ပါဝင်သော အပိုင်းကိုးပိုင်း။ ပထမနှစ်ဝက်၊ ဆဲလ်ဇီဝဗေဒနှင့် ဖွဲ့စည်းပုံသည် အပင်နှင့်တိရစ္ဆာန်ဆဲလ်ဖွဲ့စည်းပုံ၊ diffusion/osmosis/active transport နှင့် အင်ဇိုင်းလုပ်ဆောင်ချက်ကို ဖုံးအုပ်ပြီး ဆဲလ်ဇီဝဗေဒ ဓာတ်ခွဲခန်းလက်တွေ့ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဒြပ်ဝတ္ထု၏ အမှုန်သဘောသဘာဝနှင့် Stoichiometry သည် ဒြပ်ဝတ္ထုအခြေအနေများ၊ အက်တမ်ဖွဲ့စည်းပုံနှင့်ချိတ်ဆက်မှု၊ Mole တွက်ချက်မှုများကို ဖုံးအုပ်ပြီး Stoichiometry စာမေးပွဲအလုပ်ရုံဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ ရွေ့လျားမှု၊ အားများနှင့် စွမ်းအင်သည် အမြန်နှုန်း/အဟုန်/အရှိန်၊ နယူတန်၏နိယာမများနှင့် စွမ်းအင်အရင်းအမြစ်များကို ဖုံးအုပ်ပြီး အားနှင့်စွမ်းအင်ဓာတ်ခွဲခန်းဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ အပင်နှင့်လူသားအာဟာရသည် အလင်းမှီစုဖွဲ့ခြင်း၊ လူ့အစာခြေခြင်းနှင့် အပင်/လူသားများရှိ သယ်ယူပို့ဆောင်ရေးစနစ်ကို ဖုံးအုပ်ပြီး ဇီဝကမ္မဗေဒအလုပ်ရုံဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ အက်ဆစ်၊ ဘေ့စ်နှင့် ဒြပ်စင်အလှည့်ကျဇယားသည် အက်ဆစ်-ဘေ့စ်တုံ့ပြန်မှုများ၊ အလှည့်ကျဇယားလမ်းကြောင်းများနှင့် သတ္တုဓာတ်ပြုနိုင်စွမ်းကို ဖုံးအုပ်ပြီး အမည်မသိဆားများကို ဖော်ထုတ်သည့် အဂ္ဂနီဗေဒဓာတ်ခွဲခန်းလက်တွေ့ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ အပူရူပဗေဒနှင့် လှိုင်းများသည် ကွန်ဒတ်ရှင်း/ကွန်ဗက်ရှင်း/ရေဒီယေးရှင်း၊ လှိုင်းညီမျှခြင်းနှင့် စုစုပေါင်းအတွင်းဘက်ပြန်ဟပ်ခြင်းကို ဖုံးအုပ်ပြီး အလင်းနှင့်လှိုင်းဓာတ်ခွဲခန်းလက်တွေ့ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် မျိုးပွားမှုသည် အာရုံကြောနှင့်ဟိုမုန်းစနစ်များ၊ Homeostasis နှင့်စွန့်ပစ်ခြင်း၊ အပင်နှင့်လူသားများ၏ မျိုးပွားခြင်းကို ဖုံးအုပ်ပြီး Menstrual cycle စာတမ်းလေ့လာမှု ပြန်လည်သုံးသပ်ချက်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ လေထု၊ ရေထုနှင့် အော်ဂဲနစ်ဓာတုဗေဒသည် လေထုဖွဲ့စည်းပုံနှင့်ရေသန့်စင်ခြင်း၊ အယ်လ်ကိန်း/အယ်လ်ကင်း/Polymerisation နှင့် အပတ်စဉ် ၃၁ မျိုးရိုးဗီဇဗေဒနှင့်ဆင့်ကဲဖြစ်စဉ် ကျယ်ပြန့်သည့်ဘာသာရပ် (DNA, monohybrid crosses, peppered moth မှတစ်ဆင့် သဘာဝရွေးချယ်မှု) ကို ဖုံးအုပ်ပြီး အော်ဂဲနစ်နှင့်ပတ်ဝန်းကျင်ဓာတုဗေဒအလုပ်ရုံဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ လျှပ်စစ်၊ သံလိုက်စွမ်းပကားနှင့် နောက်ဆုံးပြင်ဆင်မှုသည် ပတ်လမ်းများနှင့် Ohm's law၊ လျှပ်စစ်လုံခြုံရေးနှင့်လျှပ်စစ်သံလိုက်များ၊ သိပ္ပံဘာသာရပ်သုံးခုလုံးကို ဖုံးအုပ်သော အပတ်စဉ် ၃၅ ခြုံငုံသုံးသပ် ပြန်လည်လေ့လာမှုအပတ်ကို ဖုံးအုပ်ပြီး တကယ့် IGCSE ပေါင်းစပ်သိပ္ပံစာမေးပွဲကို ရောင်ပြန်ဟပ်စေသော အပတ်စဉ် ၃၆ အနှစ်ချုပ်စာမေးပွဲဖြင့် သင်တန်းတစ်ခုလုံးကို ပိတ်သိမ်းသည်: ရွေးချယ်ဖြေဆိုရမည့်မေးခွန်းစာရွက်၊ သီအိုရီစာရွက်နှင့် လက်တွေ့စမ်းသပ်မှုပုံစံတူစာရွက်။",
-  totalWeeks: 36,
+      "IGCSE ပေါင်းစပ်သိပ္ပံ -- Year ၁၀: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ပထမနှစ်ဝက်၊ Term ၁ မှ ၄ အထိ ဖုံးအုပ်သည်။ ၁: ဆဲလ်ဇီဝဗေဒနှင့် အစုအစည်းဖွဲ့ပုံ၊ ၂: ဒြပ်ပစ္စည်း၏ အမှုန်သဘောသဘာဝနှင့် Stoichiometry၊ ၃: ရွေ့လျားမှု၊ အားနှင့် စွမ်းအင်၊ ၄: အပင်နှင့် လူ့အာဟာရ။ IGCSE ပေါင်းစပ်သိပ္ပံ -- Year ၁၁ တွင် ဆက်လက်သင်ကြားမည်။",
+  totalWeeks: 16,
   terms: [
     igcseCombinedScienceTerm1,
     igcseCombinedScienceTerm2,
     igcseCombinedScienceTerm3,
     igcseCombinedScienceTerm4,
+  ],
+);
+
+const CoursePathwayDef scienceYear11Pathway = CoursePathwayDef(
+  id: "course-year11-science",
+  subject: "science",
+  grade: Grade.year11,
+  titleEn: "IGCSE Combined Science \u2014 Year 11",
+  titleMy: "IGCSE ပေါင်းစပ်သိပ္ပံ \u2014 Year \u1041\u1041",
+  descriptionEn:
+      "IGCSE Combined Science -- Year 11: the second half of the two-year Cambridge IGCSE programme, covering terms 5-9. Term 5 Acids, Bases and the Periodic Table; Term 6 Thermal Physics and Waves; Term 7 Coordination, Response and Reproduction; Term 8 Air, Water and Organic Chemistry; Term 9 Electricity, Magnetism and Final Prep. Continues from IGCSE Combined Science -- Year 10, closing with the IGCSE Combined Science Graduation capstone.",
+  descriptionMy:
+      "IGCSE ပေါင်းစပ်သိပ္ပံ -- Year ၁၁: Cambridge IGCSE နှစ်နှစ်သင်တန်း၏ ဒုတိယနှစ်ဝက်၊ Term ၅ မှ ၉ အထိ ဖုံးအုပ်သည်။ ၅: အက်စစ်၊ ဘေ့စ်နှင့် Periodic Table၊ ၆: အပူဗေဒနှင့် လှိုင်းများ၊ ၇: ညှိနှိုင်းမှု၊ တုံ့ပြန်မှုနှင့် မျိုးပွားခြင်း၊ ၈: လေ၊ ရေနှင့် သြဂဲနစ်ဓာတုဗေဒ၊ ၉: လျှပ်စစ်၊ သံလိုက်နှင့် နောက်ဆုံးပြင်ဆင်မှု။ IGCSE ပေါင်းစပ်သိပ္ပံ -- Year ၁၀ မှ ဆက်လက်ပြီး IGCSE Combined Science ဘွဲ့နှင်းသဘင် အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 20,
+  terms: [
     igcseCombinedScienceTerm5,
     igcseCombinedScienceTerm6,
     igcseCombinedScienceTerm7,
@@ -141018,7 +141034,7 @@ const CourseTermDef _secondary2ScienceTerm9 = CourseTermDef(
 const CoursePathwayDef secondary2SciencePathway = CoursePathwayDef(
   id: "course-secondary2-science",
   subject: "science",
-  grade: Grade.secondary2,
+  grade: Grade.year8,
   titleEn: "Science",
   titleMy: "သိပ္ပံ — ဒုတိယနှစ် သင်တန်း",
   descriptionEn:

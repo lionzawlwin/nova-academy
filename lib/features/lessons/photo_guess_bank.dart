@@ -280,7 +280,12 @@ const _secondary1 = PhotoGuessSet(
         'A tsunami',
         'A tornado',
       ],
-      optionsMy: ['မီးတောင်ပေါက်ကွဲမှု', 'ငလျင်လှုပ်ခြင်း', 'ဆူနာမီလှိုင်းကြီး', 'လေဒဏ်မုန်တိုင်း'],
+      optionsMy: [
+        'မီးတောင်ပေါက်ကွဲမှု',
+        'ငလျင်လှုပ်ခြင်း',
+        'ဆူနာမီလှိုင်းကြီး',
+        'လေဒဏ်မုန်တိုင်း',
+      ],
       correctIndex: 0,
     ),
     PhotoGuessQuestion(
@@ -336,10 +341,13 @@ String photoGuessSetIdForGrade(Grade? grade) {
     case Grade.year5:
     case Grade.year6:
       return _primaryUpper1.id;
-    case Grade.secondary1:
-    case Grade.secondary2:
-    case Grade.secondary3:
-    case Grade.igcse:
+    case Grade.year7:
+    case Grade.year8:
+    case Grade.year9:
+    case Grade.year10:
+    case Grade.year11:
+    case Grade.year12:
+    case Grade.year13:
       return _secondary1.id;
   }
 }

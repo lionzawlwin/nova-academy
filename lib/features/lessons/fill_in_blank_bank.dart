@@ -647,7 +647,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-secondary1-physics-fillblank-1',
     subject: 'physics',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'fillBlank',
     titleEn: 'Forces & Motion',
     titleMy: 'အားနှင့် ရွေ့လျားမှု',
@@ -705,7 +705,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-secondary2-biology-fillblank-1',
     subject: 'biology',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'fillBlank',
     titleEn: 'Cells & Life',
     titleMy: 'ဆဲလ်များနှင့် အသက်ရှင်ခြင်း',
@@ -760,7 +760,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-secondary3-chemistry-fillblank-1',
     subject: 'chemistry',
-    grade: Grade.secondary3,
+    grade: Grade.year9,
     contentType: 'fillBlank',
     titleEn: 'Atoms & Reactions',
     titleMy: 'အက်တမ်များနှင့် တုံ့ပြန်မှုများ',
@@ -814,7 +814,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-igcse-ict-fillblank-1',
     subject: 'ict',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'fillBlank',
     titleEn: 'Computers & Data',
     titleMy: 'ကွန်ပျူတာများနှင့် ဒေတာ',
@@ -880,7 +880,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-secondary1-history-fillblank-1',
     subject: 'history',
-    grade: Grade.secondary1,
+    grade: Grade.year7,
     contentType: 'fillBlank',
     titleEn: 'The Age of Exploration',
     titleMy: 'ရှာဖွေတွေ့ရှိမှုခေတ်ကာလ',
@@ -940,7 +940,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-secondary2-geography-fillblank-1',
     subject: 'geography',
-    grade: Grade.secondary2,
+    grade: Grade.year8,
     contentType: 'fillBlank',
     titleEn: 'Tectonic Hazards',
     titleMy: 'သဘာဝဘေးအန္တရာယ်များ',
@@ -1000,7 +1000,7 @@ const List<FillBlankModuleDef> secondaryFillBlankBank = [
   FillBlankModuleDef(
     id: 'mock-igcse-computing-fillblank-1',
     subject: 'computing',
-    grade: Grade.igcse,
+    grade: Grade.year10,
     contentType: 'fillBlank',
     titleEn: 'Algorithms & Ethics',
     titleMy: 'အယ်လဂိုရီသမ်များနှင့် ကျင့်ဝတ်',

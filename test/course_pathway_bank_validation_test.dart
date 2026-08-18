@@ -102,22 +102,29 @@ void main() {
       },
     );
 
-    test(
-      'every pathway\'s termNumbers are 1..N sequential with no duplicates',
-      () {
-        for (final pathway in allCoursePathways) {
-          final termNumbers = pathway.terms.map((t) => t.termNumber).toList();
-          final expected = List.generate(termNumbers.length, (i) => i + 1);
-          expect(
-            termNumbers,
-            expected,
-            reason:
-                '${pathway.id}: termNumbers should be exactly '
-                '$expected but were $termNumbers',
-          );
-        }
-      },
-    );
+    test('every pathway\'s termNumbers are sequential with no duplicates '
+        '(gap-free, but not required to start at 1)', () {
+      // A pathway that is the second half of a split two-year programme
+      // (e.g. an IGCSE subject's Year 11 pathway, continuing a Year 10
+      // pathway's terms 1-4) legitimately starts its termNumbers -- and
+      // its weeks' weekNumbers, per the test below -- partway through,
+      // so the student-facing "Term 5"/"Week 17" labels correctly read
+      // as a continuation rather than misleadingly restarting at 1.
+      for (final pathway in allCoursePathways) {
+        final termNumbers = pathway.terms.map((t) => t.termNumber).toList();
+        final expected = List.generate(
+          termNumbers.length,
+          (i) => termNumbers.isEmpty ? 0 : termNumbers.first + i,
+        );
+        expect(
+          termNumbers,
+          expected,
+          reason:
+              '${pathway.id}: termNumbers should be gap-free and sequential '
+              '($expected) but were $termNumbers',
+        );
+      }
+    });
 
     test('every term\'s weekNumbers are sequential with no duplicates within '
         'that pathway', () {

@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'child_model.dart' show Grade;
+import 'child_model.dart' show Grade, GradeJsonConverter;
 
 part 'learning_module_model.freezed.dart';
 part 'learning_module_model.g.dart';
@@ -24,7 +24,7 @@ class LearningModuleModel with _$LearningModuleModel {
   const factory LearningModuleModel({
     required String id,
     required String subject,
-    required Grade grade,
+    @GradeJsonConverter() required Grade grade,
     required String contentType,
     required String titleEn,
     required String titleMy,

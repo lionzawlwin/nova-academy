@@ -37,10 +37,10 @@ void main() {
 
     test('every module grade is secondary1 through igcse', () {
       const expectedGrades = {
-        Grade.secondary1,
-        Grade.secondary2,
-        Grade.secondary3,
-        Grade.igcse,
+        Grade.year7,
+        Grade.year8,
+        Grade.year9,
+        Grade.year10,
       };
       for (final module in secondaryCurriculumBank) {
         expect(
@@ -246,10 +246,10 @@ void main() {
 
     test('starsReward scales with grade per the design spec', () {
       const expectedStars = {
-        Grade.secondary1: 22,
-        Grade.secondary2: 24,
-        Grade.secondary3: 26,
-        Grade.igcse: 28,
+        Grade.year7: 22,
+        Grade.year8: 24,
+        Grade.year9: 26,
+        Grade.year10: 28,
       };
       for (final module in secondaryCurriculumBank) {
         expect(

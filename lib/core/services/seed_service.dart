@@ -211,7 +211,7 @@ List<ChildModel> mockSeedChildren() {
       id: MockSeedIds.childDelta,
       parentId: MockSeedIds.parent,
       aliasName: 'Student Delta',
-      currentGrade: Grade.igcse,
+      currentGrade: Grade.year10,
       totalStars: 65,
     ),
   ];
@@ -313,7 +313,7 @@ List<LearningModuleModel> mockSeedLearningModules() {
     LearningModuleModel(
       id: MockSeedIds.moduleDeltaKinematics,
       subject: 'physics',
-      grade: Grade.igcse,
+      grade: Grade.year10,
       contentType: 'video',
       titleEn: 'Kinematics Basics',
       titleMy: 'ရွေ့လျားမှုသိပ္ပံ အခြေခံများ',

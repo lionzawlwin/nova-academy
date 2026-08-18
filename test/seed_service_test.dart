@@ -74,7 +74,7 @@ void main() {
 
     test('covers all four required grade bands', () {
       final grades = children.map((c) => c.currentGrade).toSet();
-      expect(grades, {Grade.year4, Grade.year1, Grade.nursery, Grade.igcse});
+      expect(grades, {Grade.year4, Grade.year1, Grade.nursery, Grade.year10});
     });
 
     test('every child id is unique', () {
@@ -362,10 +362,10 @@ void main() {
 
     test('every module grade is secondary1 through igcse', () {
       const expectedGrades = {
-        Grade.secondary1,
-        Grade.secondary2,
-        Grade.secondary3,
-        Grade.igcse,
+        Grade.year7,
+        Grade.year8,
+        Grade.year9,
+        Grade.year10,
       };
       for (final module in modules) {
         expect(
@@ -532,10 +532,10 @@ void main() {
 
     test('every module grade is secondary1 through igcse', () {
       const expectedGrades = {
-        Grade.secondary1,
-        Grade.secondary2,
-        Grade.secondary3,
-        Grade.igcse,
+        Grade.year7,
+        Grade.year8,
+        Grade.year9,
+        Grade.year10,
       };
       for (final module in modules) {
         expect(
@@ -694,10 +694,10 @@ void main() {
 
     test('every module grade is secondary1 through igcse', () {
       const expectedGrades = {
-        Grade.secondary1,
-        Grade.secondary2,
-        Grade.secondary3,
-        Grade.igcse,
+        Grade.year7,
+        Grade.year8,
+        Grade.year9,
+        Grade.year10,
       };
       for (final module in modules) {
         expect(
