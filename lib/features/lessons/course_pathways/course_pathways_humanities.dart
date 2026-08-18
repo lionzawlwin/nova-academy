@@ -116369,9 +116369,9 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact. Term 7, Revolutions and New Ideas, covers Enlightenment political philosophy connected back to Term 2's Scientific Revolution, the documented American Revolution and French Revolution each with specific multi-causal explanation and a direct Enlightenment connection to their founding declarations, closing with a Revolutions Comparison Studio combining documented causes, a traced philosophical connection, and a balanced check on who actually received extended rights afterward.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Revolutions and New Ideas သည် Term 2 ၏ Scientific Revolution သို့ ပြန်လည် ချိတ်ဆက်ထားသော Enlightenment Political Philosophy, ၎င်းတို့၏ Founding Declaration များသို့ Specific Multi-Causal ရှင်းပြချက်နှင့် တိုက်ရိုက် Enlightenment ဆက်နွယ်မှုတစ်ခုစီဖြင့် Documented American Revolution နှင့် French Revolution ကို ဖုံးအုပ်ပြီး Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ Actual ရရှိခဲ့သူ မည်သူများကို Balanced Check ကို ပေါင်းစပ်ထားသော Revolutions Comparison Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec2HumTerm1,
@@ -116380,6 +116380,7 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
     _sec2HumTerm4,
     _sec2HumTerm5,
     _sec2HumTerm6,
+    _sec2HumTerm7,
   ],
 );
 // =====================================================================
@@ -123570,5 +123571,1451 @@ const CourseTermDef _sec2HumTerm6 = CourseTermDef(
   certificateTitleEn: "The Industrial Revolution Certificate",
   certificateTitleMy: "The Industrial Revolution သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec2HumWeek21, _sec2HumWeek22, _sec2HumWeek23, _sec2HumWeek24],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 7: "Revolutions and New Ideas" (Weeks
+// 25-28)
+// Term 7, Week 25: "Enlightenment Ideas"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek25 = CourseWeekDef(
+  id: "course-sec2-hum-w25",
+  weekNumber: 25,
+  titleEn: "Enlightenment Ideas",
+  titleMy: "Enlightenment Ideas",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w25-d1",
+      dayNumber: 1,
+      titleEn: "Natural Rights and the Social Contract",
+      titleMy: "Natural Rights နှင့် Social Contract",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Documented Enlightenment thinkers proposed that people have natural rights (such as life, liberty, and property) that governments are formed to protect, and that a government failing to protect these rights loses its legitimacy. How does this documented idea connect to Term 2's Scientific Revolution?",
+          questionMy:
+              "Documented Enlightenment Thinker များသည် လူများတွင် (အသက်, လွတ်လပ်ခွင့်နှင့် ပိုင်ဆိုင်မှုကဲ့သို့) Natural Rights ရှိပြီး Government များကို ၎င်းတို့ကို ကာကွယ်ရန် ဖွဲ့စည်းသည်ဟု အဆိုပြုခဲ့ကြပြီး ဤ Right များကို ကာကွယ်ရန် ပျက်ကွက်သော Government တစ်ခုသည် ၎င်း၏ Legitimacy ဆုံးရှုံးသည်ဟု အဆိုပြုခဲ့ကြသည်။ ဤ Documented Idea သည် Term 2 ၏ Scientific Revolution နှင့် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Just as the Scientific Revolution shifted authority from tradition to testable evidence and reason, Enlightenment political thinkers applied reason to question the traditional authority of rulers, rather than accepting it automatically",
+            "Enlightenment ideas had no actual documented connection to the Scientific Revolution's shift toward reason and evidence",
+            "The Scientific Revolution and Enlightenment ideas are documented as completely unrelated developments",
+            "Traditional authority was never actually questioned by any documented Enlightenment thinker",
+          ],
+          optionsMy: [
+            "Scientific Revolution သည် Tradition မှ Testable Evidence နှင့် Reason သို့ Authority ကို Shift ပြုလုပ်ခဲ့သကဲ့သို့ Enlightenment Political Thinker များသည် Ruler များ၏ Traditional Authority ကို အလိုအလျောက် လက်ခံမည့်အစား စောဒကတက်ရန် Reason ကို အသုံးချခဲ့ကြသည်",
+            "Enlightenment Idea များတွင် Reason နှင့် Evidence ဘက်သို့ Scientific Revolution ၏ Shift နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Scientific Revolution နှင့် Enlightenment Idea များကို လုံးလုံး မသက်ဆိုင်သော Development များအဖြစ် Document ပြုလုပ်ထားခြင်း",
+            "Traditional Authority ကို Documented Enlightenment Thinker မည်သူမှ ဘယ်တော့မှ Actual စောဒကတက်ခဲ့ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's core idea: the shift from accepting authority automatically to testing claims with reason and evidence.",
+          ],
+          hintsMy: [
+            "Term 2 ၏ Core Idea ကို သတိရပါ -- Authority ကို အလိုအလျောက် လက်ခံခြင်းမှ Claim များကို Reason နှင့် Evidence ဖြင့် စမ်းသပ်ခြင်းသို့ Shift ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians document the idea of 'separation of powers' (dividing government into distinct branches) as a specific, influential Enlightenment proposal, rather than describing Enlightenment political thought only in vague general terms?",
+          questionMy:
+              "Enlightenment Political Thought ကို Vague General Term များဖြင့်သာ ဖော်ပြမည့်အစား Historian များသည် 'Separation Of Powers' (Government ကို Distinct Branch များအဖြစ် ခွဲခြားခြင်း) ၏ Idea ကို Specific, Influential Enlightenment Proposal တစ်ခုအဖြစ် အဘယ်ကြောင့် Document ပြုလုပ်ထားသနည်း။",
+          optionsEn: [
+            "Citing specific documented proposals like separation of powers shows precisely what Enlightenment thinkers argued and how those specific ideas later shaped documented governing structures, the same specific-evidence habit taught since Term 1",
+            "Separation of powers has no actual documented connection to Enlightenment political thought",
+            "Vague, general descriptions are always more historically accurate than specific documented proposals",
+            "Specific documented Enlightenment proposals have no actual influence on later governing structures",
+          ],
+          optionsMy: [
+            "Separation Of Powers ကဲ့သို့ Specific Documented Proposal များကို Cite ပြုလုပ်ခြင်းသည် Enlightenment Thinker များ Argue ပြုလုပ်ခဲ့သည့်အရာနှင့် ထို Specific Idea များ နောက်ပိုင်း Documented Governing Structure များကို မည်သို့ ပုံဖော်ခဲ့သည်ကို တိကျစွာ ပြသပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Separation Of Powers တွင် Enlightenment Political Thought နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Proposal များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Specific Documented Enlightenment Proposal များတွင် နောက်ပိုင်း Governing Structure များပေါ် Actual Influence မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to Enlightenment political ideas.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Enlightenment Political Idea များပေါ်တွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students studying Enlightenment ideas cite specific, named documented thinkers and their specific proposals, rather than attributing all Enlightenment ideas vaguely to 'people at the time'?",
+          questionMy:
+              "Enlightenment Idea များကို လေ့လာသော Student များသည် Enlightenment Idea အားလုံးကို 'ထိုအချိန်ကလူများ' ဟု Vague စွာ သတ်မှတ်မည့်အစား Specific, Named Documented Thinker များနှင့် ၎င်းတို့၏ Specific Proposal များကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific citation of named thinkers and their documented proposals is the same precision habit used throughout this course, and it accurately represents that different thinkers proposed different, specific ideas rather than one uniform view",
+            "All Enlightenment thinkers are documented as having proposed identical ideas with no distinction between them",
+            "Specific citation of named thinkers has no actual value in historical study of this period",
+            "Vague attribution to 'people at the time' is always more historically accurate than specific documented citation",
+          ],
+          optionsMy: [
+            "Named Thinker များနှင့် ၎င်းတို့၏ Documented Proposal များကို Specific Citation ပြုလုပ်ခြင်းသည် ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Precision အလေ့အထ တူတူ ဖြစ်ပြီး Thinker ကွဲပြားများသည် Uniform View တစ်ခုတည်းအစား ကွဲပြား, Specific Idea များ အဆိုပြုခဲ့ကြောင်း တိကျစွာ ကိုယ်စားပြုသည်",
+            "Enlightenment Thinker အားလုံးကို ၎င်းတို့ကြား ခွဲခြားမှု မရှိဘဲ Identical Idea များ အဆိုပြုခဲ့ကြောင်း Document ပြုလုပ်ထားသည်",
+            "Named Thinker များကို Specific Citation ပြုလုပ်ခြင်းတွင် ဤကာလ၏ သမိုင်းဆိုင်ရာ လေ့လာမှု၌ Actual Value မရှိခြင်း",
+            "'ထိုအချိန်ကလူများ' ဟု Vague Attribution ပြုလုပ်ခြင်းသည် Specific Documented Citation ထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-citation habit from Term 1, applied to distinguishing individual Enlightenment thinkers' documented proposals.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Individual Enlightenment Thinker များ၏ Documented Proposal များကို ခွဲခြားရန် အသုံးချထားသော Term 1 မှ Specific-Citation အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Enlightenment Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Enlightenment Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w25-dm-1",
+          termEn: "Natural rights",
+          termMy: "Natural Rights",
+          matchEn:
+              "Documented rights (such as life, liberty, property) that governments are formed to protect",
+          matchMy:
+              "Government များကို ကာကွယ်ရန် ဖွဲ့စည်းသော Documented Right များ (အသက်, လွတ်လပ်ခွင့်, ပိုင်ဆိုင်မှုကဲ့သို့)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w25-dm-2",
+          termEn: "Social contract",
+          termMy: "Social Contract",
+          matchEn:
+              "A documented Enlightenment idea that government's legitimacy comes from the consent of the governed",
+          matchMy:
+              "Government ၏ Legitimacy သည် Governed ၏ Consent မှ လာသည်ဟူသော Documented Enlightenment Idea",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w25-dm-3",
+          termEn: "Separation of powers",
+          termMy: "Separation Of Powers",
+          matchEn:
+              "A specific documented proposal to divide government into distinct branches",
+          matchMy:
+              "Government ကို Distinct Branch များအဖြစ် ခွဲခြားရန် Specific Documented Proposal",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w25-dm-4",
+          termEn: "Reason over tradition",
+          termMy: "Tradition ထက် Reason",
+          matchEn:
+              "The Enlightenment application of reason to question traditional authority, connecting to Term 2's Scientific Revolution",
+          matchMy:
+              "Term 2 ၏ Scientific Revolution နှင့် ချိတ်ဆက်ကာ Traditional Authority ကို စောဒကတက်ရန် Reason ၏ Enlightenment Application",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Enlightenment Idea or Traditional Authority?",
+      titleMy: "စီစစ်ကြမည် - Enlightenment Idea (သို့) Traditional Authority",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Documented Enlightenment Idea",
+          "Traditional Authority View",
+        ],
+        bucketsMy: [
+          "Documented Enlightenment Idea",
+          "Traditional Authority View",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w25-sort-1",
+            labelEn:
+                "Government legitimacy comes from the consent of the governed",
+            labelMy: "Government Legitimacy သည် Governed ၏ Consent မှ လာသည်",
+            correctBucketEn: "Documented Enlightenment Idea",
+            correctBucketMy: "Documented Enlightenment Idea",
+          ),
+          SortingItem(
+            id: "sec2hum-w25-sort-2",
+            labelEn:
+                "A ruler's authority should be accepted automatically without question",
+            labelMy:
+                "Ruler တစ်ဦး၏ Authority ကို မေးခွန်းမထုတ်ဘဲ အလိုအလျောက် လက်ခံသင့်သည်",
+            correctBucketEn: "Traditional Authority View",
+            correctBucketMy: "Traditional Authority View",
+          ),
+          SortingItem(
+            id: "sec2hum-w25-sort-3",
+            labelEn:
+                "Government should be divided into distinct, separated branches",
+            labelMy:
+                "Government ကို Distinct, Separated Branch များအဖြစ် ခွဲခြားသင့်သည်",
+            correctBucketEn: "Documented Enlightenment Idea",
+            correctBucketMy: "Documented Enlightenment Idea",
+          ),
+          SortingItem(
+            id: "sec2hum-w25-sort-4",
+            labelEn:
+                "People are born with natural rights governments must protect",
+            labelMy:
+                "လူများသည် Government များ ကာကွယ်ရမည့် Natural Rights ဖြင့် မွေးဖွားလာသည်",
+            correctBucketEn: "Documented Enlightenment Idea",
+            correctBucketMy: "Documented Enlightenment Idea",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Enlightenment Notes",
+      titleMy: "စာဖတ်ခြင်း - Thiri ၏ Enlightenment Notes",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Enlightenment Notes",
+        titleMy: "Thiri ၏ Enlightenment Notes",
+        passageEn:
+            "For Week 25's assignment, Thiri's first draft summarized Enlightenment political thought as 'new ideas people had at the time,' with no specific documented thinker or proposal named. Her teacher asked her to apply the same specific-citation habit used since Term 1 -- which specific documented ideas, proposed by which thinkers, was she actually referring to?\n\nThiri revised her notes with specific documented content. She cited the idea of natural rights -- that people are born with rights to life, liberty, and property that governments are formed to protect -- and the related idea that a government failing to protect these rights loses its legitimacy. She cited the social contract idea specifically: that government's authority comes from the consent of the governed, not from tradition or birthright. And she cited the specific proposal of separation of powers -- dividing government into distinct branches -- as one particularly influential documented idea.\n\nShe then connected these ideas back to Term 2's Scientific Revolution, noting that both movements shared a common thread: applying reason to question claims that had previously been accepted on authority or tradition alone, whether those claims were about the physical world or about who should govern. Her teacher praised the revision for replacing a vague generalization with specific, named documented ideas and for tracing the connection to earlier course content, exactly the habits Term 6 and Term 7 would both continue to build on.",
+        passageMy:
+            "Week 25 ၏ Assignment အတွက် Thiri ၏ ပထမဆုံး Draft တွင် Specific Documented Thinker (သို့) Proposal မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ Enlightenment Political Thought ကို 'ထိုအချိန်ကလူများ ရရှိခဲ့သော Idea အသစ်များ' ဟု အနှစ်ချုပ်ခဲ့သည်။ Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ တူတူကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Thinker မည်သူက အဆိုပြုခဲ့သော Specific Documented Idea မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nSpecific Documented Content ဖြင့် ၎င်း၏ Notes ကို Thiri ပြန်လည်ပြင်ဆင်ခဲ့သည်။ Natural Rights ၏ Idea -- လူများသည် Government များ ကာကွယ်ရမည့် အသက်, လွတ်လပ်ခွင့်နှင့် ပိုင်ဆိုင်မှု Right ဖြင့် မွေးဖွားလာသည် -- နှင့် ဤ Right များကို ကာကွယ်ရန် ပျက်ကွက်သော Government တစ်ခုသည် ၎င်း၏ Legitimacy ဆုံးရှုံးသည်ဟူသော ဆက်စပ် Idea ကို ၎င်း Cite ပြုလုပ်ခဲ့သည်။ Social Contract Idea ကို ၎င်း တိကျစွာ Cite ပြုလုပ်ခဲ့သည် -- Government ၏ Authority သည် Tradition (သို့) Birthright မှမဟုတ်ဘဲ Governed ၏ Consent မှ လာသည်။ Separation Of Powers ၏ Specific Proposal ကိုလည်း ၎င်း Cite ပြုလုပ်ခဲ့သည် -- Government ကို Distinct Branch များအဖြစ် ခွဲခြားခြင်း -- Particularly Influential Documented Idea တစ်ခုအဖြစ်။\n\nMovement နှစ်ခုစလုံးသည် Common Thread တစ်ခု ဝေမျှခဲ့ကြောင်း မှတ်ချက်ပြုကာ ဤ Idea များကို Term 2 ၏ Scientific Revolution သို့ ၎င်း ပြန်လည် ချိတ်ဆက်ခဲ့သည် -- Claim များသည် Physical World အကြောင်း ဖြစ်စေ, မည်သူ Govern ပြုလုပ်သင့်သည် အကြောင်း ဖြစ်စေ ယခင်က Authority (သို့) Tradition တစ်ခုတည်းအပေါ် လက်ခံခဲ့သော Claim များကို စောဒကတက်ရန် Reason ကို အသုံးချခြင်း။ Vague Generalization ကို Specific, Named Documented Idea များဖြင့် အစားထိုးကာ ယခင် Course Content သို့ ဆက်နွယ်မှုကို လိုက်လံ ဖော်ထုတ်ခဲ့သောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Term 6 နှင့် Term 7 နှစ်ခုစလုံး ဆက်လက် တည်ဆောက်မည့် အလေ့အထများ အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Thiri's first draft?",
+            questionMy:
+                "Thiri ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any specific documented thinker or proposal named",
+              "Any mention of Enlightenment thought at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Specific Documented Thinker (သို့) Proposal မည်သည်ကိုမျှ အမည်တပ်ခြင်း",
+              "Enlightenment Thought ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiri cite about the social contract idea specifically?",
+            questionMy:
+                "Social Contract Idea အကြောင်း Thiri တိကျစွာ Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That government's authority comes from the consent of the governed, not tradition",
+              "That government authority should never actually be questioned",
+              "That natural rights have no actual documented connection to government",
+              "That separation of powers had no documented influence of any kind",
+            ],
+            optionsMy: [
+              "Government ၏ Authority သည် Tradition မှမဟုတ်ဘဲ Governed ၏ Consent မှ လာကြောင်း",
+              "Government Authority ကို ဘယ်တော့မှ Actual စောဒကတက်ရန် မလိုအပ်ကြောင်း",
+              "Natural Rights တွင် Government နှင့် Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+              "Separation Of Powers တွင် Documented Influence မည်သည် အမျိုးအစားမှ မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's stated social-contract citation.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Social-Contract Citation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what common thread connected Enlightenment ideas to the Scientific Revolution?",
+            questionMy:
+                "Enlightenment Idea များကို Scientific Revolution နှင့် ချိတ်ဆက်ခဲ့သော Common Thread ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Applying reason to question claims previously accepted on authority or tradition alone",
+              "No documented connection existed between the two movements",
+              "Both movements rejected the use of reason entirely",
+              "A thread entirely unrelated to reason or evidence",
+            ],
+            optionsMy: [
+              "ယခင်က Authority (သို့) Tradition တစ်ခုတည်းအပေါ် လက်ခံခဲ့သော Claim များကို စောဒကတက်ရန် Reason ကို အသုံးချခြင်း",
+              "Movement နှစ်ခုကြား Documented ဆက်နွယ်မှု မရှိခဲ့ခြင်း",
+              "Movement နှစ်ခုစလုံးသည် Reason အသုံးပြုခြင်းကို လုံးလုံး ငြင်းပယ်ခဲ့ခြင်း",
+              "Reason (သို့) Evidence နှင့် လုံးလုံး မသက်ဆိုင်သော Thread",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated common thread."],
+            hintsMy: [
+              "ဖော်ပြထားသော Common Thread ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w25-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Enlightenment Ideas Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Enlightenment Ideas မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Documented natural rights ideas held that governments exist to...",
+          questionMy:
+              "Documented Natural Rights Idea များက Government များသည် ...ရန် တည်ရှိသည်ဟု ယူဆခဲ့ကြသည်",
+          optionsEn: [
+            "Protect people's rights to life, liberty, and property",
+            "Rule without any documented accountability at all",
+            "Reject any connection to natural rights of any kind",
+            "Function without any documented purpose whatsoever",
+          ],
+          optionsMy: [
+            "အသက်, လွတ်လပ်ခွင့်နှင့် ပိုင်ဆိုင်မှုအပေါ် လူများ၏ Right များကို ကာကွယ်",
+            "Documented Accountability မည်သည်မှ မပါဘဲ Rule ပြု",
+            "Natural Rights မည်သည်နှင့်မျှ Connection ငြင်းပယ်",
+            "Documented Purpose မည်သည်မှ မပါဘဲ Function ပြု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The social contract idea held that government's authority comes from...",
+          questionMy:
+              "Social Contract Idea က Government ၏ Authority သည် ...မှ လာသည်ဟု ယူဆခဲ့သည်",
+          optionsEn: [
+            "The consent of the governed",
+            "Tradition and birthright alone with no other basis",
+            "No documented source of any kind",
+            "A source unrelated to the people being governed",
+          ],
+          optionsMy: [
+            "Governed ၏ Consent",
+            "အခြား Basis မပါဘဲ Tradition နှင့် Birthright တစ်ခုတည်း",
+            "Documented Source မည်သည် အမျိုးအစားမှ",
+            "Governed ဖြစ်နေသော လူများနှင့် မသက်ဆိုင်သော Source",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Enlightenment thought connects to Term 2's Scientific Revolution through...",
+          questionMy:
+              "Enlightenment Thought သည် ...မှတစ်ဆင့် Term 2 ၏ Scientific Revolution နှင့် ချိတ်ဆက်သည်",
+          optionsEn: [
+            "Applying reason to question claims previously accepted on authority alone",
+            "Having no actual documented connection to reason or evidence",
+            "Rejecting the use of reason in every documented context",
+            "A connection unrelated to questioning traditional authority",
+          ],
+          optionsMy: [
+            "Authority တစ်ခုတည်းအပေါ် ယခင်က လက်ခံခဲ့သော Claim များကို စောဒကတက်ရန် Reason ကို အသုံးချခြင်း",
+            "Reason (သို့) Evidence နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Context တိုင်းတွင် Reason အသုံးပြုခြင်းကို ငြင်းပယ်ခြင်း",
+            "Traditional Authority ကို စောဒကတက်ခြင်းနှင့် မသက်ဆိုင်သော Connection",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 7, Week 26: "The American Revolution"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek26 = CourseWeekDef(
+  id: "course-sec2-hum-w26",
+  weekNumber: 26,
+  titleEn: "The American Revolution",
+  titleMy: "The American Revolution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w26-d1",
+      dayNumber: 1,
+      titleEn: "Causes and the Declaration",
+      titleMy: "Cause များနှင့် Declaration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document several factors combining to cause the American Revolution: taxation disputes without colonial representation, growing resentment of British trade restrictions, and the spread of Enlightenment ideas about natural rights and consent-based government. Why cite all three together?",
+          questionMy:
+              "Historian များသည် American Revolution ကို ဖြစ်စေသော Factor များစွာ ပေါင်းစပ်ခြင်းကို Document ပြုလုပ်ထားသည် -- Colonial Representation မပါဘဲ Taxation ငြင်းခုံမှု, British Trade Restriction များအပေါ် ကြီးထွားနေသော Resentment နှင့် Natural Rights နှင့် Consent-Based Government အကြောင်း Enlightenment Idea များ ပျံ့နှံ့မှု။ သုံးခုစလုံးကို အဘယ်ကြောင့် အတူတကွ Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout the course -- the Revolution resulted from several documented factors working together, not one cause alone",
+            "A single documented factor is always sufficient to explain the entire American Revolution",
+            "None of these factors have any actual documented connection to the American Revolution",
+            "Taxation, trade restrictions, and Enlightenment ideas are documented as completely unrelated to each other",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- Revolution သည် Cause တစ်ခုတည်းအစား အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာသည်",
+            "Documented Factor တစ်ခုတည်းသည် American Revolution တစ်ခုလုံးကို ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ American Revolution နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Taxation, Trade Restriction များနှင့် Enlightenment Idea များကို တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle from Week 21's industrial causes and Week 15's abolition causes, applied to a new topic.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Topic အသစ်တစ်ခုပေါ်တွင် အသုံးချထားသော Week 21 ၏ Industrial Cause များနှင့် Week 15 ၏ Abolition Cause များမှ Multi-Causation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does the Declaration of Independence's documented language about people being 'endowed with certain unalienable rights' connect directly to Week 25's Enlightenment ideas?",
+          questionMy:
+              "'Endowed With Certain Unalienable Rights' ဖြင့် လူများအကြောင်း Declaration Of Independence ၏ Documented Language သည် Week 25 ၏ Enlightenment Idea များနှင့် တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "This language directly echoes the documented Enlightenment idea of natural rights studied in Week 25, showing the Declaration applying that specific philosophical idea to a real political document",
+            "The Declaration of Independence has no actual documented connection to Enlightenment ideas of any kind",
+            "Natural rights and unalienable rights are documented as completely unrelated concepts",
+            "The Declaration was written with no reference to any earlier documented idea whatsoever",
+          ],
+          optionsMy: [
+            "ဤ Language သည် Week 25 တွင် လေ့လာခဲ့သော Documented Enlightenment Idea Natural Rights ကို တိုက်ရိုက် ထပ်ကြားပြီး ထို Specific Philosophical Idea ကို Real Political Document တစ်ခုတွင် Declaration အသုံးချခဲ့ကြောင်း ပြသသည်",
+            "Declaration Of Independence တွင် Enlightenment Idea မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Natural Rights နှင့် Unalienable Rights ကို လုံးလုံး မသက်ဆိုင်သော Concept များအဖြစ် Document ပြုလုပ်ထားခြင်း",
+            "Declaration ကို ယခင် Documented Idea မည်သည်ကိုမျှ ရည်ညွှန်းခြင်း မပြုဘဲ ရေးသားခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects Week 25's natural-rights idea to a specific documented sentence in the Declaration.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Declaration ရှိ Specific Documented Sentence တစ်ခုသို့ Week 25 ၏ Natural-Rights Idea ကို တိုက်ရိုက် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes the American Revolution's outcome only in terms of political independence, without checking whether documented rights and representation were extended equally to all people in the new nation. What historical-evidence habit should the student apply?",
+          questionMy:
+              "Student တစ်ဦးသည် နိုင်ငံအသစ်ရှိ လူတိုင်းသို့ Documented Right များနှင့် Representation ညီမျှစွာ ချဲ့ထွင်ပေးမပေး စစ်ဆေးခြင်း မပြုဘဲ American Revolution ၏ Outcome ကို Political Independence အနေဖြင့်သာ ဖော်ပြသည်။ Student ဘယ် Historical-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Checking the documented scope of who actually received rights and representation after the Revolution, the same balanced-account habit used since Week 11's colonial-impact work",
+            "Assuming political independence automatically meant equal rights for everyone is always historically accurate",
+            "The scope of rights extended after a revolution has no actual documented significance",
+            "Balanced, documented representation should never actually be checked in historical study",
+          ],
+          optionsMy: [
+            "Revolution နောက်ပိုင်း Right များနှင့် Representation ရရှိခဲ့သူ Actual မည်သူများကို Documented Scope စစ်ဆေးခြင်း, Week 11 ၏ Colonial-Impact အလုပ်မှစ၍ အသုံးပြုခဲ့သော Balanced-Account အလေ့အထ တူတူ ဖြစ်သည်",
+            "Political Independence သည် လူတိုင်းအတွက် ညီမျှသော Right များကို အလိုအလျောက် ဆိုလိုသည်ဟု ယူဆခြင်းသည် အမြဲ သမိုင်းအရ တိကျသည်",
+            "Revolution တစ်ခုနောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ၏ Scope တွင် Actual Documented Significance မရှိခြင်း",
+            "Balanced, Documented Representation ကို သမိုင်းဆိုင်ရာ လေ့လာမှုတွင် ဘယ်တော့မှ အမှန်တကယ် မစစ်ဆေးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account habit from Term 3's colonial-impact work, applied to checking who actually benefited from the Revolution's stated ideals.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Revolution ၏ ဖော်ပြထားသော Ideal များမှ Actual အကျိုးရရှိခဲ့သူ မည်သူများကို စစ်ဆေးရန် အသုံးချထားသော Term 3 ၏ Colonial-Impact အလုပ်မှ Balanced-Account အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: American Revolution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - American Revolution Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w26-dm-1",
+          termEn: "Taxation without representation",
+          termMy: "Taxation Without Representation",
+          matchEn:
+              "A documented colonial grievance: being taxed by a government the colonies had no elected voice in",
+          matchMy:
+              "Documented Colonial Grievance တစ်ခု -- Colony များ Elected Voice မရှိသော Government တစ်ခုက Tax ကောက်ခံခြင်းခံရခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w26-dm-2",
+          termEn: "Declaration of Independence",
+          termMy: "Declaration Of Independence",
+          matchEn:
+              "The documented 1776 document declaring the colonies' separation, citing natural rights",
+          matchMy:
+              "Natural Rights ကို Cite ပြု၍ Colony များ၏ Separation ကို ကြေညာသော Documented 1776 Document",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w26-dm-3",
+          termEn: "Unalienable rights",
+          termMy: "Unalienable Rights",
+          matchEn:
+              "Documented Declaration language directly echoing Week 25's Enlightenment natural-rights idea",
+          matchMy:
+              "Week 25 ၏ Enlightenment Natural-Rights Idea ကို တိုက်ရိုက် ထပ်ကြားသော Documented Declaration Language",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w26-dm-4",
+          termEn: "Scope of rights extended",
+          termMy: "ချဲ့ထွင်ပေးသော Right များ၏ Scope",
+          matchEn:
+              "A balanced-account check on who actually received rights and representation after the Revolution",
+          matchMy:
+              "Revolution နောက်ပိုင်း Right များနှင့် Representation ရရှိခဲ့သူ မည်သူများကို Balanced-Account Check",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Cause or Documented Outcome?",
+      titleMy: "စီစစ်ကြမည် - Documented Cause (သို့) Documented Outcome",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Cause", "Documented Outcome"],
+        bucketsMy: ["Documented Cause", "Documented Outcome"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w26-sort-1",
+            labelEn: "Taxation disputes without colonial representation",
+            labelMy: "Colonial Representation မပါဘဲ Taxation ငြင်းခုံမှု",
+            correctBucketEn: "Documented Cause",
+            correctBucketMy: "Documented Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w26-sort-2",
+            labelEn: "The Declaration of Independence citing natural rights",
+            labelMy:
+                "Natural Rights ကို Cite ပြုလုပ်သော Declaration Of Independence",
+            correctBucketEn: "Documented Outcome",
+            correctBucketMy: "Documented Outcome",
+          ),
+          SortingItem(
+            id: "sec2hum-w26-sort-3",
+            labelEn:
+                "The spread of Enlightenment ideas about natural rights and consent",
+            labelMy:
+                "Natural Rights နှင့် Consent အကြောင်း Enlightenment Idea များ ပျံ့နှံ့မှု",
+            correctBucketEn: "Documented Cause",
+            correctBucketMy: "Documented Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w26-sort-4",
+            labelEn: "Political independence for the thirteen colonies",
+            labelMy: "Colony တစ်ဆယ့်သုံးခုအတွက် Political Independence",
+            correctBucketEn: "Documented Outcome",
+            correctBucketMy: "Documented Outcome",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Revolution Report",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Revolution Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Revolution Report",
+        titleMy: "Su Myat Noe ၏ Revolution Report",
+        passageEn:
+            "For Week 26's assignment, Su Myat Noe researched the documented causes of the American Revolution, applying the multi-causation principle used since Term 4. She cited three factors working together: taxation disputes without colonial representation, resentment of British trade restrictions, and the spread of Enlightenment ideas about natural rights and consent-based government studied the week before.\n\nShe then examined the Declaration of Independence's language directly, noting its documented claim that people are 'endowed with certain unalienable rights' -- language she recognized as a direct echo of Week 25's natural-rights idea, showing Enlightenment philosophy applied to a real political document rather than remaining abstract theory.\n\nHer first draft ended by describing the Revolution's outcome only as 'the colonies won freedom,' but her teacher asked her to check that claim against documented evidence about who actually received rights and representation afterward, the same balanced-account habit used since Week 11's colonial-impact work. Su Myat Noe researched further and found that the new nation's documented extension of rights and representation was not equal across all people, and she revised her report to note this honestly rather than describing the outcome only in celebratory terms. Her teacher praised the revision for combining multi-causal explanation, a specific Enlightenment connection, and a balanced account of who the documented outcome actually reached.",
+        passageMy:
+            "Week 26 ၏ Assignment အတွက် Term 4 မှစ၍ အသုံးပြုခဲ့သော Multi-Causation Principle ကို အသုံးချကာ American Revolution ၏ Documented Cause များကို Su Myat Noe Research ပြုလုပ်ခဲ့သည်။ အတူတကွ လုပ်ဆောင်ခဲ့သော Factor သုံးခုကို ၎င်း Cite ပြုလုပ်ခဲ့သည် -- Colonial Representation မပါဘဲ Taxation ငြင်းခုံမှု, British Trade Restriction များအပေါ် Resentment နှင့် ယခင်အပတ်က လေ့လာခဲ့သော Natural Rights နှင့် Consent-Based Government အကြောင်း Enlightenment Idea များ ပျံ့နှံ့မှု။\n\nDeclaration Of Independence ၏ Language ကို ၎င်း တိုက်ရိုက် စစ်ဆေးခဲ့ပြီး လူများသည် 'Endowed With Certain Unalienable Rights' ဖြစ်ကြောင်း ၎င်း၏ Documented Claim ကို မှတ်ချက်ပြုခဲ့သည် -- Week 25 ၏ Natural-Rights Idea ၏ တိုက်ရိုက် Echo တစ်ခုအဖြစ် ၎င်း အသိအမှတ်ပြုခဲ့ပြီး Abstract Theory အဖြစ် ဆက်လက်ကျန်ရှိမည့်အစား Real Political Document တစ်ခုတွင် Enlightenment Philosophy အသုံးချထားကြောင်း ပြသခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Revolution ၏ Outcome ကို 'Colony များ Freedom အနိုင်ရခဲ့သည်' ဟု သာ ဖော်ပြကာ ပြီးဆုံးခဲ့သော်လည်း Week 11 ၏ Colonial-Impact အလုပ်မှစ၍ အသုံးပြုခဲ့သော Balanced-Account အလေ့အထ တူတူဖြင့် Revolution နောက်ပိုင်း Right များနှင့် Representation ရရှိခဲ့သူ Actual မည်သူများ ကို Documented Evidence နှင့် ထို Claim ကို စစ်ဆေးရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။ နိုင်ငံအသစ်၏ Right များနှင့် Representation ၏ Documented Extension သည် လူတိုင်းတစ်လျှောက် ညီမျှမှု မရှိခဲ့ကြောင်း Su Myat Noe ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့ပြီး Outcome ကို Celebratory Term များဖြင့်သာ ဖော်ပြမည့်အစား ဤသည်ကို ရိုးသားစွာ မှတ်ချက်ပြုရန် ၎င်း၏ Report ကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Multi-Causal ရှင်းပြချက်, Specific Enlightenment ဆက်နွယ်မှုနှင့် Documented Outcome Actual ရောက်ရှိခဲ့သူ မည်သူများ၏ Balanced Account ကို ပေါင်းစပ်ခဲ့သောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what three factors did Su Myat Noe cite as documented causes?",
+            questionMy:
+                "Documented Cause များအဖြစ် Su Myat Noe Cite ပြုလုပ်ခဲ့သော Factor သုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Taxation disputes, trade-restriction resentment, and Enlightenment ideas",
+              "Only a single unspecified factor with no documented evidence",
+              "Factors entirely unrelated to the American Revolution",
+              "No documented cause of any kind",
+            ],
+            optionsMy: [
+              "Taxation ငြင်းခုံမှု, Trade-Restriction Resentment နှင့် Enlightenment Idea များ",
+              "Documented Evidence မပါသော Unspecified Factor တစ်ခုတည်း",
+              "American Revolution နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+              "Documented Cause မည်သည် အမျိုးအစားမှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's cited factors."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Factor များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the Declaration's 'unalienable rights' language echo?",
+            questionMy:
+                "Declaration ၏ 'Unalienable Rights' Language ထပ်ကြားခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Week 25's natural-rights Enlightenment idea",
+              "No documented earlier idea of any kind",
+              "A concept entirely unrelated to Enlightenment thought",
+              "An idea that appeared with no prior documented connection",
+            ],
+            optionsMy: [
+              "Week 25 ၏ Natural-Rights Enlightenment Idea",
+              "Documented ယခင် Idea မည်သည် အမျိုးအစားမှ",
+              "Enlightenment Thought နှင့် လုံးလုံး မသက်ဆိုင်သော Concept",
+              "ယခင် Documented ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့သော Idea",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated echo."],
+            hintsMy: ["ဖော်ပြထားသော Echo ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Su Myat Noe find when she checked the Revolution's outcome against documented evidence?",
+            questionMy:
+                "Revolution ၏ Outcome ကို Documented Evidence နှင့် စစ်ဆေးခဲ့သောအခါ Su Myat Noe တွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The extension of rights and representation was not equal across all people",
+              "Rights and representation were extended perfectly equally to everyone",
+              "No documented evidence existed about who received rights afterward",
+              "The Revolution had no actual documented outcome of any kind",
+            ],
+            optionsMy: [
+              "Right များနှင့် Representation ၏ Extension သည် လူတိုင်းတစ်လျှောက် ညီမျှမှု မရှိခဲ့ခြင်း",
+              "Right များနှင့် Representation ကို လူတိုင်းထံ အပြည့်အဝ ညီမျှစွာ ချဲ့ထွင်ပေးခဲ့ခြင်း",
+              "နောက်ပိုင်း Right ရရှိခဲ့သူများအကြောင်း Documented Evidence မည်သည် မရှိခဲ့ခြင်း",
+              "Revolution တွင် Documented Outcome မည်သည် အမျိုးအစားမှ Actual မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w26-d5",
+      dayNumber: 5,
+      titleEn: "Recap: American Revolution Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - American Revolution မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The American Revolution is documented as resulting from...",
+          questionMy:
+              "American Revolution ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented causes working together",
+            "A single unspecified cause with no evidence",
+            "No documented cause of any kind",
+            "Factors unrelated to any documented historical evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause များစွာ",
+            "Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Declaration of Independence's 'unalienable rights' language directly connects to...",
+          questionMy:
+              "Declaration Of Independence ၏ 'Unalienable Rights' Language သည် ...နှင့် တိုက်ရိုက် ချိတ်ဆက်သည်",
+          optionsEn: [
+            "Week 25's Enlightenment natural-rights idea",
+            "No documented earlier idea of any kind",
+            "A concept unrelated to Enlightenment thought",
+            "Ideas that appeared with no prior documented connection",
+          ],
+          optionsMy: [
+            "Week 25 ၏ Enlightenment Natural-Rights Idea",
+            "Documented ယခင် Idea မည်သည် အမျိုးအစားမှ",
+            "Enlightenment Thought နှင့် မသက်ဆိုင်သော Concept",
+            "ယခင် Documented ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့သော Idea များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of the Revolution's outcome checks...",
+          questionMy:
+              "Revolution ၏ Outcome ၏ Balanced Account သည် ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "Whether rights and representation were extended equally to all people",
+            "Nothing -- outcomes never need to be checked against evidence",
+            "Only the celebratory aspects with no other documented dimension",
+            "A topic unrelated to who received rights afterward",
+          ],
+          optionsMy: [
+            "Right များနှင့် Representation ကို လူတိုင်းထံ ညီမျှစွာ ချဲ့ထွင်ပေးမပေး",
+            "ဘာမှ -- Outcome များသည် Evidence နှင့် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "အခြား Documented Dimension မပါဘဲ Celebratory Aspect များသာ",
+            "နောက်ပိုင်း Right ရရှိခဲ့သူ မည်သူများနှင့် မသက်ဆိုင်သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 7, Week 27: "The French Revolution"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek27 = CourseWeekDef(
+  id: "course-sec2-hum-w27",
+  weekNumber: 27,
+  titleEn: "The French Revolution",
+  titleMy: "The French Revolution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w27-d1",
+      dayNumber: 1,
+      titleEn: "Causes, the Declaration, and Radical Change",
+      titleMy: "Cause များ, Declaration နှင့် Radical ပြောင်းလဲမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document several factors combining to cause the French Revolution: severe documented financial crisis from war debt, an unequal social and tax structure favoring the nobility and clergy, food shortages, and the spread of Enlightenment ideas. Why should students cite this specific combination rather than a single cause?",
+          questionMy:
+              "Historian များသည် French Revolution ကို ဖြစ်စေသော Factor များစွာ ပေါင်းစပ်ခြင်းကို Document ပြုလုပ်ထားသည် -- Documented War Debt မှ Severe Financial Crisis, Nobility နှင့် Clergy ကို Favor ပြုသော Unequal Social နှင့် Tax Structure, အစားအစာ ရှားပါးမှုနှင့် Enlightenment Idea များ ပျံ့နှံ့မှု။ Student များသည် Cause တစ်ခုတည်းအစား ဤ Specific Combination ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout the course -- the French Revolution resulted from several documented factors working together, the same discipline used for the American Revolution the week before",
+            "A single documented factor is always sufficient to explain the entire French Revolution",
+            "None of these factors have any actual documented connection to the French Revolution",
+            "Financial crisis, social inequality, and Enlightenment ideas are documented as completely unrelated",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- French Revolution သည် အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာပြီး ယခင်အပတ်က American Revolution အတွက် အသုံးပြုခဲ့သော Discipline တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် French Revolution တစ်ခုလုံးကို ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ French Revolution နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Financial Crisis, Social Inequality နှင့် Enlightenment Idea များကို လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle applied to the American Revolution in Week 26, now applied to France.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 26 တွင် American Revolution ပေါ်တွင် အသုံးချထားသော Multi-Causation Principle တူတူဖြစ်ပြီး ယခု France ပေါ်တွင် အသုံးချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does the French Revolution's Declaration of the Rights of Man and of the Citizen connect to Week 25's Enlightenment ideas, similar to the American Declaration of Independence studied in Week 26?",
+          questionMy:
+              "French Revolution ၏ Declaration Of The Rights Of Man And Of The Citizen သည် Week 26 တွင် လေ့လာခဲ့သော American Declaration Of Independence ကဲ့သို့ Week 25 ၏ Enlightenment Idea များနှင့် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Both documents applied Enlightenment natural-rights and consent-based-government ideas to a real political document, showing the same philosophical ideas influencing two separate documented revolutions",
+            "The French Declaration has no actual documented connection to Enlightenment ideas of any kind",
+            "The French and American Declarations are documented as having no relationship to each other whatsoever",
+            "Enlightenment ideas only ever influenced the American Revolution, never the French Revolution",
+          ],
+          optionsMy: [
+            "Document နှစ်ခုစလုံးသည် Enlightenment Natural-Rights နှင့် Consent-Based-Government Idea များကို Real Political Document တစ်ခုတွင် အသုံးချကာ Philosophical Idea တူတူသည် Separate Documented Revolution နှစ်ခုကို Influence ပြုကြောင်း ပြသသည်",
+            "French Declaration တွင် Enlightenment Idea မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "French နှင့် American Declaration များကို တစ်ခုနှင့်တစ်ခု Relationship လုံးလုံး မရှိကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Enlightenment Idea များသည် American Revolution ကိုသာ Influence ပြုပြီး French Revolution ကို ဘယ်တော့မှ မပြုခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compare this directly against Week 26's finding that the American Declaration echoed the same Week 25 Enlightenment ideas.",
+          ],
+          hintsMy: [
+            "American Declaration သည် Week 25 Enlightenment Idea တူတူကို ထပ်ကြားခဲ့ကြောင်း Week 26 ၏ Finding နှင့် ဤသည်ကို တိုက်ရိုက် နှိုင်းယှဉ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes the French Revolution's period of radical political violence only as 'chaos with no documented explanation.' Why should this vague claim be checked against specific documented evidence instead?",
+          questionMy:
+              "Student တစ်ဦးသည် French Revolution ၏ Radical Political Violence ကာလကို 'Documented ရှင်းပြချက် မရှိသော Chaos' ဟုသာ ဖော်ပြသည်။ ယင်းအစား ဤ Vague Claim ကို Specific Documented Evidence နှင့် အဘယ်ကြောင့် စစ်ဆေးသင့်ရသနည်း။",
+          optionsEn: [
+            "Historians document specific, named events, figures, and documented political conflicts during this period, so a vague 'chaos' claim should be checked against this specific evidence, the same habit taught since Term 1",
+            "Vague, unspecified explanations are always more historically accurate than specific documented evidence",
+            "This period of the French Revolution has no actual documented explanation of any kind",
+            "Specific documented evidence should never be checked against a broad historical claim",
+          ],
+          optionsMy: [
+            "Historian များသည် ဤကာလအတွင်း Specific, Named Event များ, Figure များနှင့် Documented Political Conflict များကို Document ပြုလုပ်ထားသောကြောင့် Vague 'Chaos' Claim ကို ဤ Specific Evidence နှင့် စစ်ဆေးသင့်ပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, Unspecified ရှင်းပြချက်များသည် Specific Documented Evidence ထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "French Revolution ၏ ဤကာလတွင် Documented ရှင်းပြချက် မည်သည် အမျိုးအစားမှ Actual မရှိခြင်း",
+            "Specific Documented Evidence ကို ကျယ်ပြန့်သော သမိုင်းဆိုင်ရာ Claim တစ်ခုနှင့် ဘယ်တော့မှ မစစ်ဆေးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to the French Revolution's most turbulent period.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား French Revolution ၏ Turbulent ဆုံးကာလပေါ်တွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: French Revolution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - French Revolution Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w27-dm-1",
+          termEn: "Financial crisis",
+          termMy: "Financial Crisis",
+          matchEn:
+              "Documented severe government debt from war spending, a key cause of the Revolution",
+          matchMy:
+              "Revolution ၏ Key Cause တစ်ခု, War Spending မှ Documented Severe Government Debt",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w27-dm-2",
+          termEn: "Unequal tax structure",
+          termMy: "Unequal Tax Structure",
+          matchEn:
+              "A documented system favoring the nobility and clergy over other social groups",
+          matchMy:
+              "Social Group အခြားများထက် Nobility နှင့် Clergy ကို Favor ပြုသော Documented System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w27-dm-3",
+          termEn: "Declaration of the Rights of Man",
+          termMy: "Declaration Of The Rights Of Man",
+          matchEn:
+              "A documented 1789 French document applying Enlightenment natural-rights ideas",
+          matchMy:
+              "Enlightenment Natural-Rights Idea များ အသုံးချသော Documented 1789 French Document",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w27-dm-4",
+          termEn: "Radical political period",
+          termMy: "Radical Political ကာလ",
+          matchEn:
+              "A documented period of intense conflict requiring specific citation, not vague description",
+          matchMy:
+              "Vague Description မဟုတ်ဘဲ Specific Citation လိုအပ်သော Intense Conflict ၏ Documented ကာလ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: American Revolution or French Revolution?",
+      titleMy: "စီစစ်ကြမည် - American Revolution (သို့) French Revolution",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Specific to American Revolution",
+          "Specific to French Revolution",
+        ],
+        bucketsMy: [
+          "American Revolution ၏ Specific",
+          "French Revolution ၏ Specific",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w27-sort-1",
+            labelEn: "Taxation disputes without colonial representation",
+            labelMy: "Colonial Representation မပါဘဲ Taxation ငြင်းခုံမှု",
+            correctBucketEn: "Specific to American Revolution",
+            correctBucketMy: "American Revolution ၏ Specific",
+          ),
+          SortingItem(
+            id: "sec2hum-w27-sort-2",
+            labelEn:
+                "An unequal tax structure favoring the nobility and clergy",
+            labelMy:
+                "Nobility နှင့် Clergy ကို Favor ပြုသော Unequal Tax Structure",
+            correctBucketEn: "Specific to French Revolution",
+            correctBucketMy: "French Revolution ၏ Specific",
+          ),
+          SortingItem(
+            id: "sec2hum-w27-sort-3",
+            labelEn: "The Declaration of Independence, 1776",
+            labelMy: "Declaration Of Independence, 1776",
+            correctBucketEn: "Specific to American Revolution",
+            correctBucketMy: "American Revolution ၏ Specific",
+          ),
+          SortingItem(
+            id: "sec2hum-w27-sort-4",
+            labelEn:
+                "Severe financial crisis from war debt and the Declaration of the Rights of Man",
+            labelMy:
+                "War Debt မှ Severe Financial Crisis နှင့် Declaration Of The Rights Of Man",
+            correctBucketEn: "Specific to French Revolution",
+            correctBucketMy: "French Revolution ၏ Specific",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Htet's Two-Revolution Comparison",
+      titleMy: "စာဖတ်ခြင်း - Ko Htet ၏ Two-Revolution Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Htet's Two-Revolution Comparison",
+        titleMy: "Ko Htet ၏ Two-Revolution Comparison",
+        passageEn:
+            "For Week 27's project, Ko Htet compared the documented causes of the French Revolution with the American Revolution he had researched the week before. He cited France's specific documented factors: a severe financial crisis from war debt, an unequal tax structure favoring the nobility and clergy, food shortages, and the same spread of Enlightenment ideas that had influenced the American colonies.\n\nHe then compared the two revolutions' founding documents directly. Just as the American Declaration of Independence had echoed Week 25's natural-rights idea, France's Declaration of the Rights of Man and of the Citizen applied the same Enlightenment philosophy to a French political document -- clear evidence that these philosophical ideas influenced more than one documented revolution, not just one isolated case.\n\nHis first draft described the Revolution's radical political period afterward only as 'chaos,' but his teacher reminded him of the specific-evidence habit used since Term 1: vague words like 'chaos' should be checked against named, documented events and figures rather than left unexplained. Ko Htet revised his account to cite specific documented conflicts from the period instead of leaving the claim vague. His teacher praised the comparison for applying consistent multi-causal analysis, tracing the Enlightenment connection across two documented revolutions, and replacing vague description with specific documented evidence throughout.",
+        passageMy:
+            "Week 27 ၏ Project အတွက် ယခင်အပတ်က ၎င်း Research ပြုလုပ်ခဲ့သော American Revolution နှင့် French Revolution ၏ Documented Cause များကို Ko Htet နှိုင်းယှဉ်ခဲ့သည်။ France ၏ Specific Documented Factor များကို ၎င်း Cite ပြုလုပ်ခဲ့သည် -- War Debt မှ Severe Financial Crisis, Nobility နှင့် Clergy ကို Favor ပြုသော Unequal Tax Structure, အစားအစာ ရှားပါးမှုနှင့် American Colony များကို Influence ပြုခဲ့သော Enlightenment Idea များ ပျံ့နှံ့မှု တူတူ။\n\nRevolution နှစ်ခု၏ Founding Document များကို ၎င်း တိုက်ရိုက် နှိုင်းယှဉ်ခဲ့သည်။ American Declaration Of Independence သည် Week 25 ၏ Natural-Rights Idea ကို ထပ်ကြားခဲ့သကဲ့သို့ France ၏ Declaration Of The Rights Of Man And Of The Citizen သည် French Political Document တစ်ခုတွင် Enlightenment Philosophy တူတူကို အသုံးချခဲ့သည် -- ဤ Philosophical Idea များသည် Isolated Case တစ်ခုတည်းမဟုတ်ဘဲ Documented Revolution တစ်ခုထက်ပို၍ Influence ပြုခဲ့ကြောင်း ရှင်းလင်းသော Evidence ဖြစ်သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် နောက်ပိုင်း Revolution ၏ Radical Political ကာလကို 'Chaos' ဟုသာ ဖော်ပြခဲ့သော်လည်း Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- 'Chaos' ကဲ့သို့ Vague Word များကို ရှင်းပြခြင်း မရှိဘဲ ချန်ထားမည့်အစား Named, Documented Event များနှင့် Figure များနှင့် စစ်ဆေးသင့်သည်။ Claim ကို Vague ချန်ထားမည့်အစား ဤကာလမှ Specific Documented Conflict များကို Cite ပြုလုပ်ရန် Ko Htet ၏ Account ကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ တသမတ်တည်း Multi-Causal Analysis အသုံးချခြင်း, Documented Revolution နှစ်ခုတစ်လျှောက် Enlightenment ဆက်နွယ်မှုကို လိုက်လံ ဖော်ထုတ်ခြင်းနှင့် Vague Description ကို Specific Documented Evidence ဖြင့် တစ်လျှောက်လုံး အစားထိုးခြင်းကို ပေါင်းစပ်ခဲ့သောကြောင့် Comparison ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what specific documented factors did Ko Htet cite for France?",
+            questionMy:
+                "France အတွက် Ko Htet Cite ပြုလုပ်ခဲ့သော Specific Documented Factor များကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Financial crisis, unequal tax structure, food shortages, and Enlightenment ideas",
+              "Only a single unspecified factor with no documented evidence",
+              "Factors entirely unrelated to the French Revolution",
+              "No documented cause of any kind",
+            ],
+            optionsMy: [
+              "Financial Crisis, Unequal Tax Structure, အစားအစာ ရှားပါးမှုနှင့် Enlightenment Idea များ",
+              "Documented Evidence မပါသော Unspecified Factor တစ်ခုတည်း",
+              "French Revolution နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+              "Documented Cause မည်သည် အမျိုးအစားမှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's cited factors."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Factor များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did comparing the two Declarations show?",
+            questionMy:
+                "Declaration နှစ်ခုကို နှိုင်းယှဉ်ခြင်းက ပြသခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Enlightenment philosophical ideas influenced more than one documented revolution",
+              "The two Declarations had no actual documented connection to each other",
+              "Enlightenment ideas only ever influenced one isolated revolution",
+              "Neither Declaration had any documented connection to Enlightenment ideas",
+            ],
+            optionsMy: [
+              "Enlightenment Philosophical Idea များသည် Documented Revolution တစ်ခုထက်ပို၍ Influence ပြုခဲ့ခြင်း",
+              "Declaration နှစ်ခုတွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Enlightenment Idea များသည် Isolated Revolution တစ်ခုကိုသာ ဘယ်တော့မှ Influence ပြုခဲ့ခြင်း",
+              "Declaration နှစ်ခုစလုံးတွင် Enlightenment Idea များနှင့် Documented ဆက်နွယ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's stated comparison finding.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Comparison Finding ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Ko Htet revise his description of the radical political period?",
+            questionMy:
+                "Radical Political ကာလ၏ ဖော်ပြချက်ကို Ko Htet မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By citing specific documented conflicts instead of leaving the claim vague",
+              "By removing all documented evidence from the description entirely",
+              "By keeping the vague word 'chaos' with no further explanation",
+              "By making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Claim ကို Vague ချန်ထားမည့်အစား Specific Documented Conflict များကို Cite ပြုလုပ်ခြင်းဖြင့်",
+              "Documented Evidence အားလုံးကို ဖော်ပြချက်မှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+              "ထပ်ဆောင်း ရှင်းပြချက် မပါဘဲ Vague Word 'Chaos' ကို ဆက်လက် ထားရှိခြင်းဖြင့်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w27-d5",
+      dayNumber: 5,
+      titleEn: "Recap: French Revolution Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - French Revolution မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The French Revolution is documented as resulting from...",
+          questionMy:
+              "French Revolution ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented causes working together",
+            "A single unspecified cause with no evidence",
+            "No documented cause of any kind",
+            "A vague 'chaos' explanation with no evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause များစွာ",
+            "Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Evidence မပါသော Vague 'Chaos' ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Declaration of the Rights of Man applied the same philosophy as...",
+          questionMy:
+              "Declaration Of The Rights Of Man သည် ...နှင့် Philosophy တူတူကို အသုံးချသည်",
+          optionsEn: [
+            "The American Declaration of Independence's Enlightenment natural-rights ideas",
+            "No documented earlier idea of any kind",
+            "A concept unrelated to Enlightenment thought",
+            "Ideas that appeared with no connection to any other revolution",
+          ],
+          optionsMy: [
+            "American Declaration Of Independence ၏ Enlightenment Natural-Rights Idea များ",
+            "Documented ယခင် Idea မည်သည် အမျိုးအစားမှ",
+            "Enlightenment Thought နှင့် မသက်ဆိုင်သော Concept",
+            "အခြား Revolution မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့သော Idea များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A vague word like 'chaos' describing this period should be checked against...",
+          questionMy:
+              "ဤကာလကို ဖော်ပြသော 'Chaos' ကဲ့သို့ Vague Word ကို ...နှင့် စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Specific, named documented events and figures",
+            "Nothing -- vague claims never need checking",
+            "An even vaguer explanation with less evidence",
+            "A claim unrelated to documented historical evidence",
+          ],
+          optionsMy: [
+            "Specific, Named Documented Event များနှင့် Figure များ",
+            "ဘာမှ -- Vague Claim များသည် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Evidence နည်းပြီး ပို၍ Vague ဖြစ်သော ရှင်းပြချက်",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 7, Week 28 (Capstone / Boss Week):
+// "Revolutions Comparison Studio"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek28 = CourseWeekDef(
+  id: "course-sec2-hum-w28",
+  weekNumber: 28,
+  titleEn: "Capstone: Revolutions Comparison Studio",
+  titleMy: "Capstone - Revolutions Comparison Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w28-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 7 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 7 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must compare the American and French Revolutions using documented causes, a specific Enlightenment connection, and a balanced account of outcomes. Why require all three elements together rather than describing each revolution separately with no comparison?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Documented Cause များ, Specific Enlightenment ဆက်နွယ်မှုနှင့် Outcome များ၏ Balanced Account ကို အသုံးပြု၍ American နှင့် French Revolution များကို နှိုင်းယှဉ်ရမည်။ Comparison မပါဘဲ Revolution တစ်ခုစီကို သီးခြား ဖော်ပြမည့်အစား Element သုံးခုစလုံးကို အတူတကွ အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A genuine comparison reveals both shared documented patterns (Enlightenment influence, multi-causation) and distinct documented differences between the two revolutions, giving a fuller, more accurate historical picture than describing each in isolation",
+            "Comparing multiple documented revolutions has no actual historical value",
+            "The American and French Revolutions have no actual documented connection to each other",
+            "A single revolution described alone is always more accurate than any comparison",
+          ],
+          optionsMy: [
+            "Genuine Comparison တစ်ခုသည် Revolution နှစ်ခုကြား Shared Documented Pattern (Enlightenment Influence, Multi-Causation) များနှင့် Distinct Documented Difference များ နှစ်ခုစလုံးကို ဖော်ထုတ်ကာ Isolation တွင် တစ်ခုစီကို ဖော်ပြခြင်းထက် ပို၍ ပြည့်စုံ, တိကျသော သမိုင်းဆိုင်ရာ ပုံရိပ်ကို ပေးအပ်သည်",
+            "Documented Revolution များစွာ နှိုင်းယှဉ်ခြင်းတွင် Actual သမိုင်းဆိုင်ရာ Value မရှိခြင်း",
+            "American နှင့် French Revolution များတွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Revolution တစ်ခုတည်း သီးခြား ဖော်ပြခြင်းသည် Comparison မည်သည်ထက်မဆို အမြဲ ပို၍ တိကျသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 25 (Enlightenment), Week 26 (American Revolution), and Week 27 (French Revolution) into one comparative project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 25 (Enlightenment), Week 26 (American Revolution) နှင့် Week 27 (French Revolution) ကို Comparative Project တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes both revolutions' outcomes only in celebratory terms with no check on who actually received extended rights afterward. Following this term's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ ရရှိခဲ့သူ Actual မည်သူများကို Check မပြုဘဲ Revolution နှစ်ခု၏ Outcome များကို Celebratory Term များဖြင့်သာ ဖော်ပြသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to check the documented scope of who actually received extended rights and representation, following the same balanced-account discipline used since Week 11 and applied again in Week 26",
+            "Nothing -- describing outcomes only in celebratory terms is the required and correct approach for this term",
+            "Remove all documented evidence about outcomes from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Week 11 မှစ၍ အသုံးပြုခဲ့ပြီး Week 26 တွင် ထပ်မံ အသုံးချထားသော Balanced-Account Discipline တူတူကို လိုက်နာကာ ချဲ့ထွင်ပေးသော Right များနှင့် Representation ရရှိခဲ့သူ Actual မည်သူများ၏ Documented Scope ကို စစ်ဆေးရန် Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Outcome များကို Celebratory Term များဖြင့်သာ ဖော်ပြခြင်းသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "Outcome များအကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account standard from Week 26, applied at the capstone level to both revolutions.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Revolution နှစ်ခုစလုံးအတွက် Capstone Level ၌ အသုံးချထားသော Week 26 မှ Balanced-Account Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project cite specific, named documented events, figures, and dates for each revolution rather than describing either revolution in vague, general terms?",
+          questionMy:
+              "Capstone Project သည် Revolution တစ်ခုစီကို Vague, General Term များဖြင့် ဖော်ပြမည့်အစား Revolution တစ်ခုစီအတွက် Specific, Named Documented Event များ, Figure များနှင့် Date များကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented citation is the same precision habit taught since Term 1, and it demonstrates genuine understanding of each revolution's distinct documented history rather than generic description",
+            "Vague, general descriptions are always more accurate than specific documented citation",
+            "Specific documented citation has no actual value in a comparative capstone project",
+            "Precision has no actual connection to demonstrating understanding of historical events",
+          ],
+          optionsMy: [
+            "Specific Documented Citation သည် Term 1 မှစ၍ သင်ကြားခဲ့သော Precision အလေ့အထ တူတူ ဖြစ်ပြီး Generic Description ထက် Revolution တစ်ခုစီ၏ Distinct Documented History ကို Genuine နားလည်မှု သရုပ်ပြသည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Citation ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Citation သည် Comparative Capstone Project တွင် Actual Value မရှိခြင်း",
+            "Precision သည် သမိုင်းဆိုင်ရာ Event များ၏ နားလည်မှု သရုပ်ပြခြင်းနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1, applied to the final capstone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နောက်ဆုံး Capstone ပေါ်တွင် အသုံးချထားသော Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 7 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w28-dm-1",
+          termEn: "Natural rights",
+          termMy: "Natural Rights",
+          matchEn:
+              "The Enlightenment idea echoed in both the American and French founding documents",
+          matchMy:
+              "American နှင့် French Founding Document နှစ်ခုစလုံးတွင် Echo ဖြစ်ခဲ့သော Enlightenment Idea",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w28-dm-2",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "The principle that both revolutions resulted from several documented factors together",
+          matchMy:
+              "Revolution နှစ်ခုစလုံးသည် Documented Factor များစွာ အတူတကွမှ ဖြစ်ပေါ်သည်ဟူသော Principle",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w28-dm-3",
+          termEn: "Declaration",
+          termMy: "Declaration",
+          matchEn:
+              "A documented founding political text applying Enlightenment philosophy to a real nation",
+          matchMy:
+              "Enlightenment Philosophy ကို Real Nation တစ်ခုတွင် အသုံးချသော Documented Founding Political Text",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w28-dm-4",
+          termEn: "Balanced outcome check",
+          termMy: "Balanced Outcome Check",
+          matchEn:
+              "Checking who actually received extended rights and representation after a revolution",
+          matchMy:
+              "Revolution တစ်ခုနောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များနှင့် Representation ရရှိခဲ့သူ Actual မည်သူများကို စစ်ဆေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Comparison Checklist",
+      titleMy: "စီစစ်ကြမည် - Comparison Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Comparison Project",
+          "Not Appropriate for the Comparison Project",
+        ],
+        bucketsMy: [
+          "Comparison Project တွင် လိုအပ်သည်",
+          "Comparison Project အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w28-sort-1",
+            labelEn:
+                "Specific documented causes for each revolution named individually",
+            labelMy:
+                "Revolution တစ်ခုစီအတွက် တစ်ဦးချင်းစီ အမည်တပ်ထားသော Specific Documented Cause များ",
+            correctBucketEn: "Required in the Comparison Project",
+            correctBucketMy: "Comparison Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w28-sort-2",
+            labelEn:
+                "A balanced check on who actually received extended rights afterward",
+            labelMy:
+                "နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ ရရှိခဲ့သူ Actual မည်သူများ၏ Balanced Check",
+            correctBucketEn: "Required in the Comparison Project",
+            correctBucketMy: "Comparison Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w28-sort-3",
+            labelEn:
+                "A specific connection to Week 25's documented Enlightenment ideas",
+            labelMy:
+                "Week 25 ၏ Documented Enlightenment Idea များသို့ Specific ချိတ်ဆက်မှု",
+            correctBucketEn: "Required in the Comparison Project",
+            correctBucketMy: "Comparison Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w28-sort-4",
+            labelEn:
+                "A vague description of both revolutions as 'the same event' with no documented distinction",
+            labelMy:
+                "Documented Distinction မပါဘဲ Revolution နှစ်ခုစလုံးကို 'Event တူတူ' ဟု Vague ဖော်ပြချက်",
+            correctBucketEn: "Not Appropriate for the Comparison Project",
+            correctBucketMy: "Comparison Project အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko Ko's Capstone Comparison Studio",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko Ko ၏ Capstone Comparison Studio",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko Ko's Capstone Comparison Studio",
+        titleMy: "Zin Ko Ko ၏ Capstone Comparison Studio",
+        passageEn:
+            "For the Term 7 capstone, Zin Ko Ko built his studio project comparing the American and French Revolutions using three combined elements from across the term. From Weeks 26 and 27, he cited each revolution's specific, named documented causes separately -- taxation disputes without representation for America, and financial crisis with an unequal tax structure for France -- avoiding any vague, generic description of either.\n\nFrom Week 25, he traced the shared Enlightenment connection: both the Declaration of Independence and the Declaration of the Rights of Man applied the same documented natural-rights and consent-based-government ideas to a real political document, showing this philosophy's influence across two separate, documented revolutions rather than treating either as an isolated case.\n\nHis first draft closed by celebrating both revolutions' outcomes with no further check, but his teacher reminded him of the balanced-account standard applied since Week 11 and reinforced in Week 26: had he checked who actually received extended rights and representation in each nation afterward? Zin Ko Ko researched further and found that in both documented cases, the scope of who received extended rights was not equal across all people, and he revised his conclusion to represent this honestly rather than only in celebratory terms. His teacher praised the studio project for combining specific documented causes, a traced philosophical connection, and a balanced check on real documented outcomes -- exactly the standard built across every capstone this course, and a fitting close to Term 7 before Term 8 turns to population and movement.",
+        passageMy:
+            "Term 7 Capstone အတွက် Term တစ်ခုလုံးမှ ပေါင်းစပ်ထားသော Element သုံးခုကို အသုံးပြု၍ American နှင့် French Revolution များ နှိုင်းယှဉ်သော ၎င်း၏ Studio Project ကို Zin Ko Ko တည်ဆောက်ခဲ့သည်။ Week 26 နှင့် 27 မှ Revolution တစ်ခုစီ၏ Specific, Named Documented Cause များကို သီးခြားစီ ၎င်း Cite ပြုလုပ်ခဲ့သည် -- America အတွက် Representation မပါဘဲ Taxation ငြင်းခုံမှုနှင့် France အတွက် Unequal Tax Structure ဖြင့် Financial Crisis -- Revolution နှစ်ခုစလုံး၏ Vague, Generic ဖော်ပြချက် မည်သည်ကိုမျှ ရှောင်ကြဉ်ကာ။\n\nWeek 25 မှ Shared Enlightenment ချိတ်ဆက်မှုကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Declaration Of Independence နှင့် Declaration Of The Rights Of Man နှစ်ခုစလုံးသည် Real Political Document တစ်ခုတွင် Documented Natural-Rights နှင့် Consent-Based-Government Idea တူတူကို အသုံးချကာ Revolution နှစ်ခုစလုံးကို Isolated Case တစ်ခုအဖြစ် သဘောထားမည့်အစား Documented Revolution သီးခြားစီနှစ်ခုတစ်လျှောက် ဤ Philosophy ၏ Influence ကို ပြသခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် ထပ်ဆောင်း Check မပြုဘဲ Revolution နှစ်ခုစလုံး၏ Outcome များကို ချီးကျူးကာ ပြီးဆုံးခဲ့သော်လည်း Week 11 မှစ၍ အသုံးချထားပြီး Week 26 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Balanced-Account Standard ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- နိုင်ငံတစ်ခုစီတွင် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များနှင့် Representation ရရှိခဲ့သူ Actual မည်သူများကို ၎င်း စစ်ဆေးခဲ့ပါသလား။ Documented Case နှစ်ခုစလုံးတွင် ချဲ့ထွင်ပေးသော Right ရရှိခဲ့သူ Scope သည် လူတိုင်းတစ်လျှောက် ညီမျှမှု မရှိခဲ့ကြောင်း Zin Ko Ko ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့ပြီး Celebratory Term များဖြင့်သာ ဖော်ပြမည့်အစား ဤသည်ကို ရိုးသားစွာ ကိုယ်စားပြုရန် ၎င်း၏ Conclusion ကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Specific Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် Real Documented Outcome များပေါ် Balanced Check ကို ပေါင်းစပ်ခဲ့သောကြောင့် Studio Project ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး ၎င်းသည် ဤ Course ရှိ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ပြီး Term 8 က Population နှင့် Movement ဘက်သို့ လှည့်မီ Term 7 ၏ သင့်လျော်သော အဆုံးသတ် ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did Zin Ko Ko cite each revolution's causes?",
+            questionMy:
+                "Revolution တစ်ခုစီ၏ Cause များကို Zin Ko Ko မည်သို့ Cite ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specifically and separately for each revolution, avoiding vague generic description",
+              "With no documented citation of any kind for either revolution",
+              "Using only vague, generic terms with no specific documented evidence",
+              "By describing both revolutions as having identical causes",
+            ],
+            optionsMy: [
+              "Revolution တစ်ခုစီအတွက် Specifically နှင့် သီးခြားစီ, Vague Generic ဖော်ပြချက်ကို ရှောင်ကြဉ်ကာ",
+              "Revolution နှစ်ခုစလုံးအတွက် Documented Citation မည်သည် အမျိုးအစားမှ မပါဘဲ",
+              "Specific Documented Evidence မပါဘဲ Vague, Generic Term များကိုသာ အသုံးပြု၍",
+              "Revolution နှစ်ခုစလုံးကို Identical Cause ရှိကြောင်း ဖော်ပြခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated citation approach."],
+            hintsMy: [
+              "ဖော်ပြထားသော Citation Approach ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did tracing the Enlightenment connection show?",
+            questionMy:
+                "Enlightenment ချိတ်ဆက်မှုကို လိုက်လံ ဖော်ထုတ်ခြင်းက ပြသခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The philosophy's influence extended across two separate, documented revolutions",
+              "The two Declarations had no actual documented connection to each other",
+              "Enlightenment ideas only ever influenced one isolated revolution",
+              "Neither Declaration had any documented connection to Enlightenment philosophy",
+            ],
+            optionsMy: [
+              "Philosophy ၏ Influence သည် Documented Revolution သီးခြားစီနှစ်ခုတစ်လျှောက် ကျယ်ပြန့်ခဲ့ခြင်း",
+              "Declaration နှစ်ခုတွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Enlightenment Idea များသည် Isolated Revolution တစ်ခုကိုသာ ဘယ်တော့မှ Influence ပြုခဲ့ခြင်း",
+              "Declaration နှစ်ခုစလုံးတွင် Enlightenment Philosophy နှင့် Documented ဆက်နွယ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Zin Ko Ko find when he checked the documented scope of extended rights?",
+            questionMy:
+                "ချဲ့ထွင်ပေးသော Right များ၏ Documented Scope ကို စစ်ဆေးခဲ့သောအခါ Zin Ko Ko တွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The scope was not equal across all people in either documented case",
+              "Rights were extended perfectly equally to everyone in both nations",
+              "No documented evidence existed about who received extended rights",
+              "Neither revolution had any actual documented outcome of any kind",
+            ],
+            optionsMy: [
+              "Documented Case နှစ်ခုစလုံးတွင် Scope သည် လူတိုင်းတစ်လျှောက် ညီမျှမှု မရှိခဲ့ခြင်း",
+              "နိုင်ငံနှစ်ခုစလုံးတွင် Right များကို လူတိုင်းထံ အပြည့်အဝ ညီမျှစွာ ချဲ့ထွင်ပေးခဲ့ခြင်း",
+              "ချဲ့ထွင်ပေးသော Right ရရှိခဲ့သူများအကြောင်း Documented Evidence မည်သည် မရှိခဲ့ခြင်း",
+              "Revolution နှစ်ခုစလုံးတွင် Documented Outcome မည်သည် အမျိုးအစားမှ Actual မရှိခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Recap: Revolutions and New Ideas",
+      titleMy: "Term 7 ပြန်လည်သုံးသပ်ခြင်း - Revolutions and New Ideas",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Enlightenment ideas about natural rights and the social contract influenced...",
+          questionMy:
+              "Natural Rights နှင့် Social Contract အကြောင်း Enlightenment Idea များသည် ...ကို Influence ပြုခဲ့သည်",
+          optionsEn: [
+            "Both the American and French founding documents",
+            "Only one of the two documented revolutions",
+            "Neither documented revolution in any way",
+            "Documents unrelated to either revolution",
+          ],
+          optionsMy: [
+            "American နှင့် French Founding Document နှစ်ခုစလုံး",
+            "Documented Revolution နှစ်ခုအနက် တစ်ခုကိုသာ",
+            "Documented Revolution မည်သည်ကိုမျှ ဘယ်နည်းနှင့်မျှ",
+            "Revolution နှစ်ခုစလုံးနှင့် မသက်ဆိုင်သော Document များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Both revolutions are documented as resulting from...",
+          questionMy:
+              "Revolution နှစ်ခုစလုံးကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple specific documented causes rather than a single cause",
+            "A single identical cause shared by both revolutions",
+            "No documented cause of any kind",
+            "Causes unrelated to any documented historical evidence",
+          ],
+          optionsMy: [
+            "Cause တစ်ခုတည်းအစား Multiple Specific Documented Cause များ",
+            "Revolution နှစ်ခုစလုံး မျှဝေသော Identical Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော Cause များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of each revolution's outcome checks...",
+          questionMy:
+              "Revolution တစ်ခုစီ၏ Outcome ၏ Balanced Account သည် ...ကို စစ်ဆေးသည်",
+          optionsEn: [
+            "Whether extended rights and representation reached all people equally",
+            "Nothing -- outcomes never need to be checked against evidence",
+            "Only the celebratory aspects with no other documented dimension",
+            "A topic unrelated to who received rights afterward",
+          ],
+          optionsMy: [
+            "ချဲ့ထွင်ပေးသော Right များနှင့် Representation ကို လူတိုင်းထံ ညီမျှစွာ ရောက်ရှိမရောက်ရှိ",
+            "ဘာမှ -- Outcome များသည် Evidence နှင့် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "အခြား Documented Dimension မပါဘဲ Celebratory Aspect များသာ",
+            "နောက်ပိုင်း Right ရရှိခဲ့သူ မည်သူများနှင့် မသက်ဆိုင်သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 7: "Revolutions and New Ideas" (Weeks
+// 25-28). Enlightenment political philosophy (Week 25, connected back
+// to Term 2's Scientific Revolution shift from authority to reason),
+// the documented American Revolution (Week 26) and French Revolution
+// (Week 27) each with specific multi-causal explanation and a direct
+// Enlightenment connection, closing with a Revolutions Comparison
+// Studio (Week 28) combining documented causes, philosophical
+// connection, and a balanced check on real documented outcomes.
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm7 = CourseTermDef(
+  id: "course-sec2-hum-t7",
+  termNumber: 7,
+  titleEn: "Revolutions and New Ideas",
+  titleMy: "Revolutions and New Ideas",
+  certificateTitleEn: "Revolutions and New Ideas Certificate",
+  certificateTitleMy: "Revolutions and New Ideas သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec2HumWeek25, _sec2HumWeek26, _sec2HumWeek27, _sec2HumWeek28],
 );
 // __SEC_HUM_MARKER__
