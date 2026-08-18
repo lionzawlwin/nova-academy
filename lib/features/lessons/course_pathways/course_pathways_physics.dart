@@ -12642,6 +12642,1320 @@ const CourseTermDef igcsePhysicsTerm9 = CourseTermDef(
   certificateTitleMy: "IGCSE ရူပဗေဒ ဘွဲ့ရ",
 );
 
+// =====================================================================
+// YEAR 12 PHYSICS (A-Level AS, Cambridge 9702) -- Term 1
+// "Physical Quantities, Units and Measurement"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "SI Units and Homogeneity"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek1 = CourseWeekDef(
+  id: "course-y12-phys-w1",
+  weekNumber: 1,
+  titleEn: "SI Units and Homogeneity",
+  titleMy: "SI ယူနစ်များနှင့် Homogeneity",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w1-d1",
+      dayNumber: 1,
+      titleEn: "The Seven SI Base Quantities",
+      titleMy: "SI အခြေခံပမာဏ ခုနစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of these is one of the seven SI base quantities, with its correct base unit?",
+          questionMy:
+              "အောက်ပါတို့တွင် SI အခြေခံပမာဏ ခုနစ်ခုအနက် တစ်ခုမှာ မှန်ကန်သော အခြေခံယူနစ်နှင့်အတူ အဘယ်နည်း။",
+          optionsEn: [
+            "Electric current, measured in the ampere (A)",
+            "Force, measured in the newton (N)",
+            "Speed, measured in metres per second (m/s)",
+            "Energy, measured in the joule (J)",
+          ],
+          optionsMy: [
+            "Electric Current, Ampere (A) ဖြင့် တိုင်းတာသည်",
+            "Force, Newton (N) ဖြင့် တိုင်းတာသည်",
+            "Speed, Metres per Second (m/s) ဖြင့် တိုင်းတာသည်",
+            "Energy, Joule (J) ဖြင့် တိုင်းတာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The seven SI base quantities are mass, length, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity.",
+            "Force, speed, and energy are all derived quantities -- they are built from combinations of the base quantities, not base quantities themselves.",
+          ],
+          hintsMy: [
+            "SI အခြေခံပမာဏ ခုနစ်ခုမှာ Mass, Length, Time, Electric Current, Thermodynamic Temperature, Amount of Substance နှင့် Luminous Intensity တို့ ဖြစ်သည်။",
+            "Force, Speed နှင့် Energy တို့သည် Derived Quantity များ ဖြစ်ကြသည် -- ၎င်းတို့သည် အခြေခံပမာဏများ ပေါင်းစပ်၍ တည်ဆောက်ထားခြင်း ဖြစ်ပြီး ကိုယ်တိုင် အခြေခံပမာဏများ မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the SI base unit of thermodynamic temperature?",
+          questionMy: "Thermodynamic Temperature ၏ SI အခြေခံယူနစ်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The kelvin (K)",
+            "The celsius (°C)",
+            "The joule (J)",
+            "The mole (mol)",
+          ],
+          optionsMy: ["Kelvin (K)", "Celsius (°C)", "Joule (J)", "Mole (mol)"],
+          correctIndex: 0,
+          hintsEn: [
+            "Celsius is a commonly-used derived scale, but the SI base unit for temperature is always the kelvin -- 0 K is absolute zero, with no negative values.",
+          ],
+          hintsMy: [
+            "Celsius သည် အသုံးများသော Derived Scale တစ်ခု ဖြစ်သော်လည်း Temperature အတွက် SI အခြေခံယူနစ်မှာ Kelvin အမြဲ ဖြစ်သည် -- 0 K သည် Absolute Zero ဖြစ်ပြီး Negative တန်ဖိုးများ မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The newton (N), the SI unit of force, is an example of what kind of unit?",
+          questionMy:
+              "Force ၏ SI ယူနစ်ဖြစ်သော Newton (N) သည် မည်သည့်အမျိုးအစား ယူနစ် ဥပမာ ဖြစ်သနည်း။",
+          optionsEn: [
+            "A derived unit, built from the base units kg, m, and s",
+            "A base unit, listed among the seven SI base units",
+            "Neither a base nor a derived unit",
+            "A unit that only applies outside the SI system",
+          ],
+          optionsMy: [
+            "Base Unit များဖြစ်သော kg, m နှင့် s တို့မှ တည်ဆောက်ထားသော Derived Unit",
+            "SI Base Unit ခုနစ်ခု အနက်တွင် ပါဝင်သော Base Unit",
+            "Base Unit လည်း မဟုတ်၊ Derived Unit လည်း မဟုတ်ပါ",
+            "SI စနစ် အပြင်ဘက်တွင်သာ အသုံးပြုသော ယူနစ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "From F = ma, the newton = kg x m x s⁻² -- every derived unit can be broken down this way into a combination of base units.",
+          ],
+          hintsMy: [
+            "F = ma မှ Newton = kg x m x s⁻² ဖြစ်သည် -- Derived Unit တိုင်းကို ဤသို့ Base Unit များ ပေါင်းစပ်မှုအဖြစ် ခွဲခြမ်းနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Quantities and Their SI Units",
+      titleMy: "တွဲစပ်ကြမည် - ပမာဏများနှင့် ၎င်းတို့၏ SI ယူနစ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w1-dm-1",
+          termEn: "Amount of substance",
+          termMy: "Amount of Substance",
+          matchEn: "Measured in the mole (mol)",
+          matchMy: "Mole (mol) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w1-dm-2",
+          termEn: "Electric current",
+          termMy: "Electric Current",
+          matchEn: "Measured in the ampere (A)",
+          matchMy: "Ampere (A) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w1-dm-3",
+          termEn: "Luminous intensity",
+          termMy: "Luminous Intensity",
+          matchEn: "Measured in the candela (cd)",
+          matchMy: "Candela (cd) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w1-dm-4",
+          termEn: "Homogeneous equation",
+          termMy: "Homogeneous Equation",
+          matchEn: "An equation where both sides have the same base units",
+          matchMy: "ဘေးနှစ်ဖက်စလုံးတွင် Base Unit တူညီသော Equation",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w1-dm-5",
+          termEn: "Derived unit",
+          termMy: "Derived Unit",
+          matchEn:
+              "A unit built from a combination of base units, e.g. the pascal (Pa)",
+          matchMy:
+              "Base Unit များ ပေါင်းစပ်မှုမှ တည်ဆောက်ထားသော ယူနစ်၊ ဥပမာ Pascal (Pa)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Base Quantity or Derived Quantity?",
+      titleMy: "စီစစ်ကြမည် - Base Quantity လား၊ Derived Quantity လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Base Quantity", "Derived Quantity"],
+        bucketsMy: ["Base Quantity", "Derived Quantity"],
+        items: [
+          SortingItem(
+            id: "y12phys-w1-sort-1",
+            labelEn: "Mass",
+            labelMy: "Mass",
+            correctBucketEn: "Base Quantity",
+            correctBucketMy: "Base Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w1-sort-2",
+            labelEn: "Density",
+            labelMy: "Density",
+            correctBucketEn: "Derived Quantity",
+            correctBucketMy: "Derived Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w1-sort-3",
+            labelEn: "Time",
+            labelMy: "Time",
+            correctBucketEn: "Base Quantity",
+            correctBucketMy: "Base Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w1-sort-4",
+            labelEn: "Pressure",
+            labelMy: "Pressure",
+            correctBucketEn: "Derived Quantity",
+            correctBucketMy: "Derived Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w1-sort-5",
+            labelEn: "Electric current",
+            labelMy: "Electric Current",
+            correctBucketEn: "Base Quantity",
+            correctBucketMy: "Base Quantity",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Checking an Equation for Homogeneity",
+      titleMy: "စာဖတ်ခြင်း - Equation တစ်ခု၏ Homogeneity ကို စစ်ဆေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Checking an Equation for Homogeneity",
+        titleMy: "Equation တစ်ခု၏ Homogeneity ကို စစ်ဆေးခြင်း",
+        passageEn:
+            "Sayama asked her AS Physics class to check whether the equation v² = u² + 2as was homogeneous -- meaning both sides had exactly the same combination of base units. She explained that this is a quick, powerful way to catch a wrong formula before doing any calculation at all: if the units on each side don't match, the equation cannot possibly be correct, no matter how the numbers work out.\n\nZarni started with the left side. Velocity v has units of m s⁻¹, so v² has units of (m s⁻¹)², which is m² s⁻². He then checked the right side term by term. u² has the same units as v², since u is also a velocity: m² s⁻². For the second term, acceleration a has units of m s⁻² and displacement s has units of m, so the product 2as has units of (m s⁻²) x (m), which multiplies out to m² s⁻².\n\nBoth sides of the equation reduced to exactly m² s⁻², so the equation passed the homogeneity check. Sayama reminded the class that passing this check does not prove an equation is correct -- a homogeneity check cannot catch an error in a pure number, like a missing factor of 2 or 0.5, since pure numbers have no units at all. It only proves the equation is not obviously wrong. She then gave a second equation, F = ma², and asked the class to test it themselves: force F has units of kg m s⁻², while mass times acceleration-squared, m multiplied by (m s⁻²)², gives kg m² s⁻⁴ -- units that do not match, so this equation fails the homogeneity check and must be wrong.",
+        passageMy:
+            "Sayama သည် သူမ၏ AS Physics အတန်းကို v² = u² + 2as ဟူသော Equation သည် Homogeneous ဖြစ်မဖြစ် -- ဆိုလိုသည်မှာ ဘေးနှစ်ဖက်စလုံးတွင် Base Unit အတွဲအစပ် အတိအကျ တူညီမတူ -- စစ်ဆေးခိုင်းခဲ့သည်။ ၎င်းသည် တွက်ချက်မှု မပြုမီပင် မှားယွင်းသော Formula ကို လျင်မြန်စွာ၊ အားကောင်းစွာ ဖမ်းယူနိုင်သော နည်းလမ်းဖြစ်ကြောင်း သူမ ရှင်းပြခဲ့သည် -- ဘေးနှစ်ဖက်ရှိ ယူနစ်များ မကိုက်ညီပါက ဂဏန်းများ မည်သို့ပင်ရလဒ်ထွက်စေကာမူ Equation သည် မှန်ကန်နိုင်မည် မဟုတ်ပါ။\n\nZarni သည် ဘယ်ဘက်ခြမ်းမှ စတင်ခဲ့သည်။ Velocity v သည် m s⁻¹ ယူနစ် ရှိသောကြောင့် v² သည် (m s⁻¹)² ဖြစ်ပြီး m² s⁻² ဖြစ်သည်။ ထို့နောက် ညာဘက်ခြမ်းကို Term တစ်ခုချင်း စစ်ဆေးခဲ့သည်။ u သည်လည်း Velocity တစ်ခု ဖြစ်သောကြောင့် u² သည် v² နှင့် ယူနစ် တူညီသည် - m² s⁻²။ ဒုတိယ Term အတွက် Acceleration a သည် m s⁻² ယူနစ်ရှိပြီး Displacement s သည် m ယူနစ်ရှိသဖြင့် 2as ၏ ရလဒ်သည် (m s⁻²) x (m) ဖြစ်ကာ m² s⁻² ဟု မြှောက်ရလဒ် ထွက်ပေါ်လာသည်။\n\nEquation ၏ ဘေးနှစ်ဖက်စလုံးသည် m² s⁻² သို့ အတိအကျ လျှော့ချရရှိသဖြင့် Equation သည် Homogeneity Check ကို ဖြတ်သန်းခဲ့သည်။ ဤ Check ကို ဖြတ်သန်းခြင်းသည် Equation မှန်ကန်ကြောင်း သက်သေမပြနိုင်ကြောင်း Sayama က အတန်းကို သတိပေးခဲ့သည် -- Homogeneity Check သည် 2 သို့မဟုတ် 0.5 ကဲ့သို့ ပျောက်ဆုံးနေသော Pure Number တစ်ခု၏ အမှားကို မဖမ်းနိုင်ပါ၊ အကြောင်းမှာ Pure Number များတွင် ယူနစ် လုံးဝ မရှိသောကြောင့် ဖြစ်သည်။ ၎င်းသည် Equation သည် ထင်ရှားစွာ မှားယွင်းခြင်း မဟုတ်ကြောင်းသာ သက်သေပြသည်။ ထို့နောက် သူမသည် ဒုတိယ Equation F = ma² ကို ပေးပြီး အတန်းကို ကိုယ်တိုင် စမ်းသပ်ရန် တောင်းဆိုခဲ့သည် - Force F သည် kg m s⁻² ယူနစ်ရှိပြီး Mass ကို Acceleration-Squared ဖြင့် မြှောက်သော m x (m s⁻²)² သည် kg m² s⁻⁴ ကို ရရှိသည် -- ယူနစ်များ မကိုက်ညီသဖြင့် ဤ Equation သည် Homogeneity Check ကို ကျရှုံးပြီး မှားယွင်းရမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what units does the left side (v²) reduce to?",
+            questionMy:
+                "စာပိုဒ်အရ ဘယ်ဘက်ခြမ်း (v²) သည် မည်သည့်ယူနစ်သို့ လျှော့ချရရှိသနည်း။",
+            optionsEn: ["m² s⁻²", "m s⁻¹", "kg m s⁻²", "m² s⁻⁴"],
+            optionsMy: ["m² s⁻²", "m s⁻¹", "kg m s⁻²", "m² s⁻⁴"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယ စာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is one thing a homogeneity check cannot catch?",
+            questionMy:
+                "စာပိုဒ်အရ Homogeneity Check တစ်ခုက ဖမ်းယူ၍ မရနိုင်သော အရာတစ်ခုကား အဘယ်နည်း။",
+            optionsEn: [
+              "A missing pure number, like a factor of 2 or 0.5",
+              "A mismatched unit on either side",
+              "Whether the equation uses SI units at all",
+              "The number of terms in the equation",
+            ],
+            optionsMy: [
+              "2 သို့မဟုတ် 0.5 ကဲ့သို့ ပျောက်ဆုံးနေသော Pure Number",
+              "ဘေးတစ်ဖက်ဖက်ရှိ မကိုက်ညီသော ယူနစ်",
+              "Equation သည် SI ယူနစ် လုံးဝ သုံးမသုံး",
+              "Equation ရှိ Term အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence about pure numbers having no units.",
+            ],
+            hintsMy: [
+              "ယူနစ် မရှိသော Pure Number များအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why does F = ma² fail the homogeneity check?",
+            questionMy:
+                "F = ma² သည် Homogeneity Check ကို အဘယ်ကြောင့် ကျရှုံးရသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "kg m s⁻² does not match kg m² s⁻⁴",
+              "Force has no units at all",
+              "Mass and acceleration cannot be multiplied together",
+              "The equation has too many letters",
+            ],
+            optionsMy: [
+              "kg m s⁻² သည် kg m² s⁻⁴ နှင့် မကိုက်ညီသောကြောင့်",
+              "Force တွင် ယူနစ် လုံးဝ မရှိသောကြောင့်",
+              "Mass နှင့် Acceleration တို့ကို မြှောက်၍ မရသောကြောင့်",
+              "Equation တွင် အက္ခရာ အလွန်များနေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: SI Units",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - SI ယူနစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The SI base unit of mass is the...",
+          questionMy: "Mass ၏ SI အခြေခံယူနစ်မှာ...",
+          optionsEn: ["Kilogram (kg)", "Gram (g)", "Newton (N)", "Pound (lb)"],
+          optionsMy: ["Kilogram (kg)", "Gram (g)", "Newton (N)", "Pound (lb)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A homogeneous equation is one where...",
+          questionMy: "Homogeneous Equation ဆိုသည်မှာ...",
+          optionsEn: [
+            "Both sides reduce to the same combination of base units",
+            "Every term uses exactly the same number",
+            "Only one side has any units at all",
+            "The equation contains no letters",
+          ],
+          optionsMy: [
+            "ဘေးနှစ်ဖက်စလုံးသည် Base Unit အတွဲအစပ် တူညီသို့ လျှော့ချရသည်",
+            "Term တိုင်းသည် ဂဏန်း အတိအကျ တူညီသည်",
+            "ဘေးတစ်ဖက်တည်းတွင်သာ ယူနစ် ရှိသည်",
+            "Equation တွင် အက္ခရာ လုံးဝ မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which of these is a derived unit, not a base unit?",
+          questionMy:
+              "အောက်ပါတို့တွင် Base Unit မဟုတ်ဘဲ Derived Unit ဖြစ်သည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The pascal (Pa)",
+            "The kilogram (kg)",
+            "The second (s)",
+            "The kelvin (K)",
+          ],
+          optionsMy: [
+            "Pascal (Pa)",
+            "Kilogram (kg)",
+            "Second (s)",
+            "Kelvin (K)",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "Prefixes, Orders of Magnitude and Estimation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek2 = CourseWeekDef(
+  id: "course-y12-phys-w2",
+  weekNumber: 2,
+  titleEn: "Prefixes, Orders of Magnitude and Estimation",
+  titleMy: "Prefix များ၊ Orders of Magnitude နှင့် ခန့်မှန်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w2-d1",
+      dayNumber: 1,
+      titleEn: "SI Prefixes and Scientific Notation",
+      titleMy: "SI Prefix များနှင့် Scientific Notation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The prefix \"nano-\" (n) represents a factor of...",
+          questionMy: "Prefix \"nano-\" (n) သည် ဆိုလိုသည်မှာ...",
+          optionsEn: ["10⁻⁹", "10⁻⁶", "10⁻³", "10⁹"],
+          optionsMy: ["10⁻⁹", "10⁻⁶", "10⁻³", "10⁹"],
+          correctIndex: 0,
+          hintsEn: [
+            "The common prefix ladder around zero runs ...kilo (10³), milli (10⁻³), micro (10⁻⁶), nano (10⁻⁹), pico (10⁻¹²)...",
+          ],
+          hintsMy: [
+            "သုညပတ်ဝန်းကျင်ရှိ အသုံးများသော Prefix အဆင့်များမှာ ...kilo (10³), milli (10⁻³), micro (10⁻⁶), nano (10⁻⁹), pico (10⁻¹²)... ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wavelength of 500 nm, written in standard form (metres), is...",
+          questionMy:
+              "Wavelength 500 nm ကို Standard Form (Metres) ဖြင့် ရေးလျှင်...",
+          optionsEn: ["5 x 10⁻⁷ m", "5 x 10⁻⁹ m", "5 x 10⁷ m", "5 x 10⁻³ m"],
+          optionsMy: ["5 x 10⁻⁷ m", "5 x 10⁻⁹ m", "5 x 10⁷ m", "5 x 10⁻³ m"],
+          correctIndex: 0,
+          hintsEn: [
+            "500 nm = 500 x 10⁻⁹ m. Move the decimal point so only one non-zero digit remains before it: 5 x 10⁻⁷ m.",
+          ],
+          hintsMy: [
+            "500 nm = 500 x 10⁻⁹ m ။ ၎င်း၏ ရှေ့တွင် သုညမဟုတ်သော ဂဏန်း တစ်လုံးသာ ကျန်ရှိအောင် Decimal Point ကို ရွှေ့ပါ - 5 x 10⁻⁷ m ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The prefix \"giga-\" (G) represents a factor of...",
+          questionMy: "Prefix \"giga-\" (G) သည် ဆိုလိုသည်မှာ...",
+          optionsEn: ["10⁹", "10⁶", "10¹²", "10³"],
+          optionsMy: ["10⁹", "10⁶", "10¹²", "10³"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Prefixes and Their Powers of Ten",
+      titleMy: "တွဲစပ်ကြမည် - Prefix များနှင့် ၎င်းတို့၏ Powers of Ten",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w2-dm-1",
+          termEn: "Pico- (p)",
+          termMy: "Pico- (p)",
+          matchEn: "10⁻¹²",
+          matchMy: "10⁻¹²",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w2-dm-2",
+          termEn: "Micro- (µ)",
+          termMy: "Micro- (µ)",
+          matchEn: "10⁻⁶",
+          matchMy: "10⁻⁶",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w2-dm-3",
+          termEn: "Milli- (m)",
+          termMy: "Milli- (m)",
+          matchEn: "10⁻³",
+          matchMy: "10⁻³",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w2-dm-4",
+          termEn: "Mega- (M)",
+          termMy: "Mega- (M)",
+          matchEn: "10⁶",
+          matchMy: "10⁶",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w2-dm-5",
+          termEn: "Tera- (T)",
+          termMy: "Tera- (T)",
+          matchEn: "10¹²",
+          matchMy: "10¹²",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bigger or Smaller Than One Metre?",
+      titleMy: "စီစစ်ကြမည် - တစ်မီတာထက် ပိုကြီးလား၊ ပိုသေးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Smaller than 1 m", "Larger than 1 m"],
+        bucketsMy: ["1 m ထက် ပိုသေး", "1 m ထက် ပိုကြီး"],
+        items: [
+          SortingItem(
+            id: "y12phys-w2-sort-1",
+            labelEn: "The diameter of a hydrogen atom (~1 x 10⁻¹⁰ m)",
+            labelMy: "Hydrogen Atom တစ်ခု၏ အချင်း (~1 x 10⁻¹⁰ m)",
+            correctBucketEn: "Smaller than 1 m",
+            correctBucketMy: "1 m ထက် ပိုသေး",
+          ),
+          SortingItem(
+            id: "y12phys-w2-sort-2",
+            labelEn: "The wavelength of visible light (~5 x 10⁻⁷ m)",
+            labelMy: "မြင်နိုင်သောအလင်း Wavelength (~5 x 10⁻⁷ m)",
+            correctBucketEn: "Smaller than 1 m",
+            correctBucketMy: "1 m ထက် ပိုသေး",
+          ),
+          SortingItem(
+            id: "y12phys-w2-sort-3",
+            labelEn: "The radius of the Earth (~6.4 x 10⁶ m)",
+            labelMy: "ကမ္ဘာမြေ၏ Radius (~6.4 x 10⁶ m)",
+            correctBucketEn: "Larger than 1 m",
+            correctBucketMy: "1 m ထက် ပိုကြီး",
+          ),
+          SortingItem(
+            id: "y12phys-w2-sort-4",
+            labelEn: "The distance from Earth to the Sun (~1.5 x 10¹¹ m)",
+            labelMy: "ကမ္ဘာမြေမှ နေဝန်းသို့ အကွာအဝေး (~1.5 x 10¹¹ m)",
+            correctBucketEn: "Larger than 1 m",
+            correctBucketMy: "1 m ထက် ပိုကြီး",
+          ),
+          SortingItem(
+            id: "y12phys-w2-sort-5",
+            labelEn: "The width of a human hair (~7 x 10⁻⁵ m)",
+            labelMy: "လူ့ဆံခြည် အကျယ် (~7 x 10⁻⁵ m)",
+            correctBucketEn: "Smaller than 1 m",
+            correctBucketMy: "1 m ထက် ပိုသေး",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Art of the Fermi Estimate",
+      titleMy: "စာဖတ်ခြင်း - Fermi ခန့်မှန်းခြင်း၏ အနုပညာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Art of the Fermi Estimate",
+        titleMy: "Fermi ခန့်မှန်းခြင်း၏ အနုပညာ",
+        passageEn:
+            "Physicist Enrico Fermi was famous for making surprisingly accurate estimates of quantities using very little actual data -- a skill physicists now call a \"Fermi estimate\" or \"order of magnitude\" calculation. The goal is never to get an exact answer, only to get within a power of ten of the true value, using rough but sensible assumptions.\n\nSayar Aung Min demonstrated the technique by asking his class to estimate how many grains of rice would fill their classroom. Nobody knew the answer directly, so instead they built it up from things they could reasonably guess: the classroom was roughly 8 m long, 6 m wide, and 3 m high, giving a volume of about 8 x 6 x 3 = 144 m³. A single grain of rice, they estimated, was roughly 8 mm long and 2 mm wide -- a volume of very roughly 3 x 10⁻⁸ m³ once you account for the gaps between packed grains. Dividing the room's volume by one grain's volume gave an estimate of around 144 divided by 3 x 10⁻⁸, which is roughly 5 x 10⁹ grains -- about five billion.\n\nSayar Aung Min pointed out that almost every number in the calculation was a rough guess, yet the final answer was still useful, because the errors in different directions tend to partly cancel out, and because knowing the answer is \"a few billion\" rather than \"a few thousand\" or \"a few trillion\" is often exactly the kind of insight a scientist or engineer needs before committing to a much more expensive, precise measurement.",
+        passageMy:
+            "ရူပဗေဒပညာရှင် Enrico Fermi သည် အချက်အလက် အလွန်နည်းစွာဖြင့် ပမာဏများကို အံ့ဩဖွယ် တိကျစွာ ခန့်မှန်းနိုင်ခြင်းဖြင့် ကျော်ကြားခဲ့သည် -- ယခုအခါ ရူပဗေဒပညာရှင်များက ဤစွမ်းရည်ကို \"Fermi Estimate\" သို့မဟုတ် \"Order of Magnitude\" တွက်ချက်မှုဟု ခေါ်ကြသည်။ ရည်ရွယ်ချက်မှာ အတိအကျ အဖြေရရှိရန် လုံးဝ မဟုတ်ဘဲ၊ ခန့်မှန်း သို့သော် ဆင်ခြင်တုံတရားရှိသော ယူဆချက်များကို အသုံးပြု၍ အစစ်အမှန်တန်ဖိုးမှ Power of Ten တစ်ခုအတွင်း ရရှိရန်သာ ဖြစ်သည်။\n\nဆရာအောင်မင်းသည် သူ၏ အတန်းကို ၎င်းတို့၏ စာသင်ခန်းကို ဆန်လုံးများဖြင့် ဖြည့်ရန် ဆန်လုံး မည်မျှလိုအပ်မည်ကို ခန့်မှန်းခိုင်းခြင်းဖြင့် နည်းပညာကို သရုပ်ပြခဲ့သည်။ မည်သူမျှ တိုက်ရိုက် အဖြေကို မသိကြသောကြောင့် သူတို့ ခန့်မှန်း သိနိုင်သော အရာများမှ အဆင့်ဆင့် တည်ဆောက်ခဲ့ကြသည် - စာသင်ခန်းသည် ခန့်မှန်းခြေ 8 m ရှည်၊ 6 m ကျယ်၊ 3 m မြင့်ပြီး ၎င်း၏ Volume မှာ 8 x 6 x 3 = 144 m³ ခန့် ရှိသည်။ ဆန်လုံးတစ်လုံး၏ Volume မှာ ခန့်မှန်းခြေ 8 mm ရှည်၊ 2 mm ကျယ်ဟု ခန့်မှန်းခဲ့ကြပြီး -- ထိုးထားသော ဆန်လုံးများကြားရှိ နေရာလွတ်များကို ထည့်တွက်ပါက Volume မှာ ခန့်မှန်းခြေ 3 x 10⁻⁸ m³ ဖြစ်သည်။ အခန်း၏ Volume ကို ဆန်လုံးတစ်လုံး၏ Volume ဖြင့် စားခြင်းအားဖြင့် 144 ကို 3 x 10⁻⁸ ဖြင့် စားသော ခန့်မှန်းခြေ ရလဒ် 5 x 10⁹ ဆန်လုံး -- ဘီလီယံ ငါးခုခန့် ရရှိခဲ့သည်။\n\nတွက်ချက်မှုထဲရှိ ဂဏန်း နီးပါးအားလုံးမှာ ခန့်မှန်းချက်များ ဖြစ်နေသော်လည်း နောက်ဆုံး အဖြေမှာ ဆက်လက် အသုံးဝင်နေဆဲ ဖြစ်ကြောင်း ဆရာအောင်မင်း ထောက်ပြခဲ့သည်၊ အကြောင်းမှာ ဦးတည်ချက် ကွဲပြားသော အမှားများသည် တစ်စိတ်တစ်ပိုင်း အချင်းချင်း ချေဖျက်ကြသောကြောင့်ဖြစ်ပြီး၊ အဖြေသည် \"ထောင်ချီ\" သို့မဟုတ် \"ထရီလီယံချီ\" မဟုတ်ဘဲ \"ဘီလီယံအနည်းငယ်\" ဖြစ်ကြောင်း သိရှိခြင်းသည် သိပ္ပံပညာရှင် သို့မဟုတ် အင်ဂျင်နီယာတစ်ဦးက ပို၍ ကုန်ကျစရိတ်များသော၊ တိကျသော တိုင်းတာမှုတစ်ခုကို မလုပ်ဆောင်မီ လိုအပ်သည့် ထိုးထွင်းသိမြင်မှု အမျိုးအစားပင် ဖြစ်တတ်သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the goal of a Fermi estimate?",
+            questionMy: "စာပိုဒ်အရ Fermi Estimate ၏ ရည်ရွယ်ချက်ကား အဘယ်နည်း။",
+            optionsEn: [
+              "To get within a power of ten of the true value",
+              "To get the exact precise answer",
+              "To avoid making any assumptions at all",
+              "To measure everything directly with instruments",
+            ],
+            optionsMy: [
+              "အစစ်အမှန်တန်ဖိုးမှ Power of Ten တစ်ခုအတွင်း ရရှိရန်",
+              "အတိအကျ တိကျသော အဖြေ ရရှိရန်",
+              "ယူဆချက်များ လုံးဝ မလုပ်ရန်",
+              "အရာအားလုံးကို တိုက်ရိုက် Instrument များဖြင့် တိုင်းတာရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's second sentence."],
+            hintsMy: ["ပထမစာပိုဒ်၏ ဒုတိယစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, roughly how many grains of rice did the class estimate?",
+            questionMy: "စာပိုဒ်အရ အတန်းက ဆန်လုံး မည်မျှခန့်မှန်းခဲ့ကြသနည်း။",
+            optionsEn: [
+              "About five billion",
+              "About five thousand",
+              "About five million",
+              "About five trillion",
+            ],
+            optionsMy: [
+              "ဘီလီယံ ငါးခုခန့်",
+              "ထောင် ငါးခုခန့်",
+              "သန်း ငါးခုခန့်",
+              "ထရီလီယံ ငါးခုခန့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why is the estimate still useful despite the rough guesses?",
+            questionMy:
+                "ခန့်မှန်းချက်များ ရှိနေသော်လည်း ခန့်မှန်းချက်သည် အဘယ့်ကြောင့် ဆက်လက် အသုံးဝင်နေသေးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Errors in different directions tend to partly cancel out",
+              "Every guess in the calculation happened to be exact",
+              "The classroom's volume was measured precisely",
+              "Rice grains are all perfectly identical in size",
+            ],
+            optionsMy: [
+              "ဦးတည်ချက် ကွဲပြားသော အမှားများသည် တစ်စိတ်တစ်ပိုင်း အချင်းချင်း ချေဖျက်ကြသောကြောင့်",
+              "တွက်ချက်မှုထဲရှိ ခန့်မှန်းချက်တိုင်းသည် အတိအကျ မှန်ကန်နေသောကြောင့်",
+              "စာသင်ခန်း၏ Volume ကို တိကျစွာ တိုင်းတာခဲ့သောကြောင့်",
+              "ဆန်လုံးများသည် အရွယ်အစား လုံးဝ တူညီနေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the reason given in the final paragraph."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ရှိ ပေးထားသော အကြောင်းရင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Prefixes and Estimation",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Prefix များနှင့် ခန့်မှန်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The prefix \"kilo-\" (k) represents a factor of...",
+          questionMy: "Prefix \"kilo-\" (k) သည် ဆိုလိုသည်မှာ...",
+          optionsEn: ["10³", "10⁶", "10⁻³", "10⁹"],
+          optionsMy: ["10³", "10⁶", "10⁻³", "10⁹"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A Fermi estimate is best described as...",
+          questionMy: "Fermi Estimate ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A rough calculation aiming to be within a power of ten",
+            "A calculation requiring precise laboratory measurement",
+            "A method used only for measuring electric current",
+            "A calculation that must never involve any guessing",
+          ],
+          optionsMy: [
+            "Power of Ten တစ်ခုအတွင်း ရရှိရန် ရည်ရွယ်သော ခန့်မှန်း တွက်ချက်မှု",
+            "တိကျသော Laboratory တိုင်းတာမှု လိုအပ်သော တွက်ချက်မှု",
+            "Electric Current တိုင်းတာရန်သာ အသုံးပြုသော နည်းလမ်း",
+            "ခန့်မှန်းခြင်း လုံးဝ မပါဝင်ရသော တွက်ချက်မှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "2.5 x 10⁻⁵ m, converted to micrometres (µm), is...",
+          questionMy: "2.5 x 10⁻⁵ m ကို Micrometres (µm) သို့ ပြောင်းလျှင်...",
+          optionsEn: ["25 µm", "2.5 µm", "0.25 µm", "250 µm"],
+          optionsMy: ["25 µm", "2.5 µm", "0.25 µm", "250 µm"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Scalars, Vectors and Vector Addition"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek3 = CourseWeekDef(
+  id: "course-y12-phys-w3",
+  weekNumber: 3,
+  titleEn: "Scalars, Vectors and Vector Addition",
+  titleMy: "Scalar, Vector နှင့် Vector ပေါင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w3-d1",
+      dayNumber: 1,
+      titleEn: "Adding Vectors: The Triangle Rule",
+      titleMy: "Vector ပေါင်းခြင်း - Triangle Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A hiker walks 3 km east, then 4 km north. Using the triangle rule, what is the magnitude of their resultant displacement?",
+          questionMy:
+              "ခရီးသွားတစ်ဦးသည် အရှေ့ဘက်သို့ 3 km၊ ထို့နောက် မြောက်ဘက်သို့ 4 km လမ်းလျှောက်သည်။ Triangle Rule ကို အသုံးပြု၍ ၎င်း၏ Resultant Displacement Magnitude မှာ အဘယ်နည်း။",
+          optionsEn: ["5 km", "7 km", "1 km", "12 km"],
+          optionsMy: ["5 km", "7 km", "1 km", "12 km"],
+          correctIndex: 0,
+          hintsEn: [
+            "The two displacements are perpendicular, so Pythagoras' theorem applies: resultant = √(3² + 4²) = √(9 + 16) = √25.",
+          ],
+          hintsMy: [
+            "Displacement နှစ်ခုသည် Perpendicular ဖြစ်သောကြောင့် Pythagoras' Theorem ကို အသုံးပြုနိုင်သည် - Resultant = √(3² + 4²) = √(9 + 16) = √25 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two forces of 6 N and 8 N act on an object in exactly opposite directions. What is the magnitude of the resultant force?",
+          questionMy:
+              "Force 6 N နှင့် 8 N တို့သည် ပစ္စည်းတစ်ခုပေါ်တွင် ဆန့်ကျင်ဘက် ဦးတည်ချက် အတိအကျဖြင့် သက်ရောက်နေသည်။ Resultant Force ၏ Magnitude မှာ အဘယ်နည်း။",
+          optionsEn: ["2 N", "14 N", "48 N", "0 N"],
+          optionsMy: ["2 N", "14 N", "48 N", "0 N"],
+          correctIndex: 0,
+          hintsEn: [
+            "When two vectors point in exactly opposite directions, subtract their magnitudes: 8 - 6 = 2 N, in the direction of the larger force.",
+          ],
+          hintsMy: [
+            "Vector နှစ်ခုသည် ဆန့်ကျင်ဘက် ဦးတည်ချက် အတိအကျ ညွှန်နေပါက ၎င်းတို့၏ Magnitude ကို နှုတ်ပါ - 8 - 6 = 2 N၊ ပိုကြီးသော Force ၏ ဦးတည်ချက်တွင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which technique allows you to find a resultant vector by scale drawing?",
+          questionMy:
+              "Scale Drawing ဖြင့် Resultant Vector ကို ရှာဖွေနိုင်စေသော နည်းလမ်းကား အဘယ်နည်း။",
+          optionsEn: [
+            "Draw the vectors nose-to-tail, then measure the line from the start to the final tip",
+            "Add the two vectors' lengths together with a ruler, ignoring direction",
+            "Always assume the resultant is exactly halfway between the two vectors",
+            "Draw both vectors starting from completely different points on the page",
+          ],
+          optionsMy: [
+            "Vector များကို Nose-to-Tail ဆွဲပြီး အစမှ နောက်ဆုံး အစွန်းသို့ မျဉ်းကို တိုင်းတာပါ",
+            "ဦးတည်ချက်ကို လျစ်လျူရှု၍ Vector နှစ်ခု၏ အလျားများကို Ruler ဖြင့် ပေါင်းပါ",
+            "Resultant သည် Vector နှစ်ခုကြား တိတိကျကျ တစ်ဝက်တွင် ရှိသည်ဟု အမြဲ ယူဆပါ",
+            "စာမျက်နှာပေါ်ရှိ လုံးဝ ကွဲပြားသော အမှတ်များမှ Vector နှစ်ခုစလုံးကို ဆွဲပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This nose-to-tail method is the graphical version of the triangle rule -- the resultant is the vector that closes the triangle.",
+          ],
+          hintsMy: [
+            "ဤ Nose-to-Tail နည်းလမ်းသည် Triangle Rule ၏ Graphical ဗားရှင်း ဖြစ်သည် -- Resultant သည် Triangle ကို ပိတ်ပေးသော Vector ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Scalar and Vector Terms",
+      titleMy: "တွဲစပ်ကြမည် - Scalar နှင့် Vector ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w3-dm-1",
+          termEn: "Resultant vector",
+          termMy: "Resultant Vector",
+          matchEn:
+              "The single vector that has the same overall effect as two or more combined vectors",
+          matchMy:
+              "ပေါင်းစပ်ထားသော Vector နှစ်ခု (သို့) ထို့ထက်ပို ၏ တူညီသော စုစုပေါင်း သက်ရောက်မှုရှိသော Vector တစ်ခုတည်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w3-dm-2",
+          termEn: "Component of a vector",
+          termMy: "Vector ၏ Component",
+          matchEn:
+              "The effective value of a vector resolved along one chosen direction",
+          matchMy:
+              "ရွေးချယ်ထားသော ဦးတည်ချက်တစ်ခုတစ်လျှောက် ဖြေရှင်းထားသော Vector ၏ Effective တန်ဖိုး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w3-dm-3",
+          termEn: "Equilibrium",
+          termMy: "Equilibrium",
+          matchEn:
+              "The state where the resultant of all forces acting on an object is zero",
+          matchMy:
+              "ပစ္စည်းတစ်ခုပေါ် သက်ရောက်နေသော Force အားလုံး၏ Resultant သည် သုည ဖြစ်သော အခြေအနေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w3-dm-4",
+          termEn: "Free-body diagram",
+          termMy: "Free-Body Diagram",
+          matchEn:
+              "A diagram showing every force acting on a single object as arrows",
+          matchMy:
+              "ပစ္စည်းတစ်ခုတည်းပေါ် သက်ရောက်နေသော Force အားလုံးကို မြားများအဖြစ် ပြသော ပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w3-dm-5",
+          termEn: "Displacement",
+          termMy: "Displacement",
+          matchEn:
+              "A vector quantity: distance travelled in a stated direction from a start point",
+          matchMy:
+              "Vector Quantity တစ်ခု - အစနေရာမှ ဖော်ပြထားသော ဦးတည်ချက်တွင် ခရီးသွားခဲ့သော အကွာအဝေး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Scalar or Vector Quantity?",
+      titleMy: "စီစစ်ကြမည် - Scalar လား၊ Vector Quantity လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Scalar Quantity", "Vector Quantity"],
+        bucketsMy: ["Scalar Quantity", "Vector Quantity"],
+        items: [
+          SortingItem(
+            id: "y12phys-w3-sort-1",
+            labelEn: "Kinetic energy",
+            labelMy: "Kinetic Energy",
+            correctBucketEn: "Scalar Quantity",
+            correctBucketMy: "Scalar Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w3-sort-2",
+            labelEn: "Momentum",
+            labelMy: "Momentum",
+            correctBucketEn: "Vector Quantity",
+            correctBucketMy: "Vector Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w3-sort-3",
+            labelEn: "Electric charge",
+            labelMy: "Electric Charge",
+            correctBucketEn: "Scalar Quantity",
+            correctBucketMy: "Scalar Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w3-sort-4",
+            labelEn: "Weight",
+            labelMy: "Weight",
+            correctBucketEn: "Vector Quantity",
+            correctBucketMy: "Vector Quantity",
+          ),
+          SortingItem(
+            id: "y12phys-w3-sort-5",
+            labelEn: "Density",
+            labelMy: "Density",
+            correctBucketEn: "Scalar Quantity",
+            correctBucketMy: "Scalar Quantity",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Resolving a Force into Components",
+      titleMy: "စာဖတ်ခြင်း - Force တစ်ခုကို Component များအဖြစ် ဖြေရှင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Resolving a Force into Components",
+        titleMy: "Force တစ်ခုကို Component များအဖြစ် ဖြေရှင်းခြင်း",
+        passageEn:
+            "Sayar Ye Min set up a problem for his class: a child pulls a sledge across level snow using a rope held at 30° above the horizontal, applying a force of 40 N along the rope. He asked the class to find the horizontal and vertical components of this force -- the two perpendicular effective forces that, together, produce exactly the same effect as the original 40 N force.\n\nThida remembered that resolving a vector means treating it as the hypotenuse of a right-angled triangle, with the two components as the other two sides. For the horizontal component, adjacent to the 30° angle, she used cosine: horizontal component = 40 x cos(30°), which is 40 x 0.866, giving approximately 34.6 N. For the vertical component, opposite the 30° angle, she used sine: vertical component = 40 x sin(30°), which is 40 x 0.5, giving exactly 20 N.\n\nSayar Ye Min then asked what these two numbers physically meant. Thida explained that the horizontal component, 34.6 N, is the part of the pulling force that actually drags the sledge forward across the snow -- this is the useful part of the force for motion. The vertical component, 20 N, pulls the sledge slightly upward, off the ground, which reduces the normal contact force between the sledge and the snow, and therefore slightly reduces the friction the child has to overcome. She checked her answer using Pythagoras' theorem in reverse: √(34.6² + 20²) = √(1197 + 400) = √1597, which is approximately 40 N, matching the original force -- confirming the two components were resolved correctly.",
+        passageMy:
+            "ဆရာရဲမင်းသည် သူ၏ အတန်းအတွက် ပြဿနာတစ်ခု တင်ပြခဲ့သည် - ကလေးတစ်ဦးသည် ချိုင့်နှင့် 30° ထောင့်ဖြင့် ကိုင်ထားသော ကြိုးကို အသုံးပြု၍ ချိုင့်ရေမြေညီအောက် ကနင်းလှည်းကို 40 N ဖြင့် ကြိုးလျှောက် ဆွဲနေသည်။ ဤ Force ၏ Horizontal နှင့် Vertical Component များကို ရှာရန် အတန်းကို တောင်းဆိုခဲ့သည် -- ပေါင်းလိုက်လျှင် မူလ 40 N Force ကဲ့သို့ တူညီသော သက်ရောက်မှုကို ဖြစ်ပေါ်စေသော Perpendicular Effective Force နှစ်ခု ဖြစ်သည်။\n\nVector တစ်ခုကို ဖြေရှင်းခြင်းသည် ၎င်းကို ညာထောင့် Triangle တစ်ခု၏ Hypotenuse အဖြစ် သတ်မှတ်ပြီး Component နှစ်ခုကို အခြား ဘေးနှစ်ဖက် အဖြစ် သတ်မှတ်ခြင်း ဖြစ်ကြောင်း Thida သတိရခဲ့သည်။ 30° ထောင့်နှင့် Adjacent ဖြစ်သော Horizontal Component အတွက် Cosine ကို အသုံးပြုခဲ့သည် - Horizontal Component = 40 x cos(30°) ဖြစ်ပြီး 40 x 0.866 ဖြစ်ကာ ခန့်မှန်းခြေ 34.6 N ရရှိခဲ့သည်။ 30° ထောင့်နှင့် Opposite ဖြစ်သော Vertical Component အတွက် Sine ကို အသုံးပြုခဲ့သည် - Vertical Component = 40 x sin(30°) ဖြစ်ပြီး 40 x 0.5 ဖြစ်ကာ 20 N အတိအကျ ရရှိခဲ့သည်။\n\nဤဂဏန်းနှစ်ခု ရုပ်ပိုင်းဆိုင်ရာ မည်သို့ ဆိုလိုသည်ကို ဆရာရဲမင်း ထို့နောက် မေးမြန်းခဲ့သည်။ Horizontal Component ဖြစ်သော 34.6 N သည် ကနင်းလှည်းကို နှင်းပေါ်တွင် ရှေ့သို့ တကယ် ဆွဲသွားစေသော ဆွဲငင်မှု Force ၏ အစိတ်အပိုင်း ဖြစ်ကြောင်း -- ၎င်းသည် ရွေ့လျားမှုအတွက် အသုံးဝင်သော Force ၏ အပိုင်း ဖြစ်ကြောင်း Thida ရှင်းပြခဲ့သည်။ Vertical Component ဖြစ်သော 20 N သည် ကနင်းလှည်းကို မြေမှ အနည်းငယ် အထက်သို့ ဆွဲတင်ပေးပြီး ကနင်းလှည်းနှင့် နှင်းကြား Normal Contact Force ကို လျော့ကျစေကာ ကလေး ကျော်လွှားရမည့် Friction ကို အနည်းငယ် လျော့ကျစေသည်။ Pythagoras' Theorem ကို ပြောင်းပြန်အသုံးပြု၍ သူမ အဖြေကို စစ်ဆေးခဲ့သည် - √(34.6² + 20²) = √(1197 + 400) = √1597 ဖြစ်ပြီး ခန့်မှန်းခြေ 40 N ဖြစ်ကာ မူလ Force နှင့် ကိုက်ညီသည် -- Component နှစ်ခုကို မှန်ကန်စွာ ဖြေရှင်းခဲ့ကြောင်း အတည်ပြုပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the approximate horizontal component of the 40 N force?",
+            questionMy:
+                "40 N Force ၏ ခန့်မှန်း Horizontal Component ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["34.6 N", "20 N", "40 N", "10 N"],
+            optionsMy: ["34.6 N", "20 N", "40 N", "10 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cosine calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Cosine တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what effect does the vertical component have on friction?",
+            questionMy:
+                "Vertical Component သည် Friction ပေါ် မည်သို့ သက်ရောက်မှု ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It reduces the normal contact force, slightly reducing friction",
+              "It has no effect on friction whatsoever",
+              "It doubles the friction between sledge and snow",
+              "It only affects friction on a rough road, not snow",
+            ],
+            optionsMy: [
+              "Normal Contact Force ကို လျော့ကျစေပြီး Friction ကို အနည်းငယ် လျော့ကျစေသည်",
+              "Friction ပေါ် မည်သည့် သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+              "ကနင်းလှည်းနှင့် နှင်းကြား Friction ကို နှစ်ဆ ဖြစ်စေသည်",
+              "ကြမ်းတမ်းသော လမ်းပေါ်တွင်သာ Friction ကို သက်ရောက်ပြီး နှင်းပေါ်တွင် မသက်ရောက်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's explanation of the vertical component.",
+            ],
+            hintsMy: [
+              "တတိယစာပိုဒ်ရှိ Vertical Component ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, how did Thida check her answer was correct?",
+            questionMy:
+                "သူမ၏ အဖြေမှန်ကန်ကြောင်း Thida မည်သို့ စစ်ဆေးခဲ့သည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By using Pythagoras' theorem in reverse to recombine the components",
+              "By asking Sayar Ye Min directly for the answer",
+              "By measuring the sledge's actual speed",
+              "By repeating the experiment with a different rope",
+            ],
+            optionsMy: [
+              "Component များကို ပြန်ပေါင်းရန် Pythagoras' Theorem ကို ပြောင်းပြန်အသုံးပြုခြင်းဖြင့်",
+              "ဆရာရဲမင်းကို အဖြေအတွက် တိုက်ရိုက် မေးမြန်းခြင်းဖြင့်",
+              "ကနင်းလှည်း၏ တကယ့် Speed ကို တိုင်းတာခြင်းဖြင့်",
+              "မတူညီသော ကြိုးဖြင့် စမ်းသပ်မှုကို ထပ်လုပ်ခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Vectors",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Vector များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A vector quantity is one that has...",
+          questionMy: "Vector Quantity ဆိုသည်မှာ...",
+          optionsEn: [
+            "Both magnitude and direction",
+            "Magnitude only, no direction",
+            "Direction only, no magnitude",
+            "Neither magnitude nor direction",
+          ],
+          optionsMy: [
+            "Magnitude နှင့် Direction နှစ်ခုစလုံး",
+            "Magnitude သာ၊ Direction မရှိ",
+            "Direction သာ၊ Magnitude မရှိ",
+            "Magnitude နှင့် Direction နှစ်ခုစလုံး မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two perpendicular vectors of 6 N and 8 N combine to give a resultant of...",
+          questionMy:
+              "Perpendicular Vector 6 N နှင့် 8 N ပေါင်းလျှင် Resultant မှာ...",
+          optionsEn: ["10 N", "14 N", "2 N", "48 N"],
+          optionsMy: ["10 N", "14 N", "2 N", "48 N"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An object is in equilibrium when...",
+          questionMy: "ပစ္စည်းတစ်ခုသည် Equilibrium ဖြစ်သည့်အခါ...",
+          optionsEn: [
+            "The resultant of all forces acting on it is zero",
+            "It is moving at a very high speed",
+            "Only one force acts on it",
+            "It has zero mass",
+          ],
+          optionsMy: [
+            "၎င်းပေါ် သက်ရောက်နေသော Force အားလုံး၏ Resultant သည် သုည ဖြစ်သည်",
+            "အလွန် မြန်ဆန်သော Speed ဖြင့် ရွေ့လျားနေသည်",
+            "Force တစ်ခုသာ ၎င်းပေါ် သက်ရောက်နေသည်",
+            "Mass သုည ရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4: "Measurement, Uncertainty and Practical Skills" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek4 = CourseWeekDef(
+  id: "course-y12-phys-w4",
+  weekNumber: 4,
+  titleEn: "Measurement, Uncertainty and Practical Skills",
+  titleMy: "တိုင်းတာမှု၊ Uncertainty နှင့် လက်တွေ့ စွမ်းရည်များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w4-d1",
+      dayNumber: 1,
+      titleEn: "Systematic and Random Errors",
+      titleMy: "Systematic နှင့် Random Error များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A metre rule with a worn, incorrectly-positioned zero mark causes every reading in an experiment to be too large by the same fixed amount. This is an example of...",
+          questionMy:
+              "မှားယွင်းစွာ တည်နေရာချထားသော Zero အမှတ် ပျက်စီးနေသော Metre Rule တစ်ခုသည် စမ်းသပ်မှုတစ်ခုရှိ ဖတ်ရှုမှုတိုင်းကို တူညီသော ပမာဏတစ်ခုဖြင့် အလွန်ကြီးစေသည်။ ၎င်းသည် ဥပမာဖြစ်သည်...",
+          optionsEn: [
+            "A systematic error",
+            "A random error",
+            "A calculation mistake, not a real error type",
+            "Zero uncertainty",
+          ],
+          optionsMy: [
+            "Systematic Error",
+            "Random Error",
+            "တွက်ချက်မှု အမှား၊ တကယ့် Error အမျိုးအစား မဟုတ်ပါ",
+            "Zero Uncertainty",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A systematic error shifts every reading in the same direction by a consistent amount, often caused by a faulty instrument or a flawed technique -- it cannot be reduced by simply repeating the measurement.",
+          ],
+          hintsMy: [
+            "Systematic Error သည် ဖတ်ရှုမှုတိုင်းကို တစ်သမတ်တည်း ပမာဏတစ်ခုဖြင့် ဦးတည်ချက် တစ်ခုတည်းသို့ ရွှေ့ပေးပြီး များသောအားဖြင့် ချို့ယွင်းသော Instrument သို့မဟုတ် ချို့ယွင်းသော နည်းလမ်းကြောင့် ဖြစ်တတ်သည် -- တိုင်းတာမှုကို ရိုးရှင်းစွာ ထပ်ခါထပ်ခါ လုပ်ခြင်းဖြင့် မလျော့ချနိုင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student times a pendulum's swing five times and gets slightly different values each time, scattered both above and below the true value. This scatter is best described as...",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် ချိန်တွယ်တံ ခါလှုပ်ချိန်ကို ငါးကြိမ် တိုင်းတာသည့်အခါ တစ်ကြိမ်စီ အနည်းငယ် ကွဲပြားသော တန်ဖိုးများ ရရှိပြီး အစစ်အမှန်တန်ဖိုး၏ အထက်နှင့် အောက် နှစ်ဖက်စလုံးတွင် ပျံ့နှံ့နေသည်။ ဤ ပျံ့နှံ့မှုကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A random error",
+            "A systematic error",
+            "A zero error",
+            "A definitional uncertainty in the pendulum itself",
+          ],
+          optionsMy: [
+            "Random Error",
+            "Systematic Error",
+            "Zero Error",
+            "ချိန်တွယ်တံ ကိုယ်တိုင်ရှိ Definitional Uncertainty",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Random errors scatter readings unpredictably above and below the true value, often from human reaction time -- taking an average of repeated readings reduces their effect.",
+          ],
+          hintsMy: [
+            "Random Error များသည် အစစ်အမှန်တန်ဖိုး၏ အထက်နှင့် အောက်တွင် မှန်းဆမရနိုင်စွာ ဖတ်ရှုမှုများကို ပျံ့နှံ့စေပြီး များသောအားဖြင့် လူ၏ Reaction Time မှ ဖြစ်တတ်သည် -- ထပ်ခါထပ်ခါ ဖတ်ရှုမှုများ၏ ပျမ်းမျှတန်ဖိုး ယူခြင်းသည် ၎င်းတို့၏ သက်ရောက်မှုကို လျော့ချပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A measurement of 25.0 ± 0.5 cm has a percentage uncertainty of...",
+          questionMy:
+              "25.0 ± 0.5 cm တိုင်းတာမှု၏ Percentage Uncertainty မှာ...",
+          optionsEn: ["2%", "0.5%", "5%", "20%"],
+          optionsMy: ["2%", "0.5%", "5%", "20%"],
+          correctIndex: 0,
+          hintsEn: [
+            "Percentage uncertainty = (absolute uncertainty / measured value) x 100 = (0.5 / 25.0) x 100 = 2%.",
+          ],
+          hintsMy: [
+            "Percentage Uncertainty = (Absolute Uncertainty / တိုင်းတာသော တန်ဖိုး) x 100 = (0.5 / 25.0) x 100 = 2% ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Instruments and What They Measure",
+      titleMy:
+          "တွဲစပ်ကြမည် - Instrument များနှင့် ၎င်းတို့ တိုင်းတာသည့်အရာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w4-dm-1",
+          termEn: "Micrometer screw gauge",
+          termMy: "Micrometer Screw Gauge",
+          matchEn:
+              "Very small lengths, e.g. a wire's diameter, to 0.01 mm precision",
+          matchMy:
+              "Wire တစ်ခု၏ အချင်းကဲ့သို့ လျားလျားငယ်သော Length ကို 0.01 mm တိကျမှုအထိ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w4-dm-2",
+          termEn: "Vernier calipers",
+          termMy: "Vernier Calipers",
+          matchEn: "Internal, external and depth lengths to 0.01 cm precision",
+          matchMy:
+              "Internal, External နှင့် Depth Length များကို 0.01 cm တိကျမှုအထိ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w4-dm-3",
+          termEn: "Metre rule",
+          termMy: "Metre Rule",
+          matchEn: "Longer lengths, typically to 0.1 cm precision",
+          matchMy: "ပိုရှည်သော Length များကို ပုံမှန် 0.1 cm တိကျမှုအထိ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w4-dm-4",
+          termEn: "Digital multimeter",
+          termMy: "Digital Multimeter",
+          matchEn: "Current, potential difference, and resistance",
+          matchMy: "Current, Potential Difference နှင့် Resistance",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w4-dm-5",
+          termEn: "Data logger with light gate",
+          termMy: "Light Gate ပါသော Data Logger",
+          matchEn:
+              "Short time intervals, e.g. a trolley's speed through a gate",
+          matchMy:
+              "Gate တစ်ခုကို ဖြတ်သန်းသော Trolley ၏ Speed ကဲ့သို့ အချိန် အတိုင်းအတာ တိုတို",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Systematic Error or Random Error?",
+      titleMy: "စီစစ်ကြမည် - Systematic Error လား၊ Random Error လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Systematic Error", "Random Error"],
+        bucketsMy: ["Systematic Error", "Random Error"],
+        items: [
+          SortingItem(
+            id: "y12phys-w4-sort-1",
+            labelEn:
+                "A stopwatch that reads 0.2 s before the button is even pressed",
+            labelMy: "ခလုတ် မနှိပ်မီပင် 0.2 s ပြသော Stopwatch",
+            correctBucketEn: "Systematic Error",
+            correctBucketMy: "Systematic Error",
+          ),
+          SortingItem(
+            id: "y12phys-w4-sort-2",
+            labelEn:
+                "Slightly different human reaction times when starting/stopping a stopwatch",
+            labelMy:
+                "Stopwatch စတင်/ရပ်တန့်စဉ် အနည်းငယ် ကွဲပြားသော လူ့ Reaction Time",
+            correctBucketEn: "Random Error",
+            correctBucketMy: "Random Error",
+          ),
+          SortingItem(
+            id: "y12phys-w4-sort-3",
+            labelEn:
+                "Parallax error from reading a scale at a slightly different angle each time",
+            labelMy:
+                "အကြိမ်တိုင်း အနည်းငယ် ကွဲပြားသော ထောင့်တွင် Scale ဖတ်ခြင်းမှ Parallax Error",
+            correctBucketEn: "Random Error",
+            correctBucketMy: "Random Error",
+          ),
+          SortingItem(
+            id: "y12phys-w4-sort-4",
+            labelEn:
+                "A balance that is not properly zeroed before every measurement",
+            labelMy:
+                "တိုင်းတာမှုတိုင်းမတိုင်မီ မှန်ကန်စွာ Zero မချထားသော Balance",
+            correctBucketEn: "Systematic Error",
+            correctBucketMy: "Systematic Error",
+          ),
+          SortingItem(
+            id: "y12phys-w4-sort-5",
+            labelEn:
+                "Background electrical noise causing a voltmeter reading to fluctuate slightly",
+            labelMy:
+                "Voltmeter ဖတ်ရှုမှုကို အနည်းငယ် အတက်အကျ ဖြစ်စေသော နောက်ခံ လျှပ်စစ် Noise",
+            correctBucketEn: "Random Error",
+            correctBucketMy: "Random Error",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Precision, Accuracy and a Real Experiment",
+      titleMy: "စာဖတ်ခြင်း - Precision, Accuracy နှင့် တကယ့် စမ်းသပ်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Precision, Accuracy and a Real Experiment",
+        titleMy: "Precision, Accuracy နှင့် တကယ့် စမ်းသပ်မှု",
+        passageEn:
+            "Sayama Hla Hla Win reminded her AS class that \"precision\" and \"accuracy\" are not the same thing, even though people often use the words interchangeably in everyday speech. A measurement is precise if repeated readings are close to each other -- small random error, tightly clustered. A measurement is accurate if the readings are close to the true, accepted value -- small overall error, whether random or systematic.\n\nShe illustrated this with a target analogy: shots clustered tightly together but far from the bullseye are precise but not accurate, meaning a systematic error is likely present. Shots scattered all around the bullseye, with an average roughly at the centre, are accurate on average but not precise, meaning random error dominates. Shots clustered tightly around the bullseye itself are both precise and accurate -- the ideal result.\n\nHer class then measured the diameter of a wire using a micrometer screw gauge, taking six readings at different points along the wire: 0.72 mm, 0.71 mm, 0.73 mm, 0.72 mm, 0.71 mm, and 0.72 mm. The readings clustered tightly (small random error, so the measurement was precise), and the mean of 0.72 mm matched the wire's manufacturer specification closely, so the class concluded their measurement was both precise and accurate. Sayama Hla Hla Win pointed out one further subtlety: before trusting that conclusion completely, they should also check the micrometer's zero error -- closing the jaws fully and confirming the scale reads exactly zero -- since a systematic zero error would shift every one of those six readings by the same fixed amount without at all affecting how tightly they clustered together.",
+        passageMy:
+            "\"Precision\" နှင့် \"Accuracy\" သည် နေ့စဉ်စကားပြောတွင် လူများက အပြန်အလှန် သုံးလေ့ရှိသော်လည်း တူညီသော အရာ မဟုတ်ကြောင်း ဆရာမ လှလှဝင်းက သူမ၏ AS အတန်းကို သတိပေးခဲ့သည်။ ထပ်ခါထပ်ခါ ဖတ်ရှုမှုများသည် တစ်ခုနှင့်တစ်ခု နီးကပ်နေပါက -- Random Error သေးငယ်ပြီး တင်းကျပ်စွာ စုစည်းနေပါက -- ဤတိုင်းတာမှုသည် Precise ဖြစ်သည်။ ဖတ်ရှုမှုများသည် အစစ်အမှန်၊ လက်ခံထားသော တန်ဖိုးနှင့် နီးကပ်နေပါက -- Random သို့မဟုတ် Systematic မဆို စုစုပေါင်း Error သေးငယ်နေပါက -- ဤတိုင်းတာမှုသည် Accurate ဖြစ်သည်။\n\n၎င်းကို Target Analogy ဖြင့် သူမ သရုပ်ပြခဲ့သည် - တင်းကျပ်စွာ စုစည်းနေသော်လည်း Bullseye နှင့် ဝေးကွာနေသော ပစ်ခတ်မှုများသည် Precise ဖြစ်သော်လည်း Accurate မဟုတ်ပါ၊ ဆိုလိုသည်မှာ Systematic Error ရှိနိုင်ခြေ များသည်။ Bullseye ပတ်လည်တွင် ပျံ့နှံ့နေသော်လည်း ပျမ်းမျှတန်ဖိုးမှာ အလယ်တွင် ခန့်မှန်းခြေ ရှိသော ပစ်ခတ်မှုများသည် ပျမ်းမျှအားဖြင့် Accurate ဖြစ်သော်လည်း Precise မဟုတ်ပါ၊ ဆိုလိုသည်မှာ Random Error က လွှမ်းမိုးနေသည်။ Bullseye ကိုယ်တိုင်ပတ်လည် တင်းကျပ်စွာ စုစည်းနေသော ပစ်ခတ်မှုများသည် Precise နှင့် Accurate နှစ်ခုစလုံး ဖြစ်သည် -- စံပြ ရလဒ် ဖြစ်သည်။\n\nထို့နောက် သူမ၏ အတန်းသည် Micrometer Screw Gauge ကို အသုံးပြု၍ Wire တစ်ခု၏ အချင်းကို Wire တစ်လျှောက် မတူညီသော နေရာများတွင် ဖတ်ရှုမှု ခြောက်ကြိမ် ယူ၍ တိုင်းတာခဲ့သည် - 0.72 mm, 0.71 mm, 0.73 mm, 0.72 mm, 0.71 mm, 0.72 mm ။ ဖတ်ရှုမှုများသည် တင်းကျပ်စွာ စုစည်းနေခဲ့သည် (Random Error သေးငယ်သောကြောင့် တိုင်းတာမှုသည် Precise ဖြစ်ခဲ့သည်)၊ ပျမ်းမျှတန်ဖိုး 0.72 mm သည် Wire ထုတ်လုပ်သူ၏ သတ်မှတ်ချက်နှင့် နီးကပ်စွာ ကိုက်ညီခဲ့သောကြောင့် တိုင်းတာမှုသည် Precise နှင့် Accurate နှစ်ခုစလုံး ဖြစ်ကြောင်း အတန်းက ကောက်ချက်ချခဲ့ကြသည်။ ထို ကောက်ချက်ကို လုံးဝ မယုံကြည်မီ Micrometer ၏ Zero Error ကိုပါ စစ်ဆေးသင့်ကြောင်း -- Jaw များကို အပြည့်ပိတ်ပြီး Scale သည် သုည အတိအကျ ပြသနေမနေ အတည်ပြုခြင်း -- ထပ်ဆောင်း သိမ်မွေ့ချက်တစ်ခုကို ဆရာမ လှလှဝင်း ထောက်ပြခဲ့သည်၊ အကြောင်းမှာ Systematic Zero Error တစ်ခုသည် ထို ဖတ်ရှုမှု ခြောက်ခုစလုံးကို ၎င်းတို့ မည်မျှ တင်းကျပ်စွာ စုစည်းမည်ကို လုံးဝ မထိခိုက်စေဘဲ တူညီသော ပမာဏတစ်ခုဖြင့် ရွှေ့ပေးလိမ့်မည် ဖြစ်သောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does it mean for a measurement to be precise?",
+            questionMy:
+                "တိုင်းတာမှုတစ်ခု Precise ဖြစ်ခြင်း ဆိုသည်မှာ အဘယ်ကို ဆိုလိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Repeated readings are close to each other",
+              "Readings are close to the true accepted value",
+              "Only one reading is ever taken",
+              "The measurement uses the most expensive instrument available",
+            ],
+            optionsMy: [
+              "ထပ်ခါထပ်ခါ ဖတ်ရှုမှုများသည် တစ်ခုနှင့်တစ်ခု နီးကပ်နေသည်",
+              "ဖတ်ရှုမှုများသည် အစစ်အမှန် လက်ခံထားသော တန်ဖိုးနှင့် နီးကပ်နေသည်",
+              "ဖတ်ရှုမှု တစ်ကြိမ်သာ ယူသည်",
+              "အကုန်ကျဆုံး Instrument ကို အသုံးပြုသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the passage's first paragraph definition of precise.",
+            ],
+            hintsMy: [
+              "ပထမစာပိုဒ်ရှိ Precise ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the mean of the six wire-diameter readings?",
+            questionMy:
+                "Wire အချင်း ဖတ်ရှုမှု ခြောက်ခု၏ ပျမ်းမျှတန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.72 mm", "0.71 mm", "0.73 mm", "0.70 mm"],
+            optionsMy: ["0.72 mm", "0.71 mm", "0.73 mm", "0.70 mm"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conclusion."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what would a systematic zero error do to the six readings?",
+            questionMy:
+                "Systematic Zero Error တစ်ခုသည် ဖတ်ရှုမှု ခြောက်ခုကို မည်သို့ ပြုလုပ်မည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Shift all six by the same fixed amount without affecting how tightly they cluster",
+              "Make the six readings scatter randomly further apart",
+              "Have no effect on the readings at all",
+              "Only affect the very first of the six readings",
+            ],
+            optionsMy: [
+              "၎င်းတို့ မည်မျှ တင်းကျပ်စွာ စုစည်းမည်ကို မထိခိုက်ဘဲ ခြောက်ခုစလုံးကို တူညီသော ပမာဏတစ်ခုဖြင့် ရွှေ့ပေးသည်",
+              "ခြောက်ခု ဖတ်ရှုမှုများကို မှန်းဆမရနိုင်စွာ ပို၍ ဝေးကွာစွာ ပျံ့နှံ့စေသည်",
+              "ဖတ်ရှုမှုများပေါ် မည်သည့် သက်ရောက်မှုမျှ လုံးဝ မရှိပါ",
+              "ခြောက်ခုအနက် ပထမဆုံး ဖတ်ရှုမှုကိုသာ သက်ရောက်စေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: Physical Quantities and Measurement",
+      titleMy: "Term ၁ အထွတ်အထိပ် - Physical Quantities နှင့် Measurement",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student measures a length as 12.0 ± 0.1 cm. The percentage uncertainty is closest to...",
+          questionMy:
+              "ကျောင်းသားတစ်ဦးသည် Length ကို 12.0 ± 0.1 cm ဟု တိုင်းတာသည်။ Percentage Uncertainty မှာ...",
+          optionsEn: ["0.8%", "8%", "1.2%", "0.1%"],
+          optionsMy: ["0.8%", "8%", "1.2%", "0.1%"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Shots clustered tightly together but consistently far from the bullseye illustrate...",
+          questionMy:
+              "တင်းကျပ်စွာ စုစည်းနေသော်လည်း Bullseye နှင့် အမြဲဝေးကွာနေသော ပစ်ခတ်မှုများသည် သရုပ်ဖော်သည်...",
+          optionsEn: [
+            "Precise but not accurate (likely systematic error)",
+            "Accurate but not precise",
+            "Neither precise nor accurate",
+            "Both precise and accurate",
+          ],
+          optionsMy: [
+            "Precise သော်လည်း Accurate မဟုတ် (Systematic Error ရှိနိုင်ခြေ များ)",
+            "Accurate သော်လည်း Precise မဟုတ်",
+            "Precise လည်း မဟုတ်၊ Accurate လည်း မဟုတ်",
+            "Precise နှင့် Accurate နှစ်ခုစလုံး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which quantity below is correctly matched with its SI base unit?",
+          questionMy:
+              "အောက်ပါ ပမာဏများအနက် ၎င်း၏ SI Base Unit နှင့် မှန်ကန်စွာ တွဲထားသည်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Amount of substance -- the mole (mol)",
+            "Force -- the kelvin (K)",
+            "Pressure -- the ampere (A)",
+            "Energy -- the mole (mol)",
+          ],
+          optionsMy: [
+            "Amount of Substance -- Mole (mol)",
+            "Force -- Kelvin (K)",
+            "Pressure -- Ampere (A)",
+            "Energy -- Mole (mol)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two vectors of equal magnitude point in exactly opposite directions. Their resultant is...",
+          questionMy:
+              "Magnitude တူညီသော Vector နှစ်ခုသည် ဆန့်ကျင်ဘက် ဦးတည်ချက် အတိအကျ ညွှန်နေသည်။ ၎င်းတို့၏ Resultant မှာ...",
+          optionsEn: [
+            "Zero",
+            "Double either vector",
+            "Impossible to determine",
+            "Always positive",
+          ],
+          optionsMy: [
+            "Zero",
+            "Vector တစ်ခုခု၏ နှစ်ဆ",
+            "ဆုံးဖြတ်၍ မရနိုင်ပါ",
+            "အမြဲ Positive",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
+  id: "course-y12-phys-term1",
+  termNumber: 1,
+  titleEn: "Physical Quantities, Units and Measurement",
+  titleMy: "Physical Quantities, Units နှင့် Measurement",
+  weeks: [_y12PhysWeek1, _y12PhysWeek2, _y12PhysWeek3, _y12PhysWeek4],
+  certificateTitleEn: "AS Physics: Quantities and Measurement",
+  certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
+);
+
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Term 1
+/// (Physical Quantities, Units and Measurement) authored; Terms 2-9
+/// (Kinematics; Dynamics; Forces, Density and Pressure; Work, Energy and
+/// Power; Deformation of Solids; Waves and the Electromagnetic Spectrum;
+/// Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
+/// No LaTeX renderer exists in this app -- formulas throughout use the
+/// same plain Unicode math notation (², √, x for multiplication) already
+/// established by the IGCSE pathways, not literal LaTeX markup.
+const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
+  id: "course-year12-physics",
+  subject: "physics",
+  grade: Grade.year12,
+  titleEn: "A-Level Physics — Year 12 (AS)",
+  titleMy: "A-Level ရူပဗေဒ — Year ၁၂ (AS)",
+  descriptionEn:
+      "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
+  descriptionMy:
+      "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 4,
+  terms: [year12PhysicsTerm1],
+);
+
 // __TERMS_MARKER__
 
 /// IGCSE Physics pathway -- complete, all 9 terms authored (36 weeks /
