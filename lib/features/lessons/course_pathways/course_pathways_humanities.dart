@@ -114931,4 +114931,1448 @@ const CourseTermDef _sec1HumTerm9 = CourseTermDef(
   certificateTitleMy: "Secondary 1 Humanities (သမိုင်းနှင့် ပထဝီဝင်)",
   weeks: [_sec1HumWeek33, _sec1HumWeek34, _sec1HumWeek35, _sec1HumWeek36],
 );
+// =====================================================================
+// Secondary 2 Humanities (Year 8) -- "Exploration, Empire and
+// Change". Topic-driven, following the same Secondary-tier convention
+// as Secondary 1 Humanities (a rotating cast of named Myanmar
+// students rather than one fixed protagonist). Continues directly
+// from Secondary 1's foundations, moving the history strand forward
+// in time (medieval to early modern/industrial) while continuing the
+// geography strand (rivers/agriculture, population/movement).
+// Term 1: The Age of Exploration (Weeks 1-4)
+// Term 1, Week 1: "Motives for Exploration: God, Gold, and Glory"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek1 = CourseWeekDef(
+  id: "course-sec2-hum-w1",
+  weekNumber: 1,
+  titleEn: "Motives for Exploration: God, Gold, and Glory",
+  titleMy: "Exploration ၏ Motive များ - ဘာသာရေး, ရွှေနှင့် ဂုဏ်ပကာသ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w1-d1",
+      dayNumber: 1,
+      titleEn: "Why European Voyages Began in the Fifteenth Century",
+      titleMy: "European Voyage များ ဆယ့်ငါးရာစုတွင် အဘယ်ကြောင့် စတင်ခဲ့သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians typically explain the Age of Exploration using multiple motives (often summarized as religion, wealth, and national prestige) rather than a single cause?",
+          questionMy:
+              "Historian များသည် Age of Exploration ကို Cause တစ်ခုတည်းအစား Motive များစွာ (မကြာခဏ ဘာသာရေး, ချမ်းသာကြွယ်ဝမှုနှင့် National Prestige အဖြစ် အနှစ်ချုပ်) ဖြင့် ယေဘုယျအားဖြင့် ရှင်းပြကြသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "European monarchs, merchants, and missionaries each had different, genuine reasons for supporting exploration, and weighing all of them together gives a more accurate picture than crediting just one",
+            "Only one single motive has ever explained any voyage of exploration in history",
+            "Multiple motives have no actual connection to why exploration voyages were funded",
+            "Weighing multiple motives always produces a less accurate explanation than picking one",
+          ],
+          optionsMy: [
+            "European ဘုရင်များ, ကုန်သည်များနှင့် သာသနာပြုများသည် Exploration ကို ထောက်ခံရန် တစ်ဦးစီ ကွဲပြား၊ စစ်မှန်သော အကြောင်းရင်းများ ရှိခဲ့ပြီး ၎င်းတို့ အားလုံးကို အတူတကွ ချိန်ဆခြင်းသည် တစ်ခုတည်းကိုသာ Credit ပေးခြင်းထက် ပို၍ တိကျသော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Motive တစ်ခုတည်းသာ သမိုင်းတွင် Exploration Voyage မည်သည်ကိုမဆို ဘယ်တော့မှ ရှင်းပြခဲ့ခြင်း",
+            "Multiple Motive များသည် Exploration Voyage များ ဘာကြောင့် ရန်ပုံငွေ ရရှိခဲ့သည်နှင့် Actual Connection မရှိခြင်း",
+            "Multiple Motive များ ချိန်ဆခြင်းသည် တစ်ခုတည်း ရွေးချယ်ခြင်းထက် ရှင်းပြချက် ပို၍ တိကျမှု နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same weigh-multiple-factors habit built throughout Secondary 1 Humanities -- applied now to the start of a new historical period.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 Humanities တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Weigh-Multiple-Factors Habit အတိအကျ ဖြစ်ပြီး သမိုင်းကာလ အသစ်တစ်ခု အစပေါ်တွင် ယခု အသုံးချထားခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students be cautious of a source that presents only the 'glory' motive (national prestige and competition between kingdoms) while omitting the economic motive (access to valuable trade goods like spices)?",
+          questionMy:
+              "တန်ဖိုးရှိသော ကုန်ပစ္စည်းများ (Spice ကဲ့သို့) သို့ Access ရရှိခြင်း Economic Motive ကို ချန်ထားပြီး 'Glory' Motive (National Prestige နှင့် ဘုရင့်နိုင်ငံများကြား Competition) ကိုသာ တင်ပြသော Source တစ်ခုကို ကျောင်းသားများ အဘယ်ကြောင့် သတိထားသင့်ရသနည်း။",
+          optionsEn: [
+            "Omitting a documented, significant motive creates an incomplete picture, echoing the caution from Secondary 1's lesson about textbooks that omitted West African empires",
+            "The economic motive for exploration has no actual documented evidence supporting it",
+            "Omitting a motive always creates a more accurate picture of history",
+            "Every source about exploration always covers every motive with equal detail",
+          ],
+          optionsMy: [
+            "Document ပြုလုပ်ထားသော, Significant Motive တစ်ခု ချန်ထားခြင်းသည် West African Empire များ ချန်ထားခဲ့သော Textbook များအကြောင်း Secondary 1 ၏ သင်ခန်းစာမှ သတိပေးချက်ကို ထပ်လောင်း Incomplete ပုံရိပ်တစ်ခု ဖန်တီးသည်",
+            "Exploration အတွက် Economic Motive တွင် ၎င်းကို ထောက်ခံသော Documented Evidence အမှန်တကယ် မရှိခြင်း",
+            "Motive တစ်ခု ချန်ထားခြင်းသည် သမိုင်း၏ ပို၍ တိကျသော ပုံရိပ်တစ်ခု အမြဲ ဖန်တီးခြင်း",
+            "Exploration အကြောင်း Source တိုင်းသည် Motive တိုင်းကို Detail အညီအမျှ အမြဲ ဖုံးအုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls the Ghana/Mali textbook-omission lesson from Secondary 1 -- an incomplete account of motives is just as misleading as an incomplete account of civilizations.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 မှ ဂါနာ/မာလီ Textbook-Omission သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Motive များ၏ Incomplete Account တစ်ခုသည် Civilization များ၏ Incomplete Account တစ်ခုကဲ့သို့ လှည့်ဖြားစေသည်",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim about a specific explorer's motives cite that individual's own documented writings or sponsors' records, rather than assuming every explorer shared identical motives?",
+          questionMy:
+              "Explorer အားလုံးသည် Motive အတူတူ မျှဝေခဲ့သည်ဟု ယူဆမည့်အစား Explorer တိကျတစ်ဦး၏ Motive များအကြောင်း Claim တစ်ခုသည် ထို Individual ၏ ကိုယ်ပိုင် Documented Writing များ (သို့) Sponsor များ၏ Record များကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Individual explorers, like individual serfs or vassals studied in Secondary 1, likely had varied personal motivations, so a specific documented source is more accurate than assuming one uniform motive for everyone",
+            "Every explorer in history shared exactly the same motive with no individual variation whatsoever",
+            "Citing an individual's own documented writings has no actual value when studying their motives",
+            "Assuming uniform motives across all explorers always produces a more accurate historical picture",
+          ],
+          optionsMy: [
+            "Secondary 1 တွင် လေ့လာခဲ့သော Individual Serf (သို့) Vassal များကဲ့သို့ Individual Explorer များသည် ကွဲပြားသော ကိုယ်ပိုင် Motivation များ ရှိနိုင်ခြေရှိသောကြောင့် Specific Documented Source တစ်ခုသည် လူတိုင်းအတွက် Uniform Motive တစ်ခု ယူဆခြင်းထက် ပို၍ တိကျသည်",
+            "သမိုင်းရှိ Explorer တိုင်းသည် Individual Variation မည်သည်မှ မပါဘဲ Motive အတိအကျ တူတူ မျှဝေခဲ့ခြင်း",
+            "Individual တစ်ဦး၏ ကိုယ်ပိုင် Documented Writing များ ကိုးကားခြင်းသည် ၎င်းတို့၏ Motive များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Explorer အားလုံးတစ်လျှောက် Uniform Motive များ ယူဆခြင်းသည် ပို၍ တိကျသော သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Secondary 1's caution against flattening a broad category (serfs, city-states) into one identical story -- individual explorers deserve the same care.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ကျယ်ပြန့်သော Category တစ်ခု (Serf, City-State) ကို Identical Story တစ်ခုတည်းအဖြစ် မညှစ်ချရန် Secondary 1 ၏ သတိပေးချက်နှင့် ချိတ်ဆက်သည် -- Individual Explorer များသည် Care တူတူ ခံထိုက်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exploration Motives Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Exploration Motive Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w1-dm-1",
+          termEn: "Religious motive",
+          termMy: "Religious Motive",
+          matchEn:
+              "The desire to spread a faith or find new converts through exploration",
+          matchMy:
+              "Exploration မှတစ်ဆင့် ယုံကြည်ချက်တစ်ခု ပျံ့နှံ့စေရန် (သို့) Convert အသစ် ရှာဖွေရန် ဆန္ဒ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w1-dm-2",
+          termEn: "Economic motive",
+          termMy: "Economic Motive",
+          matchEn:
+              "The desire for wealth through access to valuable trade goods",
+          matchMy:
+              "တန်ဖိုးရှိသော ကုန်သွယ်ရေးပစ္စည်းများ Access ရရှိခြင်းမှတစ်ဆင့် ချမ်းသာကြွယ်ဝမှုအတွက် ဆန္ဒ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w1-dm-3",
+          termEn: "National prestige motive",
+          termMy: "National Prestige Motive",
+          matchEn:
+              "Competition between kingdoms for status and territorial claims",
+          matchMy:
+              "Status နှင့် နယ်မြေ Claim များအတွက် ဘုရင့်နိုင်ငံများကြား Competition",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w1-dm-4",
+          termEn: "Individual documentation",
+          termMy: "Individual Documentation",
+          matchEn:
+              "A specific explorer's own writings or sponsor records revealing their personal motives",
+          matchMy:
+              "Explorer တစ်ဦး၏ ကိုယ်ပိုင် Motive များ ဖော်ထုတ်ပေးသော ၎င်း ကိုယ်ပိုင် Writing များ (သို့) Sponsor Record များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Religious, Economic, or National Prestige Motive?",
+      titleMy:
+          "စီစစ်ကြမည် - Religious, Economic, (သို့) National Prestige Motive",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Economic Motive", "Religious or National Prestige Motive"],
+        bucketsMy: [
+          "Economic Motive",
+          "Religious (သို့) National Prestige Motive",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w1-sort-1",
+            labelEn:
+                "Seeking a direct sea route to valuable spice-producing regions",
+            labelMy:
+                "တန်ဖိုးရှိသော Spice ထုတ်လုပ်သော ဒေသများသို့ တိုက်ရိုက် ပင်လယ် Route ရှာဖွေခြင်း",
+            correctBucketEn: "Economic Motive",
+            correctBucketMy: "Economic Motive",
+          ),
+          SortingItem(
+            id: "sec2hum-w1-sort-2",
+            labelEn:
+                "A kingdom seeking to outdo a rival kingdom's overseas territorial claims",
+            labelMy:
+                "ဘုရင့်နိုင်ငံတစ်ခု ယှဉ်ပြိုင် ဘုရင့်နိုင်ငံ၏ ပင်လယ်ရပ်ခြား နယ်မြေ Claim များကို ကျော်လွန်ရန် ရှာဖွေခြင်း",
+            correctBucketEn: "Religious or National Prestige Motive",
+            correctBucketMy: "Religious (သို့) National Prestige Motive",
+          ),
+          SortingItem(
+            id: "sec2hum-w1-sort-3",
+            labelEn:
+                "Establishing new trading posts to profit from valuable goods",
+            labelMy:
+                "တန်ဖိုးရှိသော ကုန်ပစ္စည်းများမှ အမြတ်ရရှိရန် ကုန်သွယ်ရေး ဂိတ်အသစ်များ တည်ထောင်ခြင်း",
+            correctBucketEn: "Economic Motive",
+            correctBucketMy: "Economic Motive",
+          ),
+          SortingItem(
+            id: "sec2hum-w1-sort-4",
+            labelEn:
+                "A missionary aboard a voyage documented as seeking to spread the faith",
+            labelMy:
+                "ယုံကြည်ချက်ကို ပျံ့နှံ့စေရန် ရှာဖွေသည်ဟု Document ပြုလုပ်ထားသော Voyage တစ်ခုပေါ်ရှိ သာသနာပြုတစ်ဦး",
+            correctBucketEn: "Religious or National Prestige Motive",
+            correctBucketMy: "Religious (သို့) National Prestige Motive",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Motive Investigation",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Motive Investigation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Motive Investigation",
+        titleMy: "Su Myat Noe ၏ Motive Investigation",
+        passageEn:
+            "For Week 1's opening project of Secondary 2 Humanities, Su Myat Noe was asked to research the motives behind a specific documented fifteenth-century voyage rather than describing exploration in general terms.\n\nHer first draft stated simply that 'explorers wanted glory for their kingdom,' based on a general impression rather than any specific source. Applying the specific-evidence habit built throughout Secondary 1, she went back to primary and secondary accounts connected to her chosen voyage and found a fuller picture: the voyage's royal sponsor had documented interest in outflanking a rival kingdom's trade routes (an economic motive dressed partly in national competition), a missionary aboard had written of hopes to establish new religious contacts, and the ship's own logs recorded detailed interest in a specific valuable good available at the destination.\n\nRather than picking one motive and discarding the others, Su Myat Noe's revised report cited each motive separately with its own specific source -- exactly the weighing-multiple-factors discipline from Secondary 1's Athens-Sparta comparison and Term 8's resource-conflict analysis, now applied to a new historical period.\n\nHer teacher praised the report for treating 'God, gold, and glory' not as a catchy but vague slogan, but as three genuinely documented, separately evidenced motives that happened to overlap in this particular voyage -- exactly the kind of specific, evidenced thinking Secondary 1 Humanities had spent a full year building.",
+        passageMy:
+            "Secondary 2 Humanities ၏ Week 1 ဖွင့်လှစ် Project အတွက် ယေဘုယျ Term များဖြင့် Exploration ကို ဖော်ပြမည့်အစား Document ပြုလုပ်ထားသော ဆယ့်ငါးရာစု Voyage တိကျတစ်ခု နောက်ကွယ်ရှိ Motive များကို Research ပြုလုပ်ရန် Su Myat Noe အား တောင်းဆိုခဲ့သည်။\n\nSpecific Source မည်သည်မှ မပါဘဲ General Impression တစ်ခုအပေါ် အခြေခံ၍ 'Explorer များသည် ၎င်းတို့ ဘုရင့်နိုင်ငံအတွက် Glory လိုချင်ခဲ့ကြသည်' ဟု ၎င်း၏ ပထမ Draft ရိုးရိုးသာ ဖော်ပြခဲ့သည်။ Secondary 1 တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specific-Evidence Habit အသုံးချကာ ၎င်း ရွေးချယ်ထားသော Voyage နှင့် ချိတ်ဆက်ထားသော Primary နှင့် Secondary Account များသို့ ၎င်း ပြန်သွားခဲ့ပြီး ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ရှာဖွေတွေ့ရှိခဲ့သည် - Voyage ၏ ဘုရင့် Sponsor သည် ယှဉ်ပြိုင် ဘုရင့်နိုင်ငံ၏ ကုန်သွယ်ရေး Route များကို ကျော်လွန်ရန် စိတ်ဝင်စားမှုကို Document ပြုလုပ်ထားပြီး (National Competition တွင် တစ်စိတ်တစ်ပိုင်း ဝတ်ဆင်ထားသော Economic Motive တစ်ခု)၊ Voyage ပေါ်ရှိ သာသနာပြုတစ်ဦးသည် ဘာသာရေးဆိုင်ရာ ဆက်ဆံရေးအသစ် တည်ထောင်ရန် မျှော်လင့်ချက်များကို ရေးသားခဲ့ကာ သင်္ဘော ကိုယ်ပိုင် Log များသည် ဦးဆုံးနေရာတွင် ရရှိနိုင်သော တန်ဖိုးရှိသော ကုန်ပစ္စည်းတိကျတစ်ခုအကြောင်း Detailed Interest ကို မှတ်တမ်းတင်ခဲ့သည်။\n\nMotive တစ်ခုကို ရွေးချယ်ကာ အခြားများကို ပယ်ချမည့်အစား Su Myat Noe ၏ ပြင်ဆင်ထားသော Report သည် Motive တစ်ခုစီကို ၎င်းကိုယ်ပိုင် Specific Source ဖြင့် သီးခြားစီ ကိုးကားခဲ့သည် -- Secondary 1 ၏ Athens-Sparta Comparison နှင့် Term 8 ၏ Resource-Conflict Analysis မှ Weighing-Multiple-Factors Discipline အတိအကျ ဖြစ်ပြီး သမိုင်းကာလ အသစ်တစ်ခုပေါ်တွင် ယခု အသုံးချထားခြင်း ဖြစ်သည်။\n\n'God, Gold, and Glory' ကို ဆွဲဆောင်မှုရှိသော်လည်း Vague Slogan တစ်ခုအစား ဤ Voyage တိကျတစ်ခုတွင် Overlap ဖြစ်ခဲ့သော Genuinely Documented, သီးခြားစီ Evidenced Motive သုံးခုအဖြစ် ကိုင်တွယ်ခဲ့သောကြောင့် Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် -- Secondary 1 Humanities နှစ်တစ်ခုလုံး တည်ဆောက်ခဲ့သော Specific, Evidenced Thinking အမျိုးအစား အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three documented motives did Su Myat Noe find connected to her chosen voyage?",
+            questionMy:
+                "၎င်း ရွေးချယ်ထားသော Voyage နှင့် ချိတ်ဆက်ထားသော Su Myat Noe ရှာဖွေတွေ့ရှိခဲ့သော Documented Motive သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Outflanking a rival's trade routes, establishing religious contacts, and interest in a specific valuable good",
+              "No motives of any kind were found connected to the voyage",
+              "Only a single motive with no other documented reasons",
+              "Motives entirely unrelated to trade, religion, or rivalry",
+            ],
+            optionsMy: [
+              "ယှဉ်ပြိုင်၏ ကုန်သွယ်ရေး Route များကို ကျော်လွန်ခြင်း၊ ဘာသာရေးဆိုင်ရာ ဆက်ဆံရေး တည်ထောင်ခြင်းနှင့် တန်ဖိုးရှိသော ကုန်ပစ္စည်းတိကျတစ်ခုအပေါ် စိတ်ဝင်စားမှု",
+              "Voyage နှင့် ချိတ်ဆက်ထားသော Motive မည်သည်မှ ရှာမတွေ့ခဲ့ခြင်း",
+              "အခြား Documented အကြောင်းရင်း မပါဘဲ Motive တစ်ခုတည်း",
+              "Trade, ဘာသာရေး (သို့) Rivalry နှင့် လုံးလုံး မသက်ဆိုင်သော Motive များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's found motives."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော Motive များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Su Myat Noe's revised report treat the three motives?",
+            questionMy:
+                "Motive သုံးခုကို Su Myat Noe ၏ ပြင်ဆင်ထားသော Report မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It cited each motive separately with its own specific source, rather than picking one and discarding the others",
+              "It picked only one motive and completely discarded all the others",
+              "It ignored all three motives entirely with no citation of any kind",
+              "It claimed the three motives had no actual connection to the voyage",
+            ],
+            optionsMy: [
+              "တစ်ခုကို ရွေးချယ်ကာ အခြားများကို ပယ်ချမည့်အစား Motive တစ်ခုစီကို ၎င်းကိုယ်ပိုင် Specific Source ဖြင့် သီးခြားစီ ကိုးကားခဲ့ခြင်း",
+              "Motive တစ်ခုတည်းကိုသာ ရွေးချယ်ကာ အခြားအားလုံးကို လုံးလုံး ပယ်ချခဲ့ခြင်း",
+              "Citation မည်သည်မှ မပါဘဲ Motive သုံးခုစလုံးကို လုံးလုံး လျစ်လျူရှုခဲ့ခြင်း",
+              "Motive သုံးခုတွင် Voyage နှင့် Actual Connection မရှိကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described treatment."],
+            hintsMy: [
+              "ဖော်ပြထားသော Treatment ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did the teacher say the report treated 'God, gold, and glory'?",
+            questionMy:
+                "'God, Gold, and Glory' ကို Report မည်သို့ ကိုင်တွယ်ခဲ့သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As three genuinely documented, separately evidenced motives, not a vague slogan",
+              "As a completely meaningless phrase with no historical value",
+              "As a single motive with no actual distinction between the three words",
+              "As a phrase that had no connection to the voyage being studied",
+            ],
+            optionsMy: [
+              "Vague Slogan တစ်ခု မဟုတ်ဘဲ Genuinely Documented, သီးခြားစီ Evidenced Motive သုံးခုအဖြစ်",
+              "သမိုင်းဆိုင်ရာ Value မရှိသော လုံးလုံး အဓိပ္ပာယ်မရှိသော စကားစုတစ်ခုအဖြစ်",
+              "စကားလုံးသုံးလုံးကြား Actual ခွဲခြားချက် မပါသော Motive တစ်ခုတည်းအဖြစ်",
+              "လေ့လာနေသော Voyage နှင့် Connection မရှိသော စကားစုတစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated treatment."],
+            hintsMy: [
+              "ဖော်ပြထားသော Treatment ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w1-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Exploration Motives Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Exploration Motive မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Historians explain the Age of Exploration using...",
+          questionMy:
+              "Historian များသည် Age of Exploration ကို ...အသုံးပြု၍ ရှင်းပြကြသည်",
+          optionsEn: [
+            "Multiple weighed motives, not a single cause",
+            "Exactly one single cause with no other factors",
+            "No actual motives of any kind whatsoever",
+            "A cause completely unrelated to religion, wealth, or prestige",
+          ],
+          optionsMy: [
+            "Cause တစ်ခုတည်း မဟုတ်ဘဲ Weighed Motive များစွာ",
+            "အခြား Factor မပါဘဲ Cause တစ်ခုတည်း အတိအကျ",
+            "Motive မည်သည်မှ အမှန်တကယ် လုံးဝ",
+            "ဘာသာရေး, ချမ်းသာကြွယ်ဝမှု (သို့) Prestige နှင့် လုံးလုံး မသက်ဆိုင်သော Cause တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A source omitting a documented motive for exploration...",
+          questionMy:
+              "Exploration အတွက် Documented Motive တစ်ခု ချန်ထားသော Source တစ်ခုသည် ...",
+          optionsEn: [
+            "Creates an incomplete, misleading picture",
+            "Always provides the most accurate picture possible",
+            "Has no actual issue worth noticing",
+            "Should never be questioned by anyone",
+          ],
+          optionsMy: [
+            "Incomplete, Misleading ပုံရိပ်တစ်ခု ဖန်တီးသည်",
+            "ဖြစ်နိုင်သမျှ အတိကျဆုံး ပုံရိပ်တစ်ခုကို အမြဲ ပေးအပ်သည်",
+            "သတိပြုထိုက်သည့် ပြဿနာ မည်သည်မှ အမှန်တကယ် မရှိသည်",
+            "မည်သူမျှ ဘယ်တော့မှ မေးခွန်း မထုတ်သင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A specific explorer's motives should be cited using...",
+          questionMy:
+              "Explorer တိကျတစ်ဦး၏ Motive များကို ...အသုံးပြု၍ ကိုးကားသင့်သည်",
+          optionsEn: [
+            "That individual's own documented writings or sponsor records",
+            "An assumption that every explorer shared identical motives",
+            "No evidence of any kind whatsoever",
+            "A guess based purely on general impression",
+          ],
+          optionsMy: [
+            "ထို Individual ၏ ကိုယ်ပိုင် Documented Writing များ (သို့) Sponsor Record များ",
+            "Explorer တိုင်းသည် Motive အတိအကျ တူတူ မျှဝေခဲ့သည်ဟု Assumption",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "General Impression တစ်ခုတည်းအပေါ် အခြေခံသော ခန့်မှန်းချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 1, Week 2: "Key Voyages and Their
+// Documented Routes"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek2 = CourseWeekDef(
+  id: "course-sec2-hum-w2",
+  weekNumber: 2,
+  titleEn: "Key Voyages and Their Documented Routes",
+  titleMy: "Key Voyage များနှင့် ၎င်းတို့၏ Documented Route များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w2-d1",
+      dayNumber: 1,
+      titleEn: "Mapping Real Voyages with Real Evidence",
+      titleMy: "Real Evidence ဖြင့် Real Voyage များ Map ရေးဆွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a map of a fifteenth-century voyage cite the specific documented route (based on ship logs and historical records) rather than a plausible-looking line drawn from general knowledge of the destination?",
+          questionMy:
+              "ဆယ့်ငါးရာစု Voyage တစ်ခု၏ Map တစ်ခုသည် ဦးဆုံးနေရာ၏ General Knowledge မှ ဆွဲထားသော ဖြစ်နိုင်ချေရှိဟန် ရှိသော Line တစ်ခုအစား (သင်္ဘော Log များနှင့် သမိုင်းဆိုင်ရာ Record များအပေါ် အခြေခံသော) Specific Documented Route ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "This maintains the same map-accuracy and specificity standard applied throughout Secondary 1, exactly like the Silk Road project's requirement for documented, cited routes rather than a generic guess",
+            "A plausible-looking guessed line is always more accurate than a documented route",
+            "Ship logs and historical records have no actual value in mapping a voyage",
+            "Map accuracy has no actual connection to how a voyage should be represented",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Silk Road Project ၏ Generic Guess တစ်ခုအစား Document ပြုလုပ်ထားသော, Cited Route များ တောင်းဆိုချက်ကဲ့သို့ Secondary 1 တစ်ခုလုံးတစ်လျှောက် အသုံးချထားသော Map-Accuracy နှင့် Specificity Standard တူတူကို ထိန်းသိမ်းသည်",
+            "ဖြစ်နိုင်ချေရှိဟန် ရှိသော ခန့်မှန်းထားသော Line တစ်ခုသည် Documented Route တစ်ခုထက် အမြဲ ပို၍ တိကျခြင်း",
+            "သင်္ဘော Log များနှင့် သမိုင်းဆိုင်ရာ Record များတွင် Voyage တစ်ခု Map ရေးဆွဲရာတွင် Actual Value မရှိခြင်း",
+            "Map Accuracy သည် Voyage တစ်ခု မည်သို့ ကိုယ်စားပြုသင့်သည်နှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Secondary 1's Silk Road map project -- a specific, documented route is more accurate than a plausible-looking guess.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Silk Road Map Project ကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Specific, Documented Route တစ်ခုသည် ဖြစ်နိုင်ချေရှိဟန် ရှိသော ခန့်မှန်းချက်တစ်ခုထက် ပို၍ တိကျသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students verify a specific claimed 'first' (such as a specific voyage being the first to reach a particular destination by a particular route) rather than repeating a popular claim without checking it?",
+          questionMy:
+              "Claim ပြုလုပ်ထားသော 'ပထမဆုံး' တိကျတစ်ခု (Route တိကျတစ်ခုမှတစ်ဆင့် ဦးဆုံးနေရာတိကျတစ်ခုသို့ ရောက်ရှိသော ပထမဆုံး Voyage တစ်ခုကဲ့သို့) ကို စစ်ဆေးခြင်း မပြုဘဲ ရေပန်းစား Claim တစ်ခုကို ထပ်ခါထပ်ခါ ပြောမည့်အစား ကျောင်းသားများ အဘယ်ကြောင့် အတည်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "Popular claims about historical 'firsts' are sometimes based on incomplete records or later national narratives rather than complete evidence, so checking documented sources matters, exactly as Secondary 1's legacy-verification lesson taught",
+            "Every popular claim about a historical 'first' is always completely accurate with no need for checking",
+            "Verifying claimed 'firsts' has no actual educational value in studying exploration",
+            "Historical records never actually contain any errors or incomplete information",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ 'ပထမဆုံး' များအကြောင်း ရေပန်းစား Claim များသည် တခါတရံ Complete Evidence အစား Incomplete Record များ (သို့) နောက်ပိုင်း National Narrative များအပေါ် အခြေခံတတ်သောကြောင့် Documented Source များ စစ်ဆေးခြင်းသည် Secondary 1 ၏ Legacy-Verification သင်ခန်းစာ သင်ကြားပေးခဲ့သည့်အတိုင်း အရေးကြီးသည်",
+            "သမိုင်းဆိုင်ရာ 'ပထမဆုံး' တစ်ခုအကြောင်း ရေပန်းစား Claim တိုင်းသည် စစ်ဆေးရန် မလိုအပ်ဘဲ လုံးလုံး တိကျခြင်း",
+            "Claim ပြုလုပ်ထားသော 'ပထမဆုံး' များ Verify ပြုလုပ်ခြင်းသည် Exploration လေ့လာရာတွင် Actual Educational Value မရှိခြင်း",
+            "သမိုင်းဆိုင်ရာ Record များတွင် Error (သို့) Incomplete Information မည်သည်မှ အမှန်တကယ် ဘယ်တော့မှ မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 11's legacy-verification habit from Secondary 1, applied now to a claimed 'first' rather than a claimed legacy.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Claim ပြုလုပ်ထားသော Legacy တစ်ခုအစား Claim ပြုလုပ်ထားသော 'ပထမဆုံး' တစ်ခုပေါ်တွင် ယခု အသုံးချထားသော Secondary 1 ၏ Week 11 Legacy-Verification Habit ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a map comparing two different explorers' routes cite the specific years and distances documented for each, rather than presenting them as a vague, undated comparison?",
+          questionMy:
+              "Explorer ကွဲပြားနှစ်ဦး၏ Route များကို နှိုင်းယှဉ်သော Map တစ်ခုသည် Vague, Undated Comparison တစ်ခုအဖြစ် တင်ပြမည့်အစား တစ်ခုစီအတွက် Document ပြုလုပ်ထားသော Specific နှစ်များနှင့် အကွာအဝေးများကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific dates and distances make the comparison checkable and meaningful, matching the fair-comparison discipline built since Secondary 1's Athens-Sparta and kingdom comparisons",
+            "Vague, undated comparisons are always more informative than specific cited data",
+            "Dates and distances have no actual relevance to comparing two explorers' routes",
+            "A comparison between explorers should never actually cite any specific data",
+          ],
+          optionsMy: [
+            "Specific ရက်စွဲများနှင့် အကွာအဝေးများသည် Secondary 1 ၏ Athens-Sparta နှင့် Kingdom Comparison များမှစ၍ တည်ဆောက်ခဲ့သော Fair-Comparison Discipline နှင့် ကိုက်ညီစွာ Comparison ကို Checkable, Meaningful ဖြစ်စေသည်",
+            "Vague, Undated Comparison များသည် Specific Cited Data ထက် အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "ရက်စွဲများနှင့် အကွာအဝေးများသည် Explorer နှစ်ဦး၏ Route များ နှိုင်းယှဉ်ခြင်းနှင့် Actual Relevance မရှိခြင်း",
+            "Explorer များကြား Comparison တစ်ခုသည် Specific Data မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မကိုးကားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same fair-comparison discipline from Secondary 1's kingdom comparison capstone, applied now to comparing two explorers' voyages.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Explorer နှစ်ဦး၏ Voyage များကို ယခု နှိုင်းယှဉ်ထားသော Secondary 1 ၏ Kingdom Comparison Capstone မှ Fair-Comparison Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Key Voyages Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Key Voyage Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w2-dm-1",
+          termEn: "Ship's log",
+          termMy: "Ship's Log",
+          matchEn:
+              "A daily record kept during a voyage, used as primary evidence of its route",
+          matchMy:
+              "Voyage တစ်ခုအတွင်း ထိန်းသိမ်းထားသော Daily Record၊ ၎င်း၏ Route ၏ Primary Evidence အဖြစ် အသုံးပြု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w2-dm-2",
+          termEn: "Documented route",
+          termMy: "Documented Route",
+          matchEn:
+              "A voyage's path as confirmed by primary sources, not a guessed line",
+          matchMy:
+              "ခန့်မှန်းထားသော Line တစ်ခု မဟုတ်ဘဲ Primary Source များက အတည်ပြုထားသော Voyage တစ်ခု၏ လမ်းကြောင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w2-dm-3",
+          termEn: "Claimed 'first'",
+          termMy: "Claimed 'First'",
+          matchEn:
+              "A popular assertion about being the earliest to achieve something, requiring verification",
+          matchMy:
+              "Verification လိုအပ်သော တစ်ခုခုကို ပထမဆုံး အောင်မြင်ခြင်းအကြောင်း ရေပန်းစား Assertion",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w2-dm-4",
+          termEn: "Route comparison",
+          termMy: "Route Comparison",
+          matchEn:
+              "Comparing two voyages using specific, dated evidence for each",
+          matchMy:
+              "တစ်ခုစီအတွက် Specific, Dated Evidence အသုံးပြု၍ Voyage နှစ်ခု နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Verified Route Claim or Unverified Claim?",
+      titleMy: "စီစစ်ကြမည် - Verified Route Claim (သို့) Unverified Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Verified Route Claim", "Unverified Claim"],
+        bucketsMy: ["Verified Route Claim", "Unverified Claim"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w2-sort-1",
+            labelEn:
+                "A route confirmed by a surviving ship's log with dated entries",
+            labelMy:
+                "ရက်စွဲပါ Entry များပါသော ကျန်ရှိနေသေးသော သင်္ဘော Log က အတည်ပြုထားသော Route တစ်ခု",
+            correctBucketEn: "Verified Route Claim",
+            correctBucketMy: "Verified Route Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w2-sort-2",
+            labelEn:
+                "A popular 'first to arrive' claim repeated with no checked source",
+            labelMy:
+                "Checked Source မပါဘဲ ထပ်ခါထပ်ခါ ပြောသော ရေပန်းစား 'ပထမဆုံး ရောက်ရှိသူ' Claim",
+            correctBucketEn: "Unverified Claim",
+            correctBucketMy: "Unverified Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w2-sort-3",
+            labelEn:
+                "A voyage's dates and distances cross-checked against multiple historical records",
+            labelMy:
+                "သမိုင်းဆိုင်ရာ Record များစွာနှင့် Cross-Check ပြုလုပ်ထားသော Voyage တစ်ခု၏ ရက်စွဲများနှင့် အကွာအဝေးများ",
+            correctBucketEn: "Verified Route Claim",
+            correctBucketMy: "Verified Route Claim",
+          ),
+          SortingItem(
+            id: "sec2hum-w2-sort-4",
+            labelEn:
+                "A route drawn as a plausible-looking guess with no primary source support",
+            labelMy:
+                "Primary Source ထောက်ခံမှု မပါဘဲ ဖြစ်နိုင်ချေရှိဟန် ရှိသော ခန့်မှန်းချက်တစ်ခုအဖြစ် ဆွဲထားသော Route",
+            correctBucketEn: "Unverified Claim",
+            correctBucketMy: "Unverified Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's 'First' Fact-Check",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ 'First' Fact-Check",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's 'First' Fact-Check",
+        titleMy: "Ko Zin Ko Ko ၏ 'First' Fact-Check",
+        passageEn:
+            "For Week 2's project, Ko Zin Ko Ko set out to map a specific documented voyage, initially planning to include a popular claim he had read online that this voyage was 'the very first' of its kind.\n\nApplying Secondary 1's legacy-verification habit, he decided to check the claim rather than repeat it. His research turned up something more complicated: several earlier, less famous voyages had documented evidence of reaching similar destinations by different routes, and the voyage he was studying was better documented as the first to establish a specific ongoing trade relationship, not the first arrival of any kind.\n\nHe revised his map's caption accordingly, replacing the sweeping 'first ever' claim with the more precise, evidenced statement his sources actually supported. He then completed the map itself using his voyage's ship log, marking the documented route with dated waypoints rather than a smooth, guessed line.\n\nHis final project also included a small comparison panel citing the specific years and approximate distances of his voyage alongside a second, contemporaneous voyage, following the fair-comparison standard from Secondary 1. His teacher praised the project for treating a popular claim with the same skepticism as any other unverified source, and for keeping the map itself grounded entirely in documented evidence rather than plausible guesswork.",
+        passageMy:
+            "Week 2 ၏ Project အတွက် Document ပြုလုပ်ထားသော Voyage တိကျတစ်ခုကို Map ရေးဆွဲရန် Ko Zin Ko Ko စတင်ခဲ့ပြီး ဤ Voyage သည် ၎င်း၏ အမျိုးအစား 'အလွန်ပထမဆုံး' ဖြစ်ကြောင်း Online ဖတ်ခဲ့ရသော ရေပန်းစား Claim တစ်ခု ထည့်သွင်းရန် ကနဦးတွင် စီစဉ်ခဲ့သည်။\n\nSecondary 1 ၏ Legacy-Verification Habit အသုံးချကာ ၎င်းကို ထပ်ပြောမည့်အစား Claim ကို စစ်ဆေးရန် ၎င်း ဆုံးဖြတ်ခဲ့သည်။ ၎င်း၏ Research က ပို၍ ရှုပ်ထွေးသော အရာတစ်ခုကို ဖော်ထုတ်ပေးခဲ့သည် - အစောပိုင်း၊ နာမည် မကြီးလှသော Voyage များစွာသည် Route ကွဲပြားစွာဖြင့် ဆင်တူသော ဦးဆုံးနေရာများသို့ ရောက်ရှိခဲ့ကြောင်း Documented Evidence ရှိခဲ့ပြီး ၎င်း လေ့လာနေသော Voyage သည် Arrival ပထမဆုံး အမျိုးအစား မဟုတ်ဘဲ Ongoing Trade Relationship တိကျတစ်ခု တည်ထောင်သော ပထမဆုံးအဖြစ် ပို၍ ကောင်းစွာ Document ပြုလုပ်ထားခြင်း ဖြစ်သည်။\n\n၎င်း၏ Source များ အမှန်တကယ် ထောက်ခံသော ပို၍ တိကျ၊ Evidenced ဖော်ပြချက်ဖြင့် Sweeping 'First Ever' Claim ကို အစားထိုးကာ ၎င်း၏ Map ၏ Caption ကို ၎င်း ပြင်ဆင်ခဲ့သည်။ ထို့နောက် Smooth, ခန့်မှန်းထားသော Line တစ်ခုအစား ရက်စွဲပါ Waypoint များနှင့် Documented Route ကို မှတ်သားကာ ၎င်း၏ Voyage ၏ သင်္ဘော Log အသုံးပြု၍ Map ကိုယ်တိုင်ကို ၎င်း ပြီးစီးအောင် ပြုလုပ်ခဲ့သည်။\n\nSecondary 1 မှ Fair-Comparison Standard လိုက်နာကာ ၎င်း၏ Voyage ၏ Specific နှစ်များနှင့် ခန့်မှန်း အကွာအဝေးများကို ဒုတိယ, Contemporaneous Voyage တစ်ခုနှင့်အတူ ကိုးကားသော Comparison Panel ငယ်တစ်ခုကိုလည်း ၎င်း၏ နောက်ဆုံး Project ပါဝင်ခဲ့သည်။ ရေပန်းစား Claim တစ်ခုကို အခြား Unverified Source တစ်ခုကဲ့သို့ Skepticism တူတူဖြင့် ကိုင်တွယ်ခြင်းနှင့် Map ကိုယ်တိုင်ကို ဖြစ်နိုင်ချေရှိဟန် ရှိသော Guesswork အစား Documented Evidence တွင် လုံးလုံး အခြေခံထားခြင်းအတွက် Project ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ko Zin Ko Ko's research find about the 'first ever' claim?",
+            questionMy:
+                "'First Ever' Claim အကြောင်း Ko Zin Ko Ko ၏ Research ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The voyage was better documented as the first to establish an ongoing trade relationship, not the first arrival of any kind",
+              "The claim was completely accurate exactly as originally stated with no revision needed",
+              "No other voyages had ever reached similar destinations by any route",
+              "The research found no information of any kind about the voyage",
+            ],
+            optionsMy: [
+              "Voyage သည် Arrival ပထမဆုံး အမျိုးအစား မဟုတ်ဘဲ Ongoing Trade Relationship တစ်ခု တည်ထောင်သော ပထမဆုံးအဖြစ် ပို၍ ကောင်းစွာ Document ပြုလုပ်ထားခြင်း",
+              "ပြင်ဆင်ရန် မလိုအပ်ဘဲ Claim သည် Originally ဖော်ပြထားသည့်အတိုင်း လုံးလုံး တိကျခြင်း",
+              "Route မည်သည်ဖြင့်မဆို ဆင်တူသော ဦးဆုံးနေရာများသို့ အခြား Voyage များ ဘယ်တော့မှ မရောက်ရှိခဲ့ခြင်း",
+              "Voyage အကြောင်း Information မည်သည်မှ Research က ရှာမတွေ့ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's research finding."],
+            hintsMy: ["Research Finding ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Ko Zin Ko Ko mark the route on his map?",
+            questionMy:
+                "၎င်း၏ Map ပေါ်တွင် Route ကို Ko Zin Ko Ko မည်သို့ မှတ်သားခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "With dated waypoints from the ship log, rather than a smooth, guessed line",
+              "As a completely blank map with no route marked at all",
+              "Using only a plausible guess with no reference to the ship log",
+              "With a route entirely unrelated to the actual voyage studied",
+            ],
+            optionsMy: [
+              "Smooth, ခန့်မှန်းထားသော Line တစ်ခုအစား သင်္ဘော Log မှ ရက်စွဲပါ Waypoint များဖြင့်",
+              "Route မည်သည်မှ လုံးဝ မမှတ်သားထားသော Map အလွတ်တစ်ခုအဖြစ်",
+              "သင်္ဘော Log ကို ရည်ညွှန်းခြင်း မပါဘဲ ဖြစ်နိုင်ချေရှိဟန် ရှိသော ခန့်မှန်းချက်တစ်ခုသာ အသုံးပြု၍",
+              "လေ့လာနေသော Actual Voyage နှင့် လုံးလုံး မသက်ဆိုင်သော Route တစ်ခုဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described marking."],
+            hintsMy: [
+              "ဖော်ပြထားသော Marking ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise the project for?",
+            questionMy:
+                "Project ကို ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Treating a popular claim with skepticism and keeping the map grounded in documented evidence",
+              "Accepting the popular claim completely with no verification of any kind",
+              "Ignoring all evidence and relying entirely on guesswork",
+              "Removing all dates and distances from the final project",
+            ],
+            optionsMy: [
+              "ရေပန်းစား Claim တစ်ခုကို Skepticism ဖြင့် ကိုင်တွယ်ခြင်းနှင့် Map ကို Documented Evidence တွင် အခြေခံထားခြင်း",
+              "Verification မည်သည်မှ မပါဘဲ ရေပန်းစား Claim ကို လုံးလုံး လက်ခံခြင်း",
+              "Evidence အားလုံးကို လျစ်လျူရှုပြီး Guesswork တွင် လုံးလုံး အားကိုးခြင်း",
+              "Final Project မှ ရက်စွဲများနှင့် အကွာအဝေးများအားလုံးကို ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w2-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Key Voyages Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Key Voyage မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A voyage's route on a map should be based on...",
+          questionMy:
+              "Map ပေါ်ရှိ Voyage တစ်ခု၏ Route ကို ...အပေါ် အခြေခံသင့်သည်",
+          optionsEn: [
+            "Documented evidence such as ship logs",
+            "A plausible-looking guessed line",
+            "No evidence of any kind whatsoever",
+            "General knowledge with no specific sources",
+          ],
+          optionsMy: [
+            "Ship Log များကဲ့သို့ Documented Evidence",
+            "ဖြစ်နိုင်ချေရှိဟန် ရှိသော ခန့်မှန်းထားသော Line တစ်ခု",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Specific Source မပါသော General Knowledge",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A popular claim about a historical 'first' should be...",
+          questionMy:
+              "သမိုင်းဆိုင်ရာ 'ပထမဆုံး' တစ်ခုအကြောင်း ရေပန်းစား Claim တစ်ခုကို ...သင့်သည်",
+          optionsEn: [
+            "Checked against documented sources rather than repeated automatically",
+            "Accepted automatically with no verification",
+            "Ignored entirely with no consideration",
+            "Assumed true because it is popular",
+          ],
+          optionsMy: [
+            "အလိုအလျောက် ထပ်ပြောမည့်အစား Documented Source များနှင့် စစ်ဆေးသင့်သည်",
+            "Verification မရှိဘဲ အလိုအလျောက် လက်ခံသင့်သည်",
+            "စဉ်းစားမှု မပြုဘဲ လုံးလုံး လျစ်လျူရှုသင့်သည်",
+            "ရေပန်းစားသောကြောင့် မှန်ကန်သည်ဟု ယူဆသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Comparing two explorers' voyages should cite...",
+          questionMy:
+              "Explorer နှစ်ဦး၏ Voyage များ နှိုင်းယှဉ်ခြင်းသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific dates and distances documented for each",
+            "A vague, undated impression",
+            "No evidence of any kind whatsoever",
+            "Only one voyage with no actual comparison",
+          ],
+          optionsMy: [
+            "တစ်ခုစီအတွက် Document ပြုလုပ်ထားသော Specific ရက်စွဲများနှင့် အကွာအဝေးများ",
+            "Vague, Undated Impression တစ်ခု",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Actual Comparison မပါဘဲ Voyage တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 1, Week 3: "The Columbian Exchange"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek3 = CourseWeekDef(
+  id: "course-sec2-hum-w3",
+  weekNumber: 3,
+  titleEn: "The Columbian Exchange",
+  titleMy: "Columbian Exchange",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w3-d1",
+      dayNumber: 1,
+      titleEn: "An Exchange with Enormous, Uneven Consequences",
+      titleMy: "ကြီးမား၊ မညီမျှသော Consequence များပါသော Exchange တစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians describe the Columbian Exchange as a two-way movement of plants, animals, and goods, rather than a one-directional transfer from only one side?",
+          questionMy:
+              "Historian များသည် Columbian Exchange ကို ဘက်တစ်ဘက်တည်းမှသာ One-Directional Transfer တစ်ခုအစား Plant, တိရစ္ဆာန်နှင့် ကုန်ပစ္စည်းများ၏ Two-Way Movement တစ်ခုအဖြစ် အဘယ်ကြောင့် ဖော်ပြကြသနည်း။",
+          optionsEn: [
+            "Documented evidence shows goods moved in both directions across the Atlantic (such as crops moving from the Americas to Europe, Asia, and Africa, and livestock moving the opposite way), not from only one region to the other",
+            "The Columbian Exchange only ever involved goods moving in one single direction",
+            "The exchange had no actual documented movement of any goods whatsoever",
+            "Plants and animals never actually moved between the Americas and other continents",
+          ],
+          optionsMy: [
+            "Documented Evidence က ကုန်ပစ္စည်းများသည် Atlantic တစ်လျှောက် ဘက်နှစ်ဘက်စလုံးတွင် ရွေ့လျားခဲ့ကြောင်း ပြသသည် (Americas မှ ဥရောပ, အာရှနှင့် အာဖရိကသို့ ရွေ့လျားသော သီးနှံများနှင့် ဆန့်ကျင်ဘက်သို့ ရွေ့လျားသော ကျွဲနွားများကဲ့သို့) ဒေသတစ်ခုတည်းမှသာ အခြားတစ်ခုသို့ မဟုတ်ပါ",
+            "Columbian Exchange တွင် Single Direction တစ်ခုတည်း၌သာ ကုန်ပစ္စည်းများ ရွေ့လျားမှု ဘယ်တော့မှ ပါဝင်ခဲ့ခြင်း",
+            "Exchange တွင် ကုန်ပစ္စည်း မည်သည်၏မျှ Actual Documented Movement မရှိခြင်း",
+            "Plant များနှင့် တိရစ္ဆာန်များသည် Americas နှင့် အခြား Continent များကြား အမှန်တကယ် ဘယ်တော့မှ ရွေ့လျားခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same precise-vocabulary discipline built throughout Secondary 1 -- accurately describing an exchange's actual direction matters as much as describing that it happened.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Precise-Vocabulary Discipline တူတူ ဖြစ်သည် -- Exchange တစ်ခု၏ Actual Direction တိကျစွာ ဖော်ပြခြင်းသည် ၎င်း ဖြစ်ပျက်ခဲ့ကြောင်း ဖော်ပြခြင်းလောက် အရေးကြီးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it historically essential to document, honestly and without exaggeration or minimization, that European contact brought diseases that caused catastrophic population loss among Indigenous peoples of the Americas?",
+          questionMy:
+              "European Contact သည် Americas ရှိ Indigenous လူများအတွက် Catastrophic Population Loss ဖြစ်ပေါ်စေသော ရောဂါများ ယူဆောင်လာခဲ့ကြောင်း ချဲ့ကားခြင်း (သို့) လျော့တွက်ခြင်း မပြုဘဲ ရိုးသားစွာ Document ပြုလုပ်ခြင်းသည် သမိုင်းအရ မရှိမဖြစ် ဖြစ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is a well-documented historical fact supported by extensive evidence, and accurate historical study requires representing major documented consequences honestly, not selectively omitting difficult or uncomfortable parts of the record",
+            "This event has no actual documented evidence supporting it in any historical record",
+            "Historical study should always omit difficult or uncomfortable facts regardless of the evidence",
+            "The scale of population loss has no actual historical significance worth documenting",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ကျယ်ပြန့်သော Evidence က ထောက်ခံသော ကောင်းစွာ Documented သမိုင်းဆိုင်ရာ Fact တစ်ခု ဖြစ်ပြီး တိကျသော သမိုင်း လေ့လာမှုသည် Record ၏ ခက်ခဲ (သို့) မသက်မသာ ဖြစ်စေသော အစိတ်အပိုင်းများကို ရွေးချယ် ချန်ထားခြင်း မပြုဘဲ Major Documented Consequence များကို ရိုးသားစွာ ကိုယ်စားပြုရန် လိုအပ်သည်",
+            "ဤ Event တွင် သမိုင်းဆိုင်ရာ Record မည်သည်တွင်မျှ ၎င်းကို ထောက်ခံသော Actual Documented Evidence မရှိခြင်း",
+            "သမိုင်း လေ့လာမှုသည် Evidence မည်သို့ပင်ရှိစေ ခက်ခဲ (သို့) မသက်မသာ ဖြစ်စေသော Fact များကို အမြဲ ချန်ထားသင့်ခြင်း",
+            "Population Loss ၏ Scale သည် Document ပြုလုပ်ထိုက်သည့် သမိုင်းဆိုင်ရာ Significance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same historical-documentation discipline from the IGCSE-level Holocaust unit's approach -- represent well-documented, difficult history honestly, grounded in evidence, without sensationalizing or omitting it.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား IGCSE-Level Holocaust Unit ၏ Approach မှ သမိုင်းဆိုင်ရာ-Documentation Discipline တူတူ ဖြစ်သည် -- Sensationalize (သို့) ချန်ထားခြင်း မပြုဘဲ Evidence တွင် အခြေခံသော ကောင်းစွာ Documented, ခက်ခဲသော သမိုင်းကို ရိုးသားစွာ ကိုယ်စားပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a balanced account of the Columbian Exchange note both its significant global agricultural impact (such as new staple crops spreading worldwide) and its devastating human cost, rather than presenting only one side?",
+          questionMy:
+              "Columbian Exchange ၏ ချိန်ညှိထားသော Account တစ်ခုသည် ဘက်တစ်ဘက်တည်းကိုသာ တင်ပြမည့်အစား ၎င်း၏ Significant Global Agricultural Impact (ကမ္ဘာတစ်ဝှမ်း ပျံ့နှံ့ခဲ့သော Staple Crop အသစ်များကဲ့သို့) နှင့် ၎င်း၏ ဖျက်ဆီးခံခဲ့ရသော Human Cost နှစ်ခုစလုံးကို အဘယ်ကြောင့် မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "A complex historical event genuinely had multiple, simultaneous consequences -- presenting only the agricultural benefits or only the human cost would each be an incomplete, misleading account",
+            "The Columbian Exchange had only one single consequence with no other effects of any kind",
+            "Presenting only one side of a complex historical event always gives the most accurate picture",
+            "Agricultural impact and human cost have no actual connection to the same historical event",
+          ],
+          optionsMy: [
+            "ရှုပ်ထွေးသော သမိုင်းဆိုင်ရာ Event တစ်ခုသည် Multiple, တစ်ပြိုင်နက် Consequence များ အမှန်တကယ် ရှိခဲ့သည် -- Agricultural Benefit များသာ (သို့) Human Cost သာ တင်ပြခြင်းသည် တစ်ခုစီသည် Incomplete, Misleading Account တစ်ခု ဖြစ်လိမ့်မည်",
+            "Columbian Exchange တွင် အခြား Effect မည်သည်မှ မပါဘဲ Consequence တစ်ခုတည်း ရှိခဲ့ခြင်း",
+            "ရှုပ်ထွေးသော သမိုင်းဆိုင်ရာ Event တစ်ခု၏ ဘက်တစ်ဘက်တည်းကိုသာ တင်ပြခြင်းသည် အတိကျဆုံး ပုံရိပ်တစ်ခုကို အမြဲ ပေးအပ်ခြင်း",
+            "Agricultural Impact နှင့် Human Cost သည် Historical Event တူတူနှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same weigh-multiple-factors, avoid-oversimplification habit built since Secondary 1 -- a complex event's full picture requires acknowledging every major documented dimension, not just the convenient one.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 မှစ၍ တည်ဆောက်ခဲ့သော Weigh-Multiple-Factors, Avoid-Oversimplification Habit တူတူ ဖြစ်သည် -- ရှုပ်ထွေးသော Event တစ်ခု၏ ပြည့်စုံသော ပုံရိပ်သည် အဆင်ပြေသော တစ်ခုတည်းမက Major Documented Dimension တိုင်းကို အသိအမှတ်ပြုရန် လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Columbian Exchange Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Columbian Exchange Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w3-dm-1",
+          termEn: "Columbian Exchange",
+          termMy: "Columbian Exchange",
+          matchEn:
+              "The widespread transfer of plants, animals, goods, and diseases across the Atlantic",
+          matchMy:
+              "Atlantic တစ်လျှောက် Plant, တိရစ္ဆာန်, ကုန်ပစ္စည်းနှင့် ရောဂါများ ကျယ်ပြန့်စွာ လွှဲပြောင်းမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w3-dm-2",
+          termEn: "Two-way exchange",
+          termMy: "Two-Way Exchange",
+          matchEn:
+              "Movement of goods in both directions, not from only one region to another",
+          matchMy:
+              "ဒေသတစ်ခုတည်းမှ အခြားတစ်ခုသို့ မဟုတ်ဘဲ ဘက်နှစ်ဘက်စလုံးတွင် ကုန်ပစ္စည်းများ ရွေ့လျားမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w3-dm-3",
+          termEn: "Documented population loss",
+          termMy: "Documented Population Loss",
+          matchEn:
+              "A well-evidenced, catastrophic decline in Indigenous population following contact",
+          matchMy:
+              "Contact ပြီးနောက် Indigenous Population ၏ Well-Evidenced, Catastrophic ကျဆင်းမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w3-dm-4",
+          termEn: "Balanced account",
+          termMy: "Balanced Account",
+          matchEn:
+              "A description acknowledging both agricultural impact and human cost together",
+          matchMy:
+              "Agricultural Impact နှင့် Human Cost နှစ်ခုစလုံးကို အတူတကွ အသိအမှတ်ပြုသော ဖော်ပြချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Moved to the Americas or Moved from the Americas?",
+      titleMy:
+          "စီစစ်ကြမည် - Americas သို့ ရွေ့လျား (သို့) Americas မှ ရွေ့လျား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Moved to the Americas", "Moved from the Americas"],
+        bucketsMy: ["Americas သို့ ရွေ့လျား", "Americas မှ ရွေ့လျား"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w3-sort-1",
+            labelEn: "Horses and cattle, introduced by European ships",
+            labelMy:
+                "European သင်္ဘောများက မိတ်ဆက်ပေးခဲ့သော မြင်းများနှင့် ကျွဲနွားများ",
+            correctBucketEn: "Moved to the Americas",
+            correctBucketMy: "Americas သို့ ရွေ့လျား",
+          ),
+          SortingItem(
+            id: "sec2hum-w3-sort-2",
+            labelEn:
+                "Maize (corn) and potatoes, later becoming staple crops worldwide",
+            labelMy:
+                "နောက်ပိုင်း ကမ္ဘာတစ်ဝှမ်း Staple Crop များ ဖြစ်လာခဲ့သော ပြောင်းနှင့် အာလူး",
+            correctBucketEn: "Moved from the Americas",
+            correctBucketMy: "Americas မှ ရွေ့လျား",
+          ),
+          SortingItem(
+            id: "sec2hum-w3-sort-3",
+            labelEn:
+                "Wheat, documented as introduced to the Americas by European settlers",
+            labelMy:
+                "European Settler များက Americas သို့ မိတ်ဆက်ပေးခဲ့သည်ဟု Document ပြုလုပ်ထားသော ဂျုံ",
+            correctBucketEn: "Moved to the Americas",
+            correctBucketMy: "Americas သို့ ရွေ့လျား",
+          ),
+          SortingItem(
+            id: "sec2hum-w3-sort-4",
+            labelEn:
+                "Tomatoes, later becoming a documented staple ingredient across many world cuisines",
+            labelMy:
+                "နောက်ပိုင်း ကမ္ဘာ့ Cuisine များစွာတစ်လျှောက် Documented Staple Ingredient တစ်ခု ဖြစ်လာခဲ့သော ခရမ်းချဉ်သီး",
+            correctBucketEn: "Moved from the Americas",
+            correctBucketMy: "Americas မှ ရွေ့လျား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Balanced Report",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Balanced Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Balanced Report",
+        titleMy: "Zayar Lin ၏ Balanced Report",
+        passageEn:
+            "For Week 3's assignment, Zayar Lin was asked to write a report on the Columbian Exchange, and his first draft focused almost entirely on the exchange's agricultural impact -- new crops spreading worldwide, changing diets on every continent.\n\nHis teacher asked him to check whether this was a complete account. Researching further, Zayar Lin found extensive, well-documented historical evidence that European contact had also introduced diseases against which Indigenous peoples of the Americas had no prior immunity, causing population loss on a catastrophic scale across the following decades -- one of the most significant, well-evidenced consequences of the entire exchange.\n\nZayar Lin revised his report to represent both documented dimensions honestly: the agricultural exchange that reshaped diets and farming worldwide, and the devastating human cost that accompanied it, presented factually and without minimizing its scale, exactly as his sources described it. He was careful not to treat the two as separate, unrelated topics, but as different documented consequences of the same historical process of contact and exchange.\n\nHis teacher praised the revised report for its honesty: a complete historical account, she said, represents every major documented consequence of an event, not only the parts that are comfortable or easy to discuss -- a principle that mattered as much here as it had in Secondary 1's most serious historical topics.",
+        passageMy:
+            "Week 3 ၏ Assignment အတွက် Columbian Exchange အကြောင်း Report တစ်ခု ရေးသားရန် Zayar Lin အား တောင်းဆိုခဲ့ပြီး ၎င်း၏ ပထမ Draft သည် Exchange ၏ Agricultural Impact -- ကမ္ဘာတစ်ဝှမ်း ပျံ့နှံ့ခဲ့သော သီးနှံအသစ်များ, Continent တိုင်းရှိ Diet ပြောင်းလဲမှု -- တွင် လုံးလုံးနီးပါး Focus ပြုခဲ့သည်။\n\nဤသည်ကား Complete Account တစ်ခု ဖြစ်ခြင်း ရှိမရှိ စစ်ဆေးရန် ၎င်း၏ ဆရာမ တောင်းဆိုခဲ့သည်။ ပို၍ Research ပြုလုပ်သောအခါ European Contact သည် Americas ရှိ Indigenous လူများ ယခင် Immunity မရှိခဲ့သော ရောဂါများကိုလည်း မိတ်ဆက်ပေးခဲ့ကြောင်း၊ နောက်ပိုင်း ဆယ်စုနှစ်များတစ်လျှောက် Catastrophic Scale တစ်ခုတွင် Population Loss ဖြစ်ပေါ်စေခဲ့ကြောင်း ကျယ်ပြန့်၊ ကောင်းစွာ Documented သမိုင်းဆိုင်ရာ Evidence ကို Zayar Lin ရှာဖွေတွေ့ရှိခဲ့သည် -- Exchange တစ်ခုလုံး၏ အရေးအကြီးဆုံး၊ ကောင်းစွာ Evidenced Consequence များထဲမှ တစ်ခု ဖြစ်သည်။\n\nDocumented Dimension နှစ်ခုစလုံးကို ရိုးသားစွာ ကိုယ်စားပြုရန် ၎င်း၏ Report ကို Zayar Lin ပြင်ဆင်ခဲ့သည် - ကမ္ဘာတစ်ဝှမ်း Diet နှင့် စိုက်ပျိုးရေးကို ပြန်လည် ပုံဖော်ခဲ့သော Agricultural Exchange နှင့် ၎င်းနှင့်အတူ ပါလာသော ဖျက်ဆီးခံခဲ့ရသော Human Cost၊ ၎င်း၏ Source များ ဖော်ပြထားသည့်အတိုင်း ၎င်း၏ Scale ကို လျော့တွက်ခြင်း မပြုဘဲ Factual ဖြစ်စွာ တင်ပြခဲ့သည်။ နှစ်ခုကို သီးခြား၊ မသက်ဆိုင်သော ခေါင်းစဉ်များအဖြစ် သဘောမထားဘဲ Contact နှင့် Exchange ၏ သမိုင်းဆိုင်ရာ Process တူတူ၏ ကွဲပြားသော Documented Consequence များအဖြစ် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည်။\n\nEvent တစ်ခု၏ Major Documented Consequence တိုင်းကို ကိုယ်စားပြုသော Complete Historical Account တစ်ခုသည် အဆင်ပြေ (သို့) ဆွေးနွေးရလွယ်ကူသော အစိတ်အပိုင်းများကိုသာ မဟုတ်ကြောင်း -- Secondary 1 ၏ အလေးအနက်ဆုံး သမိုင်းဆိုင်ရာ ခေါင်းစဉ်များတွင် အရေးကြီးခဲ့သကဲ့သို့ ဤနေရာတွင်လည်း အရေးကြီးခဲ့သော Principle တစ်ခု -- ၎င်း၏ ရိုးသားမှုအတွက် ပြင်ဆင်ထားသော Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what significant consequence did Zayar Lin's research find beyond the agricultural exchange?",
+            questionMy:
+                "Agricultural Exchange ကျော်လွန်၍ Zayar Lin ၏ Research ရှာဖွေတွေ့ရှိခဲ့သော Significant Consequence ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Diseases causing catastrophic population loss among Indigenous peoples with no prior immunity",
+              "No additional consequences of any kind existed beyond agricultural impact",
+              "The exchange had no actual connection to any disease of any kind whatsoever",
+              "Only positive consequences existed with no documented negative impact",
+            ],
+            optionsMy: [
+              "ယခင် Immunity မရှိသော Indigenous လူများကြား Catastrophic Population Loss ဖြစ်ပေါ်စေသော ရောဂါများ",
+              "Agricultural Impact ကျော်လွန်၍ ထပ်ဆောင်း Consequence မည်သည်မှ မရှိခြင်း",
+              "Exchange တွင် ရောဂါ မည်သည်နှင့်မျှ Actual Connection လုံးဝ မရှိခြင်း",
+              "Documented Negative Impact မပါဘဲ Positive Consequence များသာ ရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's found consequence."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော Consequence ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Zayar Lin present the human cost in his revised report?",
+            questionMy:
+                "Human Cost ကို ၎င်း၏ ပြင်ဆင်ထားသော Report တွင် Zayar Lin မည်သို့ တင်ပြခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Factually and without minimizing its scale, exactly as his sources described it",
+              "He removed all mention of it entirely from his revised report",
+              "He exaggerated it well beyond what his sources actually supported",
+              "He presented it as completely unrelated to the agricultural exchange",
+            ],
+            optionsMy: [
+              "၎င်း၏ Source များ ဖော်ပြထားသည့်အတိုင်း ၎င်း၏ Scale ကို လျော့တွက်ခြင်း မပြုဘဲ Factual ဖြစ်စွာ",
+              "၎င်း၏ ပြင်ဆင်ထားသော Report မှ ၎င်းအကြောင်း ရည်ညွှန်းချက်အားလုံးကို လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "၎င်း၏ Source များ အမှန်တကယ် ထောက်ခံသည်ထက် များစွာ ကျော်လွန်ကာ ချဲ့ကားခဲ့ခြင်း",
+              "Agricultural Exchange နှင့် လုံးလုံး မသက်ဆိုင်သည်ဟု တင်ပြခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described presentation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Presentation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say a complete historical account represents?",
+            questionMy:
+                "Complete Historical Account တစ်ခု ကိုယ်စားပြုသည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every major documented consequence of an event, not only the comfortable parts",
+              "Only the parts of an event that are comfortable or easy to discuss",
+              "Nothing at all about an event's actual documented consequences",
+              "A completely one-sided view chosen for convenience",
+            ],
+            optionsMy: [
+              "အဆင်ပြေသော အစိတ်အပိုင်းများကိုသာ မဟုတ်ဘဲ Event တစ်ခု၏ Major Documented Consequence တိုင်း",
+              "Event တစ်ခု၏ အဆင်ပြေ (သို့) ဆွေးနွေးရလွယ်ကူသော အစိတ်အပိုင်းများကိုသာ",
+              "Event တစ်ခု၏ Actual Documented Consequence များအကြောင်း ဘာမှ",
+              "အဆင်ပြေမှုအတွက် ရွေးချယ်ထားသော လုံးလုံး တစ်ဖက်သတ် အမြင်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated principle."],
+            hintsMy: [
+              "ဖော်ပြထားသော Principle ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w3-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Columbian Exchange Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - The Columbian Exchange မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Columbian Exchange involved movement of goods...",
+          questionMy:
+              "Columbian Exchange တွင် ကုန်ပစ္စည်းများ ရွေ့လျားမှု ...ပါဝင်ခဲ့သည်",
+          optionsEn: [
+            "In both directions across the Atlantic",
+            "In only one single direction",
+            "With no actual documented movement at all",
+            "Only within the Americas with no other continents involved",
+          ],
+          optionsMy: [
+            "Atlantic တစ်လျှောက် ဘက်နှစ်ဘက်စလုံးတွင်",
+            "Single Direction တစ်ခုတည်း၌သာ",
+            "Actual Documented Movement မည်သည်မှ လုံးဝ မပါဘဲ",
+            "အခြား Continent မည်သည်မှ မပါဘဲ Americas အတွင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The population loss among Indigenous peoples following European contact was...",
+          questionMy:
+              "European Contact ပြီးနောက် Indigenous လူများကြား Population Loss သည် ...",
+          optionsEn: [
+            "A well-documented historical fact requiring honest representation",
+            "An event with no actual historical evidence supporting it",
+            "Something that should always be omitted from historical study",
+            "A minor detail with no historical significance",
+          ],
+          optionsMy: [
+            "ရိုးသား ကိုယ်စားပြုမှု လိုအပ်သော ကောင်းစွာ Documented သမိုင်းဆိုင်ရာ Fact တစ်ခု",
+            "၎င်းကို ထောက်ခံသော Actual သမိုင်းဆိုင်ရာ Evidence မရှိသော Event တစ်ခု",
+            "သမိုင်း လေ့လာမှုမှ အမြဲ ချန်ထားသင့်သော အရာတစ်ခု",
+            "သမိုင်းဆိုင်ရာ Significance မရှိသော Detail ငယ်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of the Columbian Exchange should represent...",
+          questionMy:
+              "Columbian Exchange ၏ Balanced Account တစ်ခုသည် ...ကို ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Both agricultural impact and human cost together",
+            "Only agricultural impact with no mention of human cost",
+            "Only human cost with no mention of agricultural impact",
+            "Neither dimension of this historical event",
+          ],
+          optionsMy: [
+            "Agricultural Impact နှင့် Human Cost နှစ်ခုစလုံး အတူတကွ",
+            "Human Cost ရည်ညွှန်းချက် မပါဘဲ Agricultural Impact သာ",
+            "Agricultural Impact ရည်ညွှန်းချက် မပါဘဲ Human Cost သာ",
+            "ဤ သမိုင်းဆိုင်ရာ Event ၏ Dimension နှစ်ခုစလုံး မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 1, Week 4 (Capstone/Boss Week):
+// "Explorer's Logbook Project"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek4 = CourseWeekDef(
+  id: "course-sec2-hum-w4",
+  weekNumber: 4,
+  titleEn: "Explorer's Logbook Project",
+  titleMy: "Explorer's Logbook Project",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w4-d1",
+      dayNumber: 1,
+      titleEn: "Combining Motive, Route, and Consequence",
+      titleMy: "Motive, Route နှင့် Consequence ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should an explorer's logbook project combine documented motives (why the voyage happened), a documented route (where it went), and documented consequences (what resulted from it), rather than covering only one of these three elements?",
+          questionMy:
+              "Explorer ၏ Logbook Project တစ်ခုသည် Element သုံးခုထဲမှ တစ်ခုတည်းသာ ဖုံးအုပ်မည့်အစား Documented Motive များ (Voyage အဘယ်ကြောင့် ဖြစ်ပျက်ခဲ့သည်), Documented Route (၎င်း မည်သည့်နေရာသို့ သွားခဲ့သည်) နှင့် Documented Consequence များ (၎င်းမှ အဘယ်အရာ ရလဒ်ရခဲ့သည်) ကို အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Each element answers a different, necessary question -- why, where, and what resulted -- and combining them gives a fuller, more complete historical picture, applying the same combined-element discipline built throughout Secondary 1",
+            "These three elements have no actual connection to each other in a logbook project",
+            "A logbook project only ever needs to answer why a voyage happened, never where it went or what resulted",
+            "Combining multiple elements always produces a less accurate project than covering just one",
+          ],
+          optionsMy: [
+            "Element တစ်ခုစီသည် ကွဲပြားသော, လိုအပ်သော မေးခွန်းတစ်ခု -- Why, Where နှင့် What Resulted -- ကို ဖြေဆိုပြီး ၎င်းတို့ ပေါင်းစပ်ခြင်းသည် Secondary 1 တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Combined-Element Discipline တူတူ အသုံးချကာ ပို၍ ပြည့်စုံသော သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Element သုံးခုတွင် Logbook Project တစ်ခု၌ တစ်ခုနှင့်တစ်ခု Actual Connection မရှိခြင်း",
+            "Logbook Project တစ်ခုသည် Voyage အဘယ်ကြောင့် ဖြစ်ပျက်ခဲ့သည်ကိုသာ ဖြေဆိုရန် လိုအပ်ပြီး ၎င်း မည်သည့်နေရာသို့ သွားခဲ့သည် (သို့) အဘယ်အရာ ရလဒ်ရခဲ့သည်ကို ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Element များစွာ ပေါင်းစပ်ခြင်းသည် တစ်ခုတည်း ဖုံးအုပ်ခြင်းထက် Project ကို တိကျမှု နည်းသော အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same combined-element discipline from Secondary 1's capstones (combined lens, combined resource study) -- multiple relevant questions together give a fuller picture.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Capstone များ (Combined Lens, Combined Resource Study) မှ Combined-Element Discipline တူတူ ဖြစ်သည် -- Relevant မေးခွန်း များစွာ အတူတကွသည် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the logbook project's account of consequences honestly represent both the documented global agricultural exchange and the documented human cost of contact, following Week 3's balanced-account standard, rather than presenting only convenient outcomes?",
+          questionMy:
+              "Logbook Project ၏ Consequence Account သည် အဆင်ပြေသော Outcome များကိုသာ တင်ပြမည့်အစား Week 3 ၏ Balanced-Account Standard လိုက်နာကာ Documented Global Agricultural Exchange နှင့် Contact ၏ Documented Human Cost နှစ်ခုစလုံးကို အဘယ်ကြောင့် ရိုးသားစွာ ကိုယ်စားပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "A complete, honest account represents every major documented consequence, not only the ones that are comfortable to discuss, matching exactly the standard Week 3 established",
+            "Presenting only convenient outcomes always gives the most accurate historical picture",
+            "The consequences of contact have no actual relevance to an explorer's logbook project",
+            "Difficult or uncomfortable documented consequences should always be omitted from student projects",
+          ],
+          optionsMy: [
+            "Complete, Honest Account တစ်ခုသည် ဆွေးနွေးရ အဆင်ပြေသည့်အရာများကိုသာ မဟုတ်ဘဲ Major Documented Consequence တိုင်းကို ကိုယ်စားပြုပြီး Week 3 တည်ထောင်ခဲ့သော Standard အတိအကျ နှင့် ကိုက်ညီသည်",
+            "အဆင်ပြေသော Outcome များကိုသာ တင်ပြခြင်းသည် အတိကျဆုံး သမိုင်းဆိုင်ရာ ပုံရိပ်တစ်ခု အမြဲ ပေးအပ်ခြင်း",
+            "Contact ၏ Consequence များတွင် Explorer ၏ Logbook Project တစ်ခုနှင့် Actual Relevance မရှိခြင်း",
+            "ခက်ခဲ (သို့) မသက်မသာ ဖြစ်စေသော Documented Consequence များကို ကျောင်းသား Project များမှ အမြဲ ချန်ထားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 3's balanced-account lesson -- the capstone should model the same honesty rather than abandoning it for a more convenient narrative.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 3 ၏ Balanced-Account သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Capstone သည် ပို၍ အဆင်ပြေသော Narrative တစ်ခုအတွက် ၎င်းကို စွန့်လွှတ်မည့်အစား Honesty တူတူကို Model ပြသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should each claim in the logbook project cite its specific source (a ship log, a sponsor's record, a documented historical estimate) rather than presenting information with no indication of where it came from?",
+          questionMy:
+              "Logbook Project ရှိ Claim တစ်ခုစီသည် ၎င်း မည်သည့်နေရာမှ ရရှိခဲ့ကြောင်း ညွှန်ပြချက် မပါဘဲ Information တင်ပြမည့်အစား ၎င်းကိုယ်ပိုင် Source (Ship Log, Sponsor's Record, Documented Historical Estimate) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Citing sources makes claims checkable and shows the reader the confidence level behind each claim, exactly the specificity and evidence standard maintained throughout the entire course",
+            "Citing sources has no actual value in a student history project",
+            "Presenting information with no source citation always earns higher marks",
+            "The specificity standard for this project should be lower than for earlier Secondary 1 capstones",
+          ],
+          optionsMy: [
+            "Source ကိုးကားခြင်းသည် Claim များကို Checkable ဖြစ်စေကာ Claim တစ်ခုစီနောက်ကွယ်ရှိ Confidence Level ကို ဖတ်ရှုသူအား ပြသပြီး Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specificity နှင့် Evidence Standard အတိအကျ ဖြစ်သည်",
+            "Source ကိုးကားခြင်းသည် ကျောင်းသား သမိုင်း Project တစ်ခုတွင် Actual Value မရှိခြင်း",
+            "Source Citation မပါဘဲ Information တင်ပြခြင်းသည် Mark ပို၍ မြင့်မားစွာ အမြဲ ရရှိခြင်း",
+            "ဤ Project အတွက် Specificity Standard သည် Secondary 1 ၏ အစောပိုင်း Capstone များထက် နိမ့်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-exchange and specific-evidence habit maintained throughout Secondary 1, applied now to the closing project of this new pathway's first term.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Documented-Exchange နှင့် Specific-Evidence Habit တူတူ ဖြစ်ပြီး ဤ Pathway အသစ်၏ ပထမ Term ၏ ပိတ်သိမ်း Project ပေါ်တွင် ယခု အသုံးချထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1 Skills Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 1 Skills ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w4-dm-1",
+          termEn: "Weighed motive",
+          termMy: "Weighed Motive",
+          matchEn:
+              "A documented reason for a voyage, considered alongside other contributing reasons",
+          matchMy:
+              "အခြား Contributing Reason များနှင့်အတူ ထည့်သွင်းစဉ်းစားထားသော Voyage တစ်ခု၏ Documented Reason",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w4-dm-2",
+          termEn: "Verified route",
+          termMy: "Verified Route",
+          matchEn:
+              "A voyage's path confirmed through ship logs rather than assumed",
+          matchMy:
+              "Assume မလုပ်ဘဲ Ship Log များမှတစ်ဆင့် အတည်ပြုထားသော Voyage တစ်ခု၏ လမ်းကြောင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w4-dm-3",
+          termEn: "Balanced consequence",
+          termMy: "Balanced Consequence",
+          matchEn:
+              "An honest account of both positive and difficult documented outcomes",
+          matchMy:
+              "Positive နှင့် ခက်ခဲသော Documented Outcome နှစ်ခုစလုံး၏ Honest Account",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w4-dm-4",
+          termEn: "Cited source",
+          termMy: "Cited Source",
+          matchEn:
+              "A specific origin for a claim, such as a ship log or sponsor record",
+          matchMy:
+              "Ship Log (သို့) Sponsor Record ကဲ့သို့ Claim တစ်ခုအတွက် Specific Origin",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Logbook Entry or Weak?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော Logbook Entry (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Logbook Entry", "Weak Logbook Entry"],
+        bucketsMy: ["ခိုင်မာသော Logbook Entry", "အားနည်းသော Logbook Entry"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w4-sort-1",
+            labelEn: "Citing a sponsor's record for a voyage's economic motive",
+            labelMy:
+                "Voyage တစ်ခု၏ Economic Motive အတွက် Sponsor's Record ကိုးကားခြင်း",
+            correctBucketEn: "Strong Logbook Entry",
+            correctBucketMy: "ခိုင်မာသော Logbook Entry",
+          ),
+          SortingItem(
+            id: "sec2hum-w4-sort-2",
+            labelEn:
+                "Presenting only the agricultural benefits with no mention of documented human cost",
+            labelMy:
+                "Documented Human Cost ရည်ညွှန်းချက် မပါဘဲ Agricultural Benefit များကိုသာ တင်ပြခြင်း",
+            correctBucketEn: "Weak Logbook Entry",
+            correctBucketMy: "အားနည်းသော Logbook Entry",
+          ),
+          SortingItem(
+            id: "sec2hum-w4-sort-3",
+            labelEn:
+                "Marking a route using dated waypoints from an actual ship log",
+            labelMy:
+                "Actual Ship Log မှ ရက်စွဲပါ Waypoint များ အသုံးပြု၍ Route တစ်ခု မှတ်သားခြင်း",
+            correctBucketEn: "Strong Logbook Entry",
+            correctBucketMy: "ခိုင်မာသော Logbook Entry",
+          ),
+          SortingItem(
+            id: "sec2hum-w4-sort-4",
+            labelEn:
+                "Stating a claim about the voyage with no source cited at all",
+            labelMy:
+                "Source မည်သည်မှ ကိုးကားခြင်း မပါဘဲ Voyage အကြောင်း Claim တစ်ခု ဖော်ပြခြင်း",
+            correctBucketEn: "Weak Logbook Entry",
+            correctBucketMy: "အားနည်းသော Logbook Entry",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Complete Logbook Project",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ ပြည့်စုံသော Logbook Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Complete Logbook Project",
+        titleMy: "Htet Wai Yan ၏ ပြည့်စုံသော Logbook Project",
+        passageEn:
+            "For Term 1's capstone, Htet Wai Yan produced a full logbook project on a specific documented voyage, combining every skill from the term into one connected account.\n\nHis motive section, following Week 1's lesson, cited three separately documented reasons behind the voyage's sponsorship -- economic, religious, and competitive -- rather than a single simplified motive, with a specific source cited for each.\n\nHis route section, following Week 2's lesson, mapped the voyage using dated waypoints drawn directly from the ship's surviving log, and included a brief note correcting a popular 'first' claim he had found online but could not verify against his primary sources.\n\nHis consequences section, following Week 3's balanced-account standard, represented both the voyage's contribution to a documented pattern of exchange -- new crops and goods reaching new markets -- and the well-documented human cost that followed European contact more broadly, presented honestly and without minimizing its scale.\n\nHis teacher praised the finished project as a genuine synthesis of the term: weighed motives, a verified route, and a balanced, honestly documented account of consequences, all cited to specific sources -- exactly the disciplined standards Secondary 1 Humanities had built across an entire year, now carried forward into a new period of history.",
+        passageMy:
+            "Term 1 ၏ Capstone အတွက် Term မှ Skill တိုင်းကို ပေါင်းစပ် Account တစ်ခုတည်းအဖြစ် Document ပြုလုပ်ထားသော Voyage တိကျတစ်ခုအပေါ် Logbook Project အပြည့်အစုံကို Htet Wai Yan ထုတ်လုပ်ခဲ့သည်။\n\nWeek 1 ၏ သင်ခန်းစာကို လိုက်နာသော ၎င်း၏ Motive Section သည် Simplified Motive တစ်ခုတည်းအစား Voyage ၏ Sponsorship နောက်ကွယ်ရှိ သီးခြားစီ Document ပြုလုပ်ထားသော အကြောင်းရင်း သုံးခု -- Economic, Religious နှင့် Competitive -- ကို တစ်ခုစီအတွက် Specific Source ကိုးကားကာ ကိုးကားခဲ့သည်။\n\nWeek 2 ၏ သင်ခန်းစာကို လိုက်နာသော ၎င်း၏ Route Section သည် သင်္ဘော၏ ကျန်ရှိနေသေးသော Log မှ တိုက်ရိုက် ဆွဲထုတ်ထားသော ရက်စွဲပါ Waypoint များအသုံးပြု၍ Voyage ကို Map ရေးဆွဲခဲ့ပြီး Online တွင် ရှာဖွေတွေ့ရှိခဲ့သော်လည်း ၎င်း၏ Primary Source များနှင့် Verify ပြု၍ မရသော ရေပန်းစား 'ပထမဆုံး' Claim တစ်ခုကို ပြင်ဆင်ပေးသော မှတ်ချက်ငယ်တစ်ခု ထည့်သွင်းခဲ့သည်။\n\nWeek 3 ၏ Balanced-Account Standard ကို လိုက်နာသော ၎င်း၏ Consequences Section သည် Exchange ၏ Documented Pattern တစ်ခုသို့ Voyage ၏ Contribution -- သီးနှံနှင့် ကုန်ပစ္စည်းအသစ်များ Market အသစ်များသို့ ရောက်ရှိခြင်း -- နှင့် European Contact ကျယ်ပြန့်စွာ ပြီးနောက် ပါလာသော ကောင်းစွာ Documented Human Cost နှစ်ခုစလုံးကို ၎င်း၏ Scale ကို လျော့တွက်ခြင်း မပြုဘဲ ရိုးသားစွာ ကိုယ်စားပြုခဲ့သည်။\n\nWeighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခု၊ Specific Source များအားလုံး ကိုးကားထားခြင်း -- Secondary 1 Humanities နှစ်တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Disciplined Standard များ အတိအကျဖြင့် သမိုင်းကာလ အသစ်တစ်ခုသို့ ယခု ဆက်လက် သယ်ဆောင်သွားခဲ့ခြင်း -- Term ၏ Genuine Synthesis တစ်ခုအဖြစ် ပြီးစီးသွားသော Project ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how many separately documented motives did Htet Wai Yan's motive section cite?",
+            questionMy:
+                "Htet Wai Yan ၏ Motive Section ကိုးကားခဲ့သော သီးခြားစီ Document ပြုလုပ်ထားသော Motive အရေအတွက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Three -- economic, religious, and competitive, each with its own cited source",
+              "Only one single simplified motive with no citation",
+              "No motives of any kind were cited in this section",
+              "A number entirely unrelated to the voyage being studied",
+            ],
+            optionsMy: [
+              "သုံးခု -- Economic, Religious နှင့် Competitive၊ တစ်ခုစီတွင် ၎င်းကိုယ်ပိုင် Cited Source ပါ",
+              "Citation မပါသော Simplified Motive တစ်ခုတည်းသာ",
+              "ဤ Section တွင် Motive မည်သည်မှ ကိုးကားခြင်း မရှိခြင်း",
+              "လေ့လာနေသော Voyage နှင့် လုံးလုံး မသက်ဆိုင်သော ဂဏန်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited motives."],
+            hintsMy: [
+              "ကိုးကားထားသော Motive များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Htet Wai Yan's route section correct?",
+            questionMy:
+                "Htet Wai Yan ၏ Route Section ပြင်ဆင်ပေးခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A popular 'first' claim found online that could not be verified against primary sources",
+              "Nothing at all -- no corrections were made in the route section",
+              "The entire ship log itself, which he claimed was completely inaccurate",
+              "A correction entirely unrelated to any claim about the voyage",
+            ],
+            optionsMy: [
+              "Online တွင် ရှာဖွေတွေ့ရှိခဲ့သော်လည်း Primary Source များနှင့် Verify ပြု၍ မရသော ရေပန်းစား 'ပထမဆုံး' Claim တစ်ခု",
+              "ဘာမှ -- Route Section တွင် ပြင်ဆင်ချက် မည်သည်မှ မပြုလုပ်ခဲ့ခြင်း",
+              "လုံးလုံး Inaccurate ဖြစ်သည်ဟု ၎င်း Claim ပြုလုပ်ခဲ့သော Ship Log ကိုယ်တိုင်",
+              "Voyage အကြောင်း Claim မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်သော Correction တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described correction."],
+            hintsMy: [
+              "ဖော်ပြထားသော Correction ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say the project synthesized?",
+            questionMy:
+                "Project ပေါင်းစပ်ခဲ့သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Weighed motives, a verified route, and a balanced, honestly documented account of consequences",
+              "Nothing at all -- the project failed to combine any skills from the term",
+              "Only a single skill with no connection to the other lessons of the term",
+              "Skills entirely unrelated to voyages, routes, or historical consequences",
+            ],
+            optionsMy: [
+              "Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account",
+              "ဘာမှ -- Project သည် Term မှ Skill မည်သည်ကိုမျှ ပေါင်းစပ်ရန် မအောင်မြင်ခဲ့ခြင်း",
+              "Term ၏ အခြား သင်ခန်းစာများနှင့် ချိတ်ဆက်မှု မရှိသော Skill တစ်ခုတည်း",
+              "Voyage, Route (သို့) သမိုင်းဆိုင်ရာ Consequence များနှင့် လုံးလုံး မသက်ဆိုင်သော Skill များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated synthesis."],
+            hintsMy: [
+              "ဖော်ပြထားသော Synthesis ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: The Age of Exploration Exam",
+      titleMy: "Term 1 Capstone - The Age of Exploration စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete explorer's logbook project should combine...",
+          questionMy:
+              "ပြည့်စုံသော Explorer's Logbook Project တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Documented motives, a verified route, and documented consequences",
+            "Only motives with no route or consequences",
+            "Only a route with no motives or consequences",
+            "None of these three elements",
+          ],
+          optionsMy: [
+            "Documented Motive များ, Verified Route နှင့် Documented Consequence များ",
+            "Route (သို့) Consequence မပါဘဲ Motive များသာ",
+            "Motive (သို့) Consequence မပါဘဲ Route တစ်ခုတည်း",
+            "Element သုံးခုထဲမှ တစ်ခုမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An honest account of a voyage's consequences should represent...",
+          questionMy:
+              "Voyage တစ်ခု၏ Consequence များ၏ Honest Account တစ်ခုသည် ...ကို ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Every major documented outcome, not only convenient ones",
+            "Only the outcomes that are comfortable to discuss",
+            "No outcomes of any kind whatsoever",
+            "A single, oversimplified outcome",
+          ],
+          optionsMy: [
+            "အဆင်ပြေသော Outcome များကိုသာ မဟုတ်ဘဲ Major Documented Outcome တိုင်း",
+            "ဆွေးနွေးရ အဆင်ပြေသော Outcome များကိုသာ",
+            "Outcome မည်သည်မှ လုံးဝ",
+            "Oversimplified Outcome တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Each claim in a logbook project should cite...",
+          questionMy: "Logbook Project ရှိ Claim တစ်ခုစီသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "A specific source such as a ship log or sponsor record",
+            "No source of any kind whatsoever",
+            "A vague, unnamed origin",
+            "Only popular claims with no verification",
+          ],
+          optionsMy: [
+            "Ship Log (သို့) Sponsor Record ကဲ့သို့ Specific Source",
+            "Source မည်သည်မှ လုံးဝ",
+            "Vague, အမည်မဖော်ပြထားသော Origin",
+            "Verification မပါသော ရေပန်းစား Claim များသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 1: "The Age of Exploration" (Weeks
+// 1-4)
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm1 = CourseTermDef(
+  id: "course-sec2-hum-t1",
+  termNumber: 1,
+  titleEn: "The Age of Exploration",
+  titleMy: "The Age of Exploration",
+  certificateTitleEn: "The Age of Exploration",
+  certificateTitleMy: "The Age of Exploration",
+  weeks: [_sec2HumWeek1, _sec2HumWeek2, _sec2HumWeek3, _sec2HumWeek4],
+);
+
+const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
+  id: "course-secondary2-humanities",
+  subject: "humanities",
+  grade: Grade.secondary2,
+  titleEn: "Humanities — Full Year Course",
+  titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
+  descriptionEn:
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences.",
+  descriptionMy:
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [_sec2HumTerm1],
+);
 // __SEC_HUM_MARKER__
