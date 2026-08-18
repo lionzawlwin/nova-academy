@@ -116369,9 +116369,9 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact. Term 7, Revolutions and New Ideas, covers Enlightenment political philosophy connected back to Term 2's Scientific Revolution, the documented American Revolution and French Revolution each with specific multi-causal explanation and a direct Enlightenment connection to their founding declarations, closing with a Revolutions Comparison Studio combining documented causes, a traced philosophical connection, and a balanced check on who actually received extended rights afterward.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact. Term 7, Revolutions and New Ideas, covers Enlightenment political philosophy connected back to Term 2's Scientific Revolution, the documented American Revolution and French Revolution each with specific multi-causal explanation and a direct Enlightenment connection to their founding declarations, closing with a Revolutions Comparison Studio combining documented causes, a traced philosophical connection, and a balanced check on who actually received extended rights afterward. Term 8, Population and Movement, covers documented population density and distribution connected back to Term 5's river-geography factors, a specific push-pull migration framework connected to Term 6's factory-era urbanization, and balanced modern urbanization trends representing both documented benefit and challenge, closing with a Population Movement Case Study combining density data, specific push-pull factors, and a balanced urbanization account.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Revolutions and New Ideas သည် Term 2 ၏ Scientific Revolution သို့ ပြန်လည် ချိတ်ဆက်ထားသော Enlightenment Political Philosophy, ၎င်းတို့၏ Founding Declaration များသို့ Specific Multi-Causal ရှင်းပြချက်နှင့် တိုက်ရိုက် Enlightenment ဆက်နွယ်မှုတစ်ခုစီဖြင့် Documented American Revolution နှင့် French Revolution ကို ဖုံးအုပ်ပြီး Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ Actual ရရှိခဲ့သူ မည်သူများကို Balanced Check ကို ပေါင်းစပ်ထားသော Revolutions Comparison Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Revolutions and New Ideas သည် Term 2 ၏ Scientific Revolution သို့ ပြန်လည် ချိတ်ဆက်ထားသော Enlightenment Political Philosophy, ၎င်းတို့၏ Founding Declaration များသို့ Specific Multi-Causal ရှင်းပြချက်နှင့် တိုက်ရိုက် Enlightenment ဆက်နွယ်မှုတစ်ခုစီဖြင့် Documented American Revolution နှင့် French Revolution ကို ဖုံးအုပ်ပြီး Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ Actual ရရှိခဲ့သူ မည်သူများကို Balanced Check ကို ပေါင်းစပ်ထားသော Revolutions Comparison Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Population and Movement သည် Term 5 ၏ River-Geography Factor များသို့ ပြန်လည် ချိတ်ဆက်ထားသော Documented Population Density နှင့် Distribution, Term 6 ၏ Factory-ခေတ် Urbanization သို့ ချိတ်ဆက်ထားသော Specific Push-Pull Migration Framework နှင့် Documented Benefit နှင့် Challenge နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Modern Urbanization Trend များကို ဖုံးအုပ်ပြီး Density Data, Specific Push-Pull Factor များနှင့် Balanced Urbanization Account ကို ပေါင်းစပ်ထားသော Population Movement Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec2HumTerm1,
@@ -116381,6 +116381,7 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
     _sec2HumTerm5,
     _sec2HumTerm6,
     _sec2HumTerm7,
+    _sec2HumTerm8,
   ],
 );
 // =====================================================================
@@ -125017,5 +125018,1441 @@ const CourseTermDef _sec2HumTerm7 = CourseTermDef(
   certificateTitleEn: "Revolutions and New Ideas Certificate",
   certificateTitleMy: "Revolutions and New Ideas သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec2HumWeek25, _sec2HumWeek26, _sec2HumWeek27, _sec2HumWeek28],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 8: "Population and Movement" (Weeks
+// 29-32)
+// Term 8, Week 29: "Population Growth and Distribution"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek29 = CourseWeekDef(
+  id: "course-sec2-hum-w29",
+  weekNumber: 29,
+  titleEn: "Population Growth and Distribution",
+  titleMy: "Population Growth and Distribution",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w29-d1",
+      dayNumber: 1,
+      titleEn: "Why Population Is Distributed Unevenly",
+      titleMy: "Population အဘယ်ကြောင့် မညီမျှစွာ ဖြန့်ကျက်နေသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Documented population density varies greatly across the world -- fertile river valleys and coastal regions tend to have high density, while deserts and steep mountains tend to have low density. Why does this pattern connect directly back to Term 5's river-geography and agriculture work?",
+          questionMy:
+              "Documented Population Density သည် ကမ္ဘာတစ်ဝှမ်း များစွာ ကွဲပြားသည် -- Fertile River Valley များနှင့် Coastal Region များတွင် High Density ရှိလေ့ရှိပြီး Desert များနှင့် Steep Mountain များတွင် Low Density ရှိလေ့ရှိသည်။ ဤ Pattern သည် Term 5 ၏ River-Geography နှင့် Agriculture အလုပ်နှင့် တိုက်ရိုက် အဘယ်ကြောင့် ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "The same documented factors that made floodplains attractive for agriculture and settlement (fertile soil, water access) are the same factors that explain why population density is documented as higher in those regions today",
+            "Population density has no actual documented connection to river geography or agriculture of any kind",
+            "Deserts and steep mountains are documented as having the highest population density in the world",
+            "River-geography factors have no actual influence on where people choose to live",
+          ],
+          optionsMy: [
+            "Agriculture နှင့် Settlement အတွက် Floodplain များကို Attractive ဖြစ်စေသော Documented Factor တူတူ (Fertile Soil, ရေ ရရှိမှု) သည် ယနေ့ Region များတွင် Population Density ပို၍ မြင့်မားကြောင်း Document ပြုလုပ်ထားသည့် အကြောင်းရင်း ရှင်းပြသော Factor တူတူ ဖြစ်သည်",
+            "Population Density တွင် River Geography (သို့) Agriculture နှင့် Actual Documented ဆက်နွယ်မှု မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Desert များနှင့် Steep Mountain များကို ကမ္ဘာပေါ်တွင် Highest Population Density ရှိကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "River-Geography Factor များတွင် လူများ နေထိုင်ရန် ရွေးချယ်သည့်နေရာပေါ် Actual Influence မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 5's principle: fertile floodplains attracted settlement because of documented soil and water advantages -- population density today reflects that same logic.",
+          ],
+          hintsMy: [
+            "Term 5 ၏ Principle ကို သတိရပါ -- Fertile Floodplain များသည် Documented Soil နှင့် Water Advantage များကြောင့် Settlement ကို ဆွဲဆောင်ခဲ့ပြီး ယနေ့ Population Density သည် Logic တူတူကို ထင်ဟပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do geographers document both a region's population density and its population growth rate as separate, distinct pieces of evidence rather than treating them as the same measurement?",
+          questionMy:
+              "Geographer များသည် Region တစ်ခု၏ Population Density နှင့် ၎င်း၏ Population Growth Rate နှစ်ခုစလုံးကို Measurement တူတူအဖြစ် သဘောထားမည့်အစား Separate, Distinct Evidence များအဖြစ် အဘယ်ကြောင့် Document ပြုလုပ်ထားသနည်း။",
+          optionsEn: [
+            "Density measures how many people currently live in an area while growth rate measures how quickly that number is changing, so a region can have low density but high growth (or the reverse) -- checking both gives a fuller documented picture",
+            "Population density and growth rate are documented as always identical in every region",
+            "Only one of these two measurements has any actual documented value",
+            "Checking multiple distinct measurements has no actual value in geographic study",
+          ],
+          optionsMy: [
+            "Density သည် Area တစ်ခုတွင် ယခု နေထိုင်နေသူ ဦးရေကို တိုင်းတာပြီး Growth Rate သည် ထို Number မည်မျှ လျင်မြန်စွာ ပြောင်းလဲနေသည်ကို တိုင်းတာသောကြောင့် Region တစ်ခုသည် Low Density သို့သော် High Growth ရှိနိုင်သည် (သို့) ပြန်လှန်၍ -- နှစ်ခုစလုံးကို စစ်ဆေးခြင်းသည် ပို၍ ပြည့်စုံသော Documented ပုံရိပ်ကို ပေးအပ်သည်",
+            "Population Density နှင့် Growth Rate ကို Region တိုင်းတွင် အမြဲ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားသည်",
+            "ဤ Measurement နှစ်ခုအနက် တစ်ခုတည်းကိုသာ Actual Documented Value ရှိခြင်း",
+            "Distinct Measurement များစွာ စစ်ဆေးခြင်းတွင် Geographic Study၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of density as a snapshot and growth rate as a trend -- both distinct, both documented separately.",
+          ],
+          hintsMy: [
+            "Density ကို Snapshot တစ်ခုအဖြစ်၊ Growth Rate ကို Trend တစ်ခုအဖြစ် စဉ်းစားပါ -- နှစ်ခုစလုံး Distinct ဖြစ်ပြီး နှစ်ခုစလုံး သီးခြားစီ Document ပြုလုပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student claims 'population is spread evenly across every country' without checking documented density data. Why does this claim need to be checked against actual documented evidence?",
+          questionMy:
+              "Documented Density Data ကို မစစ်ဆေးဘဲ Student တစ်ဦးက 'Population သည် နိုင်ငံတိုင်းတစ်လျှောက် ညီမျှစွာ ပျံ့နှံ့နေသည်' ဟု Claim ပြုလုပ်သည်။ ဤ Claim ကို Actual Documented Evidence နှင့် အဘယ်ကြောင့် စစ်ဆေးရန် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "Documented density data shows population is actually distributed very unevenly within most countries, so a vague 'evenly spread' claim should be checked against this specific evidence, the same habit taught since Term 1",
+            "Population is documented as always spread perfectly evenly within every country in the world",
+            "Density data has no actual documented value in checking claims about population distribution",
+            "Vague, unchecked claims are always more historically and geographically accurate than specific documented data",
+          ],
+          optionsMy: [
+            "Documented Density Data က Country အများစုအတွင်း Population သည် Actual များစွာ မညီမျှစွာ ဖြန့်ကျက်နေကြောင်း ပြသသောကြောင့် Vague 'Evenly Spread' Claim ကို ဤ Specific Evidence နှင့် စစ်ဆေးသင့်ပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော အလေ့အထ တူတူ ဖြစ်သည်",
+            "ကမ္ဘာပေါ်ရှိ Country တိုင်းအတွင်း Population ကို အမြဲ ပြည့်စုံစွာ ညီမျှစွာ ဖြန့်ကျက်ကြောင်း Document ပြုလုပ်ထားသည်",
+            "Population Distribution အကြောင်း Claim များ စစ်ဆေးရာတွင် Density Data တွင် Actual Documented Value မရှိခြင်း",
+            "Vague, Unchecked Claim များသည် Specific Documented Data ထက် အမြဲ ပို၍ သမိုင်းနှင့် Geographic အရ တိကျသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to population distribution claims.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Population Distribution Claim များပေါ်တွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Population Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Population Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w29-dm-1",
+          termEn: "Population density",
+          termMy: "Population Density",
+          matchEn:
+              "Documented measurement of how many people live in a given area",
+          matchMy:
+              "Area တစ်ခုတွင် လူများ မည်မျှ နေထိုင်သည်ကို Documented တိုင်းတာမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w29-dm-2",
+          termEn: "Population growth rate",
+          termMy: "Population Growth Rate",
+          matchEn:
+              "Documented measurement of how quickly a population's size is changing over time",
+          matchMy:
+              "Population Size သည် အချိန်ကြာလာသည်နှင့်အမျှ မည်မျှ လျင်မြန်စွာ ပြောင်းလဲနေသည်ကို Documented တိုင်းတာမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w29-dm-3",
+          termEn: "Fertile floodplain density",
+          termMy: "Fertile Floodplain Density",
+          matchEn:
+              "High documented population density connected to the same soil and water advantages from Term 5",
+          matchMy:
+              "Term 5 ၏ Soil နှင့် Water Advantage တူတူနှင့် ချိတ်ဆက်ထားသော High Documented Population Density",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w29-dm-4",
+          termEn: "Uneven distribution",
+          termMy: "Uneven Distribution",
+          matchEn:
+              "The documented pattern that population is not spread evenly across regions",
+          matchMy:
+              "Population သည် Region များတစ်လျှောက် ညီမျှစွာ မဖြန့်ကျက်ကြောင်း Documented Pattern",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: High Density or Low Density?",
+      titleMy: "စီစစ်ကြမည် - High Density (သို့) Low Density",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Typically High Density", "Typically Low Density"],
+        bucketsMy: ["Typically High Density", "Typically Low Density"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w29-sort-1",
+            labelEn: "A fertile river floodplain with reliable water access",
+            labelMy: "ယုံကြည်ရသော ရေ ရရှိမှုဖြင့် Fertile River Floodplain",
+            correctBucketEn: "Typically High Density",
+            correctBucketMy: "Typically High Density",
+          ),
+          SortingItem(
+            id: "sec2hum-w29-sort-2",
+            labelEn: "A steep, dry mountain region far from water",
+            labelMy: "ရေမှ ဝေးသော Steep, ခြောက်သွေ့သော Mountain Region",
+            correctBucketEn: "Typically Low Density",
+            correctBucketMy: "Typically Low Density",
+          ),
+          SortingItem(
+            id: "sec2hum-w29-sort-3",
+            labelEn: "A coastal region with trade access and fertile land",
+            labelMy: "Trade ရရှိမှုနှင့် Fertile Land ရှိသော Coastal Region",
+            correctBucketEn: "Typically High Density",
+            correctBucketMy: "Typically High Density",
+          ),
+          SortingItem(
+            id: "sec2hum-w29-sort-4",
+            labelEn: "A vast, arid desert with no reliable water source",
+            labelMy:
+                "ယုံကြည်ရသော ရေ Source မရှိသော ကျယ်ဝန်းသော, ခြောက်သွေ့သော Desert",
+            correctBucketEn: "Typically Low Density",
+            correctBucketMy: "Typically Low Density",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Density Data Project",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ Density Data Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Density Data Project",
+        titleMy: "Su Su ၏ Density Data Project",
+        passageEn:
+            "For Week 29's project, Su Su's first draft claimed that 'population is spread evenly across every country,' but her teacher asked her to check that claim against documented density data, the same specific-evidence habit used since Term 1.\n\nResearching further, Su Su found that documented density varies enormously within countries: fertile river floodplains and coastal regions tend to have very high density, while deserts and steep mountains tend to have very low density. She connected this directly back to Term 5's river-geography work, noting that the same documented factors that made floodplains attractive for agriculture and settlement -- fertile soil and reliable water access -- explain why those regions still show high documented population density today.\n\nShe also researched population growth rate as a separate, distinct measurement from density, learning that a region could have low current density but a high growth rate, or the reverse. She was careful not to treat the two measurements as interchangeable in her report. Her teacher praised the revision for replacing a vague, unchecked generalization with specific documented data, and for connecting this term's new geography content directly back to Term 5's established river-geography principles.",
+        passageMy:
+            "Week 29 ၏ Project အတွက် Su Su ၏ ပထမဆုံး Draft တွင် 'Population သည် နိုင်ငံတိုင်းတစ်လျှောက် ညီမျှစွာ ပျံ့နှံ့နေသည်' ဟု Claim ပြုလုပ်ခဲ့သော်လည်း Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူဖြင့် Documented Density Data နှင့် ထို Claim ကို စစ်ဆေးရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။\n\nထပ်မံ Research ပြုလုပ်ကာ Country များအတွင်း Documented Density သည် သိသိသာသာ ကွဲပြားကြောင်း Su Su တွေ့ရှိခဲ့သည် -- Fertile River Floodplain များနှင့် Coastal Region များတွင် Very High Density ရှိလေ့ရှိပြီး Desert များနှင့် Steep Mountain များတွင် Very Low Density ရှိလေ့ရှိသည်။ Agriculture နှင့် Settlement အတွက် Floodplain များကို Attractive ဖြစ်စေသော Documented Factor တူတူ -- Fertile Soil နှင့် ယုံကြည်ရသော ရေ ရရှိမှု -- သည် ထို Region များ ယနေ့ High Documented Population Density ပြသနေဆဲဖြစ်ကြောင်း ရှင်းပြရန် ၎င်းသည် ၎င်းကို Term 5 ၏ River-Geography အလုပ်နှင့် တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည်။\n\nPopulation Growth Rate ကို Density မှ Separate, Distinct Measurement တစ်ခုအဖြစ် ၎င်း Research ပြုလုပ်ခဲ့ပြီး Region တစ်ခုသည် Current Density Low သို့သော် High Growth Rate ရှိနိုင်သည်၊ (သို့) ပြန်လှန်၍ ရှိနိုင်ကြောင်း သိရှိခဲ့သည်။ Measurement နှစ်ခုကို ၎င်း၏ Report တွင် Interchangeable အဖြစ် မသဘောထားရန် ၎င်း သတိထားခဲ့သည်။ Vague, Unchecked Generalization ကို Specific Documented Data ဖြင့် အစားထိုးပြီး ဤ Term ၏ Geography Content အသစ်ကို Term 5 ၏ တည်ထောင်ထားသော River-Geography Principle များနှင့် တိုက်ရိုက် ချိတ်ဆက်ခဲ့သောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Su Su's first draft claim?",
+            questionMy:
+                "Su Su ၏ ပထမဆုံး Draft Claim ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That population is spread evenly across every country",
+              "That population density varies enormously across regions",
+              "That density data has no actual documented value",
+              "That growth rate and density are always the same measurement",
+            ],
+            optionsMy: [
+              "Population သည် နိုင်ငံတိုင်းတစ်လျှောက် ညီမျှစွာ ပျံ့နှံ့နေကြောင်း",
+              "Population Density သည် Region များတစ်လျှောက် သိသိသာသာ ကွဲပြားကြောင်း",
+              "Density Data တွင် Actual Documented Value မရှိကြောင်း",
+              "Growth Rate နှင့် Density ကို Measurement တူတူ အမြဲ ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated first-draft claim."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပထမဆုံး Draft Claim ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what documented factors explain high density in floodplain regions?",
+            questionMy:
+                "Floodplain Region များတွင် High Density ကို ရှင်းပြသော Documented Factor များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fertile soil and reliable water access",
+              "No documented factor of any kind",
+              "Factors entirely unrelated to Term 5's river-geography work",
+              "Steep, dry terrain far from any water source",
+            ],
+            optionsMy: [
+              "Fertile Soil နှင့် ယုံကြည်ရသော ရေ ရရှိမှု",
+              "Documented Factor မည်သည် အမျိုးအစားမှ",
+              "Term 5 ၏ River-Geography အလုပ်နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+              "ရေ Source မှ ဝေးသော Steep, ခြောက်သွေ့သော Terrain",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Su Su treat density and growth rate as separate measurements?",
+            questionMy:
+                "Density နှင့် Growth Rate ကို Su Su Separate Measurement များအဖြစ် အဘယ်ကြောင့် သဘောထားခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A region could have low current density but a high growth rate, or the reverse",
+              "Density and growth rate are documented as always identical",
+              "Growth rate has no actual documented connection to population data",
+              "Only one of the two measurements had any actual documented value",
+            ],
+            optionsMy: [
+              "Region တစ်ခုသည် Current Density Low သို့သော် High Growth Rate ရှိနိုင်ခြင်း (သို့) ပြန်လှန်၍",
+              "Density နှင့် Growth Rate ကို အမြဲ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+              "Growth Rate တွင် Population Data နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Measurement နှစ်ခုအနက် တစ်ခုတည်းကိုသာ Actual Documented Value ရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w29-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Population Growth and Distribution Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Population Growth and Distribution မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Fertile river floodplains typically show...",
+          questionMy:
+              "Fertile River Floodplain များသည် ယေဘုယျ ...ကို ပြသလေ့ရှိသည်",
+          optionsEn: [
+            "High documented population density",
+            "No documented population of any kind",
+            "Low documented population density with no exceptions",
+            "A density unrelated to soil or water access",
+          ],
+          optionsMy: [
+            "High Documented Population Density",
+            "Documented Population မည်သည် အမျိုးအစားမှ",
+            "Exception မရှိဘဲ Low Documented Population Density",
+            "Soil (သို့) Water ရရှိမှုနှင့် မသက်ဆိုင်သော Density",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Population density and population growth rate are documented as...",
+          questionMy:
+              "Population Density နှင့် Population Growth Rate ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Separate, distinct measurements",
+            "Always the exact same measurement",
+            "Unrelated to any documented geographic evidence",
+            "Measurements that never need to be checked separately",
+          ],
+          optionsMy: [
+            "Separate, Distinct Measurement များ",
+            "အမြဲ Measurement တူတူ",
+            "Documented Geographic Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "သီးခြားစီ စစ်ဆေးရန် ဘယ်တော့မှ မလိုအပ်သော Measurement များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A claim that 'population is spread evenly' should be checked against...",
+          questionMy:
+              "'Population သည် ညီမျှစွာ ပျံ့နှံ့နေသည်' ဟူသော Claim ကို ...နှင့် စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Specific documented density data",
+            "Nothing -- vague claims never need checking",
+            "An even vaguer explanation with less evidence",
+            "A claim unrelated to documented geographic evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Density Data",
+            "ဘာမှ -- Vague Claim များသည် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Evidence နည်းပြီး ပို၍ Vague ဖြစ်သော ရှင်းပြချက်",
+            "Documented Geographic Evidence နှင့် မသက်ဆိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 8, Week 30: "Push and Pull Factors of
+// Migration"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek30 = CourseWeekDef(
+  id: "course-sec2-hum-w30",
+  weekNumber: 30,
+  titleEn: "Push and Pull Factors of Migration",
+  titleMy: "Push and Pull Factors of Migration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w30-d1",
+      dayNumber: 1,
+      titleEn: "Why People Move",
+      titleMy: "လူများ အဘယ်ကြောင့် ရွှေ့ပြောင်းကြသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document 'push factors' (documented conditions driving people away from a place, such as poor documented economic opportunity or environmental hardship) separately from 'pull factors' (documented conditions attracting people to a new place, such as job opportunity or fertile land). Why keep these documented categories distinct?",
+          questionMy:
+              "Geographer များသည် 'Push Factor' များ (နေရာတစ်ခုမှ လူများကို ဝေးဝေး ခေါ်ဆောင်သော Documented Condition များ, Poor Documented Economic Opportunity (သို့) Environmental Hardship ကဲ့သို့) ကို 'Pull Factor' များ (နေရာအသစ်တစ်ခုသို့ လူများ ဆွဲဆောင်သော Documented Condition များ, Job Opportunity (သို့) Fertile Land ကဲ့သို့) မှ သီးခြားစီ Document ပြုလုပ်ထားသည်။ ဤ Documented Category များကို Distinct အဖြစ် အဘယ်ကြောင့် ထားရှိသနည်း။",
+          optionsEn: [
+            "Distinguishing what drives people away (push) from what attracts them elsewhere (pull) allows a more precise, specific documented explanation of migration than a single vague category of 'reasons people move'",
+            "Push factors and pull factors are documented as always identical with no actual distinction",
+            "Only push factors have any actual documented role in migration decisions",
+            "Distinguishing categories of documented evidence has no actual value in geographic study",
+          ],
+          optionsMy: [
+            "လူများကို ဝေးဝေး ခေါ်ဆောင်သည့်အရာ (Push) ကို အခြားနေရာတွင် ဆွဲဆောင်သည့်အရာ (Pull) မှ ခွဲခြားခြင်းသည် 'လူများ ရွှေ့ပြောင်းရသည့် Reason' ၏ Vague Category တစ်ခုတည်းထက် Migration ၏ ပို၍ တိကျ, Specific Documented ရှင်းပြချက်ကို ခွင့်ပြုသည်",
+            "Push Factor များနှင့် Pull Factor များကို Actual Distinction မရှိဘဲ အမြဲ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားသည်",
+            "Push Factor များတွင်သာ Migration ဆုံးဖြတ်ချက်များ၌ Actual Documented Role ရှိခြင်း",
+            "Documented Evidence ၏ Category များကို ခွဲခြားခြင်းတွင် Geographic Study၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of push as \"what makes people leave\" and pull as \"what draws people toward a new place\" -- two distinct, specific categories.",
+          ],
+          hintsMy: [
+            "Push ကို \"လူများ ထွက်ခွာစေသည့်အရာ\" အဖြစ်နှင့် Pull ကို \"နေရာအသစ်တစ်ခုဘက်သို့ လူများ ဆွဲဆောင်သည့်အရာ\" အဖြစ် စဉ်းစားပါ -- Distinct, Specific Category နှစ်ခု။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does Term 6's documented factory-era urbanization (Week 23) connect directly to this week's push-and-pull migration framework?",
+          questionMy:
+              "Term 6 ၏ Documented Factory-ခေတ် Urbanization (Week 23) သည် ဤအပတ်၏ Push-And-Pull Migration Framework နှင့် တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Rural-to-city migration for factory work is a documented historical example of pull factors (wage employment, urban opportunity) combined with push factors from changing rural economic conditions",
+            "Factory-era urbanization has no actual documented connection to push-and-pull migration factors",
+            "Push and pull factors only ever apply to modern migration, never to any historical documented example",
+            "Term 6's urbanization content is documented as completely unrelated to this week's migration framework",
+          ],
+          optionsMy: [
+            "Factory အလုပ်အတွက် Rural-To-City Migration သည် ပြောင်းလဲနေသော Rural စီးပွားရေး အခြေအနေများမှ Push Factor များနှင့် ပေါင်းစပ်ထားသော Pull Factor များ (Wage Employment, Urban Opportunity) ၏ Documented သမိုင်းဆိုင်ရာ ဥပမာ တစ်ခု ဖြစ်သည်",
+            "Factory-ခေတ် Urbanization တွင် Push-And-Pull Migration Factor များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Push နှင့် Pull Factor များသည် Modern Migration ကိုသာ ဘယ်တော့မှ သက်ဆိုင်ပြီး Documented သမိုင်းဆိုင်ရာ ဥပမာ မည်သည်ကိုမျှ မသက်ဆိုင်ခြင်း",
+            "Term 6 ၏ Urbanization Content ကို ဤအပတ်၏ Migration Framework နှင့် လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 23's rural-to-city movement for factory jobs -- that documented pattern is a specific case of the push-pull framework introduced this week.",
+          ],
+          hintsMy: [
+            "Factory အလုပ်များအတွက် Week 23 ၏ Rural-To-City Movement ကို သတိရပါ -- ထို Documented Pattern သည် ဤအပတ် မိတ်ဆက်ထားသော Push-Pull Framework ၏ Specific Case တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student lists migration reasons only as vague categories ('economic,' 'other') without citing specific, documented push or pull factors. What historical/geographic-evidence habit should the student apply?",
+          questionMy:
+              "Student တစ်ဦးသည် Specific, Documented Push (သို့) Pull Factor များကို Cite မပြုဘဲ Migration Reason များကို Vague Category များ ('Economic,' 'Other') အဖြစ်သာ List ပြုလုပ်သည်။ Student ဘယ် Historical/Geographic-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Citing specific, named documented factors (e.g., a specific job shortage, a specific documented environmental event) rather than vague categories, the same specific-evidence habit taught since Term 1",
+            "Vague categories are always more accurate than specific, named documented factors",
+            "Specific documented factors have no actual role in explaining migration",
+            "Migration reasons should never actually be cited with specific documented evidence",
+          ],
+          optionsMy: [
+            "Vague Category များအစား Specific, Named Documented Factor များ (ဥပမာ, Specific Job Shortage, Specific Documented Environmental Event) ကို Cite ပြုလုပ်ခြင်း, Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague Category များသည် Specific, Named Documented Factor များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Factor များတွင် Migration ကို ရှင်းပြရာ၌ Actual Role မရှိခြင်း",
+            "Migration Reason များကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual Cite မပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to migration factors.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Migration Factor များပေါ်တွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Migration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Migration Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w30-dm-1",
+          termEn: "Push factor",
+          termMy: "Push Factor",
+          matchEn:
+              "A documented condition driving people to leave a place, such as poor economic opportunity",
+          matchMy:
+              "Poor Economic Opportunity ကဲ့သို့ လူများအား နေရာတစ်ခုမှ ထွက်ခွာရန် ခေါ်ဆောင်သော Documented Condition",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w30-dm-2",
+          termEn: "Pull factor",
+          termMy: "Pull Factor",
+          matchEn:
+              "A documented condition attracting people toward a new place, such as job opportunity",
+          matchMy:
+              "Job Opportunity ကဲ့သို့ နေရာအသစ်တစ်ခုဘက်သို့ လူများကို ဆွဲဆောင်သော Documented Condition",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w30-dm-3",
+          termEn: "Rural-to-urban migration",
+          termMy: "Rural-To-Urban Migration",
+          matchEn:
+              "A documented historical pattern of movement to cities, seen in Term 6's factory-era urbanization",
+          matchMy:
+              "Term 6 ၏ Factory-ခေတ် Urbanization တွင် တွေ့ရသော City များသို့ Documented သမိုင်းဆိုင်ရာ Movement Pattern",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w30-dm-4",
+          termEn: "Specific documented factor",
+          termMy: "Specific Documented Factor",
+          matchEn:
+              "A precisely named cause of migration rather than a vague category",
+          matchMy: "Vague Category တစ်ခုအစား Migration ၏ Precisely Named Cause",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Push Factor or Pull Factor?",
+      titleMy: "စီစစ်ကြမည် - Push Factor (သို့) Pull Factor",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Push Factor", "Pull Factor"],
+        bucketsMy: ["Push Factor", "Pull Factor"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w30-sort-1",
+            labelEn: "Documented lack of economic opportunity in a home region",
+            labelMy:
+                "Home Region တွင် Documented Economic Opportunity ရှားပါးမှု",
+            correctBucketEn: "Push Factor",
+            correctBucketMy: "Push Factor",
+          ),
+          SortingItem(
+            id: "sec2hum-w30-sort-2",
+            labelEn:
+                "Documented wage employment available in a growing factory city",
+            labelMy:
+                "ကြီးထွားနေသော Factory City တွင် ရရှိနိုင်သော Documented Wage Employment",
+            correctBucketEn: "Pull Factor",
+            correctBucketMy: "Pull Factor",
+          ),
+          SortingItem(
+            id: "sec2hum-w30-sort-3",
+            labelEn:
+                "Documented environmental hardship affecting agricultural land",
+            labelMy:
+                "Agricultural Land ကို ထိခိုက်စေသော Documented Environmental Hardship",
+            correctBucketEn: "Push Factor",
+            correctBucketMy: "Push Factor",
+          ),
+          SortingItem(
+            id: "sec2hum-w30-sort-4",
+            labelEn:
+                "Documented fertile land attracting new settlers to a region",
+            labelMy:
+                "Region တစ်ခုသို့ Settler အသစ်များကို ဆွဲဆောင်သော Documented Fertile Land",
+            correctBucketEn: "Pull Factor",
+            correctBucketMy: "Pull Factor",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Migration Case Study",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ Migration Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Migration Case Study",
+        titleMy: "Ko Zin Ko Ko ၏ Migration Case Study",
+        passageEn:
+            "For Week 30's project, Ko Zin Ko Ko studied a documented case of rural-to-urban migration during the factory era, directly connecting it back to Term 6's Week 23 content. His first draft listed the reasons for this movement only as a vague category: 'economic reasons.'\n\nHis teacher asked him to apply the specific-evidence habit used since Term 1 -- what specific, documented push and pull factors were actually at work? Ko Zin Ko Ko revised his case study, citing specific push factors (declining rural agricultural opportunity, documented in Term 5's land-use work) alongside specific pull factors (documented wage employment and urban opportunity in growing factory cities, the same content studied in Week 23).\n\nHe was careful to keep these two categories distinct in his analysis rather than blending them into one vague 'economic' label, explaining in his conclusion that push factors explain what made people willing to leave, while pull factors explain what specifically drew them to a particular new place. His teacher praised the case study for applying this term's push-pull framework with genuine precision, connecting it to Term 5 and Term 6's documented content rather than treating population movement as a new, disconnected topic.",
+        passageMy:
+            "Week 30 ၏ Project အတွက် Factory-ခေတ်အတွင်း Rural-To-Urban Migration ၏ Documented Case တစ်ခုကို Ko Zin Ko Ko လေ့လာခဲ့ပြီး Term 6 ၏ Week 23 Content သို့ တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည်။ ၎င်း၏ ပထမဆုံး Draft တွင် ဤ Movement ၏ Reason များကို Vague Category တစ်ခုအဖြစ်သာ List ပြုလုပ်ခဲ့သည် -- 'Economic Reasons'။\n\nTerm 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Push နှင့် Pull Factor မည်သည် Actual လုပ်ဆောင်နေသလဲ။ Ko Zin Ko Ko ၏ Case Study ကို ပြန်လည် ပြင်ဆင်ခဲ့ပြီး (Term 5 ၏ Land-Use အလုပ်တွင် Document ပြုလုပ်ထားသော) ကျဆင်းနေသော Rural Agricultural Opportunity ကဲ့သို့ Specific Push Factor များနှင့် (Week 23 တွင် လေ့လာခဲ့သော Content တူတူ) ကြီးထွားနေသော Factory City များတွင် Documented Wage Employment နှင့် Urban Opportunity ကဲ့သို့ Specific Pull Factor များကို ၎င်း Cite ပြုလုပ်ခဲ့သည်။\n\nCategory နှစ်ခုကို Vague 'Economic' Label တစ်ခုတည်းအဖြစ် ရောစပ်မည့်အစား ၎င်း၏ Analysis တွင် Distinct အဖြစ် ဆက်လက် ထားရှိရန် ၎င်း သတိထားခဲ့ပြီး Push Factor များသည် လူများ ထွက်ခွာရန် ဆန္ဒရှိစေသည့်အရာကို ရှင်းပြသော်လည်း Pull Factor များသည် Specific နေရာအသစ်တစ်ခုသို့ ၎င်းတို့ ကို Specific ဆွဲဆောင်ခဲ့သည့်အရာကို ရှင်းပြသည်ဟု ၎င်း၏ Conclusion တွင် ရှင်းပြခဲ့သည်။ Population Movement ကို Disconnected Topic အသစ်တစ်ခုအဖြစ် သဘောထားမည့်အစား Term 5 နှင့် Term 6 ၏ Documented Content သို့ ချိတ်ဆက်ကာ ဤ Term ၏ Push-Pull Framework ကို Genuine Precision ဖြင့် အသုံးချသောကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Ko Zin Ko Ko's first draft list as the reason for migration?",
+            questionMy:
+                "Migration ၏ Reason အဖြစ် Ko Zin Ko Ko ၏ ပထမဆုံး Draft List ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A vague category: 'economic reasons'",
+              "Specific, named documented push and pull factors",
+              "No reason of any documented kind",
+              "A reason entirely unrelated to Term 6's content",
+            ],
+            optionsMy: [
+              "Vague Category: 'Economic Reasons'",
+              "Specific, Named Documented Push နှင့် Pull Factor များ",
+              "Documented Reason မည်သည် အမျိုးအစားမှ",
+              "Term 6 ၏ Content နှင့် လုံးလုံး မသက်ဆိုင်သော Reason",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated first-draft list."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပထမဆုံး Draft List ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific pull factor did Ko Zin Ko Ko cite from Week 23?",
+            questionMy:
+                "Week 23 မှ Ko Zin Ko Ko Cite ပြုလုပ်ခဲ့သော Specific Pull Factor ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented wage employment and urban opportunity in growing factory cities",
+              "No documented pull factor of any kind",
+              "A factor entirely unrelated to factory-era urbanization",
+              "Declining rural agricultural opportunity",
+            ],
+            optionsMy: [
+              "ကြီးထွားနေသော Factory City များတွင် Documented Wage Employment နှင့် Urban Opportunity",
+              "Documented Pull Factor မည်သည် အမျိုးအစားမှ",
+              "Factory-ခေတ် Urbanization နှင့် လုံးလုံး မသက်ဆိုင်သော Factor",
+              "ကျဆင်းနေသော Rural Agricultural Opportunity",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited pull factor."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Pull Factor ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Ko Zin Ko Ko keep push and pull factors distinct in his analysis?",
+            questionMy:
+                "၎င်း၏ Analysis တွင် Push နှင့် Pull Factor များကို Distinct အဖြစ် Ko Zin Ko Ko အဘယ်ကြောင့် ထားရှိခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Push factors explain willingness to leave, while pull factors explain what drew people to a specific place",
+              "The two categories are documented as always identical with no distinction",
+              "Push and pull factors have no actual documented connection to each other",
+              "Blending both categories into one label is always the more accurate approach",
+            ],
+            optionsMy: [
+              "Push Factor များသည် ထွက်ခွာရန် ဆန္ဒကို ရှင်းပြသော်လည်း Pull Factor များသည် Specific နေရာတစ်ခုသို့ လူများကို ဆွဲဆောင်ခဲ့သည့်အရာကို ရှင်းပြခြင်း",
+              "Category နှစ်ခုကို Distinction မရှိဘဲ အမြဲ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+              "Push နှင့် Pull Factor များတွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Category နှစ်ခုစလုံးကို Label တစ်ခုတည်းအဖြစ် ရောစပ်ခြင်းသည် အမြဲ ပို၍ တိကျသော Approach ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းပြချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w30-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Migration Factors Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Migration Factors မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Push factors are documented as conditions that...",
+          questionMy:
+              "Push Factor များကို ...Condition များအဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Drive people away from a place",
+            "Attract people toward a new place",
+            "Have no actual documented connection to migration",
+            "Are always identical to pull factors",
+          ],
+          optionsMy: [
+            "နေရာတစ်ခုမှ လူများကို ခေါ်ဆောင်သည်",
+            "နေရာအသစ်တစ်ခုဘက်သို့ လူများကို ဆွဲဆောင်သည်",
+            "Migration နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Pull Factor များနှင့် အမြဲ Identical ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Term 6's factory-era rural-to-urban migration is a documented example of...",
+          questionMy:
+              "Term 6 ၏ Factory-ခေတ် Rural-To-Urban Migration သည် ...၏ Documented ဥပမာတစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Push and pull factors working together",
+            "A movement unrelated to any documented economic factor",
+            "A pattern with no connection to this term's framework",
+            "A single unspecified cause with no documented evidence",
+          ],
+          optionsMy: [
+            "Push နှင့် Pull Factor များ အတူတကွ လုပ်ဆောင်ခြင်း",
+            "Documented Economic Factor မည်သည်နှင့်မျှ မသက်ဆိုင်သော Movement",
+            "ဤ Term ၏ Framework နှင့် ဆက်နွယ်မှု မရှိသော Pattern",
+            "Documented Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Migration reasons should be cited using...",
+          questionMy:
+              "Migration Reason များကို ...အသုံးပြု၍ Cite ပြုလုပ်သင့်သည်",
+          optionsEn: [
+            "Specific, named documented factors rather than vague categories",
+            "Only vague categories with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Categories unrelated to push or pull factors",
+          ],
+          optionsMy: [
+            "Vague Category များအစား Specific, Named Documented Factor များ",
+            "Specific Documented Evidence မပါဘဲ Vague Category များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Push (သို့) Pull Factor များနှင့် မသက်ဆိုင်သော Category များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 8, Week 31: "Urbanization Trends"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek31 = CourseWeekDef(
+  id: "course-sec2-hum-w31",
+  weekNumber: 31,
+  titleEn: "Urbanization Trends",
+  titleMy: "Urbanization Trends",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w31-d1",
+      dayNumber: 1,
+      titleEn: "From Historical to Modern Urbanization",
+      titleMy: "Historical Urbanization မှ Modern Urbanization သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "How does documented modern urbanization (the continuing rise in the share of people living in cities) connect to the same push-pull migration framework studied last week?",
+          questionMy:
+              "Documented Modern Urbanization (City များတွင် နေထိုင်နေသူ Share ၏ ဆက်လက် မြင့်တက်မှု) သည် နောက်ဆုံးအပတ်က လေ့လာခဲ့သော Push-Pull Migration Framework တူတူနှင့် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Modern urbanization is driven by the same documented type of push and pull factors studied last week -- rural push factors and urban pull factors -- applied to today's documented movement patterns rather than only historical ones",
+            "Modern urbanization has no actual documented connection to push and pull factors of any kind",
+            "Push and pull factors only ever explain historical migration, never modern documented trends",
+            "Urbanization today is documented as completely unrelated to any migration framework",
+          ],
+          optionsMy: [
+            "Modern Urbanization သည် သမိုင်းဆိုင်ရာ Pattern များကိုသာမက ယနေ့ Documented Movement Pattern များအပေါ် အသုံးချထားသော နောက်ဆုံးအပတ်က လေ့လာခဲ့သော Documented Type တူတူ Push နှင့် Pull Factor များ -- Rural Push Factor များနှင့် Urban Pull Factor များ -- ဖြင့် ဖြစ်ပေါ်စေသည်",
+            "Modern Urbanization တွင် Push (သို့) Pull Factor မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Push နှင့် Pull Factor များသည် သမိုင်းဆိုင်ရာ Migration ကိုသာ ဘယ်တော့မှ ရှင်းပြပြီး Modern Documented Trend မည်သည်ကိုမျှ မရှင်းပြခြင်း",
+            "ယနေ့ Urbanization ကို Migration Framework မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 30's push-pull framework to the ongoing documented trend, not just a one-time historical event.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 30 ၏ Push-Pull Framework ကို တစ်ကြိမ်တည်း သမိုင်းဆိုင်ရာ Event မဟုတ်ဘဲ Ongoing Documented Trend သို့ ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students studying urbanization trends cite specific documented data (such as a specific documented percentage or growth trend) rather than describing urban growth only in vague terms like 'cities are getting bigger'?",
+          questionMy:
+              "Urbanization Trend များ လေ့လာသော Student များသည် Urban Growth ကို 'City များ ကြီးလာနေသည်' ကဲ့သို့ Vague Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Data (Specific Documented Percentage (သို့) Growth Trend ကဲ့သို့) ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented data shows the actual scale and pace of urbanization precisely, the same specific-evidence habit used throughout this course, rather than leaving the trend vague and unverifiable",
+            "Vague descriptions are always more accurate than specific documented data",
+            "Specific documented data has no actual value in studying urbanization trends",
+            "Urban growth should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Data သည် Trend ကို Vague, Unverifiable အဖြစ် ချန်ထားမည့်အစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူဖြင့် Urbanization ၏ Actual Scale နှင့် Pace ကို တိကျစွာ ပြသသည်",
+            "Vague ဖော်ပြချက်များသည် Specific Documented Data ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Data တွင် Urbanization Trend များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Urban Growth ကို Specific Documented Evidence အသုံးပြု၍ ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to urbanization data.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Urbanization Data ပေါ်တွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a balanced account of urbanization trends represent both documented benefits (economic opportunity, infrastructure access) and documented challenges (overcrowding, strain on services), rather than only one dimension?",
+          questionMy:
+              "Urbanization Trend များ၏ Balanced Account တစ်ခုသည် တစ်ခုတည်းအစား Documented Benefit များ (Economic Opportunity, Infrastructure ရရှိမှု) နှင့် Documented Challenge များ (Overcrowding, Service များအပေါ် Strain) နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle applied to Term 6's factory-era social impact -- an accurate account represents every major documented dimension, not only the convenient one",
+            "Only documented benefits should ever be represented in any account of urbanization",
+            "Only documented challenges should ever be represented, with no mention of any documented benefit",
+            "Balance has no actual role in accurately representing urbanization trends",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Term 6 ၏ Factory-ခေတ် Social Impact ပေါ်တွင် အသုံးချထားသော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Urbanization ၏ Account မည်သည်တွင်မဆို Documented Benefit များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Benefit မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Challenge များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Urbanization Trend များကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Week 23's factory-era social impact, applied to modern urbanization trends.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Modern Urbanization Trend များပေါ်တွင် အသုံးချထားသော Week 23 ၏ Factory-ခေတ် Social Impact မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Urbanization Trends Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Urbanization Trends Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w31-dm-1",
+          termEn: "Urbanization trend",
+          termMy: "Urbanization Trend",
+          matchEn:
+              "The documented ongoing rise in the share of people living in cities over time",
+          matchMy:
+              "အချိန်ကြာလာသည်နှင့်အမျှ City များတွင် နေထိုင်နေသူ Share ၏ Documented Ongoing မြင့်တက်မှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w31-dm-2",
+          termEn: "Documented benefit",
+          termMy: "Documented Benefit",
+          matchEn:
+              "A positive documented outcome of urbanization, such as economic opportunity",
+          matchMy:
+              "Economic Opportunity ကဲ့သို့ Urbanization ၏ Positive Documented Outcome",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w31-dm-3",
+          termEn: "Documented challenge",
+          termMy: "Documented Challenge",
+          matchEn:
+              "A documented difficulty of urbanization, such as overcrowding or strain on services",
+          matchMy:
+              "Overcrowding (သို့) Service များအပေါ် Strain ကဲ့သို့ Urbanization ၏ Documented Difficulty",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w31-dm-4",
+          termEn: "Specific documented data",
+          termMy: "Specific Documented Data",
+          matchEn:
+              "A precise, cited figure or trend rather than a vague description",
+          matchMy:
+              "Vague ဖော်ပြချက်တစ်ခုအစား Precise, Cite ပြုလုပ်ထားသော Figure (သို့) Trend",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Benefit or Documented Challenge?",
+      titleMy: "စီစစ်ကြမည် - Documented Benefit (သို့) Documented Challenge",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Documented Benefit of Urbanization",
+          "Documented Challenge of Urbanization",
+        ],
+        bucketsMy: [
+          "Urbanization ၏ Documented Benefit",
+          "Urbanization ၏ Documented Challenge",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w31-sort-1",
+            labelEn:
+                "Documented access to jobs and infrastructure in a growing city",
+            labelMy:
+                "ကြီးထွားနေသော City တစ်ခုတွင် အလုပ်အကိုင်နှင့် Infrastructure ရရှိမှု Documented",
+            correctBucketEn: "Documented Benefit of Urbanization",
+            correctBucketMy: "Urbanization ၏ Documented Benefit",
+          ),
+          SortingItem(
+            id: "sec2hum-w31-sort-2",
+            labelEn: "Documented overcrowding straining housing and services",
+            labelMy:
+                "အိမ်ရာနှင့် Service များကို Strain ဖြစ်စေသော Documented Overcrowding",
+            correctBucketEn: "Documented Challenge of Urbanization",
+            correctBucketMy: "Urbanization ၏ Documented Challenge",
+          ),
+          SortingItem(
+            id: "sec2hum-w31-sort-3",
+            labelEn: "Documented rise in economic opportunity in urban areas",
+            labelMy:
+                "Urban ဧရိယာများတွင် Economic Opportunity ၏ Documented မြင့်တက်မှု",
+            correctBucketEn: "Documented Benefit of Urbanization",
+            correctBucketMy: "Urbanization ၏ Documented Benefit",
+          ),
+          SortingItem(
+            id: "sec2hum-w31-sort-4",
+            labelEn:
+                "Documented strain on public services from rapid population growth",
+            labelMy:
+                "လျင်မြန်သော Population Growth မှ Public Service များအပေါ် Documented Strain",
+            correctBucketEn: "Documented Challenge of Urbanization",
+            correctBucketMy: "Urbanization ၏ Documented Challenge",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Zin's Urbanization Trend Report",
+      titleMy: "စာဖတ်ခြင်း - Kyaw Zin ၏ Urbanization Trend Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Zin's Urbanization Trend Report",
+        titleMy: "Kyaw Zin ၏ Urbanization Trend Report",
+        passageEn:
+            "For Week 31's project, Kyaw Zin's first draft described modern urbanization only as 'cities are getting bigger,' with no specific documented data cited. His teacher asked him to apply the same specific-evidence habit used since Term 1 -- what specific documented figures or trends was he actually referring to?\n\nKyaw Zin revised his report with specific documented data on urban population share and growth trends, and connected this modern trend directly back to Week 30's push-pull framework: the same type of rural push factors and urban pull factors driving historical factory-era migration in Term 6 continue to drive documented urbanization today.\n\nHis first draft also described urbanization only positively, but his teacher reminded him of the balanced-account principle applied since Week 23's factory-era social impact work. Kyaw Zin revised his conclusion to represent both documented benefits (economic opportunity, infrastructure access) and documented challenges (overcrowding, strain on services) fairly, rather than only the convenient dimension. His teacher praised the report for combining specific documented data, a traced connection to the push-pull framework, and a balanced account of both dimensions of this ongoing documented trend.",
+        passageMy:
+            "Week 31 ၏ Project အတွက် Kyaw Zin ၏ ပထမဆုံး Draft တွင် Specific Documented Data မည်သည်ကိုမျှ Cite မပြုဘဲ Modern Urbanization ကို 'City များ ကြီးလာနေသည်' ဟုသာ ဖော်ပြခဲ့သည်။ Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific Documented Figure (သို့) Trend မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nUrban Population Share နှင့် Growth Trend များအပေါ် Specific Documented Data ဖြင့် Kyaw Zin ၏ Report ကို ပြန်လည် ပြင်ဆင်ခဲ့ပြီး ဤ Modern Trend ကို Week 30 ၏ Push-Pull Framework သို့ တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် -- Term 6 ၏ Historical Factory-ခေတ် Migration ကို ဖြစ်ပေါ်စေခဲ့သော Rural Push Factor များနှင့် Urban Pull Factor များ Type တူတူသည် ယနေ့ Documented Urbanization ကို ဆက်လက် ဖြစ်ပေါ်စေနေသည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Urbanization ကို Positively ဖော်ပြခြင်းသာ ရှိခဲ့သော်လည်း Week 23 ၏ Factory-ခေတ် Social Impact အလုပ်မှစ၍ အသုံးချခဲ့သော Balanced-Account Principle ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည်။ Convenient Dimension တစ်ခုတည်းမဟုတ်ဘဲ Documented Benefit များ (Economic Opportunity, Infrastructure ရရှိမှု) နှင့် Documented Challenge များ (Overcrowding, Service များအပေါ် Strain) နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် ၎င်း၏ Conclusion ကို Kyaw Zin ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Specific Documented Data, Push-Pull Framework သို့ Traced ချိတ်ဆက်မှုနှင့် ဤ Ongoing Documented Trend ၏ Dimension နှစ်ခုစလုံး၏ Balanced Account ကို ပေါင်းစပ်ခဲ့သောကြောင့် Report ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Kyaw Zin's first draft?",
+            questionMy:
+                "Kyaw Zin ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any specific documented data cited",
+              "Any mention of urbanization at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Specific Documented Data Cite ပြုလုပ်ခြင်း မည်သည်မှ",
+              "Urbanization ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Kyaw Zin connect modern urbanization back to?",
+            questionMy:
+                "Modern Urbanization ကို Kyaw Zin ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Week 30's push-pull migration framework",
+              "No documented framework of any kind",
+              "A framework entirely unrelated to migration",
+              "Content unrelated to Term 6's factory-era migration",
+            ],
+            optionsMy: [
+              "Week 30 ၏ Push-Pull Migration Framework",
+              "Documented Framework မည်သည် အမျိုးအစားမှ",
+              "Migration နှင့် လုံးလုံး မသက်ဆိုင်သော Framework",
+              "Term 6 ၏ Factory-ခေတ် Migration နှင့် မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Kyaw Zin's revised conclusion represent?",
+            questionMy:
+                "Kyaw Zin ၏ Revised Conclusion ကိုယ်စားပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both documented benefits and documented challenges of urbanization",
+              "Only documented benefits with no challenge mentioned",
+              "Only documented challenges with no benefit mentioned",
+              "Neither dimension of any documented kind",
+            ],
+            optionsMy: [
+              "Urbanization ၏ Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံး",
+              "Challenge ကို ဖော်ပြခြင်းမရှိဘဲ Documented Benefit များသာ",
+              "Benefit ကို ဖော်ပြခြင်းမရှိဘဲ Documented Challenge များသာ",
+              "Documented Dimension မည်သည်မှ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated revised conclusion.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Revised Conclusion ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w31-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Urbanization Trends Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Urbanization Trends မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Modern urbanization is driven by the same type of factors as...",
+          questionMy:
+              "Modern Urbanization ကို ...ကဲ့သို့ Factor Type တူတူက ဖြစ်ပေါ်စေသည်",
+          optionsEn: [
+            "Historical push and pull migration factors",
+            "No documented factor of any kind",
+            "Factors entirely unrelated to migration",
+            "A trend with no connection to any documented history",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ Push နှင့် Pull Migration Factor များ",
+            "Documented Factor မည်သည် အမျိုးအစားမှ",
+            "Migration နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+            "Documented သမိုင်း မည်သည်နှင့်မျှ ဆက်နွယ်မှု မရှိသော Trend",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Urbanization trends should be described using...",
+          questionMy: "Urbanization Trend များကို ...အသုံးပြု၍ ဖော်ပြသင့်သည်",
+          optionsEn: [
+            "Specific documented data rather than vague generalizations",
+            "Only vague generalizations with no specific documented data",
+            "No documented data of any kind",
+            "Descriptions unrelated to any documented trend",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented Data",
+            "Specific Documented Data မပါဘဲ Vague Generalization များသာ",
+            "Documented Data မည်သည် အမျိုးအစားမှ",
+            "Documented Trend မည်သည်နှင့်မျှ မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced account of urbanization trends represents...",
+          questionMy:
+              "Urbanization Trend များ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented benefits and documented challenges",
+            "Only documented benefits with no challenge",
+            "Only documented challenges with no benefit",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံး",
+            "Challenge မပါဘဲ Documented Benefit များသာ",
+            "Benefit မပါဘဲ Documented Challenge များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 8, Week 32 (Capstone / Boss Week):
+// "Population Movement Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek32 = CourseWeekDef(
+  id: "course-sec2-hum-w32",
+  weekNumber: 32,
+  titleEn: "Capstone: Population Movement Case Study",
+  titleMy: "Capstone - Population Movement Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w32-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 8 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 8 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone case study must combine documented density/distribution data (Week 29), specific push-pull factors (Week 30), and a balanced urbanization-trend account (Week 31). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Case Study သည် Documented Density/Distribution Data (Week 29), Specific Push-Pull Factor များ (Week 30) နှင့် Balanced Urbanization-Trend Account (Week 31) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study of population movement requires understanding where people live, why they move, and the balanced impact of that movement together, the same multi-part rigor applied to every capstone this course",
+            "A single documented factor is always sufficient to explain population movement fully",
+            "Density data, migration factors, and urbanization trends have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Population Movement ၏ Complete, တိကျသော Case Study တစ်ခုသည် လူများ မည်သည့်နေရာတွင် နေထိုင်သည်၊ အဘယ်ကြောင့် ရွှေ့ပြောင်းသည်နှင့် ထို Movement ၏ Balanced Impact ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး ဤ Course ရှိ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Population Movement ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Density Data, Migration Factor များနှင့် Urbanization Trend များတွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 29 (density), Week 30 (push-pull), and Week 31 (urbanization trends) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 29 (Density), Week 30 (Push-Pull) နှင့် Week 31 (Urbanization Trend) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes a migration case using only the vague category 'people moved for a better life' with no specific documented push or pull factor named. Following this term's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Specific Documented Push (သို့) Pull Factor မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ 'ပိုကောင်းသော ဘဝအတွက် လူများ ရွှေ့ပြောင်းခဲ့ကြသည်' ဟူသော Vague Category ကိုသာ အသုံးပြု၍ Migration Case တစ်ခုကို ဖော်ပြသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to cite specific, named documented push and pull factors, following the same specific-evidence discipline used since Week 30",
+            "Nothing -- a vague category is the required and correct approach for this term",
+            "Remove all documented evidence about migration from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Week 30 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence Discipline တူတူကို လိုက်နာကာ Specific, Named Documented Push နှင့် Pull Factor များကို Cite ပြုလုပ်ရန် Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Vague Category တစ်ခုသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "Migration အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence standard from Week 30, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 30 မှ Specific-Evidence Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project connect Term 8's population content back to Term 5's river-geography work and Term 6's factory-era migration, rather than treating population movement as an unconnected, isolated topic?",
+          questionMy:
+              "Population Movement ကို Unconnected, Isolated Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား Capstone Project သည် Term 8 ၏ Population Content ကို Term 5 ၏ River-Geography အလုပ်နှင့် Term 6 ၏ Factory-ခေတ် Migration သို့ အဘယ်ကြောင့် ပြန်လည် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "Documented geographic and historical patterns build on earlier documented developments rather than appearing in isolation, so tracing that documented connection accurately represents how population patterns actually developed",
+            "Term 5, Term 6, and Term 8 have no actual documented connection to each other",
+            "Population movement appeared with no connection to any earlier documented development",
+            "Connecting terms together has no actual value in geographic or historical study",
+          ],
+          optionsMy: [
+            "Documented Geographic နှင့် Historical Pattern များသည် Isolation တွင် ပေါ်ပေါက်မည့်အစား ယခင် Documented Development များပေါ်တွင် တည်ဆောက်သောကြောင့် ထို Documented ဆက်နွယ်မှုကို လိုက်လံ ဖော်ထုတ်ခြင်းသည် Population Pattern များ Actual ဖြစ်ပေါ်ခဲ့ပုံကို တိကျစွာ ကိုယ်စားပြုသည်",
+            "Term 5, Term 6 နှင့် Term 8 တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Population Movement သည် ယခင် Documented Development မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+            "Term များကို အတူတကွ ချိတ်ဆက်ခြင်းတွင် Geographic (သို့) Historical Study တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same gradual-development-not-isolation principle stated explicitly in Week 29 and Week 30.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 29 နှင့် Week 30 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Gradual-Development-Not-Isolation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 8 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w32-dm-1",
+          termEn: "Population density",
+          termMy: "Population Density",
+          matchEn:
+              "Documented measurement connected to Term 5's river-geography and soil-fertility factors",
+          matchMy:
+              "Term 5 ၏ River-Geography နှင့် Soil-Fertility Factor များနှင့် ချိတ်ဆက်ထားသော Documented တိုင်းတာမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w32-dm-2",
+          termEn: "Push and pull factors",
+          termMy: "Push and Pull Factors",
+          matchEn:
+              "Specific documented conditions driving people away from and toward a place",
+          matchMy:
+              "နေရာတစ်ခုမှ ခေါ်ဆောင်ခြင်းနှင့် ဆွဲဆောင်ခြင်း Specific Documented Condition များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w32-dm-3",
+          termEn: "Balanced urbanization account",
+          termMy: "Balanced Urbanization Account",
+          matchEn:
+              "A documented account representing both benefits and challenges fairly",
+          matchMy:
+              "Benefit များနှင့် Challenge များ နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုသော Documented Account",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w32-dm-4",
+          termEn: "Multi-term connection",
+          termMy: "Multi-Term Connection",
+          matchEn:
+              "Tracing documented population content back to earlier terms rather than treating it in isolation",
+          matchMy:
+              "Isolation တွင် သဘောထားမည့်အစား Documented Population Content ကို ယခင် Term များသို့ လိုက်လံ ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w32-sort-1",
+            labelEn:
+                "Documented density or distribution data for the region studied",
+            labelMy:
+                "လေ့လာသော Region အတွက် Documented Density (သို့) Distribution Data",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w32-sort-2",
+            labelEn:
+                "Specific, named push and pull factors rather than a vague category",
+            labelMy:
+                "Vague Category တစ်ခုအစား Specific, Named Push နှင့် Pull Factor များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w32-sort-3",
+            labelEn:
+                "A balanced account of both documented benefits and challenges",
+            labelMy:
+                "Documented Benefit များနှင့် Challenge များ နှစ်ခုစလုံး၏ Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w32-sort-4",
+            labelEn:
+                "A vague claim like 'people moved for a better life' with no specific documented factor",
+            labelMy:
+                "Specific Documented Factor မပါဘဲ 'ပိုကောင်းသော ဘဝအတွက် လူများ ရွှေ့ပြောင်းခဲ့ကြသည်' ကဲ့သို့ Vague Claim",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myint's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Aung Myint ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myint's Capstone Case Study",
+        titleMy: "Aung Myint ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 8 capstone, Aung Myint built his case study around a documented region's population movement, combining three elements from across the term. From Week 29, he cited the region's documented density data, connecting it back to Term 5's principle that fertile floodplains attract higher density due to documented soil and water advantages.\n\nFrom Week 30, he cited specific, named push and pull factors rather than a vague category -- documented declining rural agricultural opportunity as a push factor, and documented wage employment in a growing city as a pull factor, the same type of factors that drove Term 6's factory-era migration.\n\nFrom Week 31, he built a balanced account of the resulting urbanization: documented benefits like economic opportunity and infrastructure access, alongside documented challenges like overcrowding and strain on services. His first draft had described the outcome only positively, but he checked it against the balanced-account standard used since Week 23 and revised it to represent both dimensions fairly. His teacher praised the case study for combining documented density data, specific push-pull factors, and a balanced urbanization account into one connected project -- and for tracing this term's content back to Term 5 and Term 6 rather than treating population movement as an isolated topic, exactly the standard built across every capstone this course.",
+        passageMy:
+            "Term 8 Capstone အတွက် Term တစ်ခုလုံးမှ Element သုံးခုကို ပေါင်းစပ်ကာ Documented Region တစ်ခု၏ Population Movement ပတ်ပါလျက် ၎င်း၏ Case Study ကို Aung Myint တည်ဆောက်ခဲ့သည်။ Week 29 မှ Region ၏ Documented Density Data ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး Fertile Floodplain များသည် Documented Soil နှင့် Water Advantage များကြောင့် Higher Density ကို ဆွဲဆောင်သည်ဟူသော Term 5 ၏ Principle သို့ ပြန်လည် ချိတ်ဆက်ခဲ့သည်။\n\nWeek 30 မှ Vague Category တစ်ခုအစား Specific, Named Push နှင့် Pull Factor များကို ၎င်း Cite ပြုလုပ်ခဲ့သည် -- Push Factor တစ်ခုအဖြစ် ကျဆင်းနေသော Rural Agricultural Opportunity Documented နှင့် Pull Factor တစ်ခုအဖြစ် ကြီးထွားနေသော City တစ်ခုတွင် Documented Wage Employment, Term 6 ၏ Factory-ခေတ် Migration ကို ဖြစ်ပေါ်စေခဲ့သော Factor Type တူတူ။\n\nWeek 31 မှ ရလဒ်ဖြစ်ထွန်းသော Urbanization ၏ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Economic Opportunity နှင့် Infrastructure ရရှိမှုကဲ့သို့ Documented Benefit များနှင့်အတူ Overcrowding နှင့် Service များအပေါ် Strain ကဲ့သို့ Documented Challenge များ။ ၎င်း၏ ပထမဆုံး Draft တွင် Outcome ကို Positively ဖော်ပြခြင်းသာ ရှိခဲ့သော်လည်း Week 23 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Standard နှင့် ၎င်း စစ်ဆေးကာ Dimension နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် ၎င်းကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Documented Density Data, Specific Push-Pull Factor များနှင့် Balanced Urbanization Account ကို Connected Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- ထို့အပြင် Population Movement ကို Isolated Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား ဤ Term ၏ Content ကို Term 5 နှင့် Term 6 သို့ လိုက်လံ ဖော်ထုတ်ခဲ့ခြင်း၊ ဤ Course ရှိ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Aung Myint connect Week 29's density data back to?",
+            questionMy:
+                "Week 29 ၏ Density Data ကို Aung Myint ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 5's principle that fertile floodplains attract higher density",
+              "No documented principle of any kind",
+              "A principle entirely unrelated to river geography",
+              "Term 6's factory-era migration content only",
+            ],
+            optionsMy: [
+              "Fertile Floodplain များသည် Higher Density ကို ဆွဲဆောင်သည်ဟူသော Term 5 ၏ Principle",
+              "Documented Principle မည်သည် အမျိုးအစားမှ",
+              "River Geography နှင့် လုံးလုံး မသက်ဆိုင်သော Principle",
+              "Term 6 ၏ Factory-ခေတ် Migration Content တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific push and pull factors did Aung Myint cite?",
+            questionMy:
+                "Aung Myint Cite ပြုလုပ်ခဲ့သော Specific Push နှင့် Pull Factor များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Declining rural agricultural opportunity and wage employment in a growing city",
+              "A vague category with no specific documented factor named",
+              "Factors entirely unrelated to Term 6's migration content",
+              "No documented factor of any kind",
+            ],
+            optionsMy: [
+              "ကျဆင်းနေသော Rural Agricultural Opportunity နှင့် ကြီးထွားနေသော City တစ်ခုတွင် Wage Employment",
+              "Specific Documented Factor မည်သည်ကိုမျှ အမည်တပ်ခြင်းမရှိသော Vague Category",
+              "Term 6 ၏ Migration Content နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+              "Documented Factor မည်သည် အမျိုးအစားမှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited factors."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Factor များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise the case study?",
+            questionMy:
+                "Case Study ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It combined three documented elements and connected the term back to Term 5 and Term 6",
+              "It treated population movement as an isolated topic with no connection to earlier terms",
+              "It ignored every documented factor from the entire term",
+              "It had no actual connection to any earlier course content",
+            ],
+            optionsMy: [
+              "Documented Element သုံးခုကို ပေါင်းစပ်ကာ Term ကို Term 5 နှင့် Term 6 သို့ ပြန်လည် ချိတ်ဆက်ခဲ့ခြင်း",
+              "ယခင် Term များနှင့် ဆက်နွယ်မှု မပါဘဲ Population Movement ကို Isolated Topic တစ်ခုအဖြစ် သဘောထားခဲ့ခြင်း",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခဲ့ခြင်း",
+              "ယခင် Course Content မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Recap: Population and Movement",
+      titleMy: "Term 8 ပြန်လည်သုံးသပ်ခြင်း - Population and Movement",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Population density and distribution are documented as connecting to...",
+          questionMy:
+              "Population Density နှင့် Distribution ကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Term 5's river-geography and soil-fertility factors",
+            "No documented factor of any kind",
+            "Factors entirely unrelated to river geography",
+            "A topic with no connection to any earlier term",
+          ],
+          optionsMy: [
+            "Term 5 ၏ River-Geography နှင့် Soil-Fertility Factor များ",
+            "Documented Factor မည်သည် အမျိုးအစားမှ",
+            "River Geography နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+            "ယခင် Term မည်သည်နှင့်မျှ ဆက်နွယ်မှု မရှိသော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Push and pull factors should be cited as...",
+          questionMy:
+              "Push နှင့် Pull Factor များကို ...အဖြစ် Cite ပြုလုပ်သင့်သည်",
+          optionsEn: [
+            "Specific, named documented factors rather than vague categories",
+            "Only vague categories with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Categories unrelated to migration",
+          ],
+          optionsMy: [
+            "Vague Category များအစား Specific, Named Documented Factor များ",
+            "Specific Documented Evidence မပါဘဲ Vague Category များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Migration နှင့် မသက်ဆိုင်သော Category များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced case study of population movement represents...",
+          questionMy:
+              "Population Movement ၏ Balanced Case Study သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented benefits and documented challenges of urbanization",
+            "Only documented benefits with no challenge",
+            "Only documented challenges with no benefit",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Urbanization ၏ Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံး",
+            "Challenge မပါဘဲ Documented Benefit များသာ",
+            "Benefit မပါဘဲ Documented Challenge များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 8: "Population and Movement" (Weeks
+// 29-32). Documented population density and growth-rate patterns
+// connected back to Term 5's river-geography and soil-fertility
+// factors (Week 29), a specific push-pull migration framework
+// connected to Term 6's factory-era urbanization (Week 30), and
+// balanced modern urbanization trends representing both documented
+// benefit and challenge (Week 31), closing with a capstone case study
+// combining density data, specific push-pull factors, and a balanced
+// urbanization account (Week 32).
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm8 = CourseTermDef(
+  id: "course-sec2-hum-t8",
+  termNumber: 8,
+  titleEn: "Population and Movement",
+  titleMy: "Population and Movement",
+  certificateTitleEn: "Population and Movement Certificate",
+  certificateTitleMy: "Population and Movement သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec2HumWeek29, _sec2HumWeek30, _sec2HumWeek31, _sec2HumWeek32],
 );
 // __SEC_HUM_MARKER__
