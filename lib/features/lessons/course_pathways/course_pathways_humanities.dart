@@ -129351,9 +129351,9 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account. Term 7, Development and Global Inequality, deliberately primes IGCSE Humanities' fuller development unit: specific documented development indicators used together rather than relying on one alone, specific documented causes of global inequality traced back to Term 2's colonial economic structures, and a balanced account of documented development aid representing recipients as active participants, closing with a Development Case Study combining a documented country's indicators, causes, and balanced aid account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account. Term 7, Development and Global Inequality, deliberately primes IGCSE Humanities' fuller development unit: specific documented development indicators used together rather than relying on one alone, specific documented causes of global inequality traced back to Term 2's colonial economic structures, and a balanced account of documented development aid representing recipients as active participants, closing with a Development Case Study combining a documented country's indicators, causes, and balanced aid account. Term 8, Natural Hazards Foundations, deliberately primes IGCSE Humanities' fuller natural hazards unit: distinct documented hazard categories (tectonic and climatic), documented plate boundaries explaining why tectonic hazards concentrate in specific locations rather than occurring randomly, and a balanced account of documented risk and human response representing hazard-prone communities as active agents building preparedness rather than passive victims, closing with a Natural Hazards Case Study combining a documented hazard type, plate-boundary connection, and balanced risk-response account.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Development and Global Inequality သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Development Unit ကို တမင် Priming ပြုလုပ်သည် -- တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Specific Documented Development Indicator များကို အတူတကွ အသုံးပြုကာ Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Global Inequality ၏ Specific Documented Cause များနှင့် Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Development Aid ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Country တစ်ခု၏ Indicator များ, Cause များနှင့် Balanced Aid Account ကို ပေါင်းစပ်ထားသော Development Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Development and Global Inequality သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Development Unit ကို တမင် Priming ပြုလုပ်သည် -- တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Specific Documented Development Indicator များကို အတူတကွ အသုံးပြုကာ Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Global Inequality ၏ Specific Documented Cause များနှင့် Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Development Aid ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Country တစ်ခု၏ Indicator များ, Cause များနှင့် Balanced Aid Account ကို ပေါင်းစပ်ထားသော Development Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Natural Hazards Unit ကို တမင် Priming ပြုလုပ်သည် -- Distinct Documented Hazard Category များ (Tectonic နှင့် Climatic), Tectonic Hazard များ ကျပန်း ဖြစ်ပျက်မည့်အစား Specific Location များတွင် အဘယ်ကြောင့် စုစည်းသည်ကို ရှင်းပြသော Documented Plate Boundary များနှင့် Hazard-Prone Community များကို Passive Victim များအစား Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုသော Documented Risk နှင့် Human Response ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Hazard Type, Plate-Boundary Connection နှင့် Balanced Risk-Response Account ကို ပေါင်းစပ်ထားသော Natural Hazards Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec3HumTerm1,
@@ -129363,6 +129363,7 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
     _sec3HumTerm5,
     _sec3HumTerm6,
     _sec3HumTerm7,
+    _sec3HumTerm8,
   ],
 );
 // =====================================================================
@@ -138013,5 +138014,1441 @@ const CourseTermDef _sec3HumTerm7 = CourseTermDef(
   certificateTitleEn: "Development and Global Inequality Certificate",
   certificateTitleMy: "Development and Global Inequality သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek25, _sec3HumWeek26, _sec3HumWeek27, _sec3HumWeek28],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 8: "Natural Hazards Foundations"
+// (Weeks 29-32). Deliberately primes IGCSE Humanities' fuller natural
+// hazards unit.
+// Term 8, Week 29: "Documented Types of Natural Hazards"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek29 = CourseWeekDef(
+  id: "course-sec3-hum-w29",
+  weekNumber: 29,
+  titleEn: "Documented Types of Natural Hazards",
+  titleMy: "Natural Hazard ၏ Documented Type များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w29-d1",
+      dayNumber: 1,
+      titleEn: "Distinct Documented Hazard Categories",
+      titleMy: "Distinct Documented Hazard Category များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document natural hazards as falling into distinct specific categories: tectonic hazards (documented as caused by movement within the Earth's crust, such as earthquakes and volcanic eruptions) and climatic hazards (documented as caused by atmospheric conditions, such as tropical storms). Why cite this specific documented distinction rather than describing all natural hazards as one uniform category?",
+          questionMy:
+              "Geographer များသည် Natural Hazard များကို Distinct Specific Category များအဖြစ် Document ပြုလုပ်ထားသည် -- Tectonic Hazard (Earthquake များနှင့် Volcanic Eruption များကဲ့သို့ Earth's Crust အတွင်း Movement က ဖြစ်ပေါ်စေကြောင်း Document ပြုလုပ်ထားသော) နှင့် Climatic Hazard (Tropical Storm များကဲ့သို့ Atmospheric Condition များက ဖြစ်ပေါ်စေကြောင်း Document ပြုလုပ်ထားသော)။ Natural Hazard အားလုံးကို Uniform Category တစ်ခုတည်းအဖြစ် ဖော်ပြမည့်အစား ဤ Specific Documented Distinction ကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Distinguishing specific documented categories shows precisely what documented physical process causes each type of hazard, the same specific-over-vague habit taught throughout this course",
+            "All documented natural hazards are documented as having identical causes with no distinction",
+            "Only one specific documented category of natural hazard ever actually exists",
+            "Distinguishing documented hazard categories has no actual value in studying natural hazards",
+          ],
+          optionsMy: [
+            "Specific Documented Category များကို ခွဲခြားခြင်းသည် Hazard အမျိုးအစားတစ်ခုစီကို Documented Physical Process မည်သည်က ဖြစ်ပေါ်စေသည်ကို တိကျစွာ ပြသပြီး ဤ Course တစ်လျှောက်လုံး သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်",
+            "Documented Natural Hazard အားလုံးကို Distinction မရှိဘဲ Identical Cause များ ရှိကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Natural Hazard ၏ Specific Documented Category တစ်ခုတည်းသာ ဘယ်တော့မှ Actual တည်ရှိခြင်း",
+            "Documented Hazard Category များကို ခွဲခြားခြင်းတွင် Natural Hazard များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit carried forward from every prior term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing specific documented hazard events name the specific documented type, location, and approximate date rather than describing 'a natural disaster happened' in vague terms?",
+          questionMy:
+              "Specific Documented Hazard Event များကို Cite ပြုလုပ်သော Student များသည် 'Natural Disaster တစ်ခု ဖြစ်ပျက်ခဲ့သည်' ဟု Vague Term များဖြင့် ဖော်ပြမည့်အစား Specific Documented Type, Location နှင့် Approximate Date ကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented type, location, and date shows genuine understanding of a real documented event, the same specific-evidence habit used throughout this course, rather than a vague generic claim",
+            "Vague, unspecified descriptions are always more accurate than specific documented citation",
+            "Specific documented citation has no actual value in studying natural hazards",
+            "Natural hazard events should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Type, Location နှင့် Date ကို Cite ပြုလုပ်ခြင်းသည် Vague Generic Claim တစ်ခုအစား Real Documented Event တစ်ခု၏ Genuine နားလည်မှု ကို ပြသပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, Unspecified ဖော်ပြချက်များသည် Specific Documented Citation ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Citation တွင် Natural Hazard များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Natural Hazard Event များကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is this course introducing natural hazard types at this level while reserving fuller coverage of natural hazards geography for IGCSE, following the same deliberate approach used in Term 3, Term 5, and Term 7?",
+          questionMy:
+              "IGCSE အတွက် Natural Hazards Geography ၏ ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် Term 3, Term 5 နှင့် Term 7 တွင် အသုံးပြုခဲ့သော Deliberate Approach တူတူကို လိုက်နာကာ ဤ Course သည် ဤ Level တွင် Natural Hazard Type များကို အဘယ်ကြောင့် မိတ်ဆက်ပေးနေသနည်း။",
+          optionsEn: [
+            "This follows the same deliberate spiral curriculum design used throughout this course -- introducing a documented connection at an appropriate depth now, building toward fuller coverage later",
+            "This course should never actually mention any content that will be covered again at IGCSE",
+            "Natural hazard types have no actual connection to any later documented study",
+            "This course should fully cover natural hazards geography's complete content in total depth at this stage",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Deliberate Spiral Curriculum Design တူတူကို လိုက်နာသည် -- ယခု သင့်လျော်သော Depth တွင် Documented Connection တစ်ခုကို မိတ်ဆက်ပေးကာ နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage ဘက်သို့ တည်ဆောက်ခြင်း",
+            "ဤ Course သည် IGCSE တွင် ထပ်မံ ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+            "Natural Hazard Type များတွင် နောက်ပိုင်း Documented Study မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "ဤ Course သည် ဤအဆင့်တွင် Natural Hazards Geography ၏ Complete Content ကို Total Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same spiral curriculum principle explicitly stated in Term 3, Term 5, and Term 7, applied here to natural hazards.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Natural Hazards ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 3, Term 5 နှင့် Term 7 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Spiral Curriculum Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Natural Hazard Types Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Natural Hazard Types Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w29-dm-1",
+          termEn: "Tectonic hazard",
+          termMy: "Tectonic Hazard",
+          matchEn:
+              "A documented hazard caused by movement within the Earth's crust, such as earthquakes",
+          matchMy:
+              "Earthquake များကဲ့သို့ Earth's Crust အတွင်း Movement က ဖြစ်ပေါ်စေသော Documented Hazard",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w29-dm-2",
+          termEn: "Climatic hazard",
+          termMy: "Climatic Hazard",
+          matchEn:
+              "A documented hazard caused by atmospheric conditions, such as tropical storms",
+          matchMy:
+              "Tropical Storm များကဲ့သို့ Atmospheric Condition များက ဖြစ်ပေါ်စေသော Documented Hazard",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w29-dm-3",
+          termEn: "Volcanic eruption",
+          termMy: "Volcanic Eruption",
+          matchEn:
+              "A documented tectonic hazard involving the release of material from beneath the crust",
+          matchMy:
+              "Crust အောက်မှ Material Release ပါဝင်သော Documented Tectonic Hazard",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w29-dm-4",
+          termEn: "Specific documented event",
+          termMy: "Specific Documented Event",
+          matchEn:
+              "A named hazard event with a specific type, location, and approximate date",
+          matchMy:
+              "Specific Type, Location နှင့် Approximate Date ပါဝင်သော Named Hazard Event",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Tectonic Hazard or Climatic Hazard?",
+      titleMy: "စီစစ်ကြမည် - Tectonic Hazard (သို့) Climatic Hazard",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Tectonic Hazard", "Climatic Hazard"],
+        bucketsMy: ["Tectonic Hazard", "Climatic Hazard"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w29-sort-1",
+            labelEn:
+                "A documented earthquake caused by movement within the Earth's crust",
+            labelMy:
+                "Earth's Crust အတွင်း Movement က ဖြစ်ပေါ်စေသော Documented Earthquake",
+            correctBucketEn: "Tectonic Hazard",
+            correctBucketMy: "Tectonic Hazard",
+          ),
+          SortingItem(
+            id: "sec3hum-w29-sort-2",
+            labelEn:
+                "A documented tropical storm caused by atmospheric conditions",
+            labelMy:
+                "Atmospheric Condition များက ဖြစ်ပေါ်စေသော Documented Tropical Storm",
+            correctBucketEn: "Climatic Hazard",
+            correctBucketMy: "Climatic Hazard",
+          ),
+          SortingItem(
+            id: "sec3hum-w29-sort-3",
+            labelEn:
+                "A documented volcanic eruption releasing material from beneath the crust",
+            labelMy:
+                "Crust အောက်မှ Material ကို Release ပြုလုပ်သော Documented Volcanic Eruption",
+            correctBucketEn: "Tectonic Hazard",
+            correctBucketMy: "Tectonic Hazard",
+          ),
+          SortingItem(
+            id: "sec3hum-w29-sort-4",
+            labelEn:
+                "A documented cyclone driven by warm ocean and atmospheric conditions",
+            labelMy:
+                "နွေးထွေးသော Ocean နှင့် Atmospheric Condition များက ဆွဲဆောင်ထားသော Documented Cyclone",
+            correctBucketEn: "Climatic Hazard",
+            correctBucketMy: "Climatic Hazard",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Hazard Types Chart",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ Hazard Types Chart",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Hazard Types Chart",
+        titleMy: "Ko Zin Ko Ko ၏ Hazard Types Chart",
+        passageEn:
+            "For Week 29's project, Ko Zin Ko Ko's first draft described natural hazards only as 'a natural disaster happened,' with no specific documented type, location, or date cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented hazard was he actually referring to?\n\nKo Zin Ko Ko revised his chart to distinguish two documented categories clearly: tectonic hazards, caused by documented movement within the Earth's crust (such as earthquakes and volcanic eruptions), and climatic hazards, caused by documented atmospheric conditions (such as tropical storms). For each category, he cited a specific documented example with a named type, location, and approximate date rather than a vague, unspecified claim.\n\nHis teacher noted that this course was introducing natural hazard types at an appropriate depth now, the same spiral curriculum design used in Term 3, Term 5, and Term 7, while reserving fuller natural hazards geography coverage for IGCSE. Ko Zin Ko Ko's chart was praised for combining specific documented citation with a clear categorical distinction, exactly the discipline the class would need going into Week 30's look at the documented tectonic causes behind these hazards.",
+        passageMy:
+            "Week 29 ၏ Project အတွက် Ko Zin Ko Ko ၏ ပထမဆုံး Draft တွင် Specific Documented Type, Location (သို့) Date မည်သည်ကိုမျှ Cite မပြုဘဲ Natural Hazard များကို 'Natural Disaster တစ်ခု ဖြစ်ပျက်ခဲ့သည်' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Hazard မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nDocumented Category နှစ်ခုကို ရှင်းလင်းစွာ ခွဲခြားရန် ၎င်း၏ Chart ကို Ko Zin Ko Ko ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Documented Earth's Crust အတွင်း Movement က ဖြစ်ပေါ်စေသော Tectonic Hazard များ (Earthquake များနှင့် Volcanic Eruption များကဲ့သို့) နှင့် Documented Atmospheric Condition များက ဖြစ်ပေါ်စေသော Climatic Hazard များ (Tropical Storm များကဲ့သို့)။ Category တစ်ခုစီအတွက် Vague, Unspecified Claim တစ်ခုအစား Named Type, Location နှင့် Approximate Date ပါဝင်သော Specific Documented ဥပမာတစ်ခုကို ၎င်း Cite ပြုလုပ်ခဲ့သည်။\n\nIGCSE အတွက် ပို၍ ပြည့်စုံသော Natural Hazards Geography Coverage ကို ချန်ထားစဉ် ဤ Course သည် ယခု သင့်လျော်သော Depth တွင် Natural Hazard Type များကို မိတ်ဆက်ပေးနေကြောင်း, Term 3, Term 5 နှင့် Term 7 တွင် အသုံးပြုခဲ့သော Spiral Curriculum Design တူတူ ဖြစ်ကြောင်း ၎င်း၏ ဆရာ မှတ်ချက်ပြုခဲ့သည်။ Specific Documented Citation ကို ရှင်းလင်းသော Categorical Distinction နှင့် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Ko Zin Ko Ko ၏ Chart ကို ချီးမွမ်းခံရခဲ့ပြီး ဤ Hazard များနောက်ကွယ်ရှိ Documented Tectonic Cause များကို ကြည့်ရှုမည့် Week 30 သို့ ဝင်ရောက်ရန် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two documented categories did Ko Zin Ko Ko distinguish?",
+            questionMy:
+                "Ko Zin Ko Ko ခွဲခြားခဲ့သော Documented Category နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Tectonic hazards and climatic hazards",
+              "No documented category of any kind",
+              "Categories entirely unrelated to natural hazards",
+              "A single unspecified category with no documented evidence",
+            ],
+            optionsMy: [
+              "Tectonic Hazard များနှင့် Climatic Hazard များ",
+              "Documented Category မည်သည် အမျိုးအစားမှ",
+              "Natural Hazard များနှင့် လုံးလုံး မသက်ဆိုင်သော Category များ",
+              "Documented Evidence မပါသော Unspecified Category တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated categories."],
+            hintsMy: [
+              "ဖော်ပြထားသော Category များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ko Zin Ko Ko cite for each category?",
+            questionMy:
+                "Category တစ်ခုစီအတွက် Ko Zin Ko Ko Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A specific documented example with named type, location, and date",
+              "No documented example of any kind",
+              "A vague, unspecified claim with no documented details",
+              "Content entirely unrelated to natural hazards",
+            ],
+            optionsMy: [
+              "Named Type, Location နှင့် Date ပါဝင်သော Specific Documented ဥပမာ",
+              "Documented ဥပမာ မည်သည် အမျိုးအစားမှ",
+              "Documented Detail မပါသော Vague, Unspecified Claim",
+              "Natural Hazard များနှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated citation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Citation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 30 examine?",
+            questionMy: "Week 30 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The documented tectonic causes behind these hazards",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to natural hazards",
+              "Content unrelated to any documented tectonic process",
+            ],
+            optionsMy: [
+              "ဤ Hazard များနောက်ကွယ်ရှိ Documented Tectonic Cause များ",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Natural Hazard များနှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Tectonic Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 30.",
+            ],
+            hintsMy: [
+              "Week 30 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w29-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Hazard Types Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Hazard Types မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Tectonic hazards are documented as caused by...",
+          questionMy:
+              "Tectonic Hazard များကို ...က ဖြစ်ပေါ်စေကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Movement within the Earth's crust",
+            "Atmospheric conditions only",
+            "No documented cause of any kind",
+            "Factors unrelated to any documented physical process",
+          ],
+          optionsMy: [
+            "Earth's Crust အတွင်း Movement",
+            "Atmospheric Condition တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Documented Physical Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Climatic hazards are documented as caused by...",
+          questionMy:
+              "Climatic Hazard များကို ...က ဖြစ်ပေါ်စေကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Atmospheric conditions",
+            "Movement within the Earth's crust only",
+            "No documented cause of any kind",
+            "Factors unrelated to any documented physical process",
+          ],
+          optionsMy: [
+            "Atmospheric Condition များ",
+            "Earth's Crust အတွင်း Movement တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Documented Physical Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying natural hazards requires citing...",
+          questionMy:
+              "Natural Hazard များ လေ့လာခြင်းသည် ...ကို Cite ပြုလုပ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented type, location, and date rather than vague claims",
+            "Only vague claims with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific documented hazard",
+          ],
+          optionsMy: [
+            "Vague Claim များအစား Specific Documented Type, Location နှင့် Date",
+            "Specific Documented Evidence မပါဘဲ Vague Claim များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific Documented Hazard မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 8, Week 30: "Documented Plate
+// Tectonics"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek30 = CourseWeekDef(
+  id: "course-sec3-hum-w30",
+  weekNumber: 30,
+  titleEn: "Documented Plate Tectonics",
+  titleMy: "Documented Plate Tectonics",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w30-d1",
+      dayNumber: 1,
+      titleEn: "Documented Plate Boundaries",
+      titleMy: "Documented Plate Boundary များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document that the Earth's crust is divided into specific documented tectonic plates, and that tectonic hazards (studied in Week 29) are concentrated documented along the boundaries where these plates meet, rather than occurring randomly across the Earth's surface. Why cite this specific documented pattern rather than describing hazard locations only as 'random'?",
+          questionMy:
+              "Geographer များသည် Earth's Crust ကို Specific Documented Tectonic Plate များအဖြစ် ခွဲထားကြောင်းနှင့် (Week 29 တွင် လေ့လာခဲ့သော) Tectonic Hazard များသည် Earth's Surface တစ်ဝှမ်း ကျပန်း ဖြစ်ပျက်မည့်အစား ဤ Plate များ တွေ့ဆုံရာ Boundary များတစ်လျှောက် Documented စုစည်းနေကြောင်း Document ပြုလုပ်ထားသည်။ Hazard Location များကို 'ကျပန်း' ဟုသာ ဖော်ပြမည့်အစား ဤ Specific Documented Pattern ကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Citing this specific documented pattern shows precisely why tectonic hazards concentrate in certain documented locations, the same specific-evidence habit taught throughout this course, rather than a vague claim of randomness",
+            "Tectonic hazards are documented as occurring completely randomly with no connection to plate boundaries",
+            "Plate boundaries have no actual documented connection to where tectonic hazards occur",
+            "Specific documented patterns have no actual value in studying natural hazards geography",
+          ],
+          optionsMy: [
+            "ဤ Specific Documented Pattern ကို Cite ပြုလုပ်ခြင်းသည် Tectonic Hazard များ Documented Location အချို့တွင် အဘယ်ကြောင့် စုစည်းနေသည်ကို တိကျစွာ ပြသပြီး Randomness ၏ Vague Claim တစ်ခုအစား ဤ Course တစ်လျှောက်လုံး သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Tectonic Hazard များကို Plate Boundary များနှင့် ဆက်နွယ်မှု မပါဘဲ လုံးလုံး ကျပန်း ဖြစ်ပျက်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Plate Boundary များတွင် Tectonic Hazard များ ဖြစ်ပျက်ရာနေရာနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Pattern များတွင် Natural Hazards Geography လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects Week 29's tectonic hazard category to a specific, documented geographic explanation.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 29 ၏ Tectonic Hazard Category ကို Specific, Documented Geographic ရှင်းပြချက်တစ်ခုသို့ တိုက်ရိုက် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does this week's documented plate-boundary content connect directly back to Week 29's distinction between tectonic and climatic hazards?",
+          questionMy:
+              "ဤအပတ်၏ Documented Plate-Boundary Content သည် Tectonic နှင့် Climatic Hazard များကြား Week 29 ၏ Distinction သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Plate boundaries explain precisely why tectonic hazards specifically (not climatic ones) concentrate in documented specific locations, extending rather than replacing Week 29's categorical distinction",
+            "Plate boundaries have no actual documented connection to Week 29's hazard categories",
+            "Week 29 and Week 30 are documented as completely unrelated to each other",
+            "Plate boundaries explain climatic hazards, not tectonic ones, contradicting Week 29's distinction",
+          ],
+          optionsMy: [
+            "Plate Boundary များသည် Climatic မဟုတ်ဘဲ Tectonic Hazard များ တိကျစွာ Documented Specific Location များတွင် အဘယ်ကြောင့် စုစည်းနေသည်ကို တိကျစွာ ရှင်းပြပြီး Week 29 ၏ Categorical Distinction ကို အစားထိုးမည့်အစား တိုးချဲ့သည်",
+            "Plate Boundary များတွင် Week 29 ၏ Hazard Category များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Week 29 နှင့် Week 30 တွင် တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Plate Boundary များသည် Tectonic Hazard များမဟုတ်ဘဲ Climatic Hazard များကို ရှင်းပြကာ Week 29 ၏ Distinction ကို ဆန့်ကျင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 29's tectonic-vs-climatic distinction to a documented geographic explanation of why tectonic hazards specifically occur where they do.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Tectonic Hazard များ ၎င်းတို့ ဖြစ်ပျက်သည့်နေရာတွင် တိကျစွာ အဘယ်ကြောင့် ဖြစ်ပျက်သည်ကို Documented Geographic ရှင်းပြချက်တစ်ခုသို့ Week 29 ၏ Tectonic-Vs-Climatic Distinction ကို ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing documented plate boundaries name specific documented plates and regions rather than describing tectonic activity only in vague, general terms?",
+          questionMy:
+              "Documented Plate Boundary များကို Cite ပြုလုပ်သော Student များသည် Tectonic Activity ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Plate များနှင့် Region များကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented plates and regions shows genuine understanding of real documented geographic patterns, the same specific-evidence habit used throughout this course",
+            "Vague, general descriptions are always more accurate than specific documented plates and regions",
+            "Specific documented plates and regions have no actual value in studying tectonic activity",
+            "Tectonic activity should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Plate များနှင့် Region များ Cite ပြုလုပ်ခြင်းသည် Real Documented Geographic Pattern များ၏ Genuine နားလည်မှု ကို ပြသပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Plate များနှင့် Region များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Plate များနှင့် Region များတွင် Tectonic Activity လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Tectonic Activity ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Plate Tectonics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Plate Tectonics Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w30-dm-1",
+          termEn: "Tectonic plate",
+          termMy: "Tectonic Plate",
+          matchEn:
+              "A documented section of the Earth's crust that moves relative to other sections",
+          matchMy:
+              "အခြား Section များနှင့် Relative ရွေ့လျားသော Earth's Crust ၏ Documented Section",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w30-dm-2",
+          termEn: "Plate boundary",
+          termMy: "Plate Boundary",
+          matchEn:
+              "A documented location where tectonic hazards are concentrated, not spread randomly",
+          matchMy:
+              "Tectonic Hazard များ ကျပန်း ပျံ့နှံ့မည့်အစား စုစည်းနေသော Documented Location",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w30-dm-3",
+          termEn: "Documented concentration pattern",
+          termMy: "Documented Concentration Pattern",
+          matchEn:
+              "The geographic pattern of tectonic hazards clustering along documented plate boundaries",
+          matchMy:
+              "Documented Plate Boundary များတစ်လျှောက် Tectonic Hazard များ စုစည်းနေသော Geographic Pattern",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w30-dm-4",
+          termEn: "Specific documented region",
+          termMy: "Specific Documented Region",
+          matchEn:
+              "A named area of tectonic activity rather than a vague, unspecified location",
+          matchMy:
+              "Vague, Unspecified Location တစ်ခုအစား Named Area Of Tectonic Activity",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Pattern or Vague Claim?",
+      titleMy: "စီစစ်ကြမည် - Documented Pattern (သို့) Vague Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Pattern", "Vague Claim"],
+        bucketsMy: ["Specific Documented Pattern", "Vague Claim"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w30-sort-1",
+            labelEn:
+                "Tectonic hazards are documented as concentrated along specific plate boundaries",
+            labelMy:
+                "Tectonic Hazard များကို Specific Plate Boundary များတစ်လျှောက် Documented Concentrated ဖြစ်ကြောင်း",
+            correctBucketEn: "Specific Documented Pattern",
+            correctBucketMy: "Specific Documented Pattern",
+          ),
+          SortingItem(
+            id: "sec3hum-w30-sort-2",
+            labelEn: "Earthquakes just happen randomly anywhere",
+            labelMy:
+                "Earthquake များသည် နေရာမည်သည်တွင်မဆို ကျပန်း ဖြစ်ပျက်ခြင်း",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+          SortingItem(
+            id: "sec3hum-w30-sort-3",
+            labelEn:
+                "A specific documented plate boundary region cited with named plates",
+            labelMy:
+                "Named Plate များနှင့်အတူ Cite ပြုလုပ်ထားသော Specific Documented Plate Boundary Region",
+            correctBucketEn: "Specific Documented Pattern",
+            correctBucketMy: "Specific Documented Pattern",
+          ),
+          SortingItem(
+            id: "sec3hum-w30-sort-4",
+            labelEn: "Tectonic activity happens in general around the world",
+            labelMy:
+                "Tectonic Activity သည် ကမ္ဘာတစ်ဝှမ်း ယေဘုယျအားဖြင့် ဖြစ်ပျက်ခြင်း",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Plate Boundary Map",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Plate Boundary Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Plate Boundary Map",
+        titleMy: "Zayar Lin ၏ Plate Boundary Map",
+        passageEn:
+            "For Week 30's project, Zayar Lin's first draft described tectonic hazard locations only as 'random,' with no specific documented plate boundary cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented pattern was he actually referring to?\n\nZayar Lin revised his map to cite the documented pattern directly: tectonic hazards concentrate along specific documented plate boundaries rather than occurring randomly across the Earth's surface. He connected this explicitly back to Week 29's distinction between tectonic and climatic hazards, showing that plate boundaries explained specifically why tectonic hazards (not climatic ones) clustered where they did -- extending rather than replacing that earlier documented categorical distinction.\n\nHis teacher praised the revision for replacing a vague claim of randomness with a specific, documented geographic pattern, and for tracing the connection back to Week 29 rather than treating plate tectonics as an unconnected new topic. The teacher noted Week 31 would build on this by examining the balanced documented account of hazard risk and human response.",
+        passageMy:
+            "Week 30 ၏ Project အတွက် Zayar Lin ၏ ပထမဆုံး Draft တွင် Specific Documented Plate Boundary မည်သည်ကိုမျှ Cite မပြုဘဲ Tectonic Hazard Location များကို 'ကျပန်း' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Pattern မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nDocumented Pattern ကို တိုက်ရိုက် Cite ပြုလုပ်ရန် ၎င်း၏ Map ကို Zayar Lin ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Tectonic Hazard များသည် Earth's Surface တစ်ဝှမ်း ကျပန်း ဖြစ်ပျက်မည့်အစား Specific Documented Plate Boundary များတစ်လျှောက် စုစည်းနေသည်။ Tectonic နှင့် Climatic Hazard များကြား Week 29 ၏ Distinction သို့ ဤသည်ကို ၎င်း ရှင်းလင်းစွာ ချိတ်ဆက်ခဲ့ပြီး Plate Boundary များသည် Climatic Hazard များမဟုတ်ဘဲ Tectonic Hazard များ ၎င်းတို့ ဖြစ်ပျက်သည့်နေရာတွင် တိကျစွာ အဘယ်ကြောင့် စုစည်းခဲ့သည်ကို ရှင်းပြခဲ့ကြောင်း -- ထို ယခင် Documented Categorical Distinction ကို အစားထိုးမည့်အစား တိုးချဲ့ကြောင်း ပြသခဲ့သည်။\n\nRandomness ၏ Vague Claim ကို Specific, Documented Geographic Pattern ဖြင့် အစားထိုးခြင်းနှင့် Plate Tectonics ကို Unconnected Topic အသစ်တစ်ခုအဖြစ် သဘောထားမည့်အစား Connection ကို Week 29 သို့ လိုက်လံ ဖော်ထုတ်ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။ Hazard Risk နှင့် Human Response ၏ Balanced Documented Account ကို စစ်ဆေးခြင်းဖြင့် Week 31 သည် ဤသည်ပေါ်တွင် တည်ဆောက်မည်ဟု ဆရာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what documented pattern did Zayar Lin cite?",
+            questionMy:
+                "Zayar Lin Cite ပြုလုပ်ခဲ့သော Documented Pattern ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Tectonic hazards concentrate along specific documented plate boundaries",
+              "No documented pattern of any kind",
+              "A pattern entirely unrelated to plate boundaries",
+              "Tectonic hazards occur completely randomly with no documented pattern",
+            ],
+            optionsMy: [
+              "Tectonic Hazard များသည် Specific Documented Plate Boundary များတစ်လျှောက် စုစည်းနေခြင်း",
+              "Documented Pattern မည်သည် အမျိုးအစားမှ",
+              "Plate Boundary များနှင့် လုံးလုံး မသက်ဆိုင်သော Pattern",
+              "Tectonic Hazard များသည် Documented Pattern မပါဘဲ လုံးလုံး ကျပန်း ဖြစ်ပျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited pattern."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Pattern ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Zayar Lin connect this pattern back to?",
+            questionMy:
+                "ဤ Pattern ကို Zayar Lin ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Week 29's distinction between tectonic and climatic hazards",
+              "No documented content of any kind",
+              "Content entirely unrelated to Week 29",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Tectonic နှင့် Climatic Hazard များကြား Week 29 ၏ Distinction",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Week 29 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 31 examine?",
+            questionMy: "Week 31 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The balanced documented account of hazard risk and human response",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to natural hazards",
+              "Content unrelated to any documented risk or response",
+            ],
+            optionsMy: [
+              "Hazard Risk နှင့် Human Response ၏ Balanced Documented Account",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Natural Hazard များနှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Risk (သို့) Response မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 31.",
+            ],
+            hintsMy: [
+              "Week 31 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w30-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Plate Tectonics Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Plate Tectonics မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Tectonic hazards are documented as concentrated...",
+          questionMy:
+              "Tectonic Hazard များကို ...စုစည်းနေကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Along specific documented plate boundaries",
+            "Randomly across the Earth's surface with no pattern",
+            "No documented location of any kind",
+            "Only in regions unrelated to any documented plate",
+          ],
+          optionsMy: [
+            "Specific Documented Plate Boundary များတစ်လျှောက်",
+            "Pattern မပါဘဲ Earth's Surface တစ်ဝှမ်း ကျပန်း",
+            "Documented Location မည်သည် အမျိုးအစားမှ",
+            "Documented Plate မည်သည်နှင့်မျှ မသက်ဆိုင်သော Region များတွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Plate boundary content connects back to Week 29 by explaining...",
+          questionMy:
+              "Plate Boundary Content သည် ...ရှင်းပြခြင်းဖြင့် Week 29 သို့ ပြန်လည် ချိတ်ဆက်သည်",
+          optionsEn: [
+            "Why tectonic hazards specifically concentrate where they do",
+            "No documented connection to Week 29's hazard categories",
+            "A concept unrelated to Week 29's distinction",
+            "Why climatic hazards, not tectonic ones, cluster at boundaries",
+          ],
+          optionsMy: [
+            "Tectonic Hazard များ တိကျစွာ ၎င်းတို့ ဖြစ်ပျက်သည့်နေရာတွင် အဘယ်ကြောင့် စုစည်းသည်",
+            "Week 29 ၏ Hazard Category များနှင့် Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Week 29 ၏ Distinction နှင့် မသက်ဆိုင်သော Concept",
+            "Tectonic Hazard များမဟုတ်ဘဲ Climatic Hazard များ Boundary များတွင် အဘယ်ကြောင့် စုစည်းသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying plate tectonics requires citing...",
+          questionMy:
+              "Plate Tectonics လေ့လာခြင်းသည် ...ကို Cite ပြုလုပ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented plates and regions rather than vague generalizations",
+            "Only vague, general descriptions with no specific evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific documented plate",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented Plate များနှင့် Region များ",
+            "Specific Evidence မပါဘဲ Vague, General ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific Documented Plate မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 8, Week 31: "Balanced Account of
+// Hazard Risk and Response"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek31 = CourseWeekDef(
+  id: "course-sec3-hum-w31",
+  weekNumber: 31,
+  titleEn: "Balanced Account of Hazard Risk and Response",
+  titleMy: "Hazard Risk and Response ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w31-d1",
+      dayNumber: 1,
+      titleEn: "Documented Risk and Documented Human Response",
+      titleMy: "Documented Risk နှင့် Documented Human Response",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, documented account of natural hazards represents both documented risk (the real, serious danger a hazard poses to affected communities) and documented human response (preparedness, mitigation, and resilience efforts communities and governments actively undertake). Why must both dimensions be represented rather than describing hazards only as unavoidable catastrophe?",
+          questionMy:
+              "Natural Hazard ၏ Balanced, Documented Account တစ်ခုသည် Documented Risk (Affected Community များအား Hazard တစ်ခု ပေးအပ်သော Real, Serious Danger) နှင့် Documented Human Response (Community များနှင့် Government များ တက်ကြွစွာ ဆောင်ရွက်သော Preparedness, Mitigation နှင့် Resilience ကြိုးပမ်းမှုများ) နှစ်ခုစလုံးကို ကိုယ်စားပြုသည်။ Hazard များကို Unavoidable Catastrophe အဖြစ်သာ ဖော်ပြမည့်အစား Dimension နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used throughout this course -- an accurate account represents every major documented dimension, including human agency in response, not only the danger itself",
+            "Only documented risk should ever be represented in any account of natural hazards",
+            "Only documented human response should ever be represented, with no mention of any real documented risk",
+            "Balance has no actual role in accurately representing natural hazards",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Danger ကိုယ်တိုင်တစ်ခုတည်းမဟုတ်ဘဲ Response ၌ Human Agency အပါအဝင် Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Natural Hazard များ၏ Account မည်သည်တွင်မဆို Documented Risk ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Real Documented Risk မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Human Response ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Natural Hazard များကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline used throughout this course, applied here to hazard risk and human response.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Hazard Risk နှင့် Human Response ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students representing communities in hazard-prone regions document them as active agents building preparedness and resilience, rather than only as passive, helpless victims of documented risk?",
+          questionMy:
+              "Hazard-Prone Region ရှိ Community များကို ကိုယ်စားပြုသော Student များသည် Documented Risk ၏ Passive, Helpless Victim များအဖြစ်သာမက Preparedness နှင့် Resilience ကို တည်ဆောက်နေသော Active Agent များအဖြစ် ၎င်းတို့ကို အဘယ်ကြောင့် Document ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same agency principle applied consistently throughout this course -- representing affected people as active agents shaping outcomes, not only as passive subjects that events happen to",
+            "Communities in hazard-prone regions have no actual documented agency of any kind",
+            "Only outside authorities should ever be credited with any documented agency in hazard response",
+            "Historical or geographic agency should never actually be attributed to communities facing natural hazards",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး တသမတ်တည်း အသုံးချထားသော Agency Principle တူတူကို လိုက်နာသည် -- Event များ ဖြစ်ပျက်ရာတွင် ရှိနေသော Passive Subject များအဖြစ်သာမက Outcome များကို ပုံဖော်နေသော Active Agent များအဖြစ် အကျိုးသက်ရောက်ခဲ့သော လူများကို ကိုယ်စားပြုခြင်း",
+            "Hazard-Prone Region ရှိ Community များတွင် Actual Documented Agency မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Hazard Response ၏ Documented Agency မည်သည်ကိုမဆို Outside Authority များကိုသာ Credit ပေးသင့်ခြင်း",
+            "Natural Hazard ရင်ဆိုင်ရသော Community များအား Historical (သို့) Geographic Agency ကို ဘယ်တော့မှ Actual မသတ်မှတ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same agency principle used consistently since Secondary 2 and reinforced in this course's Term 2, Term 6, and Term 7.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့ပြီး ဤ Course ၏ Term 2, Term 6 နှင့် Term 7 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Agency Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this balanced account cite specific documented preparedness measures (such as named early-warning systems or documented building codes) rather than describing human response only in vague, general terms?",
+          questionMy:
+              "ဤ Balanced Account သည် Human Response ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Preparedness Measure များ (Named Early-Warning System များ, သို့ Documented Building Code များကဲ့သို့) ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented examples demonstrate genuine understanding of real documented preparedness efforts, the same precision habit used throughout this course, rather than relying on vague generalizations",
+            "Vague, general descriptions are always more accurate than specific documented examples",
+            "Specific documented examples have no actual value in representing hazard response accurately",
+            "Human response to hazards should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented ဥပမာများသည် Real Documented Preparedness Effort များ၏ Genuine နားလည်မှု ကို သရုပ်ပြပြီး Vague Generalization များအပေါ် မှီခိုမည့်အစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Precision အလေ့အထ ကို လိုက်နာသည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented ဥပမာများထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented ဥပမာများတွင် Hazard Response ကို တိကျစွာ ကိုယ်စားပြုရာ၌ Actual Value မရှိခြင်း",
+            "Hazard များကို Human Response ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hazard Risk and Response Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Hazard Risk and Response Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w31-dm-1",
+          termEn: "Documented risk",
+          termMy: "Documented Risk",
+          matchEn:
+              "The real, serious danger a natural hazard poses to an affected community",
+          matchMy:
+              "Affected Community တစ်ခုအား Natural Hazard တစ်ခု ပေးအပ်သော Real, Serious Danger",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w31-dm-2",
+          termEn: "Preparedness",
+          termMy: "Preparedness",
+          matchEn:
+              "Documented measures communities take in advance to reduce hazard impact",
+          matchMy:
+              "Hazard Impact လျှော့ချရန် Community များ ကြိုတင် လုပ်ဆောင်သော Documented Measure များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w31-dm-3",
+          termEn: "Resilience",
+          termMy: "Resilience",
+          matchEn:
+              "A documented community's capacity to recover from and adapt to hazard impact",
+          matchMy:
+              "Hazard Impact မှ ပြန်လည်ရယူပြီး လိုက်လျောညီထွေ ဖြစ်ရန် Documented Community တစ်ခု၏ Capacity",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w31-dm-4",
+          termEn: "Active agent",
+          termMy: "Active Agent",
+          matchEn:
+              "Representing hazard-prone communities as building preparedness, not only as passive victims",
+          matchMy:
+              "Passive Victim များအဖြစ်သာမက Preparedness တည်ဆောက်သော Hazard-Prone Community များအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Risk or Documented Response?",
+      titleMy: "စီစစ်ကြမည် - Documented Risk (သို့) Documented Response",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Risk", "Documented Human Response"],
+        bucketsMy: ["Documented Risk", "Documented Human Response"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w31-sort-1",
+            labelEn:
+                "The documented danger a specific hazard poses to a coastal community",
+            labelMy:
+                "Coastal Community တစ်ခုအား Specific Hazard တစ်ခု ပေးအပ်သော Documented Danger",
+            correctBucketEn: "Documented Risk",
+            correctBucketMy: "Documented Risk",
+          ),
+          SortingItem(
+            id: "sec3hum-w31-sort-2",
+            labelEn:
+                "A documented early-warning system helping a community prepare",
+            labelMy:
+                "Community တစ်ခု ပြင်ဆင်ရန် ကူညီပေးသော Documented Early-Warning System",
+            correctBucketEn: "Documented Human Response",
+            correctBucketMy: "Documented Human Response",
+          ),
+          SortingItem(
+            id: "sec3hum-w31-sort-3",
+            labelEn:
+                "Documented serious harm a hazard can cause to lives and property",
+            labelMy:
+                "Hazard တစ်ခု လူ့အသက်နှင့် ပိုင်ဆိုင်မှုပေါ် ဖြစ်စေနိုင်သော Documented Serious Harm",
+            correctBucketEn: "Documented Risk",
+            correctBucketMy: "Documented Risk",
+          ),
+          SortingItem(
+            id: "sec3hum-w31-sort-4",
+            labelEn:
+                "Documented building codes designed to reduce hazard damage",
+            labelMy:
+                "Hazard Damage လျှော့ချရန် Design ပြုလုပ်ထားသော Documented Building Code များ",
+            correctBucketEn: "Documented Human Response",
+            correctBucketMy: "Documented Human Response",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Balanced Hazard Report",
+      titleMy: "စာဖတ်ခြင်း - Thiri ၏ Balanced Hazard Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Balanced Hazard Report",
+        titleMy: "Thiri ၏ Balanced Hazard Report",
+        passageEn:
+            "For Week 31's assignment, Thiri's first draft described a documented hazard-prone region only through documented risk -- serious, real danger to the community -- with no mention of any documented human response. Her teacher returned the draft with a reminder of the balanced-account principle used throughout this course: had she checked documented preparedness and resilience alongside documented risk?\n\nThiri researched further and found both dimensions clearly documented: the real, serious danger the hazard posed, alongside specific documented preparedness measures the community had undertaken, such as an early-warning system and documented building codes designed to reduce damage. She also revised how she represented the community itself, initially describing residents only as passive, helpless victims. Her teacher reminded her of the agency principle used consistently since Secondary 2 -- Thiri revised her report to represent the community as active agents building preparedness and resilience, not only as passive victims of documented risk.\n\nHer teacher praised the revision for combining specific documented citation, balanced representation of risk and response, and respected agency into one accurate account, exactly the discipline Week 32's capstone would require for its combined case study.",
+        passageMy:
+            "Week 31 ၏ Assignment အတွက် Thiri ၏ ပထမဆုံး Draft တွင် Documented Human Response မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Hazard-Prone Region တစ်ခုကို Documented Risk -- Community အား Serious, Real Danger -- မှတစ်ဆင့်သာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Risk များနှင့်အတူ Documented Preparedness နှင့် Resilience ကို ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nDimension နှစ်ခုစလုံးကို ရှင်းလင်းစွာ Document ပြုလုပ်ထားကြောင်း Thiri ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည် -- Hazard ပေးအပ်ခဲ့သော Real, Serious Danger, Early-Warning System နှင့် Damage လျှော့ချရန် Design ပြုလုပ်ထားသော Documented Building Code များကဲ့သို့ Community ဆောင်ရွက်ခဲ့သော Specific Documented Preparedness Measure များနှင့်အတူ။ Community ကိုယ်တိုင်ကို ၎င်း ကိုယ်စားပြုပုံကိုလည်း ၎င်း ပြန်လည် ပြင်ဆင်ခဲ့ပြီး Resident များကို Passive, Helpless Victim များအဖြစ်သာ ပထမဦးစွာ ဖော်ပြခဲ့သည်။ Secondary 2 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော Agency Principle ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- Documented Risk ၏ Passive Victim များအဖြစ်သာမက Preparedness နှင့် Resilience ကို တည်ဆောက်နေသော Active Agent များအဖြစ် Community ကို ကိုယ်စားပြုရန် ၎င်း၏ Report ကို Thiri ပြန်လည် ပြင်ဆင်ခဲ့သည်။\n\nSpecific Documented Citation, Risk နှင့် Response ၏ Balanced Representation နှင့် Respected Agency ကို Accurate Account တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Week 32 ၏ Capstone ၏ Combined Case Study အတွက် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Thiri's first draft?",
+            questionMy:
+                "Thiri ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any mention of documented human response",
+              "Any mention of documented risk at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Documented Human Response ၏ ဖော်ပြချက် မည်သည်မှ",
+              "Documented Risk ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Thiri revise her representation of the community?",
+            questionMy:
+                "Community ၏ Representation ကို Thiri မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As active agents building preparedness and resilience",
+              "As passive, helpless victims with no actual role",
+              "As having no actual documented historical or geographic significance",
+              "By removing all mention of the community entirely",
+            ],
+            optionsMy: [
+              "Preparedness နှင့် Resilience ကို တည်ဆောက်နေသော Active Agent များအဖြစ်",
+              "Actual Role မရှိသော Passive, Helpless Victim များအဖြစ်",
+              "Actual Documented Historical (သို့) Geographic Significance မရှိကြောင်း",
+              "Community ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Thiri's revision?",
+            questionMy:
+                "Thiri ၏ Revision ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For combining specific citation, balanced representation, and respected agency into one account",
+              "For describing the hazard only through documented risk",
+              "For ignoring every documented dimension from the entire term",
+              "For making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Specific Citation, Balanced Representation နှင့် Respected Agency ကို Account တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်းအတွက်",
+              "Documented Risk မှတစ်ဆင့်သာ Hazard ကို ဖော်ပြခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Dimension တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w31-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Hazard Risk and Response Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Hazard Risk and Response မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A balanced account of natural hazards represents...",
+          questionMy:
+              "Natural Hazard များ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented risk and documented human response",
+            "Only documented risk with no response mentioned",
+            "Only documented response with no risk mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Risk နှင့် Documented Human Response နှစ်ခုစလုံး",
+            "Response ကို ဖော်ပြခြင်းမရှိဘဲ Documented Risk သာ",
+            "Risk ကို ဖော်ပြခြင်းမရှိဘဲ Documented Response သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Communities in hazard-prone regions should be represented as...",
+          questionMy:
+              "Hazard-Prone Region ရှိ Community များကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Active agents building preparedness and resilience",
+            "Passive, helpless victims with no actual role",
+            "People with no actual documented agency of any kind",
+            "Unrelated to any agency principle used this course",
+          ],
+          optionsMy: [
+            "Preparedness နှင့် Resilience ကို တည်ဆောက်နေသော Active Agent များ",
+            "Actual Role မရှိသော Passive, Helpless Victim များ",
+            "Actual Documented Agency မည်သည် အမျိုးအစားမှ မရှိသော လူများ",
+            "ဤ Course အသုံးပြုခဲ့သော Agency Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Describing human response to hazards accurately requires...",
+          questionMy:
+              "Hazard များကို Human Response ကို တိကျစွာ ဖော်ပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented examples rather than vague generalizations",
+            "Only vague, general descriptions with no specific evidence",
+            "No documented evidence of any kind",
+            "Descriptions unrelated to any documented preparedness measure",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented ဥပမာများ",
+            "Specific Evidence မပါဘဲ Vague, General ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented Preparedness Measure မည်သည်နှင့်မျှ မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 8, Week 32 (Capstone / Boss Week):
+// "Natural Hazards Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek32 = CourseWeekDef(
+  id: "course-sec3-hum-w32",
+  weekNumber: 32,
+  titleEn: "Capstone: Natural Hazards Case Study",
+  titleMy: "Capstone - Natural Hazards Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w32-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 8 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 8 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must choose one specific documented hazard-prone region and combine its documented hazard type (Week 29), its documented plate-boundary connection if tectonic (Week 30), and a balanced account of risk and response (Week 31). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Specific Documented Hazard-Prone Region တစ်ခု ရွေးချယ်ကာ ၎င်း၏ Documented Hazard Type (Week 29), Tectonic ဖြစ်ပါက ၎င်း၏ Documented Plate-Boundary Connection (Week 30) နှင့် Risk and Response ၏ Balanced Account (Week 31) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding what documented hazard a region faces, why it occurs there, and its balanced documented risk and response together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain a region's hazard situation fully",
+            "Hazard type, plate-boundary connection, and balanced response have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် Region တစ်ခု ရင်ဆိုင်ရသော Documented Hazard မည်သည်ကို ၎င်း အဘယ်ကြောင့် ထိုနေရာတွင် ဖြစ်ပျက်သည်နှင့် ၎င်း၏ Balanced Documented Risk and Response ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Region တစ်ခု၏ Hazard Situation ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Hazard Type, Plate-Boundary Connection နှင့် Balanced Response တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 29 (hazard types), Week 30 (plate tectonics), and Week 31 (balanced risk/response) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 29 (Hazard Type), Week 30 (Plate Tectonics) နှင့် Week 31 (Balanced Risk/Response) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes their chosen region's hazard vaguely as 'a natural disaster area' and represents its residents only as helpless victims with no documented preparedness mentioned. Following this term's established standards, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် ၎င်း ရွေးချယ်ထားသော Region ၏ Hazard ကို 'Natural Disaster Area တစ်ခု' ဟု Vague စွာ ဖော်ပြကာ Documented Preparedness မည်သည်ကိုမျှ ဖော်ပြခြင်းမရှိဘဲ ၎င်း၏ Resident များကို Helpless Victim များအဖြစ်သာ ကိုယ်စားပြုသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard များအတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to name the specific documented hazard type (Week 29) and represent residents as active agents building preparedness (Week 31)",
+            "Nothing -- a vague hazard description and helpless-victim framing are the required approach for this term",
+            "Remove all documented evidence about the chosen region from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Specific Documented Hazard Type ကို အမည်တပ်ကာ (Week 29) Resident များကို Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုရန် (Week 31) Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Vague Hazard ဖော်ပြချက်နှင့် Helpless-Victim Framing သည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော Region အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines the specific-citation standard from Week 29 and the agency standard from Week 31, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 29 မှ Specific-Citation Standard နှင့် Week 31 မှ Agency Standard ကို ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project explicitly note that this course is priming natural hazards content for fuller IGCSE coverage, rather than presenting the case study as complete coverage of the topic?",
+          questionMy:
+              "Capstone Project သည် Case Study ကို Topic ၏ Complete Coverage အဖြစ် တင်ပြမည့်အစား ဤ Course သည် IGCSE ပို၍ ပြည့်စုံသော Coverage အတွက် Natural Hazards Content ကို Priming ပြုလုပ်နေကြောင်း ရှင်းလင်းစွာ အဘယ်ကြောင့် မှတ်ချက်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same honest spiral curriculum representation used in Term 3's and Term 5's capstones -- accurately representing the project as priming rather than overstating its coverage",
+            "This course has actually fully covered natural hazards geography's complete content at this point",
+            "There is no actual documented distinction between priming a topic and fully covering it",
+            "Natural hazards content has no actual documented connection to any later IGCSE study",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Term 3 ၏ နှင့် Term 5 ၏ Capstone များတွင် အသုံးပြုခဲ့သော Honest Spiral Curriculum Representation တူတူကို လိုက်နာသည် -- ၎င်း၏ Coverage ကို Overstate မပြုဘဲ Project ကို Priming အဖြစ် တိကျစွာ ကိုယ်စားပြုခြင်း",
+            "ဤ Course သည် ဤအချိန်တွင် Natural Hazards Geography ၏ Complete Content ကို Actual အပြည့်အစုံ ဖုံးအုပ်ပြီး ဖြစ်သည်",
+            "Topic တစ်ခုကို Priming ပြုလုပ်ခြင်းနှင့် အပြည့်အဝ ဖုံးအုပ်ခြင်းကြား Actual Documented Distinction မရှိခြင်း",
+            "Natural Hazards Content တွင် နောက်ပိုင်း IGCSE Study မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same honest-priming standard from Term 3's Week 12 capstone, applied here to natural hazards.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Natural Hazards ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 3 ၏ Week 12 Capstone မှ Honest-Priming Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 8 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w32-dm-1",
+          termEn: "Tectonic or climatic hazard",
+          termMy: "Tectonic (သို့) Climatic Hazard",
+          matchEn:
+              "A distinct documented hazard category with its own specific documented cause",
+          matchMy:
+              "၎င်း ကိုယ်ပိုင် Specific Documented Cause ပါဝင်သော Distinct Documented Hazard Category",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w32-dm-2",
+          termEn: "Plate boundary",
+          termMy: "Plate Boundary",
+          matchEn:
+              "A documented location where tectonic hazards concentrate rather than occurring randomly",
+          matchMy:
+              "Tectonic Hazard များ ကျပန်း ဖြစ်ပျက်မည့်အစား စုစည်းနေသော Documented Location",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w32-dm-3",
+          termEn: "Balanced risk-response account",
+          termMy: "Balanced Risk-Response Account",
+          matchEn:
+              "Representing both documented risk and documented human response fairly",
+          matchMy:
+              "Documented Risk နှင့် Documented Human Response နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w32-dm-4",
+          termEn: "Honest priming",
+          termMy: "Honest Priming",
+          matchEn:
+              "Accurately representing this course's coverage as introductory, not full IGCSE depth",
+          matchMy:
+              "ဤ Course ၏ Coverage ကို Full IGCSE Depth မဟုတ်ဘဲ Introductory အဖြစ် တိကျစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w32-sort-1",
+            labelEn:
+                "The specific documented hazard type facing the chosen region",
+            labelMy:
+                "ရွေးချယ်ထားသော Region ရင်ဆိုင်ရသော Specific Documented Hazard Type",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w32-sort-2",
+            labelEn:
+                "A balanced account representing both documented risk and human response",
+            labelMy:
+                "Documented Risk နှင့် Human Response နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w32-sort-3",
+            labelEn:
+                "Residents represented as active agents building preparedness",
+            labelMy:
+                "Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုထားသော Resident များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w32-sort-4",
+            labelEn:
+                "A vague description like 'a natural disaster area' with residents as helpless victims",
+            labelMy:
+                "Resident များကို Helpless Victim များအဖြစ်ဖြင့် 'Natural Disaster Area တစ်ခု' ကဲ့သို့ Vague ဖော်ပြချက်",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Nilar ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Capstone Case Study",
+        titleMy: "Nilar ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 8 capstone, Nilar chose one specific documented hazard-prone region as her case study, combining three documented elements from across the term. From Week 29, she named the specific documented hazard type facing her region rather than describing it vaguely as 'a natural disaster area.' From Week 30, since her chosen hazard was tectonic, she connected it directly to a specific documented plate boundary, explaining precisely why hazards concentrated in that documented location rather than occurring randomly.\n\nFrom Week 31, she built a balanced account: the real, serious documented risk the hazard posed, alongside specific documented preparedness measures the region's residents had undertaken. Her first draft had described these residents only as helpless victims, but she checked this against the agency principle used consistently since Secondary 2, revising her account to represent them as active agents building preparedness and resilience.\n\nHer teacher praised the case study for combining specific documented citation, a traced plate-boundary connection, and a balanced, agency-respecting risk-response account into one project. The teacher also praised Nilar for explicitly noting that this capstone represented priming for fuller IGCSE coverage rather than complete coverage of natural hazards geography, the same honest spiral-curriculum standard used since Term 3 -- exactly the discipline built across every capstone since Secondary 1, and a strong foundation as the class moved into Term 9's final IGCSE-readiness work.",
+        passageMy:
+            "Term 8 Capstone အတွက် Term တစ်ခုလုံးမှ Documented Element သုံးခုကို ပေါင်းစပ်ကာ Specific Documented Hazard-Prone Region တစ်ခုကို ၎င်း၏ Case Study အဖြစ် Nilar ရွေးချယ်ခဲ့သည်။ Week 29 မှ 'Natural Disaster Area တစ်ခု' ဟု Vague စွာ ဖော်ပြမည့်အစား ၎င်း၏ Region ရင်ဆိုင်ရသော Specific Documented Hazard Type ကို ၎င်း အမည်တပ်ခဲ့သည်။ Week 30 မှ ၎င်း ရွေးချယ်ထားသော Hazard သည် Tectonic ဖြစ်ခဲ့သောကြောင့် ၎င်းကို Specific Documented Plate Boundary တစ်ခုသို့ တိုက်ရိုက် ချိတ်ဆက်ခဲ့ပြီး Hazard များသည် ကျပန်း ဖြစ်ပျက်မည့်အစား ထို Documented Location တွင် တိကျစွာ အဘယ်ကြောင့် စုစည်းခဲ့သည်ကို ရှင်းပြခဲ့သည်။\n\nWeek 31 မှ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Hazard ပေးအပ်ခဲ့သော Real, Serious Documented Risk, Region ၏ Resident များ ဆောင်ရွက်ခဲ့သော Specific Documented Preparedness Measure များနှင့်အတူ။ ၎င်း၏ ပထမဆုံး Draft တွင် ဤ Resident များကို Helpless Victim များအဖြစ်သာ ဖော်ပြခဲ့သော်လည်း Secondary 2 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော Agency Principle နှင့် ဤသည်ကို ၎င်း စစ်ဆေးကာ Preparedness နှင့် Resilience ကို တည်ဆောက်နေသော Active Agent များအဖြစ် ၎င်းတို့ကို ကိုယ်စားပြုရန် ၎င်း၏ Account ကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။\n\nSpecific Documented Citation, Traced Plate-Boundary Connection နှင့် Balanced, Agency-Respecting Risk-Response Account ကို Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။ ဤ Capstone သည် Natural Hazards Geography ၏ Complete Coverage မဟုတ်ဘဲ IGCSE ပို၍ ပြည့်စုံသော Coverage အတွက် Priming ကို ကိုယ်စားပြုကြောင်း ရှင်းလင်းစွာ မှတ်ချက်ပြုခဲ့ခြင်းအတွက် Term 3 မှစ၍ အသုံးပြုခဲ့သော Honest Spiral-Curriculum Standard တူတူ ဖြစ်ခြင်းအတွက်လည်း Nilar ကို ဆရာ ချီးမွမ်းခဲ့သည် -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Discipline အတိအကျ ဖြစ်ခြင်းနှင့် Class Term 9 ၏ Final IGCSE-Readiness အလုပ်ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Nilar name from Week 29?",
+            questionMy:
+                "Week 29 မှ Nilar အမည်တပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific documented hazard type facing her region",
+              "No documented hazard of any kind",
+              "A hazard entirely unrelated to her chosen region",
+              "A vague, unspecified phrase with no documented type named",
+            ],
+            optionsMy: [
+              "၎င်း၏ Region ရင်ဆိုင်ရသော Specific Documented Hazard Type",
+              "Documented Hazard မည်သည် အမျိုးအစားမှ",
+              "၎င်း ရွေးချယ်ထားသော Region နှင့် လုံးလုံး မသက်ဆိုင်သော Hazard",
+              "Documented Type အမည်တပ်ခြင်း မပါသော Vague, Unspecified Phrase",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's Week 29 citation."],
+            hintsMy: ["Week 29 Citation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nilar revise her representation of residents?",
+            questionMy:
+                "Resident များ၏ Representation ကို Nilar မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As active agents building preparedness and resilience",
+              "As helpless victims with no actual role",
+              "By removing all mention of residents entirely",
+              "As having no actual documented historical significance",
+            ],
+            optionsMy: [
+              "Preparedness နှင့် Resilience ကို တည်ဆောက်နေသော Active Agent များအဖြစ်",
+              "Actual Role မရှိသော Helpless Victim များအဖြစ်",
+              "Resident များ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+              "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nilar explicitly note about this capstone?",
+            questionMy:
+                "ဤ Capstone အကြောင်း Nilar ရှင်းလင်းစွာ မှတ်ချက်ပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That it represented priming for fuller IGCSE coverage, not complete coverage",
+              "That it fully covered natural hazards geography's complete content",
+              "That it had no actual documented connection to any future study",
+              "That IGCSE would never actually cover this topic further",
+            ],
+            optionsMy: [
+              "Complete Coverage မဟုတ်ဘဲ IGCSE ပို၍ ပြည့်စုံသော Coverage အတွက် Priming ကို ကိုယ်စားပြုကြောင်း",
+              "Natural Hazards Geography ၏ Complete Content ကို အပြည့်အစုံ ဖုံးအုပ်ကြောင်း",
+              "Future Study မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိကြောင်း",
+              "IGCSE သည် ဤ Topic ကို ဆက်လက် ဘယ်တော့မှ Actual မဖုံးအုပ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated note."],
+            hintsMy: ["ဖော်ပြထားသော Note ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Recap: Natural Hazards Foundations",
+      titleMy: "Term 8 ပြန်လည်သုံးသပ်ခြင်း - Natural Hazards Foundations",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Natural hazards are documented as falling into...",
+          questionMy:
+              "Natural Hazard များကို ...အဖြစ် ကျရောက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Distinct documented categories like tectonic and climatic",
+            "One uniform category with no distinction",
+            "No documented category of any kind",
+            "Categories unrelated to any documented physical process",
+          ],
+          optionsMy: [
+            "Tectonic နှင့် Climatic ကဲ့သို့ Distinct Documented Category များ",
+            "Distinction မရှိသော Uniform Category တစ်ခုတည်း",
+            "Documented Category မည်သည် အမျိုးအစားမှ",
+            "Documented Physical Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Category များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Tectonic hazards are documented as concentrated along...",
+          questionMy:
+              "Tectonic Hazard များကို ...တစ်လျှောက် စုစည်းနေကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Specific documented plate boundaries",
+            "No documented location of any kind",
+            "Random locations with no documented pattern",
+            "Regions unrelated to any documented plate",
+          ],
+          optionsMy: [
+            "Specific Documented Plate Boundary များ",
+            "Documented Location မည်သည် အမျိုးအစားမှ",
+            "Documented Pattern မပါသော Random Location များ",
+            "Documented Plate မည်သည်နှင့်မျှ မသက်ဆိုင်သော Region များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced case study of natural hazards represents...",
+          questionMy:
+              "Natural Hazard များ၏ Balanced Case Study သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented risk and human response, with residents as active agents",
+            "Only documented risk with residents as helpless victims",
+            "Only documented response with no risk mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Active Agent များအဖြစ် Resident များနှင့်အတူ Documented Risk နှင့် Human Response နှစ်ခုစလုံး",
+            "Helpless Victim များအဖြစ် Resident များနှင့်အတူ Documented Risk သာ",
+            "Risk ကို ဖော်ပြခြင်းမရှိဘဲ Documented Response သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 8: "Natural Hazards Foundations"
+// (Weeks 29-32). Deliberately primes IGCSE Humanities' fuller natural
+// hazards unit: distinct documented hazard categories -- tectonic and
+// climatic (Week 29) -- documented plate boundaries explaining why
+// tectonic hazards concentrate in specific documented locations rather
+// than occurring randomly (Week 30), and a balanced account of
+// documented risk and human response representing hazard-prone
+// communities as active agents building preparedness rather than
+// passive victims (Week 31), closing with a capstone case study
+// combining a documented hazard type, plate-boundary connection, and
+// balanced risk-response account, with honest recognition that this
+// primes rather than fully covers IGCSE content (Week 32).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm8 = CourseTermDef(
+  id: "course-sec3-hum-t8",
+  termNumber: 8,
+  titleEn: "Natural Hazards Foundations",
+  titleMy: "Natural Hazards Foundations",
+  certificateTitleEn: "Natural Hazards Foundations Certificate",
+  certificateTitleMy: "Natural Hazards Foundations သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek29, _sec3HumWeek30, _sec3HumWeek31, _sec3HumWeek32],
 );
 // __SEC_HUM_MARKER__
