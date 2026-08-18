@@ -7,7 +7,7 @@ import 'course_pathways_core.dart';
 // Secondary 1 Computing -- Term 1, Week 1: "What is a Computer?"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek1 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek1 = CourseWeekDef(
   id: 'course-secondary1-computing-w1',
   weekNumber: 1,
   titleEn: 'What is a Computer?',
@@ -391,7 +391,7 @@ const CourseWeekDef _secondary1ComputingWeek1 = CourseWeekDef(
 // Secondary 1 Computing -- Term 1, Week 2: "Inside the Computer"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek2 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek2 = CourseWeekDef(
   id: 'course-secondary1-computing-w2',
   weekNumber: 2,
   titleEn: 'Inside the Computer',
@@ -764,7 +764,7 @@ const CourseWeekDef _secondary1ComputingWeek2 = CourseWeekDef(
 // the Computer"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek3 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek3 = CourseWeekDef(
   id: 'course-secondary1-computing-w3',
   weekNumber: 3,
   titleEn: 'Software: Instructions for the Computer',
@@ -1184,7 +1184,7 @@ const CourseWeekDef _secondary1ComputingWeek3 = CourseWeekDef(
 // Secondary 1 Computing -- Term 1, Week 4: "Files and Folders"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek4 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek4 = CourseWeekDef(
   id: 'course-secondary1-computing-w4',
   weekNumber: 4,
   titleEn: 'Files and Folders',
@@ -1549,7 +1549,7 @@ const CourseWeekDef _secondary1ComputingWeek4 = CourseWeekDef(
 // is a Network?"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek5 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek5 = CourseWeekDef(
   id: 'course-secondary1-computing-w5',
   weekNumber: 5,
   titleEn: 'Connecting Computers: What is a Network?',
@@ -1937,7 +1937,7 @@ const CourseWeekDef _secondary1ComputingWeek5 = CourseWeekDef(
 // Wide Web"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek6 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek6 = CourseWeekDef(
   id: 'course-secondary1-computing-w6',
   weekNumber: 6,
   titleEn: 'The Internet and the World Wide Web',
@@ -2320,7 +2320,7 @@ const CourseWeekDef _secondary1ComputingWeek6 = CourseWeekDef(
 // Secondary 1 Computing -- Term 2, Week 7: "Staying Safe Online"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek7 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek7 = CourseWeekDef(
   id: 'course-secondary1-computing-w7',
   weekNumber: 7,
   titleEn: 'Staying Safe Online',
@@ -2750,7 +2750,7 @@ const CourseWeekDef _secondary1ComputingWeek7 = CourseWeekDef(
 // and Bytes"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek8 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek8 = CourseWeekDef(
   id: 'course-secondary1-computing-w8',
   weekNumber: 8,
   titleEn: 'Data in a Computer: Bits and Bytes',
@@ -3086,7 +3086,7 @@ const CourseWeekDef _secondary1ComputingWeek8 = CourseWeekDef(
 // Secondary 1 Computing -- Term 3, Week 9: "What is an Algorithm?"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek9 = CourseWeekDef(
   id: 'course-secondary1-computing-w9',
   weekNumber: 9,
   titleEn: 'What is an Algorithm?',
@@ -3483,7 +3483,7 @@ const CourseWeekDef _secondary1ComputingWeek9 = CourseWeekDef(
 // Algorithms"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek10 = CourseWeekDef(
   id: 'course-secondary1-computing-w10',
   weekNumber: 10,
   titleEn: 'Flowcharts: Drawing Algorithms',
@@ -3849,7 +3849,7 @@ const CourseWeekDef _secondary1ComputingWeek10 = CourseWeekDef(
 // Decisions"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek11 = CourseWeekDef(
   id: 'course-secondary1-computing-w11',
   weekNumber: 11,
   titleEn: 'Selection: Making Decisions',
@@ -4246,7 +4246,7 @@ const CourseWeekDef _secondary1ComputingWeek11 = CourseWeekDef(
 // Secondary 1 Computing -- Term 3, Week 12: "Loops: Repeating Steps"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek12 = CourseWeekDef(
   id: 'course-secondary1-computing-w12',
   weekNumber: 12,
   titleEn: 'Loops: Repeating Steps',
@@ -4658,7 +4658,7 @@ const CourseWeekDef _secondary1ComputingWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm1 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm1 = CourseTermDef(
   id: 'course-secondary1-computing-t1',
   termNumber: 1,
   titleEn: 'Computing Foundations',
@@ -4666,10 +4666,10 @@ const CourseTermDef _secondary1ComputingTerm1 = CourseTermDef(
   certificateTitleEn: 'Computing Foundations',
   certificateTitleMy: 'ကွန်ပျူတာ အခြေခံ',
   weeks: [
-    _secondary1ComputingWeek1,
-    _secondary1ComputingWeek2,
-    _secondary1ComputingWeek3,
-    _secondary1ComputingWeek4,
+    _year7ComputingWeek1,
+    _year7ComputingWeek2,
+    _year7ComputingWeek3,
+    _year7ComputingWeek4,
   ], // Term 1 complete (Weeks 1-4)
 );
 
@@ -4681,7 +4681,7 @@ const CourseTermDef _secondary1ComputingTerm1 = CourseTermDef(
 /// internet/network territory through a safety lens; Week 8 closes the
 /// term by revisiting Term 1 Week 2's storage/hardware content at a
 /// deeper level -- how storage is actually made of bits and bytes.
-const CourseTermDef _secondary1ComputingTerm2 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm2 = CourseTermDef(
   id: 'course-secondary1-computing-t2',
   termNumber: 2,
   titleEn: 'Networks, the Internet & Data',
@@ -4689,10 +4689,10 @@ const CourseTermDef _secondary1ComputingTerm2 = CourseTermDef(
   certificateTitleEn: 'Networks, the Internet & Data',
   certificateTitleMy: 'ကွန်ရက်၊ အင်တာနက်နှင့် ဒေတာ',
   weeks: [
-    _secondary1ComputingWeek5,
-    _secondary1ComputingWeek6,
-    _secondary1ComputingWeek7,
-    _secondary1ComputingWeek8,
+    _year7ComputingWeek5,
+    _year7ComputingWeek6,
+    _year7ComputingWeek7,
+    _year7ComputingWeek8,
   ], // Term 2 complete (Weeks 5-8)
 );
 
@@ -4703,7 +4703,7 @@ const CourseTermDef _secondary1ComputingTerm2 = CourseTermDef(
 /// adds selection (decisions) on top of plain sequence; Week 12 closes
 /// the term -- and the full 3-term vertical slice -- by adding loops and
 /// explicitly tying sequence + selection + loop together in one example.
-const CourseTermDef _secondary1ComputingTerm3 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm3 = CourseTermDef(
   id: 'course-secondary1-computing-t3',
   termNumber: 3,
   titleEn: 'Algorithms & Programming Basics',
@@ -4711,10 +4711,10 @@ const CourseTermDef _secondary1ComputingTerm3 = CourseTermDef(
   certificateTitleEn: 'Algorithms & Programming Basics',
   certificateTitleMy: 'Algorithm နှင့် Programming အခြေခံ',
   weeks: [
-    _secondary1ComputingWeek9,
-    _secondary1ComputingWeek10,
-    _secondary1ComputingWeek11,
-    _secondary1ComputingWeek12,
+    _year7ComputingWeek9,
+    _year7ComputingWeek10,
+    _year7ComputingWeek11,
+    _year7ComputingWeek12,
   ], // Term 3 complete (Weeks 9-12) -- all 3 terms now represented
 );
 
@@ -4723,7 +4723,7 @@ const CourseTermDef _secondary1ComputingTerm3 = CourseTermDef(
 // Information in Programs"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek13 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek13 = CourseWeekDef(
   id: 'course-secondary1-computing-w13',
   weekNumber: 13,
   titleEn: 'Variables: Storing Information in Programs',
@@ -5114,7 +5114,7 @@ const CourseWeekDef _secondary1ComputingWeek13 = CourseWeekDef(
 // Secondary 1 Computing -- Term 4, Week 14: "Writing Pseudocode"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek14 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek14 = CourseWeekDef(
   id: 'course-secondary1-computing-w14',
   weekNumber: 14,
   titleEn: 'Writing Pseudocode',
@@ -5463,7 +5463,7 @@ const CourseWeekDef _secondary1ComputingWeek14 = CourseWeekDef(
 // Text in Programs"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek15 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek15 = CourseWeekDef(
   id: 'course-secondary1-computing-w15',
   weekNumber: 15,
   titleEn: 'Working with Numbers and Text in Programs',
@@ -5799,7 +5799,7 @@ const CourseWeekDef _secondary1ComputingWeek15 = CourseWeekDef(
 // Program"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek16 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek16 = CourseWeekDef(
   id: 'course-secondary1-computing-w16',
   weekNumber: 16,
   titleEn: 'Designing a Simple Program',
@@ -6228,7 +6228,7 @@ const CourseWeekDef _secondary1ComputingWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm4 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm4 = CourseTermDef(
   id: 'course-secondary1-computing-t4',
   termNumber: 4,
   titleEn: 'Programming Fundamentals II',
@@ -6236,10 +6236,10 @@ const CourseTermDef _secondary1ComputingTerm4 = CourseTermDef(
   certificateTitleEn: 'Programming Fundamentals II',
   certificateTitleMy: 'Programming အခြေခံ ၂',
   weeks: [
-    _secondary1ComputingWeek13,
-    _secondary1ComputingWeek14,
-    _secondary1ComputingWeek15,
-    _secondary1ComputingWeek16,
+    _year7ComputingWeek13,
+    _year7ComputingWeek14,
+    _year7ComputingWeek15,
+    _year7ComputingWeek16,
   ], // Term 4 complete (Weeks 13-16)
 );
 
@@ -6247,7 +6247,7 @@ const CourseTermDef _secondary1ComputingTerm4 = CourseTermDef(
 // Secondary 1 Computing -- Term 5, Week 17: "Selection in Code: IF and ELSE"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek17 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek17 = CourseWeekDef(
   id: 'course-secondary1-computing-w17',
   weekNumber: 17,
   titleEn: 'Selection in Code: IF and ELSE',
@@ -6640,7 +6640,7 @@ const CourseWeekDef _secondary1ComputingWeek17 = CourseWeekDef(
 // Secondary 1 Computing -- Term 5, Week 18: "Count-Controlled Loops: FOR"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek18 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek18 = CourseWeekDef(
   id: 'course-secondary1-computing-w18',
   weekNumber: 18,
   titleEn: 'Count-Controlled Loops: FOR',
@@ -7020,7 +7020,7 @@ const CourseWeekDef _secondary1ComputingWeek18 = CourseWeekDef(
 // Secondary 1 Computing -- Term 5, Week 19: "Condition-Controlled Loops: WHILE"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek19 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek19 = CourseWeekDef(
   id: 'course-secondary1-computing-w19',
   weekNumber: 19,
   titleEn: 'Condition-Controlled Loops: WHILE',
@@ -7452,7 +7452,7 @@ const CourseWeekDef _secondary1ComputingWeek19 = CourseWeekDef(
 // Secondary 1 Computing -- Term 5, Week 20: "Building a Complete Program"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek20 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek20 = CourseWeekDef(
   id: 'course-secondary1-computing-w20',
   weekNumber: 20,
   titleEn: 'Building a Complete Program',
@@ -7862,7 +7862,7 @@ const CourseWeekDef _secondary1ComputingWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm5 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm5 = CourseTermDef(
   id: 'course-secondary1-computing-t5',
   termNumber: 5,
   titleEn: 'Programming Fundamentals III',
@@ -7870,10 +7870,10 @@ const CourseTermDef _secondary1ComputingTerm5 = CourseTermDef(
   certificateTitleEn: 'Programming Fundamentals III',
   certificateTitleMy: 'Programming အခြေခံ ၃',
   weeks: [
-    _secondary1ComputingWeek17,
-    _secondary1ComputingWeek18,
-    _secondary1ComputingWeek19,
-    _secondary1ComputingWeek20,
+    _year7ComputingWeek17,
+    _year7ComputingWeek18,
+    _year7ComputingWeek19,
+    _year7ComputingWeek20,
   ], // Term 5 complete (Weeks 17-20)
 );
 
@@ -7882,7 +7882,7 @@ const CourseTermDef _secondary1ComputingTerm5 = CourseTermDef(
 // Language"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek21 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek21 = CourseWeekDef(
   id: 'course-secondary1-computing-w21',
   weekNumber: 21,
   titleEn: "Binary: The Computer's Only Language",
@@ -8226,7 +8226,7 @@ const CourseWeekDef _secondary1ComputingWeek21 = CourseWeekDef(
 // and Binary"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek22 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek22 = CourseWeekDef(
   id: 'course-secondary1-computing-w22',
   weekNumber: 22,
   titleEn: 'Converting Between Denary and Binary',
@@ -8571,7 +8571,7 @@ const CourseWeekDef _secondary1ComputingWeek22 = CourseWeekDef(
 // Images in Binary"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek23 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek23 = CourseWeekDef(
   id: 'course-secondary1-computing-w23',
   weekNumber: 23,
   titleEn: 'Representing Text and Images in Binary',
@@ -8966,7 +8966,7 @@ const CourseWeekDef _secondary1ComputingWeek23 = CourseWeekDef(
 // Real World" (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek24 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek24 = CourseWeekDef(
   id: 'course-secondary1-computing-w24',
   weekNumber: 24,
   titleEn: 'Data Representation in the Real World',
@@ -9361,7 +9361,7 @@ const CourseWeekDef _secondary1ComputingWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm6 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm6 = CourseTermDef(
   id: 'course-secondary1-computing-t6',
   termNumber: 6,
   titleEn: 'Data Representation',
@@ -9369,10 +9369,10 @@ const CourseTermDef _secondary1ComputingTerm6 = CourseTermDef(
   certificateTitleEn: 'Data Representation',
   certificateTitleMy: 'ဒေတာ ကိုယ်စားပြုမှု',
   weeks: [
-    _secondary1ComputingWeek21,
-    _secondary1ComputingWeek22,
-    _secondary1ComputingWeek23,
-    _secondary1ComputingWeek24,
+    _year7ComputingWeek21,
+    _year7ComputingWeek22,
+    _year7ComputingWeek23,
+    _year7ComputingWeek24,
   ], // Term 6 complete (Weeks 21-24)
 );
 
@@ -9381,7 +9381,7 @@ const CourseTermDef _secondary1ComputingTerm6 = CourseTermDef(
 // Language"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek25 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek25 = CourseWeekDef(
   id: "course-secondary1-computing-w25",
   weekNumber: 25,
   titleEn: "Meet a Real Programming Language",
@@ -9818,7 +9818,7 @@ const CourseWeekDef _secondary1ComputingWeek25 = CourseWeekDef(
 // in Real Code"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek26 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek26 = CourseWeekDef(
   id: "course-secondary1-computing-w26",
   weekNumber: 26,
   titleEn: "Variables and Input/Output in Real Code",
@@ -10190,7 +10190,7 @@ const CourseWeekDef _secondary1ComputingWeek26 = CourseWeekDef(
 // Code"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek27 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek27 = CourseWeekDef(
   id: "course-secondary1-computing-w27",
   weekNumber: 27,
   titleEn: "Selection and Loops in Real Code",
@@ -10599,7 +10599,7 @@ const CourseWeekDef _secondary1ComputingWeek27 = CourseWeekDef(
 // Secondary 1 Computing -- Term 7, Week 28: "Write a Complete Program"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek28 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek28 = CourseWeekDef(
   id: "course-secondary1-computing-w28",
   weekNumber: 28,
   titleEn: "Write a Complete Program",
@@ -11034,7 +11034,7 @@ const CourseWeekDef _secondary1ComputingWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm7 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm7 = CourseTermDef(
   id: "course-secondary1-computing-t7",
   termNumber: 7,
   titleEn: "From Pseudocode to Real Code",
@@ -11042,10 +11042,10 @@ const CourseTermDef _secondary1ComputingTerm7 = CourseTermDef(
   certificateTitleEn: "From Pseudocode to Real Code",
   certificateTitleMy: "Pseudocode မှ အစစ်အမှန် Code သို့",
   weeks: [
-    _secondary1ComputingWeek25,
-    _secondary1ComputingWeek26,
-    _secondary1ComputingWeek27,
-    _secondary1ComputingWeek28,
+    _year7ComputingWeek25,
+    _year7ComputingWeek26,
+    _year7ComputingWeek27,
+    _year7ComputingWeek28,
   ], // Term 7 complete (Weeks 25-28)
 );
 
@@ -11054,7 +11054,7 @@ const CourseTermDef _secondary1ComputingTerm7 = CourseTermDef(
 // Information"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek29 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek29 = CourseWeekDef(
   id: "course-secondary1-computing-w29",
   weekNumber: 29,
   titleEn: "Protecting Your Personal Information",
@@ -11491,7 +11491,7 @@ const CourseWeekDef _secondary1ComputingWeek29 = CourseWeekDef(
 // Account Security"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek30 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek30 = CourseWeekDef(
   id: "course-secondary1-computing-w30",
   weekNumber: 30,
   titleEn: "Strong Passwords and Account Security",
@@ -11925,7 +11925,7 @@ const CourseWeekDef _secondary1ComputingWeek30 = CourseWeekDef(
 // Secondary 1 Computing -- Term 8, Week 31: "Being Kind Online"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek31 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek31 = CourseWeekDef(
   id: "course-secondary1-computing-w31",
   weekNumber: 31,
   titleEn: "Being Kind Online",
@@ -12370,7 +12370,7 @@ const CourseWeekDef _secondary1ComputingWeek31 = CourseWeekDef(
 // Critically Online" (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek32 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek32 = CourseWeekDef(
   id: "course-secondary1-computing-w32",
   weekNumber: 32,
   titleEn: "Staying Safe and Thinking Critically Online",
@@ -12833,7 +12833,7 @@ const CourseWeekDef _secondary1ComputingWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm8 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm8 = CourseTermDef(
   id: "course-secondary1-computing-t8",
   termNumber: 8,
   titleEn: "Digital Citizenship & Online Safety",
@@ -12841,10 +12841,10 @@ const CourseTermDef _secondary1ComputingTerm8 = CourseTermDef(
   certificateTitleEn: "Digital Citizenship & Online Safety",
   certificateTitleMy: "ဒီဂျစ်တယ်နိုင်ငံသားဖြစ်မှုနှင့် အွန်လိုင်းလုံခြုံရေး",
   weeks: [
-    _secondary1ComputingWeek29,
-    _secondary1ComputingWeek30,
-    _secondary1ComputingWeek31,
-    _secondary1ComputingWeek32,
+    _year7ComputingWeek29,
+    _year7ComputingWeek30,
+    _year7ComputingWeek31,
+    _year7ComputingWeek32,
   ], // Term 8 complete (Weeks 29-32)
 );
 
@@ -12853,7 +12853,7 @@ const CourseTermDef _secondary1ComputingTerm8 = CourseTermDef(
 // Thinking?"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek33 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek33 = CourseWeekDef(
   id: "course-secondary1-computing-w33",
   weekNumber: 33,
   titleEn: "What is Computational Thinking?",
@@ -13300,7 +13300,7 @@ const CourseWeekDef _secondary1ComputingWeek33 = CourseWeekDef(
 // Design"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek34 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek34 = CourseWeekDef(
   id: "course-secondary1-computing-w34",
   weekNumber: 34,
   titleEn: "Abstraction and Algorithm Design",
@@ -13730,7 +13730,7 @@ const CourseWeekDef _secondary1ComputingWeek34 = CourseWeekDef(
 // Secondary 1 Computing -- Term 9, Week 35: "Planning Your Own Program"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek35 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek35 = CourseWeekDef(
   id: "course-secondary1-computing-w35",
   weekNumber: 35,
   titleEn: "Planning Your Own Program",
@@ -14180,7 +14180,7 @@ const CourseWeekDef _secondary1ComputingWeek35 = CourseWeekDef(
 // and Celebrate"
 // =====================================================================
 
-const CourseWeekDef _secondary1ComputingWeek36 = CourseWeekDef(
+const CourseWeekDef _year7ComputingWeek36 = CourseWeekDef(
   id: "course-secondary1-computing-w36",
   weekNumber: 36,
   titleEn: "Build, Test, and Celebrate",
@@ -14626,7 +14626,7 @@ const CourseWeekDef _secondary1ComputingWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ComputingTerm9 = CourseTermDef(
+const CourseTermDef _year7ComputingTerm9 = CourseTermDef(
   id: "course-secondary1-computing-t9",
   termNumber: 9,
   titleEn: "Computational Thinking & Your Own Project",
@@ -14634,10 +14634,10 @@ const CourseTermDef _secondary1ComputingTerm9 = CourseTermDef(
   certificateTitleEn: "Computational Thinking & Your Own Project",
   certificateTitleMy: "Computational Thinking နှင့် ကိုယ်ပိုင်ပရိုဂျက်",
   weeks: [
-    _secondary1ComputingWeek33,
-    _secondary1ComputingWeek34,
-    _secondary1ComputingWeek35,
-    _secondary1ComputingWeek36,
+    _year7ComputingWeek33,
+    _year7ComputingWeek34,
+    _year7ComputingWeek35,
+    _year7ComputingWeek36,
   ], // Term 9 complete (Weeks 33-36) -- FINAL TERM, full 36-week pathway complete
 );
 
@@ -14652,7 +14652,7 @@ const CourseTermDef _secondary1ComputingTerm9 = CourseTermDef(
 /// [Grade.year8] onward) would be a new, separate
 /// [CoursePathwayDef] appended to [allCoursePathways], not more terms
 /// grafted onto this one.
-const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
+const CoursePathwayDef year7ComputingPathway = CoursePathwayDef(
   id: 'course-secondary1-computing',
   subject: 'computing',
   grade: Grade.year7,
@@ -14664,22 +14664,22 @@ const CoursePathwayDef secondary1ComputingPathway = CoursePathwayDef(
       'ကွန်ပျူတာ ပညာသင်နှစ်တစ်ခုလုံး သင်တန်း - အပိုင်းများစွာအတွင်း ၃၆ ပတ်၊ နေ့စဉ် သင်ခန်းစာများ။',
   totalWeeks: 36,
   terms: [
-    _secondary1ComputingTerm1,
-    _secondary1ComputingTerm2,
-    _secondary1ComputingTerm3,
-    _secondary1ComputingTerm4,
-    _secondary1ComputingTerm5,
-    _secondary1ComputingTerm6,
-    _secondary1ComputingTerm7,
-    _secondary1ComputingTerm8,
-    _secondary1ComputingTerm9,
+    _year7ComputingTerm1,
+    _year7ComputingTerm2,
+    _year7ComputingTerm3,
+    _year7ComputingTerm4,
+    _year7ComputingTerm5,
+    _year7ComputingTerm6,
+    _year7ComputingTerm7,
+    _year7ComputingTerm8,
+    _year7ComputingTerm9,
   ],
 );
 // =====================================================================
 // Secondary 2 Computing -- Term 1, Week 1: "What is a List?"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek1 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek1 = CourseWeekDef(
   id: "course-secondary2-computing-w1",
   weekNumber: 1,
   titleEn: "What is a List?",
@@ -15057,7 +15057,7 @@ const CourseWeekDef _secondary2ComputingWeek1 = CourseWeekDef(
 // Updating List Items"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek2 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek2 = CourseWeekDef(
   id: "course-secondary2-computing-w2",
   weekNumber: 2,
   titleEn: "Adding, Removing, and Updating List Items",
@@ -15426,7 +15426,7 @@ const CourseWeekDef _secondary2ComputingWeek2 = CourseWeekDef(
 // Secondary 2 Computing -- Term 1, Week 3: "Looping Through a List"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek3 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek3 = CourseWeekDef(
   id: "course-secondary2-computing-w3",
   weekNumber: 3,
   titleEn: "Looping Through a List",
@@ -15863,7 +15863,7 @@ const CourseWeekDef _secondary2ComputingWeek3 = CourseWeekDef(
 // Program" (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek4 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek4 = CourseWeekDef(
   id: "course-secondary2-computing-w4",
   weekNumber: 4,
   titleEn: "Using a List in a Real Program",
@@ -16283,7 +16283,7 @@ const CourseWeekDef _secondary2ComputingWeek4 = CourseWeekDef(
 // Secondary 2 Computing -- Term 2, Week 5: "What is a Function?"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek5 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek5 = CourseWeekDef(
   id: "course-secondary2-computing-w5",
   weekNumber: 5,
   titleEn: "What is a Function?",
@@ -16697,7 +16697,7 @@ const CourseWeekDef _secondary2ComputingWeek5 = CourseWeekDef(
 // Secondary 2 Computing -- Term 2, Week 6: "Parameters and Arguments"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek6 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek6 = CourseWeekDef(
   id: "course-secondary2-computing-w6",
   weekNumber: 6,
   titleEn: "Parameters and Arguments",
@@ -17083,7 +17083,7 @@ const CourseWeekDef _secondary2ComputingWeek6 = CourseWeekDef(
 // Secondary 2 Computing -- Term 2, Week 7: "Return Values"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek7 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek7 = CourseWeekDef(
   id: "course-secondary2-computing-w7",
   weekNumber: 7,
   titleEn: "Return Values",
@@ -17473,7 +17473,7 @@ const CourseWeekDef _secondary2ComputingWeek7 = CourseWeekDef(
 // Lists" (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek8 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek8 = CourseWeekDef(
   id: "course-secondary2-computing-w8",
   weekNumber: 8,
   titleEn: "Functions Working with Lists",
@@ -17875,7 +17875,7 @@ const CourseWeekDef _secondary2ComputingWeek8 = CourseWeekDef(
 // Search"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek9 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek9 = CourseWeekDef(
   id: "course-secondary2-computing-w9",
   weekNumber: 9,
   titleEn: "Searching a List: Linear Search",
@@ -18255,7 +18255,7 @@ const CourseWeekDef _secondary2ComputingWeek9 = CourseWeekDef(
 // Secondary 2 Computing -- Term 3, Week 10: "Binary Search"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek10 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek10 = CourseWeekDef(
   id: "course-secondary2-computing-w10",
   weekNumber: 10,
   titleEn: "Binary Search",
@@ -18666,7 +18666,7 @@ const CourseWeekDef _secondary2ComputingWeek10 = CourseWeekDef(
 // Sort"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek11 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek11 = CourseWeekDef(
   id: "course-secondary2-computing-w11",
   weekNumber: 11,
   titleEn: "Sorting a List: Bubble Sort",
@@ -19089,7 +19089,7 @@ const CourseWeekDef _secondary2ComputingWeek11 = CourseWeekDef(
 // Then Search" (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek12 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek12 = CourseWeekDef(
   id: "course-secondary2-computing-w12",
   weekNumber: 12,
   titleEn: "Putting It Together: Sort Then Search",
@@ -19536,7 +19536,7 @@ const CourseWeekDef _secondary2ComputingWeek12 = CourseWeekDef(
 // Blocks"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek13 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek13 = CourseWeekDef(
   id: "course-secondary2-computing-w13",
   weekNumber: 13,
   titleEn: "AND, OR, NOT: The Building Blocks",
@@ -19929,7 +19929,7 @@ const CourseWeekDef _secondary2ComputingWeek13 = CourseWeekDef(
 // Secondary 2 Computing -- Term 4, Week 14: "Truth Tables"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek14 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek14 = CourseWeekDef(
   id: "course-secondary2-computing-w14",
   weekNumber: 14,
   titleEn: "Truth Tables",
@@ -20261,7 +20261,7 @@ const CourseWeekDef _secondary2ComputingWeek14 = CourseWeekDef(
 // Code"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek15 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek15 = CourseWeekDef(
   id: "course-secondary2-computing-w15",
   weekNumber: 15,
   titleEn: "Compound Conditions in Code",
@@ -20661,7 +20661,7 @@ const CourseWeekDef _secondary2ComputingWeek15 = CourseWeekDef(
 // (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek16 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek16 = CourseWeekDef(
   id: "course-secondary2-computing-w16",
   weekNumber: 16,
   titleEn: "Boolean Functions",
@@ -21069,7 +21069,7 @@ const CourseWeekDef _secondary2ComputingWeek16 = CourseWeekDef(
 // Secondary 2 Computing -- Term 5, Week 17: "Strings Are Sequences Too"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek17 = CourseWeekDef(
   id: "course-secondary2-computing-w17",
   weekNumber: 17,
   titleEn: "Strings Are Sequences Too",
@@ -21468,7 +21468,7 @@ const CourseWeekDef _secondary2ComputingWeek17 = CourseWeekDef(
 // Secondary 2 Computing -- Term 5, Week 18: "Joining and Changing Text"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek18 = CourseWeekDef(
   id: "course-secondary2-computing-w18",
   weekNumber: 18,
   titleEn: "Joining and Changing Text",
@@ -21873,7 +21873,7 @@ const CourseWeekDef _secondary2ComputingWeek18 = CourseWeekDef(
 // Searching Inside Text"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek19 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek19 = CourseWeekDef(
   id: "course-secondary2-computing-w19",
   weekNumber: 19,
   titleEn: "Slicing Strings and Searching Inside Text",
@@ -22219,7 +22219,7 @@ const CourseWeekDef _secondary2ComputingWeek19 = CourseWeekDef(
 // Text-Processing Function"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek20 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek20 = CourseWeekDef(
   id: "course-secondary2-computing-w20",
   weekNumber: 20,
   titleEn: "Putting It Together: A Text-Processing Function",
@@ -22658,7 +22658,7 @@ const CourseWeekDef _secondary2ComputingWeek20 = CourseWeekDef(
 // Secondary 2 Computing -- Term 6, Week 21: "Lists Inside Lists"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek21 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek21 = CourseWeekDef(
   id: "course-secondary2-computing-w21",
   weekNumber: 21,
   titleEn: "Lists Inside Lists",
@@ -23019,7 +23019,7 @@ const CourseWeekDef _secondary2ComputingWeek21 = CourseWeekDef(
 // Every Cell"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek22 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek22 = CourseWeekDef(
   id: "course-secondary2-computing-w22",
   weekNumber: 22,
   titleEn: "Nested Loops: Visiting Every Cell",
@@ -23450,7 +23450,7 @@ const CourseWeekDef _secondary2ComputingWeek22 = CourseWeekDef(
 // Data"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek23 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek23 = CourseWeekDef(
   id: "course-secondary2-computing-w23",
   weekNumber: 23,
   titleEn: "Modifying and Building 2D Data",
@@ -23899,7 +23899,7 @@ const CourseWeekDef _secondary2ComputingWeek23 = CourseWeekDef(
 // Summing a 2D Grid"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek24 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek24 = CourseWeekDef(
   id: "course-secondary2-computing-w24",
   weekNumber: 24,
   titleEn: "Putting It Together: Summing a 2D Grid",
@@ -24298,7 +24298,7 @@ const CourseWeekDef _secondary2ComputingWeek24 = CourseWeekDef(
 // Secondary 2 Computing -- Term 7, Week 25: "What Is a Dictionary?"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek25 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek25 = CourseWeekDef(
   id: "course-secondary2-computing-w25",
   weekNumber: 25,
   titleEn: "What Is a Dictionary?",
@@ -24686,7 +24686,7 @@ const CourseWeekDef _secondary2ComputingWeek25 = CourseWeekDef(
 // Checking Keys"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek26 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek26 = CourseWeekDef(
   id: "course-secondary2-computing-w26",
   weekNumber: 26,
   titleEn: "Adding, Updating, and Checking Keys",
@@ -25101,7 +25101,7 @@ const CourseWeekDef _secondary2ComputingWeek26 = CourseWeekDef(
 // Dictionary"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek27 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek27 = CourseWeekDef(
   id: "course-secondary2-computing-w27",
   weekNumber: 27,
   titleEn: "Looping Through a Dictionary",
@@ -25507,7 +25507,7 @@ const CourseWeekDef _secondary2ComputingWeek27 = CourseWeekDef(
 // Counting Word Frequency"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek28 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek28 = CourseWeekDef(
   id: "course-secondary2-computing-w28",
   weekNumber: 28,
   titleEn: "Putting It Together: Counting Word Frequency",
@@ -25951,7 +25951,7 @@ const CourseWeekDef _secondary2ComputingWeek28 = CourseWeekDef(
 // Secondary 2 Computing -- Term 8, Week 29: "Opening and Reading a File"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek29 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek29 = CourseWeekDef(
   id: "course-secondary2-computing-w29",
   weekNumber: 29,
   titleEn: "Opening and Reading a File",
@@ -26386,7 +26386,7 @@ const CourseWeekDef _secondary2ComputingWeek29 = CourseWeekDef(
 // File"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek30 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek30 = CourseWeekDef(
   id: "course-secondary2-computing-w30",
   weekNumber: 30,
   titleEn: "Writing and Appending to a File",
@@ -26802,7 +26802,7 @@ const CourseWeekDef _secondary2ComputingWeek30 = CourseWeekDef(
 // Secondary 2 Computing -- Term 8, Week 31: "Reading a File Into a List"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek31 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek31 = CourseWeekDef(
   id: "course-secondary2-computing-w31",
   weekNumber: 31,
   titleEn: "Reading a File Into a List",
@@ -27250,7 +27250,7 @@ const CourseWeekDef _secondary2ComputingWeek31 = CourseWeekDef(
 // Reading Scores from a File"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek32 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek32 = CourseWeekDef(
   id: "course-secondary2-computing-w32",
   weekNumber: 32,
   titleEn: "Putting It Together: Reading Scores from a File",
@@ -27672,7 +27672,7 @@ const CourseWeekDef _secondary2ComputingWeek32 = CourseWeekDef(
 // Secondary 2 Computing -- Term 9, Week 33: "Choosing the Right Tool"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek33 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek33 = CourseWeekDef(
   id: "course-secondary2-computing-w33",
   weekNumber: 33,
   titleEn: "Choosing the Right Tool",
@@ -28120,7 +28120,7 @@ const CourseWeekDef _secondary2ComputingWeek33 = CourseWeekDef(
 // Program"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek34 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek34 = CourseWeekDef(
   id: "course-secondary2-computing-w34",
   weekNumber: 34,
   titleEn: "Designing the Gradebook Program",
@@ -28568,7 +28568,7 @@ const CourseWeekDef _secondary2ComputingWeek34 = CourseWeekDef(
 // Step by Step"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek35 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek35 = CourseWeekDef(
   id: "course-secondary2-computing-w35",
   weekNumber: 35,
   titleEn: "Building the Gradebook Step by Step",
@@ -28999,7 +28999,7 @@ const CourseWeekDef _secondary2ComputingWeek35 = CourseWeekDef(
 // Celebrating"
 // =====================================================================
 
-const CourseWeekDef _secondary2ComputingWeek36 = CourseWeekDef(
+const CourseWeekDef _year8ComputingWeek36 = CourseWeekDef(
   id: "course-secondary2-computing-w36",
   weekNumber: 36,
   titleEn: "Testing, Reflecting, and Celebrating",
@@ -29418,7 +29418,7 @@ const CourseWeekDef _secondary2ComputingWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm1 = CourseTermDef(
   id: "course-secondary2-computing-t1",
   termNumber: 1,
   titleEn: "Lists and Arrays",
@@ -29426,14 +29426,14 @@ const CourseTermDef _secondary2ComputingTerm1 = CourseTermDef(
   certificateTitleEn: "Lists and Arrays",
   certificateTitleMy: "List နှင့် Array",
   weeks: [
-    _secondary2ComputingWeek1,
-    _secondary2ComputingWeek2,
-    _secondary2ComputingWeek3,
-    _secondary2ComputingWeek4,
+    _year8ComputingWeek1,
+    _year8ComputingWeek2,
+    _year8ComputingWeek3,
+    _year8ComputingWeek4,
   ], // Term 1 complete (Weeks 1-4) -- first term of the new Secondary 2 pathway
 );
 
-const CourseTermDef _secondary2ComputingTerm2 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm2 = CourseTermDef(
   id: "course-secondary2-computing-t2",
   termNumber: 2,
   titleEn: "Functions and Procedures",
@@ -29441,14 +29441,14 @@ const CourseTermDef _secondary2ComputingTerm2 = CourseTermDef(
   certificateTitleEn: "Functions and Procedures",
   certificateTitleMy: "Function နှင့် Procedure",
   weeks: [
-    _secondary2ComputingWeek5,
-    _secondary2ComputingWeek6,
-    _secondary2ComputingWeek7,
-    _secondary2ComputingWeek8,
+    _year8ComputingWeek5,
+    _year8ComputingWeek6,
+    _year8ComputingWeek7,
+    _year8ComputingWeek8,
   ], // Term 2 complete (Weeks 5-8) -- second term of the Secondary 2 pathway
 );
 
-const CourseTermDef _secondary2ComputingTerm3 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm3 = CourseTermDef(
   id: "course-secondary2-computing-t3",
   termNumber: 3,
   titleEn: "Searching and Sorting Algorithms",
@@ -29456,14 +29456,14 @@ const CourseTermDef _secondary2ComputingTerm3 = CourseTermDef(
   certificateTitleEn: "Searching and Sorting Algorithms",
   certificateTitleMy: "ရှာဖွေခြင်းနှင့် Sort လုပ်ခြင်း Algorithm များ",
   weeks: [
-    _secondary2ComputingWeek9,
-    _secondary2ComputingWeek10,
-    _secondary2ComputingWeek11,
-    _secondary2ComputingWeek12,
+    _year8ComputingWeek9,
+    _year8ComputingWeek10,
+    _year8ComputingWeek11,
+    _year8ComputingWeek12,
   ], // Term 3 complete (Weeks 9-12) -- third term of the Secondary 2 pathway
 );
 
-const CourseTermDef _secondary2ComputingTerm4 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm4 = CourseTermDef(
   id: "course-secondary2-computing-t4",
   termNumber: 4,
   titleEn: "Boolean Logic and Truth Tables",
@@ -29471,16 +29471,16 @@ const CourseTermDef _secondary2ComputingTerm4 = CourseTermDef(
   certificateTitleEn: "Boolean Logic and Truth Tables",
   certificateTitleMy: "Boolean Logic နှင့် Truth Table များ",
   weeks: [
-    _secondary2ComputingWeek13,
-    _secondary2ComputingWeek14,
-    _secondary2ComputingWeek15,
-    _secondary2ComputingWeek16,
+    _year8ComputingWeek13,
+    _year8ComputingWeek14,
+    _year8ComputingWeek15,
+    _year8ComputingWeek16,
   ], // Term 4 complete (Weeks 13-16) -- fourth term of the Secondary 2
   // pathway, a breadth strand on Boolean logic breaking up the
   // programming arc from Terms 1-3
 );
 
-const CourseTermDef _secondary2ComputingTerm5 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm5 = CourseTermDef(
   id: "course-secondary2-computing-t5",
   termNumber: 5,
   titleEn: "Working with Text: String Manipulation",
@@ -29488,17 +29488,17 @@ const CourseTermDef _secondary2ComputingTerm5 = CourseTermDef(
   certificateTitleEn: "Working with Text: String Manipulation",
   certificateTitleMy: "Text နှင့် လုပ်ဆောင်ခြင်း — String Manipulation",
   weeks: [
-    _secondary2ComputingWeek17,
-    _secondary2ComputingWeek18,
-    _secondary2ComputingWeek19,
-    _secondary2ComputingWeek20,
+    _year8ComputingWeek17,
+    _year8ComputingWeek18,
+    _year8ComputingWeek19,
+    _year8ComputingWeek20,
   ], // Term 5 complete (Weeks 17-20) -- fifth term of the Secondary 2
   // pathway, returning to the programming arc after Term 4's Boolean
   // breadth strand, this time applying indexing/loop/function skills to
   // strings instead of lists
 );
 
-const CourseTermDef _secondary2ComputingTerm6 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm6 = CourseTermDef(
   id: "course-secondary2-computing-t6",
   termNumber: 6,
   titleEn: "Nested Lists: Working with 2D Data",
@@ -29506,16 +29506,16 @@ const CourseTermDef _secondary2ComputingTerm6 = CourseTermDef(
   certificateTitleEn: "Nested Lists: Working with 2D Data",
   certificateTitleMy: "Nested List များ — 2D Data ဖြင့် လုပ်ဆောင်ခြင်း",
   weeks: [
-    _secondary2ComputingWeek21,
-    _secondary2ComputingWeek22,
-    _secondary2ComputingWeek23,
-    _secondary2ComputingWeek24,
+    _year8ComputingWeek21,
+    _year8ComputingWeek22,
+    _year8ComputingWeek23,
+    _year8ComputingWeek24,
   ], // Term 6 complete (Weeks 21-24) -- sixth term of the Secondary 2
   // pathway, continuing the programming arc by extending Term 1's lists
   // into two dimensions
 );
 
-const CourseTermDef _secondary2ComputingTerm7 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm7 = CourseTermDef(
   id: "course-secondary2-computing-t7",
   termNumber: 7,
   titleEn: "Dictionaries: Working with Key-Value Data",
@@ -29523,16 +29523,16 @@ const CourseTermDef _secondary2ComputingTerm7 = CourseTermDef(
   certificateTitleEn: "Dictionaries: Working with Key-Value Data",
   certificateTitleMy: "Dictionary များ — Key-Value Data ဖြင့် လုပ်ဆောင်ခြင်း",
   weeks: [
-    _secondary2ComputingWeek25,
-    _secondary2ComputingWeek26,
-    _secondary2ComputingWeek27,
-    _secondary2ComputingWeek28,
+    _year8ComputingWeek25,
+    _year8ComputingWeek26,
+    _year8ComputingWeek27,
+    _year8ComputingWeek28,
   ], // Term 7 complete (Weeks 25-28) -- seventh term of the Secondary 2
   // pathway, introducing dictionaries as a second core data structure
   // alongside Term 1's lists
 );
 
-const CourseTermDef _secondary2ComputingTerm8 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm8 = CourseTermDef(
   id: "course-secondary2-computing-t8",
   termNumber: 8,
   titleEn: "File Handling: Reading and Writing Data",
@@ -29540,15 +29540,15 @@ const CourseTermDef _secondary2ComputingTerm8 = CourseTermDef(
   certificateTitleEn: "File Handling: Reading and Writing Data",
   certificateTitleMy: "File Handling — Data ဖတ်ခြင်းနှင့် ရေးခြင်း",
   weeks: [
-    _secondary2ComputingWeek29,
-    _secondary2ComputingWeek30,
-    _secondary2ComputingWeek31,
-    _secondary2ComputingWeek32,
+    _year8ComputingWeek29,
+    _year8ComputingWeek30,
+    _year8ComputingWeek31,
+    _year8ComputingWeek32,
   ], // Term 8 complete (Weeks 29-32) -- eighth term of the Secondary 2
   // pathway, extending list/string skills to real files on disk
 );
 
-const CourseTermDef _secondary2ComputingTerm9 = CourseTermDef(
+const CourseTermDef _year8ComputingTerm9 = CourseTermDef(
   id: "course-secondary2-computing-t9",
   termNumber: 9,
   titleEn: "Capstone: Your Own Data-Driven Program",
@@ -29556,17 +29556,17 @@ const CourseTermDef _secondary2ComputingTerm9 = CourseTermDef(
   certificateTitleEn: "Capstone: Your Own Data-Driven Program",
   certificateTitleMy: "Capstone — Data-Driven ကိုယ်ပိုင်ပရိုဂရမ်",
   weeks: [
-    _secondary2ComputingWeek33,
-    _secondary2ComputingWeek34,
-    _secondary2ComputingWeek35,
-    _secondary2ComputingWeek36,
+    _year8ComputingWeek33,
+    _year8ComputingWeek34,
+    _year8ComputingWeek35,
+    _year8ComputingWeek36,
   ], // Term 9 complete (Weeks 33-36) -- ninth and final term of the
   // Secondary 2 pathway, a reflective capstone that plans, designs,
   // builds, and tests one program combining every tool from Terms 1-8
 );
 
 /// Secondary 2 Computing's pathway (Grade [Grade.year8]) -- the "Year
-/// 2" continuation flagged in [secondary1ComputingPathway]'s own doc
+/// 2" continuation flagged in [year7ComputingPathway]'s own doc
 /// comment, authored as its own independent [CoursePathwayDef] rather
 /// than more terms grafted onto Secondary 1. All nine terms are now
 /// authored, completing the full pathway: Term 1 (Weeks 1-4, Lists and
@@ -29676,7 +29676,7 @@ const CourseTermDef _secondary2ComputingTerm9 = CourseTermDef(
 /// and the whole pathway by testing the finished program (including edge
 /// cases like empty or mismatched-length files) and tracing how every
 /// one of Terms 1-8's skills reused inside this one program.
-const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
+const CoursePathwayDef year8ComputingPathway = CoursePathwayDef(
   id: "course-secondary2-computing",
   subject: "computing",
   grade: Grade.year8,
@@ -29688,15 +29688,15 @@ const CoursePathwayDef secondary2ComputingPathway = CoursePathwayDef(
       "ဒုတိယမြောက် ပညာသင်နှစ် ကွန်ပျူတာသင်တန်း -- Secondary 1 မှအခြေခံ၍ ဆက်လက်တည်ဆောက်သည့်၊ list၊ array၊ function၊ procedure၊ ရှာဖွေခြင်း/sort လုပ်ခြင်း algorithm၊ Boolean logic၊ string manipulation၊ nested (2D) list၊ dictionary နှင့် file handling ကဲ့သို့ ခေါင်းစဉ်များပါဝင်ပြီး နောက်ဆုံး capstone project ဖြင့် အဆုံးသတ်သော real-code programming နေ့စဉ်အတိုချုပ်သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
-    _secondary2ComputingTerm1,
-    _secondary2ComputingTerm2,
-    _secondary2ComputingTerm3,
-    _secondary2ComputingTerm4,
-    _secondary2ComputingTerm5,
-    _secondary2ComputingTerm6,
-    _secondary2ComputingTerm7,
-    _secondary2ComputingTerm8,
-    _secondary2ComputingTerm9,
+    _year8ComputingTerm1,
+    _year8ComputingTerm2,
+    _year8ComputingTerm3,
+    _year8ComputingTerm4,
+    _year8ComputingTerm5,
+    _year8ComputingTerm6,
+    _year8ComputingTerm7,
+    _year8ComputingTerm8,
+    _year8ComputingTerm9,
   ],
 );
 // =====================================================================
@@ -45605,7 +45605,7 @@ const CoursePathwayDef year5ComputingPathway = CoursePathwayDef(
 // before Term 2 moves into data structures and file handling. Authored
 // incrementally, one week at a time; only Week 1 exists so far.
 
-const CourseWeekDef _secondary3ComputingWeek1 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek1 = CourseWeekDef(
   id: "course-secondary3-computing-w1",
   weekNumber: 1,
   titleEn: "Searching Algorithms in Python",
@@ -46021,7 +46021,7 @@ const CourseWeekDef _secondary3ComputingWeek1 = CourseWeekDef(
 // Sort vs. Merge Sort"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek2 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek2 = CourseWeekDef(
   id: "course-secondary3-computing-w2",
   weekNumber: 2,
   titleEn: "Sorting Algorithms: Bubble Sort vs. Merge Sort",
@@ -46449,7 +46449,7 @@ const CourseWeekDef _secondary3ComputingWeek2 = CourseWeekDef(
 // in Python"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek3 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek3 = CourseWeekDef(
   id: "course-secondary3-computing-w3",
   weekNumber: 3,
   titleEn: "Error Handling and Validation in Python",
@@ -46898,7 +46898,7 @@ const CourseWeekDef _secondary3ComputingWeek3 = CourseWeekDef(
 // Performance Analyzer"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek4 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek4 = CourseWeekDef(
   id: "course-secondary3-computing-w4",
   weekNumber: 4,
   titleEn: "Algorithm Performance Analyzer",
@@ -47315,7 +47315,7 @@ const CourseWeekDef _secondary3ComputingWeek4 = CourseWeekDef(
 /// together: timing real Python sorting code on growing random datasets
 /// and producing a performance report, reusing Week 3's error-handling
 /// habit to validate the dataset-size input along the way.
-const CourseTermDef _secondary3ComputingTerm1 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm1 = CourseTermDef(
   id: "course-secondary3-computing-t1",
   termNumber: 1,
   titleEn: "Advanced Algorithms and Python",
@@ -47323,10 +47323,10 @@ const CourseTermDef _secondary3ComputingTerm1 = CourseTermDef(
   certificateTitleEn: "Advanced Algorithms and Python",
   certificateTitleMy: "အဆင့်မြင့် အယ်လဂိုရီသမ်များနှင့် Python",
   weeks: [
-    _secondary3ComputingWeek1,
-    _secondary3ComputingWeek2,
-    _secondary3ComputingWeek3,
-    _secondary3ComputingWeek4,
+    _year9ComputingWeek1,
+    _year9ComputingWeek2,
+    _year9ComputingWeek3,
+    _year9ComputingWeek4,
   ],
 );
 
@@ -47335,7 +47335,7 @@ const CourseTermDef _secondary3ComputingTerm1 = CourseTermDef(
 // Dictionaries"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek5 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek5 = CourseWeekDef(
   id: "course-secondary3-computing-w5",
   weekNumber: 5,
   titleEn: "Advanced Lists and Dictionaries",
@@ -47743,7 +47743,7 @@ const CourseWeekDef _secondary3ComputingWeek5 = CourseWeekDef(
 // Files"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek6 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek6 = CourseWeekDef(
   id: "course-secondary3-computing-w6",
   weekNumber: 6,
   titleEn: "Reading and Writing Text Files",
@@ -48133,7 +48133,7 @@ const CourseWeekDef _secondary3ComputingWeek6 = CourseWeekDef(
 // Secondary 3 Computing -- Term 2, Week 7: "Working with CSV Files"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek7 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek7 = CourseWeekDef(
   id: "course-secondary3-computing-w7",
   weekNumber: 7,
   titleEn: "Working with CSV Files",
@@ -48533,7 +48533,7 @@ const CourseWeekDef _secondary3ComputingWeek7 = CourseWeekDef(
 // Database System"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek8 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek8 = CourseWeekDef(
   id: "course-secondary3-computing-w8",
   weekNumber: 8,
   titleEn: "Console-Based Database System",
@@ -48970,7 +48970,7 @@ const CourseWeekDef _secondary3ComputingWeek8 = CourseWeekDef(
 /// closing with a capstone week (Week 8, a boss week) that combines all
 /// three into a genuine menu-driven CRUD console application backed by
 /// a CSV file.
-const CourseTermDef _secondary3ComputingTerm2 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm2 = CourseTermDef(
   id: "course-secondary3-computing-t2",
   termNumber: 2,
   titleEn: "Data Structures and File Handling",
@@ -48978,10 +48978,10 @@ const CourseTermDef _secondary3ComputingTerm2 = CourseTermDef(
   certificateTitleEn: "Data Structures and File Handling",
   certificateTitleMy: "Data Structures နှင့် File Handling",
   weeks: [
-    _secondary3ComputingWeek5,
-    _secondary3ComputingWeek6,
-    _secondary3ComputingWeek7,
-    _secondary3ComputingWeek8,
+    _year9ComputingWeek5,
+    _year9ComputingWeek6,
+    _year9ComputingWeek7,
+    _year9ComputingWeek8,
   ],
 );
 
@@ -48990,7 +48990,7 @@ const CourseTermDef _secondary3ComputingTerm2 = CourseTermDef(
 // Objects"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek9 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek9 = CourseWeekDef(
   id: "course-secondary3-computing-w9",
   weekNumber: 9,
   titleEn: "Introduction to Classes and Objects",
@@ -49407,7 +49407,7 @@ const CourseWeekDef _secondary3ComputingWeek9 = CourseWeekDef(
 // Secondary 3 Computing -- Term 3, Week 10: "Attributes and Methods"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek10 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek10 = CourseWeekDef(
   id: "course-secondary3-computing-w10",
   weekNumber: 10,
   titleEn: "Attributes and Methods",
@@ -49840,7 +49840,7 @@ const CourseWeekDef _secondary3ComputingWeek10 = CourseWeekDef(
 // Secondary 3 Computing -- Term 3, Week 11: "Inheritance"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek11 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek11 = CourseWeekDef(
   id: "course-secondary3-computing-w11",
   weekNumber: 11,
   titleEn: "Inheritance",
@@ -50284,7 +50284,7 @@ const CourseWeekDef _secondary3ComputingWeek11 = CourseWeekDef(
 // Character Engine"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek12 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek12 = CourseWeekDef(
   id: "course-secondary3-computing-w12",
   weekNumber: 12,
   titleEn: "OOP Game Character Engine",
@@ -50740,7 +50740,7 @@ const CourseWeekDef _secondary3ComputingWeek12 = CourseWeekDef(
 /// with a capstone week (Week 12, a boss week) that combines all three
 /// into a simple text-based game battle simulator with a base Character
 /// class and overriding Warrior/Mage subclasses.
-const CourseTermDef _secondary3ComputingTerm3 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm3 = CourseTermDef(
   id: "course-secondary3-computing-t3",
   termNumber: 3,
   titleEn: "Object-Oriented Programming",
@@ -50748,10 +50748,10 @@ const CourseTermDef _secondary3ComputingTerm3 = CourseTermDef(
   certificateTitleEn: "Object-Oriented Programming",
   certificateTitleMy: "Object-Oriented Programming",
   weeks: [
-    _secondary3ComputingWeek9,
-    _secondary3ComputingWeek10,
-    _secondary3ComputingWeek11,
-    _secondary3ComputingWeek12,
+    _year9ComputingWeek9,
+    _year9ComputingWeek10,
+    _year9ComputingWeek11,
+    _year9ComputingWeek12,
   ],
 );
 
@@ -50759,7 +50759,7 @@ const CourseTermDef _secondary3ComputingTerm3 = CourseTermDef(
 // Secondary 3 Computing -- Term 4, Week 13: "Relational Database Design"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek13 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek13 = CourseWeekDef(
   id: "course-secondary3-computing-w13",
   weekNumber: 13,
   titleEn: "Relational Database Design",
@@ -51211,7 +51211,7 @@ const CourseWeekDef _secondary3ComputingWeek13 = CourseWeekDef(
 // Secondary 3 Computing -- Term 4, Week 14: "Advanced SQL Queries"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek14 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek14 = CourseWeekDef(
   id: "course-secondary3-computing-w14",
   weekNumber: 14,
   titleEn: "Advanced SQL Queries",
@@ -51633,7 +51633,7 @@ const CourseWeekDef _secondary3ComputingWeek14 = CourseWeekDef(
 // SQLite"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek15 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek15 = CourseWeekDef(
   id: "course-secondary3-computing-w15",
   weekNumber: 15,
   titleEn: "Connecting Python to SQLite",
@@ -52048,7 +52048,7 @@ const CourseWeekDef _secondary3ComputingWeek15 = CourseWeekDef(
 // Python Inventory System"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek16 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek16 = CourseWeekDef(
   id: "course-secondary3-computing-w16",
   weekNumber: 16,
   titleEn: "Full-Stack Python Inventory System",
@@ -52506,7 +52506,7 @@ const CourseWeekDef _secondary3ComputingWeek16 = CourseWeekDef(
 /// 16, a boss week) that combines all three into a full-stack Python
 /// inventory system with a parameterized-query database layer and a
 /// menu-driven interface layer with SQL-powered reporting.
-const CourseTermDef _secondary3ComputingTerm4 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm4 = CourseTermDef(
   id: "course-secondary3-computing-t4",
   termNumber: 4,
   titleEn: "Databases and SQL Mastery",
@@ -52514,10 +52514,10 @@ const CourseTermDef _secondary3ComputingTerm4 = CourseTermDef(
   certificateTitleEn: "Databases and SQL Mastery",
   certificateTitleMy: "Databases and SQL Mastery",
   weeks: [
-    _secondary3ComputingWeek13,
-    _secondary3ComputingWeek14,
-    _secondary3ComputingWeek15,
-    _secondary3ComputingWeek16,
+    _year9ComputingWeek13,
+    _year9ComputingWeek14,
+    _year9ComputingWeek15,
+    _year9ComputingWeek16,
   ],
 );
 
@@ -52525,7 +52525,7 @@ const CourseTermDef _secondary3ComputingTerm4 = CourseTermDef(
 // Secondary 3 Computing -- Term 5, Week 17: "Network Protocols"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek17 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek17 = CourseWeekDef(
   id: "course-secondary3-computing-w17",
   weekNumber: 17,
   titleEn: "Network Protocols",
@@ -52900,7 +52900,7 @@ const CourseWeekDef _secondary3ComputingWeek17 = CourseWeekDef(
 // Secondary 3 Computing -- Term 5, Week 18: "Packet Switching"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek18 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek18 = CourseWeekDef(
   id: "course-secondary3-computing-w18",
   weekNumber: 18,
   titleEn: "Packet Switching",
@@ -53348,7 +53348,7 @@ const CourseWeekDef _secondary3ComputingWeek18 = CourseWeekDef(
 // Secondary 3 Computing -- Term 5, Week 19: "Advanced Encryption"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek19 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek19 = CourseWeekDef(
   id: "course-secondary3-computing-w19",
   weekNumber: 19,
   titleEn: "Advanced Encryption",
@@ -53800,7 +53800,7 @@ const CourseWeekDef _secondary3ComputingWeek19 = CourseWeekDef(
 // Cipher Tool"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek20 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek20 = CourseWeekDef(
   id: "course-secondary3-computing-w20",
   weekNumber: 20,
   titleEn: "Python Caesar Cipher Tool",
@@ -54217,7 +54217,7 @@ const CourseWeekDef _secondary3ComputingWeek20 = CourseWeekDef(
 /// 20, a boss week) building a real Python Caesar cipher tool -- while
 /// explicitly naming its 25-shift weakness as the reason Week 19's
 /// modern encryption methods exist.
-const CourseTermDef _secondary3ComputingTerm5 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm5 = CourseTermDef(
   id: "course-secondary3-computing-t5",
   termNumber: 5,
   titleEn: "Networks, Protocols and Security",
@@ -54225,10 +54225,10 @@ const CourseTermDef _secondary3ComputingTerm5 = CourseTermDef(
   certificateTitleEn: "Networks, Protocols and Security",
   certificateTitleMy: "Networks, Protocols and Security",
   weeks: [
-    _secondary3ComputingWeek17,
-    _secondary3ComputingWeek18,
-    _secondary3ComputingWeek19,
-    _secondary3ComputingWeek20,
+    _year9ComputingWeek17,
+    _year9ComputingWeek18,
+    _year9ComputingWeek19,
+    _year9ComputingWeek20,
   ],
 );
 
@@ -54236,7 +54236,7 @@ const CourseTermDef _secondary3ComputingTerm5 = CourseTermDef(
 // Secondary 3 Computing -- Term 6, Week 21: "Client-Server Architecture"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek21 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek21 = CourseWeekDef(
   id: "course-secondary3-computing-w21",
   weekNumber: 21,
   titleEn: "Client-Server Architecture",
@@ -54678,7 +54678,7 @@ const CourseWeekDef _secondary3ComputingWeek21 = CourseWeekDef(
 // Secondary 3 Computing -- Term 6, Week 22: "Introduction to APIs"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek22 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek22 = CourseWeekDef(
   id: "course-secondary3-computing-w22",
   weekNumber: 22,
   titleEn: "Introduction to APIs",
@@ -55100,7 +55100,7 @@ const CourseWeekDef _secondary3ComputingWeek22 = CourseWeekDef(
 // (Flask)"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek23 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek23 = CourseWeekDef(
   id: "course-secondary3-computing-w23",
   weekNumber: 23,
   titleEn: "Building a Basic Web App (Flask)",
@@ -55528,7 +55528,7 @@ const CourseWeekDef _secondary3ComputingWeek23 = CourseWeekDef(
 // App"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek24 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek24 = CourseWeekDef(
   id: "course-secondary3-computing-w24",
   weekNumber: 24,
   titleEn: "Live Weather Web App",
@@ -55990,7 +55990,7 @@ const CourseWeekDef _secondary3ComputingWeek24 = CourseWeekDef(
 /// route function that itself acts as an API client, fetching JSON
 /// from an external weather API and rendering it into a template for
 /// the browser, with graceful failure handling if the API is down.
-const CourseTermDef _secondary3ComputingTerm6 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm6 = CourseTermDef(
   id: "course-secondary3-computing-t6",
   termNumber: 6,
   titleEn: "Web Development and APIs",
@@ -55998,10 +55998,10 @@ const CourseTermDef _secondary3ComputingTerm6 = CourseTermDef(
   certificateTitleEn: "Web Development and APIs",
   certificateTitleMy: "Web Development and APIs",
   weeks: [
-    _secondary3ComputingWeek21,
-    _secondary3ComputingWeek22,
-    _secondary3ComputingWeek23,
-    _secondary3ComputingWeek24,
+    _year9ComputingWeek21,
+    _year9ComputingWeek22,
+    _year9ComputingWeek23,
+    _year9ComputingWeek24,
   ],
 );
 
@@ -56010,7 +56010,7 @@ const CourseTermDef _secondary3ComputingTerm6 = CourseTermDef(
 // Life Cycle (SDLC)"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek25 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek25 = CourseWeekDef(
   id: "course-secondary3-computing-w25",
   weekNumber: 25,
   titleEn: "The Software Development Life Cycle (SDLC)",
@@ -56469,7 +56469,7 @@ const CourseWeekDef _secondary3ComputingWeek25 = CourseWeekDef(
 // Methodologies"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek26 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek26 = CourseWeekDef(
   id: "course-secondary3-computing-w26",
   weekNumber: 26,
   titleEn: "Testing and Debugging Methodologies",
@@ -56910,7 +56910,7 @@ const CourseWeekDef _secondary3ComputingWeek26 = CourseWeekDef(
 // Version Control"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek27 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek27 = CourseWeekDef(
   id: "course-secondary3-computing-w27",
   weekNumber: 27,
   titleEn: "Introduction to Git and Version Control",
@@ -57350,7 +57350,7 @@ const CourseWeekDef _secondary3ComputingWeek27 = CourseWeekDef(
 // Contribution Project"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek28 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek28 = CourseWeekDef(
   id: "course-secondary3-computing-w28",
   weekNumber: 28,
   titleEn: "Open Source Contribution Project",
@@ -57807,7 +57807,7 @@ const CourseWeekDef _secondary3ComputingWeek28 = CourseWeekDef(
 /// boundary-data-driven test for a bug fix, Git's branch/commit/push
 /// workflow, documentation, a pull request, and code review before
 /// merge.
-const CourseTermDef _secondary3ComputingTerm7 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm7 = CourseTermDef(
   id: "course-secondary3-computing-t7",
   termNumber: 7,
   titleEn: "Software Engineering Principles",
@@ -57815,10 +57815,10 @@ const CourseTermDef _secondary3ComputingTerm7 = CourseTermDef(
   certificateTitleEn: "Software Engineering Principles",
   certificateTitleMy: "Software Engineering Principles",
   weeks: [
-    _secondary3ComputingWeek25,
-    _secondary3ComputingWeek26,
-    _secondary3ComputingWeek27,
-    _secondary3ComputingWeek28,
+    _year9ComputingWeek25,
+    _year9ComputingWeek26,
+    _year9ComputingWeek27,
+    _year9ComputingWeek28,
   ],
 );
 
@@ -57827,7 +57827,7 @@ const CourseTermDef _secondary3ComputingTerm7 = CourseTermDef(
 // Learning"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek29 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek29 = CourseWeekDef(
   id: "course-secondary3-computing-w29",
   weekNumber: 29,
   titleEn: "Foundations of Machine Learning",
@@ -58275,7 +58275,7 @@ const CourseWeekDef _secondary3ComputingWeek29 = CourseWeekDef(
 // Secondary 3 Computing -- Term 8, Week 30: "Data Analysis with Python"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek30 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek30 = CourseWeekDef(
   id: "course-secondary3-computing-w30",
   weekNumber: 30,
   titleEn: "Data Analysis with Python",
@@ -58717,7 +58717,7 @@ const CourseWeekDef _secondary3ComputingWeek30 = CourseWeekDef(
 // Intelligence"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek31 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek31 = CourseWeekDef(
   id: "course-secondary3-computing-w31",
   weekNumber: 31,
   titleEn: "Ethics in Artificial Intelligence",
@@ -59167,7 +59167,7 @@ const CourseWeekDef _secondary3ComputingWeek31 = CourseWeekDef(
 // Model"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek32 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek32 = CourseWeekDef(
   id: "course-secondary3-computing-w32",
   weekNumber: 32,
   titleEn: "Predictive Data Model",
@@ -59621,7 +59621,7 @@ const CourseWeekDef _secondary3ComputingWeek32 = CourseWeekDef(
 /// model end-to-end: cleaning data, training/test splitting, catching
 /// overfitting by comparing training vs. test accuracy, and a Week-31
 /// style bias check before considering the model ready.
-const CourseTermDef _secondary3ComputingTerm8 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm8 = CourseTermDef(
   id: "course-secondary3-computing-t8",
   termNumber: 8,
   titleEn: "Artificial Intelligence and Data Science",
@@ -59629,10 +59629,10 @@ const CourseTermDef _secondary3ComputingTerm8 = CourseTermDef(
   certificateTitleEn: "Artificial Intelligence and Data Science",
   certificateTitleMy: "Artificial Intelligence and Data Science",
   weeks: [
-    _secondary3ComputingWeek29,
-    _secondary3ComputingWeek30,
-    _secondary3ComputingWeek31,
-    _secondary3ComputingWeek32,
+    _year9ComputingWeek29,
+    _year9ComputingWeek30,
+    _year9ComputingWeek31,
+    _year9ComputingWeek32,
   ],
 );
 
@@ -59641,7 +59641,7 @@ const CourseTermDef _secondary3ComputingTerm8 = CourseTermDef(
 // Strategies"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek33 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek33 = CourseWeekDef(
   id: "course-secondary3-computing-w33",
   weekNumber: 33,
   titleEn: "IGCSE Problem-Solving Strategies",
@@ -60066,7 +60066,7 @@ const CourseWeekDef _secondary3ComputingWeek33 = CourseWeekDef(
 // and Networks)"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek34 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek34 = CourseWeekDef(
   id: "course-secondary3-computing-w34",
   weekNumber: 34,
   titleEn: "Theory Revision (Systems and Networks)",
@@ -60515,7 +60515,7 @@ const CourseWeekDef _secondary3ComputingWeek34 = CourseWeekDef(
 // Planning"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek35 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek35 = CourseWeekDef(
   id: "course-secondary3-computing-w35",
   weekNumber: 35,
   titleEn: "IGCSE Programming Project Planning",
@@ -60963,7 +60963,7 @@ const CourseWeekDef _secondary3ComputingWeek35 = CourseWeekDef(
 // Computer Science Showcase"
 // =====================================================================
 
-const CourseWeekDef _secondary3ComputingWeek36 = CourseWeekDef(
+const CourseWeekDef _year9ComputingWeek36 = CourseWeekDef(
   id: "course-secondary3-computing-w36",
   weekNumber: 36,
   titleEn: "The Final Computer Science Showcase",
@@ -61428,7 +61428,7 @@ const CourseWeekDef _secondary3ComputingWeek36 = CourseWeekDef(
 /// live code demonstration, a success-criteria review, and honest
 /// reflection, marking the genuine completion of three full years of
 /// Lower Secondary Computing.
-const CourseTermDef _secondary3ComputingTerm9 = CourseTermDef(
+const CourseTermDef _year9ComputingTerm9 = CourseTermDef(
   id: "course-secondary3-computing-t9",
   termNumber: 9,
   titleEn: "IGCSE Computer Science Capstone & Review",
@@ -61437,10 +61437,10 @@ const CourseTermDef _secondary3ComputingTerm9 = CourseTermDef(
   certificateTitleMy:
       "IGCSE ကွန်ပျူတာသိပ္ပံ Capstone နှင့် ပြန်လည်သုံးသပ်ခြင်း",
   weeks: [
-    _secondary3ComputingWeek33,
-    _secondary3ComputingWeek34,
-    _secondary3ComputingWeek35,
-    _secondary3ComputingWeek36,
+    _year9ComputingWeek33,
+    _year9ComputingWeek34,
+    _year9ComputingWeek35,
+    _year9ComputingWeek36,
   ],
 );
 
@@ -61454,7 +61454,7 @@ const CourseTermDef _secondary3ComputingTerm9 = CourseTermDef(
 /// data science, and finally an IGCSE-focused capstone and review term,
 /// closing with a full project showcase that marks the end of the
 /// three-year Lower Secondary Computing pathway.
-const CoursePathwayDef secondary3ComputingPathway = CoursePathwayDef(
+const CoursePathwayDef year9ComputingPathway = CoursePathwayDef(
   id: "course-secondary3-computing",
   subject: "computing",
   grade: Grade.year9,
@@ -61466,15 +61466,15 @@ const CoursePathwayDef secondary3ComputingPathway = CoursePathwayDef(
       "တတိယနှစ် (Secondary 3 / Year 9) ကွန်ပျူတာဘာသာရပ်သင်တန်း -- IGCSE အဆင့် လေ့လာမှုအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ အဆင့်မြင့် အယ်လဂိုရီသမ်များနှင့် Python သည် ရှာဖွေရေးနှင့် အစဉ်လိုက်စီစဉ်ရေးကို အနက်ရှိုင်းစွာ ပြန်လည်လေ့လာပြီး တကယ့် performance-timing capstone ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Data Structures and File Handling သည် 2D lists, dictionaries, persistent file storage နှင့် CSV parsing ကို ဖုံးအုပ်ပြီး CRUD console database အပြည့်အစုံဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Object-Oriented Programming သည် classes, objects, attributes, methods နှင့် inheritance ကို မိတ်ဆက်ပြီး text-based game battle simulator ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Databases and SQL Mastery သည် relational design, အဆင့်မြင့် SQL query များနှင့် Python ကို live SQLite database နှင့် ချိတ်ဆက်ခြင်းကို ဖုံးအုပ်ပြီး full-stack inventory system ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Networks, Protocols and Security သည် network protocols, packet switching နှင့် encryption ကို ဖုံးအုပ်ပြီး အလုပ်လုပ်နေသော Python Caesar cipher tool ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Web Development and APIs သည် client-server architecture, APIs and JSON နှင့် Flask web app တည်ဆောက်ခြင်းကို ဖုံးအုပ်ပြီး live weather web app ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Software Engineering Principles သည် SDLC, testing methodology များနှင့် Git version control ကို ဖုံးအုပ်ပြီး simulated open-source contribution ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Artificial Intelligence and Data Science သည် supervised/unsupervised learning, data cleaning and analysis နှင့် AI ethics ကို ဖုံးအုပ်ပြီး တာဝန်ယူစွာ evaluate လုပ်ထားသော predictive model ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်သည် IGCSE စာမေးပွဲ နည်းပညာ၊ သီအိုရီ ပြန်လည်လေ့ကျင့်မှု အပြည့်အစုံဖြင့် နှစ်တစ်နှစ်နှင့် Lower Secondary Computing pathway သုံးနှစ်တာလုံးကို ပိတ်သိမ်းပြီး ကျောင်းသားများကို ကိုယ်ပိုင် capstone project တစ်ခု စီစဉ်တင်ဆက်ရန် Final Computer Science Showcase တွင် လမ်းညွှန်ပေးသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary3ComputingTerm1,
-    _secondary3ComputingTerm2,
-    _secondary3ComputingTerm3,
-    _secondary3ComputingTerm4,
-    _secondary3ComputingTerm5,
-    _secondary3ComputingTerm6,
-    _secondary3ComputingTerm7,
-    _secondary3ComputingTerm8,
-    _secondary3ComputingTerm9,
+    _year9ComputingTerm1,
+    _year9ComputingTerm2,
+    _year9ComputingTerm3,
+    _year9ComputingTerm4,
+    _year9ComputingTerm5,
+    _year9ComputingTerm6,
+    _year9ComputingTerm7,
+    _year9ComputingTerm8,
+    _year9ComputingTerm9,
   ],
 );
 // =====================================================================
@@ -143899,7 +143899,7 @@ const CourseTermDef _igcseComputingTerm2 = CourseTermDef(
 // daily lessons).
 // =====================================================================
 
-const CoursePathwayDef computingYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10ComputingPathway = CoursePathwayDef(
   id: "course-year10-computing",
   subject: "computing",
   grade: Grade.year10,
@@ -143918,7 +143918,7 @@ const CoursePathwayDef computingYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef computingYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11ComputingPathway = CoursePathwayDef(
   id: "course-year11-computing",
   subject: "computing",
   grade: Grade.year11,

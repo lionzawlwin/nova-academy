@@ -13459,7 +13459,7 @@ const CourseTermDef igcseChemistryTerm9 = CourseTermDef(
 /// chemistry, organic chemistry, experimental skills and qualitative
 /// analysis, and a Week 36 graduation capstone previewing A-Level
 /// Chemistry.
-const CoursePathwayDef chemistryYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10ChemistryPathway = CoursePathwayDef(
   id: "course-year10-chemistry",
   subject: "chemistry",
   grade: Grade.year10,
@@ -13478,7 +13478,7 @@ const CoursePathwayDef chemistryYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef chemistryYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11ChemistryPathway = CoursePathwayDef(
   id: "course-year11-chemistry",
   subject: "chemistry",
   grade: Grade.year11,

@@ -90677,7 +90677,7 @@ const CourseTermDef _igcseHumTerm1 = CourseTermDef(
 // authored; wired incrementally, one completed term at a time.
 // =====================================================================
 
-const CoursePathwayDef humanitiesYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10HumanitiesPathway = CoursePathwayDef(
   id: "course-year10-humanities",
   subject: "humanities",
   grade: Grade.year10,
@@ -90692,7 +90692,7 @@ const CoursePathwayDef humanitiesYear10Pathway = CoursePathwayDef(
   terms: [_igcseHumTerm1, _igcseHumTerm2, _igcseHumTerm3, _igcseHumTerm4],
 );
 
-const CoursePathwayDef humanitiesYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11HumanitiesPathway = CoursePathwayDef(
   id: "course-year11-humanities",
   subject: "humanities",
   grade: Grade.year11,
@@ -102074,14 +102074,14 @@ const CourseTermDef _igcseHumTerm9 = CourseTermDef(
 // (36 weeks / 180 daily lessons). "Foundations of the Ancient and
 // Medieval World". Topic-driven, following the Secondary-tier
 // convention (a rotating cast of named Myanmar students rather than
-// one fixed protagonist, matching secondary1EnglishPathway/
-// secondary1GlobalPerspectivesPathway). Builds history/geography
+// one fixed protagonist, matching year7EnglishPathway/
+// year7GlobalPerspectivesPathway). Builds history/geography
 // skills that progress through Secondary 2 and Secondary 3 toward
 // IGCSE Humanities, without duplicating Year 1-6 or IGCSE content.
 // Term 1: Becoming a Historian and Geographer (Weeks 1-4)
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek1 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek1 = CourseWeekDef(
   id: "course-sec1-hum-w1",
   weekNumber: 1,
   titleEn: "What Is History? What Is Geography?",
@@ -102434,7 +102434,7 @@ const CourseWeekDef _sec1HumWeek1 = CourseWeekDef(
 // Chronology"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek2 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek2 = CourseWeekDef(
   id: "course-sec1-hum-w2",
   weekNumber: 2,
   titleEn: "Timelines, Periods and Chronology",
@@ -102780,7 +102780,7 @@ const CourseWeekDef _sec1HumWeek2 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 1, Week 3: "Reading and Making Maps"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek3 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek3 = CourseWeekDef(
   id: "course-sec1-hum-w3",
   weekNumber: 3,
   titleEn: "Reading and Making Maps",
@@ -103127,7 +103127,7 @@ const CourseWeekDef _sec1HumWeek3 = CourseWeekDef(
 // History-Geography Investigation"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek4 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek4 = CourseWeekDef(
   id: "course-sec1-hum-w4",
   weekNumber: 4,
   titleEn: "Local History-Geography Investigation",
@@ -103487,16 +103487,16 @@ const CourseWeekDef _sec1HumWeek4 = CourseWeekDef(
 // Geographer" (Weeks 1-4)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm1 = CourseTermDef(
+const CourseTermDef _year7HumTerm1 = CourseTermDef(
   id: "course-sec1-hum-t1",
   termNumber: 1,
   titleEn: "Becoming a Historian and Geographer",
   titleMy: "Historian နှင့် Geographer တစ်ဦး ဖြစ်လာခြင်း",
   certificateTitleEn: "Becoming a Historian and Geographer",
   certificateTitleMy: "Historian နှင့် Geographer တစ်ဦး ဖြစ်လာခြင်း",
-  weeks: [_sec1HumWeek1, _sec1HumWeek2, _sec1HumWeek3, _sec1HumWeek4],
+  weeks: [_year7HumWeek1, _year7HumWeek2, _year7HumWeek3, _year7HumWeek4],
 );
-const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
+const CoursePathwayDef year7HumanitiesPathway = CoursePathwayDef(
   id: "course-secondary1-humanities",
   subject: "humanities",
   grade: Grade.year7,
@@ -103508,15 +103508,15 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
       "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Settlements and Where People Live သည် Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသည်၊ Urban နှင့် Rural ကြား တိကျသော ခွဲခြားချက်နှင့် မြန်မာနိုင်ငံအတွင်းရှိ Settlement Pattern များကို ဖုံးအုပ်ပြီး Site-Factor Explanation ကို ရိုးသား၊ Evidenced Classification နှင့် ပေါင်းစပ်ထားသော My Town or City Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Resources and Trade သည် Renewable နှင့် Non-Renewable Resource များ၊ သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Route များ နောက်ကွယ်ရှိ Resource-Scarcity Pattern နှင့် Resource-Based Conflict ၏ အကြောင်းရင်းများကို ဖုံးအုပ်ပြီး Why, What နှင့် What Risk ကို ချိတ်ဆက်ထားသော Evidenced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Trade Route Mapping Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Skills Review and Exhibition သည် နှစ်တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Core Habit of Mind တိုင်းကို ပြန်လည် သုံးသပ်သည် -- Combined Lens များ, Factor များစွာ ချိန်ဆခြင်း, Grounded Evidence နှင့် Honest Uncertainty -- Answer-Structuring နှင့် Timed-Practice Technique ကို သင်ကြားပြီး Course ၏ ပထမဆုံးသင်ခန်းစာမှ နောက်ဆုံးအထိ Disciplined Reasoning ကို ခြေရာခံသော Heritage & Geography Exhibition and Graduation တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
-    _sec1HumTerm1,
-    _sec1HumTerm2,
-    _sec1HumTerm3,
-    _sec1HumTerm4,
-    _sec1HumTerm5,
-    _sec1HumTerm6,
-    _sec1HumTerm7,
-    _sec1HumTerm8,
-    _sec1HumTerm9,
+    _year7HumTerm1,
+    _year7HumTerm2,
+    _year7HumTerm3,
+    _year7HumTerm4,
+    _year7HumTerm5,
+    _year7HumTerm6,
+    _year7HumTerm7,
+    _year7HumTerm8,
+    _year7HumTerm9,
   ],
 );
 // =====================================================================
@@ -103524,7 +103524,7 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
 // Fertile Crescent"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek5 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek5 = CourseWeekDef(
   id: "course-sec1-hum-w5",
   weekNumber: 5,
   titleEn: "Mesopotamia and the Fertile Crescent",
@@ -103884,7 +103884,7 @@ const CourseWeekDef _sec1HumWeek5 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 2, Week 6: "Ancient Egypt"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek6 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek6 = CourseWeekDef(
   id: "course-sec1-hum-w6",
   weekNumber: 6,
   titleEn: "Ancient Egypt",
@@ -104243,7 +104243,7 @@ const CourseWeekDef _sec1HumWeek6 = CourseWeekDef(
 // Civilization"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek7 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek7 = CourseWeekDef(
   id: "course-sec1-hum-w7",
   weekNumber: 7,
   titleEn: "The Indus Valley Civilization",
@@ -104594,7 +104594,7 @@ const CourseWeekDef _sec1HumWeek7 = CourseWeekDef(
 // "Civilization Comparison Museum Exhibit"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek8 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek8 = CourseWeekDef(
   id: "course-sec1-hum-w8",
   weekNumber: 8,
   titleEn: "Civilization Comparison Museum Exhibit",
@@ -104949,21 +104949,21 @@ const CourseWeekDef _sec1HumWeek8 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 2: "Early Civilizations" (Weeks 5-8)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm2 = CourseTermDef(
+const CourseTermDef _year7HumTerm2 = CourseTermDef(
   id: "course-sec1-hum-t2",
   termNumber: 2,
   titleEn: "Early Civilizations",
   titleMy: "အစောဆုံး Civilization များ",
   certificateTitleEn: "Early Civilizations",
   certificateTitleMy: "အစောဆုံး Civilization များ",
-  weeks: [_sec1HumWeek5, _sec1HumWeek6, _sec1HumWeek7, _sec1HumWeek8],
+  weeks: [_year7HumWeek5, _year7HumWeek6, _year7HumWeek7, _year7HumWeek8],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 3, Week 9: "Ancient Greece: City-
 // States and Democracy"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek9 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek9 = CourseWeekDef(
   id: "course-sec1-hum-w9",
   weekNumber: 9,
   titleEn: "Ancient Greece: City-States and Democracy",
@@ -105315,7 +105315,7 @@ const CourseWeekDef _sec1HumWeek9 = CourseWeekDef(
 // Empire"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek10 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek10 = CourseWeekDef(
   id: "course-sec1-hum-w10",
   weekNumber: 10,
   titleEn: "Rome: From Republic to Empire",
@@ -105662,7 +105662,7 @@ const CourseWeekDef _sec1HumWeek10 = CourseWeekDef(
 // Rome"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek11 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek11 = CourseWeekDef(
   id: "course-sec1-hum-w11",
   weekNumber: 11,
   titleEn: "Legacies of Greece and Rome",
@@ -106012,7 +106012,7 @@ const CourseWeekDef _sec1HumWeek11 = CourseWeekDef(
 // "The 'Greatest Civilization' Debate"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek12 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek12 = CourseWeekDef(
   id: "course-sec1-hum-w12",
   weekNumber: 12,
   titleEn: "The 'Greatest Civilization' Debate",
@@ -106376,14 +106376,14 @@ const CourseWeekDef _sec1HumWeek12 = CourseWeekDef(
 // 9-12)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm3 = CourseTermDef(
+const CourseTermDef _year7HumTerm3 = CourseTermDef(
   id: "course-sec1-hum-t3",
   termNumber: 3,
   titleEn: "Ancient Greece and Rome",
   titleMy: "ရှေးဟောင်း ဂရိနှင့် ရောမ",
   certificateTitleEn: "Ancient Greece and Rome",
   certificateTitleMy: "ရှေးဟောင်း ဂရိနှင့် ရောမ",
-  weeks: [_sec1HumWeek9, _sec1HumWeek10, _sec1HumWeek11, _sec1HumWeek12],
+  weeks: [_year7HumWeek9, _year7HumWeek10, _year7HumWeek11, _year7HumWeek12],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 4: "Physical Geography Foundations"
@@ -106392,7 +106392,7 @@ const CourseTermDef _sec1HumTerm3 = CourseTermDef(
 // Term 4, Week 13: "Landforms and Rivers"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek13 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek13 = CourseWeekDef(
   id: "course-sec1-hum-w13",
   weekNumber: 13,
   titleEn: "Landforms and Rivers",
@@ -106746,7 +106746,7 @@ const CourseWeekDef _sec1HumWeek13 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 4, Week 14: "Weather vs. Climate"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek14 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek14 = CourseWeekDef(
   id: "course-sec1-hum-w14",
   weekNumber: 14,
   titleEn: "Weather vs. Climate",
@@ -107093,7 +107093,7 @@ const CourseWeekDef _sec1HumWeek14 = CourseWeekDef(
 // World"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek15 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek15 = CourseWeekDef(
   id: "course-sec1-hum-w15",
   weekNumber: 15,
   titleEn: "Climate Zones of the World",
@@ -107445,7 +107445,7 @@ const CourseWeekDef _sec1HumWeek15 = CourseWeekDef(
 // "Climate Zone Travel Brochure Studio"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek16 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek16 = CourseWeekDef(
   id: "course-sec1-hum-w16",
   weekNumber: 16,
   titleEn: "Climate Zone Travel Brochure Studio",
@@ -107802,14 +107802,14 @@ const CourseWeekDef _sec1HumWeek16 = CourseWeekDef(
 // (Weeks 13-16)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm4 = CourseTermDef(
+const CourseTermDef _year7HumTerm4 = CourseTermDef(
   id: "course-sec1-hum-t4",
   termNumber: 4,
   titleEn: "Physical Geography Foundations",
   titleMy: "Physical Geography Foundations",
   certificateTitleEn: "Physical Geography Foundations",
   certificateTitleMy: "Physical Geography Foundations",
-  weeks: [_sec1HumWeek13, _sec1HumWeek14, _sec1HumWeek15, _sec1HumWeek16],
+  weeks: [_year7HumWeek13, _year7HumWeek14, _year7HumWeek15, _year7HumWeek16],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 5: "The Medieval World I" (Weeks
@@ -107818,7 +107818,7 @@ const CourseTermDef _sec1HumTerm4 = CourseTermDef(
 // Term 5, Week 17: "Feudal Europe"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek17 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek17 = CourseWeekDef(
   id: "course-sec1-hum-w17",
   weekNumber: 17,
   titleEn: "Feudal Europe",
@@ -108165,7 +108165,7 @@ const CourseWeekDef _sec1HumWeek17 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 5, Week 18: "The Islamic Golden Age"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek18 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek18 = CourseWeekDef(
   id: "course-sec1-hum-w18",
   weekNumber: 18,
   titleEn: "The Islamic Golden Age",
@@ -108512,7 +108512,7 @@ const CourseWeekDef _sec1HumWeek18 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 5, Week 19: "The Silk Road"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek19 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek19 = CourseWeekDef(
   id: "course-sec1-hum-w19",
   weekNumber: 19,
   titleEn: "The Silk Road",
@@ -108861,7 +108861,7 @@ const CourseWeekDef _sec1HumWeek19 = CourseWeekDef(
 // "Silk Road Trade Journey Map Project"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek20 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek20 = CourseWeekDef(
   id: "course-sec1-hum-w20",
   weekNumber: 20,
   titleEn: "Silk Road Trade Journey Map Project",
@@ -109217,14 +109217,14 @@ const CourseWeekDef _sec1HumWeek20 = CourseWeekDef(
 // 17-20)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm5 = CourseTermDef(
+const CourseTermDef _year7HumTerm5 = CourseTermDef(
   id: "course-sec1-hum-t5",
   termNumber: 5,
   titleEn: "The Medieval World I",
   titleMy: "The Medieval World I",
   certificateTitleEn: "The Medieval World I",
   certificateTitleMy: "The Medieval World I",
-  weeks: [_sec1HumWeek17, _sec1HumWeek18, _sec1HumWeek19, _sec1HumWeek20],
+  weeks: [_year7HumWeek17, _year7HumWeek18, _year7HumWeek19, _year7HumWeek20],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 6: "The Medieval World II" (Weeks
@@ -109234,7 +109234,7 @@ const CourseTermDef _sec1HumTerm5 = CourseTermDef(
 // Term 6, Week 21: "Medieval West Africa: Ghana and Mali"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek21 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek21 = CourseWeekDef(
   id: "course-sec1-hum-w21",
   weekNumber: 21,
   titleEn: "Medieval West Africa: Ghana and Mali",
@@ -109587,7 +109587,7 @@ const CourseWeekDef _sec1HumWeek21 = CourseWeekDef(
 // and Song Dynasties"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek22 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek22 = CourseWeekDef(
   id: "course-sec1-hum-w22",
   weekNumber: 22,
   titleEn: "Imperial China: The Tang and Song Dynasties",
@@ -109943,7 +109943,7 @@ const CourseWeekDef _sec1HumWeek22 = CourseWeekDef(
 // Kingdoms: Bagan and Angkor"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek23 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek23 = CourseWeekDef(
   id: "course-sec1-hum-w23",
   weekNumber: 23,
   titleEn: "Southeast Asian Kingdoms: Bagan and Angkor",
@@ -110293,7 +110293,7 @@ const CourseWeekDef _sec1HumWeek23 = CourseWeekDef(
 // "Kingdom Comparison Report Studio"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek24 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek24 = CourseWeekDef(
   id: "course-sec1-hum-w24",
   weekNumber: 24,
   titleEn: "Kingdom Comparison Report Studio",
@@ -110646,14 +110646,14 @@ const CourseWeekDef _sec1HumWeek24 = CourseWeekDef(
 // 21-24)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm6 = CourseTermDef(
+const CourseTermDef _year7HumTerm6 = CourseTermDef(
   id: "course-sec1-hum-t6",
   termNumber: 6,
   titleEn: "The Medieval World II",
   titleMy: "The Medieval World II",
   certificateTitleEn: "The Medieval World II",
   certificateTitleMy: "The Medieval World II",
-  weeks: [_sec1HumWeek21, _sec1HumWeek22, _sec1HumWeek23, _sec1HumWeek24],
+  weeks: [_year7HumWeek21, _year7HumWeek22, _year7HumWeek23, _year7HumWeek24],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 7: "Settlements and Where People
@@ -110662,7 +110662,7 @@ const CourseTermDef _sec1HumTerm6 = CourseTermDef(
 // Term 7, Week 25: "Why Settlements Form Where They Do"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek25 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek25 = CourseWeekDef(
   id: "course-sec1-hum-w25",
   weekNumber: 25,
   titleEn: "Why Settlements Form Where They Do",
@@ -111012,7 +111012,7 @@ const CourseWeekDef _sec1HumWeek25 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 7, Week 26: "Urban vs. Rural"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek26 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek26 = CourseWeekDef(
   id: "course-sec1-hum-w26",
   weekNumber: 26,
   titleEn: "Urban vs. Rural",
@@ -111358,7 +111358,7 @@ const CourseWeekDef _sec1HumWeek26 = CourseWeekDef(
 // Myanmar"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek27 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek27 = CourseWeekDef(
   id: "course-sec1-hum-w27",
   weekNumber: 27,
   titleEn: "Settlement Patterns in Myanmar",
@@ -111712,7 +111712,7 @@ const CourseWeekDef _sec1HumWeek27 = CourseWeekDef(
 // Town or City Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek28 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek28 = CourseWeekDef(
   id: "course-sec1-hum-w28",
   weekNumber: 28,
   titleEn: "My Town or City Case Study",
@@ -112068,14 +112068,14 @@ const CourseWeekDef _sec1HumWeek28 = CourseWeekDef(
 // Live" (Weeks 25-28)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm7 = CourseTermDef(
+const CourseTermDef _year7HumTerm7 = CourseTermDef(
   id: "course-sec1-hum-t7",
   termNumber: 7,
   titleEn: "Settlements and Where People Live",
   titleMy: "Settlements and Where People Live",
   certificateTitleEn: "Settlements and Where People Live",
   certificateTitleMy: "Settlements and Where People Live",
-  weeks: [_sec1HumWeek25, _sec1HumWeek26, _sec1HumWeek27, _sec1HumWeek28],
+  weeks: [_year7HumWeek25, _year7HumWeek26, _year7HumWeek27, _year7HumWeek28],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 8: "Natural Resources and Trade"
@@ -112083,7 +112083,7 @@ const CourseTermDef _sec1HumTerm7 = CourseTermDef(
 // Term 8, Week 29: "Understanding Natural Resources"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek29 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek29 = CourseWeekDef(
   id: "course-sec1-hum-w29",
   weekNumber: 29,
   titleEn: "Understanding Natural Resources",
@@ -112428,7 +112428,7 @@ const CourseWeekDef _sec1HumWeek29 = CourseWeekDef(
 // Scarce Resources"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek30 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek30 = CourseWeekDef(
   id: "course-sec1-hum-w30",
   weekNumber: 30,
   titleEn: "Trade Routes: Moving Scarce Resources",
@@ -112784,7 +112784,7 @@ const CourseWeekDef _sec1HumWeek30 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 8, Week 31: "Resource-Based Conflict"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek31 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek31 = CourseWeekDef(
   id: "course-sec1-hum-w31",
   weekNumber: 31,
   titleEn: "Resource-Based Conflict",
@@ -113135,7 +113135,7 @@ const CourseWeekDef _sec1HumWeek31 = CourseWeekDef(
 // "Trade Route Mapping Studio"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek32 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek32 = CourseWeekDef(
   id: "course-sec1-hum-w32",
   weekNumber: 32,
   titleEn: "Trade Route Mapping Studio",
@@ -113489,14 +113489,14 @@ const CourseWeekDef _sec1HumWeek32 = CourseWeekDef(
 // term definition (Weeks 29-32)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm8 = CourseTermDef(
+const CourseTermDef _year7HumTerm8 = CourseTermDef(
   id: "course-sec1-hum-t8",
   termNumber: 8,
   titleEn: "Natural Resources and Trade",
   titleMy: "Natural Resources and Trade",
   certificateTitleEn: "Natural Resources and Trade",
   certificateTitleMy: "Natural Resources and Trade",
-  weeks: [_sec1HumWeek29, _sec1HumWeek30, _sec1HumWeek31, _sec1HumWeek32],
+  weeks: [_year7HumWeek29, _year7HumWeek30, _year7HumWeek31, _year7HumWeek32],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 9: "Skills Review and Exhibition"
@@ -113506,7 +113506,7 @@ const CourseTermDef _sec1HumTerm8 = CourseTermDef(
 // Skills"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek33 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek33 = CourseWeekDef(
   id: "course-sec1-hum-w33",
   weekNumber: 33,
   titleEn: "Reviewing a Year of Historian and Geographer Skills",
@@ -113868,7 +113868,7 @@ const CourseWeekDef _sec1HumWeek33 = CourseWeekDef(
 // Answer"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek34 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek34 = CourseWeekDef(
   id: "course-sec1-hum-w34",
   weekNumber: 34,
   titleEn: "Structuring a Strong Answer",
@@ -114217,7 +114217,7 @@ const CourseWeekDef _sec1HumWeek34 = CourseWeekDef(
 // Secondary 1 Humanities -- Term 9, Week 35: "Practicing Under Time"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek35 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek35 = CourseWeekDef(
   id: "course-sec1-hum-w35",
   weekNumber: 35,
   titleEn: "Practicing Under Time",
@@ -114569,7 +114569,7 @@ const CourseWeekDef _sec1HumWeek35 = CourseWeekDef(
 // "Heritage & Geography Exhibition and Graduation"
 // =====================================================================
 
-const CourseWeekDef _sec1HumWeek36 = CourseWeekDef(
+const CourseWeekDef _year7HumWeek36 = CourseWeekDef(
   id: "course-sec1-hum-w36",
   weekNumber: 36,
   titleEn: "Heritage & Geography Exhibition and Graduation",
@@ -114934,14 +114934,14 @@ const CourseWeekDef _sec1HumWeek36 = CourseWeekDef(
 // term definition (Weeks 33-36)
 // =====================================================================
 
-const CourseTermDef _sec1HumTerm9 = CourseTermDef(
+const CourseTermDef _year7HumTerm9 = CourseTermDef(
   id: "course-sec1-hum-t9",
   termNumber: 9,
   titleEn: "Skills Review and Exhibition",
   titleMy: "Skills Review and Exhibition",
   certificateTitleEn: "Secondary 1 Humanities (History & Geography)",
   certificateTitleMy: "Secondary 1 Humanities (သမိုင်းနှင့် ပထဝီဝင်)",
-  weeks: [_sec1HumWeek33, _sec1HumWeek34, _sec1HumWeek35, _sec1HumWeek36],
+  weeks: [_year7HumWeek33, _year7HumWeek34, _year7HumWeek35, _year7HumWeek36],
 );
 // =====================================================================
 // Secondary 2 Humanities (Year 8) -- "Exploration, Empire and
@@ -114960,7 +114960,7 @@ const CourseTermDef _sec1HumTerm9 = CourseTermDef(
 // Term 1, Week 1: "Motives for Exploration: God, Gold, and Glory"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek1 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek1 = CourseWeekDef(
   id: "course-sec2-hum-w1",
   weekNumber: 1,
   titleEn: "Motives for Exploration: God, Gold, and Glory",
@@ -115316,7 +115316,7 @@ const CourseWeekDef _sec2HumWeek1 = CourseWeekDef(
 // Documented Routes"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek2 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek2 = CourseWeekDef(
   id: "course-sec2-hum-w2",
   weekNumber: 2,
   titleEn: "Key Voyages and Their Documented Routes",
@@ -115664,7 +115664,7 @@ const CourseWeekDef _sec2HumWeek2 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 1, Week 3: "The Columbian Exchange"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek3 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek3 = CourseWeekDef(
   id: "course-sec2-hum-w3",
   weekNumber: 3,
   titleEn: "The Columbian Exchange",
@@ -116017,7 +116017,7 @@ const CourseWeekDef _sec2HumWeek3 = CourseWeekDef(
 // "Explorer's Logbook Project"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek4 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek4 = CourseWeekDef(
   id: "course-sec2-hum-w4",
   weekNumber: 4,
   titleEn: "Explorer's Logbook Project",
@@ -116369,17 +116369,17 @@ const CourseWeekDef _sec2HumWeek4 = CourseWeekDef(
 // 1-4)
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm1 = CourseTermDef(
+const CourseTermDef _year8HumTerm1 = CourseTermDef(
   id: "course-sec2-hum-t1",
   termNumber: 1,
   titleEn: "The Age of Exploration",
   titleMy: "The Age of Exploration",
   certificateTitleEn: "The Age of Exploration",
   certificateTitleMy: "The Age of Exploration",
-  weeks: [_sec2HumWeek1, _sec2HumWeek2, _sec2HumWeek3, _sec2HumWeek4],
+  weeks: [_year8HumWeek1, _year8HumWeek2, _year8HumWeek3, _year8HumWeek4],
 );
 
-const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
+const CoursePathwayDef year8HumanitiesPathway = CoursePathwayDef(
   id: "course-secondary2-humanities",
   subject: "humanities",
   grade: Grade.year8,
@@ -116391,15 +116391,15 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
       "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Revolutions and New Ideas သည် Term 2 ၏ Scientific Revolution သို့ ပြန်လည် ချိတ်ဆက်ထားသော Enlightenment Political Philosophy, ၎င်းတို့၏ Founding Declaration များသို့ Specific Multi-Causal ရှင်းပြချက်နှင့် တိုက်ရိုက် Enlightenment ဆက်နွယ်မှုတစ်ခုစီဖြင့် Documented American Revolution နှင့် French Revolution ကို ဖုံးအုပ်ပြီး Documented Cause များ, Traced Philosophical ချိတ်ဆက်မှုနှင့် နောက်ပိုင်း ချဲ့ထွင်ပေးသော Right များ Actual ရရှိခဲ့သူ မည်သူများကို Balanced Check ကို ပေါင်းစပ်ထားသော Revolutions Comparison Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Population and Movement သည် Term 5 ၏ River-Geography Factor များသို့ ပြန်လည် ချိတ်ဆက်ထားသော Documented Population Density နှင့် Distribution, Term 6 ၏ Factory-ခေတ် Urbanization သို့ ချိတ်ဆက်ထားသော Specific Push-Pull Migration Framework နှင့် Documented Benefit နှင့် Challenge နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Modern Urbanization Trend များကို ဖုံးအုပ်ပြီး Density Data, Specific Push-Pull Factor များနှင့် Balanced Urbanization Account ကို ပေါင်းစပ်ထားသော Population Movement Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Skills Review and Exhibition သည် Term 1-4, 6 နှင့် 7 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Historical-Thinking Skill များ (Multi-Causation, Balanced Account, Corroboration, Specific Citation) နှင့် Term 5 နှင့် 8 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Geographic-Thinking Skill များ (Cumulative Connected Content, Vague Generalization ထက် Specific Data, Balanced Urbanization Account) ကို ပြန်လည်သုံးသပ်ပြီး နှစ်တစ်နှစ်လုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Standard အပြည့်အစုံဖြင့် History Topic တစ်ခုနှင့် Geography Topic တစ်ခုကို ပေါင်းစပ်ထားသော Graduation Exhibition တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
-    _sec2HumTerm1,
-    _sec2HumTerm2,
-    _sec2HumTerm3,
-    _sec2HumTerm4,
-    _sec2HumTerm5,
-    _sec2HumTerm6,
-    _sec2HumTerm7,
-    _sec2HumTerm8,
-    _sec2HumTerm9,
+    _year8HumTerm1,
+    _year8HumTerm2,
+    _year8HumTerm3,
+    _year8HumTerm4,
+    _year8HumTerm5,
+    _year8HumTerm6,
+    _year8HumTerm7,
+    _year8HumTerm8,
+    _year8HumTerm9,
   ],
 );
 // =====================================================================
@@ -116408,7 +116408,7 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
 // Term 2, Week 5: "Renaissance Ideas and Art"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek5 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek5 = CourseWeekDef(
   id: "course-sec2-hum-w5",
   weekNumber: 5,
   titleEn: "Renaissance Ideas and Art",
@@ -116762,7 +116762,7 @@ const CourseWeekDef _sec2HumWeek5 = CourseWeekDef(
 // Revolution"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek6 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek6 = CourseWeekDef(
   id: "course-sec2-hum-w6",
   weekNumber: 6,
   titleEn: "The Scientific Revolution",
@@ -117115,7 +117115,7 @@ const CourseWeekDef _sec2HumWeek6 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 2, Week 7: "Changing Worldviews"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek7 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek7 = CourseWeekDef(
   id: "course-sec2-hum-w7",
   weekNumber: 7,
   titleEn: "Changing Worldviews",
@@ -117468,7 +117468,7 @@ const CourseWeekDef _sec2HumWeek7 = CourseWeekDef(
 // "Renaissance Innovation Showcase"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek8 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek8 = CourseWeekDef(
   id: "course-sec2-hum-w8",
   weekNumber: 8,
   titleEn: "Renaissance Innovation Showcase",
@@ -117823,14 +117823,14 @@ const CourseWeekDef _sec2HumWeek8 = CourseWeekDef(
 // Revolution" term definition (Weeks 5-8)
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm2 = CourseTermDef(
+const CourseTermDef _year8HumTerm2 = CourseTermDef(
   id: "course-sec2-hum-t2",
   termNumber: 2,
   titleEn: "Renaissance and Scientific Revolution",
   titleMy: "Renaissance and Scientific Revolution",
   certificateTitleEn: "Renaissance and Scientific Revolution",
   certificateTitleMy: "Renaissance and Scientific Revolution",
-  weeks: [_sec2HumWeek5, _sec2HumWeek6, _sec2HumWeek7, _sec2HumWeek8],
+  weeks: [_year8HumWeek5, _year8HumWeek6, _year8HumWeek7, _year8HumWeek8],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 3: "Empires and Colonialism" (Weeks
@@ -117838,7 +117838,7 @@ const CourseTermDef _sec2HumTerm2 = CourseTermDef(
 // Term 3, Week 9: "What Empires Are and How They Form"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek9 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek9 = CourseWeekDef(
   id: "course-sec2-hum-w9",
   weekNumber: 9,
   titleEn: "What Empires Are and How They Form",
@@ -118188,7 +118188,7 @@ const CourseWeekDef _sec2HumWeek9 = CourseWeekDef(
 // Empire: Mercantilism and Resource Extraction"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek10 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek10 = CourseWeekDef(
   id: "course-sec2-hum-w10",
   weekNumber: 10,
   titleEn: "Economic Structures of Empire",
@@ -118540,7 +118540,7 @@ const CourseWeekDef _sec2HumWeek10 = CourseWeekDef(
 // Colonized Peoples"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek11 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek11 = CourseWeekDef(
   id: "course-sec2-hum-w11",
   weekNumber: 11,
   titleEn: "Colonial Impact on Colonized Peoples",
@@ -118893,7 +118893,7 @@ const CourseWeekDef _sec2HumWeek11 = CourseWeekDef(
 // "Colonial Impact Report Studio"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek12 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek12 = CourseWeekDef(
   id: "course-sec2-hum-w12",
   weekNumber: 12,
   titleEn: "Colonial Impact Report Studio",
@@ -119254,14 +119254,14 @@ const CourseWeekDef _sec2HumWeek12 = CourseWeekDef(
 // definition (Weeks 9-12)
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm3 = CourseTermDef(
+const CourseTermDef _year8HumTerm3 = CourseTermDef(
   id: "course-sec2-hum-t3",
   termNumber: 3,
   titleEn: "Empires and Colonialism",
   titleMy: "Empires and Colonialism",
   certificateTitleEn: "Empires and Colonialism",
   certificateTitleMy: "Empires and Colonialism",
-  weeks: [_sec2HumWeek9, _sec2HumWeek10, _sec2HumWeek11, _sec2HumWeek12],
+  weeks: [_year8HumWeek9, _year8HumWeek10, _year8HumWeek11, _year8HumWeek12],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 4: "The Transatlantic Slave Trade
@@ -119273,7 +119273,7 @@ const CourseTermDef _sec2HumTerm3 = CourseTermDef(
 // Term 4, Week 13: "The Triangular Trade System"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek13 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek13 = CourseWeekDef(
   id: "course-sec2-hum-w13",
   weekNumber: 13,
   titleEn: "The Triangular Trade System",
@@ -119623,7 +119623,7 @@ const CourseWeekDef _sec2HumWeek13 = CourseWeekDef(
 // Documented Testimony"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek14 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek14 = CourseWeekDef(
   id: "course-sec2-hum-w14",
   weekNumber: 14,
   titleEn: "The Middle Passage and Documented Testimony",
@@ -119972,7 +119972,7 @@ const CourseWeekDef _sec2HumWeek14 = CourseWeekDef(
 // Documented Figures, and Resistance"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek15 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek15 = CourseWeekDef(
   id: "course-sec2-hum-w15",
   weekNumber: 15,
   titleEn: "Abolition: Legislation, Documented Figures, and Resistance",
@@ -120331,7 +120331,7 @@ const CourseWeekDef _sec2HumWeek15 = CourseWeekDef(
 // "Voices of Abolition Project"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek16 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek16 = CourseWeekDef(
   id: "course-sec2-hum-w16",
   weekNumber: 16,
   titleEn: "Capstone: Voices of Abolition Project",
@@ -120696,7 +120696,7 @@ const CourseWeekDef _sec2HumWeek16 = CourseWeekDef(
 // vague generalizations.
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm4 = CourseTermDef(
+const CourseTermDef _year8HumTerm4 = CourseTermDef(
   id: "course-sec2-hum-t4",
   termNumber: 4,
   titleEn: "The Transatlantic Slave Trade and Its Legacy",
@@ -120704,7 +120704,7 @@ const CourseTermDef _sec2HumTerm4 = CourseTermDef(
   certificateTitleEn: "Transatlantic Slave Trade and Its Legacy Certificate",
   certificateTitleMy:
       "Transatlantic Slave Trade နှင့် ၎င်း၏ Legacy သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec2HumWeek13, _sec2HumWeek14, _sec2HumWeek15, _sec2HumWeek16],
+  weeks: [_year8HumWeek13, _year8HumWeek14, _year8HumWeek15, _year8HumWeek16],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 5: "Rivers, Agriculture and Early
@@ -120712,7 +120712,7 @@ const CourseTermDef _sec2HumTerm4 = CourseTermDef(
 // Term 5, Week 17: "River Systems and Landforms"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek17 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek17 = CourseWeekDef(
   id: "course-sec2-hum-w17",
   weekNumber: 17,
   titleEn: "River Systems and Landforms",
@@ -121058,7 +121058,7 @@ const CourseWeekDef _sec2HumWeek17 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 5, Week 18: "Agriculture and Land Use"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek18 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek18 = CourseWeekDef(
   id: "course-sec2-hum-w18",
   weekNumber: 18,
   titleEn: "Agriculture and Land Use",
@@ -121411,7 +121411,7 @@ const CourseWeekDef _sec2HumWeek18 = CourseWeekDef(
 // Networks"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek19 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek19 = CourseWeekDef(
   id: "course-sec2-hum-w19",
   weekNumber: 19,
   titleEn: "Early Industry and Trade Networks",
@@ -121762,7 +121762,7 @@ const CourseWeekDef _sec2HumWeek19 = CourseWeekDef(
 // "River Valley Settlement Study"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek20 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek20 = CourseWeekDef(
   id: "course-sec2-hum-w20",
   weekNumber: 20,
   titleEn: "Capstone: River Valley Settlement Study",
@@ -122127,7 +122127,7 @@ const CourseWeekDef _sec2HumWeek20 = CourseWeekDef(
 // three. Sets up Term 6's Industrial Revolution content.
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm5 = CourseTermDef(
+const CourseTermDef _year8HumTerm5 = CourseTermDef(
   id: "course-sec2-hum-t5",
   termNumber: 5,
   titleEn: "Rivers, Agriculture and Early Industry",
@@ -122135,7 +122135,7 @@ const CourseTermDef _sec2HumTerm5 = CourseTermDef(
   certificateTitleEn: "Rivers, Agriculture and Early Industry Certificate",
   certificateTitleMy:
       "Rivers, Agriculture and Early Industry သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec2HumWeek17, _sec2HumWeek18, _sec2HumWeek19, _sec2HumWeek20],
+  weeks: [_year8HumWeek17, _year8HumWeek18, _year8HumWeek19, _year8HumWeek20],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 6: "The Industrial Revolution"
@@ -122143,7 +122143,7 @@ const CourseTermDef _sec2HumTerm5 = CourseTermDef(
 // Term 6, Week 21: "Why Britain? Causes of the Industrial Revolution"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek21 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek21 = CourseWeekDef(
   id: "course-sec2-hum-w21",
   weekNumber: 21,
   titleEn: "Why Britain? Causes of the Industrial Revolution",
@@ -122506,7 +122506,7 @@ const CourseWeekDef _sec2HumWeek21 = CourseWeekDef(
 // Technology"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek22 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek22 = CourseWeekDef(
   id: "course-sec2-hum-w22",
   weekNumber: 22,
   titleEn: "Factories and New Technology",
@@ -122862,7 +122862,7 @@ const CourseWeekDef _sec2HumWeek22 = CourseWeekDef(
 // Conditions"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek23 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek23 = CourseWeekDef(
   id: "course-sec2-hum-w23",
   weekNumber: 23,
   titleEn: "Urbanization and Working Conditions",
@@ -123216,7 +123216,7 @@ const CourseWeekDef _sec2HumWeek23 = CourseWeekDef(
 // "Industrial Revolution Balanced History Studio"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek24 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek24 = CourseWeekDef(
   id: "course-sec2-hum-w24",
   weekNumber: 24,
   titleEn: "Capstone: Industrial Revolution Balanced History Studio",
@@ -123582,14 +123582,14 @@ const CourseWeekDef _sec2HumWeek24 = CourseWeekDef(
 // impact into one studio project (Week 24).
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm6 = CourseTermDef(
+const CourseTermDef _year8HumTerm6 = CourseTermDef(
   id: "course-sec2-hum-t6",
   termNumber: 6,
   titleEn: "The Industrial Revolution",
   titleMy: "The Industrial Revolution",
   certificateTitleEn: "The Industrial Revolution Certificate",
   certificateTitleMy: "The Industrial Revolution သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec2HumWeek21, _sec2HumWeek22, _sec2HumWeek23, _sec2HumWeek24],
+  weeks: [_year8HumWeek21, _year8HumWeek22, _year8HumWeek23, _year8HumWeek24],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 7: "Revolutions and New Ideas" (Weeks
@@ -123597,7 +123597,7 @@ const CourseTermDef _sec2HumTerm6 = CourseTermDef(
 // Term 7, Week 25: "Enlightenment Ideas"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek25 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek25 = CourseWeekDef(
   id: "course-sec2-hum-w25",
   weekNumber: 25,
   titleEn: "Enlightenment Ideas",
@@ -123957,7 +123957,7 @@ const CourseWeekDef _sec2HumWeek25 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 7, Week 26: "The American Revolution"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek26 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek26 = CourseWeekDef(
   id: "course-sec2-hum-w26",
   weekNumber: 26,
   titleEn: "The American Revolution",
@@ -124303,7 +124303,7 @@ const CourseWeekDef _sec2HumWeek26 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 7, Week 27: "The French Revolution"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek27 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek27 = CourseWeekDef(
   id: "course-sec2-hum-w27",
   weekNumber: 27,
   titleEn: "The French Revolution",
@@ -124661,7 +124661,7 @@ const CourseWeekDef _sec2HumWeek27 = CourseWeekDef(
 // "Revolutions Comparison Studio"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek28 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek28 = CourseWeekDef(
   id: "course-sec2-hum-w28",
   weekNumber: 28,
   titleEn: "Capstone: Revolutions Comparison Studio",
@@ -125028,14 +125028,14 @@ const CourseWeekDef _sec2HumWeek28 = CourseWeekDef(
 // connection, and a balanced check on real documented outcomes.
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm7 = CourseTermDef(
+const CourseTermDef _year8HumTerm7 = CourseTermDef(
   id: "course-sec2-hum-t7",
   termNumber: 7,
   titleEn: "Revolutions and New Ideas",
   titleMy: "Revolutions and New Ideas",
   certificateTitleEn: "Revolutions and New Ideas Certificate",
   certificateTitleMy: "Revolutions and New Ideas သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec2HumWeek25, _sec2HumWeek26, _sec2HumWeek27, _sec2HumWeek28],
+  weeks: [_year8HumWeek25, _year8HumWeek26, _year8HumWeek27, _year8HumWeek28],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 8: "Population and Movement" (Weeks
@@ -125043,7 +125043,7 @@ const CourseTermDef _sec2HumTerm7 = CourseTermDef(
 // Term 8, Week 29: "Population Growth and Distribution"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek29 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek29 = CourseWeekDef(
   id: "course-sec2-hum-w29",
   weekNumber: 29,
   titleEn: "Population Growth and Distribution",
@@ -125390,7 +125390,7 @@ const CourseWeekDef _sec2HumWeek29 = CourseWeekDef(
 // Migration"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek30 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek30 = CourseWeekDef(
   id: "course-sec2-hum-w30",
   weekNumber: 30,
   titleEn: "Push and Pull Factors of Migration",
@@ -125739,7 +125739,7 @@ const CourseWeekDef _sec2HumWeek30 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 8, Week 31: "Urbanization Trends"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek31 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek31 = CourseWeekDef(
   id: "course-sec2-hum-w31",
   weekNumber: 31,
   titleEn: "Urbanization Trends",
@@ -126096,7 +126096,7 @@ const CourseWeekDef _sec2HumWeek31 = CourseWeekDef(
 // "Population Movement Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek32 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek32 = CourseWeekDef(
   id: "course-sec2-hum-w32",
   weekNumber: 32,
   titleEn: "Capstone: Population Movement Case Study",
@@ -126464,14 +126464,14 @@ const CourseWeekDef _sec2HumWeek32 = CourseWeekDef(
 // urbanization account (Week 32).
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm8 = CourseTermDef(
+const CourseTermDef _year8HumTerm8 = CourseTermDef(
   id: "course-sec2-hum-t8",
   termNumber: 8,
   titleEn: "Population and Movement",
   titleMy: "Population and Movement",
   certificateTitleEn: "Population and Movement Certificate",
   certificateTitleMy: "Population and Movement သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec2HumWeek29, _sec2HumWeek30, _sec2HumWeek31, _sec2HumWeek32],
+  weeks: [_year8HumWeek29, _year8HumWeek30, _year8HumWeek31, _year8HumWeek32],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 9: "Skills Review and Exhibition"
@@ -126479,7 +126479,7 @@ const CourseTermDef _sec2HumTerm8 = CourseTermDef(
 // Term 9, Week 33: "Historical Skills Review"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek33 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek33 = CourseWeekDef(
   id: "course-sec2-hum-w33",
   weekNumber: 33,
   titleEn: "Historical Skills Review",
@@ -126828,7 +126828,7 @@ const CourseWeekDef _sec2HumWeek33 = CourseWeekDef(
 // Secondary 2 Humanities -- Term 9, Week 34: "Geographic Skills Review"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek34 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek34 = CourseWeekDef(
   id: "course-sec2-hum-w34",
   weekNumber: 34,
   titleEn: "Geographic Skills Review",
@@ -127184,7 +127184,7 @@ const CourseWeekDef _sec2HumWeek34 = CourseWeekDef(
 // Project"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek35 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek35 = CourseWeekDef(
   id: "course-sec2-hum-w35",
   weekNumber: 35,
   titleEn: "Building the Exhibition Project",
@@ -127531,7 +127531,7 @@ const CourseWeekDef _sec2HumWeek35 = CourseWeekDef(
 // "Year Exhibition and Graduation"
 // =====================================================================
 
-const CourseWeekDef _sec2HumWeek36 = CourseWeekDef(
+const CourseWeekDef _year8HumWeek36 = CourseWeekDef(
   id: "course-sec2-hum-w36",
   weekNumber: 36,
   titleEn: "Capstone: Year Exhibition and Graduation",
@@ -127902,14 +127902,14 @@ const CourseWeekDef _sec2HumWeek36 = CourseWeekDef(
 // entire year.
 // =====================================================================
 
-const CourseTermDef _sec2HumTerm9 = CourseTermDef(
+const CourseTermDef _year8HumTerm9 = CourseTermDef(
   id: "course-sec2-hum-t9",
   termNumber: 9,
   titleEn: "Skills Review and Exhibition",
   titleMy: "Skills Review and Exhibition",
   certificateTitleEn: "Secondary 2 Humanities Certificate",
   certificateTitleMy: "Secondary 2 Humanities သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec2HumWeek33, _sec2HumWeek34, _sec2HumWeek35, _sec2HumWeek36],
+  weeks: [_year8HumWeek33, _year8HumWeek34, _year8HumWeek35, _year8HumWeek36],
 );
 // =====================================================================
 // Secondary 3 Humanities (Year 9) -- "Nationalism, Global Change and
@@ -127933,7 +127933,7 @@ const CourseTermDef _sec2HumTerm9 = CourseTermDef(
 // Movements"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek1 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek1 = CourseWeekDef(
   id: "course-sec3-hum-w1",
   weekNumber: 1,
   titleEn: "What Is Nationalism? Documented Unification Movements",
@@ -128289,7 +128289,7 @@ const CourseWeekDef _sec3HumWeek1 = CourseWeekDef(
 // Unification"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek2 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek2 = CourseWeekDef(
   id: "course-sec3-hum-w2",
   weekNumber: 2,
   titleEn: "Causes and Methods of Unification",
@@ -128634,7 +128634,7 @@ const CourseWeekDef _sec3HumWeek2 = CourseWeekDef(
 // Nature"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek3 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek3 = CourseWeekDef(
   id: "course-sec3-hum-w3",
   weekNumber: 3,
   titleEn: "Nationalism's Double-Edged Nature",
@@ -128987,7 +128987,7 @@ const CourseWeekDef _sec3HumWeek3 = CourseWeekDef(
 // "Unification Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek4 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek4 = CourseWeekDef(
   id: "course-sec3-hum-w4",
   weekNumber: 4,
   titleEn: "Capstone: Unification Case Study",
@@ -129352,17 +129352,17 @@ const CourseWeekDef _sec3HumWeek4 = CourseWeekDef(
 // (Week 4).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm1 = CourseTermDef(
+const CourseTermDef _year9HumTerm1 = CourseTermDef(
   id: "course-sec3-hum-t1",
   termNumber: 1,
   titleEn: "Nationalism and Unification",
   titleMy: "Nationalism and Unification",
   certificateTitleEn: "Nationalism and Unification Certificate",
   certificateTitleMy: "Nationalism and Unification သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek1, _sec3HumWeek2, _sec3HumWeek3, _sec3HumWeek4],
+  weeks: [_year9HumWeek1, _year9HumWeek2, _year9HumWeek3, _year9HumWeek4],
 );
 
-const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
+const CoursePathwayDef year9HumanitiesPathway = CoursePathwayDef(
   id: "course-secondary3-humanities",
   subject: "humanities",
   grade: Grade.year9,
@@ -129374,15 +129374,15 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
       "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Development and Global Inequality သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Development Unit ကို တမင် Priming ပြုလုပ်သည် -- တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Specific Documented Development Indicator များကို အတူတကွ အသုံးပြုကာ Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Global Inequality ၏ Specific Documented Cause များနှင့် Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Development Aid ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Country တစ်ခု၏ Indicator များ, Cause များနှင့် Balanced Aid Account ကို ပေါင်းစပ်ထားသော Development Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Hazards Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Natural Hazards Unit ကို တမင် Priming ပြုလုပ်သည် -- Distinct Documented Hazard Category များ (Tectonic နှင့် Climatic), Tectonic Hazard များ ကျပန်း ဖြစ်ပျက်မည့်အစား Specific Location များတွင် အဘယ်ကြောင့် စုစည်းသည်ကို ရှင်းပြသော Documented Plate Boundary များနှင့် Hazard-Prone Community များကို Passive Victim များအစား Preparedness တည်ဆောက်နေသော Active Agent များအဖြစ် ကိုယ်စားပြုသော Documented Risk နှင့် Human Response ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Hazard Type, Plate-Boundary Connection နှင့် Balanced Risk-Response Account ကို ပေါင်းစပ်ထားသော Natural Hazards Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ IGCSE Readiness and Graduation သည် Term 1-4, 6 နှင့် 7 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Historical-Thinking Skill များ (Multi-Causation, Historical Agency, Critical Evidence Evaluation, Specific Citation) နှင့် Term 5-8 တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Geographic-Thinking Skill များ (Grade များတစ်လျှောက် Cumulative Connected Content, Multi-Indicator Thinking, Spiral-Curriculum Priming) ကို ပြန်လည်သုံးသပ်ပြီး Whole Secondary Tier တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Evidence Standard အပြည့်အစုံဖြင့် History Topic တစ်ခုနှင့် Geography Topic တစ်ခုကို ပေါင်းစပ်ကာ Topic တစ်ခုစီ၏ IGCSE-Priming Purpose ကို ရှင်းလင်းစွာ ဖော်ထုတ်ထားသော Graduation Exhibition တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
-    _sec3HumTerm1,
-    _sec3HumTerm2,
-    _sec3HumTerm3,
-    _sec3HumTerm4,
-    _sec3HumTerm5,
-    _sec3HumTerm6,
-    _sec3HumTerm7,
-    _sec3HumTerm8,
-    _sec3HumTerm9,
+    _year9HumTerm1,
+    _year9HumTerm2,
+    _year9HumTerm3,
+    _year9HumTerm4,
+    _year9HumTerm5,
+    _year9HumTerm6,
+    _year9HumTerm7,
+    _year9HumTerm8,
+    _year9HumTerm9,
   ],
 );
 // =====================================================================
@@ -129391,7 +129391,7 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
 // Term 2, Week 5: "What Is Imperialism? Documented Motives"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek5 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek5 = CourseWeekDef(
   id: "course-sec3-hum-w5",
   weekNumber: 5,
   titleEn: "What Is Imperialism? Documented Motives",
@@ -129745,7 +129745,7 @@ const CourseWeekDef _sec3HumWeek5 = CourseWeekDef(
 // Documented Events"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek6 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek6 = CourseWeekDef(
   id: "course-sec3-hum-w6",
   weekNumber: 6,
   titleEn: "The Scramble for Africa: Documented Events",
@@ -130098,7 +130098,7 @@ const CourseWeekDef _sec3HumWeek6 = CourseWeekDef(
 // Imperial Impact in Africa"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek7 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek7 = CourseWeekDef(
   id: "course-sec3-hum-w7",
   weekNumber: 7,
   titleEn: "Balanced Account of Imperial Impact in Africa",
@@ -130450,7 +130450,7 @@ const CourseWeekDef _sec3HumWeek7 = CourseWeekDef(
 // "Imperialism Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek8 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek8 = CourseWeekDef(
   id: "course-sec3-hum-w8",
   weekNumber: 8,
   titleEn: "Capstone: Imperialism Case Study",
@@ -130821,7 +130821,7 @@ const CourseWeekDef _sec3HumWeek8 = CourseWeekDef(
 // (Week 8).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm2 = CourseTermDef(
+const CourseTermDef _year9HumTerm2 = CourseTermDef(
   id: "course-sec3-hum-t2",
   termNumber: 2,
   titleEn: "Imperialism and the Scramble for Africa",
@@ -130829,7 +130829,7 @@ const CourseTermDef _sec3HumTerm2 = CourseTermDef(
   certificateTitleEn: "Imperialism and the Scramble for Africa Certificate",
   certificateTitleMy:
       "Imperialism and the Scramble for Africa သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek5, _sec3HumWeek6, _sec3HumWeek7, _sec3HumWeek8],
+  weeks: [_year9HumWeek5, _year9HumWeek6, _year9HumWeek7, _year9HumWeek8],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 3: "Tensions Before the Great War"
@@ -130839,7 +130839,7 @@ const CourseTermDef _sec3HumTerm2 = CourseTermDef(
 // Term 3, Week 9: "Documented Alliance Systems"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek9 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek9 = CourseWeekDef(
   id: "course-sec3-hum-w9",
   weekNumber: 9,
   titleEn: "Documented Alliance Systems",
@@ -131187,7 +131187,7 @@ const CourseWeekDef _sec3HumWeek9 = CourseWeekDef(
 // Race"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek10 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek10 = CourseWeekDef(
   id: "course-sec3-hum-w10",
   weekNumber: 10,
   titleEn: "Militarism and the Arms Race",
@@ -131541,7 +131541,7 @@ const CourseWeekDef _sec3HumWeek10 = CourseWeekDef(
 // Pre-War Tensions"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek11 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek11 = CourseWeekDef(
   id: "course-sec3-hum-w11",
   weekNumber: 11,
   titleEn: "Balanced Account of Pre-War Tensions",
@@ -131898,7 +131898,7 @@ const CourseWeekDef _sec3HumWeek11 = CourseWeekDef(
 // "Pre-War Tensions Synthesis Studio"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek12 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek12 = CourseWeekDef(
   id: "course-sec3-hum-w12",
   weekNumber: 12,
   titleEn: "Capstone: Pre-War Tensions Synthesis Studio",
@@ -132269,14 +132269,14 @@ const CourseWeekDef _sec3HumWeek12 = CourseWeekDef(
 // (Week 12).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm3 = CourseTermDef(
+const CourseTermDef _year9HumTerm3 = CourseTermDef(
   id: "course-sec3-hum-t3",
   termNumber: 3,
   titleEn: "Tensions Before the Great War",
   titleMy: "Tensions Before the Great War",
   certificateTitleEn: "Tensions Before the Great War Certificate",
   certificateTitleMy: "Tensions Before the Great War သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek9, _sec3HumWeek10, _sec3HumWeek11, _sec3HumWeek12],
+  weeks: [_year9HumWeek9, _year9HumWeek10, _year9HumWeek11, _year9HumWeek12],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 4: "Decolonization and Independence
@@ -132284,7 +132284,7 @@ const CourseTermDef _sec3HumTerm3 = CourseTermDef(
 // Term 4, Week 13: "What Is Decolonization? Documented Context"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek13 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek13 = CourseWeekDef(
   id: "course-sec3-hum-w13",
   weekNumber: 13,
   titleEn: "What Is Decolonization? Documented Context",
@@ -132635,7 +132635,7 @@ const CourseWeekDef _sec3HumWeek13 = CourseWeekDef(
 // Movements and Methods"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek14 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek14 = CourseWeekDef(
   id: "course-sec3-hum-w14",
   weekNumber: 14,
   titleEn: "Documented Independence Movements and Methods",
@@ -132986,7 +132986,7 @@ const CourseWeekDef _sec3HumWeek14 = CourseWeekDef(
 // Decolonization's Legacy"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek15 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek15 = CourseWeekDef(
   id: "course-sec3-hum-w15",
   weekNumber: 15,
   titleEn: "Balanced Account of Decolonization's Legacy",
@@ -133342,7 +133342,7 @@ const CourseWeekDef _sec3HumWeek15 = CourseWeekDef(
 // "Decolonization Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek16 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek16 = CourseWeekDef(
   id: "course-sec3-hum-w16",
   weekNumber: 16,
   titleEn: "Capstone: Decolonization Case Study",
@@ -133712,7 +133712,7 @@ const CourseWeekDef _sec3HumWeek16 = CourseWeekDef(
 // chosen territory (Week 16).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm4 = CourseTermDef(
+const CourseTermDef _year9HumTerm4 = CourseTermDef(
   id: "course-sec3-hum-t4",
   termNumber: 4,
   titleEn: "Decolonization and Independence Movements",
@@ -133720,7 +133720,7 @@ const CourseTermDef _sec3HumTerm4 = CourseTermDef(
   certificateTitleEn: "Decolonization and Independence Movements Certificate",
   certificateTitleMy:
       "Decolonization and Independence Movements သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek13, _sec3HumWeek14, _sec3HumWeek15, _sec3HumWeek16],
+  weeks: [_year9HumWeek13, _year9HumWeek14, _year9HumWeek15, _year9HumWeek16],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 5: "Population Geography Foundations"
@@ -133730,7 +133730,7 @@ const CourseTermDef _sec3HumTerm4 = CourseTermDef(
 // Term 5, Week 17: "Documented Demographic Transition"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek17 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek17 = CourseWeekDef(
   id: "course-sec3-hum-w17",
   weekNumber: 17,
   titleEn: "Documented Demographic Transition",
@@ -134084,7 +134084,7 @@ const CourseWeekDef _sec3HumWeek17 = CourseWeekDef(
 // Documented Age Structure"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek18 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek18 = CourseWeekDef(
   id: "course-sec3-hum-w18",
   weekNumber: 18,
   titleEn: "Population Pyramids and Documented Age Structure",
@@ -134432,7 +134432,7 @@ const CourseWeekDef _sec3HumWeek18 = CourseWeekDef(
 // Population Policy"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek19 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek19 = CourseWeekDef(
   id: "course-sec3-hum-w19",
   weekNumber: 19,
   titleEn: "Balanced Account of Population Policy",
@@ -134781,7 +134781,7 @@ const CourseWeekDef _sec3HumWeek19 = CourseWeekDef(
 // "Population Geography Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek20 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek20 = CourseWeekDef(
   id: "course-sec3-hum-w20",
   weekNumber: 20,
   titleEn: "Capstone: Population Geography Case Study",
@@ -135147,14 +135147,14 @@ const CourseWeekDef _sec3HumWeek20 = CourseWeekDef(
 // stage, pyramid shape, and balanced policy account (Week 20).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm5 = CourseTermDef(
+const CourseTermDef _year9HumTerm5 = CourseTermDef(
   id: "course-sec3-hum-t5",
   termNumber: 5,
   titleEn: "Population Geography Foundations",
   titleMy: "Population Geography Foundations",
   certificateTitleEn: "Population Geography Foundations Certificate",
   certificateTitleMy: "Population Geography Foundations သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek17, _sec3HumWeek18, _sec3HumWeek19, _sec3HumWeek20],
+  weeks: [_year9HumWeek17, _year9HumWeek18, _year9HumWeek19, _year9HumWeek20],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 6: "Migration and Urban Growth"
@@ -135164,7 +135164,7 @@ const CourseTermDef _sec3HumTerm5 = CourseTermDef(
 // Term 6, Week 21: "Documented International Migration"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek21 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek21 = CourseWeekDef(
   id: "course-sec3-hum-w21",
   weekNumber: 21,
   titleEn: "Documented International Migration",
@@ -135515,7 +135515,7 @@ const CourseWeekDef _sec3HumWeek21 = CourseWeekDef(
 // in Developing Countries"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek22 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek22 = CourseWeekDef(
   id: "course-sec3-hum-w22",
   weekNumber: 22,
   titleEn: "Documented Urban Growth in Developing Countries",
@@ -135863,7 +135863,7 @@ const CourseWeekDef _sec3HumWeek22 = CourseWeekDef(
 // Growth"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek23 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek23 = CourseWeekDef(
   id: "course-sec3-hum-w23",
   weekNumber: 23,
   titleEn: "Balanced Account of Urban Growth",
@@ -136220,7 +136220,7 @@ const CourseWeekDef _sec3HumWeek23 = CourseWeekDef(
 // "Migration and Urban Growth Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek24 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek24 = CourseWeekDef(
   id: "course-sec3-hum-w24",
   weekNumber: 24,
   titleEn: "Capstone: Migration and Urban Growth Case Study",
@@ -136588,14 +136588,14 @@ const CourseWeekDef _sec3HumWeek24 = CourseWeekDef(
 // and a balanced impact account (Week 24).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm6 = CourseTermDef(
+const CourseTermDef _year9HumTerm6 = CourseTermDef(
   id: "course-sec3-hum-t6",
   termNumber: 6,
   titleEn: "Migration and Urban Growth",
   titleMy: "Migration and Urban Growth",
   certificateTitleEn: "Migration and Urban Growth Certificate",
   certificateTitleMy: "Migration and Urban Growth သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek21, _sec3HumWeek22, _sec3HumWeek23, _sec3HumWeek24],
+  weeks: [_year9HumWeek21, _year9HumWeek22, _year9HumWeek23, _year9HumWeek24],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 7: "Development and Global Inequality"
@@ -136604,7 +136604,7 @@ const CourseTermDef _sec3HumTerm6 = CourseTermDef(
 // Term 7, Week 25: "Documented Development Indicators"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek25 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek25 = CourseWeekDef(
   id: "course-sec3-hum-w25",
   weekNumber: 25,
   titleEn: "Documented Development Indicators",
@@ -136952,7 +136952,7 @@ const CourseWeekDef _sec3HumWeek25 = CourseWeekDef(
 // Global Inequality"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek26 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek26 = CourseWeekDef(
   id: "course-sec3-hum-w26",
   weekNumber: 26,
   titleEn: "Documented Causes of Global Inequality",
@@ -137307,7 +137307,7 @@ const CourseWeekDef _sec3HumWeek26 = CourseWeekDef(
 // Development Aid"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek27 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek27 = CourseWeekDef(
   id: "course-sec3-hum-w27",
   weekNumber: 27,
   titleEn: "Balanced Account of Development Aid",
@@ -137658,7 +137658,7 @@ const CourseWeekDef _sec3HumWeek27 = CourseWeekDef(
 // "Development Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek28 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek28 = CourseWeekDef(
   id: "course-sec3-hum-w28",
   weekNumber: 28,
   titleEn: "Capstone: Development Case Study",
@@ -138025,14 +138025,14 @@ const CourseWeekDef _sec3HumWeek28 = CourseWeekDef(
 // (Week 28).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm7 = CourseTermDef(
+const CourseTermDef _year9HumTerm7 = CourseTermDef(
   id: "course-sec3-hum-t7",
   termNumber: 7,
   titleEn: "Development and Global Inequality",
   titleMy: "Development and Global Inequality",
   certificateTitleEn: "Development and Global Inequality Certificate",
   certificateTitleMy: "Development and Global Inequality သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek25, _sec3HumWeek26, _sec3HumWeek27, _sec3HumWeek28],
+  weeks: [_year9HumWeek25, _year9HumWeek26, _year9HumWeek27, _year9HumWeek28],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 8: "Natural Hazards Foundations"
@@ -138041,7 +138041,7 @@ const CourseTermDef _sec3HumTerm7 = CourseTermDef(
 // Term 8, Week 29: "Documented Types of Natural Hazards"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek29 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek29 = CourseWeekDef(
   id: "course-sec3-hum-w29",
   weekNumber: 29,
   titleEn: "Documented Types of Natural Hazards",
@@ -138392,7 +138392,7 @@ const CourseWeekDef _sec3HumWeek29 = CourseWeekDef(
 // Tectonics"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek30 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek30 = CourseWeekDef(
   id: "course-sec3-hum-w30",
   weekNumber: 30,
   titleEn: "Documented Plate Tectonics",
@@ -138742,7 +138742,7 @@ const CourseWeekDef _sec3HumWeek30 = CourseWeekDef(
 // Hazard Risk and Response"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek31 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek31 = CourseWeekDef(
   id: "course-sec3-hum-w31",
   weekNumber: 31,
   titleEn: "Balanced Account of Hazard Risk and Response",
@@ -139095,7 +139095,7 @@ const CourseWeekDef _sec3HumWeek31 = CourseWeekDef(
 // "Natural Hazards Case Study"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek32 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek32 = CourseWeekDef(
   id: "course-sec3-hum-w32",
   weekNumber: 32,
   titleEn: "Capstone: Natural Hazards Case Study",
@@ -139461,14 +139461,14 @@ const CourseWeekDef _sec3HumWeek32 = CourseWeekDef(
 // primes rather than fully covers IGCSE content (Week 32).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm8 = CourseTermDef(
+const CourseTermDef _year9HumTerm8 = CourseTermDef(
   id: "course-sec3-hum-t8",
   termNumber: 8,
   titleEn: "Natural Hazards Foundations",
   titleMy: "Natural Hazards Foundations",
   certificateTitleEn: "Natural Hazards Foundations Certificate",
   certificateTitleMy: "Natural Hazards Foundations သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek29, _sec3HumWeek30, _sec3HumWeek31, _sec3HumWeek32],
+  weeks: [_year9HumWeek29, _year9HumWeek30, _year9HumWeek31, _year9HumWeek32],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 9: "IGCSE Readiness and Graduation"
@@ -139476,7 +139476,7 @@ const CourseTermDef _sec3HumTerm8 = CourseTermDef(
 // Term 9, Week 33: "Historical Skills Review"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek33 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek33 = CourseWeekDef(
   id: "course-sec3-hum-w33",
   weekNumber: 33,
   titleEn: "Historical Skills Review",
@@ -139829,7 +139829,7 @@ const CourseWeekDef _sec3HumWeek33 = CourseWeekDef(
 // Secondary 3 Humanities -- Term 9, Week 34: "Geographic Skills Review"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek34 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek34 = CourseWeekDef(
   id: "course-sec3-hum-w34",
   weekNumber: 34,
   titleEn: "Geographic Skills Review",
@@ -140181,7 +140181,7 @@ const CourseWeekDef _sec3HumWeek34 = CourseWeekDef(
 // Readiness Exhibition"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek35 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek35 = CourseWeekDef(
   id: "course-sec3-hum-w35",
   weekNumber: 35,
   titleEn: "Building the IGCSE Readiness Exhibition",
@@ -140530,7 +140530,7 @@ const CourseWeekDef _sec3HumWeek35 = CourseWeekDef(
 // "Final Exhibition and Graduation"
 // =====================================================================
 
-const CourseWeekDef _sec3HumWeek36 = CourseWeekDef(
+const CourseWeekDef _year9HumWeek36 = CourseWeekDef(
   id: "course-sec3-hum-w36",
   weekNumber: 36,
   titleEn: "Capstone: Final Exhibition and Graduation",
@@ -140904,13 +140904,13 @@ const CourseWeekDef _sec3HumWeek36 = CourseWeekDef(
 // tier (Secondary 1, Secondary 2, and Secondary 3).
 // =====================================================================
 
-const CourseTermDef _sec3HumTerm9 = CourseTermDef(
+const CourseTermDef _year9HumTerm9 = CourseTermDef(
   id: "course-sec3-hum-t9",
   termNumber: 9,
   titleEn: "IGCSE Readiness and Graduation",
   titleMy: "IGCSE Readiness and Graduation",
   certificateTitleEn: "Secondary 3 Humanities Certificate",
   certificateTitleMy: "Secondary 3 Humanities သင်တန်းဆင်း လက်မှတ်",
-  weeks: [_sec3HumWeek33, _sec3HumWeek34, _sec3HumWeek35, _sec3HumWeek36],
+  weeks: [_year9HumWeek33, _year9HumWeek34, _year9HumWeek35, _year9HumWeek36],
 );
 // __SEC_HUM_MARKER__

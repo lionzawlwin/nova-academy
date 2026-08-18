@@ -8,10 +8,10 @@ import 'course_pathways_core.dart';
 // =====================================================================
 
 /// Secondary 1 Science's Term 1: "Introduction to Physics & Chemistry" -- a
-/// brand-new, independent subject pathway (see [secondary1SciencePathway]),
+/// brand-new, independent subject pathway (see [year7SciencePathway]),
 /// drafted and independently fact-verified per week via the same
 /// draft-agent + skeptical-recompute-agent workflow used for
-/// [secondary1MathematicsPathway], then hand-transcribed into Dart. Week 1
+/// [year7MathematicsPathway], then hand-transcribed into Dart. Week 1
 /// introduces working scientifically from scratch (the steps of a fair
 /// investigation, lab safety, SI units and the matching measuring
 /// instrument for length/mass/volume/temperature/time/force -- explicitly
@@ -24,7 +24,7 @@ import 'course_pathways_core.dart';
 /// force-meter measurement; Week 4 is the term's capstone, combining all
 /// three -- particle theory and heat (Week 2) with forces and friction
 /// (Week 3), measured throughout with Week 1's instruments and units.
-/// Term 2, "Chemistry and Energy" (see [_secondary1ScienceTerm2]),
+/// Term 2, "Chemistry and Energy" (see [_year7ScienceTerm2]),
 /// continues the spiral: Week 5 opens a second chemistry strand
 /// (elements, compounds and mixtures), explicitly calling back to Week
 /// 2's particle model to explain why a compound behaves as one new
@@ -39,7 +39,7 @@ import 'course_pathways_core.dart';
 /// reactions (new substances forming, unlike Week 2's physical changes)
 /// to Week 7's energy transfers via exothermic/endothermic reactions.
 /// Term 3, "Reactions, Electricity and Magnetism" (see
-/// [_secondary1ScienceTerm3]), continues the spiral: Week 9 deepens
+/// [_year7ScienceTerm3]), continues the spiral: Week 9 deepens
 /// Week 8's chemical-reaction strand with word equations, the
 /// conservation of mass, and naming combustion/oxidation as reaction
 /// types with very different rates; Week 10 opens a third physics
@@ -51,7 +51,7 @@ import 'course_pathways_core.dart';
 /// magnetism into electromagnets, and tracing the energy transfer chain
 /// (chemical -> electrical -> magnetic, with some loss to thermal
 /// energy) back to Week 7's conservation principle.
-/// Term 4, "Cells and Life Processes" (see [_secondary1ScienceTerm4]),
+/// Term 4, "Cells and Life Processes" (see [_year7ScienceTerm4]),
 /// opens this pathway's first biology strand: Week 13 teaches the seven
 /// MRS GREN characteristics of life (explicitly distinguishing
 /// respiration, the energy-releasing process, from breathing); Week 14
@@ -67,7 +67,7 @@ import 'course_pathways_core.dart';
 /// and reapplying Week 8's exothermic/endothermic vocabulary before
 /// tying the whole pathway's energy strand back to Week 7's
 /// conservation principle one final time.
-/// Term 5, "Nutrition and Ecosystems" (see [_secondary1ScienceTerm5]),
+/// Term 5, "Nutrition and Ecosystems" (see [_year7ScienceTerm5]),
 /// builds outward from Term 4's cellular view to the whole-organism and
 /// whole-ecosystem level: Week 17 extends Week 13's "nutrition"
 /// characteristic into the seven human nutrient groups; Week 18 traces
@@ -79,7 +79,7 @@ import 'course_pathways_core.dart';
 /// digestion, respiration, heat loss -- across a whole food chain,
 /// tying the pathway's energy strand back to Week 7's conservation
 /// principle one more time.
-const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek1 = CourseWeekDef(
   id: "course-secondary1-science-w1",
   weekNumber: 1,
   titleEn: "The Scientific Method and Measurement",
@@ -646,7 +646,7 @@ const CourseWeekDef _secondary1ScienceWeek1 = CourseWeekDef(
 // Secondary 1 Science -- Term 1, Week 2: "States of Matter and the Particle Model"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek2 = CourseWeekDef(
   id: "course-secondary1-science-w2",
   weekNumber: 2,
   titleEn: "States of Matter and the Particle Model",
@@ -1189,7 +1189,7 @@ const CourseWeekDef _secondary1ScienceWeek2 = CourseWeekDef(
 // Secondary 1 Science -- Term 1, Week 3: "Forces and Their Effects"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek3 = CourseWeekDef(
   id: "course-secondary1-science-w3",
   weekNumber: 3,
   titleEn: "Forces and Their Effects",
@@ -1743,7 +1743,7 @@ const CourseWeekDef _secondary1ScienceWeek3 = CourseWeekDef(
 // Energy, Heat and Forces in Action"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek4 = CourseWeekDef(
   id: "course-secondary1-science-w4",
   weekNumber: 4,
   titleEn: "Putting It All Together: Energy, Heat and Forces in Action",
@@ -2308,7 +2308,7 @@ const CourseWeekDef _secondary1ScienceWeek4 = CourseWeekDef(
 /// simply placed side by side -- to explain *why* a compound behaves as a
 /// single new substance but a mixture can be pulled apart again by
 /// physical means (evaporation, filtering, a magnet).
-const CourseWeekDef _secondary1ScienceWeek5 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek5 = CourseWeekDef(
   id: "course-secondary1-science-w5",
   weekNumber: 5,
   titleEn: "Elements, Compounds and Mixtures",
@@ -2871,7 +2871,7 @@ const CourseWeekDef _secondary1ScienceWeek5 = CourseWeekDef(
 /// examples beyond the well-established scale bounds (0-14) and the
 /// neutral point (7) -- household examples are described only
 /// qualitatively (e.g. "strongly acidic," "mildly basic").
-const CourseWeekDef _secondary1ScienceWeek6 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek6 = CourseWeekDef(
   id: "course-secondary1-science-w6",
   weekNumber: 6,
   titleEn: "Acids, Bases and Indicators",
@@ -3440,7 +3440,7 @@ const CourseWeekDef _secondary1ScienceWeek6 = CourseWeekDef(
 /// calculations (e.g. work done = force x distance) are introduced --
 /// energy stores and transfers stay qualitative at this level, matching
 /// Week 6's own "no unearned precision" caution.
-const CourseWeekDef _secondary1ScienceWeek7 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek7 = CourseWeekDef(
   id: "course-secondary1-science-w7",
   weekNumber: 7,
   titleEn: "Energy Stores and Transfers",
@@ -4028,7 +4028,7 @@ const CourseWeekDef _secondary1ScienceWeek7 = CourseWeekDef(
 /// Week 6 (endothermic) contrasted against burning (exothermic) --
 /// deliberately stopping short of word equations with specific
 /// products/formulas, which stays out of scope at this level.
-const CourseWeekDef _secondary1ScienceWeek8 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek8 = CourseWeekDef(
   id: "course-secondary1-science-w8",
   weekNumber: 8,
   titleEn: "Chemical Reactions: New Substances and Energy Changes",
@@ -4610,7 +4610,7 @@ const CourseWeekDef _secondary1ScienceWeek8 = CourseWeekDef(
 /// different rates. Deliberately no chemical formulas or numeric mass
 /// calculations -- word equations only, matching Week 6/8's "no
 /// unearned precision" caution.
-const CourseWeekDef _secondary1ScienceWeek9 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek9 = CourseWeekDef(
   id: "course-secondary1-science-w9",
   weekNumber: 9,
   titleEn: "Word Equations and the Conservation of Mass",
@@ -5175,7 +5175,7 @@ const CourseWeekDef _secondary1ScienceWeek9 = CourseWeekDef(
 /// to) Week 4's thermal conductors/insulators, since metals are
 /// typically good at both. Builds on Week 7's electrical energy store,
 /// now explaining how that current actually flows through a circuit.
-const CourseWeekDef _secondary1ScienceWeek10 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek10 = CourseWeekDef(
   id: "course-secondary1-science-w10",
   weekNumber: 10,
   titleEn: "Electricity Basics",
@@ -5722,7 +5722,7 @@ const CourseWeekDef _secondary1ScienceWeek10 = CourseWeekDef(
 /// independent of Week 10's circuits within the week itself -- the
 /// electricity/magnetism link (electromagnets) is saved for Week 12's
 /// capstone, so each idea is solid on its own before combining them.
-const CourseWeekDef _secondary1ScienceWeek11 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek11 = CourseWeekDef(
   id: "course-secondary1-science-w11",
   weekNumber: 11,
   titleEn: "Magnetism",
@@ -6301,7 +6301,7 @@ const CourseWeekDef _secondary1ScienceWeek11 = CourseWeekDef(
 /// thermal energy, echoing Week 4's brake pads) and Week 9's fuel/
 /// combustion strand is set aside this week in favor of tying
 /// electricity and magnetism together instead.
-const CourseWeekDef _secondary1ScienceWeek12 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek12 = CourseWeekDef(
   id: "course-secondary1-science-w12",
   weekNumber: 12,
   titleEn: "Electromagnets: Electricity Meets Magnetism",
@@ -6861,7 +6861,7 @@ const CourseWeekDef _secondary1ScienceWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ScienceTerm2 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm2 = CourseTermDef(
   id: "course-secondary1-science-t2",
   termNumber: 2,
   titleEn: "Chemistry and Energy",
@@ -6869,14 +6869,14 @@ const CourseTermDef _secondary1ScienceTerm2 = CourseTermDef(
   certificateTitleEn: "Chemistry and Energy",
   certificateTitleMy: "ဓာတုဗေဒနှင့် စွမ်းအင်",
   weeks: [
-    _secondary1ScienceWeek5,
-    _secondary1ScienceWeek6,
-    _secondary1ScienceWeek7,
-    _secondary1ScienceWeek8,
+    _year7ScienceWeek5,
+    _year7ScienceWeek6,
+    _year7ScienceWeek7,
+    _year7ScienceWeek8,
   ],
 );
 
-const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm1 = CourseTermDef(
   id: "course-secondary1-science-t1",
   termNumber: 1,
   titleEn: "Introduction to Physics & Chemistry",
@@ -6884,10 +6884,10 @@ const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
   certificateTitleEn: "Introduction to Physics & Chemistry",
   certificateTitleMy: "ရူပဗေဒနှင့် ဓာတုဗေဒ နိဒါန်း",
   weeks: [
-    _secondary1ScienceWeek1,
-    _secondary1ScienceWeek2,
-    _secondary1ScienceWeek3,
-    _secondary1ScienceWeek4,
+    _year7ScienceWeek1,
+    _year7ScienceWeek2,
+    _year7ScienceWeek3,
+    _year7ScienceWeek4,
   ],
 );
 
@@ -6914,7 +6914,7 @@ const CourseTermDef _secondary1ScienceTerm1 = CourseTermDef(
 /// equation. The Day 2 drag-match deliberately uses all seven terms
 /// (not the pathway's usual six) since MRS GREN is a complete,
 /// unsplittable set.
-const CourseWeekDef _secondary1ScienceWeek13 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek13 = CourseWeekDef(
   id: "course-secondary1-science-w13",
   weekNumber: 13,
   titleEn: "Characteristics of Living Things",
@@ -7474,7 +7474,7 @@ const CourseWeekDef _secondary1ScienceWeek13 = CourseWeekDef(
 /// (extending Week 1's measuring-instrument strand). The mitochondrion
 /// is deliberately introduced here too, ahead of its formal role in
 /// Week 16's respiration capstone.
-const CourseWeekDef _secondary1ScienceWeek14 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek14 = CourseWeekDef(
   id: "course-secondary1-science-w14",
   weekNumber: 14,
   titleEn: "Cells: The Building Blocks of Life",
@@ -8017,7 +8017,7 @@ const CourseWeekDef _secondary1ScienceWeek14 = CourseWeekDef(
 /// Week 8's energy-absorbing framing to a new energy type (light,
 /// rather than heat) ahead of Week 16's exothermic contrast with
 /// respiration.
-const CourseWeekDef _secondary1ScienceWeek15 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek15 = CourseWeekDef(
   id: "course-secondary1-science-w15",
   weekNumber: 15,
   titleEn: "Photosynthesis: How Plants Make Their Own Food",
@@ -8583,7 +8583,7 @@ const CourseWeekDef _secondary1ScienceWeek15 = CourseWeekDef(
 /// Week 13's informal definition. The final recap question deliberately
 /// reaches back to Week 7's conservation-of-energy principle, tying the
 /// whole pathway's energy strand together one last time.
-const CourseWeekDef _secondary1ScienceWeek16 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek16 = CourseWeekDef(
   id: "course-secondary1-science-w16",
   weekNumber: 16,
   titleEn: "Respiration and Photosynthesis: Energy for Life",
@@ -9140,7 +9140,7 @@ const CourseWeekDef _secondary1ScienceWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm3 = CourseTermDef(
   id: "course-secondary1-science-t3",
   termNumber: 3,
   titleEn: "Reactions, Electricity and Magnetism",
@@ -9148,10 +9148,10 @@ const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
   certificateTitleEn: "Reactions, Electricity and Magnetism",
   certificateTitleMy: "တုန့်ပြန်မှုများ၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒ",
   weeks: [
-    _secondary1ScienceWeek9,
-    _secondary1ScienceWeek10,
-    _secondary1ScienceWeek11,
-    _secondary1ScienceWeek12,
+    _year7ScienceWeek9,
+    _year7ScienceWeek10,
+    _year7ScienceWeek11,
+    _year7ScienceWeek12,
   ],
 );
 
@@ -9180,7 +9180,7 @@ const CourseTermDef _secondary1ScienceTerm3 = CourseTermDef(
 /// explicitly setting up the direct link Week 18 will make explicit:
 /// carbohydrates are digested into the same glucose Week 16's
 /// respiration equation runs on.
-const CourseWeekDef _secondary1ScienceWeek17 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek17 = CourseWeekDef(
   id: "course-secondary1-science-w17",
   weekNumber: 17,
   titleEn: "Human Nutrition and a Balanced Diet",
@@ -9697,7 +9697,7 @@ const CourseWeekDef _secondary1ScienceWeek17 = CourseWeekDef(
 /// (removing undigested food waste) is precisely distinguished from
 /// Week 13's "excretion" (removing chemical waste made inside the
 /// body), a common point of confusion at this level.
-const CourseWeekDef _secondary1ScienceWeek18 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek18 = CourseWeekDef(
   id: "course-secondary1-science-w18",
   weekNumber: 18,
   titleEn: "The Digestive System",
@@ -10240,7 +10240,7 @@ const CourseWeekDef _secondary1ScienceWeek18 = CourseWeekDef(
 /// and defines the food-chain arrow precisely as showing the direction
 /// energy flows -- setting up Week 20's capstone on energy loss between
 /// feeding levels.
-const CourseWeekDef _secondary1ScienceWeek19 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek19 = CourseWeekDef(
   id: "course-secondary1-science-w19",
   weekNumber: 19,
   titleEn: "Ecosystems and Food Chains",
@@ -10791,7 +10791,7 @@ const CourseWeekDef _secondary1ScienceWeek19 = CourseWeekDef(
 /// claim that "much less" energy remains at each step, matching this
 /// pathway's running "no unearned precision" caution (first stated in
 /// Week 6's doc comment).
-const CourseWeekDef _secondary1ScienceWeek20 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek20 = CourseWeekDef(
   id: "course-secondary1-science-w20",
   weekNumber: 20,
   titleEn: "Energy Flow Through Ecosystems",
@@ -11329,7 +11329,7 @@ const CourseWeekDef _secondary1ScienceWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1ScienceTerm4 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm4 = CourseTermDef(
   id: "course-secondary1-science-t4",
   termNumber: 4,
   titleEn: "Cells and Life Processes",
@@ -11337,10 +11337,10 @@ const CourseTermDef _secondary1ScienceTerm4 = CourseTermDef(
   certificateTitleEn: "Cells and Life Processes",
   certificateTitleMy: "ဆဲလ်များနှင့် သက်ရှင်သန်မှုလုပ်ငန်းစဉ်များ",
   weeks: [
-    _secondary1ScienceWeek13,
-    _secondary1ScienceWeek14,
-    _secondary1ScienceWeek15,
-    _secondary1ScienceWeek16,
+    _year7ScienceWeek13,
+    _year7ScienceWeek14,
+    _year7ScienceWeek15,
+    _year7ScienceWeek16,
   ],
 );
 
@@ -11357,7 +11357,7 @@ const CourseTermDef _secondary1ScienceTerm4 = CourseTermDef(
 /// -> digestion -> respiration -> heat loss -- across a whole food
 /// chain, tying the pathway's energy strand back to Week 7's
 /// conservation principle one more time.
-const CourseTermDef _secondary1ScienceTerm5 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm5 = CourseTermDef(
   id: "course-secondary1-science-t5",
   termNumber: 5,
   titleEn: "Nutrition and Ecosystems",
@@ -11365,10 +11365,10 @@ const CourseTermDef _secondary1ScienceTerm5 = CourseTermDef(
   certificateTitleEn: "Nutrition and Ecosystems",
   certificateTitleMy: "အာဟာရနှင့် သဘာဝဝန်းကျင်စနစ်များ",
   weeks: [
-    _secondary1ScienceWeek17,
-    _secondary1ScienceWeek18,
-    _secondary1ScienceWeek19,
-    _secondary1ScienceWeek20,
+    _year7ScienceWeek17,
+    _year7ScienceWeek18,
+    _year7ScienceWeek19,
+    _year7ScienceWeek20,
   ],
 );
 
@@ -11390,7 +11390,7 @@ const CourseTermDef _secondary1ScienceTerm5 = CourseTermDef(
 /// smaller) -- no numeric ratios or angles are asserted, matching this
 /// pathway's running "no unearned precision" caution (first stated in
 /// Week 6's doc comment).
-const CourseWeekDef _secondary1ScienceWeek21 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek21 = CourseWeekDef(
   id: "course-secondary1-science-w21",
   weekNumber: 21,
   titleEn: "Light: Travelling in Straight Lines and Shadows",
@@ -11931,7 +11931,7 @@ const CourseWeekDef _secondary1ScienceWeek21 = CourseWeekDef(
 /// image (same size, same distance behind, virtual, laterally inverted).
 /// Reflection is framed throughout as a direction-change at a single
 /// point, not a break in Week 21's straight-line rule.
-const CourseWeekDef _secondary1ScienceWeek22 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek22 = CourseWeekDef(
   id: "course-secondary1-science-w22",
   weekNumber: 22,
   titleEn: "Light: Reflection and Mirrors",
@@ -12469,7 +12469,7 @@ const CourseWeekDef _secondary1ScienceWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1ScienceWeek23 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek23 = CourseWeekDef(
   id: "course-secondary1-science-w23",
   weekNumber: 23,
   titleEn: "Sound: Vibrations, Pitch and Loudness",
@@ -13028,7 +13028,7 @@ const CourseWeekDef _secondary1ScienceWeek23 = CourseWeekDef(
 /// thunder physically is: the bolt's electrical energy briefly and
 /// intensely heats the air, which then expands explosively outward,
 /// and that rapid expansion is itself the vibration heard as thunder.
-const CourseWeekDef _secondary1ScienceWeek24 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek24 = CourseWeekDef(
   id: "course-secondary1-science-w24",
   weekNumber: 24,
   titleEn: "Light and Sound in a Thunderstorm",
@@ -13592,7 +13592,7 @@ const CourseWeekDef _secondary1ScienceWeek24 = CourseWeekDef(
 /// pitch and loudness; Week 24 is the capstone, tying light and sound
 /// together through a thunderstorm, reaching back to Week 7's energy
 /// transfers and Week 2's particle model one more time.
-const CourseTermDef _secondary1ScienceTerm6 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm6 = CourseTermDef(
   id: "course-secondary1-science-t6",
   termNumber: 6,
   titleEn: "Light and Sound",
@@ -13600,10 +13600,10 @@ const CourseTermDef _secondary1ScienceTerm6 = CourseTermDef(
   certificateTitleEn: "Light and Sound",
   certificateTitleMy: "အလင်းနှင့် အသံ",
   weeks: [
-    _secondary1ScienceWeek21,
-    _secondary1ScienceWeek22,
-    _secondary1ScienceWeek23,
-    _secondary1ScienceWeek24,
+    _year7ScienceWeek21,
+    _year7ScienceWeek22,
+    _year7ScienceWeek23,
+    _year7ScienceWeek24,
   ],
 );
 
@@ -13611,7 +13611,7 @@ const CourseTermDef _secondary1ScienceTerm6 = CourseTermDef(
 // Secondary 1 Science -- Term 7, Week 25: "The Solar System"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek25 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek25 = CourseWeekDef(
   id: "course-secondary1-science-w25",
   weekNumber: 25,
   titleEn: "The Solar System",
@@ -14165,7 +14165,7 @@ const CourseWeekDef _secondary1ScienceWeek25 = CourseWeekDef(
 // Secondary 1 Science -- Term 7, Week 26: "Day, Night and the Seasons"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek26 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek26 = CourseWeekDef(
   id: "course-secondary1-science-w26",
   weekNumber: 26,
   titleEn: "Day, Night and the Seasons",
@@ -14732,7 +14732,7 @@ const CourseWeekDef _secondary1ScienceWeek26 = CourseWeekDef(
 // Secondary 1 Science -- Term 7, Week 27: "Earth's Structure and the Rock Cycle"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek27 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek27 = CourseWeekDef(
   id: "course-secondary1-science-w27",
   weekNumber: 27,
   titleEn: "Earth's Structure and the Rock Cycle",
@@ -15292,7 +15292,7 @@ const CourseWeekDef _secondary1ScienceWeek27 = CourseWeekDef(
 // Secondary 1 Science -- Term 7, Week 28: "Earth and Space -- Capstone"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek28 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek28 = CourseWeekDef(
   id: "course-secondary1-science-w28",
   weekNumber: 28,
   titleEn: "Earth and Space: The Planetarium and the Quarry",
@@ -15862,7 +15862,7 @@ const CourseWeekDef _secondary1ScienceWeek28 = CourseWeekDef(
 /// combining a planetarium visit and a quarry visit, reaching back to the
 /// gravity-as-force (Week 3) and particle-model (Week 2) threads one more
 /// time.
-const CourseTermDef _secondary1ScienceTerm7 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm7 = CourseTermDef(
   id: "course-secondary1-science-t7",
   termNumber: 7,
   titleEn: "Earth and Space",
@@ -15870,10 +15870,10 @@ const CourseTermDef _secondary1ScienceTerm7 = CourseTermDef(
   certificateTitleEn: "Earth and Space",
   certificateTitleMy: "ကမ္ဘာနှင့် အာကာသ",
   weeks: [
-    _secondary1ScienceWeek25,
-    _secondary1ScienceWeek26,
-    _secondary1ScienceWeek27,
-    _secondary1ScienceWeek28,
+    _year7ScienceWeek25,
+    _year7ScienceWeek26,
+    _year7ScienceWeek27,
+    _year7ScienceWeek28,
   ],
 );
 
@@ -15881,7 +15881,7 @@ const CourseTermDef _secondary1ScienceTerm7 = CourseTermDef(
 // Secondary 1 Science -- Term 8, Week 29: "The Skeletal System"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek29 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek29 = CourseWeekDef(
   id: "course-secondary1-science-w29",
   weekNumber: 29,
   titleEn: "The Skeletal System",
@@ -16426,7 +16426,7 @@ const CourseWeekDef _secondary1ScienceWeek29 = CourseWeekDef(
 // Secondary 1 Science -- Term 8, Week 30: "The Muscular System"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek30 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek30 = CourseWeekDef(
   id: "course-secondary1-science-w30",
   weekNumber: 30,
   titleEn: "The Muscular System",
@@ -16979,7 +16979,7 @@ const CourseWeekDef _secondary1ScienceWeek30 = CourseWeekDef(
 // Secondary 1 Science -- Term 8, Week 31: "Classifying Living Things"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek31 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek31 = CourseWeekDef(
   id: "course-secondary1-science-w31",
   weekNumber: 31,
   titleEn: "Classifying Living Things",
@@ -17527,7 +17527,7 @@ const CourseWeekDef _secondary1ScienceWeek31 = CourseWeekDef(
 // Secondary 1 Science -- Term 8, Week 32: "The Human Body and Classification -- Capstone"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek32 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek32 = CourseWeekDef(
   id: "course-secondary1-science-w32",
   weekNumber: 32,
   titleEn: "Skeletons, Muscles and Classification at the Zoo",
@@ -18096,7 +18096,7 @@ const CourseWeekDef _secondary1ScienceWeek32 = CourseWeekDef(
 /// classification during a zoo visit examining both a mounted skeleton and
 /// a live leopard, reaching back to the respiration/energy thread (Weeks
 /// 16 and 30) one more time.
-const CourseTermDef _secondary1ScienceTerm8 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm8 = CourseTermDef(
   id: "course-secondary1-science-t8",
   termNumber: 8,
   titleEn: "The Human Body and Classification",
@@ -18104,10 +18104,10 @@ const CourseTermDef _secondary1ScienceTerm8 = CourseTermDef(
   certificateTitleEn: "The Human Body and Classification",
   certificateTitleMy: "ခန္ဓာကိုယ်နှင့် ခွဲခြားသတ်မှတ်ခြင်း",
   weeks: [
-    _secondary1ScienceWeek29,
-    _secondary1ScienceWeek30,
-    _secondary1ScienceWeek31,
-    _secondary1ScienceWeek32,
+    _year7ScienceWeek29,
+    _year7ScienceWeek30,
+    _year7ScienceWeek31,
+    _year7ScienceWeek32,
   ],
 );
 
@@ -18115,7 +18115,7 @@ const CourseTermDef _secondary1ScienceTerm8 = CourseTermDef(
 // Secondary 1 Science -- Term 9, Week 33: "Asking a Scientific Question"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek33 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek33 = CourseWeekDef(
   id: "course-secondary1-science-w33",
   weekNumber: 33,
   titleEn: "Asking a Scientific Question",
@@ -18675,7 +18675,7 @@ const CourseWeekDef _secondary1ScienceWeek33 = CourseWeekDef(
 // Secondary 1 Science -- Term 9, Week 34: "Designing a Fair Test"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek34 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek34 = CourseWeekDef(
   id: "course-secondary1-science-w34",
   weekNumber: 34,
   titleEn: "Designing a Fair Test",
@@ -19225,7 +19225,7 @@ const CourseWeekDef _secondary1ScienceWeek34 = CourseWeekDef(
 // Secondary 1 Science -- Term 9, Week 35: "Recording and Presenting Data"
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek35 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek35 = CourseWeekDef(
   id: "course-secondary1-science-w35",
   weekNumber: 35,
   titleEn: "Recording and Presenting Data",
@@ -19788,7 +19788,7 @@ const CourseWeekDef _secondary1ScienceWeek35 = CourseWeekDef(
 // Fair" -- Capstone
 // =====================================================================
 
-const CourseWeekDef _secondary1ScienceWeek36 = CourseWeekDef(
+const CourseWeekDef _year7ScienceWeek36 = CourseWeekDef(
   id: "course-secondary1-science-w36",
   weekNumber: 36,
   titleEn: "The Founders' Day Science Fair",
@@ -20359,7 +20359,7 @@ const CourseWeekDef _secondary1ScienceWeek36 = CourseWeekDef(
 /// topic but on the same shared scientific-enquiry method the whole term
 /// has been building: a testable question, a reasoned hypothesis, a fair
 /// test, honest data, and an evidence-based conclusion.
-const CourseTermDef _secondary1ScienceTerm9 = CourseTermDef(
+const CourseTermDef _year7ScienceTerm9 = CourseTermDef(
   id: "course-secondary1-science-t9",
   termNumber: 9,
   titleEn: "The Founders' Day Science Fair",
@@ -20367,16 +20367,16 @@ const CourseTermDef _secondary1ScienceTerm9 = CourseTermDef(
   certificateTitleEn: "The Founders' Day Science Fair",
   certificateTitleMy: "တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲ",
   weeks: [
-    _secondary1ScienceWeek33,
-    _secondary1ScienceWeek34,
-    _secondary1ScienceWeek35,
-    _secondary1ScienceWeek36,
+    _year7ScienceWeek33,
+    _year7ScienceWeek34,
+    _year7ScienceWeek35,
+    _year7ScienceWeek36,
   ],
 );
 
 /// Secondary 1 Science's pathway (Grade [Grade.year7]) -- a new,
-/// independent subject pathway alongside [secondary1ComputingPathway] and
-/// [secondary1MathematicsPathway] rather than more terms grafted onto
+/// independent subject pathway alongside [year7ComputingPathway] and
+/// [year7MathematicsPathway] rather than more terms grafted onto
 /// either: same grade, different subject. Term 1 ("Introduction to Physics
 /// & Chemistry", Weeks 1-4), Term 2 ("Chemistry and Energy", Weeks 5-8),
 /// Term 3 ("Reactions, Electricity and Magnetism", Weeks 9-12), Term 4
@@ -20387,16 +20387,16 @@ const CourseTermDef _secondary1ScienceTerm9 = CourseTermDef(
 /// Term 8 ("The Human Body and Classification", Weeks 29-32) are all
 /// authored; Term 9 ("The Founders' Day Science Fair", Weeks 33-36) closes
 /// out the full 36-week pathway with a Scientific Enquiry capstone rather
-/// than new content -- see [_secondary1ScienceTerm1]'s,
-/// [_secondary1ScienceTerm2]'s, [_secondary1ScienceTerm3]'s,
-/// [_secondary1ScienceTerm4]'s, [_secondary1ScienceTerm5]'s,
-/// [_secondary1ScienceTerm7]'s, [_secondary1ScienceTerm8]'s and
-/// [_secondary1ScienceTerm9]'s own doc comments (Term 6's spiral is
-/// documented directly above [_secondary1ScienceWeek21]) for the
+/// than new content -- see [_year7ScienceTerm1]'s,
+/// [_year7ScienceTerm2]'s, [_year7ScienceTerm3]'s,
+/// [_year7ScienceTerm4]'s, [_year7ScienceTerm5]'s,
+/// [_year7ScienceTerm7]'s, [_year7ScienceTerm8]'s and
+/// [_year7ScienceTerm9]'s own doc comments (Term 6's spiral is
+/// documented directly above [_year7ScienceWeek21]) for the
 /// week-by-week spiral. All 36 weeks now exist, so [totalWeeks] being 36
 /// finally matches the pathway's actual content, the same milestone
-/// [year4SciencePathway] and [secondary1ComputingPathway] already reached.
-const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
+/// [year4SciencePathway] and [year7ComputingPathway] already reached.
+const CoursePathwayDef year7SciencePathway = CoursePathwayDef(
   id: "course-secondary1-science",
   subject: "science",
   grade: Grade.year7,
@@ -20408,15 +20408,15 @@ const CoursePathwayDef secondary1SciencePathway = CoursePathwayDef(
       "ပထမမြောက် ပညာသင်နှစ် သိပ္ပံသင်တန်း -- သိပ္ပံနည်းကျ လေ့လာမှုနည်းစနစ်၊ တိုင်းတာခြင်းနှင့် ဓာတ်ခွဲခန်း ဘေးကင်းရေးမှစတင်ပြီး၊ ဒြပ်ထု၏ အခြေအနေများနှင့် အနုမြူပုံစံ၊ အားနှင့် ၎င်း၏ သက်ရောက်မှုများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ စွမ်းအင်၊ အပူနှင့် အားများကို ပေါင်းစပ်အသုံးချသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပထမနှစ်ဝက် ပြီးဆုံးပြီးနောက်၊ ဒုတိယနှစ်ဝက်တွင် ဒြပ်စင်၊ ဒြပ်ပေါင်းနှင့် ရောစပ်ပစ္စည်းများကို ခွဲခြားခြင်း၊ အက်ဆစ်၊ ဘေ့စ်နှင့် အညွှန်းများကို လေ့လာခြင်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် လွှဲပြောင်းမှုအမျိုးမျိုးကို အမည်တွင်ခြင်းတို့ကို ဆက်လက်လေ့လာပြီး ဓာတုတုန့်ပြန်မှုနှင့် စွမ်းအင်ပြောင်းလဲမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ တတိယနှစ်ဝက်တွင် ဓာတုတုန့်ပြန်မှုကို စကားလုံးညီမျှခြင်းနှင့် အလေးချိန်ထိန်းသိမ်းမှုဖြင့် ပိုမိုနက်နဲစွာ လေ့လာပြီး၊ လျှပ်စစ်နှင့် သံလိုက်ဗေဒကို မိတ်ဆက်ကာ လျှပ်စစ်သံလိုက်ဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ စတုတ္ထနှစ်ဝက်တွင် ဤသင်တန်း၏ ပထမဆုံးဇီဝဗေဒနယ်ပယ်ဖြစ်သော သက်ရှိများ၏ လက္ခဏာများ၊ ဆဲလ်များ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းကို ဖွင့်လှစ်ပြီး အသက်ရှုမှုဆိုင်ရာ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ပဉ္စမနှစ်ဝက်တွင် လူသားအာဟာရ၊ အစာခြေခြင်းနှင့် သဘာဝဝန်းကျင်စနစ်များသို့ ချဲ့ထွင်ကာ နေမှ အစားအစာကွင်းဆက်တစ်ခုလုံးတစ်လျှောက် စွမ်းအင်စီးဆင်းမှုကို ခြေရာခံသည့် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ ဆဌမနှစ်ဝက်တွင် အလင်းသည် ဖြောင့်တန်းသောလမ်းကြောင်းအတိုင်း ခရီးသွားပုံနှင့် အရိပ်ဖြစ်ပေါ်ပုံ၊ ရောင်ပြန်ဟပ်ခြင်းနှင့် မှန်များ၊ အသံ ဖြစ်ပေါ်ပုံနှင့် အလယ်အလတ်ပစ္စည်းတစ်ခုကို ဖြတ်၍ တုန်ခါမှုအဖြစ် ခရီးသွားပုံတို့ကို လေ့လာသော ရူပဗေဒနယ်ပယ်အသစ်တစ်ခုကို ဖွင့်လှစ်ပြီး မိုးကြိုးမုန်တိုင်းတစ်ခုမှတစ်ဆင့် အလင်းနှင့်အသံကို ပေါင်းစပ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ သတ္တမနှစ်ဝက်တွင် နေစနစ်နှင့် ဆွဲငင်အား၊ နေ့ညနှင့်ရာသီများ၊ ကမ္ဘာ့ဖွဲ့စည်းပုံနှင့် ကျောက်စက်ဝန်းတို့ကို ဖွင့်လှစ်ပြီး ကြယ်စင်ခန်းသွားလည်ခြင်းနှင့် ကျောက်တွင်းသွားလည်ခြင်းကို ပေါင်းစပ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ အဌမနှစ်ဝက်တွင် အရိုးစနစ်နှင့် ကြွက်သားစနစ်၊ သက်ရှိများကို ခွဲခြားသတ်မှတ်ခြင်းဖြင့် ဇီဝဗေဒသို့ ပြန်လှည့်ကာ အရိုး၊ ကြွက်သားနှင့် ခွဲခြားသတ်မှတ်ခြင်းတို့ကို ပေါင်းစပ်ပေးသော တိရစ္ဆာန်ဥယျာဉ်ခရီးစဉ် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးပြီးနောက်၊ နဝမနှစ်ဝက်တွင် ပထမနှစ်တစ်ခုလုံးကို သိပ္ပံနည်းကျ စူးစမ်းလေ့လာမှု အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပိတ်သိမ်းသည် -- မှန်ကန်သော ယူဆချက်တစ်ခု ရေးသားခြင်း၊ လွတ်လပ်ကိန်းရှင်၊ မှီခိုကိန်းရှင်နှင့် ထိန်းချုပ်ကိန်းရှင်များပါသော တရားမျှတသောစမ်းသပ်မှု ဒီဇိုင်းရေးဆွဲခြင်း၊ ရိုးသားသောအချက်အလက်များကို မှတ်တမ်းတင်ခြင်းနှင့် တင်ပြခြင်းတို့ကို လေ့လာကာ ကျောင်းသားများ ကိုယ်ပိုင်စူးစမ်းလေ့လာမှုများကို စီစဉ်၊ လုပ်ဆောင်၊ တင်ပြရသော တည်ထောင်သူများနေ့ သိပ္ပံပြပွဲတစ်ခုသို့ တည်ဆောက်ပေးပြီး ယခင် Term များမှ အားများ၊ အနုမြူပုံစံ၊ အလင်းစွမ်းဓာတ်ပေါင်းစပ်ခြင်းနှင့် အသက်ရှုမှုတို့ကို ၎င်းတို့၏ သက်သေအထောက်အထားအဖြစ် ရယူသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။",
   totalWeeks: 36,
   terms: [
-    _secondary1ScienceTerm1,
-    _secondary1ScienceTerm2,
-    _secondary1ScienceTerm3,
-    _secondary1ScienceTerm4,
-    _secondary1ScienceTerm5,
-    _secondary1ScienceTerm6,
-    _secondary1ScienceTerm7,
-    _secondary1ScienceTerm8,
-    _secondary1ScienceTerm9,
+    _year7ScienceTerm1,
+    _year7ScienceTerm2,
+    _year7ScienceTerm3,
+    _year7ScienceTerm4,
+    _year7ScienceTerm5,
+    _year7ScienceTerm6,
+    _year7ScienceTerm7,
+    _year7ScienceTerm8,
+    _year7ScienceTerm9,
   ],
 );
 // =====================================================================
@@ -91155,7 +91155,7 @@ const CoursePathwayDef year5SciencePathway = CoursePathwayDef(
 // natural selection with human-driven selective breeding.
 // =====================================================================
 
-const CourseWeekDef _secondary3ScienceWeek1 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek1 = CourseWeekDef(
   id: "course-secondary3-science-w1",
   weekNumber: 1,
   titleEn: "Variation",
@@ -91619,7 +91619,7 @@ const CourseWeekDef _secondary3ScienceWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek2 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek2 = CourseWeekDef(
   id: "course-secondary3-science-w2",
   weekNumber: 2,
   titleEn: "DNA and Chromosomes",
@@ -92042,7 +92042,7 @@ const CourseWeekDef _secondary3ScienceWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek3 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek3 = CourseWeekDef(
   id: "course-secondary3-science-w3",
   weekNumber: 3,
   titleEn: "Natural Selection",
@@ -92504,7 +92504,7 @@ const CourseWeekDef _secondary3ScienceWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek4 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek4 = CourseWeekDef(
   id: "course-secondary3-science-w4",
   weekNumber: 4,
   titleEn: "Selective Breeding",
@@ -92990,7 +92990,7 @@ const CourseWeekDef _secondary3ScienceWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm1 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm1 = CourseTermDef(
   id: "course-secondary3-science-t1",
   termNumber: 1,
   titleEn: "Genetics and Evolution",
@@ -92998,10 +92998,10 @@ const CourseTermDef _secondary3ScienceTerm1 = CourseTermDef(
   certificateTitleEn: "Genetics and Evolution",
   certificateTitleMy: "မျိုးရိုးဗီဇနှင့် ဆင့်ကဲပြောင်းလဲမှု",
   weeks: [
-    _secondary3ScienceWeek1,
-    _secondary3ScienceWeek2,
-    _secondary3ScienceWeek3,
-    _secondary3ScienceWeek4,
+    _year9ScienceWeek1,
+    _year9ScienceWeek2,
+    _year9ScienceWeek3,
+    _year9ScienceWeek4,
   ],
 );
 
@@ -93016,7 +93016,7 @@ const CourseTermDef _secondary3ScienceTerm1 = CourseTermDef(
 // real engineering material-choice project.
 // =====================================================================
 
-const CourseWeekDef _secondary3ScienceWeek5 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek5 = CourseWeekDef(
   id: "course-secondary3-science-w5",
   weekNumber: 5,
   titleEn: "Metals and Carbon",
@@ -93446,7 +93446,7 @@ const CourseWeekDef _secondary3ScienceWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek6 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek6 = CourseWeekDef(
   id: "course-secondary3-science-w6",
   weekNumber: 6,
   titleEn: "Electrolysis of Metals",
@@ -93893,7 +93893,7 @@ const CourseWeekDef _secondary3ScienceWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek7 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek7 = CourseWeekDef(
   id: "course-secondary3-science-w7",
   weekNumber: 7,
   titleEn: "Ceramics, Polymers, and Composites",
@@ -94337,7 +94337,7 @@ const CourseWeekDef _secondary3ScienceWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek8 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek8 = CourseWeekDef(
   id: "course-secondary3-science-w8",
   weekNumber: 8,
   titleEn: "Material Design Project",
@@ -94808,7 +94808,7 @@ const CourseWeekDef _secondary3ScienceWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm2 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm2 = CourseTermDef(
   id: "course-secondary3-science-t2",
   termNumber: 2,
   titleEn: "Extracting Metals and Materials",
@@ -94816,10 +94816,10 @@ const CourseTermDef _secondary3ScienceTerm2 = CourseTermDef(
   certificateTitleEn: "Extracting Metals and Materials",
   certificateTitleMy: "သတ္တုနှင့် ပစ္စည်းထုတ်ယူခြင်း",
   weeks: [
-    _secondary3ScienceWeek5,
-    _secondary3ScienceWeek6,
-    _secondary3ScienceWeek7,
-    _secondary3ScienceWeek8,
+    _year9ScienceWeek5,
+    _year9ScienceWeek6,
+    _year9ScienceWeek7,
+    _year9ScienceWeek8,
   ],
 );
 
@@ -94831,7 +94831,7 @@ const CourseTermDef _secondary3ScienceTerm2 = CourseTermDef(
 // covering Sankey diagrams and sustainable energy.
 // =====================================================================
 
-const CourseWeekDef _secondary3ScienceWeek9 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek9 = CourseWeekDef(
   id: "course-secondary3-science-w9",
   weekNumber: 9,
   titleEn: "Turning Forces (Moments)",
@@ -95261,7 +95261,7 @@ const CourseWeekDef _secondary3ScienceWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek10 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek10 = CourseWeekDef(
   id: "course-secondary3-science-w10",
   weekNumber: 10,
   titleEn: "Pressure and Hydraulics",
@@ -95699,7 +95699,7 @@ const CourseWeekDef _secondary3ScienceWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek11 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek11 = CourseWeekDef(
   id: "course-secondary3-science-w11",
   weekNumber: 11,
   titleEn: "Work Done and Power",
@@ -96109,7 +96109,7 @@ const CourseWeekDef _secondary3ScienceWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek12 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek12 = CourseWeekDef(
   id: "course-secondary3-science-w12",
   weekNumber: 12,
   titleEn: "Energy Efficiency Audit",
@@ -96572,7 +96572,7 @@ const CourseWeekDef _secondary3ScienceWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm3 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm3 = CourseTermDef(
   id: "course-secondary3-science-t3",
   termNumber: 3,
   titleEn: "Forces and Energy",
@@ -96580,10 +96580,10 @@ const CourseTermDef _secondary3ScienceTerm3 = CourseTermDef(
   certificateTitleEn: "Forces and Energy",
   certificateTitleMy: "အားများနှင့် စွမ်းအင်",
   weeks: [
-    _secondary3ScienceWeek9,
-    _secondary3ScienceWeek10,
-    _secondary3ScienceWeek11,
-    _secondary3ScienceWeek12,
+    _year9ScienceWeek9,
+    _year9ScienceWeek10,
+    _year9ScienceWeek11,
+    _year9ScienceWeek12,
   ],
 );
 
@@ -96596,7 +96596,7 @@ const CourseTermDef _secondary3ScienceTerm3 = CourseTermDef(
 // management/biodiversity capstone.
 // =====================================================================
 
-const CourseWeekDef _secondary3ScienceWeek13 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek13 = CourseWeekDef(
   id: "course-secondary3-science-w13",
   weekNumber: 13,
   titleEn: "Photosynthesis Factors",
@@ -97058,7 +97058,7 @@ const CourseWeekDef _secondary3ScienceWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek14 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek14 = CourseWeekDef(
   id: "course-secondary3-science-w14",
   weekNumber: 14,
   titleEn: "Plant Mineral Nutrition",
@@ -97494,7 +97494,7 @@ const CourseWeekDef _secondary3ScienceWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek15 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek15 = CourseWeekDef(
   id: "course-secondary3-science-w15",
   weekNumber: 15,
   titleEn: "Energy Flow and Nutrient Cycles",
@@ -97922,7 +97922,7 @@ const CourseWeekDef _secondary3ScienceWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek16 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek16 = CourseWeekDef(
   id: "course-secondary3-science-w16",
   weekNumber: 16,
   titleEn: "Ecosystem Management",
@@ -98381,7 +98381,7 @@ const CourseWeekDef _secondary3ScienceWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm4 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm4 = CourseTermDef(
   id: "course-secondary3-science-t4",
   termNumber: 4,
   titleEn: "Plant Nutrition and Ecosystems",
@@ -98389,14 +98389,14 @@ const CourseTermDef _secondary3ScienceTerm4 = CourseTermDef(
   certificateTitleEn: "Plant Nutrition and Ecosystems",
   certificateTitleMy: "အပင်အာဟာရနှင့် ဂေဟစနစ်",
   weeks: [
-    _secondary3ScienceWeek13,
-    _secondary3ScienceWeek14,
-    _secondary3ScienceWeek15,
-    _secondary3ScienceWeek16,
+    _year9ScienceWeek13,
+    _year9ScienceWeek14,
+    _year9ScienceWeek15,
+    _year9ScienceWeek16,
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek17 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek17 = CourseWeekDef(
   id: "course-secondary3-science-w17",
   weekNumber: 17,
   titleEn: "Collision Theory",
@@ -98829,7 +98829,7 @@ const CourseWeekDef _secondary3ScienceWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek18 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek18 = CourseWeekDef(
   id: "course-secondary3-science-w18",
   weekNumber: 18,
   titleEn: "Factors Affecting Reaction Rate",
@@ -99259,7 +99259,7 @@ const CourseWeekDef _secondary3ScienceWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek19 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek19 = CourseWeekDef(
   id: "course-secondary3-science-w19",
   weekNumber: 19,
   titleEn: "Catalysts and Enzymes",
@@ -99682,7 +99682,7 @@ const CourseWeekDef _secondary3ScienceWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek20 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek20 = CourseWeekDef(
   id: "course-secondary3-science-w20",
   weekNumber: 20,
   titleEn: "Kinetics Laboratory Investigation",
@@ -100134,7 +100134,7 @@ const CourseWeekDef _secondary3ScienceWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm5 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm5 = CourseTermDef(
   id: "course-secondary3-science-t5",
   termNumber: 5,
   titleEn: "Rates of Reaction",
@@ -100142,14 +100142,14 @@ const CourseTermDef _secondary3ScienceTerm5 = CourseTermDef(
   certificateTitleEn: "Rates of Reaction",
   certificateTitleMy: "ဓာတ်ပြုနှုန်း",
   weeks: [
-    _secondary3ScienceWeek17,
-    _secondary3ScienceWeek18,
-    _secondary3ScienceWeek19,
-    _secondary3ScienceWeek20,
+    _year9ScienceWeek17,
+    _year9ScienceWeek18,
+    _year9ScienceWeek19,
+    _year9ScienceWeek20,
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek21 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek21 = CourseWeekDef(
   id: "course-secondary3-science-w21",
   weekNumber: 21,
   titleEn: "Wave Properties",
@@ -100573,7 +100573,7 @@ const CourseWeekDef _secondary3ScienceWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek22 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek22 = CourseWeekDef(
   id: "course-secondary3-science-w22",
   weekNumber: 22,
   titleEn: "The Electromagnetic Spectrum",
@@ -100997,7 +100997,7 @@ const CourseWeekDef _secondary3ScienceWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek23 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek23 = CourseWeekDef(
   id: "course-secondary3-science-w23",
   weekNumber: 23,
   titleEn: "Electromagnets and Motors",
@@ -101425,7 +101425,7 @@ const CourseWeekDef _secondary3ScienceWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek24 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek24 = CourseWeekDef(
   id: "course-secondary3-science-w24",
   weekNumber: 24,
   titleEn: "Building a Working Electric Motor",
@@ -101871,7 +101871,7 @@ const CourseWeekDef _secondary3ScienceWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm6 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm6 = CourseTermDef(
   id: "course-secondary3-science-t6",
   termNumber: 6,
   titleEn: "Waves and Electromagnetism",
@@ -101879,14 +101879,14 @@ const CourseTermDef _secondary3ScienceTerm6 = CourseTermDef(
   certificateTitleEn: "Waves and Electromagnetism",
   certificateTitleMy: "လှိုင်းနှင့် လျှပ်စစ်သံလိုက်ဗေဒ",
   weeks: [
-    _secondary3ScienceWeek21,
-    _secondary3ScienceWeek22,
-    _secondary3ScienceWeek23,
-    _secondary3ScienceWeek24,
+    _year9ScienceWeek21,
+    _year9ScienceWeek22,
+    _year9ScienceWeek23,
+    _year9ScienceWeek24,
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek25 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek25 = CourseWeekDef(
   id: "course-secondary3-science-w25",
   weekNumber: 25,
   titleEn: "Plate Tectonics",
@@ -102325,7 +102325,7 @@ const CourseWeekDef _secondary3ScienceWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek26 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek26 = CourseWeekDef(
   id: "course-secondary3-science-w26",
   weekNumber: 26,
   titleEn: "The Life Cycle of Stars",
@@ -102754,7 +102754,7 @@ const CourseWeekDef _secondary3ScienceWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek27 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek27 = CourseWeekDef(
   id: "course-secondary3-science-w27",
   weekNumber: 27,
   titleEn: "The Expanding Universe",
@@ -103188,7 +103188,7 @@ const CourseWeekDef _secondary3ScienceWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek28 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek28 = CourseWeekDef(
   id: "course-secondary3-science-w28",
   weekNumber: 28,
   titleEn: "Space Exploration Mission Design",
@@ -103646,7 +103646,7 @@ const CourseWeekDef _secondary3ScienceWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm7 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm7 = CourseTermDef(
   id: "course-secondary3-science-t7",
   termNumber: 7,
   titleEn: "Earth and Space Science",
@@ -103654,14 +103654,14 @@ const CourseTermDef _secondary3ScienceTerm7 = CourseTermDef(
   certificateTitleEn: "Earth and Space Science",
   certificateTitleMy: "ကမ္ဘာနှင့် အာကာသသိပ္ပံ",
   weeks: [
-    _secondary3ScienceWeek25,
-    _secondary3ScienceWeek26,
-    _secondary3ScienceWeek27,
-    _secondary3ScienceWeek28,
+    _year9ScienceWeek25,
+    _year9ScienceWeek26,
+    _year9ScienceWeek27,
+    _year9ScienceWeek28,
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek29 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek29 = CourseWeekDef(
   id: "course-secondary3-science-w29",
   weekNumber: 29,
   titleEn: "Crude Oil and Hydrocarbons",
@@ -104083,7 +104083,7 @@ const CourseWeekDef _secondary3ScienceWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek30 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek30 = CourseWeekDef(
   id: "course-secondary3-science-w30",
   weekNumber: 30,
   titleEn: "Alkenes and Polymers",
@@ -104499,7 +104499,7 @@ const CourseWeekDef _secondary3ScienceWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek31 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek31 = CourseWeekDef(
   id: "course-secondary3-science-w31",
   weekNumber: 31,
   titleEn: "Chromatography",
@@ -104928,7 +104928,7 @@ const CourseWeekDef _secondary3ScienceWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek32 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek32 = CourseWeekDef(
   id: "course-secondary3-science-w32",
   weekNumber: 32,
   titleEn: "Forensic Chemistry",
@@ -105384,7 +105384,7 @@ const CourseWeekDef _secondary3ScienceWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm8 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm8 = CourseTermDef(
   id: "course-secondary3-science-t8",
   termNumber: 8,
   titleEn: "Organic Chemistry and Chemical Analysis",
@@ -105392,14 +105392,14 @@ const CourseTermDef _secondary3ScienceTerm8 = CourseTermDef(
   certificateTitleEn: "Organic Chemistry and Chemical Analysis",
   certificateTitleMy: "အော်ဂဲနစ်ဓာတုဗေဒနှင့် ဓာတုခွဲခြမ်းစိတ်ဖြာမှု",
   weeks: [
-    _secondary3ScienceWeek29,
-    _secondary3ScienceWeek30,
-    _secondary3ScienceWeek31,
-    _secondary3ScienceWeek32,
+    _year9ScienceWeek29,
+    _year9ScienceWeek30,
+    _year9ScienceWeek31,
+    _year9ScienceWeek32,
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek33 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek33 = CourseWeekDef(
   id: "course-secondary3-science-w33",
   weekNumber: 33,
   titleEn: "Advanced Experimental Design",
@@ -105830,7 +105830,7 @@ const CourseWeekDef _secondary3ScienceWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek34 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek34 = CourseWeekDef(
   id: "course-secondary3-science-w34",
   weekNumber: 34,
   titleEn: "Revision Sweep: Biology and Chemistry",
@@ -106306,7 +106306,7 @@ const CourseWeekDef _secondary3ScienceWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek35 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek35 = CourseWeekDef(
   id: "course-secondary3-science-w35",
   weekNumber: 35,
   titleEn: "Revision Sweep: Physics and Earth Science",
@@ -106795,7 +106795,7 @@ const CourseWeekDef _secondary3ScienceWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3ScienceWeek36 = CourseWeekDef(
+const CourseWeekDef _year9ScienceWeek36 = CourseWeekDef(
   id: "course-secondary3-science-w36",
   weekNumber: 36,
   titleEn: "Independent Scientific Thesis Project",
@@ -107251,7 +107251,7 @@ const CourseWeekDef _secondary3ScienceWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3ScienceTerm9 = CourseTermDef(
+const CourseTermDef _year9ScienceTerm9 = CourseTermDef(
   id: "course-secondary3-science-t9",
   termNumber: 9,
   titleEn: "Advanced Skills and Independent Thesis Project",
@@ -107260,10 +107260,10 @@ const CourseTermDef _secondary3ScienceTerm9 = CourseTermDef(
   certificateTitleMy:
       "အဆင့်မြင့်ကျွမ်းကျင်မှုနှင့် ကိုယ်ပိုင် သုတေသနစာတမ်းငယ် စီမံကိန်း",
   weeks: [
-    _secondary3ScienceWeek33,
-    _secondary3ScienceWeek34,
-    _secondary3ScienceWeek35,
-    _secondary3ScienceWeek36,
+    _year9ScienceWeek33,
+    _year9ScienceWeek34,
+    _year9ScienceWeek35,
+    _year9ScienceWeek36,
   ],
 );
 
@@ -107318,7 +107318,7 @@ const CourseTermDef _secondary3ScienceTerm9 = CourseTermDef(
 /// IGCSE-style scientific thesis project synthesising every skill
 /// covered across all 9 terms (Week 36). [totalWeeks] is 36, matching
 /// the fully authored year.
-const CoursePathwayDef secondary3SciencePathway = CoursePathwayDef(
+const CoursePathwayDef year9SciencePathway = CoursePathwayDef(
   id: "course-secondary3-science",
   subject: "science",
   grade: Grade.year9,
@@ -107330,15 +107330,15 @@ const CoursePathwayDef secondary3SciencePathway = CoursePathwayDef(
       "အထက်တန်းတတိယနှစ် (Secondary 3 / Year 9) သိပ္ပံသင်တန်း -- IGCSE အဆင့် လေ့လာမှုအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ဇီဝဗေဒ၊ ဓာတုဗေဒနှင့် ရူပဗေဒ ပေါင်းစပ်ထားသော အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ မျိုးရိုးဗီဇနှင့် ဆင့်ကဲပြောင်းလဲမှုသည် မျိုးရိုးလိုက်နှင့် ပတ်ဝန်းကျင်ကြောင့်ကွဲပြားမှု၊ DNA နှင့် ခရိုမိုဆုန်းဖွဲ့စည်းပုံ၊ ဒါဝင်၏ သဘာဝရွေးချယ်မှုသီအိုရီကို ဖုံးအုပ်ပြီး၊ သဘာဝရွေးချယ်မှုနှင့် လူသားရွေးချယ်မွေးမြူခြင်းကို နှိုင်းယှဉ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ သတ္တုနှင့် ပစ္စည်းထုတ်ယူခြင်းသည် ကာဗွန်နှင့် လျှပ်စစ်ခွဲထုတ်ခြင်းကို အသုံးပြု၍ ထုတ်ယူခြင်းနှင့် ခေတ်မီအင်ဂျင်နီယာပစ္စည်းများကို ဖုံးအုပ်ပြီး ပစ္စည်းဒီဇိုင်းပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အားများနှင့် စွမ်းအင်သည် moments, ဖိအားနှင့် ဟိုက်ဒရောလစ်၊ လုပ်ဆောင်ချက်/power ကို ဖုံးအုပ်ပြီး စွမ်းအင်ထိရောက်မှု စစ်ဆေးခြင်းဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ အပင်အာဟာရနှင့် ဂေဟစနစ်သည် အလင်းမှီစုဖွဲ့ခြင်းကို ထိန်းချုပ်သည့်အကြောင်းရင်းများ၊ အပင်သတ္တုဓာတ်အာဟာရနှင့် ဂေဟစနစ်အတွင်း စွမ်းအင်စီးဆင်းမှုကို ဖုံးအုပ်ပြီး ဂေဟစနစ်စီမံခန့်ခွဲမှု အစီအစဉ်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ ဓာတ်ပြုနှုန်းသည် collision theory, ဓာတ်ပြုနှုန်းအပေါ်သက်ရောက်သည့်အကြောင်းရင်းများနှင့် ဓာတ်ကူပစ္စည်း/အင်ဇိုင်းများကို ဖုံးအုပ်ပြီး kinetics ဓာတ်ခွဲခန်းစူးစမ်းလေ့လာမှုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ လှိုင်းနှင့် လျှပ်စစ်သံလိုက်ဗေဒသည် လှိုင်းဂုဏ်သတ္တိများ၊ EM Spectrum နှင့် လျှပ်စစ်သံလိုက်/မော်တာများကို ဖုံးအုပ်ပြီး အလုပ်လုပ်နိုင်သော လျှပ်စစ်မော်တာ တည်ဆောက်ခြင်းဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ ကမ္ဘာနှင့် အာကာသသိပ္ပံသည် မြေလွှာချပ်များ ရွေ့လျားမှု၊ ကြယ်များ၏ ဘဝစက်ဝန်းနှင့် ကျယ်ပြန့်လာနေသောစကြဝဠာကို ဖုံးအုပ်ပြီး အာကာသစူးစမ်းရှာဖွေရေးမစ်ရှင် ဒီဇိုင်းဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ အော်ဂဲနစ်ဓာတုဗေဒနှင့် ဓာတုခွဲခြမ်းစိတ်ဖြာမှုသည် ရေနံကြမ်းနှင့် ဟိုက်ဒရိုကာဘွန်၊ အယ်လ်ကင်းနှင့် ပိုလီမာ၊ Chromatography ကို ဖုံးအုပ်ပြီး မှုခင်းဓာတုဗေဒ အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်သည် အဆင့်မြင့် စမ်းသပ်မှုဒီဇိုင်းဆွဲခြင်း၊ ဇီဝဗေဒ/ဓာတုဗေဒ/ရူပဗေဒ/ကမ္ဘာ့သိပ္ပံ အပြည့်အစုံ ပြန်လည်လေ့ကျင့်မှုနှင့် ကိုယ်ပိုင် IGCSE ပုံစံ သိပ္ပံသုတေသနစာတမ်းငယ် စီမံကိန်းတစ်ခုဖြင့် နှစ်ကို ပိတ်သိမ်းသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary3ScienceTerm1,
-    _secondary3ScienceTerm2,
-    _secondary3ScienceTerm3,
-    _secondary3ScienceTerm4,
-    _secondary3ScienceTerm5,
-    _secondary3ScienceTerm6,
-    _secondary3ScienceTerm7,
-    _secondary3ScienceTerm8,
-    _secondary3ScienceTerm9,
+    _year9ScienceTerm1,
+    _year9ScienceTerm2,
+    _year9ScienceTerm3,
+    _year9ScienceTerm4,
+    _year9ScienceTerm5,
+    _year9ScienceTerm6,
+    _year9ScienceTerm7,
+    _year9ScienceTerm8,
+    _year9ScienceTerm9,
   ],
 );
 // =====================================================================
@@ -124544,7 +124544,7 @@ const CourseTermDef igcseCombinedScienceTerm9 = CourseTermDef(
 /// single fixed character) and follows the same
 /// DailyLessonDef/CourseWeekDef/CourseTermDef schema and id/xp
 /// conventions as every other pathway in this file.
-const CoursePathwayDef scienceYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10SciencePathway = CoursePathwayDef(
   id: "course-year10-science",
   subject: "science",
   grade: Grade.year10,
@@ -124563,7 +124563,7 @@ const CoursePathwayDef scienceYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef scienceYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11SciencePathway = CoursePathwayDef(
   id: "course-year11-science",
   subject: "science",
   grade: Grade.year11,
@@ -124586,7 +124586,7 @@ const CoursePathwayDef scienceYear11Pathway = CoursePathwayDef(
 // Secondary 2 Science -- Terms 1-9 (appended from ai_data_bridge)
 // =====================================================================
 
-const CourseWeekDef _secondary2ScienceWeek1 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek1 = CourseWeekDef(
   id: "course-secondary2-science-w1",
   weekNumber: 1,
   titleEn: "Photosynthesis",
@@ -125037,7 +125037,7 @@ const CourseWeekDef _secondary2ScienceWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek2 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek2 = CourseWeekDef(
   id: "course-secondary2-science-w2",
   weekNumber: 2,
   titleEn: "Leaves and Roots",
@@ -125499,7 +125499,7 @@ const CourseWeekDef _secondary2ScienceWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek3 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek3 = CourseWeekDef(
   id: "course-secondary2-science-w3",
   weekNumber: 3,
   titleEn: "Plant Transport Systems",
@@ -125958,7 +125958,7 @@ const CourseWeekDef _secondary2ScienceWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek4 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek4 = CourseWeekDef(
   id: "course-secondary2-science-w4",
   weekNumber: 4,
   titleEn: "Investigating Plant Growth",
@@ -126429,7 +126429,7 @@ const CourseWeekDef _secondary2ScienceWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm1 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm1 = CourseTermDef(
   id: "course-secondary2-science-term1",
   termNumber: 1,
   titleEn: "Biology - Plants and Photosynthesis",
@@ -126437,14 +126437,14 @@ const CourseTermDef _secondary2ScienceTerm1 = CourseTermDef(
   certificateTitleEn: "Biology - Plants and Photosynthesis",
   certificateTitleMy: "ဇီဝဗေဒ — အပင်များနှင့် အလင်းမှီစုဖွဲ့ခြင်း",
   weeks: [
-    _secondary2ScienceWeek1,
-    _secondary2ScienceWeek2,
-    _secondary2ScienceWeek3,
-    _secondary2ScienceWeek4,
+    _year8ScienceWeek1,
+    _year8ScienceWeek2,
+    _year8ScienceWeek3,
+    _year8ScienceWeek4,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek5 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek5 = CourseWeekDef(
   id: "course-secondary2-science-w5",
   weekNumber: 5,
   titleEn: "Chemical Formulas",
@@ -126878,7 +126878,7 @@ const CourseWeekDef _secondary2ScienceWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek6 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek6 = CourseWeekDef(
   id: "course-secondary2-science-w6",
   weekNumber: 6,
   titleEn: "Chemical Equations",
@@ -127316,7 +127316,7 @@ const CourseWeekDef _secondary2ScienceWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek7 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek7 = CourseWeekDef(
   id: "course-secondary2-science-w7",
   weekNumber: 7,
   titleEn: "Combustion",
@@ -127777,7 +127777,7 @@ const CourseWeekDef _secondary2ScienceWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek8 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek8 = CourseWeekDef(
   id: "course-secondary2-science-w8",
   weekNumber: 8,
   titleEn: "Exothermic and Endothermic",
@@ -128233,7 +128233,7 @@ const CourseWeekDef _secondary2ScienceWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm2 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm2 = CourseTermDef(
   id: "course-secondary2-science-term2",
   termNumber: 2,
   titleEn: "Chemistry - Elements and Compounds (Advanced)",
@@ -128241,14 +128241,14 @@ const CourseTermDef _secondary2ScienceTerm2 = CourseTermDef(
   certificateTitleEn: "Chemistry - Elements and Compounds (Advanced)",
   certificateTitleMy: "ဓာတုဗေဒ — ဒြပ်စင်များနှင့် ဒြပ်ပေါင်းများ (အဆင့်မြင့်)",
   weeks: [
-    _secondary2ScienceWeek5,
-    _secondary2ScienceWeek6,
-    _secondary2ScienceWeek7,
-    _secondary2ScienceWeek8,
+    _year8ScienceWeek5,
+    _year8ScienceWeek6,
+    _year8ScienceWeek7,
+    _year8ScienceWeek8,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek9 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek9 = CourseWeekDef(
   id: "course-secondary2-science-w9",
   weekNumber: 9,
   titleEn: "Density",
@@ -128678,7 +128678,7 @@ const CourseWeekDef _secondary2ScienceWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek10 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek10 = CourseWeekDef(
   id: "course-secondary2-science-w10",
   weekNumber: 10,
   titleEn: "Pressure in Solids",
@@ -129123,7 +129123,7 @@ const CourseWeekDef _secondary2ScienceWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek11 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek11 = CourseWeekDef(
   id: "course-secondary2-science-w11",
   weekNumber: 11,
   titleEn: "Pressure in Liquids and Gases",
@@ -129580,7 +129580,7 @@ const CourseWeekDef _secondary2ScienceWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek12 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek12 = CourseWeekDef(
   id: "course-secondary2-science-w12",
   weekNumber: 12,
   titleEn: "Building a Hydraulic Machine",
@@ -129982,7 +129982,7 @@ const CourseWeekDef _secondary2ScienceWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm3 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm3 = CourseTermDef(
   id: "course-secondary2-science-term3",
   termNumber: 3,
   titleEn: "Physics - Fluids and Pressure",
@@ -129990,14 +129990,14 @@ const CourseTermDef _secondary2ScienceTerm3 = CourseTermDef(
   certificateTitleEn: "Physics - Fluids and Pressure",
   certificateTitleMy: "ရူပဗေဒ — အရည်နှင့် ဖိအား",
   weeks: [
-    _secondary2ScienceWeek9,
-    _secondary2ScienceWeek10,
-    _secondary2ScienceWeek11,
-    _secondary2ScienceWeek12,
+    _year8ScienceWeek9,
+    _year8ScienceWeek10,
+    _year8ScienceWeek11,
+    _year8ScienceWeek12,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek13 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek13 = CourseWeekDef(
   id: "course-secondary2-science-w13",
   weekNumber: 13,
   titleEn: "Blood and Circulation",
@@ -130440,7 +130440,7 @@ const CourseWeekDef _secondary2ScienceWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek14 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek14 = CourseWeekDef(
   id: "course-secondary2-science-w14",
   weekNumber: 14,
   titleEn: "Breathing and Respiration",
@@ -130900,7 +130900,7 @@ const CourseWeekDef _secondary2ScienceWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek15 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek15 = CourseWeekDef(
   id: "course-secondary2-science-w15",
   weekNumber: 15,
   titleEn: "Human Reproduction",
@@ -131335,7 +131335,7 @@ const CourseWeekDef _secondary2ScienceWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek16 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek16 = CourseWeekDef(
   id: "course-secondary2-science-w16",
   weekNumber: 16,
   titleEn: "Health and Lifestyle",
@@ -131798,7 +131798,7 @@ const CourseWeekDef _secondary2ScienceWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm4 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm4 = CourseTermDef(
   id: "course-secondary2-science-term4",
   termNumber: 4,
   titleEn: "Biology - Human Biology and Health",
@@ -131806,14 +131806,14 @@ const CourseTermDef _secondary2ScienceTerm4 = CourseTermDef(
   certificateTitleEn: "Biology - Human Biology and Health",
   certificateTitleMy: "ဇီဝဗေဒ — လူသားဇီဝဗေဒနှင့် ကျန်းမာရေး",
   weeks: [
-    _secondary2ScienceWeek13,
-    _secondary2ScienceWeek14,
-    _secondary2ScienceWeek15,
-    _secondary2ScienceWeek16,
+    _year8ScienceWeek13,
+    _year8ScienceWeek14,
+    _year8ScienceWeek15,
+    _year8ScienceWeek16,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek17 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek17 = CourseWeekDef(
   id: "course-secondary2-science-w17",
   weekNumber: 17,
   titleEn: "Reactivity of Metals",
@@ -132276,7 +132276,7 @@ const CourseWeekDef _secondary2ScienceWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek18 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek18 = CourseWeekDef(
   id: "course-secondary2-science-w18",
   weekNumber: 18,
   titleEn: "Displacement Reactions",
@@ -132731,7 +132731,7 @@ const CourseWeekDef _secondary2ScienceWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek19 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek19 = CourseWeekDef(
   id: "course-secondary2-science-w19",
   weekNumber: 19,
   titleEn: "Polymers and Plastics",
@@ -133186,7 +133186,7 @@ const CourseWeekDef _secondary2ScienceWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek20 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek20 = CourseWeekDef(
   id: "course-secondary2-science-w20",
   weekNumber: 20,
   titleEn: "Material Engineering",
@@ -133653,7 +133653,7 @@ const CourseWeekDef _secondary2ScienceWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm5 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm5 = CourseTermDef(
   id: "course-secondary2-science-term5",
   termNumber: 5,
   titleEn: "Chemistry - Metals and Materials",
@@ -133661,14 +133661,14 @@ const CourseTermDef _secondary2ScienceTerm5 = CourseTermDef(
   certificateTitleEn: "Chemistry - Metals and Materials",
   certificateTitleMy: "ဓာတုဗေဒ — သတ္တုများနှင့် ပစ္စည်းများ",
   weeks: [
-    _secondary2ScienceWeek17,
-    _secondary2ScienceWeek18,
-    _secondary2ScienceWeek19,
-    _secondary2ScienceWeek20,
+    _year8ScienceWeek17,
+    _year8ScienceWeek18,
+    _year8ScienceWeek19,
+    _year8ScienceWeek20,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek21 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek21 = CourseWeekDef(
   id: "course-secondary2-science-w21",
   weekNumber: 21,
   titleEn: "Energy Stores and Transfers",
@@ -134123,7 +134123,7 @@ const CourseWeekDef _secondary2ScienceWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek22 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek22 = CourseWeekDef(
   id: "course-secondary2-science-w22",
   weekNumber: 22,
   titleEn: "Thermal Energy Transfer",
@@ -134595,7 +134595,7 @@ const CourseWeekDef _secondary2ScienceWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek23 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek23 = CourseWeekDef(
   id: "course-secondary2-science-w23",
   weekNumber: 23,
   titleEn: "Cooling and Insulation",
@@ -135054,7 +135054,7 @@ const CourseWeekDef _secondary2ScienceWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek24 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek24 = CourseWeekDef(
   id: "course-secondary2-science-w24",
   weekNumber: 24,
   titleEn: "Designing a Thermos",
@@ -135520,7 +135520,7 @@ const CourseWeekDef _secondary2ScienceWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm6 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm6 = CourseTermDef(
   id: "course-secondary2-science-term6",
   termNumber: 6,
   titleEn: "Physics - Energy Transfers",
@@ -135528,14 +135528,14 @@ const CourseTermDef _secondary2ScienceTerm6 = CourseTermDef(
   certificateTitleEn: "Physics - Energy Transfers",
   certificateTitleMy: "ရူပဗေဒ — စွမ်းအင်ကူးပြောင်းမှုများ",
   weeks: [
-    _secondary2ScienceWeek21,
-    _secondary2ScienceWeek22,
-    _secondary2ScienceWeek23,
-    _secondary2ScienceWeek24,
+    _year8ScienceWeek21,
+    _year8ScienceWeek22,
+    _year8ScienceWeek23,
+    _year8ScienceWeek24,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek25 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek25 = CourseWeekDef(
   id: "course-secondary2-science-w25",
   weekNumber: 25,
   titleEn: "Adaptation and Survival",
@@ -136004,7 +136004,7 @@ const CourseWeekDef _secondary2ScienceWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek26 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek26 = CourseWeekDef(
   id: "course-secondary2-science-w26",
   weekNumber: 26,
   titleEn: "Population Changes",
@@ -136470,7 +136470,7 @@ const CourseWeekDef _secondary2ScienceWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek27 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek27 = CourseWeekDef(
   id: "course-secondary2-science-w27",
   weekNumber: 27,
   titleEn: "Human Impact on Ecosystems",
@@ -136931,7 +136931,7 @@ const CourseWeekDef _secondary2ScienceWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek28 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek28 = CourseWeekDef(
   id: "course-secondary2-science-w28",
   weekNumber: 28,
   titleEn: "Ecology Field Study",
@@ -137379,7 +137379,7 @@ const CourseWeekDef _secondary2ScienceWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm7 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm7 = CourseTermDef(
   id: "course-secondary2-science-term7",
   termNumber: 7,
   titleEn: "Biology - Ecology and Adaptation",
@@ -137387,14 +137387,14 @@ const CourseTermDef _secondary2ScienceTerm7 = CourseTermDef(
   certificateTitleEn: "Biology - Ecology and Adaptation",
   certificateTitleMy: "ဇီဝဗေဒ — ဂေဟဗေဒနှင့် လိုက်လျောညီထွေဖြစ်ခြင်း",
   weeks: [
-    _secondary2ScienceWeek25,
-    _secondary2ScienceWeek26,
-    _secondary2ScienceWeek27,
-    _secondary2ScienceWeek28,
+    _year8ScienceWeek25,
+    _year8ScienceWeek26,
+    _year8ScienceWeek27,
+    _year8ScienceWeek28,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek29 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek29 = CourseWeekDef(
   id: "course-secondary2-science-w29",
   weekNumber: 29,
   titleEn: "The Earth's Atmosphere",
@@ -137862,7 +137862,7 @@ const CourseWeekDef _secondary2ScienceWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek30 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek30 = CourseWeekDef(
   id: "course-secondary2-science-w30",
   weekNumber: 30,
   titleEn: "The Carbon Cycle",
@@ -138328,7 +138328,7 @@ const CourseWeekDef _secondary2ScienceWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek31 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek31 = CourseWeekDef(
   id: "course-secondary2-science-w31",
   weekNumber: 31,
   titleEn: "Climate Change",
@@ -138793,7 +138793,7 @@ const CourseWeekDef _secondary2ScienceWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek32 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek32 = CourseWeekDef(
   id: "course-secondary2-science-w32",
   weekNumber: 32,
   titleEn: "Environmental Summit",
@@ -139240,7 +139240,7 @@ const CourseWeekDef _secondary2ScienceWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm8 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm8 = CourseTermDef(
   id: "course-secondary2-science-term8",
   termNumber: 8,
   titleEn: "Chemistry - Earth and Atmosphere",
@@ -139248,14 +139248,14 @@ const CourseTermDef _secondary2ScienceTerm8 = CourseTermDef(
   certificateTitleEn: "Chemistry - Earth and Atmosphere",
   certificateTitleMy: "ဓာတုဗေဒ - ကမ္ဘာနှင့် လေထု",
   weeks: [
-    _secondary2ScienceWeek29,
-    _secondary2ScienceWeek30,
-    _secondary2ScienceWeek31,
-    _secondary2ScienceWeek32,
+    _year8ScienceWeek29,
+    _year8ScienceWeek30,
+    _year8ScienceWeek31,
+    _year8ScienceWeek32,
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek33 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek33 = CourseWeekDef(
   id: "course-secondary2-science-w33",
   weekNumber: 33,
   titleEn: "Speed and Distance",
@@ -139660,7 +139660,7 @@ const CourseWeekDef _secondary2ScienceWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek34 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek34 = CourseWeekDef(
   id: "course-secondary2-science-w34",
   weekNumber: 34,
   titleEn: "Distance-Time Graphs",
@@ -140109,7 +140109,7 @@ const CourseWeekDef _secondary2ScienceWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek35 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek35 = CourseWeekDef(
   id: "course-secondary2-science-w35",
   weekNumber: 35,
   titleEn: "Year 8 Science Review",
@@ -140564,7 +140564,7 @@ const CourseWeekDef _secondary2ScienceWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2ScienceWeek36 = CourseWeekDef(
+const CourseWeekDef _year8ScienceWeek36 = CourseWeekDef(
   id: "course-secondary2-science-w36",
   weekNumber: 36,
   titleEn: "Science Investigation Project",
@@ -141012,7 +141012,7 @@ const CourseWeekDef _secondary2ScienceWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2ScienceTerm9 = CourseTermDef(
+const CourseTermDef _year8ScienceTerm9 = CourseTermDef(
   id: "course-secondary2-science-term9",
   termNumber: 9,
   titleEn: "Physics - Motion and Forces",
@@ -141020,10 +141020,10 @@ const CourseTermDef _secondary2ScienceTerm9 = CourseTermDef(
   certificateTitleEn: "Physics - Motion and Forces",
   certificateTitleMy: "ရူပဗေဒ — ရွေ့လျားမှုနှင့် အားများ",
   weeks: [
-    _secondary2ScienceWeek33,
-    _secondary2ScienceWeek34,
-    _secondary2ScienceWeek35,
-    _secondary2ScienceWeek36,
+    _year8ScienceWeek33,
+    _year8ScienceWeek34,
+    _year8ScienceWeek35,
+    _year8ScienceWeek36,
   ],
 );
 
@@ -141031,7 +141031,7 @@ const CourseTermDef _secondary2ScienceTerm9 = CourseTermDef(
 // Secondary 2 Science -- full-year pathway wrapper
 // =====================================================================
 
-const CoursePathwayDef secondary2SciencePathway = CoursePathwayDef(
+const CoursePathwayDef year8SciencePathway = CoursePathwayDef(
   id: "course-secondary2-science",
   subject: "science",
   grade: Grade.year8,
@@ -141043,15 +141043,15 @@ const CoursePathwayDef secondary2SciencePathway = CoursePathwayDef(
       "Secondary 2 သိပ္ပံသင်တန်းသည် Term 9 ခုအတွင်း ၃၆ ပတ်ပါဝင်သော ပညာသင်နှစ်တစ်ခုလုံးကို လွှမ်းခြုံပြီး၊ အလင်းကြောင်းပေါင်းစပ်ခြင်းနှင့် ဓာတုဖော်မြူလာများ၊ သိပ်သည်းဆနှင့် ပစ္စည်းအခြေအနေများ၊ လူ့သွေးလည်ပတ်စနစ်၊ သတ္တုများ၏ တုံ့ပြန်နိုင်စွမ်း၊ စွမ်းအင်သိုလှောင်မှုနှင့် ကူးပြောင်းမှုများ၊ လိုက်လျောညီထွေဖြစ်မှုနှင့် အသက်ရှင်ကျန်ရစ်မှု၊ ကမ္ဘာ့လေထုကို လွှမ်းခြုံပြီး ရွေ့လျားမှု၊ အားများနှင့် တစ်နှစ်တာ ကိုယ်ပိုင်ပရောဂျက် စူးစမ်းလေ့လာမှုဖြင့် အဆုံးသတ်သည်။",
   totalWeeks: 36,
   terms: [
-    _secondary2ScienceTerm1,
-    _secondary2ScienceTerm2,
-    _secondary2ScienceTerm3,
-    _secondary2ScienceTerm4,
-    _secondary2ScienceTerm5,
-    _secondary2ScienceTerm6,
-    _secondary2ScienceTerm7,
-    _secondary2ScienceTerm8,
-    _secondary2ScienceTerm9,
+    _year8ScienceTerm1,
+    _year8ScienceTerm2,
+    _year8ScienceTerm3,
+    _year8ScienceTerm4,
+    _year8ScienceTerm5,
+    _year8ScienceTerm6,
+    _year8ScienceTerm7,
+    _year8ScienceTerm8,
+    _year8ScienceTerm9,
   ],
 );
 // =====================================================================

@@ -12649,7 +12649,7 @@ const CourseTermDef igcsePhysicsTerm9 = CourseTermDef(
 /// physics, waves and optics, electricity and magnetism, electromagnetic
 /// effects, atomic and nuclear physics, space physics, and experimental
 /// technique, to exam prep and graduation.
-const CoursePathwayDef physicsYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10PhysicsPathway = CoursePathwayDef(
   id: "course-year10-physics",
   subject: "physics",
   grade: Grade.year10,
@@ -12668,7 +12668,7 @@ const CoursePathwayDef physicsYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef physicsYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11PhysicsPathway = CoursePathwayDef(
   id: "course-year11-physics",
   subject: "physics",
   grade: Grade.year11,

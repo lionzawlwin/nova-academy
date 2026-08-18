@@ -448,7 +448,7 @@ final goRouterProvider = Provider<GoRouter>((ref) {
           final extra = state.extra;
           final week = extra is CourseWeekDef
               ? extra
-              : secondary1ComputingPathway.terms.first.weeks.first;
+              : year7ComputingPathway.terms.first.weeks.first;
           return CoursePathwayWeekScreen(week: week);
         },
       ),

@@ -9,7 +9,7 @@
 /// lesson's [DailyLessonDef.id] -- no Firestore schema changes needed.
 ///
 /// Secondary 1 Computing's full 36-week, 9-term pathway (see
-/// [secondary1ComputingPathway]) is now complete: Term 1 (Computing
+/// [year7ComputingPathway]) is now complete: Term 1 (Computing
 /// Foundations) and Term 2 (Networks, the Internet & Data) proved the
 /// pipeline end-to-end (data model, all four interaction types, gamified
 /// path UI, persisted completion); Terms 3, 4, 5 and 7 built a
@@ -40,7 +40,7 @@
 /// rather than teach once and move on) continues across every later term
 /// through Week 36.
 ///
-/// Secondary 2 Computing (see [secondary2ComputingPathway]) is a separate,
+/// Secondary 2 Computing (see [year8ComputingPathway]) is a separate,
 /// independent pathway for Grade [Grade.year8] rather than more terms
 /// grafted onto Secondary 1's own 36-week pathway. Term 1 (Weeks 1-4,
 /// Lists and Arrays), Term 2 (Weeks 5-8, Functions and Procedures), Term

@@ -12,7 +12,7 @@ import 'course_pathways_core.dart';
 // Weeks 1-4
 // =====================================================================
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek1 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek1 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w1",
   weekNumber: 1,
   titleEn: "What is Global Perspectives?",
@@ -542,7 +542,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek2 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek2 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w2",
   weekNumber: 2,
   titleEn: "Asking Good Questions",
@@ -1067,7 +1067,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek3 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek3 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w3",
   weekNumber: 3,
   titleEn: "Fact vs. Fake News",
@@ -1608,7 +1608,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek4 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek4 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w4",
   weekNumber: 4,
   titleEn: "Mini Research Project",
@@ -2142,7 +2142,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek4 = CourseWeekDef(
 // Weeks 5-8
 // =====================================================================
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek5 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek5 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w5",
   weekNumber: 5,
   titleEn: "Effective Communication",
@@ -2665,7 +2665,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek6 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek6 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w6",
   weekNumber: 6,
   titleEn: "Working in a Team",
@@ -3202,7 +3202,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek7 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek7 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w7",
   weekNumber: 7,
   titleEn: "Active Listening",
@@ -3730,7 +3730,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek8 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek8 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w8",
   weekNumber: 8,
   titleEn: "Group Presentation",
@@ -4268,7 +4268,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek8 = CourseWeekDef(
 // Weeks 9-12
 // =====================================================================
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek9 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek9 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w9",
   weekNumber: 9,
   titleEn: "Understanding Conflict",
@@ -4804,7 +4804,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek10 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek10 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w10",
   weekNumber: 10,
   titleEn: "Conflict Resolution",
@@ -5329,7 +5329,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek11 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek11 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w11",
   weekNumber: 11,
   titleEn: "Peacebuilding",
@@ -5872,7 +5872,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek12 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek12 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w12",
   weekNumber: 12,
   titleEn: "Peace Poster Campaign",
@@ -6415,7 +6415,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek12 = CourseWeekDef(
 // Weeks 13-16
 // =====================================================================
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek13 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek13 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w13",
   weekNumber: 13,
   titleEn: "Global Health Issues",
@@ -6945,7 +6945,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek14 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek14 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w14",
   weekNumber: 14,
   titleEn: "Mental Health Awareness",
@@ -7478,7 +7478,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek15 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek15 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w15",
   weekNumber: 15,
   titleEn: "Access to Healthcare",
@@ -8015,7 +8015,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek16 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek16 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w16",
   weekNumber: 16,
   titleEn: "Health Action Plan",
@@ -8570,7 +8570,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek16 = CourseWeekDef(
 // Weeks 17-20. Generated fragment awaiting assembly into course_pathway_bank.dart.
 // Rotating Myanmar-student protagonist cast per week (not a single fixed character).
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek17 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek17 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w17",
   weekNumber: 17,
   titleEn: "The Right to Education",
@@ -9113,7 +9113,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek18 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek18 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w18",
   weekNumber: 18,
   titleEn: "Barriers to Learning",
@@ -9648,7 +9648,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek19 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek19 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w19",
   weekNumber: 19,
   titleEn: "Schools Around the World",
@@ -10192,7 +10192,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek20 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek20 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w20",
   weekNumber: 20,
   titleEn: "Ideal School Design",
@@ -10736,7 +10736,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek20 = CourseWeekDef(
 // Weeks 21-24. Generated fragment awaiting assembly into course_pathway_bank.dart.
 // Rotating Myanmar-student protagonist cast per week (not a single fixed character).
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek21 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek21 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w21",
   weekNumber: 21,
   titleEn: "Climate Change Basics",
@@ -11272,7 +11272,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek22 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek22 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w22",
   weekNumber: 22,
   titleEn: "Plastic Pollution",
@@ -11809,7 +11809,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek23 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek23 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w23",
   weekNumber: 23,
   titleEn: "Sustainable Living",
@@ -12340,7 +12340,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek24 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek24 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w24",
   weekNumber: 24,
   titleEn: "Eco-Friendly Challenge",
@@ -12884,7 +12884,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek24 = CourseWeekDef(
 // Weeks 25-28. Generated fragment awaiting assembly into course_pathway_bank.dart.
 // Rotating Myanmar-student protagonist cast per week (not a single fixed character).
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek25 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek25 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w25",
   weekNumber: 25,
   titleEn: "What Is Poverty?",
@@ -13412,7 +13412,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek26 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek26 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w26",
   weekNumber: 26,
   titleEn: "Global Inequality",
@@ -13952,7 +13952,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek27 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek27 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w27",
   weekNumber: 27,
   titleEn: "Fair Trade",
@@ -14498,7 +14498,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek28 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek28 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w28",
   weekNumber: 28,
   titleEn: "Charity Pitch",
@@ -15049,7 +15049,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek28 = CourseWeekDef(
 // Weeks 29-32. Generated fragment awaiting assembly into course_pathway_bank.dart.
 // Rotating Myanmar-student protagonist cast per week (not a single fixed character).
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek29 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek29 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w29",
   weekNumber: 29,
   titleEn: "Understanding Culture",
@@ -15584,7 +15584,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek30 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek30 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w30",
   weekNumber: 30,
   titleEn: "Identity and Diversity",
@@ -16126,7 +16126,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek31 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek31 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w31",
   weekNumber: 31,
   titleEn: "Cultural Traditions",
@@ -16669,7 +16669,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek32 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek32 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w32",
   weekNumber: 32,
   titleEn: "Cultural Exchange Fair",
@@ -17206,7 +17206,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek32 = CourseWeekDef(
 // Weeks 33-36. Generated fragment awaiting assembly into course_pathway_bank.dart.
 // Rotating Myanmar-student protagonist cast per week (not a single fixed character).
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek33 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek33 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w33",
   weekNumber: 33,
   titleEn: "Evaluating Sources",
@@ -17753,7 +17753,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek34 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek34 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w34",
   weekNumber: 34,
   titleEn: "Reflecting on Learning",
@@ -18304,7 +18304,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek35 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek35 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w35",
   weekNumber: 35,
   titleEn: "Planning the Final Project",
@@ -18849,7 +18849,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary1GlobalPerspectivesWeek36 = CourseWeekDef(
+const CourseWeekDef _year7GlobalPerspectivesWeek36 = CourseWeekDef(
   id: "course-secondary1-globalperspectives-w36",
   weekNumber: 36,
   titleEn: "Global Perspectives Exhibition",
@@ -19404,7 +19404,7 @@ const CourseWeekDef _secondary1GlobalPerspectivesWeek36 = CourseWeekDef(
 /// Term 8 (Culture and Identity), and Term 9 (Year Review & Final
 /// Project). Uses a rotating cast of named Myanmar student protagonists
 /// across weeks rather than a single fixed character.
-const CourseTermDef _secondary1GlobalPerspectivesTerm1 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm1 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t1",
   termNumber: 1,
   titleEn: "Research & Information Skills",
@@ -19412,14 +19412,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm1 = CourseTermDef(
   certificateTitleEn: "Research & Information Skills",
   certificateTitleMy: "သုတေသနနှင့် အချက်အလက်စွမ်းရည်များ",
   weeks: [
-    _secondary1GlobalPerspectivesWeek1,
-    _secondary1GlobalPerspectivesWeek2,
-    _secondary1GlobalPerspectivesWeek3,
-    _secondary1GlobalPerspectivesWeek4,
+    _year7GlobalPerspectivesWeek1,
+    _year7GlobalPerspectivesWeek2,
+    _year7GlobalPerspectivesWeek3,
+    _year7GlobalPerspectivesWeek4,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm2 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm2 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t2",
   termNumber: 2,
   titleEn: "Communication & Collaboration",
@@ -19427,14 +19427,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm2 = CourseTermDef(
   certificateTitleEn: "Communication & Collaboration",
   certificateTitleMy: "ဆက်သွယ်ရေးနှင့် ပူးပေါင်းဆောင်ရွက်ခြင်း",
   weeks: [
-    _secondary1GlobalPerspectivesWeek5,
-    _secondary1GlobalPerspectivesWeek6,
-    _secondary1GlobalPerspectivesWeek7,
-    _secondary1GlobalPerspectivesWeek8,
+    _year7GlobalPerspectivesWeek5,
+    _year7GlobalPerspectivesWeek6,
+    _year7GlobalPerspectivesWeek7,
+    _year7GlobalPerspectivesWeek8,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm3 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm3 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t3",
   termNumber: 3,
   titleEn: "Conflict and Peace",
@@ -19442,14 +19442,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm3 = CourseTermDef(
   certificateTitleEn: "Conflict and Peace",
   certificateTitleMy: "ပဋိပက္ခနှင့် ငြိမ်းချမ်းရေး",
   weeks: [
-    _secondary1GlobalPerspectivesWeek9,
-    _secondary1GlobalPerspectivesWeek10,
-    _secondary1GlobalPerspectivesWeek11,
-    _secondary1GlobalPerspectivesWeek12,
+    _year7GlobalPerspectivesWeek9,
+    _year7GlobalPerspectivesWeek10,
+    _year7GlobalPerspectivesWeek11,
+    _year7GlobalPerspectivesWeek12,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm4 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm4 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t4",
   termNumber: 4,
   titleEn: "Health and Well-being",
@@ -19457,14 +19457,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm4 = CourseTermDef(
   certificateTitleEn: "Health and Well-being",
   certificateTitleMy: "ကျန်းမာရေးနှင့် သာယာဝေဖြောမှု",
   weeks: [
-    _secondary1GlobalPerspectivesWeek13,
-    _secondary1GlobalPerspectivesWeek14,
-    _secondary1GlobalPerspectivesWeek15,
-    _secondary1GlobalPerspectivesWeek16,
+    _year7GlobalPerspectivesWeek13,
+    _year7GlobalPerspectivesWeek14,
+    _year7GlobalPerspectivesWeek15,
+    _year7GlobalPerspectivesWeek16,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm5 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm5 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t5",
   termNumber: 5,
   titleEn: "Education for All",
@@ -19472,14 +19472,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm5 = CourseTermDef(
   certificateTitleEn: "Education for All",
   certificateTitleMy: "လူတိုင်းအတွက် ပညာရေး",
   weeks: [
-    _secondary1GlobalPerspectivesWeek17,
-    _secondary1GlobalPerspectivesWeek18,
-    _secondary1GlobalPerspectivesWeek19,
-    _secondary1GlobalPerspectivesWeek20,
+    _year7GlobalPerspectivesWeek17,
+    _year7GlobalPerspectivesWeek18,
+    _year7GlobalPerspectivesWeek19,
+    _year7GlobalPerspectivesWeek20,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm6 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm6 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t6",
   termNumber: 6,
   titleEn: "Environment and Sustainability",
@@ -19487,14 +19487,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm6 = CourseTermDef(
   certificateTitleEn: "Environment and Sustainability",
   certificateTitleMy: "သဘာဝပတ်ဝန်းကျင်နှင့် ရေရှည်တည်တံ့မှု",
   weeks: [
-    _secondary1GlobalPerspectivesWeek21,
-    _secondary1GlobalPerspectivesWeek22,
-    _secondary1GlobalPerspectivesWeek23,
-    _secondary1GlobalPerspectivesWeek24,
+    _year7GlobalPerspectivesWeek21,
+    _year7GlobalPerspectivesWeek22,
+    _year7GlobalPerspectivesWeek23,
+    _year7GlobalPerspectivesWeek24,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm7 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm7 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t7",
   termNumber: 7,
   titleEn: "Inequality and Poverty",
@@ -19502,14 +19502,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm7 = CourseTermDef(
   certificateTitleEn: "Inequality and Poverty",
   certificateTitleMy: "မညီမျှမှုနှင့် ဆင်းရဲမွဲတေမှု",
   weeks: [
-    _secondary1GlobalPerspectivesWeek25,
-    _secondary1GlobalPerspectivesWeek26,
-    _secondary1GlobalPerspectivesWeek27,
-    _secondary1GlobalPerspectivesWeek28,
+    _year7GlobalPerspectivesWeek25,
+    _year7GlobalPerspectivesWeek26,
+    _year7GlobalPerspectivesWeek27,
+    _year7GlobalPerspectivesWeek28,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm8 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm8 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t8",
   termNumber: 8,
   titleEn: "Culture and Identity",
@@ -19517,14 +19517,14 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm8 = CourseTermDef(
   certificateTitleEn: "Culture and Identity",
   certificateTitleMy: "ယဉ်ကျေးမှုနှင့် ကိုယ်ပိုင်လက္ခဏာ",
   weeks: [
-    _secondary1GlobalPerspectivesWeek29,
-    _secondary1GlobalPerspectivesWeek30,
-    _secondary1GlobalPerspectivesWeek31,
-    _secondary1GlobalPerspectivesWeek32,
+    _year7GlobalPerspectivesWeek29,
+    _year7GlobalPerspectivesWeek30,
+    _year7GlobalPerspectivesWeek31,
+    _year7GlobalPerspectivesWeek32,
   ],
 );
 
-const CourseTermDef _secondary1GlobalPerspectivesTerm9 = CourseTermDef(
+const CourseTermDef _year7GlobalPerspectivesTerm9 = CourseTermDef(
   id: "course-secondary1-globalperspectives-t9",
   termNumber: 9,
   titleEn: "Year Review & Final Project",
@@ -19532,10 +19532,10 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm9 = CourseTermDef(
   certificateTitleEn: "Year Review & Final Project",
   certificateTitleMy: "နှစ်ပြန်လည်သုံးသပ်ခြင်းနှင့် နောက်ဆုံးပရောဂျက်",
   weeks: [
-    _secondary1GlobalPerspectivesWeek33,
-    _secondary1GlobalPerspectivesWeek34,
-    _secondary1GlobalPerspectivesWeek35,
-    _secondary1GlobalPerspectivesWeek36,
+    _year7GlobalPerspectivesWeek33,
+    _year7GlobalPerspectivesWeek34,
+    _year7GlobalPerspectivesWeek35,
+    _year7GlobalPerspectivesWeek36,
   ],
 );
 
@@ -19543,7 +19543,7 @@ const CourseTermDef _secondary1GlobalPerspectivesTerm9 = CourseTermDef(
 /// terms (Weeks 1-36) are represented, completing the full [totalWeeks]
 /// roadmap for real -- "Week 1 of 36" is literally true across the whole
 /// pathway.
-const CoursePathwayDef secondary1GlobalPerspectivesPathway = CoursePathwayDef(
+const CoursePathwayDef year7GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-secondary1-globalperspectives",
   subject: "globalperspectives",
   grade: Grade.year7,
@@ -19555,22 +19555,22 @@ const CoursePathwayDef secondary1GlobalPerspectivesPathway = CoursePathwayDef(
       "ပထမနှစ် (Secondary 1) ကမ္ဘာ့အမြင်ဘာသာရပ်သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ သုတေသနနှင့်အချက်အလက်စွမ်းရည်များသည် ကိုယ်ပိုင်/ဒေသတွင်း/ကမ္ဘာလုံးဆိုင်ရာ ရှုထောင့်များ၊ သုတေသနမေးခွန်းများနှင့် အရင်းအမြစ်များကို အကဲဖြတ်ခြင်းမှတစ်ဆင့် ဘာသာရပ်ကို မိတ်ဆက်ပြီး သုတေသနပရောဂျက်ငယ်တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဆက်သွယ်ရေးနှင့်ပူးပေါင်းဆောင်ရွက်ခြင်းသည် ထိရောက်သောဆက်သွယ်ရေး၊ အဖွဲ့လိုက်လုပ်ဆောင်ခြင်းနှင့် တက်ကြွစွာနားထောင်ခြင်းကို လေ့လာပြီး အဖွဲ့လိုက်တင်ဆက်မှုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ ပဋိပက္ခနှင့်ငြိမ်းချမ်းရေးသည် ပဋိပက္ခ၏အကြောင်းရင်းများ၊ ဖြေရှင်းရေးဗျူဟာများနှင့် ငြိမ်းချမ်းရေးတည်ဆောက်ခြင်းကို စူးစမ်းလေ့လာပြီး ငြိမ်းချမ်းရေးပိုစတာကမ်ပိန်းဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ ကျန်းမာရေးနှင့်သာယာဝေဖြောမှုသည် ကမ္ဘာလုံးဆိုင်ရာကျန်းမာရေးပြဿနာများ၊ စိတ်ကျန်းမာရေးနှင့် ကျန်းမာရေးစောင့်ရှောက်မှုရရှိနိုင်မှုကို လေ့လာပြီး ကျန်းမာရေးလှုပ်ရှားမှုစီမံချက်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ လူတိုင်းအတွက်ပညာရေးသည် ပညာသင်ကြားခွင့်၊ သင်ယူမှုဆိုင်ရာအတားအဆီးများနှင့် ကမ္ဘာတစ်ဝန်းရှိကျောင်းများကို ဆွေးနွေးပြီး စံပြကျောင်းဒီဇိုင်းဆွဲခြင်းဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ သဘာဝပတ်ဝန်းကျင်နှင့်ရေရှည်တည်တံ့မှုသည် ရာသီဥတုပြောင်းလဲမှု၊ ပလတ်စတစ်ညစ်ညမ်းမှုနှင့် ရေရှည်တည်တံ့သောနေထိုင်မှုကို လေ့လာပြီး သဘာဝပတ်ဝန်းကျင်ထိန်းသိမ်းရေးစိန်ခေါ်မှုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ မညီမျှမှုနှင့်ဆင်းရဲမွဲတေမှုသည် ဆင်းရဲမွဲတေမှုကို အဓိပ္ပာယ်ဖွင့်ဆိုပြီး ကမ္ဘာလုံးဆိုင်ရာမညီမျှမှုကို ခွဲခြမ်းစိတ်ဖြာကာ ဖြောင့်မတ်ကုန်သွယ်မှုကို မိတ်ဆက်ပြီး အလှူငွေအစီအစဉ်တင်ပြချက်ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ ယဉ်ကျေးမှုနှင့်ကိုယ်ပိုင်လက္ခဏာသည် ယဉ်ကျေးမှုကို ဖွဲ့စည်းထားသောအရာများ၊ ကိုယ်ပိုင်လက္ခဏာနှင့်ကွဲပြားစုံလင်မှု၊ ယဉ်ကျေးမှုဓလေ့ထုံးတမ်းများကို စူးစမ်းလေ့လာပြီး ယဉ်ကျေးမှုဖလှယ်ရေးပွဲတော်ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်သည် အချက်အလက်စစ်ဆေးခြင်းကို ပြန်လည်သုံးသပ်ပြီး တစ်နှစ်တာသင်ယူမှုကို ပြန်လည်ဆင်ခြင်ကာ ကျောင်းသားများကို ကိုယ်ပိုင်နောက်ဆုံးပရောဂျက်တစ်ခု စီစဉ်တင်ဆက်ရန် ကမ္ဘာ့အမြင်ပြပွဲတစ်ခုတွင် လမ်းညွှန်ပေးလျက် တစ်နှစ်တာလုံးကို ပိတ်သိမ်းသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary1GlobalPerspectivesTerm1,
-    _secondary1GlobalPerspectivesTerm2,
-    _secondary1GlobalPerspectivesTerm3,
-    _secondary1GlobalPerspectivesTerm4,
-    _secondary1GlobalPerspectivesTerm5,
-    _secondary1GlobalPerspectivesTerm6,
-    _secondary1GlobalPerspectivesTerm7,
-    _secondary1GlobalPerspectivesTerm8,
-    _secondary1GlobalPerspectivesTerm9,
+    _year7GlobalPerspectivesTerm1,
+    _year7GlobalPerspectivesTerm2,
+    _year7GlobalPerspectivesTerm3,
+    _year7GlobalPerspectivesTerm4,
+    _year7GlobalPerspectivesTerm5,
+    _year7GlobalPerspectivesTerm6,
+    _year7GlobalPerspectivesTerm7,
+    _year7GlobalPerspectivesTerm8,
+    _year7GlobalPerspectivesTerm9,
   ],
 );
 // =====================================================================
 // Secondary 2 (Year 8) Global Perspectives -- Terms 1-9 (Weeks 1-36)
 // =====================================================================
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek1 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek1 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w1",
   weekNumber: 1,
   titleEn: "What Are Values?",
@@ -20113,7 +20113,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek2 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek2 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w2",
   weekNumber: 2,
   titleEn: "World Religions and Beliefs",
@@ -20651,7 +20651,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek3 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek3 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w3",
   weekNumber: 3,
   titleEn: "Right and Wrong",
@@ -21201,7 +21201,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek4 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek4 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w4",
   weekNumber: 4,
   titleEn: "Values in Action",
@@ -21763,7 +21763,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek5 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek5 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w5",
   weekNumber: 5,
   titleEn: "Living Online",
@@ -22306,7 +22306,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek6 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek6 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w6",
   weekNumber: 6,
   titleEn: "The Digital Divide",
@@ -22854,7 +22854,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek7 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek7 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w7",
   weekNumber: 7,
   titleEn: "The Spread of Misinformation",
@@ -23399,7 +23399,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek8 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek8 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w8",
   weekNumber: 8,
   titleEn: "Digital Awareness Campaign",
@@ -23953,7 +23953,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek9 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek9 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w9",
   weekNumber: 9,
   titleEn: "Universal Declaration of Human Rights",
@@ -24496,7 +24496,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek10 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek10 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w10",
   weekNumber: 10,
   titleEn: "Children's Rights",
@@ -25032,7 +25032,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek11 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek11 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w11",
   weekNumber: 11,
   titleEn: "Human Rights Violations",
@@ -25586,7 +25586,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek12 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek12 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w12",
   weekNumber: 12,
   titleEn: "Advocacy Project",
@@ -26141,7 +26141,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek13 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek13 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w13",
   weekNumber: 13,
   titleEn: "Pandemics and Epidemics",
@@ -26689,7 +26689,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek14 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek14 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w14",
   weekNumber: 14,
   titleEn: "Healthcare Inequality",
@@ -27248,7 +27248,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek15 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek15 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w15",
   weekNumber: 15,
   titleEn: "Mental Health Globally",
@@ -27797,7 +27797,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek16 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek16 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w16",
   weekNumber: 16,
   titleEn: "Health Policy Proposal",
@@ -28349,7 +28349,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek17 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek17 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w17",
   weekNumber: 17,
   titleEn: "The World of Work",
@@ -28891,7 +28891,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek18 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek18 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w18",
   weekNumber: 18,
   titleEn: "Workers' Rights",
@@ -29441,7 +29441,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek19 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek19 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w19",
   weekNumber: 19,
   titleEn: "Jobs of the Future",
@@ -29991,7 +29991,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek20 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek20 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w20",
   weekNumber: 20,
   titleEn: "Career Investigation",
@@ -30546,7 +30546,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek21 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek21 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w21",
   weekNumber: 21,
   titleEn: "Biodiversity Loss",
@@ -31093,7 +31093,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek22 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek22 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w22",
   weekNumber: 22,
   titleEn: "Sustainable Energy",
@@ -31631,7 +31631,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek23 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek23 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w23",
   weekNumber: 23,
   titleEn: "The Circular Economy",
@@ -32173,7 +32173,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek24 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek24 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w24",
   weekNumber: 24,
   titleEn: "Sustainable Business Pitch",
@@ -32729,7 +32729,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek25 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek25 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w25",
   weekNumber: 25,
   titleEn: "Causes of Poverty",
@@ -33280,7 +33280,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek26 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek26 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w26",
   weekNumber: 26,
   titleEn: "Wealth Distribution",
@@ -33826,7 +33826,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek27 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek27 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w27",
   weekNumber: 27,
   titleEn: "Foreign Aid and Development",
@@ -34379,7 +34379,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek28 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek28 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w28",
   weekNumber: 28,
   titleEn: "Development Action Plan",
@@ -34933,7 +34933,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek29 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek29 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w29",
   weekNumber: 29,
   titleEn: "Why People Move",
@@ -35471,7 +35471,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek30 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek30 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w30",
   weekNumber: 30,
   titleEn: "Migration and Culture",
@@ -36022,7 +36022,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek31 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek31 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w31",
   weekNumber: 31,
   titleEn: "Migration Policy and Debate",
@@ -36580,7 +36580,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek32 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek32 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w32",
   weekNumber: 32,
   titleEn: "Community Action Plan",
@@ -37130,7 +37130,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek33 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek33 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w33",
   weekNumber: 33,
   titleEn: "Weighing Evidence and Bias",
@@ -37675,7 +37675,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek34 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek34 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w34",
   weekNumber: 34,
   titleEn: "Reflecting on a Year of Global Issues",
@@ -38181,7 +38181,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek35 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek35 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w35",
   weekNumber: 35,
   titleEn: "Planning the Capstone Project",
@@ -38711,7 +38711,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2GlobalPerspectivesWeek36 = CourseWeekDef(
+const CourseWeekDef _year8GlobalPerspectivesWeek36 = CourseWeekDef(
   id: "course-secondary2-globalperspectives-w36",
   weekNumber: 36,
   titleEn: "Global Perspectives Showcase",
@@ -39247,7 +39247,7 @@ const CourseWeekDef _secondary2GlobalPerspectivesWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm1 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm1 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t1",
   termNumber: 1,
   titleEn: "Beliefs and Values",
@@ -39255,14 +39255,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm1 = CourseTermDef(
   certificateTitleEn: "Beliefs and Values",
   certificateTitleMy: "ယုံကြည်ချက်များနှင့် တန်ဖိုးများ",
   weeks: [
-    _secondary2GlobalPerspectivesWeek1,
-    _secondary2GlobalPerspectivesWeek2,
-    _secondary2GlobalPerspectivesWeek3,
-    _secondary2GlobalPerspectivesWeek4,
+    _year8GlobalPerspectivesWeek1,
+    _year8GlobalPerspectivesWeek2,
+    _year8GlobalPerspectivesWeek3,
+    _year8GlobalPerspectivesWeek4,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm2 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm2 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t2",
   termNumber: 2,
   titleEn: "The Digital World",
@@ -39270,14 +39270,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm2 = CourseTermDef(
   certificateTitleEn: "The Digital World",
   certificateTitleMy: "ဒစ်ဂျစ်တယ် လောက",
   weeks: [
-    _secondary2GlobalPerspectivesWeek5,
-    _secondary2GlobalPerspectivesWeek6,
-    _secondary2GlobalPerspectivesWeek7,
-    _secondary2GlobalPerspectivesWeek8,
+    _year8GlobalPerspectivesWeek5,
+    _year8GlobalPerspectivesWeek6,
+    _year8GlobalPerspectivesWeek7,
+    _year8GlobalPerspectivesWeek8,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm3 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm3 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t3",
   termNumber: 3,
   titleEn: "Human Rights",
@@ -39285,14 +39285,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm3 = CourseTermDef(
   certificateTitleEn: "Human Rights",
   certificateTitleMy: "လူ့အခွင့်အရေး",
   weeks: [
-    _secondary2GlobalPerspectivesWeek9,
-    _secondary2GlobalPerspectivesWeek10,
-    _secondary2GlobalPerspectivesWeek11,
-    _secondary2GlobalPerspectivesWeek12,
+    _year8GlobalPerspectivesWeek9,
+    _year8GlobalPerspectivesWeek10,
+    _year8GlobalPerspectivesWeek11,
+    _year8GlobalPerspectivesWeek12,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm4 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm4 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t4",
   termNumber: 4,
   titleEn: "Disease and Health",
@@ -39300,14 +39300,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm4 = CourseTermDef(
   certificateTitleEn: "Disease and Health",
   certificateTitleMy: "ရောဂါနှင့် ကျန်းမာရေး",
   weeks: [
-    _secondary2GlobalPerspectivesWeek13,
-    _secondary2GlobalPerspectivesWeek14,
-    _secondary2GlobalPerspectivesWeek15,
-    _secondary2GlobalPerspectivesWeek16,
+    _year8GlobalPerspectivesWeek13,
+    _year8GlobalPerspectivesWeek14,
+    _year8GlobalPerspectivesWeek15,
+    _year8GlobalPerspectivesWeek16,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm5 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm5 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t5",
   termNumber: 5,
   titleEn: "Work and Employment",
@@ -39315,14 +39315,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm5 = CourseTermDef(
   certificateTitleEn: "Work and Employment",
   certificateTitleMy: "အလုပ်အကိုင်နှင့် အလုပ်ခန့်ထားမှု",
   weeks: [
-    _secondary2GlobalPerspectivesWeek17,
-    _secondary2GlobalPerspectivesWeek18,
-    _secondary2GlobalPerspectivesWeek19,
-    _secondary2GlobalPerspectivesWeek20,
+    _year8GlobalPerspectivesWeek17,
+    _year8GlobalPerspectivesWeek18,
+    _year8GlobalPerspectivesWeek19,
+    _year8GlobalPerspectivesWeek20,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm6 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm6 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t6",
   termNumber: 6,
   titleEn: "Sustainability and the Environment",
@@ -39330,14 +39330,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm6 = CourseTermDef(
   certificateTitleEn: "Sustainability and the Environment",
   certificateTitleMy: "ရေရှည်တည်တံ့မှုနှင့် သဘာဝပတ်ဝန်းကျင်",
   weeks: [
-    _secondary2GlobalPerspectivesWeek21,
-    _secondary2GlobalPerspectivesWeek22,
-    _secondary2GlobalPerspectivesWeek23,
-    _secondary2GlobalPerspectivesWeek24,
+    _year8GlobalPerspectivesWeek21,
+    _year8GlobalPerspectivesWeek22,
+    _year8GlobalPerspectivesWeek23,
+    _year8GlobalPerspectivesWeek24,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm7 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm7 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t7",
   termNumber: 7,
   titleEn: "Poverty and Inequality",
@@ -39345,14 +39345,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm7 = CourseTermDef(
   certificateTitleEn: "Poverty and Inequality",
   certificateTitleMy: "ဆင်းရဲမွဲတေမှုနှင့် မညီမျှမှု",
   weeks: [
-    _secondary2GlobalPerspectivesWeek25,
-    _secondary2GlobalPerspectivesWeek26,
-    _secondary2GlobalPerspectivesWeek27,
-    _secondary2GlobalPerspectivesWeek28,
+    _year8GlobalPerspectivesWeek25,
+    _year8GlobalPerspectivesWeek26,
+    _year8GlobalPerspectivesWeek27,
+    _year8GlobalPerspectivesWeek28,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm8 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm8 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t8",
   termNumber: 8,
   titleEn: "Migration and Communities",
@@ -39360,14 +39360,14 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm8 = CourseTermDef(
   certificateTitleEn: "Migration and Communities",
   certificateTitleMy: "ရွှေ့ပြောင်းနေထိုင်မှုနှင့် အသိုင်းအဝိုင်းများ",
   weeks: [
-    _secondary2GlobalPerspectivesWeek29,
-    _secondary2GlobalPerspectivesWeek30,
-    _secondary2GlobalPerspectivesWeek31,
-    _secondary2GlobalPerspectivesWeek32,
+    _year8GlobalPerspectivesWeek29,
+    _year8GlobalPerspectivesWeek30,
+    _year8GlobalPerspectivesWeek31,
+    _year8GlobalPerspectivesWeek32,
   ],
 );
 
-const CourseTermDef _secondary2GlobalPerspectivesTerm9 = CourseTermDef(
+const CourseTermDef _year8GlobalPerspectivesTerm9 = CourseTermDef(
   id: "course-secondary2-globalperspectives-t9",
   termNumber: 9,
   titleEn: "Year Review & Final Project",
@@ -39375,10 +39375,10 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm9 = CourseTermDef(
   certificateTitleEn: "Year Review & Final Project",
   certificateTitleMy: "နှစ်ပြန်လည်သုံးသပ်ခြင်းနှင့် နောက်ဆုံးပရောဂျက်",
   weeks: [
-    _secondary2GlobalPerspectivesWeek33,
-    _secondary2GlobalPerspectivesWeek34,
-    _secondary2GlobalPerspectivesWeek35,
-    _secondary2GlobalPerspectivesWeek36,
+    _year8GlobalPerspectivesWeek33,
+    _year8GlobalPerspectivesWeek34,
+    _year8GlobalPerspectivesWeek35,
+    _year8GlobalPerspectivesWeek36,
   ],
 );
 
@@ -39387,7 +39387,7 @@ const CourseTermDef _secondary2GlobalPerspectivesTerm9 = CourseTermDef(
 /// roadmap for real -- "Week 1 of 36" is literally true across the
 /// whole pathway. Uses a rotating cast of named Myanmar students as
 /// protagonists across weeks, not a single fixed character.
-const CoursePathwayDef secondary2GlobalPerspectivesPathway = CoursePathwayDef(
+const CoursePathwayDef year8GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-secondary2-globalperspectives",
   subject: "globalperspectives",
   grade: Grade.year8,
@@ -39399,15 +39399,15 @@ const CoursePathwayDef secondary2GlobalPerspectivesPathway = CoursePathwayDef(
       "ဒုတိယနှစ် (Secondary 2 / Year 8) ကမ္ဘာ့အမြင်ဘာသာရပ်သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ၊ ဇာတ်ကောင်တစ်ဦးတည်းအစား မြန်မာကျောင်းသားအမည်များစွာကို အလှည့်ကျအသုံးပြုသည်။ ပထမနှစ်ဝက်၊ ယုံကြည်ချက်များနှင့် တန်ဖိုးများသည် ကိုယ်ပိုင်ယုံကြည်ချက်များ မည်သည့်နေရာမှ လာကြောင်းနှင့် ကွဲပြားသော အမြင်များကို မည်သို့ လေးစားရမည်ကို စူးစမ်းလေ့လာသည်။ ဒုတိယနှစ်ဝက်၊ ဒစ်ဂျစ်တယ်လောကသည် အွန်လိုင်းသတင်းအချက်အလက်များ၊ ဒစ်ဂျစ်တယ်ခြေရာများနှင့် တာဝန်သိသော နည်းပညာအသုံးပြုမှုကို လေ့လာသည်။ တတိယနှစ်ဝက်၊ လူ့အခွင့်အရေးသည် အများလက်ခံနိုင်သော အခွင့်အရေးများ၊ လက်တွေ့ကမ္ဘာ အမှုကိစ္စလေ့လာမှုများနှင့် အခွင့်အရေးများကို မည်သို့ ကာကွယ်နိုင်ကြောင်းကို မိတ်ဆက်သည်။ စတုတ္ထနှစ်ဝက်၊ ရောဂါနှင့်ကျန်းမာရေးသည် ကမ္ဘာလုံးဆိုင်ရာ ကျန်းမာရေးစိန်ခေါ်မှုများ၊ ကျန်းမာရေးစောင့်ရှောက်မှု ရရှိနိုင်မှုနှင့် အများပြည်သူ ကျန်းမာရေးတုံ့ပြန်မှုများကို လေ့လာသည်။ ပဉ္စမနှစ်ဝက်၊ အလုပ်အကိုင်နှင့်အလုပ်ခန့်ထားမှုသည် ပြောင်းလဲနေသော အလုပ်ဈေးကွက်များ၊ အလုပ်သမားအခွင့်အရေးများနှင့် အသက်မွေးဝမ်းကျောင်း လမ်းကြောင်းများကို စူးစမ်းလေ့လာသည်။ ဆဌမနှစ်ဝက်၊ ရေရှည်တည်တံ့မှုနှင့်သဘာဝပတ်ဝန်းကျင်သည် ရာသီဥတု သက်ရောက်မှု၊ အရင်းအမြစ် အသုံးပြုမှုနှင့် အသိုင်းအဝိုင်း သဘာဝပတ်ဝန်းကျင် လှုပ်ရှားမှုကို လေ့လာသည်။ သတ္တမနှစ်ဝက်၊ ဆင်းရဲမွဲတေမှုနှင့်မညီမျှမှုသည် ဆင်းရဲမွဲတေမှု၏ အကြောင်းရင်းများနှင့် ဓနဥစ္စာ ခွဲဝေမှုကို လေ့လာပြီး ဖွံ့ဖြိုးတိုးတက်ရေး လုပ်ငန်းစဉ်တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ ရွှေ့ပြောင်းနေထိုင်မှုနှင့်အသိုင်းအဝိုင်းများသည် လူများ အဘယ့်ကြောင့် ရွှေ့ပြောင်းကြသနည်း၊ ရွှေ့ပြောင်းနေထိုင်မှုသည် ယဉ်ကျေးမှုနှင့် ကိုယ်ပိုင်လက္ခဏာကို မည်သို့ ပုံဖော်ကြောင်းနှင့် ရွှေ့ပြောင်းနေထိုင်မှု မူဝါဒ ဆွေးနွေးငြင်းခုံမှုကို စူးစမ်းလေ့လာပြီး ရောက်ရှိလာသူအသစ်များကို ကြိုဆိုရန် အသိုင်းအဝိုင်း လုပ်ငန်းစဉ်တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်သည် သက်သေအထောက်အထားကို ချိန်ဆခြင်းနှင့် ဘက်လိုက်မှုကို သိရှိခြင်းကို သင်ယူပြီး တစ်နှစ်တာလုံး၏ ကမ္ဘာလုံးဆိုင်ရာ ကိစ္စရပ်များကို ပြန်လည်ဆင်ခြင်ကာ ကျောင်းသားများကို ကိုယ်ပိုင် အထွတ်အထိပ် ပရောဂျက်တစ်ခု စီစဉ်တင်ဆက်ရန် Global Perspectives ပြပွဲတစ်ခုတွင် လမ်းညွှန်ပေးလျက် တစ်နှစ်တာလုံးကို ပိတ်သိမ်းသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary2GlobalPerspectivesTerm1,
-    _secondary2GlobalPerspectivesTerm2,
-    _secondary2GlobalPerspectivesTerm3,
-    _secondary2GlobalPerspectivesTerm4,
-    _secondary2GlobalPerspectivesTerm5,
-    _secondary2GlobalPerspectivesTerm6,
-    _secondary2GlobalPerspectivesTerm7,
-    _secondary2GlobalPerspectivesTerm8,
-    _secondary2GlobalPerspectivesTerm9,
+    _year8GlobalPerspectivesTerm1,
+    _year8GlobalPerspectivesTerm2,
+    _year8GlobalPerspectivesTerm3,
+    _year8GlobalPerspectivesTerm4,
+    _year8GlobalPerspectivesTerm5,
+    _year8GlobalPerspectivesTerm6,
+    _year8GlobalPerspectivesTerm7,
+    _year8GlobalPerspectivesTerm8,
+    _year8GlobalPerspectivesTerm9,
   ],
 );
 // =====================================================================
@@ -39418,7 +39418,7 @@ const CoursePathwayDef secondary2GlobalPerspectivesPathway = CoursePathwayDef(
 // capstone Ethical Tribunal Project.
 // =====================================================================
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek1 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek1 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w1",
   weekNumber: 1,
   titleEn: "Moral Dilemmas in the Modern World",
@@ -39898,7 +39898,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek2 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek2 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w2",
   weekNumber: 2,
   titleEn: "Animal Rights and Welfare",
@@ -40371,7 +40371,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek3 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek3 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w3",
   weekNumber: 3,
   titleEn: "Censorship and Freedom of Speech",
@@ -40846,7 +40846,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek4 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek4 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w4",
   weekNumber: 4,
   titleEn: "Capstone: The Ethical Tribunal Project",
@@ -41324,7 +41324,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm1 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm1 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t1",
   termNumber: 1,
   titleEn: "Global Ethics and Moral Dilemmas",
@@ -41334,14 +41334,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm1 = CourseTermDef(
   certificateTitleMy:
       "ကမ္ဘာလုံးဆိုင်ရာ ကိုယ်ကျင့်တရားနှင့် ကိုယ်ကျင့်တရားဆိုင်ရာ အကျပ်အတည်းများ",
   weeks: [
-    _secondary3GlobalPerspectivesWeek1,
-    _secondary3GlobalPerspectivesWeek2,
-    _secondary3GlobalPerspectivesWeek3,
-    _secondary3GlobalPerspectivesWeek4,
+    _year9GlobalPerspectivesWeek1,
+    _year9GlobalPerspectivesWeek2,
+    _year9GlobalPerspectivesWeek3,
+    _year9GlobalPerspectivesWeek4,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek5 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek5 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w5",
   weekNumber: 5,
   titleEn: "International Diplomacy",
@@ -41814,7 +41814,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek6 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek6 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w6",
   weekNumber: 6,
   titleEn: "Global Superpowers and Trade Wars",
@@ -42284,7 +42284,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek7 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek7 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w7",
   weekNumber: 7,
   titleEn: "Water and Resource Conflicts",
@@ -42755,7 +42755,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek8 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek8 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w8",
   weekNumber: 8,
   titleEn: "Model United Nations (MUN)",
@@ -43231,7 +43231,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm2 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm2 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t2",
   termNumber: 2,
   titleEn: "Geopolitics and International Relations",
@@ -43239,14 +43239,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm2 = CourseTermDef(
   certificateTitleEn: "Geopolitics and International Relations",
   certificateTitleMy: "ဘူမိနိုင်ငံရေးနှင့် နိုင်ငံတကာဆက်ဆံရေး",
   weeks: [
-    _secondary3GlobalPerspectivesWeek5,
-    _secondary3GlobalPerspectivesWeek6,
-    _secondary3GlobalPerspectivesWeek7,
-    _secondary3GlobalPerspectivesWeek8,
+    _year9GlobalPerspectivesWeek5,
+    _year9GlobalPerspectivesWeek6,
+    _year9GlobalPerspectivesWeek7,
+    _year9GlobalPerspectivesWeek8,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek9 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek9 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w9",
   weekNumber: 9,
   titleEn: "The AI Revolution",
@@ -43716,7 +43716,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek10 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek10 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w10",
   weekNumber: 10,
   titleEn: "Surveillance Capitalism and Privacy",
@@ -44193,7 +44193,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek11 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek11 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w11",
   weekNumber: 11,
   titleEn: "Transhumanism and Biotechnology",
@@ -44662,7 +44662,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek12 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek12 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w12",
   weekNumber: 12,
   titleEn: "Tech Regulation Policy Proposal",
@@ -45144,7 +45144,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm3 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm3 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t3",
   termNumber: 3,
   titleEn: "Artificial Intelligence, Automation and Society",
@@ -45152,14 +45152,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm3 = CourseTermDef(
   certificateTitleEn: "Artificial Intelligence, Automation and Society",
   certificateTitleMy: "ဉာဏ်ရည်တု၊ အလိုအလျောက်စက်ယန္တရားနှင့် လူ့အဖွဲ့အစည်း",
   weeks: [
-    _secondary3GlobalPerspectivesWeek9,
-    _secondary3GlobalPerspectivesWeek10,
-    _secondary3GlobalPerspectivesWeek11,
-    _secondary3GlobalPerspectivesWeek12,
+    _year9GlobalPerspectivesWeek9,
+    _year9GlobalPerspectivesWeek10,
+    _year9GlobalPerspectivesWeek11,
+    _year9GlobalPerspectivesWeek12,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek13 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek13 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w13",
   weekNumber: 13,
   titleEn: "Climate Refugees",
@@ -45637,7 +45637,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek14 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek14 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w14",
   weekNumber: 14,
   titleEn: "Green Growth vs Degrowth",
@@ -46107,7 +46107,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek15 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek15 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w15",
   weekNumber: 15,
   titleEn: "Global Climate Summits (COP)",
@@ -46585,7 +46585,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek16 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek16 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w16",
   weekNumber: 16,
   titleEn: "City Climate Action Plan",
@@ -47072,7 +47072,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm4 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm4 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t4",
   termNumber: 4,
   titleEn: "Climate Crisis and Environmental Policies",
@@ -47080,14 +47080,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm4 = CourseTermDef(
   certificateTitleEn: "Climate Crisis and Environmental Policies",
   certificateTitleMy: "ရာသီဥတုအကျပ်အတည်းနှင့် ပတ်ဝန်းကျင်ဆိုင်ရာမူဝါဒများ",
   weeks: [
-    _secondary3GlobalPerspectivesWeek13,
-    _secondary3GlobalPerspectivesWeek14,
-    _secondary3GlobalPerspectivesWeek15,
-    _secondary3GlobalPerspectivesWeek16,
+    _year9GlobalPerspectivesWeek13,
+    _year9GlobalPerspectivesWeek14,
+    _year9GlobalPerspectivesWeek15,
+    _year9GlobalPerspectivesWeek16,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek17 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek17 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w17",
   weekNumber: 17,
   titleEn: "Patent Laws and Essential Medicines",
@@ -47569,7 +47569,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek18 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek18 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w18",
   weekNumber: 18,
   titleEn: "Mental Health as a Global Crisis",
@@ -48055,7 +48055,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek19 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek19 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w19",
   weekNumber: 19,
   titleEn: "Food Security and Global Hunger",
@@ -48532,7 +48532,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek20 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek20 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w20",
   weekNumber: 20,
   titleEn: "Global Health Intervention Proposal",
@@ -49011,7 +49011,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm5 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm5 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t5",
   termNumber: 5,
   titleEn: "Global Health and Inequality",
@@ -49019,14 +49019,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm5 = CourseTermDef(
   certificateTitleEn: "Global Health and Inequality",
   certificateTitleMy: "ကမ္ဘာလုံးဆိုင်ရာကျန်းမာရေးနှင့် မညီမျှမှု",
   weeks: [
-    _secondary3GlobalPerspectivesWeek17,
-    _secondary3GlobalPerspectivesWeek18,
-    _secondary3GlobalPerspectivesWeek19,
-    _secondary3GlobalPerspectivesWeek20,
+    _year9GlobalPerspectivesWeek17,
+    _year9GlobalPerspectivesWeek18,
+    _year9GlobalPerspectivesWeek19,
+    _year9GlobalPerspectivesWeek20,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek21 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek21 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w21",
   weekNumber: 21,
   titleEn: "Cultural Imperialism vs Globalisation",
@@ -49501,7 +49501,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek22 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek22 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w22",
   weekNumber: 22,
   titleEn: "Preserving Endangered Heritage",
@@ -49977,7 +49977,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek23 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek23 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w23",
   weekNumber: 23,
   titleEn: "Tourism and its Impacts",
@@ -50458,7 +50458,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek24 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek24 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w24",
   weekNumber: 24,
   titleEn: "Cultural Heritage Preservation Project",
@@ -50946,7 +50946,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm6 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm6 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t6",
   termNumber: 6,
   titleEn: "Cultural Heritage and Globalisation",
@@ -50954,14 +50954,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm6 = CourseTermDef(
   certificateTitleEn: "Cultural Heritage and Globalisation",
   certificateTitleMy: "ယဉ်ကျေးမှုအမွေအနှစ်နှင့် ကမ္ဘာလုံးဆိုင်ရာပေါင်းစည်းမှု",
   weeks: [
-    _secondary3GlobalPerspectivesWeek21,
-    _secondary3GlobalPerspectivesWeek22,
-    _secondary3GlobalPerspectivesWeek23,
-    _secondary3GlobalPerspectivesWeek24,
+    _year9GlobalPerspectivesWeek21,
+    _year9GlobalPerspectivesWeek22,
+    _year9GlobalPerspectivesWeek23,
+    _year9GlobalPerspectivesWeek24,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek25 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek25 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w25",
   weekNumber: 25,
   titleEn: "Modern Slavery and Human Trafficking",
@@ -51439,7 +51439,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek26 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek26 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w26",
   weekNumber: 26,
   titleEn: "Youth Activism and Global Change",
@@ -51919,7 +51919,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek27 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek27 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w27",
   weekNumber: 27,
   titleEn: "International Justice Systems",
@@ -52401,7 +52401,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek28 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek28 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w28",
   weekNumber: 28,
   titleEn: "Human Rights Campaign Strategy",
@@ -52882,7 +52882,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm7 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm7 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t7",
   termNumber: 7,
   titleEn: "Human Rights, Justice and Activism",
@@ -52890,14 +52890,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm7 = CourseTermDef(
   certificateTitleEn: "Human Rights, Justice and Activism",
   certificateTitleMy: "လူ့အခွင့်အရေး၊ တရားမျှတမှုနှင့် တက်ကြွလှုပ်ရှားမှု",
   weeks: [
-    _secondary3GlobalPerspectivesWeek25,
-    _secondary3GlobalPerspectivesWeek26,
-    _secondary3GlobalPerspectivesWeek27,
-    _secondary3GlobalPerspectivesWeek28,
+    _year9GlobalPerspectivesWeek25,
+    _year9GlobalPerspectivesWeek26,
+    _year9GlobalPerspectivesWeek27,
+    _year9GlobalPerspectivesWeek28,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek29 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek29 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w29",
   weekNumber: 29,
   titleEn: "Universal Basic Income (UBI)",
@@ -53373,7 +53373,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek30 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek30 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w30",
   weekNumber: 30,
   titleEn: "The Future of Capitalism",
@@ -53850,7 +53850,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek31 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek31 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w31",
   weekNumber: 31,
   titleEn: "Megacities and Urban Futures",
@@ -54333,7 +54333,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek32 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek32 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w32",
   weekNumber: 32,
   titleEn: "The Utopian City Design",
@@ -54810,7 +54810,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm8 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm8 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t8",
   termNumber: 8,
   titleEn: "Global Economics and Future Systems",
@@ -54818,14 +54818,14 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm8 = CourseTermDef(
   certificateTitleEn: "Global Economics and Future Systems",
   certificateTitleMy: "ကမ္ဘာလုံးဆိုင်ရာစီးပွားရေးနှင့် အနာဂတ်စနစ်များ",
   weeks: [
-    _secondary3GlobalPerspectivesWeek29,
-    _secondary3GlobalPerspectivesWeek30,
-    _secondary3GlobalPerspectivesWeek31,
-    _secondary3GlobalPerspectivesWeek32,
+    _year9GlobalPerspectivesWeek29,
+    _year9GlobalPerspectivesWeek30,
+    _year9GlobalPerspectivesWeek31,
+    _year9GlobalPerspectivesWeek32,
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek33 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek33 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w33",
   weekNumber: 33,
   titleEn: "IGCSE Global Perspectives Essay Structure",
@@ -55294,7 +55294,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek34 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek34 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w34",
   weekNumber: 34,
   titleEn: "Team Project Reflection Preparation",
@@ -55774,7 +55774,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek35 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek35 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w35",
   weekNumber: 35,
   titleEn: "Full Past-Paper Examination Simulation",
@@ -56255,7 +56255,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3GlobalPerspectivesWeek36 = CourseWeekDef(
+const CourseWeekDef _year9GlobalPerspectivesWeek36 = CourseWeekDef(
   id: "course-secondary3-globalperspectives-w36",
   weekNumber: 36,
   titleEn: "The Lower Secondary Global Summit and Graduation",
@@ -56746,7 +56746,7 @@ const CourseWeekDef _secondary3GlobalPerspectivesWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3GlobalPerspectivesTerm9 = CourseTermDef(
+const CourseTermDef _year9GlobalPerspectivesTerm9 = CourseTermDef(
   id: "course-secondary3-globalperspectives-t9",
   termNumber: 9,
   titleEn: "IGCSE Global Perspectives Capstone and Examination",
@@ -56754,10 +56754,10 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm9 = CourseTermDef(
   certificateTitleEn: "IGCSE Global Perspectives Capstone and Examination",
   certificateTitleMy: "IGCSE Global Perspectives အထွတ်အထိပ်နှင့် စာမေးပွဲ",
   weeks: [
-    _secondary3GlobalPerspectivesWeek33,
-    _secondary3GlobalPerspectivesWeek34,
-    _secondary3GlobalPerspectivesWeek35,
-    _secondary3GlobalPerspectivesWeek36,
+    _year9GlobalPerspectivesWeek33,
+    _year9GlobalPerspectivesWeek34,
+    _year9GlobalPerspectivesWeek35,
+    _year9GlobalPerspectivesWeek36,
   ],
 );
 
@@ -56773,7 +56773,7 @@ const CourseTermDef _secondary3GlobalPerspectivesTerm9 = CourseTermDef(
 /// technique, reflection, and exam-simulation capstone term, closing
 /// with a full research symposium that marks the end of the
 /// three-year Lower Secondary Global Perspectives pathway.
-const CoursePathwayDef secondary3GlobalPerspectivesPathway = CoursePathwayDef(
+const CoursePathwayDef year9GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-secondary3-globalperspectives",
   subject: "globalperspectives",
   grade: Grade.year9,
@@ -56785,15 +56785,15 @@ const CoursePathwayDef secondary3GlobalPerspectivesPathway = CoursePathwayDef(
       "တတိယနှစ် (Secondary 3 / Year 9) ကမ္ဘာ့အမြင်ဘာသာရပ်သင်တန်း -- IGCSE အဆင့် ကမ္ဘာလုံးဆိုင်ရာကိစ္စရပ်လေ့လာမှုအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် ဇာတ်ကောင်တစ်ဦးတည်းအစား မြန်မာကျောင်းသားအမည်များစွာကို အလှည့်ကျအသုံးပြု၍ အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ ကမ္ဘာလုံးဆိုင်ရာကိုယ်ကျင့်တရားနှင့် ကိုယ်ကျင့်တရားဆိုင်ရာအကျပ်အတည်းများသည် utilitarian နှင့် deontological ကျိုးကြောင်းဆင်ခြင်မှု၊ တိရစ္ဆာန်အခွင့်အရေးနှင့် သုခချမ်းသာနှင့် censorship vs free speech ကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် Ethical Tribunal Project ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ဘူမိနိုင်ငံရေးနှင့် နိုင်ငံတကာဆက်ဆံရေးသည် နိုင်ငံတကာသံတမန်ရေး၊ ကမ္ဘာ့စွမ်းအားကြီးနိုင်ငံများနှင့် ကုန်သွယ်စစ်ပွဲများ၊ ရေနှင့်သဘာဝအရင်းအမြစ်ပဋိပက္ခများကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် Model United Nations (MUN) အတုအယောင်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ ဉာဏ်ရည်တု (AI)၊ အလိုအလျောက်စက်ယန္တရားနှင့် လူ့အဖွဲ့အစည်းသည် AI တော်လှန်ရေး၊ စောင့်ကြည့်ရေးရင်းနှီးမြှုပ်နှံမှုနှင့် ကိုယ်ရေးလုံခြုံရေး၊ Transhumanism နှင့် ဇီဝနည်းပညာကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် နည်းပညာထိန်းညှိမှုမူဝါဒအဆိုပြုချက်ဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ ရာသီဥတုအကျပ်အတည်းနှင့် ပတ်ဝန်းကျင်ဆိုင်ရာမူဝါဒများသည် ရာသီဥတုဒုက္ခသည်များ၊ Green Growth vs Degrowth နှင့် ကမ္ဘာ့ရာသီဥတုညီလာခံများ (COP) ကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် မြို့ပြရာသီဥတုလှုပ်ရှားမှုစီမံချက်ဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ ကမ္ဘာလုံးဆိုင်ရာကျန်းမာရေးနှင့် မညီမျှမှုသည် မူပိုင်ခွင့်ဥပဒေများနှင့် မရှိမဖြစ်ဆေးဝါးများ၊ ကမ္ဘာလုံးဆိုင်ရာအကျပ်အတည်းတစ်ခုအနေဖြင့်စိတ်ကျန်းမာရေးနှင့် စားနပ်ရိက္ခာလုံခြုံရေးနှင့်ကမ္ဘာ့ဆာလောင်မွတ်သိပ်မှုကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် ကမ္ဘာ့ကျန်းမာရေးစွက်ဖက်မှုအဆိုပြုချက်ဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ ယဉ်ကျေးမှုအမွေအနှစ်နှင့် ကမ္ဘာလုံးဆိုင်ရာပေါင်းစည်းမှုသည် ယဉ်ကျေးမှုနယ်ချဲ့ဝါဒနှင့်ကမ္ဘာလုံးဆိုင်ရာပေါင်းစည်းမှု၊ မျိုးတုန်းပျောက်ကွယ်ရန်စိုးရိမ်ရသောအမွေအနှစ်များထိန်းသိမ်းခြင်းနှင့် ခရီးသွားလာရေးလုပ်ငန်းနှင့်၎င်း၏သက်ရောက်မှုများကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် ယဉ်ကျေးမှုအမွေအနှစ်ထိန်းသိမ်းရေးပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ လူ့အခွင့်အရေး၊ တရားမျှတမှုနှင့် တက်ကြွလှုပ်ရှားမှုသည် ခေတ်သစ်ကျွန်စနစ်နှင့်လူကုန်ကူးမှု၊ လူငယ်တက်ကြွလှုပ်ရှားမှုနှင့်ကမ္ဘာ့ပြောင်းလဲမှုနှင့် နိုင်ငံတကာတရားမျှတမှုစနစ်များကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် လူ့အခွင့်အရေးကမ်ပိန်းမဟာဗျူဟာဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ ကမ္ဘာလုံးဆိုင်ရာစီးပွားရေးနှင့် အနာဂတ်စနစ်များသည် Universal Basic Income, capitalism ၏အနာဂတ်နှင့် မြို့ကြီးပြကြီးများနှင့်မြို့ပြအနာဂတ်ကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် စံပြမြို့တော်ဒီဇိုင်းပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ IGCSE Global Perspectives အထွတ်အထိပ်နှင့် စာမေးပွဲသည် အက်ဆေးဖွဲ့စည်းပုံနှင့်ငြင်းခုန်ချက်အကဲဖြတ်ခြင်း၊ အဖွဲ့လိုက်ပရောဂျက်သုံးသပ်ချက်နှင့် အချိန်ကန့်သတ်ထားသော ယခင်စာမေးပွဲစာရွက်ပုံစံတူဖြေဆိုမှုအပြည့်အစုံကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် အလယ်တန်းအဆင့် ကမ္ဘာ့ညီလာခံနှင့် ဘွဲ့နှင်းသဘင်ပြပွဲဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary3GlobalPerspectivesTerm1,
-    _secondary3GlobalPerspectivesTerm2,
-    _secondary3GlobalPerspectivesTerm3,
-    _secondary3GlobalPerspectivesTerm4,
-    _secondary3GlobalPerspectivesTerm5,
-    _secondary3GlobalPerspectivesTerm6,
-    _secondary3GlobalPerspectivesTerm7,
-    _secondary3GlobalPerspectivesTerm8,
-    _secondary3GlobalPerspectivesTerm9,
+    _year9GlobalPerspectivesTerm1,
+    _year9GlobalPerspectivesTerm2,
+    _year9GlobalPerspectivesTerm3,
+    _year9GlobalPerspectivesTerm4,
+    _year9GlobalPerspectivesTerm5,
+    _year9GlobalPerspectivesTerm6,
+    _year9GlobalPerspectivesTerm7,
+    _year9GlobalPerspectivesTerm8,
+    _year9GlobalPerspectivesTerm9,
   ],
 );
 
@@ -58238,7 +58238,7 @@ const CourseTermDef _igcseGpTerm1 = CourseTermDef(
 // authored (36 weeks / 180 daily lessons).
 // =====================================================================
 
-const CoursePathwayDef globalperspectivesYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-year10-globalperspectives",
   subject: "globalperspectives",
   grade: Grade.year10,
@@ -58252,7 +58252,7 @@ const CoursePathwayDef globalperspectivesYear10Pathway = CoursePathwayDef(
   terms: [_igcseGpTerm1, _igcseGpTerm2, _igcseGpTerm3, _igcseGpTerm4],
 );
 
-const CoursePathwayDef globalperspectivesYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11GlobalPerspectivesPathway = CoursePathwayDef(
   id: "course-year11-globalperspectives",
   subject: "globalperspectives",
   grade: Grade.year11,

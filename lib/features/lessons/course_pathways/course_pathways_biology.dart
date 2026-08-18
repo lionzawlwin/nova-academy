@@ -15119,7 +15119,7 @@ const CourseTermDef igcseBiologyTerm9 = CourseTermDef(
 /// Prep, closing with a Week 36 IGCSE Biology Graduation capstone),
 /// following the blueprint at
 /// `ai_data_bridge/igcse_biology_all_terms.dart`.
-const CoursePathwayDef biologyYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10BiologyPathway = CoursePathwayDef(
   id: "course-year10-biology",
   subject: "biology",
   grade: Grade.year10,
@@ -15138,7 +15138,7 @@ const CoursePathwayDef biologyYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef biologyYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11BiologyPathway = CoursePathwayDef(
   id: "course-year11-biology",
   subject: "biology",
   grade: Grade.year11,

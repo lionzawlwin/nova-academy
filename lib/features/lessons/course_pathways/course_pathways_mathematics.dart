@@ -7,7 +7,7 @@ import 'course_pathways_core.dart';
 // Secondary 1 Mathematics -- Term 1, Week 1: "Directed Numbers"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek1 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek1 = CourseWeekDef(
   id: "course-secondary1-mathematics-w1",
   weekNumber: 1,
   titleEn: "Directed Numbers",
@@ -341,7 +341,7 @@ const CourseWeekDef _secondary1MathematicsWeek1 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 1, Week 2: "Factors, Multiples and Primes"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek2 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek2 = CourseWeekDef(
   id: "course-secondary1-mathematics-w2",
   weekNumber: 2,
   titleEn: "Factors, Multiples and Primes",
@@ -705,7 +705,7 @@ const CourseWeekDef _secondary1MathematicsWeek2 = CourseWeekDef(
 // Operations"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek3 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek3 = CourseWeekDef(
   id: "course-secondary1-mathematics-w3",
   weekNumber: 3,
   titleEn: "Powers, Roots and Order of Operations",
@@ -987,7 +987,7 @@ const CourseWeekDef _secondary1MathematicsWeek3 = CourseWeekDef(
 // Together: Number Skills Challenge"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek4 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek4 = CourseWeekDef(
   id: "course-secondary1-mathematics-w4",
   weekNumber: 4,
   titleEn: "Putting It All Together: Number Skills Challenge",
@@ -1317,7 +1317,7 @@ const CourseWeekDef _secondary1MathematicsWeek4 = CourseWeekDef(
 
 /// Secondary 1 Mathematics's Term 1: "Number Foundations" -- the first
 /// milestone of a brand-new, independent subject pathway (see
-/// [secondary1MathematicsPathway]). Week 1 introduces directed numbers
+/// [year7MathematicsPathway]). Week 1 introduces directed numbers
 /// from scratch (positive/negative integers, ordering, add/subtract);
 /// Week 2 opens a separate positive-whole-number strand (factors,
 /// multiples, primes, prime factorization via factor trees); Week 3
@@ -1327,7 +1327,7 @@ const CourseWeekDef _secondary1MathematicsWeek4 = CourseWeekDef(
 /// three -- multi-step expressions applying order of operations (Week 3)
 /// to directed numbers (Week 1), and finding the HCF/LCM of two numbers
 /// via prime factorization (Week 2).
-const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm1 = CourseTermDef(
   id: "course-secondary1-mathematics-t1",
   termNumber: 1,
   titleEn: "Number Foundations",
@@ -1335,10 +1335,10 @@ const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
   certificateTitleEn: "Number Foundations",
   certificateTitleMy: "ဂဏန်းအခြေခံ",
   weeks: [
-    _secondary1MathematicsWeek1,
-    _secondary1MathematicsWeek2,
-    _secondary1MathematicsWeek3,
-    _secondary1MathematicsWeek4,
+    _year7MathematicsWeek1,
+    _year7MathematicsWeek2,
+    _year7MathematicsWeek3,
+    _year7MathematicsWeek4,
   ],
 );
 
@@ -1346,7 +1346,7 @@ const CourseTermDef _secondary1MathematicsTerm1 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 2, Week 5: "Introduction to Algebra"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek5 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek5 = CourseWeekDef(
   id: "course-secondary1-mathematics-w5",
   weekNumber: 5,
   titleEn: "Introduction to Algebra",
@@ -1646,7 +1646,7 @@ const CourseWeekDef _secondary1MathematicsWeek5 = CourseWeekDef(
 // Expressions"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek6 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek6 = CourseWeekDef(
   id: "course-secondary1-mathematics-w6",
   weekNumber: 6,
   titleEn: "Simplifying Algebraic Expressions",
@@ -1961,7 +1961,7 @@ const CourseWeekDef _secondary1MathematicsWeek6 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 2, Week 7: "Solving Linear Equations"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek7 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek7 = CourseWeekDef(
   id: "course-secondary1-mathematics-w7",
   weekNumber: 7,
   titleEn: "Solving Linear Equations",
@@ -2303,7 +2303,7 @@ const CourseWeekDef _secondary1MathematicsWeek7 = CourseWeekDef(
 // Solving Equations"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek8 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek8 = CourseWeekDef(
   id: "course-secondary1-mathematics-w8",
   weekNumber: 8,
   titleEn: "Capstone: Forming and Solving Equations",
@@ -2609,7 +2609,7 @@ const CourseWeekDef _secondary1MathematicsWeek8 = CourseWeekDef(
 );
 
 /// Secondary 1 Mathematics's Term 2: "Algebra Foundations" -- the second
-/// milestone of the pathway (see [secondary1MathematicsPathway]), picking
+/// milestone of the pathway (see [year7MathematicsPathway]), picking
 /// up directly from Term 1's number-skills foundation. Week 5 introduces
 /// algebra from scratch (variables, translating words to expressions,
 /// substitution), explicitly folding Term 1 Week 1's directed-number
@@ -2625,7 +2625,7 @@ const CourseWeekDef _secondary1MathematicsWeek8 = CourseWeekDef(
 /// needed (Week 6), and solving it (Week 7) -- in real-world contexts
 /// (ages, money, perimeters), plus an explicit Term 1 callback in the
 /// closing recap quiz.
-const CourseTermDef _secondary1MathematicsTerm2 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm2 = CourseTermDef(
   id: "course-secondary1-mathematics-t2",
   termNumber: 2,
   titleEn: "Algebra Foundations",
@@ -2633,10 +2633,10 @@ const CourseTermDef _secondary1MathematicsTerm2 = CourseTermDef(
   certificateTitleEn: "Algebra Foundations",
   certificateTitleMy: "အက္ခရာသင်္ချာ အခြေခံ",
   weeks: [
-    _secondary1MathematicsWeek5,
-    _secondary1MathematicsWeek6,
-    _secondary1MathematicsWeek7,
-    _secondary1MathematicsWeek8,
+    _year7MathematicsWeek5,
+    _year7MathematicsWeek6,
+    _year7MathematicsWeek7,
+    _year7MathematicsWeek8,
   ],
 );
 
@@ -2644,7 +2644,7 @@ const CourseTermDef _secondary1MathematicsTerm2 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 3, Week 9: "Understanding Fractions"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek9 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek9 = CourseWeekDef(
   id: "course-secondary1-mathematics-w9",
   weekNumber: 9,
   titleEn: "Understanding Fractions",
@@ -2964,7 +2964,7 @@ const CourseWeekDef _secondary1MathematicsWeek9 = CourseWeekDef(
 // Working with Decimals"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek10 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek10 = CourseWeekDef(
   id: "course-secondary1-mathematics-w10",
   weekNumber: 10,
   titleEn: "Adding, Subtracting and Working with Decimals",
@@ -3289,7 +3289,7 @@ const CourseWeekDef _secondary1MathematicsWeek10 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 3, Week 11: "Percentages"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek11 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek11 = CourseWeekDef(
   id: "course-secondary1-mathematics-w11",
   weekNumber: 11,
   titleEn: "Percentages",
@@ -3599,7 +3599,7 @@ const CourseWeekDef _secondary1MathematicsWeek11 = CourseWeekDef(
 // Decimals and Percentages in Real Life"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek12 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek12 = CourseWeekDef(
   id: "course-secondary1-mathematics-w12",
   weekNumber: 12,
   titleEn: "Capstone: Fractions, Decimals and Percentages in Real Life",
@@ -3945,7 +3945,7 @@ const CourseWeekDef _secondary1MathematicsWeek12 = CourseWeekDef(
 
 /// Secondary 1 Mathematics's Term 3: "Fractions, Decimals and Percentages"
 /// -- the third milestone of the pathway (see
-/// [secondary1MathematicsPathway]), picking up after Term 2's algebra
+/// [year7MathematicsPathway]), picking up after Term 2's algebra
 /// foundation with a breadth strand back into core numeracy. Week 9
 /// introduces fractions (numerator/denominator, equivalent fractions,
 /// improper/mixed conversion), explicitly folding Term 1 Week 2's
@@ -3959,7 +3959,7 @@ const CourseWeekDef _secondary1MathematicsWeek12 = CourseWeekDef(
 /// decimals and percentages together in real-world multi-step problems
 /// (recipes, discounts, splitting a bill) -- plus explicit Term 1/Term 2
 /// callbacks in the closing recap quiz.
-const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm3 = CourseTermDef(
   id: "course-secondary1-mathematics-t3",
   termNumber: 3,
   titleEn: "Fractions, Decimals and Percentages",
@@ -3967,10 +3967,10 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
   certificateTitleEn: "Fractions, Decimals and Percentages",
   certificateTitleMy: "ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်း",
   weeks: [
-    _secondary1MathematicsWeek9,
-    _secondary1MathematicsWeek10,
-    _secondary1MathematicsWeek11,
-    _secondary1MathematicsWeek12,
+    _year7MathematicsWeek9,
+    _year7MathematicsWeek10,
+    _year7MathematicsWeek11,
+    _year7MathematicsWeek12,
   ],
 );
 
@@ -3978,7 +3978,7 @@ const CourseTermDef _secondary1MathematicsTerm3 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 4, Week 13: "Angles and Lines"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek13 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek13 = CourseWeekDef(
   id: "course-secondary1-mathematics-w13",
   weekNumber: 13,
   titleEn: "Angles and Lines",
@@ -4359,7 +4359,7 @@ const CourseWeekDef _secondary1MathematicsWeek13 = CourseWeekDef(
 // Quadrilaterals"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek14 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek14 = CourseWeekDef(
   id: "course-secondary1-mathematics-w14",
   weekNumber: 14,
   titleEn: "Triangles and Quadrilaterals",
@@ -4717,7 +4717,7 @@ const CourseWeekDef _secondary1MathematicsWeek14 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 4, Week 15: "Constructing Shapes"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek15 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek15 = CourseWeekDef(
   id: "course-secondary1-mathematics-w15",
   weekNumber: 15,
   titleEn: "Constructing Shapes",
@@ -5131,7 +5131,7 @@ const CourseWeekDef _secondary1MathematicsWeek15 = CourseWeekDef(
 // (Term 4 capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek16 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek16 = CourseWeekDef(
   id: "course-secondary1-mathematics-w16",
   weekNumber: 16,
   titleEn: "Geometry in Architecture",
@@ -5509,7 +5509,7 @@ const CourseWeekDef _secondary1MathematicsWeek16 = CourseWeekDef(
 );
 
 /// Secondary 1 Mathematics's Term 4: "Geometry and Measure" -- the fourth
-/// milestone of the pathway (see [secondary1MathematicsPathway]), opening
+/// milestone of the pathway (see [year7MathematicsPathway]), opening
 /// this pathway's first dedicated geometry strand after three terms of
 /// number, algebra, and fraction/decimal/percentage work. Week 13
 /// introduces angles from scratch (measuring with a protractor,
@@ -5529,7 +5529,7 @@ const CourseWeekDef _secondary1MathematicsWeek16 = CourseWeekDef(
 /// algebra (Term 2 Week 7), triangle/quadrilateral angle sums (Week
 /// 14), and accurate compass-and-set-square construction (Week 15) --
 /// inside one architecture-themed reading passage and quiz set.
-const CourseTermDef _secondary1MathematicsTerm4 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm4 = CourseTermDef(
   id: "course-secondary1-mathematics-t4",
   termNumber: 4,
   titleEn: "Geometry and Measure",
@@ -5537,10 +5537,10 @@ const CourseTermDef _secondary1MathematicsTerm4 = CourseTermDef(
   certificateTitleEn: "Geometry and Measure",
   certificateTitleMy: "ဂျီဩမေတြီနှင့် တိုင်းတာမှု",
   weeks: [
-    _secondary1MathematicsWeek13,
-    _secondary1MathematicsWeek14,
-    _secondary1MathematicsWeek15,
-    _secondary1MathematicsWeek16,
+    _year7MathematicsWeek13,
+    _year7MathematicsWeek14,
+    _year7MathematicsWeek15,
+    _year7MathematicsWeek16,
   ],
 );
 
@@ -5548,7 +5548,7 @@ const CourseTermDef _secondary1MathematicsTerm4 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 5, Week 17: "Solving Simple Equations"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek17 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek17 = CourseWeekDef(
   id: "course-secondary1-mathematics-w17",
   weekNumber: 17,
   titleEn: "Solving Simple Equations",
@@ -5907,7 +5907,7 @@ const CourseWeekDef _secondary1MathematicsWeek17 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 5, Week 18: "Equations with Brackets"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek18 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek18 = CourseWeekDef(
   id: "course-secondary1-mathematics-w18",
   weekNumber: 18,
   titleEn: "Equations with Brackets",
@@ -6225,7 +6225,7 @@ const CourseWeekDef _secondary1MathematicsWeek18 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 5, Week 19: "Number Sequences"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek19 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek19 = CourseWeekDef(
   id: "course-secondary1-mathematics-w19",
   weekNumber: 19,
   titleEn: "Number Sequences",
@@ -6594,7 +6594,7 @@ const CourseWeekDef _secondary1MathematicsWeek19 = CourseWeekDef(
 // (Term 5 capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek20 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek20 = CourseWeekDef(
   id: "course-secondary1-mathematics-w20",
   weekNumber: 20,
   titleEn: "The Algebra Code",
@@ -6932,7 +6932,7 @@ const CourseWeekDef _secondary1MathematicsWeek20 = CourseWeekDef(
 );
 
 /// Secondary 1 Mathematics's Term 5: "Equations and Sequences" -- the fifth
-/// milestone of the pathway (see [secondary1MathematicsPathway]), opening
+/// milestone of the pathway (see [year7MathematicsPathway]), opening
 /// the pathway's second dedicated algebra strand after Term 4's geometry
 /// focus. Week 17 introduces solving one-step and two-step linear
 /// equations from scratch (balancing both sides, inverse operations),
@@ -6946,7 +6946,7 @@ const CourseWeekDef _secondary1MathematicsWeek20 = CourseWeekDef(
 /// real-world "algebra code" that explicitly requires Week 17's
 /// balancing skill, Week 18's bracket-expanding skill, and Week 19's
 /// position-to-term skill together to crack.
-const CourseTermDef _secondary1MathematicsTerm5 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm5 = CourseTermDef(
   id: "course-secondary1-mathematics-t5",
   termNumber: 5,
   titleEn: "Equations and Sequences",
@@ -6954,10 +6954,10 @@ const CourseTermDef _secondary1MathematicsTerm5 = CourseTermDef(
   certificateTitleEn: "Equations and Sequences",
   certificateTitleMy: "ညီမျှခြင်းများနှင့် ကိန်းစဉ်များ",
   weeks: [
-    _secondary1MathematicsWeek17,
-    _secondary1MathematicsWeek18,
-    _secondary1MathematicsWeek19,
-    _secondary1MathematicsWeek20,
+    _year7MathematicsWeek17,
+    _year7MathematicsWeek18,
+    _year7MathematicsWeek19,
+    _year7MathematicsWeek20,
   ],
 );
 
@@ -6965,7 +6965,7 @@ const CourseTermDef _secondary1MathematicsTerm5 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 6, Week 21: "Collecting Data"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek21 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek21 = CourseWeekDef(
   id: "course-secondary1-mathematics-w21",
   weekNumber: 21,
   titleEn: "Collecting Data",
@@ -7404,7 +7404,7 @@ const CourseWeekDef _secondary1MathematicsWeek21 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 6, Week 22: "Averages and Range"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek22 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek22 = CourseWeekDef(
   id: "course-secondary1-mathematics-w22",
   weekNumber: 22,
   titleEn: "Averages and Range",
@@ -7745,7 +7745,7 @@ const CourseWeekDef _secondary1MathematicsWeek22 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 6, Week 23: "Charts and Graphs"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek23 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek23 = CourseWeekDef(
   id: "course-secondary1-mathematics-w23",
   weekNumber: 23,
   titleEn: "Charts and Graphs",
@@ -8184,7 +8184,7 @@ const CourseWeekDef _secondary1MathematicsWeek23 = CourseWeekDef(
 // (Term 6 capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek24 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek24 = CourseWeekDef(
   id: "course-secondary1-mathematics-w24",
   weekNumber: 24,
   titleEn: "Data Detective",
@@ -8581,7 +8581,7 @@ const CourseWeekDef _secondary1MathematicsWeek24 = CourseWeekDef(
 );
 
 /// Secondary 1 Mathematics's Term 6: "Statistics and Data" -- the sixth
-/// milestone of the pathway (see [secondary1MathematicsPathway]), opening
+/// milestone of the pathway (see [year7MathematicsPathway]), opening
 /// this pathway's first dedicated statistics strand. Week 21 introduces
 /// data collection from scratch (tally charts, tally marks, frequency
 /// tables, and designing a fair questionnaire), using Su Su's mohinga
@@ -8598,7 +8598,7 @@ const CourseWeekDef _secondary1MathematicsWeek24 = CourseWeekDef(
 /// chart-building skill inside one running story where Su Su analyses a
 /// full week of the stall's sales data to help her mother make a real
 /// business decision.
-const CourseTermDef _secondary1MathematicsTerm6 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm6 = CourseTermDef(
   id: "course-secondary1-mathematics-t6",
   termNumber: 6,
   titleEn: "Statistics and Data",
@@ -8606,10 +8606,10 @@ const CourseTermDef _secondary1MathematicsTerm6 = CourseTermDef(
   certificateTitleEn: "Statistics and Data",
   certificateTitleMy: "စာရင်းအင်းနှင့် အချက်အလက်",
   weeks: [
-    _secondary1MathematicsWeek21,
-    _secondary1MathematicsWeek22,
-    _secondary1MathematicsWeek23,
-    _secondary1MathematicsWeek24,
+    _year7MathematicsWeek21,
+    _year7MathematicsWeek22,
+    _year7MathematicsWeek23,
+    _year7MathematicsWeek24,
   ],
 );
 
@@ -8617,7 +8617,7 @@ const CourseTermDef _secondary1MathematicsTerm6 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 7, Week 25: "Understanding Ratio"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek25 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek25 = CourseWeekDef(
   id: "course-secondary1-mathematics-w25",
   weekNumber: 25,
   titleEn: "Understanding Ratio",
@@ -8949,7 +8949,7 @@ const CourseWeekDef _secondary1MathematicsWeek25 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 7, Week 26: "Simplifying Ratios"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek26 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek26 = CourseWeekDef(
   id: "course-secondary1-mathematics-w26",
   weekNumber: 26,
   titleEn: "Simplifying Ratios",
@@ -9262,7 +9262,7 @@ const CourseWeekDef _secondary1MathematicsWeek26 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 7, Week 27: "Direct Proportion"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek27 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek27 = CourseWeekDef(
   id: "course-secondary1-mathematics-w27",
   weekNumber: 27,
   titleEn: "Direct Proportion",
@@ -9636,7 +9636,7 @@ const CourseWeekDef _secondary1MathematicsWeek27 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 7, Week 28: "Recipe Maths" (capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek28 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek28 = CourseWeekDef(
   id: "course-secondary1-mathematics-w28",
   weekNumber: 28,
   titleEn: "Recipe Maths",
@@ -9973,7 +9973,7 @@ const CourseWeekDef _secondary1MathematicsWeek28 = CourseWeekDef(
 );
 
 /// Secondary 1 Mathematics's Term 7: "Ratio and Proportion" -- the seventh
-/// milestone of the pathway (see [secondary1MathematicsPathway]), following
+/// milestone of the pathway (see [year7MathematicsPathway]), following
 /// Term 6's statistics breadth strand with a return to core numeracy. Week
 /// 25 introduces ratio from scratch (writing ratios in the correct order,
 /// sharing a whole amount according to a ratio using the unitary "value of
@@ -9989,7 +9989,7 @@ const CourseWeekDef _secondary1MathematicsWeek28 = CourseWeekDef(
 /// scale factors (Week 27) -- together in real-world recipe-scaling,
 /// paint-mixing, and proportional-design problems, plus explicit Week
 /// 25-27 callbacks in the closing recap quiz.
-const CourseTermDef _secondary1MathematicsTerm7 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm7 = CourseTermDef(
   id: "course-secondary1-mathematics-t7",
   termNumber: 7,
   titleEn: "Ratio and Proportion",
@@ -9997,10 +9997,10 @@ const CourseTermDef _secondary1MathematicsTerm7 = CourseTermDef(
   certificateTitleEn: "Ratio and Proportion",
   certificateTitleMy: "အချိုးနှင့် အချိုးကျခြင်း",
   weeks: [
-    _secondary1MathematicsWeek25,
-    _secondary1MathematicsWeek26,
-    _secondary1MathematicsWeek27,
-    _secondary1MathematicsWeek28,
+    _year7MathematicsWeek25,
+    _year7MathematicsWeek26,
+    _year7MathematicsWeek27,
+    _year7MathematicsWeek28,
   ],
 );
 
@@ -10008,7 +10008,7 @@ const CourseTermDef _secondary1MathematicsTerm7 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 8, Week 29: "Symmetry and Reflection"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek29 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek29 = CourseWeekDef(
   id: "course-secondary1-mathematics-w29",
   weekNumber: 29,
   titleEn: "Symmetry and Reflection",
@@ -10388,7 +10388,7 @@ const CourseWeekDef _secondary1MathematicsWeek29 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 8, Week 30: "Translation and Rotation"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek30 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek30 = CourseWeekDef(
   id: "course-secondary1-mathematics-w30",
   weekNumber: 30,
   titleEn: "Translation and Rotation",
@@ -10753,7 +10753,7 @@ const CourseWeekDef _secondary1MathematicsWeek30 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 8, Week 31: "3D Shapes and Nets"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek31 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek31 = CourseWeekDef(
   id: "course-secondary1-mathematics-w31",
   weekNumber: 31,
   titleEn: "3D Shapes and Nets",
@@ -11092,7 +11092,7 @@ const CourseWeekDef _secondary1MathematicsWeek31 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 8, Week 32: "Spatial Designer" (Capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek32 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek32 = CourseWeekDef(
   id: "course-secondary1-mathematics-w32",
   weekNumber: 32,
   titleEn: "Spatial Designer",
@@ -11440,7 +11440,7 @@ const CourseWeekDef _secondary1MathematicsWeek32 = CourseWeekDef(
 );
 
 /// Secondary 1 Mathematics's Term 8: "Transformations and 3D Shapes" -- the
-/// eighth milestone of the pathway (see [secondary1MathematicsPathway]),
+/// eighth milestone of the pathway (see [year7MathematicsPathway]),
 /// following Term 7's ratio and proportion strand with a geometry-focused
 /// breadth strand. Week 29 introduces lines of symmetry and reflecting
 /// shapes/points across a mirror line on a coordinate grid (the pathway's
@@ -11456,10 +11456,10 @@ const CourseWeekDef _secondary1MathematicsWeek32 = CourseWeekDef(
 /// reflecting and translating a point in one combined problem, and
 /// calculating a packaging box's surface area -- while the closing recap
 /// quiz explicitly calls back Weeks 29, 30 and 31 by number, mirroring how
-/// [_secondary1MathematicsTerm1]'s, [_secondary1MathematicsTerm2]'s, and
-/// [_secondary1MathematicsTerm3]'s own capstone weeks (4, 8, 12) close out
+/// [_year7MathematicsTerm1]'s, [_year7MathematicsTerm2]'s, and
+/// [_year7MathematicsTerm3]'s own capstone weeks (4, 8, 12) close out
 /// their terms.
-const CourseTermDef _secondary1MathematicsTerm8 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm8 = CourseTermDef(
   id: "course-secondary1-mathematics-t8",
   termNumber: 8,
   titleEn: "Transformations and 3D Shapes",
@@ -11467,10 +11467,10 @@ const CourseTermDef _secondary1MathematicsTerm8 = CourseTermDef(
   certificateTitleEn: "Transformations and 3D Shapes",
   certificateTitleMy: "ပြောင်းလဲမှုများ နှင့် ၃-ဖက်မြင်ပုံများ",
   weeks: [
-    _secondary1MathematicsWeek29,
-    _secondary1MathematicsWeek30,
-    _secondary1MathematicsWeek31,
-    _secondary1MathematicsWeek32,
+    _year7MathematicsWeek29,
+    _year7MathematicsWeek30,
+    _year7MathematicsWeek31,
+    _year7MathematicsWeek32,
   ],
 );
 
@@ -11478,7 +11478,7 @@ const CourseTermDef _secondary1MathematicsTerm8 = CourseTermDef(
 // Secondary 1 Mathematics -- Term 9, Week 33: "Language of Probability"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek33 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek33 = CourseWeekDef(
   id: "course-secondary1-mathematics-w33",
   weekNumber: 33,
   titleEn: "Language of Probability",
@@ -11871,7 +11871,7 @@ const CourseWeekDef _secondary1MathematicsWeek33 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 9, Week 34: "Calculating Probability"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek34 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek34 = CourseWeekDef(
   id: "course-secondary1-mathematics-w34",
   weekNumber: 34,
   titleEn: "Calculating Probability",
@@ -12199,7 +12199,7 @@ const CourseWeekDef _secondary1MathematicsWeek34 = CourseWeekDef(
 // Secondary 1 Mathematics -- Term 9, Week 35: "Year 7 Maths Review"
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek35 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek35 = CourseWeekDef(
   id: "course-secondary1-mathematics-w35",
   weekNumber: 35,
   titleEn: "Year 7 Maths Review",
@@ -12516,7 +12516,7 @@ const CourseWeekDef _secondary1MathematicsWeek35 = CourseWeekDef(
 // Challenge" (Term 9 capstone)
 // =====================================================================
 
-const CourseWeekDef _secondary1MathematicsWeek36 = CourseWeekDef(
+const CourseWeekDef _year7MathematicsWeek36 = CourseWeekDef(
   id: "course-secondary1-mathematics-w36",
   weekNumber: 36,
   titleEn: "The Ultimate Maths Challenge",
@@ -12863,7 +12863,7 @@ const CourseWeekDef _secondary1MathematicsWeek36 = CourseWeekDef(
 
 /// Secondary 1 Mathematics's Term 9: "Probability and Year Review" -- the
 /// ninth and final milestone of the pathway authored so far (see
-/// [secondary1MathematicsPathway]), picking up after Term 8's
+/// [year7MathematicsPathway]), picking up after Term 8's
 /// transformations-and-3D-shapes strand with a brand-new statistics-
 /// adjacent strand: probability. Week 33 introduces the language of
 /// probability from scratch -- certain, impossible, likely, unlikely,
@@ -12882,7 +12882,7 @@ const CourseWeekDef _secondary1MathematicsWeek36 = CourseWeekDef(
 /// Weeks 33-34 alongside the number/algebra/geometry review from Week 35
 /// -- inside one running story (a school fair game booth) and one final
 /// multi-topic quiz.
-const CourseTermDef _secondary1MathematicsTerm9 = CourseTermDef(
+const CourseTermDef _year7MathematicsTerm9 = CourseTermDef(
   id: "course-secondary1-mathematics-t9",
   termNumber: 9,
   titleEn: "Probability and Year Review",
@@ -12890,16 +12890,16 @@ const CourseTermDef _secondary1MathematicsTerm9 = CourseTermDef(
   certificateTitleEn: "Probability and Year Review",
   certificateTitleMy: "ဖြစ်နိုင်ခြေနှင့် နှစ်တစ်နှစ် ပြန်လည်သုံးသပ်ခြင်း",
   weeks: [
-    _secondary1MathematicsWeek33,
-    _secondary1MathematicsWeek34,
-    _secondary1MathematicsWeek35,
-    _secondary1MathematicsWeek36,
+    _year7MathematicsWeek33,
+    _year7MathematicsWeek34,
+    _year7MathematicsWeek35,
+    _year7MathematicsWeek36,
   ],
 );
 
 /// Secondary 1 Mathematics's full-year pathway (Grade [Grade.year7])
 /// -- a new, independent subject pathway alongside
-/// [secondary1ComputingPathway] rather than more terms grafted onto it:
+/// [year7ComputingPathway] rather than more terms grafted onto it:
 /// same grade, different subject. All 9 terms (Weeks 1-36) are now
 /// represented, completing the full [totalWeeks] roadmap for real: Term 1
 /// ("Number Foundations"), Term 2 ("Algebra Foundations"), and Term 3
@@ -12915,7 +12915,7 @@ const CourseTermDef _secondary1MathematicsTerm9 = CourseTermDef(
 /// already covered blueprint Term 4's FDP content; Terms 5-9 then map
 /// 1:1 onto blueprint Terms 5-9. See each [CourseTermDef]'s own doc
 /// comment for its week-by-week spiral.
-const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
+const CoursePathwayDef year7MathematicsPathway = CoursePathwayDef(
   id: "course-secondary1-mathematics",
   subject: "mathematics",
   grade: Grade.year7,
@@ -12927,15 +12927,15 @@ const CoursePathwayDef secondary1MathematicsPathway = CoursePathwayDef(
       "ပညာသင်နှစ်တစ်နှစ်လုံးအတွက် သင်္ချာသင်တန်းအပြည့်အစုံ -- ဦးတည်ဂဏန်း၊ ပါဝင်ကိန်း၊ ဗဟုကိန်း၊ ပင်ရင်းကိန်း၊ ထပ်ကိန်းနှင့် မူလများ၊ တွက်ချက်မှုအစီအစဉ် အစရှိသည့် ဂဏန်းအခြေခံ ကျွမ်းကျင်မှုများမှစတင်ပြီး၊ အက္ခရာသင်္ချာ -- ကိန်းရှင်၊ အသုံးအနှုန်း၊ ရိုးရှင်းအောင်ပြုလုပ်ခြင်းနှင့် မျဉ်းဖြောင့်ညီမျှခြင်း ဖြေရှင်းခြင်းများသို့ ဆက်လက်တည်ဆောက်ပြီး၊ ဂဏန်းစိတ်၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်းများသို့ ဆက်လက်ရောက်ရှိသွားသည့် နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ထို့နောက် ဂျီဩမေတြီ (ထောင့်များ၊ တြိဂံနှင့်စတုဂံများ၊ ကွန်ပါနှင့်ပေတံ တည်ဆောက်နည်းနှင့် ဗိသုကာပညာသို့ အသုံးချခြင်း)၊ ညီမျှခြင်းများနှင့် ကိန်းစဉ်များ (ညီမျှခြင်း ဟန်ချက်ညှိခြင်း၊ ကွင်းဖြန့်ခြင်း၊ ကိန်းစဉ်စည်းမျဉ်းများ)၊ စာရင်းအင်း (အချက်အလက်ကောက်ယူခြင်း၊ ပျမ်းမျှကိန်းနှင့်သက်ရောက်နယ်၊ ဇယားနှင့်ဂရပ်များ)၊ အချိုးနှင့် အချိုးကျခြင်း (အချိုးရှင်းလင်းခြင်း၊ တိုက်ရိုက်အချိုးကျခြင်း၊ ဟင်းချက်နည်း အချိုးအဆများ)၊ ပြောင်းလဲမှုများနှင့် ၃-ဖက်မြင်ပုံများ (အချိုးညီခြင်း၊ အလင်းပြန်ခြင်း၊ ရွေ့လျားခြင်း၊ လှည့်ခြင်း၊ ဖြန့်ပုံများနှင့် မျက်နှာပြင်ဧရိယာ) သို့ ဆက်လက်ရောက်ရှိသွားပြီး၊ ဖြစ်နိုင်ခြေနှင့် တစ်နှစ်တာလုံး ပြန်လည်သုံးသပ်ခြင်းဖြင့် နိဂုံးချုပ်မည်။",
   totalWeeks: 36,
   terms: [
-    _secondary1MathematicsTerm1,
-    _secondary1MathematicsTerm2,
-    _secondary1MathematicsTerm3,
-    _secondary1MathematicsTerm4,
-    _secondary1MathematicsTerm5,
-    _secondary1MathematicsTerm6,
-    _secondary1MathematicsTerm7,
-    _secondary1MathematicsTerm8,
-    _secondary1MathematicsTerm9,
+    _year7MathematicsTerm1,
+    _year7MathematicsTerm2,
+    _year7MathematicsTerm3,
+    _year7MathematicsTerm4,
+    _year7MathematicsTerm5,
+    _year7MathematicsTerm6,
+    _year7MathematicsTerm7,
+    _year7MathematicsTerm8,
+    _year7MathematicsTerm9,
   ],
 );
 // =====================================================================
@@ -72658,7 +72658,7 @@ const CoursePathwayDef year6MathematicsPathway = CoursePathwayDef(
 // Secondary 2 Mathematics -- Terms 1-9 (appended from ai_data_bridge)
 // =====================================================================
 
-const CourseWeekDef _secondary2MathematicsWeek1 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek1 = CourseWeekDef(
   id: "course-secondary2-mathematics-w1",
   weekNumber: 1,
   titleEn: "Working with Integers",
@@ -73017,7 +73017,7 @@ const CourseWeekDef _secondary2MathematicsWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek2 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek2 = CourseWeekDef(
   id: "course-secondary2-mathematics-w2",
   weekNumber: 2,
   titleEn: "Powers and Roots",
@@ -73370,7 +73370,7 @@ const CourseWeekDef _secondary2MathematicsWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek3 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek3 = CourseWeekDef(
   id: "course-secondary2-mathematics-w3",
   weekNumber: 3,
   titleEn: "Index Laws",
@@ -73718,7 +73718,7 @@ const CourseWeekDef _secondary2MathematicsWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek4 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek4 = CourseWeekDef(
   id: "course-secondary2-mathematics-w4",
   weekNumber: 4,
   titleEn: "Capstone: Number Theory Challenge",
@@ -74038,7 +74038,7 @@ const CourseWeekDef _secondary2MathematicsWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm1 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm1 = CourseTermDef(
   id: "course-secondary2-mathematics-t1",
   termNumber: 1,
   titleEn: "Advanced Number Systems",
@@ -74046,14 +74046,14 @@ const CourseTermDef _secondary2MathematicsTerm1 = CourseTermDef(
   certificateTitleEn: "Advanced Number Systems",
   certificateTitleMy: "အဆင့်မြင့် ဂဏန်းစနစ်များ",
   weeks: [
-    _secondary2MathematicsWeek1,
-    _secondary2MathematicsWeek2,
-    _secondary2MathematicsWeek3,
-    _secondary2MathematicsWeek4,
+    _year8MathematicsWeek1,
+    _year8MathematicsWeek2,
+    _year8MathematicsWeek3,
+    _year8MathematicsWeek4,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek5 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek5 = CourseWeekDef(
   id: "course-secondary2-mathematics-w5",
   weekNumber: 5,
   titleEn: "Expanding Brackets",
@@ -74410,7 +74410,7 @@ const CourseWeekDef _secondary2MathematicsWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek6 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek6 = CourseWeekDef(
   id: "course-secondary2-mathematics-w6",
   weekNumber: 6,
   titleEn: "Factorising Expressions",
@@ -74785,7 +74785,7 @@ const CourseWeekDef _secondary2MathematicsWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek7 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek7 = CourseWeekDef(
   id: "course-secondary2-mathematics-w7",
   weekNumber: 7,
   titleEn: "Using and Deriving Formulas",
@@ -75161,7 +75161,7 @@ const CourseWeekDef _secondary2MathematicsWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek8 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek8 = CourseWeekDef(
   id: "course-secondary2-mathematics-w8",
   weekNumber: 8,
   titleEn: "Capstone: The Algebra Architect",
@@ -75533,7 +75533,7 @@ const CourseWeekDef _secondary2MathematicsWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm2 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm2 = CourseTermDef(
   id: "course-secondary2-mathematics-t2",
   termNumber: 2,
   titleEn: "Algebra Expansion",
@@ -75541,14 +75541,14 @@ const CourseTermDef _secondary2MathematicsTerm2 = CourseTermDef(
   certificateTitleEn: "Algebra Expansion",
   certificateTitleMy: "Algebra တိုးချဲ့ခြင်း",
   weeks: [
-    _secondary2MathematicsWeek5,
-    _secondary2MathematicsWeek6,
-    _secondary2MathematicsWeek7,
-    _secondary2MathematicsWeek8,
+    _year8MathematicsWeek5,
+    _year8MathematicsWeek6,
+    _year8MathematicsWeek7,
+    _year8MathematicsWeek8,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek9 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek9 = CourseWeekDef(
   id: "course-secondary2-mathematics-w9",
   weekNumber: 9,
   titleEn: "Parallel Lines and Angles",
@@ -75940,7 +75940,7 @@ const CourseWeekDef _secondary2MathematicsWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek10 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek10 = CourseWeekDef(
   id: "course-secondary2-mathematics-w10",
   weekNumber: 10,
   titleEn: "Polygons",
@@ -76287,7 +76287,7 @@ const CourseWeekDef _secondary2MathematicsWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek11 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek11 = CourseWeekDef(
   id: "course-secondary2-mathematics-w11",
   weekNumber: 11,
   titleEn: "Introduction to Pythagoras",
@@ -76664,7 +76664,7 @@ const CourseWeekDef _secondary2MathematicsWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek12 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek12 = CourseWeekDef(
   id: "course-secondary2-mathematics-w12",
   weekNumber: 12,
   titleEn: "Capstone: Geometric Design Project",
@@ -77073,7 +77073,7 @@ const CourseWeekDef _secondary2MathematicsWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm3 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm3 = CourseTermDef(
   id: "course-secondary2-mathematics-t3",
   termNumber: 3,
   titleEn: "Geometry and Angles",
@@ -77081,14 +77081,14 @@ const CourseTermDef _secondary2MathematicsTerm3 = CourseTermDef(
   certificateTitleEn: "Geometry and Angles",
   certificateTitleMy: "ဂျီဩမေတြီနှင့် ထောင့်များ",
   weeks: [
-    _secondary2MathematicsWeek9,
-    _secondary2MathematicsWeek10,
-    _secondary2MathematicsWeek11,
-    _secondary2MathematicsWeek12,
+    _year8MathematicsWeek9,
+    _year8MathematicsWeek10,
+    _year8MathematicsWeek11,
+    _year8MathematicsWeek12,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek13 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek13 = CourseWeekDef(
   id: "course-secondary2-mathematics-w13",
   weekNumber: 13,
   titleEn: "Calculating with Fractions",
@@ -77441,7 +77441,7 @@ const CourseWeekDef _secondary2MathematicsWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek14 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek14 = CourseWeekDef(
   id: "course-secondary2-mathematics-w14",
   weekNumber: 14,
   titleEn: "Decimals and Rounding",
@@ -77813,7 +77813,7 @@ const CourseWeekDef _secondary2MathematicsWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek15 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek15 = CourseWeekDef(
   id: "course-secondary2-mathematics-w15",
   weekNumber: 15,
   titleEn: "Percentage Change",
@@ -78199,7 +78199,7 @@ const CourseWeekDef _secondary2MathematicsWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek16 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek16 = CourseWeekDef(
   id: "course-secondary2-mathematics-w16",
   weekNumber: 16,
   titleEn: "Capstone: Financial Maths",
@@ -78587,7 +78587,7 @@ const CourseWeekDef _secondary2MathematicsWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm4 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm4 = CourseTermDef(
   id: "course-secondary2-mathematics-t4",
   termNumber: 4,
   titleEn: "Fractions, Decimals and Percentages (Advanced)",
@@ -78595,14 +78595,14 @@ const CourseTermDef _secondary2MathematicsTerm4 = CourseTermDef(
   certificateTitleEn: "Fractions, Decimals and Percentages",
   certificateTitleMy: "အပိုင်းကိန်း၊ ဒသမကိန်းနှင့် ရာခိုင်နှုန်း",
   weeks: [
-    _secondary2MathematicsWeek13,
-    _secondary2MathematicsWeek14,
-    _secondary2MathematicsWeek15,
-    _secondary2MathematicsWeek16,
+    _year8MathematicsWeek13,
+    _year8MathematicsWeek14,
+    _year8MathematicsWeek15,
+    _year8MathematicsWeek16,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek17 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek17 = CourseWeekDef(
   id: "course-secondary2-mathematics-w17",
   weekNumber: 17,
   titleEn: "Solving Linear Equations",
@@ -78961,7 +78961,7 @@ const CourseWeekDef _secondary2MathematicsWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek18 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek18 = CourseWeekDef(
   id: "course-secondary2-mathematics-w18",
   weekNumber: 18,
   titleEn: "Coordinates and Straight Lines",
@@ -79330,7 +79330,7 @@ const CourseWeekDef _secondary2MathematicsWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek19 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek19 = CourseWeekDef(
   id: "course-secondary2-mathematics-w19",
   weekNumber: 19,
   titleEn: "Real-Life Graphs",
@@ -79770,7 +79770,7 @@ const CourseWeekDef _secondary2MathematicsWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek20 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek20 = CourseWeekDef(
   id: "course-secondary2-mathematics-w20",
   weekNumber: 20,
   titleEn: "Capstone: The Graph Detective",
@@ -80162,7 +80162,7 @@ const CourseWeekDef _secondary2MathematicsWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm5 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm5 = CourseTermDef(
   id: "course-secondary2-mathematics-t5",
   termNumber: 5,
   titleEn: "Linear Equations and Graphs",
@@ -80170,14 +80170,14 @@ const CourseTermDef _secondary2MathematicsTerm5 = CourseTermDef(
   certificateTitleEn: "Linear Equations and Graphs",
   certificateTitleMy: "Linear ညီမျှခြင်းများနှင့် ဂရပ်များ",
   weeks: [
-    _secondary2MathematicsWeek17,
-    _secondary2MathematicsWeek18,
-    _secondary2MathematicsWeek19,
-    _secondary2MathematicsWeek20,
+    _year8MathematicsWeek17,
+    _year8MathematicsWeek18,
+    _year8MathematicsWeek19,
+    _year8MathematicsWeek20,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek21 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek21 = CourseWeekDef(
   id: "course-secondary2-mathematics-w21",
   weekNumber: 21,
   titleEn: "Organizing Data",
@@ -80589,7 +80589,7 @@ const CourseWeekDef _secondary2MathematicsWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek22 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek22 = CourseWeekDef(
   id: "course-secondary2-mathematics-w22",
   weekNumber: 22,
   titleEn: "Averages from Tables",
@@ -80988,7 +80988,7 @@ const CourseWeekDef _secondary2MathematicsWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek23 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek23 = CourseWeekDef(
   id: "course-secondary2-mathematics-w23",
   weekNumber: 23,
   titleEn: "Scatter Graphs",
@@ -81444,7 +81444,7 @@ const CourseWeekDef _secondary2MathematicsWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek24 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek24 = CourseWeekDef(
   id: "course-secondary2-mathematics-w24",
   weekNumber: 24,
   titleEn: "Capstone: Statistical Investigation",
@@ -81902,7 +81902,7 @@ const CourseWeekDef _secondary2MathematicsWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm6 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm6 = CourseTermDef(
   id: "course-secondary2-mathematics-t6",
   termNumber: 6,
   titleEn: "Statistics and Data Presentation",
@@ -81910,14 +81910,14 @@ const CourseTermDef _secondary2MathematicsTerm6 = CourseTermDef(
   certificateTitleEn: "Statistics and Data Presentation",
   certificateTitleMy: "စာရင်းအင်းနှင့် အချက်အလက်တင်ပြခြင်း",
   weeks: [
-    _secondary2MathematicsWeek21,
-    _secondary2MathematicsWeek22,
-    _secondary2MathematicsWeek23,
-    _secondary2MathematicsWeek24,
+    _year8MathematicsWeek21,
+    _year8MathematicsWeek22,
+    _year8MathematicsWeek23,
+    _year8MathematicsWeek24,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek25 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek25 = CourseWeekDef(
   id: "course-secondary2-mathematics-w25",
   weekNumber: 25,
   titleEn: "Sharing in a Ratio",
@@ -82261,7 +82261,7 @@ const CourseWeekDef _secondary2MathematicsWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek26 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek26 = CourseWeekDef(
   id: "course-secondary2-mathematics-w26",
   weekNumber: 26,
   titleEn: "Direct and Inverse Proportion",
@@ -82675,7 +82675,7 @@ const CourseWeekDef _secondary2MathematicsWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek27 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek27 = CourseWeekDef(
   id: "course-secondary2-mathematics-w27",
   weekNumber: 27,
   titleEn: "Compound Measures",
@@ -83031,7 +83031,7 @@ const CourseWeekDef _secondary2MathematicsWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek28 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek28 = CourseWeekDef(
   id: "course-secondary2-mathematics-w28",
   weekNumber: 28,
   titleEn: "Engineering Maths",
@@ -83407,7 +83407,7 @@ const CourseWeekDef _secondary2MathematicsWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm7 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm7 = CourseTermDef(
   id: "course-secondary2-mathematics-term7",
   termNumber: 7,
   titleEn: "Ratio, Proportion and Rates",
@@ -83415,14 +83415,14 @@ const CourseTermDef _secondary2MathematicsTerm7 = CourseTermDef(
   certificateTitleEn: "Ratio, Proportion and Rates",
   certificateTitleMy: "အချိုး၊ အချိုးကျမှုနှင့် နှုန်းထားများ",
   weeks: [
-    _secondary2MathematicsWeek25,
-    _secondary2MathematicsWeek26,
-    _secondary2MathematicsWeek27,
-    _secondary2MathematicsWeek28,
+    _year8MathematicsWeek25,
+    _year8MathematicsWeek26,
+    _year8MathematicsWeek27,
+    _year8MathematicsWeek28,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek29 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek29 = CourseWeekDef(
   id: "course-secondary2-mathematics-w29",
   weekNumber: 29,
   titleEn: "Area of 2D Shapes",
@@ -83752,7 +83752,7 @@ const CourseWeekDef _secondary2MathematicsWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek30 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek30 = CourseWeekDef(
   id: "course-secondary2-mathematics-w30",
   weekNumber: 30,
   titleEn: "Volume and Surface Area",
@@ -84116,7 +84116,7 @@ const CourseWeekDef _secondary2MathematicsWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek31 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek31 = CourseWeekDef(
   id: "course-secondary2-mathematics-w31",
   weekNumber: 31,
   titleEn: "Enlargement",
@@ -84473,7 +84473,7 @@ const CourseWeekDef _secondary2MathematicsWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek32 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek32 = CourseWeekDef(
   id: "course-secondary2-mathematics-w32",
   weekNumber: 32,
   titleEn: "Packaging Designer",
@@ -84872,7 +84872,7 @@ const CourseWeekDef _secondary2MathematicsWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm8 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm8 = CourseTermDef(
   id: "course-secondary2-mathematics-term8",
   termNumber: 8,
   titleEn: "Area, Volume and Transformations",
@@ -84880,14 +84880,14 @@ const CourseTermDef _secondary2MathematicsTerm8 = CourseTermDef(
   certificateTitleEn: "Area, Volume and Transformations",
   certificateTitleMy: "ဧရိယာ၊ ထုထည်နှင့် အသွင်ပြောင်းမှုများ",
   weeks: [
-    _secondary2MathematicsWeek29,
-    _secondary2MathematicsWeek30,
-    _secondary2MathematicsWeek31,
-    _secondary2MathematicsWeek32,
+    _year8MathematicsWeek29,
+    _year8MathematicsWeek30,
+    _year8MathematicsWeek31,
+    _year8MathematicsWeek32,
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek33 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek33 = CourseWeekDef(
   id: "course-secondary2-mathematics-w33",
   weekNumber: 33,
   titleEn: "Theoretical Probability",
@@ -85262,7 +85262,7 @@ const CourseWeekDef _secondary2MathematicsWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek34 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek34 = CourseWeekDef(
   id: "course-secondary2-mathematics-w34",
   weekNumber: 34,
   titleEn: "Experimental Probability",
@@ -85644,7 +85644,7 @@ const CourseWeekDef _secondary2MathematicsWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek35 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek35 = CourseWeekDef(
   id: "course-secondary2-mathematics-w35",
   weekNumber: 35,
   titleEn: "Year 8 Maths Revision",
@@ -86013,7 +86013,7 @@ const CourseWeekDef _secondary2MathematicsWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2MathematicsWeek36 = CourseWeekDef(
+const CourseWeekDef _year8MathematicsWeek36 = CourseWeekDef(
   id: "course-secondary2-mathematics-w36",
   weekNumber: 36,
   titleEn: "The Ultimate Maths Escape Room",
@@ -86371,7 +86371,7 @@ const CourseWeekDef _secondary2MathematicsWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2MathematicsTerm9 = CourseTermDef(
+const CourseTermDef _year8MathematicsTerm9 = CourseTermDef(
   id: "course-secondary2-mathematics-term9",
   termNumber: 9,
   titleEn: "Probability and Year 8 Review",
@@ -86379,10 +86379,10 @@ const CourseTermDef _secondary2MathematicsTerm9 = CourseTermDef(
   certificateTitleEn: "Probability and Year 8 Review",
   certificateTitleMy: "ဖြစ်နိုင်ခြေနှင့် Year 8 ပြန်လည်လေ့လာခြင်း",
   weeks: [
-    _secondary2MathematicsWeek33,
-    _secondary2MathematicsWeek34,
-    _secondary2MathematicsWeek35,
-    _secondary2MathematicsWeek36,
+    _year8MathematicsWeek33,
+    _year8MathematicsWeek34,
+    _year8MathematicsWeek35,
+    _year8MathematicsWeek36,
   ],
 );
 
@@ -86390,7 +86390,7 @@ const CourseTermDef _secondary2MathematicsTerm9 = CourseTermDef(
 // Secondary 2 Mathematics -- full-year pathway wrapper
 // =====================================================================
 
-const CoursePathwayDef secondary2MathematicsPathway = CoursePathwayDef(
+const CoursePathwayDef year8MathematicsPathway = CoursePathwayDef(
   id: "course-secondary2-mathematics",
   subject: "mathematics",
   grade: Grade.year8,
@@ -86402,15 +86402,15 @@ const CoursePathwayDef secondary2MathematicsPathway = CoursePathwayDef(
       "Secondary 2 သင်္ချာသင်တန်းသည် Term 9 ခုအတွင်း ၃၆ ပတ်ပါဝင်သော ပညာသင်နှစ်တစ်ခုလုံးကို လွှမ်းခြုံပြီး၊ ကိန်းပြည့်များနှင့် ညွှန်ကိန်းများ၊ Algebra ချဲ့ထွင်ခြင်း၊ ထောင့်များနှင့် ပြိုင်လိုင်းများ၊ ရာခိုင်နှုန်း၊ လိုင်းညီပြဿနာများနှင့် ဂရပ်များ၊ ဒေတာစုစည်းတင်ပြခြင်း၊ အချိုးအစားနှင့် အချိုးကျခြင်း၊ 2D/3D ပုံသဏ္ဌာန်များ၏ ဧရိယာနှင့် ထုထည်များပါဝင်ပြီး ဖြစ်နိုင်ခြေနှင့် တစ်နှစ်တာ ပြန်လည်သုံးသပ်ခြင်းဖြင့် အဆုံးသတ်သည်။",
   totalWeeks: 36,
   terms: [
-    _secondary2MathematicsTerm1,
-    _secondary2MathematicsTerm2,
-    _secondary2MathematicsTerm3,
-    _secondary2MathematicsTerm4,
-    _secondary2MathematicsTerm5,
-    _secondary2MathematicsTerm6,
-    _secondary2MathematicsTerm7,
-    _secondary2MathematicsTerm8,
-    _secondary2MathematicsTerm9,
+    _year8MathematicsTerm1,
+    _year8MathematicsTerm2,
+    _year8MathematicsTerm3,
+    _year8MathematicsTerm4,
+    _year8MathematicsTerm5,
+    _year8MathematicsTerm6,
+    _year8MathematicsTerm7,
+    _year8MathematicsTerm8,
+    _year8MathematicsTerm9,
   ],
 );
 // =====================================================================
@@ -99222,7 +99222,7 @@ const CoursePathwayDef year2MathematicsPathway = CoursePathwayDef(
     _year2MathematicsTerm9,
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek1 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek1 = CourseWeekDef(
   id: "course-secondary3-mathematics-w1",
   weekNumber: 1,
   titleEn: "Standard Form (Scientific Notation)",
@@ -99588,7 +99588,7 @@ const CourseWeekDef _secondary3MathematicsWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek2 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek2 = CourseWeekDef(
   id: "course-secondary3-mathematics-w2",
   weekNumber: 2,
   titleEn: "Upper and Lower Bounds",
@@ -99942,7 +99942,7 @@ const CourseWeekDef _secondary3MathematicsWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek3 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek3 = CourseWeekDef(
   id: "course-secondary3-mathematics-w3",
   weekNumber: 3,
   titleEn: "Recurring Decimals to Fractions",
@@ -100286,7 +100286,7 @@ const CourseWeekDef _secondary3MathematicsWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek4 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek4 = CourseWeekDef(
   id: "course-secondary3-mathematics-w4",
   weekNumber: 4,
   titleEn: "Advanced Number Mastery",
@@ -100639,7 +100639,7 @@ const CourseWeekDef _secondary3MathematicsWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm1 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm1 = CourseTermDef(
   id: "course-secondary3-mathematics-t1",
   termNumber: 1,
   titleEn: "Advanced Number and Estimation",
@@ -100647,14 +100647,14 @@ const CourseTermDef _secondary3MathematicsTerm1 = CourseTermDef(
   certificateTitleEn: "Advanced Number and Estimation",
   certificateTitleMy: "အဆင့်မြင့် ကိန်းဂဏန်းနှင့် ခန့်မှန်းခြေ",
   weeks: [
-    _secondary3MathematicsWeek1,
-    _secondary3MathematicsWeek2,
-    _secondary3MathematicsWeek3,
-    _secondary3MathematicsWeek4,
+    _year9MathematicsWeek1,
+    _year9MathematicsWeek2,
+    _year9MathematicsWeek3,
+    _year9MathematicsWeek4,
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek5 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek5 = CourseWeekDef(
   id: "course-secondary3-mathematics-w5",
   weekNumber: 5,
   titleEn: "Expanding Double Brackets",
@@ -101044,7 +101044,7 @@ const CourseWeekDef _secondary3MathematicsWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek6 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek6 = CourseWeekDef(
   id: "course-secondary3-mathematics-w6",
   weekNumber: 6,
   titleEn: "Factorising Quadratics",
@@ -101462,7 +101462,7 @@ const CourseWeekDef _secondary3MathematicsWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek7 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek7 = CourseWeekDef(
   id: "course-secondary3-mathematics-w7",
   weekNumber: 7,
   titleEn: "Algebraic Fractions",
@@ -101785,7 +101785,7 @@ const CourseWeekDef _secondary3MathematicsWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek8 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek8 = CourseWeekDef(
   id: "course-secondary3-mathematics-w8",
   weekNumber: 8,
   titleEn: "Algebra Challenge",
@@ -102208,7 +102208,7 @@ const CourseWeekDef _secondary3MathematicsWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm2 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm2 = CourseTermDef(
   id: "course-secondary3-mathematics-t2",
   termNumber: 2,
   titleEn: "Advanced Algebra and Quadratics",
@@ -102216,14 +102216,14 @@ const CourseTermDef _secondary3MathematicsTerm2 = CourseTermDef(
   certificateTitleEn: "Advanced Algebra and Quadratics",
   certificateTitleMy: "အဆင့်မြင့် အက္ခရာသင်္ချာနှင့် Quadratics",
   weeks: [
-    _secondary3MathematicsWeek5,
-    _secondary3MathematicsWeek6,
-    _secondary3MathematicsWeek7,
-    _secondary3MathematicsWeek8,
+    _year9MathematicsWeek5,
+    _year9MathematicsWeek6,
+    _year9MathematicsWeek7,
+    _year9MathematicsWeek8,
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek9 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek9 = CourseWeekDef(
   id: "course-secondary3-mathematics-w9",
   weekNumber: 9,
   titleEn: "Introduction to Trigonometry",
@@ -102687,7 +102687,7 @@ const CourseWeekDef _secondary3MathematicsWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek10 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek10 = CourseWeekDef(
   id: "course-secondary3-mathematics-w10",
   weekNumber: 10,
   titleEn: "Finding Missing Angles",
@@ -103086,7 +103086,7 @@ const CourseWeekDef _secondary3MathematicsWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek11 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek11 = CourseWeekDef(
   id: "course-secondary3-mathematics-w11",
   weekNumber: 11,
   titleEn: "Circle Theorems Intro",
@@ -103446,7 +103446,7 @@ const CourseWeekDef _secondary3MathematicsWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek12 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek12 = CourseWeekDef(
   id: "course-secondary3-mathematics-w12",
   weekNumber: 12,
   titleEn: "Trigonometry in 3D",
@@ -103866,7 +103866,7 @@ const CourseWeekDef _secondary3MathematicsWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm3 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm3 = CourseTermDef(
   id: "course-secondary3-mathematics-t3",
   termNumber: 3,
   titleEn: "Geometry and Trigonometry",
@@ -103874,14 +103874,14 @@ const CourseTermDef _secondary3MathematicsTerm3 = CourseTermDef(
   certificateTitleEn: "Geometry and Trigonometry",
   certificateTitleMy: "ဂျီဩမေတြီနှင့် Trigonometry",
   weeks: [
-    _secondary3MathematicsWeek9,
-    _secondary3MathematicsWeek10,
-    _secondary3MathematicsWeek11,
-    _secondary3MathematicsWeek12,
+    _year9MathematicsWeek9,
+    _year9MathematicsWeek10,
+    _year9MathematicsWeek11,
+    _year9MathematicsWeek12,
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek13 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek13 = CourseWeekDef(
   id: "course-secondary3-mathematics-w13",
   weekNumber: 13,
   titleEn: "Quadratic Graphs",
@@ -104289,7 +104289,7 @@ const CourseWeekDef _secondary3MathematicsWeek13 = CourseWeekDef(
     ),
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek14 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek14 = CourseWeekDef(
   id: "course-secondary3-mathematics-w14",
   weekNumber: 14,
   titleEn: "Cubic and Reciprocal Graphs",
@@ -104729,7 +104729,7 @@ const CourseWeekDef _secondary3MathematicsWeek14 = CourseWeekDef(
     ),
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek15 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek15 = CourseWeekDef(
   id: "course-secondary3-mathematics-w15",
   weekNumber: 15,
   titleEn: "Function Notation",
@@ -105110,7 +105110,7 @@ const CourseWeekDef _secondary3MathematicsWeek15 = CourseWeekDef(
     ),
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek16 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek16 = CourseWeekDef(
   id: "course-secondary3-mathematics-w16",
   weekNumber: 16,
   titleEn: "Graph Masterclass",
@@ -105516,7 +105516,7 @@ const CourseWeekDef _secondary3MathematicsWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm4 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm4 = CourseTermDef(
   id: "course-secondary3-mathematics-t4",
   termNumber: 4,
   titleEn: "Advanced Graphs and Functions",
@@ -105524,14 +105524,14 @@ const CourseTermDef _secondary3MathematicsTerm4 = CourseTermDef(
   certificateTitleEn: "Advanced Graphs and Functions",
   certificateTitleMy: "အဆင့်မြင့် ဂရပ်များနှင့် Functions",
   weeks: [
-    _secondary3MathematicsWeek13,
-    _secondary3MathematicsWeek14,
-    _secondary3MathematicsWeek15,
-    _secondary3MathematicsWeek16,
+    _year9MathematicsWeek13,
+    _year9MathematicsWeek14,
+    _year9MathematicsWeek15,
+    _year9MathematicsWeek16,
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek17 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek17 = CourseWeekDef(
   id: "course-secondary3-mathematics-w17",
   weekNumber: 17,
   titleEn: "Elimination Method",
@@ -105962,7 +105962,7 @@ const CourseWeekDef _secondary3MathematicsWeek17 = CourseWeekDef(
     ),
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek18 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek18 = CourseWeekDef(
   id: "course-secondary3-mathematics-w18",
   weekNumber: 18,
   titleEn: "Substitution Method",
@@ -106334,7 +106334,7 @@ const CourseWeekDef _secondary3MathematicsWeek18 = CourseWeekDef(
     ),
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek19 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek19 = CourseWeekDef(
   id: "course-secondary3-mathematics-w19",
   weekNumber: 19,
   titleEn: "Linear Inequalities",
@@ -106731,7 +106731,7 @@ const CourseWeekDef _secondary3MathematicsWeek19 = CourseWeekDef(
     ),
   ],
 );
-const CourseWeekDef _secondary3MathematicsWeek20 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek20 = CourseWeekDef(
   id: "course-secondary3-mathematics-w20",
   weekNumber: 20,
   titleEn: "Linear Programming",
@@ -107166,7 +107166,7 @@ const CourseWeekDef _secondary3MathematicsWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm5 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm5 = CourseTermDef(
   id: "course-secondary3-mathematics-t5",
   termNumber: 5,
   titleEn: "Simultaneous Equations and Inequalities",
@@ -107174,10 +107174,10 @@ const CourseTermDef _secondary3MathematicsTerm5 = CourseTermDef(
   certificateTitleEn: "Simultaneous Equations and Inequalities",
   certificateTitleMy: "Simultaneous Equations နှင့် Inequalities",
   weeks: [
-    _secondary3MathematicsWeek17,
-    _secondary3MathematicsWeek18,
-    _secondary3MathematicsWeek19,
-    _secondary3MathematicsWeek20,
+    _year9MathematicsWeek17,
+    _year9MathematicsWeek18,
+    _year9MathematicsWeek19,
+    _year9MathematicsWeek20,
   ],
 );
 
@@ -107186,7 +107186,7 @@ const CourseTermDef _secondary3MathematicsTerm5 = CourseTermDef(
 // (Weeks 21-24)
 // =====================================================================
 
-const CourseWeekDef _secondary3MathematicsWeek21 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek21 = CourseWeekDef(
   id: "course-secondary3-mathematics-w21",
   weekNumber: 21,
   titleEn: "Cumulative Frequency and Quartiles",
@@ -107612,7 +107612,7 @@ const CourseWeekDef _secondary3MathematicsWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek22 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek22 = CourseWeekDef(
   id: "course-secondary3-mathematics-w22",
   weekNumber: 22,
   titleEn: "Histograms and Frequency Density",
@@ -108040,7 +108040,7 @@ const CourseWeekDef _secondary3MathematicsWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek23 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek23 = CourseWeekDef(
   id: "course-secondary3-mathematics-w23",
   weekNumber: 23,
   titleEn: "Probability of Combined Events",
@@ -108435,7 +108435,7 @@ const CourseWeekDef _secondary3MathematicsWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek24 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek24 = CourseWeekDef(
   id: "course-secondary3-mathematics-w24",
   weekNumber: 24,
   titleEn: "Venn Diagrams and Conditional Probability",
@@ -108837,7 +108837,7 @@ const CourseWeekDef _secondary3MathematicsWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm6 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm6 = CourseTermDef(
   id: "course-secondary3-mathematics-t6",
   termNumber: 6,
   titleEn: "Advanced Statistics and Probability",
@@ -108845,10 +108845,10 @@ const CourseTermDef _secondary3MathematicsTerm6 = CourseTermDef(
   certificateTitleEn: "Advanced Statistics and Probability",
   certificateTitleMy: "Advanced Statistics and Probability",
   weeks: [
-    _secondary3MathematicsWeek21,
-    _secondary3MathematicsWeek22,
-    _secondary3MathematicsWeek23,
-    _secondary3MathematicsWeek24,
+    _year9MathematicsWeek21,
+    _year9MathematicsWeek22,
+    _year9MathematicsWeek23,
+    _year9MathematicsWeek24,
   ],
 );
 
@@ -108857,7 +108857,7 @@ const CourseTermDef _secondary3MathematicsTerm6 = CourseTermDef(
 // (Weeks 25-28)
 // =====================================================================
 
-const CourseWeekDef _secondary3MathematicsWeek25 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek25 = CourseWeekDef(
   id: "course-secondary3-mathematics-w25",
   weekNumber: 25,
   titleEn: "Vector Notation and Operations",
@@ -109216,7 +109216,7 @@ const CourseWeekDef _secondary3MathematicsWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek26 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek26 = CourseWeekDef(
   id: "course-secondary3-mathematics-w26",
   weekNumber: 26,
   titleEn: "Vector Geometry",
@@ -109601,7 +109601,7 @@ const CourseWeekDef _secondary3MathematicsWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek27 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek27 = CourseWeekDef(
   id: "course-secondary3-mathematics-w27",
   weekNumber: 27,
   titleEn: "Transformations: Reflection and Rotation",
@@ -109981,7 +109981,7 @@ const CourseWeekDef _secondary3MathematicsWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek28 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek28 = CourseWeekDef(
   id: "course-secondary3-mathematics-w28",
   weekNumber: 28,
   titleEn: "Translation and Enlargement",
@@ -110341,7 +110341,7 @@ const CourseWeekDef _secondary3MathematicsWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm7 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm7 = CourseTermDef(
   id: "course-secondary3-mathematics-t7",
   termNumber: 7,
   titleEn: "Vectors and Transformations",
@@ -110349,10 +110349,10 @@ const CourseTermDef _secondary3MathematicsTerm7 = CourseTermDef(
   certificateTitleEn: "Vectors and Transformations",
   certificateTitleMy: "Vectors နှင့် Transformations",
   weeks: [
-    _secondary3MathematicsWeek25,
-    _secondary3MathematicsWeek26,
-    _secondary3MathematicsWeek27,
-    _secondary3MathematicsWeek28,
+    _year9MathematicsWeek25,
+    _year9MathematicsWeek26,
+    _year9MathematicsWeek27,
+    _year9MathematicsWeek28,
   ],
 );
 
@@ -110361,7 +110361,7 @@ const CourseTermDef _secondary3MathematicsTerm7 = CourseTermDef(
 // (Weeks 29-32)
 // =====================================================================
 
-const CourseWeekDef _secondary3MathematicsWeek29 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek29 = CourseWeekDef(
   id: "course-secondary3-mathematics-w29",
   weekNumber: 29,
   titleEn: "Arc Length and Sector Area",
@@ -110719,7 +110719,7 @@ const CourseWeekDef _secondary3MathematicsWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek30 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek30 = CourseWeekDef(
   id: "course-secondary3-mathematics-w30",
   weekNumber: 30,
   titleEn: "Volume and Surface Area of Prisms and Cylinders",
@@ -111104,7 +111104,7 @@ const CourseWeekDef _secondary3MathematicsWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek31 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek31 = CourseWeekDef(
   id: "course-secondary3-mathematics-w31",
   weekNumber: 31,
   titleEn: "Volume and Surface Area of Cones, Spheres and Pyramids",
@@ -111461,7 +111461,7 @@ const CourseWeekDef _secondary3MathematicsWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek32 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek32 = CourseWeekDef(
   id: "course-secondary3-mathematics-w32",
   weekNumber: 32,
   titleEn: "Similar Shapes: Length, Area and Volume Scale Factors",
@@ -111859,7 +111859,7 @@ const CourseWeekDef _secondary3MathematicsWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm8 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm8 = CourseTermDef(
   id: "course-secondary3-mathematics-t8",
   termNumber: 8,
   titleEn: "Advanced Mensuration and Geometry",
@@ -111867,10 +111867,10 @@ const CourseTermDef _secondary3MathematicsTerm8 = CourseTermDef(
   certificateTitleEn: "Advanced Mensuration and Geometry",
   certificateTitleMy: "အဆင့်မြင့် Mensuration နှင့် ဂျီဩမေတြီ",
   weeks: [
-    _secondary3MathematicsWeek29,
-    _secondary3MathematicsWeek30,
-    _secondary3MathematicsWeek31,
-    _secondary3MathematicsWeek32,
+    _year9MathematicsWeek29,
+    _year9MathematicsWeek30,
+    _year9MathematicsWeek31,
+    _year9MathematicsWeek32,
   ],
 );
 
@@ -111879,7 +111879,7 @@ const CourseTermDef _secondary3MathematicsTerm8 = CourseTermDef(
 // (Weeks 33-36)
 // =====================================================================
 
-const CourseWeekDef _secondary3MathematicsWeek33 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek33 = CourseWeekDef(
   id: "course-secondary3-mathematics-w33",
   weekNumber: 33,
   titleEn: "Mixed Review: Number, Algebra and Graphs",
@@ -112239,7 +112239,7 @@ const CourseWeekDef _secondary3MathematicsWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek34 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek34 = CourseWeekDef(
   id: "course-secondary3-mathematics-w34",
   weekNumber: 34,
   titleEn: "Mixed Review: Geometry, Trigonometry, Vectors and Transformations",
@@ -112578,7 +112578,7 @@ const CourseWeekDef _secondary3MathematicsWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek35 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek35 = CourseWeekDef(
   id: "course-secondary3-mathematics-w35",
   weekNumber: 35,
   titleEn: "Mixed Review: Equations, Statistics, Probability and Mensuration",
@@ -112922,7 +112922,7 @@ const CourseWeekDef _secondary3MathematicsWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3MathematicsWeek36 = CourseWeekDef(
+const CourseWeekDef _year9MathematicsWeek36 = CourseWeekDef(
   id: "course-secondary3-mathematics-w36",
   weekNumber: 36,
   titleEn: "IGCSE Mock Exam and Final Mastery",
@@ -113298,7 +113298,7 @@ const CourseWeekDef _secondary3MathematicsWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3MathematicsTerm9 = CourseTermDef(
+const CourseTermDef _year9MathematicsTerm9 = CourseTermDef(
   id: "course-secondary3-mathematics-t9",
   termNumber: 9,
   titleEn: "IGCSE Mock Exam and Final Mastery",
@@ -113306,10 +113306,10 @@ const CourseTermDef _secondary3MathematicsTerm9 = CourseTermDef(
   certificateTitleEn: "IGCSE Mock Exam and Final Mastery",
   certificateTitleMy: "IGCSE Mock Exam နှင့် Final Mastery",
   weeks: [
-    _secondary3MathematicsWeek33,
-    _secondary3MathematicsWeek34,
-    _secondary3MathematicsWeek35,
-    _secondary3MathematicsWeek36,
+    _year9MathematicsWeek33,
+    _year9MathematicsWeek34,
+    _year9MathematicsWeek35,
+    _year9MathematicsWeek36,
   ],
 );
 
@@ -113322,7 +113322,7 @@ const CourseTermDef _secondary3MathematicsTerm9 = CourseTermDef(
 // Mensuration and Geometry; IGCSE Mock Exam and Final Mastery.
 // =====================================================================
 
-const CoursePathwayDef secondary3MathematicsPathway = CoursePathwayDef(
+const CoursePathwayDef year9MathematicsPathway = CoursePathwayDef(
   id: "course-secondary3-mathematics",
   subject: "mathematics",
   grade: Grade.year9,
@@ -113334,15 +113334,15 @@ const CoursePathwayDef secondary3MathematicsPathway = CoursePathwayDef(
       "Secondary 3 (Year 9) သင်္ချာသင်တန်းသည် IGCSE ကြိုတင်ပြင်ဆင်မှုသင်တန်းဖြစ်ပြီး Term 9 ခုအတွင်း ၃၆ ပတ်ပါဝင်သော ပညာသင်နှစ်တစ်ခုလုံးကို လွှမ်းခြုံသည်။ ပထမနှစ်ဝက်၊ အဆင့်မြင့်ကိန်းဂဏန်းနှင့်ခန့်မှန်းခြေသည် standard form, upper and lower bounds နှင့် ထပ်တလဲလဲဒသမကိန်းများကို အပိုင်းကိန်းပြောင်းခြင်းကို ဖုံးအုပ်ပြီး surds နှင့် rationalising denominators မိတ်ဆက်သော အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ အဆင့်မြင့်အက္ခရာသင်္ချာနှင့် quadratics သည် ကွင်းနှစ်ထပ်ဖြန့်ထုတ်ခြင်း၊ quadratics ဆခွဲကိန်းခွဲခြင်းနှင့် algebraic fractions ကို ဖုံးအုပ်ပြီး ရှုပ်ထွေးသောဖော်မြူလာများပြောင်းပြန်လှန်တွက်ချက်ခြင်းနှင့် algebraic proofs အကြောင်း အထွတ်အထိပ် Algebra Challenge ဖြင့်ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ ဂျီဩမေတြီနှင့် Trigonometry သည် SOHCAHTOA ဖြင့်ပျောက်ဆုံးနေသောအနားများရှာဖွေခြင်း၊ ပျောက်ဆုံးနေသောထောင့်များနှင့် angle of elevation/depression အတွက် inverse trig functions၊ နှင့် စက်ဝိုင်းသီအိုရမ်များမိတ်ဆက် (tangent-radius perpendicularity, angle in a semicircle, cyclic quadrilaterals) ကိုဖုံးအုပ်ပြီး 3D Pythagoras နှင့် trigonometry အကြောင်း အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ အဆင့်မြင့်ဂရပ်များနှင့် Functions သည် quadratic ဂရပ်များရေးဆွဲခြင်းနှင့် အကွေ့ပြောင်းအမှတ်များနှင့် အချိုးညီမျဉ်းများရှာဖွေခြင်း၊ cubic နှင့် reciprocal ဂရပ်ပုံသဏ္ဌာန်များ၊ နှင့် composite/inverse functions အပါအဝင် function notation ကိုဖုံးအုပ်ပြီး ညီမျှခြင်းများကို ဂရပ်ဖြင့်ဖြေရှင်းခြင်းနှင့် လက်တွေ့ပုံစံဆောက်ခြင်းအကြောင်း Graph Masterclass အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Simultaneous Equations and Inequalities သည် elimination method, substitution method (linear-quadratic pairs အပါအဝင်) နှင့် linear inequalities များကိုဖြေရှင်းခြင်းနှင့်ကိုယ်စားပြုခြင်းကိုဖုံးအုပ်ပြီး လက်တွေ့ကန့်သတ်ချက်များအောက်တွင် optimisation အကြောင်း Linear Programming အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Advanced Statistics and Probability သည် cumulative frequency ဇယားများနှင့် quartiles, အညီအမျှမဟုတ်သော class interval များနှင့် frequency density ပါဝင်သော histogram များ၊ နှင့် ပေါင်းစပ် events များ၏ probability (tree diagram, independent and mutually exclusive events) တို့ကို ဖုံးအုပ်ပြီး set notation ကို data-analysis case study တစ်ခုနှင့် ပေါင်းစည်းသော Venn Diagrams and Conditional Probability အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Vectors and Transformations သည် column vector notation နှင့် operations (addition, scalar multiplication, magnitude), vector ဂျီဩမေတြီ (position vectors, midpoints, parallel vectors, collinearity သက်သေပြခြင်း) နှင့် reflection/rotation တို့ကို ဖုံးအုပ်ပြီး vector ဂျီဩမေတြီကို transformation သက်သေပြချက်များနှင့် ပြန်လည်ပေါင်းစည်းသော Translation and Enlargement (negative scale factors အပါအဝင်) အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ အဆင့်မြင့် Mensuration နှင့် ဂျီဩမေတြီသည် arc length နှင့် sector area, prisms and cylinders များ၏ volume and surface area, နှင့် cones, spheres and pyramids များ၏ volume and surface area တို့ကို ဖုံးအုပ်ပြီး scale model များတွင် applied လုပ်ထားသော length/area/volume scale factors (k, k², k³) အကြောင်း Similar Shapes အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ IGCSE Mock Exam and Final Mastery သည် Number/Algebra/Graphs, Geometry/Trigonometry/Vectors/Transformations, နှင့် Equations/Statistics/Probability/Mensuration တို့ကို ဖုံးအုပ်သော cumulative review ဖြစ်ပြီး ယခင် term ရှစ်ခုလုံးမှ multi-part ပြဿနာတစ်ခုတည်းကို ဆွဲထုတ်သော နှစ်တစ်နှစ်လုံး Mock Exam and Final Mastery အထွတ်အထိပ်ဖြင့်ပြီးဆုံးသည်။ 36 ပတ် သင်တန်း၏ Term 9 ခုလုံးကို ယခု ရေးသားပြီးဖြစ်သည်။",
   totalWeeks: 36,
   terms: [
-    _secondary3MathematicsTerm1,
-    _secondary3MathematicsTerm2,
-    _secondary3MathematicsTerm3,
-    _secondary3MathematicsTerm4,
-    _secondary3MathematicsTerm5,
-    _secondary3MathematicsTerm6,
-    _secondary3MathematicsTerm7,
-    _secondary3MathematicsTerm8,
-    _secondary3MathematicsTerm9,
+    _year9MathematicsTerm1,
+    _year9MathematicsTerm2,
+    _year9MathematicsTerm3,
+    _year9MathematicsTerm4,
+    _year9MathematicsTerm5,
+    _year9MathematicsTerm6,
+    _year9MathematicsTerm7,
+    _year9MathematicsTerm8,
+    _year9MathematicsTerm9,
   ],
 );
 // =====================================================================
@@ -126892,7 +126892,7 @@ const CourseTermDef _igcseMathematicsTerm9 = CourseTermDef(
 /// Transformations, Matrices and Functions; Advanced Modelling and
 /// Problem Solving; Exam Intensive - Paper 2 & Paper 4 (Extended);
 /// and Final Countdown & IGCSE Graduation.
-const CoursePathwayDef mathematicsYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10MathematicsPathway = CoursePathwayDef(
   id: "course-year10-mathematics",
   subject: "mathematics",
   grade: Grade.year10,
@@ -126911,7 +126911,7 @@ const CoursePathwayDef mathematicsYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef mathematicsYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11MathematicsPathway = CoursePathwayDef(
   id: "course-year11-mathematics",
   subject: "mathematics",
   grade: Grade.year11,

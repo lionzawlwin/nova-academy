@@ -31963,7 +31963,7 @@ const CoursePathwayDef year5EnglishPathway = CoursePathwayDef(
 // Secondary 1 English -- Term 1, Week 1: "Story Structure"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek1 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek1 = CourseWeekDef(
   id: "course-secondary1-english-w1",
   weekNumber: 1,
   titleEn: "Story Structure",
@@ -32496,7 +32496,7 @@ const CourseWeekDef _secondary1EnglishWeek1 = CourseWeekDef(
 // Secondary 1 English -- Term 1, Week 2: "Character Development"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek2 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek2 = CourseWeekDef(
   id: "course-secondary1-english-w2",
   weekNumber: 2,
   titleEn: "Character Development",
@@ -33039,7 +33039,7 @@ const CourseWeekDef _secondary1EnglishWeek2 = CourseWeekDef(
 // Secondary 1 English -- Term 1, Week 3: "Setting the Scene"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek3 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek3 = CourseWeekDef(
   id: "course-secondary1-english-w3",
   weekNumber: 3,
   titleEn: "Setting the Scene",
@@ -33578,7 +33578,7 @@ const CourseWeekDef _secondary1EnglishWeek3 = CourseWeekDef(
 // Secondary 1 English -- Term 1, Week 4 (Capstone): "Write an Adventure"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek4 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek4 = CourseWeekDef(
   id: "course-secondary1-english-w4",
   weekNumber: 4,
   titleEn: "Write an Adventure",
@@ -34125,7 +34125,7 @@ const CourseWeekDef _secondary1EnglishWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm1 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm1 = CourseTermDef(
   id: "course-secondary1-english-t1",
   termNumber: 1,
   titleEn: "Elements of Fiction",
@@ -34133,17 +34133,17 @@ const CourseTermDef _secondary1EnglishTerm1 = CourseTermDef(
   certificateTitleEn: "Elements of Fiction",
   certificateTitleMy: "စာပေဇာတ်လမ်း၏ အစိတ်အပိုင်းများ",
   weeks: [
-    _secondary1EnglishWeek1,
-    _secondary1EnglishWeek2,
-    _secondary1EnglishWeek3,
-    _secondary1EnglishWeek4,
+    _year7EnglishWeek1,
+    _year7EnglishWeek2,
+    _year7EnglishWeek3,
+    _year7EnglishWeek4,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 2, Week 5: "Reading Non-Fiction"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek5 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek5 = CourseWeekDef(
   id: "course-secondary1-english-w5",
   weekNumber: 5,
   titleEn: "Reading Non-Fiction",
@@ -34700,7 +34700,7 @@ const CourseWeekDef _secondary1EnglishWeek5 = CourseWeekDef(
 // Secondary 1 English -- Term 2, Week 6: "Biographies"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek6 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek6 = CourseWeekDef(
   id: "course-secondary1-english-w6",
   weekNumber: 6,
   titleEn: "Biographies",
@@ -35250,7 +35250,7 @@ const CourseWeekDef _secondary1EnglishWeek6 = CourseWeekDef(
 // Secondary 1 English -- Term 2, Week 7: "Autobiographies"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek7 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek7 = CourseWeekDef(
   id: "course-secondary1-english-w7",
   weekNumber: 7,
   titleEn: "Autobiographies",
@@ -35793,7 +35793,7 @@ const CourseWeekDef _secondary1EnglishWeek7 = CourseWeekDef(
 // Secondary 1 English -- Term 2, Week 8 (Capstone): "Writing a Biography"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek8 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek8 = CourseWeekDef(
   id: "course-secondary1-english-w8",
   weekNumber: 8,
   titleEn: "Writing a Biography",
@@ -36333,7 +36333,7 @@ const CourseWeekDef _secondary1EnglishWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm2 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm2 = CourseTermDef(
   id: "course-secondary1-english-t2",
   termNumber: 2,
   titleEn: "Non-Fiction and Information Texts",
@@ -36341,17 +36341,17 @@ const CourseTermDef _secondary1EnglishTerm2 = CourseTermDef(
   certificateTitleEn: "Non-Fiction and Information Texts",
   certificateTitleMy: "အချက်အလက်စာပေနှင့် သတင်းအချက်အလက်များ",
   weeks: [
-    _secondary1EnglishWeek5,
-    _secondary1EnglishWeek6,
-    _secondary1EnglishWeek7,
-    _secondary1EnglishWeek8,
+    _year7EnglishWeek5,
+    _year7EnglishWeek6,
+    _year7EnglishWeek7,
+    _year7EnglishWeek8,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 3, Week 9: "Figurative Language"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek9 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek9 = CourseWeekDef(
   id: "course-secondary1-english-w9",
   weekNumber: 9,
   titleEn: "Figurative Language",
@@ -36904,7 +36904,7 @@ const CourseWeekDef _secondary1EnglishWeek9 = CourseWeekDef(
 // Secondary 1 English -- Term 3, Week 10: "Rhythm and Rhyme"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek10 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek10 = CourseWeekDef(
   id: "course-secondary1-english-w10",
   weekNumber: 10,
   titleEn: "Rhythm and Rhyme",
@@ -37445,7 +37445,7 @@ const CourseWeekDef _secondary1EnglishWeek10 = CourseWeekDef(
 // Secondary 1 English -- Term 3, Week 11: "Different Poetic Forms"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek11 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek11 = CourseWeekDef(
   id: "course-secondary1-english-w11",
   weekNumber: 11,
   titleEn: "Different Poetic Forms",
@@ -37992,7 +37992,7 @@ const CourseWeekDef _secondary1EnglishWeek11 = CourseWeekDef(
 // Secondary 1 English -- Term 3, Week 12 (Capstone): "Poetry Anthology"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek12 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek12 = CourseWeekDef(
   id: "course-secondary1-english-w12",
   weekNumber: 12,
   titleEn: "Poetry Anthology",
@@ -38543,7 +38543,7 @@ const CourseWeekDef _secondary1EnglishWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm3 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm3 = CourseTermDef(
   id: "course-secondary1-english-t3",
   termNumber: 3,
   titleEn: "The Art of Poetry",
@@ -38551,17 +38551,17 @@ const CourseTermDef _secondary1EnglishTerm3 = CourseTermDef(
   certificateTitleEn: "The Art of Poetry",
   certificateTitleMy: "ကဗျာအနုပညာ",
   weeks: [
-    _secondary1EnglishWeek9,
-    _secondary1EnglishWeek10,
-    _secondary1EnglishWeek11,
-    _secondary1EnglishWeek12,
+    _year7EnglishWeek9,
+    _year7EnglishWeek10,
+    _year7EnglishWeek11,
+    _year7EnglishWeek12,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 4, Week 13: "Reading Plays"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek13 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek13 = CourseWeekDef(
   id: "course-secondary1-english-w13",
   weekNumber: 13,
   titleEn: "Reading Plays",
@@ -39104,7 +39104,7 @@ const CourseWeekDef _secondary1EnglishWeek13 = CourseWeekDef(
 // Secondary 1 English -- Term 4, Week 14: "Introduction to Shakespeare"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek14 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek14 = CourseWeekDef(
   id: "course-secondary1-english-w14",
   weekNumber: 14,
   titleEn: "Introduction to Shakespeare",
@@ -39637,7 +39637,7 @@ const CourseWeekDef _secondary1EnglishWeek14 = CourseWeekDef(
 // Secondary 1 English -- Term 4, Week 15: "Writing a Scene"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek15 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek15 = CourseWeekDef(
   id: "course-secondary1-english-w15",
   weekNumber: 15,
   titleEn: "Writing a Scene",
@@ -40191,7 +40191,7 @@ const CourseWeekDef _secondary1EnglishWeek15 = CourseWeekDef(
 // Secondary 1 English -- Term 4, Week 16 (Capstone): "Performing a Scene"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek16 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek16 = CourseWeekDef(
   id: "course-secondary1-english-w16",
   weekNumber: 16,
   titleEn: "Performing a Scene",
@@ -40741,7 +40741,7 @@ const CourseWeekDef _secondary1EnglishWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm4 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm4 = CourseTermDef(
   id: "course-secondary1-english-t4",
   termNumber: 4,
   titleEn: "Exploring Drama",
@@ -40749,17 +40749,17 @@ const CourseTermDef _secondary1EnglishTerm4 = CourseTermDef(
   certificateTitleEn: "Exploring Drama",
   certificateTitleMy: "ပြဇာတ် စူးစမ်းလေ့လာခြင်း",
   weeks: [
-    _secondary1EnglishWeek13,
-    _secondary1EnglishWeek14,
-    _secondary1EnglishWeek15,
-    _secondary1EnglishWeek16,
+    _year7EnglishWeek13,
+    _year7EnglishWeek14,
+    _year7EnglishWeek15,
+    _year7EnglishWeek16,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 5, Week 17: "Fact vs. Opinion"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek17 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek17 = CourseWeekDef(
   id: "course-secondary1-english-w17",
   weekNumber: 17,
   titleEn: "Fact vs. Opinion",
@@ -41304,7 +41304,7 @@ const CourseWeekDef _secondary1EnglishWeek17 = CourseWeekDef(
 // Secondary 1 English -- Term 5, Week 18: "Persuasive Techniques"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek18 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek18 = CourseWeekDef(
   id: "course-secondary1-english-w18",
   weekNumber: 18,
   titleEn: "Persuasive Techniques",
@@ -41855,7 +41855,7 @@ const CourseWeekDef _secondary1EnglishWeek18 = CourseWeekDef(
 // Secondary 1 English -- Term 5, Week 19: "Writing a Speech"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek19 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek19 = CourseWeekDef(
   id: "course-secondary1-english-w19",
   weekNumber: 19,
   titleEn: "Writing a Speech",
@@ -42408,7 +42408,7 @@ const CourseWeekDef _secondary1EnglishWeek19 = CourseWeekDef(
 // Secondary 1 English -- Term 5, Week 20 (Capstone): "The Great Debate"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek20 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek20 = CourseWeekDef(
   id: "course-secondary1-english-w20",
   weekNumber: 20,
   titleEn: "The Great Debate",
@@ -42959,7 +42959,7 @@ const CourseWeekDef _secondary1EnglishWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm5 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm5 = CourseTermDef(
   id: "course-secondary1-english-t5",
   termNumber: 5,
   titleEn: "The Art of Persuasion",
@@ -42967,17 +42967,17 @@ const CourseTermDef _secondary1EnglishTerm5 = CourseTermDef(
   certificateTitleEn: "The Art of Persuasion",
   certificateTitleMy: "ဆွဲဆောင်စည်းရုံးရေး အနုပညာ",
   weeks: [
-    _secondary1EnglishWeek17,
-    _secondary1EnglishWeek18,
-    _secondary1EnglishWeek19,
-    _secondary1EnglishWeek20,
+    _year7EnglishWeek17,
+    _year7EnglishWeek18,
+    _year7EnglishWeek19,
+    _year7EnglishWeek20,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 6, Week 21: "Sentence Structures"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek21 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek21 = CourseWeekDef(
   id: "course-secondary1-english-w21",
   weekNumber: 21,
   titleEn: "Sentence Structures",
@@ -43512,7 +43512,7 @@ const CourseWeekDef _secondary1EnglishWeek21 = CourseWeekDef(
 // Secondary 1 English -- Term 6, Week 22: "Punctuation Power"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek22 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek22 = CourseWeekDef(
   id: "course-secondary1-english-w22",
   weekNumber: 22,
   titleEn: "Punctuation Power",
@@ -44056,7 +44056,7 @@ const CourseWeekDef _secondary1EnglishWeek22 = CourseWeekDef(
 // Secondary 1 English -- Term 6, Week 23: "Vocabulary Building"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek23 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek23 = CourseWeekDef(
   id: "course-secondary1-english-w23",
   weekNumber: 23,
   titleEn: "Vocabulary Building",
@@ -44588,7 +44588,7 @@ const CourseWeekDef _secondary1EnglishWeek23 = CourseWeekDef(
 // Secondary 1 English -- Term 6, Week 24 (Capstone): "Grammar and Editing Challenge"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek24 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek24 = CourseWeekDef(
   id: "course-secondary1-english-w24",
   weekNumber: 24,
   titleEn: "Grammar and Editing Challenge",
@@ -45130,7 +45130,7 @@ const CourseWeekDef _secondary1EnglishWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm6 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm6 = CourseTermDef(
   id: "course-secondary1-english-t6",
   termNumber: 6,
   titleEn: "Advanced Grammar and Vocabulary Mastery",
@@ -45138,17 +45138,17 @@ const CourseTermDef _secondary1EnglishTerm6 = CourseTermDef(
   certificateTitleEn: "Advanced Grammar and Vocabulary Mastery",
   certificateTitleMy: "အဆင့်မြင့်သဒ္ဒါနှင့် ဝေါဟာရ ကျွမ်းကျင်မှု",
   weeks: [
-    _secondary1EnglishWeek21,
-    _secondary1EnglishWeek22,
-    _secondary1EnglishWeek23,
-    _secondary1EnglishWeek24,
+    _year7EnglishWeek21,
+    _year7EnglishWeek22,
+    _year7EnglishWeek23,
+    _year7EnglishWeek24,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 7, Week 25: "News Reports"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek25 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek25 = CourseWeekDef(
   id: "course-secondary1-english-w25",
   weekNumber: 25,
   titleEn: "News Reports",
@@ -45697,7 +45697,7 @@ const CourseWeekDef _secondary1EnglishWeek25 = CourseWeekDef(
 // Secondary 1 English -- Term 7, Week 26: "The Language of Advertising"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek26 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek26 = CourseWeekDef(
   id: "course-secondary1-english-w26",
   weekNumber: 26,
   titleEn: "The Language of Advertising",
@@ -46242,7 +46242,7 @@ const CourseWeekDef _secondary1EnglishWeek26 = CourseWeekDef(
 // Secondary 1 English -- Term 7, Week 27: "Conducting Interviews"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek27 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek27 = CourseWeekDef(
   id: "course-secondary1-english-w27",
   weekNumber: 27,
   titleEn: "Conducting Interviews",
@@ -46793,7 +46793,7 @@ const CourseWeekDef _secondary1EnglishWeek27 = CourseWeekDef(
 // Secondary 1 English -- Term 7, Week 28 (Capstone): "Class Newspaper"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek28 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek28 = CourseWeekDef(
   id: "course-secondary1-english-w28",
   weekNumber: 28,
   titleEn: "Class Newspaper",
@@ -47342,7 +47342,7 @@ const CourseWeekDef _secondary1EnglishWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm7 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm7 = CourseTermDef(
   id: "course-secondary1-english-t7",
   termNumber: 7,
   titleEn: "Media Studies and Journalism",
@@ -47350,17 +47350,17 @@ const CourseTermDef _secondary1EnglishTerm7 = CourseTermDef(
   certificateTitleEn: "Media Studies and Journalism",
   certificateTitleMy: "မီဒီယာလေ့လာမှုနှင့် သတင်းစာပညာ",
   weeks: [
-    _secondary1EnglishWeek25,
-    _secondary1EnglishWeek26,
-    _secondary1EnglishWeek27,
-    _secondary1EnglishWeek28,
+    _year7EnglishWeek25,
+    _year7EnglishWeek26,
+    _year7EnglishWeek27,
+    _year7EnglishWeek28,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 8, Week 29: "Exploring Modern Themes"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek29 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek29 = CourseWeekDef(
   id: "course-secondary1-english-w29",
   weekNumber: 29,
   titleEn: "Exploring Modern Themes",
@@ -47908,7 +47908,7 @@ const CourseWeekDef _secondary1EnglishWeek29 = CourseWeekDef(
 // Secondary 1 English -- Term 8, Week 30: "Analyzing Plot Twists"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek30 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek30 = CourseWeekDef(
   id: "course-secondary1-english-w30",
   weekNumber: 30,
   titleEn: "Analyzing Plot Twists",
@@ -48460,7 +48460,7 @@ const CourseWeekDef _secondary1EnglishWeek30 = CourseWeekDef(
 // Secondary 1 English -- Term 8, Week 31: "Writing a Book Review"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek31 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek31 = CourseWeekDef(
   id: "course-secondary1-english-w31",
   weekNumber: 31,
   titleEn: "Writing a Book Review",
@@ -49017,7 +49017,7 @@ const CourseWeekDef _secondary1EnglishWeek31 = CourseWeekDef(
 // Secondary 1 English -- Term 8, Week 32 (Capstone): "Literary Critic"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek32 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek32 = CourseWeekDef(
   id: "course-secondary1-english-w32",
   weekNumber: 32,
   titleEn: "Literary Critic",
@@ -49574,7 +49574,7 @@ const CourseWeekDef _secondary1EnglishWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm8 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm8 = CourseTermDef(
   id: "course-secondary1-english-t8",
   termNumber: 8,
   titleEn: "Modern Fiction and Literary Analysis",
@@ -49582,17 +49582,17 @@ const CourseTermDef _secondary1EnglishTerm8 = CourseTermDef(
   certificateTitleEn: "Modern Fiction and Literary Analysis",
   certificateTitleMy: "ခေတ်သစ်ဝတ္ထုနှင့် စာပေဝေဖန်ရေး",
   weeks: [
-    _secondary1EnglishWeek29,
-    _secondary1EnglishWeek30,
-    _secondary1EnglishWeek31,
-    _secondary1EnglishWeek32,
+    _year7EnglishWeek29,
+    _year7EnglishWeek30,
+    _year7EnglishWeek31,
+    _year7EnglishWeek32,
   ],
 );
 // =====================================================================
 // Secondary 1 English -- Term 9, Week 33: "The Art of Storytelling"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek33 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek33 = CourseWeekDef(
   id: "course-secondary1-english-w33",
   weekNumber: 33,
   titleEn: "The Art of Storytelling",
@@ -50148,7 +50148,7 @@ const CourseWeekDef _secondary1EnglishWeek33 = CourseWeekDef(
 // Secondary 1 English -- Term 9, Week 34: "Effective Presentations"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek34 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek34 = CourseWeekDef(
   id: "course-secondary1-english-w34",
   weekNumber: 34,
   titleEn: "Effective Presentations",
@@ -50708,7 +50708,7 @@ const CourseWeekDef _secondary1EnglishWeek34 = CourseWeekDef(
 // Secondary 1 English -- Term 9, Week 35: "English Skills Revision"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek35 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek35 = CourseWeekDef(
   id: "course-secondary1-english-w35",
   weekNumber: 35,
   titleEn: "English Skills Revision",
@@ -51263,7 +51263,7 @@ const CourseWeekDef _secondary1EnglishWeek35 = CourseWeekDef(
 // Secondary 1 English -- Term 9, Week 36 (Capstone): "The Anthology Project"
 // =====================================================================
 
-const CourseWeekDef _secondary1EnglishWeek36 = CourseWeekDef(
+const CourseWeekDef _year7EnglishWeek36 = CourseWeekDef(
   id: "course-secondary1-english-w36",
   weekNumber: 36,
   titleEn: "The Anthology Project",
@@ -51819,7 +51819,7 @@ const CourseWeekDef _secondary1EnglishWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary1EnglishTerm9 = CourseTermDef(
+const CourseTermDef _year7EnglishTerm9 = CourseTermDef(
   id: "course-secondary1-english-t9",
   termNumber: 9,
   titleEn: "Spoken English and the Year 7 Portfolio",
@@ -51827,14 +51827,14 @@ const CourseTermDef _secondary1EnglishTerm9 = CourseTermDef(
   certificateTitleEn: "Spoken English and the Year 7 Portfolio",
   certificateTitleMy: "အပြောစကားအင်္ဂလိပ်နှင့် Year 7 ရေးသားမှုစုစည်းမှု",
   weeks: [
-    _secondary1EnglishWeek33,
-    _secondary1EnglishWeek34,
-    _secondary1EnglishWeek35,
-    _secondary1EnglishWeek36,
+    _year7EnglishWeek33,
+    _year7EnglishWeek34,
+    _year7EnglishWeek35,
+    _year7EnglishWeek36,
   ],
 );
 
-const CoursePathwayDef secondary1EnglishPathway = CoursePathwayDef(
+const CoursePathwayDef year7EnglishPathway = CoursePathwayDef(
   id: "course-secondary1-english",
   subject: "english",
   grade: Grade.year7,
@@ -51846,22 +51846,22 @@ const CoursePathwayDef secondary1EnglishPathway = CoursePathwayDef(
       "ပထမနှစ် (Secondary 1) အင်္ဂလိပ်စာသင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ စာပေဇာတ်လမ်း၏ အစိတ်အပိုင်းများသည် ဇာတ်လမ်းဖွဲ့စည်းပုံနှင့် ဇာတ်လမ်းတောင်ဖြင့် ဖွင့်လှစ်ပြီး ဇာတ်ကောင်ဖန်တီးခြင်းနှင့် အာရုံခံအသေးစိတ်ဖြင့် ဇာတ်ကွက်နောက်ခံတည်ဆောက်ခြင်းသို့ ဆက်လက်တည်ဆောက်ကာ ကျောင်းသားများ ကိုယ်ပိုင်စွန့်စားခန်းဇာတ်လမ်းကို စီစဉ်၊ မူကြမ်းရေး၊ တည်းဖြတ်သော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ အချက်အလက်စာပေနှင့် သတင်းအချက်အလက်များသည် သုတစာပေများကို ထိရောက်စွာ ဖတ်ရှုနည်းကို သင်ကြားပြီး အတ္ထုပ္ပတ္တိနှင့် ကိုယ်တိုင်ရေးအတ္ထုပ္ပတ္တိကို နှိုင်းယှဉ်ကာ ကျောင်းသားများ သုတေသနပြု၍ ၎င်းတို့ကိုယ်ပိုင် ရွေးချယ်ထားသောပုဂ္ဂိုလ်၏ အတ္ထုပ္ပတ္တိကို ရေးသားသော အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ ကဗျာအနုပညာသည် တင်စားချက်ဘာသာစကား၊ ကာရန်နှင့်အသံသွားအသံလာ၊ ယဉ်ကျေးမှုအမျိုးမျိုးမှ ကဗျာပုံစံများကို လေ့လာပြီး ကဗျာပေါင်းချုပ် အနှစ်ချုပ်သင်ခန်းစာဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ ပြဇာတ် စူးစမ်းလေ့လာခြင်းသည် ဇာတ်ညွှန်းပုံစံနှင့် ဇာတ်ညွှန်းညွှန်ကြားချက်များကို မိတ်ဆက်ပြီး ရှိတ်စပီးယားနှင့် ပထမဆုံးအကြိမ် မိတ်ဆက်ကာ ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် ဇာတ်ကွက်တိုကို ရေးသားပြီး သရုပ်ဆောင်ကပြသည်။ ပဉ္စမနှစ်ဝက်၊ ဆွဲဆောင်စည်းရုံးရေး အနုပညာသည် အချက်အလက်နှင့် ထင်မြင်ချက်ကို ခွဲခြားပြီး ဆွဲဆောင်စည်းရုံးရေး နည်းဗျူဟာများနှင့် မိန့်ခွန်းရေးသားနည်းကို သင်ကြားကာ အတန်းတွင်း စကားရည်လုပွဲဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ အဆင့်မြင့်သဒ္ဒါနှင့် ဝေါဟာရ ကျွမ်းကျင်မှုသည် ဝါကျဖွဲ့စည်းပုံများ၊ ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် ဝေါဟာရတည်ဆောက်ခြင်းကို ပိုမိုနက်နဲစေပြီး သဒ္ဒါနှင့် တည်းဖြတ်ခြင်း စိန်ခေါ်ချက်ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ မီဒီယာလေ့လာမှုနှင့် သတင်းစာပညာသည် သတင်းတင်ဆက်မှုများ၊ ကြော်ငြာဘာသာစကားနှင့် အင်တာဗျူးပြုလုပ်ခြင်းကို ခွဲခြမ်းစိတ်ဖြာပြီး အတန်းတွင်း သတင်းစာတစ်စောင် ပူးပေါင်းဖန်တီးမှုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ ခေတ်သစ်ဝတ္ထုနှင့် စာပေဝေဖန်ရေးသည် ခေတ်သစ်လူငယ်စာပေ အကြောင်းအရာများနှင့် ဇာတ်လမ်းလှည့်ကွက်များကို စူးစမ်းလေ့လာပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် စာအုပ်သုံးသပ်ချက်ကို ရေးသား၍ စာပေဝေဖန်ရေးသမားတစ်ဦးအဖြစ် ကာကွယ်ဆွေးနွေးသည်။ နဝမနှစ်ဝက်သည် အပြောစကားအင်္ဂလိပ် -- ပုံပြင်ပြောခြင်း အနုပညာနှင့် ထိရောက်သော တင်ဆက်မှုများ -- ပြီးလျှင် စွမ်းရည်အပြည့်အစုံ ပြန်လည်လေ့ကျင့်ရေးအပတ်စဉ်တစ်ခုနှင့် တစ်နှစ်တာလုံး၏ အကောင်းဆုံးအရေးအသားများကို နောက်ဆုံးစုစည်းမှုတစ်ခုအဖြစ် စုစည်းသော Anthology Project အနှစ်ချုပ်သင်ခန်းစာဖြင့် တစ်နှစ်တာလုံးကို ပိတ်သိမ်းသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary1EnglishTerm1,
-    _secondary1EnglishTerm2,
-    _secondary1EnglishTerm3,
-    _secondary1EnglishTerm4,
-    _secondary1EnglishTerm5,
-    _secondary1EnglishTerm6,
-    _secondary1EnglishTerm7,
-    _secondary1EnglishTerm8,
-    _secondary1EnglishTerm9,
+    _year7EnglishTerm1,
+    _year7EnglishTerm2,
+    _year7EnglishTerm3,
+    _year7EnglishTerm4,
+    _year7EnglishTerm5,
+    _year7EnglishTerm6,
+    _year7EnglishTerm7,
+    _year7EnglishTerm8,
+    _year7EnglishTerm9,
   ],
 );
 // =====================================================================
 // Secondary 2 (Year 8) English -- Terms 1-9 (Weeks 1-36)
 // =====================================================================
 
-const CourseWeekDef _secondary2EnglishWeek1 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek1 = CourseWeekDef(
   id: "course-secondary2-english-w1",
   weekNumber: 1,
   titleEn: "Building Tension",
@@ -52392,7 +52392,7 @@ const CourseWeekDef _secondary2EnglishWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek2 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek2 = CourseWeekDef(
   id: "course-secondary2-english-w2",
   weekNumber: 2,
   titleEn: "Creating Atmosphere",
@@ -52929,7 +52929,7 @@ const CourseWeekDef _secondary2EnglishWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek3 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek3 = CourseWeekDef(
   id: "course-secondary2-english-w3",
   weekNumber: 3,
   titleEn: "The Cliffhanger",
@@ -53466,7 +53466,7 @@ const CourseWeekDef _secondary2EnglishWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek4 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek4 = CourseWeekDef(
   id: "course-secondary2-english-w4",
   weekNumber: 4,
   titleEn: "Writing a Thriller",
@@ -54000,7 +54000,7 @@ const CourseWeekDef _secondary2EnglishWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm1 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm1 = CourseTermDef(
   id: "course-secondary2-english-t1",
   termNumber: 1,
   titleEn: "Suspense and Thriller Fiction",
@@ -54008,13 +54008,13 @@ const CourseTermDef _secondary2EnglishTerm1 = CourseTermDef(
   certificateTitleEn: "Suspense and Thriller Fiction",
   certificateTitleMy: "သည်းထိတ်ရင်ဖို ဇာတ်လမ်းနှင့် စိတ်လှုပ်ရှားဖွယ် စာပေ",
   weeks: [
-    _secondary2EnglishWeek1,
-    _secondary2EnglishWeek2,
-    _secondary2EnglishWeek3,
-    _secondary2EnglishWeek4,
+    _year8EnglishWeek1,
+    _year8EnglishWeek2,
+    _year8EnglishWeek3,
+    _year8EnglishWeek4,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek5 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek5 = CourseWeekDef(
   id: "course-secondary2-english-w5",
   weekNumber: 5,
   titleEn: "Exploring Travelogues",
@@ -54553,7 +54553,7 @@ const CourseWeekDef _secondary2EnglishWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek6 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek6 = CourseWeekDef(
   id: "course-secondary2-english-w6",
   weekNumber: 6,
   titleEn: "Describing Places",
@@ -55083,7 +55083,7 @@ const CourseWeekDef _secondary2EnglishWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek7 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek7 = CourseWeekDef(
   id: "course-secondary2-english-w7",
   weekNumber: 7,
   titleEn: "Writing Reviews",
@@ -55611,7 +55611,7 @@ const CourseWeekDef _secondary2EnglishWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek8 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek8 = CourseWeekDef(
   id: "course-secondary2-english-w8",
   weekNumber: 8,
   titleEn: "Travel Brochure Project",
@@ -56161,7 +56161,7 @@ const CourseWeekDef _secondary2EnglishWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm2 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm2 = CourseTermDef(
   id: "course-secondary2-english-t2",
   termNumber: 2,
   titleEn: "Travel Writing",
@@ -56169,13 +56169,13 @@ const CourseTermDef _secondary2EnglishTerm2 = CourseTermDef(
   certificateTitleEn: "Travel Writing",
   certificateTitleMy: "ခရီးသွား ရေးသားမှု",
   weeks: [
-    _secondary2EnglishWeek5,
-    _secondary2EnglishWeek6,
-    _secondary2EnglishWeek7,
-    _secondary2EnglishWeek8,
+    _year8EnglishWeek5,
+    _year8EnglishWeek6,
+    _year8EnglishWeek7,
+    _year8EnglishWeek8,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek9 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek9 = CourseWeekDef(
   id: "course-secondary2-english-w9",
   weekNumber: 9,
   titleEn: "Telling Stories in Verse",
@@ -56700,7 +56700,7 @@ const CourseWeekDef _secondary2EnglishWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek10 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek10 = CourseWeekDef(
   id: "course-secondary2-english-w10",
   weekNumber: 10,
   titleEn: "Poetic Devices",
@@ -57229,7 +57229,7 @@ const CourseWeekDef _secondary2EnglishWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek11 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek11 = CourseWeekDef(
   id: "course-secondary2-english-w11",
   weekNumber: 11,
   titleEn: "Historical Context",
@@ -57770,7 +57770,7 @@ const CourseWeekDef _secondary2EnglishWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek12 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek12 = CourseWeekDef(
   id: "course-secondary2-english-w12",
   weekNumber: 12,
   titleEn: "Composing a Ballad",
@@ -58312,7 +58312,7 @@ const CourseWeekDef _secondary2EnglishWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm3 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm3 = CourseTermDef(
   id: "course-secondary2-english-t3",
   termNumber: 3,
   titleEn: "Narrative Poetry and Ballads",
@@ -58320,13 +58320,13 @@ const CourseTermDef _secondary2EnglishTerm3 = CourseTermDef(
   certificateTitleEn: "Narrative Poetry and Ballads",
   certificateTitleMy: "ဇာတ်ကြောင်းပြော ကဗျာနှင့် ဘယ်လက်ဒ်များ",
   weeks: [
-    _secondary2EnglishWeek9,
-    _secondary2EnglishWeek10,
-    _secondary2EnglishWeek11,
-    _secondary2EnglishWeek12,
+    _year8EnglishWeek9,
+    _year8EnglishWeek10,
+    _year8EnglishWeek11,
+    _year8EnglishWeek12,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek13 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek13 = CourseWeekDef(
   id: "course-secondary2-english-w13",
   weekNumber: 13,
   titleEn: "Reading a Play Script",
@@ -58862,7 +58862,7 @@ const CourseWeekDef _secondary2EnglishWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek14 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek14 = CourseWeekDef(
   id: "course-secondary2-english-w14",
   weekNumber: 14,
   titleEn: "Shakespeare on Stage",
@@ -59380,7 +59380,7 @@ const CourseWeekDef _secondary2EnglishWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek15 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek15 = CourseWeekDef(
   id: "course-secondary2-english-w15",
   weekNumber: 15,
   titleEn: "Writing a Scene",
@@ -59912,7 +59912,7 @@ const CourseWeekDef _secondary2EnglishWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek16 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek16 = CourseWeekDef(
   id: "course-secondary2-english-w16",
   weekNumber: 16,
   titleEn: "Staging a Performance",
@@ -60457,7 +60457,7 @@ const CourseWeekDef _secondary2EnglishWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm4 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm4 = CourseTermDef(
   id: "course-secondary2-english-t4",
   termNumber: 4,
   titleEn: "Drama: Scripts and Performance",
@@ -60465,13 +60465,13 @@ const CourseTermDef _secondary2EnglishTerm4 = CourseTermDef(
   certificateTitleEn: "Drama: Scripts and Performance",
   certificateTitleMy: "ပြဇာတ် -- ဇာတ်ညွှန်းနှင့် သရုပ်ဆောင်ခြင်း",
   weeks: [
-    _secondary2EnglishWeek13,
-    _secondary2EnglishWeek14,
-    _secondary2EnglishWeek15,
-    _secondary2EnglishWeek16,
+    _year8EnglishWeek13,
+    _year8EnglishWeek14,
+    _year8EnglishWeek15,
+    _year8EnglishWeek16,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek17 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek17 = CourseWeekDef(
   id: "course-secondary2-english-w17",
   weekNumber: 17,
   titleEn: "Fact and Opinion",
@@ -60994,7 +60994,7 @@ const CourseWeekDef _secondary2EnglishWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek18 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek18 = CourseWeekDef(
   id: "course-secondary2-english-w18",
   weekNumber: 18,
   titleEn: "Persuasive Techniques",
@@ -61534,7 +61534,7 @@ const CourseWeekDef _secondary2EnglishWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek19 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek19 = CourseWeekDef(
   id: "course-secondary2-english-w19",
   weekNumber: 19,
   titleEn: "Writing a Speech",
@@ -62085,7 +62085,7 @@ const CourseWeekDef _secondary2EnglishWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek20 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek20 = CourseWeekDef(
   id: "course-secondary2-english-w20",
   weekNumber: 20,
   titleEn: "The Great Debate",
@@ -62627,7 +62627,7 @@ const CourseWeekDef _secondary2EnglishWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm5 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm5 = CourseTermDef(
   id: "course-secondary2-english-t5",
   termNumber: 5,
   titleEn: "Persuasion and Rhetoric",
@@ -62635,13 +62635,13 @@ const CourseTermDef _secondary2EnglishTerm5 = CourseTermDef(
   certificateTitleEn: "Persuasion and Rhetoric",
   certificateTitleMy: "ဆွဲဆောင်စည်းရုံးမှုနှင့် စကားအရာ",
   weeks: [
-    _secondary2EnglishWeek17,
-    _secondary2EnglishWeek18,
-    _secondary2EnglishWeek19,
-    _secondary2EnglishWeek20,
+    _year8EnglishWeek17,
+    _year8EnglishWeek18,
+    _year8EnglishWeek19,
+    _year8EnglishWeek20,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek21 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek21 = CourseWeekDef(
   id: "course-secondary2-english-w21",
   weekNumber: 21,
   titleEn: "Sentence Variety",
@@ -63171,7 +63171,7 @@ const CourseWeekDef _secondary2EnglishWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek22 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek22 = CourseWeekDef(
   id: "course-secondary2-english-w22",
   weekNumber: 22,
   titleEn: "Punctuation for Precision",
@@ -63675,7 +63675,7 @@ const CourseWeekDef _secondary2EnglishWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek23 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek23 = CourseWeekDef(
   id: "course-secondary2-english-w23",
   weekNumber: 23,
   titleEn: "Building Advanced Vocabulary",
@@ -64176,7 +64176,7 @@ const CourseWeekDef _secondary2EnglishWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek24 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek24 = CourseWeekDef(
   id: "course-secondary2-english-w24",
   weekNumber: 24,
   titleEn: "Grammar and Editing Challenge",
@@ -64693,7 +64693,7 @@ const CourseWeekDef _secondary2EnglishWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm6 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm6 = CourseTermDef(
   id: "course-secondary2-english-t6",
   termNumber: 6,
   titleEn: "Grammar and Style",
@@ -64701,13 +64701,13 @@ const CourseTermDef _secondary2EnglishTerm6 = CourseTermDef(
   certificateTitleEn: "Grammar and Style",
   certificateTitleMy: "သဒ္ဒါနှင့် အရေးအသား ပုံစံ",
   weeks: [
-    _secondary2EnglishWeek21,
-    _secondary2EnglishWeek22,
-    _secondary2EnglishWeek23,
-    _secondary2EnglishWeek24,
+    _year8EnglishWeek21,
+    _year8EnglishWeek22,
+    _year8EnglishWeek23,
+    _year8EnglishWeek24,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek25 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek25 = CourseWeekDef(
   id: "course-secondary2-english-w25",
   weekNumber: 25,
   titleEn: "News Reports",
@@ -65245,7 +65245,7 @@ const CourseWeekDef _secondary2EnglishWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek26 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek26 = CourseWeekDef(
   id: "course-secondary2-english-w26",
   weekNumber: 26,
   titleEn: "The Language of Advertising",
@@ -65783,7 +65783,7 @@ const CourseWeekDef _secondary2EnglishWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek27 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek27 = CourseWeekDef(
   id: "course-secondary2-english-w27",
   weekNumber: 27,
   titleEn: "Conducting Interviews",
@@ -66284,7 +66284,7 @@ const CourseWeekDef _secondary2EnglishWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek28 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek28 = CourseWeekDef(
   id: "course-secondary2-english-w28",
   weekNumber: 28,
   titleEn: "Class Newspaper",
@@ -66801,7 +66801,7 @@ const CourseWeekDef _secondary2EnglishWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm7 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm7 = CourseTermDef(
   id: "course-secondary2-english-t7",
   termNumber: 7,
   titleEn: "Media and Journalism",
@@ -66809,13 +66809,13 @@ const CourseTermDef _secondary2EnglishTerm7 = CourseTermDef(
   certificateTitleEn: "Media and Journalism",
   certificateTitleMy: "မီဒီယာနှင့် သတင်းစာပညာ",
   weeks: [
-    _secondary2EnglishWeek25,
-    _secondary2EnglishWeek26,
-    _secondary2EnglishWeek27,
-    _secondary2EnglishWeek28,
+    _year8EnglishWeek25,
+    _year8EnglishWeek26,
+    _year8EnglishWeek27,
+    _year8EnglishWeek28,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek29 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek29 = CourseWeekDef(
   id: "course-secondary2-english-w29",
   weekNumber: 29,
   titleEn: "Exploring Modern Themes",
@@ -67350,7 +67350,7 @@ const CourseWeekDef _secondary2EnglishWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek30 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek30 = CourseWeekDef(
   id: "course-secondary2-english-w30",
   weekNumber: 30,
   titleEn: "Analyzing Plot Twists",
@@ -67865,7 +67865,7 @@ const CourseWeekDef _secondary2EnglishWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek31 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek31 = CourseWeekDef(
   id: "course-secondary2-english-w31",
   weekNumber: 31,
   titleEn: "Writing a Book Review",
@@ -68379,7 +68379,7 @@ const CourseWeekDef _secondary2EnglishWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek32 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek32 = CourseWeekDef(
   id: "course-secondary2-english-w32",
   weekNumber: 32,
   titleEn: "Literary Critic",
@@ -68901,7 +68901,7 @@ const CourseWeekDef _secondary2EnglishWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm8 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm8 = CourseTermDef(
   id: "course-secondary2-english-t8",
   termNumber: 8,
   titleEn: "Modern Fiction and Literary Analysis",
@@ -68909,13 +68909,13 @@ const CourseTermDef _secondary2EnglishTerm8 = CourseTermDef(
   certificateTitleEn: "Modern Fiction and Literary Analysis",
   certificateTitleMy: "ခေတ်သစ်ဝတ္ထုနှင့် စာပေဝေဖန်ရေး",
   weeks: [
-    _secondary2EnglishWeek29,
-    _secondary2EnglishWeek30,
-    _secondary2EnglishWeek31,
-    _secondary2EnglishWeek32,
+    _year8EnglishWeek29,
+    _year8EnglishWeek30,
+    _year8EnglishWeek31,
+    _year8EnglishWeek32,
   ],
 );
-const CourseWeekDef _secondary2EnglishWeek33 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek33 = CourseWeekDef(
   id: "course-secondary2-english-w33",
   weekNumber: 33,
   titleEn: "The Art of Storytelling",
@@ -69435,7 +69435,7 @@ const CourseWeekDef _secondary2EnglishWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek34 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek34 = CourseWeekDef(
   id: "course-secondary2-english-w34",
   weekNumber: 34,
   titleEn: "Effective Presentations",
@@ -69951,7 +69951,7 @@ const CourseWeekDef _secondary2EnglishWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek35 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek35 = CourseWeekDef(
   id: "course-secondary2-english-w35",
   weekNumber: 35,
   titleEn: "English Skills Revision",
@@ -70470,7 +70470,7 @@ const CourseWeekDef _secondary2EnglishWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary2EnglishWeek36 = CourseWeekDef(
+const CourseWeekDef _year8EnglishWeek36 = CourseWeekDef(
   id: "course-secondary2-english-w36",
   weekNumber: 36,
   titleEn: "The Anthology Project",
@@ -70991,7 +70991,7 @@ const CourseWeekDef _secondary2EnglishWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary2EnglishTerm9 = CourseTermDef(
+const CourseTermDef _year8EnglishTerm9 = CourseTermDef(
   id: "course-secondary2-english-t9",
   termNumber: 9,
   titleEn: "Storytelling, Presentation, and Synthesis",
@@ -70999,10 +70999,10 @@ const CourseTermDef _secondary2EnglishTerm9 = CourseTermDef(
   certificateTitleEn: "Storytelling, Presentation, and Synthesis",
   certificateTitleMy: "ပုံပြင်ပြောခြင်း၊ တင်ဆက်မှုနှင့် စုစည်းခြင်း",
   weeks: [
-    _secondary2EnglishWeek33,
-    _secondary2EnglishWeek34,
-    _secondary2EnglishWeek35,
-    _secondary2EnglishWeek36,
+    _year8EnglishWeek33,
+    _year8EnglishWeek34,
+    _year8EnglishWeek35,
+    _year8EnglishWeek36,
   ],
 );
 
@@ -71011,7 +71011,7 @@ const CourseTermDef _secondary2EnglishTerm9 = CourseTermDef(
 /// roadmap for real -- "Week 1 of 36" is literally true across the
 /// whole pathway. Uses a rotating cast of named Myanmar students as
 /// protagonists across weeks, not a single fixed character.
-const CoursePathwayDef secondary2EnglishPathway = CoursePathwayDef(
+const CoursePathwayDef year8EnglishPathway = CoursePathwayDef(
   id: "course-secondary2-english",
   subject: "english",
   grade: Grade.year8,
@@ -71023,15 +71023,15 @@ const CoursePathwayDef secondary2EnglishPathway = CoursePathwayDef(
       "ဒုတိယနှစ် (Secondary 2 / Year 8) အင်္ဂလိပ်စာသင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ၊ ဇာတ်ကောင်တစ်ဦးတည်းအစား မြန်မာကျောင်းသားအမည်များစွာကို အလှည့်ကျအသုံးပြုသည်။ ပထမနှစ်ဝက်၊ သည်းထိတ်ရင်ဖိုဇာတ်လမ်းနှင့် စိတ်လှုပ်ရှားဖွယ်စာပေသည် အရှိန်၊ ခံစားမှုလေထုနှင့် ဇာတ်ရှိန်အမြင့်ဆုံးတွင် ရပ်တန့်ခြင်းဖြင့် စိတ်လှုပ်ရှားမှုကို တည်ဆောက်ပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် သည်းထိတ်ရင်ဖိုဇာတ်လမ်းကို မူကြမ်းရေး၊ တည်းဖြတ်၊ ရှေးရှုသုံးသပ်ခြင်းဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ ခရီးသွားရေးသားမှုသည် ခရီးသွားမှတ်တမ်းများ၊ ဆွဲဆောင်မှုရှိသော နေရာဒေသဖော်ပြချက်နှင့် သုံးသပ်ချက်ရေးသားခြင်းကို စူးစမ်းလေ့လာပြီး ပရော်ဖက်ရှင်နယ် ခရီးသွားလမ်းညွှန်စာစောင် ပရောဂျက်ဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ ဇာတ်ကြောင်းပြောကဗျာနှင့် ဘယ်လက်ဒ်များသည် အခက်ချောင်းဖြင့် ဇာတ်လမ်းပြောခြင်းနှင့် သမိုင်းတစ်လျှောက် အဆင့်မြင့်ကဗျာအလင်္ကာများကို လေ့လာပြီး ကျောင်းသားများ ကိုယ်ပိုင်ဘယ်လက်ဒ် စပ်ဆိုတင်ဆက်ခြင်းဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ ပြဇာတ် -- ဇာတ်ညွှန်းနှင့် သရုပ်ဆောင်ခြင်းသည် ဇာတ်ညွှန်းပုံစံကို ဖတ်ရှု၊ ရှိတ်စပီးယားကို စင်မြင့်ပေါ်တွင် လေ့လာပြီး ကျောင်းသားများ ၎င်းတို့ကိုယ်ပိုင် ဇာတ်ကွက်ကို ရေးသား သရုပ်ဆောင်ခြင်းဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ ဆွဲဆောင်စည်းရုံးမှုနှင့် စကားအရာသည် အချက်အလက်နှင့် ထင်မြင်ချက်ကို ခွဲခြား၊ ဆွဲဆောင်စည်းရုံးရေးနည်းနှင့် မိန့်ခွန်းရေးသားနည်းကို ကျွမ်းကျင်အောင်လေ့လာပြီး စနစ်တကျ အတန်းတွင်း စကားရည်လုပွဲဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ သဒ္ဒါနှင့် အရေးအသားပုံစံသည် ဝါကျအမျိုးမျိုး၊ တိကျသော ပုဒ်ဖြတ်ပုဒ်ရပ်နှင့် အဆင့်မြင့်ဝေါဟာရကို တည်ဆောက်ပြီး သဒ္ဒါနှင့် တည်းဖြတ်ခြင်းစိန်ခေါ်မှုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ မီဒီယာနှင့် သတင်းစာပညာသည် သတင်းတင်ဆက်မှုများ၊ ကြော်ငြာဘာသာစကားနှင့် အင်တာဗျူးပြုလုပ်ခြင်းကို လေ့လာပြီး အတန်းတွင်း သတင်းစာတစ်စောင် ပူးပေါင်းဖန်တီးမှုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ ခေတ်သစ်ဝတ္ထုနှင့် စာပေဝေဖန်ရေးသည် အကြောင်းအရာနှင့် ခေါင်းစဉ်ကွာခြားချက်နှင့် ဇာတ်လမ်းလှည့်ကွက်များကို စူးစမ်းပြီး ကျောင်းသားများ စာအုပ်သုံးသပ်ချက်ရေး၍ စာပေဝေဖန်ရေးသမားအဖြစ် ငြင်းခုံမည်။ နဝမနှစ်ဝက်သည် ပုံပြင်ပြောခြင်းအနုပညာနှင့် ထိရောက်သော တင်ဆက်မှုများ၊ ပိုမိုထက်မြက်စွာ လေ့လာနည်းအပေါ် စွမ်းရည်အပြည့်အစုံ ပြန်လည်လေ့ကျင့်ရေးအပတ်စဉ်တစ်ခုနှင့် တစ်နှစ်တာ အကောင်းဆုံးအရေးအသားများကို စုစည်းသုံးသပ်သော Anthology Project အနှစ်ချုပ်သင်ခန်းစာဖြင့် တစ်နှစ်တာလုံးကို ပိတ်သိမ်းသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary2EnglishTerm1,
-    _secondary2EnglishTerm2,
-    _secondary2EnglishTerm3,
-    _secondary2EnglishTerm4,
-    _secondary2EnglishTerm5,
-    _secondary2EnglishTerm6,
-    _secondary2EnglishTerm7,
-    _secondary2EnglishTerm8,
-    _secondary2EnglishTerm9,
+    _year8EnglishTerm1,
+    _year8EnglishTerm2,
+    _year8EnglishTerm3,
+    _year8EnglishTerm4,
+    _year8EnglishTerm5,
+    _year8EnglishTerm6,
+    _year8EnglishTerm7,
+    _year8EnglishTerm8,
+    _year8EnglishTerm9,
   ],
 );
 // =====================================================================
@@ -117716,7 +117716,7 @@ const CoursePathwayDef year2EnglishPathway = CoursePathwayDef(
 // perspectives.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek1 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek1 = CourseWeekDef(
   id: "course-secondary3-english-w1",
   weekNumber: 1,
   titleEn: "Structuring Complex Narratives",
@@ -118162,7 +118162,7 @@ const CourseWeekDef _secondary3EnglishWeek1 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek2 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek2 = CourseWeekDef(
   id: "course-secondary3-english-w2",
   weekNumber: 2,
   titleEn: "Character Psychology",
@@ -118609,7 +118609,7 @@ const CourseWeekDef _secondary3EnglishWeek2 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek3 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek3 = CourseWeekDef(
   id: "course-secondary3-english-w3",
   weekNumber: 3,
   titleEn: "Atmospheric World-Building",
@@ -119053,7 +119053,7 @@ const CourseWeekDef _secondary3EnglishWeek3 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek4 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek4 = CourseWeekDef(
   id: "course-secondary3-english-w4",
   weekNumber: 4,
   titleEn: "Capstone: The Masterpiece Short Story",
@@ -119505,7 +119505,7 @@ const CourseWeekDef _secondary3EnglishWeek4 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm1 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm1 = CourseTermDef(
   id: "course-secondary3-english-t1",
   termNumber: 1,
   titleEn: "Advanced Fiction and Narrative Techniques",
@@ -119513,10 +119513,10 @@ const CourseTermDef _secondary3EnglishTerm1 = CourseTermDef(
   certificateTitleEn: "Advanced Fiction and Narrative Techniques",
   certificateTitleMy: "အဆင့်မြင့် ဝိတ္ထုပုဒ်နှင့် ဇာတ်ကြောင်းရေးသားနည်းပညာများ",
   weeks: [
-    _secondary3EnglishWeek1,
-    _secondary3EnglishWeek2,
-    _secondary3EnglishWeek3,
-    _secondary3EnglishWeek4,
+    _year9EnglishWeek1,
+    _year9EnglishWeek2,
+    _year9EnglishWeek3,
+    _year9EnglishWeek4,
   ],
 );
 
@@ -119528,7 +119528,7 @@ const CourseTermDef _secondary3EnglishTerm1 = CourseTermDef(
 // Week 8 closes the term with a capstone Op-Ed essay.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek5 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek5 = CourseWeekDef(
   id: "course-secondary3-english-w5",
   weekNumber: 5,
   titleEn: "Analyzing Persuasive Rhetoric",
@@ -119939,7 +119939,7 @@ const CourseWeekDef _secondary3EnglishWeek5 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek6 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek6 = CourseWeekDef(
   id: "course-secondary3-english-w6",
   weekNumber: 6,
   titleEn: "Writing Editorial Articles",
@@ -120386,7 +120386,7 @@ const CourseWeekDef _secondary3EnglishWeek6 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek7 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek7 = CourseWeekDef(
   id: "course-secondary3-english-w7",
   weekNumber: 7,
   titleEn: "Comparative Non-Fiction Analysis",
@@ -120831,7 +120831,7 @@ const CourseWeekDef _secondary3EnglishWeek7 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek8 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek8 = CourseWeekDef(
   id: "course-secondary3-english-w8",
   weekNumber: 8,
   titleEn: "Capstone: The Op-Ed Essay",
@@ -121283,7 +121283,7 @@ const CourseWeekDef _secondary3EnglishWeek8 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm2 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm2 = CourseTermDef(
   id: "course-secondary3-english-t2",
   termNumber: 2,
   titleEn: "Advanced Non-Fiction and Argumentative Writing",
@@ -121291,10 +121291,10 @@ const CourseTermDef _secondary3EnglishTerm2 = CourseTermDef(
   certificateTitleEn: "Advanced Non-Fiction and Argumentative Writing",
   certificateTitleMy: "အဆင့်မြင့် သုတစာပေနှင့် အငြင်းပွားရေးသားခြင်း",
   weeks: [
-    _secondary3EnglishWeek5,
-    _secondary3EnglishWeek6,
-    _secondary3EnglishWeek7,
-    _secondary3EnglishWeek8,
+    _year9EnglishWeek5,
+    _year9EnglishWeek6,
+    _year9EnglishWeek7,
+    _year9EnglishWeek8,
   ],
 );
 
@@ -121306,7 +121306,7 @@ const CourseTermDef _secondary3EnglishTerm2 = CourseTermDef(
 // term with a capstone poetry commentary essay.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek9 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek9 = CourseWeekDef(
   id: "course-secondary3-english-w9",
   weekNumber: 9,
   titleEn: "Modern and Contemporary Poetry",
@@ -121738,7 +121738,7 @@ const CourseWeekDef _secondary3EnglishWeek9 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek10 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek10 = CourseWeekDef(
   id: "course-secondary3-english-w10",
   weekNumber: 10,
   titleEn: "Unseen Poetry Analysis",
@@ -122191,7 +122191,7 @@ const CourseWeekDef _secondary3EnglishWeek10 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek11 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek11 = CourseWeekDef(
   id: "course-secondary3-english-w11",
   weekNumber: 11,
   titleEn: "Comparative Poetry",
@@ -122636,7 +122636,7 @@ const CourseWeekDef _secondary3EnglishWeek11 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek12 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek12 = CourseWeekDef(
   id: "course-secondary3-english-w12",
   weekNumber: 12,
   titleEn: "Capstone: Poetry Commentary Essay",
@@ -123088,7 +123088,7 @@ const CourseWeekDef _secondary3EnglishWeek12 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm3 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm3 = CourseTermDef(
   id: "course-secondary3-english-t3",
   termNumber: 3,
   titleEn: "Advanced Poetry and Literary Criticism",
@@ -123096,10 +123096,10 @@ const CourseTermDef _secondary3EnglishTerm3 = CourseTermDef(
   certificateTitleEn: "Advanced Poetry and Literary Criticism",
   certificateTitleMy: "အဆင့်မြင့် ကဗျာနှင့် စာပေဝေဖန်ရေး",
   weeks: [
-    _secondary3EnglishWeek9,
-    _secondary3EnglishWeek10,
-    _secondary3EnglishWeek11,
-    _secondary3EnglishWeek12,
+    _year9EnglishWeek9,
+    _year9EnglishWeek10,
+    _year9EnglishWeek11,
+    _year9EnglishWeek12,
   ],
 );
 
@@ -123111,7 +123111,7 @@ const CourseTermDef _secondary3EnglishTerm3 = CourseTermDef(
 // performance.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek13 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek13 = CourseWeekDef(
   id: "course-secondary3-english-w13",
   weekNumber: 13,
   titleEn: "Modern Social Realism in Drama",
@@ -123561,7 +123561,7 @@ const CourseWeekDef _secondary3EnglishWeek13 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek14 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek14 = CourseWeekDef(
   id: "course-secondary3-english-w14",
   weekNumber: 14,
   titleEn: "Subtext and Dramatic Irony",
@@ -124007,7 +124007,7 @@ const CourseWeekDef _secondary3EnglishWeek14 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek15 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek15 = CourseWeekDef(
   id: "course-secondary3-english-w15",
   weekNumber: 15,
   titleEn: "Character Arcs in Plays",
@@ -124452,7 +124452,7 @@ const CourseWeekDef _secondary3EnglishWeek15 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek16 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek16 = CourseWeekDef(
   id: "course-secondary3-english-w16",
   weekNumber: 16,
   titleEn: "Capstone: Dramatic Monologue Performance",
@@ -124901,7 +124901,7 @@ const CourseWeekDef _secondary3EnglishWeek16 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm4 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm4 = CourseTermDef(
   id: "course-secondary3-english-t4",
   termNumber: 4,
   titleEn: "Drama and Advanced Script Analysis",
@@ -124909,10 +124909,10 @@ const CourseTermDef _secondary3EnglishTerm4 = CourseTermDef(
   certificateTitleEn: "Drama and Advanced Script Analysis",
   certificateTitleMy: "Drama နှင့် Advanced Script Analysis",
   weeks: [
-    _secondary3EnglishWeek13,
-    _secondary3EnglishWeek14,
-    _secondary3EnglishWeek15,
-    _secondary3EnglishWeek16,
+    _year9EnglishWeek13,
+    _year9EnglishWeek14,
+    _year9EnglishWeek15,
+    _year9EnglishWeek16,
   ],
 );
 
@@ -124924,7 +124924,7 @@ const CourseTermDef _secondary3EnglishTerm4 = CourseTermDef(
 // with a capstone directed writing mock test.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek17 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek17 = CourseWeekDef(
   id: "course-secondary3-english-w17",
   weekNumber: 17,
   titleEn: "Mastering Directed Writing Formats",
@@ -125375,7 +125375,7 @@ const CourseWeekDef _secondary3EnglishWeek17 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek18 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek18 = CourseWeekDef(
   id: "course-secondary3-english-w18",
   weekNumber: 18,
   titleEn: "Advanced Summary Writing",
@@ -125818,7 +125818,7 @@ const CourseWeekDef _secondary3EnglishWeek18 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek19 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek19 = CourseWeekDef(
   id: "course-secondary3-english-w19",
   weekNumber: 19,
   titleEn: "Discursive and Argumentative Essays",
@@ -126261,7 +126261,7 @@ const CourseWeekDef _secondary3EnglishWeek19 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek20 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek20 = CourseWeekDef(
   id: "course-secondary3-english-w20",
   weekNumber: 20,
   titleEn: "Capstone: Directed Writing Mock Test",
@@ -126711,7 +126711,7 @@ const CourseWeekDef _secondary3EnglishWeek20 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm5 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm5 = CourseTermDef(
   id: "course-secondary3-english-t5",
   termNumber: 5,
   titleEn: "IGCSE Directed Writing and Composition",
@@ -126719,10 +126719,10 @@ const CourseTermDef _secondary3EnglishTerm5 = CourseTermDef(
   certificateTitleEn: "IGCSE Directed Writing and Composition",
   certificateTitleMy: "IGCSE Directed Writing and Composition",
   weeks: [
-    _secondary3EnglishWeek17,
-    _secondary3EnglishWeek18,
-    _secondary3EnglishWeek19,
-    _secondary3EnglishWeek20,
+    _year9EnglishWeek17,
+    _year9EnglishWeek18,
+    _year9EnglishWeek19,
+    _year9EnglishWeek20,
   ],
 );
 
@@ -126734,7 +126734,7 @@ const CourseTermDef _secondary3EnglishTerm5 = CourseTermDef(
 // workshop.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek21 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek21 = CourseWeekDef(
   id: "course-secondary3-english-w21",
   weekNumber: 21,
   titleEn: "Syntactic Variety and Impact",
@@ -127177,7 +127177,7 @@ const CourseWeekDef _secondary3EnglishWeek21 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek22 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek22 = CourseWeekDef(
   id: "course-secondary3-english-w22",
   weekNumber: 22,
   titleEn: "Stylistic Punctuation",
@@ -127615,7 +127615,7 @@ const CourseWeekDef _secondary3EnglishWeek22 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek23 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek23 = CourseWeekDef(
   id: "course-secondary3-english-w23",
   weekNumber: 23,
   titleEn: "High-Register Lexicon",
@@ -128053,7 +128053,7 @@ const CourseWeekDef _secondary3EnglishWeek23 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek24 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek24 = CourseWeekDef(
   id: "course-secondary3-english-w24",
   weekNumber: 24,
   titleEn: "Capstone: The Stylistic Editing Workshop",
@@ -128499,7 +128499,7 @@ const CourseWeekDef _secondary3EnglishWeek24 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm6 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm6 = CourseTermDef(
   id: "course-secondary3-english-t6",
   termNumber: 6,
   titleEn: "Advanced Grammar, Style and Vocabulary",
@@ -128507,10 +128507,10 @@ const CourseTermDef _secondary3EnglishTerm6 = CourseTermDef(
   certificateTitleEn: "Advanced Grammar, Style and Vocabulary",
   certificateTitleMy: "အဆင့်မြင့် သဒ္ဒါ၊ Style နှင့် ဝေါဟာရ",
   weeks: [
-    _secondary3EnglishWeek21,
-    _secondary3EnglishWeek22,
-    _secondary3EnglishWeek23,
-    _secondary3EnglishWeek24,
+    _year9EnglishWeek21,
+    _year9EnglishWeek22,
+    _year9EnglishWeek23,
+    _year9EnglishWeek24,
   ],
 );
 
@@ -128522,7 +128522,7 @@ const CourseTermDef _secondary3EnglishTerm6 = CourseTermDef(
 // Week 28 closes the term with a capstone investigative report project.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek25 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek25 = CourseWeekDef(
   id: "course-secondary3-english-w25",
   weekNumber: 25,
   titleEn: "Investigative Journalism",
@@ -128977,7 +128977,7 @@ const CourseWeekDef _secondary3EnglishWeek25 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek26 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek26 = CourseWeekDef(
   id: "course-secondary3-english-w26",
   weekNumber: 26,
   titleEn: "Media Bias and Propaganda",
@@ -129420,7 +129420,7 @@ const CourseWeekDef _secondary3EnglishWeek26 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek27 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek27 = CourseWeekDef(
   id: "course-secondary3-english-w27",
   weekNumber: 27,
   titleEn: "Advertising Psychology",
@@ -129865,7 +129865,7 @@ const CourseWeekDef _secondary3EnglishWeek27 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek28 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek28 = CourseWeekDef(
   id: "course-secondary3-english-w28",
   weekNumber: 28,
   titleEn: "Capstone: The Investigative Report Project",
@@ -130317,7 +130317,7 @@ const CourseWeekDef _secondary3EnglishWeek28 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm7 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm7 = CourseTermDef(
   id: "course-secondary3-english-t7",
   termNumber: 7,
   titleEn: "Media Studies and Investigative Journalism",
@@ -130325,10 +130325,10 @@ const CourseTermDef _secondary3EnglishTerm7 = CourseTermDef(
   certificateTitleEn: "Media Studies and Investigative Journalism",
   certificateTitleMy: "Media Studies and Investigative Journalism",
   weeks: [
-    _secondary3EnglishWeek25,
-    _secondary3EnglishWeek26,
-    _secondary3EnglishWeek27,
-    _secondary3EnglishWeek28,
+    _year9EnglishWeek25,
+    _year9EnglishWeek26,
+    _year9EnglishWeek27,
+    _year9EnglishWeek28,
   ],
 );
 
@@ -130340,7 +130340,7 @@ const CourseTermDef _secondary3EnglishTerm7 = CourseTermDef(
 // literature essay mock.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek29 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek29 = CourseWeekDef(
   id: "course-secondary3-english-w29",
   weekNumber: 29,
   titleEn: "Introduction to Prose Analysis",
@@ -130784,7 +130784,7 @@ const CourseWeekDef _secondary3EnglishWeek29 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek30 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek30 = CourseWeekDef(
   id: "course-secondary3-english-w30",
   weekNumber: 30,
   titleEn: "Extract-Based Questions",
@@ -131227,7 +131227,7 @@ const CourseWeekDef _secondary3EnglishWeek30 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek31 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek31 = CourseWeekDef(
   id: "course-secondary3-english-w31",
   weekNumber: 31,
   titleEn: "Structuring Literature Essays",
@@ -131671,7 +131671,7 @@ const CourseWeekDef _secondary3EnglishWeek31 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek32 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek32 = CourseWeekDef(
   id: "course-secondary3-english-w32",
   weekNumber: 32,
   titleEn: "Capstone: Literature Essay Mock",
@@ -132120,7 +132120,7 @@ const CourseWeekDef _secondary3EnglishWeek32 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm8 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm8 = CourseTermDef(
   id: "course-secondary3-english-t8",
   termNumber: 8,
   titleEn: "Pre-IGCSE Literature Study (Prose)",
@@ -132128,10 +132128,10 @@ const CourseTermDef _secondary3EnglishTerm8 = CourseTermDef(
   certificateTitleEn: "Pre-IGCSE Literature Study (Prose)",
   certificateTitleMy: "Pre-IGCSE Literature Study (Prose)",
   weeks: [
-    _secondary3EnglishWeek29,
-    _secondary3EnglishWeek30,
-    _secondary3EnglishWeek31,
-    _secondary3EnglishWeek32,
+    _year9EnglishWeek29,
+    _year9EnglishWeek30,
+    _year9EnglishWeek31,
+    _year9EnglishWeek32,
   ],
 );
 
@@ -132144,7 +132144,7 @@ const CourseTermDef _secondary3EnglishTerm8 = CourseTermDef(
 // Portfolio Showcase.
 // =====================================================================
 
-const CourseWeekDef _secondary3EnglishWeek33 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek33 = CourseWeekDef(
   id: "course-secondary3-english-w33",
   weekNumber: 33,
   titleEn: "Paper 1 Reading Skills Revision",
@@ -132592,7 +132592,7 @@ const CourseWeekDef _secondary3EnglishWeek33 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek34 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek34 = CourseWeekDef(
   id: "course-secondary3-english-w34",
   weekNumber: 34,
   titleEn: "Paper 2 Writing Skills Revision",
@@ -133042,7 +133042,7 @@ const CourseWeekDef _secondary3EnglishWeek34 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek35 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek35 = CourseWeekDef(
   id: "course-secondary3-english-w35",
   weekNumber: 35,
   titleEn: "Full Timed Exam Practice",
@@ -133500,7 +133500,7 @@ const CourseWeekDef _secondary3EnglishWeek35 = CourseWeekDef(
   ],
 );
 
-const CourseWeekDef _secondary3EnglishWeek36 = CourseWeekDef(
+const CourseWeekDef _year9EnglishWeek36 = CourseWeekDef(
   id: "course-secondary3-english-w36",
   weekNumber: 36,
   titleEn: "Capstone: The IGCSE English Portfolio Showcase",
@@ -133953,7 +133953,7 @@ const CourseWeekDef _secondary3EnglishWeek36 = CourseWeekDef(
   ],
 );
 
-const CourseTermDef _secondary3EnglishTerm9 = CourseTermDef(
+const CourseTermDef _year9EnglishTerm9 = CourseTermDef(
   id: "course-secondary3-english-t9",
   termNumber: 9,
   titleEn: "IGCSE English Exam Preparation and Portfolio",
@@ -133961,10 +133961,10 @@ const CourseTermDef _secondary3EnglishTerm9 = CourseTermDef(
   certificateTitleEn: "IGCSE English Exam Preparation and Portfolio",
   certificateTitleMy: "IGCSE English Exam Preparation and Portfolio",
   weeks: [
-    _secondary3EnglishWeek33,
-    _secondary3EnglishWeek34,
-    _secondary3EnglishWeek35,
-    _secondary3EnglishWeek36,
+    _year9EnglishWeek33,
+    _year9EnglishWeek34,
+    _year9EnglishWeek35,
+    _year9EnglishWeek36,
   ],
 );
 
@@ -133981,7 +133981,7 @@ const CourseTermDef _secondary3EnglishTerm9 = CourseTermDef(
 /// revision, full timed mock exam practice, and a capstone IGCSE
 /// English portfolio showcase marking the end of the three-year Lower
 /// Secondary English pathway.
-const CoursePathwayDef secondary3EnglishPathway = CoursePathwayDef(
+const CoursePathwayDef year9EnglishPathway = CoursePathwayDef(
   id: "course-secondary3-english",
   subject: "english",
   grade: Grade.year9,
@@ -133993,15 +133993,15 @@ const CoursePathwayDef secondary3EnglishPathway = CoursePathwayDef(
       "တတိယနှစ် (Secondary 3 / Year 9) အင်္ဂလိပ်စာဘာသာရပ်သင်တန်း -- IGCSE အဆင့် လေ့လာမှုအတွက် ကျောင်းသားများကို အသင့်ပြင်ပေးရန် အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ။ ပထမနှစ်ဝက်၊ အဆင့်မြင့် ဝိတ္ထုပုဒ်နှင့် ဇာတ်ကြောင်းရေးသားနည်းပညာများသည် non-linear ဇာတ်ကြောင်းရှုပ်ထွေးမှုများ ဖွဲ့စည်းခြင်း၊ inner monologue မှတစ်ဆင့် ဇာတ်ကောင်စိတ်ပညာနှင့် symbolism/motif မှတစ်ဆင့် ခံစားမှုလေထု ကမ္ဘာတည်ဆောက်ခြင်းကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် ထူးချွန်သောဝိတ္ထုပုဒ်ဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ အဆင့်မြင့် သုတစာပေနှင့် အငြင်းပွားရေးသားခြင်းသည် ဆွဲဆောင်စည်းရုံးရေး အပြောအဆို (ethos/pathos/logos) ခွဲခြမ်းစိတ်ဖြာခြင်း၊ အယ်ဒီတာ့အာဘော်ဆောင်းပါးများ ရေးသားခြင်းနှင့် သုတစာပေများကို နှိုင်းယှဉ်ခွဲခြမ်းခြင်းကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် Op-Ed အက်ဆေးဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ အဆင့်မြင့် ကဗျာနှင့် စာပေဝေဖန်ရေးသည် ခေတ်သစ်/လက်ရှိကဗျာများ၊ မမြင်ဖူးသောကဗျာခွဲခြမ်းစိတ်ဖြာမှုနှင့် နှိုင်းယှဉ်ကဗျာလေ့လာမှုကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် ကဗျာဝေဖန်ချက်အက်ဆေးဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Drama နှင့် Advanced Script Analysis သည် ခေတ်သစ်လူမှုရေးရသအမှန်တရား၊ subtext/dramatic irony နှင့် ဇာတ်ကောင်စရိုက်ပြောင်းလဲမှုများကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် ပြဇာတ် monologue ဖျော်ဖြေမှုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ IGCSE Directed Writing and Composition သည် directed writing ဖော်မတ်များကို ကျွမ်းကျင်စေခြင်း၊ အဆင့်မြင့်အကျဉ်းချုပ်ရေးသားခြင်းနှင့် discursive/argumentative အက်ဆေးများကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် directed writing ပုံစံတူစာမေးပွဲဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ အဆင့်မြင့် သဒ္ဒါ၊ Style နှင့် ဝေါဟာရသည် syntactic variety, stylistic punctuation နှင့် high-register lexicon ကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် stylistic editing workshop ဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Media Studies and Investigative Journalism သည် investigative journalism/whistleblower/ကျင့်ဝတ်၊ media bias and propaganda နှင့် ကြော်ငြာစိတ်ပညာကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် investigative report project ဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Pre-IGCSE Literature Study (Prose) သည် prose style/setting/theme, extract-based questions နှင့် စာပေအက်ဆေးများဖွဲ့စည်းတည်ဆောက်ခြင်းကို ဖုံးအုပ်ပြီး အထွတ်အထိပ် အချိန်ကန့်သတ်စာပေအက်ဆေးပုံစံတူစာမေးပွဲဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်သည် Paper 1 ဖတ်ရှုခြင်းစွမ်းရည် ပြန်လည်လေ့ကျင့်ခြင်း၊ Paper 2 ရေးသားခြင်းစွမ်းရည် ပြန်လည်လေ့ကျင့်ခြင်း၊ အချိန်ပြည့်စာမေးပွဲပုံစံတူဖြေဆိုခြင်းနှင့် အထွတ်အထိပ် IGCSE အင်္ဂလိပ်စာ လက်ရာများ စုစည်းပြသခြင်းဖြင့် နှစ်ကို ပိတ်သိမ်းသည်။",
   totalWeeks: 36,
   terms: [
-    _secondary3EnglishTerm1,
-    _secondary3EnglishTerm2,
-    _secondary3EnglishTerm3,
-    _secondary3EnglishTerm4,
-    _secondary3EnglishTerm5,
-    _secondary3EnglishTerm6,
-    _secondary3EnglishTerm7,
-    _secondary3EnglishTerm8,
-    _secondary3EnglishTerm9,
+    _year9EnglishTerm1,
+    _year9EnglishTerm2,
+    _year9EnglishTerm3,
+    _year9EnglishTerm4,
+    _year9EnglishTerm5,
+    _year9EnglishTerm6,
+    _year9EnglishTerm7,
+    _year9EnglishTerm8,
+    _year9EnglishTerm9,
   ],
 );
 // =====================================================================
@@ -151425,7 +151425,7 @@ const CourseTermDef igcseEnglishTerm2 = CourseTermDef(
 /// argumentative, and literary composition, advanced grammar and
 /// stylistic editing, and intensive exam practice to the final
 /// countdown and graduation.
-const CoursePathwayDef englishYear10Pathway = CoursePathwayDef(
+const CoursePathwayDef year10EnglishPathway = CoursePathwayDef(
   id: "course-year10-english",
   subject: "english",
   grade: Grade.year10,
@@ -151444,7 +151444,7 @@ const CoursePathwayDef englishYear10Pathway = CoursePathwayDef(
   ],
 );
 
-const CoursePathwayDef englishYear11Pathway = CoursePathwayDef(
+const CoursePathwayDef year11EnglishPathway = CoursePathwayDef(
   id: "course-year11-english",
   subject: "english",
   grade: Grade.year11,
