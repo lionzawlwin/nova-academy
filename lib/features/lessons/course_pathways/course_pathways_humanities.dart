@@ -129351,9 +129351,9 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec3HumTerm1,
@@ -129361,6 +129361,7 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
     _sec3HumTerm3,
     _sec3HumTerm4,
     _sec3HumTerm5,
+    _sec3HumTerm6,
   ],
 );
 // =====================================================================
@@ -135133,5 +135134,1446 @@ const CourseTermDef _sec3HumTerm5 = CourseTermDef(
   certificateTitleEn: "Population Geography Foundations Certificate",
   certificateTitleMy: "Population Geography Foundations သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek17, _sec3HumWeek18, _sec3HumWeek19, _sec3HumWeek20],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 6: "Migration and Urban Growth"
+// (Weeks 21-24). Extends Secondary 2 Term 8's push-pull migration
+// framework into documented international migration and urban growth
+// in developing countries.
+// Term 6, Week 21: "Documented International Migration"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek21 = CourseWeekDef(
+  id: "course-sec3-hum-w21",
+  weekNumber: 21,
+  titleEn: "Documented International Migration",
+  titleMy: "Documented International Migration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w21-d1",
+      dayNumber: 1,
+      titleEn: "Types of Documented International Migration",
+      titleMy: "Documented International Migration ၏ Type များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document several distinct specific types of international migration: economic migration (driven primarily by documented job or income factors), and refugee migration (driven primarily by documented conflict or persecution). Why cite these as distinct documented types rather than describing all international movement as one uniform category?",
+          questionMy:
+              "Geographer များသည် International Migration ၏ Distinct Specific Type များစွာကို Document ပြုလုပ်ထားသည် -- Economic Migration (Documented Job (သို့) Income Factor များက အဓိက ဆွဲဆောင်ထားသော) နှင့် Refugee Migration (Documented Conflict (သို့) Persecution က အဓိက ဆွဲဆောင်ထားသော)။ International Movement အားလုံးကို Uniform Category တစ်ခုတည်းအဖြစ် ဖော်ပြမည့်အစား ဤသည်တို့ကို Distinct Documented Type များအဖြစ် အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Distinguishing specific documented types shows the different documented push-pull factors actually driving each kind of movement, extending Secondary 2's push-pull framework with more precision rather than treating all migration as identical",
+            "All documented international migration is documented as having identical causes with no distinction",
+            "Only one specific documented type of international migration ever actually occurs",
+            "Distinguishing documented types has no actual value in studying migration",
+          ],
+          optionsMy: [
+            "Specific Documented Type များကို ခွဲခြားခြင်းသည် Migration အားလုံးကို Identical အဖြစ် သဘောထားမည့်အစား Movement အမျိုးအစား တစ်ခုစီကို Actual ဆွဲဆောင်နေသော ကွဲပြားသော Documented Push-Pull Factor များကို ပြသကာ Precision ပို၍ Secondary 2 ၏ Push-Pull Framework ကို တိုးချဲ့သည်",
+            "Documented International Migration အားလုံးကို Distinction မရှိဘဲ Identical Cause များ ရှိကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "International Migration ၏ Specific Documented Type တစ်ခုတည်းသာ ဘယ်တော့မှ Actual ဖြစ်ပျက်ခြင်း",
+            "Documented Type များကို ခွဲခြားခြင်းတွင် Migration လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This extends Secondary 2's Term 8 push-pull framework with more specific, distinct documented migration types.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Term 8 Push-Pull Framework ကို Specific, Distinct Documented Migration Type များနှင့် တိုးချဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does this week's documented migration content connect directly back to Secondary 2's Term 8 documented push-pull factors framework?",
+          questionMy:
+              "ဤအပတ်၏ Documented Migration Content သည် Secondary 2 ၏ Term 8 Documented Push-Pull Factor Framework သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Both economic and refugee migration are documented as driven by specific push and pull factors, applying and extending the same framework rather than introducing an entirely disconnected concept",
+            "This week's content has no actual documented connection to Secondary 2's push-pull framework",
+            "Secondary 2's Term 8 and this week's content are documented as completely unrelated",
+            "Push and pull factors only ever apply to Secondary 2's specific documented examples, never to new cases",
+          ],
+          optionsMy: [
+            "Economic နှင့် Refugee Migration နှစ်ခုစလုံးကို Specific Push နှင့် Pull Factor များက ဆွဲဆောင်ထားကြောင်း Document ပြုလုပ်ထားပြီး လုံးလုံး Disconnected Concept တစ်ခု မိတ်ဆက်ပေးမည့်အစား Framework တူတူကို အသုံးချကာ တိုးချဲ့သည်",
+            "ဤအပတ်၏ Content တွင် Secondary 2 ၏ Push-Pull Framework နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Secondary 2 ၏ Term 8 နှင့် ဤအပတ်၏ Content ကို လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Push နှင့် Pull Factor များသည် Secondary 2 ၏ Specific Documented ဥပမာများကိုသာ ဘယ်တော့မှ သက်ဆိုင်ပြီး Case အသစ်များကို ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Secondary 2's Term 8, Week 30's push-pull framework -- this week applies the same framework to specific international migration types.",
+          ],
+          hintsMy: [
+            "Secondary 2 ၏ Term 8, Week 30 ၏ Push-Pull Framework ကို သတိရပါ -- ဤအပတ်သည် Framework တူတူကို Specific International Migration Type များအပေါ် အသုံးချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing documented international migration name specific documented examples (with approximate scale or specific documented regions) rather than describing migration only in vague, general terms?",
+          questionMy:
+              "Documented International Migration ကို Cite ပြုလုပ်သော Student များသည် Migration ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား (Approximate Scale (သို့) Specific Documented Region နှင့်အတူ) Specific Documented ဥပမာများကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented examples shows genuine understanding of real documented migration patterns, the same specific-evidence habit used throughout this course, rather than a vague generic claim",
+            "Vague, general descriptions are always more accurate than specific documented examples",
+            "Specific documented examples have no actual value in studying international migration",
+            "International migration should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented ဥပမာများ Cite ပြုလုပ်ခြင်းသည် Real Documented Migration Pattern များ၏ Genuine နားလည်မှု ကို ပြသပြီး Vague Generic Claim တစ်ခုအစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented ဥပမာများထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented ဥပမာများတွင် International Migration လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "International Migration ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: International Migration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - International Migration Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w21-dm-1",
+          termEn: "Economic migration",
+          termMy: "Economic Migration",
+          matchEn:
+              "A documented type of migration driven primarily by job or income factors",
+          matchMy:
+              "Job (သို့) Income Factor များက အဓိက ဆွဲဆောင်ထားသော Migration ၏ Documented Type",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w21-dm-2",
+          termEn: "Refugee migration",
+          termMy: "Refugee Migration",
+          matchEn:
+              "A documented type of migration driven primarily by conflict or persecution",
+          matchMy:
+              "Conflict (သို့) Persecution က အဓိက ဆွဲဆောင်ထားသော Migration ၏ Documented Type",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w21-dm-3",
+          termEn: "Push-pull framework",
+          termMy: "Push-Pull Framework",
+          matchEn:
+              "Secondary 2's documented framework, extended here to specific international migration types",
+          matchMy:
+              "ဤနေရာတွင် Specific International Migration Type များသို့ တိုးချဲ့ထားသော Secondary 2 ၏ Documented Framework",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w21-dm-4",
+          termEn: "Specific documented scale",
+          termMy: "Specific Documented Scale",
+          matchEn:
+              "A cited approximate figure or region rather than a vague generalization",
+          matchMy:
+              "Vague Generalization တစ်ခုအစား Cite ပြုလုပ်ထားသော Approximate Figure (သို့) Region",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Economic Migration or Refugee Migration?",
+      titleMy: "စီစစ်ကြမည် - Economic Migration (သို့) Refugee Migration",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Economic Migration", "Refugee Migration"],
+        bucketsMy: ["Economic Migration", "Refugee Migration"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w21-sort-1",
+            labelEn:
+                "Moving to another country for documented job opportunities",
+            labelMy:
+                "Documented Job Opportunity များအတွက် နိုင်ငံအခြားတစ်ခုသို့ ရွှေ့ပြောင်းခြင်း",
+            correctBucketEn: "Economic Migration",
+            correctBucketMy: "Economic Migration",
+          ),
+          SortingItem(
+            id: "sec3hum-w21-sort-2",
+            labelEn: "Fleeing documented conflict to seek safety abroad",
+            labelMy:
+                "ပြည်ပတွင် Safety ရှာဖွေရန် Documented Conflict မှ ထွက်ပြေးခြင်း",
+            correctBucketEn: "Refugee Migration",
+            correctBucketMy: "Refugee Migration",
+          ),
+          SortingItem(
+            id: "sec3hum-w21-sort-3",
+            labelEn: "Relocating for documented higher income prospects",
+            labelMy:
+                "Documented ပိုမြင့်သော Income Prospect များအတွက် နေရာပြောင်းခြင်း",
+            correctBucketEn: "Economic Migration",
+            correctBucketMy: "Economic Migration",
+          ),
+          SortingItem(
+            id: "sec3hum-w21-sort-4",
+            labelEn:
+                "Escaping documented persecution due to political or ethnic identity",
+            labelMy:
+                "Political (သို့) Ethnic Identity ကြောင့် Documented Persecution မှ ထွက်ပြေးခြင်း",
+            correctBucketEn: "Refugee Migration",
+            correctBucketMy: "Refugee Migration",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Migration Types Chart",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Migration Types Chart",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Migration Types Chart",
+        titleMy: "Zayar Lin ၏ Migration Types Chart",
+        passageEn:
+            "For Week 21's project, Zayar Lin's first draft described all international movement as one uniform category, with no specific documented type or example named. His teacher asked him to apply the specific-evidence habit used throughout this course -- which specific, documented types of migration was he actually referring to?\n\nZayar Lin revised his chart to distinguish two documented types clearly: economic migration, driven primarily by documented job or income factors, and refugee migration, driven primarily by documented conflict or persecution. He connected both types directly back to Secondary 2's Term 8 push-pull framework, showing that this week extended rather than replaced that earlier documented model -- each type of migration involved its own specific documented push and pull factors.\n\nHis teacher praised the revision for combining specific documented citation with a clear connection to Secondary 2's earlier documented content, exactly the discipline the class would need going into Week 22's look at documented urban growth in developing countries.",
+        passageMy:
+            "Week 21 ၏ Project အတွက် Zayar Lin ၏ ပထမဆုံး Draft တွင် Specific Documented Type (သို့) ဥပမာ မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ International Movement အားလုံးကို Uniform Category တစ်ခုတည်းအဖြစ် ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Migration Type မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nDocumented Type နှစ်ခုကို ရှင်းလင်းစွာ ခွဲခြားရန် ၎င်း၏ Chart ကို Zayar Lin ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Documented Job (သို့) Income Factor များက အဓိက ဆွဲဆောင်ထားသော Economic Migration နှင့် Documented Conflict (သို့) Persecution က အဓိက ဆွဲဆောင်ထားသော Refugee Migration။ ဤအပတ်သည် ထို ယခင် Documented Model ကို အစားထိုးမည့်အစား တိုးချဲ့ကြောင်း ပြသကာ Type နှစ်ခုစလုံးကို Secondary 2 ၏ Term 8 Push-Pull Framework သို့ ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် -- Migration Type တစ်ခုစီသည် ၎င်း ကိုယ်ပိုင် Specific Documented Push နှင့် Pull Factor များ ပါဝင်ခဲ့သည်။\n\nSecondary 2 ၏ ယခင် Documented Content သို့ ရှင်းလင်းသော Connection နှင့် Specific Documented Citation ကို ပေါင်းစပ်ခဲ့ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Class Documented Urban Growth In Developing Country များကို ကြည့်ရှုမည့် Week 22 သို့ ဝင်ရောက်ရန် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two documented types did Zayar Lin distinguish?",
+            questionMy:
+                "Zayar Lin ခွဲခြားခဲ့သော Documented Type နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Economic migration and refugee migration",
+              "No documented type of any kind",
+              "Types entirely unrelated to international migration",
+              "A single unspecified type with no documented evidence",
+            ],
+            optionsMy: [
+              "Economic Migration နှင့် Refugee Migration",
+              "Documented Type မည်သည် အမျိုးအစားမှ",
+              "International Migration နှင့် လုံးလုံး မသက်ဆိုင်သော Type များ",
+              "Documented Evidence မပါသော Unspecified Type တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated types."],
+            hintsMy: [
+              "ဖော်ပြထားသော Type များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Zayar Lin connect both migration types back to?",
+            questionMy:
+                "Migration Type နှစ်ခုစလုံးကို Zayar Lin ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Secondary 2's Term 8 push-pull framework",
+              "No documented framework of any kind",
+              "A framework entirely unrelated to migration",
+              "Content unrelated to any documented push-pull factors",
+            ],
+            optionsMy: [
+              "Secondary 2 ၏ Term 8 Push-Pull Framework",
+              "Documented Framework မည်သည် အမျိုးအစားမှ",
+              "Migration နှင့် လုံးလုံး မသက်ဆိုင်သော Framework",
+              "Documented Push-Pull Factor မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 22 examine?",
+            questionMy: "Week 22 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented urban growth in developing countries",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to migration",
+              "Content unrelated to any documented urban growth",
+            ],
+            optionsMy: [
+              "Developing Country များရှိ Documented Urban Growth",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Migration နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Urban Growth မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 22.",
+            ],
+            hintsMy: [
+              "Week 22 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w21-d5",
+      dayNumber: 5,
+      titleEn: "Recap: International Migration Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - International Migration မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Economic migration is documented as being driven primarily by...",
+          questionMy:
+              "Economic Migration ကို ...က အဓိက ဆွဲဆောင်ထားကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Documented job or income factors",
+            "No documented factor of any kind",
+            "Factors unrelated to any documented economic cause",
+            "Documented conflict or persecution only",
+          ],
+          optionsMy: [
+            "Documented Job (သို့) Income Factor များ",
+            "Documented Factor မည်သည် အမျိုးအစားမှ",
+            "Documented Economic Cause မည်သည်နှင့်မျှ မသက်ဆိုင်သော Factor များ",
+            "Documented Conflict (သို့) Persecution တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Documented international migration is documented as connecting to...",
+          questionMy:
+              "Documented International Migration ကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Secondary 2's push-pull migration framework",
+            "No documented earlier framework of any kind",
+            "Content entirely unrelated to push-pull factors",
+            "A topic this course never actually covered before",
+          ],
+          optionsMy: [
+            "Secondary 2 ၏ Push-Pull Migration Framework",
+            "Documented ယခင် Framework မည်သည် အမျိုးအစားမှ",
+            "Push-Pull Factor များနှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying international migration requires citing...",
+          questionMy:
+              "International Migration လေ့လာခြင်းသည် ...ကို Cite ပြုလုပ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented examples rather than vague generalizations",
+            "Only vague generalizations with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific documented migration type",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented ဥပမာများ",
+            "Specific Documented Evidence မပါဘဲ Vague Generalization များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific Documented Migration Type မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 6, Week 22: "Documented Urban Growth
+// in Developing Countries"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek22 = CourseWeekDef(
+  id: "course-sec3-hum-w22",
+  weekNumber: 22,
+  titleEn: "Documented Urban Growth in Developing Countries",
+  titleMy: "Developing Country များရှိ Documented Urban Growth",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w22-d1",
+      dayNumber: 1,
+      titleEn: "Documented Megacities and Rapid Growth",
+      titleMy: "Documented Megacity များနှင့် Rapid Growth",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document specific cities that have grown into 'megacities' (documented as having a population above a specific large threshold), citing the specific documented pace of this growth. Why cite this specific documented term and pace rather than describing city growth only as 'cities getting really big'?",
+          questionMy:
+              "Geographer များသည် 'Megacity' များအဖြစ် ကြီးထွားလာသော Specific City များကို (Specific Large Threshold တစ်ခုအထက် Population ရှိကြောင်း Document ပြုလုပ်ထားသော) Document ပြုလုပ်ထားပြီး ဤ Growth ၏ Specific Documented Pace ကို Cite ပြုလုပ်ထားသည်။ City Growth ကို 'City များ တကယ် ကြီးလာနေသည်' ဟုသာ ဖော်ပြမည့်အစား ဤ Specific Documented Term နှင့် Pace ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A specific documented term and pace allows precise analysis of this documented trend, the same specific-over-vague habit taught throughout this course, extending Secondary 2's documented urbanization trend content with more precision",
+            "Vague descriptions of cities 'getting really big' are always more accurate than specific documented terms",
+            "Megacities have no actual documented connection to urban growth of any kind",
+            "Specific documented terms have no actual value in studying urban geography",
+          ],
+          optionsMy: [
+            "Specific Documented Term နှင့် Pace တစ်ခုသည် ဤ Documented Trend ၏ Precise Analysis ကို ခွင့်ပြုပြီး ဤ Course တစ်လျှောက်လုံး သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူဖြစ်ကာ Precision ပို၍ Secondary 2 ၏ Documented Urbanization Trend Content ကို တိုးချဲ့သည်",
+            "'City များ တကယ် ကြီးလာနေသည်' ၏ Vague ဖော်ပြချက်များသည် Specific Documented Term များထက် အမြဲ ပို၍ တိကျသည်",
+            "Megacity များတွင် Urban Growth မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Term များတွင် Urban Geography လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This extends Secondary 2's Term 8, Week 31 urbanization trends with more specific, documented terminology.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Term 8, Week 31 Urbanization Trend များကို Specific, Documented Terminology ပို၍ တိုးချဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does this week's documented urban growth content connect directly back to Secondary 2's Term 6 documented factory-era urbanization?",
+          questionMy:
+              "ဤအပတ်၏ Documented Urban Growth Content သည် Secondary 2 ၏ Term 6 Documented Factory-ခေတ် Urbanization သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Both are documented as driven by similar rural-to-urban push-pull factors, showing this week extends a documented historical pattern into a modern documented context rather than being disconnected from it",
+            "Modern urban growth has no actual documented connection to Secondary 2's factory-era content",
+            "Secondary 2's Term 6 and this week's content are documented as completely unrelated",
+            "Factory-era urbanization and modern megacity growth are documented as identical processes with no distinction",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံးကို ဆင်တူသော Rural-To-Urban Push-Pull Factor များက ဆွဲဆောင်ထားကြောင်း Document ပြုလုပ်ထားပြီး ၎င်းနှင့် Disconnected ဖြစ်မည့်အစား ဤအပတ်သည် Documented သမိုင်းဆိုင်ရာ Pattern တစ်ခုကို Modern Documented Context တစ်ခုသို့ တိုးချဲ့ကြောင်း ပြသသည်",
+            "Modern Urban Growth တွင် Secondary 2 ၏ Factory-ခေတ် Content နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Secondary 2 ၏ Term 6 နှင့် ဤအပတ်၏ Content ကို လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Factory-ခေတ် Urbanization နှင့် Modern Megacity Growth ကို Distinction မရှိဘဲ Identical Process များအဖြစ် Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Secondary 2's Term 6, Week 23 -- rural-to-urban migration for factory work is the same type of documented pattern seen in modern developing-country urban growth.",
+          ],
+          hintsMy: [
+            "Secondary 2 ၏ Term 6, Week 23 ကို သတိရပါ -- Factory အလုပ်များအတွက် Rural-To-Urban Migration သည် Modern Developing-Country Urban Growth တွင် တွေ့ရသော Documented Pattern Type တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students studying documented megacity growth name specific documented cities rather than describing this trend only in vague, general terms?",
+          questionMy:
+              "Documented Megacity Growth လေ့လာသော Student များသည် ဤ Trend ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented City များကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented cities shows genuine understanding of real documented urban growth patterns, the same specific-evidence habit used throughout this course",
+            "Vague, general descriptions are always more accurate than specific documented cities",
+            "Specific documented cities have no actual value in studying urban growth",
+            "Urban growth should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented City များ Cite ပြုလုပ်ခြင်းသည် Real Documented Urban Growth Pattern များ၏ Genuine နားလည်မှု ကို ပြသပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented City များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented City များတွင် Urban Growth လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Urban Growth ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Urban Growth Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Urban Growth Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w22-dm-1",
+          termEn: "Megacity",
+          termMy: "Megacity",
+          matchEn:
+              "A documented city with population above a specific large documented threshold",
+          matchMy:
+              "Specific Large Documented Threshold တစ်ခုအထက် Population ရှိသော Documented City",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w22-dm-2",
+          termEn: "Rapid urban growth",
+          termMy: "Rapid Urban Growth",
+          matchEn:
+              "A documented pace of city expansion, especially common in developing countries",
+          matchMy:
+              "Developing Country များတွင် အထူးသဖြင့် ဖြစ်လေ့ရှိသော City ချဲ့ထွင်မှု၏ Documented Pace",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w22-dm-3",
+          termEn: "Historical continuity",
+          termMy: "Historical Continuity",
+          matchEn:
+              "The documented connection between Secondary 2's factory-era and modern urban growth",
+          matchMy:
+              "Secondary 2 ၏ Factory-ခေတ်နှင့် Modern Urban Growth ကြား Documented ဆက်နွယ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w22-dm-4",
+          termEn: "Specific documented city",
+          termMy: "Specific Documented City",
+          matchEn:
+              "A named urban center rather than a vague, unspecified example",
+          matchMy: "Vague, Unspecified ဥပမာတစ်ခုအစား Named Urban Center",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Documented Citation or Vague Description?",
+      titleMy:
+          "စီစစ်ကြမည် - Specific Documented Citation (သို့) Vague Description",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Citation", "Vague Description"],
+        bucketsMy: ["Specific Documented Citation", "Vague Description"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w22-sort-1",
+            labelEn:
+                "A named documented megacity with a specific documented population figure",
+            labelMy:
+                "Specific Documented Population Figure ပါဝင်သော Named Documented Megacity",
+            correctBucketEn: "Specific Documented Citation",
+            correctBucketMy: "Specific Documented Citation",
+          ),
+          SortingItem(
+            id: "sec3hum-w22-sort-2",
+            labelEn: "Cities getting really big these days",
+            labelMy: "ယနေ့ခေတ် City များ တကယ် ကြီးလာနေသည်",
+            correctBucketEn: "Vague Description",
+            correctBucketMy: "Vague Description",
+          ),
+          SortingItem(
+            id: "sec3hum-w22-sort-3",
+            labelEn:
+                "Urban growth documented as continuing Secondary 2's factory-era pattern",
+            labelMy:
+                "Secondary 2 ၏ Factory-ခေတ် Pattern ဆက်လက်ခြင်းအဖြစ် Document ပြုလုပ်ထားသော Urban Growth",
+            correctBucketEn: "Specific Documented Citation",
+            correctBucketMy: "Specific Documented Citation",
+          ),
+          SortingItem(
+            id: "sec3hum-w22-sort-4",
+            labelEn: "Urban growth happening in general around the world",
+            labelMy: "ကမ္ဘာတစ်ဝှမ်း ယေဘုယျအားဖြင့် ဖြစ်ပျက်နေသော Urban Growth",
+            correctBucketEn: "Vague Description",
+            correctBucketMy: "Vague Description",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Megacity Growth Report",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Megacity Growth Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Megacity Growth Report",
+        titleMy: "Thiha Aung ၏ Megacity Growth Report",
+        passageEn:
+            "For Week 22's project, Thiha Aung's first draft described urban growth only as 'cities getting really big these days,' with no specific documented city or term cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented example was he actually referring to?\n\nThiha Aung revised his report to cite a specific documented megacity, defining the term as a documented city with population above a specific large documented threshold, and citing the documented pace of its recent growth. He then connected this directly back to Secondary 2's Term 6, noting that this modern documented growth pattern followed the same type of rural-to-urban push-pull factors that had driven factory-era urbanization studied there, extending a documented historical pattern into a modern documented context rather than treating it as unconnected.\n\nHis teacher praised the revision for applying both the specific-citation habit and the historical-continuity connection used throughout this course, and noted that Week 23 would build on this by examining the balanced documented benefits and challenges facing rapidly growing cities.",
+        passageMy:
+            "Week 22 ၏ Project အတွက် Thiha Aung ၏ ပထမဆုံး Draft တွင် Specific Documented City (သို့) Term မည်သည်ကိုမျှ Cite မပြုဘဲ Urban Growth ကို 'ယနေ့ခေတ် City များ တကယ် ကြီးလာနေသည်' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented ဥပမာ မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nSpecific Documented Megacity တစ်ခုကို Cite ပြုလုပ်ရန် ၎င်း၏ Report ကို Thiha Aung ပြန်လည် ပြင်ဆင်ခဲ့ပြီး Term ကို Specific Large Documented Threshold တစ်ခုအထက် Population ရှိသော Documented City တစ်ခုအဖြစ် သတ်မှတ်ကာ ၎င်း၏ လတ်တလော Growth ၏ Documented Pace ကို Cite ပြုလုပ်ခဲ့သည်။ Secondary 2 ၏ Term 6 သို့ ဤသည်ကို ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့ပြီး ဤ Modern Documented Growth Pattern သည် Unconnected အဖြစ် သဘောထားမည့်အစား Documented သမိုင်းဆိုင်ရာ Pattern တစ်ခုကို Modern Documented Context တစ်ခုသို့ တိုးချဲ့ကာ ထိုနေရာတွင် လေ့လာခဲ့သော Factory-ခေတ် Urbanization ကို ဆွဲဆောင်ခဲ့သော Rural-To-Urban Push-Pull Factor Type တူတူကို လိုက်နာခဲ့ကြောင်း မှတ်ချက်ပြုခဲ့သည်။\n\nဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ နှင့် Historical-Continuity Connection နှစ်ခုစလုံးကို အသုံးချသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Rapidly Growing City များ ရင်ဆိုင်ခဲ့ရသော Balanced Documented Benefit များနှင့် Challenge များကို စစ်ဆေးခြင်းဖြင့် Week 23 သည် ဤသည်ပေါ်တွင် တည်ဆောက်မည်ဖြစ်ကြောင်း မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Thiha Aung define a megacity?",
+            questionMy:
+                "Megacity ကို Thiha Aung မည်သို့ သတ်မှတ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A documented city with population above a specific large documented threshold",
+              "No documented definition of any kind",
+              "A definition entirely unrelated to population figures",
+              "A vague, unspecified phrase with no documented threshold named",
+            ],
+            optionsMy: [
+              "Specific Large Documented Threshold တစ်ခုအထက် Population ရှိသော Documented City",
+              "Documented Definition မည်သည် အမျိုးအစားမှ",
+              "Population Figure များနှင့် လုံးလုံး မသက်ဆိုင်သော Definition",
+              "Documented Threshold အမည်တပ်ခြင်း မပါသော Vague, Unspecified Phrase",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated definition."],
+            hintsMy: [
+              "ဖော်ပြထားသော Definition ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung connect modern urban growth back to?",
+            questionMy:
+                "Modern Urban Growth ကို Thiha Aung ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Secondary 2's Term 6 factory-era urbanization",
+              "No documented content of any kind",
+              "Content entirely unrelated to Secondary 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Secondary 2 ၏ Term 6 Factory-ခေတ် Urbanization",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Secondary 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 23 examine?",
+            questionMy: "Week 23 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Balanced documented benefits and challenges facing rapidly growing cities",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to urban growth",
+              "Content unrelated to any documented city",
+            ],
+            optionsMy: [
+              "Rapidly Growing City များ ရင်ဆိုင်ခဲ့ရသော Balanced Documented Benefit များနှင့် Challenge များ",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Urban Growth နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented City မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 23.",
+            ],
+            hintsMy: [
+              "Week 23 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w22-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Urban Growth Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Urban Growth မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A megacity is documented as a city with...",
+          questionMy:
+              "Megacity တစ်ခုကို ...ရှိသော City တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Population above a specific large documented threshold",
+            "No documented population of any kind",
+            "A population unrelated to any documented threshold",
+            "The smallest documented population of any city",
+          ],
+          optionsMy: [
+            "Specific Large Documented Threshold တစ်ခုအထက် Population",
+            "Documented Population မည်သည် အမျိုးအစားမှ",
+            "Documented Threshold မည်သည်နှင့်မျှ မသက်ဆိုင်သော Population",
+            "City မည်သည်၏ Smallest Documented Population",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Modern developing-country urban growth is documented as connecting to...",
+          questionMy:
+              "Modern Developing-Country Urban Growth ကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Secondary 2's factory-era urbanization pattern",
+            "No documented earlier pattern of any kind",
+            "Content entirely unrelated to Secondary 2",
+            "A topic this course never actually covered before",
+          ],
+          optionsMy: [
+            "Secondary 2 ၏ Factory-ခေတ် Urbanization Pattern",
+            "Documented ယခင် Pattern မည်သည် အမျိုးအစားမှ",
+            "Secondary 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying urban growth requires citing...",
+          questionMy:
+              "Urban Growth လေ့လာခြင်းသည် ...ကို Cite ပြုလုပ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented cities rather than vague generalizations",
+            "Only vague generalizations with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific documented city",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented City များ",
+            "Specific Documented Evidence မပါဘဲ Vague Generalization များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific Documented City မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 6, Week 23: "Balanced Account of Urban
+// Growth"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek23 = CourseWeekDef(
+  id: "course-sec3-hum-w23",
+  weekNumber: 23,
+  titleEn: "Balanced Account of Urban Growth",
+  titleMy: "Urban Growth ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w23-d1",
+      dayNumber: 1,
+      titleEn: "Documented Benefits and Documented Challenges Together",
+      titleMy: "Documented Benefit များနှင့် Documented Challenge များ အတူတကွ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, documented account of rapid urban growth represents both documented benefits (economic opportunity, access to services) and documented challenges (informal settlements with limited documented infrastructure, strain on housing and services). Why must both dimensions be represented?",
+          questionMy:
+              "Rapid Urban Growth ၏ Balanced, Documented Account တစ်ခုသည် Documented Benefit များ (Economic Opportunity, Service များ ရရှိမှု) နှင့် Documented Challenge များ (Limited Documented Infrastructure ပါဝင်သော Informal Settlement များ, အိမ်ရာနှင့် Service များအပေါ် Strain) နှစ်ခုစလုံးကို ကိုယ်စားပြုသည်။ Dimension နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used throughout this course -- an accurate account represents every major documented dimension, not only the convenient one",
+            "Only documented benefits should ever be represented in any account of urban growth",
+            "Only documented challenges should ever be represented, with no mention of any documented benefit",
+            "Balance has no actual role in accurately representing urban growth",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Urban Growth ၏ Account မည်သည်တွင်မဆို Documented Benefit များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Benefit မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Challenge များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Urban Growth ကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Secondary 2's Week 23 and Week 31 urbanization content.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Week 23 နှင့် Week 31 Urbanization Content မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students representing residents of informal settlements document them as historical/geographic agents actively building community and livelihoods within a documented challenging context, rather than only as passive subjects lacking documented infrastructure?",
+          questionMy:
+              "Informal Settlement များ၏ Resident များကို ကိုယ်စားပြုသော Student များသည် Documented Infrastructure မရှိသော Passive Subject များအဖြစ်သာမက Documented Challenging Context တစ်ခုအတွင်း Community နှင့် Livelihood များကို တက်ကြွစွာ တည်ဆောက်နေသော Historical/Geographic Agent များအဖြစ် ၎င်းတို့ကို အဘယ်ကြောင့် Document ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same agency principle applied to colonized and enslaved peoples in Secondary 2 and to African resistance in this course's Term 2 -- representing affected people as active agents, not only as people lacking something",
+            "Residents of informal settlements have no actual documented agency of any kind",
+            "Only outside authorities should ever be credited with any documented agency in urban contexts",
+            "Historical or geographic agency should never actually be attributed to residents of informal settlements",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 ရှိ ကိုလိုနီဖြစ်ခဲ့ရသူများနှင့် ကျွန်ခံခဲ့ရသူများနှင့် ဤ Course ၏ Term 2 ရှိ African Resistance ပေါ် အသုံးချထားသော Agency Principle တူတူကို လိုက်နာသည် -- အကျိုးသက်ရောက်ခဲ့သော လူများကို တစ်စုံတစ်ခု မရှိသော လူများအဖြစ်သာမက Active Agent များအဖြစ် ကိုယ်စားပြုခြင်း",
+            "Informal Settlement များ၏ Resident များတွင် Actual Documented Agency မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Urban Context များ၏ Documented Agency မည်သည်ကိုမဆို Outside Authority များကိုသာ Credit ပေးသင့်ခြင်း",
+            "Informal Settlement Resident များအား Historical (သို့) Geographic Agency ကို ဘယ်တော့မှ Actual မသတ်မှတ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same historical-agency principle used consistently across Secondary 2 and this course's Term 2, applied to informal-settlement residents.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Informal-Settlement Resident များပေါ်တွင် အသုံးချထားသော Secondary 2 နှင့် ဤ Course ၏ Term 2 တစ်လျှောက် တသမတ်တည်း အသုံးပြုခဲ့သော Historical-Agency Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this balanced account cite specific documented examples of both benefits and challenges rather than describing urban growth only in vague, general terms?",
+          questionMy:
+              "ဤ Balanced Account သည် Urban Growth ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Benefit များနှင့် Challenge များ နှစ်ခုစလုံး၏ Specific Documented ဥပမာများကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented examples demonstrate genuine understanding of this complex trend, the same precision habit used throughout this course, rather than relying on vague generalizations",
+            "Vague, general descriptions are always more accurate than specific documented examples",
+            "Specific documented examples have no actual value in representing urban growth accurately",
+            "Urban growth should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented ဥပမာများသည် ဤ Complex Trend ၏ Genuine နားလည်မှု ကို သရုပ်ပြပြီး Vague Generalization များအပေါ် မှီခိုမည့်အစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Precision အလေ့အထ ကို လိုက်နာသည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented ဥပမာများထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented ဥပမာများတွင် Urban Growth ကို တိကျစွာ ကိုယ်စားပြုရာ၌ Actual Value မရှိခြင်း",
+            "Urban Growth ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Balanced Urban Growth Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Balanced Urban Growth Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w23-dm-1",
+          termEn: "Informal settlement",
+          termMy: "Informal Settlement",
+          matchEn:
+              "A documented urban area with limited documented infrastructure, facing real challenges",
+          matchMy:
+              "Real Challenge များ ရင်ဆိုင်ရသော Limited Documented Infrastructure ပါဝင်သော Documented Urban Area",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w23-dm-2",
+          termEn: "Documented economic opportunity",
+          termMy: "Documented Economic Opportunity",
+          matchEn:
+              "A documented benefit drawing people to rapidly growing cities",
+          matchMy:
+              "လျင်မြန်စွာ ကြီးထွားနေသော City များသို့ လူများကို ဆွဲဆောင်သော Documented Benefit",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w23-dm-3",
+          termEn: "Resident agency",
+          termMy: "Resident Agency",
+          matchEn:
+              "Representing informal-settlement residents as active agents building community and livelihoods",
+          matchMy:
+              "Informal-Settlement Resident များကို Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w23-dm-4",
+          termEn: "Balanced urban account",
+          termMy: "Balanced Urban Account",
+          matchEn:
+              "Representing both documented benefits and documented challenges fairly",
+          matchMy:
+              "Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Benefit or Documented Challenge?",
+      titleMy: "စီစစ်ကြမည် - Documented Benefit (သို့) Documented Challenge",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Documented Benefit of Urban Growth",
+          "Documented Challenge of Urban Growth",
+        ],
+        bucketsMy: [
+          "Urban Growth ၏ Documented Benefit",
+          "Urban Growth ၏ Documented Challenge",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w23-sort-1",
+            labelEn:
+                "Documented access to jobs and services in a rapidly growing city",
+            labelMy:
+                "လျင်မြန်စွာ ကြီးထွားနေသော City တစ်ခုတွင် အလုပ်အကိုင်နှင့် Service များ ရရှိမှု Documented",
+            correctBucketEn: "Documented Benefit of Urban Growth",
+            correctBucketMy: "Urban Growth ၏ Documented Benefit",
+          ),
+          SortingItem(
+            id: "sec3hum-w23-sort-2",
+            labelEn:
+                "Documented informal settlements with limited infrastructure",
+            labelMy:
+                "Limited Infrastructure ပါဝင်သော Documented Informal Settlement များ",
+            correctBucketEn: "Documented Challenge of Urban Growth",
+            correctBucketMy: "Urban Growth ၏ Documented Challenge",
+          ),
+          SortingItem(
+            id: "sec3hum-w23-sort-3",
+            labelEn:
+                "Documented rise in economic opportunity for rural migrants",
+            labelMy:
+                "Rural Migrant များအတွက် Economic Opportunity ၏ Documented မြင့်တက်မှု",
+            correctBucketEn: "Documented Benefit of Urban Growth",
+            correctBucketMy: "Urban Growth ၏ Documented Benefit",
+          ),
+          SortingItem(
+            id: "sec3hum-w23-sort-4",
+            labelEn:
+                "Documented strain on housing and public services from rapid growth",
+            labelMy:
+                "Rapid Growth မှ Housing နှင့် Public Service များအပေါ် Documented Strain",
+            correctBucketEn: "Documented Challenge of Urban Growth",
+            correctBucketMy: "Urban Growth ၏ Documented Challenge",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Balanced Urban Report",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ Balanced Urban Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Balanced Urban Report",
+        titleMy: "Ko Zin Ko Ko ၏ Balanced Urban Report",
+        passageEn:
+            "For Week 23's assignment, Ko Zin Ko Ko's first draft described rapid urban growth only through documented challenges -- informal settlements and strained services -- with no mention of documented benefits. His teacher returned the draft with a reminder of the balanced-account principle used since Secondary 2's Week 23: had he checked documented benefits alongside documented challenges?\n\nKo Zin Ko Ko researched further and found both dimensions clearly documented: economic opportunity and service access drawing people to rapidly growing cities, alongside informal settlements facing genuinely limited documented infrastructure. He also revised how he represented residents of informal settlements, initially describing them only as lacking documented infrastructure. His teacher reminded him of the agency principle applied to colonized and enslaved peoples in Secondary 2 and to African resistance in this course's Term 2 -- Ko Zin Ko Ko revised his report to represent these residents as active agents building community and livelihoods within a genuinely challenging documented context, not only as passive subjects.\n\nHis teacher praised the revision for combining specific documented citation, balanced representation of benefits and challenges, and respected agency into one accurate account, exactly the discipline Week 24's capstone would require for its combined case study.",
+        passageMy:
+            "Week 23 ၏ Assignment အတွက် Ko Zin Ko Ko ၏ ပထမဆုံး Draft တွင် Documented Benefit မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Challenge -- Informal Settlement များနှင့် Strained Service များ -- မှတစ်ဆင့်သာ Rapid Urban Growth ကို ဖော်ပြခဲ့သည်။ Secondary 2 ၏ Week 23 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Challenge များနှင့်အတူ Documented Benefit များကို ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nDimension နှစ်ခုစလုံးကို ရှင်းလင်းစွာ Document ပြုလုပ်ထားကြောင်း Ko Zin Ko Ko ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည် -- Economic Opportunity နှင့် Service Access သည် လျင်မြန်စွာ ကြီးထွားနေသော City များသို့ လူများကို ဆွဲဆောင်ခဲ့ပြီး Informal Settlement များသည် Genuinely Limited Documented Infrastructure ရင်ဆိုင်ခဲ့ရသည်။ Informal Settlement Resident များကို ၎င်း ကိုယ်စားပြုပုံကိုလည်း ၎င်း ပြန်လည် ပြင်ဆင်ခဲ့ပြီး ၎င်းတို့ကို Documented Infrastructure မရှိကြောင်းသာ ပထမဦးစွာ ဖော်ပြခဲ့သည်။ Secondary 2 ရှိ ကိုလိုနီဖြစ်ခဲ့ရသူများနှင့် ကျွန်ခံခဲ့ရသူများနှင့် ဤ Course ၏ Term 2 ရှိ African Resistance ပေါ် အသုံးချထားသော Agency Principle ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- Passive Subject များအဖြစ်သာမက Genuinely Challenging Documented Context တစ်ခုအတွင်း Community နှင့် Livelihood များ တည်ဆောက်နေသော Active Agent များအဖြစ် ဤ Resident များကို ကိုယ်စားပြုရန် ၎င်း၏ Report ကို Ko Zin Ko Ko ပြန်လည် ပြင်ဆင်ခဲ့သည်။\n\nSpecific Documented Citation, Benefit များနှင့် Challenge များ၏ Balanced Representation နှင့် Respected Agency ကို Accurate Account တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Week 24 ၏ Capstone ၏ Combined Case Study အတွက် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Ko Zin Ko Ko's first draft?",
+            questionMy:
+                "Ko Zin Ko Ko ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any mention of documented benefits",
+              "Any mention of documented challenges at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Documented Benefit ၏ ဖော်ပြချက် မည်သည်မှ",
+              "Documented Challenge ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Ko Zin Ko Ko revise his representation of informal-settlement residents?",
+            questionMy:
+                "Informal-Settlement Resident များ၏ Representation ကို Ko Zin Ko Ko မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As active agents building community and livelihoods, not only as lacking infrastructure",
+              "As passive subjects with no actual role in their communities",
+              "As having no actual documented historical or geographic significance",
+              "By removing all mention of residents entirely",
+            ],
+            optionsMy: [
+              "Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များအဖြစ်, Infrastructure မရှိကြောင်းသာမက",
+              "၎င်းတို့ Community များတွင် Actual Role မရှိသော Passive Subject များအဖြစ်",
+              "Actual Documented Historical (သို့) Geographic Significance မရှိကြောင်း",
+              "Resident များ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Ko Zin Ko Ko's revision?",
+            questionMy:
+                "Ko Zin Ko Ko ၏ Revision ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For combining specific citation, balanced representation, and respected agency into one account",
+              "For describing urban growth only through documented challenges",
+              "For ignoring every documented dimension from the entire term",
+              "For making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Specific Citation, Balanced Representation နှင့် Respected Agency ကို Account တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်းအတွက်",
+              "Documented Challenge မှတစ်ဆင့်သာ Urban Growth ကို ဖော်ပြခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Dimension တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w23-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Balanced Urban Growth Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Balanced Urban Growth မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A balanced account of urban growth represents...",
+          questionMy:
+              "Urban Growth ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented benefits and documented challenges",
+            "Only documented benefits with no challenge mentioned",
+            "Only documented challenges with no benefit mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံး",
+            "Challenge ကို ဖော်ပြခြင်းမရှိဘဲ Documented Benefit များသာ",
+            "Benefit ကို ဖော်ပြခြင်းမရှိဘဲ Documented Challenge များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Residents of informal settlements should be represented as...",
+          questionMy:
+              "Informal Settlement များ၏ Resident များကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Active agents building community and livelihoods",
+            "Passive subjects with no actual role in their communities",
+            "People with no actual documented historical significance",
+            "Unrelated to any agency principle used this course",
+          ],
+          optionsMy: [
+            "Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များ",
+            "၎င်းတို့ Community များတွင် Actual Role မရှိသော Passive Subject များ",
+            "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိသော လူများ",
+            "ဤ Course အသုံးပြုခဲ့သော Agency Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Describing urban growth accurately requires...",
+          questionMy: "Urban Growth ကို တိကျစွာ ဖော်ပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented examples rather than vague generalizations",
+            "Only vague, general descriptions with no specific evidence",
+            "No documented evidence of any kind",
+            "Descriptions unrelated to any documented urban trend",
+          ],
+          optionsMy: [
+            "Vague Generalization များအစား Specific Documented ဥပမာများ",
+            "Specific Evidence မပါဘဲ Vague, General ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented Urban Trend မည်သည်နှင့်မျှ မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 6, Week 24 (Capstone / Boss Week):
+// "Migration and Urban Growth Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek24 = CourseWeekDef(
+  id: "course-sec3-hum-w24",
+  weekNumber: 24,
+  titleEn: "Capstone: Migration and Urban Growth Case Study",
+  titleMy: "Capstone - Migration and Urban Growth Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w24-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 6 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 6 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must combine a specific documented migration type (Week 21), a specific documented city's growth (Week 22), and a balanced account of that growth's impact (Week 23). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Specific Documented Migration Type (Week 21), Specific Documented City ၏ Growth (Week 22) နှင့် ထို Growth ၏ Impact ၏ Balanced Account (Week 23) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding why people migrate, how a specific city grew as a result, and its balanced documented impact together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain migration and urban growth fully",
+            "Migration type, city growth, and balanced impact have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် လူများ အဘယ်ကြောင့် Migrate ပြုလုပ်ကြသည်၊ ရလဒ်အဖြစ် City Specific တစ်ခု မည်သို့ ကြီးထွားခဲ့သည်နှင့် ၎င်း၏ Balanced Documented Impact ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Migration နှင့် Urban Growth ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Migration Type, City Growth နှင့် Balanced Impact တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 21 (migration types), Week 22 (city growth), and Week 23 (balanced impact) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21 (Migration Type), Week 22 (City Growth) နှင့် Week 23 (Balanced Impact) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes their chosen city's residents only as passive people lacking documented infrastructure, with no mention of active community-building. Following this term's established standards, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Active Community-Building ကို ဖော်ပြခြင်းမရှိဘဲ ၎င်း ရွေးချယ်ထားသော City ၏ Resident များကို Documented Infrastructure မရှိသော Passive လူများအဖြစ်သာ ဖော်ပြသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard များအတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to represent residents as active agents building community and livelihoods, following the same agency principle used since Secondary 2 and reinforced in Week 23",
+            "Nothing -- representing residents only as passive and lacking infrastructure is the required approach for this term",
+            "Remove all documented evidence about the chosen city from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Secondary 2 မှစ၍ အသုံးပြုခဲ့ပြီး Week 23 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Agency Principle တူတူကို လိုက်နာကာ Resident များကို Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များအဖြစ် ကိုယ်စားပြုရန် Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Resident များကို Infrastructure မရှိသော Passive လူများအဖြစ်သာ ကိုယ်စားပြုခြင်းသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော City အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same resident-agency standard from Week 23, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 23 မှ Resident-Agency Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project explicitly connect its chosen migration type and city back to Secondary 2's push-pull framework and factory-era urbanization content, rather than treating them as brand-new, disconnected topics?",
+          questionMy:
+              "Chosen Migration Type နှင့် City ကို Brand-New, Disconnected Topic များအဖြစ် သဘောထားမည့်အစား Capstone Project သည် ၎င်းတို့ကို Secondary 2 ၏ Push-Pull Framework နှင့် Factory-ခေတ် Urbanization Content သို့ ရှင်းလင်းစွာ အဘယ်ကြောင့် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "This course's content builds cumulatively, and demonstrating that connection shows genuine understanding of migration and urban growth as continuations of documented historical patterns rather than isolated modern events",
+            "Secondary 2 and this term have no actual documented connection to each other",
+            "Migration and urban growth appeared with no connection to any earlier documented content",
+            "Connecting terms together has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Content သည် Cumulatively တည်ဆောက်သည်၊ ထို ချိတ်ဆက်မှုကို သရုပ်ပြခြင်းသည် Migration နှင့် Urban Growth ကို Isolated Modern Event များမဟုတ်ဘဲ Documented Historical Pattern များ၏ Continuation များအဖြစ် Genuine နားလည်မှု ကို ပြသသည်",
+            "Secondary 2 နှင့် ဤ Term တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Migration နှင့် Urban Growth သည် ယခင် Documented Content မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+            "Term များကို အတူတကွ ချိတ်ဆက်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same cumulative-connection principle stated explicitly in Week 21 and Week 22.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21 နှင့် Week 22 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Cumulative-Connection Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 6 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w24-dm-1",
+          termEn: "Economic or refugee migration",
+          termMy: "Economic (သို့) Refugee Migration",
+          matchEn:
+              "Distinct documented migration types, each with specific push and pull factors",
+          matchMy:
+              "Specific Push နှင့် Pull Factor တစ်ခုစီနှင့်အတူ Distinct Documented Migration Type များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w24-dm-2",
+          termEn: "Megacity growth",
+          termMy: "Megacity Growth",
+          matchEn:
+              "A documented urban trend connected to Secondary 2's factory-era urbanization pattern",
+          matchMy:
+              "Secondary 2 ၏ Factory-ခေတ် Urbanization Pattern နှင့် ချိတ်ဆက်ထားသော Documented Urban Trend",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w24-dm-3",
+          termEn: "Balanced urban impact",
+          termMy: "Balanced Urban Impact",
+          matchEn:
+              "Representing both documented benefits and documented challenges of urban growth",
+          matchMy:
+              "Urban Growth ၏ Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံးကို ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w24-dm-4",
+          termEn: "Resident agency",
+          termMy: "Resident Agency",
+          matchEn:
+              "Representing informal-settlement residents as active agents, not only passive subjects",
+          matchMy:
+              "Informal-Settlement Resident များကို Passive Subject များအဖြစ်သာမက Active Agent များအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w24-sort-1",
+            labelEn:
+                "A specific documented migration type with named push and pull factors",
+            labelMy:
+                "Named Push နှင့် Pull Factor များနှင့်အတူ Specific Documented Migration Type",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w24-sort-2",
+            labelEn:
+                "A balanced account of both documented benefits and challenges",
+            labelMy:
+                "Documented Benefit များနှင့် Challenge များ နှစ်ခုစလုံး၏ Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w24-sort-3",
+            labelEn:
+                "Residents represented as active agents building community and livelihoods",
+            labelMy:
+                "Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များအဖြစ် ကိုယ်စားပြုထားသော Resident များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w24-sort-4",
+            labelEn:
+                "Residents described only as passive people lacking documented infrastructure",
+            labelMy:
+                "Documented Infrastructure မရှိသော Passive လူများအဖြစ်သာ ဖော်ပြထားသော Resident များ",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myint's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Aung Myint ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myint's Capstone Case Study",
+        titleMy: "Aung Myint ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 6 capstone, Aung Myint built his case study combining three documented elements from across the term. From Week 21, he cited a specific documented migration type (economic migration) and named the specific documented push and pull factors driving it, connecting this directly back to Secondary 2's Term 8 push-pull framework rather than treating it as a brand-new concept.\n\nFrom Week 22, he cited a specific documented megacity and its documented growth pace, connecting this to Secondary 2's Term 6 factory-era urbanization as the same type of documented historical pattern continuing into a modern context. From Week 23, he built a balanced account of that city's growth: documented economic opportunity and service access alongside documented informal settlements with limited infrastructure.\n\nHis first draft had described informal-settlement residents only as passive people lacking documented infrastructure, but he checked this against the agency principle used since Secondary 2 and reinforced in Week 23, revising his account to represent them as active agents building community and livelihoods within a genuinely challenging documented context. His teacher praised the case study for combining specific documented citation, cumulative connections to Secondary 2, and respected agency into one project -- exactly the standard built across every capstone since Secondary 1, and a strong foundation as the class moved into Term 7's development and global inequality content.",
+        passageMy:
+            "Term 6 Capstone အတွက် Term တစ်ခုလုံးမှ Documented Element သုံးခုကို ပေါင်းစပ်ကာ ၎င်း၏ Case Study ကို Aung Myint တည်ဆောက်ခဲ့သည်။ Week 21 မှ Specific Documented Migration Type (Economic Migration) ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး ၎င်းကို ဆွဲဆောင်နေသော Specific Documented Push နှင့် Pull Factor များကို အမည်တပ်ကာ Brand-New Concept တစ်ခုအဖြစ် သဘောထားမည့်အစား Secondary 2 ၏ Term 8 Push-Pull Framework သို့ ဤသည်ကို တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည်။\n\nWeek 22 မှ Specific Documented Megacity တစ်ခုနှင့် ၎င်း၏ Documented Growth Pace ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး Modern Context တစ်ခုသို့ ဆက်လက် ဖြစ်ပျက်နေသော Documented သမိုင်းဆိုင်ရာ Pattern Type တူတူအဖြစ် ဤသည်ကို Secondary 2 ၏ Term 6 Factory-ခေတ် Urbanization သို့ ချိတ်ဆက်ခဲ့သည်။ Week 23 မှ ထို City ၏ Growth ၏ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Limited Infrastructure ပါဝင်သော Documented Informal Settlement များနှင့်အတူ Documented Economic Opportunity နှင့် Service Access။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Informal-Settlement Resident များကို Documented Infrastructure မရှိသော Passive လူများအဖြစ်သာ ဖော်ပြခဲ့သော်လည်း Secondary 2 မှစ၍ အသုံးပြုခဲ့ပြီး Week 23 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Agency Principle နှင့် ဤသည်ကို ၎င်း စစ်ဆေးကာ Genuinely Challenging Documented Context တစ်ခုအတွင်း Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များအဖြစ် ၎င်းတို့ကို ကိုယ်စားပြုရန် ၎င်း၏ Account ကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Specific Documented Citation, Secondary 2 သို့ Cumulative Connection များနှင့် Respected Agency ကို Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းနှင့် Class Term 7 ၏ Development and Global Inequality Content ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Aung Myint connect Week 21's migration type back to?",
+            questionMy:
+                "Week 21 ၏ Migration Type ကို Aung Myint ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Secondary 2's Term 8 push-pull framework",
+              "No documented content of any kind",
+              "Content entirely unrelated to Secondary 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Secondary 2 ၏ Term 8 Push-Pull Framework",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Secondary 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Aung Myint's balanced account represent?",
+            questionMy:
+                "Aung Myint ၏ Balanced Account ကိုယ်စားပြုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both documented economic opportunity and documented informal settlements",
+              "Only documented economic opportunity with no challenge mentioned",
+              "Only documented informal settlements with no opportunity mentioned",
+              "Neither dimension of any documented kind",
+            ],
+            optionsMy: [
+              "Documented Economic Opportunity နှင့် Documented Informal Settlement နှစ်ခုစလုံး",
+              "Challenge ကို ဖော်ပြခြင်းမရှိဘဲ Documented Economic Opportunity သာ",
+              "Opportunity ကို ဖော်ပြခြင်းမရှိဘဲ Documented Informal Settlement သာ",
+              "Documented Dimension မည်သည်မှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated balanced account."],
+            hintsMy: [
+              "ဖော်ပြထားသော Balanced Account ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Aung Myint revise his representation of residents?",
+            questionMy:
+                "Resident များ၏ Representation ကို Aung Myint မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As active agents building community and livelihoods",
+              "As passive people lacking documented infrastructure",
+              "By removing all mention of residents entirely",
+              "As having no actual documented historical significance",
+            ],
+            optionsMy: [
+              "Community နှင့် Livelihood များ တည်ဆောက်သော Active Agent များအဖြစ်",
+              "Documented Infrastructure မရှိသော Passive လူများအဖြစ်",
+              "Resident များ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+              "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Recap: Migration and Urban Growth",
+      titleMy: "Term 6 ပြန်လည်သုံးသပ်ခြင်း - Migration and Urban Growth",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "International migration is documented as combining...",
+          questionMy:
+              "International Migration ကို ...ပေါင်းစပ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Distinct documented types like economic and refugee migration",
+            "A single documented type with no distinction",
+            "No documented type of any kind",
+            "Types entirely unrelated to any documented push-pull factor",
+          ],
+          optionsMy: [
+            "Economic နှင့် Refugee Migration ကဲ့သို့ Distinct Documented Type များ",
+            "Distinction မရှိသော Documented Type တစ်ခုတည်း",
+            "Documented Type မည်သည် အမျိုးအစားမှ",
+            "Documented Push-Pull Factor မည်သည်နှင့်မျှ မသက်ဆိုင်သော Type များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Modern megacity growth is documented as connecting to...",
+          questionMy:
+              "Modern Megacity Growth ကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Secondary 2's factory-era urbanization pattern",
+            "No documented earlier pattern of any kind",
+            "Content entirely unrelated to Secondary 2",
+            "A topic this course never actually covered before",
+          ],
+          optionsMy: [
+            "Secondary 2 ၏ Factory-ခေတ် Urbanization Pattern",
+            "Documented ယခင် Pattern မည်သည် အမျိုးအစားမှ",
+            "Secondary 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced case study of urban growth represents...",
+          questionMy:
+              "Urban Growth ၏ Balanced Case Study သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented benefits and documented challenges, with residents as active agents",
+            "Only documented benefits with no challenge mentioned",
+            "Only documented challenges with residents as passive subjects",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Active Agent များအဖြစ် Resident များနှင့်အတူ Documented Benefit များနှင့် Documented Challenge များ နှစ်ခုစလုံး",
+            "Challenge ကို ဖော်ပြခြင်းမရှိဘဲ Documented Benefit များသာ",
+            "Passive Subject များအဖြစ် Resident များနှင့်အတူ Documented Challenge များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 6: "Migration and Urban Growth"
+// (Weeks 21-24). Extends Secondary 2 Term 8's push-pull migration
+// framework into specific, distinct documented migration types --
+// economic and refugee migration (Week 21) -- and Secondary 2 Term 6's
+// factory-era urbanization into modern documented megacity growth
+// (Week 22), a balanced account of that growth's documented benefits
+// and challenges with residents represented as active agents rather
+// than passive subjects (Week 23), closing with a capstone case study
+// combining a documented migration type, a documented city's growth,
+// and a balanced impact account (Week 24).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm6 = CourseTermDef(
+  id: "course-sec3-hum-t6",
+  termNumber: 6,
+  titleEn: "Migration and Urban Growth",
+  titleMy: "Migration and Urban Growth",
+  certificateTitleEn: "Migration and Urban Growth Certificate",
+  certificateTitleMy: "Migration and Urban Growth သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek21, _sec3HumWeek22, _sec3HumWeek23, _sec3HumWeek24],
 );
 // __SEC_HUM_MARKER__
