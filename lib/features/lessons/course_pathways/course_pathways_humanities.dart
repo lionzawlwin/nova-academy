@@ -116369,11 +116369,17 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec2HumTerm1, _sec2HumTerm2, _sec2HumTerm3, _sec2HumTerm4],
+  terms: [
+    _sec2HumTerm1,
+    _sec2HumTerm2,
+    _sec2HumTerm3,
+    _sec2HumTerm4,
+    _sec2HumTerm5,
+  ],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 2: "Renaissance and Scientific
@@ -120678,5 +120684,1436 @@ const CourseTermDef _sec2HumTerm4 = CourseTermDef(
   certificateTitleMy:
       "Transatlantic Slave Trade နှင့် ၎င်း၏ Legacy သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec2HumWeek13, _sec2HumWeek14, _sec2HumWeek15, _sec2HumWeek16],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 5: "Rivers, Agriculture and Early
+// Industry" (Weeks 17-20)
+// Term 5, Week 17: "River Systems and Landforms"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek17 = CourseWeekDef(
+  id: "course-sec2-hum-w17",
+  weekNumber: 17,
+  titleEn: "River Systems and Landforms",
+  titleMy: "River Systems and Landforms",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w17-d1",
+      dayNumber: 1,
+      titleEn: "From Source to Mouth",
+      titleMy: "Source မှ Mouth သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A river's course is commonly divided into upper, middle, and lower course. What generally happens to a river's speed and the landforms it creates as it moves from its source (upper course) toward its mouth (lower course)?",
+          questionMy:
+              "River တစ်ခု၏ Course ကို Upper, Middle နှင့် Lower Course အဖြစ် ယေဘုယျ ခွဲခြားလေ့ရှိသည်။ ၎င်း၏ Source (Upper Course) မှ ၎င်း၏ Mouth (Lower Course) သို့ ရွေ့လျားသောအခါ River တစ်ခု၏ Speed နှင့် ၎င်း ဖန်တီးသော Landform များတွင် ယေဘုယျ အဘယ်အရာ ဖြစ်ပျက်ခဲ့သနည်း။",
+          optionsEn: [
+            "The upper course typically has steep gradients and erosion-dominant landforms (like V-shaped valleys), while the lower course typically has a gentler gradient and deposition-dominant landforms (like floodplains and deltas)",
+            "A river's speed and landforms never actually change between its source and its mouth",
+            "The lower course always has steeper gradients than the upper course in every documented river system",
+            "Erosion only occurs in the lower course and deposition only occurs in the upper course",
+          ],
+          optionsMy: [
+            "Upper Course တွင် များသောအားဖြင့် Steep Gradient များနှင့် Erosion-Dominant Landform များ (V-Shaped Valley များကဲ့သို့) ရှိပြီး Lower Course တွင် များသောအားဖြင့် ပို၍ ညင်သာသော Gradient နှင့် Deposition-Dominant Landform များ (Floodplain များနှင့် Delta များကဲ့သို့) ရှိသည်",
+            "River တစ်ခု၏ Speed နှင့် Landform များသည် ၎င်း၏ Source နှင့် ၎င်း၏ Mouth ကြားတွင် ဘယ်တော့မှ အမှန်တကယ် မပြောင်းလဲခြင်း",
+            "Documented River System တိုင်းတွင် Lower Course သည် Upper Course ထက် အမြဲ Steeper Gradient ရှိခြင်း",
+            "Erosion သည် Lower Course တွင်သာ ဖြစ်ပေါ်ပြီး Deposition သည် Upper Course တွင်သာ ဖြစ်ပေါ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a river as starting fast and steep in the hills, then slowing and widening as it approaches the sea -- this general pattern shapes the landforms found at each stage.",
+          ],
+          hintsMy: [
+            "River တစ်ခုကို တောင်ပေါ်တွင် မြန်ပြီး Steep ဖြစ်ပြီး ပင်လယ်ကို ချဉ်းကပ်ချိန်တွင် နှေးလာကာ ကျယ်ဝန်းလာသည်ဟု စဉ်းစားပါ -- ဤ General Pattern သည် အဆင့်တစ်ခုစီတွင် တွေ့ရှိရသော Landform များကို ပုံဖော်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians and geographers so often find early human settlements documented along river valleys rather than scattered randomly across a landscape?",
+          questionMy:
+              "Historian များနှင့် Geographer များသည် Landscape တစ်ခုတစ်လျှောက် ကျပန်း ပျံ့နှံ့နေမည့်အစား River Valley များတစ်လျှောက် Early Human Settlement များ Documented ဖြစ်နေသည်ကို မကြာခဏ တွေ့ရှိကြသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Rivers provide multiple documented resources at once -- fresh water, fertile floodplain soil, transport routes, and food -- making river valleys a location that satisfies several human needs simultaneously",
+            "Rivers provide no actual documented advantage for human settlement of any kind",
+            "Early settlements were always located as far from rivers as geographically possible",
+            "River valleys have no actual connection to historical settlement patterns anywhere",
+          ],
+          optionsMy: [
+            "River များသည် Documented Resource များစွာကို တစ်ပြိုင်နက် ပေးအပ်သည် -- သန့်ရှင်းသောရေ, Fertile Floodplain မြေဆီလွှာ, Transport Route များနှင့် အစားအစာ -- River Valley များကို လူသား လိုအပ်ချက်များစွာကို တစ်ပြိုင်နက် ဖြည့်ဆည်းပေးသော Location တစ်ခု ဖြစ်စေသည်",
+            "River များသည် လူသား Settlement အတွက် Actual Documented Advantage မည်သည်ကိုမျှ မပေးအပ်ခြင်း",
+            "Early Settlement များသည် River များနှင့် Geographical အဝေးဆုံး Location တွင် အမြဲ တည်ရှိခဲ့ခြင်း",
+            "River Valley များသည် နေရာမည်သည်တွင်မဆို သမိုင်းဆိုင်ရာ Settlement Pattern များနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects back to Secondary 1's early-civilizations work -- rivers meeting several needs at once is exactly why the earliest documented civilizations formed along them.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Early-Civilizations အလုပ်နှင့် ချိတ်ဆက်သည် -- River များသည် လိုအပ်ချက်များစွာကို တစ်ပြိုင်နက် ဖြည့်ဆည်းခြင်းသည် အစောဆုံး Documented Civilization များ ၎င်းတို့တစ်လျှောက် ဖွဲ့စည်းခဲ့သည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student labels a landform on a river diagram based only on its general shape, without checking whether it matches the documented characteristics of erosion or deposition landforms for that part of the course. What geographic-evidence habit should the student apply instead?",
+          questionMy:
+              "Student တစ်ဦးသည် Course ၏ အစိတ်အပိုင်းအတွက် Erosion (သို့) Deposition Landform များ၏ Documented Characteristic နှင့် ကိုက်ညီမှုရှိမရှိ စစ်ဆေးခြင်း မပြုဘဲ ၎င်း၏ General Shape ကိုသာ အခြေခံ၍ River Diagram တစ်ခုပေါ်ရှိ Landform တစ်ခုကို Label ရေးထိုးသည်။ ယင်းအစား Student ဘယ် Geographic-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Checking a landform's documented characteristics (gradient, erosion vs. deposition process, position along the course) before labeling it, the same specific-evidence-over-guessing habit used throughout this course",
+            "Labeling landforms based only on general shape with no further verification is always the correct approach",
+            "Documented characteristics of landforms have no actual role in geographic labeling",
+            "Checking a landform's position along the course is never actually necessary",
+          ],
+          optionsMy: [
+            "Label မတပ်မီ Landform တစ်ခု၏ Documented Characteristic (Gradient, Erosion vs. Deposition Process, Course တစ်လျှောက် Position) ကို စစ်ဆေးခြင်း, ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence-Over-Guessing အလေ့အထ တူတူ ဖြစ်သည်",
+            "Further Verification မရှိဘဲ General Shape ကိုသာ အခြေခံ၍ Landform များကို Label တပ်ခြင်းသည် အမြဲ မှန်ကန်သော Approach ဖြစ်သည်",
+            "Landform များ၏ Documented Characteristic များတွင် Geographic Labeling ၌ Actual Role မရှိခြင်း",
+            "Course တစ်လျှောက် Landform တစ်ခု၏ Position ကို စစ်ဆေးခြင်းသည် ဘယ်တော့မှ အမှန်တကယ် မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit from Term 1's historical citation discipline, applied here to geographic landform identification.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Geographic Landform Identification ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 1 ၏ Historical Citation Discipline မှ Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: River Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - River Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w17-dm-1",
+          termEn: "Source",
+          termMy: "Source",
+          matchEn:
+              "The documented starting point of a river, often a spring or melting glacier",
+          matchMy:
+              "River တစ်ခု၏ Documented စတင်ရာ Point, မကြာခဏ Spring (သို့) Melting Glacier",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w17-dm-2",
+          termEn: "Floodplain",
+          termMy: "Floodplain",
+          matchEn:
+              "A flat, fertile area next to a river built up by repeated deposition during floods",
+          matchMy:
+              "Flood များအတွင်း ထပ်ခါထပ်ခါ Deposition ဖြင့် တည်ဆောက်ထားသော River အနီးရှိ ညီညာ, Fertile ဧရိယာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w17-dm-3",
+          termEn: "Delta",
+          termMy: "Delta",
+          matchEn:
+              "A landform of deposited sediment where a river meets a sea or lake",
+          matchMy:
+              "River တစ်ခု ပင်လယ် (သို့) Lake နှင့် တွေ့ဆုံရာတွင် Deposited Sediment ၏ Landform",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w17-dm-4",
+          termEn: "Erosion",
+          termMy: "Erosion",
+          matchEn:
+              "The documented process of a river wearing away rock and soil, dominant in the upper course",
+          matchMy:
+              "Upper Course တွင် Dominant ဖြစ်သော ကျောက်တုံးနှင့် မြေဆီလွှာကို ဖျက်ဆီးသော River ၏ Documented Process",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Upper Course or Lower Course?",
+      titleMy: "စီစစ်ကြမည် - Upper Course (သို့) Lower Course",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Typical of Upper Course", "Typical of Lower Course"],
+        bucketsMy: ["Upper Course ၏ Typical", "Lower Course ၏ Typical"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w17-sort-1",
+            labelEn: "Steep gradient and fast-flowing water",
+            labelMy: "Steep Gradient နှင့် မြန်ဆန်စွာ စီးဆင်းနေသော ရေ",
+            correctBucketEn: "Typical of Upper Course",
+            correctBucketMy: "Upper Course ၏ Typical",
+          ),
+          SortingItem(
+            id: "sec2hum-w17-sort-2",
+            labelEn: "Wide floodplain and gentle gradient",
+            labelMy: "ကျယ်ဝန်းသော Floodplain နှင့် ညင်သာသော Gradient",
+            correctBucketEn: "Typical of Lower Course",
+            correctBucketMy: "Lower Course ၏ Typical",
+          ),
+          SortingItem(
+            id: "sec2hum-w17-sort-3",
+            labelEn: "V-shaped valley formed mainly by erosion",
+            labelMy:
+                "အဓိကအားဖြင့် Erosion ဖြင့် ဖွဲ့စည်းထားသော V-Shaped Valley",
+            correctBucketEn: "Typical of Upper Course",
+            correctBucketMy: "Upper Course ၏ Typical",
+          ),
+          SortingItem(
+            id: "sec2hum-w17-sort-4",
+            labelEn:
+                "A delta formed by deposited sediment at the river's mouth",
+            labelMy:
+                "River ၏ Mouth တွင် Deposited Sediment ဖြင့် ဖွဲ့စည်းထားသော Delta",
+            correctBucketEn: "Typical of Lower Course",
+            correctBucketMy: "Lower Course ၏ Typical",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's River Field Sketch",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ River Field Sketch",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's River Field Sketch",
+        titleMy: "Htet Wai Yan ၏ River Field Sketch",
+        passageEn:
+            "For his Week 17 fieldwork, Htet Wai Yan sketched a river he had researched, labeling each stage of its course from source to mouth. In the upper course near the source, he noted a steep gradient and a V-shaped valley -- evidence of erosion dominating that stage. In the middle course, the gradient eased and the river began to curve, showing early signs of meander formation. In the lower course, he documented a wide floodplain and a delta where the river met the sea, both landforms built by deposition rather than erosion.\n\nHis teacher asked him to explain why he had labeled each landform the way he did, rather than just describing the general shape of the river. Htet Wai Yan explained that he had checked each labeled feature against its documented characteristics -- gradient, dominant process, and position along the course -- before writing any label down, the same specific-evidence habit his class had used since Term 1's historical citation work.\n\nHe then connected his sketch to a broader point: the fertile floodplain and delta he had documented were exactly the kind of location where early human settlements tended to form, since rivers provide fresh water, fertile soil, transport, and food all at once. His teacher praised the sketch for combining accurate physical-geography labeling with a clear explanation of why river valleys mattered to human settlement patterns.",
+        passageMy:
+            "၎င်း၏ Week 17 Fieldwork အတွက် ၎င်း Research ပြုလုပ်ခဲ့သော River တစ်ခုကို Htet Wai Yan Sketch ရေးဆွဲကာ Source မှ Mouth အထိ ၎င်း၏ Course အဆင့်တစ်ခုစီကို Label တပ်ခဲ့သည်။ Source အနီးရှိ Upper Course တွင် Steep Gradient နှင့် V-Shaped Valley ကို ၎င်း မှတ်ချက်ပြုခဲ့သည် -- ထိုအဆင့်တွင် Dominant ဖြစ်နေသော Erosion ၏ Evidence ဖြစ်သည်။ Middle Course တွင် Gradient ပြေလျော့လာပြီး River စတင်ကွေးလာကာ Meander ဖွဲ့စည်းမှု၏ အစောပိုင်း လက္ခဏာများ ပြသခဲ့သည်။ Lower Course တွင် ကျယ်ဝန်းသော Floodplain တစ်ခုနှင့် River ပင်လယ်နှင့် တွေ့ဆုံရာ Delta တစ်ခုကို ၎င်း Document ပြုလုပ်ခဲ့ပြီး Landform နှစ်ခုစလုံးသည် Erosion မဟုတ်ဘဲ Deposition ဖြင့် တည်ဆောက်ထားခြင်း ဖြစ်သည်။\n\nRiver ၏ General Shape ကိုသာ ဖော်ပြမည့်အစား Landform တစ်ခုစီကို အဘယ်ကြောင့် ထိုနည်းအတိုင်း Label တပ်ခဲ့သည်ကို ရှင်းပြရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။ Label မည်သည်ကိုမျှ မရေးမီ Feature တစ်ခုစီ Label ကို ၎င်း၏ Documented Characteristic -- Gradient, Dominant Process နှင့် Course တစ်လျှောက် Position -- နှင့် စစ်ဆေးခဲ့ကြောင်း Htet Wai Yan ရှင်းပြခဲ့ပြီး ၎င်းသည် Term 1 ၏ သမိုင်းဆိုင်ရာ Citation အလုပ်မှစ၍ ၎င်း၏ Class အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။\n\nထို့နောက် ၎င်းသည် ၎င်း၏ Sketch ကို ပို၍ ကျယ်ပြန့်သော Point တစ်ခုနှင့် ချိတ်ဆက်ခဲ့သည် -- ၎င်း Document ပြုလုပ်ခဲ့သော Fertile Floodplain နှင့် Delta သည် River များက သန့်ရှင်းသောရေ, Fertile မြေဆီလွှာ, Transport နှင့် အစားအစာကို တစ်ပြိုင်နက် ပေးအပ်သောကြောင့် Early Human Settlement များ ဖွဲ့စည်းလေ့ရှိသော Location အမျိုးအစား အတိအကျ ဖြစ်သည်။ Physical-Geography Labeling တိကျမှုကို River Valley များ လူသား Settlement Pattern များနှင့် အဘယ်ကြောင့် သက်ဆိုင်သည်ဟူသော ရှင်းလင်းသော ရှင်းပြချက်နှင့် ပေါင်းစပ်ခဲ့သောကြောင့် Sketch ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Htet Wai Yan document in the lower course?",
+            questionMy:
+                "Lower Course တွင် Htet Wai Yan Document ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A wide floodplain and a delta, both built by deposition",
+              "A steep gradient and a V-shaped valley built by erosion",
+              "No documented landforms of any kind",
+              "A landform unrelated to any river process",
+            ],
+            optionsMy: [
+              "Deposition ဖြင့် တည်ဆောက်ထားသော ကျယ်ဝန်းသော Floodplain တစ်ခုနှင့် Delta တစ်ခု",
+              "Erosion ဖြင့် တည်ဆောက်ထားသော Steep Gradient နှင့် V-Shaped Valley",
+              "Documented Landform မည်သည် အမျိုးအစားမှ",
+              "River Process မည်သည်နှင့်မျှ မသက်ဆိုင်သော Landform",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's lower-course description."],
+            hintsMy: [
+              "Lower-Course ဖော်ပြချက်ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Htet Wai Yan check before labeling each landform?",
+            questionMy:
+                "Landform တစ်ခုစီ Label မတပ်မီ Htet Wai Yan စစ်ဆေးခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its documented characteristics -- gradient, dominant process, and position along the course",
+              "Nothing at all -- labels were assigned randomly",
+              "Only the general shape, with no further verification",
+              "A characteristic unrelated to any river feature",
+            ],
+            optionsMy: [
+              "၎င်း၏ Documented Characteristic -- Gradient, Dominant Process နှင့် Course တစ်လျှောက် Position",
+              "ဘာမှ -- Label များကို ကျပန်း သတ်မှတ်ခဲ့ခြင်း",
+              "Further Verification မရှိဘဲ General Shape ကိုသာ",
+              "River Feature မည်သည်နှင့်မျှ မသက်ဆိုင်သော Characteristic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းပြချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why do river valleys matter to human settlement patterns?",
+            questionMy:
+                "River Valley များသည် လူသား Settlement Pattern များနှင့် အဘယ်ကြောင့် သက်ဆိုင်သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Rivers provide fresh water, fertile soil, transport, and food all at once",
+              "Rivers provide no actual resources of any documented kind",
+              "Human settlement has no actual connection to river geography",
+              "Rivers only ever provide a single documented resource",
+            ],
+            optionsMy: [
+              "River များသည် သန့်ရှင်းသောရေ, Fertile မြေဆီလွှာ, Transport နှင့် အစားအစာကို တစ်ပြိုင်နက် ပေးအပ်ခြင်း",
+              "River များသည် Documented Resource မည်သည် အမျိုးအစားမှ Actual မပေးအပ်ခြင်း",
+              "လူသား Settlement သည် River Geography နှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+              "River များသည် Documented Resource တစ်ခုတည်းကိုသာ တစ်ခါတစ်ရံ ပေးအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w17-d5",
+      dayNumber: 5,
+      titleEn: "Recap: River Systems Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - River Systems မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The upper course of a river is typically dominated by...",
+          questionMy:
+              "River တစ်ခု၏ Upper Course သည် ယေဘုယျ ...ဖြင့် Dominant ဖြစ်သည်",
+          optionsEn: [
+            "Erosion and a steep gradient",
+            "Deposition and a wide floodplain",
+            "No documented river process of any kind",
+            "A delta at the river's source",
+          ],
+          optionsMy: [
+            "Erosion နှင့် Steep Gradient",
+            "Deposition နှင့် ကျယ်ဝန်းသော Floodplain",
+            "Documented River Process မည်သည် အမျိုးအစားမှ",
+            "River ၏ Source ရှိ Delta",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A delta forms where...",
+          questionMy: "Delta သည် ...တွင် ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "A river meets a sea or lake and deposits sediment",
+            "A river begins at its documented source",
+            "Erosion is the only documented process occurring",
+            "No documented sediment is ever present",
+          ],
+          optionsMy: [
+            "River တစ်ခု ပင်လယ် (သို့) Lake နှင့် တွေ့ဆုံပြီး Sediment ကို Deposit လုပ်သည့်နေရာ",
+            "River တစ်ခု ၎င်း၏ Documented Source တွင် စတင်သည့်နေရာ",
+            "Erosion သည် ဖြစ်ပေါ်နေသော တစ်ခုတည်းသော Documented Process ဖြစ်သည့်နေရာ",
+            "Documented Sediment မည်သည် ဘယ်တော့မှ မတည်ရှိသည့်နေရာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Early human settlements often formed along river valleys because rivers provide...",
+          questionMy:
+              "Early Human Settlement များသည် River များက ...ကို ပေးအပ်သောကြောင့် River Valley များတစ်လျှောက် မကြာခဏ ဖွဲ့စည်းခဲ့ကြသည်",
+          optionsEn: [
+            "Fresh water, fertile soil, transport, and food all at once",
+            "No documented resource of any kind",
+            "Only a single documented resource with nothing else",
+            "Resources unrelated to human survival needs",
+          ],
+          optionsMy: [
+            "သန့်ရှင်းသောရေ, Fertile မြေဆီလွှာ, Transport နှင့် အစားအစာ တစ်ပြိုင်နက်",
+            "Documented Resource မည်သည် အမျိုးအစားမှ",
+            "အခြားဘာမျှ မပါဘဲ Documented Resource တစ်ခုတည်းသာ",
+            "လူသား ရှင်သန်ရေး လိုအပ်ချက်များနှင့် မသက်ဆိုင်သော Resource များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 5, Week 18: "Agriculture and Land Use"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek18 = CourseWeekDef(
+  id: "course-sec2-hum-w18",
+  weekNumber: 18,
+  titleEn: "Agriculture and Land Use",
+  titleMy: "Agriculture and Land Use",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w18-d1",
+      dayNumber: 1,
+      titleEn: "Subsistence and Commercial Farming",
+      titleMy: "Subsistence နှင့် Commercial Farming",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What is the documented difference between subsistence farming and commercial farming?",
+          questionMy:
+              "Subsistence Farming နှင့် Commercial Farming ကြား Documented ကွာခြားချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Subsistence farming produces food mainly for the farming family's own consumption, while commercial farming produces food mainly to sell for profit",
+            "Subsistence farming and commercial farming are documented as identical in every respect",
+            "Commercial farming produces food only for the farming family's own consumption",
+            "Neither subsistence nor commercial farming has any documented purpose",
+          ],
+          optionsMy: [
+            "Subsistence Farming သည် Farming Family ကိုယ်တိုင် စားသုံးရန်အတွက် အဓိက အစားအစာ ထုတ်လုပ်ပြီး Commercial Farming သည် အမြတ်အစွန်း ရောင်းချရန်အတွက် အဓိက အစားအစာ ထုတ်လုပ်သည်",
+            "Subsistence Farming နှင့် Commercial Farming ကို Aspect တိုင်းတွင် Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားသည်",
+            "Commercial Farming သည် Farming Family ကိုယ်တိုင် စားသုံးရန်အတွက်သာ အစားအစာ ထုတ်လုပ်ခြင်း",
+            "Subsistence (သို့) Commercial Farming တွင် Documented Purpose မည်သည်မှ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think about who consumes the food produced -- the farming household itself, or buyers in a wider market.",
+          ],
+          hintsMy: [
+            "ထုတ်လုပ်သော အစားအစာကို မည်သူ စားသုံးသည်ကို စဉ်းစားပါ -- Farming Household ကိုယ်တိုင်, (သို့) ပို၍ ကျယ်ပြန့်သော Market ရှိ ဝယ်ယူသူများ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do fertile river floodplains (studied in Week 17) tend to support more intensive, documented agricultural land use than steep or rocky terrain?",
+          questionMy:
+              "Fertile River Floodplain များ (Week 17 တွင် လေ့လာခဲ့သော) သည် Steep (သို့) ကျောက်ခဲများ ကျယ်ဝန်းသော Terrain ထက် ပို၍ Intensive, Documented Agricultural Land Use ကို အဘယ်ကြောင့် ပံ့ပိုးလေ့ရှိသနည်း။",
+          optionsEn: [
+            "Fertile, flat floodplain soil and reliable water access support higher documented crop yields, while steep or rocky terrain limits both soil depth and ease of cultivation",
+            "Floodplains have no actual documented agricultural advantage over any other terrain type",
+            "Steep, rocky terrain always supports more intensive agriculture than any floodplain",
+            "Soil fertility and water access have no actual connection to agricultural land use",
+          ],
+          optionsMy: [
+            "Fertile, ညီညာသော Floodplain မြေဆီလွှာနှင့် ယုံကြည်ရသော ရေရရှိမှုသည် ပို၍ မြင့်မားသော Documented Crop Yield များကို ပံ့ပိုးပြီး Steep (သို့) ကျောက်ခဲများ ကျယ်ဝန်းသော Terrain သည် မြေဆီလွှာ အနက်နှင့် ဖြစုတ်ခြင်း လွယ်ကူမှု နှစ်ခုစလုံးကို ကန့်သတ်သည်",
+            "Floodplain များသည် Terrain အမျိုးအစား အခြားမည်သည်ထက် Actual Documented Agricultural Advantage မရှိခြင်း",
+            "Steep, ကျောက်ခဲများ ကျယ်ဝန်းသော Terrain သည် Floodplain မည်သည်ထက်မဆို ပို၍ Intensive Agriculture ကို အမြဲ ပံ့ပိုးခြင်း",
+            "မြေဆီလွှာ Fertility နှင့် ရေ ရရှိမှုတွင် Agricultural Land Use နှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects back to last week's river-landform work -- floodplain soil quality directly shapes what agriculture is possible.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နောက်ဆုံးအပတ်၏ River-Landform အလုပ်နှင့် တိုက်ရိုက် ချိတ်ဆက်သည် -- Floodplain မြေဆီလွှာ Quality သည် Agriculture မည်သည် ဖြစ်နိုင်သည်ကို တိုက်ရိုက် ပုံဖော်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student claims 'all farming everywhere is the same' without checking documented differences in climate, soil, and crop type across regions. What geographic-evidence habit is the student failing to apply?",
+          questionMy:
+              "Region များတစ်လျှောက် Climate, Soil နှင့် Crop အမျိုးအစားရှိ Documented ကွာခြားချက်များ မစစ်ဆေးဘဲ Student တစ်ဦးသည် 'နေရာတိုင်းရှိ Farming အားလုံးသည် တူညီသည်' ဟု Claim ပြုလုပ်သည်။ Student သည် ဘယ် Geographic-Evidence အလေ့အထ ကို အသုံးချရန် ပျက်ကွက်နေသနည်း။",
+          optionsEn: [
+            "Checking specific documented regional differences (climate, soil, crop type) before making a general claim, the same specific-evidence-over-generalization habit used throughout this course",
+            "Making broad, unverified claims without checking any documented evidence is always the correct approach",
+            "Regional differences in climate and soil have no actual role in agricultural geography",
+            "Specific documented evidence should never actually be checked before making a geographic claim",
+          ],
+          optionsMy: [
+            "General Claim မပြုလုပ်မီ Specific Documented Regional Difference များ (Climate, Soil, Crop Type) ကို စစ်ဆေးခြင်း, ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence-Over-Generalization အလေ့အထ တူတူ ဖြစ်သည်",
+            "Documented Evidence မည်သည်ကိုမျှ မစစ်ဆေးဘဲ ကျယ်ပြန့်, Unverified Claim များ ပြုလုပ်ခြင်းသည် အမြဲ မှန်ကန်သော Approach ဖြစ်သည်",
+            "Climate နှင့် Soil ရှိ Regional Difference များသည် Agricultural Geography တွင် Actual Role မရှိခြင်း",
+            "Geographic Claim တစ်ခု မပြုလုပ်မီ Specific Documented Evidence ကို ဘယ်တော့မှ အမှန်တကယ် မစစ်ဆေးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1, applied here to agricultural geography.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Agricultural Geography ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Agriculture Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Agriculture Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w18-dm-1",
+          termEn: "Subsistence farming",
+          termMy: "Subsistence Farming",
+          matchEn:
+              "Farming that produces food mainly for the farming family's own consumption",
+          matchMy:
+              "Farming Family ကိုယ်တိုင် စားသုံးရန်အတွက် အဓိက အစားအစာ ထုတ်လုပ်သော Farming",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w18-dm-2",
+          termEn: "Commercial farming",
+          termMy: "Commercial Farming",
+          matchEn:
+              "Farming that produces food mainly to sell for profit in a wider market",
+          matchMy:
+              "ပို၍ ကျယ်ပြန့်သော Market တွင် အမြတ်အစွန်း ရောင်းချရန်အတွက် အဓိက အစားအစာ ထုတ်လုပ်သော Farming",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w18-dm-3",
+          termEn: "Crop rotation",
+          termMy: "Crop Rotation",
+          matchEn:
+              "A documented farming method of growing different crops in sequence to protect soil fertility",
+          matchMy:
+              "မြေဆီလွှာ Fertility ကို ကာကွယ်ရန် Crop အမျိုးမျိုးကို အစဉ်လိုက် စိုက်ပျိုးသော Documented Farming Method",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w18-dm-4",
+          termEn: "Land use",
+          termMy: "Land Use",
+          matchEn:
+              "How a specific documented area of land is actually used, such as farming or settlement",
+          matchMy:
+              "Farming (သို့) Settlement ကဲ့သို့ Land ၏ Specific Documented Area တစ်ခု Actual အသုံးပြုပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Subsistence or Commercial?",
+      titleMy: "စီစစ်ကြမည် - Subsistence (သို့) Commercial",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Subsistence Farming", "Commercial Farming"],
+        bucketsMy: ["Subsistence Farming", "Commercial Farming"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w18-sort-1",
+            labelEn:
+                "A family grows just enough rice each season to feed themselves",
+            labelMy:
+                "မိသားစုတစ်စု ၎င်းတို့ ကိုယ်တိုင် ကျွေးမွေးရန်အတွက် ရာသီတိုင်း လုံလောက်စွာ ဆန် စိုက်ပျိုးသည်",
+            correctBucketEn: "Subsistence Farming",
+            correctBucketMy: "Subsistence Farming",
+          ),
+          SortingItem(
+            id: "sec2hum-w18-sort-2",
+            labelEn:
+                "A large farm grows wheat specifically to sell in distant regional markets",
+            labelMy:
+                "ကွင်းကျယ်တစ်ခုက ဝေးလံသော Regional Market များတွင် ရောင်းချရန်အတွက် ဂျုံ တိကျစွာ စိုက်ပျိုးသည်",
+            correctBucketEn: "Commercial Farming",
+            correctBucketMy: "Commercial Farming",
+          ),
+          SortingItem(
+            id: "sec2hum-w18-sort-3",
+            labelEn:
+                "A household keeps a small vegetable garden solely for its own meals",
+            labelMy:
+                "အိမ်ထောင်စုတစ်စုသည် ၎င်းတို့ ကိုယ်တိုင် စားသုံးရန်အတွက်သာ ဟင်းသီးဟင်းရွက် ဥယျာဉ်ငယ်တစ်ခု ထိန်းသိမ်းထားသည်",
+            correctBucketEn: "Subsistence Farming",
+            correctBucketMy: "Subsistence Farming",
+          ),
+          SortingItem(
+            id: "sec2hum-w18-sort-4",
+            labelEn:
+                "A cotton plantation ships its entire harvest to textile mills for profit",
+            labelMy:
+                "ဝါဂွမ်း Plantation တစ်ခုသည် အမြတ်အစွန်းရရန်အတွက် ၎င်း၏ ရိတ်သိမ်းသမျှကို Textile Mill များသို့ ပို့ဆောင်သည်",
+            correctBucketEn: "Commercial Farming",
+            correctBucketMy: "Commercial Farming",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Land Use Survey",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Land Use Survey",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Land Use Survey",
+        titleMy: "Zayar Lin ၏ Land Use Survey",
+        passageEn:
+            "For Week 18's project, Zayar Lin surveyed land use across a documented river valley region, connecting his findings directly back to Week 17's river-landform work. Near the fertile floodplain, he documented mostly commercial farming -- large, organized fields growing crops for regional markets, taking advantage of the fertile deposited soil and reliable water access. Further from the river, on steeper, rockier terrain, he documented mostly subsistence farming -- smaller plots producing just enough food for individual households, since the land supported lower yields.\n\nHis first draft claimed 'farming is the same everywhere in this region,' but his teacher asked him to check that claim against the documented differences he had actually surveyed. Zayar Lin revised his report, replacing the vague generalization with specific documented evidence: soil fertility, water access, and terrain steepness all varied across the region, and farming type varied along with them.\n\nHe closed his report by connecting land use back to settlement patterns: the densest documented settlements clustered near the fertile floodplain where commercial farming thrived, while smaller, more scattered settlements sat on the steeper subsistence-farming land further away. His teacher praised the survey for applying the same specific-evidence-over-generalization habit used since Term 1 to a new geographic topic.",
+        passageMy:
+            "Week 18 ၏ Project အတွက် Documented River Valley Region တစ်ခုတစ်လျှောက် Land Use ကို Zayar Lin Survey ပြုလုပ်ကာ ၎င်း၏ တွေ့ရှိချက်များကို Week 17 ၏ River-Landform အလုပ်နှင့် တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည်။ Fertile Floodplain အနီးတွင် Regional Market များအတွက် Crop များ စိုက်ပျိုးသော ကျယ်ဝန်း, Organized Field များ, Fertile Deposited မြေဆီလွှာနှင့် ယုံကြည်ရသော ရေ ရရှိမှုကို အခွင့်ကောင်းယူကာ Commercial Farming အများစုကို ၎င်း Document ပြုလုပ်ခဲ့သည်။ River မှ ပိုဝေးသော Steeper, ကျောက်ခဲများ ကျယ်ဝန်းသော Terrain တွင် Land က ပို၍ နိမ့်သော Yield များကိုသာ ပံ့ပိုးသောကြောင့် တစ်ဦးချင်း Household များအတွက် လုံလောက်စွာ အစားအစာ ထုတ်လုပ်သော ပိုသေးငယ်သော Plot များ, Subsistence Farming အများစုကို ၎င်း Document ပြုလုပ်ခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် 'ဤ Region တစ်လျှောက် Farming သည် နေရာတိုင်းတွင် တူညီသည်' ဟု Claim ပြုလုပ်ခဲ့သော်လည်း ၎င်း Actual Survey ပြုလုပ်ခဲ့သော Documented Difference များနှင့် ထို Claim ကို စစ်ဆေးရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။ Vague Generalization ကို Specific Documented Evidence ဖြင့် အစားထိုးကာ Zayar Lin ၏ Report ကို ပြန်လည် ရေးသားခဲ့သည် -- မြေဆီလွှာ Fertility, ရေ ရရှိမှုနှင့် Terrain Steepness အားလုံးသည် Region တစ်လျှောက် ကွဲပြားခဲ့ပြီး Farming အမျိုးအစားသည် ၎င်းတို့နှင့်အတူ ကွဲပြားခဲ့သည်။\n\nLand Use ကို Settlement Pattern များနှင့် ပြန်လည် ချိတ်ဆက်ကာ ၎င်း၏ Report ကို ပြီးဆုံးခဲ့သည် -- အထူထပ်ဆုံး Documented Settlement များသည် Commercial Farming ပေါက်ဖွားနေသော Fertile Floodplain အနီးတွင် စုစည်းနေခဲ့ပြီး ပိုသေးငယ်, ပို၍ ပျံ့နှံ့နေသော Settlement များသည် ပိုဝေးသော Steeper Subsistence-Farming Land ပေါ်တွင် ရှိနေခဲ့သည်။ Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence-Over-Generalization အလေ့အထ တူတူကို ဘာသာရပ် အသစ်တစ်ခုပေါ်တွင် အသုံးချသောကြောင့် Survey ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Zayar Lin document near the fertile floodplain?",
+            questionMy:
+                "Fertile Floodplain အနီးတွင် Zayar Lin Document ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Mostly commercial farming, taking advantage of fertile soil and water access",
+              "No documented farming activity of any kind",
+              "Only subsistence farming with no commercial activity at all",
+              "Farming unrelated to soil fertility or water access",
+            ],
+            optionsMy: [
+              "Fertile မြေဆီလွှာနှင့် ရေ ရရှိမှုကို အခွင့်ကောင်းယူသော Commercial Farming အများစု",
+              "Documented Farming Activity မည်သည် အမျိုးအစားမှ",
+              "Commercial Activity လုံးလုံး မပါဘဲ Subsistence Farming သာ",
+              "မြေဆီလွှာ Fertility (သို့) ရေ ရရှိမှုနှင့် မသက်ဆိုင်သော Farming",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's floodplain description."],
+            hintsMy: ["Floodplain ဖော်ပြချက်ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Zayar Lin's teacher ask him to check?",
+            questionMy:
+                "Zayar Lin ၏ ဆရာ ၎င်းအား စစ်ဆေးရန် တောင်းဆိုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "His generalized claim against the documented differences he had actually surveyed",
+              "Nothing at all -- the original claim required no checking",
+              "A topic completely unrelated to his land use survey",
+              "Whether his sketch had any color in it",
+            ],
+            optionsMy: [
+              "Actual Survey ပြုလုပ်ခဲ့သော Documented Difference များနှင့် ၎င်း၏ Generalized Claim",
+              "ဘာမှ -- မူလ Claim တွင် စစ်ဆေးမှု မလိုအပ်ခြင်း",
+              "၎င်း၏ Land Use Survey နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "၎င်း၏ Sketch တွင် အရောင် ပါဝင်မပါဝင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, where did the densest documented settlements cluster?",
+            questionMy:
+                "အထူထပ်ဆုံး Documented Settlement များ စုစည်းနေခဲ့ရာနေရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Near the fertile floodplain where commercial farming thrived",
+              "On the steepest terrain furthest from any river",
+              "Nowhere -- settlements were documented as evenly spread everywhere",
+              "In a location unrelated to land use or farming type",
+            ],
+            optionsMy: [
+              "Commercial Farming ပေါက်ဖွားနေသော Fertile Floodplain အနီးတွင်",
+              "River မှ အဝေးဆုံး Steepest Terrain ပေါ်တွင်",
+              "မည်သည့်နေရာမှ -- Settlement များကို နေရာတိုင်းတွင် တညီတညာတည်း ပျံ့နှံ့နေကြောင်း Document ပြုလုပ်ခဲ့ခြင်း",
+              "Land Use (သို့) Farming Type နှင့် မသက်ဆိုင်သော Location",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's settlement-pattern conclusion.",
+            ],
+            hintsMy: [
+              "Settlement-Pattern Conclusion ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w18-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Agriculture and Land Use Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Agriculture and Land Use မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Subsistence farming produces food mainly for...",
+          questionMy:
+              "Subsistence Farming သည် ...အတွက် အဓိက အစားအစာ ထုတ်လုပ်သည်",
+          optionsEn: [
+            "The farming family's own consumption",
+            "Sale for profit in distant markets only",
+            "No documented purpose of any kind",
+            "Export to regions with no documented need",
+          ],
+          optionsMy: [
+            "Farming Family ကိုယ်တိုင် စားသုံးရန်",
+            "ဝေးလံသော Market များတွင် အမြတ်အစွန်း ရောင်းချရန်သာ",
+            "Documented Purpose မည်သည် အမျိုးအစားမှ",
+            "Documented Need မရှိသော Region များသို့ Export ပြုလုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Fertile floodplains tend to support more intensive agriculture because...",
+          questionMy:
+              "Fertile Floodplain များသည် ...ကြောင့် ပို၍ Intensive Agriculture ကို ပံ့ပိုးလေ့ရှိသည်",
+          optionsEn: [
+            "Fertile soil and reliable water access support higher crop yields",
+            "They have no actual documented agricultural advantage",
+            "Steep, rocky terrain always supports more intensive farming",
+            "Soil fertility has no actual connection to crop yields",
+          ],
+          optionsMy: [
+            "Fertile မြေဆီလွှာနှင့် ယုံကြည်ရသော ရေ ရရှိမှုသည် ပို၍ မြင့်မားသော Crop Yield များကို ပံ့ပိုးသည်",
+            "Actual Documented Agricultural Advantage မရှိခြင်း",
+            "Steep, ကျောက်ခဲများ ကျယ်ဝန်းသော Terrain သည် အမြဲ ပို၍ Intensive Farming ကို ပံ့ပိုးခြင်း",
+            "မြေဆီလွှာ Fertility သည် Crop Yield များနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Before making a broad claim about farming across a region, a geographer should...",
+          questionMy:
+              "Region တစ်ခုတစ်လျှောက် Farming အကြောင်း ကျယ်ပြန့်သော Claim တစ်ခု မပြုလုပ်မီ Geographer တစ်ဦးသည် ...သင့်သည်",
+          optionsEn: [
+            "Check specific documented regional differences first",
+            "Skip checking any documented evidence entirely",
+            "Assume all farming everywhere is identical",
+            "Avoid citing any specific documented evidence at all",
+          ],
+          optionsMy: [
+            "Specific Documented Regional Difference များကို ဦးစွာ စစ်ဆေး",
+            "Documented Evidence မည်သည်ကိုမျှ စစ်ဆေးခြင်း လုံးလုံး ကျော်သွား",
+            "Farming အားလုံးသည် နေရာတိုင်းတွင် Identical ဖြစ်ကြောင်း ယူဆ",
+            "Specific Documented Evidence မည်သည်ကိုမျှ Cite မပြုလုပ်ဘဲ ရှောင်ရှား",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 5, Week 19: "Early Industry and Trade
+// Networks"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek19 = CourseWeekDef(
+  id: "course-sec2-hum-w19",
+  weekNumber: 19,
+  titleEn: "Early Industry and Trade Networks",
+  titleMy: "Early Industry and Trade Networks",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w19-d1",
+      dayNumber: 1,
+      titleEn: "Cottage Industry and Water Power",
+      titleMy: "Cottage Industry နှင့် Water Power",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What was the documented cottage industry system, and how did it organize production before large factories existed?",
+          questionMy:
+              "Documented Cottage Industry System ဆိုသည်မှာ အဘယ်နည်း၊ ကွင်းကျယ် Factory များ မတည်ရှိမီ ၎င်းသည် ထုတ်လုပ်မှုကို မည်သို့ စီစဉ်ခဲ့သနည်း။",
+          optionsEn: [
+            "A documented system where merchants supplied raw materials to individual households, who produced goods (such as spun thread or woven cloth) at home using hand tools, then sold or returned the finished goods to the merchant",
+            "Cottage industry has no actual documented historical existence anywhere",
+            "Cottage industry always required large factory buildings with hundreds of workers",
+            "Cottage industry involved no documented connection between merchants and households at all",
+          ],
+          optionsMy: [
+            "Merchant များသည် Individual Household များထံ Raw Material များ ပေးအပ်ကာ Household များက Hand Tool များ အသုံးပြု၍ အိမ်တွင် Goods (ငင်ထားသော ချည်မျှင် သို့ Woven အထည်ကဲ့သို့) ထုတ်လုပ်ပြီး ပြီးစီးသော Goods ကို Merchant ထံ ရောင်းချ (သို့) ပြန်ပို့သော Documented System",
+            "Cottage Industry တွင် Actual Documented သမိုင်းဆိုင်ရာ Existence နေရာမည်သည်တွင်မျှ မရှိခြင်း",
+            "Cottage Industry သည် Worker ရာနှင့်ချီသော ကွင်းကျယ် Factory Building များ အမြဲ လိုအပ်ခြင်း",
+            "Cottage Industry တွင် Merchant များနှင့် Household များကြား Documented ဆက်နွယ်မှု လုံးလုံး မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of this as production happening inside individual homes, coordinated by a merchant, rather than inside a single large building.",
+          ],
+          hintsMy: [
+            "ဤသည်ကို Building ကြီးတစ်ခုတည်းအတွင်းထက် Merchant တစ်ဦးက Coordinate ပြုလုပ်ကာ Individual Home များအတွင်း ဖြစ်ပေါ်နေသော ထုတ်လုပ်မှုအဖြစ် စဉ်းစားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why were early water-powered mills documented as being built specifically along rivers rather than on flat, dry land away from any water source?",
+          questionMy:
+              "Early Water-Powered Mill များကို ရေ Source မှ ဝေးသော ညီညာ, ခြောက်သွေ့သော Land ပေါ်တွင်မဟုတ်ဘဲ River များတစ်လျှောက် တိကျစွာ တည်ဆောက်ထားကြောင်း အဘယ်ကြောင့် Document ပြုလုပ်ထားသနည်း။",
+          optionsEn: [
+            "Water mills relied on a river's documented flowing current to turn a waterwheel that powered machinery, so their location was directly determined by access to flowing water -- the same river-geography principle from Week 17",
+            "Water mills had no actual documented connection to rivers or flowing water of any kind",
+            "Water mills always operated equally well regardless of their distance from any river",
+            "River location had no actual role in determining where early industry was built",
+          ],
+          optionsMy: [
+            "Water Mill များသည် Machinery ကို Power ပေးသော Waterwheel တစ်ခု လှည့်စေရန် River ၏ Documented စီးဆင်းနေသော Current ကို အားကိုးခဲ့သောကြောင့် ၎င်းတို့၏ Location ကို စီးဆင်းနေသော ရေ ရရှိမှုက တိုက်ရိုက် ဆုံးဖြတ်ခဲ့သည် -- Week 17 မှ River-Geography Principle တူတူ ဖြစ်သည်",
+            "Water Mill များတွင် River (သို့) စီးဆင်းနေသော ရေနှင့် Actual Documented ဆက်နွယ်မှု မည်သည်မှ မရှိခြင်း",
+            "Water Mill များသည် River မည်သည်မှ ၎င်း၏ အကွာအဝေးနှင့် မသက်ဆိုင်ဘဲ အမြဲ တူညီစွာ လည်ပတ်ခြင်း",
+            "River Location သည် Early Industry မည်သည့်နေရာတွင် တည်ဆောက်ခဲ့သည်ကို ဆုံးဖြတ်ရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly connects Week 17's river-flow work to why early industrial sites were located where they were.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Early Industrial Site များ ၎င်းတို့ တည်ရှိသည့်နေရာတွင် အဘယ်ကြောင့် တည်ရှိခဲ့သည်ကို Week 17 ၏ River-Flow အလုပ်နှင့် တိုက်ရိုက် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student writes that 'trade networks connected regions randomly with no documented pattern.' Why does this claim need to be checked against actual documented evidence rather than accepted as written?",
+          questionMy:
+              "Student တစ်ဦးက 'Trade Network များသည် Documented Pattern မရှိဘဲ Region များကို ကျပန်း ချိတ်ဆက်ခဲ့သည်' ဟု ရေးသားသည်။ ဤ Claim ကို ရေးသားထားသည့်အတိုင်း လက်ခံမည့်အစား Actual Documented Evidence နှင့် အဘယ်ကြောင့် စစ်ဆေးရန် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "Documented trade routes actually followed patterns connected to geography (rivers, coastlines, mountain passes) and to what resources or goods each region actually produced, so a specific-evidence check would reveal these documented patterns",
+            "Trade networks had no actual documented pattern of any kind whatsoever",
+            "Claims should never be checked against documented evidence in geographic study",
+            "Geography has no actual connection to where documented trade routes formed",
+          ],
+          optionsMy: [
+            "Documented Trade Route များသည် Geography (River များ, Coastline များ, Mountain Pass များ) နှင့် Region တစ်ခုစီ Actual ထုတ်လုပ်ခဲ့သော Resource (သို့) Goods တို့နှင့် ချိတ်ဆက်ထားသော Pattern များကို Actual လိုက်နာခဲ့ပြီး Specific-Evidence Check တစ်ခုသည် ဤ Documented Pattern များကို ဖော်ထုတ်ပေးမည်",
+            "Trade Network များတွင် Documented Pattern မည်သည် အမျိုးအစားမှ Actual မရှိခြင်း",
+            "Geographic Study တွင် Claim များကို Documented Evidence နှင့် ဘယ်တော့မှ မစစ်ဆေးသင့်ခြင်း",
+            "Geography သည် Documented Trade Route များ တည်ရှိသည့်နေရာနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit from this term's earlier weeks, applied to trade-network claims.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Trade-Network Claim များပေါ်တွင် အသုံးချထားသော ဤ Term ၏ အစောပိုင်း Week များမှ Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Early Industry Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Early Industry Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w19-dm-1",
+          termEn: "Cottage industry",
+          termMy: "Cottage Industry",
+          matchEn:
+              "A documented system of production carried out in individual homes, coordinated by a merchant",
+          matchMy:
+              "Merchant တစ်ဦးက Coordinate ပြုလုပ်ကာ Individual Home များတွင် ဆောင်ရွက်ခဲ့သော Documented ထုတ်လုပ်မှု System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w19-dm-2",
+          termEn: "Water-powered mill",
+          termMy: "Water-Powered Mill",
+          matchEn:
+              "An early industrial building using a river's flowing current to power machinery",
+          matchMy:
+              "Machinery ကို Power ပေးရန် River ၏ စီးဆင်းနေသော Current ကို အသုံးပြုသော Early Industrial Building",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w19-dm-3",
+          termEn: "Guild",
+          termMy: "Guild",
+          matchEn:
+              "A documented association of skilled craftspeople who set standards and trained apprentices",
+          matchMy:
+              "Standard များ သတ်မှတ်ကာ Apprentice များ Training ပေးသော Skilled Craftspeople ၏ Documented Association",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w19-dm-4",
+          termEn: "Trade network",
+          termMy: "Trade Network",
+          matchEn:
+              "A documented system of routes connecting regions based on geography and available goods",
+          matchMy:
+              "Geography နှင့် ရရှိနိုင်သော Goods အပေါ် အခြေခံ၍ Region များကို ချိတ်ဆက်ထားသော Route များ၏ Documented System",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cottage Industry or Guild Craft?",
+      titleMy: "စီစစ်ကြမည် - Cottage Industry (သို့) Guild Craft",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cottage Industry Feature", "Guild System Feature"],
+        bucketsMy: ["Cottage Industry Feature", "Guild System Feature"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w19-sort-1",
+            labelEn:
+                "A household spins thread at home using materials supplied by a merchant",
+            labelMy:
+                "Household တစ်ခုသည် Merchant တစ်ဦး ပေးအပ်သော Material များ အသုံးပြု၍ အိမ်တွင် ချည်မျှင် ငင်သည်",
+            correctBucketEn: "Cottage Industry Feature",
+            correctBucketMy: "Cottage Industry Feature",
+          ),
+          SortingItem(
+            id: "sec2hum-w19-sort-2",
+            labelEn:
+                "A trained association sets quality standards and trains new craftspeople",
+            labelMy:
+                "Training ရရှိထားသော Association တစ်ခုသည် Quality Standard များ သတ်မှတ်ကာ Craftspeople အသစ်များကို Training ပေးသည်",
+            correctBucketEn: "Guild System Feature",
+            correctBucketMy: "Guild System Feature",
+          ),
+          SortingItem(
+            id: "sec2hum-w19-sort-3",
+            labelEn:
+                "Production happens inside an individual family's own home",
+            labelMy:
+                "ထုတ်လုပ်မှုသည် Individual Family တစ်စု ကိုယ်ပိုင်အိမ်အတွင်း ဖြစ်ပေါ်သည်",
+            correctBucketEn: "Cottage Industry Feature",
+            correctBucketMy: "Cottage Industry Feature",
+          ),
+          SortingItem(
+            id: "sec2hum-w19-sort-4",
+            labelEn:
+                "Skilled workers organize into a formal association with set standards",
+            labelMy:
+                "Skilled Worker များသည် သတ်မှတ်ထားသော Standard များဖြင့် Formal Association တစ်ခုအဖြစ် စုစည်းသည်",
+            correctBucketEn: "Guild System Feature",
+            correctBucketMy: "Guild System Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Trade Network Map",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Trade Network Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Trade Network Map",
+        titleMy: "Thiha Aung ၏ Trade Network Map",
+        passageEn:
+            "For Week 19's project, Thiha Aung mapped a documented early-industry trade network, connecting several ideas from across this term. He marked water-powered mills built directly along rivers, applying Week 17's river-geography knowledge to explain why: mills needed a flowing current to turn their waterwheels, so location along a river was not optional but required.\n\nHe then traced the cottage industry system feeding those mills: individual households spun raw wool into thread at home, using materials supplied by a merchant, before the thread was carried to a mill or a guild workshop for finishing. He documented the guild associations that set quality standards for finished cloth and trained new craftspeople, distinguishing this organized, standard-setting system from the more informal household production of cottage industry.\n\nHis first draft claimed the resulting trade routes connected regions 'randomly, with no real pattern,' but his teacher asked him to check that claim against his own map. Rechecking his evidence, Thiha Aung found that routes actually followed rivers, coastlines, and mountain passes, and connected specifically to regions that produced the raw materials or finished goods being traded -- a clear, documented pattern rather than randomness. He revised his conclusion accordingly, and his teacher praised the project for tracing a full documented economic system from raw material through production method to trade route, using the same specific-evidence habit applied all term.",
+        passageMy:
+            "Week 19 ၏ Project အတွက် ဤ Term တစ်လျှောက်မှ Idea များစွာကို ချိတ်ဆက်ကာ Documented Early-Industry Trade Network တစ်ခုကို Thiha Aung Map ရေးဆွဲခဲ့သည်။ River များတစ်လျှောက် တိုက်ရိုက် တည်ဆောက်ထားသော Water-Powered Mill များကို ၎င်း အမှတ်အသားပြုကာ အကြောင်းရင်းကို ရှင်းပြရန် Week 17 ၏ River-Geography Knowledge ကို အသုံးချခဲ့သည် -- Mill များသည် ၎င်းတို့၏ Waterwheel များ လှည့်ရန် စီးဆင်းနေသော Current လိုအပ်သောကြောင့် River တစ်လျှောက် Location သည် Optional မဟုတ်ဘဲ လိုအပ်ချက် ဖြစ်ခဲ့သည်။\n\nထို့နောက် ထို Mill များကို ကျွေးမွေးနေသော Cottage Industry System ကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- Individual Household များသည် ချည်မျှင်ကို Mill (သို့) Guild Workshop သို့ Finishing အတွက် သယ်ဆောင်မီ Merchant တစ်ဦး ပေးအပ်သော Material များကို အသုံးပြု၍ Raw သိုးမွေးကို အိမ်တွင် ငင်ခဲ့ကြသည်။ Finished Cloth အတွက် Quality Standard များ သတ်မှတ်ကာ Craftspeople အသစ်များကို Training ပေးသော Guild Association များကို ၎င်း Document ပြုလုပ်ခဲ့ပြီး ဤ Organized, Standard-Setting System ကို Cottage Industry ၏ ပို၍ Informal Household ထုတ်လုပ်မှုမှ ခွဲခြားခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် ဖြစ်ပေါ်လာသော Trade Route များသည် Region များကို 'ကျပန်း, Real Pattern မရှိဘဲ' ချိတ်ဆက်ခဲ့သည်ဟု Claim ပြုလုပ်ခဲ့သော်လည်း ၎င်းကိုယ်ပိုင် Map နှင့် ထို Claim ကို စစ်ဆေးရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည်။ ၎င်း၏ Evidence ကို ပြန်လည် စစ်ဆေးကာ Route များသည် River များ, Coastline များနှင့် Mountain Pass များကို Actual လိုက်နာခဲ့ပြီး ရောင်းဝယ်နေသော Raw Material (သို့) Finished Goods ထုတ်လုပ်ခဲ့သော Region များနှင့် တိကျစွာ ချိတ်ဆက်ခဲ့ကြောင်း Thiha Aung တွေ့ရှိခဲ့သည် -- ကျပန်းဖြစ်မှုထက် ရှင်းလင်းသော, Documented Pattern တစ်ခု ဖြစ်သည်။ ၎င်းအလိုက် ၎င်း၏ Conclusion ကို ပြန်လည် ပြင်ဆင်ခဲ့ပြီး Term တစ်လျှောက်လုံး အသုံးချခဲ့သော Specific-Evidence အလေ့အထ တူတူကို အသုံးပြု၍ Raw Material မှ ထုတ်လုပ်မှု Method မှတစ်ဆင့် Trade Route အထိ Documented Economic System တစ်ခုလုံးကို လိုက်လံ ဖော်ထုတ်ခဲ့သောကြောင့် Project ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did mills need a location along a river?",
+            questionMy:
+                "Mill များသည် River တစ်လျှောက် Location အဘယ်ကြောင့် လိုအပ်ခဲ့သည်ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They needed a flowing current to turn their waterwheels",
+              "River location had no actual documented connection to mills",
+              "Mills operated equally well regardless of location",
+              "Rivers provided no documented resource of any kind to mills",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ Waterwheel များ လှည့်ရန် စီးဆင်းနေသော Current လိုအပ်ခဲ့ခြင်း",
+              "River Location သည် Mill များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Mill များသည် Location မည်သည်နှင့်မျှ မသက်ဆိုင်ဘဲ တူညီစွာ လည်ပတ်ခြင်း",
+              "River များသည် Mill များထံ Documented Resource မည်သည် အမျိုးအစားမှ မပေးအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated reason."],
+            hintsMy: ["ဖော်ပြထားသော Reason ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did guild associations do?",
+            questionMy:
+                "Guild Association များ ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Set quality standards for finished cloth and trained new craftspeople",
+              "Had no actual documented role in this economic system",
+              "Produced raw wool directly with no craftspeople involved",
+              "Operated with no standards of any documented kind",
+            ],
+            optionsMy: [
+              "Finished Cloth အတွက် Quality Standard များ သတ်မှတ်ကာ Craftspeople အသစ်များကို Training ပေးခြင်း",
+              "ဤ Economic System တွင် Actual Documented Role မရှိခြင်း",
+              "Craftspeople မပါဝင်ဘဲ Raw သိုးမွေးကို တိုက်ရိုက် ထုတ်လုပ်ခြင်း",
+              "Documented Standard မည်သည် အမျိုးအစားမှ မပါဘဲ လည်ပတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of guild associations.",
+            ],
+            hintsMy: [
+              "Guild Association များ၏ ဖော်ပြချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Thiha Aung find when he rechecked his claim about trade routes?",
+            questionMy:
+                "Trade Route များအကြောင်း ၎င်း၏ Claim ကို ပြန်လည်စစ်ဆေးခဲ့သောအခါ Thiha Aung တွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Routes followed rivers, coastlines, and mountain passes -- a documented pattern rather than randomness",
+              "Routes were entirely random with no documented pattern of any kind",
+              "No documented connection existed between routes and geography",
+              "Trade routes had no actual connection to regions producing goods",
+            ],
+            optionsMy: [
+              "Route များသည် River များ, Coastline များနှင့် Mountain Pass များကို လိုက်နာခဲ့သည် -- ကျပန်းဖြစ်မှုထက် Documented Pattern တစ်ခု",
+              "Route များသည် Documented Pattern မည်သည် အမျိုးအစားမှ မပါဘဲ လုံးလုံး ကျပန်း ဖြစ်ခြင်း",
+              "Route များနှင့် Geography ကြား Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Trade Route များသည် Goods ထုတ်လုပ်ခဲ့သော Region များနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w19-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Early Industry Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Early Industry မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Cottage industry was a system where...",
+          questionMy: "Cottage Industry သည် ...စနစ်တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Production happened in individual homes, coordinated by a merchant",
+            "Production only happened in large factory buildings",
+            "No documented coordination of any kind occurred",
+            "Merchants had no actual role in the system",
+          ],
+          optionsMy: [
+            "ထုတ်လုပ်မှုသည် Merchant တစ်ဦးက Coordinate ပြုလုပ်ကာ Individual Home များတွင် ဖြစ်ပေါ်ခြင်း",
+            "ထုတ်လုပ်မှုသည် ကွင်းကျယ် Factory Building များတွင်သာ ဖြစ်ပေါ်ခြင်း",
+            "Documented Coordination မည်သည် အမျိုးအစားမှ မဖြစ်ပေါ်ခြင်း",
+            "System တွင် Merchant များ Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Water-powered mills were built along rivers because they needed...",
+          questionMy:
+              "Water-Powered Mill များသည် ...လိုအပ်ခဲ့သောကြောင့် River များတစ်လျှောက် တည်ဆောက်ခဲ့ကြသည်",
+          optionsEn: [
+            "A flowing current to power their machinery",
+            "No actual documented connection to any water source",
+            "Flat, dry land far from any river",
+            "No documented power source of any kind",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ Machinery ကို Power ပေးရန် စီးဆင်းနေသော Current",
+            "ရေ Source မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "River မည်သည်မှ ဝေးသော ညီညာ, ခြောက်သွေ့သော Land",
+            "Documented Power Source မည်သည် အမျိုးအစားမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Documented trade routes typically followed...",
+          questionMy:
+              "Documented Trade Route များသည် ယေဘုယျ ...ကို လိုက်နာခဲ့ကြသည်",
+          optionsEn: [
+            "Geographic features like rivers, coastlines, and mountain passes",
+            "No documented geographic pattern of any kind",
+            "A completely random path with no connection to geography",
+            "Only flat land far from any water or mountain feature",
+          ],
+          optionsMy: [
+            "River များ, Coastline များနှင့် Mountain Pass များကဲ့သို့ Geographic Feature များ",
+            "Documented Geographic Pattern မည်သည် အမျိုးအစားမှ",
+            "Geography နှင့် ဆက်နွယ်မှု မရှိသော လုံးလုံး ကျပန်း လမ်းကြောင်း",
+            "ရေ (သို့) Mountain Feature မည်သည်မှ ဝေးသော ညီညာသော Land သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 5, Week 20 (Capstone / Boss Week):
+// "River Valley Settlement Study"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek20 = CourseWeekDef(
+  id: "course-sec2-hum-w20",
+  weekNumber: 20,
+  titleEn: "Capstone: River Valley Settlement Study",
+  titleMy: "Capstone - River Valley Settlement Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w20-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Siting a Settlement",
+      titleMy: "Capstone Quiz - Settlement တစ်ခု Siting ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must site a documented settlement along a river valley, explaining a location decision using river geography, agriculture, and early industry together. Why combine all three factors instead of choosing a location using just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် River Geography, Agriculture နှင့် Early Industry တို့ကို အတူတကွ အသုံးပြု၍ Location ဆုံးဖြတ်ချက်ကို ရှင်းပြကာ River Valley တစ်ခုတစ်လျှောက် Documented Settlement တစ်ခုကို Site ပြုလုပ်ရမည်။ တစ်ခုတည်းကိုသာ အသုံးပြု၍ Location ရွေးချယ်မည့်အစား Factor သုံးခုစလုံးကို အဘယ်ကြောင့် ပေါင်းစပ်ရသနည်း။",
+          optionsEn: [
+            "A historically accurate settlement location decision reflects several documented factors working together (water access, fertile land, and industry potential), the same multi-causation principle applied throughout this course",
+            "A single documented factor is always sufficient to explain any settlement location fully",
+            "River geography, agriculture, and early industry have no actual documented connection to settlement location",
+            "Combining multiple documented factors has no actual value in geographic reasoning",
+          ],
+          optionsMy: [
+            "သမိုင်းအရ တိကျသော Settlement Location ဆုံးဖြတ်ချက်တစ်ခုသည် အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာ (ရေ ရရှိမှု, Fertile Land နှင့် Industry Potential) ကို ထင်ဟပ်ပြီး ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Settlement Location မည်သည်ကိုမဆို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "River Geography, Agriculture နှင့် Early Industry တွင် Settlement Location နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Factor များစွာ ပေါင်းစပ်ခြင်းတွင် Geographic Reasoning ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 17 (rivers), Week 18 (agriculture), and Week 19 (early industry) into one multi-factor decision.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 17 (River များ), Week 18 (Agriculture) နှင့် Week 19 (Early Industry) ကို Multi-Factor ဆုံးဖြတ်ချက်တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student proposes siting a settlement on the steep, erosion-dominant upper course of a river instead of the fertile lower-course floodplain, with no documented reasoning given. What should the student check before finalizing this choice?",
+          questionMy:
+              "Student တစ်ဦးက Documented Reasoning မပါဘဲ Fertile Lower-Course Floodplain အစား River ၏ Steep, Erosion-Dominant Upper Course ပေါ်တွင် Settlement တစ်ခု Site ပြုလုပ်ရန် အဆိုပြုသည်။ ဤ Choice ကို Finalize မလုပ်မီ Student ဘာကို စစ်ဆေးသင့်သနည်း။",
+          optionsEn: [
+            "Whether the location's documented characteristics (soil fertility, water access, terrain) actually support the settlement's needs, following the same evidence-check habit used since Week 17",
+            "Nothing -- location choices never actually require any documented reasoning",
+            "The steep upper course always supports settlements better than any floodplain",
+            "Terrain and soil fertility have no actual role in settlement site selection",
+          ],
+          optionsMy: [
+            "Week 17 မှစ၍ အသုံးပြုခဲ့သော Evidence-Check အလေ့အထ တူတူကို လိုက်နာကာ Location ၏ Documented Characteristic များ (Soil Fertility, ရေ ရရှိမှု, Terrain) သည် Settlement ၏ လိုအပ်ချက်များကို Actual ပံ့ပိုးမပံ့ပိုး",
+            "ဘာမှ -- Location Choice များသည် Documented Reasoning မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မလိုအပ်ခြင်း",
+            "Steep Upper Course သည် Floodplain မည်သည်ထက်မဆို Settlement များကို ပို၍ ကောင်းစွာ အမြဲ ပံ့ပိုးခြင်း",
+            "Terrain နှင့် Soil Fertility တွင် Settlement Site ရွေးချယ်ခြင်း၌ Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 17's landform-characteristic-checking habit -- the same discipline applies to evaluating a proposed settlement site.",
+          ],
+          hintsMy: [
+            "Week 17 ၏ Landform-Characteristic-Checking အလေ့အထ ကို သတိရပါ -- Discipline တူတူသည် အဆိုပြုထားသော Settlement Site ကို အကဲဖြတ်ရာတွင် အသုံးချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project cite specific documented details (exact terrain type, exact farming type, exact industry type) rather than describing the settlement location in vague, general terms?",
+          questionMy:
+              "Capstone Project သည် Settlement Location ကို Vague, General Term များဖြင့် ဖော်ပြမည့်အစား Specific Documented Detail များ (Exact Terrain Type, Exact Farming Type, Exact Industry Type) ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented detail is the same precision habit taught since Term 1, and it demonstrates the student actually understands how each factor connects rather than just naming factors generically",
+            "Vague, general descriptions are always more accurate than specific documented detail",
+            "Specific documented detail has no actual value in a geography capstone project",
+            "Precision has no actual connection to demonstrating understanding of geographic factors",
+          ],
+          optionsMy: [
+            "Specific Documented Detail သည် Term 1 မှစ၍ သင်ကြားခဲ့သော Precision အလေ့အထ တူတူ ဖြစ်ပြီး Factor များကို Generically အမည်တပ်ခြင်းထက် Factor တစ်ခုစီ မည်သို့ ချိတ်ဆက်သည်ကို Student Actual နားလည်ကြောင်း သရုပ်ပြသည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Detail ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Detail သည် Geography Capstone Project တွင် Actual Value မရှိခြင်း",
+            "Precision သည် Geographic Factor များ၏ နားလည်မှု သရုပ်ပြခြင်းနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1, applied to the final capstone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နောက်ဆုံး Capstone ပေါ်တွင် အသုံးချထားသော Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 5 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w20-dm-1",
+          termEn: "Floodplain",
+          termMy: "Floodplain",
+          matchEn:
+              "A flat, fertile area next to a river, ideal for commercial agriculture and settlement",
+          matchMy:
+              "Commercial Agriculture နှင့် Settlement အတွက် အကောင်းဆုံးဖြစ်သော River အနီးရှိ ညီညာ, Fertile ဧရိယာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w20-dm-2",
+          termEn: "Commercial farming",
+          termMy: "Commercial Farming",
+          matchEn:
+              "Farming that produces food mainly to sell for profit in a wider market",
+          matchMy:
+              "ပို၍ ကျယ်ပြန့်သော Market တွင် အမြတ်အစွန်း ရောင်းချရန်အတွက် အဓိက အစားအစာ ထုတ်လုပ်သော Farming",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w20-dm-3",
+          termEn: "Water-powered mill",
+          termMy: "Water-Powered Mill",
+          matchEn:
+              "An early industrial building requiring a river's flowing current to power machinery",
+          matchMy:
+              "Machinery ကို Power ပေးရန် River ၏ စီးဆင်းနေသော Current လိုအပ်သော Early Industrial Building",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w20-dm-4",
+          termEn: "Multi-factor site decision",
+          termMy: "Multi-Factor Site Decision",
+          matchEn:
+              "A settlement location choice based on several documented factors working together",
+          matchMy:
+              "အတူတကွ လုပ်ဆောင်သော Documented Factor များစွာ အပေါ်အခြေခံသော Settlement Location Choice",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Settlement Case",
+      titleMy: "စီစစ်ကြမည် - Settlement Case တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Strong Documented Case for Settlement",
+          "Weak Documented Case for Settlement",
+        ],
+        bucketsMy: [
+          "Settlement အတွက် ခိုင်မာသော Documented Case",
+          "Settlement အတွက် အားနည်းသော Documented Case",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w20-sort-1",
+            labelEn:
+                "Fertile floodplain soil, reliable water access, and nearby water-powered mills",
+            labelMy:
+                "Fertile Floodplain မြေဆီလွှာ, ယုံကြည်ရသော ရေ ရရှိမှုနှင့် အနီးရှိ Water-Powered Mill များ",
+            correctBucketEn: "Strong Documented Case for Settlement",
+            correctBucketMy: "Settlement အတွက် ခိုင်မာသော Documented Case",
+          ),
+          SortingItem(
+            id: "sec2hum-w20-sort-2",
+            labelEn:
+                "Steep, rocky terrain far from any river with no documented water access",
+            labelMy:
+                "Documented ရေ ရရှိမှု မရှိသော River မှ ဝေးသော Steep, ကျောက်ခဲများ ကျယ်ဝန်းသော Terrain",
+            correctBucketEn: "Weak Documented Case for Settlement",
+            correctBucketMy: "Settlement အတွက် အားနည်းသော Documented Case",
+          ),
+          SortingItem(
+            id: "sec2hum-w20-sort-3",
+            labelEn:
+                "Access to a trade network connecting to regions producing needed goods",
+            labelMy:
+                "လိုအပ်သော Goods ထုတ်လုပ်နေသော Region များနှင့် ချိတ်ဆက်ထားသော Trade Network ရရှိမှု",
+            correctBucketEn: "Strong Documented Case for Settlement",
+            correctBucketMy: "Settlement အတွက် ခိုင်မာသော Documented Case",
+          ),
+          SortingItem(
+            id: "sec2hum-w20-sort-4",
+            labelEn:
+                "A vague, unspecified location with no documented evidence supporting it",
+            labelMy:
+                "၎င်းကို ပံ့ပိုးသော Documented Evidence မရှိသော Vague, Unspecified Location",
+            correctBucketEn: "Weak Documented Case for Settlement",
+            correctBucketMy: "Settlement အတွက် အားနည်းသော Documented Case",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Settlement Proposal",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ Settlement Proposal",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Settlement Proposal",
+        titleMy: "Ko Zin Ko Ko ၏ Settlement Proposal",
+        passageEn:
+            "For the Term 5 capstone, Ko Zin Ko Ko proposed a settlement site at the boundary between a river's middle and lower course, and had to defend the choice using documented evidence from all three weeks of the term. From Week 17, he cited the location's gentle gradient and nearby floodplain, avoiding the steep, erosion-dominant upper course. From Week 18, he documented the floodplain's fertile soil as ideal for commercial agriculture, capable of feeding both the settlement and a wider regional market. From Week 19, he noted the site's access to flowing water suitable for a future water-powered mill, plus its position along a natural trade route following the river toward the coast.\n\nHis teacher asked why he had not simply chosen the fertile floodplain outright, since Week 18 had shown it supported the most intensive agriculture. Ko Zin Ko Ko explained that a floodplain directly on the lower course carried a documented flood risk, so he had balanced fertile soil access against flood safety by choosing a slightly higher location at the boundary between the middle and lower course -- close enough to benefit from floodplain agriculture and river access, but higher ground reduced flood exposure.\n\nHis teacher praised the proposal for combining three separate weeks of documented evidence into one coherent, specifically-cited decision, rather than naming factors generically, and confirmed this was exactly the kind of multi-factor reasoning that Term 6's industrial-era geography would build on next.",
+        passageMy:
+            "Term 5 Capstone အတွက် River တစ်ခု၏ Middle နှင့် Lower Course ကြား Boundary တွင် Settlement Site တစ်ခုကို Ko Zin Ko Ko အဆိုပြုခဲ့ပြီး Term တစ်ခုလုံး၏ Week သုံးခုစလုံးမှ Documented Evidence ကို အသုံးပြု၍ Choice ကို ကာကွယ်ရမည် ဖြစ်ခဲ့သည်။ Week 17 မှ Steep, Erosion-Dominant Upper Course ကို ရှောင်ကြဉ်ကာ Location ၏ ညင်သာသော Gradient နှင့် အနီးရှိ Floodplain ကို ၎င်း Cite ပြုလုပ်ခဲ့သည်။ Week 18 မှ Settlement နှင့် ပို၍ ကျယ်ပြန့်သော Regional Market နှစ်ခုစလုံးကို ကျွေးမွေးနိုင်သော Commercial Agriculture အတွက် အကောင်းဆုံးဖြစ်သော Floodplain ၏ Fertile Soil ကို ၎င်း Document ပြုလုပ်ခဲ့သည်။ Week 19 မှ Future Water-Powered Mill တစ်ခုအတွက် သင့်လျော်သော စီးဆင်းနေသော ရေ ရရှိမှုနှင့်အတူ Coast ဘက်သို့ River ကို လိုက်နာသော Natural Trade Route တစ်လျှောက် ၎င်း၏ Position ကို ၎င်း မှတ်ချက်ပြုခဲ့သည်။\n\nWeek 18 က Fertile Floodplain သည် Intensive Agriculture အများဆုံးကို ပံ့ပိုးကြောင်း ပြသခဲ့သောကြောင့် Fertile Floodplain ကို တိုက်ရိုက် အဘယ်ကြောင့် ရွေးချယ်မခဲ့သည်ကို ၎င်း၏ ဆရာ မေးခဲ့သည်။ Lower Course ပေါ်ရှိ Floodplain တစ်ခုသည် Documented Flood Risk ရှိသောကြောင့် Middle နှင့် Lower Course ကြား Boundary ရှိ အနည်းငယ် မြင့်သော Location တစ်ခုကို ရွေးချယ်ကာ Fertile Soil ရရှိမှုနှင့် Flood Safety ကို ဟန်ချက်ညီစွာ ချိန်ခြင်ခဲ့ကြောင်း Ko Zin Ko Ko ရှင်းပြခဲ့သည် -- Floodplain Agriculture နှင့် River ရရှိမှုမှ အကျိုးကျေးဇူး ရရှိစေရန် လုံလောက်စွာ နီးကပ်သော်လည်း မြင့်သော မြေမျက်နှာပြင်သည် Flood Exposure ကို လျှော့ချစေခဲ့သည်။\n\nFactor များကို Generically အမည်တပ်မည့်အစား Term တစ်ခုလုံးမှ Documented Evidence Week သုံးခုကို Coherent, Specifically-Cited Decision တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့သောကြောင့် Proposal ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး ဤသည်ကား Term 6 ၏ Industrial-Era Geography ဆက်လက် တည်ဆောက်မည့် Multi-Factor Reasoning အမျိုးအစား အတိအကျ ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Ko Zin Ko Ko cite from Week 17?",
+            questionMy:
+                "Week 17 မှ Ko Zin Ko Ko Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The location's gentle gradient and nearby floodplain, avoiding the steep upper course",
+              "No documented river feature of any kind",
+              "Only the steep, erosion-dominant upper course",
+              "A feature unrelated to river geography entirely",
+            ],
+            optionsMy: [
+              "Steep Upper Course ကို ရှောင်ကြဉ်ကာ Location ၏ ညင်သာသော Gradient နှင့် အနီးရှိ Floodplain",
+              "Documented River Feature မည်သည် အမျိုးအစားမှ",
+              "Steep, Erosion-Dominant Upper Course သာ",
+              "River Geography နှင့် လုံးလုံး မသက်ဆိုင်သော Feature",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's Week 17 citation."],
+            hintsMy: ["Week 17 Citation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Ko Zin Ko Ko not choose the fertile floodplain outright?",
+            questionMy:
+                "Fertile Floodplain ကို Ko Zin Ko Ko တိုက်ရိုက် အဘယ်ကြောင့် ရွေးချယ်မခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A floodplain directly on the lower course carried a documented flood risk",
+              "The floodplain had no documented agricultural advantage at all",
+              "He had no actual documented reason for his decision",
+              "Week 18 showed the floodplain supported no agriculture of any kind",
+            ],
+            optionsMy: [
+              "Lower Course ပေါ်ရှိ Floodplain တစ်ခုသည် Documented Flood Risk ရှိခြင်း",
+              "Floodplain တွင် Documented Agricultural Advantage လုံးလုံး မရှိခြင်း",
+              "၎င်း၏ ဆုံးဖြတ်ချက်အတွက် Actual Documented Reason မရှိခြင်း",
+              "Week 18 က Floodplain သည် Agriculture မည်သည် အမျိုးအစားမှ မပံ့ပိုးကြောင်း ပြသခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise the proposal?",
+            questionMy:
+                "Proposal ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It combined three weeks of documented evidence into one coherent, specifically-cited decision",
+              "It named factors generically with no specific documented citation",
+              "It ignored every documented factor from the entire term",
+              "It had no actual connection to the term's earlier weeks",
+            ],
+            optionsMy: [
+              "Coherent, Specifically-Cited Decision တစ်ခုအဖြစ် Documented Evidence Week သုံးခုကို ပေါင်းစပ်ခဲ့ခြင်း",
+              "Specific Documented Citation မပါဘဲ Factor များကို Generically အမည်တပ်ခဲ့ခြင်း",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခဲ့ခြင်း",
+              "Term ၏ အစောပိုင်း Week များနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated praise -- look for the option describing combined evidence.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပြီး ပေါင်းစပ်ထားသော Evidence ကို ဖော်ပြသော Option ကို ရှာပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Recap: Rivers, Agriculture and Early Industry",
+      titleMy:
+          "Term 5 ပြန်လည်သုံးသပ်ခြင်း - Rivers, Agriculture and Early Industry",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The lower course of a river typically features...",
+          questionMy: "River တစ်ခု၏ Lower Course တွင် ယေဘုယျ ...ပါဝင်သည်",
+          optionsEn: [
+            "A gentle gradient and fertile floodplain",
+            "A steep gradient with no documented deposition",
+            "No documented landform of any kind",
+            "Only erosion with no deposition anywhere",
+          ],
+          optionsMy: [
+            "ညင်သာသော Gradient နှင့် Fertile Floodplain",
+            "Documented Deposition မပါဘဲ Steep Gradient",
+            "Documented Landform မည်သည် အမျိုးအစားမှ",
+            "နေရာမည်သည်တွင်မျှ Deposition မပါဘဲ Erosion သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Commercial farming tends to thrive on fertile floodplains because...",
+          questionMy:
+              "Commercial Farming သည် ...ကြောင့် Fertile Floodplain များတွင် ပေါက်ဖွားလေ့ရှိသည်",
+          optionsEn: [
+            "Fertile soil and reliable water access support higher crop yields",
+            "Floodplains have no actual documented agricultural advantage",
+            "Steep terrain always supports higher yields than floodplains",
+            "Water access has no actual connection to crop yields",
+          ],
+          optionsMy: [
+            "Fertile မြေဆီလွှာနှင့် ယုံကြည်ရသော ရေ ရရှိမှုသည် ပို၍ မြင့်မားသော Crop Yield များကို ပံ့ပိုးသည်",
+            "Floodplain များတွင် Actual Documented Agricultural Advantage မရှိခြင်း",
+            "Steep Terrain သည် Floodplain များထက် ပို၍ မြင့်မားသော Yield များကို အမြဲ ပံ့ပိုးခြင်း",
+            "ရေ ရရှိမှုသည် Crop Yield များနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A well-reasoned settlement site decision combines...",
+          questionMy:
+              "ကောင်းစွာ Reason ဖော်ပြထားသော Settlement Site ဆုံးဖြတ်ချက်သည် ...ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "Multiple documented factors such as river geography, agriculture, and industry",
+            "A single documented factor with no other consideration",
+            "No documented evidence of any kind",
+            "Factors unrelated to geography, agriculture, or industry",
+          ],
+          optionsMy: [
+            "River Geography, Agriculture နှင့် Industry ကဲ့သို့ Documented Factor များစွာ",
+            "အခြား Consideration မပါဘဲ Documented Factor တစ်ခုတည်း",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Geography, Agriculture (သို့) Industry နှင့် မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 5: "Rivers, Agriculture and Early
+// Industry" (Weeks 17-20). A geography-strand term following the
+// established spiral pattern: river landforms (Week 17) ground
+// agricultural land use (Week 18), which together ground early
+// industrial siting and trade networks (Week 19), closing with a
+// multi-factor settlement-siting capstone (Week 20) that combines all
+// three. Sets up Term 6's Industrial Revolution content.
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm5 = CourseTermDef(
+  id: "course-sec2-hum-t5",
+  termNumber: 5,
+  titleEn: "Rivers, Agriculture and Early Industry",
+  titleMy: "Rivers, Agriculture and Early Industry",
+  certificateTitleEn: "Rivers, Agriculture and Early Industry Certificate",
+  certificateTitleMy:
+      "Rivers, Agriculture and Early Industry သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec2HumWeek17, _sec2HumWeek18, _sec2HumWeek19, _sec2HumWeek20],
 );
 // __SEC_HUM_MARKER__
