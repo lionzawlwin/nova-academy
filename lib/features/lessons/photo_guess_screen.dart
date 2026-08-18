@@ -181,56 +181,68 @@ class _PhotoGuessScreenState extends ConsumerState<PhotoGuessScreen> {
         actions: const [LanguageToggleButton()],
       ),
       body: SafeArea(
-        child: _questions.isEmpty
-            ? Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(32),
-                  child: Text(
-                    _t(
-                      context,
-                      'No photo rounds available yet.',
-                      'ဓာတ်ပုံပဟေဠိများ မရှိသေးပါ။',
-                    ),
-                    textAlign: TextAlign.center,
-                    style: theme.textTheme.titleMedium,
-                  ),
-                ),
-              )
-            : _finished
-            ? _PhotoGuessResults(
-                score: _score,
-                total: _questions.length,
-                starsEarned: _starsEarned,
-                onFinish: () => Navigator.of(context).pop(),
-              )
-            : Padding(
-                padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Text(
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 350),
+          transitionBuilder: (child, animation) => FadeTransition(
+            opacity: animation,
+            child: ScaleTransition(
+              scale: Tween(begin: 0.96, end: 1.0).animate(
+                CurvedAnimation(parent: animation, curve: Curves.easeOut),
+              ),
+              child: child,
+            ),
+          ),
+          child: _questions.isEmpty
+              ? Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(32),
+                    child: Text(
                       _t(
                         context,
-                        'Round ${_currentIndex + 1} of ${_questions.length}',
-                        'ပတ် ${_currentIndex + 1} / ${_questions.length}',
+                        'No photo rounds available yet.',
+                        'ဓာတ်ပုံပဟေဠိများ မရှိသေးပါ။',
                       ),
-                      style: theme.textTheme.labelLarge?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
+                      textAlign: TextAlign.center,
+                      style: theme.textTheme.titleMedium,
                     ),
-                    const SizedBox(height: 12),
-                    Expanded(
-                      child: _PhotoGuessQuestionView(
-                        question: _questions[_currentIndex],
-                        selectedIndex: _selectedIndex,
-                        answered: _answered,
-                        onSelect: _selectOption,
-                        onSpeak: _speak,
+                  ),
+                )
+              : _finished
+              ? _PhotoGuessResults(
+                  score: _score,
+                  total: _questions.length,
+                  starsEarned: _starsEarned,
+                  onFinish: () => Navigator.of(context).pop(),
+                )
+              : Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        _t(
+                          context,
+                          'Round ${_currentIndex + 1} of ${_questions.length}',
+                          'ပတ် ${_currentIndex + 1} / ${_questions.length}',
+                        ),
+                        style: theme.textTheme.labelLarge?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
                       ),
-                    ),
-                  ],
+                      const SizedBox(height: 12),
+                      Expanded(
+                        child: _PhotoGuessQuestionView(
+                          question: _questions[_currentIndex],
+                          selectedIndex: _selectedIndex,
+                          answered: _answered,
+                          onSelect: _selectOption,
+                          onSpeak: _speak,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+        ),
       ),
     );
   }

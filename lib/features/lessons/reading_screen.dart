@@ -182,58 +182,70 @@ class _ReadingScreenState extends ConsumerState<ReadingScreen> {
         actions: const [LanguageToggleButton()],
       ),
       body: SafeArea(
-        child: passage == null
-            ? Center(
-                child: Text(
-                  _t(
-                    context,
-                    'No reading content available yet.',
-                    'ဖတ်ရန် အကြောင်းအရာ မရှိသေးပါ။',
-                  ),
-                  style: theme.textTheme.titleMedium,
-                ),
-              )
-            : _finished
-            ? _ReadingResults(
-                score: _score,
-                total: _questions.length,
-                starsEarned: _starsEarned,
-                onFinish: () => Navigator.of(context).pop(),
-              )
-            : !_passageRead
-            ? _PassageView(
-                passage: passage,
-                languageCode: lc,
-                onContinue: () => setState(() => _passageRead = true),
-              )
-            : Padding(
-                padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Text(
-                      _t(
-                        context,
-                        'Question ${_currentIndex + 1} of ${_questions.length}',
-                        'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
-                      ),
-                      style: theme.textTheme.labelLarge?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                    Expanded(
-                      child: _ComprehensionQuestionView(
-                        question: _questions[_currentIndex],
-                        selectedIndex: _selectedIndex,
-                        answered: _answered,
-                        onSelect: _selectOption,
-                        onSpeak: _speak,
-                      ),
-                    ),
-                  ],
-                ),
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 350),
+          transitionBuilder: (child, animation) => FadeTransition(
+            opacity: animation,
+            child: ScaleTransition(
+              scale: Tween(begin: 0.96, end: 1.0).animate(
+                CurvedAnimation(parent: animation, curve: Curves.easeOut),
               ),
+              child: child,
+            ),
+          ),
+          child: passage == null
+              ? Center(
+                  child: Text(
+                    _t(
+                      context,
+                      'No reading content available yet.',
+                      'ဖတ်ရန် အကြောင်းအရာ မရှိသေးပါ။',
+                    ),
+                    style: theme.textTheme.titleMedium,
+                  ),
+                )
+              : _finished
+              ? _ReadingResults(
+                  score: _score,
+                  total: _questions.length,
+                  starsEarned: _starsEarned,
+                  onFinish: () => Navigator.of(context).pop(),
+                )
+              : !_passageRead
+              ? _PassageView(
+                  passage: passage,
+                  languageCode: lc,
+                  onContinue: () => setState(() => _passageRead = true),
+                )
+              : Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        _t(
+                          context,
+                          'Question ${_currentIndex + 1} of ${_questions.length}',
+                          'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
+                        ),
+                        style: theme.textTheme.labelLarge?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      Expanded(
+                        child: _ComprehensionQuestionView(
+                          question: _questions[_currentIndex],
+                          selectedIndex: _selectedIndex,
+                          answered: _answered,
+                          onSelect: _selectOption,
+                          onSpeak: _speak,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+        ),
       ),
     );
   }

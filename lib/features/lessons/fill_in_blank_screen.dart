@@ -261,51 +261,63 @@ class _FillInTheBlankScreenState extends ConsumerState<FillInTheBlankScreen> {
         actions: const [LanguageToggleButton()],
       ),
       body: SafeArea(
-        child: _finished || _questions.isEmpty
-            ? _FillBlankResults(
-                score: _score,
-                total: _questions.length,
-                starsEarned: _starsEarned,
-                onFinish: () => Navigator.of(context).pop(),
-                shareCardKey: _shareCardKey,
-                childAliasName: _resultChild?.aliasName,
-                currentStreakDays: _resultChild?.currentStreakDays ?? 0,
-              )
-            : Padding(
-                padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _SegmentedProgressBar(
-                      total: _questions.length,
-                      current: _currentIndex,
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      _t(
-                        context,
-                        'Question ${_currentIndex + 1} of ${_questions.length}',
-                        'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
-                      ),
-                      style: theme.textTheme.labelLarge?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                    const SizedBox(height: 20),
-                    Expanded(
-                      child: _FillBlankQuestionView(
-                        question: _questions[_currentIndex],
-                        selectedIndex: _selectedIndex,
-                        answered: _answered,
-                        onSelect: _selectOption,
-                        triedWrong: _triedWrong,
-                        hintsRevealed: _hintsRevealed,
-                        onSpeak: _speak,
-                      ),
-                    ),
-                  ],
-                ),
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 350),
+          transitionBuilder: (child, animation) => FadeTransition(
+            opacity: animation,
+            child: ScaleTransition(
+              scale: Tween(begin: 0.96, end: 1.0).animate(
+                CurvedAnimation(parent: animation, curve: Curves.easeOut),
               ),
+              child: child,
+            ),
+          ),
+          child: _finished || _questions.isEmpty
+              ? _FillBlankResults(
+                  score: _score,
+                  total: _questions.length,
+                  starsEarned: _starsEarned,
+                  onFinish: () => Navigator.of(context).pop(),
+                  shareCardKey: _shareCardKey,
+                  childAliasName: _resultChild?.aliasName,
+                  currentStreakDays: _resultChild?.currentStreakDays ?? 0,
+                )
+              : Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      _SegmentedProgressBar(
+                        total: _questions.length,
+                        current: _currentIndex,
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        _t(
+                          context,
+                          'Question ${_currentIndex + 1} of ${_questions.length}',
+                          'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
+                        ),
+                        style: theme.textTheme.labelLarge?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      Expanded(
+                        child: _FillBlankQuestionView(
+                          question: _questions[_currentIndex],
+                          selectedIndex: _selectedIndex,
+                          answered: _answered,
+                          onSelect: _selectOption,
+                          triedWrong: _triedWrong,
+                          hintsRevealed: _hintsRevealed,
+                          onSpeak: _speak,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+        ),
       ),
     );
   }
@@ -392,10 +404,7 @@ class _SegmentedProgressBar extends StatelessWidget {
 /// [_WordChip]'s [CandyBevelSurface]). Mirrors `McqQuizScreen`'s private
 /// `_SpeakerButton` widget of the same shape.
 class _FillBlankSpeakerButton extends StatelessWidget {
-  const _FillBlankSpeakerButton({
-    required this.onTap,
-    required this.iconColor,
-  });
+  const _FillBlankSpeakerButton({required this.onTap, required this.iconColor});
 
   final VoidCallback onTap;
   final Color iconColor;
@@ -514,9 +523,8 @@ class _FillBlankQuestionView extends StatelessWidget {
                 // The blank token reads as a natural pause rather than the
                 // literal "___" -- there's no answer word to fill in yet
                 // (or ever, if this speaker is tapped before answering).
-                onTap: () => onSpeak(
-                  sentence.replaceAll(_blankToken, '...').trim(),
-                ),
+                onTap: () =>
+                    onSpeak(sentence.replaceAll(_blankToken, '...').trim()),
                 iconColor: Colors.white,
               ),
             ],

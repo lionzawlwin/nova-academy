@@ -412,65 +412,77 @@ class _McqQuizScreenState extends ConsumerState<McqQuizScreen> {
         actions: const [LanguageToggleButton()],
       ),
       body: SafeArea(
-        child: _finished || _questions.isEmpty
-            ? _QuizResults(
-                score: _score,
-                total: _questions.length,
-                starsEarned: _starsEarned,
-                onFinish: () => Navigator.of(context).pop(),
-                shareCardKey: _shareCardKey,
-                childAliasName: _resultChild?.aliasName,
-                currentStreakDays: _resultChild?.currentStreakDays ?? 0,
-                totalMillis: _perQuestionMillis.fold(0, (a, b) => a + b),
-                ghostTotalMillis: ghost?.totalMillis,
-                lessonId: widget.args.moduleId,
-                lessonTitle: widget.args.title,
-                speedBonusStars: _speedBonusStars,
-              )
-            : Padding(
-                padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    _SegmentedProgressBar(
-                      total: _questions.length,
-                      current: _currentIndex,
-                    ),
-                    const SizedBox(height: 8),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            _t(
-                              context,
-                              'Question ${_currentIndex + 1} of ${_questions.length}',
-                              'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
-                            ),
-                            style: theme.textTheme.labelLarge?.copyWith(
-                              color: theme.colorScheme.onSurfaceVariant,
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 350),
+          transitionBuilder: (child, animation) => FadeTransition(
+            opacity: animation,
+            child: ScaleTransition(
+              scale: Tween(begin: 0.96, end: 1.0).animate(
+                CurvedAnimation(parent: animation, curve: Curves.easeOut),
+              ),
+              child: child,
+            ),
+          ),
+          child: _finished || _questions.isEmpty
+              ? _QuizResults(
+                  score: _score,
+                  total: _questions.length,
+                  starsEarned: _starsEarned,
+                  onFinish: () => Navigator.of(context).pop(),
+                  shareCardKey: _shareCardKey,
+                  childAliasName: _resultChild?.aliasName,
+                  currentStreakDays: _resultChild?.currentStreakDays ?? 0,
+                  totalMillis: _perQuestionMillis.fold(0, (a, b) => a + b),
+                  ghostTotalMillis: ghost?.totalMillis,
+                  lessonId: widget.args.moduleId,
+                  lessonTitle: widget.args.title,
+                  speedBonusStars: _speedBonusStars,
+                )
+              : Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 12, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      _SegmentedProgressBar(
+                        total: _questions.length,
+                        current: _currentIndex,
+                      ),
+                      const SizedBox(height: 8),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              _t(
+                                context,
+                                'Question ${_currentIndex + 1} of ${_questions.length}',
+                                'မေးခွန်း ${_currentIndex + 1} / ${_questions.length}',
+                              ),
+                              style: theme.textTheme.labelLarge?.copyWith(
+                                color: theme.colorScheme.onSurfaceVariant,
+                              ),
                             ),
                           ),
-                        ),
-                        if (ghostQuestionMillis != null)
-                          _GhostPaceChip(millis: ghostQuestionMillis),
-                      ],
-                    ),
-                    const SizedBox(height: 20),
-                    Expanded(
-                      child: _QuestionView(
-                        question: _questions[_currentIndex],
-                        selectedIndex: _selectedIndex,
-                        answered: _answered,
-                        onSelect: _selectOption,
-                        onSpeak: _speak,
-                        triedWrong: _triedWrong,
-                        hintsRevealed: _hintsRevealed,
-                        speedBonusRemainingMs: _speedBonusRemainingMs,
+                          if (ghostQuestionMillis != null)
+                            _GhostPaceChip(millis: ghostQuestionMillis),
+                        ],
                       ),
-                    ),
-                  ],
+                      const SizedBox(height: 20),
+                      Expanded(
+                        child: _QuestionView(
+                          question: _questions[_currentIndex],
+                          selectedIndex: _selectedIndex,
+                          answered: _answered,
+                          onSelect: _selectOption,
+                          onSpeak: _speak,
+                          triedWrong: _triedWrong,
+                          hintsRevealed: _hintsRevealed,
+                          speedBonusRemainingMs: _speedBonusRemainingMs,
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+        ),
       ),
     );
   }
