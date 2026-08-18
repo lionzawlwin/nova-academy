@@ -129351,11 +129351,17 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec3HumTerm1, _sec3HumTerm2, _sec3HumTerm3, _sec3HumTerm4],
+  terms: [
+    _sec3HumTerm1,
+    _sec3HumTerm2,
+    _sec3HumTerm3,
+    _sec3HumTerm4,
+    _sec3HumTerm5,
+  ],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 2: "Imperialism and the Scramble for
@@ -133693,5 +133699,1439 @@ const CourseTermDef _sec3HumTerm4 = CourseTermDef(
   certificateTitleMy:
       "Decolonization and Independence Movements သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek13, _sec3HumWeek14, _sec3HumWeek15, _sec3HumWeek16],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 5: "Population Geography Foundations"
+// (Weeks 17-20). Deliberately primes IGCSE Humanities' fuller
+// population unit, extending Secondary 2 Term 8's population density
+// work into demographic transition and structure.
+// Term 5, Week 17: "Documented Demographic Transition"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek17 = CourseWeekDef(
+  id: "course-sec3-hum-w17",
+  weekNumber: 17,
+  titleEn: "Documented Demographic Transition",
+  titleMy: "Documented Demographic Transition",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w17-d1",
+      dayNumber: 1,
+      titleEn: "Documented Stages of Population Change",
+      titleMy: "Population ပြောင်းလဲမှု၏ Documented အဆင့်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document that a country's birth rate and death rate typically move through several specific, documented stages over time (a model known as demographic transition), rather than staying fixed or changing randomly. Why cite this specific documented model rather than describing population change only as 'population goes up or down'?",
+          questionMy:
+              "Geographer များသည် Country တစ်ခု၏ Birth Rate နှင့် Death Rate သည် ပုံသေ (သို့) ကျပန်း ပြောင်းလဲမည့်အစား အချိန်ကြာလာသည်နှင့်အမျှ Specific, Documented Stage များစွာ (Demographic Transition ဟု လူသိများသော Model) ကို ဖြတ်သန်းလေ့ရှိကြောင်း Document ပြုလုပ်ထားသည်။ Population Change ကို 'Population တက်ခြင်း (သို့) ကျဆင်းခြင်း' ဟုသာ ဖော်ပြမည့်အစား ဤ Specific Documented Model ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, documented model like demographic transition allows precise analysis of how and why population change happens over time, the same specific-over-vague habit taught throughout this course",
+            "Vague descriptions of population 'going up or down' are always more accurate than specific documented models",
+            "Demographic transition has no actual documented connection to population change of any kind",
+            "Specific documented models have no actual value in studying population geography",
+          ],
+          optionsMy: [
+            "Demographic Transition ကဲ့သို့ Specific, Documented Model တစ်ခုသည် Population Change အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ နှင့် အဘယ်ကြောင့် ဖြစ်ပျက်သည်ကို Precise Analysis ကို ခွင့်ပြုပြီး ဤ Course တစ်လျှောက်လုံး သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်",
+            "Population 'တက်ခြင်း (သို့) ကျဆင်းခြင်း' ၏ Vague ဖော်ပြချက်များသည် Specific Documented Model များထက် အမြဲ ပို၍ တိကျသည်",
+            "Demographic Transition တွင် Population Change မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Model များတွင် Population Geography လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit carried forward from every prior term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does this week's documented demographic transition content connect directly back to Secondary 2's Term 8 documented population density and growth-rate content?",
+          questionMy:
+              "ဤအပတ်၏ Documented Demographic Transition Content သည် Secondary 2 ၏ Term 8 Documented Population Density နှင့် Growth-Rate Content သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Secondary 2's Term 8 documented that density and growth rate are separate, distinct measurements; demographic transition explains the documented stages that specifically drive changes in growth rate over time, extending that earlier documented content",
+            "Demographic transition has no actual documented connection to Secondary 2's population content of any kind",
+            "Secondary 2's Term 8 and this week's content are documented as completely unrelated to each other",
+            "Growth rate and demographic transition are documented as identical concepts with no distinction",
+          ],
+          optionsMy: [
+            "Density နှင့် Growth Rate သည် Separate, Distinct Measurement များဖြစ်ကြောင်း Secondary 2 ၏ Term 8 Document ပြုလုပ်ထားခဲ့ပြီး Demographic Transition သည် ထို ယခင် Documented Content ကို တိုးချဲ့ကာ Growth Rate ၏ ပြောင်းလဲမှုကို အချိန်နှင့်အမျှ တိကျစွာ ဖြစ်ပေါ်စေသော Documented Stage များကို ရှင်းပြသည်",
+            "Demographic Transition တွင် Secondary 2 ၏ Population Content မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Secondary 2 ၏ Term 8 နှင့် ဤအပတ်၏ Content ကို တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Growth Rate နှင့် Demographic Transition ကို Distinction မရှိဘဲ Identical Concept များအဖြစ် Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Secondary 2's Term 8, Week 29 -- growth rate as a distinct measurement from density -- this week explains what drives that growth rate.",
+          ],
+          hintsMy: [
+            "Secondary 2 ၏ Term 8, Week 29 ကို သတိရပါ -- Density မှ Distinct Measurement တစ်ခုအဖြစ် Growth Rate -- ဤအပတ်သည် ထို Growth Rate ကို အဘယ်က ဖြစ်ပေါ်စေသည်ကို ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is this course introducing demographic transition at this level while reserving fuller coverage of population geography for IGCSE, following the same deliberate approach used for pre-war tensions in Term 3?",
+          questionMy:
+              "IGCSE အတွက် Population Geography ၏ ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် Term 3 တွင် Pre-War Tension များအတွက် အသုံးပြုခဲ့သော Deliberate Approach တူတူကို လိုက်နာကာ ဤ Course သည် ဤ Level တွင် Demographic Transition ကို အဘယ်ကြောင့် မိတ်ဆက်ပေးနေသနည်း။",
+          optionsEn: [
+            "This follows the same deliberate spiral curriculum design used throughout this course -- introducing a documented connection at an appropriate depth now, building toward fuller coverage later",
+            "This course should never actually mention any content that will be covered again at IGCSE",
+            "Demographic transition has no actual connection to any later documented study",
+            "This course should fully cover population geography's complete content in total depth at this stage",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Deliberate Spiral Curriculum Design တူတူကို လိုက်နာသည် -- ယခု သင့်လျော်သော Depth တွင် Documented Connection တစ်ခုကို မိတ်ဆက်ပေးကာ နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage ဘက်သို့ တည်ဆောက်ခြင်း",
+            "ဤ Course သည် IGCSE တွင် ထပ်မံ ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+            "Demographic Transition တွင် နောက်ပိုင်း Documented Study မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "ဤ Course သည် ဤအဆင့်တွင် Population Geography ၏ Complete Content ကို Total Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same spiral curriculum principle explicitly stated in Term 3, applied here to population geography.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Population Geography ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 3 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Spiral Curriculum Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Demographic Transition Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Demographic Transition Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w17-dm-1",
+          termEn: "Demographic transition",
+          termMy: "Demographic Transition",
+          matchEn:
+              "A documented model of the specific stages birth and death rates move through over time",
+          matchMy:
+              "Birth နှင့် Death Rate များ အချိန်နှင့်အမျှ ဖြတ်သန်းသော Specific Stage များ၏ Documented Model",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w17-dm-2",
+          termEn: "Birth rate",
+          termMy: "Birth Rate",
+          matchEn:
+              "A documented measurement of how many births occur per population over time",
+          matchMy:
+              "အချိန်ကြာလာသည်နှင့်အမျှ Population အပေါ် Birth မည်မျှ ဖြစ်ပျက်သည်ကို Documented တိုင်းတာမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w17-dm-3",
+          termEn: "Death rate",
+          termMy: "Death Rate",
+          matchEn:
+              "A documented measurement distinct from birth rate, tracked separately in demographic transition",
+          matchMy:
+              "Demographic Transition တွင် သီးခြားစီ Track ပြုလုပ်ထားသော Birth Rate မှ Distinct Documented တိုင်းတာမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w17-dm-4",
+          termEn: "Growth rate driver",
+          termMy: "Growth Rate Driver",
+          matchEn:
+              "Demographic transition's documented explanation of what drives Secondary 2's growth-rate measurement",
+          matchMy:
+              "Secondary 2 ၏ Growth-Rate Measurement ကို အဘယ်က ဖြစ်ပေါ်စေသည်ကို Demographic Transition ၏ Documented ရှင်းပြချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Birth Rate Factor or Death Rate Factor?",
+      titleMy: "စီစစ်ကြမည် - Birth Rate Factor (သို့) Death Rate Factor",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Related to Birth Rate", "Related to Death Rate"],
+        bucketsMy: [
+          "Birth Rate နှင့် သက်ဆိုင်သည်",
+          "Death Rate နှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w17-sort-1",
+            labelEn:
+                "Documented number of children born per population over a year",
+            labelMy:
+                "တစ်နှစ်အတွင်း Population အပေါ် ကလေးမွေးဖွားမှု၏ Documented Number",
+            correctBucketEn: "Related to Birth Rate",
+            correctBucketMy: "Birth Rate နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w17-sort-2",
+            labelEn: "Documented improvements in healthcare reducing mortality",
+            labelMy:
+                "Mortality လျှော့ချသော Healthcare တွင် Documented တိုးတက်မှုများ",
+            correctBucketEn: "Related to Death Rate",
+            correctBucketMy: "Death Rate နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w17-sort-3",
+            labelEn: "Documented family size decisions affecting new births",
+            labelMy:
+                "ကလေးမွေးဖွားမှု အသစ်များကို ထိခိုက်စေသော Documented Family Size ဆုံးဖြတ်ချက်များ",
+            correctBucketEn: "Related to Birth Rate",
+            correctBucketMy: "Birth Rate နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w17-sort-4",
+            labelEn:
+                "Documented sanitation improvements reducing disease-related mortality",
+            labelMy:
+                "Disease-Related Mortality လျှော့ချသော Documented Sanitation တိုးတက်မှုများ",
+            correctBucketEn: "Related to Death Rate",
+            correctBucketMy: "Death Rate နှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Htet's Transition Data Project",
+      titleMy: "စာဖတ်ခြင်း - Ko Htet ၏ Transition Data Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Htet's Transition Data Project",
+        titleMy: "Ko Htet ၏ Transition Data Project",
+        passageEn:
+            "For Week 17's project, Ko Htet's first draft described population change only as 'population goes up or down,' with no specific documented model cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented model was he actually referring to?\n\nKo Htet revised his project to cite demographic transition specifically: the documented model of the specific stages birth rate and death rate move through over time. He connected this directly back to Secondary 2's Term 8, Week 29, where growth rate had been documented as a separate, distinct measurement from density -- noting that demographic transition explains precisely what drives the documented changes in that growth rate over time, extending rather than repeating that earlier content.\n\nHis teacher noted that this course was introducing demographic transition at an appropriate depth now, the same spiral curriculum design used for Term 3's pre-war tensions, while reserving fuller population geography coverage for IGCSE. Ko Htet's project was praised for combining specific documented citation with a clear connection to Secondary 2's earlier documented content, exactly the discipline the class would need going into Week 18's look at population pyramids.",
+        passageMy:
+            "Week 17 ၏ Project အတွက် Ko Htet ၏ ပထမဆုံး Draft တွင် Specific Documented Model မည်သည်ကိုမျှ Cite မပြုဘဲ Population Change ကို 'Population တက်ခြင်း (သို့) ကျဆင်းခြင်း' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Model မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nDemographic Transition ကို တိကျစွာ Cite ပြုလုပ်ရန် ၎င်း၏ Project ကို Ko Htet ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Birth Rate နှင့် Death Rate အချိန်နှင့်အမျှ ဖြတ်သန်းသော Specific Stage များ၏ Documented Model။ Growth Rate ကို Density မှ Separate, Distinct Measurement တစ်ခုအဖြစ် Document ပြုလုပ်ထားခဲ့သော Secondary 2 ၏ Term 8, Week 29 သို့ ဤသည်ကို ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် -- Demographic Transition သည် ထို Growth Rate ၏ Documented ပြောင်းလဲမှုများကို အချိန်နှင့်အမျှ တိကျစွာ အဘယ်က ဖြစ်ပေါ်စေသည်ကို ရှင်းပြကြောင်း, ထို ယခင် Content ကို ထပ်ခါထပ်ခါ မဟုတ်ဘဲ တိုးချဲ့ကြောင်း မှတ်ချက်ပြုခဲ့သည်။\n\nIGCSE အတွက် ပို၍ ပြည့်စုံသော Population Geography Coverage ကို ချန်ထားစဉ် ဤ Course သည် ယခု သင့်လျော်သော Depth တွင် Demographic Transition ကို မိတ်ဆက်ပေးနေကြောင်း, Term 3 ၏ Pre-War Tension များအတွက် အသုံးပြုခဲ့သော Spiral Curriculum Design တူတူ ဖြစ်ကြောင်း ၎င်း၏ ဆရာ မှတ်ချက်ပြုခဲ့သည်။ Secondary 2 ၏ ယခင် Documented Content သို့ ရှင်းလင်းသော Connection နှင့် Specific Documented Citation ကို ပေါင်းစပ်ခဲ့ခြင်း -- Class Week 18 ၏ Population Pyramid များကို ကြည့်ရှုရန် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခြင်းတို့ကြောင့် Ko Htet ၏ Project ကို ချီးမွမ်းခံရခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific documented model did Ko Htet cite?",
+            questionMy:
+                "Ko Htet Cite ပြုလုပ်ခဲ့သော Specific Documented Model ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Demographic transition -- the stages birth and death rates move through",
+              "No specific documented model of any kind",
+              "A model entirely unrelated to population change",
+              "A vague, unspecified phrase with no documented model named",
+            ],
+            optionsMy: [
+              "Demographic Transition -- Birth နှင့် Death Rate များ ဖြတ်သန်းသော Stage များ",
+              "Specific Documented Model မည်သည် အမျိုးအစားမှ",
+              "Population Change နှင့် လုံးလုံး မသက်ဆိုင်သော Model",
+              "Documented Model အမည်တပ်ခြင်း မပါသော Vague, Unspecified Phrase",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited model."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Model ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did demographic transition explain about Secondary 2's growth-rate measurement?",
+            questionMy:
+                "Secondary 2 ၏ Growth-Rate Measurement အကြောင်း Demographic Transition ရှင်းပြခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It explains precisely what drives the documented changes in growth rate over time",
+              "It has no actual documented connection to growth rate of any kind",
+              "It contradicts everything documented about growth rate in Secondary 2",
+              "It replaces growth rate as an entirely separate, unconnected measurement",
+            ],
+            optionsMy: [
+              "Growth Rate ၏ Documented ပြောင်းလဲမှုများကို အချိန်နှင့်အမျှ အဘယ်က ဖြစ်ပေါ်စေသည်ကို တိကျစွာ ရှင်းပြခြင်း",
+              "Growth Rate မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Secondary 2 တွင် Growth Rate အကြောင်း Document ပြုလုပ်ထားသမျှကို ဆန့်ကျင်ခြင်း",
+              "Growth Rate ကို လုံးလုံး Separate, Unconnected Measurement တစ်ခုအဖြစ် အစားထိုးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းပြချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is this course reserving for fuller study at IGCSE?",
+            questionMy:
+                "IGCSE တွင် ပို၍ ပြည့်စုံသော Study အတွက် ဤ Course ချန်ထားနေသည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fuller population geography coverage",
+              "No documented topic of any kind",
+              "Content entirely unrelated to this term's subject",
+              "Demographic transition, which this course never actually mentions",
+            ],
+            optionsMy: [
+              "ပို၍ ပြည့်စုံသော Population Geography Coverage",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "ဤ Term ၏ Subject နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ဘယ်တော့မှ Actual မဖော်ပြသော Demographic Transition",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reservation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reservation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w17-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Demographic Transition Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Demographic Transition မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Demographic transition is documented as a model of...",
+          questionMy:
+              "Demographic Transition ကို ...Model တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Specific documented stages birth and death rates move through over time",
+            "A single, unspecified change with no documented stages",
+            "No documented process of any kind",
+            "A model unrelated to birth or death rate of any kind",
+          ],
+          optionsMy: [
+            "Birth နှင့် Death Rate များ အချိန်နှင့်အမျှ ဖြတ်သန်းသော Specific Documented Stage များ",
+            "Documented Stage မပါသော Unspecified ပြောင်းလဲမှု တစ်ခုတည်း",
+            "Documented Process မည်သည် အမျိုးအစားမှ",
+            "Birth (သို့) Death Rate မည်သည်နှင့်မျှ မသက်ဆိုင်သော Model",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Demographic transition connects back to Secondary 2's Term 8 by explaining...",
+          questionMy:
+              "Demographic Transition သည် ...ရှင်းပြခြင်းဖြင့် Secondary 2 ၏ Term 8 သို့ ပြန်လည် ချိတ်ဆက်သည်",
+          optionsEn: [
+            "What drives changes in the documented growth-rate measurement",
+            "No documented connection to growth rate of any kind",
+            "A concept unrelated to Secondary 2's population content",
+            "A measurement that replaces growth rate entirely",
+          ],
+          optionsMy: [
+            "Documented Growth-Rate Measurement ၏ ပြောင်းလဲမှုများကို အဘယ်က ဖြစ်ပေါ်စေသည်",
+            "Growth Rate မည်သည်နှင့်မျှ Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Secondary 2 ၏ Population Content နှင့် မသက်ဆိုင်သော Concept",
+            "Growth Rate ကို လုံးလုံး အစားထိုးသော Measurement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This course introduces demographic transition now while reserving fuller coverage because it...",
+          questionMy:
+              "ဤ Course သည် ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် Demographic Transition ကို ယခု မိတ်ဆက်ပေးခြင်း အကြောင်းရင်းမှာ ...ကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "Follows a deliberate spiral curriculum design",
+            "Fully covers population geography's complete content here",
+            "Never actually mentions any content covered later at IGCSE",
+            "Has no actual documented connection to any future topic",
+          ],
+          optionsMy: [
+            "Deliberate Spiral Curriculum Design ကို လိုက်နာခြင်း",
+            "ဤနေရာတွင် Population Geography ၏ Complete Content ကို အပြည့်အစုံ ဖုံးအုပ်ခြင်း",
+            "IGCSE တွင် နောက်ပိုင်း ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မဖော်ပြခြင်း",
+            "Topic အနာဂတ် မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 5, Week 18: "Population Pyramids and
+// Documented Age Structure"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek18 = CourseWeekDef(
+  id: "course-sec3-hum-w18",
+  weekNumber: 18,
+  titleEn: "Population Pyramids and Documented Age Structure",
+  titleMy: "Population Pyramid များနှင့် Documented Age Structure",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w18-d1",
+      dayNumber: 1,
+      titleEn: "Reading Documented Population Pyramids",
+      titleMy: "Documented Population Pyramid များ ဖတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document population pyramids as a specific visual tool showing a country's documented age and gender structure at a given time, with a wide base indicating a young, growing population and a narrower base indicating an aging population. Why cite this specific documented tool rather than describing age structure only in vague terms?",
+          questionMy:
+              "Geographer များသည် Population Pyramid များကို ပေးထားသော အချိန်တွင် Country တစ်ခု၏ Documented Age နှင့် Gender Structure ကို ပြသသော Specific Visual Tool တစ်ခုအဖြစ် Document ပြုလုပ်ထားပြီး ကျယ်ဝန်းသော Base သည် Young, Growing Population ကို ညွှန်ပြပြီး ပိုကျဉ်းသော Base သည် Aging Population ကို ညွှန်ပြသည်။ Age Structure ကို Vague Term များဖြင့်သာ ဖော်ပြမည့်အစား ဤ Specific Documented Tool ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing this specific documented visual tool allows precise, evidence-based reading of a country's age structure, the same specific-evidence habit used throughout this course",
+            "Vague descriptions of age structure are always more accurate than specific documented visual tools",
+            "Population pyramids have no actual documented connection to age structure of any kind",
+            "Specific documented visual tools have no actual value in studying population geography",
+          ],
+          optionsMy: [
+            "ဤ Specific Documented Visual Tool ကို Cite ပြုလုပ်ခြင်းသည် Country တစ်ခု၏ Age Structure ၏ Precise, Evidence-Based Reading ကို ခွင့်ပြုပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Age Structure ၏ Vague ဖော်ပြချက်များသည် Specific Documented Visual Tool များထက် အမြဲ ပို၍ တိကျသည်",
+            "Population Pyramid များတွင် Age Structure မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Visual Tool များတွင် Population Geography လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit taught since Term 1, applied to reading a specific documented visual tool.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Specific Documented Visual Tool တစ်ခု ဖတ်ရန် အသုံးချထားသော Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does a population pyramid's documented shape connect directly to Week 17's demographic transition stages?",
+          questionMy:
+              "Population Pyramid ၏ Documented Shape သည် Week 17 ၏ Demographic Transition Stage များနှင့် တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "A population's documented demographic transition stage (high or falling birth/death rates) directly shapes its documented pyramid, showing this week's tool as a visual representation of last week's documented model rather than a disconnected new topic",
+            "Population pyramids have no actual documented connection to demographic transition of any kind",
+            "Week 17 and Week 18 are documented as completely unrelated to each other",
+            "A population's documented pyramid shape has no actual relationship to its birth or death rates",
+          ],
+          optionsMy: [
+            "Population တစ်ခု၏ Documented Demographic Transition Stage (High (သို့) Falling Birth/Death Rate) သည် ၎င်း၏ Documented Pyramid ကို တိုက်ရိုက် ပုံဖော်ပြီး ဤအပတ်၏ Tool ကို Disconnected Topic အသစ်တစ်ခုမဟုတ်ဘဲ ယခင်အပတ်၏ Documented Model ၏ Visual Representation တစ်ခုအဖြစ် ပြသသည်",
+            "Population Pyramid များတွင် Demographic Transition မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Week 17 နှင့် Week 18 တွင် တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Population တစ်ခု၏ Documented Pyramid Shape တွင် ၎င်း၏ Birth (သို့) Death Rate နှင့် Actual Relationship မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 17's demographic transition stages to Week 18's visual representation of those same documented trends.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 17 ၏ Demographic Transition Stage များကို Trend Documented တူတူ ၏ Week 18 ၏ Visual Representation သို့ ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a balanced account note that a young, wide-base population pyramid and an aging, narrow-base population pyramid each present distinct documented opportunities and challenges, rather than judging one shape as simply better than the other?",
+          questionMy:
+              "Balanced Account တစ်ခုသည် Shape တစ်ခုကို အခြားတစ်ခုထက် ရိုးရိုး ပိုကောင်းသည်ဟု ဆုံးဖြတ်မည့်အစား Young, Wide-Base Population Pyramid နှင့် Aging, Narrow-Base Population Pyramid တစ်ခုစီသည် Distinct Documented Opportunity များနှင့် Challenge များ ရှိသည်ဟု အဘယ်ကြောင့် မှတ်ချက်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same balanced-account principle used throughout this course -- an accurate account represents documented opportunities and challenges for different population structures fairly, rather than a simple, one-sided judgment",
+            "A young, wide-base population pyramid should always be judged as simply better than any other structure",
+            "An aging, narrow-base population pyramid should always be judged as simply better than any other structure",
+            "Balance has no actual role in accurately representing different population age structures",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle တူတူကို လိုက်နာသည် -- တိကျသော Account တစ်ခုသည် Simple, One-Sided Judgment တစ်ခုမဟုတ်ဘဲ Population Structure ကွဲပြားများအတွက် Documented Opportunity များနှင့် Challenge များကို တရားမျှတစွာ ကိုယ်စားပြုသည်",
+            "Young, Wide-Base Population Pyramid တစ်ခုကို Structure အခြားမည်သည်ထက် ရိုးရိုး ပိုကောင်းသည်ဟု အမြဲ ဆုံးဖြတ်သင့်ခြင်း",
+            "Aging, Narrow-Base Population Pyramid တစ်ခုကို Structure အခြားမည်သည်ထက် ရိုးရိုး ပိုကောင်းသည်ဟု အမြဲ ဆုံးဖြတ်သင့်ခြင်း",
+            "Balance သည် Population Age Structure ကွဲပြားများကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline used throughout this course, applied to comparing different population structures.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Population Structure ကွဲပြားများကို နှိုင်းယှဉ်ရန် အသုံးချထားသော ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Population Pyramid Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Population Pyramid Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w18-dm-1",
+          termEn: "Population pyramid",
+          termMy: "Population Pyramid",
+          matchEn:
+              "A documented visual tool showing a country's age and gender structure",
+          matchMy:
+              "Country တစ်ခု၏ Age နှင့် Gender Structure ကို ပြသသော Documented Visual Tool",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w18-dm-2",
+          termEn: "Wide-base pyramid",
+          termMy: "Wide-Base Pyramid",
+          matchEn: "A documented shape indicating a young, growing population",
+          matchMy: "Young, Growing Population ကို ညွှန်ပြသော Documented Shape",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w18-dm-3",
+          termEn: "Narrow-base pyramid",
+          termMy: "Narrow-Base Pyramid",
+          matchEn: "A documented shape indicating an aging population",
+          matchMy: "Aging Population ကို ညွှန်ပြသော Documented Shape",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w18-dm-4",
+          termEn: "Balanced structure comparison",
+          termMy: "Balanced Structure Comparison",
+          matchEn:
+              "Representing distinct documented opportunities and challenges for each pyramid shape fairly",
+          matchMy:
+              "Pyramid Shape တစ်ခုစီအတွက် Distinct Documented Opportunity များနှင့် Challenge များကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Young Population or Aging Population Feature?",
+      titleMy: "စီစစ်ကြမည် - Young Population (သို့) Aging Population Feature",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Young Population Feature", "Aging Population Feature"],
+        bucketsMy: ["Young Population Feature", "Aging Population Feature"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w18-sort-1",
+            labelEn: "A documented pyramid with a wide base of young children",
+            labelMy:
+                "Young Children ၏ ကျယ်ဝန်းသော Base ဖြင့် Documented Pyramid",
+            correctBucketEn: "Young Population Feature",
+            correctBucketMy: "Young Population Feature",
+          ),
+          SortingItem(
+            id: "sec3hum-w18-sort-2",
+            labelEn: "A documented growing share of elderly residents",
+            labelMy: "Elderly Resident များ၏ Documented ကြီးထွားနေသော Share",
+            correctBucketEn: "Aging Population Feature",
+            correctBucketMy: "Aging Population Feature",
+          ),
+          SortingItem(
+            id: "sec3hum-w18-sort-3",
+            labelEn: "Documented high demand for schools and youth services",
+            labelMy:
+                "ကျောင်းများနှင့် Youth Service များအတွက် Documented မြင့်မားသော Demand",
+            correctBucketEn: "Young Population Feature",
+            correctBucketMy: "Young Population Feature",
+          ),
+          SortingItem(
+            id: "sec3hum-w18-sort-4",
+            labelEn:
+                "Documented narrowing base with fewer young people entering the workforce",
+            labelMy:
+                "Workforce ထဲ ဝင်ရောက်နေသော Young People နည်းပါးလာသည်နှင့်အတူ Documented ကျဉ်းလာသော Base",
+            correctBucketEn: "Aging Population Feature",
+            correctBucketMy: "Aging Population Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Zin's Pyramid Comparison",
+      titleMy: "စာဖတ်ခြင်း - Kyaw Zin ၏ Pyramid Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Zin's Pyramid Comparison",
+        titleMy: "Kyaw Zin ၏ Pyramid Comparison",
+        passageEn:
+            "For Week 18's project, Kyaw Zin compared a documented young, wide-base population pyramid with a documented aging, narrow-base pyramid. He connected each shape directly back to Week 17's demographic transition, noting that a population's documented stage in that model -- higher birth rates producing a young structure, or falling birth rates alongside longer life expectancy producing an aging structure -- directly shaped the documented pyramid rather than the two topics being unconnected.\n\nHis first draft judged the young, wide-base pyramid as simply 'better' because it meant more future workers. His teacher reminded him of the balanced-account discipline used throughout this course -- had he checked documented challenges facing young populations (such as high demand for schools and youth services) alongside documented challenges facing aging populations (such as a narrowing base of workers)?\n\nKyaw Zin revised his comparison to represent both population structures fairly, citing specific documented opportunities and challenges for each rather than declaring one simply superior. His teacher praised the revision for combining specific documented citation, a clear connection to Week 17's demographic transition, and balanced representation of both structures -- exactly the discipline Week 19 would build on when examining documented population policy.",
+        passageMy:
+            "Week 18 ၏ Project အတွက် Documented Young, Wide-Base Population Pyramid တစ်ခုနှင့် Documented Aging, Narrow-Base Pyramid တစ်ခုကို Kyaw Zin နှိုင်းယှဉ်ခဲ့သည်။ Shape တစ်ခုစီကို Week 17 ၏ Demographic Transition သို့ ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့ပြီး ထို Model ရှိ Population တစ်ခု၏ Documented Stage -- Young Structure ထုတ်လုပ်သော Higher Birth Rate များ, (သို့) Aging Structure ထုတ်လုပ်သော Longer Life Expectancy နှင့်အတူ ကျဆင်းနေသော Birth Rate များ -- သည် Topic နှစ်ခု Unconnected ဖြစ်နေမည့်အစား Documented Pyramid ကို တိုက်ရိုက် ပုံဖော်ခဲ့ကြောင်း မှတ်ချက်ပြုခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Future Worker များစွာ ဆိုလိုသောကြောင့် Young, Wide-Base Pyramid ကို ရိုးရိုး 'ပိုကောင်း' သည်ဟု ဆုံးဖြတ်ခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Discipline ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- Aging Population များ ရင်ဆိုင်ခဲ့ရသော Documented Challenge များ (Worker များ၏ ကျဉ်းလာသော Base ကဲ့သို့) နှင့်အတူ Young Population များ ရင်ဆိုင်ခဲ့ရသော Documented Challenge များ (ကျောင်းများနှင့် Youth Service များအတွက် မြင့်မားသော Demand ကဲ့သို့) ကို ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nတစ်ခုကို ရိုးရိုး Superior ဟု ကြေညာမည့်အစား Population Structure နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် Specific Documented Opportunity များနှင့် Challenge များကို Cite ပြုလုပ်ကာ ၎င်း၏ Comparison ကို Kyaw Zin ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Specific Documented Citation, Week 17 ၏ Demographic Transition သို့ ရှင်းလင်းသော Connection နှင့် Structure နှစ်ခုစလုံး၏ Balanced Representation ကို ပေါင်းစပ်ခဲ့သောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Documented Population Policy ကို စစ်ဆေးသောအခါ Week 19 တည်ဆောက်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Kyaw Zin connect each pyramid shape to?",
+            questionMy:
+                "Pyramid Shape တစ်ခုစီကို Kyaw Zin ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Week 17's demographic transition stages",
+              "No documented content of any kind",
+              "Content entirely unrelated to Week 17",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Week 17 ၏ Demographic Transition Stage များ",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Week 17 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Kyaw Zin's first draft judge the young, wide-base pyramid as?",
+            questionMy:
+                "Young, Wide-Base Pyramid ကို Kyaw Zin ၏ ပထမဆုံး Draft ဆုံးဖြတ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Simply 'better' because it meant more future workers",
+              "Having no actual documented advantage of any kind",
+              "Identical to the aging, narrow-base structure",
+              "Unrelated to any documented demographic transition stage",
+            ],
+            optionsMy: [
+              "Future Worker များစွာ ဆိုလိုသောကြောင့် ရိုးရိုး 'ပိုကောင်း'",
+              "Actual Documented Advantage မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+              "Aging, Narrow-Base Structure နှင့် Identical ဖြစ်ခြင်း",
+              "Documented Demographic Transition Stage မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's stated first-draft judgment.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော ပထမဆုံး Draft Judgment ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 19 examine?",
+            questionMy: "Week 19 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented population policy",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to population structures",
+              "Content unrelated to any documented policy",
+            ],
+            optionsMy: [
+              "Documented Population Policy",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Population Structure များနှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Policy မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 19.",
+            ],
+            hintsMy: [
+              "Week 19 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w18-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Population Pyramids Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Population Pyramids မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A wide-base population pyramid is documented as indicating...",
+          questionMy:
+              "Wide-Base Population Pyramid တစ်ခုကို ...ညွှန်ပြကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "A young, growing population",
+            "An aging population with no young people",
+            "No documented population feature of any kind",
+            "A structure unrelated to birth or death rates",
+          ],
+          optionsMy: [
+            "Young, Growing Population",
+            "Young People မပါသော Aging Population",
+            "Documented Population Feature မည်သည် အမျိုးအစားမှ",
+            "Birth (သို့) Death Rate နှင့် မသက်ဆိုင်သော Structure",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A population pyramid's shape is documented as connecting to...",
+          questionMy:
+              "Population Pyramid ၏ Shape ကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Week 17's demographic transition stages",
+            "No documented earlier content of any kind",
+            "Content entirely unrelated to birth or death rates",
+            "A topic this course never actually covered before",
+          ],
+          optionsMy: [
+            "Week 17 ၏ Demographic Transition Stage များ",
+            "Documented ယခင် Content မည်သည် အမျိုးအစားမှ",
+            "Birth (သို့) Death Rate နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced comparison of population structures represents...",
+          questionMy:
+              "Population Structure များ၏ Balanced Comparison သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Distinct documented opportunities and challenges for each structure",
+            "Only one structure as simply superior to the other",
+            "No documented dimension of any kind",
+            "Structures unrelated to any documented opportunity or challenge",
+          ],
+          optionsMy: [
+            "Structure တစ်ခုစီအတွက် Distinct Documented Opportunity များနှင့် Challenge များ",
+            "Structure တစ်ခုတည်းကိုသာ အခြားတစ်ခုထက် ရိုးရိုး Superior အဖြစ်",
+            "Documented Dimension မည်သည် အမျိုးအစားမှ",
+            "Documented Opportunity (သို့) Challenge မည်သည်နှင့်မျှ မသက်ဆိုင်သော Structure များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 5, Week 19: "Balanced Account of
+// Population Policy"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek19 = CourseWeekDef(
+  id: "course-sec3-hum-w19",
+  weekNumber: 19,
+  titleEn: "Balanced Account of Population Policy",
+  titleMy: "Population Policy ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w19-d1",
+      dayNumber: 1,
+      titleEn: "Documented Policy Goals and Documented Controversy",
+      titleMy: "Documented Policy Goal များနှင့် Documented Controversy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians and geographers document that some governments have implemented specific documented population policies (aimed at increasing or decreasing birth rates) with both documented intended goals and documented controversial consequences. Why must a balanced account represent both dimensions?",
+          questionMy:
+              "Historian များနှင့် Geographer များသည် Government အချို့သည် Documented Intended Goal များနှင့် Documented Controversial Consequence များ နှစ်ခုစလုံးနှင့်အတူ (Birth Rate များကို တိုးစေရန် သို့ လျှော့စေရန် ရည်ရွယ်ထားသော) Specific Documented Population Policy များကို Implement ပြုလုပ်ခဲ့ကြောင်း Document ပြုလုပ်ထားသည်။ Balanced Account တစ်ခုသည် Dimension နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used throughout this course -- an accurate account represents every major documented dimension, including both intended goals and documented controversial consequences, not only the convenient one",
+            "Only documented intended goals should ever be represented in any account of population policy",
+            "Only documented controversial consequences should ever be represented, with no mention of any intended goal",
+            "Balance has no actual role in accurately representing documented population policy",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Intended Goal များနှင့် Documented Controversial Consequence များ နှစ်ခုစလုံး အပါအဝင် Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Population Policy ၏ Account မည်သည်တွင်မဆို Documented Intended Goal များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Intended Goal မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Controversial Consequence များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Documented Population Policy ကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline used since Secondary 2's Week 11, applied to population policy.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Population Policy ပေါ်တွင် အသုံးချထားသော Secondary 2 ၏ Week 11 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students studying documented population policy cite specific documented policies with named countries and documented outcomes, rather than describing 'governments controlling population' only in vague terms?",
+          questionMy:
+              "Documented Population Policy လေ့လာသော Student များသည် 'Government များ Population ထိန်းချုပ်ခြင်း' ကို Vague Term များဖြင့်သာ ဖော်ပြမည့်အစား Named Country များနှင့် Documented Outcome များနှင့်အတူ Specific Documented Policy များကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented policies with named countries and outcomes shows precisely how these policies actually worked, the same specific-evidence habit used throughout this course",
+            "Vague descriptions of 'governments controlling population' are always more accurate than specific documented policies",
+            "Specific documented policies have no actual value in studying population geography",
+            "Population policy should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Named Country များနှင့် Documented Outcome များနှင့်အတူ Specific Documented Policy များ Cite ပြုလုပ်ခြင်းသည် ဤ Policy များ Actual မည်သို့ အလုပ်လုပ်ခဲ့သည်ကို တိကျစွာ ပြသပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "'Government များ Population ထိန်းချုပ်ခြင်း' ၏ Vague ဖော်ပြချက်များသည် Specific Documented Policy များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Policy များတွင် Population Geography လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Population Policy ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does this week's documented population policy content connect directly back to Term 4's balanced-legacy discipline applied to decolonization?",
+          questionMy:
+              "ဤအပတ်၏ Documented Population Policy Content သည် Decolonization ပေါ်တွင် အသုံးချထားသော Term 4 ၏ Balanced-Legacy Discipline သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Both apply the same balanced-account discipline -- representing documented achievement/goals alongside documented challenge/controversy fairly, rather than a one-sided account, showing this course's consistent evidence standard across different topics",
+            "Population policy has no actual documented connection to Term 4's balanced-legacy work",
+            "Term 4 and Term 5 are documented as completely unrelated to each other",
+            "Balanced accounts should only ever be applied to decolonization, never to population policy",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံးသည် One-Sided Account တစ်ခုမဟုတ်ဘဲ Documented Achievement/Goal များနှင့်အတူ Documented Challenge/Controversy ကို တရားမျှတစွာ ကိုယ်စားပြုသော Balanced-Account Discipline တူတူကို အသုံးချကာ Topic ကွဲပြားများတစ်လျှောက် ဤ Course ၏ Consistent Evidence Standard ကို ပြသသည်",
+            "Population Policy တွင် Term 4 ၏ Balanced-Legacy အလုပ်နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Term 4 နှင့် Term 5 တွင် တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Balanced Account များကို Decolonization ကိုသာ ဘယ်တော့မှ အသုံးချပြီး Population Policy ကို ဘယ်တော့မှ အသုံးမချသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Term 4's Week 15, applied to a new documented topic in a new term.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term အသစ်တစ်ခုရှိ Documented Topic အသစ်တစ်ခုပေါ်တွင် အသုံးချထားသော Term 4 ၏ Week 15 မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Population Policy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Population Policy Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w19-dm-1",
+          termEn: "Population policy",
+          termMy: "Population Policy",
+          matchEn:
+              "A documented government policy aimed at increasing or decreasing birth rates",
+          matchMy:
+              "Birth Rate များကို တိုးစေရန် (သို့) လျှော့စေရန် ရည်ရွယ်ထားသော Documented Government Policy",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w19-dm-2",
+          termEn: "Documented intended goal",
+          termMy: "Documented Intended Goal",
+          matchEn:
+              "The specific, stated purpose a population policy was designed to achieve",
+          matchMy:
+              "Population Policy တစ်ခု ရရှိရန် Design ပြုလုပ်ထားသော Specific, Stated Purpose",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w19-dm-3",
+          termEn: "Documented controversy",
+          termMy: "Documented Controversy",
+          matchEn:
+              "A documented negative or contested consequence of a population policy",
+          matchMy:
+              "Population Policy တစ်ခု၏ Documented Negative (သို့) Contested Consequence",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w19-dm-4",
+          termEn: "Specific documented policy",
+          termMy: "Specific Documented Policy",
+          matchEn:
+              "A named policy with a specific country and documented outcome, not a vague generalization",
+          matchMy:
+              "Vague Generalization တစ်ခုမဟုတ်ဘဲ Specific Country နှင့် Documented Outcome ပါဝင်သော Named Policy",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Goal or Documented Controversy?",
+      titleMy: "စီစစ်ကြမည် - Documented Goal (သို့) Documented Controversy",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Policy Goal", "Documented Controversy"],
+        bucketsMy: ["Documented Policy Goal", "Documented Controversy"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w19-sort-1",
+            labelEn:
+                "Slowing documented population growth to reduce resource strain",
+            labelMy:
+                "Resource Strain လျှော့ချရန် Documented Population Growth ကို နှေးကွေးစေခြင်း",
+            correctBucketEn: "Documented Policy Goal",
+            correctBucketMy: "Documented Policy Goal",
+          ),
+          SortingItem(
+            id: "sec3hum-w19-sort-2",
+            labelEn:
+                "Documented restrictions on personal family decisions causing public debate",
+            labelMy:
+                "Public Debate ဖြစ်စေသော Personal Family ဆုံးဖြတ်ချက်များအပေါ် Documented ကန့်သတ်ချက်များ",
+            correctBucketEn: "Documented Controversy",
+            correctBucketMy: "Documented Controversy",
+          ),
+          SortingItem(
+            id: "sec3hum-w19-sort-3",
+            labelEn:
+                "Encouraging higher documented birth rates to support an aging population",
+            labelMy:
+                "Aging Population ကို ပံ့ပိုးရန် ပို၍ မြင့်မားသော Documented Birth Rate များကို အားပေးခြင်း",
+            correctBucketEn: "Documented Policy Goal",
+            correctBucketMy: "Documented Policy Goal",
+          ),
+          SortingItem(
+            id: "sec3hum-w19-sort-4",
+            labelEn:
+                "Documented unintended consequences that sparked significant public criticism",
+            labelMy:
+                "သိသာထင်ရှားသော Public Criticism ကို လှုံ့ဆော်ပေးခဲ့သော Documented Unintended Consequence များ",
+            correctBucketEn: "Documented Controversy",
+            correctBucketMy: "Documented Controversy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sandar's Policy Balance Report",
+      titleMy: "စာဖတ်ခြင်း - Sandar ၏ Policy Balance Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sandar's Policy Balance Report",
+        titleMy: "Sandar ၏ Policy Balance Report",
+        passageEn:
+            "For Week 19's assignment, Sandar's first draft described population policy only as 'governments controlling population,' with no specific documented policy, country, or outcome cited. Her teacher asked her to apply the specific-evidence habit used throughout this course -- what specific, documented policy was she actually referring to?\n\nSandar revised her report to cite a specific documented population policy, naming the documented intended goal it was designed to achieve alongside the documented controversy it generated. She was careful to represent both dimensions fairly rather than describing the policy only in celebratory terms or only in critical terms, applying the same balanced-account discipline used since Secondary 2's Week 11 and reinforced in Term 4's Week 15 decolonization work.\n\nHer teacher praised the revision for combining specific documented citation with genuine balance, noting that this same discipline -- applied to colonial impact in Secondary 2, decolonization's legacy in Term 4, and now population policy in Term 5 -- showed how consistently this course's evidence standards carried across very different documented topics. The teacher noted this balanced approach would be essential for Week 20's capstone case study.",
+        passageMy:
+            "Week 19 ၏ Assignment အတွက် Sandar ၏ ပထမဆုံး Draft တွင် Specific Documented Policy, Country (သို့) Outcome မည်သည်ကိုမျှ Cite မပြုဘဲ Population Policy ကို 'Government များ Population ထိန်းချုပ်ခြင်း' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Policy မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nSpecific Documented Population Policy တစ်ခုကို Cite ပြုလုပ်ရန် ၎င်း၏ Report ကို Sandar ပြန်လည် ပြင်ဆင်ခဲ့ပြီး ၎င်း Achieve ရရှိရန် Design ပြုလုပ်ထားသော Documented Intended Goal ကို ၎င်း ဖန်တီးပေးခဲ့သော Documented Controversy နှင့်အတူ အမည်တပ်ခဲ့သည်။ Policy ကို Celebratory Term များဖြင့်သာ (သို့) Critical Term များဖြင့်သာ ဖော်ပြမည့်အစား Dimension နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် ၎င်း သတိထားခဲ့ပြီး Secondary 2 ၏ Week 11 မှစ၍ အသုံးပြုခဲ့ကာ Term 4 ၏ Week 15 Decolonization အလုပ်တွင် ထပ်မံ အားဖြည့်ခဲ့သော Balanced-Account Discipline တူတူကို အသုံးချခဲ့သည်။\n\nSpecific Documented Citation ကို Genuine Balance နှင့် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Secondary 2 ရှိ Colonial Impact, Term 4 ရှိ Decolonization ၏ Legacy နှင့် ယခု Term 5 ရှိ Population Policy ပေါ်တွင် အသုံးချထားသော ဤ Discipline တူတူသည် ဤ Course ၏ Evidence Standard များ ကွဲပြားစွာ Documented Topic များတစ်လျှောက် မည်မျှ တသမတ်တည်း ဆက်လက်ရှိနေသည်ကို ပြသကြောင်း မှတ်ချက်ပြုခဲ့သည်။ ဤ Balanced Approach သည် Week 20 ၏ Capstone Case Study အတွက် Essential ဖြစ်လိမ့်မည်ဟု ဆရာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Sandar's first draft?",
+            questionMy:
+                "Sandar ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A specific documented policy, country, or outcome",
+              "Any mention of population policy at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Specific Documented Policy, Country (သို့) Outcome",
+              "Population Policy ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two dimensions did Sandar's revised report represent fairly?",
+            questionMy:
+                "Sandar ၏ Revised Report တရားမျှတစွာ ကိုယ်စားပြုခဲ့သော Dimension နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The documented intended goal and the documented controversy",
+              "No documented dimension of any kind",
+              "Only the documented intended goal, with no controversy mentioned",
+              "Only the documented controversy, with no goal mentioned",
+            ],
+            optionsMy: [
+              "Documented Intended Goal နှင့် Documented Controversy",
+              "Documented Dimension မည်သည် အမျိုးအစားမှ",
+              "Controversy ကို ဖော်ပြခြင်းမရှိဘဲ Documented Intended Goal သာ",
+              "Goal ကို ဖော်ပြခြင်းမရှိဘဲ Documented Controversy သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated dimensions."],
+            hintsMy: [
+              "ဖော်ပြထားသော Dimension များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the teacher note this balanced discipline showed?",
+            questionMy:
+                "ဤ Balanced Discipline ပြသခဲ့သည့်အရာအဖြစ် ဆရာ မှတ်ချက်ပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "How consistently this course's evidence standards carried across very different topics",
+              "That balanced accounts only ever apply to one single documented topic",
+              "That this discipline has no actual connection to earlier terms",
+              "That evidence standards change completely between different terms",
+            ],
+            optionsMy: [
+              "ဤ Course ၏ Evidence Standard များ ကွဲပြားစွာ Topic များတစ်လျှောက် မည်မျှ တသမတ်တည်း ဆက်လက်ရှိနေသည်",
+              "Balanced Account များသည် Documented Topic တစ်ခုတည်းကိုသာ ဘယ်တော့မှ အသုံးချကြောင်း",
+              "ဤ Discipline တွင် ယခင် Term များနှင့် Actual ဆက်နွယ်မှု မရှိကြောင်း",
+              "Evidence Standard များသည် Term ကွဲပြားများကြား လုံးလုံး ပြောင်းလဲကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated note."],
+            hintsMy: ["ဖော်ပြထားသော Note ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w19-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Population Policy Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Population Policy မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A balanced account of population policy represents...",
+          questionMy:
+              "Population Policy ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented intended goals and documented controversy",
+            "Only documented intended goals with no controversy mentioned",
+            "Only documented controversy with no goal mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Intended Goal များနှင့် Documented Controversy နှစ်ခုစလုံး",
+            "Controversy ကို ဖော်ပြခြင်းမရှိဘဲ Documented Intended Goal များသာ",
+            "Goal ကို ဖော်ပြခြင်းမရှိဘဲ Documented Controversy သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Population policy should be described using...",
+          questionMy: "Population Policy ကို ...အသုံးပြု၍ ဖော်ပြသင့်သည်",
+          optionsEn: [
+            "Specific documented policies with named countries and outcomes",
+            "Only vague descriptions with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific documented country",
+          ],
+          optionsMy: [
+            "Named Country များနှင့် Outcome များနှင့်အတူ Specific Documented Policy များ",
+            "Specific Documented Evidence မပါဘဲ Vague ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific Documented Country မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The balanced-account discipline applied to population policy is documented as...",
+          questionMy:
+              "Population Policy ပေါ် အသုံးချထားသော Balanced-Account Discipline ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "The same discipline used consistently across this course's different topics",
+            "A discipline unique to population policy with no earlier connection",
+            "Unrelated to any balanced-account principle used elsewhere",
+            "A one-time exception to this course's usual standards",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Topic ကွဲပြားများတစ်လျှောက် တသမတ်တည်း အသုံးချထားသော Discipline တူတူ",
+            "ယခင် ဆက်နွယ်မှု မပါဘဲ Population Policy တွင်သာ Unique ဖြစ်သော Discipline",
+            "အခြားနေရာတွင် အသုံးပြုသော Balanced-Account Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "ဤ Course ၏ ပုံမှန် Standard များ၏ တစ်ကြိမ်တည်း Exception",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 5, Week 20 (Capstone / Boss Week):
+// "Population Geography Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek20 = CourseWeekDef(
+  id: "course-sec3-hum-w20",
+  weekNumber: 20,
+  titleEn: "Capstone: Population Geography Case Study",
+  titleMy: "Capstone - Population Geography Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w20-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 5 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 5 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must choose one documented country and combine its demographic transition stage (Week 17), its documented population pyramid shape (Week 18), and a balanced account of any documented population policy (Week 19). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Documented Country တစ်ခု ရွေးချယ်ကာ ၎င်း၏ Demographic Transition Stage (Week 17), ၎င်း၏ Documented Population Pyramid Shape (Week 18) နှင့် Documented Population Policy တစ်ခု၏ Balanced Account (Week 19) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding a country's demographic stage, its resulting age structure, and any balanced policy response together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain a country's population geography fully",
+            "Demographic transition, pyramid shape, and policy have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် Country တစ်ခု၏ Demographic Stage, ၎င်း၏ ရလဒ်ဖြစ်ထွန်းသော Age Structure နှင့် Balanced Policy Response မည်သည်ကိုမဆို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Country တစ်ခု၏ Population Geography ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Demographic Transition, Pyramid Shape နှင့် Policy တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 17 (transition), Week 18 (pyramids), and Week 19 (policy) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 17 (Transition), Week 18 (Pyramid) နှင့် Week 19 (Policy) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft judges their chosen country's population structure as simply 'good' or 'bad' with no balanced discussion of documented opportunities and challenges, and cites no specific documented policy. Following this term's established standards, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Documented Opportunity များနှင့် Challenge များ၏ Balanced Discussion မရှိဘဲ ၎င်း ရွေးချယ်ထားသော Country ၏ Population Structure ကို ရိုးရိုး 'ကောင်း' (သို့) 'ဆိုး' ဟု ဆုံးဖြတ်ကာ Specific Documented Policy မည်သည်ကိုမျှ Cite မပြုပါ။ ဤ Term ၏ တည်ထောင်ထားသော Standard များအတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to represent balanced opportunities and challenges (Week 18) and cite a specific documented policy with balanced goals and controversy (Week 19)",
+            "Nothing -- a simple 'good' or 'bad' judgment with no specific policy is the required approach for this term",
+            "Remove all documented evidence about the chosen country from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Balanced Opportunity များနှင့် Challenge များကို ကိုယ်စားပြုကာ (Week 18) Balanced Goal များနှင့် Controversy ပါဝင်သော Specific Documented Policy တစ်ခုကို Cite ပြုလုပ်ရန် (Week 19) Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Specific Policy မပါဘဲ Simple 'ကောင်း' (သို့) 'ဆိုး' Judgment တစ်ခုသည် ဤ Term အတွက် လိုအပ်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော Country အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines the balanced-comparison standard from Week 18 and the balanced-policy standard from Week 19, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 18 မှ Balanced-Comparison Standard နှင့် Week 19 မှ Balanced-Policy Standard ကို ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project cite the specific documented country chosen and its specific demographic data rather than describing population geography in vague, general terms?",
+          questionMy:
+              "Capstone Project သည် Population Geography ကို Vague, General Term များဖြင့် ဖော်ပြမည့်အစား ရွေးချယ်ထားသော Specific Documented Country နှင့် ၎င်း၏ Specific Demographic Data ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific documented citation demonstrates genuine understanding of a real country's population geography rather than generic description, the same precision habit taught since Term 1 and applied at every capstone",
+            "Vague, general descriptions are always more accurate than specific documented citation",
+            "Specific documented citation has no actual value in a population geography capstone project",
+            "Precision has no actual connection to demonstrating understanding of a documented country's population data",
+          ],
+          optionsMy: [
+            "Specific Documented Citation သည် Generic Description ထက် Real Country တစ်ခု၏ Population Geography ၏ Genuine နားလည်မှု ကို သရုပ်ပြပြီး Term 1 မှစ၍ သင်ကြားခဲ့ကာ Capstone တိုင်းတွင် အသုံးချထားသော Precision အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Citation ထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Citation သည် Population Geography Capstone Project တွင် Actual Value မရှိခြင်း",
+            "Precision သည် Documented Country တစ်ခု၏ Population Data ၏ နားလည်မှု သရုပ်ပြခြင်းနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1, applied to the final capstone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နောက်ဆုံး Capstone ပေါ်တွင် အသုံးချထားသော Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 5 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w20-dm-1",
+          termEn: "Demographic transition stage",
+          termMy: "Demographic Transition Stage",
+          matchEn:
+              "A country's documented position in the specific stages of birth/death rate change",
+          matchMy:
+              "Birth/Death Rate ပြောင်းလဲမှု၏ Specific Stage များတွင် Country တစ်ခု၏ Documented Position",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w20-dm-2",
+          termEn: "Population pyramid",
+          termMy: "Population Pyramid",
+          matchEn:
+              "The documented visual shape resulting from a country's demographic transition stage",
+          matchMy:
+              "Country တစ်ခု၏ Demographic Transition Stage မှ ရလဒ်ဖြစ်ထွန်းသော Documented Visual Shape",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w20-dm-3",
+          termEn: "Balanced policy account",
+          termMy: "Balanced Policy Account",
+          matchEn:
+              "Representing both documented intended goals and documented controversy fairly",
+          matchMy:
+              "Documented Intended Goal များနှင့် Documented Controversy နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w20-dm-4",
+          termEn: "Multi-factor country profile",
+          termMy: "Multi-Factor Country Profile",
+          matchEn:
+              "A profile combining transition stage, pyramid shape, and balanced policy for one country",
+          matchMy:
+              "Country တစ်ခုအတွက် Transition Stage, Pyramid Shape နှင့် Balanced Policy ပေါင်းစပ်ထားသော Profile",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w20-sort-1",
+            labelEn:
+                "The chosen country's documented demographic transition stage",
+            labelMy:
+                "ရွေးချယ်ထားသော Country ၏ Documented Demographic Transition Stage",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w20-sort-2",
+            labelEn:
+                "A balanced comparison representing documented opportunities and challenges",
+            labelMy:
+                "Documented Opportunity များနှင့် Challenge များကို ကိုယ်စားပြုသော Balanced Comparison",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w20-sort-3",
+            labelEn:
+                "A specific documented population policy with balanced goals and controversy",
+            labelMy:
+                "Balanced Goal များနှင့် Controversy ပါဝင်သော Specific Documented Population Policy",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w20-sort-4",
+            labelEn:
+                "A simple 'good' or 'bad' judgment with no balanced discussion",
+            labelMy:
+                "Balanced Discussion မပါဘဲ Simple 'ကောင်း' (သို့) 'ဆိုး' Judgment",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Capstone Country Profile",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ Capstone Country Profile",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Capstone Country Profile",
+        titleMy: "Htet Wai Yan ၏ Capstone Country Profile",
+        passageEn:
+            "For the Term 5 capstone, Htet Wai Yan chose one specific documented country as his case study, combining three documented elements from across the term. From Week 17, he cited his chosen country's documented demographic transition stage, explaining precisely how its birth and death rates had changed over time rather than describing 'population going up or down' vaguely.\n\nFrom Week 18, he connected that documented stage directly to his country's documented population pyramid shape, and was careful to represent both documented opportunities and documented challenges of that specific shape fairly, rather than simply judging it as 'good' or 'bad.' From Week 19, he cited a specific documented population policy his chosen country had implemented, naming both its documented intended goal and the documented controversy it generated, applying the same balanced-account discipline used since Secondary 2's Week 11 and reinforced throughout this term.\n\nHis teacher praised the case study for combining specific documented citation, a traced connection between demographic transition and pyramid shape, and a genuinely balanced policy account into one connected profile -- exactly the standard built across every capstone since Secondary 1, and a strong foundation as the class moved into Term 6's migration and urban growth content.",
+        passageMy:
+            "Term 5 Capstone အတွက် Term တစ်ခုလုံးမှ Documented Element သုံးခုကို ပေါင်းစပ်ကာ Specific Documented Country တစ်ခုကို ၎င်း၏ Case Study အဖြစ် Htet Wai Yan ရွေးချယ်ခဲ့သည်။ Week 17 မှ ၎င်း ရွေးချယ်ထားသော Country ၏ Documented Demographic Transition Stage ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး 'Population တက်ခြင်း (သို့) ကျဆင်းခြင်း' ကို Vague စွာ ဖော်ပြမည့်အစား ၎င်း၏ Birth နှင့် Death Rate များ အချိန်နှင့်အမျှ မည်သို့ ပြောင်းလဲခဲ့သည်ကို တိကျစွာ ရှင်းပြခဲ့သည်။\n\nWeek 18 မှ ထို Documented Stage ကို ၎င်း၏ Country ၏ Documented Population Pyramid Shape သို့ ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့ပြီး ၎င်းကို 'ကောင်း' (သို့) 'ဆိုး' ဟု ရိုးရိုး ဆုံးဖြတ်မည့်အစား ထို Specific Shape ၏ Documented Opportunity များနှင့် Documented Challenge များ နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုရန် ၎င်း သတိထားခဲ့သည်။ Week 19 မှ ၎င်း ရွေးချယ်ထားသော Country Implement ပြုလုပ်ခဲ့သော Specific Documented Population Policy ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး Secondary 2 ၏ Week 11 မှစ၍ အသုံးပြုခဲ့ကာ ဤ Term တစ်လျှောက် ထပ်မံ အားဖြည့်ခဲ့သော Balanced-Account Discipline တူတူကို အသုံးချကာ ၎င်း၏ Documented Intended Goal နှင့် ၎င်း ဖန်တီးပေးခဲ့သော Documented Controversy နှစ်ခုစလုံးကို အမည်တပ်ခဲ့သည်။\n\nSpecific Documented Citation, Demographic Transition နှင့် Pyramid Shape ကြား Traced Connection နှင့် Genuinely Balanced Policy Account ကို Connected Profile တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းနှင့် Class Term 6 ၏ Migration and Urban Growth Content ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Htet Wai Yan cite from Week 17?",
+            questionMy:
+                "Week 17 မှ Htet Wai Yan Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "His chosen country's documented demographic transition stage",
+              "No documented content of any kind",
+              "Content entirely unrelated to demographic transition",
+              "A vague, unspecified phrase with no documented data named",
+            ],
+            optionsMy: [
+              "၎င်း ရွေးချယ်ထားသော Country ၏ Documented Demographic Transition Stage",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Demographic Transition နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "Documented Data အမည်တပ်ခြင်း မပါသော Vague, Unspecified Phrase",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's Week 17 citation."],
+            hintsMy: ["Week 17 Citation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Htet Wai Yan represent his country's pyramid shape?",
+            questionMy:
+                "၎င်း၏ Country ၏ Pyramid Shape ကို Htet Wai Yan မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Representing both documented opportunities and challenges fairly",
+              "By judging it simply as 'good' or 'bad'",
+              "By ignoring the pyramid shape entirely",
+              "As unrelated to Week 17's demographic transition content",
+            ],
+            optionsMy: [
+              "Documented Opportunity များနှင့် Challenge များ နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+              "ရိုးရိုး 'ကောင်း' (သို့) 'ဆိုး' ဟု ဆုံးဖြတ်ခြင်းဖြင့်",
+              "Pyramid Shape ကို လုံးလုံး လျစ်လျူရှုခြင်းဖြင့်",
+              "Week 17 ၏ Demographic Transition Content နှင့် မသက်ဆိုင်ကြောင်းအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated representation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Representation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Htet Wai Yan's case study?",
+            questionMy:
+                "Htet Wai Yan ၏ Case Study ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For combining specific citation, a traced connection, and a balanced policy account into one profile",
+              "For describing population geography only in vague, general terms",
+              "For ignoring every documented factor from the entire term",
+              "For making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Specific Citation, Traced Connection နှင့် Balanced Policy Account ကို Profile တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်းအတွက်",
+              "Population Geography ကို Vague, General Term များဖြင့်သာ ဖော်ပြခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Recap: Population Geography Foundations",
+      titleMy: "Term 5 ပြန်လည်သုံးသပ်ခြင်း - Population Geography Foundations",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Demographic transition is documented as explaining...",
+          questionMy:
+              "Demographic Transition ကို ...ရှင်းပြကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "The specific documented stages birth and death rates move through",
+            "No documented process of any kind",
+            "A single, unspecified change with no documented stages",
+            "Content unrelated to birth or death rates of any kind",
+          ],
+          optionsMy: [
+            "Birth နှင့် Death Rate များ ဖြတ်သန်းသော Specific Documented Stage များ",
+            "Documented Process မည်သည် အမျိုးအစားမှ",
+            "Documented Stage မပါသော Unspecified ပြောင်းလဲမှု တစ်ခုတည်း",
+            "Birth (သို့) Death Rate မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced comparison of population pyramid shapes represents...",
+          questionMy:
+              "Population Pyramid Shape များ၏ Balanced Comparison သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Distinct documented opportunities and challenges for each shape",
+            "Only one shape as simply superior to the other",
+            "No documented dimension of any kind",
+            "Shapes unrelated to any documented demographic data",
+          ],
+          optionsMy: [
+            "Shape တစ်ခုစီအတွက် Distinct Documented Opportunity များနှင့် Challenge များ",
+            "Shape တစ်ခုတည်းကိုသာ အခြားတစ်ခုထက် ရိုးရိုး Superior အဖြစ်",
+            "Documented Dimension မည်သည် အမျိုးအစားမှ",
+            "Documented Demographic Data မည်သည်နှင့်မျှ မသက်ဆိုင်သော Shape များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced account of population policy represents...",
+          questionMy:
+              "Population Policy ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented intended goals and documented controversy",
+            "Only documented intended goals with no controversy",
+            "Only documented controversy with no goal",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Intended Goal များနှင့် Documented Controversy နှစ်ခုစလုံး",
+            "Controversy မပါဘဲ Documented Intended Goal များသာ",
+            "Goal မပါဘဲ Documented Controversy သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 5: "Population Geography Foundations"
+// (Weeks 17-20). Deliberately primes IGCSE Humanities' fuller
+// population unit, extending Secondary 2 Term 8's population density
+// and growth-rate work into demographic transition (Week 17) and its
+// visual representation in population pyramids, with a balanced
+// comparison of young and aging population structures (Week 18), and
+// a balanced account of documented population policy combining
+// intended goals with documented controversy (Week 19), closing with
+// a capstone case study combining a documented country's demographic
+// stage, pyramid shape, and balanced policy account (Week 20).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm5 = CourseTermDef(
+  id: "course-sec3-hum-t5",
+  termNumber: 5,
+  titleEn: "Population Geography Foundations",
+  titleMy: "Population Geography Foundations",
+  certificateTitleEn: "Population Geography Foundations Certificate",
+  certificateTitleMy: "Population Geography Foundations သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek17, _sec3HumWeek18, _sec3HumWeek19, _sec3HumWeek20],
 );
 // __SEC_HUM_MARKER__
