@@ -440,7 +440,10 @@ class _PhotoGuessOptionTile extends StatelessWidget {
 /// [_PhotoGuessOptionTile]'s [CandyBevelSurface]). Mirrors
 /// `McqQuizScreen`'s private `_SpeakerButton` widget of the same shape.
 class _PhotoGuessSpeakerButton extends StatelessWidget {
-  const _PhotoGuessSpeakerButton({required this.onTap, required this.iconColor});
+  const _PhotoGuessSpeakerButton({
+    required this.onTap,
+    required this.iconColor,
+  });
 
   final VoidCallback onTap;
   final Color iconColor;
@@ -532,9 +535,27 @@ class _PhotoGuessResults extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 24),
-            FilledButton(
-              onPressed: onFinish,
-              child: Text(_t(context, 'Continue', 'ဆက်လုပ်ရန်')),
+            SizedBox(
+              width: double.infinity,
+              child: CandyBevelSurface(
+                faceColor: AppColors.candyPrimary,
+                bevelDepth: CandyBevelDepth.primary,
+                borderRadius: AppTheme.radiusSmall,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                onTap: onFinish,
+                child: Center(
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(
+                      _t(context, 'Continue', 'ဆက်လုပ်ရန်'),
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ),
           ],
         ),

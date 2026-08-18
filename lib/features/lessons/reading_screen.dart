@@ -301,13 +301,29 @@ class _PassageView extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
-          FilledButton(
-            onPressed: onContinue,
-            child: Text(
-              _t(
-                context,
-                "I've Read This — Let's Go!",
-                'ဖတ်ပြီးပါပြီ — စတင်ကြရအောင်!',
+          SizedBox(
+            width: double.infinity,
+            child: CandyBevelSurface(
+              faceColor: AppColors.candyPrimary,
+              bevelDepth: CandyBevelDepth.primary,
+              borderRadius: AppTheme.radiusSmall,
+              padding: const EdgeInsets.symmetric(vertical: 16),
+              onTap: onContinue,
+              child: Center(
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    _t(
+                      context,
+                      "I've Read This — Let's Go!",
+                      'ဖတ်ပြီးပါပြီ — စတင်ကြရအောင်!',
+                    ),
+                    style: theme.textTheme.titleMedium?.copyWith(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                ),
               ),
             ),
           ),
@@ -576,9 +592,27 @@ class _ReadingResults extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 24),
-            FilledButton(
-              onPressed: onFinish,
-              child: Text(_t(context, 'Continue', 'ဆက်လုပ်ရန်')),
+            SizedBox(
+              width: double.infinity,
+              child: CandyBevelSurface(
+                faceColor: AppColors.candyPrimary,
+                bevelDepth: CandyBevelDepth.primary,
+                borderRadius: AppTheme.radiusSmall,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                onTap: onFinish,
+                child: Center(
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(
+                      _t(context, 'Continue', 'ဆက်လုပ်ရန်'),
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ),
           ],
         ),
