@@ -103490,11 +103490,17 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec1HumTerm1, _sec1HumTerm2, _sec1HumTerm3, _sec1HumTerm4],
+  terms: [
+    _sec1HumTerm1,
+    _sec1HumTerm2,
+    _sec1HumTerm3,
+    _sec1HumTerm4,
+    _sec1HumTerm5,
+  ],
 );
 // =====================================================================
 // Secondary 1 Humanities -- Term 2, Week 5: "Mesopotamia and the
@@ -107787,5 +107793,1420 @@ const CourseTermDef _sec1HumTerm4 = CourseTermDef(
   certificateTitleEn: "Physical Geography Foundations",
   certificateTitleMy: "Physical Geography Foundations",
   weeks: [_sec1HumWeek13, _sec1HumWeek14, _sec1HumWeek15, _sec1HumWeek16],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 5: "The Medieval World I" (Weeks
+// 17-20). Returns to the history strand after Term 4's geography
+// breadth, continuing the deliberate spiral pattern.
+// Term 5, Week 17: "Feudal Europe"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek17 = CourseWeekDef(
+  id: "course-sec1-hum-w17",
+  weekNumber: 17,
+  titleEn: "Feudal Europe",
+  titleMy: "Feudal ဥရောပ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w17-d1",
+      dayNumber: 1,
+      titleEn: "The Structure of Feudal Society",
+      titleMy: "Feudal Society ၏ Structure",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the feudal system develop as a hierarchy of land-for-loyalty exchanges (king to lords, lords to vassals) rather than a single centralized government directly controlling everyone?",
+          questionMy:
+              "Feudal System သည် လူတိုင်းကို တိုက်ရိုက် ထိန်းချုပ်သော Centralized Government တစ်ခုတည်းအစား Land-For-Loyalty Exchange (King မှ Lord သို့, Lord မှ Vassal သို့) Hierarchy တစ်ခုအဖြစ် အဘယ်ကြောင့် ဖွံ့ဖြိုးခဲ့သနည်း။",
+          optionsEn: [
+            "In a period with weak central authority and limited communication over long distances, granting land in exchange for military loyalty let a king extend control indirectly through local lords rather than governing everyone directly",
+            "The feudal system had no actual connection to the practical challenges of governing a large territory",
+            "A single centralized government was always the standard system in medieval Europe with no feudal structure at all",
+            "Land was never actually connected to loyalty or military obligation in feudal Europe",
+          ],
+          optionsMy: [
+            "ဗဟို Authority အားနည်းပြီး အကွာအဝေးရှည်တစ်လျှောက် ဆက်သွယ်ရေး ကန့်သတ်ထားသော ကာလတစ်ခုတွင် Military Loyalty အစား မြေပေးအပ်ခြင်းသည် ဘုရင်တစ်ဦးအား လူတိုင်းကို တိုက်ရိုက် အုပ်ချုပ်မည့်အစား Local Lord များမှတစ်ဆင့် သွယ်ဝိုက်၍ Control ကို ချဲ့ထွင်နိုင်စေခဲ့သည်",
+            "Feudal System သည် နယ်မြေကြီးတစ်ခု အုပ်ချုပ်ခြင်း၏ Practical Challenge များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Feudal Structure မည်သည်မှ မပါဘဲ Single Centralized Government တစ်ခုသည် Medieval ဥရောပတွင် Standard System အမြဲ ဖြစ်ခြင်း",
+            "Feudal ဥရောပတွင် မြေသည် Loyalty (သို့) Military Obligation နှင့် အမှန်တကယ် ဘယ်တော့မှ ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a practical, structural explanation -- similar to Week 5's Hammurabi lesson, a social/political structure can be explained by the real problems it solved.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Practical, Structural ရှင်းပြချက်တစ်ခု ဖြစ်သည် -- Week 5 ၏ Hammurabi သင်ခန်းစာနှင့် ဆင်တူသည်၊ Social/Political Structure တစ်ခုကို ၎င်း ဖြေရှင်းခဲ့သော Real ပြဿနာများဖြင့် ရှင်းပြနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid assuming every serf in feudal Europe experienced identical conditions, given that manors, lords, and local circumstances varied considerably across the period?",
+          questionMy:
+              "Manor, Lord နှင့် Local အခြေအနေများသည် ကာလတစ်လျှောက် သိသိသာသာ ကွဲပြားခဲ့သည်ကို ထောက်ရှု၍ Feudal ဥရောပရှိ Serf တိုင်း Condition အတိအကျ တူညီစွာ ကြုံတွေ့ခဲ့သည်ဟု ကျောင်းသားများ အဘယ်ကြောင့် ယူဆခြင်း ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "A broad social category like 'serf' covers a wide range of specific, varied lived experiences depending on time, place, and individual lord, so a single generic description oversimplifies real diversity",
+            "Every serf in feudal Europe had exactly the same experience with no variation whatsoever",
+            "Manors and lords had no actual influence on a serf's daily life or conditions",
+            "The word 'serf' has no actual meaning and should never be used in historical study",
+          ],
+          optionsMy: [
+            "'Serf' ကဲ့သို့ ကျယ်ပြန့်သော Social Category တစ်ခုသည် အချိန်၊ နေရာနှင့် Individual Lord ပေါ် မူတည်ပြီး ကျယ်ပြန့်သော တိကျ၊ ကွဲပြားသော Lived Experience များကို ဖုံးအုပ်သောကြောင့် Generic Description တစ်ခုတည်းသည် Real Diversity ကို Oversimplify ပြုလုပ်သည်",
+            "Feudal ဥရောပရှိ Serf တိုင်းသည် Variation မည်သည်မှ မရှိဘဲ Experience အတိအကျ တူညီခဲ့ခြင်း",
+            "Manor များနှင့် Lord များသည် Serf တစ်ဦး၏ နေ့စဉ်ဘဝ (သို့) Condition အပေါ် အမှန်တကယ် Influence မရှိခြင်း",
+            "'Serf' စကားလုံးသည် အဓိပ္ပာယ် အမှန်တကယ် မရှိဘဲ သမိုင်း လေ့လာမှုတွင် ဘယ်တော့မှ အသုံးမပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'do not flatten a diverse group into one identical story' caution from Term 3's Athens-Sparta lesson, applied now to a broad social class.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ကျယ်ပြန့်သော Social Class တစ်ခုပေါ်တွင် ယခု အသုံးချထားသော Term 3 ၏ Athens-Sparta သင်ခန်းစာမှ 'ကွဲပြားသော အုပ်စုတစ်ခုကို Identical Story တစ်ခုတည်းအဖြစ် မညှစ်ချရန်' သတိပေးချက် တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is the manor system best understood as an economic arrangement (land, labor, and produce exchanged for protection) rather than simply a description of medieval farming?",
+          questionMy:
+              "Manor System ကို Medieval စိုက်ပျိုးရေး၏ ဖော်ပြချက်တစ်ခု ရိုးရိုးအဖြစ်ထက် Economic Arrangement တစ်ခု (Protection အတွက် လဲလှယ်ထားသော မြေ, Labor နှင့် ထုတ်ကုန်) အဖြစ် နားလည်ရန် အကောင်းဆုံး ဖြစ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Understanding the exchange -- labor and produce given in return for land use and protection -- reveals the underlying logic of the system, not just what activities took place on it",
+            "The manor system had no actual economic dimension of any kind whatsoever",
+            "Farming activity and economic exchange are exactly the same thing with no distinction",
+            "The manor system should only ever be described in terms of specific crops grown",
+          ],
+          optionsMy: [
+            "Exchange -- Land အသုံးပြုမှုနှင့် Protection အတွက် လဲလှယ်ပေးအပ်ထားသော Labor နှင့် ထုတ်ကုန် -- နားလည်ခြင်းသည် ၎င်းပေါ်တွင် ဖြစ်ပျက်ခဲ့သော Activity များသာမက System ၏ Underlying Logic ကို ဖော်ထုတ်ပေးသည်",
+            "Manor System တွင် Economic Dimension မည်သည်မှ အမှန်တကယ် လုံးဝ မရှိခြင်း",
+            "Farming Activity နှင့် Economic Exchange သည် ခွဲခြားချက် မရှိဘဲ အနက်ကျယ် အတိအကျ တူညီခြင်း",
+            "Manor System ကို စိုက်ပျိုးထားသော သီးနှံ တိကျအကြောင်းအရာအားဖြင့်သာ ဘယ်တော့မှ ဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same underlying-logic reasoning as Week 5's Mesopotamia lesson -- understanding why an exchange happened is more valuable than simply describing what it looked like.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 5 ၏ Mesopotamia သင်ခန်းစာမှ Underlying-Logic Reasoning တူတူ ဖြစ်သည် -- Exchange တစ်ခု အဘယ်ကြောင့် ဖြစ်ပျက်ခဲ့သည်ကို နားလည်ခြင်းသည် ၎င်းသည် မည်သို့ ရှိသည်ကို ရိုးရိုး ဖော်ပြခြင်းထက် ပို၍ တန်ဖိုးရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Feudal Europe Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Feudal ဥရောပ Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w17-dm-1",
+          termEn: "Feudalism",
+          termMy: "Feudalism",
+          matchEn:
+              "A system where land was granted in exchange for military loyalty and service",
+          matchMy:
+              "Military Loyalty နှင့် Service အတွက် လဲလှယ်ထားသော မြေပေးအပ်သော System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w17-dm-2",
+          termEn: "Vassal",
+          termMy: "Vassal",
+          matchEn:
+              "A person granted land by a lord in exchange for loyalty and military service",
+          matchMy:
+              "Loyalty နှင့် Military Service အတွက် Lord တစ်ဦးထံမှ မြေ ပေးအပ်ခံရသော သူ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w17-dm-3",
+          termEn: "Serf",
+          termMy: "Serf",
+          matchEn:
+              "A peasant bound to work land on a manor in exchange for protection",
+          matchMy:
+              "Protection အတွက် Manor တစ်ခုပေါ်တွင် မြေလုပ်ကိုင်ရန် ချုပ်နှောင်ခံထားရသော ကျေးလက်သား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w17-dm-4",
+          termEn: "Manor",
+          termMy: "Manor",
+          matchEn:
+              "A self-sufficient estate combining farmland, a lord's residence, and a village",
+          matchMy:
+              "လယ်ယာမြေ, Lord ၏ နေအိမ်နှင့် ကျေးရွာကို ပေါင်းစပ်ထားသော Self-Sufficient Estate",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Feudal Obligation or Feudal Right?",
+      titleMy: "စီစစ်ကြမည် - Feudal Obligation (သို့) Feudal Right",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Feudal Obligation", "Feudal Right"],
+        bucketsMy: ["Feudal Obligation", "Feudal Right"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w17-sort-1",
+            labelEn: "A vassal must provide military service to their lord",
+            labelMy:
+                "Vassal တစ်ဦးသည် ၎င်း၏ Lord အား Military Service ပေးအပ်ရမည်",
+            correctBucketEn: "Feudal Obligation",
+            correctBucketMy: "Feudal Obligation",
+          ),
+          SortingItem(
+            id: "sec1hum-w17-sort-2",
+            labelEn: "A vassal receives land from their lord to manage and use",
+            labelMy:
+                "Vassal တစ်ဦးသည် စီမံ၊ အသုံးပြုရန် ၎င်း၏ Lord ထံမှ မြေ ရရှိသည်",
+            correctBucketEn: "Feudal Right",
+            correctBucketMy: "Feudal Right",
+          ),
+          SortingItem(
+            id: "sec1hum-w17-sort-3",
+            labelEn:
+                "A serf must work the lord's land for a set number of days each week",
+            labelMy:
+                "Serf တစ်ဦးသည် အပတ်စဉ် ရက်အရေအတွက် သတ်မှတ်ချက်တစ်ခုအတွက် Lord ၏ မြေတွင် အလုပ်လုပ်ရမည်",
+            correctBucketEn: "Feudal Obligation",
+            correctBucketMy: "Feudal Obligation",
+          ),
+          SortingItem(
+            id: "sec1hum-w17-sort-4",
+            labelEn:
+                "A serf receives protection and a small plot of land from the manor",
+            labelMy:
+                "Serf တစ်ဦးသည် Manor ထံမှ Protection နှင့် မြေကွက်ငယ်တစ်ခု ရရှိသည်",
+            correctBucketEn: "Feudal Right",
+            correctBucketMy: "Feudal Right",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Feudal Society Diagram",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Feudal Society Diagram",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Feudal Society Diagram",
+        titleMy: "Zayar Lin ၏ Feudal Society Diagram",
+        passageEn:
+            "For Week 17's assignment, Zayar Lin was asked to draw a diagram of feudal society's hierarchy and explain the logic connecting each level, rather than just labeling the levels.\n\nHis first draft simply listed the levels top to bottom -- king, lords, vassals, serfs -- with no explanation of what connected them. His teacher asked him to add arrows showing what moved between each level and in which direction, exactly the kind of causal connection Term 3's causation web had practiced.\n\nZayar Lin's revised diagram showed land and protection flowing downward (king to lords, lords to vassals, lords to serfs) while loyalty, military service, and labor flowed upward in return. He labeled this exchange explicitly rather than leaving it implied, explaining in his written notes that feudalism was fundamentally this two-way exchange, not simply a list of ranked titles.\n\nHe also added a caution his teacher had emphasized: the diagram showed a general structure, but the actual experience of any specific serf or vassal varied enormously depending on their particular lord, region, and time period -- exactly the caution against flattening a broad category into one identical story that Term 3 had established with Sparta and Athens. His teacher praised the revised diagram for showing both the underlying logic of the system and its real-world variation, rather than a flat, unexplained list.",
+        passageMy:
+            "Week 17 ၏ Assignment အတွက် Level များကို Label တင်ရုံသက်သက်မဟုတ်ဘဲ Feudal Society ၏ Hierarchy Diagram တစ်ခု ရေးဆွဲရန်နှင့် Level တစ်ခုစီကို ချိတ်ဆက်ပေးသော Logic ကို ရှင်းပြရန် Zayar Lin အား တောင်းဆိုခဲ့သည်။\n\n၎င်း၏ ပထမ Draft သည် Level များကို ချိတ်ဆက်ပေးသည့်အရာ ရှင်းပြချက် မပါဘဲ ထိပ်မှ အောက်ခြေအထိ ရိုးရိုး စာရင်းပြုစုခဲ့သည် -- King, Lord, Vassal, Serf။ Level တစ်ခုစီကြား မည်သည် မည်သည့် ဦးတည်ရာသို့ ရွေ့လျားသည်ကို ပြသသော မြားများ ထပ်ထည့်ရန် ၎င်း၏ ဆရာမ ၎င်းအား တောင်းဆိုခဲ့သည် -- Term 3 ၏ Causation Web ကျင့်သုံးခဲ့သော Causal Connection အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nZayar Lin ၏ ပြင်ဆင်ထားသော Diagram သည် Loyalty, Military Service နှင့် Labor သည် ပြန်လည် အထက်သို့ စီးဆင်းစဉ် မြေနှင့် Protection သည် အောက်သို့ (King မှ Lord သို့, Lord မှ Vassal သို့, Lord မှ Serf သို့) စီးဆင်းသည်ကို ပြသခဲ့သည်။ Feudalism သည် အနှစ်သာရအားဖြင့် Rank ပေးထားသော ရာထူးများ စာရင်းတစ်ခု ရိုးရိုး မဟုတ်ဘဲ ဤ Two-Way Exchange ဖြစ်ကြောင်း ၎င်း၏ ရေးသား မှတ်စုများတွင် ရှင်းပြကာ ဤ Exchange ကို ဆိုလိုသာ ချန်ထားမည့်အစား ရှင်းလင်းစွာ Label တင်ခဲ့သည်။\n\nSpecific Serf (သို့) Vassal မည်သူ၏ Actual Experience သည် ၎င်း၏ တိကျသော Lord, ဒေသနှင့် အချိန်ကာလပေါ် မူတည်ပြီး များစွာ ကွဲပြားသော်လည်း Diagram သည် ယေဘုယျ Structure တစ်ခုကို ပြသကြောင်း ၎င်း၏ ဆရာမ အလေးပေးခဲ့သော သတိပေးချက်တစ်ခုကိုလည်း ၎င်း ထပ်ထည့်ခဲ့သည် -- စပါတာနှင့် အေသင်နှင့် Term 3 တည်ထောင်ခဲ့သော ကျယ်ပြန့်သော Category တစ်ခုကို Identical Story တစ်ခုတည်းအဖြစ် ညှစ်ချခြင်းကို ဆန့်ကျင်သော သတိပေးချက် အတိအကျ ဖြစ်သည်။ System ၏ Underlying Logic နှင့် ၎င်း၏ Real-World Variation နှစ်ခုစလုံးကို ရှင်းပြချက် မပါသော Flat စာရင်းတစ်ခုအစား ပြသခဲ့သောကြောင့် ပြင်ဆင်ထားသော Diagram ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the teacher ask Zayar Lin to add to his diagram?",
+            questionMy:
+                "၎င်း၏ Diagram တွင် ထပ်ထည့်ရန် Zayar Lin အား ဆရာမ တောင်းဆိုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Arrows showing what moved between each level and in which direction",
+              "Nothing at all -- the original list was accepted as complete",
+              "A completely unrelated diagram of a different historical topic",
+              "More levels with no explanation of any connection between them",
+            ],
+            optionsMy: [
+              "Level တစ်ခုစီကြား မည်သည် မည်သည့် ဦးတည်ရာသို့ ရွေ့လျားသည်ကို ပြသသော မြားများ",
+              "ဘာမှ -- Original စာရင်းကို ပြည့်စုံသည်ဟု လက်ခံခဲ့ခြင်း",
+              "လုံးလုံး မသက်ဆိုင်သော သမိုင်းဆိုင်ရာ ခေါင်းစဉ်ကွဲပြားတစ်ခု၏ Diagram",
+              "ချိတ်ဆက်မှု မည်သည်ကိုမျှ ရှင်းပြခြင်း မပါဘဲ Level ပိုများ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's teacher's request."],
+            hintsMy: ["ဆရာမ၏ တောင်းဆိုချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what flowed upward in Zayar Lin's revised diagram?",
+            questionMy:
+                "Zayar Lin ၏ ပြင်ဆင်ထားသော Diagram တွင် အထက်သို့ စီးဆင်းသည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Loyalty, military service, and labor",
+              "Land and protection only",
+              "Nothing flowed in any direction in the diagram",
+              "Only written documents with no other exchange",
+            ],
+            optionsMy: [
+              "Loyalty, Military Service နှင့် Labor",
+              "မြေနှင့် Protection သာ",
+              "Diagram တွင် ဦးတည်ရာ မည်သည်ကိုမျှ ဘာမှ မစီးဆင်းခြင်း",
+              "အခြား Exchange မပါဘဲ ရေးသား Document များသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described upward flow."],
+            hintsMy: [
+              "ဖော်ပြထားသော Upward Flow ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what caution did Zayar Lin add about the diagram's general structure?",
+            questionMy:
+                "Diagram ၏ ယေဘုယျ Structure အကြောင်း Zayar Lin ထပ်ထည့်ခဲ့သော သတိပေးချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The actual experience of any specific serf or vassal varied enormously by lord, region, and time",
+              "Every serf and vassal experienced exactly identical conditions everywhere",
+              "The diagram required no caution of any kind whatsoever",
+              "Lords had no actual influence on a serf's or vassal's experience",
+            ],
+            optionsMy: [
+              "Specific Serf (သို့) Vassal မည်သူ၏ Actual Experience သည် Lord, ဒေသနှင့် အချိန်ပေါ် မူတည်ပြီး များစွာ ကွဲပြားခဲ့ခြင်း",
+              "Serf နှင့် Vassal တိုင်းသည် နေရာတိုင်းတွင် Condition အတိအကျ တူညီစွာ ကြုံတွေ့ခဲ့ခြင်း",
+              "Diagram တွင် သတိပေးချက် မည်သည်မှ အမှန်တကယ် လုံးဝ မလိုအပ်ခြင်း",
+              "Lord များသည် Serf (သို့) Vassal တစ်ဦး၏ Experience အပေါ် အမှန်တကယ် Influence မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated caution."],
+            hintsMy: [
+              "ဖော်ပြထားသော သတိပေးချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w17-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Feudal Europe Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Feudal ဥရောပ မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Feudalism developed mainly as a system where...",
+          questionMy:
+              "Feudalism သည် အနှစ်သာရအားဖြင့် ...စနစ်တစ်ခုအဖြစ် ဖွံ့ဖြိုးခဲ့သည်",
+          optionsEn: [
+            "Land was exchanged for loyalty and military service",
+            "A single government directly controlled everyone with no local lords",
+            "Land had no connection to loyalty or service of any kind",
+            "Everyone in society held exactly equal status",
+          ],
+          optionsMy: [
+            "မြေကို Loyalty နှင့် Military Service အတွက် လဲလှယ်ခဲ့ခြင်း",
+            "Local Lord မပါဘဲ Government တစ်ခုတည်းက လူတိုင်းကို တိုက်ရိုက် ထိန်းချုပ်ခဲ့ခြင်း",
+            "မြေသည် Loyalty (သို့) Service မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိခြင်း",
+            "Society ရှိ လူတိုင်းသည် Status အတိအကျ ညီမျှစွာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A single generic description of 'the serf experience' oversimplifies because...",
+          questionMy:
+              "'Serf Experience' ၏ Generic ဖော်ပြချက်တစ်ခုသည် ...ကြောင့် Oversimplify ပြုလုပ်သည်",
+          optionsEn: [
+            "Conditions varied considerably by lord, region, and time period",
+            "Every serf's experience was in fact perfectly identical",
+            "Serfs had no actual variation in their circumstances at all",
+            "The category 'serf' has no real historical meaning",
+          ],
+          optionsMy: [
+            "Condition များသည် Lord, ဒေသနှင့် အချိန်ကာလပေါ် မူတည်ပြီး သိသိသာသာ ကွဲပြားခဲ့ခြင်း",
+            "Serf တစ်ဦးစီ၏ Experience သည် တကယ်တမ်း လုံးလုံး တူညီခဲ့ခြင်း",
+            "Serf များတွင် ၎င်းတို့၏ Circumstance အတွက် Variation မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "'Serf' Category တွင် Real သမိုင်းဆိုင်ရာ အဓိပ္ပာယ် မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The manor system is best understood as...",
+          questionMy:
+              "Manor System ကို ...အနေဖြင့် နားလည်ရန် အကောင်းဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "An economic exchange of land, labor, and protection",
+            "Simply a description of what crops were grown",
+            "A system with no actual economic dimension",
+            "Something completely unrelated to feudalism",
+          ],
+          optionsMy: [
+            "မြေ, Labor နှင့် Protection ၏ Economic Exchange တစ်ခု",
+            "စိုက်ပျိုးထားသော သီးနှံများ၏ ဖော်ပြချက် ရိုးရိုးတစ်ခု",
+            "Economic Dimension အမှန်တကယ် မရှိသော System တစ်ခု",
+            "Feudalism နှင့် လုံးလုံး မသက်ဆိုင်သော အရာတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 5, Week 18: "The Islamic Golden Age"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek18 = CourseWeekDef(
+  id: "course-sec1-hum-w18",
+  weekNumber: 18,
+  titleEn: "The Islamic Golden Age",
+  titleMy: "Islamic Golden Age",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w18-d1",
+      dayNumber: 1,
+      titleEn: "Preserving, Translating, and Advancing Knowledge",
+      titleMy: "အသိပညာကို ထိန်းသိမ်း၊ ဘာသာပြန်ပြီး တိုးတက်စေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the House of Wisdom in Baghdad considered historically significant, beyond simply being a large library?",
+          questionMy:
+              "Baghdad ရှိ House of Wisdom သည် စာကြည့်တိုက်ကြီးတစ်ခု ရိုးရိုးအဖြစ်ထက် သမိုင်းအရ အရေးကြီးသည်ဟု သဘောထားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It was a major center where scholars translated, preserved, and built upon Greek, Persian, and Indian texts, actively advancing knowledge rather than simply storing existing books",
+            "It was purely a storage building with no scholarly activity of any kind taking place there",
+            "It had no actual connection to the preservation of ancient Greek or Persian knowledge",
+            "Scholars there only copied texts exactly with no new ideas added at all",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား စာအုပ်များကို ရိုးရိုး သိမ်းဆည်းခြင်းအစား Greek, Persian နှင့် Indian Text များကို ဘာသာပြန်၊ ထိန်းသိမ်းပြီး တည်ဆောက်ကာ Knowledge ကို တက်ကြွစွာ ချဲ့ထွင်ခဲ့သော ပညာရှင်များ၏ အဓိက ဗဟိုချက်တစ်ခု ဖြစ်ခဲ့ခြင်း",
+            "ထိုနေရာတွင် Scholarly Activity မည်သည်မှ ဖြစ်ပျက်ခြင်း မရှိဘဲ Storage Building တစ်ခု ရိုးရိုးသက်သက် ဖြစ်ခဲ့ခြင်း",
+            "ရှေးဟောင်း Greek (သို့) Persian Knowledge ထိန်းသိမ်းခြင်းနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ထိုနေရာရှိ ပညာရှင်များသည် Idea အသစ် မထည့်ဘဲ Text များကို အတိအကျသာ ကူးယူခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 3 Week 11's legacy-verification lesson -- verify what a specific place actually did (active advancement) rather than accepting a vague, generic label ('just a library').",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 Week 11 ၏ Legacy-Verification သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Vague, Generic Label ('စာကြည့်တိုက်တစ်ခုသာ') တစ်ခုကို လက်ခံမည့်အစား တည်နေရာတိကျတစ်ခု အမှန်တကယ် ပြုလုပ်ခဲ့သည့်အရာ (Active Advancement) ကို အတည်ပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students verify specific documented achievements (such as a named scholar's algebra text or medical treatise) rather than making a vague claim that 'Islamic scholars invented most of modern science'?",
+          questionMy:
+              "'Islamic ပညာရှင်များသည် ခေတ်သစ် သိပ္ပံ အများစုကို တီထွင်ခဲ့သည်' ဟု Vague Claim တစ်ခု ပြုလုပ်မည့်အစား တိကျသော Document ပြုလုပ်ထားသော အောင်မြင်မှုများ (အမည်ရှိသော ပညာရှင်တစ်ဦး၏ Algebra Text (သို့) Medical Treatise ကဲ့သို့) ကို ကျောင်းသားများ အဘယ်ကြောင့် အတည်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific, named, documented achievements are checkable and give an accurate picture, while a sweeping, vague claim risks overstating or misrepresenting the actual historical record",
+            "Vague, sweeping claims are always more accurate than specific, documented achievements",
+            "Specific named achievements have no actual value when studying this period",
+            "Islamic scholars made no genuinely documented achievements of any kind whatsoever",
+          ],
+          optionsMy: [
+            "တိကျ၊ အမည်ရှိသော၊ Document ပြုလုပ်ထားသော အောင်မြင်မှုများသည် စစ်ဆေးနိုင်ပြီး တိကျသော ပုံရိပ်တစ်ခု ပေးအပ်ပြီး ကျယ်ပြန့်၊ Vague Claim တစ်ခုသည် Actual သမိုင်းဆိုင်ရာ Record ကို Overstate (သို့) Misrepresent ပြုလုပ်နိုင်ခြေ ရှိသည်",
+            "Vague, ကျယ်ပြန့်သော Claim များသည် တိကျ၊ Document ပြုလုပ်ထားသော အောင်မြင်မှုများထက် အမြဲ ပို၍ တိကျခြင်း",
+            "Specific Named Achievement များသည် ကာလကို လေ့လာရာတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Islamic ပညာရှင်များသည် Genuinely Document ပြုလုပ်ထားသော အောင်မြင်မှု မည်သည်မှ လုံးဝ မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 11's legacy-verification habit applied directly -- name specific scholars and specific documented works rather than a sweeping, unverifiable claim.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Legacy-Verification Habit ကို တိုက်ရိုက် အသုံးချထားခြင်း ဖြစ်သည် -- ကျယ်ပြန့်၊ Unverifiable Claim တစ်ခုအစား ပညာရှင် တိကျနှင့် Document ပြုလုပ်ထားသော အလုပ်တိကျကို အမည်ဖော်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does the Islamic Golden Age illustrate that knowledge advancement is often built through cross-cultural exchange (translating and building on Greek, Persian, and Indian ideas) rather than developing in complete isolation?",
+          questionMy:
+              "Islamic Golden Age သည် Knowledge Advancement သည် လုံးဝ Isolation တွင် ဖွံ့ဖြိုးခြင်းအစား Cross-Cultural Exchange (Greek, Persian နှင့် Indian Idea များကို ဘာသာပြန်ပြီး တည်ဆောက်ခြင်း) မှတစ်ဆင့် မကြာခဏ တည်ဆောက်ခြင်း ဖြစ်ကြောင်း အဘယ်ကြောင့် သရုပ်ပြသနည်း။",
+          optionsEn: [
+            "Scholars actively drew on multiple prior traditions and added their own original contributions, showing that major intellectual progress often builds on and combines ideas across cultures rather than emerging from nothing",
+            "Islamic scholars developed all their ideas in complete isolation with no outside influence whatsoever",
+            "Cross-cultural exchange has no actual connection to intellectual or scientific progress",
+            "The Islamic Golden Age involved no actual translation or building on earlier texts at all",
+          ],
+          optionsMy: [
+            "ပညာရှင်များသည် Prior Tradition များစွာကို တက်ကြွစွာ အသုံးချကာ ၎င်းတို့ကိုယ်ပိုင် Original Contribution များ ထပ်ထည့်ခဲ့ကြောင်း၊ Major Intellectual Progress သည် ဘာမှမရှိသည်မှ ပေါ်ပေါက်လာခြင်းအစား ယဉ်ကျေးမှုများတစ်လျှောက် Idea များကို တည်ဆောက်ကာ ပေါင်းစပ်လေ့ရှိကြောင်း ပြသသည်",
+            "Islamic ပညာရှင်များသည် ၎င်းတို့၏ Idea အားလုံးကို ပြင်ပ Influence မည်သည်မှ မပါဘဲ လုံးဝ Isolation တွင် ဖွံ့ဖြိုးခဲ့ခြင်း",
+            "Cross-Cultural Exchange သည် Intellectual (သို့) Scientific Progress နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Islamic Golden Age တွင် Text ရှေးက Actual Translation (သို့) တည်ဆောက်မှု မည်သည်မှ လုံးဝ မပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Week 11's legacy discussion -- influence and adaptation from multiple sources, not isolated invention, is how most major intellectual traditions actually develop.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Legacy Discussion နှင့် ချိတ်ဆက်သည် -- Isolated Invention မဟုတ်ဘဲ Source များစွာမှ Influence နှင့် Adaptation သည် Major Intellectual Tradition အများစု အမှန်တကယ် ဖွံ့ဖြိုးပုံ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Islamic Golden Age Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Islamic Golden Age Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w18-dm-1",
+          termEn: "House of Wisdom",
+          termMy: "House of Wisdom",
+          matchEn: "A major center of translation and scholarship in Baghdad",
+          matchMy:
+              "Baghdad ရှိ Translation နှင့် Scholarship ၏ အဓိက ဗဟိုချက်တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w18-dm-2",
+          termEn: "Translation movement",
+          termMy: "Translation Movement",
+          matchEn:
+              "The large-scale effort to translate Greek, Persian, and Indian texts into Arabic",
+          matchMy:
+              "Greek, Persian နှင့် Indian Text များကို Arabic ဘာသာသို့ ပြန်ဆိုသော ကြီးမားသော Effort",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w18-dm-3",
+          termEn: "Documented achievement",
+          termMy: "Documented Achievement",
+          matchEn:
+              "A specific, named, verifiable contribution such as an algebra text",
+          matchMy:
+              "Algebra Text ကဲ့သို့ တိကျ၊ အမည်ရှိသော၊ Verifiable Contribution",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w18-dm-4",
+          termEn: "Cross-cultural exchange",
+          termMy: "Cross-Cultural Exchange",
+          matchEn:
+              "Building knowledge by combining ideas from multiple different traditions",
+          matchMy:
+              "ကွဲပြားသော Tradition များစွာမှ Idea များ ပေါင်းစပ်ခြင်းဖြင့် Knowledge တည်ဆောက်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Verified Claim or Vague Overclaim?",
+      titleMy: "စီစစ်ကြမည် - Specific Verified Claim (သို့) Vague Overclaim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Verified Claim", "Vague Overclaim"],
+        bucketsMy: ["Specific Verified Claim", "Vague Overclaim"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w18-sort-1",
+            labelEn:
+                "A named scholar wrote a specific, documented text on algebra",
+            labelMy:
+                "အမည်ရှိသော ပညာရှင်တစ်ဦးသည် Algebra အကြောင်း တိကျ၊ Document ပြုလုပ်ထားသော Text တစ်ခု ရေးသားခဲ့သည်",
+            correctBucketEn: "Specific Verified Claim",
+            correctBucketMy: "Specific Verified Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w18-sort-2",
+            labelEn:
+                "Islamic scholars invented literally all of modern science with no exceptions",
+            labelMy:
+                "Islamic ပညာရှင်များသည် Exception မရှိဘဲ ခေတ်သစ် သိပ္ပံ အားလုံးကို တီထွင်ခဲ့သည်",
+            correctBucketEn: "Vague Overclaim",
+            correctBucketMy: "Vague Overclaim",
+          ),
+          SortingItem(
+            id: "sec1hum-w18-sort-3",
+            labelEn:
+                "The House of Wisdom is documented as a center of active translation and scholarship",
+            labelMy:
+                "House of Wisdom ကို Active Translation နှင့် Scholarship ၏ ဗဟိုချက်တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်",
+            correctBucketEn: "Specific Verified Claim",
+            correctBucketMy: "Specific Verified Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w18-sort-4",
+            labelEn:
+                "This period involved no genuine achievements of any kind whatsoever",
+            labelMy: "ဤကာလတွင် Genuine အောင်မြင်မှု မည်သည်မှ လုံးဝ မပါဝင်ခဲ့ပါ",
+            correctBucketEn: "Vague Overclaim",
+            correctBucketMy: "Vague Overclaim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Verified Achievements List",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ Verified Achievement စာရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Verified Achievements List",
+        titleMy: "Htet Wai Yan ၏ Verified Achievement စာရင်း",
+        passageEn:
+            "For Week 18's project, Htet Wai Yan set out to research the Islamic Golden Age, initially planning to write a broad statement about how the period 'gave the world modern science.'\n\nApplying Week 11's legacy-verification habit, he decided instead to build a list of specific, named, documented achievements rather than one sweeping claim. He found and cited a named mathematician's foundational algebra text, a named physician's medical encyclopedia that remained a reference text in parts of Europe for centuries, and documented records of the House of Wisdom's large-scale translation of Greek and Persian scientific and philosophical works into Arabic.\n\nFor each entry, Htet Wai Yan noted not just what was achieved, but how it connected to earlier traditions: the algebra text built on earlier Greek and Indian mathematical ideas, and the medical encyclopedia synthesized and expanded on earlier Greek medical knowledge. This confirmed Monday's lesson about cross-cultural exchange -- these were not achievements created from nothing, but genuine advances built through translating, combining, and extending existing traditions.\n\nHis final report replaced the original vague, sweeping claim entirely with this specific list, each item cited and connected to its historical context. His teacher praised the shift: a list of five specific, verifiable achievements, she said, was far more historically honest and far more useful than one impressive-sounding but unverifiable generalization.",
+        passageMy:
+            "Week 18 ၏ Project အတွက် Islamic Golden Age ကို Research ပြုလုပ်ရန် Htet Wai Yan စတင်ခဲ့ပြီး ကာလသည် 'ကမ္ဘာကို ခေတ်သစ် သိပ္ပံ ပေးအပ်ခဲ့သည်' ဆိုသော ကျယ်ပြန့်သော Statement တစ်ခု ရေးသားရန် ကနဦးတွင် စီစဉ်ခဲ့သည်။\n\nWeek 11 ၏ Legacy-Verification Habit အသုံးချကာ Sweeping Claim တစ်ခုအစား တိကျ၊ အမည်ရှိသော၊ Document ပြုလုပ်ထားသော အောင်မြင်မှု စာရင်းတစ်ခု တည်ဆောက်ရန် ၎င်းအစား ၎င်း ဆုံးဖြတ်ခဲ့သည်။ ရာစုနှစ်များစွာ ဥရောပ၏ တစ်စိတ်တစ်ပိုင်းတွင် Reference Text အဖြစ် ကျန်ရစ်ခဲ့သော အမည်ရှိသော Physician တစ်ဦး၏ Medical Encyclopedia၊ အမည်ရှိသော သင်္ချာပညာရှင်တစ်ဦး၏ Foundational Algebra Text နှင့် Greek နှင့် Persian Scientific and Philosophical အလုပ်များကို Arabic ဘာသာသို့ House of Wisdom ၏ ကြီးမားသော Scale Translation ၏ Document ပြုလုပ်ထားသော မှတ်တမ်းများကို ၎င်း ရှာဖွေတွေ့ရှိကာ ကိုးကားခဲ့သည်။\n\nEntry တစ်ခုစီအတွက် အောင်မြင်ခဲ့သည့်အရာကိုသာမက ၎င်းသည် အစောပိုင်း Tradition များနှင့် မည်သို့ ချိတ်ဆက်သည်ကိုပါ Htet Wai Yan မှတ်သားခဲ့သည် - Algebra Text သည် အစောပိုင်း Greek နှင့် Indian သင်္ချာဆိုင်ရာ Idea များကို တည်ဆောက်ခဲ့ပြီး Medical Encyclopedia သည် အစောပိုင်း Greek Medical Knowledge ကို ပေါင်းစပ်ချုပ်ငင်ကာ ချဲ့ထွင်ခဲ့သည်။ ဤသည်ကား Cross-Cultural Exchange အကြောင်း တနင်္လာနေ့ သင်ခန်းစာကို အတည်ပြုပေးခဲ့သည် -- ၎င်းတို့သည် ဘာမှမရှိသည်မှ ဖန်တီးခဲ့သော အောင်မြင်မှုများ မဟုတ်ဘဲ ရှိပြီးသား Tradition များကို ဘာသာပြန်၊ ပေါင်းစပ်ကာ ချဲ့ထွင်ခြင်းဖြင့် တည်ဆောက်ထားသော Genuine Advance များ ဖြစ်သည်။\n\nItem တစ်ခုစီကို ကိုးကားပြီး ၎င်း၏ သမိုင်းဆိုင်ရာ Context နှင့် ချိတ်ဆက်ထားသော ဤ Specific List ဖြင့် Original, Vague, Sweeping Claim ကို ၎င်း၏ နောက်ဆုံး Report က လုံးလုံး အစားထိုးခဲ့သည်။ Specific, Verifiable Achievement ငါးခု၏ စာရင်းတစ်ခုသည် ဆွဲဆောင်မှုရှိသော်လည်း Unverifiable Generalization တစ်ခုထက် သမိုင်းအရ များစွာ ပို၍ ရိုးသားပြီး များစွာ ပို၍ အသုံးဝင်ကြောင်း ၎င်း၏ ဆရာမ ပြောခဲ့ကာ ပြောင်းလဲမှုကို ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Htet Wai Yan decide to build instead of a sweeping claim?",
+            questionMy:
+                "Sweeping Claim တစ်ခုအစား Htet Wai Yan တည်ဆောက်ရန် ဆုံးဖြတ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A list of specific, named, documented achievements",
+              "Nothing at all -- he kept the original vague statement",
+              "A completely unrelated list about a different historical period",
+              "A list with no citations or evidence of any kind whatsoever",
+            ],
+            optionsMy: [
+              "တိကျ၊ အမည်ရှိသော၊ Document ပြုလုပ်ထားသော အောင်မြင်မှုများ စာရင်းတစ်ခု",
+              "ဘာမှ -- Original Vague Statement ကို ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "လုံးလုံး မသက်ဆိုင်သော သမိုင်းကာလကွဲပြားတစ်ခုအကြောင်း စာရင်းတစ်ခု",
+              "Citation (သို့) Evidence မည်သည်မှ လုံးဝ မပါသော စာရင်းတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated decision."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆုံးဖြတ်ချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the algebra text and medical encyclopedia connect to earlier traditions?",
+            questionMy:
+                "Algebra Text နှင့် Medical Encyclopedia သည် အစောပိုင်း Tradition များနှင့် မည်သို့ ချိတ်ဆက်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They built on and expanded earlier Greek and Indian knowledge",
+              "They had no connection to any earlier tradition whatsoever",
+              "They were created entirely from nothing with no outside influence",
+              "They rejected all earlier Greek and Indian knowledge completely",
+            ],
+            optionsMy: [
+              "အစောပိုင်း Greek နှင့် Indian Knowledge ကို တည်ဆောက်ကာ ချဲ့ထွင်ခဲ့ခြင်း",
+              "အစောပိုင်း Tradition မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိခြင်း",
+              "ပြင်ပ Influence မပါဘဲ ဘာမှမရှိသည်မှ လုံးလုံး ဖန်တီးခဲ့ခြင်း",
+              "အစောပိုင်း Greek နှင့် Indian Knowledge အားလုံးကို လုံးလုံး ငြင်းပယ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော Connection ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say was more historically honest and useful?",
+            questionMy:
+                "သမိုင်းအရ ပို၍ ရိုးသားပြီး ပို၍ အသုံးဝင်သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A list of specific, verifiable achievements rather than one unverifiable generalization",
+              "One impressive-sounding but unverifiable sweeping claim",
+              "Neither the list nor the generalization had any actual value",
+              "A claim with no citations or historical context at all",
+            ],
+            optionsMy: [
+              "Unverifiable Generalization တစ်ခုအစား Specific, Verifiable Achievement များ စာရင်းတစ်ခု",
+              "ဆွဲဆောင်မှုရှိသော်လည်း Unverifiable Sweeping Claim တစ်ခု",
+              "List နှင့် Generalization နှစ်ခုစလုံးတွင် Actual Value မရှိခြင်း",
+              "Citation (သို့) သမိုင်းဆိုင်ရာ Context မပါသော Claim တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w18-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Islamic Golden Age Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Islamic Golden Age မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The House of Wisdom is significant because it was...",
+          questionMy: "House of Wisdom သည် ...ဖြစ်ခဲ့ သောကြောင့် အရေးကြီးသည်",
+          optionsEn: [
+            "A center of active translation, preservation, and advancement of knowledge",
+            "Simply a large storage building with no scholarly activity",
+            "A place with no connection to Greek or Persian texts",
+            "A location where no new ideas were ever developed",
+          ],
+          optionsMy: [
+            "Knowledge ၏ Active Translation, Preservation နှင့် Advancement ၏ ဗဟိုချက်တစ်ခု",
+            "Scholarly Activity မပါသော ကြီးမားသော Storage Building တစ်ခု ရိုးရိုး",
+            "Greek (သို့) Persian Text များနှင့် ချိတ်ဆက်မှု မရှိသော နေရာတစ်ခု",
+            "Idea အသစ် မည်သည်ကိုမျှ ဘယ်တော့မှ မဖွံ့ဖြိုးခဲ့သော တည်နေရာတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Claims about this period's achievements should be...",
+          questionMy: "ဤကာလ၏ အောင်မြင်မှုများအကြောင်း Claim များသည် ...သင့်သည်",
+          optionsEn: [
+            "Specific, named, and documented rather than vague and sweeping",
+            "As vague and sweeping as possible for maximum impact",
+            "Impossible to verify by anyone under any circumstances",
+            "Based purely on impression with no actual citation",
+          ],
+          optionsMy: [
+            "Vague, Sweeping မဟုတ်ဘဲ Specific, Named နှင့် Documented ဖြစ်သင့်သည်",
+            "Maximum Impact အတွက် ဖြစ်နိုင်သမျှ Vague, Sweeping ဖြစ်သင့်သည်",
+            "မည်သည့် အခြေအနေအောက်တွင်မျှ မည်သူမျှ Verify လုပ်၍ မရနိုင်သင့်သည်",
+            "Actual Citation မပါဘဲ Impression တစ်ခုတည်းအပေါ် အခြေခံသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Islamic Golden Age illustrates that major knowledge advancement often comes through...",
+          questionMy:
+              "Major Knowledge Advancement သည် မကြာခဏ ...မှတစ်ဆင့် ဖြစ်ပေါ်လာကြောင်း Islamic Golden Age သရုပ်ပြသည်",
+          optionsEn: [
+            "Cross-cultural exchange, translation, and building on prior traditions",
+            "Complete isolation with no outside influence of any kind",
+            "Rejecting every earlier tradition entirely",
+            "Ideas that emerge from nothing with no prior basis",
+          ],
+          optionsMy: [
+            "Cross-Cultural Exchange, Translation နှင့် Prior Tradition များပေါ် တည်ဆောက်ခြင်း",
+            "ပြင်ပ Influence မည်သည်မှ မပါသော လုံးဝ Isolation",
+            "အစောပိုင်း Tradition တိုင်းကို လုံးလုံး ငြင်းပယ်ခြင်း",
+            "Prior Basis မပါဘဲ ဘာမှမရှိသည်မှ ပေါ်ပေါက်လာသော Idea များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 5, Week 19: "The Silk Road"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek19 = CourseWeekDef(
+  id: "course-sec1-hum-w19",
+  weekNumber: 19,
+  titleEn: "The Silk Road",
+  titleMy: "Silk Road",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w19-d1",
+      dayNumber: 1,
+      titleEn: "More Than a Single Road",
+      titleMy: "လမ်းတစ်ခုတည်းထက် ပို၍",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is 'the Silk Road' a somewhat misleading name if taken literally, given what historians and geographers actually know about it?",
+          questionMy:
+              "Historian များနှင့် Geographer များ ၎င်းအကြောင်း အမှန်တကယ် သိရှိသည့်အရာကို ထောက်ရှု၍ 'Silk Road' ကို စာသားအတိုင်း ယူပါက အနည်းငယ် လှည့်ဖြားသော အမည်တစ်ခု ဖြစ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It was not a single road but a network of many interconnected trade routes carrying far more than silk, including spices, ideas, religions, and technologies",
+            "The Silk Road was in fact a single, literal paved road carrying only silk and nothing else",
+            "The name has no actual connection to trade routes of any kind whatsoever",
+            "Only silk was ever transported along any part of this trade network",
+          ],
+          optionsMy: [
+            "၎င်းသည် လမ်းတစ်ခုတည်း မဟုတ်ဘဲ ပိုးထည်ထက် များစွာ ပို၍ များသော Spice, Idea, ဘာသာရေးနှင့် နည်းပညာများကို သယ်ဆောင်ခဲ့သော ချိတ်ဆက်ထားသော ကုန်သွယ်ရေး Route များစွာ၏ Network တစ်ခု ဖြစ်သည်",
+            "Silk Road သည် တကယ်တမ်း ပိုးထည်တစ်ခုတည်းကိုသာ သယ်ဆောင်ခဲ့သော လမ်းတစ်ခုတည်း၊ စာသားအတိုင်း ကျော်ထားသော လမ်းတစ်ခု ဖြစ်ခဲ့ခြင်း",
+            "ဤအမည်သည် ကုန်သွယ်ရေး Route မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ပိုးထည်တစ်ခုတည်းကိုသာ ဤ ကုန်သွယ်ရေး Network ၏ အစိတ်အပိုင်းတစ်ခုတစ်လျှောက် ဘယ်တော့မှ သယ်ဆောင်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same precise-vocabulary caution as Term 1 Week 1 -- a name can be a useful label while still oversimplifying the actual reality it refers to.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 Week 1 ၏ Precise-Vocabulary သတိပေးချက် တူတူ ဖြစ်သည် -- အမည်တစ်ခုသည် ၎င်းရည်ညွှန်းသော Actual Reality ကို Oversimplify ပြုလုပ်ဆဲပင် အသုံးဝင်သော Label တစ်ခု ဖြစ်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the Silk Road be understood as an exchange of ideas and technologies (such as papermaking or religious beliefs) alongside goods, rather than purely a trade network for physical objects?",
+          questionMy:
+              "Silk Road ကို Physical Object များအတွက် ကုန်သွယ်ရေး Network တစ်ခု သီးသန့်အစား ကုန်ပစ္စည်းများနှင့်အတူ Idea နှင့် Technology များ (Papermaking (သို့) ဘာသာရေး ယုံကြည်ချက်များကဲ့သို့) ၏ Exchange တစ်ခုအဖြစ် နားလည်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "Historical evidence documents technologies, religions, and knowledge spreading along these routes alongside physical goods, meaning the exchange's impact went far beyond material trade alone",
+            "The Silk Road only ever carried physical goods with no exchange of ideas whatsoever",
+            "Ideas and technologies never actually spread along trade routes in any historical period",
+            "Religious beliefs had no actual connection to Silk Road trade routes",
+          ],
+          optionsMy: [
+            "Physical ကုန်ပစ္စည်းများနှင့်အတူ ဤ Route များတစ်လျှောက် Technology, ဘာသာရေးနှင့် Knowledge ပျံ့နှံ့ခဲ့ကြောင်း သမိုင်းဆိုင်ရာ Evidence က Document ပြုလုပ်ထားပြီး Exchange ၏ Impact သည် Material Trade တစ်ခုတည်းထက် များစွာ ပို၍ ကျယ်ပြန့်ကြောင်း ဆိုလိုသည်",
+            "Silk Road သည် Idea Exchange မည်သည်မှ မပါဘဲ Physical ကုန်ပစ္စည်းများကိုသာ ဘယ်တော့မှ သယ်ဆောင်ခဲ့ခြင်း",
+            "Idea များနှင့် Technology များသည် သမိုင်းဆိုင်ရာ ကာလ မည်သည်တွင်မျှ ကုန်သွယ်ရေး Route များတစ်လျှောက် အမှန်တကယ် ဘယ်တော့မှ ပျံ့နှံ့ခြင်း မရှိခြင်း",
+            "ဘာသာရေး ယုံကြည်ချက်များသည် Silk Road ကုန်သွယ်ရေး Route များနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 18's cross-cultural-exchange lesson applied to trade routes -- exchange of ideas can travel alongside physical goods.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ကုန်သွယ်ရေး Route များပေါ်တွင် အသုံးချထားသော Week 18 ၏ Cross-Cultural-Exchange သင်ခန်းစာ ဖြစ်သည် -- Idea Exchange သည် Physical ကုန်ပစ္စည်းများနှင့်အတူ ခရီးသွားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a map of the Silk Road show multiple branching routes rather than a single fixed line, given what you learned about map-making in Term 1?",
+          questionMy:
+              "Term 1 တွင် Map-Making အကြောင်း သင်ယူခဲ့သည့်အရာကို ထောက်ရှု၍ Silk Road ၏ Map တစ်ခုသည် Fixed Line တစ်ခုတည်းအစား ကွဲထွက်သော Route များစွာကို အဘယ်ကြောင့် ပြသသင့်ရသနည်း။",
+          optionsEn: [
+            "An accurate map should reflect the actual geography, and since the Silk Road was genuinely a network of connected routes rather than one path, a single line would misrepresent the reality",
+            "A map's accuracy has no actual connection to how many routes it shows",
+            "The Silk Road genuinely was a single fixed line with no branching routes whatsoever",
+            "Showing multiple routes on a map always makes it less accurate than showing one",
+          ],
+          optionsMy: [
+            "တိကျသော Map တစ်ခုသည် Actual Geography ကို ထင်ဟပ်ပြသင့်ပြီး Silk Road သည် လမ်းတစ်ခုတည်းအစား စစ်မှန်စွာ ချိတ်ဆက်ထားသော Route များ၏ Network တစ်ခု ဖြစ်သောကြောင့် Line တစ်ခုတည်းသည် Reality ကို Misrepresent ပြုလုပ်လိမ့်မည်",
+            "Map တစ်ခု၏ တိကျမှုသည် ၎င်းပြသသော Route အရေအတွက်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Silk Road သည် ကွဲထွက်သော Route မည်သည်မှ မပါဘဲ လမ်းတစ်ခုတည်း Fixed Line စစ်မှန်စွာ ဖြစ်ခဲ့ခြင်း",
+            "Map တစ်ခုပေါ်တွင် Route များစွာ ပြသခြင်းသည် တစ်ခုတည်း ပြသခြင်းထက် အမြဲ ပို၍ တိကျမှု နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Term 1's map-skills lesson to Term 5's history content -- a map's job is to accurately represent the real, sometimes complex, geography.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Map-Skills သင်ခန်းစာကို Term 5 ၏ History Content နှင့် ချိတ်ဆက်ပေးသည် -- Map တစ်ခု၏ အလုပ်မှာ Real, တခါတရံ ရှုပ်ထွေးသော Geography ကို တိကျစွာ ကိုယ်စားပြုရန် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Silk Road Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Silk Road Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w19-dm-1",
+          termEn: "Trade network",
+          termMy: "Trade Network",
+          matchEn: "A connected system of many routes, not a single fixed path",
+          matchMy:
+              "လမ်းတစ်ခုတည်း Fixed Path မဟုတ်ဘဲ Route များစွာ၏ ချိတ်ဆက်ထားသော System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w19-dm-2",
+          termEn: "Papermaking",
+          termMy: "Papermaking",
+          matchEn: "A technology that spread westward along Silk Road routes",
+          matchMy:
+              "Silk Road Route များတစ်လျှောက် အနောက်ဘက်သို့ ပျံ့နှံ့ခဲ့သော Technology တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w19-dm-3",
+          termEn: "Caravan",
+          termMy: "Caravan",
+          matchEn:
+              "A group of traders and animals traveling together along trade routes",
+          matchMy:
+              "ကုန်သွယ်ရေး Route များတစ်လျှောက် အတူတကွ ခရီးသွားသော ကုန်သည်များနှင့် တိရစ္ဆာန်များ အုပ်စု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w19-dm-4",
+          termEn: "Cultural diffusion",
+          termMy: "Cultural Diffusion",
+          matchEn:
+              "The spread of ideas, religions, and customs from one region to another",
+          matchMy:
+              "ဒေသတစ်ခုမှ အခြားတစ်ခုသို့ Idea, ဘာသာရေးနှင့် ဓလေ့ထုံးတမ်းများ ပျံ့နှံ့မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good or Poor Trade Network Map?",
+      titleMy: "စီစစ်ကြမည် - ကောင်းသော (သို့) ညံ့ဖျင်းသော Trade Network Map",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Trade Network Map", "Poor Trade Network Map"],
+        bucketsMy: [
+          "ကောင်းသော Trade Network Map",
+          "ညံ့ဖျင်းသော Trade Network Map",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w19-sort-1",
+            labelEn: "A map showing multiple branching land and sea routes",
+            labelMy:
+                "ကွဲထွက်သော ကုန်းနှင့် ရေကြောင်း Route များစွာ ပြသသော Map တစ်ခု",
+            correctBucketEn: "Good Trade Network Map",
+            correctBucketMy: "ကောင်းသော Trade Network Map",
+          ),
+          SortingItem(
+            id: "sec1hum-w19-sort-2",
+            labelEn:
+                "A map showing only one single straight line with no other routes at all",
+            labelMy:
+                "အခြား Route မည်သည်မှ မပါဘဲ Straight Line တစ်ခုတည်းကိုသာ ပြသသော Map တစ်ခု",
+            correctBucketEn: "Poor Trade Network Map",
+            correctBucketMy: "ညံ့ဖျင်းသော Trade Network Map",
+          ),
+          SortingItem(
+            id: "sec1hum-w19-sort-3",
+            labelEn:
+                "A map that includes a key explaining what each route symbol represents",
+            labelMy:
+                "Route Symbol တစ်ခုစီသည် အဘယ်အရာကို ကိုယ်စားပြုသည်ကို ရှင်းပြသော Key ပါဝင်သော Map တစ်ခု",
+            correctBucketEn: "Good Trade Network Map",
+            correctBucketMy: "ကောင်းသော Trade Network Map",
+          ),
+          SortingItem(
+            id: "sec1hum-w19-sort-4",
+            labelEn:
+                "A map with no key, leaving readers to guess what each symbol means",
+            labelMy:
+                "Symbol တစ်ခုစီ၏ အဓိပ္ပာယ်ကို ဖတ်ရှုသူများ ခန့်မှန်းရန် ထားရှိထားသော Key မပါသော Map တစ်ခု",
+            correctBucketEn: "Poor Trade Network Map",
+            correctBucketMy: "ညံ့ဖျင်းသော Trade Network Map",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ye Min's Trade Route Map Correction",
+      titleMy: "စာဖတ်ခြင်း - Ye Min ၏ Trade Route Map ပြင်ဆင်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ye Min's Trade Route Map Correction",
+        titleMy: "Ye Min ၏ Trade Route Map ပြင်ဆင်ချက်",
+        passageEn:
+            "For Week 19's project, Ye Min drew a map of the Silk Road for his class presentation, applying Term 1's grid, scale, and key skills to a historical trade network for the first time.\n\nHis first draft showed a single line stretching from China to the Mediterranean, labeled simply 'Silk Road.' When he researched further, he discovered his map was misleading: the actual network included multiple overland branches through different mountain passes and oases, plus significant maritime routes connecting ports across the Indian Ocean -- a genuine network, not one path.\n\nYe Min redrew his map with several connected route lines and a key distinguishing land routes from sea routes, exactly the map-skills discipline from Term 1. He also added small icons at key points along the routes marking not just goods traded, but ideas and technologies that spread alongside them -- a papermaking icon near the routes into the Islamic world, connecting directly to Week 18's House of Wisdom lesson, and religious symbols marking the spread of Buddhism eastward and various faiths westward.\n\nHis teacher praised the revised map for two connected reasons: it was geographically more accurate, matching Term 1's map-skills standards, and it correctly represented the Silk Road as a network of exchange -- goods, ideas, and technologies together -- rather than a simple trade line carrying only silk.",
+        passageMy:
+            "Week 19 ၏ Project အတွက် ၎င်း၏ အတန်း Presentation အတွက် Silk Road ၏ Map တစ်ခုကို Ye Min ရေးဆွဲခဲ့ပြီး Term 1 ၏ Grid, Scale နှင့် Key Skill များကို သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Network တစ်ခုပေါ်တွင် ပထမဆုံးအကြိမ် အသုံးချခဲ့သည်။\n\n၎င်း၏ ပထမ Draft သည် တရုတ်မှ Mediterranean အထိ ကျယ်ပြန့်သော 'Silk Road' ဟု ရိုးရိုး Label တင်ထားသော လမ်းတစ်ခုတည်းကို ပြသခဲ့သည်။ ၎င်း ပို၍ Research ပြုလုပ်သောအခါ ၎င်း၏ Map သည် လှည့်ဖြားသည်ကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - Actual Network သည် ကွဲပြားသော တောင်တန်း Pass များနှင့် Oasis များမှတစ်ဆင့် Overland Branch များစွာနှင့် Indian Ocean တစ်လျှောက် Port များ ချိတ်ဆက်ထားသော သိသာထင်ရှားသော Maritime Route များ ပါဝင်ခဲ့ခြင်း ဖြစ်ကြောင်း -- လမ်းတစ်ခုတည်း မဟုတ်ဘဲ Genuine Network တစ်ခု ဖြစ်သည်။\n\nTerm 1 ၏ Map-Skills Discipline အတိအကျဖြင့် ချိတ်ဆက်ထားသော Route Line များစွာနှင့် ကုန်းလမ်း Route များကို ရေလမ်း Route များမှ ခွဲခြားပေးသော Key တစ်ခုနှင့်အတူ Ye Min သည် ၎င်း၏ Map ကို ပြန်လည် ရေးဆွဲခဲ့သည်။ Route များတစ်လျှောက် ရေးသားထားသော ကုန်ပစ္စည်းများသာမက ၎င်းတို့နှင့်အတူ ပျံ့နှံ့ခဲ့သော Idea များနှင့် Technology များကိုပါ မှတ်သားသော Icon ငယ်များကို အဓိက Point များတွင် ၎င်း ထပ်ထည့်ခဲ့သည် -- Islamic World သို့ Route များအနီးရှိ Papermaking Icon တစ်ခု၊ Week 18 ၏ House of Wisdom သင်ခန်းစာသို့ တိုက်ရိုက် ချိတ်ဆက်ကာ ဗုဒ္ဓဘာသာ အရှေ့ဘက်သို့ ပျံ့နှံ့ခြင်းနှင့် ယုံကြည်ချက် အမျိုးမျိုး အနောက်ဘက်သို့ ပျံ့နှံ့ခြင်းကို မှတ်သားသော ဘာသာရေး Symbol များ။\n\nချိတ်ဆက်ထားသော အကြောင်းရင်းနှစ်ခုအတွက် ပြင်ဆင်ထားသော Map ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် - Term 1 ၏ Map-Skills Standard များနှင့် ကိုက်ညီစွာ Geographically ပို၍ တိကျခဲ့ပြီး ပိုးထည်တစ်ခုတည်းကိုသာ သယ်ဆောင်သော ရိုးရှင်းသော ကုန်သွယ်ရေး Line တစ်ခုအစား Silk Road ကို Exchange Network တစ်ခု -- ကုန်ပစ္စည်း, Idea နှင့် Technology များ အတူတကွ -- အဖြစ် မှန်ကန်စွာ ကိုယ်စားပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ye Min discover was misleading about his first draft?",
+            questionMy:
+                "၎င်း၏ ပထမ Draft တွင် လှည့်ဖြားသည်ကို Ye Min ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The single line failed to show the actual network of multiple overland and maritime routes",
+              "The first draft contained no map of any kind whatsoever",
+              "The first draft was already perfectly accurate with no issues found",
+              "China and the Mediterranean had no actual trade connection historically",
+            ],
+            optionsMy: [
+              "Overland နှင့် Maritime Route များစွာ၏ Actual Network ကို လမ်းတစ်ခုတည်းက ပြသရန် မအောင်မြင်ခဲ့ခြင်း",
+              "ပထမ Draft တွင် Map မည်သည်မှ လုံးဝ မပါခြင်း",
+              "ပြဿနာ ရှာမတွေ့ဘဲ ပထမ Draft သည် လုံးလုံး တိကျပြီးသား ဖြစ်ခြင်း",
+              "တရုတ်နှင့် Mediterranean တွင် သမိုင်းအရ ကုန်သွယ်ရေး ချိတ်ဆက်မှု အမှန်တကယ် မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's discovered issue."],
+            hintsMy: [
+              "ရှာဖွေတွေ့ရှိခဲ့သော ပြဿနာကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Ye Min's icons mark beyond traded goods?",
+            questionMy:
+                "ကုန်သွယ်ထားသော ကုန်ပစ္စည်းများကျော်လွန်၍ Ye Min ၏ Icon များ မှတ်သားခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Ideas and technologies, such as papermaking and religious spread",
+              "Nothing at all beyond the goods themselves",
+              "Only the names of individual traders with no other information",
+              "Weather patterns unrelated to trade or culture",
+            ],
+            optionsMy: [
+              "Papermaking နှင့် ဘာသာရေး ပျံ့နှံ့မှုကဲ့သို့ Idea များနှင့် Technology များ",
+              "ကုန်ပစ္စည်းများကိုယ်တိုင်ကျော်လွန်၍ ဘယ်တော့မှ ဘာမှ",
+              "အခြား Information မပါဘဲ ကုန်သည်တစ်ဦးချင်းစီ၏ အမည်များသာ",
+              "ကုန်သွယ်ရေး (သို့) ယဉ်ကျေးမှုနှင့် မသက်ဆိုင်သော Weather Pattern များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described icons."],
+            hintsMy: [
+              "ဖော်ပြထားသော Icon များကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the teacher praise the revised map?",
+            questionMy:
+                "ပြင်ဆင်ထားသော Map ကို ဆရာမ ချီးမွမ်းခဲ့သည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was geographically more accurate and correctly represented the Silk Road as an exchange network",
+              "It contained no actual improvement over the first draft",
+              "It removed all reference to trade routes entirely",
+              "It showed only a single route with no other detail added",
+            ],
+            optionsMy: [
+              "Geographically ပို၍ တိကျပြီး Silk Road ကို Exchange Network တစ်ခုအဖြစ် မှန်ကန်စွာ ကိုယ်စားပြုခဲ့ခြင်း",
+              "ပထမ Draft ထက် တိုးတက်မှု အမှန်တကယ် မပါခြင်း",
+              "ကုန်သွယ်ရေး Route များအကြောင်း ရည်ညွှန်းချက်အားလုံးကို လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "အခြား Detail ထပ်ထည့်ခြင်း မပြုဘဲ Route တစ်ခုတည်းကိုသာ ပြသခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w19-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Silk Road Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Silk Road မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The 'Silk Road' is more accurately understood as...",
+          questionMy: "'Silk Road' ကို ...အဖြစ် ပို၍ တိကျစွာ နားလည်ရသည်",
+          optionsEn: [
+            "A network of many interconnected trade routes",
+            "A single, literal paved road with no branches",
+            "A route that carried only silk with nothing else",
+            "Something with no actual historical existence",
+          ],
+          optionsMy: [
+            "ချိတ်ဆက်ထားသော ကုန်သွယ်ရေး Route များစွာ၏ Network",
+            "ကွဲထွက်မှု မပါသော Single, စာသားအတိုင်း ကျော်ထားသော လမ်း",
+            "အခြား ဘာမှမပါဘဲ ပိုးထည်တစ်ခုတည်းကိုသာ သယ်ဆောင်ခဲ့သော Route တစ်ခု",
+            "သမိုင်းအရ Actual Existence မရှိသော အရာတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Along these trade routes, exchange included...",
+          questionMy:
+              "ဤ ကုန်သွယ်ရေး Route များတစ်လျှောက် Exchange တွင် ...ပါဝင်ခဲ့သည်",
+          optionsEn: [
+            "Goods, ideas, and technologies together",
+            "Only physical goods with no ideas exchanged",
+            "Nothing of any kind whatsoever",
+            "Only ideas with no physical goods at all",
+          ],
+          optionsMy: [
+            "ကုန်ပစ္စည်း, Idea နှင့် Technology များ အတူတကွ",
+            "Idea Exchange မပါဘဲ Physical ကုန်ပစ္စည်းများသာ",
+            "ဘယ်အရာမှ လုံးဝ",
+            "Physical ကုန်ပစ္စည်း မပါဘဲ Idea များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A map of the Silk Road should show...",
+          questionMy: "Silk Road ၏ Map တစ်ခုသည် ...ကို ပြသသင့်သည်",
+          optionsEn: [
+            "Multiple branching routes to accurately reflect the real network",
+            "A single fixed line with no branches at all",
+            "No key or legend of any kind whatsoever",
+            "Only one location with no route lines",
+          ],
+          optionsMy: [
+            "Real Network ကို တိကျစွာ ထင်ဟပ်ရန် ကွဲထွက်သော Route များစွာ",
+            "ကွဲထွက်မှု မပါသော Single Fixed Line တစ်ခုတည်း",
+            "Key (သို့) Legend မည်သည်မှ လုံးဝ",
+            "Route Line မပါဘဲ တည်နေရာတစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 5, Week 20 (Capstone/Boss Week):
+// "Silk Road Trade Journey Map Project"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek20 = CourseWeekDef(
+  id: "course-sec1-hum-w20",
+  weekNumber: 20,
+  titleEn: "Silk Road Trade Journey Map Project",
+  titleMy: "Silk Road Trade Journey Map Project",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w20-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Complete Trade Journey",
+      titleMy: "ပြည့်စုံသော Trade Journey တစ်ခု စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a Silk Road trade journey project combine accurate map skills (grid, scale, key) with historically documented stops and exchanges, rather than either alone?",
+          questionMy:
+              "Silk Road Trade Journey Project တစ်ခုသည် တစ်ခုတည်း အသုံးပြုမည့်အစား တိကျသော Map Skill များ (Grid, Scale, Key) ကို သမိုင်းအရ Document ပြုလုပ်ထားသော Stop များနှင့် Exchange များနှင့် အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A geographically accurate but historically empty map, or a historically rich but geographically inaccurate one, would each be incomplete on its own -- combining both gives the most complete, evidenced picture",
+            "Map skills and historical documentation have no actual connection to each other",
+            "A geographically accurate map alone is always sufficient with no historical content needed",
+            "Historical content alone is always sufficient with no need for map accuracy",
+          ],
+          optionsMy: [
+            "Geographically တိကျသော်လည်း သမိုင်းအရ Empty ဖြစ်သော Map တစ်ခု၊ (သို့) သမိုင်းအရ ကြွယ်ဝသော်လည်း Geographically မတိကျသော Map တစ်ခုသည် ၎င်းကိုယ်တိုင် Incomplete ဖြစ်လိမ့်မည် -- နှစ်ခုစလုံး ပေါင်းစပ်ခြင်းသည် ပြည့်စုံဆုံး၊ Evidenced ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Map Skill များနှင့် သမိုင်းဆိုင်ရာ Documentation တွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Geographically တိကျသော Map တစ်ခုတည်းသည် သမိုင်းဆိုင်ရာ Content မလိုအပ်ဘဲ အမြဲ လုံလောက်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Content တစ်ခုတည်းသည် Map Accuracy မလိုအပ်ဘဲ အမြဲ လုံလောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same combined-lens discipline from Term 1's capstone -- a strong project needs both the historian's evidence and the geographer's accuracy, working together.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Capstone မှ Combined-Lens Discipline တူတူ ဖြစ်သည် -- ခိုင်မာသော Project တစ်ခုသည် Historian ၏ Evidence နှင့် Geographer ၏ Accuracy နှစ်ခုလုံး အတူတကွ လုပ်ဆောင်ရန် လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should each stop marked on a trade journey map cite a specific, documented exchange (a named good, technology, or idea), rather than a generic label like 'trade happened here'?",
+          questionMy:
+              "Trade Journey Map ပေါ်တွင် မှတ်သားထားသော Stop တစ်ခုစီသည် 'ဤနေရာတွင် ကုန်သွယ်ရေး ဖြစ်ပျက်ခဲ့သည်' ကဲ့သို့ Generic Label တစ်ခုအစား တိကျ၊ Document ပြုလုပ်ထားသော Exchange (အမည်ရှိသော ကုန်ပစ္စည်း, Technology, (သို့) Idea) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, documented exchange is checkable and informative, matching the specificity habit built since Term 1, while a generic label conveys almost no real information",
+            "Generic labels are always more informative than specific, documented exchanges",
+            "Citing specific exchanges has no actual value on a trade journey map",
+            "Every stop on a trade route involved exactly the same exchange with no variation",
+          ],
+          optionsMy: [
+            "တိကျ၊ Document ပြုလုပ်ထားသော Exchange တစ်ခုသည် စစ်ဆေးနိုင်ပြီး Informative ဖြစ်ကာ Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Specificity Habit နှင့် ကိုက်ညီသော်လည်း Generic Label တစ်ခုသည် Real Information နီးပါး ဘာမှ မပေးအပ်ခြင်း",
+            "Generic Label များသည် Specific, Documented Exchange များထက် အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Exchange များ ကိုးကားခြင်းသည် Trade Journey Map တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Trade Route တစ်ခုပေါ်ရှိ Stop တိုင်းသည် Variation မပါဘဲ Exchange အတိအကျ တူညီစွာ ပါဝင်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 18's documented-achievement habit to Term 5's capstone -- name the specific exchange, don't just gesture vaguely at 'trade'.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 18 ၏ Documented-Achievement Habit ကို Term 5 ၏ Capstone နှင့် ချိတ်ဆက်ပေးသည် -- 'Trade' ကို ရိုးရိုး Vague ညွှန်ပြမည့်အစား တိကျသော Exchange ကို အမည်ဖော်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the project's final reflection note which parts of the journey are well-documented and which remain less certain or debated among historians, rather than presenting the entire route with equal confidence?",
+          questionMy:
+              "Project ၏ Final Reflection သည် Route တစ်ခုလုံးကို Confidence တူညီစွာ တင်ပြမည့်အစား Journey ၏ မည်သည့်အစိတ်အပိုင်းများ ကောင်းစွာ Document ပြုလုပ်ထားသည်နှင့် မည်သည့်အစိတ်အပိုင်းများ ပို၍ မသေချာသေးသည် (သို့) Historian များကြား ငြင်းခုံနေဆဲ ဖြစ်သည်ကို အဘယ်ကြောင့် မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "This honestly represents the actual state of historical evidence, applying the same uncertainty-acknowledgment habit practiced since Term 2's civilization comparisons",
+            "Every detail of the Silk Road's routes and exchanges is completely certain with no debate at all",
+            "Acknowledging uncertainty has no actual value in a historical mapping project",
+            "The final reflection should always claim complete certainty regardless of the actual evidence",
+          ],
+          optionsMy: [
+            "ဤသည်ကား သမိုင်းဆိုင်ရာ Evidence ၏ Actual State ကို ရိုးသားစွာ ကိုယ်စားပြုကာ Term 2 ၏ Civilization Comparison များမှစ၍ ကျင့်သုံးခဲ့သော Uncertainty-Acknowledgment Habit တူတူ အသုံးချသည်",
+            "Silk Road ၏ Route များနှင့် Exchange များ၏ Detail တိုင်းသည် Debate မရှိဘဲ လုံးလုံး သေချာခြင်း",
+            "Uncertainty အသိအမှတ်ပြုခြင်းသည် သမိုင်းဆိုင်ရာ Mapping Project တစ်ခုတွင် အမှန်တကယ် တန်ဖိုး မရှိခြင်း",
+            "Actual Evidence မည်သို့ပင်ရှိစေ Final Reflection သည် Complete Certainty ကို အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the honest-uncertainty principle from Term 2's museum exhibit, applied now to a historical-geographical mapping capstone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား သမိုင်း-ပထဝီဝင် Mapping Capstone တစ်ခုပေါ်တွင် ယခု အသုံးချထားသော Term 2 ၏ ပြတိုက် Exhibit မှ Honest-Uncertainty Principle ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Skills Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 5 Skills ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w20-dm-1",
+          termEn: "Combined lens project",
+          termMy: "Combined Lens Project",
+          matchEn:
+              "A project using both geographic accuracy and historical documentation together",
+          matchMy:
+              "Geographic Accuracy နှင့် သမိုင်းဆိုင်ရာ Documentation နှစ်ခုလုံးကို အတူတကွ အသုံးပြုသော Project",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w20-dm-2",
+          termEn: "Documented exchange",
+          termMy: "Documented Exchange",
+          matchEn:
+              "A specific, named good, technology, or idea cited at a trade stop",
+          matchMy:
+              "Trade Stop တစ်ခုတွင် ကိုးကားထားသော တိကျ၊ အမည်ရှိသော ကုန်ပစ္စည်း, Technology, (သို့) Idea",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w20-dm-3",
+          termEn: "Feudal exchange",
+          termMy: "Feudal Exchange",
+          matchEn:
+              "Land and protection flowing downward, loyalty and labor flowing upward",
+          matchMy:
+              "Loyalty နှင့် Labor အထက်သို့ စီးဆင်းစဉ် အောက်သို့ စီးဆင်းသော မြေနှင့် Protection",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w20-dm-4",
+          termEn: "Acknowledged uncertainty",
+          termMy: "Acknowledged Uncertainty",
+          matchEn:
+              "Honestly noting which parts of a route remain debated or unclear",
+          matchMy:
+              "Route ၏ မည်သည့်အစိတ်အပိုင်းများ ငြင်းခုံနေဆဲ (သို့) မရှင်းလင်းသေးသည်ကို ရိုးသားစွာ မှတ်သားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Trade Journey Entry or Weak?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော Trade Journey Entry (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Trade Journey Entry", "Weak Trade Journey Entry"],
+        bucketsMy: [
+          "ခိုင်မာသော Trade Journey Entry",
+          "အားနည်းသော Trade Journey Entry",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w20-sort-1",
+            labelEn:
+                "A stop citing a documented papermaking technology exchange with a grid reference",
+            labelMy:
+                "Grid Reference ပါသော Document ပြုလုပ်ထားသော Papermaking Technology Exchange ကို ကိုးကားသော Stop တစ်ခု",
+            correctBucketEn: "Strong Trade Journey Entry",
+            correctBucketMy: "ခိုင်မာသော Trade Journey Entry",
+          ),
+          SortingItem(
+            id: "sec1hum-w20-sort-2",
+            labelEn:
+                "A stop labeled only 'trade happened here' with no specific evidence at all",
+            labelMy:
+                "Specific Evidence မည်သည်မှ မပါဘဲ 'ဤနေရာတွင် ကုန်သွယ်ရေး ဖြစ်ပျက်ခဲ့သည်' ဟုသာ Label တင်ထားသော Stop တစ်ခု",
+            correctBucketEn: "Weak Trade Journey Entry",
+            correctBucketMy: "အားနည်းသော Trade Journey Entry",
+          ),
+          SortingItem(
+            id: "sec1hum-w20-sort-3",
+            labelEn:
+                "A reflection noting which route sections remain debated among historians",
+            labelMy:
+                "Route Section မည်သည်များ Historian များကြား ငြင်းခုံနေဆဲ ဖြစ်သည်ကို မှတ်သားသော Reflection တစ်ခု",
+            correctBucketEn: "Strong Trade Journey Entry",
+            correctBucketMy: "ခိုင်မာသော Trade Journey Entry",
+          ),
+          SortingItem(
+            id: "sec1hum-w20-sort-4",
+            labelEn:
+                "A reflection claiming every route detail is completely certain with no debate",
+            labelMy:
+                "Debate မရှိဘဲ Route Detail တိုင်းသည် လုံးလုံး သေချာသည်ဟု Claim ပြုလုပ်သော Reflection တစ်ခု",
+            correctBucketEn: "Weak Trade Journey Entry",
+            correctBucketMy: "အားနည်းသော Trade Journey Entry",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Class Trade Journey Exhibition",
+      titleMy: "စာဖတ်ခြင်း - အတန်း Trade Journey Exhibition",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Class Trade Journey Exhibition",
+        titleMy: "အတန်း Trade Journey Exhibition",
+        passageEn:
+            "For Term 5's capstone, each group in the class produced one leg of a combined Silk Road trade journey map, from a starting city in China to a final destination in the Mediterranean, with the full class map assembled from every group's contribution.\n\nApplying Monday's combined-lens lesson, every group's map segment included both an accurate grid, scale, and key (the geographer's contribution) and cited historical stops with documented exchanges (the historian's contribution). One group marked a mountain pass stop with a specific, cited exchange: silk moving west and a named glassmaking technique moving east, rather than a vague 'trade happened here' label.\n\nA disagreement arose between two groups over the exact route of one desert crossing, since their research sources described slightly different paths. Rather than picking one source and ignoring the other, the groups added a note to their shared map explaining that historians do not have complete agreement on this specific route section, and that their map showed the most commonly cited path while acknowledging the uncertainty -- directly applying Monday's honest-uncertainty lesson.\n\nWhen the full combined map was assembled and displayed, it showed branching routes rather than one line, labeled exchanges of goods alongside ideas and technologies like papermaking and religious practices, and an honestly marked zone of historical debate over the disputed desert crossing. Their teacher called it the clearest demonstration yet of a full-term lesson: an accurate map and an honest history are not separate goals, but two parts of the same disciplined process.",
+        passageMy:
+            "Term 5 ၏ Capstone အတွက် အတန်းရှိ Group တစ်ခုစီသည် တရုတ်ရှိ အစပြု မြို့တစ်ခုမှ Mediterranean ရှိ နောက်ဆုံး ဦးဆုံးနေရာတစ်ခုအထိ Combined Silk Road Trade Journey Map ၏ Leg တစ်ခုစီကို ထုတ်လုပ်ခဲ့ပြီး Group တစ်ခုစီ၏ Contribution မှ Full Class Map ကို ပေါင်းစည်းခဲ့သည်။\n\nတနင်္လာနေ့ ၏ Combined-Lens သင်ခန်းစာ အသုံးချကာ Group တစ်ခုစီ၏ Map Segment တွင် တိကျသော Grid, Scale နှင့် Key (Geographer ၏ Contribution) နှင့် Document ပြုလုပ်ထားသော Exchange များပါသော Cited သမိုင်းဆိုင်ရာ Stop များ (Historian ၏ Contribution) နှစ်ခုလုံး ပါဝင်ခဲ့သည်။ Group တစ်ခုသည် တောင်တန်း Pass Stop တစ်ခုကို 'ဤနေရာတွင် ကုန်သွယ်ရေး ဖြစ်ပျက်ခဲ့သည်' Vague Label တစ်ခုအစား အနောက်ဘက်သို့ ရွေ့လျားနေသော ပိုးထည်နှင့် အရှေ့ဘက်သို့ ရွေ့လျားနေသော အမည်ရှိသော Glassmaking Technique ဟူသော တိကျ၊ Cited Exchange တစ်ခုနှင့် မှတ်သားခဲ့သည်။\n\nGroup နှစ်ခုကြား Desert Crossing တစ်ခု၏ အတိအကျ Route အတွက် Disagreement တစ်ခု ပေါ်ပေါက်ခဲ့သည်၊ ၎င်းတို့၏ Research Source များသည် အနည်းငယ် ကွဲပြားသော Path များကို ဖော်ပြခဲ့သောကြောင့် ဖြစ်သည်။ Source တစ်ခုကို ရွေးချယ်ကာ အခြားတစ်ခုကို လျစ်လျူရှုမည့်အစား ဤ Specific Route Section တွင် Historian များ Complete Agreement မရှိကြောင်းနှင့် ၎င်းတို့၏ Map သည် Uncertainty ကို အသိအမှတ်ပြုစဉ် အများဆုံး Cited ပြုလုပ်ထားသော Path ကို ပြသကြောင်း ရှင်းပြသော မှတ်ချက်တစ်ခုကို Group များသည် ၎င်းတို့၏ မျှဝေ Map သို့ ထပ်ထည့်ခဲ့သည် -- တနင်္လာနေ့ ၏ Honest-Uncertainty သင်ခန်းစာကို တိုက်ရိုက် အသုံးချခဲ့ခြင်း ဖြစ်သည်။\n\nFull Combined Map ကို ပေါင်းစည်း၍ ပြသသောအခါ လမ်းတစ်ခုတည်းအစား ကွဲထွက်သော Route များကို ပြသခဲ့ပြီး Papermaking နှင့် ဘာသာရေး ကျင့်စဉ်များကဲ့သို့ Idea များနှင့် Technology များနှင့်အတူ ကုန်ပစ္စည်းများ၏ Exchange များကို Label တင်ခဲ့ကာ Disputed Desert Crossing ၏ သမိုင်းဆိုင်ရာ Debate ၏ Zone ကို ရိုးသားစွာ မှတ်သားခဲ့သည်။ တိကျသော Map တစ်ခုနှင့် ရိုးသား သမိုင်းတစ်ခုသည် သီးခြား ရည်မှန်းချက် မဟုတ်ဘဲ Disciplined Process တူတူ၏ အစိတ်အပိုင်းနှစ်ခု ဖြစ်ကြောင်း Term တစ်ခုလုံး သင်ခန်းစာ၏ ယခုအထိ ရှင်းလင်းဆုံး Demonstration ဟု ၎င်းတို့၏ ဆရာမ ခေါ်ဆိုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two elements did every group's map segment combine?",
+            questionMy:
+                "Group တစ်ခုစီ၏ Map Segment ပေါင်းစပ်ခဲ့သော Element နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Accurate geographic elements (grid, scale, key) and cited historical exchanges",
+              "No actual elements were combined in any group's map segment",
+              "Only decorative images with no geographic or historical content",
+              "Random guesses with no research of any kind whatsoever",
+            ],
+            optionsMy: [
+              "တိကျသော Geographic Element များ (Grid, Scale, Key) နှင့် Cited သမိုင်းဆိုင်ရာ Exchange များ",
+              "Group မည်သည်၏ Map Segment တွင် Element မည်သည်မှ ပေါင်းစပ်ခြင်း မရှိခြင်း",
+              "Geographic (သို့) သမိုင်းဆိုင်ရာ Content မပါဘဲ အလှဆင် Image များသာ",
+              "Research မည်သည်မှ မပါဘဲ ကျပန်း ခန့်မှန်းချက်များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described combination."],
+            hintsMy: [
+              "ဖော်ပြထားသော Combination ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did the two groups handle their disagreement about the desert crossing route?",
+            questionMy:
+                "Desert Crossing Route အကြောင်း ၎င်းတို့၏ Disagreement ကို Group နှစ်ခု မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They added a note acknowledging historians lack complete agreement on that section",
+              "They ignored the disagreement entirely and picked one source at random",
+              "They removed the desert crossing from the map completely",
+              "They refused to include any route information for that section at all",
+            ],
+            optionsMy: [
+              "Historian များ ထို Section တွင် Complete Agreement မရှိကြောင်း အသိအမှတ်ပြုသော မှတ်ချက်တစ်ခု ထပ်ထည့်ခဲ့ခြင်း",
+              "Disagreement ကို လုံးလုံး လျစ်လျူရှုပြီး Source တစ်ခုကို ကျပန်း ရွေးချယ်ခဲ့ခြင်း",
+              "Desert Crossing ကို Map မှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "ထို Section အတွက် Route Information မည်သည်ကိုမျှ ထည့်သွင်းရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described handling."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကိုင်တွယ်ပုံကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say an accurate map and an honest history represent?",
+            questionMy:
+                "တိကျသော Map တစ်ခုနှင့် ရိုးသား သမိုင်းတစ်ခု ကိုယ်စားပြုသည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two parts of the same disciplined process, not separate goals",
+              "Two completely unrelated goals with no connection to each other",
+              "Nothing meaningful when combined together",
+              "A contradiction that cannot be resolved in any project",
+            ],
+            optionsMy: [
+              "သီးခြား ရည်မှန်းချက်များ မဟုတ်ဘဲ Disciplined Process တူတူ၏ အစိတ်အပိုင်းနှစ်ခု",
+              "တစ်ခုနှင့်တစ်ခု ချိတ်ဆက်မှု မရှိသော လုံးလုံး မသက်ဆိုင်သော ရည်မှန်းချက်နှစ်ခု",
+              "အတူတကွ ပေါင်းစပ်သောအခါ အဓိပ္ပာယ်ရှိသည့်အရာ ဘာမှ",
+              "Project မည်သည်တွင်မျှ ဖြေရှင်း၍ မရနိုင်သော ဆန့်ကျင်ချက်တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: The Medieval World I Exam",
+      titleMy: "Term 5 Capstone - The Medieval World I စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A strong trade journey project combines...",
+          questionMy:
+              "ခိုင်မာသော Trade Journey Project တစ်ခုသည် ...ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "Geographic accuracy with documented historical exchanges",
+            "Only map skills with no historical content",
+            "Only historical content with no map accuracy",
+            "Neither map skills nor historical evidence",
+          ],
+          optionsMy: [
+            "Documented သမိုင်းဆိုင်ရာ Exchange များနှင့် Geographic Accuracy",
+            "သမိုင်းဆိုင်ရာ Content မပါဘဲ Map Skill များသာ",
+            "Map Accuracy မပါဘဲ သမိုင်းဆိုင်ရာ Content သာ",
+            "Map Skill နှင့် သမိုင်းဆိုင်ရာ Evidence နှစ်ခုစလုံး မပါခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trade stop marker should cite...",
+          questionMy: "Trade Stop Marker တစ်ခုသည် ...ကို ကိုးကားသင့်သည်",
+          optionsEn: [
+            "A specific, named, documented exchange",
+            "A vague 'trade happened here' label",
+            "Nothing at all about what was exchanged",
+            "A random guess with no evidence",
+          ],
+          optionsMy: [
+            "တိကျ၊ အမည်ရှိသော၊ Document ပြုလုပ်ထားသော Exchange",
+            "Vague 'ဤနေရာတွင် ကုန်သွယ်ရေး ဖြစ်ပျက်ခဲ့သည်' Label",
+            "Exchange ပြုလုပ်ခဲ့သည့်အရာအကြောင်း ဘာမှ",
+            "Evidence မပါသော ကျပန်း ခန့်မှန်းချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "When historians disagree about a specific historical detail, a responsible project should...",
+          questionMy:
+              "တိကျသော သမိုင်းဆိုင်ရာ Detail တစ်ခုအကြောင်း Historian များ သဘောမကွဲလွဲသောအခါ တာဝန်သိသော Project တစ်ခုသည် ...သင့်သည်",
+          optionsEn: [
+            "Honestly note the disagreement rather than claiming false certainty",
+            "Pick one side at random and present it as the only truth",
+            "Ignore the disagreement and mention nothing about it",
+            "Remove the disputed topic entirely from the project",
+          ],
+          optionsMy: [
+            "False Certainty Claim မပြုလုပ်ဘဲ Disagreement ကို ရိုးသားစွာ မှတ်သားသင့်သည်",
+            "ဘက်တစ်ဘက်ကို ကျပန်း ရွေးချယ်ကာ တစ်ခုတည်းသော Truth အဖြစ် တင်ပြသင့်သည်",
+            "Disagreement ကို လျစ်လျူရှုပြီး ၎င်းအကြောင်း ဘာမှ မဖော်ပြသင့်သည်",
+            "Disputed ခေါင်းစဉ်ကို Project မှ လုံးလုံး ဖယ်ရှားသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 5: "The Medieval World I" (Weeks
+// 17-20)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm5 = CourseTermDef(
+  id: "course-sec1-hum-t5",
+  termNumber: 5,
+  titleEn: "The Medieval World I",
+  titleMy: "The Medieval World I",
+  certificateTitleEn: "The Medieval World I",
+  certificateTitleMy: "The Medieval World I",
+  weeks: [_sec1HumWeek17, _sec1HumWeek18, _sec1HumWeek19, _sec1HumWeek20],
 );
 // __SEC_HUM_MARKER__
