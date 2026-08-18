@@ -103490,9 +103490,9 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history. Term 7, Settlements and Where People Live, covers why settlements form where they do, the precise distinction between urban and rural, and settlement patterns within Myanmar itself, closing with a My Town or City Case Study combining site-factor explanation with honest, evidenced classification.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history. Term 7, Settlements and Where People Live, covers why settlements form where they do, the precise distinction between urban and rural, and settlement patterns within Myanmar itself, closing with a My Town or City Case Study combining site-factor explanation with honest, evidenced classification. Term 8, Natural Resources and Trade, covers renewable and non-renewable resources, the resource-scarcity pattern behind historic trade routes, and the causes of resource-based conflict, closing with a Trade Route Mapping Studio combining why, what, and what risk into one connected, evidenced analysis.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Settlements and Where People Live သည် Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသည်၊ Urban နှင့် Rural ကြား တိကျသော ခွဲခြားချက်နှင့် မြန်မာနိုင်ငံအတွင်းရှိ Settlement Pattern များကို ဖုံးအုပ်ပြီး Site-Factor Explanation ကို ရိုးသား၊ Evidenced Classification နှင့် ပေါင်းစပ်ထားသော My Town or City Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Settlements and Where People Live သည် Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသည်၊ Urban နှင့် Rural ကြား တိကျသော ခွဲခြားချက်နှင့် မြန်မာနိုင်ငံအတွင်းရှိ Settlement Pattern များကို ဖုံးအုပ်ပြီး Site-Factor Explanation ကို ရိုးသား၊ Evidenced Classification နှင့် ပေါင်းစပ်ထားသော My Town or City Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Resources and Trade သည် Renewable နှင့် Non-Renewable Resource များ၊ သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Route များ နောက်ကွယ်ရှိ Resource-Scarcity Pattern နှင့် Resource-Based Conflict ၏ အကြောင်းရင်းများကို ဖုံးအုပ်ပြီး Why, What နှင့် What Risk ကို ချိတ်ဆက်ထားသော Evidenced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Trade Route Mapping Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec1HumTerm1,
@@ -103502,6 +103502,7 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
     _sec1HumTerm5,
     _sec1HumTerm6,
     _sec1HumTerm7,
+    _sec1HumTerm8,
   ],
 );
 // =====================================================================
@@ -112061,5 +112062,1426 @@ const CourseTermDef _sec1HumTerm7 = CourseTermDef(
   certificateTitleEn: "Settlements and Where People Live",
   certificateTitleMy: "Settlements and Where People Live",
   weeks: [_sec1HumWeek25, _sec1HumWeek26, _sec1HumWeek27, _sec1HumWeek28],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 8: "Natural Resources and Trade"
+// (Weeks 29-32)
+// Term 8, Week 29: "Understanding Natural Resources"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek29 = CourseWeekDef(
+  id: "course-sec1-hum-w29",
+  weekNumber: 29,
+  titleEn: "Understanding Natural Resources",
+  titleMy: "သဘာဝ အရင်းအမြစ်များ နားလည်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w29-d1",
+      dayNumber: 1,
+      titleEn: "Renewable and Non-Renewable Resources",
+      titleMy: "Renewable နှင့် Non-Renewable Resource များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the distinction between renewable and non-renewable resources important when evaluating how a region uses a specific resource, rather than treating all resources as interchangeable?",
+          questionMy:
+              "ဒေသတစ်ခု Resource တိကျတစ်ခုကို မည်သို့ အသုံးပြုသည်ကို အကဲဖြတ်သောအခါ Resource အားလုံးကို Interchangeable အဖြစ် သဘောထားမည့်အစား Renewable နှင့် Non-Renewable Resource များကြား ခွဲခြားချက်သည် အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Renewable resources can replenish naturally within a human timescale, while non-renewable ones cannot, meaning the long-term consequences of use differ significantly between the two categories",
+            "Renewable and non-renewable resources have no actual practical difference of any kind",
+            "Every resource replenishes at exactly the same rate regardless of its type",
+            "This distinction has no actual relevance to how a region should manage its resources",
+          ],
+          optionsMy: [
+            "Renewable Resource များသည် လူသား Timescale တစ်ခုအတွင်း သဘာဝအတိုင်း ပြန်ဖြည့်နိုင်သော်လည်း Non-Renewable များ မဖြည့်နိုင်သောကြောင့် Category နှစ်ခုကြား Long-Term Consequence များ သိသိသာသာ ကွဲပြားသည်",
+            "Renewable နှင့် Non-Renewable Resource များတွင် Practical Difference မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Resource တိုင်းသည် ၎င်း၏ Type မည်သို့ပင်ရှိစေ Rate အတိအကျ တူညီစွာ ပြန်ဖြည့်ခြင်း",
+            "ဤ ခွဲခြားချက်သည် ဒေသတစ်ခု ၎င်း၏ Resource များ မည်သို့ စီမံခန့်ခွဲသင့်သည်နှင့် အမှန်တကယ် Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same precise-vocabulary discipline from Week 14's weather-vs-climate lesson -- two related but genuinely different categories should not be treated as identical.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 14 ၏ Weather-Vs-Climate သင်ခန်းစာမှ Precise-Vocabulary Discipline တူတူ ဖြစ်သည် -- ဆက်စပ်နေသော်လည်း စစ်မှန်စွာ ကွဲပြားသော Category နှစ်ခုကို Identical အဖြစ် မသဘောထားသင့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim like 'this country is resource-poor' be checked against actual documented resource data, rather than a general impression based on visible surface features alone?",
+          questionMy:
+              "'ဤနိုင်ငံသည် Resource-Poor ဖြစ်သည်' ကဲ့သို့ Claim တစ်ခုကို မြင်နိုင်သော Surface Feature များတစ်ခုတည်းအပေါ် အခြေခံသော General Impression တစ်ခုအစား Actual Documented Resource Data ဖြင့် အဘယ်ကြောင့် စစ်ဆေးသင့်ရသနည်း။",
+          optionsEn: [
+            "Many valuable resources (such as underground minerals or offshore reserves) are not visible on the surface, so a claim based only on visible appearance risks being inaccurate",
+            "Visible surface appearance always perfectly reflects a country's actual resource wealth",
+            "Checking documented resource data has no actual value in evaluating resource wealth",
+            "Every country's visible landscape accurately shows all resources it actually possesses",
+          ],
+          optionsMy: [
+            "တန်ဖိုးရှိသော Resource များစွာ (မြေအောက်ရှိ သတ္တုကြွင်းများ (သို့) Offshore Reserve များကဲ့သို့) သည် Surface ပေါ်တွင် မမြင်ရသောကြောင့် မြင်နိုင်သော Appearance တစ်ခုတည်းအပေါ် အခြေခံသော Claim တစ်ခုသည် Inaccurate ဖြစ်နိုင်ခြေ ရှိသည်",
+            "မြင်နိုင်သော Surface Appearance သည် နိုင်ငံတစ်ခု၏ Actual Resource Wealth ကို အမြဲ ပြည့်စုံစွာ ထင်ဟပ်ပြသည်",
+            "Documented Resource Data စစ်ဆေးခြင်းသည် Resource Wealth အကဲဖြတ်ရာတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "နိုင်ငံတိုင်း၏ မြင်နိုင်သော Landscape သည် ၎င်း အမှန်တကယ် ပိုင်ဆိုင်သော Resource အားလုံးကို တိကျစွာ ပြသခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same evidence-vs-guess principle from Term 1's very first lesson -- what is visible is not the same as what has actually been documented.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ ပထမဆုံး သင်ခန်းစာမှ Evidence-Vs-Guess Principle တူတူ ဖြစ်သည် -- မြင်နိုင်သည့်အရာသည် အမှန်တကယ် Document ပြုလုပ်ထားသည့်အရာနှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a discussion of a specific resource's economic importance cite specific data (such as export figures or a documented reserve size), rather than a vague claim that 'this resource matters a lot'?",
+          questionMy:
+              "Resource တိကျတစ်ခု၏ Economic Importance ဆွေးနွေးချက်သည် 'ဤ Resource သည် များစွာ အရေးကြီးသည်' ကဲ့သို့ Vague Claim တစ်ခုအစား Specific Data (Export ကိန်းဂဏန်းများ (သို့) Document ပြုလုပ်ထားသော Reserve Size ကဲ့သို့) ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific data makes a claim about economic importance checkable and meaningful, matching the specificity habit built across the whole course, while a vague claim conveys almost no useful information",
+            "Vague claims are always more informative than specific cited data",
+            "Citing specific data has no actual value when discussing resource importance",
+            "Export figures and reserve sizes have no actual connection to a resource's economic importance",
+          ],
+          optionsMy: [
+            "Specific Data သည် Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specificity Habit နှင့် ကိုက်ညီစွာ Economic Importance အကြောင်း Claim တစ်ခုကို စစ်ဆေးနိုင်၊ အဓိပ္ပာယ်ရှိစေသော်လည်း Vague Claim တစ်ခုသည် အသုံးဝင်သော Information နီးပါး ဘာမှ မဆောင်ပေးပါ",
+            "Vague Claim များသည် Specific Cited Data ထက် အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Data ကိုးကားခြင်းသည် Resource Importance ဆွေးနွေးရာတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "Export ကိန်းဂဏန်းများနှင့် Reserve Size များသည် Resource တစ်ခု၏ Economic Importance နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-achievement habit from Week 18 and Week 22, applied now to resource economics.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Resource Economics ပေါ်တွင် ယခု အသုံးချထားသော Week 18 နှင့် Week 22 မှ Documented-Achievement Habit တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Natural Resources Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သဘာဝ အရင်းအမြစ်များ Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w29-dm-1",
+          termEn: "Renewable resource",
+          termMy: "Renewable Resource",
+          matchEn:
+              "A resource that can naturally replenish within a human timescale",
+          matchMy:
+              "လူသား Timescale တစ်ခုအတွင်း သဘာဝအတိုင်း ပြန်ဖြည့်နိုင်သော Resource",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w29-dm-2",
+          termEn: "Non-renewable resource",
+          termMy: "Non-Renewable Resource",
+          matchEn:
+              "A resource that cannot replenish within a human timescale once used",
+          matchMy:
+              "အသုံးပြုပြီးသည်နှင့် လူသား Timescale တစ်ခုအတွင်း ပြန်ဖြည့်၍ မရနိုင်သော Resource",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w29-dm-3",
+          termEn: "Documented reserve",
+          termMy: "Documented Reserve",
+          matchEn:
+              "A verified, measured quantity of a resource known to exist in a location",
+          matchMy:
+              "တည်နေရာတစ်ခုတွင် ရှိသည်ဟု သိရှိထားသော Resource တစ်ခု၏ Verified, တိုင်းတာထားသော ပမာဏ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w29-dm-4",
+          termEn: "Hidden resource",
+          termMy: "Hidden Resource",
+          matchEn:
+              "A resource not visible on the surface, such as underground minerals",
+          matchMy:
+              "မြေအောက်ရှိ သတ္တုကြွင်းများကဲ့သို့ Surface ပေါ်တွင် မမြင်ရသော Resource",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Renewable or Non-Renewable?",
+      titleMy: "စီစစ်ကြမည် - Renewable (သို့) Non-Renewable",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Renewable Resource", "Non-Renewable Resource"],
+        bucketsMy: ["Renewable Resource", "Non-Renewable Resource"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w29-sort-1",
+            labelEn: "Sustainably managed forest timber that regrows over time",
+            labelMy:
+                "အချိန်ကြာလာသည်နှင့်အမျှ ပြန်ကြီးထွားလာသော Sustainably စီမံထားသော သစ်တောသစ်ကုန်း",
+            correctBucketEn: "Renewable Resource",
+            correctBucketMy: "Renewable Resource",
+          ),
+          SortingItem(
+            id: "sec1hum-w29-sort-2",
+            labelEn: "Coal extracted from underground deposits",
+            labelMy:
+                "မြေအောက်ရှိ ကျောက်မီးသွေး Deposit များမှ ထုတ်ယူထားသော ကျောက်မီးသွေး",
+            correctBucketEn: "Non-Renewable Resource",
+            correctBucketMy: "Non-Renewable Resource",
+          ),
+          SortingItem(
+            id: "sec1hum-w29-sort-3",
+            labelEn: "Solar energy captured continuously from sunlight",
+            labelMy: "နေရောင်ခြည်မှ ဆက်တိုက် ဖမ်းယူထားသော Solar Energy",
+            correctBucketEn: "Renewable Resource",
+            correctBucketMy: "Renewable Resource",
+          ),
+          SortingItem(
+            id: "sec1hum-w29-sort-4",
+            labelEn: "Crude oil pumped from an underground reserve",
+            labelMy: "မြေအောက် Reserve တစ်ခုမှ ပန့်ထုတ်ထားသော ရေနံသိုင်း",
+            correctBucketEn: "Non-Renewable Resource",
+            correctBucketMy: "Non-Renewable Resource",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Resource Investigation",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ Resource Investigation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Resource Investigation",
+        titleMy: "Ko Zin Ko Ko ၏ Resource Investigation",
+        passageEn:
+            "For Week 29's project, Ko Zin Ko Ko was asked to evaluate the claim that a particular country was 'resource-poor', based on an older textbook description of its mostly flat, unremarkable-looking landscape.\n\nApplying Term 1's evidence-vs-guess principle, he decided not to accept the visible-landscape argument at face value and instead researched documented geological surveys of the country. He found something the textbook had missed entirely: substantial underground mineral deposits and offshore reserves, none of which were visible from the surface but all of which were confirmed through actual survey data.\n\nHe also carefully distinguished renewable from non-renewable resources in his report, following Monday's lesson: the country's fertile farmland (a renewable resource, if managed sustainably) was separate from its mineral deposits (a non-renewable resource, finite once extracted) -- two different resource categories requiring different long-term thinking, not one undifferentiated category of 'resources'.\n\nHis final report cited specific documented reserve figures and export data rather than a vague claim of importance, concluding that the country was significantly more resource-rich than its visible landscape suggested. His teacher praised the correction, noting that 'resource-poor' had been an unverified impression based on surface appearance, not a claim actually checked against real geological and economic evidence.",
+        passageMy:
+            "Week 29 ၏ Project အတွက် နိုင်ငံ၏ ယေဘုယျအားဖြင့် ညီညာ၊ ထူးထူးခြားခြား မရှိသော Landscape ၏ Textbook ဟောင်း ဖော်ပြချက်တစ်ခုအပေါ် အခြေခံ၍ နိုင်ငံတိကျတစ်ခုသည် 'Resource-Poor' ဖြစ်သည်ဆိုသော Claim ကို အကဲဖြတ်ရန် Ko Zin Ko Ko အား တောင်းဆိုခဲ့သည်။\n\nTerm 1 ၏ Evidence-Vs-Guess Principle အသုံးချကာ Face Value အတိုင်း Visible-Landscape Argument ကို လက်မခံရန် ၎င်း ဆုံးဖြတ်ခဲ့ပြီး ၎င်းအစား နိုင်ငံ၏ Document ပြုလုပ်ထားသော Geological Survey များကို Research ပြုလုပ်ခဲ့သည်။ Textbook က လုံးလုံး လွတ်သွားခဲ့သော အရာတစ်ခုကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - Substantial မြေအောက်ရှိ သတ္တု Deposit များနှင့် Offshore Reserve များ၊ ၎င်းတို့ Surface မှ မမြင်ရသော်လည်း Actual Survey Data မှတစ်ဆင့် အားလုံး အတည်ပြုထားသည်။\n\nတနင်္လာနေ့ ၏ သင်ခန်းစာကို လိုက်နာကာ ၎င်း၏ Report တွင် Renewable ကို Non-Renewable Resource များမှ ဂရုတစိုက် ခွဲခြားခဲ့သည် - နိုင်ငံ၏ မြေဩဇာကောင်းသော လယ်ယာမြေ (Sustainably စီမံထားလျှင် Renewable Resource တစ်ခု) သည် ၎င်း၏ သတ္တု Deposit များ (ထုတ်ယူပြီးသည်နှင့် Finite ဖြစ်သော Non-Renewable Resource တစ်ခု) မှ သီးခြားစီ ဖြစ်ခဲ့သည် -- 'Resource' Undifferentiated Category တစ်ခုတည်း မဟုတ်ဘဲ ကွဲပြားသော Long-Term Thinking လိုအပ်သော ကွဲပြားသော Resource Category နှစ်ခု။\n\nImportance ၏ Vague Claim တစ်ခုအစား Specific Documented Reserve ကိန်းဂဏန်းများနှင့် Export Data ကို ၎င်း၏ နောက်ဆုံး Report ကိုးကားကာ နိုင်ငံသည် ၎င်း၏ Visible Landscape ညွှန်ပြသည်ထက် သိသိသာသာ ပို၍ Resource-Rich ဖြစ်ကြောင်း ကောက်ချက်ချခဲ့သည်။ 'Resource-Poor' သည် Real Geological နှင့် Economic Evidence နှင့် အမှန်တကယ် စစ်ဆေးထားသော Claim တစ်ခု မဟုတ်ဘဲ Surface Appearance ပေါ် အခြေခံသော Unverified Impression တစ်ခု ဖြစ်ခဲ့ကြောင်း ၎င်း၏ ဆရာမ ပြင်ဆင်ချက်ကို မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ko Zin Ko Ko's geological survey research find?",
+            questionMy:
+                "Ko Zin Ko Ko ၏ Geological Survey Research ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Substantial underground mineral deposits and offshore reserves not visible from the surface",
+              "No resources of any kind existed anywhere in the country",
+              "The textbook's original claim was completely accurate with no correction needed",
+              "Only surface-visible resources with nothing hidden underground",
+            ],
+            optionsMy: [
+              "Surface မှ မမြင်ရသော Substantial မြေအောက်ရှိ သတ္တု Deposit များနှင့် Offshore Reserve များ",
+              "နိုင်ငံတွင် နေရာမည်သည်၌မျှ Resource မည်သည်မှ မရှိခြင်း",
+              "ပြင်ဆင်ရန် မလိုအပ်ဘဲ Textbook ၏ Original Claim သည် လုံးလုံး တိကျခြင်း",
+              "မြေအောက်တွင် ဖုံးကွယ်ထားသည့်အရာ မပါဘဲ Surface-Visible Resource များသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's research findings."],
+            hintsMy: [
+              "Research Finding များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Ko Zin Ko Ko distinguish the country's farmland from its mineral deposits?",
+            questionMy:
+                "နိုင်ငံ၏ လယ်ယာမြေကို ၎င်း၏ သတ္တု Deposit များမှ Ko Zin Ko Ko မည်သို့ ခွဲခြားခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Farmland as a renewable resource, mineral deposits as a non-renewable one, requiring different thinking",
+              "He treated both as exactly the same undifferentiated category with no distinction",
+              "He claimed neither resource had any actual economic value whatsoever",
+              "He refused to categorize either resource in any way at all",
+            ],
+            optionsMy: [
+              "Farmland ကို Renewable Resource တစ်ခုအဖြစ်၊ သတ္တု Deposit များကို Non-Renewable တစ်ခုအဖြစ်၊ ကွဲပြားသော Thinking လိုအပ်သည်",
+              "ခွဲခြားချက် မပြုဘဲ Undifferentiated Category အတိအကျ တူတူအဖြစ် နှစ်ခုစလုံးကို ကိုင်တွယ်ခဲ့ခြင်း",
+              "Resource နှစ်ခုစလုံးတွင် Actual Economic Value မည်သည်မှ မရှိကြောင်း Claim ပြုလုပ်ခဲ့ခြင်း",
+              "Resource နှစ်ခုစလုံးကို နည်းလမ်း မည်သည်နှင့်မျှ Categorize ပြုလုပ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's distinction."],
+            hintsMy: ["ခွဲခြားချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say 'resource-poor' had actually been?",
+            questionMy:
+                "'Resource-Poor' သည် အမှန်တကယ် ဘာ ဖြစ်ခဲ့သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An unverified impression based on surface appearance, not checked evidence",
+              "A completely accurate claim fully supported by geological survey data",
+              "A claim with no actual connection to any evidence of any kind",
+              "The only possible correct description of the country's resources",
+            ],
+            optionsMy: [
+              "Checked Evidence မဟုတ်ဘဲ Surface Appearance ပေါ် အခြေခံသော Unverified Impression တစ်ခု",
+              "Geological Survey Data က အပြည့်အစုံ ထောက်ခံသော လုံးလုံး တိကျသော Claim တစ်ခု",
+              "Evidence မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိသော Claim တစ်ခု",
+              "နိုင်ငံ၏ Resource များ၏ ဖြစ်နိုင်ချေရှိသော မှန်ကန်သော ဖော်ပြချက်တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated correction."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပြင်ဆင်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w29-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Natural Resources Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - သဘာဝ အရင်းအမြစ်များ မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Renewable and non-renewable resources differ because...",
+          questionMy:
+              "Renewable နှင့် Non-Renewable Resource များ ကွဲပြားသည့် အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "Renewable resources can replenish within a human timescale; non-renewable ones cannot",
+            "Both categories replenish at exactly the same rate",
+            "Neither category has any actual long-term consequence",
+            "This distinction has no actual meaning",
+          ],
+          optionsMy: [
+            "Renewable Resource များသည် လူသား Timescale အတွင်း ပြန်ဖြည့်နိုင်သော်လည်း Non-Renewable များ မဖြည့်နိုင်ခြင်း",
+            "Category နှစ်ခုစလုံးသည် Rate အတိအကျ တူညီစွာ ပြန်ဖြည့်ခြင်း",
+            "Category နှစ်ခုစလုံးတွင် Actual Long-Term Consequence မည်သည်မှ မရှိခြင်း",
+            "ဤ ခွဲခြားချက်တွင် Actual Meaning မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A country's resource wealth should be evaluated using...",
+          questionMy:
+              "နိုင်ငံတစ်ခု၏ Resource Wealth ကို ...အသုံးပြု၍ အကဲဖြတ်သင့်သည်",
+          optionsEn: [
+            "Documented survey data, not visible surface appearance alone",
+            "Only visible surface appearance with no other evidence",
+            "No evidence of any kind whatsoever",
+            "A guess based purely on impression",
+          ],
+          optionsMy: [
+            "Visible Surface Appearance တစ်ခုတည်းမဟုတ်ဘဲ Documented Survey Data",
+            "အခြား Evidence မပါဘဲ Visible Surface Appearance တစ်ခုတည်း",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Impression တစ်ခုတည်းအပေါ် အခြေခံသော ခန့်မှန်းချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A resource's economic importance should be cited with...",
+          questionMy:
+              "Resource တစ်ခု၏ Economic Importance ကို ...ဖြင့် ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific data such as export figures or reserve size",
+            "A vague claim that it 'matters a lot'",
+            "No supporting evidence of any kind",
+            "An impression with no actual data",
+          ],
+          optionsMy: [
+            "Export ကိန်းဂဏန်းများ (သို့) Reserve Size ကဲ့သို့ Specific Data",
+            "'များစွာ အရေးကြီးသည်' ဆိုသော Vague Claim",
+            "ထောက်ခံသော Evidence မည်သည်မှ",
+            "Actual Data မပါသော Impression တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 8, Week 30: "Trade Routes: Moving
+// Scarce Resources"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek30 = CourseWeekDef(
+  id: "course-sec1-hum-w30",
+  weekNumber: 30,
+  titleEn: "Trade Routes: Moving Scarce Resources",
+  titleMy: "ကုန်သွယ်ရေး Route များ - ရှားပါးသော Resource များ ရွှေ့လျားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w30-d1",
+      dayNumber: 1,
+      titleEn: "The Common Pattern Behind Historic Trade",
+      titleMy: "သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး နောက်ကွယ်ရှိ Common Pattern",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "What common pattern connects the Silk Road (Term 5) and the trans-Saharan gold-salt trade (Term 6), when viewed through the resource-scarcity lens from this week?",
+          questionMy:
+              "ဤ Week ၏ Resource-Scarcity မှန်ဘီလူးမှတစ်ဆင့် ကြည့်ရှုပါက Silk Road (Term 5) နှင့် Trans-Saharan ရွှေ-ဆား ကုန်သွယ်ရေး (Term 6) ကို ချိတ်ဆက်ပေးသော Common Pattern ကား အဘယ်နည်း။",
+          optionsEn: [
+            "In both cases, a resource abundant in one region and scarce in another created strong economic incentive for long-distance exchange, generating wealth for those who controlled the route",
+            "The Silk Road and the trans-Saharan trade have no actual connection or shared pattern of any kind",
+            "Both trade networks involved identical goods with no difference in what was exchanged",
+            "Resource scarcity had no actual role in either the Silk Road or the trans-Saharan trade",
+          ],
+          optionsMy: [
+            "နှစ်ခုစလုံးတွင် ဒေသတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Resource တစ်ခုသည် Route ကို Control ပြုလုပ်သူများအတွက် ချမ်းသာကြွယ်ဝမှု ဖြစ်ပေါ်စေသော Long-Distance Exchange အတွက် ခိုင်မာသော Economic Incentive ကို ဖန်တီးခဲ့သည်",
+            "Silk Road နှင့် Trans-Saharan ကုန်သွယ်ရေးတွင် Connection (သို့) Shared Pattern မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Trade Network နှစ်ခုစလုံးတွင် Exchange ပြုလုပ်ခဲ့သည့်အရာ ကွာခြားချက် မရှိဘဲ Identical ကုန်ပစ္စည်းများ ပါဝင်ခဲ့ခြင်း",
+            "Resource Scarcity သည် Silk Road (သို့) Trans-Saharan ကုန်သွယ်ရေးနှစ်ခုစလုံးတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 21's gold-salt lesson to Week 19's Silk Road lesson -- both were built on the same underlying resource-scarcity logic, now named explicitly.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21 ၏ Gold-Salt သင်ခန်းစာကို Week 19 ၏ Silk Road သင်ခန်းစာနှင့် ချိတ်ဆက်ပေးသည် -- နှစ်ခုစလုံးသည် ယခု ရှင်းလင်းစွာ အမည်တပ်ထားသော Underlying Resource-Scarcity Logic တူတူတစ်ခုပေါ် တည်ဆောက်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid assuming that every historic trade route can be explained by the exact same balance of factors, given the genuine variation you have studied between the Silk Road and trans-Saharan trade?",
+          questionMy:
+              "Silk Road နှင့် Trans-Saharan ကုန်သွယ်ရေးကြား သင် လေ့လာခဲ့သော စစ်မှန်သော Variation ကို ထောက်ရှု၍ သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Route တိုင်းကို Factor Balance အတိအကျ တူတူဖြင့် ရှင်းပြနိုင်သည်ဟု ကျောင်းသားများ ယူဆခြင်း အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Each trade route developed within its own specific geography, resources, and political context, so a shared general pattern (resource scarcity driving exchange) does not mean every route's details were identical",
+            "Every historic trade route in the world was in fact identical in every detail with no genuine variation",
+            "Shared patterns between trade routes have no actual educational value",
+            "Trade routes never actually shared any meaningful pattern with each other",
+          ],
+          optionsMy: [
+            "ကုန်သွယ်ရေး Route တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် Specific Geography, Resource နှင့် Political Context အတွင်း ဖွံ့ဖြိုးခဲ့သောကြောင့် Shared General Pattern (Exchange ကို ဖြစ်ပေါ်စေသော Resource Scarcity) သည် Route တိုင်း၏ Detail များ Identical ဖြစ်ကြောင်း မဆိုလိုပါ",
+            "ကမ္ဘာပေါ်ရှိ သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Route တိုင်းသည် စစ်မှန်သော Variation မရှိဘဲ Detail တိုင်းတွင် အမှန်တကယ် Identical ဖြစ်ခဲ့ခြင်း",
+            "ကုန်သွယ်ရေး Route များကြား Shared Pattern များတွင် Actual Educational Value မရှိခြင်း",
+            "ကုန်သွယ်ရေး Route များသည် တစ်ခုနှင့်တစ်ခု အဓိပ္ပာယ်ရှိသော Pattern မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မမျှဝေခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'shared pattern does not mean identical' caution from Term 2's civilization comparison, applied now to trade route analysis.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Trade Route Analysis ပေါ်တွင် ယခု အသုံးချထားသော Term 2 ၏ Civilization Comparison မှ 'Shared Pattern သည် Identical ကို မဆိုလို' သတိပေးချက် တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a resource-focused trade route map (as you will build this week) cite the specific documented resources exchanged at each point, exactly as Week 20's Silk Road map project required?",
+          questionMy:
+              "Resource-Focused ကုန်သွယ်ရေး Route Map တစ်ခု (ဤ Week ၌ သင် တည်ဆောက်မည့်) သည် Week 20 ၏ Silk Road Map Project တောင်းဆိုခဲ့သည့်အတိုင်း Point တစ်ခုစီတွင် လဲလှယ်ထားသော Specific Documented Resource များကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "This maintains the same specificity-and-evidence standard applied to every map throughout the course, rather than a vague, unlabeled trade route with no checkable detail",
+            "A trade route map never actually needs to cite any specific resources",
+            "Vague, unlabeled trade routes are always more useful than specific, cited ones",
+            "The standard for this week's map should be lower than what Week 20's project required",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Checkable Detail မပါသော Vague, Unlabeled ကုန်သွယ်ရေး Route တစ်ခုအစား Course တစ်ခုလုံးတစ်လျှောက် Map တိုင်းအတွက် အသုံးချထားသော Specificity-And-Evidence Standard တူတူကို ထိန်းသိမ်းသည်",
+            "ကုန်သွယ်ရေး Route Map တစ်ခုသည် Specific Resource မည်သည်ကိုမျှ အမှန်တကယ် ကိုးကားရန် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Vague, Unlabeled ကုန်သွယ်ရေး Route များသည် Specific, Cited တို့ထက် အမြဲ ပို၍ အသုံးဝင်ခြင်း",
+            "ဤ Week ၏ Map အတွက် Standard သည် Week 20 ၏ Project တောင်းဆိုခဲ့သည်ထက် နိမ့်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 20's documented-exchange habit -- the same standard applies whenever mapping any trade network.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 20 ၏ Documented-Exchange Habit ကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Trade Network မည်သည်ကိုမဆို Map ရေးဆွဲသောအခါ Standard တူတူ အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Trade Route Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ကုန်သွယ်ရေး Route Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w30-dm-1",
+          termEn: "Resource-scarcity trade",
+          termMy: "Resource-Scarcity Trade",
+          matchEn:
+              "Exchange driven by a resource being abundant in one place, scarce in another",
+          matchMy:
+              "Resource တစ်ခု နေရာတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးခြင်းက ဖြစ်ပေါ်စေသော Exchange",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w30-dm-2",
+          termEn: "Shared pattern",
+          termMy: "Shared Pattern",
+          matchEn:
+              "A general similarity across multiple examples that does not mean they are identical",
+          matchMy:
+              "Identical ဖြစ်ကြောင်း မဆိုလိုသော ဥပမာများစွာတစ်လျှောက် ယေဘုယျ ဆင်တူမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w30-dm-3",
+          termEn: "Route-specific context",
+          termMy: "Route-Specific Context",
+          matchEn:
+              "The unique geography, resources, and politics shaping one particular trade route",
+          matchMy:
+              "Trade Route တိကျတစ်ခုကို ပုံဖော်ပေးသော ထူးခြားသော Geography, Resource နှင့် Politics",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w30-dm-4",
+          termEn: "Route control",
+          termMy: "Route Control",
+          matchEn:
+              "Managing a key exchange point, generating wealth through taxation and trade",
+          matchMy:
+              "Taxation နှင့် Trade မှတစ်ဆင့် ချမ်းသာကြွယ်ဝမှု ဖြစ်ပေါ်စေသော အဓိက Exchange Point တစ်ခု စီမံခန့်ခွဲခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Shared Pattern or Route-Specific Detail?",
+      titleMy: "စီစစ်ကြမည် - Shared Pattern (သို့) Route-Specific Detail",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Shared Pattern (Both Routes)",
+          "Route-Specific Detail (One Route Only)",
+        ],
+        bucketsMy: [
+          "Shared Pattern (Route နှစ်ခုစလုံး)",
+          "Route-Specific Detail (Route တစ်ခုတည်း)",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w30-sort-1",
+            labelEn:
+                "Resource scarcity in one region driving exchange with another",
+            labelMy:
+                "ဒေသတစ်ခုရှိ Resource Scarcity က အခြားတစ်ခုနှင့် Exchange ကို ဖြစ်ပေါ်စေခြင်း",
+            correctBucketEn: "Shared Pattern (Both Routes)",
+            correctBucketMy: "Shared Pattern (Route နှစ်ခုစလုံး)",
+          ),
+          SortingItem(
+            id: "sec1hum-w30-sort-2",
+            labelEn:
+                "Camel caravans crossing the specific terrain of the Sahara Desert",
+            labelMy:
+                "Sahara သဲကန္တာရ၏ Specific ပထဝီဝင် ကျော်ဖြတ်သော ကုလားအုတ် Caravan များ",
+            correctBucketEn: "Route-Specific Detail (One Route Only)",
+            correctBucketMy: "Route-Specific Detail (Route တစ်ခုတည်း)",
+          ),
+          SortingItem(
+            id: "sec1hum-w30-sort-3",
+            labelEn:
+                "Wealth generated by those who controlled a key exchange point",
+            labelMy:
+                "အဓိက Exchange Point တစ်ခု Control ပြုလုပ်သူများ ဖြစ်ပေါ်စေသော ချမ်းသာကြွယ်ဝမှု",
+            correctBucketEn: "Shared Pattern (Both Routes)",
+            correctBucketMy: "Shared Pattern (Route နှစ်ခုစလုံး)",
+          ),
+          SortingItem(
+            id: "sec1hum-w30-sort-4",
+            labelEn:
+                "Maritime routes connecting Indian Ocean ports specific to the Silk Road network",
+            labelMy:
+                "Silk Road Network နှင့် သီးသန့် Indian Ocean Port များ ချိတ်ဆက်သော Maritime Route များ",
+            correctBucketEn: "Route-Specific Detail (One Route Only)",
+            correctBucketMy: "Route-Specific Detail (Route တစ်ခုတည်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Htet Wai Yan's Pattern Comparison",
+      titleMy: "စာဖတ်ခြင်း - Htet Wai Yan ၏ Pattern Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Htet Wai Yan's Pattern Comparison",
+        titleMy: "Htet Wai Yan ၏ Pattern Comparison",
+        passageEn:
+            "For Week 30's project, Htet Wai Yan was asked to compare the Silk Road and the trans-Saharan gold-salt trade to identify what pattern, if any, connected them.\n\nHe began by listing what he already knew from Term 5 and Term 6: the Silk Road connected China's silk-producing regions with distant markets that lacked it, while the trans-Saharan trade connected gold-rich regions south of the Sahara with salt-rich regions within it. Laid side by side, the pattern became clear -- in both cases, a resource abundant in one place and scarce in another created strong economic incentive for long-distance exchange.\n\nApplying Term 2's fair-comparison caution, Htet Wai Yan was careful not to claim the two trade networks were otherwise identical. The Silk Road crossed vastly different terrain over a much longer distance and connected far more intermediate cultures, while the trans-Saharan network was more geographically compact and centered on fewer key resources. The shared pattern explained why both networks existed, not that their specific histories were the same.\n\nHis final report used this comparison to build a general rule he could test against other trade networks: look for a resource abundant in one place and scarce in another, then check whether an actual documented trade route connected them. His teacher praised this as genuine historical-geographical reasoning -- extracting a testable pattern from specific evidence, while still respecting each route's real, individual differences.",
+        passageMy:
+            "Week 30 ၏ Project အတွက် Silk Road နှင့် Trans-Saharan ရွှေ-ဆား ကုန်သွယ်ရေးကို နှိုင်းယှဉ်ကာ ၎င်းတို့ကို ချိတ်ဆက်ပေးသော Pattern တစ်ခု (ရှိလျှင်) ဖော်ထုတ်ရန် Htet Wai Yan အား တောင်းဆိုခဲ့သည်။\n\nTerm 5 နှင့် Term 6 မှ ၎င်း အသိရှိပြီးသားအရာများကို စာရင်းပြုစုကာ ၎င်း စတင်ခဲ့သည် - Silk Road သည် တရုတ်၏ ပိုးထည် ထုတ်လုပ်သော ဒေသများကို ၎င်း မရှိသော ဝေးလံသော Market များနှင့် ချိတ်ဆက်ခဲ့ပြီး Trans-Saharan ကုန်သွယ်ရေးသည် Sahara အတွင်းရှိ ဆားကြွယ်ဝသော ဒေသများနှင့် Sahara တောင်ဘက်ရှိ ရွှေကြွယ်ဝသော ဒေသများကို ချိတ်ဆက်ခဲ့သည်။ ယှဉ်ဘေးထား၍ ကြည့်ရှုသောအခါ Pattern ရှင်းလင်းလာခဲ့သည် -- နှစ်ခုစလုံးတွင် နေရာတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Resource တစ်ခုသည် Long-Distance Exchange အတွက် ခိုင်မာသော Economic Incentive ကို ဖန်တီးခဲ့သည်။\n\nTerm 2 ၏ Fair-Comparison သတိပေးချက် အသုံးချကာ Trade Network နှစ်ခုသည် အခြားအားဖြင့် Identical ဖြစ်ကြောင်း Claim မပြုလုပ်ရန် Htet Wai Yan ဂရုတစိုက် ဖြစ်ခဲ့သည်။ Silk Road သည် များစွာ ပို၍ ရှည်လျားသော အကွာအဝေးတစ်ခုအတွင်း များစွာ ကွဲပြားသော ရုံးနေရာကို ဖြတ်ကျော်ခဲ့ပြီး များစွာ ပို၍ များသော Intermediate ယဉ်ကျေးမှုများကို ချိတ်ဆက်ခဲ့ပြီး Trans-Saharan Network မူ Geographically ပို၍ Compact ဖြစ်ကာ Key Resource ပိုနည်းသည်တွင် ဗဟိုပြုထားသည်။ Shared Pattern သည် Network နှစ်ခုစလုံး အဘယ်ကြောင့် ရှိခဲ့သည်ကို ရှင်းပြခဲ့ပြီး ၎င်းတို့၏ Specific သမိုင်းများ တူညီသည်ဟု ဆိုလိုခြင်း မဟုတ်ပါ။\n\nအခြား ကုန်သွယ်ရေး Network များနှင့် စမ်းသပ်နိုင်သော General Rule တစ်ခု တည်ဆောက်ရန် ဤ Comparison ကို ၎င်း၏ နောက်ဆုံး Report အသုံးပြုခဲ့သည် - နေရာတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Resource တစ်ခုကို ရှာဖွေပါ၊ ထို့နောက် Actual Documented Trade Route တစ်ခုသည် ၎င်းတို့ကို ချိတ်ဆက်ခဲ့ခြင်း ရှိမရှိ စစ်ဆေးပါ။ Specific Evidence မှ Testable Pattern တစ်ခု ထုတ်ယူခြင်း၊ Route တစ်ခုစီ၏ Real, Individual ကွာခြားချက်များကို ဆက်လက် လေးစားစဉ် -- Genuine သမိုင်း-ပထဝီဝင်ဆိုင်ရာ Reasoning အဖြစ် ၎င်းကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what shared pattern did Htet Wai Yan identify?",
+            questionMy:
+                "Htet Wai Yan ဖော်ထုတ်ခဲ့သော Shared Pattern ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A resource abundant in one place and scarce in another creates economic incentive for exchange",
+              "The two trade networks had no actual shared pattern of any kind whatsoever",
+              "Both networks traded in exactly the same specific goods with no difference",
+              "Resource scarcity had no actual role in either trade network",
+            ],
+            optionsMy: [
+              "နေရာတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Resource တစ်ခုသည် Exchange အတွက် Economic Incentive ဖန်တီးခြင်း",
+              "Trade Network နှစ်ခုတွင် Shared Pattern မည်သည်မှ အမှန်တကယ် လုံးဝ မရှိခြင်း",
+              "Network နှစ်ခုစလုံးသည် ကွာခြားချက် မရှိဘဲ Specific ကုန်ပစ္စည်း အတိအကျ တူတူ ကုန်သွယ်ခဲ့ခြင်း",
+              "Resource Scarcity သည် Trade Network နှစ်ခုစလုံးတွင် Actual Role မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identified pattern."],
+            hintsMy: [
+              "ဖော်ထုတ်ခဲ့သော Pattern ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what genuine differences did Htet Wai Yan note between the two networks?",
+            questionMy:
+                "Network နှစ်ခုကြား Htet Wai Yan မှတ်သားခဲ့သော စစ်မှန်သော ကွာခြားချက်များကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Silk Road crossed more terrain and cultures over a longer distance than the more compact trans-Saharan network",
+              "No genuine differences of any kind existed between the two networks",
+              "Both networks were geographically identical in every possible way",
+              "The trans-Saharan network was actually much longer than the Silk Road",
+            ],
+            optionsMy: [
+              "Silk Road သည် ပို၍ Compact ဖြစ်သော Trans-Saharan Network ထက် ရှည်လျားသော အကွာအဝေးတစ်ခုအတွင်း ရုံးနေရာနှင့် ယဉ်ကျေးမှုများ ပို၍ ဖြတ်ကျော်ခဲ့ခြင်း",
+              "Network နှစ်ခုကြား စစ်မှန်သော ကွာခြားချက် မည်သည်မှ မရှိခြင်း",
+              "Network နှစ်ခုစလုံးသည် ဖြစ်နိုင်သမျှ နည်းလမ်းတိုင်းတွင် Geographically Identical ဖြစ်ခြင်း",
+              "Trans-Saharan Network သည် Silk Road ထက် အမှန်တကယ် များစွာ ရှည်လျားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's noted differences."],
+            hintsMy: [
+              "မှတ်သားခဲ့သော ကွာခြားချက်များကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what testable rule did Htet Wai Yan build from this comparison?",
+            questionMy:
+                "ဤ Comparison မှ Htet Wai Yan တည်ဆောက်ခဲ့သော Testable Rule ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Look for a resource abundant in one place and scarce in another, then check for an actual documented trade route",
+              "Assume every two regions automatically had a trade route with no checking required",
+              "No rule of any kind could be built from comparing these two networks",
+              "Ignore resource distribution entirely when studying any trade route",
+            ],
+            optionsMy: [
+              "နေရာတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Resource တစ်ခုကို ရှာဖွေပြီး Actual Documented Trade Route တစ်ခုအတွက် စစ်ဆေးပါ",
+              "စစ်ဆေးမှု မလိုအပ်ဘဲ ဒေသနှစ်ခုတိုင်းသည် Trade Route တစ်ခု အလိုအလျောက် ရှိသည်ဟု ယူဆပါ",
+              "Network နှစ်ခုကို နှိုင်းယှဉ်ခြင်းမှ Rule မည်သည်ကိုမျှ တည်ဆောက်၍ မရနိုင်ခြင်း",
+              "Trade Route မည်သည်ကိုမဆို လေ့လာသောအခါ Resource Distribution ကို လုံးလုံး လျစ်လျူရှုပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated rule."],
+            hintsMy: [
+              "ဖော်ပြထားသော Rule ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w30-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Trade Route Patterns Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - ကုန်သွယ်ရေး Route Pattern မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Silk Road and the trans-Saharan trade share the pattern of...",
+          questionMy:
+              "Silk Road နှင့် Trans-Saharan ကုန်သွယ်ရေးသည် ...Pattern ကို မျှဝေသည်",
+          optionsEn: [
+            "Resource scarcity in one region driving exchange with another",
+            "No actual shared pattern of any kind whatsoever",
+            "Trading in exactly the same specific goods",
+            "Having identical routes with no geographic difference",
+          ],
+          optionsMy: [
+            "ဒေသတစ်ခုရှိ Resource Scarcity က အခြားတစ်ခုနှင့် Exchange ကို ဖြစ်ပေါ်စေခြင်း",
+            "Shared Pattern မည်သည်မှ အမှန်တကယ် လုံးဝ",
+            "Specific ကုန်ပစ္စည်း အတိအကျ တူတူ ကုန်သွယ်ခြင်း",
+            "Geographic ကွာခြားချက် မရှိဘဲ Route Identical ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A shared pattern between two trade routes means...",
+          questionMy:
+              "ကုန်သွယ်ရေး Route နှစ်ခုကြား Shared Pattern တစ်ခုသည် ...ဆိုလိုသည်",
+          optionsEn: [
+            "They have a general similarity, not that every detail is identical",
+            "Every single detail about them is exactly identical",
+            "They have no actual connection to each other",
+            "One route is always superior to the other",
+          ],
+          optionsMy: [
+            "Detail တိုင်း Identical ဖြစ်သည်ဟု မဆိုလိုဘဲ ယေဘုယျ ဆင်တူမှု ရှိခြင်း",
+            "၎င်းတို့အကြောင်း Detail တစ်ခုချင်းစီသည် အတိအကျ Identical ဖြစ်ခြင်း",
+            "တစ်ခုနှင့်တစ်ခု Actual Connection မရှိခြင်း",
+            "Route တစ်ခုသည် အခြားတစ်ခုထက် အမြဲ Superior ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trade route map should cite...",
+          questionMy: "ကုန်သွယ်ရေး Route Map တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific documented resources exchanged at each point",
+            "A vague, unlabeled route with no checkable detail",
+            "No resources of any kind whatsoever",
+            "Only decorative symbols with no evidence",
+          ],
+          optionsMy: [
+            "Point တစ်ခုစီတွင် လဲလှယ်ထားသော Specific Documented Resource များ",
+            "Checkable Detail မပါသော Vague, Unlabeled Route",
+            "Resource မည်သည်မှ လုံးဝ",
+            "Evidence မပါသော Decorative Symbol များသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 8, Week 31: "Resource-Based Conflict"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek31 = CourseWeekDef(
+  id: "course-sec1-hum-w31",
+  weekNumber: 31,
+  titleEn: "Resource-Based Conflict",
+  titleMy: "Resource-Based ပဋိပက္ခ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w31-d1",
+      dayNumber: 1,
+      titleEn: "Why Scarce Resources Can Lead to Conflict",
+      titleMy:
+          "ရှားပါးသော Resource များသည် ပဋိပက္ခသို့ အဘယ်ကြောင့် ဦးတည်နိုင်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why does control over a scarce, high-value resource create a stronger incentive for conflict than control over an abundant, low-value one?",
+          questionMy:
+              "ရှားပါး၊ တန်ဖိုးမြင့်သော Resource တစ်ခုအပေါ် Control ပြုလုပ်ခြင်းသည် ပေါများ၊ တန်ဖိုးနိမ့်သော တစ်ခုအပေါ် Control ပြုလုပ်ခြင်းထက် ပဋိပက္ခအတွက် ခိုင်မာသော Incentive တစ်ခု အဘယ်ကြောင့် ဖန်တီးသနည်း။",
+          optionsEn: [
+            "A scarce, valuable resource is limited, so gaining exclusive control over it offers significant economic or strategic advantage, raising the stakes for those competing over it",
+            "Scarcity and value have no actual connection to why conflict over resources occurs",
+            "Abundant, low-value resources always generate more conflict than scarce, valuable ones",
+            "Resource control has no actual relationship to historical or contemporary conflict",
+          ],
+          optionsMy: [
+            "ရှားပါး၊ တန်ဖိုးရှိသော Resource တစ်ခုသည် ကန့်သတ်ထားသောကြောင့် ၎င်းအပေါ် Exclusive Control ရရှိခြင်းသည် ယှဉ်ပြိုင်နေသူများအတွက် Stakes မြှင့်တင်ကာ Significant Economic (သို့) Strategic Advantage ပေးအပ်သည်",
+            "Scarcity နှင့် Value တွင် Resource များအကြောင်း ပဋိပက္ခ ဘာကြောင့် ဖြစ်ပွားသည်နှင့် Actual Connection မရှိခြင်း",
+            "ပေါများ၊ တန်ဖိုးနိမ့်သော Resource များသည် ရှားပါး၊ တန်ဖိုးရှိသော တို့ထက် Conflict ပို၍ များများ အမြဲ ဖြစ်ပေါ်စေခြင်း",
+            "Resource Control သည် သမိုင်းဆိုင်ရာ (သို့) ပစ္စုပ္ပန် Conflict နှင့် Actual Relationship မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same resource-scarcity logic from Week 21 and Week 30's trade lessons, applied now to explain conflict rather than trade.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Trade မဟုတ်ဘဲ Conflict ရှင်းပြရန် ယခု အသုံးချထားသော Week 21 နှင့် Week 30 ၏ Trade သင်ခန်းစာများမှ Resource-Scarcity Logic တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students avoid claiming that resource scarcity is always the single, complete cause of a specific real-world conflict, rather than weighing it alongside other contributing factors?",
+          questionMy:
+              "Real-World Conflict တိကျတစ်ခု၏ Resource Scarcity သည် အခြား Contributing Factor များနှင့်အတူ ချိန်ဆမည့်အစား တစ်ခုတည်း၊ ပြည့်စုံသော Cause အမြဲ ဖြစ်သည်ဟု Claim ပြုလုပ်ခြင်းကို ကျောင်းသားများ အဘယ်ကြောင့် ရှောင်ရှားသင့်ရသနည်း။",
+          optionsEn: [
+            "Real conflicts usually involve multiple interacting factors (political, historical, social, and resource-based), so treating resource scarcity as the sole cause oversimplifies a complex reality",
+            "Resource scarcity is always the only factor that has ever caused any conflict in history",
+            "Resource scarcity has no actual connection to any conflict in history or the present",
+            "Weighing multiple contributing factors always produces a less accurate explanation than one cause alone",
+          ],
+          optionsMy: [
+            "Real Conflict များသည် ယေဘုယျအားဖြင့် Factor များစွာ (Political, သမိုင်းဆိုင်ရာ, လူမှုရေးနှင့် Resource-Based) အပြန်အလှန် ပါဝင်ပတ်သက်တတ်သောကြောင့် Resource Scarcity ကို Sole Cause တစ်ခုအဖြစ် သဘောထားခြင်းသည် ရှုပ်ထွေးသော Reality တစ်ခုကို Oversimplify ပြုလုပ်သည်",
+            "Resource Scarcity သည် သမိုင်းတွင် Conflict မည်သည်ကိုမဆို ဖြစ်ပေါ်စေခဲ့သော တစ်ခုတည်းသော Factor အမြဲ ဖြစ်ခြင်း",
+            "Resource Scarcity သည် သမိုင်း (သို့) ပစ္စုပ္ပန်ရှိ Conflict မည်သည်နှင့်မျှ Actual Connection မရှိခြင်း",
+            "Contributing Factor များစွာ ချိန်ဆခြင်းသည် Cause တစ်ခုတည်းထက် ရှင်းပြချက် ပို၍ တိကျမှု နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the exact same weigh-multiple-factors habit built since Term 1, now applied to explaining conflict rather than a settlement or civilization.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Settlement (သို့) Civilization တစ်ခုအစား Conflict ရှင်းပြရန် ယခု အသုံးချထားသော Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Weigh-Multiple-Factors Habit အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a discussion of resource-based conflict cite specific, documented examples rather than a vague, general claim that 'resources always cause war'?",
+          questionMy:
+              "Resource-Based Conflict ဆွေးနွေးချက်တစ်ခုသည် 'Resource များသည် စစ်ပွဲကို အမြဲ ဖြစ်ပေါ်စေသည်' ကဲ့သို့ Vague, General Claim တစ်ခုအစား Specific, Documented ဥပမာများကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, documented case can be checked and analyzed for its actual combination of factors, while a sweeping generalization like 'resources always cause war' is unverifiable and inaccurate as an absolute rule",
+            "Vague, sweeping claims are always more historically accurate than specific documented cases",
+            "Citing specific documented conflict examples has no actual educational value",
+            "Every conflict in history has been caused entirely and exclusively by resource scarcity",
+          ],
+          optionsMy: [
+            "Specific, Documented Case တစ်ခုကို ၎င်း၏ Actual Factor ပေါင်းစပ်မှုအတွက် စစ်ဆေး၊ Analyze ပြုလုပ်နိုင်သော်လည်း 'Resource များသည် စစ်ပွဲကို အမြဲ ဖြစ်ပေါ်စေသည်' ကဲ့သို့ Sweeping Generalization တစ်ခုသည် Absolute Rule တစ်ခုအဖြစ် Unverifiable နှင့် Inaccurate ဖြစ်သည်",
+            "Vague, Sweeping Claim များသည် Specific Documented Case များထက် သမိုင်းအရ အမြဲ ပို၍ တိကျခြင်း",
+            "Specific Documented Conflict ဥပမာများ ကိုးကားခြင်းသည် Actual Educational Value မရှိခြင်း",
+            "သမိုင်းရှိ Conflict တိုင်းသည် Resource Scarcity တစ်ခုတည်းကသာ လုံးလုံး၊ Exclusively ဖြစ်ပေါ်စေခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same documented-evidence habit built across the whole course -- a sweeping generalization cannot be checked the way a specific, cited case can.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Documented-Evidence Habit တူတူ ဖြစ်သည် -- Sweeping Generalization တစ်ခုကို Specific, Cited Case တစ်ခုကဲ့သို့ စစ်ဆေး၍ မရနိုင်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Resource Conflict Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Resource Conflict Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w31-dm-1",
+          termEn: "Exclusive control",
+          termMy: "Exclusive Control",
+          matchEn: "Having sole access to and command over a valuable resource",
+          matchMy:
+              "တန်ဖိုးရှိသော Resource တစ်ခုအပေါ် Sole Access နှင့် Command ရှိခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w31-dm-2",
+          termEn: "Contributing factor",
+          termMy: "Contributing Factor",
+          matchEn:
+              "One of several causes that together explain a conflict, not the sole cause",
+          matchMy:
+              "Conflict တစ်ခုကို အတူတကွ ရှင်းပြသော Cause များစွာထဲမှ တစ်ခု၊ Sole Cause မဟုတ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w31-dm-3",
+          termEn: "Documented case",
+          termMy: "Documented Case",
+          matchEn:
+              "A specific, cited example of conflict that can be checked and analyzed",
+          matchMy:
+              "စစ်ဆေး၊ Analyze ပြုလုပ်နိုင်သော Conflict ၏ Specific, Cited ဥပမာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w31-dm-4",
+          termEn: "Oversimplified generalization",
+          termMy: "Oversimplified Generalization",
+          matchEn:
+              "A sweeping, unverifiable claim treating a complex situation as one simple cause",
+          matchMy:
+              "ရှုပ်ထွေးသော အခြေအနေတစ်ခုကို Simple Cause တစ်ခုတည်းအဖြစ် သဘောထားသော Sweeping, Unverifiable Claim",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Balanced Analysis or Oversimplified Claim?",
+      titleMy: "စီစစ်ကြမည် - Balanced Analysis (သို့) Oversimplified Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Balanced Analysis", "Oversimplified Claim"],
+        bucketsMy: ["Balanced Analysis", "Oversimplified Claim"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w31-sort-1",
+            labelEn:
+                "Citing resource scarcity as one of several contributing factors in a documented conflict",
+            labelMy:
+                "Documented Conflict တစ်ခုတွင် Contributing Factor များစွာထဲမှ တစ်ခုအဖြစ် Resource Scarcity ကို ကိုးကားခြင်း",
+            correctBucketEn: "Balanced Analysis",
+            correctBucketMy: "Balanced Analysis",
+          ),
+          SortingItem(
+            id: "sec1hum-w31-sort-2",
+            labelEn:
+                "Claiming all conflict throughout history was caused entirely by resource scarcity",
+            labelMy:
+                "သမိုင်းတစ်ခုလုံးတစ်လျှောက် Conflict အားလုံးသည် Resource Scarcity တစ်ခုတည်းကသာ လုံးလုံး ဖြစ်ပေါ်စေခဲ့သည်ဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Oversimplified Claim",
+            correctBucketMy: "Oversimplified Claim",
+          ),
+          SortingItem(
+            id: "sec1hum-w31-sort-3",
+            labelEn:
+                "Analyzing a specific documented case with its actual combination of factors",
+            labelMy:
+                "Actual Factor ပေါင်းစပ်မှု ပါသော Specific Documented Case တစ်ခု Analyze ပြုလုပ်ခြင်း",
+            correctBucketEn: "Balanced Analysis",
+            correctBucketMy: "Balanced Analysis",
+          ),
+          SortingItem(
+            id: "sec1hum-w31-sort-4",
+            labelEn:
+                "Declaring 'resources always cause war' with no specific evidence or case cited",
+            labelMy:
+                "Specific Evidence (သို့) Case ကိုးကားခြင်း မပါဘဲ 'Resource များသည် စစ်ပွဲကို အမြဲ ဖြစ်ပေါ်စေသည်' ဟု ကြေညာခြင်း",
+            correctBucketEn: "Oversimplified Claim",
+            correctBucketMy: "Oversimplified Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Multi-Factor Analysis",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Multi-Factor Analysis",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Multi-Factor Analysis",
+        titleMy: "Zayar Lin ၏ Multi-Factor Analysis",
+        passageEn:
+            "For Week 31's project, Zayar Lin researched a documented historical conflict connected to control of a valuable resource, initially planning to write that 'the conflict happened because of the resource, simply and completely.'\n\nHis research complicated that simple story. The valuable resource was genuinely a significant factor -- control over it offered real economic advantage, exactly the incentive Monday's lesson described. But his sources also documented existing political rivalries between the groups involved, historical territorial disputes that predated the resource's discovery, and social tensions unrelated to the resource itself.\n\nApplying the same weighing-multiple-factors habit from Term 3's causation trial, Zayar Lin rewrote his analysis to show the resource as one significant, well-documented contributing factor among several, rather than the sole and complete cause. He was careful to cite specific evidence for each factor rather than a vague list of possibilities.\n\nHis final report concluded that resource scarcity can be a powerful accelerant to conflict, especially when it interacts with existing rivalries, but should not be presented as an oversimplified, standalone explanation for any specific conflict without checking the actual documented history. His teacher praised the report for resisting an easy, incomplete narrative in favor of a more accurate, multi-factor one.",
+        passageMy:
+            "Week 31 ၏ Project အတွက် တန်ဖိုးရှိသော Resource တစ်ခု၏ Control နှင့် ချိတ်ဆက်ထားသော Documented သမိုင်းဆိုင်ရာ Conflict တစ်ခုကို Zayar Lin Research ပြုလုပ်ခဲ့ပြီး 'Conflict သည် Resource ကြောင့် ရိုးရိုး၊ လုံးလုံး ဖြစ်ပွားခဲ့သည်' ဟု ရေးသားရန် ကနဦးတွင် စီစဉ်ခဲ့သည်။\n\n၎င်း၏ Research က ထို ရိုးရှင်းသော ဇာတ်လမ်းကို ရှုပ်ထွေးစေခဲ့သည်။ တန်ဖိုးရှိသော Resource သည် Significant Factor တစ်ခု စစ်မှန်စွာ ဖြစ်ခဲ့သည် -- ၎င်းအပေါ် Control ပြုလုပ်ခြင်းသည် တနင်္လာနေ့ သင်ခန်းစာ ဖော်ပြခဲ့သော Incentive အတိအကျ Real Economic Advantage ပေးအပ်ခဲ့သည်။ သို့သော် ၎င်း၏ Source များက ပါဝင်ပတ်သက်သော Group များကြား ရှိပြီးသား Political Rivalry များ၊ Resource ရှာဖွေတွေ့ရှိမှု မတိုင်မီ ရှိနှင့်ပြီးသား သမိုင်းဆိုင်ရာ Territorial Dispute များနှင့် Resource ကိုယ်တိုင်နှင့် မသက်ဆိုင်သော Social Tension များကိုလည်း Document ပြုလုပ်ထားခဲ့သည်။\n\nTerm 3 ၏ Causation Trial မှ Weighing-Multiple-Factors Habit တူတူ အသုံးချကာ Resource ကို Sole and Complete Cause အစား Factor များစွာထဲမှ Significant, ကောင်းစွာ Documented Contributing Factor တစ်ခုအဖြစ် ပြသရန် Zayar Lin ၎င်း၏ Analysis ကို ပြန်လည် ရေးသားခဲ့သည်။ Possibility များ Vague စာရင်းတစ်ခုအစား Factor တစ်ခုစီအတွက် Specific Evidence ကိုးကားရန် ၎င်း ဂရုတစိုက် ဖြစ်ခဲ့သည်။\n\nResource Scarcity သည် အထူးသဖြင့် ရှိပြီးသား Rivalry များနှင့် Interact ပြုလုပ်သောအခါ Conflict ကို ခိုင်မာသော Accelerant တစ်ခု ဖြစ်နိုင်သော်လည်း Actual Documented သမိုင်းကို စစ်ဆေးခြင်း မပြုဘဲ Conflict တိကျ မည်သည်ကိုမဆို Oversimplified, Standalone ရှင်းပြချက်တစ်ခုအဖြစ် မတင်ပြသင့်ကြောင်း ၎င်း၏ နောက်ဆုံး Report ကောက်ချက်ချခဲ့သည်။ ပို၍ တိကျသော Multi-Factor တစ်ခုကို ဦးစားပေးကာ လွယ်ကူ၊ Incomplete Narrative တစ်ခုကို ခုခံနိုင်ခဲ့သောကြောင့် Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what additional factors did Zayar Lin's sources document beyond the resource itself?",
+            questionMy:
+                "Resource ကိုယ်တိုင်ကျော်လွန်၍ Zayar Lin ၏ Source များ Document ပြုလုပ်ခဲ့သော ထပ်ဆောင်း Factor များကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Existing political rivalries, historical territorial disputes, and unrelated social tensions",
+              "No additional factors of any kind were documented",
+              "Only factors completely unrelated to the conflict itself",
+              "Factors that proved the resource had no actual role at all",
+            ],
+            optionsMy: [
+              "ရှိပြီးသား Political Rivalry များ၊ သမိုင်းဆိုင်ရာ Territorial Dispute များနှင့် မသက်ဆိုင်သော Social Tension များ",
+              "ထပ်ဆောင်း Factor မည်သည်မှ Document ပြုလုပ်ခြင်း မရှိခြင်း",
+              "Conflict ကိုယ်တိုင်နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များသာ",
+              "Resource တွင် Actual Role မည်သည်မှ လုံးဝ မရှိကြောင်း သက်သေပြသော Factor များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's documented factors."],
+            hintsMy: [
+              "Document ပြုလုပ်ထားသော Factor များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Zayar Lin rewrite his analysis?",
+            questionMy:
+                "၎င်း၏ Analysis ကို Zayar Lin မည်သို့ ပြန်လည် ရေးသားခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Showing the resource as one significant contributing factor among several, not the sole cause",
+              "Removing the resource from the analysis entirely with no mention",
+              "Keeping the original claim exactly as it was with no changes",
+              "Claiming the resource had no connection to the conflict whatsoever",
+            ],
+            optionsMy: [
+              "Resource ကို Sole Cause မဟုတ်ဘဲ Factor များစွာထဲမှ Significant Contributing Factor တစ်ခုအဖြစ် ပြသခြင်း",
+              "Ref ရည်ညွှန်းချက် မပါဘဲ Analysis မှ Resource ကို လုံးလုံး ဖယ်ရှားခြင်း",
+              "ပြောင်းလဲမှု မရှိဘဲ Original Claim ကို အတိအကျ ဆက်လက် ထားရှိခြင်း",
+              "Resource တွင် Conflict နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိကြောင်း Claim ပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described rewrite."],
+            hintsMy: [
+              "ဖော်ပြထားသော Rewrite ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Zayar Lin's report conclude resource scarcity can be?",
+            questionMy:
+                "Resource Scarcity ဖြစ်နိုင်သည်ဟု Zayar Lin ၏ Report ကောက်ချက်ချခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A powerful accelerant to conflict, especially interacting with existing rivalries, not a standalone explanation",
+              "The complete and only explanation for every conflict without exception",
+              "Something with absolutely no connection to any historical conflict",
+              "A factor that should never be mentioned in any conflict analysis",
+            ],
+            optionsMy: [
+              "Standalone ရှင်းပြချက်တစ်ခု မဟုတ်ဘဲ ရှိပြီးသား Rivalry များနှင့် အထူးသဖြင့် Interact ပြုလုပ်သော Conflict ၏ ခိုင်မာသော Accelerant တစ်ခု",
+              "ခြွင်းချက်မရှိဘဲ Conflict တိုင်းအတွက် ပြည့်စုံပြီး တစ်ခုတည်းသော ရှင်းပြချက်",
+              "သမိုင်းဆိုင်ရာ Conflict မည်သည်နှင့်မျှ လုံးဝ Connection မရှိသော အရာတစ်ခု",
+              "Conflict Analysis မည်သည်တွင်မျှ ဘယ်တော့မှ မဖော်ပြသင့်သော Factor တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w31-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Resource-Based Conflict Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Resource-Based Conflict မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Control over a scarce, valuable resource creates conflict incentive because...",
+          questionMy:
+              "ရှားပါး၊ တန်ဖိုးရှိသော Resource တစ်ခုအပေါ် Control ပြုလုပ်ခြင်းသည် ...ကြောင့် Conflict Incentive ဖန်တီးသည်",
+          optionsEn: [
+            "It offers significant economic or strategic advantage",
+            "Scarce resources always have zero economic value",
+            "Resource control never actually relates to conflict",
+            "Abundant resources always create more conflict than scarce ones",
+          ],
+          optionsMy: [
+            "Significant Economic (သို့) Strategic Advantage ပေးအပ်ခြင်း",
+            "ရှားပါးသော Resource များတွင် Economic Value Zero အမြဲ ရှိခြင်း",
+            "Resource Control သည် Conflict နှင့် အမှန်တကယ် မသက်ဆိုင်ခြင်း",
+            "ပေါများသော Resource များသည် ရှားပါးသော တို့ထက် Conflict ပို၍ များများ အမြဲ ဖန်တီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A specific conflict should be explained by...",
+          questionMy: "Conflict တိကျတစ်ခုကို ...ဖြင့် ရှင်းပြသင့်သည်",
+          optionsEn: [
+            "Weighing multiple contributing factors together",
+            "One single, complete cause with no other factors",
+            "No actual cause of any kind whatsoever",
+            "A vague, unsupported generalization",
+          ],
+          optionsMy: [
+            "Contributing Factor များစွာကို အတူတကွ ချိန်ဆခြင်း",
+            "အခြား Factor မပါဘဲ Cause တစ်ခုတည်း၊ ပြည့်စုံသော",
+            "Cause မည်သည်မှ အမှန်တကယ် လုံးဝ",
+            "Vague, ထောက်ခံမှု မရှိသော Generalization တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A discussion of resource-based conflict should cite...",
+          questionMy:
+              "Resource-Based Conflict ဆွေးနွေးချက်တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific, documented cases with checkable evidence",
+            "A vague claim that 'resources always cause war'",
+            "No evidence of any kind whatsoever",
+            "Only unverifiable general impressions",
+          ],
+          optionsMy: [
+            "Checkable Evidence ပါသော Specific, Documented Case များ",
+            "'Resource များသည် စစ်ပွဲကို အမြဲ ဖြစ်ပေါ်စေသည်' ဆိုသော Vague Claim",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Unverifiable General Impression များသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 8, Week 32 (Capstone/Boss Week):
+// "Trade Route Mapping Studio"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek32 = CourseWeekDef(
+  id: "course-sec1-hum-w32",
+  weekNumber: 32,
+  titleEn: "Trade Route Mapping Studio",
+  titleMy: "Trade Route Mapping Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w32-d1",
+      dayNumber: 1,
+      titleEn: "Designing a Complete Trade Route Study",
+      titleMy: "Trade Route Study အပြည့်အစုံ တစ်ခု Design ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a trade route studio project combine resource-scarcity analysis (why the route existed), documented exchange evidence (what specifically moved along it), and honest acknowledgment of resource-based tension (what risks came with valuable trade), rather than covering only one?",
+          questionMy:
+              "Trade Route Studio Project တစ်ခုသည် တစ်ခုတည်းသာ ဖုံးအုပ်မည့်အစား Resource-Scarcity Analysis (Route အဘယ်ကြောင့် ရှိခဲ့သည်), Documented Exchange Evidence (၎င်းတစ်လျှောက် တိကျစွာ မည်သည် ရွေ့လျားခဲ့သည်) နှင့် Resource-Based Tension ရိုးသား အသိအမှတ်ပြုခြင်း (တန်ဖိုးရှိသော Trade နှင့်အတူ Risk မည်သည် ပါလာသည်) ကို အဘယ်ကြောင့် ပေါင်းစပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Each element answers a different question -- why, what, and what risk -- and combining them gives a fuller, more complete picture than any single element alone, applying the same combined-lens discipline built since Term 1",
+            "These three elements have no actual connection to each other in a trade route study",
+            "A trade route study only ever needs to answer why the route existed, never what moved along it",
+            "Combining multiple elements always produces a less accurate study than covering just one",
+          ],
+          optionsMy: [
+            "Element တစ်ခုစီသည် ကွဲပြားသော မေးခွန်းတစ်ခု -- Why, What နှင့် What Risk -- ကို ဖြေဆိုပြီး ၎င်းတို့ ပေါင်းစပ်ခြင်းသည် Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Combined-Lens Discipline တူတူ အသုံးချကာ Element တစ်ခုတည်းထက် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်",
+            "Element သုံးခုတွင် Trade Route Study တစ်ခု၌ တစ်ခုနှင့်တစ်ခု Actual Connection မရှိခြင်း",
+            "Trade Route Study တစ်ခုသည် Route အဘယ်ကြောင့် ရှိခဲ့သည်ကိုသာ ဖြေဆိုရန် လိုအပ်ပြီး ၎င်းတစ်လျှောက် မည်သည် ရွေ့လျားခဲ့သည်ကို ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Element များစွာ ပေါင်းစပ်ခြင်းသည် တစ်ခုတည်း ဖုံးအုပ်ခြင်းထက် Study ကို တိကျမှု နည်းသော အမြဲ ထုတ်လုပ်ပေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same combined-lens discipline from Term 1's and Term 7's capstones -- multiple relevant questions together give a fuller picture than any one alone.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 နှင့် Term 7 ၏ Capstone များမှ Combined-Lens Discipline တူတူ ဖြစ်သည် -- Relevant မေးခွန်း များစွာ အတူတကွသည် တစ်ခုတည်းထက် ပို၍ ပြည့်စုံသော ပုံရိပ်တစ်ခု ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should each exchange point on the trade route map cite a specific, documented resource rather than a generic label, consistent with the standard from Week 20's Silk Road project?",
+          questionMy:
+              "Week 20 ၏ Silk Road Project မှ Standard နှင့် ကိုက်ညီစွာ Trade Route Map ပေါ်ရှိ Exchange Point တစ်ခုစီသည် Generic Label တစ်ခုအစား တိကျ၊ Documented Resource တစ်ခုကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, documented resource keeps the map checkable and informative, matching the specificity standard maintained across the entire course rather than a vague, uninformative label",
+            "Generic labels are always more informative than specific, documented resources",
+            "Citing specific resources has no actual value on a trade route map",
+            "The specificity standard should be lower for this map than for Week 20's Silk Road project",
+          ],
+          optionsMy: [
+            "Specific, Documented Resource တစ်ခုသည် Vague, Uninformative Label တစ်ခုအစား Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specificity Standard နှင့် ကိုက်ညီစွာ Map ကို Checkable, Informative ဖြစ်စေသည်",
+            "Generic Label များသည် Specific, Documented Resource များထက် အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Resource ကိုးကားခြင်းသည် Trade Route Map တစ်ခုတွင် Actual Value မရှိခြင်း",
+            "ဤ Map အတွက် Specificity Standard သည် Week 20 ၏ Silk Road Project ထက် နိမ့်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Week 20's documented-exchange habit, applied now to the term's final synthesis project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 20 ၏ Documented-Exchange Habit ကို တိုက်ရိုက် ပြန်သတိရစေပြီး Term ၏ Final Synthesis Project ပေါ်တွင် ယခု အသုံးချထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the studio's final reflection explicitly note that resource-based tension is one contributing factor among several, rather than implying that valuable trade always inevitably leads to conflict?",
+          questionMy:
+              "Valuable Trade သည် Conflict သို့ အမြဲ ရှောင်လွှဲ၍ မရဟု ညွှန်ပြမည့်အစား Studio ၏ Final Reflection သည် Resource-Based Tension သည် Factor များစွာထဲမှ Contributing Factor တစ်ခုသာ ဖြစ်ကြောင်း အဘယ်ကြောင့် ရှင်းလင်းစွာ မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "This applies Week 31's balanced-analysis caution directly -- resource scarcity can contribute to tension, but claiming it inevitably and always causes conflict oversimplifies a genuinely complex relationship",
+            "Valuable trade has always, in every documented case throughout history, inevitably caused conflict with no exceptions",
+            "Resource-based tension has no actual connection to trade routes of any kind",
+            "The studio's reflection should avoid discussing conflict or tension entirely",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Week 31 ၏ Balanced-Analysis သတိပေးချက်ကို တိုက်ရိုက် အသုံးချသည် -- Resource Scarcity သည် Tension ကို Contribute ပြုလုပ်နိုင်သော်လည်း ၎င်းသည် Conflict ကို မလွှဲမရှောင်သာ၊ အမြဲ ဖြစ်ပေါ်စေသည်ဟု Claim ပြုလုပ်ခြင်းသည် Genuinely ရှုပ်ထွေးသော Relationship တစ်ခုကို Oversimplify ပြုလုပ်သည်",
+            "Valuable Trade သည် သမိုင်းတစ်ခုလုံးတစ်လျှောက် Documented Case တိုင်းတွင် ခြွင်းချက် မရှိဘဲ မလွှဲမရှောင်သာ Conflict ကို အမြဲ ဖြစ်ပေါ်စေခဲ့ခြင်း",
+            "Resource-Based Tension သည် Trade Route မည်သည်နှင့်မျှ Actual Connection မရှိခြင်း",
+            "Studio ၏ Reflection သည် Conflict (သို့) Tension ဆွေးနွေးခြင်းကို လုံးလုံး ရှောင်ရှားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 31's balanced-analysis habit, applied directly to the studio's own closing reflection.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Studio ကိုယ်တိုင်၏ Closing Reflection ပေါ်တွင် တိုက်ရိုက် အသုံးချထားသော Week 31 ၏ Balanced-Analysis Habit ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Resources and Trade Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 8 Resources and Trade ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w32-dm-1",
+          termEn: "Resource scarcity",
+          termMy: "Resource Scarcity",
+          matchEn:
+              "A resource abundant in one region, scarce in another, driving trade and sometimes tension",
+          matchMy:
+              "ဒေသတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Resource တစ်ခု၊ Trade နှင့် တခါတရံ Tension ကို ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w32-dm-2",
+          termEn: "Documented exchange point",
+          termMy: "Documented Exchange Point",
+          matchEn:
+              "A trade stop with a specific, cited resource exchanged there",
+          matchMy:
+              "Specific, Cited Resource တစ်ခု လဲလှယ်ခဲ့သော Trade Stop တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w32-dm-3",
+          termEn: "Contributing tension factor",
+          termMy: "Contributing Tension Factor",
+          matchEn:
+              "Resource competition as one of several factors that can contribute to conflict",
+          matchMy:
+              "Conflict ကို Contribute ပြုလုပ်နိုင်သော Factor များစွာထဲမှ တစ်ခုအဖြစ် Resource Competition",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w32-dm-4",
+          termEn: "Complete resource study",
+          termMy: "Complete Resource Study",
+          matchEn:
+              "A study combining why, what, and what risk into one connected analysis",
+          matchMy:
+              "Why, What နှင့် What Risk ကို ချိတ်ဆက်ထားသော Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Study",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Complete Resource Study or Incomplete?",
+      titleMy: "စီစစ်ကြမည် - Complete Resource Study (သို့) Incomplete",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Complete Resource Study", "Incomplete Resource Study"],
+        bucketsMy: ["Complete Resource Study", "Incomplete Resource Study"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w32-sort-1",
+            labelEn:
+                "Explaining why a route existed, what specifically moved along it, and what tensions it risked",
+            labelMy:
+                "Route အဘယ်ကြောင့် ရှိခဲ့သည်၊ ၎င်းတစ်လျှောက် တိကျစွာ မည်သည် ရွေ့လျားခဲ့သည်နှင့် ၎င်း Risk ဖြစ်စေသော Tension မည်သည်ကို ရှင်းပြခြင်း",
+            correctBucketEn: "Complete Resource Study",
+            correctBucketMy: "Complete Resource Study",
+          ),
+          SortingItem(
+            id: "sec1hum-w32-sort-2",
+            labelEn:
+                "Explaining only why a route existed with nothing about what moved along it",
+            labelMy:
+                "၎င်းတစ်လျှောက် မည်သည် ရွေ့လျားခဲ့သည်အကြောင်း ဘာမှ မပါဘဲ Route အဘယ်ကြောင့် ရှိခဲ့သည်ကိုသာ ရှင်းပြခြင်း",
+            correctBucketEn: "Incomplete Resource Study",
+            correctBucketMy: "Incomplete Resource Study",
+          ),
+          SortingItem(
+            id: "sec1hum-w32-sort-3",
+            labelEn:
+                "Citing a specific documented resource at each mapped exchange point",
+            labelMy:
+                "Map ရေးဆွဲထားသော Exchange Point တစ်ခုစီတွင် Specific Documented Resource တစ်ခု ကိုးကားခြင်း",
+            correctBucketEn: "Complete Resource Study",
+            correctBucketMy: "Complete Resource Study",
+          ),
+          SortingItem(
+            id: "sec1hum-w32-sort-4",
+            labelEn:
+                "Claiming valuable trade inevitably and always causes conflict with no exceptions",
+            labelMy:
+                "Valuable Trade သည် ခြွင်းချက် မရှိဘဲ မလွှဲမရှောင်သာ၊ အမြဲ Conflict ဖြစ်ပေါ်စေသည်ဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Incomplete Resource Study",
+            correctBucketMy: "Incomplete Resource Study",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Trade Route Studio Project",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Trade Route Studio Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Trade Route Studio Project",
+        titleMy: "Thiha Aung ၏ Trade Route Studio Project",
+        passageEn:
+            "For Term 8's capstone, Thiha Aung chose a historic trade route to study in depth, combining every skill from the term into one connected project.\n\nHis opening section applied Week 29 and Week 30's lessons together: he identified the specific resource abundant at one end of the route and scarce at the other, citing documented evidence for both, rather than a vague claim of general trade importance.\n\nHis map, following Week 20's and Week 32's documented-exchange standard, marked several stops along the route, each labeled with a specific, cited good or resource exchanged there rather than a generic 'trade happened here' note.\n\nHis final section applied Week 31's balanced-analysis lesson directly: he researched a documented period of tension connected to control over the route's key resource, and rather than claiming the resource caused conflict on its own, he cited the specific combination of factors his sources described -- the resource's value, yes, but also existing political rivalries that predated it. He explicitly wrote that resource competition was a significant contributing factor, not an inevitable, standalone cause.\n\nHis teacher praised the finished studio project as a genuine synthesis of the entire term: resource-scarcity reasoning, documented and specific evidence at every point, and a balanced, multi-factor treatment of conflict rather than an oversimplified one -- exactly the disciplined habits built since Term 1, now applied to explain both why people traded and what risks came with what they were trading.",
+        passageMy:
+            "Term 8 ၏ Capstone အတွက် Term မှ Skill တိုင်းကို ပေါင်းစပ် Project တစ်ခုတည်းအဖြစ် အနက်ရှိုင်းစွာ လေ့လာရန် သမိုင်းဆိုင်ရာ Trade Route တစ်ခုကို Thiha Aung ရွေးချယ်ခဲ့သည်။\n\n၎င်း၏ ဖွင့်လှစ် Section သည် Week 29 နှင့် Week 30 ၏ သင်ခန်းစာများကို အတူတကွ အသုံးချခဲ့သည် - General Trade Importance ၏ Vague Claim တစ်ခုအစား Route ၏ အစွန်းတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Specific Resource ကို နှစ်ခုစလုံးအတွက် Documented Evidence ကိုးကားကာ ၎င်း ဖော်ထုတ်ခဲ့သည်။\n\nWeek 20 နှင့် Week 32 ၏ Documented-Exchange Standard ကို လိုက်နာသော ၎င်း၏ Map သည် Route တစ်လျှောက် Stop များစွာကို မှတ်သားခဲ့ပြီး တစ်ခုစီကို Generic 'ဤနေရာတွင် Trade ဖြစ်ပျက်ခဲ့သည်' မှတ်ချက်တစ်ခုအစား Specific, Cited ကုန်ပစ္စည်း (သို့) ထိုနေရာတွင် လဲလှယ်ခဲ့သော Resource ဖြင့် Label တင်ခဲ့သည်။\n\n၎င်း၏ နောက်ဆုံး Section သည် Week 31 ၏ Balanced-Analysis သင်ခန်းစာကို တိုက်ရိုက် အသုံးချခဲ့သည် - Route ၏ Key Resource Control နှင့် ချိတ်ဆက်ထားသော Documented Tension ကာလတစ်ခုကို ၎င်း Research ပြုလုပ်ခဲ့ပြီး Resource သည် ကိုယ်တိုင် Conflict ဖြစ်ပေါ်စေသည်ဟု Claim မပြုလုပ်ဘဲ ၎င်း၏ Source များ ဖော်ပြခဲ့သော Factor ပေါင်းစပ်မှု တိကျကို ၎င်း ကိုးကားခဲ့သည် -- Resource ၏ Value ဟုတ်ပါသည်၊ သို့သော် ၎င်းမတိုင်မီ ရှိနှင့်ပြီးသား Political Rivalry များလည်း ပါဝင်ခဲ့သည်။ Resource Competition သည် Inevitable, Standalone Cause တစ်ခု မဟုတ်ဘဲ Significant Contributing Factor တစ်ခု ဖြစ်ကြောင်း ၎င်း ရှင်းလင်းစွာ ရေးသားခဲ့သည်။\n\nComplete Synthesis တစ်ခုအဖြစ် ပြီးစီးသွားသော Studio Project ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် - Resource-Scarcity Reasoning, Point တိုင်းတွင် Documented and Specific Evidence နှင့် Oversimplified တစ်ခုအစား Conflict ၏ Balanced, Multi-Factor ကိုင်တွယ်မှု -- Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Disciplined Habit များ အတိအကျဖြင့် လူများ ဘာကြောင့် ကုန်သွယ်ခဲ့သည်နှင့် ၎င်းတို့ ကုန်သွယ်ခဲ့သည့်အရာနှင့်အတူ Risk မည်သည် ပါလာသည်ကို ရှင်းပြရန် ယခု အသုံးချထားခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiha Aung's opening section identify and cite evidence for?",
+            questionMy:
+                "Thiha Aung ၏ ဖွင့်လှစ် Section ဖော်ထုတ်ကာ Evidence ကိုးကားခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific resource abundant at one end of the route and scarce at the other",
+              "No specific resource of any kind was identified or cited",
+              "A vague claim of general trade importance with no evidence",
+              "A resource entirely unrelated to the trade route being studied",
+            ],
+            optionsMy: [
+              "Route ၏ အစွန်းတစ်ခုတွင် ပေါများပြီး အခြားတစ်ခုတွင် ရှားပါးသော Specific Resource",
+              "Specific Resource မည်သည်မှ ဖော်ထုတ် (သို့) ကိုးကားခြင်း မပြုခြင်း",
+              "Evidence မပါသော General Trade Importance ၏ Vague Claim",
+              "လေ့လာနေသော Trade Route နှင့် လုံးလုံး မသက်ဆိုင်သော Resource တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identified content."],
+            hintsMy: [
+              "ဖော်ထုတ်ထားသော Content ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 4, how did Thiha Aung characterize resource competition in his final section?",
+            questionMy:
+                "၎င်း၏ နောက်ဆုံး Section တွင် Resource Competition ကို Thiha Aung မည်သို့ Characterize ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၄ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A significant contributing factor, not an inevitable, standalone cause",
+              "The complete and only cause of the conflict with no other factors",
+              "Something with no actual connection to the conflict whatsoever",
+              "A factor he refused to discuss or mention at all",
+            ],
+            optionsMy: [
+              "Inevitable, Standalone Cause တစ်ခု မဟုတ်ဘဲ Significant Contributing Factor တစ်ခု",
+              "အခြား Factor မပါဘဲ Conflict ၏ ပြည့်စုံပြီး တစ်ခုတည်းသော Cause",
+              "Conflict နှင့် Actual Connection မည်သည်မှ လုံးဝ မရှိသော အရာတစ်ခု",
+              "ဆွေးနွေးရန် (သို့) ဖော်ပြရန် ၎င်း လုံးလုံး ငြင်းဆန်ခဲ့သော Factor တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's stated characterization."],
+            hintsMy: [
+              "ဖော်ပြထားသော Characterization ကို စတုတ္ထ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say the finished project synthesized?",
+            questionMy:
+                "ပြီးစီးသွားသော Project ပေါင်းစပ်ခဲ့သည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Resource-scarcity reasoning, specific documented evidence, and balanced multi-factor treatment of conflict",
+              "Nothing at all -- the project failed to combine any skills from the term",
+              "Only a single skill with no connection to any other lesson",
+              "Skills entirely unrelated to resources or trade routes",
+            ],
+            optionsMy: [
+              "Resource-Scarcity Reasoning, Specific Documented Evidence နှင့် Conflict ၏ Balanced Multi-Factor ကိုင်တွယ်မှု",
+              "ဘာမှ -- Project သည် Term မှ Skill မည်သည်ကိုမျှ ပေါင်းစပ်ရန် မအောင်မြင်ခဲ့ခြင်း",
+              "အခြား သင်ခန်းစာ မည်သည်နှင့်မျှ ချိတ်ဆက်မှု မရှိသော Skill တစ်ခုတည်း",
+              "Resource (သို့) Trade Route များနှင့် လုံးလုံး မသက်ဆိုင်သော Skill များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated synthesis."],
+            hintsMy: [
+              "ဖော်ပြထားသော Synthesis ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Natural Resources and Trade Exam",
+      titleMy: "Term 8 Capstone - Natural Resources and Trade စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A complete resource-and-trade study should combine...",
+          questionMy:
+              "Complete Resource-And-Trade Study တစ်ခုသည် ...ကို ပေါင်းစပ်သင့်သည်",
+          optionsEn: [
+            "Why a route existed, what moved along it, and what risks it carried",
+            "Only why a route existed with nothing else",
+            "Only what moved along it with nothing else",
+            "None of these three elements",
+          ],
+          optionsMy: [
+            "Route အဘယ်ကြောင့် ရှိခဲ့သည်၊ ၎င်းတစ်လျှောက် မည်သည် ရွေ့လျားခဲ့သည်နှင့် ၎င်း Risk မည်သည် သယ်ဆောင်ခဲ့သည်",
+            "အခြား ဘာမှ မပါဘဲ Route အဘယ်ကြောင့် ရှိခဲ့သည်တစ်ခုတည်း",
+            "အခြား ဘာမှ မပါဘဲ ၎င်းတစ်လျှောက် မည်သည် ရွေ့လျားခဲ့သည် တစ်ခုတည်း",
+            "Element သုံးခုထဲမှ တစ်ခုမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Each exchange point on a trade route map should cite...",
+          questionMy:
+              "Trade Route Map ပေါ်ရှိ Exchange Point တစ်ခုစီသည် ...ကို ကိုးကားသင့်သည်",
+          optionsEn: [
+            "A specific, documented resource",
+            "A vague, generic label",
+            "No resource of any kind whatsoever",
+            "Only decorative symbols with no meaning",
+          ],
+          optionsMy: [
+            "Specific, Documented Resource တစ်ခု",
+            "Vague, Generic Label တစ်ခု",
+            "Resource မည်သည်မှ လုံးဝ",
+            "အဓိပ္ပာယ် မရှိသော Decorative Symbol များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Resource competition's role in conflict should be presented as...",
+          questionMy:
+              "Conflict ၌ Resource Competition ၏ Role ကို ...အဖြစ် တင်ပြသင့်သည်",
+          optionsEn: [
+            "A significant contributing factor among several, not an inevitable sole cause",
+            "The only cause of every conflict with no exceptions",
+            "Something with no actual connection to conflict at all",
+            "A factor that should never be discussed",
+          ],
+          optionsMy: [
+            "Inevitable Sole Cause တစ်ခု မဟုတ်ဘဲ Factor များစွာထဲမှ Significant Contributing Factor တစ်ခု",
+            "ခြွင်းချက်မရှိဘဲ Conflict တိုင်း၏ တစ်ခုတည်းသော Cause",
+            "Conflict နှင့် Actual Connection မည်သည်မှ လုံးဝ မရှိသော အရာတစ်ခု",
+            "ဘယ်တော့မှ မဆွေးနွေးသင့်သော Factor တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 8: "Natural Resources and Trade"
+// term definition (Weeks 29-32)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm8 = CourseTermDef(
+  id: "course-sec1-hum-t8",
+  termNumber: 8,
+  titleEn: "Natural Resources and Trade",
+  titleMy: "Natural Resources and Trade",
+  certificateTitleEn: "Natural Resources and Trade",
+  certificateTitleMy: "Natural Resources and Trade",
+  weeks: [_sec1HumWeek29, _sec1HumWeek30, _sec1HumWeek31, _sec1HumWeek32],
 );
 // __SEC_HUM_MARKER__
