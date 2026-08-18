@@ -129351,11 +129351,11 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec3HumTerm1, _sec3HumTerm2],
+  terms: [_sec3HumTerm1, _sec3HumTerm2, _sec3HumTerm3],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 2: "Imperialism and the Scramble for
@@ -130802,5 +130802,1452 @@ const CourseTermDef _sec3HumTerm2 = CourseTermDef(
   certificateTitleMy:
       "Imperialism and the Scramble for Africa သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek5, _sec3HumWeek6, _sec3HumWeek7, _sec3HumWeek8],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 3: "Tensions Before the Great War"
+// (Weeks 9-12). Deliberately primes IGCSE Humanities' fuller Great War
+// causes unit without duplicating it, following the same spiral
+// pattern established in Term 1, Week 3.
+// Term 3, Week 9: "Documented Alliance Systems"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek9 = CourseWeekDef(
+  id: "course-sec3-hum-w9",
+  weekNumber: 9,
+  titleEn: "Documented Alliance Systems",
+  titleMy: "Documented Alliance System များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w9-d1",
+      dayNumber: 1,
+      titleEn: "Naming the Documented Alliances",
+      titleMy: "Documented Alliance များ အမည်တပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document two specific, named alliance systems forming in Europe before the Great War: the Triple Alliance and the Triple Entente, each with specific documented member nations. Why cite these two specific, named systems rather than describing pre-war Europe only as 'countries forming alliances'?",
+          questionMy:
+              "Historian များသည် Great War မတိုင်မီ Europe တွင် ဖွဲ့စည်းခဲ့သော Alliance System နှစ်ခု -- Triple Alliance နှင့် Triple Entente -- ကို ၎င်းတို့ ကိုယ်ပိုင် Specific Documented Member Nation များနှင့်အတူ Document ပြုလုပ်ထားသည်။ Pre-War Europe ကို 'Country များ Alliance များ ဖွဲ့စည်းခြင်း' ဟုသာ ဖော်ပြမည့်အစား Specific, Named System နှစ်ခုကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Citing the specific, named documented alliances and their member nations shows precisely how the European political landscape was structured, the same specific-evidence habit taught since Term 1",
+            "Vague descriptions of 'alliances forming' are always more historically accurate than naming specific documented systems",
+            "The Triple Alliance and Triple Entente have no actual documented connection to pre-war Europe",
+            "Specific documented alliance systems have no actual value in understanding this period",
+          ],
+          optionsMy: [
+            "Specific, Named Documented Alliance များနှင့် ၎င်းတို့၏ Member Nation များကို Cite ပြုလုပ်ခြင်းသည် European Political Landscape ကို မည်သို့ ဖွဲ့စည်းခဲ့သည်ကို တိကျစွာ ပြသပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "'Alliance များ ဖွဲ့စည်းခြင်း' ၏ Vague ဖော်ပြချက်များသည် Specific Documented System များ အမည်တပ်ခြင်းထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Triple Alliance နှင့် Triple Entente တွင် Pre-War Europe နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Alliance System များတွင် ဤကာလကို နားလည်ရာ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-citation habit used throughout this course, applied to naming pre-war alliance systems.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Pre-War Alliance System များ အမည်တပ်ရန် အသုံးချထားသော ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does this week's alliance-system content connect directly back to Term 1's documented nationalist rivalry and Term 2's documented imperial rivalry?",
+          questionMy:
+              "ဤအပတ်၏ Alliance-System Content သည် Term 1 ၏ Documented Nationalist Rivalry နှင့် Term 2 ၏ Documented Imperial Rivalry သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Documented alliance systems formed partly in response to the same nationalist and imperial rivalries studied earlier, showing this course's cumulative, connected approach rather than treating each term as isolated",
+            "Alliance systems have no actual documented connection to nationalist or imperial rivalry of any kind",
+            "Term 1, Term 2, and Term 3 are documented as completely unrelated to each other",
+            "This course treats each term's content as entirely isolated with no cumulative connection",
+          ],
+          optionsMy: [
+            "Documented Alliance System များသည် ယခင် လေ့လာခဲ့သော Nationalist နှင့် Imperial Rivalry တူတူအတွက် Response တစ်ခုအနေဖြင့် တစ်စိတ်တစ်ပိုင်း ဖွဲ့စည်းခဲ့ပြီး Term တစ်ခုစီကို Isolated အဖြစ် သဘောထားမည့်အစား ဤ Course ၏ Cumulative, Connected Approach ကို ပြသသည်",
+            "Alliance System များတွင် Nationalist (သို့) Imperial Rivalry မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Term 1, Term 2 နှင့် Term 3 တွင် တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "ဤ Course သည် Cumulative Connection မရှိဘဲ Term တစ်ခုစီ၏ Content ကို လုံးလုံး Isolated အဖြစ် သဘောထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 1's nationalist rivalry and Term 2's imperial rivalry -- alliance systems are a documented continuation of these same tensions.",
+          ],
+          hintsMy: [
+            "Term 1 ၏ Nationalist Rivalry နှင့် Term 2 ၏ Imperial Rivalry ကို သတိရပါ -- Alliance System များသည် ဤ Tension တူတူ၏ Documented Continuation တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is this course introducing documented alliance systems at this level while reserving fuller coverage of the Great War's complete causes for IGCSE, rather than either skipping alliances entirely or covering the war's full causes here?",
+          questionMy:
+              "IGCSE အတွက် Great War ၏ Complete Cause များ ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် Alliance လုံးဝ ကျော်သွားခြင်း (သို့) စစ်ပွဲ၏ Full Cause များကို ဤနေရာတွင် ဖုံးအုပ်ခြင်းမှလွဲ၍ ဤ Course သည် ဤ Level တွင် Documented Alliance System များကို အဘယ်ကြောင့် မိတ်ဆက်ပေးနေသနည်း။",
+          optionsEn: [
+            "This follows the same deliberate spiral curriculum design used in Term 1, Week 3 -- introducing a documented connection at an appropriate depth now, building toward fuller coverage later",
+            "This course should never actually mention any content that will be covered again at IGCSE",
+            "Documented alliance systems have no actual connection to any later historical study",
+            "This course should fully cover the Great War's complete causes in total depth at this stage",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Term 1, Week 3 တွင် အသုံးပြုခဲ့သော Deliberate Spiral Curriculum Design တူတူကို လိုက်နာသည် -- ယခု သင့်လျော်သော Depth တွင် Documented Connection တစ်ခုကို မိတ်ဆက်ပေးကာ နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage ဘက်သို့ တည်ဆောက်ခြင်း",
+            "ဤ Course သည် IGCSE တွင် ထပ်မံ ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+            "Documented Alliance System များတွင် နောက်ပိုင်း သမိုင်းဆိုင်ရာ Study မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "ဤ Course သည် ဤအဆင့်တွင် Great War ၏ Complete Cause များကို Total Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same spiral curriculum principle explicitly stated in Term 1, Week 3, applied here to alliance systems.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Alliance System များပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 1, Week 3 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Spiral Curriculum Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Alliance Systems Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Alliance Systems Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w9-dm-1",
+          termEn: "Triple Alliance",
+          termMy: "Triple Alliance",
+          matchEn:
+              "A documented alliance system with specific named member nations",
+          matchMy:
+              "Specific Named Member Nation များပါဝင်သော Documented Alliance System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w9-dm-2",
+          termEn: "Triple Entente",
+          termMy: "Triple Entente",
+          matchEn:
+              "A separate, distinct documented alliance system with its own specific member nations",
+          matchMy:
+              "၎င်း ကိုယ်ပိုင် Specific Member Nation များနှင့် Separate, Distinct Documented Alliance System",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w9-dm-3",
+          termEn: "Cumulative connection",
+          termMy: "Cumulative Connection",
+          matchEn:
+              "Alliance systems building on Term 1's nationalist and Term 2's imperial rivalry",
+          matchMy:
+              "Term 1 ၏ Nationalist နှင့် Term 2 ၏ Imperial Rivalry ပေါ်တွင် တည်ဆောက်ထားသော Alliance System များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w9-dm-4",
+          termEn: "Spiral curriculum priming",
+          termMy: "Spiral Curriculum Priming",
+          matchEn:
+              "Introducing a documented topic at appropriate depth before fuller coverage at IGCSE",
+          matchMy:
+              "IGCSE ၏ ပို၍ ပြည့်စုံသော Coverage မတိုင်မီ သင့်လျော်သော Depth တွင် Documented Topic တစ်ခု မိတ်ဆက်ပေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Citation or Vague Description?",
+      titleMy: "စီစစ်ကြမည် - Specific Citation (သို့) Vague Description",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Citation", "Vague Description"],
+        bucketsMy: ["Specific Documented Citation", "Vague Description"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w9-sort-1",
+            labelEn:
+                "The Triple Alliance and Triple Entente, with named specific member nations",
+            labelMy:
+                "Named Specific Member Nation များနှင့် Triple Alliance နှင့် Triple Entente",
+            correctBucketEn: "Specific Documented Citation",
+            correctBucketMy: "Specific Documented Citation",
+          ),
+          SortingItem(
+            id: "sec3hum-w9-sort-2",
+            labelEn: "Countries forming alliances with each other",
+            labelMy: "တစ်ခုနှင့်တစ်ခု Alliance ဖွဲ့စည်းသော Country များ",
+            correctBucketEn: "Vague Description",
+            correctBucketMy: "Vague Description",
+          ),
+          SortingItem(
+            id: "sec3hum-w9-sort-3",
+            labelEn:
+                "Documented alliance formation connected to prior nationalist and imperial rivalry",
+            labelMy:
+                "ယခင် Nationalist နှင့် Imperial Rivalry နှင့် ချိတ်ဆက်ထားသော Documented Alliance Formation",
+            correctBucketEn: "Specific Documented Citation",
+            correctBucketMy: "Specific Documented Citation",
+          ),
+          SortingItem(
+            id: "sec3hum-w9-sort-4",
+            labelEn: "Tensions rising in Europe in general",
+            labelMy: "ယေဘုယျအားဖြင့် Europe တွင် တက်လာသော Tension များ",
+            correctBucketEn: "Vague Description",
+            correctBucketMy: "Vague Description",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zayar Lin's Alliance Map",
+      titleMy: "စာဖတ်ခြင်း - Zayar Lin ၏ Alliance Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zayar Lin's Alliance Map",
+        titleMy: "Zayar Lin ၏ Alliance Map",
+        passageEn:
+            "For Week 9's project, Zayar Lin's first draft described pre-war Europe only as 'countries forming alliances with each other,' with no specific documented system or member nation named. His teacher asked him to apply the specific-citation habit used throughout this course -- which specific, documented alliances was he actually referring to?\n\nZayar Lin revised his map to name the Triple Alliance and the Triple Entente as two separate, distinct documented systems, each with its own specific member nations, rather than blending them into one vague category. He then connected this documented alliance formation back to earlier terms: the same nationalist rivalry studied in Term 1 and the same imperial rivalry studied in Term 2 contributed to why European powers sought these documented alliances in the first place.\n\nHis teacher noted that this course was introducing alliance systems at an appropriate depth now, the same spiral curriculum design used in Term 1's Week 3, while reserving the Great War's complete causes for fuller study at IGCSE. Zayar Lin's map was praised for combining specific documented citation with a cumulative connection to prior terms, exactly the discipline the class would need going into Week 10's look at militarism and the arms race.",
+        passageMy:
+            "Week 9 ၏ Project အတွက် Zayar Lin ၏ ပထမဆုံး Draft တွင် Specific Documented System (သို့) Member Nation မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ Pre-War Europe ကို 'တစ်ခုနှင့်တစ်ခု Alliance ဖွဲ့စည်းသော Country များ' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Alliance မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nTriple Alliance နှင့် Triple Entente ကို Vague Category တစ်ခုတည်းအဖြစ် ရောစပ်မည့်အစား ၎င်းတို့ ကိုယ်ပိုင် Specific Member Nation များနှင့် Separate, Distinct Documented System နှစ်ခုအဖြစ် အမည်တပ်ရန် ၎င်း၏ Map ကို Zayar Lin ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Term 1 တွင် လေ့လာခဲ့သော Nationalist Rivalry တူတူနှင့် Term 2 တွင် လေ့လာခဲ့သော Imperial Rivalry တူတူသည် European Power များ ဤ Documented Alliance များကို ရှေးဦးစွာ ရှာဖွေရန် အဘယ်ကြောင့် ဆွဲဆောင်ခဲ့သည်ကို ဤ Documented Alliance Formation ကို ၎င်း ပြန်လည် ချိတ်ဆက်ခဲ့သည်။\n\nGreat War ၏ Complete Cause များကို IGCSE တွင် ပို၍ ပြည့်စုံသော Study အတွက် ချန်ထားစဉ် ဤ Course သည် ယခု သင့်လျော်သော Depth တွင် Alliance System များကို မိတ်ဆက်ပေးနေကြောင်း, Term 1 ၏ Week 3 တွင် အသုံးပြုခဲ့သော Spiral Curriculum Design တူတူ ဖြစ်ကြောင်း ၎င်း၏ ဆရာ မှတ်ချက်ပြုခဲ့သည်။ Specific Documented Citation ကို ယခင် Term များသို့ Cumulative Connection နှင့် ပေါင်းစပ်ခဲ့ခြင်း -- Class Week 10 ၏ Militarism နှင့် Arms Race ကို ကြည့်ရှုရန် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခြင်းတို့ကြောင့် Zayar Lin ၏ Map ကို ချီးမွမ်းခံရခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two systems did Zayar Lin name as distinct?",
+            questionMy:
+                "Distinct အဖြစ် Zayar Lin အမည်တပ်ခဲ့သော System နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Triple Alliance and the Triple Entente",
+              "No specific documented system of any kind",
+              "Systems entirely unrelated to pre-war Europe",
+              "A single unspecified system with no documented members",
+            ],
+            optionsMy: [
+              "Triple Alliance နှင့် Triple Entente",
+              "Specific Documented System မည်သည် အမျိုးအစားမှ",
+              "Pre-War Europe နှင့် လုံးလုံး မသက်ဆိုင်သော System များ",
+              "Documented Member မပါသော Unspecified System တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated systems."],
+            hintsMy: [
+              "ဖော်ပြထားသော System များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two earlier terms did Zayar Lin connect alliance formation back to?",
+            questionMy:
+                "Alliance Formation ကို Zayar Lin ပြန်လည် ချိတ်ဆက်ခဲ့သော ယခင် Term နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 1 (nationalist rivalry) and Term 2 (imperial rivalry)",
+              "No earlier term of any kind",
+              "Terms entirely unrelated to alliance formation",
+              "Only Term 2, with no connection to Term 1",
+            ],
+            optionsMy: [
+              "Term 1 (Nationalist Rivalry) နှင့် Term 2 (Imperial Rivalry)",
+              "ယခင် Term မည်သည် အမျိုးအစားမှ",
+              "Alliance Formation နှင့် လုံးလုံး မသက်ဆိုင်သော Term များ",
+              "Term 1 နှင့် ဆက်နွယ်မှု မပါဘဲ Term 2 တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is this course reserving for fuller study at IGCSE?",
+            questionMy:
+                "IGCSE တွင် ပို၍ ပြည့်စုံသော Study အတွက် ဤ Course ချန်ထားနေသည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Great War's complete causes",
+              "No documented topic of any kind",
+              "Content entirely unrelated to this term's subject",
+              "Alliance systems, which this course never actually mentions",
+            ],
+            optionsMy: [
+              "Great War ၏ Complete Cause များ",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "ဤ Term ၏ Subject နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ဘယ်တော့မှ Actual မဖော်ပြသော Alliance System များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reservation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reservation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w9-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Alliance Systems Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Alliance Systems မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Pre-war Europe is documented as having...",
+          questionMy:
+              "Pre-War Europe တွင် ...ရှိကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Two specific, named alliance systems with distinct member nations",
+            "One vague, unspecified alliance with no documented members",
+            "No documented alliance system of any kind",
+            "Alliances unrelated to any documented rivalry",
+          ],
+          optionsMy: [
+            "Distinct Member Nation များနှင့် Specific, Named Alliance System နှစ်ခု",
+            "Documented Member မပါသော Vague, Unspecified Alliance တစ်ခုတည်း",
+            "Documented Alliance System မည်သည် အမျိုးအစားမှ",
+            "Documented Rivalry မည်သည်နှင့်မျှ မသက်ဆိုင်သော Alliance များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Documented alliance systems are connected back to...",
+          questionMy:
+              "Documented Alliance System များကို ...သို့ ပြန်လည် ချိတ်ဆက်ထားသည်",
+          optionsEn: [
+            "Term 1's nationalist rivalry and Term 2's imperial rivalry",
+            "No earlier documented content of any kind",
+            "Content entirely unrelated to alliance formation",
+            "Only Term 2, with no connection to Term 1",
+          ],
+          optionsMy: [
+            "Term 1 ၏ Nationalist Rivalry နှင့် Term 2 ၏ Imperial Rivalry",
+            "Documented Content ယခင်များ မည်သည် အမျိုးအစားမှ",
+            "Alliance Formation နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "Term 1 နှင့် ဆက်နွယ်မှု မပါဘဲ Term 2 တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This course introduces alliance systems now while reserving the Great War's full causes because it...",
+          questionMy:
+              "ဤ Course သည် Great War ၏ Full Cause များကို ချန်ထားစဉ် Alliance System များကို ယခု မိတ်ဆက်ပေးခြင်း အကြောင်းရင်းမှာ ...ကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "Follows a deliberate spiral curriculum design",
+            "Fully covers the Great War's causes in complete depth here",
+            "Never actually mentions any content covered later at IGCSE",
+            "Has no actual documented connection to any future topic",
+          ],
+          optionsMy: [
+            "Deliberate Spiral Curriculum Design ကို လိုက်နာခြင်း",
+            "ဤနေရာတွင် Great War ၏ Cause များကို Complete Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်ခြင်း",
+            "IGCSE တွင် နောက်ပိုင်း ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မဖော်ပြခြင်း",
+            "Topic အနာဂတ် မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 3, Week 10: "Militarism and the Arms
+// Race"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek10 = CourseWeekDef(
+  id: "course-sec3-hum-w10",
+  weekNumber: 10,
+  titleEn: "Militarism and the Arms Race",
+  titleMy: "Militarism and the Arms Race",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w10-d1",
+      dayNumber: 1,
+      titleEn: "Documented Militarism and the Naval Race",
+      titleMy: "Documented Militarism နှင့် Naval Race",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document militarism as the specific documented belief that a nation should maintain strong military forces and be prepared to use them, and cite the documented naval arms race between Britain and Germany as a specific example. Why cite this specific documented example rather than describing militarism only as 'countries building up their armies'?",
+          questionMy:
+              "Historian များသည် Militarism ကို Nation တစ်ခုသည် ခိုင်မာသော Military Force များ ထိန်းသိမ်းကာ ၎င်းတို့ကို အသုံးပြုရန် အသင့်ရှိသင့်သည်ဟူသော Specific Documented ယုံကြည်ချက်အဖြစ် Document ပြုလုပ်ထားပြီး Britain နှင့် Germany ကြား Documented Naval Arms Race ကို Specific ဥပမာတစ်ခုအဖြစ် Cite ပြုလုပ်ထားသည်။ Militarism ကို 'Country များ ၎င်းတို့ Army ကို ထူထောင်ခြင်း' ဟုသာ ဖော်ပြမည့်အစား ဤ Specific Documented ဥပမာကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Citing this specific documented example (the Britain-Germany naval race) shows precisely how militarism manifested, the same specific-evidence habit used throughout this course, rather than a vague generic claim",
+            "Vague descriptions of countries building armies are always more accurate than specific documented examples",
+            "The naval arms race has no actual documented connection to militarism of any kind",
+            "Specific documented examples have no actual value in understanding this period",
+          ],
+          optionsMy: [
+            "ဤ Specific Documented ဥပမာ (Britain-Germany Naval Race) ကို Cite ပြုလုပ်ခြင်းသည် Militarism မည်သို့ ဖော်ထုတ်ခဲ့သည်ကို တိကျစွာ ပြသပြီး Vague Generic Claim တစ်ခုထက် ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Army ထူထောင်နေသော Country များ၏ Vague ဖော်ပြချက်များသည် Specific Documented ဥပမာများထက် အမြဲ ပို၍ တိကျသည်",
+            "Naval Arms Race တွင် Militarism မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented ဥပမာများတွင် ဤကာလကို နားလည်ရာ၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-citation habit used since Term 1, applied to naming a specific documented arms race.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Specific Documented Arms Race တစ်ခု အမည်တပ်ရန် အသုံးချထားသော Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does militarism combine with the alliance systems from Week 9 to create documented escalating tension, rather than each factor operating independently with no connection?",
+          questionMy:
+              "Factor တစ်ခုစီသည် ဆက်နွယ်မှု မပါဘဲ Independently လည်ပတ်မည့်အစား Militarism သည် Documented Escalating Tension ဖန်တီးရန် Week 9 မှ Alliance System များနှင့် အဘယ်ကြောင့် ပေါင်းစပ်သနည်း။",
+          optionsEn: [
+            "Documented alliance commitments meant that military buildup by one nation was seen as a threat by allied and rival nations alike, so the two documented factors reinforced each other -- the same multi-causation principle used throughout this course",
+            "Militarism and alliance systems are documented as having no actual connection to each other",
+            "Alliance systems always operated in complete isolation from documented military buildup",
+            "Multiple documented factors reinforcing each other has no actual historical significance",
+          ],
+          optionsMy: [
+            "Documented Alliance Commitment များက Nation တစ်ခု၏ Military Buildup ကို Allied နှင့် Rival Nation များ နှစ်ခုစလုံးက Threat တစ်ခုအဖြစ် သဘောထားစေခဲ့သောကြောင့် Documented Factor နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု Reinforce ပြုလုပ်ခဲ့သည် -- ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည်",
+            "Militarism နှင့် Alliance System များတွင် တစ်ခုနှင့်တစ်ခု Actual ဆက်နွယ်မှု မရှိကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Alliance System များသည် Documented Military Buildup မှ Complete Isolation တွင် အမြဲ လည်ပတ်ခဲ့ခြင်း",
+            "Documented Factor များစွာ တစ်ခုနှင့်တစ်ခု Reinforce ပြုလုပ်ခြင်းတွင် Actual သမိုင်းဆိုင်ရာ Significance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects Week 9's alliance systems and Week 10's militarism as two combining, reinforcing documented factors.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 9 ၏ Alliance System များနှင့် Week 10 ၏ Militarism ကို Reinforce ပြုလုပ်ကာ ပေါင်းစပ်သော Documented Factor နှစ်ခုအဖြစ် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes rising military tension only as 'countries preparing for war' with no documented specific example, date, or nation named. What historical-evidence habit should the student apply?",
+          questionMy:
+              "Student တစ်ဦးသည် Documented Specific ဥပမာ, Date (သို့) Nation မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ 'Country များ စစ်ပွဲအတွက် ပြင်ဆင်ခြင်း' ဟုသာ တက်လာသော Military Tension ကို ဖော်ပြသည်။ Student ဘယ် Historical-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Citing specific documented examples (the naval race, named nations, documented buildup) rather than a vague, unspecified phrase, the same specific-evidence habit taught since Secondary 1's Term 1",
+            "Vague, unspecified phrases are always more historically accurate than specific documented examples",
+            "Specific documented examples have no actual value in describing military tension",
+            "Documented details should never actually be cited for this documented period",
+          ],
+          optionsMy: [
+            "Vague, Unspecified Phrase တစ်ခုအစား Specific Documented ဥပမာများ (Naval Race, Named Nation များ, Documented Buildup) ကို Cite ပြုလုပ်ခြင်း, Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, Unspecified Phrase များသည် Specific Documented ဥပမာများထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Specific Documented ဥပမာများတွင် Military Tension ဖော်ပြရာ၌ Actual Value မရှိခြင်း",
+            "ဤ Documented ကာလအတွက် Documented Detail များကို ဘယ်တော့မှ Actual Cite မပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Secondary 1's Term 1, applied to this documented arms race.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Documented Arms Race ပေါ်တွင် အသုံးချထားသော Secondary 1 ၏ Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Militarism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Militarism Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w10-dm-1",
+          termEn: "Militarism",
+          termMy: "Militarism",
+          matchEn:
+              "The documented belief that a nation should maintain strong, ready military forces",
+          matchMy:
+              "Nation တစ်ခုသည် ခိုင်မာသော, အသင့်ရှိသော Military Force များ ထိန်းသိမ်းသင့်သည်ဟူသော Documented ယုံကြည်ချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w10-dm-2",
+          termEn: "Naval arms race",
+          termMy: "Naval Arms Race",
+          matchEn:
+              "A documented specific example of militarism between Britain and Germany",
+          matchMy:
+              "Britain နှင့် Germany ကြား Militarism ၏ Documented Specific ဥပမာတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w10-dm-3",
+          termEn: "Reinforcing factors",
+          termMy: "Reinforcing Factors",
+          matchEn:
+              "Documented factors like alliances and militarism that combine to escalate tension",
+          matchMy:
+              "Tension ကို Escalate ပြုလုပ်ရန် ပေါင်းစပ်သော Alliance များနှင့် Militarism ကဲ့သို့ Documented Factor များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w10-dm-4",
+          termEn: "Documented military buildup",
+          termMy: "Documented Military Buildup",
+          matchEn:
+              "A specific, cited increase in a nation's military strength, not a vague generalization",
+          matchMy:
+              "Vague Generalization တစ်ခုမဟုတ်ဘဲ Nation တစ်ခု၏ Military Strength ၏ Specific, Cite ပြုလုပ်ထားသော မြင့်တက်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Militarism or Alliance System?",
+      titleMy: "စီစစ်ကြမည် - Militarism (သို့) Alliance System",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Related to Militarism", "Related to Alliance Systems"],
+        bucketsMy: [
+          "Militarism နှင့် သက်ဆိုင်သည်",
+          "Alliance Systems နှင့် သက်ဆိုင်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w10-sort-1",
+            labelEn: "The documented naval race between Britain and Germany",
+            labelMy: "Britain နှင့် Germany ကြား Documented Naval Race",
+            correctBucketEn: "Related to Militarism",
+            correctBucketMy: "Militarism နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w10-sort-2",
+            labelEn:
+                "The Triple Alliance and Triple Entente, with named member nations",
+            labelMy:
+                "Named Member Nation များနှင့် Triple Alliance နှင့် Triple Entente",
+            correctBucketEn: "Related to Alliance Systems",
+            correctBucketMy: "Alliance Systems နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w10-sort-3",
+            labelEn:
+                "The documented belief a nation should maintain strong, ready military forces",
+            labelMy:
+                "Nation တစ်ခုသည် ခိုင်မာသော, အသင့်ရှိသော Military Force များ ထိန်းသိမ်းသင့်သည်ဟူသော Documented ယုံကြည်ချက်",
+            correctBucketEn: "Related to Militarism",
+            correctBucketMy: "Militarism နှင့် သက်ဆိုင်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w10-sort-4",
+            labelEn:
+                "Documented alliance commitments between specific European nations",
+            labelMy:
+                "Specific European Nation များကြား Documented Alliance Commitment များ",
+            correctBucketEn: "Related to Alliance Systems",
+            correctBucketMy: "Alliance Systems နှင့် သက်ဆိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiha Aung's Arms Race Report",
+      titleMy: "စာဖတ်ခြင်း - Thiha Aung ၏ Arms Race Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiha Aung's Arms Race Report",
+        titleMy: "Thiha Aung ၏ Arms Race Report",
+        passageEn:
+            "For Week 10's assignment, Thiha Aung's first draft described rising military tension only as 'countries preparing for war,' with no specific documented example named. His teacher asked him to apply the specific-evidence habit taught since Secondary 1's Term 1 -- what specific, documented example was he actually referring to?\n\nThiha Aung revised his report to cite the documented naval arms race between Britain and Germany specifically, defining militarism as the documented belief that a nation should maintain strong, ready military forces. He then connected this to Week 9's alliance systems: because nations had documented alliance commitments, military buildup by one power was seen as a direct threat by rival alliance members, meaning the two documented factors reinforced rather than operated independently of each other.\n\nHis teacher praised the revision for applying both the specific-citation habit and the multi-causation principle used throughout this course, and reminded the class that these documented factors -- alliances and militarism -- would combine with more tensions in Week 11's balanced account, all still building toward the fuller Great War study reserved for IGCSE rather than being fully covered here.",
+        passageMy:
+            "Week 10 ၏ Assignment အတွက် Thiha Aung ၏ ပထမဆုံး Draft တွင် Specific Documented ဥပမာ မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ တက်လာသော Military Tension ကို 'Country များ စစ်ပွဲအတွက် ပြင်ဆင်ခြင်း' ဟုသာ ဖော်ပြခဲ့သည်။ Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented ဥပမာ မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nNation တစ်ခုသည် ခိုင်မာသော, အသင့်ရှိသော Military Force များ ထိန်းသိမ်းသင့်သည်ဟူသော Documented ယုံကြည်ချက်အဖြစ် Militarism ကို သတ်မှတ်ကာ Britain နှင့် Germany ကြား Documented Naval Arms Race ကို တိကျစွာ Cite ပြုလုပ်ရန် ၎င်း၏ Report ကို Thiha Aung ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Week 9 ၏ Alliance System များသို့ ၎င်း ဤသည်ကို ချိတ်ဆက်ခဲ့သည် -- Nation များတွင် Documented Alliance Commitment များ ရှိခဲ့သောကြောင့် Power တစ်ခု၏ Military Buildup ကို Rival Alliance Member များက Direct Threat တစ်ခုအဖြစ် သဘောထားခဲ့ပြီး Documented Factor နှစ်ခုသည် တစ်ခုနှင့်တစ်ခု Independently မလည်ပတ်ဘဲ Reinforce ပြုလုပ်ခဲ့ကြောင်း ဆိုလိုသည်။\n\nဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Citation အလေ့အထ နှင့် Multi-Causation Principle နှစ်ခုစလုံးကို အသုံးချသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး ဤ Documented Factor များ -- Alliance များနှင့် Militarism -- သည် Week 11 ၏ Balanced Account တွင် Tension များစွာနှင့် ပေါင်းစပ်မည်ဖြစ်ကြောင်း, ဤနေရာတွင် အပြည့်အစုံ ဖုံးအုပ်မည့်အစား IGCSE အတွက် ချန်ထားသော ပို၍ ပြည့်စုံသော Great War Study ဘက်သို့ ဆက်လက် တည်ဆောက်နေမည်ဖြစ်ကြောင်း Class ကို သတိပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific documented example did Thiha Aung cite?",
+            questionMy:
+                "Thiha Aung Cite ပြုလုပ်ခဲ့သော Specific Documented ဥပမာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The naval arms race between Britain and Germany",
+              "No specific documented example of any kind",
+              "An example entirely unrelated to militarism",
+              "A vague, unspecified phrase with no documented nation named",
+            ],
+            optionsMy: [
+              "Britain နှင့် Germany ကြား Naval Arms Race",
+              "Specific Documented ဥပမာ မည်သည် အမျိုးအစားမှ",
+              "Militarism နှင့် လုံးလုံး မသက်ဆိုင်သော ဥပမာ",
+              "Documented Nation အမည်တပ်ခြင်း မပါသော Vague, Unspecified Phrase",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited example."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော ဥပမာကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did militarism connect to Week 9's alliance systems?",
+            questionMy:
+                "Week 9 ၏ Alliance System များနှင့် Militarism မည်သို့ ချိတ်ဆက်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Military buildup by one power was seen as a threat by rival alliance members, reinforcing tension",
+              "The two documented factors had no actual connection to each other",
+              "Alliance systems always operated in complete isolation from militarism",
+              "Militarism was documented as entirely unrelated to any alliance commitment",
+            ],
+            optionsMy: [
+              "Power တစ်ခု၏ Military Buildup ကို Rival Alliance Member များက Threat တစ်ခုအဖြစ် သဘောထားကာ Tension ကို Reinforce ပြုလုပ်ခဲ့ခြင်း",
+              "Documented Factor နှစ်ခုတွင် တစ်ခုနှင့်တစ်ခု Actual ဆက်နွယ်မှု မရှိခြင်း",
+              "Alliance System များသည် Militarism မှ Complete Isolation တွင် အမြဲ လည်ပတ်ခဲ့ခြင်း",
+              "Militarism ကို Alliance Commitment မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is this course reserving for IGCSE?",
+            questionMy:
+                "IGCSE အတွက် ဤ Course ချန်ထားနေသည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fuller study of the Great War",
+              "No documented topic of any kind",
+              "Content entirely unrelated to this term's subject",
+              "Militarism, which this course never actually mentions",
+            ],
+            optionsMy: [
+              "Great War ၏ ပို၍ ပြည့်စုံသော Study",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "ဤ Term ၏ Subject နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ဘယ်တော့မှ Actual မဖော်ပြသော Militarism",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reservation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reservation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w10-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Militarism Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Militarism မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Militarism is documented as the belief that a nation should...",
+          questionMy:
+              "Militarism ကို Nation တစ်ခုသည် ...ဟူသော ယုံကြည်ချက်အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Maintain strong, ready military forces",
+            "Avoid any documented military preparation of any kind",
+            "Have no actual connection to alliance systems",
+            "Never maintain any documented military force",
+          ],
+          optionsMy: [
+            "ခိုင်မာသော, အသင့်ရှိသော Military Force များ ထိန်းသိမ်းသင့်ခြင်း",
+            "Documented Military Preparation မည်သည် အမျိုးအစားမှ ရှောင်ရှားသင့်ခြင်း",
+            "Alliance System များနှင့် Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Military Force မည်သည်ကိုမျှ ဘယ်တော့မှ မထိန်းသိမ်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The naval arms race is documented as a specific example between...",
+          questionMy:
+              "Naval Arms Race ကို ...ကြား Specific ဥပမာတစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Britain and Germany",
+            "No documented nations of any kind",
+            "Nations entirely unrelated to militarism",
+            "A single unspecified nation with no documented rival",
+          ],
+          optionsMy: [
+            "Britain နှင့် Germany",
+            "Documented Nation များ မည်သည် အမျိုးအစားမှ",
+            "Militarism နှင့် လုံးလုံး မသက်ဆိုင်သော Nation များ",
+            "Documented Rival မပါသော Unspecified Nation တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Militarism and alliance systems are documented as...",
+          questionMy:
+              "Militarism နှင့် Alliance System များကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Reinforcing each other to escalate documented tension",
+            "Operating in complete isolation with no connection",
+            "Unrelated to any documented historical factor",
+            "A single identical factor with no distinction",
+          ],
+          optionsMy: [
+            "Documented Tension ကို Escalate ပြုလုပ်ရန် တစ်ခုနှင့်တစ်ခု Reinforce ပြုလုပ်ခြင်း",
+            "ဆက်နွယ်မှု မပါဘဲ Complete Isolation တွင် လည်ပတ်ခြင်း",
+            "Documented သမိုင်းဆိုင်ရာ Factor မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+            "Distinction မပါဘဲ Identical Factor တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 3, Week 11: "Balanced Account of
+// Pre-War Tensions"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek11 = CourseWeekDef(
+  id: "course-sec3-hum-w11",
+  weekNumber: 11,
+  titleEn: "Balanced Account of Pre-War Tensions",
+  titleMy: "Pre-War Tension များ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w11-d1",
+      dayNumber: 1,
+      titleEn: "Multiple Documented Tensions Together",
+      titleMy: "Documented Tension များစွာ အတူတကွ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document rising pre-war tension in Europe as resulting from several documented factors combining: nationalist rivalry (Term 1), imperial competition (Term 2), alliance systems, and militarism (Weeks 9-10). Why cite all four together rather than a single cause?",
+          questionMy:
+              "Historian များသည် Europe ရှိ တက်လာသော Pre-War Tension ကို ပေါင်းစပ်ထားသော Documented Factor များစွာ -- Nationalist Rivalry (Term 1), Imperial Competition (Term 2), Alliance System များနှင့် Militarism (Week 9-10) -- မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်။ Cause တစ်ခုတည်းအစား လေးခုစလုံးကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout this course -- major historical developments usually result from several documented factors working together, not one cause alone",
+            "A single documented factor is always sufficient to explain pre-war tension fully",
+            "None of these factors have any actual documented connection to pre-war tension",
+            "Nationalist rivalry, imperial competition, alliances, and militarism are documented as completely unrelated to each other",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- Major သမိုင်းဆိုင်ရာ Development များသည် များသောအားဖြင့် Cause တစ်ခုတည်းအစား အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာမှ ဖြစ်ပေါ်လာသည်",
+            "Documented Factor တစ်ခုတည်းသည် Pre-War Tension ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ Pre-War Tension နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle carried forward from every earlier term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this balanced account also note that these documented tensions did not affect every European nation or every ordinary person equally or identically, rather than describing the period only in sweeping, uniform terms?",
+          questionMy:
+              "ဤ Balanced Account သည် ကာလကို Sweeping, Uniform Term များဖြင့်သာ ဖော်ပြမည့်အစား ဤ Documented Tension များသည် European Nation တိုင်း (သို့) Ordinary Person တိုင်းကို ညီမျှစွာ (သို့) Identical အတိုင်း မထိခိုက်ခဲ့ကြောင်းကိုလည်း အဘယ်ကြောင့် မှတ်ချက်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same balanced-account principle applied throughout Secondary 2 and Secondary 3 -- an accurate account avoids sweeping generalizations and represents documented variation fairly",
+            "Every European nation and ordinary person is documented as being affected identically by these tensions",
+            "Documented variation across nations and people has no actual role in an accurate historical account",
+            "Sweeping, uniform descriptions are always more historically accurate than accounts of documented variation",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 နှင့် Secondary 3 တစ်လျှောက် အသုံးချထားသော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Sweeping Generalization များကို ရှောင်ကြဉ်ကာ Documented Variation ကို တရားမျှတစွာ ကိုယ်စားပြုသည်",
+            "ဤ Tension များက European Nation တိုင်းနှင့် Ordinary Person တိုင်းကို Identical အတိုင်း အကျိုးသက်ရောက်စေကြောင်း Document ပြုလုပ်ထားသည်",
+            "Nation များနှင့် လူများတစ်လျှောက် Documented Variation တွင် တိကျသော သမိုင်းဆိုင်ရာ Account တစ်ခု၌ Actual Role မရှိခြင်း",
+            "Sweeping, Uniform ဖော်ပြချက်များသည် Documented Variation ၏ Account များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account, avoid-sweeping-generalization discipline used consistently since Secondary 2's Week 11.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Week 11 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော Balanced-Account, Avoid-Sweeping-Generalization Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it appropriate for this balanced account to synthesize documented factors from Term 1, Term 2, and Weeks 9-10 together, rather than treating this week as an entirely new, unconnected topic?",
+          questionMy:
+              "ဤအပတ်ကို လုံးလုံး အသစ်, Unconnected Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား Term 1, Term 2 နှင့် Week 9-10 မှ Documented Factor များကို ဤ Balanced Account တစ်ခု Synthesize ပြုလုပ်ရန် သင့်လျော်သည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This course's content builds cumulatively, and synthesizing documented factors across terms accurately represents how these tensions actually developed together over time",
+            "Term 1, Term 2, and Weeks 9-10 have no actual documented connection to each other",
+            "Synthesizing factors across terms has no actual value in an accurate historical account",
+            "This week's content should be treated as entirely disconnected from every earlier term",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Content သည် Cumulatively တည်ဆောက်သည်၊ Term များတစ်လျှောက် Documented Factor များကို Synthesize ပြုလုပ်ခြင်းသည် ဤ Tension များ Actual အချိန်နှင့်အမျှ အတူတကွ မည်သို့ တိုးတက်ခဲ့သည်ကို တိကျစွာ ကိုယ်စားပြုသည်",
+            "Term 1, Term 2 နှင့် Week 9-10 တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Term များတစ်လျှောက် Factor များ Synthesize ပြုလုပ်ခြင်းတွင် တိကျသော သမိုင်းဆိုင်ရာ Account တစ်ခု၌ Actual Value မရှိခြင်း",
+            "ဤအပတ်၏ Content ကို ယခင် Term တိုင်းနှင့် လုံးလုံး Disconnected အဖြစ် သဘောထားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same cumulative-connection principle demonstrated explicitly in Week 9's alliance-systems work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 9 ၏ Alliance-Systems အလုပ်တွင် ရှင်းလင်းစွာ သရုပ်ပြခဲ့သော Cumulative-Connection Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Pre-War Tensions Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Pre-War Tensions Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w11-dm-1",
+          termEn: "Synthesized multi-causation",
+          termMy: "Synthesized Multi-Causation",
+          matchEn:
+              "Combining documented factors from multiple terms into one connected explanation",
+          matchMy:
+              "Term များစွာမှ Documented Factor များကို Connected ရှင်းပြချက်တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w11-dm-2",
+          termEn: "Documented variation",
+          termMy: "Documented Variation",
+          matchEn:
+              "The historical fact that tensions did not affect every nation or person identically",
+          matchMy:
+              "Tension များသည် Nation (သို့) Person တိုင်းကို Identical အတိုင်း မထိခိုက်ခဲ့ကြောင်း သမိုင်းဆိုင်ရာ Fact",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w11-dm-3",
+          termEn: "Sweeping generalization",
+          termMy: "Sweeping Generalization",
+          matchEn:
+              "A description to avoid: describing a period uniformly without documented variation",
+          matchMy:
+              "ရှောင်ကြဉ်ရမည့် ဖော်ပြချက်တစ်ခု - Documented Variation မပါဘဲ ကာလတစ်ခုကို Uniform အဖြစ် ဖော်ပြခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w11-dm-4",
+          termEn: "Cumulative synthesis",
+          termMy: "Cumulative Synthesis",
+          matchEn:
+              "Building on prior terms' documented content rather than treating a week as unconnected",
+          matchMy:
+              "Week တစ်ခုကို Unconnected အဖြစ် သဘောထားမည့်အစား ယခင် Term များ၏ Documented Content ပေါ်တွင် တည်ဆောက်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Does This Factor Trace Back To?",
+      titleMy: "စီစစ်ကြမည် - ဤ Factor ဘယ် Term သို့ လိုက်လံ ချိတ်ဆက်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Traces Back to Term 1 or Term 2",
+          "Traces Back to Weeks 9-10",
+        ],
+        bucketsMy: [
+          "Term 1 (သို့) Term 2 သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          "Week 9-10 သို့ လိုက်လံ ချိတ်ဆက်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w11-sort-1",
+            labelEn:
+                "Documented rivalry between competing nationalist movements",
+            labelMy:
+                "ယှဉ်ပြိုင်နေသော Nationalist Movement များကြား Documented Rivalry",
+            correctBucketEn: "Traces Back to Term 1 or Term 2",
+            correctBucketMy: "Term 1 (သို့) Term 2 သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w11-sort-2",
+            labelEn:
+                "The documented naval arms race between Britain and Germany",
+            labelMy: "Britain နှင့် Germany ကြား Documented Naval Arms Race",
+            correctBucketEn: "Traces Back to Weeks 9-10",
+            correctBucketMy: "Week 9-10 သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w11-sort-3",
+            labelEn:
+                "Documented competition for African territory among European powers",
+            labelMy:
+                "European Power များကြား African Territory အတွက် Documented Competition",
+            correctBucketEn: "Traces Back to Term 1 or Term 2",
+            correctBucketMy: "Term 1 (သို့) Term 2 သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w11-sort-4",
+            labelEn:
+                "The documented Triple Alliance and Triple Entente systems",
+            labelMy:
+                "Documented Triple Alliance နှင့် Triple Entente System များ",
+            correctBucketEn: "Traces Back to Weeks 9-10",
+            correctBucketMy: "Week 9-10 သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Zin Ko Ko's Synthesis Report",
+      titleMy: "စာဖတ်ခြင်း - Ko Zin Ko Ko ၏ Synthesis Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Zin Ko Ko's Synthesis Report",
+        titleMy: "Ko Zin Ko Ko ၏ Synthesis Report",
+        passageEn:
+            "For Week 11's assignment, Ko Zin Ko Ko was asked to synthesize documented tensions across the whole term, rather than treating this week as a new, unconnected topic. He cited four documented factors combining together: nationalist rivalry from Term 1, imperial competition from Term 2, and alliance systems and militarism from Weeks 9-10, following the same multi-causation principle carried forward from every earlier term.\n\nHis first draft described these tensions sweepingly, as though they affected every European nation and every ordinary person identically. His teacher reminded him of the balanced-account discipline used since Secondary 2's Week 11 -- an accurate account avoids sweeping generalizations and represents documented variation fairly. Ko Zin Ko Ko revised his report to note that these tensions did not affect every nation or person equally, rather than describing the period in uniform terms.\n\nHis teacher praised the report for genuinely synthesizing documented content across Term 1, Term 2, and Weeks 9-10 into one connected account, and for maintaining the same balanced-account discipline that had been applied consistently since Secondary 2. This synthesis, the teacher noted, was exactly the foundation the capstone in Week 12 would build on, still without fully covering the Great War's complete causes reserved for IGCSE.",
+        passageMy:
+            "Week 11 ၏ Assignment အတွက် ဤအပတ်ကို Unconnected Topic အသစ်တစ်ခုအဖြစ် သဘောထားမည့်အစား Term တစ်ခုလုံးတစ်လျှောက် Documented Tension များကို Synthesize ပြုလုပ်ရန် Ko Zin Ko Ko အား တောင်းဆိုခဲ့သည်။ Term 1 မှ Nationalist Rivalry, Term 2 မှ Imperial Competition နှင့် Week 9-10 မှ Alliance System များနှင့် Militarism -- အတူတကွ ပေါင်းစပ်ထားသော Documented Factor လေးခုကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle တူတူကို လိုက်နာသည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် ဤ Tension များသည် European Nation တိုင်းနှင့် Ordinary Person တိုင်းကို Identical အကျိုးသက်ရောက်ခဲ့သည့်ကဲ့သို့ Sweeping စွာ ဖော်ပြခဲ့သည်။ Secondary 2 ၏ Week 11 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Discipline ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- တိကျသော Account တစ်ခုသည် Sweeping Generalization များကို ရှောင်ကြဉ်ကာ Documented Variation ကို တရားမျှတစွာ ကိုယ်စားပြုသည်။ ဤ Tension များသည် Nation (သို့) Person တိုင်းကို ညီမျှစွာ မထိခိုက်ခဲ့ကြောင်း ကာလကို Uniform Term များဖြင့် ဖော်ပြမည့်အစား မှတ်ချက်ပြုရန် ၎င်း၏ Report ကို Ko Zin Ko Ko ပြန်လည် ပြင်ဆင်ခဲ့သည်။\n\nTerm 1, Term 2 နှင့် Week 9-10 တစ်လျှောက် Documented Content ကို Connected Account တစ်ခုအဖြစ် Genuinely Synthesize ပြုလုပ်ခြင်းနှင့် Secondary 2 မှစ၍ တသမတ်တည်း အသုံးချခဲ့သော Balanced-Account Discipline တူတူကို ထိန်းသိမ်းခြင်းအတွက် Report ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။ ဤ Synthesis သည် IGCSE အတွက် ချန်ထားသော Great War ၏ Complete Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်း မရှိဘဲ Week 12 ၏ Capstone တည်ဆောက်မည့် Foundation အတိအကျ ဖြစ်ကြောင်း ဆရာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what four documented factors did Ko Zin Ko Ko cite?",
+            questionMy:
+                "Ko Zin Ko Ko Cite ပြုလုပ်ခဲ့သော Documented Factor လေးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nationalist rivalry, imperial competition, alliance systems, and militarism",
+              "Only a single unspecified factor with no documented evidence",
+              "Factors entirely unrelated to earlier terms",
+              "No documented factor of any kind",
+            ],
+            optionsMy: [
+              "Nationalist Rivalry, Imperial Competition, Alliance System များနှင့် Militarism",
+              "Documented Evidence မပါသော Unspecified Factor တစ်ခုတည်း",
+              "ယခင် Term များနှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+              "Documented Factor မည်သည် အမျိုးအစားမှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's cited factors."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Factor များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ko Zin Ko Ko's revised report note?",
+            questionMy:
+                "Ko Zin Ko Ko ၏ Revised Report မှတ်ချက်ပြုခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That these tensions did not affect every nation or person equally",
+              "That these tensions affected every nation and person identically",
+              "That documented variation has no actual role in a balanced account",
+              "That sweeping generalizations are always historically accurate",
+            ],
+            optionsMy: [
+              "ဤ Tension များသည် Nation (သို့) Person တိုင်းကို ညီမျှစွာ မထိခိုက်ခဲ့ကြောင်း",
+              "ဤ Tension များသည် Nation နှင့် Person တိုင်းကို Identical အကျိုးသက်ရောက်ခဲ့ကြောင်း",
+              "Balanced Account တစ်ခုတွင် Documented Variation Actual Role မရှိကြောင်း",
+              "Sweeping Generalization များသည် အမြဲ သမိုင်းအရ တိကျကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what would Week 12's capstone build on?",
+            questionMy:
+                "Week 12 ၏ Capstone တည်ဆောက်မည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "This week's synthesis, still without fully covering the Great War's complete causes",
+              "No documented foundation of any kind",
+              "Content entirely unrelated to this term's subject",
+              "The Great War's complete causes in full depth",
+            ],
+            optionsMy: [
+              "Great War ၏ Complete Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်း မရှိဘဲ ဤအပတ်၏ Synthesis",
+              "Documented Foundation မည်သည် အမျိုးအစားမှ",
+              "ဤ Term ၏ Subject နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "Great War ၏ Complete Cause များကို Full Depth ဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated foundation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Foundation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w11-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Balanced Pre-War Tensions Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Balanced Pre-War Tensions မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Pre-war tension is documented as resulting from...",
+          questionMy:
+              "Pre-War Tension ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented factors combining across terms",
+            "A single unspecified cause with no evidence",
+            "No documented cause of any kind",
+            "A vague explanation with no supporting evidence",
+          ],
+          optionsMy: [
+            "Term များတစ်လျှောက် ပေါင်းစပ်ထားသော Documented Factor များစွာ",
+            "Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Supporting Evidence မပါသော Vague ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of pre-war tension notes that these tensions...",
+          questionMy:
+              "Pre-War Tension ၏ Balanced Account က ဤ Tension များ ...ဟု မှတ်ချက်ပြုသည်",
+          optionsEn: [
+            "Did not affect every nation or person equally",
+            "Affected every nation and person identically",
+            "Had no actual documented effect on anyone",
+            "Applied only to nations unrelated to any documented factor",
+          ],
+          optionsMy: [
+            "Nation (သို့) Person တိုင်းကို ညီမျှစွာ မထိခိုက်ခဲ့ကြောင်း",
+            "Nation နှင့် Person တိုင်းကို Identical အကျိုးသက်ရောက်ခဲ့ကြောင်း",
+            "မည်သူကိုမျှ Actual Documented Effect မရှိခဲ့ကြောင်း",
+            "Documented Factor မည်သည်နှင့်မျှ မသက်ဆိုင်သော Nation များတွင်သာ သက်ဆိုင်ကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "This week's synthesis is documented as building on...",
+          questionMy:
+              "ဤအပတ်၏ Synthesis ကို ...ပေါ်တွင် တည်ဆောက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Documented content from Term 1, Term 2, and Weeks 9-10",
+            "No documented content of any kind",
+            "Content entirely unrelated to earlier terms",
+            "A single, unconnected new topic",
+          ],
+          optionsMy: [
+            "Term 1, Term 2 နှင့် Week 9-10 မှ Documented Content",
+            "Documented Content မည်သည် အမျိုးအစားမှ",
+            "ယခင် Term များနှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "Unconnected Topic အသစ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 3, Week 12 (Capstone / Boss Week):
+// "Pre-War Tensions Synthesis Studio"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek12 = CourseWeekDef(
+  id: "course-sec3-hum-w12",
+  weekNumber: 12,
+  titleEn: "Capstone: Pre-War Tensions Synthesis Studio",
+  titleMy: "Capstone - Pre-War Tensions Synthesis Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w12-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 3 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 3 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must synthesize documented nationalist rivalry, imperial competition, alliance systems, and militarism into one connected studio piece, with a balanced note on documented variation. Why require all elements combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Documented Nationalist Rivalry, Imperial Competition, Alliance System များနှင့် Militarism ကို Documented Variation ပေါ် Balanced Note တစ်ခုနှင့်အတူ Connected Studio Piece တစ်ခုအဖြစ် Synthesize ပြုလုပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား Element အားလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "This capstone is designed to demonstrate genuine synthesis of every documented factor built across this term, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain pre-war tension fully",
+            "The four documented factors have no actual connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "ဤ Capstone သည် ဤ Term တစ်လျှောက် တည်ဆောက်ခဲ့သော Documented Factor တိုင်း၏ Genuine Synthesis ကို သရုပ်ပြရန် Design ပြုလုပ်ထားသည်, Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Pre-War Tension ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Documented Factor လေးခုတွင် တစ်ခုနှင့်တစ်ခု Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Term 1, Term 2, and Weeks 9-11 into one final studio piece for this term.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1, Term 2 နှင့် Week 9-11 ကို ဤ Term အတွက် Final Studio Piece တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft claims to have 'covered the full causes of the Great War' in this capstone. Why is this claim inaccurate given this course's established approach?",
+          questionMy:
+              "Student ၏ Draft တွင် ဤ Capstone ၌ 'Great War ၏ Full Cause များ ဖုံးအုပ်ခဲ့ကြောင်း' Claim ပြုလုပ်သည်။ ဤ Course ၏ တည်ထောင်ထားသော Approach အရ ဤ Claim အဘယ်ကြောင့် မတိကျသနည်း။",
+          optionsEn: [
+            "This course has deliberately introduced these tensions at an appropriate depth while explicitly reserving the Great War's complete causes for fuller study at IGCSE, so the capstone should represent this as priming, not full coverage",
+            "This course has actually fully covered the Great War's complete causes at this point",
+            "There is no actual documented distinction between priming a topic and fully covering it",
+            "The Great War's causes have no actual documented connection to this term's content",
+          ],
+          optionsMy: [
+            "ဤ Course သည် IGCSE တွင် ပို၍ ပြည့်စုံသော Study အတွက် Great War ၏ Complete Cause များကို ရှင်းလင်းစွာ ချန်ထားစဉ် ဤ Tension များကို သင့်လျော်သော Depth တွင် တမင် မိတ်ဆက်ပေးခဲ့သောကြောင့် Capstone သည် ဤသည်ကို Full Coverage မဟုတ်ဘဲ Priming အဖြစ် ကိုယ်စားပြုသင့်သည်",
+            "ဤ Course သည် ဤအချိန်တွင် Great War ၏ Complete Cause များကို Actual အပြည့်အစုံ ဖုံးအုပ်ပြီး ဖြစ်သည်",
+            "Topic တစ်ခုကို Priming ပြုလုပ်ခြင်းနှင့် အပြည့်အဝ ဖုံးအုပ်ခြင်းကြား Actual Documented Distinction မရှိခြင်း",
+            "Great War ၏ Cause များတွင် ဤ Term ၏ Content နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same spiral curriculum standard stated explicitly in Term 1's Week 3 and reinforced in Weeks 9-11.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Week 3 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့ပြီး Week 9-11 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Spiral Curriculum Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project explicitly note documented variation (that tensions did not affect every nation or person identically) rather than presenting pre-war Europe as a single, uniform experience?",
+          questionMy:
+              "Pre-War Europe ကို Single, Uniform Experience တစ်ခုအဖြစ် တင်ပြမည့်အစား Capstone Project သည် Documented Variation (Tension များသည် Nation (သို့) Person တိုင်းကို Identical အတိုင်း မထိခိုက်ခဲ့ကြောင်း) ကို ရှင်းလင်းစွာ အဘယ်ကြောင့် မှတ်ချက်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same balanced-account principle established since Secondary 2's Week 11 -- an accurate account represents documented variation, including less convenient or uniform dimensions",
+            "Pre-war Europe should always be represented only as a single, uniform experience with no variation",
+            "Documented variation has no actual place in an accurate historical capstone",
+            "Balance has no actual role in accurately representing this period of history",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Week 11 မှစ၍ တည်ထောင်ခဲ့သော Balanced-Account Principle တူတူကို လိုက်နာသည် -- တိကျသော Account တစ်ခုသည် Convenient (သို့) Uniform နည်းသော Dimension များ အပါအဝင် Documented Variation ကို ကိုယ်စားပြုသည်",
+            "Pre-War Europe ကို Variation မပါဘဲ Single, Uniform Experience တစ်ခုအဖြစ်သာ အမြဲ ကိုယ်စားပြုသင့်ခြင်း",
+            "တိကျသော သမိုင်းဆိုင်ရာ Capstone တစ်ခု၌ Documented Variation Actual နေရာ မရှိခြင်း",
+            "Balance သည် ဤ သမိုင်းကာလကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account standard from Week 11, applied to the capstone case study itself.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Case Study ကိုယ်တိုင်ပေါ်တွင် အသုံးချထားသော Week 11 မှ Balanced-Account Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 3 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w12-dm-1",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "Explaining pre-war tension through several documented factors combining together",
+          matchMy:
+              "အတူတကွ ပေါင်းစပ်ထားသော Documented Factor များစွာမှတစ်ဆင့် Pre-War Tension ကို ရှင်းပြခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w12-dm-2",
+          termEn: "Priming, not full coverage",
+          termMy: "Priming, Full Coverage မဟုတ်ပါ",
+          matchEn:
+              "Introducing a documented topic at appropriate depth while reserving fuller study for IGCSE",
+          matchMy:
+              "IGCSE အတွက် ပို၍ ပြည့်စုံသော Study ချန်ထားစဉ် Documented Topic တစ်ခုကို သင့်လျော်သော Depth တွင် မိတ်ဆက်ပေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w12-dm-3",
+          termEn: "Balanced variation account",
+          termMy: "Balanced Variation Account",
+          matchEn:
+              "Noting that documented tensions did not affect every nation or person identically",
+          matchMy:
+              "Documented Tension များသည် Nation (သို့) Person တိုင်းကို Identical အတိုင်း မထိခိုက်ခဲ့ကြောင်း မှတ်ချက်ပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w12-dm-4",
+          termEn: "Cumulative synthesis",
+          termMy: "Cumulative Synthesis",
+          matchEn:
+              "Combining documented content from Term 1, Term 2, and Weeks 9-11 into one connected piece",
+          matchMy:
+              "Term 1, Term 2 နှင့် Week 9-11 မှ Documented Content ကို Connected Piece တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Studio Checklist",
+      titleMy: "စီစစ်ကြမည် - Studio Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Studio Project",
+          "Not Appropriate for the Studio Project",
+        ],
+        bucketsMy: [
+          "Studio Project တွင် လိုအပ်သည်",
+          "Studio Project အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w12-sort-1",
+            labelEn:
+                "Documented factors synthesized from Term 1, Term 2, and Weeks 9-11 together",
+            labelMy:
+                "Term 1, Term 2 နှင့် Week 9-11 မှ အတူတကွ Synthesize ပြုလုပ်ထားသော Documented Factor များ",
+            correctBucketEn: "Required in the Studio Project",
+            correctBucketMy: "Studio Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w12-sort-2",
+            labelEn:
+                "A balanced note on documented variation across nations and people",
+            labelMy:
+                "Nation များနှင့် လူများတစ်လျှောက် Documented Variation ပေါ် Balanced Note",
+            correctBucketEn: "Required in the Studio Project",
+            correctBucketMy: "Studio Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w12-sort-3",
+            labelEn:
+                "An honest statement that this priming does not fully cover the Great War's causes",
+            labelMy:
+                "ဤ Priming သည် Great War ၏ Cause များကို အပြည့်အစုံ မဖုံးအုပ်ကြောင်း ရိုးသားသော ဖော်ပြချက်",
+            correctBucketEn: "Required in the Studio Project",
+            correctBucketMy: "Studio Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w12-sort-4",
+            labelEn:
+                "A claim that this project fully covers the Great War's complete causes",
+            labelMy:
+                "ဤ Project သည် Great War ၏ Complete Cause များကို အပြည့်အစုံ ဖုံးအုပ်ကြောင်း Claim",
+            correctBucketEn: "Not Appropriate for the Studio Project",
+            correctBucketMy: "Studio Project အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko's Capstone Studio Piece",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko ၏ Capstone Studio Piece",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko's Capstone Studio Piece",
+        titleMy: "Zin Ko ၏ Capstone Studio Piece",
+        passageEn:
+            "For the Term 3 capstone, Zin Ko built his studio piece by synthesizing documented content from across the whole term. From Term 1, he cited documented nationalist rivalry; from Term 2, documented imperial competition; from Weeks 9-10, the Triple Alliance, Triple Entente, and the documented naval arms race between Britain and Germany -- combining all four documented factors into one connected explanation, following the multi-causation principle carried forward from every earlier term.\n\nHis first draft claimed the studio piece had 'covered the full causes of the Great War,' but his teacher reminded him of the spiral curriculum standard stated since Term 1's Week 3: this course deliberately primes these tensions at an appropriate depth while reserving the war's complete causes for fuller study at IGCSE. Zin Ko revised his claim to honestly represent his project as priming rather than full coverage.\n\nHe also checked his piece against the balanced-account standard from Week 11, adding an explicit note that these documented tensions did not affect every European nation or every ordinary person identically. His teacher praised the studio piece for genuinely synthesizing four terms' worth of documented content, for honestly representing the limits of what this course covers versus what IGCSE would cover more fully, and for maintaining the balanced-account discipline built since Secondary 2 -- exactly the standard the class would carry forward into Term 4's decolonization content.",
+        passageMy:
+            "Term 3 Capstone အတွက် Term တစ်ခုလုံးတစ်လျှောက်မှ Documented Content ကို Synthesize ပြုလုပ်ကာ ၎င်း၏ Studio Piece ကို Zin Ko တည်ဆောက်ခဲ့သည်။ Term 1 မှ Documented Nationalist Rivalry; Term 2 မှ Documented Imperial Competition; Week 9-10 မှ Triple Alliance, Triple Entente နှင့် Britain နှင့် Germany ကြား Documented Naval Arms Race -- ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle ကို လိုက်နာကာ Documented Factor လေးခုစလုံးကို Connected ရှင်းပြချက်တစ်ခုအဖြစ် ၎င်း ပေါင်းစပ်ခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Studio Piece သည် 'Great War ၏ Full Cause များ ဖုံးအုပ်ခဲ့ကြောင်း' Claim ပြုလုပ်ခဲ့သော်လည်း Term 1 ၏ Week 3 မှစ၍ ဖော်ပြခဲ့သော Spiral Curriculum Standard ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- ဤ Course သည် IGCSE တွင် ပို၍ ပြည့်စုံသော Study အတွက် စစ်ပွဲ၏ Complete Cause များကို ချန်ထားစဉ် ဤ Tension များကို သင့်လျော်သော Depth တွင် တမင် Priming ပြုလုပ်သည်။ ၎င်း၏ Project ကို Full Coverage မဟုတ်ဘဲ Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုရန် ၎င်း၏ Claim ကို Zin Ko ပြန်လည် ပြင်ဆင်ခဲ့သည်။\n\nဤ Documented Tension များသည် European Nation တိုင်း (သို့) Ordinary Person တိုင်းကို Identical အတိုင်း မထိခိုက်ခဲ့ကြောင်း ရှင်းလင်းသော Note တစ်ခု ထည့်သွင်းကာ Week 11 မှ Balanced-Account Standard နှင့် ၎င်း၏ Piece ကို ၎င်း ထပ်မံ စစ်ဆေးခဲ့သည်။ Term လေးခု၏ Documented Content ကို Genuinely Synthesize ပြုလုပ်ခြင်း, ဤ Course ဖုံးအုပ်သည့်အရာနှင့် IGCSE ပို၍ ပြည့်စုံစွာ ဖုံးအုပ်မည့်အရာ၏ Limit ကို ရိုးသားစွာ ကိုယ်စားပြုခြင်းနှင့် Secondary 2 မှစ၍ တည်ဆောက်ခဲ့သော Balanced-Account Discipline ကို ထိန်းသိမ်းခြင်းအတွက် Studio Piece ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Class Term 4 ၏ Decolonization Content ဘက်သို့ ဆက်လက် သယ်ဆောင်သွားမည့် Standard အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what four documented elements did Zin Ko combine?",
+            questionMy:
+                "Zin Ko ပေါင်းစပ်ခဲ့သော Documented Element လေးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nationalist rivalry, imperial competition, alliance systems, and the naval arms race",
+              "No documented element of any kind",
+              "Elements entirely unrelated to earlier terms",
+              "A single, unspecified element with no documented evidence",
+            ],
+            optionsMy: [
+              "Nationalist Rivalry, Imperial Competition, Alliance System များနှင့် Naval Arms Race",
+              "Documented Element မည်သည် အမျိုးအစားမှ",
+              "ယခင် Term များနှင့် လုံးလုံး မသက်ဆိုင်သော Element များ",
+              "Documented Evidence မပါသော Unspecified Element တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's cited elements."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Element များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Zin Ko revise his claim about the Great War?",
+            questionMy:
+                "Great War အကြောင်း ၎င်း၏ Claim ကို Zin Ko မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He revised it to represent his project as priming rather than full coverage",
+              "He kept the claim that his project fully covered the Great War's causes",
+              "He removed all mention of the Great War entirely",
+              "He made no changes to his original claim at all",
+            ],
+            optionsMy: [
+              "Full Coverage မဟုတ်ဘဲ Priming အဖြစ် ၎င်း၏ Project ကို ကိုယ်စားပြုရန် Revise ပြုလုပ်ခဲ့ခြင်း",
+              "Great War ၏ Cause များကို ၎င်း၏ Project အပြည့်အစုံ ဖုံးအုပ်ကြောင်း Claim ကို ဆက်လက် ထားရှိခဲ့ခြင်း",
+              "Great War ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခဲ့ခြင်း",
+              "မူလ Claim ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Zin Ko's studio piece?",
+            questionMy:
+                "Zin Ko ၏ Studio Piece ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For genuinely synthesizing content, honestly representing limits, and maintaining balanced-account discipline",
+              "For claiming to fully cover the Great War's complete causes",
+              "For ignoring every documented factor from the entire term",
+              "For describing the period as a single, uniform experience",
+            ],
+            optionsMy: [
+              "Content ကို Genuinely Synthesize ပြုလုပ်ခြင်း, Limit များကို ရိုးသားစွာ ကိုယ်စားပြုခြင်းနှင့် Balanced-Account Discipline ထိန်းသိမ်းခြင်းအတွက်",
+              "Great War ၏ Complete Cause များကို အပြည့်အစုံ ဖုံးအုပ်ကြောင်း Claim ပြုလုပ်ခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "ကာလကို Single, Uniform Experience တစ်ခုအဖြစ် ဖော်ပြခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Recap: Tensions Before the Great War",
+      titleMy: "Term 3 ပြန်လည်သုံးသပ်ခြင်း - Tensions Before the Great War",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Pre-war tension is documented as combining...",
+          questionMy:
+              "Pre-War Tension ကို ...ပေါင်းစပ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Nationalist rivalry, imperial competition, alliances, and militarism",
+            "A single documented factor with no other connection",
+            "No documented factor of any kind",
+            "Factors entirely unrelated to earlier terms",
+          ],
+          optionsMy: [
+            "Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism",
+            "အခြား ဆက်နွယ်မှု မပါဘဲ Documented Factor တစ်ခုတည်း",
+            "Documented Factor မည်သည် အမျိုးအစားမှ",
+            "ယခင် Term များနှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This term's coverage of pre-war tensions is documented as...",
+          questionMy:
+              "Pre-War Tension များ၏ ဤ Term ၏ Coverage ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Priming at appropriate depth, not full coverage of the Great War's causes",
+            "Full, complete coverage of the Great War's causes",
+            "Entirely unrelated to any content covered at IGCSE",
+            "A topic this course never actually mentions",
+          ],
+          optionsMy: [
+            "Great War ၏ Cause များကို Full Coverage မဟုတ်ဘဲ သင့်လျော်သော Depth တွင် Priming",
+            "Great War ၏ Cause များကို Full, Complete Coverage",
+            "IGCSE တွင် ဖုံးအုပ်ထားသော Content မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်ခြင်း",
+            "ဤ Course ဘယ်တော့မှ Actual မဖော်ပြသော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of this period notes that documented tensions...",
+          questionMy:
+              "ဤကာလ၏ Balanced Account က Documented Tension များ ...ဟု မှတ်ချက်ပြုသည်",
+          optionsEn: [
+            "Did not affect every nation or person identically",
+            "Affected every nation and person identically",
+            "Had no actual documented effect on anyone",
+            "Applied only to a single, unspecified nation",
+          ],
+          optionsMy: [
+            "Nation (သို့) Person တိုင်းကို Identical အတိုင်း မထိခိုက်ခဲ့ကြောင်း",
+            "Nation နှင့် Person တိုင်းကို Identical အကျိုးသက်ရောက်ခဲ့ကြောင်း",
+            "မည်သူကိုမျှ Actual Documented Effect မရှိခဲ့ကြောင်း",
+            "Unspecified Nation တစ်ခုတည်းတွင်သာ သက်ဆိုင်ကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 3: "Tensions Before the Great War"
+// (Weeks 9-12). Deliberately primes IGCSE Humanities' fuller Great War
+// causes unit without duplicating it, following the same spiral
+// pattern established in Term 1, Week 3. Documents the Triple Alliance
+// and Triple Entente as specific, distinct alliance systems (Week 9),
+// militarism and the documented Britain-Germany naval arms race as a
+// reinforcing factor (Week 10), and a balanced synthesis combining
+// nationalist rivalry, imperial competition, alliances, and militarism
+// while noting documented variation across nations and people (Week
+// 11), closing with a capstone studio piece that honestly represents
+// itself as priming rather than fully covering the Great War's causes
+// (Week 12).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm3 = CourseTermDef(
+  id: "course-sec3-hum-t3",
+  termNumber: 3,
+  titleEn: "Tensions Before the Great War",
+  titleMy: "Tensions Before the Great War",
+  certificateTitleEn: "Tensions Before the Great War Certificate",
+  certificateTitleMy: "Tensions Before the Great War သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek9, _sec3HumWeek10, _sec3HumWeek11, _sec3HumWeek12],
 );
 // __SEC_HUM_MARKER__
