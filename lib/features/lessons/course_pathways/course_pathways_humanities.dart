@@ -129351,9 +129351,9 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account. Term 5, Population Geography Foundations, deliberately primes IGCSE Humanities' fuller population unit: extends Secondary 2's population density and growth-rate work into demographic transition, its visual representation in population pyramids with a balanced comparison of young and aging population structures, and a balanced account of documented population policy combining intended goals with documented controversy, closing with a Population Geography Case Study combining a documented country's demographic stage, pyramid shape, and balanced policy account. Term 6, Migration and Urban Growth, extends Secondary 2's push-pull migration framework into specific, distinct documented migration types (economic and refugee migration) and Secondary 2's factory-era urbanization into modern documented megacity growth, with a balanced account of that growth's documented benefits and challenges representing residents as active agents rather than passive subjects, closing with a Migration and Urban Growth Case Study combining a documented migration type, a documented city's growth, and a balanced impact account. Term 7, Development and Global Inequality, deliberately primes IGCSE Humanities' fuller development unit: specific documented development indicators used together rather than relying on one alone, specific documented causes of global inequality traced back to Term 2's colonial economic structures, and a balanced account of documented development aid representing recipients as active participants, closing with a Development Case Study combining a documented country's indicators, causes, and balanced aid account.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Population Geography Foundations သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Population Unit ကို တမင် Priming ပြုလုပ်သည် -- Secondary 2 ၏ Population Density နှင့် Growth-Rate အလုပ်ကို Demographic Transition, Young နှင့် Aging Population Structure များ၏ Balanced Comparison ဖြင့် Population Pyramid များတွင် ၎င်း၏ Visual Representation နှင့် Intended Goal များနှင့် Documented Controversy ကို ပေါင်းစပ်ထားသော Documented Population Policy ၏ Balanced Account သို့ တိုးချဲ့ပြီး Documented Country တစ်ခု၏ Demographic Stage, Pyramid Shape နှင့် Balanced Policy Account ကို ပေါင်းစပ်ထားသော Population Geography Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ Migration and Urban Growth သည် Secondary 2 ၏ Push-Pull Migration Framework ကို Specific, Distinct Documented Migration Type များ (Economic နှင့် Refugee Migration) နှင့် Secondary 2 ၏ Factory-ခေတ် Urbanization ကို Modern Documented Megacity Growth သို့ တိုးချဲ့ပြီး Resident များကို Passive Subject များအစား Active Agent များအဖြစ် ကိုယ်စားပြုသော ထို Growth ၏ Documented Benefit များနှင့် Challenge များ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Migration Type, Documented City ၏ Growth နှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Migration and Urban Growth Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Development and Global Inequality သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Development Unit ကို တမင် Priming ပြုလုပ်သည် -- တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Specific Documented Development Indicator များကို အတူတကွ အသုံးပြုကာ Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Global Inequality ၏ Specific Documented Cause များနှင့် Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Development Aid ၏ Balanced Account ကို ဖုံးအုပ်ကာ Documented Country တစ်ခု၏ Indicator များ, Cause များနှင့် Balanced Aid Account ကို ပေါင်းစပ်ထားသော Development Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec3HumTerm1,
@@ -129362,6 +129362,7 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
     _sec3HumTerm4,
     _sec3HumTerm5,
     _sec3HumTerm6,
+    _sec3HumTerm7,
   ],
 );
 // =====================================================================
@@ -136575,5 +136576,1442 @@ const CourseTermDef _sec3HumTerm6 = CourseTermDef(
   certificateTitleEn: "Migration and Urban Growth Certificate",
   certificateTitleMy: "Migration and Urban Growth သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek21, _sec3HumWeek22, _sec3HumWeek23, _sec3HumWeek24],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 7: "Development and Global Inequality"
+// (Weeks 25-28). Deliberately primes IGCSE Humanities' fuller
+// development unit.
+// Term 7, Week 25: "Documented Development Indicators"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek25 = CourseWeekDef(
+  id: "course-sec3-hum-w25",
+  weekNumber: 25,
+  titleEn: "Documented Development Indicators",
+  titleMy: "Documented Development Indicator များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w25-d1",
+      dayNumber: 1,
+      titleEn: "Measuring Development with Documented Data",
+      titleMy: "Documented Data ဖြင့် Development တိုင်းတာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document specific measurable indicators to compare development between countries, such as documented GDP per capita, documented literacy rate, and the Human Development Index (a documented composite measure). Why cite these specific documented indicators rather than describing countries only as 'rich' or 'poor'?",
+          questionMy:
+              "Geographer များသည် Country များကြား Development ကို နှိုင်းယှဉ်ရန် Documented GDP Per Capita, Documented Literacy Rate နှင့် Human Development Index (Documented Composite Measure တစ်ခု) ကဲ့သို့ Specific Measurable Indicator များကို Document ပြုလုပ်ထားသည်။ Country များကို 'ချမ်းသာ' (သို့) 'ဆင်းရဲ' ဟုသာ ဖော်ပြမည့်အစား ဤ Specific Documented Indicator များကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Specific, documented indicators allow precise, evidence-based comparison of development, the same specific-over-vague habit taught throughout this course, rather than a simplistic binary label",
+            "Vague labels like 'rich' or 'poor' are always more accurate than specific documented indicators",
+            "Development indicators have no actual documented value in comparing countries",
+            "Specific documented data has no actual role in studying development geography",
+          ],
+          optionsMy: [
+            "Specific, Documented Indicator များသည် Development ၏ Precise, Evidence-Based Comparison ကို ခွင့်ပြုပြီး ဤ Course တစ်လျှောက်လုံး သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူဖြစ်ကာ Simplistic Binary Label တစ်ခုမဟုတ်ပါ",
+            "'ချမ်းသာ' (သို့) 'ဆင်းရဲ' ကဲ့သို့ Vague Label များသည် Specific Documented Indicator များထက် အမြဲ ပို၍ တိကျသည်",
+            "Development Indicator များတွင် Country များ နှိုင်းယှဉ်ရာတွင် Actual Documented Value မရှိခြင်း",
+            "Specific Documented Data တွင် Development Geography လေ့လာရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit carried forward from every prior term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students recognize that a single documented indicator (such as GDP per capita alone) may not capture a country's full documented development picture, and that multiple documented indicators together give a more complete view?",
+          questionMy:
+              "Single Documented Indicator တစ်ခု (GDP Per Capita တစ်ခုတည်းကဲ့သို့) သည် Country တစ်ခု၏ Full Documented Development ပုံရိပ်ကို မဖမ်းမိနိုင်ကြောင်းနှင့် Documented Indicator များစွာ အတူတကွသည် ပို၍ ပြည့်စုံသော View ကို ပေးအပ်ကြောင်း Student များ အဘယ်ကြောင့် အသိအမှတ်ပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation/multi-evidence principle used throughout this course -- a complex reality is usually best understood through several documented measures together, not one alone",
+            "A single documented indicator is always fully sufficient to capture a country's complete development picture",
+            "Multiple documented indicators have no actual value when studying development",
+            "GDP per capita alone always provides the complete and only necessary documented picture",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Multi-Causation/Multi-Evidence Principle တူတူ ဖြစ်သည် -- Complex Reality တစ်ခုကို များသောအားဖြင့် Documented Measure တစ်ခုတည်းမဟုတ်ဘဲ Documented Measure များစွာ အတူတကွမှတစ်ဆင့် အကောင်းဆုံး နားလည်နိုင်သည်",
+            "Single Documented Indicator တစ်ခုသည် Country တစ်ခု၏ Complete Development ပုံရိပ်ကို ဖမ်းမိရန် အမြဲ အပြည့်အဝ လုံလောက်ခြင်း",
+            "Multiple Documented Indicator များတွင် Development လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "GDP Per Capita တစ်ခုတည်းသည် Complete နှင့် Only Necessary Documented ပုံရိပ်ကို အမြဲ ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle from Term 1-6, applied here to development indicators rather than historical causes.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1-6 မှ Multi-Causation Principle တူတူဖြစ်ပြီး ယခု သမိုင်းဆိုင်ရာ Cause များမဟုတ်ဘဲ Development Indicator များပေါ် ဤနေရာ၌ အသုံးချသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is this course introducing development indicators at this level while reserving fuller coverage of development geography for IGCSE, following the same deliberate approach used in Term 3 and Term 5?",
+          questionMy:
+              "IGCSE အတွက် Development Geography ၏ ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် Term 3 နှင့် Term 5 တွင် အသုံးပြုခဲ့သော Deliberate Approach တူတူကို လိုက်နာကာ ဤ Course သည် ဤ Level တွင် Development Indicator များကို အဘယ်ကြောင့် မိတ်ဆက်ပေးနေသနည်း။",
+          optionsEn: [
+            "This follows the same deliberate spiral curriculum design used throughout this course -- introducing a documented connection at an appropriate depth now, building toward fuller coverage later",
+            "This course should never actually mention any content that will be covered again at IGCSE",
+            "Development indicators have no actual connection to any later documented study",
+            "This course should fully cover development geography's complete content in total depth at this stage",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Deliberate Spiral Curriculum Design တူတူကို လိုက်နာသည် -- ယခု သင့်လျော်သော Depth တွင် Documented Connection တစ်ခုကို မိတ်ဆက်ပေးကာ နောက်ပိုင်း ပို၍ ပြည့်စုံသော Coverage ဘက်သို့ တည်ဆောက်ခြင်း",
+            "ဤ Course သည် IGCSE တွင် ထပ်မံ ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+            "Development Indicator များတွင် နောက်ပိုင်း Documented Study မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိခြင်း",
+            "ဤ Course သည် ဤအဆင့်တွင် Development Geography ၏ Complete Content ကို Total Depth ဖြင့် အပြည့်အစုံ ဖုံးအုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same spiral curriculum principle explicitly stated in Term 3 and Term 5, applied here to development geography.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Development Geography ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 3 နှင့် Term 5 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Spiral Curriculum Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Development Indicators Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Development Indicators Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w25-dm-1",
+          termEn: "GDP per capita",
+          termMy: "GDP Per Capita",
+          matchEn:
+              "A documented economic indicator measuring average output per person",
+          matchMy:
+              "လူတစ်ဦးလျှင် ပျမ်းမျှ Output ကို တိုင်းတာသော Documented Economic Indicator",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w25-dm-2",
+          termEn: "Literacy rate",
+          termMy: "Literacy Rate",
+          matchEn:
+              "A documented indicator measuring the share of a population able to read and write",
+          matchMy:
+              "စာဖတ်နှင့်ရေးနိုင်သော Population Share ကို တိုင်းတာသော Documented Indicator",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w25-dm-3",
+          termEn: "Human Development Index",
+          termMy: "Human Development Index",
+          matchEn:
+              "A documented composite measure combining several development indicators together",
+          matchMy:
+              "Development Indicator များစွာကို အတူတကွ ပေါင်းစပ်ထားသော Documented Composite Measure",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w25-dm-4",
+          termEn: "Multiple-indicator comparison",
+          termMy: "Multiple-Indicator Comparison",
+          matchEn:
+              "Comparing countries using several documented measures rather than one alone",
+          matchMy:
+              "Measure တစ်ခုတည်းမဟုတ်ဘဲ Documented Measure များစွာ အသုံးပြု၍ Country များ နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Indicator or Vague Label?",
+      titleMy: "စီစစ်ကြမည် - Specific Indicator (သို့) Vague Label",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Indicator", "Vague Label"],
+        bucketsMy: ["Specific Documented Indicator", "Vague Label"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w25-sort-1",
+            labelEn:
+                "A documented GDP per capita figure for a specific country",
+            labelMy: "Specific Country အတွက် Documented GDP Per Capita Figure",
+            correctBucketEn: "Specific Documented Indicator",
+            correctBucketMy: "Specific Documented Indicator",
+          ),
+          SortingItem(
+            id: "sec3hum-w25-sort-2",
+            labelEn: "Describing a country simply as 'poor'",
+            labelMy: "Country တစ်ခုကို ရိုးရိုး 'ဆင်းရဲ' ဟု ဖော်ပြခြင်း",
+            correctBucketEn: "Vague Label",
+            correctBucketMy: "Vague Label",
+          ),
+          SortingItem(
+            id: "sec3hum-w25-sort-3",
+            labelEn:
+                "A documented literacy rate percentage for a specific country",
+            labelMy:
+                "Specific Country အတွက် Documented Literacy Rate ရာခိုင်နှုန်း",
+            correctBucketEn: "Specific Documented Indicator",
+            correctBucketMy: "Specific Documented Indicator",
+          ),
+          SortingItem(
+            id: "sec3hum-w25-sort-4",
+            labelEn: "Describing a country simply as 'rich'",
+            labelMy: "Country တစ်ခုကို ရိုးရိုး 'ချမ်းသာ' ဟု ဖော်ပြခြင်း",
+            correctBucketEn: "Vague Label",
+            correctBucketMy: "Vague Label",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Zin's Indicator Comparison",
+      titleMy: "စာဖတ်ခြင်း - Kyaw Zin ၏ Indicator Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Zin's Indicator Comparison",
+        titleMy: "Kyaw Zin ၏ Indicator Comparison",
+        passageEn:
+            "For Week 25's project, Kyaw Zin's first draft compared two countries only as 'one is rich and one is poor,' with no specific documented indicator cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented data was he actually referring to?\n\nKyaw Zin revised his comparison to cite specific documented indicators: GDP per capita figures for each country, documented literacy rates, and the Human Development Index as a documented composite measure combining several indicators together. He was careful not to rely on GDP per capita alone, recognizing the same multi-evidence principle used throughout this course -- a single documented indicator might not capture a country's full documented development picture, so citing multiple indicators together gave a more complete view.\n\nHis teacher noted that this course was introducing development indicators at an appropriate depth now, the same spiral curriculum design used in Term 3 and Term 5, while reserving fuller development geography coverage for IGCSE. Kyaw Zin's comparison was praised for combining specific documented citation with genuine multi-indicator thinking, exactly the discipline the class would need going into Week 26's look at documented causes of global inequality.",
+        passageMy:
+            "Week 25 ၏ Project အတွက် Kyaw Zin ၏ ပထမဆုံး Draft တွင် Specific Documented Indicator မည်သည်ကိုမျှ Cite မပြုဘဲ Country နှစ်ခုကို 'တစ်ခုသည် ချမ်းသာပြီး တစ်ခုသည် ဆင်းရဲသည်' ဟုသာ နှိုင်းယှဉ်ခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Data မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nSpecific Documented Indicator များကို Cite ပြုလုပ်ရန် ၎င်း၏ Comparison ကို Kyaw Zin ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Country တစ်ခုစီအတွက် GDP Per Capita Figure များ, Documented Literacy Rate များနှင့် Indicator များစွာကို အတူတကွ ပေါင်းစပ်ထားသော Documented Composite Measure အဖြစ် Human Development Index။ GDP Per Capita တစ်ခုတည်းအပေါ် မမှီခိုရန် ၎င်း သတိထားခဲ့ပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Multi-Evidence Principle တူတူကို အသိအမှတ်ပြုခဲ့သည် -- Single Documented Indicator တစ်ခုသည် Country တစ်ခု၏ Full Documented Development ပုံရိပ်ကို မဖမ်းမိနိုင်ကြောင်းနှင့် Indicator များစွာ Cite ပြုလုပ်ခြင်းသည် ပို၍ ပြည့်စုံသော View ကို ပေးအပ်သည်။\n\nIGCSE အတွက် ပို၍ ပြည့်စုံသော Development Geography Coverage ကို ချန်ထားစဉ် ဤ Course သည် ယခု သင့်လျော်သော Depth တွင် Development Indicator များကို မိတ်ဆက်ပေးနေကြောင်း, Term 3 နှင့် Term 5 တွင် အသုံးပြုခဲ့သော Spiral Curriculum Design တူတူ ဖြစ်ကြောင်း ၎င်း၏ ဆရာ မှတ်ချက်ပြုခဲ့သည်။ Specific Documented Citation ကို Genuine Multi-Indicator Thinking နှင့် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Kyaw Zin ၏ Comparison ကို ချီးမွမ်းခံရခဲ့ပြီး Class Global Inequality ၏ Documented Cause များကို ကြည့်ရှုမည့် Week 26 သို့ ဝင်ရောက်ရန် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three specific documented indicators did Kyaw Zin cite?",
+            questionMy:
+                "Kyaw Zin Cite ပြုလုပ်ခဲ့သော Specific Documented Indicator သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "GDP per capita, literacy rate, and the Human Development Index",
+              "No specific documented indicator of any kind",
+              "Indicators entirely unrelated to development",
+              "A single unspecified indicator with no documented evidence",
+            ],
+            optionsMy: [
+              "GDP Per Capita, Literacy Rate နှင့် Human Development Index",
+              "Specific Documented Indicator မည်သည် အမျိုးအစားမှ",
+              "Development နှင့် လုံးလုံး မသက်ဆိုင်သော Indicator များ",
+              "Documented Evidence မပါသော Unspecified Indicator တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited indicators."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Indicator များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did Kyaw Zin avoid relying on GDP per capita alone?",
+            questionMy:
+                "GDP Per Capita တစ်ခုတည်းအပေါ် မှီခိုခြင်းကို Kyaw Zin အဘယ်ကြောင့် ရှောင်ကြဉ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A single documented indicator might not capture a country's full development picture",
+              "GDP per capita has no actual documented value in development geography",
+              "Multiple indicators are always documented as identical to a single indicator",
+              "This course never actually discusses more than one indicator",
+            ],
+            optionsMy: [
+              "Single Documented Indicator တစ်ခုသည် Country တစ်ခု၏ Full Development ပုံရိပ်ကို မဖမ်းမိနိုင်ခြင်း",
+              "GDP Per Capita တွင် Development Geography ၌ Actual Documented Value မရှိခြင်း",
+              "Indicator များစွာကို Single Indicator တစ်ခုနှင့် Identical အဖြစ် အမြဲ Document ပြုလုပ်ထားခြင်း",
+              "ဤ Course သည် Indicator တစ်ခုထက်ပို၍ ဘယ်တော့မှ Actual ဆွေးနွေးခြင်း မပြုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated reasoning."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reasoning ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 26 examine?",
+            questionMy: "Week 26 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented causes of global inequality",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to development",
+              "Content unrelated to any documented indicator",
+            ],
+            optionsMy: [
+              "Global Inequality ၏ Documented Cause များ",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Development နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Indicator မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 26.",
+            ],
+            hintsMy: [
+              "Week 26 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w25-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Development Indicators Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Development Indicators မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Development between countries should be compared using...",
+          questionMy:
+              "Country များကြား Development ကို ...အသုံးပြု၍ နှိုင်းယှဉ်သင့်သည်",
+          optionsEn: [
+            "Specific documented indicators rather than vague labels",
+            "Only vague labels like 'rich' or 'poor' with no specific evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific documented data",
+          ],
+          optionsMy: [
+            "Vague Label များအစား Specific Documented Indicator များ",
+            "Specific Evidence မပါဘဲ 'ချမ်းသာ' (သို့) 'ဆင်းရဲ' ကဲ့သို့ Vague Label များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific Documented Data မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A single documented indicator alone is documented as...",
+          questionMy:
+              "Single Documented Indicator တစ်ခုတည်းကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Potentially not capturing a country's full development picture",
+            "Always fully sufficient to capture a complete development picture",
+            "Having no actual documented value of any kind",
+            "The only indicator ever necessary for any comparison",
+          ],
+          optionsMy: [
+            "Country တစ်ခု၏ Full Development ပုံရိပ်ကို Potentially မဖမ်းမိခြင်း",
+            "Complete Development ပုံရိပ်ကို ဖမ်းမိရန် အမြဲ အပြည့်အဝ လုံလောက်ခြင်း",
+            "Actual Documented Value မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Comparison မည်သည်အတွက်မဆို ဘယ်တော့မှ လိုအပ်သော Indicator တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This course introduces development indicators now while reserving fuller coverage because it...",
+          questionMy:
+              "ဤ Course သည် ပို၍ ပြည့်စုံသော Coverage ကို ချန်ထားစဉ် Development Indicator များကို ယခု မိတ်ဆက်ပေးခြင်း အကြောင်းရင်းမှာ ...ကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "Follows a deliberate spiral curriculum design",
+            "Fully covers development geography's complete content here",
+            "Never actually mentions any content covered later at IGCSE",
+            "Has no actual documented connection to any future topic",
+          ],
+          optionsMy: [
+            "Deliberate Spiral Curriculum Design ကို လိုက်နာခြင်း",
+            "ဤနေရာတွင် Development Geography ၏ Complete Content ကို အပြည့်အစုံ ဖုံးအုပ်ခြင်း",
+            "IGCSE တွင် နောက်ပိုင်း ဖုံးအုပ်မည့် Content မည်သည်ကိုမျှ ဘယ်တော့မှ Actual မဖော်ပြခြင်း",
+            "Topic အနာဂတ် မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 7, Week 26: "Documented Causes of
+// Global Inequality"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek26 = CourseWeekDef(
+  id: "course-sec3-hum-w26",
+  weekNumber: 26,
+  titleEn: "Documented Causes of Global Inequality",
+  titleMy: "Global Inequality ၏ Documented Cause များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w26-d1",
+      dayNumber: 1,
+      titleEn: "Multiple Documented Causes of Inequality",
+      titleMy: "Inequality ၏ Documented Cause များစွာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Geographers document several factors combining to explain documented global inequality in development: historical colonial legacy (including documented resource extraction studied in Term 2), documented patterns of international trade, and documented access to capital and infrastructure. Why cite this combination rather than a single cause?",
+          questionMy:
+              "Geographer များသည် Development ၏ Documented Global Inequality ကို ရှင်းပြသော Factor များစွာ ပေါင်းစပ်ခြင်းကို Document ပြုလုပ်ထားသည် -- Historical Colonial Legacy (Term 2 တွင် လေ့လာခဲ့သော Documented Resource Extraction အပါအဝင်), Documented International Trade Pattern များနှင့် Capital နှင့် Infrastructure ရရှိမှု Documented။ Cause တစ်ခုတည်းအစား ဤ Combination ကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout this course -- major documented patterns usually result from several factors working together, not one cause alone",
+            "A single documented factor is always sufficient to explain global inequality fully",
+            "None of these factors have any actual documented connection to global inequality",
+            "Colonial legacy, trade patterns, and capital access are documented as completely unrelated to each other",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- Major Documented Pattern များသည် များသောအားဖြင့် Cause တစ်ခုတည်းအစား အတူတကွ လုပ်ဆောင်ခဲ့သော Factor များစွာမှ ဖြစ်ပေါ်လာသည်",
+            "Documented Factor တစ်ခုတည်းသည် Global Inequality ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ Global Inequality နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Colonial Legacy, Trade Pattern များနှင့် Capital ရရှိမှုကို တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle carried forward from every prior term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does documented colonial resource extraction (studied in Term 2's Week 10) connect directly to documented patterns of global inequality studied this week, rather than being an unrelated historical topic?",
+          questionMy:
+              "Documented Colonial Resource Extraction (Term 2 ၏ Week 10 တွင် လေ့လာခဲ့သော) သည် Unrelated သမိုင်းဆိုင်ရာ Topic တစ်ခုမဟုတ်ဘဲ ဤအပတ် လေ့လာသော Documented Global Inequality Pattern များနှင့် တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Historians and geographers document that colonial-era economic structures (such as resource extraction favoring the colonizer) had documented long-term effects on the economic development of formerly colonized regions, connecting Term 2's historical content directly to this week's documented geographic patterns",
+            "Colonial resource extraction has no actual documented connection to modern global inequality of any kind",
+            "Term 2 and Term 7 are documented as completely unrelated to each other",
+            "Documented economic structures from the colonial period never actually had any lasting documented effect",
+          ],
+          optionsMy: [
+            "Historian များနှင့် Geographer များသည် Colonial-ခေတ် Economic Structure များ (Colonizer ကို Favor ပြုသော Resource Extraction ကဲ့သို့) သည် ယခင် ကိုလိုနီဖြစ်ခဲ့ရသော Region များ၏ Economic Development ပေါ် Documented Long-Term Effect များ ရှိခဲ့ကြောင်း Document ပြုလုပ်ထားပြီး Term 2 ၏ သမိုင်းဆိုင်ရာ Content ကို ဤအပတ်၏ Documented Geographic Pattern များသို့ တိုက်ရိုက် ချိတ်ဆက်သည်",
+            "Colonial Resource Extraction တွင် Modern Global Inequality မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Term 2 နှင့် Term 7 တွင် တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Colonial ကာလမှ Documented Economic Structure များတွင် ဘယ်တော့မှ Actual Lasting Documented Effect မရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's Week 10 documented economic structures of colonialism -- this week traces their documented long-term connection to modern inequality patterns.",
+          ],
+          hintsMy: [
+            "Term 2 ၏ Week 10 Documented Colonialism Economic Structure များကို သတိရပါ -- ဤအပတ်သည် Modern Inequality Pattern များသို့ ၎င်းတို့၏ Documented Long-Term Connection ကို လိုက်လံ ဖော်ထုတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing global inequality's documented causes name specific documented factors rather than describing inequality only as 'some countries are just unlucky'?",
+          questionMy:
+              "Global Inequality ၏ Documented Cause များကို Cite ပြုလုပ်သော Student များသည် Inequality ကို 'Country အချို့သည် Luck မကောင်းသည်' ဟုသာ ဖော်ပြမည့်အစား Specific Documented Factor များကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented factors (colonial legacy, trade patterns, capital access) shows precise, evidence-based causes rather than a vague, unverifiable claim, the same specific-evidence habit used throughout this course",
+            "Vague explanations like 'bad luck' are always more historically and geographically accurate than specific documented factors",
+            "Specific documented factors have no actual value in explaining global inequality",
+            "Global inequality should never actually be explained using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Factor များ (Colonial Legacy, Trade Pattern များ, Capital ရရှိမှု) Cite ပြုလုပ်ခြင်းသည် Vague, Unverifiable Claim တစ်ခုအစား Precise, Evidence-Based Cause များကို ပြသပြီး ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "'Bad Luck' ကဲ့သို့ Vague ရှင်းပြချက်များသည် Specific Documented Factor များထက် အမြဲ ပို၍ သမိုင်းနှင့် Geographic အရ တိကျသည်",
+            "Specific Documented Factor များတွင် Global Inequality ရှင်းပြရာ၌ Actual Value မရှိခြင်း",
+            "Global Inequality ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ရှင်းပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Global Inequality Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Global Inequality Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w26-dm-1",
+          termEn: "Colonial legacy",
+          termMy: "Colonial Legacy",
+          matchEn:
+              "The documented long-term effect of colonial-era economic structures on modern development",
+          matchMy:
+              "Modern Development ပေါ် Colonial-ခေတ် Economic Structure များ၏ Documented Long-Term Effect",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w26-dm-2",
+          termEn: "Trade pattern",
+          termMy: "Trade Pattern",
+          matchEn:
+              "A documented factor in global inequality related to what and how much a country trades",
+          matchMy:
+              "Country တစ်ခု ဘာ, မည်မျှ ကုန်သွယ်သည်နှင့် ဆက်စပ်သော Global Inequality ၏ Documented Factor",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w26-dm-3",
+          termEn: "Capital access",
+          termMy: "Capital Access",
+          matchEn:
+              "A documented factor: a country's documented ability to access investment and infrastructure funding",
+          matchMy:
+              "Documented Factor တစ်ခု - Investment နှင့် Infrastructure Funding ကို Country တစ်ခု၏ Documented Access ရရှိနိုင်စွမ်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w26-dm-4",
+          termEn: "Term 2 connection",
+          termMy: "Term 2 ချိတ်ဆက်မှု",
+          matchEn:
+              "Tracing colonial resource extraction's documented long-term effect on modern inequality",
+          matchMy:
+              "Modern Inequality ပေါ် Colonial Resource Extraction ၏ Documented Long-Term Effect ကို လိုက်လံ ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Term Does This Cause Trace Back To?",
+      titleMy: "စီစစ်ကြမည် - ဤ Cause ဘယ် Term သို့ လိုက်လံ ချိတ်ဆက်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Traces Back to Term 2 (Colonialism)", "New to Term 7"],
+        bucketsMy: [
+          "Term 2 (Colonialism) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          "Term 7 တွင် အသစ်",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w26-sort-1",
+            labelEn:
+                "Documented resource extraction favoring the colonizer's economy",
+            labelMy:
+                "Colonizer ၏ Economy ကို Favor ပြုသော Documented Resource Extraction",
+            correctBucketEn: "Traces Back to Term 2 (Colonialism)",
+            correctBucketMy: "Term 2 (Colonialism) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w26-sort-2",
+            labelEn:
+                "Documented modern patterns of international trade between countries",
+            labelMy:
+                "Country များကြား International Trade ၏ Documented Modern Pattern များ",
+            correctBucketEn: "New to Term 7",
+            correctBucketMy: "Term 7 တွင် အသစ်",
+          ),
+          SortingItem(
+            id: "sec3hum-w26-sort-3",
+            labelEn:
+                "Documented colonial-era economic structures with lasting effects",
+            labelMy:
+                "Lasting Effect များပါဝင်သော Documented Colonial-ခေတ် Economic Structure များ",
+            correctBucketEn: "Traces Back to Term 2 (Colonialism)",
+            correctBucketMy: "Term 2 (Colonialism) သို့ လိုက်လံ ချိတ်ဆက်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w26-sort-4",
+            labelEn:
+                "Documented access to capital and infrastructure funding today",
+            labelMy:
+                "ယနေ့ Capital နှင့် Infrastructure Funding ကို Documented ရရှိမှု",
+            correctBucketEn: "New to Term 7",
+            correctBucketMy: "Term 7 တွင် အသစ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko's Inequality Causes Chart",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko ၏ Inequality Causes Chart",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko's Inequality Causes Chart",
+        titleMy: "Zin Ko ၏ Inequality Causes Chart",
+        passageEn:
+            "For Week 26's project, Zin Ko's first draft explained global inequality only as 'some countries are just unlucky,' with no specific documented factor cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented factors was he actually referring to?\n\nZin Ko revised his chart to cite three documented factors working together, applying the multi-causation principle carried forward from every earlier term: documented colonial legacy, documented trade patterns, and documented capital access. For the colonial-legacy factor specifically, he traced a direct connection back to Term 2's Week 10, where documented colonial economic structures like resource extraction had been shown to favor the colonizer's economy -- Zin Ko now cited documented evidence that these structures had lasting effects on the economic development of formerly colonized regions.\n\nHis teacher praised the chart for replacing a vague 'luck' explanation with specific, documented, multi-causal factors, and for tracing the historical connection back to Term 2 rather than treating global inequality as an unconnected modern topic. The teacher noted Week 27 would build on this by examining the balanced documented account of how development aid has attempted to address these documented causes.",
+        passageMy:
+            "Week 26 ၏ Project အတွက် Zin Ko ၏ ပထမဆုံး Draft တွင် Specific Documented Factor မည်သည်ကိုမျှ Cite မပြုဘဲ Global Inequality ကို 'Country အချို့သည် Luck မကောင်းသည်' ဟုသာ ရှင်းပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Factor မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Multi-Causation Principle ကို အသုံးချကာ အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor သုံးခုကို Cite ပြုလုပ်ရန် ၎င်း၏ Chart ကို Zin Ko ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Documented Colonial Legacy, Documented Trade Pattern များနှင့် Documented Capital Access။ Colonial-Legacy Factor အတွက် တိကျစွာ Resource Extraction ကဲ့သို့ Documented Colonial Economic Structure များသည် Colonizer ၏ Economy ကို Favor ပြုကြောင်း ပြသခဲ့သော Term 2 ၏ Week 10 သို့ Direct Connection တစ်ခုကို ၎င်း လိုက်လံ ဖော်ထုတ်ခဲ့သည် -- ယခင် ကိုလိုနီဖြစ်ခဲ့ရသော Region များ၏ Economic Development ပေါ် ဤ Structure များ Lasting Effect များ ရှိခဲ့ကြောင်း Documented Evidence ကို Zin Ko ယခု Cite ပြုလုပ်ခဲ့သည်။\n\nVague 'Luck' ရှင်းပြချက်ကို Specific, Documented, Multi-Causal Factor များဖြင့် အစားထိုးခြင်းနှင့် Global Inequality ကို Unconnected Modern Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား သမိုင်းဆိုင်ရာ Connection ကို Term 2 သို့ လိုက်လံ ဖော်ထုတ်ခြင်းအတွက် Chart ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။ ဤ Documented Cause များကို ဖြေရှင်းရန် Development Aid မည်သို့ ကြိုးပမ်းခဲ့သည်ကို Balanced Documented Account စစ်ဆေးခြင်းဖြင့် Week 27 သည် ဤသည်ပေါ်တွင် တည်ဆောက်မည်ဟု ဆရာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what three documented factors did Zin Ko cite?",
+            questionMy:
+                "Zin Ko Cite ပြုလုပ်ခဲ့သော Documented Factor သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Colonial legacy, trade patterns, and capital access",
+              "Only a single unspecified factor with no documented evidence",
+              "Factors entirely unrelated to global inequality",
+              "No documented factor of any kind",
+            ],
+            optionsMy: [
+              "Colonial Legacy, Trade Pattern များနှင့် Capital Access",
+              "Documented Evidence မပါသော Unspecified Factor တစ်ခုတည်း",
+              "Global Inequality နှင့် လုံးလုံး မသက်ဆိုင်သော Factor များ",
+              "Documented Factor မည်သည် အမျိုးအစားမှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited factors."],
+            hintsMy: [
+              "Cite ပြုလုပ်ထားသော Factor များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Zin Ko connect the colonial-legacy factor back to?",
+            questionMy:
+                "Colonial-Legacy Factor ကို Zin Ko ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's Week 10 documented colonial economic structures",
+              "No documented content of any kind",
+              "Content entirely unrelated to Term 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Term 2 ၏ Week 10 Documented Colonial Economic Structure များ",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Term 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 27 examine?",
+            questionMy: "Week 27 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A balanced documented account of development aid",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to global inequality",
+              "Content unrelated to any documented cause",
+            ],
+            optionsMy: [
+              "Development Aid ၏ Balanced Documented Account",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Global Inequality နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Cause မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 27.",
+            ],
+            hintsMy: [
+              "Week 27 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w26-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Global Inequality Causes Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Global Inequality Causes မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Global inequality is documented as resulting from...",
+          questionMy:
+              "Global Inequality ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented factors working together",
+            "A single unspecified cause with no evidence",
+            "No documented cause of any kind",
+            "A vague 'luck' explanation with no evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာ",
+            "Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Evidence မပါသော Vague 'Luck' ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Colonial resource extraction is documented as connecting to...",
+          questionMy:
+              "Colonial Resource Extraction ကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Term 2's documented economic structures with lasting effects",
+            "No documented earlier content of any kind",
+            "Content entirely unrelated to colonial history",
+            "A topic this course never actually covered before",
+          ],
+          optionsMy: [
+            "Lasting Effect များနှင့် Term 2 ၏ Documented Economic Structure များ",
+            "Documented ယခင် Content မည်သည် အမျိုးအစားမှ",
+            "Colonial History နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Explaining global inequality accurately requires...",
+          questionMy:
+              "Global Inequality ကို တိကျစွာ ရှင်းပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented factors rather than vague explanations",
+            "Only vague explanations with no specific evidence",
+            "No documented evidence of any kind",
+            "Explanations unrelated to any documented historical or economic factor",
+          ],
+          optionsMy: [
+            "Vague ရှင်းပြချက်များအစား Specific Documented Factor များ",
+            "Specific Evidence မပါဘဲ Vague ရှင်းပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented သမိုင်းဆိုင်ရာ (သို့) Economic Factor မည်သည်နှင့်မျှ မသက်ဆိုင်သော ရှင်းပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 7, Week 27: "Balanced Account of
+// Development Aid"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek27 = CourseWeekDef(
+  id: "course-sec3-hum-w27",
+  weekNumber: 27,
+  titleEn: "Balanced Account of Development Aid",
+  titleMy: "Development Aid ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w27-d1",
+      dayNumber: 1,
+      titleEn: "Documented Benefits and Documented Controversy",
+      titleMy: "Documented Benefit များနှင့် Documented Controversy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, documented account of development aid represents both documented benefits (funding for infrastructure, healthcare, and education) and documented controversy (debates over whether aid creates dependency or effectively addresses documented root causes). Why must both dimensions be represented?",
+          questionMy:
+              "Development Aid ၏ Balanced, Documented Account တစ်ခုသည် Documented Benefit များ (Infrastructure, Healthcare နှင့် Education အတွက် Funding) နှင့် Documented Controversy (Aid သည် Dependency ဖန်တီးမည် (သို့) Documented Root Cause များကို ထိရောက်စွာ ဖြေရှင်းမည်ဆိုသည့် Debate) နှစ်ခုစလုံးကို ကိုယ်စားပြုသည်။ Dimension နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used throughout this course -- an accurate account represents every major documented dimension, not only the convenient one",
+            "Only documented benefits should ever be represented in any account of development aid",
+            "Only documented controversy should ever be represented, with no mention of any documented benefit",
+            "Balance has no actual role in accurately representing development aid",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Development Aid ၏ Account မည်သည်တွင်မဆို Documented Benefit များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Benefit မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Controversy ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Development Aid ကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Term 5's Week 19 population policy content, applied here to development aid.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Development Aid ပေါ်တွင် ဤနေရာ၌ အသုံးချထားသော Term 5 ၏ Week 19 Population Policy Content မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing debates about development aid name specific documented arguments (such as concerns about dependency, or evidence about effectiveness) rather than describing the debate only in vague terms?",
+          questionMy:
+              "Development Aid အကြောင်း Debate များကို Cite ပြုလုပ်သော Student များသည် Debate ကို Vague Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Argument များ (Dependency အကြောင်း Concern များ, သို့ Effectiveness အကြောင်း Evidence ကဲ့သို့) ကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented arguments shows genuine understanding of this complex debate, the same specific-evidence habit used throughout this course, rather than a vague generic claim",
+            "Vague, general descriptions are always more accurate than specific documented arguments",
+            "Specific documented arguments have no actual value in representing this debate accurately",
+            "Development aid debates should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Argument များ Cite ပြုလုပ်ခြင်းသည် ဤ Complex Debate ၏ Genuine နားလည်မှု ကို ပြသပြီး Vague Generic Claim တစ်ခုအစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Argument များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Argument များတွင် ဤ Debate ကို တိကျစွာ ကိုယ်စားပြုရာ၌ Actual Value မရှိခြင်း",
+            "Development Aid Debate များကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students representing communities that receive development aid document them as active participants shaping how aid is used, rather than only as passive recipients?",
+          questionMy:
+              "Development Aid ရရှိသော Community များကို ကိုယ်စားပြုသော Student များသည် Passive Recipient များအဖြစ်သာမက Aid မည်သို့ အသုံးပြုသည်ကို ပုံဖော်နေသော Active Participant များအဖြစ် ၎င်းတို့ကို အဘယ်ကြောင့် Document ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same agency principle applied consistently throughout this course -- representing affected people as active agents, not only as passive recipients of outside action",
+            "Communities receiving aid have no actual documented agency of any kind",
+            "Only outside aid organizations should ever be credited with any documented agency",
+            "Historical or geographic agency should never actually be attributed to aid-receiving communities",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး တသမတ်တည်း အသုံးချထားသော Agency Principle တူတူကို လိုက်နာသည် -- Outside Action ၏ Passive Recipient များအဖြစ်သာမက အကျိုးသက်ရောက်ခဲ့သော လူများကို Active Agent များအဖြစ် ကိုယ်စားပြုခြင်း",
+            "Aid ရရှိသော Community များတွင် Actual Documented Agency မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Documented Agency မည်သည်ကိုမဆို Outside Aid Organization များကိုသာ Credit ပေးသင့်ခြင်း",
+            "Aid-Receiving Community များအား Historical (သို့) Geographic Agency ကို ဘယ်တော့မှ Actual မသတ်မှတ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same agency principle used consistently since Secondary 2 and reinforced in this course's Term 2 and Term 6.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့ပြီး ဤ Course ၏ Term 2 နှင့် Term 6 တွင် ထပ်မံ အားဖြည့်ခဲ့သော Agency Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Development Aid Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Development Aid Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w27-dm-1",
+          termEn: "Development aid",
+          termMy: "Development Aid",
+          matchEn:
+              "Documented funding provided to support infrastructure, healthcare, or education",
+          matchMy:
+              "Infrastructure, Healthcare (သို့) Education ကို ပံ့ပိုးရန် ပေးအပ်ထားသော Documented Funding",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w27-dm-2",
+          termEn: "Documented dependency concern",
+          termMy: "Documented Dependency Concern",
+          matchEn:
+              "A documented controversy about whether aid reduces a country's own documented capacity",
+          matchMy:
+              "Aid သည် Country တစ်ခု၏ ကိုယ်ပိုင် Documented Capacity ကို လျှော့ချမလား ဆိုသည့် Documented Controversy",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w27-dm-3",
+          termEn: "Active participant",
+          termMy: "Active Participant",
+          matchEn:
+              "Representing aid-receiving communities as shaping how aid is actually used",
+          matchMy:
+              "Aid ကို Actual မည်သို့ အသုံးပြုသည်ကို ပုံဖော်နေသော Aid-Receiving Community များအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w27-dm-4",
+          termEn: "Balanced aid account",
+          termMy: "Balanced Aid Account",
+          matchEn:
+              "Representing both documented benefits and documented controversy fairly",
+          matchMy:
+              "Documented Benefit များနှင့် Documented Controversy နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Benefit or Documented Controversy?",
+      titleMy: "စီစစ်ကြမည် - Documented Benefit (သို့) Documented Controversy",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Benefit", "Documented Controversy"],
+        bucketsMy: ["Documented Benefit", "Documented Controversy"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w27-sort-1",
+            labelEn:
+                "Documented funding building schools and clinics in a specific region",
+            labelMy:
+                "Specific Region တွင် ကျောင်းများနှင့် Clinic များ တည်ဆောက်သော Documented Funding",
+            correctBucketEn: "Documented Benefit",
+            correctBucketMy: "Documented Benefit",
+          ),
+          SortingItem(
+            id: "sec3hum-w27-sort-2",
+            labelEn:
+                "Documented debate over whether aid creates long-term dependency",
+            labelMy:
+                "Aid သည် Long-Term Dependency ဖန်တီးမလား ဆိုသည့် Documented Debate",
+            correctBucketEn: "Documented Controversy",
+            correctBucketMy: "Documented Controversy",
+          ),
+          SortingItem(
+            id: "sec3hum-w27-sort-3",
+            labelEn:
+                "Documented improvement in healthcare access following aid investment",
+            labelMy:
+                "Aid Investment ပြီးနောက် Healthcare Access ၏ Documented တိုးတက်မှု",
+            correctBucketEn: "Documented Benefit",
+            correctBucketMy: "Documented Benefit",
+          ),
+          SortingItem(
+            id: "sec3hum-w27-sort-4",
+            labelEn:
+                "Documented questions about whether aid effectively addresses root causes",
+            labelMy:
+                "Aid သည် Root Cause များကို ထိရောက်စွာ ဖြေရှင်းမလား ဆိုသည့် Documented မေးခွန်းများ",
+            correctBucketEn: "Documented Controversy",
+            correctBucketMy: "Documented Controversy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Myat Noe's Aid Balance Report",
+      titleMy: "စာဖတ်ခြင်း - Su Myat Noe ၏ Aid Balance Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Myat Noe's Aid Balance Report",
+        titleMy: "Su Myat Noe ၏ Aid Balance Report",
+        passageEn:
+            "For Week 27's assignment, Su Myat Noe's first draft described development aid only in uniformly positive terms -- funding for schools and clinics -- with no mention of any documented controversy. Her teacher returned the draft with a reminder of the balanced-account principle used since Term 5's population policy work: had she checked documented controversy alongside documented benefit?\n\nSu Myat Noe researched further and found both dimensions clearly documented: aid funding documented improvements in infrastructure, healthcare, and education, alongside documented debate over whether aid created dependency or effectively addressed the root causes traced back to Term 7's earlier work on colonial legacy and trade patterns. She also revised how she represented communities receiving aid, initially describing them only as passive recipients. Her teacher reminded her of the agency principle used consistently since Secondary 2 -- Su Myat Noe revised her report to represent these communities as active participants shaping how aid was actually used, not only as passive recipients.\n\nHer teacher praised the revision for combining specific documented citation, balanced representation of benefit and controversy, and respected agency into one accurate account, exactly the discipline Week 28's capstone would require for its combined case study.",
+        passageMy:
+            "Week 27 ၏ Assignment အတွက် Su Myat Noe ၏ ပထမဆုံး Draft တွင် Documented Controversy မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Development Aid ကို Uniformly Positive Term များဖြင့်သာ ဖော်ပြခဲ့သည် -- ကျောင်းများနှင့် Clinic များအတွက် Funding။ Term 5 ၏ Population Policy အလုပ်မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Benefit များနှင့်အတူ Documented Controversy ကို ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nDimension နှစ်ခုစလုံးကို ရှင်းလင်းစွာ Document ပြုလုပ်ထားကြောင်း Su Myat Noe ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည် -- Aid Funding သည် Infrastructure, Healthcare နှင့် Education တွင် Documented Improvement များကို ဖန်တီးပေးခဲ့ပြီး Term 7 ၏ Colonial Legacy နှင့် Trade Pattern များအပေါ် အစောပိုင်း အလုပ်သို့ လိုက်လံ ဖော်ထုတ်ထားသော Root Cause များကို Aid ထိရောက်စွာ ဖြေရှင်းမလား (သို့) Dependency ဖန်တီးမလား ဆိုသည့် Documented Debate နှင့်အတူ။ Aid ရရှိသော Community များကို ၎င်း ကိုယ်စားပြုပုံကိုလည်း ၎င်း ပြန်လည် ပြင်ဆင်ခဲ့ပြီး ၎င်းတို့ကို Passive Recipient များအဖြစ်သာ ပထမဦးစွာ ဖော်ပြခဲ့သည်။ Secondary 2 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော Agency Principle ကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- Passive Recipient များအဖြစ်သာမက Aid ကို Actual မည်သို့ အသုံးပြုသည်ကို ပုံဖော်နေသော Active Participant များအဖြစ် ဤ Community များကို ကိုယ်စားပြုရန် ၎င်း၏ Report ကို Su Myat Noe ပြန်လည် ပြင်ဆင်ခဲ့သည်။\n\nSpecific Documented Citation, Benefit နှင့် Controversy ၏ Balanced Representation နှင့် Respected Agency ကို Accurate Account တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Week 28 ၏ Capstone ၏ Combined Case Study အတွက် လိုအပ်မည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Su Myat Noe's first draft?",
+            questionMy:
+                "Su Myat Noe ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any mention of documented controversy",
+              "Any mention of documented benefit at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Documented Controversy ၏ ဖော်ပြချက် မည်သည်မှ",
+              "Documented Benefit ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Su Myat Noe revise her representation of aid-receiving communities?",
+            questionMy:
+                "Aid-Receiving Community များ၏ Representation ကို Su Myat Noe မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As active participants shaping how aid was actually used",
+              "As passive recipients with no actual role in the process",
+              "As having no actual documented historical or geographic significance",
+              "By removing all mention of communities entirely",
+            ],
+            optionsMy: [
+              "Aid ကို Actual မည်သို့ အသုံးပြုသည်ကို ပုံဖော်နေသော Active Participant များအဖြစ်",
+              "Process တွင် Actual Role မရှိသော Passive Recipient များအဖြစ်",
+              "Actual Documented Historical (သို့) Geographic Significance မရှိကြောင်း",
+              "Community များ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher praise Su Myat Noe's revision?",
+            questionMy:
+                "Su Myat Noe ၏ Revision ကို ဆရာ အဘယ်ကြောင့် ချီးမွမ်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "For combining specific citation, balanced representation, and respected agency into one account",
+              "For describing development aid only in uniformly positive terms",
+              "For ignoring every documented dimension from the entire term",
+              "For making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Specific Citation, Balanced Representation နှင့် Respected Agency ကို Account တစ်ခုအဖြစ် ပေါင်းစပ်ခြင်းအတွက်",
+              "Development Aid ကို Uniformly Positive Term များဖြင့်သာ ဖော်ပြခြင်းအတွက်",
+              "Term တစ်ခုလုံးမှ Documented Dimension တိုင်းကို လျစ်လျူရှုခြင်းအတွက်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ခြင်းအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w27-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Development Aid Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Development Aid မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A balanced account of development aid represents...",
+          questionMy:
+              "Development Aid ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented benefits and documented controversy",
+            "Only documented benefits with no controversy mentioned",
+            "Only documented controversy with no benefit mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Benefit များနှင့် Documented Controversy နှစ်ခုစလုံး",
+            "Controversy ကို ဖော်ပြခြင်းမရှိဘဲ Documented Benefit များသာ",
+            "Benefit ကို ဖော်ပြခြင်းမရှိဘဲ Documented Controversy သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Communities receiving development aid should be represented as...",
+          questionMy:
+              "Development Aid ရရှိသော Community များကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Active participants shaping how aid is used",
+            "Passive recipients with no actual role in the process",
+            "People with no actual documented agency of any kind",
+            "Unrelated to any agency principle used this course",
+          ],
+          optionsMy: [
+            "Aid အသုံးပြုပုံကို ပုံဖော်နေသော Active Participant များ",
+            "Process တွင် Actual Role မရှိသော Passive Recipient များ",
+            "Actual Documented Agency မည်သည် အမျိုးအစားမှ မရှိသော လူများ",
+            "ဤ Course အသုံးပြုခဲ့သော Agency Principle မည်သည်နှင့်မျှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Describing development aid accurately requires...",
+          questionMy: "Development Aid ကို တိကျစွာ ဖော်ပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented arguments rather than vague descriptions",
+            "Only vague, general descriptions with no specific evidence",
+            "No documented evidence of any kind",
+            "Descriptions unrelated to any documented debate",
+          ],
+          optionsMy: [
+            "Vague ဖော်ပြချက်များအစား Specific Documented Argument များ",
+            "Specific Evidence မပါဘဲ Vague, General ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented Debate မည်သည်နှင့်မျှ မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 7, Week 28 (Capstone / Boss Week):
+// "Development Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek28 = CourseWeekDef(
+  id: "course-sec3-hum-w28",
+  weekNumber: 28,
+  titleEn: "Capstone: Development Case Study",
+  titleMy: "Capstone - Development Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w28-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 7 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 7 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must choose one documented country and combine specific documented development indicators (Week 25), documented causes of inequality (Week 26), and a balanced account of any documented aid received (Week 27). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Documented Country တစ်ခု ရွေးချယ်ကာ Specific Documented Development Indicator များ (Week 25), Inequality ၏ Documented Cause များ (Week 26) နှင့် Documented Aid ရရှိမှု မည်သည်ကိုမဆို Balanced Account (Week 27) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding a country's documented development level, why it developed that way, and any balanced aid response together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain a country's development fully",
+            "Development indicators, inequality causes, and aid have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် Country တစ်ခု၏ Documented Development Level, ၎င်း ထို့ကဲ့သို့ အဘယ်ကြောင့် Develop ဖြစ်ခဲ့သည်နှင့် Balanced Aid Response မည်သည်ကိုမဆို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Country တစ်ခု၏ Development ကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Development Indicator များ, Inequality Cause များနှင့် Aid တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 25 (indicators), Week 26 (causes), and Week 27 (balanced aid) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 25 (Indicator), Week 26 (Cause) နှင့် Week 27 (Balanced Aid) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes their chosen country using only a single indicator and one vague cause ('bad luck'), and represents any aid recipients only as passive. Following this term's established standards, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Single Indicator တစ်ခုနှင့် Vague Cause တစ်ခု ('Bad Luck') ကိုသာ အသုံးပြု၍ ၎င်း ရွေးချယ်ထားသော Country ကို ဖော်ပြကာ Aid Recipient မည်သည်ကိုမဆို Passive အဖြစ်သာ ကိုယ်စားပြုသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard များအတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to cite multiple documented indicators (Week 25), specific documented inequality causes (Week 26), and represent aid recipients as active participants (Week 27)",
+            "Nothing -- a single indicator, a vague cause, and passive recipients are the required approach for this term",
+            "Remove all documented evidence about the chosen country from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Multiple Documented Indicator များ (Week 25), Specific Documented Inequality Cause များ (Week 26) ကို Cite ပြုလုပ်ကာ Aid Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုရန် (Week 27) Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Single Indicator, Vague Cause တစ်ခုနှင့် Passive Recipient များသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော Country အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines the multi-indicator standard from Week 25, the specific-causation standard from Week 26, and the agency standard from Week 27, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 25 မှ Multi-Indicator Standard, Week 26 မှ Specific-Causation Standard နှင့် Week 27 မှ Agency Standard ကို ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project explicitly connect its chosen country's inequality causes back to Term 2's colonial content, rather than treating global inequality as an isolated, unconnected modern topic?",
+          questionMy:
+              "Global Inequality ကို Isolated, Unconnected Modern Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား Capstone Project သည် ၎င်း ရွေးချယ်ထားသော Country ၏ Inequality Cause များကို Term 2 ၏ Colonial Content သို့ ရှင်းလင်းစွာ အဘယ်ကြောင့် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "This course's content builds cumulatively, and demonstrating that connection accurately represents global inequality as having documented historical roots rather than being an isolated modern event",
+            "Term 2 and Term 7 have no actual documented connection to each other",
+            "Global inequality appeared with no connection to any earlier documented colonial content",
+            "Connecting terms together has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Content သည် Cumulatively တည်ဆောက်သည်၊ ထို ချိတ်ဆက်မှုကို သရုပ်ပြခြင်းသည် Global Inequality ကို Isolated Modern Event တစ်ခုမဟုတ်ဘဲ Documented သမိုင်းဆိုင်ရာ Root များ ရှိကြောင်း တိကျစွာ ကိုယ်စားပြုသည်",
+            "Term 2 နှင့် Term 7 တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Global Inequality သည် ယခင် Documented Colonial Content မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+            "Term များကို အတူတကွ ချိတ်ဆက်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same cumulative-connection principle stated explicitly in Week 26.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 26 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Cumulative-Connection Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 7 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w28-dm-1",
+          termEn: "Multiple-indicator comparison",
+          termMy: "Multiple-Indicator Comparison",
+          matchEn:
+              "Comparing development using several documented measures rather than one alone",
+          matchMy:
+              "Measure တစ်ခုတည်းမဟုတ်ဘဲ Documented Measure များစွာ အသုံးပြု၍ Development နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w28-dm-2",
+          termEn: "Colonial legacy",
+          termMy: "Colonial Legacy",
+          matchEn:
+              "A documented cause of inequality traced back to Term 2's colonial economic structures",
+          matchMy:
+              "Term 2 ၏ Colonial Economic Structure များသို့ လိုက်လံ ဖော်ထုတ်ထားသော Inequality ၏ Documented Cause",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w28-dm-3",
+          termEn: "Balanced aid account",
+          termMy: "Balanced Aid Account",
+          matchEn:
+              "Representing both documented benefits and documented controversy fairly",
+          matchMy:
+              "Documented Benefit များနှင့် Documented Controversy နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w28-dm-4",
+          termEn: "Active participant",
+          termMy: "Active Participant",
+          matchEn:
+              "Representing aid recipients as shaping outcomes, not only passive receivers",
+          matchMy:
+              "Passive Receiver များအဖြစ်သာမက Outcome များကို ပုံဖော်နေသော Aid Recipient များအဖြစ် ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w28-sort-1",
+            labelEn:
+                "Multiple specific documented development indicators for the chosen country",
+            labelMy:
+                "ရွေးချယ်ထားသော Country အတွက် Multiple Specific Documented Development Indicator များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w28-sort-2",
+            labelEn:
+                "Specific documented inequality causes connected back to Term 2's colonial content",
+            labelMy:
+                "Term 2 ၏ Colonial Content သို့ ချိတ်ဆက်ထားသော Specific Documented Inequality Cause များ",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w28-sort-3",
+            labelEn:
+                "A balanced account of documented aid representing recipients as active participants",
+            labelMy:
+                "Recipient များကို Active Participant များအဖြစ် ကိုယ်စားပြုသော Documented Aid ၏ Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w28-sort-4",
+            labelEn:
+                "A single indicator and a vague 'bad luck' explanation with no documented causes",
+            labelMy:
+                "Documented Cause မပါဘဲ Single Indicator နှင့် Vague 'Bad Luck' ရှင်းပြချက်",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ye Min's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Ye Min ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ye Min's Capstone Case Study",
+        titleMy: "Ye Min ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 7 capstone, Ye Min chose one specific documented country as his case study, combining three documented elements from across the term. From Week 25, he cited multiple documented indicators rather than relying on GDP per capita alone: documented literacy rate and the Human Development Index alongside GDP figures, giving a more complete documented picture.\n\nFrom Week 26, he cited specific documented causes of inequality rather than a vague 'luck' explanation, tracing his chosen country's documented colonial legacy directly back to Term 2's Week 10 economic structures, alongside documented trade patterns and capital access. From Week 27, he built a balanced account of documented aid the country had received: documented benefits in infrastructure and healthcare, alongside documented controversy over dependency, and was careful to represent communities receiving aid as active participants shaping how it was used rather than only as passive recipients.\n\nHis teacher praised the case study for combining multiple documented indicators, specific documented causes connected back to Term 2, and a balanced, agency-respecting account of aid into one connected project -- exactly the standard built across every capstone since Secondary 1, and a strong foundation as the class moved into Term 8's natural hazards content.",
+        passageMy:
+            "Term 7 Capstone အတွက် Term တစ်ခုလုံးမှ Documented Element သုံးခုကို ပေါင်းစပ်ကာ Specific Documented Country တစ်ခုကို ၎င်း၏ Case Study အဖြစ် Ye Min ရွေးချယ်ခဲ့သည်။ Week 25 မှ GDP Per Capita တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Multiple Documented Indicator များကို ၎င်း Cite ပြုလုပ်ခဲ့သည် -- GDP Figure များနှင့်အတူ Documented Literacy Rate နှင့် Human Development Index, ပို၍ ပြည့်စုံသော Documented ပုံရိပ်ကို ပေးအပ်ခဲ့သည်။\n\nWeek 26 မှ Vague 'Luck' ရှင်းပြချက်တစ်ခုအစား Inequality ၏ Specific Documented Cause များကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး ၎င်း ရွေးချယ်ထားသော Country ၏ Documented Colonial Legacy ကို Term 2 ၏ Week 10 Economic Structure များသို့ တိုက်ရိုက် လိုက်လံ ဖော်ထုတ်ခဲ့ပြီး Documented Trade Pattern များနှင့် Capital Access နှင့်အတူ။ Week 27 မှ Country ရရှိခဲ့သော Documented Aid ၏ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Dependency အပေါ် Documented Controversy နှင့်အတူ Infrastructure နှင့် Healthcare ရှိ Documented Benefit များနှင့် Passive Recipient များအဖြစ်သာမက Aid ကို မည်သို့ အသုံးပြုသည်ကို ပုံဖော်နေသော Active Participant များအဖြစ် Aid ရရှိသော Community များကို ကိုယ်စားပြုရန် ၎င်း သတိထားခဲ့သည်။\n\nMultiple Documented Indicator များ, Term 2 သို့ ချိတ်ဆက်ထားသော Specific Documented Cause များနှင့် Aid ၏ Balanced, Agency-Respecting Account ကို Connected Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းနှင့် Class Term 8 ၏ Natural Hazards Content ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Ye Min cite from Week 25 instead of relying on GDP per capita alone?",
+            questionMy:
+                "GDP Per Capita တစ်ခုတည်းအပေါ် မှီခိုမည့်အစား Week 25 မှ Ye Min Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Multiple documented indicators including literacy rate and the Human Development Index",
+              "No documented indicator of any kind",
+              "Indicators entirely unrelated to development",
+              "A single unspecified indicator with no documented evidence",
+            ],
+            optionsMy: [
+              "Literacy Rate နှင့် Human Development Index အပါအဝင် Multiple Documented Indicator များ",
+              "Documented Indicator မည်သည် အမျိုးအစားမှ",
+              "Development နှင့် လုံးလုံး မသက်ဆိုင်သော Indicator များ",
+              "Documented Evidence မပါသော Single Unspecified Indicator တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's Week 25 citation."],
+            hintsMy: ["Week 25 Citation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ye Min connect his chosen country's colonial legacy back to?",
+            questionMy:
+                "၎င်း ရွေးချယ်ထားသော Country ၏ Colonial Legacy ကို Ye Min ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's Week 10 economic structures",
+              "No documented content of any kind",
+              "Content entirely unrelated to Term 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Term 2 ၏ Week 10 Economic Structure များ",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Term 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Ye Min represent communities receiving aid?",
+            questionMy:
+                "Aid ရရှိသော Community များကို Ye Min မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As active participants shaping how aid was used",
+              "As passive recipients with no actual role in the process",
+              "As having no actual documented historical or geographic significance",
+              "By removing all mention of communities entirely",
+            ],
+            optionsMy: [
+              "Aid ကို အသုံးပြုပုံကို ပုံဖော်နေသော Active Participant များအဖြစ်",
+              "Process တွင် Actual Role မရှိသော Passive Recipient များအဖြစ်",
+              "Actual Documented Historical (သို့) Geographic Significance မရှိကြောင်း",
+              "Community များ၏ ဖော်ပြချက် မည်သည်ကိုမျှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated representation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Representation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Recap: Development and Global Inequality",
+      titleMy: "Term 7 ပြန်လည်သုံးသပ်ခြင်း - Development and Global Inequality",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Comparing development between countries should use...",
+          questionMy:
+              "Country များကြား Development ကို နှိုင်းယှဉ်ခြင်းသည် ...အသုံးပြုသင့်သည်",
+          optionsEn: [
+            "Multiple documented indicators rather than one alone",
+            "Only a single documented indicator with no others",
+            "No documented indicator of any kind",
+            "Vague labels like 'rich' or 'poor'",
+          ],
+          optionsMy: [
+            "Indicator တစ်ခုတည်းအစား Multiple Documented Indicator များ",
+            "အခြား မပါဘဲ Single Documented Indicator တစ်ခုတည်း",
+            "Documented Indicator မည်သည် အမျိုးအစားမှ",
+            "'ချမ်းသာ' (သို့) 'ဆင်းရဲ' ကဲ့သို့ Vague Label များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Global inequality's documented causes are documented as connecting to...",
+          questionMy:
+              "Global Inequality ၏ Documented Cause များကို ...နှင့် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Term 2's documented colonial economic structures",
+            "No documented earlier content of any kind",
+            "Content entirely unrelated to colonial history",
+            "A topic this course never actually covered before",
+          ],
+          optionsMy: [
+            "Term 2 ၏ Documented Colonial Economic Structure များ",
+            "Documented ယခင် Content မည်သည် အမျိုးအစားမှ",
+            "Colonial History နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A balanced account of development aid represents...",
+          questionMy:
+              "Development Aid ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented benefits and documented controversy, with recipients as active agents",
+            "Only documented benefits with no controversy",
+            "Only documented controversy with recipients as passive",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Active Agent များအဖြစ် Recipient များနှင့်အတူ Documented Benefit များနှင့် Documented Controversy နှစ်ခုစလုံး",
+            "Controversy မပါဘဲ Documented Benefit များသာ",
+            "Passive Recipient များနှင့်အတူ Documented Controversy သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 7: "Development and Global Inequality"
+// (Weeks 25-28). Deliberately primes IGCSE Humanities' fuller
+// development unit: specific documented development indicators (GDP
+// per capita, literacy rate, Human Development Index) used together
+// rather than relying on one alone (Week 25), specific documented
+// causes of global inequality traced back to Term 2's colonial
+// economic structures (Week 26), and a balanced account of documented
+// development aid representing recipients as active participants
+// (Week 27), closing with a capstone case study combining a
+// documented country's indicators, causes, and balanced aid account
+// (Week 28).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm7 = CourseTermDef(
+  id: "course-sec3-hum-t7",
+  termNumber: 7,
+  titleEn: "Development and Global Inequality",
+  titleMy: "Development and Global Inequality",
+  certificateTitleEn: "Development and Global Inequality Certificate",
+  certificateTitleMy: "Development and Global Inequality သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek25, _sec3HumWeek26, _sec3HumWeek27, _sec3HumWeek28],
 );
 // __SEC_HUM_MARKER__
