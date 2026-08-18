@@ -103490,9 +103490,9 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec1HumTerm1,
@@ -103500,6 +103500,7 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
     _sec1HumTerm3,
     _sec1HumTerm4,
     _sec1HumTerm5,
+    _sec1HumTerm6,
   ],
 );
 // =====================================================================
@@ -109208,5 +109209,1434 @@ const CourseTermDef _sec1HumTerm5 = CourseTermDef(
   certificateTitleEn: "The Medieval World I",
   certificateTitleMy: "The Medieval World I",
   weeks: [_sec1HumWeek17, _sec1HumWeek18, _sec1HumWeek19, _sec1HumWeek20],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 6: "The Medieval World II" (Weeks
+// 21-24). Continues the Term 5 history arc, widening scope beyond
+// Europe and the Islamic world to West Africa, China, and Southeast
+// Asia -- deliberately avoiding a Eurocentric medieval-world survey.
+// Term 6, Week 21: "Medieval West Africa: Ghana and Mali"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek21 = CourseWeekDef(
+  id: "course-sec1-hum-w21",
+  weekNumber: 21,
+  titleEn: "Medieval West Africa: Ghana and Mali",
+  titleMy: "Medieval အနောက်အာဖရိက - ဂါနာနှင့် မာလီ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w21-d1",
+      dayNumber: 1,
+      titleEn: "Gold, Salt, and the Wealth of Empires",
+      titleMy: "ရွှေ၊ ဆားနှင့် အင်ပါယာများ၏ ချမ်းသာကြွယ်ဝမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why did the trans-Saharan gold-salt trade become the foundation of wealth for empires like Ghana and Mali, rather than local agriculture alone?",
+          questionMy:
+              "Trans-Saharan ရွှေ-ဆား ကုန်သွယ်ရေးသည် ဒေသတွင်း စိုက်ပျိုးရေးတစ်ခုတည်းအစား ဂါနာနှင့် မာလီကဲ့သို့ အင်ပါယာများ၏ ချမ်းသာကြွယ်ဝမှု၏ Foundation တစ်ခု အဘယ်ကြောင့် ဖြစ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "Gold was abundant south of the trade routes while salt was scarce there but abundant in the Sahara, so controlling the exchange points between the two resources generated enormous wealth through taxation and trade",
+            "Trans-Saharan trade had no actual connection to the wealth of these West African empires",
+            "Gold and salt were equally abundant everywhere with no regional scarcity of either",
+            "Local agriculture alone was always sufficient to generate the empires' entire wealth",
+          ],
+          optionsMy: [
+            "ရွှေသည် ကုန်သွယ်ရေး Route များ၏ တောင်ဘက်တွင် ပေါများပြီး ဆားမူ ထိုနေရာတွင် ရှားပါးသော်လည်း Sahara တွင် ပေါများသောကြောင့် Resource နှစ်ခုကြား Exchange Point များ Control ပြုလုပ်ခြင်းသည် Taxation နှင့် Trade မှတစ်ဆင့် ကြီးမားသော ချမ်းသာကြွယ်ဝမှု ဖြစ်ပေါ်စေခဲ့သည်",
+            "Trans-Saharan ကုန်သွယ်ရေးသည် ဤ အနောက်အာဖရိက အင်ပါယာများ၏ ချမ်းသာကြွယ်ဝမှုနှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ရွှေနှင့် ဆားသည် ဒေသတွင်း ရှားပါးမှု မရှိဘဲ နေရာတိုင်းတွင် အညီအမျှ ပေါများခြင်း",
+            "ဒေသတွင်း စိုက်ပျိုးရေးတစ်ခုတည်းသည် အင်ပါယာများ၏ ချမ်းသာကြွယ်ဝမှု တစ်ခုလုံးကို ဖြစ်ပေါ်စေရန် အမြဲ လုံလောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same physical-factor/resource-scarcity reasoning from Term 6's own Silk Road content -- controlling a scarce, high-demand exchange point generates wealth.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 5 ၏ Silk Road Content ကိုယ်တိုင်မှ Physical-Factor/Resource-Scarcity Reasoning တူတူ ဖြစ်သည် -- ရှားပါး၊ Demand မြင့်သော Exchange Point တစ်ခုကို Control ပြုလုပ်ခြင်းသည် ချမ်းသာကြွယ်ဝမှု ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians treat Mansa Musa's famous pilgrimage to Mecca as significant evidence, beyond simply being a memorable travel story?",
+          questionMy:
+              "Mansa Musa ၏ Mecca သို့ နာမည်ကြီး ဘုရားဖူးခရီးကို မှတ်မိထားသော ခရီးသွား ဇာတ်လမ်းတစ်ခု ရိုးရိုးအဖြစ်ထက် Significant Evidence တစ်ခုအဖြစ် Historian များ အဘယ်ကြောင့် သဘောထားကြသနည်း။",
+          optionsEn: [
+            "Contemporary accounts documented the vast quantity of gold he distributed along the route, providing checkable evidence of Mali's enormous wealth and its connections across a wide trading world",
+            "The pilgrimage has no actual value as historical evidence of any kind",
+            "Historians have no documented accounts of this journey from any contemporary source",
+            "The pilgrimage only matters as an interesting story with no evidential value",
+          ],
+          optionsMy: [
+            "ခရီးစဉ်တစ်လျှောက် ၎င်း ဖြန့်ဝေခဲ့သော ရွှေ ပမာဏ ကြီးမားမှုကို ခေတ်ပြိုင် Account များက Document ပြုလုပ်ထားပြီး မာလီ၏ ကြီးမားသော ချမ်းသာကြွယ်ဝမှုနှင့် ကျယ်ပြန့်သော ကုန်သွယ်ရေး ကမ္ဘာတစ်ဝှမ်း ၎င်း၏ ချိတ်ဆက်မှုများ၏ စစ်ဆေးနိုင်သော Evidence ပေးအပ်ခဲ့သည်",
+            "ဘုရားဖူးခရီးသည် သမိုင်းဆိုင်ရာ Evidence အဖြစ် Value မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "ဤ ခရီးစဉ်၏ Document ပြုလုပ်ထားသော Account များ Contemporary Source မည်သည်မှ Historian များ မရှိခြင်း",
+            "ဘုရားဖူးခရီးသည် Evidential Value မပါဘဲ စိတ်ဝင်စားဖွယ် ဇာတ်လမ်းတစ်ခုအဖြစ်သာ အရေးကြီးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-cited-evidence habit from Week 18's Islamic Golden Age lesson -- a documented, checkable event reveals real historical information beyond an anecdote.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 18 ၏ Islamic Golden Age သင်ခန်းစာမှ Specific-Cited-Evidence Habit တူတူ ဖြစ်သည် -- Document ပြုလုပ်ထားသော၊ စစ်ဆေးနိုင်သော Event တစ်ခုသည် Anecdote တစ်ခုကျော်လွန်၍ Real သမိုင်းဆိုင်ရာ Information ကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students be cautious of history materials that omit or minimize medieval West African empires when covering the 'medieval world', given what you now know about Ghana and Mali's documented wealth and scale?",
+          questionMy:
+              "ဂါနာနှင့် မာလီ၏ Document ပြုလုပ်ထားသော ချမ်းသာကြွယ်ဝမှုနှင့် Scale အကြောင်း ယခု သင် သိရှိထားသည့်အရာကို ထောက်ရှု၍ 'Medieval World' ဖုံးအုပ်ရာတွင် Medieval အနောက်အာဖရိက အင်ပါယာများကို ချန်ထား (သို့) လျော့ချထားသော သမိုင်း Material များကို ကျောင်းသားများ အဘယ်ကြောင့် သတိထားသင့်ရသနည်း။",
+          optionsEn: [
+            "Omitting well-documented major civilizations creates an incomplete, misleading picture of the medieval world, exactly the caution Week 11 raised about verifying claims rather than accepting an incomplete narrative uncritically",
+            "Medieval West African empires have no actual documented evidence of any significance",
+            "Omitting these empires always creates a more accurate picture of medieval history",
+            "Every history material always covers every region with equal, complete detail",
+          ],
+          optionsMy: [
+            "ကောင်းစွာ Document ပြုလုပ်ထားသော Major Civilization များ ချန်ထားခြင်းသည် Medieval World ၏ Incomplete, Misleading ပုံရိပ်တစ်ခု ဖန်တီးသည်၊ Claim များ Uncritically လက်ခံမည့်အစား အတည်ပြုခြင်းအကြောင်း Week 11 ထောက်ပြခဲ့သော သတိပေးချက် အတိအကျ ဖြစ်သည်",
+            "Medieval အနောက်အာဖရိက အင်ပါယာများတွင် Significance ရှိသော Documented Evidence မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "ဤ အင်ပါယာများကို ချန်ထားခြင်းသည် Medieval သမိုင်း၏ ပို၍ တိကျသော ပုံရိပ်တစ်ခု အမြဲ ဖန်တီးခြင်း",
+            "သမိုင်း Material တိုင်းသည် ဒေသတိုင်းကို Detail အညီအမျှ၊ ပြည့်စုံစွာ အမြဲ ဖုံးအုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This applies Week 11's verification habit at a broader level -- an incomplete survey can mislead just as an unverified single claim can.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Verification Habit ကို ကျယ်ပြန့်သော Level တစ်ခုတွင် အသုံးချသည် -- Incomplete Survey တစ်ခုသည် Unverified Single Claim တစ်ခု လှည့်ဖြားနိုင်သကဲ့သို့ လှည့်ဖြားနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: West African Empires Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အနောက်အာဖရိက အင်ပါယာများ Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w21-dm-1",
+          termEn: "Trans-Saharan trade",
+          termMy: "Trans-Saharan Trade",
+          matchEn:
+              "Trade routes crossing the Sahara Desert, exchanging gold for salt and other goods",
+          matchMy:
+              "Sahara သဲကန္တာရကို ဖြတ်သန်းသော၊ ရွှေကို ဆားနှင့် အခြားကုန်ပစ္စည်းများနှင့် လဲလှယ်သော ကုန်သွယ်ရေး Route များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w21-dm-2",
+          termEn: "Mansa Musa",
+          termMy: "Mansa Musa",
+          matchEn:
+              "A ruler of the Mali Empire, documented for his famous pilgrimage to Mecca",
+          matchMy:
+              "Mecca သို့ ၎င်း၏ နာမည်ကြီး ဘုရားဖူးခရီးအတွက် Document ပြုလုပ်ထားသော မာလီ အင်ပါယာ၏ ဘုရင်တစ်ပါး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w21-dm-3",
+          termEn: "Timbuktu",
+          termMy: "Timbuktu",
+          matchEn:
+              "A city that became a major center of trade and Islamic scholarship in Mali",
+          matchMy:
+              "မာလီရှိ ကုန်သွယ်ရေးနှင့် Islamic Scholarship ၏ အဓိက ဗဟိုချက်တစ်ခု ဖြစ်လာခဲ့သော မြို့တစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w21-dm-4",
+          termEn: "Resource scarcity",
+          termMy: "Resource Scarcity",
+          matchEn:
+              "A resource being rare in one region but abundant in another, driving trade",
+          matchMy:
+              "ကုန်သွယ်ရေးကို တွန်းအားပေးသော Resource တစ်ခု ဒေသတစ်ခုတွင် ရှားပါး၍ အခြားတစ်ခုတွင် ပေါများခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Evidence or Unsupported Assumption?",
+      titleMy: "စီစစ်ကြမည် - Documented Evidence (သို့) Unsupported Assumption",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Evidence", "Unsupported Assumption"],
+        bucketsMy: ["Documented Evidence", "Unsupported Assumption"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w21-sort-1",
+            labelEn:
+                "Contemporary accounts recording the gold Mansa Musa distributed on his pilgrimage",
+            labelMy:
+                "Mansa Musa ၏ ဘုရားဖူးခရီးတွင် ဖြန့်ဝေခဲ့သော ရွှေကို မှတ်တမ်းတင်ထားသော ခေတ်ပြိုင် Account များ",
+            correctBucketEn: "Documented Evidence",
+            correctBucketMy: "Documented Evidence",
+          ),
+          SortingItem(
+            id: "sec1hum-w21-sort-2",
+            labelEn:
+                "Assuming West African empires had no wealth without checking any documented sources",
+            labelMy:
+                "Document ပြုလုပ်ထားသော Source မည်သည်မှ မစစ်ဆေးဘဲ အနောက်အာဖရိက အင်ပါယာများတွင် ချမ်းသာကြွယ်ဝမှု မရှိဟု ယူဆခြင်း",
+            correctBucketEn: "Unsupported Assumption",
+            correctBucketMy: "Unsupported Assumption",
+          ),
+          SortingItem(
+            id: "sec1hum-w21-sort-3",
+            labelEn:
+                "Records identifying Timbuktu as a documented center of trade and scholarship",
+            labelMy:
+                "Timbuktu ကို ကုန်သွယ်ရေးနှင့် Scholarship ၏ Documented ဗဟိုချက်တစ်ခုအဖြစ် ဖော်ထုတ်သော မှတ်တမ်းများ",
+            correctBucketEn: "Documented Evidence",
+            correctBucketMy: "Documented Evidence",
+          ),
+          SortingItem(
+            id: "sec1hum-w21-sort-4",
+            labelEn:
+                "Claiming this period had no significant African civilizations with no evidence check",
+            labelMy:
+                "Evidence Check မပြုဘဲ ဤကာလတွင် Significant အာဖရိက Civilization မရှိဟု Claim ပြုလုပ်ခြင်း",
+            correctBucketEn: "Unsupported Assumption",
+            correctBucketMy: "Unsupported Assumption",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Sett's Complete Medieval Map",
+      titleMy: "စာဖတ်ခြင်း - Kaung Sett ၏ ပြည့်စုံသော Medieval Map",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Sett's Complete Medieval Map",
+        titleMy: "Kaung Sett ၏ ပြည့်စုံသော Medieval Map",
+        passageEn:
+            "For Week 21's assignment, Kaung Sett was reviewing an older textbook's chapter on 'the medieval world' before starting his own research, and he noticed something odd: the chapter covered feudal Europe and the Islamic Golden Age in detail but mentioned West Africa in only a single sentence.\n\nApplying Week 11's verification habit, he decided to check whether this omission reflected an actual lack of significant history, or simply a gap in that particular textbook. His research quickly turned up extensive documented evidence: the Ghana and Mali empires controlled a trans-Saharan trade network worth enormous wealth, contemporary accounts recorded Mansa Musa's pilgrimage in specific, checkable detail, and Timbuktu was documented as a major center of manuscripts and Islamic scholarship, with a substantial body of surviving texts.\n\nKaung Sett realized the textbook's near-silence was not evidence of a quiet period in West African history -- it was an incomplete account, exactly the kind of unverified gap Week 11 had taught him to notice rather than accept at face value.\n\nHis final report combined Ghana and Mali with feudal Europe and the Islamic Golden Age as three connected medieval societies worth studying with equal seriousness, each supported by real documented evidence. His teacher praised the correction, noting that noticing what a source leaves out is just as important a historical skill as evaluating what it includes.",
+        passageMy:
+            "Week 21 ၏ Assignment အတွက် ၎င်းကိုယ်ပိုင် Research မစတင်မီ 'Medieval World' အကြောင်း Textbook ဟောင်းတစ်ခု၏ Chapter ကို Kaung Sett ပြန်လည်သုံးသပ်ခဲ့ပြီး ထူးဆန်းသည့်အရာတစ်ခု ၎င်း သတိပြုမိခဲ့သည် - Chapter သည် Feudal ဥရောပနှင့် Islamic Golden Age ကို အသေးစိတ် ဖုံးအုပ်ခဲ့သော်လည်း အနောက်အာဖရိကကို စာကြောင်းတစ်ကြောင်းတည်းတွင်သာ ဖော်ပြခဲ့သည်။\n\nWeek 11 ၏ Verification Habit အသုံးချကာ ဤ Omission သည် Significant သမိုင်း၏ Actual Lack ကို ထင်ဟပ်ပြသလား၊ (သို့) ထို Textbook တိကျတစ်ခုတွင်သာ Gap တစ်ခုသာ ဖြစ်လား စစ်ဆေးရန် ၎င်း ဆုံးဖြတ်ခဲ့သည်။ ၎င်း၏ Research က ကျယ်ပြန့်သော Document ပြုလုပ်ထားသော Evidence ကို လျင်မြန်စွာ ရှာဖွေတွေ့ရှိခဲ့သည် - ဂါနာနှင့် မာလီ အင်ပါယာများသည် ကြီးမားသော ချမ်းသာကြွယ်ဝမှု တန်ဖိုးရှိသော Trans-Saharan ကုန်သွယ်ရေး Network တစ်ခုကို Control ပြုလုပ်ခဲ့ပြီး ခေတ်ပြိုင် Account များက Mansa Musa ၏ ဘုရားဖူးခရီးကို တိကျ၊ စစ်ဆေးနိုင်သော Detail ဖြင့် မှတ်တမ်းတင်ခဲ့ကာ Timbuktu ကို ကျန်ရှိနေသေးသော Text များစွာနှင့်အတူ Manuscript များနှင့် Islamic Scholarship ၏ အဓိက ဗဟိုချက်တစ်ခုအဖြစ် Document ပြုလုပ်ထားခဲ့သည်။\n\nTextbook ၏ Near-Silence သည် အနောက်အာဖရိက သမိုင်းရှိ ငြိမ်သက်သော ကာလတစ်ခု၏ Evidence မဟုတ်ကြောင်း Kaung Sett သိရှိလာခဲ့သည် -- ၎င်းသည် Incomplete Account တစ်ခု ဖြစ်ပြီး Face Value အတိုင်း လက်ခံမည့်အစား သတိပြုရန် Week 11 က ၎င်းအား သင်ကြားပေးခဲ့သော Unverified Gap အမျိုးအစား အတိအကျ ဖြစ်သည်။\n\nတန်ဖိုးတူညီသော Seriousness ဖြင့် လေ့လာရန် ထိုက်တန်သော ချိတ်ဆက်ထားသော Medieval Society သုံးခုအဖြစ် ဂါနာနှင့် မာလီကို Feudal ဥရောပနှင့် Islamic Golden Age နှင့် ၎င်း၏ နောက်ဆုံး Report ပေါင်းစပ်ခဲ့ပြီး Real Documented Evidence က တစ်ခုစီကို ထောက်ခံထားသည်။ Source တစ်ခု ချန်ထားသည့်အရာကို သတိပြုမိခြင်းသည် ၎င်း ပါဝင်သည့်အရာကို အကဲဖြတ်ခြင်းလောက် အရေးကြီးသော သမိုင်းဆိုင်ရာ Skill တစ်ခု ဖြစ်ကြောင်း ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့ကာ ပြင်ဆင်ချက်ကို မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Kaung Sett notice about the older textbook's chapter?",
+            questionMy:
+                "Textbook ဟောင်း၏ Chapter အကြောင်း Kaung Sett သတိပြုမိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It covered feudal Europe and the Islamic Golden Age in detail but mentioned West Africa in only one sentence",
+              "It covered every region of the medieval world with exactly equal detail",
+              "It contained no information about feudal Europe of any kind whatsoever",
+              "It focused entirely on West Africa with no mention of Europe at all",
+            ],
+            optionsMy: [
+              "Feudal ဥရောပနှင့် Islamic Golden Age ကို အသေးစိတ် ဖုံးအုပ်ခဲ့သော်လည်း အနောက်အာဖရိကကို စာကြောင်းတစ်ကြောင်းတည်းတွင်သာ ဖော်ပြခဲ့ခြင်း",
+              "Medieval World ဒေသတိုင်းကို Detail အတိအကျ ညီညီအောင် ဖုံးအုပ်ခဲ့ခြင်း",
+              "Feudal ဥရောပအကြောင်း Information မည်သည်မှ လုံးဝ မပါခြင်း",
+              "ဥရောပအကြောင်း ဖော်ပြခြင်း လုံးဝ မပါဘဲ အနောက်အာဖရိကတွင်သာ လုံးလုံး Focus ပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's noticed detail."],
+            hintsMy: [
+              "သတိပြုမိခဲ့သော Detail ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Kaung Sett's research find about Ghana and Mali?",
+            questionMy:
+                "ဂါနာနှင့် မာလီအကြောင်း Kaung Sett ၏ Research ရှာဖွေတွေ့ရှိခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Extensive documented evidence of their trans-Saharan trade wealth and Timbuktu's scholarship",
+              "No documented evidence of any kind existed about either empire",
+              "Both empires had no actual connection to trade or scholarship whatsoever",
+              "The research found nothing worth including in his report",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ Trans-Saharan ကုန်သွယ်ရေး ချမ်းသာကြွယ်ဝမှုနှင့် Timbuktu ၏ Scholarship ၏ ကျယ်ပြန့်သော Documented Evidence",
+              "အင်ပါယာနှစ်ခုစလုံးအကြောင်း Documented Evidence မည်သည်မှ မရှိခြင်း",
+              "အင်ပါယာနှစ်ခုစလုံးတွင် ကုန်သွယ်ရေး (သို့) Scholarship နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+              "Report တွင် ထည့်သွင်းထိုက်သည့်အရာ Research က မရှာမတွေ့ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's research findings."],
+            hintsMy: [
+              "Research Finding များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say was just as important as evaluating what a source includes?",
+            questionMy:
+                "Source တစ်ခု ပါဝင်သည့်အရာကို အကဲဖြတ်ခြင်းလောက် အရေးကြီးသည်ဟု ဆရာမ ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Noticing what a source leaves out",
+              "Ignoring what a source includes entirely",
+              "Assuming every source is always fully complete",
+              "Avoiding any evaluation of sources altogether",
+            ],
+            optionsMy: [
+              "Source တစ်ခု ချန်ထားသည့်အရာကို သတိပြုမိခြင်း",
+              "Source တစ်ခု ပါဝင်သည့်အရာကို လုံးလုံး လျစ်လျူရှုခြင်း",
+              "Source တိုင်းသည် အမြဲ အပြည့်အစုံ ဖြစ်သည်ဟု ယူဆခြင်း",
+              "Source များ အကဲဖြတ်ခြင်းကို လုံးလုံး ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w21-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Medieval West Africa Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Medieval အနောက်အာဖရိက မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ghana and Mali's wealth was founded mainly on...",
+          questionMy:
+              "ဂါနာနှင့် မာလီ၏ ချမ်းသာကြွယ်ဝမှုသည် အနှစ်သာရအားဖြင့် ...အပေါ် အခြေခံခဲ့သည်",
+          optionsEn: [
+            "Controlling the trans-Saharan gold-salt trade",
+            "Local agriculture alone with no trade of any kind",
+            "Resources that were equally abundant everywhere",
+            "A trade network with no actual economic value",
+          ],
+          optionsMy: [
+            "Trans-Saharan ရွှေ-ဆား ကုန်သွယ်ရေးကို Control ပြုလုပ်ခြင်း",
+            "ကုန်သွယ်ရေး မည်သည်မှ မပါဘဲ ဒေသတွင်း စိုက်ပျိုးရေးတစ်ခုတည်း",
+            "နေရာတိုင်းတွင် အညီအမျှ ပေါများသော Resource များ",
+            "Economic Value အမှန်တကယ် မရှိသော Trade Network တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Mansa Musa's pilgrimage is considered significant historical evidence because...",
+          questionMy:
+              "Mansa Musa ၏ ဘုရားဖူးခရီးကို Significant သမိုင်းဆိုင်ရာ Evidence တစ်ခုဟု သဘောထားရသည့် အကြောင်းရင်းမှာ ...",
+          optionsEn: [
+            "Contemporary accounts documented it in checkable detail",
+            "No documentation of it exists from any period",
+            "It is simply an interesting story with no evidence value",
+            "It has no connection to Mali's actual wealth",
+          ],
+          optionsMy: [
+            "ခေတ်ပြိုင် Account များက ၎င်းကို စစ်ဆေးနိုင်သော Detail ဖြင့် Document ပြုလုပ်ထားခဲ့ခြင်း",
+            "ကာလ မည်သည်မှ ၎င်းအကြောင်း Documentation မရှိခြင်း",
+            "Evidence Value မပါဘဲ စိတ်ဝင်စားဖွယ် ဇာတ်လမ်းတစ်ခု ရိုးရိုးသာ ဖြစ်ခြင်း",
+            "မာလီ၏ Actual ချမ်းသာကြွယ်ဝမှုနှင့် ချိတ်ဆက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A source that omits well-documented major civilizations...",
+          questionMy:
+              "ကောင်းစွာ Document ပြုလုပ်ထားသော Major Civilization များကို ချန်ထားသော Source တစ်ခုသည် ...",
+          optionsEn: [
+            "Creates an incomplete, misleading picture of history",
+            "Always provides the most accurate picture possible",
+            "Has no actual issue worth noticing at all",
+            "Should never be questioned or checked by anyone",
+          ],
+          optionsMy: [
+            "သမိုင်း၏ Incomplete, Misleading ပုံရိပ်တစ်ခု ဖန်တီးသည်",
+            "ဖြစ်နိုင်သမျှ အတိကျဆုံး ပုံရိပ်တစ်ခုကို အမြဲ ပေးအပ်သည်",
+            "သတိပြုထိုက်သည့် ပြဿနာ မည်သည်မှ အမှန်တကယ် မရှိသည်",
+            "မည်သူမျှ ဘယ်တော့မှ မေးခွန်း (သို့) စစ်ဆေးမှု မပြုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 6, Week 22: "Imperial China: The Tang
+// and Song Dynasties"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek22 = CourseWeekDef(
+  id: "course-sec1-hum-w22",
+  weekNumber: 22,
+  titleEn: "Imperial China: The Tang and Song Dynasties",
+  titleMy: "Imperial တရုတ် - Tang နှင့် Song မင်းဆက်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w22-d1",
+      dayNumber: 1,
+      titleEn: "The Examination System and Its Purpose",
+      titleMy: "Examination System နှင့် ၎င်း၏ ရည်ရွယ်ချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why was the imperial civil service examination system significant, beyond simply being a difficult academic test?",
+          questionMy:
+              "Imperial Civil Service Examination System သည် ခက်ခဲသော Academic Test တစ်ခု ရိုးရိုးအဖြစ်ထက် Significant ဖြစ်ခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "It created a path to government office based partly on merit and study rather than birth alone, allowing some social mobility within a hierarchical system",
+            "The examination system had no actual connection to how government officials were selected",
+            "Birth and family status were the only factors that ever determined government positions in imperial China",
+            "The examination system existed purely for entertainment with no genuine consequences",
+          ],
+          optionsMy: [
+            "၎င်းသည် မွေးရာပါ တစ်ခုတည်းအစား Merit နှင့် လေ့လာမှုပေါ် တစ်စိတ်တစ်ပိုင်း အခြေခံသော Government Office သို့ လမ်းကြောင်းတစ်ခု ဖန်တီးပေးကာ Hierarchical System တစ်ခုအတွင်း Social Mobility အချို့ ခွင့်ပြုခဲ့သည်",
+            "Examination System သည် Government Official များ မည်သို့ ရွေးချယ်ခံရသည်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "Imperial တရုတ်တွင် Government Position များကို မွေးရာပါနှင့် မိသားစု Status တစ်ခုတည်းက ဘယ်တော့မှ ဆုံးဖြတ်ခဲ့ခြင်း",
+            "Examination System သည် Genuine Consequence မပါဘဲ ဖျော်ဖြေရေးအတွက်သာ တည်ရှိခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same underlying-logic reasoning as Week 17's feudalism lesson -- a system's significance comes from understanding what real social function it served.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 17 ၏ Feudalism သင်ခန်းစာမှ Underlying-Logic Reasoning တူတူ ဖြစ်သည် -- System တစ်ခု၏ Significance သည် ၎င်း ဆောင်ရွက်ပေးသော Real Social Function ကို နားလည်ခြင်းမှ ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a claim like 'the examination system gave everyone in Tang and Song China an equal chance at government office' be treated with caution?",
+          questionMy:
+              "'Examination System သည် Tang နှင့် Song တရုတ်ရှိ လူတိုင်းအား Government Office အတွက် ညီမျှသော အခွင့်အလမ်း ပေးအပ်ခဲ့သည်' ကဲ့သို့ Claim တစ်ခုကို အဘယ်ကြောင့် သတိထား ကိုင်တွယ်သင့်ရသနည်း။",
+          optionsEn: [
+            "In practice, wealthier families could afford the years of education needed to prepare for the exams, meaning genuine equal opportunity was significantly limited despite the system's meritocratic ideal",
+            "The examination system provided completely equal opportunity to every single person with no exceptions",
+            "Wealth and family background had no actual connection to exam preparation or success",
+            "This claim requires no caution and should always be accepted exactly as stated",
+          ],
+          optionsMy: [
+            "လက်တွေ့တွင် ချမ်းသာသော မိသားစုများသာ Exam များအတွက် ပြင်ဆင်ရန် လိုအပ်သော နှစ်များစွာ ပညာရေးကို ကျခံနိုင်ခဲ့ပြီး System ၏ Meritocratic Ideal ရှိသော်လည်း Genuine Equal Opportunity သည် သိသိသာသာ ကန့်သတ်ထားခဲ့ကြောင်း ဆိုလိုသည်",
+            "Examination System သည် လူတစ်ဦးချင်းစီအား ခြွင်းချက်မရှိဘဲ လုံးလုံး ညီမျှသော Opportunity ပေးအပ်ခဲ့ခြင်း",
+            "ချမ်းသာကြွယ်ဝမှုနှင့် မိသားစု Background သည် Exam Preparation (သို့) Success နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "ဤ Claim သည် သတိထားမှု မလိုအပ်ဘဲ ဖော်ပြထားသည့်အတိုင်း အမြဲ လက်ခံသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same 'avoid oversimplifying a broad category' caution from Week 17's serf lesson -- 'equal opportunity' should be checked against practical, real-world limitations.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 17 ၏ Serf သင်ခန်းစာမှ 'ကျယ်ပြန့်သော Category တစ်ခုကို Oversimplify မလုပ်ရန်' သတိပေးချက် တူတူ ဖြစ်သည် -- 'ညီမျှသော Opportunity' ကို Practical, Real-World Limitation များနှင့် စစ်ဆေးသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should specific documented Song-dynasty innovations (such as movable-type printing or the widespread use of paper money) be cited by name rather than making a vague claim that 'China was very advanced'?",
+          questionMy:
+              "'တရုတ်သည် အလွန် ဖွံ့ဖြိုးတိုးတက်ခဲ့သည်' ဟု Vague Claim တစ်ခု ပြုလုပ်မည့်အစား တိကျသော Document ပြုလုပ်ထားသော Song-Dynasty Innovation များ (Movable-Type Printing (သို့) Paper Money ကျယ်ပြန့်စွာ အသုံးပြုခြင်းကဲ့သို့) ကို အမည်ဖြင့် အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Naming specific innovations with dates and evidence lets a reader verify and understand exactly what was achieved, matching the specificity habit built since Term 1 rather than an unverifiable general impression",
+            "Vague claims about being 'advanced' are always more historically informative than named innovations",
+            "Specific innovations like printing and paper money have no actual documented evidence behind them",
+            "Naming specific achievements has no value compared to a general impression",
+          ],
+          optionsMy: [
+            "ရက်စွဲနှင့် Evidence ပါသော Innovation တိကျများကို အမည်ဖော်ပြခြင်းသည် Unverifiable General Impression တစ်ခုအစား Term 1 မှစ၍ တည်ဆောက်ခဲ့သော Specificity Habit နှင့် ကိုက်ညီစွာ ဖတ်ရှုသူတစ်ဦးအား အတည်ပြု၍ အဘယ်အရာ အောင်မြင်ခဲ့သည်ကို အတိအကျ နားလည်စေသည်",
+            "'ဖွံ့ဖြိုးတိုးတက်' အကြောင်း Vague Claim များသည် အမည်ဖော်ထားသော Innovation များထက် သမိုင်းအရ အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Printing နှင့် Paper Money ကဲ့သို့ Specific Innovation များတွင် ၎င်းတို့နောက်ကွယ်ရှိ Documented Evidence မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "Specific Achievement များ အမည်ဖော်ခြင်းသည် General Impression တစ်ခုနှင့် နှိုင်းယှဉ်ပါက Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 18's documented-achievement habit applied to Tang/Song China -- name specific, verifiable innovations rather than a sweeping generalization.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Tang/Song တရုတ်ပေါ်တွင် အသုံးချထားသော Week 18 ၏ Documented-Achievement Habit ဖြစ်သည် -- Sweeping Generalization တစ်ခုအစား တိကျ၊ Verifiable Innovation များကို အမည်ဖော်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Imperial China Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Imperial တရုတ် Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w22-dm-1",
+          termEn: "Civil service examination",
+          termMy: "Civil Service Examination",
+          matchEn:
+              "A merit-based test system used to select government officials",
+          matchMy:
+              "Government Official များ ရွေးချယ်ရန် အသုံးပြုသော Merit-Based Test System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w22-dm-2",
+          termEn: "Movable-type printing",
+          termMy: "Movable-Type Printing",
+          matchEn:
+              "A Song-dynasty innovation using reusable characters to print text",
+          matchMy:
+              "Text ပုံနှိပ်ရန် ပြန်လည် အသုံးပြုနိုင်သော Character များ အသုံးပြုသော Song-Dynasty Innovation",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w22-dm-3",
+          termEn: "Paper money",
+          termMy: "Paper Money",
+          matchEn:
+              "Government-issued paper currency, documented as widely used in Song China",
+          matchMy:
+              "Song တရုတ်တွင် ကျယ်ပြန့်စွာ အသုံးပြုသည်ဟု Document ပြုလုပ်ထားသော Government-Issued Paper Currency",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w22-dm-4",
+          termEn: "Limited social mobility",
+          termMy: "Limited Social Mobility",
+          matchEn:
+              "The reality that wealth still shaped access to exam preparation despite the merit ideal",
+          matchMy:
+              "Merit Ideal ရှိသော်လည်း ချမ်းသာကြွယ်ဝမှုသည် Exam Preparation ရရှိနိုင်မှုကို ဆက်လက် ပုံဖော်ခဲ့ကြောင်း Reality",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Innovation or Vague Impression?",
+      titleMy: "စီစစ်ကြမည် - Specific Innovation (သို့) Vague Impression",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Innovation", "Vague Impression"],
+        bucketsMy: ["Specific Innovation", "Vague Impression"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w22-sort-1",
+            labelEn:
+                "Movable-type printing developed and documented during the Song dynasty",
+            labelMy:
+                "Song မင်းဆက်အတွင်း ဖွံ့ဖြိုးကာ Document ပြုလုပ်ထားသော Movable-Type Printing",
+            correctBucketEn: "Specific Innovation",
+            correctBucketMy: "Specific Innovation",
+          ),
+          SortingItem(
+            id: "sec1hum-w22-sort-2",
+            labelEn:
+                "China was just generally very advanced with no specific evidence given",
+            labelMy:
+                "Specific Evidence မပါဘဲ တရုတ်သည် ယေဘုယျအားဖြင့် အလွန် ဖွံ့ဖြိုးတိုးတက်ခဲ့သည်",
+            correctBucketEn: "Vague Impression",
+            correctBucketMy: "Vague Impression",
+          ),
+          SortingItem(
+            id: "sec1hum-w22-sort-3",
+            labelEn:
+                "Paper money documented as widely circulated during the Song dynasty",
+            labelMy:
+                "Song မင်းဆက်အတွင်း ကျယ်ပြန့်စွာ လည်ပတ်ခဲ့သည်ဟု Document ပြုလုပ်ထားသော Paper Money",
+            correctBucketEn: "Specific Innovation",
+            correctBucketMy: "Specific Innovation",
+          ),
+          SortingItem(
+            id: "sec1hum-w22-sort-4",
+            labelEn:
+                "Tang and Song China was simply 'ahead of its time' with no cited detail",
+            labelMy:
+                "Cited Detail မပါဘဲ Tang နှင့် Song တရုတ်သည် ရိုးရိုး 'ခေတ်ကို ကျော်လွန်' ခဲ့သည်",
+            correctBucketEn: "Vague Impression",
+            correctBucketMy: "Vague Impression",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Examination System Debate",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ Examination System Debate",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Examination System Debate",
+        titleMy: "Su Su ၏ Examination System Debate",
+        passageEn:
+            "For Week 22's project, Su Su was assigned to evaluate the claim that 'the Tang and Song civil service examination system gave everyone an equal chance at government office.'\n\nHer initial research found the system's genuinely meritocratic elements: exams were open to a wider range of candidates than birth-based systems in many other societies, and passing could elevate a family's status significantly. This part of the claim held up well against the evidence.\n\nHowever, when Su Su dug deeper into the exam's practical requirements, she found a complicating factor: years of dedicated study, tutors, and books were expensive, meaning wealthier families could prepare their sons far more thoroughly than poorer families could. Passing the exam required resources that were not equally available to everyone, regardless of natural talent.\n\nRather than declaring the original claim simply true or simply false, Su Su's revised conclusion held both parts together: the system was more open than a purely birth-based one, representing genuine social mobility compared to the alternative, while still falling well short of true equal opportunity in practice due to unequal access to preparation. Her teacher praised this balanced conclusion, noting it applied the same weighing-multiple-factors habit from Term 3's city-state debate to a genuinely two-sided historical claim.",
+        passageMy:
+            "Week 22 ၏ Project အတွက် 'Tang နှင့် Song Civil Service Examination System သည် လူတိုင်းအား Government Office အတွက် ညီမျှသော အခွင့်အလမ်း ပေးအပ်ခဲ့သည်' ဆိုသော Claim ကို အကဲဖြတ်ရန် Su Su အား တာဝန်ပေးခဲ့သည်။\n\n၎င်း၏ ကနဦး Research သည် System ၏ စစ်မှန်စွာ Meritocratic Element များကို ရှာဖွေတွေ့ရှိခဲ့သည် - Exam များသည် အခြား Society များစွာရှိ မွေးရာပါ-Based System များထက် ကျယ်ပြန့်သော Candidate များစွာအတွက် ဖွင့်ထားခဲ့ပြီး အောင်မြင်ခြင်းသည် မိသားစုတစ်ခု၏ Status ကို သိသိသာသာ မြှင့်တင်နိုင်ခဲ့သည်။ Claim ၏ ဤ အပိုင်းသည် Evidence နှင့် ကောင်းစွာ ရပ်တည်ခဲ့သည်။\n\nသို့သော် Exam ၏ Practical Requirement များထဲသို့ Su Su ပို၍ နက်ရှိုင်းစွာ တူးဆွသောအခါ ရှုပ်ထွေးစေသော Factor တစ်ခုကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - နှစ်များစွာ Dedicated Study, Tutor များနှင့် စာအုပ်များသည် ဈေးကြီးခဲ့ပြီး ချမ်းသာသော မိသားစုများသည် ဆင်းရဲသော မိသားစုများ ပြုလုပ်နိုင်သည်ထက် ၎င်းတို့၏ သားများကို များစွာ ပို၍ ပြည့်စုံစွာ ပြင်ဆင်နိုင်ခဲ့ကြောင်း ဆိုလိုသည်။ Exam အောင်မြင်ရန် Natural Talent မည်သို့ပင်ရှိစေ လူတိုင်း အညီအမျှ မရရှိနိုင်သော Resource များ လိုအပ်ခဲ့သည်။\n\nOriginal Claim ကို ရိုးရိုး မှန်ကန်သည် (သို့) ရိုးရိုး မှားယွင်းသည်ဟု ကြေညာမည့်အစား Su Su ၏ ပြင်ဆင်ထားသော ကောက်ချက်သည် နှစ်ပိုင်းစလုံးကို အတူတကွ ကိုင်ဆောင်ခဲ့သည် - System သည် Alternative နှင့် နှိုင်းယှဉ်ပါက စစ်မှန်သော Social Mobility ကို ကိုယ်စားပြုကာ Purely မွေးရာပါ-Based System တစ်ခုထက် ပို၍ ဖွင့်ထားခဲ့သော်လည်း Preparation ရရှိနိုင်မှု မညီမျှသောကြောင့် လက်တွေ့တွင် True Equal Opportunity ကို လုံလောက်စွာ မမီနိုင်ခဲ့ပါ။ Term 3 ၏ City-State Debate မှ Weighing-Multiple-Factors Habit တူတူကို စစ်မှန်စွာ Two-Sided သမိုင်းဆိုင်ရာ Claim တစ်ခုပေါ်တွင် အသုံးချသောကြောင့် ဤ ချိန်ညှိထားသော ကောက်ချက်ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what genuinely meritocratic element did Su Su's initial research find?",
+            questionMy:
+                "Su Su ၏ ကနဦး Research ရှာဖွေတွေ့ရှိခဲ့သော စစ်မှန်စွာ Meritocratic Element ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Exams were open to a wider range of candidates than birth-based systems elsewhere",
+              "The examination system had no meritocratic element of any kind whatsoever",
+              "Only wealthy families were legally permitted to take the exam",
+              "The exam system was identical to a purely birth-based system",
+            ],
+            optionsMy: [
+              "Exam များသည် အခြားနေရာရှိ မွေးရာပါ-Based System များထက် ကျယ်ပြန့်သော Candidate များစွာအတွက် ဖွင့်ထားခဲ့ခြင်း",
+              "Examination System တွင် Meritocratic Element မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+              "ချမ်းသာသော မိသားစုများသာ Exam ဖြေဆိုရန် ဥပဒေအရ ခွင့်ပြုခံရခြင်း",
+              "Exam System သည် Purely မွေးရာပါ-Based System တစ်ခုနှင့် အတိအကျ တူညီခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what complicating factor did Su Su find about exam preparation?",
+            questionMy:
+                "Exam Preparation အကြောင်း Su Su ရှာဖွေတွေ့ရှိခဲ့သော ရှုပ်ထွေးစေသော Factor ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Years of study, tutors, and books were expensive, favoring wealthier families",
+              "Exam preparation required no resources of any kind whatsoever",
+              "Every family, regardless of wealth, had exactly equal access to preparation",
+              "Poorer families always outperformed wealthier families on the exam",
+            ],
+            optionsMy: [
+              "နှစ်များစွာ Study, Tutor များနှင့် စာအုပ်များသည် ဈေးကြီးပြီး ချမ်းသာသော မိသားစုများကို ဦးစားပေးခဲ့ခြင်း",
+              "Exam Preparation သည် Resource မည်သည်မှ အမှန်တကယ် မလိုအပ်ခြင်း",
+              "ချမ်းသာကြွယ်ဝမှု မည်သို့ပင်ရှိစေ မိသားစုတိုင်းသည် Preparation သို့ Access အတိအကျ ညီမျှစွာ ရရှိခဲ့ခြင်း",
+              "ဆင်းရဲသော မိသားစုများသည် Exam တွင် ချမ်းသာသော မိသားစုများထက် အမြဲ ပို၍ ကောင်းစွာ လုပ်ဆောင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated complicating factor.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှုပ်ထွေးစေသော Factor ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did Su Su's revised conclusion handle the original claim?",
+            questionMy:
+                "Original Claim ကို Su Su ၏ ပြင်ဆင်ထားသော ကောက်ချက် မည်သို့ ကိုင်တွယ်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It held both the genuine openness and the practical limitation together, rather than declaring it simply true or false",
+              "It declared the claim simply and completely true with no qualification",
+              "It declared the claim simply and completely false with no qualification",
+              "It refused to reach any conclusion of any kind about the claim",
+            ],
+            optionsMy: [
+              "ရိုးရိုး မှန်ကန်သည် (သို့) မှားယွင်းသည်ဟု ကြေညာမည့်အစား Genuine Openness နှင့် Practical Limitation နှစ်ခုစလုံးကို အတူတကွ ကိုင်ဆောင်ခဲ့ခြင်း",
+              "Qualification မပါဘဲ Claim ကို ရိုးရိုးနှင့် လုံးလုံး မှန်ကန်သည်ဟု ကြေညာခဲ့ခြင်း",
+              "Qualification မပါဘဲ Claim ကို ရိုးရိုးနှင့် လုံးလုံး မှားယွင်းသည်ဟု ကြေညာခဲ့ခြင်း",
+              "Claim အကြောင်း ကောက်ချက် မည်သည်ကိုမျှ ချရန် ငြင်းဆန်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final paragraph's stated conclusion approach.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက် Approach ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w22-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Imperial China Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Imperial တရုတ် မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The civil service examination system was significant because it...",
+          questionMy:
+              "Civil Service Examination System သည် ...ကြောင့် Significant ဖြစ်ခဲ့သည်",
+          optionsEn: [
+            "Created some path to office based on merit rather than birth alone",
+            "Had no actual connection to how officials were chosen",
+            "Guaranteed equal outcomes for absolutely everyone",
+            "Was purely decorative with no genuine consequences",
+          ],
+          optionsMy: [
+            "မွေးရာပါ တစ်ခုတည်းအစား Merit အခြေခံသော Office သို့ လမ်းကြောင်းအချို့ ဖန်တီးပေးခဲ့ခြင်း",
+            "Official များ မည်သို့ ရွေးချယ်ခံရသည်နှင့် အမှန်တကယ် ချိတ်ဆက်မှု မရှိခြင်း",
+            "လူတိုင်းအတွက် ညီမျှသော ရလဒ်များကို အာမခံခဲ့ခြင်း",
+            "Genuine Consequence မပါဘဲ အလှဆင်ရုံသာ ဖြစ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The claim of 'equal opportunity' in the exam system should be qualified because...",
+          questionMy:
+              "Exam System ရှိ 'ညီမျှသော Opportunity' Claim ကို ...ကြောင့် Qualify ပြုလုပ်သင့်သည်",
+          optionsEn: [
+            "Wealth significantly shaped access to exam preparation",
+            "Every family had exactly equal resources for preparation",
+            "Wealth had no connection to exam success at all",
+            "The exam required no preparation of any kind",
+          ],
+          optionsMy: [
+            "ချမ်းသာကြွယ်ဝမှုသည် Exam Preparation ရရှိနိုင်မှုကို သိသိသာသာ ပုံဖော်ခဲ့ခြင်း",
+            "မိသားစုတိုင်းသည် Preparation အတွက် Resource အတိအကျ ညီမျှစွာ ရှိခဲ့ခြင်း",
+            "ချမ်းသာကြွယ်ဝမှုသည် Exam Success နှင့် ချိတ်ဆက်မှု လုံးဝ မရှိခြင်း",
+            "Exam သည် Preparation မည်သည်မှ မလိုအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Song-dynasty achievements should be cited...",
+          questionMy: "Song-Dynasty အောင်မြင်မှုများကို ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "By specific, named, documented innovation",
+            "As a vague general impression with no detail",
+            "Without any evidence of any kind at all",
+            "Only as unverifiable rumors",
+          ],
+          optionsMy: [
+            "Specific, Named, Documented Innovation အလိုက်",
+            "Detail မပါသော Vague General Impression အဖြစ်",
+            "Evidence မည်သည်မှ လုံးဝ မပါဘဲ",
+            "Unverifiable ကောလဟလများအဖြစ်သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 6, Week 23: "Southeast Asian
+// Kingdoms: Bagan and Angkor"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek23 = CourseWeekDef(
+  id: "course-sec1-hum-w23",
+  weekNumber: 23,
+  titleEn: "Southeast Asian Kingdoms: Bagan and Angkor",
+  titleMy: "အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများ - ပုဂံနှင့် အင်ကော",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w23-d1",
+      dayNumber: 1,
+      titleEn: "Bagan: Temples as Evidence",
+      titleMy: "ပုဂံ - Evidence အဖြစ် ဘုရားကျောင်းများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians treat the thousands of surviving temples at Bagan as valuable evidence about the kingdom, rather than simply admiring them as religious architecture?",
+          questionMy:
+              "Historian များသည် ပုဂံရှိ ကျန်ရှိနေသေးသော ဘုရားကျောင်းထောင်ပေါင်းများစွာကို ဘာသာရေးဆိုင်ရာ Architecture အဖြစ် ချီးကျူးရုံသက်သက်ထက် ဘုရင့်နိုင်ငံအကြောင်း တန်ဖိုးရှိသော Evidence အဖြစ် အဘယ်ကြောင့် သဘောထားကြသနည်း။",
+          optionsEn: [
+            "The scale, construction methods, and inscriptions found on the temples reveal the kingdom's wealth, organizational capacity, religious practices, and even some rulers' names and dates -- concrete evidence, not just aesthetic objects",
+            "The temples have no actual historical value beyond their appearance",
+            "Temples can never be used as evidence for anything about the society that built them",
+            "The temples at Bagan reveal absolutely nothing about the kingdom's organization or wealth",
+          ],
+          optionsMy: [
+            "ဘုရားကျောင်းများပေါ်တွင် တွေ့ရှိရသော Scale, တည်ဆောက်မှု နည်းလမ်းများနှင့် ကမ္ပည်းများသည် ဘုရင့်နိုင်ငံ၏ ချမ်းသာကြွယ်ဝမှု၊ Organizational Capacity, ဘာသာရေး ကျင့်စဉ်များနှင့် ဘုရင်အချို့၏ အမည်နှင့် ရက်စွဲများကိုပင် ဖော်ထုတ်ပေးသည် -- Aesthetic Object များသက်သက် မဟုတ်ဘဲ Concrete Evidence ဖြစ်သည်",
+            "ဘုရားကျောင်းများတွင် ၎င်းတို့၏ Appearance ကျော်လွန်၍ သမိုင်းဆိုင်ရာ Value အမှန်တကယ် မရှိခြင်း",
+            "ဘုရားကျောင်းများကို ၎င်းတို့ တည်ဆောက်ခဲ့သော Society အကြောင်း မည်သည့်အရာအတွက်မျှ Evidence အဖြစ် ဘယ်တော့မှ အသုံးမပြုနိုင်ခြင်း",
+            "ပုဂံရှိ ဘုရားကျောင်းများသည် ဘုရင့်နိုင်ငံ၏ Organization (သို့) ချမ်းသာကြွယ်ဝမှုအကြောင်း လုံးဝ ဘာမှ မဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same physical-evidence reasoning as Week 7's Indus Valley lesson and Term 6's own pyramid lesson -- physical remains reveal organizational capacity even beyond written text.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 7 ၏ Indus Valley သင်ခန်းစာနှင့် Term 6 ကိုယ်တိုင်၏ Pyramid သင်ခန်းစာမှ Physical-Evidence Reasoning တူတူ ဖြစ်သည် -- Physical Remains များသည် ရေးသား Text ကျော်လွန်၍ Organizational Capacity ကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a historian dating a specific Bagan temple cite the actual inscriptional or archaeological evidence for that date, rather than assuming all Bagan temples were built in exactly the same short period?",
+          questionMy:
+              "ပုဂံ ဘုရားကျောင်း တိကျတစ်ခုကို ရက်စွဲသတ်မှတ်သော Historian တစ်ဦးသည် ပုဂံ ဘုရားကျောင်းအားလုံးကို ကာလတိုတိုတစ်ခုတည်းတွင် တည်ဆောက်ခဲ့သည်ဟု ယူဆမည့်အစား ထို ရက်စွဲအတွက် Actual Inscriptional (သို့) Archaeological Evidence ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Bagan's temples were actually built across several centuries by many different rulers, so citing evidence for each specific structure avoids collapsing a long, varied building history into one flattened moment",
+            "All Bagan temples were built in exactly the same year with no variation across centuries",
+            "Dating evidence has no actual value when discussing Bagan's temples",
+            "Every Bagan temple has identical construction dates with no historical variation of any kind",
+          ],
+          optionsMy: [
+            "ပုဂံ ဘုရားကျောင်းများကို ဘုရင် ကွဲပြားစွာများစွာက ရာစုနှစ်များစွာတစ်လျှောက် အမှန်တကယ် တည်ဆောက်ခဲ့ကြောင်း Structure တိကျစီအတွက် Evidence ကိုးကားခြင်းသည် ရှည်လျား၊ ကွဲပြားသော Building History တစ်ခုကို ခဏတစ်ခု ညှစ်ချရာမှ ရှောင်ရှားသည်",
+            "ပုဂံ ဘုရားကျောင်း အားလုံးကို ရာစုနှစ်များစွာတစ်လျှောက် Variation မရှိဘဲ နှစ်တူတူတွင် တည်ဆောက်ခဲ့ခြင်း",
+            "ပုဂံ ဘုရားကျောင်းများ ဆွေးနွေးရာတွင် Dating Evidence တွင် အမှန်တကယ် Value မရှိခြင်း",
+            "ပုဂံ ဘုရားကျောင်းတိုင်းသည် သမိုင်းဆိုင်ရာ Variation မည်သည်မှ မရှိဘဲ Construction Date အတိအကျ တူညီခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same flattening-a-diverse-period caution from Term 5's feudal Europe lesson, applied now to Bagan's centuries-long building history.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ပုဂံ၏ ရာစုနှစ်များစွာ ကြာမြင့်သော Building History ပေါ်တွင် ယခု အသုံးချထားသော Term 5 ၏ Feudal ဥရောပ သင်ခန်းစာမှ Flattening-A-Diverse-Period သတိပေးချက် တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it valuable to study Bagan alongside Angkor rather than only one or the other, given that both were major, wealthy Southeast Asian kingdoms in a similar historical period?",
+          questionMy:
+              "ပုဂံနှင့် အင်ကော နှစ်ခုစလုံးသည် ဆင်တူသော သမိုင်းကာလတွင် အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံ ကြီးမား၊ ချမ်းသာကြွယ်ဝသော ဖြစ်ခဲ့ကြောင်းကို ထောက်ရှု၍ တစ်ခုတည်းသာမက ပုဂံနှင့် အင်ကော အတူတကွ လေ့လာခြင်းသည် တန်ဖိုးရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Comparing two major regional kingdoms in a similar period reveals both shared regional patterns and genuine local differences, applying the same fair-comparison discipline built since Term 2's civilization comparisons",
+            "Studying two kingdoms together always makes the comparison less accurate than studying only one",
+            "Bagan and Angkor have no actual connection or comparability of any kind",
+            "Only one of these two kingdoms is historically significant enough to study",
+          ],
+          optionsMy: [
+            "ဆင်တူသော ကာလတွင် ဒေသဆိုင်ရာ ဘုရင့်နိုင်ငံ အဓိကနှစ်ခု နှိုင်းယှဉ်ခြင်းသည် Shared ဒေသဆိုင်ရာ Pattern များနှင့် Genuine Local Difference များ နှစ်ခုစလုံးကို ဖော်ထုတ်ကာ Term 2 ၏ Civilization Comparison များမှစ၍ တည်ဆောက်ခဲ့သော Fair-Comparison Discipline တူတူ အသုံးချသည်",
+            "ဘုရင့်နိုင်ငံနှစ်ခုကို အတူတကွ လေ့လာခြင်းသည် တစ်ခုတည်း လေ့လာခြင်းထက် Comparison ကို အမြဲ ပို၍ တိကျမှု နည်းစေခြင်း",
+            "ပုဂံနှင့် အင်ကောတွင် Connection (သို့) Comparability မည်သည်မှ အမှန်တကယ် မရှိခြင်း",
+            "ဤ ဘုရင့်နိုင်ငံနှစ်ခုထဲမှ တစ်ခုသာ လေ့လာရန် သမိုင်းအရ Significant လုံလောက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same fair-comparison discipline from Term 2's museum exhibit -- comparing two civilizations reveals patterns without flattening them into one identical story.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 2 ၏ ပြတိုက် Exhibit မှ Fair-Comparison Discipline တူတူ ဖြစ်သည် -- Civilization နှစ်ခု နှိုင်းယှဉ်ခြင်းသည် ၎င်းတို့ကို Identical Story တစ်ခုတည်းအဖြစ် မညှစ်ချဘဲ Pattern များကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Southeast Asian Kingdoms Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများ Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w23-dm-1",
+          termEn: "Bagan",
+          termMy: "ပုဂံ",
+          matchEn:
+              "A medieval kingdom in present-day Myanmar known for its thousands of temples",
+          matchMy:
+              "ယနေ့ မြန်မာနိုင်ငံရှိ ၎င်း၏ ဘုရားကျောင်းထောင်ပေါင်းများစွာအတွက် နာမည်ကြီးသော Medieval ဘုရင့်နိုင်ငံတစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w23-dm-2",
+          termEn: "Angkor",
+          termMy: "အင်ကော",
+          matchEn:
+              "A powerful Khmer kingdom in present-day Cambodia, known for its temple complexes",
+          matchMy:
+              "ယနေ့ ကမ္ဘောဒီးယားနိုင်ငံရှိ ၎င်း၏ ဘုရားကျောင်း Complex များအတွက် နာမည်ကြီးသော အားကောင်းသော Khmer ဘုရင့်နိုင်ငံတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w23-dm-3",
+          termEn: "Inscription",
+          termMy: "Inscription",
+          matchEn:
+              "Carved text on a temple or monument used as historical evidence",
+          matchMy:
+              "သမိုင်းဆိုင်ရာ Evidence အဖြစ် အသုံးပြုသော ဘုရားကျောင်း (သို့) Monument ပေါ်ရှိ ထွင်းထုထားသော Text",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w23-dm-4",
+          termEn: "Building period",
+          termMy: "Building Period",
+          matchEn:
+              "The span of time, often centuries, across which a kingdom's monuments were constructed",
+          matchMy:
+              "ဘုရင့်နိုင်ငံတစ်ခု၏ Monument များ တည်ဆောက်ခဲ့သော ရာစုနှစ်များစွာ ကြာမြင့်တတ်သော အချိန်ကာလ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bagan or Angkor?",
+      titleMy: "စီစစ်ကြမည် - ပုဂံ (သို့) အင်ကော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Bagan", "Angkor"],
+        bucketsMy: ["ပုဂံ", "အင်ကော"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w23-sort-1",
+            labelEn: "Located in present-day Myanmar along the Irrawaddy River",
+            labelMy: "ယနေ့ မြန်မာနိုင်ငံရှိ ဧရာဝတီမြစ်တစ်လျှောက် တည်ရှိသည်",
+            correctBucketEn: "Bagan",
+            correctBucketMy: "ပုဂံ",
+          ),
+          SortingItem(
+            id: "sec1hum-w23-sort-2",
+            labelEn:
+                "A major Khmer kingdom known for large temple complexes in present-day Cambodia",
+            labelMy:
+                "ယနေ့ ကမ္ဘောဒီးယားနိုင်ငံရှိ ဘုရားကျောင်း Complex ကြီးများအတွက် နာမည်ကြီးသော Khmer ဘုရင့်နိုင်ငံ အဓိကတစ်ခု",
+            correctBucketEn: "Angkor",
+            correctBucketMy: "အင်ကော",
+          ),
+          SortingItem(
+            id: "sec1hum-w23-sort-3",
+            labelEn:
+                "Known for thousands of Buddhist temples built across several centuries",
+            labelMy:
+                "ရာစုနှစ်များစွာတစ်လျှောက် တည်ဆောက်ခဲ့သော ဗုဒ္ဓဘာသာ ဘုရားကျောင်းထောင်ပေါင်းများစွာအတွက် နာမည်ကြီးခြင်း",
+            correctBucketEn: "Bagan",
+            correctBucketMy: "ပုဂံ",
+          ),
+          SortingItem(
+            id: "sec1hum-w23-sort-4",
+            labelEn:
+                "Home to a temple complex widely recognized as one of the largest religious monuments ever built",
+            labelMy:
+                "တည်ဆောက်ခဲ့ဖူးသော ဘာသာရေး Monument ကြီးမားဆုံး တစ်ခုအဖြစ် ကျယ်ပြန့်စွာ အသိအမှတ်ပြုခံရသော ဘုရားကျောင်း Complex တစ်ခု၏ နေအိမ်",
+            correctBucketEn: "Angkor",
+            correctBucketMy: "အင်ကော",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thiri's Temple Inscription Project",
+      titleMy: "စာဖတ်ခြင်း - Thiri ၏ ဘုရားကျောင်း Inscription Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thiri's Temple Inscription Project",
+        titleMy: "Thiri ၏ ဘုရားကျောင်း Inscription Project",
+        passageEn:
+            "For Week 23's project, Thiri chose to research Bagan, visiting a local museum exhibit about the kingdom before writing her report. She initially planned to write that 'all of Bagan's temples were built quickly during one golden age,' since that was the general impression she had grown up with.\n\nApplying Week 21's lesson on checking assumptions against evidence, she looked closely at dated inscriptions from several specific temples. The evidence told a more precise story: construction spanned roughly two and a half centuries, funded by kings, queens, and wealthy commoners alike, not one single burst of building by one ruler.\n\nThiri then compared Bagan to Angkor, which she had also researched, applying Term 2's fair-comparison habit rather than ranking one kingdom above the other. Both kingdoms demonstrated similar patterns -- large-scale religious monument building funded by significant accumulated wealth -- while also showing real differences in architectural style, materials, and religious tradition.\n\nHer teacher praised the revised report for two reasons: it replaced a comfortable but inaccurate general impression with specific, dated evidence, and it compared Bagan and Angkor fairly rather than declaring one kingdom superior. 'The temples themselves are proof of something,' her teacher said, 'but only once you read the specific evidence carefully, rather than assuming you already know the story.'",
+        passageMy:
+            "Week 23 ၏ Project အတွက် Thiri သည် ပုဂံကို Research ပြုလုပ်ရန် ရွေးချယ်ခဲ့ပြီး ၎င်း၏ Report ရေးသားမီ ဘုရင့်နိုင်ငံအကြောင်း Local Museum Exhibit တစ်ခုကို လည်ပတ်ခဲ့သည်။ ၎င်း ကြီးထွားခဲ့သော General Impression ဖြစ်ခဲ့သောကြောင့် 'ပုဂံ ဘုရားကျောင်းအားလုံးကို Golden Age တစ်ခုတည်းအတွင်း လျင်မြန်စွာ တည်ဆောက်ခဲ့သည်' ဟု ကနဦးတွင် ရေးသားရန် ၎င်း စီစဉ်ခဲ့သည်။\n\nEvidence နှင့် Assumption များ စစ်ဆေးခြင်းအကြောင်း Week 21 ၏ သင်ခန်းစာ အသုံးချကာ ဘုရားကျောင်းတိကျများစွာမှ ရက်စွဲပါ Inscription များကို ၎င်း ကပ်၍ ကြည့်ရှုခဲ့သည်။ Evidence က ပို၍ တိကျသော ဇာတ်လမ်းတစ်ခု ပြောပြခဲ့သည် - Construction သည် ဘုရင်တစ်ဦး၏ Building Burst တစ်ခုတည်း မဟုတ်ဘဲ ဘုရင်များ၊ မိဖုရားများနှင့် ချမ်းသာသော ရိုးရိုးလူထု တစ်ညီတစ်ညွတ်တည်း ရန်ပုံငွေထောက်ပံ့ကာ ရာစုနှစ် နှစ်ဝက်ကျော် ကျယ်ပြန့်စွာ ကျော်လွန်ခဲ့သည်။\n\nOne Kingdom ကို အခြားတစ်ခုထက် Rank ပေးမည့်အစား ၎င်းလည်း Research ပြုလုပ်ခဲ့သော Term 2 ၏ Fair-Comparison Habit အသုံးချကာ Thiri သည် ပုဂံကို အင်ကောနှင့် နှိုင်းယှဉ်ခဲ့သည်။ ဘုရင့်နိုင်ငံနှစ်ခုစလုံးသည် Pattern ဆင်တူ ပြသခဲ့သည် -- Significant စုဆောင်းထားသော ချမ်းသာကြွယ်ဝမှုက ရန်ပုံငွေထောက်ပံ့သော Large-Scale ဘာသာရေး Monument တည်ဆောက်ခြင်း -- ထို့အပြင် Architectural Style, Material များနှင့် ဘာသာရေး Tradition တွင် Real Difference များလည်း ပြသခဲ့သည်။\n\nအကြောင်းရင်းနှစ်ခုအတွက် ပြင်ဆင်ထားသော Report ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည် - သက်တောင့်သက်သာရှိသော်လည်း Inaccurate General Impression ကို တိကျ၊ ရက်စွဲပါ Evidence ဖြင့် အစားထိုးခဲ့ပြီး ဘုရင့်နိုင်ငံတစ်ခုကို Superior ဟု ကြေညာမည့်အစား ပုဂံနှင့် အင်ကောကို မျှတစွာ နှိုင်းယှဉ်ခဲ့သည်။ 'ဘုရားကျောင်းများ ကိုယ်တိုင်ကပင် တစ်ခုခု၏ Proof ဖြစ်သည်' ဟု ၎င်း၏ ဆရာမ ပြောခဲ့သည် '- သို့သော် ဇာတ်လမ်းကို သင် သိရှိပြီးသားဟု ယူဆမည့်အစား Specific Evidence ကို ဂရုတစိုက် ဖတ်ရှုပြီးမှသာ။'",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thiri's evidence check reveal about Bagan's temple construction?",
+            questionMy:
+                "ပုဂံ ဘုရားကျောင်း Construction အကြောင်း Thiri ၏ Evidence Check ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Construction spanned roughly two and a half centuries, funded by many different people",
+              "All temples were built in a single burst by one ruler in one short period",
+              "No actual evidence about construction dates could be found anywhere",
+              "Construction happened in exactly one year with no variation at all",
+            ],
+            optionsMy: [
+              "Construction သည် ရာစုနှစ် နှစ်ဝက်ကျော် ကျယ်ပြန့်စွာ ကျော်လွန်ခဲ့ပြီး လူများစွာက ရန်ပုံငွေထောက်ပံ့ခဲ့ခြင်း",
+              "ဘုရားကျောင်းအားလုံးကို ကာလတိုတိုတစ်ခုတွင် ဘုရင်တစ်ဦးက Building Burst တစ်ခုတည်းဖြင့် တည်ဆောက်ခဲ့ခြင်း",
+              "Construction Date များအကြောင်း Actual Evidence နေရာမည်သည်တွင်မျှ ရှာမတွေ့ခဲ့ခြင်း",
+              "Construction သည် Variation မရှိဘဲ နှစ်တစ်နှစ်တည်းတွင် ဖြစ်ပျက်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's revealed evidence."],
+            hintsMy: [
+              "ဖော်ထုတ်ခဲ့သော Evidence ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Thiri compare Bagan and Angkor?",
+            questionMy:
+                "ပုဂံနှင့် အင်ကောကို Thiri မည်သို့ နှိုင်းယှဉ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She showed shared patterns and real differences fairly, rather than ranking one kingdom above the other",
+              "She declared one kingdom completely superior with no comparison of any kind",
+              "She refused to compare the two kingdoms in any way whatsoever",
+              "She claimed the two kingdoms were in fact identical in every possible way",
+            ],
+            optionsMy: [
+              "One Kingdom ကို အခြားတစ်ခုထက် Rank ပေးမည့်အစား Shared Pattern များနှင့် Real Difference များကို မျှတစွာ ပြသခဲ့ခြင်း",
+              "Comparison မည်သည်မှ မပြုဘဲ ဘုရင့်နိုင်ငံတစ်ခုကို လုံးလုံး Superior ဟု ကြေညာခဲ့ခြင်း",
+              "ဘုရင့်နိုင်ငံနှစ်ခုကို နည်းလမ်း မည်သည်နှင့်မျှ နှိုင်းယှဉ်ရန် ငြင်းဆန်ခဲ့ခြင်း",
+              "ဘုရင့်နိုင်ငံနှစ်ခုသည် တကယ်တမ်း ဖြစ်နိုင်သမျှ နည်းလမ်းတိုင်းတွင် တူညီသည်ဟု Claim ပြုလုပ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's described comparison."],
+            hintsMy: [
+              "ဖော်ပြထားသော Comparison ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher say the temples were proof of, with what important qualification?",
+            questionMy:
+                "ဘုရားကျောင်းများသည် အဘယ်အရာ၏ Proof ဖြစ်ကြောင်း ဆရာမ ပြောခဲ့သည့်အရာကို မည်သည့် အရေးကြီးသော Qualification ဖြင့် နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Proof of something, but only once specific evidence is read carefully rather than assumed",
+              "Proof of nothing at all, regardless of how carefully they are studied",
+              "Proof that required no evidence checking of any kind whatsoever",
+              "Proof that confirmed the original assumption was completely correct",
+            ],
+            optionsMy: [
+              "တစ်ခုခု၏ Proof ဖြစ်သော်လည်း Assume ပြုလုပ်မည့်အစား Specific Evidence ကို ဂရုတစိုက် ဖတ်ရှုမှသာ",
+              "မည်မျှပင် ဂရုတစိုက် လေ့လာစေ Proof မည်သည်မှ လုံးဝ မဟုတ်ခြင်း",
+              "Evidence Checking မည်သည်မှ အမှန်တကယ် မလိုအပ်သော Proof",
+              "Original Assumption လုံးလုံး မှန်ကန်ကြောင်း အတည်ပြုသော Proof",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated qualification."],
+            hintsMy: [
+              "ဖော်ပြထားသော Qualification ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w23-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Southeast Asian Kingdoms Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများ မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Bagan's temples are treated as valuable evidence because they reveal...",
+          questionMy:
+              "ပုဂံ ဘုရားကျောင်းများကို တန်ဖိုးရှိသော Evidence အဖြစ် သဘောထားရသည့် အကြောင်းရင်းမှာ ...ကို ဖော်ထုတ်ပေးသောကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "The kingdom's wealth, organization, and religious practices",
+            "Nothing meaningful about the kingdom whatsoever",
+            "Only their visual appearance with no other information",
+            "Facts entirely unrelated to Bagan's actual history",
+          ],
+          optionsMy: [
+            "ဘုရင့်နိုင်ငံ၏ ချမ်းသာကြွယ်ဝမှု, Organization နှင့် ဘာသာရေး ကျင့်စဉ်များ",
+            "ဘုရင့်နိုင်ငံအကြောင်း အဓိပ္ပာယ်ရှိသည့်အရာ လုံးဝ ဘာမှ",
+            "အခြား Information မပါဘဲ ၎င်းတို့၏ Visual Appearance သာ",
+            "ပုဂံ၏ Actual သမိုင်းနှင့် လုံးလုံး မသက်ဆိုင်သော Fact များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Bagan's temples were actually built...",
+          questionMy: "ပုဂံ ဘုရားကျောင်းများကို အမှန်တကယ် ...တည်ဆောက်ခဲ့သည်",
+          optionsEn: [
+            "Across several centuries by many different people",
+            "All in a single short burst by one ruler",
+            "With no dating evidence available at all",
+            "By a kingdom entirely unrelated to Myanmar",
+          ],
+          optionsMy: [
+            "ရာစုနှစ်များစွာတစ်လျှောက် လူများစွာက",
+            "ဘုရင်တစ်ဦးက ကာလတိုတိုတစ်ခုတွင် အားလုံး",
+            "Dating Evidence မရရှိနိုင်ဘဲ",
+            "မြန်မာနိုင်ငံနှင့် လုံးလုံး မသက်ဆိုင်သော ဘုရင့်နိုင်ငံတစ်ခုက",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Comparing Bagan and Angkor fairly means...",
+          questionMy:
+              "ပုဂံနှင့် အင်ကောကို မျှတစွာ နှိုင်းယှဉ်ခြင်း ဆိုသည်မှာ ...ဆိုလိုသည်",
+          optionsEn: [
+            "Showing both shared patterns and genuine differences",
+            "Declaring one kingdom simply superior to the other",
+            "Refusing to compare them in any way whatsoever",
+            "Assuming they had identical architecture and traditions",
+          ],
+          optionsMy: [
+            "Shared Pattern များနှင့် Genuine Difference များ နှစ်ခုစလုံးကို ပြသခြင်း",
+            "ဘုရင့်နိုင်ငံတစ်ခုကို အခြားတစ်ခုထက် ရိုးရိုး Superior ဟု ကြေညာခြင်း",
+            "နည်းလမ်း မည်သည်နှင့်မျှ ၎င်းတို့ကို နှိုင်းယှဉ်ရန် ငြင်းဆန်ခြင်း",
+            "Architecture နှင့် Tradition အတိအကျ တူညီသည်ဟု ယူဆခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 6, Week 24 (Capstone/Boss Week):
+// "Kingdom Comparison Report Studio"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek24 = CourseWeekDef(
+  id: "course-sec1-hum-w24",
+  weekNumber: 24,
+  titleEn: "Kingdom Comparison Report Studio",
+  titleMy: "Kingdom Comparison Report Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w24-d1",
+      dayNumber: 1,
+      titleEn: "Writing a Fair, Evidenced Comparison",
+      titleMy: "မျှတ၊ Evidenced Comparison တစ်ခု ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a comparison report of two Term 6 kingdoms (from Ghana/Mali, Tang/Song China, and Bagan/Angkor) cite specific documented evidence for each point of comparison, rather than a general impression of which seemed more impressive?",
+          questionMy:
+              "Term 6 ဘုရင့်နိုင်ငံနှစ်ခု (ဂါနာ/မာလီ, Tang/Song တရုတ်နှင့် ပုဂံ/အင်ကောမှ) ၏ Comparison Report တစ်ခုသည် မည်သည်က ပို၍ ထင်ရှားပုံရသည်ဆိုသော General Impression တစ်ခုအစား Comparison Point တစ်ခုစီအတွက် Specific Documented Evidence ကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "This applies the specificity and fair-comparison habits built across the whole term -- citing evidence for each point keeps the comparison checkable rather than a subjective, unsupported impression",
+            "General impressions are always more historically valuable than cited evidence",
+            "Citing specific evidence has no actual value in a comparison report",
+            "A comparison report should never actually cite any specific evidence at all",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Term တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specificity နှင့် Fair-Comparison Habit များကို အသုံးချသည် -- Point တစ်ခုစီအတွက် Evidence ကိုးကားခြင်းသည် Comparison ကို Subjective, ထောက်ခံမှု မရှိသော Impression တစ်ခုအစား စစ်ဆေးနိုင်စေသည်",
+            "General Impression များသည် Cited Evidence ထက် သမိုင်းအရ အမြဲ ပို၍ Value ရှိခြင်း",
+            "Specific Evidence ကိုးကားခြင်းသည် Comparison Report တစ်ခုတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "Comparison Report တစ်ခုသည် Specific Evidence မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မကိုးကားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This synthesizes every lesson from Weeks 21-23 -- specific, cited, documented evidence has been the standard for every claim throughout this term.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21-23 မှ သင်ခန်းစာတိုင်းကို ပေါင်းစပ်သည် -- Specific, Cited, Documented Evidence သည် Term တစ်ခုလုံးတစ်လျှောက် Claim တိုင်းအတွက် Standard ဖြစ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the report explicitly note any gaps or unresolved questions in the historical record for each kingdom studied, rather than presenting every fact with equal, complete confidence?",
+          questionMy:
+              "Report သည် Fact တိုင်းကို ညီညီ၊ Complete Confidence ဖြင့် တင်ပြမည့်အစား လေ့လာထားသော ဘုရင့်နိုင်ငံတစ်ခုစီအတွက် သမိုင်းဆိုင်ရာ Record ရှိ Gap များ (သို့) မဖြေရှင်းသေးသော မေးခွန်းများကို အဘယ်ကြောင့် ရှင်းလင်းစွာ မှတ်သားသင့်ရသနည်း။",
+          optionsEn: [
+            "Honestly acknowledging gaps and uncertainty, as practiced since Term 2's museum exhibit, is more historically accurate than implying every detail is fully known and settled",
+            "Every historical record about these kingdoms is completely free of any gaps or uncertainty",
+            "Acknowledging gaps in the record has no actual value in a historical report",
+            "A report should always claim complete certainty regardless of the actual state of evidence",
+          ],
+          optionsMy: [
+            "Term 2 ၏ ပြတိုက် Exhibit မှစ၍ ကျင့်သုံးခဲ့သကဲ့သို့ Gap များနှင့် Uncertainty ကို ရိုးသားစွာ အသိအမှတ်ပြုခြင်းသည် Detail တိုင်း အပြည့်အစုံ သိရှိ၊ ဖြေရှင်းပြီးဟု ညွှန်ပြခြင်းထက် သမိုင်းအရ ပို၍ တိကျသည်",
+            "ဤ ဘုရင့်နိုင်ငံများအကြောင်း သမိုင်းဆိုင်ရာ Record တိုင်းသည် Gap (သို့) Uncertainty မည်သည်မှ လုံးလုံး ကင်းစင်ခြင်း",
+            "Record ရှိ Gap များ အသိအမှတ်ပြုခြင်းသည် သမိုင်းဆိုင်ရာ Report တစ်ခုတွင် အမှန်တကယ် Value မရှိခြင်း",
+            "Actual Evidence Status မည်သို့ပင်ရှိစေ Report တစ်ခုသည် Complete Certainty ကို အမြဲ Claim ပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the honest-uncertainty principle from Term 2, applied now to the capstone comparing three medieval kingdoms outside Europe.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဥရောပ ပြင်ပရှိ Medieval ဘုရင့်နိုင်ငံ သုံးခု နှိုင်းယှဉ်သော Capstone ပေါ်တွင် ယခု အသုံးချထားသော Term 2 ၏ Honest-Uncertainty Principle ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does comparing kingdoms across three different world regions (West Africa, East Asia, and Southeast Asia) in one report matter, beyond simply covering more content?",
+          questionMy:
+              "ကမ္ဘာ့ ဒေသကွဲပြားသုံးခု (အနောက်အာဖရိက, အရှေ့အာရှနှင့် အရှေ့တောင်အာရှ) ရှိ ဘုရင့်နိုင်ငံများကို Report တစ်ခုတည်းတွင် နှိုင်းယှဉ်ခြင်းသည် Content ပို၍ ဖုံးအုပ်ရုံသက်သက်ကျော်လွန်၍ အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "It demonstrates that major, wealthy, sophisticated civilizations developed independently across many world regions, directly countering any narrow assumption that significant medieval history happened only in Europe or one region",
+            "Comparing kingdoms across different regions has no actual educational value",
+            "Only European medieval history is genuinely significant enough to study seriously",
+            "Covering more regions always makes a report less focused and less valuable",
+          ],
+          optionsMy: [
+            "Significant Medieval History သည် ဥရောပ (သို့) ဒေသတစ်ခုတည်းတွင်သာ ဖြစ်ပျက်ခဲ့သည်ဟု ကျဉ်းမြောင်းသော Assumption မည်သည်ကိုမဆို တိုက်ရိုက် ဆန့်ကျင်၍ Major, ချမ်းသာကြွယ်ဝ၊ Sophisticated Civilization များသည် ကမ္ဘာ့ ဒေသများစွာတစ်လျှောက် Independently ဖွံ့ဖြိုးခဲ့ကြောင်း သရုပ်ပြသည်",
+            "ကွဲပြားသော ဒေသများတစ်လျှောက် ဘုရင့်နိုင်ငံများ နှိုင်းယှဉ်ခြင်းတွင် Educational Value အမှန်တကယ် မရှိခြင်း",
+            "ဥရောပ Medieval သမိုင်းတစ်ခုတည်းသာ ဂရုတစိုက် လေ့လာရန် Significant လုံလောက်ခြင်း",
+            "ဒေသ ပို၍ ဖုံးအုပ်ခြင်းသည် Report ကို Focus နည်း၊ Value နည်းစေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This ties directly back to Week 21's caution about textbooks that omit West African empires -- deliberately covering multiple regions counters that same narrow gap.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား အနောက်အာဖရိက အင်ပါယာများကို ချန်ထားသော Textbook များအကြောင်း Week 21 ၏ သတိပေးချက်သို့ တိုက်ရိုက် ချိတ်ဆက်ပေးသည် -- ဒေသများစွာကို တမင်တကာ ဖုံးအုပ်ခြင်းသည် ထို ကျဉ်းမြောင်းသော Gap တူတူကို တိုက်ရိုက် ရင်ဆိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Kingdoms Overview",
+      titleMy: "တွဲစပ်ကြမည် - Term 6 ဘုရင့်နိုင်ငံများ ခြုံငုံသုံးသပ်ချက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w24-dm-1",
+          termEn: "Mali",
+          termMy: "မာလီ",
+          matchEn:
+              "West African empire whose wealth was documented through Mansa Musa's pilgrimage",
+          matchMy:
+              "Mansa Musa ၏ ဘုရားဖူးခရီးမှတစ်ဆင့် ချမ်းသာကြွယ်ဝမှု Document ပြုလုပ်ထားသော အနောက်အာဖရိက အင်ပါယာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w24-dm-2",
+          termEn: "Song China",
+          termMy: "Song တရုတ်",
+          matchEn:
+              "Chinese dynasty documented for movable-type printing and paper money",
+          matchMy:
+              "Movable-Type Printing နှင့် Paper Money အတွက် Document ပြုလုပ်ထားသော တရုတ် မင်းဆက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w24-dm-3",
+          termEn: "Bagan",
+          termMy: "ပုဂံ",
+          matchEn:
+              "Kingdom in present-day Myanmar documented through thousands of dated temples",
+          matchMy:
+              "ရက်စွဲပါသော ဘုရားကျောင်းထောင်ပေါင်းများစွာမှတစ်ဆင့် Document ပြုလုပ်ထားသော ယနေ့ မြန်မာနိုင်ငံရှိ ဘုရင့်နိုင်ငံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w24-dm-4",
+          termEn: "Global significance",
+          termMy: "Global Significance",
+          matchEn:
+              "The fact that major, wealthy civilizations developed independently across many world regions",
+          matchMy:
+              "Major, ချမ်းသာကြွယ်ဝသော Civilization များသည် ကမ္ဘာ့ ဒေသများစွာတစ်လျှောက် Independently ဖွံ့ဖြိုးခဲ့ကြောင်း အချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong Comparison Practice or Weak?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော Comparison Practice (သို့) အားနည်းသော",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Comparison Practice", "Weak Comparison Practice"],
+        bucketsMy: [
+          "ခိုင်မာသော Comparison Practice",
+          "အားနည်းသော Comparison Practice",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w24-sort-1",
+            labelEn:
+                "Citing dated inscriptions when comparing Bagan and Mali's wealth",
+            labelMy:
+                "ပုဂံနှင့် မာလီ၏ ချမ်းသာကြွယ်ဝမှု နှိုင်းယှဉ်သောအခါ ရက်စွဲပါ Inscription များ ကိုးကားခြင်း",
+            correctBucketEn: "Strong Comparison Practice",
+            correctBucketMy: "ခိုင်မာသော Comparison Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w24-sort-2",
+            labelEn:
+                "Declaring one kingdom simply 'the best' with no stated criteria or evidence",
+            labelMy:
+                "Stated Criteria (သို့) Evidence မပါဘဲ ဘုရင့်နိုင်ငံတစ်ခုကို ရိုးရိုး 'အကောင်းဆုံး' ဟု ကြေညာခြင်း",
+            correctBucketEn: "Weak Comparison Practice",
+            correctBucketMy: "အားနည်းသော Comparison Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w24-sort-3",
+            labelEn:
+                "Noting which specific details about a kingdom remain uncertain or debated",
+            labelMy:
+                "ဘုရင့်နိုင်ငံတစ်ခုအကြောင်း Detail တိကျမည်သည်များ မသေချာသေးသည် (သို့) ငြင်းခုံနေဆဲ ဖြစ်သည်ကို မှတ်သားခြင်း",
+            correctBucketEn: "Strong Comparison Practice",
+            correctBucketMy: "ခိုင်မာသော Comparison Practice",
+          ),
+          SortingItem(
+            id: "sec1hum-w24-sort-4",
+            labelEn:
+                "Presenting every fact about all three kingdoms with equal, unqualified confidence",
+            labelMy:
+                "ဘုရင့်နိုင်ငံသုံးခုစလုံးအကြောင်း Fact တိုင်းကို ညီညီ၊ Unqualified Confidence ဖြင့် တင်ပြခြင်း",
+            correctBucketEn: "Weak Comparison Practice",
+            correctBucketMy: "အားနည်းသော Comparison Practice",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Class Three-Kingdom Report",
+      titleMy: "စာဖတ်ခြင်း - အတန်း Three-Kingdom Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Class Three-Kingdom Report",
+        titleMy: "အတန်း Three-Kingdom Report",
+        passageEn:
+            "For Term 6's capstone, the class produced a combined report comparing Mali, Song China, and Bagan, with each group researching one kingdom and then working together to write the comparative sections.\n\nEvery kingdom's section followed the same evidence standard established across the term: Mali's wealth was supported by contemporary accounts of Mansa Musa's pilgrimage, Song China's innovations were supported by dated records of printing and paper money, and Bagan's building history was supported by dated temple inscriptions -- specific, documented evidence for every major claim, matching Week 21 through 23's standard.\n\nWhen the groups wrote the comparative section, they found genuine shared patterns: all three kingdoms built major monuments or achieved significant innovations funded by real accumulated wealth, and all three left substantial physical or documentary evidence still studied today. They also honestly noted real differences and real gaps: Bagan's exact population at its height remains debated among historians, while Song China's exact printing output numbers are better documented.\n\nThe finished report closed with a reflection connecting back to Week 21's textbook lesson: a history of 'the medieval world' that only covered Europe would have missed three of the era's most significant, wealthy, and well-documented civilizations entirely. Their teacher called the report a genuine capstone of the term -- specific evidence, honest uncertainty, and a fair comparison across three regions too often left out of a narrower medieval history.",
+        passageMy:
+            "Term 6 ၏ Capstone အတွက် Group တစ်ခုစီသည် ဘုရင့်နိုင်ငံတစ်ခုစီ Research ပြုလုပ်ပြီး Comparative Section များ ရေးသားရန် အတူတကွ လုပ်ဆောင်ကာ မာလီ, Song တရုတ်နှင့် ပုဂံကို နှိုင်းယှဉ်သော Combined Report တစ်ခုကို အတန်းသည် ထုတ်လုပ်ခဲ့သည်။\n\nဘုရင့်နိုင်ငံတိုင်း၏ Section သည် Term တစ်ခုလုံးတစ်လျှောက် တည်ထောင်ခဲ့သော Evidence Standard တူတူကို လိုက်နာခဲ့သည် - Mansa Musa ၏ ဘုရားဖူးခရီး ခေတ်ပြိုင် Account များက မာလီ၏ ချမ်းသာကြွယ်ဝမှုကို ထောက်ခံခဲ့ပြီး Printing နှင့် Paper Money ၏ ရက်စွဲပါ Record များက Song တရုတ်၏ Innovation များကို ထောက်ခံခဲ့ကာ ရက်စွဲပါ ဘုရားကျောင်း Inscription များက ပုဂံ၏ Building History ကို ထောက်ခံခဲ့သည် -- Major Claim တိုင်းအတွက် Specific, Documented Evidence, Week 21 မှ 23 ၏ Standard နှင့် ကိုက်ညီသည်။\n\nComparative Section ကို Group များ ရေးသားသောအခါ Genuine Shared Pattern များကို ၎င်းတို့ ရှာဖွေတွေ့ရှိခဲ့သည် - ဘုရင့်နိုင်ငံသုံးခုစလုံးသည် Real စုဆောင်းထားသော ချမ်းသာကြွယ်ဝမှုက ရန်ပုံငွေထောက်ပံ့သော Major Monument များ တည်ဆောက် (သို့) Significant Innovation များ ရရှိခဲ့ပြီး သုံးခုစလုံးသည် ယနေ့တိုင် လေ့လာနေဆဲ Substantial Physical (သို့) Documentary Evidence ကျန်ရစ်ခဲ့သည်။ Real Difference များနှင့် Real Gap များကိုလည်း ၎င်းတို့ ရိုးသားစွာ မှတ်သားခဲ့သည် - ပုဂံ၏ Height တွင် Exact Population သည် Historian များကြား ဆက်လက် ငြင်းခုံနေဆဲ ဖြစ်ပြီး Song တရုတ်၏ Exact Printing Output ဂဏန်းများမူ ပို၍ ကောင်းစွာ Document ပြုလုပ်ထားသည်။\n\nWeek 21 ၏ Textbook သင်ခန်းစာသို့ ပြန်ချိတ်ဆက်ပေးသော Reflection ဖြင့် ပြီးစီးသွားသော Report ပြီးဆုံးခဲ့သည် - ဥရောပကိုသာ ဖုံးအုပ်ခဲ့သော 'Medieval World' သမိုင်းတစ်ခုသည် ကာလ၏ Significant, ချမ်းသာကြွယ်ဝ၊ ကောင်းစွာ Document ပြုလုပ်ထားသော Civilization သုံးခုကို လုံးလုံး လွတ်သွားစေမည် ဖြစ်သည်။ Specific Evidence, Honest Uncertainty နှင့် ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ဒေသသုံးခုတစ်လျှောက် Fair Comparison တစ်ခု -- Term ၏ Genuine Capstone တစ်ခု ဟု Report ကို ၎င်းတို့၏ ဆရာမ ခေါ်ဆိုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what evidence supported Mali's wealth claim?",
+            questionMy:
+                "မာလီ၏ ချမ်းသာကြွယ်ဝမှု Claim ကို ထောက်ခံခဲ့သော Evidence ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Contemporary accounts of Mansa Musa's pilgrimage",
+              "No evidence of any kind was cited for this claim",
+              "Only vague, unsupported impressions with no documentation",
+              "Evidence completely unrelated to Mali's history",
+            ],
+            optionsMy: [
+              "Mansa Musa ၏ ဘုရားဖူးခရီး ခေတ်ပြိုင် Account များ",
+              "ဤ Claim အတွက် Evidence မည်သည်မှ ကိုးကားခြင်း မရှိခြင်း",
+              "Documentation မပါသော Vague, ထောက်ခံမှု မရှိသော Impression များသာ",
+              "မာလီ၏ သမိုင်းနှင့် လုံးလုံး မသက်ဆိုင်သော Evidence",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's cited evidence."],
+            hintsMy: [
+              "ကိုးကားထားသော Evidence ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what real gap did the groups honestly note about Bagan?",
+            questionMy:
+                "ပုဂံအကြောင်း Group များ ရိုးသားစွာ မှတ်သားခဲ့သော Real Gap ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bagan's exact population at its height remains debated among historians",
+              "No gaps or uncertainties of any kind exist in Bagan's historical record",
+              "Bagan has no documented evidence of any kind whatsoever",
+              "The exact population of Bagan is perfectly and completely known",
+            ],
+            optionsMy: [
+              "ပုဂံ၏ Height တွင် Exact Population သည် Historian များကြား ဆက်လက် ငြင်းခုံနေဆဲ ဖြစ်ခြင်း",
+              "ပုဂံ၏ သမိုင်းဆိုင်ရာ Record တွင် Gap (သို့) Uncertainty မည်သည်မှ မရှိခြင်း",
+              "ပုဂံတွင် Documented Evidence မည်သည်မှ လုံးဝ မရှိခြင်း",
+              "ပုဂံ၏ Exact Population ကို ပြည့်စုံစွာ၊ လုံးလုံး သိရှိထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's noted gap."],
+            hintsMy: ["မှတ်သားထားသော Gap ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what would a Europe-only history of 'the medieval world' have missed?",
+            questionMy:
+                "'Medieval World' ၏ Europe-Only သမိုင်းတစ်ခု လွတ်သွားစေမည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Three of the era's most significant, wealthy, and well-documented civilizations",
+              "Nothing at all, since Europe covered the entire medieval world completely",
+              "Only unimportant, minor details with no real significance",
+              "Information that had no actual historical value in the first place",
+            ],
+            optionsMy: [
+              "ကာလ၏ Significant, ချမ်းသာကြွယ်ဝ၊ ကောင်းစွာ Document ပြုလုပ်ထားသော Civilization သုံးခု",
+              "ဥရောပသည် Medieval World တစ်ခုလုံးကို ပြည့်စုံစွာ ဖုံးအုပ်ခဲ့သောကြောင့် ဘယ်အရာမှ",
+              "Real Significance မရှိသော အရေးမကြီး၊ သေးငယ်သော Detail များသာ",
+              "ပထမဆုံးတွင် Actual သမိုင်းဆိုင်ရာ Value မရှိသော Information",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated missed content."],
+            hintsMy: [
+              "ဖော်ပြထားသော Missed Content ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: The Medieval World II Exam",
+      titleMy: "Term 6 Capstone - The Medieval World II စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A kingdom comparison report should cite...",
+          questionMy: "Kingdom Comparison Report တစ်ခုသည် ...ကိုးကားသင့်သည်",
+          optionsEn: [
+            "Specific documented evidence for each point of comparison",
+            "A general impression with no specific evidence",
+            "Nothing at all about the kingdoms compared",
+            "Only unverifiable rumors about each kingdom",
+          ],
+          optionsMy: [
+            "Comparison Point တစ်ခုစီအတွက် Specific Documented Evidence",
+            "Specific Evidence မပါသော General Impression",
+            "နှိုင်းယှဉ်ထားသော ဘုရင့်နိုင်ငံများအကြောင်း ဘာမှ",
+            "ဘုရင့်နိုင်ငံတစ်ခုစီအကြောင်း Unverifiable ကောလဟလများသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A responsible report should note...",
+          questionMy: "တာဝန်သိသော Report တစ်ခုသည် ...ကို မှတ်သားသင့်သည်",
+          optionsEn: [
+            "Gaps or unresolved questions in the historical record",
+            "That every historical detail is perfectly and completely known",
+            "Nothing about the limitations of the available evidence",
+            "Only facts that support one predetermined conclusion",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ Record ရှိ Gap များ (သို့) မဖြေရှင်းသေးသော မေးခွန်းများ",
+            "သမိုင်းဆိုင်ရာ Detail တိုင်းကို ပြည့်စုံစွာ၊ လုံးလုံး သိရှိထားကြောင်း",
+            "ရရှိနိုင်သော Evidence ၏ Limitation များအကြောင်း ဘာမှ",
+            "ကြိုတင် ဆုံးဖြတ်ထားသော ကောက်ချက်တစ်ခုကို ထောက်ခံသော Fact များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Studying kingdoms from West Africa, East Asia, and Southeast Asia together shows...",
+          questionMy:
+              "အနောက်အာဖရိက, အရှေ့အာရှနှင့် အရှေ့တောင်အာရှမှ ဘုရင့်နိုင်ငံများကို အတူတကွ လေ့လာခြင်းသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Major civilizations developed independently across many world regions",
+            "Only European history is worth serious study",
+            "No world region outside Europe had significant medieval history",
+            "Comparing regions has no actual educational value",
+          ],
+          optionsMy: [
+            "Major Civilization များသည် ကမ္ဘာ့ ဒေသများစွာတစ်လျှောက် Independently ဖွံ့ဖြိုးခဲ့ကြောင်း",
+            "ဥရောပ သမိုင်းတစ်ခုတည်းသာ ဂရုတစိုက် လေ့လာစရာ ထိုက်တန်ကြောင်း",
+            "ဥရောပ ပြင်ပရှိ ကမ္ဘာ့ ဒေသ မည်သည်မှ Significant Medieval History မရှိကြောင်း",
+            "ဒေသများ နှိုင်းယှဉ်ခြင်းတွင် Educational Value အမှန်တကယ် မရှိကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 6: "The Medieval World II" (Weeks
+// 21-24)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm6 = CourseTermDef(
+  id: "course-sec1-hum-t6",
+  termNumber: 6,
+  titleEn: "The Medieval World II",
+  titleMy: "The Medieval World II",
+  certificateTitleEn: "The Medieval World II",
+  certificateTitleMy: "The Medieval World II",
+  weeks: [_sec1HumWeek21, _sec1HumWeek22, _sec1HumWeek23, _sec1HumWeek24],
 );
 // __SEC_HUM_MARKER__
