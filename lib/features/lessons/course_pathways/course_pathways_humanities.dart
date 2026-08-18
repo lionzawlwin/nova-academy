@@ -129351,11 +129351,11 @@ const CoursePathwayDef secondary3HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes.",
+      "The Secondary 3 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 2's foundations into nationalism, imperialism, and decolonization, while advancing the geography strand into population geography, migration, development, and natural hazards -- closing the Secondary tier with an IGCSE-readiness capstone. Term 1, Nationalism and Unification, covers the documented definition of nationalism, two distinct documented unification movements (Italian and German) each with specific causes and methods, and a balanced account of nationalism's documented unifying effect alongside its capacity to fuel rivalry, deliberately priming later IGCSE content without fully covering it here, closing with a Unification Case Study combining documented causes, a documented method, and a balanced account. Term 2, Imperialism and the Scramble for Africa, covers multiple documented motives for European imperialism, critically evaluating the 'civilizing mission' as a self-serving justification rather than an accurate neutral motive, the specific documented events of the Scramble for Africa including the Berlin Conference and the absence of African representation, and a balanced account of imperial impact representing both documented harm and African resistance as historical agency, closing with an Imperialism Case Study combining critically evaluated motives, specific documented events, and a balanced impact account. Term 3, Tensions Before the Great War, deliberately primes IGCSE Humanities' fuller Great War causes unit without duplicating it: documents the Triple Alliance and Triple Entente as specific, distinct alliance systems, militarism and the documented Britain-Germany naval arms race as a reinforcing factor, and a balanced synthesis combining nationalist rivalry, imperial competition, alliances, and militarism while noting documented variation across nations and people, closing with a capstone studio piece that honestly represents itself as priming rather than fully covering the Great War's causes. Term 4, Decolonization and Independence Movements, documents decolonization's precise definition and accelerating documented timeframe as a continuation of Term 2's colonial resistance, distinct documented methods (nonviolent civil disobedience and armed struggle) represented with respected historical agency, and a balanced account of legacy combining documented achievement with documented challenges traced back to Term 2's Berlin Conference, closing with a Decolonization Case Study combining documented context, a specific method, and a balanced legacy account.",
   descriptionMy:
-      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 3 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2 ၏ Foundation များမှ Nationalism, Imperialism နှင့် Decolonization သို့ တိုက်ရိုက် ဆက်လက်ကာ Population Geography, Migration, Development နှင့် Natural Hazard များသို့ Geography Strand ကို တိုးတက်စေပြီး IGCSE-Readiness Capstone တစ်ခုဖြင့် Secondary Tier ကို ပြီးဆုံးစေသည်။ ပထမနှစ်ဝက်၊ Nationalism and Unification သည် Nationalism ၏ Documented Definition, Distinct Documented Unification Movement နှစ်ခု (Italian နှင့် German) တစ်ခုစီ Specific Cause များနှင့် Method များနှင့်အတူ, ဤနေရာတွင် အပြည့်အစုံ မဖုံးအုပ်ဘဲ IGCSE Content နောက်ပိုင်းကို တမင် Priming ပြုလုပ်ထားသော Nationalism ၏ Documented Unifying Effect နှင့် Rivalry ကို လောင်စာဖြည့်နိုင်သော ၎င်း၏ Capacity ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause များ, Documented Method တစ်ခုနှင့် Balanced Account ကို ပေါင်းစပ်ထားသော Unification Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Imperialism and the Scramble for Africa သည် European Imperialism အတွက် Documented Motive များစွာကို ဖုံးအုပ်ကာ 'Civilizing Mission' ကို Accurate Neutral Motive တစ်ခုမဟုတ်ဘဲ Self-Serving Justification တစ်ခုအဖြစ် Critically Evaluate ပြုလုပ်ပြီး Berlin Conference နှင့် African Representation မရှိခြင်းအပါအဝင် Scramble For Africa ၏ Specific Documented Event များနှင့် Documented Harm နှင့် Historical Agency အဖြစ် African Resistance နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Imperial Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Critically Evaluate ပြုလုပ်ထားသော Motive များ, Specific Documented Event များနှင့် Balanced Impact Account ကို ပေါင်းစပ်ထားသော Imperialism Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Tensions Before the Great War သည် IGCSE Humanities ၏ ပို၍ ပြည့်စုံသော Great War Cause Unit ကို Duplicate မပြုဘဲ တမင် Priming ပြုလုပ်သည် -- Triple Alliance နှင့် Triple Entente ကို Specific, Distinct Alliance System များအဖြစ်, Militarism နှင့် Reinforcing Factor တစ်ခုအဖြစ် Documented Britain-Germany Naval Arms Race ကို Document ပြုလုပ်ပြီး Nation များနှင့် လူများတစ်လျှောက် Documented Variation ကို မှတ်ချက်ပြုစဉ် Nationalist Rivalry, Imperial Competition, Alliance များနှင့် Militarism ကို ပေါင်းစပ်ထားသော Balanced Synthesis ကို ဖုံးအုပ်ပြီး Great War ၏ Cause များကို အပြည့်အစုံ ဖုံးအုပ်ခြင်းထက် Priming အဖြစ် ရိုးသားစွာ ကိုယ်စားပြုသော Capstone Studio Piece တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Decolonization and Independence Movements သည် Term 2 ၏ Colonial Resistance ၏ Continuation တစ်ခုအဖြစ် Decolonization ၏ Precise Definition နှင့် Accelerating Documented Timeframe, Respected Historical Agency ဖြင့် ကိုယ်စားပြုထားသော Distinct Documented Method များ (Nonviolent Civil Disobedience နှင့် Armed Struggle) နှင့် Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge များနှင့် Documented Achievement ကို ပေါင်းစပ်ထားသော Legacy ၏ Balanced Account ကို Document ပြုလုပ်ပြီး Documented Context, Specific Method တစ်ခုနှင့် Balanced Legacy Account ကို ပေါင်းစပ်ထားသော Decolonization Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec3HumTerm1, _sec3HumTerm2, _sec3HumTerm3],
+  terms: [_sec3HumTerm1, _sec3HumTerm2, _sec3HumTerm3, _sec3HumTerm4],
 );
 // =====================================================================
 // Secondary 3 Humanities -- Term 2: "Imperialism and the Scramble for
@@ -132249,5 +132249,1449 @@ const CourseTermDef _sec3HumTerm3 = CourseTermDef(
   certificateTitleEn: "Tensions Before the Great War Certificate",
   certificateTitleMy: "Tensions Before the Great War သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec3HumWeek9, _sec3HumWeek10, _sec3HumWeek11, _sec3HumWeek12],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 4: "Decolonization and Independence
+// Movements" (Weeks 13-16)
+// Term 4, Week 13: "What Is Decolonization? Documented Context"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek13 = CourseWeekDef(
+  id: "course-sec3-hum-w13",
+  weekNumber: 13,
+  titleEn: "What Is Decolonization? Documented Context",
+  titleMy: "Decolonization ဆိုသည်မှာ အဘယ်နည်း - Documented Context",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w13-d1",
+      dayNumber: 1,
+      titleEn: "Defining Decolonization with Documented Evidence",
+      titleMy:
+          "Documented Evidence ဖြင့် Decolonization အဓိပ္ပာယ်ဖွင့်ဆိုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document decolonization as the process by which colonized territories gained political independence from colonial powers, with the pace of this documented process accelerating significantly in the decades following the mid-twentieth century. Why cite this specific documented definition and timeframe rather than describing decolonization only as 'countries becoming free'?",
+          questionMy:
+              "Historian များသည် Decolonization ကို ကိုလိုနီဖြစ်ခဲ့ရသော Territory များ Colonial Power များထံမှ Political Independence ရရှိသည့် Process တစ်ခုအဖြစ် Document ပြုလုပ်ထားပြီး ဤ Documented Process ၏ Pace သည် ဆယ့်နှစ်ရာစု အလယ်ပိုင်း နောက်ပိုင်း ဆယ်စုနှစ်များအတွင်း သိသိသာသာ Accelerate ပြုလုပ်ခဲ့သည်။ Decolonization ကို 'Country များ လွတ်လပ်လာခြင်း' ဟုသာ ဖော်ပြမည့်အစား ဤ Specific Documented Definition နှင့် Timeframe ကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A specific, documented definition and timeframe allows precise historical analysis of this documented process, the same specific-over-vague habit taught throughout this course",
+            "Vague descriptions like 'countries becoming free' are always more historically accurate than specific documented definitions",
+            "Decolonization has no actual documented definition or timeframe of any kind",
+            "Specific documented definitions have no actual value in studying historical processes",
+          ],
+          optionsMy: [
+            "Specific, Documented Definition နှင့် Timeframe တစ်ခုသည် ဤ Documented Process ၏ Precise သမိုင်းဆိုင်ရာ Analysis ကို ခွင့်ပြုပြီး ဤ Course တစ်လျှောက်လုံး သင်ကြားခဲ့သော Specific-Over-Vague အလေ့အထ တူတူ ဖြစ်သည်",
+            "'Country များ လွတ်လပ်လာခြင်း' ကဲ့သို့ Vague ဖော်ပြချက်များသည် Specific Documented Definition များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Decolonization တွင် Documented Definition (သို့) Timeframe မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Specific Documented Definition များတွင် သမိုင်းဆိုင်ရာ Process များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence habit carried forward from every prior term of this course.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Course ၏ ယခင် Term တိုင်းမှ ဆက်လက် သယ်ဆောင်လာသော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does documented decolonization connect directly back to Term 2's documented colonial impact and resistance content, rather than being an entirely new, unconnected topic?",
+          questionMy:
+              "Documented Decolonization သည် လုံးလုံး အသစ်, Unconnected Topic တစ်ခု မဟုတ်ဘဲ Term 2 ၏ Documented Colonial Impact နှင့် Resistance Content သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Decolonization is documented as a continuation of the same African (and broader colonial) resistance studied in Term 2 -- resistance that eventually achieved documented political independence, following this course's cumulative approach",
+            "Decolonization has no actual documented connection to Term 2's colonial impact or resistance content",
+            "Term 2 and Term 4 are documented as completely unrelated to each other",
+            "Documented resistance movements never actually led to any documented independence",
+          ],
+          optionsMy: [
+            "Decolonization သည် Term 2 တွင် လေ့လာခဲ့သော Africa (နှင့် ပို၍ ကျယ်ပြန့်သော Colonial) Resistance တူတူ၏ Continuation တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည် -- နောက်ဆုံးတွင် Documented Political Independence ရရှိခဲ့သော Resistance, ဤ Course ၏ Cumulative Approach ကို လိုက်နာသည်",
+            "Decolonization တွင် Term 2 ၏ Colonial Impact (သို့) Resistance Content နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Term 2 နှင့် Term 4 တွင် တစ်ခုနှင့်တစ်ခု လုံးလုံး မသက်ဆိုင်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Documented Resistance Movement များသည် Documented Independence မည်သည်ကိုမျှ ဘယ်တော့မှ Actual ဖြစ်ပေါ်စေခဲ့ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's Week 7 -- documented African resistance as historical agency is directly connected to this term's independence movements.",
+          ],
+          hintsMy: [
+            "Term 2 ၏ Week 7 ကို သတိရပါ -- Historical Agency အဖြစ် Documented African Resistance သည် ဤ Term ၏ Independence Movement များနှင့် တိုက်ရိုက် ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students studying decolonization cite specific documented territories and approximate documented timeframes rather than describing this process only in vague, general terms?",
+          questionMy:
+              "Decolonization လေ့လာသော Student များသည် Process ကို Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Territory များနှင့် Approximate Documented Timeframe များကို အဘယ်ကြောင့် Cite ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented territories and timeframes shows precisely how this global historical process unfolded, the same specific-evidence habit taught since Term 1",
+            "Vague, general descriptions are always more accurate than specific documented territories and timeframes",
+            "Specific documented territories and timeframes have no actual value in studying decolonization",
+            "Decolonization should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Territory များနှင့် Timeframe များ Cite ပြုလုပ်ခြင်းသည် ဤ Global သမိုင်းဆိုင်ရာ Process မည်သို့ ဖြစ်ပွားခဲ့သည်ကို တိကျစွာ ပြသပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, General ဖော်ပြချက်များသည် Specific Documented Territory များနှင့် Timeframe များထက် အမြဲ ပို၍ တိကျသည်",
+            "Specific Documented Territory များနှင့် Timeframe များတွင် Decolonization လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Decolonization ကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Secondary 1's Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Decolonization Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Decolonization Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w13-dm-1",
+          termEn: "Decolonization",
+          termMy: "Decolonization",
+          matchEn:
+              "The documented process by which colonized territories gained political independence",
+          matchMy:
+              "ကိုလိုနီဖြစ်ခဲ့ရသော Territory များ Political Independence ရရှိသည့် Documented Process",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w13-dm-2",
+          termEn: "Accelerating pace",
+          termMy: "Accelerating Pace",
+          matchEn:
+              "A documented feature of decolonization: many independences occurred within a compressed timeframe",
+          matchMy:
+              "Decolonization ၏ Documented Feature တစ်ခု - Independence များစွာ Compressed Timeframe အတွင်း ဖြစ်ပျက်ခဲ့ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w13-dm-3",
+          termEn: "Continuation of resistance",
+          termMy: "Resistance ၏ Continuation",
+          matchEn:
+              "The documented connection between Term 2's colonial resistance and independence movements",
+          matchMy:
+              "Term 2 ၏ Colonial Resistance နှင့် Independence Movement များကြား Documented ဆက်နွယ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w13-dm-4",
+          termEn: "Specific documented territory",
+          termMy: "Specific Documented Territory",
+          matchEn:
+              "A named region rather than a vague, unspecified area, when studying independence",
+          matchMy:
+              "Independence လေ့လာသောအခါ Vague, Unspecified Area တစ်ခုအစား Named Region",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Specific Documented Fact or Vague Claim?",
+      titleMy: "စီစစ်ကြမည် - Specific Documented Fact (သို့) Vague Claim",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Specific Documented Fact", "Vague Claim"],
+        bucketsMy: ["Specific Documented Fact", "Vague Claim"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w13-sort-1",
+            labelEn:
+                "Decolonization's pace accelerated significantly after the mid-twentieth century",
+            labelMy:
+                "Decolonization ၏ Pace သည် ဆယ့်နှစ်ရာစု အလယ်ပိုင်း နောက်ပိုင်း သိသိသာသာ Accelerate ပြုလုပ်ခဲ့သည်",
+            correctBucketEn: "Specific Documented Fact",
+            correctBucketMy: "Specific Documented Fact",
+          ),
+          SortingItem(
+            id: "sec3hum-w13-sort-2",
+            labelEn: "Countries eventually became free at some point",
+            labelMy:
+                "Country များသည် တစ်ချိန်ချိန်တွင် နောက်ဆုံး လွတ်လပ်လာခဲ့သည်",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+          SortingItem(
+            id: "sec3hum-w13-sort-3",
+            labelEn:
+                "Decolonization is documented as continuing the resistance studied in Term 2",
+            labelMy:
+                "Decolonization ကို Term 2 တွင် လေ့လာခဲ့သော Resistance ဆက်လက်ခြင်းအဖြစ် Document ပြုလုပ်ထားသည်",
+            correctBucketEn: "Specific Documented Fact",
+            correctBucketMy: "Specific Documented Fact",
+          ),
+          SortingItem(
+            id: "sec3hum-w13-sort-4",
+            labelEn:
+                "Independence just happened everywhere around the same general time",
+            labelMy:
+                "Independence သည် ယေဘုယျအားဖြင့် အချိန်တူတူတွင် နေရာတိုင်း ဖြစ်ပျက်ခဲ့သည်",
+            correctBucketEn: "Vague Claim",
+            correctBucketMy: "Vague Claim",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myint's Decolonization Timeline",
+      titleMy: "စာဖတ်ခြင်း - Aung Myint ၏ Decolonization Timeline",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myint's Decolonization Timeline",
+        titleMy: "Aung Myint ၏ Decolonization Timeline",
+        passageEn:
+            "For Week 13's assignment, Aung Myint's first draft described decolonization only as 'countries eventually became free,' with no specific documented definition or timeframe cited. His teacher asked him to apply the specific-evidence habit used throughout this course -- what specific, documented process and timeframe was he actually referring to?\n\nAung Myint revised his timeline with the documented definition of decolonization (the process by which colonized territories gained political independence from colonial powers) and the documented fact that this process accelerated significantly in the decades following the mid-twentieth century. He then connected this directly back to Term 2's Week 7, noting that decolonization was documented as a continuation of the same African resistance studied there -- resistance that eventually achieved documented political independence, rather than being an entirely new, unconnected topic.\n\nHis teacher praised the revision for applying the same specific-over-vague habit used throughout Secondary 1, Secondary 2, and this course, and for tracing the cumulative connection back to Term 2's resistance content. The teacher noted that Week 14 would build on this documented foundation by examining the specific, varied documented methods different independence movements actually used.",
+        passageMy:
+            "Week 13 ၏ Assignment အတွက် Aung Myint ၏ ပထမဆုံး Draft တွင် Specific Documented Definition (သို့) Timeframe မည်သည်ကိုမျှ Cite မပြုဘဲ Decolonization ကို 'Country များ နောက်ဆုံး လွတ်လပ်လာသည်' ဟုသာ ဖော်ပြခဲ့သည်။ ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Process နှင့် Timeframe မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nDecolonization ၏ Documented Definition (ကိုလိုနီဖြစ်ခဲ့ရသော Territory များ Colonial Power များထံမှ Political Independence ရရှိသည့် Process) နှင့် ဤ Process ဆယ့်နှစ်ရာစု အလယ်ပိုင်း နောက်ပိုင်း ဆယ်စုနှစ်များအတွင်း သိသိသာသာ Accelerate ပြုလုပ်ခဲ့ကြောင်း Documented Fact ဖြင့် ၎င်း၏ Timeline ကို Aung Myint ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Term 2 ၏ Week 7 သို့ ဤသည်ကို ၎င်း တိုက်ရိုက် ချိတ်ဆက်ခဲ့ပြီး Decolonization ကို လုံးလုံး Unconnected Topic အသစ်တစ်ခုမဟုတ်ဘဲ ထိုနေရာတွင် လေ့လာခဲ့သော African Resistance တူတူ၏ Continuation တစ်ခုအဖြစ် Document ပြုလုပ်ထားကြောင်း -- နောက်ဆုံးတွင် Documented Political Independence ရရှိခဲ့သော Resistance -- မှတ်ချက်ပြုခဲ့သည်။\n\nSecondary 1, Secondary 2 နှင့် ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Over-Vague အလေ့အထ တူတူကို အသုံးချခြင်းနှင့် Term 2 ၏ Resistance Content သို့ Cumulative Connection ကို လိုက်လံ ဖော်ထုတ်ခြင်းအတွက် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။ Independence Movement ကွဲပြားချင်း Actual အသုံးပြုခဲ့သော Specific, Varied Documented Method များကို စစ်ဆေးခြင်းဖြင့် Week 14 သည် ဤ Documented Foundation ပေါ်တွင် တည်ဆောက်မည်ဖြစ်ကြောင်း ဆရာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Aung Myint's first draft?",
+            questionMy:
+                "Aung Myint ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A specific documented definition or timeframe",
+              "Any mention of decolonization at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Specific Documented Definition (သို့) Timeframe",
+              "Decolonization ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Aung Myint connect decolonization back to?",
+            questionMy:
+                "Decolonization ကို Aung Myint ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's Week 7 African resistance content",
+              "No documented content of any kind",
+              "Content entirely unrelated to Term 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Term 2 ၏ Week 7 African Resistance Content",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Term 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 14 examine?",
+            questionMy: "Week 14 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The specific, varied documented methods different independence movements used",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to this term's subject",
+              "Content unrelated to any documented independence movement",
+            ],
+            optionsMy: [
+              "Independence Movement ကွဲပြားချင်း အသုံးပြုခဲ့သော Specific, Varied Documented Method များ",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "ဤ Term ၏ Subject နှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Independence Movement မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 14.",
+            ],
+            hintsMy: [
+              "Week 14 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w13-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Decolonization Context Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Decolonization Context မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Decolonization is documented as the process by which...",
+          questionMy:
+              "Decolonization ကို ...Process တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Colonized territories gained political independence from colonial powers",
+            "No documented process of any kind occurred",
+            "Territories never actually gained any documented independence",
+            "A process unrelated to any documented colonial power",
+          ],
+          optionsMy: [
+            "ကိုလိုနီဖြစ်ခဲ့ရသော Territory များ Colonial Power များထံမှ Political Independence ရရှိခြင်း",
+            "Documented Process မည်သည် အမျိုးအစားမှ မဖြစ်ပျက်ခဲ့ခြင်း",
+            "Territory များသည် Documented Independence မည်သည်ကိုမျှ Actual မရရှိခဲ့ခြင်း",
+            "Documented Colonial Power မည်သည်နှင့်မျှ မသက်ဆိုင်သော Process",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Decolonization is documented as connecting back to...",
+          questionMy:
+              "Decolonization ကို ...သို့ ပြန်လည် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Term 2's documented African resistance content",
+            "No documented earlier content of any kind",
+            "Content entirely unrelated to colonial resistance",
+            "A topic this course never actually mentioned before",
+          ],
+          optionsMy: [
+            "Term 2 ၏ Documented African Resistance Content",
+            "Documented ယခင် Content မည်သည် အမျိုးအစားမှ",
+            "Colonial Resistance နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖော်ပြခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying decolonization requires citing...",
+          questionMy:
+              "Decolonization လေ့လာခြင်းသည် ...ကို Cite ပြုလုပ်ရန် လိုအပ်သည်",
+          optionsEn: [
+            "Specific documented territories and timeframes",
+            "Only vague descriptions with no specific documented evidence",
+            "No documented evidence of any kind",
+            "Content unrelated to any specific historical territory",
+          ],
+          optionsMy: [
+            "Specific Documented Territory များနှင့် Timeframe များ",
+            "Specific Documented Evidence မပါဘဲ Vague ဖော်ပြချက်များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Specific သမိုင်းဆိုင်ရာ Territory မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 4, Week 14: "Documented Independence
+// Movements and Methods"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek14 = CourseWeekDef(
+  id: "course-sec3-hum-w14",
+  weekNumber: 14,
+  titleEn: "Documented Independence Movements and Methods",
+  titleMy: "Documented Independence Movement များနှင့် Method များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w14-d1",
+      dayNumber: 1,
+      titleEn: "Distinct Documented Methods",
+      titleMy: "Distinct Documented Method များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document that independence movements used different specific documented methods in different cases -- organized nonviolent civil disobedience in some documented movements, and armed struggle in other documented cases. Why cite this specific variation rather than describing all independence movements as using identical methods?",
+          questionMy:
+              "Historian များသည် Independence Movement များသည် Case ကွဲပြားချင်းတွင် ကွဲပြားသော Specific Documented Method များကို အသုံးပြုခဲ့ကြောင်း Document ပြုလုပ်ထားသည် -- Documented Movement အချို့တွင် Organized Nonviolent Civil Disobedience, Documented Case အခြားတွင် Armed Struggle။ Independence Movement အားလုံးသည် Identical Method များ အသုံးပြုခဲ့သည်ဟု ဖော်ပြမည့်အစား ဤ Specific Variation ကို အဘယ်ကြောင့် Cite ပြုလုပ်ရသနည်း။",
+          optionsEn: [
+            "Each documented movement had its own specific documented methods and leaders, so recognizing this documented variation preserves precise historical evidence rather than blending distinct movements into one vague category, the same principle applied to Term 1's distinct unification movements",
+            "All documented independence movements are documented as having used identical methods with no variation",
+            "Only one specific documented method was ever actually used in any independence movement",
+            "Distinguishing documented methods has no actual value in historical study",
+          ],
+          optionsMy: [
+            "Documented Movement တစ်ခုစီတွင် ၎င်း ကိုယ်ပိုင် Specific Documented Method များနှင့် Leader များ ရှိသောကြောင့် ဤ Documented Variation ကို အသိအမှတ်ပြုခြင်းသည် Distinct Movement များကို Vague Category တစ်ခုတည်းအဖြစ် ရောစပ်မည့်အစား Precise သမိုင်းဆိုင်ရာ Evidence ကို ထိန်းသိမ်းသည်, Term 1 ၏ Distinct Unification Movement များပေါ်တွင် အသုံးချထားသော Principle တူတူ ဖြစ်သည်",
+            "Documented Independence Movement အားလုံးကို Variation မရှိဘဲ Identical Method များ အသုံးပြုခဲ့ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Specific Documented Method တစ်ခုတည်းသာ Independence Movement မည်သည်တွင်မဆို ဘယ်တော့မှ Actual အသုံးပြုခဲ့ခြင်း",
+            "Documented Method များကို ခွဲခြားခြင်းတွင် သမိုင်းဆိုင်ရာ လေ့လာမှု၌ Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same distinct-documented-methods principle used for Term 1's Italian and German unification movements.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 ၏ Italian နှင့် German Unification Movement များအတွက် အသုံးပြုခဲ့သော Distinct-Documented-Methods Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing documented nonviolent civil disobedience movements name the specific documented methods used (such as organized boycotts and peaceful marches) rather than describing them only as 'peaceful protest' in vague terms?",
+          questionMy:
+              "Documented Nonviolent Civil Disobedience Movement များကို Cite ပြုလုပ်သော Student များသည် Vague Term များဖြင့် 'Peaceful Protest' အဖြစ်သာ ဖော်ပြမည့်အစား အသုံးပြုသော Specific Documented Method များ (Organized Boycott များနှင့် Peaceful March များကဲ့သို့) ကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented methods shows precisely how these movements were organized and conducted, the same specific-evidence habit used throughout this course, rather than a vague generic label",
+            "Vague labels like 'peaceful protest' are always more historically accurate than specific documented methods",
+            "Specific documented methods have no actual value in studying independence movements",
+            "Nonviolent movements should never actually be described using specific documented evidence",
+          ],
+          optionsMy: [
+            "Specific Documented Method များ Cite ပြုလုပ်ခြင်းသည် ဤ Movement များ Organize ပြုလုပ်ခဲ့ပုံနှင့် ဆောင်ရွက်ခဲ့ပုံကို တိကျစွာ ပြသပြီး Vague Generic Label တစ်ခုအစား ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ တူတူ ဖြစ်သည်",
+            "'Peaceful Protest' ကဲ့သို့ Vague Label များသည် Specific Documented Method များထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Specific Documented Method များတွင် Independence Movement များ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Nonviolent Movement များကို Specific Documented Evidence ဖြင့် ဘယ်တော့မှ Actual ဖော်ပြခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit taught since Term 1.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a balanced, documented account represent leaders and movements using both nonviolent and armed documented methods as historical agents making deliberate strategic choices, rather than judging one method as simply superior to the other?",
+          questionMy:
+              "Balanced, Documented Account တစ်ခုသည် Method တစ်ခုကို အခြားတစ်ခုထက် ရိုးရိုး Superior ဖြစ်သည်ဟု ဆုံးဖြတ်မည့်အစား Nonviolent နှင့် Armed Documented Method နှစ်ခုစလုံး အသုံးပြုသော Leader များနှင့် Movement များကို Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များအဖြစ် အဘယ်ကြောင့် ကိုယ်စားပြုသင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same balanced-account and agency principles used since Secondary 2 -- representing documented historical actors' actual strategic choices and context fairly, rather than imposing a simple judgment",
+            "One documented method should always be represented as superior to any other in a historical account",
+            "Documented strategic choices by historical leaders have no actual role in a balanced account",
+            "Balance has no actual role in accurately representing different documented independence methods",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account နှင့် Agency Principle တူတူကို လိုက်နာသည် -- Simple Judgment တစ်ခု Impose ပြုလုပ်မည့်အစား Documented Historical Actor များ၏ Actual Strategic Choice များနှင့် Context ကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+            "Documented Method တစ်ခုကို သမိုင်းဆိုင်ရာ Account တစ်ခုတွင် အခြားတစ်ခုထက် အမြဲ Superior အဖြစ် ကိုယ်စားပြုသင့်ခြင်း",
+            "Historical Leader များ၏ Documented Strategic Choice များတွင် Balanced Account တစ်ခု၌ Actual Role မရှိခြင်း",
+            "Balance သည် ကွဲပြားသော Documented Independence Method များကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same historical-agency principle used since Secondary 2's Week 7, applied to independence-movement leaders' strategic choices.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Independence-Movement Leader များ၏ Strategic Choice များပေါ်တွင် အသုံးချထားသော Secondary 2 ၏ Week 7 မှစ၍ အသုံးပြုခဲ့သော Historical-Agency Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Independence Movements Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Independence Movements Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w14-dm-1",
+          termEn: "Nonviolent civil disobedience",
+          termMy: "Nonviolent Civil Disobedience",
+          matchEn:
+              "A documented specific method: organized boycotts and peaceful marches used by some movements",
+          matchMy:
+              "Movement အချို့ အသုံးပြုခဲ့သော Organized Boycott များနှင့် Peaceful March များ - Documented Specific Method တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w14-dm-2",
+          termEn: "Armed struggle",
+          termMy: "Armed Struggle",
+          matchEn:
+              "A documented specific method used by other independence movements in different cases",
+          matchMy:
+              "Case ကွဲပြားချင်းတွင် Independence Movement အခြားများ အသုံးပြုခဲ့သော Documented Specific Method",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w14-dm-3",
+          termEn: "Strategic choice",
+          termMy: "Strategic Choice",
+          matchEn:
+              "A deliberate, documented decision by historical agents about which method to use",
+          matchMy:
+              "မည်သည့် Method ကို အသုံးပြုမည်ဆိုသည်နှင့်ပတ်သက်၍ Historical Agent များ၏ Deliberate, Documented ဆုံးဖြတ်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w14-dm-4",
+          termEn: "Documented variation",
+          termMy: "Documented Variation",
+          matchEn:
+              "The historical fact that independence movements did not all use identical documented methods",
+          matchMy:
+              "Independence Movement များအားလုံးသည် Identical Documented Method မသုံးခဲ့ကြောင်း သမိုင်းဆိုင်ရာ Fact",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Nonviolent Method or Armed Method?",
+      titleMy: "စီစစ်ကြမည် - Nonviolent Method (သို့) Armed Method",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Nonviolent Method", "Documented Armed Method"],
+        bucketsMy: ["Documented Nonviolent Method", "Documented Armed Method"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w14-sort-1",
+            labelEn: "Organized boycotts of colonial goods and institutions",
+            labelMy:
+                "Colonial Goods များနှင့် Institution များ၏ Organized Boycott",
+            correctBucketEn: "Documented Nonviolent Method",
+            correctBucketMy: "Documented Nonviolent Method",
+          ),
+          SortingItem(
+            id: "sec3hum-w14-sort-2",
+            labelEn:
+                "Organized armed resistance against colonial military forces",
+            labelMy:
+                "Colonial Military Force များကို ဆန့်ကျင်ရန် Organized Armed Resistance",
+            correctBucketEn: "Documented Armed Method",
+            correctBucketMy: "Documented Armed Method",
+          ),
+          SortingItem(
+            id: "sec3hum-w14-sort-3",
+            labelEn:
+                "Documented peaceful marches and organized civil disobedience",
+            labelMy:
+                "Documented Peaceful March များနှင့် Organized Civil Disobedience",
+            correctBucketEn: "Documented Nonviolent Method",
+            correctBucketMy: "Documented Nonviolent Method",
+          ),
+          SortingItem(
+            id: "sec3hum-w14-sort-4",
+            labelEn: "Documented armed struggle as a chosen strategic method",
+            labelMy:
+                "ရွေးချယ်ထားသော Strategic Method အဖြစ် Documented Armed Struggle",
+            correctBucketEn: "Documented Armed Method",
+            correctBucketMy: "Documented Armed Method",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thura's Methods Comparison",
+      titleMy: "စာဖတ်ခြင်း - Thura ၏ Methods Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's Methods Comparison",
+        titleMy: "Thura ၏ Methods Comparison",
+        passageEn:
+            "For Week 14's project, Thura's first draft described independence movements as using 'peaceful protest' in general, with no specific documented method named and no acknowledgment that different movements used different approaches. His teacher asked him to apply the specific-evidence habit used since Term 1 -- what specific, documented methods was he actually referring to?\n\nThura revised his comparison to distinguish two documented methods clearly: organized nonviolent civil disobedience, including documented boycotts and peaceful marches, used by some movements; and documented armed struggle, used by others in different documented cases. He was careful not to blend these distinct methods into one vague category, the same principle applied to Term 1's distinct unification movements.\n\nHis first version had also implied one method was simply superior to the other, but his teacher reminded him of the balanced-account and agency principles used since Secondary 2's Week 7. Thura revised his conclusion to represent leaders choosing each method as historical agents making deliberate strategic choices within their own documented context, rather than issuing a simple judgment. His teacher praised the revision for combining specific documented citation with balanced, agency-respecting representation, exactly the discipline that would carry into Week 15's look at decolonization's balanced legacy.",
+        passageMy:
+            "Week 14 ၏ Project အတွက် Thura ၏ ပထမဆုံး Draft တွင် Specific Documented Method မည်သည်ကိုမျှ အမည်တပ်ခြင်း မပြုဘဲ Movement ကွဲပြားချင်းသည် Approach ကွဲပြားခဲ့ကြောင်း အသိအမှတ် မပြုဘဲ Independence Movement များကို ယေဘုယျအားဖြင့် 'Peaceful Protest' အသုံးပြုကြောင်း ဖော်ပြခဲ့သည်။ Term 1 မှစ၍ အသုံးပြုခဲ့သော Specific-Evidence အလေ့အထ ကို အသုံးချရန် ၎င်း၏ ဆရာက ၎င်းအား တောင်းဆိုခဲ့သည် -- Specific, Documented Method မည်သည်ကို ၎င်း Actual ရည်ညွှန်းနေခဲ့ပါသလဲ။\n\nDocumented Method နှစ်ခုကို ရှင်းလင်းစွာ ခွဲခြားရန် ၎င်း၏ Comparison ကို Thura ပြန်လည် ပြင်ဆင်ခဲ့သည် -- Movement အချို့ အသုံးပြုခဲ့သော Documented Boycott များနှင့် Peaceful March များအပါအဝင် Organized Nonviolent Civil Disobedience; နှင့် Documented Case ကွဲပြားချင်းတွင် အခြားများ အသုံးပြုခဲ့သော Documented Armed Struggle။ Term 1 ၏ Distinct Unification Movement များပေါ်တွင် အသုံးချထားသော Principle တူတူဖြင့် ဤ Distinct Method များကို Vague Category တစ်ခုတည်းအဖြစ် မရောစပ်ရန် ၎င်း သတိထားခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Version တွင် Method တစ်ခုသည် အခြားတစ်ခုထက် ရိုးရိုး Superior ဖြစ်သည်ဟု Implied ပြုလုပ်ခဲ့သော်လည်း Secondary 2 ၏ Week 7 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account နှင့် Agency Principle များကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည်။ Simple Judgment တစ်ခု ချမှတ်မည့်အစား Method တစ်ခုစီ ရွေးချယ်ခဲ့သော Leader များကို ၎င်းတို့ ကိုယ်ပိုင် Documented Context အတွင်း Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များအဖြစ် ကိုယ်စားပြုရန် ၎င်း၏ Conclusion ကို Thura ပြန်လည် ပြင်ဆင်ခဲ့သည်။ Specific Documented Citation ကို Balanced, Agency-Respecting Representation နှင့် ပေါင်းစပ်ခဲ့သောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး Decolonization ၏ Balanced Legacy ကို ကြည့်ရှုမည့် Week 15 သို့ ဆက်လက် သယ်ဆောင်သွားမည့် Discipline အတိအကျ ဖြစ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what two documented methods did Thura distinguish?",
+            questionMy:
+                "Thura ခွဲခြားခဲ့သော Documented Method နှစ်ခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nonviolent civil disobedience and armed struggle",
+              "No documented method of any kind",
+              "Methods entirely unrelated to independence movements",
+              "A single unspecified method with no documented evidence",
+            ],
+            optionsMy: [
+              "Nonviolent Civil Disobedience နှင့် Armed Struggle",
+              "Documented Method မည်သည် အမျိုးအစားမှ",
+              "Independence Movement များနှင့် လုံးလုံး မသက်ဆိုင်သော Method များ",
+              "Documented Evidence မပါသော Unspecified Method တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated methods."],
+            hintsMy: [
+              "ဖော်ပြထားသော Method များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Thura revise his representation of leaders' method choices?",
+            questionMy:
+                "Leader များ၏ Method Choice ၏ Representation ကို Thura မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As historical agents making deliberate strategic choices within their context",
+              "By judging one method as simply superior to the other",
+              "By ignoring every documented method choice entirely",
+              "As passive figures with no actual strategic agency",
+            ],
+            optionsMy: [
+              "၎င်းတို့ Context အတွင်း Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များအဖြစ်",
+              "Method တစ်ခုကို အခြားတစ်ခုထက် ရိုးရိုး Superior ဟု ဆုံးဖြတ်ခြင်းဖြင့်",
+              "Documented Method Choice တိုင်းကို လုံးလုံး လျစ်လျူရှုခြင်းဖြင့်",
+              "Actual Strategic Agency မရှိသော Passive Figure များအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn: "According to paragraph 3, what will Week 15 examine?",
+            questionMy: "Week 15 စစ်ဆေးမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Decolonization's balanced legacy",
+              "No documented topic of any kind",
+              "A topic entirely unrelated to independence movements",
+              "Content unrelated to any documented balanced account",
+            ],
+            optionsMy: [
+              "Decolonization ၏ Balanced Legacy",
+              "Documented Topic မည်သည် အမျိုးအစားမှ",
+              "Independence Movement များနှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Documented Balanced Account မည်သည်နှင့်မျှ မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated connection to Week 15.",
+            ],
+            hintsMy: [
+              "Week 15 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w14-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Independence Methods Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Independence Methods မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Independence movements are documented as having used...",
+          questionMy:
+              "Independence Movement များကို ...အသုံးပြုခဲ့ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Different, specific documented methods in different cases",
+            "Only one identical documented method in every case",
+            "No documented method of any kind",
+            "Methods unrelated to any documented historical context",
+          ],
+          optionsMy: [
+            "Case ကွဲပြားချင်းတွင် ကွဲပြားသော, Specific Documented Method များ",
+            "Case တိုင်းတွင် Identical Documented Method တစ်ခုတည်း",
+            "Documented Method မည်သည် အမျိုးအစားမှ",
+            "Documented သမိုင်းဆိုင်ရာ Context မည်သည်နှင့်မျှ မသက်ဆိုင်သော Method များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account represents leaders who chose different methods as...",
+          questionMy:
+              "Method ကွဲပြားခြင်း ရွေးချယ်ခဲ့သော Leader များကို Balanced Account တစ်ခုသည် ...အဖြစ် ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Historical agents making deliberate strategic choices",
+            "Passive figures with no actual strategic agency",
+            "Figures with no documented connection to any strategy",
+            "Agents whose choices should always be judged as inferior or superior",
+          ],
+          optionsMy: [
+            "Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များ",
+            "Actual Strategic Agency မရှိသော Passive Figure များ",
+            "Strategy မည်သည်နှင့်မျှ Documented ဆက်နွယ်မှု မရှိသော Figure များ",
+            "Choice များကို Inferior (သို့) Superior အဖြစ် အမြဲ ဆုံးဖြတ်သင့်သော Agent များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Describing independence movements accurately requires...",
+          questionMy:
+              "Independence Movement များကို တိကျစွာ ဖော်ပြခြင်းသည် ...လိုအပ်သည်",
+          optionsEn: [
+            "Naming specific documented methods rather than vague labels",
+            "Only vague, generic labels with no specific evidence",
+            "No documented evidence of any kind",
+            "Descriptions unrelated to any documented method",
+          ],
+          optionsMy: [
+            "Vague Label များအစား Specific Documented Method များ အမည်တပ်ခြင်း",
+            "Specific Evidence မပါဘဲ Vague, Generic Label များသာ",
+            "Documented Evidence မည်သည် အမျိုးအစားမှ",
+            "Documented Method မည်သည်နှင့်မျှ မသက်ဆိုင်သော ဖော်ပြချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 4, Week 15: "Balanced Account of
+// Decolonization's Legacy"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek15 = CourseWeekDef(
+  id: "course-sec3-hum-w15",
+  weekNumber: 15,
+  titleEn: "Balanced Account of Decolonization's Legacy",
+  titleMy: "Decolonization ၏ Legacy ၏ Balanced Account",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w15-d1",
+      dayNumber: 1,
+      titleEn: "Achievements and Documented Challenges Together",
+      titleMy: "Achievement များနှင့် Documented Challenge များ အတူတကွ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, documented account of decolonization's legacy represents both the documented achievement of political independence and documented ongoing challenges (such as borders drawn during the colonial period that did not align with existing ethnic or political boundaries, and continuing economic difficulties). Why must both dimensions be represented?",
+          questionMy:
+              "Decolonization ၏ Legacy ၏ Balanced, Documented Account တစ်ခုသည် Political Independence ၏ Documented Achievement နှင့် Documented Ongoing Challenge များ (Colonial ကာလအတွင်း ဆွဲထားသော Border များသည် ရှိပြီးသား Ethnic (သို့) Political Boundary များနှင့် မကိုက်ညီခြင်းနှင့် ဆက်လက် စီးပွားရေးအခက်အခဲများကဲ့သို့) နှစ်ခုစလုံးကို ကိုယ်စားပြုသည်။ Dimension နှစ်ခုစလုံးကို အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used throughout Secondary 2 and this course -- an accurate account represents every major documented dimension, not only the convenient one",
+            "Only documented achievement should ever be represented in any account of decolonization",
+            "Only documented challenges should ever be represented, with no mention of any documented achievement",
+            "Balance has no actual role in accurately representing decolonization's legacy",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Secondary 2 နှင့် ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "Decolonization ၏ Account မည်သည်တွင်မဆို Documented Achievement ကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Achievement မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Documented Challenge များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် Decolonization ၏ Legacy ကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Secondary 2's Week 11 and this term's Week 13-14 content.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 2 ၏ Week 11 နှင့် ဤ Term ၏ Week 13-14 Content မှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does the documented challenge of colonial-era borders not aligning with existing ethnic or political boundaries connect directly back to Term 2's documented Berlin Conference content?",
+          questionMy:
+              "Colonial-ခေတ် Border များသည် ရှိပြီးသား Ethnic (သို့) Political Boundary များနှင့် မကိုက်ညီခြင်း၏ Documented Challenge သည် Term 2 ၏ Documented Berlin Conference Content သို့ တိုက်ရိုက် မည်သို့ ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "The Berlin Conference documented that African territory was divided with no African representation, so the resulting borders were drawn without regard for existing peoples and boundaries -- a documented cause directly explaining this later documented challenge",
+            "The Berlin Conference has no actual documented connection to later border challenges",
+            "Colonial-era borders are documented as having no actual connection to any earlier documented decision",
+            "This documented challenge appeared with no connection to any earlier documented event",
+          ],
+          optionsMy: [
+            "Berlin Conference က African Territory ကို African Representation မပါဘဲ ခွဲဝေခဲ့ကြောင်း Document ပြုလုပ်ထားသောကြောင့် ရလဒ်ဖြစ်ထွန်းသော Border များကို ရှိပြီးသား လူများနှင့် Boundary များကို ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ ဆွဲခဲ့ကြောင်း -- နောက်ပိုင်း ဤ Documented Challenge ကို တိုက်ရိုက် ရှင်းပြသော Documented Cause တစ်ခု",
+            "Berlin Conference တွင် နောက်ပိုင်း Border Challenge များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Colonial-ခေတ် Border များတွင် ယခင် Documented ဆုံးဖြတ်ချက် မည်သည်နှင့်မျှ Actual ဆက်နွယ်မှု မရှိကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "ဤ Documented Challenge သည် ယခင် Documented Event မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's Week 6 -- the Berlin Conference's documented absence of African representation directly explains this later documented border challenge.",
+          ],
+          hintsMy: [
+            "Term 2 ၏ Week 6 ကို သတိရပါ -- Berlin Conference ၏ Documented African Representation မရှိခြင်းသည် ဤ နောက်ပိုင်း Documented Border Challenge ကို တိုက်ရိုက် ရှင်းပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students representing decolonization's legacy avoid describing it only in either uniformly celebratory or uniformly negative terms?",
+          questionMy:
+              "Decolonization ၏ Legacy ကို ကိုယ်စားပြုသော Student များသည် ၎င်းကို Uniformly Celebratory (သို့) Uniformly Negative Term များဖြင့်သာ ဖော်ပြခြင်းကို အဘယ်ကြောင့် ရှောင်ကြဉ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A genuinely balanced account represents documented achievement and documented challenge together, avoiding both an uncritically celebratory account and an account that ignores real documented achievement -- the same balance discipline applied throughout this course",
+            "Decolonization's legacy should always be described only in uniformly celebratory terms",
+            "Decolonization's legacy should always be described only in uniformly negative terms",
+            "Balance has no actual role in accurately representing this documented historical legacy",
+          ],
+          optionsMy: [
+            "Genuinely Balanced Account တစ်ခုသည် Uncritically Celebratory Account တစ်ခုနှင့် Real Documented Achievement ကို လျစ်လျူရှုသော Account တစ်ခု နှစ်ခုစလုံးကို ရှောင်ကြဉ်ကာ Documented Achievement နှင့် Documented Challenge ကို အတူတကွ ကိုယ်စားပြုသည် -- ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Balance Discipline တူတူ ဖြစ်သည်",
+            "Decolonization ၏ Legacy ကို Uniformly Celebratory Term များဖြင့်သာ အမြဲ ဖော်ပြသင့်ခြင်း",
+            "Decolonization ၏ Legacy ကို Uniformly Negative Term များဖြင့်သာ အမြဲ ဖော်ပြသင့်ခြင်း",
+            "Balance သည် ဤ Documented သမိုင်းဆိုင်ရာ Legacy ကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same two-sided balanced-account discipline used throughout this course, applied to decolonization's legacy specifically.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Decolonization ၏ Legacy ပေါ်တွင် တိကျစွာ အသုံးချထားသော ဤ Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Two-Sided Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Decolonization Legacy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Decolonization Legacy Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w15-dm-1",
+          termEn: "Documented achievement",
+          termMy: "Documented Achievement",
+          matchEn:
+              "Political independence gained from colonial powers, a genuine documented outcome",
+          matchMy:
+              "Colonial Power များထံမှ ရရှိခဲ့သော Political Independence, Genuine Documented Outcome တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w15-dm-2",
+          termEn: "Misaligned colonial-era borders",
+          termMy: "မကိုက်ညီသော Colonial-ခေတ် Border များ",
+          matchEn:
+              "A documented challenge traced back to the Berlin Conference's disregard for existing peoples",
+          matchMy:
+              "ရှိပြီးသား လူများကို ထည့်သွင်းစဉ်းစားခြင်း မရှိသော Berlin Conference ကို လိုက်လံ ဖော်ထုတ်ထားသော Documented Challenge",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w15-dm-3",
+          termEn: "Ongoing economic difficulty",
+          termMy: "Ongoing Economic Difficulty",
+          matchEn:
+              "A documented challenge facing many newly independent nations after decolonization",
+          matchMy:
+              "Decolonization ပြီးနောက် Newly Independent Nation များစွာ ရင်ဆိုင်ခဲ့ရသော Documented Challenge",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w15-dm-4",
+          termEn: "Genuinely balanced legacy",
+          termMy: "Genuinely Balanced Legacy",
+          matchEn:
+              "Representing both documented achievement and documented challenge fairly, avoiding both extremes",
+          matchMy:
+              "Extreme နှစ်ခုစလုံးကို ရှောင်ကြဉ်ကာ Documented Achievement နှင့် Documented Challenge နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Achievement or Documented Challenge?",
+      titleMy:
+          "စီစစ်ကြမည် - Documented Achievement (သို့) Documented Challenge",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Achievement", "Documented Challenge"],
+        bucketsMy: ["Documented Achievement", "Documented Challenge"],
+        items: [
+          SortingItem(
+            id: "sec3hum-w15-sort-1",
+            labelEn:
+                "Newly independent nations gaining documented political self-governance",
+            labelMy:
+                "Newly Independent Nation များ Documented Political Self-Governance ရရှိခြင်း",
+            correctBucketEn: "Documented Achievement",
+            correctBucketMy: "Documented Achievement",
+          ),
+          SortingItem(
+            id: "sec3hum-w15-sort-2",
+            labelEn:
+                "Borders drawn during colonization not aligning with existing peoples",
+            labelMy:
+                "Colonization အတွင်း ဆွဲခဲ့သော Border များသည် ရှိပြီးသား လူများနှင့် မကိုက်ညီခြင်း",
+            correctBucketEn: "Documented Challenge",
+            correctBucketMy: "Documented Challenge",
+          ),
+          SortingItem(
+            id: "sec3hum-w15-sort-3",
+            labelEn:
+                "Documented achievement of ending direct colonial political control",
+            labelMy:
+                "Direct Colonial Political Control အဆုံးသတ်ခြင်း၏ Documented Achievement",
+            correctBucketEn: "Documented Achievement",
+            correctBucketMy: "Documented Achievement",
+          ),
+          SortingItem(
+            id: "sec3hum-w15-sort-4",
+            labelEn:
+                "Continuing documented economic difficulty in many newly independent nations",
+            labelMy:
+                "Newly Independent Nation များစွာတွင် ဆက်လက် Documented Economic Difficulty",
+            correctBucketEn: "Documented Challenge",
+            correctBucketMy: "Documented Challenge",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Balanced Legacy Report",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ Balanced Legacy Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Balanced Legacy Report",
+        titleMy: "Su Su ၏ Balanced Legacy Report",
+        passageEn:
+            "For Week 15's assignment, Su Su's first draft described decolonization's legacy only in uniformly celebratory terms -- political independence achieved, with no mention of any documented ongoing challenge. Her teacher returned the draft with a reminder of the balanced-account principle used since Secondary 2's Week 11: had she checked documented challenges alongside documented achievement?\n\nSu Su researched further and found documented challenges clearly connected to earlier terms. She traced borders drawn during the colonial period that did not align with existing ethnic or political boundaries directly back to Term 2's Berlin Conference, where African territory had been divided with no African representation present -- a documented cause she could now cite directly explaining this later documented challenge. She also researched continuing documented economic difficulty facing many newly independent nations.\n\nHer teacher praised the revision for representing both documented achievement and documented challenge fairly, avoiding both an uncritically celebratory account and one that ignored real documented achievement. The teacher noted this was the same two-sided balance discipline used throughout the course, and that Week 16's capstone would require students to combine this balanced legacy account with Week 13's context and Week 14's methods into one connected case study.",
+        passageMy:
+            "Week 15 ၏ Assignment အတွက် Su Su ၏ ပထမဆုံး Draft တွင် Documented Ongoing Challenge မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Decolonization ၏ Legacy ကို Uniformly Celebratory Term များဖြင့်သာ ဖော်ပြခဲ့သည် -- Political Independence ရရှိခြင်း။ Secondary 2 ၏ Week 11 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Achievement များနှင့်အတူ Documented Challenge များကို ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nယခင် Term များနှင့် ရှင်းလင်းစွာ ချိတ်ဆက်ထားသော Documented Challenge များကို Su Su ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ Colonial ကာလအတွင်း ဆွဲခဲ့သော Border များသည် ရှိပြီးသား Ethnic (သို့) Political Boundary များနှင့် မကိုက်ညီကြောင်း Term 2 ၏ Berlin Conference သို့ ၎င်း တိုက်ရိုက် လိုက်လံ ဖော်ထုတ်ခဲ့ပြီး ထိုနေရာတွင် African Territory ကို African Representation မရှိဘဲ ခွဲဝေခဲ့သည် -- ယခု ဤ နောက်ပိုင်း Documented Challenge ကို တိုက်ရိုက် ရှင်းပြသော Documented Cause တစ်ခုကို ၎င်း Cite ပြုလုပ်နိုင်ခဲ့သည်။ Newly Independent Nation များစွာ ရင်ဆိုင်ခဲ့ရသော ဆက်လက် Documented Economic Difficulty ကိုလည်း ၎င်း Research ပြုလုပ်ခဲ့သည်။\n\nUncritically Celebratory Account တစ်ခုနှင့် Real Documented Achievement ကို လျစ်လျူရှုသော Account တစ်ခု နှစ်ခုစလုံးကို ရှောင်ကြဉ်ကာ Documented Achievement နှင့် Documented Challenge နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။ ဤသည်ကား Course တစ်လျှောက်လုံး အသုံးပြုခဲ့သော Two-Sided Balance Discipline တူတူ ဖြစ်ကြောင်းနှင့် Week 16 ၏ Capstone သည် ဤ Balanced Legacy Account ကို Week 13 ၏ Context နှင့် Week 14 ၏ Method များနှင့် Connected Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ရန် Student များအား တောင်းဆိုမည်ဖြစ်ကြောင်း ဆရာ မှတ်ချက်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Su Su's first draft?",
+            questionMy:
+                "Su Su ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Any mention of documented ongoing challenges",
+              "Any mention of political independence at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Documented Ongoing Challenge ၏ ဖော်ပြချက် မည်သည်မှ",
+              "Political Independence ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Su Su trace the misaligned-borders challenge back to?",
+            questionMy:
+                "Misaligned-Borders Challenge ကို Su Su ပြန်လည် လိုက်လံ ဖော်ထုတ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's Berlin Conference, where African territory was divided with no African representation",
+              "No documented earlier event of any kind",
+              "An event entirely unrelated to Term 2's content",
+              "A challenge with no documented connection to any earlier term",
+            ],
+            optionsMy: [
+              "African Territory ကို African Representation မရှိဘဲ ခွဲဝေခဲ့သော Term 2 ၏ Berlin Conference",
+              "Documented ယခင် Event မည်သည် အမျိုးအစားမှ",
+              "Term 2 ၏ Content နှင့် လုံးလုံး မသက်ဆိုင်သော Event",
+              "ယခင် Term မည်သည်နှင့်မျှ Documented ဆက်နွယ်မှု မရှိသော Challenge",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what will Week 16's capstone require?",
+            questionMy:
+                "Week 16 ၏ Capstone တောင်းဆိုမည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Combining the balanced legacy account with Week 13's context and Week 14's methods",
+              "No documented combination of any kind",
+              "A topic entirely unrelated to this term's earlier weeks",
+              "Ignoring every documented factor from the entire term",
+            ],
+            optionsMy: [
+              "Balanced Legacy Account ကို Week 13 ၏ Context နှင့် Week 14 ၏ Method များနှင့် ပေါင်းစပ်ခြင်း",
+              "Documented Combination မည်သည် အမျိုးအစားမှ",
+              "ဤ Term ၏ Week ယခင်များနှင့် လုံးလုံး မသက်ဆိုင်သော Topic",
+              "Term တစ်ခုလုံးမှ Documented Factor တိုင်းကို လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's stated capstone requirement.",
+            ],
+            hintsMy: [
+              "ဖော်ပြထားသော Capstone Requirement ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w15-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Balanced Legacy Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Balanced Legacy မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced account of decolonization's legacy represents...",
+          questionMy:
+              "Decolonization ၏ Legacy ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented achievement and documented challenge",
+            "Only documented achievement with no challenge mentioned",
+            "Only documented challenge with no achievement mentioned",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Achievement နှင့် Documented Challenge နှစ်ခုစလုံး",
+            "Challenge ကို ဖော်ပြခြင်းမရှိဘဲ Documented Achievement များသာ",
+            "Achievement ကို ဖော်ပြခြင်းမရှိဘဲ Documented Challenge များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Misaligned colonial-era borders are documented as tracing back to...",
+          questionMy:
+              "မကိုက်ညီသော Colonial-ခေတ် Border များကို ...သို့ လိုက်လံ ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "The Berlin Conference's absence of African representation",
+            "No documented earlier event of any kind",
+            "An event entirely unrelated to Term 2's content",
+            "A challenge with no documented historical cause",
+          ],
+          optionsMy: [
+            "Berlin Conference ၏ African Representation မရှိခြင်း",
+            "Documented ယခင် Event မည်သည် အမျိုးအစားမှ",
+            "Term 2 ၏ Content နှင့် လုံးလုံး မသက်ဆိုင်သော Event",
+            "Documented သမိုင်းဆိုင်ရာ Cause မရှိသော Challenge",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An accurate account of decolonization avoids...",
+          questionMy:
+              "Decolonization ၏ တိကျသော Account တစ်ခုသည် ...ကို ရှောင်ကြဉ်သည်",
+          optionsEn: [
+            "Both uniformly celebratory and uniformly negative descriptions",
+            "Only uniformly celebratory descriptions, keeping negative ones",
+            "Only uniformly negative descriptions, keeping celebratory ones",
+            "Balance of any documented kind",
+          ],
+          optionsMy: [
+            "Uniformly Celebratory နှင့် Uniformly Negative ဖော်ပြချက်နှစ်ခုစလုံး",
+            "Negative ဖော်ပြချက်များကို ထိန်းသိမ်းကာ Uniformly Celebratory ဖော်ပြချက်များသာ",
+            "Celebratory ဖော်ပြချက်များကို ထိန်းသိမ်းကာ Uniformly Negative ဖော်ပြချက်များသာ",
+            "Documented Balance မည်သည် အမျိုးအစားမှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 3 Humanities -- Term 4, Week 16 (Capstone / Boss Week):
+// "Decolonization Case Study"
+// =====================================================================
+
+const CourseWeekDef _sec3HumWeek16 = CourseWeekDef(
+  id: "course-sec3-hum-w16",
+  weekNumber: 16,
+  titleEn: "Capstone: Decolonization Case Study",
+  titleMy: "Capstone - Decolonization Case Study",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec3hum-w16-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 4 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 4 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must choose one specific documented territory's independence and combine documented context (Week 13), a specific documented method (Week 14), and a balanced account of legacy (Week 15). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Specific Documented Territory တစ်ခု၏ Independence ကို ရွေးချယ်ကာ Documented Context (Week 13), Specific Documented Method (Week 14) နှင့် Legacy ၏ Balanced Account (Week 15) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate case study requires understanding the documented context, the specific method used, and the balanced legacy together, the same multi-part rigor applied to every capstone since Secondary 1",
+            "A single documented factor is always sufficient to explain a decolonization case fully",
+            "Context, method, and balanced legacy have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Complete, တိကျသော Case Study တစ်ခုသည် Documented Context, အသုံးပြုသော Specific Method နှင့် Balanced Legacy ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး Secondary 1 မှစ၍ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Decolonization Case တစ်ခုကို အပြည့်အဝ ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Context, Method နှင့် Balanced Legacy တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 13 (context), Week 14 (methods), and Week 15 (balanced legacy) into one case study.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13 (Context), Week 14 (Method) နှင့် Week 15 (Balanced Legacy) ကို Case Study တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes the chosen independence movement's method using only the vague label 'they fought for freedom,' and describes the legacy only in uniformly celebratory terms. Following this term's established standards, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် ရွေးချယ်ထားသော Independence Movement ၏ Method ကို 'Freedom အတွက် တိုက်ခိုက်ခဲ့ကြသည်' ဟူသော Vague Label တစ်ခုတည်းဖြင့် ဖော်ပြကာ Legacy ကို Uniformly Celebratory Term များဖြင့်သာ ဖော်ပြသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard များအတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to name the specific documented method (Week 14) and represent the legacy with both documented achievement and challenge (Week 15)",
+            "Nothing -- a vague method label and celebratory-only legacy are the required approach for this term",
+            "Remove all documented evidence about the chosen territory from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Specific Documented Method (Week 14) ကို အမည်တပ်ကာ Documented Achievement နှင့် Challenge နှစ်ခုစလုံးဖြင့် Legacy ကို ကိုယ်စားပြုရန် (Week 15) Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Vague Method Label တစ်ခုနှင့် Celebratory-Only Legacy သည် ဤ Term အတွက် လိုအပ်သော Approach ဖြစ်သည်",
+            "ရွေးချယ်ထားသော Territory အကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines the specific-citation standard from Week 14 and the balanced-account standard from Week 15, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 14 မှ Specific-Citation Standard နှင့် Week 15 မှ Balanced-Account Standard ကို ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should this capstone project explicitly connect its chosen territory's context back to Term 2's colonial content, rather than treating decolonization as an isolated, unconnected topic?",
+          questionMy:
+              "Decolonization ကို Isolated, Unconnected Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား ဤ Capstone Project သည် ၎င်း ရွေးချယ်ထားသော Territory ၏ Context ကို Term 2 ၏ Colonial Content သို့ ရှင်းလင်းစွာ အဘယ်ကြောင့် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "This course's content builds cumulatively, and demonstrating that connection accurately represents decolonization as a continuation of documented colonial history rather than a disconnected event",
+            "Term 2 and Term 4 have no actual documented connection to each other",
+            "Decolonization appeared with no connection to any earlier documented colonial content",
+            "Connecting terms together has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "ဤ Course ၏ Content သည် Cumulatively တည်ဆောက်သည်၊ ထို ချိတ်ဆက်မှုကို သရုပ်ပြခြင်းသည် Decolonization ကို Disconnected Event တစ်ခုအစား Documented Colonial History ၏ Continuation တစ်ခုအဖြစ် တိကျစွာ ကိုယ်စားပြုသည်",
+            "Term 2 နှင့် Term 4 တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Decolonization သည် ယခင် Documented Colonial Content မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+            "Term များကို အတူတကွ ချိတ်ဆက်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same cumulative-connection principle stated explicitly in Week 13 and demonstrated in Week 15.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့ပြီး Week 15 တွင် သရုပ်ပြခဲ့သော Cumulative-Connection Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 4 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec3hum-w16-dm-1",
+          termEn: "Decolonization",
+          termMy: "Decolonization",
+          matchEn:
+              "The documented process by which colonized territories gained political independence",
+          matchMy:
+              "ကိုလိုနီဖြစ်ခဲ့ရသော Territory များ Political Independence ရရှိသည့် Documented Process",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w16-dm-2",
+          termEn: "Documented strategic method",
+          termMy: "Documented Strategic Method",
+          matchEn:
+              "A specific, named approach (nonviolent or armed) chosen by a documented independence movement",
+          matchMy:
+              "Documented Independence Movement တစ်ခု ရွေးချယ်ခဲ့သော Specific, Named Approach (Nonviolent သို့ Armed)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w16-dm-3",
+          termEn: "Balanced legacy",
+          termMy: "Balanced Legacy",
+          matchEn:
+              "Representing both documented achievement and documented challenge fairly",
+          matchMy:
+              "Documented Achievement နှင့် Documented Challenge နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec3hum-w16-dm-4",
+          termEn: "Connection to Term 2",
+          termMy: "Term 2 သို့ Connection",
+          matchEn:
+              "Tracing a decolonization case's context back to documented colonial history",
+          matchMy:
+              "Decolonization Case တစ်ခု၏ Context ကို Documented Colonial History သို့ လိုက်လံ ဖော်ထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Case Study Checklist",
+      titleMy: "စီစစ်ကြမည် - Case Study Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Case Study",
+          "Not Appropriate for the Case Study",
+        ],
+        bucketsMy: [
+          "Case Study တွင် လိုအပ်သည်",
+          "Case Study အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec3hum-w16-sort-1",
+            labelEn:
+                "The specific documented method the chosen movement actually used",
+            labelMy:
+                "ရွေးချယ်ထားသော Movement Actual အသုံးပြုခဲ့သော Specific Documented Method",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w16-sort-2",
+            labelEn:
+                "A balanced account of both documented achievement and challenge",
+            labelMy:
+                "Documented Achievement နှင့် Challenge နှစ်ခုစလုံး၏ Balanced Account",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w16-sort-3",
+            labelEn:
+                "A connection back to Term 2's documented colonial content",
+            labelMy: "Term 2 ၏ Documented Colonial Content သို့ Connection",
+            correctBucketEn: "Required in the Case Study",
+            correctBucketMy: "Case Study တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec3hum-w16-sort-4",
+            labelEn:
+                "A vague label like 'they fought for freedom' with no specific documented method",
+            labelMy:
+                "Specific Documented Method မပါဘဲ 'Freedom အတွက် တိုက်ခိုက်ခဲ့ကြသည်' ကဲ့သို့ Vague Label",
+            correctBucketEn: "Not Appropriate for the Case Study",
+            correctBucketMy: "Case Study အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Capstone Case Study",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Capstone Case Study",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Capstone Case Study",
+        titleMy: "Nay Chi ၏ Capstone Case Study",
+        passageEn:
+            "For the Term 4 capstone, Nay Chi chose one specific documented territory's independence as her case study, combining three documented elements from across the term. From Week 13, she cited the documented definition of decolonization and an approximate documented timeframe, connecting her chosen territory's context explicitly back to Term 2's colonial content rather than treating it as an isolated topic.\n\nFrom Week 14, she named the specific documented method her chosen movement actually used, avoiding the vague label 'they fought for freedom' her first draft had contained, and represented the movement's leaders as historical agents making a deliberate strategic choice rather than judging the method as simply superior or inferior to alternatives.\n\nFrom Week 15, she built a balanced account of legacy: the documented achievement of political independence, alongside documented challenges including borders that did not align with existing peoples, tracing this specific challenge back to Term 2's Berlin Conference. Her teacher praised the case study for combining specific documented citation, respected historical agency, and a genuinely balanced legacy account into one connected project -- exactly the standard built across every capstone since Secondary 1, and a strong foundation as the class moved into Term 5's population geography content.",
+        passageMy:
+            "Term 4 Capstone အတွက် Specific Documented Territory တစ်ခု၏ Independence ကို ၎င်း၏ Case Study အဖြစ် Nay Chi ရွေးချယ်ခဲ့ပြီး Term တစ်ခုလုံးမှ Documented Element သုံးခုကို ပေါင်းစပ်ခဲ့သည်။ Week 13 မှ Decolonization ၏ Documented Definition နှင့် Approximate Documented Timeframe ကို ၎င်း Cite ပြုလုပ်ခဲ့ပြီး ၎င်း ရွေးချယ်ထားသော Territory ၏ Context ကို Isolated Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား Term 2 ၏ Colonial Content သို့ ရှင်းလင်းစွာ ချိတ်ဆက်ခဲ့သည်။\n\nWeek 14 မှ ၎င်း၏ ပထမဆုံး Draft ပါဝင်ခဲ့သော 'Freedom အတွက် တိုက်ခိုက်ခဲ့ကြသည်' ဟူသော Vague Label ကို ရှောင်ကြဉ်ကာ ၎င်း ရွေးချယ်ထားသော Movement Actual အသုံးပြုခဲ့သော Specific Documented Method ကို ၎င်း အမည်တပ်ခဲ့ပြီး Method ကို Alternative များနှင့် နှိုင်းယှဉ်ပါက ရိုးရိုး Superior (သို့) Inferior ဟု ဆုံးဖြတ်မည့်အစား Movement ၏ Leader များကို Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များအဖြစ် ကိုယ်စားပြုခဲ့သည်။\n\nWeek 15 မှ Legacy ၏ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Political Independence ၏ Documented Achievement, ရှိပြီးသား လူများနှင့် မကိုက်ညီသော Border များအပါအဝင် Documented Challenge များနှင့်အတူ, ဤ Specific Challenge ကို Term 2 ၏ Berlin Conference သို့ လိုက်လံ ဖော်ထုတ်ခြင်း။ Specific Documented Citation, Respected Historical Agency နှင့် Genuinely Balanced Legacy Account ကို Connected Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ခြင်း -- Secondary 1 မှစ၍ Capstone တိုင်းတွင် တည်ဆောက်ခဲ့သော Standard အတိအကျ ဖြစ်ခြင်းနှင့် Class Term 5 ၏ Population Geography Content ဘက်သို့ ရွေ့လျားရန် ခိုင်မာသော Foundation တစ်ခု ဖြစ်ခြင်းတို့ကြောင့် Case Study ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Nay Chi connect her chosen territory's context back to?",
+            questionMy:
+                "၎င်း ရွေးချယ်ထားသော Territory ၏ Context ကို Nay Chi ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Term 2's colonial content",
+              "No documented content of any kind",
+              "Content entirely unrelated to Term 2",
+              "A topic this course never actually covered before",
+            ],
+            optionsMy: [
+              "Term 2 ၏ Colonial Content",
+              "Documented Content မည်သည် အမျိုးအစားမှ",
+              "Term 2 နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+              "ဤ Course ယခင် Actual မဖုံးအုပ်ခဲ့သော Topic",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated connection."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချိတ်ဆက်မှုကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nay Chi represent the movement's leaders?",
+            questionMy:
+                "Movement ၏ Leader များကို Nay Chi မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As historical agents making a deliberate strategic choice",
+              "By judging their method as simply superior to alternatives",
+              "By ignoring their documented method entirely",
+              "As passive figures with no actual strategic agency",
+            ],
+            optionsMy: [
+              "Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များအဖြစ်",
+              "Alternative များနှင့် နှိုင်းယှဉ်ပါက ၎င်းတို့၏ Method ကို ရိုးရိုး Superior ဟု ဆုံးဖြတ်ခြင်းဖြင့်",
+              "၎င်းတို့၏ Documented Method ကို လုံးလုံး လျစ်လျူရှုခြင်းဖြင့်",
+              "Actual Strategic Agency မရှိသော Passive Figure များအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated representation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Representation ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specific documented challenge did Nay Chi trace back to the Berlin Conference?",
+            questionMy:
+                "Berlin Conference သို့ Nay Chi လိုက်လံ ဖော်ထုတ်ခဲ့သော Specific Documented Challenge ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Borders that did not align with existing peoples",
+              "No documented challenge of any kind",
+              "A challenge entirely unrelated to the Berlin Conference",
+              "Only documented achievement, with no challenge at all",
+            ],
+            optionsMy: [
+              "ရှိပြီးသား လူများနှင့် မကိုက်ညီသော Border များ",
+              "Documented Challenge မည်သည် အမျိုးအစားမှ",
+              "Berlin Conference နှင့် လုံးလုံး မသက်ဆိုင်သော Challenge",
+              "Challenge လုံးလုံး မပါဘဲ Documented Achievement သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated challenge."],
+            hintsMy: [
+              "ဖော်ပြထားသော Challenge ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec3hum-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Recap: Decolonization and Independence Movements",
+      titleMy:
+          "Term 4 ပြန်လည်သုံးသပ်ခြင်း - Decolonization and Independence Movements",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Decolonization is documented as connecting back to...",
+          questionMy:
+              "Decolonization ကို ...သို့ ပြန်လည် ချိတ်ဆက်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Term 2's documented colonial resistance content",
+            "No documented earlier content of any kind",
+            "Content entirely unrelated to colonial history",
+            "A topic this course never actually mentioned before",
+          ],
+          optionsMy: [
+            "Term 2 ၏ Documented Colonial Resistance Content",
+            "Documented ယခင် Content မည်သည် အမျိုးအစားမှ",
+            "Colonial History နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            "ဤ Course ယခင် Actual မဖော်ပြခဲ့သော Topic",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Independence movements' leaders should be represented as...",
+          questionMy:
+              "Independence Movement များ၏ Leader များကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "Historical agents making deliberate strategic choices",
+            "Passive figures with no actual strategic agency",
+            "Figures whose choices should always be judged as superior or inferior",
+            "Agents with no documented connection to any specific method",
+          ],
+          optionsMy: [
+            "Deliberate Strategic Choice ပြုလုပ်ခဲ့သော Historical Agent များ",
+            "Actual Strategic Agency မရှိသော Passive Figure များ",
+            "Choice များကို Superior (သို့) Inferior အဖြစ် အမြဲ ဆုံးဖြတ်သင့်သော Figure များ",
+            "Specific Method မည်သည်နှင့်မျှ Documented ဆက်နွယ်မှု မရှိသော Agent များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of decolonization's legacy represents...",
+          questionMy:
+              "Decolonization ၏ Legacy ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented achievement and documented challenge",
+            "Only documented achievement with no challenge",
+            "Only documented challenge with no achievement",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Achievement နှင့် Documented Challenge နှစ်ခုစလုံး",
+            "Challenge မပါဘဲ Documented Achievement သာ",
+            "Achievement မပါဘဲ Documented Challenge သာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 3 Humanities -- Term 4: "Decolonization and Independence
+// Movements" (Weeks 13-16). Documents decolonization's precise
+// definition and accelerating documented timeframe as a continuation
+// of Term 2's colonial resistance (Week 13), distinct documented
+// methods -- nonviolent civil disobedience and armed struggle --
+// represented with respected historical agency (Week 14), and a
+// balanced account of legacy combining documented achievement with
+// documented challenges traced back to Term 2's Berlin Conference
+// (Week 15), closing with a capstone case study combining documented
+// context, a specific method, and a balanced legacy account for one
+// chosen territory (Week 16).
+// =====================================================================
+
+const CourseTermDef _sec3HumTerm4 = CourseTermDef(
+  id: "course-sec3-hum-t4",
+  termNumber: 4,
+  titleEn: "Decolonization and Independence Movements",
+  titleMy: "Decolonization and Independence Movements",
+  certificateTitleEn: "Decolonization and Independence Movements Certificate",
+  certificateTitleMy:
+      "Decolonization and Independence Movements သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec3HumWeek13, _sec3HumWeek14, _sec3HumWeek15, _sec3HumWeek16],
 );
 // __SEC_HUM_MARKER__
