@@ -116369,11 +116369,11 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
-  terms: [_sec2HumTerm1, _sec2HumTerm2, _sec2HumTerm3],
+  terms: [_sec2HumTerm1, _sec2HumTerm2, _sec2HumTerm3, _sec2HumTerm4],
 );
 // =====================================================================
 // Secondary 2 Humanities -- Term 2: "Renaissance and Scientific
@@ -119235,5 +119235,1448 @@ const CourseTermDef _sec2HumTerm3 = CourseTermDef(
   certificateTitleEn: "Empires and Colonialism",
   certificateTitleMy: "Empires and Colonialism",
   weeks: [_sec2HumWeek9, _sec2HumWeek10, _sec2HumWeek11, _sec2HumWeek12],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 4: "The Transatlantic Slave Trade
+// and Its Legacy" (Weeks 13-16). Handled with the same historical-
+// documentation rigor and gravity as the IGCSE Humanities Holocaust
+// unit: grounded entirely in documented primary/secondary sources,
+// survivor and contemporary testimony treated as essential evidence,
+// no graphic content, corroboration emphasized throughout.
+// Term 4, Week 13: "The Triangular Trade System"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek13 = CourseWeekDef(
+  id: "course-sec2-hum-w13",
+  weekNumber: 13,
+  titleEn: "The Triangular Trade System",
+  titleMy: "Triangular Trade System",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w13-d1",
+      dayNumber: 1,
+      titleEn: "Understanding the Triangular Trade's Structure",
+      titleMy: "Triangular Trade ၏ Structure နားလည်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is the transatlantic slave trade accurately described as part of a documented three-part trade system (manufactured goods to West Africa, enslaved people forcibly transported to the Americas, raw materials shipped to Europe) rather than a single, isolated practice?",
+          questionMy:
+              "Transatlantic ကျွန်ကုန်သွယ်ရေးကို Single, Isolated Practice တစ်ခုအစား Documented Three-Part ကုန်သွယ်ရေးစနစ် (ထုတ်ကုန်များ အနောက်အာဖရိကသို့, အတင်းအကျပ် သယ်ဆောင်ခံရသော ကျွန်ခံလူများ Americas သို့, ကုန်ကြမ်းများ ဥရောပသို့ သင်္ဘောပို့) ၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် တိကျစွာ ဖော်ပြရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Documented shipping records and trade accounts show this specific three-part structure, connecting three continents in one interlocking, evidenced economic system, matching the same specificity standard used throughout this course",
+            "The slave trade had no actual documented connection to any broader trade system",
+            "This was a random, unstructured practice with no documented economic system behind it",
+            "Only one single continent was ever actually involved in this documented trade",
+          ],
+          optionsMy: [
+            "Documented Shipping Record များနှင့် Trade Account များသည် Continent သုံးခုကို Interlocking, Evidenced Economic System တစ်ခုတည်းတွင် ချိတ်ဆက်ပေးသော ဤ Specific Three-Part Structure ကို ပြသကာ Course တစ်ခုလုံးတစ်လျှောက် အသုံးချထားသော Specificity Standard တူတူနှင့် ကိုက်ညီသည်",
+            "ကျွန်ကုန်သွယ်ရေးတွင် ပို၍ ကျယ်ပြန့်သော Trade System မည်သည်နှင့်မျှ Actual Documented Connection မရှိခြင်း",
+            "ဤသည်ကား Documented Economic System နောက်ကွယ်တွင် မပါဘဲ ကျပန်း, Unstructured Practice တစ်ခု ဖြစ်ခြင်း",
+            "Continent တစ်ခုတည်းသာ ဤ Documented Trade တွင် အမှန်တကယ် ပါဝင်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specificity and evidence-based structural analysis applied to Secondary 1's manor system and mercantilism this term -- an economic system's specific structure reveals how it actually functioned.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Term ၏ Manor System (Secondary 1) နှင့် Mercantilism ပေါ်တွင် အသုံးချထားသော Specificity နှင့် Evidence-Based Structural Analysis တူတူ ဖြစ်သည် -- Economic System တစ်ခု၏ Specific Structure သည် ၎င်း အမှန်တကယ် မည်သို့ Function ပြုလုပ်ခဲ့သည်ကို ဖော်ထုတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it historically essential to represent, using documented shipping and trade records, the true scale of the transatlantic slave trade rather than treating it as a minor or marginal historical event?",
+          questionMy:
+              "Transatlantic ကျွန်ကုန်သွယ်ရေး၏ True Scale ကို Documented Shipping နှင့် Trade Record များ အသုံးပြု၍ ၎င်းကို Minor (သို့) Marginal သမိုင်းဆိုင်ရာ Event တစ်ခုအဖြစ် သဘောထားမည့်အစား ကိုယ်စားပြုရန် သမိုင်းအရ မရှိမဖြစ် ဖြစ်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is a well-documented historical fact of enormous, evidenced scale, and accurate historical study requires representing major documented events honestly according to what the evidence actually shows, not minimizing them",
+            "The scale of this trade has no actual documented evidence supporting any specific figures",
+            "Historical study should always minimize the scale of difficult historical events regardless of the evidence",
+            "This trade was actually a minor, marginal event with no significant documented scale",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ကြီးမား, Evidenced Scale တစ်ခုပါသော ကောင်းစွာ Documented သမိုင်းဆိုင်ရာ Fact တစ်ခု ဖြစ်ပြီး တိကျသော သမိုင်း လေ့လာမှုသည် Evidence က အမှန်တကယ် ပြသသည့်အတိုင်း Major Documented Event များကို လျော့တွက်ခြင်း မပြုဘဲ ရိုးသားစွာ ကိုယ်စားပြုရန် လိုအပ်သည်",
+            "ဤ Trade ၏ Scale တွင် Specific ကိန်းဂဏန်း မည်သည်ကိုမျှ ထောက်ခံသော Actual Documented Evidence မရှိခြင်း",
+            "သမိုင်း လေ့လာမှုသည် Evidence မည်သို့ပင်ရှိစေ ခက်ခဲသော သမိုင်းဆိုင်ရာ Event များ၏ Scale ကို အမြဲ လျော့တွက်သင့်ခြင်း",
+            "ဤ Trade သည် Significant Documented Scale မရှိသော Minor, Marginal Event တစ်ခု တကယ်တမ်း ဖြစ်ခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same historical-documentation discipline from the IGCSE-level Holocaust unit -- represent well-documented, difficult history honestly and at its true scale, grounded in evidence.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား IGCSE-Level Holocaust Unit မှ သမိုင်းဆိုင်ရာ-Documentation Discipline တူတူ ဖြစ်သည် -- Evidence တွင် အခြေခံသော ကောင်းစွာ Documented, ခက်ခဲသော သမိုင်းကို ၎င်း၏ True Scale တွင် ရိုးသားစွာ ကိုယ်စားပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students cite specific documented ports, dates, and shipping records when studying the triangular trade, rather than describing it only in vague, general terms?",
+          questionMy:
+              "Triangular Trade ကို လေ့လာသောအခါ ကျောင်းသားများသည် Vague, General Term များဖြင့်သာ ဖော်ပြမည့်အစား Specific Documented Port များ, ရက်စွဲများနှင့် Shipping Record များကို အဘယ်ကြောင့် ကိုးကားသင့်ရသနည်း။",
+          optionsEn: [
+            "Specific, documented evidence keeps the study grounded in verified historical fact and gives the subject the same historical seriousness and precision as any other major documented topic covered in this course",
+            "Vague, general terms are always more historically informative than specific, documented details",
+            "Citing specific ports and dates has no actual value when studying this period",
+            "Specific documented evidence should be avoided in favor of unspecific general descriptions",
+          ],
+          optionsMy: [
+            "Specific, Documented Evidence သည် Study ကို Verified သမိုင်းဆိုင်ရာ Fact တွင် အခြေခံစေကာ Course တွင် ဖုံးအုပ်ထားသော Major Documented Topic မည်သည်နှင့်မဆို Historical Seriousness နှင့် Precision တူညီစွာ ဤ Subject အား ပေးအပ်သည်",
+            "Vague, General Term များသည် Specific, Documented Detail များထက် သမိုင်းအရ အမြဲ ပို၍ Informative ဖြစ်ခြင်း",
+            "Specific Port များနှင့် ရက်စွဲများ ကိုးကားခြင်းသည် ဤကာလ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Specific Documented Evidence ကို Unspecific General Description များ ဦးစားပေး၍ ရှောင်ရှားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence discipline maintained throughout the entire course, applied now with particular care to this historically significant, well-documented topic.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ သမိုင်းအရ Significant, ကောင်းစွာ Documented Topic ပေါ်တွင် အထူးဂရုတစိုက်ဖြင့် ယခု အသုံးချထားသော Course တစ်ခုလုံးတစ်လျှောက် ထိန်းသိမ်းထားသော Specific-Evidence Discipline ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Triangular Trade Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Triangular Trade Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w13-dm-1",
+          termEn: "Triangular trade",
+          termMy: "Triangular Trade",
+          matchEn:
+              "The documented three-part trade system connecting Europe, West Africa, and the Americas",
+          matchMy:
+              "ဥရောပ, အနောက်အာဖရိကနှင့် Americas ကို ချိတ်ဆက်ပေးသော Documented Three-Part Trade System",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w13-dm-2",
+          termEn: "Documented scale",
+          termMy: "Documented Scale",
+          matchEn:
+              "The evidenced size of a historical event, established through shipping and trade records",
+          matchMy:
+              "Shipping နှင့် Trade Record များမှတစ်ဆင့် တည်ထောင်ထားသော သမိုင်းဆိုင်ရာ Event တစ်ခု၏ Evidenced Size",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w13-dm-3",
+          termEn: "Shipping record",
+          termMy: "Shipping Record",
+          matchEn:
+              "A specific, dated document used as primary evidence of a voyage's cargo and route",
+          matchMy:
+              "Voyage တစ်ခု၏ Cargo နှင့် Route ၏ Primary Evidence အဖြစ် အသုံးပြုသော Specific, ရက်စွဲပါ Document",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w13-dm-4",
+          termEn: "Historical seriousness",
+          termMy: "Historical Seriousness",
+          matchEn:
+              "Treating a major documented topic with the precision and gravity the evidence warrants",
+          matchMy:
+              "Evidence ခွင့်ပြုသော Precision နှင့် Gravity ဖြင့် Major Documented Topic တစ်ခုကို ကိုင်တွယ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Leg of the Triangular Trade?",
+      titleMy: "စီစစ်ကြမည် - Triangular Trade ၏ မည်သည့် Leg",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Europe to West Africa", "Americas to Europe"],
+        bucketsMy: ["ဥရောပမှ အနောက်အာဖရိကသို့", "Americas မှ ဥရောပသို့"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w13-sort-1",
+            labelEn:
+                "Manufactured goods documented as shipped to West African ports",
+            labelMy:
+                "အနောက်အာဖရိက Port များသို့ သင်္ဘောပို့ခဲ့ကြောင်း Document ပြုလုပ်ထားသော ထုတ်ကုန်များ",
+            correctBucketEn: "Europe to West Africa",
+            correctBucketMy: "ဥရောပမှ အနောက်အာဖရိကသို့",
+          ),
+          SortingItem(
+            id: "sec2hum-w13-sort-2",
+            labelEn:
+                "Raw materials such as sugar and cotton shipped back to European ports",
+            labelMy:
+                "ဥရောပ Port များသို့ ပြန်လည် သင်္ဘောပို့ခဲ့သော သကြားနှင့် ဝါဂွမ်းကဲ့သို့ ကုန်ကြမ်းများ",
+            correctBucketEn: "Americas to Europe",
+            correctBucketMy: "Americas မှ ဥရောပသို့",
+          ),
+          SortingItem(
+            id: "sec2hum-w13-sort-3",
+            labelEn:
+                "Documented trade goods produced in European manufacturing centers",
+            labelMy:
+                "European Manufacturing Center များတွင် ထုတ်လုပ်ခဲ့သော Documented Trade Goods",
+            correctBucketEn: "Europe to West Africa",
+            correctBucketMy: "ဥရောပမှ အနောက်အာဖရိကသို့",
+          ),
+          SortingItem(
+            id: "sec2hum-w13-sort-4",
+            labelEn:
+                "Documented cargo of plantation-grown crops arriving at European docks",
+            labelMy:
+                "European ဆိပ်ကမ်းများသို့ ရောက်ရှိသော Plantation-Grown သီးနှံများ၏ Documented Cargo",
+            correctBucketEn: "Americas to Europe",
+            correctBucketMy: "Americas မှ ဥရောပသို့",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ko Htet's Trade Record Research",
+      titleMy: "စာဖတ်ခြင်း - Ko Htet ၏ Trade Record Research",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ko Htet's Trade Record Research",
+        titleMy: "Ko Htet ၏ Trade Record Research",
+        passageEn:
+            "For Week 13's project, Ko Htet was asked to research the documented structure of the triangular trade using primary shipping and trade records rather than a general textbook summary alone.\n\nHe found detailed, surviving documentation: manifests recording specific manufactured goods shipped from European ports to West African ports, ship logs recording the forced transport of enslaved people from West Africa to the Americas, and trade records recording raw materials -- sugar, cotton, and other goods -- shipped from the Americas back to Europe. Each leg of the triangle was independently documented, not a vague impression but a specific, evidenced economic system.\n\nApplying the specificity habit built throughout the course, Ko Htet cited specific ports, approximate dates, and documented cargo types rather than describing the trade only in general terms. He also researched documented estimates of the trade's overall scale across its centuries of operation, finding that historians, working from these surviving records, have established this as one of the largest forced migrations in documented history.\n\nHis teacher praised the research for treating this topic with the same historical seriousness and evidence-based precision as any other major subject in the course -- citing specific, documented sources rather than vague generalization, and representing the trade's true, evidenced scale rather than minimizing it.",
+        passageMy:
+            "Week 13 ၏ Project အတွက် General Textbook အနှစ်ချုပ်တစ်ခုတည်းအစား Primary Shipping နှင့် Trade Record များ အသုံးပြု၍ Triangular Trade ၏ Documented Structure ကို Research ပြုလုပ်ရန် Ko Htet အား တောင်းဆိုခဲ့သည်။\n\nအသေးစိတ်, ကျန်ရှိနေသေးသော Documentation ကို ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည် - European Port များမှ အနောက်အာဖရိက Port များသို့ Specific ထုတ်ကုန်များ သင်္ဘောပို့ခဲ့ကြောင်း မှတ်တမ်းတင်ထားသော Manifest များ, အနောက်အာဖရိကမှ Americas သို့ ကျွန်ခံလူများ အတင်းအကျပ် သယ်ဆောင်ခြင်းကို မှတ်တမ်းတင်ထားသော Ship Log များနှင့် Americas မှ ဥရောပသို့ ပြန်လည် သင်္ဘောပို့ခဲ့သော ကုန်ကြမ်းများ -- သကြား, ဝါဂွမ်းနှင့် အခြား ကုန်ပစ္စည်းများ -- ကို မှတ်တမ်းတင်ထားသော Trade Record များ။ Triangle ၏ Leg တစ်ခုစီသည် Vague Impression တစ်ခု မဟုတ်ဘဲ Specific, Evidenced Economic System တစ်ခုအဖြစ် Independently Document ပြုလုပ်ထားခဲ့သည်။\n\nCourse တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Specificity Habit အသုံးချကာ Trade ကို General Term များသာဖြင့် ဖော်ပြမည့်အစား Specific Port များ, ခန့်မှန်း ရက်စွဲများနှင့် Documented Cargo Type များကို Ko Htet ကိုးကားခဲ့သည်။ ၎င်း၏ ရာစုနှစ်များစွာ Operation တစ်လျှောက် Trade ၏ Overall Scale ၏ Documented Estimate များကိုလည်း ၎င်း Research ပြုလုပ်ခဲ့ပြီး ဤ ကျန်ရှိနေသေးသော Record များမှ လုပ်ဆောင်ကာ Historian များသည် ဤ Trade ကို Documented သမိုင်းရှိ Largest Forced Migration များထဲမှ တစ်ခုအဖြစ် တည်ထောင်ခဲ့ကြောင်း ၎င်း ရှာဖွေတွေ့ရှိခဲ့သည်။\n\nVague Generalization တစ်ခုအစား Specific, Documented Source များ ကိုးကားခြင်းနှင့် Trade ၏ True, Evidenced Scale ကို လျော့တွက်ခြင်း မပြုဘဲ ကိုယ်စားပြုခြင်း -- Course ၏ Major Subject မည်သည်နှင့်မဆို Historical Seriousness နှင့် Evidence-Based Precision တူညီစွာ ဤ Topic ကို ကိုင်တွယ်ခဲ့သောကြောင့် Research ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what documented three legs did Ko Htet's research find?",
+            questionMy:
+                "Ko Htet ၏ Research ရှာဖွေတွေ့ရှိခဲ့သော Documented Leg သုံးခုကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Manufactured goods to West Africa, forced transport to the Americas, and raw materials to Europe",
+              "No documented legs of any kind were found by the research",
+              "Only a single leg with no other documented trade routes",
+              "Legs entirely unrelated to Europe, Africa, or the Americas",
+            ],
+            optionsMy: [
+              "အနောက်အာဖရိကသို့ ထုတ်ကုန်များ, Americas သို့ Forced Transport နှင့် ဥရောပသို့ ကုန်ကြမ်းများ",
+              "Research က Documented Leg မည်သည်မှ ရှာမတွေ့ခဲ့ခြင်း",
+              "အခြား Documented Trade Route မပါဘဲ Leg တစ်ခုတည်း",
+              "ဥရောပ, အာဖရိက, (သို့) Americas နှင့် လုံးလုံး မသက်ဆိုင်သော Leg များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's documented legs."],
+            hintsMy: [
+              "Document ပြုလုပ်ထားသော Leg များကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did historians establish about this trade's overall scale?",
+            questionMy:
+                "ဤ Trade ၏ Overall Scale အကြောင်း Historian များ တည်ထောင်ခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was one of the largest forced migrations in documented history",
+              "It had no actual documented scale of any kind whatsoever",
+              "It was a minor, marginal event with no significant scale",
+              "The scale could never actually be estimated from any surviving records",
+            ],
+            optionsMy: [
+              "Documented သမိုင်းရှိ Largest Forced Migration များထဲမှ တစ်ခု ဖြစ်ခဲ့ခြင်း",
+              "Scale မည်သည်မှ အမှန်တကယ် လုံးဝ Documented မဟုတ်ခြင်း",
+              "Significant Scale မရှိသော Minor, Marginal Event တစ်ခု ဖြစ်ခဲ့ခြင်း",
+              "ကျန်ရှိနေသေးသော Record မည်သည်မှ Scale ကို အမှန်တကယ် ခန့်မှန်း၍ ဘယ်တော့မှ မရနိုင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated finding."],
+            hintsMy: [
+              "ဖော်ပြထားသော Finding ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the teacher praise the research for?",
+            questionMy:
+                "Research ကို ဆရာမ ချီးမွမ်းခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Treating the topic with historical seriousness and citing specific documented sources rather than vague generalization",
+              "Minimizing the trade's true scale to make it seem less significant",
+              "Avoiding any citation of specific sources entirely",
+              "Describing the trade only in vague, general terms with no specific detail",
+            ],
+            optionsMy: [
+              "Vague Generalization တစ်ခုအစား Historical Seriousness ဖြင့် Topic ကိုင်တွယ်ခြင်းနှင့် Specific Documented Source များ ကိုးကားခြင်း",
+              "Trade ကို Significant နည်းသည်ဟု ထင်ရအောင် ၎င်း၏ True Scale ကို လျော့တွက်ခြင်း",
+              "Specific Source ကိုးကားခြင်း မည်သည်ကိုမျှ လုံးလုံး ရှောင်ရှားခြင်း",
+              "Specific Detail မပါဘဲ Vague, General Term များဖြင့်သာ Trade ကို ဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated praise."],
+            hintsMy: [
+              "ဖော်ပြထားသော ချီးမွမ်းချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w13-d5",
+      dayNumber: 5,
+      titleEn: "Recap: The Triangular Trade Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - The Triangular Trade မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The triangular trade connected...",
+          questionMy: "Triangular Trade သည် ...ချိတ်ဆက်ပေးခဲ့သည်",
+          optionsEn: [
+            "Europe, West Africa, and the Americas in one documented system",
+            "Only one single continent with no other regions involved",
+            "No actual documented regions of any kind whatsoever",
+            "Regions with no connection to any trade goods",
+          ],
+          optionsMy: [
+            "Documented System တစ်ခုတည်းတွင် ဥရောပ, အနောက်အာဖရိကနှင့် Americas",
+            "အခြား Region မပါဘဲ Continent တစ်ခုတည်း",
+            "Documented Region မည်သည်မှ အမှန်တကယ် လုံးဝ",
+            "Trade Goods မည်သည်နှင့်မျှ Connection မရှိသော Region များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "This trade's documented scale should be represented as...",
+          questionMy:
+              "ဤ Trade ၏ Documented Scale ကို ...အဖြစ် ကိုယ်စားပြုသင့်သည်",
+          optionsEn: [
+            "One of the largest forced migrations in documented history",
+            "A minor, marginal event with no significant scale",
+            "Something with no actual documented evidence supporting it",
+            "An event that should always be minimized regardless of evidence",
+          ],
+          optionsMy: [
+            "Documented သမိုင်းရှိ Largest Forced Migration များထဲမှ တစ်ခု",
+            "Significant Scale မရှိသော Minor, Marginal Event တစ်ခု",
+            "၎င်းကို ထောက်ခံသော Actual Documented Evidence မရှိသော အရာတစ်ခု",
+            "Evidence မည်သို့ပင်ရှိစေ အမြဲ လျော့တွက်သင့်သော Event တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Studying the triangular trade should rely on...",
+          questionMy: "Triangular Trade လေ့လာခြင်းသည် ...အပေါ် အားကိုးသင့်သည်",
+          optionsEn: [
+            "Specific documented ports, dates, and shipping records",
+            "Vague, general terms with no specific evidence",
+            "No evidence of any kind whatsoever",
+            "An assumption with no documentation",
+          ],
+          optionsMy: [
+            "Specific Documented Port များ, ရက်စွဲများနှင့် Shipping Record များ",
+            "Specific Evidence မပါသော Vague, General Term များ",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "Documentation မပါသော Assumption တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 4, Week 14: "The Middle Passage and
+// Documented Testimony"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek14 = CourseWeekDef(
+  id: "course-sec2-hum-w14",
+  weekNumber: 14,
+  titleEn: "The Middle Passage and Documented Testimony",
+  titleMy: "The Middle Passage နှင့် Documented Testimony",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w14-d1",
+      dayNumber: 1,
+      titleEn: "Survivor Testimony as Primary Source Evidence",
+      titleMy: "Primary Source Evidence အဖြစ် Survivor Testimony",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians treat surviving written testimony from formerly enslaved people as especially valuable primary source evidence when studying the Middle Passage?",
+          questionMy:
+              "Middle Passage ကို လေ့လာသောအခါ ယခင် ကျွန်ခံခဲ့ရသူများ၏ ကျန်ရှိနေသေးသော ရေးသား Testimony ကို အထူးသဖြင့် တန်ဖိုးရှိသော Primary Source Evidence အဖြစ် Historian များ သဘောထားရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This testimony provides a firsthand documented account from people who directly experienced these events, giving historians evidence that other kinds of records (such as shipping manifests) cannot provide on their own",
+            "Survivor testimony has no actual value as historical evidence compared to other sources",
+            "Firsthand accounts are always automatically less reliable than any other type of historical source",
+            "This testimony has no actual documented existence in the historical record",
+          ],
+          optionsMy: [
+            "ဤ Testimony သည် ဤ Event များကို တိုက်ရိုက် ကြုံတွေ့ခဲ့ရသူများထံမှ Firsthand Documented Account တစ်ခု ပေးအပ်ကာ Record အခြားအမျိုးအစားများ (Shipping Manifest များကဲ့သို့) ၎င်းတို့ကိုယ်တိုင် မပေးအပ်နိုင်သော Evidence ကို Historian များအား ပေးအပ်သည်",
+            "Survivor Testimony တွင် အခြား Source အမျိုးအစားများနှင့် နှိုင်းယှဉ်ပါက သမိုင်းဆိုင်ရာ Evidence အဖြစ် Actual Value မရှိခြင်း",
+            "Firsthand Account များသည် သမိုင်းဆိုင်ရာ Source အမျိုးအစား မည်သည်ထက်မဆို ယုံကြည်ရမှု အလိုအလျောက် အမြဲ နည်းခြင်း",
+            "ဤ Testimony သည် သမိုင်းဆိုင်ရာ Record တွင် Actual Documented Existence မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same primary-source-value principle from Secondary 1's Term 1 -- firsthand testimony is a distinct, valuable category of evidence a historian actively seeks out.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Secondary 1 ၏ Term 1 မှ Primary-Source-Value Principle တူတူ ဖြစ်သည် -- Firsthand Testimony သည် Historian တစ်ဦး တက်ကြွစွာ ရှာဖွေသော Evidence Category ထူးခြားသော, တန်ဖိုးရှိသော တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should historians corroborate individual testimony against multiple sources (other survivor accounts, shipping records, contemporary observer accounts) rather than relying on a single account alone?",
+          questionMy:
+              "Historian များသည် Account တစ်ခုတည်းအပေါ် အားကိုးမည့်အစား Individual Testimony ကို Source များစွာ (အခြား Survivor Account များ, Shipping Record များ, ခေတ်ပြိုင် Observer Account များ) နှင့် အဘယ်ကြောင့် Corroborate ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Corroborating multiple independent sources strengthens historical confidence in shared details while helping historians understand the range of different individual experiences, exactly the corroboration principle established since Term 1",
+            "Corroboration has no actual value when studying survivor testimony from this period",
+            "A single account is always sufficient and never needs to be checked against any other source",
+            "Multiple sources should never actually be compared against each other in historical study",
+          ],
+          optionsMy: [
+            "Independent Source များစွာ Corroborate ပြုလုပ်ခြင်းသည် Shared Detail များအပေါ် သမိုင်းဆိုင်ရာ Confidence ကို ခိုင်မာစေကာ Individual Experience ကွဲပြားမှုအပိုင်းအခြားကို Historian များ နားလည်ရန် ကူညီပေးပြီး Term 1 မှစ၍ တည်ထောင်ခဲ့သော Corroboration Principle အတိအကျ ဖြစ်သည်",
+            "Corroboration သည် ဤကာလမှ Survivor Testimony လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Account တစ်ခုတည်းသည် အမြဲ လုံလောက်ပြီး အခြား Source မည်သည်နှင့်မျှ ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Source များစွာကို သမိုင်း လေ့လာမှုတွင် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် ဘယ်တော့မှ နှိုင်းယှဉ်ခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same corroboration principle from Secondary 1's very first term, applied now to survivor testimony from this specific historical period.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား ဤ Specific သမိုင်းကာလမှ Survivor Testimony ပေါ်တွင် ယခု အသုံးချထားသော Secondary 1 ၏ ပထမဆုံး Term မှ Corroboration Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it appropriate for a course studying this period to focus on the documented historical facts, causes, and consequences of the Middle Passage rather than including graphic or sensationalized descriptions of suffering?",
+          questionMy:
+              "ဤကာလကို လေ့လာသော Course တစ်ခုသည် ဒုက္ခ၏ Graphic (သို့) Sensationalized ဖော်ပြချက်များ ထည့်သွင်းမည့်အစား Middle Passage ၏ Documented သမိုင်းဆိုင်ရာ Fact များ, Cause များနှင့် Consequence များကို Focus ပြုသင့်ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Rigorous historical study represents documented facts, causes, and consequences honestly and with appropriate gravity, treating the subject with the seriousness it deserves without needing sensationalized detail to convey its historical significance",
+            "Graphic or sensationalized content is always necessary to convey a topic's historical significance",
+            "Historical facts, causes, and consequences have no actual educational value when studying this period",
+            "This topic should be studied without any regard for historical accuracy or documented evidence",
+          ],
+          optionsMy: [
+            "Rigorous သမိုင်း လေ့လာမှုသည် Documented Fact များ, Cause များနှင့် Consequence များကို ၎င်း၏ သမိုင်းဆိုင်ရာ Significance ကို ဖော်ပြရန် Sensationalized Detail မလိုအပ်ဘဲ ခံထိုက်သည့် Seriousness ဖြင့် Subject ကို ကိုင်တွယ်ကာ ရိုးသား, သင့်လျော်သော Gravity ဖြင့် ကိုယ်စားပြုသည်",
+            "Graphic (သို့) Sensationalized Content သည် Topic တစ်ခု၏ သမိုင်းဆိုင်ရာ Significance ကို ဖော်ပြရန် အမြဲ လိုအပ်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Fact များ, Cause များနှင့် Consequence များတွင် ဤကာလ လေ့လာရာတွင် Actual Educational Value မရှိခြင်း",
+            "ဤ Topic ကို သမိုင်းဆိုင်ရာ တိကျမှု (သို့) Documented Evidence ကို ထည့်သွင်းစဉ်းစားခြင်း မပြုဘဲ လေ့လာသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same approach used for the IGCSE Holocaust unit -- historical documentation, causes, and consequences convey a topic's gravity without needing graphic content.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား IGCSE Holocaust Unit အတွက် အသုံးပြုသော Approach တူတူ ဖြစ်သည် -- သမိုင်းဆိုင်ရာ Documentation, Cause များနှင့် Consequence များသည် Graphic Content မလိုအပ်ဘဲ Topic တစ်ခု၏ Gravity ကို ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Testimony and Source Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Testimony and Source Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w14-dm-1",
+          termEn: "Survivor testimony",
+          termMy: "Survivor Testimony",
+          matchEn:
+              "A firsthand documented account from someone who directly experienced an event",
+          matchMy:
+              "Event တစ်ခုကို တိုက်ရိုက် ကြုံတွေ့ခဲ့ရသူထံမှ Firsthand Documented Account",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w14-dm-2",
+          termEn: "Corroboration",
+          termMy: "Corroboration",
+          matchEn:
+              "Checking one account against other independent sources for shared, confirmed details",
+          matchMy:
+              "Shared, Confirmed Detail များအတွက် Account တစ်ခုကို အခြား Independent Source များနှင့် စစ်ဆေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w14-dm-3",
+          termEn: "Contemporary observer account",
+          termMy: "Contemporary Observer Account",
+          matchEn:
+              "A record made by someone present during the period being studied",
+          matchMy: "လေ့လာနေသော ကာလအတွင်း ရှိနေသူတစ်ဦးက ပြုလုပ်ထားသော Record",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w14-dm-4",
+          termEn: "Historical gravity",
+          termMy: "Historical Gravity",
+          matchEn:
+              "Treating a serious documented topic with appropriate seriousness and precision",
+          matchMy:
+              "Serious Documented Topic တစ်ခုကို သင့်လျော်သော Seriousness နှင့် Precision ဖြင့် ကိုင်တွယ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Primary Source or Secondary Source?",
+      titleMy: "စီစစ်ကြမည် - Primary Source (သို့) Secondary Source",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary Source", "Secondary Source"],
+        bucketsMy: ["Primary Source", "Secondary Source"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w14-sort-1",
+            labelEn:
+                "A written testimony from a formerly enslaved person describing their own experience",
+            labelMy:
+                "၎င်း ကိုယ်ပိုင် အတွေ့အကြုံကို ဖော်ပြသော ယခင်ကျွန်ခံခဲ့ရသူတစ်ဦးထံမှ ရေးသား Testimony",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+          SortingItem(
+            id: "sec2hum-w14-sort-2",
+            labelEn:
+                "A modern historian's book analyzing several testimonies written decades later",
+            labelMy:
+                "ဆယ်စုနှစ်များစွာ နောက်ပိုင်း ရေးသားထားသော Testimony များစွာ Analyze ပြုလုပ်သော ခေတ်သစ် Historian တစ်ဦး၏ စာအုပ်",
+            correctBucketEn: "Secondary Source",
+            correctBucketMy: "Secondary Source",
+          ),
+          SortingItem(
+            id: "sec2hum-w14-sort-3",
+            labelEn:
+                "A ship's log recorded by a crew member present during a specific voyage",
+            labelMy:
+                "Voyage တိကျတစ်ခုအတွင်း ရှိနေသော Crew Member တစ်ဦးက မှတ်တမ်းတင်ထားသော Ship's Log",
+            correctBucketEn: "Primary Source",
+            correctBucketMy: "Primary Source",
+          ),
+          SortingItem(
+            id: "sec2hum-w14-sort-4",
+            labelEn:
+                "A textbook chapter summarizing this period, written long after the events using other sources",
+            labelMy:
+                "အခြား Source များ အသုံးပြု၍ Event များပြီးနောက် ကြာမြင့်စွာ ရေးသားထားသော ဤကာလကို အနှစ်ချုပ်သော Textbook Chapter",
+            correctBucketEn: "Secondary Source",
+            correctBucketMy: "Secondary Source",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thura's Corroboration Project",
+      titleMy: "စာဖတ်ခြင်း - Thura ၏ Corroboration Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's Corroboration Project",
+        titleMy: "Thura ၏ Corroboration Project",
+        passageEn:
+            "For Week 14's project, Thura was asked to study a documented written testimony from a formerly enslaved person describing their experience of the Middle Passage, and to explain how historians establish confidence in such an account.\n\nApplying the corroboration principle from Secondary 1's very first term, Thura did not treat the single testimony in isolation. He researched how historians cross-check details in individual testimonies against other independent sources -- other surviving testimonies describing similar conditions, shipping records confirming voyage details, and contemporary observer accounts -- to establish which details are corroborated across multiple sources and which remain unique to one account.\n\nHe noted that corroboration does not mean every individual experience was identical; rather, it means historians can identify which specific, documented details are confirmed by multiple independent sources, giving historians greater confidence in the shared historical pattern while still respecting that each testimony represents one person's own specific, valuable account.\n\nThroughout his report, Thura focused on the documented historical facts, causes, and consequences established by this evidence, following his teacher's guidance to represent the subject with appropriate historical seriousness rather than sensationalized detail. His teacher praised the project for applying the exact same evidence-evaluation discipline used since Term 1 of Secondary 1 to one of history's most serious, well-documented subjects.",
+        passageMy:
+            "Week 14 ၏ Project အတွက် Middle Passage ၏ ၎င်းတို့ အတွေ့အကြုံကို ဖော်ပြသော ယခင် ကျွန်ခံခဲ့ရသူတစ်ဦးထံမှ Documented ရေးသား Testimony တစ်ခုကို လေ့လာရန်နှင့် Account တစ်ခုအပေါ် Confidence ကို Historian များ မည်သို့ တည်ထောင်ကြသည်ကို ရှင်းပြရန် Thura အား တောင်းဆိုခဲ့သည်။\n\nSecondary 1 ၏ ပထမဆုံး Term မှ Corroboration Principle အသုံးချကာ Testimony တစ်ခုတည်းကို Isolation တွင် Thura မသဘောထားခဲ့ပါ။ Individual Testimony များရှိ Detail များကို အခြား Independent Source များ -- ဆင်တူသော Condition ဖော်ပြသော အခြား ကျန်ရှိနေသေးသော Testimony များ, Voyage Detail များကို အတည်ပြုသော Shipping Record များနှင့် ခေတ်ပြိုင် Observer Account များ -- နှင့် Historian များ Detail များကို Cross-Check ပြုလုပ်ပုံနှင့် Source များစွာတစ်လျှောက် Detail မည်သည် Corroborate ဖြစ်ပြီး Account တစ်ခုတည်း၌ Unique ဆက်လက် ကျန်ရှိသည်ကို ဆုံးဖြတ်ရန် ၎င်း Research ပြုလုပ်ခဲ့သည်။\n\nCorroboration သည် Individual Experience တိုင်း Identical ဖြစ်ကြောင်း မဆိုလိုကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည်၊ ယင်းအစား Testimony တစ်ခုစီသည် လူတစ်ဦး ကိုယ်ပိုင် Specific, Valuable Account ကို ကိုယ်စားပြုကြောင်း ဆက်လက် လေးစားစဉ် Independent Source များစွာက အတည်ပြုထားသော Specific, Documented Detail မည်သည်ကို ဖော်ထုတ်နိုင်ပြီး Shared သမိုင်းဆိုင်ရာ Pattern အပေါ် Confidence ပို၍ ရှိစေကြောင်း ဆိုလိုသည်။\n\n၎င်း၏ Report တစ်ခုလုံးတစ်လျှောက် Sensationalized Detail မဟုတ်ဘဲ သင့်လျော်သော သမိုင်းဆိုင်ရာ Seriousness ဖြင့် Subject ကို ကိုယ်စားပြုရန် ၎င်း၏ ဆရာမ ၏ လမ်းညွှန်ချက်ကို လိုက်နာကာ ဤ Evidence က တည်ထောင်ခဲ့သော Documented သမိုင်းဆိုင်ရာ Fact များ, Cause များနှင့် Consequence များအပေါ် Thura Focus ပြုခဲ့သည်။ Secondary 1 ၏ Term 1 မှစ၍ အသုံးပြုခဲ့သော Evidence-Evaluation Discipline အတိအကျကို သမိုင်း၏ Serious, ကောင်းစွာ Documented Subject တစ်ခုပေါ်တွင် အသုံးချသောကြောင့် Project ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Thura research about how historians corroborate testimony?",
+            questionMy:
+                "Historian များ Testimony ကို Corroborate ပြုလုပ်ပုံအကြောင်း Thura Research ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They cross-check details against other testimonies, shipping records, and contemporary accounts",
+              "They rely entirely on a single testimony with no other sources checked",
+              "They ignore all other sources and accept every detail without question",
+              "They refuse to check any testimony against any other documented source",
+            ],
+            optionsMy: [
+              "အခြား Testimony များ, Shipping Record များနှင့် ခေတ်ပြိုင် Account များနှင့် Detail များကို Cross-Check ပြုလုပ်ခြင်း",
+              "Source အခြားများ စစ်ဆေးခြင်း မပါဘဲ Testimony တစ်ခုတည်းအပေါ် လုံးလုံး အားကိုးခြင်း",
+              "အခြား Source များအားလုံးကို လျစ်လျူရှုပြီး မေးခွန်းမထုတ်ဘဲ Detail တိုင်းကို လက်ခံခြင်း",
+              "Documented Source အခြားမည်သည်နှင့်မျှ Testimony မည်သည်ကိုမျှ စစ်ဆေးရန် ငြင်းဆန်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described research."],
+            hintsMy: [
+              "ဖော်ပြထားသော Research ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Thura note that corroboration does not mean?",
+            questionMy:
+                "Corroboration ဆိုလိုသည် မဟုတ်ကြောင်း Thura မှတ်ချက်ပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That every individual experience was identical",
+              "That historians can identify confirmed shared details",
+              "That each testimony represents a specific, valuable account",
+              "That multiple independent sources exist for this period",
+            ],
+            optionsMy: [
+              "Individual Experience တိုင်း Identical ဖြစ်ခြင်း",
+              "Historian များသည် Confirmed Shared Detail များကို ဖော်ထုတ်နိုင်ခြင်း",
+              "Testimony တစ်ခုစီသည် Specific, Valuable Account တစ်ခုကို ကိုယ်စားပြုခြင်း",
+              "ဤကာလအတွက် Independent Source များစွာ ရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated clarification."],
+            hintsMy: [
+              "ဖော်ပြထားသော Clarification ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Thura's report focus on?",
+            questionMy:
+                "Thura ၏ Report Focus ပြုခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented historical facts, causes, and consequences, with appropriate historical seriousness",
+              "Sensationalized detail with no connection to documented facts",
+              "Nothing at all -- the report avoided any historical content",
+              "A topic entirely unrelated to the Middle Passage or its documented history",
+            ],
+            optionsMy: [
+              "သင့်လျော်သော Historical Seriousness ဖြင့် Documented သမိုင်းဆိုင်ရာ Fact များ, Cause များနှင့် Consequence များ",
+              "Documented Fact များနှင့် Connection မရှိသော Sensationalized Detail",
+              "ဘာမှ -- Report သည် သမိုင်းဆိုင်ရာ Content မည်သည်ကိုမျှ ရှောင်ရှားခဲ့ခြင်း",
+              "Middle Passage (သို့) ၎င်း၏ Documented သမိုင်းနှင့် လုံးလုံး မသက်ဆိုင်သော Topic တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated focus."],
+            hintsMy: [
+              "ဖော်ပြထားသော Focus ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w14-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Documented Testimony Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Documented Testimony မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Survivor testimony is valuable because it provides...",
+          questionMy:
+              "Survivor Testimony သည် ...ကို ပေးအပ်သောကြောင့် တန်ဖိုးရှိသည်",
+          optionsEn: [
+            "A firsthand documented account of direct experience",
+            "No actual historical value compared to other sources",
+            "Information entirely unrelated to the period studied",
+            "A source that should never be treated as evidence",
+          ],
+          optionsMy: [
+            "Direct Experience ၏ Firsthand Documented Account",
+            "အခြား Source များနှင့် နှိုင်းယှဉ်ပါက Actual သမိုင်းဆိုင်ရာ Value မရှိခြင်း",
+            "လေ့လာနေသော ကာလနှင့် လုံးလုံး မသက်ဆိုင်သော Information",
+            "Evidence အဖြစ် ဘယ်တော့မှ မသဘောထားသင့်သော Source တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Historians corroborate testimony by...",
+          questionMy:
+              "Historian များသည် ...ဖြင့် Testimony ကို Corroborate ပြုလုပ်ကြသည်",
+          optionsEn: [
+            "Checking it against other independent sources",
+            "Relying on a single account with no further checking",
+            "Ignoring all other available sources entirely",
+            "Refusing to compare it to anything else",
+          ],
+          optionsMy: [
+            "အခြား Independent Source များနှင့် ၎င်းကို စစ်ဆေးခြင်း",
+            "ထပ်ဆောင်း စစ်ဆေးမှု မရှိဘဲ Account တစ်ခုတည်းအပေါ် အားကိုးခြင်း",
+            "ရရှိနိုင်သော အခြား Source အားလုံးကို လုံးလုံး လျစ်လျူရှုခြင်း",
+            "အခြားအရာနှင့် ၎င်းကို နှိုင်းယှဉ်ရန် ငြင်းဆန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "This topic should be studied by focusing on...",
+          questionMy: "ဤ Topic ကို ...အပေါ် Focus ပြု၍ လေ့လာသင့်သည်",
+          optionsEn: [
+            "Documented facts, causes, and consequences with appropriate seriousness",
+            "Graphic or sensationalized descriptions of suffering",
+            "No documented evidence of any kind whatsoever",
+            "Content unrelated to historical facts or evidence",
+          ],
+          optionsMy: [
+            "သင့်လျော်သော Seriousness ဖြင့် Documented Fact များ, Cause များနှင့် Consequence များ",
+            "ဒုက္ခ၏ Graphic (သို့) Sensationalized ဖော်ပြချက်များ",
+            "Documented Evidence မည်သည်မှ လုံးဝ",
+            "သမိုင်းဆိုင်ရာ Fact (သို့) Evidence နှင့် မသက်ဆိုင်သော Content",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 4, Week 15: "Abolition: Legislation,
+// Documented Figures, and Resistance"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek15 = CourseWeekDef(
+  id: "course-sec2-hum-w15",
+  weekNumber: 15,
+  titleEn: "Abolition: Legislation, Documented Figures, and Resistance",
+  titleMy: "Abolition - Legislation, Documented Figures နှင့် Resistance",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w15-d1",
+      dayNumber: 1,
+      titleEn: "How Abolition Actually Happened",
+      titleMy: "Abolition အမှန်တကယ် ဖြစ်ပေါ်ခဲ့ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why do historians describe abolition as the result of multiple documented causes working together (resistance by enslaved people themselves, campaigning abolitionists, economic change, and specific legislation) rather than a single cause?",
+          questionMy:
+              "Historian များသည် Abolition ကို Cause တစ်ခုတည်းအစား Documented Cause များစွာ (ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance, Campaign ဆောင်ရွက်သော Abolitionist များ, စီးပွားရေး ပြောင်းလဲမှုနှင့် Specific Legislation) အတူတကွ လုပ်ဆောင်ခြင်း၏ ရလဒ်အဖြစ် အဘယ်ကြောင့် ဖော်ပြကြသနည်း။",
+          optionsEn: [
+            "Historical evidence documents multiple contributing factors working together over decades, so representing abolition accurately means naming all the documented causes rather than crediting only one",
+            "Abolition had no actual documented causes of any kind",
+            "A single cause fully explains abolition and all other factors should be ignored",
+            "Historians should never examine more than one cause for any historical change",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ Evidence သည် ဆယ်စုနှစ်များစွာအတွင်း အတူတကွ လုပ်ဆောင်ခဲ့သော Contributing Factor များစွာကို Document ပြုလုပ်ထားသောကြောင့် Abolition ကို တိကျစွာ ကိုယ်စားပြုခြင်းဆိုသည်မှာ Cause တစ်ခုတည်းကိုသာ Credit ပေးမည့်အစား Documented Cause အားလုံးကို အမည်တပ်ခြင်း ဖြစ်သည်",
+            "Abolition တွင် Documented Cause မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Cause တစ်ခုတည်းသည် Abolition ကို အပြည့်အဝ ရှင်းပြပြီး အခြား Factor အားလုံးကို လျစ်လျူရှုသင့်ခြင်း",
+            "သမိုင်းဆိုင်ရာ ပြောင်းလဲမှု မည်သည့်အတွက်မဆို Cause တစ်ခုထက် ပို၍ Historian များ ဘယ်တော့မှ မစစ်ဆေးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle taught since Secondary 2's Term 3 work on colonial impact -- historical change usually has several documented contributing factors.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Colonial Impact အပေါ် Secondary 2 ၏ Term 3 အလုပ်မှ သင်ကြားခဲ့သော Multi-Causation Principle တူတူ ဖြစ်သည် -- သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် များသောအားဖြင့် Documented Contributing Factor များစွာ ရှိတတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it historically important to document resistance by enslaved people themselves (uprisings, self-liberation, organized revolts such as the Haitian Revolution) as a documented cause of abolition, not just the actions of outside campaigners?",
+          questionMy:
+              "Outside Campaigner များ၏ လုပ်ဆောင်ချက်များသာမက ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance (Uprising များ, Self-Liberation, Haitian Revolution ကဲ့သို့ Organized Revolt များ) ကို Abolition ၏ Documented Cause တစ်ခုအဖြစ် Document ပြုလုပ်ရန် သမိုင်းအရ အရေးကြီးသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Accurate history documents enslaved people as historical agents who actively shaped events, not only as people things happened to, which is the same balanced-account principle used for colonial-impact history",
+            "Resistance by enslaved people has no actual documented historical significance",
+            "Only outside campaigners should be credited with any historical change of this period",
+            "Historical agency should never be attributed to any group during this period",
+          ],
+          optionsMy: [
+            "တိကျသော သမိုင်းသည် ကျွန်ခံခဲ့ရသူများကို Event ဖြစ်ပေါ်ရာတွင် ရှိနေသူများအဖြစ်သာမက Event များကို တက်ကြွစွာ ပုံဖော်ခဲ့သော သမိုင်းဆိုင်ရာ Agent များအဖြစ် Document ပြုလုပ်ပြီး Colonial-Impact သမိုင်းအတွက် အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည်",
+            "ကျွန်ခံခဲ့ရသူများ၏ Resistance တွင် Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိခြင်း",
+            "ဤကာလ၏ သမိုင်းဆိုင်ရာ ပြောင်းလဲမှု မည်သည်ကိုမဆို Outside Campaigner များကိုသာ Credit ပေးသင့်ခြင်း",
+            "ဤကာလအတွင်း Group မည်သည်ကိုမျှ Historical Agency ဘယ်တော့မှ မသတ်မှတ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Week 11's colonial-impact balanced account -- documenting the agency of colonized/enslaved people themselves, not only outside actors, is the same historical discipline.",
+          ],
+          hintsMy: [
+            "Week 11 ၏ Colonial-Impact Balanced Account ကို သတိရပါ -- Outside Actor များသာမက ကိုလိုနီဖြစ်ခဲ့ရသူ/ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Agency ကို Document ပြုလုပ်ခြင်းသည် သမိုင်းဆိုင်ရာ Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students citing abolition legislation (such as Britain's 1807 Slave Trade Act or 1833 Slavery Abolition Act) name the specific documented year and what it actually did, rather than describing abolition vaguely as one single unspecified event?",
+          questionMy:
+              "Britain ၏ 1807 Slave Trade Act (သို့) 1833 Slavery Abolition Act ကဲ့သို့ Abolition Legislation ကို Cite ပြုလုပ်သော Student များသည် Abolition ကို Unspecified Event တစ်ခုတည်းအဖြစ် Vague စွာ ဖော်ပြမည့်အစား Documented Year တိကျနှင့် ၎င်း Actual ပြုလုပ်ခဲ့သည့်အရာကို အဘယ်ကြောင့် အမည်တပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "Citing specific documented dates and legislative content is the same evidence-based precision habit taught since Term 1, and it also shows abolition was a gradual, staged legal process rather than one single moment",
+            "Specific dates and legislative content have no actual value when studying this period",
+            "Vague, unspecified descriptions are always more historically accurate than specific documented citations",
+            "Legislation should never be cited with any specific date or content",
+          ],
+          optionsMy: [
+            "Specific Documented Date များနှင့် Legislative Content ကို Cite ပြုလုပ်ခြင်းသည် Term 1 မှစ၍ သင်ကြားခဲ့သော Evidence-Based Precision အလေ့အထ တူတူ ဖြစ်ပြီး Abolition သည် Single Moment တစ်ခုတည်းအစား Gradual, Staged Legal Process တစ်ခု ဖြစ်ကြောင်းလည်း ပြသသည်",
+            "Specific Date များနှင့် Legislative Content တွင် ဤကာလ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Vague, Unspecified ဖော်ပြချက်များသည် Specific Documented Citation များထက် သမိုင်းအရ ပို၍ တိကျသည်",
+            "Legislation ကို Specific Date (သို့) Content မည်သည်နှင့်မျှ ဘယ်တော့မှ Cite မပြုလုပ်သင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1's specific citation discipline, applied to legislation dates.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Legislation Date များပေါ်တွင် အသုံးချထားသော Term 1 ၏ Specific Citation Discipline မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Abolition Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Abolition Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w15-dm-1",
+          termEn: "Slave Trade Act, 1807",
+          termMy: "Slave Trade Act, 1807",
+          matchEn:
+              "Documented British legislation banning the transatlantic trading of enslaved people",
+          matchMy:
+              "ကျွန်ခံခဲ့ရသူများ၏ Transatlantic ကုန်သွယ်မှုကို ပိတ်ပင်ထားသော Documented British Legislation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w15-dm-2",
+          termEn: "Slavery Abolition Act, 1833",
+          termMy: "Slavery Abolition Act, 1833",
+          matchEn:
+              "Documented British legislation ending slavery itself across most of the British Empire",
+          matchMy:
+              "British Empire အများစုတစ်လျှောက် ကျွန်စနစ်ကိုယ်တိုင် ရပ်စဲစေသော Documented British Legislation",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w15-dm-3",
+          termEn: "Haitian Revolution",
+          termMy: "Haitian Revolution",
+          matchEn:
+              "A documented successful uprising by enslaved people that established an independent nation",
+          matchMy:
+              "လွတ်လပ်သော နိုင်ငံတစ်ခုကို တည်ထောင်ခဲ့သော ကျွန်ခံခဲ့ရသူများ၏ Documented အောင်မြင်သော Uprising",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w15-dm-4",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "The historical principle that major change usually results from several documented factors together",
+          matchMy:
+              "Major ပြောင်းလဲမှုသည် များသောအားဖြင့် Documented Factor များစွာ ပေါင်းစပ်ခြင်းမှ ဖြစ်ပေါ်လာသည်ဟူသော သမိုင်းဆိုင်ရာ Principle",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Contributing Cause or Not a Documented Cause?",
+      titleMy:
+          "စီစစ်ကြမည် - Contributing Cause (သို့) Documented Cause မဟုတ်ပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Contributing Cause", "Not a Documented Cause"],
+        bucketsMy: [
+          "Documented Contributing Cause",
+          "Documented Cause မဟုတ်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w15-sort-1",
+            labelEn:
+                "Organized uprisings and self-liberation by enslaved people",
+            labelMy:
+                "ကျွန်ခံခဲ့ရသူများ၏ Organized Uprising များနှင့် Self-Liberation",
+            correctBucketEn: "Documented Contributing Cause",
+            correctBucketMy: "Documented Contributing Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w15-sort-2",
+            labelEn:
+                "Campaigning by abolitionists who petitioned lawmakers with documented evidence",
+            labelMy:
+                "Documented Evidence ဖြင့် Lawmaker များကို Petition တင်ခဲ့သော Abolitionist များ၏ Campaign ပြုလုပ်ခြင်း",
+            correctBucketEn: "Documented Contributing Cause",
+            correctBucketMy: "Documented Contributing Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w15-sort-3",
+            labelEn:
+                "Specific legislation passed by lawmaking bodies at documented dates",
+            labelMy:
+                "Documented Date များတွင် Lawmaking Body များက ဖြတ်သန်းခဲ့သော Specific Legislation",
+            correctBucketEn: "Documented Contributing Cause",
+            correctBucketMy: "Documented Contributing Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w15-sort-4",
+            labelEn:
+                "A single unspecified event with no supporting documented evidence at all",
+            labelMy:
+                "Supporting Documented Evidence လုံးလုံး မရှိသော Unspecified Event တစ်ခုတည်း",
+            correctBucketEn: "Not a Documented Cause",
+            correctBucketMy: "Documented Cause မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sandar's Multi-Cause Report",
+      titleMy: "စာဖတ်ခြင်း - Sandar ၏ Multi-Cause Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sandar's Multi-Cause Report",
+        titleMy: "Sandar ၏ Multi-Cause Report",
+        passageEn:
+            "For her Week 15 assignment, Sandar was asked to explain why abolition happened, and her first draft named only one cause: campaigning abolitionists who wrote and petitioned lawmakers. Her teacher returned the draft with a note applying the multi-causation principle from Term 3's colonial-impact work -- had she checked whether other documented factors contributed too?\n\nSandar researched further and found that historians document several factors working together. Enslaved people themselves resisted through uprisings and self-liberation -- most notably the Haitian Revolution, a successful, documented uprising that established an independent nation and sent shockwaves through every slaveholding society that followed it. Campaigning abolitionists gathered documented testimony and petitioned lawmakers directly. Economic conditions were shifting in ways historians continue to debate and study. And specific legislation -- Britain's 1807 Slave Trade Act banning the trade itself, followed by the 1833 Slavery Abolition Act ending slavery across most of the British Empire -- turned changing public and political opinion into binding law.\n\nSandar rewrote her report naming all four documented factors and their approximate order, being careful to represent enslaved people's own resistance as a historical cause in its own right rather than a footnote to outside campaigners' efforts. Her teacher praised the revision for applying the exact balanced, multi-causal, specifically-dated approach used consistently since Term 1.",
+        passageMy:
+            "၎င်း၏ Week 15 Assignment အတွက် Abolition အဘယ်ကြောင့် ဖြစ်ပေါ်ခဲ့သည်ကို ရှင်းပြရန် Sandar အား တောင်းဆိုခဲ့ပြီး ၎င်း၏ ပထမဆုံး Draft တွင် Cause တစ်ခုတည်းကိုသာ အမည်တပ်ခဲ့သည် -- Lawmaker များထံ ရေးသားပြီး Petition တင်ခဲ့သော Campaign ဆောင်ရွက်သော Abolitionist များ။ Term 3 ၏ Colonial-Impact အလုပ်မှ Multi-Causation Principle ကို အသုံးချကာ Note တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာမ Draft ကို ပြန်ပေးခဲ့သည် -- အခြား Documented Factor များလည်း ပါဝင်ကြောင်း ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nHistorian များသည် အတူတကွ လုပ်ဆောင်ခဲ့သော Factor များစွာကို Document ပြုလုပ်ကြောင်း Sandar ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင် Uprising များနှင့် Self-Liberation ဖြင့် Resist ပြုလုပ်ခဲ့ကြသည် -- အထူးသဖြင့် Haitian Revolution, လွတ်လပ်သော နိုင်ငံတစ်ခုကို တည်ထောင်ခဲ့ပြီး ၎င်းကို လိုက်နာခဲ့သည့် ကျွန်စနစ် ကိုင်ဆောင်သော Society တိုင်းကို လှုပ်ခါစေခဲ့သော Successful, Documented Uprising တစ်ခု ဖြစ်သည်။ Campaign ဆောင်ရွက်သော Abolitionist များသည် Documented Testimony များ စုဆောင်းကာ Lawmaker များထံ တိုက်ရိုက် Petition တင်ခဲ့ကြသည်။ Historian များ ဆက်လက် ငြင်းခုံ, လေ့လာနေဆဲဖြစ်သော ပုံစံများဖြင့် စီးပွားရေး အခြေအနေများ ပြောင်းလဲနေခဲ့သည်။ ထို့အပြင် Specific Legislation -- ကုန်သွယ်မှုကိုယ်တိုင် ပိတ်ပင်ထားသော Britain ၏ 1807 Slave Trade Act, ဆက်လက်၍ British Empire အများစုတစ်လျှောက် ကျွန်စနစ် ရပ်စဲစေသော 1833 Slavery Abolition Act -- သည် ပြောင်းလဲနေသော Public နှင့် Political Opinion ကို Binding Law အဖြစ် ပြောင်းလဲပေးခဲ့သည်။\n\nOutside Campaigner များ၏ ကြိုးပမ်းမှုများ၏ Footnote တစ်ခုအဖြစ်မဟုတ်ဘဲ ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance ကို သမိုင်းဆိုင်ရာ Cause တစ်ခုအဖြစ် ကိုယ်စားပြုရန် သတိထားကာ Documented Factor လေးခုစလုံးနှင့် ၎င်းတို့၏ Approximate Order ကို အမည်တပ်၍ Sandar ၏ Report ကို ပြန်လည် ရေးသားခဲ့သည်။ Term 1 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော Balanced, Multi-Causal, Specifically-Dated Approach အတိအကျကို အသုံးချသောကြောင့် Revision ကို ၎င်း၏ ဆရာမ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Sandar's first draft?",
+            questionMy:
+                "Sandar ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Consideration of other documented contributing factors beyond campaigning abolitionists",
+              "Any mention of abolitionists at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Campaign ဆောင်ရွက်သော Abolitionist များထက် ကျော်လွန်သော အခြား Documented Contributing Factor များ စဉ်းစားခြင်း",
+              "Abolitionist များ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာမ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the Haitian Revolution establish?",
+            questionMy:
+                "Haitian Revolution တည်ထောင်ခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "An independent nation, through a successful documented uprising",
+              "No documented historical outcome of any kind",
+              "A continuation of the trade with no actual change",
+              "An outcome unrelated to enslaved people's own resistance",
+            ],
+            optionsMy: [
+              "Successful Documented Uprising တစ်ခုမှတစ်ဆင့် လွတ်လပ်သော နိုင်ငံတစ်ခု",
+              "Documented သမိုင်းဆိုင်ရာ Outcome မည်သည် အမျိုးအစားမှ",
+              "Actual ပြောင်းလဲမှု မရှိသော ကုန်သွယ်မှု ဆက်လက်ခြင်း",
+              "ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် မသက်ဆိုင်သော Outcome",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's description of the Haitian Revolution.",
+            ],
+            hintsMy: [
+              "Haitian Revolution ၏ ဖော်ပြချက်ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Sandar revise her report?",
+            questionMy:
+                "Sandar ၏ Report ကို မည်သို့ Revise ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By naming all four documented factors and representing enslaved people's resistance as a cause in its own right",
+              "By removing every documented cause from the report entirely",
+              "By naming only one cause and ignoring all others",
+              "By making no changes to the original draft at all",
+            ],
+            optionsMy: [
+              "Documented Factor လေးခုစလုံးကို အမည်တပ်ကာ ကျွန်ခံခဲ့ရသူများ၏ Resistance ကို Cause တစ်ခုအဖြစ် ကိုယ်တိုင် ကိုယ်စားပြုခြင်းဖြင့်",
+              "Documented Cause အားလုံးကို Report မှ လုံးလုံး ဖယ်ရှားခြင်းဖြင့်",
+              "Cause တစ်ခုတည်းကိုသာ အမည်တပ်ပြီး အခြားအားလုံးကို လျစ်လျူရှုခြင်းဖြင့်",
+              "မူလ Draft ကို ပြောင်းလဲမှု လုံးလုံး မပြုလုပ်ဘဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's description of the revision.",
+            ],
+            hintsMy: [
+              "Revision ၏ ဖော်ပြချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w15-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Abolition Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Abolition မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Historians describe abolition as resulting from...",
+          questionMy:
+              "Historian များသည် Abolition ကို ...မှ ဖြစ်ပေါ်ကြောင်း ဖော်ပြကြသည်",
+          optionsEn: [
+            "Multiple documented causes working together",
+            "A single unspecified cause alone",
+            "No documented causes of any kind",
+            "Causes unrelated to any historical evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause များစွာ",
+            "Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "သမိုင်းဆိုင်ရာ Evidence မည်သည်နှင့်မျှ မသက်ဆိုင်သော Cause များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Haitian Revolution is documented as...",
+          questionMy: "Haitian Revolution ကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "A successful uprising by enslaved people establishing an independent nation",
+            "An event with no documented historical significance",
+            "An action unrelated to enslaved people's own resistance",
+            "A legislative act passed by a parliament",
+          ],
+          optionsMy: [
+            "လွတ်လပ်သော နိုင်ငံတစ်ခုကို တည်ထောင်ခဲ့သော ကျွန်ခံခဲ့ရသူများ၏ Successful Uprising",
+            "Documented သမိုင်းဆိုင်ရာ Significance မရှိသော Event",
+            "ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် မသက်ဆိုင်သော Action",
+            "Parliament တစ်ခုက ဖြတ်သန်းခဲ့သော Legislative Act",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Citing legislation with specific documented years matters because it...",
+          questionMy:
+              "Specific Documented Year များဖြင့် Legislation ကို Cite ပြုလုပ်ခြင်းသည် ...ကြောင့် အရေးကြီးသည်",
+          optionsEn: [
+            "Shows abolition was a gradual, staged legal process with precise evidence",
+            "Has no actual value when studying this period",
+            "Should always be replaced with vague, unspecified descriptions",
+            "Applies only to topics unrelated to historical legislation",
+          ],
+          optionsMy: [
+            "Abolition သည် Precise Evidence ဖြင့် Gradual, Staged Legal Process တစ်ခု ဖြစ်ကြောင်း ပြသသည်",
+            "ဤကာလ လေ့လာရာတွင် Actual Value မရှိခြင်း",
+            "Vague, Unspecified ဖော်ပြချက်များဖြင့် အမြဲ အစားထိုးသင့်ခြင်း",
+            "သမိုင်းဆိုင်ရာ Legislation နှင့် မသက်ဆိုင်သော Topic များတွင်သာ သက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 4, Week 16 (Capstone / Boss Week):
+// "Voices of Abolition Project"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek16 = CourseWeekDef(
+  id: "course-sec2-hum-w16",
+  weekNumber: 16,
+  titleEn: "Capstone: Voices of Abolition Project",
+  titleMy: "Capstone - Voices of Abolition Project",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w16-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 4 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 4 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's 'Voices of Abolition' project must combine a survivor-testimony source, a shipping/legislative record, and a documented abolitionist or resistance figure. Why require three different kinds of documented sources rather than just one?",
+          questionMy:
+              "Student ၏ 'Voices of Abolition' Project သည် Survivor-Testimony Source, Shipping/Legislative Record နှင့် Documented Abolitionist (သို့) Resistance Figure တစ်ခုကို ပေါင်းစပ်ရမည်။ Source တစ်ခုတည်းသာမက Documented Source အမျိုးအစား သုံးမျိုး အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "Combining testimony, records, and documented figures models the corroboration and balanced-account discipline taught throughout this term -- multiple independent evidence types together give a fuller, more reliable picture than any one source alone",
+            "Requiring three source types has no actual evidence-based value",
+            "A single source type is always sufficient and additional sources add nothing",
+            "The number and type of sources used should never actually matter",
+          ],
+          optionsMy: [
+            "Testimony, Record များနှင့် Documented Figure များ ပေါင်းစပ်ခြင်းသည် ဤ Term တစ်လျှောက် သင်ကြားခဲ့သော Corroboration နှင့် Balanced-Account Discipline ကို Model ပြုလုပ်ပြီး Independent Evidence အမျိုးအစားများစွာ အတူတကွသည် Source တစ်ခုတည်းထက် ပို၍ ပြည့်စုံ, ယုံကြည်ရသော ပုံရိပ်ကို ပေးအပ်သည်",
+            "Source အမျိုးအစား သုံးမျိုး လိုအပ်ခြင်းတွင် Actual Evidence-Based Value မရှိခြင်း",
+            "Source အမျိုးအစား တစ်ခုတည်းသည် အမြဲ လုံလောက်ပြီး ထပ်တိုး Source များက ဘာမျှ မထည့်သွင်းခြင်း",
+            "အသုံးပြုသော Source အရေအတွက်နှင့် အမျိုးအစားသည် ဘယ်တော့မှ အမှန်တကယ် ကိစ္စမရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same corroboration/balanced-account discipline from Weeks 13, 14, and 15, now combined into one project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13, 14 နှင့် 15 မှ Corroboration/Balanced-Account Discipline တူတူ ဖြစ်ပြီး Project တစ်ခုအဖြစ် ယခု ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes this whole term's subject with graphic, sensationalized detail instead of documented facts and causes. Following this term's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Documented Fact များနှင့် Cause များအစား Graphic, Sensationalized Detail ဖြင့် ဤ Term တစ်ခုလုံး၏ Subject ကို ဖော်ပြထားသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to focus on documented facts, causes, and consequences with appropriate historical seriousness, matching the same gravity used for the IGCSE Holocaust unit",
+            "Nothing -- graphic, sensationalized detail is the required and correct approach for this term",
+            "Remove all documented evidence from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "IGCSE Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူဖြင့် သင့်လျော်သော သမိုင်းဆိုင်ရာ Seriousness ဖြင့် Documented Fact များ, Cause များနှင့် Consequence များပေါ်တွင် Focus ပြု၍ Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Graphic, Sensationalized Detail သည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same historical-gravity standard stated explicitly at the start of Week 13 and reinforced every week since.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 13 အစတွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့ပြီး Week တိုင်းတွင် ထပ်မံ အားဖြည့်ခဲ့သော Historical-Gravity Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why does this project deliberately require representing enslaved people's own documented resistance (such as the Haitian Revolution) alongside outside abolitionist campaigning, rather than only the latter?",
+          questionMy:
+              "ဤ Project သည် Outside Abolitionist Campaign ပြုလုပ်ခြင်းနောက်ပိုင်းသာမက ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Documented Resistance (Haitian Revolution ကဲ့သို့) ကို ကိုယ်စားပြုရန် တမင် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A balanced, accurate historical account represents every major documented dimension including the agency of the people most directly affected, not only outside actors' contributions",
+            "Enslaved people's own resistance should never be represented in any historical account",
+            "Only outside campaigners' actions have any documented historical significance",
+            "Balance and accuracy have no actual role in historical project work",
+          ],
+          optionsMy: [
+            "Balanced, Accurate သမိုင်းဆိုင်ရာ Account သည် Outside Actor များ၏ Contribution များသာမက တိုက်ရိုက် အကျိုးသက်ရောက်ခဲ့ဆုံး လူများ၏ Agency အပါအဝင် Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance ကို သမိုင်းဆိုင်ရာ Account မည်သည်တွင်မျှ ဘယ်တော့မှ မကိုယ်စားပြုသင့်ခြင်း",
+            "Outside Campaigner များ၏ Action များသာ Documented သမိုင်းဆိုင်ရာ Significance ရှိခြင်း",
+            "Balance နှင့် Accuracy သည် သမိုင်းဆိုင်ရာ Project အလုပ်တွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account principle established since Week 11's colonial-impact work and reinforced in Week 15's multi-causation report.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Colonial-Impact အလုပ်မှစ၍ တည်ထောင်ခဲ့ပြီး Week 15 ၏ Multi-Causation Report တွင် ထပ်မံ အားဖြည့်ခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 4 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w16-dm-1",
+          termEn: "Triangular trade",
+          termMy: "Triangular Trade",
+          matchEn:
+              "The documented three-part trade route connecting Europe, West Africa, and the Americas",
+          matchMy:
+              "Europe, West Africa နှင့် Americas ကို ချိတ်ဆက်ထားသော Documented Three-Part ကုန်သွယ်မှု လမ်းကြောင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w16-dm-2",
+          termEn: "Survivor testimony",
+          termMy: "Survivor Testimony",
+          matchEn:
+              "A firsthand documented account from someone who directly experienced these events",
+          matchMy:
+              "ဤ Event များကို တိုက်ရိုက် ကြုံတွေ့ခဲ့ရသူထံမှ Firsthand Documented Account",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w16-dm-3",
+          termEn: "Slavery Abolition Act, 1833",
+          termMy: "Slavery Abolition Act, 1833",
+          matchEn:
+              "Documented British legislation ending slavery across most of the British Empire",
+          matchMy:
+              "British Empire အများစုတစ်လျှောက် ကျွန်စနစ် ရပ်စဲစေသော Documented British Legislation",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w16-dm-4",
+          termEn: "Balanced multi-causal account",
+          termMy: "Balanced Multi-Causal Account",
+          matchEn:
+              "A historical account representing every major documented factor and dimension fairly",
+          matchMy:
+              "Major Documented Factor နှင့် Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုသော သမိုင်းဆိုင်ရာ Account",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Project Checklist",
+      titleMy: "စီစစ်ကြမည် - Project Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Project",
+          "Not Appropriate for the Project",
+        ],
+        bucketsMy: ["Project တွင် လိုအပ်သည်", "Project အတွက် မသင့်လျော်ပါ"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w16-sort-1",
+            labelEn:
+                "Documented facts, causes, and consequences presented with historical seriousness",
+            labelMy:
+                "သမိုင်းဆိုင်ရာ Seriousness ဖြင့် တင်ပြထားသော Documented Fact များ, Cause များနှင့် Consequence များ",
+            correctBucketEn: "Required in the Project",
+            correctBucketMy: "Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w16-sort-2",
+            labelEn:
+                "Representation of enslaved people's own documented resistance and agency",
+            labelMy:
+                "ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Documented Resistance နှင့် Agency ကို ကိုယ်စားပြုခြင်း",
+            correctBucketEn: "Required in the Project",
+            correctBucketMy: "Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w16-sort-3",
+            labelEn:
+                "Specific, corroborated documented sources cited with dates and origin",
+            labelMy:
+                "Date များနှင့် Origin တို့ဖြင့် Cite ပြုလုပ်ထားသော Specific, Corroborated Documented Source များ",
+            correctBucketEn: "Required in the Project",
+            correctBucketMy: "Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w16-sort-4",
+            labelEn:
+                "Graphic, sensationalized description with no documented evidence behind it",
+            labelMy:
+                "နောက်ကွယ်တွင် Documented Evidence မရှိသော Graphic, Sensationalized ဖော်ပြချက်",
+            correctBucketEn: "Not Appropriate for the Project",
+            correctBucketMy: "Project အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nay Chi's Capstone Presentation",
+      titleMy: "စာဖတ်ခြင်း - Nay Chi ၏ Capstone Presentation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nay Chi's Capstone Presentation",
+        titleMy: "Nay Chi ၏ Capstone Presentation",
+        passageEn:
+            "For the Term 4 capstone, Nay Chi built her 'Voices of Abolition' project around three documented sources: a written survivor testimony describing the Middle Passage, a copy of the 1807 Slave Trade Act's key provisions, and a short profile of the Haitian Revolution as a documented, successful uprising led by formerly enslaved people themselves.\n\nBefore presenting, she reviewed her teacher's Term 4 standard one final time: every claim needed a specific documented source, no graphic or sensationalized detail was permitted, and the presentation had to represent multiple documented dimensions -- the trade's true scale, survivor testimony as evidence, campaigning abolitionists' petitions, enslaved people's own resistance, and the specific legislation that eventually made abolition binding law. She checked her draft against this list line by line, exactly the way she had checked her Term 3 colonial-impact report against a similar balance checklist.\n\nDuring her presentation, a classmate asked why she had included the Haitian Revolution alongside the British legislation, since the assignment was framed around abolition law. Nay Chi explained that a balanced, accurate account has to represent enslaved people as historical agents who shaped events themselves, not only as people that laws were eventually passed about -- the same principle her class had applied since Week 11's work on colonial impact. Her teacher confirmed this was exactly the reasoning the capstone was designed to test, and awarded the project full marks for combining corroborated evidence, balanced representation, and consistent historical seriousness across all four weeks of the term.",
+        passageMy:
+            "Term 4 Capstone အတွက် Documented Source သုံးခုကို ပတ်ပါလျက် ၎င်း၏ 'Voices of Abolition' Project ကို Nay Chi တည်ဆောက်ခဲ့သည် -- Middle Passage ကို ဖော်ပြသော ရေးသား Survivor Testimony တစ်ခု, 1807 Slave Trade Act ၏ Key Provision များ မိတ္တူတစ်ခုနှင့် ယခင် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင် ဦးဆောင်ခဲ့သော Documented, Successful Uprising တစ်ခုအဖြစ် Haitian Revolution ၏ Profile တိုတောင်းတစ်ခု။\n\nတင်ပြခြင်း မပြုလုပ်မီ ၎င်း၏ ဆရာမ Term 4 Standard ကို နောက်ဆုံးအကြိမ် ပြန်လည်သုံးသပ်ခဲ့သည် -- Claim တိုင်းသည် Specific Documented Source လိုအပ်ပြီး Graphic (သို့) Sensationalized Detail မည်သည်ကိုမျှ ခွင့်မပြုဘဲ Presentation သည် Documented Dimension များစွာ -- ကုန်သွယ်မှု၏ True Scale, Evidence အဖြစ် Survivor Testimony, Campaign ဆောင်ရွက်သော Abolitionist များ၏ Petition, ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် နောက်ဆုံးတွင် Abolition ကို Binding Law ဖြစ်စေခဲ့သော Specific Legislation -- ကို ကိုယ်စားပြုရမည်။ ၎င်း၏ Term 3 Colonial-Impact Report ကို ဆင်တူသော Balance Checklist တစ်ခုနှင့် စစ်ဆေးခဲ့သည့်နည်းအတိုင်း ၎င်း၏ Draft ကို ဤ List နှင့် Line By Line စစ်ဆေးခဲ့သည်။\n\n၎င်း၏ Presentation အတွင်း Assignment သည် Abolition Law ပတ်လည် Frame ပြုလုပ်ထားသောကြောင့် British Legislation နှင့်အတူ Haitian Revolution ကို အဘယ်ကြောင့် ထည့်သွင်းခဲ့သည်ကို Classmate တစ်ဦးက မေးခဲ့သည်။ Balanced, Accurate Account တစ်ခုသည် ကျွန်ခံခဲ့ရသူများကို နောက်ဆုံးတွင် Law များ ပြဋ္ဌာန်းခဲ့ရသည့် လူများအဖြစ်သာမက Event များကို ကိုယ်တိုင် ပုံဖော်ခဲ့သော သမိုင်းဆိုင်ရာ Agent များအဖြစ် ကိုယ်စားပြုရမည် -- ၎င်း၏ Class သည် Week 11 ၏ Colonial Impact အလုပ်မှစ၍ အသုံးချခဲ့သော Principle တူတူ ဖြစ်ကြောင်း Nay Chi ရှင်းပြခဲ့သည်။ ဤသည်ကား Capstone စမ်းသပ်ရန် Design ပြုလုပ်ထားသော Reasoning အတိအကျ ဖြစ်ကြောင်း ၎င်း၏ ဆရာမ အတည်ပြုခဲ့ပြီး Corroborated Evidence, Balanced Representation နှင့် Term တစ်လျှောက်လုံး တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ခဲ့သောကြောင့် Project ကို Full Marks ချီးမြှင့်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what three documented sources did Nay Chi's project combine?",
+            questionMy:
+                "Nay Chi ၏ Project ပေါင်းစပ်ခဲ့သည့် Documented Source သုံးခုကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Survivor testimony, the 1807 Slave Trade Act, and a profile of the Haitian Revolution",
+              "Only a single unspecified source with no documented origin",
+              "Sources unrelated to this term's subject matter entirely",
+              "Graphic descriptions with no documented evidence behind them",
+            ],
+            optionsMy: [
+              "Survivor Testimony, 1807 Slave Trade Act နှင့် Haitian Revolution ၏ Profile",
+              "Documented Origin မရှိသော Unspecified Source တစ်ခုတည်း",
+              "ဤ Term ၏ Subject Matter နှင့် လုံးလုံး မသက်ဆိုင်သော Source များ",
+              "နောက်ကွယ်တွင် Documented Evidence မရှိသော Graphic ဖော်ပြချက်များ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's listed sources."],
+            hintsMy: [
+              "ဖော်ပြထားသော Source များကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Nay Chi's Term 4 standard require of every claim?",
+            questionMy:
+                "Claim တိုင်းအတွက် Nay Chi ၏ Term 4 Standard လိုအပ်ချက်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A specific documented source, with no graphic or sensationalized detail",
+              "No documented source of any kind was required",
+              "Graphic, sensationalized detail was required for every claim",
+              "Claims did not need to be checked against any standard at all",
+            ],
+            optionsMy: [
+              "Graphic (သို့) Sensationalized Detail မပါဘဲ Specific Documented Source",
+              "Documented Source မည်သည် အမျိုးအစားမှ မလိုအပ်ခြင်း",
+              "Claim တိုင်းအတွက် Graphic, Sensationalized Detail လိုအပ်ခြင်း",
+              "Standard မည်သည်နှင့်မျှ Claim များကို စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated standard."],
+            hintsMy: [
+              "ဖော်ပြထားသော Standard ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Nay Chi include the Haitian Revolution alongside the British legislation?",
+            questionMy:
+                "British Legislation နှင့်အတူ Haitian Revolution ကို Nay Chi အဘယ်ကြောင့် ထည့်သွင်းခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A balanced, accurate account must represent enslaved people as historical agents who shaped events themselves",
+              "The Haitian Revolution had no actual documented connection to this term's subject",
+              "Only legislation should ever be represented in a balanced historical account",
+              "She included it by mistake and it should have been removed",
+            ],
+            optionsMy: [
+              "Balanced, Accurate Account သည် ကျွန်ခံခဲ့ရသူများကို Event များကို ကိုယ်တိုင် ပုံဖော်ခဲ့သော သမိုင်းဆိုင်ရာ Agent များအဖြစ် ကိုယ်စားပြုရမည်",
+              "Haitian Revolution တွင် ဤ Term ၏ Subject နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Legislation ကိုသာ Balanced သမိုင်းဆိုင်ရာ Account တွင် ဘယ်တော့မှ ကိုယ်စားပြုသင့်ခြင်း",
+              "၎င်းကို အမှားအားဖြင့် ထည့်သွင်းခဲ့ပြီး ဖယ်ရှားသင့်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းပြချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Recap: The Transatlantic Slave Trade and Its Legacy",
+      titleMy:
+          "Term 4 ပြန်လည်သုံးသပ်ခြင်း - Transatlantic Slave Trade နှင့် ၎င်း၏ Legacy",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The triangular trade connected...",
+          questionMy: "Triangular Trade သည် ...ကို ချိတ်ဆက်ခဲ့သည်",
+          optionsEn: [
+            "Europe, West Africa, and the Americas in a documented three-part route",
+            "Only two documented locations with no third leg",
+            "Regions unrelated to any documented historical trade",
+            "A single port with no onward documented route",
+          ],
+          optionsMy: [
+            "Documented Three-Part လမ်းကြောင်းတွင် Europe, West Africa နှင့် Americas",
+            "တတိယ Leg မပါဘဲ Documented Location နှစ်ခုသာ",
+            "Documented သမိုင်းဆိုင်ရာ ကုန်သွယ်မှု မည်သည်နှင့်မျှ မသက်ဆိုင်သော Region များ",
+            "Onward Documented Route မရှိသော Port တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Historians corroborate survivor testimony by...",
+          questionMy:
+              "Historian များသည် Survivor Testimony ကို ...ဖြင့် Corroborate ပြုလုပ်ကြသည်",
+          optionsEn: [
+            "Checking it against other independent documented sources",
+            "Relying on a single account alone with no further checking",
+            "Ignoring all other available sources entirely",
+            "Refusing to compare testimony to any other evidence",
+          ],
+          optionsMy: [
+            "အခြား Independent Documented Source များနှင့် ၎င်းကို စစ်ဆေးခြင်း",
+            "ထပ်ဆောင်း စစ်ဆေးမှု မရှိဘဲ Account တစ်ခုတည်းအပေါ် အားကိုးခြင်း",
+            "ရရှိနိုင်သော အခြား Source အားလုံးကို လုံးလုံး လျစ်လျူရှုခြင်း",
+            "Evidence အခြားမည်သည်နှင့်မျှ Testimony ကို နှိုင်းယှဉ်ရန် ငြင်းဆန်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Abolition is documented as resulting from...",
+          questionMy:
+              "Abolition ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented causes including resistance, campaigning, and legislation together",
+            "A single unspecified cause with no supporting evidence",
+            "Legislation alone with no other contributing factor",
+            "No documented cause of any kind",
+          ],
+          optionsMy: [
+            "Resistance, Campaign ဆောင်ရွက်ခြင်းနှင့် Legislation အပါအဝင် Documented Cause များစွာ အတူတကွ",
+            "Supporting Evidence မရှိသော Unspecified Cause တစ်ခုတည်း",
+            "အခြား Contributing Factor မပါဘဲ Legislation တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 4: "The Transatlantic Slave Trade and
+// Its Legacy" (Weeks 13-16). Handled with the same historical-
+// documentation rigor and gravity as the IGCSE Humanities Holocaust
+// unit: grounded entirely in documented primary/secondary sources,
+// honest representation of true documented scale without minimizing or
+// exaggerating, no graphic content, balanced accounts representing
+// every major documented dimension (the trade's structure, survivor
+// testimony, campaigning abolitionists, enslaved people's own
+// documented resistance, and specific legislation), and specific
+// citations (named acts, dated legislation, corroborated sources) over
+// vague generalizations.
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm4 = CourseTermDef(
+  id: "course-sec2-hum-t4",
+  termNumber: 4,
+  titleEn: "The Transatlantic Slave Trade and Its Legacy",
+  titleMy: "Transatlantic Slave Trade နှင့် ၎င်း၏ Legacy",
+  certificateTitleEn: "Transatlantic Slave Trade and Its Legacy Certificate",
+  certificateTitleMy:
+      "Transatlantic Slave Trade နှင့် ၎င်း၏ Legacy သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec2HumWeek13, _sec2HumWeek14, _sec2HumWeek15, _sec2HumWeek16],
 );
 // __SEC_HUM_MARKER__
