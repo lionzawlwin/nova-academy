@@ -102058,7 +102058,8 @@ const CourseTermDef _igcseHumTerm9 = CourseTermDef(
 // __IGCSE_HUM_MARKER__
 
 // =====================================================================
-// Secondary 1 Humanities (Year 7) -- "Foundations of the Ancient and
+// Secondary 1 Humanities (Year 7) -- complete, all 9 terms authored
+// (36 weeks / 180 daily lessons). "Foundations of the Ancient and
 // Medieval World". Topic-driven, following the Secondary-tier
 // convention (a rotating cast of named Myanmar students rather than
 // one fixed protagonist, matching secondary1EnglishPathway/
@@ -103490,9 +103491,9 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history. Term 7, Settlements and Where People Live, covers why settlements form where they do, the precise distinction between urban and rural, and settlement patterns within Myanmar itself, closing with a My Town or City Case Study combining site-factor explanation with honest, evidenced classification. Term 8, Natural Resources and Trade, covers renewable and non-renewable resources, the resource-scarcity pattern behind historic trade routes, and the causes of resource-based conflict, closing with a Trade Route Mapping Studio combining why, what, and what risk into one connected, evidenced analysis.",
+      "The Secondary 1 Humanities course: daily bite-sized lessons across nine thematic terms, building the foundations of history and geography that carry through to Secondary 2, Secondary 3, and eventually IGCSE Humanities. Term 1, Becoming a Historian and Geographer, covers the two lenses of history and geography, timelines and chronology, and map skills (grid references, scale, and symbols), closing with a combined local history-geography investigation. Term 2, Early Civilizations, covers Mesopotamia and the Fertile Crescent, Ancient Egypt, and the Indus Valley Civilization, closing with a Civilization Comparison Museum Exhibit that compares all three fairly, citing evidence honestly. Term 3, Ancient Greece and Rome, covers Athenian democracy versus Spartan society, Rome's transition from Republic to Empire, and verifying claimed Greek and Roman legacies, closing with a structured 'Greatest Civilization' debate that explores why the question itself resists a single simple answer. Term 4, Physical Geography Foundations, covers rivers and landforms, the precise distinction between weather and climate, and the world's climate zones, closing with a Climate Zone Travel Brochure Studio that grounds every claim in specific, evidenced physical factors. Term 5, The Medieval World I, covers feudal Europe's social structure, the Islamic Golden Age's documented achievements, and the Silk Road as a trade network of goods, ideas, and technologies, closing with a Silk Road Trade Journey Map Project combining geographic accuracy with honest historical documentation. Term 6, The Medieval World II, covers medieval West Africa's gold-salt trade empires, Tang and Song China's examination system and innovations, and the Southeast Asian kingdoms of Bagan and Angkor, closing with a Kingdom Comparison Report Studio spanning three world regions often left out of a narrower medieval history. Term 7, Settlements and Where People Live, covers why settlements form where they do, the precise distinction between urban and rural, and settlement patterns within Myanmar itself, closing with a My Town or City Case Study combining site-factor explanation with honest, evidenced classification. Term 8, Natural Resources and Trade, covers renewable and non-renewable resources, the resource-scarcity pattern behind historic trade routes, and the causes of resource-based conflict, closing with a Trade Route Mapping Studio combining why, what, and what risk into one connected, evidenced analysis. Term 9, Skills Review and Exhibition, revisits every core habit of mind built across the year -- combined lenses, weighing multiple factors, grounded evidence, and honest uncertainty -- and teaches answer-structuring and timed-practice technique, closing with a Heritage & Geography Exhibition and Graduation tracing the course's disciplined reasoning from its very first lesson to its last.",
   descriptionMy:
-      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Settlements and Where People Live သည် Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသည်၊ Urban နှင့် Rural ကြား တိကျသော ခွဲခြားချက်နှင့် မြန်မာနိုင်ငံအတွင်းရှိ Settlement Pattern များကို ဖုံးအုပ်ပြီး Site-Factor Explanation ကို ရိုးသား၊ Evidenced Classification နှင့် ပေါင်းစပ်ထားသော My Town or City Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Resources and Trade သည် Renewable နှင့် Non-Renewable Resource များ၊ သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Route များ နောက်ကွယ်ရှိ Resource-Scarcity Pattern နှင့် Resource-Based Conflict ၏ အကြောင်းရင်းများကို ဖုံးအုပ်ပြီး Why, What နှင့် What Risk ကို ချိတ်ဆက်ထားသော Evidenced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Trade Route Mapping Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 1 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 2, Secondary 3 နှင့် နောက်ဆုံးတွင် IGCSE Humanities အထိ ဆက်လက်သွားမည့် History နှင့် Geography ၏ Foundation များ တည်ဆောက်သည်။ ပထမနှစ်ဝက်၊ Becoming a Historian and Geographer သည် History နှင့် Geography ၏ မှန်ဘီလူးနှစ်ခု၊ Timeline နှင့် Chronology နှင့် Map Skill များ (Grid Reference, Scale နှင့် Symbol) ကို ဖုံးအုပ်ပြီး ပေါင်းစပ် Local History-Geography Investigation တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Early Civilizations သည် Mesopotamia and the Fertile Crescent, Ancient Egypt နှင့် Indus Valley Civilization ကို ဖုံးအုပ်ပြီး သုံးခုစလုံးကို မျှတစွာ နှိုင်းယှဉ်ကာ Evidence ကို ရိုးသားစွာ ကိုးကားသော Civilization Comparison Museum Exhibit တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Ancient Greece and Rome သည် Spartan Society Versus Athenian ဒီမိုကရေစီ, Republic မှ Empire သို့ ရောမ၏ ကူးပြောင်းမှုနှင့် Claim ပြုလုပ်ထားသော ဂရိနှင့် ရောမ Legacy များကို အတည်ပြုခြင်းကို ဖုံးအုပ်ပြီး မေးခွန်းကိုယ်တိုင် Single Simple Answer တစ်ခုကို အဘယ်ကြောင့် ခုခံသည်ကို စူးစမ်းသော Structured 'Greatest Civilization' Debate တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ Physical Geography Foundations သည် မြစ်များနှင့် Landform များ၊ Weather နှင့် Climate ကြား တိကျသော ခွဲခြားချက်နှင့် ကမ္ဘာ့ Climate Zone များကို ဖုံးအုပ်ပြီး Claim တိုင်းကို တိကျ၊ Evidenced Physical Factor များတွင် အခြေခံသော Climate Zone Travel Brochure Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ The Medieval World I သည် Feudal ဥရောပ၏ Social Structure, Islamic Golden Age ၏ Document ပြုလုပ်ထားသော အောင်မြင်မှုများနှင့် ကုန်ပစ္စည်း, Idea နှင့် Technology များ၏ Trade Network တစ်ခုအဖြစ် Silk Road ကို ဖုံးအုပ်ပြီး Geographic Accuracy ကို ရိုးသား သမိုင်းဆိုင်ရာ Documentation နှင့် ပေါင်းစပ်ထားသော Silk Road Trade Journey Map Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Medieval World II သည် Medieval အနောက်အာဖရိက၏ ရွှေ-ဆား ကုန်သွယ်ရေး အင်ပါယာများ၊ Tang နှင့် Song တရုတ်၏ Examination System နှင့် Innovation များနှင့် ပုဂံနှင့် အင်ကော၏ အရှေ့တောင်အာရှ ဘုရင့်နိုင်ငံများကို ဖုံးအုပ်ပြီး ကျဉ်းမြောင်းသော Medieval သမိုင်းတစ်ခုတွင် မကြာခဏ ချန်ထားခံရသော ကမ္ဘာ့ ဒေသသုံးခုတစ်လျှောက် ကျယ်ပြန့်သော Kingdom Comparison Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ သတ္တမနှစ်ဝက်၊ Settlements and Where People Live သည် Settlement များ ဤနေရာတွင် အဘယ်ကြောင့် ဖွဲ့စည်းသည်၊ Urban နှင့် Rural ကြား တိကျသော ခွဲခြားချက်နှင့် မြန်မာနိုင်ငံအတွင်းရှိ Settlement Pattern များကို ဖုံးအုပ်ပြီး Site-Factor Explanation ကို ရိုးသား၊ Evidenced Classification နှင့် ပေါင်းစပ်ထားသော My Town or City Case Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ အဌမနှစ်ဝက်၊ Natural Resources and Trade သည် Renewable နှင့် Non-Renewable Resource များ၊ သမိုင်းဆိုင်ရာ ကုန်သွယ်ရေး Route များ နောက်ကွယ်ရှိ Resource-Scarcity Pattern နှင့် Resource-Based Conflict ၏ အကြောင်းရင်းများကို ဖုံးအုပ်ပြီး Why, What နှင့် What Risk ကို ချိတ်ဆက်ထားသော Evidenced Analysis တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ထားသော Trade Route Mapping Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ နဝမနှစ်ဝက်၊ Skills Review and Exhibition သည် နှစ်တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Core Habit of Mind တိုင်းကို ပြန်လည် သုံးသပ်သည် -- Combined Lens များ, Factor များစွာ ချိန်ဆခြင်း, Grounded Evidence နှင့် Honest Uncertainty -- Answer-Structuring နှင့် Timed-Practice Technique ကို သင်ကြားပြီး Course ၏ ပထမဆုံးသင်ခန်းစာမှ နောက်ဆုံးအထိ Disciplined Reasoning ကို ခြေရာခံသော Heritage & Geography Exhibition and Graduation တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec1HumTerm1,
@@ -103503,6 +103504,7 @@ const CoursePathwayDef secondary1HumanitiesPathway = CoursePathwayDef(
     _sec1HumTerm6,
     _sec1HumTerm7,
     _sec1HumTerm8,
+    _sec1HumTerm9,
   ],
 );
 // =====================================================================
@@ -113483,5 +113485,1450 @@ const CourseTermDef _sec1HumTerm8 = CourseTermDef(
   certificateTitleEn: "Natural Resources and Trade",
   certificateTitleMy: "Natural Resources and Trade",
   weeks: [_sec1HumWeek29, _sec1HumWeek30, _sec1HumWeek31, _sec1HumWeek32],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 9: "Skills Review and Exhibition"
+// (Weeks 33-36) -- the final term, closing the year and priming
+// Secondary 2's continuation of the history/geography strand.
+// Term 9, Week 33: "Reviewing a Year of Historian and Geographer
+// Skills"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek33 = CourseWeekDef(
+  id: "course-sec1-hum-w33",
+  weekNumber: 33,
+  titleEn: "Reviewing a Year of Historian and Geographer Skills",
+  titleMy: "Historian and Geographer Skill တစ်နှစ်စာ ပြန်လည်သုံးသပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w33-d1",
+      dayNumber: 1,
+      titleEn: "The Thread Connecting Every Term",
+      titleMy: "Term တိုင်းကို ချိတ်ဆက်ပေးသော Thread",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Looking back across all eight terms, why did weighing multiple factors -- rather than picking one single cause -- appear again and again, from Term 3's Athens-Sparta comparison to Term 8's resource-conflict analysis?",
+          questionMy:
+              "Term ရှစ်ပါးလုံးကို ပြန်ကြည့်လျှင် Cause တစ်ခုတည်း ရွေးချယ်မည့်အစား Factor များစွာ ချိန်ဆခြင်းသည် Term 3 ၏ Athens-Sparta Comparison မှ Term 8 ၏ Resource-Conflict Analysis အထိ အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "Real historical and geographical situations genuinely have multiple contributing causes, and a judgement that honestly weighs them is more accurate than a one-sided explanation, regardless of the specific topic",
+            "This pattern was purely coincidental with no genuine connection across the year",
+            "A single-cause explanation is always more accurate than weighing multiple factors",
+            "Weighing multiple factors only ever applied to one single term of the course",
+          ],
+          optionsMy: [
+            "Real သမိုင်းနှင့် ပထဝီဝင်ဆိုင်ရာ အခြေအနေများသည် Contributing Cause များစွာ အမှန်တကယ် ရှိသောကြောင့် ၎င်းတို့ကို ရိုးသားစွာ ချိန်ဆသော Judgement တစ်ခုသည် ခေါင်းစဉ် တိကျ မည်သို့ပင်ရှိစေ တစ်ဖက်သတ် Explanation တစ်ခုထက် ပို၍ တိကျသည်",
+            "ဤ Pattern သည် နှစ်တစ်ခုလုံးတစ်လျှောက် စစ်မှန်သော ချိတ်ဆက်မှု မရှိသော Purely Coincidental တစ်ခု ဖြစ်ခြင်း",
+            "Single-Cause Explanation တစ်ခုသည် Factor များစွာ ချိန်ဆခြင်းထက် အမြဲ ပို၍ တိကျခြင်း",
+            "Factor များစွာ ချိန်ဆခြင်းသည် Course ၏ Term တစ်ခုတည်းအတွက်သာ ဘယ်တော့မှ အသုံးချခဲ့ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 1's foundations, through Term 3's Athens-Sparta and Term 6's kingdom comparisons, to Term 8's resource-conflict analysis -- the same discipline recurs throughout.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Term 1 ၏ Foundation များမှ Term 3 ၏ Athens-Sparta နှင့် Term 6 ၏ Kingdom Comparison များကို ဖြတ်၍ Term 8 ၏ Resource-Conflict Analysis အထိ ခြေရာခံပါ -- Discipline တူတူ တစ်လျှောက်လုံး ထပ်ခါထပ်ခါ ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across all eight terms, why did grounding claims in specific, cited evidence (a named source, a documented achievement, a specific data point) appear repeatedly, from Term 1's source evaluation through Term 8's resource data?",
+          questionMy:
+              "Term ရှစ်ပါးလုံးကို ပြန်ကြည့်လျှင် Claim များကို တိကျ၊ Cited Evidence (အမည်ရှိသော Source, Documented Achievement, Specific Data Point) တွင် အခြေခံခြင်းသည် Term 1 ၏ Source Evaluation မှ Term 8 ၏ Resource Data အထိ အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "A specific, evidenced claim can be checked and trusted in a way a generic, unsupported claim never can, and this distinction matters equally whether the topic is history, geography, or their combination",
+            "Specific evidence has no actual advantage over a generic, unsupported claim",
+            "This pattern appeared only once in the entire course and was never repeated",
+            "A generic claim with no evidence is always more persuasive than a specific one",
+          ],
+          optionsMy: [
+            "Specific, Evidenced Claim တစ်ခုသည် Generic, မထောက်ခံထားသော Claim တစ်ခု ဘယ်တော့မှ မဖြစ်နိုင်သော နည်းလမ်းဖြင့် Verify ပြု၍ ယုံကြည်နိုင်ပြီး ခေါင်းစဉ်သည် History, Geography, (သို့) ၎င်းတို့ ပေါင်းစပ်မှု ဖြစ်သည်ဖြစ်စေ ဤ ခွဲခြားချက် အညီအမျှ အရေးကြီးသည်",
+            "Specific Evidence တွင် Generic, မထောက်ခံထားသော Claim တစ်ခုထက် Actual Advantage မရှိခြင်း",
+            "ဤ Pattern သည် Course တစ်ခုလုံးတွင် တစ်ကြိမ်သာ ပေါ်လာပြီး ဘယ်တော့မှ ထပ်မံ မပေါ်လာခြင်း",
+            "Evidence မပါသော Generic Claim တစ်ခုသည် တိကျသော တစ်ခုထက် အမြဲ ပို၍ ဆွဲဆောင်မှု ရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 1's evidence-vs-guess lesson, through Term 6's kingdom evidence and Term 5's Silk Road exchanges, to Term 8's resource data -- specific evidence recurs as the standard throughout.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Term 1 ၏ Evidence-Vs-Guess သင်ခန်းစာမှ Term 6 ၏ Kingdom Evidence နှင့် Term 5 ၏ Silk Road Exchange များကို ဖြတ်၍ Term 8 ၏ Resource Data အထိ ခြေရာခံပါ -- Specific Evidence သည် တစ်လျှောက်လုံး Standard အဖြစ် ထပ်ခါထပ်ခါ ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Looking back across all eight terms, why did honest acknowledgment of uncertainty (marking a founding date as unconfirmed, noting a debated route) appear repeatedly, rather than claiming false confidence for every detail?",
+          questionMy:
+              "Detail တိုင်းအတွက် False Confidence ကို Claim ပြုလုပ်မည့်အစား Uncertainty ရိုးသားစွာ အသိအမှတ်ပြုခြင်း (တည်ထောင်ရက်စွဲကို Unconfirmed အဖြစ် မှတ်သားခြင်း, Debated Route တစ်ခု မှတ်သားခြင်း) သည် Term ရှစ်ပါးလုံးကို ပြန်ကြည့်လျှင် အဘယ်ကြောင့် ထပ်ခါထပ်ခါ ပေါ်လာခဲ့သနည်း။",
+          optionsEn: [
+            "This is a general principle of intellectual honesty applying across any discipline making claims from limited evidence -- historical, geographical, or otherwise -- not a rule specific to one topic or term",
+            "This principle only ever applied to one single topic and had no broader relevance",
+            "Claiming false confidence is always more credible than acknowledging genuine uncertainty",
+            "Uncertainty has no actual relevance to historical or geographical reasoning of any kind",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ကန့်သတ်ထားသော Evidence မှ Claim ပြုလုပ်သော Discipline မည်သည်တွင်မဆို အသုံးချသော Intellectual Honesty ၏ ယေဘုယျ Principle တစ်ခု ဖြစ်သောကြောင့် -- သမိုင်း၊ ပထဝီဝင် (သို့) အခြား -- ခေါင်းစဉ် (သို့) Term တစ်ခုတည်းအတွက်သာ Rule တစ်ခု မဟုတ်ပါ",
+            "ဤ Principle သည် ခေါင်းစဉ်တစ်ခုတည်းကိုသာ ဘယ်တော့မှ အသုံးချခဲ့ပြီး ပို၍ ကျယ်ပြန့်သော Relevance မရှိခြင်း",
+            "False Confidence Claim ပြုလုပ်ခြင်းသည် စစ်မှန်သော Uncertainty အသိအမှတ်ပြုခြင်းထက် အမြဲ ပို၍ ယုံကြည်ရခြင်း",
+            "Uncertainty သည် သမိုင်း (သို့) ပထဝီဝင် Reasoning မည်သည်တွင်မျှ Actual Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 1's Ko Zayar family timeline, through Term 5's Silk Road debate and Term 7's town case study, to Term 8's conflict analysis -- the same principle applies throughout.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Term 1 ၏ Ko Zayar မိသားစု Timeline မှ Term 5 ၏ Silk Road Debate နှင့် Term 7 ၏ မြို့ Case Study ကို ဖြတ်၍ Term 8 ၏ Conflict Analysis အထိ ခြေရာခံပါ -- Principle တူတူသည် တစ်လျှောက်လုံး အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Year's Core Habits of Mind",
+      titleMy: "တွဲစပ်ကြမည် - တစ်နှစ်စာ Core Habits of Mind",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w33-dm-1",
+          termEn: "Weighing multiple factors",
+          termMy: "Weighing Multiple Factors",
+          matchEn:
+              "Judging how several causes compare, rather than defending only one",
+          matchMy:
+              "တစ်ခုတည်းကိုသာ ကာကွယ်မည့်အစား Cause များစွာ မည်သို့ ယှဉ်ပြိုင်သည်ကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w33-dm-2",
+          termEn: "Grounded evidence",
+          termMy: "Grounded Evidence",
+          matchEn:
+              "Supporting a claim with a specific, named source, case, or data point",
+          matchMy:
+              "တိကျ၊ အမည်ရှိသော Source, Case, (သို့) Data Point ဖြင့် Claim တစ်ခုကို ထောက်ခံခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w33-dm-3",
+          termEn: "Honest uncertainty",
+          termMy: "Honest Uncertainty",
+          matchEn:
+              "Distinguishing what evidence can confidently support from what remains unknown",
+          matchMy:
+              "Evidence က ယုံကြည်စိတ်ချစွာ ထောက်ခံနိုင်သည်ကို မသိရှိသေးသည်မှ ခွဲခြားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w33-dm-4",
+          termEn: "Combined lens",
+          termMy: "Combined Lens",
+          matchEn:
+              "Using both the historian's and geographer's questions together on one topic",
+          matchMy:
+              "ခေါင်းစဉ်တစ်ခုပေါ်တွင် Historian ၏ နှင့် Geographer ၏ မေးခွန်းများ နှစ်ခုစလုံး အတူတကွ အသုံးပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Skill or Geography Skill (or Both)?",
+      titleMy:
+          "စီစစ်ကြမည် - History Skill (သို့) Geography Skill (သို့) နှစ်ခုလုံး",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Skill Shared by Both History and Geography",
+          "Skill Specific to One Discipline Only",
+        ],
+        bucketsMy: [
+          "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w33-sort-1",
+            labelEn:
+                "Weighing multiple factors before reaching a balanced judgement",
+            labelMy: "ချိန်ညှိထားသော Judgement မရမီ Factor များစွာ ချိန်ဆခြင်း",
+            correctBucketEn: "Skill Shared by Both History and Geography",
+            correctBucketMy:
+                "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          ),
+          SortingItem(
+            id: "sec1hum-w33-sort-2",
+            labelEn:
+                "Evaluating a primary source's origin, purpose, and reliability",
+            labelMy:
+                "Primary Source တစ်ခု၏ Origin, Purpose နှင့် Reliability ကို အကဲဖြတ်ခြင်း",
+            correctBucketEn: "Skill Specific to One Discipline Only",
+            correctBucketMy: "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+          ),
+          SortingItem(
+            id: "sec1hum-w33-sort-3",
+            labelEn:
+                "Grounding a claim in specific, named evidence rather than a generic statement",
+            labelMy:
+                "Generic ဖော်ပြချက်တစ်ခုအစား တိကျ၊ အမည်ရှိသော Evidence တွင် Claim တစ်ခု အခြေခံခြင်း",
+            correctBucketEn: "Skill Shared by Both History and Geography",
+            correctBucketMy:
+                "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          ),
+          SortingItem(
+            id: "sec1hum-w33-sort-4",
+            labelEn:
+                "Reading contour lines and grid references on a physical map",
+            labelMy:
+                "Physical Map ပေါ်ရှိ Contour Line များနှင့် Grid Reference များ ဖတ်ရှုခြင်း",
+            correctBucketEn: "Skill Specific to One Discipline Only",
+            correctBucketMy: "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Nilar's Year-in-Review Notebook",
+      titleMy: "စာဖတ်ခြင်း - Nilar ၏ Year-In-Review မှတ်စုစာအုပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Nilar's Year-in-Review Notebook",
+        titleMy: "Nilar ၏ Year-In-Review မှတ်စုစာအုပ်",
+        passageEn:
+            "As Secondary 1 Humanities approached its final term, Saya (the class's returning teacher throughout the year) asked every student to keep a short year-in-review notebook tracing one habit of mind across all eight terms, rather than simply re-reading old notes.\n\nNilar chose the habit of weighing multiple factors rather than picking one simple cause. She traced it back to Term 3, where comparing Athens and Sparta had taught her that labeling one city-state 'good' and the other 'bad' oversimplified genuinely different responses to different circumstances. She followed the thread through Term 6, where comparing Mali, Song China, and Bagan required the same discipline, and again through Term 8, where a documented conflict turned out to involve resource competition alongside pre-existing political rivalries, not resource scarcity alone.\n\nWriting her reflection, Nilar realized this habit had never been about any single topic -- it was a way of thinking she now applied automatically, whether the subject was ancient city-states, medieval kingdoms, or modern-sounding conflict analysis. The same was true, she noted, of citing specific evidence and acknowledging honest uncertainty: both habits had appeared from Term 1's very first lesson through Term 8's final capstone, applied to completely different content each time.\n\nSaya read the notebooks and told the class that this was exactly the point of the review week: not to re-learn old facts, but to notice that a handful of disciplined habits -- weighing evidence fairly, citing it specifically, and admitting what remained uncertain -- had quietly connected every single week of the year.",
+        passageMy:
+            "Secondary 1 Humanities သည် ၎င်း၏ နောက်ဆုံး Term သို့ ရောက်ရှိလာသည်နှင့်အမျှ ဟောင်း မှတ်စုများကို ရိုးရိုး ပြန်ဖတ်မည့်အစား Term ရှစ်ပါးလုံးတစ်လျှောက် Habit of Mind တစ်ခုကို ခြေရာခံသော Year-In-Review မှတ်စုစာအုပ် တိုတို တစ်ခု ထိန်းသိမ်းရန် ကျောင်းသားတိုင်းအား Saya (နှစ်တစ်ခုလုံးတစ်လျှောက် ပြန်လာသော အတန်း၏ ဆရာမ) တောင်းဆိုခဲ့သည်။\n\nCause ရိုးရှင်းတစ်ခုတည်းကို ရွေးချယ်မည့်အစား Factor များစွာ ချိန်ဆသော Habit ကို Nilar ရွေးချယ်ခဲ့သည်။ အေသင်နှင့် စပါတာ နှိုင်းယှဉ်ခြင်းသည် City-State တစ်ခုကို 'ကောင်း' ၊ အခြားတစ်ခုကို 'ဆိုး' ဟု Label တင်ခြင်းသည် ကွဲပြားသော အခြေအနေများအတွက် စစ်မှန်စွာ ကွဲပြားသော တုံ့ပြန်မှုများကို Oversimplify ပြုလုပ်ကြောင်း ၎င်းကို သင်ကြားပေးခဲ့သော Term 3 အထိ ၎င်း ခြေရာခံခဲ့သည်။ မာလီ, Song တရုတ်နှင့် ပုဂံ နှိုင်းယှဉ်ခြင်းသည် Discipline တူတူ လိုအပ်ခဲ့သော Term 6 ကို ဖြတ်၍ Thread ကို ၎င်း ဆက်လက် လိုက်ခဲ့ပြီး Documented Conflict တစ်ခုသည် Resource Scarcity တစ်ခုတည်း မဟုတ်ဘဲ ရှိနှင့်ပြီးသား Political Rivalry များနှင့်အတူ Resource Competition ပါဝင်ကြောင်း ဖော်ထုတ်ခဲ့သော Term 8 ကို ထပ်မံ ဖြတ်ခဲ့သည်။\n\n၎င်း၏ Reflection ရေးသားရာတွင် ဤ Habit သည် ခေါင်းစဉ်တစ်ခုတည်းအကြောင်း ဘယ်တော့မှ မဟုတ်ခဲ့ကြောင်း Nilar သိရှိလာခဲ့သည် -- Subject သည် ရှေးဟောင်း City-State များ၊ Medieval ဘုရင့်နိုင်ငံများ၊ (သို့) ခေတ်သစ်ကဲ့သို့ ထင်ရသော Conflict Analysis ဖြစ်စေ ၎င်း ယခု အလိုအလျောက် အသုံးချသော Thinking နည်းလမ်းတစ်ခု ဖြစ်သည်။ Specific Evidence ကိုးကားခြင်းနှင့် Honest Uncertainty အသိအမှတ်ပြုခြင်း နှစ်ခုစလုံးသည် Habit တူတူ ဖြစ်ကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည် - Habit နှစ်ခုစလုံးသည် အကြိမ်တိုင်း လုံးလုံး ကွဲပြားသော Content ပေါ်တွင် အသုံးချထားခဲ့ကာ Term 1 ၏ ပထမဆုံးသင်ခန်းစာမှ Term 8 ၏ နောက်ဆုံး Capstone အထိ ပေါ်လာခဲ့သည်။\n\nမှတ်စုစာအုပ်များကို Saya ဖတ်ရှုပြီး ဟောင်း Fact များ ပြန်လည် သင်ယူရန် မဟုတ်ဘဲ Disciplined Habit တစ်ဆုပ်စာ -- Evidence ကို မျှတစွာ ချိန်ဆခြင်း၊ ၎င်းကို တိကျစွာ ကိုးကားခြင်းနှင့် ကျန်ရှိနေသေးသော မသေချာသေးသည်ကို ဝန်ခံခြင်း -- သည် နှစ်တစ်ခု၏ တစ်ပတ်ချင်းစီကို တိတ်တဆိတ် ချိတ်ဆက်ပေးခဲ့ကြောင်း သတိပြုမိရန်သာ Review Week ၏ ရည်ရွယ်ချက် အတိအကျ ဖြစ်ကြောင်း အတန်းအား ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which habit of mind did Nilar choose to trace across all eight terms?",
+            questionMy:
+                "Term ရှစ်ပါးလုံးတစ်လျှောက် ခြေရာခံရန် Nilar ရွေးချယ်ခဲ့သော Habit of Mind ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Weighing multiple factors rather than picking one simple cause",
+              "Memorizing every date and name without any reasoning",
+              "Avoiding any comparison between civilizations entirely",
+              "A habit that had no actual connection to any term of the course",
+            ],
+            optionsMy: [
+              "Cause ရိုးရှင်းတစ်ခုတည်း ရွေးချယ်မည့်အစား Factor များစွာ ချိန်ဆခြင်း",
+              "Reasoning မည်သည်မှ မပါဘဲ ရက်စွဲနှင့် အမည်တိုင်းကို အလွတ်ကျက်ခြင်း",
+              "Civilization များကြား Comparison မည်သည်ကိုမျှ လုံးလုံး ရှောင်ရှားခြင်း",
+              "Course ၏ Term မည်သည်နှင့်မျှ အမှန်တကယ် ချိတ်ဆက်မှု မရှိသော Habit တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's chosen habit."],
+            hintsMy: [
+              "ဒုတိယ စာပိုဒ်၏ ရွေးချယ်ထားသော Habit ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Nilar realize about this habit's connection to different topics?",
+            questionMy:
+                "ကွဲပြားသော ခေါင်းစဉ်များနှင့် ဤ Habit ၏ ချိတ်ဆက်မှုအကြောင်း Nilar သိရှိလာခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was never about any single topic -- it was a way of thinking applied automatically across completely different content",
+              "The habit only ever applied to one single, narrow topic with no broader use",
+              "The habit had no actual connection to any content covered in the course",
+              "Every term of the course used completely different, unrelated habits of mind",
+            ],
+            optionsMy: [
+              "၎င်းသည် ခေါင်းစဉ်တစ်ခုတည်းအကြောင်း ဘယ်တော့မှ မဟုတ်ခဲ့ -- ၎င်းသည် လုံးလုံး ကွဲပြားသော Content တစ်လျှောက် အလိုအလျောက် အသုံးချသော Thinking နည်းလမ်းတစ်ခု ဖြစ်ခဲ့ခြင်း",
+              "Habit သည် ကျယ်ပြန့်သော Use မပါသော ကျဉ်းမြောင်းသော ခေါင်းစဉ်တစ်ခုတည်းကိုသာ ဘယ်တော့မှ အသုံးချခဲ့ခြင်း",
+              "Course တွင် ဖုံးအုပ်ထားသော Content မည်သည်နှင့်မျှ Habit တွင် Actual Connection မရှိခြင်း",
+              "Course ၏ Term တိုင်းသည် လုံးလုံး ကွဲပြား၊ မသက်ဆိုင်သော Habits of Mind များ အသုံးပြုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated realization."],
+            hintsMy: [
+              "ဖော်ပြထားသော Realization ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya say was the real point of the review week?",
+            questionMy:
+                "Review Week ၏ အစစ်အမှန် ရည်ရွယ်ချက်ဖြစ်သည်ဟု Saya ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Noticing that a handful of disciplined habits had connected every week of the year, not re-learning old facts",
+              "Re-learning every fact from the entire year in complete isolation",
+              "Forgetting everything learned in earlier terms of the course",
+              "Avoiding any reflection on the year's learning entirely",
+            ],
+            optionsMy: [
+              "ဟောင်း Fact များ ပြန်လည် သင်ယူခြင်း မဟုတ်ဘဲ Disciplined Habit တစ်ဆုပ်စာသည် နှစ်၏ တစ်ပတ်ချင်းစီကို ချိတ်ဆက်ပေးခဲ့ကြောင်း သတိပြုမိခြင်း",
+              "နှစ်တစ်ခုလုံးမှ Fact တိုင်းကို လုံးလုံး Isolation တွင် ပြန်လည် သင်ယူခြင်း",
+              "Course ၏ အစောပိုင်း Term များတွင် သင်ယူခဲ့သည့်အရာအားလုံးကို မေ့ပျောက်ခြင်း",
+              "နှစ်၏ သင်ယူမှုအပေါ် Reflection မည်သည်ကိုမျှ လုံးလုံး ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w33-d5",
+      dayNumber: 5,
+      titleEn: "Recap: A Year of Historian and Geographer Skills",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Historian and Geographer Skill တစ်နှစ်စာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Weighing multiple factors, across the whole year, has meant...",
+          questionMy:
+              "နှစ်တစ်ခုလုံးတစ်လျှောက် Factor များစွာ ချိန်ဆခြင်းသည် ...ကို ဆိုလိုခဲ့သည်",
+          optionsEn: [
+            "Judging how several causes compare, rather than defending only one",
+            "Always picking exactly one simple cause with no comparison",
+            "Avoiding any judgement about causes entirely",
+            "A skill used only once in the entire course",
+          ],
+          optionsMy: [
+            "တစ်ခုတည်းကိုသာ ကာကွယ်မည့်အစား Cause များစွာ မည်သို့ ယှဉ်ပြိုင်သည်ကို ဆုံးဖြတ်ခြင်း",
+            "Comparison မပါဘဲ Cause ရိုးရှင်းတစ်ခုတည်းကို အမြဲ ရွေးချယ်ခြင်း",
+            "Cause များအကြောင်း Judgement မည်သည်ကိုမျှ လုံးလုံး ရှောင်ရှားခြင်း",
+            "Course တစ်ခုလုံးတွင် တစ်ကြိမ်သာ အသုံးပြုသော Skill တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-supported claim, in either discipline, should be grounded in...",
+          questionMy:
+              "Discipline နှစ်ခုစလုံးတွင် ကောင်းစွာ ထောက်ခံထားသော Claim တစ်ခုသည် ...တွင် အခြေခံသင့်သည်",
+          optionsEn: [
+            "Specific, named evidence such as a source, case, or data point",
+            "A generic statement with no specific example",
+            "No evidence of any kind whatsoever",
+            "A claim that could apply to any place or time equally",
+          ],
+          optionsMy: [
+            "Source, Case, (သို့) Data Point ကဲ့သို့ တိကျ၊ အမည်ရှိသော Evidence",
+            "တိကျသော ဥပမာမပါသော Generic ဖော်ပြချက်",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "နေရာ (သို့) အချိန် မည်သည်တွင်မဆို အညီအမျှ အသုံးချနိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The habit of mind connecting every term of this course, from Term 1 to Term 8, was...",
+          questionMy:
+              "Term 1 မှ Term 8 အထိ Course ၏ Term တိုင်းကို ချိတ်ဆက်ပေးသော Habit of Mind မှာ ...",
+          optionsEn: [
+            "Reasoning carefully from evidence toward a fair, honest conclusion",
+            "Memorizing isolated facts with no connecting reasoning",
+            "Avoiding any evaluation of evidence entirely",
+            "Claiming false certainty regardless of what the evidence actually shows",
+          ],
+          optionsMy: [
+            "Evidence မှ တရားမျှတ၊ ရိုးသားသော ကောက်ချက်တစ်ခုသို့ ဂရုတစိုက် Reasoning ပြုလုပ်ခြင်း",
+            "ချိတ်ဆက် Reasoning မပါဘဲ သီးခြား Fact များ အလွတ်ကျက်ခြင်း",
+            "Evidence အကဲဖြတ်ခြင်းကို လုံးလုံး ရှောင်ရှားခြင်း",
+            "Evidence က အမှန်တကယ် ပြသနေသည်ကို ဂရုမစိုက်ဘဲ False Certainty Claim ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 9, Week 34: "Structuring a Strong
+// Answer"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek34 = CourseWeekDef(
+  id: "course-sec1-hum-w34",
+  weekNumber: 34,
+  titleEn: "Structuring a Strong Answer",
+  titleMy: "ခိုင်မာသော အဖြေတစ်ခု Structure ချခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w34-d1",
+      dayNumber: 1,
+      titleEn: "Point, Evidence, Explanation",
+      titleMy: "Point, Evidence, Explanation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why should a written answer explain how its evidence supports its point, rather than stopping after simply stating the evidence?",
+          questionMy:
+              "ရေးသား အဖြေတစ်ခုသည် Evidence ကို ရိုးရိုး ဖော်ပြပြီး ရပ်တန့်မည့်အစား ၎င်း၏ Evidence သည် ၎င်း၏ Point ကို မည်သို့ ထောက်ခံသည်ကို အဘယ်ကြောင့် ရှင်းပြသင့်ရသနည်း။",
+          optionsEn: [
+            "Stated evidence alone does not show the reader the reasoning connecting it to the point; explaining the link demonstrates the analytical thinking built across the whole year",
+            "Evidence never actually needs to be connected to the point being made",
+            "Stopping after stating evidence always produces the strongest possible answer",
+            "Explaining a link between evidence and a point has no actual value in a written answer",
+          ],
+          optionsMy: [
+            "Evidence ဖော်ပြရုံသက်သက်သည် ၎င်းကို Point သို့ ချိတ်ဆက်သော Reasoning ကို ဖတ်ရှုသူအား ပြသခြင်း မဟုတ်ပါ၊ Link ကို ရှင်းပြခြင်းသည် နှစ်တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Analytical Thinking ကို ပြသသည်",
+            "Evidence သည် ပြုလုပ်နေသော Point နှင့် အမှန်တကယ် ချိတ်ဆက်ရန် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Evidence ဖော်ပြပြီးနောက် ရပ်တန့်ခြင်းသည် ဖြစ်နိုင်သမျှ ခိုင်မာဆုံး အဖြေတစ်ခု အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "Evidence နှင့် Point ကြား Link ရှင်းပြခြင်းသည် ရေးသား အဖြေတစ်ခုတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 6's evidence-based-comparison lesson -- stating a fact is not the same as explaining why it supports a conclusion.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 6 ၏ Evidence-Based-Comparison သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- Fact တစ်ခု ဖော်ပြခြင်းသည် ၎င်းသည် ကောက်ချက်တစ်ခုကို အဘယ်ကြောင့် ထောက်ခံသည်ကို ရှင်းပြခြင်းနှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a strong answer to a comparison question (such as comparing two kingdoms or two locations) explicitly state the criteria being used for the comparison, rather than leaving the basis of comparison unstated?",
+          questionMy:
+              "Comparison Question တစ်ခု (ဘုရင့်နိုင်ငံနှစ်ခု (သို့) တည်နေရာနှစ်ခု နှိုင်းယှဉ်ခြင်းကဲ့သို့) အတွက် ခိုင်မာသော အဖြေတစ်ခုသည် Comparison ၏ Basis ကို မဖော်ပြဘဲ ချန်ထားမည့်အစား ၎င်း အသုံးပြုနေသော Criteria ကို အဘယ်ကြောင့် ရှင်းလင်းစွာ ဖော်ပြသင့်ရသနည်း။",
+          optionsEn: [
+            "Without stated criteria, a comparison is essentially meaningless, exactly as Term 3's 'greatest civilization' debate demonstrated -- criteria make a comparison checkable and honest about its own basis",
+            "Comparison questions never actually need any stated criteria of any kind",
+            "Leaving criteria unstated always makes a comparison stronger and clearer",
+            "The basis of a comparison has no actual relevance to how convincing it is",
+          ],
+          optionsMy: [
+            "ဖော်ပြထားသော Criteria မပါဘဲ Comparison တစ်ခုသည် အနှစ်သာရအားဖြင့် အဓိပ္ပာယ်မရှိပါ၊ Term 3 ၏ 'Greatest Civilization' Debate သရုပ်ပြခဲ့သည့်အတိုင်း -- Criteria သည် Comparison တစ်ခုကို စစ်ဆေးနိုင်၊ ၎င်းကိုယ်ပိုင် Basis အကြောင်း ရိုးသားစေသည်",
+            "Comparison Question များသည် ဖော်ပြထားသော Criteria မည်သည်ကိုမျှ အမှန်တကယ် ဘယ်တော့မှ မလိုအပ်ခြင်း",
+            "Criteria ကို မဖော်ပြဘဲ ချန်ထားခြင်းသည် Comparison တစ်ခုကို ပို၍ ခိုင်မာ၊ ပို၍ ရှင်းလင်းစေခြင်း အမြဲ",
+            "Comparison တစ်ခု၏ Basis သည် ၎င်း မည်မျှ ယုံကြည်ဖွယ်ရှိသည်နှင့် Actual Relevance မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This directly recalls Term 3's 'greatest civilization' debate lesson -- an unstated basis for comparison is not actually checkable or meaningful.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 3 ၏ 'Greatest Civilization' Debate သင်ခန်းစာကို တိုက်ရိုက် ပြန်သတိရစေသည် -- Comparison ၏ Unstated Basis တစ်ခုသည် အမှန်တကယ် စစ်ဆေးနိုင်၊ အဓိပ္ပာယ်ရှိသည် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should an answer's final sentence connect explicitly back to the question asked, rather than simply trailing off after presenting evidence?",
+          questionMy:
+              "အဖြေတစ်ခု၏ နောက်ဆုံးစာကြောင်းသည် Evidence တင်ပြပြီးနောက် ရိုးရိုး ရပ်တန့်သွားမည့်အစား မေးထားသော မေးခွန်းသို့ အဘယ်ကြောင့် ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "An explicit connection back to the question shows the reader the answer directly addresses what was asked, rather than being interesting but disconnected content",
+            "Evidence alone always fully answers a question with no further connection needed",
+            "The question asked has no actual relevance to how an answer should end",
+            "An answer's final sentence should never actually reference the question at all",
+          ],
+          optionsMy: [
+            "မေးခွန်းသို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်ခြင်းသည် အဖြေသည် စိတ်ဝင်စားဖွယ်ဖြစ်သော်လည်း ချိတ်ဆက်မှုမရှိသော Content မဟုတ်ဘဲ မေးထားသည်ကို တိုက်ရိုက် ဖြေဆိုနေကြောင်း ဖတ်ရှုသူအား ပြသသည်",
+            "Evidence တစ်ခုတည်းသည် ထပ်ဆောင်း Connection မလိုအပ်ဘဲ မေးခွန်းတစ်ခုကို အမြဲ အပြည့်အစုံ ဖြေဆိုပြီး ဖြစ်ခြင်း",
+            "မေးထားသော မေးခွန်းသည် အဖြေတစ်ခု မည်သို့ ဆုံးသင့်သည်နှင့် Actual Relevance မရှိခြင်း",
+            "အဖြေတစ်ခု၏ နောက်ဆုံးစာကြောင်းသည် မေးခွန်းကို အမှန်တကယ် ဘယ်တော့မှ ရည်ညွှန်းခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same point-evidence-explanation-link discipline from earlier terms' capstones, applied now directly to answer writing.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Answer Writing ပေါ်တွင် ယခု တိုက်ရိုက် အသုံးချထားသော အစောပိုင်း Term များ၏ Capstone များမှ Point-Evidence-Explanation-Link Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Answer Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Answer Structure Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w34-dm-1",
+          termEn: "Point",
+          termMy: "Point",
+          matchEn:
+              "The paragraph's main claim, stated clearly in its first sentence",
+          matchMy:
+              "၎င်း၏ ပထမ စာကြောင်းတွင် ရှင်းလင်းစွာ ဖော်ပြထားသော Paragraph ၏ Main Claim",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w34-dm-2",
+          termEn: "Evidence",
+          termMy: "Evidence",
+          matchEn:
+              "Specific facts, data, or source content that supports the point",
+          matchMy:
+              "Point ကို ထောက်ခံသော တိကျသော Fact, Data, (သို့) Source Content",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w34-dm-3",
+          termEn: "Stated criteria",
+          termMy: "Stated Criteria",
+          matchEn:
+              "A clearly named standard used to judge or compare something",
+          matchMy:
+              "တစ်ခုခုကို ဆုံးဖြတ် (သို့) နှိုင်းယှဉ်ရန် အသုံးပြုသော ရှင်းလင်းစွာ အမည်ပေးထားသော Standard",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w34-dm-4",
+          termEn: "Link back",
+          termMy: "Link Back",
+          matchEn:
+              "The final sentence connecting the paragraph back to the original question",
+          matchMy:
+              "Paragraph ကို Original မေးခွန်းသို့ ပြန်ချိတ်ဆက်ပေးသော နောက်ဆုံးစာကြောင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Well-Structured or Poorly-Structured Answer?",
+      titleMy: "စီစစ်ကြမည် - Well-Structured (သို့) Poorly-Structured အဖြေ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Well-Structured Answer", "Poorly-Structured Answer"],
+        bucketsMy: ["Well-Structured အဖြေ", "Poorly-Structured အဖြေ"],
+        items: [
+          SortingItem(
+            id: "sec1hum-w34-sort-1",
+            labelEn:
+                "A paragraph stating a point, citing evidence, explaining the link, then connecting back to the question",
+            labelMy:
+                "Point ဖော်ပြပြီး Evidence ကိုးကားကာ Link ရှင်းပြပြီးနောက် မေးခွန်းသို့ ပြန်ချိတ်ဆက်သော Paragraph",
+            correctBucketEn: "Well-Structured Answer",
+            correctBucketMy: "Well-Structured အဖြေ",
+          ),
+          SortingItem(
+            id: "sec1hum-w34-sort-2",
+            labelEn:
+                "A comparison answer with no stated criteria for what is being compared",
+            labelMy:
+                "နှိုင်းယှဉ်နေသည့်အရာအတွက် ဖော်ပြထားသော Criteria မပါသော Comparison အဖြေ",
+            correctBucketEn: "Poorly-Structured Answer",
+            correctBucketMy: "Poorly-Structured အဖြေ",
+          ),
+          SortingItem(
+            id: "sec1hum-w34-sort-3",
+            labelEn:
+                "An answer whose final sentence explicitly connects back to the original question",
+            labelMy:
+                "နောက်ဆုံးစာကြောင်းသည် Original မေးခွန်းသို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်သော အဖြေ",
+            correctBucketEn: "Well-Structured Answer",
+            correctBucketMy: "Well-Structured အဖြေ",
+          ),
+          SortingItem(
+            id: "sec1hum-w34-sort-4",
+            labelEn:
+                "A paragraph stating evidence with no explanation of how it connects to any point",
+            labelMy:
+                "Point မည်သည်နှင့်မျှ မည်သို့ ချိတ်ဆက်သည်ကို ရှင်းပြခြင်း မပါဘဲ Evidence ဖော်ပြသော Paragraph",
+            correctBucketEn: "Poorly-Structured Answer",
+            correctBucketMy: "Poorly-Structured အဖြေ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kaung Sett's Practice Answer Feedback",
+      titleMy: "စာဖတ်ခြင်း - Kaung Sett ၏ Practice Answer Feedback",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kaung Sett's Practice Answer Feedback",
+        titleMy: "Kaung Sett ၏ Practice Answer Feedback",
+        passageEn:
+            "For Week 34's practice, Saya asked Kaung Sett to answer a practice question comparing two settlements he had studied earlier in the year, then gave detailed feedback focused entirely on structure.\n\nHis first draft contained accurate facts about both settlements' site factors, but never stated what criteria he was using to compare them, and several sentences presented evidence without explaining how it supported his point. 'You have real facts here,' Saya wrote in the margin, 'but I cannot tell what you are comparing them by, or why you included them. Name your criteria, and show your reasoning.'\n\nKaung Sett's revised draft opened by explicitly naming his comparison criteria -- site factor strength and later economic growth -- exactly the kind of stated-criteria habit Term 3's debate had taught him. He also added an explanation sentence to every paragraph, connecting each piece of evidence back to its point before moving on, and a final link sentence tying each paragraph back to the original question.\n\nReviewing the revised draft, Saya praised the transformation: the same underlying knowledge, now organized so every sentence visibly served the argument. 'This is what separates a good answer from an excellent one,' Saya said. 'Not more facts -- clearer structure connecting the facts you already have to the question you were actually asked.'",
+        passageMy:
+            "Week 34 ၏ Practice အတွက် နှစ်အစောပိုင်း ၎င်း လေ့လာခဲ့သော Settlement နှစ်ခုကို နှိုင်းယှဉ်သော Practice Question တစ်ခု ဖြေဆိုရန် Kaung Sett အား Saya တောင်းဆိုခဲ့ပြီး Structure ကို လုံးလုံး Focus ပြုသော အသေးစိတ် Feedback တစ်ခု နောက်မှ ပေးခဲ့သည်။\n\n၎င်း၏ ပထမ Draft တွင် Settlement နှစ်ခုစလုံး၏ Site Factor များအကြောင်း တိကျသော Fact များ ပါဝင်ခဲ့သော်လည်း ၎င်းတို့ကို နှိုင်းယှဉ်ရန် မည်သည့် Criteria အသုံးပြုနေသည်ကို ဘယ်တော့မှ မဖော်ပြခဲ့ဘဲ Paragraph အများအပြားသည် ၎င်း၏ Point ကို မည်သို့ ထောက်ခံသည်ကို ရှင်းပြခြင်း မပြုဘဲ Evidence ဖော်ပြခဲ့သည်။ 'သင့်တွင် Real Fact များ ရှိသည်' ဟု Saya Margin တွင် ရေးသားခဲ့သည်၊ 'သို့သော် ၎င်းတို့ကို မည်သည်ဖြင့် နှိုင်းယှဉ်နေသည်၊ (သို့) ဘာကြောင့် ထည့်သွင်းခဲ့သည်ကို ကျွန်ုပ် ခန့်မှန်း၍ မရနိုင်ပါ။ သင့်ကို Criteria ကို အမည်ဖော်ပြီး Reasoning ကို ပြပါ။'\n\nKaung Sett ၏ ပြင်ဆင်ထားသော Draft သည် ၎င်း၏ Comparison Criteria -- Site Factor Strength နှင့် နောက်ပိုင်း Economic Growth -- ကို ရှင်းလင်းစွာ အမည်ဖော်ပြခြင်းဖြင့် ဖွင့်လှစ်ခဲ့သည် -- Term 3 ၏ Debate ၎င်းကို သင်ကြားပေးခဲ့သော Stated-Criteria Habit အမျိုးအစား အတိအကျ ဖြစ်သည်။ ဆက်လက် မတိုင်မီ Evidence တစ်ခုစီကို ၎င်း၏ Point သို့ ပြန်ချိတ်ဆက်ကာ Explanation စာကြောင်းတစ်ခုကို Paragraph တိုင်းတွင် ၎င်း ထပ်ထည့်ခဲ့ပြီး Paragraph တစ်ခုစီကို Original မေးခွန်းသို့ ပြန်ချိတ်ဆက်ပေးသော Link စာကြောင်းတစ်ခုလည်း ထပ်ထည့်ခဲ့သည်။\n\nတည်းဖြတ်ထားသော Draft ကို ပြန်လည်သုံးသပ်ကာ Saya သည် ပြောင်းလဲမှုကို ချီးမွမ်းခဲ့သည် - Underlying Knowledge တူတူသော်လည်း စာကြောင်းတိုင်းသည် Argument ကို မြင်သာစွာ ဝန်ဆောင်စေရန် ယခု စီစဉ်ထားသည်။ 'ဤသည်ကား ကောင်းသော အဖြေတစ်ခုနှင့် ထူးချွန်သော အဖြေတစ်ခုကို ကွဲပြားစေသော အရာ ဖြစ်သည်' ဟု Saya ပြောခဲ့သည်။ 'Fact ပိုများခြင်း မဟုတ်ဘဲ -- သင့်တွင် ရှိပြီးသား Fact များကို အမှန်တကယ် မေးခဲ့သော မေးခွန်းသို့ ချိတ်ဆက်ပေးသော ရှင်းလင်းသော Structure ဖြစ်သည်။'",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what problem did Saya identify in Kaung Sett's first draft?",
+            questionMy:
+                "Kaung Sett ၏ ပထမ Draft တွင် Saya ဖော်ထုတ်ခဲ့သော ပြဿနာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It never stated comparison criteria, and evidence was presented without explaining how it supported the point",
+              "It contained no facts of any kind whatsoever about either settlement",
+              "It was already perfectly structured with no issues found",
+              "It compared a topic entirely unrelated to settlements",
+            ],
+            optionsMy: [
+              "Comparison Criteria ဘယ်တော့မှ မဖော်ပြခဲ့ဘဲ Point ကို Evidence မည်သို့ ထောက်ခံသည်ကို ရှင်းပြခြင်း မပြုဘဲ Evidence ဖော်ပြခဲ့ခြင်း",
+              "Settlement နှစ်ခုစလုံးအကြောင်း Fact မည်သည်မှ လုံးဝ မပါခြင်း",
+              "ပြဿနာ ရှာမတွေ့ဘဲ လုံးလုံး ကောင်းစွာ Structure ချထားပြီးသား ဖြစ်ခြင်း",
+              "Settlement များနှင့် လုံးလုံး မသက်ဆိုင်သော ခေါင်းစဉ်တစ်ခု နှိုင်းယှဉ်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identified problem."],
+            hintsMy: [
+              "ဖော်ထုတ်ထားသော ပြဿနာကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Kaung Sett's revised draft explicitly name at the start?",
+            questionMy:
+                "အစတွင် Kaung Sett ၏ ပြင်ဆင်ထားသော Draft ရှင်းလင်းစွာ အမည်ဖော်ပြခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "His comparison criteria -- site factor strength and later economic growth",
+              "Nothing at all -- no criteria were named in the revised draft",
+              "A completely unrelated topic with no connection to settlements",
+              "Criteria that had no actual connection to the original question",
+            ],
+            optionsMy: [
+              "၎င်း၏ Comparison Criteria -- Site Factor Strength နှင့် နောက်ပိုင်း Economic Growth",
+              "ဘာမှ -- ပြင်ဆင်ထားသော Draft တွင် Criteria မည်သည်မှ အမည်မဖော်ပြခဲ့ခြင်း",
+              "Settlement များနှင့် ချိတ်ဆက်မှု မရှိသော လုံးလုံး မသက်ဆိုင်သော ခေါင်းစဉ်တစ်ခု",
+              "Original မေးခွန်းနှင့် Actual Connection မရှိသော Criteria",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated criteria."],
+            hintsMy: [
+              "ဖော်ပြထားသော Criteria ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya say separates a good answer from an excellent one?",
+            questionMy:
+                "ကောင်းသော အဖြေတစ်ခုနှင့် ထူးချွန်သော အဖြေတစ်ခုကို ကွဲပြားစေသည်ဟု Saya ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Clearer structure connecting existing facts to the actual question asked, not simply more facts",
+              "Simply including more facts with no additional structure of any kind",
+              "Avoiding any connection between facts and the question entirely",
+              "Writing the longest possible answer regardless of its actual structure",
+            ],
+            optionsMy: [
+              "Fact ပိုများခြင်း မဟုတ်ဘဲ ရှိပြီးသား Fact များကို အမှန်တကယ် မေးခဲ့သော မေးခွန်းသို့ ချိတ်ဆက်ပေးသော ရှင်းလင်းသော Structure",
+              "Structure ထပ်ဆောင်း မည်သည်မှ မပါဘဲ Fact ပိုများခြင်း",
+              "Fact များနှင့် မေးခွန်းကြား ချိတ်ဆက်မှု မည်သည်ကိုမျှ လုံးလုံး ရှောင်ရှားခြင်း",
+              "၎င်း၏ Actual Structure မည်သို့ပင်ရှိစေ ဖြစ်နိုင်သမျှ အရှည်ဆုံး အဖြေ ရေးသားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated distinction."],
+            hintsMy: [
+              "ဖော်ပြထားသော ခွဲခြားချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w34-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Answer Structure Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Answer Structure မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A well-structured paragraph follows the pattern...",
+          questionMy:
+              "ကောင်းစွာ Structure ချထားသော Paragraph တစ်ခုသည် ...ပုံစံကို လိုက်နာသည်",
+          optionsEn: [
+            "Point, Evidence, Explanation, Link",
+            "Evidence alone with no other elements",
+            "Random facts with no structure whatsoever",
+            "Only a link with no point or evidence",
+          ],
+          optionsMy: [
+            "Point, Evidence, Explanation, Link",
+            "အခြား Element မပါဘဲ Evidence တစ်ခုတည်း",
+            "Structure မည်သည်မှ မပါဘဲ ကျပန်း Fact များ",
+            "Point (သို့) Evidence မပါဘဲ Link တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A comparison answer should explicitly state...",
+          questionMy:
+              "Comparison အဖြေတစ်ခုသည် ...ကို ရှင်းလင်းစွာ ဖော်ပြသင့်သည်",
+          optionsEn: [
+            "The criteria being used for the comparison",
+            "Nothing about how the comparison is being made",
+            "A basis that is deliberately left unstated",
+            "Only one side of the comparison with no criteria",
+          ],
+          optionsMy: [
+            "Comparison အတွက် အသုံးပြုနေသော Criteria",
+            "Comparison မည်သို့ ပြုလုပ်နေသည်အကြောင်း ဘာမှ",
+            "တမင်တကာ Unstated ချန်ထားသော Basis",
+            "Criteria မပါဘဲ Comparison ၏ ဘက်တစ်ဘက်တည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An answer's final sentence should...",
+          questionMy: "အဖြေတစ်ခု၏ နောက်ဆုံးစာကြောင်းသည် ...",
+          optionsEn: [
+            "Connect explicitly back to the original question",
+            "Simply trail off after presenting evidence",
+            "Introduce a completely new, unrelated topic",
+            "Avoid mentioning the question at all",
+          ],
+          optionsMy: [
+            "Original မေးခွန်းသို့ ရှင်းလင်းစွာ ပြန်ချိတ်ဆက်သင့်သည်",
+            "Evidence တင်ပြပြီးနောက် ရိုးရိုး ရပ်တန့်သွားသင့်သည်",
+            "လုံးလုံး အသစ်၊ မသက်ဆိုင်သော ခေါင်းစဉ်တစ်ခု မိတ်ဆက်သင့်သည်",
+            "မေးခွန်းအကြောင်း လုံးဝ မဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 9, Week 35: "Practicing Under Time"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek35 = CourseWeekDef(
+  id: "course-sec1-hum-w35",
+  weekNumber: 35,
+  titleEn: "Practicing Under Time",
+  titleMy: "အချိန်ကန့်သတ်ချက်အောက်တွင် Practice ပြုလုပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w35-d1",
+      dayNumber: 1,
+      titleEn: "Managing Time Without Losing Quality",
+      titleMy: "Quality မဆုံးရှုံးဘဲ အချိန် စီမံခန့်ခွဲခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Why is it strategically wise to briefly plan an answer's structure (point, evidence, explanation, link) before writing under time pressure, rather than writing immediately without a plan?",
+          questionMy:
+              "အချိန်ဖိအားအောက်တွင် ရေးသားမီ အဖြေတစ်ခု၏ Structure (Point, Evidence, Explanation, Link) ကို အတိုချုပ် စီစဉ်ခြင်းသည် Plan မပါဘဲ ချက်ချင်း ရေးသားခြင်းထက် Strategic အရ ပညာသားရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A brief plan helps ensure the answer stays organized and covers the key structural elements, actually saving time overall by avoiding a disorganized answer that needs extensive revision",
+            "Planning always wastes valuable time with no actual benefit to the final answer",
+            "Writing immediately without any plan always produces the strongest possible answer",
+            "Time management has no actual connection to the quality of a written answer",
+          ],
+          optionsMy: [
+            "Plan တိုတိုတစ်ခုသည် အဖြေသည် Organized ဆက်လက် ဖြစ်နေစေရန်နှင့် Key Structural Element များကို ဖုံးအုပ်ကြောင်း သေချာစေကာ Extensive Revision လိုအပ်သော Disorganized အဖြေတစ်ခုကို ရှောင်ရှားခြင်းဖြင့် အလုံးစုံ အချိန် အမှန်တကယ် ချွေတာစေသည်",
+            "Planning သည် Final Answer အတွက် Actual Benefit မရှိဘဲ တန်ဖိုးရှိသော အချိန်ကို အမြဲ ဖျန်းလှင့်ခြင်း",
+            "Plan မည်သည်မှ မပါဘဲ ချက်ချင်း ရေးသားခြင်းသည် ဖြစ်နိုင်သမျှ ခိုင်မာဆုံး အဖြေတစ်ခု အမြဲ ထုတ်လုပ်ပေးခြင်း",
+            "Time Management သည် ရေးသား အဖြေတစ်ခု၏ Quality နှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 8's evidence-based resource-allocation lesson -- limited time, like limited budget, should be allocated with a plan rather than spent haphazardly.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 8 ၏ Evidence-Based Resource-Allocation သင်ခန်းစာနှင့် ချိတ်ဆက်သည် -- ကန့်သတ်ထားသော Budget ကဲ့သို့ ကန့်သတ်ထားသော အချိန်ကို ကျပန်း သုံးစွဲမည့်အစား Plan တစ်ခုဖြင့် ခွဲဝေသင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why is it strategically wise to attempt every question on a timed practice, even briefly, rather than leaving a difficult question completely blank?",
+          questionMy:
+              "ခက်ခဲသော မေးခွန်းတစ်ခုကို လုံးဝ ဗလာချန်ထားမည့်အစား Timed Practice တစ်ခုပေါ်ရှိ မေးခွန်းတိုင်းကို အတို‌ငယ်မျှဖြစ်စေ ကြိုးစားဖြေဆိုခြင်းသည် Strategic အရ ပညာသားရှိသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A blank answer earns no credit at all, while even a brief, structured attempt using the point-evidence-explanation pattern has a real chance of earning some credit",
+            "A blank answer always earns exactly the same credit as any attempted answer",
+            "Attempting a difficult question always guarantees full credit regardless of quality",
+            "Leaving questions blank has no actual effect on a practice exercise's total outcome",
+          ],
+          optionsMy: [
+            "ဗလာ အဖြေတစ်ခုသည် Credit မည်သည်မှ မရရှိသော်လည်း Point-Evidence-Explanation Pattern အသုံးပြု၍ အတိုငယ်၊ Structure ကျသော ကြိုးစားမှုတစ်ခုသည် Credit အချို့ ရရှိနိုင်ခြေ အစစ်အမှန် ရှိသည်",
+            "ဗလာ အဖြေတစ်ခုသည် ကြိုးစားဖြေဆိုထားသော အဖြေမည်သည်နှင့်မဆို Credit အတိအကျ တူညီစွာ အမြဲ ရရှိခြင်း",
+            "ခက်ခဲသော မေးခွန်းတစ်ခု ကြိုးစားဖြေဆိုခြင်းသည် Quality မည်သို့ပင်ရှိစေ Full Credit အမြဲ အာမခံသည်",
+            "မေးခွန်းများကို ဗလာချန်ထားခြင်းသည် Practice Exercise တစ်ခု၏ Total Outcome အပေါ် Actual သက်ရောက်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This connects to Term 8's uncertainty-acknowledgment principle -- an honest partial attempt under time pressure is more valuable than no attempt at all.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 8 ၏ Uncertainty-Acknowledgment Principle နှင့် ချိတ်ဆက်သည် -- အချိန်ဖိအားအောက်ရှိ ရိုးသား တစ်စိတ်တစ်ပိုင်း ကြိုးစားမှုတစ်ခုသည် ကြိုးစားမှု လုံးဝ မရှိသည်ထက် ပို၍ တန်ဖိုးရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should a student briefly reread their answer if time remains at the end of a timed practice, rather than assuming the first draft is final?",
+          questionMy:
+              "Timed Practice တစ်ခု၏ အဆုံးတွင် အချိန် ကျန်ရှိနေပါက ပထမ Draft သည် နောက်ဆုံးဖြစ်သည်ဟု ယူဆမည့်အစား ကျောင်းသားတစ်ဦးသည် ၎င်း၏ အဖြေကို အတို‌ငယ်မျှ အဘယ်ကြောင့် ပြန်ဖတ်သင့်ရသနည်း။",
+          optionsEn: [
+            "A brief review can catch missed evidence, unclear explanations, or errors that would otherwise reduce the answer's quality, improving it at genuinely no additional cost",
+            "The first draft of any timed answer is always perfect and requires no review",
+            "Reviewing an answer at the end of a practice session has no actual value whatsoever",
+            "Rereading an answer always makes it worse and should be avoided entirely",
+          ],
+          optionsMy: [
+            "အတိုငယ်မျှ Review တစ်ခုသည် အဖြေ၏ Quality လျော့ကျစေမည့် လွတ်သွားသော Evidence, မရှင်းလင်းသော Explanation, (သို့) အမှားများကို ဖမ်းယူနိုင်ကာ ထပ်ဆောင်း Cost အမှန်တကယ် မရှိဘဲ ၎င်းကို တိုးတက်စေသည်",
+            "Timed အဖြေ မည်သည်၏ ပထမ Draft သည် Review မလိုအပ်ဘဲ အမြဲ ပြည့်စုံခြင်း",
+            "Practice Session အဆုံးတွင် အဖြေတစ်ခု ပြန်လည်သုံးသပ်ခြင်းသည် Actual Value မည်သည်မှ လုံးဝ မရှိခြင်း",
+            "အဖြေတစ်ခု ပြန်ဖတ်ခြင်းသည် ၎င်းကို အမြဲ ပို၍ ဆိုးဆိုးရွားရွား ဖြစ်စေပြီး လုံးလုံး ရှောင်ရှားသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mirrors Week 34's revision-improves-quality lesson from Kaung Sett's answer feedback -- reviewing and revising tends to strengthen rather than weaken a written answer.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Kaung Sett ၏ Answer Feedback မှ Week 34 ၏ Revision-Improves-Quality သင်ခန်းစာကို ထပ်လောင်းသည် -- Review ပြုလုပ်ပြီး ပြန်လည်ပြင်ဆင်ခြင်းသည် ရေးသားထားသော အဖြေတစ်ခုကို အားနည်းစေမည့်အစား အားကောင်းစေတတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Practice Strategy Terms",
+      titleMy: "တွဲစပ်ကြမည် - Practice Strategy Term များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w35-dm-1",
+          termEn: "Brief plan",
+          termMy: "Brief Plan",
+          matchEn:
+              "A short outline of point, evidence, and explanation made before writing",
+          matchMy:
+              "ရေးသားမီ ပြုလုပ်ထားသော Point, Evidence နှင့် Explanation ၏ တိုတို Outline",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w35-dm-2",
+          termEn: "Partial attempt",
+          termMy: "Partial Attempt",
+          matchEn:
+              "A brief, structured answer that still has a real chance of earning credit",
+          matchMy:
+              "Credit ရရှိနိုင်ခြေ အစစ်အမှန် ရှိသေးသော အတိုငယ်၊ Structure ကျသော အဖြေတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w35-dm-3",
+          termEn: "Time allocation",
+          termMy: "Time Allocation",
+          matchEn:
+              "Dividing available time among questions based on their difficulty or value",
+          matchMy:
+              "မေးခွန်းများ၏ Difficulty (သို့) Value အလိုက် ရရှိနိုင်သော အချိန်ကို ခွဲဝေခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w35-dm-4",
+          termEn: "Final review",
+          termMy: "Final Review",
+          matchEn:
+              "Rereading a written answer to catch errors before time runs out",
+          matchMy:
+              "အချိန် မကုန်ဆုံးမီ အမှားများကို ဖမ်းယူရန် ရေးသားထားသော အဖြေတစ်ခု ပြန်ဖတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good or Poor Time-Management Habit?",
+      titleMy:
+          "စီစစ်ကြမည် - ကောင်းသော (သို့) ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good Time-Management Habit", "Poor Time-Management Habit"],
+        bucketsMy: [
+          "ကောင်းသော Time-Management အလေ့အထ",
+          "ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w35-sort-1",
+            labelEn:
+                "Briefly planning an answer's structure before writing under time pressure",
+            labelMy:
+                "အချိန်ဖိအားအောက်တွင် ရေးသားမီ အဖြေတစ်ခု၏ Structure ကို အတိုချုပ် စီစဉ်ခြင်း",
+            correctBucketEn: "Good Time-Management Habit",
+            correctBucketMy: "ကောင်းသော Time-Management အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w35-sort-2",
+            labelEn:
+                "Leaving a difficult question completely blank instead of attempting it briefly",
+            labelMy:
+                "အတိုငယ်မျှ ကြိုးစားမည့်အစား ခက်ခဲသော မေးခွန်းတစ်ခုကို လုံးဝ ဗလာ ချန်ထားခြင်း",
+            correctBucketEn: "Poor Time-Management Habit",
+            correctBucketMy: "ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w35-sort-3",
+            labelEn:
+                "Briefly reviewing an answer if time remains at the end of a practice session",
+            labelMy:
+                "Practice Session ၏ အဆုံးတွင် အချိန် ကျန်ရှိပါက အဖြေတစ်ခုကို အတိုငယ်မျှ ပြန်လည်သုံးသပ်ခြင်း",
+            correctBucketEn: "Good Time-Management Habit",
+            correctBucketMy: "ကောင်းသော Time-Management အလေ့အထ",
+          ),
+          SortingItem(
+            id: "sec1hum-w35-sort-4",
+            labelEn:
+                "Spending most of the available time on a single question with none left for the others",
+            labelMy:
+                "အခြားများအတွက် အချိန် လုံးဝ မကျန်ဘဲ ရရှိနိုင်သော အချိန် အများစုကို မေးခွန်းတစ်ခုတည်းတွင် အသုံးပြုခြင်း",
+            correctBucketEn: "Poor Time-Management Habit",
+            correctBucketMy: "ညံ့ဖျင်းသော Time-Management အလေ့အထ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Thura's Timed Practice Reflection",
+      titleMy: "စာဖတ်ခြင်း - Thura ၏ Timed Practice Reflection",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Thura's Timed Practice Reflection",
+        titleMy: "Thura ၏ Timed Practice Reflection",
+        passageEn:
+            "Week 35 opened with a short, timed practice combining questions from across the year -- a settlement comparison, a resource-conflict analysis, and a source-evaluation question -- and Saya held a reflection session afterward focused on approach rather than just answers.\n\nThura admitted his first instinct was to start writing immediately on the settlement comparison question, the one he felt most confident about, without pausing to plan. Partway through, he realized he had not actually stated his comparison criteria, echoing exactly the mistake Kaung Sett had made in Week 34. He caught the problem himself and added a criteria sentence before continuing, but noted in his reflection that a brief plan at the start would have prevented the issue entirely.\n\nOn the resource-conflict question, Thura felt less confident and was tempted to leave it blank. Instead, he applied Monday's partial-attempt lesson: he wrote a brief but structured answer citing one documented factor and explaining its connection to the conflict, earning partial credit rather than a guaranteed zero.\n\nWith a few minutes remaining, Thura reread his settlement comparison answer and caught a sentence where he had stated evidence without explaining its connection to his point -- the exact error Saya had flagged in Week 34's practice answer -- and fixed it just in time. Saya told him that catching his own recurring error under real time pressure was a stronger sign of readiness for Secondary 2 than getting every answer perfect on the first attempt.",
+        passageMy:
+            "Week 35 သည် နှစ်တစ်ခုလုံးတစ်လျှောက်မှ မေးခွန်းများ ပေါင်းစပ်ထားသော ရေတို၊ Timed Practice တစ်ခုဖြင့် ဖွင့်လှစ်ခဲ့သည် -- Settlement Comparison, Resource-Conflict Analysis နှင့် Source-Evaluation မေးခွန်းတစ်ခု -- ပြီးနောက် အဖြေများကိုသာ မဟုတ်ဘဲ Approach ကို Focus ပြုသော Reflection Session တစ်ခု Saya ပြုလုပ်ခဲ့သည်။\n\nPlan မလုပ်ဘဲ ၎င်း Confidence အရှိဆုံး ခံစားရသော Settlement Comparison Question ပေါ်တွင် ချက်ချင်း ရေးသားစတင်ရန် ၎င်း၏ ပထမ Instinct ဖြစ်ခဲ့ကြောင်း Thura ဝန်ခံခဲ့သည်။ တစ်ဝက်လောက် ရောက်မှသာ Comparison Criteria ကို အမှန်တကယ် မဖော်ပြခဲ့ကြောင်း ၎င်း သိရှိလာခဲ့သည်၊ Week 34 တွင် Kaung Sett ပြုလုပ်ခဲ့သော အမှားကို အတိအကျ ထပ်လောင်းသည်။ ၎င်း ကိုယ်တိုင် ပြဿနာကို ဖမ်းယူပြီး ဆက်လက်မတိုင်မီ Criteria စာကြောင်းတစ်ခု ထပ်ထည့်ခဲ့သော်လည်း အစတွင် Brief Plan တစ်ခုသည် ပြဿနာကို လုံးလုံး ကာကွယ်ပေးလိမ့်မည် ဖြစ်ကြောင်း ၎င်း၏ Reflection တွင် မှတ်ချက်ပြုခဲ့သည်။\n\nResource-Conflict Question ပေါ်တွင် Confidence နည်းစွာ ခံစားရပြီး ဗလာ ချန်ထားရန် Thura သွေးဆောင်ခံရခဲ့သည်။ ယင်းအစား ၎င်းသည် တနင်္လာနေ့၏ Partial-Attempt သင်ခန်းစာကို အသုံးချခဲ့သည် - Documented Factor တစ်ခုကို ကိုးကားပြီး Conflict နှင့် ၎င်း၏ Connection ကို ရှင်းပြသော အတိုငယ်သော်လည်း Structure ကျသော အဖြေတစ်ခု ရေးသားခဲ့ကာ Mark သုည အာမခံမည့်အစား Partial Credit ရရှိခဲ့သည်။\n\nမိနစ် အနည်းငယ် ကျန်ရှိစဉ် Thura သည် ၎င်း၏ Settlement Comparison အဖြေကို ပြန်ဖတ်ကာ ၎င်း၏ Point သို့ Connection ရှင်းပြခြင်း မပြုဘဲ Evidence ဖော်ပြထားသော စာကြောင်းတစ်ခုကို ဖမ်းယူခဲ့သည် -- Week 34 ၏ Practice Answer တွင် Saya Flag ပြုလုပ်ခဲ့သော အတိအကျ အမှားတစ်ခု ဖြစ်ကာ အချိန်မီ ပြင်ဆင်ခဲ့သည်။ တကယ့် အချိန်ဖိအားအောက်တွင် ၎င်း၏ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်တတ်သော အမှားကို ကိုယ်တိုင် ဖမ်းယူနိုင်ခြင်းသည် ပထမအကြိမ် ကြိုးစားမှုတွင် အဖြေတိုင်း ပြည့်စုံခြင်းထက် Secondary 2 အတွက် အသင့်ဖြစ်မှု၏ ခိုင်မာသော လက္ခဏာတစ်ခု ဖြစ်ကြောင်း Saya ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did Thura make on the settlement comparison question?",
+            questionMy:
+                "Settlement Comparison Question ပေါ်တွင် Thura ပြုလုပ်ခဲ့သော အမှားကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "He started writing without planning and had not stated his comparison criteria",
+              "He left the entire question blank and made no attempt to answer it",
+              "He made no mistakes of any kind throughout the question",
+              "He answered a completely different question by accident",
+            ],
+            optionsMy: [
+              "Planning မပြုဘဲ ရေးသားစတင်ခဲ့ပြီး ၎င်း၏ Comparison Criteria ကို ဖော်မပြခဲ့ခြင်း",
+              "မေးခွန်းတစ်ခုလုံးကို ဗလာ ချန်ထားပြီး ဖြေဆိုရန် ကြိုးစားမှု မပြုခဲ့ခြင်း",
+              "မေးခွန်းတစ်လျှောက်လုံး အမှား မည်သည်မှ လုံးဝ မပြုလုပ်ခဲ့ခြင်း",
+              "မတော်တဆ လုံးလုံး ကွဲပြားသော မေးခွန်းတစ်ခု ဖြေဆိုခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described mistake."],
+            hintsMy: ["ဖော်ပြထားသော အမှားကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thura attempt the resource-conflict question he felt less confident about?",
+            questionMy:
+                "Confidence နည်းသော Resource-Conflict Question ကို Thura အဘယ်ကြောင့် ကြိုးစားဖြေဆိုခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A brief, structured partial attempt has a real chance of earning credit, unlike a blank answer",
+              "He believed leaving it blank would always earn more credit than attempting it",
+              "He had no actual reason and answered entirely at random",
+              "Attempting a question he felt uncertain about has no actual strategic value",
+            ],
+            optionsMy: [
+              "ဗလာ အဖြေတစ်ခုနှင့် မတူဘဲ အတိုငယ်၊ Structure ကျသော Partial Attempt တစ်ခုသည် Credit ရရှိနိုင်ခြေ အစစ်အမှန် ရှိသည်",
+              "ဗလာ ချန်ထားခြင်းသည် ကြိုးစားဖြေဆိုခြင်းထက် Credit ပို၍ အမြဲ ရရှိမည်ဟု ၎င်း ယုံကြည်ခဲ့ခြင်း",
+              "Actual အကြောင်းရင်း မရှိဘဲ လုံးလုံး ကျပန်း ဖြေဆိုခဲ့ခြင်း",
+              "Confidence မရှိသော မေးခွန်းတစ်ခုကို ကြိုးစားဖြေဆိုခြင်းသည် Actual Strategic Value မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated reason."],
+            hintsMy: [
+              "ဖော်ပြထားသော အကြောင်းရင်းကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya say was a stronger sign of readiness than getting every answer perfect?",
+            questionMy:
+                "အဖြေတိုင်း ပြည့်စုံခြင်းထက် အသင့်ဖြစ်မှု၏ ခိုင်မာသော လက္ခဏာတစ်ခုဖြစ်သည်ဟု Saya ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Catching his own recurring error under real time pressure",
+              "Getting every single answer perfectly correct on the very first attempt",
+              "Making no errors of any kind throughout the entire practice",
+              "Avoiding any review of his answers entirely once time ran out",
+            ],
+            optionsMy: [
+              "တကယ့် အချိန်ဖိအားအောက်တွင် ၎င်း၏ ထပ်ခါထပ်ခါ ဖြစ်ပေါ်တတ်သော အမှားကို ကိုယ်တိုင် ဖမ်းယူနိုင်ခြင်း",
+              "ပထမအကြိမ် ကြိုးစားမှုတွင် အဖြေတိုင်း အပြည့်အစုံ မှန်ကန်ခြင်း",
+              "Practice တစ်ခုလုံးတစ်လျှောက် အမှား မည်သည်မှ လုံးဝ မပြုလုပ်ခြင်း",
+              "အချိန် ကုန်သွားသည်နှင့် ၎င်း၏ အဖြေများကို Review ပြုလုပ်ခြင်း လုံးလုံး ရှောင်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated observation."],
+            hintsMy: [
+              "ဖော်ပြထားသော Observation ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w35-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Timed Practice Essentials",
+      titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Timed Practice မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before writing under time pressure, it is wise to...",
+          questionMy: "အချိန်ဖိအားအောက်တွင် ရေးသားမီ ...ခြင်းသည် ပညာသားရှိသည်",
+          optionsEn: [
+            "Briefly plan the answer's structure",
+            "Start writing immediately with no plan",
+            "Skip planning to save time",
+            "Avoid thinking about structure entirely",
+          ],
+          optionsMy: [
+            "အဖြေ၏ Structure ကို အတိုချုပ် စီစဉ်",
+            "Plan မပါဘဲ ချက်ချင်း ရေးသားစတင်",
+            "အချိန် ချွေတာရန် Planning ကျော်ဖြတ်",
+            "Structure အကြောင်း လုံးလုံး မစဉ်းစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A difficult question should be...",
+          questionMy: "ခက်ခဲသော မေးခွန်းတစ်ခုသည် ...",
+          optionsEn: [
+            "Attempted briefly rather than left blank",
+            "Always left completely blank",
+            "Skipped without any consideration",
+            "Answered with no structure whatsoever",
+          ],
+          optionsMy: [
+            "ဗလာ ချန်ထားမည့်အစား အတိုငယ်မျှ ကြိုးစားသင့်သည်",
+            "အမြဲ လုံးဝ ဗလာ ချန်ထားသင့်သည်",
+            "စဉ်းစားမှု မည်သည်မှ မပါဘဲ ကျော်သင့်သည်",
+            "Structure မည်သည်မှ မပါဘဲ ဖြေဆိုသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "If time remains at the end of a practice session, a student should...",
+          questionMy:
+              "Practice Session ၏ အဆုံးတွင် အချိန် ကျန်ရှိပါက ကျောင်းသားတစ်ဦးသည် ...သင့်သည်",
+          optionsEn: [
+            "Briefly review answers to catch errors or missed evidence",
+            "Submit immediately without any review whatsoever",
+            "Erase all answers and start over completely",
+            "Leave without checking anything at all",
+          ],
+          optionsMy: [
+            "အမှားများ (သို့) လွတ်သွားသော Evidence ကို ဖမ်းယူရန် အဖြေများကို အတိုငယ်မျှ ပြန်လည်သုံးသပ်သင့်သည်",
+            "Review မည်သည်မှ မပါဘဲ ချက်ချင်း တင်သွင်းသင့်သည်",
+            "အဖြေများ အားလုံး ဖျက်ပြီး အစအဆုံး ပြန်စတင်သင့်သည်",
+            "မည်သည်ကိုမျှ စစ်ဆေးခြင်း မပြုဘဲ ထွက်ခွာသင့်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 1 Humanities -- Term 9, Week 36 (Capstone/Boss Week):
+// "Heritage & Geography Exhibition and Graduation"
+// =====================================================================
+
+const CourseWeekDef _sec1HumWeek36 = CourseWeekDef(
+  id: "course-sec1-hum-w36",
+  weekNumber: 36,
+  titleEn: "Heritage & Geography Exhibition and Graduation",
+  titleMy: "Heritage & Geography Exhibition and Graduation",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec1hum-w36-d1",
+      dayNumber: 1,
+      titleEn: "Reviewing a Full Year of History and Geography",
+      titleMy:
+          "History နှင့် Geography တစ်နှစ်စာ အပြည့်အစုံ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across the whole year, from Term 1's first lesson to Term 9's exhibition, why did the combination of the historian's and geographer's lenses prove more powerful than either lens used alone?",
+          questionMy:
+              "Term 1 ၏ ပထမဆုံးသင်ခန်းစာမှ Term 9 ၏ Exhibition အထိ နှစ်တစ်ခုလုံးတစ်လျှောက် Historian ၏ နှင့် Geographer ၏ မှန်ဘီလူးများ ပေါင်းစပ်မှုသည် မှန်ဘီလူးတစ်ခုတည်း အသုံးပြုခြင်းထက် ပို၍ အားကောင်းသည်ဟု သက်သေပြခဲ့ရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Real places and real events are shaped by both physical geography and human history simultaneously, so a combined understanding captures a fuller reality than either question asked alone",
+            "The two lenses were actually identical with no real difference in what they revealed",
+            "Using only one lens always reveals more than using both lenses together",
+            "The two lenses have no actual connection to understanding a real place or event",
+          ],
+          optionsMy: [
+            "Real နေရာများနှင့် Real Event များသည် Physical Geography နှင့် Human History နှစ်ခုစလုံးက တစ်ပြိုင်နက် ပုံဖော်ခံရသောကြောင့် Combined Understanding တစ်ခုသည် မေးခွန်းတစ်ခုတည်းသာ မေးထားခြင်းထက် ပို၍ ပြည့်စုံသော Reality ကို ဖမ်းယူသည်",
+            "မှန်ဘီလူးနှစ်ခုသည် ၎င်းတို့ ဖော်ထုတ်သည့်အရာတွင် Real ကွာခြားချက် မရှိဘဲ Identical အမှန်တကယ် ဖြစ်ခြင်း",
+            "မှန်ဘီလူးတစ်ခုတည်း အသုံးပြုခြင်းသည် မှန်ဘီလူးနှစ်ခုစလုံး အတူတကွ အသုံးပြုခြင်းထက် ပို၍ ဖော်ထုတ်ပေး အမြဲ",
+            "မှန်ဘီလူးနှစ်ခုတွင် Real နေရာတစ်ခု (သို့) Event တစ်ခု နားလည်ခြင်းနှင့် Actual Connection မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Trace this thread from Term 1's Nilar photograph reading, through Term 5's Silk Road project and Term 7's town case study, to Term 8's trade route studio -- combined lenses recur as the standard throughout.",
+          ],
+          hintsMy: [
+            "ဤ Thread ကို Term 1 ၏ Nilar Photograph စာဖတ်ခြင်းမှ Term 5 ၏ Silk Road Project နှင့် Term 7 ၏ မြို့ Case Study ကို ဖြတ်၍ Term 8 ၏ Trade Route Studio အထိ ခြေရာခံပါ -- Combined Lens များသည် တစ်လျှောက်လုံး Standard အဖြစ် ထပ်ခါထပ်ခါ ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why did learning to recognize and resist oversimplified single-cause explanations -- from Term 3's Athens-Sparta comparison to Term 8's resource-conflict analysis -- matter more than memorizing any single fact taught this year?",
+          questionMy:
+              "Oversimplified Single-Cause ရှင်းပြချက်များကို အသိအမှတ်ပြု၊ ခုခံရန် သင်ယူခြင်းသည် -- Term 3 ၏ Athens-Sparta Comparison မှ Term 8 ၏ Resource-Conflict Analysis အထိ -- ဤနှစ် သင်ကြားခဲ့သော Fact တစ်ခုတည်းကို အလွတ်ကျက်ခြင်းထက် ပို၍ အရေးကြီးရသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "A transferable reasoning skill applies to any new topic a student will encounter, while an individual memorized fact only ever applies to that one specific case",
+            "Individual memorized facts are always more valuable than any transferable reasoning skill",
+            "Recognizing oversimplified explanations has no actual value beyond the specific examples studied this year",
+            "This skill only ever applied to one single term of the course and had no broader use",
+          ],
+          optionsMy: [
+            "Transferable Reasoning Skill တစ်ခုသည် ကျောင်းသားတစ်ဦး ကြုံတွေ့မည့် ခေါင်းစဉ်အသစ် မည်သည်တွင်မဆို အသုံးချသော်လည်း Individual Memorized Fact တစ်ခုသည် ထို Specific Case တစ်ခုတည်းအတွက်သာ ဘယ်တော့မှ အသုံးချသည်",
+            "Individual Memorized Fact များသည် Transferable Reasoning Skill မည်သည်ထက်မဆို အမြဲ ပို၍ တန်ဖိုးရှိခြင်း",
+            "Oversimplified ရှင်းပြချက်များ အသိအမှတ်ပြုခြင်းသည် ဤနှစ် လေ့လာခဲ့သော Specific ဥပမာများကျော်လွန်၍ Actual Value မရှိခြင်း",
+            "ဤ Skill သည် Course ၏ Term တစ်ခုတည်းကိုသာ ဘယ်တော့မှ အသုံးချခဲ့ပြီး ကျယ်ပြန့်သော Use မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Week 33's Nilar reflection point applied one final time -- the habits of mind, not the individual facts, are what carry forward into Secondary 2 and beyond.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား နောက်ဆုံးအကြိမ် အသုံးချထားသော Week 33 ၏ Nilar Reflection Point ဖြစ်သည် -- Secondary 2 နှင့် ကျော်လွန်၍ ဆက်လက် သယ်ဆောင်သွားသည့်အရာမှာ Individual Fact များ မဟုတ်ဘဲ Habits of Mind များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the year's final exhibition demonstrate the point-evidence-explanation-link structure and honest uncertainty habits from Term 9, rather than presenting content with no structure and false confidence about every detail?",
+          questionMy:
+              "နှစ်၏ Final Exhibition သည် Detail တိုင်းအကြောင်း Structure မပါဘဲ False Confidence ဖြင့် Content တင်ပြမည့်အစား Term 9 မှ Point-Evidence-Explanation-Link Structure နှင့် Honest Uncertainty Habit များကို အဘယ်ကြောင့် သရုပ်ပြသင့်ရသနည်း။",
+          optionsEn: [
+            "The exhibition is the year's final, most visible demonstration of every skill built across the course, so it should model the same disciplined standards practiced throughout rather than abandoning them at the finish line",
+            "The exhibition should abandon every skill practiced earlier in the year for a completely different approach",
+            "Structure and honest uncertainty have no actual relevance to a final exhibition",
+            "The exhibition should claim complete, false certainty about every single detail presented",
+          ],
+          optionsMy: [
+            "Exhibition သည် Course တစ်ခုလုံးတစ်လျှောက် တည်ဆောက်ခဲ့သော Skill တိုင်း၏ နှစ်၏ Final, အမြင်ရသဆုံး Demonstration ဖြစ်သောကြောင့် Finish Line တွင် ၎င်းတို့ကို စွန့်လွှတ်မည့်အစား တစ်လျှောက်လုံး ကျင့်သုံးခဲ့သော Disciplined Standard တူတူကို Model ပြသင့်သည်",
+            "Exhibition သည် နှစ်အစောပိုင်းတွင် ကျင့်သုံးခဲ့သော Skill တိုင်းကို လုံးလုံး ကွဲပြားသော Approach တစ်ခုအတွက် စွန့်လွှတ်သင့်သည်",
+            "Structure နှင့် Honest Uncertainty တွင် Final Exhibition တစ်ခုနှင့် Actual Relevance မရှိခြင်း",
+            "Exhibition သည် တင်ပြထားသော Detail တစ်ခုစီအကြောင်း Complete, False Certainty ကို Claim ပြုလုပ်သင့်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This ties Term 9's own lessons directly to the capstone that closes it -- the same standards apply from the year's first week to its very last.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Term 9 ကိုယ်တိုင်၏ သင်ခန်းစာများကို ၎င်းကို ပိတ်သိမ်းသော Capstone နှင့် တိုက်ရိုက် ချိတ်ဆက်ပေးသည် -- Standard တူတူသည် နှစ်၏ ပထမဆုံးအပတ်မှ ၎င်း၏ နောက်ဆုံးအပတ်အထိ အသုံးချသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Year's Habits of Mind",
+      titleMy: "တွဲစပ်ကြမည် - နှစ်၏ Habits of Mind",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec1hum-w36-dm-1",
+          termEn: "Combined lens",
+          termMy: "Combined Lens",
+          matchEn:
+              "Using both the historian's and geographer's questions together on one topic",
+          matchMy:
+              "ခေါင်းစဉ်တစ်ခုပေါ်တွင် Historian ၏ နှင့် Geographer ၏ မေးခွန်းများ နှစ်ခုစလုံး အတူတကွ အသုံးပြုခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w36-dm-2",
+          termEn: "Weighing multiple factors",
+          termMy: "Weighing Multiple Factors",
+          matchEn:
+              "Judging how several causes compare, rather than defending only one",
+          matchMy:
+              "တစ်ခုတည်းကိုသာ ကာကွယ်မည့်အစား Cause များစွာ မည်သို့ ယှဉ်ပြိုင်သည်ကို ဆုံးဖြတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w36-dm-3",
+          termEn: "Transferable skill",
+          termMy: "Transferable Skill",
+          matchEn:
+              "A reasoning habit that applies to any new topic, not just the one it was learned from",
+          matchMy:
+              "၎င်း သင်ယူခဲ့ရသည့် ခေါင်းစဉ်တစ်ခုတည်းမက ခေါင်းစဉ်အသစ် မည်သည်တွင်မဆို အသုံးချသော Reasoning Habit",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec1hum-w36-dm-4",
+          termEn: "Disciplined exhibition",
+          termMy: "Disciplined Exhibition",
+          matchEn:
+              "A final presentation that maintains structure and honest uncertainty throughout",
+          matchMy:
+              "Structure နှင့် Honest Uncertainty ကို တစ်လျှောက်လုံး ထိန်းသိမ်းထားသော Final Presentation",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: History Skill or Geography Skill (or Both)?",
+      titleMy:
+          "စီစစ်ကြမည် - History Skill (သို့) Geography Skill (သို့) နှစ်ခုလုံး",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Skill Shared by Both History and Geography",
+          "Skill Specific to One Discipline Only",
+        ],
+        bucketsMy: [
+          "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+        ],
+        items: [
+          SortingItem(
+            id: "sec1hum-w36-sort-1",
+            labelEn:
+                "Grounding a claim in specific, cited evidence rather than a vague statement",
+            labelMy:
+                "Vague Statement တစ်ခုအစား Specific, Cited Evidence တွင် Claim တစ်ခု အခြေခံခြင်း",
+            correctBucketEn: "Skill Shared by Both History and Geography",
+            correctBucketMy:
+                "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          ),
+          SortingItem(
+            id: "sec1hum-w36-sort-2",
+            labelEn:
+                "Distinguishing renewable from non-renewable natural resources",
+            labelMy:
+                "Renewable ကို Non-Renewable သဘာဝ အရင်းအမြစ်များမှ ခွဲခြားခြင်း",
+            correctBucketEn: "Skill Specific to One Discipline Only",
+            correctBucketMy: "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+          ),
+          SortingItem(
+            id: "sec1hum-w36-sort-3",
+            labelEn:
+                "Weighing multiple factors before reaching a balanced conclusion",
+            labelMy: "ချိန်ညှိထားသော ကောက်ချက် မရမီ Factor များစွာ ချိန်ဆခြင်း",
+            correctBucketEn: "Skill Shared by Both History and Geography",
+            correctBucketMy:
+                "History နှင့် Geography နှစ်ခုလုံး မျှဝေထားသော Skill",
+          ),
+          SortingItem(
+            id: "sec1hum-w36-sort-4",
+            labelEn:
+                "Weighing the reliability of a primary source's origin and purpose",
+            labelMy:
+                "Primary Source တစ်ခု၏ Origin နှင့် Purpose ၏ Reliability ကို ချိန်ဆခြင်း",
+            correctBucketEn: "Skill Specific to One Discipline Only",
+            correctBucketMy: "Discipline တစ်ခုတည်းအတွက်သာ ဖြစ်သော Skill",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Class Exhibition Day",
+      titleMy: "စာဖတ်ခြင်း - အတန်း Exhibition Day",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Class Exhibition Day",
+        titleMy: "အတန်း Exhibition Day",
+        passageEn:
+            "On the final day of Secondary 1 Humanities, the class held a Heritage & Geography Exhibition, with every student presenting one project chosen from across the year's nine terms, explaining not just what they had studied, but which core habits of mind connected it to everything else.\n\nNilar presented her Term 1 local investigation, but reframed it through the lens of the whole year: the combined historian-geographer approach she had used on one street corner, she explained, was the same approach the class had later applied to entire kingdoms and trade networks. Kaung Sett presented his revised settlement comparison, showing his final class visitors both his flawed first draft and his corrected version, explaining that stating criteria honestly was a habit that mattered whether comparing two streets or two civilizations.\n\nThura presented his trade route studio project, but used his exhibition time to explain the balanced, multi-factor treatment of conflict he had settled on -- resource competition as a contributing factor, not an inevitable sole cause -- connecting it explicitly to Term 3's Athens-Sparta lesson about avoiding oversimplified labels.\n\nSaya closed the exhibition by telling the class that the individual projects on display were less important than what the exhibition, taken together, revealed: nine terms, dozens of topics, and one consistent, disciplined way of thinking -- weighing evidence fairly, citing it specifically, and admitting honest uncertainty -- that would travel with every student into Secondary 2 and beyond, regardless of what specific content came next.",
+        passageMy:
+            "Secondary 1 Humanities ၏ နောက်ဆုံးနေ့တွင် ကျောင်းသားတိုင်း နှစ်၏ Term ကိုးပါးတစ်လျှောက်မှ ရွေးချယ်ထားသော Project တစ်ခုကို တင်ပြကာ ၎င်းတို့ လေ့လာခဲ့သည့်အရာကိုသာမက ၎င်းကို အခြားအရာအားလုံးနှင့် ချိတ်ဆက်ပေးသော Core Habits of Mind ကိုပါ ရှင်းပြသော Heritage & Geography Exhibition တစ်ခုကို အတန်း ပြုလုပ်ခဲ့သည်။\n\nNilar သည် ၎င်း၏ Term 1 Local Investigation ကို တင်ပြခဲ့သော်လည်း နှစ်တစ်ခုလုံး၏ မှန်ဘီလူးမှတစ်ဆင့် ၎င်းကို ပြန်လည် Frame ပြုလုပ်ခဲ့သည် - လမ်းထောင့်တစ်ခုပေါ်တွင် ၎င်း အသုံးပြုခဲ့သော Combined Historian-Geographer Approach သည် Kingdom များနှင့် Trade Network များတစ်လျှောက်လုံးအတွက် အတန်း နောက်ပိုင်းတွင် အသုံးချခဲ့သော Approach တူတူ ဖြစ်ကြောင်း ၎င်း ရှင်းပြခဲ့သည်။ ၎င်း၏ ချို့ယွင်းသော ပထမ Draft နှင့် ပြင်ဆင်ထားသော Version နှစ်ခုစလုံးကို ၎င်း၏ နောက်ဆုံး Class Visitor များအား ပြသကာ Kaung Sett သည် ၎င်း၏ ပြင်ဆင်ထားသော Settlement Comparison ကို တင်ပြခဲ့ပြီး Criteria ကို ရိုးသားစွာ ဖော်ပြခြင်းသည် Street နှစ်ခု (သို့) Civilization နှစ်ခု နှိုင်းယှဉ်သည်ဖြစ်စေ အရေးကြီးသော Habit တစ်ခု ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်။\n\nThura သည် ၎င်း၏ Trade Route Studio Project ကို တင်ပြခဲ့သော်လည်း ၎င်း ဆုံးဖြတ်ခဲ့သော Conflict ၏ Balanced, Multi-Factor ကိုင်တွယ်မှုကို ရှင်းပြရန် ၎င်း၏ Exhibition အချိန်ကို အသုံးပြုခဲ့သည် -- Inevitable Sole Cause တစ်ခု မဟုတ်ဘဲ Contributing Factor တစ်ခုအဖြစ် Resource Competition -- Oversimplified Label များ ရှောင်ရှားခြင်းအကြောင်း Term 3 ၏ Athens-Sparta သင်ခန်းစာသို့ ၎င်းကို ရှင်းလင်းစွာ ချိတ်ဆက်ခဲ့သည်။\n\nတင်ပြထားသော Individual Project များသည် Exhibition တစ်ခုလုံး အတူတကွ ဖော်ထုတ်ပေးခဲ့သည့်အရာထက် အရေးမကြီးကြောင်း Saya အတန်းအား ပြောပြကာ Exhibition ကို ပိတ်သိမ်းခဲ့သည် - Term ကိုးပါး, Topic ဒါဇင်ချီ နှင့် Thinking နည်းလမ်း တသမတ်တည်း၊ Disciplined တစ်ခု -- Evidence ကို မျှတစွာ ချိန်ဆခြင်း၊ ၎င်းကို တိကျစွာ ကိုးကားခြင်းနှင့် Honest Uncertainty ဝန်ခံခြင်း -- နောက်ပိုင်းတွင် Content တိကျ မည်သို့ပင်ရှိစေ Secondary 2 နှင့် ကျော်လွန်၍ ကျောင်းသားတိုင်းနှင့်အတူ ခရီးသွားလိမ့်မည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, how did Nilar reframe her Term 1 local investigation?",
+            questionMy:
+                "၎င်း၏ Term 1 Local Investigation ကို Nilar မည်သို့ ပြန်လည် Frame ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She showed the combined historian-geographer approach was the same one later applied to kingdoms and trade networks",
+              "She claimed her Term 1 project had no connection to any later work in the course",
+              "She presented it exactly as it was in Term 1 with no reframing of any kind",
+              "She removed all mention of geography or history from her presentation",
+            ],
+            optionsMy: [
+              "Combined Historian-Geographer Approach သည် Kingdom များနှင့် Trade Network များအတွက် နောက်ပိုင်း အသုံးချခဲ့သော Approach တူတူ ဖြစ်ကြောင်း ၎င်း ပြသခဲ့ခြင်း",
+              "၎င်း၏ Term 1 Project တွင် Course ၏ နောက်ပိုင်း အလုပ် မည်သည်နှင့်မျှ Connection မရှိကြောင်း ၎င်း Claim ပြုလုပ်ခဲ့ခြင်း",
+              "Reframing မည်သည်မှ မပြုဘဲ Term 1 တွင် ရှိသည့်အတိုင်း ၎င်းကို တင်ပြခဲ့ခြင်း",
+              "Geography (သို့) History ရည်ညွှန်းချက်အားလုံးကို ၎င်း၏ Presentation မှ ဖယ်ရှားခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's described reframing."],
+            hintsMy: [
+              "ဖော်ပြထားသော Reframing ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Thura characterize resource competition's role in the conflict he studied?",
+            questionMy:
+                "၎င်း လေ့လာခဲ့သော Conflict တွင် Resource Competition ၏ Role ကို Thura မည်သို့ Characterize ပြုလုပ်ခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A contributing factor, not an inevitable sole cause",
+              "The complete and only cause with no other factors",
+              "Something with no actual connection to the conflict at all",
+              "A factor he refused to discuss in his exhibition",
+            ],
+            optionsMy: [
+              "Inevitable Sole Cause တစ်ခု မဟုတ်ဘဲ Contributing Factor တစ်ခု",
+              "အခြား Factor မပါဘဲ ပြည့်စုံပြီး တစ်ခုတည်းသော Cause",
+              "Conflict နှင့် Actual Connection မည်သည်မှ လုံးဝ မရှိသော အရာတစ်ခု",
+              "၎င်း၏ Exhibition တွင် ဆွေးနွေးရန် ၎င်း ငြင်းဆန်ခဲ့သော Factor တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated characterization."],
+            hintsMy: [
+              "ဖော်ပြထားသော Characterization ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did Saya say would travel with every student into Secondary 2?",
+            questionMy:
+                "ကျောင်းသားတိုင်းနှင့်အတူ Secondary 2 သို့ ခရီးသွားမည်ဟု Saya ပြောခဲ့သည့်အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A consistent, disciplined way of thinking, not the specific individual projects displayed",
+              "Only the specific individual projects displayed at the exhibition",
+              "Nothing at all -- the year's learning had no lasting value",
+              "A completely random assortment of unrelated facts",
+            ],
+            optionsMy: [
+              "တင်ပြထားသော Specific Individual Project များ မဟုတ်ဘဲ Consistent, Disciplined Thinking နည်းလမ်းတစ်ခု",
+              "Exhibition တွင် တင်ပြထားသော Specific Individual Project များသာ",
+              "ဘာမှ -- နှစ်၏ သင်ယူမှုတွင် ရေရှည် Value မရှိခြင်း",
+              "မသက်ဆိုင်သော Fact များ၏ လုံးလုံး ကျပန်း စုစည်းမှုတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's stated conclusion."],
+            hintsMy: [
+              "ဖော်ပြထားသော ကောက်ချက်ကို နောက်ဆုံးစာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec1hum-w36-d5",
+      dayNumber: 5,
+      titleEn: "Secondary 1 Humanities Graduation Exam",
+      titleMy: "Secondary 1 Humanities ဘွဲ့နှင်းသဘင် စာမေးပွဲ",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Across the whole year, a strong judgement in both history and geography...",
+          questionMy:
+              "နှစ်တစ်ခုလုံးတစ်လျှောက် History နှင့် Geography နှစ်ခုလုံးတွင် ခိုင်မာသော Judgement တစ်ခုသည် ...",
+          optionsEn: [
+            "Weighs multiple factors before reaching a conclusion",
+            "Defends only one factor and ignores every alternative",
+            "Avoids reaching any conclusion at all",
+            "Is based on no evidence of any kind whatsoever",
+          ],
+          optionsMy: [
+            "ကောက်ချက်တစ်ခု မရမီ Factor များစွာကို ချိန်ဆသည်",
+            "Factor တစ်ခုတည်းကိုသာ ကာကွယ်ပြီး အခြားအားလုံးကို လျစ်လျူရှုသည်",
+            "ကောက်ချက် မည်သည်ကိုမျှ လုံးဝ ရှောင်ရှားသည်",
+            "Evidence မည်သည်မှ အခြေခံမထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-supported claim in either discipline should be grounded in...",
+          questionMy:
+              "Discipline နှစ်ခုစလုံးတွင် ကောင်းစွာ ထောက်ခံထားသော Claim တစ်ခုသည် ...တွင် အခြေခံသင့်သည်",
+          optionsEn: [
+            "Specific, named evidence such as a source, case, or dataset",
+            "A generic statement with no specific example",
+            "No evidence of any kind whatsoever",
+            "A claim that could apply to any place or time equally",
+          ],
+          optionsMy: [
+            "Source, Case, (သို့) Dataset ကဲ့သို့ တိကျ၊ အမည်ရှိသော Evidence",
+            "တိကျသော ဥပမာမပါသော Generic ဖော်ပြချက်",
+            "Evidence မည်သည်မှ လုံးဝ",
+            "နေရာ (သို့) အချိန် မည်သည်တွင်မဆို အညီအမျှ အသုံးချနိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The habit of mind connecting every term of this course, from Term 1's first lesson to Term 9's exhibition, was...",
+          questionMy:
+              "Term 1 ၏ ပထမဆုံးသင်ခန်းစာမှ Term 9 ၏ Exhibition အထိ Course ၏ Term တိုင်းကို ချိတ်ဆက်ပေးသော Habit of Mind မှာ ...",
+          optionsEn: [
+            "Reasoning carefully from evidence toward a fair, honest conclusion",
+            "Memorizing isolated facts with no connecting reasoning",
+            "Avoiding any evaluation of evidence entirely",
+            "Claiming false certainty regardless of what the evidence actually shows",
+          ],
+          optionsMy: [
+            "Evidence မှ တရားမျှတ၊ ရိုးသားသော ကောက်ချက်တစ်ခုသို့ ဂရုတစိုက် Reasoning ပြုလုပ်ခြင်း",
+            "ချိတ်ဆက် Reasoning မပါဘဲ သီးခြား Fact များ အလွတ်ကျက်ခြင်း",
+            "Evidence အကဲဖြတ်ခြင်းကို လုံးလုံး ရှောင်ရှားခြင်း",
+            "Evidence က အမှန်တကယ် ပြသနေသည်ကို ဂရုမစိုက်ဘဲ False Certainty Claim ပြုလုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 1 Humanities -- Term 9: "Skills Review and Exhibition"
+// term definition (Weeks 33-36)
+// =====================================================================
+
+const CourseTermDef _sec1HumTerm9 = CourseTermDef(
+  id: "course-sec1-hum-t9",
+  termNumber: 9,
+  titleEn: "Skills Review and Exhibition",
+  titleMy: "Skills Review and Exhibition",
+  certificateTitleEn: "Secondary 1 Humanities (History & Geography)",
+  certificateTitleMy: "Secondary 1 Humanities (သမိုင်းနှင့် ပထဝီဝင်)",
+  weeks: [_sec1HumWeek33, _sec1HumWeek34, _sec1HumWeek35, _sec1HumWeek36],
 );
 // __SEC_HUM_MARKER__
