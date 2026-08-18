@@ -77,8 +77,8 @@
 
 ## Mission 6: World-Class Gamified 3D/Neumorphic UI/UX Overhaul
 
+**Status: Complete.** Shipped as the "Candy Core" two-layer 3D-bevel design system — see `docs/superpowers/specs/2026-07-20-mission6-candy-core-design.md` (spec) and `docs/superpowers/plans/2026-07-20-mission6-candy-core-plan.md` (plan, all 11 tasks checked off, commits `276bfe9`..`d14d311`, 2026-07-20). Missions 1-5 above also all shipped ahead of it per the intended sequencing. A follow-up polish pass on 2026-08-18 caught and fixed several post-Mission-6 screens that had never picked up the bevel treatment — logged in the plan doc's "Post-Mission Polish Follow-ups" section.
+
 **Reported ask:** Redesign the core interface (buttons, typography, micro-animations) to match top-tier educational apps, in a gamified/neumorphic 3D direction.
 
 **Scope note:** Deliberately sequenced last. Theme tokens live centrally in `lib/core/theme/app_theme.dart` (`AppColors`, `AppGradients`, `AppShadows`, `AppTheme.light/dark`), which is good news for a redesign — there's one place to change tokens, but every screen consumes them, so this mission touches the whole app's visual surface. Should start only once Missions 1-5 are merged, so the redesign lands on stable navigation/UI rather than needing rework after.
-
-**Immediate next step (this session, ultracode workflow):** Survey the current theme and generate 3 concrete gamified/neumorphic design-direction proposals for review — see workflow output printed in this session's conversation. Once a direction is chosen, that becomes Mission 6's own spec + plan doc (component-by-component: buttons, cards, quiz screens, nav, micro-animations, dark mode, and explicit per-tier treatment for Nursery/KG vs. Primary vs. Secondary/IGCSE, matching the existing "muted-premium palette for the older tier" pattern already established in `secondary_igcse_home_screen.dart`).
