@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/widgets/candy_bevel_surface.dart';
 import '../home/home_shared_widgets.dart';
 
 /// Shared "Great Job!" full-screen completion state for the five new
@@ -110,19 +111,22 @@ class NurseryCompletionOverlay extends StatelessWidget {
                 const SizedBox(height: 22),
                 SizedBox(
                   width: double.infinity,
-                  child: FilledButton(
-                    onPressed: onDone,
-                    style: FilledButton.styleFrom(
-                      backgroundColor: AppColors.secondary,
-                      padding: const EdgeInsets.symmetric(vertical: 18),
-                    ),
-                    child: FittedBox(
-                      fit: BoxFit.scaleDown,
-                      child: Text(
-                        doneLabel,
-                        style: const TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w800,
+                  child: CandyBevelSurface(
+                    faceColor: AppColors.secondary,
+                    bevelDepth: CandyBevelDepth.nursery,
+                    borderRadius: AppTheme.radiusSmall,
+                    padding: const EdgeInsets.symmetric(vertical: 18),
+                    onTap: onDone,
+                    child: Center(
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          doneLabel,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w800,
+                          ),
                         ),
                       ),
                     ),
