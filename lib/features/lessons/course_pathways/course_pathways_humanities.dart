@@ -116369,9 +116369,9 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
   titleEn: "Humanities — Full Year Course",
   titleMy: "လူမှုရေးဘာသာရပ် — နှစ်တစ်ခုလုံး သင်တန်း",
   descriptionEn:
-      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision.",
+      "The Secondary 2 Humanities course: daily bite-sized lessons across nine thematic terms, continuing directly from Secondary 1's foundations into the early modern and industrial periods, while advancing the geography strand toward human-environment interaction. Term 1, The Age of Exploration, covers the multiple documented motives behind fifteenth-century voyages, mapping key voyages using verified routes, and the Columbian Exchange's global agricultural impact alongside its documented human cost, closing with an Explorer's Logbook Project combining weighed motives, a verified route, and a balanced, honestly documented account of consequences. Term 2, Renaissance and Scientific Revolution, covers Renaissance patronage and art alongside its political and economic motives, the Scientific Revolution's shift from authority to testable evidence, and the gradual, uneven spread of new worldviews, closing with a Renaissance Innovation Showcase combining documented achievement, prior influence, and honestly documented reception. Term 3, Empires and Colonialism, covers the distinct methods of direct rule, indirect rule, and settler colonization, the documented economic structures of mercantilism and resource extraction, and a balanced, honestly documented account of colonial impact including both harm and resistance, closing with a Colonial Impact Report Studio combining control method, economic structure, and balanced human impact. Term 4, The Transatlantic Slave Trade and Its Legacy, is handled with the same historical-documentation rigor and gravity as the IGCSE Humanities Holocaust unit: the triangular trade's documented structure, survivor testimony evaluated through corroboration, and abolition's multiple documented causes including enslaved people's own resistance and specific legislation, closing with a Voices of Abolition capstone project combining corroborated evidence, balanced representation, and consistent historical seriousness. Term 5, Rivers, Agriculture and Early Industry, advances the geography strand: river landforms and their erosion/deposition characteristics, the fertile floodplain's role in commercial versus subsistence agriculture, and early industry's cottage-production system and water-powered mills sited along documented trade networks, closing with a River Valley Settlement Study combining river geography, agriculture, and industry into one multi-factor site decision. Term 6, The Industrial Revolution, covers the multiple documented causes behind Britain's industrialization building directly on Term 5's water-mill infrastructure, the documented shift from water power to steam power and the factory system, and a balanced account of social impact representing both new opportunity and documented hardship alongside workers' own documented agency, closing with a Balanced History Studio combining documented cause, technological change, and balanced social impact.",
   descriptionMy:
-      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။",
+      "Secondary 2 Humanities သင်တန်း -- အပိုင်းကိုးပိုင်းအတွင်း နေ့စဉ်အတိုချုပ် သင်ခန်းစာများ ဖြင့် Secondary 1 ၏ Foundation များမှ Early Modern နှင့် Industrial ကာလများသို့ တိုက်ရိုက် ဆက်လက်ကာ Human-Environment Interaction သို့ Geography Strand ကို တိုးတက်စေသည်။ ပထမနှစ်ဝက်၊ The Age of Exploration သည် ဆယ့်ငါးရာစု Voyage များ နောက်ကွယ်ရှိ Documented Motive များစွာ၊ Verified Route များ အသုံးပြု၍ Key Voyage များ Map ရေးဆွဲခြင်းနှင့် ၎င်း၏ Documented Human Cost နှင့်အတူ Columbian Exchange ၏ Global Agricultural Impact ကို ဖုံးအုပ်ပြီး Weighed Motive များ, Verified Route တစ်ခုနှင့် Consequence များ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ပေါင်းစပ်ထားသော Explorer's Logbook Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဒုတိယနှစ်ဝက်၊ Renaissance and Scientific Revolution သည် ၎င်း၏ Political နှင့် Economic Motive များနှင့်အတူ Renaissance Patronage နှင့် Art, Authority မှ Testable Evidence သို့ Scientific Revolution ၏ Shift နှင့် Worldview အသစ်များ၏ Gradual, Uneven ပျံ့နှံ့မှုကို ဖုံးအုပ်ပြီး Documented Achievement, Prior Influence နှင့် ရိုးသားစွာ Documented Reception ကို ပေါင်းစပ်ထားသော Renaissance Innovation Showcase တစ်ခုဖြင့် ပြီးဆုံးသည်။ တတိယနှစ်ဝက်၊ Empires and Colonialism သည် Direct Rule, Indirect Rule နှင့် Settler Colonization ၏ ကွဲပြားသော Method များ၊ Mercantilism နှင့် Resource Extraction ၏ Documented Economic Structure များနှင့် Harm နှင့် Resistance နှစ်ခုစလုံးအပါအဝင် Colonial Impact ၏ Balanced, ရိုးသားစွာ Documented Account တစ်ခုကို ဖုံးအုပ်ပြီး Control Method, Economic Structure နှင့် Balanced Human Impact ကို ပေါင်းစပ်ထားသော Colonial Impact Report Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။ စတုတ္ထနှစ်ဝက်၊ The Transatlantic Slave Trade and Its Legacy ကို IGCSE Humanities Holocaust Unit အတွက် အသုံးပြုခဲ့သော Gravity တူတူနှင့် Historical-Documentation Rigor ဖြင့် ကိုင်တွယ်ထားသည် -- Triangular Trade ၏ Documented Structure, Corroboration မှတစ်ဆင့် အကဲဖြတ်ထားသော Survivor Testimony နှင့် ကျွန်ခံခဲ့ရသူများ ကိုယ်တိုင်၏ Resistance နှင့် Specific Legislation အပါအဝင် Abolition ၏ Documented Cause များစွာကို ဖုံးအုပ်ပြီး Corroborated Evidence, Balanced Representation နှင့် တသမတ်တည်း သမိုင်းဆိုင်ရာ Seriousness ကို ပေါင်းစပ်ထားသော Voices of Abolition Capstone Project တစ်ခုဖြင့် ပြီးဆုံးသည်။ ပဉ္စမနှစ်ဝက်၊ Rivers, Agriculture and Early Industry သည် Geography Strand ကို တိုးတက်စေသည် -- River Landform များနှင့် ၎င်းတို့၏ Erosion/Deposition Characteristic များ, Commercial vs Subsistence Agriculture တွင် Fertile Floodplain ၏ Role နှင့် Documented Trade Network များတစ်လျှောက် တည်ဆောက်ထားသော Early Industry ၏ Cottage-Production System နှင့် Water-Powered Mill များကို ဖုံးအုပ်ပြီး River Geography, Agriculture နှင့် Industry ကို Multi-Factor Site Decision တစ်ခုအဖြစ် ပေါင်းစပ်ထားသော River Valley Settlement Study တစ်ခုဖြင့် ပြီးဆုံးသည်။ ဆဌမနှစ်ဝက်၊ The Industrial Revolution သည် Term 5 ၏ Water-Mill Infrastructure ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသော Britain ၏ Industrialization နောက်ကွယ်ရှိ Documented Cause များစွာ, Water Power မှ Steam Power နှင့် Factory System သို့ Documented Shift နှင့် Worker များ ကိုယ်ပိုင် Documented Agency နှင့်အတူ Opportunity အသစ်နှင့် Documented Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Social Impact ၏ Balanced Account ကို ဖုံးအုပ်ပြီး Documented Cause, Technological ပြောင်းလဲမှုနှင့် Balanced Social Impact ကို ပေါင်းစပ်ထားသော Balanced History Studio တစ်ခုဖြင့် ပြီးဆုံးသည်။",
   totalWeeks: 36,
   terms: [
     _sec2HumTerm1,
@@ -116379,6 +116379,7 @@ const CoursePathwayDef secondary2HumanitiesPathway = CoursePathwayDef(
     _sec2HumTerm3,
     _sec2HumTerm4,
     _sec2HumTerm5,
+    _sec2HumTerm6,
   ],
 );
 // =====================================================================
@@ -122115,5 +122116,1459 @@ const CourseTermDef _sec2HumTerm5 = CourseTermDef(
   certificateTitleMy:
       "Rivers, Agriculture and Early Industry သင်တန်းဆင်း လက်မှတ်",
   weeks: [_sec2HumWeek17, _sec2HumWeek18, _sec2HumWeek19, _sec2HumWeek20],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 6: "The Industrial Revolution"
+// (Weeks 21-24)
+// Term 6, Week 21: "Why Britain? Causes of the Industrial Revolution"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek21 = CourseWeekDef(
+  id: "course-sec2-hum-w21",
+  weekNumber: 21,
+  titleEn: "Why Britain? Causes of the Industrial Revolution",
+  titleMy: "Britain ဘာကြောင့်လဲ - Industrial Revolution ၏ Cause များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w21-d1",
+      dayNumber: 1,
+      titleEn: "Multiple Documented Causes",
+      titleMy: "Documented Cause များစွာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document several factors combining to make Britain the starting point of the Industrial Revolution: access to coal and iron, capital from trade and agriculture, a growing labor force, and existing water-powered mill technology. Why is naming all of these documented factors together more accurate than naming just one?",
+          questionMy:
+              "Historian များသည် Britain ကို Industrial Revolution ၏ စတင်ရာ Point ဖြစ်စေသော Factor များစွာ ပေါင်းစပ်ခြင်းကို Document ပြုလုပ်ထားသည် -- ကျောက်မီးသွေးနှင့် သံ ရရှိမှု, ကုန်သွယ်မှုနှင့် စိုက်ပျိုးရေးမှ ရရှိသော Capital, ကြီးထွားနေသော Labor Force နှင့် ရှိပြီးသား Water-Powered Mill Technology။ ဤ Documented Factor များအားလုံးကို အတူတကွ အမည်တပ်ခြင်းသည် တစ်ခုတည်းကိုသာ အမည်တပ်ခြင်းထက် ပို၍ တိကျသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "This is the same multi-causation principle applied throughout the course -- major historical change usually results from several documented factors working together, not one cause alone",
+            "A single documented factor is always sufficient to explain the entire Industrial Revolution",
+            "None of these factors have any actual documented connection to the Industrial Revolution",
+            "Multi-causal explanations have no actual historical value or accuracy",
+          ],
+          optionsMy: [
+            "ဤသည်ကား ဤ Course တစ်လျှောက်လုံး အသုံးချထားသော Multi-Causation Principle တူတူ ဖြစ်သည် -- Major သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် များသောအားဖြင့် Cause တစ်ခုတည်းအစား Documented Factor များစွာ အတူတကွ လုပ်ဆောင်ခြင်းမှ ဖြစ်ပေါ်လာသည်",
+            "Documented Factor တစ်ခုတည်းသည် Industrial Revolution တစ်ခုလုံးကို ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "ဤ Factor များအနက် မည်သည်မှ Industrial Revolution နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Multi-Causal ရှင်းပြချက်များတွင် Actual သမိုင်းဆိုင်ရာ Value (သို့) Accuracy မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same multi-causation principle from Term 4's abolition work and Term 5's settlement-siting capstone, applied to a new topic.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Topic အသစ်တစ်ခုပေါ်တွင် အသုံးချထားသော Term 4 ၏ Abolition အလုပ်နှင့် Term 5 ၏ Settlement-Siting Capstone မှ Multi-Causation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "How does Term 5's water-powered mill technology (Week 19) connect directly to the Industrial Revolution's documented causes?",
+          questionMy:
+              "Term 5 ၏ Water-Powered Mill Technology (Week 19) သည် Industrial Revolution ၏ Documented Cause များနှင့် မည်သို့ တိုက်ရိုက် ချိတ်ဆက်သနည်း။",
+          optionsEn: [
+            "Existing water-powered mill technology and organized cottage-industry production gave Britain infrastructure and know-how that could be scaled up and mechanized further, rather than starting from nothing",
+            "Water-powered mills have no actual documented connection to the Industrial Revolution's causes",
+            "The Industrial Revolution started from nothing, with no prior documented technology of any kind",
+            "Cottage industry and water mills were completely unrelated to any later industrial development",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား Water-Powered Mill Technology နှင့် Organized Cottage-Industry ထုတ်လုပ်မှုသည် ဘာမျှမရှိသည့်နေရာမှ မစဘဲ ပို၍ Scale Up နှင့် Mechanize ပြုလုပ်နိုင်သော Infrastructure နှင့် Know-How ကို Britain ထံ ပေးအပ်ခဲ့သည်",
+            "Water-Powered Mill များတွင် Industrial Revolution ၏ Cause များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Industrial Revolution သည် ရှေးက Documented Technology မည်သည် အမျိုးအစားမှ မပါဘဲ ဘာမျှမရှိသည့်နေရာမှ စတင်ခဲ့ခြင်း",
+            "Cottage Industry နှင့် Water Mill များသည် နောက်ပိုင်း Industrial Development မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of the Industrial Revolution as building on Term 5's cottage-industry and water-mill foundations, not replacing them overnight.",
+          ],
+          hintsMy: [
+            "Industrial Revolution ကို Term 5 ၏ Cottage-Industry နှင့် Water-Mill Foundation များပေါ်တွင် တည်ဆောက်ခြင်းအဖြစ် စဉ်းစားပါ၊ ၎င်းတို့ကို တစ်ညချင်းဖြင့် အစားထိုးခြင်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student claims Britain became industrial 'purely by luck, with no documented explanation.' Why should this claim be checked against actual documented evidence before being accepted?",
+          questionMy:
+              "Student တစ်ဦးက Britain သည် 'Documented ရှင်းပြချက် မရှိဘဲ Luck တစ်ခုတည်းဖြင့်သာ' Industrial ဖြစ်လာခဲ့သည်ဟု Claim ပြုလုပ်သည်။ ဤ Claim ကို လက်ခံမည့်အစား Actual Documented Evidence နှင့် အဘယ်ကြောင့် စစ်ဆေးရန် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "Historians document specific, verifiable factors (coal, iron, capital, labor, existing mill technology) that explain this change, so a vague 'luck' claim should be checked against this specific evidence, the same habit taught since Term 1",
+            "Vague, unspecified explanations are always more historically accurate than specific documented evidence",
+            "Britain's industrialization has no actual documented explanation of any kind",
+            "Specific documented evidence should never be checked against a broad historical claim",
+          ],
+          optionsMy: [
+            "Historian များသည် ဤ ပြောင်းလဲမှုကို ရှင်းပြသော Specific, Verifiable Factor များ (ကျောက်မီးသွေး, သံ, Capital, Labor, ရှိပြီးသား Mill Technology) ကို Document ပြုလုပ်ထားသောကြောင့် Vague 'Luck' Claim ကို ဤ Specific Evidence နှင့် စစ်ဆေးသင့်ပြီး Term 1 မှစ၍ သင်ကြားခဲ့သော အလေ့အထ တူတူ ဖြစ်သည်",
+            "Vague, Unspecified ရှင်းပြချက်များသည် Specific Documented Evidence ထက် အမြဲ ပို၍ သမိုင်းအရ တိကျသည်",
+            "Britain ၏ Industrialization တွင် Documented ရှင်းပြချက် မည်သည် အမျိုးအစားမှ Actual မရှိခြင်း",
+            "Specific Documented Evidence ကို ကျယ်ပြန့်သော သမိုင်းဆိုင်ရာ Claim တစ်ခုနှင့် ဘယ်တော့မှ မစစ်ဆေးသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to explaining Britain's industrialization.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Britain ၏ Industrialization ကို ရှင်းပြရာတွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Industrial Revolution Causes",
+      titleMy: "တွဲစပ်ကြမည် - Industrial Revolution Causes",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w21-dm-1",
+          termEn: "Coal and iron",
+          termMy: "ကျောက်မီးသွေးနှင့် သံ",
+          matchEn:
+              "Documented natural resources Britain had in accessible supply, powering new machinery",
+          matchMy:
+              "စက်ကိရိယာအသစ်များကို Power ပေးသော ရရှိနိုင်သော Supply ဖြင့် Britain တွင် ရှိသော Documented သဘာဝ အရင်းအမြစ်များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w21-dm-2",
+          termEn: "Capital",
+          termMy: "Capital",
+          matchEn:
+              "Documented wealth from trade and agriculture available to invest in new industry",
+          matchMy:
+              "Industry အသစ်တွင် ရင်းနှီးမြှုပ်နှံရန် ရရှိနိုင်သော ကုန်သွယ်မှုနှင့် စိုက်ပျိုးရေးမှ Documented ချမ်းသာမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w21-dm-3",
+          termEn: "Growing labor force",
+          termMy: "ကြီးထွားနေသော Labor Force",
+          matchEn:
+              "A documented rise in available workers, partly from changing agricultural employment",
+          matchMy:
+              "ပြောင်းလဲနေသော စိုက်ပျိုးရေးဆိုင်ရာ အလုပ်အကိုင်မှ တစ်စိတ်တစ်ပိုင်း ရရှိနိုင်သော Worker များ၏ Documented မြင့်တက်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w21-dm-4",
+          termEn: "Existing mill technology",
+          termMy: "ရှိပြီးသား Mill Technology",
+          matchEn:
+              "Water-powered mills and cottage industry know-how from Term 5, ready to be scaled up",
+          matchMy:
+              "Scale Up ပြုလုပ်ရန် အသင့်ဖြစ်နေသော Term 5 မှ Water-Powered Mill များနှင့် Cottage Industry Know-How",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Documented Cause or Not?",
+      titleMy: "စီစစ်ကြမည် - Documented Cause (သို့) မဟုတ်ပါ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Documented Cause of Industrialization",
+          "Not a Documented Cause",
+        ],
+        bucketsMy: [
+          "Industrialization ၏ Documented Cause",
+          "Documented Cause မဟုတ်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w21-sort-1",
+            labelEn:
+                "Accessible coal and iron deposits supplying new machinery",
+            labelMy:
+                "စက်ကိရိယာအသစ်များကို Supply ပေးသော ရရှိနိုင်သော ကျောက်မီးသွေးနှင့် သံ Deposit များ",
+            correctBucketEn: "Documented Cause of Industrialization",
+            correctBucketMy: "Industrialization ၏ Documented Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w21-sort-2",
+            labelEn:
+                "Capital from trade and agriculture available for investment",
+            labelMy:
+                "ရင်းနှီးမြှုပ်နှံရန် ရရှိနိုင်သော ကုန်သွယ်မှုနှင့် စိုက်ပျိုးရေးမှ Capital",
+            correctBucketEn: "Documented Cause of Industrialization",
+            correctBucketMy: "Industrialization ၏ Documented Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w21-sort-3",
+            labelEn:
+                "Existing water-powered mill technology ready to be scaled up",
+            labelMy:
+                "Scale Up ပြုလုပ်ရန် အသင့်ဖြစ်နေသော ရှိပြီးသား Water-Powered Mill Technology",
+            correctBucketEn: "Documented Cause of Industrialization",
+            correctBucketMy: "Industrialization ၏ Documented Cause",
+          ),
+          SortingItem(
+            id: "sec2hum-w21-sort-4",
+            labelEn:
+                "A vague 'luck' explanation with no supporting documented evidence",
+            labelMy:
+                "Supporting Documented Evidence မပါဘဲ Vague 'Luck' ရှင်းပြချက်",
+            correctBucketEn: "Not a Documented Cause",
+            correctBucketMy: "Documented Cause မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Kyaw Zin's Cause-Mapping Project",
+      titleMy: "စာဖတ်ခြင်း - Kyaw Zin ၏ Cause-Mapping Project",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Kyaw Zin's Cause-Mapping Project",
+        titleMy: "Kyaw Zin ၏ Cause-Mapping Project",
+        passageEn:
+            "For Week 21's project, Kyaw Zin was asked to map the documented causes of Britain's Industrial Revolution, and his first draft simply wrote 'Britain got lucky.' His teacher returned the draft with a reminder of the multi-causation principle applied since Term 4: had he checked what documented factors historians actually cite?\n\nKyaw Zin researched further and found several factors working together. Britain had accessible coal and iron deposits to power and build new machinery. Capital built up through trade and agriculture was available to invest in new industry. A growing labor force, partly shaped by changing agricultural employment, was available to work in new industrial settings. And critically, he connected this to Term 5's work: Britain already had water-powered mills and an organized cottage-industry production system, giving it existing infrastructure and know-how that could be mechanized and scaled up rather than built from nothing.\n\nKyaw Zin rewrote his map naming all four documented factors and explaining how the water-mill and cottage-industry connection in particular built directly on his own Week 19 and Week 20 work. His teacher praised the revision for replacing a vague 'luck' claim with specific, connected, documented causes -- the same evidence discipline used consistently since Term 1.",
+        passageMy:
+            "Week 21 ၏ Project အတွက် Britain ၏ Industrial Revolution ၏ Documented Cause များကို Map ရေးဆွဲရန် Kyaw Zin အား တောင်းဆိုခဲ့ပြီး ၎င်း၏ ပထမဆုံး Draft တွင် 'Britain Luck ကောင်းခဲ့သည်' ဟု ရိုးရှင်းစွာ ရေးသားခဲ့သည်။ Term 4 မှစ၍ အသုံးချခဲ့သော Multi-Causation Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Historian များ Actual Cite ပြုလုပ်သော Documented Factor များကို ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nအတူတကွ လုပ်ဆောင်ခဲ့သော Factor များစွာကို Kyaw Zin ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ Britain တွင် စက်ကိရိယာအသစ်များကို Power ပေးရန်နှင့် တည်ဆောက်ရန် ရရှိနိုင်သော ကျောက်မီးသွေးနှင့် သံ Deposit များ ရှိခဲ့သည်။ Industry အသစ်တွင် ရင်းနှီးမြှုပ်နှံရန် ကုန်သွယ်မှုနှင့် စိုက်ပျိုးရေးမှတစ်ဆင့် တည်ဆောက်ထားသော Capital ရရှိနိုင်ခဲ့သည်။ ပြောင်းလဲနေသော စိုက်ပျိုးရေးဆိုင်ရာ အလုပ်အကိုင်မှ တစ်စိတ်တစ်ပိုင်း ပုံဖော်ထားသော ကြီးထွားနေသော Labor Force သည် Industrial Setting အသစ်များတွင် အလုပ်လုပ်ရန် ရရှိနိုင်ခဲ့သည်။ အရေးကြီးသည်မှာ Term 5 ၏ အလုပ်နှင့် ၎င်း ဤသည်ကို ချိတ်ဆက်ခဲ့သည် -- Britain တွင် Water-Powered Mill များနှင့် Organized Cottage-Industry ထုတ်လုပ်မှု System ရှိနှင့်ပြီးဖြစ်ကာ ဘာမျှမရှိသည့်နေရာမှ တည်ဆောက်မည့်အစား Mechanize နှင့် Scale Up ပြုလုပ်နိုင်သော ရှိပြီးသား Infrastructure နှင့် Know-How ကို ပေးအပ်ခဲ့သည်။\n\nDocumented Factor လေးခုစလုံးကို အမည်တပ်ကာ Water-Mill နှင့် Cottage-Industry ဆက်နွယ်မှုသည် ၎င်း ကိုယ်ပိုင် Week 19 နှင့် Week 20 အလုပ်ပေါ်တွင် တိုက်ရိုက် မည်သို့ တည်ဆောက်ခဲ့သည်ကို ရှင်းပြကာ ၎င်း၏ Map ကို Kyaw Zin ပြန်လည် ရေးသားခဲ့သည်။ Vague 'Luck' Claim ကို Specific, Connected, Documented Cause များဖြင့် အစားထိုးသောကြောင့် Revision ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့ပြီး ၎င်းသည် Term 1 မှစ၍ တသမတ်တည်း အသုံးပြုခဲ့သော Evidence Discipline တူတူ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Kyaw Zin's first draft claim?",
+            questionMy:
+                "Kyaw Zin ၏ ပထမဆုံး Draft Claim ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That Britain simply got lucky, with no documented explanation",
+              "That Britain had four specific documented causes for industrialization",
+              "That Britain had no connection to the Industrial Revolution at all",
+              "That water-powered mills had no role in Britain's development",
+            ],
+            optionsMy: [
+              "Britain သည် Documented ရှင်းပြချက် မရှိဘဲ ရိုးရှင်းစွာ Luck ကောင်းခဲ့ကြောင်း",
+              "Britain တွင် Industrialization အတွက် Specific Documented Cause လေးခု ရှိခဲ့ကြောင်း",
+              "Britain သည် Industrial Revolution နှင့် လုံးလုံး ဆက်နွယ်မှု မရှိခြင်း",
+              "Water-Powered Mill များသည် Britain ၏ Development တွင် Role မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated first draft."],
+            hintsMy: [
+              "ဖော်ပြထားသော ပထမဆုံး Draft ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what existing infrastructure did Britain have before industrialization intensified?",
+            questionMy:
+                "Industrialization ပို၍ ပြင်းထန်လာမီ Britain ရှိခဲ့သော ရှိပြီးသား Infrastructure ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Water-powered mills and an organized cottage-industry production system",
+              "No documented infrastructure of any kind",
+              "Only coal and iron, with no other documented factor",
+              "Infrastructure entirely unrelated to Term 5's work",
+            ],
+            optionsMy: [
+              "Water-Powered Mill များနှင့် Organized Cottage-Industry ထုတ်လုပ်မှု System",
+              "Documented Infrastructure မည်သည် အမျိုးအစားမှ",
+              "အခြား Documented Factor မပါဘဲ ကျောက်မီးသွေးနှင့် သံသာ",
+              "Term 5 ၏ အလုပ်နှင့် လုံးလုံး မသက်ဆိုင်သော Infrastructure",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's stated connection to Term 5.",
+            ],
+            hintsMy: [
+              "Term 5 နှင့် ဖော်ပြထားသော ချိတ်ဆက်မှုကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Kyaw Zin's revision replace the vague 'luck' claim with?",
+            questionMy:
+                "Vague 'Luck' Claim ကို Kyaw Zin ၏ Revision အစားထိုးခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specific, connected, documented causes",
+              "An even vaguer, less specific explanation",
+              "No explanation of any kind whatsoever",
+              "A claim entirely unrelated to Britain's industrialization",
+            ],
+            optionsMy: [
+              "Specific, Connected, Documented Cause များ",
+              "ပို၍ Vague ဖြစ်ပြီး Specific နည်းသော ရှင်းပြချက်",
+              "ရှင်းပြချက် မည်သည် အမျိုးအစားမှ",
+              "Britain ၏ Industrialization နှင့် လုံးလုံး မသက်ဆိုင်သော Claim",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated revision."],
+            hintsMy: [
+              "ဖော်ပြထားသော Revision ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w21-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Industrial Revolution Causes Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Industrial Revolution Causes မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Historians document Britain's industrialization as resulting from...",
+          questionMy:
+              "Historian များသည် Britain ၏ Industrialization ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented factors working together",
+            "A single unspecified cause with no supporting evidence",
+            "No documented cause of any kind",
+            "A vague 'luck' explanation with no evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Factor များစွာ",
+            "Supporting Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Evidence မပါသော Vague 'Luck' ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Existing water-powered mills and cottage industry from Term 5 connect to the Industrial Revolution by...",
+          questionMy:
+              "Term 5 မှ ရှိပြီးသား Water-Powered Mill များနှင့် Cottage Industry သည် ...ဖြင့် Industrial Revolution နှင့် ချိတ်ဆက်သည်",
+          optionsEn: [
+            "Providing infrastructure and know-how that could be mechanized and scaled up",
+            "Having no actual documented connection to industrialization",
+            "Being completely unrelated to any later industrial development",
+            "Providing no documented resource of any kind",
+          ],
+          optionsMy: [
+            "Mechanize နှင့် Scale Up ပြုလုပ်နိုင်သော Infrastructure နှင့် Know-How ကို ပေးအပ်ခြင်း",
+            "Industrialization နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "နောက်ပိုင်း Industrial Development မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်ခြင်း",
+            "Documented Resource မည်သည် အမျိုးအစားမှ မပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A vague claim like 'Britain got lucky' should be checked against...",
+          questionMy:
+              "'Britain Luck ကောင်းခဲ့သည်' ကဲ့သို့ Vague Claim ကို ...နှင့် စစ်ဆေးသင့်သည်",
+          optionsEn: [
+            "Specific documented evidence historians actually cite",
+            "Nothing -- vague claims never need checking",
+            "An even vaguer explanation with less evidence",
+            "A claim unrelated to documented historical evidence",
+          ],
+          optionsMy: [
+            "Historian များ Actual Cite ပြုလုပ်သော Specific Documented Evidence",
+            "ဘာမှ -- Vague Claim များသည် ဘယ်တော့မှ စစ်ဆေးရန် မလိုအပ်ခြင်း",
+            "Evidence နည်းပြီး ပို၍ Vague ဖြစ်သော ရှင်းပြချက်",
+            "Documented သမိုင်းဆိုင်ရာ Evidence နှင့် မသက်ဆိုင်သော Claim",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 6, Week 22: "Factories and New
+// Technology"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek22 = CourseWeekDef(
+  id: "course-sec2-hum-w22",
+  weekNumber: 22,
+  titleEn: "Factories and New Technology",
+  titleMy: "Factories and New Technology",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w22-d1",
+      dayNumber: 1,
+      titleEn: "From Water Power to Steam Power",
+      titleMy: "Water Power မှ Steam Power သို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "How did the documented steam engine change where factories could be built, compared to the water-powered mills studied in Term 5?",
+          questionMy:
+              "Term 5 တွင် လေ့လာခဲ့သော Water-Powered Mill များနှင့် နှိုင်းယှဉ်ပါက Documented Steam Engine သည် Factory များ တည်ဆောက်နိုင်ရာနေရာကို မည်သို့ ပြောင်းလဲခဲ့သနည်း။",
+          optionsEn: [
+            "Unlike water mills, which had to be built directly along a flowing river, steam engines could power machinery without a river nearby, freeing factory location from the river-geography constraint studied in Term 5",
+            "Steam engines had no actual documented effect on factory location of any kind",
+            "Steam engines required an even stricter river-location constraint than water mills",
+            "Factory location was never actually connected to power source technology",
+          ],
+          optionsMy: [
+            "စီးဆင်းနေသော River တစ်လျှောက် တိုက်ရိုက် တည်ဆောက်ရသော Water Mill များနှင့် မတူဘဲ Steam Engine များသည် အနီးအနား River မပါဘဲ Machinery ကို Power ပေးနိုင်ပြီး Term 5 တွင် လေ့လာခဲ့သော River-Geography Constraint မှ Factory Location ကို လွတ်လပ်စေခဲ့သည်",
+            "Steam Engine များတွင် Factory Location နှင့် Actual Documented Effect မည်သည် အမျိုးအစားမှ မရှိခြင်း",
+            "Steam Engine များသည် Water Mill များထက် ပို၍ တင်းကျပ်သော River-Location Constraint လိုအပ်ခြင်း",
+            "Factory Location သည် Power Source Technology နှင့် Actual ဘယ်တော့မှ ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 5's principle that water mills required a river location -- steam power removed that specific documented constraint.",
+          ],
+          hintsMy: [
+            "Water Mill များသည် River Location လိုအပ်ကြောင်း Term 5 ၏ Principle ကို သတိရပါ -- Steam Power သည် ထို Specific Documented Constraint ကို ဖယ်ရှားခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do historians document the factory system as a significant change in how goods were produced, compared to the cottage industry system studied in Week 19?",
+          questionMy:
+              "Week 19 တွင် လေ့လာခဲ့သော Cottage Industry System နှင့် နှိုင်းယှဉ်ပါက Goods များ ထုတ်လုပ်ပုံတွင် Factory System ကို သိသာသော ပြောင်းလဲမှုတစ်ခုအဖြစ် Historian များ Document ပြုလုပ်ထားသည့် အကြောင်းရင်းမှာ အဘယ်နည်း။",
+          optionsEn: [
+            "The factory system concentrated production and workers in one documented location using powered machinery, replacing the cottage industry's dispersed household-based production coordinated by merchants",
+            "The factory system and cottage industry are documented as functioning identically in every respect",
+            "Cottage industry always involved large factory buildings with powered machinery",
+            "The factory system had no actual documented connection to how goods were produced",
+          ],
+          optionsMy: [
+            "Factory System သည် Powered Machinery အသုံးပြု၍ Production နှင့် Worker များကို Documented Location တစ်ခုတွင် စုစည်းကာ Merchant များက Coordinate ပြုလုပ်သော Cottage Industry ၏ ပျံ့နှံ့နေသော Household-Based Production ကို အစားထိုးခဲ့သည်",
+            "Factory System နှင့် Cottage Industry ကို Aspect တိုင်းတွင် Identical Function ရှိကြောင်း Document ပြုလုပ်ထားသည်",
+            "Cottage Industry တွင် Powered Machinery ဖြင့် ကွင်းကျယ် Factory Building များ အမြဲ ပါဝင်ခြင်း",
+            "Factory System သည် Goods များ ထုတ်လုပ်ပုံနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Compare the concentrated, machine-powered factory system directly against Week 19's dispersed, hand-tool cottage industry model.",
+          ],
+          hintsMy: [
+            "Concentrated, Machine-Powered Factory System ကို Week 19 ၏ ပျံ့နှံ့နေသော, Hand-Tool Cottage Industry Model နှင့် တိုက်ရိုက် နှိုင်းယှဉ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student describes 'the steam engine' as though it were invented and perfected in a single documented moment with no prior development. What historical-evidence habit should the student apply instead?",
+          questionMy:
+              "Student တစ်ဦးက 'Steam Engine' ကို ယခင် Development မရှိဘဲ Documented Moment တစ်ခုတည်းတွင် တီထွင်ကာ ပြီးပြည့်စုံစေခဲ့သည့်ကဲ့သို့ ဖော်ပြသည်။ ယင်းအစား Student ဘယ် Historical-Evidence အလေ့အထ ကို အသုံးချသင့်သနည်း။",
+          optionsEn: [
+            "Recognizing that documented technological change is usually a gradual, staged process with earlier documented developments, the same gradual-process understanding applied to legislation in Term 4 and worldview change in Term 2",
+            "Assuming any invention appeared instantly with no prior documented development is always historically accurate",
+            "Technological change has no actual documented connection to earlier developments",
+            "Gradual, staged processes should never actually be considered in historical study",
+          ],
+          optionsMy: [
+            "Documented Technological ပြောင်းလဲမှုသည် ယေဘုယျအားဖြင့် ယခင် Documented Development များနှင့်အတူ Gradual, Staged Process တစ်ခု ဖြစ်ကြောင်း အသိအမှတ်ပြုခြင်း, Term 4 ၏ Legislation နှင့် Term 2 ၏ Worldview ပြောင်းလဲမှုတွင် အသုံးချထားသော Gradual-Process နားလည်မှု တူတူ ဖြစ်သည်",
+            "တီထွင်မှု မည်သည်ကိုမဆို ယခင် Documented Development မပါဘဲ ချက်ချင်း ပေါ်ပေါက်ခဲ့သည်ဟု ယူဆခြင်းသည် အမြဲ သမိုင်းအရ တိကျသည်",
+            "Technological ပြောင်းလဲမှုသည် ယခင် Development များနှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Gradual, Staged Process များကို သမိုင်းဆိုင်ရာ လေ့လာမှုတွင် ဘယ်တော့မှ အမှန်တကယ် ထည့်သွင်းစဉ်းစားခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same gradual-process principle from Term 2's Scientific Revolution and Term 4's staged legislation, applied to technology.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Technology ပေါ်တွင် အသုံးချထားသော Term 2 ၏ Scientific Revolution နှင့် Term 4 ၏ Staged Legislation မှ Gradual-Process Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Factory Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Factory Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w22-dm-1",
+          termEn: "Steam engine",
+          termMy: "Steam Engine",
+          matchEn:
+              "A documented machine converting steam pressure into mechanical power, not tied to a river location",
+          matchMy:
+              "River Location နှင့် မချည်နှောင်ဘဲ Steam Pressure ကို Mechanical Power အဖြစ် ပြောင်းလဲပေးသော Documented Machine",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w22-dm-2",
+          termEn: "Factory system",
+          termMy: "Factory System",
+          matchEn:
+              "Documented concentrated production using powered machinery in one location, replacing dispersed cottage industry",
+          matchMy:
+              "ပျံ့နှံ့နေသော Cottage Industry ကို အစားထိုးကာ Location တစ်ခုတွင် Powered Machinery အသုံးပြု၍ Documented Concentrated Production",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w22-dm-3",
+          termEn: "Mechanization",
+          termMy: "Mechanization",
+          matchEn:
+              "The documented process of replacing hand tools with powered machines in production",
+          matchMy:
+              "ထုတ်လုပ်မှုတွင် Hand Tool များကို Powered Machine များဖြင့် အစားထိုးသော Documented Process",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w22-dm-4",
+          termEn: "Gradual technological change",
+          termMy: "Gradual Technological ပြောင်းလဲမှု",
+          matchEn:
+              "The historical principle that new technology usually builds on documented earlier development, not sudden invention",
+          matchMy:
+              "Technology အသစ်သည် ရုတ်တရက် တီထွင်မှုမဟုတ်ဘဲ ယခင် Documented Development ပေါ်တွင် ယေဘုယျအားဖြင့် တည်ဆောက်သည်ဟူသော သမိုင်းဆိုင်ရာ Principle",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Cottage Industry or Factory System?",
+      titleMy: "စီစစ်ကြမည် - Cottage Industry (သို့) Factory System",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Cottage Industry Feature", "Factory System Feature"],
+        bucketsMy: ["Cottage Industry Feature", "Factory System Feature"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w22-sort-1",
+            labelEn: "Production dispersed across many individual homes",
+            labelMy:
+                "Individual Home များစွာတစ်လျှောက် ပျံ့နှံ့နေသော Production",
+            correctBucketEn: "Cottage Industry Feature",
+            correctBucketMy: "Cottage Industry Feature",
+          ),
+          SortingItem(
+            id: "sec2hum-w22-sort-2",
+            labelEn:
+                "Production concentrated in one building using powered machinery",
+            labelMy:
+                "Powered Machinery အသုံးပြု၍ Building တစ်ခုတွင် စုစည်းထားသော Production",
+            correctBucketEn: "Factory System Feature",
+            correctBucketMy: "Factory System Feature",
+          ),
+          SortingItem(
+            id: "sec2hum-w22-sort-3",
+            labelEn: "Workers use mainly hand tools at home",
+            labelMy:
+                "Worker များသည် အိမ်တွင် အဓိကအားဖြင့် Hand Tool များ အသုံးပြုသည်",
+            correctBucketEn: "Cottage Industry Feature",
+            correctBucketMy: "Cottage Industry Feature",
+          ),
+          SortingItem(
+            id: "sec2hum-w22-sort-4",
+            labelEn:
+                "A steam engine powers machinery not tied to any river location",
+            labelMy:
+                "River Location မည်သည်နှင့်မျှ မချည်နှောင်ဘဲ Steam Engine တစ်ခုသည် Machinery ကို Power ပေးသည်",
+            correctBucketEn: "Factory System Feature",
+            correctBucketMy: "Factory System Feature",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Zin Ko's Factory Comparison",
+      titleMy: "စာဖတ်ခြင်း - Zin Ko ၏ Factory Comparison",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Zin Ko's Factory Comparison",
+        titleMy: "Zin Ko ၏ Factory Comparison",
+        passageEn:
+            "For Week 22's project, Zin Ko compared a documented water-powered textile mill from Term 5 with a documented steam-powered factory from the Industrial Revolution, tracing exactly what changed and what stayed connected.\n\nThe water mill, he noted, had to be built directly along a flowing river -- a location constraint studied back in Week 19. The steam-powered factory, by contrast, could be built anywhere a steam engine could be supplied with coal, freeing factory location from that river-geography requirement. Both systems still concentrated production and used powered machinery rather than hand tools, showing the factory system's continuity with the water mill's basic concept even as the power source changed.\n\nHis first draft described the steam engine as though it had been invented instantly with no prior development, but his teacher reminded him of the same gradual-process principle used for Term 2's Scientific Revolution and Term 4's staged legislation: technological change is usually gradual too, building on earlier documented development rather than appearing all at once. Zin Ko revised his comparison to note that steam technology built on decades of earlier documented experimentation, not a single flash of invention. His teacher praised the comparison for tracing both the genuine change (location freedom) and the genuine continuity (concentrated, machine-powered production) between the two systems.",
+        passageMy:
+            "Week 22 ၏ Project အတွက် Term 5 မှ Documented Water-Powered Textile Mill တစ်ခုနှင့် Industrial Revolution မှ Documented Steam-Powered Factory တစ်ခုကို Zin Ko နှိုင်းယှဉ်ကာ ဘာ ပြောင်းလဲသွားသည်နှင့် ဘာ ချိတ်ဆက်နေဆဲကို လိုက်လံ ဖော်ထုတ်ခဲ့သည်။\n\nWater Mill သည် စီးဆင်းနေသော River တစ်လျှောက် တိုက်ရိုက် တည်ဆောက်ရမည် -- Week 19 က ရင်းနှီးစွာ လေ့လာခဲ့သော Location Constraint တစ်ခု ဖြစ်ကြောင်း ၎င်း မှတ်ချက်ပြုခဲ့သည်။ ဆန့်ကျင်ဘက်အားဖြင့် Steam-Powered Factory ကို Steam Engine တစ်ခုအား ကျောက်မီးသွေး Supply ပေးနိုင်သော နေရာမည်သည်တွင်မဆို တည်ဆောက်နိုင်ပြီး ထို River-Geography လိုအပ်ချက်မှ Factory Location ကို လွတ်လပ်စေခဲ့သည်။ System နှစ်ခုစလုံးသည် Production ကို ဆက်လက် စုစည်းကာ Hand Tool များအစား Powered Machinery ကို အသုံးပြုကြပြီး Power Source ပြောင်းလဲသွားစဉ်ပင် Water Mill ၏ Basic Concept နှင့် Factory System ၏ Continuity ကို ပြသခဲ့သည်။\n\n၎င်း၏ ပထမဆုံး Draft တွင် Steam Engine ကို ယခင် Development မပါဘဲ ချက်ချင်း တီထွင်ခဲ့သည့်ကဲ့သို့ ဖော်ပြခဲ့သော်လည်း Term 2 ၏ Scientific Revolution နှင့် Term 4 ၏ Staged Legislation အတွက် အသုံးပြုခဲ့သော Gradual-Process Principle တူတူကို ၎င်း၏ ဆရာ သတိပေးခဲ့သည် -- Technological ပြောင်းလဲမှုသည် ယေဘုယျအားဖြင့် Gradual လည်း ဖြစ်ပြီး တစ်ချက်တည်း ပေါ်ပေါက်မည့်အစား ယခင် Documented Development ပေါ်တွင် တည်ဆောက်သည်။ Steam Technology သည် တီထွင်မှု တစ်ခါတည်း Flash မဟုတ်ဘဲ ယခင် ဆယ်စုနှစ်များစွာ Documented Experimentation ပေါ်တွင် တည်ဆောက်ခဲ့ကြောင်း မှတ်ချက်ပြုရန် Zin Ko ၏ Comparison ကို ပြန်လည် ပြင်ဆင်ခဲ့သည်။ System နှစ်ခုကြား Genuine ပြောင်းလဲမှု (Location Freedom) နှင့် Genuine Continuity (Concentrated, Machine-Powered Production) နှစ်ခုစလုံးကို လိုက်လံ ဖော်ထုတ်ခဲ့သောကြောင့် Comparison ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what location constraint applied to the water mill but not the steam-powered factory?",
+            questionMy:
+                "Water Mill တွင် သက်ဆိုင်သော်လည်း Steam-Powered Factory တွင် မသက်ဆိုင်သော Location Constraint ကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It had to be built directly along a flowing river",
+              "It could be built anywhere with no documented constraint of any kind",
+              "It required no documented power source whatsoever",
+              "It had to be built far from any coal supply",
+            ],
+            optionsMy: [
+              "စီးဆင်းနေသော River တစ်လျှောက် တိုက်ရိုက် တည်ဆောက်ရခြင်း",
+              "Documented Constraint မည်သည် အမျိုးအစားမှ မပါဘဲ နေရာမည်သည်တွင်မဆို တည်ဆောက်နိုင်ခြင်း",
+              "Documented Power Source မည်သည်မှ လုံးလုံး မလိုအပ်ခြင်း",
+              "ကျောက်မီးသွေး Supply မှ ဝေးသောနေရာတွင် တည်ဆောက်ရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first paragraph's water-mill location constraint.",
+            ],
+            hintsMy: [
+              "Water-Mill Location Constraint ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what genuine continuity did both systems share?",
+            questionMy:
+                "System နှစ်ခုစလုံး မျှဝေခဲ့သော Genuine Continuity ကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both concentrated production and used powered machinery rather than hand tools",
+              "Neither system had any documented connection to machinery",
+              "Both systems were documented as completely identical in every respect",
+              "Neither system involved any documented production method",
+            ],
+            optionsMy: [
+              "Hand Tool များအစား Production ကို ဆက်လက် စုစည်းကာ Powered Machinery အသုံးပြုခြင်း",
+              "System မည်သည်မှ Machinery နှင့် Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "System နှစ်ခုစလုံးကို Aspect တိုင်းတွင် လုံးဝ Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+              "System မည်သည်မှ Documented Production Method မပါဝင်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated continuity."],
+            hintsMy: [
+              "ဖော်ပြထားသော Continuity ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did Zin Ko's revised comparison note about steam technology?",
+            questionMy:
+                "Steam Technology အကြောင်း Zin Ko ၏ Revised Comparison မှတ်ချက်ပြုခဲ့သည့်အရာကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It built on decades of earlier documented experimentation, not a single flash of invention",
+              "It appeared instantly with no prior documented development",
+              "It had no actual documented connection to earlier development",
+              "It was invented in a single, unprecedented moment with no history",
+            ],
+            optionsMy: [
+              "တီထွင်မှု တစ်ခါတည်း Flash မဟုတ်ဘဲ ယခင် ဆယ်စုနှစ်များစွာ Documented Experimentation ပေါ်တွင် တည်ဆောက်ခဲ့ခြင်း",
+              "ယခင် Documented Development မပါဘဲ ချက်ချင်း ပေါ်ပေါက်ခဲ့ခြင်း",
+              "ယခင် Development နှင့် Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "သမိုင်း မရှိဘဲ ယခင်က မရှိစဖူးသော Moment တစ်ခုတွင် တီထွင်ခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's revised note on steam technology.",
+            ],
+            hintsMy: [
+              "Steam Technology ပေါ်ရှိ Revised Note ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w22-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Factories and New Technology Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Factories and New Technology မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Steam engines changed factory location by...",
+          questionMy:
+              "Steam Engine များသည် ...ဖြင့် Factory Location ကို ပြောင်းလဲခဲ့သည်",
+          optionsEn: [
+            "Freeing factories from needing to be built along a river",
+            "Requiring an even stricter river-location constraint",
+            "Having no actual effect on factory location",
+            "Eliminating the need for any power source at all",
+          ],
+          optionsMy: [
+            "River တစ်လျှောက် တည်ဆောက်ရန် လိုအပ်မှုမှ Factory များကို လွတ်လပ်စေခြင်း",
+            "ပို၍ တင်းကျပ်သော River-Location Constraint လိုအပ်ခြင်း",
+            "Factory Location ပေါ်တွင် Actual Effect မရှိခြင်း",
+            "Power Source မည်သည်မှ လိုအပ်မှုကို ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The factory system differed from cottage industry mainly by...",
+          questionMy:
+              "Factory System သည် ...ဖြင့် Cottage Industry နှင့် အဓိက ကွဲပြားသည်",
+          optionsEn: [
+            "Concentrating production in one location with powered machinery",
+            "Being documented as identical to cottage industry in every way",
+            "Having no documented connection to production methods",
+            "Using only hand tools with no powered machinery",
+          ],
+          optionsMy: [
+            "Powered Machinery ဖြင့် Production ကို Location တစ်ခုတွင် စုစည်းခြင်း",
+            "Aspect တိုင်းတွင် Cottage Industry နှင့် Identical ဖြစ်ကြောင်း Document ပြုလုပ်ထားခြင်း",
+            "Production Method များနှင့် Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Powered Machinery မပါဘဲ Hand Tool များကိုသာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Technological change, like other documented historical change, is usually...",
+          questionMy:
+              "အခြား Documented သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုကဲ့သို့ Technological ပြောင်းလဲမှုသည် ယေဘုယျအားဖြင့် ...ဖြစ်သည်",
+          optionsEn: [
+            "Gradual, building on earlier documented development",
+            "Instant, with no prior documented development",
+            "Unconnected to any earlier documented factor",
+            "Impossible to trace through documented evidence",
+          ],
+          optionsMy: [
+            "Gradual ဖြစ်ပြီး ယခင် Documented Development ပေါ်တွင် တည်ဆောက်ခြင်း",
+            "ချက်ချင်း ဖြစ်ပြီး ယခင် Documented Development မပါခြင်း",
+            "ယခင် Documented Factor မည်သည်နှင့်မျှ မဆက်နွယ်ခြင်း",
+            "Documented Evidence မှတစ်ဆင့် လိုက်လံရန် မဖြစ်နိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 6, Week 23: "Urbanization and Working
+// Conditions"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek23 = CourseWeekDef(
+  id: "course-sec2-hum-w23",
+  weekNumber: 23,
+  titleEn: "Urbanization and Working Conditions",
+  titleMy: "Urbanization and Working Conditions",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w23-d1",
+      dayNumber: 1,
+      titleEn: "A Balanced, Documented Account",
+      titleMy: "Balanced, Documented Account တစ်ခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, historically accurate account of factory-era urbanization documents both new opportunities (wage employment, urban growth) and serious documented hardships (long hours, unsafe conditions, child labor). Why must both dimensions be represented rather than only one?",
+          questionMy:
+              "Factory-ခေတ် Urbanization ၏ Balanced, သမိုင်းအရ တိကျသော Account တစ်ခုသည် Opportunity အသစ်များ (Wage Employment, Urban Growth) နှင့် Serious Documented Hardship များ (Long Hours, Unsafe Condition များ, Child Labor) နှစ်ခုစလုံးကို Document ပြုလုပ်သည်။ Dimension နှစ်ခုစလုံးကို တစ်ခုတည်းအစား အဘယ်ကြောင့် ကိုယ်စားပြုရသနည်း။",
+          optionsEn: [
+            "This is the same balanced-account principle used for colonial impact and abolition history -- an accurate account represents every major documented dimension, not only the convenient one",
+            "Only opportunities should ever be documented in any historical account of this period",
+            "Only hardships should ever be documented, with no mention of any documented opportunity",
+            "Balance has no actual role in accurately representing this period of history",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Colonial Impact နှင့် Abolition သမိုင်းအတွက် အသုံးပြုခဲ့သော Balanced-Account Principle တူတူ ဖြစ်သည် -- တိကျသော Account တစ်ခုသည် Convenient တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို ကိုယ်စားပြုသည်",
+            "ဤကာလ၏ သမိုင်းဆိုင်ရာ Account မည်သည်တွင်မဆို Opportunity များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Documented Opportunity မည်သည်ကိုမျှ ဖော်ပြခြင်း မရှိဘဲ Hardship များကိုသာ ဘယ်တော့မှ Document ပြုလုပ်သင့်ခြင်း",
+            "Balance သည် ဤ သမိုင်းကာလကို တိကျစွာ ကိုယ်စားပြုရာတွင် Actual Role မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account discipline from Week 11's colonial impact and Weeks 13-16's abolition-era history.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Colonial Impact နှင့် Week 13-16 ၏ Abolition-Era သမိုင်းမှ Balanced-Account Discipline တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Historians document reform movements (such as factory acts limiting child labor and working hours) as a response to specific, documented conditions rather than appearing from nowhere. Why does citing the specific documented conditions matter when explaining these reforms?",
+          questionMy:
+              "Historian များသည် Reform Movement များ (Child Labor နှင့် Working Hours ကို ကန့်သတ်သော Factory Act များကဲ့သို့) ကို ဘယ်နေရာမှမျှ မပေါ်ပေါက်ဘဲ Specific, Documented Condition များအတွက် Response တစ်ခုအဖြစ် Document ပြုလုပ်ထားသည်။ ဤ Reform များကို ရှင်းပြရာတွင် Specific Documented Condition များကို Cite ပြုလုပ်ခြင်း အဘယ်ကြောင့် အရေးကြီးသနည်း။",
+          optionsEn: [
+            "Citing the specific documented conditions (long hours, unsafe machinery, child labor) that reforms responded to shows the reform as a documented cause-and-effect relationship, not an isolated, unexplained event -- the same specific-evidence-over-vague-generalization habit taught since Term 1",
+            "Reform movements had no actual documented connection to any specific historical condition",
+            "Specific documented conditions have no actual role in explaining historical reform",
+            "Reforms should always be described vaguely with no supporting documented evidence",
+          ],
+          optionsMy: [
+            "Reform များ Response ပြန်ခဲ့သော Specific Documented Condition များ (Long Hours, Unsafe Machinery, Child Labor) ကို Cite ပြုလုပ်ခြင်းသည် Reform ကို Isolated, Unexplained Event တစ်ခုအဖြစ်မဟုတ်ဘဲ Documented Cause-And-Effect ဆက်ဆံရေးတစ်ခုအဖြစ် ပြသသည် -- Term 1 မှစ၍ သင်ကြားခဲ့သော Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်",
+            "Reform Movement များတွင် Specific သမိုင်းဆိုင်ရာ Condition မည်သည်နှင့်မျှ Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Specific Documented Condition များတွင် သမိုင်းဆိုင်ရာ Reform ကို ရှင်းပြရာ၌ Actual Role မရှိခြင်း",
+            "Reform များကို Supporting Documented Evidence မပါဘဲ အမြဲ Vague စွာ ဖော်ပြသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same specific-evidence-over-vague-generalization habit from Term 1, applied to explaining reform movements.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Reform Movement များကို ရှင်းပြရာတွင် အသုံးချထားသော Term 1 မှ Specific-Evidence-Over-Vague-Generalization အလေ့အထ တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should students representing factory workers of this period document their own recorded voices and documented actions (petitions, early labor organizing) as historical agents, not only as passive subjects that reforms happened to?",
+          questionMy:
+              "Student များသည် ဤကာလ၏ Factory Worker များကို Reform များ ဖြစ်ပေါ်ရာတွင် ရှိနေသူများအဖြစ်သာမက ၎င်းတို့ ကိုယ်တိုင်၏ Recorded Voice များနှင့် Documented Action များ (Petition များ, Early Labor Organizing) ကို သမိုင်းဆိုင်ရာ Agent များအဖြစ် အဘယ်ကြောင့် Document ပြုလုပ်သင့်ရသနည်း။",
+          optionsEn: [
+            "This follows the same balanced-account principle applied to enslaved people's resistance in Term 4 and colonized peoples' agency in Term 3 -- representing affected people as historical agents who shaped events, not only as passive subjects",
+            "Factory workers had no actual documented voice or agency during this period",
+            "Only outside reformers should ever be credited with any historical change of this period",
+            "Historical agency should never actually be attributed to workers of this period",
+          ],
+          optionsMy: [
+            "ဤသည်ကား Term 4 ရှိ ကျွန်ခံခဲ့ရသူများ၏ Resistance နှင့် Term 3 ရှိ ကိုလိုနီဖြစ်ခဲ့ရသော လူများ၏ Agency ပေါ်တွင် အသုံးချထားသော Balanced-Account Principle တူတူကို လိုက်နာသည် -- အကျိုးသက်ရောက်ခဲ့သော လူများကို Passive Subject များအဖြစ်သာမက Event များကို ပုံဖော်ခဲ့သော သမိုင်းဆိုင်ရာ Agent များအဖြစ် ကိုယ်စားပြုခြင်း",
+            "Factory Worker များတွင် ဤကာလအတွင်း Actual Documented Voice (သို့) Agency မရှိခြင်း",
+            "ဤကာလ၏ သမိုင်းဆိုင်ရာ ပြောင်းလဲမှု မည်သည်ကိုမဆို Outside Reformer များကိုသာ Credit ပေးသင့်ခြင်း",
+            "ဤကာလ၏ Worker များအား Historical Agency ကို ဘယ်တော့မှ အမှန်တကယ် သတ်မှတ်ခြင်း မပြုသင့်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account/agency principle used since Week 11's colonial-impact work and Week 15's abolition-resistance work.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 11 ၏ Colonial-Impact အလုပ်နှင့် Week 15 ၏ Abolition-Resistance အလုပ်မှစ၍ အသုံးပြုခဲ့သော Balanced-Account/Agency Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Urbanization Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Urbanization Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w23-dm-1",
+          termEn: "Urbanization",
+          termMy: "Urbanization",
+          matchEn:
+              "The documented growth of city populations as people moved from rural areas for factory work",
+          matchMy:
+              "Factory အလုပ်အတွက် လူများ Rural ဧရိယာများမှ ရွှေ့ပြောင်းလာသောကြောင့် City Population များ Documented ကြီးထွားမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w23-dm-2",
+          termEn: "Wage employment",
+          termMy: "Wage Employment",
+          matchEn:
+              "A documented new opportunity where workers earned regular pay for factory labor",
+          matchMy:
+              "Worker များသည် Factory Labor အတွက် ပုံမှန် လုပ်ခ ရရှိခဲ့သော Documented Opportunity အသစ်တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w23-dm-3",
+          termEn: "Factory acts",
+          termMy: "Factory Acts",
+          matchEn:
+              "Documented legislation responding to specific conditions by limiting child labor and working hours",
+          matchMy:
+              "Child Labor နှင့် Working Hours ကို ကန့်သတ်ခြင်းဖြင့် Specific Condition များကို Response ပြန်သော Documented Legislation",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w23-dm-4",
+          termEn: "Worker agency",
+          termMy: "Worker Agency",
+          matchEn:
+              "Documented actions by workers themselves, such as petitions and early labor organizing",
+          matchMy:
+              "Petition များနှင့် Early Labor Organizing ကဲ့သို့ Worker များ ကိုယ်တိုင်၏ Documented Action များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Opportunity or Hardship?",
+      titleMy: "စီစစ်ကြမည် - Opportunity (သို့) Hardship",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Documented Opportunity", "Documented Hardship"],
+        bucketsMy: ["Documented Opportunity", "Documented Hardship"],
+        items: [
+          SortingItem(
+            id: "sec2hum-w23-sort-1",
+            labelEn: "Regular wage employment in a new factory job",
+            labelMy: "Factory အလုပ်အသစ်တစ်ခုတွင် ပုံမှန် Wage Employment",
+            correctBucketEn: "Documented Opportunity",
+            correctBucketMy: "Documented Opportunity",
+          ),
+          SortingItem(
+            id: "sec2hum-w23-sort-2",
+            labelEn:
+                "Long hours and unsafe machinery documented in factory records",
+            labelMy:
+                "Factory Record များတွင် Document ပြုလုပ်ထားသော Long Hours နှင့် Unsafe Machinery",
+            correctBucketEn: "Documented Hardship",
+            correctBucketMy: "Documented Hardship",
+          ),
+          SortingItem(
+            id: "sec2hum-w23-sort-3",
+            labelEn: "Documented child labor in factory settings",
+            labelMy: "Factory Setting များတွင် Documented Child Labor",
+            correctBucketEn: "Documented Hardship",
+            correctBucketMy: "Documented Hardship",
+          ),
+          SortingItem(
+            id: "sec2hum-w23-sort-4",
+            labelEn:
+                "New urban opportunities documented alongside rural-to-city migration",
+            labelMy:
+                "Rural-To-City Migration နှင့်အတူ Document ပြုလုပ်ထားသော Urban Opportunity အသစ်များ",
+            correctBucketEn: "Documented Opportunity",
+            correctBucketMy: "Documented Opportunity",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aung Myint's Balanced Report",
+      titleMy: "စာဖတ်ခြင်း - Aung Myint ၏ Balanced Report",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aung Myint's Balanced Report",
+        titleMy: "Aung Myint ၏ Balanced Report",
+        passageEn:
+            "For Week 23's assignment, Aung Myint's first draft described factory-era urbanization only in positive terms: new jobs, growing cities, and rising wages. His teacher returned the draft with a reminder of the balanced-account principle used since Week 11's colonial-impact work -- had he checked the documented hardships alongside the documented opportunities?\n\nAung Myint researched further and found both dimensions clearly documented. Wage employment did give many families a new, regular income, and cities did grow as people moved for factory work. But documented conditions also included long hours, unsafe machinery, and child labor in factory settings -- serious hardships that eventually prompted specific legislative responses, such as factory acts limiting child labor and working hours. He was careful to cite these acts as documented responses to specific, named conditions, not as vague, unexplained reforms.\n\nHe also researched documented worker agency: petitions and early labor organizing by workers themselves, representing them as people who acted to shape their own conditions, not only as passive subjects that reforms simply happened to -- the same agency principle applied to enslaved people's resistance in Term 4. His teacher praised the revised report for representing every major documented dimension of this period fairly, rather than only the convenient one.",
+        passageMy:
+            "Week 23 ၏ Assignment အတွက် Aung Myint ၏ ပထမဆုံး Draft တွင် Factory-ခေတ် Urbanization ကို Positive Term များဖြင့်သာ ဖော်ပြခဲ့သည် -- အလုပ်အကိုင်အသစ်များ, ကြီးထွားနေသော City များနှင့် မြင့်တက်နေသော Wage များ။ Week 11 ၏ Colonial-Impact အလုပ်မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Principle ကို သတိပေးချက်တစ်ခုနှင့်အတူ ၎င်း၏ ဆရာ Draft ကို ပြန်ပေးခဲ့သည် -- Documented Opportunity များနှင့်အတူ Documented Hardship များကိုလည်း ၎င်း စစ်ဆေးခဲ့ပါသလား။\n\nDimension နှစ်ခုစလုံးကို ရှင်းလင်းစွာ Document ပြုလုပ်ထားကြောင်း Aung Myint ထပ်မံ Research ပြုလုပ်ကာ တွေ့ရှိခဲ့သည်။ Wage Employment သည် မိသားစုများစွာအား Regular Income အသစ်တစ်ခု ပေးအပ်ခဲ့ပြီး City များသည် Factory အလုပ်အတွက် လူများ ရွှေ့ပြောင်းလာသောကြောင့် ကြီးထွားခဲ့သည်။ သို့သော် Documented Condition များတွင် Factory Setting များ၌ Long Hours, Unsafe Machinery နှင့် Child Labor ပါဝင်ခဲ့ပြီး -- နောက်ဆုံးတွင် Child Labor နှင့် Working Hours ကို ကန့်သတ်သော Factory Act များကဲ့သို့ Specific Legislative Response များကို ဖြစ်ပေါ်စေခဲ့သော Serious Hardship များ ဖြစ်သည်။ ဤ Act များကို Vague, Unexplained Reform များအဖြစ်မဟုတ်ဘဲ Specific, Named Condition များအတွက် Documented Response များအဖြစ် Cite ပြုလုပ်ရန် ၎င်း သတိထားခဲ့သည်။\n\nDocumented Worker Agency ကိုလည်း ၎င်း Research ပြုလုပ်ခဲ့သည် -- Worker များ ကိုယ်တိုင်၏ Petition များနှင့် Early Labor Organizing, Reform များ ရိုးရိုး ဖြစ်ပေါ်ရာတွင် ရှိနေသူများအဖြစ်သာမက ၎င်းတို့ ကိုယ်ပိုင် Condition များကို ပုံဖော်ရန် လုပ်ဆောင်ခဲ့သော လူများအဖြစ် ကိုယ်စားပြုသည် -- Term 4 ရှိ ကျွန်ခံခဲ့ရသူများ၏ Resistance ပေါ်တွင် အသုံးချထားသော Agency Principle တူတူ ဖြစ်သည်။ ဤကာလ၏ Convenient Dimension တစ်ခုတည်းမဟုတ်ဘဲ Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုသောကြောင့် Revised Report ကို ၎င်း၏ ဆရာ ချီးမွမ်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was missing from Aung Myint's first draft?",
+            questionMy:
+                "Aung Myint ၏ ပထမဆုံး Draft တွင် မရှိခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented hardships alongside the documented opportunities",
+              "Any mention of urbanization or wage employment at all",
+              "Any historical content whatsoever",
+              "A title for the assignment",
+            ],
+            optionsMy: [
+              "Documented Opportunity များနှင့်အတူ Documented Hardship များ",
+              "Urbanization (သို့) Wage Employment ၏ ဖော်ပြချက် မည်သည်မှ",
+              "သမိုင်းဆိုင်ရာ Content မည်သည်မှ",
+              "Assignment အတွက် ခေါင်းစဉ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's stated teacher feedback."],
+            hintsMy: [
+              "ဖော်ပြထားသော ဆရာ Feedback ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what prompted specific legislative responses such as factory acts?",
+            questionMy:
+                "Factory Act များကဲ့သို့ Specific Legislative Response များကို ဖြစ်ပေါ်စေခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Serious documented hardships such as long hours, unsafe machinery, and child labor",
+              "No documented condition of any kind",
+              "Only positive documented opportunities with no hardship involved",
+              "A condition entirely unrelated to factory work",
+            ],
+            optionsMy: [
+              "Long Hours, Unsafe Machinery နှင့် Child Labor ကဲ့သို့ Serious Documented Hardship များ",
+              "Documented Condition မည်သည် အမျိုးအစားမှ",
+              "Hardship မပါဘဲ Positive Documented Opportunity များသာ",
+              "Factory အလုပ်နှင့် လုံးလုံး မသက်ဆိုင်သော Condition",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's stated cause of legislative response.",
+            ],
+            hintsMy: [
+              "Legislative Response ၏ ဖော်ပြထားသော Cause ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, how did Aung Myint represent workers' documented petitions and organizing?",
+            questionMy:
+                "Worker များ၏ Documented Petition များနှင့် Organizing ကို Aung Myint မည်သို့ ကိုယ်စားပြုခဲ့သည်ကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As actions by people who acted to shape their own conditions, not only passive subjects",
+              "As having no actual documented historical significance",
+              "As actions entirely unrelated to any documented worker agency",
+              "As proof that workers had no role in shaping their own conditions",
+            ],
+            optionsMy: [
+              "Passive Subject များအဖြစ်သာမက ၎င်းတို့ ကိုယ်ပိုင် Condition များကို ပုံဖော်ရန် လုပ်ဆောင်ခဲ့သော လူများ၏ Action များအဖြစ်",
+              "Actual Documented သမိုင်းဆိုင်ရာ Significance မရှိကြောင်း",
+              "Documented Worker Agency မည်သည်နှင့်မျှ လုံးလုံး မသက်ဆိုင်သော Action များအဖြစ်",
+              "Worker များတွင် ၎င်းတို့ ကိုယ်ပိုင် Condition များ ပုံဖော်ရာတွင် Role မရှိကြောင်း သက်သေအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the third paragraph's representation of worker agency.",
+            ],
+            hintsMy: [
+              "Worker Agency ၏ Representation ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w23-d5",
+      dayNumber: 5,
+      titleEn: "Recap: Urbanization and Working Conditions Essentials",
+      titleMy:
+          "ပြန်လည်သုံးသပ်ခြင်း - Urbanization and Working Conditions မရှိမဖြစ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A balanced, documented account of factory-era urbanization represents...",
+          questionMy:
+              "Factory-ခေတ် Urbanization ၏ Balanced, Documented Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented opportunities and documented hardships",
+            "Only documented opportunities, with no hardship mentioned",
+            "Only documented hardships, with no opportunity mentioned",
+            "Neither opportunities nor hardships of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Opportunity များနှင့် Documented Hardship များ နှစ်ခုစလုံး",
+            "Hardship ကို ဖော်ပြခြင်းမရှိဘဲ Documented Opportunity များသာ",
+            "Opportunity ကို ဖော်ပြခြင်းမရှိဘဲ Documented Hardship များသာ",
+            "Documented Opportunity (သို့) Hardship မည်သည် အမျိုးအစားမှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Factory acts limiting child labor were documented as...",
+          questionMy:
+              "Child Labor ကို ကန့်သတ်သော Factory Act များကို ...အဖြစ် Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Responses to specific documented conditions",
+            "Vague, unexplained events with no documented cause",
+            "Legislation unrelated to any documented factory condition",
+            "Reforms that appeared with no historical connection at all",
+          ],
+          optionsMy: [
+            "Specific Documented Condition များအတွက် Response များ",
+            "Documented Cause မပါဘဲ Vague, Unexplained Event များ",
+            "Documented Factory Condition မည်သည်နှင့်မျှ မသက်ဆိုင်သော Legislation",
+            "သမိုင်းဆိုင်ရာ ဆက်နွယ်မှု လုံးလုံး မပါဘဲ ပေါ်ပေါက်ခဲ့သော Reform များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Representing factory workers' own documented petitions and organizing matters because it...",
+          questionMy:
+              "Factory Worker များ ကိုယ်ပိုင် Documented Petition များနှင့် Organizing ကို ကိုယ်စားပြုခြင်းသည် ...ကြောင့် အရေးကြီးသည်",
+          optionsEn: [
+            "Shows workers as historical agents who shaped their own conditions",
+            "Has no actual documented historical value",
+            "Should never actually be represented in a balanced account",
+            "Applies only to reformers, never to the workers themselves",
+          ],
+          optionsMy: [
+            "Worker များကို ၎င်းတို့ ကိုယ်ပိုင် Condition များကို ပုံဖော်ခဲ့သော သမိုင်းဆိုင်ရာ Agent များအဖြစ် ပြသခြင်း",
+            "Actual Documented သမိုင်းဆိုင်ရာ Value မရှိခြင်း",
+            "Balanced Account တွင် ဘယ်တော့မှ အမှန်တကယ် မကိုယ်စားပြုသင့်ခြင်း",
+            "Reformer များတွင်သာ သက်ဆိုင်ပြီး Worker များ ကိုယ်တိုင်တွင် ဘယ်တော့မှ မသက်ဆိုင်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+// =====================================================================
+// Secondary 2 Humanities -- Term 6, Week 24 (Capstone / Boss Week):
+// "Industrial Revolution Balanced History Studio"
+// =====================================================================
+
+const CourseWeekDef _sec2HumWeek24 = CourseWeekDef(
+  id: "course-sec2-hum-w24",
+  weekNumber: 24,
+  titleEn: "Capstone: Industrial Revolution Balanced History Studio",
+  titleMy: "Capstone - Industrial Revolution Balanced History Studio",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-sec2hum-w24-d1",
+      dayNumber: 1,
+      titleEn: "Capstone Quiz: Term 6 Evidence Standards",
+      titleMy: "Capstone Quiz - Term 6 Evidence Standards",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A student's capstone project must combine a documented cause (from Week 21), a documented technological change (from Week 22), and a balanced account of social impact (from Week 23). Why require all three combined rather than choosing just one?",
+          questionMy:
+              "Student ၏ Capstone Project သည် Documented Cause (Week 21 မှ), Documented Technological ပြောင်းလဲမှု (Week 22 မှ) နှင့် Social Impact ၏ Balanced Account (Week 23 မှ) ကို ပေါင်းစပ်ရမည်။ တစ်ခုတည်းသာ ရွေးချယ်မည့်အစား သုံးခုစလုံး ပေါင်းစပ်ရန် အဘယ်ကြောင့် လိုအပ်ရသနည်း။",
+          optionsEn: [
+            "A complete, accurate historical account of the Industrial Revolution requires understanding cause, change, and balanced impact together, the same multi-part rigor applied to every capstone this course",
+            "A single documented factor is always sufficient to explain the entire Industrial Revolution",
+            "Cause, technological change, and social impact have no actual documented connection to each other",
+            "Combining documented evidence has no actual value in a capstone project",
+          ],
+          optionsMy: [
+            "Industrial Revolution ၏ Complete, တိကျသော သမိုင်းဆိုင်ရာ Account တစ်ခုသည် Cause, Change နှင့် Balanced Impact ကို အတူတကွ နားလည်ရန် လိုအပ်ပြီး ဤ Course ရှိ Capstone တိုင်းတွင် အသုံးချထားသော Multi-Part Rigor တူတူ ဖြစ်သည်",
+            "Documented Factor တစ်ခုတည်းသည် Industrial Revolution တစ်ခုလုံးကို ရှင်းပြရန် အမြဲ လုံလောက်ခြင်း",
+            "Cause, Technological ပြောင်းလဲမှုနှင့် Social Impact တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Documented Evidence ပေါင်းစပ်ခြင်းတွင် Capstone Project တွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This combines Week 21 (causes), Week 22 (technology), and Week 23 (balanced social impact) into one project.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21 (Cause များ), Week 22 (Technology) နှင့် Week 23 (Balanced Social Impact) ကို Project တစ်ခုအဖြစ် ပေါင်းစပ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A student's draft describes only factory-era opportunities with no mention of documented hardships like child labor or unsafe conditions. Following this term's established standard, what should the student revise?",
+          questionMy:
+              "Student ၏ Draft တွင် Child Labor (သို့) Unsafe Condition ကဲ့သို့ Documented Hardship များကို ဖော်ပြခြင်းမရှိဘဲ Factory-ခေတ် Opportunity များကိုသာ ဖော်ပြထားသည်။ ဤ Term ၏ တည်ထောင်ထားသော Standard အတိုင်း Student ဘာကို Revise လုပ်သင့်သနည်း။",
+          optionsEn: [
+            "Rewrite the project to represent both documented opportunities and documented hardships, following the same balanced-account discipline used since Week 11",
+            "Nothing -- describing only opportunities is the required and correct approach for this term",
+            "Remove all documented evidence about opportunities from the project entirely",
+            "Replace the entire project with content unrelated to this term's subject",
+          ],
+          optionsMy: [
+            "Week 11 မှစ၍ အသုံးပြုခဲ့သော Balanced-Account Discipline တူတူကို လိုက်နာကာ Documented Opportunity များနှင့် Documented Hardship များ နှစ်ခုစလုံးကို ကိုယ်စားပြုရန် Project ကို ပြန်လည်ရေးသားရန်",
+            "ဘာမျှ -- Opportunity များကိုသာ ဖော်ပြခြင်းသည် ဤ Term အတွက် လိုအပ်ပြီး မှန်ကန်သော Approach ဖြစ်သည်",
+            "Opportunity များအကြောင်း Documented Evidence အားလုံးကို Project မှ လုံးလုံး ဖယ်ရှားရန်",
+            "ဤ Term ၏ Subject နှင့် မသက်ဆိုင်သော Content ဖြင့် Project တစ်ခုလုံးကို အစားထိုးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same balanced-account standard from Week 23, applied at the capstone level.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Capstone Level ၌ အသုံးချထားသော Week 23 မှ Balanced-Account Standard တူတူ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why should the capstone project connect Term 6's industrial content back to Term 5's river-geography and cottage-industry work, rather than treating the Industrial Revolution as an unconnected, isolated topic?",
+          questionMy:
+              "Industrial Revolution ကို Unconnected, Isolated Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား Capstone Project သည် Term 6 ၏ Industrial Content ကို Term 5 ၏ River-Geography နှင့် Cottage-Industry အလုပ်နှင့် အဘယ်ကြောင့် ပြန်လည် ချိတ်ဆက်သင့်ရသနည်း။",
+          optionsEn: [
+            "Historical change builds on documented earlier developments rather than appearing in isolation, so tracing that documented connection accurately represents how industrialization actually happened",
+            "Term 5 and Term 6 have no actual documented connection to each other",
+            "The Industrial Revolution appeared with no connection to any earlier documented development",
+            "Connecting terms together has no actual value in historical or geographic study",
+          ],
+          optionsMy: [
+            "သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် Isolation တွင် ပေါ်ပေါက်မည့်အစား ယခင် Documented Development များပေါ်တွင် တည်ဆောက်သောကြောင့် ထို Documented ဆက်နွယ်မှုကို လိုက်လံ ဖော်ထုတ်ခြင်းသည် Industrialization Actual ဖြစ်ပေါ်ခဲ့ပုံကို တိကျစွာ ကိုယ်စားပြုသည်",
+            "Term 5 နှင့် Term 6 တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+            "Industrial Revolution သည် ယခင် Documented Development မည်သည်နှင့်မျှ ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+            "Term များကို အတူတကွ ချိတ်ဆက်ခြင်းတွင် သမိုင်း (သို့) Geographic လေ့လာမှုတွင် Actual Value မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the same gradual-development-not-isolation principle stated explicitly in Week 21 and Week 22.",
+          ],
+          hintsMy: [
+            "ဤသည်ကား Week 21 နှင့် Week 22 တွင် ရှင်းလင်းစွာ ဖော်ပြခဲ့သော Gradual-Development-Not-Isolation Principle တူတူ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Review Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Term 6 Review Vocabulary",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "sec2hum-w24-dm-1",
+          termEn: "Multi-causation",
+          termMy: "Multi-Causation",
+          matchEn:
+              "The principle that major documented change usually results from several factors together",
+          matchMy:
+              "Major Documented ပြောင်းလဲမှုသည် ယေဘုယျအားဖြင့် Factor များစွာ အတူတကွမှ ဖြစ်ပေါ်သည်ဟူသော Principle",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w24-dm-2",
+          termEn: "Steam engine",
+          termMy: "Steam Engine",
+          matchEn:
+              "A documented machine freeing factory location from needing to be built along a river",
+          matchMy:
+              "River တစ်လျှောက် တည်ဆောက်ရန် လိုအပ်မှုမှ Factory Location ကို လွတ်လပ်စေသော Documented Machine",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w24-dm-3",
+          termEn: "Balanced social account",
+          termMy: "Balanced Social Account",
+          matchEn:
+              "A documented account representing both opportunities and hardships fairly",
+          matchMy:
+              "Opportunity နှင့် Hardship နှစ်ခုစလုံးကို တရားမျှတစွာ ကိုယ်စားပြုသော Documented Account",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "sec2hum-w24-dm-4",
+          termEn: "Worker agency",
+          termMy: "Worker Agency",
+          matchEn:
+              "Documented actions by workers themselves, such as petitions and early labor organizing",
+          matchMy:
+              "Petition များနှင့် Early Labor Organizing ကဲ့သို့ Worker များ ကိုယ်တိုင်၏ Documented Action များ",
+          colorValue: 0xFF9C27B0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Build the Studio Checklist",
+      titleMy: "စီစစ်ကြမည် - Studio Checklist တည်ဆောက်ကြမည်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Required in the Studio Project",
+          "Not Appropriate for the Studio Project",
+        ],
+        bucketsMy: [
+          "Studio Project တွင် လိုအပ်သည်",
+          "Studio Project အတွက် မသင့်လျော်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "sec2hum-w24-sort-1",
+            labelEn:
+                "A specific documented cause explaining why industrialization began where it did",
+            labelMy:
+                "Industrialization ၎င်း တည်ရှိသည့်နေရာတွင် အဘယ်ကြောင့် စတင်ခဲ့သည်ကို ရှင်းပြသော Specific Documented Cause",
+            correctBucketEn: "Required in the Studio Project",
+            correctBucketMy: "Studio Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w24-sort-2",
+            labelEn:
+                "A balanced account representing both documented opportunities and hardships",
+            labelMy:
+                "Documented Opportunity နှင့် Hardship နှစ်ခုစလုံးကို ကိုယ်စားပြုသော Balanced Account",
+            correctBucketEn: "Required in the Studio Project",
+            correctBucketMy: "Studio Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w24-sort-3",
+            labelEn:
+                "A connection back to Term 5's documented river-geography and cottage-industry work",
+            labelMy:
+                "Term 5 ၏ Documented River-Geography နှင့် Cottage-Industry အလုပ်သို့ ပြန်လည် ချိတ်ဆက်မှု",
+            correctBucketEn: "Required in the Studio Project",
+            correctBucketMy: "Studio Project တွင် လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "sec2hum-w24-sort-4",
+            labelEn:
+                "A description of only opportunities with no documented hardship mentioned",
+            labelMy:
+                "Documented Hardship ဖော်ပြခြင်းမရှိဘဲ Opportunity များ၏ ဖော်ပြချက်သာ",
+            correctBucketEn: "Not Appropriate for the Studio Project",
+            correctBucketMy: "Studio Project အတွက် မသင့်လျော်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ye Min's Capstone Studio Presentation",
+      titleMy: "စာဖတ်ခြင်း - Ye Min ၏ Capstone Studio Presentation",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ye Min's Capstone Studio Presentation",
+        titleMy: "Ye Min ၏ Capstone Studio Presentation",
+        passageEn:
+            "For the Term 6 capstone, Ye Min built his studio project around three combined documented elements. From Week 21, he cited specific causes -- accessible coal and iron, capital from trade, and existing water-mill infrastructure from Term 5 -- explaining why Britain industrialized rather than leaving it as an unexplained event. From Week 22, he documented the shift from water power to steam power and traced how this freed factory location from the river-geography constraint studied back in Term 5.\n\nFrom Week 23, he built a balanced account of social impact: new wage employment and urban growth alongside documented hardships like long hours and child labor, plus the specific factory acts passed in response and the documented petitions and organizing by workers themselves. He checked his draft against the same balance checklist used for Term 3's colonial-impact report and Term 4's abolition capstone, confirming every major documented dimension was represented fairly.\n\nA classmate asked why he had spent so much time connecting his project back to Term 5's river and cottage-industry content instead of treating the Industrial Revolution as its own separate topic. Ye Min explained that documented historical change builds on earlier developments rather than appearing in isolation -- the same gradual-connection principle his class had applied since Week 21's cause-mapping work. His teacher confirmed this was exactly the reasoning the capstone was designed to test, awarding full marks for combining documented cause, documented change, and balanced documented impact into one connected studio project.",
+        passageMy:
+            "Term 6 Capstone အတွက် Documented Element ပေါင်းစပ်ထားသော သုံးခုပတ်ပါလျက် ၎င်း၏ Studio Project ကို Ye Min တည်ဆောက်ခဲ့သည်။ Week 21 မှ Britain ကို Unexplained Event တစ်ခုအဖြစ် ချန်ထားမည့်အစား Britain အဘယ်ကြောင့် Industrialize ဖြစ်ခဲ့သည်ကို ရှင်းပြရန် Specific Cause များ -- ရရှိနိုင်သော ကျောက်မီးသွေးနှင့် သံ, ကုန်သွယ်မှုမှ Capital နှင့် Term 5 မှ ရှိပြီးသား Water-Mill Infrastructure -- ကို ၎င်း Cite ပြုလုပ်ခဲ့သည်။ Week 22 မှ Water Power မှ Steam Power သို့ Shift ကို ၎င်း Document ပြုလုပ်ခဲ့ပြီး ဤသည် Term 5 က ရင်းနှီးစွာ လေ့လာခဲ့သော River-Geography Constraint မှ Factory Location ကို မည်သို့ လွတ်လပ်စေခဲ့သည်ကို လိုက်လံ ဖော်ထုတ်ခဲ့သည်။\n\nWeek 23 မှ Social Impact ၏ Balanced Account တစ်ခုကို ၎င်း တည်ဆောက်ခဲ့သည် -- Long Hours နှင့် Child Labor ကဲ့သို့ Documented Hardship များနှင့်အတူ Wage Employment အသစ်နှင့် Urban Growth, ထို့အပြင် Response အဖြစ် ဖြတ်သန်းခဲ့သော Specific Factory Act များနှင့် Worker များ ကိုယ်တိုင်၏ Documented Petition များနှင့် Organizing။ Term 3 ၏ Colonial-Impact Report နှင့် Term 4 ၏ Abolition Capstone အတွက် အသုံးပြုခဲ့သော Balance Checklist တူတူဖြင့် ၎င်း၏ Draft ကို စစ်ဆေးကာ Major Documented Dimension တိုင်းကို တရားမျှတစွာ ကိုယ်စားပြုကြောင်း အတည်ပြုခဲ့သည်။\n\nIndustrial Revolution ကို ၎င်းကိုယ်ပိုင် Separate Topic တစ်ခုအဖြစ် သဘောထားမည့်အစား Term 5 ၏ River နှင့် Cottage-Industry Content သို့ ၎င်း၏ Project ကို ပြန်လည် ချိတ်ဆက်ရန် အချိန်ဒီလောက် အဘယ်ကြောင့် ကုန်ဆုံးခဲ့သည်ကို Classmate တစ်ဦးက မေးခဲ့သည်။ Documented သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် Isolation တွင် ပေါ်ပေါက်မည့်အစား ယခင် Development များပေါ်တွင် တည်ဆောက်ကြောင်း -- Week 21 ၏ Cause-Mapping အလုပ်မှစ၍ ၎င်း၏ Class အသုံးချခဲ့သော Gradual-Connection Principle တူတူ ဖြစ်ကြောင်း Ye Min ရှင်းပြခဲ့သည်။ ဤသည်ကား Capstone စမ်းသပ်ရန် Design ပြုလုပ်ထားသော Reasoning အတိအကျ ဖြစ်ကြောင်း ၎င်း၏ ဆရာ အတည်ပြုခဲ့ပြီး Documented Cause, Documented Change နှင့် Balanced Documented Impact ကို Connected Studio Project တစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့သောကြောင့် Full Marks ချီးမြှင့်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Ye Min cite from Week 21?",
+            questionMy:
+                "Week 21 မှ Ye Min Cite ပြုလုပ်ခဲ့သည့်အရာကို စာပိုဒ် ၁ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specific causes -- coal, iron, capital, and existing water-mill infrastructure",
+              "No documented cause of any kind",
+              "Only a vague, unspecified explanation with no evidence",
+              "A cause entirely unrelated to Britain's industrialization",
+            ],
+            optionsMy: [
+              "Specific Cause များ -- ကျောက်မီးသွေး, သံ, Capital နှင့် ရှိပြီးသား Water-Mill Infrastructure",
+              "Documented Cause မည်သည် အမျိုးအစားမှ",
+              "Evidence မပါဘဲ Vague, Unspecified ရှင်းပြချက်သာ",
+              "Britain ၏ Industrialization နှင့် လုံးလုံး မသက်ဆိုင်သော Cause",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's Week 21 citation."],
+            hintsMy: ["Week 21 Citation ကို ပထမ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did Ye Min include in his balanced social-impact account?",
+            questionMy:
+                "၎င်း၏ Balanced Social-Impact Account တွင် Ye Min ထည့်သွင်းခဲ့သည့်အရာကို စာပိုဒ် ၂ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both new wage employment/urban growth and documented hardships like child labor",
+              "Only positive documented opportunities with no hardship at all",
+              "Only documented hardships with no opportunity mentioned",
+              "Content entirely unrelated to social impact",
+            ],
+            optionsMy: [
+              "Wage Employment/Urban Growth အသစ်နှင့် Child Labor ကဲ့သို့ Documented Hardship နှစ်ခုစလုံး",
+              "Hardship လုံးလုံး မပါဘဲ Positive Documented Opportunity များသာ",
+              "Opportunity ဖော်ပြခြင်းမရှိဘဲ Documented Hardship များသာ",
+              "Social Impact နှင့် လုံးလုံး မသက်ဆိုင်သော Content",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's stated balanced account."],
+            hintsMy: [
+              "ဖော်ပြထားသော Balanced Account ကို ဒုတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Ye Min connect his project back to Term 5?",
+            questionMy:
+                "Term 5 သို့ ၎င်း၏ Project ကို Ye Min ပြန်လည် ချိတ်ဆက်ခဲ့သည့်အကြောင်းရင်းကို စာပိုဒ် ၃ အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Documented historical change builds on earlier developments rather than appearing in isolation",
+              "Term 5 and Term 6 had no actual documented connection to each other",
+              "The Industrial Revolution appeared with no connection to earlier developments",
+              "Connecting terms together had no actual value in his project",
+            ],
+            optionsMy: [
+              "Documented သမိုင်းဆိုင်ရာ ပြောင်းလဲမှုသည် Isolation တွင် ပေါ်ပေါက်မည့်အစား ယခင် Development များပေါ်တွင် တည်ဆောက်ခြင်း",
+              "Term 5 နှင့် Term 6 တွင် တစ်ခုနှင့်တစ်ခု Actual Documented ဆက်နွယ်မှု မရှိခြင်း",
+              "Industrial Revolution သည် ယခင် Development များနှင့် ဆက်နွယ်မှု မပါဘဲ ပေါ်ပေါက်ခဲ့ခြင်း",
+              "Term များ အတူတကွ ချိတ်ဆက်ခြင်းသည် ၎င်း၏ Project တွင် Actual Value မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's stated explanation."],
+            hintsMy: [
+              "ဖော်ပြထားသော ရှင်းပြချက်ကို တတိယ စာပိုဒ်အရ ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-sec2hum-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Recap: The Industrial Revolution",
+      titleMy: "Term 6 ပြန်လည်သုံးသပ်ခြင်း - The Industrial Revolution",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Britain's industrialization is documented as resulting from...",
+          questionMy:
+              "Britain ၏ Industrialization ကို ...မှ ဖြစ်ပေါ်ကြောင်း Document ပြုလုပ်ထားသည်",
+          optionsEn: [
+            "Multiple documented causes working together",
+            "A single unspecified cause with no evidence",
+            "No documented cause of any kind",
+            "A vague explanation with no supporting evidence",
+          ],
+          optionsMy: [
+            "အတူတကွ လုပ်ဆောင်ခဲ့သော Documented Cause များစွာ",
+            "Evidence မပါသော Unspecified Cause တစ်ခုတည်း",
+            "Documented Cause မည်သည် အမျိုးအစားမှ",
+            "Supporting Evidence မပါသော Vague ရှင်းပြချက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The steam engine changed factory location by...",
+          questionMy:
+              "Steam Engine သည် ...ဖြင့် Factory Location ကို ပြောင်းလဲခဲ့သည်",
+          optionsEn: [
+            "Freeing factories from needing a river location",
+            "Requiring an even stricter river-location constraint",
+            "Having no documented effect on location at all",
+            "Eliminating machinery entirely from production",
+          ],
+          optionsMy: [
+            "River Location လိုအပ်မှုမှ Factory များကို လွတ်လပ်စေခြင်း",
+            "ပို၍ တင်းကျပ်သော River-Location Constraint လိုအပ်ခြင်း",
+            "Location ပေါ်တွင် Documented Effect လုံးလုံး မရှိခြင်း",
+            "Production မှ Machinery ကို လုံးလုံး ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A balanced account of factory-era social impact represents...",
+          questionMy:
+              "Factory-ခေတ် Social Impact ၏ Balanced Account သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Both documented opportunities and documented hardships",
+            "Only documented opportunities with no hardship",
+            "Only documented hardships with no opportunity",
+            "Neither dimension of any documented kind",
+          ],
+          optionsMy: [
+            "Documented Opportunity များနှင့် Documented Hardship များ နှစ်ခုစလုံး",
+            "Hardship မပါဘဲ Documented Opportunity များသာ",
+            "Opportunity မပါဘဲ Documented Hardship များသာ",
+            "Documented Dimension မည်သည်မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// =====================================================================
+// Secondary 2 Humanities -- Term 6: "The Industrial Revolution" (Weeks
+// 21-24). Documented multi-causal explanation of why Britain
+// industrialized (Week 21, explicitly building on Term 5's water-mill
+// and cottage-industry infrastructure), the documented shift from
+// water power to steam power and the factory system (Week 22), and a
+// balanced, documented account of social impact representing both
+// opportunity and hardship plus worker agency (Week 23), closing with
+// a capstone connecting cause, technological change, and balanced
+// impact into one studio project (Week 24).
+// =====================================================================
+
+const CourseTermDef _sec2HumTerm6 = CourseTermDef(
+  id: "course-sec2-hum-t6",
+  termNumber: 6,
+  titleEn: "The Industrial Revolution",
+  titleMy: "The Industrial Revolution",
+  certificateTitleEn: "The Industrial Revolution Certificate",
+  certificateTitleMy: "The Industrial Revolution သင်တန်းဆင်း လက်မှတ်",
+  weeks: [_sec2HumWeek21, _sec2HumWeek22, _sec2HumWeek23, _sec2HumWeek24],
 );
 // __SEC_HUM_MARKER__
