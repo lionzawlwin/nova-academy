@@ -13952,8 +13952,1320 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 4,
-  terms: [year12PhysicsTerm1],
+  totalWeeks: 8,
+  terms: [year12PhysicsTerm1, year12PhysicsTerm2],
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 2: "Kinematics"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "Displacement, Velocity and the Equations of Motion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek5 = CourseWeekDef(
+  id: "course-y12-phys-w5",
+  weekNumber: 5,
+  titleEn: "Displacement, Velocity and the Equations of Motion",
+  titleMy: "Displacement, Velocity နှင့် Equations of Motion",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w5-d1",
+      dayNumber: 1,
+      titleEn: "The Four SUVAT Equations",
+      titleMy: "SUVAT Equation လေးခု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A car starts from rest (u = 0) and accelerates at 4 m s⁻² for 5 s. Using v = u + at, its final velocity is...",
+          questionMy:
+              "ကားတစ်စီးသည် ရပ်ငြိမ်နေရာ (u = 0) မှ 4 m s⁻² ဖြင့် 5 s အတွက် အရှိန်တက်သည်။ v = u + at ကို အသုံးပြု၍ ၎င်း၏ Final Velocity မှာ...",
+          optionsEn: ["20 m s⁻¹", "9 m s⁻¹", "0.8 m s⁻¹", "45 m s⁻¹"],
+          optionsMy: ["20 m s⁻¹", "9 m s⁻¹", "0.8 m s⁻¹", "45 m s⁻¹"],
+          correctIndex: 0,
+          hintsEn: ["v = u + at = 0 + (4 x 5) = 20 m s⁻¹."],
+          hintsMy: ["v = u + at = 0 + (4 x 5) = 20 m s⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using s = ut + ½at², the displacement of an object starting at rest and accelerating at 2 m s⁻² for 3 s is...",
+          questionMy:
+              "s = ut + ½at² ကို အသုံးပြု၍ ရပ်ငြိမ်နေရာမှ 2 m s⁻² ဖြင့် 3 s အတွက် အရှိန်တက်သော ပစ္စည်း၏ Displacement မှာ...",
+          optionsEn: ["9 m", "6 m", "18 m", "3 m"],
+          optionsMy: ["9 m", "6 m", "18 m", "3 m"],
+          correctIndex: 0,
+          hintsEn: [
+            "s = ut + ½at² = (0 x 3) + (0.5 x 2 x 3²) = 0 + (1 x 9) = 9 m.",
+          ],
+          hintsMy: [
+            "s = ut + ½at² = (0 x 3) + (0.5 x 2 x 3²) = 0 + (1 x 9) = 9 m ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which SUVAT equation is most useful when time t is not known and not needed?",
+          questionMy:
+              "Time t ကို မသိသော် သို့မဟုတ် မလိုအပ်သော် မည်သည့် SUVAT Equation က အသုံးဝင်ဆုံး ဖြစ်သနည်း။",
+          optionsEn: [
+            "v² = u² + 2as",
+            "v = u + at",
+            "s = ut + ½at²",
+            "s = vt - ½at²",
+          ],
+          optionsMy: [
+            "v² = u² + 2as",
+            "v = u + at",
+            "s = ut + ½at²",
+            "s = vt - ½at²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "v² = u² + 2as is the only one of the four SUVAT equations that does not contain t at all.",
+          ],
+          hintsMy: [
+            "v² = u² + 2as သည် SUVAT Equation လေးခုအနက် t လုံးဝ မပါဝင်သော တစ်ခုတည်းသော Equation ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Kinematics Symbols and Meanings",
+      titleMy: "တွဲစပ်ကြမည် - Kinematics သင်္ကေတများနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w5-dm-1",
+          termEn: "s",
+          termMy: "s",
+          matchEn: "Displacement",
+          matchMy: "Displacement",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w5-dm-2",
+          termEn: "u",
+          termMy: "u",
+          matchEn: "Initial velocity",
+          matchMy: "Initial Velocity",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w5-dm-3",
+          termEn: "v",
+          termMy: "v",
+          matchEn: "Final velocity",
+          matchMy: "Final Velocity",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w5-dm-4",
+          termEn: "a",
+          termMy: "a",
+          matchEn: "Acceleration",
+          matchMy: "Acceleration",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w5-dm-5",
+          termEn: "t",
+          termMy: "t",
+          matchEn: "Time taken",
+          matchMy: "ကြာချိန်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which SUVAT Equation to Use?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် SUVAT Equation ကို သုံးမလဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Missing s (displacement)", "Missing t (time)"],
+        bucketsMy: ["s (Displacement) မရှိ", "t (Time) မရှိ"],
+        items: [
+          SortingItem(
+            id: "y12phys-w5-sort-1",
+            labelEn: "v = u + at",
+            labelMy: "v = u + at",
+            correctBucketEn: "Missing s (displacement)",
+            correctBucketMy: "s (Displacement) မရှိ",
+          ),
+          SortingItem(
+            id: "y12phys-w5-sort-2",
+            labelEn: "v² = u² + 2as",
+            labelMy: "v² = u² + 2as",
+            correctBucketEn: "Missing t (time)",
+            correctBucketMy: "t (Time) မရှိ",
+          ),
+          SortingItem(
+            id: "y12phys-w5-sort-3",
+            labelEn: "s = ut + ½at²",
+            labelMy: "s = ut + ½at²",
+            correctBucketEn: "Missing t (time)",
+            correctBucketMy: "t (Time) မရှိ",
+          ),
+          SortingItem(
+            id: "y12phys-w5-sort-4",
+            labelEn: "s = vt - ½at²",
+            labelMy: "s = vt - ½at²",
+            correctBucketEn: "Missing t (time)",
+            correctBucketMy: "t (Time) မရှိ",
+          ),
+          SortingItem(
+            id: "y12phys-w5-sort-5",
+            labelEn: "s = ½(u + v)t",
+            labelMy: "s = ½(u + v)t",
+            correctBucketEn: "Missing t (time)",
+            correctBucketMy: "t (Time) မရှိ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Braking Distance and SUVAT",
+      titleMy: "စာဖတ်ခြင်း - Braking Distance နှင့် SUVAT",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Braking Distance and SUVAT",
+        titleMy: "Braking Distance နှင့် SUVAT",
+        passageEn:
+            "Sayar Zaw Min set his AS class a real-world problem: a car travelling at 20 m s⁻¹ (about 72 km/h) brakes with a deceleration of 5 m s⁻², and he asked them to find the braking distance before the car stops completely.\n\nHtet Aung identified the known quantities first: initial velocity u = 20 m s⁻¹, final velocity v = 0 m s⁻¹ (since the car stops), and acceleration a = -5 m s⁻² (negative, since it is a deceleration opposing the direction of motion). Displacement s was the unknown he needed to find, and time t was neither known nor needed, so he chose the SUVAT equation without t: v² = u² + 2as.\n\nRearranging for s: s = (v² - u²) / 2a = (0² - 20²) / (2 x -5) = -400 / -10 = 40 m. Htet Aung double-checked the signs carefully, since a careless sign error is the single most common mistake in this kind of problem -- both the numerator and denominator were negative, so the two negatives cancelled to give a sensible positive distance of 40 m.\n\nSayar Zaw Min then asked what would happen to the braking distance if the car's initial speed doubled to 40 m s⁻¹, with the same deceleration. Using the same equation, s = (0² - 40²) / (2 x -5) = -1600 / -10 = 160 m -- four times the original distance, not twice. This is because s depends on u², so doubling the speed quadruples the braking distance, a fact that real driver-safety campaigns use to explain why speeding is disproportionately dangerous.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် သူ၏ AS အတန်းအား လက်တွေ့ ပြဿနာတစ်ခု ပေးခဲ့သည် - 20 m s⁻¹ (72 km/h ခန့်) ဖြင့် ခရီးသွားနေသော ကားတစ်စီးသည် 5 m s⁻² Deceleration ဖြင့် ဘရိတ်နှိပ်သည်ဟု ဆိုကာ ကား လုံးဝ ရပ်တန့်မီ Braking Distance ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nHtet Aung သည် သိရှိပြီးသား ပမာဏများကို ဦးစွာ ဖော်ထုတ်ခဲ့သည် - Initial Velocity u = 20 m s⁻¹၊ Final Velocity v = 0 m s⁻¹ (ကား ရပ်တန့်သောကြောင့်)၊ Acceleration a = -5 m s⁻² (Negative ဖြစ်ပြီး ရွေ့လျားမှု ဦးတည်ချက်ကို ဆန့်ကျင်သော Deceleration ဖြစ်သောကြောင့်)။ Displacement s သည် ရှာဖွေရမည့် မသိကိန်း ဖြစ်ပြီး Time t ကို မသိသော်လည်း မလိုအပ်သောကြောင့် t မပါသော SUVAT Equation ကို ရွေးချယ်ခဲ့သည် - v² = u² + 2as ။\n\ns အတွက် ပြန်စီစဉ်ခြင်း - s = (v² - u²) / 2a = (0² - 20²) / (2 x -5) = -400 / -10 = 40 m ။ ဤအမျိုးအစား ပြဿနာတွင် သတိမမူသော Sign အမှားသည် အဖြစ်များဆုံး အမှားဖြစ်သောကြောင့် Htet Aung သည် Sign များကို ဂရုတစိုက် ထပ်စစ်ဆေးခဲ့သည် -- Numerator နှင့် Denominator နှစ်ခုစလုံး Negative ဖြစ်နေသဖြင့် Negative နှစ်ခု ချေဖျက်ကာ ကျိုးကြောင်းညီညွတ်သော Positive အကွာအဝေး 40 m ကို ရရှိခဲ့သည်။\n\nကား၏ Initial Speed သည် Deceleration တူညီနေဆဲဖြင့် 40 m s⁻¹ သို့ နှစ်ဆတိုးလာပါက Braking Distance တွင် အဘယ်ဖြစ်လာမည်ကို ဆရာဇော်မင်း ထို့နောက် မေးမြန်းခဲ့သည်။ Equation တူညီစွာ အသုံးပြု၍ s = (0² - 40²) / (2 x -5) = -1600 / -10 = 160 m -- မူလ အကွာအဝေး၏ နှစ်ဆ မဟုတ်ဘဲ လေးဆ ဖြစ်လာသည်။ အကြောင်းမှာ s သည် u² ပေါ်တွင် မှီခိုနေသောကြောင့် Speed နှစ်ဆတိုးလျှင် Braking Distance လေးဆ ဖြစ်လာသည် -- တကယ့် ယာဉ်မောင်းလုံခြုံရေး ကမ်ပိန်းများက အရှိန်တက်ခြင်းသည် အချိုးမညီအောင် အန္တရာယ်ရှိကြောင်း ရှင်းပြရန် အသုံးပြုသော အချက်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the braking distance for the original 20 m s⁻¹ car?",
+            questionMy:
+                "မူလ 20 m s⁻¹ ကား၏ Braking Distance ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["40 m", "20 m", "80 m", "160 m"],
+            optionsMy: ["40 m", "20 m", "80 m", "160 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Htet Aung choose v² = u² + 2as?",
+            questionMy:
+                "Htet Aung သည် v² = u² + 2as ကို အဘယ်ကြောင့် ရွေးချယ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Time t was neither known nor needed",
+              "It was the only equation he remembered",
+              "The car's mass was given in the problem",
+              "It was the shortest equation to write down",
+            ],
+            optionsMy: [
+              "Time t ကို မသိသော်လည်း မလိုအပ်ခဲ့သောကြောင့်",
+              "သူ မှတ်မိသော Equation တစ်ခုတည်းသာ ဖြစ်ခဲ့သောကြောင့်",
+              "ကား၏ Mass ကို ပြဿနာတွင် ပေးထားသောကြောင့်",
+              "အတိုဆုံး ရေးရသော Equation ဖြစ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what happens to braking distance when speed doubles?",
+            questionMy:
+                "Speed နှစ်ဆတိုးလျှင် Braking Distance တွင် အဘယ်ဖြစ်လာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It quadruples, since s depends on u²",
+              "It exactly doubles",
+              "It stays exactly the same",
+              "It is cut in half",
+            ],
+            optionsMy: [
+              "s သည် u² ပေါ်တွင် မှီခိုနေသောကြောင့် လေးဆ ဖြစ်လာသည်",
+              "အတိအကျ နှစ်ဆ ဖြစ်လာသည်",
+              "အတိအကျ တူညီနေဆဲ ဖြစ်သည်",
+              "တစ်ဝက် လျော့ကျသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence about u² and speeding."],
+            hintsMy: [
+              "u² နှင့် အရှိန်တက်ခြင်းအကြောင်း နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: SUVAT",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - SUVAT",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "v = u + at is used to find...",
+          questionMy: "v = u + at ကို ...ရှာရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Final velocity",
+            "Displacement only",
+            "Mass",
+            "Time only, never velocity",
+          ],
+          optionsMy: [
+            "Final Velocity",
+            "Displacement သာ",
+            "Mass",
+            "Time သာ၊ Velocity လုံးဝ မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "SUVAT equations assume the acceleration is...",
+          questionMy: "SUVAT Equation များသည် Acceleration ကို ...ဟု ယူဆသည်",
+          optionsEn: [
+            "Constant (uniform)",
+            "Always zero",
+            "Always increasing",
+            "Random each second",
+          ],
+          optionsMy: [
+            "Constant (Uniform)",
+            "အမြဲ Zero",
+            "အမြဲ တိုးလာနေခြင်း",
+            "စက္ကန့်တိုင်း Random",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A car decelerating has an acceleration value that is...",
+          questionMy: "အရှိန်လျော့နေသော ကားတစ်စီး၏ Acceleration တန်ဖိုးမှာ...",
+          optionsEn: [
+            "Negative, opposing the direction of motion",
+            "Always exactly zero",
+            "Impossible to calculate",
+            "Always larger than the velocity",
+          ],
+          optionsMy: [
+            "Negative၊ ရွေ့လျားမှု ဦးတည်ချက်ကို ဆန့်ကျင်သည်",
+            "အမြဲ Zero အတိအကျ",
+            "တွက်ချက်၍ မရနိုင်ပါ",
+            "Velocity ထက် အမြဲ ကြီးသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "Motion Graphs and Deriving SUVAT"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek6 = CourseWeekDef(
+  id: "course-y12-phys-w6",
+  weekNumber: 6,
+  titleEn: "Motion Graphs and Deriving SUVAT",
+  titleMy: "ရွေ့လျားမှု ဂရပ်များနှင့် SUVAT ဆင်းသက်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w6-d1",
+      dayNumber: 1,
+      titleEn: "Deriving v = u + at from a Velocity-Time Graph",
+      titleMy: "Velocity-Time ဂရပ်မှ v = u + at ဆင်းသက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "On a velocity-time graph, the gradient of the line represents...",
+          questionMy:
+              "Velocity-Time ဂရပ်တွင် မျဉ်း၏ Gradient က ကိုယ်စားပြုသည်...",
+          optionsEn: [
+            "Acceleration",
+            "Displacement",
+            "Speed at one instant",
+            "Total time",
+          ],
+          optionsMy: [
+            "Acceleration",
+            "Displacement",
+            "တစ်ခဏတည်းရှိ Speed",
+            "စုစုပေါင်း အချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Gradient = change in velocity / change in time = acceleration, by definition.",
+          ],
+          hintsMy: [
+            "Gradient = Velocity ပြောင်းလဲမှု / Time ပြောင်းလဲမှု = Acceleration ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Since gradient = (v - u) / t = a, rearranging directly gives which SUVAT equation?",
+          questionMy:
+              "Gradient = (v - u) / t = a ဖြစ်သောကြောင့် တိုက်ရိုက် ပြန်စီစဉ်ခြင်းက မည်သည့် SUVAT Equation ကို ရရှိစေသနည်း။",
+          optionsEn: [
+            "v = u + at",
+            "s = ut + ½at²",
+            "v² = u² + 2as",
+            "s = ½(u+v)t",
+          ],
+          optionsMy: [
+            "v = u + at",
+            "s = ut + ½at²",
+            "v² = u² + 2as",
+            "s = ½(u+v)t",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiply both sides of a = (v-u)/t by t, then add u to both sides.",
+          ],
+          hintsMy: [
+            "a = (v-u)/t ကို t ဖြင့် နှစ်ဖက်စလုံး မြှောက်ပြီး u ကို နှစ်ဖက်စလုံးတွင် ပေါင်းပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "On a velocity-time graph, displacement is found by...",
+          questionMy: "Velocity-Time ဂရပ်တွင် Displacement ကို ...ဖြင့် ရှာသည်",
+          optionsEn: [
+            "Calculating the area under the graph",
+            "Reading the gradient directly",
+            "Multiplying the y-axis value by itself",
+            "Counting the number of straight-line sections",
+          ],
+          optionsMy: [
+            "ဂရပ်အောက်ရှိ ဧရိယာကို တွက်ချက်ခြင်းဖြင့်",
+            "Gradient ကို တိုက်ရိုက် ဖတ်ခြင်းဖြင့်",
+            "y-Axis တန်ဖိုးကို ၎င်းကိုယ်တိုင်နှင့် မြှောက်ခြင်းဖြင့်",
+            "ဖြောင့်မျဉ်း အပိုင်းအရေအတွက် ရေတွက်ခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Graph Features and Their Meaning",
+      titleMy: "တွဲစပ်ကြမည် - ဂရပ် လက္ခဏာများနှင့် အဓိပ္ပာယ်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w6-dm-1",
+          termEn: "Positive gradient on v-t graph",
+          termMy: "v-t ဂရပ်ရှိ Positive Gradient",
+          matchEn: "The object is accelerating",
+          matchMy: "ပစ္စည်းသည် အရှိန်တက်နေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w6-dm-2",
+          termEn: "Negative gradient on v-t graph",
+          termMy: "v-t ဂရပ်ရှိ Negative Gradient",
+          matchEn: "The object is decelerating",
+          matchMy: "ပစ္စည်းသည် အရှိန်လျော့နေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w6-dm-3",
+          termEn: "Zero gradient on v-t graph",
+          termMy: "v-t ဂရပ်ရှိ Zero Gradient",
+          matchEn: "The object moves at constant velocity",
+          matchMy: "ပစ္စည်းသည် တည်ငြိမ်သော Velocity ဖြင့် ရွေ့လျားနေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w6-dm-4",
+          termEn: "Curved (steepening) s-t graph",
+          termMy: "ကွေ့ကောက်နေသော (စောင်းလာနေသော) s-t ဂရပ်",
+          matchEn: "The object is accelerating",
+          matchMy: "ပစ္စည်းသည် အရှိန်တက်နေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w6-dm-5",
+          termEn: "Area below the time-axis on a v-t graph",
+          termMy: "v-t ဂရပ်ရှိ Time-Axis အောက်ရှိ ဧရိယာ",
+          matchEn: "Displacement in the negative direction",
+          matchMy: "Negative ဦးတည်ချက်ရှိ Displacement",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Displacement-Time or Velocity-Time Graph Feature?",
+      titleMy: "စီစစ်ကြမည် - Displacement-Time လား၊ Velocity-Time ဂရပ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Displacement-Time Graph", "Velocity-Time Graph"],
+        bucketsMy: ["Displacement-Time Graph", "Velocity-Time Graph"],
+        items: [
+          SortingItem(
+            id: "y12phys-w6-sort-1",
+            labelEn: "Gradient represents velocity",
+            labelMy: "Gradient က Velocity ကို ကိုယ်စားပြုသည်",
+            correctBucketEn: "Displacement-Time Graph",
+            correctBucketMy: "Displacement-Time Graph",
+          ),
+          SortingItem(
+            id: "y12phys-w6-sort-2",
+            labelEn: "Gradient represents acceleration",
+            labelMy: "Gradient က Acceleration ကို ကိုယ်စားပြုသည်",
+            correctBucketEn: "Velocity-Time Graph",
+            correctBucketMy: "Velocity-Time Graph",
+          ),
+          SortingItem(
+            id: "y12phys-w6-sort-3",
+            labelEn: "Area under the graph represents displacement",
+            labelMy: "ဂရပ်အောက်ရှိ ဧရိယာက Displacement ကို ကိုယ်စားပြုသည်",
+            correctBucketEn: "Velocity-Time Graph",
+            correctBucketMy: "Velocity-Time Graph",
+          ),
+          SortingItem(
+            id: "y12phys-w6-sort-4",
+            labelEn: "A curved line means changing velocity",
+            labelMy:
+                "ကွေ့ကောက်နေသော မျဉ်းသည် Velocity ပြောင်းလဲနေခြင်း ဆိုလိုသည်",
+            correctBucketEn: "Displacement-Time Graph",
+            correctBucketMy: "Displacement-Time Graph",
+          ),
+          SortingItem(
+            id: "y12phys-w6-sort-5",
+            labelEn: "A straight sloped line means constant acceleration",
+            labelMy:
+                "စောင်းနေသော ဖြောင့်မျဉ်းသည် Constant Acceleration ဆိုလိုသည်",
+            correctBucketEn: "Velocity-Time Graph",
+            correctBucketMy: "Velocity-Time Graph",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deriving s = ut + ½at² Graphically",
+      titleMy: "စာဖတ်ခြင်း - s = ut + ½at² ကို ဂရပ်ဖြင့် ဆင်းသက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deriving s = ut + ½at² Graphically",
+        titleMy: "s = ut + ½at² ကို ဂရပ်ဖြင့် ဆင်းသက်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Aye showed her class how every SUVAT equation can be derived from a single velocity-time graph, rather than simply memorised. She sketched a graph starting at velocity u, rising in a straight line to velocity v after time t -- a graph representing constant (uniform) acceleration.\n\nShe reminded the class that displacement s is the area under this line, which she split into two simple shapes: a rectangle of height u and width t sitting underneath, and a triangle sitting on top of it. The rectangle's area is straightforward: u multiplied by t, giving ut. The triangle's area is half its base multiplied by its height: the base is t, and the height is the difference between the final and initial velocity, which is (v - u). Since v - u = at (from the first SUVAT equation), the triangle's height can be rewritten as at, making its area ½ x t x at, which simplifies to ½at².\n\nAdding the rectangle and triangle together, total displacement s = ut + ½at² -- the exact second SUVAT equation, derived purely from geometry rather than memorised as an isolated formula. Sayama Moe Moe Aye pointed out that this graphical method is not just an academic exercise: examiners frequently ask students to derive a SUVAT equation from a described graph, and a student who understands the derivation can reconstruct any of the four equations even if their memory fails them under exam pressure, while a student who has only memorised the symbols has nothing to fall back on.",
+        passageMy:
+            "SUVAT Equation တိုင်းကို ရိုးရိုး အလွတ်ကျက်မှတ်ရုံ မဟုတ်ဘဲ Velocity-Time ဂရပ် တစ်ခုတည်းမှ မည်သို့ ဆင်းသက်နိုင်သည်ကို ဆရာမ မိုမိုအေးက သူမ၏ အတန်းကို ပြသခဲ့သည်။ Velocity u မှ စတင်ကာ Time t ကြာသောအခါ Velocity v သို့ ဖြောင့်မျဉ်းဖြင့် မြင့်တက်သွားသော ဂရပ်တစ်ခုကို ရေးဆွဲခဲ့သည် -- Constant (Uniform) Acceleration ကို ကိုယ်စားပြုသော ဂရပ် ဖြစ်သည်။\n\nDisplacement s သည် ဤမျဉ်းအောက်ရှိ ဧရိယာ ဖြစ်ကြောင်း အတန်းကို သတိပေးခဲ့ပြီး ၎င်းကို ရိုးရှင်းသော ပုံသဏ္ဌာန် နှစ်ခုအဖြစ် ခွဲခဲ့သည် - အောက်ခြေတွင် u အမြင့်နှင့် t အကျယ်ရှိသော Rectangle တစ်ခုနှင့် ၎င်း၏အထက်တွင် တင်ထားသော Triangle တစ်ခု ဖြစ်သည်။ Rectangle ၏ ဧရိယာသည် ရိုးရှင်းသည် - u ကို t ဖြင့် မြှောက်ပြီး ut ကို ရရှိသည်။ Triangle ၏ ဧရိယာမှာ Base ၏ ထက်ဝက်ကို Height ဖြင့် မြှောက်ခြင်း ဖြစ်သည် - Base သည် t ဖြစ်ပြီး Height သည် Final Velocity နှင့် Initial Velocity ၏ ကွာခြားချက် (v - u) ဖြစ်သည်။ v - u = at ဖြစ်သောကြောင့် (ပထမ SUVAT Equation မှ) Triangle ၏ Height ကို at အဖြစ် ပြန်ရေးနိုင်ပြီး ၎င်း၏ ဧရိယာမှာ ½ x t x at ဖြစ်ကာ ½at² အဖြစ် ရိုးရှင်းသွားသည်။\n\nRectangle နှင့် Triangle ကို ပေါင်းလိုက်ခြင်းဖြင့် စုစုပေါင်း Displacement s = ut + ½at² -- သီးခြား Formula တစ်ခုအဖြစ် အလွတ်ကျက်မှတ်ခြင်း မဟုတ်ဘဲ Geometry မှ လုံးဝ ဆင်းသက်လာသော ဒုတိယ SUVAT Equation အတိအကျ ဖြစ်သည်။ ဤ ဂရပ်နည်းလမ်းသည် ပညာရေးဆိုင်ရာ လေ့ကျင့်ခန်းတစ်ခုသာ မဟုတ်ကြောင်း ဆရာမ မိုမိုအေးက ထောက်ပြခဲ့သည် - စာစစ်ဆရာများသည် ဖော်ပြထားသော ဂရပ်မှ SUVAT Equation တစ်ခုကို ဆင်းသက်ရန် ကျောင်းသားများကို မကြာခဏ တောင်းဆိုတတ်ပြီး Derivation ကို နားလည်သော ကျောင်းသားတစ်ဦးသည် စာမေးပွဲ ဖိအားအောက်တွင် မှတ်ဉာဏ် ပျက်ပြယ်ခဲ့လျှင်ပင် Equation လေးခုအနက် မည်သည့်တစ်ခုကိုမဆို ပြန်လည် တည်ဆောက်နိုင်သော်လည်း သင်္ကေတများကိုသာ အလွတ်ကျက်မှတ်ထားသော ကျောင်းသားတစ်ဦးတွင် ပြန်မှီခိုစရာ မရှိပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what two shapes is the area under the graph split into?",
+            questionMy:
+                "ဂရပ်အောက်ရှိ ဧရိယာကို ပုံသဏ္ဌာန် နှစ်ခုအဖြစ် မည်သို့ ခွဲထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A rectangle and a triangle",
+              "Two rectangles",
+              "A circle and a square",
+              "Two triangles",
+            ],
+            optionsMy: [
+              "Rectangle တစ်ခုနှင့် Triangle တစ်ခု",
+              "Rectangle နှစ်ခု",
+              "Circle တစ်ခုနှင့် Square တစ်ခု",
+              "Triangle နှစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the triangle's area equal to?",
+            questionMy:
+                "Triangle ၏ ဧရိယာသည် အဘယ်နှင့် ညီမျှသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["½at²", "ut", "at", "u²"],
+            optionsMy: ["½at²", "ut", "at", "u²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what advantage does understanding the derivation give a student?",
+            questionMy:
+                "Derivation ကို နားလည်ခြင်းက ကျောင်းသားတစ်ဦးအား မည်သည့် အားသာချက် ပေးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They can reconstruct any equation even if memory fails under pressure",
+              "They never need to attend physics class again",
+              "They can skip the graphical method entirely",
+              "They only need to remember one letter",
+            ],
+            optionsMy: [
+              "ဖိအားအောက်တွင် မှတ်ဉာဏ် ပျက်ပြယ်ခဲ့လျှင်ပင် Equation မည်သည့်တစ်ခုကိုမဆို ပြန်လည် တည်ဆောက်နိုင်သည်",
+              "ရူပဗေဒအတန်း နောက်ထပ် လုံးဝ တက်ရန် မလိုအပ်ပါ",
+              "ဂရပ်နည်းလမ်းကို လုံးဝ ကျော်ကျော်နိုင်သည်",
+              "အက္ခရာ တစ်လုံးသာ မှတ်ရန် လိုအပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Motion Graphs",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - ရွေ့လျားမှု ဂရပ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "On a v-t graph, the area under the line represents...",
+          questionMy: "v-t ဂရပ်တွင် မျဉ်းအောက်ရှိ ဧရိယာက ကိုယ်စားပြုသည်...",
+          optionsEn: [
+            "Displacement",
+            "Acceleration only",
+            "Time only",
+            "Nothing physically meaningful",
+          ],
+          optionsMy: [
+            "Displacement",
+            "Acceleration သာ",
+            "Time သာ",
+            "ရုပ်ပိုင်းဆိုင်ရာ အဓိပ္ပာယ်ရှိသော အရာ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "s = ut + ½at² can be derived from a velocity-time graph by...",
+          questionMy: "s = ut + ½at² ကို Velocity-Time ဂရပ်မှ ဆင်းသက်ရာတွင်...",
+          optionsEn: [
+            "Splitting the area into a rectangle and a triangle",
+            "Only measuring the gradient",
+            "Ignoring the initial velocity entirely",
+            "Using a distance-time graph instead",
+          ],
+          optionsMy: [
+            "ဧရိယာကို Rectangle နှင့် Triangle အဖြစ် ခွဲခြင်းဖြင့်",
+            "Gradient ကိုသာ တိုင်းတာခြင်းဖြင့်",
+            "Initial Velocity ကို လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+            "Distance-Time ဂရပ်ကို အစားထိုးအသုံးပြုခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A horizontal line on a velocity-time graph shows...",
+          questionMy: "Velocity-Time ဂရပ်ပေါ်ရှိ အလျားလိုက်မျဉ်းသည် ပြသသည်...",
+          optionsEn: [
+            "Constant velocity, zero acceleration",
+            "Constant acceleration",
+            "The object is stationary",
+            "Increasing displacement at an increasing rate",
+          ],
+          optionsMy: [
+            "Constant Velocity၊ Zero Acceleration",
+            "Constant Acceleration",
+            "ပစ္စည်းသည် ရပ်တန့်နေသည်",
+            "တိုးလာနေသော နှုန်းဖြင့် Displacement တိုးလာနေသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "Projectile Motion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek7 = CourseWeekDef(
+  id: "course-y12-phys-w7",
+  weekNumber: 7,
+  titleEn: "Projectile Motion",
+  titleMy: "Projectile Motion",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w7-d1",
+      dayNumber: 1,
+      titleEn: "Independence of Horizontal and Vertical Motion",
+      titleMy: "Horizontal နှင့် Vertical Motion ၏ လွတ်လပ်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A ball is thrown horizontally off a cliff. What is its horizontal acceleration (ignoring air resistance)?",
+          questionMy:
+              "ခြေလှမ်းငယ်ကုန်းတစ်ခုမှ ဘောလုံးတစ်လုံးကို Horizontal ဖြင့် ပစ်ချသည်။ (လေအတားအဆီးကို လျစ်လျူရှုပါက) ၎င်း၏ Horizontal Acceleration မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "Zero -- horizontal velocity stays constant",
+            "9.81 m s⁻², the same as gravity",
+            "It decreases steadily to zero",
+            "It equals the vertical acceleration exactly",
+          ],
+          optionsMy: [
+            "Zero -- Horizontal Velocity တည်ငြိမ်ဆဲ ဖြစ်နေသည်",
+            "9.81 m s⁻²၊ Gravity နှင့် တူညီသည်",
+            "တစ်သမတ်တည်း လျော့ကျပြီး Zero ဖြစ်သွားသည်",
+            "Vertical Acceleration နှင့် အတိအကျ ညီမျှသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "With no air resistance, no horizontal force acts on the ball, so by Newton's first law its horizontal velocity never changes.",
+          ],
+          hintsMy: [
+            "လေအတားအဆီး မရှိပါက ဘောလုံးပေါ် Horizontal Force မသက်ရောက်သောကြောင့် Newton ၏ ပထမ ဥပဒေအရ ၎င်း၏ Horizontal Velocity သည် လုံးဝ မပြောင်းလဲပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a projectile, the vertical motion is independent of the horizontal motion because...",
+          questionMy:
+              "Projectile တစ်ခုအတွက် Vertical Motion သည် Horizontal Motion နှင့် လွတ်လပ်နေသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Gravity acts only vertically downward, with no horizontal component",
+            "Horizontal motion always stops before vertical motion begins",
+            "Gravity acts equally in both directions at once",
+            "The two motions are actually identical, just labelled differently",
+          ],
+          optionsMy: [
+            "Gravity သည် Horizontal Component မပါဘဲ Vertical အောက်သို့သာ သက်ရောက်သောကြောင့်",
+            "Horizontal Motion သည် Vertical Motion မစတင်မီ အမြဲ ရပ်တန့်သွားသောကြောင့်",
+            "Gravity သည် ဦးတည်ချက် နှစ်ခုစလုံးတွင် တစ်ပြိုင်နက် တူညီစွာ သက်ရောက်သောကြောင့်",
+            "Motion နှစ်ခုစလုံး တကယ်တမ်း တူညီပြီး အမည်ကွဲပြားစွာ ခေါ်ဆိုခြင်းသာ ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A projectile is launched horizontally at 15 m s⁻¹ from a height, taking 2 s to land. What is its horizontal range?",
+          questionMy:
+              "Projectile တစ်ခုကို အမြင့်တစ်ခုမှ Horizontal ဖြင့် 15 m s⁻¹ ပစ်လွှတ်ပြီး မြေပေါ်သို့ ကျရောက်ရန် 2 s ကြာသည်။ ၎င်း၏ Horizontal Range မှာ အဘယ်နည်း။",
+          optionsEn: ["30 m", "15 m", "7.5 m", "60 m"],
+          optionsMy: ["30 m", "15 m", "7.5 m", "60 m"],
+          correctIndex: 0,
+          hintsEn: [
+            "Horizontal velocity is constant, so range = horizontal velocity x time = 15 x 2 = 30 m.",
+          ],
+          hintsMy: [
+            "Horizontal Velocity သည် Constant ဖြစ်သောကြောင့် Range = Horizontal Velocity x Time = 15 x 2 = 30 m ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Projectile Motion Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Projectile Motion ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w7-dm-1",
+          termEn: "Trajectory",
+          termMy: "Trajectory",
+          matchEn: "The curved (parabolic) path a projectile follows",
+          matchMy:
+              "Projectile တစ်ခု လိုက်နာသော ကွေးသော (Parabolic) လမ်းကြောင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w7-dm-2",
+          termEn: "Range",
+          termMy: "Range",
+          matchEn: "The total horizontal distance travelled by a projectile",
+          matchMy:
+              "Projectile တစ်ခု ခရီးသွားခဲ့သော စုစုပေါင်း Horizontal Distance",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w7-dm-3",
+          termEn: "Time of flight",
+          termMy: "Time of Flight",
+          matchEn: "The total time a projectile is in the air",
+          matchMy: "Projectile တစ်ခု လေထဲတွင် ရှိနေသော စုစုပေါင်း အချိန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w7-dm-4",
+          termEn: "Maximum height",
+          termMy: "Maximum Height",
+          matchEn: "The point where vertical velocity becomes momentarily zero",
+          matchMy: "Vertical Velocity တစ်ခဏတာ Zero ဖြစ်သွားသော အမှတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w7-dm-5",
+          termEn: "Parabola",
+          termMy: "Parabola",
+          matchEn: "The characteristic curved shape of a projectile's path",
+          matchMy:
+              "Projectile တစ်ခု၏ လမ်းကြောင်း ထူးခြားသော ကွေးသော ပုံသဏ္ဌာန်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Horizontal or Vertical Component?",
+      titleMy: "စီစစ်ကြမည် - Horizontal လား၊ Vertical Component လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Horizontal Component", "Vertical Component"],
+        bucketsMy: ["Horizontal Component", "Vertical Component"],
+        items: [
+          SortingItem(
+            id: "y12phys-w7-sort-1",
+            labelEn: "Affected by gravity (9.81 m s⁻² downward)",
+            labelMy: "Gravity (9.81 m s⁻² အောက်သို့) ၏ သက်ရောက်မှု ခံရသည်",
+            correctBucketEn: "Vertical Component",
+            correctBucketMy: "Vertical Component",
+          ),
+          SortingItem(
+            id: "y12phys-w7-sort-2",
+            labelEn: "Remains constant throughout the flight",
+            labelMy: "ပျံသန်းမှု တစ်လျှောက်လုံး Constant ဖြစ်နေသည်",
+            correctBucketEn: "Horizontal Component",
+            correctBucketMy: "Horizontal Component",
+          ),
+          SortingItem(
+            id: "y12phys-w7-sort-3",
+            labelEn: "Determines the range when multiplied by time",
+            labelMy: "Time ဖြင့် မြှောက်လျှင် Range ကို ဆုံးဖြတ်ပေးသည်",
+            correctBucketEn: "Horizontal Component",
+            correctBucketMy: "Horizontal Component",
+          ),
+          SortingItem(
+            id: "y12phys-w7-sort-4",
+            labelEn: "Becomes momentarily zero at maximum height",
+            labelMy: "Maximum Height တွင် တစ်ခဏတာ Zero ဖြစ်သွားသည်",
+            correctBucketEn: "Vertical Component",
+            correctBucketMy: "Vertical Component",
+          ),
+          SortingItem(
+            id: "y12phys-w7-sort-5",
+            labelEn: "Uses SUVAT with a = 9.81 m s⁻²",
+            labelMy: "a = 9.81 m s⁻² ဖြင့် SUVAT ကို အသုံးပြုသည်",
+            correctBucketEn: "Vertical Component",
+            correctBucketMy: "Vertical Component",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Ball Kicked Off a Roof",
+      titleMy: "စာဖတ်ခြင်း - အမိုးပေါ်မှ ကန်လိုက်သော ဘောလုံး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Ball Kicked Off a Roof",
+        titleMy: "အမိုးပေါ်မှ ကန်လိုက်သော ဘောလုံး",
+        passageEn:
+            "Sayar Kyaw Zin set his class a classic projectile problem: a ball is kicked horizontally off a roof 20 m high with a horizontal speed of 8 m s⁻¹, and he asked them to find how far from the base of the building the ball lands, taking g = 9.81 m s⁻².\n\nMay Thu started with the vertical motion, since that is what determines the time of flight. She treated the vertical motion exactly like a SUVAT problem with initial vertical velocity u = 0 (the kick was purely horizontal, so there was no initial vertical velocity), displacement s = 20 m, and acceleration a = 9.81 m s⁻². Using s = ut + ½at², she substituted: 20 = (0 x t) + (0.5 x 9.81 x t²), which simplifies to 20 = 4.905t². Solving for t², she got t² = 20 / 4.905 = 4.08, so t = √4.08 = 2.02 s.\n\nWith the time of flight known, May Thu switched to the horizontal motion, which is far simpler since horizontal velocity never changes: range = horizontal velocity x time = 8 x 2.02 = 16.2 m. Sayar Kyaw Zin emphasised the key strategic insight in this whole method: vertical motion alone tells you the time of flight, and horizontal motion alone tells you the range, but the two components are linked only through that shared value of time -- you can never mix a horizontal quantity into a vertical SUVAT equation, or vice versa, since the two directions are completely independent of each other throughout the flight.",
+        passageMy:
+            "ဆရာကျော်ဇင်သည် သူ၏ အတန်းအား ရိုးရာ Projectile ပြဿနာတစ်ခု ပေးခဲ့သည် - ဘောလုံးတစ်လုံးကို 20 m အမြင့်ရှိသော အမိုးပေါ်မှ 8 m s⁻¹ Horizontal Speed ဖြင့် ကန်လိုက်သည်ဟု ဆိုကာ g = 9.81 m s⁻² ကို အသုံးပြု၍ ဘောလုံးသည် အဆောက်အအုံ၏ အခြေခံမှ မည်မျှ ဝေးကွာစွာ ကျရောက်သည်ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nMay Thu သည် Time of Flight ကို ဆုံးဖြတ်ပေးသော Vertical Motion ဖြင့် စတင်ခဲ့သည်။ Initial Vertical Velocity u = 0 (ကန်လိုက်ခြင်းသည် Horizontal အတိုင်း ဖြစ်သောကြောင့် Initial Vertical Velocity မရှိပါ)၊ Displacement s = 20 m နှင့် Acceleration a = 9.81 m s⁻² ဖြင့် Vertical Motion ကို SUVAT ပြဿနာတစ်ခုကဲ့သို့ အတိအကျ ကိုင်တွယ်ခဲ့သည်။ s = ut + ½at² ကို အသုံးပြု၍ ထည့်သွင်းခဲ့သည် - 20 = (0 x t) + (0.5 x 9.81 x t²)၊ ၎င်းကို 20 = 4.905t² အဖြစ် ရိုးရှင်းသွားသည်။ t² အတွက် ဖြေရှင်း၍ t² = 20 / 4.905 = 4.08 ရရှိသဖြင့် t = √4.08 = 2.02 s ဖြစ်သည်။\n\nTime of Flight ကို သိရှိပြီးနောက် May Thu သည် Horizontal Velocity လုံးဝ မပြောင်းလဲသောကြောင့် ပိုမို ရိုးရှင်းသော Horizontal Motion သို့ ပြောင်းလဲခဲ့သည် - Range = Horizontal Velocity x Time = 8 x 2.02 = 16.2 m ။ ဤ နည်းလမ်းတစ်ခုလုံး၏ အဓိက မဟာဗျူဟာဆိုင်ရာ ထိုးထွင်းသိမြင်မှုကို ဆရာကျော်ဇင် အလေးထားခဲ့သည် - Vertical Motion တစ်ခုတည်းက Time of Flight ကို ပြောပြပြီး Horizontal Motion တစ်ခုတည်းက Range ကို ပြောပြသော်လည်း Component နှစ်ခုသည် တူညီသော Time တန်ဖိုးမှတစ်ဆင့်သာ ချိတ်ဆက်နေသည် -- Horizontal ပမာဏတစ်ခုကို Vertical SUVAT Equation ထဲသို့ လုံးဝ ရောနှော၍ မရနိုင်ပါ၊ အပြန်အလှန်လည်း ဤအတိုင်းပင်ဖြစ်သည်၊ အကြောင်းမှာ ဦးတည်ချက် နှစ်ခုသည် ပျံသန်းမှု တစ်လျှောက်လုံး လုံးဝ လွတ်လပ်နေသောကြောင့်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the ball's initial vertical velocity?",
+            questionMy:
+                "ဘောလုံး၏ Initial Vertical Velocity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Zero", "8 m s⁻¹", "20 m s⁻¹", "9.81 m s⁻¹"],
+            optionsMy: ["Zero", "8 m s⁻¹", "20 m s⁻¹", "9.81 m s⁻¹"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of the kick."],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ရှိ ကန်လိုက်ခြင်း ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, approximately what was the time of flight?",
+            questionMy: "Time of Flight ခန့်မှန်းခြေကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2.02 s", "20 s", "4.08 s", "8 s"],
+            optionsMy: ["2.02 s", "20 s", "4.08 s", "8 s"],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what links the horizontal and vertical components?",
+            questionMy:
+                "Horizontal နှင့် Vertical Component များကို အဘယ်က ချိတ်ဆက်ပေးသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Their shared value of time",
+              "Their shared value of displacement",
+              "The mass of the projectile",
+              "The angle of the kick",
+            ],
+            optionsMy: [
+              "တူညီသော Time တန်ဖိုး",
+              "တူညီသော Displacement တန်ဖိုး",
+              "Projectile ၏ Mass",
+              "ကန်လိုက်သော ထောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Projectile Motion",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Projectile Motion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The horizontal velocity of a projectile (ignoring air resistance)...",
+          questionMy:
+              "Projectile တစ်ခု၏ Horizontal Velocity (လေအတားအဆီး လျစ်လျူရှုပါက)...",
+          optionsEn: [
+            "Stays constant throughout the flight",
+            "Increases due to gravity",
+            "Decreases to zero at the peak",
+            "Equals the vertical velocity at all times",
+          ],
+          optionsMy: [
+            "ပျံသန်းမှု တစ်လျှောက်လုံး Constant ဖြစ်နေသည်",
+            "Gravity ကြောင့် တိုးလာသည်",
+            "အမြင့်ဆုံးနေရာတွင် Zero သို့ လျော့ကျသည်",
+            "အချိန်တိုင်း Vertical Velocity နှင့် ညီမျှသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At the maximum height of a projectile's trajectory...",
+          questionMy: "Projectile ၏ Trajectory Maximum Height တွင်...",
+          optionsEn: [
+            "Vertical velocity is momentarily zero",
+            "Horizontal velocity is zero",
+            "Both velocities are zero",
+            "The projectile has stopped accelerating vertically",
+          ],
+          optionsMy: [
+            "Vertical Velocity သည် တစ်ခဏတာ Zero ဖြစ်နေသည်",
+            "Horizontal Velocity သည် Zero ဖြစ်နေသည်",
+            "Velocity နှစ်ခုစလုံး Zero ဖြစ်နေသည်",
+            "Vertical Acceleration ရပ်တန့်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The range of a projectile launched horizontally is calculated using...",
+          questionMy:
+              "Horizontal ဖြင့် ပစ်လွှတ်လိုက်သော Projectile ၏ Range ကို တွက်ချက်ရာတွင် အသုံးပြုသည်...",
+          optionsEn: [
+            "Horizontal velocity multiplied by time of flight",
+            "Vertical velocity multiplied by time of flight",
+            "The height divided by gravity",
+            "The horizontal velocity squared",
+          ],
+          optionsMy: [
+            "Horizontal Velocity ကို Time of Flight ဖြင့် မြှောက်ခြင်း",
+            "Vertical Velocity ကို Time of Flight ဖြင့် မြှောက်ခြင်း",
+            "အမြင့်ကို Gravity ဖြင့် စားခြင်း",
+            "Horizontal Velocity ၏ Square",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8: "Free Fall, Terminal Velocity and Kinematics Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek8 = CourseWeekDef(
+  id: "course-y12-phys-w8",
+  weekNumber: 8,
+  titleEn: "Free Fall, Terminal Velocity and Kinematics Capstone",
+  titleMy: "Free Fall, Terminal Velocity နှင့် Kinematics အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w8-d1",
+      dayNumber: 1,
+      titleEn: "Free Fall and Air Resistance",
+      titleMy: "Free Fall နှင့် လေအတားအဆီး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a vacuum, a feather and a hammer dropped from the same height...",
+          questionMy:
+              "Vacuum တွင် အမြင့်တူညီမှ ချလိုက်သော နှင်းလင်းတစ်ခုနှင့် သံမူးတစ်ခုသည်...",
+          optionsEn: [
+            "Land at exactly the same time",
+            "The hammer lands first, since it is heavier",
+            "The feather lands first, since it is lighter",
+            "Neither ever lands",
+          ],
+          optionsMy: [
+            "အချိန်တစ်ချိန်တည်းတွင် အတိအကျ ကျရောက်သည်",
+            "သံမူး ပိုလေးသောကြောင့် ပထမဆုံး ကျရောက်သည်",
+            "နှင်းလင်း ပိုပေါ့သောကြောင့် ပထမဆုံး ကျရောက်သည်",
+            "နှစ်ခုစလုံး လုံးဝ မကျရောက်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "With no air resistance, both objects have exactly the same acceleration (g), regardless of mass -- this was famously demonstrated on the Moon by Apollo 15.",
+          ],
+          hintsMy: [
+            "လေအတားအဆီး မရှိပါက Mass မည်မျှပင်ရှိစေ ပစ္စည်းနှစ်ခုစလုံးသည် အတိအကျ တူညီသော Acceleration (g) ရှိသည် -- ၎င်းကို Apollo 15 က လပေါ်တွင် ကျော်ကြားစွာ သရုပ်ပြခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A skydiver reaches terminal velocity when...",
+          questionMy: "Skydiver တစ်ဦးသည် Terminal Velocity ရောက်ရှိသည့်အခါ...",
+          optionsEn: [
+            "Air resistance exactly balances their weight, giving zero resultant force",
+            "They stop accelerating because gravity switches off",
+            "Their weight becomes zero",
+            "Air resistance becomes zero",
+          ],
+          optionsMy: [
+            "လေအတားအဆီးသည် ၎င်းတို့၏ Weight ကို အတိအကျ ချိန်ညှိပေးပြီး Resultant Force Zero ဖြစ်သွားသည်",
+            "Gravity ပိတ်သွားသောကြောင့် အရှိန်မတက်တော့ပါ",
+            "၎င်းတို့၏ Weight သည် Zero ဖြစ်သွားသည်",
+            "လေအတားအဆီးသည် Zero ဖြစ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "At terminal velocity, upward air resistance = downward weight, so the resultant force (and hence acceleration) is zero, and speed stays constant.",
+          ],
+          hintsMy: [
+            "Terminal Velocity တွင် အထက်သို့ လေအတားအဆီး = အောက်သို့ Weight ဖြစ်သောကြောင့် Resultant Force (နှင့် Acceleration) သည် Zero ဖြစ်ပြီး Speed တည်ငြိမ်နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ball is dropped from rest and falls for 3 s. Using v = u + gt (g = 9.81 m s⁻²), its velocity after 3 s is...",
+          questionMy:
+              "ဘောလုံးတစ်လုံးကို ရပ်ငြိမ်နေရာမှ ချလိုက်ပြီး 3 s ကျသွားသည်။ v = u + gt (g = 9.81 m s⁻²) ကို အသုံးပြု၍ 3 s အကြာတွင် ၎င်း၏ Velocity မှာ...",
+          optionsEn: ["29.4 m s⁻¹", "9.81 m s⁻¹", "3 m s⁻¹", "44.1 m s⁻¹"],
+          optionsMy: ["29.4 m s⁻¹", "9.81 m s⁻¹", "3 m s⁻¹", "44.1 m s⁻¹"],
+          correctIndex: 0,
+          hintsEn: ["v = 0 + (9.81 x 3) = 29.4 m s⁻¹."],
+          hintsMy: ["v = 0 + (9.81 x 3) = 29.4 m s⁻¹ ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Terminal Velocity Stages",
+      titleMy: "တွဲစပ်ကြမည် - Terminal Velocity အဆင့်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w8-dm-1",
+          termEn: "Just released (speed = 0)",
+          termMy: "လွှတ်ချလိုက်စဉ် (Speed = 0)",
+          matchEn: "Air resistance is zero, so acceleration = g",
+          matchMy: "လေအတားအဆီး Zero ဖြစ်သောကြောင့် Acceleration = g",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w8-dm-2",
+          termEn: "Speeding up",
+          termMy: "အရှိန်မြန်လာချိန်",
+          matchEn: "Air resistance increases, so acceleration decreases",
+          matchMy: "လေအတားအဆီး တိုးလာသောကြောင့် Acceleration လျော့ကျသွားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w8-dm-3",
+          termEn: "Terminal velocity reached",
+          termMy: "Terminal Velocity ရောက်ရှိချိန်",
+          matchEn: "Air resistance = weight, acceleration = zero",
+          matchMy: "လေအတားအဆီး = Weight၊ Acceleration = Zero",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w8-dm-4",
+          termEn: "Parachute opens",
+          termMy: "Parachute ဖွင့်ချိန်",
+          matchEn:
+              "Air resistance suddenly exceeds weight, causing deceleration",
+          matchMy:
+              "လေအတားအဆီးသည် ရုတ်တရက် Weight ထက် ကျော်လွန်ပြီး Deceleration ဖြစ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w8-dm-5",
+          termEn: "New (lower) terminal velocity",
+          termMy: "အသစ် (ပိုနိမ့်သော) Terminal Velocity",
+          matchEn:
+              "Air resistance = weight again, but at a slower constant speed",
+          matchMy:
+              "လေအတားအဆီး = Weight ထပ်တစ်ကြိမ်၊ သို့သော် ပိုနှေးသော Constant Speed တွင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increasing, Decreasing or Zero Acceleration?",
+      titleMy: "စီစစ်ကြမည် - Acceleration တိုးနေလား၊ လျော့နေလား၊ Zero လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Acceleration Decreasing",
+          "Acceleration Zero (constant speed)",
+        ],
+        bucketsMy: [
+          "Acceleration လျော့နေသည်",
+          "Acceleration Zero (Constant Speed)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12phys-w8-sort-1",
+            labelEn: "A skydiver just after jumping, before terminal velocity",
+            labelMy: "ခုန်ချလိုက်ပြီးစ Skydiver, Terminal Velocity မရောက်မီ",
+            correctBucketEn: "Acceleration Decreasing",
+            correctBucketMy: "Acceleration လျော့နေသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w8-sort-2",
+            labelEn: "A skydiver falling at terminal velocity",
+            labelMy: "Terminal Velocity ဖြင့် ကျနေသော Skydiver",
+            correctBucketEn: "Acceleration Zero (constant speed)",
+            correctBucketMy: "Acceleration Zero (Constant Speed)",
+          ),
+          SortingItem(
+            id: "y12phys-w8-sort-3",
+            labelEn: "A raindrop that has reached its own terminal velocity",
+            labelMy: "ကိုယ်ပိုင် Terminal Velocity ရောက်ရှိပြီးသား မိုးပေါက်",
+            correctBucketEn: "Acceleration Zero (constant speed)",
+            correctBucketMy: "Acceleration Zero (Constant Speed)",
+          ),
+          SortingItem(
+            id: "y12phys-w8-sort-4",
+            labelEn:
+                "A ball falling faster and faster with increasing air resistance",
+            labelMy: "လေအတားအဆီး တိုးလာနေစဉ် ပိုမိုမြန်နေသော ဘောလုံး",
+            correctBucketEn: "Acceleration Decreasing",
+            correctBucketMy: "Acceleration လျော့နေသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w8-sort-5",
+            labelEn: "A car cruising on a motorway at a fixed speed",
+            labelMy: "လမ်းမကြီးပေါ်တွင် သတ်မှတ် Speed ဖြင့် ရွေ့လျားနေသော ကား",
+            correctBucketEn: "Acceleration Zero (constant speed)",
+            correctBucketMy: "Acceleration Zero (Constant Speed)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Timing g with a Falling Ball Bearing",
+      titleMy: "စာဖတ်ခြင်း - ကျနေသော Ball Bearing ဖြင့် g ကို အချိန်ကိုက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Timing g with a Falling Ball Bearing",
+        titleMy: "ကျနေသော Ball Bearing ဖြင့် g ကို အချိန်ကိုက်ခြင်း",
+        passageEn:
+            "For their kinematics capstone practical, Sayama Nilar Win's class measured g experimentally, using a steel ball bearing, an electromagnet to release it precisely, a trapdoor switch, and an electronic timer accurate to a thousandth of a second.\n\nThan Zaw Oo set the release height at 1.20 m and pressed the switch, which simultaneously cut power to the electromagnet (releasing the ball and starting the timer) and, when the ball later struck the trapdoor, broke the circuit and stopped the timer. He repeated this five times at the same height, recording times of 0.492 s, 0.496 s, 0.494 s, 0.493 s, and 0.495 s -- a tightly clustered set of readings, giving a mean time of 0.494 s.\n\nUsing s = ut + ½at² with u = 0 (the ball started from rest) and s = 1.20 m, he rearranged for a: a = 2s / t² = (2 x 1.20) / 0.494² = 2.40 / 0.244 = 9.84 m s⁻². This was very close to the accepted value of 9.81 m s⁻², a difference of only about 0.3%. Sayama Nilar Win explained that the small remaining discrepancy was most likely due to a slight timing delay between the switch being pressed and the electromagnet actually releasing its magnetic field -- a systematic error that would make every single measured time infinitesimally too long, and therefore the calculated acceleration infinitesimally too small, which matched exactly what the class had found.",
+        passageMy:
+            "သူတို့၏ Kinematics အထွတ်အထိပ် Practical အတွက် ဆရာမ နီလာဝင်း၏ အတန်းသည် သံ Ball Bearing၊ တိကျစွာ လွှတ်ပေးနိုင်သော Electromagnet၊ Trapdoor Switch နှင့် တစ်စက္ကန့်၏ တစ်ထောင်စိတ်တစ်စိတ်အထိ တိကျသော Electronic Timer တစ်ခုကို အသုံးပြု၍ g ကို စမ်းသပ်မှုအရ တိုင်းတာခဲ့ကြသည်။\n\nသန်းဇော်ဦးသည် လွှတ်ရမည့် အမြင့်ကို 1.20 m တွင် သတ်မှတ်ပြီး Switch ကို နှိပ်ခဲ့သည်၊ ၎င်းသည် Electromagnet သို့ လျှပ်စစ်ဓာတ်အား ဖြတ်တောက်ခြင်း (ဘောလုံးကို လွှတ်ပေးပြီး Timer ကို စတင်ခြင်း) ကို တစ်ပြိုင်နက်တည်း ပြုလုပ်ပေးပြီး ဘောလုံး Trapdoor ကို ရိုက်ချသောအခါ Circuit ကို ဖြတ်တောက်ကာ Timer ကို ရပ်တန့်စေသည်။ အမြင့်တူညီမှ ငါးကြိမ် ထပ်လုပ်ခဲ့ပြီး 0.492 s, 0.496 s, 0.494 s, 0.493 s, 0.495 s အချိန်များကို မှတ်တမ်းတင်ခဲ့သည် -- တင်းကျပ်စွာ စုစည်းနေသော ဖတ်ရှုမှုများ ဖြစ်ပြီး ပျမ်းမျှ အချိန် 0.494 s ကို ရရှိခဲ့သည်။\n\ns = ut + ½at² ကို u = 0 (ဘောလုံးသည် ရပ်ငြိမ်နေရာမှ စတင်ခဲ့သောကြောင့်) နှင့် s = 1.20 m ဖြင့် အသုံးပြုကာ a အတွက် ပြန်စီစဉ်ခဲ့သည် - a = 2s / t² = (2 x 1.20) / 0.494² = 2.40 / 0.244 = 9.84 m s⁻² ။ ၎င်းသည် လက်ခံထားသော တန်ဖိုး 9.81 m s⁻² နှင့် အလွန် နီးကပ်ခဲ့ပြီး ခန့်မှန်းခြေ 0.3% ခန့်သာ ကွာခြားခဲ့သည်။ ကျန်ရှိနေသေးသော သိမ်မွေ့သော ကွာခြားချက်သည် Switch နှိပ်ချိန်နှင့် Electromagnet ၏ Magnetic Field ကို အမှန်တကယ် လွှတ်ပေးချိန်ကြား အနည်းငယ် အချိန်ကြန့်ကြာမှုကြောင့် ဖြစ်ဖွယ်ရှိကြောင်း ဆရာမ နီလာဝင်း ရှင်းပြခဲ့သည် -- ၎င်းသည် တိုင်းတာထားသော အချိန်တိုင်းကို အလွန်အနည်းငယ် ရှည်လျားစေပြီး တွက်ချက်ထားသော Acceleration ကို အလွန်အနည်းငယ် သေးငယ်စေသော Systematic Error တစ်ခု ဖြစ်ပြီး ၎င်းသည် အတန်း ရရှိခဲ့သော ရလဒ်နှင့် အတိအကျ ကိုက်ညီသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the mean time recorded across five trials?",
+            questionMy:
+                "စမ်းသပ်ခြင်း ငါးကြိမ်၏ ပျမ်းမျှ အချိန်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.494 s", "1.20 s", "9.84 s", "0.492 s"],
+            optionsMy: ["0.494 s", "1.20 s", "9.84 s", "0.492 s"],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what value of acceleration did the experiment calculate?",
+            questionMy:
+                "စမ်းသပ်မှုက တွက်ချက်ရရှိသော Acceleration တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "9.84 m s⁻²",
+              "9.81 m s⁻²",
+              "1.20 m s⁻²",
+              "0.494 m s⁻²",
+            ],
+            optionsMy: [
+              "9.84 m s⁻²",
+              "9.81 m s⁻²",
+              "1.20 m s⁻²",
+              "0.494 m s⁻²",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what likely caused the small discrepancy from 9.81 m s⁻²?",
+            questionMy:
+                "9.81 m s⁻² မှ သိမ်မွေ့သော ကွာခြားချက်ကို အဘယ်က ဖြစ်ပေါ်စေဖွယ်ရှိသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A timing delay between the switch and the electromagnet releasing",
+              "The ball bearing being the wrong shape",
+              "The trapdoor switch being broken entirely",
+              "An error in the height measurement of over one metre",
+            ],
+            optionsMy: [
+              "Switch နှင့် Electromagnet လွှတ်ချိန်ကြား အချိန်ကြန့်ကြာမှု",
+              "Ball Bearing ပုံသဏ္ဌာန် မှားယွင်းနေခြင်း",
+              "Trapdoor Switch လုံးဝ ပျက်စီးနေခြင်း",
+              "အမြင့် တိုင်းတာမှုတွင် တစ်မီတာကျော် အမှား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Kinematics",
+      titleMy: "Term ၂ အထွတ်အထိပ် - Kinematics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A ball thrown horizontally and one dropped straight down from the same height land at the same time because...",
+          questionMy:
+              "အမြင့်တူညီမှ Horizontal ဖြင့် ပစ်လိုက်သော ဘောလုံးတစ်လုံးနှင့် တည့်တည့် ချလိုက်သော ဘောလုံးတစ်လုံးသည် အချိန်တစ်ချိန်တည်းတွင် ကျရောက်ကြသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Both have identical vertical motion, independent of horizontal velocity",
+            "Horizontal velocity always equals vertical velocity",
+            "Both are affected equally by air resistance",
+            "Gravity only acts on stationary objects",
+          ],
+          optionsMy: [
+            "Horizontal Velocity နှင့် သီးခြားလွတ်လပ်စွာ နှစ်ခုစလုံး Vertical Motion တူညီသည်",
+            "Horizontal Velocity သည် Vertical Velocity နှင့် အမြဲ ညီမျှသည်",
+            "လေအတားအဆီး၏ သက်ရောက်မှု နှစ်ခုလုံး တူညီသည်",
+            "Gravity သည် ရပ်ငြိမ်နေသော ပစ္စည်းများကိုသာ သက်ရောက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "At terminal velocity, the resultant force on a falling object is...",
+          questionMy:
+              "Terminal Velocity တွင် ကျနေသော ပစ္စည်းတစ်ခုပေါ် Resultant Force မှာ...",
+          optionsEn: [
+            "Zero",
+            "Equal to its weight",
+            "Increasing steadily",
+            "Equal to air resistance minus twice its weight",
+          ],
+          optionsMy: [
+            "Zero",
+            "၎င်း၏ Weight နှင့် ညီမျှသည်",
+            "တစ်သမတ်တည်း တိုးလာနေသည်",
+            "လေအတားအဆီးမှ ၎င်း၏ Weight နှစ်ဆကို နှုတ်ပြီး ညီမျှသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Deriving s = ut + ½at² from a velocity-time graph uses...",
+          questionMy:
+              "s = ut + ½at² ကို Velocity-Time ဂရပ်မှ ဆင်းသက်ရာတွင် အသုံးပြုသည်...",
+          optionsEn: [
+            "The area under the graph, split into a rectangle and a triangle",
+            "Only the gradient of the line",
+            "A distance-time graph instead",
+            "The maximum velocity value alone",
+          ],
+          optionsMy: [
+            "ဂရပ်အောက်ရှိ ဧရိယာကို Rectangle နှင့် Triangle အဖြစ် ခွဲခြင်း",
+            "မျဉ်း၏ Gradient ကိုသာ",
+            "Distance-Time ဂရပ်ကို အစားထိုးအသုံးပြုခြင်း",
+            "Maximum Velocity တန်ဖိုးကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A projectile's range depends on...",
+          questionMy: "Projectile တစ်ခု၏ Range သည် မှီခိုနေသည်...",
+          optionsEn: [
+            "Horizontal velocity and time of flight",
+            "Vertical velocity alone",
+            "The projectile's mass alone",
+            "Air pressure alone",
+          ],
+          optionsMy: [
+            "Horizontal Velocity နှင့် Time of Flight",
+            "Vertical Velocity တစ်ခုတည်း",
+            "Projectile ၏ Mass တစ်ခုတည်း",
+            "လေဖိအား တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm2 = CourseTermDef(
+  id: "course-y12-phys-term2",
+  termNumber: 2,
+  titleEn: "Kinematics",
+  titleMy: "Kinematics",
+  weeks: [_y12PhysWeek5, _y12PhysWeek6, _y12PhysWeek7, _y12PhysWeek8],
+  certificateTitleEn: "AS Physics: Kinematics",
+  certificateTitleMy: "AS ရူပဗေဒ - Kinematics",
 );
 
 // __TERMS_MARKER__
