@@ -89,7 +89,7 @@ class SeedSummary {
 ///   `linkedStudents`-driven Firestore rule.
 /// - Four demo `Children`, one per grade band, each with a `parentId`
 ///   pointing at the mock parent: Student Alpha (Year 4), Student Beta
-///   (Year 1), Student Gamma (Nursery), Student Delta (IGCSE).
+///   (Year 1), Student Gamma (Nursery), Student Delta (Year 10).
 /// - Seven `LearningModules`, two-to-one per student, covering their grade
 ///   and matching the subject-key convention the home screens already use
 ///   (lowercase strings mirroring the `subject*` ARB key roots -- see
@@ -309,7 +309,7 @@ List<LearningModuleModel> mockSeedLearningModules() {
       starsReward: 6,
     ),
 
-    // Student Delta -- IGCSE.
+    // Student Delta -- Year 10.
     LearningModuleModel(
       id: MockSeedIds.moduleDeltaKinematics,
       subject: 'physics',
