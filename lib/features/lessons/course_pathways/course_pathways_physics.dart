@@ -13934,11 +13934,12 @@ const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
   certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
 );
 
-/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-8
-/// (Physical Quantities, Units and Measurement; Kinematics; Dynamics;
-/// Forces, Density and Pressure; Work, Energy and Power; Deformation of
-/// Solids; Waves and the Electromagnetic Spectrum; Superposition)
-/// authored; Term 9 (Electricity, DC Circuits and AS Exam Prep) to follow.
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- complete, all 9 terms
+/// authored (36 weeks / 180 daily lessons): Physical Quantities, Units
+/// and Measurement; Kinematics; Dynamics; Forces, Density and Pressure;
+/// Work, Energy and Power; Deformation of Solids; Waves and the
+/// Electromagnetic Spectrum; Superposition; and Electricity, DC
+/// Circuits and AS Exam Prep.
 /// No LaTeX renderer exists in this app -- formulas throughout use the
 /// same plain Unicode math notation (², √, x for multiplication) already
 /// established by the IGCSE pathways, not literal LaTeX markup.
@@ -13952,7 +13953,7 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 32,
+  totalWeeks: 36,
   terms: [
     year12PhysicsTerm1,
     year12PhysicsTerm2,
@@ -13962,6 +13963,7 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
     year12PhysicsTerm6,
     year12PhysicsTerm7,
     year12PhysicsTerm8,
+    year12PhysicsTerm9,
   ],
 );
 
@@ -22634,6 +22636,1159 @@ const CourseTermDef year12PhysicsTerm8 = CourseTermDef(
   weeks: [_y12PhysWeek29, _y12PhysWeek30, _y12PhysWeek31, _y12PhysWeek32],
   certificateTitleEn: "AS Physics: Superposition",
   certificateTitleMy: "AS ရူပဗေဒ - Superposition",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 9: "Electricity, DC Circuits and AS Exam Prep"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Current, Charge and Potential Difference"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek33 = CourseWeekDef(
+  id: "course-y12-phys-w33",
+  weekNumber: 33,
+  titleEn: "Current, Charge and Potential Difference",
+  titleMy: "Current, Charge နှင့် Potential Difference",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w33-d1",
+      dayNumber: 1,
+      titleEn: "Current, Charge and Potential Difference Formulas",
+      titleMy: "Current, Charge နှင့် Potential Difference ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Electric current is defined as...",
+          questionMy: "Electric Current ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The rate of flow of charge, I = Q / t",
+            "The energy transferred per unit charge",
+            "The resistance of a conductor",
+            "The rate of change of potential difference",
+          ],
+          optionsMy: [
+            "Charge ၏ Flow Rate, I = Q / t",
+            "Unit Charge လျှင် ကူးပြောင်းသော Energy",
+            "Conductor တစ်ခု၏ Resistance",
+            "Potential Difference ၏ ပြောင်းလဲမှုနှုန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A charge of 6 C flows past a point in 3 s. The current is...",
+          questionMy:
+              "Charge 6 C သည် Second 3 အတွင်း အမှတ်တစ်ခုကို ဖြတ်သန်းသွားသည်။ Current မှာ...",
+          optionsEn: ["2 A", "18 A", "0.5 A", "9 A"],
+          optionsMy: ["2 A", "18 A", "0.5 A", "9 A"],
+          correctIndex: 0,
+          hintsEn: ["I = Q / t = 6 / 3 = 2 A."],
+          hintsMy: ["I = Q / t = 6 / 3 = 2 A ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "20 J of energy is transferred by 4 C of charge moving between two points. The potential difference is...",
+          questionMy:
+              "Charge 4 C သည် အမှတ်နှစ်ခုကြား ရွေ့လျားချိန် Energy 20 J ကူးပြောင်းသည်။ Potential Difference မှာ...",
+          optionsEn: ["5 V", "80 V", "0.2 V", "24 V"],
+          optionsMy: ["5 V", "80 V", "0.2 V", "24 V"],
+          correctIndex: 0,
+          hintsEn: ["V = W / Q = 20 / 4 = 5 V."],
+          hintsMy: ["V = W / Q = 20 / 4 = 5 V ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Current and Charge Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Current and Charge ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w33-dm-1",
+          termEn: "Electric current (I)",
+          termMy: "Electric Current (I)",
+          matchEn: "The rate of flow of charge, measured in amperes (A)",
+          matchMy: "Charge ၏ Flow Rate၊ Ampere (A) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w33-dm-2",
+          termEn: "Charge (Q)",
+          termMy: "Charge (Q)",
+          matchEn:
+              "A fundamental property measured in coulombs (C), where Q = It",
+          matchMy:
+              "Coulomb (C) ဖြင့် တိုင်းတာသော အခြေခံ ပိုင်ဆိုင်ချက်၊ Q = It",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w33-dm-3",
+          termEn: "Potential difference (V)",
+          termMy: "Potential Difference (V)",
+          matchEn:
+              "Energy transferred per unit charge between two points, measured in volts (V)",
+          matchMy:
+              "အမှတ်နှစ်ခုကြား Unit Charge လျှင် ကူးပြောင်းသော Energy၊ Volt (V) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w33-dm-4",
+          termEn: "Coulomb (C)",
+          termMy: "Coulomb (C)",
+          matchEn:
+              "The SI unit of charge, equal to the charge transferred by a current of 1 A in 1 s",
+          matchMy:
+              "Charge ၏ SI ယူနစ်၊ Second 1 ခုအတွင်း Current 1 A ဖြင့် ကူးပြောင်းသော Charge နှင့် ညီမျှသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w33-dm-5",
+          termEn: "Volt (V)",
+          termMy: "Volt (V)",
+          matchEn:
+              "The SI unit of potential difference, equal to one joule per coulomb",
+          matchMy:
+              "Potential Difference ၏ SI ယူနစ်၊ Coulomb တစ်ခုလျှင် Joule တစ်ခုနှင့် ညီမျှသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Current or Potential Difference Concept?",
+      titleMy:
+          "စီစစ်ကြမည် - Current သို့မဟုတ် Potential Difference သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Current", "Potential Difference"],
+        bucketsMy: ["Current", "Potential Difference"],
+        items: [
+          SortingItem(
+            id: "y12phys-w33-sort-1",
+            labelEn: "Rate of flow of charge",
+            labelMy: "Charge ၏ Flow Rate",
+            correctBucketEn: "Current",
+            correctBucketMy: "Current",
+          ),
+          SortingItem(
+            id: "y12phys-w33-sort-2",
+            labelEn: "Energy transferred per unit charge",
+            labelMy: "Unit Charge လျှင် ကူးပြောင်းသော Energy",
+            correctBucketEn: "Potential Difference",
+            correctBucketMy: "Potential Difference",
+          ),
+          SortingItem(
+            id: "y12phys-w33-sort-3",
+            labelEn: "Measured in amperes",
+            labelMy: "Ampere ဖြင့် တိုင်းတာသည်",
+            correctBucketEn: "Current",
+            correctBucketMy: "Current",
+          ),
+          SortingItem(
+            id: "y12phys-w33-sort-4",
+            labelEn: "Measured in volts",
+            labelMy: "Volt ဖြင့် တိုင်းတာသည်",
+            correctBucketEn: "Potential Difference",
+            correctBucketMy: "Potential Difference",
+          ),
+          SortingItem(
+            id: "y12phys-w33-sort-5",
+            labelEn: "Related to charge and time by Q = It",
+            labelMy: "Q = It ဖြင့် Charge နှင့် Time နှင့် ဆက်စပ်နေသည်",
+            correctBucketEn: "Current",
+            correctBucketMy: "Current",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Charging a Phone Battery",
+      titleMy: "စာဖတ်ခြင်း - ဖုန်း Battery အားသွင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Charging a Phone Battery",
+        titleMy: "ဖုန်း Battery အားသွင်းခြင်း",
+        passageEn:
+            "Sayar Kaung Htet Zin's class investigated a phone charger delivering a constant current of 2 A for 30 minutes. He asked them to find the total charge transferred to the battery, and then, given that this charge transferred a total of 18000 J of energy, to find the potential difference across the charger.\n\nAye Chan Moe first converted 30 minutes into seconds, since current is defined in terms of seconds: 30 x 60 = 1800 s. Using Q = It: charge = 2 x 1800 = 3600 C.\n\nWith the charge known, she used V = W / Q to find the potential difference: V = 18000 / 3600 = 5 V. Sayar Kaung Htet Zin pointed out that this 5 V result is not a coincidence -- it matches the standard USB charging voltage used by almost every phone charger, giving Aye Chan Moe a way to sanity-check her own calculation: an answer wildly different from 5 V, such as 500 V or 0.05 V, would have signalled an arithmetic slip long before checking the working line by line, since a phone charger delivering hundreds of volts would be dangerous, and one delivering a tiny fraction of a volt would barely charge anything at all.",
+        passageMy:
+            "Sayar ကောင်းထက်ဇင် ၏ အတန်းသည် Constant Current 2 A ကို Minute 30 ကြာအောင် ပေးအပ်သော ဖုန်း Charger တစ်ခုကို စုံစမ်းစစ်ဆေးခဲ့ကြသည်။ Battery သို့ ကူးပြောင်းသော Total Charge ကို ရှာဖွေခိုင်းပြီး ဤ Charge သည် Energy 18000 J ကူးပြောင်းကြောင်း ပေးထားချက်ဖြင့် Charger တစ်လျှောက် Potential Difference ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nAye Chan Moe သည် Current ကို Second ဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုထားသောကြောင့် Minute 30 ကို Second သို့ ဦးစွာ ပြောင်းလဲခဲ့သည် - 30 x 60 = 1800 s ။ Q = It ကို အသုံးပြု၍ - Charge = 2 x 1800 = 3600 C ။\n\nCharge သိရှိပြီးနောက် Potential Difference ကို ရှာဖွေရန် V = W / Q ကို အသုံးပြုခဲ့သည် - V = 18000 / 3600 = 5 V ။ ဤ 5 V ရလဒ်သည် ကြုံကြိုက်မှု မဟုတ်ဘဲ ဖုန်း Charger အနီးကပ် အားလုံး အသုံးပြုသော Standard USB Charging Voltage နှင့် ကိုက်ညီကြောင်း Sayar ကောင်းထက်ဇင် ထောက်ပြခဲ့ပြီး Aye Chan Moe ကိုယ်တိုင်၏ တွက်ချက်မှုကို Sanity-Check လုပ်ရန် နည်းလမ်းတစ်ခု ပေးခဲ့သည် - 500 V (သို့) 0.05 V ကဲ့သို့ 5 V နှင့် လုံးဝ ကွာခြားသော အဖြေတစ်ခုသည် Working ကို လိုင်းအလိုက် စစ်ဆေးမီ ဂဏန်းချော်ချက်ကို ကြာမြင့်စွာ ညွှန်ပြလိမ့်မည်ဖြစ်ပြီး Voltage ရာနှင့်ချီ ပေးအပ်သော ဖုန်း Charger သည် အန္တရာယ်ရှိမည်ဖြစ်ကာ Voltage အနည်းငယ်သာ ပေးအပ်သော တစ်ခုသည် မည်သည့်အရာကိုမျှ အားသွင်း၍ ကျဲကျဲကြေး မရနိုင်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the charge transferred?",
+            questionMy: "ကူးပြောင်းသော Charge ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3600 C", "1800 C", "18000 C", "2 C"],
+            optionsMy: ["3600 C", "1800 C", "18000 C", "2 C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the potential difference across the charger?",
+            questionMy:
+                "Charger တစ်လျှောက်ရှိ Potential Difference ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5 V", "3600 V", "18000 V", "1800 V"],
+            optionsMy: ["5 V", "3600 V", "18000 V", "1800 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why is the 5 V result useful as a sanity check?",
+            questionMy:
+                "5 V ရလဒ်သည် Sanity Check တစ်ခုအဖြစ် အဘယ့်ကြောင့် အသုံးဝင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It matches the standard USB charging voltage, so a very different answer would flag an error",
+              "It proves the phone battery is fully charged",
+              "It is always exactly correct for any calculation",
+              "It shows the current was measured incorrectly",
+            ],
+            optionsMy: [
+              "Standard USB Charging Voltage နှင့် ကိုက်ညီသောကြောင့် လုံးဝ ကွာခြားသော အဖြေတစ်ခုသည် အမှားကို ညွှန်ပြလိမ့်မည်",
+              "ဖုန်း Battery အပြည့် အားသွင်းပြီးကြောင်း သက်သေပြသည်",
+              "တွက်ချက်မှု မည်သည့်တစ်ခုအတွက်မဆို အမြဲ အတိအကျ မှန်ကန်သည်",
+              "Current ကို မှားယွင်းစွာ တိုင်းတာခဲ့ကြောင်း ပြသသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Current, Charge and Potential Difference",
+      titleMy:
+          "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Current, Charge နှင့် Potential Difference",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Current is calculated as...",
+          questionMy: "Current ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: ["Q / t", "W / Q", "V / R", "Q x t"],
+          optionsMy: ["Q / t", "W / Q", "V / R", "Q x t"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Potential difference is calculated as...",
+          questionMy: "Potential Difference ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: ["W / Q", "Q / t", "I x t", "Q x t"],
+          optionsMy: ["W / Q", "Q / t", "I x t", "Q x t"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A charge of 10 C flows in 5 s. The current is...",
+          questionMy:
+              "Charge 10 C သည် Second 5 အတွင်း စီးဆင်းသည်။ Current မှာ...",
+          optionsEn: ["2 A", "50 A", "0.5 A", "15 A"],
+          optionsMy: ["2 A", "50 A", "0.5 A", "15 A"],
+          correctIndex: 0,
+          hintsEn: ["I = Q / t = 10 / 5 = 2 A."],
+          hintsMy: ["I = Q / t = 10 / 5 = 2 A ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "Resistance, Resistivity and Ohm's Law"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek34 = CourseWeekDef(
+  id: "course-y12-phys-w34",
+  weekNumber: 34,
+  titleEn: "Resistance, Resistivity and Ohm's Law",
+  titleMy: "Resistance, Resistivity နှင့် Ohm's Law",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w34-d1",
+      dayNumber: 1,
+      titleEn: "Ohm's Law and Resistivity Formulas",
+      titleMy: "Ohm's Law နှင့် Resistivity ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ohm's law states that, at constant temperature...",
+          questionMy: "Temperature တည်ငြိမ်ချိန် Ohm's Law အရ...",
+          optionsEn: [
+            "Current is directly proportional to potential difference: V = IR",
+            "Current is inversely proportional to potential difference",
+            "Resistance always equals zero",
+            "Potential difference never changes",
+          ],
+          optionsMy: [
+            "Current သည် Potential Difference နှင့် တိုက်ရိုက် အချိုးကျသည်: V = IR",
+            "Current သည် Potential Difference နှင့် ပြောင်းပြန် အချိုးကျသည်",
+            "Resistance သည် အမြဲ Zero ညီမျှသည်",
+            "Potential Difference သည် လုံးဝ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A resistor has a potential difference of 12 V across it and a resistance of 4 Ω. The current through it is...",
+          questionMy:
+              "Resistor တစ်ခုတွင် Potential Difference 12 V ရှိပြီး Resistance 4 Ω ရှိသည်။ ၎င်းကို ဖြတ်သန်းသွားသော Current မှာ...",
+          optionsEn: ["3 A", "48 A", "0.33 A", "16 A"],
+          optionsMy: ["3 A", "48 A", "0.33 A", "16 A"],
+          correctIndex: 0,
+          hintsEn: ["I = V / R = 12 / 4 = 3 A."],
+          hintsMy: ["I = V / R = 12 / 4 = 3 A ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wire has a resistance of 5 Ω, a cross-sectional area of 2 x 10⁻⁶ m², and a length of 1 m. Its resistivity is...",
+          questionMy:
+              "ကြိုးတစ်ချောင်းသည် Resistance 5 Ω, Cross-Sectional Area 2 x 10⁻⁶ m² နှင့် Length 1 m ရှိသည်။ ၎င်း၏ Resistivity မှာ...",
+          optionsEn: ["1 x 10⁻⁵ Ω m", "2.5 x 10⁶ Ω m", "10 Ω m", "0.4 Ω m"],
+          optionsMy: ["1 x 10⁻⁵ Ω m", "2.5 x 10⁶ Ω m", "10 Ω m", "0.4 Ω m"],
+          correctIndex: 0,
+          hintsEn: ["ρ = RA / L = (5 x 2 x 10⁻⁶) / 1 = 1 x 10⁻⁵ Ω m."],
+          hintsMy: ["ρ = RA / L = (5 x 2 x 10⁻⁶) / 1 = 1 x 10⁻⁵ Ω m ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Resistance Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Resistance ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w34-dm-1",
+          termEn: "Ohm's law",
+          termMy: "Ohm's Law",
+          matchEn:
+              "Current is directly proportional to potential difference, at constant temperature: V = IR",
+          matchMy:
+              "Temperature တည်ငြိမ်ချိန် Current သည် Potential Difference နှင့် တိုက်ရိုက် အချိုးကျသည်: V = IR",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w34-dm-2",
+          termEn: "Resistance (R)",
+          termMy: "Resistance (R)",
+          matchEn:
+              "The ratio of potential difference to current, measured in ohms (Ω)",
+          matchMy:
+              "Potential Difference ကို Current ဖြင့် စားသော အချိုး၊ Ohm (Ω) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w34-dm-3",
+          termEn: "Resistivity (ρ)",
+          termMy: "Resistivity (ρ)",
+          matchEn:
+              "A material property relating resistance to a conductor's length and cross-sectional area",
+          matchMy:
+              "Conductor တစ်ခု၏ Length နှင့် Cross-Sectional Area နှင့် Resistance ကို ဆက်စပ်ပေးသော ပစ္စည်း ပိုင်ဆိုင်ချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w34-dm-4",
+          termEn: "Ohmic conductor",
+          termMy: "Ohmic Conductor",
+          matchEn:
+              "A component whose resistance stays constant as current varies, at constant temperature",
+          matchMy:
+              "Temperature တည်ငြိမ်ချိန် Current ပြောင်းလဲသော်လည်း Resistance တည်ငြိမ်ဆဲ ရှိနေသော Component",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w34-dm-5",
+          termEn: "Non-ohmic conductor",
+          termMy: "Non-Ohmic Conductor",
+          matchEn:
+              "A component whose resistance changes with current, such as a filament lamp as it heats up",
+          matchMy:
+              "Current နှင့်အတူ Resistance ပြောင်းလဲသော Component၊ ဥပမာ Heat တက်လာသော Filament Lamp",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ohmic or Non-Ohmic?",
+      titleMy: "စီစစ်ကြမည် - Ohmic သို့မဟုတ် Non-Ohmic",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ohmic", "Non-Ohmic"],
+        bucketsMy: ["Ohmic", "Non-Ohmic"],
+        items: [
+          SortingItem(
+            id: "y12phys-w34-sort-1",
+            labelEn: "A metal wire at constant temperature",
+            labelMy: "Temperature တည်ငြိမ်ချိန်ရှိ သတ္တု ကြိုး",
+            correctBucketEn: "Ohmic",
+            correctBucketMy: "Ohmic",
+          ),
+          SortingItem(
+            id: "y12phys-w34-sort-2",
+            labelEn: "A filament lamp, heating up as current increases",
+            labelMy: "Current တိုးလာချိန် Heat တက်လာသော Filament Lamp",
+            correctBucketEn: "Non-Ohmic",
+            correctBucketMy: "Non-Ohmic",
+          ),
+          SortingItem(
+            id: "y12phys-w34-sort-3",
+            labelEn: "A fixed resistor at constant temperature",
+            labelMy: "Temperature တည်ငြိမ်ချိန်ရှိ Fixed Resistor",
+            correctBucketEn: "Ohmic",
+            correctBucketMy: "Ohmic",
+          ),
+          SortingItem(
+            id: "y12phys-w34-sort-4",
+            labelEn: "A diode",
+            labelMy: "Diode",
+            correctBucketEn: "Non-Ohmic",
+            correctBucketMy: "Non-Ohmic",
+          ),
+          SortingItem(
+            id: "y12phys-w34-sort-5",
+            labelEn: "A standard resistor used in a school lab circuit",
+            labelMy: "ကျောင်း Lab Circuit တွင် အသုံးပြုသော Standard Resistor",
+            correctBucketEn: "Ohmic",
+            correctBucketMy: "Ohmic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Wire's Resistivity",
+      titleMy: "စာဖတ်ခြင်း - ကြိုးတစ်ချောင်း၏ Resistivity ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Wire's Resistivity",
+        titleMy: "ကြိုးတစ်ချောင်း၏ Resistivity ရှာဖွေခြင်း",
+        passageEn:
+            "Sayama Ohnmar Swe's class tested a metal wire of length 1.5 m and cross-sectional area 3 x 10⁻⁷ m². They measured a potential difference of 6 V across the wire and a current of 3 A flowing through it. She asked them to find the wire's resistance, and then its resistivity.\n\nHtet Wai Yan used Ohm's law first: R = V / I = 6 / 3 = 2 Ω. With the resistance known, he used the resistivity formula: ρ = RA / L = (2 x 3 x 10⁻⁷) / 1.5 = (6 x 10⁻⁷) / 1.5 = 4 x 10⁻⁷ Ω m.\n\nSayama Ohnmar Swe then asked why resistivity, unlike resistance, is considered a property of the material alone rather than of this particular wire's dimensions. Htet Wai Yan explained that a thicker wire of the same material would have proportionally lower resistance for the same length (more area for charge to flow through), and a longer wire would have proportionally higher resistance for the same cross-section -- both the area term and the length term in ρ = RA / L are built to cancel these dimension-dependent effects out of the final result, leaving ρ as a number that describes the metal itself, exactly the same reasoning used earlier in the course when the Young modulus was shown to be independent of a wire's length and area in the same way.",
+        passageMy:
+            "Sayama အုန်းမာစွေ ၏ အတန်းသည် Length 1.5 m နှင့် Cross-Sectional Area 3 x 10⁻⁷ m² ရှိသော သတ္တု ကြိုးတစ်ချောင်းကို စမ်းသပ်ခဲ့ကြသည်။ ကြိုးတလျှောက် Potential Difference 6 V နှင့် ၎င်းကို ဖြတ်သန်းသွားသော Current 3 A ကို တိုင်းတာခဲ့ကြသည်။ ကြိုး၏ Resistance ကို ရှာဖွေပြီး ၎င်း၏ Resistivity ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nHtet Wai Yan သည် Ohm's Law ကို ဦးစွာ အသုံးပြုခဲ့သည် - R = V / I = 6 / 3 = 2 Ω ။ Resistance သိရှိပြီးနောက် Resistivity Formula ကို အသုံးပြုခဲ့သည် - ρ = RA / L = (2 x 3 x 10⁻⁷) / 1.5 = (6 x 10⁻⁷) / 1.5 = 4 x 10⁻⁷ Ω m ။\n\nResistance နှင့် မတူဘဲ Resistivity ကို ဤ တစ်ခုတည်းသော ကြိုး၏ အတိုင်းအတာများထက် ပစ္စည်းကိုယ်တိုင်၏ ပိုင်ဆိုင်ချက်ဟု အဘယ့်ကြောင့် သတ်မှတ်သည်ကို Sayama အုန်းမာစွေ ထို့နောက် မေးမြန်းခဲ့သည်။ ပစ္စည်းတူညီရှိ ပိုထူသော ကြိုးတစ်ချောင်းသည် Length တူညီအတွက် Resistance ပို၍ နည်းလိမ့်မည် (Charge စီးဆင်းရန် Area ပို၍ များသောကြောင့်) ဖြစ်ပြီး ပိုရှည်သော ကြိုးတစ်ချောင်းသည် Cross-Section တူညီအတွက် Resistance ပို၍ များလိမ့်မည် -- ρ = RA / L ရှိ Area Term နှင့် Length Term နှစ်ခုစလုံးသည် ဤ Dimension-Dependent သက်ရောက်မှုများကို နောက်ဆုံးရလဒ်မှ ချေဖျက်ရန် တည်ဆောက်ထားသောကြောင့် ρ သည် သတ္တုကိုယ်တိုင်ကို ဖော်ပြသော ဂဏန်းတစ်ခု ဖြစ်ကြောင်း Htet Wai Yan ရှင်းပြခဲ့သည်၊ Course အစောပိုင်းက Young Modulus သည် ကြိုးတစ်ခု၏ Length နှင့် Area ပေါ် နည်းလမ်းတူညီဖြင့် လုံးဝ မမှီခိုကြောင်း ပြသခဲ့သော ဆင်ခြင်တွေးခေါ်မှု တူညီ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the wire's resistance?",
+            questionMy: "ကြိုး၏ Resistance ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2 Ω", "6 Ω", "3 Ω", "4 Ω"],
+            optionsMy: ["2 Ω", "6 Ω", "3 Ω", "4 Ω"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the wire's resistivity?",
+            questionMy: "ကြိုး၏ Resistivity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "4 x 10⁻⁷ Ω m",
+              "2 x 10⁻⁷ Ω m",
+              "6 x 10⁻⁷ Ω m",
+              "1.5 x 10⁻⁷ Ω m",
+            ],
+            optionsMy: [
+              "4 x 10⁻⁷ Ω m",
+              "2 x 10⁻⁷ Ω m",
+              "6 x 10⁻⁷ Ω m",
+              "1.5 x 10⁻⁷ Ω m",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why is resistivity independent of a wire's dimensions?",
+            questionMy:
+                "Resistivity သည် ကြိုးတစ်ခု၏ Dimension ပေါ် အဘယ့်ကြောင့် မမှီခိုသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The area and length terms in ρ = RA / L cancel the dimension-dependent effects",
+              "Resistivity is always exactly zero for every material",
+              "Only the wire's colour affects resistivity",
+              "Resistance and resistivity are always numerically identical",
+            ],
+            optionsMy: [
+              "ρ = RA / L ရှိ Area နှင့် Length Term များသည် Dimension-Dependent သက်ရောက်မှုများကို ချေဖျက်သည်",
+              "Resistivity သည် ပစ္စည်း မည်သည့်တစ်ခုအတွက်မဆို အမြဲ Zero အတိအကျ ဖြစ်သည်",
+              "ကြိုး၏ အရောင်တစ်ခုတည်းက Resistivity ကို သက်ရောက်စေသည်",
+              "Resistance နှင့် Resistivity သည် ဂဏန်းအားဖြင့် အမြဲ တူညီသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Resistance and Resistivity",
+      titleMy:
+          "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Resistance နှင့် Resistivity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ohm's law can be written as...",
+          questionMy: "Ohm's Law ကို ...အဖြစ် ရေးနိုင်သည်",
+          optionsEn: ["V = IR", "V = I + R", "I = VR", "R = V + I"],
+          optionsMy: ["V = IR", "V = I + R", "I = VR", "R = V + I"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Resistivity is calculated as...",
+          questionMy: "Resistivity ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: ["RA / L", "RL / A", "R / (AL)", "R x A x L"],
+          optionsMy: ["RA / L", "RL / A", "R / (AL)", "R x A x L"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A resistor has a potential difference of 20 V and a current of 4 A through it. Its resistance is...",
+          questionMy:
+              "Resistor တစ်ခုတွင် Potential Difference 20 V ရှိပြီး ၎င်းကို ဖြတ်သန်းသွားသော Current 4 A ရှိသည်။ ၎င်း၏ Resistance မှာ...",
+          optionsEn: ["5 Ω", "80 Ω", "0.2 Ω", "24 Ω"],
+          optionsMy: ["5 Ω", "80 Ω", "0.2 Ω", "24 Ω"],
+          correctIndex: 0,
+          hintsEn: ["R = V / I = 20 / 4 = 5 Ω."],
+          hintsMy: ["R = V / I = 20 / 4 = 5 Ω ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "EMF, Internal Resistance and Circuit Rules"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek35 = CourseWeekDef(
+  id: "course-y12-phys-w35",
+  weekNumber: 35,
+  titleEn: "EMF, Internal Resistance and Circuit Rules",
+  titleMy: "EMF, Internal Resistance နှင့် Circuit Rules",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w35-d1",
+      dayNumber: 1,
+      titleEn: "EMF and Internal Resistance",
+      titleMy: "EMF နှင့် Internal Resistance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Electromotive force (EMF) is defined as...",
+          questionMy:
+              "Electromotive Force (EMF) ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Energy transferred per unit charge by a source, driving charge around a complete circuit",
+            "The resistance of the external circuit only",
+            "The current flowing through a single resistor",
+            "The potential difference across an open switch",
+          ],
+          optionsMy: [
+            "Circuit တစ်ခုလုံးတလျှောက် Charge ကို မောင်းနှင်ပေးသော Source တစ်ခု၏ Unit Charge လျှင် ကူးပြောင်းသော Energy",
+            "External Circuit တစ်ခုတည်း၏ Resistance",
+            "Resistor တစ်ခုတည်းကို ဖြတ်သန်းသွားသော Current",
+            "ဖွင့်ထားသော Switch တစ်ခုတလျှောက် Potential Difference",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The terminal potential difference of a battery is less than its EMF because...",
+          questionMy:
+              "Battery တစ်ခု၏ Terminal Potential Difference သည် ၎င်း၏ EMF ထက် ငယ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Some energy is dissipated inside the battery due to internal resistance",
+            "The battery never actually produces any EMF",
+            "External resistance is always zero",
+            "Terminal potential difference is unrelated to EMF",
+          ],
+          optionsMy: [
+            "Internal Resistance ကြောင့် Energy အချို့ Battery အတွင်း ဖြုန်းတီးနေသောကြောင့်",
+            "Battery သည် EMF မည်သည့်တစ်ခုမျှ လုံးဝ မထုတ်လုပ်သောကြောင့်",
+            "External Resistance သည် အမြဲ Zero ဖြစ်သောကြောင့်",
+            "Terminal Potential Difference သည် EMF နှင့် လုံးဝ မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cell has an EMF of 6 V and an internal resistance of 1 Ω. When a current of 2 A flows, the terminal potential difference is...",
+          questionMy:
+              "Cell တစ်ခုသည် EMF 6 V နှင့် Internal Resistance 1 Ω ရှိသည်။ Current 2 A စီးဆင်းချိန် Terminal Potential Difference မှာ...",
+          optionsEn: ["4 V", "8 V", "6 V", "2 V"],
+          optionsMy: ["4 V", "8 V", "6 V", "2 V"],
+          correctIndex: 0,
+          hintsEn: ["Terminal pd = EMF - Ir = 6 - (2 x 1) = 4 V."],
+          hintsMy: ["Terminal pd = EMF - Ir = 6 - (2 x 1) = 4 V ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: EMF and Circuit Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - EMF and Circuit ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w35-dm-1",
+          termEn: "Electromotive force (EMF)",
+          termMy: "Electromotive Force (EMF)",
+          matchEn:
+              "Energy transferred per unit charge by a source, driving charge around a complete circuit",
+          matchMy:
+              "Circuit တစ်ခုလုံးတလျှောက် Charge ကို မောင်းနှင်ပေးသော Source တစ်ခု၏ Unit Charge လျှင် ကူးပြောင်းသော Energy",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w35-dm-2",
+          termEn: "Internal resistance (r)",
+          termMy: "Internal Resistance (r)",
+          matchEn:
+              "Resistance inside a source itself, causing energy loss as charge flows through it",
+          matchMy:
+              "Source ကိုယ်တိုင် အတွင်းရှိ Resistance၊ Charge ဖြတ်သန်းချိန် Energy ဆုံးရှုံးမှု ဖြစ်စေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w35-dm-3",
+          termEn: "Terminal potential difference",
+          termMy: "Terminal Potential Difference",
+          matchEn:
+              "The potential difference across a source's terminals, equal to EMF minus the voltage lost to internal resistance",
+          matchMy:
+              "Source ၏ Terminal တလျှောက် Potential Difference၊ EMF မှ Internal Resistance ဆုံးရှုံးသော Voltage ကို နှုတ်ထားခြင်းနှင့် ညီမျှသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w35-dm-4",
+          termEn: "Series circuit",
+          termMy: "Series Circuit",
+          matchEn:
+              "A circuit where components are connected end-to-end, so the same current flows through each",
+          matchMy:
+              "Component များကို အဆုံးမှ အဆုံးသို့ ဆက်သွယ်ထားသော Circuit၊ Current တူညီ တစ်ခုစီကို ဖြတ်သန်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w35-dm-5",
+          termEn: "Parallel circuit",
+          termMy: "Parallel Circuit",
+          matchEn:
+              "A circuit where components are connected across the same two points, so the potential difference across each is the same",
+          matchMy:
+              "Component များကို အမှတ်နှစ်ခု တူညီတလျှောက် ဆက်သွယ်ထားသော Circuit၊ Potential Difference တူညီ တစ်ခုစီတွင် ရှိသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Series or Parallel Circuit Rule?",
+      titleMy: "စီစစ်ကြမည် - Series သို့မဟုတ် Parallel Circuit Rule",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Series Circuit Rule", "Parallel Circuit Rule"],
+        bucketsMy: ["Series Circuit Rule", "Parallel Circuit Rule"],
+        items: [
+          SortingItem(
+            id: "y12phys-w35-sort-1",
+            labelEn: "Current is the same through every component",
+            labelMy: "Current သည် Component တစ်ခုစီတွင် တူညီသည်",
+            correctBucketEn: "Series Circuit Rule",
+            correctBucketMy: "Series Circuit Rule",
+          ),
+          SortingItem(
+            id: "y12phys-w35-sort-2",
+            labelEn: "Potential difference is the same across every branch",
+            labelMy: "Potential Difference သည် Branch တစ်ခုစီတွင် တူညီသည်",
+            correctBucketEn: "Parallel Circuit Rule",
+            correctBucketMy: "Parallel Circuit Rule",
+          ),
+          SortingItem(
+            id: "y12phys-w35-sort-3",
+            labelEn: "Total resistance is the sum of individual resistances",
+            labelMy:
+                "Total Resistance သည် Individual Resistance များ၏ ပေါင်းလဒ်",
+            correctBucketEn: "Series Circuit Rule",
+            correctBucketMy: "Series Circuit Rule",
+          ),
+          SortingItem(
+            id: "y12phys-w35-sort-4",
+            labelEn: "Total current is the sum of the currents in each branch",
+            labelMy:
+                "Total Current သည် Branch တစ်ခုစီရှိ Current များ၏ ပေါင်းလဒ်",
+            correctBucketEn: "Parallel Circuit Rule",
+            correctBucketMy: "Parallel Circuit Rule",
+          ),
+          SortingItem(
+            id: "y12phys-w35-sort-5",
+            labelEn:
+                "Total EMF in a loop equals the sum of potential differences around it",
+            labelMy:
+                "Loop တစ်ခုရှိ Total EMF သည် ၎င်းတလျှောက် Potential Difference များ၏ ပေါင်းလဒ်နှင့် ညီမျှသည်",
+            correctBucketEn: "Series Circuit Rule",
+            correctBucketMy: "Series Circuit Rule",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Analyzing a Simple Circuit's Terminal Voltage",
+      titleMy:
+          "စာဖတ်ခြင်း - ရိုးရှင်းသော Circuit ၏ Terminal Voltage ခွဲခြမ်းစိတ်ဖြာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Analyzing a Simple Circuit's Terminal Voltage",
+        titleMy: "ရိုးရှင်းသော Circuit ၏ Terminal Voltage ခွဲခြမ်းစိတ်ဖြာခြင်း",
+        passageEn:
+            "Sayar Pyae Sone Aung's class connected a cell of EMF 9 V and internal resistance 0.5 Ω to a single external resistor of 4 Ω. He asked them to find the current in the circuit and the terminal potential difference of the cell, and then to check the answer two independent ways.\n\nChan Myae Aung first found the total resistance in the circuit, treating the internal resistance as if it were an ordinary resistor in series with the external one: total resistance = r + R = 0.5 + 4 = 4.5 Ω. Using the full EMF and total resistance: I = EMF / total resistance = 9 / 4.5 = 2 A.\n\nFor the terminal potential difference, she used terminal pd = EMF - Ir = 9 - (2 x 0.5) = 9 - 1 = 8 V. To check this independently, she calculated the potential difference across the external resistor directly using Ohm's law: V = IR = 2 x 4 = 8 V -- exactly matching. Sayar Pyae Sone Aung explained why these two methods must always agree: every joule of energy the EMF supplies per coulomb of charge is accounted for somewhere in the circuit -- either delivered usefully to the external resistor as terminal potential difference, or lost to the cell's own internal resistance -- so calculating the terminal pd by subtracting the internal loss from the EMF, or by calculating it directly from the external resistor, are just two different ways of describing the same conservation of energy around the complete loop.",
+        passageMy:
+            "Sayar ပြည့်စုံအောင် ၏ အတန်းသည် EMF 9 V နှင့် Internal Resistance 0.5 Ω ရှိသော Cell တစ်ခုကို External Resistor 4 Ω တစ်ခုတည်းနှင့် ဆက်သွယ်ခဲ့ကြသည်။ Circuit ရှိ Current နှင့် Cell ၏ Terminal Potential Difference ကို ရှာဖွေပြီး အဖြေကို သီးခြား နည်းလမ်းနှစ်ခုဖြင့် စစ်ဆေးခိုင်းခဲ့သည်။\n\nChan Myae Aung သည် Internal Resistance ကို External တစ်ခုနှင့် Series ဆက်သွယ်ထားသော ရိုးရိုး Resistor တစ်ခုကဲ့သို့ ယူဆကာ Circuit ရှိ Total Resistance ကို ဦးစွာ ရှာဖွေခဲ့သည် - Total Resistance = r + R = 0.5 + 4 = 4.5 Ω ။ Full EMF နှင့် Total Resistance ကို အသုံးပြု၍ - I = EMF / Total Resistance = 9 / 4.5 = 2 A ။\n\nTerminal Potential Difference အတွက် Terminal pd = EMF - Ir = 9 - (2 x 0.5) = 9 - 1 = 8 V ကို သူမ အသုံးပြုခဲ့သည်။ ၎င်းကို သီးခြား စစ်ဆေးရန် External Resistor တလျှောက် Potential Difference ကို Ohm's Law ဖြင့် တိုက်ရိုက် တွက်ချက်ခဲ့သည် - V = IR = 2 x 4 = 8 V -- အတိအကျ ကိုက်ညီသည်။ ဤ နည်းလမ်းနှစ်ခုသည် အမြဲ သဘောတူညီရသည့် အကြောင်းရင်းကို Sayar ပြည့်စုံအောင် ရှင်းပြခဲ့သည် - EMF က Coulomb တစ်ခုစီအတွက် ပေးအပ်သော Joule တစ်ခုစီသည် Circuit ထဲရှိ တစ်နေရာနေရာတွင် ရေတွက်ခံရသည် -- External Resistor သို့ Terminal Potential Difference အဖြစ် Useful စွာ ပေးပို့ခြင်း (သို့) Cell ကိုယ်ပိုင် Internal Resistance သို့ ဆုံးရှုံးခြင်း -- ထို့ကြောင့် EMF မှ Internal Loss ကို နှုတ်ခြင်းဖြင့် Terminal pd ကို တွက်ချက်ခြင်း (သို့) External Resistor မှ တိုက်ရိုက် တွက်ချက်ခြင်းသည် Loop တစ်ခုလုံးတလျှောက် Energy Conservation တူညီကို ဖော်ပြသော နည်းလမ်းနှစ်မျိုးသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the current in the circuit?",
+            questionMy: "Circuit ရှိ Current ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2 A", "9 A", "4.5 A", "0.5 A"],
+            optionsMy: ["2 A", "9 A", "4.5 A", "0.5 A"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the terminal potential difference?",
+            questionMy: "Terminal Potential Difference ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["8 V", "9 V", "1 V", "4.5 V"],
+            optionsMy: ["8 V", "9 V", "1 V", "4.5 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why do the two methods for finding terminal pd always agree?",
+            questionMy:
+                "Terminal pd ရှာဖွေသော နည်းလမ်းနှစ်ခုသည် အဘယ့်ကြောင့် အမြဲ သဘောတူညီသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They both describe the same conservation of energy around the complete loop",
+              "They are actually unrelated calculations that coincidentally match",
+              "Ohm's law only works for one of the two methods",
+              "Internal resistance has no effect on either method",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် Loop တစ်ခုလုံးတလျှောက် Energy Conservation တူညီကို ဖော်ပြသည်",
+              "နှစ်ခုသည် ကြုံကြိုက် ကိုက်ညီသွားသော ဆက်စပ်မှုမရှိသော တွက်ချက်မှုများ ဖြစ်ကြသည်",
+              "Ohm's Law သည် နည်းလမ်းနှစ်ခုအနက် တစ်ခုအတွက်သာ အလုပ်ဖြစ်သည်",
+              "Internal Resistance သည် နည်းလမ်းနှစ်ခုစလုံးအပေါ် သက်ရောက်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: EMF and Circuit Rules",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - EMF နှင့် Circuit Rules",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Terminal potential difference is calculated as...",
+          questionMy: "Terminal Potential Difference ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: ["EMF - Ir", "EMF + Ir", "EMF / Ir", "EMF x Ir"],
+          optionsMy: ["EMF - Ir", "EMF + Ir", "EMF / Ir", "EMF x Ir"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a series circuit...",
+          questionMy: "Series Circuit တစ်ခုတွင်...",
+          optionsEn: [
+            "The current is the same through every component",
+            "The potential difference is the same across every component",
+            "Total resistance is always zero",
+            "Components share no common current at all",
+          ],
+          optionsMy: [
+            "Current သည် Component တစ်ခုစီတွင် တူညီသည်",
+            "Potential Difference သည် Component တစ်ခုစီတွင် တူညီသည်",
+            "Total Resistance သည် အမြဲ Zero ဖြစ်သည်",
+            "Component များတွင် Common Current လုံးဝ မမျှဝေပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cell of EMF 4 V and internal resistance 0.5 Ω delivers a current of 3 A. Its terminal potential difference is...",
+          questionMy:
+              "EMF 4 V နှင့် Internal Resistance 0.5 Ω ရှိသော Cell တစ်ခုသည် Current 3 A ပေးအပ်သည်။ ၎င်း၏ Terminal Potential Difference မှာ...",
+          optionsEn: ["2.5 V", "4 V", "1.5 V", "5.5 V"],
+          optionsMy: ["2.5 V", "4 V", "1.5 V", "5.5 V"],
+          correctIndex: 0,
+          hintsEn: [
+            "Terminal pd = EMF - Ir = 4 - (3 x 0.5) = 4 - 1.5 = 2.5 V.",
+          ],
+          hintsMy: [
+            "Terminal pd = EMF - Ir = 4 - (3 x 0.5) = 4 - 1.5 = 2.5 V ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36: "Electricity Capstone and AS Exam Prep"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek36 = CourseWeekDef(
+  id: "course-y12-phys-w36",
+  weekNumber: 36,
+  titleEn: "Electricity Capstone and AS Exam Prep",
+  titleMy: "Electricity အထွတ်အထိပ်နှင့် AS Exam Prep",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w36-d1",
+      dayNumber: 1,
+      titleEn: "Combining Current, Resistance and EMF",
+      titleMy: "Current, Resistance နှင့် EMF ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A charge of 12 C flows in 4 s. The current is...",
+          questionMy:
+              "Charge 12 C သည် Second 4 အတွင်း စီးဆင်းသည်။ Current မှာ...",
+          optionsEn: ["3 A", "48 A", "0.33 A", "16 A"],
+          optionsMy: ["3 A", "48 A", "0.33 A", "16 A"],
+          correctIndex: 0,
+          hintsEn: ["I = Q / t = 12 / 4 = 3 A."],
+          hintsMy: ["I = Q / t = 12 / 4 = 3 A ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wire has resistance 4 Ω, cross-sectional area 1 x 10⁻⁶ m², and length 2 m. Its resistivity is...",
+          questionMy:
+              "ကြိုးတစ်ချောင်းသည် Resistance 4 Ω, Cross-Sectional Area 1 x 10⁻⁶ m², Length 2 m ရှိသည်။ ၎င်း၏ Resistivity မှာ...",
+          optionsEn: [
+            "2 x 10⁻⁶ Ω m",
+            "8 x 10⁻⁶ Ω m",
+            "5 x 10⁻⁷ Ω m",
+            "4 x 10⁻⁶ Ω m",
+          ],
+          optionsMy: [
+            "2 x 10⁻⁶ Ω m",
+            "8 x 10⁻⁶ Ω m",
+            "5 x 10⁻⁷ Ω m",
+            "4 x 10⁻⁶ Ω m",
+          ],
+          correctIndex: 0,
+          hintsEn: ["ρ = RA / L = (4 x 1 x 10⁻⁶) / 2 = 2 x 10⁻⁶ Ω m."],
+          hintsMy: ["ρ = RA / L = (4 x 1 x 10⁻⁶) / 2 = 2 x 10⁻⁶ Ω m ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cell of EMF 10 V and internal resistance 2 Ω delivers a current of 2 A. Its terminal potential difference is...",
+          questionMy:
+              "EMF 10 V နှင့် Internal Resistance 2 Ω ရှိသော Cell တစ်ခုသည် Current 2 A ပေးအပ်သည်။ ၎င်း၏ Terminal Potential Difference မှာ...",
+          optionsEn: ["6 V", "10 V", "14 V", "4 V"],
+          optionsMy: ["6 V", "10 V", "14 V", "4 V"],
+          correctIndex: 0,
+          hintsEn: ["Terminal pd = EMF - Ir = 10 - (2 x 2) = 6 V."],
+          hintsMy: ["Terminal pd = EMF - Ir = 10 - (2 x 2) = 6 V ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 9 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၉ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w36-dm-1",
+          termEn: "Current: I = ",
+          termMy: "Current: I = ",
+          matchEn: "Q / t",
+          matchMy: "Q / t",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w36-dm-2",
+          termEn: "Potential difference: V = ",
+          termMy: "Potential Difference: V = ",
+          matchEn: "W / Q",
+          matchMy: "W / Q",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w36-dm-3",
+          termEn: "Ohm's law: V = ",
+          termMy: "Ohm's Law: V = ",
+          matchEn: "IR",
+          matchMy: "IR",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w36-dm-4",
+          termEn: "Resistivity: ρ = ",
+          termMy: "Resistivity: ρ = ",
+          matchEn: "RA / L",
+          matchMy: "RA / L",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w36-dm-5",
+          termEn: "Terminal potential difference = ",
+          termMy: "Terminal Potential Difference = ",
+          matchEn: "EMF - Ir",
+          matchMy: "EMF - Ir",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Current/Charge/PD or Resistance/EMF Concept?",
+      titleMy:
+          "စီစစ်ကြမည် - Current/Charge/PD သို့မဟုတ် Resistance/EMF သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Current/Charge/PD", "Resistance/EMF"],
+        bucketsMy: ["Current/Charge/PD", "Resistance/EMF"],
+        items: [
+          SortingItem(
+            id: "y12phys-w36-sort-1",
+            labelEn: "Charge equals current multiplied by time",
+            labelMy:
+                "Charge သည် Current ကို Time ဖြင့် မြှောက်ထားခြင်းနှင့် ညီမျှသည်",
+            correctBucketEn: "Current/Charge/PD",
+            correctBucketMy: "Current/Charge/PD",
+          ),
+          SortingItem(
+            id: "y12phys-w36-sort-2",
+            labelEn:
+                "Terminal potential difference equals EMF minus the voltage lost internally",
+            labelMy:
+                "Terminal Potential Difference သည် EMF မှ Internal ဆုံးရှုံးသော Voltage ကို နှုတ်ထားခြင်းနှင့် ညီမျှသည်",
+            correctBucketEn: "Resistance/EMF",
+            correctBucketMy: "Resistance/EMF",
+          ),
+          SortingItem(
+            id: "y12phys-w36-sort-3",
+            labelEn:
+                "Potential difference is energy transferred per unit charge",
+            labelMy:
+                "Potential Difference သည် Unit Charge လျှင် ကူးပြောင်းသော Energy",
+            correctBucketEn: "Current/Charge/PD",
+            correctBucketMy: "Current/Charge/PD",
+          ),
+          SortingItem(
+            id: "y12phys-w36-sort-4",
+            labelEn:
+                "Resistivity is a property of the material, independent of the specimen's dimensions",
+            labelMy:
+                "Resistivity သည် နမူနာ၏ Dimension ပေါ် မမှီခိုသော ပစ္စည်း ပိုင်ဆိုင်ချက်",
+            correctBucketEn: "Resistance/EMF",
+            correctBucketMy: "Resistance/EMF",
+          ),
+          SortingItem(
+            id: "y12phys-w36-sort-5",
+            labelEn: "Current is the rate of flow of charge",
+            labelMy: "Current သည် Charge ၏ Flow Rate",
+            correctBucketEn: "Current/Charge/PD",
+            correctBucketMy: "Current/Charge/PD",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Designing a Complete Torch Circuit",
+      titleMy:
+          "စာဖတ်ခြင်း - လက်နှိပ်ဓာတ်မီး Circuit တစ်ခုလုံး ဒီဇိုင်းရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Designing a Complete Torch Circuit",
+        titleMy: "လက်နှိပ်ဓာတ်မီး Circuit တစ်ခုလုံး ဒီဇိုင်းရေးဆွဲခြင်း",
+        passageEn:
+            "For their Term 9 capstone -- and the final calculation of the whole AS Physics course -- Sayama Thiri Yadanar's class analyzed a complete torch circuit: a cell of EMF 3 V and internal resistance 0.5 Ω connected to a bulb of resistance 5.5 Ω.\n\nShin Thant Sin found the total resistance in the circuit first: total resistance = r + R = 0.5 + 5.5 = 6 Ω. Using this, she found the current: I = EMF / total resistance = 3 / 6 = 0.5 A.\n\nNext, she found the terminal potential difference across the cell: terminal pd = EMF - Ir = 3 - (0.5 x 0.5) = 3 - 0.25 = 2.75 V. Finally, she calculated the power dissipated in the bulb itself, using P = I²R: P = 0.5² x 5.5 = 0.25 x 5.5 = 1.375 W.\n\nSayama Thiri Yadanar closed the capstone -- and the course -- by asking the class to name every physical quantity this one small circuit had required across the whole term: charge and current (from Q = It), potential difference (from energy per unit charge), resistance (from Ohm's law), EMF and internal resistance (from a real, non-ideal source), and power (from current and resistance together). A torch is a genuinely simple device, she pointed out, and yet fully describing how it works from first principles pulls together every idea Term 9 introduced -- which is exactly what an AS Physics exam question tends to do: take something ordinary, and ask a student to explain it using the full toolkit built up across an entire year.",
+        passageMy:
+            "သူတို့၏ Term 9 အထွတ်အထိပ် -- ထို့ပြင် AS Physics Course တစ်ခုလုံး၏ နောက်ဆုံး တွက်ချက်မှု -- အတွက် Sayama သီရိရတနာ ၏ အတန်းသည် လက်နှိပ်ဓာတ်မီး Circuit တစ်ခုလုံးကို ခွဲခြမ်းစိတ်ဖြာခဲ့ကြသည် - EMF 3 V နှင့် Internal Resistance 0.5 Ω ရှိသော Cell တစ်ခုကို Resistance 5.5 Ω ရှိသော Bulb တစ်ခုနှင့် ဆက်သွယ်ထားသည်။\n\nShin Thant Sin သည် Circuit ရှိ Total Resistance ကို ဦးစွာ ရှာဖွေခဲ့သည် - Total Resistance = r + R = 0.5 + 5.5 = 6 Ω ။ ၎င်းကို အသုံးပြု၍ Current ကို ရှာဖွေခဲ့သည် - I = EMF / Total Resistance = 3 / 6 = 0.5 A ။\n\nထို့နောက် Cell တလျှောက် Terminal Potential Difference ကို ရှာဖွေခဲ့သည် - Terminal pd = EMF - Ir = 3 - (0.5 x 0.5) = 3 - 0.25 = 2.75 V ။ နောက်ဆုံးတွင် P = I²R ကို အသုံးပြု၍ Bulb ကိုယ်တိုင်တွင် ဖြုန်းတီးသော Power ကို တွက်ချက်ခဲ့သည် - P = 0.5² x 5.5 = 0.25 x 5.5 = 1.375 W ။\n\nTerm တစ်ခုလုံးတလျှောက် ဤ သေးငယ်သော Circuit တစ်ခုတည်းက လိုအပ်ခဲ့သော ရုပ်ပိုင်းဆိုင်ရာ ပမာဏ တိုင်းကို အမည်တပ်ခိုင်းလျက် Sayama သီရိရတနာ သည် အထွတ်အထိပ် -- ထို့ပြင် Course ကိုပါ -- ပိတ်ခဲ့သည် - Charge နှင့် Current (Q = It မှ)၊ Potential Difference (Unit Charge လျှင် Energy မှ)၊ Resistance (Ohm's Law မှ)၊ EMF နှင့် Internal Resistance (တကယ့် Ideal မဟုတ်သော Source မှ) နှင့် Power (Current နှင့် Resistance ပေါင်းစပ်မှု မှ)။ လက်နှိပ်ဓာတ်မီးသည် တကယ့် ရိုးရှင်းသော Device တစ်ခု ဖြစ်ကြောင်း သူမ ထောက်ပြခဲ့ပြီး သို့သော် First Principles မှ ၎င်း မည်သို့ အလုပ်လုပ်သည်ကို အပြည့်အစုံ ဖော်ပြရန် Term 9 မိတ်ဆက်ပေးခဲ့သော Idea တိုင်းကို စုပေါင်းယူဆောင်ရသည် -- ၎င်းသည် AS Physics စာမေးပွဲ မေးခွန်းတစ်ခု ပုံမှန်အားဖြင့် လုပ်ဆောင်သည့်အရာ အတိအကျ ဖြစ်သည် - ရိုးရိုး အရာတစ်ခုကို ယူပြီး နှစ်တစ်နှစ်လုံးတလျှောက် တည်ဆောက်ခဲ့သော Toolkit အပြည့်အစုံကို အသုံးပြု၍ ရှင်းပြရန် ကျောင်းသားတစ်ဦးကို မေးမြန်းခြင်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the current in the torch circuit?",
+            questionMy:
+                "လက်နှိပ်ဓာတ်မီး Circuit ရှိ Current ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.5 A", "3 A", "6 A", "5.5 A"],
+            optionsMy: ["0.5 A", "3 A", "6 A", "5.5 A"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the terminal potential difference?",
+            questionMy: "Terminal Potential Difference ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2.75 V", "3 V", "0.25 V", "6 V"],
+            optionsMy: ["2.75 V", "3 V", "0.25 V", "6 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what power is dissipated in the bulb?",
+            questionMy:
+                "Bulb ထဲတွင် ဖြုန်းတီးသော Power ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1.375 W", "2.75 W", "0.5 W", "5.5 W"],
+            optionsMy: ["1.375 W", "2.75 W", "0.5 W", "5.5 W"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w36-d5",
+      dayNumber: 5,
+      titleEn: "AS Physics Final Review: Terms 1-9",
+      titleMy: "AS ရူပဗေဒ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Current is the rate of flow of...",
+          questionMy: "Current သည် ...၏ Flow Rate ဖြစ်သည်",
+          optionsEn: ["Charge", "Energy alone", "Force", "Resistance"],
+          optionsMy: ["Charge", "Energy တစ်ခုတည်း", "Force", "Resistance"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Resistivity relates resistance to a conductor's...",
+          questionMy:
+              "Resistivity သည် Conductor တစ်ခု၏ ...နှင့် Resistance ကို ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "Length and cross-sectional area",
+            "Colour and temperature only",
+            "Mass alone",
+            "Weight alone",
+          ],
+          optionsMy: [
+            "Length နှင့် Cross-Sectional Area",
+            "အရောင်နှင့် Temperature သာ",
+            "Mass တစ်ခုတည်း",
+            "Weight တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The terminal potential difference of a real cell is always...",
+          questionMy:
+              "တကယ့် Cell တစ်ခု၏ Terminal Potential Difference သည် အမြဲ...",
+          optionsEn: [
+            "Less than or equal to its EMF",
+            "Greater than its EMF",
+            "Exactly zero",
+            "Unrelated to its EMF",
+          ],
+          optionsMy: [
+            "၎င်း၏ EMF ထက် ငယ် (သို့) ညီမျှသည်",
+            "၎င်း၏ EMF ထက် ကြီးသည်",
+            "Zero အတိအကျ",
+            "၎င်း၏ EMF နှင့် မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Across the whole AS Physics course, quantities like force, energy, wavelength and current are all...",
+          questionMy:
+              "AS Physics Course တစ်ခုလုံးတလျှောက် Force, Energy, Wavelength နှင့် Current ကဲ့သို့ ပမာဏများသည် အားလုံး...",
+          optionsEn: [
+            "Measurable physical quantities linked by consistent formulas",
+            "Random numbers with no formulas behind them",
+            "Only relevant to one single topic each",
+            "Impossible to measure in a school lab",
+          ],
+          optionsMy: [
+            "တသမတ်တည်း Formula များဖြင့် ဆက်စပ်ထားသော တိုင်းတာနိုင်သော ရုပ်ပိုင်းဆိုင်ရာ ပမာဏများ",
+            "နောက်ကွယ်တွင် Formula မရှိသော ကျပန်း ဂဏန်းများ",
+            "ခေါင်းစဉ် တစ်ခုစီအတွက်သာ သက်ဆိုင်သည်",
+            "ကျောင်း Lab တွင် တိုင်းတာ၍ လုံးဝ မရပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm9 = CourseTermDef(
+  id: "course-y12-phys-term9",
+  termNumber: 9,
+  titleEn: "Electricity, DC Circuits and AS Exam Prep",
+  titleMy: "Electricity, DC Circuits နှင့် AS Exam Prep",
+  weeks: [_y12PhysWeek33, _y12PhysWeek34, _y12PhysWeek35, _y12PhysWeek36],
+  certificateTitleEn: "AS Physics: Electricity, DC Circuits and AS Exam Prep",
+  certificateTitleMy: "AS ရူပဗေဒ - Electricity, DC Circuits နှင့် AS Exam Prep",
 );
 
 // __TERMS_MARKER__
