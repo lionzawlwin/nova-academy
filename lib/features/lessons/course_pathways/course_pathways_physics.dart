@@ -13934,11 +13934,11 @@ const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
   certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
 );
 
-/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-6
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-7
 /// (Physical Quantities, Units and Measurement; Kinematics; Dynamics;
 /// Forces, Density and Pressure; Work, Energy and Power; Deformation of
-/// Solids) authored; Terms 7-9 (Waves and the Electromagnetic Spectrum;
-/// Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
+/// Solids; Waves and the Electromagnetic Spectrum) authored; Terms 8-9
+/// (Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
 /// No LaTeX renderer exists in this app -- formulas throughout use the
 /// same plain Unicode math notation (², √, x for multiplication) already
 /// established by the IGCSE pathways, not literal LaTeX markup.
@@ -13952,7 +13952,7 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 24,
+  totalWeeks: 28,
   terms: [
     year12PhysicsTerm1,
     year12PhysicsTerm2,
@@ -13960,6 +13960,7 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
     year12PhysicsTerm4,
     year12PhysicsTerm5,
     year12PhysicsTerm6,
+    year12PhysicsTerm7,
   ],
 );
 
@@ -20183,6 +20184,1215 @@ const CourseTermDef year12PhysicsTerm6 = CourseTermDef(
   weeks: [_y12PhysWeek21, _y12PhysWeek22, _y12PhysWeek23, _y12PhysWeek24],
   certificateTitleEn: "AS Physics: Deformation of Solids",
   certificateTitleMy: "AS ရူပဗေဒ - Deformation of Solids",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 7: "Waves and the Electromagnetic Spectrum"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "Wave Basics and the Wave Equation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek25 = CourseWeekDef(
+  id: "course-y12-phys-w25",
+  weekNumber: 25,
+  titleEn: "Wave Basics and the Wave Equation",
+  titleMy: "Wave အခြေခံနှင့် Wave Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w25-d1",
+      dayNumber: 1,
+      titleEn: "The Wave Equation",
+      titleMy: "Wave Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The wave equation relating wave speed, frequency and wavelength is...",
+          questionMy:
+              "Wave Speed, Frequency နှင့် Wavelength ကို ဆက်စပ်ပေးသော Wave Equation မှာ...",
+          optionsEn: ["v = fλ", "v = f/λ", "v = f + λ", "v = f - λ"],
+          optionsMy: ["v = fλ", "v = f/λ", "v = f + λ", "v = f - λ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wave has a frequency of 50 Hz and a wavelength of 2 m. Its speed is...",
+          questionMy:
+              "Wave တစ်ခုသည် Frequency 50 Hz နှင့် Wavelength 2 m ရှိသည်။ ၎င်း၏ Speed မှာ...",
+          optionsEn: ["100 m s⁻¹", "52 m s⁻¹", "25 m s⁻¹", "0.04 m s⁻¹"],
+          optionsMy: ["100 m s⁻¹", "52 m s⁻¹", "25 m s⁻¹", "0.04 m s⁻¹"],
+          correctIndex: 0,
+          hintsEn: ["v = fλ = 50 x 2 = 100 m s⁻¹."],
+          hintsMy: ["v = fλ = 50 x 2 = 100 m s⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sound wave travels at 340 m s⁻¹ with a frequency of 170 Hz. Its wavelength is...",
+          questionMy:
+              "Sound Wave တစ်ခုသည် Frequency 170 Hz ဖြင့် 340 m s⁻¹ ခရီးသွားသည်။ ၎င်း၏ Wavelength မှာ...",
+          optionsEn: ["2 m", "170 m", "0.5 m", "510 m"],
+          optionsMy: ["2 m", "170 m", "0.5 m", "510 m"],
+          correctIndex: 0,
+          hintsEn: ["λ = v / f = 340 / 170 = 2 m."],
+          hintsMy: ["λ = v / f = 340 / 170 = 2 m ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Wave Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Wave ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w25-dm-1",
+          termEn: "Wavelength (λ)",
+          termMy: "Wavelength (λ)",
+          matchEn:
+              "The distance between two adjacent points on a wave that are in phase, e.g. crest to crest",
+          matchMy:
+              "Wave ပေါ်ရှိ Phase တူညီသော အနီးဆုံး အမှတ်နှစ်ခုကြား Distance၊ ဥပမာ Crest မှ Crest",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w25-dm-2",
+          termEn: "Frequency (f)",
+          termMy: "Frequency (f)",
+          matchEn:
+              "The number of complete waves passing a point per second, measured in hertz (Hz)",
+          matchMy:
+              "Second တစ်ခုလျှင် အမှတ်တစ်ခုကို ဖြတ်သန်းသွားသော ပြီးပြည့်စုံသော Wave အရေအတွက်၊ Hertz (Hz) ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w25-dm-3",
+          termEn: "Amplitude",
+          termMy: "Amplitude",
+          matchEn:
+              "The maximum displacement of a particle from its equilibrium position",
+          matchMy:
+              "Particle တစ်ခု၏ Equilibrium Position မှ အများဆုံး Displacement",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w25-dm-4",
+          termEn: "Period (T)",
+          termMy: "Period (T)",
+          matchEn: "The time taken for one complete wave cycle, equal to 1/f",
+          matchMy:
+              "ပြီးပြည့်စုံသော Wave Cycle တစ်ခုအတွက် ကြာချိန်၊ 1/f နှင့် ညီမျှသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w25-dm-5",
+          termEn: "Transverse wave",
+          termMy: "Transverse Wave",
+          matchEn:
+              "A wave where the oscillation is perpendicular to the direction of energy transfer",
+          matchMy:
+              "Oscillation သည် Energy Transfer ဦးတည်ရာကို Perpendicular ဖြစ်သော Wave",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Transverse or Longitudinal Wave?",
+      titleMy: "စီစစ်ကြမည် - Transverse သို့မဟုတ် Longitudinal Wave",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Transverse Wave", "Longitudinal Wave"],
+        bucketsMy: ["Transverse Wave", "Longitudinal Wave"],
+        items: [
+          SortingItem(
+            id: "y12phys-w25-sort-1",
+            labelEn: "Light waves",
+            labelMy: "အလင်း Wave များ",
+            correctBucketEn: "Transverse Wave",
+            correctBucketMy: "Transverse Wave",
+          ),
+          SortingItem(
+            id: "y12phys-w25-sort-2",
+            labelEn: "Sound waves in air",
+            labelMy: "လေထဲရှိ အသံ Wave များ",
+            correctBucketEn: "Longitudinal Wave",
+            correctBucketMy: "Longitudinal Wave",
+          ),
+          SortingItem(
+            id: "y12phys-w25-sort-3",
+            labelEn: "Water surface ripples",
+            labelMy: "ရေမျက်နှာပြင် လှိုင်းများ",
+            correctBucketEn: "Transverse Wave",
+            correctBucketMy: "Transverse Wave",
+          ),
+          SortingItem(
+            id: "y12phys-w25-sort-4",
+            labelEn: "A compression wave sent along a stretched spring",
+            labelMy:
+                "ဆန့်ထားသော Spring တစ်ခုတလျှောက် ပို့လိုက်သော Compression Wave",
+            correctBucketEn: "Longitudinal Wave",
+            correctBucketMy: "Longitudinal Wave",
+          ),
+          SortingItem(
+            id: "y12phys-w25-sort-5",
+            labelEn: "Radio waves",
+            labelMy: "ရေဒီယို Wave များ",
+            correctBucketEn: "Transverse Wave",
+            correctBucketMy: "Transverse Wave",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring Waves in a Ripple Tank",
+      titleMy: "စာဖတ်ခြင်း - Ripple Tank တွင် Wave များ တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring Waves in a Ripple Tank",
+        titleMy: "Ripple Tank တွင် Wave များ တိုင်းတာခြင်း",
+        passageEn:
+            "Sayar Thura Kyaw's class studied water waves in a ripple tank. They counted 8 wave crests passing a fixed point in 4 seconds, and separately measured the distance spanning 5 consecutive crests along the water's surface as 20 cm. He asked them to find the wave's frequency, wavelength, and speed.\n\nAye Chan Moe found the frequency first: frequency = number of crests passing per second = 8 / 4 = 2 Hz. For the wavelength, she was careful about a common counting mistake: 5 consecutive crests span only 4 gaps between them, not 5, since the first crest marks the start of the first gap rather than a gap of its own. So the 20 cm measured corresponds to 4 wavelengths, not 5: λ = 20 / 4 = 5 cm = 0.05 m.\n\nWith both values found, Aye Chan Moe used the wave equation to find the speed: v = fλ = 2 x 0.05 = 0.1 m s⁻¹. Sayar Thura Kyaw praised her for catching the crest-counting trap, pointing out that if she had divided by 5 instead of 4, she would have found a wavelength of 4 cm instead of 5 cm -- a small-looking error that would have propagated through to a wrong speed of 0.08 m s⁻¹ instead of the correct 0.1 m s⁻¹, showing how a simple counting mistake in an experiment can quietly corrupt every calculation that follows it.",
+        passageMy:
+            "Sayar သူရကျော် ၏ အတန်းသည် Ripple Tank တစ်ခုထဲရှိ ရေ Wave များကို လေ့လာခဲ့ကြသည်။ Second 4 အတွင်း အမှတ်တစ်ခုကို ဖြတ်သန်းသွားသော Wave Crest 8 ခုကို ရေတွက်ခဲ့ပြီး ရေမျက်နှာပြင်တလျှောက် Consecutive Crest 5 ခု ဖုံးအုပ်သော Distance ကို 20 cm ဟု သီးခြား တိုင်းတာခဲ့သည်။ Wave ၏ Frequency, Wavelength နှင့် Speed ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nAye Chan Moe သည် Frequency ကို ဦးစွာ ရှာဖွေခဲ့သည် - Frequency = Second တစ်ခုလျှင် ဖြတ်သန်းသွားသော Crest အရေအတွက် = 8 / 4 = 2 Hz ။ Wavelength အတွက် ဘုံ ရေတွက်မှားနိုင်သော အချက်တစ်ခုကို သူမ သတိထားခဲ့သည် - Consecutive Crest 5 ခုသည် ပထမ Crest သည် ကိုယ်ပိုင် Gap တစ်ခု မဟုတ်ဘဲ ပထမ Gap ၏ အစကို သာ ရေတွက်ပြသောကြောင့် ၎င်းတို့ကြား Gap 4 ခုသာ ဖုံးအုပ်ပြီး 5 ခု မဟုတ်ပါ။ ထို့ကြောင့် တိုင်းတာထားသော 20 cm သည် Wavelength 4 ခုနှင့် သက်ဆိုင်ပြီး 5 ခုနှင့် မဟုတ်ပါ - λ = 20 / 4 = 5 cm = 0.05 m ။\n\nတန်ဖိုးနှစ်ခုစလုံး ရရှိပြီးနောက် Aye Chan Moe သည် Speed ကို ရှာဖွေရန် Wave Equation ကို အသုံးပြုခဲ့သည် - v = fλ = 2 x 0.05 = 0.1 m s⁻¹ ။ Crest ရေတွက်မှု၏ ထောင်ချောက်ကို ဖမ်းမိသည့်အတွက် Sayar သူရကျော် သူမကို ချီးမွမ်းခဲ့ပြီး 4 အစား 5 ဖြင့် စားလိုက်ခဲ့ပါက Wavelength 5 cm အစား 4 cm ကို တွေ့ရှိမည်ဖြစ်ကြောင်း -- သေးငယ်ပုံရသော အမှားတစ်ခုသည် ၎င်းနောက်ဆက်တွဲ တွက်ချက်မှု တိုင်းကို တိတ်တဆိတ် ချို့ယွင်းစေကာ မှန်ကန်သော 0.1 m s⁻¹ အစား မှားယွင်းသော Speed 0.08 m s⁻¹ ကို ရရှိစေမည်ဖြစ်ကြောင်း ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the wave's frequency?",
+            questionMy: "Wave ၏ Frequency ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2 Hz", "8 Hz", "4 Hz", "0.5 Hz"],
+            optionsMy: ["2 Hz", "8 Hz", "4 Hz", "0.5 Hz"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the correct wavelength?",
+            questionMy: "မှန်ကန်သော Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.05 m", "0.04 m", "0.2 m", "5 m"],
+            optionsMy: ["0.05 m", "0.04 m", "0.2 m", "5 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why do 5 consecutive crests span only 4 wavelengths?",
+            questionMy:
+                "Consecutive Crest 5 ခုသည် Wavelength 4 ခုကိုသာ အဘယ့်ကြောင့် ဖုံးအုပ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The first crest marks the start of the first gap, not a gap of its own",
+              "Crests cannot be counted accurately at all",
+              "Water waves always travel slower than expected",
+              "The ripple tank was too small to fit 5 wavelengths",
+            ],
+            optionsMy: [
+              "ပထမ Crest သည် ကိုယ်ပိုင် Gap တစ်ခု မဟုတ်ဘဲ ပထမ Gap ၏ အစကို ရေတွက်ပြသည်",
+              "Crest များကို တိကျစွာ လုံးဝ ရေတွက်၍ မရပါ",
+              "ရေ Wave များသည် ခန့်မှန်းထားသည်ထက် အမြဲ ပိုနှေးစွာ ခရီးသွားသည်",
+              "Ripple Tank သည် Wavelength 5 ခု ဝင်ရန် အလွန် သေးငယ်လွန်းသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's explanation of the counting trap.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ရှိ ရေတွက်မှု ထောင်ချောက် ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Wave Basics",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Wave အခြေခံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The wave equation is written as...",
+          questionMy: "Wave Equation ကို ...အဖြစ် ရေးသည်",
+          optionsEn: ["v = fλ", "v = ma", "v = Fs", "v = mgh"],
+          optionsMy: ["v = fλ", "v = ma", "v = Fs", "v = mgh"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a transverse wave, the oscillation is...",
+          questionMy: "Transverse Wave တစ်ခုတွင် Oscillation သည်...",
+          optionsEn: [
+            "Perpendicular to the direction of energy transfer",
+            "Parallel to the direction of energy transfer",
+            "Always zero",
+            "In every direction at once",
+          ],
+          optionsMy: [
+            "Energy Transfer ဦးတည်ရာကို Perpendicular ဖြစ်သည်",
+            "Energy Transfer ဦးတည်ရာနှင့် Parallel ဖြစ်သည်",
+            "အမြဲ Zero ဖြစ်သည်",
+            "တစ်ချိန်တည်းတွင် ဦးတည်ရာ အားလုံး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wave has a frequency of 20 Hz and a wavelength of 0.5 m. Its speed is...",
+          questionMy:
+              "Wave တစ်ခုသည် Frequency 20 Hz နှင့် Wavelength 0.5 m ရှိသည်။ ၎င်း၏ Speed မှာ...",
+          optionsEn: ["10 m s⁻¹", "20.5 m s⁻¹", "40 m s⁻¹", "0.025 m s⁻¹"],
+          optionsMy: ["10 m s⁻¹", "20.5 m s⁻¹", "40 m s⁻¹", "0.025 m s⁻¹"],
+          correctIndex: 0,
+          hintsEn: ["v = fλ = 20 x 0.5 = 10 m s⁻¹."],
+          hintsMy: ["v = fλ = 20 x 0.5 = 10 m s⁻¹ ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "The Electromagnetic Spectrum and Wave Intensity"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek26 = CourseWeekDef(
+  id: "course-y12-phys-w26",
+  weekNumber: 26,
+  titleEn: "The Electromagnetic Spectrum and Wave Intensity",
+  titleMy: "Electromagnetic Spectrum နှင့် Wave Intensity",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w26-d1",
+      dayNumber: 1,
+      titleEn: "The Electromagnetic Spectrum and Intensity",
+      titleMy: "Electromagnetic Spectrum နှင့် Intensity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "All electromagnetic waves travel through a vacuum at...",
+          questionMy:
+              "Electromagnetic Wave အားလုံးသည် Vacuum ထဲတွင် ...ဖြင့် ခရီးသွားသည်",
+          optionsEn: [
+            "The same speed, the speed of light",
+            "Different speeds depending on frequency",
+            "A speed that depends on their intensity",
+            "Zero speed",
+          ],
+          optionsMy: [
+            "အမြန်နှုန်း တူညီ၊ Speed of Light",
+            "Frequency ပေါ် မှီခိုသော အမြန်နှုန်း မတူညီများ",
+            "၎င်း၏ Intensity ပေါ် မှီခိုသော အမြန်နှုန်း",
+            "Speed Zero",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Intensity of a wave is defined as...",
+          questionMy: "Wave တစ်ခု၏ Intensity ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Power per unit area",
+            "Energy multiplied by time",
+            "Frequency divided by wavelength",
+            "Amplitude multiplied by frequency",
+          ],
+          optionsMy: [
+            "Unit Area လျှင် Power",
+            "Energy ကို Time ဖြင့် မြှောက်ခြင်း",
+            "Frequency ကို Wavelength ဖြင့် စားခြင်း",
+            "Amplitude ကို Frequency ဖြင့် မြှောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A point source has an intensity of 20 W m⁻² at a distance of 3 m. Its intensity at 6 m (double the distance) is...",
+          questionMy:
+              "Point Source တစ်ခုသည် Distance 3 m တွင် Intensity 20 W m⁻² ရှိသည်။ Distance ၏ နှစ်ဆ ဖြစ်သော 6 m တွင် ၎င်း၏ Intensity မှာ...",
+          optionsEn: ["5 W m⁻²", "10 W m⁻²", "40 W m⁻²", "80 W m⁻²"],
+          optionsMy: ["5 W m⁻²", "10 W m⁻²", "40 W m⁻²", "80 W m⁻²"],
+          correctIndex: 0,
+          hintsEn: [
+            "Intensity is inversely proportional to distance squared. Doubling distance quarters intensity: 20 / 4 = 5 W m⁻².",
+          ],
+          hintsMy: [
+            "Intensity သည် Distance ၏ Square နှင့် ပြောင်းပြန် အချိုးကျသည်။ Distance ကို နှစ်ဆ တိုးရာ Intensity ကို လေးပုံတစ်ပုံ လျော့စေသည်: 20 / 4 = 5 W m⁻² ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electromagnetic Spectrum Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Electromagnetic Spectrum ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w26-dm-1",
+          termEn: "Electromagnetic spectrum",
+          termMy: "Electromagnetic Spectrum",
+          matchEn:
+              "The continuous range of electromagnetic waves, from radio waves to gamma rays",
+          matchMy:
+              "Radio Wave မှ Gamma Ray အထိ Electromagnetic Wave ၏ ဆက်တိုက် Range",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w26-dm-2",
+          termEn: "Intensity",
+          termMy: "Intensity",
+          matchEn: "Power per unit area, measured in W m⁻²",
+          matchMy: "Unit Area လျှင် Power၊ W m⁻² ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w26-dm-3",
+          termEn: "Inverse square law",
+          termMy: "Inverse Square Law",
+          matchEn:
+              "Intensity is inversely proportional to the square of the distance from a point source",
+          matchMy:
+              "Intensity သည် Point Source မှ Distance ၏ Square နှင့် ပြောင်းပြန် အချိုးကျသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w26-dm-4",
+          termEn: "Speed of light (c)",
+          termMy: "Speed of Light (c)",
+          matchEn:
+              "The speed of all electromagnetic waves in a vacuum, approximately 3 x 10⁸ m s⁻¹",
+          matchMy:
+              "Vacuum ထဲရှိ Electromagnetic Wave အားလုံး၏ Speed၊ ခန့်မှန်းခြေ 3 x 10⁸ m s⁻¹",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w26-dm-5",
+          termEn: "Gamma rays",
+          termMy: "Gamma Rays",
+          matchEn:
+              "The highest-frequency, shortest-wavelength region of the electromagnetic spectrum",
+          matchMy:
+              "Electromagnetic Spectrum ၏ Frequency အမြင့်ဆုံး၊ Wavelength အတိုဆုံး ဒေသ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Longer or Shorter Wavelength than Visible Light?",
+      titleMy:
+          "စီစစ်ကြမည် - အမြင်အာရုံ အလင်းထက် Wavelength ပိုရှည်လား၊ ပိုတိုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Longer Wavelength than Visible Light",
+          "Shorter Wavelength than Visible Light",
+        ],
+        bucketsMy: [
+          "အမြင်အာရုံ အလင်းထက် Wavelength ပိုရှည်",
+          "အမြင်အာရုံ အလင်းထက် Wavelength ပိုတို",
+        ],
+        items: [
+          SortingItem(
+            id: "y12phys-w26-sort-1",
+            labelEn: "Radio waves",
+            labelMy: "ရေဒီယို Wave များ",
+            correctBucketEn: "Longer Wavelength than Visible Light",
+            correctBucketMy: "အမြင်အာရုံ အလင်းထက် Wavelength ပိုရှည်",
+          ),
+          SortingItem(
+            id: "y12phys-w26-sort-2",
+            labelEn: "Microwaves",
+            labelMy: "Microwave များ",
+            correctBucketEn: "Longer Wavelength than Visible Light",
+            correctBucketMy: "အမြင်အာရုံ အလင်းထက် Wavelength ပိုရှည်",
+          ),
+          SortingItem(
+            id: "y12phys-w26-sort-3",
+            labelEn: "Infrared radiation",
+            labelMy: "Infrared ဓာတ်ရောင်ခြည်",
+            correctBucketEn: "Longer Wavelength than Visible Light",
+            correctBucketMy: "အမြင်အာရုံ အလင်းထက် Wavelength ပိုရှည်",
+          ),
+          SortingItem(
+            id: "y12phys-w26-sort-4",
+            labelEn: "Ultraviolet radiation",
+            labelMy: "Ultraviolet ဓာတ်ရောင်ခြည်",
+            correctBucketEn: "Shorter Wavelength than Visible Light",
+            correctBucketMy: "အမြင်အာရုံ အလင်းထက် Wavelength ပိုတို",
+          ),
+          SortingItem(
+            id: "y12phys-w26-sort-5",
+            labelEn: "X-rays",
+            labelMy: "X-Ray များ",
+            correctBucketEn: "Shorter Wavelength than Visible Light",
+            correctBucketMy: "အမြင်အာရုံ အလင်းထက် Wavelength ပိုတို",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: How Floodlight Intensity Falls with Distance",
+      titleMy:
+          "စာဖတ်ခြင်း - Floodlight Intensity Distance နှင့်အတူ လျော့ကျခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "How Floodlight Intensity Falls with Distance",
+        titleMy: "Floodlight Intensity Distance နှင့်အတူ လျော့ကျခြင်း",
+        passageEn:
+            "Sayama Su Wai Phyo's class studied a floodlight radiating uniformly in all directions with a total power output of 800 W. She asked them to find the intensity at a distance of 5 m, then predict the intensity at 10 m without repeating the full calculation from scratch.\n\nHtet Wai Yan used intensity = power / (4πr²), since the light spreads out over the surface of an imaginary sphere of radius r centred on the source. At 5 m: intensity = 800 / (4π x 5²) = 800 / (4π x 25) = 800 / 314.16 = 2.55 W m⁻² (to 3 significant figures).\n\nRather than recalculating from scratch for 10 m, Htet Wai Yan used the inverse square law directly: doubling the distance means the intensity falls to 1/2² = 1/4 of its previous value, so intensity at 10 m = 2.55 / 4 = 0.637 W m⁻². He checked this against the full formula to confirm: 800 / (4π x 10²) = 800 / 1256.6 = 0.637 W m⁻² -- matching exactly. Sayama Su Wai Phyo pointed out that this shortcut only works because the source radiates uniformly in all directions with nothing absorbing or reflecting the light in between; a floodlight aimed as a narrow beam, or light passing through fog, would not obey the same simple inverse square relationship.",
+        passageMy:
+            "Sayama စုဝေဖြိုး ၏ အတန်းသည် Total Power Output 800 W ဖြင့် ဦးတည်ရာ အားလုံးတွင် တညီတညာတည်း ရောင်ခြည်ထုတ်လွှင့်သော Floodlight တစ်ခုကို လေ့လာခဲ့ကြသည်။ Distance 5 m ရှိ Intensity ကို ရှာဖွေပြီး Full Calculation ကို အစအဆုံး ထပ်မလုပ်ဘဲ 10 m ရှိ Intensity ကို ခန့်မှန်းခိုင်းခဲ့သည်။\n\nHtet Wai Yan သည် Intensity = Power / (4πr²) ကို အသုံးပြုခဲ့သည်၊ အလင်းသည် Source ကို ဗဟိုပြု၍ Radius r ရှိ စိတ်ကူးယဉ် Sphere တစ်ခု၏ မျက်နှာပြင်ပေါ် ပျံ့နှံ့သွားသောကြောင့် ဖြစ်သည်။ 5 m တွင် - Intensity = 800 / (4π x 5²) = 800 / (4π x 25) = 800 / 314.16 = 2.55 W m⁻² (Significant Figures ၃ ခုအထိ)။\n\n10 m အတွက် အစအဆုံး ပြန်တွက်မည့်အစား Htet Wai Yan သည် Inverse Square Law ကို တိုက်ရိုက် အသုံးပြုခဲ့သည် - Distance ကို နှစ်ဆ တိုးခြင်းက Intensity ကို ၎င်း၏ ယခင် တန်ဖိုး၏ 1/2² = 1/4 သို့ လျော့ကျစေသောကြောင့် 10 m ရှိ Intensity = 2.55 / 4 = 0.637 W m⁻² ။ ၎င်းကို Full Formula နှင့် နှိုင်းယှဉ် စစ်ဆေးခဲ့သည် - 800 / (4π x 10²) = 800 / 1256.6 = 0.637 W m⁻² -- အတိအကျ ကိုက်ညီသည်။ Source သည် ဦးတည်ရာ အားလုံးတွင် တညီတညာတည်း ရောင်ခြည်ထုတ်လွှင့်ပြီး ကြားထဲတွင် အလင်းကို စုပ်ယူ (သို့) ရောင်ပြန်ဟပ်သည့် အရာ မရှိချိန်တွင်သာ ဤ Shortcut အလုပ်ဖြစ်ကြောင်း Sayama စုဝေဖြိုး ထောက်ပြခဲ့သည်၊ ကျဉ်းမြောင်းသော Beam တစ်ခုအဖြစ် ချိန်ညှိထားသော Floodlight (သို့) မြူထူထဲကို ဖြတ်သန်းသွားသော အလင်းသည် ဤ ရိုးရှင်းသော Inverse Square Relationship တူညီကို မလိုက်နာနိုင်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the intensity at 5 m?",
+            questionMy: "5 m ရှိ Intensity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2.55 W m⁻²", "0.637 W m⁻²", "800 W m⁻²", "25 W m⁻²"],
+            optionsMy: ["2.55 W m⁻²", "0.637 W m⁻²", "800 W m⁻²", "25 W m⁻²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the intensity at 10 m?",
+            questionMy: "10 m ရှိ Intensity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0.637 W m⁻²",
+              "2.55 W m⁻²",
+              "1.275 W m⁻²",
+              "10.2 W m⁻²",
+            ],
+            optionsMy: [
+              "0.637 W m⁻²",
+              "2.55 W m⁻²",
+              "1.275 W m⁻²",
+              "10.2 W m⁻²",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, when does the simple inverse square shortcut not apply?",
+            questionMy:
+                "ရိုးရှင်းသော Inverse Square Shortcut သည် မည်သည့်အချိန် အသုံးမကျသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "When the light is a narrow beam or passes through fog",
+              "When the source is exactly 5 m away",
+              "When the power output is measured in watts",
+              "When more than one student checks the answer",
+            ],
+            optionsMy: [
+              "အလင်းသည် ကျဉ်းမြောင်းသော Beam ဖြစ်ခြင်း (သို့) မြူထူကို ဖြတ်သန်းသွားခြင်း",
+              "Source သည် အတိအကျ 5 m အကွာတွင် ရှိခြင်း",
+              "Power Output ကို Watt ဖြင့် တိုင်းတာခြင်း",
+              "ကျောင်းသား တစ်ဦးထက် ပို၍ အဖြေကို စစ်ဆေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: EM Spectrum and Intensity",
+      titleMy:
+          "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - EM Spectrum နှင့် Intensity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Intensity is calculated as...",
+          questionMy: "Intensity ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Power / area",
+            "Power x area",
+            "Power / time",
+            "Power x time",
+          ],
+          optionsMy: [
+            "Power / Area",
+            "Power x Area",
+            "Power / Time",
+            "Power x Time",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The inverse square law states that intensity is proportional to...",
+          questionMy:
+              "Inverse Square Law အရ Intensity သည် ...နှင့် အချိုးကျသည်",
+          optionsEn: ["1 / distance²", "distance²", "1 / distance", "distance"],
+          optionsMy: ["1 / Distance²", "Distance²", "1 / Distance", "Distance"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A source has an intensity of 40 W m⁻² at 2 m. At 4 m (double the distance), the intensity is...",
+          questionMy:
+              "Source တစ်ခုသည် 2 m တွင် Intensity 40 W m⁻² ရှိသည်။ 4 m (Distance ၏ နှစ်ဆ) တွင် Intensity မှာ...",
+          optionsEn: ["10 W m⁻²", "20 W m⁻²", "80 W m⁻²", "160 W m⁻²"],
+          optionsMy: ["10 W m⁻²", "20 W m⁻²", "80 W m⁻²", "160 W m⁻²"],
+          correctIndex: 0,
+          hintsEn: ["Doubling distance quarters intensity: 40 / 4 = 10 W m⁻²."],
+          hintsMy: [
+            "Distance ကို နှစ်ဆ တိုးခြင်းက Intensity ကို လေးပုံတစ်ပုံ လျော့စေသည်: 40 / 4 = 10 W m⁻² ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "Polarization and Wave Behaviour"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek27 = CourseWeekDef(
+  id: "course-y12-phys-w27",
+  weekNumber: 27,
+  titleEn: "Polarization and Wave Behaviour",
+  titleMy: "Polarization နှင့် Wave Behaviour",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w27-d1",
+      dayNumber: 1,
+      titleEn: "Polarization Basics",
+      titleMy: "Polarization အခြေခံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Polarization is a phenomenon that can occur in...",
+          questionMy:
+              "Polarization သည် ...တွင်သာ ဖြစ်ပေါ်နိုင်သော Phenomenon ဖြစ်သည်",
+          optionsEn: [
+            "Transverse waves only",
+            "Longitudinal waves only",
+            "Both transverse and longitudinal waves equally",
+            "Neither transverse nor longitudinal waves",
+          ],
+          optionsMy: [
+            "Transverse Wave များတွင်သာ",
+            "Longitudinal Wave များတွင်သာ",
+            "Transverse နှင့် Longitudinal Wave နှစ်မျိုးစလုံးတွင် အညီအမျှ",
+            "Transverse နှင့် Longitudinal Wave နှစ်မျိုးလုံးတွင် မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Unpolarized light passed through a single polarizing filter becomes...",
+          questionMy:
+              "Polarizing Filter တစ်ခုကို ဖြတ်သန်းသွားသော Unpolarized Light သည် ...ဖြစ်လာသည်",
+          optionsEn: [
+            "Polarized, oscillating in a single plane",
+            "Unpolarized still, unchanged in every way",
+            "Completely blocked, with zero transmitted intensity",
+            "Converted into a longitudinal wave",
+          ],
+          optionsMy: [
+            "Plane တစ်ခုတည်းတွင် Oscillate ဖြစ်သော Polarized",
+            "ပြောင်းလဲခြင်း လုံးဝ မရှိဘဲ Unpolarized ဆက်လက်ဖြစ်သည်",
+            "Transmitted Intensity Zero ဖြင့် လုံးဝ ပိတ်ဆို့ခံရသည်",
+            "Longitudinal Wave အဖြစ် ပြောင်းလဲသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two polarizing filters are crossed at 90° to each other. The light transmitted through both is...",
+          questionMy:
+              "Polarizing Filter နှစ်ခုကို 90° Angle ဖြင့် ဖြတ်တောက်ထားသည်။ နှစ်ခုစလုံးကို ဖြတ်သန်းသွားသော အလင်းမှာ...",
+          optionsEn: [
+            "Zero -- completely blocked",
+            "Exactly the same as with one filter",
+            "Twice as bright as with one filter",
+            "Half as bright as unpolarized light",
+          ],
+          optionsMy: [
+            "Zero -- လုံးဝ ပိတ်ဆို့ခံရသည်",
+            "Filter တစ်ခုတည်းနှင့် အတိအကျ တူညီသည်",
+            "Filter တစ်ခုတည်း၏ နှစ်ဆ တောက်ပသည်",
+            "Unpolarized Light ၏ တစ်ဝက်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Polarization Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Polarization ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w27-dm-1",
+          termEn: "Polarization",
+          termMy: "Polarization",
+          matchEn:
+              "Restricting the oscillations of a transverse wave to a single plane",
+          matchMy:
+              "Transverse Wave ၏ Oscillation ကို Plane တစ်ခုတည်းသို့ ကန့်သတ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w27-dm-2",
+          termEn: "Polarizing filter",
+          termMy: "Polarizing Filter",
+          matchEn:
+              "A material that only transmits the component of a wave's oscillation aligned with its transmission axis",
+          matchMy:
+              "Wave ၏ Oscillation ၏ ၎င်း Transmission Axis နှင့် ညီညွတ်သော Component ကိုသာ ဖြတ်သန်းစေသော ပစ္စည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w27-dm-3",
+          termEn: "Unpolarized light",
+          termMy: "Unpolarized Light",
+          matchEn:
+              "Light with oscillations in all planes perpendicular to its direction of travel",
+          matchMy:
+              "၎င်း ခရီးသွားရာ ဦးတည်ရာကို Perpendicular ဖြစ်သော Plane အားလုံးတွင် Oscillation ရှိသော အလင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w27-dm-4",
+          termEn: "Malus's law",
+          termMy: "Malus's Law",
+          matchEn:
+              "Describes how transmitted intensity varies with the angle between a polarizer's axis and the light's plane of polarization",
+          matchMy:
+              "Polarizer Axis နှင့် အလင်း၏ Plane of Polarization ကြား Angle နှင့်အတူ Transmitted Intensity မည်သို့ ပြောင်းလဲသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w27-dm-5",
+          termEn: "Evidence for transverse waves",
+          termMy: "Transverse Wave အထောက်အထား",
+          matchEn:
+              "Polarization is only possible for transverse waves, since longitudinal waves have no perpendicular oscillation to restrict",
+          matchMy:
+              "Longitudinal Wave တွင် ကန့်သတ်ရန် Perpendicular Oscillation မရှိသောကြောင့် Polarization သည် Transverse Wave တွင်သာ ဖြစ်နိုင်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Can Be Polarized or Not?",
+      titleMy: "စီစစ်ကြမည် - Polarize လုပ်နိုင်သလား၊ မလုပ်နိုင်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Can Be Polarized", "Cannot Be Polarized"],
+        bucketsMy: ["Polarize လုပ်နိုင်သည်", "Polarize မလုပ်နိုင်ပါ"],
+        items: [
+          SortingItem(
+            id: "y12phys-w27-sort-1",
+            labelEn: "Light waves",
+            labelMy: "အလင်း Wave များ",
+            correctBucketEn: "Can Be Polarized",
+            correctBucketMy: "Polarize လုပ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w27-sort-2",
+            labelEn: "Sound waves in air",
+            labelMy: "လေထဲရှိ အသံ Wave များ",
+            correctBucketEn: "Cannot Be Polarized",
+            correctBucketMy: "Polarize မလုပ်နိုင်ပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w27-sort-3",
+            labelEn: "Radio waves",
+            labelMy: "ရေဒီယို Wave များ",
+            correctBucketEn: "Can Be Polarized",
+            correctBucketMy: "Polarize လုပ်နိုင်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w27-sort-4",
+            labelEn: "A compression wave along a spring",
+            labelMy: "Spring တစ်ခုတလျှောက်ရှိ Compression Wave",
+            correctBucketEn: "Cannot Be Polarized",
+            correctBucketMy: "Polarize မလုပ်နိုင်ပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w27-sort-5",
+            labelEn: "Microwaves",
+            labelMy: "Microwave များ",
+            correctBucketEn: "Can Be Polarized",
+            correctBucketMy: "Polarize လုပ်နိုင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Testing Polarizing Filters",
+      titleMy: "စာဖတ်ခြင်း - Polarizing Filter များ စမ်းသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Testing Polarizing Filters",
+        titleMy: "Polarizing Filter များ စမ်းသပ်ခြင်း",
+        passageEn:
+            "Sayar Kaung Htet Zin shone unpolarized light of intensity 100 W m⁻² through a single polarizing filter, and his class measured the transmitted intensity as 50 W m⁻². He then asked them to predict what would happen when a second, identical filter was added -- first aligned with the first filter's transmission axis, then rotated by 90°.\n\nChan Myae Aung reasoned it through: the light emerging from the first filter is already polarized, oscillating in just one plane, aligned with that filter's transmission axis. A second filter aligned with the exact same axis transmits this already-polarized light unchanged, so the intensity stays at 50 W m⁻². But rotating the second filter by 90° makes its transmission axis perpendicular to the light's plane of polarization -- no component of the oscillation survives that rotation, so the transmitted intensity drops to 0 W m⁻².\n\nSayar Kaung Htet Zin then connected this to a familiar object: polarizing sunglasses. Rotating a polarizing filter through angles between 0° and 90° produces transmitted intensities smoothly between 50 W m⁻² and 0 W m⁻², rather than jumping straight from one extreme to the other -- which is exactly why polarizing sunglasses reduce glare by a controllable amount rather than blocking all light or none, and why tilting your head can noticeably change how much a polarized glare (like sunlight reflected off water) is blocked.",
+        passageMy:
+            "Sayar ကောင်းထက်ဇင် သည် Unpolarized Light Intensity 100 W m⁻² ကို Polarizing Filter တစ်ခုကို ဖြတ်သန်းစေပြီး သူ၏ အတန်းက Transmitted Intensity ကို 50 W m⁻² ဟု တိုင်းတာခဲ့သည်။ ထို့နောက် Filter တူညီ ဒုတိယတစ်ခု ထည့်သွင်းလိုက်ပါက အဘယ်သို့ ဖြစ်လာမည်ကို ခန့်မှန်းခိုင်းခဲ့သည် -- ပထမ Filter ၏ Transmission Axis နှင့် ညီညွတ်စွာ၊ ထို့နောက် 90° ဖြင့် လှည့်ပတ်ထားစွာ။\n\nChan Myae Aung သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - ပထမ Filter မှ ထွက်လာသော အလင်းသည် ပြီးပြည့်စုံစွာ Polarized ဖြစ်ပြီး Plane တစ်ခုတည်းတွင်သာ Oscillate ဖြစ်ကာ ထို Filter ၏ Transmission Axis နှင့် ညီညွတ်နေသည်။ Axis တူညီအတိအကျ ရှိသော ဒုတိယ Filter သည် ဤ Polarized ပြီးသား အလင်းကို ပြောင်းလဲခြင်း မရှိဘဲ ဖြတ်သန်းစေသောကြောင့် Intensity သည် 50 W m⁻² တွင် ဆက်ရှိနေသည်။ သို့သော် ဒုတိယ Filter ကို 90° ဖြင့် လှည့်ပတ်ခြင်းက ၎င်း၏ Transmission Axis ကို အလင်း၏ Plane of Polarization ကို Perpendicular ဖြစ်စေသည် -- ထို လှည့်ပတ်မှုကို Oscillation ၏ Component မည်သည့်တစ်ခုမျှ မကျန်ရစ်တော့သောကြောင့် Transmitted Intensity သည် 0 W m⁻² သို့ ကျဆင်းသွားသည်။\n\nSayar ကောင်းထက်ဇင် ထို့နောက် ၎င်းကို ရင်းနှီးသော အရာတစ်ခုနှင့် ဆက်စပ်ပေးခဲ့သည် - Polarizing မျက်မှန်။ Polarizing Filter တစ်ခုကို 0° နှင့် 90° ကြား Angle များဖြင့် လှည့်ပတ်ခြင်းက Extreme တစ်ခုမှ တစ်ခုသို့ တိုက်ရိုက် ခုန်ကူးမည့်အစား 50 W m⁻² နှင့် 0 W m⁻² ကြား ချောမွေ့စွာ ပြောင်းလဲသော Transmitted Intensity များကို ဖြစ်ပေါ်စေသည် -- ၎င်းသည် Polarizing မျက်မှန်များသည် အလင်းအားလုံး ပိတ်ဆို့ခြင်း (သို့) ဘာမျှ ပိတ်ဆို့ခြင်း မရှိသည့်အစား ထိန်းချုပ်နိုင်သော ပမာဏဖြင့် Glare ကို လျော့ချပေးသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပြီး ခေါင်းကို ယိမ်းလိုက်ခြင်းက Polarized Glare (ဥပမာ ရေပေါ် ရောင်ပြန်ဟပ်သော နေရောင်ခြည်) ကို ပိတ်ဆို့ထားမှု မည်မျှ ပြောင်းလဲသည်ကို သိသိသာသာ ပြောင်းလဲစေနိုင်သည့် အကြောင်းရင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the transmitted intensity after the first filter?",
+            questionMy:
+                "ပထမ Filter ပြီးနောက် Transmitted Intensity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["50 W m⁻²", "100 W m⁻²", "0 W m⁻²", "25 W m⁻²"],
+            optionsMy: ["50 W m⁻²", "100 W m⁻²", "0 W m⁻²", "25 W m⁻²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the transmitted intensity after a second filter aligned with the first?",
+            questionMy:
+                "ပထမတစ်ခုနှင့် ညီညွတ်သော ဒုတိယ Filter ပြီးနောက် Transmitted Intensity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["50 W m⁻²", "100 W m⁻²", "0 W m⁻²", "25 W m⁻²"],
+            optionsMy: ["50 W m⁻²", "100 W m⁻²", "0 W m⁻²", "25 W m⁻²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the transmitted intensity after the second filter is rotated by 90°?",
+            questionMy:
+                "ဒုတိယ Filter ကို 90° ဖြင့် လှည့်ပတ်ပြီးနောက် Transmitted Intensity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0 W m⁻²", "50 W m⁻²", "100 W m⁻²", "25 W m⁻²"],
+            optionsMy: ["0 W m⁻²", "50 W m⁻²", "100 W m⁻²", "25 W m⁻²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Polarization",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Polarization",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Polarization can only occur in...",
+          questionMy: "Polarization သည် ...တွင်သာ ဖြစ်ပေါ်နိုင်သည်",
+          optionsEn: [
+            "Transverse waves",
+            "Longitudinal waves",
+            "Sound waves only",
+            "Water waves only",
+          ],
+          optionsMy: [
+            "Transverse Wave များ",
+            "Longitudinal Wave များ",
+            "Sound Wave များသာ",
+            "Water Wave များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two crossed polarizing filters at 90° to each other transmit...",
+          questionMy:
+              "90° ဖြင့် ဖြတ်တောက်ထားသော Polarizing Filter နှစ်ခုသည် ...ဖြတ်သန်းစေသည်",
+          optionsEn: [
+            "No light at all",
+            "All of the light unchanged",
+            "Exactly half the light",
+            "Twice as much light",
+          ],
+          optionsMy: [
+            "အလင်း လုံးဝ မဟုတ်ပါ",
+            "အလင်း အားလုံး မပြောင်းလဲဘဲ",
+            "အလင်း၏ တစ်ဝက် အတိအကျ",
+            "အလင်း နှစ်ဆ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sound cannot be polarized because...",
+          questionMy: "အသံကို Polarize မလုပ်နိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It is a longitudinal wave with no perpendicular oscillation",
+            "It travels too fast",
+            "It has no frequency",
+            "It only exists in a vacuum",
+          ],
+          optionsMy: [
+            "Perpendicular Oscillation မရှိသော Longitudinal Wave ဖြစ်သောကြောင့်",
+            "လွန်စွာ မြန်ဆန်စွာ ခရီးသွားသောကြောင့်",
+            "Frequency လုံးဝ မရှိသောကြောင့်",
+            "Vacuum ထဲတွင်သာ တည်ရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28: "Waves and the Electromagnetic Spectrum Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek28 = CourseWeekDef(
+  id: "course-y12-phys-w28",
+  weekNumber: 28,
+  titleEn: "Waves and the Electromagnetic Spectrum Capstone",
+  titleMy: "Waves and the Electromagnetic Spectrum အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w28-d1",
+      dayNumber: 1,
+      titleEn: "Combining Wave Basics, EM Spectrum and Polarization",
+      titleMy: "Wave အခြေခံ, EM Spectrum နှင့် Polarization ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A wave has a frequency of 25 Hz and a wavelength of 4 m. Its speed is...",
+          questionMy:
+              "Wave တစ်ခုသည် Frequency 25 Hz နှင့် Wavelength 4 m ရှိသည်။ ၎င်း၏ Speed မှာ...",
+          optionsEn: ["100 m s⁻¹", "29 m s⁻¹", "6.25 m s⁻¹", "0.16 m s⁻¹"],
+          optionsMy: ["100 m s⁻¹", "29 m s⁻¹", "6.25 m s⁻¹", "0.16 m s⁻¹"],
+          correctIndex: 0,
+          hintsEn: ["v = fλ = 25 x 4 = 100 m s⁻¹."],
+          hintsMy: ["v = fλ = 25 x 4 = 100 m s⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A source has intensity 80 W m⁻² at 1 m. At 2 m (double the distance), the intensity is...",
+          questionMy:
+              "Source တစ်ခုသည် 1 m တွင် Intensity 80 W m⁻² ရှိသည်။ 2 m (Distance ၏ နှစ်ဆ) တွင် Intensity မှာ...",
+          optionsEn: ["20 W m⁻²", "40 W m⁻²", "160 W m⁻²", "320 W m⁻²"],
+          optionsMy: ["20 W m⁻²", "40 W m⁻²", "160 W m⁻²", "320 W m⁻²"],
+          correctIndex: 0,
+          hintsEn: ["Doubling distance quarters intensity: 80 / 4 = 20 W m⁻²."],
+          hintsMy: [
+            "Distance ကို နှစ်ဆ တိုးခြင်းက Intensity ကို လေးပုံတစ်ပုံ လျော့စေသည်: 80 / 4 = 20 W m⁻² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Radio waves can be polarized because they are...",
+          questionMy:
+              "Radio Wave များကို Polarize လုပ်နိုင်ရသည့် အကြောင်းရင်းမှာ ၎င်းတို့သည်...",
+          optionsEn: [
+            "Transverse waves",
+            "Longitudinal waves",
+            "Always stationary",
+            "Not electromagnetic waves",
+          ],
+          optionsMy: [
+            "Transverse Wave များ ဖြစ်ကြသည်",
+            "Longitudinal Wave များ ဖြစ်ကြသည်",
+            "အမြဲတမ်း Stationary ဖြစ်ကြသည်",
+            "Electromagnetic Wave များ မဟုတ်ကြပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၇ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w28-dm-1",
+          termEn: "Wave equation: v = ",
+          termMy: "Wave Equation: v = ",
+          matchEn: "fλ",
+          matchMy: "fλ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w28-dm-2",
+          termEn: "Period: T = ",
+          termMy: "Period: T = ",
+          matchEn: "1/f",
+          matchMy: "1/f",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w28-dm-3",
+          termEn: "Intensity = ",
+          termMy: "Intensity = ",
+          matchEn: "Power / area",
+          matchMy: "Power / Area",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w28-dm-4",
+          termEn: "Inverse square law",
+          termMy: "Inverse Square Law",
+          matchEn: "Intensity is inversely proportional to distance squared",
+          matchMy:
+              "Intensity သည် Distance ၏ Square နှင့် ပြောင်းပြန် အချိုးကျသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w28-dm-5",
+          termEn: "Polarization is possible for...",
+          termMy: "Polarization ဖြစ်နိုင်သည်မှာ...",
+          matchEn: "Transverse waves only",
+          matchMy: "Transverse Wave များတွင်သာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Wave Basics/EM Spectrum or Polarization?",
+      titleMy: "စီစစ်ကြမည် - Wave Basics/EM Spectrum သို့မဟုတ် Polarization",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Wave Basics/EM Spectrum", "Polarization"],
+        bucketsMy: ["Wave Basics/EM Spectrum", "Polarization"],
+        items: [
+          SortingItem(
+            id: "y12phys-w28-sort-1",
+            labelEn: "Wave speed equals frequency multiplied by wavelength",
+            labelMy:
+                "Wave Speed သည် Frequency ကို Wavelength ဖြင့် မြှောက်ထားခြင်းနှင့် ညီမျှသည်",
+            correctBucketEn: "Wave Basics/EM Spectrum",
+            correctBucketMy: "Wave Basics/EM Spectrum",
+          ),
+          SortingItem(
+            id: "y12phys-w28-sort-2",
+            labelEn: "Two crossed filters at 90° block all transmitted light",
+            labelMy:
+                "90° ဖြင့် ဖြတ်တောက်ထားသော Filter နှစ်ခုသည် Transmitted Light အားလုံးကို ပိတ်ဆို့သည်",
+            correctBucketEn: "Polarization",
+            correctBucketMy: "Polarization",
+          ),
+          SortingItem(
+            id: "y12phys-w28-sort-3",
+            labelEn: "Intensity falls following the inverse square law",
+            labelMy: "Intensity သည် Inverse Square Law အတိုင်း ကျဆင်းသည်",
+            correctBucketEn: "Wave Basics/EM Spectrum",
+            correctBucketMy: "Wave Basics/EM Spectrum",
+          ),
+          SortingItem(
+            id: "y12phys-w28-sort-4",
+            labelEn:
+                "Only transverse waves can be restricted to a single oscillation plane",
+            labelMy:
+                "Transverse Wave များကိုသာ Oscillation Plane တစ်ခုတည်းသို့ ကန့်သတ်နိုင်သည်",
+            correctBucketEn: "Polarization",
+            correctBucketMy: "Polarization",
+          ),
+          SortingItem(
+            id: "y12phys-w28-sort-5",
+            labelEn:
+                "All electromagnetic waves travel at the speed of light in a vacuum",
+            labelMy:
+                "Electromagnetic Wave အားလုံးသည် Vacuum ထဲတွင် Speed of Light ဖြင့် ခရီးသွားသည်",
+            correctBucketEn: "Wave Basics/EM Spectrum",
+            correctBucketMy: "Wave Basics/EM Spectrum",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Analyzing a Radio Transmitter's Signal",
+      titleMy: "စာဖတ်ခြင်း - Radio Transmitter Signal ခွဲခြမ်းစိတ်ဖြာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Analyzing a Radio Transmitter's Signal",
+        titleMy: "Radio Transmitter Signal ခွဲခြမ်းစိတ်ဖြာခြင်း",
+        passageEn:
+            "For their Term 7 capstone, Sayama Ohnmar Swe's class analyzed a local FM radio transmitter broadcasting at a frequency of 100 MHz (1 x 10⁸ Hz), combining the wave equation, the inverse square law, and polarization into one problem.\n\nShin Thant Sin first found the signal's wavelength, using the fact that all electromagnetic waves travel at the speed of light, c = 3 x 10⁸ m s⁻¹, in air: λ = c / f = (3 x 10⁸) / (1 x 10⁸) = 3 m. Next, she considered how the signal's intensity changes with distance from the transmitter: since the transmitter radiates outward and no absorption is assumed, intensity follows the inverse square law, so tripling the distance from the transmitter -- say, from 2 km to 6 km -- reduces the intensity to 1/3² = 1/9 of its value at 2 km.\n\nSayama Ohnmar Swe then asked why FM radio receivers have antennas that must be oriented in a particular direction to pick up the strongest signal, rather than working equally well in any orientation. Shin Thant Sin explained that this is only possible because radio waves are transverse electromagnetic waves and can therefore be polarized: a transmitter broadcasts with its oscillations aligned along a particular plane, and a receiving antenna picks up the strongest signal when its own orientation is aligned with that same plane -- exactly the same underlying principle demonstrated earlier in the term with polarizing filters and visible light, just applied to a very different, much longer wavelength.",
+        passageMy:
+            "သူတို့၏ Term 7 အထွတ်အထိပ်အတွက် Sayama အုန်းမာစွေ ၏ အတန်းသည် Frequency 100 MHz (1 x 10⁸ Hz) ဖြင့် Broadcast လုပ်နေသော ဒေသတွင်း FM Radio Transmitter တစ်ခုကို Wave Equation, Inverse Square Law နှင့် Polarization တို့ကို ပေါင်းစပ်၍ ခွဲခြမ်းစိတ်ဖြာခဲ့ကြသည်။\n\nShin Thant Sin သည် Electromagnetic Wave အားလုံးသည် လေထဲတွင် Speed of Light, c = 3 x 10⁸ m s⁻¹ ဖြင့် ခရီးသွားသည်ဟူသော အချက်ကို အသုံးပြု၍ Signal ၏ Wavelength ကို ဦးစွာ ရှာဖွေခဲ့သည် - λ = c / f = (3 x 10⁸) / (1 x 10⁸) = 3 m ။ ထို့နောက် Transmitter မှ Distance နှင့်အတူ Signal ၏ Intensity မည်သို့ ပြောင်းလဲသည်ကို သူမ ထည့်သွင်းစဉ်းစားခဲ့သည် - Transmitter သည် အပြင်ဘက်သို့ ရောင်ခြည်ထုတ်လွှင့်ပြီး Absorption ကို ယူဆထားခြင်း မရှိသောကြောင့် Intensity သည် Inverse Square Law အတိုင်း ကျဆင်းသည်၊ ထို့ကြောင့် Transmitter မှ Distance ကို သုံးဆ တိုးခြင်း -- ဥပမာ 2 km မှ 6 km သို့ -- သည် 2 km ရှိ တန်ဖိုး၏ 1/3² = 1/9 သို့ Intensity ကို လျော့ချသည်။\n\nFM Radio Receiver များ၏ Antenna များသည် Orientation မည်သို့ပင် ရှိစေ တူညီစွာ အလုပ်လုပ်မည့်အစား အပြင်းဆုံး Signal ကို ရယူရန် Direction တိကျစွာ ချိန်ညှိရသည့် အကြောင်းရင်းကို Sayama အုန်းမာစွေ ထို့နောက် မေးမြန်းခဲ့သည်။ Radio Wave များသည် Transverse Electromagnetic Wave ဖြစ်၍ Polarize လုပ်နိုင်သောကြောင့်သာ ၎င်းသည် ဖြစ်နိုင်ကြောင်း Shin Thant Sin ရှင်းပြခဲ့သည် - Transmitter တစ်ခုသည် ၎င်း၏ Oscillation များကို Plane အထူးတစ်ခုတလျှောက် ညီညွတ်စွာ Broadcast လုပ်ပြီး Receiving Antenna တစ်ခုသည် ၎င်းကိုယ်ပိုင် Orientation ကို ထို Plane တူညီနှင့် ညီညွတ်ချိန်တွင် အပြင်းဆုံး Signal ကို ရယူသည် -- Term အစောပိုင်းက Polarizing Filter များနှင့် အမြင်အာရုံ အလင်းဖြင့် သရုပ်ပြခဲ့သော Underlying Principle တူညီအတိအကျ ဖြစ်ပြီး Wavelength များစွာ ပိုရှည်သော Wave တစ်ခုအပေါ် အသုံးချထားခြင်းသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the signal's wavelength?",
+            questionMy: "Signal ၏ Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3 m", "100 m", "1 x 10⁸ m", "3 x 10⁸ m"],
+            optionsMy: ["3 m", "100 m", "1 x 10⁸ m", "3 x 10⁸ m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what fraction of the intensity at 2 km remains at 6 km?",
+            questionMy:
+                "6 km တွင် 2 km ရှိ Intensity ၏ မည်မျှ ကျန်ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1/9", "1/3", "1/6", "1/2"],
+            optionsMy: ["1/9", "1/3", "1/6", "1/2"],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second paragraph's inverse square law reasoning.",
+            ],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်ရှိ Inverse Square Law ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why must a receiving antenna be oriented in a particular direction?",
+            questionMy:
+                "Receiving Antenna တစ်ခုကို Direction တိကျစွာ အဘယ့်ကြောင့် ချိန်ညှိရသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Radio waves are transverse and polarized, so alignment with the oscillation plane matters",
+              "Radio waves travel slower in some directions than others",
+              "Antennas can only detect longitudinal waves",
+              "The transmitter's frequency changes with direction",
+            ],
+            optionsMy: [
+              "Radio Wave များသည် Transverse ဖြစ်ပြီး Polarize ဖြစ်နေသောကြောင့် Oscillation Plane နှင့် ညီညွတ်ခြင်းသည် အရေးကြီးသည်",
+              "Radio Wave များသည် Direction တစ်ချို့တွင် အခြားတို့ထက် ပိုနှေးစွာ ခရီးသွားသည်",
+              "Antenna များသည် Longitudinal Wave များကိုသာ Detect လုပ်နိုင်သည်",
+              "Transmitter ၏ Frequency သည် Direction နှင့်အတူ ပြောင်းလဲသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Waves and the Electromagnetic Spectrum",
+      titleMy: "Term ၇ အထွတ်အထိပ် - Waves and the Electromagnetic Spectrum",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The wave equation is...",
+          questionMy: "Wave Equation မှာ...",
+          optionsEn: ["v = fλ", "v = ma", "v = mgh", "v = Fs"],
+          optionsMy: ["v = fλ", "v = ma", "v = mgh", "v = Fs"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "All electromagnetic waves in a vacuum travel at...",
+          questionMy:
+              "Vacuum ထဲရှိ Electromagnetic Wave အားလုံးသည် ...ဖြင့် ခရီးသွားသည်",
+          optionsEn: [
+            "The same speed, c",
+            "Different speeds",
+            "Zero speed",
+            "A speed that depends on colour only",
+          ],
+          optionsMy: [
+            "အမြန်နှုန်း တူညီ c",
+            "အမြန်နှုန်း မတူညီများ",
+            "Speed Zero",
+            "အရောင်ပေါ်သာ မှီခိုသော Speed",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Intensity from a point source follows...",
+          questionMy: "Point Source တစ်ခုမှ Intensity သည် ...ကို လိုက်နာသည်",
+          optionsEn: [
+            "The inverse square law",
+            "A direct proportionality with distance",
+            "No relationship with distance at all",
+            "A linear increase with distance",
+          ],
+          optionsMy: [
+            "Inverse Square Law",
+            "Distance နှင့် တိုက်ရိုက် အချိုးကျမှု",
+            "Distance နှင့် ဆက်စပ်မှု လုံးဝ မရှိပါ",
+            "Distance နှင့်အတူ Linear တိုးမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Polarization is only possible for transverse waves because...",
+          questionMy:
+              "Polarization သည် Transverse Wave များတွင်သာ ဖြစ်နိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Only transverse waves have a perpendicular oscillation to restrict",
+            "Transverse waves travel faster than longitudinal waves",
+            "Longitudinal waves have no frequency",
+            "Transverse waves cannot carry energy",
+          ],
+          optionsMy: [
+            "Transverse Wave များတွင်သာ ကန့်သတ်ရန် Perpendicular Oscillation ရှိသည်",
+            "Transverse Wave များသည် Longitudinal Wave များထက် ပိုမြန်စွာ ခရီးသွားသည်",
+            "Longitudinal Wave များတွင် Frequency လုံးဝ မရှိပါ",
+            "Transverse Wave များသည် Energy ကို သယ်ဆောင်၍ မရပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm7 = CourseTermDef(
+  id: "course-y12-phys-term7",
+  termNumber: 7,
+  titleEn: "Waves and the Electromagnetic Spectrum",
+  titleMy: "Waves and the Electromagnetic Spectrum",
+  weeks: [_y12PhysWeek25, _y12PhysWeek26, _y12PhysWeek27, _y12PhysWeek28],
+  certificateTitleEn: "AS Physics: Waves and the Electromagnetic Spectrum",
+  certificateTitleMy: "AS ရူပဗေဒ - Waves and the Electromagnetic Spectrum",
 );
 
 // __TERMS_MARKER__
