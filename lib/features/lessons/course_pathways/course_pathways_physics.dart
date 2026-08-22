@@ -13934,10 +13934,10 @@ const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
   certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
 );
 
-/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-5
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-6
 /// (Physical Quantities, Units and Measurement; Kinematics; Dynamics;
-/// Forces, Density and Pressure; Work, Energy and Power) authored; Terms
-/// 6-9 (Deformation of Solids; Waves and the Electromagnetic Spectrum;
+/// Forces, Density and Pressure; Work, Energy and Power; Deformation of
+/// Solids) authored; Terms 7-9 (Waves and the Electromagnetic Spectrum;
 /// Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
 /// No LaTeX renderer exists in this app -- formulas throughout use the
 /// same plain Unicode math notation (², √, x for multiplication) already
@@ -13952,13 +13952,14 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 20,
+  totalWeeks: 24,
   terms: [
     year12PhysicsTerm1,
     year12PhysicsTerm2,
     year12PhysicsTerm3,
     year12PhysicsTerm4,
     year12PhysicsTerm5,
+    year12PhysicsTerm6,
   ],
 );
 
@@ -18987,6 +18988,1201 @@ const CourseTermDef year12PhysicsTerm5 = CourseTermDef(
   weeks: [_y12PhysWeek17, _y12PhysWeek18, _y12PhysWeek19, _y12PhysWeek20],
   certificateTitleEn: "AS Physics: Work, Energy and Power",
   certificateTitleMy: "AS ရူပဗေဒ - Work, Energy နှင့် Power",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 6: "Deformation of Solids"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "Hooke's Law and Elastic Deformation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek21 = CourseWeekDef(
+  id: "course-y12-phys-w21",
+  weekNumber: 21,
+  titleEn: "Hooke's Law and Elastic Deformation",
+  titleMy: "Hooke's Law နှင့် Elastic Deformation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w21-d1",
+      dayNumber: 1,
+      titleEn: "Hooke's Law Formulas",
+      titleMy: "Hooke's Law ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Hooke's law states that...",
+          questionMy: "Hooke's Law အရ...",
+          optionsEn: [
+            "Extension is directly proportional to the applied force, provided the limit of proportionality is not exceeded",
+            "Extension is always equal to the applied force",
+            "Force is inversely proportional to extension at all times",
+            "Extension never depends on the applied force",
+          ],
+          optionsMy: [
+            "Limit of Proportionality ကို မကျော်လွန်သရွေ့ Extension သည် သက်ရောက်သော Force နှင့် တိုက်ရိုက် အချိုးကျသည်",
+            "Extension သည် သက်ရောက်သော Force နှင့် အမြဲ ညီမျှသည်",
+            "Force သည် Extension နှင့် အချိန်တိုင်း ပြောင်းပြန် အချိုးကျသည်",
+            "Extension သည် သက်ရောက်သော Force ပေါ် လုံးဝ မမှီခိုပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A spring has a spring constant of 50 N m⁻¹ and is stretched by 0.2 m. The force applied is...",
+          questionMy:
+              "Spring တစ်ခုသည် Spring Constant 50 N m⁻¹ ရှိပြီး 0.2 m ဆန့်ထားသည်။ သက်ရောက်သော Force မှာ...",
+          optionsEn: ["10 N", "0.004 N", "50.2 N", "250 N"],
+          optionsMy: ["10 N", "0.004 N", "50.2 N", "250 N"],
+          correctIndex: 0,
+          hintsEn: ["F = kx = 50 x 0.2 = 10 N."],
+          hintsMy: ["F = kx = 50 x 0.2 = 10 N ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force of 20 N stretches a spring of spring constant 100 N m⁻¹. The extension is...",
+          questionMy:
+              "Force 20 N သည် Spring Constant 100 N m⁻¹ ရှိသော Spring ကို ဆန့်ထားသည်။ Extension မှာ...",
+          optionsEn: ["0.2 m", "2000 m", "80 m", "5 m"],
+          optionsMy: ["0.2 m", "2000 m", "80 m", "5 m"],
+          correctIndex: 0,
+          hintsEn: ["x = F / k = 20 / 100 = 0.2 m."],
+          hintsMy: ["x = F / k = 20 / 100 = 0.2 m ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hooke's Law Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Hooke's Law ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w21-dm-1",
+          termEn: "Hooke's law",
+          termMy: "Hooke's Law",
+          matchEn:
+              "Extension is directly proportional to force, up to the limit of proportionality",
+          matchMy:
+              "Limit of Proportionality အထိ Extension သည် Force နှင့် တိုက်ရိုက် အချိုးကျသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w21-dm-2",
+          termEn: "Spring constant (k)",
+          termMy: "Spring Constant (k)",
+          matchEn: "The force needed per unit extension, measured in N m⁻¹",
+          matchMy:
+              "Unit Extension လျှင် လိုအပ်သော Force၊ N m⁻¹ ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w21-dm-3",
+          termEn: "Limit of proportionality",
+          termMy: "Limit of Proportionality",
+          matchEn:
+              "The point beyond which extension is no longer directly proportional to force",
+          matchMy:
+              "Extension သည် Force နှင့် တိုက်ရိုက် အချိုးမကျတော့သော အမှတ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w21-dm-4",
+          termEn: "Elastic limit",
+          termMy: "Elastic Limit",
+          matchEn:
+              "The point beyond which a material no longer returns to its original shape when the force is removed",
+          matchMy:
+              "Force ဖယ်ရှားလိုက်ချိန် ပစ္စည်းတစ်ခု၏ မူလ ပုံသဏ္ဌာန်သို့ မပြန်ရောက်တော့သော အမှတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w21-dm-5",
+          termEn: "Extension",
+          termMy: "Extension",
+          matchEn:
+              "The increase in length of a stretched material from its original length",
+          matchMy: "ဆန့်ထားသော ပစ္စည်းတစ်ခု၏ မူလ Length မှ တိုးလာသော Length",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Obeys Hooke's Law or Not?",
+      titleMy: "စီစစ်ကြမည် - Hooke's Law လိုက်နာသလား၊ မလိုက်နာဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Obeys Hooke's Law", "Does Not Obey Hooke's Law"],
+        bucketsMy: ["Hooke's Law လိုက်နာသည်", "Hooke's Law မလိုက်နာပါ"],
+        items: [
+          SortingItem(
+            id: "y12phys-w21-sort-1",
+            labelEn:
+                "A spring stretched a small amount, well within its limit of proportionality",
+            labelMy:
+                "Limit of Proportionality အတွင်း အနည်းငယ်သာ ဆန့်ထားသော Spring",
+            correctBucketEn: "Obeys Hooke's Law",
+            correctBucketMy: "Hooke's Law လိုက်နာသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w21-sort-2",
+            labelEn:
+                "A spring stretched far beyond its limit of proportionality",
+            labelMy:
+                "Limit of Proportionality ထက် များစွာ ကျော်လွန်စွာ ဆန့်ထားသော Spring",
+            correctBucketEn: "Does Not Obey Hooke's Law",
+            correctBucketMy: "Hooke's Law မလိုက်နာပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w21-sort-3",
+            labelEn:
+                "A spring inside a force meter, used within its normal working range",
+            labelMy:
+                "ပုံမှန် အလုပ်လုပ်ကြောင်း အတွင်း အသုံးပြုနေသော Force Meter ထဲရှိ Spring",
+            correctBucketEn: "Obeys Hooke's Law",
+            correctBucketMy: "Hooke's Law လိုက်နာသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w21-sort-4",
+            labelEn: "A metal wire stretched past its limit of proportionality",
+            labelMy:
+                "Limit of Proportionality ထက် ကျော်လွန်စွာ ဆန့်ထားသော သတ္တု ကြိုး",
+            correctBucketEn: "Does Not Obey Hooke's Law",
+            correctBucketMy: "Hooke's Law မလိုက်နာပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w21-sort-5",
+            labelEn:
+                "A spring where doubling the force exactly doubles the extension",
+            labelMy:
+                "Force ကို နှစ်ဆ တိုးရာ Extension ကိုလည်း အတိအကျ နှစ်ဆ တိုးစေသော Spring",
+            correctBucketEn: "Obeys Hooke's Law",
+            correctBucketMy: "Hooke's Law လိုက်နာသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Verifying Hooke's Law with Hanging Masses",
+      titleMy: "စာဖတ်ခြင်း - Hanging Masses ဖြင့် Hooke's Law စစ်ဆေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Verifying Hooke's Law with Hanging Masses",
+        titleMy: "Hanging Masses ဖြင့် Hooke's Law စစ်ဆေးခြင်း",
+        passageEn:
+            "Sayar Htet Aung Lin's class hung a series of weights from a vertical spring to test Hooke's law. Adding a 2 N weight produced an extension of 0.04 m, measured carefully from the spring's unstretched length using a metre rule clamped alongside it. He asked the class to use this single reading to find the spring constant, then predict the extension for a larger, untested force.\n\nZayar Thu rearranged Hooke's law, F = kx, to find k: k = F / x = 2 / 0.04 = 50 N m⁻¹. He then used this spring constant to predict the extension that a 6 N weight would produce, assuming the spring was still behaving according to Hooke's law at that load: x = F / k = 6 / 50 = 0.12 m.\n\nSayar Htet Aung Lin then asked why this prediction could turn out to be wrong, even though the arithmetic was correct. Zayar Thu explained that the prediction assumes the spring stays within its limit of proportionality all the way up to 6 N, which the class had not actually tested -- if 6 N happens to exceed that limit, the real extension would be different from (and typically larger than) the value predicted by simply scaling up from the 2 N reading, since beyond the limit of proportionality, extension no longer increases in direct proportion to force. Testing the actual 6 N case, rather than trusting the extrapolation, is therefore the only way to know for certain.",
+        passageMy:
+            "Sayar ထက်အောင်လင်း ၏ အတန်းသည် Hooke's Law ကို စမ်းသပ်ရန် Weight များစွာကို Vertical Spring တစ်ခုမှ ချိတ်ဆွဲခဲ့ကြသည်။ Weight 2 N ကို ထည့်ခြင်းက Spring ၏ ဆန့်မထားသော Length မှ ၎င်းနှင့် တွဲကပ်ထားသော Metre Rule ဖြင့် ဂရုတစိုက် တိုင်းတာထားသော Extension 0.04 m ကို ဖြစ်ပေါ်စေခဲ့သည်။ ဤ Reading တစ်ခုတည်းကို အသုံးပြု၍ Spring Constant ကို ရှာဖွေပြီး စမ်းသပ်မထားသေးသော ပို၍ကြီးမားသော Force တစ်ခုအတွက် Extension ကို ခန့်မှန်းခိုင်းခဲ့သည်။\n\nZayar Thu သည် k ကို ရှာဖွေရန် Hooke's Law F = kx ကို ပြန်စီစဉ်ခဲ့သည် - k = F / x = 2 / 0.04 = 50 N m⁻¹ ။ ထို့နောက် ဤ Spring Constant ကို အသုံးပြု၍ Spring သည် ထို Load တွင် Hooke's Law အရ ဆက်လက် ကျင့်သုံးနေဆဲဟု ယူဆကာ Weight 6 N က ဖြစ်ပေါ်စေမည့် Extension ကို ခန့်မှန်းခဲ့သည် - x = F / k = 6 / 50 = 0.12 m ။\n\nဂဏန်းတွက်ချက်မှု မှန်ကန်နေသော်လည်း ဤ ခန့်မှန်းချက် အဘယ့်ကြောင့် မှားနိုင်သနည်းဟု Sayar ထက်အောင်လင်း ထို့နောက် မေးမြန်းခဲ့သည်။ Zayar Thu ရှင်းပြခဲ့သည် - ဤ ခန့်မှန်းချက်သည် Spring သည် Weight 6 N အထိ ၎င်း၏ Limit of Proportionality အတွင်း ဆက်လက်ရှိနေသည်ဟု ယူဆထားပြီး ၎င်းကို အတန်းက တကယ် စမ်းသပ်ခြင်း မရှိသေးပါ -- 6 N သည် ထို Limit ကို ကျော်လွန်ခဲ့လျှင် တကယ့် Extension သည် Limit of Proportionality ကျော်လွန်ချိန် Extension သည် Force နှင့် တိုက်ရိုက် အချိုးကျ ဆက်တိုးမလာတော့သောကြောင့် 2 N Reading မှ ရိုးရိုး Scale တိုးလိုက်ခြင်းဖြင့် ခန့်မှန်းထားသော တန်ဖိုးနှင့် ကွဲပြားလိမ့်မည် (ပုံမှန်အားဖြင့် ပိုကြီးလိမ့်မည်)။ Extrapolation ကို ယုံကြည်မည့်အစား တကယ့် 6 N Case ကို စမ်းသပ်ခြင်းသည် အတိအကျ သိရန် တစ်ခုတည်းသော နည်းလမ်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the spring constant found from the 2 N reading?",
+            questionMy:
+                "Weight 2 N Reading မှ ရရှိသော Spring Constant ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["50 N m⁻¹", "2 N m⁻¹", "0.04 N m⁻¹", "100 N m⁻¹"],
+            optionsMy: ["50 N m⁻¹", "2 N m⁻¹", "0.04 N m⁻¹", "100 N m⁻¹"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what extension is predicted for a 6 N weight?",
+            questionMy:
+                "Weight 6 N အတွက် ခန့်မှန်းထားသော Extension ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.12 m", "0.04 m", "6 m", "50 m"],
+            optionsMy: ["0.12 m", "0.04 m", "6 m", "50 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why might the 0.12 m prediction turn out to be wrong?",
+            questionMy:
+                "0.12 m ခန့်မှန်းချက် အဘယ့်ကြောင့် မှားနိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The spring may exceed its limit of proportionality before reaching 6 N",
+              "The metre rule was not accurate enough to use twice",
+              "2 N and 6 N cannot both be measured in newtons",
+              "Springs never obey Hooke's law at any load",
+            ],
+            optionsMy: [
+              "Spring သည် 6 N မရောက်မီ ၎င်း၏ Limit of Proportionality ကို ကျော်လွန်နိုင်သည်",
+              "Metre Rule သည် နှစ်ကြိမ် အသုံးပြုရန် လုံလောက်စွာ တိကျခြင်း မရှိပါ",
+              "2 N နှင့် 6 N ကို Newton ဖြင့် နှစ်ခုစလုံး တိုင်းတာ၍ မရပါ",
+              "Spring များသည် Load မည်သို့ပင်ရှိစေ Hooke's Law ကို လုံးဝ မလိုက်နာပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Hooke's Law",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Hooke's Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Hooke's law can be written as...",
+          questionMy: "Hooke's Law ကို ...အဖြစ် ရေးနိုင်သည်",
+          optionsEn: ["F = kx", "F = ma", "E = mc²", "P = Fv"],
+          optionsMy: ["F = kx", "F = ma", "E = mc²", "P = Fv"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Beyond the limit of proportionality...",
+          questionMy: "Limit of Proportionality ကျော်လွန်ချိန်...",
+          optionsEn: [
+            "Extension is no longer directly proportional to force",
+            "Extension becomes exactly zero",
+            "Force becomes exactly zero",
+            "The spring constant increases without limit",
+          ],
+          optionsMy: [
+            "Extension သည် Force နှင့် တိုက်ရိုက် အချိုးမကျတော့ပါ",
+            "Extension သည် Zero အတိအကျ ဖြစ်လာသည်",
+            "Force သည် Zero အတိအကျ ဖြစ်လာသည်",
+            "Spring Constant သည် Limit မရှိဘဲ တိုးလာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A spring of spring constant 40 N m⁻¹ is stretched by 0.15 m, within its limit of proportionality. The force applied is...",
+          questionMy:
+              "Spring Constant 40 N m⁻¹ ရှိသော Spring ကို ၎င်း၏ Limit of Proportionality အတွင်း 0.15 m ဆန့်ထားသည်။ သက်ရောက်သော Force မှာ...",
+          optionsEn: ["6 N", "0.267 N", "40.15 N", "60 N"],
+          optionsMy: ["6 N", "0.267 N", "40.15 N", "60 N"],
+          correctIndex: 0,
+          hintsEn: ["F = kx = 40 x 0.15 = 6 N."],
+          hintsMy: ["F = kx = 40 x 0.15 = 6 N ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Stress, Strain and the Young Modulus"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek22 = CourseWeekDef(
+  id: "course-y12-phys-w22",
+  weekNumber: 22,
+  titleEn: "Stress, Strain and the Young Modulus",
+  titleMy: "Stress, Strain နှင့် Young Modulus",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w22-d1",
+      dayNumber: 1,
+      titleEn: "Stress, Strain and Young Modulus Formulas",
+      titleMy: "Stress, Strain နှင့် Young Modulus ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Stress is defined as...",
+          questionMy: "Stress ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Force per unit cross-sectional area",
+            "Extension per unit original length",
+            "Force multiplied by extension",
+            "Mass per unit volume",
+          ],
+          optionsMy: [
+            "Unit Cross-Sectional Area လျှင် Force",
+            "Unit Original Length လျှင် Extension",
+            "Force ကို Extension ဖြင့် မြှောက်ခြင်း",
+            "Unit Volume လျှင် Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wire of cross-sectional area 2 x 10⁻⁶ m² has a force of 100 N applied to it. The stress is...",
+          questionMy:
+              "Cross-Sectional Area 2 x 10⁻⁶ m² ရှိသော ကြိုးတွင် Force 100 N သက်ရောက်သည်။ Stress မှာ...",
+          optionsEn: ["5 x 10⁷ Pa", "2 x 10⁻⁴ Pa", "200 Pa", "5 x 10⁻⁸ Pa"],
+          optionsMy: ["5 x 10⁷ Pa", "2 x 10⁻⁴ Pa", "200 Pa", "5 x 10⁻⁸ Pa"],
+          correctIndex: 0,
+          hintsEn: ["Stress = force / area = 100 / (2 x 10⁻⁶) = 5 x 10⁷ Pa."],
+          hintsMy: ["Stress = Force / Area = 100 / (2 x 10⁻⁶) = 5 x 10⁷ Pa ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wire of original length 2 m extends by 0.004 m under load. The strain is...",
+          questionMy:
+              "Original Length 2 m ရှိသော ကြိုးသည် Load အောက် 0.004 m ဆန့်သည်။ Strain မှာ...",
+          optionsEn: ["0.002", "500", "0.008", "2.004"],
+          optionsMy: ["0.002", "500", "0.008", "2.004"],
+          correctIndex: 0,
+          hintsEn: [
+            "Strain = extension / original length = 0.004 / 2 = 0.002.",
+          ],
+          hintsMy: [
+            "Strain = Extension / Original Length = 0.004 / 2 = 0.002 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Stress and Strain Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Stress and Strain ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w22-dm-1",
+          termEn: "Stress",
+          termMy: "Stress",
+          matchEn: "Force per unit cross-sectional area, measured in Pa",
+          matchMy:
+              "Unit Cross-Sectional Area လျှင် Force၊ Pa ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w22-dm-2",
+          termEn: "Strain",
+          termMy: "Strain",
+          matchEn:
+              "Extension divided by original length, a dimensionless ratio",
+          matchMy:
+              "Extension ကို Original Length ဖြင့် စားခြင်း၊ Dimensionless အချိုး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w22-dm-3",
+          termEn: "Young modulus",
+          termMy: "Young Modulus",
+          matchEn:
+              "The ratio of stress to strain for a material, a measure of its stiffness",
+          matchMy:
+              "ပစ္စည်းတစ်ခု၏ Stress ကို Strain ဖြင့် စားသော အချိုး၊ ၎င်း၏ Stiffness ကို ဖော်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w22-dm-4",
+          termEn: "Pascal (Pa)",
+          termMy: "Pascal (Pa)",
+          matchEn: "The SI unit of stress, equal to N m⁻²",
+          matchMy: "Stress ၏ SI ယူနစ်၊ N m⁻² နှင့် ညီမျှသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w22-dm-5",
+          termEn: "Stiffness",
+          termMy: "Stiffness",
+          matchEn:
+              "A material's resistance to being stretched or deformed elastically, linked to a high Young modulus",
+          matchMy:
+              "ပစ္စည်းတစ်ခု၏ Elastic ဆန့်ခြင်း (သို့) ပုံပျက်ခြင်းကို ခုခံနိုင်မှု၊ Young Modulus မြင့်ခြင်းနှင့် ဆက်စပ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Stiff or Flexible Material?",
+      titleMy: "စီစစ်ကြမည် - ပစ္စည်းသည် Stiff လား၊ Flexible လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Stiff Material (High Young Modulus)",
+          "Flexible Material (Low Young Modulus)",
+        ],
+        bucketsMy: [
+          "Stiff ပစ္စည်း (Young Modulus မြင့်)",
+          "Flexible ပစ္စည်း (Young Modulus နိမ့်)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12phys-w22-sort-1",
+            labelEn: "Steel (~200 GPa)",
+            labelMy: "သံမဏိ (~200 GPa)",
+            correctBucketEn: "Stiff Material (High Young Modulus)",
+            correctBucketMy: "Stiff ပစ္စည်း (Young Modulus မြင့်)",
+          ),
+          SortingItem(
+            id: "y12phys-w22-sort-2",
+            labelEn: "Rubber (~0.01-0.1 GPa)",
+            labelMy: "ရော်ဘာ (~0.01-0.1 GPa)",
+            correctBucketEn: "Flexible Material (Low Young Modulus)",
+            correctBucketMy: "Flexible ပစ္စည်း (Young Modulus နိမ့်)",
+          ),
+          SortingItem(
+            id: "y12phys-w22-sort-3",
+            labelEn: "Diamond (~1000+ GPa)",
+            labelMy: "စိန် (~1000+ GPa)",
+            correctBucketEn: "Stiff Material (High Young Modulus)",
+            correctBucketMy: "Stiff ပစ္စည်း (Young Modulus မြင့်)",
+          ),
+          SortingItem(
+            id: "y12phys-w22-sort-4",
+            labelEn: "Nylon fishing line (~2-4 GPa)",
+            labelMy: "Nylon ငါးမျှားကြိုး (~2-4 GPa)",
+            correctBucketEn: "Flexible Material (Low Young Modulus)",
+            correctBucketMy: "Flexible ပစ္စည်း (Young Modulus နိမ့်)",
+          ),
+          SortingItem(
+            id: "y12phys-w22-sort-5",
+            labelEn: "Glass (~50-90 GPa)",
+            labelMy: "ဖန် (~50-90 GPa)",
+            correctBucketEn: "Stiff Material (High Young Modulus)",
+            correctBucketMy: "Stiff ပစ္စည်း (Young Modulus မြင့်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding the Young Modulus of a Wire",
+      titleMy: "စာဖတ်ခြင်း - ကြိုးတစ်ချောင်း၏ Young Modulus ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding the Young Modulus of a Wire",
+        titleMy: "ကြိုးတစ်ချောင်း၏ Young Modulus ရှာဖွေခြင်း",
+        passageEn:
+            "Sayama Yadanar Hlaing's class tested a metal wire of original length 2 m and cross-sectional area 1 x 10⁻⁶ m². A force of 40 N applied to the wire, within its limit of proportionality, produced an extension of 0.0008 m. She asked the class to use these measurements to find the wire's Young modulus.\n\nPhoo Pwint Aung worked through the calculation in three steps. First, the stress: stress = force / area = 40 / (1 x 10⁻⁶) = 4 x 10⁷ Pa. Second, the strain: strain = extension / original length = 0.0008 / 2 = 4 x 10⁻⁴. Third, the Young modulus itself: E = stress / strain = (4 x 10⁷) / (4 x 10⁻⁴) = 1 x 10¹¹ Pa, or 100 GPa -- a value close to real steel's accepted Young modulus of around 200 GPa, confirming the wire behaves broadly like a steel sample.\n\nSayama Yadanar Hlaing then asked why the Young modulus is considered a property of the material itself, rather than a property of this particular wire's length or thickness. Phoo Pwint Aung explained that a thicker wire of the same material would need proportionally more force to produce the same stress, and a longer wire would stretch by proportionally more extension for the same strain -- both the force-to-area scaling in stress and the extension-to-length scaling in strain are built to cancel out the specimen's actual dimensions, leaving E as a number that describes steel itself, not this one 2 m sample.",
+        passageMy:
+            "Sayama ရတနာလှိုင် ၏ အတန်းသည် Original Length 2 m နှင့် Cross-Sectional Area 1 x 10⁻⁶ m² ရှိသော သတ္တု ကြိုးတစ်ချောင်းကို စမ်းသပ်ခဲ့ကြသည်။ ကြိုး၏ Limit of Proportionality အတွင်း သက်ရောက်သော Force 40 N သည် Extension 0.0008 m ကို ဖြစ်ပေါ်စေခဲ့သည်။ ဤ တိုင်းတာမှုများကို အသုံးပြု၍ ကြိုး၏ Young Modulus ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nPhoo Pwint Aung သည် တွက်ချက်မှုကို အဆင့် သုံးဆင့်ဖြင့် ဖြေရှင်းခဲ့သည်။ ပထမ Stress - Stress = Force / Area = 40 / (1 x 10⁻⁶) = 4 x 10⁷ Pa ။ ဒုတိယ Strain - Strain = Extension / Original Length = 0.0008 / 2 = 4 x 10⁻⁴ ။ တတိယ Young Modulus ကိုယ်တိုင် - E = Stress / Strain = (4 x 10⁷) / (4 x 10⁻⁴) = 1 x 10¹¹ Pa သို့မဟုတ် 100 GPa -- တကယ့် သံမဏိ၏ လက်ခံထားသော Young Modulus ခန့်မှန်းခြေ 200 GPa နှင့် နီးစပ်သော တန်ဖိုး ဖြစ်ပြီး ကြိုးသည် သံမဏိ နမူနာကဲ့သို့ ကျယ်ကျယ်ပြန့်ပြန့် ပြုမူကြောင်း အတည်ပြုသည်။\n\nYoung Modulus သည် ဤ တစ်ခုတည်းသော ကြိုး၏ Length (သို့) အထူ ဆိုင်ရာ ပိုင်ဆိုင်ချက်ထက် ပစ္စည်းကိုယ်တိုင်၏ ပိုင်ဆိုင်ချက်ဟု အဘယ့်ကြောင့် သတ်မှတ်သည်ကို Sayama ရတနာလှိုင် ထို့နောက် မေးမြန်းခဲ့သည်။ ပစ္စည်းတူညီရှိ ပိုထူသော ကြိုးတစ်ချောင်းသည် Stress တူညီ ဖြစ်ပေါ်ရန် Force ပို၍ လိုအပ်မည်ဖြစ်ပြီး ပိုရှည်သော ကြိုးတစ်ချောင်းသည် Strain တူညီအတွက် Extension ပို၍ ဆန့်လိမ့်မည် -- Stress ရှိ Force-To-Area Scaling နှင့် Strain ရှိ Extension-To-Length Scaling နှစ်ခုစလုံးသည် နမူနာ၏ တကယ့် အတိုင်းအတာများကို ချေဖျက်ရန် တည်ဆောက်ထားသောကြောင့် E သည် ဤ 2 m နမူနာတစ်ခုတည်း မဟုတ်ဘဲ သံမဏိကိုယ်တိုင်ကို ဖော်ပြသော ဂဏန်းတစ်ခု ဖြစ်ကြောင်း Phoo Pwint Aung ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the stress in the wire?",
+            questionMy: "ကြိုးထဲရှိ Stress ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4 x 10⁷ Pa", "4 x 10⁻⁴ Pa", "1 x 10¹¹ Pa", "40 Pa"],
+            optionsMy: ["4 x 10⁷ Pa", "4 x 10⁻⁴ Pa", "1 x 10¹¹ Pa", "40 Pa"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first step."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ အဆင့်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the strain in the wire?",
+            questionMy: "ကြိုးထဲရှိ Strain ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4 x 10⁻⁴", "4 x 10⁷", "1 x 10¹¹", "0.0008"],
+            optionsMy: ["4 x 10⁻⁴", "4 x 10⁷", "1 x 10¹¹", "0.0008"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's second step."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဒုတိယ အဆင့်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the wire's Young modulus?",
+            questionMy: "ကြိုး၏ Young Modulus ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1 x 10¹¹ Pa", "4 x 10⁷ Pa", "4 x 10⁻⁴ Pa", "200 Pa"],
+            optionsMy: ["1 x 10¹¹ Pa", "4 x 10⁷ Pa", "4 x 10⁻⁴ Pa", "200 Pa"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final step."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး အဆင့်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Stress, Strain and Young Modulus",
+      titleMy:
+          "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Stress, Strain နှင့် Young Modulus",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Stress is calculated as...",
+          questionMy: "Stress ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Force / cross-sectional area",
+            "Extension / original length",
+            "Force x extension",
+            "Mass / volume",
+          ],
+          optionsMy: [
+            "Force / Cross-Sectional Area",
+            "Extension / Original Length",
+            "Force x Extension",
+            "Mass / Volume",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Young modulus is calculated as...",
+          questionMy: "Young Modulus ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Stress / strain",
+            "Strain / stress",
+            "Force / strain",
+            "Stress x strain",
+          ],
+          optionsMy: [
+            "Stress / Strain",
+            "Strain / Stress",
+            "Force / Strain",
+            "Stress x Strain",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wire has a stress of 8 x 10⁷ Pa and a strain of 4 x 10⁻⁴. Its Young modulus is...",
+          questionMy:
+              "ကြိုးတစ်ချောင်းသည် Stress 8 x 10⁷ Pa နှင့် Strain 4 x 10⁻⁴ ရှိသည်။ ၎င်း၏ Young Modulus မှာ...",
+          optionsEn: [
+            "2 x 10¹¹ Pa",
+            "3.2 x 10⁴ Pa",
+            "2 x 10⁻¹¹ Pa",
+            "8.0004 Pa",
+          ],
+          optionsMy: [
+            "2 x 10¹¹ Pa",
+            "3.2 x 10⁴ Pa",
+            "2 x 10⁻¹¹ Pa",
+            "8.0004 Pa",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "E = stress / strain = (8 x 10⁷) / (4 x 10⁻⁴) = 2 x 10¹¹ Pa.",
+          ],
+          hintsMy: [
+            "E = Stress / Strain = (8 x 10⁷) / (4 x 10⁻⁴) = 2 x 10¹¹ Pa ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "Elastic and Plastic Behaviour, and Energy Stored"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek23 = CourseWeekDef(
+  id: "course-y12-phys-w23",
+  weekNumber: 23,
+  titleEn: "Elastic and Plastic Behaviour, and Energy Stored",
+  titleMy: "Elastic နှင့် Plastic Behaviour၊ Energy Stored",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w23-d1",
+      dayNumber: 1,
+      titleEn: "Elastic and Plastic Deformation, and Stored Energy",
+      titleMy: "Elastic နှင့် Plastic Deformation၊ Stored Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Elastic deformation is deformation where...",
+          questionMy: "Elastic Deformation ဆိုသည်မှာ...",
+          optionsEn: [
+            "The object returns to its original shape when the force is removed",
+            "The object never returns to its original shape",
+            "The object breaks immediately",
+            "No force was ever applied",
+          ],
+          optionsMy: [
+            "Force ဖယ်ရှားလိုက်ချိန် Object သည် ၎င်း၏ မူလ ပုံသဏ္ဌာန်သို့ ပြန်ရောက်သည်",
+            "Object သည် ၎င်း၏ မူလ ပုံသဏ္ဌာန်သို့ လုံးဝ မပြန်ရောက်ပါ",
+            "Object သည် ချက်ချင်း ကျိုးပဲ့သွားသည်",
+            "Force မည်သည့်တစ်ခုမျှ လုံးဝ မသက်ရောက်ခဲ့ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Plastic deformation is deformation where...",
+          questionMy: "Plastic Deformation ဆိုသည်မှာ...",
+          optionsEn: [
+            "The object does not return to its original shape when the force is removed",
+            "The object always returns to its original shape",
+            "No permanent change occurs at all",
+            "The material becomes lighter",
+          ],
+          optionsMy: [
+            "Force ဖယ်ရှားလိုက်ချိန် Object သည် ၎င်း၏ မူလ ပုံသဏ္ဌာန်သို့ မပြန်ရောက်ပါ",
+            "Object သည် ၎င်း၏ မူလ ပုံသဏ္ဌာန်သို့ အမြဲ ပြန်ရောက်သည်",
+            "အမြဲတမ်း ပြောင်းလဲမှု လုံးဝ မဖြစ်ပေါ်ပါ",
+            "ပစ္စည်းသည် ပို၍ ပေါ့ပါးလာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A spring of spring constant 200 N m⁻¹ is compressed by 0.1 m. The elastic potential energy stored is...",
+          questionMy:
+              "Spring Constant 200 N m⁻¹ ရှိသော Spring ကို 0.1 m ချုံ့ထားသည်။ သိုလှောင်ထားသော Elastic Potential Energy မှာ...",
+          optionsEn: ["1 J", "20 J", "10 J", "0.5 J"],
+          optionsMy: ["1 J", "20 J", "10 J", "0.5 J"],
+          correctIndex: 0,
+          hintsEn: ["E = ½kx² = ½ x 200 x 0.1² = ½ x 200 x 0.01 = 1 J."],
+          hintsMy: ["E = ½kx² = ½ x 200 x 0.1² = ½ x 200 x 0.01 = 1 J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Elastic and Plastic Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Elastic and Plastic ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w23-dm-1",
+          termEn: "Elastic deformation",
+          termMy: "Elastic Deformation",
+          matchEn:
+              "Temporary deformation; the object returns to its original shape when the force is removed",
+          matchMy:
+              "ယာယီ Deformation; Force ဖယ်ရှားလိုက်ချိန် Object သည် မူလ ပုံသဏ္ဌာန်သို့ ပြန်ရောက်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w23-dm-2",
+          termEn: "Plastic deformation",
+          termMy: "Plastic Deformation",
+          matchEn:
+              "Permanent deformation; the object does not return to its original shape when the force is removed",
+          matchMy:
+              "အမြဲတမ်း Deformation; Force ဖယ်ရှားလိုက်ချိန် Object သည် မူလ ပုံသဏ္ဌာန်သို့ မပြန်ရောက်ပါ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w23-dm-3",
+          termEn: "Elastic potential energy",
+          termMy: "Elastic Potential Energy",
+          matchEn:
+              "Energy stored in a stretched or compressed spring, equal to ½Fx or ½kx²",
+          matchMy:
+              "ဆန့်ထား (သို့) ချုံ့ထားသော Spring တွင် သိုလှောင်ထားသော Energy၊ ½Fx (သို့) ½kx² နှင့် ညီမျှသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w23-dm-4",
+          termEn: "Yield point",
+          termMy: "Yield Point",
+          matchEn:
+              "The point on a stress-strain graph beyond which plastic deformation begins",
+          matchMy:
+              "Stress-Strain Graph ပေါ်ရှိ Plastic Deformation စတင်သော အမှတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w23-dm-5",
+          termEn: "Area under a force-extension graph",
+          termMy: "Force-Extension Graph အောက်ရှိ Area",
+          matchEn:
+              "Represents the work done in stretching the material, i.e. the elastic potential energy stored",
+          matchMy:
+              "ပစ္စည်းကို ဆန့်ရာတွင် Work Done ကို ကိုယ်စားပြုသည်၊ ဆိုလိုသည်မှာ သိုလှောင်ထားသော Elastic Potential Energy",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Elastic or Plastic Deformation?",
+      titleMy: "စီစစ်ကြမည် - Elastic သို့မဟုတ် Plastic Deformation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Elastic Deformation", "Plastic Deformation"],
+        bucketsMy: ["Elastic Deformation", "Plastic Deformation"],
+        items: [
+          SortingItem(
+            id: "y12phys-w23-sort-1",
+            labelEn:
+                "A spring stretched slightly and released, returning to its original length",
+            labelMy:
+                "အနည်းငယ် ဆန့်ပြီး လွှတ်လိုက်ရာ မူလ Length သို့ ပြန်ရောက်သော Spring",
+            correctBucketEn: "Elastic Deformation",
+            correctBucketMy: "Elastic Deformation",
+          ),
+          SortingItem(
+            id: "y12phys-w23-sort-2",
+            labelEn: "A metal paperclip bent sharply, staying bent",
+            labelMy:
+                "ပြင်းထန်စွာ ကွေးလိုက်ပြီး ကွေးနေဆဲ ဖြစ်နေသော သတ္တု Paperclip",
+            correctBucketEn: "Plastic Deformation",
+            correctBucketMy: "Plastic Deformation",
+          ),
+          SortingItem(
+            id: "y12phys-w23-sort-3",
+            labelEn: "A rubber band stretched within its limits and released",
+            labelMy: "၎င်း၏ Limit အတွင်း ဆန့်ပြီး လွှတ်လိုက်သော ရော်ဘာ Band",
+            correctBucketEn: "Elastic Deformation",
+            correctBucketMy: "Elastic Deformation",
+          ),
+          SortingItem(
+            id: "y12phys-w23-sort-4",
+            labelEn: "A piece of modelling clay squashed into a new shape",
+            labelMy:
+                "ပုံသဏ္ဌာန်အသစ်အဖြစ် ဖိညှပ်လိုက်သော Modelling Clay အစိတ်အပိုင်း",
+            correctBucketEn: "Plastic Deformation",
+            correctBucketMy: "Plastic Deformation",
+          ),
+          SortingItem(
+            id: "y12phys-w23-sort-5",
+            labelEn:
+                "A steel wire stretched just past its yield point, remaining slightly longer",
+            labelMy:
+                "၎င်း၏ Yield Point ကို အနည်းငယ်သာ ကျော်လွန်ဆန့်ပြီး အနည်းငယ် ရှည်နေဆဲ ဖြစ်နေသော သံမဏိကြိုး",
+            correctBucketEn: "Plastic Deformation",
+            correctBucketMy: "Plastic Deformation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: How Much Energy Does a Stretched Spring Store?",
+      titleMy: "စာဖတ်ခြင်း - ဆန့်ထားသော Spring တစ်ခု၏ Energy ကို ဖော်ပြခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "How Much Energy Does a Stretched Spring Store?",
+        titleMy: "ဆန့်ထားသော Spring တစ်ခု၏ Energy ကို ဖော်ပြခြင်း",
+        passageEn:
+            "Sayama Thazin Oo asked her class to compare the elastic potential energy stored in a spring of spring constant 150 N m⁻¹ at two different extensions: first at 0.2 m, then at double that extension, 0.4 m. She asked them to predict, before calculating, whether doubling the extension would double the stored energy.\n\nMin Thura Kyaw used the formula E = ½kx² for the first case: E = ½ x 150 x 0.2² = ½ x 150 x 0.04 = 3 J. For the second case, at 0.4 m: E = ½ x 150 x 0.4² = ½ x 150 x 0.16 = 12 J.\n\nMin Thura Kyaw noted that 12 J is four times 3 J, not twice -- his intuition about simple doubling had been wrong. Sayama Thazin Oo asked him to explain why, using the formula itself rather than just the numbers. He pointed out that the formula contains x², not x: since energy depends on the square of the extension, doubling x multiplies the extension term by 2² = 4, not by 2. This matches the geometric picture of energy as the area under a straight-line force-extension graph -- doubling both the base and the height of that triangular area quadruples its total area, exactly as doubling extension quadruples the stored energy.",
+        passageMy:
+            "Sayama သဇင်ဦး သည် Spring Constant 150 N m⁻¹ ရှိသော Spring တစ်ခုတွင် Extension နှစ်မျိုးမတူသောနေရာများ - ပထမ 0.2 m တွင်၊ ထို့နောက် ၎င်း၏ နှစ်ဆ Extension 0.4 m တွင် သိုလှောင်ထားသော Elastic Potential Energy ကို နှိုင်းယှဉ်ခိုင်းခဲ့သည်။ Extension ကို နှစ်ဆ တိုးခြင်းက သိုလှောင်ထားသော Energy ကို နှစ်ဆ တိုးမည်လား ဆိုသည်ကို တွက်ချက်မီ ခန့်မှန်းခိုင်းခဲ့သည်။\n\nMin Thura Kyaw သည် ပထမ Case အတွက် E = ½kx² ဖော်မြူလာကို အသုံးပြုခဲ့သည် - E = ½ x 150 x 0.2² = ½ x 150 x 0.04 = 3 J ။ ဒုတိယ Case 0.4 m တွင် - E = ½ x 150 x 0.4² = ½ x 150 x 0.16 = 12 J ။\n\n12 J သည် 3 J ၏ နှစ်ဆ မဟုတ်ဘဲ လေးဆ ဖြစ်ကြောင်း Min Thura Kyaw သတိပြုမိခဲ့သည် -- ရိုးရှင်းသော နှစ်ဆ တိုးခြင်းအကြောင်း ၎င်း၏ Intuition မှားနေခဲ့သည်။ ဂဏန်းများသာ မဟုတ်ဘဲ ဖော်မြူလာကိုယ်တိုင်ကို အသုံးပြု၍ ရှင်းပြရန် Sayama သဇင်ဦး သူ့ကို မေးမြန်းခဲ့သည်။ ဖော်မြူလာတွင် x မဟုတ်ဘဲ x² ပါဝင်ကြောင်း သူ ထောက်ပြခဲ့သည် - Energy သည် Extension ၏ Square ပေါ် မှီခိုနေသောကြောင့် x ကို နှစ်ဆ တိုးခြင်းက Extension Term ကို 2² = 4 ဆ မြှောက်ပေးပြီး 2 ဆ မဟုတ်ပါ။ ၎င်းသည် Straight-Line Force-Extension Graph အောက်ရှိ Area အဖြစ် Energy ၏ Geometric ပုံရိပ်နှင့် ကိုက်ညီသည် -- ထို Triangular Area ၏ Base နှင့် Height နှစ်ခုစလုံးကို နှစ်ဆ တိုးခြင်းက ၎င်း၏ စုစုပေါင်း Area ကို လေးဆ တိုးစေသည်၊ Extension ကို နှစ်ဆ တိုးခြင်းက သိုလှောင်ထားသော Energy ကို လေးဆ တိုးစေသည်နှင့် အတိအကျ ကိုက်ညီသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the energy stored at 0.2 m extension?",
+            questionMy:
+                "Extension 0.2 m တွင် သိုလှောင်ထားသော Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3 J", "12 J", "150 J", "0.04 J"],
+            optionsMy: ["3 J", "12 J", "150 J", "0.04 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the energy stored at 0.4 m extension?",
+            questionMy:
+                "Extension 0.4 m တွင် သိုလှောင်ထားသော Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["12 J", "3 J", "6 J", "150 J"],
+            optionsMy: ["12 J", "3 J", "6 J", "150 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's second calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဒုတိယ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does doubling the extension quadruple the stored energy rather than doubling it?",
+            questionMy:
+                "Extension ကို နှစ်ဆ တိုးခြင်းသည် သိုလှောင်ထားသော Energy ကို နှစ်ဆအစား လေးဆ အဘယ့်ကြောင့် တိုးစေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Energy depends on the square of the extension, x²",
+              "The spring constant doubles automatically",
+              "Energy is unrelated to extension entirely",
+              "Force always stays exactly the same",
+            ],
+            optionsMy: [
+              "Energy သည် Extension ၏ Square ဖြစ်သော x² ပေါ် မှီခိုနေသည်",
+              "Spring Constant သည် အလိုအလျောက် နှစ်ဆ ဖြစ်လာသည်",
+              "Energy သည် Extension နှင့် လုံးဝ မဆိုင်ပါ",
+              "Force သည် အတိအကျ တူညီဆဲ ရှိနေအမြဲ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Elastic and Plastic Behaviour",
+      titleMy:
+          "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Elastic နှင့် Plastic Behaviour",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Elastic potential energy stored in a spring is calculated using...",
+          questionMy:
+              "Spring တစ်ခုတွင် သိုလှောင်ထားသော Elastic Potential Energy ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["½kx²", "kx", "mgh", "Fv"],
+          optionsMy: ["½kx²", "kx", "mgh", "Fv"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A material that stays permanently deformed after the force is removed has undergone...",
+          questionMy:
+              "Force ဖယ်ရှားလိုက်ပြီးနောက် အမြဲတမ်း ပုံပျက်နေဆဲ ဖြစ်နေသော ပစ္စည်းသည် ...ခံရသည်",
+          optionsEn: [
+            "Plastic deformation",
+            "Elastic deformation only",
+            "No deformation at all",
+            "Zero stress",
+          ],
+          optionsMy: [
+            "Plastic Deformation",
+            "Elastic Deformation သာ",
+            "Deformation လုံးဝ မရှိပါ",
+            "Stress Zero",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A spring of spring constant 80 N m⁻¹ is stretched by 0.05 m. The elastic potential energy stored is...",
+          questionMy:
+              "Spring Constant 80 N m⁻¹ ရှိသော Spring ကို 0.05 m ဆန့်ထားသည်။ သိုလှောင်ထားသော Elastic Potential Energy မှာ...",
+          optionsEn: ["0.1 J", "4 J", "0.2 J", "2 J"],
+          optionsMy: ["0.1 J", "4 J", "0.2 J", "2 J"],
+          correctIndex: 0,
+          hintsEn: ["E = ½kx² = ½ x 80 x 0.05² = ½ x 80 x 0.0025 = 0.1 J."],
+          hintsMy: ["E = ½kx² = ½ x 80 x 0.05² = ½ x 80 x 0.0025 = 0.1 J ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24: "Deformation of Solids Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek24 = CourseWeekDef(
+  id: "course-y12-phys-w24",
+  weekNumber: 24,
+  titleEn: "Deformation of Solids Capstone",
+  titleMy: "Deformation of Solids အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w24-d1",
+      dayNumber: 1,
+      titleEn: "Combining Hooke's Law, Stress/Strain and Stored Energy",
+      titleMy: "Hooke's Law, Stress/Strain နှင့် Stored Energy ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A spring of spring constant 60 N m⁻¹ is stretched by 0.25 m, within its limit of proportionality. The force applied is...",
+          questionMy:
+              "Spring Constant 60 N m⁻¹ ရှိသော Spring ကို ၎င်း၏ Limit of Proportionality အတွင်း 0.25 m ဆန့်ထားသည်။ သက်ရောက်သော Force မှာ...",
+          optionsEn: ["15 N", "0.24 N", "60.25 N", "240 N"],
+          optionsMy: ["15 N", "0.24 N", "60.25 N", "240 N"],
+          correctIndex: 0,
+          hintsEn: ["F = kx = 60 x 0.25 = 15 N."],
+          hintsMy: ["F = kx = 60 x 0.25 = 15 N ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A wire has a stress of 6 x 10⁷ Pa and a strain of 3 x 10⁻⁴. Its Young modulus is...",
+          questionMy:
+              "ကြိုးတစ်ချောင်းသည် Stress 6 x 10⁷ Pa နှင့် Strain 3 x 10⁻⁴ ရှိသည်။ ၎င်း၏ Young Modulus မှာ...",
+          optionsEn: [
+            "2 x 10¹¹ Pa",
+            "1.8 x 10⁴ Pa",
+            "2 x 10⁻¹¹ Pa",
+            "6.0003 Pa",
+          ],
+          optionsMy: [
+            "2 x 10¹¹ Pa",
+            "1.8 x 10⁴ Pa",
+            "2 x 10⁻¹¹ Pa",
+            "6.0003 Pa",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "E = stress / strain = (6 x 10⁷) / (3 x 10⁻⁴) = 2 x 10¹¹ Pa.",
+          ],
+          hintsMy: [
+            "E = Stress / Strain = (6 x 10⁷) / (3 x 10⁻⁴) = 2 x 10¹¹ Pa ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A spring stretched by a force of 12 N through an extension of 0.06 m stores elastic potential energy of...",
+          questionMy:
+              "Force 12 N ဖြင့် Extension 0.06 m ဆန့်ထားသော Spring တစ်ခုသည် Elastic Potential Energy...",
+          optionsEn: ["0.36 J", "0.72 J", "2 J", "12.06 J"],
+          optionsMy: ["0.36 J", "0.72 J", "2 J", "12.06 J"],
+          correctIndex: 0,
+          hintsEn: ["E = ½Fx = ½ x 12 x 0.06 = 0.36 J."],
+          hintsMy: ["E = ½Fx = ½ x 12 x 0.06 = 0.36 J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၆ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w24-dm-1",
+          termEn: "Hooke's law: F = ",
+          termMy: "Hooke's Law: F = ",
+          matchEn: "kx",
+          matchMy: "kx",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w24-dm-2",
+          termEn: "Stress = ",
+          termMy: "Stress = ",
+          matchEn: "Force / cross-sectional area",
+          matchMy: "Force / Cross-Sectional Area",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w24-dm-3",
+          termEn: "Strain = ",
+          termMy: "Strain = ",
+          matchEn: "Extension / original length",
+          matchMy: "Extension / Original Length",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w24-dm-4",
+          termEn: "Young modulus = ",
+          termMy: "Young Modulus = ",
+          matchEn: "Stress / strain",
+          matchMy: "Stress / Strain",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w24-dm-5",
+          termEn: "Elastic potential energy = ",
+          termMy: "Elastic Potential Energy = ",
+          matchEn: "½Fx or ½kx²",
+          matchMy: "½Fx (သို့) ½kx²",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Hooke's Law/Energy or Stress/Strain Concept?",
+      titleMy:
+          "စီစစ်ကြမည် - Hooke's Law/Energy သို့မဟုတ် Stress/Strain သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Hooke's Law/Elastic Energy",
+          "Stress/Strain/Young Modulus",
+        ],
+        bucketsMy: [
+          "Hooke's Law/Elastic Energy",
+          "Stress/Strain/Young Modulus",
+        ],
+        items: [
+          SortingItem(
+            id: "y12phys-w24-sort-1",
+            labelEn:
+                "Extension is directly proportional to force, up to the limit of proportionality",
+            labelMy:
+                "Limit of Proportionality အထိ Extension သည် Force နှင့် တိုက်ရိုက် အချိုးကျသည်",
+            correctBucketEn: "Hooke's Law/Elastic Energy",
+            correctBucketMy: "Hooke's Law/Elastic Energy",
+          ),
+          SortingItem(
+            id: "y12phys-w24-sort-2",
+            labelEn:
+                "The ratio of stress to strain measures a material's stiffness",
+            labelMy:
+                "Stress ကို Strain ဖြင့် စားသော အချိုးသည် ပစ္စည်းတစ်ခု၏ Stiffness ကို တိုင်းတာသည်",
+            correctBucketEn: "Stress/Strain/Young Modulus",
+            correctBucketMy: "Stress/Strain/Young Modulus",
+          ),
+          SortingItem(
+            id: "y12phys-w24-sort-3",
+            labelEn:
+                "The area under a force-extension graph gives the energy stored",
+            labelMy:
+                "Force-Extension Graph အောက်ရှိ Area က သိုလှောင်ထားသော Energy ကို ပေးသည်",
+            correctBucketEn: "Hooke's Law/Elastic Energy",
+            correctBucketMy: "Hooke's Law/Elastic Energy",
+          ),
+          SortingItem(
+            id: "y12phys-w24-sort-4",
+            labelEn:
+                "Force per unit cross-sectional area is measured in pascals",
+            labelMy:
+                "Unit Cross-Sectional Area လျှင် Force ကို Pascal ဖြင့် တိုင်းတာသည်",
+            correctBucketEn: "Stress/Strain/Young Modulus",
+            correctBucketMy: "Stress/Strain/Young Modulus",
+          ),
+          SortingItem(
+            id: "y12phys-w24-sort-5",
+            labelEn:
+                "A spring's force is proportional to its spring constant and extension",
+            labelMy:
+                "Spring တစ်ခု၏ Force သည် ၎င်း၏ Spring Constant နှင့် Extension နှင့် အချိုးကျသည်",
+            correctBucketEn: "Hooke's Law/Elastic Energy",
+            correctBucketMy: "Hooke's Law/Elastic Energy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Testing a Steel Cable",
+      titleMy: "စာဖတ်ခြင်း - သံမဏိ Cable စမ်းသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Testing a Steel Cable",
+        titleMy: "သံမဏိ Cable စမ်းသပ်ခြင်း",
+        passageEn:
+            "For their Term 6 capstone, Sayama Yadanar Hlaing's class combined Hooke's law, stress, strain, the Young modulus, and elastic potential energy into one practical engineering problem: a steel cable of length 4 m and cross-sectional area 5 x 10⁻⁶ m² is tested with an applied force of 500 N, well within its limit of proportionality, using steel's known Young modulus of 2 x 10¹¹ Pa.\n\nNgwe Zin Phyo began with the stress in the cable: stress = force / area = 500 / (5 x 10⁻⁶) = 1 x 10⁸ Pa. Since the Young modulus relates stress and strain by E = stress / strain, she rearranged this to find the strain: strain = stress / E = (1 x 10⁸) / (2 x 10¹¹) = 5 x 10⁻⁴.\n\nFrom the strain, she found the actual extension of the cable: extension = strain x original length = (5 x 10⁻⁴) x 4 = 0.002 m, or 2 mm. Finally, she calculated the elastic potential energy stored in the stretched cable using the area-under-the-graph formula, E = ½Fx: E = ½ x 500 x 0.002 = 0.5 J.\n\nSayama Yadanar Hlaing closed the capstone by asking the class to trace the chain of reasoning they had just used: knowing the material's Young modulus let them predict a specimen's strain from its stress, its extension from its strain and length, and finally the energy stored from its force and extension -- four formulas from across the whole term, chained together from a single applied force to describe exactly how the cable deforms and how much energy is stored while it does.",
+        passageMy:
+            "သူတို့၏ Term 6 အထွတ်အထိပ်အတွက် Sayama ရတနာလှိုင် ၏ အတန်းသည် Hooke's Law, Stress, Strain, Young Modulus နှင့် Elastic Potential Energy ကို လက်တွေ့ အင်ဂျင်နီယာ ပြဿနာတစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ကြသည် - Length 4 m နှင့် Cross-Sectional Area 5 x 10⁻⁶ m² ရှိသော သံမဏိ Cable တစ်ခုကို ၎င်း၏ Limit of Proportionality အတွင်း အလွန်ကောင်းစွာ Force 500 N ဖြင့် သံမဏိ၏ လူသိများသော Young Modulus 2 x 10¹¹ Pa ကို အသုံးပြု၍ စမ်းသပ်သည်။\n\nငွေဇင်ဖြိုး သည် Cable ထဲရှိ Stress ဖြင့် စတင်ခဲ့သည် - Stress = Force / Area = 500 / (5 x 10⁻⁶) = 1 x 10⁸ Pa ။ Young Modulus သည် E = Stress / Strain ဖြင့် Stress နှင့် Strain ကို ဆက်စပ်ပေးသောကြောင့် Strain ကို ရှာဖွေရန် ၎င်းကို ပြန်စီစဉ်ခဲ့သည် - Strain = Stress / E = (1 x 10⁸) / (2 x 10¹¹) = 5 x 10⁻⁴ ။\n\nStrain မှ Cable ၏ တကယ့် Extension ကို သူမ ရှာဖွေခဲ့သည် - Extension = Strain x Original Length = (5 x 10⁻⁴) x 4 = 0.002 m သို့မဟုတ် 2 mm ။ နောက်ဆုံးတွင် Area-Under-The-Graph ဖော်မြူလာ E = ½Fx ကို အသုံးပြု၍ ဆန့်ထားသော Cable တွင် သိုလှောင်ထားသော Elastic Potential Energy ကို တွက်ချက်ခဲ့သည် - E = ½ x 500 x 0.002 = 0.5 J ။\n\nသူတို့ ယခုပင် အသုံးပြုခဲ့သော ဆင်ခြင်တွေးခေါ်မှု ကွင်းဆက်ကို ခြေရာခံခိုင်းလျက် Sayama ရတနာလှိုင် သည် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည် - ပစ္စည်း၏ Young Modulus သိရှိခြင်းက နမူနာတစ်ခု၏ Strain ကို ၎င်း၏ Stress မှ၊ ၎င်း၏ Extension ကို ၎င်း၏ Strain နှင့် Length မှ၊ နောက်ဆုံးတွင် သိုလှောင်ထားသော Energy ကို ၎င်း၏ Force နှင့် Extension မှ ခန့်မှန်းနိုင်ခဲ့သည် -- Term တစ်ခုလုံးမှ ဖော်မြူလာလေးခု၊ သက်ရောက်သော Force တစ်ခုတည်းမှ ကွင်းဆက်ဆက်စပ်ကာ Cable သည် မည်သို့ ပုံပျက်သည်နှင့် ပုံပျက်နေစဉ် Energy မည်မျှ သိုလှောင်ထားသည်ကို အတိအကျ ဖော်ပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the stress in the cable?",
+            questionMy: "Cable ထဲရှိ Stress ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1 x 10⁸ Pa", "5 x 10⁻⁴ Pa", "0.002 Pa", "0.5 Pa"],
+            optionsMy: ["1 x 10⁸ Pa", "5 x 10⁻⁴ Pa", "0.002 Pa", "0.5 Pa"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the cable's extension?",
+            questionMy: "Cable ၏ Extension ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.002 m", "4 m", "1 x 10⁸ m", "0.5 m"],
+            optionsMy: ["0.002 m", "4 m", "1 x 10⁸ m", "0.5 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the elastic potential energy stored in the cable?",
+            questionMy:
+                "Cable တွင် သိုလှောင်ထားသော Elastic Potential Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.5 J", "500 J", "1 x 10⁸ J", "0.002 J"],
+            optionsMy: ["0.5 J", "500 J", "1 x 10⁸ J", "0.002 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Deformation of Solids",
+      titleMy: "Term ၆ အထွတ်အထိပ် - Deformation of Solids",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Hooke's law relates force and extension using...",
+          questionMy:
+              "Hooke's Law သည် Force နှင့် Extension ကို ...ဖြင့် ဆက်စပ်ပေးသည်",
+          optionsEn: ["F = kx", "F = ma", "P = Fv", "E = mc²"],
+          optionsMy: ["F = kx", "F = ma", "P = Fv", "E = mc²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Young modulus of a material is calculated as...",
+          questionMy: "ပစ္စည်းတစ်ခု၏ Young Modulus ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Stress / strain",
+            "Force / extension",
+            "Mass / volume",
+            "Work / time",
+          ],
+          optionsMy: [
+            "Stress / Strain",
+            "Force / Extension",
+            "Mass / Volume",
+            "Work / Time",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A material that returns to its original shape once the force is removed has undergone...",
+          questionMy:
+              "Force ဖယ်ရှားလိုက်ပြီးနောက် ၎င်း၏ မူလ ပုံသဏ္ဌာန်သို့ ပြန်ရောက်သော ပစ္စည်းသည် ...ခံရသည်",
+          optionsEn: [
+            "Elastic deformation",
+            "Plastic deformation only",
+            "No deformation at all",
+            "Permanent deformation",
+          ],
+          optionsMy: [
+            "Elastic Deformation",
+            "Plastic Deformation သာ",
+            "Deformation လုံးဝ မရှိပါ",
+            "Permanent Deformation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The elastic potential energy stored in a stretched spring is given by...",
+          questionMy:
+              "ဆန့်ထားသော Spring တစ်ခုတွင် သိုလှောင်ထားသော Elastic Potential Energy ကို ဖော်ပြသည်မှာ...",
+          optionsEn: ["½kx²", "kx", "mgh", "Fv"],
+          optionsMy: ["½kx²", "kx", "mgh", "Fv"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm6 = CourseTermDef(
+  id: "course-y12-phys-term6",
+  termNumber: 6,
+  titleEn: "Deformation of Solids",
+  titleMy: "Deformation of Solids",
+  weeks: [_y12PhysWeek21, _y12PhysWeek22, _y12PhysWeek23, _y12PhysWeek24],
+  certificateTitleEn: "AS Physics: Deformation of Solids",
+  certificateTitleMy: "AS ရူပဗေဒ - Deformation of Solids",
 );
 
 // __TERMS_MARKER__
