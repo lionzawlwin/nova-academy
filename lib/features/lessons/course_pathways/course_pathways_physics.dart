@@ -13934,11 +13934,11 @@ const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
   certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
 );
 
-/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-7
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-8
 /// (Physical Quantities, Units and Measurement; Kinematics; Dynamics;
 /// Forces, Density and Pressure; Work, Energy and Power; Deformation of
-/// Solids; Waves and the Electromagnetic Spectrum) authored; Terms 8-9
-/// (Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
+/// Solids; Waves and the Electromagnetic Spectrum; Superposition)
+/// authored; Term 9 (Electricity, DC Circuits and AS Exam Prep) to follow.
 /// No LaTeX renderer exists in this app -- formulas throughout use the
 /// same plain Unicode math notation (², √, x for multiplication) already
 /// established by the IGCSE pathways, not literal LaTeX markup.
@@ -13952,7 +13952,7 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 28,
+  totalWeeks: 32,
   terms: [
     year12PhysicsTerm1,
     year12PhysicsTerm2,
@@ -13961,6 +13961,7 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
     year12PhysicsTerm5,
     year12PhysicsTerm6,
     year12PhysicsTerm7,
+    year12PhysicsTerm8,
   ],
 );
 
@@ -21393,6 +21394,1246 @@ const CourseTermDef year12PhysicsTerm7 = CourseTermDef(
   weeks: [_y12PhysWeek25, _y12PhysWeek26, _y12PhysWeek27, _y12PhysWeek28],
   certificateTitleEn: "AS Physics: Waves and the Electromagnetic Spectrum",
   certificateTitleMy: "AS ရူပဗေဒ - Waves and the Electromagnetic Spectrum",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 8: "Superposition"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Superposition and Stationary Waves"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek29 = CourseWeekDef(
+  id: "course-y12-phys-w29",
+  weekNumber: 29,
+  titleEn: "Superposition and Stationary Waves",
+  titleMy: "Superposition နှင့် Stationary Waves",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w29-d1",
+      dayNumber: 1,
+      titleEn: "The Principle of Superposition",
+      titleMy: "Principle of Superposition",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The principle of superposition states that when two or more waves meet at a point...",
+          questionMy:
+              "Principle of Superposition အရ Wave နှစ်ခု (သို့) ထို့ထက်ပို၍ အမှတ်တစ်ခုတွင် တွေ့ဆုံချိန်...",
+          optionsEn: [
+            "The resultant displacement is the sum of the individual displacements",
+            "The waves always cancel each other completely",
+            "Only the larger wave survives",
+            "The waves must have the same frequency to combine at all",
+          ],
+          optionsMy: [
+            "Resultant Displacement သည် Individual Displacement များ၏ ပေါင်းလဒ် ဖြစ်သည်",
+            "Wave များသည် အမြဲ တစ်ခုလုံး အပြန်အလှန် ချေဖျက်ကြသည်",
+            "ပိုကြီးသော Wave တစ်ခုတည်းသာ ကျန်ရှိသည်",
+            "ပေါင်းစည်းနိုင်ရန် Wave များသည် Frequency တူညီ လိုအပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A stationary (standing) wave is formed when...",
+          questionMy: "Stationary (Standing) Wave တစ်ခု ဖြစ်ပေါ်ချိန်မှာ...",
+          optionsEn: [
+            "Two waves of the same frequency and amplitude travel in opposite directions and superpose",
+            "A single wave travels through empty space",
+            "Two waves of different frequencies meet",
+            "A wave reflects off nothing at all",
+          ],
+          optionsMy: [
+            "Frequency နှင့် Amplitude တူညီသော Wave နှစ်ခုသည် ဆန့်ကျင်ဘက် ဦးတည်ရာများသို့ ခရီးသွားပြီး Superpose ဖြစ်ချိန်",
+            "Wave တစ်ခုတည်းသည် ဗလာနေရာကို ဖြတ်သန်းချိန်",
+            "Frequency မတူညီသော Wave နှစ်ခု တွေ့ဆုံချိန်",
+            "Wave တစ်ခုသည် ဘာမှ မရှိရာမှ ရောင်ပြန်ဟပ်ချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A stationary wave has a wavelength of 0.6 m. The distance between adjacent nodes is...",
+          questionMy:
+              "Stationary Wave တစ်ခုသည် Wavelength 0.6 m ရှိသည်။ Adjacent Node များကြား Distance မှာ...",
+          optionsEn: ["0.3 m", "0.6 m", "1.2 m", "0.15 m"],
+          optionsMy: ["0.3 m", "0.6 m", "1.2 m", "0.15 m"],
+          correctIndex: 0,
+          hintsEn: [
+            "Adjacent nodes are separated by half a wavelength: 0.6 / 2 = 0.3 m.",
+          ],
+          hintsMy: [
+            "Adjacent Node များသည် Wavelength ၏ တစ်ဝက် ကွာဟနေသည်: 0.6 / 2 = 0.3 m ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Superposition Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Superposition ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w29-dm-1",
+          termEn: "Principle of superposition",
+          termMy: "Principle of Superposition",
+          matchEn:
+              "When two or more waves meet, the resultant displacement is the sum of the individual displacements",
+          matchMy:
+              "Wave နှစ်ခု (သို့) ထို့ထက်ပို၍ တွေ့ဆုံချိန် Resultant Displacement သည် Individual Displacement များ၏ ပေါင်းလဒ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w29-dm-2",
+          termEn: "Stationary (standing) wave",
+          termMy: "Stationary (Standing) Wave",
+          matchEn:
+              "Formed by two waves of equal frequency and amplitude travelling in opposite directions",
+          matchMy:
+              "Frequency နှင့် Amplitude ညီမျှသော Wave နှစ်ခု ဆန့်ကျင်ဘက်ဦးတည်ရာများသို့ ခရီးသွားခြင်းမှ ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w29-dm-3",
+          termEn: "Node",
+          termMy: "Node",
+          matchEn:
+              "A point on a stationary wave with zero amplitude at all times",
+          matchMy:
+              "Stationary Wave ပေါ်ရှိ အချိန်တိုင်း Amplitude Zero ရှိသော အမှတ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w29-dm-4",
+          termEn: "Antinode",
+          termMy: "Antinode",
+          matchEn: "A point on a stationary wave with maximum amplitude",
+          matchMy: "Stationary Wave ပေါ်ရှိ Amplitude အများဆုံး ရှိသော အမှတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w29-dm-5",
+          termEn: "Progressive wave",
+          termMy: "Progressive Wave",
+          matchEn:
+              "A wave that transfers energy from one place to another, unlike a stationary wave",
+          matchMy:
+              "Stationary Wave နှင့် မတူဘဲ Energy ကို နေရာတစ်ခုမှ တစ်ခုသို့ လွှဲပြောင်းပေးသော Wave",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Node or Antinode?",
+      titleMy: "စီစစ်ကြမည် - Node သို့မဟုတ် Antinode",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Node", "Antinode"],
+        bucketsMy: ["Node", "Antinode"],
+        items: [
+          SortingItem(
+            id: "y12phys-w29-sort-1",
+            labelEn: "The point where two waves always cancel exactly",
+            labelMy: "Wave နှစ်ခု အမြဲ အတိအကျ ချေဖျက်သော အမှတ်",
+            correctBucketEn: "Node",
+            correctBucketMy: "Node",
+          ),
+          SortingItem(
+            id: "y12phys-w29-sort-2",
+            labelEn: "The point where two waves always reinforce fully",
+            labelMy: "Wave နှစ်ခု အမြဲ အပြည့်အစုံ ချဲ့ထွင်ပေးသော အမှတ်",
+            correctBucketEn: "Antinode",
+            correctBucketMy: "Antinode",
+          ),
+          SortingItem(
+            id: "y12phys-w29-sort-3",
+            labelEn: "Found at a fixed end of a string under tension",
+            labelMy:
+                "Tension အောက်ရှိ ကြိုးတစ်ချောင်း၏ ငြိမ်သက်သော အစွန်းတွင် တွေ့ရသည်",
+            correctBucketEn: "Node",
+            correctBucketMy: "Node",
+          ),
+          SortingItem(
+            id: "y12phys-w29-sort-4",
+            labelEn: "Found midway between two adjacent nodes",
+            labelMy: "Adjacent Node နှစ်ခုကြား အလယ်တွင် တွေ့ရသည်",
+            correctBucketEn: "Antinode",
+            correctBucketMy: "Antinode",
+          ),
+          SortingItem(
+            id: "y12phys-w29-sort-5",
+            labelEn: "A point with zero displacement at every instant",
+            labelMy: "အချိန်တိုင်း Displacement Zero ရှိသော အမှတ်",
+            correctBucketEn: "Node",
+            correctBucketMy: "Node",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding Wave Speed on a Vibrating String",
+      titleMy: "စာဖတ်ခြင်း - တုန်ခါနေသော ကြိုး၏ Wave Speed ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding Wave Speed on a Vibrating String",
+        titleMy: "တုန်ခါနေသော ကြိုး၏ Wave Speed ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Pyae Sone Aung's class set up a string vibrator driving a taut string at a frequency of 50 Hz, producing a clear stationary wave pattern with several visible nodes. Nilar Kyaw measured the distance between two adjacent nodes as 0.15 m. He asked the class to find the wavelength and the speed of the wave on the string.\n\nNilar Kyaw recalled that adjacent nodes on a stationary wave are separated by half a wavelength, not a full wavelength -- the pattern between one node and the very next one is only half of a complete wave cycle. So the wavelength is twice the measured node spacing: λ = 2 x 0.15 = 0.3 m.\n\nWith the wavelength found, he used the wave equation to find the speed: v = fλ = 50 x 0.3 = 15 m s⁻¹. Sayar Pyae Sone Aung then asked what would happen to the node spacing if the driving frequency were increased while the string's tension (and therefore wave speed) stayed the same. Nilar Kyaw reasoned that since v = fλ, if v stays fixed and f increases, λ must decrease -- so the nodes would move closer together, producing a stationary wave pattern with more nodes visible along the same length of string.",
+        passageMy:
+            "Sayar ပြည့်စုံအောင် ၏ အတန်းသည် ဆန့်ထားသော ကြိုးတစ်ခုကို Frequency 50 Hz ဖြင့် မောင်းနှင်သော String Vibrator တစ်ခုကို တည်ဆောက်ခဲ့ပြီး မြင်သာသော Node များစွာဖြင့် ရှင်းလင်းသော Stationary Wave ပုံစံကို ဖြစ်ပေါ်စေခဲ့သည်။ Nilar Kyaw သည် Adjacent Node နှစ်ခုကြား Distance ကို 0.15 m ဟု တိုင်းတာခဲ့သည်။ Wavelength နှင့် ကြိုးပေါ်ရှိ Wave ၏ Speed ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nStationary Wave ပေါ်ရှိ Adjacent Node များသည် Wavelength တစ်ခုလုံး မဟုတ်ဘဲ တစ်ဝက်ဖြင့် ကွာဟနေကြောင်း Nilar Kyaw သတိရခဲ့သည် -- Node တစ်ခုနှင့် ချက်ချင်းနောက်ဆက်တွဲ Node ကြား ပုံစံသည် ပြီးပြည့်စုံသော Wave Cycle ၏ တစ်ဝက်သာ ဖြစ်သည်။ ထို့ကြောင့် Wavelength သည် တိုင်းတာထားသော Node Spacing ၏ နှစ်ဆ ဖြစ်သည် - λ = 2 x 0.15 = 0.3 m ။\n\nWavelength ရရှိပြီးနောက် Speed ကို ရှာဖွေရန် Wave Equation ကို အသုံးပြုခဲ့သည် - v = fλ = 50 x 0.3 = 15 m s⁻¹ ။ ကြိုး၏ Tension (ထို့ကြောင့် Wave Speed) တူညီဆဲ ရှိနေချိန် Driving Frequency ကို တိုးမြှင့်ပါက Node Spacing အဘယ်သို့ ဖြစ်လာမည်ကို Sayar ပြည့်စုံအောင် ထို့နောက် မေးမြန်းခဲ့သည်။ v = fλ ဖြစ်၍ v သည် ငြိမ်ဆဲ ရှိနေပြီး f တိုးလာပါက λ သည် လျော့ကျရမည်ဖြစ်ကြောင်း Nilar Kyaw ဆင်ခြင်တွေးခေါ်ခဲ့သည် -- ထို့ကြောင့် Node များသည် ပိုနီးကပ်စွာ ရွေ့လာပြီး ကြိုး Length တူညီတလျှောက် Node ပိုများစွာ မြင်သာသော Stationary Wave ပုံစံကို ဖြစ်ပေါ်စေမည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the wavelength of the wave on the string?",
+            questionMy:
+                "ကြိုးပေါ်ရှိ Wave ၏ Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.3 m", "0.15 m", "0.6 m", "50 m"],
+            optionsMy: ["0.3 m", "0.15 m", "0.6 m", "50 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the wave's speed on the string?",
+            questionMy: "ကြိုးပေါ်ရှိ Wave ၏ Speed ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["15 m s⁻¹", "0.3 m s⁻¹", "50 m s⁻¹", "0.15 m s⁻¹"],
+            optionsMy: ["15 m s⁻¹", "0.3 m s⁻¹", "50 m s⁻¹", "0.15 m s⁻¹"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what happens to the node spacing if frequency increases while speed stays the same?",
+            questionMy:
+                "Speed တူညီဆဲ ရှိနေချိန် Frequency တိုးလာပါက Node Spacing အဘယ်သို့ ဖြစ်လာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It decreases -- the nodes move closer together",
+              "It increases -- the nodes move further apart",
+              "It stays exactly the same",
+              "The nodes disappear completely",
+            ],
+            optionsMy: [
+              "လျော့ကျသည် -- Node များ ပိုနီးကပ်စွာ ရွေ့လာသည်",
+              "တိုးလာသည် -- Node များ ပို၍ ဝေးစွာ ရွေ့လာသည်",
+              "အတိအကျ တူညီဆဲ ရှိနေသည်",
+              "Node များ လုံးဝ ပျောက်ကွယ်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's reasoning."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Superposition",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Superposition",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The principle of superposition states that resultant displacement is...",
+          questionMy:
+              "Principle of Superposition အရ Resultant Displacement သည်...",
+          optionsEn: [
+            "The sum of the individual displacements",
+            "Always zero",
+            "Always equal to the larger wave alone",
+            "Impossible to calculate",
+          ],
+          optionsMy: [
+            "Individual Displacement များ၏ ပေါင်းလဒ်",
+            "အမြဲ Zero",
+            "ပိုကြီးသော Wave တစ်ခုတည်းနှင့် အမြဲ ညီမျှသည်",
+            "တွက်ချက်၍ လုံးဝ မရပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A node on a stationary wave has...",
+          questionMy: "Stationary Wave ပေါ်ရှိ Node တစ်ခုသည်...",
+          optionsEn: [
+            "Zero amplitude at all times",
+            "Maximum amplitude at all times",
+            "Amplitude equal to the antinode",
+            "No fixed position at all",
+          ],
+          optionsMy: [
+            "အချိန်တိုင်း Amplitude Zero",
+            "အချိန်တိုင်း Amplitude အများဆုံး",
+            "Antinode နှင့် ညီမျှသော Amplitude",
+            "ငြိမ်သက်သော Position လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A stationary wave has adjacent nodes 0.2 m apart. Its wavelength is...",
+          questionMy:
+              "Stationary Wave တစ်ခုသည် Adjacent Node 0.2 m ကွာနေသည်။ ၎င်း၏ Wavelength မှာ...",
+          optionsEn: ["0.4 m", "0.2 m", "0.1 m", "0.8 m"],
+          optionsMy: ["0.4 m", "0.2 m", "0.1 m", "0.8 m"],
+          correctIndex: 0,
+          hintsEn: ["Wavelength = 2 x node spacing = 2 x 0.2 = 0.4 m."],
+          hintsMy: ["Wavelength = 2 x Node Spacing = 2 x 0.2 = 0.4 m ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "Interference and Young's Double-Slit Experiment"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek30 = CourseWeekDef(
+  id: "course-y12-phys-w30",
+  weekNumber: 30,
+  titleEn: "Interference and Young's Double-Slit Experiment",
+  titleMy: "Interference နှင့် Young's Double-Slit Experiment",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w30-d1",
+      dayNumber: 1,
+      titleEn: "Interference and Fringe Spacing",
+      titleMy: "Interference နှင့် Fringe Spacing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Constructive interference occurs when two coherent waves arrive at a point...",
+          questionMy:
+              "Coherent Wave နှစ်ခု အမှတ်တစ်ခုသို့ ရောက်ချိန် Constructive Interference ဖြစ်ပေါ်ချိန်မှာ...",
+          optionsEn: [
+            "In phase, with a path difference of a whole number of wavelengths",
+            "Exactly out of phase, always",
+            "With completely different frequencies",
+            "Travelling in the same direction only",
+          ],
+          optionsMy: [
+            "Phase တူညီစွာ၊ Path Difference သည် Wavelength ၏ ကိန်းပြည့် ဖြင့်",
+            "Out of Phase အတိအကျ၊ အမြဲ",
+            "လုံးဝ ကွာခြားသော Frequency ဖြင့်",
+            "ဦးတည်ရာ တူညီစွာ ခရီးသွားနေချိန်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Destructive interference occurs when two coherent waves arrive at a point with a path difference of...",
+          questionMy:
+              "Coherent Wave နှစ်ခု Path Difference ...ဖြင့် အမှတ်တစ်ခုသို့ ရောက်ချိန် Destructive Interference ဖြစ်ပေါ်ချိန်မှာ...",
+          optionsEn: [
+            "A whole number of wavelengths plus a half wavelength",
+            "Exactly zero, always",
+            "A whole number of wavelengths only",
+            "Twice the wavelength only",
+          ],
+          optionsMy: [
+            "Wavelength ၏ ကိန်းပြည့် ပေါင်း Wavelength တစ်ဝက်",
+            "Zero အတိအကျ၊ အမြဲ",
+            "Wavelength ၏ ကိန်းပြည့်သာ",
+            "Wavelength ၏ နှစ်ဆသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Young's double-slit experiment, light of wavelength 6 x 10⁻⁷ m, slit separation 1 x 10⁻³ m, and screen distance 2 m produces a fringe spacing of...",
+          questionMy:
+              "Young's Double-Slit Experiment တွင် Wavelength 6 x 10⁻⁷ m, Slit Separation 1 x 10⁻³ m နှင့် Screen Distance 2 m သည် Fringe Spacing...",
+          optionsEn: [
+            "1.2 x 10⁻³ m",
+            "3 x 10⁻¹⁰ m",
+            "1.2 x 10¹⁰ m",
+            "6 x 10⁻⁴ m",
+          ],
+          optionsMy: [
+            "1.2 x 10⁻³ m",
+            "3 x 10⁻¹⁰ m",
+            "1.2 x 10¹⁰ m",
+            "6 x 10⁻⁴ m",
+          ],
+          correctIndex: 0,
+          hintsEn: ["w = λD / a = (6 x 10⁻⁷ x 2) / (1 x 10⁻³) = 1.2 x 10⁻³ m."],
+          hintsMy: [
+            "w = λD / a = (6 x 10⁻⁷ x 2) / (1 x 10⁻³) = 1.2 x 10⁻³ m ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Interference Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Interference ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w30-dm-1",
+          termEn: "Coherent sources",
+          termMy: "Coherent Sources",
+          matchEn:
+              "Sources with a constant phase difference and the same frequency, needed for a stable interference pattern",
+          matchMy:
+              "တည်ငြိမ်သော Interference Pattern အတွက် လိုအပ်သော Phase Difference တည်ငြိမ်ခြင်းနှင့် Frequency တူညီခြင်း ရှိသော Source များ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w30-dm-2",
+          termEn: "Path difference",
+          termMy: "Path Difference",
+          matchEn:
+              "The difference in distance travelled by two waves to reach a point",
+          matchMy:
+              "Wave နှစ်ခု အမှတ်တစ်ခုသို့ ရောက်ရန် ခရီးသွားရသော Distance ကွာခြားချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w30-dm-3",
+          termEn: "Constructive interference",
+          termMy: "Constructive Interference",
+          matchEn:
+              "Occurs when the path difference is a whole number of wavelengths, producing a bright fringe",
+          matchMy:
+              "Path Difference သည် Wavelength ၏ ကိန်းပြည့် ဖြစ်ချိန် ဖြစ်ပေါ်ပြီး တောက်ပသော Fringe ကို ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w30-dm-4",
+          termEn: "Destructive interference",
+          termMy: "Destructive Interference",
+          matchEn:
+              "Occurs when the path difference is a whole number plus a half wavelength, producing a dark fringe",
+          matchMy:
+              "Path Difference သည် ကိန်းပြည့် ပေါင်း Wavelength တစ်ဝက် ဖြစ်ချိန် ဖြစ်ပေါ်ပြီး မှောင်သော Fringe ကို ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w30-dm-5",
+          termEn: "Fringe spacing (w)",
+          termMy: "Fringe Spacing (w)",
+          matchEn:
+              "The distance between adjacent bright (or dark) fringes, given by w = λD / a",
+          matchMy:
+              "Adjacent တောက်ပ (သို့) မှောင်သော Fringe များကြား Distance၊ w = λD / a ဖြင့် ဖော်ပြသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Constructive or Destructive Interference?",
+      titleMy: "စီစစ်ကြမည် - Constructive သို့မဟုတ် Destructive Interference",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Constructive Interference", "Destructive Interference"],
+        bucketsMy: ["Constructive Interference", "Destructive Interference"],
+        items: [
+          SortingItem(
+            id: "y12phys-w30-sort-1",
+            labelEn: "Path difference = 0",
+            labelMy: "Path Difference = 0",
+            correctBucketEn: "Constructive Interference",
+            correctBucketMy: "Constructive Interference",
+          ),
+          SortingItem(
+            id: "y12phys-w30-sort-2",
+            labelEn: "Path difference = λ/2",
+            labelMy: "Path Difference = λ/2",
+            correctBucketEn: "Destructive Interference",
+            correctBucketMy: "Destructive Interference",
+          ),
+          SortingItem(
+            id: "y12phys-w30-sort-3",
+            labelEn: "Path difference = 2λ",
+            labelMy: "Path Difference = 2λ",
+            correctBucketEn: "Constructive Interference",
+            correctBucketMy: "Constructive Interference",
+          ),
+          SortingItem(
+            id: "y12phys-w30-sort-4",
+            labelEn: "Path difference = 1.5λ",
+            labelMy: "Path Difference = 1.5λ",
+            correctBucketEn: "Destructive Interference",
+            correctBucketMy: "Destructive Interference",
+          ),
+          SortingItem(
+            id: "y12phys-w30-sort-5",
+            labelEn: "Path difference = 3λ",
+            labelMy: "Path Difference = 3λ",
+            correctBucketEn: "Constructive Interference",
+            correctBucketMy: "Constructive Interference",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Wavelength with Young's Double Slit",
+      titleMy: "စာဖတ်ခြင်း - Young's Double Slit ဖြင့် Wavelength ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Wavelength with Young's Double Slit",
+        titleMy: "Young's Double Slit ဖြင့် Wavelength ရှာဖွေခြင်း",
+        passageEn:
+            "Sayama Thiri Yadanar's class shone a laser through two narrow, closely spaced slits separated by 5 x 10⁻⁴ m onto a screen 2 m away, and measured the resulting bright fringe spacing on the screen as 2.4 x 10⁻³ m. She asked them to find the laser's wavelength.\n\nYe Yint Aung rearranged the double-slit formula, w = λD / a, to make λ the subject: λ = wa / D. Substituting the measured values: λ = (2.4 x 10⁻³ x 5 x 10⁻⁴) / 2 = (1.2 x 10⁻⁶) / 2 = 6 x 10⁻⁷ m, or 600 nm -- a wavelength in the orange-red part of the visible spectrum, consistent with a typical red laser pointer.\n\nSayama Thiri Yadanar then asked what would happen to the fringe spacing if the same laser were used but the slits were moved twice as far apart, while the screen distance stayed the same. Ye Yint Aung reasoned directly from the formula: since w = λD / a, and λ and D are both unchanged, doubling a halves w -- so the fringes would become half as widely spaced, and therefore harder to distinguish on the screen. This is why double-slit demonstrations typically use very narrow slit separations: a smaller a produces a larger, more easily measurable fringe spacing for the same wavelength and screen distance.",
+        passageMy:
+            "Sayama သီရိရတနာ ၏ အတန်းသည် Laser တစ်ခုကို Separation 5 x 10⁻⁴ m ရှိ ကျဉ်းမြောင်းစွာ နီးကပ်စွာ ချထားသော Slit နှစ်ခုကို ဖြတ်သန်းစေပြီး Distance 2 m အကွာ ရှိ Screen ပေါ်သို့ ထွက်စေခဲ့သည်၊ ဖြစ်ပေါ်လာသော တောက်ပသော Fringe Spacing ကို Screen ပေါ်တွင် 2.4 x 10⁻³ m ဟု တိုင်းတာခဲ့သည်။ Laser ၏ Wavelength ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nYe Yint Aung သည် λ ကို Subject အဖြစ် ဖြစ်စေရန် Double-Slit Formula, w = λD / a ကို ပြန်စီစဉ်ခဲ့သည် - λ = wa / D ။ တိုင်းတာထားသော တန်ဖိုးများကို အစားထိုးခြင်း - λ = (2.4 x 10⁻³ x 5 x 10⁻⁴) / 2 = (1.2 x 10⁻⁶) / 2 = 6 x 10⁻⁷ m သို့မဟုတ် 600 nm -- Visible Spectrum ၏ လိမ္မော်-နီ ဒေသရှိ Wavelength ဖြစ်ပြီး ပုံမှန် နီရောင် Laser Pointer နှင့် ကိုက်ညီသည်။\n\nLaser တစ်ခုတည်းကို အသုံးပြုသော်လည်း Slit များကို Screen Distance တူညီ ရှိနေချိန် နှစ်ဆ ဝေးစွာ ရွှေ့လိုက်ပါက Fringe Spacing အဘယ်သို့ ဖြစ်လာမည်ကို Sayama သီရိရတနာ ထို့နောက် မေးမြန်းခဲ့သည်။ w = λD / a ဖြစ်၍ λ နှင့် D နှစ်ခုစလုံး မပြောင်းလဲသောကြောင့် a ကို နှစ်ဆ တိုးခြင်းက w ကို တစ်ဝက် လျော့ချသည်ဟု Ye Yint Aung ဖော်မြူလာမှ တိုက်ရိုက် ဆင်ခြင်တွေးခေါ်ခဲ့သည် -- ထို့ကြောင့် Fringe များသည် တစ်ဝက် ကျဉ်းသွားပြီး Screen ပေါ်တွင် ခွဲခြားရန် ပို၍ ခက်ခဲလာလိမ့်မည်။ ၎င်းသည် Double-Slit သရုပ်ပြမှုများ Slit Separation အလွန် ကျဉ်းစွာ ပုံမှန် အသုံးပြုရသည့် အကြောင်းရင်း ဖြစ်သည် - a ငယ်ခြင်းက Wavelength နှင့် Screen Distance တူညီအတွက် ပို၍ ကြီးမား တိုင်းတာ ရလွယ်သော Fringe Spacing ကို ဖြစ်ပေါ်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the laser's wavelength?",
+            questionMy: "Laser ၏ Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "6 x 10⁻⁷ m",
+              "2.4 x 10⁻³ m",
+              "5 x 10⁻⁴ m",
+              "1.2 x 10⁻⁶ m",
+            ],
+            optionsMy: [
+              "6 x 10⁻⁷ m",
+              "2.4 x 10⁻³ m",
+              "5 x 10⁻⁴ m",
+              "1.2 x 10⁻⁶ m",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the measured fringe spacing?",
+            questionMy: "တိုင်းတာထားသော Fringe Spacing ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2.4 x 10⁻³ m", "6 x 10⁻⁷ m", "5 x 10⁻⁴ m", "2 m"],
+            optionsMy: ["2.4 x 10⁻³ m", "6 x 10⁻⁷ m", "5 x 10⁻⁴ m", "2 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what happens to fringe spacing if the slit separation doubles?",
+            questionMy:
+                "Slit Separation ကို နှစ်ဆ တိုးပါက Fringe Spacing အဘယ်သို့ ဖြစ်လာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It halves",
+              "It doubles",
+              "It stays exactly the same",
+              "It becomes zero",
+            ],
+            optionsMy: [
+              "တစ်ဝက် လျော့ကျသည်",
+              "နှစ်ဆ တိုးလာသည်",
+              "အတိအကျ တူညီဆဲ ရှိနေသည်",
+              "Zero ဖြစ်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's reasoning."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Interference",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Interference",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Fringe spacing in Young's double-slit experiment is calculated using...",
+          questionMy:
+              "Young's Double-Slit Experiment တွင် Fringe Spacing ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: [
+            "w = λD / a",
+            "w = λ + D + a",
+            "w = λ / (Da)",
+            "w = D / (λa)",
+          ],
+          optionsMy: [
+            "w = λD / a",
+            "w = λ + D + a",
+            "w = λ / (Da)",
+            "w = D / (λa)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two coherent sources have a constant...",
+          questionMy: "Coherent Source နှစ်ခုသည် တည်ငြိမ်သော ...ရှိသည်",
+          optionsEn: [
+            "Phase difference and the same frequency",
+            "Amplitude only",
+            "Colour only",
+            "Speed of zero",
+          ],
+          optionsMy: [
+            "Phase Difference နှင့် Frequency တူညီခြင်း",
+            "Amplitude တစ်ခုတည်း",
+            "အရောင် တစ်ခုတည်း",
+            "Speed Zero",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Young's double-slit experiment, λ = 5 x 10⁻⁷ m, D = 1 m, a = 5 x 10⁻⁴ m. The fringe spacing is...",
+          questionMy:
+              "Young's Double-Slit Experiment တွင် λ = 5 x 10⁻⁷ m, D = 1 m, a = 5 x 10⁻⁴ m ။ Fringe Spacing မှာ...",
+          optionsEn: ["1 x 10⁻³ m", "2.5 x 10⁻¹⁰ m", "1 x 10³ m", "5 x 10⁻⁷ m"],
+          optionsMy: ["1 x 10⁻³ m", "2.5 x 10⁻¹⁰ m", "1 x 10³ m", "5 x 10⁻⁷ m"],
+          correctIndex: 0,
+          hintsEn: ["w = λD / a = (5 x 10⁻⁷ x 1) / (5 x 10⁻⁴) = 1 x 10⁻³ m."],
+          hintsMy: ["w = λD / a = (5 x 10⁻⁷ x 1) / (5 x 10⁻⁴) = 1 x 10⁻³ m ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Diffraction and the Diffraction Grating"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek31 = CourseWeekDef(
+  id: "course-y12-phys-w31",
+  weekNumber: 31,
+  titleEn: "Diffraction and the Diffraction Grating",
+  titleMy: "Diffraction နှင့် Diffraction Grating",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w31-d1",
+      dayNumber: 1,
+      titleEn: "Diffraction and the Grating Equation",
+      titleMy: "Diffraction နှင့် Grating Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Diffraction is...",
+          questionMy: "Diffraction ဆိုသည်မှာ...",
+          optionsEn: [
+            "The spreading of waves as they pass through a gap or around an obstacle",
+            "The bouncing back of waves off a flat surface",
+            "The bending of waves due to a change in speed only",
+            "The cancelling of all waves at once",
+          ],
+          optionsMy: [
+            "Wave များ Gap တစ်ခုကို ဖြတ်သန်း (သို့) Obstacle တစ်ခု ဝန်းရံ ခရီးသွားချိန် ပျံ့နှံ့ခြင်း",
+            "Wave များ ညီညာသော မျက်နှာပြင်မှ ပြန်ခုန်ခြင်း",
+            "Speed ပြောင်းလဲခြင်းကြောင့်သာ Wave များ ကွေ့ခြင်း",
+            "Wave အားလုံး တစ်ချိန်တည်း ချေဖျက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Diffraction is most significant when...",
+          questionMy: "Diffraction သည် ...ချိန် အသိသာဆုံး ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "The gap width is comparable to the wavelength",
+            "The gap is much larger than the wavelength",
+            "There is no gap at all",
+            "The wave has zero frequency",
+          ],
+          optionsMy: [
+            "Gap Width သည် Wavelength နှင့် အနီးစပ်ဆုံး ဖြစ်ချိန်",
+            "Gap သည် Wavelength ထက် များစွာ ပိုကြီးချိန်",
+            "Gap လုံးဝ မရှိချိန်",
+            "Wave တွင် Frequency Zero ရှိချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A diffraction grating has a slit spacing of 2 x 10⁻⁶ m. For a first-order (n = 1) maximum with light of wavelength 500 nm, sinθ equals...",
+          questionMy:
+              "Diffraction Grating တစ်ခုသည် Slit Spacing 2 x 10⁻⁶ m ရှိသည်။ Wavelength 500 nm ရှိ First-Order (n = 1) Maximum အတွက် sinθ သည်...",
+          optionsEn: ["0.25", "0.5", "2.5", "0.025"],
+          optionsMy: ["0.25", "0.5", "2.5", "0.025"],
+          correctIndex: 0,
+          hintsEn: ["sinθ = nλ / d = (1 x 500 x 10⁻⁹) / (2 x 10⁻⁶) = 0.25."],
+          hintsMy: ["sinθ = nλ / d = (1 x 500 x 10⁻⁹) / (2 x 10⁻⁶) = 0.25 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Diffraction Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Diffraction ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w31-dm-1",
+          termEn: "Diffraction",
+          termMy: "Diffraction",
+          matchEn:
+              "The spreading of waves as they pass through a gap or around an obstacle",
+          matchMy:
+              "Wave များ Gap တစ်ခုကို ဖြတ်သန်း (သို့) Obstacle တစ်ခု ဝန်းရံ ခရီးသွားချိန် ပျံ့နှံ့ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w31-dm-2",
+          termEn: "Diffraction grating",
+          termMy: "Diffraction Grating",
+          matchEn:
+              "A plate with many closely spaced parallel slits, used to produce sharp interference maxima",
+          matchMy:
+              "ကျဉ်းစွာ ကပ်လျက် Parallel Slit များစွာ ရှိသော ပြား၊ ကွက်ကွက်ကွင်းကွင်း Interference Maxima ကို ဖြစ်ပေါ်စေရန် အသုံးပြုသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w31-dm-3",
+          termEn: "Grating equation",
+          termMy: "Grating Equation",
+          matchEn:
+              "d sinθ = nλ, relating slit spacing, angle and wavelength to the order of the maximum",
+          matchMy:
+              "d sinθ = nλ, Slit Spacing, Angle နှင့် Wavelength ကို Maximum ၏ Order နှင့် ဆက်စပ်ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w31-dm-4",
+          termEn: "Order (n)",
+          termMy: "Order (n)",
+          matchEn:
+              "An integer labelling which maximum is being considered, n = 0, 1, 2...",
+          matchMy:
+              "Maximum မည်သည့်တစ်ခုကို ထည့်သွင်းစဉ်းစားနေသည်ကို ဖော်ပြသော ကိန်းပြည့်၊ n = 0, 1, 2...",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w31-dm-5",
+          termEn: "Slit spacing (d)",
+          termMy: "Slit Spacing (d)",
+          matchEn:
+              "The distance between adjacent slits on a diffraction grating",
+          matchMy:
+              "Diffraction Grating ပေါ်ရှိ Adjacent Slit များကြား Distance",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Diffraction Significant or Not?",
+      titleMy: "စီစစ်ကြမည် - Diffraction အသိသာ ဖြစ်လား၊ မဖြစ်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Diffraction Is Significant",
+          "Diffraction Is Not Significant",
+        ],
+        bucketsMy: ["Diffraction အသိသာ ဖြစ်သည်", "Diffraction အသိသာ မဖြစ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y12phys-w31-sort-1",
+            labelEn: "A gap width similar to the wavelength of the wave",
+            labelMy: "Wave ၏ Wavelength နှင့် ဆင်တူသော Gap Width",
+            correctBucketEn: "Diffraction Is Significant",
+            correctBucketMy: "Diffraction အသိသာ ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w31-sort-2",
+            labelEn: "A gap much larger than the wavelength",
+            labelMy: "Wavelength ထက် များစွာ ပိုကြီးသော Gap",
+            correctBucketEn: "Diffraction Is Not Significant",
+            correctBucketMy: "Diffraction အသိသာ မဖြစ်ပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w31-sort-3",
+            labelEn: "Sound waves diffracting around a doorway",
+            labelMy: "တံခါးဝတစ်ခု ဝန်းရံ Diffract ဖြစ်နေသော Sound Wave များ",
+            correctBucketEn: "Diffraction Is Significant",
+            correctBucketMy: "Diffraction အသိသာ ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w31-sort-4",
+            labelEn: "Light passing through a very large open window",
+            labelMy:
+                "အလွန်ကြီးမား ဖွင့်ထားသော ပြတင်းပေါက်ကို ဖြတ်သန်းသွားသော အလင်း",
+            correctBucketEn: "Diffraction Is Not Significant",
+            correctBucketMy: "Diffraction အသိသာ မဖြစ်ပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w31-sort-5",
+            labelEn: "Radio waves diffracting around a hill",
+            labelMy:
+                "တောင်ကုန်းတစ်ခု ဝန်းရံ Diffract ဖြစ်နေသော Radio Wave များ",
+            correctBucketEn: "Diffraction Is Significant",
+            correctBucketMy: "Diffraction အသိသာ ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Wavelength with a Diffraction Grating",
+      titleMy: "စာဖတ်ခြင်း - Diffraction Grating ဖြင့် Wavelength ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Wavelength with a Diffraction Grating",
+        titleMy: "Diffraction Grating ဖြင့် Wavelength ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Thura Kyaw's class shone a laser through a diffraction grating with a slit spacing of 1.2 x 10⁻⁶ m, and observed the first-order (n = 1) bright maximum at an angle of 30° from the straight-through direction. He asked them to find the laser's wavelength, and then to check whether a second-order maximum was visible at all.\n\nSu Hlaing Win rearranged the grating equation, d sinθ = nλ, to find λ: λ = d sinθ / n = (1.2 x 10⁻⁶ x sin30°) / 1 = (1.2 x 10⁻⁶ x 0.5) / 1 = 6 x 10⁻⁷ m, or 600 nm.\n\nTo check the second-order maximum, she substituted n = 2 into the same equation and solved for sinθ instead: sinθ = nλ / d = (2 x 6 x 10⁻⁷) / (1.2 x 10⁻⁶) = (1.2 x 10⁻⁶) / (1.2 x 10⁻⁶) = 1.0, giving θ = 90°. Sayar Thura Kyaw pointed out that a 90° angle means the second-order maximum would appear exactly at grazing incidence along the grating's own plane -- the very last angle physically possible before the light would have to bend back on itself. Su Hlaing Win then checked n = 3 out of curiosity: sinθ = (3 x 6 x 10⁻⁷) / (1.2 x 10⁻⁶) = 1.5, a value greater than 1, which sine can never reach -- confirming that no third-order maximum exists at all for this combination of grating and wavelength.",
+        passageMy:
+            "Sayar သူရကျော် ၏ အတန်းသည် Laser တစ်ခုကို Slit Spacing 1.2 x 10⁻⁶ m ရှိ Diffraction Grating တစ်ခုကို ဖြတ်သန်းစေပြီး Straight-Through Direction မှ 30° Angle တွင် First-Order (n = 1) တောက်ပသော Maximum ကို တွေ့ရှိခဲ့သည်။ Laser ၏ Wavelength ကို ရှာဖွေခိုင်းပြီး Second-Order Maximum တစ်ခု မြင်သာသလားဆိုသည်ကို စစ်ဆေးခိုင်းခဲ့သည်။\n\nSu Hlaing Win သည် λ ကို ရှာဖွေရန် Grating Equation, d sinθ = nλ ကို ပြန်စီစဉ်ခဲ့သည် - λ = d sinθ / n = (1.2 x 10⁻⁶ x sin30°) / 1 = (1.2 x 10⁻⁶ x 0.5) / 1 = 6 x 10⁻⁷ m သို့မဟုတ် 600 nm ။\n\nSecond-Order Maximum ကို စစ်ဆေးရန် သူမသည် Equation တူညီထဲသို့ n = 2 ကို အစားထိုးကာ sinθ ကို ပြန်ရှာဖွေခဲ့သည် - sinθ = nλ / d = (2 x 6 x 10⁻⁷) / (1.2 x 10⁻⁶) = (1.2 x 10⁻⁶) / (1.2 x 10⁻⁶) = 1.0 ဖြစ်ပြီး θ = 90° ကို ရရှိသည်။ 90° Angle ဆိုသည်မှာ Second-Order Maximum သည် Grating ကိုယ်ပိုင် Plane တလျှောက် Grazing Incidence အတိအကျတွင် ပေါ်လာမည်ဆိုသည်ကို Sayar သူရကျော် ထောက်ပြခဲ့သည် -- အလင်းသည် ၎င်းကိုယ်တိုင်အပေါ် ပြန်ကွေ့ရမည့်အစီအစဉ်မှ ရုပ်ပိုင်းဆိုင်ရာ ဖြစ်နိုင်သော နောက်ဆုံး Angle အတိအကျ ဖြစ်သည်။ Su Hlaing Win ထို့နောက် စိတ်ဝင်စားမှုကြောင့် n = 3 ကို စစ်ဆေးခဲ့သည် - sinθ = (3 x 6 x 10⁻⁷) / (1.2 x 10⁻⁶) = 1.5 ဖြစ်ပြီး Sine က မည်သည့်အခါမျှ မရောက်နိုင်သော 1 ထက် ကြီးသော တန်ဖိုး ဖြစ်သည် -- ဤ Grating နှင့် Wavelength ပေါင်းစပ်မှုအတွက် Third-Order Maximum လုံးဝ မရှိကြောင်း အတည်ပြုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the laser's wavelength?",
+            questionMy: "Laser ၏ Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["6 x 10⁻⁷ m", "1.2 x 10⁻⁶ m", "30 m", "0.5 m"],
+            optionsMy: ["6 x 10⁻⁷ m", "1.2 x 10⁻⁶ m", "30 m", "0.5 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, at what angle does the second-order maximum appear?",
+            questionMy:
+                "Second-Order Maximum သည် မည်သည့် Angle တွင် ပေါ်လာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["90°", "30°", "45°", "60°"],
+            optionsMy: ["90°", "30°", "45°", "60°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does no third-order maximum exist for this grating and wavelength?",
+            questionMy:
+                "ဤ Grating နှင့် Wavelength အတွက် Third-Order Maximum အဘယ့်ကြောင့် လုံးဝ မရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The calculation gives sinθ greater than 1, which is impossible",
+              "The grating physically breaks at higher orders",
+              "The laser turns off automatically at n = 3",
+              "Third-order maxima never exist for any grating",
+            ],
+            optionsMy: [
+              "တွက်ချက်မှုက sinθ ကို 1 ထက် ကြီးသော တန်ဖိုး ပေးသည်၊ ၎င်းသည် ဖြစ်နိုင်ခြေ မရှိပါ",
+              "Grating သည် Order မြင့်ချိန် ရုပ်ပိုင်းဆိုင်ရာ ကျိုးပဲ့သွားသည်",
+              "Laser သည် n = 3 တွင် အလိုအလျောက် ပိတ်သွားသည်",
+              "Third-Order Maxima များသည် Grating မည်သည့်တစ်ခုအတွက်မဆို လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Diffraction",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Diffraction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The diffraction grating equation is written as...",
+          questionMy: "Diffraction Grating Equation ကို ...အဖြစ် ရေးသည်",
+          optionsEn: [
+            "d sinθ = nλ",
+            "d + θ = nλ",
+            "d sinθ = n + λ",
+            "sinθ = dnλ",
+          ],
+          optionsMy: [
+            "d sinθ = nλ",
+            "d + θ = nλ",
+            "d sinθ = n + λ",
+            "sinθ = dnλ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Diffraction is most noticeable when the gap is...",
+          questionMy: "Gap သည် ...ချိန် Diffraction သည် အသိသာဆုံး ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Comparable in size to the wavelength",
+            "Much larger than the wavelength",
+            "Completely closed",
+            "Infinite in size",
+          ],
+          optionsMy: [
+            "Wavelength နှင့် အရွယ်အစား နီးစပ်ချိန်",
+            "Wavelength ထက် များစွာ ပိုကြီးချိန်",
+            "လုံးဝ ပိတ်ထားချိန်",
+            "အရွယ်အစား Infinite ချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A grating has slit spacing 3 x 10⁻⁶ m. For n = 1 with light of wavelength 600 nm, sinθ equals...",
+          questionMy:
+              "Grating တစ်ခုသည် Slit Spacing 3 x 10⁻⁶ m ရှိသည်။ Wavelength 600 nm ရှိ n = 1 အတွက် sinθ သည်...",
+          optionsEn: ["0.2", "0.5", "2", "5"],
+          optionsMy: ["0.2", "0.5", "2", "5"],
+          correctIndex: 0,
+          hintsEn: ["sinθ = nλ / d = (1 x 600 x 10⁻⁹) / (3 x 10⁻⁶) = 0.2."],
+          hintsMy: ["sinθ = nλ / d = (1 x 600 x 10⁻⁹) / (3 x 10⁻⁶) = 0.2 ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32: "Superposition Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek32 = CourseWeekDef(
+  id: "course-y12-phys-w32",
+  weekNumber: 32,
+  titleEn: "Superposition Capstone",
+  titleMy: "Superposition အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w32-d1",
+      dayNumber: 1,
+      titleEn: "Combining Stationary Waves, Interference and Diffraction",
+      titleMy:
+          "Stationary Waves, Interference နှင့် Diffraction ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A stationary wave has adjacent nodes 0.25 m apart. Its wavelength is...",
+          questionMy:
+              "Stationary Wave တစ်ခုသည် Adjacent Node 0.25 m ကွာနေသည်။ ၎င်း၏ Wavelength မှာ...",
+          optionsEn: ["0.5 m", "0.25 m", "0.125 m", "1 m"],
+          optionsMy: ["0.5 m", "0.25 m", "0.125 m", "1 m"],
+          correctIndex: 0,
+          hintsEn: ["Wavelength = 2 x node spacing = 2 x 0.25 = 0.5 m."],
+          hintsMy: ["Wavelength = 2 x Node Spacing = 2 x 0.25 = 0.5 m ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In Young's double-slit experiment, λ = 4 x 10⁻⁷ m, D = 3 m, a = 6 x 10⁻⁴ m. The fringe spacing is...",
+          questionMy:
+              "Young's Double-Slit Experiment တွင် λ = 4 x 10⁻⁷ m, D = 3 m, a = 6 x 10⁻⁴ m ။ Fringe Spacing မှာ...",
+          optionsEn: ["2 x 10⁻³ m", "8 x 10⁻¹¹ m", "2 x 10³ m", "1.2 x 10⁻⁶ m"],
+          optionsMy: ["2 x 10⁻³ m", "8 x 10⁻¹¹ m", "2 x 10³ m", "1.2 x 10⁻⁶ m"],
+          correctIndex: 0,
+          hintsEn: ["w = λD / a = (4 x 10⁻⁷ x 3) / (6 x 10⁻⁴) = 2 x 10⁻³ m."],
+          hintsMy: ["w = λD / a = (4 x 10⁻⁷ x 3) / (6 x 10⁻⁴) = 2 x 10⁻³ m ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A diffraction grating has slit spacing 2.5 x 10⁻⁶ m. For n = 1 with light of wavelength 500 nm, sinθ equals...",
+          questionMy:
+              "Diffraction Grating တစ်ခုသည် Slit Spacing 2.5 x 10⁻⁶ m ရှိသည်။ Wavelength 500 nm ရှိ n = 1 အတွက် sinθ သည်...",
+          optionsEn: ["0.2", "0.5", "5", "0.02"],
+          optionsMy: ["0.2", "0.5", "5", "0.02"],
+          correctIndex: 0,
+          hintsEn: ["sinθ = nλ / d = (1 x 500 x 10⁻⁹) / (2.5 x 10⁻⁶) = 0.2."],
+          hintsMy: ["sinθ = nλ / d = (1 x 500 x 10⁻⁹) / (2.5 x 10⁻⁶) = 0.2 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၈ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w32-dm-1",
+          termEn: "Node spacing = ",
+          termMy: "Node Spacing = ",
+          matchEn: "λ / 2",
+          matchMy: "λ / 2",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w32-dm-2",
+          termEn: "Fringe spacing: w = ",
+          termMy: "Fringe Spacing: w = ",
+          matchEn: "λD / a",
+          matchMy: "λD / a",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w32-dm-3",
+          termEn: "Grating equation: d sinθ = ",
+          termMy: "Grating Equation: d sinθ = ",
+          matchEn: "nλ",
+          matchMy: "nλ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w32-dm-4",
+          termEn: "Constructive interference: path difference = ",
+          termMy: "Constructive Interference: Path Difference = ",
+          matchEn: "nλ",
+          matchMy: "nλ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w32-dm-5",
+          termEn: "Destructive interference: path difference = ",
+          termMy: "Destructive Interference: Path Difference = ",
+          matchEn: "(n + ½)λ",
+          matchMy: "(n + ½)λ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Stationary Waves or Interference/Diffraction?",
+      titleMy:
+          "စီစစ်ကြမည် - Stationary Waves သို့မဟုတ် Interference/Diffraction",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Stationary Waves", "Interference/Diffraction"],
+        bucketsMy: ["Stationary Waves", "Interference/Diffraction"],
+        items: [
+          SortingItem(
+            id: "y12phys-w32-sort-1",
+            labelEn:
+                "Two waves of equal frequency and amplitude travelling in opposite directions superpose",
+            labelMy:
+                "Frequency နှင့် Amplitude ညီမျှသော Wave နှစ်ခု ဆန့်ကျင်ဘက်ဦးတည်ရာများသို့ ခရီးသွား Superpose ဖြစ်သည်",
+            correctBucketEn: "Stationary Waves",
+            correctBucketMy: "Stationary Waves",
+          ),
+          SortingItem(
+            id: "y12phys-w32-sort-2",
+            labelEn: "Light spreads out after passing through a narrow slit",
+            labelMy:
+                "ကျဉ်းမြောင်းသော Slit ကို ဖြတ်သန်းပြီးနောက် အလင်း ပျံ့နှံ့သွားသည်",
+            correctBucketEn: "Interference/Diffraction",
+            correctBucketMy: "Interference/Diffraction",
+          ),
+          SortingItem(
+            id: "y12phys-w32-sort-3",
+            labelEn: "A node is a point of permanently zero displacement",
+            labelMy: "Node သည် အမြဲတမ်း Displacement Zero ရှိသော အမှတ်",
+            correctBucketEn: "Stationary Waves",
+            correctBucketMy: "Stationary Waves",
+          ),
+          SortingItem(
+            id: "y12phys-w32-sort-4",
+            labelEn:
+                "A bright fringe appears where the path difference is a whole number of wavelengths",
+            labelMy:
+                "Path Difference သည် Wavelength ၏ ကိန်းပြည့်ဖြစ်သည့်နေရာတွင် တောက်ပသော Fringe ပေါ်လာသည်",
+            correctBucketEn: "Interference/Diffraction",
+            correctBucketMy: "Interference/Diffraction",
+          ),
+          SortingItem(
+            id: "y12phys-w32-sort-5",
+            labelEn: "An antinode has the maximum possible amplitude",
+            labelMy: "Antinode သည် ဖြစ်နိုင်သော Amplitude အများဆုံး ရှိသည်",
+            correctBucketEn: "Stationary Waves",
+            correctBucketMy: "Stationary Waves",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Confirming a Laser's Wavelength Two Ways",
+      titleMy:
+          "စာဖတ်ခြင်း - Laser ၏ Wavelength ကို နည်းလမ်းနှစ်ခုဖြင့် အတည်ပြုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Confirming a Laser's Wavelength Two Ways",
+        titleMy: "Laser ၏ Wavelength ကို နည်းလမ်းနှစ်ခုဖြင့် အတည်ပြုခြင်း",
+        passageEn:
+            "For their Term 8 capstone, Sayama Su Wai Phyo's class tested the same laser two independent ways to see whether both methods agreed on its wavelength: first with Young's double slit, then with a diffraction grating.\n\nZayar Min Khant tackled the double-slit method first. With slit separation a = 4 x 10⁻⁴ m, screen distance D = 1.5 m, and a measured fringe spacing of w = 2.25 x 10⁻³ m, he found: λ = wa / D = (2.25 x 10⁻³ x 4 x 10⁻⁴) / 1.5 = (9 x 10⁻⁷) / 1.5 = 6 x 10⁻⁷ m.\n\nFor the second method, the same laser was pointed at a diffraction grating with slit spacing d = 1.2 x 10⁻⁶ m, and the first-order maximum appeared at 30°. Using the grating equation: λ = d sinθ / n = (1.2 x 10⁻⁶ x sin30°) / 1 = (1.2 x 10⁻⁶ x 0.5) / 1 = 6 x 10⁻⁷ m -- exactly matching the double-slit result.\n\nSayama Su Wai Phyo closed the capstone by asking why this agreement matters. Zayar Min Khant explained that the laser's wavelength is a single physical property of the light itself, completely independent of which experimental setup is used to measure it; two very different apparatus -- one built around two narrow slits and a screen, the other around thousands of closely ruled lines on a grating -- converging on the same 6 x 10⁻⁷ m confirms that both methods are genuinely measuring the same real quantity, rather than each producing an answer that merely depends on the equipment used.",
+        passageMy:
+            "သူတို့၏ Term 8 အထွတ်အထိပ်အတွက် Sayama စုဝေဖြိုး ၏ အတန်းသည် Laser တစ်ခုတည်းကို သီးခြား နည်းလမ်း နှစ်ခုဖြင့် ၎င်း၏ Wavelength ကို နှစ်ခုစလုံး သဘောတူညီမှု ရှိမရှိ ကြည့်ရန် စမ်းသပ်ခဲ့ကြသည် - ပထမ Young's Double Slit ဖြင့်၊ ထို့နောက် Diffraction Grating ဖြင့်။\n\nZayar Min Khant သည် Double-Slit နည်းလမ်းကို ဦးစွာ ကိုင်တွယ်ခဲ့သည်။ Slit Separation a = 4 x 10⁻⁴ m, Screen Distance D = 1.5 m နှင့် တိုင်းတာထားသော Fringe Spacing w = 2.25 x 10⁻³ m ဖြင့် သူ ရှာဖွေခဲ့သည် - λ = wa / D = (2.25 x 10⁻³ x 4 x 10⁻⁴) / 1.5 = (9 x 10⁻⁷) / 1.5 = 6 x 10⁻⁷ m ။\n\nဒုတိယနည်းလမ်းအတွက် Laser တူညီကို Slit Spacing d = 1.2 x 10⁻⁶ m ရှိ Diffraction Grating တစ်ခုသို့ ညွှန်ပြခဲ့ပြီး First-Order Maximum သည် 30° တွင် ပေါ်လာခဲ့သည်။ Grating Equation ကို အသုံးပြု၍ - λ = d sinθ / n = (1.2 x 10⁻⁶ x sin30°) / 1 = (1.2 x 10⁻⁶ x 0.5) / 1 = 6 x 10⁻⁷ m -- Double-Slit ရလဒ်နှင့် အတိအကျ ကိုက်ညီသည်။\n\nဤ သဘောတူညီမှု အဘယ့်ကြောင့် အရေးကြီးသည်ကို Sayama စုဝေဖြိုး အထွတ်အထိပ်ကို ပိတ်လျက် မေးမြန်းခဲ့သည်။ Laser ၏ Wavelength သည် အလင်းကိုယ်တိုင်၏ ရုပ်ပိုင်းဆိုင်ရာ ပိုင်ဆိုင်ချက် တစ်ခုတည်း ဖြစ်ပြီး ၎င်းကို တိုင်းတာရန် အသုံးပြုသော Experimental Setup ပေါ် လုံးဝ မမှီခိုကြောင်း Zayar Min Khant ရှင်းပြခဲ့သည် -- ကျဉ်းမြောင်းသော Slit နှစ်ခုနှင့် Screen တစ်ခုအပေါ် တည်ဆောက်ထားသော Apparatus တစ်ခုနှင့် Grating ပေါ်ရှိ ကျဉ်းစွာ ရေးဆွဲထားသော လိုင်း ထောင်ပေါင်းများစွာအပေါ် တည်ဆောက်ထားသော အခြားတစ်ခု -- နှစ်ခုစလုံးသည် 6 x 10⁻⁷ m တူညီအတိအကျ သို့ စုပေါင်း ရောက်ရှိခြင်းက နည်းလမ်းနှစ်ခုစလုံးသည် အသုံးပြုသော Equipment ပေါ်သာ မှီခိုသော အဖြေတစ်ခုစီ ထုတ်ပေးခြင်းထက် တကယ့် ပမာဏ တစ်ခုတည်းကို တကယ် တိုင်းတာနေကြောင်း အတည်ပြုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what wavelength does the double-slit method give?",
+            questionMy:
+                "Double-Slit နည်းလမ်းက ပေးသော Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["6 x 10⁻⁷ m", "2.25 x 10⁻³ m", "4 x 10⁻⁴ m", "1.5 m"],
+            optionsMy: ["6 x 10⁻⁷ m", "2.25 x 10⁻³ m", "4 x 10⁻⁴ m", "1.5 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what wavelength does the diffraction grating method give?",
+            questionMy:
+                "Diffraction Grating နည်းလမ်းက ပေးသော Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["6 x 10⁻⁷ m", "1.2 x 10⁻⁶ m", "30 m", "0.5 m"],
+            optionsMy: ["6 x 10⁻⁷ m", "1.2 x 10⁻⁶ m", "30 m", "0.5 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does the agreement between both methods matter?",
+            questionMy:
+                "နည်းလမ်းနှစ်ခုစလုံးကြား သဘောတူညီမှု အဘယ့်ကြောင့် အရေးကြီးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It confirms both methods measure the same real physical property of the light",
+              "It proves the laser is broken",
+              "It shows that wavelength depends on which equipment is used",
+              "It means the experiment must be repeated a third time",
+            ],
+            optionsMy: [
+              "နည်းလမ်းနှစ်ခုစလုံးသည် အလင်း၏ တကယ့် ရုပ်ပိုင်းဆိုင်ရာ ပိုင်ဆိုင်ချက် တစ်ခုတည်းကို တိုင်းတာကြောင်း အတည်ပြုသည်",
+              "Laser ပျက်စီးနေကြောင်း သက်သေပြသည်",
+              "Wavelength သည် မည်သည့် Equipment အသုံးပြုသည်ပေါ် မှီခိုကြောင်း ပြသသည်",
+              "စမ်းသပ်မှုကို တတိယအကြိမ် ထပ်လုပ်ရမည်ဟု ဆိုလိုသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Superposition",
+      titleMy: "Term ၈ အထွတ်အထိပ် - Superposition",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The principle of superposition states that resultant displacement equals...",
+          questionMy:
+              "Principle of Superposition အရ Resultant Displacement သည်...",
+          optionsEn: [
+            "The sum of the individual displacements",
+            "Zero, always",
+            "The average of the individual displacements",
+            "The largest displacement alone",
+          ],
+          optionsMy: [
+            "Individual Displacement များ၏ ပေါင်းလဒ်",
+            "အမြဲ Zero",
+            "Individual Displacement များ၏ Average",
+            "အကြီးဆုံး Displacement တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Fringe spacing in Young's double-slit experiment is given by...",
+          questionMy:
+              "Young's Double-Slit Experiment ရှိ Fringe Spacing ကို ဖော်ပြသည်မှာ...",
+          optionsEn: ["w = λD / a", "w = λ + D", "w = a / (λD)", "w = D / λ"],
+          optionsMy: ["w = λD / a", "w = λ + D", "w = a / (λD)", "w = D / λ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The diffraction grating equation is...",
+          questionMy: "Diffraction Grating Equation မှာ...",
+          optionsEn: [
+            "d sinθ = nλ",
+            "d = nλ sinθ",
+            "n = d sinθ λ",
+            "λ = d + n + θ",
+          ],
+          optionsMy: [
+            "d sinθ = nλ",
+            "d = nλ sinθ",
+            "n = d sinθ λ",
+            "λ = d + n + θ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A stationary wave forms when two waves of equal frequency and amplitude...",
+          questionMy:
+              "Frequency နှင့် Amplitude ညီမျှသော Wave နှစ်ခုသည် ...ချိန် Stationary Wave တစ်ခု ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Travel in opposite directions and superpose",
+            "Travel in the same direction only",
+            "Have completely different wavelengths",
+            "Cancel out permanently",
+          ],
+          optionsMy: [
+            "ဆန့်ကျင်ဘက် ဦးတည်ရာများသို့ ခရီးသွားပြီး Superpose ဖြစ်ချိန်",
+            "ဦးတည်ရာ တူညီစွာသာ ခရီးသွားချိန်",
+            "Wavelength လုံးဝ မတူညီချိန်",
+            "အမြဲတမ်း ချေဖျက်သွားချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm8 = CourseTermDef(
+  id: "course-y12-phys-term8",
+  termNumber: 8,
+  titleEn: "Superposition",
+  titleMy: "Superposition",
+  weeks: [_y12PhysWeek29, _y12PhysWeek30, _y12PhysWeek31, _y12PhysWeek32],
+  certificateTitleEn: "AS Physics: Superposition",
+  certificateTitleMy: "AS ရူပဗေဒ - Superposition",
 );
 
 // __TERMS_MARKER__
