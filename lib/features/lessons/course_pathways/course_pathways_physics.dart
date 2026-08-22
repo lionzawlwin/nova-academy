@@ -13934,9 +13934,9 @@ const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
   certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
 );
 
-/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Term 1
-/// (Physical Quantities, Units and Measurement) authored; Terms 2-9
-/// (Kinematics; Dynamics; Forces, Density and Pressure; Work, Energy and
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-4
+/// (Physical Quantities, Units and Measurement; Kinematics; Dynamics;
+/// Forces, Density and Pressure) authored; Terms 5-9 (Work, Energy and
 /// Power; Deformation of Solids; Waves and the Electromagnetic Spectrum;
 /// Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
 /// No LaTeX renderer exists in this app -- formulas throughout use the
@@ -13952,8 +13952,8 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 12,
-  terms: [year12PhysicsTerm1, year12PhysicsTerm2, year12PhysicsTerm3],
+  totalWeeks: 16,
+  terms: [year12PhysicsTerm1, year12PhysicsTerm2, year12PhysicsTerm3, year12PhysicsTerm4],
 );
 
 // =====================================================================
@@ -16603,6 +16603,634 @@ const CourseTermDef year12PhysicsTerm3 = CourseTermDef(
   weeks: [_y12PhysWeek9, _y12PhysWeek10, _y12PhysWeek11, _y12PhysWeek12],
   certificateTitleEn: "AS Physics: Dynamics",
   certificateTitleMy: "AS ရူပဗေဒ - Dynamics",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 4: "Forces, Density and Pressure"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "Moments, Torque and Equilibrium"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
+  id: "course-y12-phys-w13",
+  weekNumber: 13,
+  titleEn: "Moments, Torque and Equilibrium",
+  titleMy: "Moment, Torque နှင့် Equilibrium",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w13-d1",
+      dayNumber: 1,
+      titleEn: "The Principle of Moments",
+      titleMy: "Principle of Moments",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The moment of a force about a pivot is defined as...",
+          questionMy: "Pivot တစ်ခုအနီး Force ၏ Moment ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: ["Force x perpendicular distance from the pivot", "Force x time it acts", "Force divided by distance", "Mass x perpendicular distance"],
+          optionsMy: ["Force x Pivot မှ Perpendicular Distance", "Force x ၎င်း သက်ရောက်ချိန်", "Force ကို Distance ဖြင့် စားခြင်း", "Mass x Perpendicular Distance"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A 10 N force acts 0.5 m from a pivot, perpendicular to the lever. The moment is...",
+          questionMy: "Force 10 N သည် Pivot မှ 0.5 m အကွာတွင် Lever ကို Perpendicular ဖြစ်စွာ သက်ရောက်သည်။ Moment မှာ...",
+          optionsEn: ["5 N m", "10.5 N m", "20 N m", "0.05 N m"],
+          optionsMy: ["5 N m", "10.5 N m", "20 N m", "0.05 N m"],
+          correctIndex: 0,
+          hintsEn: ["Moment = force x perpendicular distance = 10 x 0.5 = 5 N m."],
+          hintsMy: ["Moment = Force x Perpendicular Distance = 10 x 0.5 = 5 N m ။"],
+        ),
+        QuizQuestion(
+          questionEn: "The principle of moments states that for a system in equilibrium...",
+          questionMy: "Equilibrium ရှိသော System တစ်ခုအတွက် Principle of Moments အရ...",
+          optionsEn: [
+            "Sum of clockwise moments = sum of anticlockwise moments about any point",
+            "All forces must point in the same direction",
+            "Only one force can act on the system",
+            "The system must be perfectly symmetrical",
+          ],
+          optionsMy: [
+            "အမှတ်တစ်ခုအနီး Clockwise Moment စုစုပေါင်း = Anticlockwise Moment စုစုပေါင်း",
+            "Force အားလုံးသည် ဦးတည်ချက် တူညီအောင် ညွှန်ရမည်",
+            "System ပေါ် Force တစ်ခုသာ သက်ရောက်နိုင်သည်",
+            "System သည် အလွန် Symmetrical ဖြစ်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Equilibrium Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Equilibrium ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(id: "y12phys-w13-dm-1", termEn: "Pivot (fulcrum)", termMy: "Pivot (Fulcrum)", matchEn: "The fixed point about which a lever or object rotates", matchMy: "Lever သို့မဟုတ် Object တစ်ခု ရစ်ပတ်သော ငြိမ်သက်သည့် အမှတ်", colorValue: 0xFF3F51B5),
+        DragMatchPair(id: "y12phys-w13-dm-2", termEn: "Centre of gravity", termMy: "Centre of Gravity", matchEn: "The point where an object's entire weight can be considered to act", matchMy: "ပစ္စည်းတစ်ခု၏ Weight တစ်ခုလုံး သက်ရောက်သည်ဟု သတ်မှတ်နိုင်သော အမှတ်", colorValue: 0xFF4CAF50),
+        DragMatchPair(id: "y12phys-w13-dm-3", termEn: "Couple", termMy: "Couple", matchEn: "A pair of equal, opposite, parallel forces producing rotation with no resultant force", matchMy: "Resultant Force မရှိဘဲ ရစ်ပတ်မှု ဖြစ်ပေါ်စေသော ညီမျှ၊ ဆန့်ကျင်ဘက်၊ Parallel Force တစ်စုံ", colorValue: 0xFFFF9800),
+        DragMatchPair(id: "y12phys-w13-dm-4", termEn: "Stable equilibrium", termMy: "Stable Equilibrium", matchEn: "A displaced object returns to its original position", matchMy: "ရွှေ့ပြောင်းခံရသော ပစ္စည်းတစ်ခုသည် မူလ Position သို့ ပြန်ရောက်လာသည်", colorValue: 0xFF9C27B0),
+        DragMatchPair(id: "y12phys-w13-dm-5", termEn: "Torque", termMy: "Torque", matchEn: "The turning effect of a force, equal to force x perpendicular distance", matchMy: "Force ၏ လှည့်ခြင်း သက်ရောက်မှု၊ Force x Perpendicular Distance နှင့် ညီမျှသည်", colorValue: 0xFF00BCD4),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Stable, Unstable or Neutral Equilibrium?",
+      titleMy: "စီစစ်ကြမည် - Stable, Unstable သို့မဟုတ် Neutral Equilibrium",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Stable Equilibrium", "Unstable Equilibrium"],
+        bucketsMy: ["Stable Equilibrium", "Unstable Equilibrium"],
+        items: [
+          SortingItem(id: "y12phys-w13-sort-1", labelEn: "A cone resting flat on its wide base", labelMy: "ကျယ်သော အခြေခံပေါ် ညီညာစွာ ငြိမ်နေသော Cone", correctBucketEn: "Stable Equilibrium", correctBucketMy: "Stable Equilibrium"),
+          SortingItem(id: "y12phys-w13-sort-2", labelEn: "A cone balanced perfectly on its pointed tip", labelMy: "ချွန်သော အထိပ်ပေါ် အပြည့်အစုံ ချိန်ညှိထားသော Cone", correctBucketEn: "Unstable Equilibrium", correctBucketMy: "Unstable Equilibrium"),
+          SortingItem(id: "y12phys-w13-sort-3", labelEn: "A low, wide-based car that resists tipping over", labelMy: "မှောက်လှန်ခြင်းကို ခုခံနိုင်သော နိမ့်ပြီး ကျယ်သော အခြေခံရှိသော ကား", correctBucketEn: "Stable Equilibrium", correctBucketMy: "Stable Equilibrium"),
+          SortingItem(id: "y12phys-w13-sort-4", labelEn: "A pencil balanced upright on its sharpened point", labelMy: "ချွန်သော အစွန်းပေါ် ဒေါင်လိုက် ချိန်ညှိထားသော ခဲဆံ", correctBucketEn: "Unstable Equilibrium", correctBucketMy: "Unstable Equilibrium"),
+          SortingItem(id: "y12phys-w13-sort-5", labelEn: "A wide-bottomed vase that rights itself when nudged slightly", labelMy: "အနည်းငယ် တွန်းလိုက်လျှင် ကိုယ်ကိုယ်တိုင် မှန်ကန်စွာ ပြန်ရပ်နိုင်သော ကျယ်သော အောက်ခြေပါ ပန်းအိုး", correctBucketEn: "Stable Equilibrium", correctBucketMy: "Stable Equilibrium"),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Balancing the Seesaw",
+      titleMy: "စာဖတ်ခြင်း - Seesaw ချိန်ညှိခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Balancing the Seesaw",
+        titleMy: "Seesaw ချိန်ညှိခြင်း",
+        passageEn:
+            "Sayama Thet Su Hlaing set her class a moments problem: a uniform 4 m seesaw is pivoted at its exact centre, with a 30 kg child sitting 1.5 m from the pivot on one side. She asked where a 45 kg child would need to sit on the other side for the seesaw to balance.\n\nAung Phyo Wai started by converting each child's mass to a weight force, using W = mg with g = 9.81 m s⁻²: the 30 kg child has a weight of 30 x 9.81 = 294.3 N, and the 45 kg child has a weight of 45 x 9.81 = 441.45 N. He then applied the principle of moments about the pivot: for balance, the anticlockwise moment from one child must equal the clockwise moment from the other.\n\nThe 30 kg child's moment is 294.3 x 1.5 = 441.45 N m. Setting the 45 kg child's moment equal to this: 441.45 x d = 441.45, so d = 441.45 / 441.45 = 1 m. Sayama Thet Su Hlaing pointed out an elegant shortcut hidden in the numbers: since both weights ultimately depend on g, and g cancels from both sides of the moments equation, the balance condition actually only depends on mass and distance -- (mass1 x distance1) = (mass2 x distance2), or 30 x 1.5 = 45 x d, giving the same answer of d = 1 m without ever needing to calculate g or weight explicitly. This shortcut works for any moments problem where every force involved is a weight force under the same gravitational field.",
+        passageMy:
+            "ဆရာမ သက်ဆုလှိုင်သည် သူမ၏ အတန်းအား Moment ပြဿနာတစ်ခု ပေးခဲ့သည် - Uniform 4 m Seesaw တစ်ခုကို ၎င်း၏ အတိအကျ အလယ်တွင် Pivot ချထားပြီး Mass 30 kg ရှိသော ကလေးတစ်ဦးသည် Pivot တစ်ဖက်တွင် 1.5 m အကွာ ထိုင်နေသည်ဟု ဆိုကာ Mass 45 kg ရှိသော ကလေးတစ်ဦးသည် Seesaw ချိန်ညှိရန် အခြားတစ်ဖက်တွင် မည်သည့်နေရာတွင် ထိုင်ရမည်ကို မေးမြန်းခဲ့သည်။\n\nAung Phyo Wai သည် ကလေးတစ်ဦးစီ၏ Mass ကို W = mg (g = 9.81 m s⁻² ဖြင့်) အသုံးပြု၍ Weight Force သို့ ပြောင်းလဲရာမှ စတင်ခဲ့သည် - Mass 30 kg ကလေးသည် 30 x 9.81 = 294.3 N Weight ရှိပြီး Mass 45 kg ကလေးသည် 45 x 9.81 = 441.45 N Weight ရှိသည်။ ထို့နောက် Pivot အနီး Principle of Moments ကို အသုံးပြုခဲ့သည် - ချိန်ညှိရန် ကလေးတစ်ဦး၏ Anticlockwise Moment သည် အခြားတစ်ဦး၏ Clockwise Moment နှင့် ညီမျှရမည်။\n\nMass 30 kg ကလေး၏ Moment သည် 294.3 x 1.5 = 441.45 N m ဖြစ်သည်။ Mass 45 kg ကလေး၏ Moment ကို ၎င်းနှင့် ညီမျှအောင် သတ်မှတ်ခြင်း - 441.45 x d = 441.45 ဖြစ်သောကြောင့် d = 441.45 / 441.45 = 1 m ။ ဂဏန်းများထဲတွင် ဝှက်ထားသော ချိုသာသော နည်းလမ်းတစ်ခုကို ဆရာမ သက်ဆုလှိုင် ထောက်ပြခဲ့သည် - Weight နှစ်ခုစလုံးသည် g ပေါ် နောက်ဆုံးတွင် မှီခိုနေပြီး g သည် Moments Equation ၏ ဘေးနှစ်ဖက်စလုံးမှ ချေဖျက်သွားသောကြောင့် ချိန်ညှိမှု အခြေအနေသည် Mass နှင့် Distance ပေါ်တွင်သာ တကယ်တမ်း မှီခိုနေသည် -- (Mass1 x Distance1) = (Mass2 x Distance2)၊ သို့မဟုတ် 30 x 1.5 = 45 x d ဖြစ်ကာ g သို့မဟုတ် Weight ကို တိုက်ရိုက် လုံးဝ တွက်ချက်ရန် မလိုအပ်ဘဲ d = 1 m ဟူသော အဖြေတူညီစွာ ရရှိသည်။ ဤ နည်းလမ်းတိုသည် ပါဝင်သော Force တိုင်းသည် Gravitational Field တူညီအောက်ရှိ Weight Force ဖြစ်သော Moments ပြဿနာ မည်သည့်တစ်ခုအတွက်မဆို အလုပ်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the weight of the 45 kg child?",
+            questionMy: "Mass 45 kg ကလေး၏ Weight ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["441.45 N", "294.3 N", "45 N", "1 N"],
+            optionsMy: ["441.45 N", "294.3 N", "45 N", "1 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, at what distance must the 45 kg child sit?",
+            questionMy: "Mass 45 kg ကလေးသည် မည်သည့် Distance တွင် ထိုင်ရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1 m", "1.5 m", "2 m", "4 m"],
+            optionsMy: ["1 m", "1.5 m", "2 m", "4 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why can g be cancelled from the moments equation?",
+            questionMy: "g ကို Moments Equation မှ အဘယ့်ကြောင့် ချေဖျက်နိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both weights depend on the same g, so it cancels from both sides",
+              "g is always exactly zero in moments problems",
+              "The seesaw is frictionless",
+              "The children have exactly equal masses",
+            ],
+            optionsMy: [
+              "Weight နှစ်ခုစလုံးသည် g တူညီအပေါ် မှီခိုနေသောကြောင့် ဘေးနှစ်ဖက်စလုံးမှ ချေဖျက်သွားသည်",
+              "Moments ပြဿနာများတွင် g သည် အမြဲ Zero အတိအကျ ဖြစ်သည်",
+              "Seesaw တွင် Friction မရှိပါ",
+              "ကလေးများသည် Mass အတိအကျ ညီမျှကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Moments",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Moments",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(questionEn: "The moment of a force is calculated as...", questionMy: "Force တစ်ခု၏ Moment ကို ...အဖြစ် တွက်ချက်သည်", optionsEn: ["Force x perpendicular distance", "Force x time", "Mass x velocity", "Force divided by mass"], optionsMy: ["Force x Perpendicular Distance", "Force x Time", "Mass x Velocity", "Force ကို Mass ဖြင့် စားခြင်း"], correctIndex: 0),
+        QuizQuestion(questionEn: "For a system in equilibrium under the principle of moments...", questionMy: "Principle of Moments အရ Equilibrium ရှိသော System တစ်ခုတွင်...", optionsEn: ["Clockwise moments equal anticlockwise moments", "All moments must be clockwise", "Moments are always zero individually", "Only forces matter, not distances"], optionsMy: ["Clockwise Moment များသည် Anticlockwise Moment များနှင့် ညီမျှသည်", "Moment အားလုံးသည် Clockwise ဖြစ်ရမည်", "Moment များသည် တစ်ခုစီ အမြဲ Zero ဖြစ်သည်", "Distance မဟုတ်ဘဲ Force သာ အရေးကြီးသည်"], correctIndex: 0),
+        QuizQuestion(questionEn: "A cone resting on its wide flat base rather than its point is an example of...", questionMy: "အထိပ် အစား ကျယ်ပြီး ညီညာသော အခြေခံပေါ် ငြိမ်နေသော Cone သည် ဥပမာ ဖြစ်သည်...", optionsEn: ["Stable equilibrium", "Unstable equilibrium", "No equilibrium at all", "Dynamic equilibrium only"], optionsMy: ["Stable Equilibrium", "Unstable Equilibrium", "Equilibrium လုံးဝ မရှိပါ", "Dynamic Equilibrium သာ"], correctIndex: 0),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "Density and Pressure"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
+  id: "course-y12-phys-w14",
+  weekNumber: 14,
+  titleEn: "Density and Pressure",
+  titleMy: "Density နှင့် Pressure",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w14-d1",
+      dayNumber: 1,
+      titleEn: "Density and Pressure Formulas",
+      titleMy: "Density နှင့် Pressure ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A block has a mass of 2 kg and a volume of 0.001 m³. Its density is...",
+          questionMy: "Block တစ်ခုသည် Mass 2 kg နှင့် Volume 0.001 m³ ရှိသည်။ ၎င်း၏ Density မှာ...",
+          optionsEn: ["2000 kg m⁻³", "0.0005 kg m⁻³", "2 kg m⁻³", "200 kg m⁻³"],
+          optionsMy: ["2000 kg m⁻³", "0.0005 kg m⁻³", "2 kg m⁻³", "200 kg m⁻³"],
+          correctIndex: 0,
+          hintsEn: ["Density = mass / volume = 2 / 0.001 = 2000 kg m⁻³."],
+          hintsMy: ["Density = Mass / Volume = 2 / 0.001 = 2000 kg m⁻³ ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Pressure is defined as...",
+          questionMy: "Pressure ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: ["Force per unit area, perpendicular to the surface", "Force multiplied by area", "Mass per unit volume", "Force multiplied by distance"],
+          optionsMy: ["မျက်နှာပြင်ကို Perpendicular ဖြစ်သော Unit Area လျှင် Force", "Force ကို Area ဖြင့် မြှောက်ခြင်း", "Unit Volume လျှင် Mass", "Force ကို Distance ဖြင့် မြှောက်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A force of 200 N acts over an area of 0.5 m². The pressure exerted is...",
+          questionMy: "Force 200 N သည် Area 0.5 m² ပေါ်တွင် သက်ရောက်သည်။ ဖြစ်ပေါ်စေသော Pressure မှာ...",
+          optionsEn: ["400 Pa", "100 Pa", "200.5 Pa", "40 Pa"],
+          optionsMy: ["400 Pa", "100 Pa", "200.5 Pa", "40 Pa"],
+          correctIndex: 0,
+          hintsEn: ["Pressure = force / area = 200 / 0.5 = 400 Pa."],
+          hintsMy: ["Pressure = Force / Area = 200 / 0.5 = 400 Pa ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Pressure in Fluids",
+      titleMy: "တွဲစပ်ကြမည် - အရည်များရှိ Pressure",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(id: "y12phys-w14-dm-1", termEn: "p = hρg", termMy: "p = hρg", matchEn: "Pressure due to a column of fluid at depth h", matchMy: "Depth h ရှိ အရည် Column ကြောင့် Pressure", colorValue: 0xFF3F51B5),
+        DragMatchPair(id: "y12phys-w14-dm-2", termEn: "ρ (rho)", termMy: "ρ (Rho)", matchEn: "The symbol for density", matchMy: "Density အတွက် သင်္ကေတ", colorValue: 0xFF4CAF50),
+        DragMatchPair(id: "y12phys-w14-dm-3", termEn: "Pascal (Pa)", termMy: "Pascal (Pa)", matchEn: "The SI unit of pressure, equal to N m⁻²", matchMy: "Pressure ၏ SI ယူနစ်၊ N m⁻² နှင့် ညီမျှသည်", colorValue: 0xFFFF9800),
+        DragMatchPair(id: "y12phys-w14-dm-4", termEn: "Atmospheric pressure", termMy: "Atmospheric Pressure", matchEn: "The pressure exerted by the weight of the air above, about 101,000 Pa at sea level", matchMy: "အထက်ရှိ လေ၏ Weight က သက်ရောက်စေသော Pressure၊ ပင်လယ်ရေမျက်နှာပြင်တွင် ခန့်မှန်းခြေ 101,000 Pa", colorValue: 0xFF9C27B0),
+        DragMatchPair(id: "y12phys-w14-dm-5", termEn: "Manometer", termMy: "Manometer", matchEn: "An instrument used to measure pressure difference using a liquid column", matchMy: "အရည် Column ကို အသုံးပြု၍ Pressure ကွာခြားချက် တိုင်းတာသော Instrument", colorValue: 0xFF00BCD4),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Higher or Lower Density?",
+      titleMy: "စီစစ်ကြမည် - Density ပိုများလား၊ ပိုနည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Higher Density than Water", "Lower Density than Water"],
+        bucketsMy: ["ရေထက် Density ပိုများ", "ရေထက် Density ပိုနည်း"],
+        items: [
+          SortingItem(id: "y12phys-w14-sort-1", labelEn: "Steel (~7850 kg m⁻³)", labelMy: "သံမဏိ (~7850 kg m⁻³)", correctBucketEn: "Higher Density than Water", correctBucketMy: "ရေထက် Density ပိုများ"),
+          SortingItem(id: "y12phys-w14-sort-2", labelEn: "Cork (~240 kg m⁻³)", labelMy: "Cork (~240 kg m⁻³)", correctBucketEn: "Lower Density than Water", correctBucketMy: "ရေထက် Density ပိုနည်း"),
+          SortingItem(id: "y12phys-w14-sort-3", labelEn: "Gold (~19300 kg m⁻³)", labelMy: "ရွှေ (~19300 kg m⁻³)", correctBucketEn: "Higher Density than Water", correctBucketMy: "ရေထက် Density ပိုများ"),
+          SortingItem(id: "y12phys-w14-sort-4", labelEn: "Ice (~920 kg m⁻³)", labelMy: "ရေခဲ (~920 kg m⁻³)", correctBucketEn: "Lower Density than Water", correctBucketMy: "ရေထက် Density ပိုနည်း"),
+          SortingItem(id: "y12phys-w14-sort-5", labelEn: "Mercury (~13600 kg m⁻³)", labelMy: "ပြဒါး (~13600 kg m⁻³)", correctBucketEn: "Higher Density than Water", correctBucketMy: "ရေထက် Density ပိုများ"),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Pressure at the Bottom of a Swimming Pool",
+      titleMy: "စာဖတ်ခြင်း - ရေကူးကန် အောက်ခြေရှိ Pressure",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Pressure at the Bottom of a Swimming Pool",
+        titleMy: "ရေကူးကန် အောက်ခြေရှိ Pressure",
+        passageEn:
+            "Sayar Nay Lin Tun asked his class why divers feel increasing pressure in their ears the deeper they swim, and set them a calculation: find the total pressure at the bottom of a 3 m deep swimming pool, given water's density as 1000 kg m⁻³, atmospheric pressure as 101000 Pa, and g = 9.81 m s⁻².\n\nSu Myat Noe explained that the total pressure at any depth in a fluid open to the atmosphere is the sum of two contributions: the atmospheric pressure pressing down on the surface, and the extra pressure from the weight of the water column above that depth. The water-column contribution uses p = hρg, where h is the depth: p = 3 x 1000 x 9.81 = 29430 Pa.\n\nAdding the atmospheric contribution: total pressure = 101000 + 29430 = 130430 Pa -- roughly 1.3 times atmospheric pressure. Sayar Nay Lin Tun then extended the problem: at what depth would the water-column pressure alone equal atmospheric pressure, doubling the total pressure a diver experiences? Rearranging p = hρg for h: h = p / (ρg) = 101000 / (1000 x 9.81) = 10.3 m. This is why scuba divers are trained to equalise the pressure in their ears every few metres of descent -- the pressure genuinely does increase substantially even over the modest depths of recreational diving, unlike the negligible pressure change most people experience walking up a flight of stairs in air, since water is roughly 1000 times denser than air.",
+        passageMy:
+            "ကျင်းနေသော ရေကူးသမားများသည် ပိုနက်စွာ ရေကူးလေ ၎င်းတို့၏ နားထဲတွင် Pressure ပိုမိုတိုးလာသည်ကို ခံစားရသည့် အကြောင်းရင်းကို ဆရာနေလင်းထွန်းက သူ၏ အတန်းကို မေးမြန်းပြီး တွက်ချက်မှုတစ်ခု ပေးခဲ့သည် - ရေ၏ Density ကို 1000 kg m⁻³၊ Atmospheric Pressure ကို 101000 Pa၊ g = 9.81 m s⁻² ဖြင့် ရေကူးကန် 3 m နက်၏ အောက်ခြေရှိ စုစုပေါင်း Pressure ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nAtmosphere နှင့် ပွင့်လင်းနေသော အရည်တစ်ခုရှိ Depth မည်သည့်တစ်ခုတွင်မဆို စုစုပေါင်း Pressure သည် Contribution နှစ်ခု၏ ပေါင်းစည်းမှု ဖြစ်ကြောင်း Su Myat Noe ရှင်းပြခဲ့သည် - မျက်နှာပြင်ကို ဖိထားသော Atmospheric Pressure နှင့် ထို Depth အထက်ရှိ ရေ Column ၏ Weight မှ ထပ်ဆောင်း Pressure ။ ရေ-Column Contribution သည် p = hρg ကို အသုံးပြုပြီး h သည် Depth ဖြစ်သည် - p = 3 x 1000 x 9.81 = 29430 Pa ။\n\nAtmospheric Contribution ကို ပေါင်းထည့်ခြင်း - စုစုပေါင်း Pressure = 101000 + 29430 = 130430 Pa -- Atmospheric Pressure ၏ ခန့်မှန်းခြေ 1.3 ဆ ။ ရေကူးသမားတစ်ဦး ခံစားရသော စုစုပေါင်း Pressure ကို နှစ်ဆ ဖြစ်စေသည့် Water-Column Pressure တစ်ခုတည်းသည် Atmospheric Pressure နှင့် ညီမျှသည့် Depth ကို ဆရာနေလင်းထွန်း ထို့နောက် ပြဿနာကို ချဲ့ထွင်ခဲ့သည် - p = hρg ကို h အတွက် ပြန်စီစဉ်ခြင်း - h = p / (ρg) = 101000 / (1000 x 9.81) = 10.3 m ။ ၎င်းသည် Scuba ရေငုပ်သမားများကို လမ်းလျှောက်ဆင်းသည့် မီတာ အနည်းငယ်တိုင်း ၎င်းတို့ နားထဲရှိ Pressure ကို Equalise ပြုလုပ်ရန် လေ့ကျင့်ပေးရသည့် အကြောင်းရင်း ဖြစ်သည် -- ရေသည် လေထက် ခန့်မှန်းခြေ 1000 ဆ Density ပိုများသောကြောင့် လေထဲရှိ လှေကားထစ်များ တက်သွားစဉ် လူအများစု ခံစားရသော ပေါ့ပါးလွန်းသော Pressure ပြောင်းလဲမှုနှင့် မတူဘဲ ရေကူးအားကစား၏ သင့်တင့်သော Depth များတွင်ပင် Pressure သည် အလွန်တိုးလာကြောင်း အမှန်တကယ် သိသိသာသာ တွေ့ရသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the water-column pressure at 3 m depth?",
+            questionMy: "3 m Depth ရှိ Water-Column Pressure ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["29430 Pa", "101000 Pa", "130430 Pa", "9.81 Pa"],
+            optionsMy: ["29430 Pa", "101000 Pa", "130430 Pa", "9.81 Pa"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the total pressure at 3 m depth?",
+            questionMy: "3 m Depth ရှိ စုစုပေါင်း Pressure ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["130430 Pa", "29430 Pa", "101000 Pa", "10.3 Pa"],
+            optionsMy: ["130430 Pa", "29430 Pa", "101000 Pa", "10.3 Pa"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, at what depth does the water-column pressure equal atmospheric pressure?",
+            questionMy: "Water-Column Pressure သည် Atmospheric Pressure နှင့် မည်သည့် Depth တွင် ညီမျှသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["10.3 m", "3 m", "101 m", "1000 m"],
+            optionsMy: ["10.3 m", "3 m", "101 m", "1000 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation in the passage."],
+            hintsMy: ["စာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Density and Pressure",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Density နှင့် Pressure",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(questionEn: "Density is calculated as...", questionMy: "Density ကို ...အဖြစ် တွက်ချက်သည်", optionsEn: ["Mass / Volume", "Mass x Volume", "Force / Area", "Volume / Mass"], optionsMy: ["Mass / Volume", "Mass x Volume", "Force / Area", "Volume / Mass"], correctIndex: 0),
+        QuizQuestion(questionEn: "The SI unit of pressure, the pascal, is equal to...", questionMy: "Pressure ၏ SI ယူနစ် Pascal သည် ...နှင့် ညီမျှသည်", optionsEn: ["N m⁻²", "N m", "kg m⁻³", "N s"], optionsMy: ["N m⁻²", "N m", "kg m⁻³", "N s"], correctIndex: 0),
+        QuizQuestion(questionEn: "Pressure due to a fluid column at depth h is calculated using...", questionMy: "Depth h ရှိ အရည် Column ကြောင့် Pressure ကို ...ဖြင့် တွက်ချက်သည်", optionsEn: ["p = hρg", "p = F/t", "p = mv", "p = ma"], optionsMy: ["p = hρg", "p = F/t", "p = mv", "p = ma"], correctIndex: 0),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "Upthrust and Archimedes' Principle"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
+  id: "course-y12-phys-w15",
+  weekNumber: 15,
+  titleEn: "Upthrust and Archimedes' Principle",
+  titleMy: "Upthrust နှင့် Archimedes' Principle",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w15-d1",
+      dayNumber: 1,
+      titleEn: "Archimedes' Principle",
+      titleMy: "Archimedes' Principle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Archimedes' principle states that the upthrust on a submerged object equals...",
+          questionMy: "Archimedes' Principle အရ ရေငုပ်နေသော Object တစ်ခုပေါ်ရှိ Upthrust သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["The weight of fluid displaced by the object", "The object's own weight always", "Twice the object's volume", "The density of the object alone"],
+          optionsMy: ["Object က ရွှေ့ပယ်လိုက်သော အရည်၏ Weight", "Object ကိုယ်ပိုင် Weight အမြဲ", "Object ၏ Volume ၏ နှစ်ဆ", "Object ၏ Density တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An object floats when...",
+          questionMy: "Object တစ်ခု ပေါလွင်သည့်အခါ...",
+          optionsEn: ["Upthrust equals the object's weight", "Upthrust is always zero", "The object's density is greater than the fluid's", "The object has zero volume"],
+          optionsMy: ["Upthrust သည် Object ၏ Weight နှင့် ညီမျှသည်", "Upthrust သည် အမြဲ Zero ဖြစ်သည်", "Object ၏ Density သည် အရည်၏ Density ထက် ကြီးသည်", "Object တွင် Volume Zero ရှိသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A block displaces 0.002 m³ of water (density 1000 kg m⁻³) when fully submerged. The upthrust on it is...",
+          questionMy: "Block တစ်ခုသည် လုံးဝ ရေငုပ်ချိန် ရေ (Density 1000 kg m⁻³) 0.002 m³ ရွှေ့ပယ်သည်။ ၎င်းပေါ်ရှိ Upthrust မှာ...",
+          optionsEn: ["19.62 N", "2 N", "1000 N", "0.002 N"],
+          optionsMy: ["19.62 N", "2 N", "1000 N", "0.002 N"],
+          correctIndex: 0,
+          hintsEn: [
+            "Upthrust = weight of displaced water = ρVg = 1000 x 0.002 x 9.81 = 19.62 N.",
+          ],
+          hintsMy: [
+            "Upthrust = ရွှေ့ပယ်ထားသော ရေ၏ Weight = ρVg = 1000 x 0.002 x 9.81 = 19.62 N ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Floating and Sinking Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ပေါလွင်ခြင်းနှင့် နစ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(id: "y12phys-w15-dm-1", termEn: "Upthrust", termMy: "Upthrust", matchEn: "The upward force a fluid exerts on a submerged or floating object", matchMy: "အရည်တစ်ခုက ရေငုပ်နေသော (သို့) ပေါလွင်နေသော Object ပေါ် အထက်သို့ သက်ရောက်စေသော Force", colorValue: 0xFF3F51B5),
+        DragMatchPair(id: "y12phys-w15-dm-2", termEn: "Displaced fluid", termMy: "Displaced Fluid", matchEn: "The volume of fluid pushed aside by a submerged object", matchMy: "ရေငုပ်နေသော Object က ဘေးသို့ တွန်းလိုက်သော အရည် Volume", colorValue: 0xFF4CAF50),
+        DragMatchPair(id: "y12phys-w15-dm-3", termEn: "Neutral buoyancy", termMy: "Neutral Buoyancy", matchEn: "When upthrust exactly equals weight, so an object neither rises nor sinks", matchMy: "Upthrust သည် Weight နှင့် အတိအကျ ညီမျှသောကြောင့် Object သည် မတက်၊ မနစ်ခြင်း", colorValue: 0xFFFF9800),
+        DragMatchPair(id: "y12phys-w15-dm-4", termEn: "Hydrometer", termMy: "Hydrometer", matchEn: "An instrument that measures fluid density using flotation", matchMy: "Flotation ကို အသုံးပြု၍ အရည် Density တိုင်းတာသော Instrument", colorValue: 0xFF9C27B0),
+        DragMatchPair(id: "y12phys-w15-dm-5", termEn: "Submarine ballast tank", termMy: "Submarine Ballast Tank", matchEn: "A tank that fills with water to increase weight and sink, or empties to float", matchMy: "Weight တိုးမြှင့်ပြီး နစ်ရန် ရေဖြင့် ဖြည့်၊ ပေါလွင်ရန် ရေချန်ထားသော Tank", colorValue: 0xFF00BCD4),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Floats or Sinks?",
+      titleMy: "စီစစ်ကြမည် - ပေါလွင်လား၊ နစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Floats in Water", "Sinks in Water"],
+        bucketsMy: ["ရေတွင် ပေါလွင်သည်", "ရေတွင် နစ်သည်"],
+        items: [
+          SortingItem(id: "y12phys-w15-sort-1", labelEn: "A block of ice (density ~920 kg m⁻³)", labelMy: "ရေခဲ Block (Density ~920 kg m⁻³)", correctBucketEn: "Floats in Water", correctBucketMy: "ရေတွင် ပေါလွင်သည်"),
+          SortingItem(id: "y12phys-w15-sort-2", labelEn: "A solid steel ball (density ~7850 kg m⁻³)", labelMy: "Solid သံမဏိ ဘောလုံး (Density ~7850 kg m⁻³)", correctBucketEn: "Sinks in Water", correctBucketMy: "ရေတွင် နစ်သည်"),
+          SortingItem(id: "y12phys-w15-sort-3", labelEn: "A hollow steel ship, shaped to displace far more water than its solid weight", labelMy: "၎င်း၏ Solid Weight ထက် ရေ ပိုများစွာ ရွှေ့ပယ်ရန် ပုံသွင်းထားသော Hollow သံမဏိ သင်္ဘော", correctBucketEn: "Floats in Water", correctBucketMy: "ရေတွင် ပေါလွင်သည်"),
+          SortingItem(id: "y12phys-w15-sort-4", labelEn: "A solid gold coin (density ~19300 kg m⁻³)", labelMy: "Solid ရွှေ ဒင်္ဂါးပြား (Density ~19300 kg m⁻³)", correctBucketEn: "Sinks in Water", correctBucketMy: "ရေတွင် နစ်သည်"),
+          SortingItem(id: "y12phys-w15-sort-5", labelEn: "A cork stopper (density ~240 kg m⁻³)", labelMy: "Cork ပိတ်ဆို့ (Density ~240 kg m⁻³)", correctBucketEn: "Floats in Water", correctBucketMy: "ရေတွင် ပေါလွင်သည်"),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why a Steel Ship Floats",
+      titleMy: "စာဖတ်ခြင်း - သံမဏိ သင်္ဘော ပေါလွင်ခြင်း၏ အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why a Steel Ship Floats",
+        titleMy: "သံမဏိ သင်္ဘော ပေါလွင်ခြင်း၏ အကြောင်းရင်း",
+        passageEn:
+            "Sayama Khaing Zar Lin asked her class a question that puzzles many students at first: steel is roughly eight times denser than water, so why does a steel ship float instead of sinking like a solid steel ball?\n\nZin Ko Ko explained that Archimedes' principle is about the shape of the displaced water, not the material the object is made from. A ship's hull is hollow, shaped like a large, mostly-empty bowl, so it displaces a huge volume of water -- far more than the volume of the steel itself. Since upthrust depends on the volume of water displaced, not on what the object is made of, this large displaced volume can generate an upthrust equal to the ship's entire weight, including its cargo, engines, and crew, even though the steel itself is much denser than water.\n\nHe worked through a simplified numerical illustration: a solid steel cube of side 1 m has a volume of 1 m³ and, at steel's density of 7850 kg m⁻³, a weight of 7850 x 9.81 = 77,003.5 N. If fully submerged, it would only displace 1 m³ of water, generating an upthrust of just 1000 x 1 x 9.81 = 9810 N -- far less than its weight, so it sinks. But reshape that same mass of steel into a hollow, open-topped hull shape with a much larger overall volume, say 10 m³, and if it floats with 80% of that volume submerged, it displaces 8 m³ of water, generating an upthrust of 1000 x 8 x 9.81 = 78,480 N -- now slightly exceeding the steel's own weight, meaning the hull floats, with just enough of it submerged that upthrust exactly balances weight. Sayama Khaing Zar Lin emphasised the key insight: it is the overall shape and the water it pushes aside that determines flotation, never the density of the raw material alone.",
+        passageMy:
+            "ကျောင်းသားများစွာ ပထမတွင် ရှုပ်ထွေးတတ်သော မေးခွန်းတစ်ခုကို ဆရာမ ခိုင်ဇာလင်း သူမ၏ အတန်းကို မေးမြန်းခဲ့သည် - သံမဏိသည် ရေထက် ခန့်မှန်းခြေ ရှစ်ဆ Density ပိုများသော်လည်း သံမဏိ သင်္ဘောတစ်စင်းသည် Solid သံမဏိ ဘောလုံးတစ်လုံးကဲ့သို့ နစ်မသွားဘဲ အဘယ့်ကြောင့် ပေါလွင်နေသနည်း။\n\nArchimedes' Principle သည် Object ပြုလုပ်ထားသော ပစ္စည်းအကြောင်း မဟုတ်ဘဲ ရွှေ့ပယ်ထားသော ရေ၏ ပုံသဏ္ဌာန်အကြောင်း ဖြစ်ကြောင်း Zin Ko Ko ရှင်းပြခဲ့သည်။ သင်္ဘော၏ Hull သည် Hollow ဖြစ်ပြီး ကြီးမားသော၊ အများစု ဗလာ Bowl တစ်ခုကဲ့သို့ ပုံသွင်းထားသောကြောင့် သံမဏိ ကိုယ်တိုင်၏ Volume ထက် များစွာ ပိုသော ရေ Volume ကြီးမားစွာကို ရွှေ့ပယ်သည်။ Upthrust သည် Object ပြုလုပ်ထားသော ပစ္စည်းပေါ် မဟုတ်ဘဲ ရွှေ့ပယ်ထားသော ရေ Volume ပေါ် မှီခိုနေသောကြောင့် ဤကြီးမားသော ရွှေ့ပယ် Volume သည် သံမဏိ ကိုယ်တိုင် ရေထက် Density များစွာ ပိုများနေသော်လည်း သင်္ဘော၏ ကုန်ပစ္စည်း၊ အင်ဂျင်နှင့် ဝန်ထမ်းများ အပါအဝင် သင်္ဘော၏ Weight တစ်ခုလုံးနှင့် ညီမျှသော Upthrust ကို ဖြစ်ပေါ်စေနိုင်သည်။\n\nရိုးရှင်းသော ဂဏန်းသရုပ်ဖော်မှုတစ်ခုကို သူ ဖြေရှင်းခဲ့သည် - ဘေး 1 m ရှိ Solid သံမဏိ Cube တစ်ခုသည် Volume 1 m³ ရှိပြီး သံမဏိ၏ Density 7850 kg m⁻³ တွင် Weight 7850 x 9.81 = 77,003.5 N ရှိသည်။ လုံးဝ ရေငုပ်ပါက ၎င်းသည် ရေ 1 m³ ကိုသာ ရွှေ့ပယ်ပြီး Upthrust 1000 x 1 x 9.81 = 9810 N ကိုသာ ဖြစ်ပေါ်စေသည် -- ၎င်း၏ Weight ထက် များစွာ ပိုနည်းသောကြောင့် နစ်သွားသည်။ သို့သော် သံမဏိ Mass တူညီအား Hollow, Open-Topped Hull ပုံသဏ္ဌာန်၊ ပိုကြီးသော စုစုပေါင်း Volume 10 m³ ခန့်သို့ ပြန်ပုံသွင်းလိုက်ပြီး ၎င်း Volume ၏ 80% ရေငုပ်လျက် ပေါလွင်ပါက ရေ 8 m³ ရွှေ့ပယ်ပြီး Upthrust 1000 x 8 x 9.81 = 78,480 N ဖြစ်ပေါ်စေသည် -- ယခုအခါ သံမဏိ ကိုယ်ပိုင် Weight ထက် အနည်းငယ် ကျော်လွန်ပြီး Hull သည် ပေါလွင်ကြောင်း ဆိုလိုသည်၊ ၎င်း၏ ရေငုပ်မှုသည် Upthrust ကို Weight နှင့် အတိအကျ ချိန်ညှိပေးနိုင်လောက်သော အတိုင်းအတာသာ ဖြစ်သည်။ ဖော်ပြထားသော ထိုးထွင်းသိမြင်မှု အဓိကကို ဆရာမ ခိုင်ဇာလင်း အလေးထားခဲ့သည် - Flotation ကို ဆုံးဖြတ်ပေးသည်မှာ ကုန်ကြမ်း ပစ္စည်း၏ Density တစ်ခုတည်း လုံးဝ မဟုတ်ဘဲ စုစုပေါင်း ပုံသဏ္ဌာန်နှင့် ၎င်း တွန်းလိုက်သော ရေ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what determines whether an object floats, according to Zin Ko Ko?",
+            questionMy: "Object တစ်ခု ပေါလွင်မလား ဆိုသည်ကို အဘယ်က ဆုံးဖြတ်ပေးသည်ကို Zin Ko Ko အရ စာပိုဒ်တွင် ဖော်ပြပါ။",
+            optionsEn: [
+              "The shape and volume of water displaced, not the raw material's density alone",
+              "The colour of the material",
+              "Only the density of the raw material, regardless of shape",
+              "How many people are watching",
+            ],
+            optionsMy: [
+              "ရွှေ့ပယ်ထားသော ရေ၏ ပုံသဏ္ဌာန်နှင့် Volume၊ ကုန်ကြမ်းပစ္စည်း၏ Density တစ်ခုတည်း မဟုတ်ပါ",
+              "ပစ္စည်း၏ အရောင်",
+              "ပုံသဏ္ဌာန် မည်သို့ပင်ရှိစေ ကုန်ကြမ်းပစ္စည်း၏ Density တစ်ခုတည်း",
+              "လူမည်မျှ ကြည့်နေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what upthrust does the solid steel cube generate when fully submerged?",
+            questionMy: "Solid သံမဏိ Cube သည် လုံးဝ ရေငုပ်ချိန် ဖြစ်ပေါ်စေသော Upthrust ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["9810 N", "77003.5 N", "78480 N", "1000 N"],
+            optionsMy: ["9810 N", "77003.5 N", "78480 N", "1000 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what fraction of the reshaped hull's volume is submerged when it floats?",
+            questionMy: "ပေါလွင်ချိန် ပြန်ပုံသွင်းထားသော Hull ၏ Volume မည်မျှ ရေငုပ်နေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["80%", "100%", "10%", "50%"],
+            optionsMy: ["80%", "100%", "10%", "50%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's hull example."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Hull ဥပမာကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Upthrust",
+      titleMy: "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Upthrust",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(questionEn: "Archimedes' principle relates upthrust to...", questionMy: "Archimedes' Principle သည် Upthrust ကို ...နှင့် ဆက်စပ်ပေးသည်", optionsEn: ["The weight of fluid displaced", "The object's mass alone", "The object's temperature", "The object's colour"], optionsMy: ["ရွှေ့ပယ်ထားသော အရည်၏ Weight", "Object ၏ Mass တစ်ခုတည်း", "Object ၏ Temperature", "Object ၏ အရောင်"], correctIndex: 0),
+        QuizQuestion(questionEn: "An object floats when...", questionMy: "Object တစ်ခု ပေါလွင်သည့်အခါ...", optionsEn: ["Upthrust equals its weight", "Upthrust is zero", "Its density exceeds the fluid's density", "It has no volume"], optionsMy: ["Upthrust သည် ၎င်း၏ Weight နှင့် ညီမျှသည်", "Upthrust သည် Zero ဖြစ်သည်", "၎င်း၏ Density သည် အရည်၏ Density ထက် ကျော်လွန်သည်", "Volume လုံးဝ မရှိပါ"], correctIndex: 0),
+        QuizQuestion(questionEn: "A steel ship floats because...", questionMy: "သံမဏိ သင်္ဘော ပေါလွင်သည့် အကြောင်းရင်းမှာ...", optionsEn: ["Its hollow hull displaces enough water to generate sufficient upthrust", "Steel is naturally less dense than water", "It has zero weight", "It never touches the water"], optionsMy: ["၎င်း၏ Hollow Hull သည် လုံလောက်သော Upthrust ဖြစ်ပေါ်စေရန် ရေလုံလောက်စွာ ရွှေ့ပယ်သည်", "သံမဏိသည် ရေထက် သဘာဝအလျောက် Density ပိုနည်းသည်", "Weight Zero ရှိသည်", "ရေကို လုံးဝ မထိမတွေ့ပါ"], correctIndex: 0),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16: "Forces, Density and Pressure Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
+  id: "course-y12-phys-w16",
+  weekNumber: 16,
+  titleEn: "Forces, Density and Pressure Capstone",
+  titleMy: "Forces, Density နှင့် Pressure အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w16-d1",
+      dayNumber: 1,
+      titleEn: "Combining Moments, Pressure and Upthrust",
+      titleMy: "Moments, Pressure နှင့် Upthrust ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A uniform plank of weight 200 N is pivoted at its centre. A 50 N weight hangs 2 m from the pivot on the left. Where must a 100 N weight hang on the right for balance?",
+          questionMy: "Weight 200 N ရှိသော Uniform Plank တစ်ခုကို ၎င်း၏ အလယ်တွင် Pivot ချထားသည်။ Weight 50 N သည် ဘယ်ဘက်ရှိ Pivot မှ 2 m အကွာတွင် ချိတ်ဆွဲထားသည်။ Weight 100 N ကို ချိန်ညှိရန် ညာဘက်တွင် မည်သည့်နေရာတွင် ချိတ်ဆွဲရမည်နည်း။",
+          optionsEn: ["1 m", "2 m", "0.5 m", "4 m"],
+          optionsMy: ["1 m", "2 m", "0.5 m", "4 m"],
+          correctIndex: 0,
+          hintsEn: [
+            "The plank's own weight acts at its centre, exactly at the pivot, so it produces no moment. Balance: 50 x 2 = 100 x d, so d = 100/100 = 1 m.",
+          ],
+          hintsMy: [
+            "Plank ကိုယ်ပိုင် Weight သည် ၎င်း၏ အလယ်၊ Pivot အတိအကျတွင် သက်ရောက်သောကြောင့် Moment မဖြစ်ပေါ်စေပါ။ Balance: 50 x 2 = 100 x d ဖြစ်သောကြောင့် d = 100/100 = 1 m ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A submarine increases its ballast tank water to sink. This changes its...",
+          questionMy: "Submarine တစ်စင်းသည် နစ်ရန် ၎င်း၏ Ballast Tank ရေကို တိုးမြှင့်သည်။ ၎င်းသည် ၎င်း၏ ...ကို ပြောင်းလဲစေသည်",
+          optionsEn: ["Weight, until it exceeds upthrust", "Volume of steel used", "The density of the surrounding water", "Its own material composition"],
+          optionsMy: ["Weight, Upthrust ကို ကျော်လွန်သည်အထိ", "အသုံးပြုသော သံမဏိ Volume", "ပတ်ဝန်းကျင် ရေ၏ Density", "ကိုယ်ပိုင် ပစ္စည်း ဖွဲ့စည်းပုံ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At a depth of 5 m in water (density 1000 kg m⁻³), the extra pressure due to the water alone is approximately...",
+          questionMy: "ရေ (Density 1000 kg m⁻³) Depth 5 m တွင် ရေတစ်ခုတည်းကြောင့် ထပ်ဆောင်း Pressure ခန့်မှန်းခြေမှာ...",
+          optionsEn: ["49050 Pa", "5000 Pa", "9810 Pa", "1000 Pa"],
+          optionsMy: ["49050 Pa", "5000 Pa", "9810 Pa", "1000 Pa"],
+          correctIndex: 0,
+          hintsEn: ["p = hρg = 5 x 1000 x 9.81 = 49050 Pa."],
+          hintsMy: ["p = hρg = 5 x 1000 x 9.81 = 49050 Pa ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၄ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(id: "y12phys-w16-dm-1", termEn: "Moment = ", termMy: "Moment = ", matchEn: "Force x perpendicular distance", matchMy: "Force x Perpendicular Distance", colorValue: 0xFF3F51B5),
+        DragMatchPair(id: "y12phys-w16-dm-2", termEn: "Density = ", termMy: "Density = ", matchEn: "Mass / Volume", matchMy: "Mass / Volume", colorValue: 0xFF4CAF50),
+        DragMatchPair(id: "y12phys-w16-dm-3", termEn: "Pressure = ", termMy: "Pressure = ", matchEn: "Force / Area", matchMy: "Force / Area", colorValue: 0xFFFF9800),
+        DragMatchPair(id: "y12phys-w16-dm-4", termEn: "Fluid pressure at depth h = ", termMy: "Depth h ရှိ Fluid Pressure = ", matchEn: "hρg", matchMy: "hρg", colorValue: 0xFF9C27B0),
+        DragMatchPair(id: "y12phys-w16-dm-5", termEn: "Upthrust = ", termMy: "Upthrust = ", matchEn: "Weight of fluid displaced (ρVg)", matchMy: "ရွှေ့ပယ်ထားသော Fluid Weight (ρVg)", colorValue: 0xFF00BCD4),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Moments, Pressure or Upthrust Concept?",
+      titleMy: "စီစစ်ကြမည် - Moments, Pressure သို့မဟုတ် Upthrust သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Moments/Equilibrium", "Pressure/Upthrust"],
+        bucketsMy: ["Moments/Equilibrium", "Pressure/Upthrust"],
+        items: [
+          SortingItem(id: "y12phys-w16-sort-1", labelEn: "Clockwise moments equal anticlockwise moments", labelMy: "Clockwise Moment များသည် Anticlockwise Moment များနှင့် ညီမျှသည်", correctBucketEn: "Moments/Equilibrium", correctBucketMy: "Moments/Equilibrium"),
+          SortingItem(id: "y12phys-w16-sort-2", labelEn: "A ship floats when displaced water weight equals ship weight", labelMy: "ရွှေ့ပယ်ထားသော ရေ Weight သည် သင်္ဘော Weight နှင့် ညီမျှလျှင် သင်္ဘော ပေါလွင်သည်", correctBucketEn: "Pressure/Upthrust", correctBucketMy: "Pressure/Upthrust"),
+          SortingItem(id: "y12phys-w16-sort-3", labelEn: "A seesaw balances about its central pivot", labelMy: "Seesaw သည် ၎င်း၏ ဗဟို Pivot အနီး ချိန်ညှိသည်", correctBucketEn: "Moments/Equilibrium", correctBucketMy: "Moments/Equilibrium"),
+          SortingItem(id: "y12phys-w16-sort-4", labelEn: "Divers feel more force on their ears the deeper they go", labelMy: "ရေငုပ်သမားများသည် ပိုနက်လေ ၎င်းတို့ နားပေါ် Force ပိုခံစားရလေ ဖြစ်သည်", correctBucketEn: "Pressure/Upthrust", correctBucketMy: "Pressure/Upthrust"),
+          SortingItem(id: "y12phys-w16-sort-5", labelEn: "A cone is more stable resting on its wide base", labelMy: "Cone တစ်ခုသည် ၎င်း၏ ကျယ်သော အခြေခံပေါ် ငြိမ်သောအခါ ပို၍ Stable ဖြစ်သည်", correctBucketEn: "Moments/Equilibrium", correctBucketMy: "Moments/Equilibrium"),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Designing a Crane's Counterweight",
+      titleMy: "စာဖတ်ခြင်း - Crane ၏ Counterweight ဒီဇိုင်းရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Designing a Crane's Counterweight",
+        titleMy: "Crane ၏ Counterweight ဒီဇိုင်းရေးဆွဲခြင်း",
+        passageEn:
+            "For their Term 4 capstone, Sayar Win Naing Oo's class combined moments and equilibrium into one practical engineering problem: a tower crane's horizontal jib extends 20 m from the tower on the load side, and needs to lift a maximum load of 5000 N at that full distance. On the shorter counterweight side, 5 m from the tower, a fixed concrete counterweight must be sized to keep the tower balanced.\n\nMoe Sandar Aung set up the moments equation about the tower (the pivot point): the load's clockwise moment must be balanced by the counterweight's anticlockwise moment. Load moment = 5000 x 20 = 100000 N m. For balance, counterweight moment must also equal 100000 N m, so counterweight weight x 5 = 100000, giving counterweight weight = 100000 / 5 = 20000 N.\n\nSayar Win Naing Oo then asked why real cranes are designed with counterweight moments slightly exceeding the load moment when unloaded, rather than exactly balancing it. Moe Sandar Aung reasoned this through: if the crane is designed to balance exactly at maximum load, then whenever the jib carries less than the maximum -- which is most of the time -- the counterweight moment would exceed the load moment, tipping the crane backward instead. Real cranes are therefore designed so the empty jib (zero load) is already close to balanced by the counterweight alone, with the crane's own structural design (and sometimes trolleys that slide the counterweight's effective distance) managing the changing moment as load varies between empty and maximum, always keeping the resultant moment within a safe range rather than at one single balance point.",
+        passageMy:
+            "သူတို့၏ Term 4 အထွတ်အထိပ်အတွက် ဆရာဝင်းနိုင်ဦး၏ အတန်းသည် Moments နှင့် Equilibrium ကို လက်တွေ့ အင်ဂျင်နီယာ ပြဿနာတစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ကြသည် - Tower Crane တစ်စင်း၏ Horizontal Jib သည် Load ဖက်တွင် Tower မှ 20 m ထွက်နေပြီး ထို အကွာအဝေး အပြည့်တွင် Maximum Load 5000 N ကို ချီယူရန် လိုအပ်သည်။ ပိုတိုသော Counterweight ဖက်တွင် Tower မှ 5 m ရှိ သတ်မှတ်ထားသော Concrete Counterweight တစ်ခုသည် Tower ကို ချိန်ညှိထားရန် အရွယ်အစား သင့်တင့်ရမည်။\n\nMoe Sandar Aung သည် Tower (Pivot Point) အနီး Moments Equation ကို တည်ဆောက်ခဲ့သည် - Load ၏ Clockwise Moment ကို Counterweight ၏ Anticlockwise Moment က ချိန်ညှိပေးရမည်။ Load Moment = 5000 x 20 = 100000 N m ။ ချိန်ညှိရန် Counterweight Moment သည်လည်း 100000 N m နှင့် ညီမျှရမည်ဖြစ်သောကြောင့် Counterweight Weight x 5 = 100000 ဖြစ်ကာ Counterweight Weight = 100000 / 5 = 20000 N ကို ရရှိသည်။\n\nတကယ့် Crane များကို Load မတင်ချိန်တွင် Counterweight Moment သည် Load Moment ကို အတိအကျ ချိန်ညှိစေမည့်အစား အနည်းငယ် ကျော်လွန်စေရန် ဒီဇိုင်းဆွဲသည့် အကြောင်းရင်းကို ဆရာဝင်းနိုင်ဦး ထို့နောက် မေးမြန်းခဲ့သည်။ Moe Sandar Aung သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Crane ကို Maximum Load တွင် အတိအကျ ချိန်ညှိအောင် ဒီဇိုင်းဆွဲပါက Jib သည် အချိန်များစုတွင် Maximum ထက် နည်းသော Load ကို ချီယူတိုင်း Counterweight Moment သည် Load Moment ကို ကျော်လွန်သွားပြီး Crane ကို နောက်ပြန် မှောက်လှန်စေလိမ့်မည်။ ထို့ကြောင့် တကယ့် Crane များကို Empty Jib (Zero Load) သည် Counterweight တစ်ခုတည်းက ချိန်ညှိပြီးသားအနီးနီးသို့ ဒီဇိုင်းဆွဲထားပြီး Crane ကိုယ်ပိုင် Structural Design (တစ်ခါတစ်ရံ Counterweight ၏ Effective Distance ကို ရွေ့ပေးသော Trolley များ) သည် Load Empty နှင့် Maximum ကြားတွင် ပြောင်းလဲနေသော Moment ကို စီမံခန့်ခွဲကာ Resultant Moment ကို Balance Point တစ်ခုတည်းအစား လုံခြုံသော Range အတွင်း အမြဲ ထိန်းသိမ်းထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the load moment when the crane carries maximum load?",
+            questionMy: "Crane သည် Maximum Load ချီယူချိန် Load Moment ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["100000 N m", "20000 N m", "5000 N m", "25000 N m"],
+            optionsMy: ["100000 N m", "20000 N m", "5000 N m", "25000 N m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what counterweight weight is needed?",
+            questionMy: "လိုအပ်သော Counterweight Weight ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["20000 N", "100000 N", "5000 N", "5 N"],
+            optionsMy: ["20000 N", "100000 N", "5000 N", "5 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final answer."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး အဖြေကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why don't real cranes balance exactly at maximum load?",
+            questionMy: "တကယ့် Crane များသည် Maximum Load တွင် အတိအကျ အဘယ့်ကြောင့် မချိန်ညှိကြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The crane would tip backward whenever it carries less than maximum load",
+              "Concrete counterweights are too expensive to build accurately",
+              "Maximum load is never actually reached in practice",
+              "The tower itself would need to be taller",
+            ],
+            optionsMy: [
+              "Maximum Load ထက် နည်းသော Load ချီယူတိုင်း Crane နောက်ပြန် မှောက်လှန်လိမ့်မည်",
+              "Concrete Counterweight များသည် တိကျစွာ တည်ဆောက်ရန် အလွန် ကုန်ကျစရိတ် များသောကြောင့်",
+              "Maximum Load ကို လက်တွေ့တွင် လုံးဝ မရောက်ပါ",
+              "Tower ကိုယ်တိုင် ပို၍ မြင့်ရန် လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's reasoning."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: Forces, Density and Pressure",
+      titleMy: "Term ၄ အထွတ်အထိပ် - Forces, Density နှင့် Pressure",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(questionEn: "The principle of moments is used to solve problems involving...", questionMy: "Principle of Moments ကို ...ပါဝင်သော ပြဿနာများ ဖြေရှင်းရာတွင် အသုံးပြုသည်", optionsEn: ["Balanced levers and equilibrium", "Only motion in a straight line", "Only collisions", "Only fluids at rest"], optionsMy: ["ချိန်ညှိထားသော Lever များနှင့် Equilibrium", "ဖြောင့်မျဉ်း ရွေ့လျားမှုသာ", "Collision များသာ", "ရပ်နေသော Fluid များသာ"], correctIndex: 0),
+        QuizQuestion(questionEn: "A dense object sinks because...", questionMy: "Density များသော Object တစ်ခု နစ်ရသည့် အကြောင်းရင်းမှာ...", optionsEn: ["Its weight exceeds the maximum upthrust available", "It has zero weight", "It displaces too much water", "Pressure always pushes objects downward"], optionsMy: ["၎င်း၏ Weight သည် ရရှိနိုင်သော Maximum Upthrust ထက် ကျော်လွန်နေသောကြောင့်", "Weight Zero ရှိသောကြောင့်", "ရေ ပိုများစွာ ရွှေ့ပယ်သောကြောင့်", "Pressure သည် Object များကို အောက်သို့ အမြဲ တွန်းသောကြောင့်"], correctIndex: 0),
+        QuizQuestion(questionEn: "Pressure due to a fluid at a given depth depends on...", questionMy: "Depth တစ်ခုတွင် Fluid ကြောင့် Pressure သည် ...ပေါ် မှီခိုနေသည်", optionsEn: ["Depth, density and gravitational field strength", "Only the fluid's colour", "The shape of the container alone", "The time the fluid has been sitting still"], optionsMy: ["Depth, Density နှင့် Gravitational Field Strength", "Fluid ၏ အရောင်တစ်ခုတည်း", "ဗန်း ပုံသဏ္ဌာန် တစ်ခုတည်း", "Fluid ငြိမ်နေသော အချိန်"], correctIndex: 0),
+        QuizQuestion(questionEn: "A hollow ship hull floats instead of sinking because...", questionMy: "Hollow သင်္ဘော Hull တစ်ခု နစ်မသွားဘဲ ပေါလွင်ရသည့် အကြောင်းရင်းမှာ...", optionsEn: ["It displaces enough water for upthrust to balance its weight", "Steel naturally floats on its own", "It has no weight at all", "Water pressure pushes it upward directly"], optionsMy: ["၎င်း၏ Weight ကို Upthrust ချိန်ညှိရန် ရေလုံလောက်စွာ ရွှေ့ပယ်သောကြောင့်", "သံမဏိသည် ကိုယ်ပိုင် သဘာဝအလျောက် ပေါလွင်သောကြောင့်", "Weight လုံးဝ မရှိသောကြောင့်", "ရေ Pressure က ၎င်းကို အထက်သို့ တိုက်ရိုက် တွန်းသောကြောင့်"], correctIndex: 0),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm4 = CourseTermDef(
+  id: "course-y12-phys-term4",
+  termNumber: 4,
+  titleEn: "Forces, Density and Pressure",
+  titleMy: "Forces, Density နှင့် Pressure",
+  weeks: [_y12PhysWeek13, _y12PhysWeek14, _y12PhysWeek15, _y12PhysWeek16],
+  certificateTitleEn: "AS Physics: Forces, Density and Pressure",
+  certificateTitleMy: "AS ရူပဗေဒ - Forces, Density နှင့် Pressure",
 );
 
 // __TERMS_MARKER__
