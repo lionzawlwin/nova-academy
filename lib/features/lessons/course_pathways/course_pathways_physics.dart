@@ -13934,10 +13934,10 @@ const CourseTermDef year12PhysicsTerm1 = CourseTermDef(
   certificateTitleMy: "AS ရူပဗေဒ - Quantities နှင့် Measurement",
 );
 
-/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-4
+/// Year 12 Physics (A-Level AS, Cambridge 9702) -- in progress. Terms 1-5
 /// (Physical Quantities, Units and Measurement; Kinematics; Dynamics;
-/// Forces, Density and Pressure) authored; Terms 5-9 (Work, Energy and
-/// Power; Deformation of Solids; Waves and the Electromagnetic Spectrum;
+/// Forces, Density and Pressure; Work, Energy and Power) authored; Terms
+/// 6-9 (Deformation of Solids; Waves and the Electromagnetic Spectrum;
 /// Superposition; Electricity, DC Circuits and AS Exam Prep) to follow.
 /// No LaTeX renderer exists in this app -- formulas throughout use the
 /// same plain Unicode math notation (², √, x for multiplication) already
@@ -13952,8 +13952,14 @@ const CoursePathwayDef year12PhysicsPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Physics (9702): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Physical Quantities, Units and Measurement, covers the seven SI base quantities and derived units, prefixes/scientific notation/order-of-magnitude estimation, and scalar/vector resolution, closing with a Measurement and Practical Skills capstone on systematic/random error and precision vs. accuracy. Terms 2-9 continue through kinematics, dynamics, forces, work/energy/power, deformation of solids, waves, superposition, and electricity, closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ရူပဗေဒ (9702) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Physical Quantities, Units နှင့် Measurement သည် SI အခြေခံပမာဏ ခုနစ်ခုနှင့် Derived Unit များ၊ Prefix/Scientific Notation/Order-of-Magnitude ခန့်မှန်းခြင်း၊ Scalar/Vector ဖြေရှင်းခြင်းကို ဖုံးအုပ်ပြီး Systematic/Random Error နှင့် Precision vs. Accuracy အကြောင်း Measurement and Practical Skills အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Kinematics, Dynamics, Forces, Work/Energy/Power, Deformation of Solids, Waves, Superposition နှင့် Electricity တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 16,
-  terms: [year12PhysicsTerm1, year12PhysicsTerm2, year12PhysicsTerm3, year12PhysicsTerm4],
+  totalWeeks: 20,
+  terms: [
+    year12PhysicsTerm1,
+    year12PhysicsTerm2,
+    year12PhysicsTerm3,
+    year12PhysicsTerm4,
+    year12PhysicsTerm5,
+  ],
 );
 
 // =====================================================================
@@ -16630,23 +16636,42 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
       quizQuestions: [
         QuizQuestion(
           questionEn: "The moment of a force about a pivot is defined as...",
-          questionMy: "Pivot တစ်ခုအနီး Force ၏ Moment ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
-          optionsEn: ["Force x perpendicular distance from the pivot", "Force x time it acts", "Force divided by distance", "Mass x perpendicular distance"],
-          optionsMy: ["Force x Pivot မှ Perpendicular Distance", "Force x ၎င်း သက်ရောက်ချိန်", "Force ကို Distance ဖြင့် စားခြင်း", "Mass x Perpendicular Distance"],
+          questionMy:
+              "Pivot တစ်ခုအနီး Force ၏ Moment ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Force x perpendicular distance from the pivot",
+            "Force x time it acts",
+            "Force divided by distance",
+            "Mass x perpendicular distance",
+          ],
+          optionsMy: [
+            "Force x Pivot မှ Perpendicular Distance",
+            "Force x ၎င်း သက်ရောက်ချိန်",
+            "Force ကို Distance ဖြင့် စားခြင်း",
+            "Mass x Perpendicular Distance",
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: "A 10 N force acts 0.5 m from a pivot, perpendicular to the lever. The moment is...",
-          questionMy: "Force 10 N သည် Pivot မှ 0.5 m အကွာတွင် Lever ကို Perpendicular ဖြစ်စွာ သက်ရောက်သည်။ Moment မှာ...",
+          questionEn:
+              "A 10 N force acts 0.5 m from a pivot, perpendicular to the lever. The moment is...",
+          questionMy:
+              "Force 10 N သည် Pivot မှ 0.5 m အကွာတွင် Lever ကို Perpendicular ဖြစ်စွာ သက်ရောက်သည်။ Moment မှာ...",
           optionsEn: ["5 N m", "10.5 N m", "20 N m", "0.05 N m"],
           optionsMy: ["5 N m", "10.5 N m", "20 N m", "0.05 N m"],
           correctIndex: 0,
-          hintsEn: ["Moment = force x perpendicular distance = 10 x 0.5 = 5 N m."],
-          hintsMy: ["Moment = Force x Perpendicular Distance = 10 x 0.5 = 5 N m ။"],
+          hintsEn: [
+            "Moment = force x perpendicular distance = 10 x 0.5 = 5 N m.",
+          ],
+          hintsMy: [
+            "Moment = Force x Perpendicular Distance = 10 x 0.5 = 5 N m ။",
+          ],
         ),
         QuizQuestion(
-          questionEn: "The principle of moments states that for a system in equilibrium...",
-          questionMy: "Equilibrium ရှိသော System တစ်ခုအတွက် Principle of Moments အရ...",
+          questionEn:
+              "The principle of moments states that for a system in equilibrium...",
+          questionMy:
+              "Equilibrium ရှိသော System တစ်ခုအတွက် Principle of Moments အရ...",
           optionsEn: [
             "Sum of clockwise moments = sum of anticlockwise moments about any point",
             "All forces must point in the same direction",
@@ -16671,11 +16696,53 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
       kind: LessonKind.dragMatch,
       xpReward: 10,
       dragMatchPairs: [
-        DragMatchPair(id: "y12phys-w13-dm-1", termEn: "Pivot (fulcrum)", termMy: "Pivot (Fulcrum)", matchEn: "The fixed point about which a lever or object rotates", matchMy: "Lever သို့မဟုတ် Object တစ်ခု ရစ်ပတ်သော ငြိမ်သက်သည့် အမှတ်", colorValue: 0xFF3F51B5),
-        DragMatchPair(id: "y12phys-w13-dm-2", termEn: "Centre of gravity", termMy: "Centre of Gravity", matchEn: "The point where an object's entire weight can be considered to act", matchMy: "ပစ္စည်းတစ်ခု၏ Weight တစ်ခုလုံး သက်ရောက်သည်ဟု သတ်မှတ်နိုင်သော အမှတ်", colorValue: 0xFF4CAF50),
-        DragMatchPair(id: "y12phys-w13-dm-3", termEn: "Couple", termMy: "Couple", matchEn: "A pair of equal, opposite, parallel forces producing rotation with no resultant force", matchMy: "Resultant Force မရှိဘဲ ရစ်ပတ်မှု ဖြစ်ပေါ်စေသော ညီမျှ၊ ဆန့်ကျင်ဘက်၊ Parallel Force တစ်စုံ", colorValue: 0xFFFF9800),
-        DragMatchPair(id: "y12phys-w13-dm-4", termEn: "Stable equilibrium", termMy: "Stable Equilibrium", matchEn: "A displaced object returns to its original position", matchMy: "ရွှေ့ပြောင်းခံရသော ပစ္စည်းတစ်ခုသည် မူလ Position သို့ ပြန်ရောက်လာသည်", colorValue: 0xFF9C27B0),
-        DragMatchPair(id: "y12phys-w13-dm-5", termEn: "Torque", termMy: "Torque", matchEn: "The turning effect of a force, equal to force x perpendicular distance", matchMy: "Force ၏ လှည့်ခြင်း သက်ရောက်မှု၊ Force x Perpendicular Distance နှင့် ညီမျှသည်", colorValue: 0xFF00BCD4),
+        DragMatchPair(
+          id: "y12phys-w13-dm-1",
+          termEn: "Pivot (fulcrum)",
+          termMy: "Pivot (Fulcrum)",
+          matchEn: "The fixed point about which a lever or object rotates",
+          matchMy: "Lever သို့မဟုတ် Object တစ်ခု ရစ်ပတ်သော ငြိမ်သက်သည့် အမှတ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w13-dm-2",
+          termEn: "Centre of gravity",
+          termMy: "Centre of Gravity",
+          matchEn:
+              "The point where an object's entire weight can be considered to act",
+          matchMy:
+              "ပစ္စည်းတစ်ခု၏ Weight တစ်ခုလုံး သက်ရောက်သည်ဟု သတ်မှတ်နိုင်သော အမှတ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w13-dm-3",
+          termEn: "Couple",
+          termMy: "Couple",
+          matchEn:
+              "A pair of equal, opposite, parallel forces producing rotation with no resultant force",
+          matchMy:
+              "Resultant Force မရှိဘဲ ရစ်ပတ်မှု ဖြစ်ပေါ်စေသော ညီမျှ၊ ဆန့်ကျင်ဘက်၊ Parallel Force တစ်စုံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w13-dm-4",
+          termEn: "Stable equilibrium",
+          termMy: "Stable Equilibrium",
+          matchEn: "A displaced object returns to its original position",
+          matchMy:
+              "ရွှေ့ပြောင်းခံရသော ပစ္စည်းတစ်ခုသည် မူလ Position သို့ ပြန်ရောက်လာသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w13-dm-5",
+          termEn: "Torque",
+          termMy: "Torque",
+          matchEn:
+              "The turning effect of a force, equal to force x perpendicular distance",
+          matchMy:
+              "Force ၏ လှည့်ခြင်း သက်ရောက်မှု၊ Force x Perpendicular Distance နှင့် ညီမျှသည်",
+          colorValue: 0xFF00BCD4,
+        ),
       ],
     ),
     DailyLessonDef(
@@ -16689,11 +16756,44 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
         bucketsEn: ["Stable Equilibrium", "Unstable Equilibrium"],
         bucketsMy: ["Stable Equilibrium", "Unstable Equilibrium"],
         items: [
-          SortingItem(id: "y12phys-w13-sort-1", labelEn: "A cone resting flat on its wide base", labelMy: "ကျယ်သော အခြေခံပေါ် ညီညာစွာ ငြိမ်နေသော Cone", correctBucketEn: "Stable Equilibrium", correctBucketMy: "Stable Equilibrium"),
-          SortingItem(id: "y12phys-w13-sort-2", labelEn: "A cone balanced perfectly on its pointed tip", labelMy: "ချွန်သော အထိပ်ပေါ် အပြည့်အစုံ ချိန်ညှိထားသော Cone", correctBucketEn: "Unstable Equilibrium", correctBucketMy: "Unstable Equilibrium"),
-          SortingItem(id: "y12phys-w13-sort-3", labelEn: "A low, wide-based car that resists tipping over", labelMy: "မှောက်လှန်ခြင်းကို ခုခံနိုင်သော နိမ့်ပြီး ကျယ်သော အခြေခံရှိသော ကား", correctBucketEn: "Stable Equilibrium", correctBucketMy: "Stable Equilibrium"),
-          SortingItem(id: "y12phys-w13-sort-4", labelEn: "A pencil balanced upright on its sharpened point", labelMy: "ချွန်သော အစွန်းပေါ် ဒေါင်လိုက် ချိန်ညှိထားသော ခဲဆံ", correctBucketEn: "Unstable Equilibrium", correctBucketMy: "Unstable Equilibrium"),
-          SortingItem(id: "y12phys-w13-sort-5", labelEn: "A wide-bottomed vase that rights itself when nudged slightly", labelMy: "အနည်းငယ် တွန်းလိုက်လျှင် ကိုယ်ကိုယ်တိုင် မှန်ကန်စွာ ပြန်ရပ်နိုင်သော ကျယ်သော အောက်ခြေပါ ပန်းအိုး", correctBucketEn: "Stable Equilibrium", correctBucketMy: "Stable Equilibrium"),
+          SortingItem(
+            id: "y12phys-w13-sort-1",
+            labelEn: "A cone resting flat on its wide base",
+            labelMy: "ကျယ်သော အခြေခံပေါ် ညီညာစွာ ငြိမ်နေသော Cone",
+            correctBucketEn: "Stable Equilibrium",
+            correctBucketMy: "Stable Equilibrium",
+          ),
+          SortingItem(
+            id: "y12phys-w13-sort-2",
+            labelEn: "A cone balanced perfectly on its pointed tip",
+            labelMy: "ချွန်သော အထိပ်ပေါ် အပြည့်အစုံ ချိန်ညှိထားသော Cone",
+            correctBucketEn: "Unstable Equilibrium",
+            correctBucketMy: "Unstable Equilibrium",
+          ),
+          SortingItem(
+            id: "y12phys-w13-sort-3",
+            labelEn: "A low, wide-based car that resists tipping over",
+            labelMy:
+                "မှောက်လှန်ခြင်းကို ခုခံနိုင်သော နိမ့်ပြီး ကျယ်သော အခြေခံရှိသော ကား",
+            correctBucketEn: "Stable Equilibrium",
+            correctBucketMy: "Stable Equilibrium",
+          ),
+          SortingItem(
+            id: "y12phys-w13-sort-4",
+            labelEn: "A pencil balanced upright on its sharpened point",
+            labelMy: "ချွန်သော အစွန်းပေါ် ဒေါင်လိုက် ချိန်ညှိထားသော ခဲဆံ",
+            correctBucketEn: "Unstable Equilibrium",
+            correctBucketMy: "Unstable Equilibrium",
+          ),
+          SortingItem(
+            id: "y12phys-w13-sort-5",
+            labelEn:
+                "A wide-bottomed vase that rights itself when nudged slightly",
+            labelMy:
+                "အနည်းငယ် တွန်းလိုက်လျှင် ကိုယ်ကိုယ်တိုင် မှန်ကန်စွာ ပြန်ရပ်နိုင်သော ကျယ်သော အောက်ခြေပါ ပန်းအိုး",
+            correctBucketEn: "Stable Equilibrium",
+            correctBucketMy: "Stable Equilibrium",
+          ),
         ],
       ),
     ),
@@ -16713,7 +16813,8 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
             "ဆရာမ သက်ဆုလှိုင်သည် သူမ၏ အတန်းအား Moment ပြဿနာတစ်ခု ပေးခဲ့သည် - Uniform 4 m Seesaw တစ်ခုကို ၎င်း၏ အတိအကျ အလယ်တွင် Pivot ချထားပြီး Mass 30 kg ရှိသော ကလေးတစ်ဦးသည် Pivot တစ်ဖက်တွင် 1.5 m အကွာ ထိုင်နေသည်ဟု ဆိုကာ Mass 45 kg ရှိသော ကလေးတစ်ဦးသည် Seesaw ချိန်ညှိရန် အခြားတစ်ဖက်တွင် မည်သည့်နေရာတွင် ထိုင်ရမည်ကို မေးမြန်းခဲ့သည်။\n\nAung Phyo Wai သည် ကလေးတစ်ဦးစီ၏ Mass ကို W = mg (g = 9.81 m s⁻² ဖြင့်) အသုံးပြု၍ Weight Force သို့ ပြောင်းလဲရာမှ စတင်ခဲ့သည် - Mass 30 kg ကလေးသည် 30 x 9.81 = 294.3 N Weight ရှိပြီး Mass 45 kg ကလေးသည် 45 x 9.81 = 441.45 N Weight ရှိသည်။ ထို့နောက် Pivot အနီး Principle of Moments ကို အသုံးပြုခဲ့သည် - ချိန်ညှိရန် ကလေးတစ်ဦး၏ Anticlockwise Moment သည် အခြားတစ်ဦး၏ Clockwise Moment နှင့် ညီမျှရမည်။\n\nMass 30 kg ကလေး၏ Moment သည် 294.3 x 1.5 = 441.45 N m ဖြစ်သည်။ Mass 45 kg ကလေး၏ Moment ကို ၎င်းနှင့် ညီမျှအောင် သတ်မှတ်ခြင်း - 441.45 x d = 441.45 ဖြစ်သောကြောင့် d = 441.45 / 441.45 = 1 m ။ ဂဏန်းများထဲတွင် ဝှက်ထားသော ချိုသာသော နည်းလမ်းတစ်ခုကို ဆရာမ သက်ဆုလှိုင် ထောက်ပြခဲ့သည် - Weight နှစ်ခုစလုံးသည် g ပေါ် နောက်ဆုံးတွင် မှီခိုနေပြီး g သည် Moments Equation ၏ ဘေးနှစ်ဖက်စလုံးမှ ချေဖျက်သွားသောကြောင့် ချိန်ညှိမှု အခြေအနေသည် Mass နှင့် Distance ပေါ်တွင်သာ တကယ်တမ်း မှီခိုနေသည် -- (Mass1 x Distance1) = (Mass2 x Distance2)၊ သို့မဟုတ် 30 x 1.5 = 45 x d ဖြစ်ကာ g သို့မဟုတ် Weight ကို တိုက်ရိုက် လုံးဝ တွက်ချက်ရန် မလိုအပ်ဘဲ d = 1 m ဟူသော အဖြေတူညီစွာ ရရှိသည်။ ဤ နည်းလမ်းတိုသည် ပါဝင်သော Force တိုင်းသည် Gravitational Field တူညီအောက်ရှိ Weight Force ဖြစ်သော Moments ပြဿနာ မည်သည့်တစ်ခုအတွက်မဆို အလုပ်ဖြစ်သည်။",
         comprehensionQuestions: [
           QuizQuestion(
-            questionEn: "According to the passage, what is the weight of the 45 kg child?",
+            questionEn:
+                "According to the passage, what is the weight of the 45 kg child?",
             questionMy: "Mass 45 kg ကလေး၏ Weight ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["441.45 N", "294.3 N", "45 N", "1 N"],
             optionsMy: ["441.45 N", "294.3 N", "45 N", "1 N"],
@@ -16722,8 +16823,10 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
             hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the passage, at what distance must the 45 kg child sit?",
-            questionMy: "Mass 45 kg ကလေးသည် မည်သည့် Distance တွင် ထိုင်ရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, at what distance must the 45 kg child sit?",
+            questionMy:
+                "Mass 45 kg ကလေးသည် မည်သည့် Distance တွင် ထိုင်ရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["1 m", "1.5 m", "2 m", "4 m"],
             optionsMy: ["1 m", "1.5 m", "2 m", "4 m"],
             correctIndex: 0,
@@ -16731,8 +16834,10 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
             hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the final paragraph, why can g be cancelled from the moments equation?",
-            questionMy: "g ကို Moments Equation မှ အဘယ့်ကြောင့် ချေဖျက်နိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the final paragraph, why can g be cancelled from the moments equation?",
+            questionMy:
+                "g ကို Moments Equation မှ အဘယ့်ကြောင့် ချေဖျက်နိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: [
               "Both weights depend on the same g, so it cancels from both sides",
               "g is always exactly zero in moments problems",
@@ -16761,9 +16866,61 @@ const CourseWeekDef _y12PhysWeek13 = CourseWeekDef(
       xpReward: 10,
       isRecapDay: true,
       quizQuestions: [
-        QuizQuestion(questionEn: "The moment of a force is calculated as...", questionMy: "Force တစ်ခု၏ Moment ကို ...အဖြစ် တွက်ချက်သည်", optionsEn: ["Force x perpendicular distance", "Force x time", "Mass x velocity", "Force divided by mass"], optionsMy: ["Force x Perpendicular Distance", "Force x Time", "Mass x Velocity", "Force ကို Mass ဖြင့် စားခြင်း"], correctIndex: 0),
-        QuizQuestion(questionEn: "For a system in equilibrium under the principle of moments...", questionMy: "Principle of Moments အရ Equilibrium ရှိသော System တစ်ခုတွင်...", optionsEn: ["Clockwise moments equal anticlockwise moments", "All moments must be clockwise", "Moments are always zero individually", "Only forces matter, not distances"], optionsMy: ["Clockwise Moment များသည် Anticlockwise Moment များနှင့် ညီမျှသည်", "Moment အားလုံးသည် Clockwise ဖြစ်ရမည်", "Moment များသည် တစ်ခုစီ အမြဲ Zero ဖြစ်သည်", "Distance မဟုတ်ဘဲ Force သာ အရေးကြီးသည်"], correctIndex: 0),
-        QuizQuestion(questionEn: "A cone resting on its wide flat base rather than its point is an example of...", questionMy: "အထိပ် အစား ကျယ်ပြီး ညီညာသော အခြေခံပေါ် ငြိမ်နေသော Cone သည် ဥပမာ ဖြစ်သည်...", optionsEn: ["Stable equilibrium", "Unstable equilibrium", "No equilibrium at all", "Dynamic equilibrium only"], optionsMy: ["Stable Equilibrium", "Unstable Equilibrium", "Equilibrium လုံးဝ မရှိပါ", "Dynamic Equilibrium သာ"], correctIndex: 0),
+        QuizQuestion(
+          questionEn: "The moment of a force is calculated as...",
+          questionMy: "Force တစ်ခု၏ Moment ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Force x perpendicular distance",
+            "Force x time",
+            "Mass x velocity",
+            "Force divided by mass",
+          ],
+          optionsMy: [
+            "Force x Perpendicular Distance",
+            "Force x Time",
+            "Mass x Velocity",
+            "Force ကို Mass ဖြင့် စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a system in equilibrium under the principle of moments...",
+          questionMy:
+              "Principle of Moments အရ Equilibrium ရှိသော System တစ်ခုတွင်...",
+          optionsEn: [
+            "Clockwise moments equal anticlockwise moments",
+            "All moments must be clockwise",
+            "Moments are always zero individually",
+            "Only forces matter, not distances",
+          ],
+          optionsMy: [
+            "Clockwise Moment များသည် Anticlockwise Moment များနှင့် ညီမျှသည်",
+            "Moment အားလုံးသည် Clockwise ဖြစ်ရမည်",
+            "Moment များသည် တစ်ခုစီ အမြဲ Zero ဖြစ်သည်",
+            "Distance မဟုတ်ဘဲ Force သာ အရေးကြီးသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cone resting on its wide flat base rather than its point is an example of...",
+          questionMy:
+              "အထိပ် အစား ကျယ်ပြီး ညီညာသော အခြေခံပေါ် ငြိမ်နေသော Cone သည် ဥပမာ ဖြစ်သည်...",
+          optionsEn: [
+            "Stable equilibrium",
+            "Unstable equilibrium",
+            "No equilibrium at all",
+            "Dynamic equilibrium only",
+          ],
+          optionsMy: [
+            "Stable Equilibrium",
+            "Unstable Equilibrium",
+            "Equilibrium လုံးဝ မရှိပါ",
+            "Dynamic Equilibrium သာ",
+          ],
+          correctIndex: 0,
+        ),
       ],
     ),
   ],
@@ -16789,8 +16946,10 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
       xpReward: 10,
       quizQuestions: [
         QuizQuestion(
-          questionEn: "A block has a mass of 2 kg and a volume of 0.001 m³. Its density is...",
-          questionMy: "Block တစ်ခုသည် Mass 2 kg နှင့် Volume 0.001 m³ ရှိသည်။ ၎င်း၏ Density မှာ...",
+          questionEn:
+              "A block has a mass of 2 kg and a volume of 0.001 m³. Its density is...",
+          questionMy:
+              "Block တစ်ခုသည် Mass 2 kg နှင့် Volume 0.001 m³ ရှိသည်။ ၎င်း၏ Density မှာ...",
           optionsEn: ["2000 kg m⁻³", "0.0005 kg m⁻³", "2 kg m⁻³", "200 kg m⁻³"],
           optionsMy: ["2000 kg m⁻³", "0.0005 kg m⁻³", "2 kg m⁻³", "200 kg m⁻³"],
           correctIndex: 0,
@@ -16800,13 +16959,25 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
         QuizQuestion(
           questionEn: "Pressure is defined as...",
           questionMy: "Pressure ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
-          optionsEn: ["Force per unit area, perpendicular to the surface", "Force multiplied by area", "Mass per unit volume", "Force multiplied by distance"],
-          optionsMy: ["မျက်နှာပြင်ကို Perpendicular ဖြစ်သော Unit Area လျှင် Force", "Force ကို Area ဖြင့် မြှောက်ခြင်း", "Unit Volume လျှင် Mass", "Force ကို Distance ဖြင့် မြှောက်ခြင်း"],
+          optionsEn: [
+            "Force per unit area, perpendicular to the surface",
+            "Force multiplied by area",
+            "Mass per unit volume",
+            "Force multiplied by distance",
+          ],
+          optionsMy: [
+            "မျက်နှာပြင်ကို Perpendicular ဖြစ်သော Unit Area လျှင် Force",
+            "Force ကို Area ဖြင့် မြှောက်ခြင်း",
+            "Unit Volume လျှင် Mass",
+            "Force ကို Distance ဖြင့် မြှောက်ခြင်း",
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: "A force of 200 N acts over an area of 0.5 m². The pressure exerted is...",
-          questionMy: "Force 200 N သည် Area 0.5 m² ပေါ်တွင် သက်ရောက်သည်။ ဖြစ်ပေါ်စေသော Pressure မှာ...",
+          questionEn:
+              "A force of 200 N acts over an area of 0.5 m². The pressure exerted is...",
+          questionMy:
+              "Force 200 N သည် Area 0.5 m² ပေါ်တွင် သက်ရောက်သည်။ ဖြစ်ပေါ်စေသော Pressure မှာ...",
           optionsEn: ["400 Pa", "100 Pa", "200.5 Pa", "40 Pa"],
           optionsMy: ["400 Pa", "100 Pa", "200.5 Pa", "40 Pa"],
           correctIndex: 0,
@@ -16823,11 +16994,50 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
       kind: LessonKind.dragMatch,
       xpReward: 10,
       dragMatchPairs: [
-        DragMatchPair(id: "y12phys-w14-dm-1", termEn: "p = hρg", termMy: "p = hρg", matchEn: "Pressure due to a column of fluid at depth h", matchMy: "Depth h ရှိ အရည် Column ကြောင့် Pressure", colorValue: 0xFF3F51B5),
-        DragMatchPair(id: "y12phys-w14-dm-2", termEn: "ρ (rho)", termMy: "ρ (Rho)", matchEn: "The symbol for density", matchMy: "Density အတွက် သင်္ကေတ", colorValue: 0xFF4CAF50),
-        DragMatchPair(id: "y12phys-w14-dm-3", termEn: "Pascal (Pa)", termMy: "Pascal (Pa)", matchEn: "The SI unit of pressure, equal to N m⁻²", matchMy: "Pressure ၏ SI ယူနစ်၊ N m⁻² နှင့် ညီမျှသည်", colorValue: 0xFFFF9800),
-        DragMatchPair(id: "y12phys-w14-dm-4", termEn: "Atmospheric pressure", termMy: "Atmospheric Pressure", matchEn: "The pressure exerted by the weight of the air above, about 101,000 Pa at sea level", matchMy: "အထက်ရှိ လေ၏ Weight က သက်ရောက်စေသော Pressure၊ ပင်လယ်ရေမျက်နှာပြင်တွင် ခန့်မှန်းခြေ 101,000 Pa", colorValue: 0xFF9C27B0),
-        DragMatchPair(id: "y12phys-w14-dm-5", termEn: "Manometer", termMy: "Manometer", matchEn: "An instrument used to measure pressure difference using a liquid column", matchMy: "အရည် Column ကို အသုံးပြု၍ Pressure ကွာခြားချက် တိုင်းတာသော Instrument", colorValue: 0xFF00BCD4),
+        DragMatchPair(
+          id: "y12phys-w14-dm-1",
+          termEn: "p = hρg",
+          termMy: "p = hρg",
+          matchEn: "Pressure due to a column of fluid at depth h",
+          matchMy: "Depth h ရှိ အရည် Column ကြောင့် Pressure",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w14-dm-2",
+          termEn: "ρ (rho)",
+          termMy: "ρ (Rho)",
+          matchEn: "The symbol for density",
+          matchMy: "Density အတွက် သင်္ကေတ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w14-dm-3",
+          termEn: "Pascal (Pa)",
+          termMy: "Pascal (Pa)",
+          matchEn: "The SI unit of pressure, equal to N m⁻²",
+          matchMy: "Pressure ၏ SI ယူနစ်၊ N m⁻² နှင့် ညီမျှသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w14-dm-4",
+          termEn: "Atmospheric pressure",
+          termMy: "Atmospheric Pressure",
+          matchEn:
+              "The pressure exerted by the weight of the air above, about 101,000 Pa at sea level",
+          matchMy:
+              "အထက်ရှိ လေ၏ Weight က သက်ရောက်စေသော Pressure၊ ပင်လယ်ရေမျက်နှာပြင်တွင် ခန့်မှန်းခြေ 101,000 Pa",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w14-dm-5",
+          termEn: "Manometer",
+          termMy: "Manometer",
+          matchEn:
+              "An instrument used to measure pressure difference using a liquid column",
+          matchMy:
+              "အရည် Column ကို အသုံးပြု၍ Pressure ကွာခြားချက် တိုင်းတာသော Instrument",
+          colorValue: 0xFF00BCD4,
+        ),
       ],
     ),
     DailyLessonDef(
@@ -16841,11 +17051,41 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
         bucketsEn: ["Higher Density than Water", "Lower Density than Water"],
         bucketsMy: ["ရေထက် Density ပိုများ", "ရေထက် Density ပိုနည်း"],
         items: [
-          SortingItem(id: "y12phys-w14-sort-1", labelEn: "Steel (~7850 kg m⁻³)", labelMy: "သံမဏိ (~7850 kg m⁻³)", correctBucketEn: "Higher Density than Water", correctBucketMy: "ရေထက် Density ပိုများ"),
-          SortingItem(id: "y12phys-w14-sort-2", labelEn: "Cork (~240 kg m⁻³)", labelMy: "Cork (~240 kg m⁻³)", correctBucketEn: "Lower Density than Water", correctBucketMy: "ရေထက် Density ပိုနည်း"),
-          SortingItem(id: "y12phys-w14-sort-3", labelEn: "Gold (~19300 kg m⁻³)", labelMy: "ရွှေ (~19300 kg m⁻³)", correctBucketEn: "Higher Density than Water", correctBucketMy: "ရေထက် Density ပိုများ"),
-          SortingItem(id: "y12phys-w14-sort-4", labelEn: "Ice (~920 kg m⁻³)", labelMy: "ရေခဲ (~920 kg m⁻³)", correctBucketEn: "Lower Density than Water", correctBucketMy: "ရေထက် Density ပိုနည်း"),
-          SortingItem(id: "y12phys-w14-sort-5", labelEn: "Mercury (~13600 kg m⁻³)", labelMy: "ပြဒါး (~13600 kg m⁻³)", correctBucketEn: "Higher Density than Water", correctBucketMy: "ရေထက် Density ပိုများ"),
+          SortingItem(
+            id: "y12phys-w14-sort-1",
+            labelEn: "Steel (~7850 kg m⁻³)",
+            labelMy: "သံမဏိ (~7850 kg m⁻³)",
+            correctBucketEn: "Higher Density than Water",
+            correctBucketMy: "ရေထက် Density ပိုများ",
+          ),
+          SortingItem(
+            id: "y12phys-w14-sort-2",
+            labelEn: "Cork (~240 kg m⁻³)",
+            labelMy: "Cork (~240 kg m⁻³)",
+            correctBucketEn: "Lower Density than Water",
+            correctBucketMy: "ရေထက် Density ပိုနည်း",
+          ),
+          SortingItem(
+            id: "y12phys-w14-sort-3",
+            labelEn: "Gold (~19300 kg m⁻³)",
+            labelMy: "ရွှေ (~19300 kg m⁻³)",
+            correctBucketEn: "Higher Density than Water",
+            correctBucketMy: "ရေထက် Density ပိုများ",
+          ),
+          SortingItem(
+            id: "y12phys-w14-sort-4",
+            labelEn: "Ice (~920 kg m⁻³)",
+            labelMy: "ရေခဲ (~920 kg m⁻³)",
+            correctBucketEn: "Lower Density than Water",
+            correctBucketMy: "ရေထက် Density ပိုနည်း",
+          ),
+          SortingItem(
+            id: "y12phys-w14-sort-5",
+            labelEn: "Mercury (~13600 kg m⁻³)",
+            labelMy: "ပြဒါး (~13600 kg m⁻³)",
+            correctBucketEn: "Higher Density than Water",
+            correctBucketMy: "ရေထက် Density ပိုများ",
+          ),
         ],
       ),
     ),
@@ -16865,8 +17105,10 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
             "ကျင်းနေသော ရေကူးသမားများသည် ပိုနက်စွာ ရေကူးလေ ၎င်းတို့၏ နားထဲတွင် Pressure ပိုမိုတိုးလာသည်ကို ခံစားရသည့် အကြောင်းရင်းကို ဆရာနေလင်းထွန်းက သူ၏ အတန်းကို မေးမြန်းပြီး တွက်ချက်မှုတစ်ခု ပေးခဲ့သည် - ရေ၏ Density ကို 1000 kg m⁻³၊ Atmospheric Pressure ကို 101000 Pa၊ g = 9.81 m s⁻² ဖြင့် ရေကူးကန် 3 m နက်၏ အောက်ခြေရှိ စုစုပေါင်း Pressure ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nAtmosphere နှင့် ပွင့်လင်းနေသော အရည်တစ်ခုရှိ Depth မည်သည့်တစ်ခုတွင်မဆို စုစုပေါင်း Pressure သည် Contribution နှစ်ခု၏ ပေါင်းစည်းမှု ဖြစ်ကြောင်း Su Myat Noe ရှင်းပြခဲ့သည် - မျက်နှာပြင်ကို ဖိထားသော Atmospheric Pressure နှင့် ထို Depth အထက်ရှိ ရေ Column ၏ Weight မှ ထပ်ဆောင်း Pressure ။ ရေ-Column Contribution သည် p = hρg ကို အသုံးပြုပြီး h သည် Depth ဖြစ်သည် - p = 3 x 1000 x 9.81 = 29430 Pa ။\n\nAtmospheric Contribution ကို ပေါင်းထည့်ခြင်း - စုစုပေါင်း Pressure = 101000 + 29430 = 130430 Pa -- Atmospheric Pressure ၏ ခန့်မှန်းခြေ 1.3 ဆ ။ ရေကူးသမားတစ်ဦး ခံစားရသော စုစုပေါင်း Pressure ကို နှစ်ဆ ဖြစ်စေသည့် Water-Column Pressure တစ်ခုတည်းသည် Atmospheric Pressure နှင့် ညီမျှသည့် Depth ကို ဆရာနေလင်းထွန်း ထို့နောက် ပြဿနာကို ချဲ့ထွင်ခဲ့သည် - p = hρg ကို h အတွက် ပြန်စီစဉ်ခြင်း - h = p / (ρg) = 101000 / (1000 x 9.81) = 10.3 m ။ ၎င်းသည် Scuba ရေငုပ်သမားများကို လမ်းလျှောက်ဆင်းသည့် မီတာ အနည်းငယ်တိုင်း ၎င်းတို့ နားထဲရှိ Pressure ကို Equalise ပြုလုပ်ရန် လေ့ကျင့်ပေးရသည့် အကြောင်းရင်း ဖြစ်သည် -- ရေသည် လေထက် ခန့်မှန်းခြေ 1000 ဆ Density ပိုများသောကြောင့် လေထဲရှိ လှေကားထစ်များ တက်သွားစဉ် လူအများစု ခံစားရသော ပေါ့ပါးလွန်းသော Pressure ပြောင်းလဲမှုနှင့် မတူဘဲ ရေကူးအားကစား၏ သင့်တင့်သော Depth များတွင်ပင် Pressure သည် အလွန်တိုးလာကြောင်း အမှန်တကယ် သိသိသာသာ တွေ့ရသည်။",
         comprehensionQuestions: [
           QuizQuestion(
-            questionEn: "According to the passage, what is the water-column pressure at 3 m depth?",
-            questionMy: "3 m Depth ရှိ Water-Column Pressure ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what is the water-column pressure at 3 m depth?",
+            questionMy:
+                "3 m Depth ရှိ Water-Column Pressure ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["29430 Pa", "101000 Pa", "130430 Pa", "9.81 Pa"],
             optionsMy: ["29430 Pa", "101000 Pa", "130430 Pa", "9.81 Pa"],
             correctIndex: 0,
@@ -16874,8 +17116,10 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
             hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the passage, what is the total pressure at 3 m depth?",
-            questionMy: "3 m Depth ရှိ စုစုပေါင်း Pressure ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what is the total pressure at 3 m depth?",
+            questionMy:
+                "3 m Depth ရှိ စုစုပေါင်း Pressure ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["130430 Pa", "29430 Pa", "101000 Pa", "10.3 Pa"],
             optionsMy: ["130430 Pa", "29430 Pa", "101000 Pa", "10.3 Pa"],
             correctIndex: 0,
@@ -16883,8 +17127,10 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
             hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the passage, at what depth does the water-column pressure equal atmospheric pressure?",
-            questionMy: "Water-Column Pressure သည် Atmospheric Pressure နှင့် မည်သည့် Depth တွင် ညီမျှသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, at what depth does the water-column pressure equal atmospheric pressure?",
+            questionMy:
+                "Water-Column Pressure သည် Atmospheric Pressure နှင့် မည်သည့် Depth တွင် ညီမျှသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["10.3 m", "3 m", "101 m", "1000 m"],
             optionsMy: ["10.3 m", "3 m", "101 m", "1000 m"],
             correctIndex: 0,
@@ -16903,9 +17149,39 @@ const CourseWeekDef _y12PhysWeek14 = CourseWeekDef(
       xpReward: 10,
       isRecapDay: true,
       quizQuestions: [
-        QuizQuestion(questionEn: "Density is calculated as...", questionMy: "Density ကို ...အဖြစ် တွက်ချက်သည်", optionsEn: ["Mass / Volume", "Mass x Volume", "Force / Area", "Volume / Mass"], optionsMy: ["Mass / Volume", "Mass x Volume", "Force / Area", "Volume / Mass"], correctIndex: 0),
-        QuizQuestion(questionEn: "The SI unit of pressure, the pascal, is equal to...", questionMy: "Pressure ၏ SI ယူနစ် Pascal သည် ...နှင့် ညီမျှသည်", optionsEn: ["N m⁻²", "N m", "kg m⁻³", "N s"], optionsMy: ["N m⁻²", "N m", "kg m⁻³", "N s"], correctIndex: 0),
-        QuizQuestion(questionEn: "Pressure due to a fluid column at depth h is calculated using...", questionMy: "Depth h ရှိ အရည် Column ကြောင့် Pressure ကို ...ဖြင့် တွက်ချက်သည်", optionsEn: ["p = hρg", "p = F/t", "p = mv", "p = ma"], optionsMy: ["p = hρg", "p = F/t", "p = mv", "p = ma"], correctIndex: 0),
+        QuizQuestion(
+          questionEn: "Density is calculated as...",
+          questionMy: "Density ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Mass / Volume",
+            "Mass x Volume",
+            "Force / Area",
+            "Volume / Mass",
+          ],
+          optionsMy: [
+            "Mass / Volume",
+            "Mass x Volume",
+            "Force / Area",
+            "Volume / Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The SI unit of pressure, the pascal, is equal to...",
+          questionMy: "Pressure ၏ SI ယူနစ် Pascal သည် ...နှင့် ညီမျှသည်",
+          optionsEn: ["N m⁻²", "N m", "kg m⁻³", "N s"],
+          optionsMy: ["N m⁻²", "N m", "kg m⁻³", "N s"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Pressure due to a fluid column at depth h is calculated using...",
+          questionMy:
+              "Depth h ရှိ အရည် Column ကြောင့် Pressure ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["p = hρg", "p = F/t", "p = mv", "p = ma"],
+          optionsMy: ["p = hρg", "p = F/t", "p = mv", "p = ma"],
+          correctIndex: 0,
+        ),
       ],
     ),
   ],
@@ -16931,22 +17207,46 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
       xpReward: 10,
       quizQuestions: [
         QuizQuestion(
-          questionEn: "Archimedes' principle states that the upthrust on a submerged object equals...",
-          questionMy: "Archimedes' Principle အရ ရေငုပ်နေသော Object တစ်ခုပေါ်ရှိ Upthrust သည် ...နှင့် ညီမျှသည်",
-          optionsEn: ["The weight of fluid displaced by the object", "The object's own weight always", "Twice the object's volume", "The density of the object alone"],
-          optionsMy: ["Object က ရွှေ့ပယ်လိုက်သော အရည်၏ Weight", "Object ကိုယ်ပိုင် Weight အမြဲ", "Object ၏ Volume ၏ နှစ်ဆ", "Object ၏ Density တစ်ခုတည်း"],
+          questionEn:
+              "Archimedes' principle states that the upthrust on a submerged object equals...",
+          questionMy:
+              "Archimedes' Principle အရ ရေငုပ်နေသော Object တစ်ခုပေါ်ရှိ Upthrust သည် ...နှင့် ညီမျှသည်",
+          optionsEn: [
+            "The weight of fluid displaced by the object",
+            "The object's own weight always",
+            "Twice the object's volume",
+            "The density of the object alone",
+          ],
+          optionsMy: [
+            "Object က ရွှေ့ပယ်လိုက်သော အရည်၏ Weight",
+            "Object ကိုယ်ပိုင် Weight အမြဲ",
+            "Object ၏ Volume ၏ နှစ်ဆ",
+            "Object ၏ Density တစ်ခုတည်း",
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
           questionEn: "An object floats when...",
           questionMy: "Object တစ်ခု ပေါလွင်သည့်အခါ...",
-          optionsEn: ["Upthrust equals the object's weight", "Upthrust is always zero", "The object's density is greater than the fluid's", "The object has zero volume"],
-          optionsMy: ["Upthrust သည် Object ၏ Weight နှင့် ညီမျှသည်", "Upthrust သည် အမြဲ Zero ဖြစ်သည်", "Object ၏ Density သည် အရည်၏ Density ထက် ကြီးသည်", "Object တွင် Volume Zero ရှိသည်"],
+          optionsEn: [
+            "Upthrust equals the object's weight",
+            "Upthrust is always zero",
+            "The object's density is greater than the fluid's",
+            "The object has zero volume",
+          ],
+          optionsMy: [
+            "Upthrust သည် Object ၏ Weight နှင့် ညီမျှသည်",
+            "Upthrust သည် အမြဲ Zero ဖြစ်သည်",
+            "Object ၏ Density သည် အရည်၏ Density ထက် ကြီးသည်",
+            "Object တွင် Volume Zero ရှိသည်",
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: "A block displaces 0.002 m³ of water (density 1000 kg m⁻³) when fully submerged. The upthrust on it is...",
-          questionMy: "Block တစ်ခုသည် လုံးဝ ရေငုပ်ချိန် ရေ (Density 1000 kg m⁻³) 0.002 m³ ရွှေ့ပယ်သည်။ ၎င်းပေါ်ရှိ Upthrust မှာ...",
+          questionEn:
+              "A block displaces 0.002 m³ of water (density 1000 kg m⁻³) when fully submerged. The upthrust on it is...",
+          questionMy:
+              "Block တစ်ခုသည် လုံးဝ ရေငုပ်ချိန် ရေ (Density 1000 kg m⁻³) 0.002 m³ ရွှေ့ပယ်သည်။ ၎င်းပေါ်ရှိ Upthrust မှာ...",
           optionsEn: ["19.62 N", "2 N", "1000 N", "0.002 N"],
           optionsMy: ["19.62 N", "2 N", "1000 N", "0.002 N"],
           correctIndex: 0,
@@ -16967,11 +17267,53 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
       kind: LessonKind.dragMatch,
       xpReward: 10,
       dragMatchPairs: [
-        DragMatchPair(id: "y12phys-w15-dm-1", termEn: "Upthrust", termMy: "Upthrust", matchEn: "The upward force a fluid exerts on a submerged or floating object", matchMy: "အရည်တစ်ခုက ရေငုပ်နေသော (သို့) ပေါလွင်နေသော Object ပေါ် အထက်သို့ သက်ရောက်စေသော Force", colorValue: 0xFF3F51B5),
-        DragMatchPair(id: "y12phys-w15-dm-2", termEn: "Displaced fluid", termMy: "Displaced Fluid", matchEn: "The volume of fluid pushed aside by a submerged object", matchMy: "ရေငုပ်နေသော Object က ဘေးသို့ တွန်းလိုက်သော အရည် Volume", colorValue: 0xFF4CAF50),
-        DragMatchPair(id: "y12phys-w15-dm-3", termEn: "Neutral buoyancy", termMy: "Neutral Buoyancy", matchEn: "When upthrust exactly equals weight, so an object neither rises nor sinks", matchMy: "Upthrust သည် Weight နှင့် အတိအကျ ညီမျှသောကြောင့် Object သည် မတက်၊ မနစ်ခြင်း", colorValue: 0xFFFF9800),
-        DragMatchPair(id: "y12phys-w15-dm-4", termEn: "Hydrometer", termMy: "Hydrometer", matchEn: "An instrument that measures fluid density using flotation", matchMy: "Flotation ကို အသုံးပြု၍ အရည် Density တိုင်းတာသော Instrument", colorValue: 0xFF9C27B0),
-        DragMatchPair(id: "y12phys-w15-dm-5", termEn: "Submarine ballast tank", termMy: "Submarine Ballast Tank", matchEn: "A tank that fills with water to increase weight and sink, or empties to float", matchMy: "Weight တိုးမြှင့်ပြီး နစ်ရန် ရေဖြင့် ဖြည့်၊ ပေါလွင်ရန် ရေချန်ထားသော Tank", colorValue: 0xFF00BCD4),
+        DragMatchPair(
+          id: "y12phys-w15-dm-1",
+          termEn: "Upthrust",
+          termMy: "Upthrust",
+          matchEn:
+              "The upward force a fluid exerts on a submerged or floating object",
+          matchMy:
+              "အရည်တစ်ခုက ရေငုပ်နေသော (သို့) ပေါလွင်နေသော Object ပေါ် အထက်သို့ သက်ရောက်စေသော Force",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w15-dm-2",
+          termEn: "Displaced fluid",
+          termMy: "Displaced Fluid",
+          matchEn: "The volume of fluid pushed aside by a submerged object",
+          matchMy: "ရေငုပ်နေသော Object က ဘေးသို့ တွန်းလိုက်သော အရည် Volume",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w15-dm-3",
+          termEn: "Neutral buoyancy",
+          termMy: "Neutral Buoyancy",
+          matchEn:
+              "When upthrust exactly equals weight, so an object neither rises nor sinks",
+          matchMy:
+              "Upthrust သည် Weight နှင့် အတိအကျ ညီမျှသောကြောင့် Object သည် မတက်၊ မနစ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w15-dm-4",
+          termEn: "Hydrometer",
+          termMy: "Hydrometer",
+          matchEn: "An instrument that measures fluid density using flotation",
+          matchMy:
+              "Flotation ကို အသုံးပြု၍ အရည် Density တိုင်းတာသော Instrument",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w15-dm-5",
+          termEn: "Submarine ballast tank",
+          termMy: "Submarine Ballast Tank",
+          matchEn:
+              "A tank that fills with water to increase weight and sink, or empties to float",
+          matchMy:
+              "Weight တိုးမြှင့်ပြီး နစ်ရန် ရေဖြင့် ဖြည့်၊ ပေါလွင်ရန် ရေချန်ထားသော Tank",
+          colorValue: 0xFF00BCD4,
+        ),
       ],
     ),
     DailyLessonDef(
@@ -16985,11 +17327,43 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
         bucketsEn: ["Floats in Water", "Sinks in Water"],
         bucketsMy: ["ရေတွင် ပေါလွင်သည်", "ရေတွင် နစ်သည်"],
         items: [
-          SortingItem(id: "y12phys-w15-sort-1", labelEn: "A block of ice (density ~920 kg m⁻³)", labelMy: "ရေခဲ Block (Density ~920 kg m⁻³)", correctBucketEn: "Floats in Water", correctBucketMy: "ရေတွင် ပေါလွင်သည်"),
-          SortingItem(id: "y12phys-w15-sort-2", labelEn: "A solid steel ball (density ~7850 kg m⁻³)", labelMy: "Solid သံမဏိ ဘောလုံး (Density ~7850 kg m⁻³)", correctBucketEn: "Sinks in Water", correctBucketMy: "ရေတွင် နစ်သည်"),
-          SortingItem(id: "y12phys-w15-sort-3", labelEn: "A hollow steel ship, shaped to displace far more water than its solid weight", labelMy: "၎င်း၏ Solid Weight ထက် ရေ ပိုများစွာ ရွှေ့ပယ်ရန် ပုံသွင်းထားသော Hollow သံမဏိ သင်္ဘော", correctBucketEn: "Floats in Water", correctBucketMy: "ရေတွင် ပေါလွင်သည်"),
-          SortingItem(id: "y12phys-w15-sort-4", labelEn: "A solid gold coin (density ~19300 kg m⁻³)", labelMy: "Solid ရွှေ ဒင်္ဂါးပြား (Density ~19300 kg m⁻³)", correctBucketEn: "Sinks in Water", correctBucketMy: "ရေတွင် နစ်သည်"),
-          SortingItem(id: "y12phys-w15-sort-5", labelEn: "A cork stopper (density ~240 kg m⁻³)", labelMy: "Cork ပိတ်ဆို့ (Density ~240 kg m⁻³)", correctBucketEn: "Floats in Water", correctBucketMy: "ရေတွင် ပေါလွင်သည်"),
+          SortingItem(
+            id: "y12phys-w15-sort-1",
+            labelEn: "A block of ice (density ~920 kg m⁻³)",
+            labelMy: "ရေခဲ Block (Density ~920 kg m⁻³)",
+            correctBucketEn: "Floats in Water",
+            correctBucketMy: "ရေတွင် ပေါလွင်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w15-sort-2",
+            labelEn: "A solid steel ball (density ~7850 kg m⁻³)",
+            labelMy: "Solid သံမဏိ ဘောလုံး (Density ~7850 kg m⁻³)",
+            correctBucketEn: "Sinks in Water",
+            correctBucketMy: "ရေတွင် နစ်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w15-sort-3",
+            labelEn:
+                "A hollow steel ship, shaped to displace far more water than its solid weight",
+            labelMy:
+                "၎င်း၏ Solid Weight ထက် ရေ ပိုများစွာ ရွှေ့ပယ်ရန် ပုံသွင်းထားသော Hollow သံမဏိ သင်္ဘော",
+            correctBucketEn: "Floats in Water",
+            correctBucketMy: "ရေတွင် ပေါလွင်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w15-sort-4",
+            labelEn: "A solid gold coin (density ~19300 kg m⁻³)",
+            labelMy: "Solid ရွှေ ဒင်္ဂါးပြား (Density ~19300 kg m⁻³)",
+            correctBucketEn: "Sinks in Water",
+            correctBucketMy: "ရေတွင် နစ်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w15-sort-5",
+            labelEn: "A cork stopper (density ~240 kg m⁻³)",
+            labelMy: "Cork ပိတ်ဆို့ (Density ~240 kg m⁻³)",
+            correctBucketEn: "Floats in Water",
+            correctBucketMy: "ရေတွင် ပေါလွင်သည်",
+          ),
         ],
       ),
     ),
@@ -17009,8 +17383,10 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
             "ကျောင်းသားများစွာ ပထမတွင် ရှုပ်ထွေးတတ်သော မေးခွန်းတစ်ခုကို ဆရာမ ခိုင်ဇာလင်း သူမ၏ အတန်းကို မေးမြန်းခဲ့သည် - သံမဏိသည် ရေထက် ခန့်မှန်းခြေ ရှစ်ဆ Density ပိုများသော်လည်း သံမဏိ သင်္ဘောတစ်စင်းသည် Solid သံမဏိ ဘောလုံးတစ်လုံးကဲ့သို့ နစ်မသွားဘဲ အဘယ့်ကြောင့် ပေါလွင်နေသနည်း။\n\nArchimedes' Principle သည် Object ပြုလုပ်ထားသော ပစ္စည်းအကြောင်း မဟုတ်ဘဲ ရွှေ့ပယ်ထားသော ရေ၏ ပုံသဏ္ဌာန်အကြောင်း ဖြစ်ကြောင်း Zin Ko Ko ရှင်းပြခဲ့သည်။ သင်္ဘော၏ Hull သည် Hollow ဖြစ်ပြီး ကြီးမားသော၊ အများစု ဗလာ Bowl တစ်ခုကဲ့သို့ ပုံသွင်းထားသောကြောင့် သံမဏိ ကိုယ်တိုင်၏ Volume ထက် များစွာ ပိုသော ရေ Volume ကြီးမားစွာကို ရွှေ့ပယ်သည်။ Upthrust သည် Object ပြုလုပ်ထားသော ပစ္စည်းပေါ် မဟုတ်ဘဲ ရွှေ့ပယ်ထားသော ရေ Volume ပေါ် မှီခိုနေသောကြောင့် ဤကြီးမားသော ရွှေ့ပယ် Volume သည် သံမဏိ ကိုယ်တိုင် ရေထက် Density များစွာ ပိုများနေသော်လည်း သင်္ဘော၏ ကုန်ပစ္စည်း၊ အင်ဂျင်နှင့် ဝန်ထမ်းများ အပါအဝင် သင်္ဘော၏ Weight တစ်ခုလုံးနှင့် ညီမျှသော Upthrust ကို ဖြစ်ပေါ်စေနိုင်သည်။\n\nရိုးရှင်းသော ဂဏန်းသရုပ်ဖော်မှုတစ်ခုကို သူ ဖြေရှင်းခဲ့သည် - ဘေး 1 m ရှိ Solid သံမဏိ Cube တစ်ခုသည် Volume 1 m³ ရှိပြီး သံမဏိ၏ Density 7850 kg m⁻³ တွင် Weight 7850 x 9.81 = 77,003.5 N ရှိသည်။ လုံးဝ ရေငုပ်ပါက ၎င်းသည် ရေ 1 m³ ကိုသာ ရွှေ့ပယ်ပြီး Upthrust 1000 x 1 x 9.81 = 9810 N ကိုသာ ဖြစ်ပေါ်စေသည် -- ၎င်း၏ Weight ထက် များစွာ ပိုနည်းသောကြောင့် နစ်သွားသည်။ သို့သော် သံမဏိ Mass တူညီအား Hollow, Open-Topped Hull ပုံသဏ္ဌာန်၊ ပိုကြီးသော စုစုပေါင်း Volume 10 m³ ခန့်သို့ ပြန်ပုံသွင်းလိုက်ပြီး ၎င်း Volume ၏ 80% ရေငုပ်လျက် ပေါလွင်ပါက ရေ 8 m³ ရွှေ့ပယ်ပြီး Upthrust 1000 x 8 x 9.81 = 78,480 N ဖြစ်ပေါ်စေသည် -- ယခုအခါ သံမဏိ ကိုယ်ပိုင် Weight ထက် အနည်းငယ် ကျော်လွန်ပြီး Hull သည် ပေါလွင်ကြောင်း ဆိုလိုသည်၊ ၎င်း၏ ရေငုပ်မှုသည် Upthrust ကို Weight နှင့် အတိအကျ ချိန်ညှိပေးနိုင်လောက်သော အတိုင်းအတာသာ ဖြစ်သည်။ ဖော်ပြထားသော ထိုးထွင်းသိမြင်မှု အဓိကကို ဆရာမ ခိုင်ဇာလင်း အလေးထားခဲ့သည် - Flotation ကို ဆုံးဖြတ်ပေးသည်မှာ ကုန်ကြမ်း ပစ္စည်း၏ Density တစ်ခုတည်း လုံးဝ မဟုတ်ဘဲ စုစုပေါင်း ပုံသဏ္ဌာန်နှင့် ၎င်း တွန်းလိုက်သော ရေ ဖြစ်သည်။",
         comprehensionQuestions: [
           QuizQuestion(
-            questionEn: "According to the passage, what determines whether an object floats, according to Zin Ko Ko?",
-            questionMy: "Object တစ်ခု ပေါလွင်မလား ဆိုသည်ကို အဘယ်က ဆုံးဖြတ်ပေးသည်ကို Zin Ko Ko အရ စာပိုဒ်တွင် ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what determines whether an object floats, according to Zin Ko Ko?",
+            questionMy:
+                "Object တစ်ခု ပေါလွင်မလား ဆိုသည်ကို အဘယ်က ဆုံးဖြတ်ပေးသည်ကို Zin Ko Ko အရ စာပိုဒ်တွင် ဖော်ပြပါ။",
             optionsEn: [
               "The shape and volume of water displaced, not the raw material's density alone",
               "The colour of the material",
@@ -17028,8 +17404,10 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
             hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the passage, what upthrust does the solid steel cube generate when fully submerged?",
-            questionMy: "Solid သံမဏိ Cube သည် လုံးဝ ရေငုပ်ချိန် ဖြစ်ပေါ်စေသော Upthrust ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what upthrust does the solid steel cube generate when fully submerged?",
+            questionMy:
+                "Solid သံမဏိ Cube သည် လုံးဝ ရေငုပ်ချိန် ဖြစ်ပေါ်စေသော Upthrust ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["9810 N", "77003.5 N", "78480 N", "1000 N"],
             optionsMy: ["9810 N", "77003.5 N", "78480 N", "1000 N"],
             correctIndex: 0,
@@ -17037,8 +17415,10 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
             hintsMy: ["တတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the passage, what fraction of the reshaped hull's volume is submerged when it floats?",
-            questionMy: "ပေါလွင်ချိန် ပြန်ပုံသွင်းထားသော Hull ၏ Volume မည်မျှ ရေငုပ်နေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what fraction of the reshaped hull's volume is submerged when it floats?",
+            questionMy:
+                "ပေါလွင်ချိန် ပြန်ပုံသွင်းထားသော Hull ၏ Volume မည်မျှ ရေငုပ်နေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["80%", "100%", "10%", "50%"],
             optionsMy: ["80%", "100%", "10%", "50%"],
             correctIndex: 0,
@@ -17057,9 +17437,58 @@ const CourseWeekDef _y12PhysWeek15 = CourseWeekDef(
       xpReward: 10,
       isRecapDay: true,
       quizQuestions: [
-        QuizQuestion(questionEn: "Archimedes' principle relates upthrust to...", questionMy: "Archimedes' Principle သည် Upthrust ကို ...နှင့် ဆက်စပ်ပေးသည်", optionsEn: ["The weight of fluid displaced", "The object's mass alone", "The object's temperature", "The object's colour"], optionsMy: ["ရွှေ့ပယ်ထားသော အရည်၏ Weight", "Object ၏ Mass တစ်ခုတည်း", "Object ၏ Temperature", "Object ၏ အရောင်"], correctIndex: 0),
-        QuizQuestion(questionEn: "An object floats when...", questionMy: "Object တစ်ခု ပေါလွင်သည့်အခါ...", optionsEn: ["Upthrust equals its weight", "Upthrust is zero", "Its density exceeds the fluid's density", "It has no volume"], optionsMy: ["Upthrust သည် ၎င်း၏ Weight နှင့် ညီမျှသည်", "Upthrust သည် Zero ဖြစ်သည်", "၎င်း၏ Density သည် အရည်၏ Density ထက် ကျော်လွန်သည်", "Volume လုံးဝ မရှိပါ"], correctIndex: 0),
-        QuizQuestion(questionEn: "A steel ship floats because...", questionMy: "သံမဏိ သင်္ဘော ပေါလွင်သည့် အကြောင်းရင်းမှာ...", optionsEn: ["Its hollow hull displaces enough water to generate sufficient upthrust", "Steel is naturally less dense than water", "It has zero weight", "It never touches the water"], optionsMy: ["၎င်း၏ Hollow Hull သည် လုံလောက်သော Upthrust ဖြစ်ပေါ်စေရန် ရေလုံလောက်စွာ ရွှေ့ပယ်သည်", "သံမဏိသည် ရေထက် သဘာဝအလျောက် Density ပိုနည်းသည်", "Weight Zero ရှိသည်", "ရေကို လုံးဝ မထိမတွေ့ပါ"], correctIndex: 0),
+        QuizQuestion(
+          questionEn: "Archimedes' principle relates upthrust to...",
+          questionMy:
+              "Archimedes' Principle သည် Upthrust ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "The weight of fluid displaced",
+            "The object's mass alone",
+            "The object's temperature",
+            "The object's colour",
+          ],
+          optionsMy: [
+            "ရွှေ့ပယ်ထားသော အရည်၏ Weight",
+            "Object ၏ Mass တစ်ခုတည်း",
+            "Object ၏ Temperature",
+            "Object ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An object floats when...",
+          questionMy: "Object တစ်ခု ပေါလွင်သည့်အခါ...",
+          optionsEn: [
+            "Upthrust equals its weight",
+            "Upthrust is zero",
+            "Its density exceeds the fluid's density",
+            "It has no volume",
+          ],
+          optionsMy: [
+            "Upthrust သည် ၎င်း၏ Weight နှင့် ညီမျှသည်",
+            "Upthrust သည် Zero ဖြစ်သည်",
+            "၎င်း၏ Density သည် အရည်၏ Density ထက် ကျော်လွန်သည်",
+            "Volume လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A steel ship floats because...",
+          questionMy: "သံမဏိ သင်္ဘော ပေါလွင်သည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Its hollow hull displaces enough water to generate sufficient upthrust",
+            "Steel is naturally less dense than water",
+            "It has zero weight",
+            "It never touches the water",
+          ],
+          optionsMy: [
+            "၎င်း၏ Hollow Hull သည် လုံလောက်သော Upthrust ဖြစ်ပေါ်စေရန် ရေလုံလောက်စွာ ရွှေ့ပယ်သည်",
+            "သံမဏိသည် ရေထက် သဘာဝအလျောက် Density ပိုနည်းသည်",
+            "Weight Zero ရှိသည်",
+            "ရေကို လုံးဝ မထိမတွေ့ပါ",
+          ],
+          correctIndex: 0,
+        ),
       ],
     ),
   ],
@@ -17086,8 +17515,10 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
       xpReward: 10,
       quizQuestions: [
         QuizQuestion(
-          questionEn: "A uniform plank of weight 200 N is pivoted at its centre. A 50 N weight hangs 2 m from the pivot on the left. Where must a 100 N weight hang on the right for balance?",
-          questionMy: "Weight 200 N ရှိသော Uniform Plank တစ်ခုကို ၎င်း၏ အလယ်တွင် Pivot ချထားသည်။ Weight 50 N သည် ဘယ်ဘက်ရှိ Pivot မှ 2 m အကွာတွင် ချိတ်ဆွဲထားသည်။ Weight 100 N ကို ချိန်ညှိရန် ညာဘက်တွင် မည်သည့်နေရာတွင် ချိတ်ဆွဲရမည်နည်း။",
+          questionEn:
+              "A uniform plank of weight 200 N is pivoted at its centre. A 50 N weight hangs 2 m from the pivot on the left. Where must a 100 N weight hang on the right for balance?",
+          questionMy:
+              "Weight 200 N ရှိသော Uniform Plank တစ်ခုကို ၎င်း၏ အလယ်တွင် Pivot ချထားသည်။ Weight 50 N သည် ဘယ်ဘက်ရှိ Pivot မှ 2 m အကွာတွင် ချိတ်ဆွဲထားသည်။ Weight 100 N ကို ချိန်ညှိရန် ညာဘက်တွင် မည်သည့်နေရာတွင် ချိတ်ဆွဲရမည်နည်း။",
           optionsEn: ["1 m", "2 m", "0.5 m", "4 m"],
           optionsMy: ["1 m", "2 m", "0.5 m", "4 m"],
           correctIndex: 0,
@@ -17099,15 +17530,29 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
           ],
         ),
         QuizQuestion(
-          questionEn: "A submarine increases its ballast tank water to sink. This changes its...",
-          questionMy: "Submarine တစ်စင်းသည် နစ်ရန် ၎င်း၏ Ballast Tank ရေကို တိုးမြှင့်သည်။ ၎င်းသည် ၎င်း၏ ...ကို ပြောင်းလဲစေသည်",
-          optionsEn: ["Weight, until it exceeds upthrust", "Volume of steel used", "The density of the surrounding water", "Its own material composition"],
-          optionsMy: ["Weight, Upthrust ကို ကျော်လွန်သည်အထိ", "အသုံးပြုသော သံမဏိ Volume", "ပတ်ဝန်းကျင် ရေ၏ Density", "ကိုယ်ပိုင် ပစ္စည်း ဖွဲ့စည်းပုံ"],
+          questionEn:
+              "A submarine increases its ballast tank water to sink. This changes its...",
+          questionMy:
+              "Submarine တစ်စင်းသည် နစ်ရန် ၎င်း၏ Ballast Tank ရေကို တိုးမြှင့်သည်။ ၎င်းသည် ၎င်း၏ ...ကို ပြောင်းလဲစေသည်",
+          optionsEn: [
+            "Weight, until it exceeds upthrust",
+            "Volume of steel used",
+            "The density of the surrounding water",
+            "Its own material composition",
+          ],
+          optionsMy: [
+            "Weight, Upthrust ကို ကျော်လွန်သည်အထိ",
+            "အသုံးပြုသော သံမဏိ Volume",
+            "ပတ်ဝန်းကျင် ရေ၏ Density",
+            "ကိုယ်ပိုင် ပစ္စည်း ဖွဲ့စည်းပုံ",
+          ],
           correctIndex: 0,
         ),
         QuizQuestion(
-          questionEn: "At a depth of 5 m in water (density 1000 kg m⁻³), the extra pressure due to the water alone is approximately...",
-          questionMy: "ရေ (Density 1000 kg m⁻³) Depth 5 m တွင် ရေတစ်ခုတည်းကြောင့် ထပ်ဆောင်း Pressure ခန့်မှန်းခြေမှာ...",
+          questionEn:
+              "At a depth of 5 m in water (density 1000 kg m⁻³), the extra pressure due to the water alone is approximately...",
+          questionMy:
+              "ရေ (Density 1000 kg m⁻³) Depth 5 m တွင် ရေတစ်ခုတည်းကြောင့် ထပ်ဆောင်း Pressure ခန့်မှန်းခြေမှာ...",
           optionsEn: ["49050 Pa", "5000 Pa", "9810 Pa", "1000 Pa"],
           optionsMy: ["49050 Pa", "5000 Pa", "9810 Pa", "1000 Pa"],
           correctIndex: 0,
@@ -17124,11 +17569,46 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
       kind: LessonKind.dragMatch,
       xpReward: 10,
       dragMatchPairs: [
-        DragMatchPair(id: "y12phys-w16-dm-1", termEn: "Moment = ", termMy: "Moment = ", matchEn: "Force x perpendicular distance", matchMy: "Force x Perpendicular Distance", colorValue: 0xFF3F51B5),
-        DragMatchPair(id: "y12phys-w16-dm-2", termEn: "Density = ", termMy: "Density = ", matchEn: "Mass / Volume", matchMy: "Mass / Volume", colorValue: 0xFF4CAF50),
-        DragMatchPair(id: "y12phys-w16-dm-3", termEn: "Pressure = ", termMy: "Pressure = ", matchEn: "Force / Area", matchMy: "Force / Area", colorValue: 0xFFFF9800),
-        DragMatchPair(id: "y12phys-w16-dm-4", termEn: "Fluid pressure at depth h = ", termMy: "Depth h ရှိ Fluid Pressure = ", matchEn: "hρg", matchMy: "hρg", colorValue: 0xFF9C27B0),
-        DragMatchPair(id: "y12phys-w16-dm-5", termEn: "Upthrust = ", termMy: "Upthrust = ", matchEn: "Weight of fluid displaced (ρVg)", matchMy: "ရွှေ့ပယ်ထားသော Fluid Weight (ρVg)", colorValue: 0xFF00BCD4),
+        DragMatchPair(
+          id: "y12phys-w16-dm-1",
+          termEn: "Moment = ",
+          termMy: "Moment = ",
+          matchEn: "Force x perpendicular distance",
+          matchMy: "Force x Perpendicular Distance",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w16-dm-2",
+          termEn: "Density = ",
+          termMy: "Density = ",
+          matchEn: "Mass / Volume",
+          matchMy: "Mass / Volume",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w16-dm-3",
+          termEn: "Pressure = ",
+          termMy: "Pressure = ",
+          matchEn: "Force / Area",
+          matchMy: "Force / Area",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w16-dm-4",
+          termEn: "Fluid pressure at depth h = ",
+          termMy: "Depth h ရှိ Fluid Pressure = ",
+          matchEn: "hρg",
+          matchMy: "hρg",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w16-dm-5",
+          termEn: "Upthrust = ",
+          termMy: "Upthrust = ",
+          matchEn: "Weight of fluid displaced (ρVg)",
+          matchMy: "ရွှေ့ပယ်ထားသော Fluid Weight (ρVg)",
+          colorValue: 0xFF00BCD4,
+        ),
       ],
     ),
     DailyLessonDef(
@@ -17142,11 +17622,46 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
         bucketsEn: ["Moments/Equilibrium", "Pressure/Upthrust"],
         bucketsMy: ["Moments/Equilibrium", "Pressure/Upthrust"],
         items: [
-          SortingItem(id: "y12phys-w16-sort-1", labelEn: "Clockwise moments equal anticlockwise moments", labelMy: "Clockwise Moment များသည် Anticlockwise Moment များနှင့် ညီမျှသည်", correctBucketEn: "Moments/Equilibrium", correctBucketMy: "Moments/Equilibrium"),
-          SortingItem(id: "y12phys-w16-sort-2", labelEn: "A ship floats when displaced water weight equals ship weight", labelMy: "ရွှေ့ပယ်ထားသော ရေ Weight သည် သင်္ဘော Weight နှင့် ညီမျှလျှင် သင်္ဘော ပေါလွင်သည်", correctBucketEn: "Pressure/Upthrust", correctBucketMy: "Pressure/Upthrust"),
-          SortingItem(id: "y12phys-w16-sort-3", labelEn: "A seesaw balances about its central pivot", labelMy: "Seesaw သည် ၎င်း၏ ဗဟို Pivot အနီး ချိန်ညှိသည်", correctBucketEn: "Moments/Equilibrium", correctBucketMy: "Moments/Equilibrium"),
-          SortingItem(id: "y12phys-w16-sort-4", labelEn: "Divers feel more force on their ears the deeper they go", labelMy: "ရေငုပ်သမားများသည် ပိုနက်လေ ၎င်းတို့ နားပေါ် Force ပိုခံစားရလေ ဖြစ်သည်", correctBucketEn: "Pressure/Upthrust", correctBucketMy: "Pressure/Upthrust"),
-          SortingItem(id: "y12phys-w16-sort-5", labelEn: "A cone is more stable resting on its wide base", labelMy: "Cone တစ်ခုသည် ၎င်း၏ ကျယ်သော အခြေခံပေါ် ငြိမ်သောအခါ ပို၍ Stable ဖြစ်သည်", correctBucketEn: "Moments/Equilibrium", correctBucketMy: "Moments/Equilibrium"),
+          SortingItem(
+            id: "y12phys-w16-sort-1",
+            labelEn: "Clockwise moments equal anticlockwise moments",
+            labelMy:
+                "Clockwise Moment များသည် Anticlockwise Moment များနှင့် ညီမျှသည်",
+            correctBucketEn: "Moments/Equilibrium",
+            correctBucketMy: "Moments/Equilibrium",
+          ),
+          SortingItem(
+            id: "y12phys-w16-sort-2",
+            labelEn:
+                "A ship floats when displaced water weight equals ship weight",
+            labelMy:
+                "ရွှေ့ပယ်ထားသော ရေ Weight သည် သင်္ဘော Weight နှင့် ညီမျှလျှင် သင်္ဘော ပေါလွင်သည်",
+            correctBucketEn: "Pressure/Upthrust",
+            correctBucketMy: "Pressure/Upthrust",
+          ),
+          SortingItem(
+            id: "y12phys-w16-sort-3",
+            labelEn: "A seesaw balances about its central pivot",
+            labelMy: "Seesaw သည် ၎င်း၏ ဗဟို Pivot အနီး ချိန်ညှိသည်",
+            correctBucketEn: "Moments/Equilibrium",
+            correctBucketMy: "Moments/Equilibrium",
+          ),
+          SortingItem(
+            id: "y12phys-w16-sort-4",
+            labelEn: "Divers feel more force on their ears the deeper they go",
+            labelMy:
+                "ရေငုပ်သမားများသည် ပိုနက်လေ ၎င်းတို့ နားပေါ် Force ပိုခံစားရလေ ဖြစ်သည်",
+            correctBucketEn: "Pressure/Upthrust",
+            correctBucketMy: "Pressure/Upthrust",
+          ),
+          SortingItem(
+            id: "y12phys-w16-sort-5",
+            labelEn: "A cone is more stable resting on its wide base",
+            labelMy:
+                "Cone တစ်ခုသည် ၎င်း၏ ကျယ်သော အခြေခံပေါ် ငြိမ်သောအခါ ပို၍ Stable ဖြစ်သည်",
+            correctBucketEn: "Moments/Equilibrium",
+            correctBucketMy: "Moments/Equilibrium",
+          ),
         ],
       ),
     ),
@@ -17166,8 +17681,10 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
             "သူတို့၏ Term 4 အထွတ်အထိပ်အတွက် ဆရာဝင်းနိုင်ဦး၏ အတန်းသည် Moments နှင့် Equilibrium ကို လက်တွေ့ အင်ဂျင်နီယာ ပြဿနာတစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ကြသည် - Tower Crane တစ်စင်း၏ Horizontal Jib သည် Load ဖက်တွင် Tower မှ 20 m ထွက်နေပြီး ထို အကွာအဝေး အပြည့်တွင် Maximum Load 5000 N ကို ချီယူရန် လိုအပ်သည်။ ပိုတိုသော Counterweight ဖက်တွင် Tower မှ 5 m ရှိ သတ်မှတ်ထားသော Concrete Counterweight တစ်ခုသည် Tower ကို ချိန်ညှိထားရန် အရွယ်အစား သင့်တင့်ရမည်။\n\nMoe Sandar Aung သည် Tower (Pivot Point) အနီး Moments Equation ကို တည်ဆောက်ခဲ့သည် - Load ၏ Clockwise Moment ကို Counterweight ၏ Anticlockwise Moment က ချိန်ညှိပေးရမည်။ Load Moment = 5000 x 20 = 100000 N m ။ ချိန်ညှိရန် Counterweight Moment သည်လည်း 100000 N m နှင့် ညီမျှရမည်ဖြစ်သောကြောင့် Counterweight Weight x 5 = 100000 ဖြစ်ကာ Counterweight Weight = 100000 / 5 = 20000 N ကို ရရှိသည်။\n\nတကယ့် Crane များကို Load မတင်ချိန်တွင် Counterweight Moment သည် Load Moment ကို အတိအကျ ချိန်ညှိစေမည့်အစား အနည်းငယ် ကျော်လွန်စေရန် ဒီဇိုင်းဆွဲသည့် အကြောင်းရင်းကို ဆရာဝင်းနိုင်ဦး ထို့နောက် မေးမြန်းခဲ့သည်။ Moe Sandar Aung သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Crane ကို Maximum Load တွင် အတိအကျ ချိန်ညှိအောင် ဒီဇိုင်းဆွဲပါက Jib သည် အချိန်များစုတွင် Maximum ထက် နည်းသော Load ကို ချီယူတိုင်း Counterweight Moment သည် Load Moment ကို ကျော်လွန်သွားပြီး Crane ကို နောက်ပြန် မှောက်လှန်စေလိမ့်မည်။ ထို့ကြောင့် တကယ့် Crane များကို Empty Jib (Zero Load) သည် Counterweight တစ်ခုတည်းက ချိန်ညှိပြီးသားအနီးနီးသို့ ဒီဇိုင်းဆွဲထားပြီး Crane ကိုယ်ပိုင် Structural Design (တစ်ခါတစ်ရံ Counterweight ၏ Effective Distance ကို ရွေ့ပေးသော Trolley များ) သည် Load Empty နှင့် Maximum ကြားတွင် ပြောင်းလဲနေသော Moment ကို စီမံခန့်ခွဲကာ Resultant Moment ကို Balance Point တစ်ခုတည်းအစား လုံခြုံသော Range အတွင်း အမြဲ ထိန်းသိမ်းထားသည်။",
         comprehensionQuestions: [
           QuizQuestion(
-            questionEn: "According to the passage, what is the load moment when the crane carries maximum load?",
-            questionMy: "Crane သည် Maximum Load ချီယူချိန် Load Moment ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what is the load moment when the crane carries maximum load?",
+            questionMy:
+                "Crane သည် Maximum Load ချီယူချိန် Load Moment ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["100000 N m", "20000 N m", "5000 N m", "25000 N m"],
             optionsMy: ["100000 N m", "20000 N m", "5000 N m", "25000 N m"],
             correctIndex: 0,
@@ -17175,8 +17692,10 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
             hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the passage, what counterweight weight is needed?",
-            questionMy: "လိုအပ်သော Counterweight Weight ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the passage, what counterweight weight is needed?",
+            questionMy:
+                "လိုအပ်သော Counterweight Weight ကို စာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: ["20000 N", "100000 N", "5000 N", "5 N"],
             optionsMy: ["20000 N", "100000 N", "5000 N", "5 N"],
             correctIndex: 0,
@@ -17184,8 +17703,10 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
             hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး အဖြေကို ပြန်ဖတ်ကြည့်ပါ။"],
           ),
           QuizQuestion(
-            questionEn: "According to the final paragraph, why don't real cranes balance exactly at maximum load?",
-            questionMy: "တကယ့် Crane များသည် Maximum Load တွင် အတိအကျ အဘယ့်ကြောင့် မချိန်ညှိကြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            questionEn:
+                "According to the final paragraph, why don't real cranes balance exactly at maximum load?",
+            questionMy:
+                "တကယ့် Crane များသည် Maximum Load တွင် အတိအကျ အဘယ့်ကြောင့် မချိန်ညှိကြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
             optionsEn: [
               "The crane would tip backward whenever it carries less than maximum load",
               "Concrete counterweights are too expensive to build accurately",
@@ -17200,7 +17721,9 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
             ],
             correctIndex: 0,
             hintsEn: ["Reread the final paragraph's reasoning."],
-            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
           ),
         ],
       ),
@@ -17214,10 +17737,79 @@ const CourseWeekDef _y12PhysWeek16 = CourseWeekDef(
       xpReward: 15,
       isRecapDay: true,
       quizQuestions: [
-        QuizQuestion(questionEn: "The principle of moments is used to solve problems involving...", questionMy: "Principle of Moments ကို ...ပါဝင်သော ပြဿနာများ ဖြေရှင်းရာတွင် အသုံးပြုသည်", optionsEn: ["Balanced levers and equilibrium", "Only motion in a straight line", "Only collisions", "Only fluids at rest"], optionsMy: ["ချိန်ညှိထားသော Lever များနှင့် Equilibrium", "ဖြောင့်မျဉ်း ရွေ့လျားမှုသာ", "Collision များသာ", "ရပ်နေသော Fluid များသာ"], correctIndex: 0),
-        QuizQuestion(questionEn: "A dense object sinks because...", questionMy: "Density များသော Object တစ်ခု နစ်ရသည့် အကြောင်းရင်းမှာ...", optionsEn: ["Its weight exceeds the maximum upthrust available", "It has zero weight", "It displaces too much water", "Pressure always pushes objects downward"], optionsMy: ["၎င်း၏ Weight သည် ရရှိနိုင်သော Maximum Upthrust ထက် ကျော်လွန်နေသောကြောင့်", "Weight Zero ရှိသောကြောင့်", "ရေ ပိုများစွာ ရွှေ့ပယ်သောကြောင့်", "Pressure သည် Object များကို အောက်သို့ အမြဲ တွန်းသောကြောင့်"], correctIndex: 0),
-        QuizQuestion(questionEn: "Pressure due to a fluid at a given depth depends on...", questionMy: "Depth တစ်ခုတွင် Fluid ကြောင့် Pressure သည် ...ပေါ် မှီခိုနေသည်", optionsEn: ["Depth, density and gravitational field strength", "Only the fluid's colour", "The shape of the container alone", "The time the fluid has been sitting still"], optionsMy: ["Depth, Density နှင့် Gravitational Field Strength", "Fluid ၏ အရောင်တစ်ခုတည်း", "ဗန်း ပုံသဏ္ဌာန် တစ်ခုတည်း", "Fluid ငြိမ်နေသော အချိန်"], correctIndex: 0),
-        QuizQuestion(questionEn: "A hollow ship hull floats instead of sinking because...", questionMy: "Hollow သင်္ဘော Hull တစ်ခု နစ်မသွားဘဲ ပေါလွင်ရသည့် အကြောင်းရင်းမှာ...", optionsEn: ["It displaces enough water for upthrust to balance its weight", "Steel naturally floats on its own", "It has no weight at all", "Water pressure pushes it upward directly"], optionsMy: ["၎င်း၏ Weight ကို Upthrust ချိန်ညှိရန် ရေလုံလောက်စွာ ရွှေ့ပယ်သောကြောင့်", "သံမဏိသည် ကိုယ်ပိုင် သဘာဝအလျောက် ပေါလွင်သောကြောင့်", "Weight လုံးဝ မရှိသောကြောင့်", "ရေ Pressure က ၎င်းကို အထက်သို့ တိုက်ရိုက် တွန်းသောကြောင့်"], correctIndex: 0),
+        QuizQuestion(
+          questionEn:
+              "The principle of moments is used to solve problems involving...",
+          questionMy:
+              "Principle of Moments ကို ...ပါဝင်သော ပြဿနာများ ဖြေရှင်းရာတွင် အသုံးပြုသည်",
+          optionsEn: [
+            "Balanced levers and equilibrium",
+            "Only motion in a straight line",
+            "Only collisions",
+            "Only fluids at rest",
+          ],
+          optionsMy: [
+            "ချိန်ညှိထားသော Lever များနှင့် Equilibrium",
+            "ဖြောင့်မျဉ်း ရွေ့လျားမှုသာ",
+            "Collision များသာ",
+            "ရပ်နေသော Fluid များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A dense object sinks because...",
+          questionMy:
+              "Density များသော Object တစ်ခု နစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Its weight exceeds the maximum upthrust available",
+            "It has zero weight",
+            "It displaces too much water",
+            "Pressure always pushes objects downward",
+          ],
+          optionsMy: [
+            "၎င်း၏ Weight သည် ရရှိနိုင်သော Maximum Upthrust ထက် ကျော်လွန်နေသောကြောင့်",
+            "Weight Zero ရှိသောကြောင့်",
+            "ရေ ပိုများစွာ ရွှေ့ပယ်သောကြောင့်",
+            "Pressure သည် Object များကို အောက်သို့ အမြဲ တွန်းသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Pressure due to a fluid at a given depth depends on...",
+          questionMy:
+              "Depth တစ်ခုတွင် Fluid ကြောင့် Pressure သည် ...ပေါ် မှီခိုနေသည်",
+          optionsEn: [
+            "Depth, density and gravitational field strength",
+            "Only the fluid's colour",
+            "The shape of the container alone",
+            "The time the fluid has been sitting still",
+          ],
+          optionsMy: [
+            "Depth, Density နှင့် Gravitational Field Strength",
+            "Fluid ၏ အရောင်တစ်ခုတည်း",
+            "ဗန်း ပုံသဏ္ဌာန် တစ်ခုတည်း",
+            "Fluid ငြိမ်နေသော အချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A hollow ship hull floats instead of sinking because...",
+          questionMy:
+              "Hollow သင်္ဘော Hull တစ်ခု နစ်မသွားဘဲ ပေါလွင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It displaces enough water for upthrust to balance its weight",
+            "Steel naturally floats on its own",
+            "It has no weight at all",
+            "Water pressure pushes it upward directly",
+          ],
+          optionsMy: [
+            "၎င်း၏ Weight ကို Upthrust ချိန်ညှိရန် ရေလုံလောက်စွာ ရွှေ့ပယ်သောကြောင့်",
+            "သံမဏိသည် ကိုယ်ပိုင် သဘာဝအလျောက် ပေါလွင်သောကြောင့်",
+            "Weight လုံးဝ မရှိသောကြောင့်",
+            "ရေ Pressure က ၎င်းကို အထက်သို့ တိုက်ရိုက် တွန်းသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
       ],
     ),
   ],
@@ -17231,6 +17823,1170 @@ const CourseTermDef year12PhysicsTerm4 = CourseTermDef(
   weeks: [_y12PhysWeek13, _y12PhysWeek14, _y12PhysWeek15, _y12PhysWeek16],
   certificateTitleEn: "AS Physics: Forces, Density and Pressure",
   certificateTitleMy: "AS ရူပဗေဒ - Forces, Density နှင့် Pressure",
+);
+
+// =====================================================================
+// YEAR 12 PHYSICS -- Term 5: "Work, Energy and Power"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Work Done and Energy Conversion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek17 = CourseWeekDef(
+  id: "course-y12-phys-w17",
+  weekNumber: 17,
+  titleEn: "Work Done and Energy Conversion",
+  titleMy: "Work Done နှင့် Energy Conversion",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w17-d1",
+      dayNumber: 1,
+      titleEn: "Work Done Formulas",
+      titleMy: "Work Done ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Work done by a force is defined as...",
+          questionMy: "Force တစ်ခု၏ Work Done ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Force x displacement in the direction of the force",
+            "Force x time for which it acts",
+            "Force divided by displacement",
+            "Mass x displacement",
+          ],
+          optionsMy: [
+            "Force x Force ဦးတည်ရာရှိ Displacement",
+            "Force x ၎င်း သက်ရောက်ချိန်",
+            "Force ကို Displacement ဖြင့် စားခြင်း",
+            "Mass x Displacement",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force of 50 N pushes a box 4 m across a floor, in the direction of the force. The work done is...",
+          questionMy:
+              "Force 50 N သည် Box တစ်ခုကို Force ဦးတည်ရာအတိုင်း ကြမ်းပြင်ပေါ် 4 m တွန်းသည်။ Work Done မှာ...",
+          optionsEn: ["200 J", "54 J", "12.5 J", "200 N"],
+          optionsMy: ["200 J", "54 J", "12.5 J", "200 N"],
+          correctIndex: 0,
+          hintsEn: ["Work done = force x displacement = 50 x 4 = 200 J."],
+          hintsMy: ["Work Done = Force x Displacement = 50 x 4 = 200 J ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force of 30 N acts at an angle of 60° to a 5 m displacement. The work done is...",
+          questionMy:
+              "Force 30 N သည် Displacement 5 m နှင့် Angle 60° တွင် သက်ရောက်သည်။ Work Done မှာ...",
+          optionsEn: ["75 J", "150 J", "30 J", "5 J"],
+          optionsMy: ["75 J", "150 J", "30 J", "5 J"],
+          correctIndex: 0,
+          hintsEn: [
+            "Work done = Fs cosθ = 30 x 5 x cos60° = 150 x 0.5 = 75 J.",
+          ],
+          hintsMy: [
+            "Work Done = Fs cosθ = 30 x 5 x cos60° = 150 x 0.5 = 75 J ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Work and Energy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Work and Energy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w17-dm-1",
+          termEn: "Joule (J)",
+          termMy: "Joule (J)",
+          matchEn:
+              "The SI unit of work and energy, equal to a force of 1 N moving something 1 m",
+          matchMy:
+              "Work နှင့် Energy ၏ SI ယူနစ်၊ Force 1 N သည် တစ်စုံတစ်ခုကို 1 m ရွှေ့ခြင်းနှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w17-dm-2",
+          termEn: "Work done",
+          termMy: "Work Done",
+          matchEn:
+              "Force multiplied by displacement in the direction of the force",
+          matchMy: "Force ကို Force ဦးတည်ရာရှိ Displacement ဖြင့် မြှောက်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w17-dm-3",
+          termEn: "Energy conversion",
+          termMy: "Energy Conversion",
+          matchEn:
+              "Changing energy from one form into another, e.g. chemical to kinetic",
+          matchMy:
+              "Energy ကို ပုံစံတစ်ခုမှ အခြားတစ်ခုသို့ ပြောင်းလဲခြင်း၊ ဥပမာ Chemical မှ Kinetic သို့",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w17-dm-4",
+          termEn: "Conservation of energy",
+          termMy: "Conservation of Energy",
+          matchEn:
+              "Energy cannot be created or destroyed, only transferred or converted between forms",
+          matchMy:
+              "Energy ကို ဖန်တီး၍ (သို့) ဖျက်ဆီး၍ မရပါ၊ ပုံစံများကြား လွှဲပြောင်း (သို့) ပြောင်းလဲနိုင်သည်သာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w17-dm-5",
+          termEn: "Zero work",
+          termMy: "Zero Work",
+          matchEn:
+              "Done when a force acts with no displacement, or perpendicular to the displacement",
+          matchMy:
+              "Force သည် Displacement မရှိဘဲ (သို့) Displacement ကို Perpendicular ဖြစ်စွာ သက်ရောက်ချိန် ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Work Is Done or Not?",
+      titleMy: "စီစစ်ကြမည် - Work လုပ်ဆောင်သလား၊ မလုပ်ဆောင်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Work Is Done", "No Work Is Done"],
+        bucketsMy: ["Work လုပ်ဆောင်သည်", "Work လုပ်ဆောင်ခြင်း မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "y12phys-w17-sort-1",
+            labelEn: "Pushing a shopping trolley forward across a level floor",
+            labelMy:
+                "ဈေးဝယ် Trolley ကို ညီညာသော ကြမ်းပြင်ပေါ် ရှေ့သို့ တွန်းခြင်း",
+            correctBucketEn: "Work Is Done",
+            correctBucketMy: "Work လုပ်ဆောင်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w17-sort-2",
+            labelEn: "Holding a heavy box stationary above your head",
+            labelMy:
+                "လေးလံသော Box ကို ခေါင်းအထက်တွင် ငြိမ်သက်စွာ ကိုင်ထားခြင်း",
+            correctBucketEn: "No Work Is Done",
+            correctBucketMy: "Work လုပ်ဆောင်ခြင်း မရှိပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w17-sort-3",
+            labelEn:
+                "Carrying a bag at constant height while walking horizontally",
+            labelMy:
+                "အလျားလိုက် လမ်းလျှောက်နေစဉ် အိတ်ကို အမြင့် တူညီစွာ သယ်ဆောင်ခြင်း",
+            correctBucketEn: "No Work Is Done",
+            correctBucketMy: "Work လုပ်ဆောင်ခြင်း မရှိပါ",
+          ),
+          SortingItem(
+            id: "y12phys-w17-sort-4",
+            labelEn: "Lifting a box straight up off the floor",
+            labelMy: "Box ကို ကြမ်းပြင်မှ တည့်တည့် အထက်သို့ မြှောက်တင်ခြင်း",
+            correctBucketEn: "Work Is Done",
+            correctBucketMy: "Work လုပ်ဆောင်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w17-sort-5",
+            labelEn:
+                "A satellite moving in a circular orbit, pulled by gravity toward Earth's centre",
+            labelMy:
+                "Gravity က ကမ္ဘာ့ဗဟိုသို့ ဆွဲငင်ခံရသော စက်ဝိုင်း Orbit တွင် ရွေ့လျားနေသော Satellite",
+            correctBucketEn: "No Work Is Done",
+            correctBucketMy: "Work လုပ်ဆောင်ခြင်း မရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating the Work Done Pulling a Sled",
+      titleMy: "စာဖတ်ခြင်း - Sled ဆွဲငင်ခြင်း၏ Work Done ကို တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating the Work Done Pulling a Sled",
+        titleMy: "Sled ဆွဲငင်ခြင်း၏ Work Done ကို တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min Htet set his class a work-done problem: a rope pulls a sled across level snow with a tension of 80 N, held at an angle of 60° above the horizontal, and the sled is dragged 15 m along the ground. He asked them to find the work done by the rope on the sled.\n\nHnin Wut Yee began by identifying which component of the force actually does work: since the sled's displacement is entirely horizontal, only the horizontal component of the tension -- the component in the direction of the displacement -- contributes to the work done. Using W = Fs cosθ, where θ is the angle between the force and the displacement: W = 80 x 15 x cos60° = 1200 x 0.5 = 600 J.\n\nSayar Zaw Min Htet then asked why the vertical component of the tension, which does lift the sled slightly and reduce its weight pressing down on the snow, contributes nothing to this work calculation. Hnin Wut Yee reasoned it through: work is only done in the direction an object actually moves, and since the sled has zero displacement vertically, the vertical component of the force -- however large -- multiplies by a displacement of zero, giving zero work, exactly as cosθ builds a perpendicular force component's zero contribution directly into the formula. He then extended the problem: if the sled's driver pulled harder, increasing the tension to 100 N at the same 60° angle over the same 15 m, the work done would become W = 100 x 15 x cos60° = 1500 x 0.5 = 750 J -- work done scales directly with the force's magnitude, as long as the angle and displacement stay the same.",
+        passageMy:
+            "Sayar ဇော်မင်းထက်သည် သူ၏ အတန်းကို Work-Done ပြဿနာတစ်ခု ပေးခဲ့သည် - ကြိုးတစ်ချောင်းသည် Sled တစ်ခုကို ညီညာသော နှင်းပေါ်တွင် Tension 80 N ဖြင့် Horizontal အထက် 60° Angle တွင် ကိုင်ဆွဲကာ Sled ကို မြေပြင်တလျှောက် 15 m ဆွဲငင်သွားသည်။ Sled ပေါ်ရှိ ကြိုး၏ Work Done ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nHnin Wut Yee သည် Force ၏ မည်သည့် Component က တကယ် Work လုပ်သည်ကို ဖော်ထုတ်ခြင်းမှ စတင်ခဲ့သည် - Sled ၏ Displacement သည် လုံးဝ Horizontal ဖြစ်သောကြောင့် Tension ၏ Horizontal Component -- Displacement ဦးတည်ရာရှိ Component -- တစ်ခုတည်းသာ Work Done တွင် ပါဝင်သည်။ W = Fs cosθ ကို အသုံးပြု၍ (θ သည် Force နှင့် Displacement ကြား Angle ဖြစ်သည်) - W = 80 x 15 x cos60° = 1200 x 0.5 = 600 J ။\n\nSled ကို အနည်းငယ် မြှောက်တင်ပေးပြီး နှင်းပေါ် ဖိအားလျှော့ချပေးသော Tension ၏ Vertical Component သည် ဤ Work တွက်ချက်မှုတွင် အဘယ့်ကြောင့် ဘာမျှ မထည့်သွင်းသနည်းဟု Sayar ဇော်မင်းထက် ထို့နောက် မေးမြန်းခဲ့သည်။ Hnin Wut Yee သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Object တစ်ခု တကယ် ရွေ့လျားသော ဦးတည်ရာတွင်သာ Work လုပ်ဆောင်ပြီး Sled သည် Vertical အနေအထားတွင် Displacement Zero ရှိသောကြောင့် Force ၏ Vertical Component သည် မည်မျှပင် ကြီးမားစေ Displacement Zero နှင့် မြှောက်လိုက်ချိန် Work Zero ကို ပေးသည်၊ cosθ သည် Perpendicular Force Component ၏ Zero Contribution ကို Formula ထဲသို့ တိုက်ရိုက် တည်ဆောက်ပေးသကဲ့သို့ တိတိကျကျ ဖြစ်သည်။ ထို့နောက် သူသည် ပြဿနာကို ချဲ့ထွင်ခဲ့သည် - Sled ယာဉ်မောင်းသူသည် ပို၍ ပြင်းထန်စွာ ဆွဲပြီး Tension ကို 60° Angle တူညီအောက် 15 m အကွာတူညီအပေါ် 100 N သို့ တိုးမြှင့်ပါက Work Done သည် W = 100 x 15 x cos60° = 1500 x 0.5 = 750 J ဖြစ်လာလိမ့်မည် -- Angle နှင့် Displacement တူညီနေသရွေ့ Work Done သည် Force ၏ Magnitude နှင့် တိုက်ရိုက် အချိုးကျသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the work done by the 80 N tension?",
+            questionMy: "Tension 80 N ၏ Work Done ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["600 J", "1200 J", "80 J", "15 J"],
+            optionsMy: ["600 J", "1200 J", "80 J", "15 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the vertical component of the tension contribute nothing to the work done?",
+            questionMy:
+                "Tension ၏ Vertical Component သည် Work Done တွင် အဘယ့်ကြောင့် ဘာမျှ မထည့်သွင်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sled has zero displacement in the vertical direction",
+              "The tension is always zero vertically",
+              "Snow has no friction at all",
+              "The horizontal component is always larger",
+            ],
+            optionsMy: [
+              "Sled သည် Vertical ဦးတည်ရာတွင် Displacement Zero ရှိသည်",
+              "Tension သည် Vertical တွင် အမြဲ Zero ဖြစ်သည်",
+              "နှင်းတွင် Friction လုံးဝ မရှိပါ",
+              "Horizontal Component သည် အမြဲ ပိုကြီးသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the work done if the tension increases to 100 N?",
+            questionMy:
+                "Tension သည် 100 N သို့ တိုးမြှင့်ပါက Work Done ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["750 J", "600 J", "1500 J", "100 J"],
+            optionsMy: ["750 J", "600 J", "1500 J", "100 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final calculation in the passage."],
+            hintsMy: ["စာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Work Done",
+      titleMy: "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Work Done",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Work done is calculated as...",
+          questionMy: "Work Done ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Force x displacement in the direction of the force",
+            "Force x time",
+            "Mass x velocity",
+            "Force divided by mass",
+          ],
+          optionsMy: [
+            "Force x Force ဦးတည်ရာရှိ Displacement",
+            "Force x Time",
+            "Mass x Velocity",
+            "Force ကို Mass ဖြင့် စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force acting perpendicular to an object's displacement does...",
+          questionMy:
+              "Object တစ်ခု၏ Displacement ကို Perpendicular ဖြစ်စွာ သက်ရောက်သော Force သည်...",
+          optionsEn: [
+            "Zero work",
+            "Maximum work",
+            "Negative work always",
+            "Twice the normal work",
+          ],
+          optionsMy: [
+            "Work Zero",
+            "Work Maximum",
+            "Work Negative အမြဲ",
+            "ပုံမှန် Work ၏ နှစ်ဆ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force of 20 N moves an object 3 m in the direction of the force. The work done is...",
+          questionMy:
+              "Force 20 N သည် Object တစ်ခုကို Force ဦးတည်ရာအတိုင်း 3 m ရွှေ့သည်။ Work Done မှာ...",
+          optionsEn: ["60 J", "23 J", "6.7 J", "60 N"],
+          optionsMy: ["60 J", "23 J", "6.7 J", "60 N"],
+          correctIndex: 0,
+          hintsEn: ["Work done = force x displacement = 20 x 3 = 60 J."],
+          hintsMy: ["Work Done = Force x Displacement = 20 x 3 = 60 J ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "Kinetic Energy and Gravitational Potential Energy"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek18 = CourseWeekDef(
+  id: "course-y12-phys-w18",
+  weekNumber: 18,
+  titleEn: "Kinetic Energy and Gravitational Potential Energy",
+  titleMy: "Kinetic Energy နှင့် Gravitational Potential Energy",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w18-d1",
+      dayNumber: 1,
+      titleEn: "Kinetic and Gravitational Potential Energy Formulas",
+      titleMy: "Kinetic နှင့် Gravitational Potential Energy ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The kinetic energy of a moving object is given by...",
+          questionMy:
+              "ရွေ့လျားနေသော Object တစ်ခု၏ Kinetic Energy ကို ဖော်ပြသည်မှာ...",
+          optionsEn: ["½mv²", "mgh", "mv", "½mv"],
+          optionsMy: ["½mv²", "mgh", "mv", "½mv"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A 2 kg object moves at 3 m s⁻¹. Its kinetic energy is...",
+          questionMy:
+              "Mass 2 kg Object သည် 3 m s⁻¹ ဖြင့် ရွေ့လျားသည်။ ၎င်း၏ Kinetic Energy မှာ...",
+          optionsEn: ["9 J", "6 J", "18 J", "4.5 J"],
+          optionsMy: ["9 J", "6 J", "18 J", "4.5 J"],
+          correctIndex: 0,
+          hintsEn: ["KE = ½mv² = ½ x 2 x 3² = ½ x 2 x 9 = 9 J."],
+          hintsMy: ["KE = ½mv² = ½ x 2 x 3² = ½ x 2 x 9 = 9 J ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A 5 kg object is raised through a height of 4 m. Its gravitational potential energy gained is...",
+          questionMy:
+              "Mass 5 kg Object ကို Height 4 m အထိ မြှောက်တင်သည်။ ရရှိသော Gravitational Potential Energy မှာ...",
+          optionsEn: ["196.2 J", "20 J", "9.81 J", "49.05 J"],
+          optionsMy: ["196.2 J", "20 J", "9.81 J", "49.05 J"],
+          correctIndex: 0,
+          hintsEn: ["GPE = mgh = 5 x 9.81 x 4 = 196.2 J."],
+          hintsMy: ["GPE = mgh = 5 x 9.81 x 4 = 196.2 J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Energy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Energy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w18-dm-1",
+          termEn: "Kinetic energy",
+          termMy: "Kinetic Energy",
+          matchEn:
+              "Energy an object possesses due to its motion, equal to ½mv²",
+          matchMy:
+              "Object တစ်ခု၏ ရွေ့လျားမှုကြောင့် ပိုင်ဆိုင်သော Energy၊ ½mv² နှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w18-dm-2",
+          termEn: "Gravitational potential energy",
+          termMy: "Gravitational Potential Energy",
+          matchEn:
+              "Energy an object possesses due to its position in a gravitational field, equal to mgh",
+          matchMy:
+              "Gravitational Field ရှိ Object တစ်ခု၏ Position ကြောင့် ပိုင်ဆိုင်သော Energy၊ mgh နှင့် ညီမျှသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w18-dm-3",
+          termEn: "Elastic potential energy",
+          termMy: "Elastic Potential Energy",
+          matchEn: "Energy stored in a stretched or compressed spring",
+          matchMy:
+              "ဆန့်ထားသော (သို့) ချုံ့ထားသော Spring တစ်ခုတွင် သိုလှောင်ထားသော Energy",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w18-dm-4",
+          termEn: "Work-energy theorem",
+          termMy: "Work-Energy Theorem",
+          matchEn:
+              "The work done on an object equals its change in kinetic energy",
+          matchMy:
+              "Object တစ်ခုပေါ် Work Done သည် ၎င်း၏ Kinetic Energy ပြောင်းလဲမှုနှင့် ညီမျှသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w18-dm-5",
+          termEn: "Energy transfer",
+          termMy: "Energy Transfer",
+          matchEn:
+              "Moving energy from one store or object to another without necessarily changing its form",
+          matchMy:
+              "Energy ကို ပုံစံ မပြောင်းလဲဘဲ သိုလှောင်မှု (သို့) Object တစ်ခုမှ အခြားတစ်ခုသို့ ရွှေ့ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Kinetic Energy Increasing or Decreasing?",
+      titleMy: "စီစစ်ကြမည် - Kinetic Energy တိုးလား၊ လျော့လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Kinetic Energy Increasing", "Kinetic Energy Decreasing"],
+        bucketsMy: ["Kinetic Energy တိုးနေသည်", "Kinetic Energy လျော့နေသည်"],
+        items: [
+          SortingItem(
+            id: "y12phys-w18-sort-1",
+            labelEn: "A ball falling freely under gravity",
+            labelMy: "Gravity အောက် လွတ်လပ်စွာ ကျနေသော ဘောလုံး",
+            correctBucketEn: "Kinetic Energy Increasing",
+            correctBucketMy: "Kinetic Energy တိုးနေသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w18-sort-2",
+            labelEn: "A car braking to a stop",
+            labelMy: "ရပ်ရန် Brake နှိပ်နေသော ကား",
+            correctBucketEn: "Kinetic Energy Decreasing",
+            correctBucketMy: "Kinetic Energy လျော့နေသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w18-sort-3",
+            labelEn: "A rocket accelerating upward after launch",
+            labelMy: "Launch ပြီးနောက် အထက်သို့ Accelerate ဖြစ်နေသော Rocket",
+            correctBucketEn: "Kinetic Energy Increasing",
+            correctBucketMy: "Kinetic Energy တိုးနေသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w18-sort-4",
+            labelEn:
+                "A skydiver just after opening their parachute, decelerating",
+            labelMy: "Parachute ဖွင့်ပြီးနောက် Decelerate ဖြစ်နေသော Skydiver",
+            correctBucketEn: "Kinetic Energy Decreasing",
+            correctBucketMy: "Kinetic Energy လျော့နေသည်",
+          ),
+          SortingItem(
+            id: "y12phys-w18-sort-5",
+            labelEn: "A roller coaster car speeding up going downhill",
+            labelMy:
+                "တောင်ကုန်းအောက်သို့ အမြန်နှုန်းတိုးနေသော Roller Coaster Car",
+            correctBucketEn: "Kinetic Energy Increasing",
+            correctBucketMy: "Kinetic Energy တိုးနေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Predicting a Roller Coaster's Speed",
+      titleMy: "စာဖတ်ခြင်း - Roller Coaster ၏ အမြန်နှုန်း ခန့်မှန်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn:
+            "Predicting a Roller Coaster's Speed at the Bottom of the First Drop",
+        titleMy:
+            "Roller Coaster ပထမ Drop အောက်ခြေရှိ အမြန်နှုန်း ခန့်မှန်းခြင်း",
+        passageEn:
+            "Sayama Ei Shwe Sin asked her class to predict the speed of a roller coaster car at the bottom of its first drop, given that the drop's height is 20 m and assuming friction and air resistance are negligible. She reminded them that, on a frictionless track, all of the gravitational potential energy lost during the drop converts entirely into kinetic energy.\n\nKyaw Zin Latt set up the energy conservation equation: GPE lost = KE gained, so mgh = ½mv², where m is the coaster car's mass (including passengers), g = 9.81 m s⁻², h = 20 m, and v is the speed at the bottom. He noticed something useful before substituting any numbers: the mass m appears on both sides of the equation, so it cancels out completely, leaving gh = ½v², or v² = 2gh.\n\nSubstituting the given values: v² = 2 x 9.81 x 20 = 392.4, so v = √392.4 = 19.8 m s⁻¹ (to 3 significant figures). Sayama Ei Shwe Sin then asked why this result doesn't depend on the mass of the coaster car at all -- whether it carries two passengers or eight. Kyaw Zin Latt explained that both kinetic energy and gravitational potential energy are directly proportional to mass, so any change in mass scales both sides of the energy equation by exactly the same factor, leaving the predicted speed unchanged. This is the same reason a heavier and a lighter object, dropped from the same height with no air resistance, hit the ground at the same speed -- a result Galileo is said to have demonstrated centuries before roller coasters existed.",
+        passageMy:
+            "Roller Coaster Car တစ်စင်း၏ ပထမ Drop အောက်ခြေရှိ အမြန်နှုန်းကို ခန့်မှန်းရန် Sayama Ei Shwe Sin သည် သူမ၏ အတန်းကို Drop ၏ Height 20 m ဖြစ်ပြီး Friction နှင့် Air Resistance ကို လျစ်လျူရှုနိုင်သည်ဟု ယူဆကာ မေးမြန်းခဲ့သည်။ Friction မရှိသော Track ပေါ်တွင် Drop အတွင်း ဆုံးရှုံးသွားသော Gravitational Potential Energy အားလုံးသည် Kinetic Energy အဖြစ် လုံးဝ ပြောင်းလဲသွားကြောင်း သူမ သတိပေးခဲ့သည်။\n\nKyaw Zin Latt သည် Energy Conservation Equation ကို တည်ဆောက်ခဲ့သည် - GPE ဆုံးရှုံးမှု = KE ရရှိမှု၊ ထို့ကြောင့် mgh = ½mv² ဖြစ်ပြီး m သည် Coaster Car ၏ Mass (ခရီးသည်များ အပါအဝင်)၊ g = 9.81 m s⁻²၊ h = 20 m နှင့် v သည် အောက်ခြေရှိ Speed ဖြစ်သည်။ ဂဏန်းများ အစားထိုးမီ အသုံးဝင်သော အချက်တစ်ခုကို သူ သတိပြုမိခဲ့သည် - Mass m သည် Equation ၏ ဘက်နှစ်ဖက်စလုံးတွင် ပေါ်လာသောကြောင့် လုံးဝ ချေဖျက်သွားပြီး gh = ½v² သို့မဟုတ် v² = 2gh ကျန်ရစ်သည်။\n\nပေးထားသော တန်ဖိုးများကို အစားထိုးခြင်း - v² = 2 x 9.81 x 20 = 392.4 ဖြစ်သောကြောင့် v = √392.4 = 19.8 m s⁻¹ (Significant Figures ၃ ခုအထိ)။ ဤရလဒ်သည် ခရီးသည် နှစ်ဦး (သို့) ရှစ်ဦး ပါဝင်စေ Coaster Car ၏ Mass ပေါ် လုံးဝ အဘယ့်ကြောင့် မမှီခိုသည်ကို Sayama Ei Shwe Sin ထို့နောက် မေးမြန်းခဲ့သည်။ Kinetic Energy နှင့် Gravitational Potential Energy နှစ်ခုစလုံးသည် Mass နှင့် တိုက်ရိုက် အချိုးကျသောကြောင့် Mass ပြောင်းလဲမှု မည်သည့်တစ်ခုမဆို Energy Equation ၏ ဘက်နှစ်ဖက်စလုံးကို အချက်တူညီစွာ ချိန်ညှိသွားပြီး ခန့်မှန်းထားသော Speed ကို မပြောင်းလဲစေကြောင်း Kyaw Zin Latt ရှင်းပြခဲ့သည်။ ၎င်းသည် Air Resistance မရှိဘဲ အမြင့်တူညီမှ ကျချလိုက်သော ပိုလေးသော Object နှင့် ပိုပေါ့သော Object တို့ မြေပြင်ကို အမြန်နှုန်းတူညီစွာ ထိမိသည့် အကြောင်းရင်း တူညီဖြစ်သည် -- Roller Coaster မတည်ရှိမီ ရာစုနှစ်များ ကြာအောင် Galileo စမ်းသပ်ပြခဲ့သည်ဟု ဆိုကြသော ရလဒ်တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the height of the drop?",
+            questionMy: "Drop ၏ Height ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["20 m", "9.81 m", "19.8 m", "392.4 m"],
+            optionsMy: ["20 m", "9.81 m", "19.8 m", "392.4 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the coaster car's speed at the bottom of the drop?",
+            questionMy:
+                "Drop အောက်ခြေရှိ Coaster Car ၏ Speed ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["19.8 m s⁻¹", "392.4 m s⁻¹", "9.81 m s⁻¹", "20 m s⁻¹"],
+            optionsMy: ["19.8 m s⁻¹", "392.4 m s⁻¹", "9.81 m s⁻¹", "20 m s⁻¹"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why doesn't the predicted speed depend on the coaster car's mass?",
+            questionMy:
+                "ခန့်မှန်းထားသော Speed သည် Coaster Car ၏ Mass ပေါ် အဘယ့်ကြောင့် မမှီခိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Mass appears on both sides of the energy equation and cancels out",
+              "The coaster car has no mass at all",
+              "Friction removes all the mass-dependence",
+              "The track is perfectly horizontal",
+            ],
+            optionsMy: [
+              "Mass သည် Energy Equation ၏ ဘက်နှစ်ဖက်စလုံးတွင် ပေါ်လာပြီး ချေဖျက်သွားသည်",
+              "Coaster Car တွင် Mass လုံးဝ မရှိပါ",
+              "Friction က Mass-Dependence အားလုံးကို ဖယ်ရှားပေးသည်",
+              "Track သည် အပြည့်အစုံ Horizontal ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Kinetic and Gravitational Potential Energy",
+      titleMy:
+          "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Kinetic နှင့် Gravitational Potential Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Kinetic energy is calculated using...",
+          questionMy: "Kinetic Energy ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["½mv²", "mgh", "Fs", "mv"],
+          optionsMy: ["½mv²", "mgh", "Fs", "mv"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Gravitational potential energy gained is calculated using...",
+          questionMy:
+              "ရရှိသော Gravitational Potential Energy ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["mgh", "½mv²", "Fs", "mv"],
+          optionsMy: ["mgh", "½mv²", "Fs", "mv"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A 1 kg object falls freely from rest through 5 m. Its kinetic energy at that point is...",
+          questionMy:
+              "Mass 1 kg Object သည် Rest မှ 5 m အထိ လွတ်လပ်စွာ ကျသည်။ ထိုနေရာရှိ Kinetic Energy မှာ...",
+          optionsEn: ["49.05 J", "5 J", "9.81 J", "1 J"],
+          optionsMy: ["49.05 J", "5 J", "9.81 J", "1 J"],
+          correctIndex: 0,
+          hintsEn: ["GPE lost = KE gained: mgh = 1 x 9.81 x 5 = 49.05 J."],
+          hintsMy: [
+            "GPE ဆုံးရှုံးမှု = KE ရရှိမှု: mgh = 1 x 9.81 x 5 = 49.05 J ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Power and Efficiency"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek19 = CourseWeekDef(
+  id: "course-y12-phys-w19",
+  weekNumber: 19,
+  titleEn: "Power and Efficiency",
+  titleMy: "Power နှင့် Efficiency",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w19-d1",
+      dayNumber: 1,
+      titleEn: "Power Formulas",
+      titleMy: "Power ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Power is defined as...",
+          questionMy: "Power ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The rate at which work is done or energy is transferred",
+            "The total work done, regardless of time",
+            "Force multiplied by displacement",
+            "Mass multiplied by velocity",
+          ],
+          optionsMy: [
+            "Work ပြုလုပ်ခြင်း (သို့) Energy ကူးပြောင်းခြင်း၏ နှုန်း",
+            "Time မည်သို့ပင်ရှိစေ Work Done စုစုပေါင်း",
+            "Force ကို Displacement ဖြင့် မြှောက်ခြင်း",
+            "Mass ကို Velocity ဖြင့် မြှောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A machine does 500 J of work in 10 s. Its power output is...",
+          questionMy:
+              "စက်ယန္တရားတစ်ခုသည် Second 10 အတွင်း Work 500 J ပြုလုပ်သည်။ ၎င်း၏ Power Output မှာ...",
+          optionsEn: ["50 W", "5000 W", "510 W", "5 W"],
+          optionsMy: ["50 W", "5000 W", "510 W", "5 W"],
+          correctIndex: 0,
+          hintsEn: ["Power = work / time = 500 / 10 = 50 W."],
+          hintsMy: ["Power = Work / Time = 500 / 10 = 50 W ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A force of 200 N moves an object at a constant velocity of 3 m s⁻¹. The power delivered is...",
+          questionMy:
+              "Force 200 N သည် Object တစ်ခုကို Constant Velocity 3 m s⁻¹ ဖြင့် ရွှေ့သည်။ ပေးအပ်သော Power မှာ...",
+          optionsEn: ["600 W", "203 W", "66.7 W", "600 J"],
+          optionsMy: ["600 W", "203 W", "66.7 W", "600 J"],
+          correctIndex: 0,
+          hintsEn: ["Power = force x velocity = 200 x 3 = 600 W."],
+          hintsMy: ["Power = Force x Velocity = 200 x 3 = 600 W ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Power and Efficiency Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Power and Efficiency ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w19-dm-1",
+          termEn: "Watt (W)",
+          termMy: "Watt (W)",
+          matchEn: "The SI unit of power, equal to one joule per second",
+          matchMy:
+              "Power ၏ SI ယူနစ်၊ Second တစ်ခုလျှင် Joule တစ်ခုနှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w19-dm-2",
+          termEn: "Power",
+          termMy: "Power",
+          matchEn: "The rate at which work is done or energy is transferred",
+          matchMy: "Work ပြုလုပ်ခြင်း (သို့) Energy ကူးပြောင်းခြင်း၏ နှုန်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w19-dm-3",
+          termEn: "Efficiency",
+          termMy: "Efficiency",
+          matchEn:
+              "The ratio of useful energy output to total energy input, often expressed as a percentage",
+          matchMy:
+              "Useful Energy Output ကို Total Energy Input ဖြင့် စားသော အချိုး၊ ရာခိုင်နှုန်းအဖြစ် အများအားဖြင့် ဖော်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w19-dm-4",
+          termEn: "Wasted energy",
+          termMy: "Wasted Energy",
+          matchEn:
+              "Energy transferred to a form that is not useful for the intended purpose, often as heat",
+          matchMy:
+              "ရည်ရွယ်ထားသော ရည်ရွယ်ချက်အတွက် အသုံးမဝင်သော ပုံစံသို့ ကူးပြောင်းသွားသော Energy၊ အများအားဖြင့် အပူအဖြစ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w19-dm-5",
+          termEn: "Useful output energy",
+          termMy: "Useful Output Energy",
+          matchEn:
+              "The portion of input energy converted into the intended, useful form",
+          matchMy:
+              "ရည်ရွယ်ထားသော Useful ပုံစံသို့ ပြောင်းလဲသွားသော Input Energy ၏ အစိတ်အပိုင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: High or Low Efficiency?",
+      titleMy: "စီစစ်ကြမည် - Efficiency မြင့်လား၊ နိမ့်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Relatively High Efficiency", "Relatively Low Efficiency"],
+        bucketsMy: [
+          "Efficiency ခန့်မှန်းခြေ မြင့်သည်",
+          "Efficiency ခန့်မှန်းခြေ နိမ့်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12phys-w19-sort-1",
+            labelEn: "An LED light bulb",
+            labelMy: "LED မီးလုံး",
+            correctBucketEn: "Relatively High Efficiency",
+            correctBucketMy: "Efficiency ခန့်မှန်းခြေ မြင့်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w19-sort-2",
+            labelEn: "An old incandescent filament bulb",
+            labelMy: "အဟောင်း Incandescent Filament မီးလုံး",
+            correctBucketEn: "Relatively Low Efficiency",
+            correctBucketMy: "Efficiency ခန့်မှန်းခြေ နိမ့်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w19-sort-3",
+            labelEn:
+                "An electric motor converting electrical energy to kinetic energy",
+            labelMy:
+                "Electrical Energy ကို Kinetic Energy သို့ ပြောင်းလဲသော Electric Motor",
+            correctBucketEn: "Relatively High Efficiency",
+            correctBucketMy: "Efficiency ခန့်မှန်းခြေ မြင့်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w19-sort-4",
+            labelEn:
+                "A petrol car engine, which loses much of its input energy as heat",
+            labelMy:
+                "Input Energy ၏ များစွာကို အပူအဖြစ် ဆုံးရှုံးသော ဓာတ်ဆီ ကား အင်ဂျင်",
+            correctBucketEn: "Relatively Low Efficiency",
+            correctBucketMy: "Efficiency ခန့်မှန်းခြေ နိမ့်သည်",
+          ),
+          SortingItem(
+            id: "y12phys-w19-sort-5",
+            labelEn: "A modern electric transformer",
+            labelMy: "ခေတ်မီ Electric Transformer",
+            correctBucketEn: "Relatively High Efficiency",
+            correctBucketMy: "Efficiency ခန့်မှန်းခြေ မြင့်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating a Crane Motor's Efficiency",
+      titleMy: "စာဖတ်ခြင်း - Crane Motor ၏ Efficiency ကို တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating a Crane Motor's Efficiency",
+        titleMy: "Crane Motor ၏ Efficiency ကို တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayar Wai Yan Aung set his class an efficiency problem based on a construction site crane: the crane's electric motor draws an input electrical power of 2000 W, and in 5 seconds it lifts a 150 kg load through a height of 6 m at a steady speed. He asked them to find the motor's efficiency.\n\nThiri Nandar started with the useful energy output -- the gravitational potential energy actually gained by the load: GPE gained = mgh = 150 x 9.81 x 6 = 8829 J. This is the only part of the motor's energy output that does the intended job of lifting the load; any energy not accounted for here is being wasted, mostly as heat in the motor's internal resistance and as sound.\n\nNext, she calculated the total electrical energy supplied to the motor over the same 5 seconds, using energy = power x time: total input energy = 2000 x 5 = 10000 J. Efficiency is then the useful output energy divided by the total input energy, expressed as a percentage: efficiency = (8829 / 10000) x 100% = 88.29%, or 88.3% to 3 significant figures.\n\nSayar Wai Yan Aung then asked why real motors are never 100% efficient, even well-designed ones. Thiri Nandar explained that some energy is always dissipated as heat due to electrical resistance in the motor's windings, and some is lost to friction in its moving mechanical parts -- both are unavoidable consequences of using real materials and real bearings, not flaws unique to this particular crane, which is why engineers describe 88.3% as a genuinely good efficiency for an electric motor doing mechanical work.",
+        passageMy:
+            "Sayar Wai Yan Aung သည် Construction Site Crane တစ်ခုအပေါ် အခြေခံသော Efficiency ပြဿနာတစ်ခုကို သူ၏ အတန်းကို ပေးခဲ့သည် - Crane ၏ Electric Motor သည် Input Electrical Power 2000 W ကို ဆွဲယူပြီး 5 Seconds အတွင်း Mass 150 kg Load ကို တည်ငြိမ်သော Speed ဖြင့် Height 6 m အထိ မြှောက်တင်သည်။ Motor ၏ Efficiency ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nThiri Nandar သည် Useful Energy Output -- Load က တကယ် ရရှိသော Gravitational Potential Energy -- ဖြင့် စတင်ခဲ့သည် - GPE ရရှိမှု = mgh = 150 x 9.81 x 6 = 8829 J ။ ၎င်းသည် Load ကို မြှောက်တင်ရန် ရည်ရွယ်ချက် လုပ်ငန်းကို လုပ်ဆောင်သော Motor ၏ Energy Output ၏ တစ်ခုတည်းသော အစိတ်အပိုင်း ဖြစ်ပြီး ဤနေရာတွင် မတွက်ချက်ရသေးသော Energy မည်သည့်တစ်ခုမဆို Motor ၏ Internal Resistance ရှိ အပူနှင့် အသံအဖြစ် အများစု ဖြုန်းတီးနေခြင်း ဖြစ်သည်။\n\nထို့နောက် သူမသည် Energy = Power x Time ကို အသုံးပြု၍ Second 5 တူညီအတွင်း Motor သို့ ပေးထားသော စုစုပေါင်း Electrical Energy ကို တွက်ချက်ခဲ့သည် - Total Input Energy = 2000 x 5 = 10000 J ။ Efficiency သည် Useful Output Energy ကို Total Input Energy ဖြင့် စား၍ ရာခိုင်နှုန်းအဖြစ် ဖော်ပြထားသည် - Efficiency = (8829 / 10000) x 100% = 88.29%၊ သို့မဟုတ် Significant Figures ၃ ခုအထိ 88.3% ။\n\nကောင်းစွာ ဒီဇိုင်းဆွဲထားသော Motor များပင် တကယ့် Motor များ 100% Efficiency အဘယ့်ကြောင့် လုံးဝ မရှိသနည်းဟု Sayar Wai Yan Aung ထို့နောက် မေးမြန်းခဲ့သည်။ Motor ၏ Winding များရှိ Electrical Resistance ကြောင့် Energy အချို့ကို အပူအဖြစ် အမြဲ ဖြုန်းတီးရပြီး ၎င်း၏ ရွေ့လျားနေသော Mechanical အစိတ်အပိုင်းများရှိ Friction ကြောင့် အချို့ကို ဆုံးရှုံးရသည် -- နှစ်ခုစလုံးသည် တကယ့် ပစ္စည်းများနှင့် တကယ့် Bearing များ အသုံးပြုခြင်း၏ မရှောင်လွှဲနိုင်သော ရလဒ်များသာ ဖြစ်ပြီး ဤ Crane တစ်ခုတည်း၏ ချို့ယွင်းချက် မဟုတ်ပါ၊ ထို့ကြောင့် Engineer များက 88.3% ကို Mechanical Work လုပ်ဆောင်နေသော Electric Motor တစ်ခုအတွက် တကယ့် ကောင်းမွန်သော Efficiency ဟု ဖော်ပြကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the gravitational potential energy gained by the load?",
+            questionMy:
+                "Load ရရှိသော Gravitational Potential Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["8829 J", "10000 J", "2000 J", "6 J"],
+            optionsMy: ["8829 J", "10000 J", "2000 J", "6 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the motor's efficiency?",
+            questionMy: "Motor ၏ Efficiency ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["88.3%", "100%", "8829%", "20%"],
+            optionsMy: ["88.3%", "100%", "8829%", "20%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why are real motors never 100% efficient?",
+            questionMy:
+                "တကယ့် Motor များ 100% Efficiency အဘယ့်ကြောင့် လုံးဝ မရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Energy is always dissipated as heat and lost to friction",
+              "Motors never actually do any useful work",
+              "The load's mass is always miscalculated",
+              "Electrical energy cannot be measured accurately",
+            ],
+            optionsMy: [
+              "Energy ကို အပူအဖြစ် အမြဲ ဖြုန်းတီးပြီး Friction ကြောင့် ဆုံးရှုံးရသည်",
+              "Motor များသည် Useful Work မည်သည့်တစ်ခုမျှ လုံးဝ မလုပ်ဆောင်ပါ",
+              "Load ၏ Mass ကို အမြဲ မှားယွင်းစွာ တွက်ချက်သည်",
+              "Electrical Energy ကို တိကျစွာ တိုင်းတာ၍ မရပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Power and Efficiency",
+      titleMy: "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Power နှင့် Efficiency",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Power is calculated as...",
+          questionMy: "Power ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Work done / time",
+            "Work done x time",
+            "Mass / time",
+            "Force x time",
+          ],
+          optionsMy: [
+            "Work Done / Time",
+            "Work Done x Time",
+            "Mass / Time",
+            "Force x Time",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Efficiency is calculated as...",
+          questionMy: "Efficiency ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "(Useful output energy / total input energy) x 100%",
+            "Total input energy alone",
+            "Power divided by mass",
+            "Time divided by energy",
+          ],
+          optionsMy: [
+            "(Useful Output Energy / Total Input Energy) x 100%",
+            "Total Input Energy တစ်ခုတည်း",
+            "Power ကို Mass ဖြင့် စားခြင်း",
+            "Time ကို Energy ဖြင့် စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A device receives 200 J of input energy and produces 150 J of useful output. Its efficiency is...",
+          questionMy:
+              "Device တစ်ခုသည် Input Energy 200 J ရရှိပြီး Useful Output 150 J ထုတ်ပေးသည်။ ၎င်း၏ Efficiency မှာ...",
+          optionsEn: ["75%", "50 J", "150%", "50%"],
+          optionsMy: ["75%", "50 J", "150%", "50%"],
+          correctIndex: 0,
+          hintsEn: ["Efficiency = (150 / 200) x 100% = 75%."],
+          hintsMy: ["Efficiency = (150 / 200) x 100% = 75% ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20: "Work, Energy and Power Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12PhysWeek20 = CourseWeekDef(
+  id: "course-y12-phys-w20",
+  weekNumber: 20,
+  titleEn: "Work, Energy and Power Capstone",
+  titleMy: "Work, Energy နှင့် Power အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-phys-w20-d1",
+      dayNumber: 1,
+      titleEn: "Combining Work, Energy and Power",
+      titleMy: "Work, Energy နှင့် Power ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A motor does 3000 J of work in 6 s. Its power output is...",
+          questionMy:
+              "Motor တစ်ခုသည် Second 6 အတွင်း Work 3000 J ပြုလုပ်သည်။ ၎င်း၏ Power Output မှာ...",
+          optionsEn: ["500 W", "3006 W", "18000 W", "50 W"],
+          optionsMy: ["500 W", "3006 W", "18000 W", "50 W"],
+          correctIndex: 0,
+          hintsEn: ["Power = work / time = 3000 / 6 = 500 W."],
+          hintsMy: ["Power = Work / Time = 3000 / 6 = 500 W ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A ball is dropped from rest and falls freely, losing gravitational potential energy. By the conservation of energy, this lost GPE converts into...",
+          questionMy:
+              "ဘောလုံးတစ်ခုကို Rest မှ ချထားပြီး လွတ်လပ်စွာ ကျကာ Gravitational Potential Energy ဆုံးရှုံးသည်။ Conservation of Energy အရ ဤ ဆုံးရှုံးသော GPE သည် ...အဖြစ် ပြောင်းလဲသည်",
+          optionsEn: [
+            "Kinetic energy",
+            "Elastic potential energy",
+            "Electrical energy",
+            "Nuclear energy",
+          ],
+          optionsMy: [
+            "Kinetic Energy",
+            "Elastic Potential Energy",
+            "Electrical Energy",
+            "Nuclear Energy",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An engine converts 5000 J of fuel energy into 3000 J of useful kinetic energy. Its efficiency is...",
+          questionMy:
+              "အင်ဂျင်တစ်ခုသည် Fuel Energy 5000 J ကို Useful Kinetic Energy 3000 J အဖြစ် ပြောင်းလဲသည်။ ၎င်း၏ Efficiency မှာ...",
+          optionsEn: ["60%", "167%", "2000%", "5000%"],
+          optionsMy: ["60%", "167%", "2000%", "5000%"],
+          correctIndex: 0,
+          hintsEn: ["Efficiency = (3000 / 5000) x 100% = 60%."],
+          hintsMy: ["Efficiency = (3000 / 5000) x 100% = 60% ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၅ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12phys-w20-dm-1",
+          termEn: "Work done = ",
+          termMy: "Work Done = ",
+          matchEn: "Fs cosθ",
+          matchMy: "Fs cosθ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12phys-w20-dm-2",
+          termEn: "Kinetic energy = ",
+          termMy: "Kinetic Energy = ",
+          matchEn: "½mv²",
+          matchMy: "½mv²",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12phys-w20-dm-3",
+          termEn: "Gravitational potential energy = ",
+          termMy: "Gravitational Potential Energy = ",
+          matchEn: "mgh",
+          matchMy: "mgh",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12phys-w20-dm-4",
+          termEn: "Power = ",
+          termMy: "Power = ",
+          matchEn: "Work done / time",
+          matchMy: "Work Done / Time",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12phys-w20-dm-5",
+          termEn: "Efficiency = ",
+          termMy: "Efficiency = ",
+          matchEn: "(Useful output energy / total input energy) x 100%",
+          matchMy: "(Useful Output Energy / Total Input Energy) x 100%",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Work/Energy or Power/Efficiency Concept?",
+      titleMy:
+          "စီစစ်ကြမည် - Work/Energy သို့မဟုတ် Power/Efficiency သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Work/Energy", "Power/Efficiency"],
+        bucketsMy: ["Work/Energy", "Power/Efficiency"],
+        items: [
+          SortingItem(
+            id: "y12phys-w20-sort-1",
+            labelEn:
+                "Work done = force x displacement in the direction of the force",
+            labelMy: "Work Done = Force x Force ဦးတည်ရာရှိ Displacement",
+            correctBucketEn: "Work/Energy",
+            correctBucketMy: "Work/Energy",
+          ),
+          SortingItem(
+            id: "y12phys-w20-sort-2",
+            labelEn:
+                "Efficiency = useful output energy / total input energy x 100%",
+            labelMy:
+                "Efficiency = Useful Output Energy / Total Input Energy x 100%",
+            correctBucketEn: "Power/Efficiency",
+            correctBucketMy: "Power/Efficiency",
+          ),
+          SortingItem(
+            id: "y12phys-w20-sort-3",
+            labelEn: "Kinetic energy = ½mv²",
+            labelMy: "Kinetic Energy = ½mv²",
+            correctBucketEn: "Work/Energy",
+            correctBucketMy: "Work/Energy",
+          ),
+          SortingItem(
+            id: "y12phys-w20-sort-4",
+            labelEn: "Power = the rate at which work is done",
+            labelMy: "Power = Work ပြုလုပ်ခြင်း၏ နှုန်း",
+            correctBucketEn: "Power/Efficiency",
+            correctBucketMy: "Power/Efficiency",
+          ),
+          SortingItem(
+            id: "y12phys-w20-sort-5",
+            labelEn: "Gravitational potential energy = mgh",
+            labelMy: "Gravitational Potential Energy = mgh",
+            correctBucketEn: "Work/Energy",
+            correctBucketMy: "Work/Energy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Designing an Electric Winch",
+      titleMy: "စာဖတ်ခြင်း - Electric Winch ဒီဇိုင်းရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Designing an Electric Winch",
+        titleMy: "Electric Winch ဒီဇိုင်းရေးဆွဲခြင်း",
+        passageEn:
+            "For their Term 5 capstone, Sayama Nay Chi Win's class combined work, energy and power into one practical engineering problem: an electric winch must lift a 200 kg load a vertical height of 8 m in 10 seconds, and the motor supplying it draws an input electrical power of 2200 W throughout the lift.\n\nSu Su Hlaing began with the work done against gravity, which equals the gravitational potential energy gained by the load: W = mgh = 200 x 9.81 x 8 = 15696 J. This is the useful output of the whole system -- the actual job the winch was built to do.\n\nNext, she found the winch's useful power output, using power = work / time: power output = 15696 / 10 = 1569.6 W. Comparing this to the electrical input power of 2200 W already shows the winch cannot be perfectly efficient, since more power is being supplied than is usefully delivered to the load.\n\nTo quantify this, Su Su Hlaing calculated the total electrical energy input over the same 10 seconds: total input energy = power x time = 2200 x 10 = 22000 J. Efficiency = (useful output energy / total input energy) x 100% = (15696 / 22000) x 100% = 71.3% (to 3 significant figures). Sayama Nay Chi Win closed the problem by asking the class to identify every quantity they had used from across the whole term: work done (from force and displacement, here expressed through mgh), gravitational potential energy, power (from energy and time), and efficiency (from useful and total energy) -- one real machine, tying every Term 5 formula together in a single calculation.",
+        passageMy:
+            "သူတို့၏ Term 5 အထွတ်အထိပ်အတွက် Sayama Nay Chi Win ၏ အတန်းသည် Work, Energy နှင့် Power ကို လက်တွေ့ အင်ဂျင်နီယာ ပြဿနာတစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ကြသည် - Electric Winch တစ်ခုသည် Mass 200 kg Load ကို Vertical Height 8 m အထိ Second 10 အတွင်း မြှောက်တင်ရမည်ဖြစ်ပြီး ၎င်းကို ပေးထားသော Motor သည် မြှောက်တင်နေချိန်တစ်လျှောက် Input Electrical Power 2200 W ကို ဆွဲယူသည်။\n\nSu Su Hlaing သည် Load က ရရှိသော Gravitational Potential Energy နှင့် ညီမျှသော Gravity အပေါ် Work Done ဖြင့် စတင်ခဲ့သည် - W = mgh = 200 x 9.81 x 8 = 15696 J ။ ၎င်းသည် System တစ်ခုလုံး၏ Useful Output -- Winch တည်ဆောက်ထားရသည့် ရည်ရွယ်ချက် လုပ်ငန်း တကယ့် -- ဖြစ်သည်။\n\nထို့နောက် သူမသည် Power = Work / Time ကို အသုံးပြု၍ Winch ၏ Useful Power Output ကို ရှာဖွေခဲ့သည် - Power Output = 15696 / 10 = 1569.6 W ။ ၎င်းကို Electrical Input Power 2200 W နှင့် နှိုင်းယှဉ်ခြင်းက Load သို့ Useful စွာ ပေးပို့နေသည်ထက် Power ပို၍ ပေးထားသောကြောင့် Winch သည် Perfect Efficiency မရှိနိုင်ကြောင်း ယခုပင် ပြသနေသည်။\n\n၎င်းကို ပမာဏ သတ်မှတ်ရန် Su Su Hlaing သည် Second 10 တူညီအတွင်း စုစုပေါင်း Electrical Energy Input ကို တွက်ချက်ခဲ့သည် - Total Input Energy = Power x Time = 2200 x 10 = 22000 J ။ Efficiency = (Useful Output Energy / Total Input Energy) x 100% = (15696 / 22000) x 100% = 71.3% (Significant Figures ၃ ခုအထိ)။ Term တစ်ခုလုံးမှ သူတို့ အသုံးပြုခဲ့သော ပမာဏ တိုင်းကို ဖော်ထုတ်ခိုင်းလျက် Sayama Nay Chi Win သည် ပြဿနာကို ပိတ်ခဲ့သည် - Work Done (Force နှင့် Displacement မှ၊ ဤနေရာတွင် mgh မှတစ်ဆင့် ဖော်ပြထားသည်)၊ Gravitational Potential Energy၊ Power (Energy နှင့် Time မှ) နှင့် Efficiency (Useful နှင့် Total Energy မှ) -- တကယ့် စက်ယန္တရားတစ်ခုတည်းသည် Term 5 ဖော်မြူလာတိုင်းကို တွက်ချက်မှု တစ်ခုတည်းတွင် ပေါင်းစည်းပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the work done against gravity?",
+            questionMy: "Gravity အပေါ် Work Done ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["15696 J", "22000 J", "1569.6 J", "2200 J"],
+            optionsMy: ["15696 J", "22000 J", "1569.6 J", "2200 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the total electrical energy input?",
+            questionMy:
+                "စုစုပေါင်း Electrical Energy Input ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["22000 J", "15696 J", "1569.6 J", "2200 J"],
+            optionsMy: ["22000 J", "15696 J", "1569.6 J", "2200 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's first calculation."],
+            hintsMy: ["စတုတ္ထစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the winch's efficiency?",
+            questionMy: "Winch ၏ Efficiency ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["71.3%", "100%", "15696%", "22%"],
+            optionsMy: ["71.3%", "100%", "15696%", "22%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's final calculation."],
+            hintsMy: [
+              "နောက်ဆုံးစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-phys-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: Work, Energy and Power",
+      titleMy: "Term ၅ အထွတ်အထိပ် - Work, Energy နှင့် Power",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Work done by a force is calculated as...",
+          questionMy: "Force တစ်ခု၏ Work Done ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Force x displacement in the direction of the force",
+            "Force x time it acts",
+            "Mass x velocity",
+            "Force divided by time",
+          ],
+          optionsMy: [
+            "Force x Force ဦးတည်ရာရှိ Displacement",
+            "Force x ၎င်း သက်ရောက်ချိန်",
+            "Mass x Velocity",
+            "Force ကို Time ဖြင့် စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Kinetic energy is calculated using...",
+          questionMy: "Kinetic Energy ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["½mv²", "mgh", "Fs", "Wt"],
+          optionsMy: ["½mv²", "mgh", "Fs", "Wt"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The efficiency of a machine is defined as...",
+          questionMy:
+              "စက်ယန္တရားတစ်ခု၏ Efficiency ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Useful output energy divided by total input energy, as a percentage",
+            "Total input energy alone",
+            "The machine's power rating alone",
+            "Work done divided by mass",
+          ],
+          optionsMy: [
+            "Useful Output Energy ကို Total Input Energy ဖြင့် စားခြင်း၊ ရာခိုင်နှုန်းအဖြစ်",
+            "Total Input Energy တစ်ခုတည်း",
+            "စက်ယန္တရား၏ Power Rating တစ်ခုတည်း",
+            "Work Done ကို Mass ဖြင့် စားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "As a ball falls freely, gravitational potential energy converts into...",
+          questionMy:
+              "ဘောလုံးတစ်ခု လွတ်လပ်စွာ ကျစဉ် Gravitational Potential Energy သည် ...အဖြစ် ပြောင်းလဲသည်",
+          optionsEn: [
+            "Kinetic energy, by the conservation of energy",
+            "Nothing -- energy simply disappears",
+            "Elastic potential energy only",
+            "Electrical energy only",
+          ],
+          optionsMy: [
+            "Kinetic Energy၊ Conservation of Energy အရ",
+            "ဘာမျှ မဟုတ်ပါ -- Energy ရိုးရိုးရှင်းရှင်း ပျောက်ကွယ်သွားသည်",
+            "Elastic Potential Energy သာ",
+            "Electrical Energy သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12PhysicsTerm5 = CourseTermDef(
+  id: "course-y12-phys-term5",
+  termNumber: 5,
+  titleEn: "Work, Energy and Power",
+  titleMy: "Work, Energy နှင့် Power",
+  weeks: [_y12PhysWeek17, _y12PhysWeek18, _y12PhysWeek19, _y12PhysWeek20],
+  certificateTitleEn: "AS Physics: Work, Energy and Power",
+  certificateTitleMy: "AS ရူပဗေဒ - Work, Energy နှင့် Power",
 );
 
 // __TERMS_MARKER__
