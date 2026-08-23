@@ -142278,3 +142278,3267 @@ const CourseTermDef year12MathematicsTerm3 = CourseTermDef(
   certificateTitleEn: "AS Mathematics: Coordinate Geometry",
   certificateTitleMy: "AS သင်္ချာ - Coordinate Geometry",
 );
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 4:
+// "Circular Measure"
+// (Weeks 13-16)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "Radians and Degree Conversion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek13 = CourseWeekDef(
+  id: "course-y12-math-w13",
+  weekNumber: 13,
+  titleEn: "Radians and Degree Conversion",
+  titleMy: "Radian နှင့် Degree ကူးပြောင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w13-d1",
+      dayNumber: 1,
+      titleEn: "Converting Between Degrees and Radians",
+      titleMy: "Degree နှင့် Radian အကြား ကူးပြောင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Convert 60° to radians, in terms of π.",
+          questionMy: "60° ကို π ပါသော Radian အဖြစ် ကူးပြောင်းပါ။",
+          optionsEn: ["π/3", "π/6", "π/2", "2π/3"],
+          optionsMy: ["π/3", "π/6", "π/2", "2π/3"],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiply by π/180: 60 × π/180 = π/3.",
+          ],
+          hintsMy: [
+            "π/180 ဖြင့် မြှောက်ပါ: 60 × π/180 = π/3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Convert 3π/4 radians to degrees.",
+          questionMy: "3π/4 Radian ကို Degree အဖြစ် ကူးပြောင်းပါ။",
+          optionsEn: ["135°", "120°", "150°", "90°"],
+          optionsMy: ["135°", "120°", "150°", "90°"],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiply by 180/π: 3π/4 × 180/π = 3 × 180/4 = 135°.",
+          ],
+          hintsMy: [
+            "180/π ဖြင့် မြှောက်ပါ: 3π/4 × 180/π = 3 × 180/4 = 135° ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Convert 90° to radians, in terms of π.",
+          questionMy: "90° ကို π ပါသော Radian အဖြစ် ကူးပြောင်းပါ။",
+          optionsEn: ["π/2", "π/4", "π", "2π"],
+          optionsMy: ["π/2", "π/4", "π", "2π"],
+          correctIndex: 0,
+          hintsEn: [
+            "90 × π/180 = π/2.",
+          ],
+          hintsMy: [
+            "90 × π/180 = π/2 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Radian Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Radian ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w13-dm-1",
+          termEn: "Radian",
+          termMy: "Radian",
+          matchEn:
+              "The angle subtended at the centre of a circle by an arc equal in length to the radius",
+          matchMy: "Radius နှင့် အလျား ညီသော Arc တစ်ခုက စက်ဝိုင်း Centre တွင် ဖြစ်ပေါ်စေသော Angle",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w13-dm-2",
+          termEn: "π radians",
+          termMy: "π Radian",
+          matchEn: "Equal to 180°",
+          matchMy: "180° နှင့် ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w13-dm-3",
+          termEn: "Degrees to radians",
+          termMy: "Degree မှ Radian သို့",
+          matchEn: "Multiply the degree value by π/180",
+          matchMy: "Degree တန်ဖိုးကို π/180 ဖြင့် မြှောက်ပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w13-dm-4",
+          termEn: "Radians to degrees",
+          termMy: "Radian မှ Degree သို့",
+          matchEn: "Multiply the radian value by 180/π",
+          matchMy: "Radian တန်ဖိုးကို 180/π ဖြင့် မြှောက်ပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w13-dm-5",
+          termEn: "2π radians",
+          termMy: "2π Radian",
+          matchEn: "One full turn, equal to 360°",
+          matchMy: "အလှည့်တစ်ပတ်ပြည့်၊ 360° နှင့် ညီသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Less Than π/2 or Not?",
+      titleMy: "စီစစ်ကြမည် - π/2 ထက် နည်းသလား မနည်းဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Less than π/2 radians (acute)", "π/2 radians or more"],
+        bucketsMy: ["π/2 Radian ထက် နည်း (Acute)", "π/2 Radian (သို့) ထို့ထက်ပို"],
+        items: [
+          SortingItem(
+            id: "y12math-w13-sort-1",
+            labelEn: "π/6 radians",
+            labelMy: "π/6 Radian",
+            correctBucketEn: "Less than π/2 radians (acute)",
+            correctBucketMy: "π/2 Radian ထက် နည်း (Acute)",
+          ),
+          SortingItem(
+            id: "y12math-w13-sort-2",
+            labelEn: "π/4 radians",
+            labelMy: "π/4 Radian",
+            correctBucketEn: "Less than π/2 radians (acute)",
+            correctBucketMy: "π/2 Radian ထက် နည်း (Acute)",
+          ),
+          SortingItem(
+            id: "y12math-w13-sort-3",
+            labelEn: "π/3 radians",
+            labelMy: "π/3 Radian",
+            correctBucketEn: "Less than π/2 radians (acute)",
+            correctBucketMy: "π/2 Radian ထက် နည်း (Acute)",
+          ),
+          SortingItem(
+            id: "y12math-w13-sort-4",
+            labelEn: "2π/3 radians",
+            labelMy: "2π/3 Radian",
+            correctBucketEn: "π/2 radians or more",
+            correctBucketMy: "π/2 Radian (သို့) ထို့ထက်ပို",
+          ),
+          SortingItem(
+            id: "y12math-w13-sort-5",
+            labelEn: "5π/6 radians",
+            labelMy: "5π/6 Radian",
+            correctBucketEn: "π/2 radians or more",
+            correctBucketMy: "π/2 Radian (သို့) ထို့ထက်ပို",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Radians?",
+      titleMy: "စာဖတ်ခြင်း - Radian ဘာကြောင့်လဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Radians?",
+        titleMy: "Radian ဘာကြောင့်လဲ",
+        passageEn:
+            "Sayar Zaw Min opened the Term 4 topic by asking his class a strange question: \"If degrees already measure angles, why does A-Level maths bother with a second unit?\" Htet Aung guessed it had something to do with circles being easier to work with, and Sayar Zaw Min nodded — radians are defined directly from the circle itself, which is exactly why formulas like arc length and sector area become so clean once θ is in radians.\n\nHe then asked Su Su to convert 150° into radians. She multiplied by π/180: 150 × π/180 = 5π/6. \"Notice how the π stays as a fraction rather than becoming a decimal,\" Sayar Zaw Min said. \"Cambridge always wants an exact answer in terms of π unless told otherwise.\" Htet Aung then converted 5π/6 back to degrees to check: 5π/6 × 180/π = 5 × 180/6 = 150°, confirming the two conversions undo each other perfectly.\n\nFinally, Sayar Zaw Min reminded the class of the two conversion factors: multiply by π/180 to go from degrees to radians, and multiply by 180/π to go the other way. \"Get these backwards just once in an exam,\" he warned, \"and every arc length and sector area answer that follows will be wrong too — so check which unit a question gives you before you even pick up your calculator.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term 4 ခေါင်းစဉ်ကို သူ၏ အတန်းအား ထူးဆန်းသော မေးခွန်းတစ်ခုဖြင့် စတင်ဖွင့်လှစ်ခဲ့သည် - \"Degree က Angle ကို တိုင်းတာနိုင်နေတာဖြင့် A-Level သင်္ချာက ဘာကြောင့် ဒုတိယ Unit တစ်ခု ခက်ခဲစွာ အသုံးပြုနေရတာလဲ\" Htet Aung သည် စက်ဝိုင်းများနှင့် အလုပ်လုပ်ရာတွင် ပိုလွယ်ကူစေခြင်းနှင့် ဆက်စပ်နိုင်သည်ဟု ခန့်မှန်းခဲ့ပြီး ဆရာဇော်မင်း ခေါင်းညိတ်ခဲ့သည် -- Radian သည် စက်ဝိုင်းကိုယ်တိုင်မှ တိုက်ရိုက် သတ်မှတ်ထားသောကြောင့် Arc Length နှင့် Sector Area ကဲ့သို့ Formula များသည် θ ကို Radian ဖြင့် ရေးပါက အလွန်သန့်ရှင်းသွားခြင်း အတိအကျပင် ဖြစ်သည်။\n\nထို့နောက် Su Su အား 150° ကို Radian အဖြစ် ကူးပြောင်းရန် ခိုင်းစေခဲ့သည်။ သူမသည် π/180 ဖြင့် မြှောက်ခဲ့သည် - 150 × π/180 = 5π/6 ။ \"π ကို Fraction အဖြစ် ဆက်ထားပုံကို သတိပြုပါ၊ Decimal မဖြစ်စေရ\" ဟု ဆရာဇော်မင်း ဆိုသည်။ \"Cambridge က မတောင်းဆိုပါက π ဖြင့် အတိအကျ အဖြေကို အမြဲ လိုချင်သည်။\" Htet Aung သည် 5π/6 ကို Degree သို့ ပြန်ကူးပြောင်း၍ စစ်ဆေးခဲ့သည် - 5π/6 × 180/π = 5 × 180/6 = 150°, ကူးပြောင်းမှု နှစ်ခုစလုံး အပြန်အလှန် မှန်ကန်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။\n\nနောက်ဆုံးတွင် ဆရာဇော်မင်းသည် Conversion Factor နှစ်ခုကို အတန်းအား ပြန်သတိပေးခဲ့သည် - Degree မှ Radian သို့ သွားရန် π/180 ဖြင့် မြှောက်ပါ၊ ပြောင်းပြန်သွားရန် 180/π ဖြင့် မြှောက်ပါ။ \"စာမေးပွဲတွင် တစ်ကြိမ်ပင် ဒါတွေကို ပြောင်းပြန်လုပ်မိရင်\" ဟု သူ သတိပေးခဲ့သည်၊ \"ဆက်လာမည့် Arc Length နှင့် Sector Area အဖြေများ အားလုံးလည်း မှားသွားမည် ဖြစ်သောကြောင့် Calculator မကိုင်မီ မေးခွန်းက မည်သည့် Unit ပေးထားသည်ကို အရင် စစ်ဆေးပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why are radians useful for circle formulas?",
+            questionMy:
+                "Radian သည် Circle Formula များအတွက် အဘယ်ကြောင့် အသုံးဝင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They are defined directly from the circle itself",
+              "They are always whole numbers",
+              "They cannot be converted to degrees",
+              "They are only used for triangles",
+            ],
+            optionsMy: [
+              "စက်ဝိုင်းကိုယ်တိုင်မှ တိုက်ရိုက် သတ်မှတ်ထားသောကြောင့်",
+              "အမြဲ ကိန်းပြည့်များ ဖြစ်သောကြောင့်",
+              "Degree သို့ ကူးပြောင်း၍ မရသောကြောင့်",
+              "Triangle များအတွက်သာ အသုံးပြုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what does 150° equal in radians?",
+            questionMy: "150° သည် Radian အဖြစ် မည်မျှ ညီသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5π/6", "5π/3", "π/6", "6π/5"],
+            optionsMy: ["5π/6", "5π/3", "π/6", "6π/5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what should you check before using a conversion factor?",
+            questionMy:
+                "Conversion Factor မသုံးမီ အဘယ်အရာကို စစ်ဆေးသင့်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Which unit the question gives you",
+              "Whether the calculator is in radian mode only",
+              "The size of the radius",
+              "Whether π is rational",
+            ],
+            optionsMy: [
+              "မေးခွန်းက မည်သည့် Unit ပေးထားသည်ကို",
+              "Calculator သည် Radian Mode တွင်သာ ရှိမရှိကို",
+              "Radius ၏ အရွယ်အစားကို",
+              "π သည် Rational ဖြစ်မဖြစ်ကို",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Radians and Degrees",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Radian နှင့် Degree",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "π radians is equal to...",
+          questionMy: "π Radian သည် ...နှင့် ညီသည်",
+          optionsEn: ["180°", "90°", "360°", "60°"],
+          optionsMy: ["180°", "90°", "360°", "60°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To convert degrees to radians, multiply by...",
+          questionMy: "Degree ကို Radian ပြောင်းရန် ...ဖြင့် မြှောက်ပါ",
+          optionsEn: ["π/180", "180/π", "π", "180"],
+          optionsMy: ["π/180", "180/π", "π", "180"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "45° in radians is...",
+          questionMy: "45° ကို Radian ဖြင့် ဖော်ပြပါက...",
+          optionsEn: ["π/4", "π/2", "π/3", "π/6"],
+          optionsMy: ["π/4", "π/2", "π/3", "π/6"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "Arc Length"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek14 = CourseWeekDef(
+  id: "course-y12-math-w14",
+  weekNumber: 14,
+  titleEn: "Arc Length",
+  titleMy: "Arc Length",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w14-d1",
+      dayNumber: 1,
+      titleEn: "Using s = rθ",
+      titleMy: "s = rθ ကို အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 8 cm and angle 1.5 radians. Find the arc length.",
+          questionMy: "Sector တစ်ခု၏ Radius 8 cm ဖြစ်ပြီး Angle 1.5 Radian ဖြစ်သည်။ Arc Length ကို ရှာပါ။",
+          optionsEn: ["12 cm", "9.5 cm", "16 cm", "6 cm"],
+          optionsMy: ["12 cm", "9.5 cm", "16 cm", "6 cm"],
+          correctIndex: 0,
+          hintsEn: [
+            "s = rθ = 8 × 1.5 = 12 cm.",
+          ],
+          hintsMy: [
+            "s = rθ = 8 × 1.5 = 12 cm ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 5 cm and angle π/3 radians. Find the arc length in terms of π.",
+          questionMy: "Sector တစ်ခု၏ Radius 5 cm ဖြစ်ပြီး Angle π/3 Radian ဖြစ်သည်။ Arc Length ကို π ဖြင့် ဖော်ပြပါ။",
+          optionsEn: ["5π/3 cm", "5π/6 cm", "3π/5 cm", "π/3 cm"],
+          optionsMy: ["5π/3 cm", "5π/6 cm", "3π/5 cm", "π/3 cm"],
+          correctIndex: 0,
+          hintsEn: [
+            "s = rθ = 5 × π/3 = 5π/3 cm.",
+          ],
+          hintsMy: [
+            "s = rθ = 5 × π/3 = 5π/3 cm ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An arc has length 20 cm on a circle of radius 4 cm. Find the angle in radians.",
+          questionMy: "Radius 4 cm ရှိသော Circle ပေါ်တွင် Arc Length 20 cm ရှိသည်။ Angle ကို Radian ဖြင့် ရှာပါ။",
+          optionsEn: ["5 rad", "4 rad", "0.2 rad", "80 rad"],
+          optionsMy: ["5 rad", "4 rad", "0.2 rad", "80 rad"],
+          correctIndex: 0,
+          hintsEn: [
+            "θ = s/r = 20/4 = 5 rad.",
+          ],
+          hintsMy: [
+            "θ = s/r = 20/4 = 5 rad ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Arc Length Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Arc Length ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w14-dm-1",
+          termEn: "Arc",
+          termMy: "Arc",
+          matchEn: "A portion of the circumference of a circle",
+          matchMy: "Circle တစ်ခု၏ Circumference အစိတ်အပိုင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w14-dm-2",
+          termEn: "s = rθ",
+          termMy: "s = rθ",
+          matchEn: "The arc length formula, where θ is in radians",
+          matchMy: "Arc Length Formula, θ သည် Radian ဖြစ်ရမည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w14-dm-3",
+          termEn: "θ in s = rθ",
+          termMy: "s = rθ ရှိ θ",
+          matchEn: "Must be measured in radians, not degrees",
+          matchMy: "Radian ဖြင့်သာ တိုင်းတာရမည်၊ Degree မဟုတ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w14-dm-4",
+          termEn: "r in s = rθ",
+          termMy: "s = rθ ရှိ r",
+          matchEn: "The radius of the circle",
+          matchMy: "Circle ၏ Radius",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w14-dm-5",
+          termEn: "Full circle arc length",
+          termMy: "Circle အပြည့်၏ Arc Length",
+          matchEn: "2πr, when θ = 2π",
+          matchMy: "2πr, θ = 2π ဖြစ်သောအခါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ready for s = rθ or Convert First?",
+      titleMy: "စီစစ်ကြမည် - s = rθ ဖြင့် တိုက်ရိုက်သုံးမလား ဒါမှမဟုတ် အရင် ကူးပြောင်းမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Applies s = rθ directly (θ in radians)",
+          "Must convert θ to radians first (θ in degrees)",
+        ],
+        bucketsMy: [
+          "s = rθ တိုက်ရိုက်သုံးနိုင် (θ သည် Radian)",
+          "θ ကို Radian ပြောင်းမှ သုံးနိုင် (θ သည် Degree)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w14-sort-1",
+            labelEn: "θ = π/4 rad",
+            labelMy: "θ = π/4 rad",
+            correctBucketEn: "Applies s = rθ directly (θ in radians)",
+            correctBucketMy: "s = rθ တိုက်ရိုက်သုံးနိုင် (θ သည် Radian)",
+          ),
+          SortingItem(
+            id: "y12math-w14-sort-2",
+            labelEn: "θ = 60°",
+            labelMy: "θ = 60°",
+            correctBucketEn: "Must convert θ to radians first (θ in degrees)",
+            correctBucketMy: "θ ကို Radian ပြောင်းမှ သုံးနိုင် (θ သည် Degree)",
+          ),
+          SortingItem(
+            id: "y12math-w14-sort-3",
+            labelEn: "θ = 2 rad",
+            labelMy: "θ = 2 rad",
+            correctBucketEn: "Applies s = rθ directly (θ in radians)",
+            correctBucketMy: "s = rθ တိုက်ရိုက်သုံးနိုင် (θ သည် Radian)",
+          ),
+          SortingItem(
+            id: "y12math-w14-sort-4",
+            labelEn: "θ = 90°",
+            labelMy: "θ = 90°",
+            correctBucketEn: "Must convert θ to radians first (θ in degrees)",
+            correctBucketMy: "θ ကို Radian ပြောင်းမှ သုံးနိုင် (θ သည် Degree)",
+          ),
+          SortingItem(
+            id: "y12math-w14-sort-5",
+            labelEn: "θ = 5π/6 rad",
+            labelMy: "θ = 5π/6 rad",
+            correctBucketEn: "Applies s = rθ directly (θ in radians)",
+            correctBucketMy: "s = rθ တိုက်ရိုက်သုံးနိုင် (θ သည် Radian)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Sports Field Track",
+      titleMy: "စာဖတ်ခြင်း - အားကစားကွင်း Track",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Sports Field Track",
+        titleMy: "အားကစားကွင်း Track",
+        passageEn:
+            "Su Su was measuring the curved end of the school's running track for a project and told Sayar Zaw Min the curve had radius 10 m, but she only knew the angle it swept in degrees: 137°. \"You can't plug degrees straight into s = rθ,\" he reminded her, \"the formula only works when θ is in radians.\"\n\nSu Su converted first: 137 × π/180 = 137π/180 radians, which she left as a fraction rather than rushing to a decimal. Then she applied the arc length formula: s = rθ = 10 × 137π/180 = 1370π/180, which simplifies to 137π/18 m. Only at the very end did she convert to a decimal for a sensible real-world answer: 137π/18 ≈ 23.9 m.\n\nHtet Aung asked why she didn't just convert to a decimal radian value straight away. \"I could,\" Su Su said, \"but keeping π symbolic until the last step avoids rounding errors building up across two conversions and a multiplication — and Cambridge mark schemes often want the exact π form as a checkpoint before the final decimal.\" Sayar Zaw Min agreed: always convert degrees to radians first, keep the working exact where possible, and only round at the final answer.",
+        passageMy:
+            "Su Su သည် ကျောင်း Running Track ၏ ကွေးသော အစွန်းကို Project အတွက် တိုင်းတာနေရာ Radius 10 m ရှိကြောင်း၊ သို့သော် Angle ကိုမူ Degree ဖြင့်သာ 137° ဟု သိရှိကြောင်း ဆရာဇော်မင်းအား ပြောပြခဲ့သည်။ \"Degree ကို s = rθ ထဲ တိုက်ရိုက် ထည့်၍ မရဘူး\" ဟု သူ ပြန်သတိပေးခဲ့သည်၊ \"Formula က θ Radian ဖြစ်မှသာ အလုပ်လုပ်တယ်။\"\n\nSu Su သည် အရင် ကူးပြောင်းခဲ့သည် - 137 × π/180 = 137π/180 Radian ဖြစ်ပြီး Decimal သို့ မဆောတလျင် ပြောင်းဘဲ Fraction အနေဖြင့်ပင် ထားခဲ့သည်။ ထို့နောက် Arc Length Formula ကို အသုံးပြုခဲ့သည် - s = rθ = 10 × 137π/180 = 1370π/180, ရိုးရှင်းအောင်ပြုလုပ်ပါက 137π/18 m ရသည်။ နောက်ဆုံးအဆင့်တွင်မှသာ Decimal အဖြစ် ပြောင်းလိုက်ကာ လက်တွေ့ဘဝနှင့် ကိုက်ညီသော အဖြေတစ်ခု ရရှိခဲ့သည် - 137π/18 ≈ 23.9 m ။\n\nHtet Aung သည် Decimal Radian တန်ဖိုးကို ချက်ချင်း အဘယ်ကြောင့် မပြောင်းခဲ့သည်ကို မေးမြန်းခဲ့သည်။ \"ပြောင်းလို့ရပေမယ့်\" ဟု Su Su ဖြေခဲ့သည်၊ \"π ကို Symbolic အနေဖြင့် နောက်ဆုံးအဆင့်အထိ ထားခြင်းက Conversion နှစ်ကြိမ်နှင့် Multiplication တစ်ကြိမ်တစ်လျှောက် Rounding Error တွေ ပေါင်းစုမလာအောင် ကာကွယ်ပေးတယ်။ Cambridge Mark Scheme တွေကလည်း Decimal မတိုင်မီ π Exact Form ကို Checkpoint အဖြစ် မကြာခဏ လိုချင်တယ်။\" ဆရာဇော်မင်းလည်း သဘောတူခဲ့သည် - Degree ကို Radian အရင် ပြောင်းပါ၊ တွက်ချက်မှုကို တတ်နိုင်သမျှ Exact ထားပါ၊ နောက်ဆုံး အဖြေမှသာ Round ပြုလုပ်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why must the angle be converted before using s = rθ?",
+            questionMy:
+                "s = rθ မသုံးမီ Angle ကို အဘယ်ကြောင့် ကူးပြောင်းရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The formula only works when θ is in radians",
+              "Cambridge does not allow degrees at all",
+              "The radius changes with the angle unit",
+              "Degrees are always larger than radians",
+            ],
+            optionsMy: [
+              "Formula က θ Radian ဖြစ်မှသာ အလုပ်လုပ်သောကြောင့်",
+              "Cambridge က Degree ကို လုံးဝ ခွင့်မပြုသောကြောင့်",
+              "Angle Unit ပြောင်းလျှင် Radius ပါ ပြောင်းသောကြောင့်",
+              "Degree သည် Radian ထက် အမြဲ ကြီးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the exact arc length in terms of π?",
+            questionMy: "π ဖြင့် Exact Arc Length ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["137π/18 m", "137π/180 m", "10π/137 m", "18π/137 m"],
+            optionsMy: ["137π/18 m", "137π/180 m", "10π/137 m", "18π/137 m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why keep π symbolic until the last step?",
+            questionMy:
+                "π ကို နောက်ဆုံးအဆင့်အထိ Symbolic ထားရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It avoids rounding errors building up across the working",
+              "Decimals are not allowed in mathematics",
+              "It makes the radius larger",
+              "π cannot be multiplied by a whole number",
+            ],
+            optionsMy: [
+              "တွက်ချက်မှုတစ်လျှောက် Rounding Error ပေါင်းစုမလာအောင် ကာကွယ်ပေးသောကြောင့်",
+              "သင်္ချာတွင် Decimal ကို လုံးဝ ခွင့်မပြုသောကြောင့်",
+              "Radius ကို ပိုကြီးလာစေသောကြောင့်",
+              "π ကို ကိန်းပြည့်ဖြင့် မမြှောက်နိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread Su Su's explanation."],
+            hintsMy: ["Su Su ၏ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Arc Length",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Arc Length",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The arc length formula s = rθ requires θ to be in...",
+          questionMy: "s = rθ Formula တွင် θ သည် ...ဖြစ်ရမည်",
+          optionsEn: ["Radians", "Degrees", "Either unit", "Percentages"],
+          optionsMy: ["Radian", "Degree", "Unit မရွေး", "Percentage"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If r = 6 cm and θ = 2 rad, the arc length is...",
+          questionMy: "r = 6 cm နှင့် θ = 2 rad ဖြစ်ပါက Arc Length မှာ...",
+          optionsEn: ["12 cm", "3 cm", "8 cm", "4 cm"],
+          optionsMy: ["12 cm", "3 cm", "8 cm", "4 cm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "θ = s/r rearranges the formula to find...",
+          questionMy: "θ = s/r သည် Formula ကို ပြန်စီစဉ်ပြီး ...ကို ရှာရန်ဖြစ်သည်",
+          optionsEn: ["The angle", "The radius", "The diameter", "The area"],
+          optionsMy: ["Angle ကို", "Radius ကို", "Diameter ကို", "Area ကို"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "Area of a Sector"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek15 = CourseWeekDef(
+  id: "course-y12-math-w15",
+  weekNumber: 15,
+  titleEn: "Area of a Sector",
+  titleMy: "Sector ၏ Area",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w15-d1",
+      dayNumber: 1,
+      titleEn: "Using A = ½r²θ",
+      titleMy: "A = ½r²θ ကို အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 6 cm and angle 1.2 radians. Find its area.",
+          questionMy: "Sector တစ်ခု၏ Radius 6 cm ဖြစ်ပြီး Angle 1.2 Radian ဖြစ်သည်။ Area ကို ရှာပါ။",
+          optionsEn: ["21.6 cm²", "43.2 cm²", "7.2 cm²", "10.8 cm²"],
+          optionsMy: ["21.6 cm²", "43.2 cm²", "7.2 cm²", "10.8 cm²"],
+          correctIndex: 0,
+          hintsEn: [
+            "A = ½r²θ = ½ × 36 × 1.2 = 21.6 cm².",
+          ],
+          hintsMy: [
+            "A = ½r²θ = ½ × 36 × 1.2 = 21.6 cm² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 10 cm and angle π/5 radians. Find its area in terms of π.",
+          questionMy: "Sector တစ်ခု၏ Radius 10 cm ဖြစ်ပြီး Angle π/5 Radian ဖြစ်သည်။ Area ကို π ဖြင့် ဖော်ပြပါ။",
+          optionsEn: ["10π cm²", "5π cm²", "20π cm²", "2π cm²"],
+          optionsMy: ["10π cm²", "5π cm²", "20π cm²", "2π cm²"],
+          correctIndex: 0,
+          hintsEn: [
+            "A = ½r²θ = ½ × 100 × π/5 = 10π cm².",
+          ],
+          hintsMy: [
+            "A = ½r²θ = ½ × 100 × π/5 = 10π cm² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sector has area 45 cm² and angle 2.5 radians. Find the radius.",
+          questionMy: "Sector တစ်ခု၏ Area 45 cm² ဖြစ်ပြီး Angle 2.5 Radian ဖြစ်သည်။ Radius ကို ရှာပါ။",
+          optionsEn: ["6 cm", "9 cm", "18 cm", "3 cm"],
+          optionsMy: ["6 cm", "9 cm", "18 cm", "3 cm"],
+          correctIndex: 0,
+          hintsEn: [
+            "45 = ½r²(2.5), so r² = 36, giving r = 6 cm.",
+          ],
+          hintsMy: [
+            "45 = ½r²(2.5), r² = 36, r = 6 cm ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sector Area Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Sector Area ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w15-dm-1",
+          termEn: "A = ½r²θ",
+          termMy: "A = ½r²θ",
+          matchEn: "The area of a sector formula, θ in radians",
+          matchMy: "Sector Area Formula, θ သည် Radian ဖြစ်ရမည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w15-dm-2",
+          termEn: "Sector",
+          termMy: "Sector",
+          matchEn: "The region enclosed by two radii and an arc",
+          matchMy: "Radii နှစ်ခုနှင့် Arc တစ်ခုက ဝန်းရံထားသော ဧရိယာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w15-dm-3",
+          termEn: "Full circle area",
+          termMy: "Circle အပြည့်၏ Area",
+          matchEn: "πr², when θ = 2π",
+          matchMy: "πr², θ = 2π ဖြစ်သောအခါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w15-dm-4",
+          termEn: "Minor sector",
+          termMy: "Minor Sector",
+          matchEn: "The smaller of the two sectors formed by two radii",
+          matchMy: "Radii နှစ်ခုက ဖြစ်ပေါ်စေသော Sector နှစ်ခုအနက် ငယ်သောဘက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w15-dm-5",
+          termEn: "Major sector",
+          termMy: "Major Sector",
+          matchEn: "The larger of the two sectors formed by two radii",
+          matchMy: "Radii နှစ်ခုက ဖြစ်ပေါ်စေသော Sector နှစ်ခုအနက် ကြီးသောဘက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Minor or Major Sector?",
+      titleMy: "စီစစ်ကြမည် - Minor ဒါမှမဟုတ် Major Sector",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Minor sector (θ < π)", "Major sector (θ > π)"],
+        bucketsMy: ["Minor Sector (θ < π)", "Major Sector (θ > π)"],
+        items: [
+          SortingItem(
+            id: "y12math-w15-sort-1",
+            labelEn: "θ = π/3",
+            labelMy: "θ = π/3",
+            correctBucketEn: "Minor sector (θ < π)",
+            correctBucketMy: "Minor Sector (θ < π)",
+          ),
+          SortingItem(
+            id: "y12math-w15-sort-2",
+            labelEn: "θ = 3π/2",
+            labelMy: "θ = 3π/2",
+            correctBucketEn: "Major sector (θ > π)",
+            correctBucketMy: "Major Sector (θ > π)",
+          ),
+          SortingItem(
+            id: "y12math-w15-sort-3",
+            labelEn: "θ = 5π/6",
+            labelMy: "θ = 5π/6",
+            correctBucketEn: "Minor sector (θ < π)",
+            correctBucketMy: "Minor Sector (θ < π)",
+          ),
+          SortingItem(
+            id: "y12math-w15-sort-4",
+            labelEn: "θ = 7π/4",
+            labelMy: "θ = 7π/4",
+            correctBucketEn: "Major sector (θ > π)",
+            correctBucketMy: "Major Sector (θ > π)",
+          ),
+          SortingItem(
+            id: "y12math-w15-sort-5",
+            labelEn: "θ = π/2",
+            labelMy: "θ = π/2",
+            correctBucketEn: "Minor sector (θ < π)",
+            correctBucketMy: "Minor Sector (θ < π)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Pizza Slice Problem",
+      titleMy: "စာဖတ်ခြင်း - Pizza အပိုင်း ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Pizza Slice Problem",
+        titleMy: "Pizza အပိုင်း ပြဿနာ",
+        passageEn:
+            "Htet Aung brought a real pizza box to class to make Sayar Zaw Min's sector area problem concrete. The whole pizza had radius 14 cm, and Htet Aung had cut one slice with an angle of 0.9 radians at the centre. \"How much of the pizza, by area, is that one slice?\" Sayar Zaw Min asked.\n\nHtet Aung applied A = ½r²θ directly: A = ½ × 14² × 0.9 = ½ × 196 × 0.9 = 88.2 cm². Su Su then worked out the area of the whole pizza using πr²: π × 196 ≈ 615.75 cm², and divided 88.2 by that total to find the slice was about 14.3% of the whole pizza.\n\n\"Notice we never needed to convert to degrees at any point,\" Sayar Zaw Min pointed out — the angle was already given in radians, so A = ½r²θ applied straight away. He then asked what would happen if the slice angle had been given as 51.6° instead. Su Su answered that they would first convert: 51.6 × π/180 ≈ 0.9 radians, arriving at the same slice — proof that no matter which unit a problem starts in, the underlying area doesn't change, only the working needed to reach it.",
+        passageMy:
+            "Htet Aung သည် ဆရာဇော်မင်း၏ Sector Area ပြဿနာကို လက်တွေ့ ဖြစ်စေရန် Pizza Box အစစ်ကို အတန်းသို့ ယူလာခဲ့သည်။ Pizza တစ်ခုလုံး၏ Radius 14 cm ရှိပြီး Htet Aung သည် Centre တွင် 0.9 Radian Angle ရှိသော အပိုင်းတစ်ခု ဖြတ်ထားခဲ့သည်။ \"အဲဒီ အပိုင်းတစ်ခုက Area အားဖြင့် Pizza ရဲ့ ဘယ်လောက် ရှိလဲ\" ဟု ဆရာဇော်မင်း မေးခဲ့သည်။\n\nHtet Aung သည် A = ½r²θ ကို တိုက်ရိုက် အသုံးပြုခဲ့သည် - A = ½ × 14² × 0.9 = ½ × 196 × 0.9 = 88.2 cm² ။ Su Su သည် πr² ကို အသုံးပြု၍ Pizza တစ်ခုလုံး၏ Area ကို တွက်ချက်ခဲ့သည် - π × 196 ≈ 615.75 cm², ထို့နောက် 88.2 ကို ထိုစုစုပေါင်းဖြင့် စား၍ အပိုင်းသည် Pizza တစ်ခုလုံး၏ 14.3% ခန့် ရှိကြောင်း ရှာဖွေတွေ့ရှိခဲ့သည်။\n\n\"ဘယ်နေရာမှာမှ Degree ကို ကူးပြောင်းစရာ မလိုခဲ့တာ သတိပြုပါ\" ဟု ဆရာဇော်မင်း ညွှန်ပြခဲ့သည် -- Angle ကို Radian ဖြင့်ပင် ပေးထားပြီးသားဖြစ်၍ A = ½r²θ ကို ချက်ချင်း အသုံးပြုနိုင်ခဲ့သည်။ ထို့နောက် အပိုင်း Angle ကို 51.6° ဟု ပေးထားခဲ့ပါက အဘယ်ဖြစ်မည်ကို မေးခဲ့သည်။ Su Su က အရင် ကူးပြောင်းမည်ဟု ဖြေခဲ့သည် - 51.6 × π/180 ≈ 0.9 Radian, အလားတူ အပိုင်းတစ်ခုတည်း ရရှိမည် -- ပြဿနာက မည်သည့် Unit ဖြင့် စတင်သည်ဖြစ်စေ Area ကိုယ်တိုင် မပြောင်းလဲပါ၊ ရောက်ရှိရန် လိုအပ်သော တွက်ချက်မှုသာ ကွာခြားသည်ဟု သက်သေထူနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the area of Htet Aung's pizza slice?",
+            questionMy: "Htet Aung ၏ Pizza အပိုင်း၏ Area ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["88.2 cm²", "196 cm²", "615.75 cm²", "14.3 cm²"],
+            optionsMy: ["88.2 cm²", "196 cm²", "615.75 cm²", "14.3 cm²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, roughly what percentage of the whole pizza was the slice?",
+            questionMy: "အပိုင်းသည် Pizza တစ်ခုလုံး၏ ခန့်မှန်းခြေ ရာခိုင်နှုန်း မည်မျှ ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["About 14.3%", "About 50%", "About 90%", "About 1%"],
+            optionsMy: ["ခန့်မှန်း 14.3%", "ခန့်မှန်း 50%", "ခန့်မှန်း 90%", "ခန့်မှန်း 1%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why didn't they need to convert units for the original problem?",
+            questionMy:
+                "မူလပြဿနာအတွက် Unit ကူးပြောင်းစရာ မလိုသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The angle was already given in radians",
+              "Pizzas cannot be measured in degrees",
+              "The radius was already in centimetres",
+              "51.6° is the same as 51.6 radians",
+            ],
+            optionsMy: [
+              "Angle ကို Radian ဖြင့် ပေးထားပြီးသားဖြစ်သောကြောင့်",
+              "Pizza ကို Degree ဖြင့် မတိုင်းတာနိုင်သောကြောင့်",
+              "Radius ကို cm ဖြင့် ပေးထားပြီးသားဖြစ်သောကြောင့်",
+              "51.6° သည် 51.6 Radian နှင့် တူညီသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Sector Area",
+      titleMy: "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Sector Area",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The sector area formula is...",
+          questionMy: "Sector Area Formula မှာ...",
+          optionsEn: ["A = ½r²θ", "A = rθ", "A = πr²", "A = 2πr"],
+          optionsMy: ["A = ½r²θ", "A = rθ", "A = πr²", "A = 2πr"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If r = 4 cm and θ = π/2 rad, the sector area is...",
+          questionMy: "r = 4 cm နှင့် θ = π/2 rad ဖြစ်ပါက Sector Area မှာ...",
+          optionsEn: ["4π cm²", "2π cm²", "8π cm²", "π cm²"],
+          optionsMy: ["4π cm²", "2π cm²", "8π cm²", "π cm²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A minor sector has an angle...",
+          questionMy: "Minor Sector ၏ Angle သည်...",
+          optionsEn: ["Less than π radians", "More than π radians", "Exactly 2π radians", "Always 90°"],
+          optionsMy: ["π Radian ထက် နည်း", "π Radian ထက် များ", "အတိအကျ 2π Radian", "အမြဲ 90°"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16 (Boss Week): "Perimeter and Area of Sectors and Segments"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek16 = CourseWeekDef(
+  id: "course-y12-math-w16",
+  weekNumber: 16,
+  titleEn: "Perimeter and Area of Sectors and Segments",
+  titleMy: "Sector နှင့် Segment ၏ Perimeter နှင့် Area",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w16-d1",
+      dayNumber: 1,
+      titleEn: "Combined Perimeter and Area Problems",
+      titleMy: "ပေါင်းစပ် Perimeter နှင့် Area ပြဿနာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 7 cm and angle 1.4 radians. Find its perimeter.",
+          questionMy: "Sector တစ်ခု၏ Radius 7 cm ဖြစ်ပြီး Angle 1.4 Radian ဖြစ်သည်။ Perimeter ကို ရှာပါ။",
+          optionsEn: ["23.8 cm", "9.8 cm", "14 cm", "19.6 cm"],
+          optionsMy: ["23.8 cm", "9.8 cm", "14 cm", "19.6 cm"],
+          correctIndex: 0,
+          hintsEn: [
+            "Perimeter = 2r + rθ = 14 + (7 × 1.4) = 14 + 9.8 = 23.8 cm.",
+          ],
+          hintsMy: [
+            "Perimeter = 2r + rθ = 14 + (7 × 1.4) = 14 + 9.8 = 23.8 cm ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 10 cm and angle π/3 radians. Find the exact area of the segment cut off by the chord, using A = ½r²(θ - sin θ).",
+          questionMy:
+              "Sector တစ်ခု၏ Radius 10 cm ဖြစ်ပြီး Angle π/3 Radian ဖြစ်သည်။ A = ½r²(θ - sin θ) ကို အသုံးပြု၍ Chord က ဖြတ်ထုတ်သော Segment ၏ Exact Area ကို ရှာပါ။",
+          optionsEn: [
+            "50(π/3 - √3/2) cm²",
+            "50(π/3 + √3/2) cm²",
+            "100(π/3 - √3/2) cm²",
+            "½(π/3 - √3/2) cm²",
+          ],
+          optionsMy: [
+            "50(π/3 - √3/2) cm²",
+            "50(π/3 + √3/2) cm²",
+            "100(π/3 - √3/2) cm²",
+            "½(π/3 - √3/2) cm²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A = ½ × 100 × (π/3 - sin(π/3)) = 50(π/3 - √3/2) cm² ≈ 9.06 cm².",
+          ],
+          hintsMy: [
+            "A = ½ × 100 × (π/3 - sin(π/3)) = 50(π/3 - √3/2) cm² ≈ 9.06 cm² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sector has radius 6 cm and angle 2 radians. Find the perimeter of the segment (chord + arc), given the chord length is 2r sin(θ/2).",
+          questionMy:
+              "Sector တစ်ခု၏ Radius 6 cm ဖြစ်ပြီး Angle 2 Radian ဖြစ်သည်။ Chord Length ကို 2r sin(θ/2) ဟု သတ်မှတ်ပါက Segment ၏ Perimeter (Chord + Arc) ကို ရှာပါ။",
+          optionsEn: ["≈ 22.1 cm", "≈ 12 cm", "≈ 10.1 cm", "≈ 24 cm"],
+          optionsMy: ["≈ 22.1 cm", "≈ 12 cm", "≈ 10.1 cm", "≈ 24 cm"],
+          correctIndex: 0,
+          hintsEn: [
+            "Arc = rθ = 12 cm. Chord = 2(6)sin(1) ≈ 10.1 cm. Perimeter ≈ 12 + 10.1 = 22.1 cm.",
+          ],
+          hintsMy: [
+            "Arc = rθ = 12 cm ။ Chord = 2(6)sin(1) ≈ 10.1 cm ။ Perimeter ≈ 12 + 10.1 = 22.1 cm ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Segments and Chords",
+      titleMy: "တွဲစပ်ကြမည် - Segment နှင့် Chord",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w16-dm-1",
+          termEn: "Segment",
+          termMy: "Segment",
+          matchEn: "The region between a chord and the arc it cuts off",
+          matchMy: "Chord တစ်ခုနှင့် ၎င်းက ဖြတ်ထုတ်သော Arc အကြားရှိ ဧရိယာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w16-dm-2",
+          termEn: "Chord",
+          termMy: "Chord",
+          matchEn: "A straight line joining two points on a circle",
+          matchMy: "Circle ပေါ်ရှိ အမှတ်နှစ်ခုကို ချိတ်ဆက်ထားသော Straight Line",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w16-dm-3",
+          termEn: "Perimeter of a sector",
+          termMy: "Sector ၏ Perimeter",
+          matchEn: "2r + rθ (two radii plus the arc)",
+          matchMy: "2r + rθ (Radii နှစ်ခုနှင့် Arc)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w16-dm-4",
+          termEn: "Area of a segment",
+          termMy: "Segment ၏ Area",
+          matchEn: "½r²(θ - sin θ)",
+          matchMy: "½r²(θ - sin θ)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w16-dm-5",
+          termEn: "Chord length",
+          termMy: "Chord Length",
+          matchEn: "2r sin(θ/2)",
+          matchMy: "2r sin(θ/2)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Sector or Segment?",
+      titleMy: "စီစစ်ကြမည် - Sector ဒါမှမဟုတ် Segment",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sector", "Segment"],
+        bucketsMy: ["Sector", "Segment"],
+        items: [
+          SortingItem(
+            id: "y12math-w16-sort-1",
+            labelEn: "Bounded by two radii and an arc",
+            labelMy: "Radii နှစ်ခုနှင့် Arc တစ်ခုက ဝန်းရံ",
+            correctBucketEn: "Sector",
+            correctBucketMy: "Sector",
+          ),
+          SortingItem(
+            id: "y12math-w16-sort-2",
+            labelEn: "Bounded by a chord and an arc",
+            labelMy: "Chord တစ်ခုနှင့် Arc တစ်ခုက ဝန်းရံ",
+            correctBucketEn: "Segment",
+            correctBucketMy: "Segment",
+          ),
+          SortingItem(
+            id: "y12math-w16-sort-3",
+            labelEn: "Has perimeter 2r + rθ",
+            labelMy: "Perimeter 2r + rθ ရှိသည်",
+            correctBucketEn: "Sector",
+            correctBucketMy: "Sector",
+          ),
+          SortingItem(
+            id: "y12math-w16-sort-4",
+            labelEn: "Has area ½r²(θ - sin θ)",
+            labelMy: "Area ½r²(θ - sin θ) ရှိသည်",
+            correctBucketEn: "Segment",
+            correctBucketMy: "Segment",
+          ),
+          SortingItem(
+            id: "y12math-w16-sort-5",
+            labelEn: "Has area ½r²θ",
+            labelMy: "Area ½r²θ ရှိသည်",
+            correctBucketEn: "Sector",
+            correctBucketMy: "Sector",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term 4 Capstone",
+      titleMy: "စာဖတ်ခြင်း - Term 4 Capstone",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term 4 Capstone",
+        titleMy: "Term 4 Capstone",
+        passageEn:
+            "For the Term 4 capstone, Sayar Zaw Min drew a circle of radius 9 cm on the board with a sector of angle 2 radians, and a chord joining the two ends of the arc. \"Find the full perimeter of the segment cut off by that chord,\" he said, \"and then its area.\"\n\nHtet Aung started with the arc length: s = rθ = 9 × 2 = 18 cm. Su Su found the chord length using 2r sin(θ/2): 2 × 9 × sin(1) ≈ 18 × 0.8415 ≈ 15.15 cm. Adding these gave the segment's perimeter: 18 + 15.15 ≈ 33.15 cm. \"The segment's perimeter is the arc plus the chord — never the two radii,\" Sayar Zaw Min reminded them, \"those belong to the sector's perimeter instead.\"\n\nFor the area, Htet Aung used ½r²(θ - sin θ): ½ × 81 × (2 - sin 2) ≈ 40.5 × (2 - 0.909) ≈ 40.5 × 1.091 ≈ 44.2 cm². Su Su double-checked by finding the sector's area first, ½r²θ = ½ × 81 × 2 = 81 cm², and the triangle's area formed by the two radii and the chord, ½r²sin θ = ½ × 81 × sin 2 ≈ 36.8 cm², then subtracting: 81 - 36.8 ≈ 44.2 cm² — the same answer, confirming that a segment is always a sector with its enclosed triangle cut away.",
+        passageMy:
+            "Term 4 Capstone အတွက် ဆရာဇော်မင်းသည် Radius 9 cm ရှိသော Circle တစ်ခုကို Board ပေါ်တွင် ရေးဆွဲပြီး Angle 2 Radian ရှိသော Sector တစ်ခုနှင့် Arc ၏ အစွန်းနှစ်ဖက်ကို ချိတ်ဆက်သော Chord တစ်ခု ထည့်ပေးခဲ့သည်။ \"အဲဒီ Chord က ဖြတ်ထုတ်သော Segment ၏ Perimeter အပြည့်ကို ရှာပါ\" ဟု သူဆိုသည်၊ \"ပြီးရင် Area ကိုပါ ရှာပါ။\"\n\nHtet Aung သည် Arc Length ဖြင့် စတင်ခဲ့သည် - s = rθ = 9 × 2 = 18 cm ။ Su Su သည် 2r sin(θ/2) ကို အသုံးပြု၍ Chord Length ကို ရှာခဲ့သည် - 2 × 9 × sin(1) ≈ 18 × 0.8415 ≈ 15.15 cm ။ ဒါတွေကို ပေါင်းလိုက်ပါက Segment ၏ Perimeter ရသည် - 18 + 15.15 ≈ 33.15 cm ။ \"Segment ၏ Perimeter ဆိုတာ Arc ပေါင်း Chord ဖြစ်တယ်၊ Radii နှစ်ခု ဘယ်တော့မှ မပါဘူး\" ဟု ဆရာဇော်မင်း ပြန်သတိပေးခဲ့သည်၊ \"အဲဒါတွေက Sector ၏ Perimeter ထဲမှာသာ ပါဝင်တယ်။\"\n\nArea အတွက် Htet Aung သည် ½r²(θ - sin θ) ကို အသုံးပြုခဲ့သည် - ½ × 81 × (2 - sin 2) ≈ 40.5 × (2 - 0.909) ≈ 40.5 × 1.091 ≈ 44.2 cm² ။ Su Su သည် Sector ၏ Area ကို အရင် ရှာ၍ ပြန်စစ်ခဲ့သည် - ½r²θ = ½ × 81 × 2 = 81 cm², ထို့နောက် Radii နှစ်ခုနှင့် Chord တို့ ဖွဲ့စည်းသော Triangle ၏ Area - ½r²sin θ = ½ × 81 × sin 2 ≈ 36.8 cm², ထို့နောက် နုတ်လိုက်ပါက - 81 - 36.8 ≈ 44.2 cm² -- အဖြေတူညီပြီး Segment တစ်ခုသည် Triangle ကို ဖြတ်ထုတ်လိုက်သော Sector တစ်ခု ဖြစ်ကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the arc length of the segment?",
+            questionMy: "Segment ၏ Arc Length ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["18 cm", "9 cm", "15.15 cm", "33.15 cm"],
+            optionsMy: ["18 cm", "9 cm", "15.15 cm", "33.15 cm"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what makes up a segment's perimeter?",
+            questionMy: "Segment ၏ Perimeter သည် အဘယ်တို့ ပါဝင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The arc plus the chord",
+              "The two radii plus the arc",
+              "The two radii only",
+              "The chord only",
+            ],
+            optionsMy: [
+              "Arc ပေါင်း Chord",
+              "Radii နှစ်ခု ပေါင်း Arc",
+              "Radii နှစ်ခုသာ",
+              "Chord တစ်ခုတည်းသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how did Su Su double-check the segment area?",
+            questionMy:
+                "Su Su သည် Segment Area ကို မည်သို့ ပြန်စစ်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By subtracting the enclosed triangle's area from the sector's area",
+              "By adding the sector's area to the triangle's area",
+              "By dividing the sector's area by the arc length",
+              "By using only the chord length",
+            ],
+            optionsMy: [
+              "Sector ၏ Area မှ Triangle ၏ Area ကို နုတ်ခြင်းဖြင့်",
+              "Sector ၏ Area ကို Triangle ၏ Area နှင့် ပေါင်းခြင်းဖြင့်",
+              "Sector ၏ Area ကို Arc Length ဖြင့် စားခြင်းဖြင့်",
+              "Chord Length တစ်ခုတည်း အသုံးပြု၍",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Circular Measure Capstone",
+      titleMy: "တစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Circular Measure Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The perimeter of a sector is found using...",
+          questionMy: "Sector ၏ Perimeter ကို ...ဖြင့် ရှာသည်",
+          optionsEn: ["2r + rθ", "rθ only", "2πr", "½r²θ"],
+          optionsMy: ["2r + rθ", "rθ တစ်ခုတည်း", "2πr", "½r²θ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A segment's area is found by...",
+          questionMy: "Segment ၏ Area ကို ...ဖြင့် ရှာသည်",
+          optionsEn: [
+            "Subtracting the triangle's area from the sector's area",
+            "Adding the triangle's area to the sector's area",
+            "Using ½r²θ directly",
+            "Using 2r + rθ",
+          ],
+          optionsMy: [
+            "Sector ၏ Area မှ Triangle ၏ Area ကို နုတ်ခြင်းဖြင့်",
+            "Sector ၏ Area ကို Triangle ၏ Area နှင့် ပေါင်းခြင်းဖြင့်",
+            "½r²θ ကို တိုက်ရိုက် အသုံးပြု၍",
+            "2r + rθ ကို အသုံးပြု၍",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The chord length formula is...",
+          questionMy: "Chord Length Formula မှာ...",
+          optionsEn: ["2r sin(θ/2)", "rθ", "r sin θ", "2r sin θ"],
+          optionsMy: ["2r sin(θ/2)", "rθ", "r sin θ", "2r sin θ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm4 = CourseTermDef(
+  id: "course-y12-math-t4",
+  termNumber: 4,
+  titleEn: "Circular Measure",
+  titleMy: "Circular Measure",
+  weeks: [_y12MathWeek13, _y12MathWeek14, _y12MathWeek15, _y12MathWeek16],
+  certificateTitleEn: "AS Mathematics: Circular Measure",
+  certificateTitleMy: "AS သင်္ချာ - Circular Measure",
+);
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 5:
+// "Trigonometry"
+// (Weeks 17-20)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Trigonometric Graphs"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek17 = CourseWeekDef(
+  id: "course-y12-math-w17",
+  weekNumber: 17,
+  titleEn: "Trigonometric Graphs",
+  titleMy: "Trigonometric Graph များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w17-d1",
+      dayNumber: 1,
+      titleEn: "Period and Amplitude",
+      titleMy: "Period နှင့် Amplitude",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the period of y = sin x?",
+          questionMy: "y = sin x ၏ Period သည် မည်မျှနည်း။",
+          optionsEn: ["360°", "180°", "90°", "720°"],
+          optionsMy: ["360°", "180°", "90°", "720°"],
+          correctIndex: 0,
+          hintsEn: [
+            "y = sin x repeats itself every full turn, 360°.",
+          ],
+          hintsMy: [
+            "y = sin x သည် အလှည့်တစ်ပတ်ပြည့်၊ 360° တိုင်း ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the amplitude of y = 3 cos x?",
+          questionMy: "y = 3 cos x ၏ Amplitude သည် မည်မျှနည်း။",
+          optionsEn: ["3", "1", "6", "0"],
+          optionsMy: ["3", "1", "6", "0"],
+          correctIndex: 0,
+          hintsEn: [
+            "The amplitude is the coefficient multiplying cos x, since cos x itself ranges from -1 to 1.",
+          ],
+          hintsMy: [
+            "Amplitude သည် cos x ကို မြှောက်နေသော Coefficient ဖြစ်သည်၊ cos x ကိုယ်တိုင်က -1 မှ 1 အထိ ရှိနေသောကြောင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the period of y = tan x?",
+          questionMy: "y = tan x ၏ Period သည် မည်မျှနည်း။",
+          optionsEn: ["180°", "360°", "90°", "270°"],
+          optionsMy: ["180°", "360°", "90°", "270°"],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike sin and cos, tan repeats every 180°, half the period of sin and cos.",
+          ],
+          hintsMy: [
+            "sin နှင့် cos နှင့် မတူဘဲ tan သည် 180° တိုင်း ထပ်ခါထပ်ခါ ဖြစ်ပေါ်သည်၊ sin နှင့် cos ၏ Period ၏ တစ်ဝက်ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Trig Graph Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Trig Graph ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w17-dm-1",
+          termEn: "Amplitude",
+          termMy: "Amplitude",
+          matchEn: "Half the distance between the maximum and minimum values",
+          matchMy: "အများဆုံးနှင့် အနည်းဆုံးတန်ဖိုးအကြား အကွာအဝေး၏ တစ်ဝက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w17-dm-2",
+          termEn: "Period",
+          termMy: "Period",
+          matchEn: "The length of one complete cycle of the graph",
+          matchMy: "Graph ၏ တစ်ကြိမ်ပြည့် Cycle တစ်ခု၏ အလျား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w17-dm-3",
+          termEn: "Range of y = sin x",
+          termMy: "y = sin x ၏ Range",
+          matchEn: "-1 ≤ y ≤ 1",
+          matchMy: "-1 ≤ y ≤ 1",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w17-dm-4",
+          termEn: "Range of y = cos x",
+          termMy: "y = cos x ၏ Range",
+          matchEn: "-1 ≤ y ≤ 1",
+          matchMy: "-1 ≤ y ≤ 1",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w17-dm-5",
+          termEn: "y = tan x",
+          termMy: "y = tan x",
+          matchEn: "Has vertical asymptotes at x = 90°, 270°, ...",
+          matchMy: "x = 90°, 270°, ... တွင် Vertical Asymptote များ ရှိသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Period 360° or 180°?",
+      titleMy: "စီစစ်ကြမည် - Period 360° ဒါမှမဟုတ် 180°",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Period 360°", "Period 180°"],
+        bucketsMy: ["Period 360°", "Period 180°"],
+        items: [
+          SortingItem(
+            id: "y12math-w17-sort-1",
+            labelEn: "y = sin x",
+            labelMy: "y = sin x",
+            correctBucketEn: "Period 360°",
+            correctBucketMy: "Period 360°",
+          ),
+          SortingItem(
+            id: "y12math-w17-sort-2",
+            labelEn: "y = cos x",
+            labelMy: "y = cos x",
+            correctBucketEn: "Period 360°",
+            correctBucketMy: "Period 360°",
+          ),
+          SortingItem(
+            id: "y12math-w17-sort-3",
+            labelEn: "y = -sin x",
+            labelMy: "y = -sin x",
+            correctBucketEn: "Period 360°",
+            correctBucketMy: "Period 360°",
+          ),
+          SortingItem(
+            id: "y12math-w17-sort-4",
+            labelEn: "y = tan x",
+            labelMy: "y = tan x",
+            correctBucketEn: "Period 180°",
+            correctBucketMy: "Period 180°",
+          ),
+          SortingItem(
+            id: "y12math-w17-sort-5",
+            labelEn: "y = -tan x",
+            labelMy: "y = -tan x",
+            correctBucketEn: "Period 180°",
+            correctBucketMy: "Period 180°",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sketching y = 2 sin x",
+      titleMy: "စာဖတ်ခြင်း - y = 2 sin x ရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sketching y = 2 sin x",
+        titleMy: "y = 2 sin x ရေးဆွဲခြင်း",
+        passageEn:
+            "Sayar Zaw Min asked the class to sketch y = 2 sin x for 0° ≤ x ≤ 360° without a calculator, starting from the familiar shape of y = sin x. \"What stays the same and what changes?\" he asked.\n\nHtet Aung noticed that the x-intercepts wouldn't move — sin x is zero at 0°, 180°, and 360°, and multiplying by 2 doesn't change where the graph crosses zero. Su Su pointed out that the maximum and minimum values would double: instead of reaching up to 1 and down to -1, the graph of 2 sin x would reach up to 2 and down to -2. \"That's the amplitude changing from 1 to 2,\" she said, \"but the period stays exactly 360° either way.\"\n\nSayar Zaw Min then asked them to compare this to y = sin 2x instead, to check they understood the difference. Htet Aung worked out that y = sin 2x keeps an amplitude of 1 but halves the period to 180°, since the graph now completes a full cycle twice as fast. \"Multiplying the whole function stretches it vertically — that's amplitude,\" Sayar Zaw Min summarised, \"but multiplying x itself squashes it horizontally — that's period. Mixing those two up is the single most common mistake on this topic.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် အတန်းအား y = sin x ၏ ရင်းနှီးသော ပုံသဏ္ဌာန်မှ စတင်၍ Calculator မပါဘဲ 0° ≤ x ≤ 360° အတွက် y = 2 sin x ကို ရေးဆွဲရန် ခိုင်းစေခဲ့သည်။ \"ဘာက မပြောင်းလဲဘဲ ဘာက ပြောင်းလဲမလဲ\" ဟု သူ မေးခဲ့သည်။\n\nHtet Aung သည် x-Intercept များ မရွှေ့ကြောင်း သတိပြုမိခဲ့သည် -- sin x သည် 0°, 180°, 360° တွင် Zero ဖြစ်ပြီး 2 ဖြင့် မြှောက်ခြင်းသည် Graph က Zero ကို ဖြတ်သည့်နေရာကို မပြောင်းလဲပါ။ Su Su သည် အများဆုံးနှင့် အနည်းဆုံးတန်ဖိုးများ နှစ်ဆ ဖြစ်လာမည်ကို ညွှန်ပြခဲ့သည် - 1 နှင့် -1 အစား 2 sin x ၏ Graph သည် 2 အထိ တက်ပြီး -2 အထိ ကျမည်။ \"အဲဒါက Amplitude ၁ မှ ၂ သို့ ပြောင်းလဲတာပါ\" ဟု သူမ ဆိုသည်၊ \"ဒါပေမယ့် Period ကတော့ 360° အတိုင်းပါပဲ။\"\n\nဆရာဇော်မင်းသည် ထို့နောက် ၎င်းတို့ နားလည်မှု ရှိမရှိ စစ်ဆေးရန် y = sin 2x နှင့် နှိုင်းယှဉ်ခိုင်းခဲ့သည်။ Htet Aung သည် y = sin 2x သည် Amplitude ၁ ကို ထိန်းထားသော်လည်း Period ကို 180° သို့ တစ်ဝက်လျှော့ချကြောင်း တွက်ချက်တွေ့ရှိခဲ့သည်၊ Graph က Cycle တစ်ခုပြည့်ရန် အရှိန် နှစ်ဆ မြန်လာသောကြောင့်ဖြစ်သည်။ \"Function တစ်ခုလုံးကို မြှောက်ခြင်းက Vertical အနေဖြင့် ဆန့်စေတယ် -- အဲဒါ Amplitude ဖြစ်တယ်\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ်ပေးခဲ့သည်၊ \"ဒါပေမယ့် x ကိုယ်တိုင်ကို မြှောက်ခြင်းက Horizontal အနေဖြင့် ညှစ်ချစေတယ် -- အဲဒါ Period ဖြစ်တယ်။ ဒီနှစ်ခုကို ရောထွေးမိတာက ဒီခေါင်းစဉ်မှာ အများဆုံး တွေ့ရတဲ့ အမှားပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens to the x-intercepts of y = 2 sin x compared to y = sin x?",
+            questionMy:
+                "y = sin x နှင့် နှိုင်းယှဉ်ပါက y = 2 sin x ၏ x-Intercept များ မည်သို့ ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They stay the same",
+              "They double",
+              "They halve",
+              "They disappear",
+            ],
+            optionsMy: [
+              "မူလအတိုင်း ဆက်ရှိနေသည်",
+              "နှစ်ဆ ဖြစ်လာသည်",
+              "တစ်ဝက် လျှော့ကျသွားသည်",
+              "ပျောက်ကွယ်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the period of y = sin 2x?",
+            questionMy: "y = sin 2x ၏ Period ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["180°", "360°", "90°", "720°"],
+            optionsMy: ["180°", "360°", "90°", "720°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does multiplying x itself (not the whole function) affect?",
+            questionMy:
+                "x ကိုယ်တိုင်ကို မြှောက်ခြင်း (Function တစ်ခုလုံး မဟုတ်) သည် အဘယ်အရာကို ပြောင်းလဲစေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The period", "The amplitude", "The y-intercept", "The domain sign"],
+            optionsMy: ["Period ကို", "Amplitude ကို", "y-Intercept ကို", "Domain Sign ကို"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Trig Graphs",
+      titleMy: "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Trig Graphs",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The amplitude of y = 5 sin x is...",
+          questionMy: "y = 5 sin x ၏ Amplitude မှာ...",
+          optionsEn: ["5", "1", "10", "0"],
+          optionsMy: ["5", "1", "10", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "y = tan x has vertical asymptotes because...",
+          questionMy: "y = tan x တွင် Vertical Asymptote ရှိသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "tan x = sin x / cos x is undefined when cos x = 0",
+            "tan x is always negative",
+            "tan x has amplitude 0",
+            "tan x never repeats",
+          ],
+          optionsMy: [
+            "tan x = sin x / cos x သည် cos x = 0 ဖြစ်သောအခါ Undefined ဖြစ်သောကြောင့်",
+            "tan x သည် အမြဲ Negative ဖြစ်သောကြောင့်",
+            "tan x ၏ Amplitude သည် 0 ဖြစ်သောကြောင့်",
+            "tan x ဘယ်တော့မှ ထပ်ခါထပ်ခါ မဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "y = cos x and y = sin x share the same...",
+          questionMy: "y = cos x နှင့် y = sin x တို့တွင် တူညီသော အချက်မှာ...",
+          optionsEn: ["Period and range", "x-intercepts", "Asymptotes", "None of these"],
+          optionsMy: ["Period နှင့် Range", "x-Intercept များ", "Asymptote များ", "ဘာမျှ မတူပါ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "Trigonometric Identities"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek18 = CourseWeekDef(
+  id: "course-y12-math-w18",
+  weekNumber: 18,
+  titleEn: "Trigonometric Identities",
+  titleMy: "Trigonometric Identity များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w18-d1",
+      dayNumber: 1,
+      titleEn: "Using sin²θ + cos²θ = 1 and tan θ = sin θ / cos θ",
+      titleMy: "sin²θ + cos²θ = 1 နှင့် tan θ = sin θ / cos θ ကို အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "If sin θ = 3/5 and θ is acute, find cos θ using sin²θ + cos²θ = 1.",
+          questionMy: "sin θ = 3/5 ဖြစ်ပြီး θ သည် Acute ဖြစ်ပါက sin²θ + cos²θ = 1 ကို အသုံးပြု၍ cos θ ကို ရှာပါ။",
+          optionsEn: ["4/5", "3/5", "1/5", "5/4"],
+          optionsMy: ["4/5", "3/5", "1/5", "5/4"],
+          correctIndex: 0,
+          hintsEn: [
+            "cos²θ = 1 - (3/5)² = 1 - 9/25 = 16/25, so cos θ = 4/5.",
+          ],
+          hintsMy: [
+            "cos²θ = 1 - (3/5)² = 1 - 9/25 = 16/25, cos θ = 4/5 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Simplify sin²θ / (1 - cos²θ).",
+          questionMy: "sin²θ / (1 - cos²θ) ကို ရိုးရှင်းအောင် ပြုလုပ်ပါ။",
+          optionsEn: ["1", "sin θ", "cos θ", "0"],
+          optionsMy: ["1", "sin θ", "cos θ", "0"],
+          correctIndex: 0,
+          hintsEn: [
+            "1 - cos²θ = sin²θ, so the fraction becomes sin²θ / sin²θ = 1.",
+          ],
+          hintsMy: [
+            "1 - cos²θ = sin²θ ဖြစ်၍ Fraction သည် sin²θ / sin²θ = 1 ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "If sin θ = 0.6 and cos θ = 0.8, find tan θ.",
+          questionMy: "sin θ = 0.6 နှင့် cos θ = 0.8 ဖြစ်ပါက tan θ ကို ရှာပါ။",
+          optionsEn: ["0.75", "1.33", "0.48", "1.4"],
+          optionsMy: ["0.75", "1.33", "0.48", "1.4"],
+          correctIndex: 0,
+          hintsEn: [
+            "tan θ = sin θ / cos θ = 0.6 / 0.8 = 0.75.",
+          ],
+          hintsMy: [
+            "tan θ = sin θ / cos θ = 0.6 / 0.8 = 0.75 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Identity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Identity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w18-dm-1",
+          termEn: "sin²θ + cos²θ = 1",
+          termMy: "sin²θ + cos²θ = 1",
+          matchEn: "The Pythagorean identity",
+          matchMy: "Pythagorean Identity",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w18-dm-2",
+          termEn: "tan θ",
+          termMy: "tan θ",
+          matchEn: "Equals sin θ / cos θ",
+          matchMy: "sin θ / cos θ နှင့် ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w18-dm-3",
+          termEn: "1 - sin²θ",
+          termMy: "1 - sin²θ",
+          matchEn: "Equals cos²θ",
+          matchMy: "cos²θ နှင့် ညီသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w18-dm-4",
+          termEn: "1 - cos²θ",
+          termMy: "1 - cos²θ",
+          matchEn: "Equals sin²θ",
+          matchMy: "sin²θ နှင့် ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w18-dm-5",
+          termEn: "Identity",
+          termMy: "Identity",
+          matchEn: "True for all values of θ, unlike an ordinary equation",
+          matchMy: "Equation ပုံမှန်နှင့်မတူဘဲ θ ၏ တန်ဖိုးအားလုံးအတွက် မှန်ကန်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Simplifies to 1 or tan θ?",
+      titleMy: "စီစစ်ကြမည် - 1 ဖြစ်လား tan θ ဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Simplifies to 1", "Simplifies to tan θ"],
+        bucketsMy: ["1 ဖြစ်သွားသည်", "tan θ ဖြစ်သွားသည်"],
+        items: [
+          SortingItem(
+            id: "y12math-w18-sort-1",
+            labelEn: "sin²θ + cos²θ",
+            labelMy: "sin²θ + cos²θ",
+            correctBucketEn: "Simplifies to 1",
+            correctBucketMy: "1 ဖြစ်သွားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w18-sort-2",
+            labelEn: "cos²θ + sin²θ",
+            labelMy: "cos²θ + sin²θ",
+            correctBucketEn: "Simplifies to 1",
+            correctBucketMy: "1 ဖြစ်သွားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w18-sort-3",
+            labelEn: "(1 - cos²θ) / sin²θ",
+            labelMy: "(1 - cos²θ) / sin²θ",
+            correctBucketEn: "Simplifies to 1",
+            correctBucketMy: "1 ဖြစ်သွားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w18-sort-4",
+            labelEn: "sin θ / cos θ",
+            labelMy: "sin θ / cos θ",
+            correctBucketEn: "Simplifies to tan θ",
+            correctBucketMy: "tan θ ဖြစ်သွားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w18-sort-5",
+            labelEn: "(3 sin θ) / (3 cos θ)",
+            labelMy: "(3 sin θ) / (3 cos θ)",
+            correctBucketEn: "Simplifies to tan θ",
+            correctBucketMy: "tan θ ဖြစ်သွားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Missing Ratio",
+      titleMy: "စာဖတ်ခြင်း - ပျောက်နေသော Ratio",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Missing Ratio",
+        titleMy: "ပျောက်နေသော Ratio",
+        passageEn:
+            "Sayar Zaw Min gave Su Su a problem with only one trig ratio known: cos θ = 5/13, with θ acute, and asked her to find both sin θ and tan θ without a diagram.\n\nSu Su started from the Pythagorean identity, sin²θ + cos²θ = 1, and rearranged it to sin²θ = 1 - cos²θ = 1 - (5/13)² = 1 - 25/169 = 144/169. Taking the square root — and keeping it positive since θ is acute — gave sin θ = 12/13. \"The identity turns one known ratio into the other automatically,\" she said, \"as long as you know whether the angle is acute or not, so you pick the right sign.\"\n\nHtet Aung then found tan θ using the second identity, tan θ = sin θ / cos θ = (12/13) / (5/13) = 12/5. Sayar Zaw Min pointed out that this is exactly the classic 5-12-13 right-angled triangle in disguise: cos θ = adjacent/hypotenuse = 5/13, sin θ = opposite/hypotenuse = 12/13, and tan θ = opposite/adjacent = 12/5 — the two trig identities had reconstructed the entire triangle from a single ratio.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Su Su အား Trig Ratio တစ်ခုတည်းသာ သိထားသော ပြဿနာ ပေးခဲ့သည် - cos θ = 5/13, θ သည် Acute ဖြစ်ပြီး Diagram မပါဘဲ sin θ နှင့် tan θ နှစ်ခုစလုံးကို ရှာရန် ခိုင်းစေခဲ့သည်။\n\nSu Su သည် Pythagorean Identity, sin²θ + cos²θ = 1 မှ စတင်ခဲ့ပြီး ပြန်စီစဉ်၍ sin²θ = 1 - cos²θ = 1 - (5/13)² = 1 - 25/169 = 144/169 ရသည်။ Square Root ယူပြီး -- θ သည် Acute ဖြစ်သောကြောင့် Positive ကို ထားလိုက်ပါက -- sin θ = 12/13 ရသည်။ \"Identity က သိထားသော Ratio တစ်ခုကို အခြားတစ်ခုအဖြစ် အလိုအလျောက် ပြောင်းပေးတယ်\" ဟု သူမ ဆိုသည်၊ \"Angle သည် Acute ဖြစ်မဖြစ် သိထားရင် Sign မှန်ကန်အောင် ရွေးနိုင်တယ်ဆိုတဲ့ အခြေအနေမှာသာ ဖြစ်တယ်။\"\n\nHtet Aung သည် ဒုတိယ Identity, tan θ = sin θ / cos θ = (12/13) / (5/13) = 12/5 ကို အသုံးပြု၍ tan θ ကို ရှာခဲ့သည်။ ဆရာဇော်မင်းသည် ၎င်းသည် Classic 5-12-13 Right-Angled Triangle ကို ဝှက်ထားခြင်းသာ ဖြစ်ကြောင်း ညွှန်ပြခဲ့သည် - cos θ = Adjacent/Hypotenuse = 5/13, sin θ = Opposite/Hypotenuse = 12/13, tan θ = Opposite/Adjacent = 12/5 -- Trig Identity နှစ်ခုက Ratio တစ်ခုတည်းမှ Triangle တစ်ခုလုံးကို ပြန်တည်ဆောက်ပေးနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is sin θ when cos θ = 5/13?",
+            questionMy: "cos θ = 5/13 ဖြစ်ပါက sin θ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["12/13", "5/13", "13/5", "12/5"],
+            optionsMy: ["12/13", "5/13", "13/5", "12/5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is tan θ in this problem?",
+            questionMy: "ဤပြဿနာတွင် tan θ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["12/5", "5/12", "12/13", "5/13"],
+            optionsMy: ["12/5", "5/12", "12/13", "5/13"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Su Su keep the positive square root?",
+            questionMy: "Su Su သည် Positive Square Root ကို အဘယ်ကြောင့် ယူထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Because θ is acute",
+              "Because 144 is a perfect square",
+              "Because cos θ is negative",
+              "Because tan θ must be positive",
+            ],
+            optionsMy: [
+              "θ သည် Acute ဖြစ်သောကြောင့်",
+              "144 သည် Perfect Square ဖြစ်သောကြောင့်",
+              "cos θ သည် Negative ဖြစ်သောကြောင့်",
+              "tan θ သည် Positive ဖြစ်ရမည်ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Trig Identities",
+      titleMy: "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Trig Identities",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "sin²θ + cos²θ always equals...",
+          questionMy: "sin²θ + cos²θ သည် အမြဲ ...နှင့် ညီသည်",
+          optionsEn: ["1", "0", "θ", "2"],
+          optionsMy: ["1", "0", "θ", "2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "tan θ is defined as...",
+          questionMy: "tan θ ကို ...ဟု သတ်မှတ်သည်",
+          optionsEn: ["sin θ / cos θ", "cos θ / sin θ", "sin θ + cos θ", "sin θ × cos θ"],
+          optionsMy: ["sin θ / cos θ", "cos θ / sin θ", "sin θ + cos θ", "sin θ × cos θ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "1 - sin²θ simplifies to...",
+          questionMy: "1 - sin²θ ကို ရိုးရှင်းအောင်ပြုလုပ်ပါက...",
+          optionsEn: ["cos²θ", "sin²θ", "tan²θ", "1"],
+          optionsMy: ["cos²θ", "sin²θ", "tan²θ", "1"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Solving Trigonometric Equations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek19 = CourseWeekDef(
+  id: "course-y12-math-w19",
+  weekNumber: 19,
+  titleEn: "Solving Trigonometric Equations",
+  titleMy: "Trigonometric Equation များ ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w19-d1",
+      dayNumber: 1,
+      titleEn: "Solving Over a Given Interval",
+      titleMy: "သတ်မှတ် Interval အတွင်း ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve sin x = 0.5 for 0° ≤ x ≤ 360°.",
+          questionMy: "0° ≤ x ≤ 360° တွင် sin x = 0.5 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 30°, 150°", "x = 30°, 210°", "x = 60°, 120°", "x = 30° only"],
+          optionsMy: ["x = 30°, 150°", "x = 30°, 210°", "x = 60°, 120°", "x = 30° only"],
+          correctIndex: 0,
+          hintsEn: [
+            "The principal value is 30°. Since sine is positive in the 1st and 2nd quadrants, the second solution is 180° - 30° = 150°.",
+          ],
+          hintsMy: [
+            "Principal Value မှာ 30° ဖြစ်သည်။ Sine သည် 1st နှင့် 2nd Quadrant တွင် Positive ဖြစ်၍ ဒုတိယ Solution မှာ 180° - 30° = 150° ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve cos x = -0.5 for 0° ≤ x ≤ 360°.",
+          questionMy: "0° ≤ x ≤ 360° တွင် cos x = -0.5 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 120°, 240°", "x = 60°, 300°", "x = 120°, 300°", "x = 60°, 240°"],
+          optionsMy: ["x = 120°, 240°", "x = 60°, 300°", "x = 120°, 300°", "x = 60°, 240°"],
+          correctIndex: 0,
+          hintsEn: [
+            "cos x = -0.5 gives a reference angle of 60°. Cosine is negative in the 2nd and 3rd quadrants: 180° - 60° = 120°, and 180° + 60° = 240°.",
+          ],
+          hintsMy: [
+            "cos x = -0.5 သည် Reference Angle 60° ပေးသည်။ Cosine သည် 2nd နှင့် 3rd Quadrant တွင် Negative ဖြစ်၍: 180° - 60° = 120°, နှင့် 180° + 60° = 240° ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve tan x = 1 for 0° ≤ x ≤ 360°.",
+          questionMy: "0° ≤ x ≤ 360° တွင် tan x = 1 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 45°, 225°", "x = 45°, 135°", "x = 45° only", "x = 45°, 315°"],
+          optionsMy: ["x = 45°, 225°", "x = 45°, 135°", "x = 45° only", "x = 45°, 315°"],
+          correctIndex: 0,
+          hintsEn: [
+            "tan x has period 180°, so the second solution is 45° + 180° = 225°.",
+          ],
+          hintsMy: [
+            "tan x ၏ Period မှာ 180° ဖြစ်၍ ဒုတိယ Solution မှာ 45° + 180° = 225° ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Solving Equations Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Equation ဖြေရှင်းခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w19-dm-1",
+          termEn: "Principal value",
+          termMy: "Principal Value",
+          matchEn: "The value given directly by a calculator's inverse trig function",
+          matchMy: "Calculator ၏ Inverse Trig Function က တိုက်ရိုက် ပေးသော တန်ဖိုး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w19-dm-2",
+          termEn: "sin x = k has solutions in [0°, 360°]",
+          termMy: "sin x = k, [0°, 360°] အတွင်း Solution များ",
+          matchEn: "Usually two values (for -1 < k < 1, k ≠ 0)",
+          matchMy: "ပုံမှန်အားဖြင့် တန်ဖိုးနှစ်ခု (-1 < k < 1, k ≠ 0 အတွက်)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w19-dm-3",
+          termEn: "cos x symmetry",
+          termMy: "cos x Symmetry",
+          matchEn: "cos x = cos(360° - x)",
+          matchMy: "cos x = cos(360° - x)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w19-dm-4",
+          termEn: "sin x symmetry",
+          termMy: "sin x Symmetry",
+          matchEn: "sin x = sin(180° - x)",
+          matchMy: "sin x = sin(180° - x)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w19-dm-5",
+          termEn: "tan x period property",
+          termMy: "tan x Period Property",
+          matchEn: "tan x = tan(x + 180°)",
+          matchMy: "tan x = tan(x + 180°)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Positive or Negative Sine Value?",
+      titleMy: "စီစစ်ကြမည် - Sine တန်ဖိုး Positive လား Negative လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Positive sine value (1st and 2nd quadrant)",
+          "Negative sine value (3rd and 4th quadrant)",
+        ],
+        bucketsMy: [
+          "Positive Sine Value (1st, 2nd Quadrant)",
+          "Negative Sine Value (3rd, 4th Quadrant)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w19-sort-1",
+            labelEn: "sin x = 0.5",
+            labelMy: "sin x = 0.5",
+            correctBucketEn: "Positive sine value (1st and 2nd quadrant)",
+            correctBucketMy: "Positive Sine Value (1st, 2nd Quadrant)",
+          ),
+          SortingItem(
+            id: "y12math-w19-sort-2",
+            labelEn: "sin x = -0.5",
+            labelMy: "sin x = -0.5",
+            correctBucketEn: "Negative sine value (3rd and 4th quadrant)",
+            correctBucketMy: "Negative Sine Value (3rd, 4th Quadrant)",
+          ),
+          SortingItem(
+            id: "y12math-w19-sort-3",
+            labelEn: "sin x = 0.8",
+            labelMy: "sin x = 0.8",
+            correctBucketEn: "Positive sine value (1st and 2nd quadrant)",
+            correctBucketMy: "Positive Sine Value (1st, 2nd Quadrant)",
+          ),
+          SortingItem(
+            id: "y12math-w19-sort-4",
+            labelEn: "sin x = -0.3",
+            labelMy: "sin x = -0.3",
+            correctBucketEn: "Negative sine value (3rd and 4th quadrant)",
+            correctBucketMy: "Negative Sine Value (3rd, 4th Quadrant)",
+          ),
+          SortingItem(
+            id: "y12math-w19-sort-5",
+            labelEn: "sin x = 0.2",
+            labelMy: "sin x = 0.2",
+            correctBucketEn: "Positive sine value (1st and 2nd quadrant)",
+            correctBucketMy: "Positive Sine Value (1st, 2nd Quadrant)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Solutions, Not One",
+      titleMy: "စာဖတ်ခြင်း - Solution နှစ်ခု၊ တစ်ခုမဟုတ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Solutions, Not One",
+        titleMy: "Solution နှစ်ခု၊ တစ်ခုမဟုတ်",
+        passageEn:
+            "Htet Aung typed sin x = 0.7 into his calculator, got x ≈ 44.4°, and wrote that down as his final answer for 0° ≤ x ≤ 360°. Sayar Zaw Min stopped him immediately: \"A calculator only ever gives you the principal value — one solution. This interval almost always has more.\"\n\nSu Su reminded the class that sine is positive in both the 1st and 2nd quadrants, so wherever there's one solution near the start of the circle, there's a matching one closer to 180°. Using the symmetry sin x = sin(180° - x), she found the second solution: 180° - 44.4° = 135.6°. So the full answer was x ≈ 44.4° or x ≈ 135.6°, not just the single value the calculator displayed.\n\nHtet Aung asked how you'd know, before solving, how many solutions to expect. Sayar Zaw Min explained that sketching a quick graph — or thinking about which quadrants give a positive (or negative) value for that particular trig ratio — tells you immediately: two solutions for a typical sine or cosine equation in a 360° interval, but for tan x the period is only 180°, so a full 360° interval usually gives two solutions there too, just found by adding 180° to the principal value instead of using quadrant symmetry.",
+        passageMy:
+            "Htet Aung သည် sin x = 0.7 ကို Calculator ထဲ ရိုက်ထည့်ပြီး x ≈ 44.4° ရရှိကာ 0° ≤ x ≤ 360° အတွက် သူ၏ နောက်ဆုံးအဖြေအဖြစ် ရေးချခဲ့သည်။ ဆရာဇော်မင်းသည် ချက်ချင်းတားခဲ့သည် - \"Calculator က Principal Value တစ်ခုတည်းသာ အမြဲ ပေးတယ် -- Solution တစ်ခုပါပဲ။ ဒီ Interval မှာတော့ ဒါထက်ပိုတာ အမြဲနီးပါး ရှိတယ်။\"\n\nSu Su သည် Sine သည် 1st နှင့် 2nd Quadrant နှစ်ခုစလုံးတွင် Positive ဖြစ်ကြောင်း အတန်းအား ပြန်သတိပေးခဲ့သည်၊ ထို့ကြောင့် Circle ၏ အစပိုင်းအနီး Solution တစ်ခု ရှိတိုင်း 180° နှင့် နီးစပ်သော ကိုက်ညီသည့် Solution တစ်ခု ရှိသည်။ sin x = sin(180° - x) Symmetry ကို အသုံးပြု၍ သူမ ဒုတိယ Solution ကို ရှာတွေ့ခဲ့သည် - 180° - 44.4° = 135.6° ။ ထို့ကြောင့် အပြည့်အစုံ အဖြေမှာ x ≈ 44.4° (သို့) x ≈ 135.6° ဖြစ်ပြီး Calculator က ပြသော တန်ဖိုးတစ်ခုတည်း မဟုတ်ပါ။\n\nHtet Aung သည် ဖြေရှင်းမီ Solution ဘယ်နှစ်ခု မျှော်လင့်ရမည်ကို မည်သို့ သိနိုင်သည်ကို မေးမြန်းခဲ့သည်။ ဆရာဇော်မင်းသည် Graph အမြန် ရေးဆွဲကြည့်ခြင်း -- ဒါမှမဟုတ် Trig Ratio ထိုသို့ Positive (သို့) Negative ဖြစ်စေသော Quadrant များအကြောင်း စဉ်းစားခြင်းက ချက်ချင်း ပြောပြနိုင်ကြောင်း ရှင်းပြခဲ့သည် - 360° Interval တွင် ပုံမှန် Sine (သို့) Cosine Equation အတွက် Solution နှစ်ခု၊ ဒါပေမယ့် tan x အတွက် Period ကတော့ 180° သာရှိသောကြောင့် 360° Interval အပြည့်တွင် ပုံမှန်အားဖြင့် Solution နှစ်ခု ရသော်လည်း Quadrant Symmetry မသုံးဘဲ Principal Value ကို 180° ပေါင်းခြင်းဖြင့်သာ ရှာရသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does a calculator's inverse trig function give?",
+            questionMy: "Calculator ၏ Inverse Trig Function က မည်သည့်အရာကို ပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only the principal value",
+              "All solutions at once",
+              "The period only",
+              "Nothing useful",
+            ],
+            optionsMy: [
+              "Principal Value တစ်ခုတည်းသာ",
+              "Solution အားလုံးကို တစ်ပြိုင်နက်",
+              "Period တစ်ခုတည်းသာ",
+              "အသုံးဝင်သော အရာ ဘာမျှ မဟုတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the second solution Su Su found for sin x = 0.7?",
+            questionMy: "sin x = 0.7 အတွက် Su Su ရှာတွေ့ခဲ့သော ဒုတိယ Solution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["135.6°", "44.4°", "224.4°", "315.6°"],
+            optionsMy: ["135.6°", "44.4°", "224.4°", "315.6°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how is the second solution for a tan x equation found?",
+            questionMy:
+                "tan x Equation တစ်ခု၏ ဒုတိယ Solution ကို မည်သို့ ရှာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By adding 180° to the principal value",
+              "By using quadrant symmetry only",
+              "By subtracting 360°",
+              "There is never a second solution",
+            ],
+            optionsMy: [
+              "Principal Value ကို 180° ပေါင်းခြင်းဖြင့်",
+              "Quadrant Symmetry တစ်ခုတည်း အသုံးပြု၍",
+              "360° နုတ်ခြင်းဖြင့်",
+              "ဒုတိယ Solution ဘယ်တော့မှ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Solving Trig Equations",
+      titleMy: "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Trig Equation ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A calculator's inverse trig function gives...",
+          questionMy: "Calculator ၏ Inverse Trig Function က ...ကို ပေးသည်",
+          optionsEn: ["The principal value only", "All solutions", "Only negative solutions", "The period"],
+          optionsMy: ["Principal Value တစ်ခုတည်းသာ", "Solution အားလုံး", "Negative Solution များသာ", "Period"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sine is positive in which quadrants?",
+          questionMy: "Sine သည် မည်သည့် Quadrant များတွင် Positive ဖြစ်သနည်း။",
+          optionsEn: ["1st and 2nd", "2nd and 3rd", "3rd and 4th", "1st and 4th"],
+          optionsMy: ["1st, 2nd", "2nd, 3rd", "3rd, 4th", "1st, 4th"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For tan x = k over 0°-360°, the second solution is found by...",
+          questionMy: "0°-360° အတွင်း tan x = k အတွက် ဒုတိယ Solution ကို ...ဖြင့် ရှာသည်",
+          optionsEn: ["Adding 180° to the principal value", "Adding 360°", "Subtracting 90°", "Using cos symmetry"],
+          optionsMy: ["Principal Value ကို 180° ပေါင်းခြင်းဖြင့်", "360° ပေါင်းခြင်းဖြင့်", "90° နုတ်ခြင်းဖြင့်", "cos Symmetry အသုံးပြု၍"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20 (Boss Week): "Exact Values and Combined Trigonometry Problems"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek20 = CourseWeekDef(
+  id: "course-y12-math-w20",
+  weekNumber: 20,
+  titleEn: "Exact Values and Combined Trigonometry Problems",
+  titleMy: "Exact Value များနှင့် ပေါင်းစပ် Trigonometry ပြဿနာများ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w20-d1",
+      dayNumber: 1,
+      titleEn: "Exact Values for 0°, 30°, 45°, 60°, 90°",
+      titleMy: "0°, 30°, 45°, 60°, 90° အတွက် Exact Value များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "What is the exact value of sin 30°?",
+          questionMy: "sin 30° ၏ Exact Value မှာ မည်မျှနည်း။",
+          optionsEn: ["1/2", "√3/2", "√2/2", "1"],
+          optionsMy: ["1/2", "√3/2", "√2/2", "1"],
+          correctIndex: 0,
+          hintsEn: [
+            "sin 30° = 1/2 -- one of the standard exact values to memorise.",
+          ],
+          hintsMy: [
+            "sin 30° = 1/2 -- အလွတ်ကျက်ရမည့် Standard Exact Value များထဲမှ တစ်ခု။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the exact value of cos 45°?",
+          questionMy: "cos 45° ၏ Exact Value မှာ မည်မျှနည်း။",
+          optionsEn: ["√2/2", "1/2", "√3/2", "1"],
+          optionsMy: ["√2/2", "1/2", "√3/2", "1"],
+          correctIndex: 0,
+          hintsEn: [
+            "In a right-angled isosceles triangle with legs 1, the hypotenuse is √2, so cos 45° = 1/√2 = √2/2.",
+          ],
+          hintsMy: [
+            "Legs 1 ရှိသော Right-Angled Isosceles Triangle တွင် Hypotenuse မှာ √2 ဖြစ်၍ cos 45° = 1/√2 = √2/2 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What is the exact value of tan 60°?",
+          questionMy: "tan 60° ၏ Exact Value မှာ မည်မျှနည်း။",
+          optionsEn: ["√3", "1/√3", "√3/2", "2"],
+          optionsMy: ["√3", "1/√3", "√3/2", "2"],
+          correctIndex: 0,
+          hintsEn: [
+            "tan 60° = sin 60° / cos 60° = (√3/2) / (1/2) = √3.",
+          ],
+          hintsMy: [
+            "tan 60° = sin 60° / cos 60° = (√3/2) / (1/2) = √3 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Exact Trig Values",
+      titleMy: "တွဲစပ်ကြမည် - Exact Trig Value များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w20-dm-1",
+          termEn: "sin 30°",
+          termMy: "sin 30°",
+          matchEn: "1/2",
+          matchMy: "1/2",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w20-dm-2",
+          termEn: "cos 30°",
+          termMy: "cos 30°",
+          matchEn: "√3/2",
+          matchMy: "√3/2",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w20-dm-3",
+          termEn: "sin 45°",
+          termMy: "sin 45°",
+          matchEn: "√2/2",
+          matchMy: "√2/2",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w20-dm-4",
+          termEn: "tan 45°",
+          termMy: "tan 45°",
+          matchEn: "1",
+          matchMy: "1",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w20-dm-5",
+          termEn: "cos 60°",
+          termMy: "cos 60°",
+          matchEn: "1/2",
+          matchMy: "1/2",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Equals 1/2 or √3/2?",
+      titleMy: "စီစစ်ကြမည် - 1/2 ဖြစ်လား √3/2 ဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Equals 1/2", "Equals √3/2"],
+        bucketsMy: ["1/2 နှင့် ညီသည်", "√3/2 နှင့် ညီသည်"],
+        items: [
+          SortingItem(
+            id: "y12math-w20-sort-1",
+            labelEn: "sin 30°",
+            labelMy: "sin 30°",
+            correctBucketEn: "Equals 1/2",
+            correctBucketMy: "1/2 နှင့် ညီသည်",
+          ),
+          SortingItem(
+            id: "y12math-w20-sort-2",
+            labelEn: "cos 60°",
+            labelMy: "cos 60°",
+            correctBucketEn: "Equals 1/2",
+            correctBucketMy: "1/2 နှင့် ညီသည်",
+          ),
+          SortingItem(
+            id: "y12math-w20-sort-3",
+            labelEn: "sin 150°",
+            labelMy: "sin 150°",
+            correctBucketEn: "Equals 1/2",
+            correctBucketMy: "1/2 နှင့် ညီသည်",
+          ),
+          SortingItem(
+            id: "y12math-w20-sort-4",
+            labelEn: "cos 30°",
+            labelMy: "cos 30°",
+            correctBucketEn: "Equals √3/2",
+            correctBucketMy: "√3/2 နှင့် ညီသည်",
+          ),
+          SortingItem(
+            id: "y12math-w20-sort-5",
+            labelEn: "sin 60°",
+            labelMy: "sin 60°",
+            correctBucketEn: "Equals √3/2",
+            correctBucketMy: "√3/2 နှင့် ညီသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term 5 Capstone",
+      titleMy: "စာဖတ်ခြင်း - Term 5 Capstone",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term 5 Capstone",
+        titleMy: "Term 5 Capstone",
+        passageEn:
+            "For the Term 5 capstone, Sayar Zaw Min posed one equation that pulled the whole term together: solve 2 sin x - 1 = 0 for 0° ≤ x ≤ 360°, giving the answer using exact values only — no decimals allowed.\n\nHtet Aung rearranged the equation first: 2 sin x = 1, so sin x = 1/2. \"That's one of our exact values from this week,\" he said, recognising it immediately as sin 30° = 1/2, so the principal value was x = 30°. Su Su then applied the quadrant symmetry from two weeks earlier: since sine is positive in the 1st and 2nd quadrants, the second solution was 180° - 30° = 150°.\n\n\"Notice how every piece of this term fed into that one answer,\" Sayar Zaw Min said. \"We needed to recognise the graph shape to know sine gives two solutions in this interval, the identity sin x = sin(180° - x) to find the second one, and the exact value sin 30° = 1/2 to avoid a calculator decimal altogether.\" The final answer, x = 30° or x = 150°, used all three ideas from the term at once — proof that exact values, identities, and equation-solving are really one connected skill, not three separate topics.",
+        passageMy:
+            "Term 5 Capstone အတွက် ဆရာဇော်မင်းသည် Term တစ်ခုလုံးကို ပေါင်းစည်းစေမည့် Equation တစ်ခု တင်ပြခဲ့သည် - 0° ≤ x ≤ 360° တွင် 2 sin x - 1 = 0 ကို ဖြေရှင်းပြီး Exact Value ဖြင့်သာ အဖြေပေးရမည် -- Decimal လုံးဝ ခွင့်မပြုပါ။\n\nHtet Aung သည် Equation ကို အရင် ပြန်စီစဉ်ခဲ့သည် - 2 sin x = 1, sin x = 1/2 ရသည်။ \"အဲဒါ ဒီအပတ်က ကျွန်တော်တို့ Exact Value တွေထဲက တစ်ခုပါပဲ\" ဟု သူ ဆိုသည်၊ sin 30° = 1/2 ဟု ချက်ချင်း သိလိုက်ပြီး Principal Value မှာ x = 30° ဖြစ်ကြောင်း တွေ့ရှိခဲ့သည်။ Su Su သည် ထို့နောက် နှစ်ပတ်အလျင်က Quadrant Symmetry ကို အသုံးချခဲ့သည် - Sine သည် 1st နှင့် 2nd Quadrant တွင် Positive ဖြစ်သောကြောင့် ဒုတိယ Solution မှာ 180° - 30° = 150° ။\n\n\"ဒီ Term ရဲ့ အပိုင်းတစ်ခုစီက အဲဒီအဖြေတစ်ခုထဲကို မည်သို့ ပံ့ပိုးပေးသလဲ သတိပြုပါ\" ဟု ဆရာဇော်မင်း ဆိုသည်။ \"Sine က ဒီ Interval မှာ Solution နှစ်ခု ပေးမယ်ဆိုတာ သိရန် Graph ပုံသဏ္ဌာန်ကို မှတ်မိရမယ်၊ ဒုတိယတစ်ခု ရှာရန် sin x = sin(180° - x) Identity ကို သုံးရမယ်၊ Calculator Decimal လုံးဝ မလိုအောင် sin 30° = 1/2 Exact Value ကို သုံးရမယ်။\" နောက်ဆုံးအဖြေ x = 30° (သို့) x = 150° သည် Term တစ်ခုလုံးမှ အယူအဆသုံးခု အားလုံးကို တစ်ပြိုင်နက် အသုံးချခဲ့သည် -- Exact Value, Identity, Equation ဖြေရှင်းခြင်းတို့သည် Topic သီးခြားသုံးခုမဟုတ်ဘဲ ဆက်စပ်နေသော Skill တစ်ခုတည်း ဖြစ်ကြောင်း သက်သေထူနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the principal value solution to 2 sin x - 1 = 0?",
+            questionMy: "2 sin x - 1 = 0 ၏ Principal Value Solution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["30°", "60°", "150°", "45°"],
+            optionsMy: ["30°", "60°", "150°", "45°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the second solution found using quadrant symmetry?",
+            questionMy: "Quadrant Symmetry ဖြင့် ရှာတွေ့ခဲ့သော ဒုတိယ Solution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["150°", "210°", "330°", "60°"],
+            optionsMy: ["150°", "210°", "330°", "60°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, which three ideas from the term combined to solve the capstone equation?",
+            questionMy:
+                "Capstone Equation ကို ဖြေရှင်းရန် ပေါင်းစပ်ခဲ့သော Term ၏ အယူအဆသုံးခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Graph shape, the sine symmetry identity, and exact values",
+              "Only exact values",
+              "Only the graph shape",
+              "Only the sine symmetry identity",
+            ],
+            optionsMy: [
+              "Graph ပုံသဏ္ဌာန်၊ sine Symmetry Identity၊ Exact Value",
+              "Exact Value တစ်ခုတည်း",
+              "Graph ပုံသဏ္ဌာန်တစ်ခုတည်း",
+              "sine Symmetry Identity တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: Trigonometry Capstone",
+      titleMy: "နှစ်ဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Trigonometry Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The exact value of cos 0° is...",
+          questionMy: "cos 0° ၏ Exact Value မှာ...",
+          optionsEn: ["1", "0", "1/2", "√2/2"],
+          optionsMy: ["1", "0", "1/2", "√2/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The exact value of sin 90° is...",
+          questionMy: "sin 90° ၏ Exact Value မှာ...",
+          optionsEn: ["1", "0", "1/2", "√3/2"],
+          optionsMy: ["1", "0", "1/2", "√3/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solving a trig equation over an interval combines...",
+          questionMy: "Interval တစ်ခုပေါ်တွင် Trig Equation ဖြေရှင်းခြင်းသည် ...ကို ပေါင်းစပ်သည်",
+          optionsEn: [
+            "Exact values, identities, and quadrant symmetry",
+            "Only the quadratic formula",
+            "Only completing the square",
+            "Only binomial expansion",
+          ],
+          optionsMy: [
+            "Exact Value, Identity, Quadrant Symmetry",
+            "Quadratic Formula တစ်ခုတည်း",
+            "Completing the Square တစ်ခုတည်း",
+            "Binomial Expansion တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm5 = CourseTermDef(
+  id: "course-y12-math-t5",
+  termNumber: 5,
+  titleEn: "Trigonometry",
+  titleMy: "Trigonometry",
+  weeks: [_y12MathWeek17, _y12MathWeek18, _y12MathWeek19, _y12MathWeek20],
+  certificateTitleEn: "AS Mathematics: Trigonometry",
+  certificateTitleMy: "AS သင်္ချာ - Trigonometry",
+);
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 6:
+// "Series"
+// (Weeks 21-24)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "Binomial Expansion of (1+x)ⁿ"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek21 = CourseWeekDef(
+  id: "course-y12-math-w21",
+  weekNumber: 21,
+  titleEn: "Binomial Expansion of (1+x)ⁿ",
+  titleMy: "(1+x)ⁿ ၏ Binomial Expansion",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w21-d1",
+      dayNumber: 1,
+      titleEn: "Pascal's Triangle and Binomial Coefficients",
+      titleMy: "Pascal's Triangle နှင့် Binomial Coefficient များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Expand (1 + x)³ using Pascal's triangle coefficients 1, 3, 3, 1.",
+          questionMy: "Pascal's Triangle Coefficient 1, 3, 3, 1 ကို အသုံးပြု၍ (1 + x)³ ကို Expand ပါ။",
+          optionsEn: [
+            "1 + 3x + 3x² + x³",
+            "1 + 3x + x² + x³",
+            "1 + x + x² + x³",
+            "1 + 3x + 3x² + 3x³",
+          ],
+          optionsMy: [
+            "1 + 3x + 3x² + x³",
+            "1 + 3x + x² + x³",
+            "1 + x + x² + x³",
+            "1 + 3x + 3x² + 3x³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Match each Pascal's triangle coefficient to the rising power of x: 1(1) + 3(x) + 3(x²) + 1(x³).",
+          ],
+          hintsMy: [
+            "Pascal's Triangle Coefficient တစ်ခုစီကို x ၏ တက်လာသော Power နှင့် တွဲပါ: 1(1) + 3(x) + 3(x²) + 1(x³) ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "What are the binomial coefficients for row n = 4 of Pascal's triangle?",
+          questionMy: "Pascal's Triangle ၏ Row n = 4 အတွက် Binomial Coefficient များကို ဖော်ပြပါ။",
+          optionsEn: ["1, 4, 6, 4, 1", "1, 3, 3, 1", "1, 4, 4, 1", "1, 5, 10, 5, 1"],
+          optionsMy: ["1, 4, 6, 4, 1", "1, 3, 3, 1", "1, 4, 4, 1", "1, 5, 10, 5, 1"],
+          correctIndex: 0,
+          hintsEn: [
+            "Each number is the sum of the two above it: 1, (1+3=4), (3+3=6), (3+1=4), 1.",
+          ],
+          hintsMy: [
+            "နံပါတ်တစ်ခုစီသည် အပေါ်ရှိ နံပါတ်နှစ်ခု၏ ပေါင်းလဒ်ဖြစ်သည်: 1, (1+3=4), (3+3=6), (3+1=4), 1 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the expansion of (1 + x)⁵, what is the coefficient of x²?",
+          questionMy: "(1 + x)⁵ ၏ Expansion တွင် x² ၏ Coefficient မှာ မည်မျှနည်း။",
+          optionsEn: ["10", "5", "20", "15"],
+          optionsMy: ["10", "5", "20", "15"],
+          correctIndex: 0,
+          hintsEn: [
+            "Use 5C2 = 5! / (2! × 3!) = 10.",
+          ],
+          hintsMy: [
+            "5C2 = 5! / (2! × 3!) = 10 ကို သုံးပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Binomial Expansion Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Binomial Expansion ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w21-dm-1",
+          termEn: "Pascal's Triangle",
+          termMy: "Pascal's Triangle",
+          matchEn: "A triangular array where each number is the sum of the two above it",
+          matchMy: "နံပါတ်တစ်ခုစီသည် အပေါ်ရှိ နံပါတ်နှစ်ခု၏ ပေါင်းလဒ်ဖြစ်သော သုံးထောင့်ပုံစံ Array",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w21-dm-2",
+          termEn: "Binomial coefficient nCr",
+          termMy: "Binomial Coefficient nCr",
+          matchEn: "The coefficient of the term with xʳ in (1 + x)ⁿ",
+          matchMy: "(1 + x)ⁿ တွင် xʳ ပါသော Term ၏ Coefficient",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w21-dm-3",
+          termEn: "(1 + x)ⁿ",
+          termMy: "(1 + x)ⁿ",
+          matchEn: "Expands to 1 + nx + ... + xⁿ",
+          matchMy: "1 + nx + ... + xⁿ အဖြစ် Expand ဖြစ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w21-dm-4",
+          termEn: "Row n of Pascal's Triangle",
+          termMy: "Pascal's Triangle ၏ Row n",
+          matchEn: "Gives the coefficients for expanding (1 + x)ⁿ",
+          matchMy: "(1 + x)ⁿ ကို Expand ရန် Coefficient များ ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w21-dm-5",
+          termEn: "Symmetry of binomial coefficients",
+          termMy: "Binomial Coefficient ၏ Symmetry",
+          matchEn: "nCr = nC(n - r)",
+          matchMy: "nCr = nC(n - r)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False Binomial Coefficients",
+      titleMy: "စီစစ်ကြမည် - Binomial Coefficient မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True", "False"],
+        bucketsMy: ["မှန်သည်", "မှားသည်"],
+        items: [
+          SortingItem(
+            id: "y12math-w21-sort-1",
+            labelEn: "4C0 = 1",
+            labelMy: "4C0 = 1",
+            correctBucketEn: "True",
+            correctBucketMy: "မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w21-sort-2",
+            labelEn: "4C1 = 4",
+            labelMy: "4C1 = 4",
+            correctBucketEn: "True",
+            correctBucketMy: "မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w21-sort-3",
+            labelEn: "4C2 = 6",
+            labelMy: "4C2 = 6",
+            correctBucketEn: "True",
+            correctBucketMy: "မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w21-sort-4",
+            labelEn: "4C2 = 8",
+            labelMy: "4C2 = 8",
+            correctBucketEn: "False",
+            correctBucketMy: "မှားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w21-sort-5",
+            labelEn: "4C1 = 6",
+            labelMy: "4C1 = 6",
+            correctBucketEn: "False",
+            correctBucketMy: "မှားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building (1+x)⁴ Row by Row",
+      titleMy: "စာဖတ်ခြင်း - (1+x)⁴ ကို Row အလိုက် တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building (1+x)⁴ Row by Row",
+        titleMy: "(1+x)⁴ ကို Row အလိုက် တည်ဆောက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min opened Term 6 by writing the first few rows of Pascal's triangle on the board: 1; 1,1; 1,2,1; 1,3,3,1; and asked Htet Aung to figure out the next row without being told the rule.\n\nHtet Aung studied the pattern and noticed that each number was the sum of the two numbers diagonally above it. Row 4 would start and end with 1, then the second number would be 1 + 3 = 4, and the third would be 3 + 3 = 6, and the fourth (by the triangle's left-right symmetry) would match the second: 4. So row 4 was 1, 4, 6, 4, 1.\n\nSu Su then used that row directly to expand (1 + x)⁴: matching each coefficient to the rising power of x gave 1 + 4x + 6x² + 4x³ + x⁴. \"Notice the powers of x always go from 0 up to n, and the coefficients always come straight from row n,\" Sayar Zaw Min summarised. \"Once you can build the row, the expansion writes itself.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Pascal's Triangle ၏ ပထမဆုံး Row အနည်းငယ်ကို Board ပေါ်တွင် ရေးခဲ့သည် - 1; 1,1; 1,2,1; 1,3,3,1; ထို့နောက် Htet Aung အား စည်းမျဉ်းကို မပြောဘဲ နောက် Row ကို ရှာဖွေခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် Pattern ကို လေ့လာပြီး နံပါတ်တစ်ခုစီသည် ၎င်း၏ Diagonal အပေါ်ရှိ နံပါတ်နှစ်ခု၏ ပေါင်းလဒ်ဖြစ်ကြောင်း သတိပြုမိခဲ့သည်။ Row 4 သည် 1 ဖြင့် စ၍ 1 ဖြင့် ဆုံးမည်ဖြစ်ပြီး ဒုတိယ နံပါတ်မှာ 1 + 3 = 4, တတိယမှာ 3 + 3 = 6, ထို့နောက် (Triangle ၏ ဘယ်-ညာ Symmetry ကြောင့်) စတုတ္ထ နံပါတ်သည် ဒုတိယ နံပါတ်နှင့် ကိုက်ညီမည် - 4 ။ ထို့ကြောင့် Row 4 သည် 1, 4, 6, 4, 1 ဖြစ်သည်။\n\nSu Su သည် ထိုRow ကို (1 + x)⁴ ကို Expand ရန် တိုက်ရိုက် အသုံးပြုခဲ့သည် - Coefficient တစ်ခုစီကို x ၏ တက်လာသော Power နှင့် တွဲပါက 1 + 4x + 6x² + 4x³ + x⁴ ရသည်။ \"x ၏ Power များသည် 0 မှ n အထိ အမြဲ တက်သွားပြီး Coefficient များသည် Row n မှ တိုက်ရိုက် လာကြောင်း သတိပြုပါ\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ်ပေးခဲ့သည်။ \"Row ကို တည်ဆောက်နိုင်ပြီဆိုရင် Expansion က သူ့ဟာသူ ရေးမိသွားပါလိမ့်မယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is row 4 of Pascal's triangle?",
+            questionMy: "Pascal's Triangle ၏ Row 4 ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1, 4, 6, 4, 1", "1, 3, 3, 1", "1, 4, 4, 1", "1, 5, 10, 5, 1"],
+            optionsMy: ["1, 4, 6, 4, 1", "1, 3, 3, 1", "1, 4, 4, 1", "1, 5, 10, 5, 1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the full expansion of (1 + x)⁴?",
+            questionMy: "(1 + x)⁴ ၏ Expansion အပြည့်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "1 + 4x + 6x² + 4x³ + x⁴",
+              "1 + 4x + 4x² + x³",
+              "1 + 6x + 4x² + x³",
+              "1 + 4x + 6x² + x⁴",
+            ],
+            optionsMy: [
+              "1 + 4x + 6x² + 4x³ + x⁴",
+              "1 + 4x + 4x² + x³",
+              "1 + 6x + 4x² + x³",
+              "1 + 4x + 6x² + x⁴",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how is each number in Pascal's triangle formed?",
+            questionMy: "Pascal's Triangle ရှိ နံပါတ်တစ်ခုစီကို မည်သို့ ဖွဲ့စည်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By adding the two numbers diagonally above it",
+              "By multiplying the row number by itself",
+              "By subtracting the row number from 10",
+              "By dividing the row number by 2",
+            ],
+            optionsMy: [
+              "Diagonal အပေါ်ရှိ နံပါတ်နှစ်ခုကို ပေါင်းခြင်းဖြင့်",
+              "Row နံပါတ်ကို ကိုယ်နှင့်ကိုယ် မြှောက်ခြင်းဖြင့်",
+              "Row နံပါတ်ကို 10 မှ နုတ်ခြင်းဖြင့်",
+              "Row နံပါတ်ကို 2 ဖြင့် စားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Binomial Expansion",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Binomial Expansion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Pascal's triangle gives the coefficients for expanding...",
+          questionMy: "Pascal's Triangle သည် ...ကို Expand ရန် Coefficient များ ပေးသည်",
+          optionsEn: ["(1 + x)ⁿ", "x²", "x + n", "n!"],
+          optionsMy: ["(1 + x)ⁿ", "x²", "x + n", "n!"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Row 3 of Pascal's triangle is...",
+          questionMy: "Pascal's Triangle ၏ Row 3 မှာ...",
+          optionsEn: ["1, 3, 3, 1", "1, 2, 1", "1, 4, 6, 4, 1", "1, 3, 1"],
+          optionsMy: ["1, 3, 3, 1", "1, 2, 1", "1, 4, 6, 4, 1", "1, 3, 1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In (1 + x)ⁿ, the power of x in each term ranges from...",
+          questionMy: "(1 + x)ⁿ တွင် Term တစ်ခုစီရှိ x ၏ Power သည် ...အတွင်း ရှိသည်",
+          optionsEn: ["0 to n", "1 to n", "0 to n - 1", "n to 2n"],
+          optionsMy: ["0 မှ n", "1 မှ n", "0 မှ n - 1", "n မှ 2n"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Finding a Specific Term in a Binomial Expansion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek22 = CourseWeekDef(
+  id: "course-y12-math-w22",
+  weekNumber: 22,
+  titleEn: "Finding a Specific Term in a Binomial Expansion",
+  titleMy: "Binomial Expansion ရှိ Term တစ်ခု ရှာဖွေခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w22-d1",
+      dayNumber: 1,
+      titleEn: "The General Term",
+      titleMy: "General Term",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the coefficient of x³ in the expansion of (1 + x)⁷.",
+          questionMy: "(1 + x)⁷ ၏ Expansion တွင် x³ ၏ Coefficient ကို ရှာပါ။",
+          optionsEn: ["35", "21", "7", "42"],
+          optionsMy: ["35", "21", "7", "42"],
+          correctIndex: 0,
+          hintsEn: [
+            "The coefficient is 7C3 = 35.",
+          ],
+          hintsMy: [
+            "Coefficient မှာ 7C3 = 35 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the coefficient of x² in the expansion of (1 + 2x)⁵.",
+          questionMy: "(1 + 2x)⁵ ၏ Expansion တွင် x² ၏ Coefficient ကို ရှာပါ။",
+          optionsEn: ["40", "10", "20", "80"],
+          optionsMy: ["40", "10", "20", "80"],
+          correctIndex: 0,
+          hintsEn: [
+            "General term: 5Cr (2x)ʳ. For r = 2: 5C2 × 2² = 10 × 4 = 40.",
+          ],
+          hintsMy: [
+            "General Term: 5Cr (2x)ʳ ။ r = 2 အတွက်: 5C2 × 2² = 10 × 4 = 40 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the coefficient of x⁴ in the expansion of (2 + x)⁶.",
+          questionMy: "(2 + x)⁶ ၏ Expansion တွင် x⁴ ၏ Coefficient ကို ရှာပါ။",
+          optionsEn: ["60", "15", "240", "30"],
+          optionsMy: ["60", "15", "240", "30"],
+          correctIndex: 0,
+          hintsEn: [
+            "General term: 6Cr 2⁽⁶⁻ʳ⁾xʳ. For r = 4: 6C4 × 2² = 15 × 4 = 60.",
+          ],
+          hintsMy: [
+            "General Term: 6Cr 2⁽⁶⁻ʳ⁾xʳ ။ r = 4 အတွက်: 6C4 × 2² = 15 × 4 = 60 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: General Term Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - General Term ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w22-dm-1",
+          termEn: "General term of (1 + x)ⁿ",
+          termMy: "(1 + x)ⁿ ၏ General Term",
+          matchEn: "nCr xʳ, the (r + 1)th term",
+          matchMy: "nCr xʳ, (r + 1)th Term",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w22-dm-2",
+          termEn: "General term of (a + bx)ⁿ",
+          termMy: "(a + bx)ⁿ ၏ General Term",
+          matchEn: "nCr aⁿ⁻ʳ(bx)ʳ",
+          matchMy: "nCr aⁿ⁻ʳ(bx)ʳ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w22-dm-3",
+          termEn: "Coefficient of xʳ",
+          termMy: "xʳ ၏ Coefficient",
+          matchEn: "The number multiplying xʳ in the expanded term",
+          matchMy: "Expand ဖြစ်ထားသော Term တွင် xʳ ကို မြှောက်နေသော နံပါတ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w22-dm-4",
+          termEn: "(r + 1)th term",
+          termMy: "(r + 1)th Term",
+          matchEn: "Corresponds to xʳ in the expansion",
+          matchMy: "Expansion တွင် xʳ နှင့် ကိုက်ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w22-dm-5",
+          termEn: "nCr",
+          termMy: "nCr",
+          matchEn: "n! / (r! (n - r)!)",
+          matchMy: "n! / (r! (n - r)!)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: nCr Alone or With Powers of a, b?",
+      titleMy: "စီစစ်ကြမည် - nCr တစ်ခုတည်း သုံးလား a, b Power ပါ သုံးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Coefficient found using nCr alone",
+          "Coefficient found using nCr and powers of a, b",
+        ],
+        bucketsMy: [
+          "nCr တစ်ခုတည်း အသုံးပြု၍ Coefficient ရှာ",
+          "nCr နှင့် a, b Power များ အသုံးပြု၍ Coefficient ရှာ",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w22-sort-1",
+            labelEn: "Coefficient of x² in (1 + x)⁶",
+            labelMy: "(1 + x)⁶ ၏ x² Coefficient",
+            correctBucketEn: "Coefficient found using nCr alone",
+            correctBucketMy: "nCr တစ်ခုတည်း အသုံးပြု၍ Coefficient ရှာ",
+          ),
+          SortingItem(
+            id: "y12math-w22-sort-2",
+            labelEn: "Coefficient of x³ in (2 + x)⁵",
+            labelMy: "(2 + x)⁵ ၏ x³ Coefficient",
+            correctBucketEn: "Coefficient found using nCr and powers of a, b",
+            correctBucketMy: "nCr နှင့် a, b Power များ အသုံးပြု၍ Coefficient ရှာ",
+          ),
+          SortingItem(
+            id: "y12math-w22-sort-3",
+            labelEn: "Coefficient of x⁴ in (1 + x)⁸",
+            labelMy: "(1 + x)⁸ ၏ x⁴ Coefficient",
+            correctBucketEn: "Coefficient found using nCr alone",
+            correctBucketMy: "nCr တစ်ခုတည်း အသုံးပြု၍ Coefficient ရှာ",
+          ),
+          SortingItem(
+            id: "y12math-w22-sort-4",
+            labelEn: "Coefficient of x² in (1 + 3x)⁴",
+            labelMy: "(1 + 3x)⁴ ၏ x² Coefficient",
+            correctBucketEn: "Coefficient found using nCr and powers of a, b",
+            correctBucketMy: "nCr နှင့် a, b Power များ အသုံးပြု၍ Coefficient ရှာ",
+          ),
+          SortingItem(
+            id: "y12math-w22-sort-5",
+            labelEn: "Coefficient of x⁵ in (1 + x)⁹",
+            labelMy: "(1 + x)⁹ ၏ x⁵ Coefficient",
+            correctBucketEn: "Coefficient found using nCr alone",
+            correctBucketMy: "nCr တစ်ခုတည်း အသုံးပြု၍ Coefficient ရှာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Hunting for One Term",
+      titleMy: "စာဖတ်ခြင်း - Term တစ်ခုကို ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Hunting for One Term",
+        titleMy: "Term တစ်ခုကို ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min asked the class why anyone would bother expanding the entire binomial (1 + 2x)⁶ when a question only ever asked for the coefficient of x³. \"You wouldn't,\" he said, \"not if you know the general term.\"\n\nHtet Aung wrote out the general term for (1 + 2x)⁶: 6Cr (2x)ʳ. To find the x³ term specifically, he set r = 3: 6C3 (2x)³ = 20 × 8x³ = 160x³. \"So the coefficient is 160,\" he said, \"and I never had to write out the other six terms at all.\"\n\nSu Su then tried a trickier version: find the coefficient of x³ in (3 - x)⁵, where the second term is negative. She adapted the general term to 5Cr (3)⁵⁻ʳ(-x)ʳ, and for r = 3: 5C3 × 3² × (-1)³ = 10 × 9 × (-1) = -90. \"The negative sign inside the bracket carries all the way through,\" Sayar Zaw Min reminded her, \"so (-x)³ is negative, not (-x²) — always substitute the whole bracketed term into the formula, sign included, rather than bolting the sign on at the end.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် x³ ၏ Coefficient ကိုသာ တောင်းဆိုသော မေးခွန်းတစ်ခုအတွက် (1 + 2x)⁶ Binomial တစ်ခုလုံးကို ဘယ်သူမှ ဘာကြောင့် Expand ဖြစ်နေမည်နည်းဟု အတန်းအား မေးခဲ့သည်။ \"မလုပ်ဘူးပေါ့\" ဟု သူ ဆိုသည်၊ \"General Term ကို သိထားရင်တော့ မလုပ်ရဘူး။\"\n\nHtet Aung သည် (1 + 2x)⁶ ၏ General Term ကို ရေးထုတ်ခဲ့သည် - 6Cr (2x)ʳ ။ x³ Term ကို တိတိကျကျ ရှာရန် r = 3 ဟု သတ်မှတ်ခဲ့သည် - 6C3 (2x)³ = 20 × 8x³ = 160x³ ။ \"ဒါဆိုရင် Coefficient က 160 ဖြစ်တယ်\" ဟု သူ ဆိုသည်၊ \"ကျန်တဲ့ Term ခြောက်ခုကို လုံးဝ ရေးထုတ်ရန် မလိုခဲ့ဘူး။\"\n\nSu Su သည် ပိုခက်သော Version တစ်ခု စမ်းသပ်ခဲ့သည် - ဒုတိယ Term သည် Negative ဖြစ်သော (3 - x)⁵ တွင် x³ ၏ Coefficient ကို ရှာပါ။ သူမ General Term ကို 5Cr (3)⁵⁻ʳ(-x)ʳ အဖြစ် ညှိခဲ့ပြီး r = 3 အတွက်: 5C3 × 3² × (-1)³ = 10 × 9 × (-1) = -90 ရသည်။ \"Bracket အတွင်းရှိ Negative Sign သည် ဆုံးအောင် ဆက်ရှိနေတယ်\" ဟု ဆရာဇော်မင်း ပြန်သတိပေးခဲ့သည်၊ \"ဒါကြောင့် (-x)³ က Negative ဖြစ်တယ်၊ (-x²) မဟုတ်ဘူး -- နောက်ဆုံးမှာ Sign ကို ချိတ်ခြင်းထက် Bracketed Term တစ်ခုလုံးကို Sign နှင့်အတူ Formula ထဲ တိုက်ရိုက် ထည့်ရမယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the coefficient of x³ in (1 + 2x)⁶?",
+            questionMy: "(1 + 2x)⁶ ၏ x³ Coefficient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["160", "20", "8", "48"],
+            optionsMy: ["160", "20", "8", "48"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the coefficient of x³ in (3 - x)⁵?",
+            questionMy: "(3 - x)⁵ ၏ x³ Coefficient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-90", "90", "-10", "270"],
+            optionsMy: ["-90", "90", "-10", "270"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how should the negative sign be handled?",
+            questionMy: "Negative Sign ကို မည်သို့ ကိုင်တွယ်ရမည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Substitute the whole bracketed term into the formula, sign included",
+              "Add it at the very end of the calculation",
+              "Ignore it since it cancels out",
+              "Only apply it to even values of r",
+            ],
+            optionsMy: [
+              "Bracketed Term တစ်ခုလုံးကို Sign ပါ Formula ထဲ တိုက်ရိုက် ထည့်ရမည်",
+              "တွက်ချက်မှု၏ နောက်ဆုံးတွင် ပေါင်းထည့်ရမည်",
+              "ချေဖျက်သွားသောကြောင့် လျစ်လျူရှုရမည်",
+              "r ၏ Even တန်ဖိုးများအတွက်သာ အသုံးပြုရမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Finding a Specific Term",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Term တစ်ခု ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The general term of (1 + x)ⁿ is...",
+          questionMy: "(1 + x)ⁿ ၏ General Term မှာ...",
+          optionsEn: ["nCr xʳ", "nCr x", "n xʳ", "r xⁿ"],
+          optionsMy: ["nCr xʳ", "nCr x", "n xʳ", "r xⁿ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The general term of (a + bx)ⁿ is...",
+          questionMy: "(a + bx)ⁿ ၏ General Term မှာ...",
+          optionsEn: ["nCr aⁿ⁻ʳ(bx)ʳ", "nCr aʳbⁿ⁻ʳ", "nCr (a + bx)", "aⁿ + bⁿxⁿ"],
+          optionsMy: ["nCr aⁿ⁻ʳ(bx)ʳ", "nCr aʳbⁿ⁻ʳ", "nCr (a + bx)", "aⁿ + bⁿxⁿ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To find the coefficient of x³, you set r equal to...",
+          questionMy: "x³ ၏ Coefficient ကို ရှာရန် r ကို ...ညီစေရမည်",
+          optionsEn: ["3", "2", "n - 3", "n"],
+          optionsMy: ["3", "2", "n - 3", "n"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "Arithmetic Progressions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek23 = CourseWeekDef(
+  id: "course-y12-math-w23",
+  weekNumber: 23,
+  titleEn: "Arithmetic Progressions",
+  titleMy: "Arithmetic Progression",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w23-d1",
+      dayNumber: 1,
+      titleEn: "nth Term and Sum of an AP",
+      titleMy: "AP ၏ nth Term နှင့် Sum",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the 10th term of the AP 3, 7, 11, 15, ...",
+          questionMy: "AP 3, 7, 11, 15, ... ၏ 10th Term ကို ရှာပါ။",
+          optionsEn: ["39", "43", "35", "31"],
+          optionsMy: ["39", "43", "35", "31"],
+          correctIndex: 0,
+          hintsEn: [
+            "a = 3, d = 4. a₁₀ = a + 9d = 3 + 36 = 39.",
+          ],
+          hintsMy: [
+            "a = 3, d = 4 ။ a₁₀ = a + 9d = 3 + 36 = 39 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find the sum of the first 20 terms of an AP with a = 5 and d = 3.",
+          questionMy: "a = 5 နှင့် d = 3 ရှိသော AP ၏ ပထမ 20 Term ၏ Sum ကို ရှာပါ။",
+          optionsEn: ["670", "620", "700", "580"],
+          optionsMy: ["670", "620", "700", "580"],
+          correctIndex: 0,
+          hintsEn: [
+            "Sn = n/2 (2a + (n-1)d) = 10 × (10 + 57) = 10 × 67 = 670.",
+          ],
+          hintsMy: [
+            "Sn = n/2 (2a + (n-1)d) = 10 × (10 + 57) = 10 × 67 = 670 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An AP has a = 2 and its 15th term is 44. Find d.",
+          questionMy: "AP တစ်ခု၏ a = 2 ဖြစ်ပြီး 15th Term မှာ 44 ဖြစ်သည်။ d ကို ရှာပါ။",
+          optionsEn: ["3", "2.8", "42", "6"],
+          optionsMy: ["3", "2.8", "42", "6"],
+          correctIndex: 0,
+          hintsEn: [
+            "44 = 2 + 14d, so 14d = 42, giving d = 3.",
+          ],
+          hintsMy: [
+            "44 = 2 + 14d, 14d = 42, d = 3 ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Arithmetic Progression Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Arithmetic Progression ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w23-dm-1",
+          termEn: "Arithmetic Progression (AP)",
+          termMy: "Arithmetic Progression (AP)",
+          matchEn: "A sequence with a constant difference between consecutive terms",
+          matchMy: "ဆက်တိုက် Term များအကြား Difference တသမတ်တည်း ရှိသော Sequence",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w23-dm-2",
+          termEn: "Common difference (d)",
+          termMy: "Common Difference (d)",
+          matchEn: "The constant amount added to get the next term",
+          matchMy: "နောက်တစ်ခုကို ရရှိရန် ပေါင်းထည့်သော Amount တသမတ်တည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w23-dm-3",
+          termEn: "nth term formula",
+          termMy: "nth Term Formula",
+          matchEn: "a + (n - 1)d",
+          matchMy: "a + (n - 1)d",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w23-dm-4",
+          termEn: "Sum of n terms formula",
+          termMy: "n Term ၏ Sum Formula",
+          matchEn: "Sn = n/2 (2a + (n - 1)d)",
+          matchMy: "Sn = n/2 (2a + (n - 1)d)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w23-dm-5",
+          termEn: "First term (a)",
+          termMy: "First Term (a)",
+          matchEn: "The starting value of the sequence",
+          matchMy: "Sequence ၏ အစတန်ဖိုး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Arithmetic Progression or Not?",
+      titleMy: "စီစစ်ကြမည် - Arithmetic Progression ဖြစ်လား မဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Arithmetic Progression", "Not an Arithmetic Progression"],
+        bucketsMy: ["Arithmetic Progression", "Arithmetic Progression မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y12math-w23-sort-1",
+            labelEn: "2, 5, 8, 11",
+            labelMy: "2, 5, 8, 11",
+            correctBucketEn: "Arithmetic Progression",
+            correctBucketMy: "Arithmetic Progression",
+          ),
+          SortingItem(
+            id: "y12math-w23-sort-2",
+            labelEn: "1, 2, 4, 8",
+            labelMy: "1, 2, 4, 8",
+            correctBucketEn: "Not an Arithmetic Progression",
+            correctBucketMy: "Arithmetic Progression မဟုတ်",
+          ),
+          SortingItem(
+            id: "y12math-w23-sort-3",
+            labelEn: "10, 7, 4, 1",
+            labelMy: "10, 7, 4, 1",
+            correctBucketEn: "Arithmetic Progression",
+            correctBucketMy: "Arithmetic Progression",
+          ),
+          SortingItem(
+            id: "y12math-w23-sort-4",
+            labelEn: "3, 9, 27, 81",
+            labelMy: "3, 9, 27, 81",
+            correctBucketEn: "Not an Arithmetic Progression",
+            correctBucketMy: "Arithmetic Progression မဟုတ်",
+          ),
+          SortingItem(
+            id: "y12math-w23-sort-5",
+            labelEn: "5, 10, 15, 20",
+            labelMy: "5, 10, 15, 20",
+            correctBucketEn: "Arithmetic Progression",
+            correctBucketMy: "Arithmetic Progression",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Saving Kyats Every Week",
+      titleMy: "စာဖတ်ခြင်း - အပတ်စဉ် ကျပ်ငွေ စုဆောင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Saving Kyats Every Week",
+        titleMy: "အပတ်စဉ် ကျပ်ငွေ စုဆောင်းခြင်း",
+        passageEn:
+            "Su Su told the class she had started a savings plan: 2,000 kyats in week 1, then 500 kyats more each week after that — 2,500 in week 2, 3,000 in week 3, and so on. \"That's an arithmetic progression,\" Sayar Zaw Min said, \"a = 2,000 and d = 500. How much will you save in week 12 alone?\"\n\nHtet Aung worked it out using the nth term formula: a₁₂ = a + 11d = 2,000 + 11(500) = 2,000 + 5,500 = 7,500 kyats in week 12 alone. Su Su then asked a different question: how much would she have saved in total after 12 weeks? That needed the sum formula instead: S₁₂ = 12/2 (2(2,000) + 11(500)) = 6 × (4,000 + 5,500) = 6 × 9,500 = 57,000 kyats.\n\n\"Notice the two formulas answer two different questions,\" Sayar Zaw Min pointed out. \"The nth term formula tells you what happens in one specific week; the sum formula tells you the running total up to that week. Mixing them up — using a sum formula when a question only asks for one term, or vice versa — is the most common error students make with progressions.\"",
+        passageMy:
+            "Su Su သည် Savings Plan တစ်ခု စတင်ခဲ့ကြောင်း အတန်းအား ပြောပြခဲ့သည် - Week 1 တွင် ကျပ် 2,000, ထို့နောက် အပတ်စဉ် ကျပ် 500 စီ ထပ်တိုးမည် -- Week 2 တွင် 2,500, Week 3 တွင် 3,000 စသည်ဖြင့်။ \"အဲဒါ Arithmetic Progression ပါပဲ\" ဟု ဆရာဇော်မင်း ဆိုသည်၊ \"a = 2,000 နှင့် d = 500ဖြစ်တယ်။ Week 12 တစ်ပတ်တည်းမှာ ဘယ်လောက် စုဆောင်းရမလဲ။\"\n\nHtet Aung သည် nth Term Formula ကို အသုံးပြု၍ တွက်ချက်ခဲ့သည် - a₁₂ = a + 11d = 2,000 + 11(500) = 2,000 + 5,500 = Week 12 တစ်ပတ်တည်းတွင် ကျပ် 7,500 ။ Su Su သည် ထို့နောက် မတူညီသော မေးခွန်းတစ်ခု မေးခဲ့သည် - Week 12 အထိ စုစုပေါင်း ဘယ်လောက် စုဆောင်းမလဲ။ ဒါက Sum Formula ကို လိုအပ်ခဲ့သည် - S₁₂ = 12/2 (2(2,000) + 11(500)) = 6 × (4,000 + 5,500) = 6 × 9,500 = ကျပ် 57,000 ။\n\n\"Formula နှစ်ခုက မေးခွန်းနှစ်ခုကို ဖြေဆိုပေးတာ သတိပြုပါ\" ဟု ဆရာဇော်မင်း ညွှန်ပြခဲ့သည်။ \"nth Term Formula က တိတိကျကျ တစ်ပတ်မှာ ဘာဖြစ်တယ်ဆိုတာကို ပြောပြတယ်၊ Sum Formula ကတော့ အဲဒီအထိ Running Total ကို ပြောပြတယ်။ ဒါတွေ ရောထွေးမိတာ -- Term တစ်ခုတည်း မေးထားတဲ့ မေးခွန်းမှာ Sum Formula သုံးမိတာ (သို့) ပြောင်းပြန် -- ကျောင်းသားတွေ Progression တွေမှာ အများဆုံး လုပ်မိတဲ့ အမှားပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how much did Su Su save in week 12 alone?",
+            questionMy: "Su Su သည် Week 12 တစ်ပတ်တည်းတွင် ဘယ်လောက် စုဆောင်းခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["7,500 kyats", "2,000 kyats", "5,500 kyats", "57,000 kyats"],
+            optionsMy: ["ကျပ် 7,500", "ကျပ် 2,000", "ကျပ် 5,500", "ကျပ် 57,000"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was her total savings after 12 weeks?",
+            questionMy: "Week 12 အထိ သူမ၏ စုစုပေါင်း Savings ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["57,000 kyats", "7,500 kyats", "24,000 kyats", "9,500 kyats"],
+            optionsMy: ["ကျပ် 57,000", "ကျပ် 7,500", "ကျပ် 24,000", "ကျပ် 9,500"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what is the most common error students make with progressions?",
+            questionMy:
+                "Progression များတွင် ကျောင်းသားများ အများဆုံး လုပ်မိသော အမှားကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Mixing up the nth term formula and the sum formula",
+              "Forgetting the first term",
+              "Using a negative common difference",
+              "Rounding too early",
+            ],
+            optionsMy: [
+              "nth Term Formula နှင့် Sum Formula ရောထွေးမိခြင်း",
+              "First Term ကို မေ့သွားခြင်း",
+              "Negative Common Difference သုံးခြင်း",
+              "စောစော Round ပြုလုပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Arithmetic Progressions",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Arithmetic Progressions",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The nth term formula for an AP is...",
+          questionMy: "AP အတွက် nth Term Formula မှာ...",
+          optionsEn: ["a + (n - 1)d", "a × dⁿ⁻¹", "n/2 (2a + d)", "a + nd"],
+          optionsMy: ["a + (n - 1)d", "a × dⁿ⁻¹", "n/2 (2a + d)", "a + nd"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The common difference of 20, 15, 10, 5 is...",
+          questionMy: "20, 15, 10, 5 ၏ Common Difference မှာ...",
+          optionsEn: ["-5", "5", "-4", "4"],
+          optionsMy: ["-5", "5", "-4", "4"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The sum formula Sn = n/2 (2a + (n-1)d) requires knowing...",
+          questionMy: "Sn = n/2 (2a + (n-1)d) Sum Formula သုံးရန် ...ကို သိထားရမည်",
+          optionsEn: [
+            "The first term and common difference",
+            "Only the last term",
+            "Only the number of terms",
+            "The common ratio",
+          ],
+          optionsMy: [
+            "First Term နှင့် Common Difference",
+            "Last Term တစ်ခုတည်း",
+            "Term အရေအတွက် တစ်ခုတည်း",
+            "Common Ratio",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24 (Boss Week): "Geometric Progressions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek24 = CourseWeekDef(
+  id: "course-y12-math-w24",
+  weekNumber: 24,
+  titleEn: "Geometric Progressions",
+  titleMy: "Geometric Progression",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w24-d1",
+      dayNumber: 1,
+      titleEn: "nth Term, Sum, and Sum to Infinity of a GP",
+      titleMy: "GP ၏ nth Term, Sum, Sum to Infinity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the 6th term of the GP 2, 6, 18, ...",
+          questionMy: "GP 2, 6, 18, ... ၏ 6th Term ကို ရှာပါ။",
+          optionsEn: ["486", "162", "1458", "324"],
+          optionsMy: ["486", "162", "1458", "324"],
+          correctIndex: 0,
+          hintsEn: [
+            "a = 2, r = 3. a₆ = ar⁵ = 2 × 243 = 486.",
+          ],
+          hintsMy: [
+            "a = 2, r = 3 ။ a₆ = ar⁵ = 2 × 243 = 486 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the sum to infinity of a GP with a = 8 and r = 1/2.",
+          questionMy: "a = 8 နှင့် r = 1/2 ရှိသော GP ၏ Sum to Infinity ကို ရှာပါ။",
+          optionsEn: ["16", "4", "8", "12"],
+          optionsMy: ["16", "4", "8", "12"],
+          correctIndex: 0,
+          hintsEn: [
+            "S∞ = a / (1 - r) = 8 / 0.5 = 16.",
+          ],
+          hintsMy: [
+            "S∞ = a / (1 - r) = 8 / 0.5 = 16 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the sum of the first 5 terms of a GP with a = 3 and r = 2.",
+          questionMy: "a = 3 နှင့် r = 2 ရှိသော GP ၏ ပထမ 5 Term ၏ Sum ကို ရှာပါ။",
+          optionsEn: ["93", "48", "62", "96"],
+          optionsMy: ["93", "48", "62", "96"],
+          correctIndex: 0,
+          hintsEn: [
+            "Sn = a(rⁿ - 1) / (r - 1) = 3(32 - 1) / 1 = 93.",
+          ],
+          hintsMy: [
+            "Sn = a(rⁿ - 1) / (r - 1) = 3(32 - 1) / 1 = 93 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Geometric Progression Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Geometric Progression ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w24-dm-1",
+          termEn: "Geometric Progression (GP)",
+          termMy: "Geometric Progression (GP)",
+          matchEn: "A sequence with a constant ratio between consecutive terms",
+          matchMy: "ဆက်တိုက် Term များအကြား Ratio တသမတ်တည်း ရှိသော Sequence",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w24-dm-2",
+          termEn: "Common ratio (r)",
+          termMy: "Common Ratio (r)",
+          matchEn: "The constant factor multiplying each term to get the next",
+          matchMy: "နောက်တစ်ခုကို ရရှိရန် Term တစ်ခုစီကို မြှောက်သော Factor တသမတ်တည်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w24-dm-3",
+          termEn: "nth term formula (GP)",
+          termMy: "nth Term Formula (GP)",
+          matchEn: "arⁿ⁻¹",
+          matchMy: "arⁿ⁻¹",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w24-dm-4",
+          termEn: "Sum to infinity",
+          termMy: "Sum to Infinity",
+          matchEn: "a / (1 - r), only valid when |r| < 1",
+          matchMy: "a / (1 - r), |r| < 1 ဖြစ်မှသာ မှန်ကန်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w24-dm-5",
+          termEn: "Sum of n terms (GP)",
+          termMy: "n Term ၏ Sum (GP)",
+          matchEn: "Sn = a(1 - rⁿ) / (1 - r)",
+          matchMy: "Sn = a(1 - rⁿ) / (1 - r)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Has a Sum to Infinity or Not?",
+      titleMy: "စီစစ်ကြမည် - Sum to Infinity ရှိလား မရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Has a sum to infinity (|r| < 1)",
+          "Has no sum to infinity (|r| ≥ 1)",
+        ],
+        bucketsMy: [
+          "Sum to Infinity ရှိသည် (|r| < 1)",
+          "Sum to Infinity မရှိပါ (|r| ≥ 1)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w24-sort-1",
+            labelEn: "r = 0.5",
+            labelMy: "r = 0.5",
+            correctBucketEn: "Has a sum to infinity (|r| < 1)",
+            correctBucketMy: "Sum to Infinity ရှိသည် (|r| < 1)",
+          ),
+          SortingItem(
+            id: "y12math-w24-sort-2",
+            labelEn: "r = 2",
+            labelMy: "r = 2",
+            correctBucketEn: "Has no sum to infinity (|r| ≥ 1)",
+            correctBucketMy: "Sum to Infinity မရှိပါ (|r| ≥ 1)",
+          ),
+          SortingItem(
+            id: "y12math-w24-sort-3",
+            labelEn: "r = -0.3",
+            labelMy: "r = -0.3",
+            correctBucketEn: "Has a sum to infinity (|r| < 1)",
+            correctBucketMy: "Sum to Infinity ရှိသည် (|r| < 1)",
+          ),
+          SortingItem(
+            id: "y12math-w24-sort-4",
+            labelEn: "r = 1",
+            labelMy: "r = 1",
+            correctBucketEn: "Has no sum to infinity (|r| ≥ 1)",
+            correctBucketMy: "Sum to Infinity မရှိပါ (|r| ≥ 1)",
+          ),
+          SortingItem(
+            id: "y12math-w24-sort-5",
+            labelEn: "r = -1.5",
+            labelMy: "r = -1.5",
+            correctBucketEn: "Has no sum to infinity (|r| ≥ 1)",
+            correctBucketMy: "Sum to Infinity မရှိပါ (|r| ≥ 1)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term 6 Capstone",
+      titleMy: "စာဖတ်ခြင်း - Term 6 Capstone",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term 6 Capstone",
+        titleMy: "Term 6 Capstone",
+        passageEn:
+            "For the Term 6 capstone, Sayar Zaw Min set the class two sequences side by side. Sequence A: a bacteria colony starting at 100 and doubling every hour. Sequence B: Su Su's savings plan from earlier in the term, starting at 2,000 kyats and increasing by 500 kyats every week. \"Which is arithmetic and which is geometric,\" he asked, \"and why does it matter?\"\n\nHtet Aung identified Sequence A as geometric — the colony is multiplied by a constant ratio, r = 2, each hour, matching arⁿ⁻¹ — while Sequence B stayed arithmetic, since a constant amount, d = 500, is added each week rather than multiplied. \"That single difference, add versus multiply, changes everything about how each sequence behaves long-term,\" he said.\n\nSu Su then found the bacteria count after 8 hours using the GP formula: a₉ = 100 × 2⁸ = 100 × 256 = 25,600 (treating the start as hour 0, so hour 8 is the 9th term). She contrasted this with Su Su's own savings, which after the same number of steps would only have grown by a fixed 500 kyats each time — no matter how many weeks passed, an arithmetic progression could never explode the way a geometric one does, because a GP with r > 1 doesn't just keep growing, it grows by more each step. \"That's the real difference between an AP and a GP,\" Sayar Zaw Min concluded — \"one grows at a constant rate, the other grows at a constant multiple, and mixing the two up would give you a wildly wrong answer for something like a doubling population.\"",
+        passageMy:
+            "Term 6 Capstone အတွက် ဆရာဇော်မင်းသည် Sequence နှစ်ခုကို ယှဉ်ပြထားခဲ့သည်။ Sequence A - 100 မှ စတင်ပြီး နာရီတိုင်း နှစ်ဆ တိုးပွားနေသော ဘက်တီးရီးယား Colony တစ်ခု။ Sequence B - Term ၏ အစောပိုင်းက Su Su ၏ Savings Plan, ကျပ် 2,000 မှ စတင်ပြီး အပတ်တိုင်း ကျပ် 500 တိုးနေသည်။ \"ဘယ်ဟာက Arithmetic ဖြစ်ပြီး ဘယ်ဟာက Geometric ဖြစ်လဲ\" ဟု သူ မေးခဲ့သည်၊ \"ပြီးတော့ ဘာကြောင့် အရေးကြီးလဲ။\"\n\nHtet Aung သည် Sequence A ကို Geometric ဟု ဖော်ထုတ်ခဲ့သည် -- Colony သည် နာရီတိုင်း Constant Ratio, r = 2 ဖြင့် မြှောက်နေသည်၊ arⁿ⁻¹ နှင့် ကိုက်ညီသည် -- Sequence B ကတော့ Arithmetic အဖြစ် ဆက်ရှိနေသည်၊ Amount တသမတ်တည်း, d = 500, ကို အပတ်တိုင်း မြှောက်မည့်အစား ပေါင်းထည့်နေခြင်းဖြစ်သည်။ \"အဲဒီ ကွာခြားချက် တစ်ခုတည်း -- ပေါင်းမလား မြှောက်မလား -- သည် Sequence တစ်ခုစီ ကြာရှည်စွာ မည်သို့ ဆက်ပြောင်းလဲမည်ကို လုံးဝ ပြောင်းလဲစေတယ်\" ဟု သူ ဆိုသည်။\n\nSu Su သည် ထို့နောက် GP Formula ကို အသုံးပြု၍ 8 နာရီအကြာတွင် ဘက်တီးရီးယား အရေအတွက်ကို ရှာခဲ့သည် - a₉ = 100 × 2⁸ = 100 × 256 = 25,600 (အစကို Hour 0 ဟု ယူပါက Hour 8 သည် 9th Term ဖြစ်သည်)။ သူမ၏ Savings ကို ထို့နှင့် နှိုင်းယှဉ်ကြည့်ရာ အဆင့်အရေအတွက် တူညီသော်လည်း အပတ်တိုင်း ကျပ် 500 သာ ထပ်တိုးသည် -- အပတ်ဘယ်နှစ်ပတ် ကုန်ဆုံးသည်ဖြစ်စေ Arithmetic Progression သည် Geometric Progression ကဲ့သို့ ဘယ်တော့မှ ပေါက်ကွဲတိုးပွားနိုင်မည် မဟုတ်ပါ၊ r > 1 ရှိသော GP သည် ဆက်တိုးရုံသာမက အဆင့်တိုင်း ပိုများစွာ တိုးသောကြောင့်ဖြစ်သည်။ \"အဲဒါက AP နှင့် GP အကြား အမှန်တကယ် ကွာခြားချက်ပါပဲ\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် -- \"တစ်ခုက Constant Rate ဖြင့် တိုးပြီး တစ်ခုက Constant Multiple ဖြင့် တိုးတယ်၊ ဒီနှစ်ခု ရောထွေးမိရင် လူဦးရေ နှစ်ဆမြင့်တက်မှု လိုမျိုးကို လုံးဝ မှားယွင်းသော အဖြေတစ်ခု ရရှိလိမ့်မယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which sequence was identified as geometric?",
+            questionMy: "Geometric ဟု ဖော်ထုတ်ခဲ့သော Sequence ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Sequence A, the bacteria colony",
+              "Sequence B, the savings plan",
+              "Both sequences",
+              "Neither sequence",
+            ],
+            optionsMy: [
+              "Sequence A, ဘက်တီးရီးယား Colony",
+              "Sequence B, Savings Plan",
+              "Sequence နှစ်ခုစလုံး",
+              "Sequence တစ်ခုမျှ မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the bacteria count after 8 hours?",
+            questionMy: "8 နာရီအကြာတွင် ဘက်တီးရီးယား အရေအတွက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["25,600", "800", "256", "12,800"],
+            optionsMy: ["25,600", "800", "256", "12,800"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what is the real difference between an AP and a GP?",
+            questionMy:
+                "AP နှင့် GP အကြား အမှန်တကယ် ကွာခြားချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One grows at a constant rate, the other at a constant multiple",
+              "Both grow at exactly the same rate",
+              "Only a GP can have a negative term",
+              "Only an AP can be summed to infinity",
+            ],
+            optionsMy: [
+              "တစ်ခုက Constant Rate ဖြင့် တိုးပြီး တစ်ခုက Constant Multiple ဖြင့် တိုးသည်",
+              "နှစ်ခုစလုံး အတိအကျ တူညီသော Rate ဖြင့် တိုးသည်",
+              "GP သာလျှင် Negative Term ရှိနိုင်သည်",
+              "AP သာလျှင် Infinity အထိ ပေါင်းနိုင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: Series Capstone",
+      titleMy: "နှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Series Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In a GP, each term is found by...",
+          questionMy: "GP တွင် Term တစ်ခုစီကို ...ဖြင့် ရှာသည်",
+          optionsEn: [
+            "Multiplying the previous term by a constant ratio",
+            "Adding a constant difference to the previous term",
+            "Squaring the previous term",
+            "Dividing the previous term by n",
+          ],
+          optionsMy: [
+            "အရင် Term ကို Constant Ratio ဖြင့် မြှောက်ခြင်းဖြင့်",
+            "အရင် Term ကို Constant Difference ပေါင်းခြင်းဖြင့်",
+            "အရင် Term ကို Square လုပ်ခြင်းဖြင့်",
+            "အရင် Term ကို n ဖြင့် စားခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A sum to infinity only exists when...",
+          questionMy: "Sum to Infinity ရှိရန် လိုအပ်ချက်မှာ...",
+          optionsEn: ["|r| < 1", "|r| > 1", "r = 0", "a = 0"],
+          optionsMy: ["|r| < 1", "|r| > 1", "r = 0", "a = 0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main difference between an AP and a GP is...",
+          questionMy: "AP နှင့် GP အကြား ပင်မ ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "An AP adds a constant amount; a GP multiplies by a constant ratio",
+            "An AP multiplies by a constant ratio; a GP adds a constant amount",
+            "They are exactly the same",
+            "Only a GP has a first term",
+          ],
+          optionsMy: [
+            "AP က Constant Amount ပေါင်းသည်; GP က Constant Ratio ဖြင့် မြှောက်သည်",
+            "AP က Constant Ratio ဖြင့် မြှောက်သည်; GP က Constant Amount ပေါင်းသည်",
+            "နှစ်ခုလုံး အတိအကျ တူညီသည်",
+            "GP တွင်သာ First Term ရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm6 = CourseTermDef(
+  id: "course-y12-math-t6",
+  termNumber: 6,
+  titleEn: "Series",
+  titleMy: "Series",
+  weeks: [_y12MathWeek21, _y12MathWeek22, _y12MathWeek23, _y12MathWeek24],
+  certificateTitleEn: "AS Mathematics: Series",
+  certificateTitleMy: "AS သင်္ချာ - Series",
+);
