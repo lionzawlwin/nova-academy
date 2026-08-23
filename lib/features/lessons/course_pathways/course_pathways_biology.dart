@@ -15157,3 +15157,3743 @@ const CoursePathwayDef year11BiologyPathway = CoursePathwayDef(
     igcseBiologyTerm9,
   ],
 );
+
+// =====================================================================
+// YEAR 12 BIOLOGY (A-Level AS, Cambridge 9700) -- Term 1: "Cell
+// Structure and Microscopy"
+// (Weeks 1-4). Term 2 ("Biological Molecules I: Water, Carbohydrates
+// and Lipids") and Term 3 ("Biological Molecules II: Proteins and
+// Enzymes") continue below. The CoursePathwayDef itself is added in a
+// later pass once all 9 terms exist -- see the Physics equivalent
+// (year12PhysicsPathway) for the shape it will eventually take.
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "Cell Theory and Introduction to Microscopy"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek1 = CourseWeekDef(
+  id: "course-y12-bio-w1",
+  weekNumber: 1,
+  titleEn: "Cell Theory and Introduction to Microscopy",
+  titleMy: "ဆဲလ် သီအိုရီနှင့် မိုက်ခရိုစကုပ် နိဒါန်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w1-d1",
+      dayNumber: 1,
+      titleEn: "Cell Theory and Why We Study Cells",
+      titleMy: "ဆဲလ် သီအိုရီနှင့် ဆဲလ်များကို လေ့လာရသည့် အကြောင်းရင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Which of the following is a correct statement of cell theory?",
+          questionMy:
+              "အောက်ပါတို့အနက် ဆဲလ် သီအိုရီ၏ မှန်ကန်သော ဖော်ပြချက်မှာ အဘယ်နည်း။",
+          optionsEn: [
+            "All living organisms are composed of one or more cells, and the cell is the basic unit of life",
+            "All cells are exactly the same size and shape",
+            "Cells can only be seen with the naked eye",
+            "Only animal cells contain a nucleus",
+          ],
+          optionsMy: [
+            "သက်ရှိသတ္တဝါအားလုံးသည် ဆဲလ်တစ်ခု (သို့) တစ်ခုထက်ပို၍ ဖွဲ့စည်းထားပြီး ဆဲလ်သည် အသက်ရှင်ခြင်း၏ အခြေခံယူနစ် ဖြစ်သည်",
+            "ဆဲလ်အားလုံးသည် အရွယ်အစားနှင့် ပုံသဏ္ဌာန် အတိအကျ တူညီသည်",
+            "ဆဲလ်များကို မျက်လုံးဗလာဖြင့်သာ မြင်နိုင်သည်",
+            "တိရစ္ဆာန်ဆဲလ်များတွင်သာ Nucleus ပါဝင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cell theory has three core statements: the cell is the basic unit of life, all organisms are made of cells, and cells only arise from pre-existing cells.",
+          ],
+          hintsMy: [
+            "ဆဲလ်သီအိုရီတွင် အခြေခံဖော်ပြချက် သုံးချက်ရှိသည် - ဆဲလ်သည် အသက်ရှင်ခြင်း၏ အခြေခံယူနစ်ဖြစ်ခြင်း၊ သက်ရှိအားလုံး ဆဲလ်များဖြင့် ဖွဲ့စည်းထားခြင်း၊ ဆဲလ်များသည် ရှိပြီးသား ဆဲလ်များမှသာ ပေါက်ဖွားလာခြင်း တို့ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "According to cell theory, new cells are produced by...",
+          questionMy: "ဆဲလ်သီအိုရီအရ ဆဲလ်အသစ်များသည် ...မှ ထုတ်လုပ်သည်",
+          optionsEn: [
+            "The division of pre-existing cells",
+            "Spontaneous generation from non-living matter",
+            "Random assembly of organic molecules",
+            "Fusion of two different organisms",
+          ],
+          optionsMy: [
+            "ရှိပြီးသား ဆဲလ်များ ခွဲထွက်ခြင်း",
+            "အသက်မရှိသော ပစ္စည်းများမှ အလိုအလျောက် ဖြစ်ပေါ်လာခြင်း",
+            "ဇီဝမော်လီကျူးများ ကျပန်း စုစည်းခြင်း",
+            "မတူညီသော သက်ရှိသတ္တဝါနှစ်မျိုး ပေါင်းစည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the third core statement of cell theory -- \"omnis cellula e cellula\", every cell comes from a cell.",
+          ],
+          hintsMy: [
+            "၎င်းသည် ဆဲလ်သီအိုရီ၏ တတိယ အခြေခံဖော်ပြချက်ဖြစ်သည် -- \"omnis cellula e cellula\", ဆဲလ်တိုင်းသည် ရှိပြီးသား ဆဲလ်တစ်ခုမှ ဖြစ်ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why do biologists need microscopes to study most cells?",
+          questionMy:
+              "ဇီဝဗေဒပညာရှင်များသည် ဆဲလ်အများစုကို လေ့လာရန် မိုက်ခရိုစကုပ် အဘယ်ကြောင့် လိုအပ်သနည်း။",
+          optionsEn: [
+            "Most cells are far too small to be resolved by the unaided human eye",
+            "Cells are invisible even with the strongest microscopes",
+            "Microscopes are only needed for plant cells, not animal cells",
+            "Cells change colour only when magnified",
+          ],
+          optionsMy: [
+            "ဆဲလ်အများစုသည် အကူအညီမဲ့ လူ့မျက်လုံးဖြင့် ခွဲခြားမြင်နိုင်ရန် အလွန်သေးငယ်လွန်းသောကြောင့်",
+            "အားအကောင်းဆုံး မိုက်ခရိုစကုပ်ဖြင့်ပင် ဆဲလ်များကို လုံးဝမမြင်နိုင်သောကြောင့်",
+            "အပင်ဆဲလ်များအတွက်သာ မိုက်ခရိုစကုပ် လိုအပ်ပြီး တိရစ္ဆာန်ဆဲလ်များအတွက် မလိုအပ်သောကြောင့်",
+            "ဆဲလ်များသည် ချဲ့ကားမှသာ အရောင်ပြောင်းလဲသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A typical animal or plant cell is only 10-100 micrometres across -- far below what the human eye can resolve.",
+          ],
+          hintsMy: [
+            "ပုံမှန် တိရစ္ဆာန် (သို့) အပင်ဆဲလ်တစ်ခုသည် Micrometre 10-100 ခန့်သာရှိပြီး လူ့မျက်လုံး၏ ခွဲခြားနိုင်စွမ်းထက် အလွန်သေးငယ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cells and Microscopy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဆဲလ်နှင့် မိုက်ခရိုစကုပ် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w1-dm-1",
+          termEn: "Cell theory",
+          termMy: "ဆဲလ် သီအိုရီ (Cell Theory)",
+          matchEn:
+              "The idea that all living things are made of cells, and the cell is the basic unit of life",
+          matchMy:
+              "သက်ရှိအားလုံးသည် ဆဲလ်များဖြင့် ဖွဲ့စည်းထားပြီး ဆဲလ်သည် အသက်ရှင်ခြင်း၏ အခြေခံယူနစ် ဖြစ်သည်ဟူသော အယူအဆ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w1-dm-2",
+          termEn: "Light microscope",
+          termMy: "အလင်း မိုက်ခရိုစကုပ် (Light Microscope)",
+          matchEn:
+              "Uses a beam of light and glass lenses to magnify a specimen",
+          matchMy:
+              "အလင်းရောင်တန်းနှင့် မှန်ဘီလူးများကို အသုံးပြု၍ နမူနာကို ချဲ့ကားပြသည့် ကိရိယာ",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w1-dm-3",
+          termEn: "Specimen",
+          termMy: "နမူနာ (Specimen)",
+          matchEn: "The sample being observed under a microscope",
+          matchMy: "မိုက်ခရိုစကုပ်ဖြင့် လေ့လာနေသည့် နမူနာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w1-dm-4",
+          termEn: "Resolution",
+          termMy: "ခွဲခြားနိုင်စွမ်း (Resolution)",
+          matchEn:
+              "The ability to distinguish between two points close together as two separate points",
+          matchMy:
+              "အနီးကပ်နေသော အမှတ်နှစ်ခုကို သီးခြားအမှတ်နှစ်ခုအဖြစ် ခွဲခြားနိုင်သော စွမ်းရည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w1-dm-5",
+          termEn: "Magnification",
+          termMy: "ချဲ့ကားမှု (Magnification)",
+          matchEn:
+              "How many times larger the image appears compared to the actual object",
+          matchMy:
+              "ပုံရိပ်သည် အမှန်တကယ် အရာဝတ္ထုထက် မည်မျှ ကြီးမားပြသည့် အချိုးအစား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False About Cell Theory",
+      titleMy: "စီစစ်ကြမည် - ဆဲလ်သီအိုရီအကြောင်း မှန်/မှား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of Cell Theory", "Not True of Cell Theory"],
+        bucketsMy: ["ဆဲလ်သီအိုရီအရ မှန်", "ဆဲလ်သီအိုရီအရ မမှန်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w1-sort-1",
+            labelEn:
+                "The cell is the basic unit of structure and function in living organisms",
+            labelMy:
+                "ဆဲလ်သည် သက်ရှိသတ္တဝါများ၏ ဖွဲ့စည်းပုံနှင့် လုပ်ငန်းဆောင်တာ၏ အခြေခံယူနစ်ဖြစ်သည်",
+            correctBucketEn: "True of Cell Theory",
+            correctBucketMy: "ဆဲလ်သီအိုရီအရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w1-sort-2",
+            labelEn: "New cells arise only from pre-existing cells by division",
+            labelMy:
+                "ဆဲလ်အသစ်များသည် ရှိပြီးသား ဆဲလ်များ ခွဲထွက်ခြင်းမှသာ ပေါက်ဖွားလာသည်",
+            correctBucketEn: "True of Cell Theory",
+            correctBucketMy: "ဆဲလ်သီအိုရီအရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w1-sort-3",
+            labelEn: "All organisms are composed of one or more cells",
+            labelMy:
+                "သက်ရှိအားလုံးသည် ဆဲလ်တစ်ခု (သို့) တစ်ခုထက်ပို၍ ဖွဲ့စည်းထားသည်",
+            correctBucketEn: "True of Cell Theory",
+            correctBucketMy: "ဆဲလ်သီအိုရီအရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w1-sort-4",
+            labelEn:
+                "Cells can spontaneously form from non-living chemicals under normal conditions",
+            labelMy:
+                "ဆဲလ်များသည် ပုံမှန်အခြေအနေတွင် အသက်မဲ့ ဓာတုပစ္စည်းများမှ အလိုအလျောက် ဖြစ်ပေါ်လာနိုင်သည်",
+            correctBucketEn: "Not True of Cell Theory",
+            correctBucketMy: "ဆဲလ်သီအိုရီအရ မမှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w1-sort-5",
+            labelEn:
+                "Only some living organisms are made of cells; others are not",
+            labelMy:
+                "သက်ရှိသတ္တဝါ အချို့သာ ဆဲလ်များဖြင့် ဖွဲ့စည်းထားပြီး ကျန်တို့မှာ မဟုတ်ပါ",
+            correctBucketEn: "Not True of Cell Theory",
+            correctBucketMy: "ဆဲလ်သီအိုရီအရ မမှန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: First Look Under the Light Microscope",
+      titleMy: "စာဖတ်ခြင်း - အလင်းမိုက်ခရိုစကုပ်ဖြင့် ပထမဆုံး လေ့လာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "First Look Under the Light Microscope",
+        titleMy: "အလင်းမိုက်ခရိုစကုပ်ဖြင့် ပထမဆုံး လေ့လာခြင်း",
+        passageEn:
+            "On the first day of AS Biology practicals, Sayar Zaw Min handed Su Su and Htet Aung a fresh onion and asked them to peel off the thin, transparent skin from the inside of one of its scales -- the epidermis. They mounted a small square of it on a glass slide in a drop of water, lowered a coverslip carefully onto it to avoid trapping air bubbles, then added a drop of iodine solution at one edge to stain the specimen before viewing it under the light microscope.\n\nUnder low power, Htet Aung saw neat rows of brick-shaped cells packed tightly together, each one clearly outlined. Switching to a higher-power objective lens, Su Su could make out a thick, rigid boundary around each cell -- the cell wall -- and, inside it, a darker, roughly circular structure stained brown by the iodine, which Sayar Zaw Min identified as the nucleus. He reminded them that the rigid cell wall is why plant cells keep a fixed, regular shape, unlike animal cells, which have only a flexible cell membrane and can appear more rounded or irregular.\n\nSayar Zaw Min then explained the maths behind what they were seeing: the objective lens was marked x40, and the eyepiece lens was marked x10, so the total magnification was 40 x 10 = 400 times. But he cautioned them not to confuse magnification with resolution -- however much they magnified the image, a light microscope's resolution is limited to about 200 nanometres, so tiny structures inside the cell, like individual ribosomes, would still appear as nothing more than a blur. Seeing those would require a completely different kind of microscope, which the class would study the following week.",
+        passageMy:
+            "AS ဇီဝဗေဒ Practical ပထမနေ့တွင် ဆရာဇော်မင်းသည် ကြက်သွန်နီတစ်လုံးကို Su Su နှင့် Htet Aung အား ပေးပြီး ၎င်း၏ အခွံတစ်ခု၏ အတွင်းဘက်မှ ပါးလွှာပြီး ပွင့်လင်းသော အရေပြား -- Epidermis -- ကို ခွာယူခိုင်းခဲ့သည်။ ၎င်းကို ရေစက်တစ်စက်နှင့်အတူ ဖန်ပြားပေါ်တွင် တင်ပြီး လေဗောက်များ မပါရှိစေရန် ဂရုတစိုက်ဖြင့် Coverslip ကို အုပ်ချခဲ့သည်၊ ထို့နောက် အလင်းမိုက်ခရိုစကုပ်ဖြင့် ကြည့်ရှုမည့်အလျား နမူနာကို စွန်းထင်စေရန် အနားတစ်ဖက်တွင် အိုင်အိုဒင်း ဆေးရည် တစ်စက် ထည့်ခဲ့သည်။\n\nAmplification နိမ့်ဆင့်တွင် Htet Aung သည် အုတ်ပုံသဏ္ဌာန် ဆဲလ်များ တန်းစီစွာ ဖိထားသည်ကို မြင်ခဲ့ပြီး တစ်ခုစီကို ရှင်းလင်းစွာ မျဉ်းသားထားသည်ကို တွေ့ခဲ့သည်။ Amplification မြင့်ဆင့်သို့ ပြောင်းလိုက်သောအခါ Su Su သည် ဆဲလ်တစ်ခုစီ၏ ပတ်လည်တွင် ထူထပ်ခိုင်မာသော နယ်နိမိတ် -- Cell Wall -- ကို မြင်နိုင်ခဲ့ပြီး ၎င်း၏ အတွင်းတွင် အိုင်အိုဒင်းဖြင့် အညိုရောင်စွန်းနေသော အဝိုင်းပုံသဏ္ဌာန် ဖွဲ့စည်းပုံတစ်ခုကိုလည်း မြင်ခဲ့သည် -- ဆရာဇော်မင်းက ၎င်းကို Nucleus ဟု ဖော်ပြပေးခဲ့သည်။ ခိုင်မာသော Cell Wall ကြောင့် အပင်ဆဲလ်များသည် သတ်မှတ်ပုံသေ ပုံသဏ္ဌာန်ကို ထိန်းသိမ်းနိုင်ခြင်းဖြစ်ပြီး Cell Membrane တစ်ခုတည်းသာ ရှိသော တိရစ္ဆာန်ဆဲလ်များမှာမူ ပိုမို လုံးဝိုင်း (သို့) မမှန်သော ပုံသဏ္ဌာန်ရှိတတ်ကြောင်း ဆရာဇော်မင်းက သတိပေးခဲ့သည်။\n\nထို့နောက် ဆရာဇော်မင်းသည် သူတို့မြင်နေရသည့် အနောက်ကွယ်ရှိ သင်္ချာကို ရှင်းပြခဲ့သည် -- Objective Lens ကို x40 ဟု အမှတ်အသားပြုထားပြီး Eyepiece Lens ကို x10 ဟု အမှတ်အသားပြုထားသောကြောင့် Total Magnification မှာ 40 x 10 = 400 ဆ ဖြစ်သည်။ သို့သော် Magnification နှင့် Resolution ကို မရောထွေးရန် သတိပေးခဲ့သည် -- ပုံရိပ်ကို မည်မျှ ချဲ့ကားစေကာမူ အလင်းမိုက်ခရိုစကုပ်၏ Resolution သည် Nanometre 200 ခန့်သာ ကန့်သတ်ထားသောကြောင့် Ribosome တစ်ခုချင်းစီကဲ့သို့ ဆဲလ်အတွင်းရှိ အလွန်သေးငယ်သော ဖွဲ့စည်းပုံများမှာ မှုန်ဝါးနေဆဲသာ ဖြစ်လိမ့်မည်။ ၎င်းတို့ကို မြင်ရန် လုံးဝ မတူညီသော မိုက်ခရိုစကုပ် အမျိုးအစားတစ်ခု လိုအပ်မည်ဖြစ်ပြီး လာမည့်အပတ်တွင် အတန်းက ဆက်လက်လေ့လာသွားမည်ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Sayar Zaw Min add iodine solution to the onion epidermis?",
+            questionMy:
+                "ဆရာဇော်မင်းသည် ကြက်သွန်နီ Epidermis တွင် အိုင်အိုဒင်းဆေးရည် အဘယ်ကြောင့် ထည့်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To stain the specimen so structures could be seen more clearly",
+              "To kill the cells before viewing them",
+              "To dissolve the cell wall completely",
+              "To increase the magnification of the microscope",
+            ],
+            optionsMy: [
+              "ဖွဲ့စည်းပုံများကို ပိုမိုရှင်းလင်းစွာ မြင်ရစေရန် နမူနာကို စွန်းထင်စေရန်",
+              "ကြည့်ရှုမီ ဆဲလ်များကို သတ်ရန်",
+              "Cell Wall ကို လုံးဝ ဖျက်ဆီးရန်",
+              "မိုက်ခရိုစကုပ်၏ Magnification ကို တိုးမြှင့်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's description of iodine."],
+            hintsMy: ["ပထမစာပိုဒ်ရှိ အိုင်အိုဒင်းအကြောင်း ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what did Su Su see forming a thick, rigid boundary around each cell?",
+            questionMy:
+                "ဆဲလ်တစ်ခုစီပတ်လည်တွင် ထူထပ်ခိုင်မာသော နယ်နိမိတ် ဖွဲ့စည်းနေသည်ကို Su Su မည်သည့်အရာအဖြစ် တွေ့ခဲ့သည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The cell wall", "The nucleus", "The cytoplasm", "The coverslip"],
+            optionsMy: [
+              "Cell Wall",
+              "Nucleus",
+              "Cytoplasm",
+              "Coverslip",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the description of what Su Su saw at higher power."],
+            hintsMy: ["Amplification မြင့်ဆင့်တွင် Su Su မြင်ခဲ့သည့် အကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what was the total magnification of the image, and what limitation did Sayar Zaw Min point out?",
+            questionMy:
+                "ပုံရိပ်၏ Total Magnification မည်မျှရှိပြီး ဆရာဇော်မင်းက မည်သည့် ကန့်သတ်ချက်ကို ညွှန်ပြခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "400 times, but the light microscope's resolution cannot show structures like ribosomes clearly",
+              "40 times, and there was no limitation at all",
+              "4000 times, but the specimen was too small to see",
+              "10 times, because only the eyepiece lens was used",
+            ],
+            optionsMy: [
+              "400 ဆ၊ သို့သော် အလင်းမိုက်ခရိုစကုပ်၏ Resolution သည် Ribosome ကဲ့သို့ ဖွဲ့စည်းပုံများကို ရှင်းလင်းစွာ မပြသနိုင်ပါ",
+              "40 ဆ၊ ကန့်သတ်ချက် လုံးဝ မရှိပါ",
+              "4000 ဆ၊ သို့သော် နမူနာမှာ မြင်ရန် အလွန်သေးငယ်သည်",
+              "10 ဆ၊ Eyepiece Lens ကိုသာ အသုံးပြုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["40 x 10 = 400; then reread the caution about resolution."],
+            hintsMy: ["40 x 10 = 400; ထို့နောက် Resolution အကြောင်း သတိပေးချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Cell Theory and Microscopy",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆဲလ်သီအိုရီနှင့် မိုက်ခရိုစကုပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The cell is described by cell theory as...",
+          questionMy: "ဆဲလ်သီအိုရီအရ ဆဲလ်ကို ...ဟု ဖော်ပြသည်",
+          optionsEn: [
+            "The basic unit of structure and function in living things",
+            "A type of tissue only found in plants",
+            "A structure only found in bacteria",
+            "An organ found in animals only",
+          ],
+          optionsMy: [
+            "သက်ရှိများ၏ ဖွဲ့စည်းပုံနှင့် လုပ်ငန်းဆောင်တာ၏ အခြေခံယူနစ်",
+            "အပင်များတွင်သာ တွေ့ရသော တစ်ရှူးအမျိုးအစား",
+            "ဘက်တီးရီးယားများတွင်သာ တွေ့ရသော ဖွဲ့စည်းပုံ",
+            "တိရစ္ဆာန်များတွင်သာ ရှိသော အင်္ဂါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A light microscope forms an image using...",
+          questionMy: "အလင်းမိုက်ခရိုစကုပ်သည် ...ကို အသုံးပြု၍ ပုံရိပ်ဖန်တီးသည်",
+          optionsEn: [
+            "A beam of light and glass lenses",
+            "A beam of electrons",
+            "Sound waves",
+            "X-rays",
+          ],
+          optionsMy: [
+            "အလင်းရောင်တန်းနှင့် မှန်ဘီလူးများ",
+            "အီလက်ထရွန်တန်း",
+            "အသံလှိုင်းများ",
+            "အိတ်ခ်စ်ရေး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Total magnification of a light microscope is calculated by...",
+          questionMy: "အလင်းမိုက်ခရိုစကုပ်၏ Total Magnification ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: [
+            "Multiplying the objective lens power by the eyepiece lens power",
+            "Adding the objective and eyepiece lens powers together",
+            "Dividing the eyepiece power by the objective power",
+            "Using the objective lens power alone",
+          ],
+          optionsMy: [
+            "Objective Lens Power ကို Eyepiece Lens Power ဖြင့် မြှောက်ခြင်း",
+            "Objective နှင့် Eyepiece Lens Power နှစ်ခုကို ပေါင်းခြင်း",
+            "Eyepiece Power ကို Objective Power ဖြင့် စားခြင်း",
+            "Objective Lens Power တစ်ခုတည်းသာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "Magnification, Resolution and Electron Microscopy"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek2 = CourseWeekDef(
+  id: "course-y12-bio-w2",
+  weekNumber: 2,
+  titleEn: "Magnification, Resolution and Electron Microscopy",
+  titleMy: "Magnification, Resolution နှင့် Electron Microscopy",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w2-d1",
+      dayNumber: 1,
+      titleEn: "The Magnification Formula",
+      titleMy: "Magnification Formula",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Magnification is calculated using the formula: magnification = ...",
+          questionMy: "Magnification ကို ဤ Formula ဖြင့် တွက်ချက်သည် - Magnification = ...",
+          optionsEn: [
+            "image size / actual size",
+            "actual size / image size",
+            "actual size x image size",
+            "actual size + image size",
+          ],
+          optionsMy: [
+            "Image Size / Actual Size",
+            "Actual Size / Image Size",
+            "Actual Size x Image Size",
+            "Actual Size + Image Size",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Magnification tells us how many times bigger the image is compared to the real object, so image size sits on top.",
+          ],
+          hintsMy: [
+            "Magnification သည် ပုံရိပ်က အစစ်အမှန်ထက် မည်မျှ ကြီးမားသည်ကို ပြောပြသောကြောင့် Image Size ကို အထက်တွင် ထားရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cell has an actual diameter of 20 µm. In a drawing it measures 60 mm across. What is the magnification? (Convert to the same unit first: 60 mm = 60,000 µm)",
+          questionMy:
+              "ဆဲလ်တစ်ခု၏ Actual Diameter မှာ 20 µm ဖြစ်ပြီး ပုံဆွဲချက်တွင် 60 mm ရှိသည်။ Magnification မည်မျှရှိသနည်း။ (ယူနစ်တူအောင် ဦးစွာပြောင်းပါ - 60 mm = 60,000 µm)",
+          optionsEn: ["x3000", "x300", "x30", "x30000"],
+          optionsMy: ["x3000", "x300", "x30", "x30000"],
+          correctIndex: 0,
+          hintsEn: [
+            "Magnification = image size / actual size = 60,000 / 20 = 3000.",
+          ],
+          hintsMy: [
+            "Magnification = Image Size / Actual Size = 60,000 / 20 = 3000 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "1 millimetre (mm) is equal to how many micrometres (µm)?",
+          questionMy: "1 Millimetre (mm) သည် Micrometre (µm) မည်မျှနှင့် ညီမျှသနည်း။",
+          optionsEn: ["1000 µm", "100 µm", "10 µm", "10000 µm"],
+          optionsMy: ["1000 µm", "100 µm", "10 µm", "10000 µm"],
+          correctIndex: 0,
+          hintsEn: [
+            "Each unit in this scale (m, mm, µm, nm) is 1000 times smaller than the one before it.",
+          ],
+          hintsMy: [
+            "ဤစကေး (m, mm, µm, nm) တွင် ယူနစ်တစ်ခုစီသည် ရှေ့ယူနစ်ထက် 1000 ဆ သေးငယ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Units and Microscopy Terms",
+      titleMy: "တွဲစပ်ကြမည် - ယူနစ်များနှင့် Microscopy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w2-dm-1",
+          termEn: "1 micrometre (µm)",
+          termMy: "1 Micrometre (µm)",
+          matchEn: "1 x 10⁻⁶ metres",
+          matchMy: "1 x 10⁻⁶ Metre",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w2-dm-2",
+          termEn: "1 nanometre (nm)",
+          termMy: "1 Nanometre (nm)",
+          matchEn: "1 x 10⁻⁹ metres",
+          matchMy: "1 x 10⁻⁹ Metre",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w2-dm-3",
+          termEn: "Electron microscope",
+          termMy: "Electron Microscope",
+          matchEn: "Uses a beam of electrons to achieve very high resolution",
+          matchMy: "Resolution အလွန်မြင့်စေရန် Electron တန်းကို အသုံးပြုသည့် ကိရိယာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w2-dm-4",
+          termEn: "Scale bar",
+          termMy: "Scale Bar",
+          matchEn: "A line on a micrograph showing a known real-life length",
+          matchMy: "Micrograph တစ်ခုပေါ်ရှိ သိရသော အစစ်အမှန်အလျားကို ပြသည့် မျဉ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w2-dm-5",
+          termEn: "Micrograph",
+          termMy: "Micrograph",
+          matchEn: "A photograph taken through a microscope",
+          matchMy: "မိုက်ခရိုစကုပ်ဖြင့် ရိုက်ကူးထားသည့် ဓာတ်ပုံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Light Microscope or Electron Microscope?",
+      titleMy: "စီစစ်ကြမည် - Light Microscope သို့မဟုတ် Electron Microscope?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Light Microscope", "Electron Microscope"],
+        bucketsMy: ["Light Microscope", "Electron Microscope"],
+        items: [
+          SortingItem(
+            id: "y12bio-w2-sort-1",
+            labelEn: "Maximum resolution of about 200 nanometres",
+            labelMy: "Maximum Resolution သည် Nanometre 200 ခန့်ရှိသည်",
+            correctBucketEn: "Light Microscope",
+            correctBucketMy: "Light Microscope",
+          ),
+          SortingItem(
+            id: "y12bio-w2-sort-2",
+            labelEn: "Can be used to view living, moving specimens",
+            labelMy: "အသက်ရှင်ပြီး ရွေ့လျားနေသော နမူနာများကို ကြည့်နိုင်သည်",
+            correctBucketEn: "Light Microscope",
+            correctBucketMy: "Light Microscope",
+          ),
+          SortingItem(
+            id: "y12bio-w2-sort-3",
+            labelEn: "Maximum resolution of about 0.1 nanometres",
+            labelMy: "Maximum Resolution သည် Nanometre 0.1 ခန့်ရှိသည်",
+            correctBucketEn: "Electron Microscope",
+            correctBucketMy: "Electron Microscope",
+          ),
+          SortingItem(
+            id: "y12bio-w2-sort-4",
+            labelEn: "Specimens must be viewed in a vacuum, so they must be dead",
+            labelMy: "နမူနာများကို Vacuum အတွင်းတွင်သာ ကြည့်ရသောကြောင့် သေဆုံးပြီးသား ဖြစ်ရမည်",
+            correctBucketEn: "Electron Microscope",
+            correctBucketMy: "Electron Microscope",
+          ),
+          SortingItem(
+            id: "y12bio-w2-sort-5",
+            labelEn: "Can reveal the internal detail of organelles like ribosomes and membranes",
+            labelMy: "Ribosome နှင့် Membrane ကဲ့သို့ Organelle များ၏ အတွင်းပိုင်းအသေးစိတ်ကို ဖော်ပြနိုင်သည်",
+            correctBucketEn: "Electron Microscope",
+            correctBucketMy: "Electron Microscope",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Magnification Calculation",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ Magnification တွက်ချက်မှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Magnification Calculation",
+        titleMy: "Su Su ၏ Magnification တွက်ချက်မှု",
+        passageEn:
+            "For homework, Sayar Zaw Min gave the class an electron micrograph of a mitochondrion with a scale bar printed underneath it labelled \"2 µm\". Su Su measured the scale bar with her ruler and found it was 40 mm long on the printed page. She then measured the mitochondrion itself in the same picture and found it was 100 mm long.\n\nSu Su realised the scale bar was the key to solving the problem: since 40 mm on the page represented a real length of 2 µm, the magnification of the whole image had to be 40 mm / 2 µm. Converting the scale bar's length into micrometres first (40 mm = 40,000 µm), she calculated the magnification as 40,000 / 2 = 20,000 times.\n\nOnce she knew the magnification, Su Su could find the mitochondrion's actual size using the rearranged formula: actual size = image size / magnification. The mitochondrion measured 100 mm = 100,000 µm on the page, so its actual length was 100,000 / 20,000 = 5 µm. Htet Aung checked his own answer against hers and got exactly the same figure, confirming that a typical mitochondrion really is a few micrometres long -- far too small to see clearly under a light microscope, which is exactly why the electron micrograph had been necessary in the first place.",
+        passageMy:
+            "အိမ်စာအဖြစ် ဆရာဇော်မင်းသည် အတန်းအား \"2 µm\" ဟု Scale Bar အောက်တွင် ရေးမှတ်ထားသည့် Mitochondrion တစ်ခု၏ Electron Micrograph တစ်ပုံ ပေးခဲ့သည်။ Su Su သည် ၎င်း၏ တိုင်းတန်းကိရိယာဖြင့် Scale Bar ကို တိုင်းတာကြည့်ရာ စာမျက်နှာပေါ်တွင် 40 mm ရှိကြောင်း တွေ့ခဲ့သည်။ ထို့နောက် တူညီသောပုံထဲရှိ Mitochondrion ကိုယ်တိုင်ကို တိုင်းတာကြည့်ရာ 100 mm ရှိကြောင်း တွေ့ခဲ့သည်။\n\nScale Bar သည် ပြဿနာကို ဖြေရှင်းရန် အဓိကသော့ချက် ဖြစ်ကြောင်း Su Su သဘောပေါက်ခဲ့သည် - စာမျက်နှာပေါ်ရှိ 40 mm သည် အစစ်အမှန်အလျား 2 µm ကို ကိုယ်စားပြုနေသောကြောင့် ပုံတစ်ခုလုံး၏ Magnification သည် 40 mm / 2 µm ဖြစ်ရမည်ဖြစ်သည်။ Scale Bar ၏ အလျားကို Micrometre ဖြင့် ဦးစွာ ပြောင်းလိုက်ပြီး (40 mm = 40,000 µm) Magnification ကို 40,000 / 2 = 20,000 ဆ ဟု တွက်ချက်ခဲ့သည်။\n\nMagnification ကို သိပြီးသည်နှင့် Su Su သည် ပြန်စီစဉ်ထားသော Formula ဖြင့် Mitochondrion ၏ Actual Size ကို ရှာနိုင်ခဲ့သည် - Actual Size = Image Size / Magnification ။ Mitochondrion သည် စာမျက်နှာပေါ်တွင် 100 mm = 100,000 µm ရှိသောကြောင့် ၎င်း၏ Actual Length သည် 100,000 / 20,000 = 5 µm ဖြစ်သည်။ Htet Aung သည် သူ့ကိုယ်ပိုင် အဖြေကို Su Su ၏ အဖြေနှင့် နှိုင်းယှဉ်စစ်ဆေးကြည့်ရာ အတိအကျ တူညီသော ကိန်းဂဏန်းရရှိခဲ့ပြီး ပုံမှန် Mitochondrion တစ်ခုသည် Micrometre အနည်းငယ်သာ အလျားရှိကြောင်း အတည်ပြုခဲ့သည် -- အလင်းမိုက်ခရိုစကုပ်ဖြင့် ရှင်းလင်းစွာ မမြင်နိုင်လောက်အောင် သေးငယ်လွန်းသောကြောင့် Electron Micrograph လိုအပ်ရသည့် အကြောင်းရင်းလည်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how long was the scale bar on the printed page?",
+            questionMy: "စာမျက်နှာပေါ်ရှိ Scale Bar သည် မည်မျှ အလျားရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["40 mm", "2 mm", "100 mm", "20 mm"],
+            optionsMy: ["40 mm", "2 mm", "100 mm", "20 mm"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what magnification did Su Su calculate for the image?",
+            questionMy:
+                "ပုံအတွက် Su Su က မည်သည့် Magnification တွက်ချက်ခဲ့သည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x20,000", "x2,000", "x40,000", "x200"],
+            optionsMy: ["x20,000", "x2,000", "x40,000", "x200"],
+            correctIndex: 0,
+            hintsEn: ["40,000 / 2 = 20,000."],
+            hintsMy: ["40,000 / 2 = 20,000 ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what was the actual length of the mitochondrion?",
+            questionMy: "Mitochondrion ၏ Actual Length မည်မျှရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5 µm", "50 µm", "0.5 µm", "500 µm"],
+            optionsMy: ["5 µm", "50 µm", "0.5 µm", "500 µm"],
+            correctIndex: 0,
+            hintsEn: ["100,000 / 20,000 = 5."],
+            hintsMy: ["100,000 / 20,000 = 5 ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Magnification and Resolution",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Magnification နှင့် Resolution",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Resolution is the ability to...",
+          questionMy: "Resolution ဆိုသည်မှာ ...နိုင်သော စွမ်းရည် ဖြစ်သည်",
+          optionsEn: [
+            "Distinguish two close points as separate",
+            "Make an image bigger",
+            "Change the colour of a specimen",
+            "Count the number of cells in a tissue",
+          ],
+          optionsMy: [
+            "အနီးကပ်နေသော အမှတ်နှစ်ခုကို ခွဲခြား",
+            "ပုံရိပ်ကို ကြီးမားစေ",
+            "နမူနာ၏ အရောင်ကို ပြောင်းလဲ",
+            "တစ်ရှူးတစ်ခုအတွင်းရှိ ဆဲလ်အရေအတွက်ကို ရေတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An electron microscope achieves much higher resolution than a light microscope because it uses...",
+          questionMy: "Electron Microscope သည် Light Microscope ထက် Resolution ပိုမြင့်ရသည့်အကြောင်းရင်းမှာ ...ကို အသုံးပြုသောကြောင့်ဖြစ်သည်",
+          optionsEn: [
+            "A beam of electrons instead of light",
+            "A much stronger light source",
+            "Coloured filters",
+            "A larger glass lens",
+          ],
+          optionsMy: [
+            "အလင်းအစား Electron တန်း",
+            "ပိုအားကောင်းသော အလင်းရင်းမြစ်",
+            "အရောင်ရှိသော Filter များ",
+            "ပိုကြီးသော မှန်ဘီလူး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "actual size = image size / magnification is the rearranged form of...",
+          questionMy: "Actual Size = Image Size / Magnification သည် ...ကို ပြန်စီစဉ်ထားသော Formula ဖြစ်သည်",
+          optionsEn: [
+            "magnification = image size / actual size",
+            "magnification = actual size / image size",
+            "resolution = image size / actual size",
+            "magnification = actual size x image size",
+          ],
+          optionsMy: [
+            "Magnification = Image Size / Actual Size",
+            "Magnification = Actual Size / Image Size",
+            "Resolution = Image Size / Actual Size",
+            "Magnification = Actual Size x Image Size",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Eukaryotic Organelles I: Nucleus, Mitochondria and Ribosomes"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek3 = CourseWeekDef(
+  id: "course-y12-bio-w3",
+  weekNumber: 3,
+  titleEn: "Eukaryotic Organelles I: Nucleus, Mitochondria and Ribosomes",
+  titleMy: "Eukaryotic Organelle များ I - Nucleus, Mitochondria နှင့် Ribosome",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w3-d1",
+      dayNumber: 1,
+      titleEn: "The Nucleus, Mitochondrion and Ribosome",
+      titleMy: "Nucleus, Mitochondrion နှင့် Ribosome",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The nucleus of a eukaryotic cell contains...",
+          questionMy: "Eukaryotic ဆဲလ်၏ Nucleus တွင် ...ပါဝင်သည်",
+          optionsEn: [
+            "The cell's chromosomes (DNA), controlling the cell's activities",
+            "Only water and no other contents",
+            "The site where respiration takes place",
+            "Digestive enzymes for breaking down waste",
+          ],
+          optionsMy: [
+            "ဆဲလ်၏ Chromosome (DNA) များ ပါဝင်ပြီး ဆဲလ်၏ လှုပ်ရှားမှုများကို ထိန်းချုပ်သည်",
+            "ရေသာ ပါဝင်ပြီး အခြားအရာ လုံးဝမပါ",
+            "Respiration ဖြစ်ပွားရာ နေရာ",
+            "စွန့်ပစ်ပစ္စည်းများကို ချေဖျက်ရန် Digestive Enzyme များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The nucleus is often called the cell's \"control centre\" because it holds the genetic information (DNA) that directs everything the cell does.",
+          ],
+          hintsMy: [
+            "Nucleus ကို ဆဲလ်၏ \"ထိန်းချုပ်ရေးဌာနချုပ်\" ဟု မကြာခဏ ခေါ်သည်၊ အကြောင်းမှာ ဆဲလ်လုပ်ဆောင်သမျှကို ညွှန်ကြားပေးသော မျိုးရိုးဗီဇအချက်အလက် (DNA) ကို ကိုင်ဆောင်ထားသောကြောင့်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Mitochondria are described as the \"powerhouse of the cell\" because they are the main site of...",
+          questionMy:
+              "Mitochondria ကို ဆဲလ်၏ \"စွမ်းအင်ရင်းမြစ်\" ဟု ခေါ်ရသည့် အကြောင်းရင်းမှာ ...ဖြစ်ပွားရာ အဓိကနေရာ ဖြစ်သောကြောင့်",
+          optionsEn: [
+            "Aerobic respiration, producing ATP",
+            "Photosynthesis",
+            "Protein synthesis",
+            "Cell wall formation",
+          ],
+          optionsMy: [
+            "Aerobic Respiration, ATP ထုတ်လုပ်ခြင်း",
+            "Photosynthesis",
+            "Protein Synthesis",
+            "Cell Wall ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Mitochondria have a folded inner membrane (cristae) that provides a large surface area for the reactions that release energy as ATP.",
+          ],
+          hintsMy: [
+            "Mitochondria တွင် အထောက်ခံအား ATP အဖြစ် ထုတ်လွှတ်ပေးသော တုံ့ပြန်မှုများအတွက် ဧရိယာကျယ်ကျယ်ပေးသည့် အလိပ်များပါသော Inner Membrane (Cristae) ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Ribosomes are the site of...",
+          questionMy: "Ribosome သည် ...ဖြစ်ပွားရာနေရာ ဖြစ်သည်",
+          optionsEn: [
+            "Protein synthesis",
+            "Lipid synthesis only",
+            "DNA replication",
+            "Cellular respiration",
+          ],
+          optionsMy: [
+            "Protein Synthesis",
+            "Lipid Synthesis သာ",
+            "DNA Replication",
+            "Cellular Respiration",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ribosomes translate the genetic code carried by mRNA into a chain of amino acids -- a protein.",
+          ],
+          hintsMy: [
+            "Ribosome များသည် mRNA မှ သယ်ဆောင်လာသော မျိုးရိုးဗီဇကုဒ်ကို Amino Acid ကွင်းဆက် -- Protein တစ်ခု -- အဖြစ် ဘာသာပြန်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Organelles and Their Functions",
+      titleMy: "တွဲစပ်ကြမည် - Organelle များနှင့် လုပ်ငန်းဆောင်တာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w3-dm-1",
+          termEn: "Nucleus",
+          termMy: "နျူကလိယပ်စ် (Nucleus)",
+          matchEn: "Contains DNA and controls the cell's activities",
+          matchMy: "DNA ပါဝင်ပြီး ဆဲလ်၏ လှုပ်ရှားမှုများကို ထိန်းချုပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w3-dm-2",
+          termEn: "Nucleolus",
+          termMy: "နျူကလီယိုလပ်စ် (Nucleolus)",
+          matchEn: "A dense region inside the nucleus that produces ribosomes",
+          matchMy: "Nucleus အတွင်းရှိ သိပ်သည်းသောနေရာ၊ Ribosome များ ထုတ်လုပ်သည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w3-dm-3",
+          termEn: "Mitochondrion",
+          termMy: "မိုက်တိုကွန်ဒရီးယား (Mitochondrion)",
+          matchEn: "Has folded cristae and a matrix; the site of aerobic respiration",
+          matchMy: "Cristae ခေါ် အလိပ်များနှင့် Matrix ရှိသည်၊ Aerobic Respiration ဖြစ်ပွားရာနေရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w3-dm-4",
+          termEn: "Ribosome",
+          termMy: "ရိုက်ဘိုဆုန်း (Ribosome)",
+          matchEn: "The site of protein synthesis, free in the cytoplasm or attached to the RER",
+          matchMy: "Protein Synthesis ဖြစ်ပွားရာနေရာ၊ Cytoplasm တွင် လွတ်လပ်စွာ (သို့) RER တွင် ကပ်လျက်ရှိနိုင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w3-dm-5",
+          termEn: "Nuclear envelope",
+          termMy: "နျူကလီးယား အိမ်ရံ (Nuclear Envelope)",
+          matchEn: "A double membrane surrounding the nucleus, with pores allowing molecules through",
+          matchMy: "Nucleus ကို ဝန်းရံထားသော Double Membrane ဖြစ်ပြီး မော်လီကျူးများ ဖြတ်သန်းနိုင်ရန် အပေါက်များပါသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Protein Synthesis or Respiration?",
+      titleMy: "စီစစ်ကြမည် - Protein Synthesis သို့မဟုတ် Respiration?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Related to Protein Synthesis", "Related to Respiration"],
+        bucketsMy: ["Protein Synthesis နှင့် သက်ဆိုင်", "Respiration နှင့် သက်ဆိုင်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w3-sort-1",
+            labelEn: "Ribosome",
+            labelMy: "Ribosome",
+            correctBucketEn: "Related to Protein Synthesis",
+            correctBucketMy: "Protein Synthesis နှင့် သက်ဆိုင်",
+          ),
+          SortingItem(
+            id: "y12bio-w3-sort-2",
+            labelEn: "mRNA carrying the genetic code",
+            labelMy: "မျိုးရိုးဗီဇကုဒ်ကို သယ်ဆောင်နေသော mRNA",
+            correctBucketEn: "Related to Protein Synthesis",
+            correctBucketMy: "Protein Synthesis နှင့် သက်ဆိုင်",
+          ),
+          SortingItem(
+            id: "y12bio-w3-sort-3",
+            labelEn: "Mitochondrion",
+            labelMy: "Mitochondrion",
+            correctBucketEn: "Related to Respiration",
+            correctBucketMy: "Respiration နှင့် သက်ဆိုင်",
+          ),
+          SortingItem(
+            id: "y12bio-w3-sort-4",
+            labelEn: "Cristae, which increase surface area for reactions",
+            labelMy: "တုံ့ပြန်မှုများအတွက် Surface Area တိုးစေသော Cristae",
+            correctBucketEn: "Related to Respiration",
+            correctBucketMy: "Respiration နှင့် သက်ဆိုင်",
+          ),
+          SortingItem(
+            id: "y12bio-w3-sort-5",
+            labelEn: "ATP production",
+            labelMy: "ATP ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Related to Respiration",
+            correctBucketMy: "Respiration နှင့် သက်ဆိုင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Reading an Electron Micrograph",
+      titleMy: "စာဖတ်ခြင်း - Electron Micrograph တစ်ပုံကို ဖတ်ရှုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Reading an Electron Micrograph",
+        titleMy: "Electron Micrograph တစ်ပုံကို ဖတ်ရှုခြင်း",
+        passageEn:
+            "Sayar Zaw Min projected an electron micrograph of a liver cell onto the classroom screen and asked the class to identify each labelled structure. Htet Aung pointed first to the largest, roughly circular structure near the centre, surrounded by a clearly visible double membrane with small pores dotted around its edge -- he correctly named it the nucleus, adding that the darker patch inside it was probably the nucleolus, where ribosomes are made.\n\nSu Su then pointed to several small, oval-shaped structures scattered through the cytoplasm, each with a highly folded inner membrane visible inside. She recognised these as mitochondria immediately, because their folded cristae -- clearly visible only at electron-microscope resolution -- were unmistakable, and liver cells are known to need large amounts of ATP for their many metabolic functions.\n\nSayar Zaw Min then pointed to tiny black dots, some free in the cytoplasm and some clustered along a membrane system nearby. \"These are ribosomes,\" he explained, \"far too small to resolve individually with a light microscope, but perfectly clear here. Notice how many more mitochondria and ribosomes this liver cell has compared to a typical skin cell -- that tells us something important about how metabolically active this particular cell type is.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် အသည်းဆဲလ်တစ်ခု၏ Electron Micrograph ကို အတန်းစခရင်ပေါ်တွင် ပြသပြီး အမှတ်အသားပြုထားသော ဖွဲ့စည်းပုံတစ်ခုစီကို ခွဲခြားဖော်ထုတ်ရန် အတန်းအား တောင်းဆိုခဲ့သည်။ Htet Aung သည် ဗဟိုနေရာအနီးရှိ အကြီးဆုံးနှင့် ခန့်မှန်း အဝိုင်းပုံသဏ္ဌာန် ဖွဲ့စည်းပုံကို ဦးစွာ ညွှန်ပြခဲ့ပြီး ၎င်း၏ အနားတစ်လျှောက် အပေါက်ငယ်များ အစက်ဖြင့် ရှင်းလင်းစွာ မြင်နိုင်သော Double Membrane ဝန်းရံထားသည်ကို တွေ့ခဲ့သည် -- ၎င်းကို Nucleus ဟု မှန်ကန်စွာ အမည်တပ်ခဲ့ပြီး ၎င်း၏ အတွင်းရှိ အရောင်ပိုနက်သော ဖုံအား Ribosome ထုတ်လုပ်ရာ Nucleolus ဖြစ်နိုင်ကြောင်း ထပ်ဆောင်း ဆိုခဲ့သည်။\n\nSu Su သည် Cytoplasm တစ်လျှောက် ပျံ့နှံ့နေသော ဘဲဥပုံသဏ္ဌာန်ငယ် ဖွဲ့စည်းပုံအချို့ကို ညွှန်ပြခဲ့ပြီး တစ်ခုစီ၏ အတွင်းတွင် လိပ်ခေါက်များများပါသော Inner Membrane ကို မြင်နိုင်ခဲ့သည်။ ၎င်းတို့၏ Cristae ခေါ် အလိပ်များ -- Electron Microscope Resolution တွင်သာ ရှင်းလင်းစွာ မြင်ရသော -- ကို ချက်ချင်းသိမြင်ခဲ့ပြီး Mitochondria ဖြစ်ကြောင်း Su Su ချက်ချင်း မှတ်မိခဲ့သည်၊ အသည်းဆဲလ်များသည် Metabolic Function များစွာအတွက် ATP အများအပြားလိုအပ်ကြောင်း လူသိများသောကြောင့်လည်း ဖြစ်သည်။\n\nထို့နောက် ဆရာဇော်မင်းသည် Cytoplasm တွင် လွတ်လပ်စွာရှိသော နှင့် အနီးရှိ Membrane စနစ်တစ်ခုတလျှောက် အစုလိုက် တွေ့ရသော အနက်ရောင်အစက်ငယ်များကို ညွှန်ပြခဲ့သည်။ \"ဤသည်များမှာ Ribosome များ ဖြစ်ကြသည်\" ဟု ရှင်းပြခဲ့သည် \"Light Microscope ဖြင့် တစ်ခုချင်းစီ ခွဲခြားမြင်ရန် အလွန်သေးငယ်လွန်းသော်လည်း ဤနေရာတွင်မူ လုံးဝ ရှင်းလင်းစွာ မြင်ရသည်။ ပုံမှန် အရေပြားဆဲလ်တစ်ခုနှင့် နှိုင်းယှဉ်ကြည့်လျှင် ဤအသည်းဆဲလ်တွင် Mitochondria နှင့် Ribosome အများအပြားပို၍ ရှိသည်ကို သတိပြုပါ -- ၎င်းသည် ဤဆဲလ်အမျိုးအစား၏ Metabolic Activity အဆင့် အကြောင်း အရေးကြီးသော အချက်တစ်ခုကို ပြောပြနေခြင်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Htet Aung identify as the darker patch inside the nucleus?",
+            questionMy:
+                "Nucleus အတွင်းရှိ အရောင်ပိုနက်သော ဖုံကို Htet Aung က အဘယ်အဖြစ် ဖော်ထုတ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The nucleolus", "A mitochondrion", "A ribosome", "The cytoplasm"],
+            optionsMy: ["Nucleolus", "Mitochondrion", "Ribosome", "Cytoplasm"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, why did Su Su immediately recognise the mitochondria?",
+            questionMy:
+                "Su Su သည် Mitochondria ကို အဘယ်ကြောင့် ချက်ချင်း မှတ်မိခဲ့သည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Their folded cristae were clearly visible",
+              "They were the largest structure in the cell",
+              "They were coloured bright red",
+              "They were located outside the cell",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ Cristae ခေါ် အလိပ်များကို ရှင်းလင်းစွာ မြင်နိုင်ခဲ့ခြင်းကြောင့်",
+              "ဆဲလ်အတွင်းရှိ အကြီးဆုံး ဖွဲ့စည်းပုံ ဖြစ်ခဲ့ခြင်းကြောင့်",
+              "အနီရောင်တောက်ပ ဖြစ်ခဲ့ခြင်းကြောင့်",
+              "ဆဲလ်၏ အပြင်ဘက်တွင် တည်ရှိခဲ့ခြင်းကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description of what Su Su saw."],
+            hintsMy: ["Su Su မြင်ခဲ့သည့် ဖော်ပြချက်ကို ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what did the large number of mitochondria and ribosomes in the liver cell suggest?",
+            questionMy:
+                "အသည်းဆဲလ်တွင် Mitochondria နှင့် Ribosome အရေအတွက်များခြင်းသည် အဘယ်ကို ညွှန်ပြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That the cell is highly metabolically active",
+              "That the cell is dead",
+              "That the micrograph was taken incorrectly",
+              "That liver cells never divide",
+            ],
+            optionsMy: [
+              "ဆဲလ်သည် Metabolic Activity အဆင့်မြင့်ကြောင်း",
+              "ဆဲလ်သည် သေဆုံးနေကြောင်း",
+              "Micrograph ကို မှားယွင်းစွာ ရိုက်ကူးခဲ့ကြောင်း",
+              "အသည်းဆဲလ်များသည် လုံးဝ ခွဲမပွားကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Nucleus, Mitochondria and Ribosomes",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Nucleus, Mitochondria နှင့် Ribosome",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Which organelle contains the cell's genetic material?",
+          questionMy: "မည်သည့် Organelle တွင် ဆဲလ်၏ မျိုးရိုးဗီဇပစ္စည်း ပါဝင်သနည်း။",
+          optionsEn: ["Nucleus", "Mitochondrion", "Ribosome", "Cytoplasm"],
+          optionsMy: ["Nucleus", "Mitochondrion", "Ribosome", "Cytoplasm"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cristae are folds found inside which organelle?",
+          questionMy: "Cristae ခေါ် အလိပ်များကို မည်သည့် Organelle အတွင်းတွင် တွေ့ရသနည်း။",
+          optionsEn: ["Mitochondrion", "Nucleus", "Ribosome", "Nucleolus"],
+          optionsMy: ["Mitochondrion", "Nucleus", "Ribosome", "Nucleolus"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ribosomes may be found freely in the cytoplasm or attached to...",
+          questionMy: "Ribosome များကို Cytoplasm တွင် လွတ်လပ်စွာ (သို့) ...တွင် ကပ်လျက် တွေ့ရနိုင်သည်",
+          optionsEn: [
+            "The rough endoplasmic reticulum",
+            "The cell wall",
+            "The vacuole",
+            "The chloroplast",
+          ],
+          optionsMy: [
+            "Rough Endoplasmic Reticulum",
+            "Cell Wall",
+            "Vacuole",
+            "Chloroplast",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4: "Eukaryotic Organelles II, Prokaryotic Cells and Comparing
+// Cell Types" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek4 = CourseWeekDef(
+  id: "course-y12-bio-w4",
+  weekNumber: 4,
+  titleEn:
+      "Eukaryotic Organelles II, Prokaryotic Cells and Comparing Cell Types",
+  titleMy: "Eukaryotic Organelle များ II, Prokaryotic ဆဲလ်များနှင့် ဆဲလ်အမျိုးအစားများ နှိုင်းယှဉ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w4-d1",
+      dayNumber: 1,
+      titleEn: "RER, SER, Golgi Apparatus and Lysosomes",
+      titleMy: "RER, SER, Golgi Apparatus နှင့် Lysosome",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The rough endoplasmic reticulum (RER) is covered in ribosomes and is mainly responsible for...",
+          questionMy:
+              "Rough Endoplasmic Reticulum (RER) တွင် Ribosome များ ကပ်လျက်ရှိပြီး ၎င်း၏ အဓိကတာဝန်မှာ...",
+          optionsEn: [
+            "Folding and transporting proteins made by its attached ribosomes",
+            "Producing ATP through respiration",
+            "Storing the cell's DNA",
+            "Synthesising lipids only",
+          ],
+          optionsMy: [
+            "ကပ်လျက်ရှိသော Ribosome များ ထုတ်လုပ်သည့် Protein များကို ခေါက်သိမ်း၍ သယ်ယူပို့ဆောင်ခြင်း",
+            "Respiration မှတဆင့် ATP ထုတ်လုပ်ခြင်း",
+            "ဆဲလ်၏ DNA ကို သိမ်းဆည်းခြင်း",
+            "Lipid သာ ဖန်တီးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The \"rough\" appearance comes from the ribosomes studded across its surface, which make proteins directly into the RER for processing.",
+          ],
+          hintsMy: [
+            "\"Rough\" ဟု အသံထွက်ခြင်းမှာ ၎င်း၏ မျက်နှာပြင်ပေါ်ရှိ Ribosome များကြောင့်ဖြစ်ပြီး ၎င်းတို့သည် Protein များကို RER အတွင်းသို့ တိုက်ရိုက် ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The smooth endoplasmic reticulum (SER) differs from the RER mainly because it...",
+          questionMy: "Smooth Endoplasmic Reticulum (SER) သည် RER နှင့် ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "Has no ribosomes and synthesises lipids instead of proteins",
+            "Has more ribosomes than the RER",
+            "Is found only in bacteria",
+            "Contains the cell's chromosomes",
+          ],
+          optionsMy: [
+            "Ribosome လုံးဝ မရှိဘဲ Protein အစား Lipid ကို ဖန်တီးသည်",
+            "RER ထက် Ribosome ပိုများသည်",
+            "ဘက်တီးရီးယားများတွင်သာ တွေ့ရသည်",
+            "ဆဲလ်၏ Chromosome များ ပါဝင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Smooth\" means no ribosomes are attached, which is exactly why SER's role is lipid synthesis rather than protein synthesis.",
+          ],
+          hintsMy: [
+            "\"Smooth\" ဆိုသည်မှာ Ribosome လုံးဝ မကပ်ကြောင်းဖြစ်ပြီး ထို့ကြောင့်ပင် SER ၏ အခန်းကဏ္ဍသည် Protein Synthesis မဟုတ်ဘဲ Lipid Synthesis ဖြစ်နေခြင်းဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Golgi apparatus modifies and packages proteins received from the RER into...",
+          questionMy: "Golgi Apparatus သည် RER မှ ရရှိသော Protein များကို ပြုပြင်ပြီး ...အဖြစ် ထုပ်ပိုးသည်",
+          optionsEn: [
+            "Vesicles, ready for secretion or transport elsewhere in the cell",
+            "New ribosomes",
+            "New mitochondria",
+            "DNA molecules",
+          ],
+          optionsMy: [
+            "Vesicle များ၊ ဆဲလ်ထဲရှိ အခြားနေရာများသို့ ပို့ဆောင်ရန် (သို့) Secretion အတွက် အသင့်ဖြစ်သော",
+            "Ribosome အသစ်များ",
+            "Mitochondria အသစ်များ",
+            "DNA မော်လီကျူးများ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Golgi apparatus is like a packaging and sorting centre: it modifies proteins from the RER and buds off vesicles to send them where they are needed.",
+          ],
+          hintsMy: [
+            "Golgi Apparatus သည် ထုပ်ပိုးရေးနှင့် စီစစ်ရေးဌာနတစ်ခုနှင့် တူသည် - RER မှ Protein များကို ပြုပြင်ပြီး လိုအပ်ရာနေရာသို့ ပို့ဆောင်ရန် Vesicle များ ခွဲထွက်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: More Organelles and Their Roles",
+      titleMy: "တွဲစပ်ကြမည် - Organelle များနှင့် အခန်းကဏ္ဍများ ဆက်လက်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w4-dm-1",
+          termEn: "Rough endoplasmic reticulum (RER)",
+          termMy: "Rough Endoplasmic Reticulum (RER)",
+          matchEn: "Studded with ribosomes; folds and transports proteins",
+          matchMy: "Ribosome များ ကပ်လျက်ရှိသည်၊ Protein များကို ခေါက်သိမ်းပြီး သယ်ယူပို့ဆောင်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w4-dm-2",
+          termEn: "Smooth endoplasmic reticulum (SER)",
+          termMy: "Smooth Endoplasmic Reticulum (SER)",
+          matchEn: "Has no ribosomes; synthesises lipids",
+          matchMy: "Ribosome မရှိပါ၊ Lipid များကို ဖန်တီးသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w4-dm-3",
+          termEn: "Golgi apparatus",
+          termMy: "Golgi Apparatus",
+          matchEn: "Modifies and packages proteins into vesicles",
+          matchMy: "Protein များကို ပြုပြင်ပြီး Vesicle များအဖြစ် ထုပ်ပိုးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w4-dm-4",
+          termEn: "Lysosome",
+          termMy: "လိုက်ဆိုဆုန်း (Lysosome)",
+          matchEn: "Contains digestive enzymes that break down waste and worn-out organelles",
+          matchMy: "စွန့်ပစ်ပစ္စည်းနှင့် အသုံးဆက်ဆံနေသော Organelle များကို ချေဖျက်သည့် Digestive Enzyme များ ပါဝင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w4-dm-5",
+          termEn: "Cytoplasm",
+          termMy: "ဆဲလ်အတွင်းအရည် (Cytoplasm)",
+          matchEn: "The jelly-like substance inside the cell membrane where organelles sit",
+          matchMy: "Cell Membrane အတွင်းရှိ Organelle များ တည်ရှိရာ ဂျယ်လီပုံစံ ပစ္စည်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Prokaryotic or Eukaryotic Cell?",
+      titleMy: "စီစစ်ကြမည် - Prokaryotic သို့မဟုတ် Eukaryotic ဆဲလ်?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Prokaryotic Cell", "Eukaryotic Cell"],
+        bucketsMy: ["Prokaryotic ဆဲလ်", "Eukaryotic ဆဲလ်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w4-sort-1",
+            labelEn: "Circular DNA, free in the cytoplasm, no nucleus",
+            labelMy: "Circular DNA, Cytoplasm ထဲတွင် လွတ်လပ်စွာရှိပြီး Nucleus မရှိ",
+            correctBucketEn: "Prokaryotic Cell",
+            correctBucketMy: "Prokaryotic ဆဲလ်",
+          ),
+          SortingItem(
+            id: "y12bio-w4-sort-2",
+            labelEn: "70S ribosomes, smaller than eukaryotic ribosomes",
+            labelMy: "70S Ribosome, Eukaryotic Ribosome ထက် သေးငယ်သည်",
+            correctBucketEn: "Prokaryotic Cell",
+            correctBucketMy: "Prokaryotic ဆဲလ်",
+          ),
+          SortingItem(
+            id: "y12bio-w4-sort-3",
+            labelEn: "DNA enclosed in a membrane-bound nucleus",
+            labelMy: "Membrane-Bound Nucleus အတွင်း ပိတ်ထားသော DNA",
+            correctBucketEn: "Eukaryotic Cell",
+            correctBucketMy: "Eukaryotic ဆဲလ်",
+          ),
+          SortingItem(
+            id: "y12bio-w4-sort-4",
+            labelEn: "Contains membrane-bound organelles such as mitochondria and the Golgi apparatus",
+            labelMy: "Mitochondria နှင့် Golgi Apparatus ကဲ့သို့ Membrane-Bound Organelle များ ပါဝင်သည်",
+            correctBucketEn: "Eukaryotic Cell",
+            correctBucketMy: "Eukaryotic ဆဲလ်",
+          ),
+          SortingItem(
+            id: "y12bio-w4-sort-5",
+            labelEn: "80S ribosomes, larger than prokaryotic ribosomes",
+            labelMy: "80S Ribosome, Prokaryotic Ribosome ထက် ပိုကြီးသည်",
+            correctBucketEn: "Eukaryotic Cell",
+            correctBucketMy: "Eukaryotic ဆဲလ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Three Cells Side by Side",
+      titleMy: "စာဖတ်ခြင်း - ဆဲလ်သုံးမျိုး ယှဉ်တွဲကြည့်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Three Cells Side by Side",
+        titleMy: "ဆဲလ်သုံးမျိုး ယှဉ်တွဲကြည့်ခြင်း",
+        passageEn:
+            "For the term's capstone practical, Sayar Zaw Min set up three slides side by side under identical microscopes: an onion epidermis cell (plant), a cheek epithelial cell scraped gently from the inside of Htet Aung's own mouth (animal), and a smear of yoghurt bacteria (prokaryotic). He asked the class to compare all three and record what they saw.\n\nSu Su noted that the onion cell had a clear, rigid rectangular outline (the cell wall), a large central space that pushed the cytoplasm to the edges (a permanent vacuole), and a nucleus visible near one side. Htet Aung's cheek cell, by contrast, had no rigid wall at all -- just a flexible, irregularly rounded outline (the cell membrane) -- but it still clearly showed a nucleus and cytoplasm, confirming that both are eukaryotic cells built from the same basic organelle toolkit, just arranged and shaped differently.\n\nThe bacteria were a different story entirely. Even at the highest magnification the light microscope could manage, Sayar Zaw Min explained, individual bacteria would appear as nothing more than tiny featureless dots -- true prokaryotic cells are typically only 1-5 micrometres long, roughly ten times smaller than a typical eukaryotic cell, and they have no nucleus, no mitochondria, and no membrane-bound organelles of any kind at all. Their DNA floats freely in the cytoplasm as a single circular loop, and their ribosomes (70S, smaller than the 80S ribosomes in the plant and animal cells) are the only internal structure a light microscope has any hope of hinting at. \"Same basic chemistry of life,\" Sayar Zaw Min concluded, \"but two fundamentally different levels of internal organisation.\"",
+        passageMy:
+            "Term ၏ Capstone Practical အတွက် ဆရာဇော်မင်းသည် တူညီသော မိုက်ခရိုစကုပ်များအောက်တွင် Slide သုံးခုကို ယှဉ်တွဲ စီစဉ်ခဲ့သည် - ကြက်သွန်နီ Epidermis ဆဲလ် (အပင်)၊ Htet Aung ကိုယ်တိုင်၏ ပါးအတွင်းဘက်မှ ဖျဖျည်းစွာ ခြစ်ယူထားသော Cheek Epithelial ဆဲလ် (တိရစ္ဆာန်) နှင့် Yoghurt ဘက်တီးရီးယား လိမ်းကျံချက် (Prokaryotic) တို့ ဖြစ်ကြသည်။ ဤဆဲလ်သုံးမျိုးလုံးကို နှိုင်းယှဉ်၍ မြင်တွေ့ရသည်များကို မှတ်တမ်းတင်ခိုင်းခဲ့သည်။\n\nကြက်သွန်နီဆဲလ်သည် ရှင်းလင်းခိုင်မာသော စတုဂံပုံသဏ္ဌာန် ဘောင် (Cell Wall)၊ Cytoplasm ကို အနားသို့ တွန်းထုတ်ထားသော ဗဟိုစပေ့စ်ကြီး (Permanent Vacuole) နှင့် တစ်ဖက်အနီးတွင် မြင်နိုင်သော Nucleus ရှိကြောင်း Su Su မှတ်သားခဲ့သည်။ ဆန့်ကျင်ဘက်အနေဖြင့် Htet Aung ၏ Cheek ဆဲလ်တွင် ခိုင်မာသော နံရံ လုံးဝ မရှိဘဲ -- ပြောင်းလွယ်ပြင်လွယ်ရှိသော မမှန်သော လုံးဝိုင်းဘောင် (Cell Membrane) သာ ရှိသော်လည်း Nucleus နှင့် Cytoplasm ကို ရှင်းလင်းစွာ ပြသနေဆဲ ဖြစ်ပြီး ဆဲလ်နှစ်မျိုးစလုံးသည် တူညီသော အခြေခံ Organelle အစုအဝေးမှ ဖွဲ့စည်းထားသော Eukaryotic ဆဲလ်များ ဖြစ်ကြောင်း၊ ပုံသဏ္ဌာန်နှင့် စီစဉ်ပုံသာ ကွာခြားကြောင်း အတည်ပြုခဲ့သည်။\n\nဘက်တီးရီးယားများမှာမူ လုံးဝ မတူညီသော ဇာတ်လမ်းတစ်ခု ဖြစ်ခဲ့သည်။ အလင်းမိုက်ခရိုစကုပ် ရနိုင်ဆုံး Magnification အမြင့်ဆုံးတွင်ပင် ဘက်တီးရီးယားတစ်ခုချင်းစီသည် လက္ခဏာမပါသော အစက်ငယ်များအဖြစ်သာ ပေါ်လာလိမ့်မည်ဟု ဆရာဇော်မင်းက ရှင်းပြခဲ့သည် -- အစစ်အမှန် Prokaryotic ဆဲလ်များသည် ပုံမှန်အားဖြင့် Micrometre 1-5 ခန့်သာ အလျားရှိပြီး ပုံမှန် Eukaryotic ဆဲလ်တစ်ခုထက် ဆယ်ဆခန့် သေးငယ်ကာ Nucleus, Mitochondria နှင့် Membrane-Bound Organelle မည်သည်မျှ လုံးဝ မရှိပါ။ ၎င်းတို့၏ DNA သည် Cytoplasm အတွင်း စက်ဝိုင်းကွင်းတစ်ခုအဖြစ် လွတ်လပ်စွာ ပေါလောပလော ဖြစ်နေပြီး ၎င်းတို့၏ Ribosome (70S, အပင်နှင့် တိရစ္ဆာန်ဆဲလ်များရှိ 80S Ribosome ထက် သေးငယ်သည်) သည်သာ အလင်းမိုက်ခရိုစကုပ်ဖြင့် အနည်းငယ်မျှ ညွှန်းညွှန်း မြင်နိုင်ခြေရှိသော ဆဲလ်အတွင်းပိုင်း ဖွဲ့စည်းပုံ တစ်ခုတည်း ဖြစ်သည်။ \"အသက်ရှင်ခြင်း၏ အခြေခံဓာတုဗေဒ တူညီသော်လည်း\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"ဆဲလ်အတွင်းပိုင်း စနစ်ကျသော ဖွဲ့စည်းမှု အဆင့် လုံးဝ မတူညီသော နှစ်ခု ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what feature did Su Su note in the onion cell but not the cheek cell?",
+            questionMy:
+                "Cheek ဆဲလ်တွင် မရှိသော်လည်း ကြက်သွန်နီဆဲလ်တွင် ရှိသည့် လက္ခဏာကို Su Su မည်သို့ မှတ်သားခဲ့သည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A rigid cell wall",
+              "A nucleus",
+              "Cytoplasm",
+              "A cell membrane",
+            ],
+            optionsMy: ["ခိုင်မာသော Cell Wall", "Nucleus", "Cytoplasm", "Cell Membrane"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's comparison of the two eukaryotic cells."],
+            hintsMy: ["Eukaryotic ဆဲလ်နှစ်မျိုး နှိုင်းယှဉ်ချက်ကို ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, roughly how long is a typical prokaryotic cell?",
+            questionMy: "ပုံမှန် Prokaryotic ဆဲလ်တစ်ခု၏ ခန့်မှန်းအလျားကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1-5 micrometres", "50-100 micrometres", "1-5 millimetres", "1-5 nanometres"],
+            optionsMy: ["Micrometre 1-5", "Micrometre 50-100", "Millimetre 1-5", "Nanometre 1-5"],
+            correctIndex: 0,
+            hintsEn: ["Reread Sayar Zaw Min's explanation about bacterial size."],
+            hintsMy: ["ဘက်တီးရီးယား အရွယ်အစားအကြောင်း ဆရာဇော်မင်း ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what type of ribosome do prokaryotic cells have?",
+            questionMy: "Prokaryotic ဆဲလ်များတွင် မည်သည့်အမျိုးအစား Ribosome ရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["70S, smaller than eukaryotic ribosomes", "80S, larger than eukaryotic ribosomes", "No ribosomes at all", "100S ribosomes"],
+            optionsMy: [
+              "70S, Eukaryotic Ribosome ထက် သေးငယ်",
+              "80S, Eukaryotic Ribosome ထက် ကြီးမား",
+              "Ribosome လုံးဝ မရှိ",
+              "100S Ribosome",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence naming the ribosome type in bacteria."],
+            hintsMy: ["ဘက်တီးရီးယား၏ Ribosome အမျိုးအစားကို ဖော်ပြသော စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Cell Ultrastructure",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - ဆဲလ် Ultrastructure",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Golgi apparatus mainly...",
+          questionMy: "Golgi Apparatus ၏ အဓိကတာဝန်မှာ...",
+          optionsEn: [
+            "Modifies and packages proteins into vesicles",
+            "Produces ATP",
+            "Contains the cell's DNA",
+            "Forms the cell wall",
+          ],
+          optionsMy: [
+            "Protein များကို ပြုပြင်ပြီး Vesicle များအဖြစ် ထုပ်ပိုးခြင်း",
+            "ATP ထုတ်လုပ်ခြင်း",
+            "ဆဲလ်၏ DNA ပါဝင်ခြင်း",
+            "Cell Wall ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A prokaryotic cell does NOT have...",
+          questionMy: "Prokaryotic ဆဲလ်တွင် ...မရှိပါ",
+          optionsEn: [
+            "A membrane-bound nucleus",
+            "Ribosomes",
+            "Cytoplasm",
+            "A cell membrane",
+          ],
+          optionsMy: [
+            "Membrane-Bound Nucleus",
+            "Ribosome",
+            "Cytoplasm",
+            "Cell Membrane",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Lysosomes contain enzymes that mainly...",
+          questionMy: "Lysosome များတွင် အဓိက ...ပြုလုပ်သော Enzyme များ ပါဝင်သည်",
+          optionsEn: [
+            "Digest waste material and worn-out organelles",
+            "Build new DNA",
+            "Produce light energy",
+            "Store water only",
+          ],
+          optionsMy: [
+            "စွန့်ပစ်ပစ္စည်းနှင့် အသုံးဆက်ဆံနေသော Organelle များကို ချေဖျက်",
+            "DNA အသစ် တည်ဆောက်",
+            "အလင်းစွမ်းအင် ထုတ်လုပ်",
+            "ရေသာ သိမ်းဆည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm1 = CourseTermDef(
+  id: "course-y12-bio-t1",
+  termNumber: 1,
+  titleEn: "Cell Structure and Microscopy",
+  titleMy: "ဆဲလ်ဖွဲ့စည်းပုံနှင့် မိုက်ခရိုစကုပ်",
+  weeks: [_y12BioWeek1, _y12BioWeek2, _y12BioWeek3, _y12BioWeek4],
+  certificateTitleEn: "AS Biology: Cell Structure and Microscopy",
+  certificateTitleMy: "AS ဇီဝဗေဒ - ဆဲလ်ဖွဲ့စည်းပုံနှင့် မိုက်ခရိုစကုပ်",
+);
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 2: "Biological Molecules I: Water,
+// Carbohydrates and Lipids"
+// (Weeks 5-8)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "Water: Structure and Properties"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek5 = CourseWeekDef(
+  id: "course-y12-bio-w5",
+  weekNumber: 5,
+  titleEn: "Water: Structure and Properties",
+  titleMy: "ရေ - ဖွဲ့စည်းပုံနှင့် ဂုဏ်သတ္တိများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w5-d1",
+      dayNumber: 1,
+      titleEn: "The Dipolar Water Molecule and Hydrogen Bonding",
+      titleMy: "Dipolar ရေမော်လီကျူးနှင့် Hydrogen Bond",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A water molecule is described as \"dipolar\" (polar) because...",
+          questionMy:
+              "ရေမော်လီကျူးကို \"Dipolar\" (Polar) ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "The oxygen atom carries a slight negative charge and the hydrogen atoms carry a slight positive charge",
+            "It has no charge anywhere on the molecule",
+            "It contains two separate oxygen atoms",
+            "It is always found as ice",
+          ],
+          optionsMy: [
+            "Oxygen Atom တွင် အနည်းငယ် Negative Charge ရှိပြီး Hydrogen Atom များတွင် အနည်းငယ် Positive Charge ရှိသောကြောင့်",
+            "မော်လီကျူးတွင် မည်သည့်နေရာမျှ Charge လုံးဝ မရှိသောကြောင့်",
+            "သီးခြား Oxygen Atom နှစ်ခု ပါဝင်သောကြောင့်",
+            "ရေခဲအဖြစ်သာ အမြဲတွေ့ရသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen is more electronegative than hydrogen, so it pulls the shared electrons closer, giving oxygen a slight negative charge (δ-) and hydrogen a slight positive charge (δ+).",
+          ],
+          hintsMy: [
+            "Oxygen သည် Hydrogen ထက် Electronegativity ပိုမြင့်သောကြောင့် မျှဝေထားသော Electron များကို ပိုနီးကပ်စွာ ဆွဲယူသည်၊ ထို့ကြောင့် Oxygen တွင် အနည်းငယ် Negative Charge (δ-) နှင့် Hydrogen တွင် အနည်းငယ် Positive Charge (δ+) ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A hydrogen bond in water forms between...",
+          questionMy: "ရေတွင် Hydrogen Bond သည် ...အကြား ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "The slightly positive hydrogen of one molecule and the slightly negative oxygen of a neighbouring molecule",
+            "Two oxygen atoms in the same molecule",
+            "A hydrogen atom and a carbon atom",
+            "Two hydrogen atoms in the same molecule",
+          ],
+          optionsMy: [
+            "မော်လီကျူးတစ်ခု၏ အနည်းငယ် Positive Hydrogen နှင့် အနီးရှိ မော်လီကျူးတစ်ခု၏ အနည်းငယ် Negative Oxygen",
+            "မော်လီကျူးတစ်ခုတည်းအတွင်းရှိ Oxygen Atom နှစ်ခု",
+            "Hydrogen Atom တစ်ခုနှင့် Carbon Atom",
+            "မော်လီကျူးတစ်ခုတည်းအတွင်းရှိ Hydrogen Atom နှစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Opposite partial charges attract -- the δ+ hydrogen of one water molecule is drawn to the δ- oxygen of a different, neighbouring molecule.",
+          ],
+          hintsMy: [
+            "ဆန့်ကျင်ဘက် Partial Charge များ ဆွဲငင်ကြသည် -- ရေမော်လီကျူးတစ်ခု၏ δ+ Hydrogen သည် အနီးအနားရှိ မော်လီကျူးတစ်ခု၏ δ- Oxygen ဆီသို့ ဆွဲငင်ခံရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Water's high specific heat capacity means it...",
+          questionMy: "ရေ၏ Specific Heat Capacity မြင့်မားခြင်းသည် ...ကို ဆိုလိုသည်",
+          optionsEn: [
+            "Requires a relatively large amount of energy to raise its temperature",
+            "Freezes at a much higher temperature than most liquids",
+            "Cannot dissolve any substances",
+            "Evaporates instantly at room temperature",
+          ],
+          optionsMy: [
+            "အပူချိန် တိုးရန် အတော်လေးများသော စွမ်းအင် လိုအပ်သည်",
+            "အခြားအရည်များထက် အပူချိန် များစွာမြင့်စွာတွင် ရေခဲသည်",
+            "မည်သည့်ပစ္စည်းကိုမျှ ပျော်ဝင်၍ မရ",
+            "အခန်းအပူချိန်တွင် ချက်ချင်း အငွေ့ပျံသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Many hydrogen bonds must be broken before water molecules can move faster (heat up), which takes a lot of energy -- this helps keep aquatic habitats and body temperature stable.",
+          ],
+          hintsMy: [
+            "ရေမော်လီကျူးများ ပိုမြန်စွာ လှုပ်ရှားနိုင်ရန် (အပူတက်ရန်) Hydrogen Bond အများအပြားကို ချိုးဖျက်ရန် လိုအပ်ပြီး ၎င်းသည် စွမ်းအင်များစွာ ယူဆောင်သည် -- ၎င်းက ရေထဲနေအိမ်များနှင့် ခန္ဓာကိုယ်အပူချိန်ကို တည်ငြိမ်စေရန် ကူညီသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Properties of Water",
+      titleMy: "တွဲစပ်ကြမည် - ရေ၏ ဂုဏ်သတ္တိများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w5-dm-1",
+          termEn: "Solvent",
+          termMy: "ပျော်ဆေး (Solvent)",
+          matchEn: "Water dissolves many polar and ionic substances, allowing reactions to occur in solution",
+          matchMy: "ရေသည် Polar နှင့် Ionic ပစ္စည်းများစွာကို ပျော်ဝင်စေနိုင်ပြီး Solution အတွင်း တုံ့ပြန်မှုများ ဖြစ်ပွားနိုင်စေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w5-dm-2",
+          termEn: "Cohesion",
+          termMy: "ကိုးဟီးရှင်း (Cohesion)",
+          matchEn: "Water molecules stick to each other through hydrogen bonding, helping water move up a plant stem",
+          matchMy: "ရေမော်လီကျူးများသည် Hydrogen Bond ဖြင့် အချင်းချင်း ကပ်ငြိကြသည်၊ အပင်ပင်စည်တွင်း ရေတက်ရန် ကူညီသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w5-dm-3",
+          termEn: "High specific heat capacity",
+          termMy: "Specific Heat Capacity မြင့်မားခြင်း",
+          matchEn: "A large amount of energy is needed to change water's temperature, keeping habitats stable",
+          matchMy: "ရေ၏ အပူချိန် ပြောင်းလဲရန် စွမ်းအင်များစွာ လိုအပ်ပြီး နေအိမ်များကို တည်ငြိမ်စေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w5-dm-4",
+          termEn: "High latent heat of vaporisation",
+          termMy: "Latent Heat of Vaporisation မြင့်မားခြင်း",
+          matchEn: "A large amount of energy is needed to evaporate water, making sweating an effective cooling method",
+          matchMy: "ရေကို အငွေ့ပျံစေရန် စွမ်းအင်များစွာ လိုအပ်ပြီး ချွေးထွက်ခြင်းကို ထိရောက်သော အအေးခံနည်းလမ်းဖြစ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w5-dm-5",
+          termEn: "Hydrogen bond",
+          termMy: "Hydrogen Bond",
+          matchEn: "A weak attraction between the δ+ hydrogen of one water molecule and the δ- oxygen of another",
+          matchMy: "ရေမော်လီကျူးတစ်ခု၏ δ+ Hydrogen နှင့် အခြားတစ်ခု၏ δ- Oxygen အကြား အားနည်းသော ဆွဲငင်မှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Property of Water?",
+      titleMy: "စီစစ်ကြမည် - ရေ၏ မည်သည့်ဂုဏ်သတ္တိလဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Solvent Property", "Thermal (Heat) Property"],
+        bucketsMy: ["Solvent ဂုဏ်သတ္တိ", "Thermal (အပူ) ဂုဏ်သတ္တိ"],
+        items: [
+          SortingItem(
+            id: "y12bio-w5-sort-1",
+            labelEn: "Glucose dissolves easily in blood plasma",
+            labelMy: "Glucose သည် သွေးပလာစမာအတွင်း လွယ်ကူစွာ ပျော်ဝင်သည်",
+            correctBucketEn: "Solvent Property",
+            correctBucketMy: "Solvent ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w5-sort-2",
+            labelEn: "Sodium chloride ions separate and dissolve in water",
+            labelMy: "Sodium Chloride Ion များ ခွဲထွက်ပြီး ရေတွင် ပျော်ဝင်သည်",
+            correctBucketEn: "Solvent Property",
+            correctBucketMy: "Solvent ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w5-sort-3",
+            labelEn: "A lake's temperature changes only slowly through the seasons",
+            labelMy: "ရေကန်တစ်ခု၏ အပူချိန်သည် ရာသီအလိုက် ဖြည်းညင်းစွာသာ ပြောင်းလဲသည်",
+            correctBucketEn: "Thermal (Heat) Property",
+            correctBucketMy: "Thermal (အပူ) ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w5-sort-4",
+            labelEn: "Sweating cools the body as water evaporates from the skin",
+            labelMy: "ချွေးသည် အရေပြားမှ အငွေ့ပျံသည့်အခါ ခန္ဓာကိုယ်ကို အေးစေသည်",
+            correctBucketEn: "Thermal (Heat) Property",
+            correctBucketMy: "Thermal (အပူ) ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w5-sort-5",
+            labelEn: "Amino acids dissolve and can be transported around the body in solution",
+            labelMy: "Amino Acid များ ပျော်ဝင်ပြီး Solution အနေဖြင့် ခန္ဓာကိုယ်ပတ်လည် သယ်ယူနိုင်သည်",
+            correctBucketEn: "Solvent Property",
+            correctBucketMy: "Solvent ဂုဏ်သတ္တိ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Water Makes Life Possible",
+      titleMy: "စာဖတ်ခြင်း - ရေက အသက်ရှင်ခြင်းကို ဖြစ်နိုင်စေသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Water Makes Life Possible",
+        titleMy: "ရေက အသက်ရှင်ခြင်းကို ဖြစ်နိုင်စေသည့် အကြောင်း",
+        passageEn:
+            "Sayar Zaw Min opened the lesson with a question: \"Why does biology always start with water, when this is supposed to be a biology course, not a chemistry course?\" Htet Aung suggested it was because every living cell is mostly water -- around 70-80 percent by mass -- so understanding water's chemistry is really understanding the environment every biological molecule works inside.\n\nSu Su then explained water's dipolar structure to the rest of the group: because oxygen pulls the shared electrons more strongly than hydrogen does, the oxygen atom carries a slight negative charge and each hydrogen atom carries a slight positive charge. This uneven charge distribution lets water molecules form hydrogen bonds with each other and with other polar or charged substances, which is exactly why so many biologically important molecules -- glucose, amino acids, ions -- dissolve so readily in it.\n\nSayar Zaw Min closed by connecting this back to real organisms: a plant pulls water upward through its xylem partly because of cohesion, water molecules hydrogen-bonding to each other in an unbroken column; a sweating athlete cools down because evaporating water carries away a large amount of heat energy per gram (its high latent heat of vaporisation); and every enzyme-catalysed reaction inside a cell happens dissolved in this same watery medium. \"Every property of water you have just described,\" he said, \"all traces back to one single fact: the shape and charge of that one small molecule.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် သင်ခန်းစာကို မေးခွန်းတစ်ခုဖြင့် စတင်ခဲ့သည် - \"ဤသည်မှာ ဓာတုဗေဒသင်တန်းမဟုတ်ဘဲ ဇီဝဗေဒသင်တန်း ဖြစ်ရမည့်တိုင် ဇီဝဗေဒကို ရေဖြင့် အဘယ်ကြောင့် အမြဲ စတင်ရသနည်း။\" Htet Aung သည် သက်ရှိဆဲလ်တိုင်း Mass ၏ 70-80 ရာခိုင်နှုန်းခန့်မှာ ရေ ဖြစ်နေသောကြောင့်ဟု အကြံပြုခဲ့ပြီး ထို့ကြောင့် ရေ၏ ဓာတုဗေဒကို နားလည်ခြင်းသည် ဇီဝမော်လီကျူးတိုင်း လုပ်ဆောင်နေသည့် ပတ်ဝန်းကျင်ကို နားလည်ခြင်းနှင့်တူသည်ဟု ဆိုခဲ့သည်။\n\nထို့နောက် Su Su သည် ရေ၏ Dipolar ဖွဲ့စည်းပုံကို အခြားအဖွဲ့ဝင်များအား ရှင်းပြခဲ့သည် - Oxygen သည် Hydrogen ထက် မျှဝေထားသော Electron များကို ပိုမိုအားကောင်းစွာ ဆွဲယူသောကြောင့် Oxygen Atom တွင် အနည်းငယ် Negative Charge နှင့် Hydrogen Atom တစ်ခုစီတွင် အနည်းငယ် Positive Charge ရှိသည်။ ဤအညီအမျှမဟုတ်သော Charge ဖြန့်ဝေမှုက ရေမော်လီကျူးများကို အချင်းချင်းနှင့် အခြား Polar (သို့) Charged ပစ္စည်းများနှင့် Hydrogen Bond ဖွဲ့စည်းစေသည်၊ ၎င်းက Glucose, Amino Acid, Ion များကဲ့သို့ ဇီဝအရေးကြီးသော မော်လီကျူးများစွာ ရေတွင် လွယ်ကူစွာ ပျော်ဝင်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\n\nဆရာဇော်မင်းသည် ၎င်းကို အစစ်အမှန် သက်ရှိသတ္တဝါများနှင့် ချိတ်ဆက်၍ နိဂုံးချုပ်ခဲ့သည် - အပင်တစ်ပင်သည် Xylem မှတဆင့် ရေကို အထက်သို့ ဆွဲတင်ရသည့် အကြောင်းရင်းတစ်ခုမှာ Cohesion ကြောင့်ဖြစ်ပြီး ရေမော်လီကျူးများသည် မပြတ်တောက်သော ကော်လံတစ်ခုအတွင်း အချင်းချင်း Hydrogen Bond ဖွဲ့စည်းနေသည်၊ ချွေးထွက်နေသော အားကစားသမားတစ်ဦးသည် ရေအငွေ့ပျံသည့်အခါ Gram တစ်ခုလျှင် အပူစွမ်းအင်များစွာ (Latent Heat of Vaporisation မြင့်မားခြင်း) သယ်ဆောင်သွားသောကြောင့် အေးလာသည်၊ ထို့ပြင် ဆဲလ်အတွင်းရှိ Enzyme-Catalysed တုံ့ပြန်မှုတိုင်းသည် ဤရေဓာတ် ပတ်ဝန်းကျင်တစ်ခုတည်းအတွင်းတွင် ပျော်ဝင်ကာ ဖြစ်ပွားနေသည်။ \"သင်တို့ ယခုပြောပြခဲ့သော ရေ၏ ဂုဏ်သတ္တိတိုင်း\" ဟု သူဆိုခဲ့သည် \"အားလုံးသည် တစ်ခုတည်းသော အချက်ဆီသို့ ပြန်ချိတ်ဆက်ပါသည် - ထိုသေးငယ်သော မော်လီကျူးတစ်ခု၏ ပုံသဏ္ဌာန်နှင့် Charge ပင် ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, roughly what percentage of a living cell is water?",
+            questionMy:
+                "Htet Aung ၏ ဆိုကြားချက်အရ သက်ရှိဆဲလ်တစ်ခု၏ ခန့်မှန်းရာခိုင်နှုန်းမည်မျှမှာ ရေ ဖြစ်သနည်း။",
+            optionsEn: ["70-80 percent", "10-20 percent", "50 percent exactly", "100 percent"],
+            optionsMy: ["ရာခိုင်နှုန်း 70-80", "ရာခိုင်နှုန်း 10-20", "ရာခိုင်နှုန်း 50 အတိအကျ", "ရာခိုင်နှုန်း 100"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su's explanation, why does oxygen carry a slight negative charge in a water molecule?",
+            questionMy:
+                "ရေမော်လီကျူးတွင် Oxygen သည် အနည်းငယ် Negative Charge ဆောင်ရသည့်အကြောင်းရင်းကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It pulls the shared electrons more strongly than hydrogen does",
+              "It has more protons than hydrogen",
+              "It is larger than a hydrogen atom",
+              "It bonds only to carbon",
+            ],
+            optionsMy: [
+              "မျှဝေထားသော Electron များကို Hydrogen ထက် ပိုအားကောင်းစွာ ဆွဲယူသောကြောင့်",
+              "Hydrogen ထက် Proton ပိုများသောကြောင့်",
+              "Hydrogen Atom ထက် ပိုကြီးသောကြောင့်",
+              "Carbon နှင့်သာ Bond ဖွဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does sweating cool the body?",
+            questionMy:
+                "ချွေးထွက်ခြင်းသည် ခန္ဓာကိုယ်ကို အဘယ်ကြောင့် အေးစေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Evaporating water carries away a large amount of heat energy",
+              "Sweat is naturally cold when it leaves the skin",
+              "Sweat contains ice crystals",
+              "Sweating stops all metabolic reactions",
+            ],
+            optionsMy: [
+              "အငွေ့ပျံသွားသော ရေသည် အပူစွမ်းအင်များစွာ သယ်ဆောင်သွားသောကြောင့်",
+              "ချွေးသည် အရေပြားမှ ထွက်လာသည့်အခါ သဘာဝအားဖြင့် အေးနေသောကြောင့်",
+              "ချွေးတွင် ရေခဲကျောက်များ ပါဝင်သောကြောင့်",
+              "ချွေးထွက်ခြင်းက Metabolic တုံ့ပြန်မှုအားလုံးကို ရပ်တန့်စေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the sentence about the sweating athlete."],
+            hintsMy: ["ချွေးထွက်နေသော အားကစားသမားအကြောင်း စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Water",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - ရေ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Water is described as a dipolar molecule because it has...",
+          questionMy: "ရေကို Dipolar မော်လီကျူးဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "A slightly negative end and a slightly positive end",
+            "No charge at all",
+            "Two negative ends",
+            "Two positive ends",
+          ],
+          optionsMy: [
+            "အနည်းငယ် Negative အဆုံးနှင့် အနည်းငယ် Positive အဆုံး ရှိခြင်း",
+            "Charge လုံးဝ မရှိခြင်း",
+            "Negative အဆုံး နှစ်ခု ရှိခြင်း",
+            "Positive အဆုံး နှစ်ခု ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Water is an excellent solvent for many biological molecules because it is...",
+          questionMy: "ရေသည် ဇီဝမော်လီကျူးများစွာအတွက် ကောင်းမွန်သော Solvent ဖြစ်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: ["Polar", "Non-polar", "Always frozen", "Acidic"],
+          optionsMy: ["Polar", "Non-polar", "အမြဲရေခဲနေခြင်း", "Acidic"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cohesion between water molecules is caused by...",
+          questionMy: "ရေမော်လီကျူးများအကြား Cohesion ဖြစ်ပေါ်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: ["Hydrogen bonding", "Ionic bonding", "Covalent bonding within one molecule", "Gravity alone"],
+          optionsMy: ["Hydrogen Bond", "Ionic Bond", "မော်လီကျူးတစ်ခုတည်းအတွင်း Covalent Bond", "Gravity တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "Monosaccharides, Disaccharides and Glycosidic Bonds"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek6 = CourseWeekDef(
+  id: "course-y12-bio-w6",
+  weekNumber: 6,
+  titleEn: "Monosaccharides, Disaccharides and Glycosidic Bonds",
+  titleMy: "Monosaccharide, Disaccharide နှင့် Glycosidic Bond",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w6-d1",
+      dayNumber: 1,
+      titleEn: "Monosaccharides and Condensation Reactions",
+      titleMy: "Monosaccharide နှင့် Condensation Reaction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Glucose is an example of a...",
+          questionMy: "Glucose သည် ...၏ ဥပမာတစ်ခု ဖြစ်သည်",
+          optionsEn: ["Monosaccharide", "Disaccharide", "Polysaccharide", "Fatty acid"],
+          optionsMy: ["Monosaccharide", "Disaccharide", "Polysaccharide", "Fatty Acid"],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Mono-\" means one -- glucose is a single sugar unit, the simplest building block of carbohydrates.",
+          ],
+          hintsMy: [
+            "\"Mono-\" ဆိုသည်မှာ တစ်ခု ဖြစ်ပြီး Glucose သည် Carbohydrate ၏ အရိုးရှင်းဆုံး တည်ဆောက်ကွက် Sugar Unit တစ်ခုတည်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When two monosaccharides join to form a disaccharide, a glycosidic bond forms and a molecule of ... is released.",
+          questionMy:
+              "Monosaccharide နှစ်ခု ပေါင်းစည်း၍ Disaccharide ဖွဲ့စည်းသောအခါ Glycosidic Bond ဖြစ်ပေါ်ပြီး ...မော်လီကျူးတစ်ခု ထွက်လာသည်",
+          optionsEn: ["Water", "Oxygen", "Carbon dioxide", "Nitrogen"],
+          optionsMy: ["ရေ", "Oxygen", "Carbon Dioxide", "Nitrogen"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a condensation reaction -- monomers joining together always releases a water molecule.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Condensation Reaction ဖြစ်သည် -- Monomer များ ပေါင်းစည်းသည့်အခါတိုင်း ရေမော်လီကျူးတစ်ခု ထွက်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Maltose is formed from the condensation of two molecules of...",
+          questionMy: "Maltose ကို ...မော်လီကျူးနှစ်ခု၏ Condensation မှ ဖွဲ့စည်းသည်",
+          optionsEn: ["Glucose", "Fructose and glucose", "Glucose and galactose", "Amino acids"],
+          optionsMy: ["Glucose", "Fructose နှင့် Glucose", "Glucose နှင့် Galactose", "Amino Acid"],
+          correctIndex: 0,
+          hintsEn: [
+            "Maltose is glucose + glucose; sucrose is glucose + fructose; lactose is glucose + galactose.",
+          ],
+          hintsMy: [
+            "Maltose = Glucose + Glucose; Sucrose = Glucose + Fructose; Lactose = Glucose + Galactose ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sugars and Definitions",
+      titleMy: "တွဲစပ်ကြမည် - Sugar များနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w6-dm-1",
+          termEn: "Monosaccharide",
+          termMy: "Monosaccharide",
+          matchEn: "A single sugar unit, e.g. glucose, fructose or galactose",
+          matchMy: "Sugar Unit တစ်ခုတည်း၊ ဥပမာ - Glucose, Fructose (သို့) Galactose",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w6-dm-2",
+          termEn: "Disaccharide",
+          termMy: "Disaccharide",
+          matchEn: "Two monosaccharides joined by a glycosidic bond, e.g. sucrose",
+          matchMy: "Glycosidic Bond ဖြင့် ချိတ်ဆက်ထားသော Monosaccharide နှစ်ခု၊ ဥပမာ - Sucrose",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w6-dm-3",
+          termEn: "Glycosidic bond",
+          termMy: "Glycosidic Bond",
+          matchEn: "The covalent bond formed between two monosaccharides",
+          matchMy: "Monosaccharide နှစ်ခုအကြား ဖြစ်ပေါ်သော Covalent Bond",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w6-dm-4",
+          termEn: "Condensation reaction",
+          termMy: "Condensation Reaction",
+          matchEn: "A reaction joining two molecules together, releasing water",
+          matchMy: "မော်လီကျူးနှစ်ခုကို ပေါင်းစည်းပြီး ရေထွက်ရှိစေသော တုံ့ပြန်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w6-dm-5",
+          termEn: "Hydrolysis",
+          termMy: "ဟိုက်ဒရိုလိုက်ဆစ် (Hydrolysis)",
+          matchEn: "A reaction breaking a bond apart using a molecule of water, the reverse of condensation",
+          matchMy: "ရေမော်လီကျူးကို အသုံးပြု၍ Bond ကို ချိုးဖျက်သည့် တုံ့ပြန်မှု၊ Condensation ၏ ပြောင်းပြန်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Condensation or Hydrolysis?",
+      titleMy: "စီစစ်ကြမည် - Condensation သို့မဟုတ် Hydrolysis?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Condensation Reaction", "Hydrolysis Reaction"],
+        bucketsMy: ["Condensation Reaction", "Hydrolysis Reaction"],
+        items: [
+          SortingItem(
+            id: "y12bio-w6-sort-1",
+            labelEn: "Two glucose molecules join, releasing water",
+            labelMy: "Glucose မော်လီကျူးနှစ်ခု ပေါင်းစည်းပြီး ရေ ထွက်ရှိသည်",
+            correctBucketEn: "Condensation Reaction",
+            correctBucketMy: "Condensation Reaction",
+          ),
+          SortingItem(
+            id: "y12bio-w6-sort-2",
+            labelEn: "Maltose is built from two monosaccharides",
+            labelMy: "Maltose ကို Monosaccharide နှစ်ခုမှ တည်ဆောက်သည်",
+            correctBucketEn: "Condensation Reaction",
+            correctBucketMy: "Condensation Reaction",
+          ),
+          SortingItem(
+            id: "y12bio-w6-sort-3",
+            labelEn: "A water molecule breaks a glycosidic bond apart",
+            labelMy: "ရေမော်လီကျူးတစ်ခုသည် Glycosidic Bond ကို ချိုးဖျက်သည်",
+            correctBucketEn: "Hydrolysis Reaction",
+            correctBucketMy: "Hydrolysis Reaction",
+          ),
+          SortingItem(
+            id: "y12bio-w6-sort-4",
+            labelEn: "Starch in the mouth is digested into smaller sugar units",
+            labelMy: "ခံတွင်းရှိ ကစီဓာတ်ကို Sugar Unit ငယ်များအဖြစ် ချေဖျက်သည်",
+            correctBucketEn: "Hydrolysis Reaction",
+            correctBucketMy: "Hydrolysis Reaction",
+          ),
+          SortingItem(
+            id: "y12bio-w6-sort-5",
+            labelEn: "Water is used up, not released, during the reaction",
+            labelMy: "တုံ့ပြန်မှုအတွင်း ရေကို ထုတ်လွှတ်ခြင်း မဟုတ်ဘဲ သုံးစွဲသည်",
+            correctBucketEn: "Hydrolysis Reaction",
+            correctBucketMy: "Hydrolysis Reaction",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Testing for Sugars in the Lab",
+      titleMy: "စာဖတ်ခြင်း - ဓာတ်ခွဲခန်းတွင် Sugar စမ်းသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Testing for Sugars in the Lab",
+        titleMy: "ဓာတ်ခွဲခန်းတွင် Sugar စမ်းသပ်ခြင်း",
+        passageEn:
+            "Htet Aung was given two unlabelled test tubes, A and B, and asked to determine which contained a reducing sugar solution and which contained a non-reducing sugar solution, using Benedict's test. He added Benedict's reagent to tube A and heated it in a water bath; within a couple of minutes, the solution changed from blue to a brick-red precipitate, showing a positive result -- tube A contained a reducing sugar, such as the monosaccharide glucose.\n\nTube B, however, stayed blue even after heating -- a negative result. Su Su reminded him that not every sugar gives a positive Benedict's test directly: sucrose, a disaccharide made of glucose and fructose joined by a glycosidic bond, is a non-reducing sugar and will not react with Benedict's reagent unless it is first hydrolysed. She suggested boiling a fresh sample of tube B's contents with dilute hydrochloric acid to hydrolyse any glycosidic bonds present, then neutralising the acid with sodium hydrogencarbonate before repeating the Benedict's test.\n\nSayar Zaw Min confirmed their reasoning was correct: after hydrolysis, the sucrose molecules would have been broken back down into their glucose and fructose monomers, both of which are reducing sugars, so a second Benedict's test on the treated sample should now turn brick-red. \"This two-step test,\" he told the class, \"is a classic way of proving a sample contains sucrose specifically -- negative before hydrolysis, positive after.\"",
+        passageMy:
+            "Htet Aung သည် အမည်မတပ်ထားသော Test Tube A နှင့် B ကို ရရှိခဲ့ပြီး Benedict's Test ကို အသုံးပြု၍ မည်သည့်တစ်ခုတွင် Reducing Sugar Solution ရှိပြီး မည်သည့်တစ်ခုတွင် Non-reducing Sugar Solution ရှိသည်ကို ဆုံးဖြတ်ခိုင်းခြင်း ခံရသည်။ Tube A တွင် Benedict's Reagent ထည့်ပြီး Water Bath ဖြင့် ပူနွေးခဲ့သည်၊ မိနစ်အနည်းငယ်အတွင်း Solution သည် အပြာရောင်မှ အုတ်နီရောင် Precipitate အဖြစ်သို့ ပြောင်းလဲသွားပြီး Positive ရလဒ် ဖြစ်ခဲ့သည် -- Tube A တွင် Glucose ကဲ့သို့ Monosaccharide Reducing Sugar ပါဝင်နေခြင်း ဖြစ်သည်။\n\nသို့သော် Tube B မှာမူ ပူနွေးပြီးနောက်ပင် အပြာရောင်ဆက်ရှိနေခဲ့ပြီး -- Negative ရလဒ် ဖြစ်ခဲ့သည်။ Sugar အားလုံးက Benedict's Test ကို တိုက်ရိုက် Positive မပြန်ကြောင်း Su Su က သတိပေးခဲ့သည် - Glucose နှင့် Fructose ကို Glycosidic Bond ဖြင့် ချိတ်ဆက်ထားသော Disaccharide တစ်ခုဖြစ်သည့် Sucrose သည် Non-reducing Sugar ဖြစ်ပြီး ဦးစွာ Hydrolysis မလုပ်ရသေးလျှင် Benedict's Reagent နှင့် တုံ့ပြန်လိမ့်မည် မဟုတ်ပါ။ Tube B ၏ အကြောင်းအရာသစ်တစ်ခုကို Dilute Hydrochloric Acid ဖြင့် ပြုတ်ချက်ကာ ရှိနိုင်သော Glycosidic Bond များကို Hydrolyse လုပ်ပြီး ထို့နောက် Sodium Hydrogencarbonate ဖြင့် Acid ကို Neutralise လုပ်ကာ Benedict's Test ကို ထပ်လုပ်ရန် သူက အကြံပြုခဲ့သည်။\n\nသူတို့၏ ကျိုးကြောင်းဆင်ခြင်မှု မှန်ကန်ကြောင်း ဆရာဇော်မင်းက အတည်ပြုပေးခဲ့သည် - Hydrolysis ပြီးနောက် Sucrose မော်လီကျူးများသည် ၎င်းတို့၏ Monomer များဖြစ်သော Glucose နှင့် Fructose အဖြစ် ပြန်လည် ပြိုကွဲသွားမည်ဖြစ်ပြီး နှစ်ခုစလုံးသည် Reducing Sugar ဖြစ်သောကြောင့် ပြုပြင်ထားသော နမူနာအပေါ် ဒုတိယ Benedict's Test တွင် အုတ်နီရောင်သို့ ယခု ပြောင်းလဲသင့်သည်။ \"ဤအဆင့်နှစ်ဆင့် Test သည်\" ဟု သူ အတန်းအား ပြောကြားခဲ့သည် \"နမူနာတစ်ခုတွင် Sucrose တိတိကျကျ ပါဝင်ကြောင်း သက်သေပြရန် ရှေးရိုးစွဲ နည်းလမ်းတစ်ခုဖြစ်သည် -- Hydrolysis မပြုမီ Negative၊ ပြုပြီးနောက် Positive ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what colour change indicated a positive Benedict's test?",
+            questionMy:
+                "Benedict's Test Positive ရလဒ်ကို ဖော်ပြသော အရောင်ပြောင်းလဲမှုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Blue changed to a brick-red precipitate",
+              "Colourless changed to green",
+              "Red changed to blue",
+              "No colour change occurred at all",
+            ],
+            optionsMy: [
+              "အပြာရောင်မှ အုတ်နီရောင် Precipitate အဖြစ် ပြောင်းလဲ",
+              "အရောင်မရှိမှု အစိမ်းရောင်သို့ ပြောင်းလဲ",
+              "အနီရောင်မှ အပြာရောင်သို့ ပြောင်းလဲ",
+              "အရောင် ပြောင်းလဲမှု လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, why did tube B give a negative Benedict's test before hydrolysis?",
+            questionMy:
+                "Hydrolysis မပြုမီ Tube B သည် Benedict's Test Negative ရလဒ်ပြသည့် အကြောင်းရင်းကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It contained sucrose, a non-reducing sugar",
+              "It contained no sugar of any kind",
+              "The Benedict's reagent had expired",
+              "It was not heated for long enough",
+            ],
+            optionsMy: [
+              "Non-reducing Sugar ဖြစ်သော Sucrose ပါဝင်နေသောကြောင့်",
+              "Sugar အမျိုးအစား မည်သည်မျှ လုံးဝ မပါဝင်သောကြောင့်",
+              "Benedict's Reagent သက်တမ်းကုန်နေသောကြောင့်",
+              "လုံလောက်သော အချိန် ပူနွေးခြင်း မပြုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what happens to sucrose molecules during hydrolysis?",
+            questionMy:
+                "Hydrolysis အတွင်း Sucrose မော်လီကျူးများတွင် အဘယ်ဖြစ်လာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They break down into glucose and fructose",
+              "They become larger polysaccharides",
+              "They evaporate completely",
+              "They turn into lipids",
+            ],
+            optionsMy: [
+              "Glucose နှင့် Fructose အဖြစ် ပြိုကွဲသည်",
+              "ပိုကြီးသော Polysaccharide များ ဖြစ်လာသည်",
+              "လုံးဝ အငွေ့ပျံသည်",
+              "Lipid များအဖြစ် ပြောင်းလဲသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation of hydrolysis."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Hydrolysis ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Sugars and Bonds",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Sugar များနှင့် Bond များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A disaccharide is formed from...",
+          questionMy: "Disaccharide တစ်ခုကို ...မှ ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Two monosaccharides joined together",
+            "Three monosaccharides joined together",
+            "One monosaccharide alone",
+            "A monosaccharide and a fatty acid",
+          ],
+          optionsMy: [
+            "Monosaccharide နှစ်ခု ပေါင်းစည်းခြင်း",
+            "Monosaccharide သုံးခု ပေါင်းစည်းခြင်း",
+            "Monosaccharide တစ်ခုတည်း",
+            "Monosaccharide တစ်ခုနှင့် Fatty Acid",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Condensation reactions release a molecule of...",
+          questionMy: "Condensation Reaction များသည် ...မော်လီကျူးတစ်ခု ထုတ်လွှတ်သည်",
+          optionsEn: ["Water", "Oxygen", "Glucose", "Carbon"],
+          optionsMy: ["ရေ", "Oxygen", "Glucose", "Carbon"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Hydrolysis is best described as the...",
+          questionMy: "Hydrolysis ကို အကောင်းဆုံး ဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "Breaking of a bond using water",
+            "Joining of two molecules using water",
+            "Formation of a new nucleus",
+            "Evaporation of a solvent",
+          ],
+          optionsMy: [
+            "ရေကို အသုံးပြု၍ Bond ချိုးဖျက်ခြင်း",
+            "ရေကို အသုံးပြု၍ မော်လီကျူးနှစ်ခု ပေါင်းစည်းခြင်း",
+            "Nucleus အသစ် ဖွဲ့စည်းခြင်း",
+            "Solvent အငွေ့ပျံခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "Polysaccharides: Starch, Glycogen and Cellulose"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek7 = CourseWeekDef(
+  id: "course-y12-bio-w7",
+  weekNumber: 7,
+  titleEn: "Polysaccharides: Starch, Glycogen and Cellulose",
+  titleMy: "Polysaccharide - Starch, Glycogen နှင့် Cellulose",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w7-d1",
+      dayNumber: 1,
+      titleEn: "Starch and Glycogen: Energy Storage Molecules",
+      titleMy: "Starch နှင့် Glycogen - စွမ်းအင်သိုလှောင်ရေး မော်လီကျူးများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Starch is a polysaccharide made entirely of...",
+          questionMy: "Starch (ကစီဓာတ်) သည် လုံးလုံး ...မှ ဖွဲ့စည်းထားသော Polysaccharide တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Alpha-glucose monomers joined by glycosidic bonds",
+            "Amino acid monomers",
+            "Fatty acid chains",
+            "Nucleotides",
+          ],
+          optionsMy: [
+            "Glycosidic Bond ဖြင့် ချိတ်ဆက်ထားသော Alpha-glucose Monomer များ",
+            "Amino Acid Monomer များ",
+            "Fatty Acid ကွင်းဆက်များ",
+            "Nucleotide များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Starch is a plant storage polysaccharide, made from long chains of alpha-glucose.",
+          ],
+          hintsMy: [
+            "Starch သည် အပင်၏ သိုလှောင်ရေး Polysaccharide ဖြစ်ပြီး Alpha-glucose ကွင်းဆက်ရှည်များမှ ဖွဲ့စည်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Starch consists of two components: amylose and...",
+          questionMy: "Starch သည် အစိတ်အပိုင်းနှစ်ခုဖြင့် ဖွဲ့စည်းသည် - Amylose နှင့်...",
+          optionsEn: ["Amylopectin", "Glycogen", "Cellulose", "Chitin"],
+          optionsMy: ["Amylopectin", "Glycogen", "Cellulose", "Chitin"],
+          correctIndex: 0,
+          hintsEn: [
+            "Amylose is an unbranched, coiled chain; amylopectin is a branched chain -- together they make up starch.",
+          ],
+          hintsMy: [
+            "Amylose သည် ကွင်းလိပ် အခွဲမရှိသော ကွင်းဆက်ဖြစ်ပြီး Amylopectin သည် အခွဲရှိသော ကွင်းဆက်ဖြစ်သည် -- နှစ်ခုပေါင်း Starch ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Glycogen is more highly branched than starch's amylopectin component, which is an advantage because...",
+          questionMy:
+              "Glycogen သည် Starch ၏ Amylopectin ထက် အခွဲပိုများသည်၊ ၎င်းသည် အားသာချက်ဖြစ်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "More free ends allow enzymes to release glucose more rapidly when energy is needed",
+            "It makes glycogen taste sweeter than starch",
+            "It prevents glycogen from ever being broken down",
+            "It makes glycogen soluble in fat",
+          ],
+          optionsMy: [
+            "Free End ပိုများခြင်းက Energy လိုအပ်သောအခါ Enzyme များ Glucose ကို ပိုမြန်ဆန်စွာ ထုတ်လွှတ်နိုင်စေသောကြောင့်",
+            "Glycogen ကို Starch ထက် ချိုစေသောကြောင့်",
+            "Glycogen ကို လုံးဝ ချေဖျက်၍ မရအောင် ကာကွယ်ပေးသောကြောင့်",
+            "Glycogen ကို ဆီတွင် ပျော်ဝင်စေသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Animals often need energy quickly, so glycogen's extra branching gives enzymes more free ends to work on at once.",
+          ],
+          hintsMy: [
+            "တိရစ္ဆာန်များသည် Energy ကို မကြာခဏ လျင်မြန်စွာ လိုအပ်ကြသောကြောင့် Glycogen ၏ ပို၍ အခွဲများခြင်းက Enzyme များအတွက် တစ်ပြိုင်နက် အလုပ်လုပ်နိုင်သည့် Free End ပိုများပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Polysaccharides and Their Structure-Function",
+      titleMy: "တွဲစပ်ကြမည် - Polysaccharide များနှင့် Structure-Function",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w7-dm-1",
+          termEn: "Starch",
+          termMy: "Starch (ကစီဓာတ်)",
+          matchEn: "The main energy storage polysaccharide in plants",
+          matchMy: "အပင်များတွင် အဓိက စွမ်းအင်သိုလှောင်ရေး Polysaccharide",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w7-dm-2",
+          termEn: "Glycogen",
+          termMy: "Glycogen",
+          matchEn: "The main energy storage polysaccharide in animals, highly branched",
+          matchMy: "တိရစ္ဆာန်များတွင် အဓိက စွမ်းအင်သိုလှောင်ရေး Polysaccharide၊ အခွဲများစွာ ရှိသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w7-dm-3",
+          termEn: "Cellulose",
+          termMy: "ဆဲလူလိုက် (Cellulose)",
+          matchEn: "Made of beta-glucose chains, forms strong fibres in plant cell walls",
+          matchMy: "Beta-glucose ကွင်းဆက်များဖြင့် ဖွဲ့စည်းထားပြီး အပင် Cell Wall တွင် ခိုင်မာသော အမျှင်များ ဖွဲ့စည်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w7-dm-4",
+          termEn: "Amylose",
+          termMy: "အမိုင်းလိုစ် (Amylose)",
+          matchEn: "An unbranched, tightly coiled chain of alpha-glucose within starch",
+          matchMy: "Starch အတွင်းရှိ အခွဲမရှိဘဲ ကျပ်တည်းစွာ ကွေးညွှတ်ထားသော Alpha-glucose ကွင်းဆက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w7-dm-5",
+          termEn: "Amylopectin",
+          termMy: "အမိုင်းလိုပက်တင် (Amylopectin)",
+          matchEn: "A branched chain of alpha-glucose within starch, giving more free ends for enzymes",
+          matchMy: "Starch အတွင်းရှိ အခွဲရှိသော Alpha-glucose ကွင်းဆက်၊ Enzyme များအတွက် Free End ပိုများပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Storage Polysaccharide or Structural Polysaccharide?",
+      titleMy: "စီစစ်ကြမည် - Storage Polysaccharide သို့မဟုတ် Structural Polysaccharide?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Storage Role", "Structural Role"],
+        bucketsMy: ["Storage အခန်းကဏ္ဍ", "Structural အခန်းကဏ္ဍ"],
+        items: [
+          SortingItem(
+            id: "y12bio-w7-sort-1",
+            labelEn: "Starch, compact and coiled for efficient storage in plant cells",
+            labelMy: "Starch, အပင်ဆဲလ်များတွင် စွမ်းရည်ထက် သိုလှောင်နိုင်ရန် သိမ်ငယ်၍ ကွေးညွှတ်ထားသည်",
+            correctBucketEn: "Storage Role",
+            correctBucketMy: "Storage အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w7-sort-2",
+            labelEn: "Glycogen, broken down rapidly when animal cells need glucose",
+            labelMy: "Glycogen, တိရစ္ဆာန်ဆဲလ်များ Glucose လိုအပ်သောအခါ လျင်မြန်စွာ ချေဖျက်ခံရသည်",
+            correctBucketEn: "Storage Role",
+            correctBucketMy: "Storage အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w7-sort-3",
+            labelEn: "Cellulose microfibrils forming a strong plant cell wall",
+            labelMy: "ခိုင်မာသော အပင် Cell Wall ဖွဲ့စည်းသည့် Cellulose Microfibril များ",
+            correctBucketEn: "Structural Role",
+            correctBucketMy: "Structural အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w7-sort-4",
+            labelEn: "Long, straight, hydrogen-bonded chains of beta-glucose resisting tension",
+            labelMy: "ဆန့်ကြင်အားကို ခံနိုင်ရန် Hydrogen Bond ချိတ်ဆက်ထားသော Beta-glucose ကွင်းဆက်ရှည်များ",
+            correctBucketEn: "Structural Role",
+            correctBucketMy: "Structural အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w7-sort-5",
+            labelEn: "Insoluble and compact, ideal for storing large amounts of glucose without affecting water potential",
+            labelMy: "မပျော်ဝင်ဘဲ သိမ်ငယ်သောကြောင့် Water Potential ကို မထိခိုက်ဘဲ Glucose အများအပြား သိမ်းဆည်းရန် သင့်တော်သည်",
+            correctBucketEn: "Storage Role",
+            correctBucketMy: "Storage အခန်းကဏ္ဍ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Cellulose Cannot Be Digested Like Starch",
+      titleMy: "စာဖတ်ခြင်း - Cellulose ကို Starch ကဲ့သို့ မချေဖျက်နိုင်ရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Cellulose Cannot Be Digested Like Starch",
+        titleMy: "Cellulose ကို Starch ကဲ့သို့ မချေဖျက်နိုင်ရသည့် အကြောင်း",
+        passageEn:
+            "Su Su asked Sayar Zaw Min a question that had been bothering her: \"Starch and cellulose are both made entirely of glucose -- so why can humans digest starch for energy, but not cellulose, even though we eat plenty of it as fibre?\" He told her the answer lies in a small but crucial difference: starch is built from alpha-glucose monomers, while cellulose is built from beta-glucose monomers, and that single structural difference changes everything about the shape of the resulting molecule.\n\nHe drew two chains on the board. In starch, alpha-glucose units join so the chain coils naturally into a compact helix, which human digestive enzymes (amylases) are shaped to break apart easily. In cellulose, beta-glucose units must alternate, each one flipped 180 degrees relative to its neighbour, producing a long, straight chain rather than a coil. These straight chains then run in parallel and form many hydrogen bonds between neighbouring chains, bundling together into strong cellulose microfibrils -- the material that gives plant cell walls their tensile strength.\n\n\"Humans simply don't produce an enzyme shaped to break the beta-1,4-glycosidic bonds holding cellulose together,\" Sayar Zaw Min explained, \"so it passes through our gut largely undigested, which is exactly why we call it dietary fibre. Herbivores like cows manage it only because they host bacteria in their gut that do produce the right enzyme, cellulase.\" Htet Aung realised this was a perfect example of how a tiny structural difference -- alpha versus beta glucose -- can completely change a molecule's biological role, from an easily digested energy store to an indigestible structural material.",
+        passageMy:
+            "Starch နှင့် Cellulose နှစ်ခုလုံးသည် Glucose မှ လုံးလုံး ဖွဲ့စည်းထားသော်လည်း -- လူများသည် Starch ကို Energy အတွက် ချေဖျက်နိုင်သော်လည်း ကျွန်ုပ်တို့ Fiber အဖြစ် များစွာ စားသုံးနေသော Cellulose ကို အဘယ်ကြောင့် မချေဖျက်နိုင်သနည်း ဟူသော သူ့ကို စိတ်အနှောင့်အယှက် ဖြစ်စေခဲ့သည့် မေးခွန်းကို Su Su သည် ဆရာဇော်မင်းအား မေးခဲ့သည်။ အဖြေသည် သေးငယ်သော်လည်း အရေးကြီးသော ကွာခြားချက်တစ်ခုတွင် ရှိကြောင်း သူက ပြောပြခဲ့သည် - Starch ကို Alpha-glucose Monomer များမှ တည်ဆောက်ထားပြီး Cellulose ကို Beta-glucose Monomer များမှ တည်ဆောက်ထားသည်၊ ထိုတစ်ခုတည်းသော Structural ကွာခြားချက်က ရလာသော မော်လီကျူး၏ ပုံသဏ္ဌာန်ကို လုံးဝ ပြောင်းလဲပစ်သည်။\n\nသူသည် ဘုတ်ပေါ်တွင် ကွင်းဆက်နှစ်ခုကို ရေးဆွဲပြခဲ့သည်။ Starch တွင် Alpha-glucose Unit များ ချိတ်ဆက်ခြင်းက ကွင်းဆက်ကို သိမ်ငယ်သော Helix အဖြစ် သဘာဝအလျောက် ကွေးညွှတ်စေပြီး လူ့ Digestive Enzyme (Amylase) များသည် ၎င်းကို လွယ်ကူစွာ ချိုးဖျက်ရန် ပုံသဏ္ဌာန်ရှိသည်။ Cellulose တွင် Beta-glucose Unit များသည် တစ်ခုစီ အနီးဆုံး Unit နှင့် ဒီဂရီ 180 ပြောင်းပြန်ဖြစ်စွာ တစ်လှည့်စီ ကူးလုပ်ရန် လိုအပ်ပြီး ကွေးညွှတ်ချက်အစား ရှည်လျားပြီး ဖြောင့်တန်းသော ကွင်းဆက်ကို ထုတ်လုပ်သည်။ ဤဖြောင့်တန်းသော ကွင်းဆက်များသည် အနီးအနားရှိ ကွင်းဆက်များနှင့် ပြိုင်တူ ဆက်တိုက်လျှောက်ကာ Hydrogen Bond များစွာ ဖွဲ့စည်းပြီး ခိုင်မာသော Cellulose Microfibril များအဖြစ် စုစည်းသွားသည် -- ၎င်းသည် အပင် Cell Wall များကို Tensile Strength ပေးသော ပစ္စည်း ဖြစ်သည်။\n\n\"Cellulose ကို ချိတ်ဆက်ထားသော Beta-1,4-glycosidic Bond များကို ချိုးဖျက်ရန် ပုံသဏ္ဌာန်ရှိသော Enzyme ကို လူများသည် လုံးဝ မထုတ်လုပ်ပါ\" ဟု ဆရာဇော်မင်း ရှင်းပြခဲ့သည် \"ထို့ကြောင့် ၎င်းသည် ကျွန်ုပ်တို့၏ အူလမ်းကြောင်းကို အများစု မချေဖျက်ဘဲ ဖြတ်သန်းသွားသည်၊ ၎င်းကို Dietary Fiber ဟု ခေါ်ရသည့် အကြောင်းရင်းလည်း အတိအကျ ဖြစ်သည်။ နွားကဲ့သို့ Herbivore များသည် မှန်ကန်သော Enzyme ဖြစ်သော Cellulase ကို ထုတ်လုပ်ပေးသော ဘက်တီးရီးယားများကို ၎င်းတို့၏ အူလမ်းကြောင်းအတွင်း ကိုယ်တွင်းရှိစေသောကြောင့်သာ ၎င်းကို ချေဖျက်နိုင်ကြသည်။\" Alpha နှင့် Beta Glucose ကဲ့သို့ Structural ကွာခြားချက်အနည်းငယ်သည် မော်လီကျူးတစ်ခု၏ ဇီဝကလုပ်ငန်းဆောင်တာကို -- လွယ်ကူစွာ ချေဖျက်နိုင်သော Energy သိုလှောင်ရေးမှ ချေဖျက်၍မရသော Structural ပစ္စည်းအထိ -- လုံးဝ ပြောင်းလဲပစ်နိုင်ကြောင်း ဥပမာကောင်းတစ်ခုအဖြစ် Htet Aung သဘောပေါက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the key structural difference between starch and cellulose?",
+            questionMy:
+                "Starch နှင့် Cellulose အကြား အဓိက Structural ကွာခြားချက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Starch is made of alpha-glucose, cellulose is made of beta-glucose",
+              "Starch contains no glucose at all",
+              "Cellulose contains amino acids",
+              "Starch is a lipid, cellulose is a carbohydrate",
+            ],
+            optionsMy: [
+              "Starch ကို Alpha-glucose မှ ဖွဲ့စည်းပြီး Cellulose ကို Beta-glucose မှ ဖွဲ့စည်းသည်",
+              "Starch တွင် Glucose လုံးဝ မပါဝင်ပါ",
+              "Cellulose တွင် Amino Acid ပါဝင်သည်",
+              "Starch သည် Lipid ဖြစ်ပြီး Cellulose သည် Carbohydrate ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what structure do cellulose's straight chains form together?",
+            questionMy:
+                "Cellulose ၏ ဖြောင့်တန်းသော ကွင်းဆက်များ အတူတကွ ဖွဲ့စည်းသည့် ဖွဲ့စည်းပုံကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Strong microfibrils held together by hydrogen bonds",
+              "A compact coiled helix",
+              "A branched storage granule",
+              "A double membrane",
+            ],
+            optionsMy: [
+              "Hydrogen Bond များဖြင့် စုစည်းထားသော ခိုင်မာသော Microfibril များ",
+              "သိမ်ငယ်သော ကွေးညွှတ်ထားသော Helix",
+              "အခွဲရှိသော Storage Granule",
+              "Double Membrane",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why can cows digest cellulose but humans cannot?",
+            questionMy:
+                "နွားများသည် Cellulose ကို ချေဖျက်နိုင်သော်လည်း လူများ မချေဖျက်နိုင်ရသည့်အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cows host gut bacteria that produce cellulase",
+              "Cows have two stomachs and humans have only one",
+              "Cows never eat cellulose",
+              "Humans lack a gut entirely",
+            ],
+            optionsMy: [
+              "နွားများသည် Cellulase ထုတ်လုပ်ပေးသော အူလမ်းကြောင်းဘက်တီးရီးယားများ ကိုယ်တွင်းရှိသောကြောင့်",
+              "နွားများတွင် အစာအိမ်နှစ်ခု ရှိပြီး လူများတွင် တစ်ခုသာ ရှိသောကြောင့်",
+              "နွားများသည် Cellulose ကို လုံးဝ မစားသောကြောင့်",
+              "လူများတွင် အူလမ်းကြောင်း လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the last two sentences of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းနှစ်ကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Polysaccharides",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Polysaccharide များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Starch is the main storage polysaccharide in...",
+          questionMy: "Starch သည် ...တွင် အဓိက သိုလှောင်ရေး Polysaccharide ဖြစ်သည်",
+          optionsEn: ["Plants", "Animals only", "Bacteria only", "Fungi only"],
+          optionsMy: ["အပင်များ", "တိရစ္ဆာန်များသာ", "ဘက်တီးရီးယားများသာ", "မှို(မှိုအမျိုးအစား)များသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cellulose gives plant cell walls their...",
+          questionMy: "Cellulose က အပင် Cell Wall များကို ...ပေးသည်",
+          optionsEn: ["Tensile strength", "Sweet taste", "Blue colour", "Ability to photosynthesise"],
+          optionsMy: ["Tensile Strength", "ချိုသောအရသာ", "အပြာရောင်", "Photosynthesis ပြုနိုင်စွမ်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Glycogen is found mainly in...",
+          questionMy: "Glycogen ကို အဓိက ...တွင် တွေ့ရသည်",
+          optionsEn: ["Animal liver and muscle cells", "Plant leaves only", "Bacterial cell walls", "Fungal spores only"],
+          optionsMy: ["တိရစ္ဆာန် အသည်းနှင့် ကြွက်သားဆဲလ်များ", "အပင်အရွက်များသာ", "ဘက်တီးရီးယား Cell Wall", "မှိုပွင့်များသာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8: "Lipids: Triglycerides and Phospholipids" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek8 = CourseWeekDef(
+  id: "course-y12-bio-w8",
+  weekNumber: 8,
+  titleEn: "Lipids: Triglycerides and Phospholipids",
+  titleMy: "Lipid - Triglyceride နှင့် Phospholipid",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w8-d1",
+      dayNumber: 1,
+      titleEn: "Triglycerides: Glycerol, Fatty Acids and Ester Bonds",
+      titleMy: "Triglyceride - Glycerol, Fatty Acid နှင့် Ester Bond",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A triglyceride is formed from one molecule of glycerol and...",
+          questionMy: "Triglyceride ကို Glycerol မော်လီကျူးတစ်ခုနှင့် ...မှ ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Three fatty acid molecules",
+            "Three glucose molecules",
+            "One fatty acid molecule",
+            "Three amino acid molecules",
+          ],
+          optionsMy: [
+            "Fatty Acid မော်လီကျူး သုံးခု",
+            "Glucose မော်လီကျူး သုံးခု",
+            "Fatty Acid မော်လီကျူး တစ်ခု",
+            "Amino Acid မော်လီကျူး သုံးခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Tri-\" means three -- one glycerol backbone joins with three fatty acid \"tails\".",
+          ],
+          hintsMy: [
+            "\"Tri-\" ဆိုသည်မှာ သုံးခု ဖြစ်ပြီး Glycerol ကျောရိုးတစ်ခုနှင့် Fatty Acid \"အမြီး\" သုံးခု ချိတ်ဆက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The bond formed between glycerol and a fatty acid, releasing water, is called a/an...",
+          questionMy:
+              "Glycerol နှင့် Fatty Acid အကြား ဖွဲ့စည်းပြီး ရေ ထွက်ရှိစေသော Bond ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Ester bond", "Glycosidic bond", "Peptide bond", "Ionic bond"],
+          optionsMy: ["Ester Bond", "Glycosidic Bond", "Peptide Bond", "Ionic Bond"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is still a condensation reaction, just like forming a glycosidic bond -- but between glycerol's -OH group and a fatty acid's -COOH group, it is called an ester bond.",
+          ],
+          hintsMy: [
+            "Glycosidic Bond ဖွဲ့စည်းသကဲ့သို့ ဤသည်မှာ Condensation Reaction ပင်ဖြစ်သော်လည်း -- Glycerol ၏ -OH Group နှင့် Fatty Acid ၏ -COOH Group အကြားတွင် Ester Bond ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A saturated fatty acid contains no carbon-carbon double bonds, while an unsaturated fatty acid contains...",
+          questionMy:
+              "Saturated Fatty Acid တွင် Carbon-carbon Double Bond လုံးဝ မရှိဘဲ Unsaturated Fatty Acid တွင်မူ...",
+          optionsEn: [
+            "At least one carbon-carbon double bond",
+            "No carbon atoms at all",
+            "Only nitrogen atoms",
+            "A glycosidic bond",
+          ],
+          optionsMy: [
+            "အနည်းဆုံး Carbon-carbon Double Bond တစ်ခု ရှိသည်",
+            "Carbon Atom လုံးဝ မရှိပါ",
+            "Nitrogen Atom သာ ပါဝင်သည်",
+            "Glycosidic Bond ရှိသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Unsaturated\" means the carbon chain is not \"saturated\" with the maximum number of hydrogen atoms, because a double bond takes the place of some hydrogens.",
+          ],
+          hintsMy: [
+            "\"Unsaturated\" ဆိုသည်မှာ Double Bond က Hydrogen အချို့ကို အစားထိုးထားသောကြောင့် Carbon ကွင်းဆက်တွင် Hydrogen အများဆုံး အရေအတွက် \"ပြည့်\" မနေခြင်းကို ဆိုလိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Lipids Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Lipid ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w8-dm-1",
+          termEn: "Triglyceride",
+          termMy: "ထရိုက်ဂလီစာရိုက် (Triglyceride)",
+          matchEn: "One glycerol molecule joined to three fatty acids by ester bonds",
+          matchMy: "Ester Bond များဖြင့် Fatty Acid သုံးခုနှင့် ချိတ်ဆက်ထားသော Glycerol မော်လီကျူးတစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w8-dm-2",
+          termEn: "Glycerol",
+          termMy: "ဂလီစရော (Glycerol)",
+          matchEn: "A small alcohol molecule forming the \"backbone\" of a triglyceride",
+          matchMy: "Triglyceride ၏ \"ကျောရိုး\" ဖွဲ့စည်းသော Alcohol မော်လီကျူးငယ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w8-dm-3",
+          termEn: "Ester bond",
+          termMy: "Ester Bond",
+          matchEn: "The bond formed between glycerol and a fatty acid, releasing water",
+          matchMy: "Glycerol နှင့် Fatty Acid အကြား ဖွဲ့စည်းပြီး ရေ ထွက်ရှိစေသော Bond",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w8-dm-4",
+          termEn: "Saturated fatty acid",
+          termMy: "Saturated Fatty Acid",
+          matchEn: "A fatty acid with no carbon-carbon double bonds, usually solid at room temperature",
+          matchMy: "Carbon-carbon Double Bond မရှိသော Fatty Acid၊ ပုံမှန်အားဖြင့် အခန်းအပူချိန်တွင် အခိုင်ဖြစ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w8-dm-5",
+          termEn: "Phospholipid",
+          termMy: "ဖော့စဖိုလစ်ပစ် (Phospholipid)",
+          matchEn: "A lipid with a phosphate head and two fatty acid tails, forming cell membranes",
+          matchMy: "Phosphate ခေါင်းနှင့် Fatty Acid အမြီးနှစ်ခု ရှိသော Lipid၊ Cell Membrane များ ဖွဲ့စည်းသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Saturated or Unsaturated Fatty Acid?",
+      titleMy: "စီစစ်ကြမည် - Saturated သို့မဟုတ် Unsaturated Fatty Acid?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Saturated Fatty Acid", "Unsaturated Fatty Acid"],
+        bucketsMy: ["Saturated Fatty Acid", "Unsaturated Fatty Acid"],
+        items: [
+          SortingItem(
+            id: "y12bio-w8-sort-1",
+            labelEn: "Contains no carbon-carbon double bonds",
+            labelMy: "Carbon-carbon Double Bond လုံးဝ မပါဝင်",
+            correctBucketEn: "Saturated Fatty Acid",
+            correctBucketMy: "Saturated Fatty Acid",
+          ),
+          SortingItem(
+            id: "y12bio-w8-sort-2",
+            labelEn: "Typically solid at room temperature, e.g. animal fat",
+            labelMy: "ပုံမှန်အားဖြင့် အခန်းအပူချိန်တွင် အခိုင်ဖြစ်၊ ဥပမာ - တိရစ္ဆာန်အဆီ",
+            correctBucketEn: "Saturated Fatty Acid",
+            correctBucketMy: "Saturated Fatty Acid",
+          ),
+          SortingItem(
+            id: "y12bio-w8-sort-3",
+            labelEn: "Contains at least one carbon-carbon double bond",
+            labelMy: "အနည်းဆုံး Carbon-carbon Double Bond တစ်ခု ပါဝင်",
+            correctBucketEn: "Unsaturated Fatty Acid",
+            correctBucketMy: "Unsaturated Fatty Acid",
+          ),
+          SortingItem(
+            id: "y12bio-w8-sort-4",
+            labelEn: "Typically liquid at room temperature, e.g. vegetable oil",
+            labelMy: "ပုံမှန်အားဖြင့် အခန်းအပူချိန်တွင် အရည်ဖြစ်၊ ဥပမာ - ဟင်းသီးဟင်းရွက်ဆီ",
+            correctBucketEn: "Unsaturated Fatty Acid",
+            correctBucketMy: "Unsaturated Fatty Acid",
+          ),
+          SortingItem(
+            id: "y12bio-w8-sort-5",
+            labelEn: "Chain kinks (bends) at each double bond, preventing tight packing",
+            labelMy: "Double Bond တစ်ခုစီတွင် ကွင်းဆက် ကွေးညွှတ်သွားသောကြောင့် ကျပ်တည်းစွာ စုစည်း၍ မရ",
+            correctBucketEn: "Unsaturated Fatty Acid",
+            correctBucketMy: "Unsaturated Fatty Acid",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Molecule, Two Different Jobs",
+      titleMy: "စာဖတ်ခြင်း - မော်လီကျူးတစ်ခု၊ အလုပ်နှစ်မျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Molecule, Two Different Jobs",
+        titleMy: "မော်လီကျူးတစ်ခု၊ အလုပ်နှစ်မျိုး",
+        passageEn:
+            "Sayar Zaw Min set the term's capstone challenge: compare a triglyceride and a phospholipid, and explain how such similar building blocks end up doing completely different biological jobs. Htet Aung started by pointing out the similarity -- both molecules have a glycerol backbone and are built using fatty acid \"tails\" joined by ester bonds, so at first glance they look almost identical.\n\nSu Su then identified the key structural difference: in a triglyceride, all three of glycerol's binding sites are taken up by fatty acid tails, making the whole molecule non-polar and strongly hydrophobic (water-repelling) throughout -- which is exactly why triglycerides are excellent, compact long-term energy stores and also provide thermal insulation and buoyancy, since they simply will not mix with the watery cytoplasm around them. In a phospholipid, however, one of the three fatty acid tails is replaced by a phosphate group, which is polar and hydrophilic (water-attracting).\n\n\"That one substitution changes everything,\" Sayar Zaw Min explained. \"A phospholipid now has a hydrophilic head and two hydrophobic tails in the same molecule -- we call this amphipathic. Drop phospholipids into water and they don't just clump together like triglycerides would; they spontaneously arrange themselves into a bilayer, heads facing the water on both sides and tails hidden away from it in the middle. That bilayer is the basis of every cell membrane in every living cell you will ever study.\" Htet Aung realised the lesson's real point: the tiny structural swap of one fatty acid for one phosphate group is the difference between a fat store and the membrane that makes cells possible at all.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term ၏ Capstone စိန်ခေါ်မှုကို သတ်မှတ်ပေးခဲ့သည် - Triglyceride နှင့် Phospholipid ကို နှိုင်းယှဉ်ပြီး ဤကဲ့သို့ ဆင်တူသော တည်ဆောက်ကွက်များက လုံးဝ ကွာခြားသော ဇီဝကလုပ်ငန်းဆောင်တာများကို အဘယ်ကဲ့သို့ ပြီးမြောက်နိုင်သည်ကို ရှင်းပြရန် ဖြစ်သည်။ Htet Aung သည် ဆင်တူချက်ကို ဦးစွာ ညွှန်ပြခဲ့သည် -- မော်လီကျူးနှစ်ခုစလုံးတွင် Glycerol ကျောရိုးရှိပြီး Ester Bond များဖြင့် ချိတ်ဆက်ထားသော Fatty Acid \"အမြီး\" များဖြင့် တည်ဆောက်ထားသောကြောင့် ကြည့်ရုံနှင့် ခန့်မှန်းချက်အားဖြင့် အတူတူပင် ဖြစ်နေသည်။\n\nSu Su သည် အဓိက Structural ကွာခြားချက်ကို ဖော်ထုတ်ခဲ့သည် - Triglyceride တွင် Glycerol ၏ ချိတ်ဆက်နိုင်သော နေရာသုံးခုလုံးကို Fatty Acid အမြီးများဖြင့် ယူထားသောကြောင့် မော်လီကျူးတစ်ခုလုံးကို Non-polar နှင့် Hydrophobic (ရေမလို) ဖြစ်နေစေသည် -- ၎င်းသည် Triglyceride များ ကောင်းမွန်သော၊ သိမ်ငယ်သော Long-term Energy Store ဖြစ်ရသည့်အပြင် Thermal Insulation နှင့် Buoyancy ပေးရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပြီး ၎င်းတို့သည် ပတ်ဝန်းကျင်ရှိ ရေဓာတ် Cytoplasm နှင့် လုံးဝ မရောနှောသောကြောင့်ဖြစ်သည်။ သို့သော် Phospholipid တွင် Fatty Acid အမြီးသုံးခုအနက် တစ်ခုကို Polar နှင့် Hydrophilic (ရေနှင့်ချစ်ကြင်) ဖြစ်သော Phosphate Group ဖြင့် အစားထိုးထားသည်။\n\n\"ထိုတစ်ခုတည်းသော အစားထိုးမှုက အားလုံးကို ပြောင်းလဲပစ်သည်\" ဟု ဆရာဇော်မင်း ရှင်းပြခဲ့သည် \"Phospholipid တစ်ခုတွင် Hydrophilic ခေါင်းတစ်ခုနှင့် Hydrophobic အမြီးနှစ်ခု တစ်မော်လီကျူးတည်းတွင် ရှိလာသည် -- ဤသည်ကို Amphipathic ဟု ခေါ်သည်။ Phospholipid များကို ရေထဲသို့ ချထားလိုက်လျှင် Triglyceride များကဲ့သို့ တစ်စုတည်း ခုနှိုက်နေမည့်အစား ၎င်းတို့သည် Bilayer တစ်ခုအဖြစ် သဘာဝအလျောက် စီစဉ်ကြသည် - ခေါင်းများကို ဘက်နှစ်ဘက်စလုံးတွင် ရေဖက်သို့ ထားပြီး အမြီးများကို အလယ်တွင် ရေနှင့် ဝေးသောနေရာ ဝှက်ထားသည်။ ထို Bilayer သည် သင် လေ့လာမည့် သက်ရှိဆဲလ်တိုင်းရှိ Cell Membrane အားလုံး၏ အခြေခံ ဖြစ်သည်။\" Fatty Acid တစ်ခုကို Phosphate Group တစ်ခုဖြင့် အစားထိုးလိုက်သော Structural အသေးအမွှားမှုသည် အဆီသိုလှောင်ရေးနှင့် ဆဲလ်များကို ဖြစ်နိုင်စေသော Membrane အကြား ကွာခြားချက် ဖြစ်ကြောင်းကို Htet Aung သည် သင်ခန်းစာ၏ အမှန်တကယ် အဓိကအချက်အဖြစ် နားလည်သဘောပေါက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what structural feature do triglycerides and phospholipids share?",
+            questionMy:
+                "Triglyceride နှင့် Phospholipid တို့ မျှဝေထားသော Structural Feature ကို Htet Aung ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A glycerol backbone with fatty acid tails joined by ester bonds",
+              "Both are made entirely of amino acids",
+              "Both have no carbon atoms",
+              "Both are polysaccharides",
+            ],
+            optionsMy: [
+              "Ester Bond ဖြင့် ချိတ်ဆက်ထားသော Fatty Acid အမြီးများပါသော Glycerol ကျောရိုး",
+              "နှစ်ခုစလုံး Amino Acid မှသာ ဖွဲ့စည်းသည်",
+              "နှစ်ခုစလုံး Carbon Atom လုံးဝ မရှိ",
+              "နှစ်ခုစလုံး Polysaccharide များ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what replaces one fatty acid tail in a phospholipid?",
+            questionMy:
+                "Phospholipid တွင် Fatty Acid အမြီးတစ်ခုကို အဘယ်ဖြင့် အစားထိုးသည်ကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A phosphate group",
+              "A second glycerol molecule",
+              "An amino acid",
+              "A glucose molecule",
+            ],
+            optionsMy: [
+              "Phosphate Group",
+              "ဒုတိယ Glycerol မော်လီကျူး",
+              "Amino Acid",
+              "Glucose မော်လီကျူး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how do phospholipids arrange themselves in water?",
+            questionMy:
+                "Phospholipid များ ရေထဲတွင် မည်သို့ စီစဉ်ကြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Into a bilayer, with hydrophilic heads facing the water and hydrophobic tails hidden inside",
+              "Into a single straight chain",
+              "They dissolve completely and disappear",
+              "Into a solid crystal",
+            ],
+            optionsMy: [
+              "Hydrophilic ခေါင်းများ ရေဖက်သို့ ထားပြီး Hydrophobic အမြီးများ အတွင်းတွင် ဝှက်ထားသော Bilayer အဖြစ်",
+              "ဖြောင့်တန်းသော ကွင်းဆက်တစ်ခုတည်းအဖြစ်",
+              "လုံးဝ ပျော်ဝင်ပျောက်ကွယ်သွားသည်",
+              "အခိုင် Crystal တစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread Sayar Zaw Min's description of the bilayer."],
+            hintsMy: ["Bilayer အကြောင်း ဆရာဇော်မင်း ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Lipids",
+      titleMy: "အဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Lipid များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A triglyceride contains glycerol and how many fatty acids?",
+          questionMy: "Triglyceride တွင် Glycerol နှင့် Fatty Acid မည်မျှ ပါဝင်သနည်း။",
+          optionsEn: ["Three", "One", "Two", "Four"],
+          optionsMy: ["သုံးခု", "တစ်ခု", "နှစ်ခု", "လေးခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A phospholipid is described as amphipathic because it has...",
+          questionMy: "Phospholipid ကို Amphipathic ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "A hydrophilic head and hydrophobic tails",
+            "Two hydrophilic heads only",
+            "No charge anywhere on the molecule",
+            "Only hydrophobic parts",
+          ],
+          optionsMy: [
+            "Hydrophilic ခေါင်းနှင့် Hydrophobic အမြီးများ ရှိခြင်း",
+            "Hydrophilic ခေါင်းနှစ်ခုသာ ရှိခြင်း",
+            "မော်လီကျူးတွင် မည်သည့်နေရာမျှ Charge လုံးဝ မရှိခြင်း",
+            "Hydrophobic အစိတ်အပိုင်းများသာ ရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Phospholipids arrange themselves into a bilayer to form...",
+          questionMy: "Phospholipid များသည် ...ဖွဲ့စည်းရန် Bilayer တစ်ခုအဖြစ် စီစဉ်ကြသည်",
+          optionsEn: ["Cell membranes", "Cell walls", "Ribosomes", "Chromosomes"],
+          optionsMy: ["Cell Membrane များ", "Cell Wall များ", "Ribosome များ", "Chromosome များ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm2 = CourseTermDef(
+  id: "course-y12-bio-t2",
+  termNumber: 2,
+  titleEn: "Biological Molecules I: Water, Carbohydrates and Lipids",
+  titleMy: "ဇီဝမော်လီကျူးများ I - ရေ, Carbohydrate နှင့် Lipid",
+  weeks: [_y12BioWeek5, _y12BioWeek6, _y12BioWeek7, _y12BioWeek8],
+  certificateTitleEn:
+      "AS Biology: Biological Molecules I (Water, Carbohydrates and Lipids)",
+  certificateTitleMy:
+      "AS ဇီဝဗေဒ - ဇီဝမော်လီကျူးများ I (ရေ, Carbohydrate နှင့် Lipid)",
+);
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 3: "Biological Molecules II: Proteins and
+// Enzymes"
+// (Weeks 9-12)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Amino Acids and Peptide Bonds"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek9 = CourseWeekDef(
+  id: "course-y12-bio-w9",
+  weekNumber: 9,
+  titleEn: "Amino Acids and Peptide Bonds",
+  titleMy: "Amino Acid နှင့် Peptide Bond",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w9-d1",
+      dayNumber: 1,
+      titleEn: "The General Structure of an Amino Acid",
+      titleMy: "Amino Acid ၏ အထွေထွေ ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Every amino acid has a central carbon atom bonded to a hydrogen atom, an amine group, a carboxyl group and...",
+          questionMy: "Amino Acid တိုင်းတွင် ဗဟို Carbon Atom သည် Hydrogen Atom, Amine Group, Carboxyl Group နှင့် ...တို့ဖြင့် Bond ဖွဲ့ထားသည်",
+          optionsEn: [
+            "A variable R group, different for each amino acid",
+            "A second nucleus",
+            "A phosphate group in every case",
+            "A glycosidic bond",
+          ],
+          optionsMy: [
+            "Amino Acid တစ်ခုစီအလိုက် ကွာခြားသော R Group",
+            "ဒုတိယ Nucleus",
+            "အခါတိုင်း Phosphate Group",
+            "Glycosidic Bond",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The amine group (-NH2), carboxyl group (-COOH) and hydrogen are the same in every amino acid -- only the R group varies, giving each amino acid its distinct properties.",
+          ],
+          hintsMy: [
+            "Amine Group (-NH2), Carboxyl Group (-COOH) နှင့် Hydrogen တို့သည် Amino Acid တိုင်းတွင် တူညီပြီး R Group တစ်ခုတည်းသာ ကွာခြားကာ Amino Acid တစ်ခုစီကို ထူးခြားသော ဂုဏ်သတ္တိများ ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A peptide bond forms between the carboxyl group of one amino acid and the ... of another, releasing water.",
+          questionMy: "Peptide Bond သည် Amino Acid တစ်ခု၏ Carboxyl Group နှင့် အခြားတစ်ခု၏ ...အကြား ဖွဲ့စည်းပြီး ရေ ထွက်ရှိစေသည်",
+          optionsEn: ["Amine group", "R group", "Hydrogen atom", "Second carboxyl group"],
+          optionsMy: ["Amine Group", "R Group", "Hydrogen Atom", "ဒုတိယ Carboxyl Group"],
+          correctIndex: 0,
+          hintsEn: [
+            "Like forming a glycosidic or ester bond, this is a condensation reaction -- here between an amine group (-NH2) and a carboxyl group (-COOH).",
+          ],
+          hintsMy: [
+            "Glycosidic Bond (သို့) Ester Bond ဖွဲ့စည်းသကဲ့သို့ ဤသည်လည်း Condensation Reaction ဖြစ်သည် -- ဤနေရာတွင် Amine Group (-NH2) နှင့် Carboxyl Group (-COOH) အကြားတွင်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A chain of many amino acids joined by peptide bonds is called a...",
+          questionMy: "Peptide Bond များဖြင့် ချိတ်ဆက်ထားသော Amino Acid များစွာ၏ ကွင်းဆက်ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Polypeptide", "Polysaccharide", "Nucleotide", "Glycoprotein"],
+          optionsMy: ["Polypeptide", "Polysaccharide", "Nucleotide", "Glycoprotein"],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Poly-\" means many -- a polypeptide is many amino acids (peptides) joined in one chain, which then folds into a protein.",
+          ],
+          hintsMy: [
+            "\"Poly-\" ဆိုသည်မှာ များစွာ ဖြစ်ပြီး Polypeptide သည် ကွင်းဆက်တစ်ခုတွင် ချိတ်ဆက်ထားသော Amino Acid (Peptide) များစွာဖြစ်ပြီး ထို့နောက် Protein အဖြစ် ခေါက်သိမ်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Amino Acid and Protein Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Amino Acid နှင့် Protein ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w9-dm-1",
+          termEn: "Amino group",
+          termMy: "Amine Group (-NH2)",
+          matchEn: "A nitrogen-containing group found in every amino acid",
+          matchMy: "Amino Acid တိုင်းတွင် ပါဝင်သော Nitrogen ပါသည့် Group",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w9-dm-2",
+          termEn: "Carboxyl group",
+          termMy: "Carboxyl Group (-COOH)",
+          matchEn: "An acidic group found in every amino acid",
+          matchMy: "Amino Acid တိုင်းတွင် ပါဝင်သော Acidic Group",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w9-dm-3",
+          termEn: "R group",
+          termMy: "R Group",
+          matchEn: "The variable side chain that makes each of the 20 amino acids different",
+          matchMy: "Amino Acid 20 မျိုးအား ကွဲပြားစေသော ကွင်းဆက်ခွဲ (ပြောင်းလဲနိုင်သော အစိတ်အပိုင်း)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w9-dm-4",
+          termEn: "Peptide bond",
+          termMy: "Peptide Bond",
+          matchEn: "The covalent bond joining two amino acids, formed by condensation",
+          matchMy: "Amino Acid နှစ်ခုကို ချိတ်ဆက်သည့် Covalent Bond၊ Condensation ဖြင့် ဖွဲ့စည်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w9-dm-5",
+          termEn: "Polypeptide",
+          termMy: "Polypeptide",
+          matchEn: "A chain of many amino acids joined by peptide bonds",
+          matchMy: "Peptide Bond များဖြင့် ချိတ်ဆက်ထားသော Amino Acid များစွာ၏ ကွင်းဆက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Same in Every Amino Acid, or Variable?",
+      titleMy: "စီစစ်ကြမည် - Amino Acid တိုင်းတွင် တူညီသလား၊ ပြောင်းလဲနိုင်သလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Same in Every Amino Acid", "Varies Between Amino Acids"],
+        bucketsMy: ["Amino Acid တိုင်းတွင် တူညီ", "Amino Acid အလိုက် ကွာခြား"],
+        items: [
+          SortingItem(
+            id: "y12bio-w9-sort-1",
+            labelEn: "The amine group (-NH2)",
+            labelMy: "Amine Group (-NH2)",
+            correctBucketEn: "Same in Every Amino Acid",
+            correctBucketMy: "Amino Acid တိုင်းတွင် တူညီ",
+          ),
+          SortingItem(
+            id: "y12bio-w9-sort-2",
+            labelEn: "The carboxyl group (-COOH)",
+            labelMy: "Carboxyl Group (-COOH)",
+            correctBucketEn: "Same in Every Amino Acid",
+            correctBucketMy: "Amino Acid တိုင်းတွင် တူညီ",
+          ),
+          SortingItem(
+            id: "y12bio-w9-sort-3",
+            labelEn: "The R group side chain",
+            labelMy: "R Group ကွင်းဆက်ခွဲ",
+            correctBucketEn: "Varies Between Amino Acids",
+            correctBucketMy: "Amino Acid အလိုက် ကွာခြား",
+          ),
+          SortingItem(
+            id: "y12bio-w9-sort-4",
+            labelEn: "Whether the amino acid is acidic, basic or non-polar overall",
+            labelMy: "Amino Acid တစ်ခုလုံး Acidic, Basic (သို့) Non-polar ဖြစ်ခြင်း",
+            correctBucketEn: "Varies Between Amino Acids",
+            correctBucketMy: "Amino Acid အလိုက် ကွာခြား",
+          ),
+          SortingItem(
+            id: "y12bio-w9-sort-5",
+            labelEn: "The central carbon atom bonded to four different groups",
+            labelMy: "မတူညီသော Group လေးခုနှင့် Bond ဖွဲ့ထားသော ဗဟို Carbon Atom",
+            correctBucketEn: "Same in Every Amino Acid",
+            correctBucketMy: "Amino Acid တိုင်းတွင် တူညီ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building a Dipeptide",
+      titleMy: "စာဖတ်ခြင်း - Dipeptide တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building a Dipeptide",
+        titleMy: "Dipeptide တစ်ခု တည်ဆောက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min drew two amino acids on the whiteboard, glycine and alanine, and asked the class to work out what would happen if the two joined together. Su Su started by reminding everyone of the shared structure: each amino acid has a central carbon bonded to a hydrogen atom, an amine group (-NH2), a carboxyl group (-COOH), and an R group -- for glycine the R group is just another hydrogen atom, while for alanine it is a small methyl group (-CH3).\n\nHtet Aung then worked through the reaction itself: the carboxyl group of glycine reacts with the amine group of alanine, forming a new covalent bond between the carbon of the carboxyl group and the nitrogen of the amine group. As with every condensation reaction the class had studied that term -- glycosidic bonds between sugars, ester bonds between glycerol and fatty acids -- a molecule of water is released as the new bond forms.\n\n\"This new bond has its own name, because it is specifically between an amine and a carboxyl group,\" Sayar Zaw Min reminded the class. \"We call it a peptide bond, and the two-amino-acid product is called a dipeptide.\" He pointed out that the dipeptide still has one free amine group at one end and one free carboxyl group at the other -- which means a third amino acid could join on to either end, and a fourth, and so on, building up the long polypeptide chains that eventually fold into full proteins.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Amino Acid နှစ်မျိုးဖြစ်သော Glycine နှင့် Alanine ကို Whiteboard ပေါ်တွင် ရေးဆွဲပြပြီး ၎င်းတို့ ချိတ်ဆက်ပါက အဘယ်ဖြစ်လာမည်ကို အတန်းအား တွက်ချက်ခိုင်းခဲ့သည်။ Amino Acid တိုင်း၏ မျှဝေထားသော ဖွဲ့စည်းပုံကို Su Su ဦးစွာ ပြန်သတိပေးခဲ့သည် - Amino Acid တစ်ခုစီတွင် ဗဟို Carbon သည် Hydrogen Atom, Amine Group (-NH2), Carboxyl Group (-COOH) နှင့် R Group တို့နှင့် Bond ဖွဲ့ထားသည် -- Glycine အတွက် R Group သည် Hydrogen Atom တစ်ခုသာ ဖြစ်ပြီး Alanine အတွက်မူ သေးငယ်သော Methyl Group (-CH3) ဖြစ်သည်။\n\nHtet Aung သည် တုံ့ပြန်မှုကိုယ်တိုင်ကို ဆက်လက် ဆွေးနွေးခဲ့သည် - Glycine ၏ Carboxyl Group သည် Alanine ၏ Amine Group နှင့် တုံ့ပြန်ကာ Carboxyl Group ၏ Carbon နှင့် Amine Group ၏ Nitrogen အကြား Covalent Bond အသစ်တစ်ခု ဖွဲ့စည်းသည်။ ဤ Term အတွင်း အတန်းက လေ့လာခဲ့သော Condensation Reaction တိုင်းကဲ့သို့ -- Sugar များအကြား Glycosidic Bond, Glycerol နှင့် Fatty Acid အကြား Ester Bond -- Bond အသစ် ဖွဲ့စည်းသည့်အခါ ရေမော်လီကျူးတစ်ခု ထွက်ရှိသည်။\n\n\"ဤ Bond အသစ်သည် ကိုယ်ပိုင် အမည်ရှိသည်၊ Amine Group နှင့် Carboxyl Group အကြား တိတိကျကျ ဖြစ်သောကြောင့်ဖြစ်သည်\" ဟု ဆရာဇော်မင်းက အတန်းအား ပြန်သတိပေးခဲ့သည် \"ကျွန်ုပ်တို့ ၎င်းကို Peptide Bond ဟု ခေါ်ပြီး Amino Acid နှစ်ခု၏ ရလဒ်ကို Dipeptide ဟု ခေါ်သည်။\" Dipeptide တွင် အစွန်းတစ်ဖက်၌ Amine Group လွတ်လပ်တစ်ခု နှင့် အခြားအစွန်းတွင် Carboxyl Group လွတ်လပ်တစ်ခု ဆက်လက်ရှိနေသည်ကို သူ ညွှန်ပြခဲ့သည် -- ၎င်းသည် တတိယ Amino Acid တစ်ခုကို အစွန်းနှစ်ဖက်အနက် တစ်ဖက်တွင် ချိတ်ဆက်နိုင်ကြောင်း၊ စတုတ္ထ Amino Acid ဆက်လက် ချိတ်ဆက်နိုင်ကြောင်း ဆိုလိုပြီး နောက်ဆုံးတွင် Protein အပြည့်အဝ အဖြစ် ခေါက်သိမ်းမည့် Polypeptide ကွင်းဆက်ရှည်များကို တည်ဆောက်နိုင်ကြောင်း ဆိုလိုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is glycine's R group?",
+            questionMy: "Glycine ၏ R Group သည် အဘယ်နည်း ဟူသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["A hydrogen atom", "A methyl group", "A phosphate group", "A second amine group"],
+            optionsMy: ["Hydrogen Atom", "Methyl Group", "Phosphate Group", "ဒုတိယ Amine Group"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what is released as the peptide bond forms?",
+            questionMy: "Peptide Bond ဖွဲ့စည်းချိန်တွင် အဘယ်ထွက်ရှိသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["A molecule of water", "A molecule of oxygen", "A molecule of glucose", "A phosphate ion"],
+            optionsMy: ["ရေမော်လီကျူးတစ်ခု", "Oxygen မော်လီကျူးတစ်ခု", "Glucose မော်လီကျူးတစ်ခု", "Phosphate Ion"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why can a dipeptide grow into a longer polypeptide?",
+            questionMy: "Dipeptide တစ်ခုသည် ပိုရှည်သော Polypeptide အဖြစ် ကြီးထွားနိုင်ရသည့်အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It still has one free amine group and one free carboxyl group at its ends",
+              "It contains a glycosidic bond that can extend",
+              "It automatically dissolves in water",
+              "It has no ends at all",
+            ],
+            optionsMy: [
+              "အစွန်းများတွင် Amine Group လွတ်လပ်တစ်ခုနှင့် Carboxyl Group လွတ်လပ်တစ်ခု ဆက်လက်ရှိနေသောကြောင့်",
+              "ရှည်လျားနိုင်သော Glycosidic Bond ပါဝင်သောကြောင့်",
+              "ရေတွင် အလိုအလျောက် ပျော်ဝင်သွားသောကြောင့်",
+              "အစွန်း လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Amino Acids and Peptide Bonds",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Amino Acid နှင့် Peptide Bond",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The part of an amino acid that differs between the 20 amino acids is the...",
+          questionMy: "Amino Acid 20 မျိုးအကြား ကွာခြားသော အစိတ်အပိုင်းမှာ...",
+          optionsEn: ["R group", "Amine group", "Carboxyl group", "Central carbon"],
+          optionsMy: ["R Group", "Amine Group", "Carboxyl Group", "ဗဟို Carbon"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A peptide bond is formed by a...",
+          questionMy: "Peptide Bond ကို ...ဖြင့် ဖွဲ့စည်းသည်",
+          optionsEn: ["Condensation reaction", "Hydrolysis reaction only", "Ionic attraction", "Nuclear reaction"],
+          optionsMy: ["Condensation Reaction", "Hydrolysis Reaction တစ်ခုတည်း", "Ionic Attraction", "Nuclear Reaction"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A polypeptide is...",
+          questionMy: "Polypeptide ဆိုသည်မှာ...",
+          optionsEn: [
+            "A chain of many amino acids joined by peptide bonds",
+            "A single glucose molecule",
+            "A fatty acid with a phosphate head",
+            "A single amino acid",
+          ],
+          optionsMy: [
+            "Peptide Bond များဖြင့် ချိတ်ဆက်ထားသော Amino Acid များစွာ၏ ကွင်းဆက်",
+            "Glucose မော်လီကျူး တစ်ခုတည်း",
+            "Phosphate ခေါင်းပါသော Fatty Acid",
+            "Amino Acid တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Protein Structure: Primary to Quaternary"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek10 = CourseWeekDef(
+  id: "course-y12-bio-w10",
+  weekNumber: 10,
+  titleEn: "Protein Structure: Primary to Quaternary",
+  titleMy: "Protein ဖွဲ့စည်းပုံ - Primary မှ Quaternary အထိ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w10-d1",
+      dayNumber: 1,
+      titleEn: "The Four Levels of Protein Structure",
+      titleMy: "Protein ဖွဲ့စည်းပုံ အဆင့် လေးဆင့်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The primary structure of a protein refers to...",
+          questionMy: "Protein တစ်ခု၏ Primary Structure ဆိုသည်မှာ...",
+          optionsEn: [
+            "The exact sequence of amino acids in the polypeptide chain",
+            "The coiling of the chain into an alpha helix",
+            "The overall 3D shape of the whole protein",
+            "The joining of multiple polypeptide chains",
+          ],
+          optionsMy: [
+            "Polypeptide ကွင်းဆက်ရှိ Amino Acid အစီအစဉ် အတိအကျ",
+            "ကွင်းဆက်ကို Alpha Helix အဖြစ် ကွေးညွှတ်ခြင်း",
+            "Protein တစ်ခုလုံး၏ 3D ပုံသဏ္ဌာန်",
+            "Polypeptide ကွင်းဆက်များစွာ ပေါင်းစည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Primary structure is the most basic level -- just the order the amino acids are joined in, determined by the gene coding for that protein.",
+          ],
+          hintsMy: [
+            "Primary Structure သည် အခြေခံဆုံး အဆင့်ဖြစ်ပြီး Amino Acid များ ချိတ်ဆက်ထားသော အစီအစဉ်သာဖြစ်ကာ ထို Protein ကို Code လုပ်သော Gene ဖြင့် ဆုံးဖြတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Secondary structure (such as the alpha helix) is held together mainly by...",
+          questionMy: "Secondary Structure (Alpha Helix ကဲ့သို့) ကို အဓိက ...ဖြင့် ပေါင်းစပ်ထိန်းသိမ်းထားသည်",
+          optionsEn: [
+            "Hydrogen bonds between nearby parts of the polypeptide backbone",
+            "Peptide bonds only",
+            "Ester bonds between fatty acids",
+            "Glycosidic bonds",
+          ],
+          optionsMy: [
+            "Polypeptide ကျောရိုး၏ အနီးဆုံးအစိတ်အပိုင်းများအကြား Hydrogen Bond များ",
+            "Peptide Bond တစ်ခုတည်း",
+            "Fatty Acid များအကြား Ester Bond",
+            "Glycosidic Bond",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The polypeptide backbone coils or folds because hydrogen bonds form regularly between nearby -NH and -C=O groups.",
+          ],
+          hintsMy: [
+            "Polypeptide ကျောရိုးသည် အနီးဆုံး -NH နှင့် -C=O Group များအကြား ပုံမှန် Hydrogen Bond ဖွဲ့စည်းသောကြောင့် ကွေးညွှတ် (သို့) ခေါက်သိမ်းသွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Quaternary structure only applies to proteins that...",
+          questionMy: "Quaternary Structure သည် ...ဖြစ်သော Protein များတွင်သာ သက်ဆိုင်သည်",
+          optionsEn: [
+            "Are made of more than one polypeptide chain",
+            "Contain no R groups",
+            "Are always enzymes",
+            "Never fold at all",
+          ],
+          optionsMy: [
+            "Polypeptide ကွင်းဆက် တစ်ခုထက်ပို၍ ပါဝင်သော",
+            "R Group လုံးဝ မပါဝင်သော",
+            "အမြဲတမ်း Enzyme ဖြစ်နေသော",
+            "လုံးဝ မခေါက်သိမ်းသော",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A protein with only one polypeptide chain stops at tertiary structure -- quaternary structure describes how multiple chains combine, like haemoglobin's four subunits.",
+          ],
+          hintsMy: [
+            "Polypeptide ကွင်းဆက် တစ်ခုတည်းသာ ပါဝင်သော Protein သည် Tertiary Structure တွင်သာ ရပ်တန့်သည် -- Quaternary Structure သည် Haemoglobin ၏ Subunit လေးခုကဲ့သို့ ကွင်းဆက်များစွာ ပေါင်းစည်းပုံကို ဖော်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Levels of Protein Structure",
+      titleMy: "တွဲစပ်ကြမည် - Protein ဖွဲ့စည်းပုံ အဆင့်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w10-dm-1",
+          termEn: "Primary structure",
+          termMy: "Primary Structure",
+          matchEn: "The exact sequence of amino acids joined by peptide bonds",
+          matchMy: "Peptide Bond များဖြင့် ချိတ်ဆက်ထားသော Amino Acid အစီအစဉ် အတိအကျ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w10-dm-2",
+          termEn: "Secondary structure",
+          termMy: "Secondary Structure",
+          matchEn: "Coiling into an alpha helix or folding into a beta-pleated sheet, held by hydrogen bonds",
+          matchMy: "Hydrogen Bond ဖြင့် ထိန်းသိမ်းထားသော Alpha Helix ကွေးညွှတ်ခြင်း (သို့) Beta-pleated Sheet ခေါက်သိမ်းခြင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w10-dm-3",
+          termEn: "Tertiary structure",
+          termMy: "Tertiary Structure",
+          matchEn: "The overall 3D folded shape of a single polypeptide chain",
+          matchMy: "Polypeptide ကွင်းဆက် တစ်ခု၏ ခေါက်သိမ်းထားသော 3D ပုံသဏ္ဌာန် အလုံးစုံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w10-dm-4",
+          termEn: "Quaternary structure",
+          termMy: "Quaternary Structure",
+          matchEn: "The arrangement of two or more polypeptide chains joined together, e.g. haemoglobin",
+          matchMy: "ချိတ်ဆက်ထားသော Polypeptide ကွင်းဆက် နှစ်ခု (သို့) ထို့ထက်ပို၍ စီစဉ်ပုံ၊ ဥပမာ - Haemoglobin",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w10-dm-5",
+          termEn: "Alpha helix",
+          termMy: "Alpha Helix",
+          matchEn: "A common secondary structure where the chain coils into a spiral",
+          matchMy: "ကွင်းဆက်ကို Spiral အဖြစ် ကွေးညွှတ်စေသည့် Secondary Structure ပုံစံ တစ်မျိုး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Level of Protein Structure?",
+      titleMy: "စီစစ်ကြမည် - Protein ဖွဲ့စည်းပုံ မည်သည့်အဆင့်လဲ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary or Secondary Structure", "Tertiary or Quaternary Structure"],
+        bucketsMy: ["Primary (သို့) Secondary Structure", "Tertiary (သို့) Quaternary Structure"],
+        items: [
+          SortingItem(
+            id: "y12bio-w10-sort-1",
+            labelEn: "The order in which amino acids are joined",
+            labelMy: "Amino Acid များ ချိတ်ဆက်ထားသော အစီအစဉ်",
+            correctBucketEn: "Primary or Secondary Structure",
+            correctBucketMy: "Primary (သို့) Secondary Structure",
+          ),
+          SortingItem(
+            id: "y12bio-w10-sort-2",
+            labelEn: "The alpha helix formed by hydrogen bonds along the backbone",
+            labelMy: "ကျောရိုးတစ်လျှောက် Hydrogen Bond များဖြင့် ဖွဲ့စည်းထားသော Alpha Helix",
+            correctBucketEn: "Primary or Secondary Structure",
+            correctBucketMy: "Primary (သို့) Secondary Structure",
+          ),
+          SortingItem(
+            id: "y12bio-w10-sort-3",
+            labelEn: "The full 3D folded shape of a single polypeptide, including disulfide bridges",
+            labelMy: "Disulfide Bridge များအပါအဝင် Polypeptide တစ်ခု၏ ခေါက်သိမ်းထားသော 3D ပုံသဏ္ဌာန်အပြည့်အစုံ",
+            correctBucketEn: "Tertiary or Quaternary Structure",
+            correctBucketMy: "Tertiary (သို့) Quaternary Structure",
+          ),
+          SortingItem(
+            id: "y12bio-w10-sort-4",
+            labelEn: "Haemoglobin's four joined polypeptide subunits",
+            labelMy: "Haemoglobin ၏ ချိတ်ဆက်ထားသော Polypeptide Subunit လေးခု",
+            correctBucketEn: "Tertiary or Quaternary Structure",
+            correctBucketMy: "Tertiary (သို့) Quaternary Structure",
+          ),
+          SortingItem(
+            id: "y12bio-w10-sort-5",
+            labelEn: "The beta-pleated sheet held together by hydrogen bonds",
+            labelMy: "Hydrogen Bond များဖြင့် ပေါင်းစပ်ထားသော Beta-pleated Sheet",
+            correctBucketEn: "Primary or Secondary Structure",
+            correctBucketMy: "Primary (သို့) Secondary Structure",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Haemoglobin's Four-Part Shape",
+      titleMy: "စာဖတ်ခြင်း - Haemoglobin ၏ လေးပိုင်း ပုံသဏ္ဌာန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Haemoglobin's Four-Part Shape",
+        titleMy: "Haemoglobin ၏ လေးပိုင်း ပုံသဏ္ဌာန်",
+        passageEn:
+            "For revision, Sayar Zaw Min asked the class to trace haemoglobin -- the oxygen-carrying protein in red blood cells -- through all four levels of protein structure, one student explaining each level in turn. Htet Aung took primary structure: haemoglobin's polypeptide chains each have their own exact sequence of amino acids, determined by the gene that codes for them, and changing even a single amino acid in that sequence (as happens in sickle-cell anaemia) can change the protein's entire shape and function.\n\nSu Su took secondary structure: within each polypeptide chain, hydrogen bonds between nearby -NH and -C=O groups on the backbone cause sections of the chain to coil into alpha helices. She then moved on to tertiary structure herself, since haemoglobin's chains fold no further than that individually -- the alpha helices fold back on themselves into a compact, roughly globular 3D shape, held in place by a mixture of hydrogen bonds, ionic bonds, and even stronger disulfide bridges between certain R groups.\n\nSayar Zaw Min finished with quaternary structure, the level unique to proteins built from more than one chain: haemoglobin is actually four separate polypeptide chains -- two alpha chains and two beta chains -- held together as one functional unit. Each of the four chains carries its own haem group, so one haemoglobin molecule can carry up to four oxygen molecules at once. \"Notice how each level builds directly on the one before it,\" he said. \"Change the primary structure, and you can break every level above it -- which is exactly why a single faulty amino acid can cause a disease as serious as sickle-cell anaemia.\"",
+        passageMy:
+            "ပြန်လည်လေ့လာမှုအတွက် ဆရာဇော်မင်းသည် Haemoglobin -- သွေးနီဥအတွင်းရှိ Oxygen သယ်ဆောင်သည့် Protein -- ကို Protein Structure အဆင့် လေးဆင့်လုံးဖြင့် ခြေရာခံရန် အတန်းအား တောင်းဆိုခဲ့ပြီး ကျောင်းသားတစ်ဦးစီက အဆင့်တစ်ခုစီကို အလှည့်ကျ ရှင်းပြခဲ့ကြသည်။ Htet Aung သည် Primary Structure ကို ယူခဲ့သည် - Haemoglobin ၏ Polypeptide ကွင်းဆက်တစ်ခုစီတွင် ကိုယ်ပိုင် Amino Acid အစီအစဉ် အတိအကျ ရှိပြီး ၎င်းတို့ကို Code လုပ်သော Gene ဖြင့် ဆုံးဖြတ်ကာ ထိုအစီအစဉ်ထဲရှိ Amino Acid တစ်ခုတည်းပင် ပြောင်းလဲသွားလျှင် (Sickle-cell Anaemia တွင် ဖြစ်သကဲ့သို့) Protein ၏ ပုံသဏ္ဌာန်နှင့် လုပ်ငန်းဆောင်တာ တစ်ခုလုံးကို ပြောင်းလဲစေနိုင်သည်။\n\nSu Su သည် Secondary Structure ကို ယူခဲ့သည် - Polypeptide ကွင်းဆက်တစ်ခုစီအတွင်း ကျောရိုးပေါ်ရှိ အနီးဆုံး -NH နှင့် -C=O Group များအကြား Hydrogen Bond များက ကွင်းဆက်၏ အပိုင်းများကို Alpha Helix အဖြစ် ကွေးညွှတ်စေသည်။ Haemoglobin ၏ ကွင်းဆက်များသည် တစ်ခုစီ ၎င်းထက်ပို၍ မခေါက်သိမ်းတော့သောကြောင့် သူကိုယ်တိုင် Tertiary Structure ဆီသို့ ဆက်လက် ဆွေးနွေးခဲ့သည် -- Alpha Helix များသည် Hydrogen Bond, Ionic Bond နှင့် R Group အချို့ကြားရှိ ပိုအားကောင်းသော Disulfide Bridge များ ရောနှောထားသော အကြောင်းရင်းများဖြင့် သိမ်ငယ်ပြီး ခန့်မှန်း Globular 3D ပုံသဏ္ဌာန်အဖြစ် ပြန်ခေါက်သိမ်းသည်။\n\nဆရာဇော်မင်းသည် ကွင်းဆက်တစ်ခုထက်ပို၍ ပါဝင်သော Protein များနှင့်သာ သက်ဆိုင်သော Quaternary Structure ဖြင့် နိဂုံးချုပ်ခဲ့သည် - Haemoglobin သည် အမှန်တကယ် သီးခြား Polypeptide ကွင်းဆက် လေးခု -- Alpha ကွင်းဆက်နှစ်ခုနှင့် Beta ကွင်းဆက်နှစ်ခု -- ဖြစ်ပြီး Functional Unit တစ်ခုအဖြစ် ပေါင်းစည်းထားသည်။ ကွင်းဆက်လေးခုစီတွင် ကိုယ်ပိုင် Haem Group ပါဝင်ကာ Haemoglobin မော်လီကျူးတစ်ခုသည် တစ်ချိန်တည်းတွင် Oxygen မော်လီကျူး လေးခုအထိ သယ်ဆောင်နိုင်သည်။ \"အဆင့်တစ်ခုစီသည် ၎င်းရှေ့မှ အဆင့်ပေါ်တွင် တိုက်ရိုက် တည်ဆောက်ထားသည်ကို သတိပြုပါ\" ဟု သူ ဆိုခဲ့သည် \"Primary Structure ကို ပြောင်းလဲလိုက်ပါက ၎င်းအထက်ရှိ အဆင့်တိုင်းကို ချိုးဖျက်နိုင်သည် -- Amino Acid တစ်ခု အမှားက Sickle-cell Anaemia ကဲ့သို့ ပြင်းထန်သော ရောဂါတစ်ခုကို ဖြစ်စေနိုင်သည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung's explanation, what determines haemoglobin's primary structure?",
+            questionMy: "Haemoglobin ၏ Primary Structure ကို အဘယ်ကဆုံးဖြတ်သည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The gene that codes for the polypeptide chain",
+              "The temperature of the blood",
+              "The number of red blood cells",
+              "The pH of the stomach",
+            ],
+            optionsMy: [
+              "Polypeptide ကွင်းဆက်ကို Code လုပ်သော Gene",
+              "သွေး၏ အပူချိန်",
+              "သွေးနီဥ အရေအတွက်",
+              "အစာအိမ်၏ pH",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what holds haemoglobin's tertiary structure in place?",
+            questionMy: "Haemoglobin ၏ Tertiary Structure ကို အဘယ်ဖြင့် ထိန်းသိမ်းထားသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A mixture of hydrogen bonds, ionic bonds and disulfide bridges",
+              "Glycosidic bonds only",
+              "Ester bonds only",
+              "No bonds at all -- it is held by gravity",
+            ],
+            optionsMy: [
+              "Hydrogen Bond, Ionic Bond နှင့် Disulfide Bridge ရောနှောမှု",
+              "Glycosidic Bond တစ်ခုတည်း",
+              "Ester Bond တစ်ခုတည်း",
+              "Bond လုံးဝ မရှိပါ -- Gravity ဖြင့်သာ ထိန်းသိမ်းသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, how many polypeptide chains make up one haemoglobin molecule?",
+            questionMy: "Haemoglobin မော်လီကျူးတစ်ခုကို Polypeptide ကွင်းဆက် မည်မျှဖြင့် ဖွဲ့စည်းသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Four", "One", "Two", "Eight"],
+            optionsMy: ["လေးခု", "တစ်ခု", "နှစ်ခု", "ရှစ်ခု"],
+            correctIndex: 0,
+            hintsEn: ["Reread the description of the two alpha chains and two beta chains."],
+            hintsMy: ["Alpha ကွင်းဆက်နှစ်ခုနှင့် Beta ကွင်းဆက်နှစ်ခု ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Protein Structure",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Protein ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Primary structure refers to the...",
+          questionMy: "Primary Structure ဆိုသည်မှာ...",
+          optionsEn: [
+            "Sequence of amino acids",
+            "3D shape of the whole protein",
+            "Number of polypeptide chains",
+            "Colour of the protein",
+          ],
+          optionsMy: [
+            "Amino Acid အစီအစဉ်",
+            "Protein တစ်ခုလုံး၏ 3D ပုံသဏ္ဌာန်",
+            "Polypeptide ကွင်းဆက် အရေအတွက်",
+            "Protein ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The alpha helix is an example of...",
+          questionMy: "Alpha Helix သည် ...၏ ဥပမာတစ်ခု ဖြစ်သည်",
+          optionsEn: ["Secondary structure", "Primary structure", "Quaternary structure only", "A carbohydrate"],
+          optionsMy: ["Secondary Structure", "Primary Structure", "Quaternary Structure သာ", "Carbohydrate"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Quaternary structure describes proteins made of...",
+          questionMy: "Quaternary Structure သည် ...ဖြင့် ဖွဲ့စည်းထားသော Protein များကို ဖော်ပြသည်",
+          optionsEn: [
+            "More than one polypeptide chain",
+            "A single amino acid",
+            "Carbohydrates only",
+            "Lipids only",
+          ],
+          optionsMy: [
+            "Polypeptide ကွင်းဆက် တစ်ခုထက်ပို၍",
+            "Amino Acid တစ်ခုတည်း",
+            "Carbohydrate သာ",
+            "Lipid သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "Enzymes: Active Site and Induced Fit"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek11 = CourseWeekDef(
+  id: "course-y12-bio-w11",
+  weekNumber: 11,
+  titleEn: "Enzymes: Active Site and Induced Fit",
+  titleMy: "Enzyme - Active Site နှင့် Induced Fit",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w11-d1",
+      dayNumber: 1,
+      titleEn: "Enzymes as Biological Catalysts",
+      titleMy: "ဇီဝ Catalyst များအဖြစ် Enzyme",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Enzymes are best described as...",
+          questionMy: "Enzyme များကို အကောင်းဆုံးဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "Globular proteins that act as biological catalysts, speeding up reactions without being used up",
+            "Carbohydrates that store energy",
+            "Lipids that form cell membranes",
+            "DNA molecules that carry genetic information",
+          ],
+          optionsMy: [
+            "တုံ့ပြန်မှုများကို လျင်မြန်စေပြီး ကိုယ်တိုင် သုံးစွဲမခံရသော ဇီဝ Catalyst အဖြစ် လုပ်ဆောင်သည့် Globular Protein",
+            "Energy သိုလှောင်ထားသော Carbohydrate",
+            "Cell Membrane ဖွဲ့စည်းသော Lipid",
+            "မျိုးရိုးဗီဇအချက်အလက် သယ်ဆောင်သော DNA မော်လီကျူး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A catalyst speeds up a reaction without being permanently changed itself -- enzymes are protein catalysts made by living cells.",
+          ],
+          hintsMy: [
+            "Catalyst တစ်ခုသည် ကိုယ်တိုင် အမြဲတမ်း ပြောင်းလဲခြင်း မခံရဘဲ တုံ့ပြန်မှုကို လျင်မြန်စေသည် -- Enzyme များသည် သက်ရှိဆဲလ်များ ထုတ်လုပ်သော Protein Catalyst များ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The region of an enzyme where the substrate binds is called the...",
+          questionMy: "Enzyme ၏ Substrate ချိတ်ဆက်ရာ ဒေသကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Active site", "Nucleus", "Cell wall", "Vesicle"],
+          optionsMy: ["Active Site", "Nucleus", "Cell Wall", "Vesicle"],
+          correctIndex: 0,
+          hintsEn: [
+            "The active site's precise 3D shape, determined by the enzyme's tertiary structure, is what makes it specific to one substrate (or a small group of similar substrates).",
+          ],
+          hintsMy: [
+            "Enzyme ၏ Tertiary Structure ဖြင့် ဆုံးဖြတ်ထားသော Active Site ၏ တိကျသော 3D ပုံသဏ္ဌာန်က Substrate တစ်ခု (သို့) ဆင်တူသော Substrate အုပ်စုငယ်တစ်ခုနှင့်သာ တိကျစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The induced-fit model describes how the active site...",
+          questionMy: "Induced-fit Model သည် Active Site ...ပုံကို ဖော်ပြသည်",
+          optionsEn: [
+            "Changes shape slightly as the substrate binds, moulding around it for a better fit",
+            "Never changes shape at all, like a rigid lock and key",
+            "Dissolves completely once the substrate binds",
+            "Only works at extremely high temperatures",
+          ],
+          optionsMy: [
+            "Substrate ချိတ်ဆက်သည့်အခါ ပုံသဏ္ဌာန် အနည်းငယ် ပြောင်းလဲပြီး ပိုကောင်းစွာ ကိုက်ညီစေရန် ပတ်လည်ကို ပုံဖော်ပေးသည်",
+            "Key နှင့် Lock ခိုင်မာသော ပုံစံကဲ့သို့ ပုံသဏ္ဌာန် လုံးဝ ပြောင်းလဲခြင်း မရှိပါ",
+            "Substrate ချိတ်ဆက်ပြီးသည်နှင့် လုံးဝ ပျော်ဝင်သွားသည်",
+            "အလွန်မြင့်သော အပူချိန်တွင်သာ အလုပ်လုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike the older \"lock and key\" idea, induced fit says the active site is flexible and adjusts slightly as the substrate approaches, improving the fit.",
+          ],
+          hintsMy: [
+            "ရှေးဟောင်း \"Lock and Key\" အယူအဆနှင့် မတူဘဲ Induced Fit က Active Site သည် ပြောင်းလွယ်ပြင်လွယ်ရှိပြီး Substrate နီးကပ်လာသည့်အခါ အနည်းငယ် ချိန်ညှိပြီး ကိုက်ညီမှုကို ပိုကောင်းစေသည်ဟု ဆိုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Enzyme Action Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Enzyme Action ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w11-dm-1",
+          termEn: "Enzyme",
+          termMy: "အင်ဇိုင်း (Enzyme)",
+          matchEn: "A globular protein that catalyses a specific biological reaction",
+          matchMy: "တိကျသော ဇီဝတုံ့ပြန်မှုကို Catalyse လုပ်သော Globular Protein",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w11-dm-2",
+          termEn: "Substrate",
+          termMy: "ဆဗ်စထရိတ် (Substrate)",
+          matchEn: "The molecule an enzyme acts upon",
+          matchMy: "Enzyme က လုပ်ဆောင်သော မော်လီကျူး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w11-dm-3",
+          termEn: "Active site",
+          termMy: "Active Site",
+          matchEn: "The specific region of an enzyme where the substrate binds",
+          matchMy: "Enzyme ၏ Substrate ချိတ်ဆက်ရာ တိကျသော ဒေသ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w11-dm-4",
+          termEn: "Induced fit",
+          termMy: "Induced Fit",
+          matchEn: "The active site changing shape slightly to mould around the substrate",
+          matchMy: "Substrate ပတ်လည် ပုံဖော်ရန် Active Site ၏ ပုံသဏ္ဌာန် အနည်းငယ် ပြောင်းလဲခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w11-dm-5",
+          termEn: "Activation energy",
+          termMy: "Activation Energy",
+          matchEn: "The minimum energy needed to start a reaction, lowered by an enzyme",
+          matchMy: "တုံ့ပြန်မှု စတင်ရန် လိုအပ်သော အနည်းဆုံးစွမ်းအင်၊ Enzyme ဖြင့် လျှော့ချသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False About Enzymes",
+      titleMy: "စီစစ်ကြမည် - Enzyme အကြောင်း မှန်/မှား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of Enzymes", "Not True of Enzymes"],
+        bucketsMy: ["Enzyme အရ မှန်", "Enzyme အရ မမှန်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w11-sort-1",
+            labelEn: "Enzymes lower the activation energy of a reaction",
+            labelMy: "Enzyme များသည် တုံ့ပြန်မှု၏ Activation Energy ကို လျှော့ချသည်",
+            correctBucketEn: "True of Enzymes",
+            correctBucketMy: "Enzyme အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w11-sort-2",
+            labelEn: "Enzymes are not used up or permanently changed by the reactions they catalyse",
+            labelMy: "Enzyme များသည် ၎င်းတို့ Catalyse လုပ်သော တုံ့ပြန်မှုများကြောင့် သုံးစွဲမခံရဘဲ အမြဲတမ်း မပြောင်းလဲပါ",
+            correctBucketEn: "True of Enzymes",
+            correctBucketMy: "Enzyme အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w11-sort-3",
+            labelEn: "Every enzyme can catalyse every possible reaction equally well",
+            labelMy: "Enzyme တိုင်းသည် ဖြစ်နိုင်သော တုံ့ပြန်မှုတိုင်းကို အညီအမျှ Catalyse လုပ်နိုင်သည်",
+            correctBucketEn: "Not True of Enzymes",
+            correctBucketMy: "Enzyme အရ မမှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w11-sort-4",
+            labelEn: "An enzyme's specificity comes from the precise shape of its active site",
+            labelMy: "Enzyme ၏ Specificity သည် ၎င်း၏ Active Site တိကျသော ပုံသဏ္ဌာန်မှ ဖြစ်ပေါ်လာသည်",
+            correctBucketEn: "True of Enzymes",
+            correctBucketMy: "Enzyme အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w11-sort-5",
+            labelEn: "Enzymes are made of carbohydrate, not protein",
+            labelMy: "Enzyme များကို Protein မဟုတ်ဘဲ Carbohydrate မှ ဖွဲ့စည်းသည်",
+            correctBucketEn: "Not True of Enzymes",
+            correctBucketMy: "Enzyme အရ မမှန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Amylase and the Induced-Fit Model",
+      titleMy: "စာဖတ်ခြင်း - Amylase နှင့် Induced-Fit Model",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Amylase and the Induced-Fit Model",
+        titleMy: "Amylase နှင့် Induced-Fit Model",
+        passageEn:
+            "Sayar Zaw Min asked the class to explain, step by step, what happens when the enzyme amylase breaks down starch in saliva. Su Su began: amylase is a globular protein whose tertiary structure folds it into a specific 3D shape, creating an active site with a groove precisely shaped to fit the starch molecule's glycosidic bonds.\n\nHtet Aung continued the story: as a starch molecule approaches the active site, the active site is not perfectly rigid -- it changes shape slightly, moulding itself more closely around the starch to form what is called the enzyme-substrate complex. \"This is the induced-fit model,\" he explained, \"not the older lock-and-key idea where the shapes are assumed to match exactly from the start. The active site actively adjusts to improve the fit.\" Once bound tightly in the enzyme-substrate complex, the strain placed on the starch's glycosidic bonds lowers the activation energy needed to break them, so hydrolysis happens far faster than it would without the enzyme.\n\n\"After the reaction,\" Sayar Zaw Min added, \"the products -- shorter sugar chains -- no longer fit the active site properly, so they are released, and the active site returns to its original shape, ready to bind another starch molecule. This is exactly why a single amylase molecule can catalyse the breakdown of thousands of starch molecules without ever being used up itself.\"",
+        passageMy:
+            "Amylase ဆိုသော Enzyme သည် Saliva အတွင်းရှိ Starch ကို အဆင့်ဆင့် ချေဖျက်ပုံကို ရှင်းပြရန် ဆရာဇော်မင်းက အတန်းအား တောင်းဆိုခဲ့သည်။ Su Su စတင်ခဲ့သည် - Amylase သည် Tertiary Structure ကြောင့် တိကျသော 3D ပုံသဏ္ဌာန်အဖြစ် ခေါက်သိမ်းထားသော Globular Protein တစ်ခုဖြစ်ပြီး Starch မော်လီကျူး၏ Glycosidic Bond များနှင့် တိကျစွာ ကိုက်ညီသော ချောင်းငယ်တစ်ခုပါသော Active Site ဖန်တီးပေးသည်။\n\nHtet Aung ဆက်လက် ရှင်းပြခဲ့သည် - Starch မော်လီကျူးတစ်ခု Active Site ဆီသို့ နီးကပ်လာသည့်အခါ Active Site သည် လုံးဝ ခိုင်မာသော ပုံသဏ္ဌာန် မဟုတ်ပါ -- ၎င်းသည် Enzyme-substrate Complex ဟု ခေါ်သော အခြေအနေကို ဖန်တီးရန် Starch ပတ်လည်ကို ပိုနီးကပ်စွာ ပုံသဏ္ဌာန် အနည်းငယ် ပြောင်းလဲသည်။ \"ဤသည်မှာ Induced-fit Model ဖြစ်သည်\" ဟု သူ ရှင်းပြခဲ့သည် \"ပုံသဏ္ဌာန်များကို အစကတည်းက အတိအကျ ကိုက်ညီသည်ဟု ယူဆထားသော ရှေးဟောင်း Lock-and-key အယူအဆ မဟုတ်ပါ။ Active Site သည် ကိုက်ညီမှုကို ပိုကောင်းစေရန် တက်ကြွစွာ ချိန်ညှိသည်။\" Enzyme-substrate Complex တွင် တင်းကျပ်စွာ ချိတ်ဆက်ပြီးသည်နှင့် Starch ၏ Glycosidic Bond များပေါ် ကျရောက်သော Strain က ၎င်းတို့ကို ချိုးဖျက်ရန် လိုအပ်သော Activation Energy ကို လျှော့ချပေးသောကြောင့် Enzyme မပါဘဲ ဖြစ်ရမည်ထက် Hydrolysis သည် ပိုမိုမြန်ဆန်စွာ ဖြစ်ပွားသည်။\n\n\"တုံ့ပြန်မှုပြီးနောက်\" ဟု ဆရာဇော်မင်းက ထပ်ဆောင်း ဆိုခဲ့သည် \"ရလဒ်ဖြစ်သော ပိုတိုသော Sugar ကွင်းဆက်များသည် Active Site နှင့် ကိုက်ညီတော့မည် မဟုတ်သောကြောင့် ထွက်သွားပြီး Active Site သည် ၎င်း၏ မူလ ပုံသဏ္ဌာန်ဆီသို့ ပြန်လည်ရောက်ရှိကာ Starch မော်လီကျူးအသစ်တစ်ခုကို ချိတ်ဆက်ရန် အသင့်ဖြစ်နေသည်။ ၎င်းသည် Amylase မော်လီကျူးတစ်ခုသည် ကိုယ်တိုင် လုံးဝ သုံးစွဲမခံရဘဲ Starch မော်လီကျူး ထောင်ချီကို ချေဖျက်ရန် Catalyse လုပ်နိုင်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, what determines amylase's active site shape?",
+            questionMy: "Amylase ၏ Active Site ပုံသဏ္ဌာန်ကို အဘယ်ကဆုံးဖြတ်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its tertiary structure",
+              "The temperature of the mouth only",
+              "The colour of the starch",
+              "Random chance each time",
+            ],
+            optionsMy: [
+              "၎င်း၏ Tertiary Structure",
+              "ခံတွင်း၏ အပူချိန်သာ",
+              "Starch ၏ အရောင်",
+              "အကြိမ်တိုင်း ကျပန်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, how does induced fit differ from the lock-and-key model?",
+            questionMy: "Induced Fit သည် Lock-and-key Model နှင့် မည်သို့ ကွာခြားသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The active site actively changes shape slightly to fit the substrate",
+              "The active site never touches the substrate",
+              "There is no active site at all in induced fit",
+              "Induced fit only applies to lipids",
+            ],
+            optionsMy: [
+              "Active Site သည် Substrate နှင့် ကိုက်ညီရန် တက်ကြွစွာ ပုံသဏ္ဌာန် အနည်းငယ် ပြောင်းလဲသည်",
+              "Active Site သည် Substrate ကို လုံးဝ မထိတွေ့ပါ",
+              "Induced Fit တွင် Active Site လုံးဝ မရှိပါ",
+              "Induced Fit သည် Lipid တွင်သာ သက်ဆိုင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why can one amylase molecule catalyse thousands of reactions?",
+            questionMy: "Amylase မော်လီကျူးတစ်ခုသည် တုံ့ပြန်မှု ထောင်ချီကို Catalyse လုပ်နိုင်ရသည့်အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is not used up and returns to its original shape after each reaction",
+              "It grows larger after each reaction",
+              "It changes into a different enzyme each time",
+              "It is destroyed and rebuilt after each reaction",
+            ],
+            optionsMy: [
+              "ကိုယ်တိုင် သုံးစွဲမခံရဘဲ တုံ့ပြန်မှုတိုင်းပြီးနောက် မူလပုံသဏ္ဌာန်သို့ ပြန်ရောက်သောကြောင့်",
+              "တုံ့ပြန်မှုတိုင်းပြီးနောက် ပိုကြီးလာသောကြောင့်",
+              "အကြိမ်တိုင်း မတူညီသော Enzyme အဖြစ် ပြောင်းလဲသောကြောင့်",
+              "တုံ့ပြန်မှုတိုင်းပြီးနောက် ဖျက်ဆီးခံရပြီး ပြန်တည်ဆောက်ရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Enzymes and the Active Site",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Enzyme နှင့် Active Site",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Enzymes are made of...",
+          questionMy: "Enzyme များကို ...မှ ဖွဲ့စည်းသည်",
+          optionsEn: ["Protein", "Carbohydrate", "Lipid", "DNA"],
+          optionsMy: ["Protein", "Carbohydrate", "Lipid", "DNA"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The molecule an enzyme acts on is called the...",
+          questionMy: "Enzyme က လုပ်ဆောင်သော မော်လီကျူးကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Substrate", "Nucleotide", "Ribosome", "Vacuole"],
+          optionsMy: ["Substrate", "Nucleotide", "Ribosome", "Vacuole"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Enzymes speed up reactions by...",
+          questionMy: "Enzyme များသည် ...ဖြင့် တုံ့ပြန်မှုများကို မြန်ဆန်စေသည်",
+          optionsEn: [
+            "Lowering the activation energy required",
+            "Raising the activation energy required",
+            "Increasing the temperature of the cell",
+            "Removing water from the reaction",
+          ],
+          optionsMy: [
+            "လိုအပ်သော Activation Energy ကို လျှော့ချခြင်း",
+            "လိုအပ်သော Activation Energy ကို တိုးမြှင့်ခြင်း",
+            "ဆဲလ်၏ အပူချိန်ကို တိုးမြှင့်ခြင်း",
+            "တုံ့ပြန်မှုမှ ရေကို ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12: "Factors Affecting Enzyme Activity and Inhibition"
+// (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek12 = CourseWeekDef(
+  id: "course-y12-bio-w12",
+  weekNumber: 12,
+  titleEn: "Factors Affecting Enzyme Activity and Inhibition",
+  titleMy: "Enzyme Activity ကို သက်ရောက်စေသော အချက်များနှင့် Inhibition",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w12-d1",
+      dayNumber: 1,
+      titleEn: "Temperature, pH and Concentration",
+      titleMy: "Temperature, pH နှင့် Concentration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "As temperature rises towards an enzyme's optimum, the rate of reaction generally...",
+          questionMy: "Temperature သည် Enzyme ၏ Optimum ဆီသို့ မြင့်တက်လာသည့်အခါ တုံ့ပြန်မှုနှုန်း ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Increases, because molecules move faster and collide more often",
+            "Always decreases",
+            "Stays exactly the same no matter what",
+            "Only changes if pH also changes",
+          ],
+          optionsMy: [
+            "မော်လီကျူးများ ပိုမြန်ဆန်စွာ ရွေ့လျားပြီး ပိုမကြာခဏ ပတ်တိုက်ကြသောကြောင့် တိုးလာသည်",
+            "အမြဲတမ်း လျော့ကျသည်",
+            "မည်သို့ပင်ဖြစ်ဖြစ် အတိအကျ တူညီနေသည်",
+            "pH ပါ ပြောင်းလဲမှသာ ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Higher temperature gives molecules more kinetic energy, so enzyme and substrate collide more frequently and successfully, up to the optimum.",
+          ],
+          hintsMy: [
+            "Temperature မြင့်တက်လျှင် မော်လီကျူးများတွင် Kinetic Energy ပိုများလာပြီး Enzyme နှင့် Substrate သည် Optimum အထိ ပိုမကြာခဏနှင့် အောင်မြင်စွာ ပတ်တိုက်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Above an enzyme's optimum temperature, the rate of reaction falls sharply mainly because the enzyme...",
+          questionMy: "Enzyme ၏ Optimum Temperature ထက် ပိုမြင့်လျှင် တုံ့ပြန်မှုနှုန်း ချက်ချင်း ကျဆင်းသွားရသည့်အကြောင်းရင်းမှာ Enzyme...",
+          optionsEn: [
+            "Denatures, as excess vibration breaks the hydrogen and ionic bonds holding its tertiary structure, changing the active site's shape",
+            "Freezes solid",
+            "Turns into a carbohydrate",
+            "Simply disappears completely",
+          ],
+          optionsMy: [
+            "Vibration အလွန်အကျွံကြောင့် Tertiary Structure ကို ထိန်းသိမ်းထားသော Hydrogen နှင့် Ionic Bond များ ပြတ်ကျပြီး Active Site ပုံသဏ္ဌာန် ပြောင်းလဲကာ Denature ဖြစ်သွားသည်",
+            "အခိုင်အဖြစ် ရေခဲသွားသည်",
+            "Carbohydrate အဖြစ် ပြောင်းလဲသည်",
+            "လုံးဝ ပျောက်ကွယ်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Denaturation permanently changes the active site's shape, so the substrate no longer fits -- this is different from simply slowing down.",
+          ],
+          hintsMy: [
+            "Denaturation က Active Site ပုံသဏ္ဌာန်ကို အမြဲတမ်း ပြောင်းလဲစေသောကြောင့် Substrate မကိုက်ညီတော့ပါ -- ၎င်းသည် ရိုးရိုးနှေးကွေးသွားခြင်းနှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When substrate concentration is increased while enzyme concentration stays fixed, the rate of reaction increases until...",
+          questionMy: "Enzyme Concentration တည်ငြိမ်နေစဉ် Substrate Concentration ကို တိုးမြှင့်လိုက်လျှင် တုံ့ပြန်မှုနှုန်းသည် ...အထိ တိုးလာသည်",
+          optionsEn: [
+            "All active sites are saturated with substrate, at which point the rate levels off",
+            "The temperature reaches 100°C",
+            "The pH becomes neutral",
+            "The enzyme turns into a different molecule",
+          ],
+          optionsMy: [
+            "Active Site အားလုံးသည် Substrate ဖြင့် Saturate ဖြစ်သွားသည်အထိ၊ ထိုနေရာတွင် နှုန်းသည် ညီညာသွားသည်",
+            "Temperature သည် 100°C ရောက်သည်အထိ",
+            "pH သည် Neutral ဖြစ်သွားသည်အထိ",
+            "Enzyme သည် မတူညီသော မော်လီကျူးအဖြစ် ပြောင်းလဲသည်အထိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Once every active site is occupied at any given moment, adding more substrate cannot speed the reaction up any further.",
+          ],
+          hintsMy: [
+            "မည်သည့်အချိန်၌မဆို Active Site အားလုံးကို Substrate ဖြင့် ပြည့်သွားပြီးသည်နှင့် Substrate ထပ်တိုးလိုက်သော်လည်း တုံ့ပြန်မှုကို ထပ်မမြန်ဆန်စေနိုင်တော့ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Enzyme Factors and Inhibition Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Enzyme Factor များနှင့် Inhibition ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w12-dm-1",
+          termEn: "Optimum temperature",
+          termMy: "Optimum Temperature",
+          matchEn: "The temperature at which an enzyme works fastest",
+          matchMy: "Enzyme အလျင်မြန်ဆုံး အလုပ်လုပ်သည့် Temperature",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w12-dm-2",
+          termEn: "Denaturation",
+          termMy: "Denaturation",
+          matchEn: "A permanent change in an enzyme's shape, often caused by heat or extreme pH",
+          matchMy: "အပူ (သို့) pH အလွန်အကျွံကြောင့် ဖြစ်တတ်သော Enzyme ပုံသဏ္ဌာန်၏ အမြဲတမ်း ပြောင်းလဲမှု",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w12-dm-3",
+          termEn: "Competitive inhibitor",
+          termMy: "ယှဉ်ပြိုင် Inhibitor (Competitive Inhibitor)",
+          matchEn: "A molecule similar in shape to the substrate that binds to the active site, blocking it",
+          matchMy: "Substrate နှင့် ပုံသဏ္ဌာန်ဆင်တူပြီး Active Site ကို ပိတ်ဆို့ချိတ်ဆက်သည့် မော်လီကျူး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w12-dm-4",
+          termEn: "Non-competitive inhibitor",
+          termMy: "မယှဉ်ပြိုင်သော Inhibitor (Non-competitive Inhibitor)",
+          matchEn: "A molecule that binds away from the active site, changing its shape indirectly",
+          matchMy: "Active Site နှင့် ဝေးသောနေရာတွင် ချိတ်ဆက်ပြီး ၎င်း၏ ပုံသဏ္ဌာန်ကို သွယ်ဝိုက်၍ ပြောင်းလဲစေသည့် မော်လီကျူး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w12-dm-5",
+          termEn: "Optimum pH",
+          termMy: "Optimum pH",
+          matchEn: "The pH at which an enzyme's active site holds its ideal shape and works fastest",
+          matchMy: "Enzyme ၏ Active Site သည် စံပြပုံသဏ္ဌာန်ကို ထိန်းသိမ်းပြီး အလျင်မြန်ဆုံး အလုပ်လုပ်သည့် pH",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Competitive or Non-Competitive Inhibitor?",
+      titleMy: "စီစစ်ကြမည် - Competitive သို့မဟုတ် Non-competitive Inhibitor?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Competitive Inhibitor", "Non-Competitive Inhibitor"],
+        bucketsMy: ["Competitive Inhibitor", "Non-competitive Inhibitor"],
+        items: [
+          SortingItem(
+            id: "y12bio-w12-sort-1",
+            labelEn: "Binds directly to the active site itself",
+            labelMy: "Active Site ကိုယ်တိုင်တွင် တိုက်ရိုက် ချိတ်ဆက်သည်",
+            correctBucketEn: "Competitive Inhibitor",
+            correctBucketMy: "Competitive Inhibitor",
+          ),
+          SortingItem(
+            id: "y12bio-w12-sort-2",
+            labelEn: "Its effect can be overcome by adding more substrate",
+            labelMy: "Substrate ပိုတိုးထည့်ခြင်းဖြင့် ၎င်း၏ ဩဇာကို ကျော်လွှားနိုင်သည်",
+            correctBucketEn: "Competitive Inhibitor",
+            correctBucketMy: "Competitive Inhibitor",
+          ),
+          SortingItem(
+            id: "y12bio-w12-sort-3",
+            labelEn: "Binds to a site away from the active site",
+            labelMy: "Active Site နှင့် ဝေးသောနေရာတွင် ချိတ်ဆက်သည်",
+            correctBucketEn: "Non-Competitive Inhibitor",
+            correctBucketMy: "Non-competitive Inhibitor",
+          ),
+          SortingItem(
+            id: "y12bio-w12-sort-4",
+            labelEn: "Its effect cannot be overcome no matter how much substrate is added",
+            labelMy: "Substrate မည်မျှ ထပ်တိုးထည့်သော်လည်း ၎င်း၏ ဩဇာကို ကျော်လွှား၍ မရနိုင်ပါ",
+            correctBucketEn: "Non-Competitive Inhibitor",
+            correctBucketMy: "Non-competitive Inhibitor",
+          ),
+          SortingItem(
+            id: "y12bio-w12-sort-5",
+            labelEn: "Is usually similar in shape to the normal substrate",
+            labelMy: "ပုံမှန် Substrate နှင့် ပုံသဏ္ဌာန် ပုံမှန်အားဖြင့် ဆင်တူသည်",
+            correctBucketEn: "Competitive Inhibitor",
+            correctBucketMy: "Competitive Inhibitor",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term's Final Investigation",
+      titleMy: "စာဖတ်ခြင်း - Term ၏ နောက်ဆုံး စုံစမ်းစစ်ဆေးမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term's Final Investigation",
+        titleMy: "Term ၏ နောက်ဆုံး စုံစမ်းစစ်ဆေးမှု",
+        passageEn:
+            "For the term's capstone practical, Sayar Zaw Min set the class a single investigation: measure how the rate of the enzyme catalase (which breaks down hydrogen peroxide into water and oxygen) changes across a range of temperatures, then explain the shape of the resulting graph using everything the term had covered.\n\nSu Su recorded the results and plotted them: the rate of oxygen production increased steadily from 10°C up to around 40°C, reaching a clear peak, and then collapsed sharply between 40°C and 60°C, with almost no reaction at all by 70°C. She explained the rising portion first -- as temperature increases, both enzyme and substrate molecules gain kinetic energy, moving faster and colliding more often and more successfully, which increases the rate of successful enzyme-substrate complex formation.\n\nHtet Aung then explained the peak and sudden collapse: 40°C was catalase's optimum temperature, where the balance between faster collisions and bond stability was best. Beyond that point, the excess vibrational energy in the molecule became too great for the hydrogen and ionic bonds holding catalase's tertiary structure together, and the enzyme denatured -- its active site's precise shape was permanently lost, so it could no longer bind hydrogen peroxide at all, regardless of how much substrate was added. \"That's the key difference from a simple traffic-jam type slowdown,\" Sayar Zaw Min reminded them. \"Denaturation isn't reversible, and it isn't about running out of active sites -- it's a structural change to the enzyme itself, all the way back to disrupted secondary and tertiary structure.\"",
+        passageMy:
+            "Term ၏ Capstone Practical အတွက် ဆရာဇော်မင်းသည် စုံစမ်းစစ်ဆေးမှု တစ်ခုတည်းကို အတန်းအား ပေးအပ်ခဲ့သည် - Hydrogen Peroxide ကို ရေနှင့် Oxygen အဖြစ် ချေဖျက်ပေးသော Catalase ဟု ခေါ်သော Enzyme ၏ နှုန်းသည် Temperature အတိုင်းအတာတစ်ခုတလျှောက် မည်သို့ ပြောင်းလဲသည်ကို တိုင်းတာပြီး Term အတွင်း လေ့လာခဲ့သမျှကို အသုံးပြု၍ ရလဒ်ဂရပ်၏ ပုံသဏ္ဌာန်ကို ရှင်းပြရန် ဖြစ်သည်။\n\nSu Su သည် ရလဒ်များကို မှတ်တမ်းတင်ပြီး ဂရပ်ဆွဲခဲ့သည် - Oxygen ထုတ်လုပ်မှုနှုန်းသည် 10°C မှ 40°C ခန့်အထိ တစ်တစ်ညီညီ တိုးလာပြီး ရှင်းလင်းသော ထိပ်ဆုံးအမှတ်သို့ ရောက်ရှိကာ 40°C နှင့် 60°C ကြားတွင် ရုတ်တရက် ကျဆင်းသွားကာ 70°C တွင် တုံ့ပြန်မှု ဟုမျှ မရှိသလောက် ဖြစ်နေခဲ့သည်။ တက်နေသော အပိုင်းကို သူ ဦးစွာ ရှင်းပြခဲ့သည် -- Temperature မြင့်တက်လာလေလေ Enzyme နှင့် Substrate မော်လီကျူးနှစ်ခုစလုံးသည် Kinetic Energy ရရှိလေ ပိုမြန်ဆန်စွာ ရွေ့လျားပြီး ပိုမကြာခဏနှင့် ပိုအောင်မြင်စွာ ပတ်တိုက်ကြကာ Enzyme-substrate Complex အောင်မြင်စွာ ဖွဲ့စည်းနှုန်း တိုးလာစေသည်။\n\nထိပ်ဆုံးအမှတ်နှင့် ရုတ်တရက် ကျဆင်းသွားမှုကို Htet Aung ဆက်လက် ရှင်းပြခဲ့သည် - 40°C သည် Catalase ၏ Optimum Temperature ဖြစ်ပြီး ပိုမြန်သော ပတ်တိုက်မှုနှင့် Bond တည်ငြိမ်မှုအကြား ဟန်ချက် အကောင်းဆုံး ဖြစ်သည့်နေရာ ဖြစ်သည်။ ထိုနေရာထက် ကျော်လွန်လျှင် မော်လီကျူးအတွင်းရှိ Vibrational Energy အလွန်အကျွံသည် Catalase ၏ Tertiary Structure ကို ထိန်းသိမ်းထားသော Hydrogen နှင့် Ionic Bond များအတွက် လွန်ကဲသွားပြီး Enzyme သည် Denature ဖြစ်သွားခဲ့သည် -- ၎င်း၏ Active Site တိကျသော ပုံသဏ္ဌာန်ကို အမြဲတမ်း ဆုံးရှုံးသွားခဲ့ပြီး Substrate မည်မျှ ထပ်တိုးထည့်သော်လည်း Hydrogen Peroxide ကို လုံးဝ ချိတ်ဆက်နိုင်တော့မည် မဟုတ်ပါ။ \"ဤသည်မှာ ရိုးရိုး Traffic-jam ပုံစံ နှေးကွေးသွားခြင်းနှင့် အဓိက ကွာခြားချက် ဖြစ်သည်\" ဟု ဆရာဇော်မင်းက ပြန်သတိပေးခဲ့သည် \"Denaturation သည် ပြန်ပြင်၍ မရနိုင်ပါ၊ ၎င်းသည် Active Site ကုန်သွားခြင်းနှင့် သက်ဆိုင်ခြင်းလည်း မဟုတ်ပါ -- ၎င်းသည် Secondary နှင့် Tertiary Structure ချိုးဖျက်ခံရသည်အထိ Enzyme ကိုယ်တိုင်၏ Structural ပြောင်းလဲမှု ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, at roughly what temperature did the reaction rate peak?",
+            questionMy:
+                "တုံ့ပြန်မှုနှုန်းသည် ခန့်မှန်း မည်သည့် Temperature တွင် ထိပ်ဆုံးအမှတ်သို့ ရောက်ရှိသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["40°C", "10°C", "70°C", "100°C"],
+            optionsMy: ["40°C", "10°C", "70°C", "100°C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description of the results."],
+            hintsMy: ["ရလဒ် ဖော်ပြချက်ကို ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's explanation, what happens to catalase's active site above the optimum temperature?",
+            questionMy:
+                "Optimum Temperature ထက် ပိုမြင့်သောအခါ Catalase ၏ Active Site တွင် အဘယ်ဖြစ်လာသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its precise shape is permanently lost through denaturation",
+              "It temporarily closes and reopens",
+              "It becomes more effective than before",
+              "It turns into a different type of enzyme",
+            ],
+            optionsMy: [
+              "Denaturation ကြောင့် တိကျသော ပုံသဏ္ဌာန်ကို အမြဲတမ်း ဆုံးရှုံးသွားသည်",
+              "ယာယီ ပိတ်ပြီး ပြန်ဖွင့်သည်",
+              "ယခင်ထက် ပိုထိရောက်လာသည်",
+              "မတူညီသော Enzyme အမျိုးအစားအဖြစ် ပြောင်းလဲသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's final remark, why is denaturation different from a simple slowdown?",
+            questionMy:
+                "Denaturation သည် ရိုးရိုး နှေးကွေးသွားခြင်းနှင့် အဘယ်ကြောင့် ကွာခြားသည်ကို ဆရာဇော်မင်း၏ နောက်ဆုံးစကားအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is a permanent structural change, not reversible by adding more substrate",
+              "It only affects carbohydrates",
+              "It happens instantly at any temperature",
+              "It makes the enzyme work faster",
+            ],
+            optionsMy: [
+              "Substrate ထပ်တိုးထည့်ခြင်းဖြင့် ပြန်ပြင်၍ မရနိုင်သော အမြဲတမ်း Structural ပြောင်းလဲမှု ဖြစ်သောကြောင့်",
+              "Carbohydrate ကိုသာ သက်ရောက်သောကြောင့်",
+              "Temperature မည်သို့ပင်ရှိစေ ချက်ချင်း ဖြစ်ပွားသောကြောင့်",
+              "Enzyme ကို ပိုမြန်ဆန်စွာ အလုပ်လုပ်စေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing sentence."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Enzyme Activity and Inhibition",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Enzyme Activity နှင့် Inhibition",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Denaturation is caused mainly by...",
+          questionMy: "Denaturation ကို အဓိက ...ကြောင့် ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Extreme temperature or pH",
+            "Adding more substrate",
+            "Cooling the enzyme slightly",
+            "Adding water only",
+          ],
+          optionsMy: [
+            "Temperature (သို့) pH အလွန်အကျွံ",
+            "Substrate ထပ်တိုးထည့်ခြင်း",
+            "Enzyme ကို အနည်းငယ် အအေးခံခြင်း",
+            "ရေသာ ထပ်တိုးထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A competitive inhibitor works by...",
+          questionMy: "Competitive Inhibitor သည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Binding to the active site, blocking the substrate",
+            "Binding far away from the enzyme entirely",
+            "Increasing the enzyme's temperature",
+            "Destroying the substrate directly",
+          ],
+          optionsMy: [
+            "Active Site တွင် ချိတ်ဆက်ပြီး Substrate ကို ပိတ်ဆို့ခြင်း",
+            "Enzyme နှင့် လုံးဝ ဝေးသောနေရာတွင် ချိတ်ဆက်ခြင်း",
+            "Enzyme ၏ Temperature ကို တိုးမြှင့်ခြင်း",
+            "Substrate ကို တိုက်ရိုက် ဖျက်ဆီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A non-competitive inhibitor's effect cannot be overcome by...",
+          questionMy: "Non-competitive Inhibitor ၏ ဩဇာကို ...ဖြင့် ကျော်လွှား၍ မရနိုင်ပါ",
+          optionsEn: [
+            "Adding more substrate",
+            "Lowering the temperature",
+            "Removing all water",
+            "Adding a second enzyme",
+          ],
+          optionsMy: [
+            "Substrate ထပ်တိုးထည့်ခြင်း",
+            "Temperature လျှော့ချခြင်း",
+            "ရေအားလုံးကို ဖယ်ရှားခြင်း",
+            "ဒုတိယ Enzyme ထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm3 = CourseTermDef(
+  id: "course-y12-bio-t3",
+  termNumber: 3,
+  titleEn: "Biological Molecules II: Proteins and Enzymes",
+  titleMy: "ဇီဝမော်လီကျူးများ II - Protein နှင့် Enzyme",
+  weeks: [_y12BioWeek9, _y12BioWeek10, _y12BioWeek11, _y12BioWeek12],
+  certificateTitleEn: "AS Biology: Biological Molecules II (Proteins and Enzymes)",
+  certificateTitleMy: "AS ဇီဝဗေဒ - ဇီဝမော်လီကျူးများ II (Protein နှင့် Enzyme)",
+);
