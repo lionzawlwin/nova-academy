@@ -19963,14 +19963,1249 @@ const CourseTermDef year12ChemistryTerm5 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Chemical Energetics",
 );
 
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 6: "Electrochemistry"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "Oxidation States"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek21 = CourseWeekDef(
+  id: "course-y12-chem-w21",
+  weekNumber: 21,
+  titleEn: "Oxidation States",
+  titleMy: "Oxidation States",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w21-d1",
+      dayNumber: 1,
+      titleEn: "Assigning Oxidation States",
+      titleMy: "Oxidation States သတ်မှတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The oxidation state of an uncombined element is always...",
+          questionMy: "Uncombined Element တစ်ခု၏ Oxidation State သည် အမြဲ...",
+          optionsEn: ["0", "+1", "-1", "It depends on the element"],
+          optionsMy: ["0", "+1", "-1", "Element ပေါ် မှီခိုသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The oxidation state of oxygen in most compounds is...",
+          questionMy: "Compound အများစုတွင် Oxygen ၏ Oxidation State သည်...",
+          optionsEn: ["-2", "+2", "-1", "0"],
+          optionsMy: ["-2", "+2", "-1", "0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the sulfate ion, SO4²⁻, the oxidation state of sulfur is...",
+          questionMy: "Sulfate Ion, SO4²⁻ တွင် Sulfur ၏ Oxidation State မှာ...",
+          optionsEn: ["+6", "+4", "-2", "+2"],
+          optionsMy: ["+6", "+4", "-2", "+2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen contributes 4 x (-2) = -8. Overall charge = -2, so S + (-8) = -2, giving S = +6.",
+          ],
+          hintsMy: [
+            "Oxygen က 4 x (-2) = -8 ပံ့ပိုးသည်။ Overall Charge = -2 ဖြစ်၍ S + (-8) = -2, S = +6ကို ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Oxidation State Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Oxidation State ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w21-dm-1",
+          termEn: "Oxidation state (oxidation number)",
+          termMy: "Oxidation State (Oxidation Number)",
+          matchEn:
+              "A number assigned to an atom showing the degree of oxidation, based on a set of assignment rules",
+          matchMy:
+              "Assignment Rule များအပေါ် အခြေခံ၍ Atom တစ်ခုသို့ သတ်မှတ်ထားသော Oxidation ဒီဂရီကို ပြသော ဂဏန်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w21-dm-2",
+          termEn: "Uncombined element",
+          termMy: "Uncombined Element",
+          matchEn: "Always has an oxidation state of 0, e.g. Na, O2, Cl2",
+          matchMy: "Oxidation State 0 အမြဲ ရှိသည်၊ ဥပမာ Na, O2, Cl2",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w21-dm-3",
+          termEn: "Oxygen in most compounds",
+          termMy: "Compound အများစုရှိ Oxygen",
+          matchEn:
+              "Usually has an oxidation state of -2, except in peroxides and with fluorine",
+          matchMy:
+              "Peroxide များနှင့် Fluorine ပါဝင်သည့်အခါမှလွဲ၍ Oxidation State -2 ပုံမှန် ရှိသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w21-dm-4",
+          termEn: "Hydrogen in most compounds",
+          termMy: "Compound အများစုရှိ Hydrogen",
+          matchEn:
+              "Usually has an oxidation state of +1, except in metal hydrides, where it is -1",
+          matchMy:
+              "Metal Hydride များတွင် -1 ဖြစ်သည့်အခါမှလွဲ၍ Oxidation State +1 ပုံမှန် ရှိသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w21-dm-5",
+          termEn: "Sum rule",
+          termMy: "Sum Rule",
+          matchEn:
+              "The sum of oxidation states in a neutral compound is 0; in an ion, it equals the ion's overall charge",
+          matchMy:
+              "Neutral Compound တစ်ခုရှိ Oxidation State ပေါင်းလဒ်သည် 0 ဖြစ်သည်; Ion တစ်ခုတွင် ၎င်း Ion ၏ Overall Charge နှင့် ညီမျှသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Positive or Negative Oxidation State?",
+      titleMy: "စီစစ်ကြမည် - Oxidation State Positive လား၊ Negative လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Positive Oxidation State", "Negative Oxidation State"],
+        bucketsMy: ["Positive Oxidation State", "Negative Oxidation State"],
+        items: [
+          SortingItem(
+            id: "y12chem-w21-sort-1",
+            labelEn: "Na in NaCl",
+            labelMy: "NaCl ထဲရှိ Na",
+            correctBucketEn: "Positive Oxidation State",
+            correctBucketMy: "Positive Oxidation State",
+          ),
+          SortingItem(
+            id: "y12chem-w21-sort-2",
+            labelEn: "Cl in NaCl",
+            labelMy: "NaCl ထဲရှိ Cl",
+            correctBucketEn: "Negative Oxidation State",
+            correctBucketMy: "Negative Oxidation State",
+          ),
+          SortingItem(
+            id: "y12chem-w21-sort-3",
+            labelEn: "H in HCl",
+            labelMy: "HCl ထဲရှိ H",
+            correctBucketEn: "Positive Oxidation State",
+            correctBucketMy: "Positive Oxidation State",
+          ),
+          SortingItem(
+            id: "y12chem-w21-sort-4",
+            labelEn: "O in H₂O",
+            labelMy: "H₂O ထဲရှိ O",
+            correctBucketEn: "Negative Oxidation State",
+            correctBucketMy: "Negative Oxidation State",
+          ),
+          SortingItem(
+            id: "y12chem-w21-sort-5",
+            labelEn: "Mg in MgO",
+            labelMy: "MgO ထဲရှိ Mg",
+            correctBucketEn: "Positive Oxidation State",
+            correctBucketMy: "Positive Oxidation State",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding Manganese's Oxidation State in Permanganate",
+      titleMy:
+          "စာဖတ်ခြင်း - Permanganate ထဲရှိ Manganese ၏ Oxidation State ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding Manganese's Oxidation State in Permanganate",
+        titleMy: "Permanganate ထဲရှိ Manganese ၏ Oxidation State ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Aung Myat Kyaw asked his class to find the oxidation state of manganese in the permanganate ion, MnO4⁻, a deep purple ion widely used in redox titrations. He reminded them of the two rules needed: oxygen is almost always -2, and the oxidation states in an ion must sum to the ion's overall charge.\n\nZayar Phone Myint worked through it systematically: there are four oxygen atoms, each -2, contributing 4 x (-2) = -8 in total. The ion's overall charge is -1, so the manganese oxidation state, x, must satisfy x + (-8) = -1, giving x = +7. Manganese in MnO4⁻ therefore has an unusually high oxidation state of +7.\n\nSayar Aung Myat Kyaw then asked Zayar Phone Myint to apply the same method to a second ion, dichromate, Cr2O7²⁻, which contains two chromium atoms rather than one. Zayar Phone Myint adjusted the method: seven oxygen atoms contribute 7 x (-2) = -14, and the overall charge is -2, so the combined oxidation state of both chromium atoms must satisfy 2x + (-14) = -2, giving 2x = +12, and therefore x = +6 for each chromium atom, since the formula's symmetry means both chromium atoms are treated as equivalent. Sayar Aung Myat Kyaw pointed out that both MnO4⁻ (Mn at +7) and Cr2O7²⁻ (Cr at +6) are strong oxidising agents used throughout redox chemistry precisely because these unusually high oxidation states are eager to fall to lower, more stable ones -- Mn²⁺ and Cr³⁺ -- by gaining electrons from whatever they react with.",
+        passageMy:
+            "Redox Titration များတွင် ကျယ်ပြန့်စွာ အသုံးပြုသော အနက်ရောင် ဆိုင်းရောင် Ion, MnO4⁻ ထဲရှိ Manganese ၏ Oxidation State ကို ရှာဖွေခိုင်းရန် Sayar အောင်မြတ်ကျော် သူ၏ အတန်းကို ခိုင်းစေခဲ့သည်။ လိုအပ်သော Rule နှစ်ခုကို သတိပေးခဲ့သည် - Oxygen သည် Almost အမြဲ -2 ဖြစ်ပြီး Ion တစ်ခုထဲရှိ Oxidation State များသည် Ion ၏ Overall Charge နှင့် ညီမျှရန် ပေါင်းလဒ်ရမည်။\n\nZayar Phone Myint သည် စနစ်တကျ ဖြေရှင်းခဲ့သည် - Oxygen Atom လေးခု ရှိပြီး တစ်ခုစီသည် -2 ဖြစ်ကာ 4 x (-2) = -8 စုစုပေါင်း ပံ့ပိုးသည်။ Ion ၏ Overall Charge သည် -1 ဖြစ်၍ Manganese Oxidation State, x, သည် x + (-8) = -1 ကို ကျေနပ်စေရမည်ဖြစ်ကာ x = +7 ကို ပေးသည်။ ထို့ကြောင့် MnO4⁻ ထဲရှိ Manganese သည် ထူးထူးဆန်းဆန်း မြင့်သော Oxidation State +7 ရှိသည်။\n\nတစ်ခုတည်း မဟုတ်ဘဲ Chromium Atom နှစ်ခု ပါဝင်သော Dichromate, Cr2O7²⁻ ဟူသော ဒုတိယ Ion သို့ နည်းလမ်းတူညီကို အသုံးချရန် Sayar အောင်မြတ်ကျော် ထို့နောက် Zayar Phone Myint ကို ခိုင်းစေခဲ့သည်။ Zayar Phone Myint သည် နည်းလမ်းကို ချိန်ညှိခဲ့သည် - Oxygen Atom ခုနစ်ခုသည် 7 x (-2) = -14 ပံ့ပိုးပြီး Overall Charge သည် -2 ဖြစ်၍ Chromium Atom နှစ်ခုစလုံး၏ ပေါင်းစည်းထားသော Oxidation State သည် 2x + (-14) = -2 ကို ကျေနပ်စေရမည်ဖြစ်ကာ 2x = +12 ကို ပေးပြီး Formula ၏ Symmetry က Chromium Atom နှစ်ခုစလုံးကို Equivalent ဟု ကိုင်တွယ်ကြောင့် Chromium Atom တစ်ခုစီအတွက် x = +6 ကို ပေးသည်။ MnO4⁻ (Mn at +7) နှင့် Cr2O7²⁻ (Cr at +6) နှစ်ခုစလုံးသည် ဤ ထူးထူးဆန်းဆန်း မြင့်သော Oxidation State များသည် ၎င်းတို့ တုံ့ပြန်သော အရာမည်သည့်တစ်ခုမှမဆို Electron ရယူ၍ ပို၍ တည်ငြိမ်သော Mn²⁺ နှင့် Cr³⁺ သို့ ကျဆင်းလိုသော လိုလားချက်ကြောင့် Redox Chemistry တစ်လျှောက်လုံးတွင် အသုံးပြုသော ခိုင်မာသော Oxidising Agent များ တိတိကျကျ ဖြစ်ကြောင်း Sayar အောင်မြတ်ကျော် ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is manganese's oxidation state in MnO4⁻?",
+            questionMy:
+                "MnO4⁻ ထဲရှိ Manganese ၏ Oxidation State ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["+7", "+6", "-1", "+4"],
+            optionsMy: ["+7", "+6", "-1", "+4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is chromium's oxidation state in Cr2O7²⁻?",
+            questionMy:
+                "Cr2O7²⁻ ထဲရှိ Chromium ၏ Oxidation State ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["+6", "+7", "+12", "-2"],
+            optionsMy: ["+6", "+7", "+12", "-2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why are MnO4⁻ and Cr2O7²⁻ strong oxidising agents?",
+            questionMy:
+                "MnO4⁻ နှင့် Cr2O7²⁻ ခိုင်မာသော Oxidising Agent များ ဖြစ်ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Their unusually high oxidation states readily gain electrons to fall to more stable, lower ones",
+              "They contain no oxygen atoms at all",
+              "They have no charge at all",
+              "They are always colourless",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ ထူးထူးဆန်းဆန်း မြင့်သော Oxidation State များသည် ပို၍ တည်ငြိမ်၊ ပို၍ နိမ့်သော Oxidation State များသို့ ကျဆင်းရန် Electron များကို လက်ခံစွာ ရယူသည်",
+              "Oxygen Atom လုံးဝ မပါဝင်ပါ",
+              "Charge လုံးဝ မရှိပါ",
+              "အမြဲ အရောင် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Oxidation States",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Oxidation States",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The oxidation states in a neutral compound must sum to...",
+          questionMy:
+              "Neutral Compound တစ်ခုရှိ Oxidation State များသည် ...သို့ ပေါင်းလဒ်ရမည်",
+          optionsEn: ["0", "+1", "-1", "The atomic number"],
+          optionsMy: ["0", "+1", "-1", "Atomic Number"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Hydrogen usually has an oxidation state of...",
+          questionMy: "Hydrogen သည် ပုံမှန် Oxidation State...",
+          optionsEn: ["+1", "-2", "0", "+7"],
+          optionsMy: ["+1", "-2", "0", "+7"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the nitrate ion, NO3⁻, the oxidation state of nitrogen is...",
+          questionMy:
+              "Nitrate Ion, NO3⁻ တွင် Nitrogen ၏ Oxidation State မှာ...",
+          optionsEn: ["+5", "+3", "-3", "+1"],
+          optionsMy: ["+5", "+3", "-3", "+1"],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen contributes 3 x (-2) = -6. Overall charge = -1, so N + (-6) = -1, giving N = +5.",
+          ],
+          hintsMy: [
+            "Oxygen က 3 x (-2) = -6 ပံ့ပိုးသည်။ Overall Charge = -1 ဖြစ်၍ N + (-6) = -1, N = +5ကို ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Redox Reactions and Electron Transfer"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek22 = CourseWeekDef(
+  id: "course-y12-chem-w22",
+  weekNumber: 22,
+  titleEn: "Redox Reactions and Electron Transfer",
+  titleMy: "Redox Reactions နှင့် Electron Transfer",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w22-d1",
+      dayNumber: 1,
+      titleEn: "Oxidation and Reduction as Electron Transfer",
+      titleMy: "Electron Transfer အဖြစ် Oxidation နှင့် Reduction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Oxidation is best described, in terms of electrons, as...",
+          questionMy: "Electron အရ Oxidation ကို အကောင်းဆုံး ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "Loss of electrons (OIL)",
+            "Gain of electrons",
+            "No change in electrons at all",
+            "Loss of protons",
+          ],
+          optionsMy: [
+            "Electron ဆုံးရှုံးခြင်း (OIL)",
+            "Electron ရရှိခြင်း",
+            "Electron ပြောင်းလဲမှု လုံးဝ မရှိပါ",
+            "Proton ဆုံးရှုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Reduction is best described, in terms of electrons, as...",
+          questionMy: "Electron အရ Reduction ကို အကောင်းဆုံး ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "Gain of electrons (RIG)",
+            "Loss of electrons",
+            "No change in electrons at all",
+            "Gain of protons",
+          ],
+          optionsMy: [
+            "Electron ရရှိခြင်း (RIG)",
+            "Electron ဆုံးရှုံးခြင်း",
+            "Electron ပြောင်းလဲမှု လုံးဝ မရှိပါ",
+            "Proton ရရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the reaction Zn + Cu²⁺ -> Zn²⁺ + Cu, zinc is...",
+          questionMy: "Reaction Zn + Cu²⁺ -> Zn²⁺ + Cu တွင် Zinc သည်...",
+          optionsEn: [
+            "Oxidised, since its oxidation state rises from 0 to +2",
+            "Reduced, since its oxidation state falls",
+            "Unchanged throughout the reaction",
+            "Acting as an oxidising agent",
+          ],
+          optionsMy: [
+            "Oxidised, ၎င်း၏ Oxidation State သည် 0 မှ +2 သို့ တက်လာသောကြောင့်",
+            "Reduced, ၎င်း၏ Oxidation State ကျဆင်းသောကြောင့်",
+            "Reaction တစ်လျှောက်လုံး မပြောင်းလဲပါ",
+            "Oxidising Agent အဖြစ် လုပ်ဆောင်နေသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Redox Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Redox ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w22-dm-1",
+          termEn: "Oxidation",
+          termMy: "Oxidation",
+          matchEn: "Loss of electrons, or an increase in oxidation state (OIL)",
+          matchMy:
+              "Electron ဆုံးရှုံးခြင်း (သို့) Oxidation State တိုးလာခြင်း (OIL)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w22-dm-2",
+          termEn: "Reduction",
+          termMy: "Reduction",
+          matchEn: "Gain of electrons, or a decrease in oxidation state (RIG)",
+          matchMy:
+              "Electron ရရှိခြင်း (သို့) Oxidation State လျော့ကျခြင်း (RIG)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w22-dm-3",
+          termEn: "Redox reaction",
+          termMy: "Redox Reaction",
+          matchEn:
+              "A reaction in which oxidation and reduction occur simultaneously",
+          matchMy:
+              "Oxidation နှင့် Reduction တစ်ပြိုင်နက် ဖြစ်ပေါ်သော Reaction",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w22-dm-4",
+          termEn: "Half-equation",
+          termMy: "Half-Equation",
+          matchEn:
+              "An equation showing only the oxidation or only the reduction part of a redox reaction, including electrons",
+          matchMy:
+              "Redox Reaction ၏ Oxidation (သို့) Reduction Part တစ်ခုတည်းကိုသာ ပြသော Equation၊ Electron ပါဝင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w22-dm-5",
+          termEn: "Disproportionation",
+          termMy: "Disproportionation",
+          matchEn:
+              "A redox reaction where the same element is simultaneously oxidised and reduced",
+          matchMy:
+              "Element တူညီတစ်ခု တစ်ပြိုင်နက် Oxidise နှင့် Reduce ဖြစ်သော Redox Reaction",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Oxidation or Reduction?",
+      titleMy: "စီစစ်ကြမည် - Oxidation သို့မဟုတ် Reduction",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Oxidation", "Reduction"],
+        bucketsMy: ["Oxidation", "Reduction"],
+        items: [
+          SortingItem(
+            id: "y12chem-w22-sort-1",
+            labelEn: "Fe²⁺ -> Fe³⁺ (oxidation state +2 to +3)",
+            labelMy: "Fe²⁺ -> Fe³⁺ (Oxidation State +2 မှ +3)",
+            correctBucketEn: "Oxidation",
+            correctBucketMy: "Oxidation",
+          ),
+          SortingItem(
+            id: "y12chem-w22-sort-2",
+            labelEn: "Cu²⁺ -> Cu (oxidation state +2 to 0)",
+            labelMy: "Cu²⁺ -> Cu (Oxidation State +2 မှ 0)",
+            correctBucketEn: "Reduction",
+            correctBucketMy: "Reduction",
+          ),
+          SortingItem(
+            id: "y12chem-w22-sort-3",
+            labelEn: "Cl₂ -> 2Cl⁻ (oxidation state 0 to -1)",
+            labelMy: "Cl₂ -> 2Cl⁻ (Oxidation State 0 မှ -1)",
+            correctBucketEn: "Reduction",
+            correctBucketMy: "Reduction",
+          ),
+          SortingItem(
+            id: "y12chem-w22-sort-4",
+            labelEn: "Zn -> Zn²⁺ (oxidation state 0 to +2)",
+            labelMy: "Zn -> Zn²⁺ (Oxidation State 0 မှ +2)",
+            correctBucketEn: "Oxidation",
+            correctBucketMy: "Oxidation",
+          ),
+          SortingItem(
+            id: "y12chem-w22-sort-5",
+            labelEn: "MnO4⁻ -> Mn²⁺ (oxidation state +7 to +2)",
+            labelMy: "MnO4⁻ -> Mn²⁺ (Oxidation State +7 မှ +2)",
+            correctBucketEn: "Reduction",
+            correctBucketMy: "Reduction",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Splitting a Redox Reaction into Half-Equations",
+      titleMy:
+          "စာဖတ်ခြင်း - Redox Reaction ကို Half-Equations အဖြစ် ခွဲခြမ်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Splitting a Redox Reaction into Half-Equations",
+        titleMy: "Redox Reaction ကို Half-Equations အဖြစ် ခွဲခြမ်းခြင်း",
+        passageEn:
+            "Sayama Nandar Win placed a strip of zinc metal into a blue copper sulfate solution and asked her class to describe what they observed: the blue colour faded, and a reddish-brown deposit of copper formed on the zinc strip. She asked the class to write the overall equation, Zn + Cu²⁺ -> Zn²⁺ + Cu, and then to split it into its two half-equations.\n\nZayar Phone Myint identified the oxidation half first: zinc atoms lose two electrons each to become zinc ions, written as Zn -> Zn²⁺ + 2e⁻. Since electrons appear on the right-hand side, being produced, this confirms zinc is being oxidised, matching the fading of the blue colour as Cu²⁺ ions are removed from solution and zinc ions take their place.\n\nFor the reduction half, Zayar Phone Myint reasoned that copper ions must be gaining the electrons zinc loses: Cu²⁺ + 2e⁻ -> Cu, with electrons appearing on the left-hand side, being consumed. This matches the reddish-brown copper metal depositing on the strip.\n\nSayama Nandar Win then asked why, when the two half-equations are added together, the electrons must always cancel out exactly. Zayar Phone Myint explained that electrons cannot simply appear or disappear during a reaction -- every electron lost by zinc must be gained by a copper ion, since there is nowhere else for it to go. Adding Zn -> Zn²⁺ + 2e⁻ and Cu²⁺ + 2e⁻ -> Cu together, the 2e⁻ on each side cancels exactly, leaving the original overall equation, Zn + Cu²⁺ -> Zn²⁺ + Cu -- confirming that the two half-equations really were two halves of the same underlying electron transfer.",
+        passageMy:
+            "Sayama နန္ဒာဝင်း သည် Zinc Metal အစင်းတစ်ခုကို အပြာရောင် Copper Sulfate Solution ထဲသို့ ချထားပြီး တွေ့ရှိချက်များကို ဖော်ပြခိုင်းခဲ့သည် - အပြာရောင် ဖျော့သွားပြီး Zinc အစင်းပေါ်တွင် အနီညိုရောင် Copper အနည် ဖြစ်ပေါ်လာသည်။ Overall Equation, Zn + Cu²⁺ -> Zn²⁺ + Cu ကို ရေးသားပြီး Half-Equation နှစ်ခုအဖြစ် ခွဲခြမ်းခိုင်းခဲ့သည်။\n\nZayar Phone Myint သည် Oxidation Half ကို ဦးစွာ ဖော်ထုတ်ခဲ့သည် - Zinc Atom တစ်ခုစီသည် Electron နှစ်ခု ဆုံးရှုံးကာ Zinc Ion ဖြစ်လာသည်၊ Zn -> Zn²⁺ + 2e⁻ ဟု ရေးသားသည်။ Electron များသည် ညာဘက် Side တွင် ပေါ်လာပြီး Produce ဖြစ်နေသောကြောင့် ၎င်းသည် Zinc သည် Oxidise ဖြစ်နေကြောင်း အတည်ပြုသည်၊ Cu²⁺ Ion များ Solution မှ ဖယ်ရှားခံရပြီး Zinc Ion များ ၎င်းတို့နေရာယူသော Blue Colour ဖျော့သွားခြင်းနှင့် ကိုက်ညီသည်။\n\nReduction Half အတွက် Copper Ion များသည် Zinc ဆုံးရှုံးသော Electron များကို ရယူနေရမည်ဟု Zayar Phone Myint ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Cu²⁺ + 2e⁻ -> Cu, Electron များသည် ဘယ်ဘက် Side တွင် ပေါ်လာပြီး Consume ဖြစ်နေသည်။ ၎င်းသည် အစင်းပေါ်တွင် အနီညိုရောင် Copper Metal အနည် ဖြစ်ပေါ်လာခြင်းနှင့် ကိုက်ညီသည်။\n\nHalf-Equation နှစ်ခုကို ပေါင်းစည်းချိန် Electron များသည် အဘယ့်ကြောင့် အမြဲ အတိအကျ ချေဖျက်ရသည်ကို Sayama နန္ဒာဝင်း ထို့နောက် မေးမြန်းခဲ့သည်။ Reaction တစ်ခုအတွင်း Electron များသည် ရိုးရှင်းစွာ ပေါ်လာ (သို့) ပျောက်ကွယ်၍ မရကြောင်း Zayar Phone Myint ရှင်းပြခဲ့သည် -- Zinc ဆုံးရှုံးသော Electron တိုင်းသည် Copper Ion တစ်ခုက ရယူရမည်ဖြစ်ပြီး ၎င်းသွားရန် အခြားနေရာ လုံးဝ မရှိပါ။ Zn -> Zn²⁺ + 2e⁻ နှင့် Cu²⁺ + 2e⁻ -> Cu ကို အတူတကွ ပေါင်းစည်းခြင်းက ဘက်နှစ်ဖက်ရှိ 2e⁻ ကို အတိအကျ ချေဖျက်ပြီး မူလ Overall Equation, Zn + Cu²⁺ -> Zn²⁺ + Cu ကို ကျန်ရစ်စေသည် -- Half-Equation နှစ်ခုသည် Electron Transfer နောက်ကွယ် တူညီ၏ တစ်ဝက်စီ တကယ် ဖြစ်ကြောင်း အတည်ပြုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the oxidation half-equation?",
+            questionMy: "Oxidation Half-Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Zn -> Zn²⁺ + 2e⁻",
+              "Cu²⁺ + 2e⁻ -> Cu",
+              "Zn²⁺ + 2e⁻ -> Zn",
+              "Cu -> Cu²⁺ + 2e⁻",
+            ],
+            optionsMy: [
+              "Zn -> Zn²⁺ + 2e⁻",
+              "Cu²⁺ + 2e⁻ -> Cu",
+              "Zn²⁺ + 2e⁻ -> Zn",
+              "Cu -> Cu²⁺ + 2e⁻",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the reduction half-equation?",
+            questionMy: "Reduction Half-Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cu²⁺ + 2e⁻ -> Cu",
+              "Zn -> Zn²⁺ + 2e⁻",
+              "Cu -> Cu²⁺ + 2e⁻",
+              "Zn²⁺ -> Zn + 2e⁻",
+            ],
+            optionsMy: [
+              "Cu²⁺ + 2e⁻ -> Cu",
+              "Zn -> Zn²⁺ + 2e⁻",
+              "Cu -> Cu²⁺ + 2e⁻",
+              "Zn²⁺ -> Zn + 2e⁻",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why must electrons cancel when half-equations are combined?",
+            questionMy:
+                "Half-Equation များ ပေါင်းစည်းချိန် Electron များ အဘယ့်ကြောင့် ချေဖျက်ရသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every electron lost by one species must be gained by another",
+              "Electrons are always destroyed during a reaction",
+              "Half-equations never actually combine correctly",
+              "Zinc contains no electrons at all",
+            ],
+            optionsMy: [
+              "Species တစ်ခုက ဆုံးရှုံးသော Electron တိုင်းသည် အခြားတစ်ခုက ရယူရမည်",
+              "Electron များသည် Reaction အတွင်း အမြဲ ဖျက်ဆီးခံရသည်",
+              "Half-Equation များသည် ဘယ်တော့မှ တကယ် မှန်ကန်စွာ မပေါင်းစည်းနိုင်ပါ",
+              "Zinc တွင် Electron လုံးဝ မပါဝင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Redox and Electron Transfer",
+      titleMy:
+          "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Redox and Electron Transfer",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "OIL RIG stands for...",
+          questionMy: "OIL RIG ကိုယ်စားပြုသည်မှာ...",
+          optionsEn: [
+            "Oxidation Is Loss, Reduction Is Gain",
+            "Oxygen Is Lost, Reduction Involves Gas",
+            "Oxidation Involves Loss of oxygen only",
+            "Oxidation Is Large, Reduction Is Great",
+          ],
+          optionsMy: [
+            "Oxidation Is Loss, Reduction Is Gain",
+            "Oxygen Is Lost, Reduction Involves Gas",
+            "Oxidation Involves Loss of Oxygen တစ်ခုတည်း",
+            "Oxidation Is Large, Reduction Is Great",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A half-equation shows...",
+          questionMy: "Half-Equation တစ်ခုသည် ...ကို ပြသည်",
+          optionsEn: [
+            "Only the oxidation or only the reduction part of a redox reaction",
+            "The entire reaction, including both halves at once",
+            "No electrons at all",
+            "Only spectator ions",
+          ],
+          optionsMy: [
+            "Redox Reaction ၏ Oxidation (သို့) Reduction Part တစ်ခုတည်းကိုသာ",
+            "Half နှစ်ခုစလုံး တစ်ပြိုင်နက် ပါဝင်သော Reaction တစ်ခုလုံး",
+            "Electron လုံးဝ မပါဝင်ပါ",
+            "Spectator Ion တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a redox reaction, if one species loses 3 electrons, another species must gain...",
+          questionMy:
+              "Redox Reaction တစ်ခုတွင် Species တစ်ခု Electron 3 ခု ဆုံးရှုံးပါက အခြား Species တစ်ခု ...ရယူရမည်",
+          optionsEn: [
+            "3 electrons",
+            "1 electron only",
+            "6 electrons always",
+            "No electrons at all",
+          ],
+          optionsMy: [
+            "Electron 3 ခု",
+            "Electron 1 ခုတည်း",
+            "Electron 6 ခု အမြဲ",
+            "Electron လုံးဝ မရယူရပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "Balancing Redox Equations and Oxidising/Reducing Agents"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek23 = CourseWeekDef(
+  id: "course-y12-chem-w23",
+  weekNumber: 23,
+  titleEn: "Balancing Redox Equations and Oxidising/Reducing Agents",
+  titleMy: "Balancing Redox Equations and Oxidising/Reducing Agents",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w23-d1",
+      dayNumber: 1,
+      titleEn: "Oxidising and Reducing Agents",
+      titleMy: "Oxidising and Reducing Agents",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An oxidising agent is a substance that...",
+          questionMy: "Oxidising Agent ဆိုသည်မှာ...",
+          optionsEn: [
+            "Oxidises another substance by accepting electrons from it, and is itself reduced",
+            "Reduces another substance and is itself oxidised",
+            "Never takes part in a redox reaction",
+            "Always contains no oxygen at all",
+          ],
+          optionsMy: [
+            "Electron ကို လက်ခံရယူ၍ အခြားတစ်ခုကို Oxidise ပြုလုပ်ပြီး ၎င်းကိုယ်တိုင် Reduce ဖြစ်သွားသည်",
+            "အခြားတစ်ခုကို Reduce ပြုလုပ်ပြီး ၎င်းကိုယ်တိုင် Oxidise ဖြစ်သွားသည်",
+            "Redox Reaction တွင် ဘယ်တော့မှ ပါဝင်ခြင်း မရှိပါ",
+            "Oxygen လုံးဝ မပါဝင်ဘဲ အမြဲ ရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A reducing agent is a substance that...",
+          questionMy: "Reducing Agent ဆိုသည်မှာ...",
+          optionsEn: [
+            "Reduces another substance by donating electrons to it, and is itself oxidised",
+            "Oxidises another substance and is itself reduced",
+            "Never takes part in a redox reaction",
+            "Always contains no hydrogen at all",
+          ],
+          optionsMy: [
+            "Electron ကို လှူဒါန်း၍ အခြားတစ်ခုကို Reduce ပြုလုပ်ပြီး ၎င်းကိုယ်တိုင် Oxidise ဖြစ်သွားသည်",
+            "အခြားတစ်ခုကို Oxidise ပြုလုပ်ပြီး ၎င်းကိုယ်တိုင် Reduce ဖြစ်သွားသည်",
+            "Redox Reaction တွင် ဘယ်တော့မှ ပါဝင်ခြင်း မရှိပါ",
+            "Hydrogen လုံးဝ မပါဝင်ဘဲ အမြဲ ရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To combine two half-equations with different numbers of electrons, you must...",
+          questionMy:
+              "Electron အရေအတွက် မတူညီသော Half-Equation နှစ်ခုကို ပေါင်းစည်းရန်...",
+          optionsEn: [
+            "Multiply each half-equation by a factor so the electron numbers match, then add them together",
+            "Simply add them together without any changes",
+            "Delete the electrons from both equations first",
+            "Only use the equation with fewer electrons",
+          ],
+          optionsMy: [
+            "Half-Equation တစ်ခုစီကို Electron အရေအတွက် ကိုက်ညီအောင် Factor တစ်ခုဖြင့် မြှောက်ပြီး အတူတကွ ပေါင်းစည်းရမည်",
+            "ပြောင်းလဲမှု မည်သည့်တစ်ခုမျှ မရှိဘဲ ရိုးရှင်းစွာ ပေါင်းစည်းရမည်",
+            "Equation နှစ်ခုစလုံးမှ Electron များကို ဦးစွာ ဖျက်ပစ်ရမည်",
+            "Electron နည်းသော Equation ကိုသာ အသုံးပြုရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Balancing Redox Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Balancing Redox ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w23-dm-1",
+          termEn: "Oxidising agent",
+          termMy: "Oxidising Agent",
+          matchEn:
+              "A substance that oxidises another by accepting electrons from it, and is itself reduced",
+          matchMy:
+              "Electron ကို လက်ခံရယူ၍ အခြားတစ်ခုကို Oxidise ပြုလုပ်ပြီး ၎င်းကိုယ်တိုင် Reduce ဖြစ်သွားသော Substance",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w23-dm-2",
+          termEn: "Reducing agent",
+          termMy: "Reducing Agent",
+          matchEn:
+              "A substance that reduces another by donating electrons to it, and is itself oxidised",
+          matchMy:
+              "Electron ကို လှူဒါန်း၍ အခြားတစ်ခုကို Reduce ပြုလုပ်ပြီး ၎င်းကိုယ်တိုင် Oxidise ဖြစ်သွားသော Substance",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w23-dm-3",
+          termEn: "Balancing half-equations",
+          termMy: "Balancing Half-Equations",
+          matchEn:
+              "Multiplying each half-equation so electron numbers match before combining them",
+          matchMy:
+              "ပေါင်းစည်းမီ Electron အရေအတွက် ကိုက်ညီစေရန် Half-Equation တစ်ခုစီကို မြှောက်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w23-dm-4",
+          termEn: "Ionic equation",
+          termMy: "Ionic Equation",
+          matchEn:
+              "An equation showing only the species that actually change during a reaction, omitting spectator ions",
+          matchMy:
+              "Reaction အတွင်း တကယ် ပြောင်းလဲသော Species များကိုသာ ပြသော Equation၊ Spectator Ion များကို ချန်လှပ်ထားသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w23-dm-5",
+          termEn: "Spectator ion",
+          termMy: "Spectator Ion",
+          matchEn:
+              "An ion present in a reaction mixture that takes no part in the actual reaction",
+          matchMy:
+              "Reaction Mixture ထဲတွင် ရှိနေသော်လည်း တကယ့် Reaction တွင် ပါဝင်ခြင်း မရှိသော Ion",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Oxidising Agent or Reducing Agent?",
+      titleMy: "စီစစ်ကြမည် - Oxidising Agent သို့မဟုတ် Reducing Agent",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Oxidising Agent", "Reducing Agent"],
+        bucketsMy: ["Oxidising Agent", "Reducing Agent"],
+        items: [
+          SortingItem(
+            id: "y12chem-w23-sort-1",
+            labelEn: "MnO4⁻ in acidified potassium manganate(VII)",
+            labelMy: "Acidified Potassium Manganate(VII) ထဲရှိ MnO4⁻",
+            correctBucketEn: "Oxidising Agent",
+            correctBucketMy: "Oxidising Agent",
+          ),
+          SortingItem(
+            id: "y12chem-w23-sort-2",
+            labelEn: "Zinc metal in a displacement reaction",
+            labelMy: "Displacement Reaction ထဲရှိ Zinc Metal",
+            correctBucketEn: "Reducing Agent",
+            correctBucketMy: "Reducing Agent",
+          ),
+          SortingItem(
+            id: "y12chem-w23-sort-3",
+            labelEn: "Cl₂ in a halogen displacement reaction",
+            labelMy: "Halogen Displacement Reaction ထဲရှိ Cl₂",
+            correctBucketEn: "Oxidising Agent",
+            correctBucketMy: "Oxidising Agent",
+          ),
+          SortingItem(
+            id: "y12chem-w23-sort-4",
+            labelEn: "Fe²⁺ ions reacting with MnO4⁻",
+            labelMy: "MnO4⁻ နှင့် တုံ့ပြန်နေသော Fe²⁺ Ion",
+            correctBucketEn: "Reducing Agent",
+            correctBucketMy: "Reducing Agent",
+          ),
+          SortingItem(
+            id: "y12chem-w23-sort-5",
+            labelEn: "H₂O₂ acting as an oxidiser",
+            labelMy: "Oxidiser အဖြစ် လုပ်ဆောင်နေသော H₂O₂",
+            correctBucketEn: "Oxidising Agent",
+            correctBucketMy: "Oxidising Agent",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Balancing the Permanganate-Iron Half-Equations",
+      titleMy: "စာဖတ်ခြင်း - Permanganate-Iron Half-Equations ချိန်ညှိခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Balancing the Permanganate-Iron Half-Equations",
+        titleMy: "Permanganate-Iron Half-Equations ချိန်ညှိခြင်း",
+        passageEn:
+            "Sayar Aung Myat Kyaw gave his class two half-equations for a classic redox titration: the reduction of acidified permanganate, MnO4⁻ + 8H⁺ + 5e⁻ -> Mn²⁺ + 4H2O, and the oxidation of iron(II), Fe²⁺ -> Fe³⁺ + e⁻. He asked them to combine these into a single balanced ionic equation.\n\nHsu Wai Yan noticed immediately that the two half-equations couldn't simply be added: the permanganate half-equation involves 5 electrons, while the iron half-equation involves only 1. Adding them directly would leave electrons uncancelled on one side, which is never allowed in a correctly balanced redox equation.\n\nTo fix this, Hsu Wai Yan multiplied the entire iron half-equation by 5, so that both half-equations involved the same number of electrons: 5Fe²⁺ -> 5Fe³⁺ + 5e⁻. Multiplying every species in a half-equation by the same factor doesn't change what it represents chemically -- it just scales up the amount of reaction being described, five iron atoms reacting instead of one.\n\nWith both half-equations now containing 5 electrons, Hsu Wai Yan added them together: MnO4⁻ + 8H⁺ + 5e⁻ + 5Fe²⁺ -> Mn²⁺ + 4H2O + 5Fe³⁺ + 5e⁻, and the 5e⁻ on each side cancelled exactly, leaving the final balanced ionic equation: MnO4⁻ + 8H⁺ + 5Fe²⁺ -> Mn²⁺ + 4H2O + 5Fe³⁺. Sayar Aung Myat Kyaw pointed out that the 1:5 ratio between MnO4⁻ and Fe²⁺ in this equation is exactly what makes permanganate titrations useful for finding unknown Fe²⁺ concentrations -- every mole of permanganate used up accounts for precisely five moles of iron(II) reacted.",
+        passageMy:
+            "Redox Titration Classic တစ်ခုအတွက် Half-Equation နှစ်ခုကို Sayar အောင်မြတ်ကျော် သူ၏ အတန်းကို ပေးခဲ့သည် - Acidified Permanganate ၏ Reduction, MnO4⁻ + 8H⁺ + 5e⁻ -> Mn²⁺ + 4H2O နှင့် Iron(II) ၏ Oxidation, Fe²⁺ -> Fe³⁺ + e⁻ ။ ၎င်းတို့ကို Balanced Ionic Equation တစ်ခုတည်းအဖြစ် ပေါင်းစည်းခိုင်းခဲ့သည်။\n\nHsu Wai Yan သည် Half-Equation နှစ်ခုကို ရိုးရိုး ပေါင်းစည်း၍ မရကြောင်း ချက်ချင်း သတိပြုမိခဲ့သည် - Permanganate Half-Equation တွင် Electron 5 ခု ပါဝင်ပြီး Iron Half-Equation တွင် Electron 1 ခုသာ ပါဝင်သည်။ ၎င်းတို့ကို တိုက်ရိုက် ပေါင်းစည်းပါက Side တစ်ခုတွင် Electron များ ချေဖျက်ခံရခြင်း မရှိဘဲ ကျန်ရစ်လိမ့်မည်ဖြစ်ပြီး ၎င်းသည် မှန်ကန်စွာ Balance ပြုလုပ်ထားသော Redox Equation တစ်ခုတွင် ဘယ်တော့မှ ခွင့်မပြုပါ။\n\n၎င်းကို ဖြေရှင်းရန် Half-Equation နှစ်ခုစလုံးတွင် Electron အရေအတွက် တူညီပါဝင်စေရန် Hsu Wai Yan သည် Iron Half-Equation တစ်ခုလုံးကို 5 ဖြင့် မြှောက်ခဲ့သည် - 5Fe²⁺ -> 5Fe³⁺ + 5e⁻ ။ Half-Equation ထဲရှိ Species တိုင်းကို Factor တူညီဖြင့် မြှောက်ခြင်းက Chemically ကိုယ်စားပြုသည့် အရာကို မပြောင်းလဲစေပါ -- ၎င်းသည် ဖော်ပြထားသော Reaction ၏ ပမာဏကို ချဲ့ထွင်ပေးရုံသာ ဖြစ်ပြီး Iron Atom တစ်ခု အစား ငါးခု တုံ့ပြန်ခြင်း ဖြစ်သည်။\n\nHalf-Equation နှစ်ခုစလုံးတွင် ယခု Electron 5 ခု ပါဝင်နေသဖြင့် Hsu Wai Yan ၎င်းတို့ကို အတူတကွ ပေါင်းစည်းခဲ့သည် - MnO4⁻ + 8H⁺ + 5e⁻ + 5Fe²⁺ -> Mn²⁺ + 4H2O + 5Fe³⁺ + 5e⁻, ဘက်နှစ်ဖက်ရှိ 5e⁻ ကို အတိအကျ ချေဖျက်ပြီး နောက်ဆုံး Balanced Ionic Equation ကျန်ရစ်စေသည် - MnO4⁻ + 8H⁺ + 5Fe²⁺ -> Mn²⁺ + 4H2O + 5Fe³⁺ ။ ဤ Equation ထဲရှိ MnO4⁻ နှင့် Fe²⁺ ကြား 1:5 Ratio သည် Permanganate Titration များကို အမည်မသိ Fe²⁺ Concentration ရှာဖွေရန် အသုံးဝင်စေသော အချက် တိတိကျကျ ဖြစ်ကြောင်း Sayar အောင်မြတ်ကျော် ထောက်ပြခဲ့သည် -- Permanganate Mole တိုင်းသုံးစွဲသည်နှင့် Iron(II) Mole ငါးခု တုံ့ပြန်ကြောင်း အတိအကျ ဖော်ပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many electrons does the permanganate half-equation involve?",
+            questionMy:
+                "Permanganate Half-Equation တွင် Electron မည်မျှ ပါဝင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5", "1", "8", "4"],
+            optionsMy: ["5", "1", "8", "4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what factor is the iron half-equation multiplied by?",
+            questionMy:
+                "Iron Half-Equation ကို Factor မည်မျှဖြင့် မြှောက်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5", "1", "8", "4"],
+            optionsMy: ["5", "1", "8", "4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what is the reacting ratio of MnO4⁻ to Fe²⁺?",
+            questionMy:
+                "MnO4⁻ နှင့် Fe²⁺ ၏ Reacting Ratio ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1:5", "5:1", "1:1", "8:5"],
+            optionsMy: ["1:5", "5:1", "1:1", "8:5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's ratio."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ Ratio ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Balancing Redox Equations",
+      titleMy:
+          "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Balancing Redox Equations",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An oxidising agent is itself...",
+          questionMy: "Oxidising Agent သည် ကိုယ်တိုင်...",
+          optionsEn: [
+            "Reduced",
+            "Oxidised",
+            "Unchanged",
+            "Destroyed completely",
+          ],
+          optionsMy: [
+            "Reduce ဖြစ်သွားသည်",
+            "Oxidise ဖြစ်သွားသည်",
+            "မပြောင်းလဲပါ",
+            "လုံးဝ ဖျက်ဆီးခံရသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Before combining two half-equations, you must first ensure...",
+          questionMy:
+              "Half-Equation နှစ်ခုကို ပေါင်းစည်းမီ ဦးစွာ သေချာစေရမည်မှာ...",
+          optionsEn: [
+            "The number of electrons in each half-equation matches",
+            "Both half-equations have the same number of atoms of every element already",
+            "One half-equation is deleted",
+            "The overall charge is always zero",
+          ],
+          optionsMy: [
+            "Half-Equation တစ်ခုစီရှိ Electron အရေအတွက် ကိုက်ညီခြင်း",
+            "Half-Equation နှစ်ခုစလုံးတွင် Element တိုင်း၏ Atom အရေအတွက် ပြီးသားတူညီခြင်း",
+            "Half-Equation တစ်ခု ဖျက်ပစ်ထားခြင်း",
+            "Overall Charge သည် အမြဲ Zero ဖြစ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A spectator ion is an ion that...",
+          questionMy: "Spectator Ion ဆိုသည်မှာ...",
+          optionsEn: [
+            "Takes no part in the actual reaction",
+            "Is always oxidised",
+            "Is always reduced",
+            "Cannot exist in solution",
+          ],
+          optionsMy: [
+            "တကယ့် Reaction တွင် ပါဝင်ခြင်း မရှိသော Ion",
+            "အမြဲ Oxidise ဖြစ်သည်",
+            "အမြဲ Reduce ဖြစ်သည်",
+            "Solution ထဲတွင် လုံးဝ မတည်ရှိနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24: "Electrochemistry Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek24 = CourseWeekDef(
+  id: "course-y12-chem-w24",
+  weekNumber: 24,
+  titleEn: "Electrochemistry Capstone",
+  titleMy: "Electrochemistry အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w24-d1",
+      dayNumber: 1,
+      titleEn: "Combining Oxidation States, Redox and Balancing",
+      titleMy: "Oxidation States, Redox နှင့် Balancing ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the chromate ion, CrO4²⁻, the oxidation state of chromium is...",
+          questionMy:
+              "Chromate Ion, CrO4²⁻ တွင် Chromium ၏ Oxidation State မှာ...",
+          optionsEn: ["+6", "+7", "+4", "+2"],
+          optionsMy: ["+6", "+7", "+4", "+2"],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen contributes 4 x (-2) = -8. Overall charge = -2, so Cr + (-8) = -2, giving Cr = +6.",
+          ],
+          hintsMy: [
+            "Oxygen က 4 x (-2) = -8 ပံ့ပိုးသည်။ Overall Charge = -2 ဖြစ်၍ Cr + (-8) = -2, Cr = +6 ကို ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reaction Mg + 2H⁺ -> Mg²⁺ + H2, the reducing agent is...",
+          questionMy:
+              "Reaction Mg + 2H⁺ -> Mg²⁺ + H2 တွင် Reducing Agent မှာ...",
+          optionsEn: ["Mg", "H⁺", "Mg²⁺", "H2"],
+          optionsMy: ["Mg", "H⁺", "Mg²⁺", "H2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A half-equation involving 2 electrons is combined with one involving 3 electrons. To balance electron numbers, you multiply by...",
+          questionMy:
+              "Electron 2 ခု ပါဝင်သော Half-Equation တစ်ခုကို Electron 3 ခု ပါဝင်သော တစ်ခုနှင့် ပေါင်းစည်းသည်။ Electron အရေအတွက် Balance ပြုလုပ်ရန် ...ဖြင့် မြှောက်ရမည်",
+          optionsEn: [
+            "3 for the first equation and 2 for the second",
+            "2 for both equations",
+            "5 for both equations",
+            "There is no way to balance them",
+          ],
+          optionsMy: [
+            "ပထမ Equation ကို 3 ဖြင့်၊ ဒုတိယကို 2 ဖြင့်",
+            "Equation နှစ်ခုစလုံးကို 2 ဖြင့်",
+            "Equation နှစ်ခုစလုံးကို 5 ဖြင့်",
+            "Balance ပြုလုပ်ရန် နည်းလမ်း လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Multiplying 2 by 3 and 3 by 2 both give 6 electrons, the lowest common multiple.",
+          ],
+          hintsMy: [
+            "2 ကို 3 ဖြင့်နှင့် 3 ကို 2 ဖြင့် မြှောက်ခြင်းက Electron 6 ခု၊ Lowest Common Multiple ကို နှစ်ခုစလုံး ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 6 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၆ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w24-dm-1",
+          termEn: "Oxidation state sum in a neutral compound",
+          termMy: "Neutral Compound တစ်ခုရှိ Oxidation State Sum",
+          matchEn: "0",
+          matchMy: "0",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w24-dm-2",
+          termEn: "OIL",
+          termMy: "OIL",
+          matchEn: "Oxidation Is Loss (of electrons)",
+          matchMy: "Oxidation Is Loss (Electron)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w24-dm-3",
+          termEn: "RIG",
+          termMy: "RIG",
+          matchEn: "Reduction Is Gain (of electrons)",
+          matchMy: "Reduction Is Gain (Electron)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w24-dm-4",
+          termEn: "Oxidising agent",
+          termMy: "Oxidising Agent",
+          matchEn: "Accepts electrons, is itself reduced",
+          matchMy: "Electron ကို လက်ခံရယူ၍ ကိုယ်တိုင် Reduce ဖြစ်သွားသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w24-dm-5",
+          termEn: "Combining half-equations requires",
+          termMy: "Half-Equation များ ပေါင်းစည်းရန် လိုအပ်သည်",
+          matchEn: "Matching electron numbers first",
+          matchMy: "Electron အရေအတွက် ဦးစွာ ကိုက်ညီခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Oxidation States or Redox Equations/Agents?",
+      titleMy: "စီစစ်ကြမည် - Oxidation States သို့မဟုတ် Redox Equations/Agents",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Oxidation States", "Redox Equations/Agents"],
+        bucketsMy: ["Oxidation States", "Redox Equations/Agents"],
+        items: [
+          SortingItem(
+            id: "y12chem-w24-sort-1",
+            labelEn: "Assigning a number to an atom based on a set of rules",
+            labelMy: "Rule များပေါ် အခြေခံ၍ Atom တစ်ခုသို့ ဂဏန်း သတ်မှတ်ခြင်း",
+            correctBucketEn: "Oxidation States",
+            correctBucketMy: "Oxidation States",
+          ),
+          SortingItem(
+            id: "y12chem-w24-sort-2",
+            labelEn: "Multiplying half-equations so electron numbers match",
+            labelMy:
+                "Electron အရေအတွက် ကိုက်ညီစေရန် Half-Equation များကို မြှောက်ခြင်း",
+            correctBucketEn: "Redox Equations/Agents",
+            correctBucketMy: "Redox Equations/Agents",
+          ),
+          SortingItem(
+            id: "y12chem-w24-sort-3",
+            labelEn: "Oxygen is almost always -2 in a compound",
+            labelMy: "Compound တစ်ခုတွင် Oxygen သည် Almost အမြဲ -2 ဖြစ်သည်",
+            correctBucketEn: "Oxidation States",
+            correctBucketMy: "Oxidation States",
+          ),
+          SortingItem(
+            id: "y12chem-w24-sort-4",
+            labelEn:
+                "A reducing agent donates electrons and is itself oxidised",
+            labelMy:
+                "Reducing Agent တစ်ခုသည် Electron လှူဒါန်းပြီး ကိုယ်တိုင် Oxidise ဖြစ်သွားသည်",
+            correctBucketEn: "Redox Equations/Agents",
+            correctBucketMy: "Redox Equations/Agents",
+          ),
+          SortingItem(
+            id: "y12chem-w24-sort-5",
+            labelEn: "The oxidation states in an ion sum to its overall charge",
+            labelMy:
+                "Ion တစ်ခုရှိ Oxidation State များသည် ၎င်း၏ Overall Charge သို့ ပေါင်းလဒ်သည်",
+            correctBucketEn: "Oxidation States",
+            correctBucketMy: "Oxidation States",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding an Unknown Concentration by Redox Titration",
+      titleMy:
+          "စာဖတ်ခြင်း - Redox Titration ဖြင့် အမည်မသိ Concentration ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding an Unknown Concentration by Redox Titration",
+        titleMy: "Redox Titration ဖြင့် အမည်မသိ Concentration ရှာဖွေခြင်း",
+        passageEn:
+            "For their Term 6 capstone, Sayama Nandar Win's class combined the balanced ionic equation from earlier in the term, MnO4⁻ + 8H⁺ + 5Fe²⁺ -> Mn²⁺ + 4H2O + 5Fe³⁺, with the mole and concentration calculations from much earlier in the course to find an unknown concentration. A 25.0 cm³ sample of Fe²⁺ solution of unknown concentration was titrated against 0.0200 mol dm⁻³ potassium manganate(VII), KMnO4, requiring exactly 24.0 cm³ to reach the end point.\n\nMin Khant Zaw started with the titrant, since both its concentration and volume were known: moles of MnO4⁻ = concentration x volume = 0.0200 x (24.0 / 1000) = 0.0200 x 0.0240 = 4.80 x 10⁻⁴ mol.\n\nUsing the 1:5 ratio between MnO4⁻ and Fe²⁺ shown in the balanced equation, Min Khant Zaw scaled up: moles of Fe²⁺ = 5 x (4.80 x 10⁻⁴) = 2.40 x 10⁻³ mol.\n\nFinally, dividing moles by the Fe²⁺ solution's own volume in dm³ gave the concentration: concentration = 2.40 x 10⁻³ / (25.0 / 1000) = 2.40 x 10⁻³ / 0.0250 = 0.0960 mol dm⁻³. Sayama Nandar Win closed the capstone by pointing out that this single calculation drew on the entire term's redox chemistry -- correctly balancing a redox equation with a 1:5 electron-matched ratio -- while also reaching all the way back to the very first stoichiometry calculations of the course, since a titration is ultimately just a mole ratio problem with a colour change standing in for the reaction's endpoint.",
+        passageMy:
+            "သူတို့၏ Term 6 အထွတ်အထိပ်အတွက် Sayama နန္ဒာဝင်း ၏ အတန်းသည် Term အစောပိုင်းက Balanced Ionic Equation, MnO4⁻ + 8H⁺ + 5Fe²⁺ -> Mn²⁺ + 4H2O + 5Fe³⁺ ကို Course အစောပိုင်းများစွာက Mole နှင့် Concentration တွက်ချက်မှုများနှင့် ပေါင်းစပ်ကာ အမည်မသိ Concentration တစ်ခု ရှာဖွေခဲ့ကြသည်။ Concentration အမည်မသိရှိသော Fe²⁺ Solution 25.0 cm³ ကို Potassium Manganate(VII), KMnO4 0.0200 mol dm⁻³ နှင့် Titrate လုပ်ခဲ့ပြီး End Point သို့ ရောက်ရန် 24.0 cm³ အတိအကျ လိုအပ်ခဲ့သည်။\n\nMin Khant Zaw သည် Concentration နှင့် Volume နှစ်ခုစလုံး သိရှိထားသော Titrant ဖြင့် စတင်ခဲ့သည် - MnO4⁻ Mole = Concentration x Volume = 0.0200 x (24.0 / 1000) = 0.0200 x 0.0240 = 4.80 x 10⁻⁴ mol ။\n\nBalanced Equation ထဲတွင် ပြသထားသော MnO4⁻ နှင့် Fe²⁺ ကြား 1:5 Ratio ကို အသုံးပြု၍ Min Khant Zaw ချဲ့ထွင်ခဲ့သည် - Fe²⁺ Mole = 5 x (4.80 x 10⁻⁴) = 2.40 x 10⁻³ mol ။\n\nနောက်ဆုံးတွင် Mole ကို Fe²⁺ Solution ကိုယ်ပိုင် Volume dm³ ဖြင့် စားခြင်းက Concentration ကို ပေးသည် - Concentration = 2.40 x 10⁻³ / (25.0 / 1000) = 2.40 x 10⁻³ / 0.0250 = 0.0960 mol dm⁻³ ။ ဤ တွက်ချက်မှု တစ်ခုတည်းသည် Redox Equation တစ်ခုကို 1:5 Electron-Matched Ratio ဖြင့် မှန်ကန်စွာ Balance ပြုလုပ်ခြင်း -- Term တစ်ခုလုံး၏ Redox Chemistry ကို အသုံးချခဲ့ပြီး Titration တစ်ခုသည် Reaction ၏ End Point ကို အစားထိုးသော အရောင်ပြောင်းလဲမှုတစ်ခုပါဝင်သော Mole Ratio ပြဿနာတစ်ခု သာ အဆုံးတွင် ဖြစ်သောကြောင့် Course ၏ ပထမဆုံး Stoichiometry တွက်ချက်မှုများသို့ပါ ပြန်ရောက်ကြောင်း Sayama နန္ဒာဝင်း ထောက်ပြလျက် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many moles of MnO4⁻ were used?",
+            questionMy:
+                "MnO4⁻ မည်မျှ Mole အသုံးပြုခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "4.80 x 10⁻⁴ mol",
+              "2.40 x 10⁻³ mol",
+              "0.0960 mol",
+              "0.0200 mol",
+            ],
+            optionsMy: [
+              "4.80 x 10⁻⁴ mol",
+              "2.40 x 10⁻³ mol",
+              "0.0960 mol",
+              "0.0200 mol",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many moles of Fe²⁺ were present?",
+            questionMy: "Fe²⁺ မည်မျှ Mole ရှိခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "2.40 x 10⁻³ mol",
+              "4.80 x 10⁻⁴ mol",
+              "0.0960 mol",
+              "1.20 x 10⁻³ mol",
+            ],
+            optionsMy: [
+              "2.40 x 10⁻³ mol",
+              "4.80 x 10⁻⁴ mol",
+              "0.0960 mol",
+              "1.20 x 10⁻³ mol",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the concentration of the Fe²⁺ solution?",
+            questionMy: "Fe²⁺ Solution ၏ Concentration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0.0960 mol dm⁻³",
+              "0.0200 mol dm⁻³",
+              "2.40 mol dm⁻³",
+              "4.80 mol dm⁻³",
+            ],
+            optionsMy: [
+              "0.0960 mol dm⁻³",
+              "0.0200 mol dm⁻³",
+              "2.40 mol dm⁻³",
+              "4.80 mol dm⁻³",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's final calculation."],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w24-d5",
+      dayNumber: 5,
+      titleEn: "Term 6 Capstone: Electrochemistry",
+      titleMy: "Term ၆ အထွတ်အထိပ် - Electrochemistry",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The oxidation state of an uncombined element is always...",
+          questionMy: "Uncombined Element တစ်ခု၏ Oxidation State သည် အမြဲ...",
+          optionsEn: ["0", "+1", "-1", "+7"],
+          optionsMy: ["0", "+1", "-1", "+7"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Oxidation involves...",
+          questionMy: "Oxidation တွင် ပါဝင်သည်မှာ...",
+          optionsEn: [
+            "Loss of electrons",
+            "Gain of electrons",
+            "No change in electrons",
+            "Loss of neutrons",
+          ],
+          optionsMy: [
+            "Electron ဆုံးရှုံးခြင်း",
+            "Electron ရရှိခြင်း",
+            "Electron ပြောင်းလဲမှု မရှိခြင်း",
+            "Neutron ဆုံးရှုံးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An oxidising agent is itself...",
+          questionMy: "Oxidising Agent သည် ကိုယ်တိုင်...",
+          optionsEn: ["Reduced", "Oxidised", "Unchanged", "Destroyed"],
+          optionsMy: [
+            "Reduce ဖြစ်သွားသည်",
+            "Oxidise ဖြစ်သွားသည်",
+            "မပြောင်းလဲပါ",
+            "ဖျက်ဆီးခံရသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining half-equations with different electron numbers requires...",
+          questionMy:
+              "Electron အရေအတွက် မတူညီသော Half-Equation များ ပေါင်းစည်းရန် လိုအပ်သည်မှာ...",
+          optionsEn: [
+            "Multiplying each equation so electron numbers match",
+            "Deleting one equation entirely",
+            "Ignoring the electrons completely",
+            "Using only the oxidation half-equation",
+          ],
+          optionsMy: [
+            "Electron အရေအတွက် ကိုက်ညီစေရန် Equation တစ်ခုစီကို မြှောက်ခြင်း",
+            "Equation တစ်ခုကို လုံးဝ ဖျက်ပစ်ခြင်း",
+            "Electron များကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Oxidation Half-Equation တစ်ခုတည်းသာ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm6 = CourseTermDef(
+  id: "course-y12-chem-term6",
+  termNumber: 6,
+  titleEn: "Electrochemistry",
+  titleMy: "Electrochemistry",
+  weeks: [_y12ChemWeek21, _y12ChemWeek22, _y12ChemWeek23, _y12ChemWeek24],
+  certificateTitleEn: "AS Chemistry: Electrochemistry",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Electrochemistry",
+);
+
 /// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-5 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
-/// Bonding; States of Matter; Chemical Energetics) authored; Terms 6-9
-/// (Electrochemistry; Equilibria; Reaction Kinetics; The Periodic Table
-/// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
-/// renderer exists in this app -- formulas throughout use the same
-/// plain Unicode math notation (², √, x for multiplication) already
-/// established by the IGCSE pathways, not literal LaTeX markup.
+/// 1-6 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
+/// Bonding; States of Matter; Chemical Energetics; Electrochemistry)
+/// authored; Terms 7-9 (Equilibria; Reaction Kinetics; The Periodic
+/// Table -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No
+/// LaTeX renderer exists in this app -- formulas throughout use the
+/// same plain Unicode math notation (², √, x for multiplication)
+/// already established by the IGCSE pathways, not literal LaTeX markup.
 const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
   id: "course-year12-chemistry",
   subject: "chemistry",
@@ -19981,12 +21216,13 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 20,
+  totalWeeks: 24,
   terms: [
     year12ChemistryTerm1,
     year12ChemistryTerm2,
     year12ChemistryTerm3,
     year12ChemistryTerm4,
     year12ChemistryTerm5,
+    year12ChemistryTerm6,
   ],
 );
