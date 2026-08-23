@@ -18668,10 +18668,1305 @@ const CourseTermDef year12ChemistryTerm4 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - States of Matter",
 );
 
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 5: "Chemical Energetics"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Enthalpy Change and Calorimetry"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek17 = CourseWeekDef(
+  id: "course-y12-chem-w17",
+  weekNumber: 17,
+  titleEn: "Enthalpy Change and Calorimetry",
+  titleMy: "Enthalpy Change နှင့် Calorimetry",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w17-d1",
+      dayNumber: 1,
+      titleEn: "Exothermic, Endothermic and Calorimetry",
+      titleMy: "Exothermic, Endothermic နှင့် Calorimetry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An exothermic reaction is one in which...",
+          questionMy: "Exothermic Reaction ဆိုသည်မှာ...",
+          optionsEn: [
+            "Energy is transferred from the system to the surroundings, so ΔH is negative",
+            "Energy is transferred from the surroundings to the system, so ΔH is positive",
+            "No energy is transferred at all",
+            "Mass is destroyed to create energy",
+          ],
+          optionsMy: [
+            "Energy ကို System မှ Surroundings သို့ ကူးပြောင်းသောကြောင့် ΔH သည် Negative ဖြစ်သည်",
+            "Energy ကို Surroundings မှ System သို့ ကူးပြောင်းသောကြောင့် ΔH သည် Positive ဖြစ်သည်",
+            "Energy လုံးဝ မကူးပြောင်းပါ",
+            "Energy ဖန်တီးရန် Mass ဖျက်ဆီးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An endothermic reaction is one in which...",
+          questionMy: "Endothermic Reaction ဆိုသည်မှာ...",
+          optionsEn: [
+            "Energy is transferred from the surroundings to the system, so ΔH is positive",
+            "Energy is transferred from the system to the surroundings, so ΔH is negative",
+            "The temperature always stays exactly constant",
+            "No bonds are broken or formed",
+          ],
+          optionsMy: [
+            "Energy ကို Surroundings မှ System သို့ ကူးပြောင်းသောကြောင့် ΔH သည် Positive ဖြစ်သည်",
+            "Energy ကို System မှ Surroundings သို့ ကူးပြောင်းသောကြောင့် ΔH သည် Negative ဖြစ်သည်",
+            "Temperature သည် အတိအကျ တူညီဆဲ အမြဲ ရှိနေသည်",
+            "Bond မည်သည့်တစ်ခုမျှ ချိုးဖျက် (သို့) ဖွဲ့စည်းခြင်း မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "100 g of water is heated from 20°C to 45°C (c = 4.18 J g⁻¹ K⁻¹). The heat energy absorbed is...",
+          questionMy:
+              "ရေ 100 g ကို 20°C မှ 45°C အထိ ပူနွေးစေသည် (c = 4.18 J g⁻¹ K⁻¹) ။ စုပ်ယူသော Heat Energy မှာ...",
+          optionsEn: ["10450 J", "418 J", "4180 J", "104.5 J"],
+          optionsMy: ["10450 J", "418 J", "4180 J", "104.5 J"],
+          correctIndex: 0,
+          hintsEn: ["q = mcΔT = 100 x 4.18 x 25 = 10450 J."],
+          hintsMy: ["q = mcΔT = 100 x 4.18 x 25 = 10450 J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Energetics Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Energetics ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w17-dm-1",
+          termEn: "Enthalpy change (ΔH)",
+          termMy: "Enthalpy Change (ΔH)",
+          matchEn:
+              "The heat energy transferred at constant pressure, measured in kJ mol⁻¹",
+          matchMy:
+              "Constant Pressure တွင် ကူးပြောင်းသော Heat Energy၊ kJ mol⁻¹ ဖြင့် တိုင်းတာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w17-dm-2",
+          termEn: "Exothermic",
+          termMy: "Exothermic",
+          matchEn:
+              "A reaction that releases energy to the surroundings, ΔH is negative",
+          matchMy:
+              "Surroundings သို့ Energy ထုတ်လွှတ်သော Reaction, ΔH သည် Negative",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w17-dm-3",
+          termEn: "Endothermic",
+          termMy: "Endothermic",
+          matchEn:
+              "A reaction that absorbs energy from the surroundings, ΔH is positive",
+          matchMy: "Surroundings မှ Energy စုပ်ယူသော Reaction, ΔH သည် Positive",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w17-dm-4",
+          termEn: "Specific heat capacity (c)",
+          termMy: "Specific Heat Capacity (c)",
+          matchEn:
+              "The energy required to raise the temperature of 1 g of a substance by 1 K",
+          matchMy:
+              "Substance 1 g ၏ Temperature ကို 1 K တိုးမြှင့်ရန် လိုအပ်သော Energy",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w17-dm-5",
+          termEn: "Calorimetry",
+          termMy: "Calorimetry",
+          matchEn:
+              "The experimental technique of measuring heat changes during a reaction",
+          matchMy:
+              "Reaction တစ်ခုအတွင်း Heat Change ကို တိုင်းတာသော Experimental Technique",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Exothermic or Endothermic?",
+      titleMy: "စီစစ်ကြမည် - Exothermic သို့မဟုတ် Endothermic",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Exothermic", "Endothermic"],
+        bucketsMy: ["Exothermic", "Endothermic"],
+        items: [
+          SortingItem(
+            id: "y12chem-w17-sort-1",
+            labelEn: "Combustion of a fuel",
+            labelMy: "Fuel တစ်ခု၏ Combustion",
+            correctBucketEn: "Exothermic",
+            correctBucketMy: "Exothermic",
+          ),
+          SortingItem(
+            id: "y12chem-w17-sort-2",
+            labelEn: "Thermal decomposition of calcium carbonate",
+            labelMy: "Calcium Carbonate ၏ Thermal Decomposition",
+            correctBucketEn: "Endothermic",
+            correctBucketMy: "Endothermic",
+          ),
+          SortingItem(
+            id: "y12chem-w17-sort-3",
+            labelEn: "Neutralisation of an acid and a base",
+            labelMy: "Acid နှင့် Base ၏ Neutralisation",
+            correctBucketEn: "Exothermic",
+            correctBucketMy: "Exothermic",
+          ),
+          SortingItem(
+            id: "y12chem-w17-sort-4",
+            labelEn: "Photosynthesis",
+            labelMy: "Photosynthesis",
+            correctBucketEn: "Endothermic",
+            correctBucketMy: "Endothermic",
+          ),
+          SortingItem(
+            id: "y12chem-w17-sort-5",
+            labelEn: "Respiration",
+            labelMy: "Respiration",
+            correctBucketEn: "Exothermic",
+            correctBucketMy: "Exothermic",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring the Enthalpy of Neutralisation",
+      titleMy: "စာဖတ်ခြင်း - Neutralisation Enthalpy တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring the Enthalpy of Neutralisation",
+        titleMy: "Neutralisation Enthalpy တိုင်းတာခြင်း",
+        passageEn:
+            "Sayar Zayar Lin Htet's class mixed 25 cm³ of 1.0 mol dm⁻³ hydrochloric acid with 25 cm³ of 1.0 mol dm⁻³ sodium hydroxide solution in an insulated cup, and measured the temperature before and after mixing: it rose from 20.0°C to 26.5°C. He asked them to find the molar enthalpy change of neutralisation.\n\nThiha Zaw treated the combined 50 cm³ of solution as if it were 50 g of water, using the approximation that a dilute aqueous solution has roughly the same density and specific heat capacity as pure water (c = 4.18 J g⁻¹ K⁻¹). The temperature rise was 26.5 - 20.0 = 6.5°C (or equivalently, 6.5 K). Heat released: q = mcΔT = 50 x 4.18 x 6.5 = 1358.5 J, or 1.3585 kJ.\n\nTo convert this into a molar enthalpy change, Thiha Zaw needed the number of moles of water actually produced by the reaction, HCl + NaOH -> NaCl + H2O. Since both solutions had the same concentration (1.0 mol dm⁻³) and the same volume (25 cm³ = 0.025 dm³), they contained exactly equal amounts, 1.0 x 0.025 = 0.025 mol each, with a 1:1 reacting ratio -- so exactly 0.025 mol of water was formed.\n\nDividing heat released by moles of water formed: ΔH = -q / n = -1.3585 / 0.025 = -54.3 kJ mol⁻¹ (negative, since the reaction released heat -- energy left the system). Sayar Zayar Lin Htet noted that this value is close to the accepted enthalpy of neutralisation for a strong acid and strong base, around -57 kJ mol⁻¹, with the small difference explained by heat losses to the insulated cup and surrounding air that a real, imperfectly insulated experiment can never fully eliminate.",
+        passageMy:
+            "Sayar ဇေယျာလင်းထက် ၏ အတန်းသည် Hydrochloric Acid 1.0 mol dm⁻³ 25 cm³ ကို Sodium Hydroxide Solution 1.0 mol dm⁻³ 25 cm³ နှင့် Insulated Cup ထဲတွင် ရောနှောခဲ့ပြီး ရောနှောမီနှင့် ရောနှောပြီးနောက် Temperature ကို တိုင်းတာခဲ့သည် - 20.0°C မှ 26.5°C သို့ တက်လာသည်။ Molar Enthalpy Change of Neutralisation ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nThiha Zaw သည် ပေါင်းစည်းထားသော Solution 50 cm³ ကို ရေ 50 g ကဲ့သို့ ယူဆကာ Dilute Aqueous Solution တစ်ခုသည် Pure Water (c = 4.18 J g⁻¹ K⁻¹) နှင့် ခန့်မှန်းခြေ Density နှင့် Specific Heat Capacity တူညီသည်ဟု Approximation ကို အသုံးပြုခဲ့သည်။ Temperature Rise သည် 26.5 - 20.0 = 6.5°C (သို့မဟုတ် 6.5 K နှင့် ညီမျှသည်) ဖြစ်သည်။ ထုတ်လွှတ်သော Heat - q = mcΔT = 50 x 4.18 x 6.5 = 1358.5 J သို့မဟုတ် 1.3585 kJ ။\n\n၎င်းကို Molar Enthalpy Change သို့ ပြောင်းလဲရန် Thiha Zaw သည် Reaction, HCl + NaOH -> NaCl + H2O မှ တကယ် ထုတ်လုပ်ခဲ့သော ရေ Mole အရေအတွက် လိုအပ်ခဲ့သည်။ Solution နှစ်ခုစလုံးသည် Concentration တူညီ (1.0 mol dm⁻³) နှင့် Volume တူညီ (25 cm³ = 0.025 dm³) ရှိသောကြောင့် တစ်ခုစီ Amount အတိအကျ တူညီ, 1.0 x 0.025 = 0.025 mol ပါဝင်ပြီး Reacting Ratio 1:1 ဖြစ်သောကြောင့် -- ရေ 0.025 mol အတိအကျ ဖြစ်ပေါ်ခဲ့သည်။\n\nထုတ်လွှတ်သော Heat ကို ဖြစ်ပေါ်ခဲ့သော ရေ Mole ဖြင့် စားခြင်း - ΔH = -q / n = -1.3585 / 0.025 = -54.3 kJ mol⁻¹ (Negative, Reaction က Heat ထုတ်လွှတ်ခဲ့သောကြောင့် -- Energy သည် System မှ ထွက်ခွာသွားခဲ့သည်)။ ဤ တန်ဖိုးသည် ခိုင်မာသော Acid နှင့် ခိုင်မာသော Base အတွက် လက်ခံထားသော Neutralisation Enthalpy ခန့်မှန်းခြေ -57 kJ mol⁻¹ နှင့် နီးစပ်ကြောင်း Sayar ဇေယျာလင်းထက် သတိပြုခဲ့ပြီး သေးငယ်သော ကွာခြားချက်ကို တကယ့်၊ အပြည့်အစုံ Insulate မလုပ်ထားသော Experiment တစ်ခုသည် လုံးဝ ဖယ်ရှား၍ မရနိုင်သော Insulated Cup နှင့် ပတ်ဝန်းကျင် လေထဲသို့ Heat ဆုံးရှုံးမှုဖြင့် ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the temperature rise?",
+            questionMy: "Temperature Rise ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["6.5°C", "20.0°C", "26.5°C", "46.5°C"],
+            optionsMy: ["6.5°C", "20.0°C", "26.5°C", "46.5°C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, how much heat was released?",
+            questionMy: "ထုတ်လွှတ်သော Heat ပမာဏကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1358.5 J", "50 J", "6.5 J", "4.18 J"],
+            optionsMy: ["1358.5 J", "50 J", "6.5 J", "4.18 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the molar enthalpy change of neutralisation found?",
+            questionMy:
+                "ရှာတွေ့ရှိသော Molar Enthalpy Change of Neutralisation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "-54.3 kJ mol⁻¹",
+              "-57 kJ mol⁻¹",
+              "+54.3 kJ mol⁻¹",
+              "-1.3585 kJ mol⁻¹",
+            ],
+            optionsMy: [
+              "-54.3 kJ mol⁻¹",
+              "-57 kJ mol⁻¹",
+              "+54.3 kJ mol⁻¹",
+              "-1.3585 kJ mol⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's final calculation."],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Enthalpy and Calorimetry",
+      titleMy: "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Enthalpy and Calorimetry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Heat energy transferred is calculated as...",
+          questionMy: "ကူးပြောင်းသော Heat Energy ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: ["q = mcΔT", "q = m + cΔT", "q = m / cΔT", "q = mΔT / c"],
+          optionsMy: ["q = mcΔT", "q = m + cΔT", "q = m / cΔT", "q = mΔT / c"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In an exothermic reaction, ΔH is...",
+          questionMy: "Exothermic Reaction တစ်ခုတွင် ΔH သည်...",
+          optionsEn: [
+            "Negative",
+            "Positive",
+            "Always exactly zero",
+            "Undefined",
+          ],
+          optionsMy: ["Negative", "Positive", "အမြဲ Zero အတိအကျ", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "50 g of water is heated from 25°C to 40°C (c = 4.18 J g⁻¹ K⁻¹). The heat absorbed is...",
+          questionMy:
+              "ရေ 50 g ကို 25°C မှ 40°C အထိ ပူနွေးစေသည် (c = 4.18 J g⁻¹ K⁻¹) ။ စုပ်ယူသော Heat မှာ...",
+          optionsEn: ["3135 J", "209 J", "6270 J", "62.7 J"],
+          optionsMy: ["3135 J", "209 J", "6270 J", "62.7 J"],
+          correctIndex: 0,
+          hintsEn: ["q = mcΔT = 50 x 4.18 x 15 = 3135 J."],
+          hintsMy: ["q = mcΔT = 50 x 4.18 x 15 = 3135 J ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "Standard Enthalpy Changes"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek18 = CourseWeekDef(
+  id: "course-y12-chem-w18",
+  weekNumber: 18,
+  titleEn: "Standard Enthalpy Changes",
+  titleMy: "Standard Enthalpy Changes",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w18-d1",
+      dayNumber: 1,
+      titleEn: "Standard Enthalpy Change Definitions",
+      titleMy: "Standard Enthalpy Change Definitions",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The standard enthalpy change of formation, ΔHf°, is defined as...",
+          questionMy:
+              "Standard Enthalpy Change of Formation, ΔHf° ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The enthalpy change when 1 mole of a compound is formed from its elements in their standard states",
+            "The enthalpy change when any compound is completely burned",
+            "The enthalpy change when a compound dissolves in water",
+            "The energy required to break every bond in a molecule",
+          ],
+          optionsMy: [
+            "Compound 1 Mole ကို ၎င်း၏ Standard State ရှိ Element များမှ ဖွဲ့စည်းချိန် Enthalpy Change",
+            "Compound မည်သည့်တစ်ခုမဆို လုံးဝ လောင်ကျွမ်းချိန် Enthalpy Change",
+            "Compound ရေထဲတွင် ပျော်ဝင်ချိန် Enthalpy Change",
+            "Molecule တစ်ခုထဲရှိ Bond တိုင်းကို ချိုးဖျက်ရန် လိုအပ်သော Energy",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The standard enthalpy change of combustion, ΔHc°, is defined as...",
+          questionMy:
+              "Standard Enthalpy Change of Combustion, ΔHc° ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The enthalpy change when 1 mole of a substance is completely burned in oxygen",
+            "The enthalpy change when 1 mole of a compound forms from its elements",
+            "The enthalpy change when an acid neutralises a base",
+            "The enthalpy change when a solid melts",
+          ],
+          optionsMy: [
+            "Substance 1 Mole ကို Oxygen ထဲတွင် လုံးဝ လောင်ကျွမ်းစေချိန် Enthalpy Change",
+            "Compound 1 Mole ကို ၎င်း၏ Element များမှ ဖွဲ့စည်းချိန် Enthalpy Change",
+            "Acid တစ်ခု Base တစ်ခုကို Neutralise ပြုလုပ်ချိန် Enthalpy Change",
+            "Solid တစ်ခု အရည်ပျော်ချိန် Enthalpy Change",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Standard conditions for enthalpy measurements are...",
+          questionMy:
+              "Enthalpy Measurement များအတွက် Standard Condition များမှာ...",
+          optionsEn: [
+            "298 K and 100 kPa, with solutions at 1 mol dm⁻³",
+            "0 K and zero pressure",
+            "373 K and 200 kPa",
+            "Any temperature, as long as pressure is 100 kPa",
+          ],
+          optionsMy: [
+            "298 K နှင့် 100 kPa, Solution များသည် 1 mol dm⁻³ ဖြင့်",
+            "0 K နှင့် Pressure Zero",
+            "373 K နှင့် 200 kPa",
+            "Pressure 100 kPa ဖြစ်နေသရွေ့ Temperature မည်သို့ပင်ရှိစေ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Standard Enthalpy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Standard Enthalpy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w18-dm-1",
+          termEn: "Standard enthalpy change of formation (ΔHf°)",
+          termMy: "Standard Enthalpy Change of Formation (ΔHf°)",
+          matchEn:
+              "The enthalpy change when 1 mole of a compound is formed from its elements in their standard states",
+          matchMy:
+              "Compound 1 Mole ကို ၎င်း၏ Standard State ရှိ Element များမှ ဖွဲ့စည်းချိန် Enthalpy Change",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w18-dm-2",
+          termEn: "Standard enthalpy change of combustion (ΔHc°)",
+          termMy: "Standard Enthalpy Change of Combustion (ΔHc°)",
+          matchEn:
+              "The enthalpy change when 1 mole of a substance is completely burned in oxygen",
+          matchMy:
+              "Substance 1 Mole ကို Oxygen ထဲတွင် လုံးဝ လောင်ကျွမ်းစေချိန် Enthalpy Change",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w18-dm-3",
+          termEn: "Standard enthalpy change of reaction (ΔHr°)",
+          termMy: "Standard Enthalpy Change of Reaction (ΔHr°)",
+          matchEn:
+              "The enthalpy change when a reaction occurs in the molar quantities shown in the equation, under standard conditions",
+          matchMy:
+              "Equation တွင် ပြသထားသော Molar Quantity များဖြင့် Reaction ဖြစ်ပေါ်ချိန်၊ Standard Condition အောက်ရှိ Enthalpy Change",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w18-dm-4",
+          termEn: "Standard enthalpy change of neutralisation (ΔHneut°)",
+          termMy: "Standard Enthalpy Change of Neutralisation (ΔHneut°)",
+          matchEn:
+              "The enthalpy change when an acid and base react to form 1 mole of water",
+          matchMy:
+              "Acid နှင့် Base တုံ့ပြန်၍ ရေ 1 Mole ဖြစ်ပေါ်ချိန် Enthalpy Change",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w18-dm-5",
+          termEn: "Standard conditions",
+          termMy: "Standard Conditions",
+          matchEn: "298 K and 100 kPa, with solutions at 1 mol dm⁻³",
+          matchMy: "298 K နှင့် 100 kPa, Solution များသည် 1 mol dm⁻³ ဖြင့်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Formation or Combustion Reaction?",
+      titleMy: "စီစစ်ကြမည် - Formation သို့မဟုတ် Combustion Reaction",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Formation Reaction", "Combustion Reaction"],
+        bucketsMy: ["Formation Reaction", "Combustion Reaction"],
+        items: [
+          SortingItem(
+            id: "y12chem-w18-sort-1",
+            labelEn: "Na(s) + ½Cl₂(g) -> NaCl(s)",
+            labelMy: "Na(s) + ½Cl₂(g) -> NaCl(s)",
+            correctBucketEn: "Formation Reaction",
+            correctBucketMy: "Formation Reaction",
+          ),
+          SortingItem(
+            id: "y12chem-w18-sort-2",
+            labelEn: "CH₄(g) + 2O₂(g) -> CO₂(g) + 2H₂O(l)",
+            labelMy: "CH₄(g) + 2O₂(g) -> CO₂(g) + 2H₂O(l)",
+            correctBucketEn: "Combustion Reaction",
+            correctBucketMy: "Combustion Reaction",
+          ),
+          SortingItem(
+            id: "y12chem-w18-sort-3",
+            labelEn: "½N₂(g) + 3/2H₂(g) -> NH₃(g)",
+            labelMy: "½N₂(g) + 3/2H₂(g) -> NH₃(g)",
+            correctBucketEn: "Formation Reaction",
+            correctBucketMy: "Formation Reaction",
+          ),
+          SortingItem(
+            id: "y12chem-w18-sort-4",
+            labelEn: "C₂H₅OH(l) + 3O₂(g) -> 2CO₂(g) + 3H₂O(l)",
+            labelMy: "C₂H₅OH(l) + 3O₂(g) -> 2CO₂(g) + 3H₂O(l)",
+            correctBucketEn: "Combustion Reaction",
+            correctBucketMy: "Combustion Reaction",
+          ),
+          SortingItem(
+            id: "y12chem-w18-sort-5",
+            labelEn: "K(s) + ½Br₂(l) -> KBr(s)",
+            labelMy: "K(s) + ½Br₂(l) -> KBr(s)",
+            correctBucketEn: "Formation Reaction",
+            correctBucketMy: "Formation Reaction",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Elements Have Zero Formation Enthalpy",
+      titleMy:
+          "စာဖတ်ခြင်း - Element များတွင် Formation Enthalpy Zero ရှိရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Elements Have Zero Formation Enthalpy",
+        titleMy:
+            "Element များတွင် Formation Enthalpy Zero ရှိရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayama Ei Ei Phyo asked her class a question that trips up many students at first: what is the standard enthalpy change of formation of oxygen gas, O2, in its standard state? Thiha Zaw's first instinct was to look for a value in a data table, but Sayama Ei Ei Phyo pointed out that the definition itself answers the question directly: ΔHf° is the enthalpy change forming 1 mole of a substance from its elements in their standard states -- and oxygen gas is already an element in its standard state. Forming O2 from O2 involves no chemical change at all, so ΔHf°[O2(g)] = 0, by definition, for every element in its standard state.\n\nThiha Zaw asked why this convention -- fixing every element's formation enthalpy at exactly zero -- actually matters, rather than being just a technicality. Sayama Ei Ei Phyo offered an analogy: altitude on a map is always measured relative to sea level, which is defined as zero, not because sea level has no height in any absolute sense, but because fixing one shared reference point lets every other height be compared consistently. Standard enthalpies of formation work the same way -- elements are fixed at zero not because they truly contain zero energy, but so that every compound's ΔHf° value is measured relative to the same common starting point.\n\nThat shared reference point is what makes formation enthalpies genuinely useful: once every compound's ΔHf° is measured against the same zero baseline, the enthalpy change of any reaction between compounds can be calculated as ΔHr° = ΣΔHf°(products) - ΣΔHf°(reactants), without ever needing to run that specific reaction in a calorimeter at all -- a technique that becomes fully explicit as Hess's Law next week.",
+        passageMy:
+            "ကျောင်းသားများစွာ ပထမတွင် ရှုပ်ထွေးတတ်သော မေးခွန်းတစ်ခုကို Sayama အေးအေးဖြိုး သူမ၏ အတန်းကို မေးမြန်းခဲ့သည် - Oxygen ဓာတ်ငွေ့, O2 ၏ Standard State ရှိ Standard Enthalpy Change of Formation ကား အဘယ်နည်း။ Thiha Zaw ၏ ပထမဆုံး Instinct မှာ Data Table ထဲတွင် တန်ဖိုးတစ်ခု ရှာဖွေရန် ဖြစ်သော်လည်း Definition ကိုယ်တိုင်က မေးခွန်းကို တိုက်ရိုက် ဖြေကြားကြောင်း Sayama အေးအေးဖြိုး ထောက်ပြခဲ့သည် - ΔHf° ဆိုသည်မှာ Substance 1 Mole ကို ၎င်း၏ Standard State ရှိ Element များမှ ဖွဲ့စည်းချိန် Enthalpy Change ဖြစ်ပြီး Oxygen ဓာတ်ငွေ့သည် ၎င်း၏ Standard State ရှိ Element ပင် ဖြစ်ပြီးသားပင် ဖြစ်သည်။ O2 ကို O2 မှ ဖွဲ့စည်းခြင်းသည် Chemical Change မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်သောကြောင့် ΔHf°[O2(g)] = 0, ၎င်း၏ Standard State ရှိ Element တစ်ခုစီအတွက် Definition အရ ဖြစ်သည်။\n\nဤ Convention -- Element တစ်ခုစီ၏ Formation Enthalpy ကို Zero အတိအကျ သတ်မှတ်ခြင်း -- သည် Technicality တစ်ခုသာ မဟုတ်ဘဲ အဘယ့်ကြောင့် တကယ် အရေးကြီးသည်ကို Thiha Zaw မေးမြန်းခဲ့သည်။ Analogy တစ်ခုကို Sayama အေးအေးဖြိုး တင်ပြခဲ့သည် - Map ပေါ်ရှိ Altitude ကို Sea Level နှင့် နှိုင်းယှဉ်၍ အမြဲ တိုင်းတာသည်၊ Zero ဟု သတ်မှတ်ထားသော်လည်း Sea Level တွင် Absolute Sense တစ်ခုတွင် Height လုံးဝ မရှိသောကြောင့် မဟုတ်ဘဲ Reference Point တစ်ခုတည်းကို သတ်မှတ်ခြင်းက Height တိုင်းကို တသမတ်တည်း နှိုင်းယှဉ်နိုင်စေသောကြောင့် ဖြစ်သည်။ Standard Enthalpies of Formation များသည် နည်းလမ်းတူညီဖြင့် အလုပ်လုပ်သည် -- Element များကို Zero တွင် သတ်မှတ်ထားခြင်းမှာ ၎င်းတို့တွင် Energy Zero တကယ် ပါဝင်သောကြောင့် မဟုတ်ဘဲ Compound တိုင်း၏ ΔHf° တန်ဖိုးကို Common Starting Point တူညီနှင့် နှိုင်းယှဉ်ပြီး တိုင်းတာနိုင်စေရန် ဖြစ်သည်။\n\nထို Shared Reference Point သည် Formation Enthalpy များကို တကယ့် အသုံးဝင်စေသော အချက် ဖြစ်သည် -- Compound တိုင်း၏ ΔHf° ကို Zero Baseline တူညီနှင့် တိုင်းတာပြီးသည်နှင့် Compound များကြား Reaction မည်သည့်တစ်ခု၏ Enthalpy Change ကို ΔHr° = ΣΔHf°(Products) - ΣΔHf°(Reactants) အဖြစ် Calorimeter ထဲတွင် ထို Reaction အထူးကို လုံးဝ မလုပ်ဆောင်ရဘဲ တွက်ချက်နိုင်သည် -- ဤ Technique သည် လာမည့်ပတ် Hess's Law အဖြစ် အပြည့်အစုံ ထင်ရှားလာလိမ့်မည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the standard formation enthalpy of any element in its standard state?",
+            questionMy:
+                "Standard State ရှိ Element မည်သည့်တစ်ခု၏ Standard Formation Enthalpy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Zero", "-394 kJ mol⁻¹", "+100 kJ mol⁻¹", "Undefined"],
+            optionsMy: ["Zero", "-394 kJ mol⁻¹", "+100 kJ mol⁻¹", "Undefined"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what analogy is used to explain fixing elements at zero?",
+            questionMy:
+                "Element များကို Zero တွင် သတ်မှတ်ခြင်းကို ရှင်းပြရန် အသုံးပြုသော Analogy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Altitude measured relative to sea level",
+              "The colour of a rainbow",
+              "The speed of light in a vacuum",
+              "The freezing point of water",
+            ],
+            optionsMy: [
+              "Sea Level နှင့် နှိုင်းယှဉ် တိုင်းတာသော Altitude",
+              "သက်တံ့ ၏ အရောင်",
+              "Vacuum ထဲရှိ Speed of Light",
+              "ရေ၏ Freezing Point",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how is a reaction's enthalpy change calculated from formation enthalpies?",
+            questionMy:
+                "Reaction တစ်ခု၏ Enthalpy Change ကို Formation Enthalpy များမှ မည်သို့ တွက်ချက်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "ΔHr° = ΣΔHf°(products) - ΣΔHf°(reactants)",
+              "ΔHr° = ΣΔHf°(reactants) - ΣΔHf°(products)",
+              "ΔHr° is always exactly zero",
+              "ΔHr° cannot be calculated without a calorimeter",
+            ],
+            optionsMy: [
+              "ΔHr° = ΣΔHf°(Products) - ΣΔHf°(Reactants)",
+              "ΔHr° = ΣΔHf°(Reactants) - ΣΔHf°(Products)",
+              "ΔHr° သည် အမြဲ Zero အတိအကျ ဖြစ်သည်",
+              "ΔHr° ကို Calorimeter မပါဘဲ တွက်ချက်၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's formula."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ Formula ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Standard Enthalpy Changes",
+      titleMy: "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Standard Enthalpy Changes",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The standard enthalpy change of formation of any element in its standard state is...",
+          questionMy:
+              "Standard State ရှိ Element မည်သည့်တစ်ခု၏ Standard Enthalpy Change of Formation သည်...",
+          optionsEn: [
+            "Zero",
+            "Always negative",
+            "Always positive",
+            "Impossible to define",
+          ],
+          optionsMy: [
+            "Zero",
+            "အမြဲ Negative",
+            "အမြဲ Positive",
+            "အဓိပ္ပာယ်ဖွင့်ဆို၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Standard enthalpy change of combustion refers to burning 1 mole of a substance in...",
+          questionMy:
+              "Standard Enthalpy Change of Combustion သည် Substance 1 Mole ကို ...ထဲတွင် လောင်ကျွမ်းစေခြင်းကို ရည်ညွှန်းသည်",
+          optionsEn: ["Oxygen", "Nitrogen", "Hydrogen", "Argon"],
+          optionsMy: ["Oxygen", "Nitrogen", "Hydrogen", "Argon"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Standard conditions are defined as...",
+          questionMy: "Standard Conditions ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "298 K and 100 kPa",
+            "0 K and 0 kPa",
+            "373 K and 50 kPa",
+            "Any temperature and pressure",
+          ],
+          optionsMy: [
+            "298 K နှင့် 100 kPa",
+            "0 K နှင့် 0 kPa",
+            "373 K နှင့် 50 kPa",
+            "Temperature နှင့် Pressure မည်သို့ပင်ရှိစေ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Hess's Law and Bond Energies"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek19 = CourseWeekDef(
+  id: "course-y12-chem-w19",
+  weekNumber: 19,
+  titleEn: "Hess's Law and Bond Energies",
+  titleMy: "Hess's Law နှင့် Bond Energies",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w19-d1",
+      dayNumber: 1,
+      titleEn: "Hess's Law and Bond Enthalpies",
+      titleMy: "Hess's Law နှင့် Bond Enthalpies",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Hess's Law states that...",
+          questionMy: "Hess's Law အရ...",
+          optionsEn: [
+            "The total enthalpy change for a reaction is independent of the route taken, provided initial and final conditions are the same",
+            "Enthalpy change always depends on how many steps a reaction takes",
+            "Energy can be created or destroyed during a reaction",
+            "Enthalpy change is always exactly zero for any route",
+          ],
+          optionsMy: [
+            "Reaction တစ်ခု၏ Total Enthalpy Change သည် Initial နှင့် Final Condition တူညီနေသရွေ့ ယူသော Route ပေါ် လုံးဝ မမှီခိုပါ",
+            "Enthalpy Change သည် Reaction တစ်ခု ယူသော Step အရေအတွက်ပေါ် အမြဲ မှီခိုသည်",
+            "Reaction တစ်ခုအတွင်း Energy ကို ဖန်တီး (သို့) ဖျက်ဆီး၍ ရသည်",
+            "Route မည်သို့ပင်ရှိစေ Enthalpy Change သည် အမြဲ Zero အတိအကျ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using ΔHf°(CO2) = -394 kJ mol⁻¹, ΔHf°(H2O) = -286 kJ mol⁻¹, and ΔHf°(CH4) = -75 kJ mol⁻¹, the enthalpy change for CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l) is...",
+          questionMy:
+              "ΔHf°(CO2) = -394 kJ mol⁻¹, ΔHf°(H2O) = -286 kJ mol⁻¹, ΔHf°(CH4) = -75 kJ mol⁻¹ ကို အသုံးပြု၍ CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l) ၏ Enthalpy Change မှာ...",
+          optionsEn: [
+            "-891 kJ mol⁻¹",
+            "-966 kJ mol⁻¹",
+            "-75 kJ mol⁻¹",
+            "+891 kJ mol⁻¹",
+          ],
+          optionsMy: [
+            "-891 kJ mol⁻¹",
+            "-966 kJ mol⁻¹",
+            "-75 kJ mol⁻¹",
+            "+891 kJ mol⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ΔHr° = [(-394) + 2(-286)] - [(-75)] = -966 - (-75) = -891 kJ mol⁻¹.",
+          ],
+          hintsMy: [
+            "ΔHr° = [(-394) + 2(-286)] - [(-75)] = -966 - (-75) = -891 kJ mol⁻¹ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Breaking a covalent bond is...",
+          questionMy: "Covalent Bond တစ်ခု ချိုးဖျက်ခြင်းသည်...",
+          optionsEn: [
+            "Endothermic, requiring energy input",
+            "Exothermic, releasing energy",
+            "Neither endothermic nor exothermic",
+            "Only possible in ionic compounds",
+          ],
+          optionsMy: [
+            "Endothermic, Energy Input လိုအပ်သည်",
+            "Exothermic, Energy ထုတ်လွှတ်သည်",
+            "Endothermic (သို့) Exothermic နှစ်ခုလုံး မဟုတ်ပါ",
+            "Ionic Compound များတွင်သာ ဖြစ်နိုင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hess's Law and Bond Energy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Hess's Law and Bond Energy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w19-dm-1",
+          termEn: "Hess's Law",
+          termMy: "Hess's Law",
+          matchEn:
+              "The total enthalpy change for a reaction is independent of the route taken",
+          matchMy:
+              "Reaction တစ်ခု၏ Total Enthalpy Change သည် ယူသော Route ပေါ် လုံးဝ မမှီခိုပါ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w19-dm-2",
+          termEn: "Enthalpy cycle",
+          termMy: "Enthalpy Cycle",
+          matchEn:
+              "A diagram showing alternative routes between the same reactants and products, used to apply Hess's Law",
+          matchMy:
+              "Reactant နှင့် Product တူညီကြား Alternative Route များကို ပြသသော Diagram၊ Hess's Law အသုံးချရန် ဖြစ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w19-dm-3",
+          termEn: "Bond breaking",
+          termMy: "Bond Breaking",
+          matchEn: "Requires energy input, an endothermic process",
+          matchMy: "Energy Input လိုအပ်သော Endothermic Process",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w19-dm-4",
+          termEn: "Bond forming",
+          termMy: "Bond Forming",
+          matchEn: "Releases energy, an exothermic process",
+          matchMy: "Energy ထုတ်လွှတ်သော Exothermic Process",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w19-dm-5",
+          termEn: "Mean bond enthalpy",
+          termMy: "Mean Bond Enthalpy",
+          matchEn:
+              "The average energy required to break one mole of a particular type of bond, averaged across many molecules",
+          matchMy:
+              "Bond အမျိုးအစား အထူးတစ်ခု၏ Mole 1 ခု ချိုးဖျက်ရန် လိုအပ်သော Average Energy၊ Molecule များစွာ တလျှောက် Average ယူထားသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bond Breaking or Bond Forming?",
+      titleMy: "စီစစ်ကြမည် - Bond Breaking သို့မဟုတ် Bond Forming",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Bond Breaking (Endothermic)", "Bond Forming (Exothermic)"],
+        bucketsMy: ["Bond Breaking (Endothermic)", "Bond Forming (Exothermic)"],
+        items: [
+          SortingItem(
+            id: "y12chem-w19-sort-1",
+            labelEn: "Breaking a C-H bond in methane",
+            labelMy: "Methane ထဲရှိ C-H Bond ချိုးဖျက်ခြင်း",
+            correctBucketEn: "Bond Breaking (Endothermic)",
+            correctBucketMy: "Bond Breaking (Endothermic)",
+          ),
+          SortingItem(
+            id: "y12chem-w19-sort-2",
+            labelEn: "Forming a new O-H bond in water",
+            labelMy: "ရေထဲတွင် O-H Bond အသစ် ဖွဲ့စည်းခြင်း",
+            correctBucketEn: "Bond Forming (Exothermic)",
+            correctBucketMy: "Bond Forming (Exothermic)",
+          ),
+          SortingItem(
+            id: "y12chem-w19-sort-3",
+            labelEn: "Breaking an O=O bond in oxygen gas",
+            labelMy: "Oxygen ဓာတ်ငွေ့ ထဲရှိ O=O Bond ချိုးဖျက်ခြင်း",
+            correctBucketEn: "Bond Breaking (Endothermic)",
+            correctBucketMy: "Bond Breaking (Endothermic)",
+          ),
+          SortingItem(
+            id: "y12chem-w19-sort-4",
+            labelEn: "Forming a C=O bond in carbon dioxide",
+            labelMy: "Carbon Dioxide ထဲတွင် C=O Bond ဖွဲ့စည်းခြင်း",
+            correctBucketEn: "Bond Forming (Exothermic)",
+            correctBucketMy: "Bond Forming (Exothermic)",
+          ),
+          SortingItem(
+            id: "y12chem-w19-sort-5",
+            labelEn: "Breaking a C-C bond in ethane",
+            labelMy: "Ethane ထဲရှိ C-C Bond ချိုးဖျက်ခြင်း",
+            correctBucketEn: "Bond Breaking (Endothermic)",
+            correctBucketMy: "Bond Breaking (Endothermic)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating ΔH from Bond Enthalpies",
+      titleMy: "စာဖတ်ခြင်း - Bond Enthalpies မှ ΔH တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating ΔH from Bond Enthalpies",
+        titleMy: "Bond Enthalpies မှ ΔH တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayar Zayar Lin Htet asked his class to calculate the enthalpy change for the reaction H2(g) + Cl2(g) -> 2HCl(g), using mean bond enthalpies: H-H = 436 kJ mol⁻¹, Cl-Cl = 242 kJ mol⁻¹, and H-Cl = 431 kJ mol⁻¹.\n\nHnin Ei Mon began with the bonds broken in the reactants, since bond breaking always requires energy input: one H-H bond and one Cl-Cl bond are broken, needing 436 + 242 = 678 kJ mol⁻¹ -- an endothermic step, so this energy counts as positive.\n\nNext, she considered the bonds formed in the products: two new H-Cl bonds form, one for each HCl molecule, releasing 2 x 431 = 862 kJ mol⁻¹ -- an exothermic step, so this energy counts as negative in the overall total.\n\nCombining both steps: ΔH = (energy to break bonds) - (energy released forming bonds) = 678 - 862 = -184 kJ mol⁻¹. Sayar Zayar Lin Htet pointed out that the negative sign confirms the reaction is exothermic overall: more energy is released forming the two strong H-Cl bonds than was needed to break the original H-H and Cl-Cl bonds, so the surplus energy is released to the surroundings -- the same bond-breaking-versus-bond-forming balance that determines whether any reaction, not just this one, ends up exothermic or endothermic.",
+        passageMy:
+            "H2(g) + Cl2(g) -> 2HCl(g) Reaction ၏ Enthalpy Change ကို Mean Bond Enthalpy များ - H-H = 436 kJ mol⁻¹, Cl-Cl = 242 kJ mol⁻¹, H-Cl = 431 kJ mol⁻¹ - ကို အသုံးပြု၍ တွက်ချက်ခိုင်းရန် Sayar ဇေယျာလင်းထက် သူ၏ အတန်းကို ခိုင်းစေခဲ့သည်။\n\nBond Breaking သည် Energy Input အမြဲ လိုအပ်သောကြောင့် Hnin Ei Mon သည် Reactant များထဲရှိ Bond ချိုးဖျက်ခြင်းဖြင့် စတင်ခဲ့သည် - H-H Bond တစ်ခုနှင့် Cl-Cl Bond တစ်ခုကို ချိုးဖျက်ရန် 436 + 242 = 678 kJ mol⁻¹ လိုအပ်သည် -- Endothermic Step ဖြစ်သောကြောင့် ဤ Energy ကို Positive ဟု ရေတွက်သည်။\n\nထို့နောက် Product များထဲတွင် ဖွဲ့စည်းသော Bond များကို သူမ စဉ်းစားခဲ့သည် - HCl Molecule တစ်ခုစီအတွက် H-Cl Bond အသစ် နှစ်ခု ဖွဲ့စည်းပြီး 2 x 431 = 862 kJ mol⁻¹ ထုတ်လွှတ်သည် -- Exothermic Step ဖြစ်သောကြောင့် ဤ Energy ကို Overall Total တွင် Negative ဟု ရေတွက်သည်။\n\nStep နှစ်ခုစလုံးကို ပေါင်းစည်းခြင်း - ΔH = (Bond ချိုးဖျက်ရန် Energy) - (Bond ဖွဲ့စည်းသည့် ထုတ်လွှတ်သော Energy) = 678 - 862 = -184 kJ mol⁻¹ ။ Negative Sign က Reaction ကို Overall Exothermic ဖြစ်ကြောင်း အတည်ပြုကြောင်း Sayar ဇေယျာလင်းထက် ထောက်ပြခဲ့သည် - H-Cl Bond ခိုင်မာသော နှစ်ခု ဖွဲ့စည်းရာမှ ထုတ်လွှတ်သော Energy သည် မူလ H-H နှင့် Cl-Cl Bond များ ချိုးဖျက်ရန် လိုအပ်ခဲ့သည်ထက် ပို၍ ရှိသောကြောင့် ပိုလျှံသော Energy ကို Surroundings သို့ ထုတ်လွှတ်လိုက်သည် -- ဤ Bond-Breaking-Versus-Bond-Forming Balance သည် Reaction ဤတစ်ခုတည်း မဟုတ်ဘဲ မည်သည့်တစ်ခုမဆို Overall Exothermic (သို့) Endothermic ဖြစ်လာသည်ကို ဆုံးဖြတ်ပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how much energy is needed to break the bonds in the reactants?",
+            questionMy:
+                "Reactant များထဲရှိ Bond များ ချိုးဖျက်ရန် လိုအပ်သော Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "678 kJ mol⁻¹",
+              "862 kJ mol⁻¹",
+              "184 kJ mol⁻¹",
+              "431 kJ mol⁻¹",
+            ],
+            optionsMy: [
+              "678 kJ mol⁻¹",
+              "862 kJ mol⁻¹",
+              "184 kJ mol⁻¹",
+              "431 kJ mol⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how much energy is released forming the bonds in the products?",
+            questionMy:
+                "Product များထဲရှိ Bond များ ဖွဲ့စည်းရာမှ ထုတ်လွှတ်သော Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "862 kJ mol⁻¹",
+              "678 kJ mol⁻¹",
+              "184 kJ mol⁻¹",
+              "436 kJ mol⁻¹",
+            ],
+            optionsMy: [
+              "862 kJ mol⁻¹",
+              "678 kJ mol⁻¹",
+              "184 kJ mol⁻¹",
+              "436 kJ mol⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the overall enthalpy change, ΔH?",
+            questionMy: "Overall Enthalpy Change, ΔH ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "-184 kJ mol⁻¹",
+              "+184 kJ mol⁻¹",
+              "-1540 kJ mol⁻¹",
+              "+678 kJ mol⁻¹",
+            ],
+            optionsMy: [
+              "-184 kJ mol⁻¹",
+              "+184 kJ mol⁻¹",
+              "-1540 kJ mol⁻¹",
+              "+678 kJ mol⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's final calculation."],
+            hintsMy: [
+              "စတုတ္ထစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Hess's Law and Bond Energies",
+      titleMy:
+          "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Hess's Law and Bond Energies",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Hess's Law is based on the principle of conservation of...",
+          questionMy:
+              "Hess's Law သည် ...၏ Conservation Principle ပေါ် အခြေခံသည်",
+          optionsEn: ["Energy", "Mass only", "Time", "Volume"],
+          optionsMy: ["Energy", "Mass တစ်ခုတည်း", "Time", "Volume"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Bond forming is always...",
+          questionMy: "Bond Forming သည် အမြဲ...",
+          optionsEn: [
+            "Exothermic, releasing energy",
+            "Endothermic, absorbing energy",
+            "Neither exothermic nor endothermic",
+            "Impossible in covalent molecules",
+          ],
+          optionsMy: [
+            "Exothermic, Energy ထုတ်လွှတ်သည်",
+            "Endothermic, Energy စုပ်ယူသည်",
+            "Exothermic (သို့) Endothermic နှစ်ခုလုံး မဟုတ်ပါ",
+            "Covalent Molecule များတွင် ဖြစ်နိုင်ခြေ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a reaction, energy to break bonds = 500 kJ mol⁻¹ and energy released forming bonds = 620 kJ mol⁻¹. The overall ΔH is...",
+          questionMy:
+              "Reaction တစ်ခုအတွက် Bond ချိုးဖျက်ရန် Energy = 500 kJ mol⁻¹ နှင့် Bond ဖွဲ့စည်းရာမှ ထုတ်လွှတ်သော Energy = 620 kJ mol⁻¹ ။ Overall ΔH မှာ...",
+          optionsEn: [
+            "-120 kJ mol⁻¹",
+            "+120 kJ mol⁻¹",
+            "-1120 kJ mol⁻¹",
+            "+1120 kJ mol⁻¹",
+          ],
+          optionsMy: [
+            "-120 kJ mol⁻¹",
+            "+120 kJ mol⁻¹",
+            "-1120 kJ mol⁻¹",
+            "+1120 kJ mol⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: ["ΔH = 500 - 620 = -120 kJ mol⁻¹."],
+          hintsMy: ["ΔH = 500 - 620 = -120 kJ mol⁻¹ ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20: "Chemical Energetics Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek20 = CourseWeekDef(
+  id: "course-y12-chem-w20",
+  weekNumber: 20,
+  titleEn: "Chemical Energetics Capstone",
+  titleMy: "Chemical Energetics အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w20-d1",
+      dayNumber: 1,
+      titleEn: "Combining Calorimetry, Standard Enthalpies and Hess's Law",
+      titleMy:
+          "Calorimetry, Standard Enthalpies နှင့် Hess's Law ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "200 g of water is heated and absorbs 8360 J of energy. The temperature rise is... (c = 4.18 J g⁻¹ K⁻¹)",
+          questionMy:
+              "ရေ 200 g ကို ပူနွေးစေပြီး Energy 8360 J ကို စုပ်ယူသည်။ Temperature Rise မှာ... (c = 4.18 J g⁻¹ K⁻¹)",
+          optionsEn: ["10 K", "20 K", "5 K", "40 K"],
+          optionsMy: ["10 K", "20 K", "5 K", "40 K"],
+          correctIndex: 0,
+          hintsEn: ["ΔT = q / (mc) = 8360 / (200 x 4.18) = 8360 / 836 = 10 K."],
+          hintsMy: [
+            "ΔT = q / (mc) = 8360 / (200 x 4.18) = 8360 / 836 = 10 K ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using ΔHf°(CO2) = -394 kJ mol⁻¹ and ΔHf°(elements) = 0, the enthalpy change for C(s) + O2(g) -> CO2(g) is...",
+          questionMy:
+              "ΔHf°(CO2) = -394 kJ mol⁻¹ နှင့် ΔHf°(Elements) = 0 ကို အသုံးပြု၍ C(s) + O2(g) -> CO2(g) ၏ Enthalpy Change မှာ...",
+          optionsEn: [
+            "-394 kJ mol⁻¹",
+            "+394 kJ mol⁻¹",
+            "0 kJ mol⁻¹",
+            "-788 kJ mol⁻¹",
+          ],
+          optionsMy: [
+            "-394 kJ mol⁻¹",
+            "+394 kJ mol⁻¹",
+            "0 kJ mol⁻¹",
+            "-788 kJ mol⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ΔHr° = ΔHf°(CO2) - [ΔHf°(C) + ΔHf°(O2)] = -394 - 0 = -394 kJ mol⁻¹.",
+          ],
+          hintsMy: [
+            "ΔHr° = ΔHf°(CO2) - [ΔHf°(C) + ΔHf°(O2)] = -394 - 0 = -394 kJ mol⁻¹ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a reaction, bonds broken require 900 kJ mol⁻¹ and bonds formed release 750 kJ mol⁻¹. The reaction is...",
+          questionMy:
+              "Reaction တစ်ခုအတွက် Bond ချိုးဖျက်ရန် 900 kJ mol⁻¹ လိုအပ်ပြီး Bond ဖွဲ့စည်းရာမှ 750 kJ mol⁻¹ ထုတ်လွှတ်သည်။ Reaction သည်...",
+          optionsEn: [
+            "Endothermic overall, ΔH = +150 kJ mol⁻¹",
+            "Exothermic overall, ΔH = -150 kJ mol⁻¹",
+            "Neither, ΔH = 0",
+            "Impossible to determine",
+          ],
+          optionsMy: [
+            "Overall Endothermic, ΔH = +150 kJ mol⁻¹",
+            "Overall Exothermic, ΔH = -150 kJ mol⁻¹",
+            "နှစ်ခုလုံး မဟုတ်ပါ, ΔH = 0",
+            "ဆုံးဖြတ်၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ΔH = 900 - 750 = +150 kJ mol⁻¹, positive, so endothermic.",
+          ],
+          hintsMy: [
+            "ΔH = 900 - 750 = +150 kJ mol⁻¹, Positive ဖြစ်သောကြောင့် Endothermic ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 5 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၅ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w20-dm-1",
+          termEn: "Heat energy: q = ",
+          termMy: "Heat Energy: q = ",
+          matchEn: "mcΔT",
+          matchMy: "mcΔT",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w20-dm-2",
+          termEn: "Molar enthalpy: ΔH = ",
+          termMy: "Molar Enthalpy: ΔH = ",
+          matchEn: "-q / n",
+          matchMy: "-q / n",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w20-dm-3",
+          termEn: "From formation enthalpies: ΔHr° = ",
+          termMy: "Formation Enthalpy များမှ: ΔHr° = ",
+          matchEn: "ΣΔHf°(products) - ΣΔHf°(reactants)",
+          matchMy: "ΣΔHf°(Products) - ΣΔHf°(Reactants)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w20-dm-4",
+          termEn: "From bond enthalpies: ΔH = ",
+          termMy: "Bond Enthalpy များမှ: ΔH = ",
+          matchEn: "Energy to break bonds - energy released forming bonds",
+          matchMy:
+              "Bond ချိုးဖျက်ရန် Energy - Bond ဖွဲ့စည်းရာမှ ထုတ်လွှတ်သော Energy",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w20-dm-5",
+          termEn: "Hess's Law",
+          termMy: "Hess's Law",
+          matchEn: "Enthalpy change is independent of the route taken",
+          matchMy: "Enthalpy Change သည် ယူသော Route ပေါ် လုံးဝ မမှီခိုပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w20-d3",
+      dayNumber: 3,
+      titleEn:
+          "Sort: Calorimetry/Standard Enthalpies or Hess's Law/Bond Energies?",
+      titleMy:
+          "စီစစ်ကြမည် - Calorimetry/Standard Enthalpies သို့မဟုတ် Hess's Law/Bond Energies",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Calorimetry/Standard Enthalpies",
+          "Hess's Law/Bond Energies",
+        ],
+        bucketsMy: [
+          "Calorimetry/Standard Enthalpies",
+          "Hess's Law/Bond Energies",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w20-sort-1",
+            labelEn: "Measuring a temperature rise to calculate heat released",
+            labelMy:
+                "ထုတ်လွှတ်သော Heat တွက်ချက်ရန် Temperature Rise တိုင်းတာခြင်း",
+            correctBucketEn: "Calorimetry/Standard Enthalpies",
+            correctBucketMy: "Calorimetry/Standard Enthalpies",
+          ),
+          SortingItem(
+            id: "y12chem-w20-sort-2",
+            labelEn: "Calculating ΔH from bonds broken and bonds formed",
+            labelMy:
+                "ချိုးဖျက်ထားသော Bond နှင့် ဖွဲ့စည်းထားသော Bond များမှ ΔH တွက်ချက်ခြင်း",
+            correctBucketEn: "Hess's Law/Bond Energies",
+            correctBucketMy: "Hess's Law/Bond Energies",
+          ),
+          SortingItem(
+            id: "y12chem-w20-sort-3",
+            labelEn: "An element's formation enthalpy is defined as zero",
+            labelMy:
+                "Element တစ်ခု၏ Formation Enthalpy ကို Zero ဟု အဓိပ္ပာယ်ဖွင့်ဆိုထားသည်",
+            correctBucketEn: "Calorimetry/Standard Enthalpies",
+            correctBucketMy: "Calorimetry/Standard Enthalpies",
+          ),
+          SortingItem(
+            id: "y12chem-w20-sort-4",
+            labelEn:
+                "Finding an enthalpy change using an alternative route via Hess's Law",
+            labelMy:
+                "Hess's Law မှတစ်ဆင့် Alternative Route ကို အသုံးပြု၍ Enthalpy Change ရှာဖွေခြင်း",
+            correctBucketEn: "Hess's Law/Bond Energies",
+            correctBucketMy: "Hess's Law/Bond Energies",
+          ),
+          SortingItem(
+            id: "y12chem-w20-sort-5",
+            labelEn: "Using q = mcΔT to find heat energy transferred",
+            labelMy:
+                "ကူးပြောင်းသော Heat Energy ကို ရှာဖွေရန် q = mcΔT ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Calorimetry/Standard Enthalpies",
+            correctBucketMy: "Calorimetry/Standard Enthalpies",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w20-d4",
+      dayNumber: 4,
+      titleEn:
+          "Reading: Finding an Enthalpy Change That Can't Be Measured Directly",
+      titleMy:
+          "စာဖတ်ခြင်း - တိုက်ရိုက် တိုင်းတာ၍ မရသော Enthalpy Change ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding an Enthalpy Change That Can't Be Measured Directly",
+        titleMy: "တိုက်ရိုက် တိုင်းတာ၍ မရသော Enthalpy Change ရှာဖွေခြင်း",
+        passageEn:
+            "For their Term 5 capstone, Sayama Ei Ei Phyo's class tackled a problem that calorimetry alone cannot solve: finding the standard enthalpy change of formation of methane, ΔHf°(CH4), for the reaction C(s) + 2H2(g) -> CH4(g). She reminded them that graphite and hydrogen gas simply do not react cleanly with each other on a lab bench, so this enthalpy change can never be measured directly with a calorimeter, no matter how careful the experiment.\n\nSu Myat Thu proposed using Hess's Law instead, building an indirect route through combustion, since combustion reactions -- unlike this direct formation reaction -- are easy to carry out and measure. She was given three combustion enthalpies: ΔHc°(C) = -394 kJ mol⁻¹ (C + O2 -> CO2), ΔHc°(H2) = -286 kJ mol⁻¹ (H2 + ½O2 -> H2O), and ΔHc°(CH4) = -890 kJ mol⁻¹ (CH4 + 2O2 -> CO2 + 2H2O).\n\nSu Myat Thu built the enthalpy cycle: both the direct route (C + 2H2 -> CH4, then CH4 burned) and the indirect route (C burned directly, and 2H2 burned directly) start from the same reactants and end at the same final products (CO2 and H2O), so by Hess's Law their total enthalpy changes must be equal. This gives: ΔHf°(CH4) + ΔHc°(CH4) = ΔHc°(C) + 2 x ΔHc°(H2). Rearranging: ΔHf°(CH4) = [ΔHc°(C) + 2 x ΔHc°(H2)] - ΔHc°(CH4) = [(-394) + 2(-286)] - (-890) = -966 + 890 = -76 kJ mol⁻¹.\n\nSayama Ei Ei Phyo confirmed this matches the accepted literature value closely (-74.8 kJ mol⁻¹), and closed the capstone by tying the whole term together: calorimetry (Week 17) measures enthalpy changes that can be observed directly, standard enthalpies (Week 18) give every substance a common, comparable reference point, and Hess's Law with bond energies (Week 19) lets chemists reach enthalpy changes -- like this one -- that no calorimeter could ever measure on its own.",
+        passageMy:
+            "သူတို့၏ Term 5 အထွတ်အထိပ်အတွက် Sayama အေးအေးဖြိုး ၏ အတန်းသည် Calorimetry တစ်ခုတည်းက ဖြေရှင်း၍ မရသော ပြဿနာတစ်ခုကို ကိုင်တွယ်ခဲ့ကြသည် - Reaction, C(s) + 2H2(g) -> CH4(g) အတွက် Methane ၏ Standard Enthalpy Change of Formation, ΔHf°(CH4) ကို ရှာဖွေခြင်း။ Graphite နှင့် Hydrogen ဓာတ်ငွေ့သည် Lab Bench ပေါ်တွင် အချင်းချင်း ရှင်းလင်းစွာ လုံးဝ မတုံ့ပြန်သောကြောင့် ဤ Enthalpy Change ကို Experiment မည်မျှ ဂရုတစိုက် ပြုလုပ်စေ Calorimeter ဖြင့် တိုက်ရိုက် ဘယ်တော့မှ တိုင်းတာ၍ မရနိုင်ကြောင်း သူမ သတိပေးခဲ့သည်။\n\nCombustion Reaction များသည် ဤ Direct Formation Reaction နှင့် မတူဘဲ လွယ်ကူစွာ လုပ်ဆောင်ပြီး တိုင်းတာနိုင်သောကြောင့် Combustion မှတစ်ဆင့် Indirect Route တစ်ခု တည်ဆောက်ကာ Hess's Law ကို အသုံးပြုရန် Su Myat Thu အဆိုပြုခဲ့သည်။ Combustion Enthalpy သုံးခု ပေးထားခဲ့သည် - ΔHc°(C) = -394 kJ mol⁻¹ (C + O2 -> CO2), ΔHc°(H2) = -286 kJ mol⁻¹ (H2 + ½O2 -> H2O), ΔHc°(CH4) = -890 kJ mol⁻¹ (CH4 + 2O2 -> CO2 + 2H2O) ။\n\nSu Myat Thu သည် Enthalpy Cycle ကို တည်ဆောက်ခဲ့သည် - Direct Route (C + 2H2 -> CH4, ထို့နောက် CH4 လောင်ကျွမ်းသည်) နှင့် Indirect Route (C ကို တိုက်ရိုက် လောင်ကျွမ်းစေပြီး 2H2 ကို တိုက်ရိုက် လောင်ကျွမ်းစေသည်) နှစ်ခုစလုံးသည် Reactant တူညီမှ စတင်ပြီး Final Product တူညီ (CO2 နှင့် H2O) တွင် အဆုံးသတ်သောကြောင့် Hess's Law အရ ၎င်းတို့၏ Total Enthalpy Change သည် ညီမျှရမည်ဖြစ်သည်။ ၎င်းက ပေးသည် - ΔHf°(CH4) + ΔHc°(CH4) = ΔHc°(C) + 2 x ΔHc°(H2) ။ ပြန်စီစဉ်ခြင်း - ΔHf°(CH4) = [ΔHc°(C) + 2 x ΔHc°(H2)] - ΔHc°(CH4) = [(-394) + 2(-286)] - (-890) = -966 + 890 = -76 kJ mol⁻¹ ။\n\nဤတန်ဖိုးသည် လက်ခံထားသော Literature Value (-74.8 kJ mol⁻¹) နှင့် နီးစပ်စွာ ကိုက်ညီကြောင်း Sayama အေးအေးဖြိုး အတည်ပြုခဲ့ပြီး Term တစ်ခုလုံးကို ပေါင်းစည်းလျက် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည် - Calorimetry (တစ်ဆယ့်ခုနစ်ပတ်) သည် တိုက်ရိုက် တွေ့မြင်နိုင်သော Enthalpy Change များကို တိုင်းတာပြီး Standard Enthalpies (တစ်ဆယ့်ရှစ်ပတ်) သည် Substance တိုင်းကို Common, Comparable Reference Point တစ်ခု ပေးကာ Hess's Law with Bond Energies (တစ်ဆယ့်ကိုးပတ်) သည် ဤတစ်ခုကဲ့သို့ Calorimeter မည်သည့်တစ်ခုမျှ ကိုယ်တိုင် ဘယ်တော့မှ တိုင်းတာ၍ မရနိုင်သော Enthalpy Change များသို့ Chemist များ ရောက်ရှိစေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why can't ΔHf°(CH4) be measured directly with a calorimeter?",
+            questionMy:
+                "ΔHf°(CH4) ကို Calorimeter ဖြင့် တိုက်ရိုက် တိုင်းတာ၍ မရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Graphite and hydrogen gas do not react cleanly with each other on a lab bench",
+              "Methane does not actually exist as a compound",
+              "Calorimeters cannot measure any enthalpy change at all",
+              "Carbon has no standard state",
+            ],
+            optionsMy: [
+              "Graphite နှင့် Hydrogen ဓာတ်ငွေ့သည် Lab Bench ပေါ်တွင် အချင်းချင်း ရှင်းလင်းစွာ မတုံ့ပြန်ကြောင်း",
+              "Methane သည် Compound တစ်ခုအနေဖြင့် တကယ် မတည်ရှိကြောင်း",
+              "Calorimeter များသည် Enthalpy Change မည်သည့်တစ်ခုမျှ လုံးဝ မတိုင်းတာနိုင်ကြောင်း",
+              "Carbon တွင် Standard State မရှိကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the calculated value of ΔHf°(CH4)?",
+            questionMy:
+                "တွက်ချက်ထားသော ΔHf°(CH4) တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "-76 kJ mol⁻¹",
+              "-890 kJ mol⁻¹",
+              "-966 kJ mol⁻¹",
+              "+76 kJ mol⁻¹",
+            ],
+            optionsMy: [
+              "-76 kJ mol⁻¹",
+              "-890 kJ mol⁻¹",
+              "-966 kJ mol⁻¹",
+              "+76 kJ mol⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: [
+              "တတိယစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what law justifies combining the combustion enthalpies this way?",
+            questionMy:
+                "Combustion Enthalpy များကို ဤနည်းဖြင့် ပေါင်းစည်းခြင်းကို ဖြစ်စေသော Law ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Hess's Law",
+              "Newton's Law",
+              "The ideal gas law",
+              "Avogadro's Law",
+            ],
+            optionsMy: [
+              "Hess's Law",
+              "Newton's Law",
+              "Ideal Gas Law",
+              "Avogadro's Law",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's reasoning."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w20-d5",
+      dayNumber: 5,
+      titleEn: "Term 5 Capstone: Chemical Energetics",
+      titleMy: "Term ၅ အထွတ်အထိပ် - Chemical Energetics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Heat energy transferred is calculated using...",
+          questionMy: "ကူးပြောင်းသော Heat Energy ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["q = mcΔT", "q = nRT", "q = Fs", "q = mgh"],
+          optionsMy: ["q = mcΔT", "q = nRT", "q = Fs", "q = mgh"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The standard enthalpy change of formation of an element in its standard state is...",
+          questionMy:
+              "Standard State ရှိ Element တစ်ခု၏ Standard Enthalpy Change of Formation သည်...",
+          optionsEn: [
+            "Zero",
+            "Always negative",
+            "Always positive",
+            "Undefined",
+          ],
+          optionsMy: ["Zero", "အမြဲ Negative", "အမြဲ Positive", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hess's Law allows chemists to find enthalpy changes that...",
+          questionMy:
+              "Hess's Law က Chemist များ ...Enthalpy Change များ ရှာဖွေနိုင်စေသည်",
+          optionsEn: [
+            "Cannot be measured directly",
+            "Are always exactly zero",
+            "Only apply to gases",
+            "Never involve bonds",
+          ],
+          optionsMy: [
+            "တိုက်ရိုက် တိုင်းတာ၍ မရသော",
+            "အမြဲ Zero အတိအကျ ဖြစ်သော",
+            "Gas များအတွက်သာ သက်ဆိုင်သော",
+            "Bond မည်သည့်တစ်ခုမျှ ပါဝင်ခြင်း မရှိသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An overall exothermic reaction releases more energy forming bonds than it needs to...",
+          questionMy:
+              "Overall Exothermic Reaction တစ်ခုသည် Bond ဖွဲ့စည်းရာမှ ...ရန် လိုအပ်သည်ထက် Energy ပို၍ ထုတ်လွှတ်သည်",
+          optionsEn: [
+            "Break the original bonds",
+            "Increase the temperature",
+            "Change the pressure",
+            "Change the volume",
+          ],
+          optionsMy: [
+            "မူလ Bond များ ချိုးဖျက်",
+            "Temperature တိုးမြှင့်",
+            "Pressure ပြောင်းလဲ",
+            "Volume ပြောင်းလဲ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm5 = CourseTermDef(
+  id: "course-y12-chem-term5",
+  termNumber: 5,
+  titleEn: "Chemical Energetics",
+  titleMy: "Chemical Energetics",
+  weeks: [_y12ChemWeek17, _y12ChemWeek18, _y12ChemWeek19, _y12ChemWeek20],
+  certificateTitleEn: "AS Chemistry: Chemical Energetics",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Chemical Energetics",
+);
+
 /// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-4 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
-/// Bonding; States of Matter) authored; Terms 5-9 (Chemical Energetics;
-/// Electrochemistry; Equilibria; Reaction Kinetics; The Periodic Table
+/// 1-5 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
+/// Bonding; States of Matter; Chemical Energetics) authored; Terms 6-9
+/// (Electrochemistry; Equilibria; Reaction Kinetics; The Periodic Table
 /// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
 /// renderer exists in this app -- formulas throughout use the same
 /// plain Unicode math notation (², √, x for multiplication) already
@@ -18686,11 +19981,12 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 16,
+  totalWeeks: 20,
   terms: [
     year12ChemistryTerm1,
     year12ChemistryTerm2,
     year12ChemistryTerm3,
     year12ChemistryTerm4,
+    year12ChemistryTerm5,
   ],
 );
