@@ -27596,3 +27596,3564 @@ const CourseTermDef year13PhysicsTerm3 = CourseTermDef(
   certificateTitleEn: "A2 Physics: Thermodynamics and Oscillations",
   certificateTitleMy: "A2 ရူပဗေဒ - Thermodynamics နှင့် Oscillations",
 );
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 4: "Electric Fields and Capacitance"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "Coulomb's Law and Electric Field Strength"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek13 = CourseWeekDef(
+  id: "course-y13-phys-w13",
+  weekNumber: 13,
+  titleEn: "Coulomb's Law and Electric Field Strength",
+  titleMy: "Coulomb's Law နှင့် Electric Field Strength",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w13-d1",
+      dayNumber: 1,
+      titleEn: "F = Qq/4πε₀r² and E = F/Q",
+      titleMy: "F = Qq/4πε₀r² နှင့် E = F/Q",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using F = Qq/4πε₀r² (1/4πε₀ = 8.99 x 10⁹ N m² C⁻²), find the force between charges Q = 2 x 10⁻⁶ C and q = 3 x 10⁻⁶ C separated by 0.5 m.",
+          questionMy:
+              "F = Qq/4πε₀r² (1/4πε₀ = 8.99 x 10⁹ N m² C⁻²) ကို အသုံးပြု၍ Charge Q = 2 x 10⁻⁶ C နှင့် q = 3 x 10⁻⁶ C သည် 0.5 m ကွာဝေးစွာ ရှိစဉ် ၎င်းတို့ကြား Force ကို ရှာပါ။",
+          optionsEn: ["≈ 0.216 N", "≈ 0.054 N", "≈ 1.08 N", "≈ 0.432 N"],
+          optionsMy: ["≈ 0.216 N", "≈ 0.054 N", "≈ 1.08 N", "≈ 0.432 N"],
+          correctIndex: 0,
+          hintsEn: [
+            "F = Qq/4πε₀r² = (8.99x10⁹ x 2x10⁻⁶ x 3x10⁻⁶)/0.5² = 0.054/0.25 ≈ 0.216 N.",
+          ],
+          hintsMy: [
+            "F = Qq/4πε₀r² = (8.99x10⁹ x 2x10⁻⁶ x 3x10⁻⁶)/0.5² = 0.054/0.25 ≈ 0.216 N ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using E = F/Q, find the electric field strength if a force of 4 x 10⁻³ N acts on a charge of 2 x 10⁻⁶ C.",
+          questionMy:
+              "E = F/Q ကို အသုံးပြု၍ Force 4 x 10⁻³ N သည် Charge 2 x 10⁻⁶ C ပေါ် သက်ရောက်ပါက Electric Field Strength ကို ရှာပါ။",
+          optionsEn: [
+            "2 x 10³ N C⁻¹",
+            "8 x 10⁻⁹ N C⁻¹",
+            "5 x 10⁻⁴ N C⁻¹",
+            "4 x 10³ N C⁻¹",
+          ],
+          optionsMy: [
+            "2 x 10³ N C⁻¹",
+            "8 x 10⁻⁹ N C⁻¹",
+            "5 x 10⁻⁴ N C⁻¹",
+            "4 x 10³ N C⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: ["E = F/Q = 4x10⁻³/2x10⁻⁶ = 2000 N C⁻¹ = 2x10³ N C⁻¹."],
+          hintsMy: ["E = F/Q = 4x10⁻³/2x10⁻⁶ = 2000 N C⁻¹ = 2x10³ N C⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using E = Q/4πε₀r², find the field strength at r = 0.2 m from a point charge Q = 5 x 10⁻⁹ C.",
+          questionMy:
+              "E = Q/4πε₀r² ကို အသုံးပြု၍ Point Charge Q = 5 x 10⁻⁹ C မှ r = 0.2 m အကွာတွင် Field Strength ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 1.12 x 10³ N C⁻¹",
+            "≈ 4.5 x 10¹ N C⁻¹",
+            "≈ 44.95 N C⁻¹",
+            "≈ 2.25 x 10⁴ N C⁻¹",
+          ],
+          optionsMy: [
+            "≈ 1.12 x 10³ N C⁻¹",
+            "≈ 4.5 x 10¹ N C⁻¹",
+            "≈ 44.95 N C⁻¹",
+            "≈ 2.25 x 10⁴ N C⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "E = Q/4πε₀r² = (8.99x10⁹ x 5x10⁻⁹)/0.2² = 44.95/0.04 ≈ 1.12x10³ N C⁻¹.",
+          ],
+          hintsMy: [
+            "E = Q/4πε₀r² = (8.99x10⁹ x 5x10⁻⁹)/0.2² = 44.95/0.04 ≈ 1.12x10³ N C⁻¹ ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electric Field Symbols and Meanings",
+      titleMy: "တွဲစပ်ကြမည် - Electric Field သင်္ကေတများနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w13-dm-1",
+          termEn: "F = Qq/4πε₀r²",
+          termMy: "F = Qq/4πε₀r²",
+          matchEn: "Coulomb's law",
+          matchMy: "Coulomb's Law",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w13-dm-2",
+          termEn: "ε₀",
+          termMy: "ε₀",
+          matchEn: "Permittivity of free space",
+          matchMy: "Permittivity of Free Space",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w13-dm-3",
+          termEn: "E = F/Q",
+          termMy: "E = F/Q",
+          matchEn: "Electric field strength (force per unit charge)",
+          matchMy: "Electric Field Strength (Charge Unit တစ်ခုလျှင် Force)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w13-dm-4",
+          termEn: "N C⁻¹",
+          termMy: "N C⁻¹",
+          matchEn: "SI unit of electric field strength",
+          matchMy: "Electric Field Strength ၏ SI Unit",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w13-dm-5",
+          termEn: "E = Q/4πε₀r²",
+          termMy: "E = Q/4πε₀r²",
+          matchEn: "Field strength due to a point charge",
+          matchMy: "Point Charge တစ်ခုကြောင့် ဖြစ်သော Field Strength",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Attractive or Repulsive Force?",
+      titleMy: "စီစစ်ကြမည် - Attractive Force လား၊ Repulsive Force လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Attractive Force", "Repulsive Force"],
+        bucketsMy: ["Attractive Force", "Repulsive Force"],
+        items: [
+          SortingItem(
+            id: "y13phys-w13-sort-1",
+            labelEn: "Two positive charges near each other",
+            labelMy: "Positive Charge နှစ်ခု တစ်ခုနှင့်တစ်ခု နီးကပ်နေခြင်း",
+            correctBucketEn: "Repulsive Force",
+            correctBucketMy: "Repulsive Force",
+          ),
+          SortingItem(
+            id: "y13phys-w13-sort-2",
+            labelEn: "Two negative charges near each other",
+            labelMy: "Negative Charge နှစ်ခု တစ်ခုနှင့်တစ်ခု နီးကပ်နေခြင်း",
+            correctBucketEn: "Repulsive Force",
+            correctBucketMy: "Repulsive Force",
+          ),
+          SortingItem(
+            id: "y13phys-w13-sort-3",
+            labelEn: "A positive charge and a negative charge near each other",
+            labelMy: "Positive Charge နှင့် Negative Charge တစ်ခုနှင့်တစ်ခု နီးကပ်နေခြင်း",
+            correctBucketEn: "Attractive Force",
+            correctBucketMy: "Attractive Force",
+          ),
+          SortingItem(
+            id: "y13phys-w13-sort-4",
+            labelEn: "An electron near a proton",
+            labelMy: "Proton တစ်ခုအနီးရှိ Electron",
+            correctBucketEn: "Attractive Force",
+            correctBucketMy: "Attractive Force",
+          ),
+          SortingItem(
+            id: "y13phys-w13-sort-5",
+            labelEn: "Two electrons near each other",
+            labelMy: "Electron နှစ်ခု တစ်ခုနှင့်တစ်ခု နီးကပ်နေခြင်း",
+            correctBucketEn: "Repulsive Force",
+            correctBucketMy: "Repulsive Force",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Van de Graaff Generator",
+      titleMy: "စာဖတ်ခြင်း - Van de Graaff Generator",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Van de Graaff Generator",
+        titleMy: "Van de Graaff Generator",
+        passageEn:
+            "Sayar Zaw Min demonstrated a Van de Graaff generator to his class, a device whose metal dome (radius 0.15 m) built up a charge of about 2 x 10⁻⁷ C, making a student's hair stand on end when they touched it. He asked Htet Aung to find the field strength right at the dome's surface.\n\nHtet Aung treated the dome as a point charge located at its centre -- a standard result for any charge spread uniformly over a sphere, valid for points on or outside the sphere's surface. Using E = Q/4πε₀r²: E = (8.99x10⁹ x 2x10⁻⁷)/0.15² = 1798/0.0225 ≈ 7.99x10⁴ N C⁻¹.\n\nSu Su then asked what the field strength would be at twice the distance, r = 0.3 m, still outside the dome. Since E ∝ 1/r², doubling r divides E by four: 7.99x10⁴/4 ≈ 2.0x10⁴ N C⁻¹. Sayar Zaw Min pointed out that this rapid 1/r² fall-off is exactly why standing a safe distance from a charged Van de Graaff dome is enough to avoid any noticeable effect, even though the field right at its surface is intense enough to visibly repel individual strands of hair.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် သူ၏ အတန်းကို Van de Graaff Generator တစ်ခု ပြသခဲ့သည် - ၎င်း၏ သတ္တု Dome (Radius 0.15 m) သည် Charge ခန့်မှန်း 2 x 10⁻⁷ C ကို တည်ဆောက်ခဲ့ပြီး ကျောင်းသားတစ်ဦး ထိလိုက်သောအခါ ဆံပင်များ မတ်တပ်ရပ်စေခဲ့သည်။ Dome ၏ မျက်နှာပြင်တွင် Field Strength ကို ရှာဖွေရန် Htet Aung ကို တောင်းဆိုခဲ့သည်။\n\nHtet Aung သည် Dome ကို ၎င်း၏ အလယ်ဗဟိုတွင် ရှိသော Point Charge တစ်ခုအဖြစ် ဆက်ဆံခဲ့သည် -- Sphere တစ်ခုပေါ်တွင် တစ်ညီတစ်ညာ ပျံ့နှံ့နေသော Charge တစ်ခုအတွက် Standard ရလဒ် ဖြစ်ပြီး Sphere ၏ မျက်နှာပြင်ပေါ် (သို့) အပြင်ရှိ Point များအတွက် တရားဝင်သည်။ E = Q/4πε₀r² ကို အသုံးပြု၍ - E = (8.99x10⁹ x 2x10⁻⁷)/0.15² = 1798/0.0225 ≈ 7.99x10⁴ N C⁻¹ ဖြစ်သည်။\n\nDome ၏ အပြင်ဘက်တွင် ရှိနေဆဲ r = 0.3 m နှစ်ဆကွာဝေးမှုတွင် Field Strength အဘယ်ဖြစ်မည်ကို Su Su ထို့နောက် မေးမြန်းခဲ့သည်။ E ∝ 1/r² ဖြစ်သောကြောင့် r ကို နှစ်ဆတိုးလျှင် E ကို လေးဖြင့် စားခြင်းနှင့် ညီသည် - 7.99x10⁴/4 ≈ 2.0x10⁴ N C⁻¹ ။ Charge တင်ထားသော Van de Graaff Dome မှ ဘေးကင်းသော အကွာအဝေးတွင် ရပ်နေခြင်းသည် သိသာထင်ရှားသော သက်ရောက်မှုကို ရှောင်ရှားရန် လုံလောက်ကြောင်း၊ ၎င်း၏ မျက်နှာပြင်တွင် Field သည် ဆံပင်တစ်ချောင်းချင်းစီကို မျက်မြင် ဖယ်ရှားနိုင်လောက်အောင် ပြင်းထန်နေသော်လည်း ဤ 1/r² အလျင်အမြန် ကျဆင်းမှုက ဖြစ်ကြောင်း ဆရာဇော်မင်းက ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the field strength at the dome's surface?",
+            questionMy: "Dome ၏ မျက်နှာပြင်ရှိ Field Strength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 7.99 x 10⁴ N C⁻¹",
+              "≈ 2.0 x 10⁴ N C⁻¹",
+              "≈ 8.99 x 10⁹ N C⁻¹",
+              "≈ 1798 N C⁻¹",
+            ],
+            optionsMy: [
+              "≈ 7.99 x 10⁴ N C⁻¹",
+              "≈ 2.0 x 10⁴ N C⁻¹",
+              "≈ 8.99 x 10⁹ N C⁻¹",
+              "≈ 1798 N C⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does doubling the distance divide the field strength by four?",
+            questionMy:
+                "Distance ကို နှစ်ဆတိုးလျှင် Field Strength ကို လေးဖြင့် အဘယ်ကြောင့် စားရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "E is proportional to 1/r², so doubling r divides E by 2² = 4",
+              "E is proportional to r directly",
+              "The dome loses half its charge automatically",
+              "E does not depend on distance at all",
+            ],
+            optionsMy: [
+              "E သည် 1/r² နှင့် ပြောင်းလဲအချိုးကျသောကြောင့် r ကို နှစ်ဆတိုးလျှင် E ကို 2² = 4 ဖြင့် စားရသည်",
+              "E သည် r နှင့် တိုက်ရိုက် ပြောင်းလဲအချိုးကျသည်",
+              "Dome သည် ၎င်း၏ Charge တစ်ဝက်ကို အလိုအလျောက် ဆုံးရှုံးသည်",
+              "E သည် Distance ပေါ် လုံးဝ မမူတည်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how was the dome treated for the calculation?",
+            questionMy:
+                "တွက်ချက်မှုအတွက် Dome ကို မည်သို့ ဆက်ဆံခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As a point charge located at its centre",
+              "As having zero charge",
+              "As two separate charges",
+              "As a uniform electric field between plates",
+            ],
+            optionsMy: [
+              "၎င်း၏ အလယ်ဗဟိုတွင် ရှိသော Point Charge တစ်ခုအဖြစ်",
+              "Charge Zero ရှိသည်ဟု",
+              "သီးခြား Charge နှစ်ခုအဖြစ်",
+              "Plate များကြား Uniform Electric Field တစ်ခုအဖြစ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Coulomb's Law",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Coulomb's Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Coulomb's law states that force is proportional to...",
+          questionMy: "Coulomb's Law အရ Force သည် ...နှင့် ပြောင်းလဲအချိုးကျသည်",
+          optionsEn: [
+            "The product of the charges, and inversely to the square of the distance",
+            "The sum of the charges only",
+            "The distance only",
+            "The square of the charges",
+          ],
+          optionsMy: [
+            "Charge များ၏ ထုတ်လုပ်ရလဒ်၊ Distance ၏ Square ဖြင့် Inverse ဖြစ်သည်",
+            "Charge များ၏ ပေါင်းလဒ်သာ",
+            "Distance သာ",
+            "Charge များ၏ Square",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Electric field strength is defined as...",
+          questionMy: "Electric Field Strength ကို ...ဟု အနက်ဖွင့်သည်",
+          optionsEn: [
+            "Force per unit positive charge",
+            "Charge per unit force",
+            "Force multiplied by charge",
+            "Distance per unit charge",
+          ],
+          optionsMy: [
+            "Positive Charge Unit တစ်ခုလျှင် Force",
+            "Force Unit တစ်ခုလျှင် Charge",
+            "Force ကို Charge ဖြင့် မြှောက်ခြင်း",
+            "Charge Unit တစ်ခုလျှင် Distance",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For a point charge, electric field strength E is proportional to...",
+          questionMy: "Point Charge တစ်ခုအတွက် Electric Field Strength E သည် ...နှင့် ပြောင်းလဲအချိုးကျသည်",
+          optionsEn: ["1/r²", "r²", "1/r", "r"],
+          optionsMy: ["1/r²", "r²", "1/r", "r"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "Uniform Electric Fields and Field Patterns"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek14 = CourseWeekDef(
+  id: "course-y13-phys-w14",
+  weekNumber: 14,
+  titleEn: "Uniform Electric Fields and Field Patterns",
+  titleMy: "Uniform Electric Fields နှင့် Field Patterns",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w14-d1",
+      dayNumber: 1,
+      titleEn: "E = V/d and Force in a Uniform Field",
+      titleMy: "E = V/d နှင့် Uniform Field ရှိ Force",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using E = V/d, find the field strength between parallel plates with V = 200 V and separation d = 0.02 m.",
+          questionMy:
+              "E = V/d ကို အသုံးပြု၍ V = 200 V နှင့် Separation d = 0.02 m ရှိသော Parallel Plate များကြား Field Strength ကို ရှာပါ။",
+          optionsEn: [
+            "1 x 10⁴ V m⁻¹",
+            "2 x 10² V m⁻¹",
+            "4 x 10³ V m⁻¹",
+            "1 x 10³ V m⁻¹",
+          ],
+          optionsMy: [
+            "1 x 10⁴ V m⁻¹",
+            "2 x 10² V m⁻¹",
+            "4 x 10³ V m⁻¹",
+            "1 x 10³ V m⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: ["E = V/d = 200/0.02 = 10000 V m⁻¹ = 1x10⁴ V m⁻¹."],
+          hintsMy: ["E = V/d = 200/0.02 = 10000 V m⁻¹ = 1x10⁴ V m⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using F = EQ, find the force on a charge of 5 x 10⁻⁶ C in a uniform field E = 2 x 10⁴ N C⁻¹.",
+          questionMy:
+              "F = EQ ကို အသုံးပြု၍ Uniform Field E = 2 x 10⁴ N C⁻¹ ထဲရှိ Charge 5 x 10⁻⁶ C ပေါ် Force ကို ရှာပါ။",
+          optionsEn: ["0.1 N", "2 x 10⁻¹⁰ N", "4 x 10³ N", "5 x 10⁻² N"],
+          optionsMy: ["0.1 N", "2 x 10⁻¹⁰ N", "4 x 10³ N", "5 x 10⁻² N"],
+          correctIndex: 0,
+          hintsEn: ["F = EQ = 2x10⁴ x 5x10⁻⁶ = 0.1 N."],
+          hintsMy: ["F = EQ = 2x10⁴ x 5x10⁻⁶ = 0.1 N ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Field lines between two oppositely charged parallel plates are...",
+          questionMy: "ဆန့်ကျင်ဘက် Charge ရှိသော Parallel Plate နှစ်ခုကြား Field Line များသည်...",
+          optionsEn: [
+            "Parallel and equally spaced, showing a uniform field",
+            "Radiating outward like a point charge",
+            "Curved and converging to one point",
+            "Absent entirely between charged plates",
+          ],
+          optionsMy: [
+            "Parallel ဖြစ်ပြီး တစ်ညီတစ်ညာ ကွာဝေးကာ Uniform Field ကို ပြသသည်",
+            "Point Charge တစ်ခုကဲ့သို့ အပြင်သို့ ကားထွက်နေသည်",
+            "ကွေ့ကောက်ပြီး Point တစ်ခုတည်းသို့ စုစည်းနေသည်",
+            "Charge တင်ထားသော Plate များကြား လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Parallel plates create a uniform field -- the same magnitude and direction everywhere between them (ignoring edge effects) -- shown by parallel, evenly spaced field lines.",
+          ],
+          hintsMy: [
+            "Parallel Plate များက Uniform Field ကို ဖန်တီးသည် -- ၎င်းတို့ကြား နေရာတိုင်းတွင် Magnitude နှင့် Direction တူညီသည် (Edge Effect များကို လျစ်လျူရှုလျှင်) -- Parallel ဖြစ်ပြီး တစ်ညီတစ်ညာ ကွာဝေးသော Field Line များဖြင့် ပြသသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Field Types and Patterns",
+      titleMy: "တွဲစပ်ကြမည် - Field အမျိုးအစားများနှင့် Pattern များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w14-dm-1",
+          termEn: "E = V/d",
+          termMy: "E = V/d",
+          matchEn: "Uniform field strength formula (parallel plates)",
+          matchMy: "Uniform Field Strength ဖော်မြူလာ (Parallel Plates)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w14-dm-2",
+          termEn: "Uniform field",
+          termMy: "Uniform Field",
+          matchEn: "Same magnitude and direction everywhere",
+          matchMy: "နေရာတိုင်းတွင် Magnitude နှင့် Direction တူညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w14-dm-3",
+          termEn: "Field lines",
+          termMy: "Field Line များ",
+          matchEn: "Point from a positive charge/plate to a negative one",
+          matchMy: "Positive Charge/Plate မှ Negative Charge/Plate သို့ ညွှန်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w14-dm-4",
+          termEn: "Radial field (point charge)",
+          termMy: "Radial Field (Point Charge)",
+          matchEn: "Field strength decreases with 1/r²",
+          matchMy: "Field Strength သည် 1/r² ဖြင့် လျော့ကျသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w14-dm-5",
+          termEn: "F = EQ",
+          termMy: "F = EQ",
+          matchEn: "Force on a charge in a field",
+          matchMy: "Field ထဲရှိ Charge တစ်ခုပေါ် Force",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Uniform Field or Radial Field?",
+      titleMy: "စီစစ်ကြမည် - Uniform Field လား၊ Radial Field လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Uniform Field (Parallel Plates)", "Radial Field (Point Charge)"],
+        bucketsMy: ["Uniform Field (Parallel Plates)", "Radial Field (Point Charge)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w14-sort-1",
+            labelEn: "Field strength is the same everywhere between the plates",
+            labelMy: "Plate များကြား နေရာတိုင်းတွင် Field Strength တူညီသည်",
+            correctBucketEn: "Uniform Field (Parallel Plates)",
+            correctBucketMy: "Uniform Field (Parallel Plates)",
+          ),
+          SortingItem(
+            id: "y13phys-w14-sort-2",
+            labelEn: "Field strength decreases with 1/r²",
+            labelMy: "Field Strength သည် 1/r² ဖြင့် လျော့ကျသည်",
+            correctBucketEn: "Radial Field (Point Charge)",
+            correctBucketMy: "Radial Field (Point Charge)",
+          ),
+          SortingItem(
+            id: "y13phys-w14-sort-3",
+            labelEn: "Field lines are parallel and equally spaced",
+            labelMy: "Field Line များသည် Parallel ဖြစ်ပြီး တစ်ညီတစ်ညာ ကွာဝေးသည်",
+            correctBucketEn: "Uniform Field (Parallel Plates)",
+            correctBucketMy: "Uniform Field (Parallel Plates)",
+          ),
+          SortingItem(
+            id: "y13phys-w14-sort-4",
+            labelEn: "Field lines radiate outward from the centre",
+            labelMy: "Field Line များသည် အလယ်ဗဟိုမှ အပြင်သို့ ကားထွက်နေသည်",
+            correctBucketEn: "Radial Field (Point Charge)",
+            correctBucketMy: "Radial Field (Point Charge)",
+          ),
+          SortingItem(
+            id: "y13phys-w14-sort-5",
+            labelEn: "E = V/d applies",
+            labelMy: "E = V/d သက်ဆိုင်သည်",
+            correctBucketEn: "Uniform Field (Parallel Plates)",
+            correctBucketMy: "Uniform Field (Parallel Plates)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deflecting an Electron Beam",
+      titleMy: "စာဖတ်ခြင်း - Electron Beam ကို Deflect လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deflecting an Electron Beam",
+        titleMy: "Electron Beam ကို Deflect လုပ်ခြင်း",
+        passageEn:
+            "Su Su read about old cathode-ray-tube (CRT) televisions and oscilloscopes, which steer a beam of electrons using electric fields between parallel deflection plates, and asked Sayar Zaw Min to work through the physics with her.\n\nHe set up a pair of deflection plates with potential difference V = 500 V across a separation d = 0.05 m, giving a uniform field E = V/d = 500/0.05 = 10000 N C⁻¹. An electron passing between the plates, with charge magnitude e = 1.6x10⁻¹⁹ C, experiences a force F = eE = 1.6x10⁻¹⁹ x 10000 = 1.6x10⁻¹⁵ N.\n\nSayar Zaw Min explained that although 1.6x10⁻¹⁵ N sounds vanishingly small, an electron's mass is also vanishingly small (about 9.11x10⁻³¹ kg), so this force produces a very large acceleration that deflects the fast-moving electron beam by a measurable amount before it strikes the screen. Varying the plate voltage varies the deflecting force, and therefore where the beam lands -- exactly the mechanism old CRT televisions and oscilloscopes used to trace out an image or waveform, line by line, many times per second.",
+        passageMy:
+            "Su Su သည် Parallel Deflection Plate များကြား Electric Field များကို အသုံးပြု၍ Electron Beam ကို ထိန်းညှိသော Cathode-Ray-Tube (CRT) Television နှင့် Oscilloscope ဟောင်းများအကြောင်း ဖတ်မိပြီး ရူပဗေဒကို အတူတကွ လေ့လာရန် ဆရာဇော်မင်းကို တောင်းဆိုခဲ့သည်။\n\nသူသည် Separation d = 0.05 m ဖြင့် Potential Difference V = 500 V ရှိသော Deflection Plate တစ်စုံ တပ်ဆင်ပေးခဲ့ပြီး Uniform Field E = V/d = 500/0.05 = 10000 N C⁻¹ ရရှိခဲ့သည်။ Plate များကြား ဖြတ်သန်းသော Electron သည် Charge Magnitude e = 1.6x10⁻¹⁹ C ရှိပြီး Force F = eE = 1.6x10⁻¹⁹ x 10000 = 1.6x10⁻¹⁵ N ခံစားရသည်။\n\n1.6x10⁻¹⁵ N သည် အလွန်သေးငယ်နေသကဲ့သို့ ကြားရသော်လည်း Electron ၏ Mass ပါ အလွန်သေးငယ်နေသောကြောင့် (9.11x10⁻³¹ kg ခန့်) ဤ Force သည် Screen ကို မထိတွေ့မီ မြန်ဆန်စွာ ရွေ့လျားနေသော Electron Beam ကို တိုင်းတာနိုင်သော ပမာဏဖြင့် Deflect လုပ်ပေးသော Acceleration အလွန်ကြီးမားစေသည်ဟု ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်။ Plate Voltage ကို ပြောင်းလဲခြင်းက Deflecting Force ကို ပြောင်းလဲစေပြီး Beam ၏ ကျရောက်ရာနေရာကိုပါ ပြောင်းလဲစေသည် -- ၎င်းသည် CRT Television နှင့် Oscilloscope ဟောင်းများ စက္ကန့်ပိုင်းအတွင်း အကြိမ်ကြိမ် တစ်လိုင်းချင်းစီ Image (သို့) Waveform ကို ရေးဆွဲရန် အသုံးပြုခဲ့သော Mechanism အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the field strength between the deflection plates?",
+            questionMy: "Deflection Plate များကြား Field Strength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "10000 N C⁻¹",
+              "500 N C⁻¹",
+              "0.05 N C⁻¹",
+              "1.6 x 10⁻¹⁵ N C⁻¹",
+            ],
+            optionsMy: [
+              "10000 N C⁻¹",
+              "500 N C⁻¹",
+              "0.05 N C⁻¹",
+              "1.6 x 10⁻¹⁵ N C⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does such a small force produce a large deflection?",
+            questionMy:
+                "ဤမျှသေးငယ်သော Force သည် ကြီးမားသော Deflection ကို အဘယ်ကြောင့် ဖြစ်ပေါ်စေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The electron's mass is also vanishingly small, giving a large acceleration",
+              "The plates are made of a special magnetic metal",
+              "The electron has zero charge",
+              "The field strength is actually zero",
+            ],
+            optionsMy: [
+              "Electron ၏ Mass ပါ အလွန်သေးငယ်နေသောကြောင့် Acceleration ကြီးမားသည်",
+              "Plate များကို အထူး သံလိုက် သတ္တုဖြင့် ပြုလုပ်ထားသောကြောင့်",
+              "Electron တွင် Charge Zero ရှိသောကြောင့်",
+              "Field Strength သည် အမှန်တကယ် Zero ဖြစ်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens when the plate voltage is varied?",
+            questionMy: "Plate Voltage ကို ပြောင်းလဲသောအခါ အဘယ်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The deflecting force changes, changing where the beam lands",
+              "The electron's charge changes",
+              "The beam disappears entirely",
+              "Nothing changes at all",
+            ],
+            optionsMy: [
+              "Deflecting Force ပြောင်းလဲပြီး Beam ကျရောက်ရာနေရာ ပြောင်းလဲသည်",
+              "Electron ၏ Charge ပြောင်းလဲသည်",
+              "Beam လုံးဝ ပျောက်ကွယ်သွားသည်",
+              "မည်သည့်အရာမျှ လုံးဝ မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Uniform Fields",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Uniform Fields",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "E = V/d applies to which type of field?",
+          questionMy: "E = V/d သည် မည်သည့် Field အမျိုးအစားနှင့် သက်ဆိုင်သနည်း။",
+          optionsEn: [
+            "A uniform field between parallel plates",
+            "A radial field around a point charge",
+            "No electric field type at all",
+            "A magnetic field only",
+          ],
+          optionsMy: [
+            "Parallel Plate များကြား Uniform Field",
+            "Point Charge ပတ်ပတ်လည်ရှိ Radial Field",
+            "Electric Field အမျိုးအစား လုံးဝ မဟုတ်ပါ",
+            "Magnetic Field သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a uniform field, field lines are...",
+          questionMy: "Uniform Field တွင် Field Line များသည်...",
+          optionsEn: [
+            "Parallel and equally spaced",
+            "Radiating from a single point",
+            "Randomly scattered",
+            "Always curved",
+          ],
+          optionsMy: [
+            "Parallel ဖြစ်ပြီး တစ်ညီတစ်ညာ ကွာဝေးသည်",
+            "Point တစ်ခုတည်းမှ ကားထွက်နေသည်",
+            "ကျပန်း ပျံ့နှံ့နေသည်",
+            "အမြဲ ကွေ့ကောက်နေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The force on a charge Q in a field E is given by...",
+          questionMy: "Field E ထဲရှိ Charge Q ပေါ် Force ကို ...ဖြင့် ဖော်ပြသည်",
+          optionsEn: ["F = EQ", "F = E/Q", "F = E + Q", "F = Q/E"],
+          optionsMy: ["F = EQ", "F = E/Q", "F = E + Q", "F = Q/E"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "Capacitance and Energy Storage"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek15 = CourseWeekDef(
+  id: "course-y13-phys-w15",
+  weekNumber: 15,
+  titleEn: "Capacitance and Energy Storage",
+  titleMy: "Capacitance နှင့် Energy Storage",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w15-d1",
+      dayNumber: 1,
+      titleEn: "C = Q/V and Energy Stored",
+      titleMy: "C = Q/V နှင့် Energy Stored",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using C = Q/V, find the capacitance of a capacitor storing charge 6 x 10⁻⁴ C at 12 V.",
+          questionMy:
+              "C = Q/V ကို အသုံးပြု၍ 12 V တွင် Charge 6 x 10⁻⁴ C သိုလှောင်ထားသော Capacitor ၏ Capacitance ကို ရှာပါ။",
+          optionsEn: ["5 x 10⁻⁵ F", "2 x 10¹ F", "7.2 x 10⁻³ F", "2 x 10⁻⁵ F"],
+          optionsMy: ["5 x 10⁻⁵ F", "2 x 10¹ F", "7.2 x 10⁻³ F", "2 x 10⁻⁵ F"],
+          correctIndex: 0,
+          hintsEn: ["C = Q/V = 6x10⁻⁴/12 = 5x10⁻⁵ F."],
+          hintsMy: ["C = Q/V = 6x10⁻⁴/12 = 5x10⁻⁵ F ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using E = ½CV², find the energy stored in a 1 x 10⁻⁴ F (100 µF) capacitor charged to 20 V.",
+          questionMy:
+              "E = ½CV² ကို အသုံးပြု၍ 20 V အထိ Charge တင်ထားသော 1 x 10⁻⁴ F (100 µF) Capacitor ၏ Energy Stored ကို ရှာပါ။",
+          optionsEn: ["0.02 J", "0.002 J", "2 J", "0.2 J"],
+          optionsMy: ["0.02 J", "0.002 J", "2 J", "0.2 J"],
+          correctIndex: 0,
+          hintsEn: ["E = ½CV² = 0.5 x 1x10⁻⁴ x 20² = 0.5 x 1x10⁻⁴ x 400 = 0.02 J."],
+          hintsMy: ["E = ½CV² = 0.5 x 1x10⁻⁴ x 20² = 0.5 x 1x10⁻⁴ x 400 = 0.02 J ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using E = ½QV, find the energy stored if Q = 2 x 10⁻³ C and V = 50 V.",
+          questionMy:
+              "E = ½QV ကို အသုံးပြု၍ Q = 2 x 10⁻³ C နှင့် V = 50 V ဖြစ်ပါက Energy Stored ကို ရှာပါ။",
+          optionsEn: ["0.05 J", "0.1 J", "1 x 10⁻⁴ J", "2.5 x 10⁻² J"],
+          optionsMy: ["0.05 J", "0.1 J", "1 x 10⁻⁴ J", "2.5 x 10⁻² J"],
+          correctIndex: 0,
+          hintsEn: ["E = ½QV = 0.5 x 2x10⁻³ x 50 = 0.05 J."],
+          hintsMy: ["E = ½QV = 0.5 x 2x10⁻³ x 50 = 0.05 J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Capacitance Symbols",
+      titleMy: "တွဲစပ်ကြမည် - Capacitance သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w15-dm-1",
+          termEn: "C = Q/V",
+          termMy: "C = Q/V",
+          matchEn: "Capacitance formula",
+          matchMy: "Capacitance ဖော်မြူလာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w15-dm-2",
+          termEn: "Farad (F)",
+          termMy: "Farad (F)",
+          matchEn: "SI unit of capacitance",
+          matchMy: "Capacitance ၏ SI Unit",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w15-dm-3",
+          termEn: "E = ½QV = ½CV² = ½Q²/C",
+          termMy: "E = ½QV = ½CV² = ½Q²/C",
+          matchEn: "Energy stored in a capacitor (three equivalent forms)",
+          matchMy: "Capacitor တစ်ခု၏ Energy Stored (ညီမျှသော ပုံစံသုံးမျိုး)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w15-dm-4",
+          termEn: "Q",
+          termMy: "Q",
+          matchEn: "Charge stored on a capacitor's plates",
+          matchMy: "Capacitor Plate များပေါ် သိုလှောင်ထားသော Charge",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w15-dm-5",
+          termEn: "V",
+          termMy: "V",
+          matchEn: "Potential difference across a capacitor",
+          matchMy: "Capacitor တစ်ခု၏ Potential Difference",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False about Capacitors?",
+      titleMy: "စီစစ်ကြမည် - Capacitor များအကြောင်း မှန်သလား မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True Statement", "False Statement (Common Misconception)"],
+        bucketsMy: ["မှန်ကန်သော ဖော်ပြချက်", "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w15-sort-1",
+            labelEn:
+                "A capacitor stores charge and energy in an electric field between its plates",
+            labelMy: "Capacitor တစ်ခုသည် ၎င်း၏ Plate များကြား Electric Field ထဲတွင် Charge နှင့် Energy သိုလှောင်ထားသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w15-sort-2",
+            labelEn: "Capacitance is measured in volts",
+            labelMy: "Capacitance ကို Volt ဖြင့် တိုင်းတာသည်",
+            correctBucketEn: "False Statement (Common Misconception)",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)",
+          ),
+          SortingItem(
+            id: "y13phys-w15-sort-3",
+            labelEn:
+                "Doubling the potential difference across a capacitor doubles the charge stored (C constant)",
+            labelMy: "Capacitor ၏ Potential Difference ကို နှစ်ဆတိုးလျှင် (C Constant) သိုလှောင်ထားသော Charge ကလည်း နှစ်ဆ တိုးလာသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w15-sort-4",
+            labelEn:
+                "A capacitor allows a continuous steady d.c. current to flow through it once fully charged",
+            labelMy: "Capacitor တစ်ခုသည် အပြည့်အဝ Charge တင်ပြီးသောအခါ ၎င်းကို ဖြတ်၍ Steady D.C. Current ကို ဆက်တိုက် စီးစေသည်",
+            correctBucketEn: "False Statement (Common Misconception)",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)",
+          ),
+          SortingItem(
+            id: "y13phys-w15-sort-5",
+            labelEn: "Energy stored in a capacitor is ½QV",
+            labelMy: "Capacitor တစ်ခု၏ Energy Stored သည် ½QV ဖြစ်သည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Camera Flash Capacitor",
+      titleMy: "စာဖတ်ခြင်း - ကင်မရာ Flash Capacitor",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Camera Flash Capacitor",
+        titleMy: "ကင်မရာ Flash Capacitor",
+        passageEn:
+            "Su Su wondered why an old-style camera flash makes a whining sound and takes a second or two to be ready after the previous shot, and asked Sayama Moe Moe Aye to explain using what the class had just learned about capacitors.\n\nSayama Moe Moe Aye explained that the flash unit slowly charges a capacitor (C = 200 µF = 2x10⁻⁴ F) from the battery up to a high voltage, V = 300 V -- the whining sound is the charging circuit stepping the battery's low voltage up to this much higher value. Using E = ½CV², the energy stored is E = 0.5 x 2x10⁻⁴ x 300² = 0.5 x 2x10⁻⁴ x 90000 = 9 J.\n\nWhen the shutter button is pressed, the capacitor discharges through the flash bulb almost instantly, releasing that entire 9 J in a tiny fraction of a second -- far faster than the battery alone could ever deliver that much power, since a battery is limited by chemical reaction rates while a capacitor can release its stored charge essentially as fast as the circuit allows. This is exactly why the flash needs a pause between shots: the battery must slowly recharge the capacitor again before another burst of light is possible.",
+        passageMy:
+            "ပုံစံဟောင်း ကင်မရာ Flash တစ်ခုသည် ဆူညံသံ ထွက်လာပြီး ယခင် ဓာတ်ပုံရိုက်ပြီးနောက် Ready ဖြစ်ရန် စက္ကန့်တစ်ခုနှစ်ခု ကြာသည့် အကြောင်းရင်းကို Su Su သိလိုခဲ့ပြီး Capacitor များအကြောင်း အတန်း လေ့လာခဲ့သည်များကို အသုံးပြု၍ ရှင်းပြပေးရန် ဆရာမ မိုမိုအေးကို တောင်းဆိုခဲ့သည်။\n\nFlash Unit သည် Battery မှ Capacitor (C = 200 µF = 2x10⁻⁴ F) ကို V = 300 V ဟူသော မြင့်မားသော Voltage အထိ တဖြည်းဖြည်း Charge တင်ပေးကြောင်း -- ဆူညံသံသည် Charging Circuit က Battery ၏ Voltage နိမ့်နိမ့်ကို ဤ ပိုမြင့်သော တန်ဖိုးသို့ တက်စေသောကြောင့် ဖြစ်ကြောင်း ဆရာမ မိုမိုအေး ရှင်းပြခဲ့သည်။ E = ½CV² ကို အသုံးပြု၍ Energy Stored သည် E = 0.5 x 2x10⁻⁴ x 300² = 0.5 x 2x10⁻⁴ x 90000 = 9 J ဖြစ်သည်။\n\nShutter ခလုတ်ကို နှိပ်လိုက်သောအခါ Capacitor သည် Flash ဓာတ်မီးသီးကို ဖြတ်ကာ ချက်ချင်းနီးပါး Discharge ဖြစ်သွားပြီး ထို 9 J အားလုံးကို စက္ကန့်၏ အလွန်သေးငယ်သော အပိုင်းတစ်ပိုင်းတွင် လွှတ်ချသည် -- Battery တစ်ခုတည်းက ထို ပါဝါမျှလောက် လွှတ်ချနိုင်သည်ထက် များစွာ ပိုမြန်ဆန်သည်၊ အကြောင်းမှာ Battery သည် ဓာတု ဓာတ်ပြုမှုနှုန်း ကန့်သတ်ချက်ရှိသော်လည်း Capacitor သည် Circuit ခွင့်ပြုသလောက် စက္ကန့်ပိုင်းအတွင်း သိုလှောင်ထားသော Charge ကို လွှတ်ချနိုင်သောကြောင့် ဖြစ်သည်။ ၎င်းသည် Flash အတွက် ရိုက်ကူးမှုများကြား ခေတ္တရပ်နားခြင်း အဘယ်ကြောင့် လိုအပ်သည်ကို အတိအကျ ဖော်ပြသည် - နောက်ထပ် အလင်းရောင်တစ်ခု မလွှတ်ခင် Battery သည် Capacitor ကို တဖြည်းဖြည်း ပြန် Charge တင်ပေးရမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, how much energy is stored in the flash capacitor?",
+            questionMy: "Flash Capacitor တွင် Energy မည်မျှ သိုလှောင်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["9 J", "300 J", "0.02 J", "200 J"],
+            optionsMy: ["9 J", "300 J", "0.02 J", "200 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why can the capacitor deliver its energy faster than the battery alone could?",
+            questionMy:
+                "Capacitor သည် Battery တစ်ခုတည်းထက် ၎င်း၏ Energy ကို အဘယ်ကြောင့် ပို၍ မြန်ဆန်စွာ ပေးပို့နိုင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A battery is limited by chemical reaction rates, unlike a capacitor",
+              "The battery has no charge at all",
+              "The capacitor is actually a second battery",
+              "Capacitors cannot store energy at all",
+            ],
+            optionsMy: [
+              "Battery သည် Capacitor နှင့် မတူဘဲ ဓာတု ဓာတ်ပြုမှုနှုန်းဖြင့် ကန့်သတ်ခံရသောကြောင့်",
+              "Battery တွင် Charge လုံးဝ မရှိသောကြောင့်",
+              "Capacitor သည် ဒုတိယ Battery တစ်ခု အမှန်တကယ် ဖြစ်သောကြောင့်",
+              "Capacitor များသည် Energy လုံးဝ သိုလှောင်၍ မရနိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does the flash need a pause between shots?",
+            questionMy: "Flash သည် ရိုက်ကူးမှုများကြား ခေတ္တရပ်နားခြင်း အဘယ်ကြောင့် လိုအပ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The battery must slowly recharge the capacitor again",
+              "The camera needs to cool down completely",
+              "The flash bulb must be physically replaced",
+              "There is no real reason for the pause",
+            ],
+            optionsMy: [
+              "Battery သည် Capacitor ကို တဖြည်းဖြည်း ပြန် Charge တင်ပေးရမည် ဖြစ်သောကြောင့်",
+              "ကင်မရာသည် လုံးဝ အေးဆေးရန် လိုအပ်သောကြောင့်",
+              "Flash ဓာတ်မီးသီးကို ကိုယ်ထည်အားဖြင့် အစားထိုးရမည် ဖြစ်သောကြောင့်",
+              "ခေတ္တရပ်နားခြင်းအတွက် အကြောင်းအမှန် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Capacitance",
+      titleMy: "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Capacitance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Capacitance C is defined as...",
+          questionMy: "Capacitance C ကို ...ဟု အနက်ဖွင့်သည်",
+          optionsEn: [
+            "Charge stored per unit potential difference, C = Q/V",
+            "Potential difference per unit charge",
+            "Charge multiplied by potential difference",
+            "Energy per unit time",
+          ],
+          optionsMy: [
+            "Potential Difference Unit တစ်ခုလျှင် သိုလှောင်ထားသော Charge, C = Q/V",
+            "Charge Unit တစ်ခုလျှင် Potential Difference",
+            "Charge ကို Potential Difference ဖြင့် မြှောက်ခြင်း",
+            "Time Unit တစ်ခုလျှင် Energy",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The SI unit of capacitance is the...",
+          questionMy: "Capacitance ၏ SI Unit မှာ...",
+          optionsEn: ["Farad (F)", "Volt (V)", "Coulomb (C)", "Ohm (Ω)"],
+          optionsMy: ["Farad (F)", "Volt (V)", "Coulomb (C)", "Ohm (Ω)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Energy stored in a capacitor can be calculated using...",
+          questionMy: "Capacitor တစ်ခု၏ Energy Stored ကို ...ဖြင့် တွက်ချက်နိုင်သည်",
+          optionsEn: [
+            "½QV, ½CV², or ½Q²/C",
+            "QV only, never any other form",
+            "V/C only",
+            "Q + V",
+          ],
+          optionsMy: [
+            "½QV, ½CV², (သို့) ½Q²/C",
+            "QV သာ၊ အခြား ပုံစံ လုံးဝ မရှိပါ",
+            "V/C သာ",
+            "Q + V",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16: "Charging and Discharging Capacitors" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek16 = CourseWeekDef(
+  id: "course-y13-phys-w16",
+  weekNumber: 16,
+  titleEn: "Charging and Discharging Capacitors",
+  titleMy: "Capacitor Charging နှင့် Discharging",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w16-d1",
+      dayNumber: 1,
+      titleEn: "Exponential Decay and the Time Constant τ = RC",
+      titleMy: "Exponential Decay နှင့် Time Constant τ = RC",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When a capacitor discharges through a resistor, the charge remaining follows...",
+          questionMy: "Capacitor တစ်ခုသည် Resistor ကို ဖြတ်ကာ Discharge ဖြစ်သောအခါ ကျန်ရှိသော Charge သည်...",
+          optionsEn: [
+            "Exponential decay",
+            "Linear decay",
+            "No change at all",
+            "Exponential growth",
+          ],
+          optionsMy: ["Exponential Decay", "Linear Decay", "လုံးဝ ပြောင်းလဲမှု မရှိပါ", "Exponential Growth"],
+          correctIndex: 0,
+          hintsEn: [
+            "The rate of discharge is proportional to the charge remaining at that instant -- the defining property of exponential decay.",
+          ],
+          hintsMy: [
+            "Discharge Rate သည် ထို ခဏတွင် ကျန်ရှိသော Charge နှင့် ပြောင်းလဲအချိုးကျသည် -- ၎င်းသည် Exponential Decay ၏ အဓိက ဂုဏ်သတ္တိ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The time constant τ = RC represents...",
+          questionMy: "Time Constant τ = RC သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "The time taken for charge to fall to about 37% (1/e) of its initial value",
+            "The time taken to fully discharge",
+            "The total charge stored",
+            "The maximum current in the circuit",
+          ],
+          optionsMy: [
+            "Charge ၎င်း၏ Initial Value ၏ 37% (1/e) ခန့်သို့ ကျဆင်းရန် ကြာချိန်",
+            "အပြည့်အဝ Discharge ဖြစ်ရန် ကြာချိန်",
+            "စုစုပေါင်း သိုလှောင်ထားသော Charge",
+            "Circuit ရှိ Maximum Current",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "τ = RC is defined as the time for the charge to fall to 1/e ≈ 37% of its initial value -- not the time to fully discharge, since exponential decay technically never reaches exactly zero.",
+          ],
+          hintsMy: [
+            "τ = RC ကို Charge ၎င်း၏ Initial Value ၏ 1/e ≈ 37% သို့ ကျဆင်းရန် ကြာချိန် အဖြစ် အနက်ဖွင့်သည် -- Exponential Decay သည် နည်းပညာအရ Zero အတိအကျသို့ လုံးဝ မရောက်ရှိသောကြောင့် အပြည့်အဝ Discharge ဖြစ်ရန် ကြာချိန် မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using τ = RC, find the time constant for R = 2 x 10³ Ω (2 kΩ) and C = 500 x 10⁻⁶ F (500 µF).",
+          questionMy:
+              "τ = RC ကို အသုံးပြု၍ R = 2 x 10³ Ω (2 kΩ) နှင့် C = 500 x 10⁻⁶ F (500 µF) ၏ Time Constant ကို ရှာပါ။",
+          optionsEn: ["1 s", "0.001 s", "1000 s", "2.5 s"],
+          optionsMy: ["1 s", "0.001 s", "1000 s", "2.5 s"],
+          correctIndex: 0,
+          hintsEn: ["τ = RC = 2x10³ x 500x10⁻⁶ = 1 s."],
+          hintsMy: ["τ = RC = 2x10³ x 500x10⁻⁶ = 1 s ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Charging and Discharging Terms",
+      titleMy: "တွဲစပ်ကြမည် - Charging နှင့် Discharging ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w16-dm-1",
+          termEn: "τ = RC",
+          termMy: "τ = RC",
+          matchEn: "Time constant formula",
+          matchMy: "Time Constant ဖော်မြူလာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w16-dm-2",
+          termEn: "1/e ≈ 37%",
+          termMy: "1/e ≈ 37%",
+          matchEn: "Fraction of initial charge remaining after one time constant",
+          matchMy: "Time Constant တစ်ခုအကြာတွင် ကျန်ရှိသော Initial Charge ၏ Fraction",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w16-dm-3",
+          termEn: "Discharging capacitor",
+          termMy: "Discharging Capacitor",
+          matchEn: "Charge, current and p.d. all decay exponentially with time",
+          matchMy: "Charge, Current နှင့် p.d. အားလုံး Time နှင့်အတူ Exponentially ကျဆင်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w16-dm-4",
+          termEn: "Charging capacitor",
+          termMy: "Charging Capacitor",
+          matchEn: "Charge/p.d. rise exponentially toward a maximum, current decays",
+          matchMy: "Charge/p.d. Maximum သို့ Exponentially မြင့်တက်ပြီး Current ကျဆင်းသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w16-dm-5",
+          termEn: "Exponential decay",
+          termMy: "Exponential Decay",
+          matchEn: "Rate of change proportional to the quantity remaining",
+          matchMy: "ပြောင်းလဲမှု နှုန်းသည် ကျန်ရှိသော ပမာဏနှင့် ပြောင်းလဲအချိုးကျသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Charging or Discharging?",
+      titleMy: "စီစစ်ကြမည် - Charging လား၊ Discharging လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Charging", "Discharging"],
+        bucketsMy: ["Charging", "Discharging"],
+        items: [
+          SortingItem(
+            id: "y13phys-w16-sort-1",
+            labelEn: "Charge on the capacitor rises from zero toward a maximum value",
+            labelMy: "Capacitor ပေါ်ရှိ Charge သည် Zero မှ Maximum Value သို့ တက်လာသည်",
+            correctBucketEn: "Charging",
+            correctBucketMy: "Charging",
+          ),
+          SortingItem(
+            id: "y13phys-w16-sort-2",
+            labelEn: "Charge on the capacitor falls from an initial value toward zero",
+            labelMy: "Capacitor ပေါ်ရှိ Charge သည် Initial Value မှ Zero သို့ ကျဆင်းသည်",
+            correctBucketEn: "Discharging",
+            correctBucketMy: "Discharging",
+          ),
+          SortingItem(
+            id: "y13phys-w16-sort-3",
+            labelEn: "p.d. across the capacitor increases toward the supply e.m.f.",
+            labelMy: "Capacitor ၏ p.d. သည် Supply e.m.f. သို့ တိုးလာသည်",
+            correctBucketEn: "Charging",
+            correctBucketMy: "Charging",
+          ),
+          SortingItem(
+            id: "y13phys-w16-sort-4",
+            labelEn: "p.d. across the capacitor decreases toward zero",
+            labelMy: "Capacitor ၏ p.d. သည် Zero သို့ ကျဆင်းသည်",
+            correctBucketEn: "Discharging",
+            correctBucketMy: "Discharging",
+          ),
+          SortingItem(
+            id: "y13phys-w16-sort-5",
+            labelEn: "The capacitor is connected directly across a resistor with no battery in the loop",
+            labelMy: "Capacitor ကို Loop ထဲတွင် Battery မပါဘဲ Resistor တစ်ခုနှင့် တိုက်ရိုက် ချိတ်ဆက်ထားသည်",
+            correctBucketEn: "Discharging",
+            correctBucketMy: "Discharging",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Defibrillator's Rapid Discharge",
+      titleMy: "စာဖတ်ခြင်း - Defibrillator ၏ လျင်မြန်သော Discharge",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Defibrillator's Rapid Discharge",
+        titleMy: "Defibrillator ၏ လျင်မြန်သော Discharge",
+        passageEn:
+            "Sayama Moe Moe Aye told Htet Aung and Su Su about a device that pushes RC discharge physics to its most dramatic real-world application: the cardiac defibrillator, used to restart a heart in a dangerous rhythm.\n\nA defibrillator slowly charges an internal capacitor, C = 32 µF = 3.2x10⁻⁵ F, up to a very high voltage, V = 5000 V. Using E = ½CV², the energy stored is E = 0.5 x 3.2x10⁻⁵ x 5000² = 0.5 x 3.2x10⁻⁵ x 25000000 = 400 J -- roughly enough energy to lift a 40 kg mass one metre off the ground, stored entirely inside a device small enough to carry in one hand.\n\nWhen the paddles are triggered, that capacitor discharges through the patient's chest, which behaves approximately as a resistor of about R = 50 Ω, giving a time constant τ = RC = 50 x 3.2x10⁻⁵ = 1.6x10⁻³ s -- just 1.6 milliseconds. Sayama Moe Moe Aye explained that this extreme speed is the entire point: a battery could never deliver 400 J that quickly on its own, since it is limited by chemical reaction rates, but a charged capacitor can release its stored energy almost as fast as the circuit allows, delivering the powerful, near-instantaneous jolt needed to reset the heart's electrical rhythm.",
+        passageMy:
+            "RC Discharge ရူပဗေဒကို လက်တွေ့တွင် အလွန်ထူးခြားစွာ အသုံးချသော Device တစ်ခုအကြောင်း ဆရာမ မိုမိုအေးသည် Htet Aung နှင့် Su Su ကို ပြောပြခဲ့သည် - စိတ်နှလုံး အန္တရာယ်ရှိသော ခေါက်ချက်ကို ပြန်လည် စတင်စေရန် အသုံးပြုသော Cardiac Defibrillator ဖြစ်သည်။\n\nDefibrillator သည် ၎င်း၏ အတွင်းပိုင်း Capacitor C = 32 µF = 3.2x10⁻⁵ F ကို V = 5000 V ဟူသော အလွန်မြင့်မားသော Voltage အထိ တဖြည်းဖြည်း Charge တင်ပေးသည်။ E = ½CV² ကို အသုံးပြု၍ Energy Stored သည် E = 0.5 x 3.2x10⁻⁵ x 5000² = 0.5 x 3.2x10⁻⁵ x 25000000 = 400 J ဖြစ်သည် -- လက်တစ်ဖက်ဖြင့် သယ်ဆောင်နိုင်လောက်အောင် သေးငယ်သော Device တစ်ခုအတွင်း လုံးဝ သိုလှောင်ထားသော 40 kg Mass တစ်ခုကို မြေပြင်မှ Metre တစ်ခု မြှောက်တင်ရန် လုံလောက်သော Energy ခန့် ဖြစ်သည်။\n\nPaddle များကို Trigger ဖတ်လိုက်သောအခါ ထို Capacitor သည် လူနာ၏ ရင်ဘတ်ကို ဖြတ်ကာ Discharge ဖြစ်သွားပြီး ၎င်းသည် R = 50 Ω ခန့်ရှိသော Resistor တစ်ခုကဲ့သို့ ခန့်မှန်း သက်ရောက်သည်ဟု ယူဆလျှင် Time Constant τ = RC = 50 x 3.2x10⁻⁵ = 1.6x10⁻³ s -- 1.6 Milliseconds ခန့်သာ ရရှိသည်။ ဤ Extreme Speed သည် အဓိက အချက် ဖြစ်ကြောင်း ဆရာမ မိုမိုအေး ရှင်းပြခဲ့သည် - Battery တစ်ခုတည်းသည် ဓာတု ဓာတ်ပြုမှုနှုန်းဖြင့် ကန့်သတ်ခံရသောကြောင့် 400 J ကို ထို့မျှလောက် လျင်မြန်စွာ ဘယ်တော့မှ ပေးပို့နိုင်မည် မဟုတ်သော်လည်း Charge တင်ထားသော Capacitor သည် Circuit ခွင့်ပြုသလောက် ၎င်း၏ သိုလှောင်ထားသော Energy ကို လျင်မြန်စွာ လွှတ်ချနိုင်ပြီး နှလုံး၏ လျှပ်စစ် ခေါက်ချက်ကို ပြန်လည် Reset လုပ်ရန် လိုအပ်သော ပြင်းထန်ပြီး ချက်ချင်းနီးပါး ဖြစ်သော လျှပ်စစ်ဆက်တစ်ခု ပေးပို့နိုင်သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the time constant of the discharge through the patient?",
+            questionMy: "လူနာကို ဖြတ်ကာ Discharge ဖြစ်ခြင်း၏ Time Constant ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 1.6 ms", "≈ 1.6 s", "≈ 400 s", "≈ 50 s"],
+            optionsMy: ["≈ 1.6 ms", "≈ 1.6 s", "≈ 400 s", "≈ 50 s"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, how much energy is stored in the defibrillator's capacitor?",
+            questionMy: "Defibrillator ၏ Capacitor တွင် Energy မည်မျှ သိုလှောင်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 400 J", "≈ 32 J", "≈ 5000 J", "≈ 50 J"],
+            optionsMy: ["≈ 400 J", "≈ 32 J", "≈ 5000 J", "≈ 50 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why can't a battery deliver the same jolt directly?",
+            questionMy: "Battery တစ်ခုတည်းသည် ထိုအတူတူသော လျှပ်စစ်ဆက်ကို တိုက်ရိုက် အဘယ်ကြောင့် ပေးပို့၍ မရနိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is limited by chemical reaction rates",
+              "Batteries cannot store any energy",
+              "Batteries are always larger than capacitors",
+              "There is no real reason -- a battery works identically",
+            ],
+            optionsMy: [
+              "ဓာတု ဓာတ်ပြုမှုနှုန်းဖြင့် ကန့်သတ်ခံရသောကြောင့်",
+              "Battery များသည် Energy လုံးဝ သိုလှောင်၍ မရနိုင်သောကြောင့်",
+              "Battery များသည် Capacitor များထက် အမြဲ ကြီးသောကြောင့်",
+              "အကြောင်းအမှန် မရှိပါ -- Battery သည် အတူတူပင် အလုပ်လုပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Charging and Discharging",
+      titleMy: "တစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Charging နှင့် Discharging",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The time constant τ = RC represents...",
+          questionMy: "Time Constant τ = RC သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "The time for charge to fall to about 37% of its initial value",
+            "The exact time to fully discharge to zero",
+            "The maximum voltage in the circuit",
+            "The total resistance only",
+          ],
+          optionsMy: [
+            "Charge ၎င်း၏ Initial Value ၏ 37% ခန့်သို့ ကျဆင်းရန် ကြာချိန်",
+            "Zero အထိ အပြည့်အဝ Discharge ဖြစ်ရန် အတိအကျ ကြာချိန်",
+            "Circuit ရှိ Maximum Voltage",
+            "စုစုပေါင်း Resistance သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "During charging, current in the circuit...",
+          questionMy: "Charging အတွင်း Circuit ရှိ Current သည်...",
+          optionsEn: [
+            "Starts at a maximum and decays exponentially toward zero",
+            "Starts at zero and stays at zero",
+            "Rises exponentially forever",
+            "Is always constant",
+          ],
+          optionsMy: [
+            "Maximum မှ စတင်ပြီး Zero သို့ Exponentially ကျဆင်းသည်",
+            "Zero မှ စတင်ပြီး Zero တွင်ပင် ဆက်ရှိနေသည်",
+            "အမြဲထာဝရ Exponentially တက်လာသည်",
+            "အမြဲ Constant ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A defibrillator's capacitor is designed to discharge...",
+          questionMy: "Defibrillator ၏ Capacitor ကို ...Discharge ဖြစ်စေရန် ဒီဇိုင်း ထုတ်ထားသည်",
+          optionsEn: [
+            "Very rapidly, delivering a large burst of energy in a short time",
+            "Very slowly, over several minutes",
+            "Only once every 24 hours",
+            "Never -- it stores energy permanently",
+          ],
+          optionsMy: [
+            "အလွန်လျင်မြန်စွာ၊ Energy အလုံးအရင်းကို အချိန်တိုအတွင်း ပေးပို့ခြင်း",
+            "အလွန်နှေးကွေးစွာ၊ မိနစ်များစွာအတွင်း",
+            "24 Hours တစ်ကြိမ်သာ",
+            "လုံးဝ မဟုတ်ပါ -- Energy ကို အမြဲထာဝရ သိုလှောင်ထားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 4: "Electric Fields and Capacitance". Covers
+/// Coulomb's law and electric field strength (point charges), uniform
+/// fields between parallel plates and field patterns, capacitance and
+/// energy stored in a capacitor, and closes with a Charging and
+/// Discharging Capacitors capstone week (exponential decay, the time
+/// constant τ = RC, and real-world RC discharge applications).
+const CourseTermDef year13PhysicsTerm4 = CourseTermDef(
+  id: "course-y13-phys-term4",
+  termNumber: 4,
+  titleEn: "Electric Fields and Capacitance",
+  titleMy: "Electric Fields နှင့် Capacitance",
+  weeks: [_y13PhysWeek13, _y13PhysWeek14, _y13PhysWeek15, _y13PhysWeek16],
+  certificateTitleEn: "A2 Physics: Electric Fields and Capacitance",
+  certificateTitleMy: "A2 ရူပဗေဒ - Electric Fields နှင့် Capacitance",
+);
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 5: "Magnetic Fields and Electromagnetic
+// Induction"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Magnetic Flux Density and F = BIL"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek17 = CourseWeekDef(
+  id: "course-y13-phys-w17",
+  weekNumber: 17,
+  titleEn: "Magnetic Flux Density and F = BIL",
+  titleMy: "Magnetic Flux Density နှင့် F = BIL",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w17-d1",
+      dayNumber: 1,
+      titleEn: "F = BIL and Fleming's Left-Hand Rule",
+      titleMy: "F = BIL နှင့် Fleming's Left-Hand Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using F = BIL, find the force on a wire of length 0.5 m carrying current 3 A perpendicular to a field of flux density 0.2 T.",
+          questionMy:
+              "F = BIL ကို အသုံးပြု၍ Flux Density 0.2 T ရှိသော Field နှင့် Perpendicular ဖြစ်ကာ Current 3 A စီးဆင်းနေသော Length 0.5 m ရှိ Wire ပေါ် Force ကို ရှာပါ။",
+          optionsEn: ["0.3 N", "0.6 N", "1.5 N", "0.06 N"],
+          optionsMy: ["0.3 N", "0.6 N", "1.5 N", "0.06 N"],
+          correctIndex: 0,
+          hintsEn: ["F = BIL = 0.2 x 3 x 0.5 = 0.3 N."],
+          hintsMy: ["F = BIL = 0.2 x 3 x 0.5 = 0.3 N ။"],
+        ),
+        QuizQuestion(
+          questionEn: "The SI unit of magnetic flux density B is the...",
+          questionMy: "Magnetic Flux Density B ၏ SI Unit မှာ...",
+          optionsEn: ["Tesla (T)", "Weber (Wb)", "Henry (H)", "Farad (F)"],
+          optionsMy: ["Tesla (T)", "Weber (Wb)", "Henry (H)", "Farad (F)"],
+          correctIndex: 0,
+          hintsEn: [
+            "Magnetic flux density is measured in tesla (T), defined so that 1 T = 1 N A⁻¹ m⁻¹ -- force per unit current per unit length.",
+          ],
+          hintsMy: [
+            "Magnetic Flux Density ကို Tesla (T) ဖြင့် တိုင်းတာပြီး 1 T = 1 N A⁻¹ m⁻¹ -- Current Unit တစ်ခုလျှင်၊ Length Unit တစ်ခုလျှင် Force ဟု အနက်ဖွင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Fleming's left-hand rule, a current flows to the right and the magnetic field points into the page. The direction of the force on the wire is...",
+          questionMy:
+              "Fleming's Left-Hand Rule ကို အသုံးပြုလျှင် Current သည် ညာဘက်သို့ စီးဆင်းပြီး Magnetic Field သည် စာမျက်နှာထဲသို့ ညွှန်ပြသည်။ Wire ပေါ် Force ၏ ဦးတည်ချက်မှာ...",
+          optionsEn: [
+            "Upward (toward the top of the page)",
+            "Downward (toward the bottom of the page)",
+            "Out of the page",
+            "Into the page",
+          ],
+          optionsMy: [
+            "အထက်သို့ (စာမျက်နှာ၏ ထိပ်ဘက်သို့)",
+            "အောက်သို့ (စာမျက်နှာ၏ အောက်ခြေသို့)",
+            "စာမျက်နှာအပြင်ဘက်သို့",
+            "စာမျက်နှာထဲသို့",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Using Fleming's left-hand rule: First finger = Field (into the page), seCond finger = Current (to the right), thuMb = Motion/force -- pointing upward.",
+          ],
+          hintsMy: [
+            "Fleming's Left-Hand Rule အသုံးပြုပါ - First Finger = Field (စာမျက်နှာထဲသို့), seCond Finger = Current (ညာဘက်သို့), thuMb = Motion/Force -- အထက်သို့ ညွှန်ပြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Motor Effect Symbols",
+      titleMy: "တွဲစပ်ကြမည် - Motor Effect သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w17-dm-1",
+          termEn: "B",
+          termMy: "B",
+          matchEn: "Magnetic flux density (tesla, T)",
+          matchMy: "Magnetic Flux Density (Tesla, T)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w17-dm-2",
+          termEn: "F = BIL",
+          termMy: "F = BIL",
+          matchEn: "Force on a current-carrying conductor (field perpendicular)",
+          matchMy: "Current-Carrying Conductor တစ်ခုပေါ် Force (Field Perpendicular)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w17-dm-3",
+          termEn: "Fleming's left-hand rule",
+          termMy: "Fleming's Left-Hand Rule",
+          matchEn: "First finger=Field, seCond finger=Current, thuMb=Motion",
+          matchMy: "First Finger=Field, seCond Finger=Current, thuMb=Motion",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w17-dm-4",
+          termEn: "Tesla (T)",
+          termMy: "Tesla (T)",
+          matchEn: "SI unit of magnetic flux density",
+          matchMy: "Magnetic Flux Density ၏ SI Unit",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w17-dm-5",
+          termEn: "I",
+          termMy: "I",
+          matchEn: "Current in the conductor",
+          matchMy: "Conductor ရှိ Current",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Does Not Affect F = BIL?",
+      titleMy: "စီစစ်ကြမည် - F = BIL ကို တိုးစေသလား၊ သက်ရောက်မှု မရှိပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Force F = BIL", "Does Not Affect Force F = BIL"],
+        bucketsMy: ["Force F = BIL ကို တိုးစေသည်", "Force F = BIL ကို သက်ရောက်မှု မရှိပါ"],
+        items: [
+          SortingItem(
+            id: "y13phys-w17-sort-1",
+            labelEn: "Increasing the current I",
+            labelMy: "Current I ကို တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Force F = BIL",
+            correctBucketMy: "Force F = BIL ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w17-sort-2",
+            labelEn: "Increasing the magnetic flux density B",
+            labelMy: "Magnetic Flux Density B ကို တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Force F = BIL",
+            correctBucketMy: "Force F = BIL ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w17-sort-3",
+            labelEn: "Increasing the length L of wire in the field",
+            labelMy: "Field ထဲရှိ Wire ၏ Length L ကို တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Force F = BIL",
+            correctBucketMy: "Force F = BIL ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w17-sort-4",
+            labelEn: "Changing the colour of the wire's insulation",
+            labelMy: "Wire ၏ Insulation အရောင်ကို ပြောင်းလဲခြင်း",
+            correctBucketEn: "Does Not Affect Force F = BIL",
+            correctBucketMy: "Force F = BIL ကို သက်ရောက်မှု မရှိပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w17-sort-5",
+            labelEn: "Increasing the wire's temperature (current unchanged)",
+            labelMy: "Wire ၏ Temperature ကို တိုးမြှင့်ခြင်း (Current မပြောင်းလဲပါ)",
+            correctBucketEn: "Does Not Affect Force F = BIL",
+            correctBucketMy: "Force F = BIL ကို သက်ရောက်မှု မရှိပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Motor Effect Inside a Loudspeaker",
+      titleMy: "စာဖတ်ခြင်း - Loudspeaker အတွင်းရှိ Motor Effect",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Motor Effect Inside a Loudspeaker",
+        titleMy: "Loudspeaker အတွင်းရှိ Motor Effect",
+        passageEn:
+            "Htet Aung dismantled an old, broken loudspeaker over the weekend and brought the pieces to show Sayar Zaw Min, curious about the ring-shaped magnet he found glued around a small coil of wire attached to the paper cone.\n\nSayar Zaw Min explained that a loudspeaker is a direct application of the motor effect: the coil (total length in the magnetic field L = 0.3 m) carries the audio current I = 0.5 A through the magnet's field B = 0.4 T, producing a force F = BIL = 0.4 x 0.5 x 0.3 = 0.06 N. Although 0.06 N sounds tiny, it is enough to push the lightweight paper cone back and forth.\n\nCrucially, he added, the audio signal itself is an alternating current whose size and direction change many times per second, matching the frequencies of the sound being reproduced. As the current varies, so does the force F = BIL on the coil, so the cone vibrates in step with the audio signal -- pushing air back and forth to create the sound waves that reach a listener's ears. Su Su realised that a microphone works by essentially the same physics in reverse: sound vibrates a coil in a magnetic field, and it is this same motor-effect relationship, run backward, that generates the tiny electrical signal a microphone sends out.",
+        passageMy:
+            "Htet Aung သည် ရက်သတ္တပတ်ကုန်တွင် Loudspeaker ဟောင်း ပျက်စီးနေသည်တစ်ခုကို ဖြုတ်ချကြည့်ပြီး Paper Cone တွင် ကပ်ထားသော ကြိုးလိပ်တစ်ခု ပတ်ပတ်လည် ကပ်ထားသည့် ဝန်းရံပုံ သံလိုက် ကို တွေ့ရှိကာ စိတ်ဝင်စားစွာ ဆရာဇော်မင်းကို ပြသရန် အပိုင်းများကို ယူလာခဲ့သည်။\n\nLoudspeaker တစ်ခုသည် Motor Effect ကို တိုက်ရိုက် အသုံးချထားခြင်း ဖြစ်ကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည် - Coil (Magnetic Field ထဲရှိ Total Length L = 0.3 m) သည် Audio Current I = 0.5 A ကို သံလိုက်၏ Field B = 0.4 T ကို ဖြတ်၍ စီးစေသောကြောင့် Force F = BIL = 0.4 x 0.5 x 0.3 = 0.06 N ဖြစ်ပေါ်စေသည်။ 0.06 N သည် သေးငယ်နေသကဲ့သို့ ကြားရသော်လည်း ပေါ့ပါးသော Paper Cone ကို ရှေ့နောက် တွန်းပေးရန် လုံလောက်သည်။\n\nအရေးကြီးသည်မှာ Audio Signal ကိုယ်တိုင်သည် ပြန်လည်ထုတ်လွှင့်နေသော အသံ၏ Frequency နှင့် ကိုက်ညီစွာ Size နှင့် Direction ကို စက္ကန့်ပိုင်းအတွင်း အကြိမ်ကြိမ် ပြောင်းလဲနေသော Alternating Current ဖြစ်ကြောင်း သူ ထပ်ဆောင်းခဲ့သည်။ Current ပြောင်းလဲသည်နှင့်အမျှ Coil ပေါ်ရှိ Force F = BIL ပါ ပြောင်းလဲသောကြောင့် Cone သည် Audio Signal နှင့် အချိန်ကိုက် တုန်ခါသည် -- လေကို ရှေ့နောက် တွန်းပေးကာ နားထောင်သူ၏ နားထဲသို့ ရောက်ရှိသော အသံလှိုင်းများ ဖြစ်ပေါ်စေသည်။ Microphone တစ်ခုသည် အခြေခံအားဖြင့် တူညီသော ရူပဗေဒကို ပြောင်းပြန် အလုပ်လုပ်ခြင်းဖြင့် အလုပ်လုပ်ကြောင်း Su Su သဘောပေါက်ခဲ့သည် - အသံသည် Magnetic Field ထဲရှိ Coil တစ်ခုကို တုန်ခါစေပြီး ဤ Motor-Effect ဆက်နွယ်မှု တူညီကို ပြောင်းပြန် လည်ပတ်ခြင်းက Microphone ထုတ်လွှင့်သော လျှပ်စစ် Signal သေးသေးလေးကို ဖန်တီးပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the force on the loudspeaker coil?",
+            questionMy: "Loudspeaker Coil ပေါ်ရှိ Force ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.06 N", "0.4 N", "0.5 N", "0.3 N"],
+            optionsMy: ["0.06 N", "0.4 N", "0.5 N", "0.3 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the cone vibrate in step with the audio signal?",
+            questionMy:
+                "Cone သည် Audio Signal နှင့် အချိန်ကိုက် အဘယ်ကြောင့် တုန်ခါသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "As the current varies, the force F = BIL on the coil varies too",
+              "The magnet spins continuously inside the speaker",
+              "The cone is made of a special vibrating plastic",
+              "There is no real physical connection to the current",
+            ],
+            optionsMy: [
+              "Current ပြောင်းလဲသည်နှင့်အမျှ Coil ပေါ်ရှိ Force F = BIL ပါ ပြောင်းလဲသောကြောင့်",
+              "သံလိုက်သည် Speaker အတွင်း ဆက်တိုက် လည်ပတ်နေသောကြောင့်",
+              "Cone ကို အထူး တုန်ခါနိုင်သော Plastic ဖြင့် ပြုလုပ်ထားသောကြောင့်",
+              "Current နှင့် အမှန်တကယ် ရုပ်ပိုင်းဆိုင်ရာ ဆက်နွယ်မှု လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, how does a microphone relate to a loudspeaker?",
+            questionMy: "Microphone တစ်ခုသည် Loudspeaker နှင့် မည်သို့ ဆက်စပ်နေသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It uses essentially the same motor-effect physics, run in reverse",
+              "It has absolutely no relationship to a loudspeaker",
+              "It uses only capacitors, never any magnets",
+              "It requires no coil or magnet at all",
+            ],
+            optionsMy: [
+              "အခြေခံအားဖြင့် တူညီသော Motor-Effect ရူပဗေဒကို ပြောင်းပြန် လည်ပတ်ခြင်း ဖြစ်သည်",
+              "Loudspeaker နှင့် ဆက်စပ်မှု လုံးဝ မရှိပါ",
+              "Capacitor များကိုသာ အသုံးပြုပြီး သံလိုက် လုံးဝ မပါဝင်ပါ",
+              "Coil (သို့) သံလိုက် လုံးဝ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: The Motor Effect",
+      titleMy: "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Motor Effect",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "F = BIL applies when the current is...",
+          questionMy: "F = BIL သည် Current ...သောအခါ သက်ဆိုင်သည်",
+          optionsEn: [
+            "Perpendicular to the magnetic field",
+            "Parallel to the magnetic field",
+            "Zero",
+            "Alternating only, never direct",
+          ],
+          optionsMy: [
+            "Magnetic Field နှင့် Perpendicular ဖြစ်",
+            "Magnetic Field နှင့် Parallel ဖြစ်",
+            "Zero ဖြစ်",
+            "Alternating သာ ဖြစ်၊ Direct လုံးဝ မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The SI unit of magnetic flux density is the...",
+          questionMy: "Magnetic Flux Density ၏ SI Unit မှာ...",
+          optionsEn: ["Tesla", "Weber", "Ohm", "Farad"],
+          optionsMy: ["Tesla", "Weber", "Ohm", "Farad"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Fleming's left-hand rule gives the direction of...",
+          questionMy: "Fleming's Left-Hand Rule က ...၏ ဦးတည်ချက်ကို ပေးသည်",
+          optionsEn: [
+            "The force on a current-carrying conductor in a magnetic field",
+            "The direction of an induced e.m.f. only",
+            "The direction of gravitational force",
+            "The direction of an electric field only",
+          ],
+          optionsMy: [
+            "Magnetic Field ထဲရှိ Current-Carrying Conductor တစ်ခုပေါ် Force",
+            "Induced e.m.f. ၏ ဦးတည်ချက်သာ",
+            "Gravitational Force ၏ ဦးတည်ချက်",
+            "Electric Field ၏ ဦးတည်ချက်သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "The Motor Effect on Moving Charges: F = BQv"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek18 = CourseWeekDef(
+  id: "course-y13-phys-w18",
+  weekNumber: 18,
+  titleEn: "The Motor Effect on Moving Charges: F = BQv",
+  titleMy: "Moving Charge များပေါ် Motor Effect - F = BQv",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w18-d1",
+      dayNumber: 1,
+      titleEn: "F = BQv and Circular Motion of Charged Particles",
+      titleMy: "F = BQv နှင့် Charged Particle များ၏ Circular Motion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using F = BQv, find the force on a charge Q = 1.6 x 10⁻¹⁹ C moving at v = 2 x 10⁶ m s⁻¹ perpendicular to a field B = 0.5 T.",
+          questionMy:
+              "F = BQv ကို အသုံးပြု၍ Field B = 0.5 T နှင့် Perpendicular ဖြစ်ကာ v = 2 x 10⁶ m s⁻¹ ဖြင့် ရွေ့လျားနေသော Charge Q = 1.6 x 10⁻¹⁹ C ပေါ် Force ကို ရှာပါ။",
+          optionsEn: [
+            "1.6 x 10⁻¹³ N",
+            "3.2 x 10⁻¹³ N",
+            "8 x 10⁻¹⁴ N",
+            "6.4 x 10⁻¹³ N",
+          ],
+          optionsMy: [
+            "1.6 x 10⁻¹³ N",
+            "3.2 x 10⁻¹³ N",
+            "8 x 10⁻¹⁴ N",
+            "6.4 x 10⁻¹³ N",
+          ],
+          correctIndex: 0,
+          hintsEn: ["F = BQv = 0.5 x 1.6x10⁻¹⁹ x 2x10⁶ = 1.6x10⁻¹³ N."],
+          hintsMy: ["F = BQv = 0.5 x 1.6x10⁻¹⁹ x 2x10⁶ = 1.6x10⁻¹³ N ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A charged particle moving perpendicular to a uniform magnetic field follows a...",
+          questionMy: "Uniform Magnetic Field နှင့် Perpendicular ဖြစ်စွာ ရွေ့လျားနေသော Charged Particle သည် ...ကို လိုက်နာသည်",
+          optionsEn: [
+            "Circular path",
+            "Straight line, unaffected",
+            "Parabolic path",
+            "Spiral that grows without bound",
+          ],
+          optionsMy: [
+            "Circular Path",
+            "ဖြောင့်မျဉ်း၊ သက်ရောက်မှု မရှိပါ",
+            "Parabolic Path",
+            "အကန့်အသတ် မရှိဘဲ ကြီးထွားလာသော Spiral",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because F = BQv always acts perpendicular to v, it changes the direction of motion but never the speed -- exactly the condition for circular motion, with the magnetic force providing the centripetal force.",
+          ],
+          hintsMy: [
+            "F = BQv သည် v နှင့် အမြဲ Perpendicular ဖြစ်၍ ရွေ့လျားမှု ဦးတည်ချက်ကို ပြောင်းလဲသော်လည်း Speed ကို လုံးဝ မပြောင်းလဲစေပါ -- ၎င်းသည် Magnetic Force က Centripetal Force ကို ပေးသော Circular Motion အတွက် အခြေအနေ အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Combining F = BQv = mv²/r, find the radius of a proton's circular path (m = 1.67 x 10⁻²⁷ kg, Q = 1.6 x 10⁻¹⁹ C) moving at v = 1 x 10⁶ m s⁻¹ in a field B = 0.2 T.",
+          questionMy:
+              "F = BQv = mv²/r ကို ပေါင်းစပ်၍ Field B = 0.2 T ထဲတွင် v = 1 x 10⁶ m s⁻¹ ဖြင့် ရွေ့လျားနေသော Proton (m = 1.67 x 10⁻²⁷ kg, Q = 1.6 x 10⁻¹⁹ C) ၏ Circular Path Radius ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 5.22 x 10⁻² m",
+            "≈ 1.04 x 10⁻¹ m",
+            "≈ 2.61 x 10⁻² m",
+            "≈ 1.67 x 10⁻² m",
+          ],
+          optionsMy: [
+            "≈ 5.22 x 10⁻² m",
+            "≈ 1.04 x 10⁻¹ m",
+            "≈ 2.61 x 10⁻² m",
+            "≈ 1.67 x 10⁻² m",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "r = mv/BQ = (1.67x10⁻²⁷ x 1x10⁶)/(0.2 x 1.6x10⁻¹⁹) = 1.67x10⁻²¹/3.2x10⁻²⁰ ≈ 5.22x10⁻² m.",
+          ],
+          hintsMy: [
+            "r = mv/BQ = (1.67x10⁻²⁷ x 1x10⁶)/(0.2 x 1.6x10⁻¹⁹) = 1.67x10⁻²¹/3.2x10⁻²⁰ ≈ 5.22x10⁻² m ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Charged Particles in Magnetic Fields",
+      titleMy: "တွဲစပ်ကြမည် - Magnetic Field ထဲရှိ Charged Particle များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w18-dm-1",
+          termEn: "F = BQv",
+          termMy: "F = BQv",
+          matchEn: "Force on a moving charge in a magnetic field",
+          matchMy: "Magnetic Field ထဲရှိ Moving Charge ပေါ် Force",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w18-dm-2",
+          termEn: "Circular path",
+          termMy: "Circular Path",
+          matchEn: "Shape of a charged particle's path when v ⊥ B",
+          matchMy: "v ⊥ B ဖြစ်သောအခါ Charged Particle ၏ Path ပုံသဏ္ဌာန်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w18-dm-3",
+          termEn: "r = mv/BQ",
+          termMy: "r = mv/BQ",
+          matchEn: "Radius of a charged particle's circular path",
+          matchMy: "Charged Particle ၏ Circular Path Radius",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w18-dm-4",
+          termEn: "Mass spectrometer",
+          termMy: "Mass Spectrometer",
+          matchEn: "Real device using F = BQv to sort charged particles by mass",
+          matchMy: "Mass အလိုက် Charged Particle များကို စီစစ်ရန် F = BQv ကို အသုံးပြုသော Device",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w18-dm-5",
+          termEn: "v ⊥ B",
+          termMy: "v ⊥ B",
+          matchEn: "Condition needed for maximum force on a moving charge",
+          matchMy: "Moving Charge ပေါ် Maximum Force အတွက် လိုအပ်သော Condition",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Force Present or No Force?",
+      titleMy: "စီစစ်ကြမည် - Force ရှိသလား၊ Force မရှိပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Force Present", "No Force (Zero Magnetic Force)"],
+        bucketsMy: ["Force ရှိသည်", "Force မရှိပါ (Zero Magnetic Force)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w18-sort-1",
+            labelEn: "Charge moving perpendicular to B",
+            labelMy: "B နှင့် Perpendicular ဖြစ်စွာ ရွေ့လျားနေသော Charge",
+            correctBucketEn: "Force Present",
+            correctBucketMy: "Force ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w18-sort-2",
+            labelEn: "Charge moving parallel to B (along the field lines)",
+            labelMy: "B နှင့် Parallel ဖြစ်စွာ (Field Line များအတိုင်း) ရွေ့လျားနေသော Charge",
+            correctBucketEn: "No Force (Zero Magnetic Force)",
+            correctBucketMy: "Force မရှိပါ (Zero Magnetic Force)",
+          ),
+          SortingItem(
+            id: "y13phys-w18-sort-3",
+            labelEn: "A stationary charge in a magnetic field",
+            labelMy: "Magnetic Field ထဲရှိ Stationary Charge",
+            correctBucketEn: "No Force (Zero Magnetic Force)",
+            correctBucketMy: "Force မရှိပါ (Zero Magnetic Force)",
+          ),
+          SortingItem(
+            id: "y13phys-w18-sort-4",
+            labelEn: "Charge moving at an angle θ (0 < θ < 90°) to B",
+            labelMy: "B နှင့် Angle θ (0 < θ < 90°) ဖြင့် ရွေ့လျားနေသော Charge",
+            correctBucketEn: "Force Present",
+            correctBucketMy: "Force ရှိသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w18-sort-5",
+            labelEn: "A neutral (uncharged) particle moving through the field",
+            labelMy: "Field ကို ဖြတ်၍ ရွေ့လျားနေသော Neutral (Uncharged) Particle",
+            correctBucketEn: "No Force (Zero Magnetic Force)",
+            correctBucketMy: "Force မရှိပါ (Zero Magnetic Force)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Auroras Appear Near the Poles",
+      titleMy: "စာဖတ်ခြင်း - Aurora များ ကမ္ဘာ့ ဝင်ရိုးစွန်းအနီးတွင် ပေါ်ထွက်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Auroras Appear Near the Poles",
+        titleMy: "Aurora များ ကမ္ဘာ့ ဝင်ရိုးစွန်းအနီးတွင် ပေါ်ထွက်ရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Su Su had seen photographs of the aurora borealis and wondered why the glowing lights only appear near the North and South Poles, never near the equator. Sayar Zaw Min explained that the answer lies in F = BQv acting on charged particles from the solar wind as they approach Earth's magnetic field.\n\nA fast solar-wind electron (m = 9.11x10⁻³¹ kg, Q = 1.6x10⁻¹⁹ C) travelling at v = 1x10⁷ m s⁻¹ through Earth's field near the poles, where B ≈ 5x10⁻⁵ T, follows a circular path of radius r = mv/BQ = (9.11x10⁻³¹ x 1x10⁷)/(5x10⁻⁵ x 1.6x10⁻¹⁹) = 9.11x10⁻²⁴/8x10⁻²⁴ ≈ 1.14 m. Combined with its forward motion along the field, this tight circular deflection produces a spiral path that traces the magnetic field lines.\n\nEarth's field lines converge and dip down into the atmosphere specifically near the poles, so the spiralling charged particles are funnelled down toward the polar regions rather than spreading evenly across the whole planet, colliding with atmospheric gas atoms there and making them glow. Sayar Zaw Min added that this is exactly why auroras are a polar phenomenon: the same physics that makes a mass spectrometer work -- F = BQv bending a charged particle's path -- also explains why one of nature's most beautiful light shows is confined almost entirely to high latitudes.",
+        passageMy:
+            "Su Su သည် Aurora Borealis ၏ ဓာတ်ပုံများကို တွေ့ဖူးပြီး ထွန်းလင်းနေသော အလင်းရောင်များသည် Equator အနီးတွင် လုံးဝ မတွေ့ရဘဲ North နှင့် South Pole အနီးတွင်သာ အဘယ်ကြောင့် ပေါ်ထွက်သနည်းဟု စဉ်းစားခဲ့သည်။ Solar Wind မှ Charged Particle များသည် ကမ္ဘာ၏ Magnetic Field သို့ ချဉ်းကပ်လာသောအခါ ၎င်းတို့ပေါ် သက်ရောက်သော F = BQv တွင် အဖြေရှိကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်။\n\nB ≈ 5x10⁻⁵ T ရှိသော ဝင်ရိုးစွန်းအနီးရှိ ကမ္ဘာ့ Field ကို v = 1x10⁷ m s⁻¹ ဖြင့် ဖြတ်သန်းနေသော လျင်မြန်သော Solar-Wind Electron (m = 9.11x10⁻³¹ kg, Q = 1.6x10⁻¹⁹ C) သည် r = mv/BQ = (9.11x10⁻³¹ x 1x10⁷)/(5x10⁻⁵ x 1.6x10⁻¹⁹) = 9.11x10⁻²⁴/8x10⁻²⁴ ≈ 1.14 m ရှိသော Circular Path ကို လိုက်နာသည်။ Field အတိုင်း ရှေ့သို့ ရွေ့လျားမှုနှင့် ပေါင်းစပ်လိုက်ပါက ဤ ကျဉ်းမြောင်းသော Circular Deflection သည် Magnetic Field Line များအတိုင်း လိုက်နာသော Spiral Path တစ်ခုကို ဖြစ်ပေါ်စေသည်။\n\nကမ္ဘာ့ Field Line များသည် ဝင်ရိုးစွန်းများအနီးတွင် တိကျစွာ စုစည်း၍ လေထုထဲသို့ ငုတ်ဆွသွားသောကြောင့် Spiral ဖြစ်နေသော Charged Particle များသည် ကမ္ဘာတစ်ခုလုံးတွင် တစ်ညီတစ်ညာ ပျံ့နှံ့မည့်အစား ဝင်ရိုးစွန်း ဒေသများသို့ စုစည်းသွားပြီး ထိုနေရာတွင် လေထု Gas Atom များနှင့် Collision ဖြစ်ကာ ၎င်းတို့ကို ထွန်းလင်းစေသည်။ Mass Spectrometer တစ်ခုကို အလုပ်လုပ်စေသော ရူပဗေဒတူညီ -- Charged Particle တစ်ခု၏ Path ကို ကွေ့စေသော F = BQv -- သည် သဘာဝ၏ လှပဆုံး အလင်းရောင် ပြခန်းတစ်ခု ဒေသအမြင့်များတွင်သာ အားလုံးနီးပါး အကန့်အသတ် ဖြစ်နေသည့် အကြောင်းရင်းကိုလည်း ရှင်းပြသောကြောင့် ဤသည် Aurora တစ်ခုလုံး Polar ဖြစ်ရပ်မှန် အတိအကျ ဖြစ်ကြောင်း ဆရာဇော်မင်း ထပ်ဆောင်းပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the radius of the electron's circular path?",
+            questionMy: "Electron ၏ Circular Path Radius ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 1.14 m", "≈ 9.11 m", "≈ 5x10⁻⁵ m", "≈ 1x10⁷ m"],
+            optionsMy: ["≈ 1.14 m", "≈ 9.11 m", "≈ 5x10⁻⁵ m", "≈ 1x10⁷ m"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why are auroras confined near the poles?",
+            questionMy: "Aurora များ ဝင်ရိုးစွန်းအနီးတွင်သာ အဘယ်ကြောင့် အကန့်အသတ် ဖြစ်နေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Earth's field lines converge and dip into the atmosphere there",
+              "The solar wind only exists near the poles",
+              "There is no atmosphere anywhere except the poles",
+              "Charged particles avoid the poles entirely",
+            ],
+            optionsMy: [
+              "ကမ္ဘာ့ Field Line များသည် ထိုနေရာများတွင် စုစည်း၍ လေထုထဲသို့ ငုတ်ဆွသွားသောကြောင့်",
+              "Solar Wind သည် ဝင်ရိုးစွန်းများအနီးတွင်သာ ရှိသောကြောင့်",
+              "ဝင်ရိုးစွန်းများမှလွဲ၍ မည်သည့်နေရာတွင်မျှ လေထု လုံးဝ မရှိသောကြောင့်",
+              "Charged Particle များသည် ဝင်ရိုးစွန်းများကို လုံးဝ ရှောင်ရှားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what device uses the same underlying physics as auroras?",
+            questionMy: "Aurora များနှင့် တူညီသော ရူပဗေဒကို မည်သည့် Device က အသုံးပြုသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A mass spectrometer",
+              "A camera",
+              "A capacitor",
+              "A transformer",
+            ],
+            optionsMy: ["Mass Spectrometer", "ကင်မရာ", "Capacitor", "Transformer"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Force on Moving Charges",
+      titleMy: "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Moving Charge ပေါ် Force",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "F = BQv is maximum when velocity and field are...",
+          questionMy: "F = BQv သည် Velocity နှင့် Field ...သောအခါ Maximum ဖြစ်သည်",
+          optionsEn: [
+            "Perpendicular to each other",
+            "Parallel to each other",
+            "Both zero",
+            "In the same direction always",
+          ],
+          optionsMy: [
+            "တစ်ခုနှင့်တစ်ခု Perpendicular ဖြစ်",
+            "တစ်ခုနှင့်တစ်ခု Parallel ဖြစ်",
+            "နှစ်ခုစလုံး Zero ဖြစ်",
+            "အမြဲ ဦးတည်ချက်တူညီ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A charged particle moving in a uniform magnetic field (v ⊥ B) follows a...",
+          questionMy: "Uniform Magnetic Field (v ⊥ B) ထဲရှိ ရွေ့လျားနေသော Charged Particle သည် ...ကို လိုက်နာသည်",
+          optionsEn: ["Circular path", "Straight line", "Parabolic path", "No defined path"],
+          optionsMy: ["Circular Path", "ဖြောင့်မျဉ်း", "Parabolic Path", "Defined Path မရှိပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The radius of a charged particle's circular path is given by r =...",
+          questionMy: "Charged Particle ၏ Circular Path Radius ကို r = ...ဖြင့် ဖော်ပြသည်",
+          optionsEn: ["mv/BQ", "BQ/mv", "BQv/m", "m/BQv"],
+          optionsMy: ["mv/BQ", "BQ/mv", "BQv/m", "m/BQv"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Electromagnetic Induction: Faraday's and Lenz's Laws"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek19 = CourseWeekDef(
+  id: "course-y13-phys-w19",
+  weekNumber: 19,
+  titleEn: "Electromagnetic Induction: Faraday's and Lenz's Laws",
+  titleMy: "Electromagnetic Induction - Faraday's နှင့် Lenz's Laws",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w19-d1",
+      dayNumber: 1,
+      titleEn: "Faraday's Law and Lenz's Law",
+      titleMy: "Faraday's Law နှင့် Lenz's Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Faraday's law states that the induced e.m.f. is equal to...",
+          questionMy: "Faraday's Law အရ Induced e.m.f. သည် ...နှင့် ညီမျှသည်",
+          optionsEn: [
+            "The rate of change of flux linkage",
+            "The total flux linkage",
+            "The resistance of the circuit",
+            "The current flowing",
+          ],
+          optionsMy: [
+            "Flux Linkage ၏ ပြောင်းလဲမှု နှုန်း",
+            "Flux Linkage စုစုပေါင်း",
+            "Circuit ၏ Resistance",
+            "စီးဆင်းနေသော Current",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Faraday's law: induced e.m.f. = rate of change of flux linkage, ε = -ΔNΦ/Δt.",
+          ],
+          hintsMy: [
+            "Faraday's Law - Induced e.m.f. = Flux Linkage ၏ ပြောင်းလဲမှု နှုန်း, ε = -ΔNΦ/Δt ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Lenz's law states that the direction of an induced current always opposes...",
+          questionMy: "Lenz's Law အရ Induced Current ၏ ဦးတည်ချက်သည် အမြဲ...",
+          optionsEn: [
+            "The change in flux (or motion) that caused it",
+            "The direction of the applied e.m.f. always",
+            "The resistance of the wire",
+            "Nothing at all -- direction is random",
+          ],
+          optionsMy: [
+            "၎င်းကို ဖြစ်စေသော Flux ပြောင်းလဲမှု (သို့) Motion ကို ဆန့်ကျင်သည်",
+            "Applied e.m.f. ၏ ဦးတည်ချက်ကို အမြဲ လိုက်နာသည်",
+            "Wire ၏ Resistance ကို ဆန့်ကျင်သည်",
+            "မည်သည့်အရာကိုမျှ လုံးဝ မဆန့်ကျင်ပါ -- Direction သည် Random ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Lenz's law -- expressed by the minus sign in Faraday's law -- says the induced current always flows in a direction that opposes the change producing it, consistent with conservation of energy.",
+          ],
+          hintsMy: [
+            "Lenz's Law -- Faraday's Law ရှိ Minus Sign ဖြင့် ဖော်ပြသည် -- Induced Current သည် ၎င်းကို ဖြစ်ပေါ်စေသော ပြောင်းလဲမှုကို ဆန့်ကျင်သော Direction တွင် အမြဲ စီးဆင်းကြောင်း၊ Energy Conservation နှင့် ကိုက်ညီသည်ဟု ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using ε = ΔNΦ/Δt, a coil of N = 200 turns experiences a flux change of 0.02 Wb over 0.5 s. Find the magnitude of the induced e.m.f.",
+          questionMy:
+              "ε = ΔNΦ/Δt ကို အသုံးပြု၍ N = 200 Turns ရှိသော Coil သည် 0.5 s အတွင်း Flux Change 0.02 Wb ခံစားရသည်။ Induced e.m.f. ၏ Magnitude ကို ရှာပါ။",
+          optionsEn: ["8 V", "4 V", "0.08 V", "100 V"],
+          optionsMy: ["8 V", "4 V", "0.08 V", "100 V"],
+          correctIndex: 0,
+          hintsEn: ["ε = NΔΦ/Δt = (200 x 0.02)/0.5 = 4/0.5 = 8 V."],
+          hintsMy: ["ε = NΔΦ/Δt = (200 x 0.02)/0.5 = 4/0.5 = 8 V ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electromagnetic Induction Symbols",
+      titleMy: "တွဲစပ်ကြမည် - Electromagnetic Induction သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w19-dm-1",
+          termEn: "Φ",
+          termMy: "Φ",
+          matchEn: "Magnetic flux (weber, Wb)",
+          matchMy: "Magnetic Flux (Weber, Wb)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w19-dm-2",
+          termEn: "NΦ",
+          termMy: "NΦ",
+          matchEn: "Flux linkage",
+          matchMy: "Flux Linkage",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w19-dm-3",
+          termEn: "ε = -ΔNΦ/Δt",
+          termMy: "ε = -ΔNΦ/Δt",
+          matchEn: "Faraday's law of electromagnetic induction",
+          matchMy: "Faraday's Law of Electromagnetic Induction",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w19-dm-4",
+          termEn: "Lenz's law",
+          termMy: "Lenz's Law",
+          matchEn: "Induced current opposes the change that caused it",
+          matchMy: "Induced Current သည် ၎င်းကို ဖြစ်ပေါ်စေသော ပြောင်းလဲမှုကို ဆန့်ကျင်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w19-dm-5",
+          termEn: "Weber (Wb)",
+          termMy: "Weber (Wb)",
+          matchEn: "SI unit of magnetic flux",
+          matchMy: "Magnetic Flux ၏ SI Unit",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Induces an EMF or Not?",
+      titleMy: "စီစစ်ကြမည် - EMF ဖြစ်ပေါ်စေသလား၊ မဖြစ်ပေါ်စေပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Induces an EMF", "Does NOT Induce an EMF"],
+        bucketsMy: ["EMF ဖြစ်ပေါ်စေသည်", "EMF လုံးဝ မဖြစ်ပေါ်စေပါ"],
+        items: [
+          SortingItem(
+            id: "y13phys-w19-sort-1",
+            labelEn: "Moving a magnet into a coil",
+            labelMy: "သံလိုက်ကို Coil ထဲသို့ ရွှေ့ခြင်း",
+            correctBucketEn: "Induces an EMF",
+            correctBucketMy: "EMF ဖြစ်ပေါ်စေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w19-sort-2",
+            labelEn: "Holding a magnet stationary inside a coil",
+            labelMy: "သံလိုက်ကို Coil ထဲတွင် တည်ငြိမ်စွာ ကိုင်ထားခြင်း",
+            correctBucketEn: "Does NOT Induce an EMF",
+            correctBucketMy: "EMF လုံးဝ မဖြစ်ပေါ်စေပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w19-sort-3",
+            labelEn: "Rotating a coil in a magnetic field",
+            labelMy: "Magnetic Field ထဲတွင် Coil တစ်ခုကို လှည့်ခြင်း",
+            correctBucketEn: "Induces an EMF",
+            correctBucketMy: "EMF ဖြစ်ပေါ်စေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w19-sort-4",
+            labelEn: "A stationary coil in a constant, unchanging magnetic field",
+            labelMy: "Constant, မပြောင်းလဲသော Magnetic Field ထဲရှိ တည်ငြိမ်သော Coil",
+            correctBucketEn: "Does NOT Induce an EMF",
+            correctBucketMy: "EMF လုံးဝ မဖြစ်ပေါ်စေပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w19-sort-5",
+            labelEn: "Rapidly switching a nearby electromagnet on and off",
+            labelMy: "အနီးရှိ Electromagnet ကို လျင်မြန်စွာ ဖွင့်/ပိတ် ပြုလုပ်ခြင်း",
+            correctBucketEn: "Induces an EMF",
+            correctBucketMy: "EMF ဖြစ်ပေါ်စေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Hand-Crank Torch",
+      titleMy: "စာဖတ်ခြင်း - လက်ဖြင့် ကျစ်သော Torch",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Hand-Crank Torch",
+        titleMy: "လက်ဖြင့် ကျစ်သော Torch",
+        passageEn:
+            "Htet Aung brought a wind-up, no-battery torch to class, curious how it could light an LED with nothing but a hand crank. Sayar Zaw Min opened it up to show the mechanism: cranking the handle spins a small coil inside a fixed magnet's field, inducing an e.m.f. by Faraday's law, which charges a small internal capacitor that powers the LED.\n\nHtet Aung noticed that cranking faster made the LED noticeably brighter, and Sayar Zaw Min explained why: a faster rotation means the coil's orientation relative to the magnet changes more quickly, so the rate of change of flux linkage -- and therefore the induced e.m.f. by Faraday's law -- is larger.\n\nSu Su then noticed something else: the crank felt distinctly harder to turn once the LED was connected than when the torch was disconnected from the LED entirely. Sayar Zaw Min pointed to Lenz's law for the explanation -- the induced current in the coil creates its own magnetic field that opposes the change producing it, meaning it resists the crank's motion, so extra work must be done to turn it against that opposition. This, he said, is really just conservation of energy in action: there is no way to get electrical energy for free, and the mechanical work Htet Aung puts into cranking is exactly the energy that ends up lighting the LED.",
+        passageMy:
+            "Htet Aung သည် Battery လုံးဝ မလိုအပ်ဘဲ လက်ဖြင့် ကျစ်နိုင်သော Torch တစ်ခုကို အတန်းသို့ ယူဆောင်လာခဲ့ပြီး လက်ဖြင့် ကျစ်ခြင်း တစ်ခုတည်းဖြင့် LED ကို မည်သို့ ထွန်းလင်းစေနိုင်သည်ကို သိလိုခဲ့သည်။ ဆရာဇော်မင်းက ၎င်းကို ဖွင့်ကာ Mechanism ကို ပြသခဲ့သည် - လက်ကိုင်ကို ကျစ်ခြင်းက ပုံသေ သံလိုက်၏ Field ထဲရှိ Coil သေးသေးလေးကို လှည့်ပတ်စေပြီး Faraday's Law အရ e.m.f. ဖြစ်ပေါ်စေကာ LED ကို Power ပေးသော Capacitor သေးသေးလေးကို Charge တင်ပေးသည်။\n\nပို၍ လျင်မြန်စွာ ကျစ်ခြင်းက LED ကို သိသိသာသာ ပိုတောက်ပစေကြောင်း Htet Aung သတိထားမိခဲ့ပြီး ဆရာဇော်မင်းက အဘယ်ကြောင့်ဟု ရှင်းပြခဲ့သည် - ပို၍ မြန်ဆန်သော Rotation သည် သံလိုက်နှင့် ဆက်စပ်နေသော Coil ၏ Orientation ကို ပို၍ လျင်မြန်စွာ ပြောင်းလဲစေသောကြောင့် Flux Linkage ၏ ပြောင်းလဲမှု နှုန်း -- ထို့ကြောင့် Faraday's Law အရ Induced e.m.f. ပါ -- ပိုကြီးမားလာသည်။\n\nSu Su သည် အခြားတစ်ခုကို ထပ်၍ သတိထားမိခဲ့သည် - Torch ကို LED နှင့် လုံးဝ ချိတ်ဆက်မထားချိန်နှင့် နှိုင်းယှဉ်လျှင် LED ချိတ်ဆက်ပြီးသောအခါ လက်ကိုင်ကို လှည့်ရန် သိသိသာသာ ပိုခက်ခဲသည်ဟု ခံစားရသည်။ ရှင်းလင်းချက်အတွက် ဆရာဇော်မင်းက Lenz's Law ကို ညွှန်ပြခဲ့သည် -- Coil ရှိ Induced Current သည် ၎င်းကို ဖြစ်ပေါ်စေသော ပြောင်းလဲမှုကို ဆန့်ကျင်သော ၎င်းကိုယ်ပိုင် Magnetic Field ကို ဖန်တီးသည် ဆိုလိုသည်မှာ လက်ကိုင်၏ Motion ကို ဆန့်ကျင်သည်၊ ထို့ကြောင့် ၎င်းကို ဆန့်ကျင်ကာ လှည့်ရန် အပို Work ပြုလုပ်ရမည် ဖြစ်သည်။ ၎င်းသည် လက်တွေ့ ကျင့်သုံးနေသော Energy Conservation တစ်ခုသာ ဖြစ်ကြောင်း၊ လျှပ်စစ် Energy ကို အလကားရရှိရန် နည်းလမ်း လုံးဝ မရှိကြောင်း၊ Htet Aung ကျစ်ခြင်းအတွက် ထည့်ဝင်ထားသော Mechanical Work သည် LED ကို ထွန်းလင်းစေသော Energy အတိအကျပင် ဖြစ်ကြောင်း သူ ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why does cranking faster make the LED brighter?",
+            questionMy: "ပို၍ လျင်မြန်စွာ ကျစ်ခြင်းက LED ကို အဘယ်ကြောင့် ပိုတောက်ပစေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The rate of change of flux linkage -- and induced e.m.f. -- is larger",
+              "The magnet becomes physically stronger",
+              "The LED's colour changes automatically",
+              "There is no real connection between speed and brightness",
+            ],
+            optionsMy: [
+              "Flux Linkage ၏ ပြောင်းလဲမှု နှုန်း -- Induced e.m.f. ပါ -- ပိုကြီးမားလာသောကြောင့်",
+              "သံလိုက်သည် ရုပ်ပိုင်းဆိုင်ရာ ပိုကြီးထွားလာသောကြောင့်",
+              "LED ၏ အရောင် အလိုအလျောက် ပြောင်းလဲသောကြောင့်",
+              "Speed နှင့် တောက်ပမှုကြား အမှန်တကယ် ဆက်နွယ်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why is the crank harder to turn once the LED is connected?",
+            questionMy: "LED ချိတ်ဆက်ပြီးသောအခါ လက်ကိုင် အဘယ်ကြောင့် ပိုခက်ခဲသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By Lenz's law, the induced current opposes the motion producing it",
+              "The magnet gets heavier when the LED is connected",
+              "The coil physically shrinks",
+              "There is no real difference in difficulty",
+            ],
+            optionsMy: [
+              "Lenz's Law အရ Induced Current သည် ၎င်းကို ဖြစ်ပေါ်စေသော Motion ကို ဆန့်ကျင်သောကြောင့်",
+              "LED ချိတ်ဆက်သောအခါ သံလိုက် ပိုလေးလံလာသောကြောင့်",
+              "Coil သည် ရုပ်ပိုင်းဆိုင်ရာ ကျုံ့သွားသောကြောင့်",
+              "ခက်ခဲမှုတွင် အမှန်တကယ် ကွာခြားချက် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what physical principle explains the extra effort?",
+            questionMy: "အပို ကြိုးစားအားထုတ်မှုကို မည်သည့် ရူပဗေဒ Principle က ရှင်းပြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Conservation of energy",
+              "Conservation of momentum",
+              "Newton's third law only",
+              "There is no principle involved",
+            ],
+            optionsMy: [
+              "Conservation of Energy",
+              "Conservation of Momentum",
+              "Newton's Third Law သာ",
+              "မည်သည့် Principle မျှ မပါဝင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Faraday's and Lenz's Laws",
+      titleMy: "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Faraday's နှင့် Lenz's Laws",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Faraday's law relates induced e.m.f. to...",
+          questionMy: "Faraday's Law သည် Induced e.m.f. ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "The rate of change of flux linkage",
+            "The total resistance of the coil",
+            "The colour of the wire",
+            "The mass of the magnet",
+          ],
+          optionsMy: [
+            "Flux Linkage ၏ ပြောင်းလဲမှု နှုန်း",
+            "Coil ၏ စုစုပေါင်း Resistance",
+            "Wire ၏ အရောင်",
+            "သံလိုက်၏ Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Lenz's law is a consequence of the conservation of...",
+          questionMy: "Lenz's Law သည် ...၏ Conservation ၏ ရလဒ် ဖြစ်သည်",
+          optionsEn: ["Energy", "Mass only", "Charge only", "Momentum only"],
+          optionsMy: ["Energy", "Mass သာ", "Charge သာ", "Momentum သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "No e.m.f. is induced when...",
+          questionMy: "e.m.f. လုံးဝ မဖြစ်ပေါ်ရသည်မှာ...",
+          optionsEn: [
+            "There is no change in flux linkage",
+            "The coil has many turns",
+            "The magnet is very strong",
+            "The wire is very long",
+          ],
+          optionsMy: [
+            "Flux Linkage တွင် ပြောင်းလဲမှု လုံးဝ မရှိသောအခါ",
+            "Coil တွင် Turns များစွာ ရှိသောအခါ",
+            "သံလိုက် အလွန်အားကောင်းသောအခါ",
+            "Wire အလွန်ရှည်သောအခါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20: "EMF in a Moving Conductor and a Changing Flux" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek20 = CourseWeekDef(
+  id: "course-y13-phys-w20",
+  weekNumber: 20,
+  titleEn: "EMF in a Moving Conductor and a Changing Flux",
+  titleMy: "Moving Conductor နှင့် Changing Flux ထဲရှိ EMF",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w20-d1",
+      dayNumber: 1,
+      titleEn: "ε = BLv and Generators",
+      titleMy: "ε = BLv နှင့် Generator များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using ε = BLv, find the e.m.f. induced in a rod of length 0.4 m moving at 5 m s⁻¹ perpendicular through a field of 0.3 T.",
+          questionMy:
+              "ε = BLv ကို အသုံးပြု၍ 0.3 T ရှိသော Field ကို Perpendicular ဖြစ်စွာ 5 m s⁻¹ ဖြင့် ရွေ့လျားနေသော Length 0.4 m ရှိ Rod တစ်ခု၏ Induced e.m.f. ကို ရှာပါ။",
+          optionsEn: ["0.6 V", "1.2 V", "0.06 V", "6 V"],
+          optionsMy: ["0.6 V", "1.2 V", "0.06 V", "6 V"],
+          correctIndex: 0,
+          hintsEn: ["ε = BLv = 0.3 x 0.4 x 5 = 0.6 V."],
+          hintsMy: ["ε = BLv = 0.3 x 0.4 x 5 = 0.6 V ။"],
+        ),
+        QuizQuestion(
+          questionEn: "A rotating-coil generator produces alternating e.m.f. because...",
+          questionMy: "Rotating-Coil Generator တစ်ခုသည် Alternating e.m.f. ကို ဖြစ်ပေါ်စေသည်မှာ...",
+          optionsEn: [
+            "The rate of change of flux linkage varies sinusoidally as the coil rotates",
+            "The coil's resistance changes randomly",
+            "The magnet's strength constantly increases without limit",
+            "The coil never actually moves",
+          ],
+          optionsMy: [
+            "Coil လှည့်ပတ်နေစဉ် Flux Linkage ၏ ပြောင်းလဲမှု နှုန်းသည် Sinusoidally ပြောင်းလဲသောကြောင့်",
+            "Coil ၏ Resistance သည် ကျပန်း ပြောင်းလဲသောကြောင့်",
+            "သံလိုက်၏ Strength သည် ကန့်သတ်ချက် မရှိဘဲ ဆက်တိုက် တိုးလာသောကြောင့်",
+            "Coil သည် လုံးဝ မရွေ့လျားပါသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "As the coil rotates, the angle between the coil and the field continuously changes, so the rate of change of flux linkage -- and therefore the induced e.m.f. -- varies sinusoidally, reversing direction twice every full rotation.",
+          ],
+          hintsMy: [
+            "Coil လှည့်ပတ်နေစဉ် Coil နှင့် Field ကြား Angle သည် ဆက်တိုက် ပြောင်းလဲနေသောကြောင့် Flux Linkage ၏ ပြောင်းလဲမှု နှုန်း -- ထို့ကြောင့် Induced e.m.f. ပါ -- Sinusoidally ပြောင်းလဲပြီး Rotation တစ်ခုစီတွင် နှစ်ကြိမ် Direction ပြောင်းလဲသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using ε = BLv, if the rod's speed doubles (B and L unchanged), the induced e.m.f....",
+          questionMy: "ε = BLv ကို အသုံးပြု၍ Rod ၏ Speed နှစ်ဆတိုးပါက (B နှင့် L မပြောင်းလဲပါ) Induced e.m.f. သည်...",
+          optionsEn: ["Doubles", "Quadruples", "Halves", "Stays the same"],
+          optionsMy: ["နှစ်ဆ တိုးလာသည်", "လေးဆ တိုးလာသည်", "တစ်ဝက် ကျဆင်းသည်", "မပြောင်းလဲပါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "ε = BLv is directly proportional to v, so doubling v exactly doubles ε (assuming B and L unchanged).",
+          ],
+          hintsMy: [
+            "ε = BLv သည် v နှင့် တိုက်ရိုက် ပြောင်းလဲအချိုးကျသောကြောင့် v ကို နှစ်ဆတိုးလျှင် (B နှင့် L မပြောင်းလဲလျှင်) ε ကိုလည်း အတိအကျ နှစ်ဆ တိုးစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: EMF Sources and Generators",
+      titleMy: "တွဲစပ်ကြမည် - EMF ရင်းမြစ်များနှင့် Generator များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w20-dm-1",
+          termEn: "ε = BLv",
+          termMy: "ε = BLv",
+          matchEn: "EMF induced in a straight conductor moving through a field",
+          matchMy: "Field တစ်ခုကို ဖြတ်ကာ ရွေ့လျားနေသော ဖြောင့်သော Conductor ရှိ Induced EMF",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w20-dm-2",
+          termEn: "ε = -NΔΦ/Δt",
+          termMy: "ε = -NΔΦ/Δt",
+          matchEn: "General form of Faraday's law (changing flux linkage)",
+          matchMy: "Faraday's Law ၏ General Form (Changing Flux Linkage)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w20-dm-3",
+          termEn: "Generator",
+          termMy: "Generator",
+          matchEn: "Device converting mechanical energy to electrical energy via induction",
+          matchMy: "Induction မှတဆင့် Mechanical Energy ကို Electrical Energy သို့ ပြောင်းလဲသော Device",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w20-dm-4",
+          termEn: "Slip rings",
+          termMy: "Slip Ring များ",
+          matchEn: "Allow continuous rotation while keeping electrical contact",
+          matchMy: "Electrical Contact ဆက်ရှိစေရင်း ဆက်တိုက် Rotation ကို ခွင့်ပြုသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w20-dm-5",
+          termEn: "Rotating coil in a field",
+          termMy: "Field ထဲရှိ Rotating Coil",
+          matchEn: "Produces a sinusoidally alternating e.m.f.",
+          matchMy: "Sinusoidally Alternating e.m.f. ကို ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Moving Conductor or Changing Flux (Stationary Coil)?",
+      titleMy: "စီစစ်ကြမည် - Moving Conductor လား၊ Changing Flux (Stationary Coil) လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "EMF from a Moving Conductor (ε = BLv)",
+          "EMF from a Changing Flux in a Stationary Coil",
+        ],
+        bucketsMy: [
+          "Moving Conductor မှ EMF (ε = BLv)",
+          "Stationary Coil ရှိ Changing Flux မှ EMF",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w20-sort-1",
+            labelEn: "A straight rod sliding along rails through a magnetic field",
+            labelMy: "Magnetic Field ကို ဖြတ်ကာ Rail များအတိုင်း ချောသွားနေသော ဖြောင့်သော Rod",
+            correctBucketEn: "EMF from a Moving Conductor (ε = BLv)",
+            correctBucketMy: "Moving Conductor မှ EMF (ε = BLv)",
+          ),
+          SortingItem(
+            id: "y13phys-w20-sort-2",
+            labelEn: "A stationary coil next to a magnet being pushed toward it",
+            labelMy: "၎င်းသို့ တွန်းလာနေသော သံလိုက် အနီးရှိ တည်ငြိမ်သော Coil",
+            correctBucketEn: "EMF from a Changing Flux in a Stationary Coil",
+            correctBucketMy: "Stationary Coil ရှိ Changing Flux မှ EMF",
+          ),
+          SortingItem(
+            id: "y13phys-w20-sort-3",
+            labelEn: "An aircraft wing moving through the Earth's magnetic field",
+            labelMy: "ကမ္ဘာ၏ Magnetic Field ကို ဖြတ်ကာ ရွေ့လျားနေသော လေယာဉ် အတောင်",
+            correctBucketEn: "EMF from a Moving Conductor (ε = BLv)",
+            correctBucketMy: "Moving Conductor မှ EMF (ε = BLv)",
+          ),
+          SortingItem(
+            id: "y13phys-w20-sort-4",
+            labelEn: "A transformer's secondary coil, stationary next to a changing primary current",
+            labelMy: "ပြောင်းလဲနေသော Primary Current အနီးရှိ တည်ငြိမ်သော Transformer Secondary Coil",
+            correctBucketEn: "EMF from a Changing Flux in a Stationary Coil",
+            correctBucketMy: "Stationary Coil ရှိ Changing Flux မှ EMF",
+          ),
+          SortingItem(
+            id: "y13phys-w20-sort-5",
+            labelEn: "A rod on rails, dragged by hand through a uniform field",
+            labelMy: "Uniform Field ကို ဖြတ်ကာ လက်ဖြင့် ဆွဲသွားနေသော Rail များပေါ်ရှိ Rod",
+            correctBucketEn: "EMF from a Moving Conductor (ε = BLv)",
+            correctBucketMy: "Moving Conductor မှ EMF (ε = BLv)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Ocean Wave Generator",
+      titleMy: "စာဖတ်ခြင်း - ပင်လယ်လှိုင်း Generator",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Ocean Wave Generator",
+        titleMy: "ပင်လယ်လှိုင်း Generator",
+        passageEn:
+            "Su Su researched wave-energy generators for a school project and found they work like a linear version of a normal rotating generator: instead of a coil spinning in a fixed field, a magnet attached to a floating buoy moves up and down inside a fixed coil as ocean waves rise and fall, described approximately by the same physics as ε = BLv (treating the relative motion between magnet and coil).\n\nShe worked through a simplified model with Sayar Zaw Min: an effective coil length in the field L = 2 m (representing many turns of wire), field strength B = 0.8 T, and a wave-driven relative speed v = 0.5 m s⁻¹. This gives ε = BLv = 0.8 x 2 x 0.5 = 0.8 V for this simplified setup.\n\nSayar Zaw Min pointed out the direct proportionality this reveals: faster wave motion (a larger v) gives a larger instantaneous e.m.f., while calmer seas with a smaller v generate noticeably less. He explained that real wave-energy devices use coils with many hundreds or thousands of turns -- effectively multiplying the induced e.m.f. many times over, in the same way that N appears in Faraday's general law -- to turn these modest field strengths and wave speeds into a genuinely useful voltage, giving coastal regions with reliably rough seas a renewable alternative to burning fuel.",
+        passageMy:
+            "Su Su သည် ကျောင်း Project တစ်ခုအတွက် Wave-Energy Generator များကို သုတေသနပြုခဲ့ပြီး ၎င်းတို့သည် ပုံသေ Field ထဲတွင် လှည့်ပတ်နေသော Coil အစား ပင်လယ်လှိုင်းများ တက်ကျနေချိန်တွင် ပုံသေ Coil ထဲတွင် အထက်အောက် ရွေ့လျားနေသော ကမ်းလွင့်ဗွီကို ချိတ်ဆက်ထားသော သံလိုက် တစ်ခုပါဝင်ကာ (သံလိုက်နှင့် Coil ကြား Relative Motion ကို ဆက်ဆံ၍) ε = BLv ရူပဗေဒနှင့် ခန့်မှန်း တူညီစွာ ဖော်ပြသော ပုံသေ Generator တစ်ခု၏ Linear ဗားရှင်းကဲ့သို့ အလုပ်လုပ်ကြောင်း တွေ့ရှိခဲ့သည်။\n\nသူမသည် ဆရာဇော်မင်းနှင့်အတူ ရိုးရှင်းသော Model တစ်ခုကို ဆက်လုပ်ခဲ့သည် - Field ထဲရှိ Effective Coil Length L = 2 m (Wire Turn များစွာကို ကိုယ်စားပြုသည်), Field Strength B = 0.8 T, နှင့် Wave-Driven Relative Speed v = 0.5 m s⁻¹ ။ ၎င်းသည် ဤ ရိုးရှင်းသော Setup အတွက် ε = BLv = 0.8 x 2 x 0.5 = 0.8 V ကို ရရှိစေသည်။\n\nဤမှ ဖော်ပြသော တိုက်ရိုက် ပြောင်းလဲအချိုးကျမှုကို ဆရာဇော်မင်းက ထောက်ပြခဲ့သည် - ပို၍ လျင်မြန်သော လှိုင်း Motion (v ပိုကြီးခြင်း) က Instantaneous e.m.f. ပိုကြီးစေပြီး v ပိုသေးသော ငြိမ်သက်သော ပင်လယ်များက သိသိသာသာ ပိုနည်းသော e.m.f. ဖြစ်ပေါ်စေသည်။ တကယ့် Wave-Energy Device များသည် Coil ရာနှင့်ချီသော (သို့) ထောင်နှင့်ချီသော Turn များ အသုံးပြုကြောင်း -- Faraday's General Law တွင် N ပါဝင်ပုံ တူညီစွာ Induced e.m.f. ကို အကြိမ်ကြိမ် တိုးမြှင့်ကြောင်း -- ဤ Modest Field Strength နှင့် Wave Speed များကို တကယ်တမ်း အသုံးဝင်သော Voltage အဖြစ် ပြောင်းလဲစေရန် ရှင်းပြခဲ့ပြီး ဆိုးရွားစွာ ရုန့်ရင်းနေသော ပင်လယ်ကမ်းရိုးတန်း ဒေသများကို လောင်စာဆီ မီးလောင်ခြင်းအစား Renewable Alternative တစ်ခု ပေးသည်ဟု ဆိုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the e.m.f. in the simplified model?",
+            questionMy: "ရိုးရှင်းသော Model ရှိ e.m.f. ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.8 V", "2 V", "0.5 V", "1.6 V"],
+            optionsMy: ["0.8 V", "2 V", "0.5 V", "1.6 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what happens on calmer seas with a smaller v?",
+            questionMy: "v ပိုသေးသော ငြိမ်သက်သော ပင်လယ်များတွင် အဘယ်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A noticeably smaller e.m.f. is generated",
+              "The e.m.f. becomes larger instead",
+              "The generator stops working entirely",
+              "The magnet's field strength increases",
+            ],
+            optionsMy: [
+              "သိသိသာသာ ပိုငယ်သော e.m.f. ဖြစ်ပေါ်လာသည်",
+              "e.m.f. ပိုကြီးသွားသည်",
+              "Generator လုံးဝ အလုပ် ရပ်တန့်သွားသည်",
+              "သံလိုက်၏ Field Strength တိုးလာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why do real wave-energy devices use many turns of wire?",
+            questionMy: "တကယ့် Wave-Energy Device များသည် Wire Turn များစွာကို အဘယ်ကြောင့် အသုံးပြုသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To multiply the induced e.m.f. into a genuinely useful voltage",
+              "To make the device heavier for no reason",
+              "Turns of wire have no effect on the e.m.f. at all",
+              "To reduce the induced e.m.f. to zero",
+            ],
+            optionsMy: [
+              "Induced e.m.f. ကို တကယ်တမ်း အသုံးဝင်သော Voltage အဖြစ် အကြိမ်ကြိမ် တိုးမြှင့်ရန်",
+              "အကြောင်းအရာမရှိဘဲ Device ကို ပိုလေးစေရန်",
+              "Wire Turn များသည် e.m.f. ပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+              "Induced e.m.f. ကို Zero သို့ လျော့ချရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: EMF and Generators",
+      titleMy: "နှစ်ဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - EMF နှင့် Generator များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ε = BLv calculates the e.m.f. induced in...",
+          questionMy: "ε = BLv သည် ...ရှိ Induced e.m.f. ကို တွက်ချက်ပေးသည်",
+          optionsEn: [
+            "A straight conductor moving through a magnetic field",
+            "A stationary coil in a constant field",
+            "A capacitor discharging",
+            "A resistor heating up",
+          ],
+          optionsMy: [
+            "Magnetic Field ကို ဖြတ်ကာ ရွေ့လျားနေသော ဖြောင့်သော Conductor",
+            "Constant Field ထဲရှိ Stationary Coil",
+            "Discharge ဖြစ်နေသော Capacitor",
+            "ပူလာနေသော Resistor",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A rotating-coil generator produces alternating e.m.f. because...",
+          questionMy: "Rotating-Coil Generator သည် Alternating e.m.f. ကို ဖြစ်ပေါ်စေသည်မှာ...",
+          optionsEn: [
+            "The rate of change of flux varies sinusoidally as the coil rotates",
+            "The coil's material changes over time",
+            "The generator is broken",
+            "There is no field present at all",
+          ],
+          optionsMy: [
+            "Coil လှည့်ပတ်နေစဉ် Flux ၏ ပြောင်းလဲမှု နှုန်း Sinusoidally ပြောင်းလဲသောကြောင့်",
+            "Coil ၏ Material သည် အချိန်ကြာလာသည်နှင့်အမျှ ပြောင်းလဲသောကြောင့်",
+            "Generator ပျက်စီးနေသောကြောင့်",
+            "Field လုံးဝ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Doubling the speed of a rod moving through a field (B, L unchanged) doubles...",
+          questionMy: "Field ကို ဖြတ်ကာ ရွေ့လျားနေသော Rod ၏ Speed ကို နှစ်ဆတိုးလျှင် (B, L မပြောင်းလဲပါ) ...ကို နှစ်ဆ တိုးစေသည်",
+          optionsEn: [
+            "The induced e.m.f.",
+            "The magnetic flux density",
+            "The rod's length",
+            "The rod's mass",
+          ],
+          optionsMy: ["Induced e.m.f.", "Magnetic Flux Density", "Rod ၏ Length", "Rod ၏ Mass"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 5: "Magnetic Fields and Electromagnetic
+/// Induction". Covers magnetic flux density and the motor effect
+/// (F = BIL, F = BQv, Fleming's left-hand rule), circular motion of
+/// charged particles in a magnetic field, and electromagnetic induction
+/// (Faraday's and Lenz's laws), closing with an EMF in a Moving
+/// Conductor and a Changing Flux capstone week (ε = BLv, generators,
+/// and real-world induction applications).
+const CourseTermDef year13PhysicsTerm5 = CourseTermDef(
+  id: "course-y13-phys-term5",
+  termNumber: 5,
+  titleEn: "Magnetic Fields and Electromagnetic Induction",
+  titleMy: "Magnetic Fields နှင့် Electromagnetic Induction",
+  weeks: [_y13PhysWeek17, _y13PhysWeek18, _y13PhysWeek19, _y13PhysWeek20],
+  certificateTitleEn: "A2 Physics: Magnetic Fields and Electromagnetic Induction",
+  certificateTitleMy: "A2 ရူပဗေဒ - Magnetic Fields နှင့် Electromagnetic Induction",
+);
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 6: "Alternating Currents and Electronics"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "Describing AC: Peak and RMS Values"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek21 = CourseWeekDef(
+  id: "course-y13-phys-w21",
+  weekNumber: 21,
+  titleEn: "Describing AC: Peak and RMS Values",
+  titleMy: "AC ကို ဖော်ပြခြင်း - Peak နှင့် RMS Value များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w21-d1",
+      dayNumber: 1,
+      titleEn: "I_rms = I₀/√2 and V_rms = V₀/√2",
+      titleMy: "I_rms = I₀/√2 နှင့် V_rms = V₀/√2",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Using I_rms = I₀/√2, find the rms current for a peak current I₀ = 5 A.",
+          questionMy: "I_rms = I₀/√2 ကို အသုံးပြု၍ Peak Current I₀ = 5 A ၏ Rms Current ကို ရှာပါ။",
+          optionsEn: ["≈ 3.54 A", "5 A", "≈ 7.07 A", "2.5 A"],
+          optionsMy: ["≈ 3.54 A", "5 A", "≈ 7.07 A", "2.5 A"],
+          correctIndex: 0,
+          hintsEn: ["I_rms = I₀/√2 = 5/1.414 ≈ 3.54 A."],
+          hintsMy: ["I_rms = I₀/√2 = 5/1.414 ≈ 3.54 A ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using V₀ = V_rms x √2, find the peak voltage if the rms voltage is 230 V (Myanmar mains supply).",
+          questionMy:
+              "V₀ = V_rms x √2 ကို အသုံးပြု၍ Rms Voltage 230 V (မြန်မာ Mains Supply) ဖြစ်ပါက Peak Voltage ကို ရှာပါ။",
+          optionsEn: ["≈ 325 V", "230 V", "≈ 162.6 V", "460 V"],
+          optionsMy: ["≈ 325 V", "230 V", "≈ 162.6 V", "460 V"],
+          correctIndex: 0,
+          hintsEn: ["V₀ = V_rms x √2 = 230 x 1.414 ≈ 325 V."],
+          hintsMy: ["V₀ = V_rms x √2 = 230 x 1.414 ≈ 325 V ။"],
+        ),
+        QuizQuestion(
+          questionEn: "The rms value of an alternating current is defined as...",
+          questionMy: "Alternating Current တစ်ခု၏ Rms Value ကို ...ဟု အနက်ဖွင့်သည်",
+          optionsEn: [
+            "The value of the direct current that would produce the same average power in a resistor",
+            "The largest value the current ever reaches",
+            "The value of the current at t = 0 only",
+            "Half the peak value, always exactly",
+          ],
+          optionsMy: [
+            "Resistor တစ်ခုတွင် Average Power တူညီ ဖြစ်ပေါ်စေမည့် Direct Current ၏ တန်ဖိုး",
+            "Current ရောက်ရှိနိုင်သမျှ အကြီးဆုံး တန်ဖိုး",
+            "t = 0 တွင် Current ၏ တန်ဖိုးသာ",
+            "Peak Value ၏ တစ်ဝက်၊ အမြဲ အတိအကျ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The rms value is defined by equivalent heating effect -- the steady d.c. current that would dissipate the same average power in a resistor as the actual alternating current.",
+          ],
+          hintsMy: [
+            "Rms Value ကို Equivalent Heating Effect ဖြင့် အနက်ဖွင့်သည် -- တကယ့် Alternating Current ကဲ့သို့ Resistor တစ်ခုတွင် Average Power တူညီ Dissipate ဖြစ်စေမည့် Steady D.C. Current ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: AC Symbols and Meanings",
+      titleMy: "တွဲစပ်ကြမည် - AC သင်္ကေတများနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w21-dm-1",
+          termEn: "I₀",
+          termMy: "I₀",
+          matchEn: "Peak current",
+          matchMy: "Peak Current",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w21-dm-2",
+          termEn: "I_rms",
+          termMy: "I_rms",
+          matchEn: "Root-mean-square current",
+          matchMy: "Root-Mean-Square Current",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w21-dm-3",
+          termEn: "I_rms = I₀/√2",
+          termMy: "I_rms = I₀/√2",
+          matchEn: "Relationship between peak and rms current",
+          matchMy: "Peak နှင့် Rms Current ကြား ဆက်နွယ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w21-dm-4",
+          termEn: "V_rms",
+          termMy: "V_rms",
+          matchEn: "Root-mean-square voltage, equal to V₀/√2",
+          matchMy: "Root-Mean-Square Voltage, V₀/√2 နှင့် ညီမျှသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w21-dm-5",
+          termEn: "rms value",
+          termMy: "Rms Value",
+          matchEn: "Defined by equivalent heating effect compared to direct current",
+          matchMy: "Direct Current နှင့် နှိုင်းယှဉ်သော Equivalent Heating Effect ဖြင့် အနက်ဖွင့်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Peak Value or RMS Value?",
+      titleMy: "စီစစ်ကြမည် - Peak Value လား၊ Rms Value လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Peak Value", "RMS Value"],
+        bucketsMy: ["Peak Value", "Rms Value"],
+        items: [
+          SortingItem(
+            id: "y13phys-w21-sort-1",
+            labelEn: "The maximum instantaneous value reached by the current/voltage",
+            labelMy: "Current/Voltage ရောက်ရှိနိုင်သော Maximum Instantaneous Value",
+            correctBucketEn: "Peak Value",
+            correctBucketMy: "Peak Value",
+          ),
+          SortingItem(
+            id: "y13phys-w21-sort-2",
+            labelEn: "The value quoted on a mains supply label (e.g. 230 V)",
+            labelMy: "Mains Supply Label ပေါ်တွင် ဖော်ပြထားသော တန်ဖိုး (ဥပမာ - 230 V)",
+            correctBucketEn: "RMS Value",
+            correctBucketMy: "Rms Value",
+          ),
+          SortingItem(
+            id: "y13phys-w21-sort-3",
+            labelEn: "Equal to the corresponding peak value divided by √2",
+            labelMy: "သက်ဆိုင်ရာ Peak Value ကို √2 ဖြင့် စားခြင်းနှင့် ညီမျှသည်",
+            correctBucketEn: "RMS Value",
+            correctBucketMy: "Rms Value",
+          ),
+          SortingItem(
+            id: "y13phys-w21-sort-4",
+            labelEn: "Occurs only briefly, twice per cycle",
+            labelMy: "Cycle တစ်ခုစီတွင် ခဏတာသာ နှစ်ကြိမ် ဖြစ်ပေါ်သည်",
+            correctBucketEn: "Peak Value",
+            correctBucketMy: "Peak Value",
+          ),
+          SortingItem(
+            id: "y13phys-w21-sort-5",
+            labelEn: "Used to calculate equivalent heating/power effect in a resistor",
+            labelMy: "Resistor တစ်ခုတွင် Equivalent Heating/Power Effect ကို တွက်ချက်ရန် အသုံးပြုသည်",
+            correctBucketEn: "RMS Value",
+            correctBucketMy: "Rms Value",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Wiring Handles More Than 230 V",
+      titleMy: "စာဖတ်ခြင်း - Wiring သည် 230 V ထက် ပိုသည့်ကို အဘယ်ကြောင့် ခံနိုင်ရသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Wiring Handles More Than 230 V",
+        titleMy: "Wiring သည် 230 V ထက် ပိုသည့်ကို အဘယ်ကြောင့် ခံနိုင်ရသနည်း",
+        passageEn:
+            "Htet Aung's uncle, an electrician, showed him a multimeter reading 230 V across a wall socket and mentioned offhand that the wire's insulation actually has to withstand a higher voltage than that. Confused, Htet Aung brought the question to Sayar Zaw Min the next day.\n\nSayar Zaw Min explained that the 230 V a multimeter reads for mains a.c. is the rms value, not the peak value the wire experiences at certain instants. Using V₀ = V_rms x √2 = 230 x 1.414 ≈ 325 V, the actual voltage across the wire swings all the way up to about 325 V twice every cycle, even though its rms 'equivalent heating effect' value is only 230 V.\n\nThis matters enormously for safety, he said: insulation, appliance ratings, and circuit breakers must all be designed to withstand the full peak voltage of roughly 325 V, not just the quoted 230 V rms figure -- a component rated only for 230 V would be dangerously undersized and could break down repeatedly as the true voltage peaks above its rating twice every single cycle, 50 or 60 times a second.",
+        passageMy:
+            "Htet Aung ၏ ဦးလေးသည် လျှပ်စစ်ပညာရှင် ဖြစ်ပြီး နံရံပလပ်ပေါက်တစ်ခုပေါ်ရှိ Multimeter ဖတ်ချက် 230 V ကို ပြသခဲ့ပြီး Wire ၏ Insulation သည် ထိုထက် ပိုမြင့်သော Voltage ကို တကယ်တမ်း ခံနိုင်ရမည်ဟု လျင်လျင်ဆိုသလို ဖော်ပြခဲ့သည်။ ရှုပ်ထွေးနေသော Htet Aung သည် နောက်ရက်တွင် ဤ မေးခွန်းကို ဆရာဇော်မင်းဆီ ယူဆောင်လာခဲ့သည်။\n\nMultimeter က Mains a.c. အတွက် ဖတ်သော 230 V သည် Rms Value ဖြစ်ပြီး Wire ခဏတိုင်း ခံစားနေရသော Peak Value မဟုတ်ကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်။ V₀ = V_rms x √2 = 230 x 1.414 ≈ 325 V ကို အသုံးပြု၍ Wire ၏ တကယ့် Voltage သည် Cycle တစ်ခုစီတွင် နှစ်ကြိမ် 325 V ခန့်အထိ တက်လွှားသွားသည်၊ ၎င်း၏ Rms 'Equivalent Heating Effect' Value သည် 230 V သာ ဖြစ်သော်လည်းပင် ဖြစ်သည်။\n\nဤအချက်သည် လုံခြုံရေးအတွက် အလွန်အရေးကြီးကြောင်း သူ ပြောပြခဲ့သည် - Insulation, Appliance Rating နှင့် Circuit Breaker အားလုံးကို ဖော်ပြထားသော 230 V Rms ကိန်းဂဏန်းသာ မဟုတ်ဘဲ 325 V ခန့် အပြည့်အဝ Peak Voltage ကို ခံနိုင်ရန် ဒီဇိုင်း လုပ်ရမည် -- 230 V အတွက်သာ Rate ချထားသော Component တစ်ခုသည် အန္တရာယ်ရှိလောက်အောင် သေးငယ်နေမည် ဖြစ်ပြီး တကယ့် Voltage သည် Cycle တစ်ခုစီတွင် စက္ကန့်ပိုင်း 50 (သို့) 60 ကြိမ် ၎င်း၏ Rating ထက် Peak ပေါက်နေသောကြောင့် ထပ်ခါထပ်ခါ ပျက်စီးနိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the peak voltage for a 230 V rms mains supply?",
+            questionMy: "230 V Rms Mains Supply အတွက် Peak Voltage ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 325 V", "230 V", "≈ 162.6 V", "460 V"],
+            optionsMy: ["≈ 325 V", "230 V", "≈ 162.6 V", "460 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why must insulation withstand more than 230 V?",
+            questionMy: "Insulation သည် 230 V ထက် ပိုမြင့်သည်ကို အဘယ်ကြောင့် ခံနိုင်ရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The actual voltage peaks at about 325 V twice every cycle",
+              "230 V is actually the lowest voltage ever reached",
+              "The multimeter reading is always wrong",
+              "Insulation never needs to withstand any voltage",
+            ],
+            optionsMy: [
+              "တကယ့် Voltage သည် Cycle တစ်ခုစီတွင် နှစ်ကြိမ် 325 V ခန့် Peak ပေါက်သောကြောင့်",
+              "230 V သည် ရောက်ရှိဖူးသော အနိမ့်ဆုံး Voltage အမှန်တကယ် ဖြစ်သောကြောင့်",
+              "Multimeter ဖတ်ချက်သည် အမြဲ မှားနေသောကြောင့်",
+              "Insulation သည် Voltage မည်သည့်တစ်ခုကိုမျှ ခံနိုင်ရန် လုံးဝ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what does a multimeter reading of mains a.c. show?",
+            questionMy: "Mains a.c. ၏ Multimeter ဖတ်ချက်သည် အဘယ်ကို ပြသသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The rms value", "The peak value", "Zero, always", "The frequency only"],
+            optionsMy: ["Rms Value", "Peak Value", "Zero, အမြဲ", "Frequency သာ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Peak and RMS Values",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Peak နှင့် Rms Value များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "I_rms = I₀/...",
+          questionMy: "I_rms = I₀/...",
+          optionsEn: ["√2", "2", "π", "e"],
+          optionsMy: ["√2", "2", "π", "e"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Myanmar mains supply is typically quoted as 230 V. This is the...",
+          questionMy: "မြန်မာ့ Mains Supply ကို 230 V ဟု များသောအားဖြင့် ဖော်ပြသည်။ ၎င်းသည် ...ဖြစ်သည်",
+          optionsEn: ["The rms value", "The peak value", "The average value over one full cycle (which is zero)", "The frequency"],
+          optionsMy: ["Rms Value", "Peak Value", "Cycle တစ်ခုလုံးရှိ Average Value (Zero ဖြစ်သည်)", "Frequency"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "RMS values are defined based on equivalent...",
+          questionMy: "Rms Value များကို Equivalent ...အပေါ် အခြေခံ၍ အနက်ဖွင့်သည်",
+          optionsEn: [
+            "Heating effect / average power",
+            "Colour",
+            "Frequency only",
+            "Wire thickness",
+          ],
+          optionsMy: ["Heating Effect / Average Power", "အရောင်", "Frequency သာ", "Wire Thickness"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Power in AC Circuits"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek22 = CourseWeekDef(
+  id: "course-y13-phys-w22",
+  weekNumber: 22,
+  titleEn: "Power in AC Circuits",
+  titleMy: "AC Circuit ထဲရှိ Power",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w22-d1",
+      dayNumber: 1,
+      titleEn: "P = I_rms V_rms and P = I²_rms R",
+      titleMy: "P = I_rms V_rms နှင့် P = I²_rms R",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using P = I_rms x V_rms, find the power dissipated by a 230 V rms mains supply driving a current of 4 A rms.",
+          questionMy:
+              "P = I_rms x V_rms ကို အသုံးပြု၍ 230 V Rms Mains Supply သည် Current 4 A Rms ဖြင့် Drive လုပ်ပါက Power Dissipated ကို ရှာပါ။",
+          optionsEn: ["920 W", "460 W", "1840 W", "57.5 W"],
+          optionsMy: ["920 W", "460 W", "1840 W", "57.5 W"],
+          correctIndex: 0,
+          hintsEn: ["P = I_rms x V_rms = 230 x 4 = 920 W."],
+          hintsMy: ["P = I_rms x V_rms = 230 x 4 = 920 W ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using P = I²_rms R, find the power dissipated in a 50 Ω resistor carrying an rms current of 2 A.",
+          questionMy:
+              "P = I²_rms R ကို အသုံးပြု၍ Rms Current 2 A စီးဆင်းနေသော 50 Ω Resistor ၏ Power Dissipated ကို ရှာပါ။",
+          optionsEn: ["200 W", "100 W", "400 W", "50 W"],
+          optionsMy: ["200 W", "100 W", "400 W", "50 W"],
+          correctIndex: 0,
+          hintsEn: ["P = I²_rms R = 2² x 50 = 4 x 50 = 200 W."],
+          hintsMy: ["P = I²_rms R = 2² x 50 = 4 x 50 = 200 W ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The average power in an AC circuit, P_avg = ½I₀V₀, is exactly equivalent to using...",
+          questionMy: "AC Circuit ရှိ Average Power, P_avg = ½I₀V₀ သည် ...ကို အသုံးပြုခြင်းနှင့် အတိအကျ ညီမျှသည်",
+          optionsEn: [
+            "P_avg = I_rms V_rms, since rms values are defined precisely for this purpose",
+            "Peak values directly, since peak power equals average power",
+            "The value at t = 0 only",
+            "Twice the peak power",
+          ],
+          optionsMy: [
+            "P_avg = I_rms V_rms၊ Rms Value များကို ဤ ရည်ရွယ်ချက်အတွက် အတိအကျ အနက်ဖွင့်ထားသောကြောင့်",
+            "Peak Power သည် Average Power နှင့် ညီမျှသောကြောင့် Peak Value များကို တိုက်ရိုက်",
+            "t = 0 တွင် တန်ဖိုးသာ",
+            "Peak Power ၏ နှစ်ဆ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "I_rms V_rms = (I₀/√2)(V₀/√2) = I₀V₀/2 = P_avg -- confirming rms values give the correct average power directly.",
+          ],
+          hintsMy: [
+            "I_rms V_rms = (I₀/√2)(V₀/√2) = I₀V₀/2 = P_avg -- Rms Value များက Average Power မှန်ကန်စွာ တိုက်ရိုက် ပေးကြောင်း အတည်ပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: AC Power Formulas",
+      titleMy: "တွဲစပ်ကြမည် - AC Power ဖော်မြူလာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w22-dm-1",
+          termEn: "P = I_rms V_rms",
+          termMy: "P = I_rms V_rms",
+          matchEn: "Average power formula (rms form)",
+          matchMy: "Average Power ဖော်မြူလာ (Rms ပုံစံ)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w22-dm-2",
+          termEn: "P = I²_rms R",
+          termMy: "P = I²_rms R",
+          matchEn: "Average power dissipated in a resistor (rms current form)",
+          matchMy: "Resistor တစ်ခုတွင် Average Power Dissipated (Rms Current ပုံစံ)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w22-dm-3",
+          termEn: "P_avg = ½I₀V₀",
+          termMy: "P_avg = ½I₀V₀",
+          matchEn: "Average power formula (peak form)",
+          matchMy: "Average Power ဖော်မြူလာ (Peak ပုံစံ)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w22-dm-4",
+          termEn: "Watt (W)",
+          termMy: "Watt (W)",
+          matchEn: "SI unit of power",
+          matchMy: "Power ၏ SI Unit",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w22-dm-5",
+          termEn: "Instantaneous power",
+          termMy: "Instantaneous Power",
+          matchEn: "Power at one particular moment, varies continuously over a cycle",
+          matchMy: "ခဏတစ်ခုရှိ Power၊ Cycle တစ်ခုလုံးတွင် ဆက်တိုက် ပြောင်းလဲသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Power Formula?",
+      titleMy: "စီစစ်ကြမည် - Power ဖော်မြူလာ မှန်သလား၊ မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Correct Power Formula (AC, using rms)",
+          "Incorrect / Common Mistake",
+        ],
+        bucketsMy: [
+          "မှန်ကန်သော Power ဖော်မြူလာ (AC, Rms အသုံးပြုသည်)",
+          "မှားယွင်းသော / Common Mistake",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w22-sort-1",
+            labelEn: "P = I_rms x V_rms",
+            labelMy: "P = I_rms x V_rms",
+            correctBucketEn: "Correct Power Formula (AC, using rms)",
+            correctBucketMy: "မှန်ကန်သော Power ဖော်မြူလာ (AC, Rms အသုံးပြုသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w22-sort-2",
+            labelEn: "P = I₀ x V₀ (using peak values directly for average power)",
+            labelMy: "P = I₀ x V₀ (Average Power အတွက် Peak Value များကို တိုက်ရိုက် အသုံးပြုခြင်း)",
+            correctBucketEn: "Incorrect / Common Mistake",
+            correctBucketMy: "မှားယွင်းသော / Common Mistake",
+          ),
+          SortingItem(
+            id: "y13phys-w22-sort-3",
+            labelEn: "P = I²_rms x R",
+            labelMy: "P = I²_rms x R",
+            correctBucketEn: "Correct Power Formula (AC, using rms)",
+            correctBucketMy: "မှန်ကန်သော Power ဖော်မြူလာ (AC, Rms အသုံးပြုသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w22-sort-4",
+            labelEn: "P = I₀² x R (using peak current for average power)",
+            labelMy: "P = I₀² x R (Average Power အတွက် Peak Current ကို အသုံးပြုခြင်း)",
+            correctBucketEn: "Incorrect / Common Mistake",
+            correctBucketMy: "မှားယွင်းသော / Common Mistake",
+          ),
+          SortingItem(
+            id: "y13phys-w22-sort-5",
+            labelEn: "P_avg = ½I₀V₀",
+            labelMy: "P_avg = ½I₀V₀",
+            correctBucketEn: "Correct Power Formula (AC, using rms)",
+            correctBucketMy: "မှန်ကန်သော Power ဖော်မြူလာ (AC, Rms အသုံးပြုသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating the Kettle's Electricity Cost",
+      titleMy: "စာဖတ်ခြင်း - Kettle ၏ လျှပ်စစ် စရိတ်ကို တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating the Kettle's Electricity Cost",
+        titleMy: "Kettle ၏ လျှပ်စစ် စရိတ်ကို တွက်ချက်ခြင်း",
+        passageEn:
+            "Su Su's family got a new electric kettle labelled 230 V, 8 A, and she wondered how much electricity it actually used each time she made tea. Sayama Moe Moe Aye helped her work through it using this week's power formulas.\n\nSince both figures on the label are rms values (as almost all appliance ratings are), the power rating is P = I_rms x V_rms = 230 x 8 = 1840 W = 1.84 kW. Su Su timed the kettle and found it took about 10 minutes (1/6 of an hour) to boil a full kettle of water.\n\nUsing energy = power x time, E = 1.84 kW x (1/6) h ≈ 0.307 kWh -- roughly a third of a 'unit' of electricity, the kWh being exactly the unit household electricity bills are calculated in. Sayama Moe Moe Aye pointed out that this is precisely why understanding rms power matters practically, not just academically: every appliance rating label, every electricity meter, and every monthly bill is built on the P = I_rms V_rms relationship this week introduced.",
+        passageMy:
+            "Su Su ၏ မိသားစုသည် 230 V, 8 A ဟု Label တပ်ထားသော လျှပ်စစ် Kettle အသစ် ဝယ်ခဲ့ပြီး လက်ဖက်ရည် ဖျော်တိုင်း လျှပ်စစ် မည်မျှ သုံးစွဲသည်ကို သိလိုခဲ့သည်။ ဤ အပတ်၏ Power ဖော်မြူလာများကို အသုံးပြု၍ ရှာဖွေရန် ဆရာမ မိုမိုအေး ကူညီခဲ့သည်။\n\nLabel ပေါ်ရှိ ကိန်းဂဏန်းနှစ်ခုစလုံး Rms Value ဖြစ်သောကြောင့် (Appliance Rating အားလုံးနီးပါး ဖြစ်သကဲ့သို့) Power Rating သည် P = I_rms x V_rms = 230 x 8 = 1840 W = 1.84 kW ဖြစ်သည်။ Su Su သည် Kettle ကို အချိန်တိုင်းခဲ့ပြီး ရေအပြည့် ဆူရန် 10 Minutes ခန့် (1/6 Hour) ကြာကြောင်း တွေ့ရှိခဲ့သည်။\n\nEnergy = Power x Time ကို အသုံးပြု၍ E = 1.84 kW x (1/6) h ≈ 0.307 kWh -- Household လျှပ်စစ် Bill တွက်ချက်ရာတွင် အသုံးပြုသော 'Unit' ဟု ခေါ်ဆိုသော kWh ၏ သုံးပုံတစ်ပုံခန့် ဖြစ်သည်။ Rms Power ကို နားလည်ခြင်းသည် ပညာရေးဆိုင်ရာသာ မဟုတ်ဘဲ လက်တွေ့တွင်လည်း အလွန်အရေးကြီးသည့် အကြောင်းရင်း အတိအကျ ဤသည် ဖြစ်ကြောင်း ဆရာမ မိုမိုအေး ထောက်ပြခဲ့သည် - Appliance Rating Label တိုင်း၊ လျှပ်စစ် Meter တိုင်းနှင့် လစဉ် Bill တိုင်းကို ဤ အပတ်တွင် မိတ်ဆက်ခဲ့သော P = I_rms V_rms ဆက်နွယ်မှုပေါ် တည်ဆောက်ထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the kettle's power rating?",
+            questionMy: "Kettle ၏ Power Rating ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1.84 kW", "230 W", "8 W", "18.4 kW"],
+            optionsMy: ["1.84 kW", "230 W", "8 W", "18.4 kW"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, roughly how much energy did boiling the kettle use?",
+            questionMy: "Kettle ဆူစေရန် Energy မည်မျှ သုံးစွဲခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 0.307 kWh", "≈ 1.84 kWh", "≈ 10 kWh", "≈ 8 kWh"],
+            optionsMy: ["≈ 0.307 kWh", "≈ 1.84 kWh", "≈ 10 kWh", "≈ 8 kWh"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what kind of values are the figures on an appliance's label?",
+            questionMy: "Appliance Label ပေါ်ရှိ ကိန်းဂဏန်းများသည် မည်သည့် Value အမျိုးအစားဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["RMS values", "Peak values", "Instantaneous values only", "Average values over infinite time"],
+            optionsMy: ["Rms Value များ", "Peak Value များ", "Instantaneous Value များသာ", "Infinite Time ရှိ Average Value များ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Power in AC Circuits",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - AC Circuit ထဲရှိ Power",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Average power in an AC circuit can be calculated using P =...",
+          questionMy: "AC Circuit ရှိ Average Power ကို P = ...ဖြင့် တွက်ချက်နိုင်သည်",
+          optionsEn: ["I_rms x V_rms", "I₀ x V₀ directly", "I x t", "V x t"],
+          optionsMy: ["I_rms x V_rms", "I₀ x V₀ တိုက်ရိုက်", "I x t", "V x t"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "P = I₀ x V₀ using peak values directly gives...",
+          questionMy: "Peak Value များကို တိုက်ရိုက် အသုံးပြု၍ P = I₀ x V₀ က ...ကို ပေးသည်",
+          optionsEn: [
+            "An incorrect, too-large value for average power",
+            "The exact correct average power",
+            "Zero, always",
+            "A negative power value",
+          ],
+          optionsMy: [
+            "Average Power အတွက် မှားယွင်းသော၊ အလွန်ကြီးသော တန်ဖိုး",
+            "မှန်ကန်သော Average Power အတိအကျ",
+            "Zero, အမြဲ",
+            "Negative Power တန်ဖိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Electrical energy bills are typically measured in units of...",
+          questionMy: "လျှပ်စစ် Energy Bill များကို ...Unit ဖြင့် များသောအားဖြင့် တိုင်းတာသည်",
+          optionsEn: ["Kilowatt-hours (kWh)", "Watts only", "Volts only", "Amps only"],
+          optionsMy: ["Kilowatt-Hours (kWh)", "Watts သာ", "Volts သာ", "Amps သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "The Transformer"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek23 = CourseWeekDef(
+  id: "course-y13-phys-w23",
+  weekNumber: 23,
+  titleEn: "The Transformer",
+  titleMy: "Transformer",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w23-d1",
+      dayNumber: 1,
+      titleEn: "Ns/Np = Vs/Vp and IpVp = IsVs",
+      titleMy: "Ns/Np = Vs/Vp နှင့် IpVp = IsVs",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Ns/Np = Vs/Vp, find the secondary voltage for a transformer with Np = 500 turns, Ns = 2000 turns, Vp = 230 V.",
+          questionMy:
+              "Ns/Np = Vs/Vp ကို အသုံးပြု၍ Np = 500 Turns, Ns = 2000 Turns, Vp = 230 V ရှိသော Transformer ၏ Secondary Voltage ကို ရှာပါ။",
+          optionsEn: ["920 V", "57.5 V", "230 V", "460 V"],
+          optionsMy: ["920 V", "57.5 V", "230 V", "460 V"],
+          correctIndex: 0,
+          hintsEn: ["Vs = Vp x (Ns/Np) = 230 x (2000/500) = 230 x 4 = 920 V."],
+          hintsMy: ["Vs = Vp x (Ns/Np) = 230 x (2000/500) = 230 x 4 = 920 V ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For an ideal transformer, IpVp = IsVs. If Vp = 230 V, Ip = 2 A, Vs = 920 V, find Is.",
+          questionMy:
+              "Ideal Transformer အတွက် IpVp = IsVs ။ Vp = 230 V, Ip = 2 A, Vs = 920 V ဖြစ်ပါက Is ကို ရှာပါ။",
+          optionsEn: ["0.5 A", "2 A", "4 A", "8 A"],
+          optionsMy: ["0.5 A", "2 A", "4 A", "8 A"],
+          correctIndex: 0,
+          hintsEn: ["Is = (Ip x Vp)/Vs = (2 x 230)/920 = 460/920 = 0.5 A."],
+          hintsMy: ["Is = (Ip x Vp)/Vs = (2 x 230)/920 = 460/920 = 0.5 A ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A transformer with more turns on the secondary than the primary (Ns > Np) is called a...",
+          questionMy: "Primary ထက် Secondary တွင် Turn ပိုများသော Transformer (Ns > Np) ကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Step-up transformer",
+            "Step-down transformer",
+            "Isolation transformer only",
+            "Rectifier",
+          ],
+          optionsMy: ["Step-Up Transformer", "Step-Down Transformer", "Isolation Transformer သာ", "Rectifier"],
+          correctIndex: 0,
+          hintsEn: [
+            "Ns > Np means Vs > Vp -- the transformer steps the voltage up, hence 'step-up transformer'.",
+          ],
+          hintsMy: [
+            "Ns > Np ဆိုသည်မှာ Vs > Vp ဖြစ်သည် -- Transformer သည် Voltage ကို Step Up လုပ်သောကြောင့် 'Step-Up Transformer' ဟု ခေါ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Transformer Terms",
+      titleMy: "တွဲစပ်ကြမည် - Transformer ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w23-dm-1",
+          termEn: "Ns/Np = Vs/Vp",
+          termMy: "Ns/Np = Vs/Vp",
+          matchEn: "Transformer turns-ratio equation",
+          matchMy: "Transformer Turns-Ratio Equation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w23-dm-2",
+          termEn: "IpVp = IsVs",
+          termMy: "IpVp = IsVs",
+          matchEn: "Ideal transformer power conservation",
+          matchMy: "Ideal Transformer Power Conservation",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w23-dm-3",
+          termEn: "Step-up transformer",
+          termMy: "Step-Up Transformer",
+          matchEn: "Ns > Np, increases voltage",
+          matchMy: "Ns > Np, Voltage ကို တိုးမြှင့်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w23-dm-4",
+          termEn: "Step-down transformer",
+          termMy: "Step-Down Transformer",
+          matchEn: "Ns < Np, decreases voltage",
+          matchMy: "Ns < Np, Voltage ကို လျော့ချသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w23-dm-5",
+          termEn: "Primary coil",
+          termMy: "Primary Coil",
+          matchEn: "Coil connected to the input a.c. supply",
+          matchMy: "Input a.c. Supply နှင့် ချိတ်ဆက်ထားသော Coil",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Step-Up or Step-Down Transformer?",
+      titleMy: "စီစစ်ကြမည် - Step-Up Transformer လား၊ Step-Down Transformer လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Step-Up Transformer", "Step-Down Transformer"],
+        bucketsMy: ["Step-Up Transformer", "Step-Down Transformer"],
+        items: [
+          SortingItem(
+            id: "y13phys-w23-sort-1",
+            labelEn: "Ns > Np (more turns on secondary)",
+            labelMy: "Ns > Np (Secondary တွင် Turn ပိုများ)",
+            correctBucketEn: "Step-Up Transformer",
+            correctBucketMy: "Step-Up Transformer",
+          ),
+          SortingItem(
+            id: "y13phys-w23-sort-2",
+            labelEn: "Used at power stations to raise voltage for efficient long-distance transmission",
+            labelMy: "ထိရောက်သော ဝေးလံသော Transmission အတွက် Voltage တိုးမြှင့်ရန် Power Station များတွင် အသုံးပြုသည်",
+            correctBucketEn: "Step-Up Transformer",
+            correctBucketMy: "Step-Up Transformer",
+          ),
+          SortingItem(
+            id: "y13phys-w23-sort-3",
+            labelEn: "Ns < Np (fewer turns on secondary)",
+            labelMy: "Ns < Np (Secondary တွင် Turn ပိုနည်း)",
+            correctBucketEn: "Step-Down Transformer",
+            correctBucketMy: "Step-Down Transformer",
+          ),
+          SortingItem(
+            id: "y13phys-w23-sort-4",
+            labelEn: "Used near homes to reduce the high transmission voltage to a safe mains voltage",
+            labelMy: "မြင့်မားသော Transmission Voltage ကို ဘေးကင်းသော Mains Voltage သို့ လျော့ချရန် အိမ်များအနီးတွင် အသုံးပြုသည်",
+            correctBucketEn: "Step-Down Transformer",
+            correctBucketMy: "Step-Down Transformer",
+          ),
+          SortingItem(
+            id: "y13phys-w23-sort-5",
+            labelEn: "Vs > Vp",
+            labelMy: "Vs > Vp",
+            correctBucketEn: "Step-Up Transformer",
+            correctBucketMy: "Step-Up Transformer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the National Grid Uses High Voltage",
+      titleMy: "စာဖတ်ခြင်း - National Grid သည် High Voltage ကို အသုံးပြုရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the National Grid Uses High Voltage",
+        titleMy: "National Grid သည် High Voltage ကို အသုံးပြုရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Zaw Min asked his class why the national power grid transmits electricity across the country at extremely high voltage, then steps it back down to a safe level before it enters any home. He set up a comparison to illustrate why.\n\nFirst, imagine transmitting a power of P = 1x10⁶ W (1 MW) at a high voltage of V = 1x10⁵ V (100 kV). Since P = IV, the current is I = P/V = 1x10⁶/1x10⁵ = 10 A. If the transmission cable has resistance R = 2 Ω, the power lost to resistive heating is P_loss = I²R = 10² x 2 = 200 W -- a tiny fraction of the 1 MW being delivered.\n\nNow imagine transmitting that same 1 MW at just V = 1000 V instead. The current becomes I = 1x10⁶/1000 = 1000 A, and the power lost in the same cable is P_loss = I²R = 1000² x 2 = 2000000 W = 2 MW -- more power lost to heat than is even being delivered! Sayar Zaw Min explained that this is why the grid always uses step-up transformers to raise voltage (and lower current) for long-distance transmission, then step-down transformers to reduce that dangerously high voltage to a safe 230 V just before it reaches homes and offices.",
+        passageMy:
+            "National Power Grid သည် လျှပ်စစ်ကို တစ်နိုင်ငံလုံးအနှံ့ အလွန်မြင့်မားသော Voltage ဖြင့် Transmit လုပ်ပြီး မည်သည့် အိမ်ထဲ ဝင်ရောက်မီ ဘေးကင်းသော Level သို့ ပြန်လျော့ချရသည့် အကြောင်းရင်းကို ဆရာဇော်မင်းက သူ၏ အတန်းကို မေးမြန်းခဲ့သည်။ အကြောင်းရင်းကို ရှင်းလင်းစွာ ပြသရန် Comparison တစ်ခု စီစဉ်ပေးခဲ့သည်။\n\nဦးစွာ Power P = 1x10⁶ W (1 MW) ကို မြင့်မားသော Voltage V = 1x10⁵ V (100 kV) ဖြင့် Transmit လုပ်သည်ဟု စဉ်းစားကြည့်ပါ။ P = IV ဖြစ်သောကြောင့် Current I = P/V = 1x10⁶/1x10⁵ = 10 A ဖြစ်သည်။ Transmission Cable တွင် Resistance R = 2 Ω ရှိပါက Resistive Heating အတွက် ဆုံးရှုံးသော Power သည် P_loss = I²R = 10² x 2 = 200 W ဖြစ်ပြီး ပေးပို့နေသော 1 MW ၏ အလွန်သေးငယ်သော Fraction ဖြစ်သည်။\n\nယခုအခါ တူညီသော 1 MW ကို V = 1000 V ဖြင့် Transmit လုပ်သည်ဟု စဉ်းစားကြည့်ပါ။ Current သည် I = 1x10⁶/1000 = 1000 A ဖြစ်လာပြီး Cable တူညီထဲတွင် ဆုံးရှုံးသော Power သည် P_loss = I²R = 1000² x 2 = 2000000 W = 2 MW ဖြစ်သည် -- ပေးပို့နေသည်ထက်ပင် Heat သို့ Power ပို၍ ဆုံးရှုံးသွားသည်။ ဤသည်ကြောင့် Grid သည် ဝေးလံသော Transmission အတွက် Voltage ကို တိုးမြှင့် (Current ကို လျော့ချ) ရန် Step-Up Transformer ကို အမြဲ အသုံးပြုပြီး ထို့နောက် အိမ်များနှင့် ရုံးများသို့ မမရောက်မီ ထို အန္တရာယ်ရှိသော မြင့်မားသော Voltage ကို ဘေးကင်းသော 230 V သို့ လျော့ချရန် Step-Down Transformer ကို အသုံးပြုကြောင်း ဆရာဇော်မင်း ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the power loss at 100 kV transmission?",
+            questionMy: "100 kV Transmission တွင် Power Loss ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["200 W", "2000000 W", "10 W", "100 W"],
+            optionsMy: ["200 W", "2000000 W", "10 W", "100 W"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the power loss at just 1000 V transmission?",
+            questionMy: "1000 V Transmission တွင်သာ Power Loss ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2 MW", "200 W", "1 MW", "10 W"],
+            optionsMy: ["2 MW", "200 W", "1 MW", "10 W"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does higher transmission voltage reduce power loss?",
+            questionMy: "မြင့်မားသော Transmission Voltage သည် Power Loss ကို အဘယ်ကြောင့် လျော့ချသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It reduces the current, and power loss depends on current squared",
+              "It has no effect on current at all",
+              "It increases the cable's resistance directly",
+              "It makes the cable shorter",
+            ],
+            optionsMy: [
+              "Current ကို လျော့ချပေးပြီး Power Loss သည် Current Squared ပေါ် မူတည်သောကြောင့်",
+              "Current ပေါ် သက်ရောက်မှု လုံးဝ မရှိသောကြောင့်",
+              "Cable ၏ Resistance ကို တိုက်ရိုက် တိုးမြှင့်သောကြောင့်",
+              "Cable ကို တိုစေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: The Transformer",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Transformer",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A step-up transformer has...",
+          questionMy: "Step-Up Transformer တစ်ခုတွင်...",
+          optionsEn: [
+            "More turns on the secondary than the primary",
+            "Fewer turns on the secondary than the primary",
+            "Exactly equal turns on both coils",
+            "No secondary coil at all",
+          ],
+          optionsMy: [
+            "Primary ထက် Secondary တွင် Turn ပိုများ",
+            "Primary ထက် Secondary တွင် Turn ပိုနည်း",
+            "Coil နှစ်ခုစလုံးတွင် Turn အတိအကျ တူညီ",
+            "Secondary Coil လုံးဝ မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For an ideal transformer, IpVp =...",
+          questionMy: "Ideal Transformer တစ်ခုအတွက် IpVp = ...",
+          optionsEn: ["IsVs", "Is + Vs", "IsVs/2", "Zero"],
+          optionsMy: ["IsVs", "Is + Vs", "IsVs/2", "Zero"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Electricity is transmitted at very high voltage because...",
+          questionMy: "လျှပ်စစ်ကို Voltage အလွန်မြင့်မားစွာ Transmit လုပ်ရသည်မှာ...",
+          optionsEn: [
+            "It reduces current, which reduces resistive power loss",
+            "It makes the wires shorter",
+            "It reduces the resistance of the cables",
+            "There is no real reason -- any voltage works equally",
+          ],
+          optionsMy: [
+            "Current ကို လျော့ချပြီး Resistive Power Loss ကို လျော့ချသောကြောင့်",
+            "Wire များကို ပိုတိုစေသောကြောင့်",
+            "Cable များ၏ Resistance ကို လျော့ချသောကြောင့်",
+            "အကြောင်းအမှန် မရှိပါ -- Voltage မည်သည့်တစ်ခုကမဆို တူညီစွာ အလုပ်လုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24: "Basic Electronics: The Operational Amplifier" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek24 = CourseWeekDef(
+  id: "course-y13-phys-w24",
+  weekNumber: 24,
+  titleEn: "Basic Electronics: The Operational Amplifier",
+  titleMy: "Basic Electronics - Operational Amplifier",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w24-d1",
+      dayNumber: 1,
+      titleEn: "The Op-Amp as a Comparator",
+      titleMy: "Comparator တစ်ခုအနေဖြင့် Op-Amp",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An operational amplifier (op-amp) used as a comparator has two inputs called...",
+          questionMy: "Comparator တစ်ခုအနေဖြင့် အသုံးပြုသော Operational Amplifier (Op-Amp) တွင် Input နှစ်ခု ရှိသည်။ ၎င်းတို့ကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "The inverting and non-inverting inputs",
+            "The primary and secondary inputs",
+            "The source and drain",
+            "The positive and negative rails only",
+          ],
+          optionsMy: [
+            "Inverting နှင့် Non-Inverting Input",
+            "Primary နှင့် Secondary Input",
+            "Source နှင့် Drain",
+            "Positive နှင့် Negative Rail သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An op-amp has two inputs: the inverting input (-) and the non-inverting input (+), plus an output.",
+          ],
+          hintsMy: [
+            "Op-Amp တွင် Input နှစ်ခု ရှိသည် - Inverting Input (-) နှင့် Non-Inverting Input (+)၊ Output တစ်ခုနှင့်အတူ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An ideal op-amp has an open-loop voltage gain that is...",
+          questionMy: "Ideal Op-Amp တစ်ခုတွင် Open-Loop Voltage Gain သည်...",
+          optionsEn: [
+            "Extremely large (very high, ideally infinite)",
+            "Exactly 1",
+            "Exactly 0",
+            "Always negative",
+          ],
+          optionsMy: [
+            "အလွန်ကြီးမား (အလွန်မြင့်၊ Ideally Infinite)",
+            "1 အတိအကျ",
+            "0 အတိအကျ",
+            "အမြဲ Negative",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The open-loop gain of an ideal op-amp is treated as extremely large (approaching infinity), which is why even a tiny difference between the two inputs drives the output to one of its saturation voltages.",
+          ],
+          hintsMy: [
+            "Ideal Op-Amp ၏ Open-Loop Gain ကို အလွန်ကြီးမား (Infinity အနီးသို့) ဟု ယူဆသည်၊ ထို့ကြောင့် Input နှစ်ခုကြား သေးငယ်သော ကွာခြားချက်ပင် Output ကို ၎င်း၏ Saturation Voltage တစ်ခုသို့ တွန်းပို့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When used as a comparator, if the non-inverting input voltage is greater than the inverting input voltage, the op-amp output...",
+          questionMy:
+              "Comparator တစ်ခုအနေဖြင့် အသုံးပြုသောအခါ Non-Inverting Input Voltage သည် Inverting Input Voltage ထက် ကြီးလျှင် Op-Amp Output သည်...",
+          optionsEn: [
+            "Saturates at (near) the positive supply voltage",
+            "Saturates at (near) the negative supply voltage",
+            "Stays exactly at 0 V",
+            "Oscillates randomly",
+          ],
+          optionsMy: [
+            "Positive Supply Voltage (အနီး) တွင် Saturate ဖြစ်သည်",
+            "Negative Supply Voltage (အနီး) တွင် Saturate ဖြစ်သည်",
+            "0 V တွင်ပင် အတိအကျ ဆက်ရှိနေသည်",
+            "ကျပန်း Oscillate ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "When V+ > V-, the huge open-loop gain drives the output all the way to its positive saturation voltage (close to +Vs).",
+          ],
+          hintsMy: [
+            "V+ > V- ဖြစ်သောအခါ ကြီးမားသော Open-Loop Gain သည် Output ကို ၎င်း၏ Positive Saturation Voltage (+Vs အနီး) အထိ တွန်းပို့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Op-Amp Terms",
+      titleMy: "တွဲစပ်ကြမည် - Op-Amp ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w24-dm-1",
+          termEn: "Inverting input (-)",
+          termMy: "Inverting Input (-)",
+          matchEn: "One of the op-amp's two input terminals",
+          matchMy: "Op-Amp ၏ Input Terminal နှစ်ခုအနက် တစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w24-dm-2",
+          termEn: "Non-inverting input (+)",
+          termMy: "Non-Inverting Input (+)",
+          matchEn: "The op-amp's other input terminal",
+          matchMy: "Op-Amp ၏ အခြား Input Terminal",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w24-dm-3",
+          termEn: "Open-loop gain",
+          termMy: "Open-Loop Gain",
+          matchEn: "Extremely large voltage gain of an op-amp with no feedback",
+          matchMy: "Feedback မရှိသော Op-Amp ၏ အလွန်ကြီးမား Voltage Gain",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w24-dm-4",
+          termEn: "Saturation voltage",
+          termMy: "Saturation Voltage",
+          matchEn: "Output voltage limit, close to the supply rail voltages",
+          matchMy: "Output Voltage Limit, Supply Rail Voltage များ အနီး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w24-dm-5",
+          termEn: "Comparator",
+          termMy: "Comparator",
+          matchEn: "Use where the output swings between saturation voltages depending on which input is larger",
+          matchMy: "Input မည်သည်ပို ကြီးသည်ပေါ် မူတည်ကာ Output သည် Saturation Voltage များကြား ခုန်ခြင်း Use",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Output Saturates HIGH or LOW?",
+      titleMy: "စီစစ်ကြမည် - Output Saturate HIGH ဖြစ်သလား၊ LOW ဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Output Saturates HIGH (+Vs)", "Output Saturates LOW (-Vs)"],
+        bucketsMy: ["Output Saturate HIGH (+Vs)", "Output Saturate LOW (-Vs)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w24-sort-1",
+            labelEn: "Non-inverting input (+) voltage greater than inverting input (-) voltage",
+            labelMy: "Non-Inverting Input (+) Voltage သည် Inverting Input (-) Voltage ထက် ကြီးသည်",
+            correctBucketEn: "Output Saturates HIGH (+Vs)",
+            correctBucketMy: "Output Saturate HIGH (+Vs)",
+          ),
+          SortingItem(
+            id: "y13phys-w24-sort-2",
+            labelEn: "Inverting input (-) voltage greater than non-inverting input (+) voltage",
+            labelMy: "Inverting Input (-) Voltage သည် Non-Inverting Input (+) Voltage ထက် ကြီးသည်",
+            correctBucketEn: "Output Saturates LOW (-Vs)",
+            correctBucketMy: "Output Saturate LOW (-Vs)",
+          ),
+          SortingItem(
+            id: "y13phys-w24-sort-3",
+            labelEn: "A light sensor's voltage (on the + input) rises above a fixed reference voltage (on the - input)",
+            labelMy: "Light Sensor ၏ Voltage (+ Input ပေါ်) သည် ပုံသေ Reference Voltage (- Input ပေါ်) ထက် တက်လာသည်",
+            correctBucketEn: "Output Saturates HIGH (+Vs)",
+            correctBucketMy: "Output Saturate HIGH (+Vs)",
+          ),
+          SortingItem(
+            id: "y13phys-w24-sort-4",
+            labelEn: "A light sensor's voltage (on the + input) falls below a fixed reference voltage (on the - input)",
+            labelMy: "Light Sensor ၏ Voltage (+ Input ပေါ်) သည် ပုံသေ Reference Voltage (- Input ပေါ်) အောက် ကျဆင်းသည်",
+            correctBucketEn: "Output Saturates LOW (-Vs)",
+            correctBucketMy: "Output Saturate LOW (-Vs)",
+          ),
+          SortingItem(
+            id: "y13phys-w24-sort-5",
+            labelEn: "V+ > V-",
+            labelMy: "V+ > V-",
+            correctBucketEn: "Output Saturates HIGH (+Vs)",
+            correctBucketMy: "Output Saturate HIGH (+Vs)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building an Automatic Streetlamp",
+      titleMy: "စာဖတ်ခြင်း - Automatic Streetlamp တစ်ခု တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building an Automatic Streetlamp",
+        titleMy: "Automatic Streetlamp တစ်ခု တည်ဆောက်ခြင်း",
+        passageEn:
+            "For her end-of-term electronics project, Su Su built a circuit that turns an LED on automatically when it gets dark, using an op-amp comparator and a light-dependent resistor (LDR) -- a resistor whose resistance falls as light falling on it increases.\n\nShe connected the LDR and a fixed resistor in series as a potential divider, feeding the voltage from their junction into the op-amp's non-inverting (+) input. A separate potential divider, built from a variable resistor, supplied a fixed reference voltage to the inverting (-) input, which Su Su could adjust to set exactly how dark it needed to get before the light switched on.\n\nSayar Zaw Min checked her reasoning: in daylight, the LDR's resistance is low, so the voltage at the potential-divider junction (and therefore the + input) stays low, below the reference voltage on the - input, so the output saturates LOW and the LED stays off. As evening falls, the LDR's resistance rises, and once the + input voltage climbs above the reference voltage on the - input, the output flips and saturates HIGH, switching the LED on. He confirmed this is exactly the comparator circuit used inside real automatic garden and street lights -- a genuine, working application of the op-amp physics the class had just learned.",
+        passageMy:
+            "Su Su သည် Term-End Electronics Project အတွက် Op-Amp Comparator နှင့် Light-Dependent Resistor (LDR) -- ၎င်းပေါ်ကျရောက်နေသော အလင်းရောင် တိုးလာသည်နှင့်အမျှ Resistance ကျဆင်းသွားသော Resistor တစ်မျိုး -- ကို အသုံးပြု၍ မှောင်လာသောအခါ LED ကို အလိုအလျောက် ထွန်းလင်းစေသော Circuit တစ်ခု တည်ဆောက်ခဲ့သည်။\n\nသူမသည် LDR နှင့် ပုံသေ Resistor တစ်ခုကို Potential Divider အဖြစ် Series ချိတ်ဆက်ပြီး ၎င်းတို့၏ Junction မှ Voltage ကို Op-Amp ၏ Non-Inverting (+) Input သို့ ပို့ဆောင်ခဲ့သည်။ Variable Resistor တစ်ခုမှ တည်ဆောက်ထားသော သီးခြား Potential Divider တစ်ခုသည် Inverting (-) Input သို့ ပုံသေ Reference Voltage တစ်ခု ပေးပို့ခဲ့ပြီး ဤ Voltage ကို အလင်းရောင် မည်မျှ မှောင်လာမှ ဖွင့်ရမည်ဟု အတိအကျ သတ်မှတ်ရန် Su Su ချိန်ညှိနိုင်ခဲ့သည်။\n\nဆရာဇော်မင်းသည် သူမ၏ ကျိုးကြောင်းဆီလျော်မှုကို စစ်ဆေးပေးခဲ့သည် - နေ့အချိန်တွင် LDR ၏ Resistance သည် နိမ့်သောကြောင့် Potential-Divider Junction (ထို့ကြောင့် + Input) ၏ Voltage သည် နိမ့်ဆက်ရှိပြီး - Input ပေါ်ရှိ Reference Voltage ထက် နိမ့်သောကြောင့် Output သည် LOW တွင် Saturate ဖြစ်ကာ LED သည် ပိတ်ဆက်ရှိသည်။ ညနေ ရောက်လာသည်နှင့်အမျှ LDR ၏ Resistance တက်လာပြီး + Input Voltage သည် - Input ပေါ်ရှိ Reference Voltage ထက် တက်လာသည်နှင့် Output သည် ပြောင်းလဲကာ HIGH တွင် Saturate ဖြစ်ပြီး LED ကို ဖွင့်ပေးသည်။ ၎င်းသည် တကယ့် Automatic Garden နှင့် Street Light များအတွင်း အသုံးပြုသော Comparator Circuit အတိအကျ ဖြစ်ကြောင်း -- အတန်း လက်တင်ပိုင်း လေ့လာခဲ့သော Op-Amp ရူပဗေဒ၏ တကယ့် အလုပ်လုပ်သော Application တစ်ခု ဖြစ်ကြောင်း သူ အတည်ပြုပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is fed into the op-amp's non-inverting input?",
+            questionMy: "Op-Amp ၏ Non-Inverting Input သို့ အဘယ်အရာ ပေးပို့ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The voltage from the LDR/fixed resistor potential-divider junction",
+              "A fixed voltage from a battery only",
+              "The output of the LED directly",
+              "Nothing at all -- it is left disconnected",
+            ],
+            optionsMy: [
+              "LDR/ပုံသေ Resistor Potential-Divider Junction မှ Voltage",
+              "Battery မှ ပုံသေ Voltage သာ",
+              "LED ၏ Output တိုက်ရိုက်",
+              "မည်သည့်အရာမျှ မပါဝင်ပါ -- Disconnected ချန်ထားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what happens to the LDR's resistance as evening falls?",
+            questionMy: "ညနေ ရောက်လာသည်နှင့်အမျှ LDR ၏ Resistance တွင် အဘယ်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It rises",
+              "It falls to zero",
+              "It stays exactly the same",
+              "It becomes negative",
+            ],
+            optionsMy: ["တက်လာသည်", "Zero သို့ ကျဆင်းသည်", "အတိအကျ တူညီနေဆဲ ဖြစ်သည်", "Negative ဖြစ်သွားသည်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what real-world devices use this exact circuit?",
+            questionMy: "ဤ Circuit အတိအကျကို လက်တွေ့ Device များ အဘယ်အရာက အသုံးပြုသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Automatic garden and street lights",
+              "Camera flashes only",
+              "Defibrillators only",
+              "Wave-energy generators only",
+            ],
+            optionsMy: ["Automatic Garden နှင့် Street Light များ", "ကင်မရာ Flash များသာ", "Defibrillator များသာ", "Wave-Energy Generator များသာ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: The Operational Amplifier",
+      titleMy: "နှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Operational Amplifier",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An op-amp's open-loop gain is...",
+          questionMy: "Op-Amp တစ်ခု၏ Open-Loop Gain သည်...",
+          optionsEn: [
+            "Extremely large / very high",
+            "Exactly zero",
+            "Exactly one",
+            "Impossible to define",
+          ],
+          optionsMy: ["အလွန်ကြီးမား / အလွန်မြင့်", "Zero အတိအကျ", "တစ် အတိအကျ", "အနက်ဖွင့်၍ မရနိုင်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "When used as a comparator, the op-amp output can only be at...",
+          questionMy: "Comparator တစ်ခုအနေဖြင့် အသုံးပြုသောအခါ Op-Amp Output သည် ...တွင်သာ ရှိနိုင်သည်",
+          optionsEn: [
+            "One of two saturation voltages, near +Vs or -Vs",
+            "Any value between +Vs and -Vs freely",
+            "Exactly 0 V always",
+            "Always exactly halfway between the two inputs",
+          ],
+          optionsMy: [
+            "Saturation Voltage နှစ်ခုအနက် တစ်ခု၊ +Vs (သို့) -Vs အနီး",
+            "+Vs နှင့် -Vs ကြား မည်သည့်တန်ဖိုးမဆို လွတ်လပ်စွာ",
+            "0 V အတိအကျ အမြဲ",
+            "Input နှစ်ခုကြား အတိအကျ တစ်ဝက် အမြဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a light-sensor comparator circuit, the LDR is typically connected as part of a...",
+          questionMy: "Light-Sensor Comparator Circuit တစ်ခုတွင် LDR ကို များသောအားဖြင့် ...၏ အစိတ်အပိုင်းအဖြစ် ချိတ်ဆက်ထားသည်",
+          optionsEn: [
+            "Potential divider",
+            "Series resistor bank with no divider",
+            "Capacitor bank only",
+            "Transformer winding",
+          ],
+          optionsMy: ["Potential Divider", "Divider မပါသော Series Resistor Bank", "Capacitor Bank သာ", "Transformer Winding"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 6: "Alternating Currents and Electronics".
+/// Covers describing AC with peak and rms values, power in AC circuits
+/// (P = I_rms V_rms and its equivalence to P = ½I₀V₀), the transformer
+/// (turns-ratio equation and ideal power conservation, step-up/step-
+/// down, the national grid), and closes with a Basic Electronics
+/// capstone week (the operational amplifier as a comparator: open-loop
+/// gain, saturation voltages, and a real light-sensor application).
+const CourseTermDef year13PhysicsTerm6 = CourseTermDef(
+  id: "course-y13-phys-term6",
+  termNumber: 6,
+  titleEn: "Alternating Currents and Electronics",
+  titleMy: "Alternating Currents နှင့် Electronics",
+  weeks: [_y13PhysWeek21, _y13PhysWeek22, _y13PhysWeek23, _y13PhysWeek24],
+  certificateTitleEn: "A2 Physics: Alternating Currents and Electronics",
+  certificateTitleMy: "A2 ရူပဗေဒ - Alternating Currents နှင့် Electronics",
+);
