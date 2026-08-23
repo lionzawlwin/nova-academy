@@ -145542,3 +145542,3383 @@ const CourseTermDef year12MathematicsTerm6 = CourseTermDef(
   certificateTitleEn: "AS Mathematics: Series",
   certificateTitleMy: "AS သင်္ချာ - Series",
 );
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 7:
+// "Differentiation"
+// (Weeks 25-28)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "Differentiation from First Principles and Standard Derivatives"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek25 = CourseWeekDef(
+  id: "course-y12-math-w25",
+  weekNumber: 25,
+  titleEn: "Differentiation from First Principles and Standard Derivatives",
+  titleMy: "First Principles မှ Differentiation နှင့် Standard Derivative များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w25-d1",
+      dayNumber: 1,
+      titleEn: "Differentiating xⁿ and Sums of Terms",
+      titleMy: "xⁿ နှင့် Term များ၏ ပေါင်းလဒ်ကို Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find d/dx(x³).",
+          questionMy: "d/dx(x³) ကို ရှာပါ။",
+          optionsEn: ["3x²", "x²", "3x", "x⁴/4"],
+          optionsMy: ["3x²", "x²", "3x", "x⁴/4"],
+          correctIndex: 0,
+          hintsEn: [
+            "For xⁿ, the derivative is nxⁿ⁻¹: 3x³⁻¹ = 3x².",
+          ],
+          hintsMy: [
+            "xⁿ အတွက် Derivative သည် nxⁿ⁻¹ ဖြစ်သည်: 3x³⁻¹ = 3x² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = x⁴ + 2x³ - 5x + 7.",
+          questionMy: "y = x⁴ + 2x³ - 5x + 7 ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: [
+            "dy/dx = 4x³ + 6x² - 5",
+            "dy/dx = 4x³ + 6x² - 5x",
+            "dy/dx = 4x³ + 2x² - 5",
+            "dy/dx = x³ + 6x² - 5",
+          ],
+          optionsMy: [
+            "dy/dx = 4x³ + 6x² - 5",
+            "dy/dx = 4x³ + 6x² - 5x",
+            "dy/dx = 4x³ + 2x² - 5",
+            "dy/dx = x³ + 6x² - 5",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Differentiate each term separately: x⁴→4x³, 2x³→6x², -5x→-5, 7→0.",
+          ],
+          hintsMy: [
+            "Term တစ်ခုစီကို သီးခြား Differentiate ပြုလုပ်ပါ: x⁴→4x³, 2x³→6x², -5x→-5, 7→0 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find d/dx(5).",
+          questionMy: "d/dx(5) ကို ရှာပါ။",
+          optionsEn: ["0", "5", "1", "5x"],
+          optionsMy: ["0", "5", "1", "5x"],
+          correctIndex: 0,
+          hintsEn: [
+            "A constant term never changes, so its gradient (derivative) is always 0.",
+          ],
+          hintsMy: [
+            "Constant Term သည် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့် ၎င်း၏ Gradient (Derivative) သည် အမြဲ 0 ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Differentiation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Differentiation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w25-dm-1",
+          termEn: "Differentiation from first principles",
+          termMy: "First Principles မှ Differentiation",
+          matchEn:
+              "Finding the derivative using the limit of the gradient of a chord as it shrinks to a point",
+          matchMy: "Chord ၏ Gradient ကို အမှတ်တစ်ခုသို့ ကျုံ့သွားသည့် Limit ကို အသုံးပြု၍ Derivative ရှာခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w25-dm-2",
+          termEn: "dy/dx",
+          termMy: "dy/dx",
+          matchEn: "The derivative of y with respect to x; the gradient function",
+          matchMy: "x နှင့် ဆက်စပ်သော y ၏ Derivative; Gradient Function",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w25-dm-3",
+          termEn: "d/dx(xⁿ)",
+          termMy: "d/dx(xⁿ)",
+          matchEn: "nxⁿ⁻¹",
+          matchMy: "nxⁿ⁻¹",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w25-dm-4",
+          termEn: "d/dx(constant)",
+          termMy: "d/dx(Constant)",
+          matchEn: "0",
+          matchMy: "0",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w25-dm-5",
+          termEn: "Derivative of a sum",
+          termMy: "ပေါင်းလဒ်၏ Derivative",
+          matchEn: "The sum of the derivatives of each term",
+          matchMy: "Term တစ်ခုစီ၏ Derivative များ၏ ပေါင်းလဒ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Derivative Has x or Is a Constant?",
+      titleMy: "စီစစ်ကြမည် - Derivative တွင် x ပါလား Constant ဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Derivative contains x", "Derivative is a constant"],
+        bucketsMy: ["Derivative တွင် x ပါသည်", "Derivative သည် Constant ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "y12math-w25-sort-1",
+            labelEn: "y = x²",
+            labelMy: "y = x²",
+            correctBucketEn: "Derivative contains x",
+            correctBucketMy: "Derivative တွင် x ပါသည်",
+          ),
+          SortingItem(
+            id: "y12math-w25-sort-2",
+            labelEn: "y = 7x",
+            labelMy: "y = 7x",
+            correctBucketEn: "Derivative is a constant",
+            correctBucketMy: "Derivative သည် Constant ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w25-sort-3",
+            labelEn: "y = x³",
+            labelMy: "y = x³",
+            correctBucketEn: "Derivative contains x",
+            correctBucketMy: "Derivative တွင် x ပါသည်",
+          ),
+          SortingItem(
+            id: "y12math-w25-sort-4",
+            labelEn: "y = 3x",
+            labelMy: "y = 3x",
+            correctBucketEn: "Derivative is a constant",
+            correctBucketMy: "Derivative သည် Constant ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w25-sort-5",
+            labelEn: "y = x⁴",
+            labelMy: "y = x⁴",
+            correctBucketEn: "Derivative contains x",
+            correctBucketMy: "Derivative တွင် x ပါသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: What the Gradient Function Really Means",
+      titleMy: "စာဖတ်ခြင်း - Gradient Function ၏ အဓိပ္ပာယ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "What the Gradient Function Really Means",
+        titleMy: "Gradient Function ၏ အဓိပ္ပာယ်",
+        passageEn:
+            "Sayar Zaw Min opened Term 7 by drawing a curve, y = x², and a straight chord connecting two nearby points on it. \"The gradient of that chord is close to the curve's steepness at a point,\" he said, \"but not exact. What if the two points got closer and closer together?\"\n\nHtet Aung imagined shrinking the gap between the points toward zero. \"As the chord shrinks to a single point,\" he said, \"its gradient should settle on the exact steepness of the curve right there.\" Sayar Zaw Min confirmed this was exactly the idea behind differentiation from first principles: dy/dx is defined as the limiting value of the chord's gradient as the gap between the two points shrinks to zero. \"You won't need to grind through that limit calculation by hand in this course,\" he added, \"but understanding that dy/dx is a limit — not just a rule to memorise — explains why the standard result works at all.\"\n\nSu Su then applied the standard rule directly to y = x² + 3x - 1: differentiating term by term gave dy/dx = 2x + 3. \"Notice the constant, -1, vanished completely,\" she said. \"That's not an accident — a constant term never changes as x changes, so it contributes nothing to the gradient at any point on the curve.\" Sayar Zaw Min agreed: every one of the standard derivative rules used for the rest of Term 7 — powers of x, the chain rule, the product and quotient rules — all trace back to this same first-principles idea of a shrinking chord.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term 7 ကို y = x² Curve တစ်ခုနှင့် ၎င်းပေါ်ရှိ အနီးကပ် အမှတ်နှစ်ခုကို ချိတ်ဆက်ထားသော Straight Chord တစ်ခု ရေးဆွဲခြင်းဖြင့် ဖွင့်လှစ်ခဲ့သည်။ \"အဲဒီ Chord ၏ Gradient သည် အမှတ်တစ်ခုမှ Curve ၏ Steepness နှင့် နီးစပ်တယ်\" ဟု သူ ဆိုသည်၊ \"ဒါပေမယ့် အတိအကျ မဟုတ်ဘူး။ အမှတ်နှစ်ခု ပိုနီးလာရင်ကော ဘာဖြစ်မလဲ။\"\n\nHtet Aung သည် အမှတ်နှစ်ခုအကြား Gap ကို Zero သို့ ကျုံ့သွားကြောင်း စိတ်ကူးကြည့်ခဲ့သည်။ \"Chord သည် အမှတ်တစ်ခုသို့ ကျုံ့သွားသည့်အခါ\" ဟု သူ ဆိုသည်၊ \"၎င်း၏ Gradient သည် အဲဒီနေရာမှာ Curve ၏ Steepness အတိအကျပင် ဖြစ်လာသင့်တယ်။\" ဆရာဇော်မင်းသည် ၎င်းသည် First Principles မှ Differentiation ၏ အဓိပ္ပာယ်ဖြစ်ကြောင်း အတည်ပြုပေးခဲ့သည် - dy/dx ကို အမှတ်နှစ်ခုအကြား Gap ကို Zero သို့ ကျုံ့သွားသည့် Chord ၏ Gradient Limit တန်ဖိုးအဖြစ် သတ်မှတ်သည်။ \"ဒီ Course မှာတော့ ဒီ Limit တွက်ချက်မှုကို လက်ဖြင့် အသေးစိတ် လုပ်ရန် မလိုပါဘူး\" ဟု သူ ထပ်ဆင့်ဆိုသည်၊ \"ဒါပေမယ့် dy/dx က Limit တစ်ခုဖြစ်တယ် -- အလွတ်ကျက်ရမည့် စည်းမျဉ်းတစ်ခုတည်း မဟုတ်ဘူးဆိုတာ နားလည်ရင် Standard Result က ဘာကြောင့် အလုပ်လုပ်တယ်ဆိုတာ ရှင်းပြပေးတယ်။\"\n\nSu Su သည် ထို့နောက် Standard Rule ကို y = x² + 3x - 1 ပေါ်တွင် တိုက်ရိုက် အသုံးပြုခဲ့သည် - Term အလိုက် Differentiate ပြုလုပ်ပါက dy/dx = 2x + 3 ရသည်။ \"Constant, -1, လုံးဝ ပျောက်သွားတာ သတိပြုပါ\" ဟု သူမ ဆိုသည်။ \"အဲဒါ မတော်တဆ မဟုတ်ဘူး -- Constant Term သည် x ပြောင်းလဲသည့်တိုင် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့် Curve ပေါ်ရှိ မည်သည့်အမှတ်၏ Gradient ကိုမှ မထောက်ပံ့ပါ။\" ဆရာဇော်မင်း သဘောတူခဲ့သည် - Term 7 ကျန်တဲ့အပိုင်းအတွက် သုံးမည့် Standard Derivative Rule တိုင်း -- x ၏ Power များ, Chain Rule, Product နှင့် Quotient Rule တို့ -- အားလုံးသည် ဤ ကျုံ့သွားသော Chord First Principles Idea တစ်ခုတည်းမှ ဆင်းသက်လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, dy/dx is defined as what kind of value?",
+            questionMy: "dy/dx ကို မည်သည့်အမျိုးအစား တန်ဖိုးအဖြစ် သတ်မှတ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The limiting value of the chord's gradient as the gap shrinks to zero",
+              "The gradient of any random chord",
+              "Always exactly equal to x",
+              "A value that only exists for straight lines",
+            ],
+            optionsMy: [
+              "Gap သည် Zero သို့ ကျုံ့သွားသည့်အခါ Chord ၏ Gradient Limit တန်ဖိုး",
+              "ကျပန်း Chord တစ်ခု၏ Gradient",
+              "အမြဲ x နှင့် အတိအကျ ညီသည်",
+              "Straight Line များအတွက်သာ ရှိသော တန်ဖိုး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is dy/dx for y = x² + 3x - 1?",
+            questionMy: "y = x² + 3x - 1 ၏ dy/dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2x + 3", "2x - 1", "x + 3", "2x + 3x"],
+            optionsMy: ["2x + 3", "2x - 1", "x + 3", "2x + 3x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the constant term -1 vanish when differentiated?",
+            questionMy: "Constant Term -1 သည် Differentiate ပြုလုပ်ပါက အဘယ်ကြောင့် ပျောက်သွားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A constant term never changes as x changes",
+              "It is always negative",
+              "It is smaller than the other terms",
+              "It only applies to quadratics",
+            ],
+            optionsMy: [
+              "Constant Term သည် x ပြောင်းလဲသည့်တိုင် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်",
+              "အမြဲ Negative ဖြစ်သောကြောင့်",
+              "အခြား Term များထက် ငယ်သောကြောင့်",
+              "Quadratic များအတွက်သာ သက်ဆိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Standard Derivatives",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Standard Derivatives",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "d/dx(x⁵) equals...",
+          questionMy: "d/dx(x⁵) သည် ...နှင့် ညီသည်",
+          optionsEn: ["5x⁴", "x⁴", "5x⁵", "x⁶/6"],
+          optionsMy: ["5x⁴", "x⁴", "5x⁵", "x⁶/6"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "d/dx(9) equals...",
+          questionMy: "d/dx(9) သည် ...နှင့် ညီသည်",
+          optionsEn: ["0", "9", "9x", "1"],
+          optionsMy: ["0", "9", "9x", "1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If y = 2x³ - x², dy/dx equals...",
+          questionMy: "y = 2x³ - x² ဖြစ်ပါက dy/dx သည်...",
+          optionsEn: ["6x² - 2x", "6x - 2x", "6x² - x", "2x² - 2x"],
+          optionsMy: ["6x² - 2x", "6x - 2x", "6x² - x", "2x² - 2x"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "The Chain Rule"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek26 = CourseWeekDef(
+  id: "course-y12-math-w26",
+  weekNumber: 26,
+  titleEn: "The Chain Rule",
+  titleMy: "Chain Rule",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w26-d1",
+      dayNumber: 1,
+      titleEn: "Differentiating Composite Functions",
+      titleMy: "Composite Function များကို Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Differentiate y = (2x + 1)⁵.",
+          questionMy: "y = (2x + 1)⁵ ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: [
+            "dy/dx = 10(2x + 1)⁴",
+            "dy/dx = 5(2x + 1)⁴",
+            "dy/dx = 10(2x + 1)⁵",
+            "dy/dx = 5(2x + 1)⁵",
+          ],
+          optionsMy: [
+            "dy/dx = 10(2x + 1)⁴",
+            "dy/dx = 5(2x + 1)⁴",
+            "dy/dx = 10(2x + 1)⁵",
+            "dy/dx = 5(2x + 1)⁵",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 5(2x + 1)⁴ × 2 (the derivative of 2x + 1) = 10(2x + 1)⁴.",
+          ],
+          hintsMy: [
+            "dy/dx = 5(2x + 1)⁴ × 2 (2x + 1 ၏ Derivative) = 10(2x + 1)⁴ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = (3x² - 1)⁴.",
+          questionMy: "y = (3x² - 1)⁴ ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: [
+            "dy/dx = 24x(3x² - 1)³",
+            "dy/dx = 4(3x² - 1)³",
+            "dy/dx = 12x(3x² - 1)³",
+            "dy/dx = 24x(3x² - 1)⁴",
+          ],
+          optionsMy: [
+            "dy/dx = 24x(3x² - 1)³",
+            "dy/dx = 4(3x² - 1)³",
+            "dy/dx = 12x(3x² - 1)³",
+            "dy/dx = 24x(3x² - 1)⁴",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 4(3x² - 1)³ × 6x (the derivative of 3x² - 1) = 24x(3x² - 1)³.",
+          ],
+          hintsMy: [
+            "dy/dx = 4(3x² - 1)³ × 6x (3x² - 1 ၏ Derivative) = 24x(3x² - 1)³ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = √(x² + 1).",
+          questionMy: "y = √(x² + 1) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: [
+            "dy/dx = x / √(x² + 1)",
+            "dy/dx = 2x / √(x² + 1)",
+            "dy/dx = 1 / √(x² + 1)",
+            "dy/dx = x²/√(x² + 1)",
+          ],
+          optionsMy: [
+            "dy/dx = x / √(x² + 1)",
+            "dy/dx = 2x / √(x² + 1)",
+            "dy/dx = 1 / √(x² + 1)",
+            "dy/dx = x²/√(x² + 1)",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Write y = (x² + 1)^(1/2). dy/dx = ½(x² + 1)^(-1/2) × 2x = x / √(x² + 1).",
+          ],
+          hintsMy: [
+            "y = (x² + 1)^(1/2) ဟု ရေးပါ။ dy/dx = ½(x² + 1)^(-1/2) × 2x = x / √(x² + 1) ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Chain Rule Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Chain Rule ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w26-dm-1",
+          termEn: "Chain rule",
+          termMy: "Chain Rule",
+          matchEn: "Used to differentiate a function of a function (a composite function)",
+          matchMy: "Function of a Function (Composite Function) ကို Differentiate ပြုလုပ်ရန် သုံးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w26-dm-2",
+          termEn: "dy/dx = dy/du × du/dx",
+          termMy: "dy/dx = dy/du × du/dx",
+          matchEn: "The chain rule formula",
+          matchMy: "Chain Rule Formula",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w26-dm-3",
+          termEn: "Inner function",
+          termMy: "Inner Function",
+          matchEn: "The function substituted inside another, e.g. u = 2x + 1",
+          matchMy: "အခြားတစ်ခုအတွင်း အစားထိုးထားသော Function, ဥပမာ u = 2x + 1",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w26-dm-4",
+          termEn: "Outer function",
+          termMy: "Outer Function",
+          matchEn: "The function applied to the inner function, e.g. y = u⁵",
+          matchMy: "Inner Function ပေါ်တွင် အသုံးပြုသော Function, ဥပမာ y = u⁵",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w26-dm-5",
+          termEn: "d/dx[(f(x))ⁿ]",
+          termMy: "d/dx[(f(x))ⁿ]",
+          matchEn: "n(f(x))ⁿ⁻¹ × f'(x)",
+          matchMy: "n(f(x))ⁿ⁻¹ × f'(x)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Needs the Chain Rule or Not?",
+      titleMy: "စီစစ်ကြမည် - Chain Rule လိုလား မလိုဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Needs the chain rule",
+          "Standard derivative only (no chain rule needed)",
+        ],
+        bucketsMy: [
+          "Chain Rule လိုအပ်သည်",
+          "Standard Derivative တစ်ခုတည်း လုံလောက်သည် (Chain Rule မလို)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w26-sort-1",
+            labelEn: "y = (x + 1)³",
+            labelMy: "y = (x + 1)³",
+            correctBucketEn: "Needs the chain rule",
+            correctBucketMy: "Chain Rule လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w26-sort-2",
+            labelEn: "y = x³",
+            labelMy: "y = x³",
+            correctBucketEn: "Standard derivative only (no chain rule needed)",
+            correctBucketMy: "Standard Derivative တစ်ခုတည်း လုံလောက်သည် (Chain Rule မလို)",
+          ),
+          SortingItem(
+            id: "y12math-w26-sort-3",
+            labelEn: "y = (2x - 5)⁴",
+            labelMy: "y = (2x - 5)⁴",
+            correctBucketEn: "Needs the chain rule",
+            correctBucketMy: "Chain Rule လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w26-sort-4",
+            labelEn: "y = x⁴ + 3x",
+            labelMy: "y = x⁴ + 3x",
+            correctBucketEn: "Standard derivative only (no chain rule needed)",
+            correctBucketMy: "Standard Derivative တစ်ခုတည်း လုံလောက်သည် (Chain Rule မလို)",
+          ),
+          SortingItem(
+            id: "y12math-w26-sort-5",
+            labelEn: "y = √(4x + 1)",
+            labelMy: "y = √(4x + 1)",
+            correctBucketEn: "Needs the chain rule",
+            correctBucketMy: "Chain Rule လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Peeling the Onion",
+      titleMy: "စာဖတ်ခြင်း - ကြက်သွန်ဖြူ အခွံခွာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Peeling the Onion",
+        titleMy: "ကြက်သွန်ဖြူ အခွံခွာခြင်း",
+        passageEn:
+            "Su Su stared at y = (5x - 2)³ and asked Sayar Zaw Min why she couldn't just apply the power rule directly, the way she had all through Week 25. \"Try expanding it first and see what happens,\" he suggested.\n\nSu Su multiplied it out — a slow, three-step expansion — and differentiated the result term by term, eventually arriving at dy/dx = 75x² - 60x + 12. \"That worked,\" she admitted, \"but it took forever, and it would be impossible for something like (5x - 2)¹⁰.\" Htet Aung then showed her the chain rule shortcut instead: treat u = 5x - 2 as the 'inner' function, so y = u³ is the 'outer' function. dy/dx = dy/du × du/dx = 3u² × 5 = 15(5x - 2)². \"Same answer, once you expand and check,\" he said, \"but it took three lines instead of three paragraphs.\"\n\n\"Think of it like peeling an onion,\" Sayar Zaw Min said. \"The outer layer is the power, 3, and the inner layer is 5x - 2. You differentiate the outer layer first — bring down the power, reduce it by one — and then multiply by the derivative of whatever's inside.\" He then set Su Su a harder version, y = (5x - 2)¹⁰, to prove the shortcut's real value: dy/dx = 10(5x - 2)⁹ × 5 = 50(5x - 2)⁹, found in seconds — a problem that expanding directly would have made almost impossible within an exam's time limit.",
+        passageMy:
+            "Su Su သည် y = (5x - 2)³ ကို ကြည့်ပြီး Week 25 တစ်လျှောက် သူမ အသုံးပြုခဲ့သလို Power Rule ကို ဘာကြောင့် တိုက်ရိုက် အသုံးမပြုနိုင်သနည်းဟု ဆရာဇော်မင်းအား မေးမြန်းခဲ့သည်။ \"အရင် Expand လုပ်ကြည့်ပြီး ဘာဖြစ်လဲ ကြည့်စမ်းပါ\" ဟု သူ အကြံပြုခဲ့သည်။\n\nSu Su သည် Expand ကို ချေးမေးမြန်း -- သုံးဆင့် နှေးကွေးသော Expansion -- ပြီး Term အလိုက် Differentiate ပြုလုပ်ကာ နောက်ဆုံး dy/dx = 75x² - 60x + 12 ကို ရရှိခဲ့သည်။ \"အလုပ်ဖြစ်ပါတယ်\" ဟု သူမ ဝန်ခံခဲ့သည်၊ \"ဒါပေမယ့် အချိန်ကြာမြင့်ခဲ့ပြီး (5x - 2)¹⁰ လိုမျိုးမှာတော့ မဖြစ်နိုင်ဘူး။\" Htet Aung သည် ထို့နောက် Chain Rule Shortcut ကို ပြသခဲ့သည် - u = 5x - 2 ကို 'Inner' Function အဖြစ် ယူပါက y = u³ သည် 'Outer' Function ဖြစ်သည်။ dy/dx = dy/du × du/dx = 3u² × 5 = 15(5x - 2)² ။ \"Expand လုပ်ပြီး စစ်ကြည့်ရင် အဖြေတူတယ်\" ဟု သူ ဆိုသည်၊ \"ဒါပေမယ့် စာပိုဒ်သုံးပိုဒ်အစား လိုင်းသုံးလိုင်းသာ ကြာတယ်။\"\n\n\"ကြက်သွန်ဖြူ အခွံခွာသလို စဉ်းစားပါ\" ဟု ဆရာဇော်မင်း ဆိုသည်။ \"Outer Layer က Power, 3 ဖြစ်ပြီး Inner Layer က 5x - 2 ဖြစ်တယ်။ Outer Layer ကို အရင် Differentiate ပါ -- Power ကို ချချပြီး တစ်ချက်လျှော့ပါ -- ပြီးရင် Inner ရှိအရာ၏ Derivative နှင့် မြှောက်ပါ။\" ထို့နောက် Su Su အား Shortcut ၏ တကယ့်တန်ဖိုးကို သက်သေပြရန် ပိုခက်သော Version, y = (5x - 2)¹⁰ ကို ပေးခဲ့သည် - dy/dx = 10(5x - 2)⁹ × 5 = 50(5x - 2)⁹, Second အနည်းငယ်ဖြင့် ရှာတွေ့နိုင်ခဲ့သည် -- Expand တိုက်ရိုက်လုပ်ပါက စာမေးပွဲ Time Limit အတွင်း မဖြစ်နိုင်ခဲ့မည့် ပြဿနာတစ်ခု။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is dy/dx for y = (5x - 2)³ using the chain rule?",
+            questionMy:
+                "Chain Rule အသုံးပြု၍ y = (5x - 2)³ ၏ dy/dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "15(5x - 2)²",
+              "3(5x - 2)²",
+              "5(5x - 2)²",
+              "15(5x - 2)³",
+            ],
+            optionsMy: [
+              "15(5x - 2)²",
+              "3(5x - 2)²",
+              "5(5x - 2)²",
+              "15(5x - 2)³",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the 'outer layer' in Sayar Zaw Min's onion analogy?",
+            questionMy: "ဆရာဇော်မင်း၏ ကြက်သွန်ဖြူ Analogy တွင် 'Outer Layer' မှာ အဘယ်အရာဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The power", "The constant term", "The value of x", "The inner function"],
+            optionsMy: ["Power", "Constant Term", "x ၏ တန်ဖိုး", "Inner Function"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is dy/dx for y = (5x - 2)¹⁰?",
+            questionMy: "y = (5x - 2)¹⁰ ၏ dy/dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "50(5x - 2)⁹",
+              "10(5x - 2)⁹",
+              "50(5x - 2)¹⁰",
+              "5(5x - 2)⁹",
+            ],
+            optionsMy: [
+              "50(5x - 2)⁹",
+              "10(5x - 2)⁹",
+              "50(5x - 2)¹⁰",
+              "5(5x - 2)⁹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: The Chain Rule",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Chain Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The chain rule is used when a function is...",
+          questionMy: "Chain Rule ကို Function တစ်ခု ...ဖြစ်သောအခါ အသုံးပြုသည်",
+          optionsEn: [
+            "A function of a function (composite)",
+            "A simple power of x alone",
+            "A constant",
+            "A sum of two terms",
+          ],
+          optionsMy: [
+            "Function of a Function (Composite) ဖြစ်သောအခါ",
+            "x ၏ ရိုးရှင်းသော Power တစ်ခုတည်း ဖြစ်သောအခါ",
+            "Constant ဖြစ်သောအခါ",
+            "Term နှစ်ခု၏ ပေါင်းလဒ် ဖြစ်သောအခါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For y = (f(x))ⁿ, dy/dx equals...",
+          questionMy: "y = (f(x))ⁿ အတွက် dy/dx သည်...",
+          optionsEn: ["n(f(x))ⁿ⁻¹ × f'(x)", "n(f(x))ⁿ⁻¹", "f'(x)", "(f(x))ⁿ⁻¹"],
+          optionsMy: ["n(f(x))ⁿ⁻¹ × f'(x)", "n(f(x))ⁿ⁻¹", "f'(x)", "(f(x))ⁿ⁻¹"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In y = (2x + 1)⁵, the inner function is...",
+          questionMy: "y = (2x + 1)⁵ တွင် Inner Function မှာ...",
+          optionsEn: ["2x + 1", "x⁵", "5", "2x"],
+          optionsMy: ["2x + 1", "x⁵", "5", "2x"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "The Product Rule and Quotient Rule"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek27 = CourseWeekDef(
+  id: "course-y12-math-w27",
+  weekNumber: 27,
+  titleEn: "The Product Rule and Quotient Rule",
+  titleMy: "Product Rule နှင့် Quotient Rule",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w27-d1",
+      dayNumber: 1,
+      titleEn: "Differentiating Products and Quotients",
+      titleMy: "Product နှင့် Quotient များကို Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Differentiate y = x²(2x - 1) using the product rule.",
+          questionMy: "Product Rule ကို အသုံးပြု၍ y = x²(2x - 1) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: [
+            "dy/dx = 6x² - 2x",
+            "dy/dx = 4x² - 2x",
+            "dy/dx = 2x(2x - 1)",
+            "dy/dx = 6x - 2",
+          ],
+          optionsMy: [
+            "dy/dx = 6x² - 2x",
+            "dy/dx = 4x² - 2x",
+            "dy/dx = 2x(2x - 1)",
+            "dy/dx = 6x - 2",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x², v = 2x - 1. dy/dx = u'v + uv' = 2x(2x - 1) + x²(2) = 4x² - 2x + 2x² = 6x² - 2x.",
+          ],
+          hintsMy: [
+            "u = x², v = 2x - 1 ။ dy/dx = u'v + uv' = 2x(2x - 1) + x²(2) = 4x² - 2x + 2x² = 6x² - 2x ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = x / (x + 1) using the quotient rule.",
+          questionMy: "Quotient Rule ကို အသုံးပြု၍ y = x / (x + 1) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: [
+            "dy/dx = 1 / (x + 1)²",
+            "dy/dx = x / (x + 1)²",
+            "dy/dx = 1 / (x + 1)",
+            "dy/dx = -1 / (x + 1)²",
+          ],
+          optionsMy: [
+            "dy/dx = 1 / (x + 1)²",
+            "dy/dx = x / (x + 1)²",
+            "dy/dx = 1 / (x + 1)",
+            "dy/dx = -1 / (x + 1)²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x, v = x + 1. dy/dx = (u'v - uv') / v² = ((1)(x+1) - x(1)) / (x+1)² = 1 / (x+1)².",
+          ],
+          hintsMy: [
+            "u = x, v = x + 1 ။ dy/dx = (u'v - uv') / v² = ((1)(x+1) - x(1)) / (x+1)² = 1 / (x+1)² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = (3x + 2)(x - 4) using the product rule.",
+          questionMy: "Product Rule ကို အသုံးပြု၍ y = (3x + 2)(x - 4) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = 6x - 10", "dy/dx = 3x - 10", "dy/dx = 6x - 4", "dy/dx = 3x - 4"],
+          optionsMy: ["dy/dx = 6x - 10", "dy/dx = 3x - 10", "dy/dx = 6x - 4", "dy/dx = 3x - 4"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = 3x + 2, v = x - 4. dy/dx = 3(x - 4) + (3x + 2)(1) = 3x - 12 + 3x + 2 = 6x - 10.",
+          ],
+          hintsMy: [
+            "u = 3x + 2, v = x - 4 ။ dy/dx = 3(x - 4) + (3x + 2)(1) = 3x - 12 + 3x + 2 = 6x - 10 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Product and Quotient Rule Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Product နှင့် Quotient Rule ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w27-dm-1",
+          termEn: "Product rule",
+          termMy: "Product Rule",
+          matchEn: "dy/dx = u'v + uv', for y = uv",
+          matchMy: "dy/dx = u'v + uv', y = uv အတွက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w27-dm-2",
+          termEn: "Quotient rule",
+          termMy: "Quotient Rule",
+          matchEn: "dy/dx = (u'v - uv') / v², for y = u/v",
+          matchMy: "dy/dx = (u'v - uv') / v², y = u/v အတွက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w27-dm-3",
+          termEn: "u and v",
+          termMy: "u နှင့် v",
+          matchEn: "Two separate functions of x, multiplied or divided",
+          matchMy: "မြှောက် (သို့) စားထားသော x ၏ Function နှစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w27-dm-4",
+          termEn: "u'",
+          termMy: "u'",
+          matchEn: "The derivative of u with respect to x",
+          matchMy: "x နှင့်ဆက်စပ်သော u ၏ Derivative",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w27-dm-5",
+          termEn: "When to use the product rule",
+          termMy: "Product Rule မည်သည့်အခါ သုံးမည်",
+          matchEn: "When y is the product of two functions of x",
+          matchMy: "y သည် x ၏ Function နှစ်ခု၏ Product ဖြစ်သောအခါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Product Rule or Quotient Rule?",
+      titleMy: "စီစစ်ကြမည် - Product Rule လား Quotient Rule လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Use the product rule", "Use the quotient rule"],
+        bucketsMy: ["Product Rule သုံးပါ", "Quotient Rule သုံးပါ"],
+        items: [
+          SortingItem(
+            id: "y12math-w27-sort-1",
+            labelEn: "y = x²(x + 3)",
+            labelMy: "y = x²(x + 3)",
+            correctBucketEn: "Use the product rule",
+            correctBucketMy: "Product Rule သုံးပါ",
+          ),
+          SortingItem(
+            id: "y12math-w27-sort-2",
+            labelEn: "y = x / (x - 2)",
+            labelMy: "y = x / (x - 2)",
+            correctBucketEn: "Use the quotient rule",
+            correctBucketMy: "Quotient Rule သုံးပါ",
+          ),
+          SortingItem(
+            id: "y12math-w27-sort-3",
+            labelEn: "y = (2x + 1)(x - 5)",
+            labelMy: "y = (2x + 1)(x - 5)",
+            correctBucketEn: "Use the product rule",
+            correctBucketMy: "Product Rule သုံးပါ",
+          ),
+          SortingItem(
+            id: "y12math-w27-sort-4",
+            labelEn: "y = (x + 1) / (x + 4)",
+            labelMy: "y = (x + 1) / (x + 4)",
+            correctBucketEn: "Use the quotient rule",
+            correctBucketMy: "Quotient Rule သုံးပါ",
+          ),
+          SortingItem(
+            id: "y12math-w27-sort-5",
+            labelEn: "y = x³(2x - 1)",
+            labelMy: "y = x³(2x - 1)",
+            correctBucketEn: "Use the product rule",
+            correctBucketMy: "Product Rule သုံးပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Functions, One Curve",
+      titleMy: "စာဖတ်ခြင်း - Function နှစ်ခု၊ Curve တစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Functions, One Curve",
+        titleMy: "Function နှစ်ခု၊ Curve တစ်ခု",
+        passageEn:
+            "Sayar Zaw Min wrote y = (2x - 1) / (x + 3) on the board and asked Htet Aung which rule applied. \"It's a fraction of two functions of x,\" Htet Aung said, \"so it needs the quotient rule, not the chain rule.\"\n\nHe set u = 2x - 1 and v = x + 3, so u' = 2 and v' = 1. Applying the quotient rule, dy/dx = (u'v - uv') / v² = (2(x + 3) - (2x - 1)(1)) / (x + 3)². Expanding the numerator carefully: 2(x + 3) = 2x + 6, and (2x - 1)(1) = 2x - 1, so the numerator became (2x + 6) - (2x - 1) = 7. That gave the surprisingly clean result dy/dx = 7 / (x + 3)².\n\n\"Notice how the x terms in the numerator cancelled out completely,\" Sayar Zaw Min pointed out, \"leaving just a constant on top. That's common with quotient rule problems where u and v are both linear — always expand fully before assuming you've made an error, because a clean numerator like this is often correct, not a mistake.\" Su Su then double-checked by picking a value, x = 0, and estimating the gradient numerically — confirming the formula gave a sensible, positive answer that matched the curve's shape at that point.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် y = (2x - 1) / (x + 3) ကို Board ပေါ်တွင် ရေးပြီး မည်သည့် Rule သက်ဆိုင်သည်ကို Htet Aung အား မေးခဲ့သည်။ \"ဒါက x ၏ Function နှစ်ခု၏ Fraction ဖြစ်တယ်\" ဟု Htet Aung ဆိုသည်၊ \"ဒါကြောင့် Chain Rule မဟုတ်ဘဲ Quotient Rule လိုအပ်တယ်။\"\n\nသူသည် u = 2x - 1 နှင့် v = x + 3 ဟု သတ်မှတ်ခဲ့ပြီး u' = 2 နှင့် v' = 1 ရသည်။ Quotient Rule ကို အသုံးပြု၍ dy/dx = (u'v - uv') / v² = (2(x + 3) - (2x - 1)(1)) / (x + 3)² ။ Numerator ကို သေချာစွာ Expand ပြုလုပ်ပါက - 2(x + 3) = 2x + 6, နှင့် (2x - 1)(1) = 2x - 1 ဖြစ်၍ Numerator သည် (2x + 6) - (2x - 1) = 7 ဖြစ်လာသည်။ ၎င်းက အံ့သြဖွယ် သန့်ရှင်းသော အဖြေ dy/dx = 7 / (x + 3)² ကို ရရှိစေသည်။\n\n\"Numerator ရှိ x Term များ လုံးဝ ချေပျောက်သွားတာ သတိပြုပါ\" ဟု ဆရာဇော်မင်း ညွှန်ပြခဲ့သည်၊ \"အပေါ်မှာ Constant တစ်ခုတည်း ကျန်နေတယ်။ u နှင့် v နှစ်ခုစလုံး Linear ဖြစ်တဲ့ Quotient Rule ပြဿနာတွေမှာ ဒါ ပုံမှန်ပါပဲ -- အမှားလုပ်မိတယ်လို့ ယူဆမီ အမြဲ အပြည့်အစုံ Expand လုပ်ပါ၊ ဒီလို သန့်ရှင်းတဲ့ Numerator ဆိုတာက အများအားဖြင့် မှန်ကန်တာပါ၊ အမှား မဟုတ်ပါ။\" Su Su သည် ထို့နောက် x = 0 တန်ဖိုးကို ရွေးချယ်ပြီး Gradient ကို ကိန်းဂဏန်းအားဖြင့် ခန့်မှန်းကာ ပြန်စစ်ခဲ့သည် -- Formula က သင့်တင့်သော Positive အဖြေကို ပေးပြီး ထိုအမှတ်တွင် Curve ၏ ပုံသဏ္ဌာန်နှင့် ကိုက်ညီကြောင်း အတည်ပြုနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which rule did Htet Aung identify as necessary?",
+            questionMy: "Htet Aung လိုအပ်ကြောင်း ဖော်ထုတ်ခဲ့သော Rule ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["The quotient rule", "The chain rule", "The product rule", "No rule was needed"],
+            optionsMy: ["Quotient Rule", "Chain Rule", "Product Rule", "Rule ဘာမှ မလိုအပ်ပါ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final derivative?",
+            questionMy: "နောက်ဆုံး Derivative ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["7 / (x + 3)²", "2 / (x + 3)²", "7 / (x + 3)", "5 / (x + 3)²"],
+            optionsMy: ["7 / (x + 3)²", "2 / (x + 3)²", "7 / (x + 3)", "5 / (x + 3)²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what commonly happens to the numerator when u and v are both linear?",
+            questionMy: "u နှင့် v နှစ်ခုစလုံး Linear ဖြစ်သောအခါ Numerator တွင် ဘာဖြစ်လေ့ရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The x terms often cancel out, leaving a constant",
+              "It always becomes zero",
+              "It always becomes negative",
+              "It becomes a cubic expression",
+            ],
+            optionsMy: [
+              "x Term များ မကြာခဏ ချေပျောက်ပြီး Constant တစ်ခု ကျန်တတ်သည်",
+              "အမြဲ Zero ဖြစ်တတ်သည်",
+              "အမြဲ Negative ဖြစ်တတ်သည်",
+              "Cubic Expression တစ်ခု ဖြစ်လာတတ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Product and Quotient Rules",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Product နှင့် Quotient Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The product rule formula is...",
+          questionMy: "Product Rule Formula မှာ...",
+          optionsEn: ["u'v + uv'", "u'v - uv'", "(u'v - uv') / v²", "u'v'"],
+          optionsMy: ["u'v + uv'", "u'v - uv'", "(u'v - uv') / v²", "u'v'"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The quotient rule formula is...",
+          questionMy: "Quotient Rule Formula မှာ...",
+          optionsEn: ["(u'v - uv') / v²", "u'v + uv'", "(u'v + uv') / v", "u' / v'"],
+          optionsMy: ["(u'v - uv') / v²", "u'v + uv'", "(u'v + uv') / v", "u' / v'"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "y = x(x + 2) is best differentiated using...",
+          questionMy: "y = x(x + 2) ကို ...ဖြင့် Differentiate ပြုလုပ်ရန် အသင့်တော်ဆုံးဖြစ်သည်",
+          optionsEn: ["The product rule", "The quotient rule", "The chain rule only", "None of the rules"],
+          optionsMy: ["Product Rule", "Quotient Rule", "Chain Rule တစ်ခုတည်း", "Rule ဘယ်တစ်ခုမှ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28 (Boss Week): "Stationary Points, Tangents and Normals"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek28 = CourseWeekDef(
+  id: "course-y12-math-w28",
+  weekNumber: 28,
+  titleEn: "Stationary Points, Tangents and Normals",
+  titleMy: "Stationary Point, Tangent နှင့် Normal",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w28-d1",
+      dayNumber: 1,
+      titleEn: "Finding Stationary Points, Tangents and Normals",
+      titleMy: "Stationary Point, Tangent နှင့် Normal ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the stationary point of y = x² - 6x + 5.",
+          questionMy: "y = x² - 6x + 5 ၏ Stationary Point ကို ရှာပါ။",
+          optionsEn: ["(3, -4)", "(3, 4)", "(-3, -4)", "(6, 5)"],
+          optionsMy: ["(3, -4)", "(3, 4)", "(-3, -4)", "(6, 5)"],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 2x - 6 = 0, so x = 3. y = 9 - 18 + 5 = -4.",
+          ],
+          hintsMy: [
+            "dy/dx = 2x - 6 = 0, x = 3 ရသည်။ y = 9 - 18 + 5 = -4 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For y = x² - 6x + 5, the second derivative is d²y/dx² = 2. What kind of stationary point is at x = 3?",
+          questionMy:
+              "y = x² - 6x + 5 အတွက် Second Derivative သည် d²y/dx² = 2 ဖြစ်သည်။ x = 3 ရှိ Stationary Point သည် မည်သည့်အမျိုးအစား ဖြစ်သနည်း။",
+          optionsEn: ["A minimum", "A maximum", "Neither maximum nor minimum", "A point of inflection only"],
+          optionsMy: ["Minimum", "Maximum", "Maximum မဟုတ် Minimum မဟုတ်", "Point of Inflection တစ်ခုတည်း"],
+          correctIndex: 0,
+          hintsEn: [
+            "d²y/dx² > 0 means the stationary point is a minimum.",
+          ],
+          hintsMy: [
+            "d²y/dx² > 0 ဆိုလျှင် Stationary Point သည် Minimum ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the gradient of the tangent to y = x³ at x = 2.",
+          questionMy: "x = 2 တွင် y = x³ ၏ Tangent Gradient ကို ရှာပါ။",
+          optionsEn: ["12", "8", "6", "3"],
+          optionsMy: ["12", "8", "6", "3"],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 3x². At x = 2: 3(4) = 12.",
+          ],
+          hintsMy: [
+            "dy/dx = 3x² ။ x = 2 တွင်: 3(4) = 12 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Stationary Points, Tangents and Normals Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Stationary Point, Tangent, Normal ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w28-dm-1",
+          termEn: "Stationary point",
+          termMy: "Stationary Point",
+          matchEn: "A point where dy/dx = 0",
+          matchMy: "dy/dx = 0 ဖြစ်သော အမှတ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w28-dm-2",
+          termEn: "Second derivative test",
+          termMy: "Second Derivative Test",
+          matchEn: "d²y/dx² > 0 means minimum; d²y/dx² < 0 means maximum",
+          matchMy: "d²y/dx² > 0 ဆိုလျှင် Minimum; d²y/dx² < 0 ဆိုလျှင် Maximum",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w28-dm-3",
+          termEn: "Tangent",
+          termMy: "Tangent",
+          matchEn: "A straight line touching the curve at one point with the same gradient",
+          matchMy: "Curve ၏ Gradient နှင့် တူညီစွာ အမှတ်တစ်ခုတွင် ထိတွေ့ထားသော Straight Line",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w28-dm-4",
+          termEn: "Normal",
+          termMy: "Normal",
+          matchEn: "A straight line perpendicular to the tangent at that point",
+          matchMy: "ထိုအမှတ်တွင် Tangent နှင့် Perpendicular ဖြစ်သော Straight Line",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w28-dm-5",
+          termEn: "Gradient of the normal",
+          termMy: "Normal ၏ Gradient",
+          matchEn: "The negative reciprocal of the tangent's gradient",
+          matchMy: "Tangent ၏ Gradient ၏ Negative Reciprocal",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Minimum or Maximum Point?",
+      titleMy: "စီစစ်ကြမည် - Minimum ဒါမှမဟုတ် Maximum Point",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Minimum point (d²y/dx² > 0)", "Maximum point (d²y/dx² < 0)"],
+        bucketsMy: ["Minimum Point (d²y/dx² > 0)", "Maximum Point (d²y/dx² < 0)"],
+        items: [
+          SortingItem(
+            id: "y12math-w28-sort-1",
+            labelEn: "d²y/dx² = 4",
+            labelMy: "d²y/dx² = 4",
+            correctBucketEn: "Minimum point (d²y/dx² > 0)",
+            correctBucketMy: "Minimum Point (d²y/dx² > 0)",
+          ),
+          SortingItem(
+            id: "y12math-w28-sort-2",
+            labelEn: "d²y/dx² = -2",
+            labelMy: "d²y/dx² = -2",
+            correctBucketEn: "Maximum point (d²y/dx² < 0)",
+            correctBucketMy: "Maximum Point (d²y/dx² < 0)",
+          ),
+          SortingItem(
+            id: "y12math-w28-sort-3",
+            labelEn: "d²y/dx² = 10",
+            labelMy: "d²y/dx² = 10",
+            correctBucketEn: "Minimum point (d²y/dx² > 0)",
+            correctBucketMy: "Minimum Point (d²y/dx² > 0)",
+          ),
+          SortingItem(
+            id: "y12math-w28-sort-4",
+            labelEn: "d²y/dx² = -6",
+            labelMy: "d²y/dx² = -6",
+            correctBucketEn: "Maximum point (d²y/dx² < 0)",
+            correctBucketMy: "Maximum Point (d²y/dx² < 0)",
+          ),
+          SortingItem(
+            id: "y12math-w28-sort-5",
+            labelEn: "d²y/dx² = 1",
+            labelMy: "d²y/dx² = 1",
+            correctBucketEn: "Minimum point (d²y/dx² > 0)",
+            correctBucketMy: "Minimum Point (d²y/dx² > 0)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term 7 Capstone",
+      titleMy: "စာဖတ်ခြင်း - Term 7 Capstone",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term 7 Capstone",
+        titleMy: "Term 7 Capstone",
+        passageEn:
+            "For the Term 7 capstone, Sayar Zaw Min gave the class the curve y = x² - 4x + 3 and asked for the tangent and normal at the point where x = 1.\n\nHtet Aung first found the y-coordinate: y = 1 - 4 + 3 = 0, so the point was (1, 0). Next, he differentiated: dy/dx = 2x - 4, and at x = 1: dy/dx = 2 - 4 = -2, so the tangent's gradient was -2. Using y - y₁ = m(x - x₁) at (1, 0): y - 0 = -2(x - 1), giving the tangent equation y = -2x + 2.\n\nSu Su then found the normal, using the fact that its gradient is the negative reciprocal of the tangent's: -1 / -2 = 1/2. Using the same point, (1, 0): y - 0 = ½(x - 1), giving the normal equation y = ½x - ½. \"Notice how the whole capstone chained together three ideas from this term,\" Sayar Zaw Min said: \"differentiation to find the gradient function, substitution to find the gradient at a specific point, and the negative-reciprocal relationship to get from the tangent to the normal. That chain — differentiate, substitute, then apply a geometric rule — is exactly what a typical AS exam question on this topic looks like.\"",
+        passageMy:
+            "Term 7 Capstone အတွက် ဆရာဇော်မင်းသည် Curve y = x² - 4x + 3 ကို အတန်းအား ပေးပြီး x = 1 ဖြစ်သည့်အမှတ်တွင် Tangent နှင့် Normal ကို တောင်းဆိုခဲ့သည်။\n\nHtet Aung သည် y-Coordinate ကို ဦးစွာ ရှာဖွေခဲ့သည် - y = 1 - 4 + 3 = 0, ထို့ကြောင့် အမှတ်မှာ (1, 0) ဖြစ်သည်။ ထို့နောက် Differentiate ပြုလုပ်ခဲ့သည် - dy/dx = 2x - 4, x = 1 တွင်: dy/dx = 2 - 4 = -2, ထို့ကြောင့် Tangent ၏ Gradient မှာ -2 ဖြစ်သည်။ y - y₁ = m(x - x₁) ကို (1, 0) တွင် အသုံးပြု၍: y - 0 = -2(x - 1), Tangent Equation y = -2x + 2 ကို ရရှိခဲ့သည်။\n\nSu Su သည် ထို့နောက် Normal ကို ရှာဖွေခဲ့သည်၊ ၎င်း၏ Gradient သည် Tangent ၏ Negative Reciprocal ဖြစ်ကြောင်း အသုံးပြု၍: -1 / -2 = 1/2 ။ အမှတ်တူ (1, 0) ကို အသုံးပြု၍: y - 0 = ½(x - 1), Normal Equation y = ½x - ½ ကို ရရှိခဲ့သည်။ \"Capstone တစ်ခုလုံးက ဒီ Term ရဲ့ Idea သုံးခုကို ဆက်စပ်ပေါင်းစည်းလိုက်တာ သတိပြုပါ\" ဟု ဆရာဇော်မင်း ဆိုသည် - \"Gradient Function ရှာရန် Differentiation, အမှတ်တိတိကျကျ၏ Gradient ရှာရန် Substitution, ပြီးတော့ Tangent မှ Normal သို့ ရောက်ရန် Negative-Reciprocal ဆက်စပ်မှု။ အဲဒီ Chain -- Differentiate, Substitute, ပြီးတော့ Geometric Rule အသုံးချ -- ဟာ ဒီခေါင်းစဉ်ရဲ့ ပုံမှန် AS စာမေးပွဲ မေးခွန်း အတိအကျပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the gradient of the tangent at x = 1?",
+            questionMy: "x = 1 ရှိ Tangent Gradient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-2", "2", "1/2", "-1/2"],
+            optionsMy: ["-2", "2", "1/2", "-1/2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the equation of the normal?",
+            questionMy: "Normal ၏ Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["y = ½x - ½", "y = -2x + 2", "y = 2x - 2", "y = -½x + ½"],
+            optionsMy: ["y = ½x - ½", "y = -2x + 2", "y = 2x - 2", "y = -½x + ½"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what three ideas did the capstone chain together?",
+            questionMy: "Capstone ဆက်စပ်ပေါင်းစည်းခဲ့သော Idea သုံးခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Differentiation, substitution, and the negative-reciprocal relationship",
+              "Only the quadratic formula",
+              "Only integration",
+              "Only completing the square",
+            ],
+            optionsMy: [
+              "Differentiation, Substitution, Negative-Reciprocal ဆက်စပ်မှု",
+              "Quadratic Formula တစ်ခုတည်း",
+              "Integration တစ်ခုတည်း",
+              "Completing the Square တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Differentiation Capstone",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Differentiation Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A stationary point occurs where...",
+          questionMy: "Stationary Point သည် ...တွင် ဖြစ်ပေါ်သည်",
+          optionsEn: ["dy/dx = 0", "y = 0", "x = 0", "d²y/dx² = 0"],
+          optionsMy: ["dy/dx = 0", "y = 0", "x = 0", "d²y/dx² = 0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The gradient of the normal is...",
+          questionMy: "Normal ၏ Gradient မှာ...",
+          optionsEn: [
+            "The negative reciprocal of the tangent's gradient",
+            "The same as the tangent's gradient",
+            "Always zero",
+            "Always 1",
+          ],
+          optionsMy: [
+            "Tangent ၏ Gradient ၏ Negative Reciprocal",
+            "Tangent ၏ Gradient နှင့် တူညီ",
+            "အမြဲ Zero",
+            "အမြဲ 1",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If d²y/dx² < 0 at a stationary point, it is a...",
+          questionMy: "Stationary Point တစ်ခုတွင် d²y/dx² < 0 ဖြစ်ပါက ၎င်းသည်...",
+          optionsEn: ["Maximum", "Minimum", "Neither", "Undefined"],
+          optionsMy: ["Maximum", "Minimum", "ဘယ်ဟာမှ", "Undefined"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm7 = CourseTermDef(
+  id: "course-y12-math-t7",
+  termNumber: 7,
+  titleEn: "Differentiation",
+  titleMy: "Differentiation",
+  weeks: [_y12MathWeek25, _y12MathWeek26, _y12MathWeek27, _y12MathWeek28],
+  certificateTitleEn: "AS Mathematics: Differentiation",
+  certificateTitleMy: "AS သင်္ချာ - Differentiation",
+);
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 8:
+// "Integration"
+// (Weeks 29-32)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Integration as the Reverse of Differentiation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek29 = CourseWeekDef(
+  id: "course-y12-math-w29",
+  weekNumber: 29,
+  titleEn: "Integration as the Reverse of Differentiation",
+  titleMy: "Differentiation ၏ ပြောင်းပြန်အနေဖြင့် Integration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w29-d1",
+      dayNumber: 1,
+      titleEn: "Integrating xⁿ",
+      titleMy: "xⁿ ကို Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find ∫x³ dx.",
+          questionMy: "∫x³ dx ကို ရှာပါ။",
+          optionsEn: ["x⁴/4 + c", "x⁴ + c", "4x⁴ + c", "x²/2 + c"],
+          optionsMy: ["x⁴/4 + c", "x⁴ + c", "4x⁴ + c", "x²/2 + c"],
+          correctIndex: 0,
+          hintsEn: [
+            "∫xⁿ dx = xⁿ⁺¹ / (n+1) + c. For n = 3: x⁴/4 + c.",
+          ],
+          hintsMy: [
+            "∫xⁿ dx = xⁿ⁺¹ / (n+1) + c ။ n = 3 အတွက်: x⁴/4 + c ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find ∫(3x² + 2x) dx.",
+          questionMy: "∫(3x² + 2x) dx ကို ရှာပါ။",
+          optionsEn: ["x³ + x² + c", "3x³ + 2x² + c", "x³ + 2x² + c", "6x + 2 + c"],
+          optionsMy: ["x³ + x² + c", "3x³ + 2x² + c", "x³ + 2x² + c", "6x + 2 + c"],
+          correctIndex: 0,
+          hintsEn: [
+            "Integrate each term: 3x² → x³, 2x → x². Add one constant c at the end.",
+          ],
+          hintsMy: [
+            "Term အလိုက် Integrate ပြုလုပ်ပါ: 3x² → x³, 2x → x² ။ နောက်ဆုံးတွင် Constant c တစ်ခု ပေါင်းပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find ∫5 dx.",
+          questionMy: "∫5 dx ကို ရှာပါ။",
+          optionsEn: ["5x + c", "5 + c", "5x²/2 + c", "x + c"],
+          optionsMy: ["5x + c", "5 + c", "5x²/2 + c", "x + c"],
+          correctIndex: 0,
+          hintsEn: [
+            "A constant 5 is really 5x⁰, so ∫5 dx = 5x⁰⁺¹/(0+1) + c = 5x + c.",
+          ],
+          hintsMy: [
+            "Constant 5 သည် 5x⁰ ပင်ဖြစ်၍ ∫5 dx = 5x⁰⁺¹/(0+1) + c = 5x + c ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Integration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Integration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w29-dm-1",
+          termEn: "Integration",
+          termMy: "Integration",
+          matchEn: "The reverse process of differentiation",
+          matchMy: "Differentiation ၏ ပြောင်းပြန်လုပ်ငန်းစဉ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w29-dm-2",
+          termEn: "∫xⁿ dx",
+          termMy: "∫xⁿ dx",
+          matchEn: "xⁿ⁺¹ / (n + 1) + c, for n ≠ -1",
+          matchMy: "xⁿ⁺¹ / (n + 1) + c, n ≠ -1 အတွက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w29-dm-3",
+          termEn: "Constant of integration (c)",
+          termMy: "Constant of Integration (c)",
+          matchEn: "Added because the derivative of any constant is zero",
+          matchMy: "Constant မည်သည့်တန်ဖိုး၏ Derivative မဆို Zero ဖြစ်သောကြောင့် ပေါင်းထည့်ရသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w29-dm-4",
+          termEn: "Indefinite integral",
+          termMy: "Indefinite Integral",
+          matchEn: "An integral with no limits, giving a general family of functions",
+          matchMy: "Limit မပါသော Integral, Function Family အထွေထွေ ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w29-dm-5",
+          termEn: "Antiderivative",
+          termMy: "Antiderivative",
+          matchEn: "Another name for the result of integration",
+          matchMy: "Integration ၏ ရလဒ်၏ အခြားအမည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Integral?",
+      titleMy: "စီစစ်ကြမည် - Integral မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct integral", "Incorrect integral"],
+        bucketsMy: ["Integral မှန်သည်", "Integral မှားသည်"],
+        items: [
+          SortingItem(
+            id: "y12math-w29-sort-1",
+            labelEn: "∫x² dx = x³/3 + c",
+            labelMy: "∫x² dx = x³/3 + c",
+            correctBucketEn: "Correct integral",
+            correctBucketMy: "Integral မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w29-sort-2",
+            labelEn: "∫x² dx = x³ + c",
+            labelMy: "∫x² dx = x³ + c",
+            correctBucketEn: "Incorrect integral",
+            correctBucketMy: "Integral မှားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w29-sort-3",
+            labelEn: "∫4 dx = 4x + c",
+            labelMy: "∫4 dx = 4x + c",
+            correctBucketEn: "Correct integral",
+            correctBucketMy: "Integral မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w29-sort-4",
+            labelEn: "∫x dx = x² + c",
+            labelMy: "∫x dx = x² + c",
+            correctBucketEn: "Incorrect integral",
+            correctBucketMy: "Integral မှားသည်",
+          ),
+          SortingItem(
+            id: "y12math-w29-sort-5",
+            labelEn: "∫x dx = x²/2 + c",
+            labelMy: "∫x dx = x²/2 + c",
+            correctBucketEn: "Correct integral",
+            correctBucketMy: "Integral မှန်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Running Differentiation Backwards",
+      titleMy: "စာဖတ်ခြင်း - Differentiation ကို ပြောင်းပြန်လည်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Running Differentiation Backwards",
+        titleMy: "Differentiation ကို ပြောင်းပြန်လည်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min opened Term 8 by writing dy/dx = 4x³ on the board and asking the class to find a possible y. \"You already know how to go from y to dy/dx,\" he said. \"Now go the other way.\"\n\nSu Su recognised the pattern from Term 7 in reverse: if differentiating xⁿ multiplies by n and reduces the power by one, then integrating should do the opposite — increase the power by one and divide by the new power. Applying that to 4x³, she guessed y = x⁴, and checked it by differentiating: d/dx(x⁴) = 4x³. \"It works,\" she said, \"but so would y = x⁴ + 1, or y = x⁴ - 100 — any constant added on top differentiates to zero, so it disappears completely when you go forward again.\"\n\n\"That's exactly why every indefinite integral needs a + c,\" Sayar Zaw Min explained. \"Integration can't tell you which constant the original function had, because differentiation erased that information. Without more context — like a specific point the curve passes through — y = x⁴ + c is the most complete answer you can give.\" Htet Aung then integrated ∫(4x³) dx using the formula directly: x⁴⁺¹⁻¹... he paused and corrected himself, remembering that ∫xⁿ dx = xⁿ⁺¹/(n+1), so for the term 4x³ (n = 3): 4 × x⁴/4 + c = x⁴ + c — the 4 and the division by 4 cancelled exactly, matching Su Su's answer by pattern-recognition alone.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term 8 ကို dy/dx = 4x³ ကို Board ပေါ်တွင် ရေးပြီး ဖြစ်နိုင်သော y ကို ရှာခိုင်းစေခြင်းဖြင့် ဖွင့်လှစ်ခဲ့သည်။ \"y မှ dy/dx သို့ သွားပုံကို သိပြီးသားပါ\" ဟု သူ ဆိုသည်။ \"အခု ပြောင်းပြန်ဘက်ကို သွားကြည့်ပါ။\"\n\nSu Su သည် Term 7 မှ Pattern ကို ပြောင်းပြန်အနေဖြင့် မှတ်မိခဲ့သည် - xⁿ ကို Differentiate ပြုလုပ်ပါက n ဖြင့် မြှောက်ပြီး Power ကို တစ်ချက်လျှော့ချသောကြောင့် Integrate ပြုလုပ်ခြင်းသည် ပြောင်းပြန် -- Power ကို တစ်ချက်တိုးပြီး Power အသစ်ဖြင့် စားရမည် ဖြစ်ရမည်။ ၎င်းကို 4x³ တွင် အသုံးပြုကာ y = x⁴ ဟု ခန့်မှန်းခဲ့ပြီး Differentiate ပြုလုပ်၍ စစ်ဆေးခဲ့သည် - d/dx(x⁴) = 4x³ ။ \"အလုပ်ဖြစ်ပါတယ်\" ဟု သူမ ဆိုသည်၊ \"ဒါပေမယ့် y = x⁴ + 1, ဒါမှမဟုတ် y = x⁴ - 100 လည်း ဖြစ်နိုင်တယ် -- အပေါ်ကနေ ပေါင်းထားတဲ့ Constant မည်သည်မဆို Differentiate လုပ်ရင် Zero ဖြစ်တတ်တာကြောင့် ပြန်တွက်ချက်တဲ့အခါ လုံးဝ ပျောက်သွားတယ်။\"\n\n\"အဲဒါကြောင့် Indefinite Integral တိုင်းက + c လိုအပ်တာပါပဲ\" ဟု ဆရာဇော်မင်း ရှင်းပြခဲ့သည်။ \"Integration က မူလ Function မှာ Constant ဘယ်လောက်ရှိခဲ့လဲဆိုတာ ပြောပြလို့ မရပါဘူး၊ Differentiation က ထိုအချက်အလက်ကို ဖျက်ချခဲ့လို့ ဖြစ်တယ်။ Context ပိုမရှိပဲ -- Curve ဖြတ်ကျော်တဲ့ တိတိကျကျ အမှတ်တစ်ခု လိုမျိုး -- y = x⁴ + c ဆိုတာက ပေးနိုင်တဲ့ အပြည့်စုံဆုံး အဖြေပါပဲ။\" Htet Aung သည် ထို့နောက် ∫(4x³) dx ကို Formula တိုက်ရိုက် အသုံးပြု၍ Integrate ပြုလုပ်ခဲ့သည် - ခဏတာ ရပ်ပြီး ပြင်ဆင်ခဲ့သည်၊ ∫xⁿ dx = xⁿ⁺¹/(n+1) ဖြစ်ကြောင်း သတိရလိုက်ပြီး 4x³ Term (n = 3) အတွက်: 4 × x⁴/4 + c = x⁴ + c -- 4 နှင့် 4 ဖြင့် စားခြင်းသည် အတိအကျ ချေပျောက်သွားခဲ့ပြီး Su Su ၏ Pattern-Recognition တစ်ခုတည်းမှ ရရှိသော အဖြေနှင့် ကိုက်ညီခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does every indefinite integral need a + c?",
+            questionMy: "Indefinite Integral တိုင်း + c လိုအပ်သည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Differentiation erases information about the original constant",
+              "The constant is always zero",
+              "It makes the answer look longer",
+              "It is only needed for cubic functions",
+            ],
+            optionsMy: [
+              "Differentiation က မူလ Constant အကြောင်း အချက်အလက်ကို ဖျက်ချသောကြောင့်",
+              "Constant သည် အမြဲ Zero ဖြစ်သောကြောင့်",
+              "အဖြေကို ပိုရှည်စေရန်",
+              "Cubic Function များအတွက်သာ လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what did Su Su find for ∫4x³ dx?",
+            questionMy: "Su Su ရှာတွေ့ခဲ့သော ∫4x³ dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x⁴ + c", "4x⁴ + c", "x³ + c", "x⁴/4 + c"],
+            optionsMy: ["x⁴ + c", "4x⁴ + c", "x³ + c", "x⁴/4 + c"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what would let you find the exact constant c?",
+            questionMy: "Constant c ၏ တိတိကျကျတန်ဖိုးကို ရှာစေနိုင်မည့်အရာကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "More context, like a specific point the curve passes through",
+              "Nothing can ever determine c",
+              "Differentiating the answer again",
+              "Ignoring the power rule",
+            ],
+            optionsMy: [
+              "Context ပိုများခြင်း၊ Curve ဖြတ်ကျော်သော တိတိကျကျ အမှတ်တစ်ခုကဲ့သို့",
+              "ဘာမှ c ကို ဘယ်တော့မှ ဆုံးဖြတ်၍ မရပါ",
+              "အဖြေကို နောက်တစ်ကြိမ် Differentiate ပြန်လုပ်ခြင်း",
+              "Power Rule ကို လျစ်လျူရှုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Reversing Differentiation",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Differentiation ကို ပြောင်းပြန်လှန်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "∫xⁿ dx equals...",
+          questionMy: "∫xⁿ dx သည်...",
+          optionsEn: ["xⁿ⁺¹/(n+1) + c", "nxⁿ⁻¹", "xⁿ⁻¹/(n-1) + c", "xⁿ + c"],
+          optionsMy: ["xⁿ⁺¹/(n+1) + c", "nxⁿ⁻¹", "xⁿ⁻¹/(n-1) + c", "xⁿ + c"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The + c in an indefinite integral is called the...",
+          questionMy: "Indefinite Integral ရှိ + c ကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Constant of integration",
+            "Constant of differentiation",
+            "Gradient constant",
+            "Power constant",
+          ],
+          optionsMy: [
+            "Constant of Integration",
+            "Constant of Differentiation",
+            "Gradient Constant",
+            "Power Constant",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Integration is the reverse of...",
+          questionMy: "Integration သည် ...၏ ပြောင်းပြန်ဖြစ်သည်",
+          optionsEn: ["Differentiation", "Addition", "Substitution", "Factorising"],
+          optionsMy: ["Differentiation", "Addition", "Substitution", "Factorising"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "Finding the Constant of Integration"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek30 = CourseWeekDef(
+  id: "course-y12-math-w30",
+  weekNumber: 30,
+  titleEn: "Finding the Constant of Integration",
+  titleMy: "Constant of Integration ရှာဖွေခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w30-d1",
+      dayNumber: 1,
+      titleEn: "Using a Known Point to Find c",
+      titleMy: "သိထားသော အမှတ်ကို အသုံးပြု၍ c ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A curve has dy/dx = 2x and passes through (1, 4). Find y.",
+          questionMy: "Curve တစ်ခု၏ dy/dx = 2x ဖြစ်ပြီး (1, 4) ကို ဖြတ်ကျော်သည်။ y ကို ရှာပါ။",
+          optionsEn: ["y = x² + 3", "y = x² + 4", "y = 2x² + 3", "y = x² + 1"],
+          optionsMy: ["y = x² + 3", "y = x² + 4", "y = 2x² + 3", "y = x² + 1"],
+          correctIndex: 0,
+          hintsEn: [
+            "y = x² + c. Substitute (1, 4): 4 = 1 + c, so c = 3.",
+          ],
+          hintsMy: [
+            "y = x² + c ။ (1, 4) ကို အစားထိုးပါ: 4 = 1 + c, c = 3 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A curve has dy/dx = 3x² - 2 and passes through (0, 5). Find y.",
+          questionMy: "Curve တစ်ခု၏ dy/dx = 3x² - 2 ဖြစ်ပြီး (0, 5) ကို ဖြတ်ကျော်သည်။ y ကို ရှာပါ။",
+          optionsEn: [
+            "y = x³ - 2x + 5",
+            "y = x³ - 2x",
+            "y = 3x³ - 2x + 5",
+            "y = x³ + 2x + 5",
+          ],
+          optionsMy: [
+            "y = x³ - 2x + 5",
+            "y = x³ - 2x",
+            "y = 3x³ - 2x + 5",
+            "y = x³ + 2x + 5",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "y = x³ - 2x + c. Substitute (0, 5): 5 = 0 - 0 + c, so c = 5.",
+          ],
+          hintsMy: [
+            "y = x³ - 2x + c ။ (0, 5) ကို အစားထိုးပါ: 5 = 0 - 0 + c, c = 5 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A curve has dy/dx = 4x + 1 and passes through (2, 10). Find y.",
+          questionMy: "Curve တစ်ခု၏ dy/dx = 4x + 1 ဖြစ်ပြီး (2, 10) ကို ဖြတ်ကျော်သည်။ y ကို ရှာပါ။",
+          optionsEn: [
+            "y = 2x² + x",
+            "y = 2x² + x + 10",
+            "y = 2x² + x - 10",
+            "y = 4x² + x",
+          ],
+          optionsMy: [
+            "y = 2x² + x",
+            "y = 2x² + x + 10",
+            "y = 2x² + x - 10",
+            "y = 4x² + x",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "y = 2x² + x + c. Substitute (2, 10): 10 = 8 + 2 + c, so c = 0.",
+          ],
+          hintsMy: [
+            "y = 2x² + x + c ။ (2, 10) ကို အစားထိုးပါ: 10 = 8 + 2 + c, c = 0 ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Finding c Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - c ရှာဖွေခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w30-dm-1",
+          termEn: "Constant of integration c",
+          termMy: "Constant of Integration c",
+          matchEn: "Found using a known point on the curve",
+          matchMy: "Curve ပေါ်ရှိ သိထားသော အမှတ်တစ်ခု အသုံးပြု၍ ရှာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w30-dm-2",
+          termEn: "General solution",
+          termMy: "General Solution",
+          matchEn: "y = ∫(dy/dx) dx + c, before c is found",
+          matchMy: "y = ∫(dy/dx) dx + c, c မရှာရသေးမီ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w30-dm-3",
+          termEn: "Particular solution",
+          termMy: "Particular Solution",
+          matchEn: "The specific curve found once c is determined from a given point",
+          matchMy: "Point တစ်ခုမှ c ကို ဆုံးဖြတ်ပြီးနောက် ရရှိသော တိတိကျကျ Curve",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w30-dm-4",
+          termEn: "Given point (a, b) on the curve",
+          termMy: "Curve ပေါ်ရှိ ပေးထားသော အမှတ် (a, b)",
+          matchEn: "Substituted into the general solution to solve for c",
+          matchMy: "c ကို ဖြေရှင်းရန် General Solution ထဲ အစားထိုးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w30-dm-5",
+          termEn: "Family of curves",
+          termMy: "Family of Curves",
+          matchEn: "All curves with the same derivative, differing only by c",
+          matchMy: "Derivative တူညီပြီး c တစ်ခုတည်း ကွာခြားသော Curve အားလုံး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Enough Information to Find c?",
+      titleMy: "စီစစ်ကြမည် - c ရှာရန် အချက်အလက် လုံလောက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Enough info to find c", "Not enough info to find c"],
+        bucketsMy: ["c ရှာရန် အချက်အလက် လုံလောက်သည်", "c ရှာရန် အချက်အလက် မလုံလောက်ပါ"],
+        items: [
+          SortingItem(
+            id: "y12math-w30-sort-1",
+            labelEn: "dy/dx = 2x, curve passes through (1, 3)",
+            labelMy: "dy/dx = 2x, Curve သည် (1, 3) ကို ဖြတ်ကျော်သည်",
+            correctBucketEn: "Enough info to find c",
+            correctBucketMy: "c ရှာရန် အချက်အလက် လုံလောက်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w30-sort-2",
+            labelEn: "dy/dx = 2x only",
+            labelMy: "dy/dx = 2x တစ်ခုတည်း",
+            correctBucketEn: "Not enough info to find c",
+            correctBucketMy: "c ရှာရန် အချက်အလက် မလုံလောက်ပါ",
+          ),
+          SortingItem(
+            id: "y12math-w30-sort-3",
+            labelEn: "dy/dx = 3x², curve passes through (0, 0)",
+            labelMy: "dy/dx = 3x², Curve သည် (0, 0) ကို ဖြတ်ကျော်သည်",
+            correctBucketEn: "Enough info to find c",
+            correctBucketMy: "c ရှာရန် အချက်အလက် လုံလောက်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w30-sort-4",
+            labelEn: "dy/dx = x + 1",
+            labelMy: "dy/dx = x + 1",
+            correctBucketEn: "Not enough info to find c",
+            correctBucketMy: "c ရှာရန် အချက်အလက် မလုံလောက်ပါ",
+          ),
+          SortingItem(
+            id: "y12math-w30-sort-5",
+            labelEn: "dy/dx = 4, curve passes through (2, 9)",
+            labelMy: "dy/dx = 4, Curve သည် (2, 9) ကို ဖြတ်ကျော်သည်",
+            correctBucketEn: "Enough info to find c",
+            correctBucketMy: "c ရှာရန် အချက်အလက် လုံလောက်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Pinning Down the Right Curve",
+      titleMy: "စာဖတ်ခြင်း - မှန်ကန်သော Curve ကို တိကျစွာ ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Pinning Down the Right Curve",
+        titleMy: "မှန်ကန်သော Curve ကို တိကျစွာ ရှာဖွေခြင်း",
+        passageEn:
+            "Htet Aung was given dy/dx = 6x - 4 with no extra information, and integrated it to get y = 3x² - 4x + c. \"There are infinitely many curves that could satisfy this,\" Sayar Zaw Min pointed out, \"one for every value of c. Picture them as an entire stack of identical parabolas, each one shifted up or down from the next.\"\n\nSayar Zaw Min then added one more piece of information: the curve passes through (1, 2). Htet Aung substituted this point into his general solution: 2 = 3(1)² - 4(1) + c, so 2 = 3 - 4 + c, giving 2 = -1 + c, and therefore c = 3. \"Now there's exactly one curve that fits both the gradient function and that specific point,\" he said, \"y = 3x² - 4x + 3 — picked out of the infinite stack.\"\n\nSu Su asked what would happen with a different point, say (0, 10), instead. Htet Aung substituted again: 10 = 0 - 0 + c, so c = 10, giving a completely different particular solution, y = 3x² - 4x + 10. \"Same gradient function, same shape,\" Sayar Zaw Min summarised, \"but a different point on the curve pins down a different member of the family — that's exactly why a definite point is essential, not optional, whenever a question asks for 'the equation of the curve' rather than just its gradient function.\"",
+        passageMy:
+            "Htet Aung သည် Extra Information မပါဘဲ dy/dx = 6x - 4 ကို ရရှိခဲ့ပြီး Integrate ပြုလုပ်ကာ y = 3x² - 4x + c ကို ရရှိခဲ့သည်။ \"ဒါကို ပြည့်စုံနိုင်တဲ့ Curve တွေ Infinite ရှိတယ်\" ဟု ဆရာဇော်မင်း ညွှန်ပြခဲ့သည်၊ \"c ၏ တန်ဖိုးတစ်ခုစီအတွက် Curve တစ်ခုစီ။ တူညီသော Parabola အများအပြားကို တစ်ခုနှင့်တစ်ခု အပေါ်သို့ (သို့) အောက်သို့ ရွှေ့ထားသော Stack တစ်ခုလုံးအဖြစ် စိတ်ကူးကြည့်ပါ။\"\n\nဆရာဇော်မင်းသည် ထို့နောက် Information တစ်ခု ထပ်ထည့်ခဲ့သည် - Curve သည် (1, 2) ကို ဖြတ်ကျော်သည်။ Htet Aung သည် ဤအမှတ်ကို သူ၏ General Solution ထဲ အစားထိုးခဲ့သည် - 2 = 3(1)² - 4(1) + c, 2 = 3 - 4 + c, 2 = -1 + c, ထို့ကြောင့် c = 3 ။ \"အခု Gradient Function နှင့် ထို တိတိကျကျ အမှတ်နှစ်ခုစလုံးနှင့် ကိုက်ညီသော Curve တစ်ခုတည်း ရှိသွားပြီ\" ဟု သူ ဆိုသည်၊ \"y = 3x² - 4x + 3 -- Infinite Stack ထဲမှ ရွေးချယ်ခဲ့ခြင်း။\"\n\nSu Su သည် အခြားအမှတ်, ဥပမာ (0, 10) ဖြင့် အဘယ်ဖြစ်မည်ကို မေးမြန်းခဲ့သည်။ Htet Aung သည် နောက်တစ်ကြိမ် အစားထိုးခဲ့သည် - 10 = 0 - 0 + c, c = 10 ရသဖြင့် လုံးဝ ကွဲပြားသော Particular Solution, y = 3x² - 4x + 10 ကို ရရှိခဲ့သည်။ \"Gradient Function တူညီ၊ ပုံသဏ္ဌာန်တူညီ\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ်ပေးခဲ့သည်၊ \"ဒါပေမယ့် Curve ပေါ်ရှိ မတူညီသော အမှတ်တစ်ခုက Family ထဲမှ မတူညီသော Member တစ်ခုကို တိကျစွာ ညွှန်ပြသည် -- 'Curve ၏ Equation' ကို တောင်းဆိုသော မေးခွန်းတစ်ခုတိုင်းတွင် Gradient Function တစ်ခုတည်း မဟုတ်ဘဲ တိတိကျကျ အမှတ်တစ်ခုက မရှိမဖြစ် လိုအပ်ကြောင်း အဲဒါကြောင့်ပါပဲ -- Option မဟုတ်ပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is c when the curve passes through (1, 2)?",
+            questionMy: "Curve သည် (1, 2) ကို ဖြတ်ကျော်သောအခါ c ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3", "2", "10", "-1"],
+            optionsMy: ["3", "2", "10", "-1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what particular solution results from the point (0, 10)?",
+            questionMy: "အမှတ် (0, 10) မှ ရရှိသော Particular Solution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "y = 3x² - 4x + 10",
+              "y = 3x² - 4x + 3",
+              "y = 3x² - 4x",
+              "y = 6x - 4 + 10",
+            ],
+            optionsMy: [
+              "y = 3x² - 4x + 10",
+              "y = 3x² - 4x + 3",
+              "y = 3x² - 4x",
+              "y = 6x - 4 + 10",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why is a specific point essential when finding 'the equation of the curve'?",
+            questionMy:
+                "'Curve ၏ Equation' ကို ရှာသောအခါ တိတိကျကျ အမှတ်တစ်ခု အဘယ်ကြောင့် မရှိမဖြစ် လိုအပ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It picks out one specific member of the whole family of curves",
+              "It changes the gradient function itself",
+              "It is only needed for cubic curves",
+              "It removes the need for integration entirely",
+            ],
+            optionsMy: [
+              "Curve Family တစ်ခုလုံးမှ Member တစ်ခုတည်းကို တိကျစွာ ရွေးချယ်ပေးသောကြောင့်",
+              "Gradient Function ကိုယ်တိုင်ကို ပြောင်းလဲစေသောကြောင့်",
+              "Cubic Curve များအတွက်သာ လိုအပ်သောကြောင့်",
+              "Integration လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Finding c",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - c ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "To find c, you need a known...",
+          questionMy: "c ကို ရှာရန် သိထားသော ...တစ်ခု လိုအပ်သည်",
+          optionsEn: ["Point on the curve", "Gradient formula only", "Second derivative", "Constant ratio"],
+          optionsMy: ["Curve ပေါ်ရှိ Point", "Gradient Formula တစ်ခုတည်း", "Second Derivative", "Constant Ratio"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The general solution has c undetermined; the particular solution...",
+          questionMy: "General Solution တွင် c မသိသေးပါ; Particular Solution မှာမူ...",
+          optionsEn: [
+            "Has a specific numerical value for c",
+            "Never has a value for c",
+            "Has two possible values for c",
+            "Ignores c entirely",
+          ],
+          optionsMy: [
+            "c အတွက် တိကျသော ကိန်းဂဏန်းတန်ဖိုးရှိသည်",
+            "c အတွက် ဘယ်တော့မှ တန်ဖိုးမရှိပါ",
+            "c အတွက် ဖြစ်နိုင်ခြေ တန်ဖိုးနှစ်ခု ရှိသည်",
+            "c ကို လုံးဝ လျစ်လျူရှုသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A curve with dy/dx = 2x through (0, 0) has equation...",
+          questionMy: "(0, 0) ကို ဖြတ်ကျော်ပြီး dy/dx = 2x ရှိသော Curve ၏ Equation မှာ...",
+          optionsEn: ["y = x²", "y = x² + 1", "y = 2x²", "y = x"],
+          optionsMy: ["y = x²", "y = x² + 1", "y = 2x²", "y = x"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Definite Integrals"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek31 = CourseWeekDef(
+  id: "course-y12-math-w31",
+  weekNumber: 31,
+  titleEn: "Definite Integrals",
+  titleMy: "Definite Integral",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w31-d1",
+      dayNumber: 1,
+      titleEn: "Evaluating Definite Integrals",
+      titleMy: "Definite Integral တန်ဖိုး ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Evaluate ∫₁³ 2x dx.",
+          questionMy: "∫₁³ 2x dx ကို တန်ဖိုးရှာပါ။",
+          optionsEn: ["8", "9", "6", "4"],
+          optionsMy: ["8", "9", "6", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "[x²] from 1 to 3 = 9 - 1 = 8.",
+          ],
+          hintsMy: [
+            "[x²] ကို 1 မှ 3 အထိ = 9 - 1 = 8 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Evaluate ∫₀² 3x² dx.",
+          questionMy: "∫₀² 3x² dx ကို တန်ဖိုးရှာပါ။",
+          optionsEn: ["8", "6", "12", "4"],
+          optionsMy: ["8", "6", "12", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "[x³] from 0 to 2 = 8 - 0 = 8.",
+          ],
+          hintsMy: [
+            "[x³] ကို 0 မှ 2 အထိ = 8 - 0 = 8 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Evaluate ∫₂⁴ 4 dx.",
+          questionMy: "∫₂⁴ 4 dx ကို တန်ဖိုးရှာပါ။",
+          optionsEn: ["8", "16", "4", "12"],
+          optionsMy: ["8", "16", "4", "12"],
+          correctIndex: 0,
+          hintsEn: [
+            "[4x] from 2 to 4 = 16 - 8 = 8.",
+          ],
+          hintsMy: [
+            "[4x] ကို 2 မှ 4 အထိ = 16 - 8 = 8 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Definite Integral Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Definite Integral ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w31-dm-1",
+          termEn: "Definite integral",
+          termMy: "Definite Integral",
+          matchEn: "An integral evaluated between two limits, giving a numerical value",
+          matchMy: "Limit နှစ်ခုအကြား တန်ဖိုးရှာသော Integral, ကိန်းဂဏန်းတန်ဖိုး ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w31-dm-2",
+          termEn: "Upper limit",
+          termMy: "Upper Limit",
+          matchEn: "The top value substituted first when evaluating a definite integral",
+          matchMy: "Definite Integral တန်ဖိုးရှာသောအခါ ဦးစွာ အစားထိုးသော အပေါ်ဆုံးတန်ဖိုး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w31-dm-3",
+          termEn: "Lower limit",
+          termMy: "Lower Limit",
+          matchEn: "The bottom value subtracted after substituting the upper limit",
+          matchMy: "Upper Limit ကို အစားထိုးပြီးနောက် နုတ်သော အောက်ဆုံးတန်ဖိုး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w31-dm-4",
+          termEn: "∫ₐᵇ f(x) dx",
+          termMy: "∫ₐᵇ f(x) dx",
+          matchEn: "F(b) - F(a), where F is the antiderivative of f",
+          matchMy: "F(b) - F(a), F သည် f ၏ Antiderivative ဖြစ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w31-dm-5",
+          termEn: "No constant of integration needed",
+          termMy: "Constant of Integration မလိုအပ်ပါ",
+          matchEn: "Because c cancels out between the upper and lower limit",
+          matchMy: "Upper နှင့် Lower Limit အကြား c ချေပျောက်သွားသောကြောင့်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Needs c or Not?",
+      titleMy: "စီစစ်ကြမည် - c လိုအပ်လား မလိုအပ်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Needs a constant of integration c", "No constant of integration needed"],
+        bucketsMy: ["Constant of Integration c လိုအပ်သည်", "Constant of Integration မလိုအပ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y12math-w31-sort-1",
+            labelEn: "Indefinite integral ∫x² dx",
+            labelMy: "Indefinite Integral ∫x² dx",
+            correctBucketEn: "Needs a constant of integration c",
+            correctBucketMy: "Constant of Integration c လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w31-sort-2",
+            labelEn: "Definite integral ∫₀¹ x² dx",
+            labelMy: "Definite Integral ∫₀¹ x² dx",
+            correctBucketEn: "No constant of integration needed",
+            correctBucketMy: "Constant of Integration မလိုအပ်ပါ",
+          ),
+          SortingItem(
+            id: "y12math-w31-sort-3",
+            labelEn: "∫3x dx (no limits)",
+            labelMy: "∫3x dx (Limit မပါ)",
+            correctBucketEn: "Needs a constant of integration c",
+            correctBucketMy: "Constant of Integration c လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y12math-w31-sort-4",
+            labelEn: "∫₁² 3x dx",
+            labelMy: "∫₁² 3x dx",
+            correctBucketEn: "No constant of integration needed",
+            correctBucketMy: "Constant of Integration မလိုအပ်ပါ",
+          ),
+          SortingItem(
+            id: "y12math-w31-sort-5",
+            labelEn: "∫x³ dx (general)",
+            labelMy: "∫x³ dx (General)",
+            correctBucketEn: "Needs a constant of integration c",
+            correctBucketMy: "Constant of Integration c လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Constant Cancels",
+      titleMy: "စာဖတ်ခြင်း - Constant ချေပျောက်ရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Constant Cancels",
+        titleMy: "Constant ချေပျောက်ရသည့် အကြောင်း",
+        passageEn:
+            "Su Su asked Sayar Zaw Min why definite integrals never seemed to need a + c, when every indefinite integral in Week 29 and 30 had needed one. \"Watch what happens when you actually include it,\" he said, and set her the problem ∫₁³ 2x dx, worked out the long way.\n\nSu Su wrote the antiderivative with the constant included: x² + c. Evaluating at the upper limit gave (3² + c) = 9 + c, and at the lower limit gave (1² + c) = 1 + c. Subtracting: (9 + c) - (1 + c) = 9 + c - 1 - c = 8. \"The c's cancelled exactly,\" she said, surprised. \"So it never mattered what c was — it disappears the moment you subtract the lower limit's value from the upper limit's value.\"\n\n\"That's exactly why textbooks skip writing + c for definite integrals,\" Sayar Zaw Min confirmed. \"It's not that the constant doesn't exist — it's that it's guaranteed to cancel, every single time, so including it is extra work for the exact same answer. Indefinite integrals keep the + c because there's no second limit to cancel it against; definite integrals always have that second limit built in.\"",
+        passageMy:
+            "Su Su သည် Week 29 နှင့် 30 ရှိ Indefinite Integral တိုင်း + c လိုအပ်ခဲ့ရာမှ Definite Integral များ + c ဘယ်တော့မှ မလိုအပ်ပုံရသည့် အကြောင်းရင်းကို ဆရာဇော်မင်းအား မေးမြန်းခဲ့သည်။ \"ထည့်သွင်းကြည့်ရင် ဘာဖြစ်လဲ ကြည့်ပါ\" ဟု သူ ဆိုပြီး ∫₁³ 2x dx ပြဿနာကို လမ်းရှည်ဖြင့် တွက်ခိုင်းခဲ့သည်။\n\nSu Su သည် Constant ပါဝင်သော Antiderivative ကို ရေးခဲ့သည် - x² + c ။ Upper Limit တွင် တန်ဖိုးရှာပါက (3² + c) = 9 + c, Lower Limit တွင် (1² + c) = 1 + c ရသည်။ နုတ်လိုက်ပါက - (9 + c) - (1 + c) = 9 + c - 1 - c = 8 ။ \"c တွေ အတိအကျ ချေပျောက်သွားတယ်\" ဟု သူမ အံ့သြစွာ ဆိုသည်။ \"ဒါကြောင့် c က ဘယ်လောက်ရှိလဲဆိုတာ ဘယ်တော့မှ အရေးမကြီးဘူး -- Upper Limit တန်ဖိုးမှ Lower Limit တန်ဖိုးကို နုတ်လိုက်တဲ့ ခဏချင်းမှာ ပျောက်သွားတယ်။\"\n\n\"အဲဒါကြောင့် Textbook တွေက Definite Integral အတွက် + c ရေးရန် ကျော်သွားတာပါ\" ဟု ဆရာဇော်မင်း အတည်ပြုပေးခဲ့သည်။ \"Constant က ရှိမနေတာ မဟုတ်ပါဘူး -- အချိန်တိုင်း ချေပျောက်ရမည်ဟု အာမခံထားလို့ ထည့်သွင်းခြင်းသည် အတူတူသော အဖြေအတွက် Extra Work တစ်ခု ဖြစ်တာပါ။ Indefinite Integral တွေက + c ကို ဆက်ထားတယ်၊ ဒါကို ချေပျောက်ပေးမည့် ဒုတိယ Limit မရှိလို့ ဖြစ်တယ်၊ Definite Integral တွေမှာတော့ ထို ဒုတိယ Limit အမြဲ ပါဝင်နေတယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happened to the c's when Su Su subtracted the limits?",
+            questionMy: "Su Su Limit များကို နုတ်လိုက်သောအခါ c များကို အဘယ်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They cancelled out exactly",
+              "They doubled",
+              "They became negative",
+              "They multiplied together",
+            ],
+            optionsMy: [
+              "အတိအကျ ချေပျောက်သွားသည်",
+              "နှစ်ဆ ဖြစ်လာသည်",
+              "Negative ဖြစ်လာသည်",
+              "အချင်းချင်း မြှောက်လိုက်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the value of ∫₁³ 2x dx?",
+            questionMy: "∫₁³ 2x dx ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["8", "9", "1", "6"],
+            optionsMy: ["8", "9", "1", "6"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why do indefinite integrals keep the + c?",
+            questionMy: "Indefinite Integral များ + c ကို ဆက်ထားသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "There is no second limit to cancel it against",
+              "The constant is always larger there",
+              "They never have an antiderivative",
+              "They are always negative",
+            ],
+            optionsMy: [
+              "ချေပျောက်ပေးမည့် ဒုတိယ Limit မရှိသောကြောင့်",
+              "Constant သည် ထိုနေရာတွင် အမြဲ ပိုကြီးသောကြောင့်",
+              "Antiderivative ဘယ်တော့မှ မရှိသောကြောင့်",
+              "အမြဲ Negative ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Definite Integrals",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Definite Integral",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A definite integral gives...",
+          questionMy: "Definite Integral တစ်ခုသည် ...ကို ပေးသည်",
+          optionsEn: ["A numerical value", "A general function with c", "Only a gradient", "An undefined result"],
+          optionsMy: ["ကိန်းဂဏန်းတန်ဖိုး", "c ပါ General Function", "Gradient တစ်ခုတည်း", "Undefined ရလဒ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫ₐᵇ f(x) dx equals...",
+          questionMy: "∫ₐᵇ f(x) dx သည်...",
+          optionsEn: ["F(b) - F(a)", "F(a) - F(b)", "F(a) + F(b)", "F(a) × F(b)"],
+          optionsMy: ["F(b) - F(a)", "F(a) - F(b)", "F(a) + F(b)", "F(a) × F(b)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫₀³ 6 dx equals...",
+          questionMy: "∫₀³ 6 dx သည်...",
+          optionsEn: ["18", "6", "9", "3"],
+          optionsMy: ["18", "6", "9", "3"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32 (Boss Week): "Area Under a Curve"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek32 = CourseWeekDef(
+  id: "course-y12-math-w32",
+  weekNumber: 32,
+  titleEn: "Area Under a Curve",
+  titleMy: "Curve အောက်ရှိ Area",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w32-d1",
+      dayNumber: 1,
+      titleEn: "Finding the Area Under a Curve",
+      titleMy: "Curve အောက်ရှိ Area ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the area under y = x² between x = 0 and x = 3.",
+          questionMy: "x = 0 နှင့် x = 3 အကြား y = x² အောက်ရှိ Area ကို ရှာပါ။",
+          optionsEn: ["9", "27", "3", "6"],
+          optionsMy: ["9", "27", "3", "6"],
+          correctIndex: 0,
+          hintsEn: [
+            "∫₀³ x² dx = [x³/3] from 0 to 3 = 27/3 - 0 = 9.",
+          ],
+          hintsMy: [
+            "∫₀³ x² dx = [x³/3] ကို 0 မှ 3 အထိ = 27/3 - 0 = 9 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the area under y = 2x + 1 between x = 1 and x = 4.",
+          questionMy: "x = 1 နှင့် x = 4 အကြား y = 2x + 1 အောက်ရှိ Area ကို ရှာပါ။",
+          optionsEn: ["18", "20", "9", "24"],
+          optionsMy: ["18", "20", "9", "24"],
+          correctIndex: 0,
+          hintsEn: [
+            "[x² + x] from 1 to 4 = (16 + 4) - (1 + 1) = 20 - 2 = 18.",
+          ],
+          hintsMy: [
+            "[x² + x] ကို 1 မှ 4 အထိ = (16 + 4) - (1 + 1) = 20 - 2 = 18 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Find the area between y = 4 - x² and the x-axis for -2 ≤ x ≤ 2.",
+          questionMy: "-2 ≤ x ≤ 2 တွင် y = 4 - x² နှင့် x-Axis အကြား Area ကို ရှာပါ။",
+          optionsEn: ["32/3", "16/3", "8", "16"],
+          optionsMy: ["32/3", "16/3", "8", "16"],
+          correctIndex: 0,
+          hintsEn: [
+            "[4x - x³/3] from -2 to 2 = (8 - 8/3) - (-8 + 8/3) = 16 - 16/3 = 32/3.",
+          ],
+          hintsMy: [
+            "[4x - x³/3] ကို -2 မှ 2 အထိ = (8 - 8/3) - (-8 + 8/3) = 16 - 16/3 = 32/3 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Area Under a Curve Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Area Under a Curve ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w32-dm-1",
+          termEn: "Area under a curve",
+          termMy: "Curve အောက်ရှိ Area",
+          matchEn: "Found using a definite integral between the x-values bounding the region",
+          matchMy: "Region ကို ဝန်းရံသော x-Value များအကြား Definite Integral ဖြင့် ရှာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w32-dm-2",
+          termEn: "Area between a curve and the x-axis",
+          termMy: "Curve နှင့် x-Axis အကြား Area",
+          matchEn: "∫ₐᵇ y dx, when y ≥ 0 on [a, b]",
+          matchMy: "∫ₐᵇ y dx, [a, b] တွင် y ≥ 0 ဖြစ်သောအခါ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w32-dm-3",
+          termEn: "Negative definite integral",
+          termMy: "Negative Definite Integral",
+          matchEn: "Indicates the curve lies below the x-axis on that interval",
+          matchMy: "ထို Interval တွင် Curve သည် x-Axis အောက်တွင် ရှိကြောင်း ညွှန်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w32-dm-4",
+          termEn: "Limits of integration",
+          termMy: "Limits of Integration",
+          matchEn: "The x-values where the bounded region starts and ends",
+          matchMy: "Region ဝန်းရံမှု၏ အစနှင့် အဆုံး x-Value များ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w32-dm-5",
+          termEn: "Area between two curves",
+          termMy: "Curve နှစ်ခုအကြား Area",
+          matchEn: "The definite integral of the difference between the two functions",
+          matchMy: "Function နှစ်ခု၏ ကွာခြားချက်၏ Definite Integral",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Region Above or Below the x-axis?",
+      titleMy: "စီစစ်ကြမည် - Region သည် x-Axis အထက် (သို့) အောက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Region above the x-axis (positive integral)",
+          "Region below the x-axis (negative integral)",
+        ],
+        bucketsMy: [
+          "x-Axis အထက် Region (Positive Integral)",
+          "x-Axis အောက် Region (Negative Integral)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w32-sort-1",
+            labelEn: "y = x² between x = 0 and x = 2",
+            labelMy: "x = 0 နှင့် x = 2 အကြား y = x²",
+            correctBucketEn: "Region above the x-axis (positive integral)",
+            correctBucketMy: "x-Axis အထက် Region (Positive Integral)",
+          ),
+          SortingItem(
+            id: "y12math-w32-sort-2",
+            labelEn: "y = -x² between x = 0 and x = 2",
+            labelMy: "x = 0 နှင့် x = 2 အကြား y = -x²",
+            correctBucketEn: "Region below the x-axis (negative integral)",
+            correctBucketMy: "x-Axis အောက် Region (Negative Integral)",
+          ),
+          SortingItem(
+            id: "y12math-w32-sort-3",
+            labelEn: "y = x + 3 between x = 0 and x = 2",
+            labelMy: "x = 0 နှင့် x = 2 အကြား y = x + 3",
+            correctBucketEn: "Region above the x-axis (positive integral)",
+            correctBucketMy: "x-Axis အထက် Region (Positive Integral)",
+          ),
+          SortingItem(
+            id: "y12math-w32-sort-4",
+            labelEn: "y = -(x + 3) between x = 0 and x = 2",
+            labelMy: "x = 0 နှင့် x = 2 အကြား y = -(x + 3)",
+            correctBucketEn: "Region below the x-axis (negative integral)",
+            correctBucketMy: "x-Axis အောက် Region (Negative Integral)",
+          ),
+          SortingItem(
+            id: "y12math-w32-sort-5",
+            labelEn: "y = x² + 1 between x = -1 and x = 1",
+            labelMy: "x = -1 နှင့် x = 1 အကြား y = x² + 1",
+            correctBucketEn: "Region above the x-axis (positive integral)",
+            correctBucketMy: "x-Axis အထက် Region (Positive Integral)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term 8 Capstone",
+      titleMy: "စာဖတ်ခြင်း - Term 8 Capstone",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term 8 Capstone",
+        titleMy: "Term 8 Capstone",
+        passageEn:
+            "For the Term 8 capstone, Sayar Zaw Min gave the class the curve y = x² - 4 and asked for the area enclosed between the curve and the x-axis.\n\nSu Su first found where the curve crossed the x-axis by factorising: x² - 4 = (x - 2)(x + 2) = 0, giving roots at x = -2 and x = 2. \"Those roots are my limits of integration,\" she said, setting up ∫₋₂² (x² - 4) dx = [x³/3 - 4x] from -2 to 2.\n\nEvaluating at x = 2: 8/3 - 8 = -16/3. Evaluating at x = -2: -8/3 + 8 = 16/3. Subtracting: -16/3 - 16/3 = -32/3. \"A negative answer,\" Htet Aung noticed, \"but the region is clearly below the x-axis for this curve between -2 and 2, since x² - 4 is negative there.\" Sayar Zaw Min confirmed: the actual area was the size of that value, 32/3, ignoring the sign, since a definite integral is only negative because the curve dips below the axis — not because area itself can be negative. \"This capstone used everything from the whole term,\" he said: \"factorising to find the limits — a skill straight from Term 1's quadratics — integrating to find the antiderivative, evaluating between two limits, and finally interpreting a negative result correctly as area below the axis. That final interpretive step, recognising what a negative integral actually means, is exactly what separates a correct AS Mathematics answer from an incomplete one.\"",
+        passageMy:
+            "Term 8 Capstone အတွက် ဆရာဇော်မင်းသည် Curve y = x² - 4 ကို အတန်းအား ပေးပြီး Curve နှင့် x-Axis အကြား ဝန်းရံထားသော Area ကို တောင်းဆိုခဲ့သည်။\n\nSu Su သည် Factorise ပြုလုပ်၍ Curve သည် x-Axis ကို မည်သည့်နေရာတွင် ဖြတ်ကျော်သည်ကို ဦးစွာ ရှာဖွေခဲ့သည် - x² - 4 = (x - 2)(x + 2) = 0, Root များ x = -2 နှင့် x = 2 တွင် ရရှိသည်။ \"အဲဒီ Root တွေက ကျွန်တော့် Limits of Integration ပါပဲ\" ဟု သူမ ဆိုပြီး ∫₋₂² (x² - 4) dx = [x³/3 - 4x] ကို -2 မှ 2 အထိ တည်ဆောက်ခဲ့သည်။\n\nx = 2 တွင် တန်ဖိုးရှာပါက: 8/3 - 8 = -16/3 ။ x = -2 တွင်: -8/3 + 8 = 16/3 ။ နုတ်လိုက်ပါက: -16/3 - 16/3 = -32/3 ။ \"Negative အဖြေပါလား\" ဟု Htet Aung သတိပြုမိခဲ့သည်၊ \"ဒါပေမယ့် -2 နှင့် 2 အကြား ဒီ Curve ရဲ့ Region က x-Axis အောက်မှာ ရှင်းရှင်းလင်းလင်း ရှိတယ်၊ x² - 4 က ထိုနေရာမှာ Negative ဖြစ်လို့ပါ။\" ဆရာဇော်မင်း အတည်ပြုပေးခဲ့သည် - တကယ့် Area က ထိုတန်ဖိုး၏ Size, 32/3, Sign ကို လျစ်လျူရှုလိုက်ပါက ဖြစ်သည်၊ Definite Integral သည် Curve က Axis အောက် နစ်သောကြောင့်သာ Negative ဖြစ်ရခြင်းဖြစ်ပြီး Area ကိုယ်တိုင် Negative ဖြစ်နိုင်လို့ မဟုတ်ပါ။ \"ဒီ Capstone က Term တစ်ခုလုံးမှ အားလုံးကို အသုံးချခဲ့တယ်\" ဟု သူ ဆိုသည် - \"Limit ရှာရန် Factorising -- Term 1 ၏ Quadratics မှ တိုက်ရိုက် Skill -- Antiderivative ရှာရန် Integrating, Limit နှစ်ခုအကြား တန်ဖိုးရှာခြင်း, နောက်ဆုံးတွင် Negative ရလဒ်ကို Axis အောက်ရှိ Area အဖြစ် မှန်ကန်စွာ အနက်ပြန်ခြင်း။ ထို နောက်ဆုံး အနက်ပြန်ခြင်း အဆင့် -- Negative Integral ၏ အဓိပ္ပာယ်ကို အမှန်တကယ် သိရှိခြင်း -- သည် AS Mathematics အဖြေ မှန်ကန်ခြင်းနှင့် မပြီးစီးသေးခြင်းကို ခွဲခြားပေးသော အချက် အတိအကျပင် ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the roots of x² - 4 = 0?",
+            questionMy: "x² - 4 = 0 ၏ Root များကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x = -2 and x = 2", "x = -4 and x = 4", "x = 0 and x = 4", "x = -2 only"],
+            optionsMy: ["x = -2 နှင့် x = 2", "x = -4 နှင့် x = 4", "x = 0 နှင့် x = 4", "x = -2 တစ်ခုတည်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the actual area, ignoring sign?",
+            questionMy: "Sign ကို လျစ်လျူရှုလိုက်ပါက တကယ့် Area ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["32/3", "-32/3", "16/3", "8"],
+            optionsMy: ["32/3", "-32/3", "16/3", "8"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why was the definite integral negative?",
+            questionMy: "Definite Integral Negative ဖြစ်ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The curve dips below the x-axis on that interval",
+              "Area itself can be negative",
+              "The limits were entered in the wrong order",
+              "Factorising was done incorrectly",
+            ],
+            optionsMy: [
+              "ထို Interval တွင် Curve သည် x-Axis အောက် နစ်နေသောကြောင့်",
+              "Area ကိုယ်တိုင် Negative ဖြစ်နိုင်သောကြောင့်",
+              "Limit များကို မှားယွင်းသော အစီအစဉ်ဖြင့် ထည့်သွင်းခဲ့သောကြောင့်",
+              "Factorising ကို မှားယွင်းစွာ လုပ်ဆောင်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Integration Capstone",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Integration Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The area under a curve is found using...",
+          questionMy: "Curve အောက်ရှိ Area ကို ...ဖြင့် ရှာသည်",
+          optionsEn: ["A definite integral", "Differentiation only", "The discriminant", "The chain rule"],
+          optionsMy: ["Definite Integral", "Differentiation တစ်ခုတည်း", "Discriminant", "Chain Rule"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A negative definite integral over an interval means...",
+          questionMy: "Interval တစ်ခုပေါ်တွင် Negative Definite Integral ဆိုသည်မှာ...",
+          optionsEn: [
+            "The curve lies below the x-axis there",
+            "The area is truly negative",
+            "The calculation must be wrong",
+            "The curve has no roots",
+          ],
+          optionsMy: [
+            "ထိုနေရာတွင် Curve သည် x-Axis အောက်တွင် ရှိသည်",
+            "Area သည် တကယ့် Negative ဖြစ်သည်",
+            "တွက်ချက်မှု မှားယွင်းနေရမည်",
+            "Curve တွင် Root မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The limits of integration for the area under y = x² - 9 (its roots) are...",
+          questionMy: "y = x² - 9 (၎င်း၏ Root များ) အောက်ရှိ Area အတွက် Limits of Integration မှာ...",
+          optionsEn: ["x = -3 and x = 3", "x = -9 and x = 9", "x = 0 and x = 9", "x = -3 only"],
+          optionsMy: ["x = -3 နှင့် x = 3", "x = -9 နှင့် x = 9", "x = 0 နှင့် x = 9", "x = -3 တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm8 = CourseTermDef(
+  id: "course-y12-math-t8",
+  termNumber: 8,
+  titleEn: "Integration",
+  titleMy: "Integration",
+  weeks: [_y12MathWeek29, _y12MathWeek30, _y12MathWeek31, _y12MathWeek32],
+  certificateTitleEn: "AS Mathematics: Integration",
+  certificateTitleMy: "AS သင်္ချာ - Integration",
+);
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 9:
+// "AS Exam Prep" -- a comprehensive review term, drawing exclusively on
+// content already taught in Terms 1-8 (no new topics), closing with a
+// full-course capstone and a lighter final review day.
+// (Weeks 33-36)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Review: Quadratics, Functions and Coordinate Geometry"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek33 = CourseWeekDef(
+  id: "course-y12-math-w33",
+  weekNumber: 33,
+  titleEn: "Review: Quadratics, Functions and Coordinate Geometry",
+  titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Quadratics, Functions, Coordinate Geometry",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w33-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1-3",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term 1-3",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The quadratic x² - 4x + 4 has a discriminant of...",
+          questionMy: "x² - 4x + 4 ၏ Discriminant မှာ...",
+          optionsEn: ["0", "16", "-16", "4"],
+          optionsMy: ["0", "16", "-16", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "b² - 4ac = 16 - 16 = 0, meaning the quadratic has one repeated root.",
+          ],
+          hintsMy: [
+            "b² - 4ac = 16 - 16 = 0, Quadratic တွင် ထပ်ခါထပ်ခါ Root တစ်ခုတည်း ရှိကြောင်း ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For f(x) = √(x - 3), the domain is...",
+          questionMy: "f(x) = √(x - 3) အတွက် Domain မှာ...",
+          optionsEn: ["x ≥ 3", "x ≤ 3", "x ≠ 3", "All real x"],
+          optionsMy: ["x ≥ 3", "x ≤ 3", "x ≠ 3", "Real x အားလုံး"],
+          correctIndex: 0,
+          hintsEn: [
+            "The expression under a square root must be ≥ 0, so x ≥ 3.",
+          ],
+          hintsMy: [
+            "Square Root အောက်ရှိ Expression သည် ≥ 0 ဖြစ်ရမည်၊ x ≥ 3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The gradient of the line joining (1, 2) and (4, 11) is...",
+          questionMy: "(1, 2) နှင့် (4, 11) ကို ချိတ်ဆက်သော Line ၏ Gradient မှာ...",
+          optionsEn: ["3", "9", "1/3", "13"],
+          optionsMy: ["3", "9", "1/3", "13"],
+          correctIndex: 0,
+          hintsEn: [
+            "Gradient = (11 - 2) / (4 - 1) = 9 / 3 = 3.",
+          ],
+          hintsMy: [
+            "Gradient = (11 - 2) / (4 - 1) = 9 / 3 = 3 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Terms 1-3 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 1-3 ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w33-dm-1",
+          termEn: "Discriminant",
+          termMy: "Discriminant",
+          matchEn: "b² - 4ac, determines the number and type of roots",
+          matchMy: "b² - 4ac, Root အရေအတွက်နှင့် အမျိုးအစားကို ဆုံးဖြတ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w33-dm-2",
+          termEn: "Domain of a function",
+          termMy: "Function ၏ Domain",
+          matchEn: "The set of valid input (x) values",
+          matchMy: "မှန်ကန်သော Input (x) တန်ဖိုးများ၏ အစု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w33-dm-3",
+          termEn: "Gradient formula",
+          termMy: "Gradient Formula",
+          matchEn: "(y₂ - y₁) / (x₂ - x₁)",
+          matchMy: "(y₂ - y₁) / (x₂ - x₁)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w33-dm-4",
+          termEn: "Completed square form",
+          termMy: "Completed Square Form",
+          matchEn: "(x - p)² + q, revealing the turning point directly",
+          matchMy: "(x - p)² + q, Turning Point ကို တိုက်ရိုက် ဖော်ပြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w33-dm-5",
+          termEn: "Perpendicular gradients",
+          termMy: "Perpendicular Gradient များ",
+          matchEn: "Multiply to give -1",
+          matchMy: "မြှောက်ပါက -1 ရသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Quadratics/Functions or Coordinate Geometry?",
+      titleMy: "စီစစ်ကြမည် - Quadratics/Functions လား Coordinate Geometry လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Quadratics/Functions", "Coordinate Geometry"],
+        bucketsMy: ["Quadratics/Functions", "Coordinate Geometry"],
+        items: [
+          SortingItem(
+            id: "y12math-w33-sort-1",
+            labelEn: "Discriminant",
+            labelMy: "Discriminant",
+            correctBucketEn: "Quadratics/Functions",
+            correctBucketMy: "Quadratics/Functions",
+          ),
+          SortingItem(
+            id: "y12math-w33-sort-2",
+            labelEn: "Gradient of a line",
+            labelMy: "Line ၏ Gradient",
+            correctBucketEn: "Coordinate Geometry",
+            correctBucketMy: "Coordinate Geometry",
+          ),
+          SortingItem(
+            id: "y12math-w33-sort-3",
+            labelEn: "Domain and range",
+            labelMy: "Domain နှင့် Range",
+            correctBucketEn: "Quadratics/Functions",
+            correctBucketMy: "Quadratics/Functions",
+          ),
+          SortingItem(
+            id: "y12math-w33-sort-4",
+            labelEn: "Midpoint formula",
+            labelMy: "Midpoint Formula",
+            correctBucketEn: "Coordinate Geometry",
+            correctBucketMy: "Coordinate Geometry",
+          ),
+          SortingItem(
+            id: "y12math-w33-sort-5",
+            labelEn: "Turning point",
+            labelMy: "Turning Point",
+            correctBucketEn: "Quadratics/Functions",
+            correctBucketMy: "Quadratics/Functions",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Where a Line Meets a Curve",
+      titleMy: "စာဖတ်ခြင်း - Line တစ်ခုနှင့် Curve တစ်ခု ဆုံသည့်နေရာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Where a Line Meets a Curve",
+        titleMy: "Line တစ်ခုနှင့် Curve တစ်ခု ဆုံသည့်နေရာ",
+        passageEn:
+            "For an AS exam prep review question, Sayar Zaw Min asked the class to find where the line y = x + 1 meets the curve y = x² - 2x - 3, pulling together Term 1's quadratics with Term 3's coordinate geometry.\n\nHtet Aung set the two expressions for y equal to each other, since at any intersection point both equations must give the same y: x + 1 = x² - 2x - 3. Rearranging gave x² - 3x - 4 = 0, a quadratic he then factorised: (x - 4)(x + 1) = 0, so x = 4 or x = -1 — using exactly the Term 1 factorising skill.\n\nSu Su substituted each x-value back into the simpler equation, y = x + 1, to find the matching y-coordinates: at x = 4, y = 5; at x = -1, y = 0. So the line meets the curve at (4, 5) and (-1, 0). \"Notice this whole problem only needed two skills from two different terms,\" Sayar Zaw Min pointed out: \"setting two expressions for y equal to each other — a coordinate geometry idea — and then factorising the resulting quadratic — a Term 1 skill. Exam questions rarely test one topic in isolation; they combine two or three, which is exactly why this review term mixes everything together rather than revisiting each term separately.\"",
+        passageMy:
+            "AS Exam Prep Review မေးခွန်းတစ်ခုအတွက် ဆရာဇော်မင်းသည် Line y = x + 1 သည် Curve y = x² - 2x - 3 ကို မည်သည့်နေရာတွင် တွေ့ဆုံသည်ကို အတန်းအား ရှာခိုင်းစေခဲ့ပြီး Term 1 ၏ Quadratics နှင့် Term 3 ၏ Coordinate Geometry ကို ပေါင်းစပ်ခဲ့သည်။\n\nHtet Aung သည် y အတွက် Expression နှစ်ခုကို အချင်းချင်း ညီစေခဲ့သည်၊ ဆုံရာအမှတ်တိုင်းတွင် Equation နှစ်ခုစလုံးသည် y တူညီစွာ ပေးရမည်ဖြစ်သောကြောင့်: x + 1 = x² - 2x - 3 ။ ပြန်စီစဉ်ပါက x² - 3x - 4 = 0 ရသည်၊ Quadratic တစ်ခု ဖြစ်ပြီး ၎င်းကို Factorise ပြုလုပ်ခဲ့သည် - (x - 4)(x + 1) = 0, x = 4 (သို့) x = -1 -- Term 1 ၏ Factorising Skill ကို အတိအကျ အသုံးပြုခဲ့သည်။\n\nSu Su သည် x-Value တစ်ခုစီကို ရိုးရှင်းသော Equation, y = x + 1 ထဲ ပြန်အစားထိုး၍ ကိုက်ညီသော y-Coordinate များကို ရှာဖွေခဲ့သည် - x = 4 တွင် y = 5; x = -1 တွင် y = 0 ။ ထို့ကြောင့် Line သည် Curve ကို (4, 5) နှင့် (-1, 0) တွင် တွေ့ဆုံသည်။ \"ဒီပြဿနာတစ်ခုလုံးက Term မတူညီနှစ်ခုမှ Skill နှစ်ခုတည်း လိုအပ်ခဲ့တာ သတိပြုပါ\" ဟု ဆရာဇော်မင်း ညွှန်ပြခဲ့သည် - \"y အတွက် Expression နှစ်ခုကို အချင်းချင်း ညီစေခြင်း -- Coordinate Geometry Idea -- ပြီးတော့ ထွက်လာသော Quadratic ကို Factorise ပြုလုပ်ခြင်း -- Term 1 Skill ။ စာမေးပွဲ မေးခွန်းတွေက Topic တစ်ခုတည်းကို သီးခြား စစ်ဆေးလေ့ မရှိပါဘူး၊ နှစ်ခု (သို့) သုံးခု ပေါင်းစပ်လေ့ ရှိတယ် -- ဒါကြောင့် ဒီ Review Term က Term တစ်ခုချင်းစီကို သီးခြား ပြန်လည်သုံးသပ်မည့်အစား အားလုံးကို ရောစပ်ထားတာ ဖြစ်တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what quadratic equation results from setting the two expressions for y equal?",
+            questionMy: "y အတွက် Expression နှစ်ခုကို ညီစေခြင်းမှ ထွက်ပေါ်လာသော Quadratic Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "x² - 3x - 4 = 0",
+              "x² - 2x - 3 = 0",
+              "x² + 3x - 4 = 0",
+              "x² - 4x - 3 = 0",
+            ],
+            optionsMy: [
+              "x² - 3x - 4 = 0",
+              "x² - 2x - 3 = 0",
+              "x² + 3x - 4 = 0",
+              "x² - 4x - 3 = 0",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, at which two points does the line meet the curve?",
+            questionMy: "Line သည် Curve ကို မည်သည့်အမှတ်နှစ်ခုတွင် တွေ့ဆုံသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "(4, 5) and (-1, 0)",
+              "(4, 0) and (-1, 5)",
+              "(5, 4) and (0, -1)",
+              "(3, 4) and (-4, -3)",
+            ],
+            optionsMy: [
+              "(4, 5) နှင့် (-1, 0)",
+              "(4, 0) နှင့် (-1, 5)",
+              "(5, 4) နှင့် (0, -1)",
+              "(3, 4) နှင့် (-4, -3)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does this review term mix topics together?",
+            questionMy: "ဤ Review Term သည် Topic များကို ရောစပ်ထားရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Exam questions rarely test one topic in isolation",
+              "Each term only has one topic anyway",
+              "Mixing topics is required by Cambridge for every course",
+              "It makes the questions shorter",
+            ],
+            optionsMy: [
+              "စာမေးပွဲ မေးခွန်းတွေက Topic တစ်ခုတည်းကို သီးခြား စစ်ဆေးလေ့ မရှိသောကြောင့်",
+              "Term တစ်ခုစီတွင် Topic တစ်ခုတည်းသာ ရှိသောကြောင့်",
+              "Cambridge က Course တိုင်းအတွက် Topic ရောစပ်ရန် လိုအပ်သောကြောင့်",
+              "မေးခွန်းများကို ပိုတိုစေရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Quadratics, Functions and Coordinate Geometry",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Quadratics, Functions, Coordinate Geometry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A discriminant of zero means the quadratic has...",
+          questionMy: "Discriminant Zero ဖြစ်ပါက Quadratic တွင်...",
+          optionsEn: [
+            "One repeated real root",
+            "Two distinct real roots",
+            "No real roots",
+            "Three real roots",
+          ],
+          optionsMy: [
+            "ထပ်ခါထပ်ခါ Real Root တစ်ခုတည်း ရှိသည်",
+            "ကွဲပြားသော Real Root နှစ်ခု ရှိသည်",
+            "Real Root မရှိပါ",
+            "Real Root သုံးခု ရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two lines are perpendicular when their gradients...",
+          questionMy: "Line နှစ်ခု၏ Gradient များသည် ...ဖြစ်ပါက Perpendicular ဖြစ်သည်",
+          optionsEn: ["Multiply to give -1", "Are equal", "Multiply to give 1", "Add to give 0"],
+          optionsMy: ["မြှောက်ပါက -1 ရသည်", "ညီမျှသည်", "မြှောက်ပါက 1 ရသည်", "ပေါင်းပါက 0 ရသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Finding where a line meets a curve requires...",
+          questionMy: "Line တစ်ခုနှင့် Curve တစ်ခု တွေ့ဆုံရာနေရာ ရှာရန် ...လိုအပ်သည်",
+          optionsEn: [
+            "Setting the two equations equal and solving",
+            "Only differentiating both equations",
+            "Only finding the midpoint",
+            "Only calculating the gradient",
+          ],
+          optionsMy: [
+            "Equation နှစ်ခုကို ညီစေပြီး ဖြေရှင်းခြင်း",
+            "Equation နှစ်ခုစလုံးကို Differentiate ပြုလုပ်ခြင်းသာ",
+            "Midpoint ရှာခြင်းသာ",
+            "Gradient ကို တွက်ချက်ခြင်းသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "Review: Circular Measure, Trigonometry and Series"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek34 = CourseWeekDef(
+  id: "course-y12-math-w34",
+  weekNumber: 34,
+  titleEn: "Review: Circular Measure, Trigonometry and Series",
+  titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Circular Measure, Trigonometry, Series",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w34-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 4-6",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term 4-6",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Convert 120° to radians, in terms of π.",
+          questionMy: "120° ကို π ပါသော Radian အဖြစ် ကူးပြောင်းပါ။",
+          optionsEn: ["2π/3", "π/3", "3π/2", "π/2"],
+          optionsMy: ["2π/3", "π/3", "3π/2", "π/2"],
+          correctIndex: 0,
+          hintsEn: [
+            "120 × π/180 = 2π/3.",
+          ],
+          hintsMy: [
+            "120 × π/180 = 2π/3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve sin x = √3/2 for 0° ≤ x ≤ 180°.",
+          questionMy: "0° ≤ x ≤ 180° တွင် sin x = √3/2 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 60° or 120°", "x = 30° or 150°", "x = 60° only", "x = 45° or 135°"],
+          optionsMy: ["x = 60° or 120°", "x = 30° or 150°", "x = 60° only", "x = 45° or 135°"],
+          correctIndex: 0,
+          hintsEn: [
+            "The principal value is 60° (sin 60° = √3/2). Using symmetry: 180° - 60° = 120°.",
+          ],
+          hintsMy: [
+            "Principal Value မှာ 60° (sin 60° = √3/2) ။ Symmetry အသုံးပြု၍: 180° - 60° = 120° ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the sum of the first 10 terms of the AP with a = 3 and d = 2.",
+          questionMy: "a = 3 နှင့် d = 2 ရှိသော AP ၏ ပထမ 10 Term ၏ Sum ကို ရှာပါ။",
+          optionsEn: ["120", "100", "60", "140"],
+          optionsMy: ["120", "100", "60", "140"],
+          correctIndex: 0,
+          hintsEn: [
+            "Sn = n/2 (2a + (n-1)d) = 5 × (6 + 18) = 5 × 24 = 120.",
+          ],
+          hintsMy: [
+            "Sn = n/2 (2a + (n-1)d) = 5 × (6 + 18) = 5 × 24 = 120 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Terms 4-6 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 4-6 ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w34-dm-1",
+          termEn: "Arc length",
+          termMy: "Arc Length",
+          matchEn: "s = rθ, θ in radians",
+          matchMy: "s = rθ, θ သည် Radian ဖြစ်ရမည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w34-dm-2",
+          termEn: "sin²θ + cos²θ",
+          termMy: "sin²θ + cos²θ",
+          matchEn: "Always equals 1",
+          matchMy: "အမြဲ 1 နှင့် ညီသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w34-dm-3",
+          termEn: "nth term of a GP",
+          termMy: "GP ၏ nth Term",
+          matchEn: "arⁿ⁻¹",
+          matchMy: "arⁿ⁻¹",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w34-dm-4",
+          termEn: "Sector area",
+          termMy: "Sector Area",
+          matchEn: "A = ½r²θ",
+          matchMy: "A = ½r²θ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w34-dm-5",
+          termEn: "Sum to infinity of a GP",
+          termMy: "GP ၏ Sum to Infinity",
+          matchEn: "a / (1 - r), valid when |r| < 1",
+          matchMy: "a / (1 - r), |r| < 1 ဖြစ်မှသာ မှန်ကန်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Circular Measure/Trigonometry or Series?",
+      titleMy: "စီစစ်ကြမည် - Circular Measure/Trigonometry လား Series လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Circular Measure/Trigonometry", "Series"],
+        bucketsMy: ["Circular Measure/Trigonometry", "Series"],
+        items: [
+          SortingItem(
+            id: "y12math-w34-sort-1",
+            labelEn: "Radian",
+            labelMy: "Radian",
+            correctBucketEn: "Circular Measure/Trigonometry",
+            correctBucketMy: "Circular Measure/Trigonometry",
+          ),
+          SortingItem(
+            id: "y12math-w34-sort-2",
+            labelEn: "Common ratio",
+            labelMy: "Common Ratio",
+            correctBucketEn: "Series",
+            correctBucketMy: "Series",
+          ),
+          SortingItem(
+            id: "y12math-w34-sort-3",
+            labelEn: "Amplitude",
+            labelMy: "Amplitude",
+            correctBucketEn: "Circular Measure/Trigonometry",
+            correctBucketMy: "Circular Measure/Trigonometry",
+          ),
+          SortingItem(
+            id: "y12math-w34-sort-4",
+            labelEn: "Arithmetic progression",
+            labelMy: "Arithmetic Progression",
+            correctBucketEn: "Series",
+            correctBucketMy: "Series",
+          ),
+          SortingItem(
+            id: "y12math-w34-sort-5",
+            labelEn: "Sector",
+            labelMy: "Sector",
+            correctBucketEn: "Circular Measure/Trigonometry",
+            correctBucketMy: "Circular Measure/Trigonometry",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: An Angle Found by Solving, Then Used",
+      titleMy: "စာဖတ်ခြင်း - ဖြေရှင်းရာမှ ရှာတွေ့သော Angle ကို အသုံးပြုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "An Angle Found by Solving, Then Used",
+        titleMy: "ဖြေရှင်းရာမှ ရှာတွေ့သော Angle ကို အသုံးပြုခြင်း",
+        passageEn:
+            "For a review question combining Term 4 and Term 5, Sayar Zaw Min described a sector of radius 12 cm whose angle, θ, was the solution to 2 sin θ = 1 for 0 ≤ θ ≤ π/2 radians. \"Find the angle first,\" he said, \"then use it to find the sector's arc length.\"\n\nSu Su solved the trig equation first: 2 sin θ = 1 gives sin θ = 1/2, and using the exact value from Term 5, sin(π/6) = 1/2, so θ = π/6 radians — already conveniently in radians, since the problem was set up that way from the start. \"If it had been given as sin θ = 1/2 with θ in degrees,\" she noted, \"I'd have needed to convert 30° to π/6 radians before using it in any circular measure formula.\"\n\nHtet Aung then applied the arc length formula from Term 4: s = rθ = 12 × π/6 = 2π cm. \"This is exactly the kind of mixed question the actual AS exam asks,\" Sayar Zaw Min said, \"a trigonometric equation feeding its solution directly into a circular measure formula. Recognising that θ needs to be in radians before you can use s = rθ — and remembering the exact value shortcut instead of reaching for a calculator decimal — are both skills this review week is designed to keep sharp.\"",
+        passageMy:
+            "Term 4 နှင့် Term 5 ပေါင်းစပ်သော Review မေးခွန်းတစ်ခုအတွက် ဆရာဇော်မင်းသည် Radius 12 cm ရှိသော Sector တစ်ခု ဖော်ပြခဲ့သည်၊ ၎င်း၏ Angle, θ, သည် 0 ≤ θ ≤ π/2 Radian အတွင်း 2 sin θ = 1 ၏ Solution ဖြစ်သည်။ \"Angle ကို အရင် ရှာပါ\" ဟု သူ ဆိုသည်၊ \"ပြီးရင် Sector ၏ Arc Length ရှာဖို့ အသုံးပြုပါ။\"\n\nSu Su သည် Trig Equation ကို အရင် ဖြေရှင်းခဲ့သည် - 2 sin θ = 1 သည် sin θ = 1/2 ကို ပေးပြီး Term 5 မှ Exact Value, sin(π/6) = 1/2 ကို အသုံးပြု၍ θ = π/6 Radian ရသည် -- ပြဿနာက အစကတည်းက ထိုအတိုင်း တည်ဆောက်ထားသောကြောင့် Radian ဖြင့် အဆင်ပြေစွာ ရှိနေပြီးသား ဖြစ်သည်။ \"sin θ = 1/2, θ ကို Degree ဖြင့် ပေးထားခဲ့ရင်\" ဟု သူမ မှတ်ချက်ပြုခဲ့သည်၊ \"Circular Measure Formula တစ်ခုခုတွင် အသုံးမပြုမီ 30° ကို π/6 Radian အဖြစ် ကူးပြောင်းရန် လိုအပ်ခဲ့မယ်။\"\n\nHtet Aung သည် ထို့နောက် Term 4 မှ Arc Length Formula ကို အသုံးပြုခဲ့သည် - s = rθ = 12 × π/6 = 2π cm ။ \"ဒါက တကယ့် AS စာမေးပွဲ မေးမြန်းလေ့ရှိသော ရောစပ်မေးခွန်း အတိအကျပါပဲ\" ဟု ဆရာဇော်မင်း ဆိုသည်၊ \"Trigonometric Equation တစ်ခု၏ Solution ကို Circular Measure Formula တစ်ခုထဲ တိုက်ရိုက် ထည့်သွင်းခြင်း။ s = rθ မသုံးမီ θ ကို Radian ဖြစ်ရမည်ဆိုတာ သိထားခြင်းနှင့် Calculator Decimal ရှာမည့်အစား Exact Value Shortcut ကို သတိရထားခြင်း -- ဒီနှစ်ခုစလုံးက ဒီ Review Week ရဲ့ ရည်ရွယ်ချက်ဖြစ်တဲ့ Skill ချွန်ထက်မှု ထိန်းသိမ်းရေးပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is θ in this problem?",
+            questionMy: "ဤပြဿနာတွင် θ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["π/6 radians", "π/3 radians", "π/2 radians", "30 radians"],
+            optionsMy: ["π/6 Radian", "π/3 Radian", "π/2 Radian", "30 Radian"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the arc length found?",
+            questionMy: "ရှာတွေ့ခဲ့သော Arc Length ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2π cm", "12π cm", "π cm", "6π cm"],
+            optionsMy: ["2π cm", "12π cm", "π cm", "6π cm"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what must be checked before using s = rθ?",
+            questionMy: "s = rθ မသုံးမီ အဘယ်အရာကို စစ်ဆေးရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That θ is in radians",
+              "That r is a whole number",
+              "That θ is negative",
+              "That the sector is a minor sector",
+            ],
+            optionsMy: [
+              "θ သည် Radian ဖြစ်ရမည်",
+              "r သည် ကိန်းပြည့် ဖြစ်ရမည်",
+              "θ သည် Negative ဖြစ်ရမည်",
+              "Sector သည် Minor Sector ဖြစ်ရမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Circular Measure, Trigonometry and Series",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Circular Measure, Trigonometry, Series",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The arc length formula s = rθ requires θ to be in...",
+          questionMy: "s = rθ Formula တွင် θ သည် ...ဖြစ်ရမည်",
+          optionsEn: ["Radians", "Degrees", "Either unit", "Percentages"],
+          optionsMy: ["Radian", "Degree", "Unit မရွေး", "Percentage"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A GP has a sum to infinity only when...",
+          questionMy: "GP တစ်ခုတွင် Sum to Infinity ရှိရန်...",
+          optionsEn: ["|r| < 1", "|r| > 1", "r = 0", "a = 0"],
+          optionsMy: ["|r| < 1", "|r| > 1", "r = 0", "a = 0"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "sin²θ + cos²θ always equals...",
+          questionMy: "sin²θ + cos²θ သည် အမြဲ...",
+          optionsEn: ["1", "0", "θ", "2"],
+          optionsMy: ["1", "0", "θ", "2"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "Review: Differentiation and Integration"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek35 = CourseWeekDef(
+  id: "course-y12-math-w35",
+  weekNumber: 35,
+  titleEn: "Review: Differentiation and Integration",
+  titleMy: "ပြန်လည်သုံးသပ်ခြင်း - Differentiation နှင့် Integration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w35-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 7-8",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term 7-8",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Differentiate y = 3x⁴ - 2x.",
+          questionMy: "y = 3x⁴ - 2x ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = 12x³ - 2", "dy/dx = 12x³ - 2x", "dy/dx = 3x³ - 2", "dy/dx = 12x⁴ - 2"],
+          optionsMy: ["dy/dx = 12x³ - 2", "dy/dx = 12x³ - 2x", "dy/dx = 3x³ - 2", "dy/dx = 12x⁴ - 2"],
+          correctIndex: 0,
+          hintsEn: [
+            "3x⁴ → 12x³, and -2x → -2.",
+          ],
+          hintsMy: [
+            "3x⁴ → 12x³, -2x → -2 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find ∫(6x - 4) dx.",
+          questionMy: "∫(6x - 4) dx ကို ရှာပါ။",
+          optionsEn: ["3x² - 4x + c", "6x² - 4x + c", "3x² - 4 + c", "x² - 4x + c"],
+          optionsMy: ["3x² - 4x + c", "6x² - 4x + c", "3x² - 4 + c", "x² - 4x + c"],
+          correctIndex: 0,
+          hintsEn: [
+            "6x → 3x², and -4 → -4x. Don't forget + c.",
+          ],
+          hintsMy: [
+            "6x → 3x², -4 → -4x ။ + c ကို မမေ့ပါနှင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the stationary point of y = x² - 4x + 7.",
+          questionMy: "y = x² - 4x + 7 ၏ Stationary Point ကို ရှာပါ။",
+          optionsEn: ["(2, 3)", "(2, 7)", "(4, 7)", "(-2, 3)"],
+          optionsMy: ["(2, 3)", "(2, 7)", "(4, 7)", "(-2, 3)"],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 2x - 4 = 0, so x = 2. y = 4 - 8 + 7 = 3.",
+          ],
+          hintsMy: [
+            "dy/dx = 2x - 4 = 0, x = 2 ရသည်။ y = 4 - 8 + 7 = 3 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Terms 7-8 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term 7-8 ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w35-dm-1",
+          termEn: "d/dx(xⁿ)",
+          termMy: "d/dx(xⁿ)",
+          matchEn: "nxⁿ⁻¹",
+          matchMy: "nxⁿ⁻¹",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w35-dm-2",
+          termEn: "∫xⁿ dx",
+          termMy: "∫xⁿ dx",
+          matchEn: "xⁿ⁺¹/(n+1) + c",
+          matchMy: "xⁿ⁺¹/(n+1) + c",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w35-dm-3",
+          termEn: "Stationary point",
+          termMy: "Stationary Point",
+          matchEn: "Where dy/dx = 0",
+          matchMy: "dy/dx = 0 ဖြစ်သောနေရာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w35-dm-4",
+          termEn: "Definite integral",
+          termMy: "Definite Integral",
+          matchEn: "Evaluated between two limits, no constant of integration needed",
+          matchMy: "Limit နှစ်ခုအကြား တန်ဖိုးရှာသည်, Constant of Integration မလိုအပ်ပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w35-dm-5",
+          termEn: "Integration and differentiation",
+          termMy: "Integration နှင့် Differentiation",
+          matchEn: "Reverse processes of each other",
+          matchMy: "တစ်ခုနှင့်တစ်ခု ပြောင်းပြန် လုပ်ငန်းစဉ်များ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Differentiation or Integration?",
+      titleMy: "စီစစ်ကြမည် - Differentiation လား Integration လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Differentiation", "Integration"],
+        bucketsMy: ["Differentiation", "Integration"],
+        items: [
+          SortingItem(
+            id: "y12math-w35-sort-1",
+            labelEn: "Finds the gradient function",
+            labelMy: "Gradient Function ကို ရှာသည်",
+            correctBucketEn: "Differentiation",
+            correctBucketMy: "Differentiation",
+          ),
+          SortingItem(
+            id: "y12math-w35-sort-2",
+            labelEn: "Finds the area under a curve",
+            labelMy: "Curve အောက်ရှိ Area ကို ရှာသည်",
+            correctBucketEn: "Integration",
+            correctBucketMy: "Integration",
+          ),
+          SortingItem(
+            id: "y12math-w35-sort-3",
+            labelEn: "Uses the chain rule",
+            labelMy: "Chain Rule ကို အသုံးပြုသည်",
+            correctBucketEn: "Differentiation",
+            correctBucketMy: "Differentiation",
+          ),
+          SortingItem(
+            id: "y12math-w35-sort-4",
+            labelEn: "Requires a constant, c",
+            labelMy: "Constant, c, လိုအပ်သည်",
+            correctBucketEn: "Integration",
+            correctBucketMy: "Integration",
+          ),
+          SortingItem(
+            id: "y12math-w35-sort-5",
+            labelEn: "Finds stationary points",
+            labelMy: "Stationary Point များကို ရှာသည်",
+            correctBucketEn: "Differentiation",
+            correctBucketMy: "Differentiation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Roots, Then Area",
+      titleMy: "စာဖတ်ခြင်း - Root များ၊ ပြီးရင် Area",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Roots, Then Area",
+        titleMy: "Root များ၊ ပြီးရင် Area",
+        passageEn:
+            "For a review question combining Term 1's factorising with Term 8's integration, Sayar Zaw Min asked the class to find the area enclosed between the curve y = x² - 4 and the x-axis.\n\nHtet Aung factorised first: x² - 4 = (x - 2)(x + 2) = 0, giving roots at x = -2 and x = 2 — the limits of integration. He then integrated: ∫₋₂² (x² - 4) dx = [x³/3 - 4x] from -2 to 2 = (8/3 - 8) - (-8/3 + 8) = -16/3 - 16/3 = -32/3.\n\n\"Negative,\" Su Su noted, \"but the curve dips below the x-axis for the whole interval between -2 and 2, since x² - 4 is negative there. The actual area is just the size of the answer, 32/3, ignoring the negative sign.\" Sayar Zaw Min agreed and closed the example: \"Notice this one question used a Term 1 skill — factorising to find roots — as the very first step of a Term 8 calculation. That's the whole point of Terms 33 and 35 of this review: showing that the topics were never really separate; they were building blocks stacking on top of each other the entire course.\"",
+        passageMy:
+            "Term 1 ၏ Factorising နှင့် Term 8 ၏ Integration ကို ပေါင်းစပ်သော Review မေးခွန်းတစ်ခုအတွက် ဆရာဇော်မင်းသည် Curve y = x² - 4 နှင့် x-Axis အကြား ဝန်းရံထားသော Area ကို အတန်းအား ရှာခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် Factorise ကို အရင် ပြုလုပ်ခဲ့သည် - x² - 4 = (x - 2)(x + 2) = 0, Root များ x = -2 နှင့် x = 2 တွင် ရရှိသည် -- Limits of Integration ဖြစ်သည်။ ထို့နောက် Integrate ပြုလုပ်ခဲ့သည် - ∫₋₂² (x² - 4) dx = [x³/3 - 4x] ကို -2 မှ 2 အထိ = (8/3 - 8) - (-8/3 + 8) = -16/3 - 16/3 = -32/3 ။\n\n\"Negative ပါလား\" ဟု Su Su မှတ်ချက်ပြုခဲ့သည်၊ \"ဒါပေမယ့် -2 နှင့် 2 အကြား Interval တစ်ခုလုံးအတွက် Curve သည် x-Axis အောက် နစ်နေတယ်၊ x² - 4 က ထိုနေရာမှာ Negative ဖြစ်လို့ပါ။ တကယ့် Area က Negative Sign ကို လျစ်လျူရှုလိုက်ပါက အဖြေ၏ Size, 32/3 ပဲ ဖြစ်တယ်။\" ဆရာဇော်မင်း သဘောတူပြီး ဥပမာကို ပိတ်ခဲ့သည် - \"ဒီမေးခွန်းတစ်ခုတည်းက Term 1 Skill -- Root ရှာဖို့ Factorising -- ကို Term 8 တွက်ချက်မှု၏ ပထမဆုံး အဆင့်အဖြစ် အသုံးပြုခဲ့တာ သတိပြုပါ။ ဒါက ဒီ Review ရဲ့ Week 33 နှင့် 35 ရဲ့ အဓိက အချက်ပါပဲ - Topic တွေက ဘယ်တော့မှ တကယ့် သီးခြား မဟုတ်ခဲ့ဘူး၊ Course တစ်ခုလုံးတလျှောက် တစ်ခုပေါ်တစ်ခု ထပ်တည်ဆောက်ခဲ့တဲ့ Building Block တွေ ဖြစ်ခဲ့တယ်ဆိုတာကို ပြသတာပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what are the limits of integration?",
+            questionMy: "Limits of Integration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-2 and 2", "-4 and 4", "0 and 4", "-2 only"],
+            optionsMy: ["-2 နှင့် 2", "-4 နှင့် 4", "0 နှင့် 4", "-2 တစ်ခုတည်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what was the actual area?",
+            questionMy: "တကယ့် Area ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["32/3", "-32/3", "16/3", "8"],
+            optionsMy: ["32/3", "-32/3", "16/3", "8"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what is the point of mixing Term 1 skills into a Term 8 calculation?",
+            questionMy: "Term 1 Skill ကို Term 8 တွက်ချက်မှုထဲ ရောစပ်ရသည့် အချက်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The topics were never really separate; they built on each other",
+              "Term 1 is more important than Term 8",
+              "Factorising is no longer needed after Term 1",
+              "Integration replaces factorising entirely",
+            ],
+            optionsMy: [
+              "Topic တွေက ဘယ်တော့မှ တကယ့် သီးခြား မဟုတ်ခဲ့ဘဲ တစ်ခုပေါ်တစ်ခု တည်ဆောက်ခဲ့ကြောင်း",
+              "Term 1 သည် Term 8 ထက် ပိုအရေးကြီးကြောင်း",
+              "Term 1 ပြီးလျှင် Factorising လိုအပ်ချက် မရှိတော့ကြောင်း",
+              "Integration က Factorising ကို လုံးဝ အစားထိုးကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Differentiation and Integration",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Differentiation နှင့် Integration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "d/dx(x²) equals...",
+          questionMy: "d/dx(x²) သည်...",
+          optionsEn: ["2x", "x", "2x²", "x²/2"],
+          optionsMy: ["2x", "x", "2x²", "x²/2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫x dx equals...",
+          questionMy: "∫x dx သည်...",
+          optionsEn: ["x²/2 + c", "x² + c", "2x + c", "1 + c"],
+          optionsMy: ["x²/2 + c", "x² + c", "2x + c", "1 + c"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The area under a curve is found using...",
+          questionMy: "Curve အောက်ရှိ Area ကို ...ဖြင့် ရှာသည်",
+          optionsEn: ["A definite integral", "The chain rule", "Differentiation only", "The discriminant"],
+          optionsMy: ["Definite Integral", "Chain Rule", "Differentiation တစ်ခုတည်း", "Discriminant"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36 (Boss Week): "AS Mathematics Capstone and Exam Prep"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek36 = CourseWeekDef(
+  id: "course-y12-math-w36",
+  weekNumber: 36,
+  titleEn: "AS Mathematics Capstone and Exam Prep",
+  titleMy: "AS သင်္ချာ Capstone နှင့် Exam Prep",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w36-d1",
+      dayNumber: 1,
+      titleEn: "Full-Course Mixed Review",
+      titleMy: "Course တစ်ခုလုံး ရောနှော ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the stationary points of y = x³ - 3x.",
+          questionMy: "y = x³ - 3x ၏ Stationary Point များကို ရှာပါ။",
+          optionsEn: [
+            "x = 1 and x = -1",
+            "x = 3 and x = -3",
+            "x = 1 only",
+            "x = 0 and x = 3",
+          ],
+          optionsMy: [
+            "x = 1 နှင့် x = -1",
+            "x = 3 နှင့် x = -3",
+            "x = 1 တစ်ခုတည်း",
+            "x = 0 နှင့် x = 3",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "dy/dx = 3x² - 3 = 0, so x² = 1, giving x = 1 or x = -1.",
+          ],
+          hintsMy: [
+            "dy/dx = 3x² - 3 = 0, x² = 1, x = 1 (သို့) x = -1 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Find the sum to infinity of the GP 8, 4, 2, 1, ...",
+          questionMy: "GP 8, 4, 2, 1, ... ၏ Sum to Infinity ကို ရှာပါ။",
+          optionsEn: ["16", "8", "12", "20"],
+          optionsMy: ["16", "8", "12", "20"],
+          correctIndex: 0,
+          hintsEn: [
+            "a = 8, r = 1/2. S∞ = a/(1-r) = 8/0.5 = 16.",
+          ],
+          hintsMy: [
+            "a = 8, r = 1/2 ။ S∞ = a/(1-r) = 8/0.5 = 16 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The curve y = x² + 1 meets the line y = 5x - 3 where x =...",
+          questionMy: "Curve y = x² + 1 သည် Line y = 5x - 3 ကို x = ...တွင် တွေ့ဆုံသည်",
+          optionsEn: ["1 or 4", "1 or -4", "-1 or 4", "3 or -3"],
+          optionsMy: ["1 or 4", "1 or -4", "-1 or 4", "3 or -3"],
+          correctIndex: 0,
+          hintsEn: [
+            "x² + 1 = 5x - 3 gives x² - 5x + 4 = 0, which factorises to (x - 1)(x - 4) = 0.",
+          ],
+          hintsMy: [
+            "x² + 1 = 5x - 3 သည် x² - 5x + 4 = 0 ကို ပေးပြီး (x - 1)(x - 4) = 0 အဖြစ် Factorise ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Whole-Course Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Course တစ်ခုလုံး ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w36-dm-1",
+          termEn: "Discriminant",
+          termMy: "Discriminant",
+          matchEn: "b² - 4ac",
+          matchMy: "b² - 4ac",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w36-dm-2",
+          termEn: "Arc length",
+          termMy: "Arc Length",
+          matchEn: "s = rθ",
+          matchMy: "s = rθ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w36-dm-3",
+          termEn: "nth term of a GP",
+          termMy: "GP ၏ nth Term",
+          matchEn: "arⁿ⁻¹",
+          matchMy: "arⁿ⁻¹",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w36-dm-4",
+          termEn: "d/dx(xⁿ)",
+          termMy: "d/dx(xⁿ)",
+          matchEn: "nxⁿ⁻¹",
+          matchMy: "nxⁿ⁻¹",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w36-dm-5",
+          termEn: "∫xⁿ dx",
+          termMy: "∫xⁿ dx",
+          matchEn: "xⁿ⁺¹/(n+1) + c",
+          matchMy: "xⁿ⁺¹/(n+1) + c",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Algebra/Geometry Topic or Calculus Topic?",
+      titleMy: "စီစစ်ကြမည် - Algebra/Geometry Topic လား Calculus Topic လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Algebra/Geometry topic (Terms 1-6)",
+          "Calculus topic (Terms 7-8)",
+        ],
+        bucketsMy: [
+          "Algebra/Geometry Topic (Term 1-6)",
+          "Calculus Topic (Term 7-8)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w36-sort-1",
+            labelEn: "Completing the square",
+            labelMy: "Completing the Square",
+            correctBucketEn: "Algebra/Geometry topic (Terms 1-6)",
+            correctBucketMy: "Algebra/Geometry Topic (Term 1-6)",
+          ),
+          SortingItem(
+            id: "y12math-w36-sort-2",
+            labelEn: "Chain rule",
+            labelMy: "Chain Rule",
+            correctBucketEn: "Calculus topic (Terms 7-8)",
+            correctBucketMy: "Calculus Topic (Term 7-8)",
+          ),
+          SortingItem(
+            id: "y12math-w36-sort-3",
+            labelEn: "Sector area",
+            labelMy: "Sector Area",
+            correctBucketEn: "Algebra/Geometry topic (Terms 1-6)",
+            correctBucketMy: "Algebra/Geometry Topic (Term 1-6)",
+          ),
+          SortingItem(
+            id: "y12math-w36-sort-4",
+            labelEn: "Definite integral",
+            labelMy: "Definite Integral",
+            correctBucketEn: "Calculus topic (Terms 7-8)",
+            correctBucketMy: "Calculus Topic (Term 7-8)",
+          ),
+          SortingItem(
+            id: "y12math-w36-sort-5",
+            labelEn: "Geometric progression",
+            labelMy: "Geometric Progression",
+            correctBucketEn: "Algebra/Geometry topic (Terms 1-6)",
+            correctBucketMy: "Algebra/Geometry Topic (Term 1-6)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Whole Year in One Arch",
+      titleMy: "စာဖတ်ခြင်း - နှစ်တစ်နှစ်လုံးကို Arch တစ်ခုတည်းတွင်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Whole Year in One Arch",
+        titleMy: "နှစ်တစ်နှစ်လုံးကို Arch တစ်ခုတည်းတွင်",
+        passageEn:
+            "For the final capstone of the whole AS Mathematics course, Sayar Zaw Min gave the class one curve, y = 4x - x², shaped like a simple arch, and asked them to describe it completely: where it touches the ground, how high it reaches, and how much area it encloses.\n\nHtet Aung found where the arch touches the ground first, using Term 1's factorising: y = x(4 - x) = 0, so the roots are x = 0 and x = 4 — the arch spans exactly 4 units along the ground. Su Su then found its highest point using Term 7's differentiation: dy/dx = 4 - 2x = 0, so x = 2, and y = 8 - 4 = 4, giving a maximum height of 4 at the arch's midpoint — exactly halfway between the two roots, just as Term 1's quadratics work had shown was always true for a parabola.\n\nFinally, Htet Aung used Term 8's integration to find the area enclosed between the arch and the ground: ∫₀⁴ (4x - x²) dx = [2x² - x³/3] from 0 to 4 = (32 - 64/3) - 0 = 96/3 - 64/3 = 32/3. \"One curve, three questions, three different terms of the course,\" Sayar Zaw Min said, closing the capstone — and the year. \"Factorising found the roots, differentiation found the peak, and integration found the area underneath. None of those three skills replaces the others; each answers a different question about the exact same shape. That is genuinely what the whole AS Mathematics course has been building toward: not nine separate topics, but one connected toolkit for describing curves completely.\"",
+        passageMy:
+            "AS သင်္ချာ Course တစ်ခုလုံး၏ နောက်ဆုံး Capstone အတွက် ဆရာဇော်မင်းသည် Arch ရိုးရှင်းတစ်ခုကဲ့သို့ ပုံသဏ္ဌာန်ရှိသော Curve တစ်ခု, y = 4x - x², ကို အတန်းအား ပေးပြီး ၎င်းကို အပြည့်အစုံ ဖော်ပြရန် ခိုင်းစေခဲ့သည် - မြေကြီးကို ဘယ်နေရာမှာ ထိသလဲ, ဘယ်လောက်မြင့်သလဲ, ဧရိယာ ဘယ်လောက် ဝန်းရံသလဲ။\n\nHtet Aung သည် Term 1 ၏ Factorising ကို အသုံးပြု၍ Arch သည် မြေကြီးကို ထိသည့်နေရာကို ဦးစွာ ရှာဖွေခဲ့သည် - y = x(4 - x) = 0, Root များ x = 0 နှင့် x = 4 ဖြစ်၍ Arch သည် မြေကြီးအတိုင်း Unit 4 ကို အတိအကျ ဖုံးလွှမ်းသည်။ Su Su သည် ထို့နောက် Term 7 ၏ Differentiation ကို အသုံးပြု၍ အမြင့်ဆုံးအမှတ်ကို ရှာဖွေခဲ့သည် - dy/dx = 4 - 2x = 0, x = 2 ရသဖြင့် y = 8 - 4 = 4, Arch ၏ အလယ်တွင် Maximum Height 4 ရသည် -- Root နှစ်ခု၏ အလယ်တွင် အတိအကျပင်၊ Term 1 ၏ Quadratics အလုပ်က Parabola တိုင်းအတွက် အမြဲ မှန်ကန်ကြောင်း ပြသခဲ့သည့်အတိုင်း ဖြစ်သည်။\n\nနောက်ဆုံးတွင် Htet Aung သည် Term 8 ၏ Integration ကို အသုံးပြု၍ Arch နှင့် မြေကြီးအကြား ဝန်းရံထားသော Area ကို ရှာဖွေခဲ့သည် - ∫₀⁴ (4x - x²) dx = [2x² - x³/3] ကို 0 မှ 4 အထိ = (32 - 64/3) - 0 = 96/3 - 64/3 = 32/3 ။ \"Curve တစ်ခု၊ မေးခွန်းသုံးခု၊ Course ၏ Term သုံးခု\" ဟု ဆရာဇော်မင်းက Capstone ကို -- နှစ်တစ်နှစ်လုံးကိုလည်း -- ပိတ်လျက် ဆိုသည်။ \"Factorising က Root များကို ရှာပေးသည်၊ Differentiation က အထွတ်အထိပ်ကို ရှာပေးသည်၊ Integration က အောက်ခံရှိ Area ကို ရှာပေးသည်။ Skill သုံးခုအနက် ဘယ်တစ်ခုမှ တစ်ခုကို အစားထိုးမည် မဟုတ်ပါ; တစ်ခုစီက ပုံသဏ္ဌာန်တူညီသော အရာတစ်ခုတည်းအကြောင်း မတူညီသော မေးခွန်းကို ဖြေဆိုသည်။ ဤသည်ပင် AS သင်္ချာ Course တစ်ခုလုံး တည်ဆောက်လာခဲ့သောအရာ ဖြစ်သည် -- သီးခြား Topic ကိုးခု မဟုတ်ဘဲ Curve များကို အပြည့်အစုံ ဖော်ပြရန် ဆက်စပ်နေသော Toolkit တစ်ခုတည်း။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what are the roots of the arch?",
+            questionMy: "Arch ၏ Root များကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x = 0 and x = 4", "x = 2 and x = 4", "x = 0 and x = 2", "x = -4 and x = 4"],
+            optionsMy: ["x = 0 နှင့် x = 4", "x = 2 နှင့် x = 4", "x = 0 နှင့် x = 2", "x = -4 နှင့် x = 4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the maximum height of the arch?",
+            questionMy: "Arch ၏ Maximum Height ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4", "2", "8", "32/3"],
+            optionsMy: ["4", "2", "8", "32/3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does the whole AS Mathematics course build toward?",
+            questionMy: "AS သင်္ချာ Course တစ်ခုလုံး တည်ဆောက်လာခဲ့သောအရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One connected toolkit for describing curves completely",
+              "Nine completely unrelated topics",
+              "Only factorising skills",
+              "Only calculator use",
+            ],
+            optionsMy: [
+              "Curve များကို အပြည့်အစုံ ဖော်ပြရန် ဆက်စပ်နေသော Toolkit တစ်ခုတည်း",
+              "လုံးဝ မဆက်စပ်သော Topic ကိုးခု",
+              "Factorising Skill တစ်ခုတည်း",
+              "Calculator အသုံးပြုမှု တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w36-d5",
+      dayNumber: 5,
+      titleEn: "AS Mathematics Final Review: Terms 1-9",
+      titleMy: "AS သင်္ချာ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Completing the square rewrites a quadratic to reveal its...",
+          questionMy: "Completing the Square က Quadratic ကို ပြန်ရေးပြီး ...ကို ဖော်ပြသည်",
+          optionsEn: ["Turning point", "Common ratio", "Arc length", "Constant of integration"],
+          optionsMy: ["Turning Point", "Common Ratio", "Arc Length", "Constant of Integration"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The formula A = ½r²θ finds...",
+          questionMy: "A = ½r²θ Formula သည် ...ကို ရှာသည်",
+          optionsEn: ["A sector's area", "A gradient", "A stationary point", "A sum to infinity"],
+          optionsMy: ["Sector ၏ Area ကို", "Gradient ကို", "Stationary Point ကို", "Sum to Infinity ကို"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Differentiation and integration are related as...",
+          questionMy: "Differentiation နှင့် Integration တို့သည် ...အနေဖြင့် ဆက်စပ်သည်",
+          optionsEn: [
+            "Reverse processes of each other",
+            "Completely unrelated topics",
+            "The same process with different names",
+            "Only useful for trigonometry",
+          ],
+          optionsMy: [
+            "တစ်ခုနှင့်တစ်ခု ပြောင်းပြန် လုပ်ငန်းစဉ်များအနေဖြင့်",
+            "လုံးဝ မဆက်စပ်သော Topic များအနေဖြင့်",
+            "အမည်ကွဲသော လုပ်ငန်းစဉ်တစ်ခုတည်းအနေဖြင့်",
+            "Trigonometry အတွက်သာ အသုံးဝင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Across the whole AS Mathematics course, topics like quadratics, trigonometry, series and calculus are all...",
+          questionMy:
+              "AS သင်္ချာ Course တစ်ခုလုံးတလျှောက် Quadratics, Trigonometry, Series, Calculus ကဲ့သို့ Topic များသည် အားလုံး...",
+          optionsEn: [
+            "Connected tools for describing and analysing curves and quantities",
+            "Random unrelated facts with no formulas behind them",
+            "Only relevant to one single exam question each",
+            "Impossible to combine with each other",
+          ],
+          optionsMy: [
+            "Curve နှင့် ပမာဏများကို ဖော်ပြပြီး ခွဲခြမ်းစိတ်ဖြာရန် ဆက်စပ်နေသော Tool များ",
+            "နောက်ကွယ်တွင် Formula မရှိသော ကျပန်း မဆက်စပ်သည့် အချက်များ",
+            "စာမေးပွဲ မေးခွန်း တစ်ခုစီအတွက်သာ သက်ဆိုင်သည်",
+            "အချင်းချင်း ပေါင်းစပ်၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm9 = CourseTermDef(
+  id: "course-y12-math-t9",
+  termNumber: 9,
+  titleEn: "AS Exam Prep",
+  titleMy: "AS Exam Prep",
+  weeks: [_y12MathWeek33, _y12MathWeek34, _y12MathWeek35, _y12MathWeek36],
+  certificateTitleEn: "AS Mathematics: Full Course Review and Exam Prep",
+  certificateTitleMy: "AS သင်္ချာ - Course တစ်ခုလုံး ပြန်လည်သုံးသပ်ခြင်းနှင့် Exam Prep",
+);
+
+const CoursePathwayDef year12MathematicsPathway = CoursePathwayDef(
+  id: "course-year12-mathematics",
+  subject: "mathematics",
+  grade: Grade.year12,
+  titleEn: "A-Level Mathematics — Year 12 (AS)",
+  titleMy: "A-Level သင်္ချာ — Year ၁၂ (AS)",
+  descriptionEn:
+      "The AS half of Cambridge A-Level Mathematics (9709), covering the full Pure Mathematics 1 syllabus in daily bite-sized lessons. Term 1, Quadratics, covers completing the square, the discriminant, quadratic graphs and factorised form, closing with a capstone connecting completing the square, the discriminant and factorising as three views of the same curve. Terms 2-6 continue through functions (domain, range, composite and inverse functions), coordinate geometry (gradients, midpoints, lines and circles), circular measure (radians, arc length, sector area), trigonometry (graphs, identities, solving equations, exact values), and series (binomial expansion, arithmetic and geometric progressions). Terms 7-8 build calculus from the ground up -- differentiation (standard derivatives, the chain/product/quotient rules, stationary points, tangents and normals) and integration (as the reverse of differentiation, definite integrals, area under a curve) -- and Term 9 closes the year with a comprehensive AS exam-prep review mixing questions across every earlier term, ending in a full-course capstone.",
+  descriptionMy:
+      "Cambridge A-Level သင်္ချာ (9709) ၏ AS ခြမ်း -- Pure Mathematics 1 Syllabus တစ်ခုလုံးကို နေ့စဉ် အတိုချုပ်သင်ခန်းစာများဖြင့် ဖုံးအုပ်သည်။ Term ၁၊ Quadratics သည် Completing the Square, Discriminant, Quadratic Graph များနှင့် Factorised Form ကို ဖုံးအုပ်ပြီး Completing the Square, Discriminant နှင့် Factorising တို့ကို Curve တစ်ခုတည်း၏ အမြင်သုံးမျိုးအဖြစ် ဆက်စပ်ပေးသော Capstone ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၆ အထိ Functions (Domain, Range, Composite နှင့် Inverse Function များ), Coordinate Geometry (Gradient, Midpoint, Line နှင့် Circle များ), Circular Measure (Radian, Arc Length, Sector Area), Trigonometry (Graph, Identity, Equation ဖြေရှင်းခြင်း, Exact Value), Series (Binomial Expansion, Arithmetic နှင့် Geometric Progression) တို့ကို ဆက်လက်ဖုံးအုပ်သည်။ Term ၇-၈ တို့သည် Calculus ကို အခြေခံမှ တည်ဆောက်ပေးသည် -- Differentiation (Standard Derivative, Chain/Product/Quotient Rule, Stationary Point, Tangent နှင့် Normal) နှင့် Integration (Differentiation ၏ ပြောင်းပြန်, Definite Integral, Curve အောက်ရှိ Area) -- ပြီးတော့ Term ၉ သည် ယခင် Term အားလုံးမှ မေးခွန်းများကို ရောစပ်ထားသော ပြည့်စုံသော AS Exam-Prep Review ဖြင့် Course တစ်ခုလုံး Capstone တစ်ခုနှင့်အတူ နှစ်ကို ပိတ်သည်။",
+  totalWeeks: 36,
+  terms: [
+    year12MathematicsTerm1,
+    year12MathematicsTerm2,
+    year12MathematicsTerm3,
+    year12MathematicsTerm4,
+    year12MathematicsTerm5,
+    year12MathematicsTerm6,
+    year12MathematicsTerm7,
+    year12MathematicsTerm8,
+    year12MathematicsTerm9,
+  ],
+);
