@@ -23965,14 +23965,1371 @@ const CourseTermDef year12ChemistryTerm8 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Reaction Kinetics",
 );
 
-/// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-8 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
-/// Bonding; States of Matter; Chemical Energetics; Electrochemistry;
-/// Equilibria; Reaction Kinetics) authored; Term 9 (The Periodic Table
-/// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
-/// renderer exists in this app -- formulas throughout use the same
-/// plain Unicode math notation (², √, x for multiplication) already
-/// established by the IGCSE pathways, not literal LaTeX markup.
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 9: "The Periodic Table (Group 2 and Group
+// 17) and AS Exam Prep"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Group 2 Trends and Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek33 = CourseWeekDef(
+  id: "course-y12-chem-w33",
+  weekNumber: 33,
+  titleEn: "Group 2 Trends and Reactions",
+  titleMy: "Group 2 Trends and Reactions",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w33-d1",
+      dayNumber: 1,
+      titleEn: "Group 2 Trends",
+      titleMy: "Group 2 Trends",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Down Group 2, reactivity with water...",
+          questionMy: "Group 2 အောက်သို့ ရေနှင့် Reactivity...",
+          optionsEn: [
+            "Increases, as ionisation energy decreases",
+            "Decreases, as ionisation energy decreases",
+            "Stays exactly constant",
+            "Becomes zero",
+          ],
+          optionsMy: [
+            "Ionisation Energy လျော့ကျသောကြောင့် တိုးလာသည်",
+            "Ionisation Energy လျော့ကျသောကြောင့် လျော့ကျသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "Zero ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The thermal stability of Group 2 carbonates...",
+          questionMy: "Group 2 Carbonate များ၏ Thermal Stability...",
+          optionsEn: [
+            "Increases down the group",
+            "Decreases down the group",
+            "Stays exactly constant",
+            "Is unrelated to ionic size",
+          ],
+          optionsMy: [
+            "Group အောက်သို့ တိုးလာသည်",
+            "Group အောက်သို့ လျော့ကျသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "Ionic Size နှင့် မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The solubility of Group 2 hydroxides...",
+          questionMy: "Group 2 Hydroxide များ၏ Solubility...",
+          optionsEn: [
+            "Increases down the group",
+            "Decreases down the group",
+            "Stays exactly constant",
+            "Is always zero",
+          ],
+          optionsMy: [
+            "Group အောက်သို့ တိုးလာသည်",
+            "Group အောက်သို့ လျော့ကျသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "အမြဲ Zero ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Group 2 Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Group 2 ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w33-dm-1",
+          termEn: "Group 2 reactivity trend",
+          termMy: "Group 2 Reactivity Trend",
+          matchEn:
+              "Reactivity with water increases down the group as ionisation energy decreases",
+          matchMy:
+              "Ionisation Energy လျော့ကျသောကြောင့် ရေနှင့် Reactivity သည် Group အောက်သို့ တိုးလာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w33-dm-2",
+          termEn: "Thermal decomposition",
+          termMy: "Thermal Decomposition",
+          matchEn: "Breaking down a compound using heat, e.g. MCO3 -> MO + CO2",
+          matchMy:
+              "Heat အသုံးပြု၍ Compound တစ်ခု ချိုးဖျက်ခြင်း၊ ဥပမာ MCO3 -> MO + CO2",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w33-dm-3",
+          termEn: "Thermal stability of carbonates",
+          termMy: "Carbonate များ၏ Thermal Stability",
+          matchEn:
+              "Increases down Group 2, as larger, less polarising cations require more heat to decompose the carbonate ion",
+          matchMy:
+              "ကြီးမား၍ Polarising ပို၍ နည်းသော Cation များသည် Carbonate Ion ကို Decompose ဖြစ်ရန် Heat ပို၍ လိုအပ်သောကြောင့် Group 2 အောက်သို့ တိုးလာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w33-dm-4",
+          termEn: "Solubility of Group 2 hydroxides",
+          termMy: "Group 2 Hydroxide များ၏ Solubility",
+          matchEn:
+              "Increases down the group (Mg(OH)2 nearly insoluble, Ba(OH)2 fairly soluble)",
+          matchMy:
+              "Group အောက်သို့ တိုးလာသည် (Mg(OH)2 Insoluble နီးပါး, Ba(OH)2 အတော်အသင့် Soluble)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w33-dm-5",
+          termEn: "Solubility of Group 2 sulfates",
+          termMy: "Group 2 Sulfate များ၏ Solubility",
+          matchEn:
+              "Decreases down the group (MgSO4 soluble, BaSO4 nearly insoluble)",
+          matchMy:
+              "Group အောက်သို့ လျော့ကျသည် (MgSO4 Soluble, BaSO4 Insoluble နီးပါး)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases Down Group 2?",
+      titleMy: "စီစစ်ကြမည် - Group 2 အောက်သို့ တိုးလားလား၊ လျော့ကျလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Down Group 2", "Decreases Down Group 2"],
+        bucketsMy: [
+          "Group 2 အောက်သို့ တိုးလာသည်",
+          "Group 2 အောက်သို့ လျော့ကျသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w33-sort-1",
+            labelEn: "Reactivity with water",
+            labelMy: "ရေနှင့် Reactivity",
+            correctBucketEn: "Increases Down Group 2",
+            correctBucketMy: "Group 2 အောက်သို့ တိုးလာသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w33-sort-2",
+            labelEn: "Ionisation energy",
+            labelMy: "Ionisation Energy",
+            correctBucketEn: "Decreases Down Group 2",
+            correctBucketMy: "Group 2 အောက်သို့ လျော့ကျသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w33-sort-3",
+            labelEn: "Thermal stability of carbonates",
+            labelMy: "Carbonate များ၏ Thermal Stability",
+            correctBucketEn: "Increases Down Group 2",
+            correctBucketMy: "Group 2 အောက်သို့ တိုးလာသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w33-sort-4",
+            labelEn: "Solubility of hydroxides",
+            labelMy: "Hydroxide များ၏ Solubility",
+            correctBucketEn: "Increases Down Group 2",
+            correctBucketMy: "Group 2 အောက်သို့ တိုးလာသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w33-sort-5",
+            labelEn: "Solubility of sulfates",
+            labelMy: "Sulfate များ၏ Solubility",
+            correctBucketEn: "Decreases Down Group 2",
+            correctBucketMy: "Group 2 အောက်သို့ လျော့ကျသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w33-d4",
+      dayNumber: 4,
+      titleEn:
+          "Reading: Why Barium Carbonate Resists Heat So Much Better than Magnesium Carbonate",
+      titleMy:
+          "စာဖတ်ခြင်း - Barium Carbonate သည် Magnesium Carbonate ထက် Heat ကို ပို၍ ခုခံနိုင်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn:
+            "Why Barium Carbonate Resists Heat So Much Better than Magnesium Carbonate",
+        titleMy:
+            "Barium Carbonate သည် Magnesium Carbonate ထက် Heat ကို ပို၍ ခုခံနိုင်ရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Zin Ko Aung showed his class two decomposition temperatures: magnesium carbonate, MgCO3, decomposes at around 350°C, while barium carbonate, BaCO3, survives until around 1300°C -- nearly four times hotter. He asked the class to explain this huge difference using only the sizes of the metal ions involved.\n\nThurein Zaw reasoned through the polarisation model: a small, highly charged cation like Mg²⁺ has a high charge density, meaning its positive charge is concentrated into a small volume of space. When Mg²⁺ sits next to a carbonate ion, CO3²⁻, its concentrated charge strongly attracts and distorts the carbonate ion's electron cloud -- polarising it -- which weakens the carbon-oxygen bonds inside the carbonate ion itself, making it easier for the whole ion to break apart into CO2 and an oxide ion when heated.\n\nBa²⁺, by contrast, is a much larger ion carrying the same +2 charge, so its charge density is far lower -- the same charge is spread over a much larger volume. A less concentrated charge polarises the neighbouring carbonate ion far less, leaving its carbon-oxygen bonds closer to their natural, undistorted strength, so far more thermal energy is needed to finally break them apart.\n\nSayar Zin Ko Aung summarised the trend: as Group 2 cations get larger going down the group, their charge density falls, their polarising power on neighbouring carbonate ions falls with it, and the thermal stability of the carbonate rises correspondingly -- the same underlying idea, ionic polarisation, explaining a trend that spans the whole group rather than just these two specific compounds.",
+        passageMy:
+            "Decomposition Temperature နှစ်ခုကို Sayar ဇင်ကိုအောင် သူ၏ အတန်းကို ပြသခဲ့သည် - Magnesium Carbonate, MgCO3 သည် ခန့်မှန်းခြေ 350°C တွင် Decompose ဖြစ်ပြီး Barium Carbonate, BaCO3 သည် ခန့်မှန်းခြေ 1300°C အထိ ခုခံနိုင်သည် -- ခန့်မှန်းခြေ လေးဆ ပိုပူသည်။ ပါဝင်သော Metal Ion များ၏ Size တစ်ခုတည်းကို အသုံးပြု၍ ဤ ကြီးမားသော ကွာခြားချက်ကို ရှင်းပြခိုင်းခဲ့သည်။\n\nThurein Zaw သည် Polarisation Model ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Mg²⁺ ကဲ့သို့ သေးငယ်၍ Highly Charged ရှိသော Cation တစ်ခုသည် Charge Density မြင့်ပြီး ၎င်း၏ Positive Charge သည် Space Volume သေးငယ်ထဲသို့ စုစည်းနေသည်ကို ဆိုလိုသည်။ Mg²⁺ သည် Carbonate Ion, CO3²⁻ ဘေးတွင် ရှိချိန် ၎င်း၏ စုစည်းနေသော Charge သည် Carbonate Ion ၏ Electron Cloud ကို ခိုင်မာစွာ ဆွဲငင်ကာ ပုံပျက်စေသည် -- Polarise ပြုလုပ်ခြင်း -- ၎င်းသည် Carbonate Ion ကိုယ်တိုင် အတွင်းရှိ Carbon-Oxygen Bond များကို အားနည်းစေပြီး ပူနွေးချိန် Ion တစ်ခုလုံး CO2 နှင့် Oxide Ion အဖြစ် ကွဲထွက်ရန် ပို၍ လွယ်ကူစေသည်။\n\nBa²⁺ သည် Charge +2 တူညီ ဆောင်ရွက်သော များစွာ ကြီးမားသော Ion ဖြစ်သောကြောင့် ၎င်း၏ Charge Density သည် များစွာ ပို၍ နိမ့်သည် -- Charge တူညီသည် Volume ပို၍ ကြီးမားစွာ ပျံ့နှံ့နေသည်။ Charge စုစည်းမှု ပို၍ နည်းခြင်းက အနီးအနားရှိ Carbonate Ion ကို ပို၍ နည်းစွာ Polarise ပြုလုပ်ပြီး ၎င်း၏ Carbon-Oxygen Bond များကို ၎င်းတို့၏ သဘာဝ ပုံပျက်ခြင်း မရှိသော Strength နှင့် ပို၍ နီးကပ်စွာ ထားရှိပေးသောကြောင့် နောက်ဆုံးတွင် ၎င်းတို့ကို ကွဲထွက်ရန် Thermal Energy ပို၍ လိုအပ်သည်။\n\nTrend ကို Sayar ဇင်ကိုအောင် အနှစ်ချုပ်ခဲ့သည် - Group 2 Cation များသည် Group အောက်သို့ ကြီးမားလာသည်နှင့်အမျှ ၎င်းတို့၏ Charge Density လျော့ကျပြီး အနီးအနားရှိ Carbonate Ion များပေါ် ၎င်းတို့၏ Polarising Power ၎င်းနှင့်အတူ လျော့ကျကာ Carbonate ၏ Thermal Stability ၎င်းနှင့် ကိုက်ညီစွာ တက်လာသည် -- Underlying Idea တူညီ, Ionic Polarisation, သည် ဤ Compound အထူးနှစ်ခုတည်း မဟုတ်ဘဲ Group တစ်ခုလုံးကို ဖုံးအုပ်သော Trend တစ်ခုကို ရှင်းပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, at what temperature does MgCO3 decompose?",
+            questionMy:
+                "MgCO3 Decompose ဖြစ်သော Temperature ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Around 350°C",
+              "Around 1300°C",
+              "Around 100°C",
+              "Around 700°C",
+            ],
+            optionsMy: [
+              "ခန့်မှန်းခြေ 350°C",
+              "ခန့်မှန်းခြေ 1300°C",
+              "ခန့်မှန်းခြေ 100°C",
+              "ခန့်မှန်းခြေ 700°C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, at what temperature does BaCO3 decompose?",
+            questionMy:
+                "BaCO3 Decompose ဖြစ်သော Temperature ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Around 1300°C",
+              "Around 350°C",
+              "Around 500°C",
+              "Around 100°C",
+            ],
+            optionsMy: [
+              "ခန့်မှန်းခြေ 1300°C",
+              "ခန့်မှန်းခြေ 350°C",
+              "ခန့်မှန်းခြေ 500°C",
+              "ခန့်မှန်းခြေ 100°C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the larger barium ion give greater thermal stability?",
+            questionMy:
+                "ကြီးမားသော Barium Ion သည် Thermal Stability ပို၍ ပေးရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its lower charge density polarises the carbonate ion less",
+              "It has a much higher charge than magnesium",
+              "It contains no carbon atoms at all",
+              "It is not actually a Group 2 element",
+            ],
+            optionsMy: [
+              "၎င်း၏ Charge Density ပိုနိမ့်ခြင်းက Carbonate Ion ကို ပို၍ နည်းစွာ Polarise ပြုလုပ်သည်",
+              "Magnesium ထက် Charge များစွာ ပိုမြင့်သည်",
+              "Carbon Atom လုံးဝ မပါဝင်ပါ",
+              "Group 2 Element တကယ် မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Group 2",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Group 2",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Reactivity with water down Group 2 is explained by...",
+          questionMy:
+              "Group 2 အောက်သို့ ရေနှင့် Reactivity ကို ...ဖြင့် ရှင်းပြသည်",
+          optionsEn: [
+            "Decreasing ionisation energy",
+            "Increasing ionisation energy",
+            "Decreasing atomic mass",
+            "Constant reactivity",
+          ],
+          optionsMy: [
+            "Ionisation Energy လျော့ကျခြင်း",
+            "Ionisation Energy တိုးလာခြင်း",
+            "Atomic Mass လျော့ကျခြင်း",
+            "Reactivity တည်ငြိမ်ဆဲ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A smaller, more highly charged cation polarises a neighbouring carbonate ion...",
+          questionMy:
+              "သေးငယ်၍ Charge ပိုမြင့်သော Cation တစ်ခုသည် အနီးအနားရှိ Carbonate Ion ကို ...Polarise ပြုလုပ်သည်",
+          optionsEn: [
+            "More strongly",
+            "Less strongly",
+            "Not at all",
+            "Only if it is negatively charged",
+          ],
+          optionsMy: [
+            "ပို၍ ခိုင်မာစွာ",
+            "ပို၍ အားနည်းစွာ",
+            "လုံးဝ မပြုလုပ်ပါ",
+            "Negatively Charged ဖြစ်မှသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Sulfate solubility trends down Group 2 the opposite way to...",
+          questionMy:
+              "Sulfate Solubility သည် Group 2 အောက်သို့ ...ကို ဆန့်ကျင်ဘက် Trend ဖြစ်သည်",
+          optionsEn: [
+            "Hydroxide solubility",
+            "Ionisation energy",
+            "Atomic radius",
+            "Nuclear charge",
+          ],
+          optionsMy: [
+            "Hydroxide Solubility",
+            "Ionisation Energy",
+            "Atomic Radius",
+            "Nuclear Charge",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "Group 17 Trends and Displacement Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek34 = CourseWeekDef(
+  id: "course-y12-chem-w34",
+  weekNumber: 34,
+  titleEn: "Group 17 Trends and Displacement Reactions",
+  titleMy: "Group 17 Trends and Displacement Reactions",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w34-d1",
+      dayNumber: 1,
+      titleEn: "Group 17 Trends and Displacement",
+      titleMy: "Group 17 Trends and Displacement",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Down Group 17, reactivity (oxidising power) of the halogens...",
+          questionMy:
+              "Group 17 အောက်သို့ Halogen များ၏ Reactivity (Oxidising Power)...",
+          optionsEn: [
+            "Decreases, as atomic radius and shielding increase",
+            "Increases, as atomic radius and shielding increase",
+            "Stays exactly constant",
+            "Becomes zero",
+          ],
+          optionsMy: [
+            "Atomic Radius နှင့် Shielding တိုးလာသောကြောင့် လျော့ကျသည်",
+            "Atomic Radius နှင့် Shielding တိုးလာသောကြောင့် တိုးလာသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "Zero ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a halogen displacement reaction, a more reactive halogen will...",
+          questionMy:
+              "Halogen Displacement Reaction တစ်ခုတွင် Halogen ပို၍ ခိုင်မာသည်သည်...",
+          optionsEn: [
+            "Displace a less reactive halogen from its halide salt solution",
+            "Never react with any halide solution",
+            "Always form a precipitate with water",
+            "Become a Group 2 element",
+          ],
+          optionsMy: [
+            "Halide Salt Solution မှ Halogen ပို၍ အားနည်းသော တစ်ခုကို Displace ပြုလုပ်သည်",
+            "Halide Solution မည်သည့်တစ်ခုနှင့်မျှ ဘယ်တော့မှ မတုံ့ပြန်ပါ",
+            "ရေနှင့် Precipitate တစ်ခု အမြဲ ဖြစ်ပေါ်စေသည်",
+            "Group 2 Element ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Chlorine reacts with cold, dilute sodium hydroxide to undergo...",
+          questionMy:
+              "Chlorine သည် အအေး၊ Dilute Sodium Hydroxide နှင့် တုံ့ပြန်ပြီး ...ခံရသည်",
+          optionsEn: [
+            "Disproportionation, forming chloride and chlorate(I) ions simultaneously",
+            "No reaction at all",
+            "Simple neutralisation only",
+            "Reduction only, with no oxidation",
+          ],
+          optionsMy: [
+            "Disproportionation, Chloride နှင့် Chlorate(I) Ion များ တစ်ပြိုင်နက် ဖြစ်ပေါ်ခြင်း",
+            "Reaction လုံးဝ မရှိပါ",
+            "ရိုးရိုး Neutralisation တစ်ခုတည်း",
+            "Reduction တစ်ခုတည်း၊ Oxidation မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Group 17 Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Group 17 ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w34-dm-1",
+          termEn: "Group 17 reactivity trend",
+          termMy: "Group 17 Reactivity Trend",
+          matchEn:
+              "Oxidising power decreases down the group as atomic radius and shielding increase",
+          matchMy:
+              "Atomic Radius နှင့် Shielding တိုးလာသောကြောင့် Oxidising Power သည် Group အောက်သို့ လျော့ကျသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w34-dm-2",
+          termEn: "Halogen displacement reaction",
+          termMy: "Halogen Displacement Reaction",
+          matchEn:
+              "A more reactive halogen displaces a less reactive halide from solution",
+          matchMy:
+              "Halogen ပို၍ ခိုင်မာသည်သည် Solution မှ Halide ပို၍ အားနည်းသည်ကို Displace ပြုလုပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w34-dm-3",
+          termEn: "Disproportionation",
+          termMy: "Disproportionation",
+          matchEn:
+              "A reaction where the same element is simultaneously oxidised and reduced",
+          matchMy:
+              "Element တူညီတစ်ခု တစ်ပြိုင်နက် Oxidise နှင့် Reduce ဖြစ်သော Reaction",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w34-dm-4",
+          termEn: "Chlorine + cold dilute NaOH",
+          termMy: "Chlorine + အအေး Dilute NaOH",
+          matchEn:
+              "Disproportionates to form chloride (Cl⁻) and chlorate(I) (ClO⁻) ions, used in bleach",
+          matchMy:
+              "Chloride (Cl⁻) နှင့် Chlorate(I) (ClO⁻) Ion များ ဖြစ်ပေါ်ရန် Disproportionate ဖြစ်သည်၊ Bleach တွင် အသုံးပြုသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w34-dm-5",
+          termEn: "Chlorine water test",
+          termMy: "Chlorine Water Test",
+          matchEn:
+              "Used to identify which halide ions are present via displacement colour changes",
+          matchMy:
+              "Displacement အရောင် ပြောင်းလဲမှုများမှတစ်ဆင့် Halide Ion မည်သည့်တစ်ခု ရှိသည်ကို ဖော်ထုတ်ရန် အသုံးပြုသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Displacement Occurs or Not?",
+      titleMy: "စီစစ်ကြမည် - Displacement ဖြစ်လား၊ မဖြစ်ဘူးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Displacement Occurs", "No Displacement"],
+        bucketsMy: ["Displacement ဖြစ်သည်", "Displacement မဖြစ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y12chem-w34-sort-1",
+            labelEn: "Chlorine added to potassium bromide solution",
+            labelMy: "Potassium Bromide Solution ထဲသို့ ထည့်ထားသော Chlorine",
+            correctBucketEn: "Displacement Occurs",
+            correctBucketMy: "Displacement ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w34-sort-2",
+            labelEn: "Iodine added to potassium chloride solution",
+            labelMy: "Potassium Chloride Solution ထဲသို့ ထည့်ထားသော Iodine",
+            correctBucketEn: "No Displacement",
+            correctBucketMy: "Displacement မဖြစ်ပါ",
+          ),
+          SortingItem(
+            id: "y12chem-w34-sort-3",
+            labelEn: "Bromine added to potassium iodide solution",
+            labelMy: "Potassium Iodide Solution ထဲသို့ ထည့်ထားသော Bromine",
+            correctBucketEn: "Displacement Occurs",
+            correctBucketMy: "Displacement ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w34-sort-4",
+            labelEn: "Chlorine added to potassium iodide solution",
+            labelMy: "Potassium Iodide Solution ထဲသို့ ထည့်ထားသော Chlorine",
+            correctBucketEn: "Displacement Occurs",
+            correctBucketMy: "Displacement ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w34-sort-5",
+            labelEn: "Iodine added to potassium bromide solution",
+            labelMy: "Potassium Bromide Solution ထဲသို့ ထည့်ထားသော Iodine",
+            correctBucketEn: "No Displacement",
+            correctBucketMy: "Displacement မဖြစ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Identifying Halide Ions with Chlorine Water",
+      titleMy:
+          "စာဖတ်ခြင်း - Chlorine Water ဖြင့် Halide Ion များ ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Identifying Halide Ions with Chlorine Water",
+        titleMy: "Chlorine Water ဖြင့် Halide Ion များ ဖော်ထုတ်ခြင်း",
+        passageEn:
+            "Sayama Ei Ei Mon gave her class three unlabelled solutions, each containing a different sodium halide -- sodium chloride, sodium bromide, and sodium iodide -- and asked them to identify which was which using only chlorine water.\n\nThurein Zaw added a few drops of chlorine water to each solution and recorded what happened. The first solution stayed colourless: since chlorine is already present as chloride in that solution, there was nothing for the chlorine to displace, confirming it was sodium chloride. The second solution turned orange: chlorine, being a stronger oxidising agent than bromine, displaced the bromide ions, oxidising them to orange Br2, confirming it was sodium bromide. The third solution turned brown, almost black: chlorine displaced the iodide ions even more readily, oxidising them to iodine, which gives this dark brown-black colour in solution, confirming it was sodium iodide.\n\nSayama Ei Ei Mon asked Thurein Zaw to explain, using Group 17's reactivity trend, why chlorine could displace both bromide and iodide but never the reverse. Thurein Zaw reasoned it through: chlorine sits above bromine and iodine in Group 17, so it has a smaller atomic radius, less shielding, and consequently a stronger pull on an incoming electron -- making it a stronger oxidising agent. A stronger oxidising agent can always oxidise the halide ion of a weaker one, gaining electrons from Br⁻ or I⁻ and being reduced to Cl⁻ itself, but the reverse could never happen: a weaker oxidising agent like bromine or iodine simply cannot pull electrons away from the already-stable Cl⁻ ion.",
+        passageMy:
+            "Sayama ဧဧမွန် သူမ၏ အတန်းကို Label မတပ်ရသေးသော Solution သုံးခု ပေးခဲ့သည်၊ တစ်ခုစီတွင် Sodium Halide မတူညီစီ ပါဝင်သည် -- Sodium Chloride, Sodium Bromide နှင့် Sodium Iodide -- Chlorine Water တစ်ခုတည်းကို အသုံးပြု၍ မည်သည်က မည်သည်ဆိုသည်ကို ဖော်ထုတ်ခိုင်းခဲ့သည်။\n\nThurein Zaw သည် Solution တစ်ခုစီသို့ Chlorine Water စက်အနည်းငယ် ထည့်ပြီး ဖြစ်ပေါ်လာသည်ကို မှတ်တမ်းတင်ခဲ့သည်။ ပထမ Solution သည် Colourless ဆက်လက် ရှိနေသည် - Chlorine သည် ထို Solution ထဲတွင် Chloride အဖြစ် ရှိနေပြီးသားဖြစ်၍ Chlorine Displace ပြုလုပ်ရန် မည်သည့်တစ်ခုမျှ မရှိသောကြောင့် Sodium Chloride ဖြစ်ကြောင်း အတည်ပြုသည်။ ဒုတိယ Solution သည် လိမ္မော်ရောင် ပြောင်းလဲသွားသည် - Bromine ထက် Oxidising Agent ပို၍ ခိုင်မာသော Chlorine သည် Bromide Ion များကို Displace ပြုလုပ်ကာ လိမ္မော်ရောင် Br2 အဖြစ် Oxidise ပြုလုပ်သဖြင့် Sodium Bromide ဖြစ်ကြောင်း အတည်ပြုသည်။ တတိယ Solution သည် အညိုရောင်၊ အနက်ရောင်နီးပါး ပြောင်းလဲသွားသည် - Chlorine သည် Iodide Ion များကို ပို၍ ပင် လွယ်ကူစွာ Displace ပြုလုပ်ကာ Solution ထဲတွင် ဤ အစိမ်းရင့်-အနက်ရောင် ပေးသော Iodine အဖြစ် Oxidise ပြုလုပ်သဖြင့် Sodium Iodide ဖြစ်ကြောင်း အတည်ပြုသည်။\n\nGroup 17 ၏ Reactivity Trend ကို အသုံးပြု၍ Chlorine သည် Bromide နှင့် Iodide နှစ်ခုစလုံးကို Displace ပြုလုပ်နိုင်ပြီး ပြောင်းပြန် ဘယ်တော့မှ မဖြစ်နိုင်ရသည့် အကြောင်းရင်းကို ရှင်းပြရန် Sayama ဧဧမွန် Thurein Zaw ကို ခိုင်းစေခဲ့သည်။ Thurein Zaw သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Chlorine သည် Group 17 ရှိ Bromine နှင့် Iodine အထက်တွင် ရှိသောကြောင့် Atomic Radius ငယ်ကာ Shielding နည်းပြီး ရလဒ်အနေဖြင့် ဝင်ရောက်လာသော Electron တစ်ခုအပေါ် ပို၍ ခိုင်မာစွာ ဆွဲငင်သည် -- Oxidising Agent ပို၍ ခိုင်မာစေသည်။ ခိုင်မာသော Oxidising Agent တစ်ခုသည် အားနည်းသော တစ်ခု၏ Halide Ion ကို အမြဲ Oxidise ပြုလုပ်နိုင်ပြီး Br⁻ (သို့) I⁻ မှ Electron ရယူကာ ကိုယ်တိုင် Cl⁻ အဖြစ် Reduce ဖြစ်သည်၊ သို့သော် ပြောင်းပြန် ဘယ်တော့မှ ဖြစ်နိုင်မည် မဟုတ်ပါ - Bromine (သို့) Iodine ကဲ့သို့ အားနည်းသော Oxidising Agent တစ်ခုသည် တည်ငြိမ်ပြီးသား Cl⁻ Ion မှ Electron များကို ရိုးရှင်းစွာ ဆွဲထုတ်၍ မရနိုင်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what colour did the sodium bromide solution turn?",
+            questionMy:
+                "Sodium Bromide Solution မည်သည့် အရောင် ပြောင်းလဲသွားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Orange", "Colourless", "Brown-black", "Blue"],
+            optionsMy: [
+              "လိမ္မော်ရောင်",
+              "Colourless",
+              "အညို-အနက်ရောင်",
+              "အပြာရောင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what colour did the sodium iodide solution turn?",
+            questionMy:
+                "Sodium Iodide Solution မည်သည့် အရောင် ပြောင်းလဲသွားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Brown, almost black", "Orange", "Colourless", "Green"],
+            optionsMy: [
+              "အညိုရောင်၊ အနက်ရောင်နီးပါး",
+              "လိမ္မော်ရောင်",
+              "Colourless",
+              "အစိမ်းရောင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why can chlorine displace bromide and iodide but never the reverse?",
+            questionMy:
+                "Chlorine သည် Bromide နှင့် Iodide ကို Displace ပြုလုပ်နိုင်ပြီး ပြောင်းပြန် ဘယ်တော့မှ မဖြစ်နိုင်ရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Chlorine is a stronger oxidising agent, able to gain electrons more readily",
+              "Chlorine has no electrons of its own at all",
+              "Bromine and iodine are not real elements",
+              "The reaction is always exactly reversible",
+            ],
+            optionsMy: [
+              "Chlorine သည် Oxidising Agent ပို၍ ခိုင်မာပြီး Electron ရယူရန် ပို၍ လွယ်ကူသည်",
+              "Chlorine တွင် ကိုယ်ပိုင် Electron လုံးဝ မရှိပါ",
+              "Bromine နှင့် Iodine သည် Element တကယ် မဟုတ်ပါ",
+              "Reaction သည် အတိအကျ Reversible အမြဲ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Group 17",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Group 17",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Oxidising power of the halogens...",
+          questionMy: "Halogen များ၏ Oxidising Power...",
+          optionsEn: [
+            "Decreases down Group 17",
+            "Increases down Group 17",
+            "Stays exactly constant",
+            "Is unrelated to atomic radius",
+          ],
+          optionsMy: [
+            "Group 17 အောက်သို့ လျော့ကျသည်",
+            "Group 17 အောက်သို့ တိုးလာသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "Atomic Radius နှင့် မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Chlorine can displace bromide because...",
+          questionMy:
+              "Chlorine သည် Bromide ကို Displace ပြုလုပ်နိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It is a stronger oxidising agent than bromine",
+            "It is a weaker oxidising agent than bromine",
+            "It has no reactivity at all",
+            "It is not a halogen",
+          ],
+          optionsMy: [
+            "Bromine ထက် Oxidising Agent ပို၍ ခိုင်မာသောကြောင့်",
+            "Bromine ထက် Oxidising Agent ပို၍ အားနည်းသောကြောင့်",
+            "Reactivity လုံးဝ မရှိသောကြောင့်",
+            "Halogen မဟုတ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Chlorine reacting with cold dilute NaOH is an example of...",
+          questionMy:
+              "Chlorine သည် အအေး Dilute NaOH နှင့် တုံ့ပြန်ခြင်းသည် ...၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Disproportionation",
+            "Simple neutralisation only",
+            "No reaction at all",
+            "Thermal decomposition",
+          ],
+          optionsMy: [
+            "Disproportionation",
+            "ရိုးရိုး Neutralisation တစ်ခုတည်း",
+            "Reaction လုံးဝ မရှိပါ",
+            "Thermal Decomposition",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "Qualitative Analysis: Testing for Ions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek35 = CourseWeekDef(
+  id: "course-y12-chem-w35",
+  weekNumber: 35,
+  titleEn: "Qualitative Analysis: Testing for Ions",
+  titleMy: "Qualitative Analysis: Testing for Ions",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w35-d1",
+      dayNumber: 1,
+      titleEn: "Tests for Carbonate, Sulfate and Halide Ions",
+      titleMy: "Carbonate, Sulfate နှင့် Halide Ion များအတွက် Test များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "To test for a carbonate ion, add dilute acid; a positive result is...",
+          questionMy:
+              "Carbonate Ion Test လုပ်ရန် Dilute Acid ထည့်ပါ; Positive Result ဖြစ်ချိန်မှာ...",
+          optionsEn: [
+            "Effervescence, producing a gas that turns limewater cloudy",
+            "A blue precipitate forming",
+            "No change at all",
+            "The solution turning bright red",
+          ],
+          optionsMy: [
+            "Effervescence, Limewater ကို ခြုံအေးစေသော Gas ထုတ်ပေးခြင်း",
+            "အပြာရောင် Precipitate ဖြစ်ပေါ်ခြင်း",
+            "ပြောင်းလဲမှု လုံးဝ မရှိပါ",
+            "Solution အနီရောင်တောက် ပြောင်းလဲသွားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To test for a sulfate ion, add dilute HCl then barium chloride/nitrate solution; a positive result is...",
+          questionMy:
+              "Sulfate Ion Test လုပ်ရန် Dilute HCl ထို့နောက် Barium Chloride/Nitrate Solution ထည့်ပါ; Positive Result ဖြစ်ချိန်မှာ...",
+          optionsEn: [
+            "A white precipitate (BaSO4) forming",
+            "Effervescence with a gas produced",
+            "The solution turning green",
+            "No change at all",
+          ],
+          optionsMy: [
+            "အဖြူရောင် Precipitate (BaSO4) ဖြစ်ပေါ်ခြင်း",
+            "Gas ထုတ်ပေးသော Effervescence",
+            "Solution အစိမ်းရောင် ပြောင်းလဲသွားခြင်း",
+            "ပြောင်းလဲမှု လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "To test for a halide ion, add dilute nitric acid then silver nitrate solution. A white precipitate indicates...",
+          questionMy:
+              "Halide Ion Test လုပ်ရန် Dilute Nitric Acid ထို့နောက် Silver Nitrate Solution ထည့်ပါ။ အဖြူရောင် Precipitate ညွှန်ပြသည်မှာ...",
+          optionsEn: [
+            "Chloride ions are present",
+            "Bromide ions are present",
+            "Iodide ions are present",
+            "No halide ions are present",
+          ],
+          optionsMy: [
+            "Chloride Ion များ ပါဝင်သည်",
+            "Bromide Ion များ ပါဝင်သည်",
+            "Iodide Ion များ ပါဝင်သည်",
+            "Halide Ion မည်သည့်တစ်ခုမျှ မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Qualitative Analysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Qualitative Analysis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w35-dm-1",
+          termEn: "Test for carbonate ions",
+          termMy: "Carbonate Ion Test",
+          matchEn:
+              "Add dilute acid; effervescence produces CO2 gas, which turns limewater cloudy",
+          matchMy:
+              "Dilute Acid ထည့်ပါ; Effervescence က Limewater ကို ခြုံအေးစေသော CO2 Gas ထုတ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w35-dm-2",
+          termEn: "Test for sulfate ions",
+          termMy: "Sulfate Ion Test",
+          matchEn:
+              "Add dilute HCl then barium chloride/nitrate solution; a white precipitate (BaSO4) forms",
+          matchMy:
+              "Dilute HCl ထို့နောက် Barium Chloride/Nitrate Solution ထည့်ပါ; အဖြူရောင် Precipitate (BaSO4) ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w35-dm-3",
+          termEn: "Test for chloride ions",
+          termMy: "Chloride Ion Test",
+          matchEn:
+              "Add dilute nitric acid then silver nitrate solution; a white precipitate forms",
+          matchMy:
+              "Dilute Nitric Acid ထို့နောက် Silver Nitrate Solution ထည့်ပါ; အဖြူရောင် Precipitate ဖြစ်ပေါ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w35-dm-4",
+          termEn: "Test for bromide ions",
+          termMy: "Bromide Ion Test",
+          matchEn:
+              "Add dilute nitric acid then silver nitrate solution; a cream precipitate forms",
+          matchMy:
+              "Dilute Nitric Acid ထို့နောက် Silver Nitrate Solution ထည့်ပါ; Cream ရောင် Precipitate ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w35-dm-5",
+          termEn: "Test for iodide ions",
+          termMy: "Iodide Ion Test",
+          matchEn:
+              "Add dilute nitric acid then silver nitrate solution; a yellow precipitate forms",
+          matchMy:
+              "Dilute Nitric Acid ထို့နောက် Silver Nitrate Solution ထည့်ပါ; အဝါရောင် Precipitate ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: White Precipitate or Coloured Precipitate?",
+      titleMy: "စီစစ်ကြမည် - Precipitate အဖြူလား၊ အရောင်ပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["White Precipitate", "Coloured Precipitate"],
+        bucketsMy: ["အဖြူရောင် Precipitate", "အရောင်ပါသော Precipitate"],
+        items: [
+          SortingItem(
+            id: "y12chem-w35-sort-1",
+            labelEn: "Chloride ions + silver nitrate",
+            labelMy: "Chloride Ion + Silver Nitrate",
+            correctBucketEn: "White Precipitate",
+            correctBucketMy: "အဖြူရောင် Precipitate",
+          ),
+          SortingItem(
+            id: "y12chem-w35-sort-2",
+            labelEn: "Bromide ions + silver nitrate",
+            labelMy: "Bromide Ion + Silver Nitrate",
+            correctBucketEn: "Coloured Precipitate",
+            correctBucketMy: "အရောင်ပါသော Precipitate",
+          ),
+          SortingItem(
+            id: "y12chem-w35-sort-3",
+            labelEn: "Iodide ions + silver nitrate",
+            labelMy: "Iodide Ion + Silver Nitrate",
+            correctBucketEn: "Coloured Precipitate",
+            correctBucketMy: "အရောင်ပါသော Precipitate",
+          ),
+          SortingItem(
+            id: "y12chem-w35-sort-4",
+            labelEn: "Sulfate ions + barium chloride",
+            labelMy: "Sulfate Ion + Barium Chloride",
+            correctBucketEn: "White Precipitate",
+            correctBucketMy: "အဖြူရောင် Precipitate",
+          ),
+          SortingItem(
+            id: "y12chem-w35-sort-5",
+            labelEn: "Carbonate ions + barium chloride",
+            labelMy: "Carbonate Ion + Barium Chloride",
+            correctBucketEn: "White Precipitate",
+            correctBucketMy: "အဖြူရောင် Precipitate",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Identifying an Unknown Salt",
+      titleMy: "စာဖတ်ခြင်း - အမည်မသိ ဆား ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Identifying an Unknown Salt",
+        titleMy: "အမည်မသိ ဆား ဖော်ထုတ်ခြင်း",
+        passageEn:
+            "Sayar Zin Ko Aung gave his class an unknown white solid, dissolved in water, and asked them to identify its anion using a sequence of qualitative tests, ruling out possibilities one at a time.\n\nHnin Yadanar tested for sulfate first, since it is a common possibility: she added dilute HCl followed by barium chloride solution. No precipitate formed at all, ruling sulfate out completely -- if sulfate ions had been present, a white barium sulfate precipitate would have appeared immediately.\n\nWith sulfate eliminated, Hnin Yadanar moved to testing for a halide ion instead: she added dilute nitric acid followed by silver nitrate solution to a fresh sample. This time, a cream-coloured precipitate formed -- not white (which would indicate chloride) and not yellow (which would indicate iodide), but specifically cream, the colour unique to silver bromide.\n\nSayar Zin Ko Aung asked Hnin Yadanar to explain why the sequence of tests mattered -- why she tested for sulfate before testing for a halide, rather than the other way around, or both at once. Hnin Yadanar reasoned that a systematic sequence, ruling possibilities out one at a time using tests that don't interfere with each other, avoids the risk of a false positive: had she added silver nitrate to a solution that still contained leftover barium ions from an earlier test, for instance, the results could have become genuinely ambiguous. Testing methodically, one variable at a time, is what let her conclude with confidence that the unknown salt contained bromide ions and nothing else.",
+        passageMy:
+            "အမည်မသိ အဖြူရောင် Solid တစ်ခုကို ရေထဲတွင် ပျော်ဝင်ထားလျက် Sayar ဇင်ကိုအောင် သူ၏ အတန်းကို ပေးခဲ့ပြီး Qualitative Test အစီအစဉ်တစ်ခုကို အသုံးပြု၍ ၎င်း၏ Anion ကို ဖော်ထုတ်ခိုင်းခဲ့သည်၊ ဖြစ်နိုင်ခြေများကို တစ်ခုချင်းစီ ဖယ်ရှားလိုက်သည်။\n\nHnin Yadanar သည် Sulfate ကို ဦးစွာ Test လုပ်ခဲ့သည်၊ ဘုံ ဖြစ်နိုင်ခြေတစ်ခု ဖြစ်သောကြောင့် - Dilute HCl ထို့နောက် Barium Chloride Solution ထည့်ခဲ့သည်။ Precipitate မည်သည့်တစ်ခုမျှ လုံးဝ မဖြစ်ပေါ်ခဲ့ပါ၊ Sulfate ကို လုံးဝ ဖယ်ရှားလိုက်သည် -- Sulfate Ion များ ပါဝင်ခဲ့ပါက အဖြူရောင် Barium Sulfate Precipitate ချက်ချင်း ပေါ်လာလိမ့်မည်။\n\nSulfate ကို ဖယ်ရှားပြီးနောက် Hnin Yadanar သည် Halide Ion Test သို့ ယင်းအစား ရွှေ့သွားခဲ့သည် - Sample အသစ်တစ်ခုသို့ Dilute Nitric Acid ထို့နောက် Silver Nitrate Solution ထည့်ခဲ့သည်။ ဤအကြိမ်တွင် Cream ရောင် Precipitate ဖြစ်ပေါ်ခဲ့သည် -- Chloride ကို ညွှန်ပြသော အဖြူရောင် မဟုတ်ဘဲ Iodide ကို ညွှန်ပြသော အဝါရောင်လည်း မဟုတ်ဘဲ Silver Bromide ကိုသာ ထူးခြားသော Cream ရောင် အတိအကျ ဖြစ်သည်။\n\nTest အစီအစဉ် အဘယ့်ကြောင့် အရေးကြီးသည် -- Halide ကို Test လုပ်မီ Sulfate ကို အဘယ့်ကြောင့် ဦးစွာ Test လုပ်သည်၊ တစ်ခုချင်းစီ Reverse (သို့) တစ်ပြိုင်နက် နှစ်ခုစလုံး မဟုတ်ဘဲ -- ရှင်းပြရန် Sayar ဇင်ကိုအောင် Hnin Yadanar ကို ခိုင်းစေခဲ့သည်။ Systematic Sequence တစ်ခု၊ အချင်းချင်း စွက်ဖက်ခြင်း မရှိသော Test များကို အသုံးပြု၍ ဖြစ်နိုင်ခြေများကို တစ်ခုချင်းစီ ဖယ်ရှားခြင်းသည် False Positive Risk ကို ရှောင်ရှားစေကြောင်း Hnin Yadanar ဆင်ခြင်တွေးခေါ်ခဲ့သည် - ဥပမာ Test အစောပိုင်းက ကျန်ရစ်ခဲ့သော Barium Ion ဆက်လက် ပါဝင်နေသေးသော Solution တစ်ခုသို့ Silver Nitrate ထည့်ခဲ့ပါက ရလဒ်များသည် တကယ့် Ambiguous ဖြစ်လာနိုင်သည်။ Systematic Sequence, Variable တစ်ခုချင်းစီဖြင့် Test လုပ်ခြင်းသည် အမည်မသိ ဆားတွင် Bromide Ion များ ပါဝင်ပြီး အခြား မည်သည့်တစ်ခုမျှ မပါဝင်ကြောင်း ယုံကြည်စိတ်ချစွာ ကောက်ချက်ချနိုင်ခဲ့သည့် အချက် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the result of the barium chloride test?",
+            questionMy: "Barium Chloride Test ၏ ရလဒ်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No precipitate formed at all",
+              "A white precipitate formed",
+              "A cream precipitate formed",
+              "A yellow precipitate formed",
+            ],
+            optionsMy: [
+              "Precipitate မည်သည့်တစ်ခုမျှ လုံးဝ မဖြစ်ပေါ်ခဲ့ပါ",
+              "အဖြူရောင် Precipitate ဖြစ်ပေါ်ခဲ့သည်",
+              "Cream ရောင် Precipitate ဖြစ်ပေါ်ခဲ့သည်",
+              "အဝါရောင် Precipitate ဖြစ်ပေါ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what colour precipitate formed with silver nitrate?",
+            questionMy:
+                "Silver Nitrate နှင့် ဖြစ်ပေါ်ခဲ့သော Precipitate အရောင်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Cream", "White", "Yellow", "No precipitate at all"],
+            optionsMy: [
+              "Cream",
+              "အဖြူရောင်",
+              "အဝါရောင်",
+              "Precipitate လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which ion was identified in the unknown salt?",
+            questionMy:
+                "အမည်မသိ ဆားတွင် ဖော်ထုတ်တွေ့ရှိခဲ့သော Ion ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Bromide", "Chloride", "Iodide", "Sulfate"],
+            optionsMy: ["Bromide", "Chloride", "Iodide", "Sulfate"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conclusion."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နိဂုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Qualitative Analysis",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Qualitative Analysis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A white precipitate with acidified silver nitrate indicates...",
+          questionMy:
+              "Acidified Silver Nitrate နှင့် အဖြူရောင် Precipitate သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "Chloride ions",
+            "Bromide ions",
+            "Iodide ions",
+            "Sulfate ions",
+          ],
+          optionsMy: [
+            "Chloride Ion",
+            "Bromide Ion",
+            "Iodide Ion",
+            "Sulfate Ion",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A gas that turns limewater cloudy indicates the presence of...",
+          questionMy:
+              "Limewater ကို ခြုံအေးစေသော Gas တစ်ခုသည် ...ရှိနေကြောင်း ညွှန်ပြသည်",
+          optionsEn: [
+            "Carbonate ions",
+            "Sulfate ions",
+            "Halide ions",
+            "Group 2 metal ions",
+          ],
+          optionsMy: [
+            "Carbonate Ion",
+            "Sulfate Ion",
+            "Halide Ion",
+            "Group 2 Metal Ion",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Testing methodically, one variable at a time, helps avoid...",
+          questionMy:
+              "Variable တစ်ခုချင်းစီဖြင့် Systematic Test လုပ်ခြင်းသည် ...ကို ရှောင်ရှားရန် ကူညီသည်",
+          optionsEn: [
+            "False positive results from interfering tests",
+            "Any need for a control experiment",
+            "The need to record any results at all",
+            "Using more than one test",
+          ],
+          optionsMy: [
+            "တစ်ခုနှင့်တစ်ခု စွက်ဖက်သော Test များမှ False Positive Result",
+            "Control Experiment လိုအပ်ချက် မည်သည့်တစ်ခုမျှ",
+            "ရလဒ် မည်သည့်တစ်ခုမျှ မှတ်တမ်းတင်ရန် လိုအပ်ချက်",
+            "Test တစ်ခုထက် ပို၍ အသုံးပြုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36: "Group 2/17 Capstone and AS Exam Prep"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek36 = CourseWeekDef(
+  id: "course-y12-chem-w36",
+  weekNumber: 36,
+  titleEn: "Group 2/17 Capstone and AS Exam Prep",
+  titleMy: "Group 2/17 အထွတ်အထိပ်နှင့် AS Exam Prep",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w36-d1",
+      dayNumber: 1,
+      titleEn: "Combining Group 2, Group 17 and Qualitative Analysis",
+      titleMy: "Group 2, Group 17 နှင့် Qualitative Analysis ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A Group 2 carbonate with high thermal stability most likely belongs to...",
+          questionMy:
+              "Thermal Stability မြင့်သော Group 2 Carbonate တစ်ခုသည် ...ဝင်ရောက်နိုင်ခြေ အများဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "A larger cation further down the group, such as barium",
+            "A smaller cation further up the group, such as magnesium",
+            "A Group 17 halogen",
+            "A transition metal",
+          ],
+          optionsMy: [
+            "Barium ကဲ့သို့ Group အောက်ပိုင်းရှိ ကြီးမားသော Cation",
+            "Magnesium ကဲ့သို့ Group အထက်ပိုင်းရှိ သေးငယ်သော Cation",
+            "Group 17 Halogen",
+            "Transition Metal",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Chlorine water turning a solution brown-black indicates the presence of...",
+          questionMy:
+              "Chlorine Water သည် Solution တစ်ခုကို အညို-အနက်ရောင် ပြောင်းလဲစေခြင်းသည် ...ရှိနေကြောင်း ညွှန်ပြသည်",
+          optionsEn: [
+            "Iodide ions",
+            "Chloride ions",
+            "Sulfate ions",
+            "Carbonate ions",
+          ],
+          optionsMy: [
+            "Iodide Ion",
+            "Chloride Ion",
+            "Sulfate Ion",
+            "Carbonate Ion",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cream precipitate with acidified silver nitrate indicates...",
+          questionMy:
+              "Acidified Silver Nitrate နှင့် Cream ရောင် Precipitate သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "Bromide ions",
+            "Chloride ions",
+            "Iodide ions",
+            "Sulfate ions",
+          ],
+          optionsMy: [
+            "Bromide Ion",
+            "Chloride Ion",
+            "Iodide Ion",
+            "Sulfate Ion",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 9 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၉ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w36-dm-1",
+          termEn: "Group 2 thermal stability of carbonates",
+          termMy: "Group 2 Carbonate Thermal Stability",
+          matchEn: "Increases down the group",
+          matchMy: "Group အောက်သို့ တိုးလာသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w36-dm-2",
+          termEn: "Group 17 oxidising power",
+          termMy: "Group 17 Oxidising Power",
+          matchEn: "Decreases down the group",
+          matchMy: "Group အောက်သို့ လျော့ကျသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w36-dm-3",
+          termEn: "Sulfate ion test",
+          termMy: "Sulfate Ion Test",
+          matchEn: "Dilute HCl then BaCl2 -> white precipitate",
+          matchMy: "Dilute HCl ထို့နောက် BaCl2 -> အဖြူရောင် Precipitate",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w36-dm-4",
+          termEn: "Halide ion test",
+          termMy: "Halide Ion Test",
+          matchEn: "Dilute HNO3 then AgNO3 -> white/cream/yellow precipitate",
+          matchMy:
+              "Dilute HNO3 ထို့နောက် AgNO3 -> အဖြူ/Cream/အဝါရောင် Precipitate",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w36-dm-5",
+          termEn: "Carbonate ion test",
+          termMy: "Carbonate Ion Test",
+          matchEn: "Dilute acid -> effervescence, CO2 turns limewater cloudy",
+          matchMy:
+              "Dilute Acid -> Effervescence, CO2 က Limewater ကို ခြုံအေးစေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Group 2 Chemistry or Group 17 Chemistry?",
+      titleMy: "စီစစ်ကြမည် - Group 2 Chemistry သို့မဟုတ် Group 17 Chemistry",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Group 2 Chemistry", "Group 17 Chemistry"],
+        bucketsMy: ["Group 2 Chemistry", "Group 17 Chemistry"],
+        items: [
+          SortingItem(
+            id: "y12chem-w36-sort-1",
+            labelEn: "Thermal decomposition of carbonates into oxides and CO2",
+            labelMy:
+                "Carbonate များ Oxide နှင့် CO2 အဖြစ် Thermal Decomposition ဖြစ်ခြင်း",
+            correctBucketEn: "Group 2 Chemistry",
+            correctBucketMy: "Group 2 Chemistry",
+          ),
+          SortingItem(
+            id: "y12chem-w36-sort-2",
+            labelEn: "Halogen displacement reactions",
+            labelMy: "Halogen Displacement Reaction များ",
+            correctBucketEn: "Group 17 Chemistry",
+            correctBucketMy: "Group 17 Chemistry",
+          ),
+          SortingItem(
+            id: "y12chem-w36-sort-3",
+            labelEn: "Solubility trends of hydroxides and sulfates",
+            labelMy: "Hydroxide နှင့် Sulfate များ၏ Solubility Trend",
+            correctBucketEn: "Group 2 Chemistry",
+            correctBucketMy: "Group 2 Chemistry",
+          ),
+          SortingItem(
+            id: "y12chem-w36-sort-4",
+            labelEn: "Disproportionation of chlorine in cold dilute NaOH",
+            labelMy: "အအေး Dilute NaOH ထဲရှိ Chlorine ၏ Disproportionation",
+            correctBucketEn: "Group 17 Chemistry",
+            correctBucketMy: "Group 17 Chemistry",
+          ),
+          SortingItem(
+            id: "y12chem-w36-sort-5",
+            labelEn:
+                "Reactivity with water increasing due to falling ionisation energy",
+            labelMy:
+                "Ionisation Energy ကျဆင်းမှုကြောင့် ရေနှင့် Reactivity တိုးလာခြင်း",
+            correctBucketEn: "Group 2 Chemistry",
+            correctBucketMy: "Group 2 Chemistry",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Identifying an Unknown Group 2 Carbonate",
+      titleMy: "စာဖတ်ခြင်း - အမည်မသိ Group 2 Carbonate ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Identifying an Unknown Group 2 Carbonate",
+        titleMy: "အမည်မသိ Group 2 Carbonate ဖော်ထုတ်ခြင်း",
+        passageEn:
+            "For their Term 9 capstone -- and the final investigation of the whole AS Chemistry course -- Sayama Ei Ei Mon's class identified an unknown white solid, MCO3, known only to be a Group 2 metal carbonate, using two independent pieces of evidence.\n\nNandar Aye began with a thermal decomposition test: the unknown carbonate decomposed at a moderate temperature, clearly hotter than magnesium carbonate's roughly 350°C, but nowhere near barium carbonate's roughly 1300°C -- placing the unidentified metal somewhere in the middle of Group 2, most likely calcium or strontium.\n\nTo narrow it down further, Nandar Aye ran a second, independent test: she dissolved a sample of the metal's chloride salt in water and added dilute sulfuric acid, watching closely for a precipitate. A faint, slowly-forming white precipitate appeared -- not the complete absence of precipitate that magnesium sulfate's high solubility would give, and not the fast, dense white precipitate that barium sulfate's near-total insolubility would produce, but something distinctly in between. This intermediate, borderline solubility is the signature of calcium sulfate specifically, which is only sparingly soluble -- exactly the kind of result that lets a student distinguish calcium from its Group 2 neighbours using solubility trends alone.\n\nCombining both pieces of evidence -- a decomposition temperature consistent with a mid-group cation, and a sulfate solubility test giving the specific slow, faint precipitate unique to calcium -- Nandar Aye concluded the unknown compound was calcium carbonate, CaCO3. Sayama Ei Ei Mon closed the capstone, and the course, by asking the class to name everything this final investigation had drawn on: ionic polarisation and thermal stability trends (Week 33), solubility trends down a group (also Week 33), and the qualitative-test mindset of ruling out possibilities one piece of independent evidence at a time (Week 35) -- the same systematic thinking, she pointed out, that runs through every single topic from Term 1's mystery element all the way to this final carbonate, nine terms and thirty-six weeks later.",
+        passageMy:
+            "သူတို့၏ Term 9 အထွတ်အထိပ် -- ထို့ပြင် AS Chemistry Course တစ်ခုလုံး၏ နောက်ဆုံး စုံစမ်းစစ်ဆေးမှု -- အတွက် Sayama ဧဧမွန် ၏ အတန်းသည် Group 2 Metal Carbonate တစ်ခုသာ ဖြစ်ကြောင်း သိရှိထားသော အမည်မသိ အဖြူရောင် Solid, MCO3 ကို သီးခြား သက်သေခံချက် နှစ်ခု အသုံးပြု၍ ဖော်ထုတ်ခဲ့ကြသည်။\n\nNandar Aye သည် Thermal Decomposition Test ဖြင့် စတင်ခဲ့သည် - အမည်မသိ Carbonate သည် Magnesium Carbonate ၏ ခန့်မှန်းခြေ 350°C ထက် ရှင်းရှင်းလင်းလင်း ပိုပူသော်လည်း Barium Carbonate ၏ ခန့်မှန်းခြေ 1300°C နှင့် လုံးဝ မနီးကပ်သော Temperature ခန့်တွင် Decompose ဖြစ်ခဲ့သည် -- ဖော်ထုတ်မထားသေးသော Metal ကို Group 2 ၏ အလယ်ပိုင်း တစ်နေရာနေရာတွင် ချထားသည်၊ Calcium (သို့) Strontium ဖြစ်နိုင်ခြေ အများဆုံး။\n\nပို၍ ကျဉ်းမြောင်းစေရန် Nandar Aye သည် ဒုတိယ Independent Test တစ်ခု လုပ်ဆောင်ခဲ့သည် - Metal ၏ Chloride Salt Sample တစ်ခုကို ရေထဲတွင် ပျော်ဝင်စေပြီး Dilute Sulfuric Acid ထည့်ကာ Precipitate တစ်ခုကို ဂရုတစိုက် ကြည့်ရှုခဲ့သည်။ ချောနီးနီး၊ ဖြေးဖြေးသာ ဖြစ်ပေါ်လာသော အဖြူရောင် Precipitate ပေါ်လာခဲ့သည် -- Magnesium Sulfate ၏ Solubility မြင့်ခြင်းက ပေးမည့် Precipitate လုံးဝ မရှိခြင်း မဟုတ်ဘဲ Barium Sulfate ၏ Insolubility နီးပါးက ထုတ်လုပ်မည့် မြန်ဆန်၍ Dense အဖြူရောင် Precipitate လည်း မဟုတ်ဘဲ ၎င်းနှစ်ခုကြား ထင်ရှားစွာ ရှိနေသော တစ်ခုခု ဖြစ်သည်။ ဤ Intermediate, Borderline Solubility သည် Calcium Sulfate တစ်ခုတည်း၏ Signature ဖြစ်ပြီး Sparingly Soluble သာ ရှိသည် -- Solubility Trend တစ်ခုတည်းကို အသုံးပြု၍ Calcium ကို ၎င်း၏ Group 2 အိမ်နီးချင်းများမှ ကျောင်းသားတစ်ဦး ခွဲခြားနိုင်စေသော ရလဒ် အမျိုးအစား တိတိကျကျ ဖြစ်သည်။\n\nသက်သေခံချက် နှစ်ခုစလုံးကို ပေါင်းစည်းခြင်း -- Group အလယ်ပိုင်းရှိ Cation နှင့် ကိုက်ညီသော Decomposition Temperature နှင့် Calcium တစ်ခုတည်း၏ ဖြေးဖြေးသာ၊ ချောနီးနီး Precipitate ကို ပေးသော Sulfate Solubility Test -- Nandar Aye သည် အမည်မသိ Compound သည် Calcium Carbonate, CaCO3 ဖြစ်ကြောင်း ကောက်ချက်ချခဲ့သည်။ ဤ နောက်ဆုံး စုံစမ်းစစ်ဆေးမှုသည် မည်သည့်အရာအားလုံးကို အသုံးချခဲ့သည်ကို အမည်တပ်ခိုင်းလျက် Sayama ဧဧမွန် သည် အထွတ်အထိပ် -- ထို့ပြင် Course ကိုပါ -- ပိတ်ခဲ့သည် - Ionic Polarisation နှင့် Thermal Stability Trend (သုံးဆယ့်သုံးပတ်)၊ Group အောက်သို့ Solubility Trend (သုံးဆယ့်သုံးပတ်လည်း)၊ Independent သက်သေခံချက် တစ်ခုချင်းစီဖြင့် ဖြစ်နိုင်ခြေများကို ဖယ်ရှားသော Qualitative-Test Mindset (သုံးဆယ့်ငါးပတ်) -- Term 1 ၏ Mystery Element မှ ဤ နောက်ဆုံး Carbonate အထိ Term ၉ ခု၊ ရက်သတ္တပတ် သုံးဆယ့်ခြောက် ပတ်အကြာတွင် ရှုပ်ထွေးသော Systematic Thinking တူညီပင် Topic တိုင်းကို ဖြတ်သန်းကြောင်း သူမ ထောက်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did the decomposition temperature suggest about the unknown metal?",
+            questionMy:
+                "Decomposition Temperature သည် အမည်မသိ Metal အကြောင်း ဘာညွှန်ပြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is somewhere in the middle of Group 2, likely calcium or strontium",
+              "It is magnesium specifically",
+              "It is barium specifically",
+              "It is not a Group 2 element at all",
+            ],
+            optionsMy: [
+              "Group 2 ၏ အလယ်ပိုင်း တစ်နေရာနေရာတွင် ရှိသည်၊ Calcium (သို့) Strontium ဖြစ်နိုင်ခြေရှိသည်",
+              "Magnesium အတိအကျ ဖြစ်သည်",
+              "Barium အတိအကျ ဖြစ်သည်",
+              "Group 2 Element လုံးဝ မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did the sulfate solubility test show?",
+            questionMy:
+                "Sulfate Solubility Test ၏ ပြသချက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A faint, slowly-forming precipitate, consistent with calcium sulfate",
+              "No precipitate at all, consistent with magnesium sulfate",
+              "A fast, dense precipitate, consistent with barium sulfate",
+              "A blue precipitate, consistent with copper sulfate",
+            ],
+            optionsMy: [
+              "Calcium Sulfate နှင့် ကိုက်ညီသော ချောနီးနီး၊ ဖြေးဖြေးသာ ဖြစ်ပေါ်သော Precipitate",
+              "Magnesium Sulfate နှင့် ကိုက်ညီသော Precipitate လုံးဝ မရှိခြင်း",
+              "Barium Sulfate နှင့် ကိုက်ညီသော မြန်ဆန်၍ Dense Precipitate",
+              "Copper Sulfate နှင့် ကိုက်ညီသော အပြာရောင် Precipitate",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the unknown compound finally identified as?",
+            questionMy:
+                "အမည်မသိ Compound ကို နောက်ဆုံးတွင် မည်သို့ ဖော်ထုတ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Calcium carbonate, CaCO3",
+              "Magnesium carbonate, MgCO3",
+              "Barium carbonate, BaCO3",
+              "Strontium sulfate, SrSO4",
+            ],
+            optionsMy: [
+              "Calcium Carbonate, CaCO3",
+              "Magnesium Carbonate, MgCO3",
+              "Barium Carbonate, BaCO3",
+              "Strontium Sulfate, SrSO4",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's conclusion."],
+            hintsMy: ["စတုတ္ထစာပိုဒ်၏ ကောက်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w36-d5",
+      dayNumber: 5,
+      titleEn: "AS Chemistry Final Review: Terms 1-9",
+      titleMy: "AS ဓာတုဗေဒ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Relative atomic mass is calculated as...",
+          questionMy: "Relative Atomic Mass ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "A weighted average of isotope masses by abundance",
+            "The mass of the lightest isotope only",
+            "The sum of every isotope's mass number",
+            "The atomic number alone",
+          ],
+          optionsMy: [
+            "Isotope Mass များ၏ Abundance ဖြင့် Weighted Average",
+            "အပေါ့ဆုံး Isotope ၏ Mass တစ်ခုတည်း",
+            "Isotope တိုင်း၏ Mass Number ပေါင်းလဒ်",
+            "Atomic Number တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "VSEPR theory predicts molecular shape by minimising...",
+          questionMy:
+              "VSEPR Theory သည် ...လျော့ချခြင်းဖြင့် Molecular Shape ကို ခန့်မှန်းသည်",
+          optionsEn: [
+            "Repulsion between electron pairs",
+            "The molecule's total mass",
+            "The number of covalent bonds only",
+            "The colour of the compound",
+          ],
+          optionsMy: [
+            "Electron Pair များကြား Repulsion",
+            "Molecule ၏ Total Mass",
+            "Covalent Bond အရေအတွက် တစ်ခုတည်း",
+            "Compound ၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hess's Law allows chemists to find enthalpy changes that...",
+          questionMy:
+              "Hess's Law က Chemist များ ...Enthalpy Change များ ရှာဖွေနိုင်စေသည်",
+          optionsEn: [
+            "Cannot be measured directly by a calorimeter",
+            "Are always exactly zero",
+            "Only apply to gases",
+            "Never involve any reaction at all",
+          ],
+          optionsMy: [
+            "Calorimeter တစ်ခုဖြင့် တိုက်ရိုက် တိုင်းတာ၍ မရသော",
+            "အမြဲ Zero အတိအကျ ဖြစ်သော",
+            "Gas များအတွက်သာ သက်ဆိုင်သော",
+            "Reaction မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်သော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Across the whole AS Chemistry course, quantities like moles, enthalpy, Kc and rate are all...",
+          questionMy:
+              "AS Chemistry Course တစ်ခုလုံးတလျှောက် Mole, Enthalpy, Kc နှင့် Rate ကဲ့သို့ ပမာဏများသည် အားလုံး...",
+          optionsEn: [
+            "Measurable quantities linked by consistent formulas and reasoning",
+            "Random numbers with no formulas behind them",
+            "Only relevant to one single topic each",
+            "Impossible to measure in a school lab",
+          ],
+          optionsMy: [
+            "တသမတ်တည်း Formula များနှင့် ဆင်ခြင်တွေးခေါ်မှုဖြင့် ဆက်စပ်ထားသော တိုင်းတာနိုင်သော ပမာဏများ",
+            "နောက်ကွယ်တွင် Formula မရှိသော ကျပန်း ဂဏန်းများ",
+            "ခေါင်းစဉ် တစ်ခုစီအတွက်သာ သက်ဆိုင်သည်",
+            "ကျောင်း Lab တွင် တိုင်းတာ၍ လုံးဝ မရပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm9 = CourseTermDef(
+  id: "course-y12-chem-term9",
+  termNumber: 9,
+  titleEn: "The Periodic Table (Group 2 and Group 17) and AS Exam Prep",
+  titleMy: "The Periodic Table (Group 2 and Group 17) နှင့် AS Exam Prep",
+  weeks: [_y12ChemWeek33, _y12ChemWeek34, _y12ChemWeek35, _y12ChemWeek36],
+  certificateTitleEn:
+      "AS Chemistry: The Periodic Table (Group 2 and Group 17) and AS Exam Prep",
+  certificateTitleMy:
+      "AS ဓာတုဗေဒ - The Periodic Table (Group 2 and Group 17) နှင့် AS Exam Prep",
+);
+
+/// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- complete, all 9
+/// terms authored (36 weeks / 180 daily lessons): Atomic Structure;
+/// Atoms, Molecules and Stoichiometry; Chemical Bonding; States of
+/// Matter; Chemical Energetics; Electrochemistry; Equilibria; Reaction
+/// Kinetics; and The Periodic Table (Group 2 and Group 17) and AS Exam
+/// Prep. No LaTeX renderer exists in this app -- formulas throughout
+/// use the same plain Unicode math notation (², √, x for
+/// multiplication) already established by the IGCSE pathways, not
+/// literal LaTeX markup.
 const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
   id: "course-year12-chemistry",
   subject: "chemistry",
@@ -23983,7 +25340,7 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 32,
+  totalWeeks: 36,
   terms: [
     year12ChemistryTerm1,
     year12ChemistryTerm2,
@@ -23993,5 +25350,6 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
     year12ChemistryTerm6,
     year12ChemistryTerm7,
     year12ChemistryTerm8,
+    year12ChemistryTerm9,
   ],
 );
