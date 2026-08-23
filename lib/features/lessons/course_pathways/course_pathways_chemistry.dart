@@ -22588,14 +22588,1391 @@ const CourseTermDef year12ChemistryTerm7 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Equilibria",
 );
 
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 8: "Reaction Kinetics"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Collision Theory and Rate of Reaction"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek29 = CourseWeekDef(
+  id: "course-y12-chem-w29",
+  weekNumber: 29,
+  titleEn: "Collision Theory and Rate of Reaction",
+  titleMy: "Collision Theory and Rate of Reaction",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w29-d1",
+      dayNumber: 1,
+      titleEn: "Collision Theory",
+      titleMy: "Collision Theory",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "According to collision theory, a reaction only occurs when colliding particles...",
+          questionMy:
+              "Collision Theory အရ Reaction တစ်ခု ဖြစ်ပေါ်ချိန်မှာ Collide ဖြစ်နေသော Particle များသည်...",
+          optionsEn: [
+            "Have energy greater than or equal to the activation energy, and the correct orientation",
+            "Simply touch each other, regardless of energy",
+            "Have zero energy and no orientation at all",
+            "Always move in exactly the same direction",
+          ],
+          optionsMy: [
+            "Activation Energy ထက် ကြီး (သို့) ညီမျှသော Energy နှင့် မှန်ကန်သော Orientation ရှိသည်",
+            "Energy မည်သို့ပင်ရှိစေ ရိုးရိုး တစ်ခုနှင့်တစ်ခု ထိတွေ့သည်",
+            "Energy Zero နှင့် Orientation လုံးဝ မရှိပါ",
+            "ဦးတည်ရာ တူညီစွာ အမြဲ ရွေ့လျားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The activation energy of a reaction is...",
+          questionMy: "Reaction တစ်ခု၏ Activation Energy သည်...",
+          optionsEn: [
+            "The minimum energy required for a collision to result in a reaction",
+            "The total energy released by the reaction",
+            "Always exactly zero",
+            "The energy needed to cool the reactants",
+          ],
+          optionsMy: [
+            "Collision တစ်ခု Reaction တစ်ခု ဖြစ်ပေါ်ရန် လိုအပ်သော အနည်းဆုံး Energy",
+            "Reaction က ထုတ်လွှတ်သော Total Energy",
+            "အမြဲ Zero အတိအကျ",
+            "Reactant များကို အေးစေရန် လိုအပ်သော Energy",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing the concentration of a reactant increases the rate of reaction because...",
+          questionMy:
+              "Reactant တစ်ခု၏ Concentration တိုးမြှင့်ခြင်းက Reaction Rate ကို တိုးမြှင့်စေရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "There are more particles per unit volume, so collision frequency increases",
+            "The activation energy decreases automatically",
+            "Particles move more slowly",
+            "The reaction becomes irreversible",
+          ],
+          optionsMy: [
+            "Unit Volume လျှင် Particle ပိုများသောကြောင့် Collision Frequency တိုးလာသည်",
+            "Activation Energy သည် အလိုအလျောက် လျော့ကျသည်",
+            "Particle များ ပို၍ ဖြေးဖြေးသာ ရွေ့လျားသည်",
+            "Reaction သည် Irreversible ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Collision Theory Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Collision Theory ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w29-dm-1",
+          termEn: "Collision theory",
+          termMy: "Collision Theory",
+          matchEn:
+              "Reactions occur when particles collide with energy ≥ activation energy and correct orientation",
+          matchMy:
+              "Particle များသည် Activation Energy ≥ ရှိသော Energy နှင့် မှန်ကန်သော Orientation ဖြင့် Collide ဖြစ်ချိန် Reaction များ ဖြစ်ပေါ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w29-dm-2",
+          termEn: "Activation energy (Ea)",
+          termMy: "Activation Energy (Ea)",
+          matchEn:
+              "The minimum energy required for a collision to result in a reaction",
+          matchMy:
+              "Collision တစ်ခု Reaction တစ်ခု ဖြစ်ပေါ်ရန် လိုအပ်သော အနည်းဆုံး Energy",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w29-dm-3",
+          termEn: "Rate of reaction",
+          termMy: "Rate of Reaction",
+          matchEn:
+              "The change in concentration of a reactant or product per unit time",
+          matchMy:
+              "Unit Time လျှင် Reactant (သို့) Product ၏ Concentration ပြောင်းလဲမှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w29-dm-4",
+          termEn: "Effective collision",
+          termMy: "Effective Collision",
+          matchEn:
+              "A collision that results in a reaction, having sufficient energy and correct orientation",
+          matchMy:
+              "Energy လုံလောက်ပြီး မှန်ကန်သော Orientation ရှိသော Reaction တစ်ခု ဖြစ်ပေါ်စေသော Collision",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w29-dm-5",
+          termEn: "Collision frequency",
+          termMy: "Collision Frequency",
+          matchEn: "The number of collisions between particles per unit time",
+          matchMy: "Unit Time လျှင် Particle များကြား Collision အရေအတွက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases Rate of Reaction?",
+      titleMy: "စီစစ်ကြမည် - Rate of Reaction ကို တိုးစေလား၊ လျော့ချစေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Rate of Reaction", "Decreases Rate of Reaction"],
+        bucketsMy: [
+          "Rate of Reaction ကို တိုးစေသည်",
+          "Rate of Reaction ကို လျော့ချသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w29-sort-1",
+            labelEn: "Increasing the concentration of a reactant",
+            labelMy: "Reactant တစ်ခု၏ Concentration တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Rate of Reaction",
+            correctBucketMy: "Rate of Reaction ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w29-sort-2",
+            labelEn: "Decreasing the temperature",
+            labelMy: "Temperature လျှော့ချခြင်း",
+            correctBucketEn: "Decreases Rate of Reaction",
+            correctBucketMy: "Rate of Reaction ကို လျော့ချသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w29-sort-3",
+            labelEn: "Increasing the surface area of a solid reactant",
+            labelMy: "Solid Reactant တစ်ခု၏ Surface Area တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Rate of Reaction",
+            correctBucketMy: "Rate of Reaction ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w29-sort-4",
+            labelEn: "Adding a suitable catalyst",
+            labelMy: "သင့်တော်သော Catalyst ထည့်ခြင်း",
+            correctBucketEn: "Increases Rate of Reaction",
+            correctBucketMy: "Rate of Reaction ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w29-sort-5",
+            labelEn: "Decreasing the pressure of a gaseous reactant",
+            labelMy: "ဓာတ်ငွေ့ Reactant တစ်ခု၏ Pressure လျှော့ချခြင်း",
+            correctBucketEn: "Decreases Rate of Reaction",
+            correctBucketMy: "Rate of Reaction ကို လျော့ချသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Crushed Marble Reacts Faster than Lumps",
+      titleMy:
+          "စာဖတ်ခြင်း - ကြေမွသွားသော Marble သည် Lump များထက် ပိုမြန်စွာ တုံ့ပြန်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Crushed Marble Reacts Faster than Lumps",
+        titleMy:
+            "ကြေမွသွားသော Marble သည် Lump များထက် ပိုမြန်စွာ တုံ့ပြန်ရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Wai Yan Naing's class reacted the same mass of marble chips (calcium carbonate) with dilute hydrochloric acid twice: once as large lumps, once crushed into fine powder. The powder reacted dramatically faster, producing carbon dioxide gas at a much higher rate, even though the total mass of marble and the concentration of acid were identical in both cases.\n\nKaung Myat Soe explained the mechanism: crushing the marble into powder doesn't change the total amount of calcium carbonate present, but it enormously increases the total surface area exposed to the acid. Acid particles can only react with calcium carbonate particles they actually collide with at an exposed surface -- in a large lump, most of the calcium carbonate is buried inside, shielded from the acid entirely, while in a fine powder, nearly every particle sits at an exposed surface, available to collide with acid particles right away.\n\nSayar Wai Yan Naing then asked Kaung Myat Soe to compare this with the effect of raising temperature, which also speeds up reactions. Kaung Myat Soe reasoned through the distinction: crushing the marble doesn't change the energy of any individual acid particle, or the activation energy of the reaction, or the fraction of collisions that succeed once they happen -- it purely increases how many collisions occur per second, by exposing more reacting surface. Raising temperature works completely differently: it doesn't expose any new surface at all, but instead increases the fraction of collisions that have enough energy to succeed. Two entirely different mechanisms -- one about how often particles meet, the other about how often those meetings succeed -- can both increase the same measured rate of reaction.",
+        passageMy:
+            "Sayar ဝေယံနိုင် ၏ အတန်းသည် Marble Chip (Calcium Carbonate) Mass တူညီကို Dilute Hydrochloric Acid နှင့် နှစ်ကြိမ် တုံ့ပြန်စေခဲ့သည် - တစ်ကြိမ်တွင် ကြီးမားသော Lump များအဖြစ်၊ ဒုတိယကြိမ်တွင် ကြေမွသွားသော Powder အဖြစ်။ Marble ၏ Total Mass နှင့် Acid ၏ Concentration နှစ်ကြိမ်စလုံးတွင် တူညီသော်လည်း Powder သည် Carbon Dioxide ဓာတ်ငွေ့ကို Rate ပို၍ မြင့်စွာ ထုတ်လွှတ်ကာ သိသိသာသာ ပို၍ မြန်ဆန်စွာ တုံ့ပြန်ခဲ့သည်။\n\nMarble ကို Powder သို့ ကြေမွစေခြင်းသည် ရှိနေသော Calcium Carbonate Total Amount ကို မပြောင်းလဲစေသော်လည်း Acid ထံ ဖော်ထုတ်ထားသော Total Surface Area ကို အလွန်အမင်း တိုးမြှင့်စေကြောင်း Kaung Myat Soe ရှင်းပြခဲ့သည် - Acid Particle များသည် Exposed Surface တစ်ခုတွင် ၎င်းတို့ တကယ် Collide ဖြစ်သော Calcium Carbonate Particle များနှင့်သာ တုံ့ပြန်နိုင်သည် -- ကြီးမားသော Lump တစ်ခုတွင် Calcium Carbonate အများစုသည် အတွင်းတွင် ဖုံးအုပ်နေပြီး Acid မှ လုံးဝ ကာကွယ်ခံနေရသော်လည်း ကြေမွသွားသော Powder တွင် Particle နီးပါးတိုင်းသည် Exposed Surface တွင် ရှိနေကာ Acid Particle များနှင့် ချက်ချင်း Collide ဖြစ်ရန် ရရှိနိုင်ပါသည်။\n\nReaction ကိုလည်း မြန်ဆန်စေသော Temperature တိုးမြှင့်ခြင်း၏ Effect နှင့် ဤအချက်ကို နှိုင်းယှဉ်ရန် Kaung Myat Soe ကို Sayar ဝေယံနိုင် ထို့နောက် ခိုင်းစေခဲ့သည်။ Kaung Myat Soe သည် ကွာခြားချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Marble ကို ကြေမွစေခြင်းသည် Acid Particle Individual မည်သည့်တစ်ခု၏ Energy၊ Reaction ၏ Activation Energy (သို့) ၎င်းတို့ ဖြစ်ပေါ်ချိန် အောင်မြင်သော Collision Fraction ကို လုံးဝ မပြောင်းလဲစေပါ -- ၎င်းသည် Reacting Surface ပို၍ ဖော်ထုတ်ခြင်းဖြင့် Second တစ်ခုလျှင် ဖြစ်ပေါ်သော Collision မည်မျှများသည်ကိုသာ တိုးမြှင့်စေသည်။ Temperature တိုးမြှင့်ခြင်းသည် လုံးဝ ကွဲပြားစွာ အလုပ်လုပ်သည် - ၎င်းသည် Surface အသစ် မည်သည့်တစ်ခုမျှ လုံးဝ ဖော်ထုတ်ခြင်း မရှိသော်လည်း အောင်မြင်ရန် Energy လုံလောက်သော Collision Fraction ကို ယင်းအစား တိုးမြှင့်ပေးသည်။ လုံးဝ ကွဲပြားသော Mechanism နှစ်ခု -- တစ်ခုသည် Particle များ မည်မျှ ခဏခဏ တွေ့ဆုံသည်၊ အခြားတစ်ခုသည် ထို တွေ့ဆုံမှုများ မည်မျှ ခဏခဏ အောင်မြင်သည် -- နှစ်ခုစလုံးသည် Reaction Rate တိုင်းတာချက် တူညီကို တိုးမြှင့်နိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does powdered marble react faster than lumps of the same mass?",
+            questionMy:
+                "Mass တူညီရှိ Lump များထက် Powder ပြုလုပ်ထားသော Marble ပို၍ မြန်ဆန်စွာ တုံ့ပြန်ရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It exposes much more surface area to the acid",
+              "It has a lower activation energy",
+              "It contains more calcium carbonate",
+              "It reacts at a lower temperature",
+            ],
+            optionsMy: [
+              "Acid ထံ Surface Area များစွာ ပို၍ ဖော်ထုတ်ထားသောကြောင့်",
+              "Activation Energy ပို၍ နိမ့်သောကြောင့်",
+              "Calcium Carbonate ပို၍ ပါဝင်သောကြောင့်",
+              "Temperature ပို၍ နိမ့်စွာ တုံ့ပြန်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, does crushing the marble change the activation energy of the reaction?",
+            questionMy:
+                "Marble ကို ကြေမွစေခြင်းသည် Reaction ၏ Activation Energy ကို ပြောင်းလဲစေမလားဆိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No, it only increases collision frequency",
+              "Yes, it lowers the activation energy",
+              "Yes, it raises the activation energy",
+              "It removes the activation energy completely",
+            ],
+            optionsMy: [
+              "မဟုတ်ပါ၊ Collision Frequency ကိုသာ တိုးမြှင့်သည်",
+              "ဟုတ်ပါသည်၊ Activation Energy ကို လျှော့ချသည်",
+              "ဟုတ်ပါသည်၊ Activation Energy ကို တိုးမြှင့်သည်",
+              "Activation Energy ကို လုံးဝ ဖယ်ရှားလိုက်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how does raising temperature differ from crushing a solid?",
+            questionMy:
+                "Temperature တိုးမြှင့်ခြင်းသည် Solid တစ်ခုကို ကြေမွစေခြင်းနှင့် မည်သို့ ကွဲပြားသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It increases the fraction of successful collisions rather than exposing new surface",
+              "It exposes more surface area, exactly like crushing",
+              "It has no effect on reaction rate at all",
+              "It always slows the reaction down",
+            ],
+            optionsMy: [
+              "Surface အသစ် ဖော်ထုတ်မည့်အစား Successful Collision Fraction ကို တိုးမြှင့်သည်",
+              "Surface Area ပို၍ ဖော်ထုတ်သည်၊ ကြေမွစေခြင်းနှင့် အတိအကျ တူညီသည်",
+              "Reaction Rate ပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+              "Reaction ကို အမြဲ နှေးကွေးစေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's contrast."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ကွာခြားချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Collision Theory",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Collision Theory",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An effective collision requires energy that is...",
+          questionMy: "Effective Collision တစ်ခုအတွက် လိုအပ်သော Energy သည်...",
+          optionsEn: [
+            "Greater than or equal to the activation energy",
+            "Always exactly zero",
+            "Less than the activation energy",
+            "Unrelated to activation energy",
+          ],
+          optionsMy: [
+            "Activation Energy ထက် ကြီး (သို့) ညီမျှသည်",
+            "အမြဲ Zero အတိအကျ",
+            "Activation Energy ထက် နည်းသည်",
+            "Activation Energy နှင့် မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing surface area increases rate of reaction by...",
+          questionMy:
+              "Surface Area တိုးမြှင့်ခြင်းက Rate of Reaction ကို ...ဖြင့် တိုးမြှင့်သည်",
+          optionsEn: [
+            "Increasing collision frequency",
+            "Lowering the activation energy",
+            "Increasing particle energy",
+            "Decreasing concentration",
+          ],
+          optionsMy: [
+            "Collision Frequency တိုးမြှင့်ခြင်း",
+            "Activation Energy လျှော့ချခြင်း",
+            "Particle Energy တိုးမြှင့်ခြင်း",
+            "Concentration လျှော့ချခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Rate of reaction can be measured as...",
+          questionMy: "Rate of Reaction ကို ...အဖြစ် တိုင်းတာနိုင်သည်",
+          optionsEn: [
+            "Change in concentration per unit time",
+            "The total mass of reactants only",
+            "The colour of the solution only",
+            "The container's volume",
+          ],
+          optionsMy: [
+            "Unit Time လျှင် Concentration ပြောင်းလဲမှု",
+            "Reactant Total Mass တစ်ခုတည်း",
+            "Solution ၏ အရောင် တစ်ခုတည်း",
+            "Container ၏ Volume",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "The Maxwell-Boltzmann Distribution and Temperature"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek30 = CourseWeekDef(
+  id: "course-y12-chem-w30",
+  weekNumber: 30,
+  titleEn: "The Maxwell-Boltzmann Distribution and Temperature",
+  titleMy: "The Maxwell-Boltzmann Distribution and Temperature",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w30-d1",
+      dayNumber: 1,
+      titleEn: "The Maxwell-Boltzmann Distribution",
+      titleMy: "The Maxwell-Boltzmann Distribution",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Maxwell-Boltzmann distribution shows...",
+          questionMy: "Maxwell-Boltzmann Distribution သည် ...ကို ပြသည်",
+          optionsEn: [
+            "The distribution of kinetic energies among particles in a gas at a given temperature",
+            "The exact position of every particle in a container",
+            "The colour of a gas at different temperatures",
+            "The mass of a single gas particle",
+          ],
+          optionsMy: [
+            "Temperature အထူးတစ်ခုရှိ ဓာတ်ငွေ့ ထဲရှိ Particle များကြား Kinetic Energy ဖြန့်ဝေမှု",
+            "Container တစ်ခုထဲရှိ Particle တိုင်း၏ Position အတိအကျ",
+            "Temperature မတူညီများတွင် ဓာတ်ငွေ့ တစ်ခု၏ အရောင်",
+            "Gas Particle တစ်ခုတည်း၏ Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing temperature shifts the Maxwell-Boltzmann distribution...",
+          questionMy:
+              "Temperature တိုးမြှင့်ခြင်းက Maxwell-Boltzmann Distribution ကို...",
+          optionsEn: [
+            "To the right and flattens it, increasing the fraction of particles with energy ≥ Ea",
+            "To the left and makes it taller, decreasing the fraction beyond Ea",
+            "Has no effect on the distribution shape at all",
+            "Removes the distribution entirely",
+          ],
+          optionsMy: [
+            "ညာဘက်သို့ ရွှေ့လျား၍ ပိန်စေကာ Energy ≥ Ea ရှိသော Particle Fraction ကို တိုးမြှင့်စေသည်",
+            "ဘယ်ဘက်သို့ ရွှေ့လျား၍ ကနိမ့်ပို၍ မြင့်စေကာ Ea ကျော်လွန်သော Fraction ကို လျော့ချသည်",
+            "Distribution ပုံသဏ္ဌာန်ပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+            "Distribution ကို လုံးဝ ဖယ်ရှားလိုက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A small increase in temperature causes a disproportionately large increase in reaction rate because...",
+          questionMy:
+              "Temperature အနည်းငယ် တိုးလာခြင်းက Reaction Rate ကို Disproportionately ကြီးမားစွာ တိုးစေရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "The fraction of particles with energy ≥ Ea, on the high-energy tail, increases disproportionately",
+            "All particles suddenly move at exactly the same speed",
+            "The activation energy decreases automatically with temperature",
+            "Concentration increases automatically with temperature",
+          ],
+          optionsMy: [
+            "High-Energy Tail ပေါ်ရှိ Energy ≥ Ea Particle Fraction သည် Disproportionately တိုးလာသောကြောင့်",
+            "Particle အားလုံး ရုတ်တရက် Speed အတိအကျ တူညီစွာ ရွေ့လျားလာသောကြောင့်",
+            "Activation Energy သည် Temperature နှင့်အတူ အလိုအလျောက် လျော့ကျသောကြောင့်",
+            "Concentration သည် Temperature နှင့်အတူ အလိုအလျောက် တိုးလာသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Boltzmann Distribution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Boltzmann Distribution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w30-dm-1",
+          termEn: "Maxwell-Boltzmann distribution",
+          termMy: "Maxwell-Boltzmann Distribution",
+          matchEn:
+              "A graph showing the distribution of kinetic energies among gas particles at a given temperature",
+          matchMy:
+              "Temperature အထူးတစ်ခုရှိ Gas Particle များကြား Kinetic Energy ဖြန့်ဝေမှုကို ပြသော Graph",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w30-dm-2",
+          termEn: "Effect of increasing temperature on the distribution",
+          termMy: "Distribution ပေါ် Temperature တိုးမြှင့်ခြင်း၏ Effect",
+          matchEn:
+              "Shifts the peak to higher energy and flattens the curve, increasing the area beyond Ea",
+          matchMy:
+              "Peak ကို Energy မြင့်ရာသို့ ရွှေ့လျား၍ Curve ကို ပိန်စေကာ Ea ကျော်လွန်သော Area ကို တိုးမြှင့်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w30-dm-3",
+          termEn: "Mean kinetic energy",
+          termMy: "Mean Kinetic Energy",
+          matchEn: "Increases directly with absolute temperature",
+          matchMy: "Absolute Temperature နှင့်အတူ တိုက်ရိုက် တိုးလာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w30-dm-4",
+          termEn: "Area under the curve beyond Ea",
+          termMy: "Ea ကျော်လွန်ရှိ Curve အောက်ရှိ Area",
+          matchEn:
+              "Represents the fraction of particles with enough energy to react on collision",
+          matchMy:
+              "Collide ဖြစ်ချိန် တုံ့ပြန်ရန် Energy လုံလောက်သော Particle Fraction ကို ကိုယ်စားပြုသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w30-dm-5",
+          termEn: "Total area under the curve",
+          termMy: "Curve အောက်ရှိ Total Area",
+          matchEn:
+              "Represents the total number of particles, and stays constant regardless of temperature",
+          matchMy:
+              "Particle Total အရေအတွက်ကို ကိုယ်စားပြုပြီး Temperature မည်သို့ပင်ရှိစေ တည်ငြိမ်ဆဲ ရှိနေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False about the Boltzmann Distribution?",
+      titleMy: "စီစစ်ကြမည် - Boltzmann Distribution အကြောင်း မှန်လား၊ မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "True about the Boltzmann Distribution",
+          "False about the Boltzmann Distribution",
+        ],
+        bucketsMy: [
+          "Boltzmann Distribution အကြောင်း မှန်သည်",
+          "Boltzmann Distribution အကြောင်း မှားသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w30-sort-1",
+            labelEn: "No particles have exactly zero energy",
+            labelMy: "Particle မည်သည့်တစ်ခုမျှ Energy Zero အတိအကျ မရှိပါ",
+            correctBucketEn: "True about the Boltzmann Distribution",
+            correctBucketMy: "Boltzmann Distribution အကြောင်း မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w30-sort-2",
+            labelEn: "The curve starts at the origin",
+            labelMy: "Curve သည် Origin တွင် စတင်သည်",
+            correctBucketEn: "True about the Boltzmann Distribution",
+            correctBucketMy: "Boltzmann Distribution အကြောင်း မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w30-sort-3",
+            labelEn: "The total area under the curve changes with temperature",
+            labelMy:
+                "Curve အောက်ရှိ Total Area သည် Temperature နှင့်အတူ ပြောင်းလဲသည်",
+            correctBucketEn: "False about the Boltzmann Distribution",
+            correctBucketMy: "Boltzmann Distribution အကြောင်း မှားသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w30-sort-4",
+            labelEn:
+                "At higher temperature, the peak is lower and shifted right",
+            labelMy:
+                "Temperature မြင့်ချိန် Peak သည် ပို၍ နိမ့်ပြီး ညာဘက်သို့ ရွှေ့လျားသွားသည်",
+            correctBucketEn: "True about the Boltzmann Distribution",
+            correctBucketMy: "Boltzmann Distribution အကြောင်း မှန်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w30-sort-5",
+            labelEn: "All particles have exactly the same kinetic energy",
+            labelMy: "Particle အားလုံးသည် Kinetic Energy အတိအကျ တူညီသည်",
+            correctBucketEn: "False about the Boltzmann Distribution",
+            correctBucketMy: "Boltzmann Distribution အကြောင်း မှားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why a 10°C Rise Roughly Doubles Reaction Rate",
+      titleMy:
+          "စာဖတ်ခြင်း - 10°C တက်ခြင်းက Reaction Rate ကို ခန့်မှန်းခြေ နှစ်ဆ တိုးစေရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why a 10°C Rise Roughly Doubles Reaction Rate",
+        titleMy:
+            "10°C တက်ခြင်းက Reaction Rate ကို ခန့်မှန်းခြေ နှစ်ဆ တိုးစေရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayama Thin Thin Aye reminded her class of a common rule of thumb: for many reactions, a temperature rise of just 10°C roughly doubles the reaction rate. She asked them to check whether this could possibly be explained by particles simply moving twice as fast, or having twice as much energy, at the higher temperature.\n\nKaung Myat Soe worked through the numbers using a starting temperature of 300 K: a 10 K rise takes the temperature to 310 K. Since mean kinetic energy is directly proportional to absolute temperature, the mean energy only increases by a factor of 310/300, or about 3.3% -- nowhere close to doubling. Clearly, the doubled rate cannot come from particles simply having twice as much average energy.\n\nSayama Thin Thin Aye pointed Kaung Myat Soe towards the shape of the Maxwell-Boltzmann distribution instead. The activation energy, Ea, typically sits far out on the high-energy tail of the distribution, where only a small fraction of particles have enough energy to react. Even though the whole distribution shifts only slightly when temperature rises by 10 K, that small shift moves a comparatively large proportion of the already-small tail past the Ea threshold -- because the tail is thin and falls off steeply, a modest shift in the whole curve can dramatically change how much of that thin sliver lies beyond a fixed point.\n\nKaung Myat Soe summarised the key insight: reaction rate depends on the fraction of particles beyond Ea, not on the mean energy of all particles, and that fraction is extremely sensitive to small temperature changes precisely because it sits on the distribution's thin, rapidly-changing tail rather than near its bulk. A tiny percentage change in mean energy can therefore correspond to a much larger percentage change in the fraction of successful collisions -- and therefore in the reaction rate itself.",
+        passageMy:
+            "Reaction များစွာအတွက် Temperature 10°C တက်ခြင်းသည် Reaction Rate ကို ခန့်မှန်းခြေ နှစ်ဆ တိုးမြှင့်ကြောင်း ဘုံသိမြင်ချက်တစ်ခုကို Sayama သင်းသင်းအေး သူမ၏ အတန်းကို သတိပေးခဲ့သည်။ Temperature ပိုမြင့်ချိန် Particle များသည် ရိုးရှင်းစွာ နှစ်ဆ မြန်စွာ ရွေ့လျားခြင်း (သို့) Energy နှစ်ဆ ရှိခြင်းက ၎င်းကို ရှင်းပြနိုင်မလားဆိုသည်ကို စစ်ဆေးခိုင်းခဲ့သည်။\n\nKaung Myat Soe သည် Starting Temperature 300 K ကို အသုံးပြု၍ ဂဏန်းများကို ဖြေရှင်းခဲ့သည် - 10 K တက်ခြင်းက Temperature ကို 310 K သို့ ရောက်ရှိစေသည်။ Mean Kinetic Energy သည် Absolute Temperature နှင့် တိုက်ရိုက် Proportional ဖြစ်သောကြောင့် Mean Energy သည် 310/300 Factor သို့မဟုတ် ခန့်မှန်းခြေ 3.3% သာ တိုးလာသည် -- နှစ်ဆ ဖြစ်ခြင်းနှင့် လုံးဝ နီးကပ်မှု မရှိပါ။ Rate နှစ်ဆ ဖြစ်ခြင်းသည် Particle များ Average Energy နှစ်ဆ ရိုးရိုး ရှိခြင်းမှ လုံးဝ မလာနိုင်ကြောင်း ရှင်းလင်းသည်။\n\nMaxwell-Boltzmann Distribution ၏ ပုံသဏ္ဌာန်ဘက်သို့ Kaung Myat Soe ကို Sayama သင်းသင်းအေး ယင်းအစား ညွှန်ပြခဲ့သည်။ Activation Energy, Ea သည် ပုံမှန်အားဖြင့် Particle အနည်းငယ်သာ Reaction ဖြစ်ရန် Energy လုံလောက်သော Distribution ၏ High-Energy Tail အလွန်ဝေးသည့်နေရာတွင် ရှိသည်။ Temperature 10 K တက်ချိန် Distribution တစ်ခုလုံး အနည်းငယ်သာ ရွှေ့လျားသော်လည်း ထို သေးငယ်သော Shift သည် Ea Threshold ကို ကျော်လွန်သွားသော ရှိပြီးသား သေးငယ်သော Tail ၏ Comparatively ကြီးမားသော Proportion ကို ရွှေ့လျားစေသည် -- Tail သည် ပါးလွှာပြီး ပြင်းထန်စွာ ကျဆင်းသောကြောင့် Curve တစ်ခုလုံးရှိ Modest Shift တစ်ခုသည် Point တစ်ခုတည်း ကျော်လွန်ရှိသော ထို ပါးလွှာသော အစိတ်အပိုင်း မည်မျှရှိသည်ကို သိသိသာသာ ပြောင်းလဲစေနိုင်သည်။\n\nအဓိက ထိုးထွင်းသိမြင်မှုကို Kaung Myat Soe အနှစ်ချုပ်ခဲ့သည် - Reaction Rate သည် Particle အားလုံး၏ Mean Energy ပေါ် မဟုတ်ဘဲ Ea ကျော်လွန်ရှိ Particle Fraction ပေါ် မှီခိုနေပြီး ထို Fraction သည် Distribution ၏ Bulk အနီးမဟုတ်ဘဲ ပါးလွှာစွာ၊ လျင်မြန်စွာ ပြောင်းလဲနေသော Tail ပေါ် ရှိနေသောကြောင့် Temperature ပြောင်းလဲမှု သေးငယ်သော်လည်း အလွန် Sensitive ဖြစ်သည်။ Mean Energy ရှိ Percentage ပြောင်းလဲမှု သေးငယ်သည်သည် Successful Collision Fraction ရှိ Percentage ပြောင်းလဲမှု ပို၍ ကြီးမားစွာနှင့် ကိုက်ညီနိုင်သည် -- ထို့ကြောင့် Reaction Rate ကိုယ်တိုင်တွင်လည်း။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, by roughly what percentage does mean kinetic energy increase for a 10 K rise from 300 K?",
+            questionMy:
+                "300 K မှ 10 K တက်ချိန် Mean Kinetic Energy သည် ခန့်မှန်းခြေ ရာခိုင်နှုန်းမည်မျှ တိုးလာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["About 3.3%", "About 100%", "About 50%", "About 10%"],
+            optionsMy: [
+              "ခန့်မှန်းခြေ 3.3%",
+              "ခန့်မှန်းခြေ 100%",
+              "ခန့်မှန်းခြေ 50%",
+              "ခန့်မှန်းခြေ 10%",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, where does the activation energy typically sit on the distribution?",
+            questionMy:
+                "Activation Energy သည် Distribution ပေါ် ပုံမှန်အားဖြင့် မည်သည့်နေရာတွင် ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Far out on the high-energy tail",
+              "Right at the peak of the distribution",
+              "At zero energy",
+              "Outside the distribution entirely",
+            ],
+            optionsMy: [
+              "High-Energy Tail အလွန်ဝေးသည့်နေရာ",
+              "Distribution ၏ Peak အတိအကျ",
+              "Energy Zero တွင်",
+              "Distribution ပြင်ပတွင် လုံးဝ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why is the fraction of particles beyond Ea so sensitive to temperature?",
+            questionMy:
+                "Ea ကျော်လွန်ရှိ Particle Fraction သည် Temperature ပေါ် အဘယ့်ကြောင့် ဤမျှ Sensitive ဖြစ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It sits on the distribution's thin, rapidly-changing tail",
+              "It sits at the exact peak of the distribution",
+              "Activation energy changes with temperature",
+              "It is completely unrelated to the distribution shape",
+            ],
+            optionsMy: [
+              "Distribution ၏ ပါးလွှာ၊ လျင်မြန်စွာ ပြောင်းလဲနေသော Tail ပေါ် ရှိနေသောကြောင့်",
+              "Distribution ၏ Peak အတိအကျတွင် ရှိနေသောကြောင့်",
+              "Activation Energy သည် Temperature နှင့်အတူ ပြောင်းလဲသောကြောင့်",
+              "Distribution ပုံသဏ္ဌာန်နှင့် လုံးဝ မဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ အနှစ်ချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: The Boltzmann Distribution",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - The Boltzmann Distribution",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The total area under the Maxwell-Boltzmann curve represents...",
+          questionMy:
+              "Maxwell-Boltzmann Curve အောက်ရှိ Total Area သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "The total number of particles",
+            "The activation energy only",
+            "The reaction rate directly",
+            "The temperature in kelvin",
+          ],
+          optionsMy: [
+            "Particle Total အရေအတွက်",
+            "Activation Energy တစ်ခုတည်း",
+            "Reaction Rate တိုက်ရိုက်",
+            "Kelvin ရှိ Temperature",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing temperature shifts the peak of the distribution to...",
+          questionMy:
+              "Temperature တိုးမြှင့်ခြင်းက Distribution ၏ Peak ကို ...ဘက်သို့ ရွှေ့လျားစေသည်",
+          optionsEn: [
+            "Higher energy",
+            "Lower energy",
+            "Exactly the same position",
+            "Zero energy",
+          ],
+          optionsMy: [
+            "Energy မြင့်ရာ",
+            "Energy နိမ့်ရာ",
+            "Position အတိအကျ တူညီရာ",
+            "Energy Zero",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Reaction rate depends most directly on...",
+          questionMy: "Reaction Rate သည် ...ပေါ် အတိုက်ရိုက်ဆုံး မှီခိုနေသည်",
+          optionsEn: [
+            "The fraction of particles with energy ≥ Ea",
+            "The total mass of the container",
+            "The colour of the reactants",
+            "The shape of the container",
+          ],
+          optionsMy: [
+            "Energy ≥ Ea ရှိသော Particle Fraction",
+            "Container ၏ Total Mass",
+            "Reactant များ၏ အရောင်",
+            "Container ၏ ပုံသဏ္ဌာန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Catalysts and Activation Energy"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek31 = CourseWeekDef(
+  id: "course-y12-chem-w31",
+  weekNumber: 31,
+  titleEn: "Catalysts and Activation Energy",
+  titleMy: "Catalysts and Activation Energy",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w31-d1",
+      dayNumber: 1,
+      titleEn: "How Catalysts Work",
+      titleMy: "Catalyst များ အလုပ်လုပ်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A catalyst increases the rate of reaction by...",
+          questionMy:
+              "Catalyst တစ်ခုသည် Reaction Rate ကို ...ဖြင့် တိုးမြှင့်သည်",
+          optionsEn: [
+            "Providing an alternative reaction pathway with a lower activation energy",
+            "Increasing the concentration of reactants",
+            "Increasing the temperature of the reaction automatically",
+            "Removing the need for a reaction to occur at all",
+          ],
+          optionsMy: [
+            "Activation Energy ပိုနိမ့်သော Alternative Reaction Pathway ပေးအပ်ခြင်း",
+            "Reactant များ၏ Concentration တိုးမြှင့်ခြင်း",
+            "Reaction ၏ Temperature ကို အလိုအလျောက် တိုးမြှင့်ခြင်း",
+            "Reaction ဖြစ်ပေါ်ရန် လိုအပ်ချက်ကို လုံးဝ ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst is...",
+          questionMy: "Catalyst တစ်ခုသည်...",
+          optionsEn: [
+            "Not consumed or permanently changed by the reaction it catalyses",
+            "Always fully consumed by the end of the reaction",
+            "Only usable once and then destroyed",
+            "Always identical in state to the reactants",
+          ],
+          optionsMy: [
+            "၎င်း Catalyse ပြုလုပ်သော Reaction က စားသုံးခြင်း (သို့) အမြဲတမ်း ပြောင်းလဲခြင်း မရှိပါ",
+            "Reaction အဆုံးတွင် အပြည့်အစုံ စားသုံးခံရသည်",
+            "တစ်ကြိမ်သာ အသုံးပြု၍ ရပြီး ထို့နောက် ဖျက်ဆီးခံရသည်",
+            "Reactant များနှင့် State အတိအကျ အမြဲ တူညီသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Lowering the activation energy means that, at a given temperature...",
+          questionMy:
+              "Activation Energy လျှော့ချခြင်းက Temperature အထူးတစ်ခုတွင်...",
+          optionsEn: [
+            "A greater fraction of particles now have enough energy to react",
+            "Fewer particles now have enough energy to react",
+            "No particles can react at all",
+            "The reaction becomes irreversible",
+          ],
+          optionsMy: [
+            "Particle Fraction ပိုများသည် ယခု တုံ့ပြန်ရန် Energy လုံလောက်စွာ ရှိသည်",
+            "Particle နည်းပါးသည် ယခု တုံ့ပြန်ရန် Energy လုံလောက်စွာ ရှိသည်",
+            "Particle မည်သည့်တစ်ခုမျှ လုံးဝ တုံ့ပြန်၍ မရနိုင်ပါ",
+            "Reaction သည် Irreversible ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Catalyst Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Catalyst ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w31-dm-1",
+          termEn: "Catalyst",
+          termMy: "Catalyst",
+          matchEn:
+              "A substance that increases reaction rate by providing an alternative pathway with lower activation energy, without being consumed",
+          matchMy:
+              "Activation Energy ပိုနိမ့်သော Alternative Pathway ပေးအပ်၍ Reaction Rate ကို တိုးမြှင့်သော Substance၊ စားသုံးခံရခြင်း မရှိပါ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w31-dm-2",
+          termEn: "Homogeneous catalyst",
+          termMy: "Homogeneous Catalyst",
+          matchEn: "A catalyst in the same physical state as the reactants",
+          matchMy: "Reactant များနှင့် Physical State တူညီရှိသော Catalyst",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w31-dm-3",
+          termEn: "Heterogeneous catalyst",
+          termMy: "Heterogeneous Catalyst",
+          matchEn:
+              "A catalyst in a different physical state from the reactants, often a solid catalysing gas or liquid reactants",
+          matchMy:
+              "Reactant များနှင့် Physical State ကွဲပြားသော Catalyst၊ အများအားဖြင့် Gas (သို့) Liquid Reactant များကို Catalyse ပြုလုပ်သော Solid",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w31-dm-4",
+          termEn: "Lower activation energy",
+          termMy: "Activation Energy ပိုနိမ့်ခြင်း",
+          matchEn:
+              "Increases the fraction of particles with enough energy to react at a given temperature",
+          matchMy:
+              "Temperature အထူးတစ်ခုတွင် တုံ့ပြန်ရန် Energy လုံလောက်သော Particle Fraction ကို တိုးမြှင့်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w31-dm-5",
+          termEn: "Enzyme",
+          termMy: "Enzyme",
+          matchEn:
+              "A biological catalyst, typically a protein, that speeds up biochemical reactions",
+          matchMy:
+              "Biochemical Reaction များကို မြန်ဆန်စေသော Biological Catalyst တစ်ခု၊ ပုံမှန်အားဖြင့် Protein",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Homogeneous or Heterogeneous Catalyst?",
+      titleMy: "စီစစ်ကြမည် - Homogeneous သို့မဟုတ် Heterogeneous Catalyst",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Homogeneous Catalyst", "Heterogeneous Catalyst"],
+        bucketsMy: ["Homogeneous Catalyst", "Heterogeneous Catalyst"],
+        items: [
+          SortingItem(
+            id: "y12chem-w31-sort-1",
+            labelEn:
+                "Iron catalyst in the Haber process (solid catalysing gases)",
+            labelMy:
+                "Haber Process ရှိ Iron Catalyst (Gas များကို Catalyse ပြုလုပ်သော Solid)",
+            correctBucketEn: "Heterogeneous Catalyst",
+            correctBucketMy: "Heterogeneous Catalyst",
+          ),
+          SortingItem(
+            id: "y12chem-w31-sort-2",
+            labelEn:
+                "An enzyme dissolved in the same aqueous solution as its substrate",
+            labelMy:
+                "၎င်း၏ Substrate နှင့် Aqueous Solution တူညီထဲတွင် ပျော်ဝင်နေသော Enzyme",
+            correctBucketEn: "Homogeneous Catalyst",
+            correctBucketMy: "Homogeneous Catalyst",
+          ),
+          SortingItem(
+            id: "y12chem-w31-sort-3",
+            labelEn:
+                "Platinum catalyst in a catalytic converter (solid catalysing gases)",
+            labelMy:
+                "Catalytic Converter ရှိ Platinum Catalyst (Gas များကို Catalyse ပြုလုပ်သော Solid)",
+            correctBucketEn: "Heterogeneous Catalyst",
+            correctBucketMy: "Heterogeneous Catalyst",
+          ),
+          SortingItem(
+            id: "y12chem-w31-sort-4",
+            labelEn:
+                "An acid catalyst dissolved in the same solution as an ester hydrolysis reaction",
+            labelMy:
+                "Ester Hydrolysis Reaction နှင့် Solution တူညီထဲတွင် ပျော်ဝင်နေသော Acid Catalyst",
+            correctBucketEn: "Homogeneous Catalyst",
+            correctBucketMy: "Homogeneous Catalyst",
+          ),
+          SortingItem(
+            id: "y12chem-w31-sort-5",
+            labelEn:
+                "Vanadium(V) oxide solid catalyst in the Contact Process (solid catalysing gases)",
+            labelMy:
+                "Contact Process ရှိ Vanadium(V) Oxide Solid Catalyst (Gas များကို Catalyse ပြုလုပ်သော Solid)",
+            correctBucketEn: "Heterogeneous Catalyst",
+            correctBucketMy: "Heterogeneous Catalyst",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Catalysts Don't Change Kc",
+      titleMy:
+          "စာဖတ်ခြင်း - Catalyst များ Kc ကို မပြောင်းလဲစေရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Catalysts Don't Change Kc",
+        titleMy: "Catalyst များ Kc ကို မပြောင်းလဲစေရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Wai Yan Naing drew an energy profile diagram for a reversible reaction, showing the activation energy of both the forward reaction and the reverse reaction, and asked his class what happens to each when a catalyst is added.\n\nYadanar Phyo reasoned it through carefully: a catalyst provides a new, lower-energy pathway that both the forward and reverse reactions can use, since both directions pass through the same intermediate steps in reverse order. Because the catalyst lowers the activation energy of the forward reaction and the activation energy of the reverse reaction by exactly the same amount, both reactions speed up by the same factor.\n\nSayar Wai Yan Naing then connected this directly to the equilibria work from Term 7: if the forward rate and the reverse rate both increase by the same factor, the ratio between them at equilibrium -- which is what Kc actually measures -- stays completely unchanged. Equilibrium is simply reached faster with a catalyst present, arriving at exactly the same position (the same concentrations, the same Kc) that an uncatalysed reaction would eventually reach on its own, just far more quickly.\n\nYadanar Phyo summarised the distinction clearly: Kc depends only on temperature, and a catalyst doesn't change the temperature or the relative stability of reactants and products -- it only changes the height of the energy barrier both directions must climb, equally in both directions. This is why a catalyst can never be used to force an equilibrium reaction to produce more product than its Kc value allows; it can only get the reaction to that same fixed destination sooner.",
+        passageMy:
+            "Reversible Reaction တစ်ခုအတွက် Forward Reaction နှင့် Reverse Reaction နှစ်ခုစလုံး၏ Activation Energy ကို ပြသော Energy Profile Diagram တစ်ခုကို Sayar ဝေယံနိုင် ဆွဲခဲ့ပြီး Catalyst တစ်ခု ထည့်ချိန် တစ်ခုစီ အဘယ်သို့ ဖြစ်လာသည်ကို သူ၏ အတန်းကို မေးမြန်းခဲ့သည်။\n\nYadanar Phyo သည် ဤအချက်ကို ဂရုတစိုက် ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Catalyst တစ်ခုသည် Forward နှင့် Reverse Reaction နှစ်ခုစလုံး အသုံးပြုနိုင်သော Energy ပိုနိမ့်သော Pathway အသစ်တစ်ခု ပေးအပ်သည်၊ ဦးတည်ရာနှစ်ခုစလုံးသည် Intermediate Step တူညီများကို ပြောင်းပြန် အစီအစဉ်ဖြင့် ဖြတ်သန်းသောကြောင့် ဖြစ်သည်။ Catalyst သည် Forward Reaction ၏ Activation Energy နှင့် Reverse Reaction ၏ Activation Energy ကို ပမာဏ အတိအကျ တူညီစွာ လျှော့ချသောကြောင့် Reaction နှစ်ခုစလုံး Factor တူညီစွာ ပိုမိုမြန်ဆန်လာသည်။\n\nTerm 7 Equilibria Work နှင့် ၎င်းကို Sayar ဝေယံနိုင် ထို့နောက် တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - Forward Rate နှင့် Reverse Rate နှစ်ခုစလုံး Factor တူညီစွာ တိုးလာပါက Equilibrium တွင် ၎င်းတို့ကြား Ratio -- Kc တကယ် တိုင်းတာသည့်အရာ -- သည် လုံးဝ မပြောင်းလဲဘဲ ရှိနေသည်။ Catalyst ရှိချိန် Equilibrium သည် ရိုးရှင်းစွာ ပို၍ မြန်ဆန်စွာ ရောက်ရှိပြီး Catalyse မလုပ်ထားသော Reaction တစ်ခု ၎င်းကိုယ်ပိုင် နောက်ဆုံးတွင် ရောက်ရှိမည့် Position အတိအကျ (Concentration တူညီများ, Kc တူညီ) သို့ ရောက်ရှိသည်၊ ပို၍ မြန်ဆန်စွာသာ ဖြစ်သည်။\n\nကွာခြားချက်ကို Yadanar Phyo ရှင်းလင်းစွာ အနှစ်ချုပ်ခဲ့သည် - Kc သည် Temperature ပေါ်တစ်ခုတည်း မှီခိုနေပြီး Catalyst တစ်ခုသည် Temperature (သို့) Reactant နှင့် Product ၏ Relative Stability ကို မပြောင်းလဲစေပါ -- ၎င်းသည် ဦးတည်ရာနှစ်ခုစလုံး တက်ရမည့် Energy Barrier ၏ အမြင့်ကို အညီအမျှသာ ပြောင်းလဲစေသည်။ ၎င်းသည် Catalyst တစ်ခုသည် Equilibrium Reaction တစ်ခုကို ၎င်း၏ Kc တန်ဖိုးက ခွင့်ပြုသည်ထက် Product ပို၍ ထုတ်လုပ်ရန် အတင်းအကျပ် ဘယ်တော့မှ မလုပ်နိုင်ရသည့် အကြောင်းရင်း ဖြစ်သည် -- ၎င်းသည် Reaction ကို Destination Fixed တူညီသို့ ပို၍ စောစီးစွာ ရောက်ရှိစေရုံသာ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, does a catalyst change the forward activation energy, the reverse activation energy, or both?",
+            questionMy:
+                "Catalyst တစ်ခုသည် Forward Activation Energy၊ Reverse Activation Energy သို့မဟုတ် နှစ်ခုစလုံးကို ပြောင်းလဲစေမလားဆိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both, by exactly the same amount",
+              "Only the forward activation energy",
+              "Only the reverse activation energy",
+              "Neither",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံး, ပမာဏ အတိအကျ တူညီစွာ",
+              "Forward Activation Energy တစ်ခုတည်း",
+              "Reverse Activation Energy တစ်ခုတည်း",
+              "နှစ်ခုလုံး မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, does adding a catalyst change the value of Kc?",
+            questionMy:
+                "Catalyst ထည့်ခြင်းက Kc တန်ဖိုးကို ပြောင်းလဲစေမလားဆိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No, Kc stays completely unchanged",
+              "Yes, Kc always increases",
+              "Yes, Kc always decreases",
+              "Kc becomes undefined",
+            ],
+            optionsMy: [
+              "မဟုတ်ပါ၊ Kc လုံးဝ မပြောင်းလဲဘဲ ရှိနေသည်",
+              "ဟုတ်ပါသည်၊ Kc သည် အမြဲ တိုးလာသည်",
+              "ဟုတ်ပါသည်၊ Kc သည် အမြဲ လျော့ကျသည်",
+              "Kc သည် Undefined ဖြစ်လာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what can a catalyst never do?",
+            questionMy:
+                "Catalyst တစ်ခု ဘယ်တော့မှ မလုပ်နိုင်သော အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Force an equilibrium reaction to produce more product than Kc allows",
+              "Speed up any reaction whatsoever",
+              "Provide an alternative reaction pathway",
+              "Be used more than once",
+            ],
+            optionsMy: [
+              "Kc ခွင့်ပြုသည်ထက် Equilibrium Reaction တစ်ခုကို Product ပို၍ ထုတ်လုပ်ရန် အတင်းအကျပ်လုပ်ခြင်း",
+              "Reaction မည်သည့်တစ်ခုမဆို မြန်ဆန်စေခြင်း",
+              "Alternative Reaction Pathway ပေးအပ်ခြင်း",
+              "တစ်ကြိမ်ထက် ပို၍ အသုံးပြုခံရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ နိဂုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Catalysts",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Catalysts",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A heterogeneous catalyst is...",
+          questionMy: "Heterogeneous Catalyst တစ်ခုသည်...",
+          optionsEn: [
+            "In a different physical state from the reactants",
+            "Always in the same physical state as the reactants",
+            "Never used in industry",
+            "Always a gas",
+          ],
+          optionsMy: [
+            "Reactant များနှင့် Physical State ကွဲပြားသည်",
+            "Reactant များနှင့် Physical State အမြဲ တူညီသည်",
+            "Industry တွင် ဘယ်တော့မှ အသုံးမပြုပါ",
+            "အမြဲ Gas ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst changes the activation energy of...",
+          questionMy:
+              "Catalyst တစ်ခုသည် ...၏ Activation Energy ကို ပြောင်းလဲစေသည်",
+          optionsEn: [
+            "Both the forward and reverse reactions equally",
+            "Only the forward reaction",
+            "Only the reverse reaction",
+            "Neither reaction",
+          ],
+          optionsMy: [
+            "Forward နှင့် Reverse Reaction နှစ်ခုစလုံး အညီအမျှ",
+            "Forward Reaction တစ်ခုတည်း",
+            "Reverse Reaction တစ်ခုတည်း",
+            "Reaction မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An enzyme is an example of a...",
+          questionMy: "Enzyme တစ်ခုသည် ...၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Biological catalyst",
+            "Reactant only",
+            "Product only",
+            "Non-reactive substance",
+          ],
+          optionsMy: [
+            "Biological Catalyst",
+            "Reactant တစ်ခုတည်း",
+            "Product တစ်ခုတည်း",
+            "Non-Reactive Substance",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32: "Reaction Kinetics Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek32 = CourseWeekDef(
+  id: "course-y12-chem-w32",
+  weekNumber: 32,
+  titleEn: "Reaction Kinetics Capstone",
+  titleMy: "Reaction Kinetics အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w32-d1",
+      dayNumber: 1,
+      titleEn:
+          "Combining Collision Theory, Boltzmann Distribution and Catalysis",
+      titleMy:
+          "Collision Theory, Boltzmann Distribution နှင့် Catalysis ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Increasing the concentration of a reactant increases rate mainly by...",
+          questionMy:
+              "Reactant တစ်ခု၏ Concentration တိုးမြှင့်ခြင်းသည် Rate ကို ...ဖြင့် အဓိက တိုးမြှင့်သည်",
+          optionsEn: [
+            "Increasing collision frequency",
+            "Lowering the activation energy",
+            "Shifting the Boltzmann distribution",
+            "Changing the temperature",
+          ],
+          optionsMy: [
+            "Collision Frequency တိုးမြှင့်ခြင်း",
+            "Activation Energy လျှော့ချခြင်း",
+            "Boltzmann Distribution ရွှေ့လျားခြင်း",
+            "Temperature ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Increasing temperature increases rate mainly by...",
+          questionMy:
+              "Temperature တိုးမြှင့်ခြင်းသည် Rate ကို ...ဖြင့် အဓိက တိုးမြှင့်သည်",
+          optionsEn: [
+            "Increasing the fraction of particles with energy ≥ Ea",
+            "Increasing the total number of particles",
+            "Increasing the volume of the container",
+            "Increasing the mass of reactants",
+          ],
+          optionsMy: [
+            "Energy ≥ Ea ရှိသော Particle Fraction တိုးမြှင့်ခြင်း",
+            "Particle Total အရေအတွက် တိုးမြှင့်ခြင်း",
+            "Container ၏ Volume တိုးမြှင့်ခြင်း",
+            "Reactant များ၏ Mass တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst increases rate mainly by...",
+          questionMy: "Catalyst တစ်ခုသည် Rate ကို ...ဖြင့် အဓိက တိုးမြှင့်သည်",
+          optionsEn: [
+            "Lowering the activation energy via an alternative pathway",
+            "Increasing collision frequency directly",
+            "Increasing the concentration of reactants",
+            "Increasing the container's pressure",
+          ],
+          optionsMy: [
+            "Alternative Pathway မှတစ်ဆင့် Activation Energy လျှော့ချခြင်း",
+            "Collision Frequency ကို တိုက်ရိုက် တိုးမြှင့်ခြင်း",
+            "Reactant များ၏ Concentration တိုးမြှင့်ခြင်း",
+            "Container ၏ Pressure တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 8 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၈ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w32-dm-1",
+          termEn: "Effective collision requires",
+          termMy: "Effective Collision လိုအပ်သည်",
+          matchEn: "Energy ≥ Ea and correct orientation",
+          matchMy: "Energy ≥ Ea နှင့် မှန်ကန်သော Orientation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w32-dm-2",
+          termEn: "Concentration/surface area increase rate by",
+          termMy:
+              "Concentration/Surface Area သည် Rate ကို ...ဖြင့် တိုးမြှင့်သည်",
+          matchEn: "Increasing collision frequency",
+          matchMy: "Collision Frequency တိုးမြှင့်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w32-dm-3",
+          termEn: "Temperature increases rate by",
+          termMy: "Temperature သည် Rate ကို ...ဖြင့် တိုးမြှင့်သည်",
+          matchEn: "Increasing the fraction of successful collisions",
+          matchMy: "Successful Collision Fraction တိုးမြှင့်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w32-dm-4",
+          termEn: "Catalyst increases rate by",
+          termMy: "Catalyst သည် Rate ကို ...ဖြင့် တိုးမြှင့်သည်",
+          matchEn: "Lowering activation energy via an alternative pathway",
+          matchMy:
+              "Alternative Pathway မှတစ်ဆင့် Activation Energy လျှော့ချခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w32-dm-5",
+          termEn: "A catalyst never changes",
+          termMy: "Catalyst တစ်ခု ဘယ်တော့မှ မပြောင်းလဲစေသော",
+          matchEn: "The position of equilibrium (Kc)",
+          matchMy: "Equilibrium Position (Kc)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w32-d3",
+      dayNumber: 3,
+      titleEn:
+          "Sort: Increases Collision Frequency or Increases Successful Collision Fraction?",
+      titleMy:
+          "စီစစ်ကြမည် - Collision Frequency သို့မဟုတ် Successful Collision Fraction တိုးစေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Increases Collision Frequency",
+          "Increases Fraction of Successful Collisions",
+        ],
+        bucketsMy: [
+          "Collision Frequency တိုးစေသည်",
+          "Successful Collision Fraction တိုးစေသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w32-sort-1",
+            labelEn: "Increasing concentration",
+            labelMy: "Concentration တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Collision Frequency",
+            correctBucketMy: "Collision Frequency တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w32-sort-2",
+            labelEn: "Increasing temperature",
+            labelMy: "Temperature တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Fraction of Successful Collisions",
+            correctBucketMy: "Successful Collision Fraction တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w32-sort-3",
+            labelEn: "Increasing surface area of a solid",
+            labelMy: "Solid တစ်ခု၏ Surface Area တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Collision Frequency",
+            correctBucketMy: "Collision Frequency တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w32-sort-4",
+            labelEn: "Adding a catalyst",
+            labelMy: "Catalyst ထည့်ခြင်း",
+            correctBucketEn: "Increases Fraction of Successful Collisions",
+            correctBucketMy: "Successful Collision Fraction တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w32-sort-5",
+            labelEn: "Increasing the pressure of a gas reaction",
+            labelMy: "Gas Reaction တစ်ခု၏ Pressure တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Collision Frequency",
+            correctBucketMy: "Collision Frequency တိုးစေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Four Ways to Speed Up a Reaction, Two Mechanisms",
+      titleMy:
+          "စာဖတ်ခြင်း - Reaction တစ်ခု မြန်ဆန်စေရန် နည်းလမ်းလေးခု, Mechanism နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Four Ways to Speed Up a Reaction, Two Mechanisms",
+        titleMy: "Reaction တစ်ခု မြန်ဆန်စေရန် နည်းလမ်းလေးခု, Mechanism နှစ်ခု",
+        passageEn:
+            "For their Term 8 capstone, Sayama Thin Thin Aye's class organised everything they had learned about reaction rate into a single unifying framework. She listed the four classic factors that speed up a reaction -- concentration, surface area, temperature, and catalysts -- and asked the class to sort them by underlying mechanism rather than by name.\n\nSu Su Wai grouped concentration and surface area together first: increasing the concentration of a reactant packs more particles into the same volume, so particles simply bump into each other more often; increasing the surface area of a solid exposes more particles to collide with in the first place. Neither changes how energetic any individual collision is, or how likely a given collision is to succeed -- both work purely by increasing collision frequency, the sheer number of collisions happening per second.\n\nSu Su Wai then grouped temperature and catalysts together: raising temperature shifts the whole Maxwell-Boltzmann distribution, increasing the fraction of particles with energy at or above the activation energy; adding a catalyst instead lowers the activation energy itself, via an alternative pathway, so that a larger fraction of the existing distribution now clears that lower threshold. Neither changes how many collisions happen per second -- both work purely by increasing the fraction of collisions that succeed once they happen.\n\nSayama Thin Thin Aye confirmed the framework: four everyday factors reduce to just two underlying mechanisms -- collisions happening more often (concentration, surface area) or a greater proportion of those collisions succeeding (temperature, catalysts) -- and any factor that speeds up a reaction, no matter how the topic ever expands beyond AS-level chemistry, works through one or both of these two mechanisms and no others.",
+        passageMy:
+            "သူတို့၏ Term 8 အထွတ်အထိပ်အတွက် Sayama သင်းသင်းအေး ၏ အတန်းသည် Reaction Rate အကြောင်း သင်ယူခဲ့သော အရာအားလုံးကို Unifying Framework တစ်ခုတည်းအဖြစ် စုစည်းခဲ့ကြသည်။ Reaction တစ်ခုကို မြန်ဆန်စေသော Classic Factor လေးခု -- Concentration, Surface Area, Temperature နှင့် Catalyst -- ကို သူမ ဖော်ပြပြီး နာမည်ဖြင့် မဟုတ်ဘဲ Underlying Mechanism ဖြင့် Sort ပြုလုပ်ခိုင်းခဲ့သည်။\n\nSu Su Wai သည် Concentration နှင့် Surface Area ကို ဦးစွာ အုပ်စုဖွဲ့ခဲ့သည် - Reactant တစ်ခု၏ Concentration တိုးမြှင့်ခြင်းက Volume တူညီထဲသို့ Particle ပို၍ ထည့်ပေးသောကြောင့် Particle များသည် ရိုးရိုးသာ တစ်ခုနှင့်တစ်ခု ပို၍ ခဏခဏ ရိုက်ခတ်ကြသည်၊ Solid တစ်ခု၏ Surface Area တိုးမြှင့်ခြင်းက Collide ဖြစ်ရန် Particle ပို၍ ဦးစွာ ဖော်ထုတ်ပေးသည်။ Individual Collision မည်သည့်တစ်ခု၏ Energy၊ (သို့) Collision တစ်ခု အောင်မြင်နိုင်ခြေကို နှစ်ခုစလုံး လုံးဝ မပြောင်းလဲစေပါ -- နှစ်ခုစလုံးသည် Collision Frequency ကိုသာ တိုးမြှင့်ခြင်းဖြင့် ရိုးရိုး အလုပ်လုပ်သည်၊ Second တစ်ခုလျှင် ဖြစ်ပေါ်သော Collision ၏ ရိုးရှင်းသော အရေအတွက် ဖြစ်သည်။\n\nSu Su Wai သည် Temperature နှင့် Catalyst ကို ထို့နောက် အုပ်စုဖွဲ့ခဲ့သည် - Temperature တိုးမြှင့်ခြင်းသည် Maxwell-Boltzmann Distribution တစ်ခုလုံးကို ရွှေ့လျားစေပြီး Activation Energy တွင် (သို့) ထက် Energy ရှိသော Particle Fraction ကို တိုးမြှင့်သည်၊ Catalyst ထည့်ခြင်းက Alternative Pathway မှတစ်ဆင့် Activation Energy ကိုယ်တိုင်ကို ယင်းအစား လျှော့ချသောကြောင့် ရှိပြီးသား Distribution ၏ Fraction ပို၍ ကြီးမားသည် ယခု ထို Threshold ပိုနိမ့်သောနေရာကို ရှင်းလင်းသွားသည်။ Second တစ်ခုလျှင် ဖြစ်ပေါ်သော Collision အရေအတွက်ကို နှစ်ခုစလုံး မပြောင်းလဲစေပါ -- နှစ်ခုစလုံးသည် ၎င်းတို့ ဖြစ်ပေါ်ချိန် အောင်မြင်သော Collision Fraction ကိုသာ တိုးမြှင့်ခြင်းဖြင့် ရိုးရိုး အလုပ်လုပ်သည်။\n\nFramework ကို Sayama သင်းသင်းအေး အတည်ပြုခဲ့သည် - နေ့စဉ် Factor လေးခုသည် Underlying Mechanism နှစ်ခုတည်းအဖြစ် ကျုံ့သွားသည် -- Collision ပို၍ ခဏခဏ ဖြစ်ပေါ်ခြင်း (Concentration, Surface Area) (သို့) ထို Collision များ၏ ပို၍ များသော Proportion အောင်မြင်ခြင်း (Temperature, Catalyst) -- Reaction တစ်ခုကို မြန်ဆန်စေသော Factor မည်သည့်တစ်ခုမဆို AS-Level Chemistry ကျော်လွန်၍ Topic မည်မျှ ချဲ့ထွင်လာစေ Mechanism နှစ်ခု၏ တစ်ခု (သို့) နှစ်ခုစလုံးမှတစ်ဆင့် အလုပ်လုပ်ပြီး အခြား မည်သည့်တစ်ခုမျှ မရှိပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which two factors work by increasing collision frequency?",
+            questionMy:
+                "Collision Frequency တိုးမြှင့်ခြင်းဖြင့် အလုပ်လုပ်သော Factor နှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Concentration and surface area",
+              "Temperature and catalysts",
+              "Concentration and temperature",
+              "Surface area and catalysts",
+            ],
+            optionsMy: [
+              "Concentration နှင့် Surface Area",
+              "Temperature နှင့် Catalyst",
+              "Concentration နှင့် Temperature",
+              "Surface Area နှင့် Catalyst",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which two factors work by increasing the fraction of successful collisions?",
+            questionMy:
+                "Successful Collision Fraction တိုးမြှင့်ခြင်းဖြင့် အလုပ်လုပ်သော Factor နှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Temperature and catalysts",
+              "Concentration and surface area",
+              "Concentration and catalysts",
+              "Surface area and temperature",
+            ],
+            optionsMy: [
+              "Temperature နှင့် Catalyst",
+              "Concentration နှင့် Surface Area",
+              "Concentration နှင့် Catalyst",
+              "Surface Area နှင့် Temperature",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how many underlying mechanisms do the four factors reduce to?",
+            questionMy:
+                "Factor လေးခုသည် Underlying Mechanism မည်မျှသို့ ကျုံ့သွားသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Two", "Four", "One", "Eight"],
+            optionsMy: ["နှစ်ခု", "လေးခု", "တစ်ခု", "ရှစ်ခု"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ နိဂုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w32-d5",
+      dayNumber: 5,
+      titleEn: "Term 8 Capstone: Reaction Kinetics",
+      titleMy: "Term ၈ အထွတ်အထိပ် - Reaction Kinetics",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Collision theory states that a reaction only occurs when particles collide with...",
+          questionMy:
+              "Collision Theory အရ Particle များ ...ဖြင့် Collide ဖြစ်ချိန်တွင်သာ Reaction တစ်ခု ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Energy ≥ Ea and correct orientation",
+            "Zero energy always",
+            "Random, unrelated orientations",
+            "Maximum possible speed only",
+          ],
+          optionsMy: [
+            "Energy ≥ Ea နှင့် မှန်ကန်သော Orientation",
+            "Energy Zero အမြဲ",
+            "ကျပန်း၊ မဆက်စပ်သော Orientation",
+            "ဖြစ်နိုင်သော Speed အများဆုံးသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Maxwell-Boltzmann distribution's total area stays constant because it represents...",
+          questionMy:
+              "Maxwell-Boltzmann Distribution ၏ Total Area သည် ...ကို ကိုယ်စားပြုသောကြောင့် တည်ငြိမ်ဆဲ ရှိနေသည်",
+          optionsEn: [
+            "The total number of particles",
+            "The activation energy",
+            "The reaction rate",
+            "The catalyst's mass",
+          ],
+          optionsMy: [
+            "Particle Total အရေအတွက်",
+            "Activation Energy",
+            "Reaction Rate",
+            "Catalyst ၏ Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst provides an alternative pathway with...",
+          questionMy:
+              "Catalyst တစ်ခုသည် ...ရှိသော Alternative Pathway ပေးအပ်သည်",
+          optionsEn: [
+            "Lower activation energy",
+            "Higher activation energy",
+            "No activation energy change at all",
+            "A completely different set of reactants",
+          ],
+          optionsMy: [
+            "Activation Energy ပိုနိမ့်ခြင်း",
+            "Activation Energy ပိုမြင့်ခြင်း",
+            "Activation Energy ပြောင်းလဲမှု လုံးဝ မရှိခြင်း",
+            "Reactant အစုံ လုံးဝ ကွဲပြားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing surface area and increasing temperature both speed up reactions, but through...",
+          questionMy:
+              "Surface Area တိုးမြှင့်ခြင်းနှင့် Temperature တိုးမြှင့်ခြင်း နှစ်ခုစလုံးသည် Reaction ကို မြန်ဆန်စေသော်လည်း ...မှတစ်ဆင့် ဖြစ်သည်",
+          optionsEn: [
+            "Different underlying mechanisms",
+            "The exact same mechanism",
+            "No mechanism at all",
+            "A mechanism that only applies to gases",
+          ],
+          optionsMy: [
+            "မတူညီသော Underlying Mechanism",
+            "Mechanism အတိအကျ တူညီ",
+            "Mechanism လုံးဝ မရှိခြင်း",
+            "Gas များအတွက်သာ သက်ဆိုင်သော Mechanism",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm8 = CourseTermDef(
+  id: "course-y12-chem-term8",
+  termNumber: 8,
+  titleEn: "Reaction Kinetics",
+  titleMy: "Reaction Kinetics",
+  weeks: [_y12ChemWeek29, _y12ChemWeek30, _y12ChemWeek31, _y12ChemWeek32],
+  certificateTitleEn: "AS Chemistry: Reaction Kinetics",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Reaction Kinetics",
+);
+
 /// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-7 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
+/// 1-8 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
 /// Bonding; States of Matter; Chemical Energetics; Electrochemistry;
-/// Equilibria) authored; Terms 8-9 (Reaction Kinetics; The Periodic
-/// Table -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No
-/// LaTeX renderer exists in this app -- formulas throughout use the
-/// same plain Unicode math notation (², √, x for multiplication)
-/// already established by the IGCSE pathways, not literal LaTeX markup.
+/// Equilibria; Reaction Kinetics) authored; Term 9 (The Periodic Table
+/// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
+/// renderer exists in this app -- formulas throughout use the same
+/// plain Unicode math notation (², √, x for multiplication) already
+/// established by the IGCSE pathways, not literal LaTeX markup.
 const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
   id: "course-year12-chemistry",
   subject: "chemistry",
@@ -22606,7 +23983,7 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 28,
+  totalWeeks: 32,
   terms: [
     year12ChemistryTerm1,
     year12ChemistryTerm2,
@@ -22615,5 +23992,6 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
     year12ChemistryTerm5,
     year12ChemistryTerm6,
     year12ChemistryTerm7,
+    year12ChemistryTerm8,
   ],
 );
