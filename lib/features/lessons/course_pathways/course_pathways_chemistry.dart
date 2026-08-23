@@ -14806,15 +14806,1236 @@ const CourseTermDef year12ChemistryTerm1 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Atomic Structure",
 );
 
-/// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Term 1
-/// (Atomic Structure) authored; Terms 2-9 (Atoms, Molecules and
-/// Stoichiometry; Chemical Bonding; States of Matter; Chemical
-/// Energetics; Electrochemistry; Equilibria; Reaction Kinetics; The
-/// Periodic Table -- Group 2 and Group 17 -- and AS Exam Prep) to
-/// follow. No LaTeX renderer exists in this app -- formulas throughout
-/// use the same plain Unicode math notation (², √, x for
-/// multiplication) already established by the IGCSE pathways, not
-/// literal LaTeX markup.
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 2: "Atoms, Molecules and Stoichiometry"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "The Mole and Molar Mass"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek5 = CourseWeekDef(
+  id: "course-y12-chem-w5",
+  weekNumber: 5,
+  titleEn: "The Mole and Molar Mass",
+  titleMy: "The Mole နှင့် Molar Mass",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w5-d1",
+      dayNumber: 1,
+      titleEn: "The Mole Concept",
+      titleMy: "The Mole Concept",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The mole is defined as the amount of substance that contains...",
+          questionMy:
+              "Mole ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ ...ပါဝင်သော Substance ၏ Amount ဖြစ်သည်",
+          optionsEn: [
+            "As many particles as there are atoms in exactly 12 g of carbon-12",
+            "Exactly 1 gram of any substance",
+            "Exactly 1 particle of any substance",
+            "As many particles as there are in 1 litre of water",
+          ],
+          optionsMy: [
+            "Carbon-12 ၏ 12 g အတိအကျတွင် ရှိသော Atom အရေအတွက်နှင့် Particle အရေအတွက် တူညီစွာ",
+            "Substance မည်သည့်တစ်ခု၏ Gram 1 အတိအကျ",
+            "Substance မည်သည့်တစ်ခု၏ Particle 1 ခု အတိအကျ",
+            "ရေ Litre 1 ထဲရှိ Particle အရေအတွက်နှင့် တူညီစွာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sample of NaOH (Mr = 40) has a mass of 8 g. The amount of NaOH, in moles, is...",
+          questionMy:
+              "NaOH (Mr = 40) Sample တစ်ခုသည် Mass 8 g ရှိသည်။ NaOH ၏ Amount (Mole) မှာ...",
+          optionsEn: ["0.2 mol", "5 mol", "320 mol", "32 mol"],
+          optionsMy: ["0.2 mol", "5 mol", "320 mol", "32 mol"],
+          correctIndex: 0,
+          hintsEn: ["n = m / M = 8 / 40 = 0.2 mol."],
+          hintsMy: ["n = m / M = 8 / 40 = 0.2 mol ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "0.5 mol of a substance contains how many particles? (Avogadro constant = 6.02 x 10²³ mol⁻¹)",
+          questionMy:
+              "Substance တစ်ခု၏ 0.5 mol တွင် Particle မည်မျှ ပါဝင်သည်နည်း။ (Avogadro Constant = 6.02 x 10²³ mol⁻¹)",
+          optionsEn: [
+            "3.01 x 10²³",
+            "6.02 x 10²³",
+            "1.204 x 10²⁴",
+            "3.01 x 10²²",
+          ],
+          optionsMy: [
+            "3.01 x 10²³",
+            "6.02 x 10²³",
+            "1.204 x 10²⁴",
+            "3.01 x 10²²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Number of particles = moles x NA = 0.5 x (6.02 x 10²³) = 3.01 x 10²³.",
+          ],
+          hintsMy: [
+            "Particle အရေအတွက် = Mole x NA = 0.5 x (6.02 x 10²³) = 3.01 x 10²³ ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mole Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mole ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w5-dm-1",
+          termEn: "Mole",
+          termMy: "Mole",
+          matchEn:
+              "The SI unit for amount of substance, containing the Avogadro constant's worth of particles",
+          matchMy:
+              "Substance ၏ Amount အတွက် SI ယူနစ်၊ Avogadro Constant ၏ Particle အရေအတွက် ပါဝင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w5-dm-2",
+          termEn: "Avogadro constant (NA)",
+          termMy: "Avogadro Constant (NA)",
+          matchEn:
+              "The number of particles in one mole of a substance, 6.02 x 10²³ mol⁻¹",
+          matchMy:
+              "Substance တစ်ခု၏ Mole 1 ခုထဲရှိ Particle အရေအတွက်၊ 6.02 x 10²³ mol⁻¹",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w5-dm-3",
+          termEn: "Molar mass (M)",
+          termMy: "Molar Mass (M)",
+          matchEn:
+              "The mass of one mole of a substance, measured in g mol⁻¹, numerically equal to Mr",
+          matchMy:
+              "Substance တစ်ခု၏ Mole 1 ခု၏ Mass၊ g mol⁻¹ ဖြင့် တိုင်းတာပြီး Mr နှင့် ဂဏန်းအားဖြင့် ညီမျှသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w5-dm-4",
+          termEn: "Relative molecular mass (Mr)",
+          termMy: "Relative Molecular Mass (Mr)",
+          matchEn:
+              "The sum of the relative atomic masses of all atoms in a molecule's formula",
+          matchMy:
+              "Molecule ၏ Formula ထဲရှိ Atom အားလုံး၏ Relative Atomic Mass ပေါင်းလဒ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w5-dm-5",
+          termEn: "Amount of substance (n)",
+          termMy: "Amount of Substance (n)",
+          matchEn: "Calculated as mass divided by molar mass, n = m / M",
+          matchMy: "Mass ကို Molar Mass ဖြင့် စား၍ တွက်ချက်သည်၊ n = m / M",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Higher or Lower Molar Mass than Water?",
+      titleMy: "စီစစ်ကြမည် - ရေထက် Molar Mass ပိုများလား၊ ပိုနည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Higher Molar Mass than Water (H₂O, Mr = 18)",
+          "Lower Molar Mass than Water",
+        ],
+        bucketsMy: [
+          "ရေထက် Molar Mass ပိုများ (H₂O, Mr = 18)",
+          "ရေထက် Molar Mass ပိုနည်း",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w5-sort-1",
+            labelEn: "Carbon dioxide, CO₂ (Mr = 44)",
+            labelMy: "Carbon Dioxide, CO₂ (Mr = 44)",
+            correctBucketEn: "Higher Molar Mass than Water (H₂O, Mr = 18)",
+            correctBucketMy: "ရေထက် Molar Mass ပိုများ (H₂O, Mr = 18)",
+          ),
+          SortingItem(
+            id: "y12chem-w5-sort-2",
+            labelEn: "Hydrogen gas, H₂ (Mr = 2)",
+            labelMy: "Hydrogen ဓာတ်ငွေ့, H₂ (Mr = 2)",
+            correctBucketEn: "Lower Molar Mass than Water",
+            correctBucketMy: "ရေထက် Molar Mass ပိုနည်း",
+          ),
+          SortingItem(
+            id: "y12chem-w5-sort-3",
+            labelEn: "Sodium chloride, NaCl (Mr = 58.5)",
+            labelMy: "Sodium Chloride, NaCl (Mr = 58.5)",
+            correctBucketEn: "Higher Molar Mass than Water (H₂O, Mr = 18)",
+            correctBucketMy: "ရေထက် Molar Mass ပိုများ (H₂O, Mr = 18)",
+          ),
+          SortingItem(
+            id: "y12chem-w5-sort-4",
+            labelEn: "Helium gas, He (Mr = 4)",
+            labelMy: "Helium ဓာတ်ငွေ့, He (Mr = 4)",
+            correctBucketEn: "Lower Molar Mass than Water",
+            correctBucketMy: "ရေထက် Molar Mass ပိုနည်း",
+          ),
+          SortingItem(
+            id: "y12chem-w5-sort-5",
+            labelEn: "Calcium carbonate, CaCO₃ (Mr = 100)",
+            labelMy: "Calcium Carbonate, CaCO₃ (Mr = 100)",
+            correctBucketEn: "Higher Molar Mass than Water (H₂O, Mr = 18)",
+            correctBucketMy: "ရေထက် Molar Mass ပိုများ (H₂O, Mr = 18)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Grams to Particles",
+      titleMy: "စာဖတ်ခြင်း - Gram မှ Particle သို့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Grams to Particles",
+        titleMy: "Gram မှ Particle သို့",
+        passageEn:
+            "Sayar Kyaw Thura Zin's class weighed out 5.85 g of sodium chloride, NaCl (Mr = 58.5), on a laboratory balance. He asked them to find both the number of moles present and the actual number of NaCl formula units in the sample.\n\nHtet Aung Kyaw found the moles first: n = m / M = 5.85 / 58.5 = 0.1 mol. To find the number of formula units, he multiplied by the Avogadro constant: number of particles = n x NA = 0.1 x (6.02 x 10²³) = 6.02 x 10²².\n\nSayar Kyaw Thura Zin pointed out something worth sitting with: 0.1 mol sounds like a small, almost forgettable quantity, and 5.85 g is a small, easily weighable pinch of salt -- yet it corresponds to 602,000,000,000,000,000,000,000 individual formula units, a number so large it has no everyday meaning at all. Htet Aung Kyaw realised this is exactly why the mole exists as a unit: chemists work with masses they can weigh on a balance, gram by gram, while chemical reactions actually happen atom by atom and particle by particle -- the mole is the bridge that converts cleanly between the two scales, letting a lab-scale measurement like 5.85 g translate directly into a particle count without ever having to count atoms one at a time.",
+        passageMy:
+            "Sayar ကျော်သူရဇင် ၏ အတန်းသည် Sodium Chloride, NaCl (Mr = 58.5) 5.85 g ကို Laboratory Balance ပေါ်တွင် ချိန်ခဲ့ကြသည်။ ရှိနေသော Mole အရေအတွက်နှင့် Sample ထဲရှိ NaCl Formula Unit တကယ့် အရေအတွက်ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nHtet Aung Kyaw သည် Mole ကို ဦးစွာ ရှာဖွေခဲ့သည် - n = m / M = 5.85 / 58.5 = 0.1 mol ။ Formula Unit အရေအတွက်ကို ရှာဖွေရန် Avogadro Constant ဖြင့် မြှောက်ခဲ့သည် - Particle အရေအတွက် = n x NA = 0.1 x (6.02 x 10²³) = 6.02 x 10²² ။\n\nစဉ်းစားထိုက်သော အချက်တစ်ခုကို Sayar ကျော်သူရဇင် ထောက်ပြခဲ့သည် - 0.1 mol သည် သေးငယ်၊ မေ့လျော့လွယ်သော ပမာဏတစ်ခုကဲ့သို့ ကြားရပြီး 5.85 g သည် လွယ်ကူစွာ ချိန်တွယ်နိုင်သော ဆားအနည်းငယ် ဖြစ်သည် -- သို့သော် ၎င်းသည် Formula Unit တစ်ခုချင်းစီ 602,000,000,000,000,000,000,000 နှင့် ညီမျှပြီး နေ့စဉ်ဘဝတွင် အဓိပ္ပာယ် လုံးဝ မရှိလောက်သော ကြီးမားသော ဂဏန်း ဖြစ်သည်။ ၎င်းသည် Mole သည် ယူနစ်တစ်ခုအဖြစ် အဘယ့်ကြောင့် တည်ရှိသည်ကို အတိအကျ ညွှန်ပြသည်ကို Htet Aung Kyaw သတိပြုမိခဲ့သည် - Chemist များသည် Balance ပေါ်တွင် Gram ချိန်ခြင်းနှင့် Weigh လုပ်နိုင်သော Mass များကို အလုပ်လုပ်ကြသော်လည်း Chemical Reaction များသည် Atom တစ်ခုစီနှင့် Particle တစ်ခုစီ တကယ်တမ်း ဖြစ်ပေါ်ကြသည် -- Mole သည် Scale နှစ်ခုကြား ရှင်းလင်းစွာ ပြောင်းလဲပေးသော တံတား ဖြစ်ပြီး 5.85 g ကဲ့သို့ Lab-Scale Measurement တစ်ခုကို Atom တစ်ခုချင်းစီ ရေတွက်စရာ လုံးဝ မလိုအပ်ဘဲ Particle Count တစ်ခုသို့ တိုက်ရိုက် ဘာသာပြန်ပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many moles of NaCl are present?",
+            questionMy: "NaCl မည်မျှ Mole ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.1 mol", "5.85 mol", "58.5 mol", "0.585 mol"],
+            optionsMy: ["0.1 mol", "5.85 mol", "58.5 mol", "0.585 mol"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many NaCl formula units are present?",
+            questionMy:
+                "NaCl Formula Unit မည်မျှ ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "6.02 x 10²²",
+              "6.02 x 10²³",
+              "5.85 x 10²³",
+              "1 x 10²³",
+            ],
+            optionsMy: [
+              "6.02 x 10²²",
+              "6.02 x 10²³",
+              "5.85 x 10²³",
+              "1 x 10²³",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does the mole exist as a unit?",
+            questionMy:
+                "Mole သည် ယူနစ်တစ်ခုအဖြစ် အဘယ့်ကြောင့် တည်ရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It bridges lab-scale masses and the actual atomic-scale particle count",
+              "It makes chemistry calculations deliberately more difficult",
+              "It replaces the need for a balance in every experiment",
+              "It only applies to sodium chloride specifically",
+            ],
+            optionsMy: [
+              "Lab-Scale Mass များနှင့် တကယ့် Atomic-Scale Particle Count ကို ချိတ်ဆက်ပေးသည်",
+              "Chemistry တွက်ချက်မှုများကို တမင်တကာ ပို၍ ခက်ခဲစေသည်",
+              "စမ်းသပ်မှု တိုင်းတွင် Balance လိုအပ်ခြင်းကို အစားထိုးပေးသည်",
+              "Sodium Chloride တစ်ခုတည်းအတွက်သာ သက်ဆိုင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: The Mole",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - The Mole",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Amount of substance in moles is calculated as...",
+          questionMy: "Mole ထဲရှိ Amount of Substance ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Mass / molar mass",
+            "Mass x molar mass",
+            "Molar mass / mass",
+            "Mass + molar mass",
+          ],
+          optionsMy: [
+            "Mass / Molar Mass",
+            "Mass x Molar Mass",
+            "Molar Mass / Mass",
+            "Mass + Molar Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Avogadro constant is approximately...",
+          questionMy: "Avogadro Constant သည် ခန့်မှန်းခြေ...",
+          optionsEn: [
+            "6.02 x 10²³ mol⁻¹",
+            "6.02 x 10⁻²³ mol⁻¹",
+            "1.6 x 10⁻¹⁹ mol⁻¹",
+            "3.0 x 10⁸ mol⁻¹",
+          ],
+          optionsMy: [
+            "6.02 x 10²³ mol⁻¹",
+            "6.02 x 10⁻²³ mol⁻¹",
+            "1.6 x 10⁻¹⁹ mol⁻¹",
+            "3.0 x 10⁸ mol⁻¹",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sample of CaCO₃ (Mr = 100) has a mass of 25 g. The amount, in moles, is...",
+          questionMy:
+              "CaCO₃ (Mr = 100) Sample တစ်ခုသည် Mass 25 g ရှိသည်။ Amount (Mole) မှာ...",
+          optionsEn: ["0.25 mol", "4 mol", "2500 mol", "0.04 mol"],
+          optionsMy: ["0.25 mol", "4 mol", "2500 mol", "0.04 mol"],
+          correctIndex: 0,
+          hintsEn: ["n = m / M = 25 / 100 = 0.25 mol."],
+          hintsMy: ["n = m / M = 25 / 100 = 0.25 mol ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "Empirical and Molecular Formulae, and Balanced Equations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek6 = CourseWeekDef(
+  id: "course-y12-chem-w6",
+  weekNumber: 6,
+  titleEn: "Empirical and Molecular Formulae, and Balanced Equations",
+  titleMy: "Empirical and Molecular Formulae, and Balanced Equations",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w6-d1",
+      dayNumber: 1,
+      titleEn: "Formulae and Balancing Equations",
+      titleMy: "Formulae နှင့် Balancing Equations",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The empirical formula of a compound shows...",
+          questionMy: "Compound တစ်ခု၏ Empirical Formula သည် ...ဖော်ပြသည်",
+          optionsEn: [
+            "The simplest whole-number ratio of atoms of each element present",
+            "The exact number of atoms in one molecule always",
+            "Only the most abundant element present",
+            "The mass of the compound in grams",
+          ],
+          optionsMy: [
+            "ပါဝင်သော Element တစ်ခုစီ၏ Atom ရှိ အရိုးရှင်းဆုံး ကိန်းပြည့် Ratio",
+            "Molecule တစ်ခုထဲရှိ Atom အတိအကျ အရေအတွက် အမြဲ",
+            "အများဆုံး ပါဝင်သော Element တစ်ခုတည်း",
+            "Compound ၏ Mass Gram ဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A molecular formula is...",
+          questionMy: "Molecular Formula ဆိုသည်မှာ...",
+          optionsEn: [
+            "A whole-number multiple of the empirical formula, matching one actual molecule",
+            "Always identical to the empirical formula",
+            "Unrelated to the empirical formula",
+            "Only used for elements, never compounds",
+          ],
+          optionsMy: [
+            "Empirical Formula ၏ ကိန်းပြည့် အဆများ၊ Molecule တကယ့်တစ်ခုနှင့် ကိုက်ညီသည်",
+            "Empirical Formula နှင့် အမြဲ တူညီသည်",
+            "Empirical Formula နှင့် လုံးဝ မဆိုင်ပါ",
+            "Element များအတွက်သာ အသုံးပြုပြီး Compound အတွက် လုံးဝ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the balanced equation 2Mg + O2 -> 2MgO, the coefficient in front of Mg is...",
+          questionMy:
+              "Balanced Equation 2Mg + O2 -> 2MgO တွင် Mg ရှေ့ရှိ Coefficient မှာ...",
+          optionsEn: ["2", "1", "3", "4"],
+          optionsMy: ["2", "1", "3", "4"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Formulae and Equations Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Formulae and Equations ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w6-dm-1",
+          termEn: "Empirical formula",
+          termMy: "Empirical Formula",
+          matchEn:
+              "The simplest whole-number ratio of atoms of each element in a compound",
+          matchMy:
+              "Compound တစ်ခုထဲရှိ Element တစ်ခုစီ၏ Atom ရှိ အရိုးရှင်းဆုံး ကိန်းပြည့် Ratio",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w6-dm-2",
+          termEn: "Molecular formula",
+          termMy: "Molecular Formula",
+          matchEn:
+              "The actual number of atoms of each element in one molecule, a whole-number multiple of the empirical formula",
+          matchMy:
+              "Molecule တစ်ခုထဲရှိ Element တစ်ခုစီ၏ Atom တကယ့် အရေအတွက်၊ Empirical Formula ၏ ကိန်းပြည့် အဆ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w6-dm-3",
+          termEn: "Stoichiometry",
+          termMy: "Stoichiometry",
+          matchEn:
+              "The quantitative relationship between reactants and products in a balanced chemical equation",
+          matchMy:
+              "Balanced Chemical Equation ထဲရှိ Reactant များနှင့် Product များကြား Quantitative ဆက်စပ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w6-dm-4",
+          termEn: "Balanced equation",
+          termMy: "Balanced Equation",
+          matchEn:
+              "An equation where the number of atoms of each element is equal on both sides",
+          matchMy:
+              "Element တစ်ခုစီ၏ Atom အရေအတွက် ဘက်နှစ်ဖက်စလုံးတွင် ညီမျှသော Equation",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w6-dm-5",
+          termEn: "Limiting reagent",
+          termMy: "Limiting Reagent",
+          matchEn:
+              "The reactant that is completely used up first, determining the maximum amount of product formed",
+          matchMy:
+              "အရင်ဆုံး လုံးဝ ကုန်ဆုံးသွားသော Reactant၊ ဖြစ်ပေါ်လာသော Product အများဆုံး ပမာဏကို သတ်မှတ်ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Empirical or Molecular Formula?",
+      titleMy: "စီစစ်ကြမည် - Empirical သို့မဟုတ် Molecular Formula",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Empirical Formula", "Molecular Formula"],
+        bucketsMy: ["Empirical Formula", "Molecular Formula"],
+        items: [
+          SortingItem(
+            id: "y12chem-w6-sort-1",
+            labelEn: "CH₂O for glucose",
+            labelMy: "Glucose အတွက် CH₂O",
+            correctBucketEn: "Empirical Formula",
+            correctBucketMy: "Empirical Formula",
+          ),
+          SortingItem(
+            id: "y12chem-w6-sort-2",
+            labelEn: "C₆H₁₂O₆ for glucose",
+            labelMy: "Glucose အတွက် C₆H₁₂O₆",
+            correctBucketEn: "Molecular Formula",
+            correctBucketMy: "Molecular Formula",
+          ),
+          SortingItem(
+            id: "y12chem-w6-sort-3",
+            labelEn: "CH for benzene",
+            labelMy: "Benzene အတွက် CH",
+            correctBucketEn: "Empirical Formula",
+            correctBucketMy: "Empirical Formula",
+          ),
+          SortingItem(
+            id: "y12chem-w6-sort-4",
+            labelEn: "C₆H₆ for benzene",
+            labelMy: "Benzene အတွက် C₆H₆",
+            correctBucketEn: "Molecular Formula",
+            correctBucketMy: "Molecular Formula",
+          ),
+          SortingItem(
+            id: "y12chem-w6-sort-5",
+            labelEn: "CH₂ for ethene, the simplest whole-number ratio",
+            labelMy: "Ethene အတွက် CH₂၊ အရိုးရှင်းဆုံး ကိန်းပြည့် Ratio",
+            correctBucketEn: "Empirical Formula",
+            correctBucketMy: "Empirical Formula",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding Glucose's Molecular Formula",
+      titleMy: "စာဖတ်ခြင်း - Glucose ၏ Molecular Formula ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding Glucose's Molecular Formula",
+        titleMy: "Glucose ၏ Molecular Formula ရှာဖွေခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing gave her class the results of a combustion analysis on an unknown compound: a sample was found to contain 1.2 g of carbon, 0.2 g of hydrogen, and 1.6 g of oxygen, with nothing else present. She asked them to find the empirical formula.\n\nNan Su Yati converted each mass into moles using n = m / M: moles of C = 1.2 / 12 = 0.1, moles of H = 0.2 / 1 = 0.2, moles of O = 1.6 / 16 = 0.1. Dividing all three by the smallest value, 0.1, gave a ratio of C : H : O = 1 : 2 : 1, so the empirical formula is CH2O.\n\nSayama Moe Moe Khaing then revealed a second piece of data: a separate mass spectrometry measurement had found the compound's actual relative molecular mass, Mr, to be 180. She asked Nan Su Yati to use this to find the true molecular formula. Nan Su Yati first calculated the mass of one empirical formula unit: 12 + (2 x 1) + 16 = 30. Dividing the actual Mr by this empirical formula mass: 180 / 30 = 6, meaning the real molecule contains 6 empirical formula units. Multiplying every subscript in CH2O by 6 gives the molecular formula C6H12O6 -- glucose, the sugar that fuels cellular respiration in every living thing, confirming that empirical formula data alone was never enough on its own; it took a second, independent measurement of Mr to pin down the actual molecule.",
+        passageMy:
+            "အမည်မသိ Compound တစ်ခုအပေါ် Combustion Analysis ရလဒ်များကို Sayama မိုးမိုးခိုင် သူမ၏ အတန်းကို ပေးခဲ့သည် - Sample တွင် Carbon 1.2 g, Hydrogen 0.2 g နှင့် Oxygen 1.6 g ပါဝင်ပြီး အခြားမည်သည့်တစ်ခုမျှ မပါဝင်ကြောင်း တွေ့ရှိခဲ့သည်။ Empirical Formula ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nNan Su Yati သည် n = m / M ကို အသုံးပြု၍ Mass တစ်ခုစီကို Mole သို့ ပြောင်းလဲခဲ့သည် - C Mole = 1.2 / 12 = 0.1, H Mole = 0.2 / 1 = 0.2, O Mole = 1.6 / 16 = 0.1 ။ သုံးခုစလုံးကို အငယ်ဆုံး တန်ဖိုး 0.1 ဖြင့် စားခြင်းက C : H : O = 1 : 2 : 1 Ratio ကို ပေးသောကြောင့် Empirical Formula သည် CH2O ဖြစ်သည်။\n\nSayama မိုးမိုးခိုင် ထို့နောက် Data ဒုတိယတစ်ခုကို ဖော်ပြခဲ့သည် - သီးခြား Mass Spectrometry Measurement တစ်ခုသည် Compound ၏ တကယ့် Relative Molecular Mass, Mr ကို 180 ဟု တွေ့ရှိခဲ့သည်။ တကယ့် Molecular Formula ကို ရှာဖွေရန် ၎င်းကို အသုံးပြုရန် Nan Su Yati ကို ခိုင်းစေခဲ့သည်။ Nan Su Yati သည် Empirical Formula Unit တစ်ခု၏ Mass ကို ဦးစွာ တွက်ချက်ခဲ့သည် - 12 + (2 x 1) + 16 = 30 ။ တကယ့် Mr ကို ဤ Empirical Formula Mass ဖြင့် စားခြင်း - 180 / 30 = 6 ဆိုလိုသည်မှာ တကယ့် Molecule တွင် Empirical Formula Unit 6 ခု ပါဝင်သည်။ CH2O ရှိ Subscript တစ်ခုစီကို 6 ဖြင့် မြှောက်ခြင်းက Molecular Formula C6H12O6 ကို ပေးသည် -- Glucose, သက်ရှိတိုင်းရှိ Cellular Respiration ကို လောင်ကျွမ်းစေသော သကြား ဖြစ်ပြီး Empirical Formula Data တစ်ခုတည်းသည် ဘယ်သောအခါမျှ လုံလောက်ခြင်း မရှိကြောင်း၊ တကယ့် Molecule ကို အတိအကျ သတ်မှတ်ရန် Mr ၏ သီးခြား၊ Independent Measurement ဒုတိယတစ်ခု လိုအပ်ခဲ့ကြောင်း အတည်ပြုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the empirical formula of the compound?",
+            questionMy: "Compound ၏ Empirical Formula ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["CH2O", "C6H12O6", "CHO", "C2H4O2"],
+            optionsMy: ["CH2O", "C6H12O6", "CHO", "C2H4O2"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's ratio."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Ratio ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the mass of one empirical formula unit?",
+            questionMy:
+                "Empirical Formula Unit တစ်ခု၏ Mass ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["30", "180", "6", "12"],
+            optionsMy: ["30", "180", "6", "12"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the compound's molecular formula?",
+            questionMy: "Compound ၏ Molecular Formula ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["C6H12O6", "CH2O", "C3H6O3", "C12H24O12"],
+            optionsMy: ["C6H12O6", "CH2O", "C3H6O3", "C12H24O12"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final result."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး ရလဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Formulae and Equations",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Formulae and Equations",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The empirical formula shows...",
+          questionMy: "Empirical Formula သည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "The simplest whole-number ratio of atoms",
+            "The exact molecule size always",
+            "Only the compound's mass",
+            "The number of moles present",
+          ],
+          optionsMy: [
+            "Atom များ၏ အရိုးရှင်းဆုံး ကိန်းပြည့် Ratio",
+            "Molecule အရွယ်အစား အတိအကျ အမြဲ",
+            "Compound ၏ Mass တစ်ခုတည်း",
+            "ရှိနေသော Mole အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A molecular formula is found by...",
+          questionMy: "Molecular Formula ကို ...ဖြင့် ရှာဖွေသည်",
+          optionsEn: [
+            "Multiplying the empirical formula by a whole number found from Mr",
+            "Dividing the empirical formula by 2 always",
+            "Ignoring the empirical formula completely",
+            "Adding 1 to every subscript",
+          ],
+          optionsMy: [
+            "Mr မှ ရှာတွေ့သော ကိန်းပြည့်ဖြင့် Empirical Formula ကို မြှောက်ခြင်း",
+            "Empirical Formula ကို 2 ဖြင့် အမြဲ စားခြင်း",
+            "Empirical Formula ကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Subscript တစ်ခုစီသို့ 1 ပေါင်းထည့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a balanced chemical equation, the number of atoms of each element is...",
+          questionMy:
+              "Balanced Chemical Equation တစ်ခုတွင် Element တစ်ခုစီ၏ Atom အရေအတွက်သည်...",
+          optionsEn: [
+            "Equal on both sides",
+            "Always greater on the product side",
+            "Always greater on the reactant side",
+            "Irrelevant to balancing",
+          ],
+          optionsMy: [
+            "ဘက်နှစ်ဖက်စလုံးတွင် ညီမျှသည်",
+            "Product ဘက်တွင် အမြဲ ပိုများသည်",
+            "Reactant ဘက်တွင် အမြဲ ပိုများသည်",
+            "Balancing နှင့် မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "Gas Volumes and Solution Concentrations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek7 = CourseWeekDef(
+  id: "course-y12-chem-w7",
+  weekNumber: 7,
+  titleEn: "Gas Volumes and Solution Concentrations",
+  titleMy: "Gas Volumes နှင့် Solution Concentrations",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w7-d1",
+      dayNumber: 1,
+      titleEn: "Gas Volume and Concentration Formulas",
+      titleMy: "Gas Volume နှင့် Concentration ဖော်မြူလာများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At room temperature and pressure (rtp), one mole of any gas occupies...",
+          questionMy:
+              "Room Temperature and Pressure (rtp) တွင် ဓာတ်ငွေ့ မည်သည့်တစ်ခု၏ Mole 1 ခုသည်...",
+          optionsEn: ["24 dm³", "1 dm³", "12 dm³", "100 dm³"],
+          optionsMy: ["24 dm³", "1 dm³", "12 dm³", "100 dm³"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A sample of gas occupies 6 dm³ at rtp. The amount, in moles, is...",
+          questionMy:
+              "Gas Sample တစ်ခုသည် rtp တွင် 6 dm³ ယူသည်။ Amount (Mole) မှာ...",
+          optionsEn: ["0.25 mol", "144 mol", "4 mol", "0.04 mol"],
+          optionsMy: ["0.25 mol", "144 mol", "4 mol", "0.04 mol"],
+          correctIndex: 0,
+          hintsEn: ["n = V / 24 = 6 / 24 = 0.25 mol."],
+          hintsMy: ["n = V / 24 = 6 / 24 = 0.25 mol ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "0.5 mol of a substance is dissolved in 2 dm³ of solution. The concentration is...",
+          questionMy:
+              "Substance 0.5 mol ကို Solution 2 dm³ ထဲတွင် ပျော်ဝင်ထားသည်။ Concentration မှာ...",
+          optionsEn: [
+            "0.25 mol dm⁻³",
+            "1 mol dm⁻³",
+            "4 mol dm⁻³",
+            "2.5 mol dm⁻³",
+          ],
+          optionsMy: [
+            "0.25 mol dm⁻³",
+            "1 mol dm⁻³",
+            "4 mol dm⁻³",
+            "2.5 mol dm⁻³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Concentration = moles / volume = 0.5 / 2 = 0.25 mol dm⁻³.",
+          ],
+          hintsMy: [
+            "Concentration = Mole / Volume = 0.5 / 2 = 0.25 mol dm⁻³ ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gas and Solution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Gas and Solution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w7-dm-1",
+          termEn: "Molar gas volume",
+          termMy: "Molar Gas Volume",
+          matchEn:
+              "The volume occupied by one mole of any gas at room temperature and pressure, 24 dm³",
+          matchMy:
+              "Room Temperature and Pressure တွင် ဓာတ်ငွေ့ မည်သည့်တစ်ခု၏ Mole 1 ခု ယူသော Volume၊ 24 dm³",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w7-dm-2",
+          termEn: "Ideal gas equation",
+          termMy: "Ideal Gas Equation",
+          matchEn: "pV = nRT, relating pressure, volume, moles and temperature",
+          matchMy:
+              "pV = nRT, Pressure, Volume, Mole နှင့် Temperature ကို ဆက်စပ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w7-dm-3",
+          termEn: "Concentration (mol dm⁻³)",
+          termMy: "Concentration (mol dm⁻³)",
+          matchEn:
+              "The amount of solute, in moles, dissolved per dm³ of solution",
+          matchMy:
+              "Solution ၏ dm³ တစ်ခုလျှင် ပျော်ဝင်နေသော Solute ၏ Amount (Mole ဖြင့်)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w7-dm-4",
+          termEn: "Standard solution",
+          termMy: "Standard Solution",
+          matchEn: "A solution of accurately known concentration",
+          matchMy: "တိကျစွာ သိရှိထားသော Concentration ရှိ Solution",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w7-dm-5",
+          termEn: "Titration",
+          termMy: "Titration",
+          matchEn:
+              "A technique used to accurately determine the volume of one solution that reacts exactly with a known volume of another",
+          matchMy:
+              "သိရှိထားသော Volume ရှိ Solution တစ်ခုနှင့် အတိအကျ တုံ့ပြန်သော Solution တစ်ခု၏ Volume ကို တိကျစွာ ဆုံးဖြတ်ရန် အသုံးပြုသော နည်းစနစ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Gas Calculation or Solution Calculation?",
+      titleMy: "စီစစ်ကြမည် - Gas Calculation သို့မဟုတ် Solution Calculation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Gas Calculation", "Solution Calculation"],
+        bucketsMy: ["Gas Calculation", "Solution Calculation"],
+        items: [
+          SortingItem(
+            id: "y12chem-w7-sort-1",
+            labelEn: "Finding moles from volume of gas at rtp using V / 24",
+            labelMy: "rtp ရှိ Gas Volume ကို V / 24 ဖြင့် Mole ရှာဖွေခြင်း",
+            correctBucketEn: "Gas Calculation",
+            correctBucketMy: "Gas Calculation",
+          ),
+          SortingItem(
+            id: "y12chem-w7-sort-2",
+            labelEn: "Finding moles from volume and concentration using C x V",
+            labelMy:
+                "Volume နှင့် Concentration ကို C x V ဖြင့် Mole ရှာဖွေခြင်း",
+            correctBucketEn: "Solution Calculation",
+            correctBucketMy: "Solution Calculation",
+          ),
+          SortingItem(
+            id: "y12chem-w7-sort-3",
+            labelEn: "Using pV = nRT for a gas not at rtp",
+            labelMy: "rtp တွင် မရှိသော Gas အတွက် pV = nRT ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Gas Calculation",
+            correctBucketMy: "Gas Calculation",
+          ),
+          SortingItem(
+            id: "y12chem-w7-sort-4",
+            labelEn: "Titration used to find an unknown concentration",
+            labelMy: "အမည်မသိ Concentration ရှာဖွေရန် အသုံးပြုသော Titration",
+            correctBucketEn: "Solution Calculation",
+            correctBucketMy: "Solution Calculation",
+          ),
+          SortingItem(
+            id: "y12chem-w7-sort-5",
+            labelEn: "24 dm³ per mole applies to any gas at rtp",
+            labelMy:
+                "Mole 1 ခုလျှင် 24 dm³ သည် rtp ရှိ ဓာတ်ငွေ့ မည်သည့်တစ်ခုအတွက်မဆို သက်ဆိုင်သည်",
+            correctBucketEn: "Gas Calculation",
+            correctBucketMy: "Gas Calculation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding an Unknown Concentration by Titration",
+      titleMy: "စာဖတ်ခြင်း - Titration ဖြင့် အမည်မသိ Concentration ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding an Unknown Concentration by Titration",
+        titleMy: "Titration ဖြင့် အမည်မသိ Concentration ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Kyaw Thura Zin's class titrated 25.0 cm³ of NaOH solution of unknown concentration against 0.100 mol dm⁻³ hydrochloric acid, HCl. Exactly 20.0 cm³ of the acid was needed to neutralise the NaOH, according to the equation NaOH + HCl -> NaCl + H2O, a 1:1 reacting ratio. He asked the class to find the concentration of the NaOH.\n\nHtet Aung Kyaw started with the acid, since both its concentration and volume were known. He converted the volume from cm³ to dm³ first, dividing by 1000: 20.0 cm³ = 0.0200 dm³. Then he found the moles of HCl: moles = concentration x volume = 0.100 x 0.0200 = 0.00200 mol.\n\nBecause the equation shows a 1:1 ratio between NaOH and HCl, the moles of NaOH that reacted must also be 0.00200 mol. To find its concentration, Htet Aung Kyaw converted the NaOH's volume to dm³ as well -- 25.0 cm³ = 0.0250 dm³ -- and divided: concentration = moles / volume = 0.00200 / 0.0250 = 0.0800 mol dm⁻³.\n\nSayar Kyaw Thura Zin flagged the cm³-to-dm³ conversion as the single most common mistake in titration calculations: concentration in mol dm⁻³ is defined per dm³, not per cm³, so plugging a volume straight in from the burette reading -- 20.0 instead of 0.0200 -- would silently produce an answer exactly 1000 times too large, without any other part of the working looking obviously wrong.",
+        passageMy:
+            "Sayar ကျော်သူရဇင် ၏ အတန်းသည် Concentration အမည်မသိရှိသော NaOH Solution 25.0 cm³ ကို Hydrochloric Acid, HCl 0.100 mol dm⁻³ နှင့် Titrate လုပ်ခဲ့ကြသည်။ NaOH + HCl -> NaCl + H2O ဟူသော Equation၊ Reacting Ratio 1:1 အရ NaOH ကို Neutralise ပြုလုပ်ရန် Acid 20.0 cm³ အတိအကျ လိုအပ်ခဲ့သည်။ NaOH ၏ Concentration ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nHtet Aung Kyaw သည် Acid ၏ Concentration နှင့် Volume နှစ်ခုစလုံး သိရှိထားသောကြောင့် Acid ဖြင့် စတင်ခဲ့သည်။ Volume ကို cm³ မှ dm³ သို့ 1000 ဖြင့် စား၍ ဦးစွာ ပြောင်းလဲခဲ့သည် - 20.0 cm³ = 0.0200 dm³ ။ ထို့နောက် HCl ၏ Mole ကို ရှာဖွေခဲ့သည် - Mole = Concentration x Volume = 0.100 x 0.0200 = 0.00200 mol ။\n\nEquation က NaOH နှင့် HCl ကြား 1:1 Ratio ကို ပြသောကြောင့် တုံ့ပြန်သော NaOH ၏ Mole သည်လည်း 0.00200 mol ဖြစ်ရမည်။ ၎င်း၏ Concentration ကို ရှာဖွေရန် Htet Aung Kyaw သည် NaOH ၏ Volume ကိုလည်း dm³ သို့ ပြောင်းလဲခဲ့သည် -- 25.0 cm³ = 0.0250 dm³ -- ပြီး စားခဲ့သည် - Concentration = Mole / Volume = 0.00200 / 0.0250 = 0.0800 mol dm⁻³ ။\n\ncm³ မှ dm³ သို့ ပြောင်းလဲခြင်းကို Titration တွက်ချက်မှုများတွင် အဖြစ်များဆုံး အမှားတစ်ခုတည်းအဖြစ် Sayar ကျော်သူရဇင် အလံထူခဲ့သည် - mol dm⁻³ ရှိ Concentration ကို dm³ တစ်ခုလျှင်ဟု သတ်မှတ်ထားပြီး cm³ တစ်ခုလျှင် မဟုတ်ပါ၊ ထို့ကြောင့် Burette Reading မှ Volume ကို တိုက်ရိုက် ထည့်လိုက်ပါက -- 0.0200 အစား 20.0 -- Working ၏ အခြားအပိုင်း မည်သည့်တစ်ခုမျှ ထင်ရှားစွာ မှားယွင်းနေဟန် မတူဘဲ 1000 ဆ ပိုကြီးသော အဖြေတစ်ခုကို တိတ်တဆိတ် ထုတ်ပေးလိမ့်မည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many moles of HCl were used?",
+            questionMy: "HCl မည်မျှ Mole အသုံးပြုခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.00200 mol", "0.100 mol", "20.0 mol", "0.0200 mol"],
+            optionsMy: ["0.00200 mol", "0.100 mol", "20.0 mol", "0.0200 mol"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the concentration of the NaOH?",
+            questionMy: "NaOH ၏ Concentration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0.0800 mol dm⁻³",
+              "0.100 mol dm⁻³",
+              "0.00200 mol dm⁻³",
+              "0.0250 mol dm⁻³",
+            ],
+            optionsMy: [
+              "0.0800 mol dm⁻³",
+              "0.100 mol dm⁻³",
+              "0.00200 mol dm⁻³",
+              "0.0250 mol dm⁻³",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what mistake makes an answer exactly 1000 times too large?",
+            questionMy:
+                "အဖြေတစ်ခုကို 1000 ဆ အတိအကျ ပိုကြီးစေသော အမှားကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Using the volume in cm³ directly instead of converting to dm³",
+              "Using the wrong indicator colour",
+              "Measuring the acid's concentration incorrectly",
+              "Forgetting to balance the chemical equation",
+            ],
+            optionsMy: [
+              "dm³ သို့ ပြောင်းလဲခြင်းအစား Volume ကို cm³ ဖြင့် တိုက်ရိုက် အသုံးပြုခြင်း",
+              "Indicator အရောင် မှားယွင်းစွာ အသုံးပြုခြင်း",
+              "Acid ၏ Concentration ကို မှားယွင်းစွာ တိုင်းတာခြင်း",
+              "Chemical Equation ကို Balance မလုပ်ဘဲ မေ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's warning."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ သတိပေးချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Gas Volumes and Concentrations",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Gas Volumes and Concentrations",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Moles of gas at rtp are calculated as...",
+          questionMy: "rtp ရှိ Gas Mole ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Volume / 24",
+            "Volume x 24",
+            "24 / Volume",
+            "Volume + 24",
+          ],
+          optionsMy: [
+            "Volume / 24",
+            "Volume x 24",
+            "24 / Volume",
+            "Volume + 24",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Concentration in mol dm⁻³ is calculated as...",
+          questionMy: "mol dm⁻³ ရှိ Concentration ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Moles / volume in dm³",
+            "Moles x volume in dm³",
+            "Volume / moles",
+            "Moles + volume",
+          ],
+          optionsMy: [
+            "Mole / Volume in dm³",
+            "Mole x Volume in dm³",
+            "Volume / Mole",
+            "Mole + Volume",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A solution contains 0.02 mol of solute in 500 cm³ (0.5 dm³) of solution. Its concentration is...",
+          questionMy:
+              "Solution တစ်ခုတွင် Solute 0.02 mol ကို Solution 500 cm³ (0.5 dm³) ထဲတွင် ပါဝင်သည်။ ၎င်း၏ Concentration မှာ...",
+          optionsEn: [
+            "0.04 mol dm⁻³",
+            "0.01 mol dm⁻³",
+            "10 mol dm⁻³",
+            "0.4 mol dm⁻³",
+          ],
+          optionsMy: [
+            "0.04 mol dm⁻³",
+            "0.01 mol dm⁻³",
+            "10 mol dm⁻³",
+            "0.4 mol dm⁻³",
+          ],
+          correctIndex: 0,
+          hintsEn: ["Concentration = 0.02 / 0.5 = 0.04 mol dm⁻³."],
+          hintsMy: ["Concentration = 0.02 / 0.5 = 0.04 mol dm⁻³ ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8: "Atoms, Molecules and Stoichiometry Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek8 = CourseWeekDef(
+  id: "course-y12-chem-w8",
+  weekNumber: 8,
+  titleEn: "Atoms, Molecules and Stoichiometry Capstone",
+  titleMy: "Atoms, Molecules and Stoichiometry အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w8-d1",
+      dayNumber: 1,
+      titleEn: "Combining Moles, Formulae and Concentrations",
+      titleMy: "Moles, Formulae နှင့် Concentrations ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sample of CO₂ (Mr = 44) has a mass of 22 g. The amount, in moles, is...",
+          questionMy:
+              "CO₂ (Mr = 44) Sample တစ်ခုသည် Mass 22 g ရှိသည်။ Amount (Mole) မှာ...",
+          optionsEn: ["0.5 mol", "2 mol", "968 mol", "0.05 mol"],
+          optionsMy: ["0.5 mol", "2 mol", "968 mol", "0.05 mol"],
+          correctIndex: 0,
+          hintsEn: ["n = m / M = 22 / 44 = 0.5 mol."],
+          hintsMy: ["n = m / M = 22 / 44 = 0.5 mol ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A gas sample occupies 12 dm³ at rtp. The amount, in moles, is...",
+          questionMy:
+              "Gas Sample တစ်ခုသည် rtp တွင် 12 dm³ ယူသည်။ Amount (Mole) မှာ...",
+          optionsEn: ["0.5 mol", "288 mol", "2 mol", "0.02 mol"],
+          optionsMy: ["0.5 mol", "288 mol", "2 mol", "0.02 mol"],
+          correctIndex: 0,
+          hintsEn: ["n = V / 24 = 12 / 24 = 0.5 mol."],
+          hintsMy: ["n = V / 24 = 12 / 24 = 0.5 mol ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "0.3 mol of a solute is dissolved in 0.6 dm³ of solution. The concentration is...",
+          questionMy:
+              "Solute 0.3 mol ကို Solution 0.6 dm³ ထဲတွင် ပျော်ဝင်ထားသည်။ Concentration မှာ...",
+          optionsEn: [
+            "0.5 mol dm⁻³",
+            "0.18 mol dm⁻³",
+            "2 mol dm⁻³",
+            "1.8 mol dm⁻³",
+          ],
+          optionsMy: [
+            "0.5 mol dm⁻³",
+            "0.18 mol dm⁻³",
+            "2 mol dm⁻³",
+            "1.8 mol dm⁻³",
+          ],
+          correctIndex: 0,
+          hintsEn: ["Concentration = 0.3 / 0.6 = 0.5 mol dm⁻³."],
+          hintsMy: ["Concentration = 0.3 / 0.6 = 0.5 mol dm⁻³ ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 2 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၂ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w8-dm-1",
+          termEn: "Moles: n = ",
+          termMy: "Mole: n = ",
+          matchEn: "m / M",
+          matchMy: "m / M",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w8-dm-2",
+          termEn: "Moles of gas at rtp: n = ",
+          termMy: "rtp ရှိ Gas Mole: n = ",
+          matchEn: "V / 24",
+          matchMy: "V / 24",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w8-dm-3",
+          termEn: "Concentration = ",
+          termMy: "Concentration = ",
+          matchEn: "Moles / volume in dm³",
+          matchMy: "Mole / Volume in dm³",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w8-dm-4",
+          termEn: "Molecular formula = ",
+          termMy: "Molecular Formula = ",
+          matchEn: "Empirical formula x whole-number multiple",
+          matchMy: "Empirical Formula x ကိန်းပြည့် အဆ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w8-dm-5",
+          termEn: "Number of particles = ",
+          termMy: "Particle အရေအတွက် = ",
+          matchEn: "Moles x Avogadro constant",
+          matchMy: "Mole x Avogadro Constant",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Moles/Formulae or Gas/Solution Calculation?",
+      titleMy: "စီစစ်ကြမည် - Moles/Formulae သို့မဟုတ် Gas/Solution Calculation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Moles/Formulae", "Gas/Solution Calculation"],
+        bucketsMy: ["Moles/Formulae", "Gas/Solution Calculation"],
+        items: [
+          SortingItem(
+            id: "y12chem-w8-sort-1",
+            labelEn:
+                "Finding the simplest whole-number ratio of atoms from mass data",
+            labelMy:
+                "Mass Data မှ Atom များ၏ အရိုးရှင်းဆုံး ကိန်းပြည့် Ratio ရှာဖွေခြင်း",
+            correctBucketEn: "Moles/Formulae",
+            correctBucketMy: "Moles/Formulae",
+          ),
+          SortingItem(
+            id: "y12chem-w8-sort-2",
+            labelEn: "Using a titration to find an unknown concentration",
+            labelMy: "အမည်မသိ Concentration ရှာဖွေရန် Titration အသုံးပြုခြင်း",
+            correctBucketEn: "Gas/Solution Calculation",
+            correctBucketMy: "Gas/Solution Calculation",
+          ),
+          SortingItem(
+            id: "y12chem-w8-sort-3",
+            labelEn: "Dividing mass by molar mass to find moles",
+            labelMy: "Mole ရှာဖွေရန် Mass ကို Molar Mass ဖြင့် စားခြင်း",
+            correctBucketEn: "Moles/Formulae",
+            correctBucketMy: "Moles/Formulae",
+          ),
+          SortingItem(
+            id: "y12chem-w8-sort-4",
+            labelEn: "Using the 24 dm³ molar gas volume at rtp",
+            labelMy: "rtp ရှိ 24 dm³ Molar Gas Volume ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Gas/Solution Calculation",
+            correctBucketMy: "Gas/Solution Calculation",
+          ),
+          SortingItem(
+            id: "y12chem-w8-sort-5",
+            labelEn:
+                "Scaling an empirical formula up using relative molecular mass",
+            labelMy:
+                "Relative Molecular Mass ကို အသုံးပြု၍ Empirical Formula ကို ချဲ့ထွင်ခြင်း",
+            correctBucketEn: "Moles/Formulae",
+            correctBucketMy: "Moles/Formulae",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding the Formula of a Hydrated Salt",
+      titleMy: "စာဖတ်ခြင်း - Hydrated Salt တစ်ခု၏ Formula ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding the Formula of a Hydrated Salt",
+        titleMy: "Hydrated Salt တစ်ခု၏ Formula ရှာဖွေခြင်း",
+        passageEn:
+            "For their Term 2 capstone, Sayama Moe Moe Khaing's class combined moles and mole ratios into one practical problem: finding the value of x in hydrated copper sulfate, CuSO4.xH2O. A 2.50 g sample of the blue hydrated crystals was heated until all the water of crystallisation had driven off, leaving 1.60 g of white anhydrous copper sulfate.\n\nZin Mar Oo first found the mass of water lost: 2.50 - 1.60 = 0.90 g. She then converted both the anhydrous salt and the water into moles: moles of CuSO4 = 1.60 / 160 = 0.0100 mol (using Mr(CuSO4) = 160), and moles of H2O = 0.90 / 18 = 0.0500 mol.\n\nDividing both values by the smaller one, 0.0100, gave a mole ratio of CuSO4 : H2O = 1 : 5, so x = 5, and the hydrated salt's formula is CuSO4.5H2O -- exactly matching the familiar blue crystals used in school laboratories. Sayama Moe Moe Khaing closed the capstone by pointing out that this single experiment used every idea from the whole term: converting mass to moles (Week 5), finding a simplest whole-number ratio the same way an empirical formula is found from combustion data (Week 6), and treating water of crystallisation as a measurable quantity of substance in its own right, dissolved and released in fixed molar amounts (Week 7) -- proof that the mole concept isn't three separate techniques, but one single tool applied to three different kinds of question.",
+        passageMy:
+            "သူတို့၏ Term 2 အထွတ်အထိပ်အတွက် Sayama မိုးမိုးခိုင် ၏ အတန်းသည် Mole နှင့် Mole Ratio ကို လက်တွေ့ ပြဿနာတစ်ခုအဖြစ် ပေါင်းစပ်ခဲ့ကြသည် - Hydrated Copper Sulfate, CuSO4.xH2O ရှိ x ၏ တန်ဖိုးကို ရှာဖွေခြင်း။ အပြာရောင် Hydrated Crystal 2.50 g Sample တစ်ခုကို Crystallisation ရေ အားလုံး ထွက်သွားသည်အထိ ပူနွေးပေးခဲ့ပြီး Anhydrous Copper Sulfate အဖြူရောင် 1.60 g ကျန်ရစ်ခဲ့သည်။\n\nZin Mar Oo သည် ဆုံးရှုံးသွားသော ရေ၏ Mass ကို ဦးစွာ ရှာဖွေခဲ့သည် - 2.50 - 1.60 = 0.90 g ။ ထို့နောက် Anhydrous Salt နှင့် ရေ နှစ်ခုစလုံးကို Mole သို့ ပြောင်းလဲခဲ့သည် - CuSO4 Mole = 1.60 / 160 = 0.0100 mol (Mr(CuSO4) = 160 ကို အသုံးပြု၍) နှင့် H2O Mole = 0.90 / 18 = 0.0500 mol ။\n\nတန်ဖိုးနှစ်ခုစလုံးကို အငယ်ဆုံး 0.0100 ဖြင့် စားခြင်းက CuSO4 : H2O = 1 : 5 Mole Ratio ကို ပေးသောကြောင့် x = 5 ဖြစ်ပြီး Hydrated Salt ၏ Formula သည် CuSO4.5H2O -- ကျောင်း Laboratory များတွင် အသုံးပြုသော ရင်းနှီးသော အပြာရောင် Crystal များနှင့် အတိအကျ ကိုက်ညီသည်။ ဤ စမ်းသပ်မှု တစ်ခုတည်းသည် Term တစ်ခုလုံးမှ Idea တိုင်းကို အသုံးပြုခဲ့ကြောင်း Sayama မိုးမိုးခိုင် ထောက်ပြလျက် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည် - Mass ကို Mole သို့ ပြောင်းလဲခြင်း (ပဉ္စမပတ်)၊ Combustion Data မှ Empirical Formula ရှာဖွေသည့် နည်းလမ်းတူညီဖြင့် အရိုးရှင်းဆုံး ကိန်းပြည့် Ratio ရှာဖွေခြင်း (ဆဋ္ဌမပတ်) နှင့် Crystallisation ရေကို ၎င်းကိုယ်ပိုင် Substance ပမာဏ တိုင်းတာနိုင်သော Fixed Molar Amount ဖြင့် ပျော်ဝင်၊ ထွက်ရှိသည့်အနေဖြင့် ကိုင်တွယ်ခြင်း (သတ္တမပတ်) -- Mole Concept သည် သီးခြား နည်းစနစ် သုံးခု မဟုတ်ဘဲ မေးခွန်း သုံးမျိုးမတူသည်အပေါ် အသုံးချထားသော Tool တစ်ခုတည်း ဖြစ်ကြောင်း သက်သေပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what mass of water was lost on heating?",
+            questionMy:
+                "ပူနွေးချိန် ဆုံးရှုံးသွားသော ရေ Mass ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.90 g", "1.60 g", "2.50 g", "0.10 g"],
+            optionsMy: ["0.90 g", "1.60 g", "2.50 g", "0.10 g"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the value of x?",
+            questionMy: "x ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5", "1", "10", "0.9"],
+            optionsMy: ["5", "1", "10", "0.9"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's ratio."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Ratio ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the formula of the hydrated salt?",
+            questionMy: "Hydrated Salt ၏ Formula ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["CuSO4.5H2O", "CuSO4.H2O", "CuSO4.10H2O", "Cu5SO4.H2O"],
+            optionsMy: ["CuSO4.5H2O", "CuSO4.H2O", "CuSO4.10H2O", "Cu5SO4.H2O"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conclusion."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နိဂုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w8-d5",
+      dayNumber: 5,
+      titleEn: "Term 2 Capstone: Atoms, Molecules and Stoichiometry",
+      titleMy: "Term ၂ အထွတ်အထိပ် - Atoms, Molecules and Stoichiometry",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Amount of substance in moles is calculated as...",
+          questionMy: "Mole ထဲရှိ Amount of Substance ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Mass / molar mass",
+            "Mass x molar mass",
+            "Molar mass / mass",
+            "Mass + molar mass",
+          ],
+          optionsMy: [
+            "Mass / Molar Mass",
+            "Mass x Molar Mass",
+            "Molar Mass / Mass",
+            "Mass + Molar Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "One mole of any gas at rtp occupies...",
+          questionMy: "rtp ရှိ ဓာတ်ငွေ့ မည်သည့်တစ်ခု၏ Mole 1 ခုသည်...",
+          optionsEn: ["24 dm³", "1 dm³", "100 dm³", "6.02 x 10²³ dm³"],
+          optionsMy: ["24 dm³", "1 dm³", "100 dm³", "6.02 x 10²³ dm³"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Concentration in mol dm⁻³ is calculated as...",
+          questionMy: "mol dm⁻³ ရှိ Concentration ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "Moles / volume in dm³",
+            "Moles x volume in dm³",
+            "Volume / moles",
+            "Moles - volume",
+          ],
+          optionsMy: [
+            "Mole / Volume in dm³",
+            "Mole x Volume in dm³",
+            "Volume / Mole",
+            "Mole - Volume",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A molecular formula is a whole-number multiple of the...",
+          questionMy: "Molecular Formula သည် ...၏ ကိန်းပြည့် အဆ ဖြစ်သည်",
+          optionsEn: [
+            "Empirical formula",
+            "Ideal gas equation",
+            "Avogadro constant",
+            "Titration volume",
+          ],
+          optionsMy: [
+            "Empirical Formula",
+            "Ideal Gas Equation",
+            "Avogadro Constant",
+            "Titration Volume",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm2 = CourseTermDef(
+  id: "course-y12-chem-term2",
+  termNumber: 2,
+  titleEn: "Atoms, Molecules and Stoichiometry",
+  titleMy: "Atoms, Molecules and Stoichiometry",
+  weeks: [_y12ChemWeek5, _y12ChemWeek6, _y12ChemWeek7, _y12ChemWeek8],
+  certificateTitleEn: "AS Chemistry: Atoms, Molecules and Stoichiometry",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Atoms, Molecules and Stoichiometry",
+);
+
+/// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
+/// 1-2 (Atomic Structure; Atoms, Molecules and Stoichiometry) authored;
+/// Terms 3-9 (Chemical Bonding; States of Matter; Chemical Energetics;
+/// Electrochemistry; Equilibria; Reaction Kinetics; The Periodic Table
+/// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
+/// renderer exists in this app -- formulas throughout use the same
+/// plain Unicode math notation (², √, x for multiplication) already
+/// established by the IGCSE pathways, not literal LaTeX markup.
 const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
   id: "course-year12-chemistry",
   subject: "chemistry",
@@ -14825,6 +16046,6 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 4,
-  terms: [year12ChemistryTerm1],
+  totalWeeks: 8,
+  terms: [year12ChemistryTerm1, year12ChemistryTerm2],
 );
