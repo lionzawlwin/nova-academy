@@ -13497,3 +13497,1334 @@ const CoursePathwayDef year11ChemistryPathway = CoursePathwayDef(
     igcseChemistryTerm9,
   ],
 );
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 1: "Atomic Structure"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "Atoms, Isotopes and Relative Atomic Mass"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek1 = CourseWeekDef(
+  id: "course-y12-chem-w1",
+  weekNumber: 1,
+  titleEn: "Atoms, Isotopes and Relative Atomic Mass",
+  titleMy: "Atoms, Isotopes နှင့် Relative Atomic Mass",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w1-d1",
+      dayNumber: 1,
+      titleEn: "Subatomic Particles and Isotopes",
+      titleMy: "Subatomic Particles နှင့် Isotopes",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The atomic number of an element is defined as...",
+          questionMy:
+              "Element တစ်ခု၏ Atomic Number ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The number of protons in the nucleus of an atom",
+            "The number of neutrons in the nucleus of an atom",
+            "The total mass of an atom",
+            "The number of electron shells only",
+          ],
+          optionsMy: [
+            "Atom တစ်ခု၏ Nucleus ထဲရှိ Proton အရေအတွက်",
+            "Atom တစ်ခု၏ Nucleus ထဲရှိ Neutron အရေအတွက်",
+            "Atom တစ်ခု၏ Total Mass",
+            "Electron Shell အရေအတွက် တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Isotopes of the same element have...",
+          questionMy: "Element တူညီရှိ Isotopes များသည်...",
+          optionsEn: [
+            "The same number of protons but different numbers of neutrons",
+            "Different numbers of protons but the same number of neutrons",
+            "The same number of protons and neutrons always",
+            "Completely different chemical properties",
+          ],
+          optionsMy: [
+            "Proton အရေအတွက် တူညီသော်လည်း Neutron အရေအတွက် မတူညီပါ",
+            "Proton အရေအတွက် မတူညီသော်လည်း Neutron အရေအတွက် တူညီသည်",
+            "Proton နှင့် Neutron အရေအတွက် အမြဲ တူညီသည်",
+            "Chemical Property လုံးဝ မတူညီပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Chlorine has two isotopes: ³⁵Cl (75% abundance) and ³⁷Cl (25% abundance). Its relative atomic mass is...",
+          questionMy:
+              "Chlorine တွင် Isotope နှစ်ခု ရှိသည်: ³⁵Cl (Abundance 75%) နှင့် ³⁷Cl (Abundance 25%) ။ ၎င်း၏ Relative Atomic Mass မှာ...",
+          optionsEn: ["35.5", "36", "35", "37"],
+          optionsMy: ["35.5", "36", "35", "37"],
+          correctIndex: 0,
+          hintsEn: [
+            "Ar = (35 x 75 + 37 x 25) / 100 = (2625 + 925) / 100 = 35.5.",
+          ],
+          hintsMy: [
+            "Ar = (35 x 75 + 37 x 25) / 100 = (2625 + 925) / 100 = 35.5 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Atomic Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Atomic Structure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w1-dm-1",
+          termEn: "Proton",
+          termMy: "Proton",
+          matchEn:
+              "A positively charged subatomic particle found in the nucleus, relative mass 1",
+          matchMy:
+              "Nucleus ထဲရှိ အပေါင်း Charge ရှိသော Subatomic Particle၊ Relative Mass 1",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w1-dm-2",
+          termEn: "Neutron",
+          termMy: "Neutron",
+          matchEn:
+              "An uncharged subatomic particle found in the nucleus, relative mass 1",
+          matchMy:
+              "Nucleus ထဲရှိ Charge မရှိသော Subatomic Particle၊ Relative Mass 1",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w1-dm-3",
+          termEn: "Electron",
+          termMy: "Electron",
+          matchEn:
+              "A negatively charged subatomic particle found in shells around the nucleus, negligible relative mass",
+          matchMy:
+              "Nucleus ပတ်ပတ်လည် Shell များထဲရှိ အနုတ် Charge ရှိသော Subatomic Particle၊ Relative Mass လျစ်လျူရှုနိုင်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w1-dm-4",
+          termEn: "Isotopes",
+          termMy: "Isotopes",
+          matchEn:
+              "Atoms of the same element with the same number of protons but different numbers of neutrons",
+          matchMy:
+              "Element တူညီရှိ Atom များ၊ Proton အရေအတွက် တူညီသော်လည်း Neutron အရေအတွက် မတူညီပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w1-dm-5",
+          termEn: "Relative atomic mass (Ar)",
+          termMy: "Relative Atomic Mass (Ar)",
+          matchEn:
+              "The weighted average mass of the isotopes of an element, relative to 1/12 the mass of a carbon-12 atom",
+          matchMy:
+              "Element တစ်ခု၏ Isotope များ၏ Weighted Average Mass၊ Carbon-12 Atom တစ်ခု၏ Mass ၏ 1/12 ကို ကိုးကားထားသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Found in the Nucleus or Outside It?",
+      titleMy: "စီစစ်ကြမည် - Nucleus ထဲတွင် ရှိလား၊ ပြင်ပတွင် ရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Found in the Nucleus", "Found Outside the Nucleus"],
+        bucketsMy: ["Nucleus ထဲတွင် ရှိသည်", "Nucleus ပြင်ပတွင် ရှိသည်"],
+        items: [
+          SortingItem(
+            id: "y12chem-w1-sort-1",
+            labelEn: "Proton",
+            labelMy: "Proton",
+            correctBucketEn: "Found in the Nucleus",
+            correctBucketMy: "Nucleus ထဲတွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w1-sort-2",
+            labelEn: "Neutron",
+            labelMy: "Neutron",
+            correctBucketEn: "Found in the Nucleus",
+            correctBucketMy: "Nucleus ထဲတွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w1-sort-3",
+            labelEn: "Electron",
+            labelMy: "Electron",
+            correctBucketEn: "Found Outside the Nucleus",
+            correctBucketMy: "Nucleus ပြင်ပတွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w1-sort-4",
+            labelEn:
+                "A particle with a relative mass of 1 and a positive charge",
+            labelMy: "Relative Mass 1 နှင့် အပေါင်း Charge ရှိသော Particle",
+            correctBucketEn: "Found in the Nucleus",
+            correctBucketMy: "Nucleus ထဲတွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w1-sort-5",
+            labelEn: "A particle orbiting in shells with negligible mass",
+            labelMy:
+                "Shell များထဲတွင် ဝန်းရံနေသော Mass လျစ်လျူရှုနိုင်သော Particle",
+            correctBucketEn: "Found Outside the Nucleus",
+            correctBucketMy: "Nucleus ပြင်ပတွင် ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w1-d4",
+      dayNumber: 4,
+      titleEn:
+          "Reading: Why Chlorine's Relative Atomic Mass Isn't a Whole Number",
+      titleMy:
+          "စာဖတ်ခြင်း - Chlorine ၏ Relative Atomic Mass ကိန်းပြည့် မဟုတ်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Chlorine's Relative Atomic Mass Isn't a Whole Number",
+        titleMy:
+            "Chlorine ၏ Relative Atomic Mass ကိန်းပြည့် မဟုတ်ရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Zin Myo Aung showed his class a mass spectrum of chlorine gas, with two peaks: one at mass 35, making up 75% of the sample, and one at mass 37, making up the remaining 25%. He asked them to calculate chlorine's relative atomic mass from this data, and then to explain why the answer isn't a whole number, even though both isotopes themselves have whole-number mass numbers.\n\nThurein Bo set up the weighted average calculation: Ar = (mass1 x abundance1 + mass2 x abundance2) / 100 = (35 x 75 + 37 x 25) / 100 = (2625 + 925) / 100 = 3550 / 100 = 35.5.\n\nSayar Zin Myo Aung then asked Thurein Bo to explain, in his own words, why 35.5 makes physical sense even though no single chlorine atom actually has a mass of 35.5. Thurein Bo reasoned that relative atomic mass is not the mass of any individual atom -- every real chlorine atom has a whole-number mass of either 35 or 37 -- but rather a weighted average across a huge natural sample containing both isotopes in a fixed ratio. Since 75% of atoms weigh 35 and only 25% weigh 37, the average sits closer to 35 than to 37, landing at 35.5 -- a number that describes the sample as a whole, not any single atom within it, in exactly the same way that a class's average test score can be a decimal even though no student actually scored that exact decimal mark.",
+        passageMy:
+            "Sayar ဇင်မျိုးအောင် သည် သူ၏ အတန်းကို Chlorine ဓာတ်ငွေ့၏ Mass Spectrum တစ်ခု ပြသခဲ့သည်၊ Peak နှစ်ခု ရှိသည် - Mass 35 တွင် တစ်ခု၊ Sample ၏ 75% ဖြစ်ပြီး Mass 37 တွင် တစ်ခု၊ ကျန်ရှိသော 25% ဖြစ်သည်။ ဤ Data မှ Chlorine ၏ Relative Atomic Mass ကို တွက်ချက်ပြီး Isotope နှစ်ခုစလုံး ကိုယ်တိုင် ကိန်းပြည့် Mass Number ရှိသော်လည်း အဖြေသည် ကိန်းပြည့် မဟုတ်ရသည့် အကြောင်းရင်းကို ရှင်းပြခိုင်းခဲ့သည်။\n\nThurein Bo သည် Weighted Average တွက်ချက်မှုကို တည်ဆောက်ခဲ့သည် - Ar = (Mass1 x Abundance1 + Mass2 x Abundance2) / 100 = (35 x 75 + 37 x 25) / 100 = (2625 + 925) / 100 = 3550 / 100 = 35.5 ။\n\nChlorine Atom တစ်ခုတည်းမျှ Mass 35.5 လုံးဝ မရှိသော်လည်း 35.5 သည် ရုပ်ပိုင်းဆိုင်ရာ အဘယ့်ကြောင့် အဓိပ္ပာယ်ရှိသည်ကို သူ့ကိုယ်ပိုင် စကားဖြင့် ရှင်းပြရန် Sayar ဇင်မျိုးအောင် ထို့နောက် Thurein Bo ကို ခိုင်းစေခဲ့သည်။ Relative Atomic Mass သည် Individual Atom မည်သည့်တစ်ခု၏ Mass မဟုတ်ဘဲ -- တကယ့် Chlorine Atom တိုင်းသည် 35 (သို့) 37 ကိန်းပြည့် Mass ရှိသည် -- Isotope နှစ်ခုစလုံး Ratio သတ်မှတ်ထားချက်ဖြင့် ပါဝင်သော ကြီးမားသော သဘာဝ Sample တစ်ခုတလျှောက် Weighted Average တစ်ခုသာ ဖြစ်ကြောင်း Thurein Bo ဆင်ခြင်တွေးခေါ်ခဲ့သည်။ Atom ၏ 75% သည် 35 အလေးချိန်ရှိပြီး 25% သာ 37 အလေးချိန်ရှိသောကြောင့် Average သည် 37 ထက် 35 နှင့် ပို၍ နီးစပ်ပြီး 35.5 တွင် ရောက်ရှိသည် -- Sample တစ်ခုလုံးကို ဖော်ပြသော ဂဏန်းတစ်ခု ဖြစ်ပြီး ၎င်းအတွင်းရှိ Individual Atom တစ်ခုတည်းကို မဖော်ပြပါ၊ ကျောင်းသား တစ်ဦးတည်းသည် ထို Decimal Mark အတိအကျ လုံးဝ မရရှိသော်လည်း Class တစ်ခု၏ Average Test Score သည် Decimal ဖြစ်နိုင်သကဲ့သို့ အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the abundance of ³⁵Cl?",
+            questionMy: "³⁵Cl ၏ Abundance ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["75%", "25%", "35%", "50%"],
+            optionsMy: ["75%", "25%", "35%", "50%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is chlorine's relative atomic mass?",
+            questionMy:
+                "Chlorine ၏ Relative Atomic Mass ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["35.5", "36", "35", "37"],
+            optionsMy: ["35.5", "36", "35", "37"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why isn't relative atomic mass the mass of any single atom?",
+            questionMy:
+                "Relative Atomic Mass သည် Individual Atom တစ်ခု၏ Mass အဘယ့်ကြောင့် မဟုတ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is a weighted average across all isotopes present in the sample",
+              "Every chlorine atom actually weighs exactly 35.5",
+              "Mass spectrometry cannot measure whole-number masses",
+              "Chlorine has no isotopes at all",
+            ],
+            optionsMy: [
+              "Sample ထဲရှိ Isotope အားလုံးတစ်လျှောက် Weighted Average တစ်ခု ဖြစ်သည်",
+              "Chlorine Atom တိုင်းသည် တကယ်တမ်း 35.5 အတိအကျ အလေးချိန်ရှိသည်",
+              "Mass Spectrometry သည် ကိန်းပြည့် Mass များကို တိုင်းတာ၍ မရပါ",
+              "Chlorine တွင် Isotope လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Atoms and Isotopes",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Atoms and Isotopes",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The mass number of an atom is the total number of...",
+          questionMy:
+              "Atom တစ်ခု၏ Mass Number သည် ...စုစုပေါင်း အရေအတွက် ဖြစ်သည်",
+          optionsEn: [
+            "Protons and neutrons",
+            "Protons and electrons",
+            "Neutrons and electrons",
+            "Electrons alone",
+          ],
+          optionsMy: [
+            "Proton နှင့် Neutron",
+            "Proton နှင့် Electron",
+            "Neutron နှင့် Electron",
+            "Electron တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Isotopes have identical...",
+          questionMy: "Isotopes များသည် ...အတူတူ ရှိကြသည်",
+          optionsEn: [
+            "Chemical properties, since chemistry depends on electron number",
+            "Physical properties in every case",
+            "Mass numbers always",
+            "Numbers of neutrons",
+          ],
+          optionsMy: [
+            "Chemical Property, Chemistry သည် Electron အရေအတွက်ပေါ် မှီခိုသောကြောင့်",
+            "Physical Property အခြေအနေတိုင်း",
+            "Mass Number အမြဲ",
+            "Neutron အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An element has two isotopes: mass 10 (20% abundance) and mass 11 (80% abundance). Its relative atomic mass is...",
+          questionMy:
+              "Element တစ်ခုတွင် Isotope နှစ်ခု ရှိသည်: Mass 10 (Abundance 20%) နှင့် Mass 11 (Abundance 80%) ။ ၎င်း၏ Relative Atomic Mass မှာ...",
+          optionsEn: ["10.8", "10.5", "11", "10"],
+          optionsMy: ["10.8", "10.5", "11", "10"],
+          correctIndex: 0,
+          hintsEn: [
+            "Ar = (10 x 20 + 11 x 80) / 100 = (200 + 880) / 100 = 10.8.",
+          ],
+          hintsMy: [
+            "Ar = (10 x 20 + 11 x 80) / 100 = (200 + 880) / 100 = 10.8 ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "Electronic Configuration"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek2 = CourseWeekDef(
+  id: "course-y12-chem-w2",
+  weekNumber: 2,
+  titleEn: "Electronic Configuration",
+  titleMy: "Electronic Configuration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w2-d1",
+      dayNumber: 1,
+      titleEn: "Shells, Subshells and Orbitals",
+      titleMy: "Shells, Subshells နှင့် Orbitals",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Electrons are arranged around the nucleus in...",
+          questionMy: "Electron များကို Nucleus ပတ်ပတ်လည်တွင် ...၌ စီစဉ်ထားသည်",
+          optionsEn: [
+            "Shells, which are divided into subshells such as s, p and d",
+            "A single random cloud with no structure",
+            "The nucleus itself",
+            "One shell that holds every electron",
+          ],
+          optionsMy: [
+            "Shell များ၊ s, p, d ကဲ့သို့ Subshell များအဖြစ် ပိုင်းခြားထားသည်",
+            "ပုံသဏ္ဌာန် မရှိသော ကျပန်း Cloud တစ်ခုတည်း",
+            "Nucleus ကိုယ်တိုင်",
+            "Electron အားလုံးကို ဖမ်းထားသော Shell တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The maximum number of electrons a p subshell can hold is...",
+          questionMy:
+              "p Subshell တစ်ခု ဖမ်းထားနိုင်သော Electron အများဆုံး အရေအတွက်မှာ...",
+          optionsEn: ["6", "2", "10", "14"],
+          optionsMy: ["6", "2", "10", "14"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The electron configuration of sodium (atomic number 11) is...",
+          questionMy:
+              "Sodium (Atomic Number 11) ၏ Electron Configuration မှာ...",
+          optionsEn: [
+            "1s² 2s² 2p⁶ 3s¹",
+            "1s² 2s² 2p⁷",
+            "1s² 2s² 2p⁶ 3s²",
+            "1s² 2s² 2p⁶",
+          ],
+          optionsMy: [
+            "1s² 2s² 2p⁶ 3s¹",
+            "1s² 2s² 2p⁷",
+            "1s² 2s² 2p⁶ 3s²",
+            "1s² 2s² 2p⁶",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Fill 1s (2), 2s (2), 2p (6) = 10 electrons, leaving 1 electron for 3s¹, totalling 11.",
+          ],
+          hintsMy: [
+            "1s (2), 2s (2), 2p (6) ဖြည့်ပါက Electron 10 ခု ရရှိပြီး 3s¹ အတွက် Electron 1 ခု ကျန်ရစ်ကာ စုစုပေါင်း 11 ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electron Configuration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Electron Configuration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w2-dm-1",
+          termEn: "Shell",
+          termMy: "Shell",
+          matchEn:
+              "A group of orbitals with the same principal quantum number, holding a maximum of 2n² electrons",
+          matchMy:
+              "Principal Quantum Number တူညီသော Orbital အုပ်စု၊ 2n² အများဆုံး Electron ဖမ်းထားနိုင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w2-dm-2",
+          termEn: "Subshell",
+          termMy: "Subshell",
+          matchEn:
+              "A group of orbitals within a shell, labelled s, p, d or f, of increasing energy",
+          matchMy:
+              "Shell တစ်ခုအတွင်းရှိ Orbital အုပ်စု၊ s, p, d (သို့) f ဟု ခေါ်ပြီး Energy တိုးလာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w2-dm-3",
+          termEn: "Orbital",
+          termMy: "Orbital",
+          matchEn:
+              "A region of space where there is a high probability of finding an electron, holding a maximum of 2 electrons",
+          matchMy:
+              "Electron တွေ့ရှိနိုင်ခြေ မြင့်သော Space ဒေသ၊ အများဆုံး Electron 2 ခု ဖမ်းထားနိုင်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w2-dm-4",
+          termEn: "s subshell",
+          termMy: "s Subshell",
+          matchEn:
+              "A subshell containing 1 orbital and holding a maximum of 2 electrons",
+          matchMy:
+              "Orbital 1 ခု ပါဝင်ပြီး အများဆုံး Electron 2 ခု ဖမ်းထားနိုင်သော Subshell",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w2-dm-5",
+          termEn: "p subshell",
+          termMy: "p Subshell",
+          matchEn:
+              "A subshell containing 3 orbitals and holding a maximum of 6 electrons",
+          matchMy:
+              "Orbital 3 ခု ပါဝင်ပြီး အများဆုံး Electron 6 ခု ဖမ်းထားနိုင်သော Subshell",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: s-Block or p-Block Element?",
+      titleMy: "စီစစ်ကြမည် - s-Block သို့မဟုတ် p-Block Element",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["s-Block Element", "p-Block Element"],
+        bucketsMy: ["s-Block Element", "p-Block Element"],
+        items: [
+          SortingItem(
+            id: "y12chem-w2-sort-1",
+            labelEn: "Sodium (Na), outer configuration 3s¹",
+            labelMy: "Sodium (Na), Outer Configuration 3s¹",
+            correctBucketEn: "s-Block Element",
+            correctBucketMy: "s-Block Element",
+          ),
+          SortingItem(
+            id: "y12chem-w2-sort-2",
+            labelEn: "Chlorine (Cl), outer configuration 3p⁵",
+            labelMy: "Chlorine (Cl), Outer Configuration 3p⁵",
+            correctBucketEn: "p-Block Element",
+            correctBucketMy: "p-Block Element",
+          ),
+          SortingItem(
+            id: "y12chem-w2-sort-3",
+            labelEn: "Magnesium (Mg), outer configuration 3s²",
+            labelMy: "Magnesium (Mg), Outer Configuration 3s²",
+            correctBucketEn: "s-Block Element",
+            correctBucketMy: "s-Block Element",
+          ),
+          SortingItem(
+            id: "y12chem-w2-sort-4",
+            labelEn: "Oxygen (O), outer configuration 2p⁴",
+            labelMy: "Oxygen (O), Outer Configuration 2p⁴",
+            correctBucketEn: "p-Block Element",
+            correctBucketMy: "p-Block Element",
+          ),
+          SortingItem(
+            id: "y12chem-w2-sort-5",
+            labelEn: "Potassium (K), outer configuration 4s¹",
+            labelMy: "Potassium (K), Outer Configuration 4s¹",
+            correctBucketEn: "s-Block Element",
+            correctBucketMy: "s-Block Element",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Writing Calcium's Electron Configuration",
+      titleMy: "စာဖတ်ခြင်း - Calcium ၏ Electron Configuration ရေးသားခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Writing Calcium's Electron Configuration",
+        titleMy: "Calcium ၏ Electron Configuration ရေးသားခြင်း",
+        passageEn:
+            "Sayama Hnin Ei Phyu asked her class to write out the full electron configuration of calcium, atomic number 20. She reminded them that electrons fill subshells in order of increasing energy, not simply in order of increasing shell number.\n\nKyaw Swar Oo filled the lower subshells first: 1s² (2 electrons), 2s² (2), 2p⁶ (6), 3s² (2), 3p⁶ (6) -- a running total of 18 electrons, matching argon's full configuration. With 2 electrons still to place to reach calcium's total of 20, he paused: numerically, 3d looks like it should come next, since 3 is a smaller shell number than 4. But he recalled that subshells fill in order of energy, not shell number, and that 4s actually has slightly lower energy than 3d for this part of the periodic table -- so the final 2 electrons go into 4s, not 3d.\n\nThe completed configuration is therefore 1s² 2s² 2p⁶ 3s² 3p⁶ 4s². Sayama Hnin Ei Phyu pointed out that this configuration explains calcium's position in the periodic table directly: with its outermost electrons in 4s², calcium sits in the s-block, in Group 2 -- exactly where the periodic table places it -- which is no coincidence, since the periodic table's entire group structure is built around which subshell an element's outermost electrons occupy.",
+        passageMy:
+            "Calcium, Atomic Number 20 ၏ Electron Configuration အပြည့်အစုံကို ရေးသားရန် Sayama နှင်းအိဖြူ သူမ၏ အတန်းကို ခိုင်းစေခဲ့သည်။ Electron များသည် Shell Number တိုးလာသော အစီအစဉ်ဖြင့် မဟုတ်ဘဲ Energy တိုးလာသော အစီအစဉ်ဖြင့် Subshell များကို ဖြည့်ကြောင်း သူမ သတိပေးခဲ့သည်။\n\nKyaw Swar Oo သည် အနိမ့်ဆုံး Subshell များကို ဦးစွာ ဖြည့်ခဲ့သည် - 1s² (Electron 2), 2s² (2), 2p⁶ (6), 3s² (2), 3p⁶ (6) -- ကျပန်း Total 18, Argon ၏ Full Configuration နှင့် ကိုက်ညီသည်။ Calcium ၏ Total 20 သို့ ရောက်ရန် Electron 2 ခု ကျန်ရစ်ချိန် သူ ခေတ္တ ရပ်တန့်ခဲ့သည် - ဂဏန်းအရ 3 သည် 4 ထက် ငယ်သော Shell Number ဖြစ်သောကြောင့် 3d သည် နောက်တစ်ခု ဖြစ်ရမည်ဟု ထင်ရသည်။ သို့သော် Subshell များသည် Shell Number မဟုတ်ဘဲ Energy အစီအစဉ်ဖြင့် ဖြည့်ကြောင်း၊ Periodic Table ၏ ဤ ဒေသအတွက် 4s သည် 3d ထက် Energy အနည်းငယ် နိမ့်ကြောင်း သူ သတိရခဲ့သည် -- ထို့ကြောင့် နောက်ဆုံး Electron 2 ခုသည် 3d မဟုတ်ဘဲ 4s ထဲသို့ ဝင်သည်။\n\nပြီးစီးသော Configuration သည် 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² ဖြစ်သည်။ ဤ Configuration သည် Periodic Table ရှိ Calcium ၏ Position ကို တိုက်ရိုက် ရှင်းပြသည်ကို Sayama နှင်းအိဖြူ ထောက်ပြခဲ့သည် - ၎င်း၏ အပြင်ဆုံး Electron များသည် 4s² တွင် ရှိသောကြောင့် Calcium သည် s-Block, Group 2 တွင် ရှိသည် -- Periodic Table က ၎င်းကို ချထားသော နေရာ အတိအကျ ဖြစ်ပြီး ၎င်းသည် ကြုံကြိုက်မှု မဟုတ်ပါ၊ Periodic Table ၏ Group Structure တစ်ခုလုံးသည် Element တစ်ခု၏ အပြင်ဆုံး Electron များ မည်သည့် Subshell ကို ဖျားလုံနေသည်ပေါ် အခြေခံ၍ တည်ဆောက်ထားသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many electrons does argon's configuration account for?",
+            questionMy:
+                "Argon ၏ Configuration သည် Electron မည်မျှကို ရေတွက်ပြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["18", "20", "2", "6"],
+            optionsMy: ["18", "20", "2", "6"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's running total."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ကျပန်း Total ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which subshell holds calcium's final 2 electrons?",
+            questionMy:
+                "Calcium ၏ နောက်ဆုံး Electron 2 ခုကို မည်သည့် Subshell က ဖမ်းထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4s", "3d", "3p", "2p"],
+            optionsMy: ["4s", "3d", "3p", "2p"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's reasoning."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does calcium's configuration place it in Group 2?",
+            questionMy:
+                "Calcium ၏ Configuration သည် ၎င်းကို Group 2 တွင် အဘယ့်ကြောင့် ချထားသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its outermost electrons occupy the 4s subshell, matching the s-block, Group 2 position",
+              "It has exactly 20 protons and nothing else matters",
+              "Group 2 is assigned randomly to every twentieth element",
+              "Calcium has no electrons in any subshell at all",
+            ],
+            optionsMy: [
+              "၎င်း၏ အပြင်ဆုံး Electron များသည် 4s Subshell ကို ဖျားလုံပြီး s-Block, Group 2 Position နှင့် ကိုက်ညီသည်",
+              "Proton 20 ခု အတိအကျ ရှိပြီး အခြားအရာ မည်သည့်တစ်ခုမျှ အရေးမကြီးပါ",
+              "Group 2 ကို Element နှစ်ဆယ်မြောက်တိုင်းအတွက် ကျပန်း သတ်မှတ်ထားသည်",
+              "Calcium တွင် Subshell မည်သည့်တစ်ခုတွင်မျှ Electron လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Electronic Configuration",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Electronic Configuration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Subshells fill in order of...",
+          questionMy: "Subshell များသည် ...အစီအစဉ်ဖြင့် ဖြည့်သည်",
+          optionsEn: [
+            "Increasing energy",
+            "Increasing shell number only",
+            "Alphabetical order",
+            "Random order",
+          ],
+          optionsMy: [
+            "Energy တိုးလာသော အစီအစဉ်",
+            "Shell Number တိုးလာသော အစီအစဉ် တစ်ခုတည်း",
+            "အက္ခရာစဉ်",
+            "ကျပန်း အစီအစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An orbital can hold a maximum of...",
+          questionMy: "Orbital တစ်ခုသည် အများဆုံး ...ဖမ်းထားနိုင်သည်",
+          optionsEn: [
+            "2 electrons",
+            "6 electrons",
+            "10 electrons",
+            "1 electron",
+          ],
+          optionsMy: [
+            "Electron 2 ခု",
+            "Electron 6 ခု",
+            "Electron 10 ခု",
+            "Electron 1 ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The electron configuration of magnesium (atomic number 12) is...",
+          questionMy:
+              "Magnesium (Atomic Number 12) ၏ Electron Configuration မှာ...",
+          optionsEn: [
+            "1s² 2s² 2p⁶ 3s²",
+            "1s² 2s² 2p⁶ 3s¹",
+            "1s² 2s² 2p⁸",
+            "1s² 2s² 2p⁶",
+          ],
+          optionsMy: [
+            "1s² 2s² 2p⁶ 3s²",
+            "1s² 2s² 2p⁶ 3s¹",
+            "1s² 2s² 2p⁸",
+            "1s² 2s² 2p⁶",
+          ],
+          correctIndex: 0,
+          hintsEn: ["1s (2) + 2s (2) + 2p (6) + 3s (2) = 12 electrons."],
+          hintsMy: ["1s (2) + 2s (2) + 2p (6) + 3s (2) = Electron 12 ခု ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Ionisation Energy"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek3 = CourseWeekDef(
+  id: "course-y12-chem-w3",
+  weekNumber: 3,
+  titleEn: "Ionisation Energy",
+  titleMy: "Ionisation Energy",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w3-d1",
+      dayNumber: 1,
+      titleEn: "First and Successive Ionisation Energies",
+      titleMy: "First and Successive Ionisation Energies",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The first ionisation energy of an element is defined as...",
+          questionMy:
+              "Element တစ်ခု၏ First Ionisation Energy ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The energy required to remove one electron from each atom in one mole of gaseous atoms",
+            "The energy released when an atom gains an electron",
+            "The total energy of an atom's nucleus",
+            "The energy needed to remove every electron from an atom at once",
+          ],
+          optionsMy: [
+            "Gaseous Atom Mole တစ်ခုရှိ Atom တစ်ခုစီမှ Electron တစ်ခု ဖယ်ရှားရန် လိုအပ်သော Energy",
+            "Atom တစ်ခု Electron ရရှိချိန် ထုတ်လွှတ်သော Energy",
+            "Atom တစ်ခု၏ Nucleus Total Energy",
+            "Atom တစ်ခုမှ Electron အားလုံးကို တစ်ပြိုင်နက် ဖယ်ရှားရန် လိုအပ်သော Energy",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Across a period (left to right), first ionisation energy generally...",
+          questionMy:
+              "Period တစ်ခုတလျှောက် (ဘယ်မှ ညာသို့) First Ionisation Energy သည် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Increases, due to increasing nuclear charge with similar shielding",
+            "Decreases, due to increasing nuclear charge",
+            "Stays exactly constant",
+            "Becomes negative",
+          ],
+          optionsMy: [
+            "Shielding ဆင်တူဆဲ ရှိနေချိန် Nuclear Charge တိုးလာသောကြောင့် တိုးလာသည်",
+            "Nuclear Charge တိုးလာသောကြောင့် လျော့ကျသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "Negative ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Down a group, first ionisation energy generally...",
+          questionMy:
+              "Group တစ်ခုအောက်သို့ First Ionisation Energy သည် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Decreases, due to increased atomic radius and shielding",
+            "Increases, due to increased nuclear charge",
+            "Stays exactly constant",
+            "Becomes zero",
+          ],
+          optionsMy: [
+            "Atomic Radius နှင့် Shielding တိုးလာသောကြောင့် လျော့ကျသည်",
+            "Nuclear Charge တိုးလာသောကြောင့် တိုးလာသည်",
+            "အတိအကျ တူညီဆဲ ရှိနေသည်",
+            "Zero ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ionisation Energy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ionisation Energy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w3-dm-1",
+          termEn: "First ionisation energy",
+          termMy: "First Ionisation Energy",
+          matchEn:
+              "The energy required to remove one electron from each atom in one mole of gaseous atoms",
+          matchMy:
+              "Gaseous Atom Mole တစ်ခုရှိ Atom တစ်ခုစီမှ Electron တစ်ခု ဖယ်ရှားရန် လိုအပ်သော Energy",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w3-dm-2",
+          termEn: "Nuclear charge",
+          termMy: "Nuclear Charge",
+          matchEn:
+              "The total positive charge of the nucleus, due to its protons",
+          matchMy: "Proton များကြောင့် Nucleus ၏ Total အပေါင်း Charge",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w3-dm-3",
+          termEn: "Shielding",
+          termMy: "Shielding",
+          matchEn:
+              "The repulsion between electrons in inner shells that reduces the effective nuclear charge felt by outer electrons",
+          matchMy:
+              "အပြင်ဘက် Electron များ ခံစားရသော Effective Nuclear Charge ကို လျော့ချစေသော Inner Shell Electron များကြား Repulsion",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w3-dm-4",
+          termEn: "Successive ionisation energies",
+          termMy: "Successive Ionisation Energies",
+          matchEn:
+              "The energies required to remove each electron one at a time from an already-ionised atom, each one larger than the last",
+          matchMy:
+              "Ionise ဖြစ်ပြီးသား Atom တစ်ခုမှ Electron တစ်ခုချင်းစီ ဖယ်ရှားရန် လိုအပ်သော Energy များ၊ တစ်ခုစီသည် ယခင်ထက် ကြီးလာသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w3-dm-5",
+          termEn: "Atomic radius",
+          termMy: "Atomic Radius",
+          matchEn:
+              "The distance from the nucleus to the outermost electron shell",
+          matchMy: "Nucleus မှ အပြင်ဆုံး Electron Shell အထိ Distance",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases First Ionisation Energy?",
+      titleMy:
+          "စီစစ်ကြမည် - First Ionisation Energy ကို တိုးစေလား၊ လျှော့ချစေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Increases First Ionisation Energy",
+          "Decreases First Ionisation Energy",
+        ],
+        bucketsMy: [
+          "First Ionisation Energy ကို တိုးစေသည်",
+          "First Ionisation Energy ကို လျှော့ချသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w3-sort-1",
+            labelEn:
+                "Increasing nuclear charge with similar shielding, across a period",
+            labelMy:
+                "Period တစ်ခုတလျှောက် Shielding ဆင်တူဆဲ ရှိနေချိန် Nuclear Charge တိုးခြင်း",
+            correctBucketEn: "Increases First Ionisation Energy",
+            correctBucketMy: "First Ionisation Energy ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w3-sort-2",
+            labelEn: "Increasing atomic radius, down a group",
+            labelMy: "Group တစ်ခုအောက်သို့ Atomic Radius တိုးခြင်း",
+            correctBucketEn: "Decreases First Ionisation Energy",
+            correctBucketMy: "First Ionisation Energy ကို လျှော့ချသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w3-sort-3",
+            labelEn: "Increasing shielding from extra electron shells",
+            labelMy: "Electron Shell ထပ်ဆောင်းများမှ Shielding တိုးခြင်း",
+            correctBucketEn: "Decreases First Ionisation Energy",
+            correctBucketMy: "First Ionisation Energy ကို လျှော့ချသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w3-sort-4",
+            labelEn:
+                "Stronger attraction between the nucleus and outer electrons",
+            labelMy:
+                "Nucleus နှင့် အပြင်ဘက် Electron များကြား ပို၍ ခိုင်မာသော Attraction",
+            correctBucketEn: "Increases First Ionisation Energy",
+            correctBucketMy: "First Ionisation Energy ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w3-sort-5",
+            labelEn: "Greater distance between the nucleus and outer electrons",
+            labelMy:
+                "Nucleus နှင့် အပြင်ဘက် Electron များကြား ပို၍ ကြီးမားသော Distance",
+            correctBucketEn: "Decreases First Ionisation Energy",
+            correctBucketMy: "First Ionisation Energy ကို လျှော့ချသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deducing a Group from Successive Ionisation Energies",
+      titleMy:
+          "စာဖတ်ခြင်း - Successive Ionisation Energies မှ Group ကို ခန့်မှန်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deducing a Group from Successive Ionisation Energies",
+        titleMy: "Successive Ionisation Energies မှ Group ကို ခန့်မှန်းခြင်း",
+        passageEn:
+            "Sayar Thiha Aung gave his class the first four successive ionisation energies of an unknown element, in kJ mol⁻¹: 580, 1820, 2740, 11600. He asked them to use this data alone to deduce which group of the periodic table the element belongs to.\n\nEi Mon Wai looked at the ratio between consecutive values first: from IE1 to IE2 the value roughly triples, and from IE2 to IE3 it increases by a more modest amount -- both fairly ordinary jumps caused by removing electrons from an increasingly positive ion. But from IE3 to IE4, the value jumps from 2740 to 11600 -- more than four times larger, a jump far bigger than any of the previous ones.\n\nEi Mon Wai reasoned that such a large jump signals a change of electron shell: removing the first three electrons takes them from the outermost shell, which is held relatively loosely and shielded by inner shells, but the fourth electron must come from a shell much closer to the nucleus, with far less shielding and a much stronger attraction -- hence the huge jump in energy required. Since the big jump occurs after removing 3 electrons, the element must have had exactly 3 electrons in its outermost shell, placing it in Group 3 of the periodic table. Sayar Thiha Aung confirmed that this data matches aluminium, whose real successive ionisation energies show exactly this pattern -- and pointed out that this is a standard exam technique: the position of the largest jump in a set of successive ionisation energies directly reveals an element's group number.",
+        passageMy:
+            "Sayar သီဟအောင် သည် အမည်မသိ Element တစ်ခု၏ ပထမ Successive Ionisation Energy လေးခုကို kJ mol⁻¹ ဖြင့် သူ၏ အတန်းကို ပေးခဲ့သည် - 580, 1820, 2740, 11600 ။ ဤ Data တစ်ခုတည်းကို အသုံးပြု၍ Element သည် Periodic Table ၏ မည်သည့် Group တွင် ရှိသည်ကို ခန့်မှန်းခိုင်းခဲ့သည်။\n\nEi Mon Wai သည် Consecutive Value များကြား Ratio ကို ဦးစွာ ကြည့်ခဲ့သည် - IE1 မှ IE2 သို့ တန်ဖိုးသည် ခန့်မှန်းခြေ သုံးဆ တိုးလာပြီး IE2 မှ IE3 သို့ ပမာဏ အနည်းငယ်သာ တိုးလာသည် -- နှစ်ခုစလုံးသည် Positive ပို၍ ဖြစ်လာသော Ion တစ်ခုမှ Electron များ ဖယ်ရှားခြင်းကြောင့် ဖြစ်ပေါ်သော ရိုးရိုး ခုန်ခြင်းများ ဖြစ်သည်။ သို့သော် IE3 မှ IE4 သို့ တန်ဖိုးသည် 2740 မှ 11600 သို့ ခုန်တက်သည် -- လေးဆ ကျော်ကြီးမားပြီး ယခင် ခုန်ခြင်း မည်သည့်တစ်ခုထက်မဆို များစွာ ပိုကြီးသည်။\n\nဤသို့ ကြီးမားသော ခုန်ခြင်းသည် Electron Shell ပြောင်းလဲမှုကို ညွှန်ပြကြောင်း Ei Mon Wai ဆင်ခြင်တွေးခေါ်ခဲ့သည် - ပထမ Electron သုံးခုကို ဖယ်ရှားခြင်းသည် ၎င်းတို့ကို အပြင်ဆုံး Shell မှ ယူဆောင်ပြီး ထို Shell သည် အတော်အတန် ရွှဲရွှဲစွာ ကိုင်ထားပြီး Inner Shell များက Shield ပြုလုပ်ပေးထားသည်၊ သို့သော် Electron လေးခုမြောက်သည် Nucleus နှင့် များစွာ ပိုနီးကပ်သော Shell မှ ဖြစ်ရမည်ဖြစ်ပြီး Shielding များစွာ ပိုနည်းကာ Attraction များစွာ ပိုခိုင်မာသည် -- ထို့ကြောင့် လိုအပ်သော Energy ခုန်ကြီးခြင်း ဖြစ်သည်။ ကြီးမားသော ခုန်ခြင်းသည် Electron 3 ခု ဖယ်ရှားပြီးနောက် ဖြစ်ပေါ်သောကြောင့် Element သည် ၎င်း၏ အပြင်ဆုံး Shell တွင် Electron 3 ခု အတိအကျ ရှိသင့်ကာ Periodic Table ၏ Group 3 တွင် ချထားရသည်။ ဤ Data သည် Aluminium နှင့် ကိုက်ညီကြောင်း Sayar သီဟအောင် အတည်ပြုခဲ့ပြီး ၎င်း၏ တကယ့် Successive Ionisation Energy များသည် ဤ ပုံစံ အတိအကျ ပြသကြောင်း -- ၎င်းသည် Standard Exam နည်းလမ်းတစ်ခု ဖြစ်ကြောင်း ထောက်ပြခဲ့သည် - Successive Ionisation Energy အစုအဝေးထဲရှိ အကြီးမားဆုံး ခုန်ခြင်း၏ Position သည် Element ၏ Group Number ကို တိုက်ရိုက် ဖော်ပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, between which two ionisation energies does the biggest jump occur?",
+            questionMy:
+                "Ionisation Energy နှစ်ခုကြားတွင် အကြီးမားဆုံး ခုန်ခြင်း ဖြစ်ပေါ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "IE3 and IE4",
+              "IE1 and IE2",
+              "IE2 and IE3",
+              "There is no jump at all",
+            ],
+            optionsMy: [
+              "IE3 နှင့် IE4",
+              "IE1 နှင့် IE2",
+              "IE2 နှင့် IE3",
+              "ခုန်ခြင်း လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which group does the element belong to?",
+            questionMy:
+                "Element သည် မည်သည့် Group တွင် ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Group 3", "Group 4", "Group 1", "Group 7"],
+            optionsMy: ["Group 3", "Group 4", "Group 1", "Group 7"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conclusion."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နိဂုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does removing the fourth electron require so much more energy?",
+            questionMy:
+                "စတုတ္ထ Electron ဖယ်ရှားခြင်းသည် Energy များစွာ ပို၍ လိုအပ်ရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It comes from a shell much closer to the nucleus with far less shielding",
+              "The atom becomes negatively charged at that point",
+              "Ionisation energy always increases randomly with no pattern",
+              "The element runs out of protons at the fourth electron",
+            ],
+            optionsMy: [
+              "Shielding များစွာ ပိုနည်းသော Nucleus နှင့် များစွာ ပိုနီးကပ်သော Shell မှ ဖြစ်သောကြောင့်",
+              "ထို Point တွင် Atom သည် Negatively Charged ဖြစ်လာသောကြောင့်",
+              "Ionisation Energy သည် ပုံစံ မရှိဘဲ ကျပန်း အမြဲ တိုးလာသောကြောင့်",
+              "Element သည် စတုတ္ထ Electron တွင် Proton ကုန်သွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Ionisation Energy",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Ionisation Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A large jump between successive ionisation energies signals...",
+          questionMy:
+              "Successive Ionisation Energy များကြား ကြီးမားသော ခုန်ခြင်းသည် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "A change of electron shell",
+            "A measurement error every time",
+            "That the element has no electrons left",
+            "Nothing meaningful at all",
+          ],
+          optionsMy: [
+            "Electron Shell ပြောင်းလဲမှု",
+            "အချိန်တိုင်း Measurement Error",
+            "Element တွင် Electron မကျန်တော့ကြောင်း",
+            "အဓိပ္ပာယ်ရှိသော အရာ မည်သည့်တစ်ခုမျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Shielding reduces...",
+          questionMy: "Shielding သည် ...ကို လျော့ချသည်",
+          optionsEn: [
+            "The effective nuclear charge felt by outer electrons",
+            "The number of protons in the nucleus",
+            "The atom's mass number",
+            "The number of neutrons",
+          ],
+          optionsMy: [
+            "အပြင်ဘက် Electron များ ခံစားရသော Effective Nuclear Charge",
+            "Nucleus ရှိ Proton အရေအတွက်",
+            "Atom ၏ Mass Number",
+            "Neutron အရေအတွက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "An element with a big ionisation energy jump after removing 2 electrons is most likely in...",
+          questionMy:
+              "Electron 2 ခု ဖယ်ရှားပြီးနောက် Ionisation Energy ခုန်ကြီး ရှိသော Element သည် ...တွင် ရှိနိုင်ခြေ အများဆုံး ဖြစ်သည်",
+          optionsEn: ["Group 2", "Group 5", "Group 7", "Group 8"],
+          optionsMy: ["Group 2", "Group 5", "Group 7", "Group 8"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4: "Atomic Structure Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek4 = CourseWeekDef(
+  id: "course-y12-chem-w4",
+  weekNumber: 4,
+  titleEn: "Atomic Structure Capstone",
+  titleMy: "Atomic Structure အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w4-d1",
+      dayNumber: 1,
+      titleEn:
+          "Combining Isotopes, Electron Configuration and Ionisation Energy",
+      titleMy:
+          "Isotopes, Electron Configuration နှင့် Ionisation Energy ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An element has two isotopes: mass 63 (70% abundance) and mass 65 (30% abundance). Its relative atomic mass is...",
+          questionMy:
+              "Element တစ်ခုတွင် Isotope နှစ်ခု ရှိသည်: Mass 63 (Abundance 70%) နှင့် Mass 65 (Abundance 30%) ။ ၎င်း၏ Relative Atomic Mass မှာ...",
+          optionsEn: ["63.6", "64", "63", "65"],
+          optionsMy: ["63.6", "64", "63", "65"],
+          correctIndex: 0,
+          hintsEn: [
+            "Ar = (63 x 70 + 65 x 30) / 100 = (4410 + 1950) / 100 = 63.6.",
+          ],
+          hintsMy: [
+            "Ar = (63 x 70 + 65 x 30) / 100 = (4410 + 1950) / 100 = 63.6 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The electron configuration of aluminium (atomic number 13) is...",
+          questionMy:
+              "Aluminium (Atomic Number 13) ၏ Electron Configuration မှာ...",
+          optionsEn: [
+            "1s² 2s² 2p⁶ 3s² 3p¹",
+            "1s² 2s² 2p⁶ 3s³",
+            "1s² 2s² 2p⁷ 3s²",
+            "1s² 2s² 2p⁶ 3s² 3p²",
+          ],
+          optionsMy: [
+            "1s² 2s² 2p⁶ 3s² 3p¹",
+            "1s² 2s² 2p⁶ 3s³",
+            "1s² 2s² 2p⁷ 3s²",
+            "1s² 2s² 2p⁶ 3s² 3p²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "1s (2) + 2s (2) + 2p (6) + 3s (2) + 3p (1) = 13 electrons.",
+          ],
+          hintsMy: [
+            "1s (2) + 2s (2) + 2p (6) + 3s (2) + 3p (1) = Electron 13 ခု ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An element's successive ionisation energies show a huge jump between IE1 and IE2. It most likely has...",
+          questionMy:
+              "Element တစ်ခု၏ Successive Ionisation Energy များသည် IE1 နှင့် IE2 ကြား ခုန်ကြီး ပြသသည်။ ၎င်းသည် ...ရှိနိုင်ခြေ အများဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "1 electron in its outermost shell",
+            "7 electrons in its outermost shell",
+            "No electrons at all",
+            "8 electrons in its outermost shell",
+          ],
+          optionsMy: [
+            "အပြင်ဆုံး Shell တွင် Electron 1 ခု",
+            "အပြင်ဆုံး Shell တွင် Electron 7 ခု",
+            "Electron လုံးဝ မရှိပါ",
+            "အပြင်ဆုံး Shell တွင် Electron 8 ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 1 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၁ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w4-dm-1",
+          termEn: "Relative atomic mass = ",
+          termMy: "Relative Atomic Mass = ",
+          matchEn: "Weighted average of isotope masses by abundance",
+          matchMy: "Isotope Mass များ၏ Abundance ဖြင့် Weighted Average",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w4-dm-2",
+          termEn: "s subshell holds up to",
+          termMy: "s Subshell ၏ အများဆုံး ဖမ်းနိုင်",
+          matchEn: "2 electrons",
+          matchMy: "Electron 2 ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w4-dm-3",
+          termEn: "p subshell holds up to",
+          termMy: "p Subshell ၏ အများဆုံး ဖမ်းနိုင်",
+          matchEn: "6 electrons",
+          matchMy: "Electron 6 ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w4-dm-4",
+          termEn: "Across a period, first ionisation energy...",
+          termMy: "Period တစ်ခုတလျှောက် First Ionisation Energy...",
+          matchEn: "Generally increases",
+          matchMy: "ယေဘုယျအားဖြင့် တိုးလာသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w4-dm-5",
+          termEn: "A big jump in successive ionisation energies signals",
+          termMy: "Successive Ionisation Energy ခုန်ကြီးသည် ညွှန်ပြသည်",
+          matchEn: "A change of electron shell",
+          matchMy: "Electron Shell ပြောင်းလဲမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Isotopes/Mass or Ionisation Energy Concept?",
+      titleMy:
+          "စီစစ်ကြမည် - Isotopes/Mass သို့မဟုတ် Ionisation Energy သဘောတရားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Isotopes/Mass", "Ionisation Energy"],
+        bucketsMy: ["Isotopes/Mass", "Ionisation Energy"],
+        items: [
+          SortingItem(
+            id: "y12chem-w4-sort-1",
+            labelEn:
+                "Relative atomic mass is a weighted average across isotopes",
+            labelMy:
+                "Relative Atomic Mass သည် Isotope များတလျှောက် Weighted Average ဖြစ်သည်",
+            correctBucketEn: "Isotopes/Mass",
+            correctBucketMy: "Isotopes/Mass",
+          ),
+          SortingItem(
+            id: "y12chem-w4-sort-2",
+            labelEn:
+                "Removing an electron from an inner shell requires much more energy",
+            labelMy:
+                "Inner Shell မှ Electron တစ်ခု ဖယ်ရှားခြင်းသည် Energy များစွာ ပို၍ လိုအပ်သည်",
+            correctBucketEn: "Ionisation Energy",
+            correctBucketMy: "Ionisation Energy",
+          ),
+          SortingItem(
+            id: "y12chem-w4-sort-3",
+            labelEn:
+                "Isotopes have the same number of protons but different numbers of neutrons",
+            labelMy:
+                "Isotopes များသည် Proton အရေအတွက် တူညီသော်လည်း Neutron အရေအတွက် မတူညီပါ",
+            correctBucketEn: "Isotopes/Mass",
+            correctBucketMy: "Isotopes/Mass",
+          ),
+          SortingItem(
+            id: "y12chem-w4-sort-4",
+            labelEn:
+                "First ionisation energy generally increases across a period",
+            labelMy:
+                "First Ionisation Energy သည် Period တစ်ခုတလျှောက် ယေဘုယျအားဖြင့် တိုးလာသည်",
+            correctBucketEn: "Ionisation Energy",
+            correctBucketMy: "Ionisation Energy",
+          ),
+          SortingItem(
+            id: "y12chem-w4-sort-5",
+            labelEn: "Mass spectrometry measures isotopic abundance",
+            labelMy: "Mass Spectrometry သည် Isotopic Abundance ကို တိုင်းတာသည်",
+            correctBucketEn: "Isotopes/Mass",
+            correctBucketMy: "Isotopes/Mass",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Identifying a Mystery Element",
+      titleMy: "စာဖတ်ခြင်း - Mystery Element ကို ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Identifying a Mystery Element",
+        titleMy: "Mystery Element ကို ဖော်ထုတ်ခြင်း",
+        passageEn:
+            "For their Term 1 capstone, Sayama Hnin Ei Phyu's class identified an unknown element using three independent pieces of evidence, one from each week of the term: a mass spectrum, an electron configuration puzzle, and an ionisation energy trend.\n\nMay Thazin started with the mass spectrum, which showed isotopes giving a relative atomic mass of 24.3. Checking this against the periodic table, an Ar of 24.3 identifies the element as magnesium, atomic number 12.\n\nWith the element identified as magnesium, she wrote out its electron configuration: 1s² 2s² 2p⁶ 3s² -- 12 electrons in total, with the outermost 2 electrons in the 3s subshell, placing magnesium firmly in the s-block.\n\nFinally, May Thazin used the electron configuration to predict the shape of magnesium's successive ionisation energy graph before looking up any real data: since the outermost shell holds exactly 2 electrons (3s²), she predicted that removing the first 2 electrons should be relatively easy, with similar-sized ionisation energies, followed by a large jump for the third electron, since it would have to come from the full, tightly-held 2p⁶ shell underneath. Sayama Hnin Ei Phyu confirmed this matches magnesium's real ionisation energy data exactly, closing the capstone by pointing out that all three pieces of evidence -- mass spectrometry, electron configuration, and ionisation energy trends -- are really just three different windows onto the same underlying atomic structure, which is why they always agree with each other for a genuine, correctly identified element.",
+        passageMy:
+            "သူတို့၏ Term 1 အထွတ်အထိပ်အတွက် Sayama နှင်းအိဖြူ ၏ အတန်းသည် Term တစ်ခုလုံးမှ Week တစ်ခုစီမှ Independent သက်သေခံချက် သုံးခုကို အသုံးပြု၍ အမည်မသိ Element တစ်ခုကို ဖော်ထုတ်ခဲ့ကြသည် - Mass Spectrum, Electron Configuration ပဟေဠိနှင့် Ionisation Energy Trend။\n\nMay Thazin သည် Relative Atomic Mass 24.3 ကို ပေးသော Isotope များပြသသော Mass Spectrum ဖြင့် စတင်ခဲ့သည်။ ၎င်းကို Periodic Table နှင့် နှိုင်းယှဉ်စစ်ဆေးခြင်းက Ar 24.3 သည် Element ကို Magnesium, Atomic Number 12 ဟု ဖော်ထုတ်ပေးသည်။\n\nElement ကို Magnesium ဟု ဖော်ထုတ်ပြီးနောက် သူမသည် ၎င်း၏ Electron Configuration ကို ရေးသားခဲ့သည် - 1s² 2s² 2p⁶ 3s² -- Electron 12 ခု စုစုပေါင်း၊ အပြင်ဆုံး Electron 2 ခုသည် 3s Subshell တွင် ရှိပြီး Magnesium ကို s-Block တွင် အခိုင်အမာ ချထားသည်။\n\nနောက်ဆုံးတွင် May Thazin သည် တကယ့် Data မည်သည့်တစ်ခုမျှ မကြည့်ရသေးမီ Magnesium ၏ Successive Ionisation Energy Graph ပုံသဏ္ဌာန်ကို ခန့်မှန်းရန် Electron Configuration ကို အသုံးပြုခဲ့သည် - အပြင်ဆုံး Shell တွင် Electron 2 ခု အတိအကျ (3s²) ရှိသောကြောင့် ပထမ Electron 2 ခု ဖယ်ရှားခြင်းသည် Ionisation Energy အရွယ်အစား ဆင်တူဖြင့် အတော်အတန် လွယ်ကူရမည်ဟု ခန့်မှန်းခဲ့ပြီး ထို့နောက် တတိယ Electron အတွက် ခုန်ကြီးတစ်ခု ဆက်လာမည်၊ အကြောင်းမှာ ၎င်းသည် အောက်ရှိ ပြည့်ပြီး ခိုင်မာစွာ ကိုင်ထားသော 2p⁶ Shell မှ ဖြစ်ရမည်ဖြစ်သောကြောင့် ဖြစ်သည်။ ၎င်းသည် Magnesium ၏ တကယ့် Ionisation Energy Data နှင့် အတိအကျ ကိုက်ညီကြောင်း Sayama နှင်းအိဖြူ အတည်ပြုခဲ့ပြီး သက်သေခံချက် သုံးခုစလုံး -- Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Trend -- သည် Atomic Structure နောက်ကွယ် တစ်ခုတည်းအပေါ် ဝင်းဒိုးသုံးခု ကွဲပြားမျှသာ ဖြစ်ကြောင်း၊ ထို့ကြောင့် Element တစ်ခု တကယ့် မှန်ကန်စွာ ဖော်ထုတ်ခံရချိန် နှစ်ခုစလုံး အမြဲ သဘောတူညီကြောင်း ထောက်ပြလျက် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which element does the mass spectrum identify?",
+            questionMy:
+                "Mass Spectrum က မည်သည့် Element ကို ဖော်ထုတ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Magnesium", "Aluminium", "Sodium", "Calcium"],
+            optionsMy: ["Magnesium", "Aluminium", "Sodium", "Calcium"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the electron configuration found?",
+            questionMy:
+                "ရှာဖွေတွေ့ရှိသော Electron Configuration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "1s² 2s² 2p⁶ 3s²",
+              "1s² 2s² 2p⁶ 3s¹",
+              "1s² 2s² 2p⁶",
+              "1s² 2s² 2p⁶ 3s² 3p¹",
+            ],
+            optionsMy: [
+              "1s² 2s² 2p⁶ 3s²",
+              "1s² 2s² 2p⁶ 3s¹",
+              "1s² 2s² 2p⁶",
+              "1s² 2s² 2p⁶ 3s² 3p¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, where is the predicted big jump in the ionisation energy graph?",
+            questionMy:
+                "Ionisation Energy Graph ရှိ ခန့်မှန်းထားသော ခုန်ကြီးသည် မည်သည့်နေရာတွင် ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Between the second and third ionisation energies",
+              "Between the first and second ionisation energies",
+              "There is no jump predicted at all",
+              "At the very first ionisation energy",
+            ],
+            optionsMy: [
+              "ဒုတိယနှင့် တတိယ Ionisation Energy ကြား",
+              "ပထမနှင့် ဒုတိယ Ionisation Energy ကြား",
+              "ခန့်မှန်းထားသော ခုန်ခြင်း လုံးဝ မရှိပါ",
+              "ပထမဆုံး Ionisation Energy တွင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's prediction."],
+            hintsMy: ["စတုတ္ထစာပိုဒ်ရှိ ခန့်မှန်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w4-d5",
+      dayNumber: 5,
+      titleEn: "Term 1 Capstone: Atomic Structure",
+      titleMy: "Term ၁ အထွတ်အထိပ် - Atomic Structure",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Relative atomic mass is calculated as...",
+          questionMy: "Relative Atomic Mass ကို ...အဖြစ် တွက်ချက်သည်",
+          optionsEn: [
+            "A weighted average of isotope masses by abundance",
+            "The mass of the most common isotope only",
+            "The sum of every isotope's mass number",
+            "The mass number of the lightest isotope",
+          ],
+          optionsMy: [
+            "Isotope Mass များ၏ Abundance ဖြင့် Weighted Average",
+            "အသုံးအများဆုံး Isotope ၏ Mass တစ်ခုတည်း",
+            "Isotope တိုင်း၏ Mass Number ပေါင်းလဒ်",
+            "အပေါ့ဆုံး Isotope ၏ Mass Number",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Electron subshells fill in order of...",
+          questionMy: "Electron Subshell များသည် ...အစီအစဉ်ဖြင့် ဖြည့်သည်",
+          optionsEn: [
+            "Increasing energy",
+            "Alphabetical order",
+            "Decreasing energy",
+            "Random order",
+          ],
+          optionsMy: [
+            "Energy တိုးလာသော အစီအစဉ်",
+            "အက္ခရာစဉ်",
+            "Energy လျော့ကျသော အစီအစဉ်",
+            "ကျပန်း အစီအစဉ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "First ionisation energy generally increases across a period because...",
+          questionMy:
+              "First Ionisation Energy သည် Period တစ်ခုတလျှောက် ယေဘုယျအားဖြင့် တိုးလာရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Nuclear charge increases while shielding stays similar",
+            "Atomic radius increases sharply",
+            "Shielding increases sharply",
+            "Electrons become negatively charged",
+          ],
+          optionsMy: [
+            "Shielding ဆင်တူဆဲ ရှိနေချိန် Nuclear Charge တိုးလာသောကြောင့်",
+            "Atomic Radius သိသိသာသာ တိုးလာသောကြောင့်",
+            "Shielding သိသိသာသာ တိုးလာသောကြောင့်",
+            "Electron များသည် Negatively Charged ဖြစ်လာသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A large jump in successive ionisation energies reveals...",
+          questionMy:
+              "Successive Ionisation Energy များရှိ ခုန်ကြီးသည် ...ကို ဖော်ပြသည်",
+          optionsEn: [
+            "The number of electrons in the outermost shell, and so the group number",
+            "That the element has no protons",
+            "That the atom is radioactive",
+            "Nothing about the element's structure",
+          ],
+          optionsMy: [
+            "အပြင်ဆုံး Shell ရှိ Electron အရေအတွက်၊ ထို့ကြောင့် Group Number",
+            "Element တွင် Proton မရှိကြောင်း",
+            "Atom သည် Radioactive ဖြစ်ကြောင်း",
+            "Element ၏ Structure အကြောင်း မည်သည့်အရာမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm1 = CourseTermDef(
+  id: "course-y12-chem-term1",
+  termNumber: 1,
+  titleEn: "Atomic Structure",
+  titleMy: "Atomic Structure",
+  weeks: [_y12ChemWeek1, _y12ChemWeek2, _y12ChemWeek3, _y12ChemWeek4],
+  certificateTitleEn: "AS Chemistry: Atomic Structure",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Atomic Structure",
+);
+
+/// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Term 1
+/// (Atomic Structure) authored; Terms 2-9 (Atoms, Molecules and
+/// Stoichiometry; Chemical Bonding; States of Matter; Chemical
+/// Energetics; Electrochemistry; Equilibria; Reaction Kinetics; The
+/// Periodic Table -- Group 2 and Group 17 -- and AS Exam Prep) to
+/// follow. No LaTeX renderer exists in this app -- formulas throughout
+/// use the same plain Unicode math notation (², √, x for
+/// multiplication) already established by the IGCSE pathways, not
+/// literal LaTeX markup.
+const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
+  id: "course-year12-chemistry",
+  subject: "chemistry",
+  grade: Grade.year12,
+  titleEn: "A-Level Chemistry — Year 12 (AS)",
+  titleMy: "A-Level ဓာတုဗေဒ — Year ၁၂ (AS)",
+  descriptionEn:
+      "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
+  descriptionMy:
+      "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 4,
+  terms: [year12ChemistryTerm1],
+);
