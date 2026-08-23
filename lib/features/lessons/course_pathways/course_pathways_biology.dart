@@ -22526,3 +22526,3719 @@ const CourseTermDef year12BiologyTerm6 = CourseTermDef(
   certificateTitleEn: "AS Biology: Nucleic Acids and Protein Synthesis",
   certificateTitleMy: "AS ဇီဝဗေဒ - Nucleic Acid နှင့် Protein Synthesis",
 );
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 7: "Transport in Plants"
+// (Weeks 25-28)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "Xylem Structure and Function"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek25 = CourseWeekDef(
+  id: "course-y12-bio-w25",
+  weekNumber: 25,
+  titleEn: "Xylem Structure and Function",
+  titleMy: "Xylem ဖွဲ့စည်းပုံနှင့် လုပ်ငန်းဆောင်တာ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w25-d1",
+      dayNumber: 1,
+      titleEn: "Xylem Vessels: Built for Water Transport",
+      titleMy: "Xylem Vessel များ - ရေသယ်ယူပို့ဆောင်ရန် တည်ဆောက်ထားပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Xylem tissue mainly transports...",
+          questionMy: "Xylem တစ်ရှူးသည် အဓိက ...ကို သယ်ယူပို့ဆောင်သည်",
+          optionsEn: [
+            "Water and dissolved mineral ions, upward from the roots",
+            "Sugars, downward from the leaves only",
+            "Oxygen, from the leaves to the roots",
+            "Amino acids, from the roots to the flowers only",
+          ],
+          optionsMy: [
+            "ရေနှင့် ပျော်ဝင်ထားသော သတ္တုဓာတ် Ion များကို အမြစ်များမှ အထက်သို့",
+            "အရွက်များမှ Sugar များကို အောက်သို့သာ",
+            "အရွက်များမှ အမြစ်များသို့ Oxygen",
+            "အမြစ်များမှ ပန်းများသို့သာ Amino Acid",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Xylem carries the transpiration stream: water and minerals absorbed by the roots, moving upward to the stem and leaves.",
+          ],
+          hintsMy: [
+            "Xylem သည် Transpiration Stream ကို သယ်ဆောင်သည် - အမြစ်များက စုပ်ယူထားသော ရေနှင့် သတ္တုဓာတ်များကို ပင်စည်နှင့် အရွက်များဆီသို့ အထက်သို့ ရွေ့လျားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A mature xylem vessel is dead and hollow, with its end walls broken down, because this adaptation...",
+          questionMy: "Xylem Vessel ရင့်ကျက်တစ်ခုသည် သေဆုံးပြီး အတွင်း လွတ်လပ်ကာ Wall အဆုံးများ ကျိုးပျက်နေသည်၊ ဤ Adaptation က...",
+          optionsEn: [
+            "Creates a continuous, unobstructed tube for water to flow through easily",
+            "Allows the vessel to photosynthesise",
+            "Lets the vessel divide by mitosis repeatedly",
+            "Prevents any water from moving through it at all",
+          ],
+          optionsMy: [
+            "ရေ လွယ်ကူစွာ စီးဆင်းနိုင်ရန် အဆက်မပြတ် ပိတ်ဆို့မှုမရှိသော ပြွန်တစ်ခု ဖန်တီးပေးသည်",
+            "Vessel ကို Photosynthesise ပြုစေသည်",
+            "Vessel ကို Mitosis ဖြင့် ထပ်ခါထပ်ခါ ခွဲပွားစေသည်",
+            "ရေကို ၎င်းမှတဆင့် လုံးဝ ရွေ့လျားခွင့် မပေးပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Being dead removes the cell contents that would otherwise block flow, and losing the end walls turns many individual cells into one long, open tube.",
+          ],
+          hintsMy: [
+            "သေဆုံးနေခြင်းက စီးဆင်းမှုကို ပိတ်ဆို့နိုင်သော ဆဲလ်အတွင်းသားများကို ဖယ်ရှားပေးပြီး Wall အဆုံးများ ဆုံးရှုံးခြင်းက ဆဲလ်တစ်ခုချင်းစီများစွာကို ပွင့်လင်းသော ပြွန်ရှည်တစ်ခုသို့ ပြောင်းလဲပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Xylem vessel walls are thickened and strengthened with...",
+          questionMy: "Xylem Vessel Wall များကို ...ဖြင့် ထူထပ်ပြီး ခိုင်မာစေထားသည်",
+          optionsEn: ["Lignin", "Chitin", "Cellulose alone, with no other reinforcement", "Chlorophyll"],
+          optionsMy: ["လစ်ဂနင် (Lignin)", "Chitin", "Reinforcement မလိုအပ်ဘဲ Cellulose တစ်ခုတည်း", "Chlorophyll"],
+          correctIndex: 0,
+          hintsEn: [
+            "Lignin is deposited in spiral, annular or pitted patterns in the wall, giving the vessel the mechanical strength to resist collapsing under tension.",
+          ],
+          hintsMy: [
+            "Lignin ကို Wall အတွင်း Spiral, Annular (သို့) Pitted Pattern များဖြင့် စုပုံထားပြီး Tension အောက်တွင် ပြိုမကျအောင် Vessel ကို Mechanical Strength ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Xylem Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Xylem ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w25-dm-1",
+          termEn: "Xylem",
+          termMy: "ဇိုင်လင်မ် (Xylem)",
+          matchEn: "The tissue that transports water and mineral ions upward from the roots",
+          matchMy: "ရေနှင့် သတ္တုဓာတ် Ion များကို အမြစ်များမှ အထက်သို့ သယ်ယူပို့ဆောင်သော တစ်ရှူး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w25-dm-2",
+          termEn: "Lignin",
+          termMy: "လစ်ဂနင် (Lignin)",
+          matchEn: "A rigid substance strengthening xylem vessel walls",
+          matchMy: "Xylem Vessel Wall များကို ခိုင်မာစေသော ပစ္စည်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w25-dm-3",
+          termEn: "Vessel element",
+          termMy: "Vessel Element",
+          matchEn: "A dead, hollow cell joined end to end with others to form a continuous xylem tube",
+          matchMy: "အခြားများနှင့် အဆုံးချင်း ချိတ်ဆက်ကာ အဆက်မပြတ် Xylem ပြွန်ဖြစ်စေသော သေဆုံးပြီး အတွင်းလွတ်လပ်သော ဆဲလ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w25-dm-4",
+          termEn: "Root pressure",
+          termMy: "Root Pressure",
+          matchEn: "Pressure generated in the roots that pushes water a short way up the xylem",
+          matchMy: "ရေကို Xylem အတွင်း အနည်းငယ် အထက်သို့ တွန်းတင်သော အမြစ်များတွင် ဖြစ်ပေါ်သော Pressure",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w25-dm-5",
+          termEn: "Transpiration stream",
+          termMy: "Transpiration Stream",
+          matchEn: "The continuous, one-way movement of water from roots to leaves through the xylem",
+          matchMy: "Xylem မှတဆင့် အမြစ်များမှ အရွက်များသို့ ရေ၏ အဆက်မပြတ် တစ်ဖက်သတ် ရွေ့လျားမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Feature of Xylem or Not?",
+      titleMy: "စီစစ်ကြမည် - Xylem ၏ လက္ခဏာလား၊ မဟုတ်လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Feature of Xylem", "Not a Feature of Xylem"],
+        bucketsMy: ["Xylem ၏ လက္ခဏာ", "Xylem ၏ လက္ခဏာ မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w25-sort-1",
+            labelEn: "Made of dead cells with no cell contents",
+            labelMy: "ဆဲလ်အတွင်းသား မရှိသော သေဆုံးပြီးသား ဆဲလ်များမှ ဖွဲ့စည်း",
+            correctBucketEn: "Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w25-sort-2",
+            labelEn: "Walls strengthened with lignin",
+            labelMy: "Lignin ဖြင့် ခိုင်မာစေထားသော Wall",
+            correctBucketEn: "Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w25-sort-3",
+            labelEn: "Living cells with cytoplasm, transporting sugars",
+            labelMy: "Cytoplasm ပါဝင်သော အသက်ရှင်ဆဲလ်များ၊ Sugar များ သယ်ယူပို့ဆောင်",
+            correctBucketEn: "Not a Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ မဟုတ်",
+          ),
+          SortingItem(
+            id: "y12bio-w25-sort-4",
+            labelEn: "Transports mineral ions such as nitrate upward",
+            labelMy: "Nitrate ကဲ့သို့ သတ္တုဓာတ် Ion များကို အထက်သို့ သယ်ယူပို့ဆောင်",
+            correctBucketEn: "Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w25-sort-5",
+            labelEn: "Made of sieve tube elements and companion cells",
+            labelMy: "Sieve Tube Element နှင့် Companion Cell များမှ ဖွဲ့စည်း",
+            correctBucketEn: "Not a Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ မဟုတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Staining a Celery Stalk",
+      titleMy: "စာဖတ်ခြင်း - Celery ပင်စည်ကို စွန်းထင်စေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Staining a Celery Stalk",
+        titleMy: "Celery ပင်စည်ကို စွန်းထင်စေခြင်း",
+        passageEn:
+            "Sayar Zaw Min stood a fresh celery stalk in a beaker of water dyed bright blue and left it overnight, then asked Htet Aung and Su Su to cut a thin cross-section the next morning and examine it under the microscope. Htet Aung found small, distinct rings of blue-stained tissue arranged around the stalk, standing out clearly against the surrounding unstained tissue.\n\nSu Su recognised immediately that the blue dye had travelled up through exactly the same route as water normally would in a living plant -- the xylem vessels. Because xylem vessels are dead, hollow, and joined end to end into continuous open tubes, the dyed water could be drawn straight up through them by the ongoing transpiration stream, without needing to cross any living cell membranes along the way.\n\nSayar Zaw Min then had them slice the stalk lengthways instead of crossways, and this time the blue colour appeared as continuous streaks running the full length of the stalk rather than isolated rings -- visual proof that each xylem vessel really is one long, unbroken tube, not a row of separate compartments. \"This simple dye experiment,\" he told them, \"is really just making visible something you already understood in theory: xylem's dead, end-wall-free structure is exactly what makes long-distance water transport possible.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Celery ပင်စည်လတ်တစ်ခုကို အပြာရောင် တောက်ပစွာ စွန်းထင်စေသော ရေခွက်တစ်ခုအတွင်းသို့ ထားပြီး တစ်ညလုံး ချန်ခဲ့ကာ နောက်တစ်နေ့မနက် Htet Aung နှင့် Su Su အား ဖြတ်ဒေါင်လိုက် အပိုင်းငယ်တစ်ခု ဖြတ်ကာ Microscope ဖြင့် စစ်ဆေးခိုင်းခဲ့သည်။ ပင်စည်ပတ်လည်တွင် စီစဉ်ထားသော အပြာရောင် စွန်းထင်နေသော တစ်ရှူးလက်ကွင်းငယ် ရှင်းလင်းပြတ်သားစွာ ပတ်ဝန်းကျင်ရှိ မစွန်းထင်သော တစ်ရှူးနှင့် ကွဲပြားစွာ ထင်ရှားနေသည်ကို Htet Aung တွေ့ခဲ့သည်။\n\nအပြာရောင် ဆေးရည်သည် အသက်ရှင်သော အပင်တစ်ပင်တွင် ရေ ပုံမှန် ရွေ့လျားသည့် လမ်းကြောင်း အတိအကျ -- Xylem Vessel များ -- ဖြင့် ခရီးထွက်ခဲ့ကြောင်း Su Su ချက်ချင်းသိရှိခဲ့သည်။ Xylem Vessel များသည် သေဆုံးပြီး၊ အတွင်းလွတ်လပ်ကာ Continuous Open Tube များအဖြစ် အဆုံးချင်း ချိတ်ဆက်ထားသောကြောင့် ဆက်လက်ဖြစ်ပေါ်နေသော Transpiration Stream က လမ်းကြောင်းတလျှောက် အသက်ရှင်ဆဲလ် Membrane မည်သည်ကိုမျှ ဖြတ်ကျော်ရန် မလိုအပ်ဘဲ ဆေးရည်ရေကို ၎င်းတို့မှတဆင့် တိုက်ရိုက် ဆွဲတင်နိုင်ခဲ့သည်။\n\nထို့နောက် ဆရာဇော်မင်းသည် ပင်စည်ကို ဖြတ်ဒေါင်လိုက်မဟုတ်ဘဲ လျားလိုက် ဖြတ်ခိုင်းခဲ့ရာ ယခုတစ်ကြိမ် အပြာရောင်သည် ခွဲထွက်နေသော လက်ကွင်းများအစား ပင်စည်တစ်ခုလုံး၏ အလျားအတိုင်း ဆက်တိုက် စီးဆင်းနေသော အစင်းများအဖြစ် ပေါ်လာသည် -- Xylem Vessel တစ်ခုစီသည် ခွဲထားသော ဗောက်စ်ငယ်များ တန်းစီထားခြင်း မဟုတ်ဘဲ တကယ့် ရှည်လျားပြီး မပြတ်တောက်သော ပြွန်တစ်ခုတည်း ဖြစ်ကြောင်း အမြင်အရ သက်သေအထင်အရှား ဖြစ်သည်။ \"ဤ ရိုးရှင်းသော Dye စမ်းသပ်မှုသည်\" ဟု သူ ပြောကြားခဲ့သည် \"သင်တို့ Theory အရ နားလည်ထားပြီးသား အရာကိုသာ မြင်နိုင်စေသည် - Xylem ၏ သေဆုံးပြီး Wall အဆုံးမရှိသော ဖွဲ့စည်းပုံသည် အကွာအဝေးရှည် ရေသယ်ယူပို့ဆောင်ရေးကို ဖြစ်နိုင်စေသည့် အချက် အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the second paragraph, why could the dyed water travel through the xylem without crossing living cell membranes?",
+            questionMy: "ဆေးရည်ရေသည် အသက်ရှင်ဆဲလ် Membrane မဖြတ်ကျော်ဘဲ Xylem မှတဆင့် ခရီးထွက်နိုင်ရသည့်အကြောင်းရင်းကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Xylem vessels are dead, hollow tubes joined end to end",
+              "The dye dissolved the cell walls completely",
+              "The celery stalk had no cells at all",
+              "The dye was pumped in using ATP",
+            ],
+            optionsMy: [
+              "Xylem Vessel များသည် သေဆုံးပြီး အတွင်းလွတ်လပ်သော ပြွန်များ အဆုံးချင်း ချိတ်ဆက်ထားသောကြောင့်",
+              "ဆေးရည်က Cell Wall များကို လုံးဝ ပျော်ဝင်ဖျောက်လိုက်သောကြောင့်",
+              "Celery ပင်စည်တွင် ဆဲလ် လုံးဝ မရှိသောကြောင့်",
+              "ATP အသုံးပြု၍ ဆေးရည်ကို ပန့်တင်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the third paragraph, what did the lengthways slice reveal about xylem vessels?",
+            questionMy: "လျားလိုက် ဖြတ်ချက်က Xylem Vessel များအကြောင်း အဘယ်ကို ဖော်ပြခဲ့သည်ကို တတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each vessel is one long, unbroken tube, not separate compartments",
+              "Xylem vessels contain chlorophyll",
+              "Xylem vessels are shorter than phloem vessels",
+              "The dye could not travel lengthways at all",
+            ],
+            optionsMy: [
+              "Vessel တစ်ခုစီသည် ခွဲထားသော ဗောက်စ်များ မဟုတ်ဘဲ ရှည်လျားပြီး မပြတ်တောက်သော ပြွန်တစ်ခုတည်း ဖြစ်ကြောင်း",
+              "Xylem Vessel များတွင် Chlorophyll ပါဝင်ကြောင်း",
+              "Xylem Vessel များသည် Phloem Vessel များထက် တိုတောင်းကြောင်း",
+              "ဆေးရည်သည် လျားလိုက် လုံးဝ မခရီးသွားနိုင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what force drew the dyed water up through the xylem?",
+            questionMy: "ဆေးရည်ရေကို Xylem အတွင်း အထက်သို့ ဆွဲတင်ခဲ့သော Force ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The ongoing transpiration stream",
+              "Active transport using ATP",
+              "Gravity pulling it downward instead",
+              "Photosynthesis inside the xylem",
+            ],
+            optionsMy: [
+              "ဆက်လက်ဖြစ်ပေါ်နေသော Transpiration Stream",
+              "ATP အသုံးပြု၍ Active Transport",
+              "Gravity က အောက်သို့ ဆွဲငင်ခြင်း",
+              "Xylem အတွင်း Photosynthesis",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Xylem",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Xylem",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Xylem transports water and...",
+          questionMy: "Xylem သည် ရေနှင့် ...ကို သယ်ယူပို့ဆောင်သည်",
+          optionsEn: ["Mineral ions", "Sugars only", "Amino acids only", "Oxygen only"],
+          optionsMy: ["သတ္တုဓာတ် Ion", "Sugar သာ", "Amino Acid သာ", "Oxygen သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Xylem vessel walls are strengthened by...",
+          questionMy: "Xylem Vessel Wall များကို ...ဖြင့် ခိုင်မာစေထားသည်",
+          optionsEn: ["Lignin", "Chitin", "Amylose", "Cholesterol"],
+          optionsMy: ["Lignin", "Chitin", "Amylose", "Cholesterol"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Mature xylem vessels are...",
+          questionMy: "ရင့်ကျက်သော Xylem Vessel များသည်...",
+          optionsEn: ["Dead and hollow", "Living, with a nucleus", "Full of chloroplasts", "Made of amino acids"],
+          optionsMy: ["သေဆုံးပြီး အတွင်းလွတ်လပ်", "Nucleus ပါဝင်ပြီး အသက်ရှင်", "Chloroplast များနှင့် ပြည့်နှက်", "Amino Acid မှ ဖွဲ့စည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "Transpiration and the Transpiration Stream"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek26 = CourseWeekDef(
+  id: "course-y12-bio-w26",
+  weekNumber: 26,
+  titleEn: "Transpiration and the Transpiration Stream",
+  titleMy: "Transpiration နှင့် Transpiration Stream",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w26-d1",
+      dayNumber: 1,
+      titleEn: "The Cohesion-Tension Theory",
+      titleMy: "Cohesion-tension Theory",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Transpiration is defined as...",
+          questionMy: "Transpiration ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "The evaporation of water from a plant's surface, mainly through the stomata",
+            "The uptake of carbon dioxide by leaves",
+            "The movement of sugars from leaves to roots",
+            "The division of root cells",
+          ],
+          optionsMy: [
+            "အပင်၏ မျက်နှာပြင်မှ ရေ အငွေ့ပျံခြင်း၊ အဓိကအားဖြင့် Stomata မှတဆင့်",
+            "အရွက်များက Carbon Dioxide စုပ်ယူခြင်း",
+            "အရွက်များမှ အမြစ်များသို့ Sugar များ ရွေ့လျားခြင်း",
+            "အမြစ်ဆဲလ်များ ခွဲပွားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Most transpiration happens through the stomata -- the tiny pores that also let carbon dioxide in for photosynthesis.",
+          ],
+          hintsMy: [
+            "Transpiration အများစုသည် Photosynthesis အတွက် Carbon Dioxide ဝင်ရောက်ခွင့်ပြုသော ပေါက်ငယ်များ Stomata မှတဆင့် ဖြစ်ပွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "According to the cohesion-tension theory, water molecules stay in an unbroken column inside the xylem because they...",
+          questionMy: "Cohesion-tension Theory အရ ရေမော်လီကျူးများသည် Xylem အတွင်း မပြတ်တောက်သော ကော်လံတစ်ခုအဖြစ် ဆက်လက်ရှိနေရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Hydrogen bond to each other (cohesion), while being pulled up under tension by evaporation from the leaves",
+            "Repel each other strongly at all times",
+            "Are pushed only by root pressure with nothing else involved",
+            "Are pumped upward one by one using ATP",
+          ],
+          optionsMy: [
+            "အချင်းချင်း Hydrogen Bond ဖွဲ့စည်း (Cohesion) ပြီး အရွက်များမှ Evaporation ကြောင့် Tension အောက်တွင် အထက်သို့ ဆွဲတင်ခံရသောကြောင့်",
+            "အချိန်တိုင်း အချင်းချင်း ပြင်းထန်စွာ ဖယ်ရှားသောကြောင့်",
+            "အခြားအရာ မပါဝင်ဘဲ Root Pressure တစ်ခုတည်းက တွန်းတင်သောကြောင့်",
+            "ATP အသုံးပြု၍ တစ်ခုချင်းစီ အထက်သို့ ပန့်တင်ခံရသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cohesion (water molecules sticking together via hydrogen bonds) plus tension (a pulling force from evaporation at the leaf) together drag the whole water column upward as one continuous chain.",
+          ],
+          hintsMy: [
+            "Cohesion (ရေမော်လီကျူးများ Hydrogen Bond ဖြင့် အချင်းချင်း ကပ်ငြိခြင်း) နှင့် Tension (အရွက်၏ Evaporation မှ ဆွဲငင်အား) တို့ ပေါင်းစပ်ကာ ရေကော်လံတစ်ခုလုံးကို အဆက်မပြတ် ကွင်းဆက်တစ်ခုအဖြစ် အထက်သို့ ဆွဲတင်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Stomata open and close to control the balance between...",
+          questionMy: "Stomata ဖွင့်/ပိတ်ခြင်းက ...အကြား ဟန်ချက်ကို ထိန်းချုပ်ပေးသည်",
+          optionsEn: [
+            "Gas exchange for photosynthesis and water loss by transpiration",
+            "Cell division and cell growth only",
+            "Xylem and phloem production only",
+            "Root growth and leaf colour",
+          ],
+          optionsMy: [
+            "Photosynthesis အတွက် Gas Exchange နှင့် Transpiration ဖြင့် ရေဆုံးရှုံးမှု",
+            "Cell Division နှင့် Cell Growth သာ",
+            "Xylem နှင့် Phloem ထုတ်လုပ်မှုသာ",
+            "အမြစ်ကြီးထွားမှုနှင့် အရွက်အရောင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Open stomata let carbon dioxide in for photosynthesis but also let water vapour escape -- a constant trade-off the plant has to manage.",
+          ],
+          hintsMy: [
+            "ဖွင့်ထားသော Stomata က Photosynthesis အတွက် Carbon Dioxide ဝင်ရောက်ခွင့်ပြုသော်လည်း ရေငွေ့ ထွက်သွားစေသည် -- အပင် ထိန်းသိမ်းရမည့် အမြဲတမ်း Trade-off တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Transpiration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Transpiration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w26-dm-1",
+          termEn: "Transpiration",
+          termMy: "Transpiration",
+          matchEn: "Evaporation of water from a plant's surface, mainly through the stomata",
+          matchMy: "အပင်၏ မျက်နှာပြင်မှ ရေ အငွေ့ပျံခြင်း၊ အဓိကအားဖြင့် Stomata မှတဆင့်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w26-dm-2",
+          termEn: "Cohesion",
+          termMy: "ကိုးဟီးရှင်း (Cohesion)",
+          matchEn: "Water molecules sticking together through hydrogen bonding",
+          matchMy: "Hydrogen Bond ဖြင့် ရေမော်လီကျူးများ အချင်းချင်း ကပ်ငြိခြင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w26-dm-3",
+          termEn: "Tension",
+          termMy: "Tension",
+          matchEn: "The pulling force created as water evaporates from the leaf",
+          matchMy: "အရွက်မှ ရေ အငွေ့ပျံသည့်အခါ ဖြစ်ပေါ်လာသော ဆွဲငင်အား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w26-dm-4",
+          termEn: "Stoma (plural: stomata)",
+          termMy: "Stoma (ပေါက်ငယ်)",
+          matchEn: "A tiny pore in a leaf's surface, controlled by guard cells",
+          matchMy: "Guard Cell များက ထိန်းချုပ်ထားသော အရွက်မျက်နှာပြင်ရှိ ပေါက်ငယ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w26-dm-5",
+          termEn: "Guard cell",
+          termMy: "Guard Cell",
+          matchEn: "A pair of cells that open and close a stoma",
+          matchMy: "Stoma တစ်ခုကို ဖွင့်/ပိတ်ပေးသော ဆဲလ်တွဲ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases Transpiration Rate?",
+      titleMy: "စီစစ်ကြမည် - Transpiration နှုန်းကို တိုးစေလား၊ လျော့ချစေလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Transpiration Rate", "Decreases Transpiration Rate"],
+        bucketsMy: ["Transpiration နှုန်း တိုးစေ", "Transpiration နှုန်း လျော့ချစေ"],
+        items: [
+          SortingItem(
+            id: "y12bio-w26-sort-1",
+            labelEn: "Higher temperature",
+            labelMy: "Temperature မြင့်မားခြင်း",
+            correctBucketEn: "Increases Transpiration Rate",
+            correctBucketMy: "Transpiration နှုန်း တိုးစေ",
+          ),
+          SortingItem(
+            id: "y12bio-w26-sort-2",
+            labelEn: "Strong wind removing water vapour from the leaf surface",
+            labelMy: "အရွက်မျက်နှာပြင်မှ ရေငွေ့ကို ဖယ်ရှားပေးသော လေပြင်းထန်ခြင်း",
+            correctBucketEn: "Increases Transpiration Rate",
+            correctBucketMy: "Transpiration နှုန်း တိုးစေ",
+          ),
+          SortingItem(
+            id: "y12bio-w26-sort-3",
+            labelEn: "High humidity in the surrounding air",
+            labelMy: "ပတ်ဝန်းကျင်လေထု၏ စိုထိုင်းဆ မြင့်မားခြင်း",
+            correctBucketEn: "Decreases Transpiration Rate",
+            correctBucketMy: "Transpiration နှုန်း လျော့ချစေ",
+          ),
+          SortingItem(
+            id: "y12bio-w26-sort-4",
+            labelEn: "Bright light, causing more stomata to open",
+            labelMy: "Stomata ပို၍ ဖွင့်စေသော အလင်းတောက်ပခြင်း",
+            correctBucketEn: "Increases Transpiration Rate",
+            correctBucketMy: "Transpiration နှုန်း တိုးစေ",
+          ),
+          SortingItem(
+            id: "y12bio-w26-sort-5",
+            labelEn: "Low light, causing stomata to close",
+            labelMy: "Stomata ပိတ်စေသော အလင်းနည်းပါးခြင်း",
+            correctBucketEn: "Decreases Transpiration Rate",
+            correctBucketMy: "Transpiration နှုန်း လျော့ချစေ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring Transpiration with a Potometer",
+      titleMy: "စာဖတ်ခြင်း - Potometer ဖြင့် Transpiration တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring Transpiration with a Potometer",
+        titleMy: "Potometer ဖြင့် Transpiration တိုင်းတာခြင်း",
+        passageEn:
+            "Su Su and Htet Aung set up a potometer -- a piece of apparatus with a leafy shoot sealed into a tube connected to a capillary tube containing an air bubble -- to measure how fast a plant took up water under different conditions. Sayar Zaw Min reminded them that a potometer actually measures water uptake, not transpiration itself directly, but since the vast majority of water taken up by a healthy shoot is lost again through transpiration, the two are close enough to treat as equivalent for this practical.\n\nUnder normal classroom conditions, Su Su timed the air bubble moving 20 mm along the capillary scale in 5 minutes. She then moved a desk fan to blow gently across the shoot, increasing air movement, and repeated the timing -- the bubble now moved 35 mm in the same 5 minutes, a clear increase in uptake rate. Htet Aung explained why: moving air sweeps away the layer of humid air that would otherwise build up right next to the leaf surface, keeping the water potential gradient between the leaf's air spaces and the surrounding air as steep as possible, which speeds up the rate of diffusion of water vapour out of the stomata.\n\nWhen they then covered the shoot with a plastic bag to trap humidity around it, the bubble barely moved at all over the same 5 minutes. \"That's cohesion-tension theory being tested in real time,\" Sayar Zaw Min told them. \"Slow down evaporation from the leaves, and you slow down the tension pulling water up the xylem -- which is exactly why the whole uptake process depends on transpiration continuing at the top of the plant, not on anything pushing from below.\"",
+        passageMy:
+            "Su Su နှင့် Htet Aung သည် Potometer -- Air Bubble ပါဝင်သော Capillary Tube နှင့် ဆက်သွယ်ထားသော Tube အတွင်း အရွက်ပါ Shoot တစ်ခု ထားရှိထားသည့် ကိရိယာ -- ကို စီစဉ်ခဲ့ကြပြီး ခြားနားသော အခြေအနေများအောက်တွင် အပင်တစ်ပင် မည်မျှ လျင်မြန်စွာ ရေစုပ်ယူသည်ကို တိုင်းတာခဲ့ကြသည်။ Potometer သည် Transpiration ကိုယ်တိုင် တိုက်ရိုက် မတိုင်းတာဘဲ ရေစုပ်ယူမှုကိုသာ တိုင်းတာသည်ဟု ဆရာဇော်မင်း ပြန်သတိပေးခဲ့သော်လည်း ကျန်းမာသော Shoot တစ်ခု စုပ်ယူသော ရေ၏ အများစုသည် Transpiration ဖြင့် ပြန်ဆုံးရှုံးသောကြောင့် ဤ Practical အတွက် နှစ်ခုကို တူညီသည်ဟု ယူဆနိုင်လောက်အောင် နီးကပ်ကြောင်း ရှင်းပြခဲ့သည်။\n\nပုံမှန် အတန်းအခြေအနေအောက်တွင် Su Su သည် Air Bubble Capillary Scale တစ်လျှောက် 20 mm ရွေ့လျားသည်ကို Minute 5 ဖြင့် အချိန်ကိုက်ခဲ့သည်။ ထို့နောက် Shoot ပတ်လည်တွင် အနူးအညံ့ လေတိုက်ရန် စားပွဲမြှင်တံခါးကို ရွှေ့ခဲ့ပြီး လေရွေ့လျားမှု တိုးမြှင့်စေကာ အချိန်ကိုက်ခြင်းကို ထပ်လုပ်ခဲ့သည် -- Bubble သည် ယခုအခါ တူညီသော Minute 5 အတွင်း 35 mm ရွေ့လျားသွားပြီး ရေစုပ်ယူနှုန်း ရှင်းလင်းစွာ တိုးလာသည်ကို တွေ့ခဲ့သည်။ Htet Aung က အကြောင်းရင်းကို ရှင်းပြခဲ့သည် - ရွေ့လျားနေသော လေသည် အရွက်မျက်နှာပြင်နှင့် ကပ်လျက် စုပုံနေမည့် စိုစွတ်လေအလွှာကို ရွှေ့ထုတ်ပေးသောကြောင့် အရွက်၏ လေအပေါက်များနှင့် ပတ်ဝန်းကျင် လေအကြား Water Potential Gradient ကို ဖြစ်နိုင်သမျှ ရှင်းလင်းအောင် ထိန်းသိမ်းပေးသည်၊ ၎င်းက Stomata များမှ ရေငွေ့ Diffuse ထွက်နှုန်းကို မြန်ဆန်စေသည်။\n\nထို့နောက် Shoot ပတ်လည်တွင် စိုထိုင်းဆ ချုံ့ကျဉ်စေရန် ပလတ်စတစ်အိတ်ဖြင့် ဖုံးအုပ်လိုက်ရာ Bubble သည် တူညီသော Minute 5 အတွင်း လုံးဝနီးပါး ရွေ့လျားခြင်း မရှိတော့ပါ။ \"ထိုသည်မှာ Cohesion-tension Theory ကို အချိန်ရင်း စမ်းသပ်ကြည့်ခြင်းပင် ဖြစ်သည်\" ဟု ဆရာဇော်မင်းက သူတို့အား ပြောကြားခဲ့သည် \"အရွက်များမှ Evaporation ကို နှေးကွေးအောင် လုပ်လိုက်ပါ Xylem အတွင်း ရေကို အထက်သို့ ဆွဲတင်နေသော Tension ကိုလည်း နှေးကွေးစေသည် -- ၎င်းသည် ရေစုပ်ယူခြင်း လုပ်ငန်းစဉ်တစ်ခုလုံးသည် အောက်မှ တွန်းအားပေးနေသော တစ်စုံတစ်ခုအပေါ် မှီခိုနေခြင်း မဟုတ်ဘဲ အပင်၏ ထိပ်ဆုံးတွင် Transpiration ဆက်လက်ဖြစ်ပေါ်နေခြင်းအပေါ် မှီခိုနေရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what does a potometer actually measure?",
+            questionMy: "Potometer တစ်ခုသည် အမှန်တကယ် အဘယ်ကို တိုင်းတာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The rate of water uptake by the shoot",
+              "The exact rate of photosynthesis",
+              "The temperature of the leaf",
+              "The number of stomata directly",
+            ],
+            optionsMy: [
+              "Shoot ၏ ရေစုပ်ယူနှုန်း",
+              "Photosynthesis ၏ အတိအကျနှုန်း",
+              "အရွက်၏ Temperature",
+              "Stomata အရေအတွက် တိုက်ရိုက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why did moving air increase the uptake rate?",
+            questionMy: "ရွေ့လျားနေသော လေက ရေစုပ်ယူနှုန်းကို တိုးမြှင့်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It removed the humid air layer next to the leaf, keeping the water potential gradient steep",
+              "It cooled the leaf down to freezing",
+              "It closed all the stomata completely",
+              "It added extra carbon dioxide to the air",
+            ],
+            optionsMy: [
+              "အရွက်နှင့် ကပ်လျက်ရှိသော စိုစွတ်လေအလွှာကို ဖယ်ရှားပေးပြီး Water Potential Gradient ကို ရှင်းလင်းအောင် ထိန်းသိမ်းပေးသောကြောင့်",
+              "အရွက်ကို အေးခဲသည်အထိ အေးစေသောကြောင့်",
+              "Stomata အားလုံးကို လုံးဝ ပိတ်ပစ်လိုက်သောကြောင့်",
+              "လေထုတွင် Carbon Dioxide ထပ်ဆောင်း ပေါင်းထည့်လိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what happened when the shoot was covered with a plastic bag?",
+            questionMy: "Shoot ကို ပလတ်စတစ်အိတ်ဖြင့် ဖုံးအုပ်လိုက်သောအခါ အဘယ်ဖြစ်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The bubble barely moved, since humidity slowed evaporation and tension",
+              "The bubble moved faster than ever before",
+              "The shoot immediately died",
+              "The xylem vessels dissolved completely",
+            ],
+            optionsMy: [
+              "စိုထိုင်းဆက Evaporation နှင့် Tension ကို နှေးကွေးစေသောကြောင့် Bubble လုံးဝနီးပါး မရွေ့လျားတော့ပါ",
+              "Bubble သည် ယခင်ထက် ပိုမြန်ဆန်စွာ ရွေ့လျားလာသည်",
+              "Shoot သည် ချက်ချင်း သေဆုံးသွားသည်",
+              "Xylem Vessel များ လုံးဝ ပျော်ဝင်ပျောက်ကွယ်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Transpiration",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Transpiration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Most water is lost from a plant through the...",
+          questionMy: "အပင်တစ်ပင်မှ ရေအများစုသည် ...မှတဆင့် ဆုံးရှုံးသည်",
+          optionsEn: ["Stomata", "Roots directly", "Xylem walls", "Cell wall"],
+          optionsMy: ["Stomata", "အမြစ်များ တိုက်ရိုက်", "Xylem Wall", "Cell Wall"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cohesion between water molecules is caused by...",
+          questionMy: "ရေမော်လီကျူးများအကြား Cohesion ဖြစ်ပေါ်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: ["Hydrogen bonding", "Ionic bonding", "Peptide bonds", "Glycosidic bonds"],
+          optionsMy: ["Hydrogen Bond", "Ionic Bond", "Peptide Bond", "Glycosidic Bond"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Higher wind speed tends to...",
+          questionMy: "လေတိုက်နှုန်း မြင့်မားခြင်းသည် ယေဘုယျအားဖြင့်...",
+          optionsEn: [
+            "Increase the rate of transpiration",
+            "Decrease the rate of transpiration",
+            "Stop transpiration completely",
+            "Have no effect at all",
+          ],
+          optionsMy: [
+            "Transpiration နှုန်းကို တိုးမြှင့်သည်",
+            "Transpiration နှုန်းကို လျော့ချသည်",
+            "Transpiration ကို လုံးဝ ရပ်တန့်စေသည်",
+            "သက်ရောက်မှု မည်သည်မျှ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "Phloem Structure"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek27 = CourseWeekDef(
+  id: "course-y12-bio-w27",
+  weekNumber: 27,
+  titleEn: "Phloem Structure",
+  titleMy: "Phloem ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w27-d1",
+      dayNumber: 1,
+      titleEn: "Sieve Tube Elements and Companion Cells",
+      titleMy: "Sieve Tube Element နှင့် Companion Cell",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Phloem tissue mainly transports...",
+          questionMy: "Phloem တစ်ရှူးသည် အဓိက ...ကို သယ်ယူပို့ဆောင်သည်",
+          optionsEn: [
+            "Dissolved sugars (mainly sucrose) and other organic solutes",
+            "Only water, in the same direction as xylem",
+            "Only oxygen gas",
+            "Only mineral ions from the soil",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်ထားသော Sugar များ (အဓိကအားဖြင့် Sucrose) နှင့် အခြား Organic Solute များ",
+            "Xylem နှင့် တစ်ဖက်တည်း ဦးတည်ချက်တွင် ရေသာ",
+            "Oxygen ဓာတ်ငွေ့သာ",
+            "မြေဆီလွှာမှ သတ္တုဓာတ် Ion များသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike xylem's one-way water transport, phloem carries the products of photosynthesis -- mainly dissolved sucrose -- and can move in either direction depending on where sugars are needed.",
+          ],
+          hintsMy: [
+            "Xylem ၏ တစ်ဖက်တည်း ရေသယ်ယူပို့ဆောင်မှုနှင့် မတူဘဲ Phloem သည် Photosynthesis ၏ ရလဒ်များ -- အဓိကအားဖြင့် ပျော်ဝင်ထားသော Sucrose -- ကို သယ်ဆောင်ပြီး Sugar လိုအပ်ရာနေရာအလိုက် ဦးတည်ချက် နှစ်မျိုးလုံးသို့ ရွေ့လျားနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A sieve tube element is a living cell, but it has lost its nucleus and most organelles, so it relies on an adjacent...",
+          questionMy: "Sieve Tube Element သည် အသက်ရှင်သော ဆဲလ်ဖြစ်သော်လည်း Nucleus နှင့် Organelle အများစု ဆုံးရှုံးထားသောကြောင့် အနီးရှိ ...ကို မှီခိုနေရသည်",
+          optionsEn: [
+            "Companion cell to carry out its metabolic functions",
+            "Xylem vessel to supply water directly",
+            "Root hair cell to survive",
+            "Mitochondrion floating freely nearby",
+          ],
+          optionsMy: [
+            "Metabolic Function များ ဆောင်ရွက်ပေးရန် Companion Cell",
+            "ရေကို တိုက်ရိုက် ပေးအပ်ရန် Xylem Vessel",
+            "အသက်ရှင်ရန် Root Hair Cell",
+            "အနီးတွင် လွတ်လပ်စွာ ပေါလောပလော ဖြစ်နေသော Mitochondrion",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The companion cell, connected to the sieve tube element by many plasmodesmata, has a full set of organelles and provides the metabolic energy the sieve tube element needs.",
+          ],
+          hintsMy: [
+            "Plasmodesmata များစွာဖြင့် Sieve Tube Element နှင့် ချိတ်ဆက်ထားသော Companion Cell သည် Organelle အပြည့်အစုံ ရှိပြီး Sieve Tube Element လိုအပ်သော Metabolic Energy ကို ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Sieve tube elements are joined end to end at perforated cross walls called...",
+          questionMy: "Sieve Tube Element များကို အပေါက်ပေါက်ရှိသော ဖြတ်နံရံများ -- ...ဟု ခေါ်သည် -- တွင် အဆုံးချင်း ချိတ်ဆက်ထားသည်",
+          optionsEn: ["Sieve plates", "Nuclear pores", "Cell walls only", "Guard cells"],
+          optionsMy: ["Sieve Plate", "Nuclear Pore", "Cell Wall သာ", "Guard Cell"],
+          correctIndex: 0,
+          hintsEn: [
+            "Sieve plates have pores that allow the sugary phloem sap to flow from one sieve tube element into the next.",
+          ],
+          hintsMy: [
+            "Sieve Plate များတွင် Phloem Sap သကြားဓာတ်ကို Sieve Tube Element တစ်ခုမှ နောက်တစ်ခုသို့ စီးဆင်းစေသော အပေါက်များ ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Phloem Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Phloem ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w27-dm-1",
+          termEn: "Phloem",
+          termMy: "ဖလိုအမ် (Phloem)",
+          matchEn: "The tissue that transports dissolved sugars around the plant",
+          matchMy: "အပင်ပတ်လည် ပျော်ဝင်ထားသော Sugar များကို သယ်ယူပို့ဆောင်သော တစ်ရှူး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w27-dm-2",
+          termEn: "Sieve tube element",
+          termMy: "Sieve Tube Element",
+          matchEn: "A living cell with no nucleus, forming the tube phloem sap flows through",
+          matchMy: "Nucleus မရှိသော အသက်ရှင်ဆဲလ်ဖြစ်ပြီး Phloem Sap စီးဆင်းရာ ပြွန်ကို ဖွဲ့စည်းသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w27-dm-3",
+          termEn: "Companion cell",
+          termMy: "Companion Cell",
+          matchEn: "A cell with a full set of organelles that supports an adjacent sieve tube element",
+          matchMy: "Organelle အပြည့်အစုံ ရှိပြီး အနီးရှိ Sieve Tube Element ကို ပံ့ပိုးပေးသော ဆဲလ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w27-dm-4",
+          termEn: "Sieve plate",
+          termMy: "Sieve Plate",
+          matchEn: "A perforated cross wall joining sieve tube elements end to end",
+          matchMy: "Sieve Tube Element များကို အဆုံးချင်း ချိတ်ဆက်ပေးသော အပေါက်ပေါက်ရှိသော ဖြတ်နံရံ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w27-dm-5",
+          termEn: "Plasmodesmata",
+          termMy: "Plasmodesmata",
+          matchEn: "Fine cytoplasmic channels connecting a sieve tube element to its companion cell",
+          matchMy: "Sieve Tube Element ကို ၎င်း၏ Companion Cell နှင့် ချိတ်ဆက်ပေးသော ပါးလွှာသော Cytoplasmic လမ်းကြောင်းများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Feature of Xylem or Feature of Phloem?",
+      titleMy: "စီစစ်ကြမည် - Xylem ၏ လက္ခဏာလား၊ Phloem ၏ လက္ခဏာလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Feature of Xylem", "Feature of Phloem"],
+        bucketsMy: ["Xylem ၏ လက္ခဏာ", "Phloem ၏ လက္ခဏာ"],
+        items: [
+          SortingItem(
+            id: "y12bio-w27-sort-1",
+            labelEn: "Dead, hollow cells with no cytoplasm",
+            labelMy: "Cytoplasm မရှိသော သေဆုံးပြီး အတွင်းလွတ်လပ်သည့် ဆဲလ်များ",
+            correctBucketEn: "Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w27-sort-2",
+            labelEn: "Living cells that have lost their nucleus but rely on companion cells",
+            labelMy: "Nucleus ဆုံးရှုံးထားသော်လည်း Companion Cell ကို မှီခိုနေသော အသက်ရှင်ဆဲလ်များ",
+            correctBucketEn: "Feature of Phloem",
+            correctBucketMy: "Phloem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w27-sort-3",
+            labelEn: "Transports sugars, which can move in either direction",
+            labelMy: "ဦးတည်ချက် နှစ်မျိုးလုံးသို့ ရွေ့လျားနိုင်သော Sugar များ သယ်ယူပို့ဆောင်",
+            correctBucketEn: "Feature of Phloem",
+            correctBucketMy: "Phloem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w27-sort-4",
+            labelEn: "Transports water and minerals in one direction only, upward",
+            labelMy: "ရေနှင့် သတ္တုဓာတ်များကို ဦးတည်ချက် တစ်မျိုးတည်း အထက်သို့သာ သယ်ယူပို့ဆောင်",
+            correctBucketEn: "Feature of Xylem",
+            correctBucketMy: "Xylem ၏ လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w27-sort-5",
+            labelEn: "Walls joined at sieve plates with pores",
+            labelMy: "အပေါက်ပါသော Sieve Plate များတွင် ချိတ်ဆက်ထားသော Wall များ",
+            correctBucketEn: "Feature of Phloem",
+            correctBucketMy: "Phloem ၏ လက္ခဏာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Aphids and the Discovery of Phloem Sap",
+      titleMy: "စာဖတ်ခြင်း - Aphid များနှင့် Phloem Sap ရှာဖွေတွေ့ရှိမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Aphids and the Discovery of Phloem Sap",
+        titleMy: "Aphid များနှင့် Phloem Sap ရှာဖွေတွေ့ရှိမှု",
+        passageEn:
+            "Sayar Zaw Min told the class one of biology's cleverer historical tricks: aphids, tiny insects that feed on plants, insert an extremely fine mouthpart called a stylet directly into a single sieve tube element to feed on the sugary phloem sap inside, without damaging the surrounding tissue. Scientists studying translocation realised they could use this precision to their advantage.\n\nHtet Aung explained the classic technique: researchers let an aphid feed normally until its stylet was inserted into a sieve tube element, then anaesthetised the aphid and cut through its body, leaving the stylet in place still embedded in the phloem. Because the sieve tube element was still under pressure, phloem sap continued to flow out through the severed stylet for hours, giving researchers a pure, uncontaminated sample of exactly what was moving through the phloem at that precise point in the plant.\n\nSu Su pointed out why this mattered: chemical analysis of the collected sap confirmed it was overwhelmingly sucrose dissolved in water, along with smaller amounts of amino acids and other organic solutes -- direct evidence supporting what biologists had suspected about phloem's contents. \"An aphid's feeding habit,\" Sayar Zaw Min concluded, \"turned out to be a more precise sampling tool than anything humans had built at the time -- proof that careful observation of an organism's own behaviour can sometimes answer a scientific question faster than inventing new apparatus.\"",
+        passageMy:
+            "ဇီဝဗေဒသမိုင်း၏ ပါးနပ်သော ကလေတစ်ခုကို ဆရာဇော်မင်းက အတန်းအား ပြောပြခဲ့သည် - အပင်များကို စားသောက်သော Aphid ဟုခေါ်သည့် ကျင်းစျင်းငယ်များသည် Stylet ဟု ခေါ်သော အလွန်ပါးလွှာသော ခံတွင်းအစိတ်အပိုင်းကို Sieve Tube Element တစ်ခုတည်းအတွင်းသို့ တိုက်ရိုက် ထိုးထည့်၍ ပတ်ဝန်းကျင်တစ်ရှူးကို မထိခိုက်ဘဲ အတွင်းရှိ သကြားဓာတ်ရှိ Phloem Sap ကို စားသောက်ကြသည်။ Translocation ကို လေ့လာနေသော သိပ္ပံပညာရှင်များသည် ဤ တိကျမှုကို ၎င်းတို့၏ အားသာချက်အဖြစ် အသုံးချနိုင်ကြောင်း သဘောပေါက်ခဲ့ကြသည်။\n\nHtet Aung သည် ရှေးရိုးစွဲ နည်းလမ်းကို ရှင်းပြခဲ့သည် - Aphid တစ်ကောင်ကို ၎င်း၏ Stylet သည် Sieve Tube Element အတွင်းသို့ ထိုးထည့်သည်အထိ ပုံမှန်စားသောက်ခွင့်ပြုပြီး ထို့နောက် Aphid ကို ဆေးမေ့ကာ ၎င်း၏ ခန္ဓာကိုယ်ကို ဖြတ်ကာ Stylet ကို Phloem အတွင်း ထိုးထည့်ထားသည့်အတိုင်း ချန်ထားသည်။ Sieve Tube Element သည် ဆက်လက် Pressure အောက်ရှိနေသောကြောင့် ဖြတ်တောက်ထားသော Stylet မှတဆင့် Phloem Sap သည် နာရီများစွာ ဆက်လက် စီးထွက်နေခဲ့ပြီး အပင်တွင် ထို တိကျသော အမှတ်တစ်ခုတွင် Phloem အတွင်းမှ အမှန်တကယ် ရွေ့လျားနေသည့် အရာ၏ စင်ကြယ်ပြီး ညစ်ညမ်းမှုမရှိသော နမူနာကို သိပ္ပံပညာရှင်များအား ပေးအပ်ခဲ့သည်။\n\nဤသည် အဘယ်ကြောင့် အရေးကြီးသည်ကို Su Su ညွှန်ပြခဲ့သည် - စုစည်းရရှိသော Sap ၏ ဓာတုစစ်ဆေးမှုက ၎င်းသည် ရေတွင် ပျော်ဝင်ထားသော Sucrose အများစုနှင့် Amino Acid နှင့် အခြား Organic Solute အနည်းငယ် ပါဝင်ကြောင်း အတည်ပြုပေးခဲ့သည် -- Phloem ၏ အကြောင်းအရာအကြောင်း ဇီဝဗေဒပညာရှင်များ သံသယရှိခဲ့သောအရာကို ထောက်ခံသော တိုက်ရိုက် သက်သေအထောက်အထား ဖြစ်သည်။ \"Aphid တစ်ကောင်၏ စားသောက်ဓလေ့သည်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"ထိုအချိန်က လူသားများ တည်ဆောက်ခဲ့သော ကိရိယာမည်သည့်ကိုမျှထက် ပိုတိကျသော နမူနာစုစည်းရေးကိရိယာ ဖြစ်ကြောင်း သက်သေထင်ရှားခဲ့သည် -- သက်ရှိသတ္တဝါတစ်ခု၏ ကိုယ်ပိုင်ဆက်ဆံရေးကို ဂရုတစိုက် စောင့်ကြည့်ခြင်းသည် ကိရိယာသစ်တစ်ခု တီထွင်ခြင်းထက် သိပ္ပံဆိုင်ရာ မေးခွန်းတစ်ခုကို တစ်ခါတစ်ရံ ပိုမြန်ဆန်စွာ ဖြေဆိုနိုင်ကြောင်း သက်သေအထောက်အထားလည်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what does an aphid's stylet insert directly into?",
+            questionMy: "Aphid ၏ Stylet ကို အဘယ်ထဲသို့ တိုက်ရိုက် ထိုးထည့်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["A single sieve tube element", "A xylem vessel", "The root cortex", "The nucleus of a leaf cell"],
+            optionsMy: ["Sieve Tube Element တစ်ခုတည်း", "Xylem Vessel", "Root Cortex", "အရွက်ဆဲလ်၏ Nucleus"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why did phloem sap keep flowing out of the severed stylet?",
+            questionMy: "Phloem Sap သည် ဖြတ်တောက်ထားသော Stylet မှ ဆက်လက် စီးထွက်နေရသည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sieve tube element was still under pressure",
+              "The aphid was still alive and pumping it",
+              "Gravity pulled it out immediately",
+              "The stylet was connected to a xylem vessel instead",
+            ],
+            optionsMy: [
+              "Sieve Tube Element သည် ဆက်လက် Pressure အောက်ရှိနေသောကြောင့်",
+              "Aphid သည် အသက်ရှင်ဆဲဖြစ်ပြီး ဆက်လက် ပန့်နေသောကြောင့်",
+              "Gravity က ချက်ချင်း ဆွဲထုတ်ခဲ့သောကြောင့်",
+              "Stylet သည် Xylem Vessel နှင့် ချိတ်ဆက်ထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what did chemical analysis of the collected sap mainly show?",
+            questionMy: "စုစည်းရရှိသော Sap ၏ ဓာတုစစ်ဆေးမှုက အဓိက အဘယ်ကို ပြသခဲ့သည်ကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It was overwhelmingly sucrose dissolved in water",
+              "It contained no organic molecules at all",
+              "It was pure water with no solutes",
+              "It contained only DNA",
+            ],
+            optionsMy: [
+              "ရေတွင် ပျော်ဝင်ထားသော Sucrose အများစု ဖြစ်ကြောင်း",
+              "Organic မော်လီကျူး လုံးဝ မပါဝင်ကြောင်း",
+              "Solute မည်သည်မျှ မပါသော ရေစင်ကြယ် ဖြစ်ကြောင်း",
+              "DNA သာ ပါဝင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Phloem",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Phloem",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Phloem mainly transports dissolved...",
+          questionMy: "Phloem သည် ပျော်ဝင်ထားသော ...ကို အဓိက သယ်ယူပို့ဆောင်သည်",
+          optionsEn: ["Sugars", "Mineral ions only", "Oxygen only", "DNA"],
+          optionsMy: ["Sugar", "သတ္တုဓာတ် Ion သာ", "Oxygen သာ", "DNA"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sieve tube elements rely on adjacent...",
+          questionMy: "Sieve Tube Element များသည် အနီးရှိ ...ကို မှီခိုနေသည်",
+          optionsEn: ["Companion cells", "Xylem vessels", "Root hair cells", "Guard cells"],
+          optionsMy: ["Companion Cell", "Xylem Vessel", "Root Hair Cell", "Guard Cell"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sieve tube elements are joined end to end at...",
+          questionMy: "Sieve Tube Element များကို ...တွင် အဆုံးချင်း ချိတ်ဆက်ထားသည်",
+          optionsEn: ["Sieve plates", "Nuclear pores", "Cell membranes only", "Centromeres"],
+          optionsMy: ["Sieve Plate", "Nuclear Pore", "Cell Membrane သာ", "Centromere"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28: "Translocation: The Mass Flow Hypothesis" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek28 = CourseWeekDef(
+  id: "course-y12-bio-w28",
+  weekNumber: 28,
+  titleEn: "Translocation: The Mass Flow Hypothesis",
+  titleMy: "Translocation - Mass Flow Hypothesis",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w28-d1",
+      dayNumber: 1,
+      titleEn: "Source, Sink and Mass Flow",
+      titleMy: "Source, Sink နှင့် Mass Flow",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Translocation is the movement of...",
+          questionMy: "Translocation ဆိုသည်မှာ...၏ ရွေ့လျားမှု ဖြစ်သည်",
+          optionsEn: [
+            "Organic solutes such as sucrose through the phloem",
+            "Water only, through the xylem",
+            "Oxygen only, through the stomata",
+            "DNA between two different plants",
+          ],
+          optionsMy: [
+            "Sucrose ကဲ့သို့ Organic Solute များ Phloem မှတဆင့်",
+            "Xylem မှတဆင့် ရေသာ",
+            "Stomata မှတဆင့် Oxygen သာ",
+            "အပင်နှစ်ပင်ကြား DNA",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Translocation is the specific term for phloem transport, distinct from the transpiration stream in xylem.",
+          ],
+          hintsMy: [
+            "Translocation သည် Xylem ၏ Transpiration Stream နှင့် ကွဲပြားသော Phloem Transport ၏ တိကျသော အသုံးအနှုန်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A \"source\" in translocation is a part of the plant that...",
+          questionMy: "Translocation တွင် \"Source\" ဆိုသည်မှာ...သော အပင်၏ အစိတ်အပိုင်း ဖြစ်သည်",
+          optionsEn: [
+            "Produces or releases sugars into the phloem, such as a photosynthesising leaf",
+            "Only ever uses sugars, never produces them",
+            "Absorbs water from the soil",
+            "Contains no living cells at all",
+          ],
+          optionsMy: [
+            "Photosynthesise ပြုနေသော အရွက်ကဲ့သို့ Sugar များကို ထုတ်လုပ် (သို့) Phloem ထဲသို့ ထုတ်လွှတ်",
+            "Sugar များကို အသုံးပြုရုံသာ ပြုလုပ်ပြီး ဘယ်တော့မှ မထုတ်လုပ်",
+            "မြေဆီလွှာမှ ရေ စုပ်ယူ",
+            "အသက်ရှင်ဆဲလ် လုံးဝ မပါဝင်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A mature, photosynthesising leaf is the classic example of a source -- it makes more sugar than it needs and loads the surplus into the phloem.",
+          ],
+          hintsMy: [
+            "Photosynthesise ပြုနေသော ရင့်ကျက်သည့် အရွက်တစ်ချပ်သည် Source ၏ ရှေးရိုးစွဲ ဥပမာဖြစ်ပြီး ၎င်း လိုအပ်သည်ထက် ပို၍ Sugar ထုတ်လုပ်ကာ ပိုလျှံသည်ကို Phloem ထဲသို့ တင်ပို့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "According to the mass flow hypothesis, sugars are loaded into the phloem at the source, water follows by osmosis raising pressure there, and this pressure difference pushes phloem sap...",
+          questionMy: "Mass Flow Hypothesis အရ Sugar များကို Source တွင် Phloem ထဲသို့ တင်ပို့ပြီး ရေသည် Osmosis ဖြင့် လိုက်ကာ ထိုနေရာတွင် Pressure ကို မြှင့်တင်သည်၊ ဤ Pressure ကွာခြားချက်က Phloem Sap ကို ...ဆီသို့ တွန်းပို့သည်",
+          optionsEn: [
+            "Toward the sink, where pressure is lower",
+            "Backward toward the roots only, always",
+            "In a completely random direction",
+            "Only upward, never downward",
+          ],
+          optionsMy: [
+            "Pressure ပိုနိမ့်သော Sink ဆီသို့",
+            "အမြစ်များဆီသို့ အောက်သို့သာ အမြဲ",
+            "လုံးဝ ကျပန်း ဦးတည်ချက်ဆီသို့",
+            "အထက်သို့သာ၊ အောက်သို့ ဘယ်တော့မှ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "High pressure builds up at the source and lower pressure exists at the sink (where sugars are used or stored), so phloem sap flows in bulk down this pressure gradient -- toward whichever sink needs it, in either direction along the stem.",
+          ],
+          hintsMy: [
+            "Source တွင် Pressure မြင့်တက်လာပြီး Sink (Sugar အသုံးပြု (သို့) သိမ်းဆည်းရာနေရာ) တွင် Pressure ပိုနိမ့်သောကြောင့် Phloem Sap သည် ဤ Pressure Gradient အလျော့ Bulk ဖြင့် စီးဆင်းသည် -- ပင်စည်တစ်လျှောက် ဦးတည်ချက် နှစ်မျိုးလုံးတွင် လိုအပ်သော Sink မည်သည့်ဆီသို့မဆို။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Translocation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Translocation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w28-dm-1",
+          termEn: "Translocation",
+          termMy: "Translocation",
+          matchEn: "The movement of organic solutes through the phloem",
+          matchMy: "Phloem မှတဆင့် Organic Solute များ၏ ရွေ့လျားမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w28-dm-2",
+          termEn: "Source",
+          termMy: "Source",
+          matchEn: "A part of the plant that loads sugars into the phloem, e.g. a photosynthesising leaf",
+          matchMy: "Sugar များကို Phloem ထဲသို့ တင်ပို့သော အပင်အစိတ်အပိုင်း၊ ဥပမာ - Photosynthesise ပြုနေသော အရွက်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w28-dm-3",
+          termEn: "Sink",
+          termMy: "Sink",
+          matchEn: "A part of the plant that unloads and uses or stores sugars, e.g. a growing root or fruit",
+          matchMy: "Sugar များကို ထုတ်ယူပြီး သုံးစွဲ (သို့) သိမ်းဆည်းသော အပင်အစိတ်အပိုင်း၊ ဥပမာ - ကြီးထွားနေသော အမြစ် (သို့) အသီး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w28-dm-4",
+          termEn: "Mass flow hypothesis",
+          termMy: "Mass Flow Hypothesis",
+          matchEn: "The idea that a pressure gradient from source to sink drives bulk flow of phloem sap",
+          matchMy: "Source မှ Sink သို့ Pressure Gradient က Phloem Sap ၏ Bulk Flow ကို မောင်းနှင်သည်ဟူသော အယူအဆ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w28-dm-5",
+          termEn: "Sucrose",
+          termMy: "Sucrose",
+          matchEn: "The main sugar transported by translocation",
+          matchMy: "Translocation ဖြင့် သယ်ယူပို့ဆောင်ခံရသော အဓိက Sugar",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Acts as a Source or Acts as a Sink?",
+      titleMy: "စီစစ်ကြမည် - Source အနေဖြင့် လုပ်ဆောင်လား၊ Sink အနေဖြင့်လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Acts as a Source", "Acts as a Sink"],
+        bucketsMy: ["Source အနေဖြင့် လုပ်ဆောင်", "Sink အနေဖြင့် လုပ်ဆောင်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w28-sort-1",
+            labelEn: "A mature leaf actively photosynthesising in bright light",
+            labelMy: "အလင်းတောက်ပတွင် တက်ကြွစွာ Photosynthesise ပြုနေသော ရင့်ကျက်သည့် အရွက်",
+            correctBucketEn: "Acts as a Source",
+            correctBucketMy: "Source အနေဖြင့် လုပ်ဆောင်",
+          ),
+          SortingItem(
+            id: "y12bio-w28-sort-2",
+            labelEn: "A growing root tip using sugars for respiration and growth",
+            labelMy: "Respiration နှင့် ကြီးထွားမှုအတွက် Sugar များ အသုံးပြုနေသော ကြီးထွားဆဲ အမြစ်ထိပ်",
+            correctBucketEn: "Acts as a Sink",
+            correctBucketMy: "Sink အနေဖြင့် လုပ်ဆောင်",
+          ),
+          SortingItem(
+            id: "y12bio-w28-sort-3",
+            labelEn: "A ripening fruit storing sugars",
+            labelMy: "Sugar များ သိမ်းဆည်းနေသော ရင့်ကျက်လာသော အသီး",
+            correctBucketEn: "Acts as a Sink",
+            correctBucketMy: "Sink အနေဖြင့် လုပ်ဆောင်",
+          ),
+          SortingItem(
+            id: "y12bio-w28-sort-4",
+            labelEn: "A storage organ releasing stored sugars back into the phloem",
+            labelMy: "သိမ်းဆည်းထားသော Sugar များကို Phloem ထဲသို့ ပြန်လည် ထုတ်လွှတ်နေသော သိုလှောင်ရေးအင်္ဂါ",
+            correctBucketEn: "Acts as a Source",
+            correctBucketMy: "Source အနေဖြင့် လုပ်ဆောင်",
+          ),
+          SortingItem(
+            id: "y12bio-w28-sort-5",
+            labelEn: "A flower using sugars to build nectar and seeds",
+            labelMy: "Nectar နှင့် မျိုးစေ့များ တည်ဆောက်ရန် Sugar များ အသုံးပြုနေသော ပန်း",
+            correctBucketEn: "Acts as a Sink",
+            correctBucketMy: "Sink အနေဖြင့် လုပ်ဆောင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Xylem and Phloem, Working Side by Side",
+      titleMy: "စာဖတ်ခြင်း - Xylem နှင့် Phloem, အတူတကွ အလုပ်လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Xylem and Phloem, Working Side by Side",
+        titleMy: "Xylem နှင့် Phloem, အတူတကွ အလုပ်လုပ်ခြင်း",
+        passageEn:
+            "For the term's capstone question, Sayar Zaw Min asked the class to trace the whole journey of a sugar molecule made in a leaf's chloroplast, all the way to a growing potato tuber underground, and to explain every stage using the whole term's ideas.\n\nSu Su started at the source: inside a mesophyll cell in a sunlit leaf, photosynthesis produces glucose, which is quickly converted to sucrose for transport. Companion cells actively load this sucrose into the adjacent sieve tube elements, using energy from ATP to move it against its concentration gradient -- lowering the water potential inside the sieve tube element in the process.\n\nHtet Aung continued with the mass flow itself: because the sieve tube element's water potential has dropped, water follows by osmosis from the nearby xylem, raising the hydrostatic pressure inside the phloem at the source end. Meanwhile, at the sink -- the growing potato tuber -- sucrose is constantly being unloaded and converted to starch for storage, keeping the water potential there higher and the pressure lower. This pressure difference, from high at the source to low at the sink, is exactly what drives the bulk flow of phloem sap downward through the sieve tube elements toward the tuber, passing through sieve plate after sieve plate along the way.\n\n\"Notice how xylem and phloem cooperate here without ever mixing their contents,\" Sayar Zaw Min concluded. \"The water that enters the phloem at the source came from the xylem right beside it, on loan for exactly this purpose -- proof that a plant's transport systems, studied separately across two weeks, actually function as one integrated network.\"",
+        passageMy:
+            "Term ၏ Capstone မေးခွန်းအဖြစ် အရွက်၏ Chloroplast အတွင်း ဖန်တီးလိုက်သော Sugar မော်လီကျူးတစ်ခု၏ ခရီးတစ်ခုလုံးကို မြေအောက်ရှိ ကြီးထွားနေသော အာလူးဥအထိ ခြေရာခံပြီး Term တစ်ခုလုံး၏ အယူအဆများကို အသုံးပြု၍ အဆင့်တိုင်းကို ရှင်းပြရန် ဆရာဇော်မင်းက အတန်းအား တောင်းဆိုခဲ့သည်။\n\nSu Su သည် Source မှ စတင်ခဲ့သည် - နေရောင်ခံနေသော အရွက်တစ်ချပ်ရှိ Mesophyll ဆဲလ်တစ်ခုအတွင်း Photosynthesis က Glucose ထုတ်လုပ်ပေးပြီး ၎င်းကို သယ်ယူပို့ဆောင်ရန် Sucrose အဖြစ် လျင်မြန်စွာ ပြောင်းလဲပေးသည်။ Companion Cell များသည် ဤ Sucrose ကို ATP မှ Energy ရယူ၍ အနီးရှိ Sieve Tube Element များထဲသို့ ၎င်းတို့၏ Concentration Gradient ဆန့်ကျင် တက်ကြွစွာ တင်ပို့ကာ လုပ်ငန်းစဉ်တစ်လျှောက် Sieve Tube Element အတွင်းရှိ Water Potential ကို လျှော့ချသည်။\n\nHtet Aung က Mass Flow ကိုယ်တိုင်ကို ဆက်လက်ရှင်းပြခဲ့သည် - Sieve Tube Element ၏ Water Potential ကျဆင်းသွားသောကြောင့် ရေသည် အနီးရှိ Xylem မှ Osmosis ဖြင့် ဆက်လက်လိုက်ပါလာပြီး Source ဘက်ရှိ Phloem အတွင်း Hydrostatic Pressure ကို မြှင့်တင်သည်။ ထို့ကြားတွင် Sink -- ကြီးထွားနေသော အာလူးဥ -- တွင် Sucrose ကို ဆက်လက်ထုတ်ယူပြီး သိုလှောင်ရန် Starch အဖြစ် ပြောင်းလဲပေးနေသောကြောင့် ထိုနေရာ၏ Water Potential ကို ပိုမြင့်ပြီး Pressure ကို ပိုနိမ့်စေထားသည်။ Source တွင် မြင့်မှ Sink တွင် နိမ့်ဆီသို့ ဤ Pressure ကွာခြားချက်သည် Sieve Plate တစ်ခုပြီးတစ်ခု ဖြတ်သန်းလျက် Phloem Sap ၏ Bulk Flow ကို အာလူးဥဆီသို့ အောက်သို့ တွန်းပို့ပေးသည့် အချက်အတိအကျ ဖြစ်သည်။\n\n\"ဤနေရာတွင် Xylem နှင့် Phloem တို့သည် ၎င်းတို့၏ အကြောင်းအရာများ လုံးဝ မရောနှောဘဲ ပူးပေါင်းလုပ်ဆောင်နေကြသည်ကို သတိပြုပါ\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"Source တွင် Phloem ထဲသို့ ဝင်ရောက်လာသော ရေသည် ၎င်း၏ ဘေးလျက်ရှိ Xylem မှ ဤရည်ရွယ်ချက်အတွက် တိတိကျကျ ငှားရမ်းလာခြင်း ဖြစ်သည် -- နှစ်ပတ်ကွာ သီးခြားစီ လေ့လာခဲ့သော အပင်၏ Transport System များသည် တကယ်တမ်းတွင် ပေါင်းစပ်ထားသော Network တစ်ခုတည်းအဖြစ် လုပ်ဆောင်နေကြောင်း သက်သေပြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, how do companion cells load sucrose into sieve tube elements?",
+            questionMy: "Companion Cell များသည် Sieve Tube Element များထဲသို့ Sucrose ကို မည်သို့ တင်ပို့သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Actively, using ATP, against the concentration gradient",
+              "Passively, by simple diffusion only",
+              "By endocytosis of whole sugar crystals",
+              "They never load any sucrose at all",
+            ],
+            optionsMy: [
+              "ATP ကို အသုံးပြု၍ Concentration Gradient ဆန့်ကျင် တက်ကြွစွာ",
+              "Simple Diffusion တစ်ခုတည်းဖြင့် Passive အနေဖြင့်",
+              "Sugar Crystal တစ်ခုလုံး၏ Endocytosis ဖြင့်",
+              "Sucrose မည်သည်ကိုမျှ လုံးဝ မတင်ပို့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why does water enter the phloem from the xylem at the source?",
+            questionMy: "Source တွင် ရေသည် Xylem မှ Phloem ထဲသို့ အဘယ်ကြောင့် ဝင်ရောက်သည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sieve tube element's water potential has dropped, drawing water in by osmosis",
+              "The xylem is completely full and overflowing",
+              "Active transport pumps water directly",
+              "There is no connection between xylem and phloem at all",
+            ],
+            optionsMy: [
+              "Sieve Tube Element ၏ Water Potential ကျဆင်းသွားပြီး Osmosis ဖြင့် ရေကို ဆွဲယူသောကြောင့်",
+              "Xylem သည် လုံးဝ ပြည့်နေပြီး လျှံထွက်နေသောကြောင့်",
+              "Active Transport က ရေကို တိုက်ရိုက် ပန့်တင်သောကြောင့်",
+              "Xylem နှင့် Phloem အကြား ချိတ်ဆက်မှု လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what does the source-to-sink water loan prove?",
+            questionMy: "Source-to-sink ရေငှားရမ်းမှုက အဘယ်ကို သက်သေပြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Xylem and phloem function as one integrated network",
+              "Xylem and phloem never interact at all",
+              "Only phloem exists in a real plant",
+              "Water never moves between the two tissues",
+            ],
+            optionsMy: [
+              "Xylem နှင့် Phloem တို့သည် ပေါင်းစပ်ထားသော Network တစ်ခုတည်းအဖြစ် လုပ်ဆောင်ကြောင်း",
+              "Xylem နှင့် Phloem တို့သည် ဘယ်တော့မှ အပြန်အလှန် သက်ရောက်ခြင်း မရှိကြောင်း",
+              "အစစ်အမှန် အပင်တစ်ပင်တွင် Phloem တစ်ခုတည်းသာ ရှိကြောင်း",
+              "ရေသည် တစ်ရှူးနှစ်ခုကြား ဘယ်တော့မှ မရွေ့လျားကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Translocation",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Translocation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A source loads sugars into the phloem, while a sink...",
+          questionMy: "Source သည် Sugar များကို Phloem ထဲသို့ တင်ပို့ပြီး Sink မှာမူ...",
+          optionsEn: [
+            "Unloads and uses or stores sugars",
+            "Only ever produces sugars",
+            "Contains no phloem at all",
+            "Is always a leaf",
+          ],
+          optionsMy: [
+            "Sugar များကို ထုတ်ယူပြီး သုံးစွဲ (သို့) သိမ်းဆည်း",
+            "Sugar များကို ထုတ်လုပ်ရုံသာ",
+            "Phloem လုံးဝ မပါဝင်",
+            "အမြဲတမ်း အရွက် ဖြစ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The mass flow hypothesis explains phloem transport as driven by...",
+          questionMy: "Mass Flow Hypothesis က Phloem Transport ကို ...ဖြင့် မောင်းနှင်သည်ဟု ရှင်းပြသည်",
+          optionsEn: [
+            "A pressure gradient from source to sink",
+            "Active transport of every single water molecule",
+            "Gravity alone",
+            "Diffusion of gases only",
+          ],
+          optionsMy: [
+            "Source မှ Sink ဆီသို့ Pressure Gradient",
+            "ရေမော်လီကျူးတစ်ခုချင်းစီ၏ Active Transport",
+            "Gravity တစ်ခုတည်း",
+            "ဓာတ်ငွေ့များ၏ Diffusion သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The main sugar transported by translocation is...",
+          questionMy: "Translocation ဖြင့် သယ်ယူပို့ဆောင်သော အဓိက Sugar မှာ...",
+          optionsEn: ["Sucrose", "Cellulose", "Starch, unchanged", "DNA"],
+          optionsMy: ["Sucrose", "Cellulose", "Starch, မပြောင်းလဲဘဲ", "DNA"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm7 = CourseTermDef(
+  id: "course-y12-bio-t7",
+  termNumber: 7,
+  titleEn: "Transport in Plants",
+  titleMy: "အပင်များတွင် သယ်ယူပို့ဆောင်ရေး",
+  weeks: [_y12BioWeek25, _y12BioWeek26, _y12BioWeek27, _y12BioWeek28],
+  certificateTitleEn: "AS Biology: Transport in Plants",
+  certificateTitleMy: "AS ဇီဝဗေဒ - အပင်များတွင် သယ်ယူပို့ဆောင်ရေး",
+);
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 8: "Transport in Mammals"
+// (Weeks 29-32)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Heart Structure and the Cardiac Cycle"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek29 = CourseWeekDef(
+  id: "course-y12-bio-w29",
+  weekNumber: 29,
+  titleEn: "Heart Structure and the Cardiac Cycle",
+  titleMy: "နှလုံး ဖွဲ့စည်းပုံနှင့် Cardiac Cycle",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w29-d1",
+      dayNumber: 1,
+      titleEn: "Chambers, Valves and the Cardiac Cycle",
+      titleMy: "Chamber, Valve နှင့် Cardiac Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The mammalian heart has four chambers: two atria and...",
+          questionMy: "Mammalian နှလုံးတွင် Chamber လေးခု ရှိသည် - Atrium နှစ်ခုနှင့်...",
+          optionsEn: ["Two ventricles", "Two more atria", "One ventricle only", "No ventricles at all"],
+          optionsMy: ["Ventricle နှစ်ခု", "Atrium နှစ်ခု ထပ်ဆောင်း", "Ventricle တစ်ခုတည်း", "Ventricle လုံးဝ မရှိ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Blood enters the heart into an atrium (upper chamber) and is pumped out from a ventricle (lower chamber), one pair on each side.",
+          ],
+          hintsMy: [
+            "သွေးသည် Atrium (အပေါ်ပိုင်း Chamber) ထဲသို့ ဝင်ရောက်ပြီး Ventricle (အောက်ပိုင်း Chamber) မှ ပန့်ထုတ်ခံရသည်၊ ဘက်တစ်ဖက်စီတွင် တွဲတစ်ခုစီ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Heart valves ensure blood flows in one direction by...",
+          questionMy: "နှလုံး Valve များက ...ဖြင့် သွေးကို ဦးတည်ချက် တစ်မျိုးတည်းသာ စီးဆင်းစေသည်",
+          optionsEn: [
+            "Closing to prevent backflow when pressure behind them is higher",
+            "Staying permanently open at all times",
+            "Producing new blood cells",
+            "Filtering out white blood cells",
+          ],
+          optionsMy: [
+            "နောက်ကွယ်ရှိ Pressure ပိုမြင့်သောအခါ ပြန်လည်စီးဆင်းမှုကို တားဆီးရန် ပိတ်ခြင်း",
+            "အမြဲတမ်း အချိန်တိုင်း ဖွင့်ထားခြင်း",
+            "သွေးဥသစ်များ ထုတ်လုပ်ခြင်း",
+            "သွေးဖြူဥများကို စစ်ထုတ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Valves are one-way flaps: a pressure difference across them pushes them open in the correct direction and shut when blood would otherwise flow backward.",
+          ],
+          hintsMy: [
+            "Valve များသည် တစ်ဖက်သတ် အနားများ ဖြစ်သည် - ၎င်းတို့တလျှောက် Pressure ကွာခြားချက်က မှန်ကန်သော ဦးတည်ချက်တွင် ဖွင့်ပေးပြီး သွေး ပြန်လည် စီးဆင်းမည့်အခါ ပိတ်သွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "During ventricular systole, the ventricles...",
+          questionMy: "Ventricular Systole အတွင်း Ventricle များသည်...",
+          optionsEn: [
+            "Contract, pumping blood out into the arteries",
+            "Relax completely, filling with blood",
+            "Stop beating entirely",
+            "Produce oxygen for the lungs",
+          ],
+          optionsMy: [
+            "စည်းညှစ်ကာ သွေးကို Artery များထဲသို့ ပန့်ထုတ်",
+            "လုံးဝ ပြေလျော့ကာ သွေးဖြင့် ပြည့်",
+            "လုံးဝ ခုန်ခြင်း ရပ်တန့်",
+            "အဆုတ်များအတွက် Oxygen ထုတ်လုပ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Systole\" means contraction; ventricular systole is the powerful squeeze that pushes blood out of the heart into the arteries.",
+          ],
+          hintsMy: [
+            "\"Systole\" ဆိုသည်မှာ စည်းညှစ်ခြင်း ဖြစ်ပြီး Ventricular Systole သည် သွေးကို နှလုံးမှ Artery များထဲသို့ တွန်းထုတ်ပေးသော အားကောင်းသော ဆွဲညှစ်မှု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Heart Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - နှလုံး ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w29-dm-1",
+          termEn: "Atrium",
+          termMy: "Atrium",
+          matchEn: "An upper heart chamber that receives blood entering the heart",
+          matchMy: "နှလုံးထဲသို့ ဝင်ရောက်လာသော သွေးကို လက်ခံသော အပေါ်ပိုင်း Chamber",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w29-dm-2",
+          termEn: "Ventricle",
+          termMy: "Ventricle",
+          matchEn: "A lower heart chamber that pumps blood out into the arteries",
+          matchMy: "သွေးကို Artery များထဲသို့ ပန့်ထုတ်ပေးသော အောက်ပိုင်း Chamber",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w29-dm-3",
+          termEn: "Valve",
+          termMy: "Valve",
+          matchEn: "A one-way flap that prevents blood flowing backward",
+          matchMy: "သွေး ပြန်လည်စီးဆင်းမှုကို တားဆီးသော တစ်ဖက်သတ် အနား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w29-dm-4",
+          termEn: "Cardiac cycle",
+          termMy: "Cardiac Cycle",
+          matchEn: "One complete sequence of contraction and relaxation of the heart",
+          matchMy: "နှလုံး၏ စည်းညှစ်ခြင်းနှင့် ပြေလျော့ခြင်း တစ်ကြိမ်လုံး၏ အစီအစဉ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w29-dm-5",
+          termEn: "Diastole",
+          termMy: "Diastole",
+          matchEn: "The relaxation phase of the cardiac cycle, when chambers fill with blood",
+          matchMy: "Chamber များ သွေးဖြင့် ပြည့်လာသည့်အခါ Cardiac Cycle ၏ ပြေလျော့ချိန်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Systole or Diastole?",
+      titleMy: "စီစစ်ကြမည် - Systole သို့မဟုတ် Diastole?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Systole (Contraction)", "Diastole (Relaxation)"],
+        bucketsMy: ["Systole (စည်းညှစ်ခြင်း)", "Diastole (ပြေလျော့ခြင်း)"],
+        items: [
+          SortingItem(
+            id: "y12bio-w29-sort-1",
+            labelEn: "Ventricles squeeze, pushing blood into the arteries",
+            labelMy: "Ventricle များ ညှစ်ပြီး သွေးကို Artery များထဲသို့ တွန်းထုတ်",
+            correctBucketEn: "Systole (Contraction)",
+            correctBucketMy: "Systole (စည်းညှစ်ခြင်း)",
+          ),
+          SortingItem(
+            id: "y12bio-w29-sort-2",
+            labelEn: "Chambers fill passively with returning blood",
+            labelMy: "ပြန်လည်ဝင်ရောက်လာသော သွေးဖြင့် Chamber များ Passive အနေဖြင့် ပြည့်",
+            correctBucketEn: "Diastole (Relaxation)",
+            correctBucketMy: "Diastole (ပြေလျော့ခြင်း)",
+          ),
+          SortingItem(
+            id: "y12bio-w29-sort-3",
+            labelEn: "Pressure inside the heart chamber rises sharply",
+            labelMy: "နှလုံး Chamber အတွင်း Pressure ချက်ချင်း မြင့်တက်",
+            correctBucketEn: "Systole (Contraction)",
+            correctBucketMy: "Systole (စည်းညှစ်ခြင်း)",
+          ),
+          SortingItem(
+            id: "y12bio-w29-sort-4",
+            labelEn: "Heart muscle relaxes between beats",
+            labelMy: "ခုန်ခြင်းများကြား နှလုံးကြွက်သား ပြေလျော့",
+            correctBucketEn: "Diastole (Relaxation)",
+            correctBucketMy: "Diastole (ပြေလျော့ခြင်း)",
+          ),
+          SortingItem(
+            id: "y12bio-w29-sort-5",
+            labelEn: "Atria contract, pushing blood into the ventricles below",
+            labelMy: "Atrium များ ညှစ်ပြီး သွေးကို အောက်ရှိ Ventricle များထဲသို့ တွန်းထုတ်",
+            correctBucketEn: "Systole (Contraction)",
+            correctBucketMy: "Systole (စည်းညှစ်ခြင်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Listening to the Cardiac Cycle",
+      titleMy: "စာဖတ်ခြင်း - Cardiac Cycle ကို နားထောင်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Listening to the Cardiac Cycle",
+        titleMy: "Cardiac Cycle ကို နားထောင်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min handed Htet Aung a stethoscope and asked him to describe the two distinct sounds he could hear with every heartbeat, a rhythmic \"lub-dub\". Htet Aung reported that the first sound, \"lub\", was louder and slightly longer, and the second, \"dub\", was shorter and sharper, with a brief pause after it before the cycle repeated.\n\nSu Su explained what caused each sound: the \"lub\" is the sound of the atrioventricular valves -- between the atria and ventricles -- slamming shut at the start of ventricular systole, when rising pressure in the contracting ventricles suddenly exceeds the pressure in the atria above them, forcing the valves closed to stop blood being pushed backward. The \"dub\" comes slightly later, when the semilunar valves at the base of the arteries snap shut as ventricular pressure falls below arterial pressure at the end of systole, preventing blood in the arteries from flowing back into the relaxing ventricles.\n\n\"That pause you noticed after the 'dub',\" Sayar Zaw Min added, \"is diastole -- the whole heart relaxing and the chambers filling passively with returning blood before the next cycle begins.\" He pointed out that a doctor listening with a stethoscope is really tracking the sequence of pressure changes across the whole cardiac cycle indirectly, through sound alone -- and that an unusual third sound, or a whooshing noise instead of a sharp snap, is exactly the kind of clue that can reveal a faulty valve.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Htet Aung ကို Stethoscope တစ်ခု ပေးအပ်ပြီး နှလုံးခုန်တစ်ကြိမ်စီတွင် ကြားနိုင်သော ရှင်းလင်းသော အသံနှစ်မျိုး \"Lub-dub\" တစ်ခန်းစီကို ဖော်ပြရန် ခိုင်းစေခဲ့သည်။ ပထမအသံ \"Lub\" သည် ပိုကျယ်ပြီး အနည်းငယ် ပိုရှည်ကြောင်း၊ ဒုတိယအသံ \"Dub\" သည် ပိုတိုပြီး ပိုထက်သည်ကို Htet Aung သတိပြုမိသည်၊ Cycle ပြန်ဖြစ်ပွားမီ ၎င်း၏ နောက်တွင် အနည်းငယ် ရပ်တန့်ချိန် ရှိသည်။\n\nအသံတစ်ခုစီ ဖြစ်ပေါ်စေသည့် အကြောင်းရင်းကို Su Su ရှင်းပြခဲ့သည် - \"Lub\" သည် Ventricular Systole စတင်သည့်အခါ Atrium နှင့် Ventricle အကြားရှိ Atrioventricular Valve များ ချက်ချင်း ပိတ်သွားသံဖြစ်ပြီး ညှစ်နေသော Ventricle များအတွင်း Pressure မြင့်တက်လာသောအခါ ၎င်းတို့အထက်ရှိ Atrium ၏ Pressure ကို ချက်ချင်း ကျော်လွန်ကာ သွေး ပြန်လည် တွန်းထုတ်ခံခြင်းကို ရပ်တန့်ရန် Valve ကို ပိတ်စေသည်။ \"Dub\" သည် အနည်းငယ်နောက်ကျပြီး ဖြစ်ပွားပြီး Systole ပြီးဆုံးချိန်တွင် Ventricular Pressure သည် Arterial Pressure အောက်သို့ ကျဆင်းသောအခါ Artery များ၏ အောက်ခြေရှိ Semilunar Valve များ ချက်ချင်း ပိတ်သွားကာ Artery များအတွင်းရှိ သွေးကို ပြေလျော့နေသော Ventricle များထဲသို့ ပြန်လည် စီးဆင်းခြင်းမှ ကာကွယ်ပေးသည်။\n\n\"'Dub' ပြီးနောက် သင် သတိပြုမိသော ရပ်တန့်ချိန်သည်\" ဟု ဆရာဇော်မင်း ထပ်ဆောင်း ပြောကြားခဲ့သည် \"Diastole ဖြစ်သည် -- နောက်တစ်ကြိမ် Cycle မစတင်မီ နှလုံးတစ်ခုလုံး ပြေလျော့ပြီး Chamber များ ပြန်လည်ဝင်ရောက်လာသော သွေးဖြင့် Passive အနေဖြင့် ပြည့်သွားချိန် ဖြစ်သည်။\" Stethoscope ဖြင့် နားထောင်နေသော ဆရာဝန်တစ်ဦးသည် Cardiac Cycle တစ်ခုလုံးတလျှောက် Pressure ပြောင်းလဲမှု အစီအစဉ်ကို အသံတစ်ခုတည်းဖြင့် သွယ်ဝိုက်၍ ခြေရာခံနေခြင်းသာ ဖြစ်ကြောင်းနှင့် ထူးဆန်းသော တတိယအသံ (သို့) ထက်သော ပိတ်သံအစား ရှုမြည်သံသည် Valve ချို့ယွင်းနေကြောင်း ဖော်ပြနိုင်သော အချက်အလက်အတိအကျ ဖြစ်ကြောင်း သူ ညွှန်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, what causes the \"lub\" sound?",
+            questionMy: "\"Lub\" အသံ ဖြစ်ပေါ်ရသည့်အကြောင်းရင်းကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Atrioventricular valves slamming shut at the start of ventricular systole",
+              "Semilunar valves opening at the end of diastole",
+              "The lungs inflating",
+              "Red blood cells colliding with each other",
+            ],
+            optionsMy: [
+              "Ventricular Systole စတင်သည့်အခါ Atrioventricular Valve များ ချက်ချင်း ပိတ်သွားခြင်း",
+              "Diastole ပြီးဆုံးသည့်အခါ Semilunar Valve များ ဖွင့်လိုက်ခြင်း",
+              "အဆုတ်များ ကြွထွက်လာခြင်း",
+              "သွေးနီဥများ အချင်းချင်း တိုက်မိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what does the \"dub\" sound prevent?",
+            questionMy: "\"Dub\" အသံက အဘယ်ကို ကာကွယ်ပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Blood in the arteries flowing back into the relaxing ventricles",
+              "Blood entering the atria at all",
+              "The lungs from inflating",
+              "Oxygen from reaching the blood",
+            ],
+            optionsMy: [
+              "Artery များအတွင်းရှိ သွေး ပြေလျော့နေသော Ventricle များထဲသို့ ပြန်လည် စီးဆင်းခြင်း",
+              "သွေးသည် Atrium ထဲသို့ လုံးဝ ဝင်ရောက်ခြင်း",
+              "အဆုတ်များ ကြွထွက်ခြင်း",
+              "Oxygen သွေးသို့ ရောက်ရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what could an unusual whooshing noise indicate?",
+            questionMy: "ထူးဆန်းသော ရှုမြည်သံက အဘယ်ကို ဖော်ပြနိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A faulty valve",
+              "A perfectly healthy heart",
+              "The stethoscope is broken",
+              "The patient is exercising too much",
+            ],
+            optionsMy: [
+              "ချို့ယွင်းနေသော Valve",
+              "လုံးဝကျန်းမာသော နှလုံး",
+              "Stethoscope ပျက်စီးနေခြင်း",
+              "လူနာသည် လေ့ကျင့်ခန်း အလွန်အကျွံ ပြုနေခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's last sentence."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: The Heart",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - နှလုံး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The heart has how many chambers?",
+          questionMy: "နှလုံးတွင် Chamber မည်မျှ ရှိသနည်း။",
+          optionsEn: ["Four", "Two", "Six", "One"],
+          optionsMy: ["လေးခု", "နှစ်ခု", "ခြောက်ခု", "တစ်ခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Heart valves prevent...",
+          questionMy: "နှလုံး Valve များသည် ...ကို တားဆီးသည်",
+          optionsEn: ["Backflow of blood", "Blood from entering the heart at all", "Oxygen from entering the lungs", "The heart from beating"],
+          optionsMy: ["သွေး ပြန်လည်စီးဆင်းမှု", "သွေးသည် နှလုံးထဲသို့ လုံးဝ ဝင်ရောက်ခြင်း", "Oxygen အဆုတ်ထဲသို့ ဝင်ရောက်ခြင်း", "နှလုံး ခုန်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Systole refers to...",
+          questionMy: "Systole ဆိုသည်မှာ...",
+          optionsEn: ["Contraction of the heart", "Relaxation of the heart", "The heart stopping", "Blood leaving the body"],
+          optionsMy: ["နှလုံး စည်းညှစ်ခြင်း", "နှလုံး ပြေလျော့ခြင်း", "နှလုံး ရပ်တန့်ခြင်း", "ခန္ဓာကိုယ်မှ သွေး ထွက်ခွာခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "Blood Vessels: Arteries, Veins and Capillaries"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek30 = CourseWeekDef(
+  id: "course-y12-bio-w30",
+  weekNumber: 30,
+  titleEn: "Blood Vessels: Arteries, Veins and Capillaries",
+  titleMy: "သွေးကြော - Artery, Vein နှင့် Capillary",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w30-d1",
+      dayNumber: 1,
+      titleEn: "Structure-Function of Arteries, Veins and Capillaries",
+      titleMy: "Artery, Vein နှင့် Capillary Structure-Function",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Arteries have thick, muscular, elastic walls mainly because they...",
+          questionMy: "Artery များတွင် ကြက်သားများသော၊ ပျော့ပြောင်းသော ထူထပ်သည့် Wall ရှိရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Carry blood away from the heart under high pressure",
+            "Carry blood only at very low pressure",
+            "Are found only inside the heart itself",
+            "Never need to withstand any pressure",
+          ],
+          optionsMy: [
+            "နှလုံးမှ Pressure မြင့်မားစွာအောက်တွင် သွေးကို ဆောင်သွားသောကြောင့်",
+            "Pressure အနိမ့်ဆုံးတွင်သာ သွေးကို ဆောင်သွားသောကြောင့်",
+            "နှလုံးအတွင်းတွင်သာ တွေ့ရသောကြောင့်",
+            "Pressure မည်သည်ကိုမျှ ခံနိုင်ရန် လုံးဝ မလိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The thick muscular and elastic wall lets an artery withstand and smooth out the high, pulsing pressure generated every time the ventricles contract.",
+          ],
+          hintsMy: [
+            "ထူထပ်သော ကြက်သားနှင့် ပျော့ပြောင်းသော Wall က Ventricle များ ညှစ်တိုင်း ဖြစ်ပေါ်လာသော မြင့်မား၍ ခုန်နေသော Pressure ကို ခံနိုင်ပြီး ချောမွေ့စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Veins have valves along their length mainly to...",
+          questionMy: "Vein များတွင် ၎င်းတို့၏ အလျားတလျှောက် Valve ရှိရသည့် အဓိကရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Prevent backflow of blood, since venous pressure is low",
+            "Increase blood pressure sharply",
+            "Filter red blood cells out of the blood",
+            "Produce new blood plasma",
+          ],
+          optionsMy: [
+            "Venous Pressure နိမ့်သောကြောင့် သွေး ပြန်လည်စီးဆင်းမှုကို တားဆီးရန်",
+            "သွေးပေါင်ချိန်ကို ချက်ချင်း မြှင့်တင်ရန်",
+            "သွေးထဲမှ သွေးနီဥများ စစ်ထုတ်ရန်",
+            "သွေးပလာစမာအသစ် ထုတ်လုပ်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Since blood pressure in veins is low by the time it returns to the heart, valves are needed to stop gravity or muscle movement from pushing blood the wrong way.",
+          ],
+          hintsMy: [
+            "သွေးသည် နှလုံးဆီသို့ ပြန်ရောက်ချိန်တွင် Vein အတွင်း Blood Pressure နိမ့်ကျနေသောကြောင့် Gravity (သို့) ကြွက်သား ရွေ့လျားမှုက သွေးကို လမ်းမှားဆီသို့ တွန်းမနေအောင် Valve များ လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Capillary walls are only one cell thick, which mainly allows...",
+          questionMy: "Capillary Wall များသည် ဆဲလ် တစ်ခုသာ ထူသောကြောင့် အဓိက ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Efficient diffusion of substances between blood and body tissues",
+            "Blood to move at extremely high pressure",
+            "Blood to bypass the tissues entirely",
+            "White blood cells to be destroyed instantly",
+          ],
+          optionsMy: [
+            "သွေးနှင့် ခန္ဓာကိုယ် တစ်ရှူးများအကြား ပစ္စည်းများ ထိရောက်စွာ Diffuse ဖြစ်ခြင်းကို ခွင့်ပြု",
+            "သွေးသည် အလွန်မြင့်သော Pressure ဖြင့် ရွေ့လျားနိုင်ခွင့်",
+            "သွေးသည် တစ်ရှူးများကို လုံးဝ ကျော်ဖြတ်နိုင်ခွင့်",
+            "သွေးဖြူဥများ ချက်ချင်း ဖျက်ဆီးခံရခွင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A single-cell-thick wall keeps the diffusion distance as short as possible, letting oxygen, glucose and waste products exchange quickly between blood and cells.",
+          ],
+          hintsMy: [
+            "ဆဲလ် တစ်ခုသာ ထူသော Wall က Diffusion Distance ကို တတ်နိုင်သမျှ တိုတောင်းစေပြီး Oxygen, Glucose နှင့် စွန့်ပစ်ပစ္စည်းများကို သွေးနှင့် ဆဲလ်များအကြား လျင်မြန်စွာ ဖလှယ်နိုင်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Blood Vessel Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သွေးကြော ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w30-dm-1",
+          termEn: "Artery",
+          termMy: "Artery (သွေးလှော်ကြော)",
+          matchEn: "A thick-walled, muscular vessel carrying blood away from the heart at high pressure",
+          matchMy: "Pressure မြင့်မားစွာဖြင့် နှလုံးမှ သွေးဆောင်သွားသော ကြက်သားများသော ထူသော Wall ရှိသည့် ကြော",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w30-dm-2",
+          termEn: "Vein",
+          termMy: "Vein (သွေးကြော)",
+          matchEn: "A thinner-walled vessel with valves, carrying blood back to the heart at low pressure",
+          matchMy: "Pressure နိမ့်စွာဖြင့် သွေးကို နှလုံးဆီသို့ ပြန်ဆောင်ပြီး Valve ရှိသော ပါးသော Wall ရှိသည့် ကြော",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w30-dm-3",
+          termEn: "Capillary",
+          termMy: "Capillary (သွေးဖြူးကြော)",
+          matchEn: "A tiny vessel with a wall only one cell thick, allowing substances to diffuse into tissues",
+          matchMy: "ဆဲလ် တစ်ခုသာ ထူသော Wall ရှိသော သွေးကြောငယ်၊ တစ်ရှူးများထဲသို့ ပစ္စည်းများ Diffuse ဖြစ်ခွင့်ပြု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w30-dm-4",
+          termEn: "Vein valve",
+          termMy: "Vein Valve",
+          matchEn: "A one-way flap along a vein preventing blood from flowing backward",
+          matchMy: "သွေး ပြန်လည်စီးဆင်းမှုကို တားဆီးသော Vein တစ်လျှောက်ရှိ တစ်ဖက်သတ် အနား",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w30-dm-5",
+          termEn: "Lumen",
+          termMy: "Lumen",
+          matchEn: "The hollow central space of a blood vessel through which blood flows",
+          matchMy: "သွေးစီးဆင်းသော သွေးကြောတစ်ခု၏ ဗဟိုတွင်ရှိသော လွတ်လပ်သည့် နေရာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Artery, Vein or Capillary Feature?",
+      titleMy: "စီစစ်ကြမည် - Artery, Vein (သို့) Capillary လက္ခဏာလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Artery or Vein Feature", "Capillary Feature"],
+        bucketsMy: ["Artery (သို့) Vein လက္ခဏာ", "Capillary လက္ခဏာ"],
+        items: [
+          SortingItem(
+            id: "y12bio-w30-sort-1",
+            labelEn: "Wall only one cell thick",
+            labelMy: "ဆဲလ်တစ်ခုသာ ထူသော Wall",
+            correctBucketEn: "Capillary Feature",
+            correctBucketMy: "Capillary လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w30-sort-2",
+            labelEn: "Thick, muscular, elastic wall to handle high pressure",
+            labelMy: "Pressure မြင့်ကို ကိုင်တွယ်ရန် ကြက်သားများသော ပျော့ပြောင်းသော ထူသော Wall",
+            correctBucketEn: "Artery or Vein Feature",
+            correctBucketMy: "Artery (သို့) Vein လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w30-sort-3",
+            labelEn: "Valves along its length to prevent backflow",
+            labelMy: "ပြန်လည်စီးဆင်းမှု တားဆီးရန် အလျားတလျှောက် Valve",
+            correctBucketEn: "Artery or Vein Feature",
+            correctBucketMy: "Artery (သို့) Vein လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w30-sort-4",
+            labelEn: "Site of gas and nutrient exchange with tissues",
+            labelMy: "တစ်ရှူးများနှင့် ဓာတ်ငွေ့နှင့် အာဟာရ ဖလှယ်ရာနေရာ",
+            correctBucketEn: "Capillary Feature",
+            correctBucketMy: "Capillary လက္ခဏာ",
+          ),
+          SortingItem(
+            id: "y12bio-w30-sort-5",
+            labelEn: "A narrow lumen with a large total network surface area",
+            labelMy: "Network စုစုပေါင်း Surface Area ကျယ်ပြန့်ပြီး ကျဉ်းမြောင်းသော Lumen",
+            correctBucketEn: "Capillary Feature",
+            correctBucketMy: "Capillary လက္ခဏာ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Three Vessels, Three Jobs",
+      titleMy: "စာဖတ်ခြင်း - သွေးကြော သုံးမျိုး, အလုပ်သုံးမျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Three Vessels, Three Jobs",
+        titleMy: "သွေးကြော သုံးမျိုး, အလုပ်သုံးမျိုး",
+        passageEn:
+            "Sayar Zaw Min laid out three prepared slides -- cross-sections of an artery, a vein and a capillary -- and asked Su Su and Htet Aung to identify each one using structure alone, without being told which was which.\n\nSu Su examined the first slide and immediately spotted a thick ring of muscular, elastic tissue surrounding a relatively narrow, rounded lumen. She reasoned this had to be the artery: a wall this thick and this elastic would only be necessary to withstand the high, pulsing pressure produced every time the heart's ventricles contract, and the elastic tissue would also let the wall stretch and recoil with each pulse, smoothing the flow between heartbeats.\n\nHtet Aung looked at the second slide and found a much thinner wall around a larger, often irregularly shaped lumen, with a visible valve flap inside. He identified this as the vein: the thinner wall made sense because pressure in veins is low by the time blood has travelled all the way back from the capillaries, and the valve was there specifically to stop that low-pressure blood from sinking backward under gravity, particularly in vessels returning blood from the legs.\n\nThe third slide showed almost nothing but a single layer of flattened cells forming a tiny tube barely wider than a single red blood cell. \"That has to be the capillary,\" Su Su concluded, \"because a wall any thicker would defeat the entire purpose -- capillaries exist purely to let oxygen, glucose, and waste products diffuse quickly across the shortest possible distance between blood and the surrounding tissue.\" Sayar Zaw Min confirmed all three identifications were correct, and pointed out that each vessel's structure is a direct, logical consequence of the one job it needs to do.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ပြင်ဆင်ထားသော Slide သုံးခု -- Artery, Vein နှင့် Capillary တို့၏ ဖြတ်ဒေါင်လိုက် အပိုင်းများ -- ကို ချထားပြီး မည်သည်ကို မည်သည်ဟု မပြောဘဲ ဖွဲ့စည်းပုံသာ အသုံးပြု၍ တစ်ခုစီကို ခွဲခြားစေရန် Su Su နှင့် Htet Aung ကို တောင်းဆိုခဲ့သည်။\n\nSu Su သည် ပထမ Slide ကို စစ်ဆေးကြည့်ရာ ခန့်မှန်းအားဖြင့် ကျဉ်းမြောင်းသော Lumen ပတ်လည်ရှိ ကြက်သားများနှင့် ပျော့ပြောင်းသော တစ်ရှူး ခိုင်မာသော ကွင်းတစ်ခုကို ချက်ချင်းသတိပြုမိသည်။ ဤ Wall ဤမျှ ထူထပ်ပြီး ဤမျှ ပျော့ပြောင်းရသည့်အကြောင်းရင်းမှာ နှလုံး၏ Ventricle များ ညှစ်တိုင်း ဖြစ်ပေါ်လာသော မြင့်မား၍ ခုန်နေသော Pressure ကို ခံနိုင်ရန်အတွက်သာ လိုအပ်မည်ဟု သူ ခန့်မှန်းခဲ့ပြီး Elastic Tissue သည် Pulse တစ်ခုစီနှင့်အတူ Wall ကို ဆန့်ကာ ပြန်ကျုံ့ခွင့်ပေးကာ နှလုံးခုန်ချက်များကြား စီးဆင်းမှုကို ချောမွေ့စေသည်ဟု ယူဆခဲ့သည် -- ၎င်းသည် Artery ဖြစ်ရမည် ဟု ကောက်ချက်ချခဲ့သည်။\n\nHtet Aung သည် ဒုတိယ Slide ကို ကြည့်ရှုရာ ပိုကြီးပြီး မကြာခဏ မမှန်သော ပုံသဏ္ဌာန်ရှိသော Lumen ပတ်လည်ရှိ ပိုပါးလွှာသော Wall ကို တွေ့ခဲ့ပြီး အတွင်းတွင် Valve အနားကို မြင်နိုင်ခဲ့သည်။ ၎င်းကို Vein ဟု သူ ခွဲခြားသတ်မှတ်ခဲ့သည် - Vein အတွင်း Pressure သည် သွေး Capillary များမှ ပြန်ခရီးအဆုံးသို့ ရောက်ချိန်တွင် နိမ့်ကျနေသောကြောင့် ပိုပါးလွှာသော Wall သည် ကျိုးကြောင်းညီညွှတ်ခဲ့ပြီး Valve သည် ခြေထောက်များမှ သွေးပြန်ဆောင်သည့် ကြောများတွင် အထူးသဖြင့် Gravity အောက်တွင် ဤ Pressure နိမ့်သော သွေး ပြန်လည် နစ်မကျစေရန် တိတိကျကျ ထားရှိထားခြင်း ဖြစ်သည်။\n\nတတိယ Slide တွင် သွေးနီဥ တစ်ခုတည်း၏ အကျယ်ခန့်သာ ရှိသော ပြွန်ငယ်တစ်ခု ဖွဲ့စည်းထားသော ဆဲလ်ပြားတစ်ထပ်တည်းမှလွဲ၍ လုံးဝနီးပါး မည်သည်မျှ မတွေ့ရပါ။ \"ထိုသည် Capillary ဖြစ်ရမည်\" ဟု Su Su နိဂုံးချုပ်ခဲ့သည် \"အကြောင်းမှာ ပိုထူသော Wall မည်သည်ကမဆို ရည်ရွယ်ချက်တစ်ခုလုံးကို ရှုံးနိမ့်စေမည်ဖြစ်သည် -- Capillary များသည် Oxygen, Glucose နှင့် စွန့်ပစ်ပစ္စည်းများကို သွေးနှင့် ပတ်ဝန်းကျင် တစ်ရှူးအကြား တိုတောင်းဆုံး အကွာအဝေးဖြင့် လျင်မြန်စွာ Diffuse ဖြစ်စေရန် ရည်ရွယ်ချက်တစ်ခုတည်းအတွက်သာ တည်ရှိကြသည်။\" ခွဲခြားမှုသုံးခုလုံး မှန်ကန်ကြောင်း ဆရာဇော်မင်း အတည်ပြုပေးခဲ့ပြီး သွေးကြောတစ်ခုစီ၏ ဖွဲ့စည်းပုံသည် ၎င်း ဆောင်ရွက်ရန် လိုအပ်သော အလုပ်တစ်ခုတည်း၏ တိုက်ရိုက် ကျိုးကြောင်းညီညွှတ်သော ရလဒ်ဖြစ်ကြောင်း ညွှန်ပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why did Su Su identify the first slide as an artery?",
+            questionMy: "ပထမ Slide ကို Artery ဟု Su Su ခွဲခြားသတ်မှတ်ရသည့်အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The thick, elastic muscular wall would only be needed to withstand high pulsing pressure",
+              "The lumen was extremely wide and irregular",
+              "It had no wall at all",
+              "It contained a visible valve",
+            ],
+            optionsMy: [
+              "ထူထပ်၍ ပျော့ပြောင်းသော ကြက်သား Wall သည် မြင့်မား၍ ခုန်နေသော Pressure ကို ခံနိုင်ရန်အတွက်သာ လိုအပ်မည်ဖြစ်သောကြောင့်",
+              "Lumen သည် အလွန်ကျယ်ပြန့်ပြီး မမှန်ကြောင့်",
+              "Wall လုံးဝ မရှိသောကြောင့်",
+              "မြင်ရသော Valve ပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung's reasoning, why do veins need valves?",
+            questionMy: "Vein များတွင် Valve လိုအပ်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ကျိုးကြောင်းဆင်ခြင်မှုအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To stop low-pressure blood sinking backward under gravity",
+              "To increase blood pressure sharply",
+              "To produce new red blood cells",
+              "To filter out white blood cells",
+            ],
+            optionsMy: [
+              "Pressure နိမ့်သော သွေး Gravity အောက်တွင် ပြန်လည် နစ်မကျစေရန်",
+              "သွေးပေါင်ချိန်ကို ချက်ချင်း မြှင့်တင်ရန်",
+              "သွေးနီဥအသစ်များ ထုတ်လုပ်ရန်",
+              "သွေးဖြူဥများ စစ်ထုတ်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su's conclusion, why must capillary walls be so thin?",
+            questionMy: "Capillary Wall များသည် ဤမျှ ပါးလွှာရသည့်အကြောင်းရင်းကို Su Su ၏ ကောက်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To allow substances to diffuse across the shortest possible distance",
+              "To make the vessel stronger than an artery",
+              "To store extra blood for later use",
+              "To prevent any exchange of substances at all",
+            ],
+            optionsMy: [
+              "ပစ္စည်းများ တိုတောင်းဆုံး အကွာအဝေးဖြင့် Diffuse ဖြစ်ခွင့်ပြုရန်",
+              "သွေးကြောကို Artery ထက် ပိုအားကောင်းစေရန်",
+              "နောက်ပိုင်း သုံးရန် သွေးအပို သိမ်းဆည်းရန်",
+              "ပစ္စည်းများ ဖလှယ်ခြင်း မည်သည်ကိုမျှ လုံးဝ ကာကွယ်ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph."],
+            hintsMy: ["စတုတ္ထစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Blood Vessels",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - သွေးကြောများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Arteries carry blood...",
+          questionMy: "Artery များသည် သွေးကို...",
+          optionsEn: ["Away from the heart, at high pressure", "Toward the heart, at low pressure only", "Only inside the heart", "Only into capillaries directly"],
+          optionsMy: ["Pressure မြင့်စွာဖြင့် နှလုံးမှ ထွက်ခွာဆောင်သွား", "Pressure နိမ့်စွာဖြင့် နှလုံးဆီသို့သာ", "နှလုံးအတွင်းတွင်သာ", "Capillary များထဲသို့ တိုက်ရိုက်သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Capillary walls are only one cell thick to...",
+          questionMy: "Capillary Wall များသည် ဆဲလ်တစ်ခုသာ ထူသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Minimise the diffusion distance for exchange",
+            "Withstand extremely high pressure",
+            "Store large amounts of blood",
+            "Produce new blood cells",
+          ],
+          optionsMy: [
+            "ဖလှယ်ခြင်းအတွက် Diffusion Distance ကို လျော့ချရန်",
+            "အလွန်မြင့်သော Pressure ကို ခံနိုင်ရန်",
+            "သွေးအများအပြား သိမ်းဆည်းရန်",
+            "သွေးဥအသစ်များ ထုတ်လုပ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Veins have valves mainly because...",
+          questionMy: "Vein များတွင် Valve ရှိရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Blood pressure in veins is low, risking backflow",
+            "Blood pressure in veins is extremely high",
+            "Veins never carry any blood",
+            "Veins are found only in the heart",
+          ],
+          optionsMy: [
+            "Vein အတွင်း Blood Pressure နိမ့်ကျပြီး ပြန်လည်စီးဆင်းနိုင်ခြေ ရှိသောကြောင့်",
+            "Vein အတွင်း Blood Pressure အလွန်မြင့်သောကြောင့်",
+            "Vein များသည် သွေးကို ဘယ်တော့မှ မဆောင်ကြောင့်",
+            "Vein များကို နှလုံးအတွင်းတွင်သာ တွေ့ရသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Blood Composition"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek31 = CourseWeekDef(
+  id: "course-y12-bio-w31",
+  weekNumber: 31,
+  titleEn: "Blood Composition",
+  titleMy: "သွေး ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w31-d1",
+      dayNumber: 1,
+      titleEn: "Plasma, Red Cells, White Cells and Platelets",
+      titleMy: "Plasma, Red Cell, White Cell နှင့် Platelet",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Blood plasma is best described as...",
+          questionMy: "သွေးပလာစမာကို အကောင်းဆုံးဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "The pale yellow liquid part of blood, carrying dissolved substances",
+            "The solid, cellular part of blood only",
+            "A type of white blood cell",
+            "A clotting protein only",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်ထားသော ပစ္စည်းများ သယ်ဆောင်သော သွေး၏ အဝါရောင်ဖျော့ အရည်ပိုင်း",
+            "သွေး၏ ခိုင်မာသော ဆဲလ်ပိုင်းသာ",
+            "သွေးဖြူဥ အမျိုးအစားတစ်ခု",
+            "Clotting Protein တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Plasma is the liquid matrix that carries blood cells, dissolved glucose, amino acids, hormones, and waste products around the body.",
+          ],
+          hintsMy: [
+            "Plasma သည် သွေးဥများ၊ ပျော်ဝင်ထားသော Glucose, Amino Acid, Hormone နှင့် စွန့်ပစ်ပစ္စည်းများကို ခန္ဓာကိုယ်ပတ်လည် သယ်ဆောင်သော Liquid Matrix ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Red blood cells (erythrocytes) are specialised to transport oxygen because they contain...",
+          questionMy: "သွေးနီဥ (Erythrocyte) များသည် Oxygen သယ်ယူပို့ဆောင်ရန် အထူးပြုထားသည့်အကြောင်းရင်းမှာ ...ပါဝင်သောကြောင့်",
+          optionsEn: [
+            "Haemoglobin, a protein that binds reversibly to oxygen",
+            "Chlorophyll, which absorbs light",
+            "A large permanent vacuole",
+            "A cell wall made of cellulose",
+          ],
+          optionsMy: [
+            "Oxygen နှင့် ပြန်ပြောင်း ချိတ်ဆက်နိုင်သော Protein ဖြစ်သော Haemoglobin",
+            "အလင်းစုပ်ယူသော Chlorophyll",
+            "ကြီးမားသော Permanent Vacuole",
+            "Cellulose မှ ဖွဲ့စည်းသော Cell Wall",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Haemoglobin binds oxygen in the lungs, where oxygen concentration is high, and releases it in respiring tissues, where oxygen concentration is low.",
+          ],
+          hintsMy: [
+            "Oxygen Concentration မြင့်သော အဆုတ်တွင် Haemoglobin က Oxygen ကို ချိတ်ဆက်ပြီး Oxygen Concentration နိမ့်သော Respire ပြုနေသော တစ်ရှူးများတွင် ၎င်းကို ထုတ်လွှတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Platelets are cell fragments involved mainly in...",
+          questionMy: "Platelet များသည် အဓိက ...တွင် ပါဝင်သော ဆဲလ်အပိုင်းအစများ ဖြစ်သည်",
+          optionsEn: [
+            "Blood clotting at the site of a wound",
+            "Fighting infection by producing antibodies",
+            "Transporting oxygen",
+            "Digesting food in the gut",
+          ],
+          optionsMy: [
+            "ဒဏ်ရာနေရာတွင် သွေးခဲခြင်း",
+            "Antibody ထုတ်လုပ်၍ ကူးစက်မှုတိုက်ဖျက်ခြင်း",
+            "Oxygen သယ်ယူပို့ဆောင်ခြင်း",
+            "အူလမ်းကြောင်းအတွင်း အစားအစာ ချေဖျက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Platelets trigger the clotting cascade at a wound site, helping form a mesh that seals the injury and prevents excessive blood loss.",
+          ],
+          hintsMy: [
+            "Platelet များသည် ဒဏ်ရာနေရာတွင် Clotting Cascade ကို လှုံ့ဆော်ပေးပြီး ဒဏ်ရာကို ပိတ်ဆို့ကာ သွေးဆုံးရှုံးမှု အလွန်အကျွံ မဖြစ်စေရန် အကူအညီပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Blood Components",
+      titleMy: "တွဲစပ်ကြမည် - သွေး အစိတ်အပိုင်းများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w31-dm-1",
+          termEn: "Plasma",
+          termMy: "Plasma",
+          matchEn: "The pale yellow liquid part of blood carrying dissolved substances",
+          matchMy: "ပျော်ဝင်ထားသော ပစ္စည်းများ သယ်ဆောင်သော သွေး၏ အဝါရောင်ဖျော့ အရည်ပိုင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w31-dm-2",
+          termEn: "Red blood cell",
+          termMy: "သွေးနီဥ (Red Blood Cell)",
+          matchEn: "A cell containing haemoglobin, specialised to transport oxygen",
+          matchMy: "Oxygen သယ်ယူပို့ဆောင်ရန် အထူးပြုထားပြီး Haemoglobin ပါဝင်သော ဆဲလ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w31-dm-3",
+          termEn: "White blood cell",
+          termMy: "သွေးဖြူဥ (White Blood Cell)",
+          matchEn: "A cell involved in defending the body against pathogens",
+          matchMy: "ရောဂါပိုးမွှားများ ဆန့်ကျင် ခန္ဓာကိုယ်ကို ကာကွယ်ခြင်းတွင် ပါဝင်သော ဆဲလ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w31-dm-4",
+          termEn: "Platelet",
+          termMy: "Platelet",
+          matchEn: "A cell fragment involved in blood clotting",
+          matchMy: "သွေးခဲခြင်းတွင် ပါဝင်သော ဆဲလ်အပိုင်းအစ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w31-dm-5",
+          termEn: "Haemoglobin",
+          termMy: "Haemoglobin",
+          matchEn: "The protein inside red blood cells that binds reversibly to oxygen",
+          matchMy: "Oxygen နှင့် ပြန်ပြောင်း ချိတ်ဆက်နိုင်သော သွေးနီဥအတွင်းရှိ Protein",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Component of Blood or Not?",
+      titleMy: "စီစစ်ကြမည် - သွေး၏ အစိတ်အပိုင်းလား၊ မဟုတ်လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Component of Blood", "Not a Component of Blood"],
+        bucketsMy: ["သွေး၏ အစိတ်အပိုင်း", "သွေး၏ အစိတ်အပိုင်း မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w31-sort-1",
+            labelEn: "Plasma",
+            labelMy: "Plasma",
+            correctBucketEn: "Component of Blood",
+            correctBucketMy: "သွေး၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w31-sort-2",
+            labelEn: "Red blood cells carrying haemoglobin",
+            labelMy: "Haemoglobin သယ်ဆောင်သော သွေးနီဥများ",
+            correctBucketEn: "Component of Blood",
+            correctBucketMy: "သွေး၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w31-sort-3",
+            labelEn: "White blood cells defending against pathogens",
+            labelMy: "ရောဂါပိုးမွှားများ ဆန့်ကျင် ကာကွယ်သော သွေးဖြူဥများ",
+            correctBucketEn: "Component of Blood",
+            correctBucketMy: "သွေး၏ အစိတ်အပိုင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w31-sort-4",
+            labelEn: "Xylem vessels",
+            labelMy: "Xylem Vessel များ",
+            correctBucketEn: "Not a Component of Blood",
+            correctBucketMy: "သွေး၏ အစိတ်အပိုင်း မဟုတ်",
+          ),
+          SortingItem(
+            id: "y12bio-w31-sort-5",
+            labelEn: "Chloroplasts",
+            labelMy: "Chloroplast များ",
+            correctBucketEn: "Not a Component of Blood",
+            correctBucketMy: "သွေး၏ အစိတ်အပိုင်း မဟုတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Reading a Blood Smear",
+      titleMy: "စာဖတ်ခြင်း - Blood Smear ကို ဖတ်ရှုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Reading a Blood Smear",
+        titleMy: "Blood Smear ကို ဖတ်ရှုခြင်း",
+        passageEn:
+            "Sayar Zaw Min projected a stained blood smear onto the classroom screen and asked Htet Aung and Su Su to identify what they could see. Htet Aung pointed first to the overwhelming majority of cells in view: small, biconcave discs with no visible nucleus, stained a pale reddish colour. He identified these confidently as red blood cells, noting that their lack of a nucleus leaves more internal space for haemoglobin, and their biconcave shape increases their surface area relative to volume, both adaptations that help them carry oxygen more efficiently.\n\nSu Su then pointed to a much rarer cell type, far larger than the red blood cells and staining a deep purple, with a clearly visible, oddly lobed nucleus. She identified this as a white blood cell, and reminded the class that several distinct types of white blood cell exist, all sharing a role in defending the body, whether by engulfing pathogens directly or by producing antibodies against them -- a topic the class would study in detail the following term.\n\nSayar Zaw Min then asked them to explain why red blood cells so heavily outnumbered white blood cells on the slide -- a ratio of roughly 600 to 1 in healthy blood. Htet Aung reasoned that the body needs a constant, very high volume of oxygen delivered to every tissue continuously, which demands enormous numbers of red blood cells, whereas white blood cells are needed in far smaller numbers most of the time, only surging when the body is actively fighting an infection. \"Exactly right,\" Sayar Zaw Min confirmed, \"and that ratio itself is diagnostically useful -- a blood smear showing an unusually high proportion of white blood cells is often the first visible clue that a patient's body is fighting something.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် စွန်းထင်စေထားသော Blood Smear တစ်ခုကို အတန်းစခရင်ပေါ်တွင် ပြသပြီး ၎င်းတို့ မြင်နိုင်သည်ကို ခွဲခြားဖော်ထုတ်ရန် Htet Aung နှင့် Su Su ကို တောင်းဆိုခဲ့သည်။ Htet Aung သည် မြင်ကွင်းထဲရှိ ဆဲလ်အများစုကို ဦးစွာ ညွှန်ပြခဲ့သည် - Nucleus မမြင်ရဘဲ အနီရောင်ဖျော့ စွန်းထင်နေသော သေးငယ်၍ Biconcave ဒစ်ပုံစံများ ဖြစ်သည်။ ၎င်းတို့ကို သွေးနီဥများဟု ယုံကြည်စွာ ခွဲခြားသတ်မှတ်ခဲ့ပြီး Nucleus မရှိခြင်းက Haemoglobin အတွက် အတွင်းနေရာ ပိုများပေးပြီး Biconcave ပုံသဏ္ဌာန်က Volume ပေါ်ရှိ Surface Area ကို တိုးမြှင့်ပေးကာ နှစ်ခုစလုံးသည် Oxygen ကို ပိုထိရောက်စွာ သယ်ဆောင်ရန် ကူညီသော Adaptation များ ဖြစ်ကြောင်း သတိပြုခဲ့သည်။\n\nSu Su သည် ထို့နောက် ပိုရှားပြီး သွေးနီဥများထက် ပိုကြီးမား၍ အဝါချယ်ရောင်ဖျော့ စွန်းထင်ကာ ရှင်းလင်းစွာ မြင်ရသော ထူးဆန်းစွာ ကွင်းစီထားသော Nucleus ရှိသည့် ဆဲလ်အမျိုးအစားကို ညွှန်ပြခဲ့သည်။ ၎င်းကို သွေးဖြူဥအဖြစ် ခွဲခြားသတ်မှတ်ခဲ့ပြီး သွေးဖြူဥ မတူညီသော အမျိုးအစားများစွာ ရှိကြောင်း၊ ရောဂါပိုးမွှားများကို တိုက်ရိုက် မျိုချခြင်း (သို့) ၎င်းတို့ဆန့်ကျင် Antibody ထုတ်လုပ်ခြင်းဖြင့် ခန္ဓာကိုယ် ကာကွယ်ရေးတွင် အားလုံး ပါဝင်ကြောင်း -- နောက် Term တွင် အသေးစိတ် လေ့လာမည့် ခေါင်းစဉ် -- အတန်းအား ပြန်သတိပေးခဲ့သည်။\n\nSlide ပေါ်တွင် သွေးနီဥများသည် သွေးဖြူဥများထက် ဤမျှ ကြီးမားစွာ ပိုများနေရသည့်အကြောင်းရင်းကို ရှင်းပြရန် ဆရာဇော်မင်း ထို့နောက် တောင်းဆိုခဲ့သည် -- ကျန်းမာသော သွေးတွင် ခန့်မှန်း အချိုးအစား 600 : 1 ခန့် ရှိသည်။ ခန္ဓာကိုယ်သည် တစ်ရှူးတိုင်းသို့ Oxygen ပမာဏ များစွာနှင့် အဆက်မပြတ် ပို့ဆောင်ပေးရန် လိုအပ်ကြောင်း၊ ၎င်းက သွေးနီဥ အရေအတွက် များစွာ တောင်းဆိုကြောင်း၊ သွေးဖြူဥများမှာမူ အချိန်များစုတွင် ပိုနည်းသော အရေအတွက်ဖြင့်သာ လိုအပ်ပြီး ခန္ဓာကိုယ် ကူးစက်မှုကို တက်ကြွစွာ တိုက်ဖျက်နေချိန်တွင်သာ ရုတ်တရက် တိုးလာကြောင်း Htet Aung ဆင်ခြင်ခဲ့သည်။ \"အတိအကျပင် ဖြစ်သည်\" ဟု ဆရာဇော်မင်း အတည်ပြုပေးခဲ့သည် \"ထို အချိုးအစား ကိုယ်တိုင်ပင် ရောဂါရှာဖွေရေးအတွက် အသုံးဝင်သည် -- သွေးဖြူဥ ပုံမှန်ထက် များစွာ ပါဝင်နေသော Blood Smear တစ်ခုသည် လူနာ၏ ခန္ဓာကိုယ် တစ်စုံတစ်ခုနှင့် တိုက်ခိုက်နေကြောင်း ပထမဆုံး မြင်နိုင်သော အချက်အလက် မကြာခဏ ဖြစ်တတ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why does the absence of a nucleus in red blood cells help them?",
+            questionMy: "သွေးနီဥများတွင် Nucleus မရှိခြင်းက ၎င်းတို့ကို မည်သို့ အကူအညီပေးသည်ကို Htet Aung ၏ ရှင်းချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It leaves more internal space for haemoglobin",
+              "It makes the cell able to photosynthesise",
+              "It allows the cell to divide more often",
+              "It gives the cell a cell wall",
+            ],
+            optionsMy: [
+              "Haemoglobin အတွက် အတွင်းနေရာ ပိုများပေးသောကြောင့်",
+              "ဆဲလ်ကို Photosynthesise ပြုနိုင်စေသောကြောင့်",
+              "ဆဲလ်ကို ပို၍ ခွဲပွားနိုင်စေသောကြောင့်",
+              "ဆဲလ်ကို Cell Wall ရရှိစေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what role do white blood cells share?",
+            questionMy: "သွေးဖြူဥများ မျှဝေထားသော အခန်းကဏ္ဍကို Su Su ၏ ဖြေကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Defending the body against pathogens",
+              "Carrying oxygen around the body",
+              "Producing haemoglobin",
+              "Forming blood clots",
+            ],
+            optionsMy: [
+              "ရောဂါပိုးမွှားများ ဆန့်ကျင် ခန္ဓာကိုယ်ကို ကာကွယ်ခြင်း",
+              "ခန္ဓာကိုယ်ပတ်လည် Oxygen သယ်ဆောင်ခြင်း",
+              "Haemoglobin ထုတ်လုပ်ခြင်း",
+              "သွေးခဲခြင်း ဖွဲ့စည်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what can an unusually high proportion of white blood cells indicate?",
+            questionMy: "သွေးဖြူဥ ပုံမှန်ထက် များစွာ ပါဝင်ခြင်းက အဘယ်ကို ဖော်ပြနိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The body may be fighting an infection",
+              "The patient has too much oxygen",
+              "The heart has stopped beating",
+              "The blood sample is invalid",
+            ],
+            optionsMy: [
+              "ခန္ဓာကိုယ် ကူးစက်မှုတစ်ခုနှင့် တိုက်ခိုက်နေနိုင်ကြောင်း",
+              "လူနာတွင် Oxygen အလွန်များနေကြောင်း",
+              "နှလုံးခုန် ရပ်တန့်သွားကြောင်း",
+              "သွေးနမူနာသည် အသုံးမဝင်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Blood Composition",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - သွေး ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Haemoglobin is found inside...",
+          questionMy: "Haemoglobin ကို ...အတွင်းတွင် တွေ့ရသည်",
+          optionsEn: ["Red blood cells", "White blood cells", "Platelets", "Plasma proteins only"],
+          optionsMy: ["သွေးနီဥများ", "သွေးဖြူဥများ", "Platelet များ", "Plasma Protein သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Platelets are mainly involved in...",
+          questionMy: "Platelet များသည် အဓိက ...တွင် ပါဝင်သည်",
+          optionsEn: ["Blood clotting", "Carrying oxygen", "Fighting infection directly", "Photosynthesis"],
+          optionsMy: ["သွေးခဲခြင်း", "Oxygen သယ်ဆောင်ခြင်း", "ကူးစက်မှု တိုက်ရိုက်တိုက်ဖျက်ခြင်း", "Photosynthesis"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Plasma carries...",
+          questionMy: "Plasma သည် ...ကို သယ်ဆောင်သည်",
+          optionsEn: [
+            "Dissolved glucose, amino acids and hormones",
+            "Only solid cells, nothing dissolved",
+            "Only oxygen gas",
+            "Only DNA",
+          ],
+          optionsMy: [
+            "ပျော်ဝင်ထားသော Glucose, Amino Acid နှင့် Hormone",
+            "ခိုင်မာသော ဆဲလ်များသာ၊ ပျော်ဝင်ထားသော မည်သည်မျှ မပါ",
+            "Oxygen ဓာတ်ငွေ့သာ",
+            "DNA သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32: "Gas Exchange at the Alveoli" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek32 = CourseWeekDef(
+  id: "course-y12-bio-w32",
+  weekNumber: 32,
+  titleEn: "Gas Exchange at the Alveoli",
+  titleMy: "Alveoli တွင် ဓာတ်ငွေ့ဖလှယ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w32-d1",
+      dayNumber: 1,
+      titleEn: "How the Circulatory and Respiratory Systems Connect",
+      titleMy: "Circulatory နှင့် Respiratory စနစ်များ ချိတ်ဆက်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Alveoli are surrounded by a dense network of...",
+          questionMy: "Alveoli ကို ...၏ ထူထပ်သော Network ဖြင့် ဝန်းရံထားသည်",
+          optionsEn: ["Capillaries", "Xylem vessels", "Sieve tube elements", "Lymphocytes only"],
+          optionsMy: ["Capillary များ", "Xylem Vessel များ", "Sieve Tube Element များ", "Lymphocyte များသာ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Each alveolus is wrapped in capillaries, keeping the diffusion distance between air and blood as short as a single cell layer on each side.",
+          ],
+          hintsMy: [
+            "Alveolus တစ်ခုစီကို Capillary များဖြင့် ပတ်ရစ်ထားပြီး လေထုနှင့် သွေးအကြား Diffusion Distance ကို ဘက်နှစ်ဘက်စလုံးတွင် ဆဲလ်အလွှာတစ်ခုသာ ကျန်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Oxygen that has diffused into the blood at the alveoli mainly binds to...",
+          questionMy: "Alveoli တွင် သွေးထဲသို့ Diffuse ဝင်ရောက်လာသော Oxygen သည် အဓိက ...နှင့် ချိတ်ဆက်သည်",
+          optionsEn: [
+            "Haemoglobin inside red blood cells",
+            "Platelets only",
+            "The plasma proteins alone, never red blood cells",
+            "White blood cells only",
+          ],
+          optionsMy: [
+            "သွေးနီဥအတွင်းရှိ Haemoglobin",
+            "Platelet များသာ",
+            "Plasma Protein တစ်ခုတည်း၊ သွေးနီဥ လုံးဝ မပါ",
+            "သွေးဖြူဥများသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Once oxygen crosses the alveolar and capillary walls by simple diffusion, it binds to haemoglobin, which then carries it to respiring tissues.",
+          ],
+          hintsMy: [
+            "Oxygen သည် Alveolar နှင့် Capillary Wall များကို Simple Diffusion ဖြင့် ဖြတ်ကျော်ပြီးနောက် Haemoglobin နှင့် ချိတ်ဆက်ကာ Respire ပြုနေသော တစ်ရှူးများသို့ သယ်ဆောင်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Deoxygenated blood arriving at the alveoli, via the pulmonary artery, has a lower oxygen concentration than the air in the alveolus, so oxygen diffuses...",
+          questionMy: "Pulmonary Artery မှတဆင့် Alveoli သို့ ရောက်ရှိလာသော Deoxygenated သွေးသည် Alveolus အတွင်းလေထက် Oxygen Concentration ပိုနိမ့်သောကြောင့် Oxygen သည်...",
+          optionsEn: [
+            "From the alveolar air into the blood",
+            "From the blood back into the alveolar air",
+            "Nowhere at all, staying exactly still",
+            "Only into the pulmonary vein directly, bypassing the blood",
+          ],
+          optionsMy: [
+            "Alveolar လေထုမှ သွေးထဲသို့",
+            "သွေးမှ Alveolar လေထုထဲသို့ ပြန်လည်",
+            "မည်သည့်နေရာသို့မျှ မသွားဘဲ လုံးဝ ငြိမ်နေ",
+            "သွေးကို ကျော်ဖြတ်ပြီး Pulmonary Vein ထဲသို့ တိုက်ရိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen always diffuses down its concentration gradient -- from where it is more concentrated (alveolar air) to where it is less concentrated (the deoxygenated blood).",
+          ],
+          hintsMy: [
+            "Oxygen သည် ၎င်း၏ Concentration Gradient အလျော့ အမြဲ Diffuse ဖြစ်သည် -- ပိုထူထပ်ရာ (Alveolar လေထု) မှ ပိုနည်းရာ (Deoxygenated သွေး) ဆီသို့။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gas Exchange Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ဓာတ်ငွေ့ဖလှယ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w32-dm-1",
+          termEn: "Alveolus",
+          termMy: "Alveolus",
+          matchEn: "A tiny air sac in the lung, the site of gas exchange",
+          matchMy: "အဆုတ်အတွင်းရှိ ဓာတ်ငွေ့ဖလှယ်ရာ လေအိတ်ငယ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w32-dm-2",
+          termEn: "Pulmonary artery",
+          termMy: "Pulmonary Artery",
+          matchEn: "The vessel carrying deoxygenated blood from the heart to the lungs",
+          matchMy: "Deoxygenated သွေးကို နှလုံးမှ အဆုတ်ဆီသို့ သယ်ဆောင်သော ကြော",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w32-dm-3",
+          termEn: "Pulmonary vein",
+          termMy: "Pulmonary Vein",
+          matchEn: "The vessel carrying oxygenated blood from the lungs back to the heart",
+          matchMy: "Oxygenated သွေးကို အဆုတ်မှ နှလုံးဆီသို့ ပြန်ဆောင်သော ကြော",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w32-dm-4",
+          termEn: "Oxyhaemoglobin",
+          termMy: "Oxyhaemoglobin",
+          matchEn: "Haemoglobin bound to oxygen",
+          matchMy: "Oxygen နှင့် ချိတ်ဆက်ထားသော Haemoglobin",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w32-dm-5",
+          termEn: "Gas exchange",
+          termMy: "ဓာတ်ငွေ့ဖလှယ်ခြင်း (Gas Exchange)",
+          matchEn: "The diffusion of oxygen into the blood and carbon dioxide out, across the alveolar wall",
+          matchMy: "Alveolar Wall ကို ဖြတ်၍ သွေးထဲသို့ Oxygen ဝင်ရောက်ခြင်းနှင့် Carbon Dioxide ထွက်ခွာခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Adaptation for Efficient Gas Exchange or Not?",
+      titleMy: "စီစစ်ကြမည် - ထိရောက်သော Gas Exchange အတွက် Adaptation လား၊ မဟုတ်လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Adaptation for Gas Exchange", "Not Related to Gas Exchange"],
+        bucketsMy: ["Gas Exchange အတွက် Adaptation", "Gas Exchange နှင့် မသက်ဆိုင်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w32-sort-1",
+            labelEn: "Alveolar walls only one cell thick",
+            labelMy: "ဆဲလ်တစ်ခုသာ ထူသော Alveolar Wall",
+            correctBucketEn: "Adaptation for Gas Exchange",
+            correctBucketMy: "Gas Exchange အတွက် Adaptation",
+          ),
+          SortingItem(
+            id: "y12bio-w32-sort-2",
+            labelEn: "A dense capillary network surrounding each alveolus",
+            labelMy: "Alveolus တစ်ခုစီကို ဝန်းရံထားသော ထူထပ်သော Capillary Network",
+            correctBucketEn: "Adaptation for Gas Exchange",
+            correctBucketMy: "Gas Exchange အတွက် Adaptation",
+          ),
+          SortingItem(
+            id: "y12bio-w32-sort-3",
+            labelEn: "Millions of alveoli, giving an enormous total surface area",
+            labelMy: "ကျယ်ပြန့်သော Surface Area စုစုပေါင်းပေးသော Alveoli သန်းချီ",
+            correctBucketEn: "Adaptation for Gas Exchange",
+            correctBucketMy: "Gas Exchange အတွက် Adaptation",
+          ),
+          SortingItem(
+            id: "y12bio-w32-sort-4",
+            labelEn: "The lignin strengthening a xylem vessel wall",
+            labelMy: "Xylem Vessel Wall ကို ခိုင်မာစေသော Lignin",
+            correctBucketEn: "Not Related to Gas Exchange",
+            correctBucketMy: "Gas Exchange နှင့် မသက်ဆိုင်",
+          ),
+          SortingItem(
+            id: "y12bio-w32-sort-5",
+            labelEn: "A sieve plate joining phloem sieve tube elements",
+            labelMy: "Phloem Sieve Tube Element များကို ချိတ်ဆက်ပေးသော Sieve Plate",
+            correctBucketEn: "Not Related to Gas Exchange",
+            correctBucketMy: "Gas Exchange နှင့် မသက်ဆိုင်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Air to Muscle, in Three Steps",
+      titleMy: "စာဖတ်ခြင်း - လေမှ ကြွက်သားသို့, အဆင့်သုံးဆင့်ဖြင့်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Air to Muscle, in Three Steps",
+        titleMy: "လေမှ ကြွက်သားသို့, အဆင့်သုံးဆင့်ဖြင့်",
+        passageEn:
+            "For the term's capstone question, Sayar Zaw Min asked the class to trace a single oxygen molecule's journey from the air Su Su breathed in, all the way to a contracting leg muscle cell using it in respiration, tying together everything the term had covered about the heart, blood vessels, and blood itself.\n\nHtet Aung started at the alveolus: the inhaled oxygen molecule diffused down its concentration gradient, straight through the thin alveolar wall and the thin capillary wall beside it -- a total diffusion distance of only two cell layers, thanks to both walls being only one cell thick. Once inside the capillary, the oxygen molecule bound reversibly to haemoglobin inside a red blood cell, forming oxyhaemoglobin.\n\nSu Su continued the journey: that oxygenated blood travelled through the pulmonary vein back to the left side of the heart, where it filled the left atrium, passed into the left ventricle, and was pumped out under high pressure during ventricular systole into the aorta and onward through progressively smaller arteries. Eventually it reached a capillary network deep inside the leg muscle -- the oxygen concentration there was low, since the muscle was actively respiring and using oxygen continuously, so the oxyhaemoglobin released its oxygen molecule, which diffused out of the capillary and into the muscle cell to be used in aerobic respiration.\n\n\"That whole journey,\" Sayar Zaw Min concluded, \"from one alveolus to one muscle cell, depends on every structure this term has covered working together: the heart's pumping action, arteries able to withstand the pressure it generates, capillaries thin enough for diffusion at both ends of the trip, and red blood cells carrying haemoglobin as the actual oxygen taxi in between. Take away any single piece, and the oxygen simply doesn't arrive.\"",
+        passageMy:
+            "Term ၏ Capstone မေးခွန်းအဖြစ် Su Su ရှူသွင်းလိုက်သော လေမှ Respiration အတွက် အသုံးပြုနေသော ခြေထောက်ကြွက်သားဆဲလ် ညှစ်နေသည့်နေရာအထိ Oxygen မော်လီကျူးတစ်ခု၏ ခရီးကို ခြေရာခံပြီး Term တစ်လျှောက် နှလုံး၊ သွေးကြောများနှင့် သွေးကိုယ်တိုင်အကြောင်း လေ့လာခဲ့သမျှကို ပေါင်းစပ်ရန် ဆရာဇော်မင်းက အတန်းအား တောင်းဆိုခဲ့သည်။\n\nHtet Aung သည် Alveolus မှ စတင်ခဲ့သည် - ရှူသွင်းလိုက်သော Oxygen မော်လီကျူးသည် ၎င်း၏ Concentration Gradient အလျော့ ပါးလွှာသော Alveolar Wall နှင့် အနီးရှိ ပါးလွှာသော Capillary Wall ကို တိုက်ရိုက် ဖြတ်ကျော်ခဲ့သည် -- Wall နှစ်ခုစလုံး ဆဲလ်တစ်ခုသာ ထူသောကြောင့် Diffusion Distance စုစုပေါင်း ဆဲလ်အလွှာ နှစ်ထပ်သာ ရှိသည်။ Capillary အတွင်းသို့ ရောက်ရှိသည်နှင့် Oxygen မော်လီကျူးသည် သွေးနီဥအတွင်းရှိ Haemoglobin နှင့် ပြန်ပြောင်း ချိတ်ဆက်ကာ Oxyhaemoglobin ဖွဲ့စည်းခဲ့သည်။\n\nSu Su ခရီးကို ဆက်လက် ဆောင်ရွက်ခဲ့သည် - ထို Oxygenated သွေးသည် Pulmonary Vein မှတဆင့် နှလုံး၏ ဘယ်ဘက်သို့ ပြန်ခရီးသွားပြီး Left Atrium ကို ဖြည့်ကာ Left Ventricle ထဲသို့ ဖြတ်ကျော်ကာ Ventricular Systole အတွင်း Pressure မြင့်မားစွာအောက်တွင် Aorta ထဲသို့ ပန့်ထုတ်ခံရပြီး တစ်ဆင့်ချင်း ငယ်လာသော Artery များ ဆက်လက်ဖြတ်သန်းသွားခဲ့သည်။ နောက်ဆုံးတွင် ခြေထောက်ကြွက်သားထဲက Capillary Network တစ်ခုသို့ ရောက်ရှိခဲ့ပြီး ကြွက်သားသည် တက်ကြွစွာ Respire ပြုနေပြီး Oxygen ကို အဆက်မပြတ် အသုံးပြုနေသောကြောင့် ထိုနေရာရှိ Oxygen Concentration နိမ့်ကျနေသည်၊ ထို့ကြောင့် Oxyhaemoglobin သည် ၎င်း၏ Oxygen မော်လီကျူးကို ထုတ်လွှတ်ကာ Capillary မှ ကြွက်သားဆဲလ်ထဲသို့ Diffuse ထွက်ကာ Aerobic Respiration တွင် အသုံးပြုခံရသည်။\n\n\"ထို ခရီးတစ်ခုလုံးသည်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"Alveolus တစ်ခုမှ ကြွက်သားဆဲလ်တစ်ခုအထိ ဤ Term ဖုံးအုပ်ခဲ့သမျှ ဖွဲ့စည်းပုံအားလုံး အတူတကွ လုပ်ဆောင်ခြင်းအပေါ် မှီခိုနေသည် - နှလုံး၏ ပန့်ထုတ်လုပ်ဆောင်ချက်၊ ၎င်းထုတ်လုပ်သော Pressure ကို ခံနိုင်ရည်ရှိသော Artery များ၊ ခရီးနှစ်ဖက်စလုံးတွင် Diffusion အတွက် လုံလောက်စွာ ပါးလွှာသော Capillary များနှင့် အကြားတွင် အမှန်တကယ် Oxygen တက္ကစီအဖြစ် Haemoglobin သယ်ဆောင်သော သွေးနီဥများ။ တစ်ခုတည်းကိုမျှ ဖယ်ရှားလိုက်ပါက Oxygen သည် လုံးဝ မရောက်တော့ပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why is the total diffusion distance at the alveolus only two cell layers?",
+            questionMy: "Alveolus ရှိ Diffusion Distance စုစုပေါင်းသည် ဆဲလ်အလွှာနှစ်ထပ်သာ ရှိရသည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both the alveolar wall and the capillary wall are only one cell thick",
+              "There is no wall at all between the alveolus and the capillary",
+              "The oxygen molecule is unusually large",
+              "The capillary wall is ten cells thick",
+            ],
+            optionsMy: [
+              "Alveolar Wall နှင့် Capillary Wall နှစ်ခုစလုံး ဆဲလ်တစ်ခုသာ ထူသောကြောင့်",
+              "Alveolus နှင့် Capillary အကြား Wall လုံးဝ မရှိသောကြောင့်",
+              "Oxygen မော်လီကျူးသည် ပုံမှန်ထက် ကြီးမားသောကြောင့်",
+              "Capillary Wall သည် ဆဲလ် ဆယ်ခု ထူသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, why did oxyhaemoglobin release its oxygen at the leg muscle?",
+            questionMy: "Oxyhaemoglobin သည် ခြေထောက်ကြွက်သားတွင် ၎င်း၏ Oxygen ကို အဘယ်ကြောင့် ထုတ်လွှတ်ခဲ့သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Oxygen concentration was low there due to active respiration",
+              "The blood suddenly stopped moving",
+              "The muscle cell had no mitochondria",
+              "Haemoglobin never releases oxygen anywhere",
+            ],
+            optionsMy: [
+              "တက်ကြွသော Respiration ကြောင့် ထိုနေရာရှိ Oxygen Concentration နိမ့်ကျနေသောကြောင့်",
+              "သွေး ရုတ်တရက် ရွေ့လျားမှု ရပ်တန့်သွားသောကြောင့်",
+              "ကြွက်သားဆဲလ်တွင် Mitochondria လုံးဝ မရှိသောကြောင့်",
+              "Haemoglobin သည် မည်သည့်နေရာတွင်မျှ Oxygen လုံးဝ မထုတ်လွှတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, what happens if any single structure in the journey is removed?",
+            questionMy: "ခရီးစဉ်ရှိ ဖွဲ့စည်းပုံတစ်ခုတည်းကို ဖယ်ရှားလိုက်ပါက အဘယ်ဖြစ်လာသည်ကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The oxygen simply does not arrive",
+              "The journey becomes faster",
+              "Nothing changes at all",
+              "The muscle cell divides instead",
+            ],
+            optionsMy: [
+              "Oxygen သည် လုံးဝ မရောက်တော့ပါ",
+              "ခရီးစဉ်သည် ပိုမြန်ဆန်လာသည်",
+              "မည်သည်မျှ မပြောင်းလဲပါ",
+              "ကြွက်သားဆဲလ် ခွဲပွားသွားသည့်အစား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Transport in Mammals",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Transport in Mammals",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Oxygen diffuses at the alveolus because...",
+          questionMy: "Alveolus တွင် Oxygen Diffuse ဖြစ်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Its concentration is higher in the alveolar air than in the blood",
+            "Its concentration is higher in the blood than in the air",
+            "ATP is used to pump it across",
+            "It never actually crosses the alveolar wall",
+          ],
+          optionsMy: [
+            "Alveolar လေထုတွင် သွေးထက် Concentration ပိုမြင့်သောကြောင့်",
+            "သွေးတွင် လေထုထက် Concentration ပိုမြင့်သောကြောင့်",
+            "ATP အသုံးပြု၍ ဖြတ်ကျော်ပန့်တင်သောကြောင့်",
+            "Alveolar Wall ကို လုံးဝ ဖြတ်ကျော်ခြင်း မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Oxygenated blood returns to the heart via the...",
+          questionMy: "Oxygenated သွေးသည် ...မှတဆင့် နှလုံးဆီသို့ ပြန်ရောက်သည်",
+          optionsEn: ["Pulmonary vein", "Pulmonary artery", "Aorta directly", "Vena cava directly"],
+          optionsMy: ["Pulmonary Vein", "Pulmonary Artery", "Aorta တိုက်ရိုက်", "Vena Cava တိုက်ရိုက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Haemoglobin releases oxygen where oxygen concentration is...",
+          questionMy: "Haemoglobin သည် Oxygen Concentration ...သောနေရာတွင် Oxygen ထုတ်လွှတ်သည်",
+          optionsEn: ["Low, such as respiring muscle", "Always exactly zero", "High, such as the alveoli", "Unrelated to concentration"],
+          optionsMy: ["နိမ့်ကျ၊ Respire ပြုနေသော ကြွက်သားကဲ့သို့", "အမြဲ Zero အတိအကျ", "မြင့်မား၊ Alveoli ကဲ့သို့", "Concentration နှင့် မသက်ဆိုင်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm8 = CourseTermDef(
+  id: "course-y12-bio-t8",
+  termNumber: 8,
+  titleEn: "Transport in Mammals",
+  titleMy: "Mammal များတွင် သယ်ယူပို့ဆောင်ရေး",
+  weeks: [_y12BioWeek29, _y12BioWeek30, _y12BioWeek31, _y12BioWeek32],
+  certificateTitleEn: "AS Biology: Transport in Mammals",
+  certificateTitleMy: "AS ဇီဝဗေဒ - Mammal များတွင် သယ်ယူပို့ဆောင်ရေး",
+);
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 9: "Infectious Disease, Immunity and AS
+// Exam Prep"
+// (Weeks 33-36)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Pathogens and Transmission of Disease"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek33 = CourseWeekDef(
+  id: "course-y12-bio-w33",
+  weekNumber: 33,
+  titleEn: "Pathogens and Transmission of Disease",
+  titleMy: "ရောဂါပိုးမွှားများနှင့် ရောဂါ ကူးစက်ပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w33-d1",
+      dayNumber: 1,
+      titleEn: "Types of Pathogen and How They Spread",
+      titleMy: "Pathogen အမျိုးအစားများနှင့် ကူးစက်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A pathogen is best defined as...",
+          questionMy: "Pathogen ကို အကောင်းဆုံးဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "Any organism or agent that causes disease in its host",
+            "A cell that never causes any harm",
+            "A type of white blood cell",
+            "A vitamin found in food",
+          ],
+          optionsMy: [
+            "၎င်း၏ Host တွင် ရောဂါဖြစ်စေသော Organism (သို့) Agent မည်သည်မဆို",
+            "အန္တရာယ် လုံးဝ မဖြစ်စေသော ဆဲလ်",
+            "သွေးဖြူဥ အမျိုးအစားတစ်ခု",
+            "အစားအစာတွင် တွေ့ရသော Vitamin",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Pathogens include bacteria, viruses, fungi and protoctista -- very different types of organism, united only by the fact that they cause disease.",
+          ],
+          hintsMy: [
+            "Pathogen များတွင် Bacteria, Virus, Fungi နှင့် Protoctista ပါဝင်ပြီး -- Organism အမျိုးအစား လုံးဝ ကွဲပြားသော်လည်း ရောဂါဖြစ်စေခြင်း တစ်ခုတည်းသာ တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Disease transmitted by droplets released when an infected person coughs or sneezes is an example of...",
+          questionMy: "ကူးစက်ခံရသူ တစ်ဦး ချေချင်း (သို့) ချောင်းဆိုးသည့်အခါ ထွက်လာသော Droplet များဖြင့် ကူးစက်သော ရောဂါသည် ...၏ ဥပမာတစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Direct transmission through the air",
+            "Transmission by a vector insect",
+            "Water-borne transmission only",
+            "Transmission by direct skin-to-skin contact only",
+          ],
+          optionsMy: [
+            "လေထုမှတဆင့် တိုက်ရိုက် ကူးစက်ခြင်း",
+            "Vector အင်းဆက်ဖြင့် ကူးစက်ခြင်း",
+            "ရေမှတဆင့်သာ ကူးစက်ခြင်း",
+            "အရေပြားချင်း တိုက်ရိုက် ထိတွေ့မှုမှသာ ကူးစက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Airborne droplets carrying pathogens can be inhaled directly by someone nearby, without any insect or contaminated water involved.",
+          ],
+          hintsMy: [
+            "Pathogen ပါဝင်သော လေထု Droplet များကို အနီးရှိ တစ်စုံတစ်ယောက်က အင်းဆက် (သို့) ညစ်ညမ်းသော ရေ မပါဘဲ တိုက်ရိုက် ရှူသွင်းနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Malaria is transmitted by a vector, meaning...",
+          questionMy: "Malaria ကို Vector ဖြင့် ကူးစက်သည်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Another organism (a mosquito) carries the pathogen from one host to another",
+            "It spreads only through direct human-to-human contact",
+            "It cannot be transmitted at all",
+            "It only spreads through contaminated food",
+          ],
+          optionsMy: [
+            "အခြား Organism (ခုန်ကို) တစ်ခုက Pathogen ကို Host တစ်ခုမှ နောက်တစ်ခုသို့ သယ်ဆောင်သည်ဟု ဆိုလိုသည်",
+            "လူချင်း တိုက်ရိုက် ထိတွေ့မှုမှသာ ပျံ့နှံ့သည်",
+            "လုံးဝ ကူးစက်နိုင်ခြေ မရှိပါ",
+            "ညစ်ညမ်းသော အစားအစာမှသာ ပျံ့နှံ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A vector is an organism (like the Anopheles mosquito) that transports a pathogen between hosts without necessarily becoming ill itself.",
+          ],
+          hintsMy: [
+            "Vector သည် Host များအကြား Pathogen ကို သယ်ဆောင်ပေးသော Organism (Anopheles ခုန်ကဲ့သို့) ဖြစ်ပြီး ၎င်းကိုယ်တိုင် နာမကျန်းဖြစ်ရန် မလိုအပ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Pathogens and Transmission Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Pathogen နှင့် Transmission ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w33-dm-1",
+          termEn: "Pathogen",
+          termMy: "ရောဂါပိုးမွှား (Pathogen)",
+          matchEn: "Any organism or agent that causes disease",
+          matchMy: "ရောဂါဖြစ်စေသော Organism (သို့) Agent မည်သည်မဆို",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w33-dm-2",
+          termEn: "Transmission",
+          termMy: "ကူးစက်ခြင်း (Transmission)",
+          matchEn: "The process by which a pathogen spreads from one host to another",
+          matchMy: "Pathogen တစ်ခု Host တစ်ခုမှ နောက်တစ်ခုသို့ ပျံ့နှံ့ရာ လုပ်ငန်းစဉ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w33-dm-3",
+          termEn: "Vector",
+          termMy: "Vector",
+          matchEn: "An organism that carries a pathogen between hosts, e.g. a mosquito",
+          matchMy: "Host များအကြား Pathogen ကို သယ်ဆောင်ပေးသော Organism, ဥပမာ - ခုန်ကို",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w33-dm-4",
+          termEn: "Direct contact transmission",
+          termMy: "Direct Contact Transmission",
+          matchEn: "Spread through physical touch between an infected and uninfected person",
+          matchMy: "ကူးစက်ခံရသူနှင့် မကူးစက်ရသေးသူအကြား ရုပ်ပိုင်းဆိုင်ရာ ထိတွေ့မှုမှတဆင့် ပျံ့နှံ့ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w33-dm-5",
+          termEn: "Water-borne transmission",
+          termMy: "Water-borne Transmission",
+          matchEn: "Spread through drinking or contact with contaminated water",
+          matchMy: "ညစ်ညမ်းသော ရေကို သောက်ခြင်း (သို့) ထိတွေ့ခြင်းမှတဆင့် ပျံ့နှံ့ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Direct Transmission or Vector Transmission?",
+      titleMy: "စီစစ်ကြမည် - Direct Transmission လား၊ Vector Transmission လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Direct Transmission", "Vector Transmission"],
+        bucketsMy: ["Direct Transmission", "Vector Transmission"],
+        items: [
+          SortingItem(
+            id: "y12bio-w33-sort-1",
+            labelEn: "A cold spreading through coughed droplets in the air",
+            labelMy: "လေထုအတွင်း ချောင်းဆိုးလိုက်သော Droplet များမှတဆင့် ပျံ့နှံ့သော အအေးမိရောဂါ",
+            correctBucketEn: "Direct Transmission",
+            correctBucketMy: "Direct Transmission",
+          ),
+          SortingItem(
+            id: "y12bio-w33-sort-2",
+            labelEn: "Malaria spread by a mosquito bite",
+            labelMy: "ခုန်ကိုက်ခြင်းမှတဆင့် ပျံ့နှံ့သော Malaria",
+            correctBucketEn: "Vector Transmission",
+            correctBucketMy: "Vector Transmission",
+          ),
+          SortingItem(
+            id: "y12bio-w33-sort-3",
+            labelEn: "A skin infection spread by touching an infected person",
+            labelMy: "ကူးစက်ခံရသူကို ထိတွေ့ခြင်းမှတဆင့် ပျံ့နှံ့သော အရေပြားရောဂါ",
+            correctBucketEn: "Direct Transmission",
+            correctBucketMy: "Direct Transmission",
+          ),
+          SortingItem(
+            id: "y12bio-w33-sort-4",
+            labelEn: "A tick carrying a pathogen from one animal to another",
+            labelMy: "အကောင်တစ်ကောင်မှ နောက်တစ်ကောင်သို့ Pathogen ကို သယ်ဆောင်ပေးသော ကောလန်",
+            correctBucketEn: "Vector Transmission",
+            correctBucketMy: "Vector Transmission",
+          ),
+          SortingItem(
+            id: "y12bio-w33-sort-5",
+            labelEn: "A sexually transmitted infection spread by direct contact",
+            labelMy: "တိုက်ရိုက် ထိတွေ့မှုမှတဆင့် ပျံ့နှံ့သော လိင်မှတဆင့် ကူးစက်သော ရောဂါ",
+            correctBucketEn: "Direct Transmission",
+            correctBucketMy: "Direct Transmission",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Breaking the Chain of Transmission",
+      titleMy: "စာဖတ်ခြင်း - ကူးစက်မှု ကွင်းဆက်ကို ဖြတ်တောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Breaking the Chain of Transmission",
+        titleMy: "ကူးစက်မှု ကွင်းဆက်ကို ဖြတ်တောက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min opened Term 9 with a real-world question: during a local outbreak of a stomach infection at a school, health officials had traced the source to a shared water container that several students had been drinking from. He asked the class to explain why this single piece of information was enough to design an effective control measure.\n\nHtet Aung reasoned it through: since the infection was spreading by water-borne transmission -- the pathogen present in contaminated water reaching new hosts when they drank it -- the single most effective intervention would be to remove that specific route entirely, either by replacing the container with a properly treated water supply or by boiling the water before drinking. He pointed out that this approach only works because the transmission route was correctly identified first; an intervention aimed at direct contact, like handwashing posters, would do very little against a purely water-borne outbreak.\n\nSu Su extended the idea to compare it with a different disease: if the same outbreak had instead been traced to mosquito bites, the correct intervention would look completely different -- insecticide-treated bed nets and clearing standing water where mosquitoes breed, rather than anything to do with the water students drank. \"That's the whole point of studying transmission routes carefully,\" Sayar Zaw Min concluded. \"You cannot design an effective public health measure without first knowing exactly how a pathogen is actually getting from one host to the next -- treating the wrong route wastes resources and leaves the real chain of transmission completely unbroken.\"",
+        passageMy:
+            "ကျောင်းတစ်ကျောင်းတွင် အစာအိမ် ကူးစက်ရောဂါ ပျံ့နှံ့မှုတစ်ခု ဖြစ်ပွားစဉ် ကျန်းမာရေးအရာရှိများက ရင်းမြစ်ကို ကျောင်းသားများ မျှဝေသောက်နေသော ရေခွက်တစ်ခုအထိ ခြေရာခံတွေ့ရှိခဲ့ကြောင်း Term 9 ကို အစစ်အမှန် ဖြစ်ရပ်တစ်ခုနှင့် ဆရာဇော်မင်း စတင်ခဲ့သည်။ ဤ တစ်ခုတည်းသော အချက်အလက်သည် ထိရောက်သော ထိန်းချုပ်ရေးနည်းလမ်းတစ်ခု ဒီဇိုင်းရေးဆွဲရန် အဘယ်ကြောင့် လုံလောက်ခဲ့သည်ကို ရှင်းပြရန် အတန်းအား သူ တောင်းဆိုခဲ့သည်။\n\nHtet Aung ကျိုးကြောင်းဆင်ခြင်ခဲ့သည် - ကူးစက်မှုသည် Water-borne Transmission ဖြင့် ပျံ့နှံ့နေသောကြောင့် -- ညစ်ညမ်းသော ရေအတွင်းရှိ Pathogen သည် Host အသစ်များ ၎င်းကို သောက်သုံးသည့်အခါ ရောက်ရှိသည် -- အထိရောက်ဆုံး ဝင်ရောက်ဆောင်ရွက်မှုသည် ထိုတိကျသော လမ်းကြောင်းကို လုံးဝ ဖယ်ရှားခြင်းသာ ဖြစ်လိမ့်မည် - ရေခွက်ကို သင့်တော်စွာ သန့်စင်ထားသော ရေရှိသည့် ခွက်ဖြင့် အစားထိုးခြင်း (သို့) သောက်သုံးမီ ရေကို ဆူပွက်စေခြင်းဖြင့်။ ဤ Approach သည် Transmission Route ကို ဦးစွာ မှန်ကန်စွာ ဖော်ထုတ်ခဲ့မှသာ အလုပ်လုပ်ကြောင်း သူ ညွှန်ပြခဲ့သည်၊ လက်ဆေးရေး Poster ကဲ့သို့ Direct Contact ကို ဦးတည်သော ဝင်ရောက်ဆောင်ရွက်မှုသည် Water-borne ပျံ့နှံ့မှု စစ်စစ်ကို ဆန့်ကျင် အနည်းငယ်သာ ထိရောက်လိမ့်မည်။\n\nSu Su သည် ဤအယူအဆကို မတူညီသော ရောဂါတစ်ခုနှင့် နှိုင်းယှဉ်ရန် တိုးချဲ့ခဲ့သည် - တူညီသော ပျံ့နှံ့မှုကို ခုန်ကိုက်ခြင်းမှ ခြေရာခံတွေ့ရှိခဲ့ပါက မှန်ကန်သော ဝင်ရောက်ဆောင်ရွက်မှုသည် လုံးဝ မတူညီသော ပုံစံ ရှိလိမ့်မည် -- ကျောင်းသားများ သောက်သုံးသော ရေနှင့် သက်ဆိုင်သော မည်သည့်အရာမျှ မဟုတ်ဘဲ ပိုးသတ်ဆေးစိုသော ခုန်ကာယာနှင့် ခုန်ကိုများ ကျင်းပေါက်ရန် ရေရပ်တစ်ခုတည်းရှိသော နေရာများကို ရှင်းလင်းခြင်း ဖြစ်လိမ့်မည်။ \"ထိုသည် Transmission Route ကို ဂရုတစိုက် လေ့လာရသည့် အချက်အားလုံး ဖြစ်သည်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"Pathogen တစ်ခု Host တစ်ခုမှ နောက်တစ်ခုသို့ တိကျစွာ မည်သို့ ရောက်ရှိနေသည်ကို ဦးစွာ မသိဘဲ ထိရောက်သော ပြည်သူ့ကျန်းမာရေးနည်းလမ်းကို ဒီဇိုင်းရေးဆွဲ၍ မရနိုင်ပါ -- လမ်းကြောင်းမှားကို ကုသခြင်းသည် အရင်းအမြစ်များကို ဖြုန်းတီးပြီး ကူးစက်မှု၏ ကွင်းဆက် အမှန်ကို လုံးဝ ဖြတ်တောက်ခြင်း မရှိစေဘဲ ချန်ထားနိုင်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, how had health officials identified the outbreak's source?",
+            questionMy: "ကျန်းမာရေးအရာရှိများသည် ရောဂါပျံ့နှံ့မှု၏ ရင်းမြစ်ကို မည်သို့ ဖော်ထုတ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By tracing it to a shared, contaminated water container",
+              "By testing every student's blood",
+              "By interviewing mosquitoes",
+              "They never identified any source at all",
+            ],
+            optionsMy: [
+              "မျှဝေသောက်သော ညစ်ညမ်းသော ရေခွက်တစ်ခုအထိ ခြေရာခံခြင်းဖြင့်",
+              "ကျောင်းသားတိုင်း၏ သွေးကို စစ်ဆေးခြင်းဖြင့်",
+              "ခုန်ကိုများကို မေးမြန်းခြင်းဖြင့်",
+              "ရင်းမြစ်မည်သည်ကိုမျှ လုံးဝ မဖော်ထုတ်နိုင်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why would handwashing posters do little against this particular outbreak?",
+            questionMy: "ဤ ပျံ့နှံ့မှုအတွက် လက်ဆေးရေး Poster များ အနည်းငယ်သာ ထိရောက်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ဆင်ခြင်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The outbreak was spreading by water-borne transmission, not direct contact",
+              "Posters are always completely useless",
+              "The students could not read",
+              "Handwashing spreads disease faster",
+            ],
+            optionsMy: [
+              "ပျံ့နှံ့မှုသည် Direct Contact မဟုတ်ဘဲ Water-borne Transmission ဖြင့် ပျံ့နှံ့နေသောကြောင့်",
+              "Poster များသည် အမြဲတမ်း လုံးဝ အသုံးမဝင်သောကြောင့်",
+              "ကျောင်းသားများ စာဖတ်၍ မရသောကြောင့်",
+              "လက်ဆေးခြင်းက ရောဂါကို ပိုမြန်ဆန်စွာ ပျံ့နှံ့စေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, what happens if the wrong transmission route is treated?",
+            questionMy: "လမ်းကြောင်းမှားကို ကုသလိုက်ပါက အဘယ်ဖြစ်လာသည်ကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Resources are wasted and the real chain of transmission stays unbroken",
+              "The disease disappears immediately",
+              "Nothing changes at all",
+              "The pathogen is destroyed completely",
+            ],
+            optionsMy: [
+              "အရင်းအမြစ်များ ဖြုန်းတီးပြီး ကူးစက်မှု၏ ကွင်းဆက် အမှန် ဆက်လက် မဖြတ်တောက်ဘဲ ကျန်ရှိနေသည်",
+              "ရောဂါသည် ချက်ချင်း ပျောက်ကွယ်သွားသည်",
+              "မည်သည်မျှ မပြောင်းလဲပါ",
+              "Pathogen ကို လုံးဝ ဖျက်ဆီးလိုက်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Pathogens and Transmission",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Pathogen နှင့် Transmission",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A pathogen is...",
+          questionMy: "Pathogen ဆိုသည်မှာ...",
+          optionsEn: ["An organism that causes disease", "A type of vitamin", "A blood clotting protein", "A part of the heart"],
+          optionsMy: ["ရောဂါဖြစ်စေသော Organism", "Vitamin အမျိုးအစား", "သွေးခဲစေသော Protein", "နှလုံး၏ အစိတ်အပိုင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Malaria is transmitted by...",
+          questionMy: "Malaria ကို ...ဖြင့် ကူးစက်သည်",
+          optionsEn: ["A mosquito vector", "Direct skin contact only", "Contaminated water only", "Airborne droplets only"],
+          optionsMy: ["ခုန်ကို Vector", "အရေပြားချင်း ထိတွေ့မှုသာ", "ညစ်ညမ်းသော ရေသာ", "လေထု Droplet သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Understanding a disease's transmission route matters mainly because it...",
+          questionMy: "ရောဂါတစ်ခု၏ Transmission Route ကို နားလည်ခြင်းသည် အဓိက အရေးကြီးရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Determines which control measure will actually be effective",
+            "Has no effect on control measures at all",
+            "Only matters for animal diseases",
+            "Always requires a vaccine",
+          ],
+          optionsMy: [
+            "မည်သည့် ထိန်းချုပ်ရေးနည်းလမ်း အမှန်တကယ် ထိရောက်မည်ကို ဆုံးဖြတ်ပေးသောကြောင့်",
+            "ထိန်းချုပ်ရေးနည်းလမ်းများအပေါ် သက်ရောက်မှု လုံးဝ မရှိသောကြောင့်",
+            "တိရစ္ဆာန်ရောဂါများအတွက်သာ အရေးကြီးသောကြောင့်",
+            "အမြဲတမ်း Vaccine လိုအပ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "The Primary Immune Response"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek34 = CourseWeekDef(
+  id: "course-y12-bio-w34",
+  weekNumber: 34,
+  titleEn: "The Primary Immune Response",
+  titleMy: "Primary Immune Response",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w34-d1",
+      dayNumber: 1,
+      titleEn: "Phagocytosis and Antibody Production",
+      titleMy: "Phagocytosis နှင့် Antibody ထုတ်လုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A phagocyte defends the body by...",
+          questionMy: "Phagocyte သည် ...ဖြင့် ခန္ဓာကိုယ်ကို ကာကွယ်သည်",
+          optionsEn: [
+            "Engulfing and digesting a pathogen",
+            "Producing sugars for energy storage",
+            "Transporting oxygen around the body",
+            "Forming blood clots",
+          ],
+          optionsMy: [
+            "Pathogen တစ်ခုကို မျိုချပြီး ချေဖျက်ခြင်း",
+            "Energy သိုလှောင်ရန် Sugar များ ထုတ်လုပ်ခြင်း",
+            "ခန္ဓာကိုယ်ပတ်လည် Oxygen သယ်ဆောင်ခြင်း",
+            "သွေးခဲများ ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Phagocytosis is a type of endocytosis: the phagocyte engulfs a pathogen into a vesicle, then digests it using enzymes from a lysosome.",
+          ],
+          hintsMy: [
+            "Phagocytosis သည် Endocytosis ပုံစံတစ်မျိုးဖြစ်ပြီး Phagocyte သည် Pathogen ကို Vesicle ထဲသို့ မျိုချပြီးနောက် Lysosome မှ Enzyme များဖြင့် ချေဖျက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "An antigen is...",
+          questionMy: "Antigen ဆိုသည်မှာ...",
+          optionsEn: [
+            "A molecule (often a protein) on a pathogen's surface that the immune system recognises as foreign",
+            "A type of antibody",
+            "A red blood cell protein only",
+            "A digestive enzyme",
+          ],
+          optionsMy: [
+            "ကိုယ်ခံအားစနစ်က ပြင်ပပစ္စည်းအဖြစ် သိမြင်သော Pathogen ၏ မျက်နှာပြင်ရှိ မော်လီကျူး (မကြာခဏ Protein)",
+            "Antibody အမျိုးအစားတစ်ခု",
+            "သွေးနီဥ Protein တစ်ခုတည်း",
+            "Digestive Enzyme",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Antigens are the molecular \"labels\" on a pathogen's surface that let the immune system distinguish it as non-self and mount a response against it.",
+          ],
+          hintsMy: [
+            "Antigen များသည် Pathogen ၏ မျက်နှာပြင်ရှိ Molecular \"တံဆိပ်\" များဖြစ်ပြီး ကိုယ်ခံအားစနစ်က ၎င်းကို Non-self အဖြစ် ခွဲခြားသိရှိကာ ဆန့်ကျင်တုံ့ပြန်နိုင်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "B-lymphocytes respond to a specific antigen by dividing and differentiating into plasma cells, which then...",
+          questionMy: "B-lymphocyte များသည် တိကျသော Antigen တစ်ခုကို ခွဲပွား၍ Plasma Cell များအဖြစ် ကွဲပြားစေကာ တုံ့ပြန်ပြီးနောက် ထိုအခါ...",
+          optionsEn: [
+            "Secrete large quantities of antibodies specific to that antigen",
+            "Directly engulf the pathogen themselves",
+            "Turn into red blood cells",
+            "Produce lignin for cell walls",
+          ],
+          optionsMy: [
+            "ထို Antigen နှင့် တိကျသော Antibody အများအပြား ထုတ်လွှတ်",
+            "Pathogen ကို ကိုယ်တိုင် တိုက်ရိုက် မျိုချ",
+            "သွေးနီဥများအဖြစ် ပြောင်းလဲ",
+            "Cell Wall များအတွက် Lignin ထုတ်လုပ်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Plasma cells are essentially antibody factories -- once formed, each one secretes huge numbers of identical antibodies that specifically bind the antigen that triggered the response.",
+          ],
+          hintsMy: [
+            "Plasma Cell များသည် အခြေခံအားဖြင့် Antibody စက်ရုံများ ဖြစ်သည် -- ဖွဲ့စည်းပြီးနောက် တစ်ခုစီသည် တုံ့ပြန်မှုကို လှုံ့ဆော်ခဲ့သော Antigen ကို တိကျစွာ ချိတ်ဆက်သော တူညီသော Antibody အရေအတွက် များစွာ ထုတ်လွှတ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Primary Immune Response Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Primary Immune Response ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w34-dm-1",
+          termEn: "Phagocyte",
+          termMy: "Phagocyte",
+          matchEn: "A white blood cell that engulfs and digests pathogens",
+          matchMy: "Pathogen များကို မျိုချ၍ ချေဖျက်သော သွေးဖြူဥ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w34-dm-2",
+          termEn: "Antigen",
+          termMy: "Antigen",
+          matchEn: "A molecule on a pathogen's surface recognised as foreign by the immune system",
+          matchMy: "ကိုယ်ခံအားစနစ်က ပြင်ပပစ္စည်းအဖြစ် သိမြင်သော Pathogen ၏ မျက်နှာပြင်ရှိ မော်လီကျူး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w34-dm-3",
+          termEn: "B-lymphocyte",
+          termMy: "B-lymphocyte",
+          matchEn: "A white blood cell that divides and differentiates into antibody-producing plasma cells",
+          matchMy: "ခွဲပွား၍ Antibody ထုတ်လုပ်သော Plasma Cell များအဖြစ် ကွဲပြားသော သွေးဖြူဥ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w34-dm-4",
+          termEn: "Plasma cell",
+          termMy: "Plasma Cell",
+          matchEn: "A differentiated B-lymphocyte that secretes large amounts of a specific antibody",
+          matchMy: "တိကျသော Antibody အများအပြား ထုတ်လွှတ်သော ကွဲပြားပြီးသား B-lymphocyte",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w34-dm-5",
+          termEn: "Antibody",
+          termMy: "Antibody",
+          matchEn: "A protein that specifically binds to one antigen, helping to neutralise or mark a pathogen",
+          matchMy: "Antigen တစ်ခုတည်းနှင့် တိကျစွာ ချိတ်ဆက်ပြီး Pathogen ကို ဖျက်သိမ်း (သို့) အမှတ်ပြုကူညီသော Protein",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Role of Phagocytes or Role of B-lymphocytes?",
+      titleMy: "စီစစ်ကြမည် - Phagocyte ၏ အခန်းကဏ္ဍလား၊ B-lymphocyte ၏ အခန်းကဏ္ဍလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Role of Phagocytes", "Role of B-lymphocytes"],
+        bucketsMy: ["Phagocyte ၏ အခန်းကဏ္ဍ", "B-lymphocyte ၏ အခန်းကဏ္ဍ"],
+        items: [
+          SortingItem(
+            id: "y12bio-w34-sort-1",
+            labelEn: "Engulfing a pathogen into a vesicle",
+            labelMy: "Pathogen တစ်ခုကို Vesicle ထဲသို့ မျိုချခြင်း",
+            correctBucketEn: "Role of Phagocytes",
+            correctBucketMy: "Phagocyte ၏ အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w34-sort-2",
+            labelEn: "Digesting a pathogen using lysosomal enzymes",
+            labelMy: "Lysosomal Enzyme များဖြင့် Pathogen တစ်ခုကို ချေဖျက်ခြင်း",
+            correctBucketEn: "Role of Phagocytes",
+            correctBucketMy: "Phagocyte ၏ အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w34-sort-3",
+            labelEn: "Dividing and differentiating into plasma cells",
+            labelMy: "ခွဲပွား၍ Plasma Cell များအဖြစ် ကွဲပြားခြင်း",
+            correctBucketEn: "Role of B-lymphocytes",
+            correctBucketMy: "B-lymphocyte ၏ အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w34-sort-4",
+            labelEn: "Secreting large quantities of a specific antibody",
+            labelMy: "တိကျသော Antibody အများအပြား ထုတ်လွှတ်ခြင်း",
+            correctBucketEn: "Role of B-lymphocytes",
+            correctBucketMy: "B-lymphocyte ၏ အခန်းကဏ္ဍ",
+          ),
+          SortingItem(
+            id: "y12bio-w34-sort-5",
+            labelEn: "Non-specific engulfing of many different pathogen types",
+            labelMy: "Pathogen အမျိုးအစား ကွဲပြားစွာကို Non-specific မျိုချခြင်း",
+            correctBucketEn: "Role of Phagocytes",
+            correctBucketMy: "Phagocyte ၏ အခန်းကဏ္ဍ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The First Time the Body Meets a New Pathogen",
+      titleMy: "စာဖတ်ခြင်း - Pathogen အသစ်နှင့် ခန္ဓာကိုယ် ပထမဆုံး ကြုံတွေ့ချိန်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The First Time the Body Meets a New Pathogen",
+        titleMy: "Pathogen အသစ်နှင့် ခန္ဓာကိုယ် ပထမဆုံး ကြုံတွေ့ချိန်",
+        passageEn:
+            "Sayar Zaw Min asked the class to imagine a pathogen the body had never encountered before entering through a cut in Htet Aung's skin, and to describe, step by step, what the primary immune response would actually do about it.\n\nSu Su began with the first line of defence: phagocytes patrolling the area would detect the unfamiliar antigens on the pathogen's surface and engulf it by phagocytosis, digesting it inside a vesicle using enzymes released from lysosomes. Some phagocytes would then display fragments of the pathogen's antigens on their own surface, helping to activate the more specific response that follows.\n\nHtet Aung continued with the specific response: among the huge variety of different B-lymphocytes circulating in the body, only the rare few whose surface receptors happen to match this particular antigen would be activated. Those matching B-lymphocytes would then divide repeatedly and differentiate into plasma cells, which begin secreting large quantities of antibodies specifically shaped to bind this pathogen's antigen -- antibodies that can neutralise the pathogen directly or mark it for faster destruction by phagocytes.\n\n\"Notice how long this whole process takes,\" Sayar Zaw Min pointed out. \"Finding the rare matching B-lymphocyte and building up a large plasma cell population from scratch is not instant -- which is exactly why the primary immune response typically takes several days to reach full strength, and why a person often feels ill for a while before their body brings a genuinely new infection fully under control.\"",
+        passageMy:
+            "ခန္ဓာကိုယ်က ဘယ်တော့မှ ကြုံဖူးခြင်းမရှိသော Pathogen တစ်ခု Htet Aung ၏ အရေပြားရှိ ဒဏ်ရာတစ်ခုမှတဆင့် ဝင်ရောက်လာသည်ဟု စိတ်ကူးပြီး Primary Immune Response သည် ၎င်းအား မည်သို့ ဆောင်ရွက်မည်ကို အဆင့်ဆင့် ဖော်ပြရန် ဆရာဇော်မင်းက အတန်းအား တောင်းဆိုခဲ့သည်။\n\nSu Su သည် ကာကွယ်ရေးလိုင်းပထမမှ စတင်ခဲ့သည် - ထိုနေရာတွင် လှည့်လည်နေသော Phagocyte များသည် Pathogen ၏ မျက်နှာပြင်ရှိ ထူးဆန်းသော Antigen များကို ထောက်လှမ်းရှာဖွေပြီး Phagocytosis ဖြင့် ၎င်းကို မျိုချကာ Lysosome များမှ ထုတ်လွှတ်သော Enzyme များဖြင့် Vesicle အတွင်း ချေဖျက်လိမ့်မည်။ Phagocyte အချို့သည် Pathogen ၏ Antigen အပိုင်းအစများကို ၎င်းတို့၏ ကိုယ်ပိုင်မျက်နှာပြင်ပေါ်တွင် ပြသကာ ဆက်လက်ဖြစ်ပေါ်မည့် ပိုတိကျသော တုံ့ပြန်မှုကို လှုံ့ဆော်ရန် ကူညီလိမ့်မည်။\n\nHtet Aung သည် တိကျသော တုံ့ပြန်မှုကို ဆက်လက် ရှင်းပြခဲ့သည် - ခန္ဓာကိုယ်အတွင်း လှည့်ပတ်နေသော B-lymphocyte များစွာ ကွဲပြားစွာအနက် ၎င်းတို့၏ Surface Receptor သည် ဤ တိကျသော Antigen နှင့် ကြုံကြိုက် ကိုက်ညီသော ရှားပါးအနည်းငယ်သာ Activate ဖြစ်လိမ့်မည်။ ကိုက်ညီသော B-lymphocyte များသည် ထပ်ခါထပ်ခါ ခွဲပွားပြီး Plasma Cell များအဖြစ် ကွဲပြားကာ ဤ Pathogen ၏ Antigen ကို ချိတ်ဆက်ရန် တိကျစွာ ပုံသဏ္ဌာန်ဖန်တီးထားသော Antibody အများအပြားကို ထုတ်လွှတ်စတင်လိမ့်မည် -- ထို Antibody များသည် Pathogen ကို တိုက်ရိုက် ဖျက်သိမ်းနိုင်ခြင်း (သို့) Phagocyte များ ပိုမြန်ဆန်စွာ ဖျက်ဆီးနိုင်ရန် အမှတ်ပြုနိုင်ခြင်း ဖြစ်သည်။\n\n\"ဤ လုပ်ငန်းစဉ်တစ်ခုလုံး မည်မျှ ကြာသည်ကို သတိပြုပါ\" ဟု ဆရာဇော်မင်း ညွှန်ပြခဲ့သည် \"ကြုံကြိုက် ကိုက်ညီသော ရှားပါး B-lymphocyte ကို ရှာတွေ့ပြီး Plasma Cell လူဦးရေကြီးစွာကို အစမှ တည်ဆောက်ခြင်းသည် ချက်ချင်း ဖြစ်ခြင်း မဟုတ်ပါ -- ၎င်းသည် Primary Immune Response ပုံမှန်အားဖြင့် အားအပြည့်အဝ ရောက်ရန် ရက်များစွာ ကြာမြင့်ရသည့်အကြောင်းရင်းနှင့် လူတစ်ဦးသည် ခန္ဓာကိုယ်က ကူးစက်မှုအသစ်စစ်စစ်တစ်ခုကို အပြည့်အဝ ထိန်းချုပ်နိုင်ခင် အချိန်အတန်ကြာ နာမကျန်း ခံစားရသည့်အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, what is the first line of defence described in the passage?",
+            questionMy: "စာပိုဒ်တွင် ဖော်ပြထားသော ကာကွယ်ရေးလိုင်းပထမကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Phagocytes engulfing and digesting the pathogen",
+              "B-lymphocytes dividing immediately",
+              "Antibodies produced before the pathogen even enters",
+              "Red blood cells attacking the pathogen",
+            ],
+            optionsMy: [
+              "Phagocyte များ Pathogen ကို မျိုချ၍ ချေဖျက်ခြင်း",
+              "B-lymphocyte များ ချက်ချင်း ခွဲပွားခြင်း",
+              "Pathogen ဝင်ရောက်မီပင် ထုတ်လုပ်ထားသော Antibody",
+              "သွေးနီဥများ Pathogen ကို တိုက်ခိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, which B-lymphocytes become activated?",
+            questionMy: "မည်သည့် B-lymphocyte များ Activate ဖြစ်သည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only the rare few whose receptors match the specific antigen",
+              "Every single B-lymphocyte in the body at once",
+              "None at all, ever",
+              "Only red blood cells",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ Receptor သည် တိကျသော Antigen နှင့် ကိုက်ညီသော ရှားပါးအနည်းငယ်သာ",
+              "ခန္ဓာကိုယ်ရှိ B-lymphocyte တိုင်း တစ်ပြိုင်နက်တည်း",
+              "မည်သည်ကိုမျှ ဘယ်တော့မှ",
+              "သွေးနီဥများသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, why does a person often feel ill for a while during a genuinely new infection?",
+            questionMy: "ကူးစက်မှုအသစ်စစ်စစ်တစ်ခုအတွင်း လူတစ်ဦး အချိန်အတန်ကြာ နာမကျန်း ခံစားရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Finding the matching B-lymphocyte and building a plasma cell population takes several days",
+              "The immune system never actually responds",
+              "Phagocytes are always absent",
+              "Antibodies are produced before the pathogen even enters",
+            ],
+            optionsMy: [
+              "ကိုက်ညီသော B-lymphocyte ကို ရှာတွေ့ပြီး Plasma Cell လူဦးရေ တည်ဆောက်ခြင်းသည် ရက်များစွာ ကြာသောကြောင့်",
+              "ကိုယ်ခံအားစနစ်သည် အမှန်တကယ် ဘယ်တော့မှ တုံ့ပြန်ခြင်း မရှိသောကြောင့်",
+              "Phagocyte များ အမြဲတမ်း လုံးဝ မရှိသောကြောင့်",
+              "Pathogen ဝင်ရောက်မီပင် Antibody ထုတ်လုပ်ထားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: The Primary Immune Response",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Primary Immune Response",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Phagocytosis is a type of...",
+          questionMy: "Phagocytosis သည် ...၏ ပုံစံတစ်မျိုး ဖြစ်သည်",
+          optionsEn: ["Endocytosis", "Exocytosis", "Osmosis", "Active transport of ions only"],
+          optionsMy: ["Endocytosis", "Exocytosis", "Osmosis", "Ion များ၏ Active Transport သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Plasma cells are formed when B-lymphocytes...",
+          questionMy: "B-lymphocyte များ ...သောအခါ Plasma Cell များ ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Divide and differentiate after recognising a matching antigen",
+            "Engulf a pathogen directly",
+            "Turn into red blood cells",
+            "Bind oxygen using haemoglobin",
+          ],
+          optionsMy: [
+            "ကိုက်ညီသော Antigen ကို သိမြင်ပြီးနောက် ခွဲပွား၍ ကွဲပြားလာသောအခါ",
+            "Pathogen တစ်ခုကို တိုက်ရိုက် မျိုချသောအခါ",
+            "သွေးနီဥများအဖြစ် ပြောင်းလဲသောအခါ",
+            "Haemoglobin ကို အသုံးပြု၍ Oxygen ချိတ်ဆက်သောအခါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Antibodies are specific to...",
+          questionMy: "Antibody များသည် ...အတွက် တိကျသည်",
+          optionsEn: ["One particular antigen", "Every antigen equally", "Red blood cells only", "Nothing in particular"],
+          optionsMy: ["တိကျသော Antigen တစ်ခု", "Antigen အားလုံး အညီအမျှ", "သွေးနီဥသာ", "တိကျသော မည်သည်ကိုမျှ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "The Secondary Immune Response, Immunological Memory and
+// Vaccination"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek35 = CourseWeekDef(
+  id: "course-y12-bio-w35",
+  weekNumber: 35,
+  titleEn: "The Secondary Immune Response, Immunological Memory and Vaccination",
+  titleMy: "Secondary Immune Response, Immunological Memory နှင့် Vaccination",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w35-d1",
+      dayNumber: 1,
+      titleEn: "Memory Cells and a Faster Second Response",
+      titleMy: "Memory Cell များနှင့် ပိုမြန်ဆန်သော ဒုတိယတုံ့ပြန်မှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "During the primary immune response, some activated B-lymphocytes differentiate not into plasma cells but into...",
+          questionMy: "Primary Immune Response အတွင်း Activate ဖြစ်သော B-lymphocyte အချို့သည် Plasma Cell များအဖြစ် မဟုတ်ဘဲ ...အဖြစ် ကွဲပြားသည်",
+          optionsEn: ["Memory cells", "Red blood cells", "Phagocytes", "Platelets"],
+          optionsMy: ["Memory Cell", "သွေးနီဥ", "Phagocyte", "Platelet"],
+          correctIndex: 0,
+          hintsEn: [
+            "Memory cells persist in the body long after the infection clears, ready to respond immediately if the same antigen is ever encountered again.",
+          ],
+          hintsMy: [
+            "Memory Cell များသည် ကူးစက်မှု ရှင်းသွားပြီးနောက် ခန္ဓာကိုယ်တွင် ကာလကြာရှည်စွာ ဆက်လက်ရှိနေပြီး တူညီသော Antigen ကို နောက်ထပ် တွေ့ကြုံရလျှင် ချက်ချင်း တုံ့ပြန်ရန် အသင့်ဖြစ်နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The secondary immune response is faster and stronger than the primary response mainly because...",
+          questionMy: "Secondary Immune Response သည် Primary Response ထက် ပိုမြန်ဆန်ပြီး ပိုအားကောင်းရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Memory cells are already present and can be activated immediately",
+            "The pathogen is weaker the second time",
+            "Phagocytes disappear completely after the first infection",
+            "The body has never encountered the antigen before",
+          ],
+          optionsMy: [
+            "Memory Cell များ ရှိပြီးသားဖြစ်ကာ ချက်ချင်း Activate ဖြစ်နိုင်သောကြောင့်",
+            "ဒုတိယအကြိမ်တွင် Pathogen ပိုအားနည်းသွားသောကြောင့်",
+            "ပထမကူးစက်မှုပြီးနောက် Phagocyte များ လုံးဝ ပျောက်ကွယ်သွားသောကြောင့်",
+            "ခန္ဓာကိုယ်သည် ဤ Antigen ကို ဘယ်တော့မှ မကြုံဖူးသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because memory cells already exist and are specific to the antigen, there is no need to find and activate a rare matching B-lymphocyte from scratch, so the response is much faster and stronger.",
+          ],
+          hintsMy: [
+            "Memory Cell များ ရှိပြီးသားဖြစ်ပြီး Antigen အတွက် တိကျနေသောကြောင့် ကိုက်ညီသော B-lymphocyte ရှားပါးကို အစမှ ရှာဖွေ Activate ပြုစရာ မလိုအပ်တော့သောကြောင့် တုံ့ပြန်မှု ပိုမြန်ဆန်ပြီး ပိုအားကောင်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Because the secondary response is so fast, antibody levels typically rise before...",
+          questionMy: "Secondary Response သည် ဤမျှ မြန်ဆန်သောကြောင့် Antibody အဆင့်များသည် ပုံမှန်အားဖြင့် ...မီ တက်လာသည်",
+          optionsEn: [
+            "Any noticeable symptoms of illness develop",
+            "The pathogen has even entered the body",
+            "A single day has passed since birth",
+            "Memory cells are destroyed completely",
+          ],
+          optionsMy: [
+            "ရောဂါလက္ခဏာများ သိသာစွာ ဖြစ်ပေါ်လာမီ",
+            "Pathogen ခန္ဓာကိုယ်ထဲသို့ ဝင်ရောက်ကြောင်းပင် မီ",
+            "မွေးဖွားချိန်မှ တစ်ရက်ပင် မကုန်လွန်မီ",
+            "Memory Cell များ လုံးဝ ဖျက်ဆီးခံရမီ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly why a person who has already been immune to a disease (through infection or vaccination) usually shows few or no symptoms on re-exposure -- the pathogen is destroyed before it can cause noticeable harm.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ရောဂါတစ်ခုနှင့် (ကူးစက်မှု (သို့) Vaccination မှတဆင့်) ကိုယ်ခံအားရရှိပြီးသား လူတစ်ဦးသည် ထပ်မံဆက်ဆံရသောအခါ ရောဂါလက္ခဏာ အနည်းငယ် (သို့) လုံးဝ မပြသလေ့ရှိသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည် -- Pathogen သည် သိသာစွာ ထိခိုက်မှု မဖြစ်ခင် ဖျက်ဆီးခံရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Immunological Memory and Vaccination Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Immunological Memory နှင့် Vaccination ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w35-dm-1",
+          termEn: "Memory cell",
+          termMy: "Memory Cell",
+          matchEn: "A long-lived cell that persists after infection, ready to respond quickly to the same antigen",
+          matchMy: "ကူးစက်မှုပြီးနောက် ဆက်လက်ရှိနေပြီး တူညီသော Antigen ကို လျင်မြန်စွာ တုံ့ပြန်ရန် အသင့်ရှိသော ကာလကြာရှည် အသက်ရှင်သော ဆဲလ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w35-dm-2",
+          termEn: "Secondary immune response",
+          termMy: "Secondary Immune Response",
+          matchEn: "A faster, stronger response occurring on a second exposure to the same antigen",
+          matchMy: "တူညီသော Antigen ကို ဒုတိယအကြိမ် ဆက်ဆံရသောအခါ ဖြစ်ပေါ်သော ပိုမြန်ဆန်၍ ပိုအားကောင်းသော တုံ့ပြန်မှု",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w35-dm-3",
+          termEn: "Vaccination",
+          termMy: "Vaccination",
+          matchEn: "Deliberately introducing a safe form of an antigen to trigger immunity without causing disease",
+          matchMy: "ရောဂါမဖြစ်စေဘဲ ကိုယ်ခံအားကို လှုံ့ဆော်ရန် Antigen ၏ လုံခြုံသော ပုံစံကို တမင် ထည့်သွင်းခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w35-dm-4",
+          termEn: "Herd immunity",
+          termMy: "Herd Immunity",
+          matchEn: "Protection of a population when enough individuals are immune, slowing the pathogen's spread",
+          matchMy: "လူဦးရေအလုံအလောက် ကိုယ်ခံအားရှိသည့်အခါ Pathogen ၏ ပျံ့နှံ့မှုကို နှေးကွေးစေသော လူဦးရေတစ်ခု၏ ကာကွယ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w35-dm-5",
+          termEn: "Active immunity",
+          termMy: "Active Immunity",
+          matchEn: "Immunity gained when the body produces its own antibodies and memory cells",
+          matchMy: "ခန္ဓာကိုယ်က ၎င်း၏ ကိုယ်ပိုင် Antibody နှင့် Memory Cell များ ထုတ်လုပ်သောအခါ ရရှိသော ကိုယ်ခံအား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Primary Response or Secondary Response?",
+      titleMy: "စီစစ်ကြမည် - Primary Response လား၊ Secondary Response လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Primary Response", "Secondary Response"],
+        bucketsMy: ["Primary Response", "Secondary Response"],
+        items: [
+          SortingItem(
+            id: "y12bio-w35-sort-1",
+            labelEn: "Takes several days to reach full strength",
+            labelMy: "အားအပြည့်အဝ ရောက်ရန် ရက်များစွာ ကြာမြင့်",
+            correctBucketEn: "Primary Response",
+            correctBucketMy: "Primary Response",
+          ),
+          SortingItem(
+            id: "y12bio-w35-sort-2",
+            labelEn: "A rare matching B-lymphocyte must be found and activated from scratch",
+            labelMy: "ကိုက်ညီသော B-lymphocyte ရှားပါးကို အစမှ ရှာဖွေ Activate ပြုရ",
+            correctBucketEn: "Primary Response",
+            correctBucketMy: "Primary Response",
+          ),
+          SortingItem(
+            id: "y12bio-w35-sort-3",
+            labelEn: "Memory cells are activated immediately",
+            labelMy: "Memory Cell များ ချက်ချင်း Activate ဖြစ်",
+            correctBucketEn: "Secondary Response",
+            correctBucketMy: "Secondary Response",
+          ),
+          SortingItem(
+            id: "y12bio-w35-sort-4",
+            labelEn: "Antibody levels rise quickly, often before symptoms appear",
+            labelMy: "ရောဂါလက္ခဏာ ပေါ်လာမီ Antibody အဆင့်များ လျင်မြန်စွာ တက်လာ",
+            correctBucketEn: "Secondary Response",
+            correctBucketMy: "Secondary Response",
+          ),
+          SortingItem(
+            id: "y12bio-w35-sort-5",
+            labelEn: "The body's very first encounter with a particular antigen",
+            labelMy: "တိကျသော Antigen တစ်ခုနှင့် ခန္ဓာကိုယ်၏ ပထမဆုံး ကြုံတွေ့ချိန်",
+            correctBucketEn: "Primary Response",
+            correctBucketMy: "Primary Response",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Vaccination Works",
+      titleMy: "စာဖတ်ခြင်း - Vaccination အလုပ်လုပ်ရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Vaccination Works",
+        titleMy: "Vaccination အလုပ်လုပ်ရသည့် အကြောင်း",
+        passageEn:
+            "Su Su asked Sayar Zaw Min a question many students ask: \"If a vaccine doesn't actually give someone the disease, how can it still protect them from it later?\" He explained that a vaccine contains a safe form of a pathogen's antigen -- perhaps a weakened or dead pathogen, or just an isolated piece of its surface protein -- enough for the immune system to recognise it as foreign, but not enough to cause the actual disease.\n\nHtet Aung connected this directly to what the class had studied about the primary immune response: injecting this safe antigen triggers a genuine primary response, exactly as a real infection would, complete with B-lymphocytes dividing, plasma cells producing antibodies, and -- crucially -- memory cells being formed and left behind once the antigen is cleared. From the immune system's point of view, it has now already \"met\" this antigen once.\n\n\"That's the entire trick,\" Sayar Zaw Min said. \"If the real pathogen ever turns up later, the body doesn't need to mount a slow primary response from scratch -- it launches the much faster, stronger secondary response instead, using memory cells that have been waiting since the vaccination. The pathogen is usually destroyed before it can multiply enough to cause noticeable symptoms.\" Su Su then asked about herd immunity, and Sayar Zaw Min added one more layer: when enough people in a population are vaccinated, a pathogen struggles to find enough susceptible hosts to spread between at all, indirectly protecting even those who cannot be vaccinated themselves, such as newborns or people with certain medical conditions.",
+        passageMy:
+            "ကျောင်းသားများစွာ မေးလေ့ရှိသော မေးခွန်းတစ်ခုကို Su Su က ဆရာဇော်မင်းအား မေးခဲ့သည် - \"Vaccine တစ်ခုသည် တစ်စုံတစ်ယောက်ကို ရောဂါ အမှန်တကယ် မပေးအပ်ပါက နောင်တွင် ၎င်းက မည်သို့ ကာကွယ်ပေးနိုင်သနည်း။\" Vaccine တစ်ခုတွင် Pathogen တစ်ခု၏ Antigen ၏ လုံခြုံသော ပုံစံ -- အားနည်းသွားသော (သို့) သေဆုံးပြီးသား Pathogen (သို့) ၎င်း၏ မျက်နှာပြင် Protein ၏ ခွဲထုတ်ထားသော အပိုင်းငယ်တစ်ခု -- ကိုယ်ခံအားစနစ်က ပြင်ပပစ္စည်းအဖြစ် သိမြင်ရန်လောက် လုံလောက်သော်လည်း အစစ်အမှန် ရောဂါဖြစ်စေရန် မလုံလောက်သော ပမာဏ ပါဝင်ကြောင်း သူ ရှင်းပြခဲ့သည်။\n\nPrimary Immune Response အကြောင်း အတန်းက လေ့လာခဲ့သည်နှင့် ဤသည်ကို Htet Aung တိုက်ရိုက် ချိတ်ဆက်ခဲ့သည် - ဤ လုံခြုံသော Antigen ကို ထိုးထည့်ခြင်းသည် အစစ်အမှန် ကူးစက်မှုတစ်ခုကဲ့သို့ တကယ့် Primary Response ကို လှုံ့ဆော်ပေးသည် - B-lymphocyte များ ခွဲပွားခြင်း၊ Plasma Cell များ Antibody ထုတ်လုပ်ခြင်းနှင့် -- အရေးကြီးဆုံးအချက် -- Antigen ရှင်းသွားပြီးနောက် ချန်ထားခံရသော Memory Cell များ ဖွဲ့စည်းခြင်း အားလုံး ပါဝင်သည်။ ကိုယ်ခံအားစနစ်၏ ရှုထောင့်မှ ကြည့်လျှင် ၎င်းသည် ဤ Antigen ကို တစ်ကြိမ် \"ကြုံဖူး\" ပြီးသား ဖြစ်နေသည်။\n\n\"ထိုသည် ကလေ တစ်ခုလုံးပင် ဖြစ်သည်\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည် \"အစစ်အမှန် Pathogen သည် နောင်တွင် ပေါ်လာလျှင် ခန္ဓာကိုယ်သည် နှေးကွေးသော Primary Response ကို အစမှ ဆောင်ရွက်ရန် မလိုအပ်တော့ပါ -- ၎င်းသည် Vaccination ချိန်မှစ၍ စောင့်ဆိုင်းနေသော Memory Cell များကို အသုံးပြု၍ ပိုမြန်ဆန်၍ ပိုအားကောင်းသော Secondary Response ကို အစား စတင်လိုက်ချေသည်။ Pathogen သည် သိသာစွာ ရောဂါလက္ခဏာဖြစ်စေလောက်အောင် များပြားစွာ မတိုးပွားမီ ပုံမှန်အားဖြင့် ဖျက်ဆီးခံရသည်။\" Su Su သည် Herd Immunity အကြောင်း ထို့နောက် မေးမြန်းခဲ့ပြီး ဆရာဇော်မင်း ထပ်ဆောင်းအလွှာတစ်ခု ပေါင်းထည့်ခဲ့သည် - လူဦးရေတစ်ခုအတွင်း လူဦးရေအလုံအလောက် Vaccine ထိုးပြီးဖြစ်ပါက Pathogen သည် ပျံ့နှံ့ရန် ခံနိုင်သော Host လုံလောက်စွာ ရှာဖွေရန် ခက်ခဲသွားပြီး ကိုယ်တိုင် Vaccine မထိုးနိုင်သော လူများ ဥပမာ - ကလေးမွေးကင်းစများ (သို့) ဆေးဘက်ဆိုင်ရာ အခြေအနေအချို့ရှိသူများကိုပါ သွယ်ဝိုက်၍ ကာကွယ်ပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min, why doesn't a vaccine cause the actual disease?",
+            questionMy: "Vaccine တစ်ခုသည် အစစ်အမှန် ရောဂါကို အဘယ်ကြောင့် မဖြစ်စေသည်ကို ဆရာဇော်မင်း၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It contains only enough safe antigen to be recognised, not enough to cause disease",
+              "It contains no antigen at all",
+              "It is injected directly into memory cells",
+              "It destroys the immune system completely",
+            ],
+            optionsMy: [
+              "သိမြင်နိုင်ရန်လောက်သာ လုံခြုံသော Antigen ပါဝင်ပြီး ရောဂါဖြစ်စေရန် မလုံလောက်သောကြောင့်",
+              "Antigen လုံးဝ မပါဝင်သောကြောင့်",
+              "Memory Cell များထဲသို့ တိုက်ရိုက် ထိုးထည့်ထားသောကြောင့်",
+              "ကိုယ်ခံအားစနစ်ကို လုံးဝ ဖျက်ဆီးလိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, what is formed and left behind after the vaccine's antigen is cleared?",
+            questionMy: "Vaccine ၏ Antigen ရှင်းသွားပြီးနောက် အဘယ်ကို ဖွဲ့စည်း၍ ချန်ထားသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: ["Memory cells", "New red blood cells", "New pathogens", "New xylem vessels"],
+            optionsMy: ["Memory Cell", "သွေးနီဥအသစ်", "Pathogen အသစ်", "Xylem Vessel အသစ်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, how does herd immunity protect people who cannot be vaccinated?",
+            questionMy: "Herd Immunity သည် Vaccine မထိုးနိုင်သောသူများကို မည်သို့ ကာကွယ်ပေးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By reducing susceptible hosts, making it harder for the pathogen to spread",
+              "By directly injecting them with antibodies",
+              "It offers no protection to them at all",
+              "By destroying every pathogen in existence",
+            ],
+            optionsMy: [
+              "ခံနိုင်သော Host များ လျော့ချကာ Pathogen ပျံ့နှံ့ရန် ပိုခက်ခဲစေခြင်းဖြင့်",
+              "Antibody များ တိုက်ရိုက် ထိုးသွင်းခြင်းဖြင့်",
+              "၎င်းတို့ကို ကာကွယ်မှု လုံးဝ မပေးပါ",
+              "ရှိရင်းစွဲ Pathogen အားလုံးကို ဖျက်ဆီးခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Secondary Response and Vaccination",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Secondary Response နှင့် Vaccination",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Memory cells allow the body to...",
+          questionMy: "Memory Cell များက ခန္ဓာကိုယ်ကို ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Respond much faster on a second exposure to the same antigen",
+            "Forget every pathogen it has met",
+            "Produce oxygen directly",
+            "Never respond to any antigen again",
+          ],
+          optionsMy: [
+            "တူညီသော Antigen ကို ဒုတိယအကြိမ် ဆက်ဆံရသောအခါ ပိုမြန်ဆန်စွာ တုံ့ပြန်",
+            "ကြုံဖူးသော Pathogen တိုင်းကို မေ့ပျောက်",
+            "Oxygen ကို တိုက်ရိုက် ထုတ်လုပ်",
+            "Antigen မည်သည်ကိုမျှ ထပ်မံ မတုံ့ပြန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A vaccine works by...",
+          questionMy: "Vaccine တစ်ခုသည် ...ဖြင့် အလုပ်လုပ်သည်",
+          optionsEn: [
+            "Triggering a primary response and memory cell formation using a safe antigen",
+            "Directly killing the pathogen inside the body",
+            "Removing the need for any immune system at all",
+            "Providing oxygen to red blood cells",
+          ],
+          optionsMy: [
+            "လုံခြုံသော Antigen ကို အသုံးပြု၍ Primary Response နှင့် Memory Cell ဖွဲ့စည်းမှု လှုံ့ဆော်ခြင်း",
+            "ခန္ဓာကိုယ်အတွင်းရှိ Pathogen ကို တိုက်ရိုက် သတ်ဖြတ်ခြင်း",
+            "ကိုယ်ခံအားစနစ် မည်သည်ကိုမျှ မလိုအပ်စေခြင်း",
+            "သွေးနီဥများသို့ Oxygen ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Herd immunity protects unvaccinated individuals by...",
+          questionMy: "Herd Immunity သည် Vaccine မထိုးရသေးသူများကို ...ဖြင့် ကာကွယ်ပေးသည်",
+          optionsEn: [
+            "Reducing the number of susceptible hosts a pathogen can spread between",
+            "Vaccinating them directly and secretly",
+            "Destroying all pathogens on Earth",
+            "Having no effect on them at all",
+          ],
+          optionsMy: [
+            "Pathogen ပျံ့နှံ့နိုင်သည့် ခံနိုင်သော Host အရေအတွက် လျော့ချခြင်းဖြင့်",
+            "၎င်းတို့ကို တိုက်ရိုက်နှင့် လျှို့ဝှက်စွာ Vaccine ထိုးခြင်းဖြင့်",
+            "ကမ္ဘာပေါ်ရှိ Pathogen အားလုံးကို ဖျက်ဆီးခြင်းဖြင့်",
+            "၎င်းတို့အပေါ် သက်ရောက်မှု လုံးဝ မရှိစေခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36: "AS Biology Exam Prep" -- a broad review of Terms 1-8
+// (capstone; no new content this week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek36 = CourseWeekDef(
+  id: "course-y12-bio-w36",
+  weekNumber: 36,
+  titleEn: "AS Biology Exam Prep",
+  titleMy: "AS ဇီဝဗေဒ စာမေးပွဲပြင်ဆင်မှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w36-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1-4",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၄",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A specimen has an actual length of 5 µm and an image length of 25 mm. Its magnification is...",
+          questionMy: "နမူနာတစ်ခု၏ Actual Length သည် 5 µm ဖြစ်ပြီး Image Length သည် 25 mm ဖြစ်သည်။ Magnification မှာ...",
+          optionsEn: ["x5000", "x500", "x50", "x50000"],
+          optionsMy: ["x5000", "x500", "x50", "x50000"],
+          correctIndex: 0,
+          hintsEn: [
+            "Convert to the same unit first (25 mm = 25,000 µm), then magnification = image size / actual size = 25,000 / 5 = 5000.",
+          ],
+          hintsMy: [
+            "ဦးစွာ ယူနစ်တူအောင် ပြောင်းပါ (25 mm = 25,000 µm)၊ ထို့နောက် Magnification = Image Size / Actual Size = 25,000 / 5 = 5000 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The enzyme catalase's rate of reaction rises with temperature up to its optimum mainly because...",
+          questionMy: "Enzyme Catalase ၏ တုံ့ပြန်မှုနှုန်းသည် ၎င်း၏ Optimum အထိ Temperature နှင့်အတူ တက်လာရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Enzyme and substrate molecules gain kinetic energy and collide more often and successfully",
+            "The enzyme denatures immediately at any temperature",
+            "Water potential increases sharply",
+            "Osmosis speeds up the reaction directly",
+          ],
+          optionsMy: [
+            "Enzyme နှင့် Substrate မော်လီကျူးများ Kinetic Energy ရရှိပြီး ပိုမကြာခဏနှင့် ပိုအောင်မြင်စွာ ပတ်တိုက်ကြောင့်",
+            "Enzyme သည် Temperature မည်သို့ရှိစေ ချက်ချင်း Denature ဖြစ်သောကြောင့်",
+            "Water Potential ချက်ချင်း တိုးလာသောကြောင့်",
+            "Osmosis က တုံ့ပြန်မှုကို တိုက်ရိုက် မြန်ဆန်စေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A red blood cell placed in a hypertonic solution will lose water by...",
+          questionMy: "Hypertonic Solution ထဲသို့ ထည့်ထားသော သွေးနီဥသည် ...ဖြင့် ရေ ဆုံးရှုံးသည်",
+          optionsEn: ["Osmosis", "Active transport", "Endocytosis", "Facilitated diffusion of ions only"],
+          optionsMy: ["Osmosis", "Active Transport", "Endocytosis", "Ion များ၏ Facilitated Diffusion သာ"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is Term 4's osmosis: water moves from the cell's higher water potential to the solution's lower water potential.",
+          ],
+          hintsMy: [
+            "ဤသည် Term 4 ၏ Osmosis ဖြစ်သည် - ရေသည် ဆဲလ်၏ Water Potential မြင့်မှ Solution ၏ Water Potential နိမ့်ဆီသို့ ရွေ့လျားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Vocabulary from Across the Year",
+      titleMy: "တွဲစပ်ကြမည် - တစ်နှစ်လုံးမှ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w36-dm-1",
+          termEn: "Resolution (Term 1)",
+          termMy: "Resolution (Term 1)",
+          matchEn: "The ability to distinguish two close points as separate",
+          matchMy: "အနီးကပ်နေသော အမှတ်နှစ်ခုကို သီးခြားစီအဖြစ် ခွဲခြားနိုင်သော စွမ်းရည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w36-dm-2",
+          termEn: "Glycosidic bond (Term 2)",
+          termMy: "Glycosidic Bond (Term 2)",
+          matchEn: "The covalent bond joining two monosaccharides",
+          matchMy: "Monosaccharide နှစ်ခု ချိတ်ဆက်ပေးသော Covalent Bond",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w36-dm-3",
+          termEn: "Active site (Term 3)",
+          termMy: "Active Site (Term 3)",
+          matchEn: "The region of an enzyme where the substrate binds",
+          matchMy: "Enzyme ၏ Substrate ချိတ်ဆက်ရာ ဒေသ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w36-dm-4",
+          termEn: "Fluid mosaic model (Term 4)",
+          termMy: "Fluid Mosaic Model (Term 4)",
+          matchEn: "The model describing the membrane as a phospholipid bilayer with scattered proteins",
+          matchMy: "Membrane ကို Protein များ ပြန့်ကြဲနေသော Phospholipid Bilayer အဖြစ် ဖော်ပြသော Model",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w36-dm-5",
+          termEn: "Semi-conservative replication (Term 6)",
+          termMy: "Semi-conservative Replication (Term 6)",
+          matchEn: "DNA replication in which each new molecule has one original strand and one new strand",
+          matchMy: "မော်လီကျူးအသစ်တစ်ခုစီတွင် မူလကွင်းဆက်တစ်ခုနှင့် အသစ်ကွင်းဆက်တစ်ခု ရှိသော DNA Replication",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Structure or Process?",
+      titleMy: "စီစစ်ကြမည် - Structure လား, Process လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["A Structure", "A Process"],
+        bucketsMy: ["Structure တစ်ခု", "Process တစ်ခု"],
+        items: [
+          SortingItem(
+            id: "y12bio-w36-sort-1",
+            labelEn: "The cell-surface membrane (Term 4)",
+            labelMy: "Cell-surface Membrane (Term 4)",
+            correctBucketEn: "A Structure",
+            correctBucketMy: "Structure တစ်ခု",
+          ),
+          SortingItem(
+            id: "y12bio-w36-sort-2",
+            labelEn: "Translocation of sucrose through the phloem (Term 7)",
+            labelMy: "Phloem မှတဆင့် Sucrose ၏ Translocation (Term 7)",
+            correctBucketEn: "A Process",
+            correctBucketMy: "Process တစ်ခု",
+          ),
+          SortingItem(
+            id: "y12bio-w36-sort-3",
+            labelEn: "A mitochondrion (Term 1)",
+            labelMy: "Mitochondrion (Term 1)",
+            correctBucketEn: "A Structure",
+            correctBucketMy: "Structure တစ်ခု",
+          ),
+          SortingItem(
+            id: "y12bio-w36-sort-4",
+            labelEn: "Transcription of mRNA from a DNA template (Term 6)",
+            labelMy: "DNA Template မှ mRNA ၏ Transcription (Term 6)",
+            correctBucketEn: "A Process",
+            correctBucketMy: "Process တစ်ခု",
+          ),
+          SortingItem(
+            id: "y12bio-w36-sort-5",
+            labelEn: "The primary immune response to a new pathogen (Term 9)",
+            labelMy: "Pathogen အသစ်တစ်ခုကို Primary Immune Response (Term 9)",
+            correctBucketEn: "A Process",
+            correctBucketMy: "Process တစ်ခု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Last Study Session",
+      titleMy: "စာဖတ်ခြင်း - နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Last Study Session",
+        titleMy: "နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+        passageEn:
+            "On the evening before their AS Biology exam, Htet Aung and Su Su met at Sayar Zaw Min's classroom for one final review session, and he asked them to explain how the whole year's terms actually connected to one another, rather than treating each one as a separate island of facts.\n\nHtet Aung started at the very beginning: everything the course covered ultimately happens inside cells, which is why Term 1's magnification calculations and organelle structures mattered so much -- you cannot understand any later process without first understanding the tiny compartments it happens inside. Terms 2 and 3 built the molecular toolkit those compartments are made of and run on: water, carbohydrates and lipids forming structures like membranes and cell walls, and proteins forming both those structures and the enzymes that catalyse every reaction that follows.\n\nSu Su continued the thread: Term 4's cell membrane and transport mechanisms explained how substances actually move into and out of those cells built from Term 2 and 3's molecules, while Terms 5 and 6 explained how a cell's genetic information -- packaged as chromosomes, copied by semi-conservative replication, and expressed through transcription and translation -- gets passed on accurately every time a cell divides. Terms 7 and 8 then zoomed out from single cells to whole-organism transport systems, xylem and phloem in plants and the heart, blood vessels and blood in mammals, both ultimately existing to move the very molecules and gases Terms 1-6 had already introduced.\n\n\"And Term 9 closes the loop,\" Sayar Zaw Min added, \"because the immune system you've just studied is itself built from the very same cells, molecules and processes -- phagocytes using endocytosis, B-lymphocytes dividing by mitosis, antibodies as specifically shaped proteins -- that every earlier term already explained. Nothing in this course was ever really separate. Walk into that exam tomorrow remembering that, and even a question that looks unfamiliar will connect back to something you already understand.\"",
+        passageMy:
+            "AS ဇီဝဗေဒ စာမေးပွဲမတိုင်မီ ညနေတွင် Htet Aung နှင့် Su Su သည် နောက်ဆုံး ပြန်လည်သုံးသပ်ချိန်အတွက် ဆရာဇော်မင်း၏ အတန်းခန်းတွင် တွေ့ဆုံခဲ့ကြပြီး Term တစ်ခုချင်းစီကို သီးခြားအချက်အလက် ကျွန်းငယ်များအဖြစ် သဘောထားမည့်အစား တစ်နှစ်လုံး၏ Term များသည် တစ်ခုနှင့်တစ်ခု မည်သို့ ချိတ်ဆက်နေသည်ကို ရှင်းပြရန် သူတို့အား တောင်းဆိုခဲ့သည်။\n\nHtet Aung သည် အစအချက်မှ စတင်ခဲ့သည် - Course ဖုံးအုပ်ခဲ့သမျှသည် ဆဲလ်များအတွင်း နောက်ဆုံးတွင် ဖြစ်ပွားနေသည်ဖြစ်ရာ Term 1 ၏ Magnification တွက်ချက်မှုများနှင့် Organelle ဖွဲ့စည်းပုံများ ဤမျှ အရေးကြီးရသည့်အကြောင်းရင်း ဖြစ်သည် -- ၎င်းဖြစ်ပွားရာ သိမ်ငယ်သော Compartment များကို ဦးစွာ နားမလည်ဘဲ နောက်ပိုင်း Process မည်သည်ကိုမျှ နားလည်၍ မရနိုင်ပါ။ Term 2 နှင့် 3 သည် ထို Compartment များ ဖွဲ့စည်းထားသည့် နှင့် အလုပ်လုပ်နေသည့် Molecular Toolkit ကို တည်ဆောက်ပေးခဲ့သည် - ရေ, Carbohydrate နှင့် Lipid တို့သည် Membrane နှင့် Cell Wall ကဲ့သို့ ဖွဲ့စည်းပုံများ ဖွဲ့စည်းပေးပြီး Protein များသည် ထို ဖွဲ့စည်းပုံများနှင့် နောက်ဆက်တွဲ တုံ့ပြန်မှုတိုင်းကို Catalyse ပြုသော Enzyme များ နှစ်ခုစလုံးကို ဖွဲ့စည်းပေးသည်။\n\nSu Su သည် ကွင်းဆက်ကို ဆက်လက် ဆောင်ရွက်ခဲ့သည် - Term 4 ၏ Cell Membrane နှင့် Transport Mechanism များသည် Term 2 နှင့် 3 ၏ မော်လီကျူးများမှ တည်ဆောက်ထားသော ထို ဆဲလ်များထဲသို့ ပစ္စည်းများ အမှန်တကယ် မည်သို့ ဝင်ရောက်/ ထွက်ခွာသည်ကို ရှင်းပြခဲ့ပြီး Term 5 နှင့် 6 တို့သည် ဆဲလ်တစ်ခု၏ မျိုးရိုးဗီဇအချက်အလက် -- Chromosome အဖြစ် ထုပ်ပိုးထားပြီး Semi-conservative Replication ဖြင့် ကူးယူကာ Transcription နှင့် Translation မှတဆင့် ဖော်ပြခံရသော -- ဆဲလ်ခွဲပွားတိုင်း တိကျစွာ ဆက်ခံခံရပုံကို ရှင်းပြခဲ့သည်။ Term 7 နှင့် 8 တို့သည် ဆဲလ်တစ်ခုတည်းမှ Organism တစ်ခုလုံး၏ Transport System များဆီသို့ ချဲ့ထွက်ကာ အပင်များရှိ Xylem နှင့် Phloem နှင့် Mammal များရှိ နှလုံး, သွေးကြောများနှင့် သွေးတို့သည် Term 1-6 ရှိပြီးသား မိတ်ဆက်ပေးခဲ့သော မော်လီကျူးများနှင့် ဓာတ်ငွေ့များကို ရွှေ့ရန်အတွက်သာ နောက်ဆုံးတွင် တည်ရှိကြောင်း ရှင်းပြခဲ့သည်။\n\n\"Term 9 က ကွင်းဆက်ကို ပိတ်ပေးသည်\" ဟု ဆရာဇော်မင်း ထပ်ဆောင်း ပြောကြားခဲ့သည် \"အကြောင်းမှာ သင်တို့ ယခုမှ လေ့လာခဲ့သော ကိုယ်ခံအားစနစ် ကိုယ်တိုင်ကပင် Endocytosis အသုံးပြုသော Phagocyte, Mitosis ဖြင့် ခွဲပွားသော B-lymphocyte, တိကျစွာ ပုံသဏ္ဌာန်ဖန်တီးထားသော Protein များအဖြစ် Antibody -- ရှေးက Term တိုင်း ရှင်းပြခဲ့ပြီးသား ဆဲလ်များ, မော်လီကျူးများနှင့် Process များ အတိအကျမှ တည်ဆောက်ထားသောကြောင့်ဖြစ်သည်။ ဤ Course ထဲရှိ မည်သည့်အရာမျှ အမှန်တကယ် သီးခြား ဘယ်တော့မှ မဟုတ်ခဲ့ပါ။ နက်ဖြန်တွင် ထိုစာမေးပွဲထဲသို့ ၎င်းကို သတိရလျက် ဝင်ရောက်ပါ၊ ရင်းနှီးမှုမရှိပုံပေါ်သော မေးခွန်းတစ်ခုပင်ဖြစ်စေ သင် နားလည်ထားပြီးသား တစ်ခုခုနှင့် ချိတ်ဆက်လိမ့်မည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why did Term 1's content matter so much for the rest of the course?",
+            questionMy: "Term 1 ၏ အကြောင်းအရာသည် Course ၏ ကျန်အပိုင်းအတွက် ဤမျှ အရေးကြီးရသည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every later process happens inside the cell compartments Term 1 described",
+              "Term 1 has nothing to do with the rest of the course",
+              "Term 1 covered only exam technique, no biology",
+              "Term 1 was the shortest term of the year",
+            ],
+            optionsMy: [
+              "နောက်ပိုင်း Process တိုင်းသည် Term 1 ဖော်ပြခဲ့သော ဆဲလ် Compartment များအတွင်း ဖြစ်ပွားသောကြောင့်",
+              "Term 1 သည် Course ၏ ကျန်အပိုင်းနှင့် မည်သို့မျှ မသက်ဆိုင်သောကြောင့်",
+              "Term 1 သည် ဇီဝဗေဒ မဟုတ်ဘဲ Exam နည်းစနစ်ကိုသာ ဖုံးအုပ်ခဲ့သောကြောင့်",
+              "Term 1 သည် တစ်နှစ်တာ၏ အတိုဆုံး Term ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what did Terms 5 and 6 explain about a cell's genetic information?",
+            questionMy: "ဆဲလ်တစ်ခု၏ မျိုးရိုးဗီဇအချက်အလက်အကြောင်း Term 5 နှင့် 6 ရှင်းပြခဲ့သည့် အရာကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "How it is packaged, copied, and expressed accurately every time a cell divides",
+              "That genetic information never changes at all",
+              "That only plant cells have genetic information",
+              "That cell division destroys all genetic information",
+            ],
+            optionsMy: [
+              "ဆဲလ် ခွဲပွားတိုင်း ၎င်းကို မည်သို့ ထုပ်ပိုး၊ ကူးယူပြီး တိကျစွာ ဖော်ပြသည်",
+              "မျိုးရိုးဗီဇအချက်အလက်သည် ဘယ်တော့မှ လုံးဝ မပြောင်းလဲကြောင်း",
+              "အပင်ဆဲလ်များတွင်သာ မျိုးရိုးဗီဇအချက်အလက် ရှိကြောင်း",
+              "ဆဲလ်ခွဲပွားခြင်းသည် မျိုးရိုးဗီဇအချက်အလက်အားလုံးကို ဖျက်ဆီးကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, why does Term 9 \"close the loop\"?",
+            questionMy: "Term 9 က \"ကွင်းဆက်ကို ပိတ်ပေးသည်\" ဟု ဆိုရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The immune system is itself built from the same cells, molecules and processes as earlier terms",
+              "Term 9 has nothing to do with any earlier term",
+              "Term 9 introduces a completely different subject",
+              "The immune system exists outside of any cell",
+            ],
+            optionsMy: [
+              "ကိုယ်ခံအားစနစ် ကိုယ်တိုင်ကပင် ယခင် Term များမှ ဆဲလ်များ, မော်လီကျူးများနှင့် Process များ အတိအကျမှ တည်ဆောက်ထားသောကြောင့်",
+              "Term 9 သည် ယခင် Term မည်သည်နှင့်မျှ မသက်ဆိုင်သောကြောင့်",
+              "Term 9 သည် လုံးဝ မတူညီသော ဘာသာရပ်တစ်ခု မိတ်ဆက်ပေးသောကြောင့်",
+              "ကိုယ်ခံအားစနစ်သည် ဆဲလ်မည်သည့်ပြင်ပတွင်မဆို တည်ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w36-d5",
+      dayNumber: 5,
+      titleEn: "AS Biology Final Review: Terms 1-9",
+      titleMy: "AS ဇီဝဗေဒ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Cell theory states that the cell is the basic unit of...",
+          questionMy: "Cell Theory အရ ဆဲလ်သည် ...၏ အခြေခံယူနစ် ဖြစ်သည်",
+          optionsEn: ["Structure and function in living organisms", "Genetic mutation only", "Immune response only", "Water potential only"],
+          optionsMy: ["သက်ရှိသတ္တဝါများ၏ ဖွဲ့စည်းပုံနှင့် လုပ်ငန်းဆောင်တာ", "Genetic Mutation သာ", "Immune Response သာ", "Water Potential သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Enzymes are globular proteins that speed up reactions by...",
+          questionMy: "Enzyme များသည် ...ဖြင့် တုံ့ပြန်မှုများကို မြန်ဆန်စေသော Globular Protein များ ဖြစ်ကြသည်",
+          optionsEn: ["Lowering the activation energy required", "Raising the activation energy required", "Destroying the substrate permanently", "Removing all water from a cell"],
+          optionsMy: ["လိုအပ်သော Activation Energy ကို လျှော့ချခြင်း", "လိုအပ်သော Activation Energy ကို တိုးမြှင့်ခြင်း", "Substrate ကို အမြဲတမ်း ဖျက်ဆီးခြင်း", "ဆဲလ်မှ ရေအားလုံးကို ဖယ်ရှားခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Translation joins amino acids together using...",
+          questionMy: "Translation သည် ...ကို အသုံးပြု၍ Amino Acid များကို ချိတ်ဆက်သည်",
+          optionsEn: ["Ribosomes reading mRNA codons", "Xylem vessels", "Heart valves", "Sieve plates"],
+          optionsMy: ["mRNA Codon များ ဖတ်နေသော Ribosome", "Xylem Vessel", "နှလုံး Valve", "Sieve Plate"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Across the whole AS Biology course, cells, molecules, membranes, genetics, transport and immunity are all...",
+          questionMy: "AS ဇီဝဗေဒ Course တစ်ခုလုံးတလျှောက် ဆဲလ်များ, မော်လီကျူးများ, Membrane, Genetics, Transport နှင့် Immunity များသည် အားလုံး...",
+          optionsEn: [
+            "Interconnected topics building on the same underlying cells and molecules",
+            "Completely unrelated topics with nothing in common",
+            "Only relevant to plants, never animals",
+            "Impossible to study using a light microscope",
+          ],
+          optionsMy: [
+            "တူညီသော အခြေခံ ဆဲလ်များနှင့် မော်လီကျူးများပေါ် တည်ဆောက်ထားသော ချိတ်ဆက်နေသော ခေါင်းစဉ်များ",
+            "အချင်းချင်း လုံးဝ မသက်ဆိုင်သော ဘုံအချက် မရှိသော ခေါင်းစဉ်များ",
+            "အပင်များနှင့်သာ သက်ဆိုင်ပြီး တိရစ္ဆာန်များနှင့် လုံးဝ မသက်ဆိုင်",
+            "Light Microscope ဖြင့် လေ့လာ၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm9 = CourseTermDef(
+  id: "course-y12-bio-t9",
+  termNumber: 9,
+  titleEn: "Infectious Disease, Immunity and AS Exam Prep",
+  titleMy: "ကူးစက်ရောဂါ, ကိုယ်ခံအားနှင့် AS စာမေးပွဲပြင်ဆင်မှု",
+  weeks: [_y12BioWeek33, _y12BioWeek34, _y12BioWeek35, _y12BioWeek36],
+  certificateTitleEn:
+      "AS Biology: Infectious Disease, Immunity and AS Exam Prep",
+  certificateTitleMy:
+      "AS ဇီဝဗေဒ - ကူးစက်ရောဂါ, ကိုယ်ခံအားနှင့် AS စာမေးပွဲပြင်ဆင်မှု",
+);
+
+/// Year 12 Biology (A-Level AS, Cambridge 9700) -- complete, all 9
+/// terms authored (36 weeks / 180 daily lessons): Cell Structure and
+/// Microscopy; Biological Molecules I (Water, Carbohydrates and
+/// Lipids); Biological Molecules II (Proteins and Enzymes); Cell
+/// Membranes and Transport; The Mitotic Cell Cycle; Nucleic Acids and
+/// Protein Synthesis; Transport in Plants; Transport in Mammals; and
+/// Infectious Disease, Immunity and AS Exam Prep. No LaTeX renderer
+/// exists in this app -- formulas throughout use the same plain
+/// Unicode math notation (², √, x for multiplication) already
+/// established by the IGCSE pathways, not literal LaTeX markup.
+const CoursePathwayDef year12BiologyPathway = CoursePathwayDef(
+  id: "course-year12-biology",
+  subject: "biology",
+  grade: Grade.year12,
+  titleEn: "A-Level Biology — Year 12 (AS)",
+  titleMy: "A-Level ဇီဝဗေဒ — Year ၁၂ (AS)",
+  descriptionEn:
+      "The AS half of Cambridge A-Level Biology (9700): daily bite-sized lessons building the cell-and-molecule foundation the rest of the course depends on. Term 1, Cell Structure and Microscopy, covers cell theory, light vs. electron microscopy, magnification and resolution calculations, and the ultrastructure of eukaryotic cells (nucleus, mitochondria, rough/smooth ER, Golgi, ribosomes, lysosomes) versus prokaryotic cells, closing with a capstone comparing plant, animal and prokaryotic cell types. Terms 2-9 continue through biological molecules (water, carbohydrates, lipids, proteins and enzymes), cell membranes and transport, the mitotic cell cycle, nucleic acids and protein synthesis, transport in plants and in mammals, and infectious disease and immunity, closing with AS exam preparation.",
+  descriptionMy:
+      "Cambridge A-Level ဇီဝဗေဒ (9700) ၏ AS ခြမ်း - Course ၏ ကျန်အပိုင်း မှီခိုနေသော ဆဲလ်-နှင့်-မော်လီကျူး အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Cell Structure and Microscopy သည် Cell Theory, Light vs. Electron Microscopy, Magnification နှင့် Resolution တွက်ချက်မှုများနှင့် Eukaryotic ဆဲလ်များ (Nucleus, Mitochondria, Rough/Smooth ER, Golgi, Ribosome, Lysosome) ၏ Ultrastructure ကို Prokaryotic ဆဲလ်များနှင့် နှိုင်းယှဉ်၍ ဖုံးအုပ်ပြီး အပင်, တိရစ္ဆာန်နှင့် Prokaryotic ဆဲလ်အမျိုးအစားများကို နှိုင်းယှဉ်သော အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ ဇီဝမော်လီကျူးများ (ရေ, Carbohydrate, Lipid, Protein နှင့် Enzyme), Cell Membrane နှင့် Transport, Mitotic Cell Cycle, Nucleic Acid နှင့် Protein Synthesis, အပင်များနှင့် Mammal များတွင် Transport နှင့် ကူးစက်ရောဂါနှင့် ကိုယ်ခံအားတို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year12BiologyTerm1,
+    year12BiologyTerm2,
+    year12BiologyTerm3,
+    year12BiologyTerm4,
+    year12BiologyTerm5,
+    year12BiologyTerm6,
+    year12BiologyTerm7,
+    year12BiologyTerm8,
+    year12BiologyTerm9,
+  ],
+);
