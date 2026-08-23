@@ -17340,9 +17340,1337 @@ const CourseTermDef year12ChemistryTerm3 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Chemical Bonding",
 );
 
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 4: "States of Matter"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "The Gaseous State and the Ideal Gas Equation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek13 = CourseWeekDef(
+  id: "course-y12-chem-w13",
+  weekNumber: 13,
+  titleEn: "The Gaseous State and the Ideal Gas Equation",
+  titleMy: "Gaseous State နှင့် Ideal Gas Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w13-d1",
+      dayNumber: 1,
+      titleEn: "The Ideal Gas Equation",
+      titleMy: "Ideal Gas Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The ideal gas equation is...",
+          questionMy: "Ideal Gas Equation မှာ...",
+          optionsEn: ["pV = nRT", "p + V = nRT", "pV = n + RT", "p = nVRT"],
+          optionsMy: ["pV = nRT", "p + V = nRT", "pV = n + RT", "p = nVRT"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "0.100 mol of a gas at 300 K exerts a pressure of 1.00 x 10⁵ Pa. Its volume is... (R = 8.31 J K⁻¹ mol⁻¹)",
+          questionMy:
+              "Gas 0.100 mol သည် 300 K တွင် Pressure 1.00 x 10⁵ Pa ပေးသည်။ ၎င်း၏ Volume မှာ... (R = 8.31 J K⁻¹ mol⁻¹)",
+          optionsEn: [
+            "2.49 x 10⁻³ m³",
+            "2.49 x 10³ m³",
+            "24.9 m³",
+            "0.0249 m³",
+          ],
+          optionsMy: [
+            "2.49 x 10⁻³ m³",
+            "2.49 x 10³ m³",
+            "24.9 m³",
+            "0.0249 m³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "V = nRT / p = (0.100 x 8.31 x 300) / (1.00 x 10⁵) = 249.3 / 100000 = 2.49 x 10⁻³ m³.",
+          ],
+          hintsMy: [
+            "V = nRT / p = (0.100 x 8.31 x 300) / (1.00 x 10⁵) = 249.3 / 100000 = 2.49 x 10⁻³ m³ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Real gases deviate most from ideal gas behaviour at...",
+          questionMy:
+              "Real Gas များသည် ...ချိန် Ideal Gas Behaviour မှ အသိသာဆုံး ကွဲလွဲသည်",
+          optionsEn: [
+            "High pressure and low temperature",
+            "Low pressure and high temperature",
+            "Standard room temperature only",
+            "Any pressure, as long as temperature is high",
+          ],
+          optionsMy: [
+            "High Pressure နှင့် Low Temperature",
+            "Low Pressure နှင့် High Temperature",
+            "Standard Room Temperature တစ်ခုတည်း",
+            "Temperature မြင့်နေသရွေ့ Pressure မည်သို့ပင်ရှိစေ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gas State Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Gas State ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w13-dm-1",
+          termEn: "Ideal gas equation",
+          termMy: "Ideal Gas Equation",
+          matchEn: "pV = nRT, relating pressure, volume, moles and temperature",
+          matchMy:
+              "pV = nRT, Pressure, Volume, Mole နှင့် Temperature ကို ဆက်စပ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w13-dm-2",
+          termEn: "Kinetic theory of gases",
+          termMy: "Kinetic Theory of Gases",
+          matchEn:
+              "Gas particles are in constant random motion with negligible volume and no intermolecular forces, assumed for an ideal gas",
+          matchMy:
+              "Gas Particle များသည် Volume လျစ်လျူရှုနိုင်ပြီး Intermolecular Force မရှိဘဲ ကျပန်း ဆက်တိုက် ရွေ့လျားနေသည်ဟု Ideal Gas အတွက် ယူဆထားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w13-dm-3",
+          termEn: "Real gas",
+          termMy: "Real Gas",
+          matchEn:
+              "A gas that deviates from ideal behaviour, especially at high pressure and low temperature",
+          matchMy:
+              "Ideal Behaviour မှ ကွဲလွဲသော Gas၊ High Pressure နှင့် Low Temperature ချိန်တွင် အထူးသဖြင့်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w13-dm-4",
+          termEn: "Gas constant (R)",
+          termMy: "Gas Constant (R)",
+          matchEn: "The constant in the ideal gas equation, 8.31 J K⁻¹ mol⁻¹",
+          matchMy: "Ideal Gas Equation ရှိ Constant, 8.31 J K⁻¹ mol⁻¹",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w13-dm-5",
+          termEn: "Absolute temperature",
+          termMy: "Absolute Temperature",
+          matchEn:
+              "Temperature measured in kelvin, always used in the ideal gas equation",
+          matchMy:
+              "Kelvin ဖြင့် တိုင်းတာသော Temperature၊ Ideal Gas Equation တွင် အမြဲ အသုံးပြုသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ideal Gas Assumption or Real Gas Deviation?",
+      titleMy: "စီစစ်ကြမည် - Ideal Gas Assumption သို့မဟုတ် Real Gas Deviation",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ideal Gas Assumption", "Real Gas Deviation"],
+        bucketsMy: ["Ideal Gas Assumption", "Real Gas Deviation"],
+        items: [
+          SortingItem(
+            id: "y12chem-w13-sort-1",
+            labelEn:
+                "Particles have negligible volume compared to the container",
+            labelMy:
+                "Particle များတွင် Container နှင့် နှိုင်းယှဉ်ပါက လျစ်လျူရှုနိုင်သော Volume",
+            correctBucketEn: "Ideal Gas Assumption",
+            correctBucketMy: "Ideal Gas Assumption",
+          ),
+          SortingItem(
+            id: "y12chem-w13-sort-2",
+            labelEn: "At high pressure, particle volume becomes significant",
+            labelMy: "High Pressure ချိန် Particle Volume သည် သိသာလာသည်",
+            correctBucketEn: "Real Gas Deviation",
+            correctBucketMy: "Real Gas Deviation",
+          ),
+          SortingItem(
+            id: "y12chem-w13-sort-3",
+            labelEn: "No intermolecular forces between particles",
+            labelMy: "Particle များကြား Intermolecular Force မရှိပါ",
+            correctBucketEn: "Ideal Gas Assumption",
+            correctBucketMy: "Ideal Gas Assumption",
+          ),
+          SortingItem(
+            id: "y12chem-w13-sort-4",
+            labelEn:
+                "At low temperature, intermolecular forces cause deviation from ideal behaviour",
+            labelMy:
+                "Low Temperature ချိန် Intermolecular Force များသည် Ideal Behaviour မှ ကွဲလွဲမှု ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Real Gas Deviation",
+            correctBucketMy: "Real Gas Deviation",
+          ),
+          SortingItem(
+            id: "y12chem-w13-sort-5",
+            labelEn: "Particles are in constant random motion",
+            labelMy: "Particle များသည် ကျပန်း ဆက်တိုက် ရွေ့လျားနေသည်",
+            correctBucketEn: "Ideal Gas Assumption",
+            correctBucketMy: "Ideal Gas Assumption",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Identifying a Gas Using pV = nRT",
+      titleMy: "စာဖတ်ခြင်း - pV = nRT ဖြင့် Gas ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Identifying a Gas Using pV = nRT",
+        titleMy: "pV = nRT ဖြင့် Gas ဖော်ထုတ်ခြင်း",
+        passageEn:
+            "Sayar Thet Paing Oo's class collected an unknown gas sample with a mass of 0.88 g. The sample occupied 500 cm³ (5.00 x 10⁻⁴ m³) at a pressure of 1.00 x 10⁵ Pa and a temperature of 300 K. He asked the class to find the gas's relative molecular mass, Mr, and identify it.\n\nZayar Htet Naing rearranged the ideal gas equation, pV = nRT, to make n the subject: n = pV / RT = (1.00 x 10⁵ x 5.00 x 10⁻⁴) / (8.31 x 300) = 50.0 / 2493 = 0.0201 mol.\n\nWith the amount in moles known, he found the molar mass: M = mass / n = 0.88 / 0.0201 = 43.8 g mol⁻¹, which rounds to Mr = 44. Sayar Thet Paing Oo pointed out that this value matches carbon dioxide, CO2 (Mr = 12 + 16 + 16 = 44), exactly. Zayar Htet Naing noted how this technique -- measuring a gas's mass, pressure, volume and temperature, then working backward through pV = nRT to find moles and finally molar mass -- lets chemists identify an unknown gas without needing to know anything about its chemical formula in advance; the ideal gas equation alone, combined with a balance and a few physical measurements, is enough to narrow the possibilities down to a specific compound.",
+        passageMy:
+            "Sayar သက်ပိုင်ဦး ၏ အတန်းသည် Mass 0.88 g ရှိသော အမည်မသိ Gas Sample တစ်ခုကို စုဆောင်းခဲ့ကြသည်။ Sample သည် Pressure 1.00 x 10⁵ Pa နှင့် Temperature 300 K တွင် 500 cm³ (5.00 x 10⁻⁴ m³) ယူသည်။ Gas ၏ Relative Molecular Mass, Mr ကို ရှာဖွေပြီး ဖော်ထုတ်ခိုင်းခဲ့သည်။\n\nZayar Htet Naing သည် n ကို Subject အဖြစ် ဖြစ်စေရန် Ideal Gas Equation, pV = nRT ကို ပြန်စီစဉ်ခဲ့သည် - n = pV / RT = (1.00 x 10⁵ x 5.00 x 10⁻⁴) / (8.31 x 300) = 50.0 / 2493 = 0.0201 mol ။\n\nMole ရှိ Amount သိရှိပြီးနောက် Molar Mass ကို ရှာဖွေခဲ့သည် - M = Mass / n = 0.88 / 0.0201 = 43.8 g mol⁻¹, Mr = 44 သို့ Round ပြုလုပ်သည်။ ဤ တန်ဖိုးသည် Carbon Dioxide, CO2 (Mr = 12 + 16 + 16 = 44) နှင့် အတိအကျ ကိုက်ညီကြောင်း Sayar သက်ပိုင်ဦး ထောက်ပြခဲ့သည်။ Gas ၏ Mass, Pressure, Volume နှင့် Temperature ကို တိုင်းတာပြီး pV = nRT ကို ဖြင့် နောက်ပြန် အလုပ်လုပ်ကာ Mole ပြီးနောက် Molar Mass ကို ရှာဖွေခြင်း ဤ နည်းစနစ်သည် Chemist များအား ၎င်း၏ Chemical Formula အကြောင်း မည်သည့်တစ်ခုမျှ ကြိုတင်သိရှိရန် မလိုအပ်ဘဲ အမည်မသိ Gas တစ်ခုကို ဖော်ထုတ်နိုင်စေကြောင်း Zayar Htet Naing သတိပြုမိခဲ့သည် -- Ideal Gas Equation တစ်ခုတည်းသည် Balance နှင့် Physical Measurement အနည်းငယ်နှင့်အတူ Compound အထူးတစ်ခုသို့ ဖြစ်နိုင်ခြေများကို ကျဉ်းမြောင်းစေရန် လုံလောက်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many moles of gas were present?",
+            questionMy: "Gas မည်မျှ Mole ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.0201 mol", "0.88 mol", "44 mol", "300 mol"],
+            optionsMy: ["0.0201 mol", "0.88 mol", "44 mol", "300 mol"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the gas's relative molecular mass?",
+            questionMy: "Gas ၏ Relative Molecular Mass ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["44", "0.88", "0.0201", "300"],
+            optionsMy: ["44", "0.88", "0.0201", "300"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which gas does this Mr value match?",
+            questionMy:
+                "ဤ Mr တန်ဖိုးသည် မည်သည့် Gas နှင့် ကိုက်ညီသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Carbon dioxide, CO2",
+              "Oxygen, O2",
+              "Nitrogen, N2",
+              "Methane, CH4",
+            ],
+            optionsMy: [
+              "Carbon Dioxide, CO2",
+              "Oxygen, O2",
+              "Nitrogen, N2",
+              "Methane, CH4",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's identification."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ဖော်ထုတ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: The Ideal Gas Equation",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Ideal Gas Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The ideal gas equation relates pressure, volume, moles and...",
+          questionMy:
+              "Ideal Gas Equation သည် Pressure, Volume, Mole နှင့် ...ကို ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "Absolute temperature",
+            "Colour",
+            "Density only",
+            "Mass alone",
+          ],
+          optionsMy: [
+            "Absolute Temperature",
+            "အရောင်",
+            "Density တစ်ခုတည်း",
+            "Mass တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ideal gas behaviour assumes particles have...",
+          questionMy:
+              "Ideal Gas Behaviour သည် Particle များတွင် ...ရှိသည်ဟု ယူဆသည်",
+          optionsEn: [
+            "Negligible volume and no intermolecular forces",
+            "Enormous volume and strong forces",
+            "Negative mass",
+            "Fixed positions that never change",
+          ],
+          optionsMy: [
+            "လျစ်လျူရှုနိုင်သော Volume နှင့် Intermolecular Force မရှိခြင်း",
+            "အလွန်ကြီးမားသော Volume နှင့် ခိုင်မာသော Force",
+            "Negative Mass",
+            "ဘယ်တော့မှ မပြောင်းလဲသော Position",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "0.200 mol of a gas at 400 K exerts a pressure of 2.00 x 10⁵ Pa. Its volume is... (R = 8.31 J K⁻¹ mol⁻¹)",
+          questionMy:
+              "Gas 0.200 mol သည် 400 K တွင် Pressure 2.00 x 10⁵ Pa ပေးသည်။ ၎င်း၏ Volume မှာ... (R = 8.31 J K⁻¹ mol⁻¹)",
+          optionsEn: ["3.32 x 10⁻³ m³", "3.32 x 10³ m³", "0.0332 m³", "332 m³"],
+          optionsMy: ["3.32 x 10⁻³ m³", "3.32 x 10³ m³", "0.0332 m³", "332 m³"],
+          correctIndex: 0,
+          hintsEn: [
+            "V = nRT / p = (0.200 x 8.31 x 400) / (2.00 x 10⁵) = 664.8 / 200000 = 3.32 x 10⁻³ m³.",
+          ],
+          hintsMy: [
+            "V = nRT / p = (0.200 x 8.31 x 400) / (2.00 x 10⁵) = 664.8 / 200000 = 3.32 x 10⁻³ m³ ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "Giant Covalent and Simple Molecular Structures"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek14 = CourseWeekDef(
+  id: "course-y12-chem-w14",
+  weekNumber: 14,
+  titleEn: "Giant Covalent and Simple Molecular Structures",
+  titleMy: "Giant Covalent and Simple Molecular Structures",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w14-d1",
+      dayNumber: 1,
+      titleEn: "Diamond, Graphite and Simple Molecular Solids",
+      titleMy: "Diamond, Graphite နှင့် Simple Molecular Solids",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Diamond and graphite are both examples of...",
+          questionMy: "Diamond နှင့် Graphite နှစ်ခုစလုံးသည်...",
+          optionsEn: [
+            "Giant covalent (macromolecular) structures made entirely of carbon atoms",
+            "Simple molecular structures held by weak forces only",
+            "Giant ionic lattices",
+            "Metallic structures",
+          ],
+          optionsMy: [
+            "Carbon Atom တစ်ခုတည်းဖြင့် ပြုလုပ်ထားသော Giant Covalent (Macromolecular) Structure",
+            "အားနည်းသော Force များဖြင့်သာ ဆက်စပ်ထားသော Simple Molecular Structure",
+            "Giant Ionic Lattice",
+            "Metallic Structure",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Graphite conducts electricity because...",
+          questionMy:
+              "Graphite သည် Electricity Conduct ဖြစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Each carbon atom has one delocalised electron free to move between layers",
+            "It has no covalent bonds at all",
+            "It is an ionic lattice",
+            "It has no carbon atoms present",
+          ],
+          optionsMy: [
+            "Carbon Atom တစ်ခုစီတွင် Layer များကြား လွတ်လပ်စွာ ရွေ့လျားနိုင်သော Delocalised Electron တစ်ခု ရှိသောကြောင့်",
+            "Covalent Bond လုံးဝ မရှိသောကြောင့်",
+            "Ionic Lattice ဖြစ်သောကြောင့်",
+            "Carbon Atom လုံးဝ မပါဝင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Simple molecular structures like iodine have low melting points because...",
+          questionMy:
+              "Iodine ကဲ့သို့ Simple Molecular Structure များသည် Melting Point နိမ့်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Only weak van der Waals forces between molecules need to be overcome",
+            "The covalent bonds within each molecule are extremely weak",
+            "They have no intermolecular forces at all",
+            "They are actually giant ionic structures",
+          ],
+          optionsMy: [
+            "Molecule များကြား အားနည်းသော Van der Waals Force များကိုသာ ကျော်လွှားရန် လိုအပ်သောကြောင့်",
+            "Molecule တစ်ခုစီအတွင်းရှိ Covalent Bond များသည် အလွန် အားနည်းသောကြောင့်",
+            "Intermolecular Force လုံးဝ မရှိသောကြောင့်",
+            "တကယ်တမ်း Giant Ionic Structure ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Structure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Structure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w14-dm-1",
+          termEn: "Giant covalent (macromolecular) structure",
+          termMy: "Giant Covalent (Macromolecular) Structure",
+          matchEn:
+              "A structure of atoms joined by strong covalent bonds throughout, e.g. diamond, graphite, silicon dioxide",
+          matchMy:
+              "ခိုင်မာသော Covalent Bond များဖြင့် တစ်လျှောက်လုံး ဆက်စပ်ထားသော Atom Structure၊ ဥပမာ Diamond, Graphite, Silicon Dioxide",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w14-dm-2",
+          termEn: "Diamond",
+          termMy: "Diamond",
+          matchEn:
+              "Each carbon atom covalently bonded to 4 others in a rigid 3D tetrahedral network, making it extremely hard",
+          matchMy:
+              "Carbon Atom တစ်ခုစီသည် Rigid 3D Tetrahedral Network တွင် အခြား 4 ခုနှင့် Covalent Bond ပြုလုပ်ထား၍ အလွန် ခက်မာစေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w14-dm-3",
+          termEn: "Graphite",
+          termMy: "Graphite",
+          matchEn:
+              "Carbon atoms arranged in flat hexagonal layers, with weak forces between layers allowing them to slide",
+          matchMy:
+              "Carbon Atom များကို ပြားချပ်သော Hexagonal Layer များအဖြစ် စီစဉ်ထားပြီး Layer များကြား အားနည်းသော Force များက ချောကနဲ ရွေ့လျားစေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w14-dm-4",
+          termEn: "Simple molecular structure",
+          termMy: "Simple Molecular Structure",
+          matchEn:
+              "Molecules held together internally by covalent bonds, but to each other only by weak intermolecular forces",
+          matchMy:
+              "Molecule များသည် အတွင်းပိုင်း Covalent Bond ဖြင့် ဆက်စပ်ထားသော်လည်း အချင်းချင်းကြားတွင် အားနည်းသော Intermolecular Force ဖြင့်သာ ဆက်စပ်ထားသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w14-dm-5",
+          termEn: "Delocalised electron",
+          termMy: "Delocalised Electron",
+          matchEn:
+              "An electron not fixed to one atom or bond, free to move and conduct electricity, e.g. in graphite",
+          matchMy:
+              "Atom (သို့) Bond တစ်ခုတည်းသို့ ငြိမ်သက်နေခြင်း မရှိဘဲ လွတ်လပ်စွာ ရွေ့လျားပြီး Electricity Conduct ဖြစ်နိုင်သော Electron၊ ဥပမာ Graphite ထဲတွင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Giant Covalent or Simple Molecular Structure?",
+      titleMy:
+          "စီစစ်ကြမည် - Giant Covalent သို့မဟုတ် Simple Molecular Structure",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Giant Covalent Structure", "Simple Molecular Structure"],
+        bucketsMy: ["Giant Covalent Structure", "Simple Molecular Structure"],
+        items: [
+          SortingItem(
+            id: "y12chem-w14-sort-1",
+            labelEn: "Diamond",
+            labelMy: "Diamond",
+            correctBucketEn: "Giant Covalent Structure",
+            correctBucketMy: "Giant Covalent Structure",
+          ),
+          SortingItem(
+            id: "y12chem-w14-sort-2",
+            labelEn: "Iodine, I₂",
+            labelMy: "Iodine, I₂",
+            correctBucketEn: "Simple Molecular Structure",
+            correctBucketMy: "Simple Molecular Structure",
+          ),
+          SortingItem(
+            id: "y12chem-w14-sort-3",
+            labelEn: "Graphite",
+            labelMy: "Graphite",
+            correctBucketEn: "Giant Covalent Structure",
+            correctBucketMy: "Giant Covalent Structure",
+          ),
+          SortingItem(
+            id: "y12chem-w14-sort-4",
+            labelEn: "Ice, H₂O",
+            labelMy: "ရေခဲ, H₂O",
+            correctBucketEn: "Simple Molecular Structure",
+            correctBucketMy: "Simple Molecular Structure",
+          ),
+          SortingItem(
+            id: "y12chem-w14-sort-5",
+            labelEn: "Silicon dioxide, SiO₂",
+            labelMy: "Silicon Dioxide, SiO₂",
+            correctBucketEn: "Giant Covalent Structure",
+            correctBucketMy: "Giant Covalent Structure",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Same Element, Opposite Properties",
+      titleMy: "စာဖတ်ခြင်း - Element တူညီ, Property ဆန့်ကျင်ဘက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Same Element, Opposite Properties",
+        titleMy: "Element တူညီ, Property ဆန့်ကျင်ဘက်",
+        passageEn:
+            "Sayama Yin Mar Lwin posed a puzzle to her class: diamond and graphite are both made of nothing but carbon atoms, yet diamond is the hardest naturally occurring substance and does not conduct electricity, while graphite is soft, slippery, and conducts electricity readily. She asked them to explain the difference using bonding alone.\n\nZayar Htet Naing started with diamond: each carbon atom forms four covalent bonds to four neighbouring carbon atoms, arranged tetrahedrally in a rigid three-dimensional network extending throughout the entire crystal. Every one of carbon's four outer electrons is used in a bond, so there are no delocalised electrons free to carry charge -- explaining why diamond doesn't conduct. Breaking diamond means breaking many strong covalent bonds throughout the 3D network, which explains its extreme hardness.\n\nGraphite is different: each carbon atom forms only three covalent bonds, to three neighbouring carbons within a flat hexagonal layer. That leaves one outer electron per carbon atom not used in bonding, and these electrons become delocalised, free to move within the plane of each layer -- explaining graphite's electrical conductivity, which runs along the layers but not easily between them. The layers themselves are held together only by weak van der Waals forces, since there are no bonds connecting one layer to the next, so the layers slide easily over each other, explaining graphite's softness and its use as pencil lead and a lubricant.\n\nSayama Yin Mar Lwin closed by pointing out that both structures start from the exact same atom, carbon, with the exact same four outer electrons available -- the only difference is how many of those four electrons each carbon atom commits to bonding (four in diamond, three in graphite), and that single difference in bonding number cascades into completely opposite mechanical and electrical properties.",
+        passageMy:
+            "Sayama ရင်မာလွင် သူမ၏ အတန်းကို ပဟေဠိတစ်ခု တင်ပြခဲ့သည် - Diamond နှင့် Graphite နှစ်ခုစလုံးသည် Carbon Atom များသာ ပြုလုပ်ထားသော်လည်း Diamond သည် သဘာဝအလျောက် တွေ့ရှိရသော ပစ္စည်းများထဲတွင် အခက်မာဆုံးဖြစ်ပြီး Electricity Conduct မလုပ်ဘဲ Graphite သည် ပျော့ပြီး ချောမွေ့ကာ Electricity ကို လွယ်ကူစွာ Conduct လုပ်သည်။ Bonding တစ်ခုတည်းကို အသုံးပြု၍ ကွာခြားချက်ကို ရှင်းပြခိုင်းခဲ့သည်။\n\nZayar Htet Naing သည် Diamond ဖြင့် စတင်ခဲ့သည် - Carbon Atom တစ်ခုစီသည် Crystal တစ်ခုလုံးတလျှောက် ကျယ်ပြန့်နေသော Rigid Three-Dimensional Network တွင် Tetrahedrally စီစဉ်ထားလျက် အိမ်နီးချင်း Carbon Atom လေးခုသို့ Covalent Bond လေးခု ဖွဲ့စည်းသည်။ Carbon ၏ Outer Electron လေးခုစလုံးကို Bond တစ်ခုတွင် အသုံးပြုသောကြောင့် Charge သယ်ဆောင်ရန် လွတ်လပ်စွာ ရှိသော Delocalised Electron မရှိပါ -- ၎င်းသည် Diamond Conduct မလုပ်ရသည့် အကြောင်းရင်း ရှင်းပြသည်။ Diamond ကို ချိုးဖျက်ခြင်းသည် 3D Network တစ်ခုလုံးတလျှောက် ရှိသော ခိုင်မာသော Covalent Bond များစွာကို ချိုးဖျက်ခြင်းကို ဆိုလိုသောကြောင့် ၎င်း၏ အလွန်အမင်း ခက်မာမှုကို ရှင်းပြသည်။\n\nGraphite သည် ကွဲပြားသည် - Carbon Atom တစ်ခုစီသည် ပြားချပ်သော Hexagonal Layer တစ်ခုအတွင်းရှိ အိမ်နီးချင်း Carbon သုံးခုသို့ Covalent Bond သုံးခုသာ ဖွဲ့စည်းသည်။ ၎င်းက Bonding တွင် အသုံးမပြုသော Carbon Atom တစ်ခုစီ၏ Outer Electron တစ်ခုကို ကျန်ရစ်စေပြီး ဤ Electron များသည် Delocalised ဖြစ်လာကာ Layer တစ်ခုစီ၏ Plane အတွင်း လွတ်လပ်စွာ ရွေ့လျားနိုင်သည် -- ၎င်းသည် Graphite ၏ Electrical Conductivity ကို ရှင်းပြသည်၊ Layer များတလျှောက် ပြေးသော်လည်း ၎င်းတို့ကြား လွယ်ကူစွာ မပြေးပါ။ Layer တစ်ခုမှ နောက်တစ်ခုသို့ ဆက်သွယ်ပေးသော Bond မရှိသောကြောင့် Layer များကိုယ်တိုင်သည် အားနည်းသော Van der Waals Force များဖြင့်သာ ဆက်စပ်ထားပြီး Layer များသည် အချင်းချင်း လွယ်ကူစွာ ချောကနဲ ရွေ့လျားနိုင်ကာ Graphite ၏ ပျော့ညံ့မှုနှင့် Pencil Lead နှင့် Lubricant အဖြစ် အသုံးပြုမှုကို ရှင်းပြသည်။\n\nStructure နှစ်ခုစလုံးသည် Atom တူညီ, Carbon, Outer Electron လေးခု တူညီမှ စတင်ခဲ့ကြောင်း -- ကွာခြားချက် တစ်ခုတည်းမှာ Carbon Atom တစ်ခုစီသည် Bonding သို့ ထို လေးခုအနက် မည်မျှ ကတိပြုသည် (Diamond တွင် လေးခု, Graphite တွင် သုံးခု) ဖြစ်ပြီး Bonding အရေအတွက် ကွာခြားချက် တစ်ခုတည်းသည် လုံးဝ ဆန့်ကျင်ဘက် Mechanical နှင့် Electrical Property များအဖြစ် ကူးပြောင်းသွားကြောင်း ထောက်ပြလျက် Sayama ရင်မာလွင် ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many carbon atoms is each carbon bonded to in diamond?",
+            questionMy:
+                "Diamond ထဲရှိ Carbon Atom တစ်ခုစီသည် Carbon Atom မည်မျှနှင့် Bond ပြုလုပ်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4", "3", "2", "6"],
+            optionsMy: ["4", "3", "2", "6"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, how many carbon atoms is each carbon bonded to in graphite?",
+            questionMy:
+                "Graphite ထဲရှိ Carbon Atom တစ်ခုစီသည် Carbon Atom မည်မျှနှင့် Bond ပြုလုပ်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3", "4", "2", "1"],
+            optionsMy: ["3", "4", "2", "1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does graphite conduct electricity but diamond doesn't?",
+            questionMy:
+                "Diamond မဟုတ်ဘဲ Graphite Electricity Conduct ဖြစ်ရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Graphite has one delocalised electron per carbon atom, while diamond uses all four in bonding",
+              "Diamond has more carbon atoms than graphite",
+              "Graphite is not actually made of carbon",
+              "Diamond conducts electricity better than graphite",
+            ],
+            optionsMy: [
+              "Graphite တွင် Carbon Atom တစ်ခုလျှင် Delocalised Electron တစ်ခု ရှိပြီး Diamond သည် လေးခုစလုံးကို Bonding တွင် အသုံးပြုသည်",
+              "Diamond တွင် Graphite ထက် Carbon Atom ပိုများသည်",
+              "Graphite သည် Carbon ဖြင့် တကယ် မပြုလုပ်ထားပါ",
+              "Diamond သည် Graphite ထက် Electricity ကို ပို၍ ကောင်းစွာ Conduct လုပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second and third paragraphs' explanations."],
+            hintsMy: [
+              "ဒုတိယနှင့် တတိယစာပိုဒ်ရှိ ရှင်းပြချက်များကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Structures of Carbon",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Structures of Carbon",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Diamond does not conduct electricity because...",
+          questionMy:
+              "Diamond Electricity Conduct မလုပ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "All four outer electrons of each carbon are used in bonding",
+            "It contains no carbon atoms",
+            "It is a simple molecular structure",
+            "It has too many delocalised electrons",
+          ],
+          optionsMy: [
+            "Carbon တစ်ခုစီ၏ Outer Electron လေးခုစလုံးကို Bonding တွင် အသုံးပြုသောကြောင့်",
+            "Carbon Atom လုံးဝ မပါဝင်သောကြောင့်",
+            "Simple Molecular Structure ဖြစ်သောကြောင့်",
+            "Delocalised Electron လွန်ကဲစွာ ရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Graphite's layers slide over each other because...",
+          questionMy:
+              "Graphite ၏ Layer များ အချင်းချင်း ရွေ့လျားနိုင်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Only weak van der Waals forces hold the layers together",
+            "Strong covalent bonds connect the layers",
+            "The layers are ionic",
+            "There are no layers at all",
+          ],
+          optionsMy: [
+            "Layer များကို အားနည်းသော Van der Waals Force များသာ ဆက်စပ်ထားသောကြောင့်",
+            "Layer များကို ခိုင်မာသော Covalent Bond များ ဆက်သွယ်ထားသောကြောင့်",
+            "Layer များသည် Ionic ဖြစ်သောကြောင့်",
+            "Layer လုံးဝ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A simple molecular solid has a low melting point because...",
+          questionMy:
+              "Simple Molecular Solid တစ်ခုတွင် Melting Point နိမ့်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Only weak intermolecular forces between molecules need to be overcome",
+            "Its covalent bonds are extremely weak",
+            "It has no molecules at all",
+            "It is actually a giant ionic lattice",
+          ],
+          optionsMy: [
+            "Molecule များကြား အားနည်းသော Intermolecular Force များကိုသာ ကျော်လွှားရန် လိုအပ်သောကြောင့်",
+            "၎င်း၏ Covalent Bond များသည် အလွန် အားနည်းသောကြောင့်",
+            "Molecule လုံးဝ မရှိသောကြောင့်",
+            "တကယ်တမ်း Giant Ionic Lattice ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "Giant Ionic and Giant Metallic Structures"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek15 = CourseWeekDef(
+  id: "course-y12-chem-w15",
+  weekNumber: 15,
+  titleEn: "Giant Ionic and Giant Metallic Structures",
+  titleMy: "Giant Ionic and Giant Metallic Structures",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w15-d1",
+      dayNumber: 1,
+      titleEn: "Ionic Lattices and Metallic Bonding",
+      titleMy: "Ionic Lattices နှင့် Metallic Bonding",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Giant ionic structures have high melting points because...",
+          questionMy:
+              "Giant Ionic Structure များတွင် Melting Point မြင့်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Strong electrostatic forces between ions throughout the lattice require a lot of energy to overcome",
+            "There are no forces holding the ions together at all",
+            "The ions are covalently bonded",
+            "The lattice contains only delocalised electrons",
+          ],
+          optionsMy: [
+            "Lattice တစ်လျှောက်လုံးရှိ Ion များကြား ခိုင်မာသော Electrostatic Force များကို ကျော်လွှားရန် Energy များစွာ လိုအပ်သောကြောင့်",
+            "Ion များကို ဆက်စပ်ထားသော Force လုံးဝ မရှိသောကြောင့်",
+            "Ion များသည် Covalently Bond ပြုလုပ်ထားသောကြောင့်",
+            "Lattice တွင် Delocalised Electron များသာ ပါဝင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Metallic bonding is best described as...",
+          questionMy: "Metallic Bonding ကို အကောင်းဆုံး ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "The electrostatic attraction between a lattice of positive metal ions and a sea of delocalised electrons",
+            "A shared pair of electrons between two non-metal atoms",
+            "The transfer of electrons from one ion to another",
+            "The attraction between two identical neutral atoms only",
+          ],
+          optionsMy: [
+            "Positive Metal Ion Lattice နှင့် Delocalised Electron Sea ကြား Electrostatic Attraction",
+            "Non-Metal Atom နှစ်ခုကြား Shared Electron Pair",
+            "Ion တစ်ခုမှ အခြားတစ်ခုသို့ Electron လွှဲပြောင်းခြင်း",
+            "Identical Neutral Atom နှစ်ခုကြားသာ Attraction",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Metals conduct electricity because...",
+          questionMy:
+              "Metal များ Electricity Conduct ဖြစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Delocalised electrons are free to move throughout the structure and carry charge",
+            "They contain no electrons at all",
+            "They are made of covalent bonds only",
+            "Their ions are fixed and never move",
+          ],
+          optionsMy: [
+            "Delocalised Electron များသည် Structure တစ်လျှောက်လုံး လွတ်လပ်စွာ ရွေ့လျားပြီး Charge သယ်ဆောင်ကြသောကြောင့်",
+            "Electron လုံးဝ မပါဝင်သောကြောင့်",
+            "Covalent Bond တစ်ခုတည်းဖြင့် ပြုလုပ်ထားသောကြောင့်",
+            "၎င်းတို့၏ Ion များသည် ငြိမ်သက်ပြီး ဘယ်တော့မှ မရွေ့လျားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ionic and Metallic Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ionic and Metallic ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w15-dm-1",
+          termEn: "Giant ionic structure",
+          termMy: "Giant Ionic Structure",
+          matchEn:
+              "A lattice of oppositely charged ions held by strong electrostatic forces, giving high melting points",
+          matchMy:
+              "ခိုင်မာသော Electrostatic Force များဖြင့် ဆက်စပ်ထားသော Charge ဆန့်ကျင်ဘက် Ion Lattice၊ Melting Point မြင့်စေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w15-dm-2",
+          termEn: "Metallic bonding",
+          termMy: "Metallic Bonding",
+          matchEn:
+              "The electrostatic attraction between a lattice of positive metal ions and a sea of delocalised electrons",
+          matchMy:
+              "Positive Metal Ion Lattice နှင့် Delocalised Electron Sea ကြား Electrostatic Attraction",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w15-dm-3",
+          termEn: "Malleable",
+          termMy: "Malleable",
+          matchEn:
+              "Able to be hammered into shape without breaking, a property of metals since ion layers can slide past each other",
+          matchMy:
+              "မပျက်စီးဘဲ ပုံဖော်၍ ရိုက်နိုင်စွမ်း၊ Ion Layer များ ကျော်လွန်ရွေ့လျားနိုင်သောကြောင့် Metal ၏ Property",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w15-dm-4",
+          termEn: "Brittle",
+          termMy: "Brittle",
+          matchEn:
+              "Prone to shattering when struck, a property of ionic solids since sliding ions bring like charges together, causing repulsion",
+          matchMy:
+              "ထိလိုက်ချိန် ကွဲစေတတ်ခြင်း၊ ရွေ့လျားသော Ion များက Charge တူညီများကို ချိတ်ဆက်ကာ Repulsion ဖြစ်ပေါ်စေသောကြောင့် Ionic Solid ၏ Property",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w15-dm-5",
+          termEn: "Electrical conductivity",
+          termMy: "Electrical Conductivity",
+          matchEn:
+              "The ability to carry electric current, requiring freely moving charged particles such as delocalised electrons or mobile ions",
+          matchMy:
+              "Electric Current ကို သယ်ဆောင်နိုင်စွမ်း၊ Delocalised Electron (သို့) Mobile Ion ကဲ့သို့ လွတ်လပ်စွာ ရွေ့လျားသော Charged Particle လိုအပ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Property of Ionic Solids or Metals?",
+      titleMy: "စီစစ်ကြမည် - Ionic Solids ၏ Property လား၊ Metal ၏ Property လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Property of Ionic Solids", "Property of Metals"],
+        bucketsMy: ["Ionic Solids ၏ Property", "Metal ၏ Property"],
+        items: [
+          SortingItem(
+            id: "y12chem-w15-sort-1",
+            labelEn: "Brittle, shatters when struck",
+            labelMy: "Brittle, ထိလိုက်ချိန် ကွဲသွားသည်",
+            correctBucketEn: "Property of Ionic Solids",
+            correctBucketMy: "Ionic Solids ၏ Property",
+          ),
+          SortingItem(
+            id: "y12chem-w15-sort-2",
+            labelEn: "Malleable, can be hammered into shape",
+            labelMy: "Malleable, ပုံဖော်၍ ရိုက်နိုင်သည်",
+            correctBucketEn: "Property of Metals",
+            correctBucketMy: "Metal ၏ Property",
+          ),
+          SortingItem(
+            id: "y12chem-w15-sort-3",
+            labelEn:
+                "Conducts electricity only when molten or in aqueous solution",
+            labelMy:
+                "Molten ဖြစ်ချိန် (သို့) Aqueous Solution ထဲတွင်သာ Electricity Conduct ဖြစ်သည်",
+            correctBucketEn: "Property of Ionic Solids",
+            correctBucketMy: "Ionic Solids ၏ Property",
+          ),
+          SortingItem(
+            id: "y12chem-w15-sort-4",
+            labelEn:
+                "Conducts electricity as a solid, due to delocalised electrons",
+            labelMy:
+                "Delocalised Electron ကြောင့် Solid အဖြစ် Electricity Conduct ဖြစ်သည်",
+            correctBucketEn: "Property of Metals",
+            correctBucketMy: "Metal ၏ Property",
+          ),
+          SortingItem(
+            id: "y12chem-w15-sort-5",
+            labelEn:
+                "Sliding layers bring like charges together, causing repulsion",
+            labelMy:
+                "ရွေ့လျားသော Layer များက Charge တူညီများကို ချိတ်ဆက်ကာ Repulsion ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Property of Ionic Solids",
+            correctBucketMy: "Ionic Solids ၏ Property",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Ionic Solids Shatter but Metals Bend",
+      titleMy:
+          "စာဖတ်ခြင်း - Ionic Solids ကွဲပြီး Metal များ ကွေ့ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Ionic Solids Shatter but Metals Bend",
+        titleMy: "Ionic Solids ကွဲပြီး Metal များ ကွေ့ရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Thet Paing Oo asked his class why hitting a crystal of an ionic solid, like sodium chloride, with a hammer makes it shatter along a flat plane, while hitting a lump of a metal, like copper, just bends or dents it out of shape without breaking.\n\nKhin Sandar Win worked through the ionic case first: in the undisturbed lattice, every positive ion is surrounded by negative ions and every negative ion is surrounded by positive ions, so attractive forces dominate throughout. When struck, a whole layer of ions can shift slightly relative to the layer beneath it -- and if that shift lines up positive ions with positive ions, and negative ions with negative ions, those like-charged neighbours now repel each other strongly. That sudden repulsion along the shifted plane is what shatters the crystal.\n\nFor the metal, Khin Sandar Win reasoned differently: a metal's positive ions sit in a lattice, but they are held in place by a mobile 'sea' of delocalised electrons that surrounds them from every direction, not by fixed bonds to particular neighbouring ions. When a layer of metal ions is struck and slides to a new position, the delocalised electrons simply flow to continue surrounding the ions in their new arrangement -- the metallic bond re-forms around the shifted ions almost instantly, with no sudden repulsion to break anything. Sayar Thet Paing Oo summarised the contrast: ionic bonding is directional in the sense that it depends on which specific ions sit next to which, so shifting the lattice can turn attraction into repulsion, while metallic bonding is not tied to any particular neighbour at all, so shifting the lattice changes almost nothing about the bond itself.",
+        passageMy:
+            "Sodium Chloride ကဲ့သို့ Ionic Solid Crystal တစ်ခုကို Hammer ဖြင့် ရိုက်ခြင်းက ၎င်းကို ပြားချပ်သော Plane တစ်ခုတလျှောက် အဘယ့်ကြောင့် ကွဲစေပြီး Copper ကဲ့သို့ Metal ခဲတစ်ခုကို ရိုက်ခြင်းသည် မကွဲဘဲ ပုံပျက်စေသည် (သို့) ဒင့်စေရုံသာ ဖြစ်သည်ကို Sayar သက်ပိုင်ဦး သူ၏ အတန်းကို မေးမြန်းခဲ့သည်။\n\nKhin Sandar Win သည် Ionic Case ဖြင့် ဦးစွာ ဖြေရှင်းခဲ့သည် - မနှောင့်ယှက်ထားသော Lattice ထဲတွင် Positive Ion တိုင်းကို Negative Ion များက ဝန်းရံထားပြီး Negative Ion တိုင်းကို Positive Ion များက ဝန်းရံထားသောကြောင့် Attractive Force များသည် တစ်လျှောက်လုံး Dominant ဖြစ်သည်။ ထိမိချိန် Ion Layer တစ်ခုလုံးသည် ၎င်း၏ အောက်ရှိ Layer နှင့် နှိုင်းယှဉ်ပါက အနည်းငယ် ရွေ့လျားနိုင်သည် -- ထို ရွေ့လျားမှုသည် Positive Ion များကို Positive Ion များနှင့်၊ Negative Ion များကို Negative Ion များနှင့် တန်းစီစေပါက Charge တူညီ အိမ်နီးချင်းများသည် ယခု အချင်းချင်း ခိုင်မာစွာ ဆန့်ကျင်ကြသည်။ ရွေ့လျားထားသော Plane တလျှောက် ရုတ်တရက် Repulsion သည် Crystal ကို ကွဲစေသော အရာ ဖြစ်သည်။\n\nMetal အတွက် Khin Sandar Win ကွဲပြားစွာ ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Metal ၏ Positive Ion များသည် Lattice တစ်ခုတွင် ရှိသော်လည်း သတ်မှတ်ထားသော အိမ်နီးချင်း Ion များသို့ ငြိမ်သက်သော Bond များမဟုတ်ဘဲ ၎င်းတို့ကို ဦးတည်ရာ အားလုံးမှ ဝန်းရံထားသော Mobile Delocalised Electron Sea တစ်ခုက ချိန်ညှိထားသည်။ Metal Ion Layer တစ်ခု ထိမိကာ Position အသစ်တစ်ခုသို့ ရွေ့လျားချိန် Delocalised Electron များသည် ၎င်းတို့၏ အစီအစဉ်အသစ်ရှိ Ion များကို ဆက်လက် ဝန်းရံရန် ရိုးရှင်းစွာ စီးဆင်းသွားသည် -- Metallic Bond သည် ရွေ့လျားထားသော Ion များ ပတ်ပတ်လည် ချက်ချင်းနီးပါး ပြန်ဖွဲ့စည်းသွားပြီး ဘာမျှ ချိုးဖျက်ရန် ရုတ်တရက် Repulsion မရှိပါ။ Ionic Bonding သည် မည်သည့် Ion အထူးများ အနီးအနား ထားရှိသည်ပေါ် မှီခိုနေသောကြောင့် Directional ဖြစ်ပြီး Lattice ရွေ့လျားခြင်းက Attraction ကို Repulsion အဖြစ် ပြောင်းလဲစေနိုင်သော်လည်း Metallic Bonding သည် အိမ်နီးချင်း အထူးတစ်ခုမျှနှင့် လုံးဝ မချိတ်ဆက်ထားသောကြောင့် Lattice ရွေ့လျားခြင်းက Bond ကိုယ်တိုင်နှင့် ပတ်သက်၍ ဘာမျှ လုံးဝ မပြောင်းလဲစေသကဲ့သို့ ဖြစ်ကြောင်း ဆန့်ကျင်ဘက်ကို Sayar သက်ပိုင်ဦး အနှစ်ချုပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what causes an ionic crystal to shatter when struck?",
+            questionMy:
+                "ထိမိချိန် Ionic Crystal တစ်ခု ကွဲစေသော အရာကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A shifted layer brings like-charged ions together, causing repulsion",
+              "The ions simply disappear on impact",
+              "Delocalised electrons repel the ions",
+              "The crystal has no electrostatic forces at all",
+            ],
+            optionsMy: [
+              "ရွေ့လျားထားသော Layer တစ်ခုက Charge တူညီ Ion များကို ချိတ်ဆက်ပြီး Repulsion ဖြစ်ပေါ်စေသည်",
+              "Ion များသည် Impact တွင် ရိုးရှင်းစွာ ပျောက်ကွယ်သွားသည်",
+              "Delocalised Electron များက Ion များကို ဆန့်ကျင်သည်",
+              "Crystal တွင် Electrostatic Force လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why do metals bend rather than shatter?",
+            questionMy:
+                "Metal များ မကွဲဘဲ ကွေ့ရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The delocalised electron sea re-forms around ions in their new positions",
+              "Metals have no ions at all",
+              "Metallic bonds are much weaker than ionic bonds",
+              "Metal ions never move under a force",
+            ],
+            optionsMy: [
+              "Delocalised Electron Sea သည် Position အသစ်ရှိ Ion များ ပတ်ပတ်လည် ပြန်ဖွဲ့စည်းသည်",
+              "Metal တွင် Ion လုံးဝ မရှိပါ",
+              "Metallic Bond များသည် Ionic Bond များထက် များစွာ ပိုအားနည်းသည်",
+              "Metal Ion များသည် Force တစ်ခုအောက်တွင် ဘယ်တော့မှ မရွေ့လျားပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why is ionic bonding described as 'directional' while metallic bonding isn't?",
+            questionMy:
+                "Ionic Bonding ကို 'Directional' ဟု ဖော်ပြပြီး Metallic Bonding ကို မဖော်ပြသည့် အကြောင်းရင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Ionic bonding depends on which specific ions sit next to which, unlike metallic bonding",
+              "Metallic bonding is always stronger than ionic bonding",
+              "Ionic solids have no electrons at all",
+              "Metals cannot form lattices",
+            ],
+            optionsMy: [
+              "Ionic Bonding သည် Metallic Bonding နှင့် မတူဘဲ မည်သည့် Ion အထူးများ အနီးအနား ထားရှိသည်ပေါ် မှီခိုနေသည်",
+              "Metallic Bonding သည် Ionic Bonding ထက် အမြဲ ခိုင်မာသည်",
+              "Ionic Solids တွင် Electron လုံးဝ မရှိပါ",
+              "Metal များသည် Lattice ဖွဲ့စည်း၍ မရပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Ionic and Metallic Structures",
+      titleMy:
+          "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Ionic and Metallic Structures",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ionic solids are brittle because...",
+          questionMy: "Ionic Solids တွင် Brittle ဖြစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Shifting layers bring like charges together, causing repulsion",
+            "They have no ions at all",
+            "They contain delocalised electrons like metals",
+            "They are always liquids at room temperature",
+          ],
+          optionsMy: [
+            "ရွေ့လျားသော Layer များက Charge တူညီများကို ချိတ်ဆက်ပြီး Repulsion ဖြစ်ပေါ်စေသောကြောင့်",
+            "Ion လုံးဝ မရှိသောကြောင့်",
+            "Metal များကဲ့သို့ Delocalised Electron ပါဝင်သောကြောင့်",
+            "Room Temperature တွင် အမြဲ Liquid ဖြစ်နေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Metals are malleable because...",
+          questionMy: "Metal များ Malleable ဖြစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "The delocalised electron sea can re-form around ions in new positions",
+            "They contain no positive ions at all",
+            "Their bonds are directional like ionic bonds",
+            "They have no electrons at all",
+          ],
+          optionsMy: [
+            "Delocalised Electron Sea သည် Position အသစ်ရှိ Ion များ ပတ်ပတ်လည် ပြန်ဖွဲ့စည်းနိုင်သောကြောင့်",
+            "Positive Ion လုံးဝ မပါဝင်သောကြောင့်",
+            "၎င်းတို့၏ Bond များသည် Ionic Bond များကဲ့သို့ Directional ဖြစ်သောကြောင့်",
+            "Electron လုံးဝ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An ionic solid conducts electricity when...",
+          questionMy:
+              "Ionic Solid တစ်ခုသည် ...ချိန် Electricity Conduct ဖြစ်သည်",
+          optionsEn: [
+            "Molten or dissolved in water, freeing the ions to move",
+            "It is a solid at room temperature",
+            "It has no ions present",
+            "It is covalently bonded",
+          ],
+          optionsMy: [
+            "Molten ဖြစ်ချိန် (သို့) ရေထဲတွင် ပျော်ဝင်ချိန်၊ Ion များ ရွေ့လျားနိုင်ရန် လွတ်လပ်စေသည်",
+            "Room Temperature တွင် Solid ဖြစ်နေချိန်",
+            "Ion မည်သည့်တစ်ခုမျှ မရှိချိန်",
+            "Covalently Bond ပြုလုပ်ထားချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16: "States of Matter Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek16 = CourseWeekDef(
+  id: "course-y12-chem-w16",
+  weekNumber: 16,
+  titleEn: "States of Matter Capstone",
+  titleMy: "States of Matter အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w16-d1",
+      dayNumber: 1,
+      titleEn: "Combining Gas Laws and Structure/Bonding",
+      titleMy: "Gas Laws နှင့် Structure/Bonding ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "0.0500 mol of a gas at 350 K exerts a pressure of 1.50 x 10⁵ Pa. Its volume is... (R = 8.31 J K⁻¹ mol⁻¹)",
+          questionMy:
+              "Gas 0.0500 mol သည် 350 K တွင် Pressure 1.50 x 10⁵ Pa ပေးသည်။ ၎င်း၏ Volume မှာ... (R = 8.31 J K⁻¹ mol⁻¹)",
+          optionsEn: [
+            "9.70 x 10⁻⁴ m³",
+            "9.70 x 10⁴ m³",
+            "0.00970 m³",
+            "970 m³",
+          ],
+          optionsMy: [
+            "9.70 x 10⁻⁴ m³",
+            "9.70 x 10⁴ m³",
+            "0.00970 m³",
+            "970 m³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "V = nRT / p = (0.0500 x 8.31 x 350) / (1.50 x 10⁵) = 145.4 / 150000 = 9.70 x 10⁻⁴ m³.",
+          ],
+          hintsMy: [
+            "V = nRT / p = (0.0500 x 8.31 x 350) / (1.50 x 10⁵) = 145.4 / 150000 = 9.70 x 10⁻⁴ m³ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A solid with a very high melting point that does not conduct electricity, even when molten, most likely has a...",
+          questionMy:
+              "Molten ဖြစ်ချိန်ပင် Electricity Conduct မလုပ်ဘဲ Melting Point အလွန် မြင့်သော Solid တစ်ခုသည် ...ရှိနိုင်ခြေ အများဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Giant covalent structure",
+            "Giant ionic structure",
+            "Metallic structure",
+            "Simple molecular structure",
+          ],
+          optionsMy: [
+            "Giant Covalent Structure",
+            "Giant Ionic Structure",
+            "Metallic Structure",
+            "Simple Molecular Structure",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A solid that conducts electricity only when molten or dissolved most likely has a...",
+          questionMy:
+              "Molten ဖြစ်ချိန် (သို့) ပျော်ဝင်ချိန်တွင်သာ Electricity Conduct ဖြစ်သော Solid တစ်ခုသည် ...ရှိနိုင်ခြေ အများဆုံး ဖြစ်သည်",
+          optionsEn: [
+            "Giant ionic structure",
+            "Giant covalent structure",
+            "Metallic structure",
+            "Simple molecular structure",
+          ],
+          optionsMy: [
+            "Giant Ionic Structure",
+            "Giant Covalent Structure",
+            "Metallic Structure",
+            "Simple Molecular Structure",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 4 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၄ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w16-dm-1",
+          termEn: "Ideal gas equation: pV = ",
+          termMy: "Ideal Gas Equation: pV = ",
+          matchEn: "nRT",
+          matchMy: "nRT",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w16-dm-2",
+          termEn: "Diamond: each carbon bonded to",
+          termMy: "Diamond: Carbon တစ်ခုစီ Bond ပြုလုပ်ထားသည်",
+          matchEn: "4 other carbon atoms",
+          matchMy: "အခြား Carbon Atom 4 ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w16-dm-3",
+          termEn: "Graphite: each carbon bonded to",
+          termMy: "Graphite: Carbon တစ်ခုစီ Bond ပြုလုပ်ထားသည်",
+          matchEn: "3 other carbon atoms, plus 1 delocalised electron",
+          matchMy: "အခြား Carbon Atom 3 ခု၊ ထို့ပြင် Delocalised Electron 1 ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w16-dm-4",
+          termEn: "Giant ionic structures conduct electricity",
+          termMy: "Giant Ionic Structure များ Electricity Conduct ဖြစ်သည်",
+          matchEn: "Only when molten or dissolved",
+          matchMy: "Molten ဖြစ်ချိန် (သို့) ပျော်ဝင်ချိန်တွင်သာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w16-dm-5",
+          termEn: "Metals conduct electricity",
+          termMy: "Metal များ Electricity Conduct ဖြစ်သည်",
+          matchEn: "As a solid, due to delocalised electrons",
+          matchMy: "Delocalised Electron ကြောင့် Solid အဖြစ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Gas Behaviour or Solid Structure/Bonding?",
+      titleMy: "စီစစ်ကြမည် - Gas Behaviour သို့မဟုတ် Solid Structure/Bonding",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Gas Behaviour", "Solid Structure/Bonding"],
+        bucketsMy: ["Gas Behaviour", "Solid Structure/Bonding"],
+        items: [
+          SortingItem(
+            id: "y12chem-w16-sort-1",
+            labelEn: "Using pV = nRT to find the amount of gas present",
+            labelMy:
+                "Gas ရှိနေသော Amount ကို ရှာဖွေရန် pV = nRT ကို အသုံးပြုခြင်း",
+            correctBucketEn: "Gas Behaviour",
+            correctBucketMy: "Gas Behaviour",
+          ),
+          SortingItem(
+            id: "y12chem-w16-sort-2",
+            labelEn: "Explaining why diamond is extremely hard",
+            labelMy: "Diamond အလွန် ခက်မာရသည့် အကြောင်းရင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Solid Structure/Bonding",
+            correctBucketMy: "Solid Structure/Bonding",
+          ),
+          SortingItem(
+            id: "y12chem-w16-sort-3",
+            labelEn: "Deviation from ideal behaviour at high pressure",
+            labelMy: "High Pressure ချိန် Ideal Behaviour မှ ကွဲလွဲမှု",
+            correctBucketEn: "Gas Behaviour",
+            correctBucketMy: "Gas Behaviour",
+          ),
+          SortingItem(
+            id: "y12chem-w16-sort-4",
+            labelEn: "Explaining why metals are malleable",
+            labelMy: "Metal များ Malleable ဖြစ်ရသည့် အကြောင်းရင်း ရှင်းပြခြင်း",
+            correctBucketEn: "Solid Structure/Bonding",
+            correctBucketMy: "Solid Structure/Bonding",
+          ),
+          SortingItem(
+            id: "y12chem-w16-sort-5",
+            labelEn: "Assuming particles have negligible volume",
+            labelMy:
+                "Particle များတွင် လျစ်လျူရှုနိုင်သော Volume ရှိသည်ဟု ယူဆခြင်း",
+            correctBucketEn: "Gas Behaviour",
+            correctBucketMy: "Gas Behaviour",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Gas to Solid, Tracing the Same Molecule",
+      titleMy: "စာဖတ်ခြင်း - Gas မှ Solid သို့, Molecule တူညီကို ခြေရာခံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Gas to Solid, Tracing the Same Molecule",
+        titleMy: "Gas မှ Solid သို့, Molecule တူညီကို ခြေရာခံခြင်း",
+        passageEn:
+            "For their Term 4 capstone, Sayama Yin Mar Lwin's class combined the ideal gas equation with structure and bonding into one problem: identifying an unknown gas, then explaining the surprising behaviour of its solid form. A 4.4 g sample of the gas occupied 2.49 x 10⁻³ m³ at 1.00 x 10⁵ Pa and 300 K.\n\nYe Yint Kaung found the amount in moles first: n = pV / RT = (1.00 x 10⁵ x 2.49 x 10⁻³) / (8.31 x 300) = 249 / 2493 = 0.0999, which rounds to 0.100 mol. Dividing mass by moles gave the molar mass: M = 4.4 / 0.100 = 44 g mol⁻¹, identifying the gas as carbon dioxide, CO2.\n\nSayama Yin Mar Lwin then asked a structural question: solid carbon dioxide, dry ice, sublimes directly from solid to gas at around -78°C at atmospheric pressure -- a remarkably low temperature for a solid to disappear at. She asked Ye Yint Kaung to explain this using the structure and bonding ideas from earlier in the term, and to contrast it with silicon dioxide, SiO2, which despite having an almost identical-looking formula, melts at over 1700°C.\n\nYe Yint Kaung reasoned it through: solid CO2 is a simple molecular structure. Each CO2 molecule is held together internally by strong covalent bonds -- which is why sublimation produces intact CO2 gas, not separate carbon and oxygen -- but neighbouring CO2 molecules are held to each other only by weak van der Waals forces, which take very little energy to overcome. Silicon dioxide, by contrast, is a giant covalent structure: every silicon and oxygen atom is linked into one continuous 3D network of strong covalent bonds throughout the entire solid, exactly like diamond, so melting it means breaking countless covalent bonds rather than just a few weak intermolecular forces. Sayama Yin Mar Lwin closed by noting that the two formulas look deceptively similar on paper, but the ideal gas equation, structure and bonding together tell the complete, very different story behind each one.",
+        passageMy:
+            "သူတို့၏ Term 4 အထွတ်အထိပ်အတွက် Sayama ရင်မာလွင် ၏ အတန်းသည် Ideal Gas Equation ကို Structure and Bonding နှင့် ပေါင်းစပ်၍ ပြဿနာတစ်ခု ဖြေရှင်းခဲ့ကြသည် - အမည်မသိ Gas တစ်ခုကို ဖော်ထုတ်ပြီး ၎င်း၏ Solid Form ၏ အံ့ဩဖွယ် Behaviour ကို ရှင်းပြခြင်း။ Gas Sample 4.4 g သည် 1.00 x 10⁵ Pa နှင့် 300 K တွင် 2.49 x 10⁻³ m³ ယူသည်။\n\nYe Yint Kaung သည် Mole ရှိ Amount ကို ဦးစွာ ရှာဖွေခဲ့သည် - n = pV / RT = (1.00 x 10⁵ x 2.49 x 10⁻³) / (8.31 x 300) = 249 / 2493 = 0.0999, 0.100 mol သို့ Round ပြုလုပ်သည်။ Mass ကို Mole ဖြင့် စားခြင်းက Molar Mass ကို ပေးသည် - M = 4.4 / 0.100 = 44 g mol⁻¹, Gas ကို Carbon Dioxide, CO2 ဟု ဖော်ထုတ်ပေးသည်။\n\nSayama ရင်မာလွင် ထို့နောက် Structural မေးခွန်းတစ်ခု မေးမြန်းခဲ့သည် - Solid Carbon Dioxide, Dry Ice သည် Atmospheric Pressure တွင် ခန့်မှန်းခြေ -78°C ၌ Solid မှ Gas သို့ တိုက်ရိုက် Sublime ဖြစ်သည် -- Solid တစ်ခု ပျောက်ကွယ်ရန် ထူးထူးဆန်းဆန်း နိမ့်သော Temperature ဖြစ်သည်။ Term အစောပိုင်းက Structure and Bonding Idea များကို အသုံးပြု၍ ၎င်းကို ရှင်းပြပြီး Formula အတူတူနီးပါး ရှိသော်လည်း 1700°C ကျော် တွင် အရည်ပျော်သော Silicon Dioxide, SiO2 နှင့် နှိုင်းယှဉ်ခိုင်းရန် Ye Yint Kaung ကို ခိုင်းစေခဲ့သည်။\n\nYe Yint Kaung သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Solid CO2 သည် Simple Molecular Structure ဖြစ်သည်။ CO2 Molecule တစ်ခုစီသည် အတွင်းပိုင်းတွင် ခိုင်မာသော Covalent Bond များဖြင့် ဆက်စပ်ထား၍ -- ၎င်းသည် Sublimation က Carbon နှင့် Oxygen သီးခြားမဟုတ်ဘဲ ပြည့်စုံသော CO2 Gas ကို ထုတ်ပေးရသည့် အကြောင်းရင်း ဖြစ်သည် -- သို့သော် အိမ်နီးချင်း CO2 Molecule များသည် အချင်းချင်းကြားတွင် ကျော်လွှားရန် Energy အနည်းငယ်သာ လိုအပ်သော အားနည်းသော Van der Waals Force များဖြင့်သာ ဆက်စပ်ထားသည်။ ဆန့်ကျင်ဘက်အနေဖြင့် Silicon Dioxide သည် Giant Covalent Structure ဖြစ်သည် - Silicon နှင့် Oxygen Atom တိုင်းသည် Diamond ကဲ့သို့ Solid တစ်ခုလုံးတလျှောက် ခိုင်မာသော Covalent Bond ဆက်တိုက် 3D Network တစ်ခုတည်းသို့ ဆက်သွယ်ထားသောကြောင့် ၎င်းကို အရည်ပျော်ခြင်းသည် အားနည်းသော Intermolecular Force အနည်းငယ်သာ ချိုးဖျက်ရုံ မဟုတ်ဘဲ Covalent Bond ရေတွက်၍ မရလောက်အောင် ချိုးဖျက်ရသည်ကို ဆိုလိုသည်။ Formula နှစ်ခုသည် စာရွက်ပေါ်တွင် ထင်ရှားစွာ ဆင်တူသော်လည်း Ideal Gas Equation, Structure and Bonding တို့ စုပေါင်း၍ တစ်ခုစီနောက်ကွယ်ရှိ လုံးဝ ကွဲပြားသော ဇာတ်လမ်းအပြည့်အစုံကို ပြောပြသည်ဟု Sayama ရင်မာလွင် သတိပြု၍ ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the identity of the unknown gas?",
+            questionMy: "အမည်မသိ Gas ၏ Identity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Carbon dioxide, CO2",
+              "Oxygen, O2",
+              "Silicon dioxide, SiO2",
+              "Nitrogen, N2",
+            ],
+            optionsMy: [
+              "Carbon Dioxide, CO2",
+              "Oxygen, O2",
+              "Silicon Dioxide, SiO2",
+              "Nitrogen, N2",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what type of structure is solid CO2?",
+            questionMy:
+                "Solid CO2 သည် မည်သည့် Structure အမျိုးအစား ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Simple molecular structure",
+              "Giant covalent structure",
+              "Giant ionic structure",
+              "Metallic structure",
+            ],
+            optionsMy: [
+              "Simple Molecular Structure",
+              "Giant Covalent Structure",
+              "Giant Ionic Structure",
+              "Metallic Structure",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph."],
+            hintsMy: ["စတုတ္ထစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does silicon dioxide melt at over 1700°C while dry ice sublimes at -78°C?",
+            questionMy:
+                "Dry Ice သည် -78°C တွင် Sublime ဖြစ်စဉ် Silicon Dioxide သည် 1700°C ကျော် တွင် အဘယ့်ကြောင့် အရည်ပျော်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Silicon dioxide is a giant covalent structure requiring many covalent bonds to be broken",
+              "Silicon dioxide has weaker intermolecular forces than CO2",
+              "Silicon dioxide contains no oxygen atoms",
+              "Dry ice has stronger bonds than silicon dioxide",
+            ],
+            optionsMy: [
+              "Silicon Dioxide သည် Covalent Bond များစွာ ချိုးဖျက်ရန် လိုအပ်သော Giant Covalent Structure ဖြစ်သည်",
+              "Silicon Dioxide သည် CO2 ထက် Intermolecular Force ပိုအားနည်းသည်",
+              "Silicon Dioxide တွင် Oxygen Atom လုံးဝ မပါဝင်ပါ",
+              "Dry Ice သည် Silicon Dioxide ထက် Bond ပိုခိုင်မာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w16-d5",
+      dayNumber: 5,
+      titleEn: "Term 4 Capstone: States of Matter",
+      titleMy: "Term ၄ အထွတ်အထိပ် - States of Matter",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The ideal gas equation is...",
+          questionMy: "Ideal Gas Equation မှာ...",
+          optionsEn: [
+            "pV = nRT",
+            "p = nRT / V²",
+            "pV² = nRT",
+            "p + V = nR + T",
+          ],
+          optionsMy: [
+            "pV = nRT",
+            "p = nRT / V²",
+            "pV² = nRT",
+            "p + V = nR + T",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Diamond does not conduct electricity because...",
+          questionMy:
+              "Diamond Electricity Conduct မလုပ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "All four outer electrons of each carbon are used in covalent bonds",
+            "It has no carbon atoms present",
+            "It is a simple molecular structure",
+            "It is an ionic lattice",
+          ],
+          optionsMy: [
+            "Carbon တစ်ခုစီ၏ Outer Electron လေးခုစလုံးကို Covalent Bond တွင် အသုံးပြုသောကြောင့်",
+            "Carbon Atom လုံးဝ မပါဝင်သောကြောင့်",
+            "Simple Molecular Structure ဖြစ်သောကြောင့်",
+            "Ionic Lattice ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A giant ionic solid conducts electricity when...",
+          questionMy:
+              "Giant Ionic Solid တစ်ခုသည် ...ချိန် Electricity Conduct ဖြစ်သည်",
+          optionsEn: [
+            "Molten or dissolved, freeing the ions",
+            "It is a solid at room temperature only",
+            "It has no ions present",
+            "It contains delocalised electrons like a metal",
+          ],
+          optionsMy: [
+            "Molten ဖြစ်ချိန် (သို့) ပျော်ဝင်ချိန်၊ Ion များ လွတ်လပ်စေသည်",
+            "Room Temperature တွင် Solid ဖြစ်နေချိန်တစ်ခုတည်း",
+            "Ion မည်သည့်တစ်ခုမျှ မပါဝင်ချိန်",
+            "Metal တစ်ခုကဲ့သို့ Delocalised Electron ပါဝင်ချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Metals are malleable while ionic solids are brittle because...",
+          questionMy:
+              "Metal များ Malleable ဖြစ်ပြီး Ionic Solids Brittle ဖြစ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Metallic bonding is non-directional, but ionic bonding depends on which ions sit next to which",
+            "Metals have no ions at all",
+            "Ionic solids have no electrostatic forces",
+            "Metals are always liquids",
+          ],
+          optionsMy: [
+            "Metallic Bonding သည် Non-Directional ဖြစ်ပြီး Ionic Bonding သည် မည်သည့် Ion များ အနီးအနား ထားရှိသည်ပေါ် မှီခိုနေသောကြောင့်",
+            "Metal တွင် Ion လုံးဝ မရှိသောကြောင့်",
+            "Ionic Solids တွင် Electrostatic Force လုံးဝ မရှိသောကြောင့်",
+            "Metal များသည် အမြဲ Liquid ဖြစ်နေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm4 = CourseTermDef(
+  id: "course-y12-chem-term4",
+  termNumber: 4,
+  titleEn: "States of Matter",
+  titleMy: "States of Matter",
+  weeks: [_y12ChemWeek13, _y12ChemWeek14, _y12ChemWeek15, _y12ChemWeek16],
+  certificateTitleEn: "AS Chemistry: States of Matter",
+  certificateTitleMy: "AS ဓာတုဗေဒ - States of Matter",
+);
+
 /// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-3 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
-/// Bonding) authored; Terms 4-9 (States of Matter; Chemical Energetics;
+/// 1-4 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
+/// Bonding; States of Matter) authored; Terms 5-9 (Chemical Energetics;
 /// Electrochemistry; Equilibria; Reaction Kinetics; The Periodic Table
 /// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
 /// renderer exists in this app -- formulas throughout use the same
@@ -17358,6 +18686,11 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 12,
-  terms: [year12ChemistryTerm1, year12ChemistryTerm2, year12ChemistryTerm3],
+  totalWeeks: 16,
+  terms: [
+    year12ChemistryTerm1,
+    year12ChemistryTerm2,
+    year12ChemistryTerm3,
+    year12ChemistryTerm4,
+  ],
 );
