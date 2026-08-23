@@ -18897,3 +18897,3632 @@ const CourseTermDef year12BiologyTerm3 = CourseTermDef(
   certificateTitleEn: "AS Biology: Biological Molecules II (Proteins and Enzymes)",
   certificateTitleMy: "AS ဇီဝဗေဒ - ဇီဝမော်လီကျူးများ II (Protein နှင့် Enzyme)",
 );
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 4: "Cell Membranes and Transport"
+// (Weeks 13-16)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "The Fluid Mosaic Model of the Cell Membrane"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek13 = CourseWeekDef(
+  id: "course-y12-bio-w13",
+  weekNumber: 13,
+  titleEn: "The Fluid Mosaic Model of the Cell Membrane",
+  titleMy: "Cell Membrane ၏ Fluid Mosaic Model",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w13-d1",
+      dayNumber: 1,
+      titleEn: "Phospholipids, Proteins and Cholesterol in the Membrane",
+      titleMy: "Membrane အတွင်းရှိ Phospholipid, Protein နှင့် Cholesterol",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The basic structure of the cell-surface membrane is formed by a...",
+          questionMy: "Cell-surface Membrane ၏ အခြေခံဖွဲ့စည်းပုံကို ...က ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Phospholipid bilayer",
+            "Single layer of protein",
+            "Layer of cellulose",
+            "Layer of glucose molecules",
+          ],
+          optionsMy: [
+            "Phospholipid Bilayer",
+            "Protein အလွှာတစ်ခုတည်း",
+            "Cellulose အလွှာ",
+            "Glucose မော်လီကျူး အလွှာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Recall Term 2's phospholipids: hydrophilic heads face out on both sides, hydrophobic tails hide in the middle -- exactly two layers thick.",
+          ],
+          hintsMy: [
+            "Term ၂ ရှိ Phospholipid များကို သတိရပါ - Hydrophilic ခေါင်းများ ဘက်နှစ်ဘက်စလုံးတွင် အပြင်ဘက်သို့ ထားပြီး Hydrophobic အမြီးများ အလယ်တွင် ဝှက်ထားသည် -- အတိအကျ အလွှာနှစ်ထပ်သာ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The membrane is described as \"fluid\" because...",
+          questionMy: "Membrane ကို \"Fluid\" ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Phospholipids and proteins can move sideways within their own layer",
+            "The whole membrane is a liquid you could pour into a cup",
+            "It only exists while the cell is submerged in water",
+            "It changes into a solid at body temperature",
+          ],
+          optionsMy: [
+            "Phospholipid နှင့် Protein များသည် ၎င်းတို့၏ အလွှာအတွင်း ဘေးတိုက် ရွေ့လျားနိုင်သောကြောင့်",
+            "Membrane တစ်ခုလုံးသည် ခွက်ထဲသို့ လောင်းလို့ရသော အရည် ဖြစ်နေသောကြောင့်",
+            "ဆဲလ်ကို ရေထဲတွင် နစ်မြှုပ်ထားစဉ်တွင်သာ ရှိသောကြောင့်",
+            "ခန္ဓာကိုယ်အပူချိန်တွင် အခိုင်အဖြစ် ပြောင်းလဲသွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Fluid\" describes the constant sideways movement of individual molecules within the membrane, not the membrane behaving like a bulk liquid.",
+          ],
+          hintsMy: [
+            "\"Fluid\" ဆိုသည်မှာ Membrane တစ်ခုလုံး အရည်ကဲ့သို့ ပြုမူခြင်း မဟုတ်ဘဲ Membrane အတွင်းရှိ မော်လီကျူးတစ်ခုချင်းစီ၏ အဆက်မပြတ် ဘေးတိုက် ရွေ့လျားမှုကို ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The membrane is described as a \"mosaic\" because...",
+          questionMy: "Membrane ကို \"Mosaic\" ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Proteins of different shapes and sizes are scattered irregularly throughout the phospholipid bilayer",
+            "The membrane is made entirely of coloured glass",
+            "Every protein in the membrane is identical",
+            "The membrane has a repeating checkerboard pattern",
+          ],
+          optionsMy: [
+            "အရွယ်အစားနှင့် ပုံသဏ္ဌာန် မတူညီသော Protein များသည် Phospholipid Bilayer တစ်လျှောက် မမှန်စွာ ပြန့်ကြဲနေသောကြောင့်",
+            "Membrane တစ်ခုလုံးကို အရောင်စုံ မှန်ဖြင့် ဖွဲ့စည်းထားသောကြောင့်",
+            "Membrane ရှိ Protein တိုင်း အတိအကျ တူညီသောကြောင့်",
+            "Membrane တွင် ထပ်ခါထပ်ခါ ဗောင်ကျက် ပုံစံရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Like a mosaic artwork made of irregularly scattered pieces, the membrane's proteins vary in shape, size and position, embedded within the uniform phospholipid background.",
+          ],
+          hintsMy: [
+            "မမှန်စွာ ပြန့်ကြဲထားသော အပိုင်းငယ်များဖြင့် ဖွဲ့စည်းထားသော Mosaic အနုပညာလက်ရာကဲ့သို့ Membrane ၏ Protein များသည် ပုံသဏ္ဌာန်, အရွယ်အစားနှင့် တည်နေရာ ကွဲပြားပြီး တစ်ညီတစ်ညာရှိသော Phospholipid နောက်ခံအတွင်း ထည့်သွင်းထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Membrane Components",
+      titleMy: "တွဲစပ်ကြမည် - Membrane အစိတ်အပိုင်းများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w13-dm-1",
+          termEn: "Phospholipid bilayer",
+          termMy: "Phospholipid Bilayer",
+          matchEn: "The two-layer sheet of phospholipids forming the membrane's basic structure",
+          matchMy: "Membrane ၏ အခြေခံဖွဲ့စည်းပုံကို ဖွဲ့စည်းသော Phospholipid အလွှာနှစ်ထပ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w13-dm-2",
+          termEn: "Integral protein",
+          termMy: "Integral Protein",
+          matchEn: "A protein embedded across the whole width of the membrane",
+          matchMy: "Membrane ၏ အကျယ်အဝန်းတစ်ခုလုံးကို ဖြတ်၍ ထည့်သွင်းထားသော Protein",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w13-dm-3",
+          termEn: "Peripheral protein",
+          termMy: "Peripheral Protein",
+          matchEn: "A protein attached only to one surface of the membrane",
+          matchMy: "Membrane ၏ မျက်နှာပြင်တစ်ဖက်တွင်သာ ကပ်နေသော Protein",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w13-dm-4",
+          termEn: "Cholesterol",
+          termMy: "ခိုလက်စထေရော (Cholesterol)",
+          matchEn: "A lipid molecule that sits between phospholipids, adding stability",
+          matchMy: "တည်ငြိမ်မှု ထပ်တိုးပေးရန် Phospholipid များအကြားတွင် နေရာယူထားသော Lipid မော်လီကျူး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w13-dm-5",
+          termEn: "Glycoprotein",
+          termMy: "Glycoprotein",
+          matchEn: "A protein with an attached sugar chain, involved in cell-to-cell recognition",
+          matchMy: "ဆဲလ်ချင်း အသိအမှတ်ပြုမှုတွင် ပါဝင်ပြီး ချိတ်ဆက်ထားသော Sugar ကွင်းဆက်ပါသည့် Protein",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Integral or Peripheral Protein?",
+      titleMy: "စီစစ်ကြမည် - Integral သို့မဟုတ် Peripheral Protein?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Integral Protein", "Peripheral Protein"],
+        bucketsMy: ["Integral Protein", "Peripheral Protein"],
+        items: [
+          SortingItem(
+            id: "y12bio-w13-sort-1",
+            labelEn: "A channel protein spanning the full width of the bilayer",
+            labelMy: "Bilayer အကျယ်အဝန်းတစ်ခုလုံးကို ဖြတ်ထားသော Channel Protein",
+            correctBucketEn: "Integral Protein",
+            correctBucketMy: "Integral Protein",
+          ),
+          SortingItem(
+            id: "y12bio-w13-sort-2",
+            labelEn: "A carrier protein embedded through both layers",
+            labelMy: "အလွှာနှစ်ထပ်စလုံးကို ထုတ်ချ ထည့်သွင်းထားသော Carrier Protein",
+            correctBucketEn: "Integral Protein",
+            correctBucketMy: "Integral Protein",
+          ),
+          SortingItem(
+            id: "y12bio-w13-sort-3",
+            labelEn: "A protein loosely attached to the inner surface only",
+            labelMy: "အတွင်းမျက်နှာပြင်တွင်သာ ပေါ့ပေါ့ပါးပါး ကပ်နေသော Protein",
+            correctBucketEn: "Peripheral Protein",
+            correctBucketMy: "Peripheral Protein",
+          ),
+          SortingItem(
+            id: "y12bio-w13-sort-4",
+            labelEn: "A receptor protein attached to the outer surface only, easily removed",
+            labelMy: "အပြင်မျက်နှာပြင်တွင်သာ ကပ်နေပြီး လွယ်ကူစွာ ဖယ်ရှားနိုင်သော Receptor Protein",
+            correctBucketEn: "Peripheral Protein",
+            correctBucketMy: "Peripheral Protein",
+          ),
+          SortingItem(
+            id: "y12bio-w13-sort-5",
+            labelEn: "A glycoprotein spanning the membrane with its sugar chain facing outward",
+            labelMy: "Sugar ကွင်းဆက်ကို အပြင်ဘက်သို့ လှမ်းထားပြီး Membrane ကို ဖြတ်ထားသော Glycoprotein",
+            correctBucketEn: "Integral Protein",
+            correctBucketMy: "Integral Protein",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Sea of Butter with Icebergs Floating In It",
+      titleMy: "စာဖတ်ခြင်း - ထောပတ်ရေပင်လယ်တွင် ရေခဲတောင်များ ပေါလောပလော",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Sea of Butter with Icebergs Floating In It",
+        titleMy: "ထောပတ်ရေပင်လယ်တွင် ရေခဲတောင်များ ပေါလောပလော",
+        passageEn:
+            "Sayar Zaw Min offered the class an old analogy to help them remember the membrane's structure: \"Imagine a sea of butter with icebergs floating in it. The butter is the phospholipid bilayer -- soft, semi-liquid, and always slowly shifting. The icebergs are the proteins, scattered irregularly across the surface, some poking all the way through the butter and some just resting on top.\" This picture, he explained, is exactly what scientists Singer and Nicolson proposed in 1972 when they named it the fluid mosaic model.\n\nHtet Aung asked why the phospholipids needed to be \"fluid\" at all -- surely a rigid membrane would be simpler? Su Su answered for him: a completely rigid membrane could not repair small tears, could not let vesicles fuse with it during exocytosis, and could not let the cell change shape at all. The constant slow sideways movement of phospholipids is what keeps the membrane flexible enough for all of these processes to happen.\n\nSayar Zaw Min then pointed to two extra details in the model that the butter-and-iceberg analogy leaves out: cholesterol molecules sit wedged between the phospholipid tails, restricting how much they can move and preventing the membrane from becoming either too fluid at high temperatures or too rigid at low ones. And on the outer surface only, some proteins and lipids carry short carbohydrate chains -- glycoproteins and glycolipids -- which act like name tags, letting a cell's immune system recognise which cells belong to the body and which do not.",
+        passageMy:
+            "Membrane ဖွဲ့စည်းပုံကို မှတ်မိစေရန် ဆရာဇော်မင်းသည် ရှေးဟောင်းနှိုင်းယှဉ်ချက်တစ်ခုကို အတန်းအား ပေးခဲ့သည် - \"ထောပတ်ရေပင်လယ်တစ်ခုတွင် ရေခဲတောင်များ ပေါလောပလော ဖြစ်နေသည်ကို စိတ်ကူးကြည့်ပါ။ ထောပတ်သည် Phospholipid Bilayer ဖြစ်ပြီး -- ပျော့ပျောင်း၍ ထက်ဝက်အရည်ဖြစ်ကာ အမြဲ ဖြေးညင်းစွာ ရွေ့လျားနေသည်။ ရေခဲတောင်များသည် Protein များ ဖြစ်ပြီး မျက်နှာပြင်တစ်လျှောက် မမှန်စွာ ပြန့်ကြဲနေကာ အချို့သည် ထောပတ်ကို လုံးဝ ဖောက်ထွင်းကာ အချို့သည် အပေါ်ယံတွင်သာ နားနေကြသည်။\" ၎င်းသည် Singer နှင့် Nicolson ဆိုသော သိပ္ပံပညာရှင်များ 1972 ခုနှစ်တွင် Fluid Mosaic Model ဟု အမည်ပေးသောအခါ တင်ပြခဲ့ကြသော ပုံရိပ်အတိအကျ ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည်။\n\nPhospholipid များသည် \"Fluid\" ဖြစ်ရန် အဘယ်ကြောင့် လိုအပ်သနည်း -- ခိုင်မာသော Membrane က ပိုရိုးရှင်းမည် မဟုတ်လော ဟု Htet Aung က မေးခဲ့သည်။ Su Su က သူ့ကိုယ်စား ဖြေခဲ့သည် - လုံးဝ ခိုင်မာသော Membrane တစ်ခုသည် အသေးအမွှားများကို ပြင်ဆင်၍ မရနိုင်ပါ၊ Exocytosis အတွင်း Vesicle များ ၎င်းနှင့် ပေါင်းစပ်ခွင့်ပေး၍ မရနိုင်ပါ၊ ဆဲလ်ပုံသဏ္ဌာန် ပြောင်းလဲခွင့်လည်း လုံးဝ မပေးနိုင်ပါ။ Phospholipid များ၏ အဆက်မပြတ် ဖြေးညင်းသော ဘေးတိုက်ရွေ့လျားမှုသည် ဤလုပ်ငန်းစဉ်များ အားလုံး ဖြစ်ပွားနိုင်ရန်လောက် Membrane ကို ပြောင်းလွယ်ပြင်လွယ် ဖြစ်စေသည့် အချက် ဖြစ်သည်။\n\nထို့နောက် ထောပတ်နှင့် ရေခဲတောင် နှိုင်းယှဉ်ချက်တွင် ချန်ထားခဲ့သော အသေးစိတ် နှစ်ချက်ကို ဆရာဇော်မင်း ညွှန်ပြခဲ့သည် - Cholesterol မော်လီကျူးများသည် Phospholipid အမြီးများအကြား နေရာယူထားပြီး ၎င်းတို့ ရွေ့လျားနိုင်မှုကို ကန့်သတ်ကာ Temperature မြင့်သည့်အခါ Membrane အလွန် Fluid ဖြစ်သွားခြင်း (သို့) Temperature နိမ့်သည့်အခါ အလွန် ခိုင်မာသွားခြင်းကို ကာကွယ်ပေးသည်။ အပြင်မျက်နှာပြင်တွင်သာ Protein နှင့် Lipid အချို့သည် တိုတောင်းသော Carbohydrate ကွင်းဆက်များ -- Glycoprotein နှင့် Glycolipid -- ကို သယ်ဆောင်ထားပြီး ၎င်းတို့သည် အမည်တံဆိပ်များကဲ့သို့ လုပ်ဆောင်ကာ ဆဲလ်၏ ကိုယ်ခံအားစနစ်အား မည်သည့်ဆဲလ်များသည် ခန္ဓာကိုယ်ပိုင်ဖြစ်ပြီး မည်သည့်ဆဲလ်များသည် မဟုတ်ကြောင်း ခွဲခြားသိစေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, who proposed the fluid mosaic model, and when?",
+            questionMy: "Fluid Mosaic Model ကို မည်သူတို့ မည်သည့်နှစ်တွင် တင်ပြခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Singer and Nicolson, in 1972",
+              "Sayar Zaw Min, this year",
+              "Htet Aung and Su Su, last week",
+              "Watson and Crick, in 1953",
+            ],
+            optionsMy: [
+              "Singer နှင့် Nicolson, 1972 ခုနှစ်တွင်",
+              "ဆရာဇော်မင်း, ယခုနှစ်တွင်",
+              "Htet Aung နှင့် Su Su, ပြီးခဲ့သောသီတင်းပတ်တွင်",
+              "Watson နှင့် Crick, 1953 ခုနှစ်တွင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what could a completely rigid membrane not do?",
+            questionMy: "လုံးဝ ခိုင်မာသော Membrane တစ်ခုသည် အဘယ်ကို မလုပ်နိုင်သည်ကို Su Su ၏ ဖြေကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Repair tears, allow vesicle fusion, or let the cell change shape",
+              "Contain any phospholipids at all",
+              "Ever be found in a living cell",
+              "React to any temperature change",
+            ],
+            optionsMy: [
+              "အသေးအမွှားများ ပြင်ဆင်ခြင်း၊ Vesicle ပေါင်းစပ်ခွင့်ပေးခြင်း (သို့) ဆဲလ်ပုံသဏ္ဌာန် ပြောင်းလဲခွင့်ပေးခြင်း",
+              "Phospholipid မည်သည်မျှ လုံးဝ ပါဝင်ခြင်း",
+              "သက်ရှိဆဲလ်တွင် တွေ့ရှိခြင်း",
+              "Temperature ပြောင်းလဲမှု မည်သို့မျှ တုံ့ပြန်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what role do glycoproteins and glycolipids play?",
+            questionMy: "Glycoprotein နှင့် Glycolipid တို့၏ အခန်းကဏ္ဍကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Acting like name tags for cell-to-cell recognition",
+              "Making the membrane completely rigid",
+              "Replacing cholesterol entirely",
+              "Preventing all molecules from crossing the membrane",
+            ],
+            optionsMy: [
+              "ဆဲလ်ချင်း အသိအမှတ်ပြုမှုအတွက် အမည်တံဆိပ်များကဲ့သို့ လုပ်ဆောင်ခြင်း",
+              "Membrane ကို လုံးဝ ခိုင်မာစေခြင်း",
+              "Cholesterol ကို လုံးဝ အစားထိုးခြင်း",
+              "မော်လီကျူးအားလုံးကို Membrane ဖြတ်သန်းခွင့် မပြုခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's last sentence."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: The Fluid Mosaic Model",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၃ ပြန်လည်သုံးသပ်ခြင်း - Fluid Mosaic Model",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The basic structure of the cell membrane is a...",
+          questionMy: "Cell Membrane ၏ အခြေခံဖွဲ့စည်းပုံသည်...",
+          optionsEn: ["Phospholipid bilayer", "Single layer of cellulose", "Layer of DNA", "Solid protein sheet"],
+          optionsMy: ["Phospholipid Bilayer", "Cellulose အလွှာတစ်ခုတည်း", "DNA အလွှာ", "ခိုင်မာသော Protein ပြား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cholesterol sits between phospholipids mainly to...",
+          questionMy: "Cholesterol သည် Phospholipid များအကြားတွင် အဓိက ...ရန် နေရာယူထားသည်",
+          optionsEn: [
+            "Add stability across a range of temperatures",
+            "Increase the membrane's colour",
+            "Replace all the proteins",
+            "Stop the membrane from existing",
+          ],
+          optionsMy: [
+            "Temperature အတိုင်းအတာတစ်ခုတလျှောက် တည်ငြိမ်မှု ထပ်တိုးရန်",
+            "Membrane ၏ အရောင်ကို တိုးမြှင့်ရန်",
+            "Protein အားလုံးကို အစားထိုးရန်",
+            "Membrane ကို လုံးဝ မတည်ရှိစေရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Glycoproteins carry a short chain of...",
+          questionMy: "Glycoprotein များသည် တိုတောင်းသော ...ကွင်းဆက် သယ်ဆောင်ထားသည်",
+          optionsEn: ["Carbohydrate", "DNA", "Lipid only", "Amino acids only"],
+          optionsMy: ["Carbohydrate", "DNA", "Lipid သာ", "Amino Acid သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "Diffusion: Simple and Facilitated"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek14 = CourseWeekDef(
+  id: "course-y12-bio-w14",
+  weekNumber: 14,
+  titleEn: "Diffusion: Simple and Facilitated",
+  titleMy: "Diffusion - Simple နှင့် Facilitated",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w14-d1",
+      dayNumber: 1,
+      titleEn: "Simple Diffusion and Facilitated Diffusion",
+      titleMy: "Simple Diffusion နှင့် Facilitated Diffusion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Diffusion is the net movement of particles from an area of...",
+          questionMy: "Diffusion ဆိုသည်မှာ Particle များ၏ ...ဒေသမှ Net Movement ဖြစ်သည်",
+          optionsEn: [
+            "High concentration to low concentration",
+            "Low concentration to high concentration",
+            "Equal concentration to equal concentration only",
+            "Inside a cell to inside a different cell only",
+          ],
+          optionsMy: [
+            "Concentration မြင့် ဒေသမှ Concentration နိမ့် ဒေသ",
+            "Concentration နိမ့် ဒေသမှ Concentration မြင့် ဒေသ",
+            "Concentration တူညီသော ဒေသမှ ညီညာသော ဒေသသို့သာ",
+            "ဆဲလ်တစ်ခုအတွင်းမှ အခြားဆဲလ်တစ်ခုအတွင်းသို့သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Particles move down their concentration gradient, from where they are crowded to where they are sparse, until evenly spread.",
+          ],
+          hintsMy: [
+            "Particle များသည် ၎င်းတို့၏ Concentration Gradient အလျော့ ရွေ့လျားကြသည် -- ထူထပ်ရာမှ ရှားပါးရာသို့၊ အညီအမျှ ပြန့်ကျဲသည်အထိ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Simple diffusion allows small, non-polar molecules like oxygen and carbon dioxide to cross the membrane by...",
+          questionMy: "Simple Diffusion သည် Oxygen နှင့် Carbon Dioxide ကဲ့သို့ သေးငယ်သော Non-polar မော်လီကျူးများကို Membrane ဖြတ်သန်းစေရန် ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Passing directly through the phospholipid bilayer, with no protein required",
+            "Being pumped through using ATP",
+            "Binding to a specific carrier protein first",
+            "Forming a vesicle around each molecule",
+          ],
+          optionsMy: [
+            "Protein မလိုအပ်ဘဲ Phospholipid Bilayer ကို တိုက်ရိုက် ဖြတ်သန်းခြင်း",
+            "ATP အသုံးပြု၍ ပန့်ဆွဲခြင်း",
+            "တိကျသော Carrier Protein တစ်ခုနှင့် ဦးစွာ ချိတ်ဆက်ခြင်း",
+            "မော်လီကျူးတစ်ခုစီပတ်လည်တွင် Vesicle ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Small, non-polar molecules can slip directly between the phospholipid tails -- no membrane protein is needed for simple diffusion.",
+          ],
+          hintsMy: [
+            "သေးငယ်ပြီး Non-polar မော်လီကျူးများသည် Phospholipid အမြီးများအကြားမှ တိုက်ရိုက် ဖြတ်ဝင်နိုင်သည် -- Simple Diffusion အတွက် Membrane Protein လိုအပ်ခြင်း မရှိပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Facilitated diffusion differs from simple diffusion mainly because it...",
+          questionMy: "Facilitated Diffusion သည် Simple Diffusion နှင့် အဓိက ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "Requires a channel or carrier protein, but still uses no ATP",
+            "Requires ATP to move substances",
+            "Only moves substances against the concentration gradient",
+            "Can only happen in animal cells",
+          ],
+          optionsMy: [
+            "Channel (သို့) Carrier Protein လိုအပ်သော်လည်း ATP အသုံးမပြုပါ",
+            "ပစ္စည်းများ ရွှေ့ရန် ATP လိုအပ်သည်",
+            "Concentration Gradient ကို ဆန့်ကျင်၍သာ ရွှေ့သည်",
+            "တိရစ္ဆာန်ဆဲလ်များတွင်သာ ဖြစ်ပွားနိုင်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Facilitated diffusion is still passive (down the concentration gradient, no ATP) -- it just needs help crossing the membrane from a channel or carrier protein, for larger or charged particles.",
+          ],
+          hintsMy: [
+            "Facilitated Diffusion သည် Passive ပင် ဖြစ်နေဆဲ ဖြစ်သည် (Concentration Gradient အလျော့၊ ATP မပါ) -- ကြီးမား (သို့) Charge ရှိသော Particle များအတွက် Channel (သို့) Carrier Protein ၏ အကူအညီသာ လိုအပ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Diffusion Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Diffusion ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w14-dm-1",
+          termEn: "Diffusion",
+          termMy: "ပျံ့နှံ့ခြင်း (Diffusion)",
+          matchEn: "The net passive movement of particles from high to low concentration",
+          matchMy: "Concentration မြင့်မှ နိမ့်သို့ Particle များ၏ Net Passive Movement",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w14-dm-2",
+          termEn: "Concentration gradient",
+          termMy: "Concentration Gradient",
+          matchEn: "The difference in concentration between two regions",
+          matchMy: "ဒေသနှစ်ခုကြား Concentration ကွာခြားချက်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w14-dm-3",
+          termEn: "Channel protein",
+          termMy: "Channel Protein",
+          matchEn: "A protein forming a pore that lets specific charged particles diffuse through",
+          matchMy: "တိကျသော Charge ရှိသော Particle များ ပျံ့နှံ့ဝင်ရောက်နိုင်ရန် ပေါက်တစ်ခု ဖွဲ့စည်းပေးသော Protein",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w14-dm-4",
+          termEn: "Carrier protein",
+          termMy: "Carrier Protein",
+          matchEn: "A protein that changes shape to move a specific molecule across the membrane",
+          matchMy: "တိကျသော မော်လီကျူးတစ်ခုကို Membrane ဖြတ်ရွှေ့ရန် ပုံသဏ္ဌာန် ပြောင်းလဲသော Protein",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w14-dm-5",
+          termEn: "Facilitated diffusion",
+          termMy: "Facilitated Diffusion",
+          matchEn: "Passive diffusion of larger or charged particles through a channel or carrier protein",
+          matchMy: "Channel (သို့) Carrier Protein မှတဆင့် ကြီးမား (သို့) Charge ရှိသော Particle များ၏ Passive Diffusion",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Simple or Facilitated Diffusion?",
+      titleMy: "စီစစ်ကြမည် - Simple သို့မဟုတ် Facilitated Diffusion?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Simple Diffusion", "Facilitated Diffusion"],
+        bucketsMy: ["Simple Diffusion", "Facilitated Diffusion"],
+        items: [
+          SortingItem(
+            id: "y12bio-w14-sort-1",
+            labelEn: "Oxygen passing directly through the phospholipid bilayer",
+            labelMy: "Phospholipid Bilayer ကို တိုက်ရိုက် ဖြတ်သန်းသော Oxygen",
+            correctBucketEn: "Simple Diffusion",
+            correctBucketMy: "Simple Diffusion",
+          ),
+          SortingItem(
+            id: "y12bio-w14-sort-2",
+            labelEn: "Carbon dioxide diffusing straight out of a cell, no protein involved",
+            labelMy: "Protein မပါဝင်ဘဲ ဆဲလ်ထဲမှ တိုက်ရိုက် ပျံ့နှံ့ထွက်နေသော Carbon Dioxide",
+            correctBucketEn: "Simple Diffusion",
+            correctBucketMy: "Simple Diffusion",
+          ),
+          SortingItem(
+            id: "y12bio-w14-sort-3",
+            labelEn: "Glucose entering a cell through a carrier protein",
+            labelMy: "Carrier Protein မှတဆင့် ဆဲလ်ထဲသို့ ဝင်ရောက်နေသော Glucose",
+            correctBucketEn: "Facilitated Diffusion",
+            correctBucketMy: "Facilitated Diffusion",
+          ),
+          SortingItem(
+            id: "y12bio-w14-sort-4",
+            labelEn: "A charged ion passing through a channel protein",
+            labelMy: "Channel Protein မှတဆင့် ဖြတ်သန်းနေသော Charge ရှိသည့် Ion",
+            correctBucketEn: "Facilitated Diffusion",
+            correctBucketMy: "Facilitated Diffusion",
+          ),
+          SortingItem(
+            id: "y12bio-w14-sort-5",
+            labelEn: "A small non-polar hormone diffusing straight into a target cell",
+            labelMy: "Target ဆဲလ်ထဲသို့ တိုက်ရိုက် ပျံ့နှံ့ဝင်ရောက်နေသော သေးငယ်သည့် Non-polar Hormone",
+            correctBucketEn: "Simple Diffusion",
+            correctBucketMy: "Simple Diffusion",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Gas Exchange in the Alveoli",
+      titleMy: "စာဖတ်ခြင်း - Alveoli အတွင်း ဓာတ်ငွေ့ဖလှယ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Gas Exchange in the Alveoli",
+        titleMy: "Alveoli အတွင်း ဓာတ်ငွေ့ဖလှယ်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min asked the class why oxygen moves so efficiently from the air in the lungs into the bloodstream, using the alveoli -- the tiny air sacs at the end of each airway -- as the example. Htet Aung began with the basics: oxygen concentration is higher in the air inside the alveolus than in the blood arriving through the capillaries, so oxygen diffuses down its concentration gradient, straight through the thin phospholipid bilayers of both the alveolar wall cell and the capillary wall cell, by simple diffusion.\n\nSu Su then explained why this diffusion happens so fast, connecting it to three separate factors the class had studied. First, alveoli are extremely numerous and each one is a tiny sphere, giving the lungs an enormous total surface area for gas exchange. Second, both the alveolar wall and the capillary wall are only one cell thick, keeping the diffusion distance as short as possible. Third, a constant supply of fresh air breathed in and blood pumped through the capillaries keeps the concentration gradient steep, since oxygen never has time to build up evenly on both sides.\n\n\"Put those three factors together,\" Sayar Zaw Min concluded, \"and you have exactly the conditions that maximise the rate of diffusion: large surface area, short diffusion distance, and a steep concentration gradient. Carbon dioxide diffuses the opposite way, out of the blood and into the alveolus, for exactly the same reasons in reverse -- it is more concentrated in the blood than in the freshly inhaled air.\"",
+        passageMy:
+            "အသက်ရှူလမ်းကြောင်း၏ အဆုံးရှိ လေအိတ်ငယ်များဖြစ်သော Alveoli ကို ဥပမာအဖြစ် သုံး၍ အဆုတ်အတွင်းရှိ လေထုမှ Oxygen သည် သွေးထဲသို့ အဘယ်ကြောင့် ထိရောက်စွာ ရွေ့လျားသည်ကို ဆရာဇော်မင်းက အတန်းအား မေးခဲ့သည်။ Htet Aung အခြေခံမှ စတင်ခဲ့သည် - Capillary များမှတဆင့် ရောက်ရှိလာသော သွေးထက် Alveolus အတွင်းရှိ လေ၏ Oxygen Concentration ပိုမြင့်သောကြောင့် Oxygen သည် ၎င်း၏ Concentration Gradient အလျော့ Alveolar Wall ဆဲလ်နှင့် Capillary Wall ဆဲလ်နှစ်ခုစလုံး၏ ပါးလွှာသော Phospholipid Bilayer များကို တိုက်ရိုက် ဖြတ်၍ Simple Diffusion ဖြင့် ပျံ့နှံ့ဝင်ရောက်သည်။\n\nအတန်းက လေ့လာခဲ့သော အချက်သုံးချက်နှင့် ချိတ်ဆက်ကာ ဤ Diffusion သည် အဘယ်ကြောင့် ဤမျှ လျင်မြန်စွာ ဖြစ်ပွားသည်ကို Su Su ဆက်လက် ရှင်းပြခဲ့သည်။ ပထမ - Alveoli များသည် အလွန်များပြားပြီး တစ်ခုစီသည် သိမ်ငယ်သော အဝိုင်းပုံသဏ္ဌာန် ဖြစ်ကြသောကြောင့် ဓာတ်ငွေ့ဖလှယ်ရန် အဆုတ်အတွက် Surface Area အလွန်ကျယ်ပြန့်ကာ ရရှိသည်။ ဒုတိယ - Alveolar Wall နှင့် Capillary Wall နှစ်ခုစလုံးသည် ဆဲလ် တစ်ခုသာ ထူသောကြောင့် Diffusion Distance ကို တတ်နိုင်သမျှ တိုတောင်းစေသည်။ တတိယ - လေသစ် အဆက်မပြတ် ရှူသွင်းခြင်းနှင့် Capillary များမှတဆင့် သွေး အဆက်မပြတ် ပန့်ပို့ခြင်းသည် Concentration Gradient ကို ရှင်းလင်းစွာ ထားပေးသည်၊ Oxygen သည် ဘက်နှစ်ဘက်စလုံးတွင် အညီအမျှ တိုးလာရန် အချိန်လုံလုံလောက်လောက် လုံးဝ မရှိသောကြောင့်ဖြစ်သည်။\n\n\"ထိုအချက်သုံးချက်ကို ပေါင်းစပ်လိုက်ပါ\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"Diffusion နှုန်းကို အများဆုံးဖြစ်စေသော အခြေအနေများ အတိအကျ ရရှိသည် - Surface Area ကျယ်ပြန့်ခြင်း၊ Diffusion Distance တိုတောင်းခြင်းနှင့် Concentration Gradient ရှင်းလင်းခြင်း။ Carbon Dioxide သည် သွေးထဲတွင် ရှင်းလင်းစွာ ရှိပြီး လေအသစ် ရှူသွင်းစဉ်တွင် ပိုနည်းသောကြောင့် ဆန့်ကျင်ဘက် အကြောင်းရင်းများအတိုင်း ဆန့်ကျင်ဘက်သို့ -- သွေးမှ Alveolus ထဲသို့ -- ပျံ့နှံ့ထွက်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, how does oxygen cross the alveolar and capillary walls?",
+            questionMy: "Oxygen သည် Alveolar နှင့် Capillary Wall များကို မည်သို့ ဖြတ်သန်းသည်ကို Htet Aung ၏ ဖြေကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By simple diffusion, directly through the phospholipid bilayers",
+              "By active transport using ATP",
+              "By endocytosis only",
+              "It cannot cross at all without a protein pump",
+            ],
+            optionsMy: [
+              "Simple Diffusion ဖြင့် Phospholipid Bilayer များကို တိုက်ရိုက် ဖြတ်၍",
+              "ATP အသုံးပြု၍ Active Transport ဖြင့်",
+              "Endocytosis ဖြင့်သာ",
+              "Protein Pump မပါဘဲ လုံးဝ ဖြတ်သန်း၍ မရ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what does the huge number of alveoli provide?",
+            questionMy: "Alveoli အရေအတွက် များပြားခြင်းက အဘယ်ကို ပေးအပ်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A very large total surface area for gas exchange",
+              "A shorter total distance for blood to travel",
+              "A steeper temperature gradient",
+              "More oxygen molecules created from nothing",
+            ],
+            optionsMy: [
+              "ဓာတ်ငွေ့ဖလှယ်ရန် အလွန်ကျယ်ပြန့်သော Surface Area စုစုပေါင်း",
+              "သွေးလှည့်ပတ်ရန် အကွာအဝေး ပိုတိုသွားခြင်း",
+              "Temperature Gradient ပိုရှင်းလင်းလာခြင်း",
+              "Oxygen မော်လီကျူး ဗလာမှ ပိုများ ဖန်တီးပေးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first factor."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမအချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why does carbon dioxide diffuse the opposite way to oxygen?",
+            questionMy: "Carbon Dioxide သည် Oxygen နှင့် ဆန့်ကျင်ဘက် အဘယ်ကြောင့် ပျံ့နှံ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is more concentrated in the blood than in freshly inhaled air",
+              "It is heavier than oxygen molecules",
+              "It requires ATP to move at all",
+              "It cannot cross a phospholipid bilayer",
+            ],
+            optionsMy: [
+              "လေသစ် ရှူသွင်းသည့်လေထက် သွေးထဲတွင် ပိုမို ထူထပ်သောကြောင့်",
+              "Oxygen မော်လီကျူးများထက် ပိုလေးသောကြောင့်",
+              "ရွေ့လျားရန် ATP လိုအပ်သောကြောင့်",
+              "Phospholipid Bilayer ကို ဖြတ်သန်း၍ မရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Diffusion",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၄ ပြန်လည်သုံးသပ်ခြင်း - Diffusion",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Diffusion moves particles from...",
+          questionMy: "Diffusion သည် Particle များကို ...မှ ရွှေ့သည်",
+          optionsEn: [
+            "High concentration to low concentration",
+            "Low concentration to high concentration only",
+            "One cell to a different organism only",
+            "Nowhere -- particles stay still",
+          ],
+          optionsMy: [
+            "Concentration မြင့်မှ နိမ့်သို့",
+            "Concentration နိမ့်မှ မြင့်သို့သာ",
+            "ဆဲလ်တစ်ခုမှ အခြား Organism တစ်ခုသို့သာ",
+            "မည်သည့်နေရာသို့မျှ -- Particle များ ငြိမ်နေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Facilitated diffusion requires...",
+          questionMy: "Facilitated Diffusion သည် ...လိုအပ်သည်",
+          optionsEn: [
+            "A channel or carrier protein, but no ATP",
+            "ATP but no protein",
+            "Neither a protein nor ATP",
+            "Both ATP and a protein"
+          ],
+          optionsMy: [
+            "Channel (သို့) Carrier Protein၊ ATP မလိုအပ်",
+            "ATP၊ Protein မလိုအပ်",
+            "Protein နှင့် ATP နှစ်ခုစလုံး မလိုအပ်",
+            "ATP နှင့် Protein နှစ်ခုစလုံး လိုအပ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A short diffusion distance and a large surface area both...",
+          questionMy: "Diffusion Distance တိုတောင်းခြင်းနှင့် Surface Area ကျယ်ပြန့်ခြင်းနှစ်ခုစလုံးသည်...",
+          optionsEn: [
+            "Increase the rate of diffusion",
+            "Decrease the rate of diffusion",
+            "Have no effect on diffusion rate",
+            "Stop diffusion completely",
+          ],
+          optionsMy: [
+            "Diffusion နှုန်းကို တိုးမြှင့်ပေးသည်",
+            "Diffusion နှုန်းကို လျော့ချသည်",
+            "Diffusion နှုန်းအပေါ် သက်ရောက်မှု မရှိပါ",
+            "Diffusion ကို လုံးဝ ရပ်တန့်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "Osmosis and Water Potential"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek15 = CourseWeekDef(
+  id: "course-y12-bio-w15",
+  weekNumber: 15,
+  titleEn: "Osmosis and Water Potential",
+  titleMy: "Osmosis နှင့် Water Potential",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w15-d1",
+      dayNumber: 1,
+      titleEn: "Water Potential and the Direction of Osmosis",
+      titleMy: "Water Potential နှင့် Osmosis ဦးတည်ချက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Osmosis is best defined as the net movement of...",
+          questionMy: "Osmosis ကို အကောင်းဆုံး ဖော်ပြချက်မှာ...၏ Net Movement ဖြစ်သည်",
+          optionsEn: [
+            "Water molecules from high to low water potential across a partially permeable membrane",
+            "Any solute from high to low concentration",
+            "Glucose molecules only, using ATP",
+            "Proteins across the cytoplasm",
+          ],
+          optionsMy: [
+            "Water Potential မြင့်မှ နိမ့်သို့ Partially Permeable Membrane ကို ဖြတ်၍ ရေမော်လီကျူးများ",
+            "Solute မည်သည်မဆို Concentration မြင့်မှ နိမ့်သို့",
+            "Glucose မော်လီကျူးများသာ ATP အသုံးပြု၍",
+            "Cytoplasm ကို ဖြတ်၍ Protein များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Osmosis is a special case of diffusion, specifically for water, across a membrane that lets water through but not every solute.",
+          ],
+          hintsMy: [
+            "Osmosis သည် Diffusion ၏ အထူးသဖြင့် ဖြစ်ရပ်တစ်ခုဖြစ်ပြီး ရေကို ဖြတ်သန်းခွင့်ပေးသော်လည်း Solute အားလုံးကို ဖြတ်သန်းခွင့် မပေးသော Membrane ကို ဖြတ်၍ ရေအတွက်သာ တိကျစွာ သက်ဆိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Pure water has the highest possible water potential, defined as...",
+          questionMy: "ရေစင်ကြယ်သည် ရနိုင်သမျှ အမြင့်ဆုံး Water Potential ရှိပြီး ...ဟု သတ်မှတ်ထားသည်",
+          optionsEn: ["0 kPa", "100 kPa", "-100 kPa", "It has no water potential at all"],
+          optionsMy: ["0 kPa", "100 kPa", "-100 kPa", "Water Potential လုံးဝ မရှိပါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Water potential is measured in kilopascals (kPa); pure water is the reference point at 0, and dissolving any solute in it always lowers (makes more negative) the water potential.",
+          ],
+          hintsMy: [
+            "Water Potential ကို Kilopascal (kPa) ဖြင့် တိုင်းတာသည်၊ ရေစင်ကြယ်သည် 0 တွင် Reference Point ဖြစ်ပြီး Solute မည်သည်ကိုမဆို ပျော်ဝင်စေခြင်းသည် Water Potential ကို အမြဲ လျှော့ချ (ပို၍ Negative ဖြစ်စေ) သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Adding solute to a solution always...",
+          questionMy: "Solution တစ်ခုတွင် Solute ထပ်တိုးထည့်ခြင်းသည် အမြဲ...",
+          optionsEn: [
+            "Lowers its water potential below that of pure water",
+            "Raises its water potential above 0 kPa",
+            "Has no effect on water potential",
+            "Turns the water into a solid",
+          ],
+          optionsMy: [
+            "ရေစင်ကြယ်၏ Water Potential ထက် လျှော့ချသည်",
+            "Water Potential ကို 0 kPa ထက် တိုးမြှင့်သည်",
+            "Water Potential အပေါ် သက်ရောက်မှု မရှိပါ",
+            "ရေကို အခိုင်အဖြစ် ပြောင်းလဲစေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "More solute molecules mean fewer free water molecules able to move, so the solution's water potential is always more negative than pure water's 0 kPa.",
+          ],
+          hintsMy: [
+            "Solute မော်လီကျူး ပိုများလေလေ ရွေ့လျားနိုင်သော ရေမော်လီကျူး လွတ်လပ် ပိုနည်းလေဖြစ်သောကြောင့် Solution ၏ Water Potential သည် ရေစင်ကြယ်၏ 0 kPa ထက် အမြဲ ပို၍ Negative ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Osmosis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Osmosis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w15-dm-1",
+          termEn: "Osmosis",
+          termMy: "ဩစမိုစစ် (Osmosis)",
+          matchEn: "Net movement of water from high to low water potential across a partially permeable membrane",
+          matchMy: "Partially Permeable Membrane ကို ဖြတ်၍ Water Potential မြင့်မှ နိမ့်သို့ ရေ၏ Net Movement",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w15-dm-2",
+          termEn: "Water potential",
+          termMy: "Water Potential",
+          matchEn: "A measure of the tendency of water to move out of a solution, in kPa",
+          matchMy: "Solution တစ်ခုမှ ရေ ထွက်သွားလိုသော ဆန္ဒကို kPa ဖြင့် တိုင်းတာချက်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w15-dm-3",
+          termEn: "Partially permeable membrane",
+          termMy: "Partially Permeable Membrane",
+          matchEn: "A membrane that allows some molecules (like water) through but not others",
+          matchMy: "မော်လီကျူးအချို့ (ရေကဲ့သို့) ကို ဖြတ်သန်းခွင့်ပြုသော်လည်း အချို့ကို မပြုသော Membrane",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w15-dm-4",
+          termEn: "Hypotonic solution",
+          termMy: "Hypotonic Solution",
+          matchEn: "A solution with a higher water potential than the cell inside it",
+          matchMy: "ထို Solution အတွင်းရှိ ဆဲလ်ထက် Water Potential ပိုမြင့်သော Solution",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w15-dm-5",
+          termEn: "Hypertonic solution",
+          termMy: "Hypertonic Solution",
+          matchEn: "A solution with a lower water potential than the cell inside it",
+          matchMy: "ထို Solution အတွင်းရှိ ဆဲလ်ထက် Water Potential ပိုနိမ့်သော Solution",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Water Moves In or Water Moves Out?",
+      titleMy: "စီစစ်ကြမည် - ရေ ဝင်လာသလား၊ ထွက်သွားသလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Net Water Movement Into the Cell", "Net Water Movement Out of the Cell"],
+        bucketsMy: ["ဆဲလ်ထဲသို့ ရေ Net ဝင်ရောက်ခြင်း", "ဆဲလ်ထဲမှ ရေ Net ထွက်သွားခြင်း"],
+        items: [
+          SortingItem(
+            id: "y12bio-w15-sort-1",
+            labelEn: "A red blood cell placed in a hypotonic solution",
+            labelMy: "Hypotonic Solution ထဲသို့ ထည့်ထားသော သွေးနီဥ",
+            correctBucketEn: "Net Water Movement Into the Cell",
+            correctBucketMy: "ဆဲလ်ထဲသို့ ရေ Net ဝင်ရောက်ခြင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w15-sort-2",
+            labelEn: "A plant cell placed in pure water, becoming turgid",
+            labelMy: "ရေစင်ကြယ်ထဲသို့ ထည့်ထားပြီး Turgid ဖြစ်လာသော အပင်ဆဲလ်",
+            correctBucketEn: "Net Water Movement Into the Cell",
+            correctBucketMy: "ဆဲလ်ထဲသို့ ရေ Net ဝင်ရောက်ခြင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w15-sort-3",
+            labelEn: "A red blood cell placed in a hypertonic solution, undergoing crenation",
+            labelMy: "Hypertonic Solution ထဲသို့ ထည့်ထားပြီး Crenation ခံရသော သွေးနီဥ",
+            correctBucketEn: "Net Water Movement Out of the Cell",
+            correctBucketMy: "ဆဲလ်ထဲမှ ရေ Net ထွက်သွားခြင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w15-sort-4",
+            labelEn: "A plant cell placed in a concentrated sugar solution, becoming plasmolysed",
+            labelMy: "ပျော်ဝင်သောသကြားရည် ထဲသို့ ထည့်ထားပြီး Plasmolysed ဖြစ်လာသော အပင်ဆဲလ်",
+            correctBucketEn: "Net Water Movement Out of the Cell",
+            correctBucketMy: "ဆဲလ်ထဲမှ ရေ Net ထွက်သွားခြင်း",
+          ),
+          SortingItem(
+            id: "y12bio-w15-sort-5",
+            labelEn: "A cell with a lower water potential than its surrounding solution",
+            labelMy: "ပတ်ဝန်းကျင် Solution ထက် Water Potential ပိုနိမ့်သော ဆဲလ်",
+            correctBucketEn: "Net Water Movement Into the Cell",
+            correctBucketMy: "ဆဲလ်ထဲသို့ ရေ Net ဝင်ရောက်ခြင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Potato Osmosis Practical",
+      titleMy: "စာဖတ်ခြင်း - အာလူး Osmosis Practical",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Potato Osmosis Practical",
+        titleMy: "အာလူး Osmosis Practical",
+        passageEn:
+            "For the classic osmosis practical, Sayar Zaw Min gave Su Su and Htet Aung five identical potato cylinders, weighed each precisely, then had them place one cylinder into each of five sugar solutions of increasing concentration -- from pure water up to a very concentrated solution -- and leave them for an hour.\n\nAfter an hour, Htet Aung reweighed each cylinder and calculated the percentage change in mass. The cylinder in pure water had gained mass, becoming visibly firmer -- water had moved by osmosis from the high water potential of the pure water outside into the lower water potential inside the potato cells, and the resulting pressure against each cell wall made the tissue turgid. The cylinder in the most concentrated sugar solution, by contrast, had lost a large percentage of its mass and felt noticeably limp -- here the water potential outside was lower than inside the cells, so water left the cells by osmosis, and in the most extreme case the cell membrane pulled away from the cell wall entirely, a state called plasmolysis.\n\nSu Su plotted percentage change in mass against sugar concentration and noticed the line crossed zero at one particular concentration. \"That's the point,\" she explained, \"where the sugar solution's water potential exactly equals the water potential inside the potato cells -- no net osmosis happens in either direction, so the mass doesn't change at all.\" Sayar Zaw Min confirmed this was exactly the technique real biologists use to estimate a tissue's water potential experimentally, without ever measuring it directly.",
+        passageMy:
+            "Osmosis Practical ရိုးရိုးအတွက် ဆရာဇော်မင်းသည် Su Su နှင့် Htet Aung အား အတူတူဖြစ်သော အာလူးဆလင်ဒါ ငါးခု ပေးခဲ့ပြီး တစ်ခုစီကို တိကျစွာ ချိန်ကြည့်ကာ ဆလင်ဒါတစ်ခုစီကို -- ရေစင်ကြယ်မှ အလွန်ပျော်ဝင်သော Solution အထိ -- Concentration တိုးလာသော သကြားရည် Solution ငါးခုအတွင်းသို့ ထည့်၍ တစ်နာရီ ချန်ထားခိုင်းခဲ့သည်။\n\nတစ်နာရီအကြာတွင် Htet Aung သည် ဆလင်ဒါတစ်ခုစီကို ပြန်ချိန်ပြီး Mass ရာခိုင်နှုန်း ပြောင်းလဲမှုကို တွက်ချက်ခဲ့သည်။ ရေစင်ကြယ်ထဲရှိ ဆလင်ဒါသည် Mass တိုးလာပြီး ပိုမို ခိုင်မာလာသည်ကို မြင်ရသည် -- ရေသည် အပြင်ဘက်ရှိ ရေစင်ကြယ်၏ Water Potential မြင့်မှ အာလူးဆဲလ်များအတွင်းရှိ Water Potential နိမ့်ဆီသို့ Osmosis ဖြင့် ရွေ့လျားခဲ့ပြီး ရလာသော Pressure က Cell Wall တစ်ခုစီကို ဖိထားကာ Tissue ကို Turgid ဖြစ်စေသည်။ အလွန်ပျော်ဝင်ဆုံး သကြားရည် Solution ထဲရှိ ဆလင်ဒါမှာမူ ဆန့်ကျင်ဘက်အနေဖြင့် Mass ရာခိုင်နှုန်းများစွာ ဆုံးရှုံးခဲ့ပြီး ပိန်နွမ်းသည်ကို ထင်ရှားစွာ ခံစားရသည် -- ဤနေရာတွင် အပြင်ဘက်ရှိ Water Potential သည် ဆဲလ်များအတွင်းထက် နိမ့်သောကြောင့် ရေသည် Osmosis ဖြင့် ဆဲလ်များမှ ထွက်သွားခဲ့ပြီး အလွန်ဆုံး အခြေအနေတွင် Cell Membrane သည် Cell Wall မှ လုံးဝ ခွာထွက်သွားခဲ့ပြီး ၎င်းကို Plasmolysis ဟု ခေါ်သည်။\n\nSu Su သည် Mass ရာခိုင်နှုန်း ပြောင်းလဲမှုကို သကြားရည် Concentration နှင့် ဂရပ်ဆွဲကြည့်ရာ မျဉ်းသည် Concentration တစ်ခုတွင် Zero ကို ဖြတ်သွားသည်ကို တွေ့ခဲ့သည်။ \"ထိုနေရာသည်\" ဟု သူ ရှင်းပြခဲ့သည် \"သကြားရည် Solution ၏ Water Potential သည် အာလူးဆဲလ်များအတွင်းရှိ Water Potential နှင့် အတိအကျ ညီမျှသော နေရာ ဖြစ်သည် -- ဘက်နှစ်ဘက်စလုံးတွင် Net Osmosis လုံးဝ မဖြစ်သောကြောင့် Mass လုံးဝ မပြောင်းလဲပါ။\" ၎င်းသည် အစစ်အမှန် ဇီဝဗေဒပညာရှင်များ Tissue တစ်ခု၏ Water Potential ကို တိုက်ရိုက် တိုင်းတာခြင်းမပြုဘဲ စမ်းသပ်ခန်းနည်းလမ်းဖြင့် ခန့်မှန်းရာတွင် အသုံးပြုသော နည်းလမ်းအတိအကျ ဖြစ်ကြောင်း ဆရာဇော်မင်း အတည်ပြုပေးခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what happened to the cylinder placed in pure water?",
+            questionMy: "ရေစင်ကြယ်ထဲသို့ ထည့်ထားသော ဆလင်ဒါတွင် အဘယ်ဖြစ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It gained mass and became turgid",
+              "It lost mass and became plasmolysed",
+              "Nothing changed at all",
+              "It dissolved completely",
+            ],
+            optionsMy: [
+              "Mass တိုးလာပြီး Turgid ဖြစ်လာသည်",
+              "Mass ဆုံးရှုံးပြီး Plasmolysed ဖြစ်လာသည်",
+              "မည်သည်မျှ ပြောင်းလဲခြင်း မရှိပါ",
+              "လုံးဝ ပျော်ဝင်ပျောက်ကွယ်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is plasmolysis?",
+            questionMy: "Plasmolysis ဆိုသည်မှာ အဘယ်နည်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The cell membrane pulling away entirely from the cell wall",
+              "The cell wall dissolving completely",
+              "Water entering a cell rapidly",
+              "A cell dividing into two cells",
+            ],
+            optionsMy: [
+              "Cell Membrane သည် Cell Wall မှ လုံးဝ ခွာထွက်ခြင်း",
+              "Cell Wall လုံးဝ ပျော်ဝင်ပျောက်ကွယ်ခြင်း",
+              "ရေသည် ဆဲလ်ထဲသို့ လျင်မြန်စွာ ဝင်ရောက်ခြင်း",
+              "ဆဲလ်တစ်ခုသည် ဆဲလ်နှစ်ခုအဖြစ် ကွဲသွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what does the point where the graph line crosses zero represent?",
+            questionMy: "ဂရပ်မျဉ်း Zero ကို ဖြတ်သွားသည့် အမှတ်သည် အဘယ်ကို ကိုယ်စားပြုသည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Where the solution's water potential equals the potato cells' water potential",
+              "Where all the water has evaporated",
+              "Where the potato has completely dissolved",
+              "Where the temperature reached 100°C",
+            ],
+            optionsMy: [
+              "Solution ၏ Water Potential သည် အာလူးဆဲလ်များ၏ Water Potential နှင့် ညီမျှသောနေရာ",
+              "ရေအားလုံး အငွေ့ပျံသွားသောနေရာ",
+              "အာလူး လုံးဝ ပျော်ဝင်ပျောက်ကွယ်သွားသောနေရာ",
+              "Temperature 100°C ရောက်ရှိသောနေရာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Osmosis and Water Potential",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၅ ပြန်လည်သုံးသပ်ခြင်း - Osmosis နှင့် Water Potential",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Pure water has a water potential of...",
+          questionMy: "ရေစင်ကြယ်၏ Water Potential မှာ...",
+          optionsEn: ["0 kPa", "-100 kPa", "100 kPa", "It has none at all"],
+          optionsMy: ["0 kPa", "-100 kPa", "100 kPa", "လုံးဝ မရှိပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A red blood cell in a hypertonic solution will...",
+          questionMy: "Hypertonic Solution ထဲရှိ သွေးနီဥသည်...",
+          optionsEn: ["Lose water and shrink (crenate)", "Gain water and burst", "Stay exactly the same size", "Turn into a plant cell"],
+          optionsMy: ["ရေ ဆုံးရှုံးပြီး ကျုံ့သွားသည် (Crenate)", "ရေ ရရှိပြီး ပေါက်ကွဲသွားသည်", "အရွယ်အစား အတိအကျ တူညီနေသည်", "အပင်ဆဲလ်အဖြစ် ပြောင်းလဲသွားသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Osmosis is a special case of...",
+          questionMy: "Osmosis သည် ...၏ အထူးဖြစ်ရပ်တစ်ခု ဖြစ်သည်",
+          optionsEn: ["Diffusion", "Active transport", "Exocytosis", "Mitosis"],
+          optionsMy: ["Diffusion", "Active Transport", "Exocytosis", "Mitosis"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16: "Active Transport, ATP, Endocytosis and Exocytosis"
+// (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek16 = CourseWeekDef(
+  id: "course-y12-bio-w16",
+  weekNumber: 16,
+  titleEn: "Active Transport, ATP, Endocytosis and Exocytosis",
+  titleMy: "Active Transport, ATP, Endocytosis နှင့် Exocytosis",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w16-d1",
+      dayNumber: 1,
+      titleEn: "Active Transport, ATP and Bulk Transport",
+      titleMy: "Active Transport, ATP နှင့် Bulk Transport",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Active transport differs from facilitated diffusion mainly because it...",
+          questionMy: "Active Transport သည် Facilitated Diffusion နှင့် အဓိက ကွာခြားချက်မှာ...",
+          optionsEn: [
+            "Uses ATP to move substances against the concentration gradient",
+            "Never uses a carrier protein",
+            "Only works in plant cells",
+            "Moves substances down the concentration gradient only",
+          ],
+          optionsMy: [
+            "Concentration Gradient ကို ဆန့်ကျင်၍ ပစ္စည်းများ ရွှေ့ရန် ATP အသုံးပြုသည်",
+            "Carrier Protein ကို လုံးဝ အသုံးမပြုပါ",
+            "အပင်ဆဲလ်များတွင်သာ အလုပ်လုပ်သည်",
+            "Concentration Gradient အလျော့သာ ပစ္စည်းများ ရွှေ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Moving a substance from low to high concentration works against natural diffusion, so energy (ATP) must be spent -- this is what makes it \"active\".",
+          ],
+          hintsMy: [
+            "ပစ္စည်းတစ်ခုကို Concentration နိမ့်မှ မြင့်သို့ ရွှေ့ခြင်းသည် သဘာဝ Diffusion ကို ဆန့်ကျင်နေသောကြောင့် Energy (ATP) ကို သုံးစွဲရမည် -- ၎င်းက \"Active\" ဟု ဖြစ်စေသော အချက်ပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The sodium-potassium pump is an example of a carrier protein that uses ATP to...",
+          questionMy: "Sodium-potassium Pump သည် ATP ကို ...ရန် အသုံးပြုသော Carrier Protein ဥပမာတစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Move sodium and potassium ions against their concentration gradients",
+            "Break down glucose completely",
+            "Build new DNA molecules",
+            "Digest waste inside a lysosome",
+          ],
+          optionsMy: [
+            "Sodium နှင့် Potassium Ion များကို ၎င်းတို့၏ Concentration Gradient ဆန့်ကျင်၍ ရွှေ့",
+            "Glucose ကို လုံးဝ ချေဖျက်",
+            "DNA မော်လီကျူးအသစ် တည်ဆောက်",
+            "Lysosome အတွင်းရှိ စွန့်ပစ်ပစ္စည်း ချေဖျက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This classic active-transport pump moves sodium ions out and potassium ions in, both against their own concentration gradients, using energy from ATP hydrolysis.",
+          ],
+          hintsMy: [
+            "ဤ Active Transport Pump ရိုးရိုးသည် Sodium Ion များကို အပြင်သို့နှင့် Potassium Ion များကို အတွင်းသို့ ၎င်းတို့၏ ကိုယ်ပိုင် Concentration Gradient ကို ဆန့်ကျင်ကာ ATP Hydrolysis မှ Energy ကို အသုံးပြု၍ ရွှေ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Endocytosis and exocytosis both move substances that are too large to cross the membrane by diffusion or active transport by...",
+          questionMy: "Endocytosis နှင့် Exocytosis နှစ်ခုစလုံးသည် Diffusion (သို့) Active Transport ဖြင့် Membrane ဖြတ်ရန် ကြီးမားလွန်းသော ပစ္စည်းများကို ...ဖြင့် ရွှေ့သည်",
+          optionsEn: [
+            "Forming vesicles that fuse with or bud off from the membrane",
+            "Dissolving the membrane completely",
+            "Using facilitated diffusion only",
+            "Waiting for the substance to shrink",
+          ],
+          optionsMy: [
+            "Membrane နှင့် ပေါင်းစပ် (သို့) ခွဲထွက်သော Vesicle များ ဖွဲ့စည်းခြင်း",
+            "Membrane ကို လုံးဝ ပျော်ဝင်ဖျောက်ခြင်း",
+            "Facilitated Diffusion သာ အသုံးပြုခြင်း",
+            "ပစ္စည်း ကျုံ့သွားသည်အထိ စောင့်ဆိုင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Bulk transport moves large amounts of material, or large particles, by wrapping them in a piece of membrane -- a vesicle -- rather than moving individual molecules through a protein.",
+          ],
+          hintsMy: [
+            "Bulk Transport သည် ကြီးမားသော ပစ္စည်း (သို့) ပါဝင်ပမာဏများစွာကို Protein တစ်ခုမှတဆင့် မော်လီကျူးတစ်ခုချင်းစီ ရွှေ့ခြင်းမဟုတ်ဘဲ Membrane အပိုင်းငယ် -- Vesicle -- ဖြင့် ထုပ်ပိုး၍ ရွှေ့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Active and Bulk Transport Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Active နှင့် Bulk Transport ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w16-dm-1",
+          termEn: "Active transport",
+          termMy: "Active Transport",
+          matchEn: "Movement of substances against their concentration gradient, using ATP",
+          matchMy: "ATP အသုံးပြု၍ ပစ္စည်းများ ၎င်းတို့၏ Concentration Gradient ဆန့်ကျင် ရွှေ့ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w16-dm-2",
+          termEn: "ATP",
+          termMy: "ATP",
+          matchEn: "The energy-carrying molecule that powers active transport when hydrolysed",
+          matchMy: "Hydrolyse ဖြစ်သောအခါ Active Transport ကို စွမ်းအင်ပေးသော မော်လီကျူး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w16-dm-3",
+          termEn: "Endocytosis",
+          termMy: "Endocytosis",
+          matchEn: "Bulk uptake of material into a cell by forming a vesicle from the membrane",
+          matchMy: "Membrane မှ Vesicle ဖွဲ့စည်း၍ ပစ္စည်းများကို ဆဲလ်ထဲသို့ Bulk တင်သွင်းခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w16-dm-4",
+          termEn: "Exocytosis",
+          termMy: "Exocytosis",
+          matchEn: "Bulk release of material out of a cell as a vesicle fuses with the membrane",
+          matchMy: "Vesicle တစ်ခု Membrane နှင့် ပေါင်းစပ်ကာ ပစ္စည်းများကို ဆဲလ်မှ Bulk ထုတ်လွှတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w16-dm-5",
+          termEn: "Sodium-potassium pump",
+          termMy: "Sodium-potassium Pump",
+          matchEn: "A carrier protein using ATP to move sodium and potassium ions against their gradients",
+          matchMy: "Sodium နှင့် Potassium Ion များကို ၎င်းတို့၏ Gradient ဆန့်ကျင်၍ ရွှေ့ရန် ATP အသုံးပြုသော Carrier Protein",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Uses ATP or Does Not Use ATP?",
+      titleMy: "စီစစ်ကြမည် - ATP သုံးလား၊ မသုံးဘူးလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Uses ATP Directly", "Does Not Use ATP (Passive)"],
+        bucketsMy: ["ATP တိုက်ရိုက် သုံးသည်", "ATP မသုံးပါ (Passive)"],
+        items: [
+          SortingItem(
+            id: "y12bio-w16-sort-1",
+            labelEn: "Active transport of ions against their concentration gradient",
+            labelMy: "Ion များကို ၎င်းတို့၏ Concentration Gradient ဆန့်ကျင် Active Transport ဖြင့် ရွှေ့ခြင်း",
+            correctBucketEn: "Uses ATP Directly",
+            correctBucketMy: "ATP တိုက်ရိုက် သုံးသည်",
+          ),
+          SortingItem(
+            id: "y12bio-w16-sort-2",
+            labelEn: "Endocytosis of a large food particle",
+            labelMy: "အစားအစာ Particle ကြီးတစ်ခု၏ Endocytosis",
+            correctBucketEn: "Uses ATP Directly",
+            correctBucketMy: "ATP တိုက်ရိုက် သုံးသည်",
+          ),
+          SortingItem(
+            id: "y12bio-w16-sort-3",
+            labelEn: "Exocytosis of hormones from a secretory cell",
+            labelMy: "Secretory ဆဲလ်တစ်ခုမှ Hormone များ၏ Exocytosis",
+            correctBucketEn: "Uses ATP Directly",
+            correctBucketMy: "ATP တိုက်ရိုက် သုံးသည်",
+          ),
+          SortingItem(
+            id: "y12bio-w16-sort-4",
+            labelEn: "Simple diffusion of oxygen down its concentration gradient",
+            labelMy: "Oxygen ၏ Concentration Gradient အလျော့ Simple Diffusion",
+            correctBucketEn: "Does Not Use ATP (Passive)",
+            correctBucketMy: "ATP မသုံးပါ (Passive)",
+          ),
+          SortingItem(
+            id: "y12bio-w16-sort-5",
+            labelEn: "Osmosis of water into a cell with lower water potential",
+            labelMy: "Water Potential ပိုနိမ့်သော ဆဲလ်ထဲသို့ ရေ၏ Osmosis",
+            correctBucketEn: "Does Not Use ATP (Passive)",
+            correctBucketMy: "ATP မသုံးပါ (Passive)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Root Hair Cell, Four Transport Methods",
+      titleMy: "စာဖတ်ခြင်း - Root Hair ဆဲလ်တစ်ခု, Transport Method လေးမျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Root Hair Cell, Four Transport Methods",
+        titleMy: "Root Hair ဆဲလ်တစ်ခု, Transport Method လေးမျိုး",
+        passageEn:
+            "For the term's capstone question, Sayar Zaw Min asked the class to identify all four transport methods they had studied at work in a single cell -- a plant root hair cell absorbing water and minerals from the soil.\n\nSu Su started with the easiest: water moves into the root hair cell by osmosis, because the water potential of the soil solution outside is usually higher than the water potential inside the cell's cytoplasm and vacuole -- no protein or ATP is required for this passive movement across the partially permeable cell membrane. Htet Aung added that a little dissolved oxygen also enters the cell by simple diffusion, moving directly through the phospholipid bilayer down its own concentration gradient.\n\nThe harder case, Sayar Zaw Min pointed out, is mineral ions such as nitrate. Soil generally has a much lower concentration of nitrate ions than the cytoplasm of the root hair cell, meaning nitrate is already more concentrated inside than outside -- so simple diffusion would move it the wrong way, out of the cell, not in. To absorb more nitrate from the soil, the root hair cell must use active transport, with carrier proteins pumping nitrate ions in against their concentration gradient, powered by ATP produced in the cell's many mitochondria. \"And if the cell needs to take in something far too large for any single protein to carry,\" Su Su added, completing the picture, \"such as an intact microorganism from the soil, it could in principle use endocytosis instead, wrapping a piece of its own membrane around the particle to engulf it whole.\"",
+        passageMy:
+            "Term ၏ Capstone မေးခွန်းအဖြစ် ဆရာဇော်မင်းသည် ဆဲလ်တစ်ခုတည်းတွင် အလုပ်လုပ်နေသော Transport Method လေးမျိုးလုံး -- မြေဆီလွှာမှ ရေနှင့် သတ္တုဓာတ်များ စုပ်ယူနေသော အပင် Root Hair ဆဲလ် -- ကို ခွဲခြားဖော်ထုတ်ရန် အတန်းအား တောင်းဆိုခဲ့သည်။\n\nအလွယ်ဆုံးမှ Su Su စတင်ခဲ့သည် - ရေသည် Osmosis ဖြင့် Root Hair ဆဲလ်ထဲသို့ ဝင်ရောက်သည်၊ အကြောင်းမှာ အပြင်ဘက်ရှိ မြေဆီလွှာ Solution ၏ Water Potential သည် ဆဲလ်၏ Cytoplasm နှင့် Vacuole အတွင်းရှိ Water Potential ထက် ပုံမှန်အားဖြင့် ပိုမြင့်သောကြောင့်ဖြစ်ပြီး ဤ Passive Movement အတွက် Partially Permeable Cell Membrane ကို ဖြတ်ရန် Protein (သို့) ATP လုံးဝ မလိုအပ်ပါ။ ပျော်ဝင်ထားသော Oxygen အနည်းငယ်သည်လည်း Phospholipid Bilayer ကို ၎င်း၏ ကိုယ်ပိုင် Concentration Gradient အလျော့ တိုက်ရိုက် ဖြတ်၍ Simple Diffusion ဖြင့် ဆဲလ်ထဲသို့ ဝင်ရောက်သည်ဟု Htet Aung ထပ်ဆောင်း ဖြေကြားခဲ့သည်။\n\nပိုခက်ခဲသော ဖြစ်ရပ်မှာ Nitrate ကဲ့သို့ သတ္တုဓာတ် Ion များ ဖြစ်ကြောင်း ဆရာဇော်မင်း ညွှန်ပြခဲ့သည်။ မြေဆီလွှာတွင် ပုံမှန်အားဖြင့် Root Hair ဆဲလ်၏ Cytoplasm ထက် Nitrate Ion Concentration ပိုနည်းသည်၊ ဆိုလိုသည်မှာ Nitrate သည် အပြင်ဘက်ထက် အတွင်းဘက်တွင် ပိုမို ထူထပ်နေပြီး ဖြစ်သည် -- ထို့ကြောင့် Simple Diffusion သည် ၎င်းကို မှားယွင်းသော ဦးတည်ချက် ဆဲလ်ထဲမှ အပြင်ဘက်သို့သာ ရွှေ့လိမ့်မည်ဖြစ်သည်။ မြေဆီလွှာမှ Nitrate ပိုစုပ်ယူနိုင်ရန် Root Hair ဆဲလ်သည် Active Transport ကို အသုံးပြုရမည်ဖြစ်ပြီး Carrier Protein များသည် ဆဲလ်၏ Mitochondria အများအပြားမှ ထုတ်လုပ်သော ATP ဖြင့် စွမ်းအင်ရယူကာ Nitrate Ion များကို ၎င်းတို့၏ Concentration Gradient ဆန့်ကျင် ပန့်ဆွဲသည်။ \"ဆဲလ်သည် Protein တစ်ခုတည်း သယ်ဆောင်ရန် ကြီးမားလွန်းသော တစ်စုံတစ်ခုကို ရယူရန် လိုအပ်ပါက\" ဟု ဥပမာအား ပြီးမြောက်စေရန် Su Su ထပ်ဆောင်း ဆိုခဲ့သည် \"မြေဆီလွှာမှ တစ်ခုလုံးပါ Microorganism တစ်ခုကဲ့သို့ ဆိုလျှင် အခြေခံသဘောအရ Endocytosis ကို အစား အသုံးပြုနိုင်ပြီး ၎င်း၏ ကိုယ်ပိုင် Membrane အပိုင်းငယ်ဖြင့် Particle ကို ပတ်ရစ်ကာ တစ်ခုလုံး မျိုချသွားနိုင်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, how does water enter the root hair cell?",
+            questionMy: "ရေသည် Root Hair ဆဲလ်ထဲသို့ မည်သို့ ဝင်ရောက်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By osmosis, with no protein or ATP required",
+              "By active transport, using ATP",
+              "By endocytosis only",
+              "It cannot enter the cell at all",
+            ],
+            optionsMy: [
+              "Protein (သို့) ATP လုံးဝ မလိုအပ်ဘဲ Osmosis ဖြင့်",
+              "ATP အသုံးပြု၍ Active Transport ဖြင့်",
+              "Endocytosis ဖြင့်သာ",
+              "ဆဲလ်ထဲသို့ လုံးဝ ဝင်ရောက်၍ မရ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why can't nitrate simply diffuse into the root hair cell?",
+            questionMy: "Nitrate သည် Root Hair ဆဲလ်ထဲသို့ ရိုးရိုး Diffuse ၍ မရသည့်အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nitrate is already more concentrated inside the cell than in the soil",
+              "Nitrate is too small to be a molecule",
+              "The cell has no membrane at all",
+              "Nitrate does not exist in soil",
+            ],
+            optionsMy: [
+              "Nitrate သည် မြေဆီလွှာထက် ဆဲလ်အတွင်းတွင် ပိုမို ထူထပ်ပြီးဖြစ်နေသောကြောင့်",
+              "Nitrate သည် မော်လီကျူးတစ်ခုအဖြစ် သေးငယ်လွန်းသောကြောင့်",
+              "ဆဲလ်တွင် Membrane လုံးဝ မရှိသောကြောင့်",
+              "မြေဆီလွှာတွင် Nitrate လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su's final comment, what transport method could the cell use to engulf a whole microorganism?",
+            questionMy: "Microorganism တစ်ခုလုံးကို ရယူရန် ဆဲလ်က မည်သည့် Transport Method ကို အသုံးပြုနိုင်သည်ကို Su Su ၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: ["Endocytosis", "Simple diffusion", "Osmosis", "Facilitated diffusion"],
+            optionsMy: ["Endocytosis", "Simple Diffusion", "Osmosis", "Facilitated Diffusion"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Cell Membranes and Transport",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၆ ပြန်လည်သုံးသပ်ခြင်း - Cell Membrane နှင့် Transport",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Active transport requires...",
+          questionMy: "Active Transport သည် ...လိုအပ်သည်",
+          optionsEn: ["ATP", "No energy at all", "A partially permeable membrane only", "Cold temperatures only"],
+          optionsMy: ["ATP", "Energy လုံးဝ မလိုအပ်ပါ", "Partially Permeable Membrane တစ်ခုတည်း", "အအေးဓာတ် Temperature သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Exocytosis releases material out of a cell using a...",
+          questionMy: "Exocytosis သည် ...ကို အသုံးပြု၍ ဆဲလ်မှ ပစ္စည်း ထုတ်လွှတ်သည်",
+          optionsEn: ["Vesicle fusing with the membrane", "Channel protein only", "Simple diffusion only", "Osmosis only"],
+          optionsMy: ["Membrane နှင့် ပေါင်းစပ်သော Vesicle", "Channel Protein တစ်ခုတည်း", "Simple Diffusion တစ်ခုတည်း", "Osmosis တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The sodium-potassium pump moves ions...",
+          questionMy: "Sodium-potassium Pump သည် Ion များကို...",
+          optionsEn: [
+            "Against their concentration gradients, using ATP",
+            "Down their concentration gradients only",
+            "Without any energy source",
+            "Only into red blood cells",
+          ],
+          optionsMy: [
+            "ATP အသုံးပြု၍ ၎င်းတို့၏ Concentration Gradient ဆန့်ကျင်",
+            "၎င်းတို့၏ Concentration Gradient အလျော့သာ",
+            "Energy ရင်းမြစ် မည်သည်မျှ မပါဘဲ",
+            "သွေးနီဥများထဲသို့သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm4 = CourseTermDef(
+  id: "course-y12-bio-t4",
+  termNumber: 4,
+  titleEn: "Cell Membranes and Transport",
+  titleMy: "Cell Membrane နှင့် Transport",
+  weeks: [_y12BioWeek13, _y12BioWeek14, _y12BioWeek15, _y12BioWeek16],
+  certificateTitleEn: "AS Biology: Cell Membranes and Transport",
+  certificateTitleMy: "AS ဇီဝဗေဒ - Cell Membrane နှင့် Transport",
+);
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 5: "The Mitotic Cell Cycle"
+// (Weeks 17-20)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Chromosome Structure"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek17 = CourseWeekDef(
+  id: "course-y12-bio-w17",
+  weekNumber: 17,
+  titleEn: "Chromosome Structure",
+  titleMy: "Chromosome ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w17-d1",
+      dayNumber: 1,
+      titleEn: "Chromatin, Histones and Chromosomes",
+      titleMy: "Chromatin, Histone နှင့် Chromosome",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Inside the nucleus, DNA is wound around proteins called...",
+          questionMy: "Nucleus အတွင်းတွင် DNA သည် ...ဟု ခေါ်သော Protein များပတ်လည် ပတ်ထားသည်",
+          optionsEn: ["Histones", "Ribosomes", "Enzymes", "Glycoproteins"],
+          optionsMy: ["Histone", "Ribosome", "Enzyme", "Glycoprotein"],
+          correctIndex: 0,
+          hintsEn: [
+            "DNA wraps tightly around histone proteins, like thread wound around a spool, letting an enormous length of DNA fit inside a tiny nucleus.",
+          ],
+          hintsMy: [
+            "DNA သည် Spool ပတ်လည် ချည်ကွင်းပတ်သကဲ့သို့ Histone Protein များပတ်လည် ကျပ်တည်းစွာ ပတ်ထားသောကြောင့် DNA အလျားရှည်ကြီးအား သိမ်ငယ်သော Nucleus အတွင်းသို့ ဝင်ကျစေနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The loosely coiled DNA-and-histone complex found in a cell that is not currently dividing is called...",
+          questionMy: "လက်ရှိ မခွဲမပွားသေးသော ဆဲလ်တွင် တွေ့ရသော ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်ထားသော DNA-နှင့်-Histone Complex ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Chromatin", "A visible chromosome", "A ribosome", "A vesicle"],
+          optionsMy: ["Chromatin", "မြင်ရသော Chromosome", "Ribosome", "Vesicle"],
+          correctIndex: 0,
+          hintsEn: [
+            "Chromatin is the everyday, loosely coiled state; it only condenses into the compact, visible chromosomes you see in diagrams when a cell is about to divide.",
+          ],
+          hintsMy: [
+            "Chromatin သည် နေ့စဉ် ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်ထားသော အခြေအနေဖြစ်ပြီး ဆဲလ်တစ်ခု ခွဲပွားတော့မည့်အခါတွင်သာ ပုံများတွင် တွေ့ရသော သိမ်ငယ်ပြီး မြင်ရသော Chromosome အဖြစ် ကျစ်လျစ်သွားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The centromere is the region of a chromosome that...",
+          questionMy: "Centromere ဆိုသည်မှာ Chromosome ၏ ...ဒေသ ဖြစ်သည်",
+          optionsEn: [
+            "Joins two sister chromatids together",
+            "Contains no DNA at all",
+            "Is found only in prokaryotic cells",
+            "Is where ribosomes are made",
+          ],
+          optionsMy: [
+            "Sister Chromatid နှစ်ခုကို ချိတ်ဆက်ပေးသော",
+            "DNA လုံးဝ မပါဝင်သော",
+            "Prokaryotic ဆဲလ်များတွင်သာ တွေ့ရသော",
+            "Ribosome များ ထုတ်လုပ်ရာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "After DNA replication, two identical sister chromatids stay pinched together at a single point -- the centromere -- until they separate later in mitosis.",
+          ],
+          hintsMy: [
+            "DNA Replication ပြီးနောက် Sister Chromatid တူညီနှစ်ခုသည် Mitosis တွင် နောက်ပိုင်း ခွဲမသွားခင် Centromere ဟု ခေါ်သော အမှတ်တစ်ခုတွင် ဆက်လက် ကပ်ညပ်နေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Chromosome Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Chromosome ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w17-dm-1",
+          termEn: "Chromatin",
+          termMy: "Chromatin",
+          matchEn: "The loosely coiled DNA-and-histone complex present throughout the cell cycle",
+          matchMy: "Cell Cycle တစ်လျှောက် ရှိနေသော ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်ထားသည့် DNA-နှင့်-Histone Complex",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w17-dm-2",
+          termEn: "Histone",
+          termMy: "ဟစ်စတုန်း (Histone)",
+          matchEn: "A protein that DNA winds around to be packaged compactly",
+          matchMy: "DNA ကျစ်လျစ်စွာ ထုပ်ပိုးရန် ပတ်လည် ပတ်ထားသော Protein",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w17-dm-3",
+          termEn: "Chromosome",
+          termMy: "Chromosome",
+          matchEn: "The tightly condensed, visible structure chromatin forms during cell division",
+          matchMy: "ဆဲလ် ခွဲပွားစဉ် Chromatin ဖွဲ့စည်းသော ကျစ်လျစ်ကျပ်တည်းပြီး မြင်ရသော ဖွဲ့စည်းပုံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w17-dm-4",
+          termEn: "Centromere",
+          termMy: "ဆင်တာမီးယား (Centromere)",
+          matchEn: "The point where two sister chromatids are joined together",
+          matchMy: "Sister Chromatid နှစ်ခု ချိတ်ဆက်ထားရာ အမှတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w17-dm-5",
+          termEn: "Sister chromatid",
+          termMy: "Sister Chromatid",
+          matchEn: "One of two identical copies of a chromosome produced by DNA replication",
+          matchMy: "DNA Replication ဖြင့် ထုတ်လုပ်ထားသော Chromosome တစ်ခု၏ တူညီသည့် မိတ္တူနှစ်ခုအနက် တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Chromatin State or Condensed Chromosome State?",
+      titleMy: "စီစစ်ကြမည် - Chromatin အခြေအနေလား၊ ကျစ်လျစ်ထားသော Chromosome အခြေအနေလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Chromatin (Loosely Coiled)", "Condensed Chromosome (Visible)"],
+        bucketsMy: ["Chromatin (ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်)", "ကျစ်လျစ်ထားသော Chromosome (မြင်ရသော)"],
+        items: [
+          SortingItem(
+            id: "y12bio-w17-sort-1",
+            labelEn: "The state DNA is in for most of the cell cycle",
+            labelMy: "Cell Cycle အများစုအတွင်း DNA ရှိနေသော အခြေအနေ",
+            correctBucketEn: "Chromatin (Loosely Coiled)",
+            correctBucketMy: "Chromatin (ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်)",
+          ),
+          SortingItem(
+            id: "y12bio-w17-sort-2",
+            labelEn: "Cannot be seen as distinct structures under a light microscope",
+            labelMy: "Light Microscope အောက်တွင် သီးခြားဖွဲ့စည်းပုံများအဖြစ် မမြင်ရနိုင်",
+            correctBucketEn: "Chromatin (Loosely Coiled)",
+            correctBucketMy: "Chromatin (ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်)",
+          ),
+          SortingItem(
+            id: "y12bio-w17-sort-3",
+            labelEn: "Visible as distinct X-shaped structures during mitosis",
+            labelMy: "Mitosis အတွင်း သီးခြား X ပုံသဏ္ဌာန် ဖွဲ့စည်းပုံများအဖြစ် မြင်ရသော",
+            correctBucketEn: "Condensed Chromosome (Visible)",
+            correctBucketMy: "ကျစ်လျစ်ထားသော Chromosome (မြင်ရသော)",
+          ),
+          SortingItem(
+            id: "y12bio-w17-sort-4",
+            labelEn: "Tightly coiled and shortened just before cell division",
+            labelMy: "ဆဲလ်ခွဲပွားခြင်း မတိုင်မီ ကျပ်တည်းစွာ ကွေးညွှတ်ပြီး တိုတောင်းသွားသော",
+            correctBucketEn: "Condensed Chromosome (Visible)",
+            correctBucketMy: "ကျစ်လျစ်ထားသော Chromosome (မြင်ရသော)",
+          ),
+          SortingItem(
+            id: "y12bio-w17-sort-5",
+            labelEn: "The looser form that allows genes to be transcribed",
+            labelMy: "Gene များကို Transcribe ပြုနိုင်ရန် ခွင့်ပြုသော ပိုပေါ့ပါးသော ပုံစံ",
+            correctBucketEn: "Chromatin (Loosely Coiled)",
+            correctBucketMy: "Chromatin (ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Counting Chromosomes Under the Microscope",
+      titleMy: "စာဖတ်ခြင်း - Microscope အောက်တွင် Chromosome ရေတွက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Counting Chromosomes Under the Microscope",
+        titleMy: "Microscope အောက်တွင် Chromosome ရေတွက်ခြင်း",
+        passageEn:
+            "Su Su was confused by a slide Sayar Zaw Min had prepared: some cells on it clearly showed dark, thick, X-shaped structures, while other cells on the exact same slide showed nothing but a diffuse, evenly stained blob filling the nucleus. \"Are these different types of cell?\" she asked.\n\nHtet Aung worked out the answer before Sayar Zaw Min could explain: they were looking at the same kind of cell, caught at two different points in the cell cycle. The diffuse, evenly stained cells were in interphase, where their DNA existed as loosely coiled chromatin, spread out and accessible enough for genes to be transcribed -- far too thin and tangled to resolve as separate structures under a light microscope. The X-shaped cells, by contrast, were actively dividing: their chromatin had condensed tightly into visible chromosomes, each one made of two identical sister chromatids joined at a centromere, ready to be separated and distributed to two new cells.\n\n\"Exactly right,\" Sayar Zaw Min confirmed. \"Chromatin and chromosome are not two different substances -- they are the same DNA-and-histone material, just packaged very differently depending on what the cell needs at that moment. A cell that is not dividing needs its genes accessible for reading, so its DNA stays loose. A cell that is about to divide needs its DNA compact and manageable, so it condenses tightly -- which is also exactly why chromosomes are only ever visible as distinct X-shapes during mitosis, never during ordinary interphase.\"",
+        passageMy:
+            "ဆရာဇော်မင်း ပြင်ဆင်ထားသော Slide တစ်ခုက Su Su ကို ရှုပ်ထွေးစေခဲ့သည် - Slide ပေါ်ရှိ ဆဲလ်အချို့သည် အရောင်ပိုနက်ပြီး ထူထပ်သော X ပုံသဏ္ဌာန် ဖွဲ့စည်းပုံများကို ရှင်းလင်းစွာ ပြသနေပြီး အခြားဆဲလ်များမှာမူ တူညီသော Slide ပေါ်တွင်ပင် Nucleus ကို ဖုံးလွှမ်းနေသော ပျံ့နှံ့ပြီး အညီအမျှစွန်းထင်ထားသော ဗလက်ဘ် တစ်ခုသာ ပြသနေသည်။ \"ဤဆဲလ်များသည် ဆဲလ်အမျိုးအစား မတူညီသလား\" ဟု သူ မေးခဲ့သည်။\n\nဆရာဇော်မင်း မရှင်းပြခင် Htet Aung သည် အဖြေကို ရှာဖွေတွေ့ခဲ့သည် - သူတို့သည် ဆဲလ်အမျိုးအစားတူညီသည်ကို Cell Cycle အတွင်း နေရာနှစ်ခု မတူညီသော အချိန်တွင် ဖမ်းယူထားသည်ကို ကြည့်ရှုနေခြင်း ဖြစ်သည်။ ပျံ့နှံ့ပြီး အညီအမျှ စွန်းထင်ထားသော ဆဲလ်များသည် Interphase တွင် ရှိနေပြီး ၎င်းတို့၏ DNA သည် ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်ထားသော Chromatin အဖြစ် ရှိနေကာ Gene များ Transcribe ပြုနိုင်ရန် ပြန့်ကျဲ၍ လှမ်းမီနိုင်သော အခြေအနေရှိသည် -- Light Microscope အောက်တွင် သီးခြား ဖွဲ့စည်းပုံများအဖြစ် ခွဲခြားမြင်ရန် ပါးလွှာလွန်းပြီး ရှုပ်ထွေးနေသည်။ X ပုံသဏ္ဌာန်ရှိ ဆဲလ်များမှာမူ ဆန့်ကျင်ဘက်အနေဖြင့် တက်ကြွစွာ ခွဲပွားနေသည် - ၎င်းတို့၏ Chromatin သည် Centromere တွင် ချိတ်ဆက်ထားသော တူညီသော Sister Chromatid နှစ်ခုစီဖြင့် ဖွဲ့စည်းထားသော မြင်ရသော Chromosome များအဖြစ် ကျပ်တည်းစွာ ကျစ်လျစ်သွားပြီး ဆဲလ်အသစ်နှစ်ခုသို့ ခွဲဝေရန် အသင့် ဖြစ်နေသည်။\n\n\"အတိအကျပင် ဖြစ်သည်\" ဟု ဆရာဇော်မင်း အတည်ပြုပေးခဲ့သည် \"Chromatin နှင့် Chromosome သည် မတူညီသော ပစ္စည်းနှစ်ခု မဟုတ်ပါ -- ၎င်းတို့သည် DNA-နှင့်-Histone ပစ္စည်း အတူတူပင် ဖြစ်ပြီး ဆဲလ်လိုအပ်ချက်အလိုက် ထုပ်ပိုးပုံသာ ကွဲပြားခြားနားသည်။ မခွဲမပွားသေးသော ဆဲလ်သည် Gene များ ဖတ်နိုင်ရန် လှမ်းမီနေရန် လိုအပ်သောကြောင့် ၎င်း၏ DNA သည် ပေါ့ပါးစွာ ဆက်လက်ရှိနေသည်။ ခွဲပွားတော့မည့် ဆဲလ်သည် ၎င်း၏ DNA ကို ကျစ်လျစ်ကျပ်တည်းစွာ စီမံနိုင်ရန် လိုအပ်သောကြောင့် ကျပ်တည်းစွာ ကျစ်လျစ်သွားသည် -- ၎င်းသည်လည်း Chromosome များကို Interphase ပုံမှန် အတွင်းတွင် မမြင်ရဘဲ Mitosis အတွင်းတွင်သာ သီးခြား X ပုံသဏ္ဌာန်များအဖြစ် မြင်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, what was the diffuse blob of stained material in interphase cells?",
+            questionMy: "Interphase ဆဲလ်များတွင် ပျံ့နှံ့နေသော စွန်းထင်ထားသည့် ပစ္စည်း ဗလက်ဘ်သည် အဘယ်ဖြစ်သည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Loosely coiled chromatin",
+              "Condensed, visible chromosomes",
+              "Ribosomes",
+              "The cell wall",
+            ],
+            optionsMy: ["ပေါ့ပေါ့ပါးပါး ကွေးညွှတ်ထားသော Chromatin", "ကျစ်လျစ်ပြီး မြင်ရသော Chromosome", "Ribosome", "Cell Wall"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what does each visible chromosome consist of?",
+            questionMy: "မြင်ရသော Chromosome တစ်ခုစီသည် အဘယ်ဖြင့် ဖွဲ့စည်းသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two identical sister chromatids joined at a centromere",
+              "A single strand of chromatin only",
+              "One ribosome and one mitochondrion",
+              "A phospholipid bilayer",
+            ],
+            optionsMy: [
+              "Centromere တွင် ချိတ်ဆက်ထားသော တူညီသော Sister Chromatid နှစ်ခု",
+              "Chromatin ကွင်းဆက် တစ်ခုတည်း",
+              "Ribosome တစ်ခုနှင့် Mitochondrion တစ်ခု",
+              "Phospholipid Bilayer",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description of the X-shaped cells."],
+            hintsMy: ["X ပုံသဏ္ဌာန် ဆဲလ်များ ဖော်ပြချက်ကို ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, why are chromosomes only visible as X-shapes during mitosis?",
+            questionMy: "Chromosome များကို Mitosis အတွင်းတွင်သာ X ပုံသဏ္ဌာန်များအဖြစ် အဘယ်ကြောင့် မြင်ရသည်ကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The DNA condenses tightly to be managed easily for division",
+              "Interphase destroys all chromosomes completely",
+              "Chromosomes only exist during mitosis",
+              "The nucleus disappears permanently after mitosis",
+            ],
+            optionsMy: [
+              "ခွဲပွားခြင်းအတွက် လွယ်ကူစွာ စီမံနိုင်ရန် DNA ကျပ်တည်းစွာ ကျစ်လျစ်သွားသောကြောင့်",
+              "Interphase သည် Chromosome အားလုံးကို လုံးဝ ဖျက်ဆီးပစ်သောကြောင့်",
+              "Chromosome များသည် Mitosis အတွင်းတွင်သာ တည်ရှိသောကြောင့်",
+              "Mitosis ပြီးနောက် Nucleus သည် အမြဲတမ်း ပျောက်ကွယ်သွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing sentence."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Chromosome Structure",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၇ ပြန်လည်သုံးသပ်ခြင်း - Chromosome ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "DNA winds around proteins called...",
+          questionMy: "DNA သည် ...ဟု ခေါ်သော Protein များပတ်လည် ပတ်ထားသည်",
+          optionsEn: ["Histones", "Ribosomes", "Enzymes", "Vesicles"],
+          optionsMy: ["Histone", "Ribosome", "Enzyme", "Vesicle"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two sister chromatids are joined at the...",
+          questionMy: "Sister Chromatid နှစ်ခုကို ...တွင် ချိတ်ဆက်ထားသည်",
+          optionsEn: ["Centromere", "Ribosome", "Cell wall", "Nucleolus"],
+          optionsMy: ["Centromere", "Ribosome", "Cell Wall", "Nucleolus"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Chromatin and chromosomes are made of the same material, differing only in...",
+          questionMy: "Chromatin နှင့် Chromosome များသည် ပစ္စည်းတူညီသော်လည်း ...တွင်သာ ကွာခြားသည်",
+          optionsEn: [
+            "How tightly coiled/condensed the DNA is",
+            "Which organism they belong to",
+            "Whether ATP is present",
+            "The colour of the cell",
+          ],
+          optionsMy: [
+            "DNA ကျပ်တည်း/ကျစ်လျစ်မှု အတိုင်းအတာ",
+            "မည်သည့် Organism ပိုင်ဆိုင်သနည်း",
+            "ATP ရှိမရှိ",
+            "ဆဲလ်၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "The Cell Cycle: Interphase (G1, S and G2)"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek18 = CourseWeekDef(
+  id: "course-y12-bio-w18",
+  weekNumber: 18,
+  titleEn: "The Cell Cycle: Interphase (G1, S and G2)",
+  titleMy: "Cell Cycle - Interphase (G1, S နှင့် G2)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w18-d1",
+      dayNumber: 1,
+      titleEn: "The Three Stages of Interphase",
+      titleMy: "Interphase ၏ အဆင့် သုံးဆင့်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Interphase is best described as...",
+          questionMy: "Interphase ကို အကောင်းဆုံးဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "The period of growth and preparation between one division and the next",
+            "The period when the cell is actively dividing",
+            "A stage that only occurs once in a cell's lifetime",
+            "The moment chromosomes separate",
+          ],
+          optionsMy: [
+            "ခွဲပွားမှုတစ်ခုနှင့် နောက်တစ်ခုကြား ကြီးထွားမှုနှင့် ပြင်ဆင်မှု ကာလ",
+            "ဆဲလ် တက်ကြွစွာ ခွဲပွားနေသော ကာလ",
+            "ဆဲလ်တစ်ခု၏ သက်တမ်းတွင် တစ်ကြိမ်သာ ဖြစ်ပွားသော အဆင့်",
+            "Chromosome များ ခွဲထွက်သည့် ခဏ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Interphase makes up roughly 90% of the whole cell cycle -- it is not a resting phase but a busy one, full of growth and DNA replication in preparation for the next division.",
+          ],
+          hintsMy: [
+            "Interphase သည် Cell Cycle တစ်ခုလုံး၏ ခန့်မှန်းရာခိုင်နှုန်း 90 ခန့် ရှိသည် -- ၎င်းသည် အနားယူချိန် မဟုတ်ဘဲ နောက်တစ်ကြိမ် ခွဲပွားမှုအတွက် ကြီးထွားမှုနှင့် DNA Replication ပြည့်နှက်နေသော အလုပ်များသော အချိန်ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "DNA replication takes place during which stage of interphase?",
+          questionMy: "DNA Replication သည် Interphase ၏ မည်သည့်အဆင့်တွင် ဖြစ်ပွားသနည်း။",
+          optionsEn: ["S phase", "G1 phase", "G2 phase", "It happens during mitosis, not interphase"],
+          optionsMy: ["S Phase", "G1 Phase", "G2 Phase", "Mitosis အတွင်းတွင် ဖြစ်ပွားပြီး Interphase တွင် မဟုတ်ပါ"],
+          correctIndex: 0,
+          hintsEn: [
+            "\"S\" stands for synthesis -- specifically DNA synthesis, when each chromosome is copied to form two identical sister chromatids.",
+          ],
+          hintsMy: [
+            "\"S\" သည် Synthesis ကို ကိုယ်စားပြုသည် -- တိကျစွာဆိုရသော် DNA Synthesis ဖြစ်ပြီး Chromosome တစ်ခုစီကို ကူးယူ၍ Sister Chromatid တူညီနှစ်ခု ဖွဲ့စည်းသည့်အချိန် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "G1 and G2 phases mainly involve...",
+          questionMy: "G1 နှင့် G2 Phase များတွင် အဓိကအားဖြင့် ...ပါဝင်သည်",
+          optionsEn: [
+            "Cell growth and organelle production, before and after DNA replication",
+            "The physical separation of the cytoplasm",
+            "Chromosomes lining up at the cell's equator",
+            "The nuclear envelope breaking down completely",
+          ],
+          optionsMy: [
+            "DNA Replication မတိုင်မီနှင့် ပြီးနောက် ဆဲလ်ကြီးထွားမှုနှင့် Organelle ထုတ်လုပ်မှု",
+            "Cytoplasm ၏ ရုပ်ပိုင်းဆိုင်ရာ ခွဲထွက်ခြင်း",
+            "Chromosome များ ဆဲလ်၏ Equator တွင် တန်းစီခြင်း",
+            "Nuclear Envelope လုံးဝ ပြိုလဲကျခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"G\" stands for gap (or growth) -- G1 comes before DNA replication and G2 comes after, and both are used for the cell to grow and make new organelles.",
+          ],
+          hintsMy: [
+            "\"G\" သည် Gap (သို့) Growth ကို ကိုယ်စားပြုသည် -- G1 သည် DNA Replication မတိုင်မီ ဖြစ်ပြီး G2 သည် ပြီးနောက် ဖြစ်သည်၊ နှစ်ခုစလုံးကို ဆဲလ်ကြီးထွားရန်နှင့် Organelle အသစ်များ ဖန်တီးရန် အသုံးပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Cell Cycle Stages",
+      titleMy: "တွဲစပ်ကြမည် - Cell Cycle အဆင့်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w18-dm-1",
+          termEn: "Interphase",
+          termMy: "Interphase",
+          matchEn: "The growth and preparation period of the cell cycle, made up of G1, S and G2",
+          matchMy: "G1, S နှင့် G2 ဖြင့် ဖွဲ့စည်းထားသော Cell Cycle ၏ ကြီးထွားမှုနှင့် ပြင်ဆင်မှု ကာလ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w18-dm-2",
+          termEn: "G1 phase",
+          termMy: "G1 Phase",
+          matchEn: "The first growth phase, before DNA replication",
+          matchMy: "DNA Replication မတိုင်မီ ပထမ ကြီးထွားမှု အဆင့်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w18-dm-3",
+          termEn: "S phase",
+          termMy: "S Phase",
+          matchEn: "The stage where DNA is replicated, forming sister chromatids",
+          matchMy: "DNA ကို Replicate ပြု၍ Sister Chromatid များ ဖွဲ့စည်းသည့်အဆင့်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w18-dm-4",
+          termEn: "G2 phase",
+          termMy: "G2 Phase",
+          matchEn: "The second growth phase, after DNA replication, preparing for mitosis",
+          matchMy: "DNA Replication ပြီးနောက် Mitosis အတွက် ပြင်ဆင်သော ဒုတိယ ကြီးထွားမှု အဆင့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w18-dm-5",
+          termEn: "Cytokinesis",
+          termMy: "Cytokinesis",
+          matchEn: "The physical division of the cytoplasm into two separate cells, after mitosis",
+          matchMy: "Mitosis ပြီးနောက် Cytoplasm ကို ဆဲလ်နှစ်ခုအဖြစ် ရုပ်ပိုင်းဆိုင်ရာ ခွဲထုတ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Occurs During Interphase or During Mitosis?",
+      titleMy: "စီစစ်ကြမည် - Interphase (သို့) Mitosis တွင် ဖြစ်ပွားသလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Occurs During Interphase", "Occurs During Mitosis"],
+        bucketsMy: ["Interphase တွင် ဖြစ်ပွား", "Mitosis တွင် ဖြစ်ပွား"],
+        items: [
+          SortingItem(
+            id: "y12bio-w18-sort-1",
+            labelEn: "DNA replication, forming sister chromatids",
+            labelMy: "Sister Chromatid ဖွဲ့စည်းသော DNA Replication",
+            correctBucketEn: "Occurs During Interphase",
+            correctBucketMy: "Interphase တွင် ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w18-sort-2",
+            labelEn: "The cell growing larger and producing more organelles",
+            labelMy: "ဆဲလ် ပိုကြီးထွားလာပြီး Organelle ပိုများ ထုတ်လုပ်ခြင်း",
+            correctBucketEn: "Occurs During Interphase",
+            correctBucketMy: "Interphase တွင် ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w18-sort-3",
+            labelEn: "Chromosomes condensing and becoming visible",
+            labelMy: "Chromosome များ ကျစ်လျစ်လာပြီး မြင်ရလာခြင်း",
+            correctBucketEn: "Occurs During Mitosis",
+            correctBucketMy: "Mitosis တွင် ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w18-sort-4",
+            labelEn: "Sister chromatids separating and moving to opposite poles",
+            labelMy: "Sister Chromatid များ ခွဲထွက်ပြီး ဆန့်ကျင်ဘက် Pole များသို့ ရွေ့လျားခြင်း",
+            correctBucketEn: "Occurs During Mitosis",
+            correctBucketMy: "Mitosis တွင် ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w18-sort-5",
+            labelEn: "The nuclear envelope breaking down completely",
+            labelMy: "Nuclear Envelope လုံးဝ ပြိုလဲကျခြင်း",
+            correctBucketEn: "Occurs During Mitosis",
+            correctBucketMy: "Mitosis တွင် ဖြစ်ပွား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Interphase Takes So Long",
+      titleMy: "စာဖတ်ခြင်း - Interphase ဤမျှ ကြာသည့်အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Interphase Takes So Long",
+        titleMy: "Interphase ဤမျှ ကြာသည့်အကြောင်း",
+        passageEn:
+            "Htet Aung was surprised when Sayar Zaw Min showed the class a time-lapse video of a dividing cell: the actual process of mitosis -- chromosomes condensing, aligning, separating, and the cell splitting into two -- took up only a small fraction of the whole video, while the cell spent most of its time looking almost unchanged. \"Is the cell just resting for most of its cycle?\" he asked.\n\nSu Su answered before Sayar Zaw Min could: interphase, which makes up roughly 90% of the cell cycle in a typical dividing cell, is anything but restful. During G1, the cell is busy growing, making new proteins and organelles, and building up the resources it will need. During S phase, every one of the cell's chromosomes must be replicated with extremely high accuracy, producing two identical sister chromatids for each one -- a process that itself takes considerable time to complete correctly. During G2, the cell continues growing and specifically checks that DNA replication was completed without errors, repairing any problems it finds before committing to division.\n\n\"That's exactly the point,\" Sayar Zaw Min confirmed. \"Mitosis itself is comparatively quick precisely because all of the slow, careful preparation -- growth, replication, error-checking -- has already happened during interphase. A cell that skipped straight to mitosis without first completing interphase properly would divide with damaged or incompletely copied DNA, which is exactly the kind of failure that leads to the uncontrolled division we call cancer, something we'll look at more closely later this term.\"",
+        passageMy:
+            "ဆဲလ်တစ်ခု ခွဲပွားနေသည့် Time-lapse ဗီဒီယိုတစ်ခုကို ဆရာဇော်မင်း အတန်းအား ပြသောအခါ Htet Aung အံ့သြခဲ့သည် - Mitosis ၏ အမှန်တကယ် လုပ်ငန်းစဉ် -- Chromosome များ ကျစ်လျစ်ခြင်း၊ တန်းစီခြင်း၊ ခွဲထွက်ခြင်းနှင့် ဆဲလ် နှစ်ခုအဖြစ် ကွဲသွားခြင်း -- သည် ဗီဒီယိုတစ်ခုလုံး၏ အနည်းငယ်သာ ကြာသည်ကို တွေ့ခဲ့ပြီး ဆဲလ်သည် ၎င်း၏ အချိန်အများစုကို လုံးဝနီးပါး မပြောင်းလဲသော အခြေအနေဖြင့် ဖြတ်သန်းသည်ကို တွေ့ရသည်။ \"ဆဲလ်သည် ၎င်း၏ Cycle အများစုတွင် နားနေရုံသာလား\" ဟု သူ မေးခဲ့သည်။\n\nဆရာဇော်မင်း မရှင်းပြခင် Su Su ကိုယ်တိုင် ဖြေကြားခဲ့သည် - ပုံမှန် ခွဲပွားနေသော ဆဲလ်တစ်ခု၏ Cell Cycle ၏ ခန့်မှန်းရာခိုင်နှုန်း 90 ခန့် ဖြစ်သော Interphase သည် လုံးဝ အနားယူချိန် မဟုတ်ပါ။ G1 အတွင်း ဆဲလ်သည် ကြီးထွားခြင်း၊ Protein နှင့် Organelle အသစ်များ ဖန်တီးခြင်း၊ လိုအပ်မည့် အရင်းအမြစ်များ တည်ဆောက်ခြင်းတို့ဖြင့် အလုပ်ရှုပ်နေသည်။ S Phase အတွင်း ဆဲလ်၏ Chromosome တစ်ခုစီကို အလွန်တိကျစွာ Replicate ပြုရမည်ဖြစ်ပြီး တစ်ခုစီအတွက် တူညီသော Sister Chromatid နှစ်ခု ထုတ်လုပ်ရသည် -- ၎င်းသည် မှန်ကန်စွာ ပြီးမြောက်ရန် သိသာသော အချိန် ကြာသည့် လုပ်ငန်းစဉ်ပင် ဖြစ်သည်။ G2 အတွင်း ဆဲလ်သည် ဆက်လက်ကြီးထွားနေပြီး DNA Replication ကို အမှားမပါဘဲ ပြီးစီးကြောင်း တိတိကျကျ စစ်ဆေးကာ တွေ့ရှိသော ပြဿနာများကို ခွဲပွားရန် အတည်ပြုမီ ပြင်ဆင်ပေးသည်။\n\n\"ထိုအချက်ပင် အတိအကျ ဖြစ်သည်\" ဟု ဆရာဇော်မင်း အတည်ပြုပေးခဲ့သည် \"Mitosis ကိုယ်တိုင်သည် နှိုင်းယှဉ်အားဖြင့် မြန်ဆန်ရသည့် အကြောင်းရင်းမှာ နှေးကွေးပြီး ဂရုတစိုက် ပြင်ဆင်မှု အားလုံး -- ကြီးထွားမှု၊ Replication၊ အမှားစစ်ဆေးမှု -- ကို Interphase အတွင်း ပြီးစီးပြီးသားဖြစ်နေသောကြောင့်ဖြစ်သည်။ Interphase ကို မှန်ကန်စွာ မပြီးစီးမီ Mitosis ဆီသို့ တိုက်ရိုက် ကျော်သွားသော ဆဲလ်တစ်ခုသည် ပျက်စီးထားသော (သို့) မပြည့်စုံစွာ ကူးယူထားသော DNA ဖြင့် ခွဲပွားလိမ့်မည်ဖြစ်ပြီး ၎င်းသည် ကျွန်ုပ်တို့ ဤ Term နောက်ပိုင်းတွင် ပိုမိုနီးကပ်စွာ လေ့လာမည့် Cancer ဟု ခေါ်သော ထိန်းချုပ်မှုမရှိသည့် ခွဲပွားမှုကို ဖြစ်စေသော ချို့ယွင်းချက် အတိအကျ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, roughly what percentage of the cell cycle is interphase?",
+            questionMy: "Interphase သည် Cell Cycle ၏ ခန့်မှန်း မည်မျှ ရာခိုင်နှုန်း ဖြစ်သည်ကို Su Su ၏ ဖြေကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: ["Roughly 90%", "Roughly 10%", "Exactly 50%", "0%"],
+            optionsMy: ["ခန့်မှန်း 90%", "ခန့်မှန်း 10%", "အတိအကျ 50%", "0%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what does the cell check during G2?",
+            questionMy: "G2 အတွင်း ဆဲလ်သည် အဘယ်ကို စစ်ဆေးသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That DNA replication was completed without errors",
+              "That the cell wall has fully dissolved",
+              "That the cell has stopped growing forever",
+              "That mitosis has already finished",
+            ],
+            optionsMy: [
+              "DNA Replication ကို အမှားမပါဘဲ ပြီးစီးကြောင်း",
+              "Cell Wall လုံးဝ ပျော်ဝင်ပြီးကြောင်း",
+              "ဆဲလ် အမြဲတမ်း ကြီးထွားခြင်း ရပ်တန့်ကြောင်း",
+              "Mitosis ပြီးဆုံးပြီးသားဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description of G2."],
+            hintsMy: ["G2 ဖော်ပြချက်ကို ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, what can result from a cell dividing without completing interphase properly?",
+            questionMy: "Interphase ကို မှန်ကန်စွာ မပြီးစီးဘဲ ဆဲလ်တစ်ခု ခွဲပွားခြင်းမှ အဘယ် ဖြစ်နိုင်သည်ကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Uncontrolled division, such as cancer",
+              "A perfectly healthy cell every time",
+              "The cell becoming a bacterium",
+              "The complete disappearance of the nucleus",
+            ],
+            optionsMy: [
+              "Cancer ကဲ့သို့ ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှု",
+              "အခါတိုင်း လုံးဝကျန်းမာသော ဆဲလ်",
+              "ဆဲလ်သည် ဘက်တီးရီးယားအဖြစ် ပြောင်းလဲသွားခြင်း",
+              "Nucleus လုံးဝ ပျောက်ကွယ်သွားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: The Cell Cycle",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၈ ပြန်လည်သုံးသပ်ခြင်း - Cell Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "DNA replication happens during...",
+          questionMy: "DNA Replication သည် ...အတွင်း ဖြစ်ပွားသည်",
+          optionsEn: ["S phase", "G1 phase", "Mitosis", "Cytokinesis"],
+          optionsMy: ["S Phase", "G1 Phase", "Mitosis", "Cytokinesis"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Interphase consists of...",
+          questionMy: "Interphase သည် ...ဖြင့် ဖွဲ့စည်းထားသည်",
+          optionsEn: ["G1, S and G2 phases", "Only mitosis", "Only cytokinesis", "Only anaphase"],
+          optionsMy: ["G1, S နှင့် G2 Phase", "Mitosis တစ်ခုတည်း", "Cytokinesis တစ်ခုတည်း", "Anaphase တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cytokinesis refers to...",
+          questionMy: "Cytokinesis ဆိုသည်မှာ...",
+          optionsEn: [
+            "The physical division of the cytoplasm into two cells",
+            "DNA replication",
+            "Chromosome condensation",
+            "The formation of ribosomes",
+          ],
+          optionsMy: [
+            "Cytoplasm ကို ဆဲလ်နှစ်ခုအဖြစ် ရုပ်ပိုင်းဆိုင်ရာ ခွဲထုတ်ခြင်း",
+            "DNA Replication",
+            "Chromosome ကျစ်လျစ်ခြင်း",
+            "Ribosome ဖွဲ့စည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Stages of Mitosis"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek19 = CourseWeekDef(
+  id: "course-y12-bio-w19",
+  weekNumber: 19,
+  titleEn: "Stages of Mitosis",
+  titleMy: "Mitosis ၏ အဆင့်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w19-d1",
+      dayNumber: 1,
+      titleEn: "Prophase, Metaphase, Anaphase and Telophase",
+      titleMy: "Prophase, Metaphase, Anaphase နှင့် Telophase",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During prophase, chromosomes condense and become visible, and the...",
+          questionMy: "Prophase အတွင်း Chromosome များ ကျစ်လျစ်လာပြီး မြင်ရလာကာ...",
+          optionsEn: [
+            "Nuclear envelope breaks down and spindle fibres begin to form",
+            "Sister chromatids separate completely",
+            "Cytoplasm physically splits into two",
+            "DNA is replicated for the first time",
+          ],
+          optionsMy: [
+            "Nuclear Envelope ပြိုလဲကျပြီး Spindle Fibre များ ဖွဲ့စည်းစပြုသည်",
+            "Sister Chromatid များ လုံးဝ ခွဲထွက်သည်",
+            "Cytoplasm ကို နှစ်ခုအဖြစ် ရုပ်ပိုင်းဆိုင်ရာ ကွဲသွားသည်",
+            "DNA ကို ပထမဆုံးအကြိမ် Replicate ပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Prophase is the first, preparatory stage of mitosis: chromosomes condense, the nuclear envelope breaks down, and spindle fibres begin to grow from opposite poles of the cell.",
+          ],
+          hintsMy: [
+            "Prophase သည် Mitosis ၏ ပထမ ပြင်ဆင်ရေး အဆင့် ဖြစ်သည် - Chromosome များ ကျစ်လျစ်လာပြီး Nuclear Envelope ပြိုလဲကျကာ Spindle Fibre များသည် ဆဲလ်၏ ဆန့်ကျင်ဘက် Pole များမှ ကြီးထွားစပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During metaphase, chromosomes...",
+          questionMy: "Metaphase အတွင်း Chromosome များသည်...",
+          optionsEn: [
+            "Line up individually along the equator of the cell, attached to spindle fibres",
+            "Are still tightly packed inside an intact nucleus",
+            "Have already separated and reached opposite poles",
+            "Begin to decondense back into chromatin",
+          ],
+          optionsMy: [
+            "Spindle Fibre များနှင့် ချိတ်ဆက်ထားပြီး ဆဲလ်၏ Equator တစ်လျှောက် တစ်ခုချင်းစီ တန်းစီသည်",
+            "မပြိုလဲသေးသော Nucleus အတွင်း ကျပ်တည်းစွာ ဆက်လက်ရှိနေသည်",
+            "ခွဲထွက်ပြီး ဆန့်ကျင်ဘက် Pole များသို့ ရောက်ရှိပြီးဖြစ်သည်",
+            "Chromatin အဖြစ် ပြန်လည် ကျယ်ပြန့်စပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Meta-\" here refers to the middle -- metaphase is when every chromosome lines up precisely along the cell's equator (metaphase plate), ready for separation.",
+          ],
+          hintsMy: [
+            "ဤနေရာတွင် \"Meta-\" သည် အလယ်ဗဟိုကို ရည်ညွှန်းသည် -- Metaphase သည် Chromosome တိုင်းက ခွဲထွက်ရန် အသင့် ဆဲလ်၏ Equator (Metaphase Plate) တစ်လျှောက် တိကျစွာ တန်းစီသည့်အချိန် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During anaphase, spindle fibres shorten, pulling...",
+          questionMy: "Anaphase အတွင်း Spindle Fibre များ တိုတောင်းလာကာ...",
+          optionsEn: [
+            "Sister chromatids apart, one to each pole of the cell",
+            "Chromosomes back together into one mass",
+            "The nuclear envelope to reform immediately",
+            "Ribosomes toward the cell membrane",
+          ],
+          optionsMy: [
+            "Sister Chromatid များကို ဆဲလ်၏ Pole တစ်ခုစီသို့ ခွဲဆွဲသည်",
+            "Chromosome များကို အစုတစ်ခုတည်းအဖြစ် ပြန်စုစည်းသည်",
+            "Nuclear Envelope ကို ချက်ချင်း ပြန်ဖွဲ့စည်းသည်",
+            "Ribosome များကို Cell Membrane ဘက်သို့ ဆွဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Anaphase is the separation stage -- the centromere splits, and each sister chromatid (now its own full chromosome) is pulled to opposite poles.",
+          ],
+          hintsMy: [
+            "Anaphase သည် ခွဲထွက်ရေး အဆင့် ဖြစ်သည် -- Centromere ကွဲထွက်ပြီး Sister Chromatid တစ်ခုစီ (ယခု ကိုယ်ပိုင် Chromosome အပြည့်အစုံ) ကို ဆန့်ကျင်ဘက် Pole များသို့ ဆွဲသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Four Stages of Mitosis",
+      titleMy: "တွဲစပ်ကြမည် - Mitosis ၏ အဆင့်လေးဆင့်",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w19-dm-1",
+          termEn: "Prophase",
+          termMy: "Prophase",
+          matchEn: "Chromosomes condense and the nuclear envelope breaks down",
+          matchMy: "Chromosome များ ကျစ်လျစ်ပြီး Nuclear Envelope ပြိုလဲကျသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w19-dm-2",
+          termEn: "Metaphase",
+          termMy: "Metaphase",
+          matchEn: "Chromosomes line up along the cell's equator",
+          matchMy: "Chromosome များ ဆဲလ်၏ Equator တစ်လျှောက် တန်းစီသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w19-dm-3",
+          termEn: "Anaphase",
+          termMy: "Anaphase",
+          matchEn: "Sister chromatids separate and move to opposite poles",
+          matchMy: "Sister Chromatid များ ခွဲထွက်ပြီး ဆန့်ကျင်ဘက် Pole များသို့ ရွေ့လျားသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w19-dm-4",
+          termEn: "Telophase",
+          termMy: "Telophase",
+          matchEn: "Nuclear envelopes reform and chromosomes decondense at each pole",
+          matchMy: "Nuclear Envelope များ ပြန်ဖွဲ့စည်းပြီး Pole တစ်ခုစီတွင် Chromosome များ ပြန်ကျယ်ပြန့်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w19-dm-5",
+          termEn: "Spindle fibre",
+          termMy: "Spindle Fibre",
+          matchEn: "A protein structure that pulls chromosomes apart during anaphase",
+          matchMy: "Anaphase အတွင်း Chromosome များကို ခွဲဆွဲပေးသော Protein ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Early Mitosis or Late Mitosis?",
+      titleMy: "စီစစ်ကြမည် - Mitosis အစောပိုင်းလား၊ နှောင်းပိုင်းလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Early Mitosis (Prophase/Metaphase)", "Late Mitosis (Anaphase/Telophase)"],
+        bucketsMy: ["Mitosis အစောပိုင်း (Prophase/Metaphase)", "Mitosis နှောင်းပိုင်း (Anaphase/Telophase)"],
+        items: [
+          SortingItem(
+            id: "y12bio-w19-sort-1",
+            labelEn: "Chromosomes are still joined together at the centromere",
+            labelMy: "Chromosome များသည် Centromere တွင် ဆက်လက် ချိတ်ဆက်နေသည်",
+            correctBucketEn: "Early Mitosis (Prophase/Metaphase)",
+            correctBucketMy: "Mitosis အစောပိုင်း (Prophase/Metaphase)",
+          ),
+          SortingItem(
+            id: "y12bio-w19-sort-2",
+            labelEn: "Chromosomes are lined up precisely at the equator",
+            labelMy: "Chromosome များသည် Equator တွင် တိကျစွာ တန်းစီထားသည်",
+            correctBucketEn: "Early Mitosis (Prophase/Metaphase)",
+            correctBucketMy: "Mitosis အစောပိုင်း (Prophase/Metaphase)",
+          ),
+          SortingItem(
+            id: "y12bio-w19-sort-3",
+            labelEn: "Sister chromatids have already separated into two groups",
+            labelMy: "Sister Chromatid များသည် အုပ်စုနှစ်စုအဖြစ် ခွဲထွက်ပြီးသား ဖြစ်သည်",
+            correctBucketEn: "Late Mitosis (Anaphase/Telophase)",
+            correctBucketMy: "Mitosis နှောင်းပိုင်း (Anaphase/Telophase)",
+          ),
+          SortingItem(
+            id: "y12bio-w19-sort-4",
+            labelEn: "Two new nuclear envelopes are reforming",
+            labelMy: "Nuclear Envelope အသစ်နှစ်ခု ပြန်ဖွဲ့စည်းနေသည်",
+            correctBucketEn: "Late Mitosis (Anaphase/Telophase)",
+            correctBucketMy: "Mitosis နှောင်းပိုင်း (Anaphase/Telophase)",
+          ),
+          SortingItem(
+            id: "y12bio-w19-sort-5",
+            labelEn: "The nuclear envelope has just broken down and spindle fibres are forming",
+            labelMy: "Nuclear Envelope ယခုမှ ပြိုလဲကျပြီး Spindle Fibre များ ဖွဲ့စည်းနေသည်",
+            correctBucketEn: "Early Mitosis (Prophase/Metaphase)",
+            correctBucketMy: "Mitosis အစောပိုင်း (Prophase/Metaphase)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Onion Root Tip Squash",
+      titleMy: "စာဖတ်ခြင်း - ကြက်သွန်နီ Root Tip Squash",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Onion Root Tip Squash",
+        titleMy: "ကြက်သွန်နီ Root Tip Squash",
+        passageEn:
+            "Sayar Zaw Min set the classic onion root tip squash practical, since root tips contain a meristem -- a region of rapidly and continuously dividing cells -- making it easy to catch cells at every stage of mitosis on a single slide. Su Su stained the squashed root tip with a dye that binds strongly to DNA, then scanned the slide under high power, sketching and labelling every distinct pattern she found.\n\nMost of the cells she saw had a single, evenly stained nucleus with no visible individual chromosomes -- these were in interphase, not currently dividing. Among the dividing cells, she found a few with condensed but still loosely scattered chromosomes and no visible nuclear envelope: prophase. She then found cells with chromosomes clearly aligned in a straight line across the middle of the cell -- unmistakably metaphase.\n\nHtet Aung took over identifying the rarer, later stages: he found one cell with two distinct clusters of chromosomes, clearly pulled toward opposite ends of the cell, still joined by thinning spindle fibres -- anaphase. Finally, he spotted a cell with two separate, loosely diffuse nuclei forming at either end, with a visible pinch beginning in the middle where the cytoplasm was starting to divide -- telophase moving into cytokinesis. \"Because interphase takes up most of the cycle,\" Sayar Zaw Min reminded them as they counted up their results, \"you should expect far more interphase cells on this slide than cells in any single stage of mitosis -- and if you count carefully, the relative numbers of each stage even tell you roughly how long that stage lasts compared to the whole cycle.\"",
+        passageMy:
+            "Root Tip တွင် Meristem -- လျင်မြန်စွာနှင့် အဆက်မပြတ် ခွဲပွားနေသော ဆဲလ်ဒေသ -- ပါဝင်သောကြောင့် Slide တစ်ခုတည်းပေါ်တွင် Mitosis ၏ အဆင့်တိုင်းရှိ ဆဲလ်များကို လွယ်ကူစွာ ဖမ်းယူနိုင်သောကြောင့် ဆရာဇော်မင်းသည် ရှေးရိုးစွဲ ကြက်သွန်နီ Root Tip Squash Practical ကို စီစဉ်ပေးခဲ့သည်။ Su Su သည် ကြိတ်ချေထားသော Root Tip ကို DNA နှင့် ခိုင်မာစွာ ချိတ်ဆက်သော Dye ဖြင့် စွန်းထင်ပြီး High Power ဖြင့် Slide ကို စကင်ဖတ်ကာ တွေ့ရှိသမျှ သီးခြား Pattern တိုင်းကို ရေးဆွဲအမည်တပ်ခဲ့သည်။\n\nသူ တွေ့ခဲ့သော ဆဲလ်အများစုတွင် ခွဲထွက်ထားသော Chromosome မမြင်ရဘဲ အညီအမျှ စွန်းထင်ထားသော Nucleus တစ်ခုတည်း ရှိသည် -- ဤသည်တို့သည် လက်ရှိ မခွဲမပွားသေးသော Interphase ဆဲလ်များ ဖြစ်ကြသည်။ ခွဲပွားနေသော ဆဲလ်များထဲမှ Chromosome ကျစ်လျစ်ထားသော်လည်း ဆက်လက် ပျံ့ကျဲနေဆဲနှင့် Nuclear Envelope မမြင်ရသော ဆဲလ်အနည်းငယ်ကို တွေ့ခဲ့သည် - Prophase ။ ထို့နောက် ဆဲလ်အလယ်တစ်လျှောက် ဖြောင့်တန်းသော မျဉ်းအဖြစ် ရှင်းလင်းစွာ တန်းစီထားသော Chromosome ရှိသော ဆဲလ်များကို တွေ့ခဲ့သည် -- Metaphase ကို အထင်အရှားပင် ဖြစ်သည်။\n\nအဆင့်ရှားပြီး နောက်ပိုင်း အဆင့်များကို ဖော်ထုတ်ရန် Htet Aung ဆက်လက် တာဝန်ယူခဲ့သည် - ဆန့်ကျင်ဘက် အစွန်းများသို့ ရှင်းလင်းစွာ ဆွဲထုတ်ထားပြီး ပါးလွှာလာနေသော Spindle Fibre များဖြင့် ဆက်လက် ချိတ်ဆက်ထားသော Chromosome အစုအဝေး ရှင်းလင်းစွာ နှစ်စု ရှိသော ဆဲလ်တစ်ခုကို သူ တွေ့ခဲ့သည် -- Anaphase ။ နောက်ဆုံးတွင် အစွန်းနှစ်ဖက်တွင် ပေါ့ပေါ့ပါးပါး ပျံ့ကျဲနေသော Nucleus သီးခြားနှစ်ခု ဖွဲ့စည်းနေပြီး Cytoplasm စတင် ခွဲထွက်နေသော အလယ်တွင် ကျစ်ညပ်စတင်နေသည်ကို မြင်ရသော ဆဲလ်တစ်ခုကို သူ တွေ့ရှိခဲ့သည် -- Cytokinesis ဆီသို့ ရွေ့လျားနေသော Telophase ။ \"Interphase သည် Cycle ၏ အများစုကို ယူထားသောကြောင့်\" ဟု ရလဒ်များကို ရေတွက်နေစဉ် ဆရာဇော်မင်းက ပြန်သတိပေးခဲ့သည် \"ဤ Slide ပေါ်တွင် Mitosis ၏ အဆင့်တစ်ခုချင်းစီရှိ ဆဲလ်များထက် Interphase ဆဲလ်ပိုများစွာ တွေ့ရှိရမည် ဟု မျှော်လင့်သင့်သည် -- ဂရုတစိုက် ရေတွက်ပါက အဆင့်တစ်ခုစီ၏ ဆေးလ်အရေအတွက် အချိုးအစားက ထို့အဆင့်သည် Cycle တစ်ခုလုံးနှင့် နှိုင်းယှဉ်လျှင် မည်မျှ ကြာသည်ကိုပင် ခန့်မှန်းပြပေးနိုင်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why is a root tip a good place to observe mitosis?",
+            questionMy: "Root Tip သည် Mitosis ကို လေ့လာရန် ကောင်းသော နေရာဖြစ်သည့်အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It contains a meristem of rapidly and continuously dividing cells",
+              "It contains no cells at all",
+              "It never grows",
+              "It only contains bacteria",
+            ],
+            optionsMy: [
+              "လျင်မြန်စွာနှင့် အဆက်မပြတ် ခွဲပွားနေသော ဆဲလ်များ Meristem ပါဝင်သောကြောင့်",
+              "ဆဲလ် လုံးဝ မပါဝင်သောကြောင့်",
+              "လုံးဝ မကြီးထွားသောကြောင့်",
+              "ဘက်တီးရီးယားသာ ပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what identified a metaphase cell?",
+            questionMy: "Metaphase ဆဲလ်ကို အဘယ်က ခွဲခြားသတ်မှတ်စေသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Chromosomes aligned in a straight line across the middle of the cell",
+              "Two separate diffuse nuclei",
+              "A single evenly stained nucleus with no visible chromosomes",
+              "A pinch beginning in the cytoplasm",
+            ],
+            optionsMy: [
+              "ဆဲလ်အလယ်တစ်လျှောက် ဖြောင့်တန်းသော မျဉ်းအဖြစ် တန်းစီထားသော Chromosome",
+              "ပျံ့ကျဲနေသော Nucleus သီးခြားနှစ်ခု",
+              "Chromosome မမြင်ရဘဲ အညီအမျှ စွန်းထင်ထားသော Nucleus တစ်ခုတည်း",
+              "Cytoplasm တွင် စတင်နေသော ကျစ်ညပ်မှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description of metaphase."],
+            hintsMy: ["Metaphase ဖော်ပြချက်ကို ဒုတိယစာပိုဒ်တွင် ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, why should interphase cells outnumber cells in any one stage of mitosis?",
+            questionMy: "Interphase ဆဲလ်များသည် Mitosis ၏ အဆင့်တစ်ခုတည်းရှိ ဆဲလ်များထက် အရေအတွက် ပိုများသင့်သည့်အကြောင်းရင်းကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Interphase takes up most of the total cell cycle",
+              "Mitosis never actually happens in root tips",
+              "Interphase cells are larger and easier to see",
+              "Every cell in the root tip is dead",
+            ],
+            optionsMy: [
+              "Interphase သည် Cell Cycle စုစုပေါင်း၏ အများစုကို ယူထားသောကြောင့်",
+              "Mitosis သည် Root Tip တွင် လုံးဝ မဖြစ်ပွားသောကြောင့်",
+              "Interphase ဆဲလ်များသည် ပိုကြီးမားပြီး မြင်ရလွယ်ကူသောကြောင့်",
+              "Root Tip ရှိ ဆဲလ်တိုင်း သေဆုံးနေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing sentence."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Stages of Mitosis",
+      titleMy: "သက္ကရာဇ်ပတ် ၁၉ ပြန်လည်သုံးသပ်ခြင်း - Mitosis ၏ အဆင့်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Chromosomes align at the equator during...",
+          questionMy: "Chromosome များသည် ...အတွင်း Equator တွင် တန်းစီသည်",
+          optionsEn: ["Metaphase", "Prophase", "Anaphase", "Telophase"],
+          optionsMy: ["Metaphase", "Prophase", "Anaphase", "Telophase"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sister chromatids separate during...",
+          questionMy: "Sister Chromatid များသည် ...အတွင်း ခွဲထွက်သည်",
+          optionsEn: ["Anaphase", "Prophase", "Metaphase", "Interphase"],
+          optionsMy: ["Anaphase", "Prophase", "Metaphase", "Interphase"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "New nuclear envelopes reform during...",
+          questionMy: "Nuclear Envelope အသစ်များသည် ...အတွင်း ပြန်ဖွဲ့စည်းသည်",
+          optionsEn: ["Telophase", "Prophase", "Metaphase", "Anaphase"],
+          optionsMy: ["Telophase", "Prophase", "Metaphase", "Anaphase"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20: "Cell Cycle Regulation and Cancer" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek20 = CourseWeekDef(
+  id: "course-y12-bio-w20",
+  weekNumber: 20,
+  titleEn: "Cell Cycle Regulation and Cancer",
+  titleMy: "Cell Cycle ထိန်းချုပ်ခြင်းနှင့် ကင်ဆာ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w20-d1",
+      dayNumber: 1,
+      titleEn: "Checkpoints and Cancer as Uncontrolled Division",
+      titleMy: "Checkpoint များနှင့် ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှုအဖြစ် ကင်ဆာ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Cell cycle checkpoints exist mainly to...",
+          questionMy: "Cell Cycle Checkpoint များ တည်ရှိရသည့် အဓိက ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Verify each stage was completed correctly before allowing the cycle to continue",
+            "Speed up the cell cycle as much as possible with no checks",
+            "Prevent the cell from ever dividing",
+            "Destroy the cell immediately after mitosis",
+          ],
+          optionsMy: [
+            "Cycle ဆက်လက် လုပ်ဆောင်ခွင့်မပြုမီ အဆင့်တစ်ခုစီ မှန်ကန်စွာ ပြီးစီးကြောင်း အတည်ပြုစစ်ဆေးရန်",
+            "စစ်ဆေးမှု မရှိဘဲ Cell Cycle ကို တတ်နိုင်သမျှ မြန်ဆန်စေရန်",
+            "ဆဲလ်ကို ဘယ်တော့မှ ခွဲပွားခွင့် မပေးရန်",
+            "Mitosis ပြီးနောက် ဆဲလ်ကို ချက်ချင်း ဖျက်ဆီးရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Checkpoints act like quality-control inspection points -- for example checking DNA replicated without errors -- stopping the cycle from continuing until any problems are fixed.",
+          ],
+          hintsMy: [
+            "Checkpoint များသည် အရည်အသွေး-ထိန်းချုပ်ရေး စစ်ဆေးရေးအမှတ်များကဲ့သို့ လုပ်ဆောင်သည် -- ဥပမာ DNA ကို အမှားမပါဘဲ Replicate ပြုကြောင်း စစ်ဆေးခြင်း -- ပြဿနာများ ဖြေရှင်းသည်အထိ Cycle ဆက်လက် လုပ်ဆောင်ခြင်းကို ရပ်တန့်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Cancer is best described as...",
+          questionMy: "Cancer ကို အကောင်းဆုံးဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "Uncontrolled cell division caused by a failure of normal cell cycle regulation",
+            "A type of virus that only attacks plant cells",
+            "The normal, healthy process of cell replacement",
+            "A disease that only affects the nucleus, never the cytoplasm",
+          ],
+          optionsMy: [
+            "ပုံမှန် Cell Cycle ထိန်းချုပ်မှု ချို့ယွင်းမှုကြောင့် ဖြစ်ပေါ်လာသော ထိန်းချုပ်မှုမရှိသော ဆဲလ်ခွဲပွားမှု",
+            "အပင်ဆဲလ်များကိုသာ တိုက်ခိုက်သော Virus အမျိုးအစား",
+            "ပုံမှန် ကျန်းမာသော ဆဲလ်အစားထိုးမှု လုပ်ငန်းစဉ်",
+            "Nucleus ကိုသာ ဒဏ်ရာရစေပြီး Cytoplasm ကို ဘယ်တော့မှ မထိခိုက်သော ရောဂါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "When checkpoints fail to catch a damaged cell, that cell can keep dividing without the normal controls, building up into a mass of cells -- a tumour.",
+          ],
+          hintsMy: [
+            "Checkpoint များသည် ဒဏ်ရာရထားသော ဆဲလ်ကို ဖမ်းယူ၍ မရသောအခါ ထိုဆဲလ်သည် ပုံမှန် ထိန်းချုပ်မှုများ မပါဘဲ ခွဲပွားနေနိုင်ပြီး ဆဲလ်အစုအဝေး -- Tumour -- အဖြစ် တည်ဆောက်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A mass of abnormally dividing cells is called a...",
+          questionMy: "မမှန်စွာ ခွဲပွားနေသော ဆဲလ်အစုအဝေးကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Tumour", "Nucleolus", "Vesicle", "Chromatid"],
+          optionsMy: ["အကျိတ် (Tumour)", "Nucleolus", "Vesicle", "Chromatid"],
+          correctIndex: 0,
+          hintsEn: [
+            "A tumour is a physical mass built up from cells that kept dividing when normal checkpoints should have stopped them.",
+          ],
+          hintsMy: [
+            "Tumour သည် ပုံမှန် Checkpoint များက ရပ်တန့်သင့်သော်လည်း ဆက်လက် ခွဲပွားနေသော ဆဲလ်များမှ တည်ဆောက်ထားသော ရုပ်ပိုင်းဆိုင်ရာ အစုအဝေး ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Cell Cycle Regulation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Cell Cycle ထိန်းချုပ်ခြင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w20-dm-1",
+          termEn: "Checkpoint",
+          termMy: "Checkpoint",
+          matchEn: "A point in the cell cycle where conditions are verified before the cycle continues",
+          matchMy: "Cycle ဆက်လက်မီ အခြေအနေများကို အတည်ပြုစစ်ဆေးရာ Cell Cycle ၏ အမှတ်တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w20-dm-2",
+          termEn: "Tumour",
+          termMy: "အကျိတ် (Tumour)",
+          matchEn: "A mass of cells formed by uncontrolled cell division",
+          matchMy: "ထိန်းချုပ်မှုမရှိသော ဆဲလ်ခွဲပွားမှုမှ ဖွဲ့စည်းထားသော ဆဲလ်အစုအဝေး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w20-dm-3",
+          termEn: "Cancer",
+          termMy: "ကင်ဆာ (Cancer)",
+          matchEn: "A disease caused by uncontrolled cell division following a failure of cell cycle regulation",
+          matchMy: "Cell Cycle ထိန်းချုပ်မှု ချို့ယွင်းမှုကြောင့် ထိန်းချုပ်မှုမရှိသော ဆဲလ်ခွဲပွားမှုမှ ဖြစ်ပေါ်လာသော ရောဂါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w20-dm-4",
+          termEn: "Uncontrolled cell division",
+          termMy: "ထိန်းချုပ်မှုမရှိသော ဆဲလ်ခွဲပွားမှု",
+          matchEn: "Cell division that continues without the normal checkpoint restrictions",
+          matchMy: "ပုံမှန် Checkpoint ကန့်သတ်ချက်များ မပါဘဲ ဆက်လက်ဖြစ်ပွားနေသော ဆဲလ်ခွဲပွားမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w20-dm-5",
+          termEn: "Mutation",
+          termMy: "Mutation",
+          matchEn: "A change in DNA sequence that can disrupt normal cell cycle control if it affects the right genes",
+          matchMy: "မှန်ကန်သော Gene များကို ထိခိုက်ပါက ပုံမှန် Cell Cycle ထိန်းချုပ်မှုကို ဖျက်ဆီးနိုင်သော DNA အစီအစဉ် ပြောင်းလဲမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Normal Regulated Division or Cancerous Uncontrolled Division?",
+      titleMy: "စီစစ်ကြမည် - ပုံမှန် ထိန်းချုပ်ထားသော ခွဲပွားမှုလား၊ Cancer ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှုလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Normal Regulated Division", "Cancerous Uncontrolled Division"],
+        bucketsMy: ["ပုံမှန် ထိန်းချုပ်ထားသော ခွဲပွားမှု", "Cancer ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှု"],
+        items: [
+          SortingItem(
+            id: "y12bio-w20-sort-1",
+            labelEn: "Division stops once checkpoints confirm DNA is undamaged and complete",
+            labelMy: "DNA ဒဏ်ရာမရှိဘဲ ပြည့်စုံကြောင်း Checkpoint များ အတည်ပြုသည်နှင့် ခွဲပွားမှု ရပ်တန့်သည်",
+            correctBucketEn: "Normal Regulated Division",
+            correctBucketMy: "ပုံမှန် ထိန်းချုပ်ထားသော ခွဲပွားမှု",
+          ),
+          SortingItem(
+            id: "y12bio-w20-sort-2",
+            labelEn: "Cells divide continuously, ignoring checkpoint signals",
+            labelMy: "Checkpoint အချက်ပြမှုများကို လျစ်လျူရှုပြီး ဆဲလ်များ အဆက်မပြတ် ခွဲပွားနေသည်",
+            correctBucketEn: "Cancerous Uncontrolled Division",
+            correctBucketMy: "Cancer ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှု",
+          ),
+          SortingItem(
+            id: "y12bio-w20-sort-3",
+            labelEn: "A damaged cell is repaired or destroyed before it can divide further",
+            labelMy: "ဒဏ်ရာရထားသော ဆဲလ်တစ်ခုကို ဆက်လက်မခွဲပွားမီ ပြင်ဆင် (သို့) ဖျက်ဆီးသည်",
+            correctBucketEn: "Normal Regulated Division",
+            correctBucketMy: "ပုံမှန် ထိန်းချုပ်ထားသော ခွဲပွားမှု",
+          ),
+          SortingItem(
+            id: "y12bio-w20-sort-4",
+            labelEn: "A mass of abnormal cells (a tumour) grows larger and larger",
+            labelMy: "မမှန်သော ဆဲလ်အစုအဝေး (Tumour) တစ်ခု ပိုကြီးလာနေသည်",
+            correctBucketEn: "Cancerous Uncontrolled Division",
+            correctBucketMy: "Cancer ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှု",
+          ),
+          SortingItem(
+            id: "y12bio-w20-sort-5",
+            labelEn: "The number of new cells produced roughly balances the number of cells lost",
+            labelMy: "ထုတ်လုပ်ထားသော ဆဲလ်အသစ် အရေအတွက်သည် ဆုံးရှုံးသော ဆဲလ်အရေအတွက်နှင့် ခန့်မှန်း ညီမျှသည်",
+            correctBucketEn: "Normal Regulated Division",
+            correctBucketMy: "ပုံမှန် ထိန်းချုပ်ထားသော ခွဲပွားမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Term's Final Question -- What Goes Wrong in Cancer?",
+      titleMy: "စာဖတ်ခြင်း - Term ၏ နောက်ဆုံးမေးခွန်း -- Cancer တွင် အဘယ်ချို့ယွင်းသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Term's Final Question -- What Goes Wrong in Cancer?",
+        titleMy: "Term ၏ နောက်ဆုံးမေးခွန်း -- Cancer တွင် အဘယ်ချို့ယွင်းသနည်း",
+        passageEn:
+            "For the term's capstone discussion, Sayar Zaw Min asked the class to explain, using everything they had learned about the cell cycle, exactly what goes wrong in a cancer cell. Htet Aung started with the normal picture: a healthy cell cycle is tightly regulated by checkpoints at several points -- one near the end of G1, checking conditions are right before committing to DNA replication; another near the end of G2, checking that replication finished accurately; and one during mitosis itself, checking that chromosomes are properly attached to the spindle before anaphase begins.\n\nSu Su explained what happens when this regulation fails: a mutation in the DNA sequence -- sometimes caused by radiation, certain chemicals, or simply copying errors that slip through unnoticed -- can damage the genes that control these very checkpoints. If a checkpoint can no longer detect a problem, or can no longer stop the cycle when it should, a cell with damaged DNA is allowed to keep dividing anyway. Each of its daughter cells inherits the same fault, so they too can bypass the checkpoints, and the population of abnormal cells grows exponentially, unrestrained by any of the normal controls that limit healthy tissue growth.\n\n\"That uncontrolled growth is exactly what forms a tumour,\" Sayar Zaw Min concluded, \"and it explains why cancer research spends so much effort studying the checkpoint proteins themselves -- restoring a failed checkpoint, or finding a drug that forces a damaged cell to stop dividing, attacks the problem at its actual source rather than only treating the growing mass of cells after the fact. Everything you've learned this term about interphase, mitosis and regulation isn't separate from cancer biology -- it is cancer biology, just describing what happens when it all works correctly.\"",
+        passageMy:
+            "Term ၏ Capstone ဆွေးနွေးမှုအတွက် Cell Cycle အကြောင်း လေ့လာခဲ့သမျှကို အသုံးပြု၍ Cancer ဆဲလ်တွင် အဘယ်ချို့ယွင်းသည်ကို တိကျစွာ ရှင်းပြရန် ဆရာဇော်မင်းက အတန်းအား တောင်းဆိုခဲ့သည်။ Htet Aung ပုံမှန်ရုပ်ပုံမှ စတင်ခဲ့သည် - ကျန်းမာသော Cell Cycle သည် အမှတ်များစွာတွင် Checkpoint များဖြင့် ကျပ်တည်းစွာ ထိန်းချုပ်ထားသည် -- G1 အဆုံးအနီးတွင် တစ်ခု၊ DNA Replication အတည်ပြုမီ အခြေအနေမှန်ကန်ကြောင်း စစ်ဆေးသည်၊ G2 အဆုံးအနီးတွင် အခြားတစ်ခု၊ Replication အတိအကျ ပြီးဆုံးကြောင်း စစ်ဆေးသည်၊ ထို့ပြင် Mitosis ကိုယ်တိုင်တွင် တစ်ခု၊ Anaphase မစခင် Chromosome များ Spindle နှင့် မှန်ကန်စွာ ချိတ်ဆက်ကြောင်း စစ်ဆေးသည်။\n\nဤထိန်းချုပ်မှု ချို့ယွင်းသောအခါ အဘယ်ဖြစ်လာသည်ကို Su Su ရှင်းပြခဲ့သည် - DNA အစီအစဉ်တွင် Mutation တစ်ခု -- တစ်ခါတစ်ရံ Radiation၊ ဓာတုပစ္စည်းအချို့၊ (သို့) သတိမမူဘဲ ဖြတ်သန်းသွားသော ကူးယူမှု အမှားများကြောင့် ဖြစ်တတ်သည် -- သည် ဤ Checkpoint များကို ထိန်းချုပ်သော Gene များကိုပင် ထိခိုက်စေနိုင်သည်။ Checkpoint တစ်ခုသည် ပြဿနာကို ရှာမတွေ့တော့ပါက (သို့) ရပ်တန့်သင့်သည့်အခါ ရပ်တန့်၍ မရတော့ပါက ဒဏ်ရာရထားသော DNA ရှိသည့် ဆဲလ်တစ်ခုသည် ဆက်လက် ခွဲပွားခွင့် ရရှိသွားသည်။ ၎င်း၏ သားဆဲလ်တစ်ခုစီသည် ချို့ယွင်းချက်တူညီစွာ ရရှိသောကြောင့် ၎င်းတို့သည်လည်း Checkpoint များကို ကျော်လွှားနိုင်ပြီး မမှန်သော ဆဲလ်ဦးရေသည် ကျန်းမာသော Tissue ကြီးထွားမှုကို ကန့်သတ်ပေးသော ပုံမှန် ထိန်းချုပ်မှုများ ဆွဲငင်ခံရခြင်း မရှိဘဲ Exponential အဆင့်ဖြင့် ကြီးထွားသွားသည်။\n\n\"ထို ထိန်းချုပ်မှုမရှိသော ကြီးထွားမှုသည် Tumour တစ်ခုကို ဖွဲ့စည်းစေသည့် အချက်အတိအကျ ဖြစ်သည်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"၎င်းသည် Cancer သုတေသနသည် Checkpoint Protein များကိုယ်တိုင်ကို လေ့လာရန် ဤမျှ ကြိုးပမ်းအားထုတ်ရသည့်အကြောင်းရင်းကို ရှင်းပြသည် -- ချို့ယွင်းနေသော Checkpoint ကို ပြန်လည်တည်ဆောက်ခြင်း (သို့) ဒဏ်ရာရထားသော ဆဲလ်ကို ခွဲပွားခြင်း ရပ်တန့်စေမည့် Drug တစ်ခု ရှာဖွေခြင်းသည် ဆဲလ်အစုအဝေး ကြီးထွားပြီးမှသာ ကုသခြင်းထက် ပြဿနာ၏ အစစ်အမှန် ရင်းမြစ်ကို ဦးတည် တိုက်ခိုက်သည်။ ဤ Term တွင် သင်တို့ လေ့လာခဲ့သမျှ Interphase, Mitosis နှင့် ထိန်းချုပ်မှုအကြောင်းသည် Cancer Biology နှင့် သီးခြားစီ မဟုတ်ပါ -- ၎င်းသည် Cancer Biology ကိုယ်တိုင်ပင် ဖြစ်ပြီး အားလုံး မှန်ကန်စွာ အလုပ်လုပ်သောအခါ အဘယ်ဖြစ်ပွားသည်ကို ဖော်ပြရုံသာ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, when does a checkpoint occur that checks conditions before DNA replication begins?",
+            questionMy: "DNA Replication မစခင် အခြေအနေများကို စစ်ဆေးသော Checkpoint သည် မည်သည့်အချိန်တွင် ဖြစ်ပွားသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Near the end of G1",
+              "Near the end of anaphase",
+              "During telophase only",
+              "It never occurs at all",
+            ],
+            optionsMy: ["G1 အဆုံးအနီးတွင်", "Anaphase အဆုံးအနီးတွင်", "Telophase အတွင်းသာ", "လုံးဝ မဖြစ်ပွားပါ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what can cause a mutation that disrupts checkpoint function?",
+            questionMy: "Checkpoint လုပ်ငန်းဆောင်တာကို ဖျက်ဆီးသော Mutation ကို အဘယ်က ဖြစ်စေနိုင်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Radiation, certain chemicals, or unnoticed copying errors",
+              "Eating too much sugar only",
+              "Cold temperatures only",
+              "A tumour that already exists",
+            ],
+            optionsMy: [
+              "Radiation, ဓာတုပစ္စည်းအချို့ (သို့) သတိမမူသော ကူးယူမှု အမှားများ",
+              "သကြား အလွန်အကျွံ စားခြင်းသာ",
+              "အအေးဓာတ် Temperature သာ",
+              "ရှိပြီးသား Tumour တစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, why does cancer research focus on checkpoint proteins?",
+            questionMy: "Cancer သုတေသနသည် Checkpoint Protein များကို အဘယ်ကြောင့် အာရုံစိုက်သည်ကို ဆရာဇော်မင်း၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It attacks the problem at its actual source rather than only the resulting tumour",
+              "Checkpoint proteins have nothing to do with cancer",
+              "It is easier than studying tumours at all",
+              "Tumours never contain any checkpoint proteins",
+            ],
+            optionsMy: [
+              "ရလာသော Tumour ကိုသာ မကုသဘဲ ပြဿနာ၏ အစစ်အမှန် ရင်းမြစ်ကို ဦးတည် တိုက်ခိုက်သောကြောင့်",
+              "Checkpoint Protein များသည် Cancer နှင့် မည်သို့မျှ မသက်ဆိုင်သောကြောင့်",
+              "Tumour များကို လေ့လာခြင်းထက် ပိုလွယ်ကူသောကြောင့်",
+              "Tumour များတွင် Checkpoint Protein မည်သည်မျှ လုံးဝ မပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: Cell Cycle Regulation and Cancer",
+      titleMy: "သက္ကရာဇ်ပတ် ၂၀ ပြန်လည်သုံးသပ်ခြင်း - Cell Cycle ထိန်းချုပ်ခြင်းနှင့် Cancer",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Checkpoints exist to...",
+          questionMy: "Checkpoint များ တည်ရှိရသည့် ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Verify conditions are correct before the cycle continues",
+            "Speed up mitosis with no restrictions",
+            "Destroy every dividing cell",
+            "Prevent DNA replication forever",
+          ],
+          optionsMy: [
+            "Cycle ဆက်လက်မီ အခြေအနေများ မှန်ကန်ကြောင်း အတည်ပြု",
+            "ကန့်သတ်ချက် မရှိဘဲ Mitosis ကို မြန်ဆန်စေ",
+            "ခွဲပွားနေသော ဆဲလ်တိုင်းကို ဖျက်ဆီး",
+            "DNA Replication ကို အမြဲတမ်း တားဆီး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cancer results from...",
+          questionMy: "Cancer သည် ...မှ ဖြစ်ပေါ်လာသည်",
+          optionsEn: [
+            "Uncontrolled cell division after checkpoint failure",
+            "Perfectly normal cell division",
+            "A cell that never divides at all",
+            "A shortage of ATP only",
+          ],
+          optionsMy: [
+            "Checkpoint ချို့ယွင်းပြီးနောက် ထိန်းချုပ်မှုမရှိသော ဆဲလ်ခွဲပွားမှု",
+            "လုံးဝပုံမှန် ဆဲလ်ခွဲပွားမှု",
+            "လုံးဝ မခွဲမပွားသော ဆဲလ်",
+            "ATP ချို့တဲ့မှုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A tumour is...",
+          questionMy: "Tumour ဆိုသည်မှာ...",
+          optionsEn: [
+            "A mass of cells formed by uncontrolled division",
+            "A single healthy cell",
+            "A type of ribosome",
+            "A phospholipid molecule",
+          ],
+          optionsMy: [
+            "ထိန်းချုပ်မှုမရှိသော ခွဲပွားမှုမှ ဖွဲ့စည်းထားသော ဆဲလ်အစုအဝေး",
+            "ကျန်းမာသော ဆဲလ်တစ်ခုတည်း",
+            "Ribosome အမျိုးအစားတစ်ခု",
+            "Phospholipid မော်လီကျူး",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm5 = CourseTermDef(
+  id: "course-y12-bio-t5",
+  termNumber: 5,
+  titleEn: "The Mitotic Cell Cycle",
+  titleMy: "Mitotic Cell Cycle",
+  weeks: [_y12BioWeek17, _y12BioWeek18, _y12BioWeek19, _y12BioWeek20],
+  certificateTitleEn: "AS Biology: The Mitotic Cell Cycle",
+  certificateTitleMy: "AS ဇီဝဗေဒ - Mitotic Cell Cycle",
+);
+
+// =====================================================================
+// YEAR 12 BIOLOGY -- Term 6: "Nucleic Acids and Protein Synthesis"
+// (Weeks 21-24)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "DNA and RNA Structure"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek21 = CourseWeekDef(
+  id: "course-y12-bio-w21",
+  weekNumber: 21,
+  titleEn: "DNA and RNA Structure",
+  titleMy: "DNA နှင့် RNA ဖွဲ့စည်းပုံ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w21-d1",
+      dayNumber: 1,
+      titleEn: "Nucleotides, the Double Helix and Base Pairing",
+      titleMy: "Nucleotide, Double Helix နှင့် Base Pairing",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Every nucleotide is made of a phosphate group, a sugar and a...",
+          questionMy: "Nucleotide တိုင်းကို Phosphate Group, Sugar နှင့် ...ဖြင့် ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Nitrogenous base",
+            "Second phosphate group only",
+            "Fatty acid",
+            "Amino acid",
+          ],
+          optionsMy: ["Nitrogenous Base", "ဒုတိယ Phosphate Group သာ", "Fatty Acid", "Amino Acid"],
+          correctIndex: 0,
+          hintsEn: [
+            "A nucleotide's three parts are phosphate, sugar, and one of the nitrogenous bases (adenine, thymine, guanine, cytosine or uracil).",
+          ],
+          hintsMy: [
+            "Nucleotide တစ်ခု၏ အစိတ်အပိုင်း သုံးခုမှာ Phosphate, Sugar နှင့် Nitrogenous Base များ (Adenine, Thymine, Guanine, Cytosine (သို့) Uracil) အနက် တစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In DNA, adenine always pairs with thymine, and guanine always pairs with...",
+          questionMy: "DNA တွင် Adenine သည် Thymine နှင့် အမြဲ တွဲစပ်ပြီး Guanine သည် ...နှင့် အမြဲ တွဲစပ်သည်",
+          optionsEn: ["Cytosine", "Adenine", "Uracil", "Another guanine"],
+          optionsMy: ["Cytosine", "Adenine", "Uracil", "Guanine အခြားတစ်ခု"],
+          correctIndex: 0,
+          hintsEn: [
+            "This is complementary base pairing -- A pairs with T (two hydrogen bonds), and G pairs with C (three hydrogen bonds).",
+          ],
+          hintsMy: [
+            "၎င်းသည် Complementary Base Pairing ဖြစ်သည် -- A သည် T နှင့် (Hydrogen Bond နှစ်ခု) နှင့် G သည် C နှင့် (Hydrogen Bond သုံးခု) တွဲစပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "RNA differs from DNA in three main ways: it contains ribose instead of deoxyribose, uracil instead of thymine, and is...",
+          questionMy: "RNA သည် DNA နှင့် အဓိက ကွာခြားချက်သုံးချက် ရှိသည် - Deoxyribose အစား Ribose ပါဝင်ခြင်း၊ Thymine အစား Uracil ပါဝင်ခြင်းနှင့်...",
+          optionsEn: [
+            "Usually single-stranded rather than double-stranded",
+            "Always found only in the mitochondria",
+            "Made of amino acids, not nucleotides",
+            "Never involved in protein synthesis",
+          ],
+          optionsMy: [
+            "Double-stranded မဟုတ်ဘဲ ပုံမှန်အားဖြင့် Single-stranded ဖြစ်ခြင်း",
+            "Mitochondria တွင်သာ အမြဲ တွေ့ရှိခြင်း",
+            "Nucleotide မဟုတ်ဘဲ Amino Acid မှ ဖွဲ့စည်းခြင်း",
+            "Protein Synthesis တွင် ဘယ်တော့မှ ပါဝင်ခြင်း မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "DNA's iconic double helix is two strands wound together; RNA molecules like mRNA and tRNA are typically single strands.",
+          ],
+          hintsMy: [
+            "DNA ၏ ထင်ရှားသော Double Helix သည် ကွင်းဆက်နှစ်ခု အတူတကွ ပတ်ထားခြင်း ဖြစ်ပြီး mRNA နှင့် tRNA ကဲ့သို့ RNA မော်လီကျူးများသည် ပုံမှန်အားဖြင့် ကွင်းဆက်တစ်ခုတည်းသာ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nucleic Acid Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Nucleic Acid ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w21-dm-1",
+          termEn: "Nucleotide",
+          termMy: "Nucleotide",
+          matchEn: "The basic monomer of DNA and RNA: phosphate, sugar and a nitrogenous base",
+          matchMy: "DNA နှင့် RNA ၏ အခြေခံ Monomer - Phosphate, Sugar နှင့် Nitrogenous Base",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w21-dm-2",
+          termEn: "Double helix",
+          termMy: "Double Helix",
+          matchEn: "The twisted, ladder-like shape of the two DNA strands wound together",
+          matchMy: "DNA ကွင်းဆက်နှစ်ခု အတူတကွ ပတ်ထားသော လှေကားပုံသဏ္ဌာန် လှည့်ပတ်ထားသည့် ပုံသဏ္ဌာန်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w21-dm-3",
+          termEn: "Complementary base pairing",
+          termMy: "Complementary Base Pairing",
+          matchEn: "The rule that A always pairs with T (or U in RNA), and G always pairs with C",
+          matchMy: "A သည် T (RNA တွင် U) နှင့် အမြဲတွဲစပ်ပြီး G သည် C နှင့် အမြဲ တွဲစပ်ရမည်ဟူသော စည်းမျဉ်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w21-dm-4",
+          termEn: "Phosphodiester bond",
+          termMy: "Phosphodiester Bond",
+          matchEn: "The covalent bond joining adjacent nucleotides in a strand",
+          matchMy: "ကွင်းဆက်တစ်ခုအတွင်း အနီးဆုံး Nucleotide များကို ချိတ်ဆက်ပေးသော Covalent Bond",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w21-dm-5",
+          termEn: "Deoxyribose",
+          termMy: "Deoxyribose",
+          matchEn: "The five-carbon sugar found in DNA nucleotides",
+          matchMy: "DNA Nucleotide များတွင် တွေ့ရသော Carbon ငါးလုံးပါ Sugar",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True of DNA or True of RNA?",
+      titleMy: "စီစစ်ကြမည် - DNA အရ မှန်လား၊ RNA အရ မှန်လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of DNA", "True of RNA"],
+        bucketsMy: ["DNA အရ မှန်", "RNA အရ မှန်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w21-sort-1",
+            labelEn: "Contains the base thymine",
+            labelMy: "Thymine Base ပါဝင်",
+            correctBucketEn: "True of DNA",
+            correctBucketMy: "DNA အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w21-sort-2",
+            labelEn: "Contains the base uracil instead of thymine",
+            labelMy: "Thymine အစား Uracil Base ပါဝင်",
+            correctBucketEn: "True of RNA",
+            correctBucketMy: "RNA အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w21-sort-3",
+            labelEn: "Usually double-stranded, forming a double helix",
+            labelMy: "ပုံမှန်အားဖြင့် Double-stranded ဖြစ်ပြီး Double Helix ဖွဲ့စည်း",
+            correctBucketEn: "True of DNA",
+            correctBucketMy: "DNA အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w21-sort-4",
+            labelEn: "Usually single-stranded",
+            labelMy: "ပုံမှန်အားဖြင့် Single-stranded",
+            correctBucketEn: "True of RNA",
+            correctBucketMy: "RNA အရ မှန်",
+          ),
+          SortingItem(
+            id: "y12bio-w21-sort-5",
+            labelEn: "Contains the sugar deoxyribose",
+            labelMy: "Deoxyribose Sugar ပါဝင်",
+            correctBucketEn: "True of DNA",
+            correctBucketMy: "DNA အရ မှန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building a Paper Model of the Double Helix",
+      titleMy: "စာဖတ်ခြင်း - Double Helix စက္ကူပုံစံ တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building a Paper Model of the Double Helix",
+        titleMy: "Double Helix စက္ကူပုံစံ တည်ဆောက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min handed Su Su and Htet Aung a bag of paper cut-outs -- alternating phosphate and sugar shapes to form two long backbones, and coloured bases (A, T, G and C) to connect across the middle -- and asked them to assemble a physical model of a short stretch of DNA.\n\nHtet Aung started with the backbones, threading phosphate and sugar shapes alternately along two separate strands: a phosphodiester bond joins the sugar of one nucleotide to the phosphate of the next, giving each backbone a strong, repeating structure. Su Su then worked on connecting the two backbones together using the coloured bases, but quickly ran into trouble -- she had tried to pair an adenine base directly with a guanine base, and the paper shapes simply didn't fit; the two bases were the wrong sizes to sit neatly between the backbones.\n\n\"That's not a coincidence,\" Sayar Zaw Min told her. \"Adenine and guanine are both larger, two-ringed bases; cytosine and thymine are both smaller, one-ringed bases. For the two backbones to stay a constant, even distance apart all the way along the molecule, every base pair must combine one large base with one small base -- which is exactly why A only ever pairs with T, and G only ever pairs with C, never A with G or C with T.\" Once Su Su switched to the correct pairs, held together by hydrogen bonds -- two between A and T, three between G and C -- the two backbones twisted naturally into the familiar double helix shape, and the model finally stood up on its own.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Su Su နှင့် Htet Aung အား စက္ကူဖြတ်ထားသော အိတ်တစ်ခု -- ကျောရိုးရှည်နှစ်ခု ဖွဲ့စည်းရန် ကူးပြောင်းနေသော Phosphate နှင့် Sugar ပုံသဏ္ဌာန်များ၊ အလယ်တွင် ဆက်စပ်ရန် အရောင်စုံ Base များ (A, T, G နှင့် C) -- ကို ပေးအပ်ပြီး DNA ၏ တိုတောင်းသော အပိုင်း၏ ရုပ်ပိုင်းဆိုင်ရာ ပုံစံကို တည်ဆောက်ရန် ခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် ကျောရိုးများမှ စတင်ခဲ့ပြီး Phosphate နှင့် Sugar ပုံသဏ္ဌာန်များကို ကွင်းဆက်နှစ်ခု တလျှောက် အလှည့်ကျ ချိတ်ဆက်ခဲ့သည် - Phosphodiester Bond သည် Nucleotide တစ်ခု၏ Sugar ကို နောက်တစ်ခု၏ Phosphate နှင့် ချိတ်ဆက်ပေးကာ ကျောရိုးတစ်ခုစီကို ထပ်ခါထပ်ခါ ခိုင်မာသော ဖွဲ့စည်းပုံ ပေးသည်။ Su Su သည် ထို့နောက် အရောင်စုံ Base များကို အသုံးပြု၍ ကျောရိုးနှစ်ခုကို ချိတ်ဆက်ရန် လုပ်ဆောင်ခဲ့သော်လည်း ချက်ချင်းပင် ပြဿနာ ကြုံခဲ့သည် -- သူသည် Adenine Base ကို Guanine Base နှင့် တိုက်ရိုက် တွဲစပ်ကြည့်ခဲ့ပြီး စက္ကူပုံသဏ္ဌာန်များ လုံးဝ မကိုက်ညီခဲ့ပါ၊ Base နှစ်ခုစလုံး၏ အရွယ်အစားများသည် ကျောရိုးများအကြား ကျန်းမာစွာ ထိုင်ရန် အလွန်ကွာခြားနေခဲ့သည်။\n\n\"ထိုသည် Coincidence မဟုတ်ပါ\" ဟု ဆရာဇော်မင်းက သူ့ကို ပြောပြခဲ့သည် \"Adenine နှင့် Guanine နှစ်ခုစလုံးသည် ကွင်းနှစ်ခုပါသော ပိုကြီးသော Base များ ဖြစ်ကြပြီး Cytosine နှင့် Thymine နှစ်ခုစလုံးသည် ကွင်းတစ်ခုသာပါသော ပိုသေးငယ်သော Base များ ဖြစ်ကြသည်။ ကျောရိုးနှစ်ခုသည် မော်လီကျူးတစ်ခုလုံးတလျှောက် ပုံသေတည်ငြိမ်ပြီး တူညီသော အကွာအဝေးတွင် ရှိနေနိုင်ရန် Base Pair တိုင်းသည် ကြီးမားသော Base တစ်ခုနှင့် သေးငယ်သော Base တစ်ခုကို ပေါင်းစပ်ရမည် -- ၎င်းသည် A သည် T နှင့်သာ၊ G သည် C နှင့်သာ အမြဲတွဲစပ်ပြီး A နှင့် G သို့မဟုတ် C နှင့် T ဘယ်တော့မှ မတွဲစပ်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။\" Su Su သည် မှန်ကန်သော Pair များသို့ ပြောင်းလိုက်ပြီး Hydrogen Bond များဖြင့် ချိတ်ဆက်ကြောင်း -- A နှင့် T အကြား နှစ်ခု၊ G နှင့် C အကြား သုံးခု -- သိလိုက်သည်နှင့် ကျောရိုးနှစ်ခုသည် ရင်းနှီးသော Double Helix ပုံသဏ္ဌာန်အဖြစ် သဘာဝအလျောက် လှည့်ပတ်ကာ ပုံစံသည် နောက်ဆုံးတွင် ကိုယ်တိုင် မတ်တတ်ရပ်နေနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what does a phosphodiester bond join together?",
+            questionMy: "Phosphodiester Bond သည် အဘယ်ကို ချိတ်ဆက်ပေးသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sugar of one nucleotide and the phosphate of the next",
+              "Two bases across the middle of the helix",
+              "Two amino acids",
+              "Two whole strands of RNA",
+            ],
+            optionsMy: [
+              "Nucleotide တစ်ခု၏ Sugar နှင့် နောက်တစ်ခု၏ Phosphate",
+              "Helix အလယ်ရှိ Base နှစ်ခု",
+              "Amino Acid နှစ်ခု",
+              "RNA ကွင်းဆက် အပြည့်နှစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min, why must a large base always pair with a small base?",
+            questionMy: "ကြီးမားသော Base သည် သေးငယ်သော Base နှင့် အမြဲတွဲစပ်ရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To keep the two backbones a constant, even distance apart",
+              "So that the molecule changes colour",
+              "So the DNA can dissolve in oil",
+              "It has no real reason -- it is random",
+            ],
+            optionsMy: [
+              "ကျောရိုးနှစ်ခုကို ပုံသေတည်ငြိမ်ပြီး တူညီသော အကွာအဝေးတွင် ထားရှိရန်",
+              "မော်လီကျူး၏ အရောင်ပြောင်းလဲစေရန်",
+              "DNA ကို ဆီတွင် ပျော်ဝင်စေနိုင်ရန်",
+              "အကြောင်းရင်း အစစ်အမှန် မရှိပါ -- ကျပန်းသာ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, how many hydrogen bonds hold guanine and cytosine together?",
+            questionMy: "Guanine နှင့် Cytosine ကို ချိတ်ဆက်ထားသော Hydrogen Bond မည်မျှရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Three", "Two", "One", "Four"],
+            optionsMy: ["သုံးခု", "နှစ်ခု", "တစ်ခု", "လေးခု"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: DNA and RNA Structure",
+      titleMy: "သက္ကရာဇ်ပတ် ၂၁ ပြန်လည်သုံးသပ်ခြင်း - DNA နှင့် RNA ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A nucleotide consists of a phosphate, a sugar and a...",
+          questionMy: "Nucleotide တစ်ခုသည် Phosphate, Sugar နှင့် ...ဖြင့် ဖွဲ့စည်းသည်",
+          optionsEn: ["Nitrogenous base", "Amino acid", "Fatty acid tail", "Glycerol molecule"],
+          optionsMy: ["Nitrogenous Base", "Amino Acid", "Fatty Acid အမြီး", "Glycerol မော်လီကျူး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In DNA, adenine pairs with...",
+          questionMy: "DNA တွင် Adenine သည် ...နှင့် တွဲစပ်သည်",
+          optionsEn: ["Thymine", "Guanine", "Cytosine", "Another adenine"],
+          optionsMy: ["Thymine", "Guanine", "Cytosine", "Adenine အခြားတစ်ခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "RNA contains uracil instead of...",
+          questionMy: "RNA တွင် ...အစား Uracil ပါဝင်သည်",
+          optionsEn: ["Thymine", "Adenine", "Guanine", "Cytosine"],
+          optionsMy: ["Thymine", "Adenine", "Guanine", "Cytosine"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Semi-Conservative DNA Replication"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek22 = CourseWeekDef(
+  id: "course-y12-bio-w22",
+  weekNumber: 22,
+  titleEn: "Semi-Conservative DNA Replication",
+  titleMy: "Semi-Conservative DNA Replication",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w22-d1",
+      dayNumber: 1,
+      titleEn: "How DNA Replicates Itself",
+      titleMy: "DNA မိမိကိုယ်ကို Replicate ပြုပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "DNA helicase's role in replication is to...",
+          questionMy: "Replication တွင် DNA Helicase ၏ အခန်းကဏ္ဍမှာ...",
+          optionsEn: [
+            "Unwind the double helix and break the hydrogen bonds between base pairs",
+            "Add new nucleotides to the growing strand",
+            "Translate mRNA into protein",
+            "Package DNA around histones",
+          ],
+          optionsMy: [
+            "Double Helix ကို ဖြေလျှော့ပြီး Base Pair များအကြား Hydrogen Bond ချိုးဖျက်",
+            "ကြီးထွားနေသော ကွင်းဆက်တွင် Nucleotide အသစ်များ ထည့်",
+            "mRNA ကို Protein အဖြစ် Translate ပြု",
+            "Histone ပတ်လည် DNA ကို ထုပ်ပိုး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Helicase acts like a zipper being pulled open, separating the two DNA strands so each can act as a template.",
+          ],
+          hintsMy: [
+            "Helicase သည် ဇစ်ဆွဲဖွင့်ခြင်းကဲ့သို့ လုပ်ဆောင်ပြီး DNA ကွင်းဆက်နှစ်ခုကို ခွဲခြားကာ တစ်ခုစီ Template အဖြစ် လုပ်ဆောင်နိုင်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "DNA polymerase builds a new strand by adding free nucleotides that are complementary to...",
+          questionMy: "DNA Polymerase သည် ...နှင့် Complementary ဖြစ်သော Free Nucleotide များ ထည့်သွင်း၍ ကွင်းဆက်အသစ်ကို တည်ဆောက်သည်",
+          optionsEn: [
+            "The exposed bases on the template strand",
+            "A random sequence with no pattern",
+            "Only adenine bases",
+            "Amino acids in the cytoplasm",
+          ],
+          optionsMy: [
+            "Template Strand ပေါ်ရှိ ဖော်ထုတ်ထားသော Base များ",
+            "Pattern မရှိသော ကျပန်း အစီအစဉ်",
+            "Adenine Base များသာ",
+            "Cytoplasm ရှိ Amino Acid များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "DNA polymerase reads the exposed template strand base by base and pairs a complementary free nucleotide against each one, following A-T and G-C rules.",
+          ],
+          hintsMy: [
+            "DNA Polymerase သည် ဖော်ထုတ်ထားသော Template Strand ကို Base တစ်ခုချင်းစီ ဖတ်ပြီး A-T နှင့် G-C စည်းမျဉ်းများအတိုင်း Complementary Free Nucleotide တစ်ခုစီကို တွဲစပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Replication is described as \"semi-conservative\" because each new DNA molecule contains...",
+          questionMy: "Replication ကို \"Semi-conservative\" ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ DNA မော်လီကျူးအသစ်တစ်ခုစီတွင် ...ပါဝင်သောကြောင့်ဖြစ်သည်",
+          optionsEn: [
+            "One original (parent) strand and one newly synthesised strand",
+            "Two brand new strands only, with nothing from the parent",
+            "Two original parent strands, with nothing new",
+            "No strands at all, only free nucleotides",
+          ],
+          optionsMy: [
+            "မူလ (Parent) ကွင်းဆက်တစ်ခုနှင့် အသစ် Synthesise ပြုထားသော ကွင်းဆက်တစ်ခု",
+            "Parent မှ မည်သည့်အရာမျှ မပါဘဲ ကွင်းဆက်အသစ်နှစ်ခုသာ",
+            "အသစ်မည်သည်မျှ မပါဘဲ Parent ကွင်းဆက်နှစ်ခု",
+            "ကွင်းဆက် လုံးဝ မပါဘဲ Free Nucleotide များသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Semi-\" means half -- half of each new double helix is conserved (kept) from the original molecule, and half is newly made.",
+          ],
+          hintsMy: [
+            "\"Semi-\" ဆိုသည်မှာ တစ်ဝက် ဖြစ်ပြီး Double Helix အသစ်တစ်ခုစီ၏ တစ်ဝက်ကို မူလမော်လီကျူးမှ Conserve (ထိန်းသိမ်း) ထားပြီး တစ်ဝက်ကို အသစ် ဖန်တီးထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Replication Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Replication ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w22-dm-1",
+          termEn: "DNA helicase",
+          termMy: "DNA Helicase",
+          matchEn: "The enzyme that unwinds the double helix and breaks hydrogen bonds between bases",
+          matchMy: "Double Helix ကို ဖြေလျှော့ပြီး Base များအကြား Hydrogen Bond ချိုးဖျက်သော Enzyme",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w22-dm-2",
+          termEn: "DNA polymerase",
+          termMy: "DNA Polymerase",
+          matchEn: "The enzyme that builds a new DNA strand by adding complementary free nucleotides",
+          matchMy: "Complementary Free Nucleotide များ ထည့်သွင်း၍ DNA ကွင်းဆက်အသစ် တည်ဆောက်သော Enzyme",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w22-dm-3",
+          termEn: "Template strand",
+          termMy: "Template Strand",
+          matchEn: "An original DNA strand used as a pattern to build a new complementary strand",
+          matchMy: "Complementary ကွင်းဆက်အသစ် တည်ဆောက်ရန် Pattern အဖြစ် အသုံးပြုသော မူလ DNA ကွင်းဆက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w22-dm-4",
+          termEn: "Semi-conservative replication",
+          termMy: "Semi-conservative Replication",
+          matchEn: "DNA replication in which each new molecule has one original strand and one new strand",
+          matchMy: "မော်လီကျူးအသစ်တစ်ခုစီတွင် မူလကွင်းဆက်တစ်ခုနှင့် အသစ်ကွင်းဆက်တစ်ခု ရှိသော DNA Replication",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w22-dm-5",
+          termEn: "Free nucleotide",
+          termMy: "Free Nucleotide",
+          matchEn: "A nucleotide floating in the nucleus, not yet joined into a strand",
+          matchMy: "ကွင်းဆက်ထဲသို့ မဆက်သေးဘဲ Nucleus အတွင်း ပေါလောပလော ဖြစ်နေသော Nucleotide",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Function of Helicase or Function of DNA Polymerase?",
+      titleMy: "စီစစ်ကြမည် - Helicase ၏ လုပ်ငန်းလား၊ DNA Polymerase ၏ လုပ်ငန်းလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Function of Helicase", "Function of DNA Polymerase"],
+        bucketsMy: ["Helicase ၏ လုပ်ငန်း", "DNA Polymerase ၏ လုပ်ငန်း"],
+        items: [
+          SortingItem(
+            id: "y12bio-w22-sort-1",
+            labelEn: "Unwinding the double helix",
+            labelMy: "Double Helix ကို ဖြေလျှော့ခြင်း",
+            correctBucketEn: "Function of Helicase",
+            correctBucketMy: "Helicase ၏ လုပ်ငန်း",
+          ),
+          SortingItem(
+            id: "y12bio-w22-sort-2",
+            labelEn: "Breaking hydrogen bonds between base pairs",
+            labelMy: "Base Pair များအကြား Hydrogen Bond ချိုးဖျက်ခြင်း",
+            correctBucketEn: "Function of Helicase",
+            correctBucketMy: "Helicase ၏ လုပ်ငန်း",
+          ),
+          SortingItem(
+            id: "y12bio-w22-sort-3",
+            labelEn: "Adding complementary free nucleotides to a template strand",
+            labelMy: "Template Strand သို့ Complementary Free Nucleotide များ ထည့်သွင်းခြင်း",
+            correctBucketEn: "Function of DNA Polymerase",
+            correctBucketMy: "DNA Polymerase ၏ လုပ်ငန်း",
+          ),
+          SortingItem(
+            id: "y12bio-w22-sort-4",
+            labelEn: "Forming new phosphodiester bonds along the growing strand",
+            labelMy: "ကြီးထွားနေသော ကွင်းဆက်တစ်လျှောက် Phosphodiester Bond အသစ်များ ဖွဲ့စည်းခြင်း",
+            correctBucketEn: "Function of DNA Polymerase",
+            correctBucketMy: "DNA Polymerase ၏ လုပ်ငန်း",
+          ),
+          SortingItem(
+            id: "y12bio-w22-sort-5",
+            labelEn: "Separating the two original strands so each can act as a template",
+            labelMy: "မူလကွင်းဆက်နှစ်ခုကို ခွဲခြားပြီး တစ်ခုစီ Template အဖြစ် လုပ်ဆောင်နိုင်စေခြင်း",
+            correctBucketEn: "Function of Helicase",
+            correctBucketMy: "Helicase ၏ လုပ်ငန်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Proving DNA Replication Is Semi-Conservative",
+      titleMy: "စာဖတ်ခြင်း - DNA Replication သည် Semi-conservative ဖြစ်ကြောင်း သက်သေပြခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Proving DNA Replication Is Semi-Conservative",
+        titleMy: "DNA Replication သည် Semi-conservative ဖြစ်ကြောင်း သက်သေပြခြင်း",
+        passageEn:
+            "Sayar Zaw Min told the class that when DNA replication was first proposed, three different models seemed equally plausible: conservative replication (the original double helix stays completely intact, and an entirely new double helix is made alongside it), semi-conservative replication (each new molecule mixes one original strand with one new strand), and dispersive replication (the original and new DNA is chopped up and mixed together throughout both resulting molecules). He asked the class how they could design an experiment to tell these apart.\n\nSu Su remembered the classic answer: grow bacteria in a medium containing only a heavy isotope of nitrogen, so every nucleotide -- and therefore every original DNA strand -- becomes labelled as \"heavy\". Then transfer the bacteria to a medium containing only ordinary, \"light\" nitrogen and let them replicate once. If replication is conservative, you would expect two distinct types of DNA after one round: fully heavy molecules and fully light molecules, with nothing in between. If it is semi-conservative, every molecule after one round should be a single, intermediate density -- half heavy, half light -- because every molecule contains exactly one heavy original strand and one light new strand.\n\nHtet Aung finished the story: when scientists actually ran this experiment (using a technique called density-gradient centrifugation to separate DNA by weight), every single molecule after one round of replication came out at the intermediate density, ruling out the conservative model immediately. A second round of replication then produced a mix of intermediate and fully light DNA, in exactly the proportions the semi-conservative model predicted -- and ruling out the dispersive model too, since dispersive replication would have kept producing intermediate-density DNA indefinitely rather than splitting cleanly into two distinct densities. \"That experiment,\" Sayar Zaw Min concluded, \"is one of the most elegant in the history of biology -- it distinguished between three competing models using nothing but density.\"",
+        passageMy:
+            "DNA Replication ကို ပထမဆုံး တင်ပြခဲ့စဉ်က Model သုံးမျိုးသည် ဖြစ်နိုင်ခြေ ညီမျှစွာ ရှိနေခဲ့ကြောင်း ဆရာဇော်မင်းက အတန်းအား ပြောပြခဲ့သည် - Conservative Replication (မူလ Double Helix လုံးဝ ပြည့်စုံစွာ ဆက်လက်ရှိနေပြီး ၎င်းနှင့်အတူ Double Helix အသစ်တစ်ခုလုံး ဖန်တီးသည်)၊ Semi-conservative Replication (မော်လီကျူးအသစ်တစ်ခုစီတွင် မူလကွင်းဆက်တစ်ခုနှင့် အသစ်ကွင်းဆက်တစ်ခု ရောနှောပါဝင်သည်) နှင့် Dispersive Replication (မူလနှင့် အသစ် DNA ကို အပိုင်းများခွဲကာ ရလာသော မော်လီကျူးနှစ်ခုလုံးတလျှောက် ရောနှောသည်) တို့ ဖြစ်ကြသည်။ ဤသုံးမျိုးကို ခွဲခြားနိုင်ရန် စမ်းသပ်မှုတစ်ခုကို မည်သို့ ဒီဇိုင်းရေးဆွဲနိုင်သည်ကို သူ အတန်းအား မေးမြန်းခဲ့သည်။\n\nSu Su သည် ရှေးရိုးစွဲ အဖြေကို သတိရခဲ့သည် - ဘက်တီးရီးယားများကို Heavy Isotope Nitrogen သာ ပါဝင်သော Medium တွင် ကြီးထွားစေပြီး Nucleotide တိုင်း -- ထို့ကြောင့် မူလ DNA ကွင်းဆက်တိုင်း -- ကို \"Heavy\" ဟု အမှတ်တံဆိပ်ခံရစေသည်။ ထို့နောက် ဘက်တီးရီးယားများကို ရိုးရိုး \"Light\" Nitrogen သာ ပါဝင်သော Medium သို့ ပြောင်းလိုက်ပြီး တစ်ကြိမ် Replicate ပြုစေသည်။ Replication သည် Conservative ဖြစ်ပါက တစ်ကြိမ်ပြီးနောက် DNA အမျိုးအစား ခွဲခြားထင်ရှားစွာ နှစ်မျိုး ရှိလိမ့်မည်ဟု မျှော်လင့်ရမည် - လုံးဝ Heavy မော်လီကျူးများနှင့် လုံးဝ Light မော်လီကျူးများ၊ ကြားညောင့်တွင် မည်သည်မျှ မရှိပါ။ Semi-conservative ဖြစ်ပါက တစ်ကြိမ်ပြီးနောက် မော်လီကျူးတိုင်းသည် အလယ်အလတ် Density တစ်မျိုးတည်း ဖြစ်သင့်သည် -- တစ်ဝက် Heavy၊ တစ်ဝက် Light -- အကြောင်းမှာ မော်လီကျူးတိုင်းတွင် Heavy မူလကွင်းဆက်တစ်ခုနှင့် Light အသစ်ကွင်းဆက်တစ်ခု အတိအကျ ပါဝင်နေသောကြောင့် ဖြစ်သည်။\n\nHtet Aung သည် ဇာတ်လမ်းကို ပြီးဆုံးအောင် ဆက်ခဲ့သည် - သိပ္ပံပညာရှင်များ ဤစမ်းသပ်မှုကို အမှန်တကယ် ပြုလုပ်ကြည့်ရာ (DNA ကို Weight ဖြင့် ခွဲခြားရန် Density-gradient Centrifugation ဟု ခေါ်သော နည်းပညာကို အသုံးပြု၍) Replication တစ်ကြိမ်ပြီးနောက် မော်လီကျူးတိုင်းသည် အလယ်အလတ် Density တွင် ထွက်လာခဲ့ပြီး Conservative Model ကို ချက်ချင်း ဖယ်ရှားနိုင်ခဲ့သည်။ ဒုတိယအကြိမ် Replication သည် Semi-conservative Model ခန့်မှန်းချက် အချိုးအစားအတိုင်း အလယ်အလတ်နှင့် လုံးဝ Light DNA ရောနှောမှု ထုတ်လုပ်ပေးခဲ့ပြီး -- Dispersive Model ကိုလည်း ဖယ်ရှားနိုင်ခဲ့သည်၊ အကြောင်းမှာ Dispersive Replication သည် ခွဲခြားထားသော Density နှစ်မျိုးအဖြစ် သန့်ရှင်းစွာ ကွဲထွက်မည့်အစား အလယ်အလတ် Density DNA ကို အကန့်အသတ်မဲ့ ဆက်လက် ထုတ်လုပ်နေမည် ဖြစ်သောကြောင့်ဖြစ်သည်။ \"ထိုစမ်းသပ်မှုသည်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည် \"ဇီဝဗေဒသမိုင်းတွင် အလှဆုံး စမ်းသပ်မှုများထဲမှ တစ်ခုပင် ဖြစ်သည် -- Density တစ်ခုတည်းကိုသာ အသုံးပြု၍ ယှဉ်ပြိုင်နေသော Model သုံးမျိုးကို ခွဲခြားနိုင်ခဲ့သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what does the conservative model predict?",
+            questionMy: "Conservative Model သည် အဘယ်ကို ခန့်မှန်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Fully heavy molecules and fully light molecules, with nothing in between",
+              "Every molecule at an intermediate density",
+              "No DNA molecules at all after replication",
+              "DNA that is entirely destroyed",
+            ],
+            optionsMy: [
+              "လုံးဝ Heavy မော်လီကျူးများနှင့် လုံးဝ Light မော်လီကျူးများ၊ ကြားညောင့်တွင် မည်သည်မျှ မရှိပါ",
+              "မော်လီကျူးတိုင်း အလယ်အလတ် Density တွင်",
+              "Replication ပြီးနောက် DNA မော်လီကျူး လုံးဝ မရှိတော့ပါ",
+              "လုံးဝ ဖျက်ဆီးခံရသော DNA",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, what technique separated DNA by weight?",
+            questionMy: "DNA ကို Weight ဖြင့် ခွဲခြားခဲ့သော နည်းပညာကို Htet Aung ၏ ဇာတ်လမ်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Density-gradient centrifugation",
+              "Simple diffusion",
+              "Endocytosis",
+              "The Benedict's test",
+            ],
+            optionsMy: ["Density-gradient Centrifugation", "Simple Diffusion", "Endocytosis", "Benedict's Test"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what did the second round of replication rule out?",
+            questionMy: "ဒုတိယအကြိမ် Replication က အဘယ် Model ကို ဖယ်ရှားနိုင်ခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The dispersive model",
+              "The semi-conservative model",
+              "No models at all",
+              "Every model, leaving nothing standing",
+            ],
+            optionsMy: ["Dispersive Model", "Semi-conservative Model", "Model မည်သည်မျှ မဖယ်ရှားနိုင်ပါ", "Model အားလုံး"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: DNA Replication",
+      titleMy: "သက္ကရာဇ်ပတ် ၂၂ ပြန်လည်သုံးသပ်ခြင်း - DNA Replication",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "DNA helicase's main job is to...",
+          questionMy: "DNA Helicase ၏ အဓိက တာဝန်မှာ...",
+          optionsEn: ["Unwind the double helix", "Translate mRNA", "Build ribosomes", "Digest proteins"],
+          optionsMy: ["Double Helix ကို ဖြေလျှော့", "mRNA ကို Translate ပြု", "Ribosome တည်ဆောက်", "Protein ချေဖျက်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"Semi-conservative\" means each new DNA molecule has...",
+          questionMy: "\"Semi-conservative\" ဆိုသည်မှာ DNA မော်လီကျူးအသစ်တစ်ခုစီတွင် ...ရှိသည်ဟု ဆိုလိုသည်",
+          optionsEn: [
+            "One original strand and one new strand",
+            "Two brand new strands only",
+            "Two original strands only",
+            "No strands at all",
+          ],
+          optionsMy: [
+            "မူလကွင်းဆက်တစ်ခုနှင့် အသစ်ကွင်းဆက်တစ်ခု",
+            "အသစ်ကွင်းဆက်နှစ်ခုသာ",
+            "မူလကွင်းဆက်နှစ်ခုသာ",
+            "ကွင်းဆက် လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "DNA polymerase adds new nucleotides that are...",
+          questionMy: "DNA Polymerase သည် Nucleotide အသစ်များကို ...ဖြင့် ထည့်သွင်းသည်",
+          optionsEn: [
+            "Complementary to the template strand",
+            "Random and unrelated to the template",
+            "Always identical to each other",
+            "Made of amino acids",
+          ],
+          optionsMy: [
+            "Template Strand နှင့် Complementary ဖြစ်",
+            "ကျပန်းဖြစ်ပြီး Template နှင့် မသက်ဆိုင်",
+            "အချင်းချင်း အတိအကျ တူညီ",
+            "Amino Acid မှ ဖွဲ့စည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "Transcription: Synthesising mRNA"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek23 = CourseWeekDef(
+  id: "course-y12-bio-w23",
+  weekNumber: 23,
+  titleEn: "Transcription: Synthesising mRNA",
+  titleMy: "Transcription - mRNA Synthesise ပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w23-d1",
+      dayNumber: 1,
+      titleEn: "RNA Polymerase and the Template Strand",
+      titleMy: "RNA Polymerase နှင့် Template Strand",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Transcription is best defined as...",
+          questionMy: "Transcription ကို အကောင်းဆုံးဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "The synthesis of an mRNA molecule from a DNA template",
+            "The joining of amino acids into a protein",
+            "The replication of an entire DNA molecule",
+            "The breakdown of glucose for energy",
+          ],
+          optionsMy: [
+            "DNA Template မှ mRNA မော်လီကျူး Synthesise ပြုခြင်း",
+            "Amino Acid များကို Protein အဖြစ် ချိတ်ဆက်ခြင်း",
+            "DNA မော်လီကျူး တစ်ခုလုံး Replicate ပြုခြင်း",
+            "Energy အတွက် Glucose ချေဖျက်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Transcription \"copies\" a gene's DNA sequence into a matching mRNA sequence -- the first step of gene expression, before translation.",
+          ],
+          hintsMy: [
+            "Transcription သည် Gene တစ်ခု၏ DNA အစီအစဉ်ကို ကိုက်ညီသော mRNA အစီအစဉ်အဖြစ် \"ကူးယူ\" သည် -- Translation မတိုင်မီ Gene Expression ၏ ပထမအဆင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "RNA polymerase builds an mRNA strand using one DNA strand as a template, following the same base-pairing rules except that...",
+          questionMy: "RNA Polymerase သည် DNA ကွင်းဆက်တစ်ခုကို Template အဖြစ် အသုံးပြု၍ Base-pairing စည်းမျဉ်းအတိုင်းပင် mRNA ကွင်းဆက်ကို တည်ဆောက်သော်လည်း ကွာခြားချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "Uracil is used in place of thymine wherever adenine appears on the template",
+            "Cytosine is used in place of guanine",
+            "No base pairing rules are followed at all",
+            "Every base is replaced with adenine",
+          ],
+          optionsMy: [
+            "Template ပေါ်တွင် Adenine ပေါ်လာတိုင်း Thymine အစား Uracil ကို အသုံးပြုသည်",
+            "Guanine အစား Cytosine ကို အသုံးပြုသည်",
+            "Base-pairing စည်းမျဉ်း မည်သည်မျှ မလိုက်နာပါ",
+            "Base တိုင်းကို Adenine ဖြင့် အစားထိုးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Everywhere the DNA template shows adenine, the new mRNA strand gets uracil instead of thymine -- RNA's own version of complementary base pairing.",
+          ],
+          hintsMy: [
+            "DNA Template တွင် Adenine ပြသမည့်နေရာတိုင်း mRNA ကွင်းဆက်အသစ်သည် Thymine အစား Uracil ကို ရရှိသည် -- RNA ၏ ကိုယ်ပိုင် Complementary Base Pairing ပုံစံ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "After transcription, the finished mRNA molecule leaves the nucleus through the...",
+          questionMy: "Transcription ပြီးနောက် ပြီးစီးသော mRNA မော်လီကျူးသည် ...မှတဆင့် Nucleus မှ ထွက်သွားသည်",
+          optionsEn: ["Nuclear pore", "Cell wall", "Golgi apparatus directly", "Mitochondrial membrane"],
+          optionsMy: ["Nuclear Pore", "Cell Wall", "Golgi Apparatus တိုက်ရိုက်", "Mitochondrial Membrane"],
+          correctIndex: 0,
+          hintsEn: [
+            "The nuclear envelope has pores that let molecules like mRNA pass out into the cytoplasm, where translation will later take place at a ribosome.",
+          ],
+          hintsMy: [
+            "Nuclear Envelope တွင် mRNA ကဲ့သို့ မော်လီကျူးများကို Cytoplasm ဆီသို့ ထွက်ခွာခွင့်ပြုသော Pore များ ရှိသည်၊ ထိုနေရာတွင် Translation ကို Ribosome တစ်ခုတွင် နောက်ပိုင်း ဆောင်ရွက်မည် ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Transcription Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Transcription ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w23-dm-1",
+          termEn: "RNA polymerase",
+          termMy: "RNA Polymerase",
+          matchEn: "The enzyme that builds an mRNA strand from a DNA template during transcription",
+          matchMy: "Transcription အတွင်း DNA Template မှ mRNA ကွင်းဆက်ကို တည်ဆောက်သော Enzyme",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w23-dm-2",
+          termEn: "mRNA",
+          termMy: "mRNA",
+          matchEn: "The molecule carrying a gene's copied code from the nucleus to a ribosome",
+          matchMy: "Gene တစ်ခု၏ ကူးယူထားသော Code ကို Nucleus မှ Ribosome သို့ သယ်ဆောင်သော မော်လီကျူး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w23-dm-3",
+          termEn: "Template strand",
+          termMy: "Template Strand",
+          matchEn: "The DNA strand read by RNA polymerase to build a complementary mRNA strand",
+          matchMy: "Complementary mRNA ကွင်းဆက် တည်ဆောက်ရန် RNA Polymerase ဖတ်သော DNA ကွင်းဆက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w23-dm-4",
+          termEn: "Transcription",
+          termMy: "Transcription",
+          matchEn: "The synthesis of mRNA from a DNA template, occurring inside the nucleus",
+          matchMy: "Nucleus အတွင်း ဖြစ်ပွားသော DNA Template မှ mRNA Synthesis",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w23-dm-5",
+          termEn: "Nuclear pore",
+          termMy: "Nuclear Pore",
+          matchEn: "An opening in the nuclear envelope that mRNA passes through to reach the cytoplasm",
+          matchMy: "mRNA သည် Cytoplasm သို့ ရောက်ရန် ဖြတ်သန်းသည့် Nuclear Envelope ၏ အပေါက်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Occurs During Transcription or During Translation?",
+      titleMy: "စီစစ်ကြမည် - Transcription (သို့) Translation အတွင်း ဖြစ်ပွားသလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Occurs During Transcription", "Occurs During Translation"],
+        bucketsMy: ["Transcription အတွင်း ဖြစ်ပွား", "Translation အတွင်း ဖြစ်ပွား"],
+        items: [
+          SortingItem(
+            id: "y12bio-w23-sort-1",
+            labelEn: "RNA polymerase binds to DNA at the start of a gene",
+            labelMy: "RNA Polymerase သည် Gene တစ်ခု၏ အစတွင် DNA နှင့် ချိတ်ဆက်",
+            correctBucketEn: "Occurs During Transcription",
+            correctBucketMy: "Transcription အတွင်း ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w23-sort-2",
+            labelEn: "A new mRNA molecule is synthesised inside the nucleus",
+            labelMy: "Nucleus အတွင်း mRNA မော်လီကျူးအသစ် Synthesise ပြု",
+            correctBucketEn: "Occurs During Transcription",
+            correctBucketMy: "Transcription အတွင်း ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w23-sort-3",
+            labelEn: "A ribosome reads the mRNA codon by codon",
+            labelMy: "Ribosome သည် mRNA ကို Codon တစ်ခုချင်းစီအလိုက် ဖတ်",
+            correctBucketEn: "Occurs During Translation",
+            correctBucketMy: "Translation အတွင်း ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w23-sort-4",
+            labelEn: "Amino acids are joined together by peptide bonds",
+            labelMy: "Amino Acid များကို Peptide Bond များဖြင့် ချိတ်ဆက်",
+            correctBucketEn: "Occurs During Translation",
+            correctBucketMy: "Translation အတွင်း ဖြစ်ပွား",
+          ),
+          SortingItem(
+            id: "y12bio-w23-sort-5",
+            labelEn: "Uracil is inserted opposite adenine on the DNA template",
+            labelMy: "DNA Template ရှိ Adenine ဆန့်ကျင်ဘက် Uracil ထည့်သွင်း",
+            correctBucketEn: "Occurs During Transcription",
+            correctBucketMy: "Transcription အတွင်း ဖြစ်ပွား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Library Photocopy Analogy",
+      titleMy: "စာဖတ်ခြင်း - စာကြည့်တိုက် မိတ္တူ နှိုင်းယှဉ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Library Photocopy Analogy",
+        titleMy: "စာကြည့်တိုက် မိတ္တူ နှိုင်းယှဉ်ချက်",
+        passageEn:
+            "Su Su was struggling to see why the cell bothers making mRNA at all -- why not just let a ribosome read the gene straight off the DNA? Sayar Zaw Min offered an analogy: \"Think of the DNA in the nucleus as a rare, irreplaceable reference book in a library. The library will never let that book leave the building, because if it were lost or damaged, the information would be gone forever. But you're still allowed to come in, photocopy just the one page you need, and take the photocopy away to read wherever you like.\"\n\nHtet Aung extended the analogy himself: the nucleus is the library, the whole genome is the reference book, and a single gene is the one page someone wants to read. RNA polymerase acts as the photocopier, moving along the template strand of that one gene and producing an exact complementary copy -- the mRNA -- while the original DNA stays completely intact and safely inside the nucleus. That mRNA photocopy then travels out through a nuclear pore into the cytoplasm, where a ribosome can use it, without ever risking damage to the master copy.\n\n\"And just like a real photocopy,\" Sayar Zaw Min added, \"an mRNA molecule doesn't last forever -- it eventually breaks down and gets recycled, exactly like a photocopy might get thrown away once you're finished reading it. If the cell needs that protein again later, it simply transcribes a fresh mRNA copy from the same untouched gene. That's the real reason transcription exists as a separate step before translation: it protects the one permanent master copy of the genetic information while still allowing its instructions to be read and reread as many times as the cell needs.\"",
+        passageMy:
+            "ဆဲလ်သည် mRNA ကို အဘယ်ကြောင့် ဖန်တီးရသနည်း -- Ribosome က Gene ကို DNA ပေါ်မှ တိုက်ရိုက် ဖတ်ခွင့်ပေးရုံ မလုပ်နိုင်လော ဟူသည်ကို Su Su နားလည်ရန် ခက်ခဲနေခဲ့သည်။ ဆရာဇော်မင်းက နှိုင်းယှဉ်ချက်တစ်ခု ပေးခဲ့သည် - \"Nucleus ထဲရှိ DNA ကို စာကြည့်တိုက်တစ်ခုရှိ ရှားပါးပြီး အစားထိုး၍ မရနိုင်သော Reference Book တစ်အုပ်ကဲ့သို့ စဉ်းစားကြည့်ပါ။ စာကြည့်တိုက်သည် ထို Book ကို အဆောက်အအုံမှ ဘယ်တော့မှ မထွက်ခွာစေမည် မဟုတ်ပါ၊ အကြောင်းမှာ ၎င်းကို ပျောက်ဆုံး (သို့) ဒဏ်ရာရသွားလျှင် အချက်အလက်များ ထာဝရ ပျောက်ကွယ်သွားလိမ့်မည်ဖြစ်သောကြောင့်ဖြစ်သည်။ သို့သော် သင် ဝင်ရောက်ခွင့်ရရှိပြီး လိုအပ်သော စာမျက်နှာတစ်ခုတည်းကိုသာ မိတ္တူကူးကာ ထိုမိတ္တူကို ဘယ်နေရာမဆို ယူသွားဖတ်ခွင့် ရရှိသည်။\"\n\nHtet Aung သည် နှိုင်းယှဉ်ချက်ကို ကိုယ်တိုင် ဆက်လက် တိုးချဲ့ခဲ့သည် - Nucleus သည် စာကြည့်တိုက်ဖြစ်ပြီး Genome တစ်ခုလုံးသည် Reference Book ဖြစ်ကာ Gene တစ်ခုတည်းသည် တစ်စုံတစ်ယောက် ဖတ်လိုသော စာမျက်နှာတစ်ခုတည်း ဖြစ်သည်။ RNA Polymerase သည် Photocopier အဖြစ် လုပ်ဆောင်ကာ ထို Gene တစ်ခု၏ Template Strand တစ်လျှောက် ရွေ့လျားပြီး တိကျသော Complementary မိတ္တူ -- mRNA -- ကို ထုတ်လုပ်ပေးသည်၊ မူလ DNA မှာမူ Nucleus အတွင်း လုံခြုံစွာနှင့် လုံးဝ ပြည့်စုံစွာ ဆက်လက်ရှိနေသည်။ ထို mRNA မိတ္တူသည် Nuclear Pore တစ်ခုမှတဆင့် Cytoplasm ဆီသို့ ခရီးထွက်ပြီး Ribosome တစ်ခုက Master Copy ကို ဒဏ်ရာရစေရန် အန္တရာယ် လုံးဝ မရှိဘဲ ၎င်းကို အသုံးပြုနိုင်သည်။\n\n\"အစစ်အမှန် Photocopy တစ်ခုကဲ့သို့ပင်\" ဟု ဆရာဇော်မင်း ထပ်ဆောင်း ပြောခဲ့သည် \"mRNA မော်လီကျူးတစ်ခုသည် ထာဝရ ဆက်လက်မတည်ရှိပါ -- နောက်ဆုံးတွင် ၎င်းသည် ပြိုကွဲသွားပြီး ပြန်လည်အသုံးပြုခံရသည်၊ ဖတ်ပြီးသည့်အခါ Photocopy ကို ပစ်လိုက်သကဲ့သို့ပင် ဖြစ်သည်။ ဆဲလ်သည် ထို Protein ကို နောက်ပိုင်းတွင် ထပ်လိုအပ်ပါက Gene တစ်ခုတည်း မထိမထိန်းရှိနေဆဲမှ mRNA မိတ္တူအသစ်ကို ရိုးရိုးသာ Transcribe ပြုသည်။ ၎င်းသည် Transcription သည် Translation မတိုင်မီ သီးခြားအဆင့်တစ်ခုအဖြစ် တည်ရှိရသည့် အကြောင်းရင်း အစစ်အမှန် ဖြစ်သည် - ၎င်းသည် ဆဲလ်လိုအပ်သမျှ ကြိမ်ဖန်များစွာ ညွှန်ကြားချက်များကို ဖတ်ပြီး ထပ်ဖတ်ခွင့်ပေးနေဆဲ Genetic Information ၏ ထာဝရ Master Copy တစ်ခုတည်းကို ကာကွယ်ပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's analogy, what does the reference book represent?",
+            questionMy: "Reference Book သည် အဘယ်ကို ကိုယ်စားပြုသည်ကို ဆရာဇော်မင်း၏ နှိုင်းယှဉ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: ["The original DNA", "A ribosome", "A finished protein", "A single amino acid"],
+            optionsMy: ["မူလ DNA", "Ribosome", "ပြီးစီးသော Protein", "Amino Acid တစ်ခုတည်း"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung's extension of the analogy, what acts as the photocopier?",
+            questionMy: "Photocopier အဖြစ် အဘယ် လုပ်ဆောင်သည်ကို Htet Aung ၏ နှိုင်းယှဉ်ချက် တိုးချဲ့မှုအရ ဖော်ပြပါ။",
+            optionsEn: ["RNA polymerase", "DNA helicase", "A ribosome", "tRNA"],
+            optionsMy: ["RNA Polymerase", "DNA Helicase", "Ribosome", "tRNA"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what is the real reason transcription exists as a separate step before translation?",
+            questionMy: "Transcription သည် Translation မတိုင်မီ သီးခြားအဆင့်အဖြစ် တည်ရှိရသည့် အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It protects the one permanent master copy of the genetic information",
+              "It makes proteins directly without needing ribosomes",
+              "It destroys the original DNA on purpose",
+              "It has no real purpose at all",
+            ],
+            optionsMy: [
+              "Genetic Information ၏ ထာဝရ Master Copy တစ်ခုတည်းကို ကာကွယ်ပေးသောကြောင့်",
+              "Ribosome မလိုအပ်ဘဲ Protein များကို တိုက်ရိုက် ဖန်တီးသောကြောင့်",
+              "မူလ DNA ကို တမင် ဖျက်ဆီးသောကြောင့်",
+              "အကြောင်းရင်း အစစ်အမှန် လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Transcription",
+      titleMy: "သက္ကရာဇ်ပတ် ၂၃ ပြန်လည်သုံးသပ်ခြင်း - Transcription",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Transcription produces a molecule of...",
+          questionMy: "Transcription သည် ...မော်လီကျူး ထုတ်လုပ်သည်",
+          optionsEn: ["mRNA", "A new polypeptide", "A new DNA double helix", "ATP"],
+          optionsMy: ["mRNA", "Polypeptide အသစ်", "DNA Double Helix အသစ်", "ATP"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "During transcription, uracil is used in mRNA wherever the DNA template shows...",
+          questionMy: "Transcription အတွင်း DNA Template တွင် ...ပြသရာတိုင်း mRNA တွင် Uracil ကို အသုံးပြုသည်",
+          optionsEn: ["Adenine", "Cytosine", "Guanine", "Thymine"],
+          optionsMy: ["Adenine", "Cytosine", "Guanine", "Thymine"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Transcription takes place inside the...",
+          questionMy: "Transcription သည် ...အတွင်း ဖြစ်ပွားသည်",
+          optionsEn: ["Nucleus", "Mitochondrion", "Golgi apparatus", "Cell wall"],
+          optionsMy: ["Nucleus", "Mitochondrion", "Golgi Apparatus", "Cell Wall"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24: "Translation and the Genetic Code" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12BioWeek24 = CourseWeekDef(
+  id: "course-y12-bio-w24",
+  weekNumber: 24,
+  titleEn: "Translation and the Genetic Code",
+  titleMy: "Translation နှင့် Genetic Code",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-bio-w24-d1",
+      dayNumber: 1,
+      titleEn: "Ribosomes, tRNA and the Genetic Code",
+      titleMy: "Ribosome, tRNA နှင့် Genetic Code",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "During translation, a tRNA molecule's anticodon pairs with a matching...",
+          questionMy: "Translation အတွင်း tRNA မော်လီကျူး၏ Anticodon သည် ကိုက်ညီသော ...နှင့် တွဲစပ်သည်",
+          optionsEn: [
+            "Codon on the mRNA",
+            "Amino acid directly",
+            "Second tRNA molecule",
+            "Nucleotide on the DNA template",
+          ],
+          optionsMy: ["mRNA ပေါ်ရှိ Codon", "Amino Acid တိုက်ရိုက်", "ဒုတိယ tRNA မော်လီကျူး", "DNA Template ပေါ်ရှိ Nucleotide"],
+          correctIndex: 0,
+          hintsEn: [
+            "Each tRNA carries a specific amino acid at one end and a three-base anticodon at the other, which pairs by complementary base pairing with a matching codon on the mRNA.",
+          ],
+          hintsMy: [
+            "tRNA တစ်ခုစီသည် တစ်ဖက်တွင် တိကျသော Amino Acid တစ်ခုနှင့် အခြားတစ်ဖက်တွင် Base သုံးလုံးပါ Anticodon တစ်ခု သယ်ဆောင်ထားပြီး mRNA ပေါ်ရှိ ကိုက်ညီသော Codon နှင့် Complementary Base Pairing ဖြင့် တွဲစပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A codon is a group of...",
+          questionMy: "Codon ဆိုသည်မှာ ...အုပ်စု ဖြစ်သည်",
+          optionsEn: [
+            "Three consecutive bases on mRNA, coding for one amino acid",
+            "Three whole genes",
+            "One single base",
+            "Three whole ribosomes",
+          ],
+          optionsMy: [
+            "One Amino Acid ကို Code ပြုသော mRNA ပေါ်ရှိ ဆက်တိုက် Base သုံးလုံး",
+            "Gene အပြည့်ဘေးလုံး သုံးခု",
+            "Base တစ်လုံးတည်း",
+            "Ribosome အပြည့် သုံးခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The genetic code is read in non-overlapping triplets -- three bases at a time -- which is why it is also called a triplet code.",
+          ],
+          hintsMy: [
+            "Genetic Code ကို Non-overlapping Triplet ပုံစံဖြင့် ဖတ်သည် -- တစ်ကြိမ်လျှင် Base သုံးလုံးစီ -- ၎င်းသည် Triplet Code ဟုလည်း ခေါ်ရသည့် အကြောင်းရင်းဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The genetic code is described as \"degenerate\" because...",
+          questionMy: "Genetic Code ကို \"Degenerate\" ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Most amino acids can be coded for by more than one codon",
+            "It only works in bacteria",
+            "It changes randomly every generation",
+            "Every codon codes for a different protein entirely",
+          ],
+          optionsMy: [
+            "Amino Acid အများစုကို Codon တစ်ခုထက်ပို၍ Code ပြုနိုင်သောကြောင့်",
+            "ဘက်တီးရီးယားများတွင်သာ အလုပ်လုပ်သောကြောင့်",
+            "မျိုးဆက်တိုင်း ကျပန်း ပြောင်းလဲသောကြောင့်",
+            "Codon တိုင်းသည် လုံးဝ မတူညီသော Protein ကို Code ပြုသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Degenerate\" means there is redundancy built in -- for example, several different codons all code for the same amino acid, leucine.",
+          ],
+          hintsMy: [
+            "\"Degenerate\" ဆိုသည်မှာ Redundancy (အပို) ပါဝင်ကြောင်း ဆိုလိုသည် -- ဥပမာ Codon မတူညီသော အများအပြားသည် Amino Acid တူညီတစ်ခု Leucine ကို Code ပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Translation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Translation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12bio-w24-dm-1",
+          termEn: "Codon",
+          termMy: "Codon",
+          matchEn: "A triplet of bases on mRNA coding for one amino acid",
+          matchMy: "One Amino Acid ကို Code ပြုသော mRNA ပေါ်ရှိ Base သုံးလုံးအုပ်စု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12bio-w24-dm-2",
+          termEn: "Anticodon",
+          termMy: "Anticodon",
+          matchEn: "A triplet of bases on tRNA that pairs with a complementary codon",
+          matchMy: "Complementary Codon နှင့် တွဲစပ်သော tRNA ပေါ်ရှိ Base သုံးလုံးအုပ်စု",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y12bio-w24-dm-3",
+          termEn: "tRNA",
+          termMy: "tRNA",
+          matchEn: "A molecule that carries a specific amino acid to the ribosome during translation",
+          matchMy: "Translation အတွင်း တိကျသော Amino Acid တစ်ခုကို Ribosome သို့ သယ်ဆောင်ပေးသော မော်လီကျူး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12bio-w24-dm-4",
+          termEn: "Ribosome",
+          termMy: "Ribosome",
+          matchEn: "The structure that reads mRNA and joins amino acids together during translation",
+          matchMy: "Translation အတွင်း mRNA ကို ဖတ်ပြီး Amino Acid များကို ချိတ်ဆက်ပေးသော ဖွဲ့စည်းပုံ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12bio-w24-dm-5",
+          termEn: "Stop codon",
+          termMy: "Stop Codon",
+          matchEn: "A codon that does not code for an amino acid, signalling translation should end",
+          matchMy: "Amino Acid ကို Code မပြုဘဲ Translation ရပ်တန့်သင့်ကြောင်း အချက်ပြသော Codon",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Property of the Genetic Code or Not?",
+      titleMy: "စီစစ်ကြမည် - Genetic Code ၏ ဂုဏ်သတ္တိလား၊ မဟုတ်လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Property of the Genetic Code", "Not a Property of the Genetic Code"],
+        bucketsMy: ["Genetic Code ၏ ဂုဏ်သတ္တိ", "Genetic Code ၏ ဂုဏ်သတ္တိ မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y12bio-w24-sort-1",
+            labelEn: "Degenerate -- most amino acids have more than one codon",
+            labelMy: "Degenerate -- Amino Acid အများစုတွင် Codon တစ်ခုထက်ပို၍ ရှိ",
+            correctBucketEn: "Property of the Genetic Code",
+            correctBucketMy: "Genetic Code ၏ ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w24-sort-2",
+            labelEn: "Universal -- almost all organisms use the same code",
+            labelMy: "Universal -- Organism နီးပါးအားလုံး Code တူညီစွာ အသုံးပြု",
+            correctBucketEn: "Property of the Genetic Code",
+            correctBucketMy: "Genetic Code ၏ ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w24-sort-3",
+            labelEn: "Triplet -- read three bases at a time",
+            labelMy: "Triplet -- တစ်ကြိမ်လျှင် Base သုံးလုံးစီ ဖတ်",
+            correctBucketEn: "Property of the Genetic Code",
+            correctBucketMy: "Genetic Code ၏ ဂုဏ်သတ္တိ",
+          ),
+          SortingItem(
+            id: "y12bio-w24-sort-4",
+            labelEn: "Overlapping -- each base is shared between two codons",
+            labelMy: "Overlapping -- Base တစ်လုံးစီကို Codon နှစ်ခုကြား မျှဝေ",
+            correctBucketEn: "Not a Property of the Genetic Code",
+            correctBucketMy: "Genetic Code ၏ ဂုဏ်သတ္တိ မဟုတ်",
+          ),
+          SortingItem(
+            id: "y12bio-w24-sort-5",
+            labelEn: "Completely different in every single species",
+            labelMy: "မျိုးစိတ်တစ်ခုချင်းစီတွင် လုံးဝ မတူညီ",
+            correctBucketEn: "Not a Property of the Genetic Code",
+            correctBucketMy: "Genetic Code ၏ ဂုဏ်သတ္တိ မဟုတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Gene to Protein, By Hand",
+      titleMy: "စာဖတ်ခြင်း - Gene မှ Protein သို့, ကိုယ်တိုင် ဆောင်ရွက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Gene to Protein, By Hand",
+        titleMy: "Gene မှ Protein သို့, ကိုယ်တိုင် ဆောင်ရွက်ခြင်း",
+        passageEn:
+            "For the term's capstone activity, Sayar Zaw Min gave Su Su and Htet Aung a short DNA template strand and a printed codon table, and challenged them to work out the resulting short polypeptide by hand, tracing every step from gene to protein they had studied across the term.\n\nHtet Aung started at transcription: reading the DNA template strand base by base, he wrote out the complementary mRNA sequence, remembering to use uracil wherever the template showed adenine. Su Su then took over for translation: she broke the new mRNA sequence into non-overlapping codons, three bases at a time, and looked each one up in the codon table to find its matching amino acid, noting that two completely different codons both happened to code for the same amino acid -- a live example of the code's degeneracy that Sayar Zaw Min had described the week before.\n\nAs Su Su worked through the codons in order, she imagined each step a real ribosome would take: a tRNA molecule with the matching anticodon and the correct amino acid attached would bind briefly to each codon in turn, and the ribosome would form a peptide bond joining that amino acid onto the growing chain, exactly as Term 3's polypeptide chemistry had described. When she reached a codon that did not correspond to any amino acid at all, she recognised it immediately as a stop codon, signalling that the chain -- now a complete short polypeptide -- was finished. \"That's the whole central dogma in miniature,\" Sayar Zaw Min told them, \"DNA to mRNA to protein, and you've just built one by hand, base by base and amino acid by amino acid.\"",
+        passageMy:
+            "Term ၏ Capstone Activity အတွက် ဆရာဇော်မင်းသည် Su Su နှင့် Htet Aung အား DNA Template Strand တိုတောင်းတစ်ခုနှင့် Codon Table စာနှိပ်တစ်ခု ပေးအပ်ကာ Term တစ်လျှောက် လေ့လာခဲ့သမျှ Gene မှ Protein သို့ အဆင့်တိုင်းကို ခြေရာခံပြီး Polypeptide တိုတောင်းရလဒ်ကို ကိုယ်တိုင် တွက်ချက်ရန် စိန်ခေါ်ခဲ့သည်။\n\nHtet Aung သည် Transcription မှ စတင်ခဲ့သည် - DNA Template Strand ကို Base တစ်ခုချင်းစီ ဖတ်ကာ Template တွင် Adenine ပြသရာတိုင်း Uracil ကို အသုံးပြုရန် သတိရလျက် Complementary mRNA အစီအစဉ်ကို ရေးထုတ်ခဲ့သည်။ Su Su ထို့နောက် Translation အတွက် တာဝန်ယူခဲ့သည် - mRNA အစီအစဉ်အသစ်ကို Non-overlapping Codon များအဖြစ် တစ်ကြိမ်လျှင် Base သုံးလုံးစီ ခွဲထုတ်ကာ Codon Table တွင် တစ်ခုစီကို ရှာဖွေ၍ ကိုက်ညီသော Amino Acid ကို ရှာတွေ့ခဲ့သည်၊ လုံးဝ မတူညီသော Codon နှစ်ခုသည် Amino Acid တစ်ခုတည်းကို Code ပြုကြောင်း တွေ့ရှိခဲ့ပြီး -- ၎င်းသည် ဆရာဇော်မင်းက တစ်ပတ်လွန်ခဲ့သောအခါ ရှင်းပြခဲ့သော Code ၏ Degeneracy ကို အသက်ဝင်သော ဥပမာ ဖြစ်သည်။\n\nSu Su သည် Codon များကို အစီအစဉ်အတိုင်း တွက်ချက်နေစဉ် အစစ်အမှန် Ribosome တစ်ခု လုပ်ဆောင်မည့် အဆင့်တစ်ခုစီကို ကူးယူ ရသည် - ကိုက်ညီသော Anticodon နှင့် မှန်ကန်သော Amino Acid ပါဝင်သော tRNA မော်လီကျူးတစ်ခုသည် Codon တစ်ခုစီနှင့် အလှည့်ကျ တို့တို့ တွဲစပ်ပြီး Ribosome သည် ထို Amino Acid ကို ကြီးထွားနေသော ကွင်းဆက်ပေါ် ချိတ်ဆက်ရန် Peptide Bond ဖွဲ့စည်းပေးသည်၊ Term ၃ ၏ Polypeptide ဓာတုဗေဒ ဖော်ပြချက်နှင့် အတိအကျ ကိုက်ညီသည်။ Amino Acid မည်သည့်ကိုမျှ ကိုက်ညီခြင်းမရှိသော Codon တစ်ခုသို့ ရောက်ရှိသောအခါ ၎င်းကို Stop Codon ဟု ချက်ချင်း သိရှိခဲ့ပြီး ကွင်းဆက် -- ယခုအခါ ပြီးစီးသော Polypeptide တိုတောင်း -- ပြီးမြောက်ကြောင်း အချက်ပြသည်။ \"ဤသည်မှာ Central Dogma တစ်ခုလုံးကို သိမ်ငယ်စွာ ဖော်ပြချက် ဖြစ်သည်\" ဟု ဆရာဇော်မင်း ပြောကြားခဲ့သည် \"DNA မှ mRNA သို့ Protein သို့ ဖြစ်ပြီး သင်တို့ ယခုမှ Base တစ်ခုချင်းစီနှင့် Amino Acid တစ်ခုချင်းစီအားဖြင့် ကိုယ်တိုင် တစ်ခု တည်ဆောက်ခဲ့ကြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the first paragraph, why does Htet Aung use uracil instead of thymine when writing the mRNA sequence?",
+            questionMy: "mRNA အစီအစဉ် ရေးသားစဉ် Htet Aung သည် Thymine အစား Uracil ကို အသုံးပြုသည့်အကြောင်းရင်းကို ပထမစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Because mRNA uses uracil in place of thymine",
+              "Because he made a mistake",
+              "Because the DNA template contains no adenine",
+              "Because thymine does not exist",
+            ],
+            optionsMy: [
+              "mRNA သည် Thymine အစား Uracil ကို အသုံးပြုသောကြောင့်",
+              "အမှားလုပ်မိသောကြောင့်",
+              "DNA Template တွင် Adenine လုံးဝ မပါဝင်သောကြောင့်",
+              "Thymine လုံးဝ မတည်ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the second paragraph, what did Su Su notice as a live example of degeneracy?",
+            questionMy: "Degeneracy ၏ အသက်ဝင်သော ဥပမာအဖြစ် Su Su အဘယ်ကို တွေ့ရှိခဲ့သည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Two completely different codons coding for the same amino acid",
+              "A codon with only two bases",
+              "An mRNA molecule with no codons at all",
+              "A ribosome made of DNA",
+            ],
+            optionsMy: [
+              "လုံးဝ မတူညီသော Codon နှစ်ခုသည် Amino Acid တူညီတစ်ခုကို Code ပြုခြင်း",
+              "Base နှစ်လုံးသာပါသော Codon",
+              "Codon လုံးဝ မပါသော mRNA မော်လီကျူး",
+              "DNA မှ ဖွဲ့စည်းထားသော Ribosome",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the third paragraph, how did Su Su recognise the polypeptide chain was finished?",
+            questionMy: "Polypeptide ကွင်းဆက် ပြီးစီးကြောင်း Su Su မည်သို့ သိရှိခဲ့သည်ကို တတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "She reached a codon that did not correspond to any amino acid -- a stop codon",
+              "The mRNA molecule suddenly disappeared",
+              "The ribosome ran out of energy",
+              "She simply guessed it was finished",
+            ],
+            optionsMy: [
+              "Amino Acid မည်သည့်ကိုမျှ မကိုက်ညီသော Codon -- Stop Codon -- သို့ ရောက်ရှိခဲ့သောကြောင့်",
+              "mRNA မော်လီကျူးသည် ရုတ်တရက် ပျောက်ကွယ်သွားသောကြောင့်",
+              "Ribosome ၏ Energy ကုန်ဆုံးသွားသောကြောင့်",
+              "ပြီးစီးပြီဟု ရိုးရိုး ခန့်မှန်းလိုက်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's ending."],
+            hintsMy: ["တတိယစာပိုဒ်၏ အဆုံးသတ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-bio-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: Translation and the Genetic Code",
+      titleMy: "သက္ကရာဇ်ပတ် ၂၄ ပြန်လည်သုံးသပ်ခြင်း - Translation နှင့် Genetic Code",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A codon consists of...",
+          questionMy: "Codon တစ်ခုသည် ...ဖြင့် ဖွဲ့စည်းသည်",
+          optionsEn: ["Three consecutive bases", "One single base", "Ten bases", "One whole gene"],
+          optionsMy: ["ဆက်တိုက် Base သုံးလုံး", "Base တစ်လုံးတည်း", "Base ဆယ်လုံး", "Gene တစ်ခုလုံး"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "tRNA carries a specific...",
+          questionMy: "tRNA သည် တိကျသော ...ကို သယ်ဆောင်သည်",
+          optionsEn: ["Amino acid", "Fatty acid", "Glucose molecule", "Phospholipid"],
+          optionsMy: ["Amino Acid", "Fatty Acid", "Glucose မော်လီကျူး", "Phospholipid"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The genetic code being \"universal\" means...",
+          questionMy: "Genetic Code ကို \"Universal\" ဟု ဆိုသည်မှာ...",
+          optionsEn: [
+            "Almost all organisms use the same code",
+            "It only applies to humans",
+            "It changes completely in every cell",
+            "It has no codons at all",
+          ],
+          optionsMy: [
+            "Organism နီးပါးအားလုံး Code တူညီစွာ အသုံးပြု",
+            "လူသားများတွင်သာ သက်ဆိုင်",
+            "ဆဲလ်တိုင်းတွင် လုံးဝ ပြောင်းလဲ",
+            "Codon လုံးဝ မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12BiologyTerm6 = CourseTermDef(
+  id: "course-y12-bio-t6",
+  termNumber: 6,
+  titleEn: "Nucleic Acids and Protein Synthesis",
+  titleMy: "Nucleic Acid နှင့် Protein Synthesis",
+  weeks: [_y12BioWeek21, _y12BioWeek22, _y12BioWeek23, _y12BioWeek24],
+  certificateTitleEn: "AS Biology: Nucleic Acids and Protein Synthesis",
+  certificateTitleMy: "AS ဇီဝဗေဒ - Nucleic Acid နှင့် Protein Synthesis",
+);
