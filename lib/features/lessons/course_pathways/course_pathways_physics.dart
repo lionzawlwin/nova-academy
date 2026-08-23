@@ -23836,3 +23836,3763 @@ const CoursePathwayDef year11PhysicsPathway = CoursePathwayDef(
     igcsePhysicsTerm9,
   ],
 );
+
+// =====================================================================
+// YEAR 13 PHYSICS (A-Level A2, Cambridge 9702) -- Term 1:
+// "Circular Motion and Gravitational Fields"
+// =====================================================================
+//
+// Year 13 Physics is the A2 continuation of the already-complete Year 12
+// (AS) Physics pathway above -- same subject, same plain-Dart bilingual
+// convention, same Unicode-only math notation (no LaTeX renderer exists
+// in this app), now assuming AS is mastered. ID scheme is distinct from
+// every Y12 ID: "course-y13-phys-w<N>" / "-d<N>" / "-term<N>", so no
+// collisions with the "course-y12-phys-*" IDs above. Only Terms 1-3 (12
+// weeks / 60 daily lessons) are authored here; a later pass adds Terms
+// 4-9 plus the CoursePathwayDef wrapping all 9 terms.
+
+// -----------------------------------------------------------------------
+// Week 1: "Angular Velocity and Centripetal Acceleration"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek1 = CourseWeekDef(
+  id: "course-y13-phys-w1",
+  weekNumber: 1,
+  titleEn: "Angular Velocity and Centripetal Acceleration",
+  titleMy: "Angular Velocity နှင့် Centripetal Acceleration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w1-d1",
+      dayNumber: 1,
+      titleEn: "Radians, Angular Velocity and a = v²/r",
+      titleMy: "Radian, Angular Velocity နှင့် a = v²/r",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "180° expressed in radians is...",
+          questionMy: "180° ကို Radian ဖြင့် ဖော်ပြလျှင်...",
+          optionsEn: ["π rad (≈ 3.14 rad)", "2π rad", "π/2 rad", "90 rad"],
+          optionsMy: ["π rad (≈ 3.14 rad)", "2π rad", "π/2 rad", "90 rad"],
+          correctIndex: 0,
+          hintsEn: [
+            "Radians = degrees x (π/180) = 180 x (π/180) = π rad ≈ 3.14 rad.",
+          ],
+          hintsMy: [
+            "Radian = Degree x (π/180) = 180 x (π/180) = π rad ≈ 3.14 rad ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A point on a wheel completes one full revolution (2π rad) in 4 s. Its angular velocity ω is...",
+          questionMy:
+              "ဘီးတစ်ခုပေါ်ရှိ အမှတ်တစ်ခုသည် Revolution တစ်ခု (2π rad) ကို 4 s အတွင်း ပြီးမြောက်သည်။ ၎င်း၏ Angular Velocity ω မှာ...",
+          optionsEn: [
+            "1.57 rad s⁻¹",
+            "0.5 rad s⁻¹",
+            "8 rad s⁻¹",
+            "6.28 rad s⁻¹",
+          ],
+          optionsMy: [
+            "1.57 rad s⁻¹",
+            "0.5 rad s⁻¹",
+            "8 rad s⁻¹",
+            "6.28 rad s⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ω = θ/t = 2π/4 = π/2 ≈ 1.57 rad s⁻¹.",
+          ],
+          hintsMy: ["ω = θ/t = 2π/4 = π/2 ≈ 1.57 rad s⁻¹ ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A cyclist rides in a circle of radius 10 m at a constant speed of 5 m s⁻¹. Using a = v²/r, the centripetal acceleration is...",
+          questionMy:
+              "စက်ဘီးစီးသူတစ်ဦးသည် Radius 10 m ရှိသော စက်ဝိုင်းတစ်ခုတွင် Constant Speed 5 m s⁻¹ ဖြင့် စီးနင်းသည်။ a = v²/r ကို အသုံးပြု၍ Centripetal Acceleration မှာ...",
+          optionsEn: ["2.5 m s⁻²", "0.5 m s⁻²", "50 m s⁻²", "25 m s⁻²"],
+          optionsMy: ["2.5 m s⁻²", "0.5 m s⁻²", "50 m s⁻²", "25 m s⁻²"],
+          correctIndex: 0,
+          hintsEn: ["a = v²/r = 5²/10 = 25/10 = 2.5 m s⁻²."],
+          hintsMy: ["a = v²/r = 5²/10 = 25/10 = 2.5 m s⁻² ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Circular Motion Symbols and Meanings",
+      titleMy: "တွဲစပ်ကြမည် - Circular Motion သင်္ကေတများနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w1-dm-1",
+          termEn: "ω",
+          termMy: "ω",
+          matchEn: "Angular velocity (rad s⁻¹)",
+          matchMy: "Angular Velocity (rad s⁻¹)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w1-dm-2",
+          termEn: "rad",
+          termMy: "rad",
+          matchEn: "SI unit of angle",
+          matchMy: "Angle ၏ SI Unit",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w1-dm-3",
+          termEn: "T",
+          termMy: "T",
+          matchEn: "Period -- time for one full revolution",
+          matchMy: "Period -- Revolution တစ်ခု ပြီးမြောက်ရန် ကြာချိန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w1-dm-4",
+          termEn: "f = 1/T",
+          termMy: "f = 1/T",
+          matchEn: "Frequency of revolution (Hz)",
+          matchMy: "Revolution ၏ Frequency (Hz)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w1-dm-5",
+          termEn: "a = v²/r",
+          termMy: "a = v²/r",
+          matchEn: "Centripetal acceleration formula",
+          matchMy: "Centripetal Acceleration ဖော်မြူလာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Angular or Linear Quantity?",
+      titleMy: "စီစစ်ကြမည် - Angular ဆိုင်ရာလား၊ Linear ဆိုင်ရာလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Measured in Radians (Angular Quantity)",
+          "Measured in Metres / Metres per Second (Linear Quantity)",
+        ],
+        bucketsMy: [
+          "Radian ဖြင့် တိုင်းတာသည် (Angular Quantity)",
+          "Metre / Metre per Second ဖြင့် တိုင်းတာသည် (Linear Quantity)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w1-sort-1",
+            labelEn: "ω (angular velocity)",
+            labelMy: "ω (Angular Velocity)",
+            correctBucketEn: "Measured in Radians (Angular Quantity)",
+            correctBucketMy: "Radian ဖြင့် တိုင်းတာသည် (Angular Quantity)",
+          ),
+          SortingItem(
+            id: "y13phys-w1-sort-2",
+            labelEn: "θ (angle turned)",
+            labelMy: "θ (လှည့်ခဲ့သော Angle)",
+            correctBucketEn: "Measured in Radians (Angular Quantity)",
+            correctBucketMy: "Radian ဖြင့် တိုင်းတာသည် (Angular Quantity)",
+          ),
+          SortingItem(
+            id: "y13phys-w1-sort-3",
+            labelEn: "v = ωr (tangential speed)",
+            labelMy: "v = ωr (Tangential Speed)",
+            correctBucketEn:
+                "Measured in Metres / Metres per Second (Linear Quantity)",
+            correctBucketMy:
+                "Metre / Metre per Second ဖြင့် တိုင်းတာသည် (Linear Quantity)",
+          ),
+          SortingItem(
+            id: "y13phys-w1-sort-4",
+            labelEn: "s = rθ (arc length)",
+            labelMy: "s = rθ (Arc Length)",
+            correctBucketEn:
+                "Measured in Metres / Metres per Second (Linear Quantity)",
+            correctBucketMy:
+                "Metre / Metre per Second ဖြင့် တိုင်းတာသည် (Linear Quantity)",
+          ),
+          SortingItem(
+            id: "y13phys-w1-sort-5",
+            labelEn: "a = v²/r (centripetal acceleration)",
+            labelMy: "a = v²/r (Centripetal Acceleration)",
+            correctBucketEn:
+                "Measured in Metres / Metres per Second (Linear Quantity)",
+            correctBucketMy:
+                "Metre / Metre per Second ဖြင့် တိုင်းတာသည် (Linear Quantity)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Ferris Wheel Problem",
+      titleMy: "စာဖတ်ခြင်း - Ferris Wheel ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Ferris Wheel Problem",
+        titleMy: "Ferris Wheel ပြဿနာ",
+        passageEn:
+            "Sayar Zaw Min took his A2 class to a fairground for a field trip and asked them to analyse the giant Ferris wheel: radius 15 m, completing one full revolution every 30 s. He asked Htet Aung to find the angular velocity, tangential speed, and centripetal acceleration of a rider sitting in one of the gondolas.\n\nHtet Aung started with angular velocity: ω = 2π/T = 2π/30 ≈ 0.209 rad s⁻¹. From this he found the tangential (linear) speed using v = ωr = 0.209 x 15 ≈ 3.14 m s⁻¹ -- a gentle walking pace, which matched what he had observed watching the gondolas glide past. Finally he calculated the centripetal acceleration two different ways to check his work: a = v²/r = 3.14²/15 ≈ 0.657 m s⁻², and a = ω²r = 0.209² x 15 ≈ 0.655 m s⁻² -- the small difference was just rounding, confirming both formulas agree.\n\nSu Su then asked what a rider actually feels at the very top and very bottom of the wheel. Sayar Zaw Min explained that the centripetal acceleration always points toward the centre of the circle -- downward at the top of the wheel, upward at the bottom -- so it slightly reduces a rider's apparent weight at the top and slightly increases it at the bottom, even though the wheel turns so slowly that the effect (about 0.66 m s⁻² compared to g = 9.81 m s⁻²) is barely noticeable. On a much faster fairground ride with a smaller radius, he added, the same physics produces a far more dramatic effect -- which is exactly why thrill rides are built small and fast rather than large and slow.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် သူ၏ A2 အတန်းကို ပွဲရုံသို့ Field Trip ခေါ်သွားပြီး ဧရာမ Ferris Wheel ကြီးကို ဆန်းစစ်ခိုင်းခဲ့သည် - Radius 15 m ရှိပြီး Revolution တစ်ခုကို 30 s တိုင်း ပြီးမြောက်သည်။ Gondola တစ်ခုတွင် ထိုင်နေသော စီးနင်းသူ၏ Angular Velocity, Tangential Speed နှင့် Centripetal Acceleration ကို ရှာဖွေရန် Htet Aung ကို တောင်းဆိုခဲ့သည်။\n\nHtet Aung သည် Angular Velocity ဖြင့် စတင်ခဲ့သည် - ω = 2π/T = 2π/30 ≈ 0.209 rad s⁻¹ ။ ၎င်းမှ Tangential (Linear) Speed ကို v = ωr = 0.209 x 15 ≈ 3.14 m s⁻¹ ဖြင့် ရှာဖွေခဲ့ပြီး -- ၎င်းသည် Gondola များ ရှောက်ဖြတ်သွားသည်ကို ကြည့်ရှုခဲ့ရသည်နှင့် ကိုက်ညီသော နူးညံ့သော လမ်းလျှောက်နှုန်း ဖြစ်သည်။ နောက်ဆုံးတွင် သူ၏ အလုပ်ကို ပြန်စစ်ဆေးရန် Centripetal Acceleration ကို နည်းလမ်းနှစ်မျိုးဖြင့် တွက်ချက်ခဲ့သည် - a = v²/r = 3.14²/15 ≈ 0.657 m s⁻² နှင့် a = ω²r = 0.209² x 15 ≈ 0.655 m s⁻² -- သေးငယ်သော ကွာခြားချက်မှာ Rounding သာဖြစ်ပြီး Formula နှစ်ခုစလုံး ကိုက်ညီကြောင်း အတည်ပြုပေးသည်။\n\nWheel ၏ အထွတ်နှင့် အောက်ခြေဆုံးတွင် စီးနင်းသူတစ်ဦး တကယ် ခံစားရသည်မှာ အဘယ်နည်းဟု Su Su က ထို့နောက် မေးမြန်းခဲ့သည်။ Centripetal Acceleration သည် စက်ဝိုင်း၏ အလယ်ဗဟိုသို့ အမြဲ ညွှန်ပြနေသည် -- Wheel ၏ အထွတ်တွင် အောက်သို့၊ အောက်ခြေတွင် အထက်သို့ -- ဖြစ်သောကြောင့် စီးနင်းသူ၏ Apparent Weight ကို အထွတ်တွင် အနည်းငယ် လျော့ချပြီး အောက်ခြေတွင် အနည်းငယ် တိုးစေကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်၊ Wheel သည် အလွန်နှေးကွေးစွာ လှည့်နေသောကြောင့် ဤသက်ရောက်မှု (g = 9.81 m s⁻² နှင့် နှိုင်းယှဉ်လျှင် 0.66 m s⁻² ခန့်) ကို ခက်ခက်ခဲခဲ သိသာနိုင်သည်။ Radius သေးငယ်သော ပွဲရုံစီးနင်းစရာများတွင် ပို၍ မြန်ဆန်စွာ လှည့်ပါက ရူပဗေဒတူညီသော်လည်း ပို၍ သိသာထင်ရှားသော သက်ရောက်မှု ဖြစ်ပေါ်စေကြောင်း သူ ထပ်ဆောင်းရှင်းပြခဲ့သည် -- ဤအချက်သည် စိတ်လှုပ်ရှားဖွယ် Rideများကို ကြီးမားပြီး နှေးကွေးစွာ မဟုတ်ဘဲ သေးငယ်ပြီး မြန်ဆန်စွာ တည်ဆောက်ရသည့် အကြောင်းအရင်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the Ferris wheel's angular velocity?",
+            questionMy:
+                "Ferris Wheel ၏ Angular Velocity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 0.209 rad s⁻¹",
+              "≈ 3.14 rad s⁻¹",
+              "≈ 30 rad s⁻¹",
+              "≈ 0.657 rad s⁻¹",
+            ],
+            optionsMy: [
+              "≈ 0.209 rad s⁻¹",
+              "≈ 3.14 rad s⁻¹",
+              "≈ 30 rad s⁻¹",
+              "≈ 0.657 rad s⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: [
+              "ဒုတိယစာပိုဒ်၏ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Htet Aung calculate the centripetal acceleration two different ways?",
+            questionMy:
+                "Htet Aung သည် Centripetal Acceleration ကို နည်းလမ်းနှစ်မျိုးဖြင့် အဘယ်ကြောင့် တွက်ချက်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To check his work, and confirm both formulas agree",
+              "Because the first formula was wrong",
+              "Because Sayar Zaw Min forbade using a = v²/r",
+              "To find the wheel's mass",
+            ],
+            optionsMy: [
+              "သူ့အလုပ်ကို ပြန်စစ်ဆေးပြီး Formula နှစ်ခုစလုံး ကိုက်ညီကြောင်း အတည်ပြုရန်",
+              "ပထမ Formula မှားနေသောကြောင့်",
+              "ဆရာဇော်မင်းက a = v²/r သုံးရန် တားမြစ်ထားသောကြောင့်",
+              "Wheel ၏ Mass ကို ရှာဖွေရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why are thrill rides built small and fast rather than large and slow?",
+            questionMy:
+                "စိတ်လှုပ်ရှားဖွယ် Ride များကို ကြီးမားပြီး နှေးကွေးစွာ မဟုတ်ဘဲ သေးငယ်ပြီး မြန်ဆန်စွာ အဘယ်ကြောင့် တည်ဆောက်ရသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A smaller radius and faster speed produce a far more noticeable centripetal acceleration",
+              "Small rides are always cheaper to build",
+              "Large rides are illegal at fairgrounds",
+              "Centripetal acceleration does not depend on radius or speed",
+            ],
+            optionsMy: [
+              "Radius ငယ်ပြီး Speed မြန်ခြင်းက ပို၍ သိသာထင်ရှားသော Centripetal Acceleration ကို ဖြစ်ပေါ်စေသည်",
+              "သေးငယ်သော Ride များသည် တည်ဆောက်ရန် အမြဲ ပိုသက်သာသည်",
+              "ကြီးမားသော Ride များသည် ပွဲရုံများတွင် တရားမဝင်ပါ",
+              "Centripetal Acceleration သည် Radius (သို့) Speed ပေါ် မမူတည်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Circular Motion Basics",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Circular Motion အခြေခံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The SI unit of angular velocity is...",
+          questionMy: "Angular Velocity ၏ SI Unit မှာ...",
+          optionsEn: ["rad s⁻¹", "m s⁻¹", "m s⁻²", "Hz only"],
+          optionsMy: ["rad s⁻¹", "m s⁻¹", "m s⁻²", "Hz only"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The formula for centripetal acceleration in terms of ω and r is...",
+          questionMy: "ω နှင့် r ဖြင့် ဖော်ပြသော Centripetal Acceleration ဖော်မြူလာမှာ...",
+          optionsEn: ["a = ω²r", "a = ωr²", "a = ω/r", "a = ωr"],
+          optionsMy: ["a = ω²r", "a = ωr²", "a = ω/r", "a = ωr"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "One full revolution corresponds to how many radians?",
+          questionMy: "Revolution တစ်ခုသည် Radian မည်မျှနှင့် ညီမျှသနည်း။",
+          optionsEn: ["2π rad", "π rad", "π/2 rad", "360 rad"],
+          optionsMy: ["2π rad", "π rad", "π/2 rad", "360 rad"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "Centripetal Force and Circular Motion Applications"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek2 = CourseWeekDef(
+  id: "course-y13-phys-w2",
+  weekNumber: 2,
+  titleEn: "Centripetal Force and Circular Motion Applications",
+  titleMy: "Centripetal Force နှင့် Circular Motion Applications",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w2-d1",
+      dayNumber: 1,
+      titleEn: "F = mv²/r: Centripetal Force in Practice",
+      titleMy: "F = mv²/r - Centripetal Force လက်တွေ့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A 2 kg mass moves in a circle of radius 0.5 m at a speed of 4 m s⁻¹. Using F = mv²/r, the centripetal force is...",
+          questionMy:
+              "Mass 2 kg သည် Radius 0.5 m ရှိသော စက်ဝိုင်းတွင် Speed 4 m s⁻¹ ဖြင့် ရွေ့လျားသည်။ F = mv²/r ကို အသုံးပြု၍ Centripetal Force မှာ...",
+          optionsEn: ["64 N", "32 N", "16 N", "8 N"],
+          optionsMy: ["64 N", "32 N", "16 N", "8 N"],
+          correctIndex: 0,
+          hintsEn: ["F = mv²/r = (2 x 4²)/0.5 = 32/0.5 = 64 N."],
+          hintsMy: ["F = mv²/r = (2 x 4²)/0.5 = 32/0.5 = 64 N ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A car of mass 1000 kg travels round a bend of radius 50 m at 10 m s⁻¹. The centripetal force required is...",
+          questionMy:
+              "Mass 1000 kg ရှိသော ကားတစ်စီးသည် Radius 50 m ရှိသော ကွေ့ကောက်ချက်ကို 10 m s⁻¹ ဖြင့် ဖြတ်သွားသည်။ လိုအပ်သော Centripetal Force မှာ...",
+          optionsEn: ["2000 N", "200 N", "20000 N", "500 N"],
+          optionsMy: ["2000 N", "200 N", "20000 N", "500 N"],
+          correctIndex: 0,
+          hintsEn: ["F = mv²/r = (1000 x 10²)/50 = 100000/50 = 2000 N."],
+          hintsMy: ["F = mv²/r = (1000 x 10²)/50 = 100000/50 = 2000 N ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a banked track at the correct design speed, which horizontal component supplies the centripetal force without any help from friction?",
+          questionMy:
+              "မှန်ကန်သော Design Speed ဖြင့် Banked Track ပေါ်တွင် Friction ၏ အကူအညီ မလိုဘဲ Centripetal Force ကို မည်သည့် Horizontal Component က ပေးသနည်း။",
+          optionsEn: [
+            "The horizontal component of the normal contact force",
+            "The horizontal component of weight",
+            "Air resistance",
+            "The car's engine thrust",
+          ],
+          optionsMy: [
+            "Normal Contact Force ၏ Horizontal Component",
+            "Weight ၏ Horizontal Component",
+            "Air Resistance",
+            "ကား၏ Engine Thrust",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "On a banked (tilted) track, the normal contact force is no longer vertical -- its horizontal component alone can supply exactly the centripetal force needed at the design speed.",
+          ],
+          hintsMy: [
+            "Banked (စောင်းနေသော) Track ပေါ်တွင် Normal Contact Force သည် Vertical မဟုတ်တော့ပါ -- ၎င်း၏ Horizontal Component တစ်ခုတည်းက Design Speed တွင် လိုအပ်သော Centripetal Force ကို အတိအကျ ပေးနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Centripetal Force Sources",
+      titleMy: "တွဲစပ်ကြမည် - Centripetal Force ရင်းမြစ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w2-dm-1",
+          termEn: "F = mv²/r",
+          termMy: "F = mv²/r",
+          matchEn: "Centripetal force formula (linear form)",
+          matchMy: "Centripetal Force ဖော်မြူလာ (Linear ပုံစံ)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w2-dm-2",
+          termEn: "F = mω²r",
+          termMy: "F = mω²r",
+          matchEn: "Centripetal force formula (angular form)",
+          matchMy: "Centripetal Force ဖော်မြူလာ (Angular ပုံစံ)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w2-dm-3",
+          termEn: "Conical pendulum",
+          termMy: "Conical Pendulum",
+          matchEn: "String tension's horizontal component supplies centripetal force",
+          matchMy: "String Tension ၏ Horizontal Component က Centripetal Force ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w2-dm-4",
+          termEn: "Banked track",
+          termMy: "Banked Track",
+          matchEn:
+              "Normal contact force's horizontal component supplies centripetal force",
+          matchMy:
+              "Normal Contact Force ၏ Horizontal Component က Centripetal Force ပေးသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w2-dm-5",
+          termEn: "Vertical circular loop (top)",
+          termMy: "Vertical Circular Loop (အထွတ်)",
+          matchEn: "Weight and normal force both point toward the centre",
+          matchMy: "Weight နှင့် Normal Force နှစ်ခုစလုံး Centre သို့ ညွှန်ပြသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Can It Supply Centripetal Force?",
+      titleMy: "စီစစ်ကြမည် - Centripetal Force ပေးနိုင်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Can Supply Centripetal Force",
+          "Cannot Supply Centripetal Force",
+        ],
+        bucketsMy: [
+          "Centripetal Force ပေးနိုင်သည်",
+          "Centripetal Force ပေးမနိုင်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w2-sort-1",
+            labelEn: "Tension in a string whirling a ball",
+            labelMy: "ဘောလုံးကို လှည့်ပတ်နေသော String ရှိ Tension",
+            correctBucketEn: "Can Supply Centripetal Force",
+            correctBucketMy: "Centripetal Force ပေးနိုင်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w2-sort-2",
+            labelEn: "Friction between tyres and road on a flat bend",
+            labelMy:
+                "ညီညာသော ကွေ့ကောက်ချက်ပေါ်ရှိ Tyre နှင့် လမ်းကြား Friction",
+            correctBucketEn: "Can Supply Centripetal Force",
+            correctBucketMy: "Centripetal Force ပေးနိုင်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w2-sort-3",
+            labelEn:
+                "The horizontal component of the normal contact force on a banked track",
+            labelMy: "Banked Track ပေါ်ရှိ Normal Contact Force ၏ Horizontal Component",
+            correctBucketEn: "Can Supply Centripetal Force",
+            correctBucketMy: "Centripetal Force ပေးနိုင်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w2-sort-4",
+            labelEn: "\"Centrifugal force\" pushing the object outward",
+            labelMy: "ပစ္စည်းကို အပြင်သို့ တွန်းနေသော \"Centrifugal Force\"",
+            correctBucketEn: "Cannot Supply Centripetal Force",
+            correctBucketMy: "Centripetal Force ပေးမနိုင်ပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w2-sort-5",
+            labelEn:
+                "An object's own weight alone, when moving in a horizontal circle at constant height",
+            labelMy:
+                "Constant Height ဖြင့် Horizontal Circle တွင် ရွေ့လျားနေသည့် ပစ္စည်း၏ Weight တစ်ခုတည်း",
+            correctBucketEn: "Cannot Supply Centripetal Force",
+            correctBucketMy: "Centripetal Force ပေးမနိုင်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Banking the Bend",
+      titleMy: "စာဖတ်ခြင်း - ကွေ့ကောက်ချက်ကို Banking လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Banking the Bend",
+        titleMy: "ကွေ့ကောက်ချက်ကို Banking လုပ်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Aye showed her A2 class a photograph of a racetrack bend built at a steep tilt, and asked why engineers bank a road instead of leaving it flat. Su Su explained that on a flat bend, friction alone must supply the whole centripetal force -- but friction is unreliable in the rain, so a banked track lets the horizontal component of the normal contact force do the job instead, working even when the road is wet.\n\nSu Su then worked through the design calculation for a specific bend of radius 100 m, designed for cars travelling at 20 m s⁻¹ with zero reliance on friction. Resolving the normal contact force N into horizontal and vertical components, the vertical component balances weight (N cos θ = mg) while the horizontal component supplies the centripetal force (N sin θ = mv²/r). Dividing one equation by the other cancels N and m entirely, leaving tan θ = v²/(rg).\n\nSubstituting the numbers: tan θ = 20²/(100 x 9.81) = 400/981 ≈ 0.408, so θ ≈ 22.1°. Sayama Moe Moe Aye pointed out the elegant result -- the banking angle depends only on the design speed and radius, not on the mass of the vehicle, which is exactly why the same banked bend works safely for a lightweight motorbike and a heavy lorry travelling at that same design speed.",
+        passageMy:
+            "ဆရာမ မိုမိုအေးသည် သူမ၏ A2 အတန်းကို ထောင့်စောင်းစွာ တည်ဆောက်ထားသော Racetrack ကွေ့ကောက်ချက်၏ ဓာတ်ပုံတစ်ပုံ ပြသပြီး Engineer များသည် လမ်းကို ညီညာစွာ ချန်ထားမည့်အစား Banking လုပ်ရသည့် အကြောင်းရင်းကို မေးမြန်းခဲ့သည်။ ညီညာသော ကွေ့ကောက်ချက်တွင် Friction တစ်ခုတည်းက Centripetal Force အားလုံးကို ပေးရမည်ဖြစ်သော်လည်း -- မိုးရွာချိန်တွင် Friction သည် မတည်မငြိမ်ဖြစ်သောကြောင့် Banked Track က Normal Contact Force ၏ Horizontal Component ကို အလုပ်လုပ်ခိုင်းပြီး လမ်းစိုနေသောအခါပင် အလုပ်လုပ်ကြောင်း Su Su က ရှင်းပြခဲ့သည်။\n\nSu Su သည် Friction အပေါ် လုံးဝ မမှီခိုဘဲ 20 m s⁻¹ ဖြင့် ခရီးသွားသော ကားများအတွက် ဒီဇိုင်းရေးဆွဲထားသော Radius 100 m ရှိသော သီးခြား ကွေ့ကောက်ချက်တစ်ခု၏ Design တွက်ချက်မှုကို ဆက်လုပ်ခဲ့သည်။ Normal Contact Force N ကို Horizontal နှင့် Vertical Component များအဖြစ် ဖြေရှင်းခြင်းဖြင့် Vertical Component က Weight ကို ချိန်ညှိပေးပြီး (N cos θ = mg) Horizontal Component က Centripetal Force ကို ပေးသည် (N sin θ = mv²/r)။ Equation တစ်ခုကို တစ်ခုနှင့် စားခြင်းဖြင့် N နှင့် m နှစ်ခုစလုံး လုံးဝ ချေဖျက်သွားပြီး tan θ = v²/(rg) ကျန်ရစ်သည်။\n\nဂဏန်းများကို အစားထိုးရေးလျှင် - tan θ = 20²/(100 x 9.81) = 400/981 ≈ 0.408 ဖြစ်ပြီး θ ≈ 22.1° ဖြစ်သည်။ Banking Angle သည် ကားဟူသမျှ၏ Mass ပေါ် မမူတည်ဘဲ Design Speed နှင့် Radius ပေါ်တွင်သာ မူတည်နေသော လှပသော ရလဒ်ကို ဆရာမ မိုမိုအေးက ထောက်ပြခဲ့သည် -- ၎င်းသည် ထို Design Speed တွင် ခရီးသွားသော ပေါ့ပါးသော Motorbike တစ်စီးနှင့် လေးလံသော Lorry တစ်စီး နှစ်ခုစလုံးအတွက် Banked Bend တစ်ခုတည်းသည် ဘေးကင်းလုံခြုံစွာ အလုပ်လုပ်စေရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does friction alone become unreliable on a flat bend?",
+            questionMy:
+                "ညီညာသော ကွေ့ကောက်ချက်တွင် Friction တစ်ခုတည်း အဘယ်ကြောင့် မတည်မငြိမ်ဖြစ်လာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is unreliable in the rain",
+              "It never exists on a flat road",
+              "It only works for lightweight vehicles",
+              "It becomes negative at high speed",
+            ],
+            optionsMy: [
+              "မိုးရွာချိန်တွင် မတည်မငြိမ်ဖြစ်သောကြောင့်",
+              "ညီညာသော လမ်းပေါ်တွင် လုံးဝ မရှိသောကြောင့်",
+              "ပေါ့ပါးသော ယာဉ်များအတွက်သာ အလုပ်လုပ်သောကြောင့်",
+              "မြန်နှုန်းမြင့်သောအခါ Negative ဖြစ်သွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the banking angle for the 100 m radius bend at 20 m s⁻¹?",
+            questionMy:
+                "20 m s⁻¹ ဖြင့် Radius 100 m ရှိသော ကွေ့ကောက်ချက်၏ Banking Angle ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 22.1°", "≈ 40.8°", "≈ 9.81°", "≈ 100°"],
+            optionsMy: ["≈ 22.1°", "≈ 40.8°", "≈ 9.81°", "≈ 100°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does the banking angle NOT depend on?",
+            questionMy:
+                "Banking Angle သည် အဘယ်အရာပေါ် မမူတည်ကြောင်း နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The mass of the vehicle",
+              "The design speed",
+              "The radius of the bend",
+              "The value of g",
+            ],
+            optionsMy: [
+              "ယာဉ်၏ Mass",
+              "Design Speed",
+              "ကွေ့ကောက်ချက်၏ Radius",
+              "g ၏ တန်ဖိုး",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Centripetal Force",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Centripetal Force",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Centripetal force always points...",
+          questionMy: "Centripetal Force သည် အမြဲ...",
+          optionsEn: [
+            "Toward the centre of the circle",
+            "Away from the centre",
+            "Tangent to the circle",
+            "In the direction of motion",
+          ],
+          optionsMy: [
+            "စက်ဝိုင်း၏ အလယ်ဗဟိုသို့",
+            "အလယ်ဗဟိုမှ အပြင်သို့",
+            "စက်ဝိုင်းနှင့် Tangent ဖြစ်စွာ",
+            "ရွေ့လျားမှု ဦးတည်ချက်အတိုင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a banked track at the correct design speed, which force is not needed?",
+          questionMy:
+              "မှန်ကန်သော Design Speed ဖြင့် Banked Track ပေါ်တွင် မည်သည့် Force ကို မလိုအပ်တော့သနည်း။",
+          optionsEn: ["Friction", "Weight", "Normal contact force", "Gravity"],
+          optionsMy: ["Friction", "Weight", "Normal Contact Force", "Gravity"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "F = mω²r relates centripetal force to which two quantities besides mass?",
+          questionMy:
+              "F = mω²r သည် Mass အပြင် ပမာဏ နှစ်ခုနှင့် Centripetal Force ကို ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "Angular velocity and radius",
+            "Time and displacement",
+            "Speed and area",
+            "Frequency and mass alone",
+          ],
+          optionsMy: [
+            "Angular Velocity နှင့် Radius",
+            "Time နှင့် Displacement",
+            "Speed နှင့် Area",
+            "Frequency နှင့် Mass တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Newton's Law of Gravitation and Gravitational Field Strength"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek3 = CourseWeekDef(
+  id: "course-y13-phys-w3",
+  weekNumber: 3,
+  titleEn: "Newton's Law of Gravitation and Gravitational Field Strength",
+  titleMy: "Newton's Law of Gravitation နှင့် Gravitational Field Strength",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w3-d1",
+      dayNumber: 1,
+      titleEn: "F = Gm₁m₂/r² and g = GM/r²",
+      titleMy: "F = Gm₁m₂/r² နှင့် g = GM/r²",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using F = Gm₁m₂/r² (G = 6.67 x 10⁻¹¹ N m² kg⁻²), the gravitational force between two 1000 kg masses separated by 2 m is...",
+          questionMy:
+              "F = Gm₁m₂/r² (G = 6.67 x 10⁻¹¹ N m² kg⁻²) ကို အသုံးပြု၍ Mass 1000 kg စီရှိသော ပစ္စည်းနှစ်ခု 2 m ကွာဝေးစွာ ရှိစဉ် ကြားရှိ Gravitational Force မှာ...",
+          optionsEn: [
+            "1.67 x 10⁻⁵ N",
+            "6.67 x 10⁻¹¹ N",
+            "1.67 x 10⁻⁴ N",
+            "3.34 x 10⁻⁵ N",
+          ],
+          optionsMy: [
+            "1.67 x 10⁻⁵ N",
+            "6.67 x 10⁻¹¹ N",
+            "1.67 x 10⁻⁴ N",
+            "3.34 x 10⁻⁵ N",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "F = Gm₁m₂/r² = (6.67x10⁻¹¹ x 1000 x 1000)/2² = (6.67x10⁻¹¹ x 10⁶)/4 ≈ 1.67x10⁻⁵ N.",
+          ],
+          hintsMy: [
+            "F = Gm₁m₂/r² = (6.67x10⁻¹¹ x 1000 x 1000)/2² = (6.67x10⁻¹¹ x 10⁶)/4 ≈ 1.67x10⁻⁵ N ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using g = GM/r² (M = 5.97 x 10²⁴ kg, r = 6.37 x 10⁶ m), the gravitational field strength at Earth's surface is...",
+          questionMy:
+              "g = GM/r² (M = 5.97 x 10²⁴ kg, r = 6.37 x 10⁶ m) ကို အသုံးပြု၍ ကမ္ဘာမျက်နှာပြင်ရှိ Gravitational Field Strength မှာ...",
+          optionsEn: [
+            "≈ 9.81 m s⁻²",
+            "≈ 6.67 m s⁻²",
+            "≈ 98.1 m s⁻²",
+            "≈ 0.981 m s⁻²",
+          ],
+          optionsMy: [
+            "≈ 9.81 m s⁻²",
+            "≈ 6.67 m s⁻²",
+            "≈ 98.1 m s⁻²",
+            "≈ 0.981 m s⁻²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "g = GM/r² = (6.67x10⁻¹¹ x 5.97x10²⁴)/(6.37x10⁶)² ≈ 9.81 m s⁻².",
+          ],
+          hintsMy: [
+            "g = GM/r² = (6.67x10⁻¹¹ x 5.97x10²⁴)/(6.37x10⁶)² ≈ 9.81 m s⁻² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If the distance between two masses is doubled, the gravitational force between them...",
+          questionMy:
+              "ပစ္စည်းနှစ်ခုကြား အကွာအဝေးကို နှစ်ဆတိုးပါက ၎င်းတို့ကြား Gravitational Force သည်...",
+          optionsEn: [
+            "Decreases to one quarter",
+            "Decreases to one half",
+            "Increases four times",
+            "Stays the same",
+          ],
+          optionsMy: [
+            "လေးပုံတစ်ပုံသို့ လျော့ကျသည်",
+            "တစ်ဝက်သို့ လျော့ကျသည်",
+            "လေးဆ တိုးလာသည်",
+            "မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "F ∝ 1/r², so doubling r means dividing F by 2² = 4 -- the force falls to one quarter.",
+          ],
+          hintsMy: [
+            "F ∝ 1/r² ဖြစ်သောကြောင့် r ကို နှစ်ဆတိုးလျှင် F ကို 2² = 4 ဖြင့် စားခြင်းနှင့် ညီသည် -- Force သည် လေးပုံတစ်ပုံသို့ ကျဆင်းသွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gravitation Symbols and Meanings",
+      titleMy: "တွဲစပ်ကြမည် - Gravitation သင်္ကေတများနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w3-dm-1",
+          termEn: "F = Gm₁m₂/r²",
+          termMy: "F = Gm₁m₂/r²",
+          matchEn: "Newton's law of gravitation",
+          matchMy: "Newton's Law of Gravitation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w3-dm-2",
+          termEn: "G",
+          termMy: "G",
+          matchEn: "Gravitational constant, 6.67 x 10⁻¹¹ N m² kg⁻²",
+          matchMy: "Gravitational Constant, 6.67 x 10⁻¹¹ N m² kg⁻²",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w3-dm-3",
+          termEn: "g = GM/r²",
+          termMy: "g = GM/r²",
+          matchEn: "Gravitational field strength formula",
+          matchMy: "Gravitational Field Strength ဖော်မြူလာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w3-dm-4",
+          termEn: "g",
+          termMy: "g",
+          matchEn: "Force per unit mass (N kg⁻¹)",
+          matchMy: "Mass Unit တစ်ခုလျှင် Force (N kg⁻¹)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w3-dm-5",
+          termEn: "Gravitational field lines",
+          termMy: "Gravitational Field Line များ",
+          matchEn: "Point radially inward toward the centre of a spherical mass",
+          matchMy: "စက်လုံးပုံ Mass တစ်ခု၏ အလယ်ဗဟိုသို့ Radially အတွင်းသို့ ညွှန်ပြသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False about Gravitational Fields?",
+      titleMy: "စီစစ်ကြမည် - Gravitational Field များအကြောင်း မှန်သလား မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True Statement", "False Statement (Common Misconception)"],
+        bucketsMy: ["မှန်ကန်သော ဖော်ပြချက်", "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w3-sort-1",
+            labelEn: "Gravitational force is always attractive, never repulsive",
+            labelMy: "Gravitational Force သည် Attractive သာ ဖြစ်ပြီး Repulsive မဖြစ်နိုင်ပါ",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w3-sort-2",
+            labelEn: "g is constant everywhere in the universe, with no dependence on distance",
+            labelMy: "g သည် စကြဝဠာတစ်ခုလုံးတွင် Distance ပေါ် မမူတည်ဘဲ Constant ဖြစ်သည်",
+            correctBucketEn: "False Statement (Common Misconception)",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)",
+          ),
+          SortingItem(
+            id: "y13phys-w3-sort-3",
+            labelEn: "A heavier object falls faster than a lighter object in a vacuum",
+            labelMy: "လေးလံသော ပစ္စည်းသည် Vacuum ထဲတွင် ပေါ့ပါးသော ပစ္စည်းထက် ပိုမြန်စွာ ကျသည်",
+            correctBucketEn: "False Statement (Common Misconception)",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)",
+          ),
+          SortingItem(
+            id: "y13phys-w3-sort-4",
+            labelEn: "Gravitational force decreases with the square of the separation",
+            labelMy: "Gravitational Force သည် ကွာဝေးမှု၏ Square ဖြင့် လျော့ကျသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w3-sort-5",
+            labelEn: "The gravitational constant G is the same thing as gravitational field strength g",
+            labelMy: "Gravitational Constant G သည် Gravitational Field Strength g နှင့် အတူတူပင် ဖြစ်သည်",
+            correctBucketEn: "False Statement (Common Misconception)",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက် (Common Misconception)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Astronauts Aren't Weightless",
+      titleMy: "စာဖတ်ခြင်း - Astronaut များ Weightless မဖြစ်ကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Astronauts Aren't Weightless",
+        titleMy: "Astronaut များ Weightless မဖြစ်ကြောင်း",
+        passageEn:
+            "Sayar Zaw Min asked his class a question that surprises most students: is there really \"no gravity\" in space, the way it is often described? He asked Htet Aung to calculate g at the International Space Station's orbital altitude, about 400 km above the Earth's surface, so r = 6.37x10⁶ + 4.0x10⁵ = 6.77x10⁶ m.\n\nHtet Aung applied g = GM/r² = (6.67x10⁻¹¹ x 5.97x10²⁴)/(6.77x10⁶)² ≈ 8.69 m s⁻². He was startled -- that is about 89% of the 9.81 m s⁻² value at Earth's surface, nowhere close to zero. So why do astronauts float around inside the ISS as if there were no gravity at all?\n\nSayar Zaw Min explained that the ISS and everything inside it, astronauts included, are in continuous free fall: gravity is very much still acting on them, curving their path into a circular orbit around the Earth, but because the station and its occupants are falling together at exactly the same rate, there is no contact force between an astronaut's body and the floor -- and it is the absence of that contact force, not the absence of gravity, that produces the sensation of weightlessness. \"Zero gravity\" is a popular but misleading phrase; \"apparent weightlessness through continuous free fall\" is the physically accurate one.",
+        passageMy:
+            "အာကာသတွင် များသောအားဖြင့် ဖော်ပြလေ့ရှိသည့်အတိုင်း \"Gravity လုံးဝ မရှိပါ\" ဆိုသည်မှာ တကယ်မှန်ကန်သလားဟု ဆရာဇော်မင်းသည် ကျောင်းသားများအား ကျောင်းသားအများစုကို အံ့သြစေသော မေးခွန်းတစ်ခု မေးမြန်းခဲ့သည်။ ကမ္ဘာမျက်နှာပြင်အထက် 400 km ခန့်ရှိ International Space Station ၏ Orbital Altitude တွင် g ကို တွက်ချက်ရန် Htet Aung ကို တောင်းဆိုခဲ့ပြီး r = 6.37x10⁶ + 4.0x10⁵ = 6.77x10⁶ m ဖြစ်သည်။\n\nHtet Aung သည် g = GM/r² = (6.67x10⁻¹¹ x 5.97x10²⁴)/(6.77x10⁶)² ≈ 8.69 m s⁻² ဟု အသုံးချခဲ့သည်။ သူ အံ့သြသွားခဲ့သည် -- ၎င်းသည် ကမ္ဘာမျက်နှာပြင်ရှိ 9.81 m s⁻² တန်ဖိုး၏ 89% ခန့် ဖြစ်ပြီး Zero နှင့် လုံးဝ မနီးစပ်ပါ။ သို့ဆိုလျှင် Astronaut များသည် ISS အတွင်း Gravity လုံးဝ မရှိသကဲ့သို့ အဘယ်ကြောင့် ပေါ့ပေါ့ပါးပါး ပျံဝဲနေကြသနည်း။\n\nISS နှင့် Astronaut များ အပါအဝင် ၎င်း၏ အတွင်းရှိ အရာအားလုံးသည် ဆက်တိုက် Free Fall ထဲတွင် ရှိနေကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည် - Gravity သည် ၎င်းတို့အပေါ် ဆက်လက် သက်ရောက်နေဆဲပင် ဖြစ်ပြီး ၎င်းတို့၏ လမ်းကြောင်းကို ကမ္ဘာပတ် Circular Orbit အဖြစ် ကွေ့ပေးနေသော်လည်း Station နှင့် ၎င်း၏ အတွင်းရှိ လူများသည် တူညီသော နှုန်းဖြင့် အတူတကွ ကျဆင်းနေသောကြောင့် Astronaut ၏ ခန္ဓာကိုယ်နှင့် ကြမ်းပြင်ကြား Contact Force လုံးဝ မရှိပါ -- ၎င်းသည် Gravity မရှိခြင်း မဟုတ်ဘဲ ထို Contact Force မရှိခြင်းသာ Weightlessness ခံစားချက်ကို ဖြစ်ပေါ်စေခြင်း ဖြစ်သည်။ \"Zero Gravity\" ဆိုသည်မှာ လူသိများသော်လည်း လမ်းလွဲစေတတ်သော အသုံးအနှုန်း ဖြစ်ပြီး \"ဆက်တိုက် Free Fall မှတစ်ဆင့် Apparent Weightlessness\" ဆိုသည်မှာ ရူပဗေဒအရ တိကျမှန်ကန်သော အသုံးအနှုန်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is g at the ISS's orbital altitude?",
+            questionMy: "ISS ၏ Orbital Altitude တွင် g ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 8.69 m s⁻²",
+              "≈ 9.81 m s⁻²",
+              "≈ 0 m s⁻²",
+              "≈ 6.67 m s⁻²",
+            ],
+            optionsMy: [
+              "≈ 8.69 m s⁻²",
+              "≈ 9.81 m s⁻²",
+              "≈ 0 m s⁻²",
+              "≈ 6.67 m s⁻²",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what actually causes the sensation of weightlessness on the ISS?",
+            questionMy:
+                "ISS ပေါ်တွင် Weightlessness ခံစားချက်ကို တကယ်တမ်း အဘယ်အရာက ဖြစ်ပေါ်စေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The absence of a contact force, since everything falls together",
+              "The complete absence of gravity in space",
+              "The station's engines cancelling gravity",
+              "A special zero-gravity chemical coating",
+            ],
+            optionsMy: [
+              "အရာအားလုံး အတူတကွ ကျဆင်းနေသောကြောင့် Contact Force မရှိခြင်း",
+              "အာကာသတွင် Gravity လုံးဝ မရှိခြင်း",
+              "Station ၏ Engine များက Gravity ကို ချေဖျက်ပေးခြင်း",
+              "အထူး Zero-Gravity ဓာတုဆေးကြောင်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, roughly what percentage of surface g is the ISS's g?",
+            questionMy:
+                "ISS ၏ g သည် မျက်နှာပြင် g ၏ ခန့်မှန်းအားဖြင့် မည်မျှ ရာခိုင်နှုန်း ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 89%", "≈ 10%", "≈ 50%", "≈ 0%"],
+            optionsMy: ["≈ 89%", "≈ 10%", "≈ 50%", "≈ 0%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Gravitational Fields",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Gravitational Fields",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Newton's law of gravitation states that force is proportional to...",
+          questionMy: "Newton's Law of Gravitation အရ Force သည် ...နှင့် ပြောင်းလဲအချိုးကျသည်",
+          optionsEn: [
+            "The product of the masses, and inversely to the square of the distance",
+            "The sum of the masses only",
+            "The distance only, not the masses",
+            "The square of the masses",
+          ],
+          optionsMy: [
+            "Mass များ၏ ထုတ်လုပ်ရလဒ်၊ Distance ၏ Square ဖြင့် Inverse ဖြစ်သည်",
+            "Mass များ၏ ပေါင်းလဒ်သာ",
+            "Distance သာ၊ Mass များ မပါ",
+            "Mass များ၏ Square",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The gravitational constant G is...",
+          questionMy: "Gravitational Constant G သည်...",
+          optionsEn: [
+            "A universal constant, the same everywhere",
+            "Different on every planet",
+            "The same as g",
+            "Only valid on Earth",
+          ],
+          optionsMy: [
+            "နေရာတိုင်းတွင် တူညီသော Universal Constant",
+            "ဂြိုဟ်တိုင်းပေါ် ကွဲပြားသော",
+            "g နှင့် အတူတူ",
+            "ကမ္ဘာပေါ်တွင်သာ တရားဝင်သော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Astronauts on the ISS experience apparent weightlessness because...",
+          questionMy: "ISS ပေါ်ရှိ Astronaut များသည် Apparent Weightlessness ခံစားရသည်မှာ...",
+          optionsEn: [
+            "They are in continuous free fall, not because gravity is zero",
+            "Gravity truly is zero in orbit",
+            "Their mass becomes zero in space",
+            "They are outside Earth's gravitational field entirely",
+          ],
+          optionsMy: [
+            "Gravity Zero ဖြစ်၍ မဟုတ်ဘဲ ဆက်တိုက် Free Fall ထဲတွင် ရှိနေသောကြောင့်",
+            "Orbit တွင် Gravity အမှန်တကယ် Zero ဖြစ်နေသောကြောင့်",
+            "အာကာသတွင် ၎င်းတို့၏ Mass Zero ဖြစ်သွားသောကြောင့်",
+            "ကမ္ဘာ၏ Gravitational Field အပြင်ဘက်တွင် လုံးဝ ရှိနေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4: "Gravitational Potential and Orbital Motion" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek4 = CourseWeekDef(
+  id: "course-y13-phys-w4",
+  weekNumber: 4,
+  titleEn: "Gravitational Potential and Orbital Motion",
+  titleMy: "Gravitational Potential နှင့် Orbital Motion",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w4-d1",
+      dayNumber: 1,
+      titleEn: "Gravitational Potential, Orbital Speed and Kepler's Third Law",
+      titleMy: "Gravitational Potential, Orbital Speed နှင့် Kepler's Third Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using φ = -GM/r (M = 5.97 x 10²⁴ kg, r = 6.37 x 10⁶ m), the gravitational potential at Earth's surface is...",
+          questionMy:
+              "φ = -GM/r (M = 5.97 x 10²⁴ kg, r = 6.37 x 10⁶ m) ကို အသုံးပြု၍ ကမ္ဘာမျက်နှာပြင်ရှိ Gravitational Potential မှာ...",
+          optionsEn: [
+            "≈ -6.25 x 10⁷ J kg⁻¹",
+            "≈ +6.25 x 10⁷ J kg⁻¹",
+            "≈ -9.81 J kg⁻¹",
+            "≈ -3.98 x 10¹⁴ J kg⁻¹",
+          ],
+          optionsMy: [
+            "≈ -6.25 x 10⁷ J kg⁻¹",
+            "≈ +6.25 x 10⁷ J kg⁻¹",
+            "≈ -9.81 J kg⁻¹",
+            "≈ -3.98 x 10¹⁴ J kg⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "φ = -GM/r = -(6.67x10⁻¹¹ x 5.97x10²⁴)/(6.37x10⁶) ≈ -6.25x10⁷ J kg⁻¹.",
+          ],
+          hintsMy: [
+            "φ = -GM/r = -(6.67x10⁻¹¹ x 5.97x10²⁴)/(6.37x10⁶) ≈ -6.25x10⁷ J kg⁻¹ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using v = √(GM/r), the orbital speed of a satellite at r = 7.0 x 10⁶ m is...",
+          questionMy:
+              "v = √(GM/r) ကို အသုံးပြု၍ r = 7.0 x 10⁶ m တွင် ရှိသော Satellite ၏ Orbital Speed မှာ...",
+          optionsEn: [
+            "≈ 7.54 x 10³ m s⁻¹",
+            "≈ 7.54 x 10⁶ m s⁻¹",
+            "≈ 5.69 x 10⁷ m s⁻¹",
+            "≈ 3.98 x 10⁷ m s⁻¹",
+          ],
+          optionsMy: [
+            "≈ 7.54 x 10³ m s⁻¹",
+            "≈ 7.54 x 10⁶ m s⁻¹",
+            "≈ 5.69 x 10⁷ m s⁻¹",
+            "≈ 3.98 x 10⁷ m s⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "v = √(GM/r) = √[(6.67x10⁻¹¹ x 5.97x10²⁴)/(7.0x10⁶)] ≈ 7.54x10³ m s⁻¹.",
+          ],
+          hintsMy: [
+            "v = √(GM/r) = √[(6.67x10⁻¹¹ x 5.97x10²⁴)/(7.0x10⁶)] ≈ 7.54x10³ m s⁻¹ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using T² = 4π²r³/GM, if a satellite's orbital radius is increased, its period...",
+          questionMy:
+              "T² = 4π²r³/GM ကို အသုံးပြု၍ Satellite တစ်ခု၏ Orbital Radius ကို တိုးမြှင့်ပါက ၎င်း၏ Period သည်...",
+          optionsEn: ["Increases", "Decreases", "Stays the same", "Becomes negative"],
+          optionsMy: ["တိုးလာသည်", "လျော့ကျသည်", "မပြောင်းလဲပါ", "Negative ဖြစ်သွားသည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Since T² = 4π²r³/GM, a larger r gives a larger T² -- a bigger orbit always has a longer period.",
+          ],
+          hintsMy: [
+            "T² = 4π²r³/GM ဖြစ်သောကြောင့် r ကြီးလာလျှင် T² ပါ ကြီးလာသည် -- Orbit ကြီးလေလေ Period ရှည်လေလေ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Orbits and Gravitational Potential",
+      titleMy: "တွဲစပ်ကြမည် - Orbit များနှင့် Gravitational Potential",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w4-dm-1",
+          termEn: "φ = -GM/r",
+          termMy: "φ = -GM/r",
+          matchEn: "Gravitational potential formula",
+          matchMy: "Gravitational Potential ဖော်မြူလာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w4-dm-2",
+          termEn: "Gravitational potential energy",
+          termMy: "Gravitational Potential Energy",
+          matchEn: "Eₚ = mφ = -GMm/r",
+          matchMy: "Eₚ = mφ = -GMm/r",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w4-dm-3",
+          termEn: "Geostationary orbit",
+          termMy: "Geostationary Orbit",
+          matchEn:
+              "Period = 24 hours, orbits above the equator, stays over one fixed point",
+          matchMy:
+              "Period = 24 Hours, Equator အထက် Orbit ဝန်းရံပြီး နေရာတစ်ခုတည်း အထက်တွင် ရပ်နေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w4-dm-4",
+          termEn: "v = √(GM/r)",
+          termMy: "v = √(GM/r)",
+          matchEn: "Orbital speed formula for a circular orbit",
+          matchMy: "Circular Orbit တစ်ခု၏ Orbital Speed ဖော်မြူလာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w4-dm-5",
+          termEn: "T² = 4π²r³/GM",
+          termMy: "T² = 4π²r³/GM",
+          matchEn: "Kepler's third law (relates period and orbital radius)",
+          matchMy: "Kepler's Third Law (Period နှင့် Orbital Radius ကို ဆက်စပ်ပေးသည်)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Geostationary or Low Earth Orbit?",
+      titleMy: "စီစစ်ကြမည် - Geostationary လား၊ Low Earth Orbit လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Geostationary Satellite", "Low Earth Orbit (LEO) Satellite"],
+        bucketsMy: ["Geostationary Satellite", "Low Earth Orbit (LEO) Satellite"],
+        items: [
+          SortingItem(
+            id: "y13phys-w4-sort-1",
+            labelEn: "Orbital period of exactly 24 hours",
+            labelMy: "Orbital Period 24 Hours အတိအကျ",
+            correctBucketEn: "Geostationary Satellite",
+            correctBucketMy: "Geostationary Satellite",
+          ),
+          SortingItem(
+            id: "y13phys-w4-sort-2",
+            labelEn: "Orbits directly above the equator",
+            labelMy: "Equator အထက်တွင် တိုက်ရိုက် Orbit ဝန်းရံသည်",
+            correctBucketEn: "Geostationary Satellite",
+            correctBucketMy: "Geostationary Satellite",
+          ),
+          SortingItem(
+            id: "y13phys-w4-sort-3",
+            labelEn:
+                "Used for continuous weather/communications coverage of one region",
+            labelMy:
+                "ဒေသတစ်ခု၏ ဆက်တိုက် Weather/Communications Coverage အတွက် အသုံးပြုသည်",
+            correctBucketEn: "Geostationary Satellite",
+            correctBucketMy: "Geostationary Satellite",
+          ),
+          SortingItem(
+            id: "y13phys-w4-sort-4",
+            labelEn:
+                "Much closer to Earth's surface, with a much shorter period (≈ 90 minutes)",
+            labelMy: "ကမ္ဘာမျက်နှာပြင်နှင့် ပိုနီးပြီး Period ပိုတို (≈ 90 Minutes)",
+            correctBucketEn: "Low Earth Orbit (LEO) Satellite",
+            correctBucketMy: "Low Earth Orbit (LEO) Satellite",
+          ),
+          SortingItem(
+            id: "y13phys-w4-sort-5",
+            labelEn: "Used by the International Space Station",
+            labelMy: "International Space Station က အသုံးပြုသည်",
+            correctBucketEn: "Low Earth Orbit (LEO) Satellite",
+            correctBucketMy: "Low Earth Orbit (LEO) Satellite",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding the Height of a Geostationary Satellite",
+      titleMy: "စာဖတ်ခြင်း - Geostationary Satellite ၏ အမြင့်ကို ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding the Height of a Geostationary Satellite",
+        titleMy: "Geostationary Satellite ၏ အမြင့်ကို ရှာဖွေခြင်း",
+        passageEn:
+            "Sayama Moe Moe Aye asked Su Su to work out exactly how far above the Earth a geostationary communications satellite must orbit, using nothing but Kepler's third law and the fact that a geostationary satellite must have a period equal to Earth's rotation period, T = 24 hours = 86 400 s.\n\nSu Su rearranged T² = 4π²r³/GM to make r the subject: r³ = GMT²/4π². Substituting GM = 6.67x10⁻¹¹ x 5.97x10²⁴ ≈ 3.982x10¹⁴, and T² = 86400² ≈ 7.467x10⁹, she found r³ = (3.982x10¹⁴ x 7.467x10⁹)/4π² ≈ 2.973x10²⁴/39.48 ≈ 7.53x10²². Taking the cube root gave r ≈ 4.22x10⁷ m -- about 42 200 km measured from the centre of the Earth.\n\nSayar Zaw Min pointed out that satellite dish installers care about height above the surface, not distance from Earth's centre, so Su Su subtracted the Earth's radius: height = r - R_Earth ≈ 4.22x10⁷ - 6.37x10⁶ ≈ 3.58x10⁷ m, or about 35 800 km. This matches the real height used for every geostationary TV and weather satellite in orbit today -- a single number derived entirely from Kepler's third law and the length of a day, with no need to know the satellite's own mass at all, since m cancels out of the orbital equations.",
+        passageMy:
+            "Kepler's Third Law နှင့် Geostationary Satellite တစ်ခုသည် ကမ္ဘာ၏ Rotation Period T = 24 Hours = 86,400 s နှင့် ညီမျှသော Period ရှိရမည်ဟူသော အချက်ကိုသာ အသုံးပြု၍ Communications Satellite တစ်ခုသည် ကမ္ဘာအထက် မည်မျှ ဝေးကွာစွာ Orbit ဝန်းရံရမည်ကို တွက်ချက်ရန် ဆရာမ မိုမိုအေးက Su Su ကို တောင်းဆိုခဲ့သည်။\n\nSu Su သည် T² = 4π²r³/GM ကို r ကို Subject အဖြစ် ပြန်စီစဉ်ခဲ့သည် - r³ = GMT²/4π² ။ GM = 6.67x10⁻¹¹ x 5.97x10²⁴ ≈ 3.982x10¹⁴ နှင့် T² = 86400² ≈ 7.467x10⁹ ကို အစားထိုးလိုက်ပြီး r³ = (3.982x10¹⁴ x 7.467x10⁹)/4π² ≈ 2.973x10²⁴/39.48 ≈ 7.53x10²² ကို ရှာဖွေတွေ့ခဲ့သည်။ Cube Root ယူခြင်းဖြင့် r ≈ 4.22x10⁷ m -- ကမ္ဘာ၏ အလယ်ဗဟိုမှ တိုင်းတာလျှင် 42,200 km ခန့် ရရှိခဲ့သည်။\n\nSatellite Dish တပ်ဆင်သူများသည် ကမ္ဘာ၏ အလယ်ဗဟိုမှ အကွာအဝေးထက် မျက်နှာပြင်အထက် အမြင့်ကို ဂရုစိုက်ကြောင်း ဆရာဇော်မင်းက ထောက်ပြခဲ့သဖြင့် Su Su သည် ကမ္ဘာ၏ Radius ကို နှုတ်ခဲ့သည် - Height = r - R_Earth ≈ 4.22x10⁷ - 6.37x10⁶ ≈ 3.58x10⁷ m, သို့မဟုတ် 35,800 km ခန့် ဖြစ်သည်။ ၎င်းသည် ယနေ့ Orbit ထဲရှိ Geostationary TV နှင့် Weather Satellite တိုင်းအတွက် အသုံးပြုနေသော အမှန်တကယ် အမြင့်နှင့် ကိုက်ညီသည် -- Satellite ကိုယ်တိုင်၏ Mass ကို လုံးဝ သိစရာမလိုဘဲ Kepler's Third Law နှင့် တစ်ရက်၏ ကြာချိန်မှသာ ဆင်းသက်ထားသော ဂဏန်းတစ်ခု ဖြစ်သည်၊ အကြောင်းမှာ m သည် Orbital Equation များမှ ချေဖျက်သွားသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the geostationary orbital radius measured from Earth's centre?",
+            questionMy:
+                "ကမ္ဘာ၏ အလယ်ဗဟိုမှ တိုင်းတာသော Geostationary Orbital Radius ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 4.22 x 10⁷ m",
+              "≈ 6.37 x 10⁶ m",
+              "≈ 3.58 x 10⁷ m",
+              "≈ 8.64 x 10⁴ m",
+            ],
+            optionsMy: [
+              "≈ 4.22 x 10⁷ m",
+              "≈ 6.37 x 10⁶ m",
+              "≈ 3.58 x 10⁷ m",
+              "≈ 8.64 x 10⁴ m",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final result."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးရလဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the satellite's own mass never need to be known?",
+            questionMy:
+                "Satellite ကိုယ်တိုင်၏ Mass ကို အဘယ်ကြောင့် လုံးဝ သိစရာမလိုကြောင်း စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It cancels out of the orbital equations",
+              "All satellites have exactly the same mass",
+              "Mass is irrelevant to Kepler's third law entirely",
+              "The satellite's mass is always zero in this model",
+            ],
+            optionsMy: [
+              "Orbital Equation များမှ ချေဖျက်သွားသောကြောင့်",
+              "Satellite အားလုံးသည် Mass အတိအကျ တူညီသောကြောင့်",
+              "Mass သည် Kepler's Third Law နှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်",
+              "ဤ Model တွင် Satellite ၏ Mass သည် Zero အမြဲ ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, roughly what height above Earth's surface does a geostationary satellite orbit at?",
+            questionMy:
+                "Geostationary Satellite တစ်ခုသည် ကမ္ဘာမျက်နှာပြင်အထက် ခန့်မှန်းအားဖြင့် မည်မျှ အမြင့်တွင် Orbit ဝန်းရံသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 35 800 km", "≈ 400 km", "≈ 6 370 km", "≈ 90 000 km"],
+            optionsMy: ["≈ 35,800 km", "≈ 400 km", "≈ 6,370 km", "≈ 90,000 km"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Gravitational Potential and Orbits",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Gravitational Potential နှင့် Orbits",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Gravitational potential φ is always...",
+          questionMy: "Gravitational Potential φ သည် အမြဲ...",
+          optionsEn: [
+            "Negative, since φ = -GM/r",
+            "Positive, since φ = +GM/r",
+            "Zero at every point",
+            "Equal to g",
+          ],
+          optionsMy: [
+            "Negative၊ φ = -GM/r ဖြစ်သောကြောင့်",
+            "Positive၊ φ = +GM/r ဖြစ်သောကြောင့်",
+            "နေရာတိုင်းတွင် Zero",
+            "g နှင့် ညီမျှသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A geostationary satellite has an orbital period of...",
+          questionMy: "Geostationary Satellite တစ်ခု၏ Orbital Period မှာ...",
+          optionsEn: ["24 hours", "90 minutes", "1 hour", "1 year"],
+          optionsMy: ["24 Hours", "90 Minutes", "1 Hour", "1 Year"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Kepler's third law, T² = 4π²r³/GM, relates a satellite's period to its...",
+          questionMy: "Kepler's Third Law, T² = 4π²r³/GM သည် Satellite တစ်ခု၏ Period ကို ၎င်း၏ ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "Orbital radius",
+            "Colour",
+            "Number of onboard instruments",
+            "Launch date",
+          ],
+          optionsMy: [
+            "Orbital Radius",
+            "အရောင်",
+            "Onboard Instrument အရေအတွက်",
+            "Launch ရက်စွဲ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics (A-Level A2, Cambridge 9702) -- Term 1: "Circular Motion
+/// and Gravitational Fields". Covers angular velocity, centripetal
+/// acceleration and force, circular-motion applications (banked tracks,
+/// conical pendulums, vertical loops), Newton's law of gravitation,
+/// gravitational field strength, gravitational potential, and orbital
+/// motion including geostationary orbits, closing with a Gravitational
+/// Potential and Orbital Motion capstone week.
+const CourseTermDef year13PhysicsTerm1 = CourseTermDef(
+  id: "course-y13-phys-term1",
+  termNumber: 1,
+  titleEn: "Circular Motion and Gravitational Fields",
+  titleMy: "Circular Motion နှင့် Gravitational Fields",
+  weeks: [_y13PhysWeek1, _y13PhysWeek2, _y13PhysWeek3, _y13PhysWeek4],
+  certificateTitleEn: "A2 Physics: Circular Motion and Gravitational Fields",
+  certificateTitleMy: "A2 ရူပဗေဒ - Circular Motion နှင့် Gravitational Fields",
+);
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 2: "Temperature, Ideal Gases and Thermal
+// Properties"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "Thermal Equilibrium and Temperature Scales"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek5 = CourseWeekDef(
+  id: "course-y13-phys-w5",
+  weekNumber: 5,
+  titleEn: "Thermal Equilibrium and Temperature Scales",
+  titleMy: "Thermal Equilibrium နှင့် Temperature Scales",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w5-d1",
+      dayNumber: 1,
+      titleEn: "The Kelvin Scale and Thermal Equilibrium",
+      titleMy: "Kelvin Scale နှင့် Thermal Equilibrium",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using T/K = θ/°C + 273, 25°C expressed in Kelvin is...",
+          questionMy:
+              "T/K = θ/°C + 273 ကို အသုံးပြု၍ 25°C ကို Kelvin ဖြင့် ဖော်ပြလျှင်...",
+          optionsEn: ["298 K", "25 K", "248 K", "398 K"],
+          optionsMy: ["298 K", "25 K", "248 K", "398 K"],
+          correctIndex: 0,
+          hintsEn: ["T/K = θ/°C + 273 = 25 + 273 = 298 K."],
+          hintsMy: ["T/K = θ/°C + 273 = 25 + 273 = 298 K ။"],
+        ),
+        QuizQuestion(
+          questionEn: "373 K expressed in Celsius is...",
+          questionMy: "373 K ကို Celsius ဖြင့် ဖော်ပြလျှင်...",
+          optionsEn: ["100°C", "373°C", "646°C", "73°C"],
+          optionsMy: ["100°C", "373°C", "646°C", "73°C"],
+          correctIndex: 0,
+          hintsEn: ["θ/°C = T/K - 273 = 373 - 273 = 100°C."],
+          hintsMy: ["θ/°C = T/K - 273 = 373 - 273 = 100°C ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Two objects reach thermal equilibrium when...",
+          questionMy: "ပစ္စည်းနှစ်ခုသည် Thermal Equilibrium ရောက်ရှိသည်မှာ...",
+          optionsEn: [
+            "They are at the same temperature, so no net heat flows between them",
+            "They have the same mass",
+            "They have the same specific heat capacity",
+            "They are touching, but heat never flows between them",
+          ],
+          optionsMy: [
+            "Temperature တူညီသောကြောင့် ၎င်းတို့ကြား Net Heat Flow မရှိတော့သည်",
+            "Mass တူညီသည်",
+            "Specific Heat Capacity တူညီသည်",
+            "ထိတွေ့နေသော်လည်း Heat လုံးဝ မစီးဆင်းပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Thermal equilibrium is defined purely by temperature equality -- once two objects reach the same temperature, the net heat flow between them becomes zero.",
+          ],
+          hintsMy: [
+            "Thermal Equilibrium ကို Temperature တူညီမှုဖြင့်သာ သတ်မှတ်သည် -- ပစ္စည်းနှစ်ခု Temperature တူညီသွားသည်နှင့် ၎င်းတို့ကြား Net Heat Flow သည် Zero ဖြစ်သွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Temperature Concepts",
+      titleMy: "တွဲစပ်ကြမည် - Temperature Concept များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w5-dm-1",
+          termEn: "Thermal equilibrium",
+          termMy: "Thermal Equilibrium",
+          matchEn: "State reached when no net heat flows between two objects",
+          matchMy: "ပစ္စည်းနှစ်ခုကြား Net Heat Flow မရှိတော့သော အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w5-dm-2",
+          termEn: "Kelvin scale",
+          termMy: "Kelvin Scale",
+          matchEn: "Absolute temperature scale starting at absolute zero",
+          matchMy: "Absolute Zero မှ စတင်သော Absolute Temperature Scale",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w5-dm-3",
+          termEn: "Absolute zero",
+          termMy: "Absolute Zero",
+          matchEn: "0 K, the lowest possible temperature (-273°C)",
+          matchMy: "0 K, ဖြစ်နိုင်ဆုံး အနိမ့်ဆုံး Temperature (-273°C)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w5-dm-4",
+          termEn: "T/K = θ/°C + 273",
+          termMy: "T/K = θ/°C + 273",
+          matchEn: "Formula converting Celsius to Kelvin",
+          matchMy: "Celsius မှ Kelvin သို့ ပြောင်းသော ဖော်မြူလာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w5-dm-5",
+          termEn: "Thermometric property",
+          termMy: "Thermometric Property",
+          matchEn:
+              "A measurable physical property that changes with temperature (e.g. resistance)",
+          matchMy:
+              "Temperature ပြောင်းလဲသည်နှင့်အမျှ ပြောင်းလဲသော တိုင်းတာနိုင်သည့် ရုပ်ပိုင်းဆိုင်ရာ ဂုဏ်သတ္တိ (ဥပမာ - Resistance)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Celsius Scale or Kelvin (Absolute) Scale?",
+      titleMy: "စီစစ်ကြမည် - Celsius Scale လား၊ Kelvin (Absolute) Scale လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Celsius Scale", "Kelvin (Absolute) Scale"],
+        bucketsMy: ["Celsius Scale", "Kelvin (Absolute) Scale"],
+        items: [
+          SortingItem(
+            id: "y13phys-w5-sort-1",
+            labelEn: "0° is defined as the melting point of ice",
+            labelMy: "0° ကို ရေခဲ Melting Point အဖြစ် သတ်မှတ်ထားသည်",
+            correctBucketEn: "Celsius Scale",
+            correctBucketMy: "Celsius Scale",
+          ),
+          SortingItem(
+            id: "y13phys-w5-sort-2",
+            labelEn: "0 is the lowest temperature theoretically possible",
+            labelMy: "0 သည် သီအိုရီအရ ဖြစ်နိုင်ဆုံး အနိမ့်ဆုံး Temperature ဖြစ်သည်",
+            correctBucketEn: "Kelvin (Absolute) Scale",
+            correctBucketMy: "Kelvin (Absolute) Scale",
+          ),
+          SortingItem(
+            id: "y13phys-w5-sort-3",
+            labelEn: "Used directly in the ideal gas equation pV = nRT",
+            labelMy: "Ideal Gas Equation pV = nRT တွင် တိုက်ရိုက် အသုံးပြုသည်",
+            correctBucketEn: "Kelvin (Absolute) Scale",
+            correctBucketMy: "Kelvin (Absolute) Scale",
+          ),
+          SortingItem(
+            id: "y13phys-w5-sort-4",
+            labelEn:
+                "100° is defined as the boiling point of water at standard pressure",
+            labelMy: "100° ကို Standard Pressure တွင် ရေ Boiling Point အဖြစ် သတ်မှတ်ထားသည်",
+            correctBucketEn: "Celsius Scale",
+            correctBucketMy: "Celsius Scale",
+          ),
+          SortingItem(
+            id: "y13phys-w5-sort-5",
+            labelEn: "Never has negative values",
+            labelMy: "Negative တန်ဖိုး လုံးဝ မရှိပါ",
+            correctBucketEn: "Kelvin (Absolute) Scale",
+            correctBucketMy: "Kelvin (Absolute) Scale",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Calorimeter Experiment, Part 1",
+      titleMy: "စာဖတ်ခြင်း - Calorimeter စမ်းသပ်မှု၊ အပိုင်း ၁",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Calorimeter Experiment, Part 1",
+        titleMy: "Calorimeter စမ်းသပ်မှု၊ အပိုင်း ၁",
+        passageEn:
+            "Su Su set up a resistance thermometer in the lab and read a room-temperature value of 293 K straight off the display. Sayama Moe Moe Aye asked her to convert this to Celsius before recording it in her lab book: θ/°C = T/K - 273 = 293 - 273 = 20°C -- a comfortable room temperature, which reassured Su Su that her thermometer was working correctly.\n\nFor the main experiment, Su Su heated a small metal block to 353 K (80°C) on a hot plate, then planned to lower it into a beaker of water sitting at the same 293 K (20°C) room temperature. She predicted that heat would flow from the hot block into the cooler water until both reached the same final, shared temperature -- the definition of thermal equilibrium -- and, because the water's mass was much larger than the block's, she expected the final equilibrium temperature to end up much closer to the water's starting value than to the metal's.\n\nSayama Moe Moe Aye told her the prediction was exactly right, but that pinning down precisely where that final equilibrium temperature would land required a new quantity Su Su hadn't yet met -- specific heat capacity, which describes how much energy a substance needs to change temperature. \"That's next week's lesson,\" she said, \"and once you have it, you'll be able to calculate the exact final temperature instead of just predicting it lies somewhere in between.\"",
+        passageMy:
+            "Su Su သည် Lab တွင် Resistance Thermometer တစ်ခု တပ်ဆင်ပြီး Display ပေါ်မှ Room-Temperature တန်ဖိုး 293 K ကို တိုက်ရိုက်ဖတ်ခဲ့သည်။ Lab Book တွင် မှတ်တမ်းတင်မှီ ၎င်းကို Celsius သို့ ပြောင်းရန် ဆရာမ မိုမိုအေးက မေးမြန်းခဲ့သည် - θ/°C = T/K - 273 = 293 - 273 = 20°C -- သက်တောင့်သက်သာ ရှိသော Room Temperature ဖြစ်ပြီး သူမ၏ Thermometer မှန်ကန်စွာ အလုပ်လုပ်နေကြောင်း Su Su ကို စိတ်ချစေခဲ့သည်။\n\nအဓိက စမ်းသပ်မှုအတွက် Su Su သည် သတ္တု တစ်ခုငယ်ကို Hot Plate ပေါ်တွင် 353 K (80°C) အထိ ပူစေပြီး တူညီသော Room Temperature 293 K (20°C) ရှိနေသော ရေဗီကာတစ်ခုထဲသို့ ချထည့်ရန် စီစဉ်ခဲ့သည်။ ပစ္စည်းနှစ်ခု တူညီသော Final Temperature ရရှိသည်အထိ ပူသော သတ္တုမှ အေးသော ရေထဲသို့ Heat စီးဆင်းလာမည်ဟု ခန့်မှန်းခဲ့သည် -- ၎င်းသည် Thermal Equilibrium ၏ အနက်ဖွင့်ဆိုချက် ဖြစ်ပြီး ရေ၏ Mass သည် သတ္တု၏ Mass ထက် များစွာ ပိုကြီးသောကြောင့် Final Equilibrium Temperature သည် သတ္တု၏ Starting Value ထက် ရေ၏ Starting Value နှင့် ပိုနီးသွားလိမ့်မည်ဟု သူမ မျှော်လင့်ခဲ့သည်။\n\nခန့်မှန်းချက်မှာ အတိအကျ မှန်ကန်ကြောင်း ဆရာမ မိုမိုအေးက ပြောပြခဲ့သော်လည်း Final Equilibrium Temperature တိကျစွာ မည်သည့်နေရာ ရောက်မည်ကို ဆုံးဖြတ်ရန်အတွက် Su Su မတွေ့ဖူးသေးသော ပမာဏအသစ်တစ်ခု လိုအပ်ကြောင်း -- ပစ္စည်းတစ်ခု Temperature ပြောင်းရန် Energy မည်မျှ လိုအပ်သည်ကို ဖော်ပြသော Specific Heat Capacity ဖြစ်ကြောင်း ပြောပြခဲ့သည်။ \"ဒါက နောက်အပတ် သင်ခန်းစာပါ\" ဟု သူမ ပြောခဲ့ပြီး \"ရလိုက်တာနဲ့ ကြားထဲမှာ ရှိတယ်လို့ ခန့်မှန်းရုံသာမက Final Temperature အတိအကျကို တွက်ချက်နိုင်လိမ့်မယ်\" ဟု ဆိုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is 293 K converted to Celsius?",
+            questionMy: "293 K ကို Celsius သို့ ပြောင်းလျှင် အဘယ်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["20°C", "293°C", "273°C", "566°C"],
+            optionsMy: ["20°C", "293°C", "273°C", "566°C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's calculation."],
+            hintsMy: ["ပထမစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Su Su expect the final temperature to end up closer to the water's starting value?",
+            questionMy:
+                "Final Temperature သည် ရေ၏ Starting Value နှင့် ပိုနီးမည်ဟု Su Su အဘယ်ကြောင့် မျှော်လင့်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The water's mass was much larger than the metal block's",
+              "The metal block was much colder than the water",
+              "Water never changes temperature",
+              "The metal block had zero mass",
+            ],
+            optionsMy: [
+              "ရေ၏ Mass သည် သတ္တု၏ Mass ထက် များစွာ ပိုကြီးသောကြောင့်",
+              "သတ္တုသည် ရေထက် များစွာ ပိုအေးသောကြောင့်",
+              "ရေသည် Temperature လုံးဝ မပြောင်းလဲသောကြောင့်",
+              "သတ္တုတွင် Mass Zero ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what new quantity will let Su Su calculate the exact final temperature?",
+            questionMy:
+                "Final Temperature အတိအကျကို Su Su တွက်ချက်နိုင်စေမည့် ပမာဏအသစ်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Specific heat capacity",
+              "Angular velocity",
+              "Gravitational field strength",
+              "Centripetal force",
+            ],
+            optionsMy: [
+              "Specific Heat Capacity",
+              "Angular Velocity",
+              "Gravitational Field Strength",
+              "Centripetal Force",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Temperature Scales",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Temperature Scales",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The formula to convert Celsius to Kelvin is T/K = θ/°C +...",
+          questionMy: "Celsius မှ Kelvin သို့ ပြောင်းသော ဖော်မြူလာမှာ T/K = θ/°C +...",
+          optionsEn: ["273", "0", "100", "32"],
+          optionsMy: ["273", "0", "100", "32"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two objects are in thermal equilibrium when there is no net flow of...",
+          questionMy: "ပစ္စည်းနှစ်ခု Thermal Equilibrium ရှိနေသည်ဟု ဆိုနိုင်သည်မှာ ...၏ Net Flow မရှိသောအခါ ဖြစ်သည်",
+          optionsEn: ["Heat", "Mass", "Volume", "Charge"],
+          optionsMy: ["Heat", "Mass", "Volume", "Charge"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Kelvin scale is used in the ideal gas equation because...",
+          questionMy: "Ideal Gas Equation တွင် Kelvin Scale ကို အသုံးပြုရသည်မှာ...",
+          optionsEn: [
+            "It is an absolute scale with no negative values",
+            "It uses smaller numbers than Celsius",
+            "It was invented more recently",
+            "Celsius cannot describe hot objects",
+          ],
+          optionsMy: [
+            "Negative တန်ဖိုး မရှိသော Absolute Scale ဖြစ်သောကြောင့်",
+            "Celsius ထက် ဂဏန်း ငယ်သောကြောင့်",
+            "ပို၍ မကြာသေးမီကမှ တီထွင်ထားသောကြောင့်",
+            "Celsius သည် ပူသော ပစ္စည်းများကို ဖော်ပြ၍ မရသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "Specific Heat Capacity and Specific Latent Heat"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek6 = CourseWeekDef(
+  id: "course-y13-phys-w6",
+  weekNumber: 6,
+  titleEn: "Specific Heat Capacity and Specific Latent Heat",
+  titleMy: "Specific Heat Capacity နှင့် Specific Latent Heat",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w6-d1",
+      dayNumber: 1,
+      titleEn: "Q = mcΔθ and Q = mL",
+      titleMy: "Q = mcΔθ နှင့် Q = mL",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Q = mcΔθ (c of water = 4200 J kg⁻¹ K⁻¹), the energy needed to heat 2 kg of water from 20°C to 80°C is...",
+          questionMy:
+              "Q = mcΔθ (ရေ၏ c = 4200 J kg⁻¹ K⁻¹) ကို အသုံးပြု၍ ရေ 2 kg ကို 20°C မှ 80°C အထိ ပူစေရန် လိုအပ်သော Energy မှာ...",
+          optionsEn: [
+            "5.04 x 10⁵ J",
+            "8.4 x 10³ J",
+            "2.52 x 10⁵ J",
+            "1.008 x 10⁶ J",
+          ],
+          optionsMy: [
+            "5.04 x 10⁵ J",
+            "8.4 x 10³ J",
+            "2.52 x 10⁵ J",
+            "1.008 x 10⁶ J",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Q = mcΔθ = 2 x 4200 x (80-20) = 2 x 4200 x 60 = 504000 J = 5.04x10⁵ J.",
+          ],
+          hintsMy: [
+            "Q = mcΔθ = 2 x 4200 x (80-20) = 2 x 4200 x 60 = 504000 J = 5.04x10⁵ J ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Q = mL (specific latent heat of fusion of ice L = 3.34 x 10⁵ J kg⁻¹), the energy needed to melt 0.5 kg of ice is...",
+          questionMy:
+              "Q = mL (ရေခဲ၏ Specific Latent Heat of Fusion L = 3.34 x 10⁵ J kg⁻¹) ကို အသုံးပြု၍ ရေခဲ 0.5 kg ကို အရည်ပျော်စေရန် လိုအပ်သော Energy မှာ...",
+          optionsEn: [
+            "1.67 x 10⁵ J",
+            "3.34 x 10⁵ J",
+            "6.68 x 10⁵ J",
+            "1.67 x 10⁴ J",
+          ],
+          optionsMy: [
+            "1.67 x 10⁵ J",
+            "3.34 x 10⁵ J",
+            "6.68 x 10⁵ J",
+            "1.67 x 10⁴ J",
+          ],
+          correctIndex: 0,
+          hintsEn: ["Q = mL = 0.5 x 3.34x10⁵ = 1.67x10⁵ J."],
+          hintsMy: ["Q = mL = 0.5 x 3.34x10⁵ = 1.67x10⁵ J ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During a change of state, the temperature of a substance...",
+          questionMy: "Change of State တစ်ခု ဖြစ်ပေါ်နေစဉ် ပစ္စည်းတစ်ခု၏ Temperature သည်...",
+          optionsEn: [
+            "Stays constant, even while energy is being absorbed or released",
+            "Rises steadily throughout the change",
+            "Falls to absolute zero instantly",
+            "Doubles at the moment the change completes",
+          ],
+          optionsMy: [
+            "Energy စုပ်ယူနေချိန် (သို့) ထုတ်လွှတ်နေချိန်တွင်ပင် Constant ဖြစ်နေသည်",
+            "ပြောင်းလဲမှုတစ်လျှောက် တစိုက်မတ် မြင့်တက်လာသည်",
+            "Absolute Zero သို့ ချက်ချင်း ကျဆင်းသွားသည်",
+            "ပြောင်းလဲမှု ပြီးမြောက်သည့်အခိုက် နှစ်ဆ တိုးလာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "All the energy supplied during a phase change goes into breaking or forming intermolecular bonds, not into raising the molecules' kinetic energy -- so temperature does not rise until the change of state is complete.",
+          ],
+          hintsMy: [
+            "Phase Change တစ်ခုအတွင်း ပေးထားသော Energy အားလုံးသည် Molecule များ၏ Kinetic Energy ကို တိုးစေခြင်းမဟုတ်ဘဲ Intermolecular Bond များ ချိုးဖျက်ခြင်း (သို့) ဖွဲ့စည်းခြင်းသို့ ဝင်ရောက်သည် -- ထို့ကြောင့် Change of State မပြီးဆုံးမချင်း Temperature မတက်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Heat Capacity and Latent Heat",
+      titleMy: "တွဲစပ်ကြမည် - Heat Capacity နှင့် Latent Heat",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w6-dm-1",
+          termEn: "c",
+          termMy: "c",
+          matchEn: "Specific heat capacity (J kg⁻¹ K⁻¹)",
+          matchMy: "Specific Heat Capacity (J kg⁻¹ K⁻¹)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w6-dm-2",
+          termEn: "L",
+          termMy: "L",
+          matchEn: "Specific latent heat (J kg⁻¹)",
+          matchMy: "Specific Latent Heat (J kg⁻¹)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w6-dm-3",
+          termEn: "Q = mcΔθ",
+          termMy: "Q = mcΔθ",
+          matchEn: "Energy formula for a temperature change",
+          matchMy: "Temperature ပြောင်းလဲမှုအတွက် Energy ဖော်မြူလာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w6-dm-4",
+          termEn: "Q = mL",
+          termMy: "Q = mL",
+          matchEn: "Energy formula for a change of state",
+          matchMy: "Change of State အတွက် Energy ဖော်မြူလာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w6-dm-5",
+          termEn: "Method of mixtures",
+          termMy: "Method of Mixtures",
+          matchEn:
+              "Experimental technique finding c by mixing a hot and cold substance",
+          matchMy: "ပူသောနှင့် အေးသော ပစ္စည်း ရောစပ်ကာ c ကို ရှာသော Experimental Technique",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Change of Temperature or Change of State?",
+      titleMy: "စီစစ်ကြမည် - Temperature ပြောင်းလဲမှုလား၊ State ပြောင်းလဲမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Change of Temperature (Q = mcΔθ)",
+          "Change of State (Q = mL)",
+        ],
+        bucketsMy: [
+          "Temperature ပြောင်းလဲမှု (Q = mcΔθ)",
+          "State ပြောင်းလဲမှု (Q = mL)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w6-sort-1",
+            labelEn: "Heating water from 20°C to 100°C",
+            labelMy: "ရေကို 20°C မှ 100°C အထိ ပူစေခြင်း",
+            correctBucketEn: "Change of Temperature (Q = mcΔθ)",
+            correctBucketMy: "Temperature ပြောင်းလဲမှု (Q = mcΔθ)",
+          ),
+          SortingItem(
+            id: "y13phys-w6-sort-2",
+            labelEn: "Boiling water at 100°C into steam at 100°C",
+            labelMy: "ရေကို 100°C တွင် ရေနွေးငွေ့ 100°C အဖြစ် ပြုတ်ခြင်း",
+            correctBucketEn: "Change of State (Q = mL)",
+            correctBucketMy: "State ပြောင်းလဲမှု (Q = mL)",
+          ),
+          SortingItem(
+            id: "y13phys-w6-sort-3",
+            labelEn: "Melting ice at 0°C into water at 0°C",
+            labelMy: "ရေခဲကို 0°C တွင် ရေ 0°C အဖြစ် အရည်ပျော်ခြင်း",
+            correctBucketEn: "Change of State (Q = mL)",
+            correctBucketMy: "State ပြောင်းလဲမှု (Q = mL)",
+          ),
+          SortingItem(
+            id: "y13phys-w6-sort-4",
+            labelEn: "Cooling a metal block from 80°C to 20°C",
+            labelMy: "သတ္တု တစ်ခုကို 80°C မှ 20°C အထိ အေးစေခြင်း",
+            correctBucketEn: "Change of Temperature (Q = mcΔθ)",
+            correctBucketMy: "Temperature ပြောင်းလဲမှု (Q = mcΔθ)",
+          ),
+          SortingItem(
+            id: "y13phys-w6-sort-5",
+            labelEn: "Freezing water at 0°C into ice at 0°C",
+            labelMy: "ရေကို 0°C တွင် ရေခဲ 0°C အဖြစ် အေးခဲစေခြင်း",
+            correctBucketEn: "Change of State (Q = mL)",
+            correctBucketMy: "State ပြောင်းလဲမှု (Q = mL)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Calorimeter Experiment, Part 2",
+      titleMy: "စာဖတ်ခြင်း - Calorimeter စမ်းသပ်မှု၊ အပိုင်း ၂",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Calorimeter Experiment, Part 2",
+        titleMy: "Calorimeter စမ်းသပ်မှု၊ အပိုင်း ၂",
+        passageEn:
+            "A week later, Su Su returned to her prediction from the copper-block-into-water experiment, now armed with specific heat capacity. Sayar Zaw Min reminded her of the governing principle: assuming no heat is lost to the surroundings, heat lost by the hot copper block equals heat gained by the cooler water.\n\nHer 0.2 kg copper block (c = 390 J kg⁻¹ K⁻¹) started at 100°C, and her 0.5 kg of water (c = 4200 J kg⁻¹ K⁻¹) started at 20°C. Writing the equation with θ as the unknown final equilibrium temperature: 0.2 x 390 x (100-θ) = 0.5 x 4200 x (θ-20). This simplifies to 78(100-θ) = 2100(θ-20), which expands to 7800 - 78θ = 2100θ - 42000.\n\nCollecting terms gave 49800 = 2178θ, so θ = 49800/2178 ≈ 22.9°C. Su Su checked this against her earlier prediction and was pleased: the final temperature landed very close to the water's starting 20°C rather than anywhere near the copper's 100°C, exactly as she had predicted -- because water's much larger mass and higher specific heat capacity together give it a far larger heat capacity than the small copper block, so the water barely changed while the copper did almost all the changing.",
+        passageMy:
+            "တစ်ပတ်အကြာတွင် Su Su သည် Specific Heat Capacity ကို လက်ရှိအသုံးပြု၍ Copper Block ကို ရေထဲသို့ ချထည့်သော စမ်းသပ်မှုမှ သူမ၏ ခန့်မှန်းချက်ဆီသို့ ပြန်လာခဲ့သည်။ Surroundings သို့ Heat လုံးဝ မဆုံးရှုံးဟု ယူဆလျှင် ပူသော Copper Block ဆုံးရှုံးသော Heat သည် အေးသော ရေ ရရှိသော Heat နှင့် ညီမျှသည်ဟူသော အုပ်ချုပ်နိယာမကို ဆရာဇော်မင်းက သတိပေးခဲ့သည်။\n\nသူမ၏ Copper Block 0.2 kg (c = 390 J kg⁻¹ K⁻¹) သည် 100°C တွင် စတင်ခဲ့ပြီး ရေ 0.5 kg (c = 4200 J kg⁻¹ K⁻¹) သည် 20°C တွင် စတင်ခဲ့သည်။ မသိကိန်း Final Equilibrium Temperature θ ဖြင့် Equation ကို ရေးလျှင် - 0.2 x 390 x (100-θ) = 0.5 x 4200 x (θ-20)။ ၎င်းသည် 78(100-θ) = 2100(θ-20) အဖြစ် ရိုးရှင်းသွားပြီး 7800 - 78θ = 2100θ - 42000 အဖြစ် ချဲ့ထွင်သွားသည်။\n\nအသင်းအားလုံးကို စုစည်းလိုက်ပါက 49800 = 2178θ ရရှိပြီး θ = 49800/2178 ≈ 22.9°C ဖြစ်သည်။ Su Su သည် ၎င်းကို သူမ၏ ယခင်ခန့်မှန်းချက်နှင့် ပြန်စစ်ဆေးပြီး နှစ်သိမ့်ခဲ့သည် - Final Temperature သည် Copper ၏ 100°C နှင့် နီးစပ်ရာ မဟုတ်ဘဲ ရေ၏ Starting 20°C နှင့် အလွန်နီးကပ်စွာ ရောက်ရှိခဲ့ပြီး သူမ ခန့်မှန်းခဲ့သည့်အတိုင်းပင် ဖြစ်သည် -- အကြောင်းမှာ ရေ၏ များစွာ ပိုကြီးသော Mass နှင့် ပိုမြင့်သော Specific Heat Capacity တို့ ပေါင်းစပ်ခြင်းက Copper Block သေးသေးလေးထက် များစွာ ပိုကြီးသော Heat Capacity ကို ပေးထားသောကြောင့် ရေသည် သိပ်မပြောင်းလဲဘဲ Copper က ပြောင်းလဲမှု အားလုံးနီးပါး ခံစားခဲ့ရသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the final equilibrium temperature?",
+            questionMy: "Final Equilibrium Temperature ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 22.9°C", "≈ 60°C", "≈ 100°C", "≈ 20.0°C exactly"],
+            optionsMy: ["≈ 22.9°C", "≈ 60°C", "≈ 100°C", "≈ 20.0°C အတိအကျ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did the final temperature land close to the water's starting value?",
+            questionMy:
+                "Final Temperature သည် ရေ၏ Starting Value နှင့် အဘယ်ကြောင့် နီးကပ်စွာ ရောက်ရှိခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Water's larger mass and higher c give it a far larger heat capacity",
+              "Copper has a higher specific heat capacity than water",
+              "The copper block was actually colder than the water",
+              "Heat cannot flow into water at all",
+            ],
+            optionsMy: [
+              "ရေ၏ ပိုကြီးသော Mass နှင့် ပိုမြင့်သော c က များစွာ ပိုကြီးသော Heat Capacity ပေးသောကြောင့်",
+              "Copper သည် ရေထက် Specific Heat Capacity ပိုမြင့်သောကြောင့်",
+              "Copper Block သည် ရေထက် တကယ်တမ်း ပိုအေးသောကြောင့်",
+              "ရေထဲသို့ Heat လုံးဝ စီးဝင်၍ မရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what governing principle did Sayar Zaw Min remind Su Su of?",
+            questionMy:
+                "ဆရာဇော်မင်းသည် Su Su ကို မည်သည့် အုပ်ချုပ်နိယာမကို သတိပေးခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Heat lost by the hot object equals heat gained by the cold object",
+              "Heat is always created out of nothing",
+              "Mass is destroyed during heating",
+              "Specific heat capacity is the same for every substance",
+            ],
+            optionsMy: [
+              "ပူသောပစ္စည်း ဆုံးရှုံးသော Heat သည် အေးသောပစ္စည်း ရရှိသော Heat နှင့် ညီမျှသည်",
+              "Heat ကို ဘာမှမရှိရာမှ အမြဲ ဖန်တီးသည်",
+              "ပူစေခြင်းအတွင်း Mass ပျက်စီးသွားသည်",
+              "Specific Heat Capacity သည် ပစ္စည်းတိုင်းအတွက် တူညီသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Heat Capacity and Latent Heat",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Heat Capacity နှင့် Latent Heat",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The units of specific heat capacity are...",
+          questionMy: "Specific Heat Capacity ၏ Unit များမှာ...",
+          optionsEn: ["J kg⁻¹ K⁻¹", "J kg⁻¹", "N kg⁻¹", "W m⁻²"],
+          optionsMy: ["J kg⁻¹ K⁻¹", "J kg⁻¹", "N kg⁻¹", "W m⁻²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Q = mL applies during...",
+          questionMy: "Q = mL သည် ...တွင် သက်ဆိုင်သည်",
+          optionsEn: [
+            "A change of state, at constant temperature",
+            "A change of temperature, at constant state",
+            "Circular motion only",
+            "Elastic collisions only",
+          ],
+          optionsMy: [
+            "Constant Temperature တွင် Change of State",
+            "Constant State တွင် Temperature ပြောင်းလဲမှု",
+            "Circular Motion တွင်သာ",
+            "Elastic Collision တွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a method-of-mixtures experiment (assuming no heat loss), heat lost by the hot object equals...",
+          questionMy:
+              "Method-of-Mixtures စမ်းသပ်မှုတွင် (Heat ဆုံးရှုံးမှု မရှိဟု ယူဆလျှင်) ပူသောပစ္စည်း ဆုံးရှုံးသော Heat သည် ...နှင့် ညီမျှသည်",
+          optionsEn: [
+            "Heat gained by the cold object",
+            "Heat gained by the surroundings only",
+            "Zero, always",
+            "Twice the heat gained by the cold object",
+          ],
+          optionsMy: [
+            "အေးသောပစ္စည်း ရရှိသော Heat",
+            "Surroundings ရရှိသော Heat သာ",
+            "Zero အမြဲ",
+            "အေးသောပစ္စည်း ရရှိသော Heat ၏ နှစ်ဆ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "The Ideal Gas Equation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek7 = CourseWeekDef(
+  id: "course-y13-phys-w7",
+  weekNumber: 7,
+  titleEn: "The Ideal Gas Equation",
+  titleMy: "Ideal Gas Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w7-d1",
+      dayNumber: 1,
+      titleEn: "pV = nRT and Boyle's Law",
+      titleMy: "pV = nRT နှင့် Boyle's Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using pV = nRT (R = 8.31 J K⁻¹ mol⁻¹), the pressure of 2 mol of gas in a 0.05 m³ container at 300 K is...",
+          questionMy:
+              "pV = nRT (R = 8.31 J K⁻¹ mol⁻¹) ကို အသုံးပြု၍ 0.05 m³ ရှိသော Container ထဲရှိ Gas 2 mol ၏ 300 K တွင် Pressure မှာ...",
+          optionsEn: [
+            "≈ 9.97 x 10⁴ Pa",
+            "≈ 4.99 x 10³ Pa",
+            "≈ 1.99 x 10⁵ Pa",
+            "≈ 4986 Pa",
+          ],
+          optionsMy: [
+            "≈ 9.97 x 10⁴ Pa",
+            "≈ 4.99 x 10³ Pa",
+            "≈ 1.99 x 10⁵ Pa",
+            "≈ 4986 Pa",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "p = nRT/V = (2 x 8.31 x 300)/0.05 = 4986/0.05 ≈ 9.97x10⁴ Pa.",
+          ],
+          hintsMy: [
+            "p = nRT/V = (2 x 8.31 x 300)/0.05 = 4986/0.05 ≈ 9.97x10⁴ Pa ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A gas at 2.0 x 10⁵ Pa occupies 3.0 x 10⁻³ m³. At constant temperature, if compressed to 1.0 x 10⁻³ m³, using p₁V₁ = p₂V₂ the new pressure is...",
+          questionMy:
+              "Gas တစ်ခုသည် 2.0 x 10⁵ Pa တွင် 3.0 x 10⁻³ m³ ယူသည်။ Constant Temperature ဖြင့် 1.0 x 10⁻³ m³ အထိ ချုံ့လိုက်ပါက p₁V₁ = p₂V₂ ကို အသုံးပြု၍ Pressure အသစ်မှာ...",
+          optionsEn: [
+            "6.0 x 10⁵ Pa",
+            "2.0 x 10⁵ Pa",
+            "0.67 x 10⁵ Pa",
+            "1.8 x 10⁵ Pa",
+          ],
+          optionsMy: [
+            "6.0 x 10⁵ Pa",
+            "2.0 x 10⁵ Pa",
+            "0.67 x 10⁵ Pa",
+            "1.8 x 10⁵ Pa",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "p₂ = p₁V₁/V₂ = (2.0x10⁵ x 3.0x10⁻³)/1.0x10⁻³ = 6.0x10⁵ Pa.",
+          ],
+          hintsMy: [
+            "p₂ = p₁V₁/V₂ = (2.0x10⁵ x 3.0x10⁻³)/1.0x10⁻³ = 6.0x10⁵ Pa ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The ideal gas equation pV = nRT requires temperature to be measured in which scale?",
+          questionMy: "Ideal Gas Equation pV = nRT တွင် Temperature ကို မည်သည့် Scale ဖြင့် တိုင်းတာရမည်နည်း။",
+          optionsEn: ["Kelvin", "Celsius", "Fahrenheit", "Any scale works equally"],
+          optionsMy: ["Kelvin", "Celsius", "Fahrenheit", "Scale မည်သည့်တစ်ခုမဆို တူညီစွာ အလုပ်လုပ်သည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "pV = nRT only works with absolute (Kelvin) temperature -- using Celsius would wrongly make V or p reach zero at 0°C instead of at absolute zero.",
+          ],
+          hintsMy: [
+            "pV = nRT သည် Absolute (Kelvin) Temperature ဖြင့်သာ အလုပ်လုပ်သည် -- Celsius ကို အသုံးပြုပါက V (သို့) p သည် Absolute Zero တွင် မဟုတ်ဘဲ 0°C တွင် Zero ဖြစ်သွားမည် ဖြစ်ရာ မှားယွင်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ideal Gas Equation Symbols",
+      titleMy: "တွဲစပ်ကြမည် - Ideal Gas Equation သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w7-dm-1",
+          termEn: "p",
+          termMy: "p",
+          matchEn: "Pressure (Pa)",
+          matchMy: "Pressure (Pa)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w7-dm-2",
+          termEn: "V",
+          termMy: "V",
+          matchEn: "Volume (m³)",
+          matchMy: "Volume (m³)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w7-dm-3",
+          termEn: "n",
+          termMy: "n",
+          matchEn: "Number of moles",
+          matchMy: "Mole အရေအတွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w7-dm-4",
+          termEn: "R",
+          termMy: "R",
+          matchEn: "Molar gas constant, 8.31 J K⁻¹ mol⁻¹",
+          matchMy: "Molar Gas Constant, 8.31 J K⁻¹ mol⁻¹",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w7-dm-5",
+          termEn: "pV = nRT",
+          termMy: "pV = nRT",
+          matchEn: "The ideal gas equation",
+          matchMy: "Ideal Gas Equation",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Boyle's Law or Pressure Law?",
+      titleMy: "စီစစ်ကြမည် - Boyle's Law လား၊ Pressure Law လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Boyle's Law (Constant T)", "Pressure Law (Constant V)"],
+        bucketsMy: ["Boyle's Law (Constant T)", "Pressure Law (Constant V)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w7-sort-1",
+            labelEn: "p₁V₁ = p₂V₂",
+            labelMy: "p₁V₁ = p₂V₂",
+            correctBucketEn: "Boyle's Law (Constant T)",
+            correctBucketMy: "Boyle's Law (Constant T)",
+          ),
+          SortingItem(
+            id: "y13phys-w7-sort-2",
+            labelEn: "p/T = constant",
+            labelMy: "p/T = Constant",
+            correctBucketEn: "Pressure Law (Constant V)",
+            correctBucketMy: "Pressure Law (Constant V)",
+          ),
+          SortingItem(
+            id: "y13phys-w7-sort-3",
+            labelEn: "Pressure and volume are inversely proportional",
+            labelMy: "Pressure နှင့် Volume သည် Inversely Proportional ဖြစ်သည်",
+            correctBucketEn: "Boyle's Law (Constant T)",
+            correctBucketMy: "Boyle's Law (Constant T)",
+          ),
+          SortingItem(
+            id: "y13phys-w7-sort-4",
+            labelEn: "Volume held fixed while pressure and temperature change",
+            labelMy: "Pressure နှင့် Temperature ပြောင်းလဲစဉ် Volume ကို ပုံသေထားသည်",
+            correctBucketEn: "Pressure Law (Constant V)",
+            correctBucketMy: "Pressure Law (Constant V)",
+          ),
+          SortingItem(
+            id: "y13phys-w7-sort-5",
+            labelEn: "Temperature held fixed while pressure and volume change",
+            labelMy: "Pressure နှင့် Volume ပြောင်းလဲစဉ် Temperature ကို ပုံသေထားသည်",
+            correctBucketEn: "Boyle's Law (Constant T)",
+            correctBucketMy: "Boyle's Law (Constant T)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Rising Weather Balloon",
+      titleMy: "စာဖတ်ခြင်း - မြင့်တက်လာသော Weather Balloon",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Rising Weather Balloon",
+        titleMy: "မြင့်တက်လာသော Weather Balloon",
+        passageEn:
+            "Htet Aung read that meteorologists release weather balloons that expand dramatically as they climb, and asked Sayar Zaw Min why. Sayar Zaw Min set up a combined gas law problem: at ground level the balloon has volume V₁ = 2.0 m³, pressure p₁ = 1.01x10⁵ Pa, and temperature T₁ = 290 K; at altitude it experiences p₂ = 0.30x10⁵ Pa and T₂ = 230 K, and Htet Aung had to find the new volume V₂.\n\nSince the number of moles of gas trapped inside the balloon doesn't change, p₁V₁/T₁ = p₂V₂/T₂ applies throughout the ascent. Rearranging for V₂: V₂ = (p₁V₁T₂)/(T₁p₂). Htet Aung substituted the numbers step by step: p₁V₁ = 1.01x10⁵ x 2.0 = 2.02x10⁵; multiplying by T₂ gives 2.02x10⁵ x 230 = 4.646x10⁷; and the denominator T₁p₂ = 290 x 0.30x10⁵ = 8.7x10⁶.\n\nDividing gives V₂ = 4.646x10⁷/8.7x10⁶ ≈ 5.34 m³ -- the balloon swells to more than two and a half times its ground-level volume as both the falling pressure and falling temperature act on it (falling pressure alone would expand it; falling temperature alone would shrink it, but the pressure drop wins out overall). Sayar Zaw Min explained that real weather balloons are deliberately launched only partly inflated for exactly this reason, expanding as they rise until the balloon material can no longer stretch and it bursts, releasing its instrument package on a parachute.",
+        passageMy:
+            "Meteorologist များသည် မြင့်တက်လာသည်နှင့်အမျှ ထင်ရှားစွာ ချဲ့ထွင်လာသော Weather Balloon များ လွှတ်တင်ကြောင်း Htet Aung ဖတ်မိပြီး ဆရာဇော်မင်းကို အဘယ်ကြောင့်ဟု မေးမြန်းခဲ့သည်။ ဆရာဇော်မင်းသည် Combined Gas Law ပြဿနာတစ်ခု စီစဉ်ပေးခဲ့သည် - မြေပြင်တွင် Balloon ၏ Volume V₁ = 2.0 m³, Pressure p₁ = 1.01x10⁵ Pa, Temperature T₁ = 290 K ဖြစ်ပြီး Altitude တွင် p₂ = 0.30x10⁵ Pa နှင့် T₂ = 230 K ခံစားရသည်၊ Htet Aung သည် Volume အသစ် V₂ ကို ရှာဖွေရမည် ဖြစ်သည်။\n\nBalloon အတွင်းရှိ Gas ၏ Mole အရေအတွက် မပြောင်းလဲသောကြောင့် p₁V₁/T₁ = p₂V₂/T₂ ကို တက်လှမ်းချိန်တစ်လျှောက် အသုံးချနိုင်သည်။ V₂ အတွက် ပြန်စီစဉ်လျှင် - V₂ = (p₁V₁T₂)/(T₁p₂)။ Htet Aung သည် ဂဏန်းများကို အဆင့်ဆင့် အစားထိုးခဲ့သည် - p₁V₁ = 1.01x10⁵ x 2.0 = 2.02x10⁵; T₂ ဖြင့် မြှောက်လျှင် 2.02x10⁵ x 230 = 4.646x10⁷; Denominator T₁p₂ = 290 x 0.30x10⁵ = 8.7x10⁶ ဖြစ်သည်။\n\nစားလိုက်ပါက V₂ = 4.646x10⁷/8.7x10⁶ ≈ 5.34 m³ ဖြစ်သည် -- Pressure ကျဆင်းခြင်းနှင့် Temperature ကျဆင်းခြင်း နှစ်ခုစလုံး သက်ရောက်နေချိန်တွင် Balloon သည် မြေပြင်ရှိ Volume ၏ နှစ်ဆခွဲကျော် ချဲ့ထွင်သွားသည် (Pressure ကျဆင်းခြင်း တစ်ခုတည်းက ချဲ့ထွင်စေမည်၊ Temperature ကျဆင်းခြင်း တစ်ခုတည်းက ကျုံ့စေမည်ဖြစ်သော်လည်း Pressure ကျဆင်းမှုက အားလုံးထက် ပိုနိုင်သည်)။ တကယ့် Weather Balloon များကို ဤအကြောင်းရင်းအတိအကျကြောင့် တစ်ဝက်ခန့်သာ လေဖြည့်ကာ တမင်တကာ လွှတ်တင်ကြောင်း၊ Balloon ပစ္စည်းက နောက်ထပ် မဆန့်နိုင်တော့သည်အထိ မြင့်တက်ရာတွင် ချဲ့ထွင်ပြီး ပေါက်ကွဲကာ ၎င်း၏ Instrument Package ကို Parachute ဖြင့် လွှတ်ချသွားကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the balloon's volume at altitude?",
+            questionMy: "Altitude တွင် Balloon ၏ Volume ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 5.34 m³", "≈ 2.0 m³", "≈ 8.7 m³", "≈ 4.65 m³"],
+            optionsMy: ["≈ 5.34 m³", "≈ 2.0 m³", "≈ 8.7 m³", "≈ 4.65 m³"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why are real weather balloons launched only partly inflated?",
+            questionMy:
+                "တကယ့် Weather Balloon များကို တစ်ဝက်ခန့်သာ လေဖြည့်ကာ အဘယ်ကြောင့် လွှတ်တင်ကြောင်း စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They expand dramatically as they rise, so they need room to grow",
+              "It saves helium for no physical reason",
+              "Fully inflated balloons cannot leave the ground",
+              "It has nothing to do with pressure or temperature",
+            ],
+            optionsMy: [
+              "မြင့်တက်ရာတွင် ထင်ရှားစွာ ချဲ့ထွင်သောကြောင့် ကြီးထွားရန် နေရာလိုအပ်သည်",
+              "ရူပဗေဒနှင့် မသက်ဆိုင်ဘဲ Helium ချွေတာရန်",
+              "လေအပြည့်ဖြည့်ထားသော Balloon များသည် မြေပြင်မှ ထွက်ခွာ၍ မရနိုင်ပါ",
+              "Pressure (သို့) Temperature နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which quantity of gas inside the balloon stays constant during the ascent?",
+            questionMy:
+                "တက်လှမ်းချိန်တစ်လျှောက် Balloon အတွင်းရှိ Gas ၏ မည်သည့် ပမာဏသည် Constant ဖြစ်နေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The number of moles",
+              "The pressure",
+              "The temperature",
+              "The volume",
+            ],
+            optionsMy: ["Mole အရေအတွက်", "Pressure", "Temperature", "Volume"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: The Ideal Gas Equation",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Ideal Gas Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In pV = nRT, R stands for...",
+          questionMy: "pV = nRT တွင် R သည်...",
+          optionsEn: [
+            "The molar gas constant",
+            "The number of moles",
+            "The volume",
+            "The mass of one molecule",
+          ],
+          optionsMy: [
+            "Molar Gas Constant",
+            "Mole အရေအတွက်",
+            "Volume",
+            "Molecule တစ်ခု၏ Mass",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Boyle's law relates pressure and volume at constant...",
+          questionMy: "Boyle's Law သည် Constant ...တွင် Pressure နှင့် Volume ကို ဆက်စပ်ပေးသည်",
+          optionsEn: ["Temperature", "Number of moles only", "Mass", "Density"],
+          optionsMy: ["Temperature", "Mole အရေအတွက်သာ", "Mass", "Density"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must temperature always be measured in Kelvin in gas law calculations?",
+          questionMy: "Gas Law တွက်ချက်မှုများတွင် Temperature ကို Kelvin ဖြင့်သာ အဘယ်ကြောင့် တိုင်းတာရမည်နည်း။",
+          optionsEn: [
+            "Because Celsius has an arbitrary zero point, not an absolute one",
+            "Because Kelvin uses smaller numbers",
+            "Because Celsius cannot be negative",
+            "There is no real reason -- either scale works",
+          ],
+          optionsMy: [
+            "Celsius သည် Absolute မဟုတ်ဘဲ Arbitrary Zero Point ရှိသောကြောင့်",
+            "Kelvin သည် ဂဏန်း ငယ်သောကြောင့်",
+            "Celsius သည် Negative မဖြစ်နိုင်သောကြောင့်",
+            "အကြောင်းအမှန် မရှိပါ -- Scale မည်သည့်တစ်ခုမဆို အလုပ်လုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8: "Kinetic Theory of Gases and Internal Energy" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek8 = CourseWeekDef(
+  id: "course-y13-phys-w8",
+  weekNumber: 8,
+  titleEn: "Kinetic Theory of Gases and Internal Energy",
+  titleMy: "Kinetic Theory of Gases နှင့် Internal Energy",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w8-d1",
+      dayNumber: 1,
+      titleEn: "pV = ⅓Nm<c²> and Molecular Kinetic Energy",
+      titleMy: "pV = ⅓Nm<c²> နှင့် Molecular Kinetic Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using pV = ⅓Nm<c²>, rearranged as <c²> = 3pV/(Nm), find <c²> for p = 3.0 x 10⁵ Pa, V = 1.0 x 10⁻² m³, N = 1.0 x 10²³, m = 5.0 x 10⁻²⁶ kg.",
+          questionMy:
+              "pV = ⅓Nm<c²> ကို <c²> = 3pV/(Nm) အဖြစ် ပြန်စီစဉ်၍ p = 3.0 x 10⁵ Pa, V = 1.0 x 10⁻² m³, N = 1.0 x 10²³, m = 5.0 x 10⁻²⁶ kg ဖြစ်စဉ် <c²> ကို ရှာပါ။",
+          optionsEn: [
+            "1.8 x 10⁶ m² s⁻²",
+            "9.0 x 10³ m² s⁻²",
+            "5.0 x 10⁻³ m² s⁻²",
+            "3.6 x 10⁶ m² s⁻²",
+          ],
+          optionsMy: [
+            "1.8 x 10⁶ m² s⁻²",
+            "9.0 x 10³ m² s⁻²",
+            "5.0 x 10⁻³ m² s⁻²",
+            "3.6 x 10⁶ m² s⁻²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "<c²> = 3pV/(Nm) = (3 x 3.0x10⁵ x 1.0x10⁻²)/(1.0x10²³ x 5.0x10⁻²⁶) = 9000/5.0x10⁻³ = 1.8x10⁶ m² s⁻².",
+          ],
+          hintsMy: [
+            "<c²> = 3pV/(Nm) = (3 x 3.0x10⁵ x 1.0x10⁻²)/(1.0x10²³ x 5.0x10⁻²⁶) = 9000/5.0x10⁻³ = 1.8x10⁶ m² s⁻² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to kinetic theory, ½m<c²> = (3/2)kT shows that average molecular kinetic energy is directly proportional to...",
+          questionMy:
+              "Kinetic Theory အရ ½m<c²> = (3/2)kT က Average Molecular Kinetic Energy သည် ...နှင့် တိုက်ရိုက် ပြောင်းလဲအချိုးကျကြောင်း ပြသသည်",
+          optionsEn: [
+            "Absolute temperature (Kelvin)",
+            "Pressure alone",
+            "Volume alone",
+            "The type of gas alone",
+          ],
+          optionsMy: [
+            "Absolute Temperature (Kelvin)",
+            "Pressure သာ",
+            "Volume သာ",
+            "Gas အမျိုးအစားသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "½m<c²> = (3/2)kT shows average molecular kinetic energy depends only on absolute temperature T, not on the type of gas.",
+          ],
+          hintsMy: [
+            "½m<c²> = (3/2)kT က Average Molecular Kinetic Energy သည် Gas အမျိုးအစားပေါ် မမူတည်ဘဲ Absolute Temperature T ပေါ်တွင်သာ မူတည်ကြောင်း ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using ½m<c²> = (3/2)kT (k = 1.38 x 10⁻²³ J K⁻¹), the average kinetic energy of a gas molecule at 300 K is...",
+          questionMy:
+              "½m<c²> = (3/2)kT (k = 1.38 x 10⁻²³ J K⁻¹) ကို အသုံးပြု၍ 300 K တွင် Gas Molecule တစ်ခု၏ Average Kinetic Energy မှာ...",
+          optionsEn: [
+            "6.21 x 10⁻²¹ J",
+            "4.14 x 10⁻²¹ J",
+            "1.38 x 10⁻²³ J",
+            "6.21 x 10⁻¹⁸ J",
+          ],
+          optionsMy: [
+            "6.21 x 10⁻²¹ J",
+            "4.14 x 10⁻²¹ J",
+            "1.38 x 10⁻²³ J",
+            "6.21 x 10⁻¹⁸ J",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Eₖ = (3/2)kT = 1.5 x 1.38x10⁻²³ x 300 = 6.21x10⁻²¹ J.",
+          ],
+          hintsMy: ["Eₖ = (3/2)kT = 1.5 x 1.38x10⁻²³ x 300 = 6.21x10⁻²¹ J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Kinetic Theory Symbols",
+      titleMy: "တွဲစပ်ကြမည် - Kinetic Theory သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w8-dm-1",
+          termEn: "pV = ⅓Nm<c²>",
+          termMy: "pV = ⅓Nm<c²>",
+          matchEn: "Kinetic theory equation relating pressure to molecular motion",
+          matchMy: "Molecular Motion နှင့် Pressure ကို ဆက်စပ်ပေးသော Kinetic Theory Equation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w8-dm-2",
+          termEn: "<c²>",
+          termMy: "<c²>",
+          matchEn: "Mean square speed of the gas molecules",
+          matchMy: "Gas Molecule များ၏ Mean Square Speed",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w8-dm-3",
+          termEn: "½m<c²> = (3/2)kT",
+          termMy: "½m<c²> = (3/2)kT",
+          matchEn: "Average molecular kinetic energy formula",
+          matchMy: "Average Molecular Kinetic Energy ဖော်မြူလာ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w8-dm-4",
+          termEn: "k",
+          termMy: "k",
+          matchEn: "Boltzmann constant, 1.38 x 10⁻²³ J K⁻¹",
+          matchMy: "Boltzmann Constant, 1.38 x 10⁻²³ J K⁻¹",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w8-dm-5",
+          termEn: "Internal energy",
+          termMy: "Internal Energy",
+          matchEn: "Sum of the random kinetic and potential energies of all molecules",
+          matchMy: "Molecule အားလုံး၏ Random Kinetic နှင့် Potential Energy ၏ ပေါင်းလဒ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Assumption of the Kinetic Theory Model?",
+      titleMy: "စီစစ်ကြမည် - Kinetic Theory Model ၏ Assumption လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Assumption of the Model",
+          "NOT an Assumption of the Model",
+        ],
+        bucketsMy: [
+          "Model ၏ Assumption ဖြစ်သည်",
+          "Model ၏ Assumption မဟုတ်ပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w8-sort-1",
+            labelEn: "Molecules are in continuous random motion",
+            labelMy: "Molecule များသည် ဆက်တိုက် Random Motion ရှိနေသည်",
+            correctBucketEn: "Assumption of the Model",
+            correctBucketMy: "Model ၏ Assumption ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w8-sort-2",
+            labelEn: "Collisions between molecules are perfectly elastic",
+            labelMy: "Molecule များကြား Collision များသည် Perfectly Elastic ဖြစ်သည်",
+            correctBucketEn: "Assumption of the Model",
+            correctBucketMy: "Model ၏ Assumption ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w8-sort-3",
+            labelEn:
+                "The volume of the molecules themselves is negligible compared to the container",
+            labelMy: "Molecule ကိုယ်တိုင်၏ Volume သည် Container နှင့် နှိုင်းလျှင် လျစ်လျူရှုနိုင်သည်",
+            correctBucketEn: "Assumption of the Model",
+            correctBucketMy: "Model ၏ Assumption ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w8-sort-4",
+            labelEn:
+                "Molecules attract each other strongly except during collisions",
+            labelMy: "Molecule များသည် Collision အတွင်းမှလွဲ၍ တစ်ခုနှင့်တစ်ခု ပြင်းထန်စွာ ဆွဲငင်ကြသည်",
+            correctBucketEn: "NOT an Assumption of the Model",
+            correctBucketMy: "Model ၏ Assumption မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w8-sort-5",
+            labelEn:
+                "The time of a collision is negligible compared to the time between collisions",
+            labelMy: "Collision တစ်ခု၏ ကြာချိန်သည် Collision များကြား ကြာချိန်နှင့် နှိုင်းလျှင် လျစ်လျူရှုနိုင်သည်",
+            correctBucketEn: "Assumption of the Model",
+            correctBucketMy: "Model ၏ Assumption ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Internal Energy Depends Only on Temperature",
+      titleMy: "စာဖတ်ခြင်း - Internal Energy သည် Temperature ပေါ်သာ အဘယ်ကြောင့် မူတည်သနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Internal Energy Depends Only on Temperature",
+        titleMy: "Internal Energy သည် Temperature ပေါ်သာ အဘယ်ကြောင့် မူတည်သနည်း",
+        passageEn:
+            "Sayama Moe Moe Aye explained to her class why the internal energy of an ideal gas depends only on its temperature -- not on its pressure or volume, and not even on which gas it is. In the kinetic theory model, molecules are treated as tiny point-like particles that exert no forces on each other except during collisions, so an ideal gas has essentially no intermolecular potential energy; its internal energy is purely the total random kinetic energy of all its molecules.\n\nShe showed the class a worked example: for 1 mole of ideal gas at 300 K, the internal energy U ≈ (3/2)RT per mole = 1.5 x 8.31 x 300 ≈ 3.74x10³ J. She then asked what would happen to U if the same gas, still at 300 K, were allowed to expand into a container of double the volume. Since Boyle's law says the pressure would halve at constant temperature, some students guessed U would also halve -- but Sayama Moe Moe Aye pointed out that U depends only on T in this equation, so with T unchanged, U stays at exactly 3.74x10³ J even though p has halved and V has doubled.\n\nReal gases, she added, do deviate slightly from this ideal picture because their molecules do exert weak attractive forces on each other at close range, giving real gases a small extra store of intermolecular potential energy that the ideal gas model ignores entirely -- one reason the ideal gas equation is only an approximation, extremely good at everyday pressures and temperatures but not perfectly exact.",
+        passageMy:
+            "Ideal Gas တစ်ခု၏ Internal Energy သည် ၎င်း၏ Pressure (သို့) Volume ပေါ် မဟုတ်ဘဲ Gas မည်သည့်အမျိုးအစား ဖြစ်သည်ပေါ်ပင် မမူတည်ဘဲ ၎င်း၏ Temperature ပေါ်တွင်သာ အဘယ်ကြောင့် မူတည်သည်ကို ဆရာမ မိုမိုအေးက သူမ၏ အတန်းကို ရှင်းပြခဲ့သည်။ Kinetic Theory Model တွင် Molecule များကို Collision အတွင်းမှလွဲ၍ တစ်ခုနှင့်တစ်ခု Force လုံးဝ မသက်ရောက်သော အလွန်သေးငယ်သည့် Point-Like Particle များအဖြစ် ယူဆသောကြောင့် Ideal Gas တွင် Intermolecular Potential Energy အခြေခံအားဖြင့် လုံးဝ မရှိပါ - ၎င်း၏ Internal Energy သည် ၎င်း၏ Molecule အားလုံး၏ စုစုပေါင်း Random Kinetic Energy သာ ဖြစ်သည်။\n\nသူမသည် အတန်းကို တွက်ချက်မှု ဥပမာတစ်ခု ပြသခဲ့သည် - 300 K တွင် Ideal Gas 1 Mole အတွက် Internal Energy U ≈ (3/2)RT per mole = 1.5 x 8.31 x 300 ≈ 3.74x10³ J ။ ထို့နောက် 300 K အတိုင်း ဆက်ရှိနေသော Gas တူညီတစ်ခုကို Volume နှစ်ဆ ရှိသော Container ထဲသို့ ချဲ့ထွင်ခွင့်ပြုပါက U တွင် အဘယ်ဖြစ်လာမည်ကို မေးမြန်းခဲ့သည်။ Boyle's Law က Constant Temperature တွင် Pressure တစ်ဝက် ကျဆင်းမည်ဟု ဆိုသောကြောင့် ကျောင်းသားအချို့က U ကလည်း တစ်ဝက် ကျဆင်းမည်ဟု ခန့်မှန်းခဲ့ကြသော်လည်း -- ဤ Equation တွင် U သည် T ပေါ်တွင်သာ မူတည်ကြောင်း ဆရာမ မိုမိုအေးက ထောက်ပြခဲ့သည်၊ T မပြောင်းလဲသောကြောင့် p တစ်ဝက် ကျဆင်းပြီး V နှစ်ဆ တိုးလာသော်လည်း U သည် 3.74x10³ J အတိအကျ ဆက်ရှိနေသည်။\n\nတကယ့် Gas များသည် ၎င်းတို့၏ Molecule များ နီးကပ်သောအကွာအဝေးတွင် အားနည်းသော Attractive Force များ တကယ်တမ်း သက်ရောက်နေသောကြောင့် ဤ Ideal ပုံစံမှ အနည်းငယ် ကွဲလွဲကြောင်း၊ Ideal Gas Model က လုံးဝ လျစ်လျူရှုထားသော Intermolecular Potential Energy သိုလှောင်မှုအနည်းငယ်ကို တကယ့် Gas များကို ပေးထားကြောင်း သူမ ထပ်ဆောင်းပြောပြခဲ့သည် -- ၎င်းသည် Ideal Gas Equation သည် နေ့စဉ် Pressure နှင့် Temperature များတွင် အလွန်ကောင်းမွန်သော်လည်း အတိအကျ Perfect မဟုတ်ဘဲ Approximation တစ်ခုသာ ဖြစ်ခြင်း၏ အကြောင်းရင်း တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the internal energy of 1 mole of ideal gas at 300 K?",
+            questionMy:
+                "300 K တွင် Ideal Gas 1 Mole ၏ Internal Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 3.74 x 10³ J",
+              "≈ 8.31 J",
+              "≈ 300 J",
+              "≈ 1.5 J",
+            ],
+            optionsMy: [
+              "≈ 3.74 x 10³ J",
+              "≈ 8.31 J",
+              "≈ 300 J",
+              "≈ 1.5 J",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens to U when the gas expands to double volume at constant temperature?",
+            questionMy:
+                "Constant Temperature တွင် Gas သည် Volume နှစ်ဆသို့ ချဲ့ထွင်သောအခါ U တွင် အဘယ်ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "U stays exactly the same, since it depends only on T",
+              "U halves, matching the pressure",
+              "U doubles, matching the volume",
+              "U drops to zero",
+            ],
+            optionsMy: [
+              "U သည် T ပေါ်တွင်သာ မူတည်သောကြောင့် အတိအကျ တူညီနေဆဲ ဖြစ်သည်",
+              "Pressure နှင့် ကိုက်ညီစွာ U တစ်ဝက် ကျဆင်းသည်",
+              "Volume နှင့် ကိုက်ညီစွာ U နှစ်ဆ တိုးလာသည်",
+              "U သည် Zero သို့ ကျဆင်းသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why do real gases deviate slightly from the ideal gas model?",
+            questionMy:
+                "တကယ့် Gas များသည် Ideal Gas Model မှ အနည်းငယ် အဘယ်ကြောင့် ကွဲလွဲသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Real molecules exert weak attractive forces on each other",
+              "Real gases have no molecules at all",
+              "Real gases never have a measurable pressure",
+              "Real gases exist only at absolute zero",
+            ],
+            optionsMy: [
+              "တကယ့် Molecule များသည် တစ်ခုနှင့်တစ်ခု အားနည်းသော Attractive Force များ သက်ရောက်သောကြောင့်",
+              "တကယ့် Gas များတွင် Molecule လုံးဝ မရှိသောကြောင့်",
+              "တကယ့် Gas များတွင် တိုင်းတာနိုင်သော Pressure လုံးဝ မရှိသောကြောင့်",
+              "တကယ့် Gas များသည် Absolute Zero တွင်သာ ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Kinetic Theory and Internal Energy",
+      titleMy: "အဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Kinetic Theory နှင့် Internal Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "pV = ⅓Nm<c²> connects gas pressure to...",
+          questionMy: "pV = ⅓Nm<c²> သည် Gas Pressure ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "The mean square speed of the molecules",
+            "The colour of the gas",
+            "The container's material only",
+            "The number of collisions with the ceiling only",
+          ],
+          optionsMy: [
+            "Molecule များ၏ Mean Square Speed",
+            "Gas ၏ အရောင်",
+            "Container ၏ ပစ္စည်းသာ",
+            "မိုးကုတ်နှင့် Collision အရေအတွက်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For an ideal gas, internal energy depends only on...",
+          questionMy: "Ideal Gas တစ်ခုအတွက် Internal Energy သည် ...ပေါ်တွင်သာ မူတည်သည်",
+          optionsEn: [
+            "Absolute temperature",
+            "Pressure alone",
+            "Volume alone",
+            "The type of gas",
+          ],
+          optionsMy: ["Absolute Temperature", "Pressure သာ", "Volume သာ", "Gas အမျိုးအစား"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the kinetic theory model, collisions between gas molecules are assumed to be...",
+          questionMy: "Kinetic Theory Model တွင် Gas Molecule များကြား Collision များကို ...ဟု ယူဆသည်",
+          optionsEn: [
+            "Perfectly elastic",
+            "Perfectly inelastic",
+            "Impossible",
+            "Random in energy, gaining energy from nowhere",
+          ],
+          optionsMy: [
+            "Perfectly Elastic",
+            "Perfectly Inelastic",
+            "ဖြစ်နိုင်ခြေ မရှိပါ",
+            "Energy Random ဖြစ်ပြီး ဘယ်ကမှမဟုတ်ဘဲ Energy ရရှိသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 2: "Temperature, Ideal Gases and Thermal
+/// Properties". Covers thermal equilibrium and the Kelvin scale, specific
+/// heat capacity and specific latent heat (method of mixtures), the
+/// ideal gas equation (Boyle's law, the pressure law, and pV = nRT), and
+/// closes with a Kinetic Theory of Gases and Internal Energy capstone
+/// week (pV = ⅓Nm times mean square speed, molecular kinetic energy, and
+/// why internal energy of an ideal gas depends only on temperature).
+const CourseTermDef year13PhysicsTerm2 = CourseTermDef(
+  id: "course-y13-phys-term2",
+  termNumber: 2,
+  titleEn: "Temperature, Ideal Gases and Thermal Properties",
+  titleMy: "Temperature, Ideal Gases နှင့် Thermal Properties",
+  weeks: [_y13PhysWeek5, _y13PhysWeek6, _y13PhysWeek7, _y13PhysWeek8],
+  certificateTitleEn:
+      "A2 Physics: Temperature, Ideal Gases and Thermal Properties",
+  certificateTitleMy:
+      "A2 ရူပဗေဒ - Temperature, Ideal Gases နှင့် Thermal Properties",
+);
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 3: "Thermodynamics and Oscillations"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "The First Law of Thermodynamics"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek9 = CourseWeekDef(
+  id: "course-y13-phys-w9",
+  weekNumber: 9,
+  titleEn: "The First Law of Thermodynamics",
+  titleMy: "First Law of Thermodynamics",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w9-d1",
+      dayNumber: 1,
+      titleEn: "ΔU = q + w and Work Done by a Gas",
+      titleMy: "ΔU = q + w နှင့် Gas ၏ Work Done",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "500 J of heat is supplied to a gas (q = +500 J) while the gas does 200 J of work on the surroundings (w = -200 J). Using ΔU = q + w, the change in internal energy is...",
+          questionMy:
+              "Gas သို့ Heat 500 J ပေးသည် (q = +500 J) ၊ Gas သည် Surroundings ပေါ် Work 200 J လုပ်သည် (w = -200 J)။ ΔU = q + w ကို အသုံးပြု၍ Internal Energy ပြောင်းလဲမှုမှာ...",
+          optionsEn: ["+300 J", "+700 J", "-300 J", "+500 J"],
+          optionsMy: ["+300 J", "+700 J", "-300 J", "+500 J"],
+          correctIndex: 0,
+          hintsEn: ["ΔU = q + w = 500 + (-200) = +300 J."],
+          hintsMy: ["ΔU = q + w = 500 + (-200) = +300 J ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using W = pΔV, a gas at 2.0 x 10⁵ Pa expands from 0.01 m³ to 0.015 m³. The work done by the gas is...",
+          questionMy:
+              "W = pΔV ကို အသုံးပြု၍ 2.0 x 10⁵ Pa ရှိသော Gas သည် 0.01 m³ မှ 0.015 m³ အထိ ချဲ့ထွင်သည်။ Gas လုပ်ဆောင်သော Work မှာ...",
+          optionsEn: ["1.0 x 10³ J", "5.0 x 10² J", "2.0 x 10³ J", "1.5 x 10³ J"],
+          optionsMy: ["1.0 x 10³ J", "5.0 x 10² J", "2.0 x 10³ J", "1.5 x 10³ J"],
+          correctIndex: 0,
+          hintsEn: [
+            "W = pΔV = 2.0x10⁵ x (0.015-0.01) = 2.0x10⁵ x 0.005 = 1.0x10³ J.",
+          ],
+          hintsMy: [
+            "W = pΔV = 2.0x10⁵ x (0.015-0.01) = 2.0x10⁵ x 0.005 = 1.0x10³ J ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "By the ΔU = q + w sign convention used in this course, when a gas is compressed by an external force, the work term w is...",
+          questionMy:
+              "ဤသင်တန်းတွင် အသုံးပြုသော ΔU = q + w Sign Convention အရ Gas ကို External Force ဖြင့် ချုံ့လိုက်သောအခါ Work Term w သည်...",
+          optionsEn: [
+            "Positive, since energy is being transferred into the gas",
+            "Negative, always",
+            "Zero, always",
+            "Undefined",
+          ],
+          optionsMy: [
+            "Positive၊ Energy ကို Gas ထဲသို့ လွှဲပြောင်းနေသောကြောင့်",
+            "Negative အမြဲ",
+            "Zero အမြဲ",
+            "Undefined",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "By this convention, w is positive when work is done ON the gas (energy flows in) and negative when the gas does work on its surroundings (energy flows out).",
+          ],
+          hintsMy: [
+            "ဤ Convention အရ Gas အပေါ် Work လုပ်သောအခါ (Energy ဝင်ရောက်သောအခါ) w သည် Positive ဖြစ်ပြီး Gas က Surroundings ပေါ် Work လုပ်သောအခါ (Energy ထွက်ခွာသောအခါ) w သည် Negative ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: First Law of Thermodynamics Symbols",
+      titleMy: "တွဲစပ်ကြမည် - First Law of Thermodynamics သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w9-dm-1",
+          termEn: "ΔU",
+          termMy: "ΔU",
+          matchEn: "Change in internal energy",
+          matchMy: "Internal Energy ပြောင်းလဲမှု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w9-dm-2",
+          termEn: "q",
+          termMy: "q",
+          matchEn: "Heat supplied to (+) or removed from (-) the system",
+          matchMy: "System သို့ ပေးသော (+) သို့မဟုတ် ဖယ်ရှားသော (-) Heat",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w9-dm-3",
+          termEn: "w",
+          termMy: "w",
+          matchEn: "Work done on (+) or by (-) the system",
+          matchMy: "System ပေါ် (+) သို့မဟုတ် System က (-) လုပ်သော Work",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w9-dm-4",
+          termEn: "ΔU = q + w",
+          termMy: "ΔU = q + w",
+          matchEn: "The first law of thermodynamics",
+          matchMy: "First Law of Thermodynamics",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w9-dm-5",
+          termEn: "W = pΔV",
+          termMy: "W = pΔV",
+          matchEn: "Work done by a gas expanding at constant pressure",
+          matchMy: "Constant Pressure တွင် ချဲ့ထွင်သော Gas ၏ Work Done",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Energy In or Energy Out?",
+      titleMy: "စီစစ်ကြမည် - Energy In လား၊ Energy Out လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Positive (Energy IN)", "Negative (Energy OUT)"],
+        bucketsMy: ["Positive (Energy IN)", "Negative (Energy OUT)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w9-sort-1",
+            labelEn: "Heat supplied to the gas",
+            labelMy: "Gas သို့ ပေးသော Heat",
+            correctBucketEn: "Positive (Energy IN)",
+            correctBucketMy: "Positive (Energy IN)",
+          ),
+          SortingItem(
+            id: "y13phys-w9-sort-2",
+            labelEn: "Gas expands, doing work on the surroundings",
+            labelMy: "Gas ချဲ့ထွင်၍ Surroundings ပေါ် Work လုပ်သည်",
+            correctBucketEn: "Negative (Energy OUT)",
+            correctBucketMy: "Negative (Energy OUT)",
+          ),
+          SortingItem(
+            id: "y13phys-w9-sort-3",
+            labelEn: "Gas is compressed by the surroundings",
+            labelMy: "Gas ကို Surroundings က ချုံ့သည်",
+            correctBucketEn: "Positive (Energy IN)",
+            correctBucketMy: "Positive (Energy IN)",
+          ),
+          SortingItem(
+            id: "y13phys-w9-sort-4",
+            labelEn: "Heat lost from the gas to its surroundings",
+            labelMy: "Gas မှ Surroundings သို့ ဆုံးရှုံးသော Heat",
+            correctBucketEn: "Negative (Energy OUT)",
+            correctBucketMy: "Negative (Energy OUT)",
+          ),
+          SortingItem(
+            id: "y13phys-w9-sort-5",
+            labelEn: "Work done on the gas by an external piston",
+            labelMy: "External Piston က Gas ပေါ် လုပ်သော Work",
+            correctBucketEn: "Positive (Energy IN)",
+            correctBucketMy: "Positive (Energy IN)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Bicycle Pump Feels Warm",
+      titleMy: "စာဖတ်ခြင်း - Bicycle Pump ပူလာသော အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Bicycle Pump Feels Warm",
+        titleMy: "Bicycle Pump ပူလာသော အကြောင်းရင်း",
+        passageEn:
+            "Htet Aung noticed something while pumping up his bicycle tyre quickly before school: the metal barrel of the pump got noticeably warm, even though he wasn't touching a heat source anywhere. He asked Sayar Zaw Min why, expecting the answer to involve friction inside the pump.\n\nSayar Zaw Min agreed friction plays a small part, but pointed to the first law of thermodynamics for the main explanation. When Htet Aung pushes the piston in quickly, he does work ON the trapped air (w is positive), compressing it. Because the compression happens fast, there is very little time for the heat generated to escape through the pump's walls to the surroundings, so the process is approximately adiabatic -- meaning q ≈ 0.\n\nApplying ΔU = q + w with q ≈ 0: ΔU ≈ w. If Htet Aung does 15 J of work compressing the air with negligible heat loss, then ΔU ≈ 0 + 15 = 15 J -- nearly all of that work goes directly into raising the trapped air's internal energy, and since internal energy for a gas is linked to temperature, the air (and the pump barrel in contact with it) heats up. Sayar Zaw Min added that if Htet Aung pumped slowly instead, giving heat time to escape as it's generated, the barrel would stay noticeably cooler -- the same total compression, but a very different value of q, and therefore a smaller final ΔU inside the trapped air at any given moment.",
+        passageMy:
+            "Htet Aung သည် ကျောင်းမတက်ခင် သူ၏ စက်ဘီးလေဘွိုင်ကို လျင်မြန်စွာ လေဖြည့်နေစဉ် တစ်ခုခုကို သတိထားမိခဲ့သည် - မည်သည့် Heat Source ကိုမျှ ထိတွေ့မနေသော်လည်း Pump ၏ သတ္တု Barrel သည် သိသိသာသာ ပူလာခဲ့သည်။ Pump အတွင်းရှိ Friction ကို ဆိုင်ဆက်နိုင်သော အဖြေတစ်ခု မျှော်လင့်ကာ ဆရာဇော်မင်းကို အဘယ်ကြောင့်ဟု မေးမြန်းခဲ့သည်။\n\nFriction ကလည်း အနည်းငယ် ပါဝင်ကြောင်း ဆရာဇော်မင်းက သဘောတူခဲ့သော်လည်း အဓိက ရှင်းလင်းချက်အတွက် First Law of Thermodynamics ကို ညွှန်ပြခဲ့သည်။ Htet Aung သည် Piston ကို လျင်မြန်စွာ တွန်းသွင်းသောအခါ ချုပ်ထားသော လေအပေါ် Work လုပ်ပြီး (w သည် Positive ဖြစ်သည်) ၎င်းကို ချုံ့ပေးသည်။ ချုံ့ခြင်းသည် လျင်မြန်စွာ ဖြစ်ပေါ်သောကြောင့် ထုတ်လုပ်မိသော Heat သည် Pump ၏ နံရံများမှတဆင့် Surroundings သို့ ထွက်ခွာရန် အချိန်နည်းပါးသောကြောင့် ဤ Process သည် Adiabatic ခန့်မှန်း ဖြစ်သည် -- ဆိုလိုသည်မှာ q ≈ 0 ဖြစ်သည်။\n\nΔU = q + w တွင် q ≈ 0 ကို အသုံးချလျှင် - ΔU ≈ w ။ Htet Aung သည် Heat ဆုံးရှုံးမှု လျစ်လျူရှုနိုင်လောက်စွာဖြင့် လေကို ချုံ့ရန် Work 15 J လုပ်ပါက ΔU ≈ 0 + 15 = 15 J ဖြစ်သည် -- ထို Work အားလုံးနီးပါးသည် ချုပ်ထားသော လေ၏ Internal Energy ကို တိုးမြှင့်ရန် တိုက်ရိုက် ဝင်ရောက်ပြီး Gas တစ်ခု၏ Internal Energy သည် Temperature နှင့် ချိတ်ဆက်နေသောကြောင့် လေ (နှင့် ၎င်းနှင့် ထိတွေ့နေသော Pump Barrel) သည် ပူလာသည်။ Htet Aung အကယ်၍ နှေးကွေးစွာ လေဖြည့်ပါက ထုတ်လုပ်နေချိန်တွင် Heat ထွက်ခွာရန် အချိန်ရသောကြောင့် Barrel သည် သိသိသာသာ ပို၍ အေးနေမည် ဖြစ်ကြောင်း -- ချုံ့မှု စုစုပေါင်း တူညီသော်လည်း q တန်ဖိုး လုံးဝ ကွဲပြားပြီး ချုပ်ထားသော လေအတွင်း ခဏတိုင်းရှိ ΔU နောက်ဆုံး တန်ဖိုးလည်း သေးငယ်လာမည် ဖြစ်ကြောင်း ဆရာဇော်မင်း ထပ်ဆောင်း ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does quick compression make the process approximately adiabatic?",
+            questionMy:
+                "လျင်မြန်သော ချုံ့ခြင်းသည် Process ကို Adiabatic ခန့်မှန်း အဘယ်ကြောင့် ဖြစ်စေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "There is very little time for heat to escape",
+              "Adiabatic processes require slow compression",
+              "The pump has no metal walls at all",
+              "Air cannot be compressed quickly",
+            ],
+            optionsMy: [
+              "Heat ထွက်ခွာရန် အချိန် အလွန်နည်းပါးသောကြောင့်",
+              "Adiabatic Process များသည် နှေးကွေးသော ချုံ့ခြင်းကို လိုအပ်သောကြောင့်",
+              "Pump တွင် သတ္တု နံရံ လုံးဝ မရှိသောကြောင့်",
+              "လေကို လျင်မြန်စွာ ချုံ့၍ မရနိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, if Htet Aung does 15 J of work with negligible heat loss, what is ΔU?",
+            questionMy:
+                "Htet Aung သည် Heat ဆုံးရှုံးမှု လျစ်လျူရှုနိုင်လောက်စွာဖြင့် Work 15 J လုပ်ပါက ΔU ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 15 J", "≈ 0 J", "≈ -15 J", "≈ 30 J"],
+            optionsMy: ["≈ 15 J", "≈ 0 J", "≈ -15 J", "≈ 30 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what happens if Htet Aung pumps slowly instead?",
+            questionMy:
+                "Htet Aung အကယ်၍ နှေးကွေးစွာ လေဖြည့်ပါက အဘယ်ဖြစ်လာမည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The barrel stays noticeably cooler, since heat has time to escape",
+              "The barrel gets even hotter than before",
+              "No work is done on the gas at all",
+              "The pump stops working entirely",
+            ],
+            optionsMy: [
+              "Heat ထွက်ခွာရန် အချိန်ရသောကြောင့် Barrel သည် သိသိသာသာ ပို၍ အေးနေသည်",
+              "Barrel သည် ယခင်ထက် ပို၍ ပူလာသည်",
+              "Gas ပေါ် Work လုံးဝ မလုပ်တော့ပါ",
+              "Pump သည် အလုပ် လုံးဝ ရပ်တန့်သွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: The First Law of Thermodynamics",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - First Law of Thermodynamics",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The first law of thermodynamics is essentially a statement of...",
+          questionMy: "First Law of Thermodynamics သည် အခြေခံအားဖြင့် ...၏ ဖော်ပြချက် ဖြစ်သည်",
+          optionsEn: [
+            "Conservation of energy",
+            "Conservation of momentum",
+            "Newton's third law",
+            "Conservation of charge",
+          ],
+          optionsMy: [
+            "Conservation of Energy",
+            "Conservation of Momentum",
+            "Newton's Third Law",
+            "Conservation of Charge",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "W = pΔV calculates work done by a gas at constant...",
+          questionMy: "W = pΔV သည် Constant ...တွင် Gas လုပ်ဆောင်သော Work ကို တွက်ချက်ပေးသည်",
+          optionsEn: ["Pressure", "Temperature", "Volume", "Internal energy"],
+          optionsMy: ["Pressure", "Temperature", "Volume", "Internal Energy"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A process with no heat exchange with the surroundings (q = 0) is called...",
+          questionMy: "Surroundings နှင့် Heat Exchange လုံးဝ မရှိသော Process (q = 0) ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Adiabatic", "Isothermal", "Isobaric", "Isochoric"],
+          optionsMy: ["Adiabatic", "Isothermal", "Isobaric", "Isochoric"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Simple Harmonic Motion: Defining Equations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek10 = CourseWeekDef(
+  id: "course-y13-phys-w10",
+  weekNumber: 10,
+  titleEn: "Simple Harmonic Motion: Defining Equations",
+  titleMy: "Simple Harmonic Motion - Defining Equations",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w10-d1",
+      dayNumber: 1,
+      titleEn: "a = -ω²x and x = x₀cos(ωt)",
+      titleMy: "a = -ω²x နှင့် x = x₀cos(ωt)",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using a = -ω²x, find the acceleration of an oscillator with ω = 4 rad s⁻¹ at displacement x = 0.2 m.",
+          questionMy:
+              "a = -ω²x ကို အသုံးပြု၍ ω = 4 rad s⁻¹ ရှိသော Oscillator ၏ Displacement x = 0.2 m တွင် Acceleration ကို ရှာပါ။",
+          optionsEn: ["-3.2 m s⁻²", "-0.8 m s⁻²", "-6.4 m s⁻²", "+3.2 m s⁻²"],
+          optionsMy: ["-3.2 m s⁻²", "-0.8 m s⁻²", "-6.4 m s⁻²", "+3.2 m s⁻²"],
+          correctIndex: 0,
+          hintsEn: ["a = -ω²x = -(4²)(0.2) = -16 x 0.2 = -3.2 m s⁻²."],
+          hintsMy: ["a = -ω²x = -(4²)(0.2) = -16 x 0.2 = -3.2 m s⁻² ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using x = x₀cos(ωt), the displacement at t = 0 for an oscillator with amplitude x₀ = 0.05 m is...",
+          questionMy:
+              "x = x₀cos(ωt) ကို အသုံးပြု၍ Amplitude x₀ = 0.05 m ရှိသော Oscillator ၏ t = 0 တွင် Displacement မှာ...",
+          optionsEn: [
+            "0.05 m (the amplitude)",
+            "0 m",
+            "0.025 m",
+            "-0.05 m",
+          ],
+          optionsMy: [
+            "0.05 m (Amplitude)",
+            "0 m",
+            "0.025 m",
+            "-0.05 m",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "At t = 0, cos(ω x 0) = cos(0) = 1, so x = x₀ x 1 = x₀ = 0.05 m -- the oscillator starts at maximum displacement.",
+          ],
+          hintsMy: [
+            "t = 0 တွင် cos(ω x 0) = cos(0) = 1 ဖြစ်သောကြောင့် x = x₀ x 1 = x₀ = 0.05 m -- Oscillator သည် Maximum Displacement တွင် စတင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A pendulum completes 20 full oscillations in 25 s. Its period T and angular frequency ω are...",
+          questionMy:
+              "ချိန်တွယ်တံတစ်ခုသည် Oscillation 20 ခုကို 25 s အတွင်း ပြီးမြောက်သည်။ ၎င်း၏ Period T နှင့် Angular Frequency ω မှာ...",
+          optionsEn: [
+            "T = 1.25 s, ω ≈ 5.03 rad s⁻¹",
+            "T = 1.25 s, ω ≈ 1.25 rad s⁻¹",
+            "T = 20 s, ω ≈ 0.31 rad s⁻¹",
+            "T = 0.8 s, ω ≈ 7.85 rad s⁻¹",
+          ],
+          optionsMy: [
+            "T = 1.25 s, ω ≈ 5.03 rad s⁻¹",
+            "T = 1.25 s, ω ≈ 1.25 rad s⁻¹",
+            "T = 20 s, ω ≈ 0.31 rad s⁻¹",
+            "T = 0.8 s, ω ≈ 7.85 rad s⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "T = 25/20 = 1.25 s, then ω = 2π/T = 2π/1.25 ≈ 5.03 rad s⁻¹.",
+          ],
+          hintsMy: [
+            "T = 25/20 = 1.25 s ဖြစ်ပြီး ω = 2π/T = 2π/1.25 ≈ 5.03 rad s⁻¹ ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: SHM Symbols and Meanings",
+      titleMy: "တွဲစပ်ကြမည် - SHM သင်္ကေတများနှင့် အဓိပ္ပာယ်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w10-dm-1",
+          termEn: "a = -ω²x",
+          termMy: "a = -ω²x",
+          matchEn: "Defining equation of SHM",
+          matchMy: "SHM ၏ Defining Equation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w10-dm-2",
+          termEn: "x = x₀cos(ωt)",
+          termMy: "x = x₀cos(ωt)",
+          matchEn: "Displacement-time equation (starting at maximum displacement)",
+          matchMy: "Displacement-Time Equation (Maximum Displacement တွင် စတင်သည်)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w10-dm-3",
+          termEn: "x₀",
+          termMy: "x₀",
+          matchEn: "Amplitude -- maximum displacement from equilibrium",
+          matchMy: "Amplitude -- Equilibrium မှ Maximum Displacement",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w10-dm-4",
+          termEn: "T = 2π/ω",
+          termMy: "T = 2π/ω",
+          matchEn: "Period of oscillation",
+          matchMy: "Oscillation ၏ Period",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w10-dm-5",
+          termEn: "The minus sign in a = -ω²x",
+          termMy: "a = -ω²x ရှိ Minus Sign",
+          matchEn: "Shows acceleration always points back toward equilibrium",
+          matchMy: "Acceleration သည် Equilibrium သို့ အမြဲ ပြန်ညွှန်ပြသည်ကို ပြသသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False about SHM?",
+      titleMy: "စီစစ်ကြမည် - SHM အကြောင်း မှန်သလား မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True Statement", "False Statement"],
+        bucketsMy: ["မှန်ကန်သော ဖော်ပြချက်", "မှားယွင်းသော ဖော်ပြချက်"],
+        items: [
+          SortingItem(
+            id: "y13phys-w10-sort-1",
+            labelEn: "Acceleration is always directed toward the equilibrium position",
+            labelMy: "Acceleration သည် Equilibrium Position သို့ အမြဲ ညွှန်ပြသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w10-sort-2",
+            labelEn: "The period of SHM depends on the amplitude of oscillation",
+            labelMy: "SHM ၏ Period သည် Oscillation ၏ Amplitude ပေါ် မူတည်သည်",
+            correctBucketEn: "False Statement",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w10-sort-3",
+            labelEn: "Acceleration is proportional to displacement from equilibrium",
+            labelMy: "Acceleration သည် Equilibrium မှ Displacement နှင့် ပြောင်းလဲအချိုးကျသည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w10-sort-4",
+            labelEn: "Velocity is greatest at the equilibrium position",
+            labelMy: "Velocity သည် Equilibrium Position တွင် အကြီးဆုံး ဖြစ်သည်",
+            correctBucketEn: "True Statement",
+            correctBucketMy: "မှန်ကန်သော ဖော်ပြချက်",
+          ),
+          SortingItem(
+            id: "y13phys-w10-sort-5",
+            labelEn: "Acceleration is zero at the maximum displacement",
+            labelMy: "Acceleration သည် Maximum Displacement တွင် Zero ဖြစ်သည်",
+            correctBucketEn: "False Statement",
+            correctBucketMy: "မှားယွင်းသော ဖော်ပြချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Testing the Isochronism of SHM",
+      titleMy: "စာဖတ်ခြင်း - SHM ၏ Isochronism ကို စမ်းသပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Testing the Isochronism of SHM",
+        titleMy: "SHM ၏ Isochronism ကို စမ်းသပ်ခြင်း",
+        passageEn:
+            "Su Su set up a mass-spring oscillator in the lab with angular frequency ω = 6.28 rad s⁻¹, which she calculated using T = 2π/ω would give a predicted period of T = 2π/6.28 ≈ 1.0 s. Sayama Moe Moe Aye asked her to test something students often doubt: does the period really stay the same no matter how far the mass is pulled before release?\n\nSu Su pulled the mass to a small amplitude, x₀ = 0.03 m, released it, and timed ten full oscillations with a stopwatch, dividing by ten to reduce her reaction-time error -- she measured a period very close to her predicted 1.0 s. She then pulled the same mass to a much larger amplitude, x₀ = 0.06 m -- double the first trial -- released it, and timed ten oscillations again.\n\nThe result surprised some of her classmates but not Su Su: the period came out at almost exactly 1.0 s again, essentially unchanged despite doubling the amplitude. This confirmed the defining feature of true SHM that Sayama Moe Moe Aye had taught: the period depends only on ω (which in turn depends on the physical properties of the spring and mass, not on how far it swings), never on the amplitude -- a property called isochronism, which is precisely why pendulum clocks can be built to keep reliable time even as their swing gradually shrinks from air resistance.",
+        passageMy:
+            "Su Su သည် Lab တွင် Angular Frequency ω = 6.28 rad s⁻¹ ရှိသော Mass-Spring Oscillator တစ်ခု တပ်ဆင်ခဲ့ပြီး T = 2π/ω ကို အသုံးပြု၍ ခန့်မှန်း Period T = 2π/6.28 ≈ 1.0 s ဟု တွက်ချက်ခဲ့သည်။ ကျောင်းသားများ မကြာခဏ သံသယရှိတတ်သော အရာတစ်ခုကို စမ်းသပ်ရန် ဆရာမ မိုမိုအေးက တောင်းဆိုခဲ့သည် - Mass ကို Release မလုပ်မီ မည်မျှ ဝေးဝေး ဆွဲထုတ်ထားသည်ဆိုသည်နှင့် မသက်ဆိုင်ဘဲ Period သည် တကယ် တူညီနေဆဲလား။\n\nSu Su သည် Mass ကို Amplitude သေးငယ်စွာ x₀ = 0.03 m ဆွဲထုတ်ကာ Release လုပ်ပြီး Oscillation ဆယ်ခုကို Stopwatch ဖြင့် တိုင်းတာကာ Reaction-Time Error လျော့ချရန် ဆယ်ဖြင့် စားခဲ့သည် -- သူမ၏ ခန့်မှန်းချက် 1.0 s နှင့် အလွန်နီးကပ်သော Period ရရှိခဲ့သည်။ ထို့နောက် Mass တူညီကို ပို၍ ကြီးမားသော Amplitude x₀ = 0.06 m -- ပထမ Trial ၏ နှစ်ဆ -- သို့ ဆွဲထုတ်ကာ Release လုပ်ပြီး Oscillation ဆယ်ခုကို ထပ်တိုင်းတာခဲ့သည်။\n\nရလဒ်သည် သူမ၏ အတန်းသားအချို့ကို အံ့သြစေသော်လည်း Su Su ကို မဟုတ်ပါ - Amplitude နှစ်ဆတိုးသော်လည်း Period သည် 1.0 s အလွန်နီးစပ်စွာ ထပ်ရရှိခဲ့ပြီး အခြေခံအားဖြင့် မပြောင်းလဲခဲ့ပါ။ ၎င်းသည် ဆရာမ မိုမိုအေး သင်ကြားပေးခဲ့သော အစစ်အမှန် SHM ၏ Defining Feature ကို အတည်ပြုပေးခဲ့သည် - Period သည် ω (၎င်းက Spring နှင့် Mass ၏ ရုပ်ပိုင်းဆိုင်ရာ ဂုဏ်သတ္တိများ ပေါ်တွင်သာ မူတည်ပြီး မည်မျှ လှုပ်ခတ်သည်ပေါ် မမူတည်ပါ) ပေါ်တွင်သာ မူတည်ပြီး Amplitude ပေါ် လုံးဝ မမူတည်ပါ -- ၎င်းကို Isochronism ဟု ခေါ်ပြီး ၎င်းသည် Air Resistance ကြောင့် ချိန်တွယ်တံ၏ လှုပ်ခတ်မှု တဖြည်းဖြည်း သေးငယ်လာသော်လည်း ချိန်တွယ်တံနာရီများကို ယုံကြည်စိတ်ချရသော အချိန်ကို ထိန်းသိမ်းနိုင်စွာ တည်ဆောက်နိုင်သည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was Su Su's predicted period from T = 2π/ω?",
+            questionMy: "T = 2π/ω မှ Su Su ၏ ခန့်မှန်း Period ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 1.0 s", "≈ 6.28 s", "≈ 0.03 s", "≈ 2.0 s"],
+            optionsMy: ["≈ 1.0 s", "≈ 6.28 s", "≈ 0.03 s", "≈ 2.0 s"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did Su Su time ten oscillations and divide by ten?",
+            questionMy:
+                "Su Su သည် Oscillation ဆယ်ခုကို တိုင်းတာပြီး ဆယ်ဖြင့် အဘယ်ကြောင့် စားခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To reduce her reaction-time error",
+              "Because a single oscillation is impossible to time",
+              "Because Sayama Moe Moe Aye required exactly ten",
+              "To make the amplitude larger",
+            ],
+            optionsMy: [
+              "သူမ၏ Reaction-Time Error ကို လျော့ချရန်",
+              "Oscillation တစ်ခုတည်းကို တိုင်းတာ၍ လုံးဝ မရနိုင်သောကြောင့်",
+              "ဆရာမ မိုမိုအေးက ဆယ်ခု အတိအကျ လိုအပ်ခဲ့သောကြောင့်",
+              "Amplitude ကို ပို၍ ကြီးမားစေရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what property of SHM does the experiment confirm?",
+            questionMy:
+                "ဤစမ်းသပ်မှုက SHM ၏ မည်သည့် ဂုဏ်သတ္တိကို အတည်ပြုသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Isochronism -- the period is independent of amplitude",
+              "The period depends heavily on amplitude",
+              "SHM has no defined period at all",
+              "Larger amplitude always means a longer period",
+            ],
+            optionsMy: [
+              "Isochronism -- Period သည် Amplitude ပေါ် မမူတည်ပါ",
+              "Period သည် Amplitude ပေါ် များစွာ မူတည်သည်",
+              "SHM တွင် Defined Period လုံးဝ မရှိပါ",
+              "Amplitude ကြီးလေလေ Period ရှည်လေလေ ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: SHM Defining Equations",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - SHM Defining Equations",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In SHM, the acceleration is always directed...",
+          questionMy: "SHM တွင် Acceleration သည် အမြဲ...",
+          optionsEn: [
+            "Toward the equilibrium position, opposite to displacement",
+            "Away from the equilibrium position",
+            "In the same direction as velocity always",
+            "Perpendicular to the displacement",
+          ],
+          optionsMy: [
+            "Displacement နှင့် ဆန့်ကျင်ဘက် Equilibrium Position သို့",
+            "Equilibrium Position မှ အပြင်သို့",
+            "Velocity ဦးတည်ချက်အတိုင်း အမြဲ",
+            "Displacement နှင့် Perpendicular",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The period of true SHM is independent of...",
+          questionMy: "အစစ်အမှန် SHM ၏ Period သည် ...ပေါ် မမူတည်ပါ",
+          optionsEn: ["The amplitude", "ω", "The mass and spring constant", "Time itself"],
+          optionsMy: ["Amplitude", "ω", "Mass နှင့် Spring Constant", "Time ကိုယ်တိုင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "x = x₀cos(ωt) assumes the oscillator starts at...",
+          questionMy: "x = x₀cos(ωt) သည် Oscillator ...တွင် စတင်သည်ဟု ယူဆသည်",
+          optionsEn: [
+            "Its maximum displacement, at t = 0",
+            "The equilibrium position, at t = 0",
+            "Zero velocity forever",
+            "Negative infinity",
+          ],
+          optionsMy: [
+            "t = 0 တွင် ၎င်း၏ Maximum Displacement",
+            "t = 0 တွင် Equilibrium Position",
+            "Zero Velocity အမြဲ",
+            "Negative Infinity",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "Energy in Simple Harmonic Motion"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek11 = CourseWeekDef(
+  id: "course-y13-phys-w11",
+  weekNumber: 11,
+  titleEn: "Energy in Simple Harmonic Motion",
+  titleMy: "Simple Harmonic Motion ရှိ Energy",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w11-d1",
+      dayNumber: 1,
+      titleEn: "Total Energy and Kinetic Energy in SHM",
+      titleMy: "SHM ရှိ Total Energy နှင့် Kinetic Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using E = ½mω²x₀², find the total energy of an oscillator with m = 0.5 kg, ω = 4 rad s⁻¹, x₀ = 0.1 m.",
+          questionMy:
+              "E = ½mω²x₀² ကို အသုံးပြု၍ m = 0.5 kg, ω = 4 rad s⁻¹, x₀ = 0.1 m ရှိသော Oscillator ၏ Total Energy ကို ရှာပါ။",
+          optionsEn: ["0.04 J", "0.4 J", "4 J", "0.004 J"],
+          optionsMy: ["0.04 J", "0.4 J", "4 J", "0.004 J"],
+          correctIndex: 0,
+          hintsEn: [
+            "E = ½mω²x₀² = 0.5 x 0.5 x 4² x 0.1² = 0.5 x 0.5 x 16 x 0.01 = 0.04 J.",
+          ],
+          hintsMy: [
+            "E = ½mω²x₀² = 0.5 x 0.5 x 4² x 0.1² = 0.5 x 0.5 x 16 x 0.01 = 0.04 J ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "At maximum displacement (x = x₀), the KE and PE are...",
+          questionMy: "Maximum Displacement (x = x₀) တွင် KE နှင့် PE မှာ...",
+          optionsEn: [
+            "KE = 0, PE = maximum (all energy is potential)",
+            "KE = maximum, PE = 0",
+            "Both are zero",
+            "Both are maximum",
+          ],
+          optionsMy: [
+            "KE = 0, PE = Maximum (Energy အားလုံး Potential ဖြစ်သည်)",
+            "KE = Maximum, PE = 0",
+            "နှစ်ခုစလုံး Zero",
+            "နှစ်ခုစလုံး Maximum",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "At maximum displacement, velocity is momentarily zero, so KE = 0 -- meaning all the oscillator's energy is stored as potential energy at that instant.",
+          ],
+          hintsMy: [
+            "Maximum Displacement တွင် Velocity သည် ခဏတာ Zero ဖြစ်သောကြောင့် KE = 0 -- ဆိုလိုသည်မှာ ထို ခဏတွင် Oscillator ၏ Energy အားလုံး Potential Energy အဖြစ် သိုလှောင်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using KE = ½mω²(x₀²-x²), find the KE of the same oscillator (m = 0.5 kg, ω = 4 rad s⁻¹, x₀ = 0.1 m) at x = 0.05 m.",
+          questionMy:
+              "KE = ½mω²(x₀²-x²) ကို အသုံးပြု၍ Oscillator တူညီ (m = 0.5 kg, ω = 4 rad s⁻¹, x₀ = 0.1 m) ၏ x = 0.05 m တွင် KE ကို ရှာပါ။",
+          optionsEn: ["0.03 J", "0.04 J", "0.01 J", "0.05 J"],
+          optionsMy: ["0.03 J", "0.04 J", "0.01 J", "0.05 J"],
+          correctIndex: 0,
+          hintsEn: [
+            "KE = ½mω²(x₀²-x²) = 0.5 x 0.5 x 16 x (0.1²-0.05²) = 0.5 x 0.5 x 16 x 0.0075 = 0.03 J.",
+          ],
+          hintsMy: [
+            "KE = ½mω²(x₀²-x²) = 0.5 x 0.5 x 16 x (0.1²-0.05²) = 0.5 x 0.5 x 16 x 0.0075 = 0.03 J ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Energy in SHM",
+      titleMy: "တွဲစပ်ကြမည် - SHM ရှိ Energy",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w11-dm-1",
+          termEn: "E = ½mω²x₀²",
+          termMy: "E = ½mω²x₀²",
+          matchEn: "Total energy of an SHM oscillator (constant throughout the cycle)",
+          matchMy: "SHM Oscillator ၏ Total Energy (Cycle တစ်လျှောက်လုံး Constant)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w11-dm-2",
+          termEn: "KE = ½mω²(x₀² - x²)",
+          termMy: "KE = ½mω²(x₀² - x²)",
+          matchEn: "Kinetic energy at displacement x",
+          matchMy: "Displacement x တွင် Kinetic Energy",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w11-dm-3",
+          termEn: "PE = ½mω²x²",
+          termMy: "PE = ½mω²x²",
+          matchEn: "Potential energy at displacement x",
+          matchMy: "Displacement x တွင် Potential Energy",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w11-dm-4",
+          termEn: "At x = 0 (equilibrium)",
+          termMy: "x = 0 (Equilibrium) တွင်",
+          matchEn: "KE is maximum, PE is zero",
+          matchMy: "KE Maximum, PE Zero",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w11-dm-5",
+          termEn: "At x = x₀ (extremes)",
+          termMy: "x = x₀ (Extremes) တွင်",
+          matchEn: "KE is zero, PE is maximum",
+          matchMy: "KE Zero, PE Maximum",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: KE Maximum or PE Maximum?",
+      titleMy: "စီစစ်ကြမည် - KE Maximum လား၊ PE Maximum လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Kinetic Energy Maximum", "Potential Energy Maximum"],
+        bucketsMy: ["Kinetic Energy Maximum", "Potential Energy Maximum"],
+        items: [
+          SortingItem(
+            id: "y13phys-w11-sort-1",
+            labelEn: "Object passing through the equilibrium position",
+            labelMy: "Equilibrium Position ကို ဖြတ်သန်းနေသော ပစ္စည်း",
+            correctBucketEn: "Kinetic Energy Maximum",
+            correctBucketMy: "Kinetic Energy Maximum",
+          ),
+          SortingItem(
+            id: "y13phys-w11-sort-2",
+            labelEn: "Object momentarily at rest at the extreme of its swing",
+            labelMy: "လှုပ်ခတ်မှု အစွန်းတွင် ခဏတာ ရပ်တန့်နေသော ပစ္စည်း",
+            correctBucketEn: "Potential Energy Maximum",
+            correctBucketMy: "Potential Energy Maximum",
+          ),
+          SortingItem(
+            id: "y13phys-w11-sort-3",
+            labelEn: "Displacement x = 0",
+            labelMy: "Displacement x = 0",
+            correctBucketEn: "Kinetic Energy Maximum",
+            correctBucketMy: "Kinetic Energy Maximum",
+          ),
+          SortingItem(
+            id: "y13phys-w11-sort-4",
+            labelEn: "Displacement x = x₀ (amplitude)",
+            labelMy: "Displacement x = x₀ (Amplitude)",
+            correctBucketEn: "Potential Energy Maximum",
+            correctBucketMy: "Potential Energy Maximum",
+          ),
+          SortingItem(
+            id: "y13phys-w11-sort-5",
+            labelEn: "Speed is at its greatest value",
+            labelMy: "Speed သည် ၎င်း၏ အကြီးဆုံး တန်ဖိုးတွင် ရှိသည်",
+            correctBucketEn: "Kinetic Energy Maximum",
+            correctBucketMy: "Kinetic Energy Maximum",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Graphing Energy in a Swinging Pendulum",
+      titleMy: "စာဖတ်ခြင်း - ချိန်တွယ်တံ Energy ကို Graph ဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Graphing Energy in a Swinging Pendulum",
+        titleMy: "ချိန်တွယ်တံ Energy ကို Graph ဆွဲခြင်း",
+        passageEn:
+            "Htet Aung set up a small pendulum bob of mass m = 0.2 kg oscillating with angular frequency ω = 3 rad s⁻¹ and amplitude x₀ = 0.15 m, then calculated its total energy using E = ½mω²x₀² = 0.5 x 0.2 x 9 x 0.0225 ≈ 0.0203 J. He then plotted KE and PE against displacement across a full swing, using the same set of formulas from this week's lesson.\n\nBoth graphs came out as parabolas, but shaped in opposite directions -- PE = ½mω²x² is smallest (zero) at the centre and rises toward the edges, while KE = ½mω²(x₀²-x²) is largest at the centre and falls to zero at the edges. At every single displacement he plotted, adding the two values together gave exactly the same total, 0.0203 J -- visually confirming energy conservation throughout the swing, since KE + PE = E stays fixed even as the split between them constantly changes.\n\nSayar Zaw Min pointed out that this constant-total behaviour only holds for an idealised, undamped pendulum with no friction or air resistance removing energy from the system. In reality, every real pendulum's amplitude -- and therefore its total energy E, since E depends on x₀² -- shrinks gradually over time as tiny amounts of energy leak away each swing, a process called damping that the class would study in detail the following week.",
+        passageMy:
+            "Htet Aung သည် Mass m = 0.2 kg ရှိသော ချိန်တွယ်တံ Bob သေးသေးလေးကို Angular Frequency ω = 3 rad s⁻¹ နှင့် Amplitude x₀ = 0.15 m ဖြင့် လှုပ်ခတ်စေပြီး E = ½mω²x₀² = 0.5 x 0.2 x 9 x 0.0225 ≈ 0.0203 J ကို အသုံးပြု၍ ၎င်း၏ Total Energy ကို တွက်ချက်ခဲ့သည်။ ထို့နောက် ဤအပတ်၏ သင်ခန်းစာမှ Formula စုံတူကို အသုံးပြု၍ Swing တစ်ခုလုံးတလျှောက် KE နှင့် PE ကို Displacement ပေါ် မူတည်၍ Plot ခဲ့သည်။\n\nGraph နှစ်ခုစလုံးသည် Parabola ဖြစ်ခဲ့သော်လည်း ဆန့်ကျင်ဘက် ပုံသဏ္ဌာန်ဖြင့် ဖြစ်ခဲ့သည် -- PE = ½mω²x² သည် အလယ်တွင် အသေးဆုံး (Zero) ဖြစ်ပြီး အနားများသို့ တိုးလာသည်၊ KE = ½mω²(x₀²-x²) သည် အလယ်တွင် အကြီးဆုံး ဖြစ်ပြီး အနားများတွင် Zero သို့ ကျဆင်းသည်။ သူ Plot ခဲ့သော Displacement တိုင်းတွင် တန်ဖိုးနှစ်ခု ပေါင်းလိုက်ပါက 0.0203 J အတိအကျ တူညီသော စုစုပေါင်း ရရှိခဲ့ပြီး -- Swing တစ်လျှောက်လုံး Energy Conservation ကို မျက်မြင် အတည်ပြုပေးခဲ့သည်၊ အကြောင်းမှာ KE + PE = E သည် ၎င်းတို့ကြား ခွဲဝေမှု အမြဲ ပြောင်းလဲနေသော်လည်း ပုံသေ ဆက်ရှိနေသောကြောင့် ဖြစ်သည်။\n\nဤ Constant-Total အပြုအမူသည် Friction (သို့) Air Resistance က System မှ Energy ကို ဖယ်ရှားခြင်း လုံးဝ မရှိသော Idealised, Undamped ချိန်တွယ်တံအတွက်သာ သက်ဆိုင်ကြောင်း ဆရာဇော်မင်းက ထောက်ပြခဲ့သည်။ လက်တွေ့တွင် တကယ့် ချိန်တွယ်တံတိုင်း၏ Amplitude -- ထို့ကြောင့် E သည် x₀² ပေါ် မူတည်သောကြောင့် ၎င်း၏ Total Energy E ပါ -- Swing တစ်ခုစီတွင် အနည်းငယ်စီ Energy ယိုစိမ့်ထွက်ကာ အချိန်ကြာလာသည်နှင့်အမျှ တဖြည်းဖြည်း သေးငယ်လာသည်၊ ဤ Process ကို Damping ဟု ခေါ်ပြီး အတန်းသည် နောက်အပတ်တွင် အသေးစိတ် လေ့လာမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the total energy of Htet Aung's pendulum?",
+            questionMy: "Htet Aung ၏ ချိန်တွယ်တံ Total Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 0.0203 J", "≈ 0.2 J", "≈ 3 J", "≈ 0.15 J"],
+            optionsMy: ["≈ 0.0203 J", "≈ 0.2 J", "≈ 3 J", "≈ 0.15 J"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did adding KE and PE together at every displacement confirm?",
+            questionMy:
+                "Displacement တိုင်းတွင် KE နှင့် PE ပေါင်းလိုက်ခြင်းက အဘယ်အရာကို အတည်ပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Energy conservation, since the total stays fixed",
+              "That KE and PE are always exactly equal",
+              "That the pendulum has no energy at all",
+              "That energy grows over time",
+            ],
+            optionsMy: [
+              "Total သည် ပုံသေ ဆက်ရှိနေသောကြောင့် Energy Conservation",
+              "KE နှင့် PE သည် အမြဲ အတိအကျ ညီမျှသည်",
+              "ချိန်တွယ်တံတွင် Energy လုံးဝ မရှိပါ",
+              "Energy သည် အချိန်ကြာလာသည်နှင့်အမျှ ကြီးထွားလာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what process gradually shrinks a real pendulum's amplitude over time?",
+            questionMy:
+                "တကယ့် ချိန်တွယ်တံ၏ Amplitude ကို အချိန်ကြာလာသည်နှင့်အမျှ တဖြည်းဖြည်း သေးငယ်စေသော Process ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Damping", "Resonance", "Diffraction", "Refraction"],
+            optionsMy: ["Damping", "Resonance", "Diffraction", "Refraction"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Energy in SHM",
+      titleMy: "ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - SHM ရှိ Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The total energy of an SHM oscillator is proportional to the square of its...",
+          questionMy: "SHM Oscillator ၏ Total Energy သည် ၎င်း၏ ...Square နှင့် ပြောင်းလဲအချိုးကျသည်",
+          optionsEn: ["Amplitude", "Mass alone", "Time alone", "Colour"],
+          optionsMy: ["Amplitude", "Mass သာ", "Time သာ", "အရောင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Kinetic energy is maximum when displacement equals...",
+          questionMy: "Displacement သည် ...ညီမျှသောအခါ Kinetic Energy သည် Maximum ဖြစ်သည်",
+          optionsEn: ["Zero, at equilibrium", "The amplitude x₀", "Half the amplitude", "Infinity"],
+          optionsMy: ["Zero, Equilibrium တွင်", "Amplitude x₀", "Amplitude ၏ တစ်ဝက်", "Infinity"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Potential energy is maximum when displacement equals...",
+          questionMy: "Displacement သည် ...ညီမျှသောအခါ Potential Energy သည် Maximum ဖြစ်သည်",
+          optionsEn: ["The amplitude, x₀", "Zero", "Half the amplitude", "Negative infinity"],
+          optionsMy: ["Amplitude, x₀", "Zero", "Amplitude ၏ တစ်ဝက်", "Negative Infinity"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12: "Damping and Resonance" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek12 = CourseWeekDef(
+  id: "course-y13-phys-w12",
+  weekNumber: 12,
+  titleEn: "Damping and Resonance",
+  titleMy: "Damping နှင့် Resonance",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w12-d1",
+      dayNumber: 1,
+      titleEn: "Damping, Natural Frequency and Resonance",
+      titleMy: "Damping, Natural Frequency နှင့် Resonance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A pendulum's amplitude gradually decreases each swing due to air resistance removing energy. This is called...",
+          questionMy:
+              "Air Resistance က Energy ဖယ်ရှားသောကြောင့် ချိန်တွယ်တံ၏ Amplitude သည် Swing တစ်ခုစီတွင် တဖြည်းဖြည်း လျော့ကျသည်။ ၎င်းကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Damping", "Resonance", "Interference", "Diffraction"],
+          optionsMy: ["Damping", "Resonance", "Interference", "Diffraction"],
+          correctIndex: 0,
+          hintsEn: [
+            "Damping is the loss of energy from an oscillating system, usually to friction or resistive forces, causing amplitude to decrease over time.",
+          ],
+          hintsMy: [
+            "Damping သည် Oscillating System မှ Energy ဆုံးရှုံးခြင်း ဖြစ်ပြီး များသောအားဖြင့် Friction (သို့) Resistive Force များကြောင့် Amplitude ကို အချိန်ကြာလာသည်နှင့်အမျှ လျော့ကျစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The minimum damping needed to return a system to equilibrium the fastest without any oscillation is called...",
+          questionMy:
+              "Oscillation လုံးဝ မရှိဘဲ System ကို အမြန်ဆုံး Equilibrium သို့ ပြန်ရောက်စေရန် လိုအပ်သော အနည်းဆုံး Damping ကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Critical damping",
+            "Light damping",
+            "Heavy (over) damping",
+            "No damping",
+          ],
+          optionsMy: ["Critical Damping", "Light Damping", "Heavy (Over) Damping", "No Damping"],
+          correctIndex: 0,
+          hintsEn: [
+            "Critical damping returns the system to equilibrium in the shortest possible time without overshooting or oscillating -- the threshold between light and heavy damping.",
+          ],
+          hintsMy: [
+            "Critical Damping သည် Overshoot (သို့) Oscillate မလုပ်ဘဲ System ကို ဖြစ်နိုင်ဆုံး တိုတောင်းသော အချိန်ဖြင့် Equilibrium သို့ ပြန်ရောက်စေသည် -- Light နှင့် Heavy Damping ကြားရှိ Threshold ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Resonance occurs when the frequency of a periodic driving force matches a system's...",
+          questionMy:
+              "Periodic Driving Force ၏ Frequency သည် System တစ်ခု၏ ...နှင့် ကိုက်ညီသောအခါ Resonance ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Natural (free-oscillation) frequency",
+            "Damping coefficient",
+            "Amplitude",
+            "Mass",
+          ],
+          optionsMy: [
+            "Natural (Free-Oscillation) Frequency",
+            "Damping Coefficient",
+            "Amplitude",
+            "Mass",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "At resonance, the driving frequency equals the system's own natural frequency, causing the amplitude of oscillation to become very large.",
+          ],
+          hintsMy: [
+            "Resonance တွင် Driving Frequency သည် System ကိုယ်ပိုင် Natural Frequency နှင့် ညီမျှပြီး Oscillation ၏ Amplitude ကို အလွန်ကြီးမားစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Damping and Resonance Terms",
+      titleMy: "တွဲစပ်ကြမည် - Damping နှင့် Resonance ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w12-dm-1",
+          termEn: "Light damping",
+          termMy: "Light Damping",
+          matchEn: "Amplitude decreases gradually, many oscillations before stopping",
+          matchMy: "Amplitude တဖြည်းဖြည်း လျော့ကျပြီး မရပ်တန့်မီ Oscillation များစွာ ရှိသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w12-dm-2",
+          termEn: "Critical damping",
+          termMy: "Critical Damping",
+          matchEn: "Returns to equilibrium fastest, without oscillating",
+          matchMy: "Oscillate မလုပ်ဘဲ အမြန်ဆုံး Equilibrium သို့ ပြန်ရောက်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w12-dm-3",
+          termEn: "Heavy (over) damping",
+          termMy: "Heavy (Over) Damping",
+          matchEn: "Returns to equilibrium slowly, without oscillating",
+          matchMy: "Oscillate မလုပ်ဘဲ နှေးကွေးစွာ Equilibrium သို့ ပြန်ရောက်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w12-dm-4",
+          termEn: "Natural frequency",
+          termMy: "Natural Frequency",
+          matchEn: "The frequency a system oscillates at when freely displaced and released",
+          matchMy: "System ကို လွတ်လပ်စွာ ရွှေ့ပြီး Release လုပ်သောအခါ Oscillate ဖြစ်သော Frequency",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w12-dm-5",
+          termEn: "Resonance",
+          termMy: "Resonance",
+          matchEn: "Large amplitude response when driving frequency matches natural frequency",
+          matchMy: "Driving Frequency သည် Natural Frequency နှင့် ကိုက်ညီသောအခါ Amplitude ကြီးမားစွာ တုံ့ပြန်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Damping or Resonance?",
+      titleMy: "စီစစ်ကြမည် - Damping လား၊ Resonance လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Damping", "Resonance"],
+        bucketsMy: ["Damping", "Resonance"],
+        items: [
+          SortingItem(
+            id: "y13phys-w12-sort-1",
+            labelEn: "Energy is removed from an oscillating system by friction or resistance",
+            labelMy: "Friction (သို့) Resistance က Oscillating System မှ Energy ဖယ်ရှားသည်",
+            correctBucketEn: "Damping",
+            correctBucketMy: "Damping",
+          ),
+          SortingItem(
+            id: "y13phys-w12-sort-2",
+            labelEn: "A system's amplitude grows very large when driven at its natural frequency",
+            labelMy: "System ကို ၎င်း၏ Natural Frequency ဖြင့် Drive လုပ်သောအခါ Amplitude အလွန်ကြီးမားလာသည်",
+            correctBucketEn: "Resonance",
+            correctBucketMy: "Resonance",
+          ),
+          SortingItem(
+            id: "y13phys-w12-sort-3",
+            labelEn: "A car's suspension system is designed to be critically damped",
+            labelMy: "ကား၏ Suspension System ကို Critically Damped ဖြစ်စေရန် Design ထားသည်",
+            correctBucketEn: "Damping",
+            correctBucketMy: "Damping",
+          ),
+          SortingItem(
+            id: "y13phys-w12-sort-4",
+            labelEn:
+                "The Tacoma Narrows Bridge collapsed when wind matched a natural mode of vibration",
+            labelMy: "လေက Natural Mode of Vibration တစ်ခုနှင့် ကိုက်ညီသောအခါ Tacoma Narrows Bridge ပြိုကျခဲ့သည်",
+            correctBucketEn: "Resonance",
+            correctBucketMy: "Resonance",
+          ),
+          SortingItem(
+            id: "y13phys-w12-sort-5",
+            labelEn: "Shock absorbers reduce a car's oscillations after hitting a bump",
+            labelMy: "Shock Absorber များက ကားလှမ်းကျပြီးနောက် Oscillation များကို လျော့ချသည်",
+            correctBucketEn: "Damping",
+            correctBucketMy: "Damping",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Soldiers Break Step on a Bridge",
+      titleMy: "စာဖတ်ခြင်း - တပ်သားများ တံတားပေါ်တွင် Step ချိုးရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Soldiers Break Step on a Bridge",
+        titleMy: "တပ်သားများ တံတားပေါ်တွင် Step ချိုးရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Zaw Min showed his class archive footage of the Tacoma Narrows Bridge twisting itself apart in 1940, as wind flowing past its deck happened to match one of the bridge's own natural modes of vibration, pumping in energy faster than the structure's light damping could remove it, until the oscillations grew large enough to tear the bridge apart.\n\nHtet Aung then asked about something he had read: why do marching soldiers break step -- stop marching in time with each other -- when crossing a bridge? Su Su answered before Sayar Zaw Min could: soldiers marching in step apply a rhythmic, periodic driving force to the bridge at their marching frequency. If that frequency happened to match the bridge's natural frequency, resonance could build the bridge's oscillations to dangerously large amplitudes, just as the wind did at Tacoma Narrows -- so breaking step removes the shared, periodic driving frequency and prevents resonance from ever getting started.\n\nSayar Zaw Min added a modern counterpart: engineers now deliberately build tuned mass dampers into very tall buildings, such as Taipei 101, giant pendulum-like masses that oscillate out of step with the building's own sway, actively removing energy from wind- or earthquake-driven oscillations rather than letting them build toward resonance. Whether the fix is soldiers changing their footsteps or an engineered mass swinging inside a skyscraper, the underlying physics idea is the same: never let a periodic driving force keep pumping energy into a system at its natural frequency unopposed.",
+        passageMy:
+            "Tacoma Narrows Bridge ၏ Deck ကို ဖြတ်သန်းသော လေသည် တံတား၏ Natural Mode of Vibration တစ်ခုနှင့် အမှန်တကယ် ကိုက်ညီသွားပြီး Structure ၏ Light Damping ဖယ်ရှားနိုင်သည်ထက် ပို၍ မြန်ဆန်စွာ Energy ကို ပို့ဝင်ပေးကာ Oscillation များ တံတားကို ဆွဲဖြတ်စေလောက်အောင် ကြီးမားလာသည်အထိ 1940 ခုနှစ်တွင် ကိုယ်တိုင် ချိတ်စွန်း ကွဲကျသွားသော Archive Footage ကို ဆရာဇော်မင်းသည် သူ၏ အတန်းအား ပြသခဲ့သည်။\n\nHtet Aung သည် သူဖတ်ခဲ့ဖူးသော အရာတစ်ခုအကြောင်း ထို့နောက် မေးမြန်းခဲ့သည် - လက်ရုံးလှမ်းတပ်သားများသည် တံတားကို ဖြတ်ကျော်ချိန်တွင် Step ချိုးကြသည် -- တစ်ဦးနှင့်တစ်ဦး အချိန်ကိုက် လက်ရုံးလှမ်းခြင်း ရပ်တန့်ကြသည် -- အဘယ်ကြောင့်နည်း။ ဆရာဇော်မင်း အဖြေမပေးမီ Su Su က ဖြေကြားခဲ့သည် - Step ကိုက်စွာ လက်ရုံးလှမ်းနေသော တပ်သားများသည် သူတို့၏ လက်ရုံးလှမ်း Frequency ဖြင့် တံတားပေါ် Rhythmic, Periodic Driving Force တစ်ခု ဖြစ်ပေါ်စေသည်။ ထို Frequency သည် တံတား၏ Natural Frequency နှင့် ကိုက်ညီသွားပါက Resonance သည် Tacoma Narrows တွင် လေက ပြုလုပ်ခဲ့သည့်အတိုင်း တံတား၏ Oscillation များကို အန္တရာယ်ရှိလောက်အောင် ကြီးမားသော Amplitude အထိ တည်ဆောက်နိုင်သည် -- ထို့ကြောင့် Step ချိုးခြင်းသည် ဝေမျှသော Periodic Driving Frequency ကို ဖယ်ရှားပြီး Resonance စတင်ဖြစ်ပေါ်ခြင်းကို လုံးဝ ကာကွယ်ပေးသည်။\n\nခေတ်သစ် တွဲဖက်ဥပမာတစ်ခုကို ဆရာဇော်မင်း ထပ်ဆောင်း ပေးခဲ့သည် - Engineer များသည် ယခုအခါ Taipei 101 ကဲ့သို့ အလွန်မြင့်မားသော အဆောက်အအုံများတွင် Tuned Mass Damper များကို တမင်တကာ တည်ဆောက်ကြသည်၊ ၎င်းသည် အဆောက်အအုံ ကိုယ်တိုင်၏ Sway နှင့် Step မကိုက်ဘဲ Oscillate ဖြစ်နေသော ဧရာမ ချိန်တွယ်တံပုံစံ Mass များ ဖြစ်ပြီး လေ (သို့) ငလျင် Driven Oscillation များကို Resonance ဆီသို့ တည်ဆောက်ခွင့် ပေးမည့်အစား ၎င်းတို့ထံမှ Energy ကို တက်ကြွစွာ ဖယ်ရှားပေးသည်။ ဖြေရှင်းချက်သည် တပ်သားများ ခြေလှမ်း ပြောင်းလဲခြင်း ဖြစ်စေ၊ တောင်ကုတ်တိုက်ကြီးတစ်ခုအတွင်း လှုပ်ခတ်နေသော Engineered Mass ဖြစ်စေ ရူပဗေဒ အခြေခံ Idea မှာ တစ်ထပ်တည်း ဖြစ်သည် - Periodic Driving Force တစ်ခုကို System တစ်ခု၏ Natural Frequency ဖြင့် ဆန့်ကျင်မှု လုံးဝ မရှိဘဲ Energy ဆက်တိုက် ပို့ဝင်ခွင့် မပေးရ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did the Tacoma Narrows Bridge collapse?",
+            questionMy: "Tacoma Narrows Bridge အဘယ်ကြောင့် ပြိုကျခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Wind matched a natural mode of vibration, causing resonance",
+              "It was struck by lightning",
+              "It had too much damping",
+              "It was never designed to carry any traffic",
+            ],
+            optionsMy: [
+              "လေက Natural Mode of Vibration တစ်ခုနှင့် ကိုက်ညီသွားပြီး Resonance ဖြစ်ပေါ်စေသောကြောင့်",
+              "လျှပ်စီးလက်ခတ်ခံရသောကြောင့်",
+              "Damping များလွန်းသောကြောင့်",
+              "မည်သည့် သွားလာမှုကိုမျှ သယ်ဆောင်ရန် ဒီဇိုင်း မလုပ်ခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why do marching soldiers break step on a bridge?",
+            questionMy:
+                "လက်ရုံးလှမ်းတပ်သားများသည် တံတားပေါ်တွင် Step အဘယ်ကြောင့် ချိုးကြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To remove the shared periodic driving frequency and prevent resonance",
+              "Because marching in step is against military regulations",
+              "To make the bridge weigh less",
+              "Because soldiers always walk out of step naturally",
+            ],
+            optionsMy: [
+              "ဝေမျှသော Periodic Driving Frequency ကို ဖယ်ရှားပြီး Resonance ကို ကာကွယ်ရန်",
+              "Step ကိုက်စွာ လက်ရုံးလှမ်းခြင်းသည် စစ်ဘက်စည်းမျဉ်းနှင့် ဆန့်ကျင်သောကြောင့်",
+              "တံတား၏ အလေးချိန် လျော့စေရန်",
+              "တပ်သားများသည် သဘာဝအလျောက် Step မကိုက်ဘဲ လမ်းလျှောက်တတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what do tuned mass dampers do in tall buildings?",
+            questionMy:
+                "Tuned Mass Damper များသည် အဆောက်အအုံမြင့်များတွင် အဘယ်ကို ပြုလုပ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Actively remove energy from wind- or earthquake-driven oscillations",
+              "Add extra oscillation energy to the building",
+              "Have no effect on the building's motion at all",
+              "Increase the building's natural frequency to infinity",
+            ],
+            optionsMy: [
+              "လေ (သို့) ငလျင် Driven Oscillation များမှ Energy ကို တက်ကြွစွာ ဖယ်ရှားသည်",
+              "အဆောက်အအုံသို့ ထပ်ဆောင်း Oscillation Energy ပေါင်းထည့်သည်",
+              "အဆောက်အအုံ၏ Motion ပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+              "အဆောက်အအုံ၏ Natural Frequency ကို Infinity အထိ တိုးမြှင့်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Damping and Resonance",
+      titleMy: "ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Damping နှင့် Resonance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Damping removes energy from an oscillating system via...",
+          questionMy: "Damping သည် Oscillating System မှ Energy ကို ...မှတဆင့် ဖယ်ရှားသည်",
+          optionsEn: [
+            "Friction or resistive forces",
+            "Adding a periodic driving force",
+            "Increasing the amplitude",
+            "Doubling the natural frequency",
+          ],
+          optionsMy: [
+            "Friction (သို့) Resistive Force များ",
+            "Periodic Driving Force ပေါင်းထည့်ခြင်း",
+            "Amplitude တိုးမြှင့်ခြင်း",
+            "Natural Frequency နှစ်ဆ တိုးမြှင့်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Resonance produces a very large amplitude when driving frequency equals the system's...",
+          questionMy: "Driving Frequency သည် System ၏ ...နှင့် ညီမျှသောအခါ Resonance က အလွန်ကြီးမားသော Amplitude ကို ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Natural frequency", "Mass", "Colour", "Damping coefficient alone"],
+          optionsMy: ["Natural Frequency", "Mass", "အရောင်", "Damping Coefficient သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which type of damping returns a system to equilibrium fastest without oscillating?",
+          questionMy: "System ကို Oscillate မလုပ်ဘဲ Equilibrium သို့ အမြန်ဆုံး ပြန်ရောက်စေသော Damping အမျိုးအစားမှာ...",
+          optionsEn: ["Critical damping", "Light damping", "Heavy (over) damping", "No damping"],
+          optionsMy: ["Critical Damping", "Light Damping", "Heavy (Over) Damping", "No Damping"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 3: "Thermodynamics and Oscillations". Covers
+/// the first law of thermodynamics (ΔU = q + w, work done by a gas), the
+/// defining equations of simple harmonic motion (a = -ω²x, x = x₀cos(ωt)),
+/// energy in SHM (kinetic/potential interchange, total energy
+/// conservation), and closes with a Damping and Resonance capstone week
+/// (light/critical/heavy damping, natural frequency, and real-world
+/// resonance case studies).
+const CourseTermDef year13PhysicsTerm3 = CourseTermDef(
+  id: "course-y13-phys-term3",
+  termNumber: 3,
+  titleEn: "Thermodynamics and Oscillations",
+  titleMy: "Thermodynamics နှင့် Oscillations",
+  weeks: [_y13PhysWeek9, _y13PhysWeek10, _y13PhysWeek11, _y13PhysWeek12],
+  certificateTitleEn: "A2 Physics: Thermodynamics and Oscillations",
+  certificateTitleMy: "A2 ရူပဗေဒ - Thermodynamics နှင့် Oscillations",
+);
