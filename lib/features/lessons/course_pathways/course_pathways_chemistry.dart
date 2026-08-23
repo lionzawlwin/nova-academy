@@ -21198,10 +21198,1400 @@ const CourseTermDef year12ChemistryTerm6 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Electrochemistry",
 );
 
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 7: "Equilibria"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "Dynamic Equilibrium and Le Chatelier's Principle"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek25 = CourseWeekDef(
+  id: "course-y12-chem-w25",
+  weekNumber: 25,
+  titleEn: "Dynamic Equilibrium and Le Chatelier's Principle",
+  titleMy: "Dynamic Equilibrium and Le Chatelier's Principle",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w25-d1",
+      dayNumber: 1,
+      titleEn: "Dynamic Equilibrium and Le Chatelier's Principle",
+      titleMy: "Dynamic Equilibrium and Le Chatelier's Principle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Dynamic equilibrium occurs when...",
+          questionMy: "Dynamic Equilibrium ဖြစ်ပေါ်ချိန်မှာ...",
+          optionsEn: [
+            "The rate of the forward reaction equals the rate of the reverse reaction, so concentrations stay constant",
+            "The forward reaction stops completely",
+            "The reverse reaction never occurs at all",
+            "All reactants are fully converted to products",
+          ],
+          optionsMy: [
+            "Forward Reaction Rate သည် Reverse Reaction Rate နှင့် ညီမျှသောကြောင့် Concentration များ တည်ငြိမ်ဆဲ ရှိနေသည်",
+            "Forward Reaction လုံးဝ ရပ်တန့်သွားသည်",
+            "Reverse Reaction လုံးဝ မဖြစ်ပေါ်ပါ",
+            "Reactant အားလုံးကို Product အဖြစ် အပြည့်အစုံ ပြောင်းလဲထားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "According to Le Chatelier's principle, if a system at equilibrium is subjected to a change, the system will...",
+          questionMy:
+              "Le Chatelier's Principle အရ Equilibrium ရှိ System တစ်ခု ပြောင်းလဲမှု တစ်ခုခံရချိန်...",
+          optionsEn: [
+            "Shift to counteract that change, reaching a new equilibrium",
+            "Stop reacting completely",
+            "Ignore the change entirely",
+            "Always shift in a random, unpredictable direction",
+          ],
+          optionsMy: [
+            "ထို ပြောင်းလဲမှုကို ဆန့်ကျင်ရန် ရွှေ့လျား၍ Equilibrium အသစ် ရောက်ရှိသည်",
+            "လုံးဝ တုံ့ပြန်ခြင်း ရပ်တန့်သွားသည်",
+            "ပြောင်းလဲမှုကို လုံးဝ လျစ်လျူရှုသည်",
+            "ကျပန်း၊ ခန့်မှန်း၍ မရသော ဦးတည်ရာသို့ အမြဲ ရွှေ့လျားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For an exothermic forward reaction, increasing temperature will shift equilibrium...",
+          questionMy:
+              "Exothermic ဖြစ်သော Forward Reaction တစ်ခုအတွက် Temperature တိုးမြှင့်ခြင်းက Equilibrium ကို ...ဘက်သို့ ရွှေ့လျားစေသည်",
+          optionsEn: [
+            "To the left, favouring the endothermic reverse reaction",
+            "To the right, favouring more product",
+            "Nowhere at all, since temperature has no effect",
+            "Completely off the reaction entirely",
+          ],
+          optionsMy: [
+            "ဘယ်ဘက်၊ Endothermic ဖြစ်သော Reverse Reaction ကို ပံ့ပိုးသည်",
+            "ညာဘက်၊ Product ပိုများခြင်းကို ပံ့ပိုးသည်",
+            "Temperature သက်ရောက်မှု လုံးဝ မရှိသောကြောင့် မည်သည့်နေရာမျှ",
+            "Reaction မှ လုံးဝ ဖြုတ်ချသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Equilibrium Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Equilibrium ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w25-dm-1",
+          termEn: "Dynamic equilibrium",
+          termMy: "Dynamic Equilibrium",
+          matchEn:
+              "A state where the forward and reverse reaction rates are equal, so concentrations stay constant",
+          matchMy:
+              "Forward နှင့် Reverse Reaction Rate ညီမျှသော Concentration များ တည်ငြိမ်ဆဲ ရှိနေသော အခြေအနေ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w25-dm-2",
+          termEn: "Le Chatelier's principle",
+          termMy: "Le Chatelier's Principle",
+          matchEn:
+              "If a system at equilibrium is disturbed, it shifts to counteract the change",
+          matchMy:
+              "Equilibrium ရှိ System တစ်ခု နှောင့်ယှက်ခံရလျှင် ပြောင်းလဲမှုကို ဆန့်ကျင်ရန် ရွှေ့လျားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w25-dm-3",
+          termEn: "Reversible reaction",
+          termMy: "Reversible Reaction",
+          matchEn:
+              "A reaction that can proceed in both forward and reverse directions",
+          matchMy:
+              "Forward နှင့် Reverse ဦးတည်ရာ နှစ်ခုစလုံးတွင် ဆက်လက် ဖြစ်ပေါ်နိုင်သော Reaction",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w25-dm-4",
+          termEn: "Closed system",
+          termMy: "Closed System",
+          matchEn:
+              "A system where no matter can enter or leave, required for true equilibrium",
+          matchMy:
+              "Matter မည်သည့်တစ်ခုမျှ ဝင် (သို့) ထွက် မလုပ်နိုင်သော System၊ တကယ့် Equilibrium အတွက် လိုအပ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w25-dm-5",
+          termEn: "Position of equilibrium",
+          termMy: "Position of Equilibrium",
+          matchEn:
+              "The relative amounts of reactants and products present at equilibrium",
+          matchMy: "Equilibrium ရှိ Reactant နှင့် Product ၏ Relative ပမာဏများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Shifts Right or Shifts Left?",
+      titleMy: "စီစစ်ကြမည် - ညာဘက် ရွှေ့လျားလား၊ ဘယ်ဘက် ရွှေ့လျားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Shifts Equilibrium Right (More Product)",
+          "Shifts Equilibrium Left (More Reactant)",
+        ],
+        bucketsMy: [
+          "Equilibrium ညာဘက်သို့ ရွှေ့လျားသည် (Product ပိုများ)",
+          "Equilibrium ဘယ်ဘက်သို့ ရွှေ့လျားသည် (Reactant ပိုများ)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w25-sort-1",
+            labelEn:
+                "Increasing temperature, for an exothermic forward reaction",
+            labelMy:
+                "Exothermic Forward Reaction အတွက် Temperature တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Shifts Equilibrium Left (More Reactant)",
+            correctBucketMy:
+                "Equilibrium ဘယ်ဘက်သို့ ရွှေ့လျားသည် (Reactant ပိုများ)",
+          ),
+          SortingItem(
+            id: "y12chem-w25-sort-2",
+            labelEn:
+                "Decreasing temperature, for an exothermic forward reaction",
+            labelMy:
+                "Exothermic Forward Reaction အတွက် Temperature လျှော့ချခြင်း",
+            correctBucketEn: "Shifts Equilibrium Right (More Product)",
+            correctBucketMy:
+                "Equilibrium ညာဘက်သို့ ရွှေ့လျားသည် (Product ပိုများ)",
+          ),
+          SortingItem(
+            id: "y12chem-w25-sort-3",
+            labelEn: "Increasing the concentration of a reactant",
+            labelMy: "Reactant တစ်ခု၏ Concentration တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Shifts Equilibrium Right (More Product)",
+            correctBucketMy:
+                "Equilibrium ညာဘက်သို့ ရွှေ့လျားသည် (Product ပိုများ)",
+          ),
+          SortingItem(
+            id: "y12chem-w25-sort-4",
+            labelEn: "Removing product as it forms",
+            labelMy: "Product ဖြစ်ပေါ်လာချိန် ဖယ်ရှားခြင်း",
+            correctBucketEn: "Shifts Equilibrium Right (More Product)",
+            correctBucketMy:
+                "Equilibrium ညာဘက်သို့ ရွှေ့လျားသည် (Product ပိုများ)",
+          ),
+          SortingItem(
+            id: "y12chem-w25-sort-5",
+            labelEn: "Decreasing the concentration of a reactant",
+            labelMy: "Reactant တစ်ခု၏ Concentration လျှော့ချခြင်း",
+            correctBucketEn: "Shifts Equilibrium Left (More Reactant)",
+            correctBucketMy:
+                "Equilibrium ဘယ်ဘက်သို့ ရွှေ့လျားသည် (Reactant ပိုများ)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w25-d4",
+      dayNumber: 4,
+      titleEn:
+          "Reading: Why the Haber Process Doesn't Use a Very Low Temperature",
+      titleMy:
+          "စာဖတ်ခြင်း - Haber Process Temperature အလွန် နိမ့်စွာ မသုံးရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Haber Process Doesn't Use a Very Low Temperature",
+        titleMy:
+            "Haber Process Temperature အလွန် နိမ့်စွာ မသုံးရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Htet Wai Lin showed his class the Haber process equilibrium, N2(g) + 3H2(g) ⇌ 2NH3(g), an exothermic forward reaction (ΔH = -92 kJ mol⁻¹). He asked them to use Le Chatelier's principle to predict the effect of lowering the temperature, and then asked why real ammonia plants don't simply run at the lowest practical temperature to maximise this effect.\n\nNay Linn Htut applied Le Chatelier's principle first: since the forward reaction is exothermic, lowering the temperature removes heat from the system, and the equilibrium shifts to the right -- towards the exothermic forward direction -- to partially replace that lost heat, increasing the equilibrium yield of ammonia. On paper, a very low temperature should give an even higher yield.\n\nSayar Htet Wai Lin then asked Nay Linn Htut to think about rate rather than yield. Lower temperature does increase the equilibrium yield, but it also sharply reduces the rate of reaction, since fewer molecules collide with enough energy to react at lower temperatures -- the system would take an impractically long time to actually reach that higher-yield equilibrium. An industrial plant running at, say, 25°C might eventually reach a very favourable equilibrium position, but 'eventually' could mean years, making it commercially worthless.\n\nReal Haber process plants instead operate at a compromise temperature around 450°C: hot enough for the reaction to reach equilibrium in a reasonable time, even though this sacrifices some of the yield a lower temperature would theoretically allow. A catalyst (usually iron) is also used, but Sayar Htet Wai Lin was careful to clarify that the catalyst only speeds up how quickly equilibrium is reached -- it does not shift the equilibrium position itself, so it cannot substitute for choosing an appropriate temperature.",
+        passageMy:
+            "Sayar ထက်ဝေလင်း သည် Exothermic Forward Reaction (ΔH = -92 kJ mol⁻¹) ဖြစ်သော Haber Process Equilibrium, N2(g) + 3H2(g) ⇌ 2NH3(g) ကို သူ၏ အတန်းကို ပြသခဲ့သည်။ Temperature လျှော့ချခြင်း၏ သက်ရောက်မှုကို ခန့်မှန်းရန် Le Chatelier's Principle ကို အသုံးပြုခိုင်းပြီး တကယ့် Ammonia Plant များ ဤ Effect ကို အများဆုံး ရရှိရန် လက်တွေ့ကျသော Temperature အနိမ့်ဆုံးတွင် အဘယ့်ကြောင့် ရိုးရိုး ရုံးမလည်ကြသည်ကို မေးမြန်းခဲ့သည်။\n\nNay Linn Htut သည် Le Chatelier's Principle ကို ဦးစွာ အသုံးချခဲ့သည် - Forward Reaction သည် Exothermic ဖြစ်သောကြောင့် Temperature လျှော့ချခြင်းက System မှ Heat ကို ဖယ်ရှားပြီး Equilibrium သည် ညာဘက်သို့ -- Exothermic Forward Direction သို့ -- ရွှေ့လျားကာ ဆုံးရှုံးသွားသော Heat ကို တစ်စိတ်တစ်ပိုင်း အစားထိုးရန် Ammonia ၏ Equilibrium Yield ကို တိုးမြှင့်စေသည်။ စာရွက်ပေါ်တွင် Temperature အလွန်နိမ့်ခြင်းက ပို၍ မြင့်သော Yield ကိုပင် ပေးသင့်သည်။\n\nYield မဟုတ်ဘဲ Rate ကို စဉ်းစားရန် Sayar ထက်ဝေလင်း ထို့နောက် Nay Linn Htut ကို ခိုင်းစေခဲ့သည်။ Temperature နိမ့်ခြင်းက Equilibrium Yield ကို တကယ် တိုးမြှင့်သော်လည်း Temperature နိမ့်ချိန် Reaction ဖြစ်ပေါ်ရန် Energy လုံလောက်စွာ ရှိသော Molecule ဖြတ်တောက်မှု နည်းလာသောကြောင့် Reaction Rate ကိုလည်း ပြင်းထန်စွာ လျှော့ချသည် -- System သည် ထို Yield ပို၍ မြင့်သော Equilibrium သို့ တကယ် ရောက်ရှိရန် လက်တွေ့ကျသော အချိန်ထက် ပို၍ကြာမြင့်စွာ ယူလိမ့်မည်။ 25°C ကဲ့သို့ Temperature တွင် အလုပ်လုပ်နေသော Industrial Plant တစ်ခုသည် နောက်ဆုံးတွင် အလွန်ကောင်းမွန်သော Equilibrium Position သို့ ရောက်ရှိကောင်း ရောက်ရှိနိုင်သော်လည်း 'နောက်ဆုံးတွင်' ဆိုသည်မှာ နှစ်ပေါင်းများစွာကို ဆိုလိုနိုင်ပြီး Commercially တန်ဖိုး လုံးဝ မရှိစေပါ။\n\nတကယ့် Haber Process Plant များသည် Compromise Temperature ခန့်မှန်းခြေ 450°C တွင် ယင်းအစား အလုပ်လုပ်ကြသည် - Temperature နိမ့်သော တစ်ခုက Theoretically ခွင့်ပြုမည့် Yield အချို့ကို စွန့်လွှတ်ရသော်လည်း Reaction ကို အချိန်တော်တော်ကြာအောင် Equilibrium သို့ ရောက်ရှိရန် လုံလောက်စွာ ပူနွေးသည်။ Catalyst (ပုံမှန်အားဖြင့် Iron) ကိုလည်း အသုံးပြုသော်လည်း Catalyst သည် Equilibrium သို့ မည်မျှမြန်ဆန်စွာ ရောက်ရှိသည်ကိုသာ ပိုမိုမြန်ဆန်စေပြီး -- Equilibrium Position ကိုယ်တိုင်ကို မရွှေ့လျားစေသောကြောင့် Temperature သင့်တော်စွာ ရွေးချယ်ခြင်းကို အစားမထိုးနိုင်ကြောင်း Sayar ထက်ဝေလင်း ဂရုတစိုက် ရှင်းလင်းခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, is the Haber process forward reaction exothermic or endothermic?",
+            questionMy:
+                "Haber Process Forward Reaction သည် Exothermic လား၊ Endothermic လားဆိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Exothermic",
+              "Endothermic",
+              "Neither",
+              "It depends on the catalyst used",
+            ],
+            optionsMy: [
+              "Exothermic",
+              "Endothermic",
+              "နှစ်ခုလုံး မဟုတ်ပါ",
+              "အသုံးပြုသော Catalyst ပေါ် မှီခိုသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why don't real plants use a very low temperature despite the higher yield?",
+            questionMy:
+                "Yield ပိုမြင့်သော်လည်း တကယ့် Plant များ Temperature အလွန်နိမ့်စွာ အဘယ့်ကြောင့် မသုံးကြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The reaction rate would be too slow to be commercially viable",
+              "Low temperature always destroys the catalyst",
+              "Nitrogen and hydrogen cannot exist at low temperatures",
+              "Ammonia is unstable below 450°C",
+            ],
+            optionsMy: [
+              "Reaction Rate သည် Commercially Viable ဖြစ်ရန် အလွန် နှေးညောင်းလွန်းလိမ့်မည်",
+              "Temperature နိမ့်ခြင်းက Catalyst ကို အမြဲ ဖျက်ဆီးသည်",
+              "Nitrogen နှင့် Hydrogen သည် Temperature နိမ့်ချိန် လုံးဝ မတည်ရှိနိုင်ပါ",
+              "Ammonia သည် 450°C အောက်တွင် တည်ငြိမ်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does the catalyst actually change?",
+            questionMy:
+                "Catalyst သည် တကယ် ပြောင်းလဲစေသော အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only the rate at which equilibrium is reached, not its position",
+              "The position of equilibrium only, not the rate",
+              "Both the rate and the position of equilibrium equally",
+              "Neither the rate nor the position of equilibrium",
+            ],
+            optionsMy: [
+              "Equilibrium ကို ရောက်ရှိသော Rate တစ်ခုတည်း၊ ၎င်း၏ Position မဟုတ်ပါ",
+              "Equilibrium Position တစ်ခုတည်း၊ Rate မဟုတ်ပါ",
+              "Rate နှင့် Equilibrium Position နှစ်ခုစလုံးကို အညီအမျှ",
+              "Rate မှသော်လည်းကောင်း Equilibrium Position မှသော်လည်းကောင်း မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's clarification."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းလင်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Dynamic Equilibrium",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Dynamic Equilibrium",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At dynamic equilibrium, forward and reverse reaction rates are...",
+          questionMy:
+              "Dynamic Equilibrium တွင် Forward နှင့် Reverse Reaction Rate များသည်...",
+          optionsEn: [
+            "Equal",
+            "Always zero",
+            "One is always double the other",
+            "Unrelated to each other",
+          ],
+          optionsMy: [
+            "ညီမျှသည်",
+            "အမြဲ Zero ဖြစ်သည်",
+            "တစ်ခုသည် အခြားတစ်ခု၏ နှစ်ဆ အမြဲ ဖြစ်သည်",
+            "အချင်းချင်း လုံးဝ မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Le Chatelier's principle predicts that a disturbed equilibrium will...",
+          questionMy:
+              "Le Chatelier's Principle အရ နှောင့်ယှက်ခံရသော Equilibrium သည်...",
+          optionsEn: [
+            "Shift to counteract the disturbance",
+            "Stop reacting completely",
+            "Explode immediately",
+            "Reverse direction randomly",
+          ],
+          optionsMy: [
+            "နှောင့်ယှက်မှုကို ဆန့်ကျင်ရန် ရွှေ့လျားသည်",
+            "လုံးဝ တုံ့ပြန်ခြင်း ရပ်တန့်သွားသည်",
+            "ချက်ချင်း ပေါက်ကွဲသွားသည်",
+            "ကျပန်း ဦးတည်ရာ ပြောင်းပြန်ဖြစ်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For an endothermic forward reaction, increasing temperature shifts equilibrium...",
+          questionMy:
+              "Endothermic Forward Reaction တစ်ခုအတွက် Temperature တိုးမြှင့်ခြင်းက Equilibrium ကို ...ရွှေ့လျားစေသည်",
+          optionsEn: [
+            "To the right, favouring more product",
+            "To the left, favouring more reactant",
+            "Nowhere at all",
+            "Off the reaction completely",
+          ],
+          optionsMy: [
+            "ညာဘက်၊ Product ပိုများခြင်းကို ပံ့ပိုးသည်",
+            "ဘယ်ဘက်၊ Reactant ပိုများခြင်းကို ပံ့ပိုးသည်",
+            "မည်သည့်နေရာမျှ",
+            "Reaction မှ လုံးဝ ဖြုတ်ချသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "The Equilibrium Constant, Kc"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek26 = CourseWeekDef(
+  id: "course-y12-chem-w26",
+  weekNumber: 26,
+  titleEn: "The Equilibrium Constant, Kc",
+  titleMy: "The Equilibrium Constant, Kc",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w26-d1",
+      dayNumber: 1,
+      titleEn: "The Kc Expression",
+      titleMy: "Kc Expression",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For the equilibrium aA + bB ⇌ cC + dD, the equilibrium constant Kc is expressed as...",
+          questionMy:
+              "Equilibrium aA + bB ⇌ cC + dD အတွက် Equilibrium Constant Kc ကို ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "Kc = [C]^c[D]^d / [A]^a[B]^b",
+            "Kc = [A]^a[B]^b / [C]^c[D]^d",
+            "Kc = [A] + [B] - [C] - [D]",
+            "Kc = abcd",
+          ],
+          optionsMy: [
+            "Kc = [C]^c[D]^d / [A]^a[B]^b",
+            "Kc = [A]^a[B]^b / [C]^c[D]^d",
+            "Kc = [A] + [B] - [C] - [D]",
+            "Kc = abcd",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For H2(g) + I2(g) ⇌ 2HI(g), at equilibrium [H2] = 0.10 mol dm⁻³, [I2] = 0.10 mol dm⁻³, [HI] = 0.80 mol dm⁻³. The value of Kc is...",
+          questionMy:
+              "H2(g) + I2(g) ⇌ 2HI(g) အတွက် Equilibrium တွင် [H2] = 0.10 mol dm⁻³, [I2] = 0.10 mol dm⁻³, [HI] = 0.80 mol dm⁻³ ။ Kc တန်ဖိုးမှာ...",
+          optionsEn: ["64", "6.4", "0.64", "640"],
+          optionsMy: ["64", "6.4", "0.64", "640"],
+          correctIndex: 0,
+          hintsEn: [
+            "Kc = [HI]² / ([H2][I2]) = 0.80² / (0.10 x 0.10) = 0.64 / 0.01 = 64.",
+          ],
+          hintsMy: [
+            "Kc = [HI]² / ([H2][I2]) = 0.80² / (0.10 x 0.10) = 0.64 / 0.01 = 64 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A large value of Kc indicates that at equilibrium...",
+          questionMy: "Kc တန်ဖိုး ကြီးသည်ကို ညွှန်ပြသည်မှာ Equilibrium တွင်...",
+          optionsEn: [
+            "The position of equilibrium lies well to the right (mostly products)",
+            "The position of equilibrium lies well to the left (mostly reactants)",
+            "No reaction has occurred at all",
+            "The reaction is not reversible",
+          ],
+          optionsMy: [
+            "Equilibrium Position သည် ညာဘက်တွင် ကောင်းစွာ ရှိသည် (Product အများစု)",
+            "Equilibrium Position သည် ဘယ်ဘက်တွင် ကောင်းစွာ ရှိသည် (Reactant အများစု)",
+            "Reaction လုံးဝ မဖြစ်ပေါ်ခဲ့ပါ",
+            "Reaction သည် Reversible မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Kc Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Kc ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w26-dm-1",
+          termEn: "Equilibrium constant (Kc)",
+          termMy: "Equilibrium Constant (Kc)",
+          matchEn:
+              "A value showing the ratio of product to reactant concentrations at equilibrium, at a specific temperature",
+          matchMy:
+              "Temperature အထူးတစ်ခုတွင် Equilibrium ရှိ Product ကို Reactant Concentration ဖြင့် စားသော အချိုးကို ပြသော တန်ဖိုး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w26-dm-2",
+          termEn: "Kc expression",
+          termMy: "Kc Expression",
+          matchEn:
+              "Products raised to their stoichiometric powers, divided by reactants raised to their stoichiometric powers",
+          matchMy:
+              "Reactant များကို ၎င်းတို့၏ Stoichiometric Power ဖြင့် မြှောက်ထားခြင်းဖြင့် စားထားသော Stoichiometric Power ဖြင့် မြှောက်ထားသော Product များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w26-dm-3",
+          termEn: "Large Kc",
+          termMy: "Large Kc",
+          matchEn:
+              "Indicates the equilibrium position lies mostly towards products",
+          matchMy:
+              "Equilibrium Position သည် Product ဘက်သို့ အများစု ရှိသည်ကို ညွှန်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w26-dm-4",
+          termEn: "Small Kc",
+          termMy: "Small Kc",
+          matchEn:
+              "Indicates the equilibrium position lies mostly towards reactants",
+          matchMy:
+              "Equilibrium Position သည် Reactant ဘက်သို့ အများစု ရှိသည်ကို ညွှန်ပြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w26-dm-5",
+          termEn: "Kc changes only with",
+          termMy: "Kc ပြောင်းလဲသည်မှာ",
+          matchEn:
+              "Temperature, since it is defined for a specific temperature",
+          matchMy:
+              "Temperature၊ Temperature အထူးတစ်ခုအတွက် အဓိပ္ပာယ်ဖွင့်ဆိုထားသောကြောင့်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Large Kc or Small Kc?",
+      titleMy: "စီစစ်ကြမည် - Kc ကြီးလား၊ ငယ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Large Kc (Products Favoured)",
+          "Small Kc (Reactants Favoured)",
+        ],
+        bucketsMy: [
+          "Kc ကြီးသည် (Product ကို ပံ့ပိုးသည်)",
+          "Kc ငယ်သည် (Reactant ကို ပံ့ပိုးသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w26-sort-1",
+            labelEn: "Kc = 1 x 10¹⁰",
+            labelMy: "Kc = 1 x 10¹⁰",
+            correctBucketEn: "Large Kc (Products Favoured)",
+            correctBucketMy: "Kc ကြီးသည် (Product ကို ပံ့ပိုးသည်)",
+          ),
+          SortingItem(
+            id: "y12chem-w26-sort-2",
+            labelEn: "Kc = 1 x 10⁻⁸",
+            labelMy: "Kc = 1 x 10⁻⁸",
+            correctBucketEn: "Small Kc (Reactants Favoured)",
+            correctBucketMy: "Kc ငယ်သည် (Reactant ကို ပံ့ပိုးသည်)",
+          ),
+          SortingItem(
+            id: "y12chem-w26-sort-3",
+            labelEn: "Kc = 500",
+            labelMy: "Kc = 500",
+            correctBucketEn: "Large Kc (Products Favoured)",
+            correctBucketMy: "Kc ကြီးသည် (Product ကို ပံ့ပိုးသည်)",
+          ),
+          SortingItem(
+            id: "y12chem-w26-sort-4",
+            labelEn: "Kc = 0.002",
+            labelMy: "Kc = 0.002",
+            correctBucketEn: "Small Kc (Reactants Favoured)",
+            correctBucketMy: "Kc ငယ်သည် (Reactant ကို ပံ့ပိုးသည်)",
+          ),
+          SortingItem(
+            id: "y12chem-w26-sort-5",
+            labelEn: "Kc = 64",
+            labelMy: "Kc = 64",
+            correctBucketEn: "Large Kc (Products Favoured)",
+            correctBucketMy: "Kc ကြီးသည် (Product ကို ပံ့ပိုးသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating Kc for the Decomposition of PCl5",
+      titleMy: "စာဖတ်ခြင်း - PCl5 ၏ Decomposition အတွက် Kc တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating Kc for the Decomposition of PCl5",
+        titleMy: "PCl5 ၏ Decomposition အတွက် Kc တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayama Chaw Su Hlaing placed 1.00 mol of phosphorus pentachloride, PCl5, into a sealed 2.00 dm³ container and let it reach equilibrium: PCl5(g) ⇌ PCl3(g) + Cl2(g). At equilibrium, chemical analysis showed 0.40 mol of PCl5 remaining. She asked the class to calculate Kc.\n\nNay Linn Htut first found how much PCl5 had decomposed: 1.00 - 0.40 = 0.60 mol. Since the equation shows a 1:1:1 ratio between PCl5, PCl3 and Cl2, exactly 0.60 mol of PCl3 and 0.60 mol of Cl2 must have formed.\n\nConverting all three amounts to concentrations by dividing by the 2.00 dm³ container volume: [PCl5] = 0.40 / 2.00 = 0.20 mol dm⁻³, [PCl3] = 0.60 / 2.00 = 0.30 mol dm⁻³, [Cl2] = 0.60 / 2.00 = 0.30 mol dm⁻³.\n\nSubstituting into the Kc expression: Kc = [PCl3][Cl2] / [PCl5] = (0.30 x 0.30) / 0.20 = 0.09 / 0.20 = 0.45. Sayama Chaw Su Hlaing pointed out that, unlike the H2 + I2 ⇌ 2HI example from earlier in the week, this Kc value carries units: mol dm⁻³. The difference comes from the number of moles of gas on each side -- H2 + I2 ⇌ 2HI has 2 moles of gas on both sides, so the concentration units in the Kc expression fully cancel, leaving a dimensionless number. PCl5 ⇌ PCl3 + Cl2 has 1 mole of gas on the left and 2 moles on the right, so one factor of concentration (mol dm⁻³) is left over uncancelled -- a reminder that Kc's units always depend on the specific stoichiometry of the reaction being described, and must be worked out case by case rather than assumed.",
+        passageMy:
+            "Sayama ချောစုလှိုင် သည် Phosphorus Pentachloride, PCl5 1.00 mol ကို ပိတ်ထားသော Container 2.00 dm³ ထဲသို့ ချထားပြီး Equilibrium ရောက်ရှိစေခဲ့သည် - PCl5(g) ⇌ PCl3(g) + Cl2(g) ။ Equilibrium တွင် Chemical Analysis က PCl5 0.40 mol ကျန်ရှိကြောင်း ပြသခဲ့သည်။ Kc ကို တွက်ချက်ခိုင်းခဲ့သည်။\n\nNay Linn Htut သည် PCl5 မည်မျှ Decompose ဖြစ်ခဲ့သည်ကို ဦးစွာ ရှာဖွေခဲ့သည် - 1.00 - 0.40 = 0.60 mol ။ Equation က PCl5, PCl3 နှင့် Cl2 ကြား 1:1:1 Ratio ကို ပြသောကြောင့် PCl3 0.60 mol နှင့် Cl2 0.60 mol အတိအကျ ဖြစ်ပေါ်ခဲ့ရမည်။\n\nAmount သုံးခုစလုံးကို Container Volume 2.00 dm³ ဖြင့် စားခြင်းဖြင့် Concentration သို့ ပြောင်းလဲခြင်း - [PCl5] = 0.40 / 2.00 = 0.20 mol dm⁻³, [PCl3] = 0.60 / 2.00 = 0.30 mol dm⁻³, [Cl2] = 0.60 / 2.00 = 0.30 mol dm⁻³ ။\n\nKc Expression ထဲသို့ အစားထိုးခြင်း - Kc = [PCl3][Cl2] / [PCl5] = (0.30 x 0.30) / 0.20 = 0.09 / 0.20 = 0.45 ။ ဤပတ် အစောပိုင်းက H2 + I2 ⇌ 2HI ဥပမာနှင့် မတူဘဲ ဤ Kc တန်ဖိုးသည် Unit ပါဝင်ကြောင်း Sayama ချောစုလှိုင် ထောက်ပြခဲ့သည် - mol dm⁻³ ။ ကွာခြားချက်သည် ဘက်နှစ်ဖက်ရှိ Gas Mole အရေအတွက်မှ လာသည် -- H2 + I2 ⇌ 2HI တွင် ဘက်နှစ်ဖက်စလုံးတွင် Gas Mole 2 ခု ရှိသောကြောင့် Kc Expression ရှိ Concentration Unit များ အပြည့်အစုံ ချေဖျက်ကာ Dimensionless ဂဏန်း ကျန်ရစ်စေသည်။ PCl5 ⇌ PCl3 + Cl2 တွင် ဘယ်ဘက်တွင် Gas Mole 1 ခုနှင့် ညာဘက်တွင် 2 ခု ရှိသောကြောင့် Concentration (mol dm⁻³) Factor တစ်ခု ချေဖျက်မခံရဘဲ ကျန်ရစ်သည် -- Kc ၏ Unit များသည် ဖော်ပြထားသော Reaction ၏ Stoichiometry အထူးပေါ် အမြဲ မှီခိုနေပြီး Case-By-Case အသီးသီး ရှာဖွေထုတ်ရမည်၊ ယူဆထားရန် မဟုတ်ကြောင်း သတိပေးချက်တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the equilibrium concentration of PCl5?",
+            questionMy:
+                "PCl5 ၏ Equilibrium Concentration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0.20 mol dm⁻³",
+              "0.40 mol dm⁻³",
+              "0.30 mol dm⁻³",
+              "0.60 mol dm⁻³",
+            ],
+            optionsMy: [
+              "0.20 mol dm⁻³",
+              "0.40 mol dm⁻³",
+              "0.30 mol dm⁻³",
+              "0.60 mol dm⁻³",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the calculated value of Kc?",
+            questionMy: "တွက်ချက်ထားသော Kc တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.45", "0.09", "0.20", "0.30"],
+            optionsMy: ["0.45", "0.09", "0.20", "0.30"],
+            correctIndex: 0,
+            hintsEn: ["Reread the fourth paragraph's calculation."],
+            hintsMy: ["စတုတ္ထစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does this Kc value have units unlike the HI example?",
+            questionMy:
+                "ဤ Kc တန်ဖိုးသည် HI ဥပမာနှင့် မတူဘဲ Unit ပါဝင်ရသည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The reaction has unequal moles of gas on each side, so concentration units don't fully cancel",
+              "PCl5 is not actually a gas",
+              "Kc always has units for every reaction without exception",
+              "The container volume was measured incorrectly",
+            ],
+            optionsMy: [
+              "Reaction တွင် ဘက်နှစ်ဖက်စီ Gas Mole မညီညာသောကြောင့် Concentration Unit များ အပြည့်အစုံ မချေဖျက်ပါ",
+              "PCl5 သည် Gas တကယ် မဟုတ်ပါ",
+              "Kc သည် Reaction မည်သည့်တစ်ခုအတွက်မဆို ချွင်းချက်မရှိ Unit အမြဲ ပါဝင်သည်",
+              "Container Volume ကို မှားယွင်းစွာ တိုင်းတာခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: The Equilibrium Constant",
+      titleMy:
+          "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - The Equilibrium Constant",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Kc is defined for...",
+          questionMy: "Kc ကို ...အတွက် အဓိပ္ပာယ်ဖွင့်ဆိုထားသည်",
+          optionsEn: [
+            "A specific reaction at a specific temperature",
+            "Any reaction at any temperature",
+            "Only reactions with no products",
+            "Only reactions involving solids",
+          ],
+          optionsMy: [
+            "Temperature အထူးတစ်ခုရှိ Reaction အထူးတစ်ခု",
+            "Temperature မည်သို့ပင်ရှိစေ Reaction မည်သည့်တစ်ခုမဆို",
+            "Product မရှိသော Reaction များသာ",
+            "Solid ပါဝင်သော Reaction များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A small Kc value indicates the equilibrium position lies mostly towards...",
+          questionMy:
+              "Kc တန်ဖိုး ငယ်သည်ကို ညွှန်ပြသည်မှာ Equilibrium Position သည် ...ဘက်သို့ အများစု ရှိသည်",
+          optionsEn: [
+            "Reactants",
+            "Products",
+            "Neither reactants nor products",
+            "The catalyst",
+          ],
+          optionsMy: [
+            "Reactant",
+            "Product",
+            "Reactant မှသော်လည်းကောင်း Product မှသော်လည်းကောင်း မဟုတ်ပါ",
+            "Catalyst",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For A(g) ⇌ 2B(g), at equilibrium [A] = 0.50 mol dm⁻³ and [B] = 2.0 mol dm⁻³. The value of Kc is...",
+          questionMy:
+              "A(g) ⇌ 2B(g) အတွက် Equilibrium တွင် [A] = 0.50 mol dm⁻³ နှင့် [B] = 2.0 mol dm⁻³ ။ Kc တန်ဖိုးမှာ...",
+          optionsEn: [
+            "8.0 mol dm⁻³",
+            "4.0 mol dm⁻³",
+            "0.125 mol dm⁻³",
+            "2.0 mol dm⁻³",
+          ],
+          optionsMy: [
+            "8.0 mol dm⁻³",
+            "4.0 mol dm⁻³",
+            "0.125 mol dm⁻³",
+            "2.0 mol dm⁻³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Kc = [B]² / [A] = 2.0² / 0.50 = 4.0 / 0.50 = 8.0 mol dm⁻³.",
+          ],
+          hintsMy: [
+            "Kc = [B]² / [A] = 2.0² / 0.50 = 4.0 / 0.50 = 8.0 mol dm⁻³ ။",
+          ],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "Industrial Equilibria and Catalysts"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek27 = CourseWeekDef(
+  id: "course-y12-chem-w27",
+  weekNumber: 27,
+  titleEn: "Industrial Equilibria and Catalysts",
+  titleMy: "Industrial Equilibria and Catalysts",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w27-d1",
+      dayNumber: 1,
+      titleEn: "Catalysts and Industrial Compromise Conditions",
+      titleMy: "Catalysts and Industrial Compromise Conditions",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A catalyst affects the position of equilibrium by...",
+          questionMy:
+              "Catalyst တစ်ခုသည် Equilibrium Position ကို ...ဖြင့် သက်ရောက်စေသည်",
+          optionsEn: [
+            "Not at all -- it only speeds up how quickly equilibrium is reached",
+            "Shifting it strongly towards products",
+            "Shifting it strongly towards reactants",
+            "Destroying the equilibrium completely",
+          ],
+          optionsMy: [
+            "လုံးဝ မသက်ရောက်ပါ -- Equilibrium မည်မျှမြန်ဆန်စွာ ရောက်ရှိသည်ကိုသာ မြန်ဆန်စေသည်",
+            "Product ဘက်သို့ ခိုင်မာစွာ ရွှေ့လျားစေသည်",
+            "Reactant ဘက်သို့ ခိုင်မာစွာ ရွှေ့လျားစေသည်",
+            "Equilibrium ကို လုံးဝ ဖျက်ဆီးလိုက်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the Contact Process, SO2(g) + O2(g) ⇌ 2SO3(g) is exothermic. Increasing pressure would shift the equilibrium...",
+          questionMy:
+              "Contact Process တွင် SO2(g) + O2(g) ⇌ 2SO3(g) သည် Exothermic ဖြစ်သည်။ Pressure တိုးမြှင့်ခြင်းက Equilibrium ကို ...ရွှေ့လျားစေသည်",
+          optionsEn: [
+            "To the right, since there are fewer moles of gas on the product side",
+            "To the left, since pressure has no effect on gas equilibria",
+            "Nowhere at all",
+            "Off the reaction completely",
+          ],
+          optionsMy: [
+            "ညာဘက်၊ Product ဘက်တွင် Gas Mole ပိုနည်းသောကြောင့်",
+            "ဘယ်ဘက်၊ Pressure သည် Gas Equilibria ပေါ် သက်ရောက်မှု မရှိသောကြောင့်",
+            "မည်သည့်နေရာမျှ",
+            "Reaction မှ လုံးဝ ဖြုတ်ချသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Haber process typically operates at a compromise temperature of around...",
+          questionMy:
+              "Haber Process သည် ပုံမှန်အားဖြင့် Compromise Temperature ခန့်မှန်းခြေ ...တွင် လုပ်ဆောင်သည်",
+          optionsEn: ["450°C", "25°C", "1000°C", "0°C"],
+          optionsMy: ["450°C", "25°C", "1000°C", "0°C"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Industrial Equilibria Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Industrial Equilibria ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w27-dm-1",
+          termEn: "Catalyst",
+          termMy: "Catalyst",
+          matchEn:
+              "Speeds up the rate of reaching equilibrium without changing its position",
+          matchMy:
+              "Equilibrium Position ကို မပြောင်းလဲဘဲ Equilibrium ရောက်ရှိသော Rate ကို မြန်ဆန်စေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w27-dm-2",
+          termEn: "Haber process",
+          termMy: "Haber Process",
+          matchEn:
+              "The industrial synthesis of ammonia from nitrogen and hydrogen, N2 + 3H2 ⇌ 2NH3",
+          matchMy:
+              "Nitrogen နှင့် Hydrogen မှ Ammonia ကို Industrial Synthesis ပြုလုပ်ခြင်း, N2 + 3H2 ⇌ 2NH3",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w27-dm-3",
+          termEn: "Contact process",
+          termMy: "Contact Process",
+          matchEn:
+              "The industrial production of sulfur trioxide from sulfur dioxide and oxygen, used to manufacture sulfuric acid",
+          matchMy:
+              "Sulfuric Acid ထုတ်လုပ်ရန် အသုံးပြုသော Sulfur Dioxide နှင့် Oxygen မှ Sulfur Trioxide ကို Industrial ထုတ်လုပ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w27-dm-4",
+          termEn: "Compromise conditions",
+          termMy: "Compromise Conditions",
+          matchEn:
+              "Industrial conditions chosen to balance a good equilibrium yield against an economically viable reaction rate",
+          matchMy:
+              "ကောင်းမွန်သော Equilibrium Yield ကို Economically Viable ဖြစ်သော Reaction Rate နှင့် ချိန်ညှိရန် ရွေးချယ်ထားသော Industrial Condition",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w27-dm-5",
+          termEn: "Effect of pressure on equilibrium",
+          termMy: "Equilibrium ပေါ် Pressure ၏ သက်ရောက်မှု",
+          matchEn:
+              "Increasing pressure shifts equilibrium towards the side with fewer moles of gas",
+          matchMy:
+              "Pressure တိုးမြှင့်ခြင်းက Gas Mole ပိုနည်းသော Side ဘက်သို့ Equilibrium ကို ရွှေ့လျားစေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Affects Equilibrium Position or Rate Only?",
+      titleMy:
+          "စီစစ်ကြမည် - Equilibrium Position ပေါ် သက်ရောက်လား၊ Rate ပေါ်သာ သက်ရောက်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Affects Equilibrium Position", "Affects Rate Only"],
+        bucketsMy: [
+          "Equilibrium Position ပေါ် သက်ရောက်သည်",
+          "Rate ပေါ်တစ်ခုတည်း သက်ရောက်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w27-sort-1",
+            labelEn: "Changing the temperature",
+            labelMy: "Temperature ပြောင်းလဲခြင်း",
+            correctBucketEn: "Affects Equilibrium Position",
+            correctBucketMy: "Equilibrium Position ပေါ် သက်ရောက်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w27-sort-2",
+            labelEn: "Adding a catalyst",
+            labelMy: "Catalyst ထည့်ခြင်း",
+            correctBucketEn: "Affects Rate Only",
+            correctBucketMy: "Rate ပေါ်တစ်ခုတည်း သက်ရောက်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w27-sort-3",
+            labelEn:
+                "Changing pressure, for a reaction with unequal moles of gas",
+            labelMy:
+                "Gas Mole မညီညာသော Reaction တစ်ခုအတွက် Pressure ပြောင်းလဲခြင်း",
+            correctBucketEn: "Affects Equilibrium Position",
+            correctBucketMy: "Equilibrium Position ပေါ် သက်ရောက်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w27-sort-4",
+            labelEn: "Changing the concentration of a reactant",
+            labelMy: "Reactant တစ်ခု၏ Concentration ပြောင်းလဲခြင်း",
+            correctBucketEn: "Affects Equilibrium Position",
+            correctBucketMy: "Equilibrium Position ပေါ် သက်ရောက်သည်",
+          ),
+          SortingItem(
+            id: "y12chem-w27-sort-5",
+            labelEn: "Increasing the surface area of a solid catalyst",
+            labelMy: "Solid Catalyst ၏ Surface Area တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Affects Rate Only",
+            correctBucketMy: "Rate ပေါ်တစ်ခုတည်း သက်ရောက်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Contact Process Doesn't Use High Pressure",
+      titleMy:
+          "စာဖတ်ခြင်း - Contact Process Pressure မြင့်စွာ မသုံးရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Contact Process Doesn't Use High Pressure",
+        titleMy: "Contact Process Pressure မြင့်စွာ မသုံးရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Htet Wai Lin asked his class to apply Le Chatelier's principle to the Contact Process equilibrium, 2SO2(g) + O2(g) ⇌ 2SO3(g), which has 3 moles of gas on the left and only 2 moles on the right. He asked them to predict the effect of increasing pressure, and then asked why real sulfuric acid plants don't actually use high pressure at all, operating instead at only slightly above atmospheric pressure.\n\nEi Thandar Kyaw applied Le Chatelier's principle first: since there are fewer moles of gas on the product side, increasing pressure should shift the equilibrium to the right, favouring more SO3 and increasing yield -- exactly the same logic used for the Haber process. On paper, higher pressure looks like a straightforward way to improve the industrial yield further.\n\nSayar Htet Wai Lin then revealed the key piece of information that changes the calculation: under the Contact Process's chosen temperature (around 450°C) and only modestly elevated pressure, the equilibrium yield of SO3 is already about 98% -- remarkably close to complete conversion. Ei Thandar Kyaw worked through the economics: raising the pressure further could only chase the remaining 2% of unconverted SO2, since 98% of the theoretical maximum yield is already being achieved, while the industrial cost of building and maintaining high-pressure vessels, pumps and seals is substantial and ongoing.\n\nSayar Htet Wai Lin summarised the general lesson: Le Chatelier's principle correctly predicts which direction an equilibrium will shift, but it says nothing about how large that shift will be, or whether chasing it further is worthwhile. Real industrial conditions are set by weighing Le Chatelier's prediction against cost, safety, and how much yield is actually left to gain -- which is why the Contact Process, unlike the Haber process, doesn't bother with high pressure at all, even though the same principle technically favours it.",
+        passageMy:
+            "3 Mole Gas ဘယ်ဘက်တွင်ရှိပြီး ညာဘက်တွင် 2 Mole သာ ရှိသော Contact Process Equilibrium, 2SO2(g) + O2(g) ⇌ 2SO3(g) ကို Le Chatelier's Principle အသုံးချရန် Sayar ထက်ဝေလင်း သူ၏ အတန်းကို ခိုင်းစေခဲ့သည်။ Pressure တိုးမြှင့်ခြင်း၏ သက်ရောက်မှုကို ခန့်မှန်းခိုင်းပြီး တကယ့် Sulfuric Acid Plant များ Pressure မြင့်စွာ လုံးဝ မသုံးဘဲ Atmospheric Pressure ထက် အနည်းငယ်သာ မြင့်စွာ အဘယ့်ကြောင့် အလုပ်လုပ်ကြသည်ကို မေးမြန်းခဲ့သည်။\n\nEi Thandar Kyaw သည် Le Chatelier's Principle ကို ဦးစွာ အသုံးချခဲ့သည် - Product ဘက်တွင် Gas Mole ပိုနည်းသောကြောင့် Pressure တိုးမြှင့်ခြင်းက Equilibrium ကို ညာဘက်သို့ ရွှေ့လျားစေပြီး SO3 ပိုများခြင်းကို ပံ့ပိုးကာ Yield ကို တိုးမြှင့်သင့်သည် -- Haber Process အတွက် အသုံးပြုသော Logic တူညီ။ စာရွက်ပေါ်တွင် Pressure မြင့်ခြင်းသည် Industrial Yield ကို ဆက်လက် တိုးတက်စေရန် ရိုးရှင်းသော နည်းလမ်းတစ်ခုကဲ့သို့ ထင်ရသည်။\n\nတွက်ချက်မှုကို ပြောင်းလဲစေသော အဓိက Information ကို Sayar ထက်ဝေလင်း ထို့နောက် ဖော်ထုတ်ခဲ့သည် - Contact Process ၏ ရွေးချယ်ထားသော Temperature (ခန့်မှန်းခြေ 450°C) နှင့် အနည်းငယ်သာ မြင့်တက်ထားသော Pressure အောက်တွင် SO3 ၏ Equilibrium Yield သည် ၈% ခန့် ရှိပြီးသား ဖြစ်သည် -- ပြီးပြည့်စုံသော Conversion နှင့် ထင်ရှားစွာ နီးစပ်သည်။ Ei Thandar Kyaw သည် Economics ကို ဖြေရှင်းခဲ့သည် - Theoretical Maximum Yield ၏ 98% ကို ရရှိပြီးသား ဖြစ်သောကြောင့် Pressure ကို ထပ်မံ တိုးမြှင့်ခြင်းက Convert မဖြစ်သေးသော SO2 ၏ ကျန်ရှိ 2% ကိုသာ ဆွဲယူနိုင်မည်ဖြစ်ပြီး High-Pressure Vessel, Pump နှင့် Seal များ တည်ဆောက်ကာ ထိန်းသိမ်းရန် Industrial Cost သည် အသိသာအထင်ရှားနှင့် ဆက်လက် ကြီးမားနေသည်။\n\nGeneral သင်ခန်းစာကို Sayar ထက်ဝေလင်း အနှစ်ချုပ်ခဲ့သည် - Le Chatelier's Principle သည် Equilibrium တစ်ခု မည်သည့်ဦးတည်ရာသို့ ရွှေ့လျားမည်ကို မှန်ကန်စွာ ခန့်မှန်းသော်လည်း ထို Shift မည်မျှကြီးမား၊ ၎င်းကို ထပ်မံ ဆွဲယူရန် တန်ဖိုးရှိမရှိအကြောင်း ဘာမျှ မပြောပါ။ တကယ့် Industrial Condition များကို Le Chatelier's Prediction ကို Cost, Safety နှင့် Yield မည်မျှ တကယ် ကျန်ရှိရရှိရန် ရှိသေးသည်ဟု ချိန်ဆခြင်းဖြင့် သတ်မှတ်ကြသည် -- ၎င်းသည် Principle တူညီက Technically ပံ့ပိုးထားသော်လည်း Contact Process သည် Haber Process နှင့် မတူဘဲ Pressure မြင့်စွာ လုံးဝ မတွေ့ကြုံရသည့် အကြောင်းရင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does Le Chatelier's principle predict about pressure in the Contact Process?",
+            questionMy:
+                "Contact Process ရှိ Pressure အကြောင်း Le Chatelier's Principle ခန့်မှန်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Increasing pressure should shift equilibrium right, favouring more SO3",
+              "Pressure has no effect on this equilibrium at all",
+              "Increasing pressure should shift equilibrium left",
+              "Only temperature affects this equilibrium",
+            ],
+            optionsMy: [
+              "Pressure တိုးမြှင့်ခြင်းက Equilibrium ကို ညာဘက်သို့ ရွှေ့လျားစေပြီး SO3 ပိုများခြင်းကို ပံ့ပိုးသင့်သည်",
+              "Pressure သည် ဤ Equilibrium ပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+              "Pressure တိုးမြှင့်ခြင်းက Equilibrium ကို ဘယ်ဘက်သို့ ရွှေ့လျားစေသင့်သည်",
+              "Temperature တစ်ခုတည်းက ဤ Equilibrium ပေါ် သက်ရောက်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the equilibrium yield of SO3 already achieved under the chosen conditions?",
+            questionMy:
+                "ရွေးချယ်ထားသော Condition အောက် SO3 ၏ ရရှိပြီးသား Equilibrium Yield ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["About 98%", "About 50%", "About 2%", "About 100%"],
+            optionsMy: [
+              "ခန့်မှန်းခြေ 98%",
+              "ခန့်မှန်းခြေ 50%",
+              "ခန့်မှန်းခြေ 2%",
+              "ခန့်မှန်းခြေ 100%",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does Le Chatelier's principle NOT tell you?",
+            questionMy:
+                "Le Chatelier's Principle က မပြောသော အရာကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "How large a shift will be, or whether pursuing it further is economically worthwhile",
+              "Which direction an equilibrium will shift",
+              "Whether a reaction is reversible",
+              "The chemical formula of the reactants",
+            ],
+            optionsMy: [
+              "Shift မည်မျှ ကြီးမားမည်၊ ၎င်းကို ဆက်လက် ဆွဲယူခြင်း Economically တန်ဖိုးရှိမရှိ",
+              "Equilibrium မည်သည့်ဦးတည်ရာသို့ ရွှေ့လျားမည်",
+              "Reaction သည် Reversible ဖြစ်မဖြစ်",
+              "Reactant များ၏ Chemical Formula",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ အနှစ်ချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Industrial Equilibria",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Industrial Equilibria",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A catalyst speeds up...",
+          questionMy: "Catalyst တစ်ခုသည် ...ကို မြန်ဆန်စေသည်",
+          optionsEn: [
+            "The rate of reaching equilibrium, not its position",
+            "The position of equilibrium, not the rate",
+            "Neither the rate nor the position",
+            "Only the reverse reaction, never the forward one",
+          ],
+          optionsMy: [
+            "Equilibrium ကို ရောက်ရှိသော Rate၊ ၎င်း၏ Position မဟုတ်ပါ",
+            "Equilibrium Position၊ Rate မဟုတ်ပါ",
+            "Rate မှသော်လည်းကောင်း Position မှသော်လည်းကောင်း မဟုတ်ပါ",
+            "Reverse Reaction တစ်ခုတည်း၊ Forward Reaction ဘယ်တော့မှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Compromise conditions in industry balance yield against...",
+          questionMy:
+              "Industry ရှိ Compromise Conditions များသည် Yield ကို ...နှင့် ချိန်ညှိသည်",
+          optionsEn: [
+            "Reaction rate and cost",
+            "Colour of the product only",
+            "The catalyst's price alone",
+            "Nothing else at all",
+          ],
+          optionsMy: [
+            "Reaction Rate နှင့် Cost",
+            "Product ၏ အရောင်တစ်ခုတည်း",
+            "Catalyst ၏ ဈေးနှုန်း တစ်ခုတည်း",
+            "အခြား မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Increasing pressure shifts a gas equilibrium towards the side with...",
+          questionMy:
+              "Pressure တိုးမြှင့်ခြင်းက Gas Equilibrium တစ်ခုကို ...ရှိသော Side ဘက်သို့ ရွှေ့လျားစေသည်",
+          optionsEn: [
+            "Fewer moles of gas",
+            "More moles of gas",
+            "Equal moles of gas only",
+            "No gas at all",
+          ],
+          optionsMy: [
+            "Gas Mole ပိုနည်း",
+            "Gas Mole ပိုများ",
+            "Gas Mole ညီညာသည်သာ",
+            "Gas လုံးဝ မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28: "Equilibria Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek28 = CourseWeekDef(
+  id: "course-y12-chem-w28",
+  weekNumber: 28,
+  titleEn: "Equilibria Capstone",
+  titleMy: "Equilibria အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w28-d1",
+      dayNumber: 1,
+      titleEn:
+          "Combining Le Chatelier's Principle, Kc and Industrial Equilibria",
+      titleMy:
+          "Le Chatelier's Principle, Kc နှင့် Industrial Equilibria ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For an endothermic forward reaction, decreasing temperature shifts equilibrium...",
+          questionMy:
+              "Endothermic Forward Reaction တစ်ခုအတွက် Temperature လျှော့ချခြင်းက Equilibrium ကို ...ရွှေ့လျားစေသည်",
+          optionsEn: [
+            "To the left, favouring more reactant",
+            "To the right, favouring more product",
+            "Nowhere at all",
+            "Off the reaction completely",
+          ],
+          optionsMy: [
+            "ဘယ်ဘက်၊ Reactant ပိုများခြင်းကို ပံ့ပိုးသည်",
+            "ညာဘက်၊ Product ပိုများခြင်းကို ပံ့ပိုးသည်",
+            "မည်သည့်နေရာမျှ",
+            "Reaction မှ လုံးဝ ဖြုတ်ချသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For X(g) ⇌ 2Y(g), at equilibrium [X] = 0.25 mol dm⁻³ and [Y] = 1.0 mol dm⁻³. The value of Kc is...",
+          questionMy:
+              "X(g) ⇌ 2Y(g) အတွက် Equilibrium တွင် [X] = 0.25 mol dm⁻³ နှင့် [Y] = 1.0 mol dm⁻³ ။ Kc တန်ဖိုးမှာ...",
+          optionsEn: [
+            "4.0 mol dm⁻³",
+            "0.25 mol dm⁻³",
+            "2.0 mol dm⁻³",
+            "0.5 mol dm⁻³",
+          ],
+          optionsMy: [
+            "4.0 mol dm⁻³",
+            "0.25 mol dm⁻³",
+            "2.0 mol dm⁻³",
+            "0.5 mol dm⁻³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Kc = [Y]² / [X] = 1.0² / 0.25 = 1.0 / 0.25 = 4.0 mol dm⁻³.",
+          ],
+          hintsMy: [
+            "Kc = [Y]² / [X] = 1.0² / 0.25 = 1.0 / 0.25 = 4.0 mol dm⁻³ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Industrial conditions are chosen based on...",
+          questionMy:
+              "Industrial Conditions များကို ...အပေါ် အခြေခံ၍ ရွေးချယ်ထားသည်",
+          optionsEn: [
+            "A compromise between equilibrium yield, reaction rate, and economic cost",
+            "Equilibrium yield alone, ignoring rate and cost",
+            "Reaction rate alone, ignoring yield and cost",
+            "Random selection with no scientific reasoning",
+          ],
+          optionsMy: [
+            "Equilibrium Yield, Reaction Rate နှင့် Economic Cost ကြား Compromise",
+            "Rate နှင့် Cost ကို လျစ်လျူရှုလျက် Equilibrium Yield တစ်ခုတည်း",
+            "Yield နှင့် Cost ကို လျစ်လျူရှုလျက် Reaction Rate တစ်ခုတည်း",
+            "သိပ္ပံနည်းကျ ဆင်ခြင်တွေးခေါ်မှု မရှိဘဲ ကျပန်း ရွေးချယ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 7 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၇ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w28-dm-1",
+          termEn: "Kc for aA + bB ⇌ cC + dD",
+          termMy: "aA + bB ⇌ cC + dD အတွက် Kc",
+          matchEn: "[C]^c[D]^d / [A]^a[B]^b",
+          matchMy: "[C]^c[D]^d / [A]^a[B]^b",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w28-dm-2",
+          termEn: "Exothermic forward + higher temperature",
+          termMy: "Exothermic Forward + Temperature မြင့်ခြင်း",
+          matchEn: "Shifts equilibrium left",
+          matchMy: "Equilibrium ဘယ်ဘက်သို့ ရွှေ့လျားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w28-dm-3",
+          termEn: "Higher pressure, fewer gas moles on product side",
+          termMy: "Pressure မြင့်ခြင်း, Product ဘက်တွင် Gas Mole ပိုနည်းခြင်း",
+          matchEn: "Shifts equilibrium right",
+          matchMy: "Equilibrium ညာဘက်သို့ ရွှေ့လျားသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w28-dm-4",
+          termEn: "Catalyst",
+          termMy: "Catalyst",
+          matchEn: "Speeds up rate only, no effect on equilibrium position",
+          matchMy:
+              "Rate တစ်ခုတည်းကို မြန်ဆန်စေသည်၊ Equilibrium Position ပေါ် သက်ရောက်မှု မရှိပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w28-dm-5",
+          termEn: "Kc depends only on",
+          termMy: "Kc သည် ...အပေါ်သာ မှီခိုသည်",
+          matchEn: "Temperature",
+          matchMy: "Temperature",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Le Chatelier's Principle or Equilibrium Constant (Kc)?",
+      titleMy:
+          "စီစစ်ကြမည် - Le Chatelier's Principle သို့မဟုတ် Equilibrium Constant (Kc)",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Le Chatelier's Principle", "Equilibrium Constant (Kc)"],
+        bucketsMy: ["Le Chatelier's Principle", "Equilibrium Constant (Kc)"],
+        items: [
+          SortingItem(
+            id: "y12chem-w28-sort-1",
+            labelEn:
+                "Predicting which direction equilibrium will shift after a change",
+            labelMy:
+                "ပြောင်းလဲမှုတစ်ခုနောက် Equilibrium မည်သည့်ဦးတည်ရာသို့ ရွှေ့လျားမည်ကို ခန့်မှန်းခြင်း",
+            correctBucketEn: "Le Chatelier's Principle",
+            correctBucketMy: "Le Chatelier's Principle",
+          ),
+          SortingItem(
+            id: "y12chem-w28-sort-2",
+            labelEn:
+                "Calculating a numerical ratio of product to reactant concentrations",
+            labelMy:
+                "Product ကို Reactant Concentration ဖြင့် စားသော ဂဏန်း Ratio တွက်ချက်ခြင်း",
+            correctBucketEn: "Equilibrium Constant (Kc)",
+            correctBucketMy: "Equilibrium Constant (Kc)",
+          ),
+          SortingItem(
+            id: "y12chem-w28-sort-3",
+            labelEn:
+                "A system disturbed by heat shifts to counteract the change",
+            labelMy:
+                "Heat က နှောင့်ယှက်ခံရသော System တစ်ခု ပြောင်းလဲမှုကို ဆန့်ကျင်ရန် ရွှေ့လျားသည်",
+            correctBucketEn: "Le Chatelier's Principle",
+            correctBucketMy: "Le Chatelier's Principle",
+          ),
+          SortingItem(
+            id: "y12chem-w28-sort-4",
+            labelEn: "A value that only changes with temperature",
+            labelMy: "Temperature ဖြင့်သာ ပြောင်းလဲသော တန်ဖိုး",
+            correctBucketEn: "Equilibrium Constant (Kc)",
+            correctBucketMy: "Equilibrium Constant (Kc)",
+          ),
+          SortingItem(
+            id: "y12chem-w28-sort-5",
+            labelEn: "Predicting qualitatively, without calculating a number",
+            labelMy: "ဂဏန်း မတွက်ချက်ဘဲ Qualitatively ခန့်မှန်းခြင်း",
+            correctBucketEn: "Le Chatelier's Principle",
+            correctBucketMy: "Le Chatelier's Principle",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating Kc for the Haber Process",
+      titleMy: "စာဖတ်ခြင်း - Haber Process အတွက် Kc တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating Kc for the Haber Process",
+        titleMy: "Haber Process အတွက် Kc တွက်ချက်ခြင်း",
+        passageEn:
+            "For their Term 7 capstone, Sayama Chaw Su Hlaing's class calculated Kc for the Haber process equilibrium at a particular operating temperature, using measured equilibrium concentrations: [N2] = 0.50 mol dm⁻³, [H2] = 1.5 mol dm⁻³, and [NH3] = 0.20 mol dm⁻³, for the reaction N2(g) + 3H2(g) ⇌ 2NH3(g).\n\nHnin Pwint Wai built the Kc expression carefully, raising each concentration to its coefficient in the balanced equation: Kc = [NH3]² / ([N2][H2]³). Substituting the values: Kc = 0.20² / (0.50 x 1.5³) = 0.04 / (0.50 x 3.375) = 0.04 / 1.6875 = 0.0237 mol⁻² dm⁶ (to 3 significant figures).\n\nSayama Chaw Su Hlaing asked what this small Kc value -- well below 1 -- tells the class about the position of equilibrium at this particular temperature. Hnin Pwint Wai reasoned it through: a small Kc means the numerator (product concentration terms) is much smaller than the denominator (reactant concentration terms) at equilibrium, so the equilibrium position lies well towards the reactants, N2 and H2, rather than towards ammonia -- meaning that even at this specific compromise temperature, the reaction converts only a modest fraction of nitrogen and hydrogen into ammonia at any one pass through the reactor.\n\nSayama Chaw Su Hlaing closed the capstone by tying the whole term together: Le Chatelier's principle (Week 25) explains qualitatively why choosing a lower temperature would increase this Kc value and shift equilibrium further towards ammonia, Kc itself (Week 26) gives the precise numerical position of equilibrium at whatever temperature is actually chosen, and industrial compromise conditions (Week 27) explain why real Haber process plants accept this modest per-pass yield rather than chasing a larger Kc at an impractically low, slow-reacting temperature -- unconverted N2 and H2 are simply recycled back through the reactor rather than wasted, making the modest single-pass Kc commercially acceptable.",
+        passageMy:
+            "သူတို့၏ Term 7 အထွတ်အထိပ်အတွက် Sayama ချောစုလှိုင် ၏ အတန်းသည် Reaction N2(g) + 3H2(g) ⇌ 2NH3(g) အတွက် Operating Temperature အထူးတစ်ခုရှိ Haber Process Equilibrium ၏ Kc ကို တိုင်းတာထားသော Equilibrium Concentration - [N2] = 0.50 mol dm⁻³, [H2] = 1.5 mol dm⁻³, [NH3] = 0.20 mol dm⁻³ - ကို အသုံးပြု၍ တွက်ချက်ခဲ့ကြသည်။\n\nHnin Pwint Wai သည် Concentration တစ်ခုစီကို Balanced Equation ရှိ ၎င်း Coefficient ဖြင့် မြှောက်ကာ Kc Expression ကို ဂရုတစိုက် တည်ဆောက်ခဲ့သည် - Kc = [NH3]² / ([N2][H2]³) ။ တန်ဖိုးများကို အစားထိုးခြင်း - Kc = 0.20² / (0.50 x 1.5³) = 0.04 / (0.50 x 3.375) = 0.04 / 1.6875 = 0.0237 mol⁻² dm⁶ (Significant Figures ၃ ခုအထိ)။\n\n1 ထက် သိသိသာသာ နိမ့်သော ဤ Kc တန်ဖိုး ငယ်သည်က Temperature အထူးတစ်ခုရှိ Equilibrium Position အကြောင်း အတန်းကို ဘာပြောနေသည်ကို Sayama ချောစုလှိုင် မေးမြန်းခဲ့သည်။ Hnin Pwint Wai သည် ဤအချက်ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Kc ငယ်ခြင်းသည် Equilibrium တွင် Numerator (Product Concentration Term များ) သည် Denominator (Reactant Concentration Term များ) ထက် များစွာ ငယ်ကြောင်း ဆိုလိုသောကြောင့် Equilibrium Position သည် Ammonia ဘက်မဟုတ်ဘဲ N2 နှင့် H2, Reactant ဘက်တွင် ကောင်းစွာ ရှိသည် -- ဤ Compromise Temperature အထူးတွင်ပင် Reaction သည် Reactor ကို တစ်ကြိမ် ဖြတ်သန်းသည့်တိုင်း Nitrogen နှင့် Hydrogen ၏ အနည်းငယ်သော Fraction ကိုသာ Ammonia အဖြစ် Convert ပြောင်းလဲကြောင်း ဆိုလိုသည်။\n\nTerm တစ်ခုလုံးကို ပေါင်းစည်းလျက် Sayama ချောစုလှိုင် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည် - Le Chatelier's Principle (နှစ်ဆယ့်ငါးပတ်) သည် Temperature နိမ့်စွာ ရွေးချယ်ခြင်းက ဤ Kc တန်ဖိုးကို အဘယ့်ကြောင့် တိုးမြှင့်ပြီး Equilibrium ကို Ammonia ဘက်သို့ ပို၍ ရွှေ့လျားစေသည်ကို Qualitatively ရှင်းပြပြီး Kc ကိုယ်တိုင် (နှစ်ဆယ့်ခြောက်ပတ်) သည် ရွေးချယ်ထားသော Temperature မည်သို့ပင်ရှိစေ Equilibrium ၏ တိကျသော ဂဏန်း Position ကို ပေးကာ Industrial Compromise Conditions (နှစ်ဆယ့်ခုနစ်ပတ်) သည် လက်တွေ့ Haber Process Plant များ Kc ပို၍ ကြီးသော်လည်း လက်တွေ့ကျ၍ မရသော၊ နှေးကွေးစွာ တုံ့ပြန်သော Temperature ကို ဆွဲယူမည့်အစား ဤ Modest Per-Pass Yield ကို အဘယ့်ကြောင့် လက်ခံကြသည်ကို ရှင်းပြသည် -- Convert မဖြစ်သေးသော N2 နှင့် H2 ကို ဖျက်ဆီးမည့်အစား Reactor ကို ပြန်လည် ဖြတ်သန်းစေသောကြောင့် Modest Single-Pass Kc ကို Commercially လက်ခံနိုင်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the calculated Kc value?",
+            questionMy: "တွက်ချက်ထားသော Kc တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "0.0237 mol⁻² dm⁶",
+              "1.6875 mol⁻² dm⁶",
+              "0.04 mol⁻² dm⁶",
+              "0.20 mol⁻² dm⁶",
+            ],
+            optionsMy: [
+              "0.0237 mol⁻² dm⁶",
+              "1.6875 mol⁻² dm⁶",
+              "0.04 mol⁻² dm⁶",
+              "0.20 mol⁻² dm⁶",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does the small Kc value indicate about the equilibrium position?",
+            questionMy:
+                "Kc တန်ဖိုး ငယ်ခြင်းသည် Equilibrium Position အကြောင်း ဘာညွှန်ပြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It lies well towards the reactants, N2 and H2",
+              "It lies well towards ammonia",
+              "There is no reaction occurring at all",
+              "The reaction has gone to completion",
+            ],
+            optionsMy: [
+              "N2 နှင့် H2, Reactant ဘက်တွင် ကောင်းစွာ ရှိသည်",
+              "Ammonia ဘက်တွင် ကောင်းစွာ ရှိသည်",
+              "Reaction လုံးဝ မဖြစ်ပေါ်ပါ",
+              "Reaction သည် Completion သို့ ရောက်ရှိသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's reasoning."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what happens to unconverted N2 and H2 in a real Haber process plant?",
+            questionMy:
+                "တကယ့် Haber Process Plant တစ်ခုတွင် Convert မဖြစ်သေးသော N2 နှင့် H2 အဘယ်သို့ ဖြစ်ကြသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They are recycled back through the reactor",
+              "They are permanently wasted and discarded",
+              "They are converted into a different chemical entirely",
+              "They cause the plant to shut down",
+            ],
+            optionsMy: [
+              "Reactor ကို ပြန်လည် ဖြတ်သန်းစေသည်",
+              "အမြဲတမ်း ဖျက်ဆီး၍ ပစ်ထုတ်လိုက်သည်",
+              "လုံးဝ ကွဲပြားသော Chemical တစ်ခုအဖြစ် ပြောင်းလဲသွားသည်",
+              "Plant ကို ပိတ်စေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w28-d5",
+      dayNumber: 5,
+      titleEn: "Term 7 Capstone: Equilibria",
+      titleMy: "Term ၇ အထွတ်အထိပ် - Equilibria",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At dynamic equilibrium, forward and reverse reaction rates are...",
+          questionMy:
+              "Dynamic Equilibrium တွင် Forward နှင့် Reverse Reaction Rate များသည်...",
+          optionsEn: [
+            "Equal",
+            "Always zero",
+            "Random and unpredictable",
+            "Never related",
+          ],
+          optionsMy: [
+            "ညီမျှသည်",
+            "အမြဲ Zero ဖြစ်သည်",
+            "ကျပန်းနှင့် ခန့်မှန်း၍ မရပါ",
+            "ဘယ်တော့မှ မဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Le Chatelier's principle predicts that a disturbed equilibrium will...",
+          questionMy:
+              "Le Chatelier's Principle အရ နှောင့်ယှက်ခံရသော Equilibrium သည်...",
+          optionsEn: [
+            "Shift to counteract the disturbance",
+            "Always stop reacting",
+            "Explode immediately",
+            "Never change at all",
+          ],
+          optionsMy: [
+            "နှောင့်ယှက်မှုကို ဆန့်ကျင်ရန် ရွှေ့လျားသည်",
+            "အမြဲ တုံ့ပြန်ခြင်း ရပ်တန့်သွားသည်",
+            "ချက်ချင်း ပေါက်ကွဲသွားသည်",
+            "လုံးဝ ဘယ်တော့မှ မပြောင်းလဲပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Kc for a reaction changes only when...",
+          questionMy:
+              "Reaction တစ်ခု၏ Kc ပြောင်းလဲသည်မှာ ...ချိန်တွင်သာ ဖြစ်သည်",
+          optionsEn: [
+            "Temperature changes",
+            "A catalyst is added",
+            "Concentration changes",
+            "Pressure changes",
+          ],
+          optionsMy: [
+            "Temperature ပြောင်းလဲချိန်",
+            "Catalyst ထည့်ချိန်",
+            "Concentration ပြောင်းလဲချိန်",
+            "Pressure ပြောင်းလဲချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst speeds up the rate of reaction without...",
+          questionMy:
+              "Catalyst တစ်ခုသည် ...မရှိဘဲ Reaction Rate ကို မြန်ဆန်စေသည်",
+          optionsEn: [
+            "Changing the position of equilibrium",
+            "Being consumed in normal chemical reactions",
+            "Lowering activation energy",
+            "Providing an alternative reaction pathway",
+          ],
+          optionsMy: [
+            "Equilibrium Position ပြောင်းလဲခြင်း",
+            "ပုံမှန် Chemical Reaction များတွင် စားသုံးခံရခြင်း",
+            "Activation Energy လျှော့ချခြင်း",
+            "Alternative Reaction Pathway ပေးအပ်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm7 = CourseTermDef(
+  id: "course-y12-chem-term7",
+  termNumber: 7,
+  titleEn: "Equilibria",
+  titleMy: "Equilibria",
+  weeks: [_y12ChemWeek25, _y12ChemWeek26, _y12ChemWeek27, _y12ChemWeek28],
+  certificateTitleEn: "AS Chemistry: Equilibria",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Equilibria",
+);
+
 /// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-6 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
-/// Bonding; States of Matter; Chemical Energetics; Electrochemistry)
-/// authored; Terms 7-9 (Equilibria; Reaction Kinetics; The Periodic
+/// 1-7 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
+/// Bonding; States of Matter; Chemical Energetics; Electrochemistry;
+/// Equilibria) authored; Terms 8-9 (Reaction Kinetics; The Periodic
 /// Table -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No
 /// LaTeX renderer exists in this app -- formulas throughout use the
 /// same plain Unicode math notation (², √, x for multiplication)
@@ -21216,7 +22606,7 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 24,
+  totalWeeks: 28,
   terms: [
     year12ChemistryTerm1,
     year12ChemistryTerm2,
@@ -21224,5 +22614,6 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
     year12ChemistryTerm4,
     year12ChemistryTerm5,
     year12ChemistryTerm6,
+    year12ChemistryTerm7,
   ],
 );
