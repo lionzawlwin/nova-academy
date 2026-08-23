@@ -16028,9 +16028,1321 @@ const CourseTermDef year12ChemistryTerm2 = CourseTermDef(
   certificateTitleMy: "AS ဓာတုဗေဒ - Atoms, Molecules and Stoichiometry",
 );
 
+// =====================================================================
+// YEAR 12 CHEMISTRY -- Term 3: "Chemical Bonding"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Ionic and Covalent Bonding"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek9 = CourseWeekDef(
+  id: "course-y12-chem-w9",
+  weekNumber: 9,
+  titleEn: "Ionic and Covalent Bonding",
+  titleMy: "Ionic နှင့် Covalent Bonding",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w9-d1",
+      dayNumber: 1,
+      titleEn: "Ionic, Covalent and Dative Bonding",
+      titleMy: "Ionic, Covalent နှင့် Dative Bonding",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ionic bonding is best described as...",
+          questionMy: "Ionic Bonding ကို အကောင်းဆုံး ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "The electrostatic attraction between oppositely charged ions",
+            "A shared pair of electrons between two atoms",
+            "The attraction between neutral atoms only",
+            "A bond that never involves electrons",
+          ],
+          optionsMy: [
+            "Charge ဆန့်ကျင်ဘက်ရှိ Ion များကြား Electrostatic Attraction",
+            "Atom နှစ်ခုကြား Electron တွဲစုံ တစ်စုံ",
+            "Neutral Atom များကြားသာ Attraction",
+            "Electron မပါဝင်ဘဲ လုံးဝ ဖြစ်သော Bond",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Covalent bonding is best described as...",
+          questionMy: "Covalent Bonding ကို အကောင်းဆုံး ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "The electrostatic attraction between two nuclei and a shared pair of electrons",
+            "The transfer of electrons from one atom to another",
+            "The attraction between two oppositely charged ions",
+            "A bond found only in metals",
+          ],
+          optionsMy: [
+            "Nucleus နှစ်ခုနှင့် Shared Electron Pair တစ်စုံကြား Electrostatic Attraction",
+            "Atom တစ်ခုမှ အခြားတစ်ခုသို့ Electron လွှဲပြောင်းခြင်း",
+            "Charge ဆန့်ကျင်ဘက်ရှိ Ion နှစ်ခုကြား Attraction",
+            "Metal များတွင်သာ တွေ့ရသော Bond",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A dative (coordinate) covalent bond forms when...",
+          questionMy: "Dative (Coordinate) Covalent Bond ဖြစ်ပေါ်ချိန်မှာ...",
+          optionsEn: [
+            "Both electrons in the shared pair come from the same atom",
+            "Each atom contributes exactly one electron, as usual",
+            "No electrons are shared at all",
+            "Electrons are transferred completely, not shared",
+          ],
+          optionsMy: [
+            "Shared Pair ထဲရှိ Electron နှစ်ခုစလုံးသည် Atom တစ်ခုတည်းမှ လာချိန်",
+            "Atom တစ်ခုစီသည် ပုံမှန်အတိုင်း Electron တစ်ခုတည်း ပံ့ပိုးချိန်",
+            "Electron လုံးဝ မမျှဝေချိန်",
+            "Electron များကို မျှဝေခြင်း မဟုတ်ဘဲ လုံးဝ လွှဲပြောင်းချိန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Bonding Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Bonding ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w9-dm-1",
+          termEn: "Ionic bond",
+          termMy: "Ionic Bond",
+          matchEn:
+              "The electrostatic attraction between oppositely charged ions in a giant lattice",
+          matchMy:
+              "Giant Lattice ထဲရှိ Charge ဆန့်ကျင်ဘက် Ion များကြား Electrostatic Attraction",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w9-dm-2",
+          termEn: "Covalent bond",
+          termMy: "Covalent Bond",
+          matchEn: "A shared pair of electrons attracted to two nuclei",
+          matchMy: "Nucleus နှစ်ခုသို့ ဆွဲငင်ခံရသော Shared Electron Pair",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w9-dm-3",
+          termEn: "Dative (coordinate) bond",
+          termMy: "Dative (Coordinate) Bond",
+          matchEn:
+              "A covalent bond where both shared electrons come from the same atom",
+          matchMy:
+              "Shared Electron နှစ်ခုစလုံးသည် Atom တစ်ခုတည်းမှ လာသော Covalent Bond",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w9-dm-4",
+          termEn: "Bond energy",
+          termMy: "Bond Energy",
+          matchEn:
+              "The energy required to break one mole of a particular covalent bond",
+          matchMy:
+              "Covalent Bond အထူးတစ်ခု၏ Mole 1 ခု ချိုးဖျက်ရန် လိုအပ်သော Energy",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w9-dm-5",
+          termEn: "Giant ionic lattice",
+          termMy: "Giant Ionic Lattice",
+          matchEn:
+              "A regular, repeating 3D arrangement of oppositely charged ions held together by strong electrostatic forces",
+          matchMy:
+              "ခိုင်မာသော Electrostatic Force များဖြင့် ဆက်စပ်ထားသော Charge ဆန့်ကျင်ဘက် Ion များ၏ ပုံမှန် ထပ်ခါတလဲလဲ 3D စီစဉ်ထားမှု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ionic or Covalent Bonding?",
+      titleMy: "စီစစ်ကြမည် - Ionic သို့မဟုတ် Covalent Bonding",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ionic Bonding", "Covalent Bonding"],
+        bucketsMy: ["Ionic Bonding", "Covalent Bonding"],
+        items: [
+          SortingItem(
+            id: "y12chem-w9-sort-1",
+            labelEn: "Sodium chloride, NaCl",
+            labelMy: "Sodium Chloride, NaCl",
+            correctBucketEn: "Ionic Bonding",
+            correctBucketMy: "Ionic Bonding",
+          ),
+          SortingItem(
+            id: "y12chem-w9-sort-2",
+            labelEn: "Water, H₂O",
+            labelMy: "ရေ, H₂O",
+            correctBucketEn: "Covalent Bonding",
+            correctBucketMy: "Covalent Bonding",
+          ),
+          SortingItem(
+            id: "y12chem-w9-sort-3",
+            labelEn: "Magnesium oxide, MgO",
+            labelMy: "Magnesium Oxide, MgO",
+            correctBucketEn: "Ionic Bonding",
+            correctBucketMy: "Ionic Bonding",
+          ),
+          SortingItem(
+            id: "y12chem-w9-sort-4",
+            labelEn: "Carbon dioxide, CO₂",
+            labelMy: "Carbon Dioxide, CO₂",
+            correctBucketEn: "Covalent Bonding",
+            correctBucketMy: "Covalent Bonding",
+          ),
+          SortingItem(
+            id: "y12chem-w9-sort-5",
+            labelEn: "Calcium chloride, CaCl₂",
+            labelMy: "Calcium Chloride, CaCl₂",
+            correctBucketEn: "Ionic Bonding",
+            correctBucketMy: "Ionic Bonding",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Ammonium Ion, a Dative Bond in Action",
+      titleMy: "စာဖတ်ခြင်း - Ammonium Ion, Dative Bond လက်တွေ့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Ammonium Ion, a Dative Bond in Action",
+        titleMy: "Ammonium Ion, Dative Bond လက်တွေ့",
+        passageEn:
+            "Sayar Nay Zin Latt asked his class to explain what happens, bond by bond, when ammonia gas, NH3, reacts with a hydrogen ion, H+, to form the ammonium ion, NH4+. He reminded them that NH3 already has three ordinary N-H covalent bonds and one lone pair of electrons on the nitrogen atom, while H+ is simply a bare proton with no electrons of its own.\n\nWai Phyo Aung reasoned through the electron accounting: since H+ has no electrons at all, it cannot contribute one to a new bond the normal way. Instead, nitrogen's lone pair -- both electrons -- is donated into the empty space around the H+, forming a new N-H bond where both electrons originated from nitrogen. This is a dative, or coordinate, covalent bond, and it completes NH4+ with four N-H bonds total and an overall 1+ charge, since the proton's positive charge is now shared across the whole ion.\n\nSayar Nay Zin Latt then asked a sharper question: once the ammonium ion has formed, can any experiment tell which of the four N-H bonds was the dative one? Wai Phyo Aung answered that it cannot -- once the bond forms, the two electrons in it are no longer distinguishable from the six electrons in the other three N-H bonds. All four bonds in NH4+ are experimentally identical in length, strength and angle; the only thing that made the fourth bond different was how it came to exist, not anything about the finished bond itself. This is why chemists describe the dative bond as a bond-formation mechanism, not a permanently different type of bond.",
+        passageMy:
+            "Ammonia ဓာတ်ငွေ့, NH3 သည် Hydrogen Ion, H+ နှင့် တုံ့ပြန်၍ Ammonium Ion, NH4+ ဖြစ်လာချိန် Bond တစ်ခုချင်းစီ မည်သို့ ဖြစ်ပေါ်သည်ကို ရှင်းပြခိုင်းရန် Sayar နေဇင်လတ် သူ၏ အတန်းကို ခိုင်းစေခဲ့သည်။ NH3 တွင် ပုံမှန် N-H Covalent Bond သုံးခုနှင့် Nitrogen Atom ပေါ်ရှိ Lone Pair တစ်ခု ရှိပြီးသားဖြစ်ပြီး H+ သည် ကိုယ်ပိုင် Electron မရှိဘဲ Proton ရိုးရိုးတစ်ခုသာ ဖြစ်ကြောင်း သတိပေးခဲ့သည်။\n\nWai Phyo Aung သည် Electron Accounting ကို ဆင်ခြင်တွေးခေါ်ခဲ့သည် - H+ တွင် Electron လုံးဝ မရှိသောကြောင့် Bond အသစ်တစ်ခုသို့ ပုံမှန် နည်းလမ်းဖြင့် တစ်ခု ပံ့ပိုးနိုင်မည် မဟုတ်ပါ။ ယင်းအစား Nitrogen ၏ Lone Pair -- Electron နှစ်ခုစလုံး -- သည် H+ ပတ်ပတ်လည် ဗလာ Space ထဲသို့ လှူဒါန်းခံရပြီး Electron နှစ်ခုစလုံး Nitrogen မှ လာသော N-H Bond အသစ်တစ်ခုကို ဖြစ်ပေါ်စေသည်။ ၎င်းသည် Dative သို့မဟုတ် Coordinate Covalent Bond ဖြစ်ပြီး N-H Bond စုစုပေါင်း လေးခုနှင့် Overall Charge 1+ ဖြင့် NH4+ ကို ပြီးစီးစေသည်၊ Proton ၏ အပေါင်း Charge သည် ယခု Ion တစ်ခုလုံးတလျှောက် မျှဝေထားသောကြောင့် ဖြစ်သည်။\n\nAmmonium Ion ဖြစ်ပေါ်ပြီးနောက် N-H Bond လေးခုအနက် မည်သည့်တစ်ခုသည် Dative ဖြစ်သည်ကို Experiment တစ်ခုမျှ ပြောနိုင်ပါသလားဟု Sayar နေဇင်လတ် ထို့နောက် ပို၍ ထက်မြက်သော မေးခွန်းတစ်ခု မေးမြန်းခဲ့သည်။ ၎င်းကို မပြောနိုင်ကြောင်း Wai Phyo Aung ဖြေကြားခဲ့သည် -- Bond ဖြစ်ပေါ်ပြီးနောက် ၎င်းထဲရှိ Electron နှစ်ခုသည် အခြား N-H Bond သုံးခုထဲရှိ Electron ခြောက်ခုနှင့် မခွဲခြားနိုင်တော့ပါ။ NH4+ ထဲရှိ Bond လေးခုစလုံးသည် Length, Strength နှင့် Angle ဖြင့် Experiment အရ တူညီသည် -- စတုတ္ထ Bond ကို ကွဲပြားစေသော တစ်ခုတည်းသော အချက်မှာ ၎င်း မည်သို့ ဖြစ်ပေါ်လာသည် ဖြစ်ပြီး ပြီးစီးသော Bond ကိုယ်တိုင်နှင့် ပတ်သက်သော မည်သည့်အရာမျှ မဟုတ်ပါ။ ၎င်းသည် Chemist များက Dative Bond ကို အမြဲတမ်း ကွဲပြားသော Bond အမျိုးအစားတစ်ခု မဟုတ်ဘဲ Bond-Formation Mechanism တစ်ခုအဖြစ် ဖော်ပြရသည့် အကြောင်းရင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which atom donates both electrons for the dative bond?",
+            questionMy:
+                "Dative Bond အတွက် Electron နှစ်ခုစလုံးကို မည်သည့် Atom က လှူဒါန်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nitrogen",
+              "Hydrogen",
+              "Oxygen",
+              "Neither atom donates any electrons",
+            ],
+            optionsMy: [
+              "Nitrogen",
+              "Hydrogen",
+              "Oxygen",
+              "Atom မည်သည့်တစ်ခုမျှ Electron မလှူဒါန်းပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the overall charge of the ammonium ion?",
+            questionMy: "Ammonium Ion ၏ Overall Charge ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1+", "2+", "1-", "0 (neutral)"],
+            optionsMy: ["1+", "2+", "1-", "0 (Neutral)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why can't experiments tell which N-H bond was the dative one?",
+            questionMy:
+                "N-H Bond မည်သည့်တစ်ခုသည် Dative ဖြစ်သည်ကို Experiment များ အဘယ့်ကြောင့် မပြောနိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The electrons become indistinguishable once the bond forms, making all four bonds identical",
+              "The ammonium ion does not actually contain four bonds",
+              "Nitrogen loses all its electrons in the reaction",
+              "Dative bonds are always weaker and easy to spot",
+            ],
+            optionsMy: [
+              "Bond ဖြစ်ပေါ်ပြီးနောက် Electron များ မခွဲခြားနိုင်တော့ဘဲ Bond လေးခုစလုံးကို တူညီစေသည်",
+              "Ammonium Ion တွင် Bond လေးခု တကယ် မပါဝင်ပါ",
+              "Reaction တွင် Nitrogen သည် ၎င်း၏ Electron အားလုံး ဆုံးရှုံးသည်",
+              "Dative Bond များသည် အမြဲ ပိုအားနည်းပြီး တွေ့ရှိရန် လွယ်ကူသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Ionic and Covalent Bonding",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Ionic and Covalent Bonding",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ionic bonds involve...",
+          questionMy: "Ionic Bond များတွင် ပါဝင်သည်မှာ...",
+          optionsEn: [
+            "Electrostatic attraction between oppositely charged ions",
+            "A shared pair of electrons only",
+            "No charged particles at all",
+            "Attraction between two neutral atoms",
+          ],
+          optionsMy: [
+            "Charge ဆန့်ကျင်ဘက် Ion များကြား Electrostatic Attraction",
+            "Shared Electron Pair တစ်ခုတည်း",
+            "Charge ရှိသော Particle လုံးဝ မရှိပါ",
+            "Neutral Atom နှစ်ခုကြား Attraction",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a dative bond, both shared electrons come from...",
+          questionMy:
+              "Dative Bond တစ်ခုတွင် Shared Electron နှစ်ခုစလုံးသည် ...မှ လာသည်",
+          optionsEn: [
+            "The same atom",
+            "Two different atoms equally",
+            "Neither atom",
+            "A third, uninvolved atom",
+          ],
+          optionsMy: [
+            "Atom တစ်ခုတည်း",
+            "မတူညီသော Atom နှစ်ခု အညီအမျှ",
+            "Atom မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+            "မပါဝင်သော တတိယ Atom တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A giant ionic lattice is held together by...",
+          questionMy: "Giant Ionic Lattice တစ်ခုကို ...ဖြင့် ဆက်စပ်ထားသည်",
+          optionsEn: [
+            "Strong electrostatic forces between ions",
+            "Weak forces that break easily",
+            "Covalent bonds only",
+            "No forces at all",
+          ],
+          optionsMy: [
+            "Ion များကြား ခိုင်မာသော Electrostatic Force",
+            "လွယ်ကူစွာ ပြတ်တောက်တတ်သော အားနည်းသော Force",
+            "Covalent Bond တစ်ခုတည်း",
+            "Force လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Shapes of Molecules (VSEPR)"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek10 = CourseWeekDef(
+  id: "course-y12-chem-w10",
+  weekNumber: 10,
+  titleEn: "Shapes of Molecules (VSEPR)",
+  titleMy: "Molecule Shapes (VSEPR)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w10-d1",
+      dayNumber: 1,
+      titleEn: "VSEPR Theory and Molecular Shapes",
+      titleMy: "VSEPR Theory နှင့် Molecular Shapes",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "According to VSEPR theory, electron pairs around a central atom arrange themselves to...",
+          questionMy:
+              "VSEPR Theory အရ Central Atom ပတ်ပတ်လည်ရှိ Electron Pair များသည် ...စီစဉ်ကြသည်",
+          optionsEn: [
+            "Minimise repulsion between them, spreading as far apart as possible",
+            "Cluster as closely together as possible",
+            "Ignore each other completely",
+            "Form a straight line no matter how many pairs are present",
+          ],
+          optionsMy: [
+            "၎င်းတို့ကြား Repulsion လျှော့ချရန်၊ ဖြစ်နိုင်သမျှ ဝေးစွာ ပျံ့နှံ့စေသည်",
+            "ဖြစ်နိုင်သမျှ နီးကပ်စွာ စုပုံနေသည်",
+            "အချင်းချင်း လုံးဝ လျစ်လျူရှုသည်",
+            "Pair မည်မျှ ရှိစေ ဖြောင့်တန်းသော လိုင်း ဖြစ်ရမည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A molecule with 4 bonding pairs and 0 lone pairs has a shape of...",
+          questionMy:
+              "Bonding Pair 4 ခုနှင့် Lone Pair 0 ခု ရှိသော Molecule တစ်ခု၏ Shape မှာ...",
+          optionsEn: [
+            "Tetrahedral, bond angle 109.5°",
+            "Linear, bond angle 180°",
+            "Trigonal planar, bond angle 120°",
+            "Trigonal pyramidal, bond angle 107°",
+          ],
+          optionsMy: [
+            "Tetrahedral, Bond Angle 109.5°",
+            "Linear, Bond Angle 180°",
+            "Trigonal Planar, Bond Angle 120°",
+            "Trigonal Pyramidal, Bond Angle 107°",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A molecule with 3 bonding pairs and 1 lone pair, such as NH3, has a shape of...",
+          questionMy:
+              "NH3 ကဲ့သို့ Bonding Pair 3 ခုနှင့် Lone Pair 1 ခု ရှိသော Molecule တစ်ခု၏ Shape မှာ...",
+          optionsEn: [
+            "Trigonal pyramidal, bond angle approximately 107°",
+            "Tetrahedral, bond angle 109.5°",
+            "Linear, bond angle 180°",
+            "Trigonal planar, bond angle 120°",
+          ],
+          optionsMy: [
+            "Trigonal Pyramidal, Bond Angle ခန့်မှန်းခြေ 107°",
+            "Tetrahedral, Bond Angle 109.5°",
+            "Linear, Bond Angle 180°",
+            "Trigonal Planar, Bond Angle 120°",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Molecular Shape Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Molecular Shape ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w10-dm-1",
+          termEn: "VSEPR theory",
+          termMy: "VSEPR Theory",
+          matchEn:
+              "Electron pairs around a central atom arrange to minimise repulsion, determining molecular shape",
+          matchMy:
+              "Central Atom ပတ်ပတ်လည်ရှိ Electron Pair များသည် Repulsion လျော့ချရန် စီစဉ်ပြီး Molecular Shape ကို သတ်မှတ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w10-dm-2",
+          termEn: "Linear",
+          termMy: "Linear",
+          matchEn:
+              "Shape with 2 electron pairs and 0 lone pairs, bond angle 180°",
+          matchMy:
+              "Electron Pair 2 ခုနှင့် Lone Pair 0 ခု ရှိသော Shape, Bond Angle 180°",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w10-dm-3",
+          termEn: "Tetrahedral",
+          termMy: "Tetrahedral",
+          matchEn:
+              "Shape with 4 bonding pairs and 0 lone pairs, bond angle 109.5°",
+          matchMy:
+              "Bonding Pair 4 ခုနှင့် Lone Pair 0 ခု ရှိသော Shape, Bond Angle 109.5°",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w10-dm-4",
+          termEn: "Trigonal pyramidal",
+          termMy: "Trigonal Pyramidal",
+          matchEn:
+              "Shape with 3 bonding pairs and 1 lone pair, bond angle approximately 107°",
+          matchMy:
+              "Bonding Pair 3 ခုနှင့် Lone Pair 1 ခု ရှိသော Shape, Bond Angle ခန့်မှန်းခြေ 107°",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w10-dm-5",
+          termEn: "Lone pair repulsion",
+          termMy: "Lone Pair Repulsion",
+          matchEn:
+              "Lone pairs repel more strongly than bonding pairs, slightly compressing bond angles",
+          matchMy:
+              "Lone Pair များသည် Bonding Pair များထက် ပို၍ ခိုင်မာစွာ ဆန့်ကျင်ပြီး Bond Angle ကို အနည်းငယ် ကျဉ်းစေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Tetrahedral or Trigonal Pyramidal?",
+      titleMy: "စီစစ်ကြမည် - Tetrahedral သို့မဟုတ် Trigonal Pyramidal",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Tetrahedral", "Trigonal Pyramidal"],
+        bucketsMy: ["Tetrahedral", "Trigonal Pyramidal"],
+        items: [
+          SortingItem(
+            id: "y12chem-w10-sort-1",
+            labelEn: "Methane, CH₄ (4 bonding pairs, 0 lone pairs)",
+            labelMy: "Methane, CH₄ (Bonding Pair 4, Lone Pair 0)",
+            correctBucketEn: "Tetrahedral",
+            correctBucketMy: "Tetrahedral",
+          ),
+          SortingItem(
+            id: "y12chem-w10-sort-2",
+            labelEn: "Ammonia, NH₃ (3 bonding pairs, 1 lone pair)",
+            labelMy: "Ammonia, NH₃ (Bonding Pair 3, Lone Pair 1)",
+            correctBucketEn: "Trigonal Pyramidal",
+            correctBucketMy: "Trigonal Pyramidal",
+          ),
+          SortingItem(
+            id: "y12chem-w10-sort-3",
+            labelEn: "Tetrachloromethane, CCl₄",
+            labelMy: "Tetrachloromethane, CCl₄",
+            correctBucketEn: "Tetrahedral",
+            correctBucketMy: "Tetrahedral",
+          ),
+          SortingItem(
+            id: "y12chem-w10-sort-4",
+            labelEn: "Phosphine, PH₃ (3 bonding pairs, 1 lone pair)",
+            labelMy: "Phosphine, PH₃ (Bonding Pair 3, Lone Pair 1)",
+            correctBucketEn: "Trigonal Pyramidal",
+            correctBucketMy: "Trigonal Pyramidal",
+          ),
+          SortingItem(
+            id: "y12chem-w10-sort-5",
+            labelEn: "Silane, SiH₄",
+            labelMy: "Silane, SiH₄",
+            correctBucketEn: "Tetrahedral",
+            correctBucketMy: "Tetrahedral",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Water Isn't Perfectly Tetrahedral",
+      titleMy: "စာဖတ်ခြင်း - ရေ အပြည့်အစုံ Tetrahedral မဟုတ်ရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Water Isn't Perfectly Tetrahedral",
+        titleMy: "ရေ အပြည့်အစုံ Tetrahedral မဟုတ်ရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayama Thanda Aye asked her class to predict the H-O-H bond angle in a water molecule, starting from the fact that oxygen has 4 electron pairs around it in total. Su Latt Yamin began with the baseline case: 4 electron pairs with no lone pairs at all gives a perfectly tetrahedral shape with a bond angle of 109.5°, as in methane.\n\nBut water's oxygen atom has only 2 bonding pairs (to each hydrogen) and 2 lone pairs, not 4 bonding pairs. Su Latt Yamin recalled the rule that lone pairs repel more strongly than bonding pairs, since a lone pair is held closer to its own nucleus and spreads out more than a bonding pair shared between two nuclei. With 2 lone pairs pushing inward on the 2 bonding pairs, water's actual bond angle compresses to about 104.5° -- noticeably smaller than the 109.5° tetrahedral baseline.\n\nSayama Thanda Aye then asked Su Latt Yamin to compare this with ammonia, NH3, which has 3 bonding pairs and only 1 lone pair. Ammonia's single lone pair compresses its bond angle to about 107°, a smaller reduction than water's, since only one lone pair is doing the pushing rather than two. Su Latt Yamin summarised the pattern clearly: starting from the 109.5° tetrahedral baseline, each additional lone pair around a central atom compresses the bond angle a little further -- methane (0 lone pairs) at 109.5°, ammonia (1 lone pair) at 107°, and water (2 lone pairs) at 104.5°, a steadily shrinking sequence that follows directly from how strongly lone pairs repel their neighbours.",
+        passageMy:
+            "Oxygen တွင် စုစုပေါင်း Electron Pair 4 ခု ပတ်ပတ်လည် ရှိသည်ဟူသော အချက်မှ စတင်ကာ ရေ Molecule တစ်ခုရှိ H-O-H Bond Angle ကို ခန့်မှန်းခိုင်းရန် Sayama သန္တာအေး သူမ၏ အတန်းကို ခိုင်းစေခဲ့သည်။ Su Latt Yamin သည် Baseline Case ဖြင့် စတင်ခဲ့သည် - Lone Pair လုံးဝ မပါဝင်ဘဲ Electron Pair 4 ခုသည် Methane ကဲ့သို့ Bond Angle 109.5° ရှိသော ပြည့်စုံသော Tetrahedral Shape ကို ပေးသည်။\n\nသို့သော် ရေ၏ Oxygen Atom တွင် Bonding Pair 4 ခု မဟုတ်ဘဲ Bonding Pair 2 ခု (Hydrogen တစ်ခုစီသို့) နှင့် Lone Pair 2 ခုသာ ရှိသည်။ Lone Pair တစ်ခုသည် ၎င်းကိုယ်ပိုင် Nucleus နှင့် ပို၍ နီးကပ်စွာ ကိုင်ထားပြီး Nucleus နှစ်ခုကြား မျှဝေထားသော Bonding Pair တစ်ခုထက် ပို၍ ကျယ်ပြန့်စွာ ပျံ့နှံ့သောကြောင့် Lone Pair များသည် Bonding Pair များထက် ပို၍ ခိုင်မာစွာ ဆန့်ကျင်ကြောင်း စည်းမျဉ်းကို Su Latt Yamin သတိရခဲ့သည်။ Bonding Pair 2 ခုကို အတွင်းသို့ တွန်းထုတ်နေသော Lone Pair 2 ခုနှင့်အတူ ရေ၏ တကယ့် Bond Angle သည် ခန့်မှန်းခြေ 104.5° သို့ ကျဉ်းသွားသည် -- 109.5° Tetrahedral Baseline ထက် သိသိသာသာ ငယ်သည်။\n\nBonding Pair 3 ခုနှင့် Lone Pair 1 ခုသာ ရှိသော Ammonia, NH3 နှင့် ၎င်းကို နှိုင်းယှဉ်ခိုင်းရန် Sayama သန္တာအေး ထို့နောက် Su Latt Yamin ကို ခိုင်းစေခဲ့သည်။ Ammonia ၏ Lone Pair တစ်ခုတည်းသည် ၎င်း၏ Bond Angle ကို ခန့်မှန်းခြေ 107° သို့ ကျဉ်းစေပြီး Lone Pair နှစ်ခု မဟုတ်ဘဲ တစ်ခုတည်း တွန်းထုတ်နေသောကြောင့် ရေ၏ ကျဉ်းမှုထက် သိသိသာသာ ငယ်သည်။ ပုံစံကို Su Latt Yamin ရှင်းလင်းစွာ အနှစ်ချုပ်ခဲ့သည် - 109.5° Tetrahedral Baseline မှ စတင်ကာ Central Atom ပတ်ပတ်လည်ရှိ ထပ်ဆောင်း Lone Pair တစ်ခုစီသည် Bond Angle ကို အနည်းငယ် ပို၍ ကျဉ်းစေသည် -- Methane (Lone Pair 0 ခု) 109.5° တွင်၊ Ammonia (Lone Pair 1 ခု) 107° တွင်၊ ရေ (Lone Pair 2 ခု) 104.5° တွင်၊ Lone Pair များ ၎င်းတို့ အိမ်နီးချင်းများကို မည်မျှ ခိုင်မာစွာ ဆန့်ကျင်သည်ဆိုသည်မှ တိုက်ရိုက် လိုက်နာသော တဖြည်းဖြည်း ကျုံ့သွားနေသော အစီအစဉ် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is water's actual H-O-H bond angle?",
+            questionMy: "ရေ၏ တကယ့် H-O-H Bond Angle ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["104.5°", "109.5°", "107°", "120°"],
+            optionsMy: ["104.5°", "109.5°", "107°", "120°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is ammonia's bond angle?",
+            questionMy: "Ammonia ၏ Bond Angle ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["107°", "104.5°", "109.5°", "180°"],
+            optionsMy: ["107°", "104.5°", "109.5°", "180°"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why do lone pairs compress bond angles more than bonding pairs?",
+            questionMy:
+                "Lone Pair များသည် Bonding Pair များထက် Bond Angle ကို ပို၍ အဘယ့်ကြောင့် ကျဉ်းစေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A lone pair is held closer to its own nucleus and spreads out more, repelling more strongly",
+              "Lone pairs have no effect on bond angles at all",
+              "Bonding pairs always repel more strongly than lone pairs",
+              "Lone pairs are positively charged",
+            ],
+            optionsMy: [
+              "Lone Pair သည် ၎င်းကိုယ်ပိုင် Nucleus နှင့် ပို၍ နီးကပ်စွာ ကိုင်ထားပြီး ပို၍ ကျယ်ပြန့်စွာ ပျံ့နှံ့ကာ ပို၍ ခိုင်မာစွာ ဆန့်ကျင်သည်",
+              "Lone Pair များသည် Bond Angle ပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+              "Bonding Pair များသည် Lone Pair များထက် အမြဲ ပို၍ ခိုင်မာစွာ ဆန့်ကျင်သည်",
+              "Lone Pair များသည် Positively Charged ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Molecular Shapes",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Molecular Shapes",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "VSEPR theory predicts molecular shape based on...",
+          questionMy:
+              "VSEPR Theory သည် ...အပေါ် အခြေခံ၍ Molecular Shape ကို ခန့်မှန်းသည်",
+          optionsEn: [
+            "Minimising repulsion between electron pairs",
+            "The colour of the molecule",
+            "The mass of the central atom only",
+            "Random arrangement",
+          ],
+          optionsMy: [
+            "Electron Pair များကြား Repulsion လျော့ချခြင်း",
+            "Molecule ၏ အရောင်",
+            "Central Atom ၏ Mass တစ်ခုတည်း",
+            "ကျပန်း စီစဉ်ထားမှု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A tetrahedral shape has a bond angle of...",
+          questionMy: "Tetrahedral Shape တစ်ခု၏ Bond Angle မှာ...",
+          optionsEn: ["109.5°", "180°", "120°", "90°"],
+          optionsMy: ["109.5°", "180°", "120°", "90°"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Compared to methane, water's bond angle is...",
+          questionMy: "Methane နှင့် နှိုင်းယှဉ်ပါက ရေ၏ Bond Angle သည်...",
+          optionsEn: [
+            "Smaller, due to greater lone pair repulsion",
+            "Larger, due to fewer lone pairs",
+            "Exactly the same",
+            "Impossible to determine",
+          ],
+          optionsMy: [
+            "Lone Pair Repulsion ပို၍ ကြီးမားသောကြောင့် ငယ်သည်",
+            "Lone Pair နည်းသောကြောင့် ကြီးသည်",
+            "အတိအကျ တူညီသည်",
+            "ဆုံးဖြတ်၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "Intermolecular Forces"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek11 = CourseWeekDef(
+  id: "course-y12-chem-w11",
+  weekNumber: 11,
+  titleEn: "Intermolecular Forces",
+  titleMy: "Intermolecular Forces",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w11-d1",
+      dayNumber: 1,
+      titleEn: "Van der Waals, Dipole-Dipole and Hydrogen Bonding",
+      titleMy: "Van der Waals, Dipole-Dipole နှင့် Hydrogen Bonding",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Van der Waals (London dispersion) forces arise from...",
+          questionMy:
+              "Van der Waals (London Dispersion) Force များ ဖြစ်ပေါ်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Temporary dipoles caused by random electron movement, inducing dipoles in neighbouring molecules",
+            "Permanent full charges on every atom",
+            "Covalent bonds breaking apart",
+            "Only hydrogen atoms moving between molecules",
+          ],
+          optionsMy: [
+            "ကျပန်း Electron ရွေ့လျားမှုကြောင့် ဖြစ်ပေါ်သော ယာယီ Dipole များ၊ အနီးအနား Molecule များတွင် Dipole ဖြစ်ပေါ်စေသည်",
+            "Atom တိုင်းပေါ်ရှိ အမြဲတမ်း Full Charge",
+            "ကွဲကွာသွားသော Covalent Bond များ",
+            "Molecule များကြား ရွေ့လျားနေသော Hydrogen Atom များသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Permanent dipole-dipole forces occur between molecules that...",
+          questionMy:
+              "Permanent Dipole-Dipole Force များသည် ...Molecule များကြား ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "Have a permanent, uneven distribution of charge (polar molecules)",
+            "Are completely non-polar with no charge distribution at all",
+            "Have no electrons at all",
+            "Are always identical to each other",
+          ],
+          optionsMy: [
+            "Charge ကို အမြဲတမ်း ညီညာစွာ မမျှဝေသော (Polar Molecule)",
+            "Charge Distribution လုံးဝ မရှိသော Non-Polar",
+            "Electron လုံးဝ မရှိပါ",
+            "အချင်းချင်း အမြဲ တူညီသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Hydrogen bonding requires a hydrogen atom bonded directly to...",
+          questionMy:
+              "Hydrogen Bonding သည် ...နှင့် တိုက်ရိုက် Bond ပြုလုပ်ထားသော Hydrogen Atom တစ်ခု လိုအပ်သည်",
+          optionsEn: [
+            "A highly electronegative atom (N, O or F) with a lone pair nearby",
+            "Any carbon atom",
+            "A metal atom only",
+            "Another hydrogen atom",
+          ],
+          optionsMy: [
+            "အနီးအနား Lone Pair ရှိသော Electronegativity မြင့်သော Atom (N, O သို့မဟုတ် F)",
+            "Carbon Atom မည်သည့်တစ်ခုမဆို",
+            "Metal Atom တစ်ခုတည်း",
+            "Hydrogen Atom အခြားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Intermolecular Force Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Intermolecular Force ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w11-dm-1",
+          termEn: "Van der Waals forces",
+          termMy: "Van der Waals Forces",
+          matchEn:
+              "Weak, temporary forces caused by instantaneous dipoles, present between all molecules",
+          matchMy:
+              "Instantaneous Dipole များကြောင့် ဖြစ်ပေါ်သော အားနည်း၊ ယာယီ Force များ၊ Molecule အားလုံးကြား ရှိသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w11-dm-2",
+          termEn: "Permanent dipole-dipole force",
+          termMy: "Permanent Dipole-Dipole Force",
+          matchEn:
+              "An attractive force between molecules with a permanent, uneven charge distribution",
+          matchMy:
+              "Charge ကို အမြဲတမ်း ညီညာစွာ မမျှဝေသော Molecule များကြား Attractive Force",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w11-dm-3",
+          termEn: "Hydrogen bond",
+          termMy: "Hydrogen Bond",
+          matchEn:
+              "A strong dipole-dipole attraction between a H atom bonded to N/O/F and a lone pair on a neighbouring N/O/F",
+          matchMy:
+              "N/O/F နှင့် Bond ပြုလုပ်ထားသော H Atom နှင့် အနီးအနားရှိ N/O/F ပေါ်ရှိ Lone Pair ကြား ခိုင်မာသော Dipole-Dipole Attraction",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w11-dm-4",
+          termEn: "Electronegativity",
+          termMy: "Electronegativity",
+          matchEn:
+              "A measure of an atom's ability to attract the shared pair of electrons in a covalent bond",
+          matchMy:
+              "Covalent Bond တစ်ခုထဲရှိ Shared Electron Pair ကို ဆွဲငင်နိုင်စွမ်း Atom တစ်ခု၏ တိုင်းတာချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w11-dm-5",
+          termEn: "Polar bond",
+          termMy: "Polar Bond",
+          matchEn:
+              "A covalent bond with an uneven distribution of electron density, due to a difference in electronegativity",
+          matchMy:
+              "Electronegativity ကွာခြားမှုကြောင့် Electron Density ကို ညီညာစွာ မမျှဝေသော Covalent Bond",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Present in All Molecules or Only Polar Molecules?",
+      titleMy:
+          "စီစစ်ကြမည် - Molecule အားလုံးတွင် ရှိလား၊ Polar Molecule တွင်သာ ရှိလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Present in All Molecules",
+          "Only Present in Polar Molecules",
+        ],
+        bucketsMy: [
+          "Molecule အားလုံးတွင် ရှိသည်",
+          "Polar Molecule တွင်သာ ရှိသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y12chem-w11-sort-1",
+            labelEn: "Van der Waals (London dispersion) forces",
+            labelMy: "Van der Waals (London Dispersion) Force များ",
+            correctBucketEn: "Present in All Molecules",
+            correctBucketMy: "Molecule အားလုံးတွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w11-sort-2",
+            labelEn: "Permanent dipole-dipole forces",
+            labelMy: "Permanent Dipole-Dipole Force များ",
+            correctBucketEn: "Only Present in Polar Molecules",
+            correctBucketMy: "Polar Molecule တွင်သာ ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w11-sort-3",
+            labelEn: "Hydrogen bonding",
+            labelMy: "Hydrogen Bonding",
+            correctBucketEn: "Only Present in Polar Molecules",
+            correctBucketMy: "Polar Molecule တွင်သာ ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w11-sort-4",
+            labelEn: "London dispersion forces in noble gases like argon",
+            labelMy:
+                "Argon ကဲ့သို့ Noble Gas များထဲရှိ London Dispersion Force များ",
+            correctBucketEn: "Present in All Molecules",
+            correctBucketMy: "Molecule အားလုံးတွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12chem-w11-sort-5",
+            labelEn: "Dipole-dipole attraction in hydrogen chloride, HCl",
+            labelMy: "Hydrogen Chloride, HCl ထဲရှိ Dipole-Dipole Attraction",
+            correctBucketEn: "Only Present in Polar Molecules",
+            correctBucketMy: "Polar Molecule တွင်သာ ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Water's Anomalously High Boiling Point",
+      titleMy:
+          "စာဖတ်ခြင်း - ရေ၏ ပုံမှန်ထက် ကျော်လွန်စွာ မြင့်သော Boiling Point",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Water's Anomalously High Boiling Point",
+        titleMy: "ရေ၏ ပုံမှန်ထက် ကျော်လွန်စွာ မြင့်သော Boiling Point",
+        passageEn:
+            "Sayama Thanda Aye showed her class the boiling points of the Group 16 hydrides: H2S boils at -60°C, H2Se at -41°C, and H2Te at -2°C -- a clear, steady increase down the group. She asked the class to predict where water, H2O, should fall on this trend, and then to compare that prediction with water's real boiling point of 100°C.\n\nKaung Sithu reasoned through the expected trend first: moving down Group 16, the molecules get larger and have more electrons, so van der Waals forces between them get stronger, and boiling point should increase steadily. Extrapolating that trend backward to the smallest molecule, H2O, should give a boiling point lower than H2S's -60°C, not higher -- yet water actually boils at 100°C, a difference of well over 150°C from the naive prediction.\n\nSayama Thanda Aye asked Kaung Sithu to explain the anomaly. He identified the missing force: unlike H2S, H2Se and H2Te, water's O-H bonds are polar enough, and oxygen's lone pairs available enough, for hydrogen bonding to form between water molecules -- a much stronger intermolecular force than the van der Waals forces alone that dominate the heavier hydrides. Since hydrogen bonds must be broken, in addition to van der Waals forces, to separate water molecules into a gas, water requires far more energy to boil than the simple van der Waals-only trend would predict. Sayama Thanda Aye closed by noting that H2S, H2Se and H2Te cannot hydrogen bond at all, since sulfur, selenium and tellurium are not electronegative enough for the effect -- which is exactly why only water breaks the pattern.",
+        passageMy:
+            "Group 16 Hydride များ၏ Boiling Point များကို Sayama သန္တာအေး သူမ၏ အတန်းကို ပြသခဲ့သည် - H2S သည် -60°C တွင်၊ H2Se သည် -41°C တွင်၊ H2Te သည် -2°C တွင် ဆူသည် -- Group အောက်သို့ ရှင်းလင်းစွာ တညီတညာတည်း တိုးလာသည်။ ရေ, H2O သည် ဤ Trend တွင် မည်သည့်နေရာ၌ ရှိသင့်သည်ကို ခန့်မှန်းခိုင်းပြီး ထို ခန့်မှန်းချက်ကို ရေ၏ တကယ့် Boiling Point 100°C နှင့် နှိုင်းယှဉ်ခိုင်းခဲ့သည်။\n\nKaung Sithu သည် ခန့်မှန်းထားသော Trend ကို ဦးစွာ ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Group 16 အောက်သို့ ရွှေ့သွားပါက Molecule များ ပို၍ ကြီးမားလာပြီး Electron ပို၍ ရှိလာသောကြောင့် ၎င်းတို့ကြား Van der Waals Force များ ပို၍ ခိုင်မာလာကာ Boiling Point တစ်ဆက်တည်း တိုးလာသင့်သည်။ ထို Trend ကို အငယ်ဆုံး Molecule, H2O သို့ နောက်ပြန် Extrapolate ပြုလုပ်ပါက H2S ၏ -60°C ထက် မြင့်မကျဲ့ ငယ်သော Boiling Point ကို ပေးသင့်သည် -- သို့သော် ရေသည် 100°C တွင် တကယ် ဆူပြီး ရိုးရှင်းသော ခန့်မှန်းချက်ထက် 150°C ကျော် ကွာခြားချက် ဖြစ်သည်။\n\nAnomaly ကို ရှင်းပြရန် Sayama သန္တာအေး Kaung Sithu ကို ခိုင်းစေခဲ့သည်။ ပျောက်ဆုံးနေသော Force ကို သူ ဖော်ထုတ်ခဲ့သည် - H2S, H2Se နှင့် H2Te တို့နှင့် မတူဘဲ ရေ၏ O-H Bond များသည် Polar အလုံလောက်ရှိကာ Oxygen ၏ Lone Pair များသည် ရေ Molecule များကြား Hydrogen Bond ဖြစ်ပေါ်ရန် အလုံလောက် ရရှိနိုင်သည် -- Hydride ပို၍ လေးသော Hydride များတွင် Dominant ဖြစ်သော Van der Waals Force တစ်ခုတည်းထက် များစွာ ပို၍ ခိုင်မာသော Intermolecular Force ဖြစ်သည်။ ရေ Molecule များကို ဓာတ်ငွေ့သို့ ခွဲခြားရန် Van der Waals Force များအပြင် Hydrogen Bond များကိုပါ ချိုးဖျက်ရမည်ဖြစ်သောကြောင့် ရိုးရိုး Van der Waals-Only Trend ခန့်မှန်းချက်ထက် ရေ ဆူရန် Energy များစွာ ပို၍ လိုအပ်သည်။ Sulfur, Selenium နှင့် Tellurium တို့သည် ထို Effect အတွက် Electronegativity လုံလောက်စွာ မရှိသောကြောင့် H2S, H2Se နှင့် H2Te တို့ Hydrogen Bond လုံးဝ မလုပ်နိုင်ကြောင်း -- ၎င်းသည် ရေတစ်ခုတည်းသာ Pattern ကို ချိုးဖျက်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း သတိပြု၍ Sayama သန္တာအေး ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is water's real boiling point?",
+            questionMy: "ရေ၏ တကယ့် Boiling Point ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["100°C", "-60°C", "-41°C", "-2°C"],
+            optionsMy: ["100°C", "-60°C", "-41°C", "-2°C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what force explains water's anomalously high boiling point?",
+            questionMy:
+                "ရေ၏ ပုံမှန်ထက် ကျော်လွန်စွာ မြင့်သော Boiling Point ကို ရှင်းပြသော Force ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Hydrogen bonding",
+              "Van der Waals forces alone",
+              "Ionic bonding",
+              "Metallic bonding",
+            ],
+            optionsMy: [
+              "Hydrogen Bonding",
+              "Van der Waals Force တစ်ခုတည်း",
+              "Ionic Bonding",
+              "Metallic Bonding",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, why can't H2S, H2Se and H2Te hydrogen bond?",
+            questionMy:
+                "H2S, H2Se နှင့် H2Te တို့ Hydrogen Bond အဘယ့်ကြောင့် မလုပ်နိုင်ကြောင်းကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Sulfur, selenium and tellurium are not electronegative enough",
+              "They contain no hydrogen atoms at all",
+              "They are always solids at room temperature",
+              "They have too many lone pairs to hydrogen bond",
+            ],
+            optionsMy: [
+              "Sulfur, Selenium နှင့် Tellurium တို့သည် Electronegativity လုံလောက်စွာ မရှိပါ",
+              "Hydrogen Atom လုံးဝ မပါဝင်ပါ",
+              "Room Temperature တွင် အမြဲ Solid ဖြစ်နေသည်",
+              "Hydrogen Bond လုပ်ရန် Lone Pair များလွန်းသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Intermolecular Forces",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Intermolecular Forces",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Van der Waals forces are present in...",
+          questionMy: "Van der Waals Force များသည် ...တွင် ရှိသည်",
+          optionsEn: [
+            "All molecules, polar or non-polar",
+            "Only polar molecules",
+            "Only ionic compounds",
+            "Only metals",
+          ],
+          optionsMy: [
+            "Molecule အားလုံး၊ Polar (သို့) Non-Polar",
+            "Polar Molecule တစ်ခုတည်း",
+            "Ionic Compound တစ်ခုတည်း",
+            "Metal တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Hydrogen bonding requires hydrogen bonded to...",
+          questionMy:
+              "Hydrogen Bonding သည် ...နှင့် Bond ပြုလုပ်ထားသော Hydrogen လိုအပ်သည်",
+          optionsEn: [
+            "N, O or F",
+            "Any carbon atom",
+            "Any metal",
+            "Another hydrogen atom",
+          ],
+          optionsMy: [
+            "N, O သို့မဟုတ် F",
+            "Carbon Atom မည်သည့်တစ်ခု",
+            "Metal မည်သည့်တစ်ခု",
+            "Hydrogen Atom အခြားတစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Water's boiling point is anomalously high compared to the other Group 16 hydrides because of...",
+          questionMy:
+              "ရေ၏ Boiling Point သည် Group 16 Hydride အခြားများနှင့် နှိုင်းယှဉ်ပါက ပုံမှန်ထက် မြင့်ရသည့် အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Hydrogen bonding between water molecules",
+            "Water having no intermolecular forces at all",
+            "Water molecules being unusually heavy",
+            "Ionic bonds within the water molecule",
+          ],
+          optionsMy: [
+            "ရေ Molecule များကြား Hydrogen Bonding",
+            "ရေတွင် Intermolecular Force လုံးဝ မရှိခြင်း",
+            "ရေ Molecule များ ထူးထူးဆန်းဆန်း လေးလံခြင်း",
+            "ရေ Molecule ထဲရှိ Ionic Bond များ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12: "Chemical Bonding Capstone"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12ChemWeek12 = CourseWeekDef(
+  id: "course-y12-chem-w12",
+  weekNumber: 12,
+  titleEn: "Chemical Bonding Capstone",
+  titleMy: "Chemical Bonding အထွတ်အထိပ်",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-chem-w12-d1",
+      dayNumber: 1,
+      titleEn: "Combining Bonding, Shape and Intermolecular Forces",
+      titleMy: "Bonding, Shape နှင့် Intermolecular Forces ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A molecule with 2 bonding pairs and 2 lone pairs, such as water, has a shape of...",
+          questionMy:
+              "ရေကဲ့သို့ Bonding Pair 2 ခုနှင့် Lone Pair 2 ခု ရှိသော Molecule တစ်ခု၏ Shape မှာ...",
+          optionsEn: [
+            "Bent (V-shaped), bond angle approximately 104.5°",
+            "Linear, bond angle 180°",
+            "Tetrahedral, bond angle 109.5°",
+            "Trigonal planar, bond angle 120°",
+          ],
+          optionsMy: [
+            "Bent (V-Shaped), Bond Angle ခန့်မှန်းခြေ 104.5°",
+            "Linear, Bond Angle 180°",
+            "Tetrahedral, Bond Angle 109.5°",
+            "Trigonal Planar, Bond Angle 120°",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A compound made of oppositely charged ions in a giant lattice has...",
+          questionMy:
+              "Giant Lattice ထဲရှိ Charge ဆန့်ကျင်ဘက် Ion များဖြင့် ပြုလုပ်ထားသော Compound တစ်ခုသည်...",
+          optionsEn: [
+            "Ionic bonding",
+            "Covalent bonding only",
+            "No bonding at all",
+            "Metallic bonding only",
+          ],
+          optionsMy: [
+            "Ionic Bonding",
+            "Covalent Bonding တစ်ခုတည်း",
+            "Bonding လုံးဝ မရှိပါ",
+            "Metallic Bonding တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Two molecules that can hydrogen bond with each other must each have...",
+          questionMy:
+              "အချင်းချင်း Hydrogen Bond ပြုလုပ်နိုင်သော Molecule နှစ်ခုသည် တစ်ခုစီတွင် ...ရှိရမည်",
+          optionsEn: [
+            "A hydrogen bonded to N/O/F, and a lone pair on N/O/F",
+            "Only van der Waals forces and nothing else",
+            "Ionic bonds between them",
+            "No electronegative atoms at all",
+          ],
+          optionsMy: [
+            "N/O/F နှင့် Bond ပြုလုပ်ထားသော Hydrogen နှင့် N/O/F ပေါ်ရှိ Lone Pair",
+            "Van der Waals Force သာ ရှိပြီး အခြား မည်သည့်တစ်ခုမျှ မရှိပါ",
+            "အချင်းချင်းကြား Ionic Bond",
+            "Electronegative Atom လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Term 3 Formula Review",
+      titleMy: "တွဲစပ်ကြမည် - Term ၃ ဖော်မြူလာ ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12chem-w12-dm-1",
+          termEn: "4 bonding pairs, 0 lone pairs",
+          termMy: "Bonding Pair 4, Lone Pair 0",
+          matchEn: "Tetrahedral, 109.5°",
+          matchMy: "Tetrahedral, 109.5°",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12chem-w12-dm-2",
+          termEn: "3 bonding pairs, 1 lone pair",
+          termMy: "Bonding Pair 3, Lone Pair 1",
+          matchEn: "Trigonal pyramidal, ~107°",
+          matchMy: "Trigonal Pyramidal, ~107°",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12chem-w12-dm-3",
+          termEn: "2 bonding pairs, 2 lone pairs",
+          termMy: "Bonding Pair 2, Lone Pair 2",
+          matchEn: "Bent (V-shaped), ~104.5°",
+          matchMy: "Bent (V-Shaped), ~104.5°",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12chem-w12-dm-4",
+          termEn: "Strongest intermolecular force needing N/O/F",
+          termMy: "N/O/F လိုအပ်သော အခိုင်ဆုံး Intermolecular Force",
+          matchEn: "Hydrogen bonding",
+          matchMy: "Hydrogen Bonding",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12chem-w12-dm-5",
+          termEn: "Weakest force, present in every molecule",
+          termMy: "အားနည်းဆုံး Force, Molecule အားလုံးတွင် ရှိသည်",
+          matchEn: "Van der Waals forces",
+          matchMy: "Van der Waals Forces",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Bonding Type or Intermolecular Force?",
+      titleMy: "စီစစ်ကြမည် - Bonding Type သို့မဟုတ် Intermolecular Force",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Bonding Type", "Intermolecular Force"],
+        bucketsMy: ["Bonding Type", "Intermolecular Force"],
+        items: [
+          SortingItem(
+            id: "y12chem-w12-sort-1",
+            labelEn:
+                "The electrostatic attraction between oppositely charged ions",
+            labelMy: "Charge ဆန့်ကျင်ဘက် Ion များကြား Electrostatic Attraction",
+            correctBucketEn: "Bonding Type",
+            correctBucketMy: "Bonding Type",
+          ),
+          SortingItem(
+            id: "y12chem-w12-sort-2",
+            labelEn: "Hydrogen bonding between neighbouring water molecules",
+            labelMy: "အနီးအနား ရေ Molecule များကြား Hydrogen Bonding",
+            correctBucketEn: "Intermolecular Force",
+            correctBucketMy: "Intermolecular Force",
+          ),
+          SortingItem(
+            id: "y12chem-w12-sort-3",
+            labelEn: "A shared pair of electrons within a single molecule",
+            labelMy: "Molecule တစ်ခုတည်းအတွင်းရှိ Shared Electron Pair",
+            correctBucketEn: "Bonding Type",
+            correctBucketMy: "Bonding Type",
+          ),
+          SortingItem(
+            id: "y12chem-w12-sort-4",
+            labelEn:
+                "Van der Waals forces holding separate molecules together in a liquid",
+            labelMy:
+                "Liquid တစ်ခုတွင် သီးခြား Molecule များကို ဆက်စပ်ထားသော Van der Waals Force",
+            correctBucketEn: "Intermolecular Force",
+            correctBucketMy: "Intermolecular Force",
+          ),
+          SortingItem(
+            id: "y12chem-w12-sort-5",
+            labelEn: "A dative bond where both electrons come from one atom",
+            labelMy: "Electron နှစ်ခုစလုံး Atom တစ်ခုမှ လာသော Dative Bond",
+            correctBucketEn: "Bonding Type",
+            correctBucketMy: "Bonding Type",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Explaining Ammonia's Properties from First Principles",
+      titleMy:
+          "စာဖတ်ခြင်း - Ammonia ၏ Property များကို First Principles မှ ရှင်းပြခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Explaining Ammonia's Properties from First Principles",
+        titleMy: "Ammonia ၏ Property များကို First Principles မှ ရှင်းပြခြင်း",
+        passageEn:
+            "For their Term 3 capstone, Sayar Nay Zin Latt's class explained two everyday properties of ammonia, NH3 -- its relatively high boiling point (-33°C, unusually high for such a small molecule) and its extremely high solubility in water -- using nothing but the bonding, shape and intermolecular force ideas built up across the whole term.\n\nKaung Sithu started with bonding: nitrogen forms three ordinary covalent N-H bonds, sharing one electron pair with each hydrogen, and retains one lone pair of its own. Applying VSEPR theory to these four electron pairs -- 3 bonding, 1 lone -- gives ammonia a trigonal pyramidal shape, with a bond angle of about 107°, compressed slightly from the ideal tetrahedral 109.5° by the lone pair's stronger repulsion.\n\nThat same lone pair, and the polar N-H bonds pointing away from it, are exactly what makes ammonia capable of hydrogen bonding: nitrogen is electronegative enough, and its lone pair accessible enough, for other ammonia molecules' N-H hydrogens to hydrogen bond to it. This explains the elevated boiling point directly -- hydrogen bonds between NH3 molecules must be broken in addition to van der Waals forces, requiring more energy than a similarly sized non-polar molecule would need.\n\nThe same lone pair and N-H bonds also explain ammonia's solubility: water molecules can hydrogen bond to ammonia in both directions, water's O-H hydrogens bonding to ammonia's lone pair, and ammonia's N-H hydrogens bonding to water's oxygen lone pairs. Sayar Nay Zin Latt closed the capstone by pointing out that both properties -- boiling point and solubility -- trace back to the exact same starting point: nitrogen's single lone pair, and the trigonal pyramidal shape VSEPR theory predicts it must adopt.",
+        passageMy:
+            "သူတို့၏ Term 3 အထွတ်အထိပ်အတွက် Sayar နေဇင်လတ် ၏ အတန်းသည် Ammonia, NH3 ၏ နေ့စဉ် Property နှစ်ခု -- ၎င်း၏ ဆွေးမြေ့ Boiling Point (-33°C, Molecule သေးငယ်အတွက် ထူးထူးဆန်းဆန်း မြင့်သည်) နှင့် ရေထဲတွင် အလွန် မြင့်မားစွာ ပျော်ဝင်နိုင်စွမ်း -- ကို Term တစ်ခုလုံးတလျှောက် တည်ဆောက်ခဲ့သော Bonding, Shape နှင့် Intermolecular Force Idea များသာ အသုံးပြု၍ ရှင်းပြခဲ့ကြသည်။\n\nKaung Sithu သည် Bonding ဖြင့် စတင်ခဲ့သည် - Nitrogen သည် Hydrogen တစ်ခုစီနှင့် Electron Pair တစ်ခုစီ မျှဝေလျက် ပုံမှန် Covalent N-H Bond သုံးခု ဖွဲ့စည်းပြီး ၎င်းကိုယ်ပိုင် Lone Pair တစ်ခု ထိန်းသိမ်းထားသည်။ ဤ Electron Pair လေးခု -- Bonding 3, Lone 1 -- ကို VSEPR Theory အသုံးပြုခြင်းက Ammonia ကို Trigonal Pyramidal Shape ပေးပြီး Lone Pair ၏ ပို၍ ခိုင်မာသော Repulsion ကြောင့် Ideal Tetrahedral 109.5° မှ အနည်းငယ် ကျဉ်းသွားသော Bond Angle ခန့်မှန်းခြေ 107° ရှိသည်။\n\n၎င်း Lone Pair တူညီနှင့် ၎င်းမှ ဝေးစွာ ညွှန်ပြနေသော Polar N-H Bond များသည် Ammonia ကို Hydrogen Bonding ပြုလုပ်နိုင်စွမ်းရှိစေသော အတိအကျ အချက် ဖြစ်သည် - Nitrogen သည် Electronegativity လုံလောက်စွာ ရှိပြီး ၎င်း၏ Lone Pair သည် အခြား Ammonia Molecule များ၏ N-H Hydrogen များ Hydrogen Bond ပြုလုပ်ရန် လုံလောက်စွာ ရရှိနိုင်သည်။ ၎င်းသည် မြင့်တက်နေသော Boiling Point ကို တိုက်ရိုက် ရှင်းပြသည် -- NH3 Molecule များကြား Hydrogen Bond များကို Van der Waals Force များအပြင် ချိုးဖျက်ရမည်ဖြစ်၍ အရွယ်အစား ဆင်တူသော Non-Polar Molecule တစ်ခုထက် Energy ပို၍ လိုအပ်သည်။\n\nLone Pair တူညီနှင့် N-H Bond များသည် Ammonia ၏ Solubility ကိုလည်း ရှင်းပြသည် - ရေ Molecule များသည် Ammonia သို့ Direction နှစ်ခုစလုံးတွင် Hydrogen Bond ပြုလုပ်နိုင်သည်၊ ရေ၏ O-H Hydrogen များသည် Ammonia ၏ Lone Pair သို့ Bond ပြုလုပ်ပြီး Ammonia ၏ N-H Hydrogen များသည် ရေ၏ Oxygen Lone Pair များသို့ Bond ပြုလုပ်သည်။ Property နှစ်ခုစလုံး -- Boiling Point နှင့် Solubility -- သည် အစပြုမှတ် အတိအကျ တူညီ -- Nitrogen ၏ Lone Pair တစ်ခုတည်းနှင့် VSEPR Theory ခန့်မှန်းသော Trigonal Pyramidal Shape -- သို့ ပြန်ဆက်စပ်နိုင်ကြောင်း ထောက်ပြလျက် Sayar နေဇင်လတ် အထွတ်အထိပ်ကို ပိတ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what shape does VSEPR theory predict for ammonia?",
+            questionMy:
+                "VSEPR Theory သည် Ammonia အတွက် မည်သည့် Shape ကို ခန့်မှန်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Trigonal pyramidal",
+              "Tetrahedral",
+              "Linear",
+              "Bent (V-shaped)",
+            ],
+            optionsMy: [
+              "Trigonal Pyramidal",
+              "Tetrahedral",
+              "Linear",
+              "Bent (V-Shaped)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what intermolecular force explains ammonia's elevated boiling point?",
+            questionMy:
+                "Ammonia ၏ မြင့်တက်နေသော Boiling Point ကို ရှင်းပြသော Intermolecular Force ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Hydrogen bonding",
+              "Van der Waals forces alone",
+              "Ionic bonding",
+              "Metallic bonding",
+            ],
+            optionsMy: [
+              "Hydrogen Bonding",
+              "Van der Waals Force တစ်ခုတည်း",
+              "Ionic Bonding",
+              "Metallic Bonding",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what single feature explains both of ammonia's properties?",
+            questionMy:
+                "Ammonia ၏ Property နှစ်ခုစလုံးကို ရှင်းပြသော Feature တစ်ခုတည်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nitrogen's single lone pair and the resulting trigonal pyramidal shape",
+              "The colour of ammonia gas",
+              "Ammonia having no covalent bonds at all",
+              "Ammonia's mass being unusually large",
+            ],
+            optionsMy: [
+              "Nitrogen ၏ Lone Pair တစ်ခုတည်းနှင့် ဖြစ်ပေါ်လာသော Trigonal Pyramidal Shape",
+              "Ammonia ဓာတ်ငွေ့၏ အရောင်",
+              "Ammonia တွင် Covalent Bond လုံးဝ မရှိခြင်း",
+              "Ammonia ၏ Mass ထူးထူးဆန်းဆန်း ကြီးမားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ နိဂုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-chem-w12-d5",
+      dayNumber: 5,
+      titleEn: "Term 3 Capstone: Chemical Bonding",
+      titleMy: "Term ၃ အထွတ်အထိပ် - Chemical Bonding",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Ionic bonding is the electrostatic attraction between...",
+          questionMy:
+              "Ionic Bonding သည် ...ကြား Electrostatic Attraction ဖြစ်သည်",
+          optionsEn: [
+            "Oppositely charged ions",
+            "Two shared electrons only",
+            "Two neutral atoms",
+            "Two protons",
+          ],
+          optionsMy: [
+            "Charge ဆန့်ကျင်ဘက် Ion များ",
+            "Shared Electron နှစ်ခု တစ်ခုတည်း",
+            "Neutral Atom နှစ်ခု",
+            "Proton နှစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "VSEPR theory predicts molecular shape by minimising...",
+          questionMy:
+              "VSEPR Theory သည် ...လျော့ချခြင်းဖြင့် Molecular Shape ကို ခန့်မှန်းသည်",
+          optionsEn: [
+            "Repulsion between electron pairs",
+            "The total number of atoms",
+            "The molecule's overall mass",
+            "The number of covalent bonds only",
+          ],
+          optionsMy: [
+            "Electron Pair များကြား Repulsion",
+            "Atom စုစုပေါင်း အရေအတွက်",
+            "Molecule ၏ Overall Mass",
+            "Covalent Bond အရေအတွက် တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Hydrogen bonding is a special, strong case of...",
+          questionMy: "Hydrogen Bonding သည် ...၏ အထူး၊ ခိုင်မာသော Case ဖြစ်သည်",
+          optionsEn: [
+            "Dipole-dipole force",
+            "Ionic bonding",
+            "Metallic bonding",
+            "Van der Waals forces alone",
+          ],
+          optionsMy: [
+            "Dipole-Dipole Force",
+            "Ionic Bonding",
+            "Metallic Bonding",
+            "Van der Waals Force တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Van der Waals forces are present in...",
+          questionMy: "Van der Waals Force များသည် ...တွင် ရှိသည်",
+          optionsEn: [
+            "Every molecule, polar or non-polar",
+            "Only ionic lattices",
+            "Only hydrogen-bonded molecules",
+            "No molecules at all",
+          ],
+          optionsMy: [
+            "Molecule အားလုံး၊ Polar (သို့) Non-Polar",
+            "Ionic Lattice တစ်ခုတည်း",
+            "Hydrogen-Bonded Molecule တစ်ခုတည်း",
+            "Molecule မည်သည့်တစ်ခုမျှ မဟုတ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12ChemistryTerm3 = CourseTermDef(
+  id: "course-y12-chem-term3",
+  termNumber: 3,
+  titleEn: "Chemical Bonding",
+  titleMy: "Chemical Bonding",
+  weeks: [_y12ChemWeek9, _y12ChemWeek10, _y12ChemWeek11, _y12ChemWeek12],
+  certificateTitleEn: "AS Chemistry: Chemical Bonding",
+  certificateTitleMy: "AS ဓာတုဗေဒ - Chemical Bonding",
+);
+
 /// Year 12 Chemistry (A-Level AS, Cambridge 9701) -- in progress. Terms
-/// 1-2 (Atomic Structure; Atoms, Molecules and Stoichiometry) authored;
-/// Terms 3-9 (Chemical Bonding; States of Matter; Chemical Energetics;
+/// 1-3 (Atomic Structure; Atoms, Molecules and Stoichiometry; Chemical
+/// Bonding) authored; Terms 4-9 (States of Matter; Chemical Energetics;
 /// Electrochemistry; Equilibria; Reaction Kinetics; The Periodic Table
 /// -- Group 2 and Group 17 -- and AS Exam Prep) to follow. No LaTeX
 /// renderer exists in this app -- formulas throughout use the same
@@ -16046,6 +17358,6 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
       "The AS half of Cambridge A-Level Chemistry (9701): daily bite-sized lessons building the quantitative, formula-driven foundation A2 depends on. Term 1, Atomic Structure, covers subatomic particles and isotopes, relative atomic mass from mass spectrometry, electronic configuration, and first/successive ionisation energies and their periodic trends, closing with a Mystery Element capstone that ties mass spectrometry, electron configuration and ionisation energy data together. Terms 2-9 continue through atoms/molecules/stoichiometry, chemical bonding, states of matter, chemical energetics, electrochemistry, equilibria, reaction kinetics, and the periodic table (Group 2 and Group 17), closing with AS exam preparation.",
   descriptionMy:
       "Cambridge A-Level ဓာတုဗေဒ (9701) ၏ AS ခြမ်း - A2 က မှီခိုနေသော Quantitative, Formula-Driven အခြေခံကို တည်ဆောက်ပေးသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Atomic Structure သည် Subatomic Particle များနှင့် Isotope၊ Mass Spectrometry မှ Relative Atomic Mass၊ Electronic Configuration နှင့် First/Successive Ionisation Energy များနှင့် ၎င်းတို့၏ Periodic Trend များကို ဖုံးအုပ်ပြီး Mass Spectrometry, Electron Configuration နှင့် Ionisation Energy Data များကို ပေါင်းစည်းပေးသော Mystery Element အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Atoms/Molecules/Stoichiometry, Chemical Bonding, States of Matter, Chemical Energetics, Electrochemistry, Equilibria, Reaction Kinetics နှင့် Periodic Table (Group 2 နှင့် Group 17) တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး AS စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
-  totalWeeks: 8,
-  terms: [year12ChemistryTerm1, year12ChemistryTerm2],
+  totalWeeks: 12,
+  terms: [year12ChemistryTerm1, year12ChemistryTerm2, year12ChemistryTerm3],
 );
