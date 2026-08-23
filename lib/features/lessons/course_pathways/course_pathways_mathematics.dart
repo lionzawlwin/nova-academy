@@ -139069,3 +139069,3212 @@ const CoursePathwayDef year3MathematicsPathway = CoursePathwayDef(
     _year3MathematicsTerm9,
   ],
 );
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 1:
+// "Quadratics"
+// (Weeks 1-4)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "Completing the Square"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek1 = CourseWeekDef(
+  id: "course-y12-math-w1",
+  weekNumber: 1,
+  titleEn: "Completing the Square",
+  titleMy: "Completing the Square",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w1-d1",
+      dayNumber: 1,
+      titleEn: "Writing Quadratics in Completed Square Form",
+      titleMy: "Quadratic များကို Completed Square Form ဖြင့် ရေးခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Write x² + 6x + 5 in completed square form, (x + p)² + q.",
+          questionMy:
+              "x² + 6x + 5 ကို Completed Square Form, (x + p)² + q ဖြင့် ရေးပါ။",
+          optionsEn: ["(x + 3)² - 4", "(x + 3)² + 4", "(x + 6)² - 4", "(x - 3)² - 4"],
+          optionsMy: ["(x + 3)² - 4", "(x + 3)² + 4", "(x + 6)² - 4", "(x - 3)² - 4"],
+          correctIndex: 0,
+          hintsEn: [
+            "Half of 6 is 3, so square it: 9. x² + 6x + 9 - 9 + 5 = (x + 3)² - 4.",
+          ],
+          hintsMy: [
+            "6 ၏ တစ်ဝက်မှာ 3 ဖြစ်၍ Square လုပ်ပါက 9 ရသည်။ x² + 6x + 9 - 9 + 5 = (x + 3)² - 4 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Write x² - 8x + 10 in completed square form.",
+          questionMy: "x² - 8x + 10 ကို Completed Square Form ဖြင့် ရေးပါ။",
+          optionsEn: ["(x - 4)² - 6", "(x - 4)² + 6", "(x + 4)² - 6", "(x - 8)² - 6"],
+          optionsMy: ["(x - 4)² - 6", "(x - 4)² + 6", "(x + 4)² - 6", "(x - 8)² - 6"],
+          correctIndex: 0,
+          hintsEn: [
+            "Half of -8 is -4, so square it: 16. x² - 8x + 16 - 16 + 10 = (x - 4)² - 6.",
+          ],
+          hintsMy: [
+            "-8 ၏ တစ်ဝက်မှာ -4 ဖြစ်၍ Square လုပ်ပါက 16 ရသည်။ x² - 8x + 16 - 16 + 10 = (x - 4)² - 6 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The minimum point of y = (x - 3)² + 5 is at...",
+          questionMy: "y = (x - 3)² + 5 ၏ Minimum Point သည်...",
+          optionsEn: ["(3, 5)", "(-3, 5)", "(3, -5)", "(-3, -5)"],
+          optionsMy: ["(3, 5)", "(-3, 5)", "(3, -5)", "(-3, -5)"],
+          correctIndex: 0,
+          hintsEn: [
+            "For y = (x - p)² + q, the turning point is always (p, q) — note the sign of p flips.",
+          ],
+          hintsMy: [
+            "y = (x - p)² + q အတွက် Turning Point သည် အမြဲ (p, q) ဖြစ်သည် -- p ၏ Sign ပြောင်းသွားကြောင်း သတိပြုပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Completing the Square Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Completing the Square ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w1-dm-1",
+          termEn: "Turning point",
+          termMy: "Turning Point",
+          matchEn: "The maximum or minimum point of a curve",
+          matchMy: "မျဉ်းကွေးတစ်ခု၏ အများဆုံး (သို့) အနည်းဆုံးအမှတ်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w1-dm-2",
+          termEn: "(x - p)² + q form",
+          termMy: "(x - p)² + q Form",
+          matchEn: "Completed square form",
+          matchMy: "Completed Square Form",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w1-dm-3",
+          termEn: "Vertex",
+          termMy: "Vertex",
+          matchEn: "Another name for the turning point",
+          matchMy: "Turning Point ၏ အခြားအမည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w1-dm-4",
+          termEn: "p in (x - p)² + q",
+          termMy: "(x - p)² + q ရှိ p",
+          matchEn: "The x-coordinate of the vertex (sign flips)",
+          matchMy: "Vertex ၏ x-Coordinate (Sign ပြောင်းသည်)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w1-dm-5",
+          termEn: "q in (x - p)² + q",
+          termMy: "(x - p)² + q ရှိ q",
+          matchEn: "The y-coordinate of the vertex",
+          matchMy: "Vertex ၏ y-Coordinate",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Minimum or Maximum Point?",
+      titleMy: "စီစစ်ကြမည် - Minimum ဒါမှမဟုတ် Maximum Point",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Minimum point", "Maximum point"],
+        bucketsMy: ["Minimum Point", "Maximum Point"],
+        items: [
+          SortingItem(
+            id: "y12math-w1-sort-1",
+            labelEn: "y = (x - 2)² + 3",
+            labelMy: "y = (x - 2)² + 3",
+            correctBucketEn: "Minimum point",
+            correctBucketMy: "Minimum Point",
+          ),
+          SortingItem(
+            id: "y12math-w1-sort-2",
+            labelEn: "y = -(x - 2)² + 3",
+            labelMy: "y = -(x - 2)² + 3",
+            correctBucketEn: "Maximum point",
+            correctBucketMy: "Maximum Point",
+          ),
+          SortingItem(
+            id: "y12math-w1-sort-3",
+            labelEn: "y = (x + 1)² - 4",
+            labelMy: "y = (x + 1)² - 4",
+            correctBucketEn: "Minimum point",
+            correctBucketMy: "Minimum Point",
+          ),
+          SortingItem(
+            id: "y12math-w1-sort-4",
+            labelEn: "y = -(x + 5)² + 2",
+            labelMy: "y = -(x + 5)² + 2",
+            correctBucketEn: "Maximum point",
+            correctBucketMy: "Maximum Point",
+          ),
+          SortingItem(
+            id: "y12math-w1-sort-5",
+            labelEn: "y = 2(x - 1)² + 7",
+            labelMy: "y = 2(x - 1)² + 7",
+            correctBucketEn: "Minimum point",
+            correctBucketMy: "Minimum Point",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding the Minimum Value",
+      titleMy: "စာဖတ်ခြင်း - Minimum Value ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding the Minimum Value",
+        titleMy: "Minimum Value ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min wrote y = x² - 10x + 30 on the board and asked his AS class to find its minimum value without drawing a graph. \"Completing the square tells you the minimum instantly,\" he said, \"once you know the shortcut.\"\n\nHtet Aung took the coefficient of x, which was -10, halved it to get -5, then squared that to get 25. He rewrote the expression as x² - 10x + 25 - 25 + 30, which grouped neatly into (x - 5)² + 5. Since (x - 5)² can never be negative — a squared real number is always zero or positive — the smallest possible value of (x - 5)² is 0, which happens exactly when x = 5. So the minimum value of y is 0 + 5 = 5, occurring at x = 5.\n\nSu Su then asked what would change if the equation were y = x² - 10x + 20 instead, with only the constant term different. Sayar Zaw Min pointed out that the (x - 5)² part is unaffected by the constant, so the completed square form becomes (x - 5)² - 5, giving a minimum value of -5, still at x = 5. This showed the class that the p in (x - p)² + q depends only on the coefficient of x, while q shifts up or down with the constant term — a pattern that would let them complete the square on any quadratic without redoing the whole calculation from scratch.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် y = x² - 10x + 30 ကို Board ပေါ်တွင် ရေးပြီး သူ၏ AS အတန်းအား Graph မဆွဲဘဲ Minimum Value ကို ရှာခိုင်းခဲ့သည်။ \"Completing the Square က Shortcut ကို သိရင် Minimum ကို ချက်ချင်း ပြောပြနိုင်တယ်\" ဟု သူဆိုသည်။\n\nHtet Aung သည် x ၏ Coefficient -10 ကို ယူပြီး တစ်ဝက်ပြု၍ -5 ရသည်၊ ထို့နောက် Square လုပ်၍ 25 ရသည်။ သူသည် Expression ကို x² - 10x + 25 - 25 + 30 ဟု ပြန်ရေးပြီး (x - 5)² + 5 အဖြစ် စုစည်းလိုက်သည်။ (x - 5)² သည် Negative ဘယ်တော့မှ မဖြစ်နိုင်သောကြောင့် -- Real Number တစ်ခုကို Square လုပ်ပါက Zero (သို့) Positive အမြဲဖြစ်သည် -- (x - 5)² ၏ အသေးဆုံးတန်ဖိုးမှာ 0 ဖြစ်ပြီး x = 5 တွင် တိတိကျကျ ဖြစ်ပေါ်သည်။ ထို့ကြောင့် y ၏ Minimum Value မှာ 0 + 5 = 5 ဖြစ်ပြီး x = 5 တွင် ဖြစ်ပေါ်သည်။\n\nSu Su သည် Constant Term သာ ကွဲပြားသော y = x² - 10x + 20 ဖြစ်ခဲ့ပါက အဘယ်ပြောင်းလဲမည်ကို မေးမြန်းခဲ့သည်။ (x - 5)² အပိုင်းသည် Constant ကြောင့် မထိခိုက်သောကြောင့် Completed Square Form မှာ (x - 5)² - 5 ဖြစ်လာပြီး Minimum Value -5 ကို x = 5 တွင် ရရှိမည်ဟု ဆရာဇော်မင်း ရှင်းပြခဲ့သည်။ ဤအချက်က (x - p)² + q ရှိ p သည် x ၏ Coefficient ပေါ်တွင်သာ မှီခိုပြီး q က Constant Term နှင့်အတူ အပေါ်တက် (သို့) အောက်ကျ ရွှေ့ကြောင်း အတန်းအား ပြသခဲ့ပြီး ဤ Pattern က မည်သည့် Quadratic ကိုမဆို တွက်ချက်မှု အသစ် ပြန်မလုပ်ဘဲ Completing the Square ပြုနိုင်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the minimum value of y = x² - 10x + 30?",
+            questionMy:
+                "y = x² - 10x + 30 ၏ Minimum Value ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5", "30", "-5", "25"],
+            optionsMy: ["5", "30", "-5", "25"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why can (x - 5)² never be negative?",
+            questionMy:
+                "(x - 5)² သည် Negative ဘယ်တော့မှ မဖြစ်နိုင်ကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A squared real number is always zero or positive",
+              "5 is a prime number",
+              "x must always be greater than 5",
+              "It is only true when x = 0",
+            ],
+            optionsMy: [
+              "Real Number တစ်ခုကို Square လုပ်ပါက Zero (သို့) Positive အမြဲဖြစ်သောကြောင့်",
+              "5 သည် Prime Number ဖြစ်သောကြောင့်",
+              "x သည် 5 ထက် အမြဲ ကြီးရမည်ဖြစ်သောကြောင့်",
+              "x = 0 တွင်သာ မှန်ကန်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the middle of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အလယ်ပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, changing only the constant term changes which part of (x - p)² + q?",
+            questionMy:
+                "Constant Term ကိုသာ ပြောင်းလဲခြင်းသည် (x - p)² + q ၏ မည်သည့်အပိုင်းကို ပြောင်းလဲစေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "q, while p stays the same",
+              "p, while q stays the same",
+              "Both p and q change equally",
+              "Neither p nor q changes",
+            ],
+            optionsMy: [
+              "q ကို ပြောင်းလဲပြီး p မူလအတိုင်း ရှိနေသည်",
+              "p ကို ပြောင်းလဲပြီး q မူလအတိုင်း ရှိနေသည်",
+              "p နှင့် q နှစ်ခုစလုံး တူညီစွာ ပြောင်းလဲသည်",
+              "p ဒါမှမဟုတ် q ဘယ်တစ်ခုမှ မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence about p and q."],
+            hintsMy: ["p နှင့် q အကြောင်း နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Completing the Square",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Completing the Square",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In (x - p)² + q, the turning point is always at...",
+          questionMy: "(x - p)² + q တွင် Turning Point သည် အမြဲ...",
+          optionsEn: ["(p, q)", "(-p, -q)", "(q, p)", "(0, 0)"],
+          optionsMy: ["(p, q)", "(-p, -q)", "(q, p)", "(0, 0)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "To complete the square on x² + bx, you add and subtract...",
+          questionMy: "x² + bx ကို Complete the Square ပြုရန် ...ကို ပေါင်းနှင့်နုတ်သည်",
+          optionsEn: ["(b/2)²", "b²", "b/2", "2b"],
+          optionsMy: ["(b/2)²", "b²", "b/2", "2b"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A squared real number, such as (x - 5)², is always...",
+          questionMy: "(x - 5)² ကဲ့သို့ Square ပြုထားသော Real Number သည် အမြဲ...",
+          optionsEn: [
+            "Zero or positive, never negative",
+            "Negative only",
+            "Exactly zero",
+            "Undefined",
+          ],
+          optionsMy: [
+            "Zero (သို့) Positive၊ Negative ဘယ်တော့မှ မဖြစ်",
+            "Negative သာ",
+            "Zero အတိအကျ",
+            "Undefined",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "The Quadratic Formula and the Discriminant"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek2 = CourseWeekDef(
+  id: "course-y12-math-w2",
+  weekNumber: 2,
+  titleEn: "The Quadratic Formula and the Discriminant",
+  titleMy: "Quadratic Formula နှင့် Discriminant",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w2-d1",
+      dayNumber: 1,
+      titleEn: "Using the Quadratic Formula",
+      titleMy: "Quadratic Formula အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using x = (-b ± √(b² - 4ac)) / 2a, solve 2x² + 3x - 2 = 0.",
+          questionMy:
+              "x = (-b ± √(b² - 4ac)) / 2a ကို အသုံးပြု၍ 2x² + 3x - 2 = 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 0.5 or x = -2", "x = 1 or x = -2", "x = 2 or x = -0.5", "x = -1 or x = 2"],
+          optionsMy: ["x = 0.5 or x = -2", "x = 1 or x = -2", "x = 2 or x = -0.5", "x = -1 or x = 2"],
+          correctIndex: 0,
+          hintsEn: [
+            "a=2, b=3, c=-2. x = (-3 ± √(9+16)) / 4 = (-3 ± 5) / 4, giving x = 0.5 or x = -2.",
+          ],
+          hintsMy: [
+            "a=2, b=3, c=-2 ။ x = (-3 ± √(9+16)) / 4 = (-3 ± 5) / 4, x = 0.5 (သို့) x = -2 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The discriminant of x² - 4x + 4 is...",
+          questionMy: "x² - 4x + 4 ၏ Discriminant မှာ...",
+          optionsEn: ["0", "16", "-16", "4"],
+          optionsMy: ["0", "16", "-16", "4"],
+          correctIndex: 0,
+          hintsEn: ["b² - 4ac = (-4)² - 4(1)(4) = 16 - 16 = 0."],
+          hintsMy: ["b² - 4ac = (-4)² - 4(1)(4) = 16 - 16 = 0 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "The discriminant of x² + 2x + 5 is...",
+          questionMy: "x² + 2x + 5 ၏ Discriminant မှာ...",
+          optionsEn: ["-16", "16", "0", "4"],
+          optionsMy: ["-16", "16", "0", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "b² - 4ac = (2)² - 4(1)(5) = 4 - 20 = -16, so there are no real roots.",
+          ],
+          hintsMy: [
+            "b² - 4ac = (2)² - 4(1)(5) = 4 - 20 = -16 ဖြစ်၍ Real Root မရှိပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Discriminant and the Nature of Roots",
+      titleMy: "တွဲစပ်ကြမည် - Discriminant နှင့် Root အမျိုးအစား",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w2-dm-1",
+          termEn: "b² - 4ac > 0",
+          termMy: "b² - 4ac > 0",
+          matchEn: "Two distinct real roots",
+          matchMy: "ကွဲပြားသော Real Root နှစ်ခု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w2-dm-2",
+          termEn: "b² - 4ac = 0",
+          termMy: "b² - 4ac = 0",
+          matchEn: "One repeated real root (equal roots)",
+          matchMy: "ထပ်နေသော Real Root တစ်ခု (Equal Root)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w2-dm-3",
+          termEn: "b² - 4ac < 0",
+          termMy: "b² - 4ac < 0",
+          matchEn: "No real roots",
+          matchMy: "Real Root မရှိ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w2-dm-4",
+          termEn: "Quadratic formula",
+          termMy: "Quadratic Formula",
+          matchEn: "x = (-b ± √(b² - 4ac)) / 2a",
+          matchMy: "x = (-b ± √(b² - 4ac)) / 2a",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w2-dm-5",
+          termEn: "Discriminant",
+          termMy: "Discriminant",
+          matchEn: "The value b² - 4ac",
+          matchMy: "တန်ဖိုး b² - 4ac",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Real Roots or No Real Roots?",
+      titleMy: "စီစစ်ကြမည် - Real Root ရှိသလား မရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Has real roots", "No real roots"],
+        bucketsMy: ["Real Root ရှိသည်", "Real Root မရှိ"],
+        items: [
+          SortingItem(
+            id: "y12math-w2-sort-1",
+            labelEn: "x² - 5x + 6 = 0",
+            labelMy: "x² - 5x + 6 = 0",
+            correctBucketEn: "Has real roots",
+            correctBucketMy: "Real Root ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w2-sort-2",
+            labelEn: "x² + x + 1 = 0",
+            labelMy: "x² + x + 1 = 0",
+            correctBucketEn: "No real roots",
+            correctBucketMy: "Real Root မရှိ",
+          ),
+          SortingItem(
+            id: "y12math-w2-sort-3",
+            labelEn: "x² - 6x + 9 = 0",
+            labelMy: "x² - 6x + 9 = 0",
+            correctBucketEn: "Has real roots",
+            correctBucketMy: "Real Root ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w2-sort-4",
+            labelEn: "x² + 4x + 8 = 0",
+            labelMy: "x² + 4x + 8 = 0",
+            correctBucketEn: "No real roots",
+            correctBucketMy: "Real Root မရှိ",
+          ),
+          SortingItem(
+            id: "y12math-w2-sort-5",
+            labelEn: "2x² - 3x - 2 = 0",
+            labelMy: "2x² - 3x - 2 = 0",
+            correctBucketEn: "Has real roots",
+            correctBucketMy: "Real Root ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: How Many Times Does the Ball Land?",
+      titleMy: "စာဖတ်ခြင်း - ဘောလုံးက အကြိမ်ဘယ်နှစ်ကြိမ် ကျသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "How Many Times Does the Ball Land?",
+        titleMy: "ဘောလုံးက အကြိမ်ဘယ်နှစ်ကြိမ် ကျသနည်း",
+        passageEn:
+            "Su Su was modelling the height of a thrown ball with h = -5t² + 20t - 15, where h is height in metres and t is time in seconds, and Sayar Zaw Min asked her: without solving the equation fully, can she tell how many times the ball reaches a height of exactly 0 (the ground)?\n\nSu Su rearranged the question into -5t² + 20t - 15 = 0, then divided every term by -5 to simplify: t² - 4t + 3 = 0. She then calculated the discriminant using a = 1, b = -4, c = 3: b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4. Since 4 is positive, she knew immediately — without solving the quadratic further — that there were two distinct real values of t, meaning the ball is at ground level at two different times.\n\nSayar Zaw Min then asked her to actually find those two times using the quadratic formula. t = (4 ± √4) / 2 = (4 ± 2) / 2, giving t = 3 or t = 1. Su Su explained the physical meaning: t = 1 second is when the ball first passes through h = 0 on its way up from a starting point below ground level in the model, while t = 3 seconds is when it lands back down — the discriminant had correctly predicted two real crossing times before she ever solved for them.",
+        passageMy:
+            "Su Su သည် ပစ်လွှင့်ထားသော ဘောလုံးတစ်လုံး၏ အမြင့်ကို h = -5t² + 20t - 15 ဖြင့် Model ပြုလုပ်နေခဲ့ပြီး h သည် Metre အနေဖြင့် အမြင့်၊ t သည် Second အနေဖြင့် အချိန်ဖြစ်သည်။ ဆရာဇော်မင်းက Equation ကို အပြည့်အဝ မဖြေရှင်းဘဲ ဘောလုံးက Height 0 (မြေပြင်) သို့ အကြိမ်ဘယ်နှစ်ကြိမ် ရောက်သည်ကို ပြောပြနိုင်မလားဟု မေးမြန်းခဲ့သည်။\n\nSu Su သည် ပြဿနာကို -5t² + 20t - 15 = 0 ဟု ပြန်စီစဉ်ပြီး Term တိုင်းကို -5 ဖြင့် စားခြင်းဖြင့် ရိုးရှင်းစေခဲ့သည် - t² - 4t + 3 = 0 ။ ထို့နောက် a=1, b=-4, c=3 ကို အသုံးပြု၍ Discriminant ကို တွက်ချက်ခဲ့သည် - b² - 4ac = (-4)² - 4(1)(3) = 16 - 12 = 4 ။ 4 သည် Positive ဖြစ်သောကြောင့် Quadratic ကို ထပ်မတွက်ချက်ဘဲ t ၏ ကွဲပြားသော Real Value နှစ်ခု ရှိကြောင်း ချက်ချင်း သိရှိခဲ့သည် -- ဆိုလိုသည်မှာ ဘောလုံးသည် မတူညီသော အချိန်နှစ်ချိန်တွင် မြေပြင်အဆင့်တွင် ရှိသည်။\n\nဆရာဇော်မင်းသည် Quadratic Formula ကို အသုံးပြု၍ ထို အချိန်နှစ်ချိန်ကို တကယ်ရှာခိုင်းခဲ့သည်။ t = (4 ± √4) / 2 = (4 ± 2) / 2, t = 3 (သို့) t = 1 ရသည်။ Su Su သည် ရုပ်ပိုင်းဆိုင်ရာ အဓိပ္ပာယ်ကို ရှင်းပြခဲ့သည် - t = 1 Second သည် Model တွင် မြေအောက်ရှိ အစပြုနေရာမှ တက်လာစဉ် ဘောလုံးက h = 0 ကို ပထမဆုံး ဖြတ်သန်းသည့်အချိန် ဖြစ်ပြီး t = 3 Second သည် ဘောလုံး ပြန်ကျသည့်အချိန် ဖြစ်သည် -- Discriminant သည် Real Crossing Time နှစ်ခုကို ဖြေမရှာခင်ကတည်းက မှန်ကန်စွာ ကြိုတင်ခန့်မှန်းနိုင်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the value of the discriminant of t² - 4t + 3 = 0?",
+            questionMy: "t² - 4t + 3 = 0 ၏ Discriminant တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4", "16", "-4", "0"],
+            optionsMy: ["4", "16", "-4", "0"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did the positive discriminant tell Su Su before solving further?",
+            questionMy:
+                "Discriminant Positive ဖြစ်ခြင်းက Su Su အား ဆက်မဖြေရှာခင် အဘယ်ကို ပြောပြခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "There are two distinct real values of t",
+              "The ball never lands",
+              "The ball's mass must be 5 kg",
+              "There is exactly one real value of t",
+            ],
+            optionsMy: [
+              "t ၏ ကွဲပြားသော Real Value နှစ်ခု ရှိသည်",
+              "ဘောလုံး ဘယ်တော့မှ မကျပါ",
+              "ဘောလုံး၏ Mass သည် 5 kg ဖြစ်ရမည်",
+              "t ၏ Real Value တစ်ခုတည်း ရှိသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what are the two values of t found using the quadratic formula?",
+            questionMy:
+                "Quadratic Formula ဖြင့် ရရှိသော t ၏ တန်ဖိုးနှစ်ခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["t = 1 or t = 3", "t = 2 or t = 4", "t = 0 or t = 4", "t = -1 or t = -3"],
+            optionsMy: ["t = 1 or t = 3", "t = 2 or t = 4", "t = 0 or t = 4", "t = -1 or t = -3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's calculation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: The Discriminant",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Discriminant",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The discriminant is the expression...",
+          questionMy: "Discriminant သည် Expression...",
+          optionsEn: ["b² - 4ac", "b² + 4ac", "4ac - b²", "b - 4ac"],
+          optionsMy: ["b² - 4ac", "b² + 4ac", "4ac - b²", "b - 4ac"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A discriminant of exactly 0 means...",
+          questionMy: "Discriminant အတိအကျ 0 ဆိုသည်မှာ...",
+          optionsEn: [
+            "One repeated (equal) real root",
+            "No real roots",
+            "Two distinct real roots",
+            "Infinitely many roots",
+          ],
+          optionsMy: [
+            "ထပ်နေသော (Equal) Real Root တစ်ခု",
+            "Real Root မရှိ",
+            "ကွဲပြားသော Real Root နှစ်ခု",
+            "Root အနန္တ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A negative discriminant means the quadratic has...",
+          questionMy: "Discriminant Negative ဖြစ်ခြင်းက Quadratic တွင်...",
+          optionsEn: [
+            "No real roots",
+            "Two distinct real roots",
+            "One repeated root",
+            "A negative x²-coefficient",
+          ],
+          optionsMy: [
+            "Real Root မရှိကြောင်း ပြသသည်",
+            "ကွဲပြားသော Real Root နှစ်ခု ရှိကြောင်း ပြသသည်",
+            "ထပ်နေသော Root တစ်ခု ရှိကြောင်း ပြသသည်",
+            "x² Coefficient Negative ဖြစ်ကြောင်း ပြသသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Solving Quadratic Inequalities"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek3 = CourseWeekDef(
+  id: "course-y12-math-w3",
+  weekNumber: 3,
+  titleEn: "Solving Quadratic Inequalities",
+  titleMy: "Quadratic Inequality များ ဖြေရှင်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w3-d1",
+      dayNumber: 1,
+      titleEn: "Solving Quadratic Inequalities",
+      titleMy: "Quadratic Inequality များ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Solve x² - 5x + 6 > 0.",
+          questionMy: "x² - 5x + 6 > 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x < 2 or x > 3", "2 < x < 3", "x < 3 only", "x > 2 only"],
+          optionsMy: ["x < 2 or x > 3", "2 < x < 3", "x < 3 only", "x > 2 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "x² - 5x + 6 = (x - 2)(x - 3), roots at 2 and 3. Since the parabola opens upward, it is positive outside the roots.",
+          ],
+          hintsMy: [
+            "x² - 5x + 6 = (x - 2)(x - 3), Root များမှာ 2 နှင့် 3 ။ Parabola သည် အပေါ်သို့ ဖွင့်သောကြောင့် Root များ၏ အပြင်ဘက်တွင် Positive ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve x² - 9 ≤ 0.",
+          questionMy: "x² - 9 ≤ 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["-3 ≤ x ≤ 3", "x ≤ -3 or x ≥ 3", "x ≤ 3 only", "-9 ≤ x ≤ 9"],
+          optionsMy: ["-3 ≤ x ≤ 3", "x ≤ -3 or x ≥ 3", "x ≤ 3 only", "-9 ≤ x ≤ 9"],
+          correctIndex: 0,
+          hintsEn: [
+            "x² - 9 = (x - 3)(x + 3), roots at -3 and 3. An upward parabola is negative or zero between its roots.",
+          ],
+          hintsMy: [
+            "x² - 9 = (x - 3)(x + 3), Root များမှာ -3 နှင့် 3 ။ Upward Parabola သည် Root များအကြား Negative (သို့) Zero ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve x² - 2x - 8 < 0.",
+          questionMy: "x² - 2x - 8 < 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["-2 < x < 4", "x < -2 or x > 4", "-4 < x < 2", "x < 4 only"],
+          optionsMy: ["-2 < x < 4", "x < -2 or x > 4", "-4 < x < 2", "x < 4 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "x² - 2x - 8 = (x - 4)(x + 2), roots at -2 and 4. The solution lies between the roots.",
+          ],
+          hintsMy: [
+            "x² - 2x - 8 = (x - 4)(x + 2), Root များမှာ -2 နှင့် 4 ။ Solution သည် Root များအကြား ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Inequality and Solution Set",
+      titleMy: "တွဲစပ်ကြမည် - Inequality နှင့် Solution Set",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w3-dm-1",
+          termEn: "x² - 5x + 6 > 0",
+          termMy: "x² - 5x + 6 > 0",
+          matchEn: "x < 2 or x > 3",
+          matchMy: "x < 2 or x > 3",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w3-dm-2",
+          termEn: "x² - 9 ≤ 0",
+          termMy: "x² - 9 ≤ 0",
+          matchEn: "-3 ≤ x ≤ 3",
+          matchMy: "-3 ≤ x ≤ 3",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w3-dm-3",
+          termEn: "x² - 2x - 8 < 0",
+          termMy: "x² - 2x - 8 < 0",
+          matchEn: "-2 < x < 4",
+          matchMy: "-2 < x < 4",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w3-dm-4",
+          termEn: "x² - 4x ≥ 0",
+          termMy: "x² - 4x ≥ 0",
+          matchEn: "x ≤ 0 or x ≥ 4",
+          matchMy: "x ≤ 0 or x ≥ 4",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w3-dm-5",
+          termEn: "(x - 1)(x + 3) < 0",
+          termMy: "(x - 1)(x + 3) < 0",
+          matchEn: "-3 < x < 1",
+          matchMy: "-3 < x < 1",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Between the Roots or Outside the Roots?",
+      titleMy: "စီစစ်ကြမည် - Root များအကြား ဒါမှမဟုတ် အပြင်ဘက်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Solution is between the roots", "Solution is outside the roots"],
+        bucketsMy: ["Solution သည် Root များအကြား", "Solution သည် Root များ အပြင်ဘက်"],
+        items: [
+          SortingItem(
+            id: "y12math-w3-sort-1",
+            labelEn: "x² - 5x + 6 > 0",
+            labelMy: "x² - 5x + 6 > 0",
+            correctBucketEn: "Solution is outside the roots",
+            correctBucketMy: "Solution သည် Root များ အပြင်ဘက်",
+          ),
+          SortingItem(
+            id: "y12math-w3-sort-2",
+            labelEn: "x² - 9 ≤ 0",
+            labelMy: "x² - 9 ≤ 0",
+            correctBucketEn: "Solution is between the roots",
+            correctBucketMy: "Solution သည် Root များအကြား",
+          ),
+          SortingItem(
+            id: "y12math-w3-sort-3",
+            labelEn: "x² - 2x - 8 < 0",
+            labelMy: "x² - 2x - 8 < 0",
+            correctBucketEn: "Solution is between the roots",
+            correctBucketMy: "Solution သည် Root များအကြား",
+          ),
+          SortingItem(
+            id: "y12math-w3-sort-4",
+            labelEn: "x² - 4x ≥ 0",
+            labelMy: "x² - 4x ≥ 0",
+            correctBucketEn: "Solution is outside the roots",
+            correctBucketMy: "Solution သည် Root များ အပြင်ဘက်",
+          ),
+          SortingItem(
+            id: "y12math-w3-sort-5",
+            labelEn: "(x - 1)(x + 3) < 0",
+            labelMy: "(x - 1)(x + 3) < 0",
+            correctBucketEn: "Solution is between the roots",
+            correctBucketMy: "Solution သည် Root များအကြား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: When Is the Kite Above 20 Metres?",
+      titleMy: "စာဖတ်ခြင်း - Kite သည် 20 Metre အထက် ဘယ်အချိန်တွင် ရှိသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "When Is the Kite Above 20 Metres?",
+        titleMy: "Kite သည် 20 Metre အထက် ဘယ်အချိန်တွင် ရှိသနည်း",
+        passageEn:
+            "Htet Aung's kite had a height modelled by h = -t² + 8t + 5 during a Thingyan festival kite-flying competition, where h is height in metres and t is time in seconds. Sayar Zaw Min asked the class to find every time t for which the kite was strictly above 20 metres.\n\nHtet Aung set up the inequality -t² + 8t + 5 > 20, then rearranged it into standard form: -t² + 8t - 15 > 0. Multiplying both sides by -1 flips the inequality sign, giving t² - 8t + 15 < 0. He factorised this as (t - 3)(t - 5) < 0, with roots at t = 3 and t = 5.\n\nSince the parabola t² - 8t + 15 opens upward and the inequality is 'less than', the solution lies between the roots: 3 < t < 5. Htet Aung double-checked this made physical sense by testing t = 4 (between the roots) in the original height equation: h = -16 + 32 + 5 = 21 metres, which is indeed above 20. He also tested t = 1 (outside the roots): h = -1 + 8 + 5 = 12 metres, correctly below 20 — confirming the kite was above 20 metres only during the 2-second window from t = 3 to t = 5.",
+        passageMy:
+            "Htet Aung ၏ Kite သည် သင်္ကြန်ပွဲတော် Kite ပျံနေသော ပြိုင်ပွဲအတွင်း h = -t² + 8t + 5 ဖြင့် Model ပြုလုပ်ထားသော အမြင့်ရှိပြီး h သည် Metre အနေဖြင့် အမြင့်၊ t သည် Second အနေဖြင့် အချိန်ဖြစ်သည်။ ဆရာဇော်မင်းသည် Kite သည် 20 Metre အထက် တိတိကျကျ ရှိသည့် t အချိန်တိုင်းကို ရှာခိုင်းခဲ့သည်။\n\nHtet Aung သည် Inequality -t² + 8t + 5 > 20 ကို တည်ဆောက်ပြီး Standard Form သို့ ပြန်စီစဉ်ခဲ့သည် - -t² + 8t - 15 > 0 ။ နှစ်ဖက်စလုံးကို -1 ဖြင့် မြှောက်ခြင်းက Inequality Sign ကို ပြောင်းပစ်သဖြင့် t² - 8t + 15 < 0 ရသည်။ သူသည် ၎င်းကို (t - 3)(t - 5) < 0 ဟု Factorise ပြုလုပ်ပြီး Root များမှာ t = 3 နှင့် t = 5 ဖြစ်သည်။\n\nParabola t² - 8t + 15 သည် အပေါ်သို့ ဖွင့်ပြီး Inequality သည် 'less than' ဖြစ်သောကြောင့် Solution သည် Root များအကြား ရှိသည် - 3 < t < 5 ။ Htet Aung သည် ဤအချက်သည် ရုပ်ပိုင်းဆိုင်ရာ အဓိပ္ပာယ်ရှိကြောင်း Root များအကြားရှိ t = 4 ကို မူလ Height Equation တွင် စမ်းသပ်ကြည့်ခြင်းဖြင့် ထပ်စစ်ဆေးခဲ့သည် - h = -16 + 32 + 5 = 21 Metre ဖြစ်ပြီး 20 အထက် အမှန်ပင် ဖြစ်သည်။ Root များ အပြင်ဘက်ရှိ t = 1 ကိုလည်း စမ်းသပ်ခဲ့သည် - h = -1 + 8 + 5 = 12 Metre ဖြစ်ပြီး 20 အောက် မှန်ကန်စွာ ဖြစ်သည် -- ၎င်းက Kite သည် t = 3 မှ t = 5 အထိ 2 Second Window အတွင်းသာ 20 Metre အထက် ရှိကြောင်း အတည်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, during what time window is the kite above 20 metres?",
+            questionMy: "Kite သည် 20 Metre အထက် မည်သည့် Time Window အတွင်း ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3 < t < 5", "0 < t < 3", "5 < t < 8", "t < 3 or t > 5"],
+            optionsMy: ["3 < t < 5", "0 < t < 3", "5 < t < 8", "t < 3 or t > 5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did multiplying both sides by -1 matter?",
+            questionMy:
+                "-1 ဖြင့် နှစ်ဖက်စလုံး မြှောက်ခြင်းသည် အဘယ်ကြောင့် အရေးကြီးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It flips the inequality sign",
+              "It changes the roots of the equation",
+              "It makes the parabola open downward",
+              "It has no effect on the inequality",
+            ],
+            optionsMy: [
+              "Inequality Sign ကို ပြောင်းပစ်သောကြောင့်",
+              "Equation ၏ Root များကို ပြောင်းလဲသောကြောင့်",
+              "Parabola ကို အောက်သို့ ဖွင့်စေသောကြောင့်",
+              "Inequality အပေါ် သက်ရောက်မှု မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what height did Htet Aung calculate at t = 4?",
+            questionMy: "t = 4 တွင် Htet Aung တွက်ချက်ခဲ့သော Height ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["21 metres", "20 metres", "12 metres", "25 metres"],
+            optionsMy: ["21 Metre", "20 Metre", "12 Metre", "25 Metre"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's first check."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ပထမစစ်ဆေးမှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Quadratic Inequalities",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Quadratic Inequality",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For an upward-opening parabola, the expression is positive...",
+          questionMy: "အပေါ်သို့ ဖွင့်သော Parabola အတွက် Expression သည် Positive ဖြစ်သည်...",
+          optionsEn: [
+            "Outside the roots",
+            "Between the roots",
+            "Only at the roots",
+            "Nowhere",
+          ],
+          optionsMy: [
+            "Root များ အပြင်ဘက်",
+            "Root များအကြား",
+            "Root များတွင်သာ",
+            "မည်သည့်နေရာမျှ မဟုတ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The first step in solving a quadratic inequality is usually to...",
+          questionMy: "Quadratic Inequality ဖြေရှင်းရာတွင် ပထမဆုံးအဆင့်မှာ ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Find the roots by factorising or using the formula",
+            "Guess an answer",
+            "Divide by the discriminant",
+            "Ignore the inequality sign",
+          ],
+          optionsMy: [
+            "Factorise (သို့) Formula သုံး၍ Root များကို ရှာခြင်း",
+            "အဖြေကို ခန့်မှန်းခြင်း",
+            "Discriminant ဖြင့် စားခြင်း",
+            "Inequality Sign ကို လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Solve x² - 4 ≥ 0.",
+          questionMy: "x² - 4 ≥ 0 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x ≤ -2 or x ≥ 2", "-2 ≤ x ≤ 2", "x ≤ 2 only", "x ≥ -2 only"],
+          optionsMy: ["x ≤ -2 or x ≥ 2", "-2 ≤ x ≤ 2", "x ≤ 2 only", "x ≥ -2 only"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4 (Boss Week): "Quadratic Graphs and Factorised Form"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek4 = CourseWeekDef(
+  id: "course-y12-math-w4",
+  weekNumber: 4,
+  titleEn: "Quadratic Graphs and Factorised Form",
+  titleMy: "Quadratic Graph များနှင့် Factorised Form",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w4-d1",
+      dayNumber: 1,
+      titleEn: "Reading Graph Features from Factorised Form",
+      titleMy: "Factorised Form မှ Graph လက္ခဏာများ ဖတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For y = (x - 2)(x - 5), the roots and y-intercept are...",
+          questionMy: "y = (x - 2)(x - 5) အတွက် Root များနှင့် y-Intercept မှာ...",
+          optionsEn: [
+            "Roots at x = 2, 5; y-intercept = 10",
+            "Roots at x = -2, -5; y-intercept = 10",
+            "Roots at x = 2, 5; y-intercept = -10",
+            "Roots at x = 2, 5; y-intercept = 7",
+          ],
+          optionsMy: [
+            "Root x = 2, 5; y-Intercept = 10",
+            "Root x = -2, -5; y-Intercept = 10",
+            "Root x = 2, 5; y-Intercept = -10",
+            "Root x = 2, 5; y-Intercept = 7",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Roots are where each bracket is zero: x=2, x=5. y-intercept: set x=0: (0-2)(0-5) = (-2)(-5) = 10.",
+          ],
+          hintsMy: [
+            "Root များသည် Bracket တစ်ခုစီ Zero ဖြစ်သည့်နေရာ - x=2, x=5 ။ y-Intercept - x=0 ဖြစ်ပါက (0-2)(0-5) = (-2)(-5) = 10 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For y = (x + 1)(x - 3), the roots and y-intercept are...",
+          questionMy: "y = (x + 1)(x - 3) အတွက် Root များနှင့် y-Intercept မှာ...",
+          optionsEn: [
+            "Roots at x = -1, 3; y-intercept = -3",
+            "Roots at x = 1, -3; y-intercept = -3",
+            "Roots at x = -1, 3; y-intercept = 3",
+            "Roots at x = -1, 3; y-intercept = -1",
+          ],
+          optionsMy: [
+            "Root x = -1, 3; y-Intercept = -3",
+            "Root x = 1, -3; y-Intercept = -3",
+            "Root x = -1, 3; y-Intercept = 3",
+            "Root x = -1, 3; y-Intercept = -1",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "y-intercept: set x=0: (0+1)(0-3) = (1)(-3) = -3.",
+          ],
+          hintsMy: [
+            "y-Intercept - x=0 ဖြစ်ပါက (0+1)(0-3) = (1)(-3) = -3 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For y = a(x - p)(x - q), the axis of symmetry is at x = ...",
+          questionMy: "y = a(x - p)(x - q) အတွက် Axis of Symmetry သည် x = ...",
+          optionsEn: ["(p + q) / 2", "p + q", "p x q", "(p - q) / 2"],
+          optionsMy: ["(p + q) / 2", "p + q", "p x q", "(p - q) / 2"],
+          correctIndex: 0,
+          hintsEn: [
+            "The axis of symmetry sits exactly midway between the two roots.",
+          ],
+          hintsMy: ["Axis of Symmetry သည် Root နှစ်ခု၏ အလယ်တွင် တိတိကျကျ ရှိသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Factorised Form and Graph Features",
+      titleMy: "တွဲစပ်ကြမည် - Factorised Form နှင့် Graph လက္ခဏာများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w4-dm-1",
+          termEn: "Roots of y = (x - p)(x - q)",
+          termMy: "y = (x - p)(x - q) ၏ Root များ",
+          matchEn: "x = p and x = q, where the curve crosses the x-axis",
+          matchMy: "x = p နှင့် x = q, မျဉ်းကွေးက x-Axis ကို ဖြတ်သည့်နေရာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w4-dm-2",
+          termEn: "y-intercept",
+          termMy: "y-Intercept",
+          matchEn: "The value of y when x = 0",
+          matchMy: "x = 0 ဖြစ်သည့်အခါ y ၏ တန်ဖိုး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w4-dm-3",
+          termEn: "Axis of symmetry",
+          termMy: "Axis of Symmetry",
+          matchEn: "x = (p + q) / 2, midway between the roots",
+          matchMy: "x = (p + q) / 2, Root များ၏ အလယ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w4-dm-4",
+          termEn: "Positive coefficient of x²",
+          termMy: "Positive x² Coefficient",
+          matchEn: "Parabola opens upward, has a minimum",
+          matchMy: "Parabola အပေါ်သို့ ဖွင့်ပြီး Minimum ရှိသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w4-dm-5",
+          termEn: "Negative coefficient of x²",
+          termMy: "Negative x² Coefficient",
+          matchEn: "Parabola opens downward, has a maximum",
+          matchMy: "Parabola အောက်သို့ ဖွင့်ပြီး Maximum ရှိသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Opens Upward or Downward?",
+      titleMy: "စီစစ်ကြမည် - အပေါ်သို့ ဒါမှမဟုတ် အောက်သို့ ဖွင့်သနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Opens upward (minimum)", "Opens downward (maximum)"],
+        bucketsMy: ["အပေါ်သို့ ဖွင့် (Minimum)", "အောက်သို့ ဖွင့် (Maximum)"],
+        items: [
+          SortingItem(
+            id: "y12math-w4-sort-1",
+            labelEn: "y = (x - 1)(x - 4)",
+            labelMy: "y = (x - 1)(x - 4)",
+            correctBucketEn: "Opens upward (minimum)",
+            correctBucketMy: "အပေါ်သို့ ဖွင့် (Minimum)",
+          ),
+          SortingItem(
+            id: "y12math-w4-sort-2",
+            labelEn: "y = -(x - 2)(x + 3)",
+            labelMy: "y = -(x - 2)(x + 3)",
+            correctBucketEn: "Opens downward (maximum)",
+            correctBucketMy: "အောက်သို့ ဖွင့် (Maximum)",
+          ),
+          SortingItem(
+            id: "y12math-w4-sort-3",
+            labelEn: "y = 2(x + 1)(x - 1)",
+            labelMy: "y = 2(x + 1)(x - 1)",
+            correctBucketEn: "Opens upward (minimum)",
+            correctBucketMy: "အပေါ်သို့ ဖွင့် (Minimum)",
+          ),
+          SortingItem(
+            id: "y12math-w4-sort-4",
+            labelEn: "y = -3(x - 5)(x + 5)",
+            labelMy: "y = -3(x - 5)(x + 5)",
+            correctBucketEn: "Opens downward (maximum)",
+            correctBucketMy: "အောက်သို့ ဖွင့် (Maximum)",
+          ),
+          SortingItem(
+            id: "y12math-w4-sort-5",
+            labelEn: "y = (x - 6)(x + 2)",
+            labelMy: "y = (x - 6)(x + 2)",
+            correctBucketEn: "Opens upward (minimum)",
+            correctBucketMy: "အပေါ်သို့ ဖွင့် (Minimum)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Quadratic, Three Ways to See It",
+      titleMy: "စာဖတ်ခြင်း - Quadratic တစ်ခု၊ ကြည့်ရှုနည်း သုံးမျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Quadratic, Three Ways to See It",
+        titleMy: "Quadratic တစ်ခု၊ ကြည့်ရှုနည်း သုံးမျိုး",
+        passageEn:
+            "For the Term 1 capstone, Sayar Zaw Min gave the class a single quadratic, y = x² - 4x - 5, and asked them to describe it three separate ways: by completing the square, by its discriminant and roots, and by its factorised form — then to check that all three agreed with each other.\n\nHtet Aung started with completing the square: half of -4 is -2, squared is 4, so y = (x - 2)² - 4 - 5 = (x - 2)² - 9. This told him the minimum point was (2, -9). Su Su worked on the discriminant next: a=1, b=-4, c=-5, so b² - 4ac = 16 + 20 = 36, which is positive and a perfect square, so she expected two distinct real roots that would come out as 'nice' whole numbers. Using the quadratic formula, x = (4 ± 6) / 2, giving x = 5 or x = -1.\n\nHtet Aung then factorised directly: y = (x - 5)(x + 1), which checks out since expanding gives x² + x - 5x - 5 = x² - 4x - 5, matching the original. The three methods agreed perfectly: the roots x = 5 and x = -1 from both the formula and the factorised form sit symmetrically around x = 2 — exactly the x-coordinate of the minimum point that completing the square found, since (5 + (-1)) / 2 = 2. Sayar Zaw Min pointed out that this is not a coincidence: the vertex of any parabola always lies exactly midway between its two roots, which is why the three methods must always agree.",
+        passageMy:
+            "Term 1 Capstone အတွက် ဆရာဇော်မင်းသည် အတန်းအား Quadratic တစ်ခု၊ y = x² - 4x - 5 ကို ပေးပြီး ၎င်းကို နည်းလမ်း သုံးမျိုးဖြင့် ဖော်ပြရန် ခိုင်းစေခဲ့သည် - Completing the Square ဖြင့်၊ Discriminant နှင့် Root များဖြင့်၊ Factorised Form ဖြင့် -- ထို့နောက် သုံးမျိုးလုံး တစ်ညီတစ်ညွတ်တည်း ရှိမရှိ စစ်ဆေးရန်။\n\nHtet Aung သည် Completing the Square ဖြင့် စတင်ခဲ့သည် - -4 ၏ တစ်ဝက်မှာ -2, Square လုပ်ပါက 4 ဖြစ်၍ y = (x - 2)² - 4 - 5 = (x - 2)² - 9 ရသည်။ ၎င်းက Minimum Point (2, -9) ဖြစ်ကြောင်း ပြောပြခဲ့သည်။ Su Su သည် Discriminant ကို ဆက်လက်တွက်ချက်ခဲ့သည် - a=1, b=-4, c=-5 ဖြစ်၍ b² - 4ac = 16 + 20 = 36, Positive ဖြစ်ပြီး Perfect Square ဖြစ်သောကြောင့် ကွဲပြားသော Real Root နှစ်ခု 'သန့်ရှင်း' သော ကိန်းပြည့်များအဖြစ် ထွက်လာမည်ဟု မျှော်လင့်ခဲ့သည်။ Quadratic Formula ကို အသုံးပြု၍ x = (4 ± 6) / 2, x = 5 (သို့) x = -1 ရသည်။\n\nHtet Aung သည် တိုက်ရိုက် Factorise ပြုလုပ်ခဲ့သည် - y = (x - 5)(x + 1), ချဲ့ကြည့်ပါက x² + x - 5x - 5 = x² - 4x - 5 ရသဖြင့် မူလ Expression နှင့် ကိုက်ညီသည်။ နည်းလမ်းသုံးမျိုးလုံး အပြည့်အဝ ကိုက်ညီခဲ့သည် - Formula နှင့် Factorised Form နှစ်ခုစလုံးမှ ရရှိသော Root x = 5 နှင့် x = -1 သည် x = 2 ကို ဗဟိုပြု၍ Symmetric ဖြစ်နေသည် -- ၎င်းသည် Completing the Square မှ ရရှိသော Minimum Point ၏ x-Coordinate အတိအကျပင် ဖြစ်သည်၊ (5 + (-1)) / 2 = 2 ဖြစ်သောကြောင့်။ ဤသည်မှာ ကြုံလိုက်ခြင်းမဟုတ်ဘဲ Parabola တိုင်း၏ Vertex သည် ၎င်း၏ Root နှစ်ခု၏ အလယ်တွင် အမြဲ ရှိသောကြောင့်ဖြစ်ကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည် -- ထို့ကြောင့် နည်းလမ်းသုံးမျိုးလုံး အမြဲ ကိုက်ညီရမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the minimum point of y = x² - 4x - 5?",
+            questionMy: "y = x² - 4x - 5 ၏ Minimum Point ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(2, -9)", "(-2, -9)", "(2, 9)", "(4, -5)"],
+            optionsMy: ["(2, -9)", "(-2, -9)", "(2, 9)", "(4, -5)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the two roots found from both the formula and the factorised form?",
+            questionMy:
+                "Formula နှင့် Factorised Form နှစ်ခုစလုံးမှ ရရှိသော Root နှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x = 5 or x = -1", "x = 4 or x = -5", "x = 2 or x = -9", "x = 1 or x = -5"],
+            optionsMy: ["x = 5 or x = -1", "x = 4 or x = -5", "x = 2 or x = -9", "x = 1 or x = -5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second and third paragraphs."],
+            hintsMy: ["ဒုတိယနှင့် တတိယစာပိုဒ်များကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why must all three methods always agree?",
+            questionMy:
+                "နည်းလမ်းသုံးမျိုးလုံး အဘယ်ကြောင့် အမြဲ ကိုက်ညီရသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The vertex always lies exactly midway between the two roots",
+              "It is only true for this particular quadratic",
+              "The discriminant is always 36",
+              "It is a coincidence with no underlying reason",
+            ],
+            optionsMy: [
+              "Vertex သည် Root နှစ်ခု၏ အလယ်တွင် အမြဲ ရှိသောကြောင့်",
+              "ဤ Quadratic တစ်ခုတည်းအတွက်သာ မှန်ကန်သောကြောင့်",
+              "Discriminant သည် အမြဲ 36 ဖြစ်သောကြောင့်",
+              "အကြောင်းရင်းမရှိသော ကြုံလိုက်ခြင်းသာ ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Quadratics Capstone",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Quadratics Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The vertex of a parabola always lies...",
+          questionMy: "Parabola တစ်ခု၏ Vertex သည် အမြဲ...",
+          optionsEn: [
+            "Exactly midway between its two roots",
+            "At the y-intercept",
+            "Above the larger root",
+            "Nowhere near the roots",
+          ],
+          optionsMy: [
+            "၎င်း၏ Root နှစ်ခု၏ အလယ်တွင် တိတိကျကျ",
+            "y-Intercept တွင်",
+            "ကြီးမားသော Root ၏ အပေါ်တွင်",
+            "Root များနှင့် နီးစပ်မှု မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In y = (x - p)(x - q), the roots are found by setting...",
+          questionMy: "y = (x - p)(x - q) တွင် Root များကို ...ဖြင့် ရှာသည်",
+          optionsEn: [
+            "Each bracket equal to zero",
+            "y equal to the y-intercept",
+            "x equal to p + q",
+            "Both brackets equal to each other",
+          ],
+          optionsMy: [
+            "Bracket တစ်ခုစီကို Zero ညီစေခြင်းဖြင့်",
+            "y ကို y-Intercept ညီစေခြင်းဖြင့်",
+            "x ကို p + q ညီစေခြင်းဖြင့်",
+            "Bracket နှစ်ခုကို အချင်းချင်း ညီစေခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Which fact links completing the square, the discriminant, and factorising?",
+          questionMy: "Completing the Square, Discriminant, Factorising တို့ကို ဆက်စပ်ပေးသော အချက်မှာ...",
+          optionsEn: [
+            "They must always give consistent roots and vertex for the same quadratic",
+            "They only work for different quadratics",
+            "Only factorising gives correct roots",
+            "The discriminant has no connection to the roots",
+          ],
+          optionsMy: [
+            "Quadratic တစ်ခုတည်းအတွက် Root များနှင့် Vertex တစ်ညီတစ်ညွတ်တည်း အမြဲ ပေးရမည်",
+            "မတူညီသော Quadratic များအတွက်သာ အလုပ်လုပ်သည်",
+            "Factorising တစ်ခုတည်းသာ မှန်ကန်သော Root များ ပေးသည်",
+            "Discriminant သည် Root များနှင့် ဆက်စပ်မှု မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm1 = CourseTermDef(
+  id: "course-y12-math-t1",
+  termNumber: 1,
+  titleEn: "Quadratics",
+  titleMy: "Quadratics",
+  weeks: [_y12MathWeek1, _y12MathWeek2, _y12MathWeek3, _y12MathWeek4],
+  certificateTitleEn: "AS Mathematics: Quadratics",
+  certificateTitleMy: "AS သင်္ချာ - Quadratics",
+);
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 2:
+// "Functions"
+// (Weeks 5-8)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "Domain and Range"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek5 = CourseWeekDef(
+  id: "course-y12-math-w5",
+  weekNumber: 5,
+  titleEn: "Domain and Range",
+  titleMy: "Domain နှင့် Range",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w5-d1",
+      dayNumber: 1,
+      titleEn: "Finding Domain and Range",
+      titleMy: "Domain နှင့် Range ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For f(x) = √(x - 3), the domain is...",
+          questionMy: "f(x) = √(x - 3) အတွက် Domain မှာ...",
+          optionsEn: ["x ≥ 3", "x ≤ 3", "x ≠ 3", "All real x"],
+          optionsMy: ["x ≥ 3", "x ≤ 3", "x ≠ 3", "Real x အားလုံး"],
+          correctIndex: 0,
+          hintsEn: [
+            "The expression under a square root must be ≥ 0, so x - 3 ≥ 0, giving x ≥ 3.",
+          ],
+          hintsMy: [
+            "Square Root အောက်ရှိ Expression သည် ≥ 0 ဖြစ်ရမည်၊ x - 3 ≥ 0, x ≥ 3 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For f(x) = 1 / (x - 2), the domain is...",
+          questionMy: "f(x) = 1 / (x - 2) အတွက် Domain မှာ...",
+          optionsEn: [
+            "All real x except x = 2",
+            "x ≥ 2",
+            "x ≤ 2",
+            "All real x",
+          ],
+          optionsMy: [
+            "x = 2 မှလွဲ၍ Real x အားလုံး",
+            "x ≥ 2",
+            "x ≤ 2",
+            "Real x အားလုံး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Division by zero is undefined, so x - 2 cannot equal 0, meaning x ≠ 2.",
+          ],
+          hintsMy: [
+            "Zero ဖြင့် စားခြင်းသည် Undefined ဖြစ်သောကြောင့် x - 2 သည် 0 မဖြစ်ရ၊ x ≠ 2 ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For f(x) = x² + 1, defined for all real x, the range is...",
+          questionMy: "Real x အားလုံးအတွက် သတ်မှတ်ထားသော f(x) = x² + 1 ၏ Range မှာ...",
+          optionsEn: ["f(x) ≥ 1", "f(x) ≥ 0", "f(x) ≤ 1", "All real f(x)"],
+          optionsMy: ["f(x) ≥ 1", "f(x) ≥ 0", "f(x) ≤ 1", "Real f(x) အားလုံး"],
+          correctIndex: 0,
+          hintsEn: [
+            "x² has a minimum value of 0 (at x = 0), so x² + 1 has a minimum value of 1.",
+          ],
+          hintsMy: [
+            "x² ၏ Minimum Value သည် 0 ဖြစ်သည် (x = 0 တွင်), ထို့ကြောင့် x² + 1 ၏ Minimum Value သည် 1 ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Functions and Their Domains",
+      titleMy: "တွဲစပ်ကြမည် - Function များနှင့် Domain",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w5-dm-1",
+          termEn: "f(x) = √x",
+          termMy: "f(x) = √x",
+          matchEn: "Domain: x ≥ 0",
+          matchMy: "Domain: x ≥ 0",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w5-dm-2",
+          termEn: "f(x) = 1 / x",
+          termMy: "f(x) = 1 / x",
+          matchEn: "Domain: x ≠ 0",
+          matchMy: "Domain: x ≠ 0",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w5-dm-3",
+          termEn: "f(x) = √(x - 5)",
+          termMy: "f(x) = √(x - 5)",
+          matchEn: "Domain: x ≥ 5",
+          matchMy: "Domain: x ≥ 5",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w5-dm-4",
+          termEn: "f(x) = 1 / (x + 4)",
+          termMy: "f(x) = 1 / (x + 4)",
+          matchEn: "Domain: x ≠ -4",
+          matchMy: "Domain: x ≠ -4",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w5-dm-5",
+          termEn: "f(x) = x² (all real x)",
+          termMy: "f(x) = x² (Real x အားလုံး)",
+          matchEn: "Range: f(x) ≥ 0",
+          matchMy: "Range: f(x) ≥ 0",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Restricted Domain or All Real x?",
+      titleMy: "စီစစ်ကြမည် - Domain ကန့်သတ်ထား ဒါမှမဟုတ် Real x အားလုံး",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Domain restricted", "Domain is all real x"],
+        bucketsMy: ["Domain ကန့်သတ်ထား", "Domain သည် Real x အားလုံး"],
+        items: [
+          SortingItem(
+            id: "y12math-w5-sort-1",
+            labelEn: "f(x) = √(x + 2)",
+            labelMy: "f(x) = √(x + 2)",
+            correctBucketEn: "Domain restricted",
+            correctBucketMy: "Domain ကန့်သတ်ထား",
+          ),
+          SortingItem(
+            id: "y12math-w5-sort-2",
+            labelEn: "f(x) = x³",
+            labelMy: "f(x) = x³",
+            correctBucketEn: "Domain is all real x",
+            correctBucketMy: "Domain သည် Real x အားလုံး",
+          ),
+          SortingItem(
+            id: "y12math-w5-sort-3",
+            labelEn: "f(x) = 1 / (x - 1)",
+            labelMy: "f(x) = 1 / (x - 1)",
+            correctBucketEn: "Domain restricted",
+            correctBucketMy: "Domain ကန့်သတ်ထား",
+          ),
+          SortingItem(
+            id: "y12math-w5-sort-4",
+            labelEn: "f(x) = 2x + 3",
+            labelMy: "f(x) = 2x + 3",
+            correctBucketEn: "Domain is all real x",
+            correctBucketMy: "Domain သည် Real x အားလုံး",
+          ),
+          SortingItem(
+            id: "y12math-w5-sort-5",
+            labelEn: "f(x) = √(4 - x)",
+            labelMy: "f(x) = √(4 - x)",
+            correctBucketEn: "Domain restricted",
+            correctBucketMy: "Domain ကန့်သတ်ထား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Domain and Range of a Water Tank Model",
+      titleMy: "စာဖတ်ခြင်း - ရေတိုင်ကီ Model ၏ Domain နှင့် Range",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Domain and Range of a Water Tank Model",
+        titleMy: "ရေတိုင်ကီ Model ၏ Domain နှင့် Range",
+        passageEn:
+            "Sayar Zaw Min set the class a function based on a water tank being drained: f(x) = √(20 - x), where x represents the number of litres removed and f(x) represents a related depth reading. He asked Htet Aung to find the domain and range.\n\nHtet Aung reasoned about the domain first: since the expression under the square root, 20 - x, cannot be negative, he needed 20 - x ≥ 0, which rearranges to x ≤ 20. He also noted that x represents litres removed from a tank, so physically x ≥ 0 as well, giving a domain of 0 ≤ x ≤ 20 once the real-world context was combined with the pure mathematics.\n\nFor the range, Htet Aung considered the extreme values of x within that domain. When x = 0 (nothing removed), f(0) = √20, the largest possible output. When x = 20 (the maximum removed), f(20) = √0 = 0, the smallest possible output. Since √(20 - x) decreases smoothly and continuously as x increases across the domain, every value between 0 and √20 is achieved exactly once, giving a range of 0 ≤ f(x) ≤ √20. Sayar Zaw Min pointed out that this is a common pattern: the domain often comes from what makes the algebra valid (no negative square roots), while a real-world context can narrow it further, and the range then follows from tracking the function's minimum and maximum output values across that domain.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ရေထုတ်နေသော ရေတိုင်ကီအပေါ် အခြေခံသော Function တစ်ခုကို အတန်းအား ပေးခဲ့သည် - f(x) = √(20 - x), x သည် ထုတ်ယူထားသော Litre အရေအတွက်ကို ကိုယ်စားပြုပြီး f(x) သည် ဆက်စပ်နေသော အနက် Reading ကို ကိုယ်စားပြုသည်။ Htet Aung အား Domain နှင့် Range ကို ရှာခိုင်းခဲ့သည်။\n\nHtet Aung သည် Domain အကြောင်း ဦးစွာ စဉ်းစားခဲ့သည် - Square Root အောက်ရှိ Expression, 20 - x သည် Negative မဖြစ်ရသောကြောင့် 20 - x ≥ 0 လိုအပ်ပြီး x ≤ 20 ဟု ပြန်စီစဉ်ရသည်။ x သည် တိုင်ကီမှ ထုတ်ယူထားသော Litre ကို ကိုယ်စားပြုသောကြောင့် ရုပ်ပိုင်းဆိုင်ရာအရလည်း x ≥ 0 ဖြစ်ရမည်ဟု သတိပြုမိပြီး Real-World Context နှင့် Pure Mathematics ပေါင်းစည်းလိုက်ပါက Domain 0 ≤ x ≤ 20 ရရှိခဲ့သည်။\n\nRange အတွက် Htet Aung သည် ထို Domain အတွင်းရှိ x ၏ အစွန်းတန်ဖိုးများကို စဉ်းစားခဲ့သည်။ x = 0 (ဘာမျှ မထုတ်သေးစဉ်) တွင် f(0) = √20, အကြီးဆုံး Output ဖြစ်သည်။ x = 20 (အများဆုံး ထုတ်ယူသည့်အချိန်) တွင် f(20) = √0 = 0, အသေးဆုံး Output ဖြစ်သည်။ √(20 - x) သည် Domain တစ်လျှောက် x တိုးလာသည်နှင့်အမျှ ချောမွေ့စွာ အဆက်မပြတ် လျော့ကျသွားသောကြောင့် 0 နှင့် √20 အကြားရှိ တန်ဖိုးတိုင်းကို အတိအကျ တစ်ကြိမ်စီ ရရှိစေပြီး Range 0 ≤ f(x) ≤ √20 ရရှိခဲ့သည်။ ဤသည်မှာ Pattern အသုံးများသော ပုံစံဖြစ်ကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည် - Domain သည် Algebra ကို Valid ဖြစ်စေသော အချက်များမှ ရရှိလေ့ရှိပြီး (Square Root Negative မဖြစ်ရ) Real-World Context က ၎င်းကို ထပ်၍ ကျဉ်းစေနိုင်ပြီး Range သည် ထို Domain တစ်လျှောက် Function ၏ Minimum နှင့် Maximum Output တန်ဖိုးများကို ခြေရာခံခြင်းမှ ဆင်းသက်လာသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the domain of f(x) = √(20 - x)?",
+            questionMy: "f(x) = √(20 - x) ၏ Domain ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0 ≤ x ≤ 20", "x ≤ 20 only", "x ≥ 0 only", "x ≠ 20"],
+            optionsMy: ["0 ≤ x ≤ 20", "x ≤ 20 only", "x ≥ 0 only", "x ≠ 20"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the range of f(x) = √(20 - x)?",
+            questionMy: "f(x) = √(20 - x) ၏ Range ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0 ≤ f(x) ≤ √20", "0 ≤ f(x) ≤ 20", "f(x) ≥ √20", "f(x) ≤ 0"],
+            optionsMy: ["0 ≤ f(x) ≤ √20", "0 ≤ f(x) ≤ 20", "f(x) ≥ √20", "f(x) ≤ 0"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ အကျဉ်းချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how does the range get found once the domain is known?",
+            questionMy:
+                "Domain ကို သိပြီးသည့်နောက် Range ကို မည်သို့ ရှာသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By tracking the function's minimum and maximum output across the domain",
+              "By guessing a reasonable value",
+              "By ignoring the domain entirely",
+              "By always assuming the range is all real numbers",
+            ],
+            optionsMy: [
+              "Domain တစ်လျှောက် Function ၏ Minimum နှင့် Maximum Output ကို ခြေရာခံခြင်းဖြင့်",
+              "သင့်လျော်သော တန်ဖိုးတစ်ခုကို ခန့်မှန်းခြင်းဖြင့်",
+              "Domain ကို လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+              "Range သည် Real Number အားလုံးဖြစ်သည်ဟု အမြဲ ယူဆခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Domain and Range",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Domain နှင့် Range",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The domain of a function is the set of all valid...",
+          questionMy: "Function တစ်ခု၏ Domain သည် မှန်ကန်သော...အားလုံး ဖြစ်သည်",
+          optionsEn: ["Input (x) values", "Output (y) values", "Gradients", "Intercepts"],
+          optionsMy: ["Input (x) တန်ဖိုးများ", "Output (y) တန်ဖိုးများ", "Gradient များ", "Intercept များ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A square root function requires the expression inside it to be...",
+          questionMy: "Square Root Function တစ်ခုတွင် အတွင်းပိုင်း Expression သည်...",
+          optionsEn: ["Greater than or equal to 0", "Less than 0", "Equal to 1", "Any negative number"],
+          optionsMy: ["0 ထက် ကြီးသည် (သို့) ညီသည်", "0 ထက် နည်းသည်", "1 ညီသည်", "Negative Number တစ်ခု"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A fraction function such as 1/(x-2) is undefined when...",
+          questionMy: "1/(x-2) ကဲ့သို့ Fraction Function သည် ...တွင် Undefined ဖြစ်သည်",
+          optionsEn: ["The denominator equals 0", "The numerator equals 0", "x is negative", "x is a whole number"],
+          optionsMy: ["Denominator 0 ညီသည့်အခါ", "Numerator 0 ညီသည့်အခါ", "x Negative ဖြစ်သည့်အခါ", "x ကိန်းပြည့် ဖြစ်သည့်အခါ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "Composite Functions fg(x)"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek6 = CourseWeekDef(
+  id: "course-y12-math-w6",
+  weekNumber: 6,
+  titleEn: "Composite Functions fg(x)",
+  titleMy: "Composite Function fg(x)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w6-d1",
+      dayNumber: 1,
+      titleEn: "Calculating Composite Functions",
+      titleMy: "Composite Function တွက်ချက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "If f(x) = 2x + 1 and g(x) = x², find fg(3).",
+          questionMy: "f(x) = 2x + 1 နှင့် g(x) = x² ဖြစ်ပါက fg(3) ကို ရှာပါ။",
+          optionsEn: ["19", "9", "49", "7"],
+          optionsMy: ["19", "9", "49", "7"],
+          correctIndex: 0,
+          hintsEn: [
+            "fg(3) means f(g(3)). First g(3) = 9, then f(9) = 2(9) + 1 = 19.",
+          ],
+          hintsMy: [
+            "fg(3) ဆိုသည်မှာ f(g(3)) ဖြစ်သည်။ ဦးစွာ g(3) = 9, ထို့နောက် f(9) = 2(9) + 1 = 19 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "If f(x) = 2x + 1 and g(x) = x², find gf(x).",
+          questionMy: "f(x) = 2x + 1 နှင့် g(x) = x² ဖြစ်ပါက gf(x) ကို ရှာပါ။",
+          optionsEn: ["(2x + 1)²", "2x² + 1", "4x² + 1", "2(x² + 1)"],
+          optionsMy: ["(2x + 1)²", "2x² + 1", "4x² + 1", "2(x² + 1)"],
+          correctIndex: 0,
+          hintsEn: [
+            "gf(x) means g(f(x)). Apply f first: 2x+1, then square it for g: (2x+1)².",
+          ],
+          hintsMy: [
+            "gf(x) ဆိုသည်မှာ g(f(x)) ဖြစ်သည်။ f ကို အရင်သုံးပါ - 2x+1, ထို့နောက် g အတွက် Square လုပ်ပါ - (2x+1)² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the notation fg(x), which function is applied first?",
+          questionMy: "fg(x) Notation တွင် မည်သည့် Function ကို ဦးစွာ သုံးသနည်း။",
+          optionsEn: ["g, then f", "f, then g", "Both at the same time", "Neither is applied first"],
+          optionsMy: ["g, ထို့နောက် f", "f, ထို့နောက် g", "နှစ်ခုလုံး တစ်ပြိုင်နက်", "ဘယ်တစ်ခုမှ ဦးစွာ မသုံး"],
+          correctIndex: 0,
+          hintsEn: [
+            "fg(x) = f(g(x)) — read from the inside out, so g acts on x first, then f acts on the result.",
+          ],
+          hintsMy: [
+            "fg(x) = f(g(x)) -- အတွင်းမှ အပြင်သို့ ဖတ်ပါ၊ g သည် x အပေါ် ဦးစွာ လုပ်ဆောင်ပြီး ထို့နောက် f က အဖြေအပေါ် လုပ်ဆောင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Composite Function Notation",
+      titleMy: "တွဲစပ်ကြမည် - Composite Function Notation",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w6-dm-1",
+          termEn: "fg(x)",
+          termMy: "fg(x)",
+          matchEn: "f(g(x)) — apply g first, then f",
+          matchMy: "f(g(x)) -- g ကို ဦးစွာသုံးပြီး f ကို ဆက်သုံးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w6-dm-2",
+          termEn: "gf(x)",
+          termMy: "gf(x)",
+          matchEn: "g(f(x)) — apply f first, then g",
+          matchMy: "g(f(x)) -- f ကို ဦးစွာသုံးပြီး g ကို ဆက်သုံးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w6-dm-3",
+          termEn: "ff(x)",
+          termMy: "ff(x)",
+          matchEn: "f(f(x)) — apply f twice",
+          matchMy: "f(f(x)) -- f ကို နှစ်ကြိမ် သုံးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w6-dm-4",
+          termEn: "f∘g",
+          termMy: "f∘g",
+          matchEn: "Another way to write the composite function fg",
+          matchMy: "Composite Function fg ကို ရေးသည့် အခြားနည်းလမ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w6-dm-5",
+          termEn: "Composite function",
+          termMy: "Composite Function",
+          matchEn: "A function formed by combining two functions in sequence",
+          matchMy: "Function နှစ်ခုကို အစဉ်လိုက် ပေါင်းစပ်ထားသော Function",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Which Order Is Applied First?",
+      titleMy: "စီစစ်ကြမည် - မည်သည့် Order ကို ဦးစွာ သုံးသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Order: g then f", "Order: f then g"],
+        bucketsMy: ["Order: g ထို့နောက် f", "Order: f ထို့နောက် g"],
+        items: [
+          SortingItem(
+            id: "y12math-w6-sort-1",
+            labelEn: "fg(x)",
+            labelMy: "fg(x)",
+            correctBucketEn: "Order: g then f",
+            correctBucketMy: "Order: g ထို့နောက် f",
+          ),
+          SortingItem(
+            id: "y12math-w6-sort-2",
+            labelEn: "gf(x)",
+            labelMy: "gf(x)",
+            correctBucketEn: "Order: f then g",
+            correctBucketMy: "Order: f ထို့နောက် g",
+          ),
+          SortingItem(
+            id: "y12math-w6-sort-3",
+            labelEn: "f∘g(x)",
+            labelMy: "f∘g(x)",
+            correctBucketEn: "Order: g then f",
+            correctBucketMy: "Order: g ထို့နောက် f",
+          ),
+          SortingItem(
+            id: "y12math-w6-sort-4",
+            labelEn: "g∘f(x)",
+            labelMy: "g∘f(x)",
+            correctBucketEn: "Order: f then g",
+            correctBucketMy: "Order: f ထို့နောက် g",
+          ),
+          SortingItem(
+            id: "y12math-w6-sort-5",
+            labelEn: "(f∘g)(x)",
+            labelMy: "(f∘g)(x)",
+            correctBucketEn: "Order: g then f",
+            correctBucketMy: "Order: g ထို့နောက် f",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Temperature Conversion as a Composite Function",
+      titleMy: "စာဖတ်ခြင်း - Composite Function အနေဖြင့် အပူချိန်ပြောင်းလဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Temperature Conversion as a Composite Function",
+        titleMy: "Composite Function အနေဖြင့် အပူချိန်ပြောင်းလဲခြင်း",
+        passageEn:
+            "Su Su noticed that two everyday functions could be chained together: c(x) = (x - 32) x 5/9, which converts a Fahrenheit reading x to Celsius, and d(x) = x + 273, which converts a Celsius reading to Kelvin. Sayar Zaw Min asked her to find the single composite function that converts Fahrenheit directly to Kelvin.\n\nSu Su recognised that Kelvin comes from applying the Celsius conversion first, then the Kelvin conversion — so the composite function she needed was d(c(x)), written dc(x) in function notation, reading from the inside out: c acts on the Fahrenheit value first, then d acts on that result. Substituting, dc(x) = c(x) + 273 = ((x - 32) x 5/9) + 273.\n\nSayar Zaw Min then asked her to test it on x = 32°F (freezing point of water), which should give 273.15 K in reality but 273 K in this simplified model. Su Su calculated: c(32) = (32 - 32) x 5/9 = 0, then d(0) = 0 + 273 = 273 K — correct. She also tested x = 212°F (boiling point): c(212) = (212 - 32) x 5/9 = 180 x 5/9 = 100, then d(100) = 100 + 273 = 373 K, matching the known boiling point of water in Kelvin. This confirmed that chaining two real-world conversion functions is exactly the same idea as fg(x): apply the inner function first, then feed its output into the outer function.",
+        passageMy:
+            "Su Su သည် နေ့စဉ် Function နှစ်ခုကို တွဲဆက်နိုင်ကြောင်း သတိပြုမိခဲ့သည် - c(x) = (x - 32) x 5/9, Fahrenheit Reading x ကို Celsius သို့ ပြောင်းလဲပေးပြီး d(x) = x + 273, Celsius Reading ကို Kelvin သို့ ပြောင်းလဲပေးသည်။ ဆရာဇော်မင်းသည် Fahrenheit မှ Kelvin သို့ တိုက်ရိုက် ပြောင်းလဲပေးမည့် Composite Function တစ်ခုတည်းကို ရှာခိုင်းခဲ့သည်။\n\nSu Su သည် Kelvin ကို Celsius Conversion အရင်သုံး၍ ထို့နောက် Kelvin Conversion သုံးခြင်းမှ ရရှိကြောင်း သိရှိခဲ့သည် -- ထို့ကြောင့် လိုအပ်သော Composite Function မှာ d(c(x)) ဖြစ်ပြီး Function Notation တွင် dc(x) ဟု ရေးသည်၊ အတွင်းမှ အပြင်သို့ ဖတ်ပါက - c သည် Fahrenheit တန်ဖိုးအပေါ် ဦးစွာ လုပ်ဆောင်ပြီး d သည် ထိုအဖြေအပေါ် လုပ်ဆောင်သည်။ ထိုးသွင်းလိုက်ပါက dc(x) = c(x) + 273 = ((x - 32) x 5/9) + 273 ရသည်။\n\nဆရာဇော်မင်းသည် x = 32°F (ရေခဲသည့်အပူချိန်) ဖြင့် စမ်းသပ်ခိုင်းခဲ့ပြီး ဤ Simplified Model တွင် 273 K ရသင့်သည်။ Su Su တွက်ချက်ခဲ့သည် - c(32) = (32 - 32) x 5/9 = 0, ထို့နောက် d(0) = 0 + 273 = 273 K -- မှန်ကန်သည်။ x = 212°F (ရေဆူသည့်အပူချိန်) ကိုလည်း စမ်းသပ်ခဲ့သည် - c(212) = (212 - 32) x 5/9 = 180 x 5/9 = 100, ထို့နောက် d(100) = 100 + 273 = 373 K, ရေ၏ ဆူသည့်အပူချိန် Kelvin ဖြင့် သိရှိထားသော တန်ဖိုးနှင့် ကိုက်ညီသည်။ ဤသည်က Real-World Conversion Function နှစ်ခုကို တွဲဆက်ခြင်းသည် fg(x) ၏ အယူအဆတည်းပင် ဖြစ်ကြောင်း အတည်ပြုသည် - အတွင်းပိုင်း Function ကို ဦးစွာသုံးပြီး ၎င်း၏ Output ကို အပြင်ပိုင်း Function သို့ ထည့်သွင်းသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what does dc(x) represent?",
+            questionMy: "dc(x) သည် အဘယ်ကို ကိုယ်စားပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Converting Fahrenheit directly to Kelvin",
+              "Converting Celsius to Fahrenheit",
+              "Converting Kelvin to Celsius",
+              "Converting Fahrenheit to Celsius only",
+            ],
+            optionsMy: [
+              "Fahrenheit မှ Kelvin သို့ တိုက်ရိုက် ပြောင်းလဲခြင်း",
+              "Celsius မှ Fahrenheit သို့ ပြောင်းလဲခြင်း",
+              "Kelvin မှ Celsius သို့ ပြောင်းလဲခြင်း",
+              "Fahrenheit မှ Celsius သို့သာ ပြောင်းလဲခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what value does dc(32) give?",
+            questionMy: "dc(32) ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["273 K", "0 K", "32 K", "373 K"],
+            optionsMy: ["273 K", "0 K", "32 K", "373 K"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first calculation."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမတွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, chaining two real-world conversion functions is the same idea as...",
+            questionMy: "Real-World Conversion Function နှစ်ခု တွဲဆက်ခြင်းသည် မည်သည့် အယူအဆနှင့် တူသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["fg(x)", "The discriminant", "Completing the square", "A quadratic inequality"],
+            optionsMy: ["fg(x)", "Discriminant", "Completing the Square", "Quadratic Inequality"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Composite Functions",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Composite Function",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "fg(x) means...",
+          questionMy: "fg(x) ၏ အဓိပ္ပာယ်မှာ...",
+          optionsEn: ["f(g(x))", "g(f(x))", "f(x) x g(x)", "f(x) + g(x)"],
+          optionsMy: ["f(g(x))", "g(f(x))", "f(x) x g(x)", "f(x) + g(x)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If f(x) = x + 1 and g(x) = 2x, then fg(2) equals...",
+          questionMy: "f(x) = x + 1 နှင့် g(x) = 2x ဖြစ်ပါက fg(2) မှာ...",
+          optionsEn: ["5", "6", "4", "3"],
+          optionsMy: ["5", "6", "4", "3"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In general, fg(x) and gf(x) are...",
+          questionMy: "ယေဘုယျအားဖြင့် fg(x) နှင့် gf(x) သည်...",
+          optionsEn: [
+            "Usually different functions",
+            "Always exactly the same",
+            "Always undefined",
+            "Always equal to x",
+          ],
+          optionsMy: [
+            "ပုံမှန်အားဖြင့် Function မတူညီ",
+            "အမြဲ အတိအကျ တူညီသည်",
+            "အမြဲ Undefined",
+            "အမြဲ x နှင့် ညီသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "Inverse Functions and Their Graphs"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek7 = CourseWeekDef(
+  id: "course-y12-math-w7",
+  weekNumber: 7,
+  titleEn: "Inverse Functions and Their Graphs",
+  titleMy: "Inverse Function များနှင့် ၎င်းတို့၏ Graph",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w7-d1",
+      dayNumber: 1,
+      titleEn: "Finding an Inverse Function",
+      titleMy: "Inverse Function ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For f(x) = 2x + 3, find f⁻¹(x).",
+          questionMy: "f(x) = 2x + 3 အတွက် f⁻¹(x) ကို ရှာပါ။",
+          optionsEn: ["(x - 3) / 2", "(x + 3) / 2", "2x - 3", "(x - 2) / 3"],
+          optionsMy: ["(x - 3) / 2", "(x + 3) / 2", "2x - 3", "(x - 2) / 3"],
+          correctIndex: 0,
+          hintsEn: [
+            "Write y = 2x + 3, swap x and y: x = 2y + 3, then solve for y: y = (x - 3) / 2.",
+          ],
+          hintsMy: [
+            "y = 2x + 3 ဟု ရေးပြီး x နှင့် y ချင်း ဖလှယ်ပါ - x = 2y + 3, ထို့နောက် y အတွက် ဖြေရှင်းပါ - y = (x - 3) / 2 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The graph of f⁻¹(x) is the reflection of f(x) in the line...",
+          questionMy: "f⁻¹(x) ၏ Graph သည် f(x) ၏ Reflection ဖြစ်သည့် မျဉ်းမှာ...",
+          optionsEn: ["y = x", "x = 0", "y = 0", "y = -x"],
+          optionsMy: ["y = x", "x = 0", "y = 0", "y = -x"],
+          correctIndex: 0,
+          hintsEn: [
+            "Swapping x and y coordinates (as happens when finding an inverse) reflects a graph in the line y = x.",
+          ],
+          hintsMy: [
+            "x နှင့် y Coordinate ချင်း ဖလှယ်ခြင်း (Inverse ရှာသောအခါ ဖြစ်ပေါ်သည်) သည် Graph ကို y = x မျဉ်းတွင် Reflect ပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "For f(x) = (x - 1) / 3, find f⁻¹(5).",
+          questionMy: "f(x) = (x - 1) / 3 အတွက် f⁻¹(5) ကို ရှာပါ။",
+          optionsEn: ["16", "14", "2", "18"],
+          optionsMy: ["16", "14", "2", "18"],
+          correctIndex: 0,
+          hintsEn: [
+            "f⁻¹(x) = 3x + 1, so f⁻¹(5) = 3(5) + 1 = 16.",
+          ],
+          hintsMy: [
+            "f⁻¹(x) = 3x + 1, ထို့ကြောင့် f⁻¹(5) = 3(5) + 1 = 16 ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Inverse Function Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Inverse Function ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w7-dm-1",
+          termEn: "f⁻¹(x)",
+          termMy: "f⁻¹(x)",
+          matchEn: "The inverse function of f(x)",
+          matchMy: "f(x) ၏ Inverse Function",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w7-dm-2",
+          termEn: "y = x",
+          termMy: "y = x",
+          matchEn: "The line of reflection between f(x) and f⁻¹(x)",
+          matchMy: "f(x) နှင့် f⁻¹(x) အကြား Reflection မျဉ်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w7-dm-3",
+          termEn: "One-to-one function",
+          termMy: "One-to-One Function",
+          matchEn: "A function whose inverse is also a function",
+          matchMy: "Inverse ၎င်းလည်း Function ဖြစ်သော Function",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w7-dm-4",
+          termEn: "Domain of f⁻¹",
+          termMy: "f⁻¹ ၏ Domain",
+          matchEn: "Equal to the range of f",
+          matchMy: "f ၏ Range နှင့် ညီသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w7-dm-5",
+          termEn: "Range of f⁻¹",
+          termMy: "f⁻¹ ၏ Range",
+          matchEn: "Equal to the domain of f",
+          matchMy: "f ၏ Domain နှင့် ညီသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Has an Inverse Function or Not?",
+      titleMy: "စီစစ်ကြမည် - Inverse Function ရှိသလား မရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Has an inverse function",
+          "Does not have an inverse function (not one-to-one)",
+        ],
+        bucketsMy: [
+          "Inverse Function ရှိသည်",
+          "Inverse Function မရှိ (One-to-One မဟုတ်)",
+        ],
+        items: [
+          SortingItem(
+            id: "y12math-w7-sort-1",
+            labelEn: "f(x) = 2x + 5",
+            labelMy: "f(x) = 2x + 5",
+            correctBucketEn: "Has an inverse function",
+            correctBucketMy: "Inverse Function ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w7-sort-2",
+            labelEn: "f(x) = x² (all real x)",
+            labelMy: "f(x) = x² (Real x အားလုံး)",
+            correctBucketEn: "Does not have an inverse function (not one-to-one)",
+            correctBucketMy: "Inverse Function မရှိ (One-to-One မဟုတ်)",
+          ),
+          SortingItem(
+            id: "y12math-w7-sort-3",
+            labelEn: "f(x) = x³",
+            labelMy: "f(x) = x³",
+            correctBucketEn: "Has an inverse function",
+            correctBucketMy: "Inverse Function ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w7-sort-4",
+            labelEn: "f(x) = x², x ≥ 0",
+            labelMy: "f(x) = x², x ≥ 0",
+            correctBucketEn: "Has an inverse function",
+            correctBucketMy: "Inverse Function ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w7-sort-5",
+            labelEn: "f(x) = |x| (all real x)",
+            labelMy: "f(x) = |x| (Real x အားလုံး)",
+            correctBucketEn: "Does not have an inverse function (not one-to-one)",
+            correctBucketMy: "Inverse Function မရှိ (One-to-One မဟုတ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Verifying an Inverse Function",
+      titleMy: "စာဖတ်ခြင်း - Inverse Function ကို အတည်ပြုခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Verifying an Inverse Function",
+        titleMy: "Inverse Function ကို အတည်ပြုခြင်း",
+        passageEn:
+            "Sayar Zaw Min gave Su Su the function f(x) = 5x - 4 and asked her not only to find f⁻¹(x), but to prove her answer was correct by checking that ff⁻¹(x) = x.\n\nSu Su first found the inverse: writing y = 5x - 4, swapping x and y to get x = 5y - 4, then solving for y: y = (x + 4) / 5, so f⁻¹(x) = (x + 4) / 5. To verify this, she calculated ff⁻¹(x), substituting f⁻¹(x) into f wherever f has an x: f(f⁻¹(x)) = 5 x ((x + 4) / 5) - 4. The 5 outside and the /5 inside cancelled exactly, leaving (x + 4) - 4 = x. Since the result simplified perfectly to x, this confirmed the inverse was correct.\n\nSayar Zaw Min then asked what would happen if she checked f⁻¹f(x) instead, applying the functions in the opposite order. Su Su substituted f(x) into f⁻¹: f⁻¹(f(x)) = (5x - 4 + 4) / 5 = 5x / 5 = x, which also simplified to x. She noted that this double-check — that both ff⁻¹(x) = x and f⁻¹f(x) = x — is the formal definition of two functions being genuine inverses of each other, not just a coincidence that worked one way round.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Su Su အား f(x) = 5x - 4 Function ကို ပေးပြီး f⁻¹(x) ကို ရှာစေရုံသာမက ff⁻¹(x) = x ဖြစ်ကြောင်း စစ်ဆေး၍ သူမ၏ အဖြေကို မှန်ကန်ကြောင်း သက်သေပြခိုင်းခဲ့သည်။\n\nSu Su သည် Inverse ကို ဦးစွာ ရှာခဲ့သည် - y = 5x - 4 ဟု ရေးပြီး x နှင့် y ချင်း ဖလှယ်၍ x = 5y - 4 ရသည်၊ ထို့နောက် y အတွက် ဖြေရှင်း၍ y = (x + 4) / 5 ရသဖြင့် f⁻¹(x) = (x + 4) / 5 ဖြစ်သည်။ ၎င်းကို အတည်ပြုရန် f ၏ x ရှိသည့်နေရာတိုင်းတွင် f⁻¹(x) ကို ထည့်သွင်း၍ ff⁻¹(x) ကို တွက်ချက်ခဲ့သည် - f(f⁻¹(x)) = 5 x ((x + 4) / 5) - 4 ။ အပြင်ဘက်ရှိ 5 နှင့် အတွင်းဘက်ရှိ /5 တို့ အတိအကျ ချေဖျက်သွားပြီး (x + 4) - 4 = x ကျန်ခဲ့သည်။ အဖြေသည် x သို့ အပြည့်အဝ ရိုးရှင်းသွားသောကြောင့် Inverse မှန်ကန်ကြောင်း အတည်ပြုခဲ့သည်။\n\nဆရာဇော်မင်းသည် Function များကို ဆန့်ကျင်ဘက် Order ဖြင့် သုံး၍ f⁻¹f(x) ကို စစ်ဆေးပါက အဘယ်ဖြစ်မည်ကို ဆက်လက် မေးမြန်းခဲ့သည်။ Su Su သည် f(x) ကို f⁻¹ ထဲသို့ ထိုးသွင်းခဲ့သည် - f⁻¹(f(x)) = (5x - 4 + 4) / 5 = 5x / 5 = x, ၎င်းလည်း x သို့ ရိုးရှင်းသွားသည်။ ff⁻¹(x) = x နှင့် f⁻¹f(x) = x နှစ်ခုစလုံး ဖြစ်ခြင်း ဤ Double-Check သည် Function နှစ်ခု တစ်ခုနှင့်တစ်ခု စစ်မှန်သော Inverse ဖြစ်ကြောင်း တရားဝင် Definition ဖြစ်ပြီး တစ်ဖက်တည်း အလုပ်လုပ်သော ကြုံလိုက်ခြင်းသာ မဟုတ်ကြောင်း သတိပြုမိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is f⁻¹(x) for f(x) = 5x - 4?",
+            questionMy: "f(x) = 5x - 4 အတွက် f⁻¹(x) ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(x + 4) / 5", "(x - 4) / 5", "5x + 4", "(x + 5) / 4"],
+            optionsMy: ["(x + 4) / 5", "(x - 4) / 5", "5x + 4", "(x + 5) / 4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what did ff⁻¹(x) simplify to?",
+            questionMy: "ff⁻¹(x) သည် အဘယ်သို့ ရိုးရှင်းသွားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x", "5x - 4", "0", "4"],
+            optionsMy: ["x", "5x - 4", "0", "4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the end of the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အဆုံးပိုင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what confirms two functions are genuine inverses of each other?",
+            questionMy:
+                "Function နှစ်ခု စစ်မှန်သော Inverse ဖြစ်ကြောင်း အဘယ်ကအတည်ပြုသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both ff⁻¹(x) = x and f⁻¹f(x) = x hold true",
+              "Only ff⁻¹(x) = x needs to hold",
+              "The functions must look identical",
+              "The domain must be all real numbers",
+            ],
+            optionsMy: [
+              "ff⁻¹(x) = x နှင့် f⁻¹f(x) = x နှစ်ခုစလုံး မှန်ကန်ရမည်",
+              "ff⁻¹(x) = x တစ်ခုတည်းသာ မှန်ကန်ရန် လိုသည်",
+              "Function များ တူညီစွာ ကြည့်ရမည်",
+              "Domain သည် Real Number အားလုံးဖြစ်ရမည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Inverse Functions",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Inverse Function",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "f⁻¹(x) is found by swapping x and y and then...",
+          questionMy: "f⁻¹(x) ကို x နှင့် y ဖလှယ်ပြီးနောက် ...ဖြင့် ရှာသည်",
+          optionsEn: ["Solving for y", "Solving for x", "Squaring both sides", "Adding 1 to both sides"],
+          optionsMy: ["y အတွက် ဖြေရှင်းခြင်း", "x အတွက် ဖြေရှင်းခြင်း", "နှစ်ဖက်စလုံး Square လုပ်ခြင်း", "နှစ်ဖက်စလုံးတွင် 1 ပေါင်းခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ff⁻¹(x) always simplifies to...",
+          questionMy: "ff⁻¹(x) သည် အမြဲ ...သို့ ရိုးရှင်းသွားသည်",
+          optionsEn: ["x", "0", "1", "f(x)²"],
+          optionsMy: ["x", "0", "1", "f(x)²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A function that is not one-to-one...",
+          questionMy: "One-to-One မဟုတ်သော Function တစ်ခု...",
+          optionsEn: [
+            "Does not have an inverse function",
+            "Always has an inverse function",
+            "Is always a straight line",
+            "Cannot be graphed",
+          ],
+          optionsMy: [
+            "Inverse Function မရှိပါ",
+            "Inverse Function အမြဲ ရှိသည်",
+            "အမြဲ ဖြောင့်မျဉ်း ဖြစ်သည်",
+            "Graph မဆွဲနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8 (Boss Week): "The Modulus Function"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek8 = CourseWeekDef(
+  id: "course-y12-math-w8",
+  weekNumber: 8,
+  titleEn: "The Modulus Function",
+  titleMy: "Modulus Function",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w8-d1",
+      dayNumber: 1,
+      titleEn: "Solving Modulus Equations",
+      titleMy: "Modulus Equation များ ဖြေရှင်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "|-7| equals...",
+          questionMy: "|-7| ၏ တန်ဖိုးမှာ...",
+          optionsEn: ["7", "-7", "0", "14"],
+          optionsMy: ["7", "-7", "0", "14"],
+          correctIndex: 0,
+          hintsEn: [
+            "The modulus of a number is its distance from 0, always non-negative.",
+          ],
+          hintsMy: [
+            "Number တစ်ခု၏ Modulus သည် 0 မှ အကွာအဝေးဖြစ်ပြီး အမြဲ Non-Negative ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve |x - 3| = 5.",
+          questionMy: "|x - 3| = 5 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 8 or x = -2", "x = 8 only", "x = 2 or x = -8", "x = -8 only"],
+          optionsMy: ["x = 8 or x = -2", "x = 8 only", "x = 2 or x = -8", "x = -8 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "|x-3|=5 means x-3=5 or x-3=-5, giving x=8 or x=-2.",
+          ],
+          hintsMy: [
+            "|x-3|=5 ဆိုသည်မှာ x-3=5 (သို့) x-3=-5 ဖြစ်ပြီး x=8 (သို့) x=-2 ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Solve |2x + 1| = 7.",
+          questionMy: "|2x + 1| = 7 ကို ဖြေရှင်းပါ။",
+          optionsEn: ["x = 3 or x = -4", "x = 3 only", "x = 4 or x = -3", "x = -4 only"],
+          optionsMy: ["x = 3 or x = -4", "x = 3 only", "x = 4 or x = -3", "x = -4 only"],
+          correctIndex: 0,
+          hintsEn: [
+            "2x+1=7 gives x=3; 2x+1=-7 gives x=-4.",
+          ],
+          hintsMy: [
+            "2x+1=7 မှ x=3 ရသည်; 2x+1=-7 မှ x=-4 ရသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Modulus Function Concepts",
+      titleMy: "တွဲစပ်ကြမည် - Modulus Function အယူအဆများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w8-dm-1",
+          termEn: "|x|",
+          termMy: "|x|",
+          matchEn: "The modulus (absolute value) of x — always non-negative",
+          matchMy: "x ၏ Modulus (Absolute Value) -- အမြဲ Non-Negative",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w8-dm-2",
+          termEn: "|x| = a (a > 0)",
+          termMy: "|x| = a (a > 0)",
+          matchEn: "x = a or x = -a",
+          matchMy: "x = a or x = -a",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w8-dm-3",
+          termEn: "Graph of y = |x|",
+          termMy: "y = |x| ၏ Graph",
+          matchEn: "A V-shape with vertex at the origin",
+          matchMy: "Origin တွင် Vertex ရှိသော V-Shape",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w8-dm-4",
+          termEn: "|x - 3|",
+          termMy: "|x - 3|",
+          matchEn: "The distance between x and 3 on the number line",
+          matchMy: "Number Line ပေါ်ရှိ x နှင့် 3 အကြား အကွာအဝေး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w8-dm-5",
+          termEn: "y = |f(x)|",
+          termMy: "y = |f(x)|",
+          matchEn: "Reflects any part of y = f(x) below the x-axis upward",
+          matchMy: "y = f(x) ၏ x-Axis အောက်ရှိ အပိုင်းများကို အပေါ်သို့ Reflect ပြုသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: How Many Solutions?",
+      titleMy: "စီစစ်ကြမည် - Solution ဘယ်နှစ်ခု ရှိသနည်း",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Solution has two values", "Solution has one value or none"],
+        bucketsMy: ["Solution Value နှစ်ခု ရှိသည်", "Solution Value တစ်ခု (သို့) မရှိ"],
+        items: [
+          SortingItem(
+            id: "y12math-w8-sort-1",
+            labelEn: "|x| = 5",
+            labelMy: "|x| = 5",
+            correctBucketEn: "Solution has two values",
+            correctBucketMy: "Solution Value နှစ်ခု ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w8-sort-2",
+            labelEn: "|x| = 0",
+            labelMy: "|x| = 0",
+            correctBucketEn: "Solution has one value or none",
+            correctBucketMy: "Solution Value တစ်ခု (သို့) မရှိ",
+          ),
+          SortingItem(
+            id: "y12math-w8-sort-3",
+            labelEn: "|x - 2| = 6",
+            labelMy: "|x - 2| = 6",
+            correctBucketEn: "Solution has two values",
+            correctBucketMy: "Solution Value နှစ်ခု ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w8-sort-4",
+            labelEn: "|x| = -3",
+            labelMy: "|x| = -3",
+            correctBucketEn: "Solution has one value or none",
+            correctBucketMy: "Solution Value တစ်ခု (သို့) မရှိ",
+          ),
+          SortingItem(
+            id: "y12math-w8-sort-5",
+            labelEn: "|2x - 1| = 9",
+            labelMy: "|2x - 1| = 9",
+            correctBucketEn: "Solution has two values",
+            correctBucketMy: "Solution Value နှစ်ခု ရှိသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Functions Capstone — Domain, Composite, Inverse and Modulus",
+      titleMy: "စာဖတ်ခြင်း - Function Capstone -- Domain, Composite, Inverse နှင့် Modulus",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Functions Capstone: Domain, Composite, Inverse and Modulus",
+        titleMy: "Function Capstone - Domain, Composite, Inverse နှင့် Modulus",
+        passageEn:
+            "For the Term 2 capstone, Sayar Zaw Min gave Htet Aung and Su Su a single function to explore from every angle they had learned: f(x) = 2x - 4, with domain x ≥ 0, and g(x) = |x|.\n\nHtet Aung began with the range of f: since x ≥ 0, the smallest input is x = 0, giving f(0) = -4, and as x increases without limit, f(x) increases without limit too. So the range of f is f(x) ≥ -4. He then found the inverse: y = 2x - 4, swap to x = 2y - 4, solve to get y = (x + 4) / 2, so f⁻¹(x) = (x + 4) / 2 — valid for x ≥ -4, matching the range of f becoming the domain of f⁻¹, exactly as the domain/range-swapping rule predicts.\n\nSu Su then explored the composite function gf(x) = g(f(x)) = |2x - 4|. She noted that for x ≥ 2, 2x - 4 ≥ 0, so |2x - 4| = 2x - 4 unchanged; but for 0 ≤ x < 2, 2x - 4 is negative, so the modulus flips its sign, giving |2x - 4| = 4 - 2x. Sayar Zaw Min asked her to solve gf(x) = 6: for the x ≥ 2 branch, 2x - 4 = 6 gives x = 5, which does satisfy x ≥ 2, so it is valid; for the 0 ≤ x < 2 branch, 4 - 2x = 6 gives x = -1, which does not satisfy 0 ≤ x < 2, so it is rejected. The single valid solution, x = 5, brought together everything from the term: restricted domain, composite functions, and the modulus's two-case structure, all in one connected problem.",
+        passageMy:
+            "Term 2 Capstone အတွက် ဆရာဇော်မင်းသည် Htet Aung နှင့် Su Su အား သင်ယူထားသော ဇာစ်မြစ်တိုင်းမှ စူးစမ်းရန် Function တစ်ခုတည်းကို ပေးခဲ့သည် - f(x) = 2x - 4, Domain x ≥ 0 ဖြင့်၊ g(x) = |x| ။\n\nHtet Aung သည် f ၏ Range ဖြင့် စတင်ခဲ့သည် - x ≥ 0 ဖြစ်၍ အသေးဆုံး Input သည် x = 0 ဖြစ်ပြီး f(0) = -4 ရသည်၊ x တိုးလာသည်နှင့်အမျှ f(x) ကန့်သတ်မထားဘဲ တိုးလာသည်။ ထို့ကြောင့် f ၏ Range သည် f(x) ≥ -4 ဖြစ်သည်။ ထို့နောက် Inverse ကို ရှာခဲ့သည် - y = 2x - 4 ဟု ရေးပြီး x = 2y - 4 သို့ ဖလှယ်၍ y = (x + 4) / 2 ဖြေရှင်းသဖြင့် f⁻¹(x) = (x + 4) / 2 ရသည် -- x ≥ -4 အတွက် Valid ဖြစ်ပြီး f ၏ Range သည် f⁻¹ ၏ Domain ဖြစ်လာကြောင်း Domain/Range ဖလှယ်ခြင်း Rule နှင့် အတိအကျ ကိုက်ညီသည်။\n\nSu Su သည် Composite Function gf(x) = g(f(x)) = |2x - 4| ကို ဆက်လက် စူးစမ်းခဲ့သည်။ x ≥ 2 အတွက် 2x - 4 ≥ 0 ဖြစ်၍ |2x - 4| = 2x - 4 မပြောင်းလဲကြောင်း၊ သို့သော် 0 ≤ x < 2 အတွက် 2x - 4 သည် Negative ဖြစ်သောကြောင့် Modulus က Sign ကို ပြောင်းပစ်ပြီး |2x - 4| = 4 - 2x ရကြောင်း သတိပြုမိခဲ့သည်။ ဆရာဇော်မင်းသည် gf(x) = 6 ကို ဖြေရှင်းခိုင်းခဲ့သည် - x ≥ 2 Branch အတွက် 2x - 4 = 6 မှ x = 5 ရပြီး x ≥ 2 ကို ကျေနပ်စေသောကြောင့် Valid ဖြစ်သည်; 0 ≤ x < 2 Branch အတွက် 4 - 2x = 6 မှ x = -1 ရပြီး 0 ≤ x < 2 ကို မကျေနပ်စေသောကြောင့် ပယ်ချသည်။ Valid Solution တစ်ခုတည်း x = 5 သည် ကန့်သတ်ထားသော Domain၊ Composite Function၊ Modulus ၏ Case နှစ်ခုပါ ဖွဲ့စည်းပုံ -- Term တစ်ခုလုံးမှ အရာအားလုံးကို ချိတ်ဆက်ထားသော ပြဿနာတစ်ခုတည်းတွင် စုစည်းစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the range of f(x) = 2x - 4 with domain x ≥ 0?",
+            questionMy: "Domain x ≥ 0 ရှိသော f(x) = 2x - 4 ၏ Range ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["f(x) ≥ -4", "f(x) ≥ 0", "f(x) ≥ 4", "All real f(x)"],
+            optionsMy: ["f(x) ≥ -4", "f(x) ≥ 0", "f(x) ≥ 4", "Real f(x) အားလုံး"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the single valid solution to gf(x) = 6?",
+            questionMy: "gf(x) = 6 ၏ Valid Solution တစ်ခုတည်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x = 5", "x = -1", "x = 2", "x = 6"],
+            optionsMy: ["x = 5", "x = -1", "x = 2", "x = 6"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ အကျဉ်းချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why was x = -1 rejected as a solution?",
+            questionMy: "x = -1 ကို Solution အဖြစ် အဘယ်ကြောင့် ပယ်ချသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It does not satisfy 0 ≤ x < 2",
+              "It does not satisfy x ≥ 2",
+              "It makes f(x) undefined",
+              "It is not a real number",
+            ],
+            optionsMy: [
+              "0 ≤ x < 2 ကို မကျေနပ်စေသောကြောင့်",
+              "x ≥ 2 ကို မကျေနပ်စေသောကြောင့်",
+              "f(x) ကို Undefined ဖြစ်စေသောကြောင့်",
+              "Real Number မဟုတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's second branch."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်၏ ဒုတိယ Branch ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Functions Capstone",
+      titleMy: "အဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Functions Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The modulus |x| always gives a result that is...",
+          questionMy: "Modulus |x| သည် အမြဲ ...ဖြစ်သော အဖြေကို ပေးသည်",
+          optionsEn: ["Non-negative", "Negative", "Zero only", "Undefined"],
+          optionsMy: ["Non-Negative", "Negative", "Zero သာ", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The range of f becomes the... of f⁻¹.",
+          questionMy: "f ၏ Range သည် f⁻¹ ၏ ...ဖြစ်လာသည်",
+          optionsEn: ["Domain", "Range", "Gradient", "y-intercept"],
+          optionsMy: ["Domain", "Range", "Gradient", "y-Intercept"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A restricted domain such as x ≥ 0 on f(x) = x² is often used to...",
+          questionMy: "f(x) = x² တွင် x ≥ 0 ကဲ့သို့ ကန့်သတ်ထားသော Domain ကို အသုံးများသော ရည်ရွယ်ချက်မှာ...",
+          optionsEn: [
+            "Make the function one-to-one so it has an inverse",
+            "Make the function undefined",
+            "Remove the y-intercept",
+            "Make the range smaller than zero",
+          ],
+          optionsMy: [
+            "Function ကို One-to-One ဖြစ်စေပြီး Inverse ရှိစေရန်",
+            "Function ကို Undefined ဖြစ်စေရန်",
+            "y-Intercept ကို ဖယ်ရှားရန်",
+            "Range ကို 0 ထက် သေးငယ်စေရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm2 = CourseTermDef(
+  id: "course-y12-math-t2",
+  termNumber: 2,
+  titleEn: "Functions",
+  titleMy: "Functions",
+  weeks: [_y12MathWeek5, _y12MathWeek6, _y12MathWeek7, _y12MathWeek8],
+  certificateTitleEn: "AS Mathematics: Functions",
+  certificateTitleMy: "AS သင်္ချာ - Functions",
+);
+
+
+// =====================================================================
+// YEAR 12 MATHEMATICS (A-Level AS, Cambridge 9709 Pure 1) -- Term 3:
+// "Coordinate Geometry"
+// (Weeks 9-12)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Gradient, Midpoint and Distance"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek9 = CourseWeekDef(
+  id: "course-y12-math-w9",
+  weekNumber: 9,
+  titleEn: "Gradient, Midpoint and Distance",
+  titleMy: "Gradient, Midpoint နှင့် Distance",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w9-d1",
+      dayNumber: 1,
+      titleEn: "Gradient, Midpoint and Distance Formulas",
+      titleMy: "Gradient, Midpoint နှင့် Distance Formula များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the gradient between (1, 2) and (5, 10).",
+          questionMy: "(1, 2) နှင့် (5, 10) အကြား Gradient ကို ရှာပါ။",
+          optionsEn: ["2", "1", "8", "4"],
+          optionsMy: ["2", "1", "8", "4"],
+          correctIndex: 0,
+          hintsEn: ["Gradient = (y₂ - y₁) / (x₂ - x₁) = (10 - 2) / (5 - 1) = 8 / 4 = 2."],
+          hintsMy: ["Gradient = (y₂ - y₁) / (x₂ - x₁) = (10 - 2) / (5 - 1) = 8 / 4 = 2 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find the midpoint of (2, 3) and (8, 11).",
+          questionMy: "(2, 3) နှင့် (8, 11) ၏ Midpoint ကို ရှာပါ။",
+          optionsEn: ["(5, 7)", "(6, 8)", "(10, 14)", "(3, 4)"],
+          optionsMy: ["(5, 7)", "(6, 8)", "(10, 14)", "(3, 4)"],
+          correctIndex: 0,
+          hintsEn: ["Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((2+8)/2, (3+11)/2) = (5, 7)."],
+          hintsMy: ["Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((2+8)/2, (3+11)/2) = (5, 7) ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find the distance between (0, 0) and (3, 4).",
+          questionMy: "(0, 0) နှင့် (3, 4) အကြား Distance ကို ရှာပါ။",
+          optionsEn: ["5", "7", "12", "3.5"],
+          optionsMy: ["5", "7", "12", "3.5"],
+          correctIndex: 0,
+          hintsEn: ["Distance = √((3-0)² + (4-0)²) = √(9 + 16) = √25 = 5."],
+          hintsMy: ["Distance = √((3-0)² + (4-0)²) = √(9 + 16) = √25 = 5 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Coordinate Geometry Formulas",
+      titleMy: "တွဲစပ်ကြမည် - Coordinate Geometry Formula များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w9-dm-1",
+          termEn: "Gradient formula",
+          termMy: "Gradient Formula",
+          matchEn: "(y₂ - y₁) / (x₂ - x₁)",
+          matchMy: "(y₂ - y₁) / (x₂ - x₁)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w9-dm-2",
+          termEn: "Midpoint formula",
+          termMy: "Midpoint Formula",
+          matchEn: "((x₁+x₂)/2, (y₁+y₂)/2)",
+          matchMy: "((x₁+x₂)/2, (y₁+y₂)/2)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w9-dm-3",
+          termEn: "Distance formula",
+          termMy: "Distance Formula",
+          matchEn: "√((x₂-x₁)² + (y₂-y₁)²)",
+          matchMy: "√((x₂-x₁)² + (y₂-y₁)²)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w9-dm-4",
+          termEn: "Gradient = 0",
+          termMy: "Gradient = 0",
+          matchEn: "A horizontal line",
+          matchMy: "Horizontal မျဉ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w9-dm-5",
+          termEn: "Gradient undefined",
+          termMy: "Gradient Undefined",
+          matchEn: "A vertical line",
+          matchMy: "Vertical မျဉ်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Positive or Negative Gradient?",
+      titleMy: "စီစစ်ကြမည် - Gradient Positive ဒါမှမဟုတ် Negative",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Positive gradient", "Negative gradient"],
+        bucketsMy: ["Gradient Positive", "Gradient Negative"],
+        items: [
+          SortingItem(
+            id: "y12math-w9-sort-1",
+            labelEn: "(1, 1) to (4, 7)",
+            labelMy: "(1, 1) မှ (4, 7)",
+            correctBucketEn: "Positive gradient",
+            correctBucketMy: "Gradient Positive",
+          ),
+          SortingItem(
+            id: "y12math-w9-sort-2",
+            labelEn: "(2, 8) to (6, 2)",
+            labelMy: "(2, 8) မှ (6, 2)",
+            correctBucketEn: "Negative gradient",
+            correctBucketMy: "Gradient Negative",
+          ),
+          SortingItem(
+            id: "y12math-w9-sort-3",
+            labelEn: "(0, 0) to (5, 5)",
+            labelMy: "(0, 0) မှ (5, 5)",
+            correctBucketEn: "Positive gradient",
+            correctBucketMy: "Gradient Positive",
+          ),
+          SortingItem(
+            id: "y12math-w9-sort-4",
+            labelEn: "(3, 10) to (9, 1)",
+            labelMy: "(3, 10) မှ (9, 1)",
+            correctBucketEn: "Negative gradient",
+            correctBucketMy: "Gradient Negative",
+          ),
+          SortingItem(
+            id: "y12math-w9-sort-5",
+            labelEn: "(-2, -3) to (2, 5)",
+            labelMy: "(-2, -3) မှ (2, 5)",
+            correctBucketEn: "Positive gradient",
+            correctBucketMy: "Gradient Positive",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Is the Triangle Isosceles?",
+      titleMy: "စာဖတ်ခြင်း - Triangle သည် Isosceles ဖြစ်သလား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Is the Triangle Isosceles?",
+        titleMy: "Triangle သည် Isosceles ဖြစ်သလား",
+        passageEn:
+            "Sayar Zaw Min drew a triangle with vertices A(1, 1), B(5, 1), and C(3, 7) and asked Su Su whether it was isosceles — a triangle with at least two sides of equal length.\n\nSu Su used the distance formula on all three sides. For AB: √((5-1)² + (1-1)²) = √(16 + 0) = 4. For AC: √((3-1)² + (7-1)²) = √(4 + 36) = √40. For BC: √((3-5)² + (7-1)²) = √(4 + 36) = √40. She noticed AC and BC both gave √40, meaning those two sides were exactly equal — confirming the triangle was isosceles with AB as its distinct base.\n\nSayar Zaw Min then asked her to verify this a second way, using the midpoint of AB and its gradient to the opposite vertex C. The midpoint of AB was ((1+5)/2, (1+1)/2) = (3, 1). She noticed this had the same x-coordinate as C(3, 7), meaning the line from the midpoint of AB straight up to C was a vertical line — a line of symmetry, exactly what would be expected in an isosceles triangle where AC = BC. Both the distance-formula check and the midpoint-and-symmetry check agreed, giving Su Su two independent ways to confirm the same geometric fact.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် A(1, 1), B(5, 1), C(3, 7) Vertex များပါသော Triangle တစ်ခုကို ရေးဆွဲပြီး Su Su အား Isosceles ဖြစ်မဖြစ် -- အနည်းဆုံး Side နှစ်ခု အလျား ညီသော Triangle -- မေးမြန်းခဲ့သည်။\n\nSu Su သည် Side သုံးခုစလုံးအပေါ် Distance Formula ကို အသုံးပြုခဲ့သည်။ AB အတွက် - √((5-1)² + (1-1)²) = √(16 + 0) = 4 ။ AC အတွက် - √((3-1)² + (7-1)²) = √(4 + 36) = √40 ။ BC အတွက် - √((3-5)² + (7-1)²) = √(4 + 36) = √40 ။ AC နှင့် BC နှစ်ခုစလုံး √40 ရကြောင်း သတိပြုမိပြီး ထို Side နှစ်ခု အတိအကျ ညီမျှကြောင်း -- Triangle သည် AB ကို ကွဲပြားသော Base အနေဖြင့် ရှိသော Isosceles ဖြစ်ကြောင်း အတည်ပြုခဲ့သည်။\n\nဆရာဇော်မင်းသည် AB ၏ Midpoint နှင့် ဆန့်ကျင်ဘက် Vertex C သို့ Gradient ကို အသုံးပြု၍ ဒုတိယနည်းလမ်းဖြင့် အတည်ပြုခိုင်းခဲ့သည်။ AB ၏ Midpoint မှာ ((1+5)/2, (1+1)/2) = (3, 1) ဖြစ်သည်။ ၎င်းသည် C(3, 7) ၏ x-Coordinate နှင့် တူညီကြောင်း သတိပြုမိပြီး AB ၏ Midpoint မှ C သို့ တိုက်ရိုက် တက်သွားသော မျဉ်းသည် Vertical Line ဖြစ်ကြောင်း -- Symmetry မျဉ်းတစ်ခု ဖြစ်ကြောင်း၊ AC = BC ဖြစ်သော Isosceles Triangle တွင် မျှော်လင့်ထားသည့်အတိုင်းပင် ဖြစ်ကြောင်း တွေ့ရှိခဲ့သည်။ Distance Formula စစ်ဆေးမှုနှင့် Midpoint-and-Symmetry စစ်ဆေးမှု နှစ်ခုစလုံး ကိုက်ညီသောကြောင့် Su Su သည် Geometric Fact တစ်ခုတည်းကို အတည်ပြုနိုင်သော လွတ်လပ်သော နည်းလမ်းနှစ်ခု ရရှိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, which two sides were equal in length?",
+            questionMy: "မည်သည့် Side နှစ်ခု အလျား ညီသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["AC and BC", "AB and AC", "AB and BC", "None were equal"],
+            optionsMy: ["AC နှင့် BC", "AB နှင့် AC", "AB နှင့် BC", "ဘယ်တစ်ခုမှ မညီ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's conclusion."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ အကျဉ်းချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what was the midpoint of AB?",
+            questionMy: "AB ၏ Midpoint ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(3, 1)", "(1, 3)", "(5, 1)", "(3, 7)"],
+            optionsMy: ["(3, 1)", "(1, 3)", "(5, 1)", "(3, 7)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why did the line from the midpoint of AB to C being vertical matter?",
+            questionMy:
+                "AB ၏ Midpoint မှ C သို့ မျဉ်းသည် Vertical ဖြစ်ခြင်းသည် အဘယ်ကြောင့် အရေးကြီးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It shows a line of symmetry, confirming the isosceles property",
+              "It shows the triangle has no equal sides",
+              "It proves the triangle is right-angled",
+              "It has no geometric meaning",
+            ],
+            optionsMy: [
+              "Symmetry မျဉ်းတစ်ခုကို ပြသပြီး Isosceles ဂုဏ်သတ္တိကို အတည်ပြုသောကြောင့်",
+              "Triangle တွင် Side ညီသော Side မရှိကြောင်း ပြသသောကြောင့်",
+              "Triangle သည် Right-Angled ဖြစ်ကြောင်း သက်သေပြသောကြောင့်",
+              "Geometric အဓိပ္ပာယ် မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Gradient, Midpoint and Distance",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Gradient, Midpoint နှင့် Distance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The gradient formula is...",
+          questionMy: "Gradient Formula မှာ...",
+          optionsEn: ["(y₂-y₁)/(x₂-x₁)", "(x₂-x₁)/(y₂-y₁)", "(y₂+y₁)/(x₂+x₁)", "x₂-x₁"],
+          optionsMy: ["(y₂-y₁)/(x₂-x₁)", "(x₂-x₁)/(y₂-y₁)", "(y₂+y₁)/(x₂+x₁)", "x₂-x₁"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A vertical line has a gradient that is...",
+          questionMy: "Vertical Line တစ်ခု၏ Gradient သည်...",
+          optionsEn: ["Undefined", "Zero", "Negative", "Always 1"],
+          optionsMy: ["Undefined", "Zero", "Negative", "အမြဲ 1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The distance formula comes directly from...",
+          questionMy: "Distance Formula သည် ...မှ တိုက်ရိုက် ဆင်းသက်သည်",
+          optionsEn: ["Pythagoras' theorem", "The quadratic formula", "The discriminant", "Completing the square"],
+          optionsMy: ["Pythagoras' Theorem", "Quadratic Formula", "Discriminant", "Completing the Square"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Equation of a Line: Parallel and Perpendicular"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek10 = CourseWeekDef(
+  id: "course-y12-math-w10",
+  weekNumber: 10,
+  titleEn: "Equation of a Line: Parallel and Perpendicular",
+  titleMy: "မျဉ်း၏ Equation - Parallel နှင့် Perpendicular",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w10-d1",
+      dayNumber: 1,
+      titleEn: "Finding the Equation of a Line",
+      titleMy: "မျဉ်း၏ Equation ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find the equation of the line through (2, 3) with gradient 4.",
+          questionMy: "(2, 3) ကို ဖြတ်ပြီး Gradient 4 ရှိသော မျဉ်း၏ Equation ကို ရှာပါ။",
+          optionsEn: ["y = 4x - 5", "y = 4x + 5", "y = 4x - 2", "y = 4x + 3"],
+          optionsMy: ["y = 4x - 5", "y = 4x + 5", "y = 4x - 2", "y = 4x + 3"],
+          correctIndex: 0,
+          hintsEn: ["y - 3 = 4(x - 2), so y = 4x - 8 + 3 = 4x - 5."],
+          hintsMy: ["y - 3 = 4(x - 2), y = 4x - 8 + 3 = 4x - 5 ရသည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find the equation of the line parallel to y = 3x + 2, through (0, 5).",
+          questionMy: "y = 3x + 2 နှင့် Parallel ဖြစ်ပြီး (0, 5) ကို ဖြတ်သော မျဉ်း၏ Equation ကို ရှာပါ။",
+          optionsEn: ["y = 3x + 5", "y = 3x + 2", "y = -3x + 5", "y = 5x + 3"],
+          optionsMy: ["y = 3x + 5", "y = 3x + 2", "y = -3x + 5", "y = 5x + 3"],
+          correctIndex: 0,
+          hintsEn: ["Parallel lines share the same gradient, 3. y-intercept is (0,5), so c=5."],
+          hintsMy: ["Parallel Line များသည် Gradient 3 တူညီသည်။ y-Intercept (0,5) ဖြစ်၍ c=5 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "A line perpendicular to y = 2x + 1 has gradient...",
+          questionMy: "y = 2x + 1 နှင့် Perpendicular ဖြစ်သော မျဉ်း၏ Gradient မှာ...",
+          optionsEn: ["-1/2", "2", "-2", "1/2"],
+          optionsMy: ["-1/2", "2", "-2", "1/2"],
+          correctIndex: 0,
+          hintsEn: ["Perpendicular gradients multiply to give -1: 2 x m = -1, so m = -1/2."],
+          hintsMy: ["Perpendicular Gradient များသည် မြှောက်ပါက -1 ရသည် - 2 x m = -1, m = -1/2 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Lines Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - မျဉ်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w10-dm-1",
+          termEn: "y = mx + c",
+          termMy: "y = mx + c",
+          matchEn: "Gradient-intercept form of a line",
+          matchMy: "မျဉ်း၏ Gradient-Intercept Form",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w10-dm-2",
+          termEn: "y - y₁ = m(x - x₁)",
+          termMy: "y - y₁ = m(x - x₁)",
+          matchEn: "Point-gradient form of a line",
+          matchMy: "မျဉ်း၏ Point-Gradient Form",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w10-dm-3",
+          termEn: "Parallel lines",
+          termMy: "Parallel Line များ",
+          matchEn: "Have equal gradients",
+          matchMy: "Gradient ညီသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w10-dm-4",
+          termEn: "Perpendicular lines",
+          termMy: "Perpendicular Line များ",
+          matchEn: "Gradients multiply to give -1",
+          matchMy: "Gradient များ မြှောက်ပါက -1 ရသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w10-dm-5",
+          termEn: "c in y = mx + c",
+          termMy: "y = mx + c ရှိ c",
+          matchEn: "The y-intercept",
+          matchMy: "y-Intercept",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Parallel or Perpendicular to y = 2x + 3?",
+      titleMy: "စီစစ်ကြမည် - y = 2x + 3 နှင့် Parallel ဒါမှမဟုတ် Perpendicular",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Parallel to y = 2x + 3", "Perpendicular to y = 2x + 3"],
+        bucketsMy: ["y = 2x + 3 နှင့် Parallel", "y = 2x + 3 နှင့် Perpendicular"],
+        items: [
+          SortingItem(
+            id: "y12math-w10-sort-1",
+            labelEn: "y = 2x - 5",
+            labelMy: "y = 2x - 5",
+            correctBucketEn: "Parallel to y = 2x + 3",
+            correctBucketMy: "y = 2x + 3 နှင့် Parallel",
+          ),
+          SortingItem(
+            id: "y12math-w10-sort-2",
+            labelEn: "y = -½x + 4",
+            labelMy: "y = -½x + 4",
+            correctBucketEn: "Perpendicular to y = 2x + 3",
+            correctBucketMy: "y = 2x + 3 နှင့် Perpendicular",
+          ),
+          SortingItem(
+            id: "y12math-w10-sort-3",
+            labelEn: "y = 2x",
+            labelMy: "y = 2x",
+            correctBucketEn: "Parallel to y = 2x + 3",
+            correctBucketMy: "y = 2x + 3 နှင့် Parallel",
+          ),
+          SortingItem(
+            id: "y12math-w10-sort-4",
+            labelEn: "2y = -x + 6",
+            labelMy: "2y = -x + 6",
+            correctBucketEn: "Perpendicular to y = 2x + 3",
+            correctBucketMy: "y = 2x + 3 နှင့် Perpendicular",
+          ),
+          SortingItem(
+            id: "y12math-w10-sort-5",
+            labelEn: "y = 2x + 100",
+            labelMy: "y = 2x + 100",
+            correctBucketEn: "Parallel to y = 2x + 3",
+            correctBucketMy: "y = 2x + 3 နှင့် Parallel",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Perpendicular Line",
+      titleMy: "စာဖတ်ခြင်း - Perpendicular မျဉ်း ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Perpendicular Line",
+        titleMy: "Perpendicular မျဉ်း ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min asked Htet Aung to find the equation of the line that passes through the point (4, 1) and is perpendicular to the line y = 3x - 2.\n\nHtet Aung identified the gradient of the given line first: reading directly from y = mx + c form, m = 3. Since perpendicular gradients multiply to give -1, he needed a gradient m₂ such that 3 x m₂ = -1, giving m₂ = -1/3.\n\nWith the gradient found, Htet Aung used the point-gradient form, y - y₁ = m(x - x₁), substituting the point (4, 1) and gradient -1/3: y - 1 = -1/3(x - 4). Expanding: y - 1 = -x/3 + 4/3, so y = -x/3 + 4/3 + 1 = -x/3 + 7/3. Sayar Zaw Min asked him to check the answer by confirming (4, 1) satisfies this equation: y = -4/3 + 7/3 = 3/3 = 1 — correct. He also confirmed the gradients truly multiply to -1: 3 x (-1/3) = -1, verifying the perpendicular relationship held.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် (4, 1) အမှတ်ကို ဖြတ်ပြီး y = 3x - 2 မျဉ်းနှင့် Perpendicular ဖြစ်သော မျဉ်း၏ Equation ကို ရှာခိုင်းခဲ့သည်။\n\nHtet Aung သည် ပေးထားသော မျဉ်း၏ Gradient ကို ဦးစွာ ဖော်ထုတ်ခဲ့သည် - y = mx + c Form မှ တိုက်ရိုက် ဖတ်ရှုပါက m = 3 ။ Perpendicular Gradient များသည် မြှောက်ပါက -1 ရသောကြောင့် 3 x m₂ = -1 ဖြစ်စေမည့် m₂ ကို လိုအပ်ပြီး m₂ = -1/3 ရသည်။\n\nGradient ရရှိပြီးနောက် Htet Aung သည် Point-Gradient Form, y - y₁ = m(x - x₁) ကို အသုံးပြု၍ (4, 1) အမှတ်နှင့် Gradient -1/3 ကို ထိုးသွင်းခဲ့သည် - y - 1 = -1/3(x - 4) ။ ချဲ့ကြည့်ပါက - y - 1 = -x/3 + 4/3, y = -x/3 + 4/3 + 1 = -x/3 + 7/3 ရသည်။ ဆရာဇော်မင်းသည် (4, 1) သည် ဤ Equation ကို ကျေနပ်စေကြောင်း စစ်ဆေး၍ အဖြေကို ထပ်စစ်ခိုင်းခဲ့သည် - y = -4/3 + 7/3 = 3/3 = 1 -- မှန်ကန်သည်။ Gradient များ တကယ် -1 ရအောင် မြှောက်နိုင်ကြောင်းလည်း အတည်ပြုခဲ့သည် - 3 x (-1/3) = -1, Perpendicular ဆက်ဆံရေး တည်ကြောင်း အတည်ပြုခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what gradient did Htet Aung need for the perpendicular line?",
+            questionMy: "Htet Aung က Perpendicular မျဉ်းအတွက် လိုအပ်သော Gradient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-1/3", "3", "1/3", "-3"],
+            optionsMy: ["-1/3", "3", "1/3", "-3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final equation of the perpendicular line?",
+            questionMy: "Perpendicular မျဉ်း၏ နောက်ဆုံး Equation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["y = -x/3 + 7/3", "y = 3x - 2", "y = -3x + 7", "y = x/3 + 7/3"],
+            optionsMy: ["y = -x/3 + 7/3", "y = 3x - 2", "y = -3x + 7", "y = x/3 + 7/3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, how did Htet Aung verify the perpendicular relationship?",
+            questionMy: "Htet Aung သည် Perpendicular ဆက်ဆံရေးကို မည်သို့ အတည်ပြုခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By confirming the gradients multiply to -1",
+              "By checking the y-intercept only",
+              "By redrawing the whole graph",
+              "By ignoring the original line entirely",
+            ],
+            optionsMy: [
+              "Gradient များ မြှောက်ပါက -1 ရကြောင်း အတည်ပြုခြင်းဖြင့်",
+              "y-Intercept ကိုသာ စစ်ဆေးခြင်းဖြင့်",
+              "Graph တစ်ခုလုံးကို ပြန်ဆွဲခြင်းဖြင့်",
+              "မူလ မျဉ်းကို လုံးဝ လျစ်လျူရှုခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Parallel and Perpendicular Lines",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Parallel နှင့် Perpendicular Line",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Two lines are parallel when their gradients are...",
+          questionMy: "မျဉ်းနှစ်ခု၏ Gradient များသည် ...ဖြစ်ပါက Parallel ဖြစ်သည်",
+          optionsEn: ["Equal", "Opposite", "Reciprocals", "Zero"],
+          optionsMy: ["ညီမျှ", "ဆန့်ကျင်", "Reciprocal", "Zero"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two lines are perpendicular when their gradients multiply to...",
+          questionMy: "မျဉ်းနှစ်ခု၏ Gradient များ မြှောက်ပါက ...ရလျှင် Perpendicular ဖြစ်သည်",
+          optionsEn: ["-1", "0", "1", "The sum of both gradients"],
+          optionsMy: ["-1", "0", "1", "Gradient နှစ်ခု၏ ပေါင်းလဒ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In y = mx + c, m represents...",
+          questionMy: "y = mx + c တွင် m သည် ကိုယ်စားပြုသည်...",
+          optionsEn: ["The gradient", "The y-intercept", "The x-intercept", "The midpoint"],
+          optionsMy: ["Gradient", "y-Intercept", "x-Intercept", "Midpoint"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "Equation of a Circle"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek11 = CourseWeekDef(
+  id: "course-y12-math-w11",
+  weekNumber: 11,
+  titleEn: "Equation of a Circle",
+  titleMy: "စက်ဝိုင်း၏ Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w11-d1",
+      dayNumber: 1,
+      titleEn: "Writing the Equation of a Circle",
+      titleMy: "စက်ဝိုင်း၏ Equation ရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Write the equation of a circle with centre (2, -3) and radius 5.",
+          questionMy: "Centre (2, -3) နှင့် Radius 5 ရှိသော စက်ဝိုင်း၏ Equation ကို ရေးပါ။",
+          optionsEn: ["(x - 2)² + (y + 3)² = 25", "(x + 2)² + (y - 3)² = 25", "(x - 2)² + (y + 3)² = 5", "(x - 2)² - (y + 3)² = 25"],
+          optionsMy: ["(x - 2)² + (y + 3)² = 25", "(x + 2)² + (y - 3)² = 25", "(x - 2)² + (y + 3)² = 5", "(x - 2)² - (y + 3)² = 25"],
+          correctIndex: 0,
+          hintsEn: ["(x - a)² + (y - b)² = r², with (a,b)=(2,-3) and r=5, so r²=25."],
+          hintsMy: ["(x - a)² + (y - b)² = r², (a,b)=(2,-3) နှင့် r=5 ဖြစ်၍ r²=25 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "For x² + y² = 16, find the radius.",
+          questionMy: "x² + y² = 16 အတွက် Radius ကို ရှာပါ။",
+          optionsEn: ["4", "16", "8", "2"],
+          optionsMy: ["4", "16", "8", "2"],
+          correctIndex: 0,
+          hintsEn: ["r² = 16, so r = √16 = 4."],
+          hintsMy: ["r² = 16, r = √16 = 4 ရသည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "For (x - 1)² + (y - 4)² = 9, find the centre and radius.",
+          questionMy: "(x - 1)² + (y - 4)² = 9 အတွက် Centre နှင့် Radius ကို ရှာပါ။",
+          optionsEn: ["Centre (1, 4), radius 3", "Centre (-1, -4), radius 3", "Centre (1, 4), radius 9", "Centre (4, 1), radius 3"],
+          optionsMy: ["Centre (1, 4), Radius 3", "Centre (-1, -4), Radius 3", "Centre (1, 4), Radius 9", "Centre (4, 1), Radius 3"],
+          correctIndex: 0,
+          hintsEn: ["Compare to (x-a)²+(y-b)²=r²: a=1, b=4, r²=9 so r=3."],
+          hintsMy: ["(x-a)²+(y-b)²=r² နှင့် နှိုင်းယှဉ်ပါ - a=1, b=4, r²=9 ဖြစ်၍ r=3 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Circle Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စက်ဝိုင်း ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w11-dm-1",
+          termEn: "(x - a)² + (y - b)² = r²",
+          termMy: "(x - a)² + (y - b)² = r²",
+          matchEn: "Equation of a circle, centre (a,b), radius r",
+          matchMy: "Centre (a,b), Radius r ရှိသော စက်ဝိုင်း၏ Equation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w11-dm-2",
+          termEn: "Centre",
+          termMy: "Centre",
+          matchEn: "The fixed point equidistant from every point on the circle",
+          matchMy: "စက်ဝိုင်းပေါ်ရှိ အမှတ်တိုင်းမှ အကွာအဝေး ညီမျှသော ပုံသေအမှတ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w11-dm-3",
+          termEn: "Radius",
+          termMy: "Radius",
+          matchEn: "The distance from the centre to any point on the circle",
+          matchMy: "Centre မှ စက်ဝိုင်းပေါ်ရှိ အမှတ်တစ်ခုသို့ အကွာအဝေး",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w11-dm-4",
+          termEn: "x² + y² = r²",
+          termMy: "x² + y² = r²",
+          matchEn: "A circle centred at the origin",
+          matchMy: "Origin တွင် Centre ရှိသော စက်ဝိုင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w11-dm-5",
+          termEn: "r² (right-hand side)",
+          termMy: "r² (Right-Hand Side)",
+          matchEn: "The right-hand side of the circle equation, always positive",
+          matchMy: "စက်ဝိုင်း Equation ၏ Right-Hand Side, အမြဲ Positive",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Centre at the Origin or Not?",
+      titleMy: "စီစစ်ကြမည် - Centre သည် Origin တွင် ရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Centre at the origin", "Centre not at the origin"],
+        bucketsMy: ["Centre သည် Origin တွင် ရှိသည်", "Centre သည် Origin တွင် မရှိ"],
+        items: [
+          SortingItem(
+            id: "y12math-w11-sort-1",
+            labelEn: "x² + y² = 9",
+            labelMy: "x² + y² = 9",
+            correctBucketEn: "Centre at the origin",
+            correctBucketMy: "Centre သည် Origin တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w11-sort-2",
+            labelEn: "(x - 3)² + y² = 16",
+            labelMy: "(x - 3)² + y² = 16",
+            correctBucketEn: "Centre not at the origin",
+            correctBucketMy: "Centre သည် Origin တွင် မရှိ",
+          ),
+          SortingItem(
+            id: "y12math-w11-sort-3",
+            labelEn: "x² + (y + 2)² = 25",
+            labelMy: "x² + (y + 2)² = 25",
+            correctBucketEn: "Centre not at the origin",
+            correctBucketMy: "Centre သည် Origin တွင် မရှိ",
+          ),
+          SortingItem(
+            id: "y12math-w11-sort-4",
+            labelEn: "x² + y² = 1",
+            labelMy: "x² + y² = 1",
+            correctBucketEn: "Centre at the origin",
+            correctBucketMy: "Centre သည် Origin တွင် ရှိသည်",
+          ),
+          SortingItem(
+            id: "y12math-w11-sort-5",
+            labelEn: "(x - 5)² + (y - 5)² = 4",
+            labelMy: "(x - 5)² + (y - 5)² = 4",
+            correctBucketEn: "Centre not at the origin",
+            correctBucketMy: "Centre သည် Origin တွင် မရှိ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Inside, On, or Outside the Circle?",
+      titleMy: "စာဖတ်ခြင်း - စက်ဝိုင်း အတွင်း၊ အပေါ်၊ ဒါမှမဟုတ် အပြင်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Inside, On, or Outside the Circle?",
+        titleMy: "စက်ဝိုင်း အတွင်း၊ အပေါ်၊ ဒါမှမဟုတ် အပြင်",
+        passageEn:
+            "Su Su was given the circle (x - 2)² + (y - 1)² = 25 and three points, A(2, 1), B(7, 1), and C(10, 5), and asked whether each point lies inside, on, or outside the circle.\n\nSu Su explained her method to Sayar Zaw Min first: substitute each point into the left-hand side of the equation, (x - 2)² + (y - 1)², and compare the result to r² = 25. If the result equals 25, the point is on the circle; if it is less than 25, the point is inside; if it is greater than 25, the point is outside.\n\nFor A(2, 1): (2-2)² + (1-1)² = 0 + 0 = 0, which is less than 25, so A is inside the circle — unsurprising, since A is exactly the centre. For B(7, 1): (7-2)² + (1-1)² = 25 + 0 = 25, exactly equal to 25, so B lies precisely on the circle. For C(10, 5): (10-2)² + (5-1)² = 64 + 16 = 80, which is greater than 25, so C lies outside the circle. Sayar Zaw Min pointed out that this substitution method works for any conic section written in this form, and that recognising 'equals r²' as the boundary case would be essential once the class moved on to studying where a line intersects a circle.",
+        passageMy:
+            "Su Su အား (x - 2)² + (y - 1)² = 25 စက်ဝိုင်းနှင့် A(2, 1), B(7, 1), C(10, 5) အမှတ်သုံးခု ပေးပြီး အမှတ်တစ်ခုစီ စက်ဝိုင်းအတွင်း၊ အပေါ်၊ ဒါမှမဟုတ် အပြင်တွင် ရှိမရှိ မေးမြန်းခဲ့သည်။\n\nSu Su သည် သူမ၏ နည်းလမ်းကို ဆရာဇော်မင်းအား ဦးစွာ ရှင်းပြခဲ့သည် - အမှတ်တစ်ခုစီကို Equation ၏ Left-Hand Side, (x - 2)² + (y - 1)² ထဲသို့ ထိုးသွင်းပြီး r² = 25 နှင့် နှိုင်းယှဉ်ပါ။ အဖြေက 25 ညီပါက အမှတ်သည် စက်ဝိုင်းပေါ်တွင် ရှိသည်; 25 ထက် နည်းပါက အတွင်းတွင် ရှိသည်; 25 ထက် ကြီးပါက အပြင်တွင် ရှိသည်။\n\nA(2, 1) အတွက် - (2-2)² + (1-1)² = 0 + 0 = 0, 25 ထက် နည်းသောကြောင့် A သည် စက်ဝိုင်းအတွင်း ရှိသည် -- A သည် Centre အတိအကျ ဖြစ်သောကြောင့် အံ့ဩစရာမဟုတ်ပါ။ B(7, 1) အတွက် - (7-2)² + (1-1)² = 25 + 0 = 25, 25 နှင့် အတိအကျ ညီသောကြောင့် B သည် စက်ဝိုင်းပေါ်တွင် တိတိကျကျ ရှိသည်။ C(10, 5) အတွက် - (10-2)² + (5-1)² = 64 + 16 = 80, 25 ထက် ကြီးသောကြောင့် C သည် စက်ဝိုင်းအပြင် ရှိသည်။ ဤ Substitution Method သည် ဤ Form ဖြင့် ရေးထားသော Conic Section မည်သည့်ခုအတွက်မဆို အလုပ်လုပ်ကြောင်းနှင့် 'r² ညီသည်' ကို Boundary Case အနေဖြင့် မှတ်မိထားခြင်းသည် အတန်းသည် မျဉ်းတစ်ခု စက်ဝိုင်းနှင့် ဘယ်နေရာတွင် ဆုံစည်းသည်ကို လေ့လာသည့်အခါ မရှိမဖြစ် လိုအပ်မည်ဟု ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, where does point B(7, 1) lie?",
+            questionMy: "B(7, 1) အမှတ်သည် မည်သည့်နေရာတွင် ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Exactly on the circle", "Inside the circle", "Outside the circle", "At the centre"],
+            optionsMy: ["စက်ဝိုင်းပေါ်တွင် တိတိကျကျ", "စက်ဝိုင်းအတွင်း", "စက်ဝိုင်းအပြင်", "Centre တွင်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's middle sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ အလယ်စာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why is point A(2, 1) inside the circle?",
+            questionMy: "A(2, 1) အမှတ်သည် စက်ဝိုင်းအတွင်း အဘယ်ကြောင့် ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its substituted result, 0, is less than 25",
+              "Its substituted result is exactly 25",
+              "Its substituted result is greater than 25",
+              "A is not actually on the coordinate plane",
+            ],
+            optionsMy: [
+              "ထိုးသွင်းရရှိသော အဖြေ 0 သည် 25 ထက် နည်းသောကြောင့်",
+              "ထိုးသွင်းရရှိသော အဖြေသည် 25 အတိအကျ ဖြစ်သောကြောင့်",
+              "ထိုးသွင်းရရှိသော အဖြေသည် 25 ထက် ကြီးသောကြောင့်",
+              "A သည် Coordinate Plane ပေါ်တွင် တကယ် မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why does the 'equals r²' case matter for future lessons?",
+            questionMy: "'r² ညီသည်' Case သည် နောင်သင်ခန်းစာများအတွက် အဘယ်ကြောင့် အရေးကြီးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It will be essential for studying line-circle intersections",
+              "It only matters for this one problem",
+              "It has no future relevance",
+              "It only applies to points at the centre",
+            ],
+            optionsMy: [
+              "မျဉ်း-စက်ဝိုင်း ဆုံစည်းမှုများ လေ့လာရာတွင် မရှိမဖြစ် လိုအပ်မည်ဖြစ်သောကြောင့်",
+              "ဤပြဿနာတစ်ခုတည်းအတွက်သာ အရေးကြီးသောကြောင့်",
+              "နောင်အနာဂတ်တွင် သက်ဆိုင်မှု မရှိသောကြောင့်",
+              "Centre ရှိ အမှတ်များအတွက်သာ သက်ဆိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Equation of a Circle",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - စက်ဝိုင်း၏ Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The equation (x - a)² + (y - b)² = r² describes a circle with...",
+          questionMy: "(x - a)² + (y - b)² = r² Equation က ဖော်ပြသော စက်ဝိုင်း၏...",
+          optionsEn: ["Centre (a, b) and radius r", "Centre (r, r) and radius a", "Centre (0, 0) always", "Radius equal to a + b"],
+          optionsMy: ["Centre (a, b) နှင့် Radius r", "Centre (r, r) နှင့် Radius a", "Centre (0, 0) အမြဲ", "Radius သည် a + b နှင့် ညီသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For x² + y² = 49, the radius is...",
+          questionMy: "x² + y² = 49 အတွက် Radius မှာ...",
+          optionsEn: ["7", "49", "24.5", "14"],
+          optionsMy: ["7", "49", "24.5", "14"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A point substituted into the circle equation giving a result greater than r² lies...",
+          questionMy: "စက်ဝိုင်း Equation ထဲသို့ ထိုးသွင်း၍ r² ထက် ကြီးသော အဖြေ ရရှိသော အမှတ်သည် ...ရှိသည်",
+          optionsEn: ["Outside the circle", "Inside the circle", "On the circle", "At the centre"],
+          optionsMy: ["စက်ဝိုင်းအပြင်", "စက်ဝိုင်းအတွင်း", "စက်ဝိုင်းပေါ်", "Centre"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12 (Boss Week): "Circle-Line Intersection"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y12MathWeek12 = CourseWeekDef(
+  id: "course-y12-math-w12",
+  weekNumber: 12,
+  titleEn: "Circle-Line Intersection",
+  titleMy: "Circle-Line Intersection",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y12-math-w12-d1",
+      dayNumber: 1,
+      titleEn: "How a Line Meets a Circle",
+      titleMy: "မျဉ်းတစ်ခု စက်ဝိုင်းနှင့် ဆုံစည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A line that is tangent to a circle touches it at how many points?",
+          questionMy: "စက်ဝိုင်းတစ်ခုနှင့် Tangent ဖြစ်သော မျဉ်းသည် အမှတ်ဘယ်နှစ်ခုတွင် ထိတွေ့သနည်း။",
+          optionsEn: ["1", "0", "2", "Infinitely many"],
+          optionsMy: ["1", "0", "2", "အနန္တ"],
+          correctIndex: 0,
+          hintsEn: ["A tangent line touches a circle at exactly one point."],
+          hintsMy: ["Tangent မျဉ်းသည် စက်ဝိုင်းတစ်ခုနှင့် အမှတ်တစ်ခုတွင် တိတိကျကျ ထိတွေ့သည်။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Substituting a line's equation into a circle's equation gives a quadratic in x. If its discriminant is positive, the line and circle intersect at...",
+          questionMy:
+              "မျဉ်း၏ Equation ကို စက်ဝိုင်း Equation ထဲသို့ ထိုးသွင်းပါက x တွင် Quadratic တစ်ခု ရရှိသည်။ Discriminant Positive ဖြစ်ပါက မျဉ်းနှင့် စက်ဝိုင်းသည် ...တွင် ဆုံစည်းသည်",
+          optionsEn: ["Two points", "One point", "No points", "Infinitely many points"],
+          optionsMy: ["အမှတ်နှစ်ခု", "အမှတ်တစ်ခု", "အမှတ် မရှိ", "အမှတ် အနန္တ"],
+          correctIndex: 0,
+          hintsEn: ["A positive discriminant means the quadratic has two distinct real roots — two x-values, two intersection points."],
+          hintsMy: ["Discriminant Positive ဆိုသည်မှာ Quadratic တွင် ကွဲပြားသော Real Root နှစ်ခု ရှိကြောင်း ဖြစ်သည် -- x တန်ဖိုးနှစ်ခု၊ ဆုံစည်းရာအမှတ်နှစ်ခု။"],
+        ),
+        QuizQuestion(
+          questionEn: "If the discriminant of that quadratic is negative, the line and circle...",
+          questionMy: "ထို Quadratic ၏ Discriminant Negative ဖြစ်ပါက မျဉ်းနှင့် စက်ဝိုင်း...",
+          optionsEn: ["Do not meet at all", "Meet at exactly one point", "Meet at two points", "Are identical"],
+          optionsMy: ["လုံးဝ မဆုံစည်း", "အမှတ်တစ်ခုတွင် တိတိကျကျ ဆုံစည်း", "အမှတ်နှစ်ခုတွင် ဆုံစည်း", "တူညီနေသည်"],
+          correctIndex: 0,
+          hintsEn: ["A negative discriminant means no real roots, so no real intersection points."],
+          hintsMy: ["Discriminant Negative ဆိုသည်မှာ Real Root မရှိကြောင်း ဖြစ်၍ Real ဆုံစည်းရာအမှတ် မရှိပါ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Discriminant and Circle-Line Intersection",
+      titleMy: "တွဲစပ်ကြမည် - Discriminant နှင့် Circle-Line Intersection",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y12math-w12-dm-1",
+          termEn: "Discriminant > 0",
+          termMy: "Discriminant > 0",
+          matchEn: "Line crosses the circle at two points",
+          matchMy: "မျဉ်းသည် စက်ဝိုင်းကို အမှတ်နှစ်ခုတွင် ဖြတ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y12math-w12-dm-2",
+          termEn: "Discriminant = 0",
+          termMy: "Discriminant = 0",
+          matchEn: "Line is a tangent to the circle (touches at one point)",
+          matchMy: "မျဉ်းသည် စက်ဝိုင်း၏ Tangent ဖြစ်သည် (အမှတ်တစ်ခုတွင် ထိသည်)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y12math-w12-dm-3",
+          termEn: "Discriminant < 0",
+          termMy: "Discriminant < 0",
+          matchEn: "Line does not meet the circle",
+          matchMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် မဆုံစည်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y12math-w12-dm-4",
+          termEn: "Tangent",
+          termMy: "Tangent",
+          matchEn: "A line that touches a circle at exactly one point",
+          matchMy: "စက်ဝိုင်းတစ်ခုနှင့် အမှတ်တစ်ခုတွင် တိတိကျကျ ထိတွေ့သော မျဉ်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y12math-w12-dm-5",
+          termEn: "Method",
+          termMy: "Method",
+          matchEn: "Substitute the line's equation into the circle's equation to get a quadratic",
+          matchMy: "မျဉ်း၏ Equation ကို စက်ဝိုင်း Equation ထဲသို့ ထိုးသွင်း၍ Quadratic တစ်ခု ရယူသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Does the Line Intersect the Circle?",
+      titleMy: "စီစစ်ကြမည် - မျဉ်းသည် စက်ဝိုင်းနှင့် ဆုံစည်းသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Line intersects the circle", "Line does not intersect the circle"],
+        bucketsMy: ["မျဉ်းသည် စက်ဝိုင်းနှင့် ဆုံစည်းသည်", "မျဉ်းသည် စက်ဝိုင်းနှင့် မဆုံစည်း"],
+        items: [
+          SortingItem(
+            id: "y12math-w12-sort-1",
+            labelEn: "Discriminant = 16",
+            labelMy: "Discriminant = 16",
+            correctBucketEn: "Line intersects the circle",
+            correctBucketMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် ဆုံစည်းသည်",
+          ),
+          SortingItem(
+            id: "y12math-w12-sort-2",
+            labelEn: "Discriminant = -4",
+            labelMy: "Discriminant = -4",
+            correctBucketEn: "Line does not intersect the circle",
+            correctBucketMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် မဆုံစည်း",
+          ),
+          SortingItem(
+            id: "y12math-w12-sort-3",
+            labelEn: "Discriminant = 0 (tangent)",
+            labelMy: "Discriminant = 0 (Tangent)",
+            correctBucketEn: "Line intersects the circle",
+            correctBucketMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် ဆုံစည်းသည်",
+          ),
+          SortingItem(
+            id: "y12math-w12-sort-4",
+            labelEn: "Discriminant = 25",
+            labelMy: "Discriminant = 25",
+            correctBucketEn: "Line intersects the circle",
+            correctBucketMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် ဆုံစည်းသည်",
+          ),
+          SortingItem(
+            id: "y12math-w12-sort-5",
+            labelEn: "Discriminant = -9",
+            labelMy: "Discriminant = -9",
+            correctBucketEn: "Line does not intersect the circle",
+            correctBucketMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် မဆုံစည်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Coordinate Geometry Capstone — Where the Line Meets the Circle",
+      titleMy: "စာဖတ်ခြင်း - Coordinate Geometry Capstone -- မျဉ်းသည် စက်ဝိုင်းနှင့် ဘယ်နေရာတွင် ဆုံသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Coordinate Geometry Capstone: Where the Line Meets the Circle",
+        titleMy: "Coordinate Geometry Capstone - မျဉ်းသည် စက်ဝိုင်းနှင့် ဘယ်နေရာတွင် ဆုံသနည်း",
+        passageEn:
+            "For the Term 3 capstone, Sayar Zaw Min set Htet Aung and Su Su a full circle-line intersection problem, combining everything from the term: find where the line y = x + 1 meets the circle x² + y² = 25.\n\nHtet Aung substituted the line's equation into the circle's equation, replacing y with x + 1: x² + (x + 1)² = 25. Expanding (x + 1)² = x² + 2x + 1 gave x² + x² + 2x + 1 = 25, which simplified to 2x² + 2x - 24 = 0, and dividing every term by 2 gave x² + x - 12 = 0 — exactly the kind of quadratic the term had practised solving all along.\n\nSu Su calculated the discriminant first, before solving fully, using a=1, b=1, c=-12: b² - 4ac = 1 + 48 = 49, which is positive, confirming two real intersection points before she even found them. Factorising x² + x - 12 = (x + 4)(x - 3), the roots were x = -4 and x = 3. Substituting back into y = x + 1: when x = -4, y = -3, giving the point (-4, -3); when x = 3, y = 4, giving the point (3, 4). Sayar Zaw Min asked the class to verify both points actually lay on the circle: for (-4,-3), (-4)² + (-3)² = 16 + 9 = 25, correct; for (3,4), 3² + 4² = 9 + 16 = 25, also correct. The capstone had drawn together gradient and line equations, the discriminant from quadratics, and the circle equation itself into a single connected solution.",
+        passageMy:
+            "Term 3 Capstone အတွက် ဆရာဇော်မင်းသည် Htet Aung နှင့် Su Su အား Term တစ်ခုလုံးမှ အားလုံးကို ပေါင်းစပ်ထားသော Circle-Line Intersection ပြဿနာအပြည့်အစုံကို ပေးခဲ့သည် - y = x + 1 မျဉ်းသည် x² + y² = 25 စက်ဝိုင်းနှင့် ဘယ်နေရာတွင် ဆုံသည်ကို ရှာပါ။\n\nHtet Aung သည် y ကို x + 1 ဖြင့် အစားထိုး၍ မျဉ်း၏ Equation ကို စက်ဝိုင်း Equation ထဲသို့ ထိုးသွင်းခဲ့သည် - x² + (x + 1)² = 25 ။ (x + 1)² = x² + 2x + 1 ကို ချဲ့ပါက x² + x² + 2x + 1 = 25 ရသည်၊ ၎င်းကို ရိုးရှင်းစေပါက 2x² + 2x - 24 = 0 ရသည်၊ Term တိုင်းကို 2 ဖြင့် စားပါက x² + x - 12 = 0 ရသည် -- Term တစ်လျှောက် ဖြေရှင်းလေ့ကျင့်ခဲ့သော Quadratic အမျိုးအစားတည်းပင် ဖြစ်သည်။\n\nSu Su သည် အပြည့်အဝ မဖြေရှာခင် a=1, b=1, c=-12 ကို အသုံးပြု၍ Discriminant ကို ဦးစွာ တွက်ချက်ခဲ့သည် - b² - 4ac = 1 + 48 = 49, Positive ဖြစ်သောကြောင့် Real ဆုံစည်းရာအမှတ်နှစ်ခု ရှိကြောင်း မဖြေရှာခင်ကတည်းက အတည်ပြုခဲ့သည်။ x² + x - 12 = (x + 4)(x - 3) ဟု Factorise ပြုလုပ်ပါက Root များမှာ x = -4 နှင့် x = 3 ဖြစ်သည်။ y = x + 1 ထဲသို့ ပြန်ထိုးသွင်းပါက - x = -4 တွင် y = -3, အမှတ် (-4, -3) ရသည်; x = 3 တွင် y = 4, အမှတ် (3, 4) ရသည်။ ဆရာဇော်မင်းသည် အမှတ်နှစ်ခုလုံး စက်ဝိုင်းပေါ်တွင် တကယ် ရှိကြောင်း အတန်းအား အတည်ပြုခိုင်းခဲ့သည် - (-4,-3) အတွက် (-4)² + (-3)² = 16 + 9 = 25, မှန်ကန်သည်; (3,4) အတွက် 3² + 4² = 9 + 16 = 25, မှန်ကန်သည်။ Capstone သည် Gradient နှင့် မျဉ်း Equation၊ Quadratic မှ Discriminant၊ စက်ဝိုင်း Equation ကိုယ်တိုင်ကို ဆက်စပ် Solution တစ်ခုတည်းအဖြစ် စုစည်းစေခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what are the two intersection points found?",
+            questionMy: "ရရှိသော ဆုံစည်းရာအမှတ်နှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(-4, -3) and (3, 4)", "(4, 3) and (-3, -4)", "(-4, 3) and (3, -4)", "(0, 1) and (5, 6)"],
+            optionsMy: ["(-4, -3) and (3, 4)", "(4, 3) and (-3, -4)", "(-4, 3) and (3, -4)", "(0, 1) and (5, 6)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what was the value of the discriminant?",
+            questionMy: "Discriminant ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["49", "25", "1", "-48"],
+            optionsMy: ["49", "25", "1", "-48"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, how did the class verify (3, 4) lay on the circle?",
+            questionMy: "(3, 4) သည် စက်ဝိုင်းပေါ်တွင် ရှိကြောင်းကို အတန်းက မည်သို့ အတည်ပြုခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By checking 3² + 4² equals 25",
+              "By redrawing the entire graph",
+              "By checking the gradient only",
+              "By ignoring the circle equation",
+            ],
+            optionsMy: [
+              "3² + 4² သည် 25 ညီကြောင်း စစ်ဆေးခြင်းဖြင့်",
+              "Graph တစ်ခုလုံးကို ပြန်ဆွဲခြင်းဖြင့်",
+              "Gradient ကိုသာ စစ်ဆေးခြင်းဖြင့်",
+              "စက်ဝိုင်း Equation ကို လျစ်လျူရှုခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y12-math-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Coordinate Geometry Capstone",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Coordinate Geometry Capstone",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "To find where a line meets a circle, you...",
+          questionMy: "မျဉ်းသည် စက်ဝိုင်းနှင့် ဘယ်နေရာတွင် ဆုံသည်ကို ရှာရန်...",
+          optionsEn: [
+            "Substitute the line's equation into the circle's equation",
+            "Add the two equations together",
+            "Ignore the line entirely",
+            "Find the midpoint of the circle",
+          ],
+          optionsMy: [
+            "မျဉ်း၏ Equation ကို စက်ဝိုင်း Equation ထဲသို့ ထိုးသွင်းသည်",
+            "Equation နှစ်ခုကို ပေါင်းလိုက်သည်",
+            "မျဉ်းကို လုံးဝ လျစ်လျူရှုသည်",
+            "စက်ဝိုင်း၏ Midpoint ကို ရှာသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A discriminant of exactly 0 in this context means the line is...",
+          questionMy: "ဤအခြေအနေတွင် Discriminant အတိအကျ 0 ဆိုသည်မှာ မျဉ်းသည်...",
+          optionsEn: ["A tangent to the circle", "Passing through the centre", "Not touching the circle", "Parallel to the y-axis"],
+          optionsMy: ["စက်ဝိုင်း၏ Tangent ဖြစ်သည်", "Centre ကို ဖြတ်သွားသည်", "စက်ဝိုင်းနှင့် မထိတွေ့ပါ", "y-Axis နှင့် Parallel ဖြစ်သည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Coordinate geometry problems this term combined circles with earlier knowledge of...",
+          questionMy: "ဤ Term ၏ Coordinate Geometry ပြဿနာများသည် စက်ဝိုင်းများကို ယခင်သင်ယူထားသော...",
+          optionsEn: [
+            "Line equations and the quadratic discriminant",
+            "Composite functions only",
+            "The modulus function only",
+            "Inverse functions only",
+          ],
+          optionsMy: [
+            "မျဉ်း Equation များနှင့် Quadratic Discriminant တို့နှင့် ပေါင်းစပ်ခဲ့သည်",
+            "Composite Function များနှင့်သာ",
+            "Modulus Function နှင့်သာ",
+            "Inverse Function များနှင့်သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year12MathematicsTerm3 = CourseTermDef(
+  id: "course-y12-math-t3",
+  termNumber: 3,
+  titleEn: "Coordinate Geometry",
+  titleMy: "Coordinate Geometry",
+  weeks: [_y12MathWeek9, _y12MathWeek10, _y12MathWeek11, _y12MathWeek12],
+  certificateTitleEn: "AS Mathematics: Coordinate Geometry",
+  certificateTitleMy: "AS သင်္ချာ - Coordinate Geometry",
+);
