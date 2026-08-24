@@ -162052,4 +162052,2887 @@ const CourseTermDef igcseEnglishTerm9 = CourseTermDef(
   certificateTitleMy: "IGCSE အင်္ဂလိပ်စာ ဘွဲ့ရ",
 );
 
+// =====================================================================
+// YEAR 13 ENGLISH (A-Level track: critical reading, rhetoric and literary
+// analysis) -- Term 1: "Advanced Reading Comprehension and Inference"
+// (Weeks 1-4). This is the first content authored for a Year 13 English
+// pathway -- there is no Year 12 English yet, so week numbering restarts
+// at 1 (matching the precedent set by year13PhysicsTerm1 in
+// course_pathways_physics.dart, where each grade's pathway numbers its
+// own weeks 1-36 independently rather than continuing a prior grade's
+// count). Week 1 revisits IGCSE's explicit/implicit distinction at
+// A-Level depth (layered and partial inference, ambiguity as a deliberate
+// authorial tool); Week 2 moves from what a text says to how it is said,
+// via tone and authorial attitude; Week 3 sharpens that critical eye
+// further into distinguishing verifiable fact from opinion and
+// recognising bias; Week 4 (boss week) synthesises all three into the
+// capstone academic skill of summarising a complex non-fiction passage
+// accurately and concisely.
+// =====================================================================
+
+/// Year 13 English -- Term 1, Week 1: "Explicit and Implicit Meaning at
+/// A-Level". Builds on the IGCSE-level explicit/implicit distinction by
+/// introducing layered inference (multiple simultaneous implications),
+/// partial/qualified inference, and ambiguity as a deliberate literary
+/// device rather than a comprehension failure.
+const CourseWeekDef _y13EngWeek1 = CourseWeekDef(
+  id: "course-y13-eng-w1",
+  weekNumber: 1,
+  titleEn: "Explicit and Implicit Meaning at A-Level",
+  titleMy: "A-Level အဆင့် Explicit နှင့် Implicit အဓိပ္ပာယ်များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w1-d1",
+      dayNumber: 1,
+      titleEn: "Layered and Partial Inference",
+      titleMy: "အလွှာများစွာနှင့် တစိတ်တပိုင်း Inference",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "At A-Level, a \"layered inference\" is best described as...",
+          questionMy:
+              "A-Level အဆင့်တွင် \"Layered Inference\" ဆိုသည်မှာ အကောင်းဆုံးဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A single detail supporting two or more valid, simultaneous readings",
+            "A detail that has only one possible meaning",
+            "A fact stated directly by the narrator",
+            "A footnote added by the editor",
+          ],
+          optionsMy: [
+            "တိကျသော အသေးစိတ်တစ်ခုက တန်ဖိုးရှိသည့် ဖတ်ရှုနည်း နှစ်မျိုး (သို့) ထို့ထက်ပို၍ တစ်ပြိုင်နက်တည်း ထောက်ခံနေခြင်း",
+            "ဖြစ်နိုင်ချေ အဓိပ္ပာယ်တစ်ခုတည်းသာ ရှိသော အသေးစိတ်",
+            "ဇာတ်ကြောင်းပြောသူက တိုက်ရိုက် ဖော်ပြထားသော အချက်",
+            "အယ်ဒီတာက ထည့်သွင်းထားသော မှတ်ချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Think of a detail that could reasonably support two different, defensible interpretations at once -- both are \"layered\" onto the same evidence.",
+          ],
+          hintsMy: [
+            "သင့်လျော်စွာ ကွဲပြားသော အနက်ဖွင့်ချက် နှစ်မျိုးကို တစ်ပြိုင်နက်တည်း ထောက်ခံနိုင်သည့် အသေးစိတ်တစ်ခုကို စဉ်းစားပါ -- နှစ်ခုစလုံးသည် တူညီသောသက်သေအပေါ် \"layered\" ဖြစ်နေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"He thanked the committee for their time, gathered his papers slowly, and did not look back as he left the room.\" A \"partial\" (qualified) inference here would be...",
+          questionMy:
+              "\"သူသည် ကော်မတီအား အချိန်ပေးမှုအတွက် ကျေးဇူးတင်ကြောင်း ပြောပြီး၊ စာရွက်များကို ဖြည်းဖြည်းချင်း စုစည်းကာ၊ အခန်းထဲမှ ထွက်ခွာသွားစဉ် နောက်ပြန်လှည့်မကြည့်ခဲ့ပါ။\" ဤနေရာတွင် \"Partial (Qualified)\" Inference တစ်ခုမှာ...",
+          optionsEn: [
+            "He is likely disappointed, though the passage does not confirm this outright",
+            "He is definitely furious, with no other possibility",
+            "He is happy, because he thanked the committee",
+            "The passage gives no clue about his feelings at all",
+          ],
+          optionsMy: [
+            "သူသည် စိတ်ပျက်နေဖွယ်ရှိသည်ဟု ယူဆနိုင်သော်လည်း၊ စာပိုဒ်က ၎င်းကို အတိအလင်း အတည်ပြုမထားပါ",
+            "သူသည် သေချာပေါက် ပြင်းထန်စွာ ဒေါသထွက်နေသည်၊ အခြားဖြစ်နိုင်ခြေ မရှိပါ",
+            "သူသည် ကော်မတီကို ကျေးဇူးတင်ပြောသောကြောင့် ပျော်ရွှင်နေသည်",
+            "စာပိုဒ်က သူ၏ ခံစားချက်အကြောင်း ဘာအချက်ပြမှုမျှ မပေးပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Qualified\" means the inference is stated with appropriate caution -- \"likely\" rather than a bare, overconfident certainty.",
+          ],
+          hintsMy: [
+            "\"Qualified\" ဆိုသည်မှာ Inference ကို သင့်လျော်သော သတိထားမှုဖြင့် ဖော်ပြထားခြင်း ဖြစ်သည် -- လုံးဝ ယုံကြည်မှုအပြည့်ထက် \"ဖြစ်နိုင်ချေရှိသည်\" ဟု ဆိုခြင်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A skilled writer sometimes leaves a detail deliberately ambiguous. The best reason for a candidate to acknowledge this ambiguity, rather than force one single reading, is that...",
+          questionMy:
+              "ကျွမ်းကျင်သော စာရေးဆရာတစ်ဦးသည် တစ်ခါတစ်ရံ အသေးစိတ်တစ်ခုကို တမင်တကာ ဝေခွဲ၍မရအောင် ချန်ထားလေ့ရှိသည်။ ဖြေဆိုသူတစ်ဦးအနေဖြင့် ဤဝေခွဲရခက်မှုကို အနက်ဖွင့်ချက် တစ်ခုတည်းသို့ အတင်းရောက်အောင်မလုပ်ဘဲ အသိအမှတ်ပြုသင့်ခြင်း၏ အကောင်းဆုံး အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It shows a more sophisticated, textually grounded understanding than a single forced reading",
+            "It lets the candidate avoid answering the question",
+            "Ambiguity is always a mistake by the author that should be corrected",
+            "Examiners never reward acknowledging more than one reading",
+          ],
+          optionsMy: [
+            "အနက်ဖွင့်ချက် တစ်ခုတည်းကို အတင်းသတ်မှတ်ခြင်းထက် ပို၍ ကျွမ်းကျင်ပြီး စာသားအပေါ် အခြေခံသော နားလည်မှုကို ပြသနိုင်သောကြောင့်",
+            "ဖြေဆိုသူအား မေးခွန်းကို မဖြေရန် ရှောင်လွှဲခွင့်ပေးသောကြောင့်",
+            "ဝေခွဲရခက်မှုသည် အမြဲတမ်း ပြင်ဆင်သင့်သော စာရေးသူ၏ အမှားဖြစ်သောကြောင့်",
+            "စစ်ဆေးသူများသည် အနက်ဖွင့်ချက် တစ်ခုထက်ပို၍ အသိအမှတ်ပြုခြင်းအတွက် ဘယ်တော့မှ အမှတ်မပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Naming a genuine ambiguity, with evidence for each reading, is a higher-order skill than picking one meaning arbitrarily.",
+          ],
+          hintsMy: [
+            "အနက်ဖွင့်ချက် တစ်ခုချင်းစီအတွက် သက်သေအထောက်အထားနှင့်တကွ စစ်မှန်သော ဝေခွဲရခက်မှုကို အမည်တပ်ခြင်းသည် ကျပန်း အနက်ဖွင့်ချက်တစ်ခု ရွေးချယ်ခြင်းထက် ပို၍ မြင့်မားသော ကျွမ်းကျင်မှုတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Inference and Meaning Terms",
+      titleMy: "တွဲစပ်ကြမည် - Inference နှင့် အဓိပ္ပာယ်ဆိုင်ရာ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w1-dm-1",
+          termEn: "Inference",
+          termMy: "Inference",
+          matchEn:
+              "A reasoned conclusion drawn from textual evidence rather than a direct statement",
+          matchMy:
+              "တိုက်ရိုက် ဖော်ပြချက်ထက် စာသားသက်သေအထောက်အထားမှ ကျိုးကြောင်းဆင်ခြင်၍ ရရှိသော နိဂုံး",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w1-dm-2",
+          termEn: "Implication",
+          termMy: "Implication",
+          matchEn:
+              "Something suggested by a text without being stated outright",
+          matchMy: "စာသားတစ်ခုက အတိအလင်းမဖော်ပြဘဲ အကြံပြုထားသော အရာ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w1-dm-3",
+          termEn: "Ambiguity",
+          termMy: "Ambiguity",
+          matchEn:
+              "A deliberate openness to more than one valid interpretation",
+          matchMy: "တန်ဖိုးရှိသော အနက်ဖွင့်ချက် တစ်ခုထက်ပို၍ တမင်ဖွင့်ထားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w1-dm-4",
+          termEn: "Connotation",
+          termMy: "Connotation",
+          matchEn:
+              "The emotional or cultural association a word carries beyond its literal, dictionary meaning",
+          matchMy:
+              "စကားလုံးတစ်ခု၏ အဘိဓာန်အဓိပ္ပာယ်ထက် ပို၍ သယ်ဆောင်လာသော ခံစားချက် (သို့) ယဉ်ကျေးမှုဆိုင်ရာ ဆက်နွယ်မှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w1-dm-5",
+          termEn: "Denotation",
+          termMy: "Denotation",
+          matchEn: "A word's literal, primary dictionary meaning",
+          matchMy: "စကားလုံးတစ်ခု၏ တိုက်ရိုက် အဘိဓာန် အဓိပ္ပာယ်အဓိက",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Directly Stated or Requires Inference?",
+      titleMy: "စီစစ်ကြမည် - တိုက်ရိုက် ဖော်ပြထားသလား Infer ပြုလုပ်ရမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Directly Stated (Explicit)", "Requires Inference (Implicit)"],
+        bucketsMy: ["တိုက်ရိုက် ဖော်ပြထား (Explicit)", "Infer ပြုလုပ်ရမည် (Implicit)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w1-sort-1",
+            labelEn: "\"The meeting was rescheduled to Thursday at 2pm.\"",
+            labelMy: "\"အစည်းအဝေးကို ကြာသပတေးနေ့ ညနေ ၂ နာရီသို့ ရွှေ့ဆိုင်းထားသည်။\"",
+            correctBucketEn: "Directly Stated (Explicit)",
+            correctBucketMy: "တိုက်ရိုက် ဖော်ပြထား (Explicit)",
+          ),
+          SortingItem(
+            id: "y13eng-w1-sort-2",
+            labelEn:
+                "\"She rehearsed the apology three times in the mirror before finally picking up the phone.\"",
+            labelMy:
+                "\"သူမသည် ဖုန်းကို နောက်ဆုံးတွင် မကိုင်မီ တောင်းပန်စကားကို မှန်ရှေ့တွင် သုံးကြိမ်တိုင် ကျင့်သားရနေအောင် လုပ်ခဲ့သည်။\"",
+            correctBucketEn: "Requires Inference (Implicit)",
+            correctBucketMy: "Infer ပြုလုပ်ရမည် (Implicit)",
+          ),
+          SortingItem(
+            id: "y13eng-w1-sort-3",
+            labelEn: "\"The company reported a 12% rise in profits this quarter.\"",
+            labelMy: "\"ကုမ္ပဏီသည် ဤသုံးလပတ်တွင် အမြတ်ငွေ ၁၂% တိုးတက်ခဲ့ကြောင်း ထုတ်ပြန်ခဲ့သည်။\"",
+            correctBucketEn: "Directly Stated (Explicit)",
+            correctBucketMy: "တိုက်ရိုက် ဖော်ပြထား (Explicit)",
+          ),
+          SortingItem(
+            id: "y13eng-w1-sort-4",
+            labelEn:
+                "\"He kept glancing at his watch, though the train wasn't due for another hour.\"",
+            labelMy:
+                "\"ရထားသည် နောက်တစ်နာရီအထိ မရောက်သေးသော်လည်း သူသည် နာရီကို အဖန်တလဲလဲ ကြည့်နေခဲ့သည်။\"",
+            correctBucketEn: "Requires Inference (Implicit)",
+            correctBucketMy: "Infer ပြုလုပ်ရမည် (Implicit)",
+          ),
+          SortingItem(
+            id: "y13eng-w1-sort-5",
+            labelEn:
+                "\"Even after the applause faded, she stood frozen at the podium, unable to move.\"",
+            labelMy:
+                "\"လက်ခုပ်တီးသံ ငြိမ်သွားပြီးနောက်တောင် သူမသည် ပလက်ဖောင်းပေါ်တွင် မရွေ့နိုင်ဘဲ ရပ်တန့်နေခဲ့သည်။\"",
+            correctBucketEn: "Requires Inference (Implicit)",
+            correctBucketMy: "Infer ပြုလုပ်ရမည် (Implicit)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Interview",
+      titleMy: "စာဖတ်ခြင်း - အင်တာဗျူး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Interview",
+        titleMy: "အင်တာဗျူး",
+        passageEn:
+            "Aye Aye had read the transcript twice before her tutor asked her a single question. It was an interview with a former factory manager, describing why the plant had closed after eighteen years. \"We simply couldn't compete any more,\" he said. \"Prices went up. Our biggest client moved elsewhere. It was time.\" Read only once, the transcript seemed to explain itself plainly: rising costs, a lost client, an unremarkable ending. Her tutor asked her to read it a third time, this time watching for what the manager repeated, avoided, and how long he paused before each sentence -- details the transcript's editor had carefully preserved in brackets.\n\nOn the third reading, Aye Aye noticed something she had missed twice already. Before the phrase \"our biggest client moved elsewhere,\" the transcript recorded a four-second pause. The manager also used the word \"simply\" twice in three sentences, as though reassuring himself as much as his interviewer. And he never once named the client, despite naming three suppliers and two employees earlier in the same interview. None of this proved anything outright -- her tutor was careful to stress that point -- but taken together, the pause, the repeated reassurance, and the conspicuous omission of a name he clearly knew supported a more layered reading: perhaps the closure was not simply commercial bad luck, but something the manager felt some responsibility for, and preferred not to examine too closely in front of a recorder.\n\nHer tutor reminded her that at A-Level, this was the difference between a competent answer and an excellent one. A competent answer would report that the plant closed due to rising costs and a lost client -- true, and directly supported by the transcript. An excellent answer would notice the four-second pause, the doubled \"simply,\" and the unnamed client, and use all three, together, as evidence for a more tentative, qualified inference about how the manager truly felt -- not a definite fact, but a genuinely earned reading of what a plain summary would miss entirely.",
+        passageMy:
+            "အေးအေးသည် ၎င်း၏ လက်ထောက်ဆရာမ တစ်ခုတည်းသော မေးခွန်းမေးမီ transcript ကို နှစ်ကြိမ်ဖတ်ခဲ့ပြီးဖြစ်သည်။ ၎င်းသည် စက်ရုံတစ်ခုသည် နှစ်ဆယ့်ရှစ်နှစ်ကြာပြီးနောက် အဘယ်ကြောင့် ပိတ်သွားရသည်ကို ရှင်းပြသော ယခင် စက်ရုံမန်နေဂျာ တစ်ဦးနှင့် အင်တာဗျူးတစ်ခု ဖြစ်သည်။ \"ကျွန်တော်တို့ ယှဉ်ပြိုင်နိုင်တော့မှာ မဟုတ်ပါဘူး\" ဟု သူက ပြောခဲ့သည်။ \"စျေးနှုန်းတွေ တက်လာတယ်။ ကျွန်တော်တို့ရဲ့ အကြီးဆုံးသုံးစွဲသူက တခြားနေရာကို ရွှေ့သွားတယ်။ အချိန်တန်ပြီပေါ့။\" တစ်ကြိမ်တည်းသာ ဖတ်လျှင် transcript သည် ရှင်းလင်းစွာ ကိုယ်တိုင် ရှင်းပြထားသကဲ့သို့ ထင်ရသည် - ကုန်ကျစရိတ် တိုးလာခြင်း၊ သုံးစွဲသူ ဆုံးရှုံးခြင်းနှင့် အထူးမပါသော အဆုံးသတ်။ သူမ၏ ဆရာသည် သူမကို transcript ၏ အယ်ဒီတာက ဂရုတစိုက် သိမ်းဆည်းထားသော ကွင်းအတွင်း၌ - မန်နေဂျာက ထပ်ခါထပ်ခါ ပြောသည့်အရာ၊ ရှောင်ရှားသည့်အရာနှင့် ဝါကျတစ်ခုချင်းစီမတိုင်မီ မည်မျှကြာအောင် ရပ်နားခဲ့သည်တို့ကို သတိပြု၍ တတိယအကြိမ် ဖတ်ရန် တောင်းဆိုခဲ့သည်။\n\nတတိယအကြိမ် ဖတ်ရှုစဉ် အေးအေးသည် နှစ်ကြိမ်လုံး လွတ်ကျွတ်သွားခဲ့သော အရာတစ်ခုကို သတိပြုမိခဲ့သည်။ \"ကျွန်တော်တို့ရဲ့ အကြီးဆုံးသုံးစွဲသူက တခြားနေရာကို ရွှေ့သွားတယ်\" ဟူသော စကားစုမတိုင်မီ transcript တွင် စက္ကန့် လေးဆယ် ရပ်နားခဲ့ကြောင်း မှတ်တမ်းတင်ထားသည်။ မန်နေဂျာသည် \"simply\" ဟူသော စကားလုံးကို ဝါကျသုံးခုအတွင်း နှစ်ကြိမ်ပင် သုံးခဲ့ပြီး၊ ၎င်း၏ အင်တာဗျူးသူထက် သူ့ကိုယ်သူ တည်ငြိမ်စေရန် ကြိုးစားနေသကဲ့သို့ ဖြစ်နေသည်။ ထို့ပြင် သူသည် အင်တာဗျူး အတွင်းက ပစ္စည်းသွင်းသူ သုံးဦးနှင့် ဝန်ထမ်း နှစ်ဦးအား အမည်ဖော်ပြထားသော်လည်း သူသိသော သုံးစွဲသူ၏ အမည်ကိုမူ တစ်ကြိမ်တစ်ခါမျှ မဖော်ပြခဲ့ပါ။ ဤအရာများသည် ဘာကိုမျှ သေချာစွာ သက်သေမပြနိုင်ပါ - သူမ၏ ဆရာသည် ထိုအချက်ကို ဂရုတစိုက် အလေးထားခဲ့သည် - သို့သော် ပေါင်းစည်းကြည့်လျှင် ရပ်နားခြင်း၊ ထပ်ခါသုံးထားသော \"simply\" နှင့် ရှင်းရှင်းလင်းလင်း သိသော်လည်း ချန်ထားသော အမည်တို့သည် ပို၍ အလွှာများစွာသော ဖတ်ရှုနည်းတစ်ခုကို ထောက်ခံသည် - ပိတ်ရခြင်းသည် စီးပွားရေး ကံဆိုးမှုတစ်ခုတည်း မဟုတ်ဘဲ၊ မန်နေဂျာသည် တစ်စုံတစ်ရာ တာဝန်ရှိသည်ဟု ခံစားနေပြီး ရေကူးသံစက်ရှေ့တွင် အနီးကပ် မစစ်ဆေးလိုသောကြောင့် ဖြစ်ကောင်းဖြစ်နိုင်သည်။\n\nသူမ၏ ဆရာသည် A-Level အဆင့်တွင် ဤအချက်သည် လုံလောက်သော အဖြေတစ်ခုနှင့် ထူးချွန်သော အဖြေတစ်ခု၏ ကွာခြားချက် ဖြစ်ကြောင်း သတိပေးခဲ့သည်။ လုံလောက်သော အဖြေတစ်ခုသည် စက်ရုံသည် ကုန်ကျစရိတ်တိုးလာခြင်းနှင့် သုံးစွဲသူ ဆုံးရှုံးခြင်းကြောင့် ပိတ်ခဲ့ရသည်ဟု ဖော်ပြမည်ဖြစ်ပြီး - မှန်ကန်ပြီး transcript ၏ တိုက်ရိုက် ထောက်ခံချက် ဖြစ်သည်။ ထူးချွန်သော အဖြေတစ်ခုမူ စက္ကန့် လေးဆယ် ရပ်နားမှု၊ နှစ်ဆတိုးထားသော \"simply\" နှင့် အမည်မတပ်ထားသော သုံးစွဲသူတို့ကို သတိပြုမိပြီး၊ ထိုသုံးခုစလုံးကို အတူတကွ မန်နေဂျာ၏ စစ်မှန်သော ခံစားချက်အကြောင်း ပို၍ ဂရုတစိုက်ဆင်ခြင်ထားသော Inference တစ်ခုအတွက် သက်သေအဖြစ် အသုံးပြုမည် ဖြစ်သည် - ဤအချက်သည် ဆုံးဖြတ်ချက်တစ်ခု မဟုတ်ဘဲ၊ ရိုးရှင်းသော အကျဉ်းချုပ်တစ်ခုက လုံးဝ လွတ်ကျွတ်သွားမည့် စစ်မှန်စွာ ရရှိထားသော ဖတ်ရှုနည်းတစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did the tutor ask Aye Aye to watch for on her third reading?",
+            questionMy:
+                "စာပိုဒ် ၁ အရ ဆရာသည် အေးအေးအား တတိယအကြိမ် ဖတ်ရှုစဉ် မည်သည့်အရာကို သတိပြုရန် ပြောခဲ့သနည်း",
+            optionsEn: [
+              "What the manager repeated, avoided, and how long he paused before each sentence",
+              "The exact date of the interview",
+              "The manager's job title only",
+              "The length of the transcript in pages",
+            ],
+            optionsMy: [
+              "မန်နေဂျာ ထပ်ခါပြောသည့်အရာ၊ ရှောင်ရှားသည့်အရာနှင့် ဝါကျတစ်ခုချင်းစီမတိုင်မီ မည်မျှကြာအောင် ရပ်နားခဲ့သည်",
+              "အင်တာဗျူး ပြုလုပ်ခဲ့သော တိကျသည့် ရက်စွဲ",
+              "မန်နေဂျာ၏ ရာထူးအမည်သာ",
+              "transcript ၏ စာမျက်နှာ အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1, which lists exactly what the tutor asked her to notice.",
+            ],
+            hintsMy: [
+              "ဆရာက သတိပြုရန် တောင်းဆိုသော အချက်များကို အတိအကျ ဖော်ပြထားသော စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, which three details together supported a more layered reading?",
+            questionMy:
+                "စာပိုဒ် ၂ အရ မည်သည့် အသေးစိတ်သုံးခုက အတူတကွ ပို၍ အလွှာများစွာသော ဖတ်ရှုနည်းကို ထောက်ခံခဲ့သနည်း",
+            optionsEn: [
+              "The four-second pause, the doubled \"simply,\" and the unnamed client",
+              "The date, the location, and the weather",
+              "Three suppliers' names only",
+              "The number of employees at the factory",
+            ],
+            optionsMy: [
+              "စက္ကန့် လေးဆယ် ရပ်နားမှု၊ နှစ်ဆတိုးထားသော \"simply\" နှင့် အမည်မတပ်ထားသော သုံးစွဲသူ",
+              "ရက်စွဲ၊ တည်နေရာနှင့် ရာသီဥတု",
+              "ပစ္စည်းသွင်းသူ သုံးဦး၏ အမည်များသာ",
+              "စက်ရုံရှိ ဝန်ထမ်း အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"None of this proved anything outright...\"",
+            ],
+            hintsMy: [
+              "\"ဤအရာများသည် ဘာကိုမျှ...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what specifically separates a \"competent\" answer from an \"excellent\" one at A-Level?",
+            questionMy:
+                "A-Level တွင် \"လုံလောက်သော\" အဖြေနှင့် \"ထူးချွန်သော\" အဖြေကို မည်သည့်အချက်က ပိုင်းခြားပေးသည်ဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Using the pause, the repetition, and the omission together as evidence for a qualified inference, not just reporting the stated facts",
+              "Writing a much longer answer overall",
+              "Quoting every single word of the transcript",
+              "Ignoring the transcript and describing the factory instead",
+            ],
+            optionsMy: [
+              "ဖော်ပြထားသော အချက်များကို အစီရင်ခံခြင်းသက်သက်မဟုတ်ဘဲ ရပ်နားမှု၊ ထပ်ခါပြောမှုနှင့် ချန်ထားမှုတို့ကို ဆင်ခြင်ထားသော Inference တစ်ခုအတွက် သက်သေအဖြစ် အတူတကွ အသုံးပြုခြင်း",
+              "ပို၍ ရှည်လျားသော အဖြေတစ်ခု အလုံးစုံ ရေးသားခြင်း",
+              "transcript ၏ စကားလုံး တစ်ခုချင်းစီကို ကိုးကားခြင်း",
+              "transcript ကို လျစ်လျူရှု၍ စက်ရုံအကြောင်းကို ဖော်ပြခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final two sentences of paragraph 3, which contrast the competent answer with the excellent one directly.",
+            ],
+            hintsMy: [
+              "လုံလောက်သော အဖြေနှင့် ထူးချွန်သော အဖြေကို တိုက်ရိုက်နှိုင်းယှဉ်ထားသော စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျ နှစ်ခုကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Explicit and Implicit Meaning",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Explicit နှင့် Implicit အဓိပ္ပာယ်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A layered inference is when a single detail...",
+          questionMy: "Layered Inference ဆိုသည်မှာ အသေးစိတ်တစ်ခုသည်...",
+          optionsEn: [
+            "Supports two or more valid readings at once",
+            "Has no possible meaning",
+            "Is stated directly by the narrator",
+            "Only appears in footnotes",
+          ],
+          optionsMy: [
+            "တန်ဖိုးရှိသော ဖတ်ရှုနည်းနှစ်ခု (သို့) ထို့ထက်ပို၍ တစ်ပြိုင်နက်တည်း ထောက်ခံခြင်း",
+            "ဖြစ်နိုင်ချေ အဓိပ္ပာယ်မရှိခြင်း",
+            "ဇာတ်ကြောင်းပြောသူက တိုက်ရိုက် ဖော်ပြထားခြင်း",
+            "မှတ်ချက်များတွင်သာ တွေ့ရခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ambiguity in a literary text is best treated as...",
+          questionMy: "စာပေစာသားတစ်ခုရှိ Ambiguity ကို အကောင်းဆုံး သဘောထားရန်မှာ...",
+          optionsEn: [
+            "A deliberate device worth acknowledging with evidence for each reading",
+            "Always a printing error",
+            "Something to ignore entirely",
+            "Proof the writer made a mistake",
+          ],
+          optionsMy: [
+            "ဖတ်ရှုနည်း တစ်ခုချင်းစီအတွက် သက်သေအထောက်အထားနှင့်တကွ အသိအမှတ်ပြုထိုက်သော တမင်ဖန်တီးထားသည့်နည်းလမ်း",
+            "အမြဲတမ်း ပုံနှိပ်မှား",
+            "လုံးဝ လျစ်လျူရှုရန် အရာတစ်ခု",
+            "စာရေးသူ အမှားလုပ်ခဲ့ကြောင်း သက်သေ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "A qualified (\"partial\") inference is expressed with words like...",
+          questionMy:
+              "Qualified (\"Partial\") Inference ကို ဖော်ပြသည့် စကားလုံးများမှာ...",
+          optionsEn: [
+            "\"Likely\" or \"perhaps,\" rather than absolute certainty",
+            "\"Definitely,\" with no other possibility",
+            "No words at all -- it is left blank",
+            "Only numbers and statistics",
+          ],
+          optionsMy: [
+            "လုံးဝ ယုံကြည်မှုအပြည့်ထက် \"ဖြစ်နိုင်ချေရှိသည်\" (သို့) \"ဖြစ်ကောင်းဖြစ်နိုင်သည်\"",
+            "\"သေချာပေါက်\" အခြားဖြစ်နိုင်ခြေ မရှိဘဲ",
+            "စကားလုံး လုံးဝ မပါဘဲ - ကွက်လပ်ချန်ထားခြင်း",
+            "ကိန်းဂဏန်းနှင့် စာရင်းအင်းများသာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 1, Week 2: "Tone and Authorial Attitude". Moves
+/// from what a text says (Week 1) to how it is said -- identifying tone
+/// through diction, register and syntax, and distinguishing a writer's
+/// attitude toward their subject from a narrator's or character's stated
+/// feelings.
+const CourseWeekDef _y13EngWeek2 = CourseWeekDef(
+  id: "course-y13-eng-w2",
+  weekNumber: 2,
+  titleEn: "Tone and Authorial Attitude",
+  titleMy: "Tone နှင့် စာရေးသူ၏ သဘောထား",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w2-d1",
+      dayNumber: 1,
+      titleEn: "Identifying Tone Through Diction and Syntax",
+      titleMy: "Diction နှင့် Syntax မှတဆင့် Tone ကို ဖော်ထုတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Tone\" in a text refers most precisely to...",
+          questionMy: "စာသားတစ်ခုရှိ \"Tone\" ဆိုသည်မှာ အတိကျဆုံး ရည်ညွှန်းသည်မှာ...",
+          optionsEn: [
+            "The writer's attitude toward their subject, conveyed through word choice and style",
+            "The physical volume of a speaker's voice",
+            "The number of paragraphs in a passage",
+            "The publication date of the text",
+          ],
+          optionsMy: [
+            "စကားလုံး ရွေးချယ်မှုနှင့် ရေးသားပုံ ပုံစံမှတဆင့် ဖော်ပြထားသော ဘာသာရပ်အပေါ် စာရေးသူ၏ သဘောထား",
+            "စကားပြောသူ၏ အသံ ပမာဏ",
+            "စာပိုဒ်တစ်ခုရှိ စာပိုဒ်ခွဲ အရေအတွက်",
+            "စာသား၏ ထုတ်ဝေသည့် ရက်စွဲ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Tone is about attitude, not volume -- ask yourself what the writer seems to feel about the subject.",
+          ],
+          hintsMy: [
+            "Tone သည် ပမာဏအကြောင်း မဟုတ်ဘဲ သဘောထားအကြောင်း ဖြစ်သည် -- ဘာသာရပ်အပေါ် စာရေးသူ မည်သို့ ခံစားနေဟန်ရှိသည်ကို ကိုယ့်ကိုယ်ကို မေးကြည့်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The so-called 'reform' merely rearranged the same tired failures under a shinier name.\" This sentence's tone is best described as...",
+          questionMy:
+              "\"ဒီ \"ပြုပြင်ပြောင်းလဲရေး\" ဆိုတာက ပိုတောက်ပတဲ့ နာမည်တစ်ခုအောက်မှာ ပင်ပန်းနွမ်းနယ်နေတဲ့ ကျရှုံးမှုတွေကိုသာ ပြန်လည်ချထားတာပါ။\" ဤဝါကျ၏ Tone ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "Skeptical and dismissive, signalled by \"so-called\" and \"merely\"",
+            "Warmly celebratory",
+            "Completely neutral and factual",
+            "Confused and uncertain",
+          ],
+          optionsMy: [
+            "\"So-called\" နှင့် \"Merely\" တို့က ညွှန်ပြသကဲ့သို့ ယုံမှားသံသယရှိပြီး လျစ်လျူရှုသော Tone",
+            "နွေးထွေးစွာ ချီးမွမ်းသော Tone",
+            "လုံးဝ ကြားနေပြီး အချက်အလက်ကို အခြေခံသော Tone",
+            "ရှုပ်ထွေးပြီး မသေချာသော Tone",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"So-called\" signals the writer doesn't accept the label at face value, and \"merely\" belittles what followed.",
+          ],
+          hintsMy: [
+            "\"So-called\" က စာရေးသူသည် ထိုအမည်ကို မျက်နှာဖုံးအတိုင်း လက်မခံကြောင်း ညွှန်ပြပြီး \"Merely\" က နောက်ပါသည့်အရာကို သေးသိမ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A single passage can shift tone partway through (e.g. from nostalgic to bitter). At A-Level, tracking this shift requires...",
+          questionMy:
+              "စာပိုဒ်တစ်ခုတည်းသည် တစ်ဝက်တွင် Tone ပြောင်းသွားနိုင်သည် (ဥပမာ - Nostalgic မှ Bitter သို့)။ A-Level တွင် ဤပြောင်းလဲမှုကို ခြေရာခံရန် လိုအပ်သည်မှာ...",
+          optionsEn: [
+            "Noticing the specific word or moment where diction and syntax change, not just the passage's overall mood",
+            "Reading only the first sentence",
+            "Assuming tone never changes within one passage",
+            "Ignoring word choice entirely",
+          ],
+          optionsMy: [
+            "စာပိုဒ်၏ အလုံးစုံစိတ်ခံစားချက်ကိုသာ မဟုတ်ဘဲ Diction နှင့် Syntax ပြောင်းလဲသွားသည့် တိကျသော စကားလုံး (သို့) အခိုက်အတန့်ကို သတိပြုမိခြင်း",
+            "ပထမဆုံး ဝါကျကိုသာ ဖတ်ခြင်း",
+            "စာပိုဒ်တစ်ခုတည်းအတွင်း Tone ဘယ်တော့မှ မပြောင်းလဲဟု ယူဆခြင်း",
+            "စကားလုံး ရွေးချယ်မှုကို လုံးဝ လျစ်လျူရှုခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A tone shift is anchored to a specific textual pivot point -- find the exact word or clause where the change begins.",
+          ],
+          hintsMy: [
+            "Tone ပြောင်းလဲခြင်းသည် တိကျသော စာသား ပြောင်းလဲသည့်နေရာတွင် အခြေခံထားသည် -- ပြောင်းလဲမှု စတင်သည့် တိကျသော စကားလုံး (သို့) Clause ကို ရှာဖွေပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Tone and Register Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Tone နှင့် Register ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w2-dm-1",
+          termEn: "Tone",
+          termMy: "Tone",
+          matchEn: "The writer's attitude toward their subject, conveyed through style",
+          matchMy: "ရေးသားပုံမှတဆင့် ဖော်ပြထားသော ဘာသာရပ်အပေါ် စာရေးသူ၏ သဘောထား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w2-dm-2",
+          termEn: "Register",
+          termMy: "Register",
+          matchEn:
+              "The level of formality a writer chooses for a particular audience or purpose",
+          matchMy: "ပရိသတ် (သို့) ရည်ရွယ်ချက်အလိုက် စာရေးသူ ရွေးချယ်သော တရားဝင်မှုအဆင့်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w2-dm-3",
+          termEn: "Diction",
+          termMy: "Diction",
+          matchEn: "A writer's specific word choices, considered for their effect",
+          matchMy: "သက်ရောက်မှုအတွက် ထည့်သွင်းစဉ်းစားထားသော စာရေးသူ၏ တိကျသော စကားလုံး ရွေးချယ်မှုများ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w2-dm-4",
+          termEn: "Verbal Irony",
+          termMy: "Verbal Irony",
+          matchEn: "Saying the opposite of what is literally meant, for effect",
+          matchMy: "သက်ရောက်မှုတစ်ခုအတွက် တိုက်ရိုက်အဓိပ္ပာယ်၏ ဆန့်ကျင်ဘက်ကို ပြောဆိုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w2-dm-5",
+          termEn: "Detachment",
+          termMy: "Detachment",
+          matchEn: "A tone that withholds emotional judgement, reporting coolly and distantly",
+          matchMy: "စိတ်ခံစားမှုဆိုင်ရာ ဆုံးဖြတ်ချက်ကို ချန်ထားပြီး တည်ငြိမ်စွာ ဝေးကွာစွာ အစီရင်ခံသော Tone",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Critical or Sympathetic Tone?",
+      titleMy: "စီစစ်ကြမည် - ဝေဖန်သော Tone လား ကရုဏာရှိသော Tone လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Critical Tone", "Sympathetic Tone"],
+        bucketsMy: ["ဝေဖန်သော Tone", "ကရုဏာရှိသော Tone"],
+        items: [
+          SortingItem(
+            id: "y13eng-w2-sort-1",
+            labelEn:
+                "\"Predictably, the minister offered yet another empty promise.\"",
+            labelMy: "\"မထင်မှတ်ဘဲ ဝန်ကြီးက ကတိအလွတ်တစ်ခုကို ထပ်တင်ခဲ့ပြန်သည်။\"",
+            correctBucketEn: "Critical Tone",
+            correctBucketMy: "ဝေဖန်သော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w2-sort-2",
+            labelEn:
+                "\"Despite everything she had lost, she still found a way to smile at the children each morning.\"",
+            labelMy:
+                "\"အရာအားလုံးဆုံးရှုံးသွားသော်လည်း သူမသည် နံနက်တိုင်း ကလေးများကို ပြုံးပြနိုင်ရန် နည်းလမ်းရှာနေဆဲ ဖြစ်သည်။\"",
+            correctBucketEn: "Sympathetic Tone",
+            correctBucketMy: "ကရုဏာရှိသော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w2-sort-3",
+            labelEn:
+                "\"The so-called experts got it wrong again, as usual.\"",
+            labelMy: "\"ခေါင်ခေါ်ကျွမ်းကျင်သူများက ပုံမှန်အတိုင်း ထပ်မှားခဲ့ပြန်သည်။\"",
+            correctBucketEn: "Critical Tone",
+            correctBucketMy: "ဝေဖန်သော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w2-sort-4",
+            labelEn:
+                "\"He had done his best with what little he had, and no one could fault him for that.\"",
+            labelMy:
+                "\"သူသည် ရှိသမျှ အနည်းငယ်ဖြင့် အကောင်းဆုံး ကြိုးစားခဲ့ပြီး၊ ထိုအတွက် မည်သူမျှ သူ့ကို အပြစ်တင်၍မရနိုင်ပါ။\"",
+            correctBucketEn: "Sympathetic Tone",
+            correctBucketMy: "ကရုဏာရှိသော Tone",
+          ),
+          SortingItem(
+            id: "y13eng-w2-sort-5",
+            labelEn:
+                "\"Another year, another round of hollow apologies from the board.\"",
+            labelMy: "\"တစ်နှစ်ပြီးတစ်နှစ်၊ ဘုတ်အဖွဲ့ထံမှ အနှစ်သာရမဲ့ တောင်းပန်စကားများ ထပ်ခါပြန်လာသည်။\"",
+            correctBucketEn: "Critical Tone",
+            correctBucketMy: "ဝေဖန်သော Tone",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Retirement Speech",
+      titleMy: "စာဖတ်ခြင်း - အငြိမ်းစား မိန့်ခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Retirement Speech",
+        titleMy: "အငြိမ်းစား မိန့်ခွန်း",
+        passageEn:
+            "Kyaw Zin's class had been asked to compare two drafts of the same retiring headteacher's farewell speech. The first draft opened warmly: \"For thirty years, this school has been my second home, and every one of you has taught me as much as I ever taught you.\" The second draft, written after the school board announced budget cuts the same week, opened differently: \"For thirty years, I gave this school everything I had. I only wish the board had given half as much back.\" Kyaw Zin's first instinct was to call both drafts simply \"emotional,\" but his teacher pushed him further: which specific words carried the tone, and where exactly did each draft's attitude reveal itself?\n\nLooking closer, he noticed the first draft's diction -- \"second home,\" \"taught me as much\" -- built warmth and mutual gratitude, a tone of genuine affection with no trace of grievance. The second draft kept the same topic and the same speaker, yet its diction shifted sharply: \"I gave... everything,\" set against \"I only wish,\" created an unmistakable note of bitterness and reproach, aimed squarely at the board rather than the school community. The headteacher hadn't changed subjects; she had changed attitude, and the syntax made that attitude unmistakable -- the second draft's short, clipped final sentence landed like a rebuke where the first draft's flowing final sentence had landed like an embrace.\n\nKyaw Zin's teacher then asked the harder question: could a single, careful reader argue the second draft was not purely bitter, but also grieving -- disappointed precisely because she had cared so much? He realised the two readings weren't contradictory. The draft's tone could be read as bitter on the surface, while the underlying attitude beneath that bitterness was profound attachment to a place she was being made to leave under conditions she resented. Naming both, with the specific diction supporting each, was worth more marks than settling for either alone.",
+        passageMy:
+            "ကျော်ဇင်၏ အတန်းသည် အငြိမ်းစားယူတော့မည့် ကျောင်းအုပ်ကြီးတစ်ဦး၏ နှုတ်ဆက်စကား မိန့်ခွန်း မူကြမ်းနှစ်ခုကို နှိုင်းယှဉ်ရန် တောင်းဆိုခံရသည်။ ပထမ မူကြမ်းသည် နွေးထွေးစွာ စတင်ခဲ့သည် - \"နှစ်ဆယ့်ဆယ်နှစ်ကြာအောင် ဒီကျောင်းက ကျွန်မရဲ့ ဒုတိယ အိမ်ဖြစ်ခဲ့ပြီး၊ သင်တို့တစ်ယောက်စီက ကျွန်မ သင်ကြားခဲ့သလောက်ပဲ ကျွန်မကို ပြန်သင်ပေးခဲ့ကြပါတယ်။\" ကျောင်းဘုတ်အဖွဲ့က ဘတ်ဂျက်ဖြတ်တောက်ကြောင်း ထုတ်ပြန်ပြီးနောက် တစ်ပတ်တည်းတွင် ရေးသားခဲ့သော ဒုတိယ မူကြမ်းမူ ကွဲပြားစွာ စတင်ခဲ့သည် - \"နှစ်ဆယ့်ဆယ်နှစ်ကြာအောင် ဒီကျောင်းကို ကျွန်မရှိသမျှ ပေးအကုန်ခဲ့ပါတယ်။ ဘုတ်အဖွဲ့က တစ်ဝက်လောက်တောင် ပြန်ပေးမယ်လို့ ကျွန်မ ဆန္ဒရှိပါတယ်။\" ကျော်ဇင်၏ ပထမ တုံ့ပြန်မှုမှာ မူကြမ်းနှစ်ခုစလုံးကို \"ခံစားချက်ရှိသော\" ဟု ရိုးရိုးရှင်းရှင်း ခေါ်ဝေါ်ခြင်း ဖြစ်ခဲ့သော်လည်း သူ၏ ဆရာက သူ့ကို ပို၍ တွန်းအားပေးခဲ့သည် - မည်သည့် တိကျသော စကားလုံးက Tone ကို သယ်ဆောင်ခဲ့သနည်း၊ မူကြမ်းတစ်ခုချင်းစီ၏ သဘောထားသည် မည်သည့်နေရာတွင် အတိအကျ ပေါ်လွင်ခဲ့သနည်း။\n\nပို၍ အနီးကပ်ကြည့်ရှုသောအခါ သူသည် ပထမ မူကြမ်း၏ Diction - \"ဒုတိယအိမ်\"၊ \"ကျွန်မ သင်ကြားခဲ့သလောက်\" - တို့သည် နွေးထွေးမှုနှင့် အပြန်အလှန် ကျေးဇူးတင်မှုကို တည်ဆောက်ပေးပြီး၊ ကတိကဝတ် လုံးဝ ကင်းမဲ့သော စစ်မှန်သော ချစ်ခြင်းမေတ္တာ Tone တစ်ခု ဖြစ်ကြောင်း သတိပြုမိသည်။ ဒုတိယ မူကြမ်းသည် ဘာသာရပ်တူတူနှင့် စကားပြောသူ တူတူ ကျန်ရှိနေသော်လည်း ၎င်း၏ Diction သည် ပြင်းထန်စွာ ပြောင်းလဲသွားခဲ့သည် - \"ကျွန်မ ...အကုန် ပေးခဲ့ပါတယ်\" ဟူသည်ကို \"ကျွန်မ ဆန္ဒရှိပါတယ်\" နှင့် ယှဉ်ထားခြင်းက ကျောင်းအသိုင်းအဝိုင်းထက် ဘုတ်အဖွဲ့ကိုသာ တိုက်ရိုက်ဦးတည်ထားသော မငြင်းနိုင်သော ကွဲပြားထင်ရှားသည့် ခါးသီးမှုနှင့် အပြစ်တင်မှု အသံတစ်ခုကို ဖန်တီးခဲ့သည်။ ကျောင်းအုပ်ကြီးသည် ဘာသာရပ် ပြောင်းသွားခြင်း မဟုတ်ပါ၊ သူမသည် သဘောထား ပြောင်းသွားခဲ့ပြီး၊ Syntax ကလည်း ထိုသဘောထားကို မငြင်းနိုင်အောင် ပြသခဲ့သည် - ဒုတိယ မူကြမ်း၏ တို၍ ဖြတ်တောက်ထားသော နောက်ဆုံးဝါကျသည် ပထမ မူကြမ်း၏ စီးဆင်းနေသော နောက်ဆုံးဝါကျ ဖက်ပွေ့ခြင်းလို ကျရောက်ခဲ့သကဲ့သို့ ပြစ်တင်ဆုံးမမှုတစ်ခုလို ကျရောက်ခဲ့သည်။\n\nကျော်ဇင်၏ ဆရာသည် ထို့နောက် ပို၍ ခက်ခဲသော မေးခွန်းကို မေးခဲ့သည် - ဂရုတစိုက် စာဖတ်သူတစ်ဦးသည် ဒုတိယ မူကြမ်းသည် အကြွင်းမဲ့ ခါးသီးမှုသက်သက် မဟုတ်ဘဲ၊ သူမ အလွန်ဂရုစိုက်ခဲ့သောကြောင့် စိတ်ပျက်နေခြင်းလည်း ဖြစ်ကြောင်း ငြင်းခုံနိုင်ပါသလား။ ဖတ်ရှုနည်းနှစ်ခုသည် ဆန့်ကျင်ဘက် မဟုတ်ကြောင်း သူ သဘောပေါက်ခဲ့သည်။ မူကြမ်း၏ Tone သည် မျက်နှာပြင်တွင် ခါးသီးသည်ဟု ဖတ်နိုင်သော်လည်း၊ ထိုခါးသီးမှုအောက်ရှိ အခြေခံ သဘောထားသည် သူမ ဝမ်းနည်းကာ ထွက်ခွာစေခံရသော နေရာတစ်ခုအပေါ် ပြင်းထန်သော ချစ်ခင်တွယ်တာမှု ဖြစ်ခဲ့သည်။ တစ်ခုချင်းစီအတွက် ထောက်ခံသော တိကျသော Diction နှင့်တကွ နှစ်ခုစလုံးကို အမည်တပ်ခြင်းသည် တစ်ခုတည်း ရွေးချယ်ခြင်းထက် ပို၍ အမှတ်ရသည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what happened the same week as the second draft was written?",
+            questionMy:
+                "ဒုတိယ မူကြမ်းရေးသားသည့် တစ်ပတ်တည်းတွင် မည်သည့်အရာ ဖြစ်ပျက်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The school board announced budget cuts",
+              "The headteacher won an award",
+              "A new school opened nearby",
+              "The school celebrated its anniversary",
+            ],
+            optionsMy: [
+              "ကျောင်းဘုတ်အဖွဲ့က ဘတ်ဂျက်ဖြတ်တောက်ကြောင်း ထုတ်ပြန်ခဲ့သည်",
+              "ကျောင်းအုပ်ကြီးက ဆုတစ်ခု ရရှိခဲ့သည်",
+              "ကျောင်းအသစ်တစ်ခု အနီးတွင် ဖွင့်ခဲ့သည်",
+              "ကျောင်းက နှစ်ပတ်လည် ကျင်းပခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence introducing the second draft in paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ရှိ ဒုတိယ မူကြမ်းကို မိတ်ဆက်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what did the second draft's short, clipped final sentence achieve, in contrast to the first draft's?",
+            questionMy:
+                "ပထမ မူကြမ်းနှင့် ယှဉ်လျှင် ဒုတိယ မူကြမ်း၏ တို၍ ဖြတ်တောက်ထားသော နောက်ဆုံးဝါကျက မည်သည့်အရာကို အောင်မြင်ခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It landed like a rebuke, where the first draft's final sentence landed like an embrace",
+              "It made the audience laugh",
+              "It was identical in tone to the first draft",
+              "It contained no diction at all",
+            ],
+            optionsMy: [
+              "ပထမ မူကြမ်း၏ နောက်ဆုံးဝါကျ ဖက်ပွေ့ခြင်းလို ကျရောက်ခဲ့ရာတွင် ၎င်းက ပြစ်တင်ဆုံးမမှုတစ်ခုလို ကျရောက်ခဲ့သည်",
+              "ပရိသတ်ကို ရယ်စေခဲ့သည်",
+              "ပထမ မူကြမ်းနှင့် Tone အတူတူပင် ဖြစ်ခဲ့သည်",
+              "Diction လုံးဝ မပါဝင်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 2, which contrasts the two drafts' final sentences directly.",
+            ],
+            hintsMy: [
+              "မူကြမ်းနှစ်ခု၏ နောက်ဆုံးဝါကျများကို တိုက်ရိုက်နှိုင်းယှဉ်ထားသော စာပိုဒ် ၂ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why was naming both the bitter tone and the underlying attachment worth more marks than choosing only one?",
+            questionMy:
+                "ခါးသီးသော Tone နှင့် အခြေခံ ချစ်ခင်တွယ်တာမှု နှစ်ခုစလုံးကို အမည်တပ်ခြင်းသည် တစ်ခုတည်းကိုသာ ရွေးချယ်ခြင်းထက် အဘယ်ကြောင့် ပို၍ အမှတ်ရသနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Because the two readings are not contradictory, and both are supported by specific diction",
+              "Because examiners always prefer longer answers",
+              "Because the bitter reading was completely wrong",
+              "Because the headteacher explicitly said both in her speech",
+            ],
+            optionsMy: [
+              "ဖတ်ရှုနည်းနှစ်ခုသည် ဆန့်ကျင်ဘက် မဟုတ်ဘဲ၊ တစ်ခုချင်းစီကို တိကျသော Diction က ထောက်ခံသောကြောင့်",
+              "စစ်ဆေးသူများသည် အမြဲတမ်း ပိုရှည်သော အဖြေများကို ပိုနှစ်သက်သောကြောင့်",
+              "ခါးသီးသော ဖတ်ရှုနည်းသည် လုံးဝ မှားယွင်းနေသောကြောင့်",
+              "ကျောင်းအုပ်ကြီးက ၎င်း၏ မိန့်ခွန်းတွင် နှစ်ခုလုံးကို အတိအလင်း ပြောခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"He realised the two readings weren't contradictory.\"",
+            ],
+            hintsMy: [
+              "\"ဖတ်ရှုနည်းနှစ်ခုသည် ဆန့်ကျင်ဘက် မဟုတ်ကြောင်း...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Tone and Authorial Attitude",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Tone နှင့် စာရေးသူ၏ သဘောထား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Tone is conveyed chiefly through...",
+          questionMy: "Tone ကို အဓိကအားဖြင့် ...မှတဆင့် ဖော်ပြသည်",
+          optionsEn: [
+            "Word choice (diction) and sentence structure (syntax)",
+            "Font size",
+            "Chapter numbers",
+            "The book's cover design",
+          ],
+          optionsMy: [
+            "စကားလုံး ရွေးချယ်မှု (Diction) နှင့် ဝါကျဖွဲ့စည်းပုံ (Syntax)",
+            "စာလုံးအရွယ်အစား",
+            "အခန်းနံပါတ်များ",
+            "စာအုပ်၏ မျက်နှာဖုံး ဒီဇိုင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A tone shift within a passage should be pinpointed at...",
+          questionMy: "စာပိုဒ်တစ်ခုအတွင်း Tone ပြောင်းလဲသည့် နေရာကို ...၌ တိကျစွာ ဖော်ထုတ်သင့်သည်",
+          optionsEn: [
+            "The specific word or clause where the change begins",
+            "The very first sentence, always",
+            "Nowhere -- shifts cannot be located",
+            "The title only",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲမှု စတင်သည့် တိကျသော စကားလုံး (သို့) Clause",
+            "ပထမဆုံးဝါကျတွင်သာ အမြဲတမ်း",
+            "မည်သည့်နေရာမှမဟုတ် - ပြောင်းလဲမှုကို ရှာမတွေ့နိုင်",
+            "ခေါင်းစဉ်တွင်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two seemingly opposite tones (e.g. bitterness and attachment)...",
+          questionMy: "ကွဲပြားနေဟန်ဖြစ်သော Tone နှစ်ခု (ဥပမာ - ခါးသီးမှုနှင့် ချစ်ခင်တွယ်တာမှု)...",
+          optionsEn: [
+            "Can both be validly identified together if evidence supports each",
+            "Can never both exist in one passage",
+            "Are always identical",
+            "Must be reduced to just one at all costs",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထားက တစ်ခုချင်းစီကို ထောက်ခံလျှင် နှစ်ခုစလုံးကို အတူတူ တန်ဖိုးရှိစွာ ဖော်ထုတ်နိုင်သည်",
+            "စာပိုဒ်တစ်ခုတည်းတွင် ဘယ်တော့မှ တစ်ပြိုင်နက်တည်း မရှိနိုင်ပါ",
+            "အမြဲတမ်း တူညီသည်",
+            "မည်သို့ပင်ဖြစ်စေ တစ်ခုတည်းသို့ လျှော့ချရမည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 1, Week 3: "Distinguishing Fact from Opinion".
+/// Sharpens the critical eye built in Weeks 1-2 into a specific,
+/// exam-relevant skill: telling a verifiable claim apart from a value
+/// judgement, and recognising loaded language and bias even when a
+/// passage presents itself as neutral reporting.
+const CourseWeekDef _y13EngWeek3 = CourseWeekDef(
+  id: "course-y13-eng-w3",
+  weekNumber: 3,
+  titleEn: "Distinguishing Fact from Opinion",
+  titleMy: "Fact နှင့် Opinion ကို ပိုင်းခြားခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w3-d1",
+      dayNumber: 1,
+      titleEn: "Verifiable Claims and Loaded Language",
+      titleMy: "စစ်ဆေးနိုင်သော ပြောဆိုချက်များနှင့် Loaded Language",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A statement counts as a \"fact\" if it is...",
+          questionMy: "ဖော်ပြချက်တစ်ခုကို \"Fact\" ဟု ယူဆရန်...",
+          optionsEn: [
+            "Verifiable by evidence, independent of who is speaking",
+            "Something most people agree with",
+            "Written in a confident tone",
+            "Stated in a newspaper",
+          ],
+          optionsMy: [
+            "ပြောဆိုသူသည် မည်သူဖြစ်စေ သီးခြားအား ဖြင့် သက်သေအထောက်အထားဖြင့် စစ်ဆေးနိုင်ခြင်း",
+            "လူအများစု သဘောတူသော အရာ",
+            "ယုံကြည်စွာ Tone ဖြင့် ရေးသားထားခြင်း",
+            "သတင်းစာတွင် ဖော်ပြထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The key test is verifiability -- can it be checked and confirmed independently, regardless of who says it?",
+          ],
+          hintsMy: [
+            "အဓိက စစ်ဆေးရမည့်အချက်မှာ Verifiability ဖြစ်သည် -- မည်သူပြောသည်ဖြစ်စေ သီးခြားအားဖြင့် စစ်ဆေးအတည်ပြုနိုင်ပါသလား။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The controversial new policy will devastate small businesses.\" The word \"devastate\" is an example of...",
+          questionMy:
+              "\"အငြင်းပွားဖွယ် ပေါ်လစီအသစ်သည် လုပ်ငန်းငယ်များကို ပျက်စီးအောင် ပြုလုပ်မည်။\" \"Devastate\" ဟူသော စကားလုံးသည် ...၏ ဥပမာတစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Loaded language -- an emotionally charged word standing in for a neutral, verifiable claim",
+            "A statistic",
+            "A direct quotation from the policy document",
+            "A neutral, purely factual description",
+          ],
+          optionsMy: [
+            "Loaded Language - ကြားနေပြီး စစ်ဆေးနိုင်သော ပြောဆိုချက်အစား သုံးထားသော စိတ်ခံစားမှုတင်းကျပ်သော စကားလုံး",
+            "စာရင်းအင်းကိန်းဂဏန်း",
+            "ပေါ်လစီစာတမ်းမှ တိုက်ရိုက် ကိုးကားချက်",
+            "ကြားနေပြီး လုံးဝ အချက်အလက်အခြေခံသော ဖော်ပြချက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Devastate\" carries a strong emotional charge that a neutral verb like \"affect\" or \"reduce\" would not.",
+          ],
+          hintsMy: [
+            "\"Devastate\" သည် \"Affect\" (သို့) \"Reduce\" ကဲ့သို့ ကြားနေသော Verb မတိုးအောင် ပြင်းထန်သော စိတ်ခံစားမှု တင်းကျပ်မှုကို သယ်ဆောင်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A passage can present opinions as though they were facts by...",
+          questionMy: "စာပိုဒ်တစ်ခုသည် Opinion များကို Fact များအဖြစ် တင်ပြနိုင်သည့် နည်းလမ်းမှာ...",
+          optionsEn: [
+            "Using confident, unqualified assertions and loaded language without evidence",
+            "Citing multiple independent sources",
+            "Using tentative language like \"it appears that\"",
+            "Presenting statistics with their source clearly labelled",
+          ],
+          optionsMy: [
+            "သက်သေအထောက်အထား မပါဘဲ ယုံကြည်စွာ၊ ဆင်ခြင်မှုမပါသော ဆုံးဖြတ်ချက်များနှင့် Loaded Language ကို သုံးခြင်း",
+            "သီးခြားအရင်းအမြစ်များစွာကို ကိုးကားခြင်း",
+            "\"ထင်ရသည်မှာ\" ကဲ့သို့ ဆင်ခြင်တုံတရားရှိသော ဘာသာစကားကို သုံးခြင်း",
+            "အရင်းအမြစ်ကို ရှင်းလင်းစွာ ဖော်ပြထားသော စာရင်းအင်းများ တင်ပြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Confident phrasing with no evidence and emotionally loaded words are both red flags for opinion disguised as fact.",
+          ],
+          hintsMy: [
+            "သက်သေအထောက်အထား မပါဘဲ ယုံကြည်စွာ ရေးသားမှုနှင့် စိတ်ခံစားမှု တင်းကျပ်သော စကားလုံးများ နှစ်ခုစလုံးသည် Fact ဟန်ဆောင်ထားသော Opinion ၏ သတိပေးလက္ခဏာများ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Fact, Opinion and Bias Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Fact၊ Opinion နှင့် Bias ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w3-dm-1",
+          termEn: "Fact",
+          termMy: "Fact",
+          matchEn: "A claim that can be verified as true or false, independent of who states it",
+          matchMy: "ပြောဆိုသူသည် မည်သူဖြစ်စေ သီးခြားအားဖြင့် မှန်သည် (သို့) မှားသည်ဟု စစ်ဆေးနိုင်သော ပြောဆိုချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w3-dm-2",
+          termEn: "Opinion",
+          termMy: "Opinion",
+          matchEn: "A value judgement or personal belief that cannot be independently verified",
+          matchMy: "သီးခြားအားဖြင့် စစ်ဆေးအတည်ပြု၍ မရနိုင်သော တန်ဖိုးဆုံးဖြတ်ချက် (သို့) ကိုယ်ပိုင်ယုံကြည်ချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w3-dm-3",
+          termEn: "Bias",
+          termMy: "Bias",
+          matchEn: "A leaning toward one side that shapes how information is selected or presented",
+          matchMy: "အချက်အလက်ကို မည်သို့ ရွေးချယ် (သို့) တင်ပြသည်ကို ပုံဖော်ပေးသော တစ်ဖက်စောင်းနင်း သဘောထား",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w3-dm-4",
+          termEn: "Loaded Language",
+          termMy: "Loaded Language",
+          matchEn: "Emotionally charged wording used in place of a neutral, verifiable claim",
+          matchMy: "ကြားနေပြီး စစ်ဆေးနိုင်သော ပြောဆိုချက်အစား သုံးထားသော စိတ်ခံစားမှု တင်းကျပ်သော စကားလုံးများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w3-dm-5",
+          termEn: "Objectivity",
+          termMy: "Objectivity",
+          matchEn: "Presenting information fairly, without letting personal feeling shape it",
+          matchMy: "ကိုယ်ပိုင်ခံစားချက်က ပုံဖော်ခွင့်မပြုဘဲ အချက်အလက်ကို တရားမျှတစွာ တင်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fact or Opinion?",
+      titleMy: "စီစစ်ကြမည် - Fact လား Opinion လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fact", "Opinion"],
+        bucketsMy: ["Fact", "Opinion"],
+        items: [
+          SortingItem(
+            id: "y13eng-w3-sort-1",
+            labelEn: "\"Unemployment fell by 0.4% last quarter, according to official data.\"",
+            labelMy: "\"တရားဝင် ကိန်းဂဏန်းများအရ အလုပ်လက်မဲ့ရာခိုင်နှုန်းသည် ယခင်သုံးလပတ်တွင် ၀.၄% ကျဆင်းခဲ့သည်။\"",
+            correctBucketEn: "Fact",
+            correctBucketMy: "Fact",
+          ),
+          SortingItem(
+            id: "y13eng-w3-sort-2",
+            labelEn: "\"This is clearly the worst decision the council has ever made.\"",
+            labelMy: "\"ဒါဟာ ကောင်စီက ချမှတ်ဖူးသမျှထဲမှာ အဆိုးဆုံး ဆုံးဖြတ်ချက်ဖြစ်ကြောင်း ရှင်းရှင်းလင်းလင်းပါပဲ။\"",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "Opinion",
+          ),
+          SortingItem(
+            id: "y13eng-w3-sort-3",
+            labelEn: "\"The bridge was completed in 2019 at a cost of \$40 million.\"",
+            labelMy: "\"တံတားကို ၂၀၁၉ ခုနှစ်တွင် ဒေါ်လာ ၄၀ သန်း ကုန်ကျစရိတ်ဖြင့် ပြီးစီးခဲ့သည်။\"",
+            correctBucketEn: "Fact",
+            correctBucketMy: "Fact",
+          ),
+          SortingItem(
+            id: "y13eng-w3-sort-4",
+            labelEn: "\"Frankly, no reasonable person could support this reckless proposal.\"",
+            labelMy: "\"ရိုးသားစွာ ပြောရလျှင် ဤသတိကြောင်လက်ခံနိုင်ဖွယ်မရှိသော အဆိုပြုချက်ကို ဆင်ခြင်တုံတရားရှိသူ မည်သူမျှ ထောက်ခံနိုင်လိမ့်မည် မဟုတ်ပါ။\"",
+            correctBucketEn: "Opinion",
+            correctBucketMy: "Opinion",
+          ),
+          SortingItem(
+            id: "y13eng-w3-sort-5",
+            labelEn: "\"The report was published by three independent researchers at the university.\"",
+            labelMy: "\"အစီရင်ခံစာကို တက္ကသိုလ်ရှိ သီးခြားသုတေသီ သုံးဦးက ထုတ်ဝေခဲ့သည်။\"",
+            correctBucketEn: "Fact",
+            correctBucketMy: "Fact",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Headlines, One Story",
+      titleMy: "စာဖတ်ခြင်း - ခေါင်းစဉ်နှစ်ခု၊ ဇာတ်ကြောင်းတစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Headlines, One Story",
+        titleMy: "ခေါင်းစဉ်နှစ်ခု၊ ဇာတ်ကြောင်းတစ်ခု",
+        passageEn:
+            "Su Su's media studies teacher placed two newspaper clippings on the desk, both reporting the same city council vote to close a small local library and replace it with a mobile lending van. The first headline read: \"Council Modernises Library Services with New Mobile Van Scheme.\" The second read: \"Council Guts Beloved Community Library in Cost-Cutting Betrayal.\" Both articles described the identical underlying facts: the vote passed six to three, the physical building would close within four months, and a van visiting weekly would replace it. Su Su's first reaction was to assume one article must simply be lying. Her teacher corrected her gently: neither article invented a false fact. The facts were the same in both. What differed entirely was the framing.\n\nThe first article quoted only council members, calling the change \"forward-thinking\" and \"efficient,\" and never once mentioned any resident's reaction. The second quoted only library regulars, one of whom called the closure \"heartbreaking,\" and never mentioned the council's stated cost projections at all. Neither article contained a demonstrably false fact -- the vote count, the timeline, and the van scheme were consistent and verifiable across both. But each article's selective quotation, loaded language (\"modernises\" versus \"guts,\" \"scheme\" versus \"betrayal\"), and choice of whose voice to include revealed a clear bias, shaping the reader's opinion while presenting itself as straightforward reporting.\n\nSu Su's teacher explained that at A-Level, the examined skill was rarely spotting an outright lie -- outright lies are comparatively rare and easy to catch. The far more common and more valuable skill was separating the verifiable factual core (six-to-three vote, four-month timeline, weekly van) from the opinion dressed as neutral description (\"forward-thinking,\" \"betrayal\"), and then explaining precisely how specific word choices built each article's bias without ever technically lying.",
+        passageMy:
+            "စုစုသည် ၎င်း၏ မီဒီယာလေ့လာမှု ဆရာက စားပွဲပေါ်တွင် သတင်းစာ ဖြတ်ပိုင်းနှစ်ခုကို ချထားခဲ့သည်။ နှစ်ခုစလုံးသည် ဒေသန္တရ စာကြည့်တိုက်ငယ်တစ်ခုကို ပိတ်ပြီး မိုဘိုင်း စာအုပ်ငှားယာဉ်ဖြင့် အစားထိုးမည့် မြို့ကောင်စီ မဲခွဲမှုတစ်ခုကို သတင်းတင်ခဲ့ကြသည်။ ပထမ ခေါင်းစဉ်တွင် \"ကောင်စီက စာကြည့်တိုက်ဝန်ဆောင်မှုကို မိုဘိုင်းယာဉ် အစီအစဉ်အသစ်ဖြင့် ခေတ်မီအောင် ပြုလုပ်\" ဟု ရေးသားထားသည်။ ဒုတိယ ခေါင်းစဉ်တွင် \"ကောင်စီက ကုန်ကျစရိတ် ဖြတ်တောက်မှု သစ္စာဖောက်မှုတွင် ချစ်ခင်ရသော ရပ်ရွာ စာကြည့်တိုက်ကို ဖျက်ဆီး\" ဟု ရေးသားထားသည်။ ဆောင်းပါးနှစ်ခုစလုံးသည် တူညီသော အခြေခံအချက်များကို ဖော်ပြခဲ့သည် - မဲခွဲမှုသည် ခြောက်ချက်ဆန့် သုံးချက်ဖြင့် အတည်ပြုခဲ့ပြီး၊ အဆောက်အအုံကို လေးလအတွင်း ပိတ်ပစ်မည်ဖြစ်ကာ၊ အပတ်စဉ် လာရောက်မည့် ယာဉ်တစ်စီးက အစားထိုးမည် ဖြစ်သည်။ စုစု၏ ပထမတုန့်ပြန်မှုမှာ ဆောင်းပါးတစ်ခုသည် လိမ်ညာနေရမည်ဟု ယူဆခြင်း ဖြစ်ခဲ့သည်။ သူမ၏ ဆရာက သူ့ကို ညင်သာစွာ ပြင်ဆင်ပေးခဲ့သည် - ဆောင်းပါးမည်သည်မှ မမှန်ကန်သော အချက်ကို ဖန်တီးမထားပါ။ အချက်အလက်များသည် နှစ်ခုစလုံးတွင် တူညီခဲ့သည်။ လုံးဝ ကွာခြားနေသည့်အရာမှာ Framing (တင်ပြပုံ) သာ ဖြစ်သည်။\n\nပထမ ဆောင်းပါးသည် ကောင်စီအဖွဲ့ဝင်များကိုသာ ကိုးကားထားပြီး၊ ပြောင်းလဲမှုကို \"ရှေ့ရှုတွေးခေါ်သော\" နှင့် \"ထိရောက်သော\" ဟု ခေါ်ဆိုကာ ရပ်ရွာသူ/သားများ၏ တုံ့ပြန်မှုကို တစ်ကြိမ်တစ်ခါမျှ ဖော်ပြမထားပါ။ ဒုတိယ ဆောင်းပါးသည် စာကြည့်တိုက် ပုံမှန်သုံးစွဲသူများကိုသာ ကိုးကားထားပြီး ၎င်းတို့အနက် တစ်ဦးက ပိတ်ခြင်းကို \"နှလုံးကွဲစရာ\" ဟု ခေါ်ဆိုကာ ကောင်စီ၏ ကုန်ကျစရိတ် ခန့်မှန်းချက်ကို လုံးဝ မဖော်ပြခဲ့ပါ။ ဆောင်းပါး မည်သည်မှ ပြသနိုင်သော မှားယွင်းသည့် အချက်တစ်ခုကို မပါဝင်ခဲ့ပါ - မဲအရေအတွက်၊ အချိန်ဇယားနှင့် ယာဉ်အစီအစဉ်တို့သည် နှစ်ခုစလုံးတွင် တညီတညွတ်တည်းနှင့် စစ်ဆေးနိုင်ခဲ့သည်။ သို့သော် ဆောင်းပါးတစ်ခုချင်းစီ၏ ရွေးချယ်ထားသော ကိုးကားချက်၊ Loaded Language (\"Modernises\" နှင့် \"Guts\"၊ \"Scheme\" နှင့် \"Betrayal\") နှင့် မည်သူ၏ အသံကို ထည့်သွင်းရန် ရွေးချယ်မှုတို့က ရိုးရှင်းသော သတင်းတင်ပြမှုအဖြစ် ဟန်ဆောင်ထားစဉ် စာဖတ်သူ၏ Opinion ကို ပုံဖော်ပေးသော ရှင်းလင်းသော Bias ကို ဖော်ပြနေသည်။\n\nစုစု၏ ဆရာက A-Level တွင် စစ်ဆေးလေ့ရှိသော ကျွမ်းကျင်မှုသည် ရှင်းရှင်းလင်းလင်း လိမ်ညာမှုတစ်ခုကို ရှာဖွေရခြင်း ရှားပါးကြောင်း ရှင်းပြခဲ့သည် - ရှင်းရှင်းလင်းလင်း လိမ်ညာမှုသည် နှိုင်းယှဉ်ရလျှင် ရှားပါးပြီး ဖမ်းရန်လွယ်ကူသည်။ ပို၍ တွေ့ရများပြီး ပို၍ တန်ဖိုးရှိသော ကျွမ်းကျင်မှုမှာ (ခြောက်ချက်ဆန့်သုံးချက် မဲခွဲမှု၊ လေးလ အချိန်ဇယား၊ အပတ်စဉ်ယာဉ်) ကဲ့သို့ စစ်ဆေးနိုင်သော အချက်အလက်ဗဟိုချက်ကို (\"ရှေ့ရှုတွေးခေါ်သော\"၊ \"သစ္စာဖောက်မှု\") ကဲ့သို့ ကြားနေဖော်ပြချက်ဟန်ဆောင်ထားသော Opinion မှ ပိုင်းခြားပြီး၊ တိကျသော စကားလုံး ရွေးချယ်မှုများက ဆောင်းပါးတစ်ခုချင်းစီ၏ Bias ကို နည်းပညာအရ ဘယ်တော့မှ လိမ်ညာခြင်းမရှိဘဲ မည်သို့ တည်ဆောက်ခဲ့သည်ကို အတိအကျ ရှင်းပြနိုင်ခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what was Su Su's teacher's correction to her first reaction?",
+            questionMy:
+                "စုစု၏ ပထမတုန့်ပြန်မှုကို ဆရာက မည်သို့ ပြင်ဆင်ပေးခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Neither article invented a false fact -- the facts were the same, but the framing differed",
+              "One article was completely fabricated",
+              "Both articles were identical in every way",
+              "The council had not actually voted on anything",
+            ],
+            optionsMy: [
+              "ဆောင်းပါးမည်သည်မှ မမှန်ကန်သော အချက်ကို ဖန်တီးမထားပါ - အချက်အလက်များသည် တူညီခဲ့သော်လည်း Framing ကွာခြားခဲ့သည်",
+              "ဆောင်းပါးတစ်ခုသည် လုံးဝ လုပ်ကြံဖန်တီးထားခြင်း ဖြစ်ခဲ့သည်",
+              "ဆောင်းပါးနှစ်ခုစလုံးသည် အရာအားလုံးတွင် တူညီခဲ့သည်",
+              "ကောင်စီသည် မည်သည့်အရာကိုမျှ တကယ်တမ်း မဲခွဲမထားပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final two sentences of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျ နှစ်ခုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, whose voices did the second article quote, and whose did it omit?",
+            questionMy:
+                "ဒုတိယ ဆောင်းပါးက မည်သူ၏ အသံများကို ကိုးကားခဲ့ပြီး မည်သူ၏ အသံကို ချန်ထားခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It quoted only library regulars and omitted the council's cost projections",
+              "It quoted only council members and omitted residents entirely",
+              "It quoted no one at all",
+              "It quoted both sides equally",
+            ],
+            optionsMy: [
+              "စာကြည့်တိုက် ပုံမှန်သုံးစွဲသူများကိုသာ ကိုးကားပြီး ကောင်စီ၏ ကုန်ကျစရိတ် ခန့်မှန်းချက်ကို ချန်ထားခဲ့သည်",
+              "ကောင်စီအဖွဲ့ဝင်များကိုသာ ကိုးကားပြီး ရပ်ရွာသူ/သားများကို လုံးဝ ချန်ထားခဲ့သည်",
+              "မည်သူ့ကိုမျှ လုံးဝ မကိုးကားခဲ့ပါ",
+              "ဘက်နှစ်ဖက်စလုံးကို တန်းတူ ကိုးကားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 2, which describes the second article specifically.",
+            ],
+            hintsMy: [
+              "ဒုတိယ ဆောင်းပါးအား တိကျစွာ ဖော်ပြထားသော စာပိုဒ် ၂ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what is the more common and valuable A-Level skill, compared to spotting an outright lie?",
+            questionMy:
+                "ရှင်းရှင်းလင်းလင်း လိမ်ညာမှုတစ်ခုကို ရှာဖွေခြင်းနှင့် နှိုင်းယှဉ်လျှင် ပို၍ တွေ့ရများပြီး ပို၍ တန်ဖိုးရှိသော A-Level ကျွမ်းကျင်မှုမှာ အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Separating the verifiable factual core from opinion dressed as description, and explaining how word choice built the bias",
+              "Memorising every headline word for word",
+              "Assuming every article is completely honest",
+              "Ignoring word choice and focusing only on the vote count",
+            ],
+            optionsMy: [
+              "စစ်ဆေးနိုင်သော အချက်အလက်ဗဟိုချက်ကို ဖော်ပြချက်ဟန်ဆောင်ထားသော Opinion မှ ပိုင်းခြားပြီး စကားလုံးရွေးချယ်မှုက Bias ကို မည်သို့ တည်ဆောက်ခဲ့သည်ကို ရှင်းပြခြင်း",
+              "ခေါင်းစဉ် တိုင်းကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+              "ဆောင်းပါး တိုင်းသည် လုံးဝ ရိုးသားသည်ဟု ယူဆခြင်း",
+              "စကားလုံး ရွေးချယ်မှုကို လျစ်လျူရှု၍ မဲအရေအတွက်ကိုသာ အာရုံစိုက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Distinguishing Fact from Opinion",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Fact နှင့် Opinion ကို ပိုင်းခြားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A fact is defined chiefly by...",
+          questionMy: "Fact တစ်ခုကို အဓိကအားဖြင့် ...ဖြင့် သတ်မှတ်သည်",
+          optionsEn: [
+            "Being verifiable, independent of who states it",
+            "Sounding confident",
+            "Being widely believed",
+            "Appearing in bold text",
+          ],
+          optionsMy: [
+            "ပြောဆိုသူသည် မည်သူဖြစ်စေ သီးခြားအားဖြင့် စစ်ဆေးနိုင်ခြင်း",
+            "ယုံကြည်စွာ ကြားရခြင်း",
+            "ကျယ်ပြန့်စွာ ယုံကြည်ခံရခြင်း",
+            "စာလုံးထူထဲစွာ ပေါ်နေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Loaded language is best understood as...",
+          questionMy: "Loaded Language ကို အကောင်းဆုံး နားလည်ရလျှင်...",
+          optionsEn: [
+            "Emotionally charged wording used in place of a neutral claim",
+            "A synonym for a footnote",
+            "A grammatically incorrect sentence",
+            "A statistic with no source",
+          ],
+          optionsMy: [
+            "ကြားနေသော ပြောဆိုချက်အစား သုံးထားသော စိတ်ခံစားမှု တင်းကျပ်သော စကားလုံးများ",
+            "မှတ်ချက်၏ တူညီသောစကား",
+            "သဒ္ဒါအရ မှားယွင်းသော ဝါကျ",
+            "အရင်းအမြစ် မပါသော ကိန်းဂဏန်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Two articles reporting the same facts can still show bias through...",
+          questionMy: "တူညီသော အချက်အလက်များကို သတင်းတင်ထားသော ဆောင်းပါးနှစ်ခုသည် ...မှတဆင့် Bias ကို ပြသနိုင်သည်",
+          optionsEn: [
+            "Selective quotation and loaded word choice",
+            "Using the exact same headline",
+            "Being written by the same person",
+            "Reporting no facts at all",
+          ],
+          optionsMy: [
+            "ရွေးချယ်ထားသော ကိုးကားချက်နှင့် Loaded စကားလုံးရွေးချယ်မှု",
+            "ခေါင်းစဉ် အတိအကျတူတူ သုံးခြင်း",
+            "လူတစ်ဦးတည်းက ရေးသားခြင်း",
+            "အချက်အလက် လုံးဝ မဖော်ပြခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 1, Week 4 (boss week): "Summarising Complex
+/// Non-Fiction Passages Accurately". The Term 1 capstone: synthesises
+/// inference (Week 1), tone/attitude (Week 2) and fact-vs-opinion (Week
+/// 3) into the single academic skill of producing an accurate, concise,
+/// own-words summary of a dense non-fiction passage -- selecting genuine
+/// main points, omitting illustrative detail, and never smuggling in
+/// personal opinion.
+const CourseWeekDef _y13EngWeek4 = CourseWeekDef(
+  id: "course-y13-eng-w4",
+  weekNumber: 4,
+  titleEn: "Summarising Complex Non-Fiction Passages Accurately",
+  titleMy: "ရှုပ်ထွေးသော သုတစာစောင်များကို တိကျစွာ အနှစ်ချုပ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w4-d1",
+      dayNumber: 1,
+      titleEn: "Principles of Accurate Summary",
+      titleMy: "တိကျသော အနှစ်ချုပ်၏ အခြေခံသဘောတရားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A strong academic summary of a complex passage should chiefly...",
+          questionMy: "ရှုပ်ထွေးသော စာပိုဒ်တစ်ခု၏ အားကောင်းသော ပညာရေးဆိုင်ရာ အနှစ်ချုပ်တစ်ခုသည် အဓိကအားဖြင့်...",
+          optionsEn: [
+            "Select the genuine main points and express them concisely in the summariser's own words",
+            "Copy the passage's most memorable sentences word for word",
+            "Include every illustrative example the original passage gave",
+            "Add the summariser's own opinion about the topic",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော အဓိက အချက်များကို ရွေးချယ်ပြီး အနှစ်ချုပ် ရေးသူ၏ ကိုယ်ပိုင်စကားများဖြင့် တိုတောင်းစွာ ဖော်ပြခြင်း",
+            "မူရင်းစာပိုဒ်၏ အမှတ်ရဆုံး ဝါကျများကို စကားလုံးအတိုင်း ကူးယူခြင်း",
+            "မူရင်းစာပိုဒ်ပေးထားသော ဥပမာအားလုံးကို ထည့်သွင်းခြင်း",
+            "ဘာသာရပ်အကြောင်း အနှစ်ချုပ်ရေးသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်ကို ထည့်သွင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The two core requirements are selection (main points only) and the summariser's own wording, not the original's.",
+          ],
+          hintsMy: [
+            "အဓိက လိုအပ်ချက်နှစ်ခုမှာ ရွေးချယ်မှု (အဓိကအချက်များသာ) နှင့် အနှစ်ချုပ်ရေးသူ၏ ကိုယ်ပိုင်စကားလုံးများ (မူရင်း၏ မဟုတ်) ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a passage explaining three causes of a historical event, with one paragraph of detailed illustration per cause, a good summary would...",
+          questionMy:
+              "သမိုင်းဆိုင်ရာ ဖြစ်ရပ်တစ်ခု၏ အကြောင်းရင်း သုံးခုကို ရှင်းပြသည့် စာပိုဒ်တစ်ခုတွင် အကြောင်းရင်းတစ်ခုချင်းစီအတွက် အသေးစိတ် ဥပမာစာပိုဒ်တစ်ခုစီ ပါရှိသည်ဆိုပါက၊ ကောင်းမွန်သော အနှစ်ချုပ်တစ်ခုသည်...",
+          optionsEn: [
+            "Name all three causes concisely, without reproducing each paragraph's full illustrative detail",
+            "Reproduce only the first cause and ignore the other two",
+            "Include every illustrative detail from all three paragraphs in full",
+            "Discuss a fourth cause the passage never mentioned",
+          ],
+          optionsMy: [
+            "စာပိုဒ်တစ်ခုချင်းစီ၏ ဥပမာအသေးစိတ်ကို အပြည့်အစုံ ပြန်လည်ဖော်ပြခြင်း မပြုဘဲ အကြောင်းရင်း သုံးခုလုံးကို တိုတောင်းစွာ အမည်တပ်ခြင်း",
+            "ပထမ အကြောင်းရင်းကိုသာ ပြန်ဖော်ပြပြီး အခြားနှစ်ခုကို လျစ်လျူရှုခြင်း",
+            "စာပိုဒ် သုံးခုလုံးမှ ဥပမာအသေးစိတ်တိုင်းကို အပြည့်အစုံ ထည့်သွင်းခြင်း",
+            "စာပိုဒ်တွင် တစ်ကြိမ်တစ်ခါမျှ မဖော်ပြထားသော စတုတ္ထ အကြောင်းရင်းကို ဆွေးနွေးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cover all three main points from the passage, but compress each one's supporting illustration rather than reproducing it.",
+          ],
+          hintsMy: [
+            "စာပိုဒ်ရှိ အဓိကအချက် သုံးခုလုံးကို ဖော်ပြပါ၊ သို့သော် တစ်ခုချင်းစီ၏ ထောက်ခံဥပမာကို ပြန်လည်ဖော်ပြခြင်းအစား ချုံ့ထားပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A candidate writes: \"This shows the policy was clearly a disaster.\" What is the problem with adding this to an otherwise accurate summary?",
+          questionMy:
+              "ဖြေဆိုသူတစ်ဦးက \"ဤအချက်က ပေါ်လစီသည် ကပ်ဆိုးတစ်ခု ရှင်းရှင်းလင်းလင်း ဖြစ်ခဲ့ကြောင်း ပြသသည်\" ဟု ရေးသားသည်။ တိကျသော အနှစ်ချုပ်တစ်ခုသို့ ဤအချက်ကို ထည့်သွင်းခြင်း၏ ပြဿနာမှာ အဘယ်နည်း",
+          optionsEn: [
+            "It inserts the candidate's own opinion, which is not part of an accurate summary of the passage's content",
+            "It is grammatically incorrect",
+            "It is too short to be useful",
+            "It uses too many technical terms",
+          ],
+          optionsMy: [
+            "ဖြေဆိုသူ၏ ကိုယ်ပိုင် Opinion ကို ထည့်သွင်းလိုက်ခြင်းဖြစ်ပြီး ၎င်းသည် စာပိုဒ်၏ အကြောင်းအရာ၏ တိကျသော အနှစ်ချုပ်တစ်ခု အစိတ်အပိုင်း မဟုတ်ပါ",
+            "သဒ္ဒါအရ မှားယွင်းနေသည်",
+            "အသုံးဝင်ရန် အလွန်တိုတောင်းလွန်းသည်",
+            "နည်းပညာအသုံးအနှုန်း များလွန်းသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An accurate summary reports what the passage says, not the summariser's own judgement about it.",
+          ],
+          hintsMy: [
+            "တိကျသော အနှစ်ချုပ်တစ်ခုသည် စာပိုဒ်က ဘာပြောသည်ကို အစီရင်ခံသည်၊ အနှစ်ချုပ်ရေးသူ၏ ကိုယ်ပိုင် ဆုံးဖြတ်ချက်ကို မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Summary and Synthesis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Summary နှင့် Synthesis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w4-dm-1",
+          termEn: "Summary",
+          termMy: "Summary",
+          matchEn: "A concise, own-words restatement of a text's main points",
+          matchMy: "စာသားတစ်ခု၏ အဓိက အချက်များကို ကိုယ်ပိုင်စကားများဖြင့် တိုတောင်းစွာ ပြန်လည်ဖော်ပြချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w4-dm-2",
+          termEn: "Paraphrase",
+          termMy: "Paraphrase",
+          matchEn: "Restating a specific idea in different words, without shortening it",
+          matchMy: "အထူးသဖြင့် တိုတောင်းအောင် မလုပ်ဘဲ အကြံဉာဏ်တစ်ခုကို စကားလုံးကွဲပြားစွာ ပြန်လည်ဖော်ပြခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w4-dm-3",
+          termEn: "Synthesis",
+          termMy: "Synthesis",
+          matchEn: "Combining ideas from more than one source into a single, coherent account",
+          matchMy: "အရင်းအမြစ်တစ်ခုထက်ပို၍မှ အကြံဉာဏ်များကို တစ်ခုတည်း ကိုက်ညီသော ဖော်ပြချက်တစ်ခုအဖြစ် ပေါင်းစည်းခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w4-dm-4",
+          termEn: "Redundancy",
+          termMy: "Redundancy",
+          matchEn: "Unnecessary repetition or detail that adds nothing new to a summary",
+          matchMy: "အနှစ်ချုပ်တစ်ခုတွင် အသစ်တစ်ခုမျှ မထည့်ပေးသော မလိုအပ်သော ထပ်ခါထပ်ခါဖြစ်မှု (သို့) အသေးစိတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w4-dm-5",
+          termEn: "Concision",
+          termMy: "Concision",
+          matchEn: "Expressing an idea in as few words as possible without losing meaning",
+          matchMy: "အဓိပ္ပာယ် မဆုံးရှုံးဘဲ အကြံဉာဏ်တစ်ခုကို ဖြစ်နိုင်သမျှ စကားလုံး အနည်းဆုံးဖြင့် ဖော်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Keep in the Summary or Omit?",
+      titleMy: "စီစစ်ကြမည် - အနှစ်ချုပ်တွင် ထားမလား ချန်လှပ်မလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Keep -- Main Point", "Omit -- Illustrative Detail"],
+        bucketsMy: ["ထားမည် - အဓိက အချက်", "ချန်လှပ်မည် - ဥပမာ အသေးစိတ်"],
+        items: [
+          SortingItem(
+            id: "y13eng-w4-sort-1",
+            labelEn: "\"The city's population grew due to three main factors: jobs, transport links, and housing costs elsewhere.\"",
+            labelMy: "\"မြို့ကြီး၏ လူဦးရေတိုးပွားမှုသည် အဓိက အချက်သုံးခုကြောင့် ဖြစ်သည် - အလုပ်အကိုင်၊ သယ်ယူပို့ဆောင်ရေး ဆက်သွယ်မှုနှင့် တခြားနေရာများ၏ အိမ်ဈေးနှုန်း။\"",
+            correctBucketEn: "Keep -- Main Point",
+            correctBucketMy: "ထားမည် - အဓိက အချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w4-sort-2",
+            labelEn: "\"For example, one resident named Daw Mya moved specifically because the new train line cut her commute from ninety minutes to twenty.\"",
+            labelMy: "\"ဥပမာအားဖြင့် ဒေါ်မြ အမည်ရှိ နေထိုင်သူတစ်ဦးသည် ရထားလမ်းသစ်က သူမ၏ ခရီးချိန်ကို မိနစ် ၉၀ မှ ၂၀ သို့ လျှော့ချပေးသောကြောင့် ရွှေ့ပြောင်းနေထိုင်ခဲ့သည်။\"",
+            correctBucketEn: "Omit -- Illustrative Detail",
+            correctBucketMy: "ချန်လှပ်မည် - ဥပမာ အသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y13eng-w4-sort-3",
+            labelEn: "\"Researchers identified two long-term risks of the proposed dam: soil erosion and reduced fish populations downstream.\"",
+            labelMy: "\"သုတေသီများသည် အဆိုပြု ရေကာတာ၏ ရေရှည် အန္တရာယ် နှစ်ခုကို ဖော်ထုတ်ခဲ့သည် - မြေဆီလွှာ ပါးလွှာမှုနှင့် ရေအောက်ရှိ ငါးဦးရေ လျော့ကျမှု။\"",
+            correctBucketEn: "Keep -- Main Point",
+            correctBucketMy: "ထားမည် - အဓိက အချက်",
+          ),
+          SortingItem(
+            id: "y13eng-w4-sort-4",
+            labelEn: "\"To illustrate, the report describes a single fishing village where catches fell by exactly 34% over five years.\"",
+            labelMy: "\"ဥပမာဖော်ပြရလျှင် အစီရင်ခံစာသည် ငါးဖမ်း ရွာတစ်ရွာတွင် ငါးဖမ်းရမှု ငါးနှစ်အတွင်း ၃၄% အတိအကျ ကျဆင်းခဲ့ကြောင်း ဖော်ပြသည်။\"",
+            correctBucketEn: "Omit -- Illustrative Detail",
+            correctBucketMy: "ချန်လှပ်မည် - ဥပမာ အသေးစိတ်",
+          ),
+          SortingItem(
+            id: "y13eng-w4-sort-5",
+            labelEn: "\"The essay's central argument is that remote work has permanently reshaped urban commercial districts.\"",
+            labelMy: "\"ဆောင်းပါး၏ ဗဟိုချက် ငြင်းခုံချက်မှာ အဝေးမှ အလုပ်လုပ်ခြင်းသည် မြို့ပြ စီးပွားရေး ခရိုင်များကို ထာဝစဉ် ပြန်လည်ပုံဖော်ပေးခဲ့ကြောင်း ဖြစ်သည်။\"",
+            correctBucketEn: "Keep -- Main Point",
+            correctBucketMy: "ထားမည် - အဓိက အချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Water Committee Report",
+      titleMy: "စာဖတ်ခြင်း - ရေရေးရာ ကော်မတီ အစီရင်ခံစာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Water Committee Report",
+        titleMy: "ရေရေးရာ ကော်မတီ အစီရင်ခံစာ",
+        passageEn:
+            "Thiri's final task before the term's assessed summary was a twelve-page committee report on the town's ageing water system, and her teacher warned the class that most students would fail this exercise not by misunderstanding the report, but by writing a \"summary\" that was really just a shortened copy of its introduction. The report, once she read it fully, made three central claims: first, that the pipe network, much of it over sixty years old, lost an estimated 22% of treated water to leaks before it reached any household; second, that a full replacement would cost more than the town's entire annual budget, making a phased ten-year plan the only realistic option; and third, that in the meantime, targeted repairs to the twelve worst-performing sections could recover most of the lost water at a fraction of the cost.\n\nSurrounding these three claims were pages of supporting detail: interviews with three retired engineers, a table listing every pipe segment's installation year, a comparison with two neighbouring towns' water systems, and an extended anecdote about a single burst pipe that had flooded a school basement the previous winter. Thiri's teacher pointed out that a student who summarised the burst-pipe anecdote in detail, while only vaguely gesturing at the 22% loss figure, had the priorities exactly backwards -- the anecdote existed to illustrate the first claim, not to replace it, and a reader of the summary alone should come away knowing the actual scale of the problem, not just a single memorable story about it.\n\nWriting her own summary, Thiri forced herself to state, in her own words, each of the three central claims and nothing else: the network lost roughly a fifth of its water to old pipes; full replacement was unaffordable, so a phased plan was proposed instead; and targeted repairs to the worst sections offered a cheaper interim solution. She left out the engineers' names, the comparison towns, and the flooded basement entirely -- not because they were unimportant to the report as a whole, but because an accurate summary's job was to compress the argument, not to reproduce the evidence used to support it.",
+        passageMy:
+            "သီရိ၏ ဤသက္ကရာဇ်အတွက် အကဲဖြတ်ခံရမည့် အနှစ်ချုပ် မတိုင်မီ နောက်ဆုံးလုပ်ငန်းမှာ မြို့ငယ်၏ အသက်ကြီးလာနေသော ရေစနစ်အကြောင်း စာမျက်နှာ ဆယ့်နှစ်မျက်နှာ ရှိသော ကော်မတီ အစီရင်ခံစာတစ်ခု ဖတ်ရှုရန် ဖြစ်ခဲ့သည်။ ၎င်း၏ ဆရာက ကျောင်းသားအများစုသည် ဤလေ့ကျင့်ခန်းတွင် အစီရင်ခံစာကို နားမလည်၍ ကျရှုံးမည် မဟုတ်ဘဲ၊ ၎င်း၏ နိဒါန်း၏ တိုတောင်းသော မိတ္တူတစ်ခုသာ တကယ်တမ်း ဖြစ်နေသည့် \"အနှစ်ချုပ်\" တစ်ခုကို ရေးသားခြင်းကြောင့် ကျရှုံးလိမ့်မည်ဟု သတိပေးခဲ့သည်။ အစီရင်ခံစာကို အပြည့်အစုံ ဖတ်ပြီးနောက် ၎င်းသည် ဗဟိုချက် ပြောဆိုချက် သုံးချက် ပြုလုပ်ခဲ့ကြောင်း တွေ့ရသည် - ပထမအချက်မှာ အများစုအား အနှစ် ၆၀ ကျော် အသက်ကြီးနေသော ပိုက်လိုင်း ကွန်ရက်သည် မည်သည့် အိမ်ထောင်စုသို့မျှ မရောက်ခင် သန့်စင်ထားသော ရေ ၂၂% ခန့်ကို ယိုစိမ့်ကာ ဆုံးရှုံးနေသည်ဟု ခန့်မှန်းထားခြင်း၊ ဒုတိယအချက်မှာ အပြည့်အစုံ အစားထိုးခြင်းသည် မြို့ငယ်၏ တစ်နှစ်ပတ်လုံး ဘတ်ဂျက်ထက်ပင် ကုန်ကျမည်ဖြစ်၍ အဆင့်ဆင့် ဆယ်နှစ် အစီအစဉ်တစ်ခုသာ တစ်ခုတည်း လက်တွေ့ကျသော ရွေးချယ်စရာ ဖြစ်ခြင်း၊ ထို့ပြင် တတိယအချက်မှာ ဤကြားကာလတွင် လုပ်ဆောင်ချက် အညံ့ဆုံး ဆယ့်နှစ်ခု အပိုင်းအား ရည်ရွယ်ချက်ရှိရှိ ပြင်ဆင်ခြင်းက ကုန်ကျစရိတ် အများစု ပိုမိုနည်းပါးစွာဖြင့် ဆုံးရှုံးနေသော ရေအများစုကို ပြန်လည်ရရှိစေနိုင်ခြင်း ဖြစ်သည်။\n\nဤ ပြောဆိုချက် သုံးချက်ကို ဝန်းရံလျက် ထောက်ခံသည့် အသေးစိတ် စာမျက်နှာများ ရှိခဲ့သည် - အငြိမ်းစားယူထားသော အင်ဂျင်နီယာ သုံးဦးနှင့် အင်တာဗျူးများ၊ ပိုက်လိုင်း အပိုင်းတိုင်း၏ တပ်ဆင်ခဲ့သည့် နှစ်ကို ဖော်ပြသော ဇယားတစ်ခု၊ အိမ်နီးချင်း မြို့ငယ် နှစ်ခု၏ ရေစနစ်များနှင့် နှိုင်းယှဉ်ချက်နှင့် ယခင် ဆောင်းတွင်း ကျောင်းအောက်ခန်းကို ရေလွှမ်းစေခဲ့သော ပိုက်တစ်ချောင်း ပေါက်ကွဲမှုအကြောင်း ရှည်လျားသော ပုံပြင်တစ်ခု။ သီရိ၏ ဆရာက ပိုက်ပေါက်ကွဲမှု ပုံပြင်ကို အသေးစိတ် အနှစ်ချုပ်ရေးသားသော်လည်း ၂၂% ဆုံးရှုံးမှု ကိန်းဂဏန်းကို မှုန်ဝါးစွာသာ ရည်ညွှန်းသည့် ကျောင်းသားသည် ဦးစားပေးမှုကို လုံးဝ ပြောင်းပြန် ရှိနေကြောင်း ထောက်ပြခဲ့သည် - ပုံပြင်သည် ပထမ ပြောဆိုချက်ကို ဖော်ပြရန် ရှိနေခြင်းသာ ဖြစ်ပြီး ၎င်းကို အစားထိုးရန် မဟုတ်ပါ၊ အနှစ်ချုပ်ကိုသာ ဖတ်ရသူသည် ၎င်းအကြောင်း မှတ်မိစရာ ပုံပြင်တစ်ခုတည်းကိုသာ မဟုတ်ဘဲ ပြဿနာ၏ တကယ့် အတိုင်းအတာကို သိရှိရမည် ဖြစ်သည်။\n\nသီရိသည် ၎င်း၏ ကိုယ်ပိုင် အနှစ်ချုပ်ကို ရေးသားသောအခါ ဗဟိုချက် ပြောဆိုချက် သုံးချက်ကိုသာ ၎င်း၏ ကိုယ်ပိုင်စကားများဖြင့် ဖော်ပြရန် ကိုယ့်ကိုယ်ကို အတင်းပြုလုပ်ခဲ့သည် - ကွန်ရက်သည် အဟောင်းပိုက်များကြောင့် ၎င်း၏ ရေ ငါးပုံတစ်ပုံခန့်ကို ဆုံးရှုံးနေခြင်း၊ အပြည့်အစုံ အစားထိုးခြင်းသည် တတ်နိုင်စွမ်း မရှိသောကြောင့် အဆင့်ဆင့် အစီအစဉ်တစ်ခု အဆိုပြုထားခြင်း၊ ထို့ပြင် အညံ့ဆုံးအပိုင်းများအား ရည်ရွယ်ချက်ရှိရှိ ပြင်ဆင်ခြင်းက ပိုမိုစျေးသက်သာသော ကြားကာလ ဖြေရှင်းချက်တစ်ခု ပေးနိုင်ခြင်း တို့ဖြစ်သည်။ သူမသည် အင်ဂျင်နီယာများ၏ အမည်များ၊ နှိုင်းယှဉ် မြို့ငယ်များနှင့် ရေလွှမ်းသွားသော ကျောင်းအောက်ခန်းကို လုံးဝ ချန်လှပ်ခဲ့သည် - ၎င်းတို့သည် အစီရင်ခံစာ တစ်ခုလုံးအတွက် အရေးမကြီးသောကြောင့် မဟုတ်ဘဲ၊ တိကျသော အနှစ်ချုပ်တစ်ခု၏ တာဝန်မှာ ငြင်းခုံချက်ကို ချုံ့ရန် ဖြစ်ပြီး ၎င်းကို ထောက်ခံရန် အသုံးပြုသော သက်သေအထောက်အထားကို ပြန်လည်ဖော်ပြရန် မဟုတ်သောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what were the report's three central claims?",
+            questionMy:
+                "အစီရင်ခံစာ၏ ဗဟိုချက် ပြောဆိုချက် သုံးချက်ကား အဘယ်နည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "22% water loss from old pipes, unaffordable full replacement requiring a phased plan, and targeted repairs as a cheaper interim option",
+              "The town's population, its history, and its budget for schools",
+              "Three engineers' personal biographies",
+              "A comparison of two unrelated towns' weather patterns",
+            ],
+            optionsMy: [
+              "အဟောင်းပိုက်များကြောင့် ရေ ၂၂% ဆုံးရှုံးမှု၊ အဆင့်ဆင့် အစီအစဉ် လိုအပ်စေသော တတ်နိုင်စွမ်းမရှိသည့် အပြည့်အစုံ အစားထိုးမှုနှင့် ပိုမိုစျေးသက်သာသော ကြားကာလ ရွေးချယ်စရာအဖြစ် ရည်ရွယ်ချက်ရှိရှိ ပြင်ဆင်မှု",
+              "မြို့ငယ်၏ လူဦးရေ၊ ၎င်း၏ သမိုင်းနှင့် ကျောင်းများအတွက် ဘတ်ဂျက်",
+              "အင်ဂျင်နီယာ သုံးဦး၏ ကိုယ်ရေးအကျဉ်းချုပ်များ",
+              "မသက်ဆိုင်သော မြို့ငယ်နှစ်ခု၏ ရာသီဥတု ပုံစံ နှိုင်းယှဉ်ချက်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence listing \"first,\" \"second,\" and \"third\" in paragraph 1.",
+            ],
+            hintsMy: [
+              "စာပိုဒ် ၁ ရှိ \"ပထမအချက်\"၊ \"ဒုတိယအချက်\" နှင့် \"တတိယအချက်\" ကို ဖော်ပြထားသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what mistake did the teacher warn against regarding the burst-pipe anecdote?",
+            questionMy:
+                "ပိုက်ပေါက်ကွဲမှု ပုံပြင်နှင့်ပတ်သက်၍ ဆရာက မည်သည့်အမှားကို သတိပေးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Summarising the anecdote in detail while only vaguely mentioning the 22% loss figure it illustrated",
+              "Ignoring the anecdote entirely, even in the full report",
+              "Interviewing the retired engineers a second time",
+              "Comparing the town to too many other towns",
+            ],
+            optionsMy: [
+              "ပုံပြင်က ဖော်ပြထားသော ၂၂% ဆုံးရှုံးမှု ကိန်းဂဏန်းကို မှုန်ဝါးစွာသာ ဖော်ပြပြီး ပုံပြင်ကို အသေးစိတ် အနှစ်ချုပ်ခြင်း",
+              "အပြည့်အစုံ အစီရင်ခံစာတွင်ပင် ပုံပြင်ကို လုံးဝ လျစ်လျူရှုခြင်း",
+              "အငြိမ်းစားယူထားသော အင်ဂျင်နီယာများကို ဒုတိယအကြိမ် အင်တာဗျူးပြုလုပ်ခြင်း",
+              "မြို့ငယ်ကို အခြားမြို့ငယ်များစွာနှင့် နှိုင်းယှဉ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Thiri's teacher pointed out...\"",
+            ],
+            hintsMy: [
+              "\"သီရိ၏ ဆရာက ...ထောက်ပြခဲ့သည်\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did Thiri leave out the engineers' names and the flooded basement from her own summary?",
+            questionMy:
+                "သီရိသည် ၎င်း၏ ကိုယ်ပိုင် အနှစ်ချုပ်မှ အင်ဂျင်နီယာများ၏ အမည်များနှင့် ရေလွှမ်းသွားသော ကျောင်းအောက်ခန်းကို အဘယ်ကြောင့် ချန်လှပ်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A summary's job is to compress the argument, not reproduce the evidence used to support it",
+              "She forgot about them while reading",
+              "The report never actually mentioned them",
+              "Her teacher told her they were false",
+            ],
+            optionsMy: [
+              "အနှစ်ချုပ်တစ်ခု၏ တာဝန်မှာ ငြင်းခုံချက်ကို ချုံ့ရန်ဖြစ်ပြီး ၎င်းကို ထောက်ခံရန် အသုံးပြုသော သက်သေအထောက်အထားကို ပြန်လည်ဖော်ပြရန် မဟုတ်သောကြောင့်",
+              "ဖတ်ရှုနေစဉ် သူမ မေ့သွားခဲ့သောကြောင့်",
+              "အစီရင်ခံစာက ၎င်းတို့ကို လုံးဝ ဖော်ပြခဲ့ခြင်း မရှိသောကြောင့်",
+              "ဆရာက ၎င်းတို့သည် မမှန်ကန်ကြောင်း ပြောခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Summarising Accurately",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - တိကျစွာ အနှစ်ချုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An accurate summary should be written...",
+          questionMy: "တိကျသော အနှစ်ချုပ်တစ်ခုကို ...ရေးသားသင့်သည်",
+          optionsEn: [
+            "In the summariser's own words, covering the genuine main points",
+            "By copying the introduction word for word",
+            "As long as the original passage",
+            "With the summariser's personal opinion included",
+          ],
+          optionsMy: [
+            "စစ်မှန်သော အဓိကအချက်များကို ဖုံးအုပ်လျက် အနှစ်ချုပ်ရေးသူ၏ ကိုယ်ပိုင်စကားများဖြင့်",
+            "နိဒါန်းကို စကားလုံးအတိုင်း ကူးယူခြင်းဖြင့်",
+            "မူရင်းစာပိုဒ်ကဲ့သို့ ရှည်လျားစွာ",
+            "အနှစ်ချုပ်ရေးသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက် ထည့်သွင်းလျက်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Illustrative anecdotes and examples in a source passage should typically be...",
+          questionMy: "အရင်းအမြစ် စာပိုဒ်ရှိ ဥပမာ ပုံပြင်များနှင့် ဥပမာများကို ပုံမှန်အားဖြင့် ...သင့်သည်",
+          optionsEn: [
+            "Compressed or omitted, since the point they illustrate matters more than the anecdote itself",
+            "Reproduced in full detail every time",
+            "Placed at the very start of the summary",
+            "Treated as more important than the main claim",
+          ],
+          optionsMy: [
+            "ဖော်ပြသည့် အချက်သည် ပုံပြင်ကိုယ်တိုင်ထက် ပို၍ အရေးကြီးသောကြောင့် ချုံ့ခြင်း (သို့) ချန်လှပ်ခြင်း",
+            "အချိန်တိုင်း အသေးစိတ် အပြည့်အစုံ ပြန်လည်ဖော်ပြခြင်း",
+            "အနှစ်ချုပ်၏ အစတွင် ချထားခြင်း",
+            "အဓိက ပြောဆိုချက်ထက် ပို၍ အရေးကြီးသည်ဟု သဘောထားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A summary that says \"this shows the policy was a disaster\" has a problem because...",
+          questionMy: "\"ဤအချက်က ပေါ်လစီသည် ကပ်ဆိုးတစ်ခု ဖြစ်ခဲ့ကြောင်း ပြသသည်\" ဟု ဖော်ပြသော အနှစ်ချုပ်တစ်ခု၏ ပြဿနာမှာ...",
+          optionsEn: [
+            "It inserts opinion rather than reporting the passage's content accurately",
+            "It is too short",
+            "It uses no punctuation",
+            "It is written in the wrong language",
+          ],
+          optionsMy: [
+            "စာပိုဒ်၏ အကြောင်းအရာကို တိကျစွာ အစီရင်မခံဘဲ Opinion ကို ထည့်သွင်းလိုက်ခြင်းကြောင့်",
+            "အလွန်တိုတောင်းလွန်းသောကြောင့်",
+            "ရပ်ကွက်သင်္ကေတ လုံးဝ မသုံးထားသောကြောင့်",
+            "မှားယွင်းသော ဘာသာစကားဖြင့် ရေးသားထားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 1: "Advanced Reading Comprehension and
+/// Inference". Covers layered/qualified inference and ambiguity, tone and
+/// authorial attitude, distinguishing verifiable fact from opinion and
+/// recognising bias/loaded language, closing with a Summarising Complex
+/// Non-Fiction Passages capstone week.
+const CourseTermDef year13EnglishTerm1 = CourseTermDef(
+  id: "course-y13-eng-term1",
+  termNumber: 1,
+  titleEn: "Advanced Reading Comprehension and Inference",
+  titleMy: "အဆင့်မြင့် ဖတ်ရှုနားလည်မှုနှင့် Inference",
+  weeks: [_y13EngWeek1, _y13EngWeek2, _y13EngWeek3, _y13EngWeek4],
+  certificateTitleEn: "A-Level English: Advanced Reading Comprehension and Inference",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - အဆင့်မြင့် ဖတ်ရှုနားလည်မှုနှင့် Inference",
+);
+
+// =====================================================================
+// YEAR 13 ENGLISH -- Term 2: "Rhetoric and Persuasive Writing" (Weeks
+// 5-8). Week 5 introduces the classical rhetorical triangle (ethos,
+// pathos, logos); Week 6 names specific rhetorical devices (anaphora,
+// tricolon, rhetorical questions, antithesis); Week 7 applies both to
+// analysing a real persuasive speech/article; Week 8 (boss week) turns
+// analysis into production, with students planning and writing their own
+// persuasive piece.
+// =====================================================================
+
+/// Year 13 English -- Term 2, Week 5: "The Rhetorical Triangle -- Ethos,
+/// Pathos, Logos". Introduces Aristotle's three classical modes of
+/// persuasion as the foundation for the whole term: credibility-based,
+/// emotion-based, and logic-based appeal, and how skilled persuasive
+/// writing typically blends all three rather than relying on just one.
+const CourseWeekDef _y13EngWeek5 = CourseWeekDef(
+  id: "course-y13-eng-w5",
+  weekNumber: 5,
+  titleEn: "The Rhetorical Triangle -- Ethos, Pathos, Logos",
+  titleMy: "Rhetorical Triangle - Ethos, Pathos, Logos",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w5-d1",
+      dayNumber: 1,
+      titleEn: "Three Modes of Persuasion",
+      titleMy: "စည်းရုံးသိမ်းသွင်းမှု နည်းလမ်း သုံးမျိုး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "\"Ethos\" persuades an audience chiefly by appealing to...",
+          questionMy: "\"Ethos\" သည် ပရိသတ်ကို အဓိကအားဖြင့် ...အား ဆွဲဆောင်ခြင်းဖြင့် စည်းရုံးသိမ်းသွင်းသည်",
+          optionsEn: [
+            "The speaker's credibility, character, or authority on the subject",
+            "The audience's fear of consequences",
+            "Statistics and numerical data alone",
+            "The volume of the speaker's voice",
+          ],
+          optionsMy: [
+            "ဘာသာရပ်အပေါ် စကားပြောသူ၏ ယုံကြည်စိတ်ချရမှု၊ ကိုယ်ရည်ကိုယ်သွေး (သို့) အာဏာပိုင်ဆိုင်မှု",
+            "ပရိသတ်၏ ရလဒ်ဆိုးများအပေါ် ကြောက်ရွံ့မှု",
+            "စာရင်းအင်းနှင့် ကိန်းဂဏန်းအချက်အလက်များသာ",
+            "စကားပြောသူ၏ အသံ ပမာဏ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ethos shares a root with \"ethics\" -- it's about the speaker's trustworthy character.",
+          ],
+          hintsMy: [
+            "Ethos သည် \"Ethics\" နှင့် အမြစ်တူသည် -- ၎င်းသည် စကားပြောသူ၏ ယုံကြည်စိတ်ချရသော ကိုယ်ရည်ကိုယ်သွေးအကြောင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Picture a child arriving at school hungry, unable to concentrate, falling behind through no fault of her own.\" This sentence appeals primarily through...",
+          questionMy:
+              "\"ဆာလောင်နေသော၊ အာရုံစူးစိုက်၍ မရနိုင်သော၊ ကိုယ်ပိုင်အမှားမပါဘဲ နောက်ကျနေသော ကလေးမတစ်ဦး ကျောင်းရောက်လာသည်ကို စိတ်ကူးကြည့်ပါ။\" ဤဝါကျသည် အဓိကအားဖြင့် ...မှတဆင့် ဆွဲဆောင်သည်",
+          optionsEn: [
+            "Pathos -- vivid emotional imagery designed to evoke sympathy",
+            "Logos -- a statistical breakdown",
+            "Ethos -- the speaker's professional credentials",
+            "None of the three -- it is purely neutral description",
+          ],
+          optionsMy: [
+            "Pathos - ကရုဏာ ဆွဲဆောင်ရန် ဒီဇိုင်းရေးဆွဲထားသော ထင်ရှားသော စိတ်ခံစားမှု Imagery",
+            "Logos - စာရင်းအင်း ခွဲခြမ်းစိတ်ဖြာချက်",
+            "Ethos - စကားပြောသူ၏ ပညာရေးအရည်အချင်း",
+            "သုံးမျိုးထဲမှ တစ်ခုမျှ မဟုတ်ပါ - လုံးဝ ကြားနေသော ဖော်ပြချက်သာ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This sentence asks the audience to visualise and feel a specific child's suffering -- a hallmark of pathos.",
+          ],
+          hintsMy: [
+            "ဤဝါကျသည် ပရိသတ်အား တိကျသော ကလေးမတစ်ဦး၏ ဒုက္ခကို ရုပ်ပုံဖော်ကာ ခံစားစေရန် တောင်းဆိုသည် -- Pathos ၏ အထူးလက္ခဏာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A speaker who says, \"Three independent studies, spanning fifteen years, all reach the same conclusion,\" is appealing primarily through...",
+          questionMy:
+              "\"အနှစ် ၁၅ နှစ် ကြာမြင့်သော သီးခြားသုတေသနပြုချက် သုံးခုစလုံးသည် တူညီသော ဆုံးဖြတ်ချက်ကို ရရှိသည်\" ဟု ပြောသော စကားပြောသူသည် အဓိကအားဖြင့် ...မှတဆင့် ဆွဲဆောင်နေသည်",
+          optionsEn: [
+            "Logos -- structured, evidence-based reasoning",
+            "Pathos -- an emotional appeal",
+            "Ethos -- the speaker's personal likeability",
+            "None of the three -- it is a rhetorical question",
+          ],
+          optionsMy: [
+            "Logos - တည်ဆောက်ထားသော၊ သက်သေအထောက်အထား အခြေခံသည့် ကျိုးကြောင်းဆင်ခြင်မှု",
+            "Pathos - စိတ်ခံစားမှုဆွဲဆောင်မှု",
+            "Ethos - စကားပြောသူ၏ ကိုယ်ရေးကိုယ်တာ နှစ်သက်ဖွယ်ဖြစ်မှု",
+            "သုံးမျိုးထဲမှ တစ်ခုမျှ မဟုတ်ပါ - ၎င်းသည် Rhetorical Question တစ်ခု ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Citing multiple studies and a specific timespan is a logical, evidence-based appeal, not an emotional or character-based one.",
+          ],
+          hintsMy: [
+            "သုတေသနပြုချက် များစွာနှင့် တိကျသော ကာလကို ကိုးကားခြင်းသည် သက်သေအထောက်အထား အခြေခံသည့် ကျိုးကြောင်းဆင်ခြင်မှု ဖြစ်ပြီး ခံစားမှု (သို့) ကိုယ်ရည်ကိုယ်သွေး အခြေခံသည့်အရာ မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rhetorical Appeal Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Rhetorical Appeal ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w5-dm-1",
+          termEn: "Ethos",
+          termMy: "Ethos",
+          matchEn: "Persuasion through the speaker's credibility, character, or authority",
+          matchMy: "စကားပြောသူ၏ ယုံကြည်စိတ်ချရမှု၊ ကိုယ်ရည်ကိုယ်သွေး (သို့) အာဏာပိုင်ဆိုင်မှုမှတဆင့် စည်းရုံးသိမ်းသွင်းခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w5-dm-2",
+          termEn: "Pathos",
+          termMy: "Pathos",
+          matchEn: "Persuasion through appeal to the audience's emotions",
+          matchMy: "ပရိသတ်၏ စိတ်ခံစားမှုများကို ဆွဲဆောင်ခြင်းမှတဆင့် စည်းရုံးသိမ်းသွင်းခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w5-dm-3",
+          termEn: "Logos",
+          termMy: "Logos",
+          matchEn: "Persuasion through logic, evidence, and structured reasoning",
+          matchMy: "ယုတ္တိ၊ သက်သေအထောက်အထားနှင့် တည်ဆောက်ထားသော ကျိုးကြောင်းဆင်ခြင်မှုမှတဆင့် စည်းရုံးသိမ်းသွင်းခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w5-dm-4",
+          termEn: "Rhetoric",
+          termMy: "Rhetoric",
+          matchEn: "The art of effective and persuasive speaking or writing",
+          matchMy: "ထိရောက်ပြီး စည်းရုံးသိမ်းသွင်းနိုင်သော ပြောဆိုမှု (သို့) ရေးသားမှု၏ အနုပညာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w5-dm-5",
+          termEn: "Appeal",
+          termMy: "Appeal",
+          matchEn: "A specific technique aimed at persuading an audience toward a viewpoint",
+          matchMy: "ပရိသတ်အား သဘောထားတစ်ခုသို့ စည်းရုံးသိမ်းသွင်းရန် ဦးတည်ထားသော တိကျသော နည်းစနစ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Logos or Pathos?",
+      titleMy: "စီစစ်ကြမည် - Logos လား Pathos လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Logos (Logical Appeal)", "Pathos (Emotional Appeal)"],
+        bucketsMy: ["Logos (ယုတ္တိဆွဲဆောင်မှု)", "Pathos (စိတ်ခံစားမှုဆွဲဆောင်မှု)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w5-sort-1",
+            labelEn: "\"Crime rates fell by 18% in the two years after the programme launched.\"",
+            labelMy: "\"အစီအစဉ် စတင်ပြီး နှစ်နှစ်အတွင်း ရာဇဝတ်မှုနှုန်း ၁၈% ကျဆင်းခဲ့သည်။\"",
+            correctBucketEn: "Logos (Logical Appeal)",
+            correctBucketMy: "Logos (ယုတ္တိဆွဲဆောင်မှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w5-sort-2",
+            labelEn: "\"Imagine your own grandmother, alone, waiting for a phone call that never comes.\"",
+            labelMy: "\"ဘယ်တော့မှ လာမည့်ဟန် မရှိသော ဖုန်းခေါ်ဆိုမှုကို စောင့်နေသော၊ တစ်ယောက်တည်း ရှိနေသော သင့်ကိုယ်ပိုင် အဘွားကို စိတ်ကူးကြည့်ပါ။\"",
+            correctBucketEn: "Pathos (Emotional Appeal)",
+            correctBucketMy: "Pathos (စိတ်ခံစားမှုဆွဲဆောင်မှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w5-sort-3",
+            labelEn: "\"The data, drawn from a sample of ten thousand households, shows a clear and consistent trend.\"",
+            labelMy: "\"အိမ်ထောင်စု တစ်သောင်းမှ ရယူထားသော ဒေတာသည် ရှင်းလင်းပြီး တသမတ်တည်း ဖြစ်သော ခေတ်ရေစီးကို ပြသသည်။\"",
+            correctBucketEn: "Logos (Logical Appeal)",
+            correctBucketMy: "Logos (ယုတ္တိဆွဲဆောင်မှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w5-sort-4",
+            labelEn: "\"Every parent who has ever watched a sick child suffer knows this fear.\"",
+            labelMy: "\"နာမကျန်းဖြစ်နေသော ကလေးတစ်ဦး ဒုက္ခခံစားနေရသည်ကို တစ်ခါမျှ ကြည့်ဖူးခဲ့သော မိဘတိုင်းသည် ဤကြောက်ရွံ့မှုကို သိကြသည်။\"",
+            correctBucketEn: "Pathos (Emotional Appeal)",
+            correctBucketMy: "Pathos (စိတ်ခံစားမှုဆွဲဆောင်မှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w5-sort-5",
+            labelEn: "\"If we compare cost per outcome across all five trial sites, one method clearly performs best.\"",
+            labelMy: "\"စမ်းသပ်မှု နေရာငါးခုလုံးတွင် ရလဒ်တစ်ခုချင်းစီ၏ ကုန်ကျစရိတ်ကို နှိုင်းယှဉ်ကြည့်လျှင် နည်းလမ်းတစ်ခုက ရှင်းရှင်းလင်းလင်း အကောင်းဆုံး ဆောင်ရွက်နိုင်ကြောင်း တွေ့ရသည်။\"",
+            correctBucketEn: "Logos (Logical Appeal)",
+            correctBucketMy: "Logos (ယုတ္တိဆွဲဆောင်မှု)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Fundraising Speech",
+      titleMy: "စာဖတ်ခြင်း - ငွေရှာဖွေရေး မိန့်ခွန်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Fundraising Speech",
+        titleMy: "ငွေရှာဖွေရေး မိန့်ခွန်း",
+        passageEn:
+            "Zin Ko's teacher played a recording of a charity director's five-minute fundraising speech and asked the class to identify, minute by minute, which rhetorical appeal was dominant. The director opened by stating she had personally run the clinic's nursing ward for eleven years before becoming director, and that every number she was about to share came from records she had reviewed herself, line by line. Zin Ko recognised this immediately: the director was establishing ethos before saying anything persuasive at all, ensuring the audience trusted her as a source before trying to move them.\n\nTwo minutes in, the speech shifted sharply. The director described a single patient, a boy of nine, arriving at the clinic at midnight, his mother having walked for three hours because no other clinic was open. She paused before saying his name, then described the exact moment his fever finally broke at dawn. Zin Ko noted the shift immediately -- specific, vivid, sensory detail, designed to make the audience feel the boy's suffering and his mother's exhaustion as though they had witnessed it themselves. This was pathos, deployed only after ethos had already been secured.\n\nIn the speech's final ninety seconds, the tone changed again. The director cited exact figures: forty-two thousand patients treated last year, a 94% recovery rate for the specific condition the boy had suffered from, and a cost of just eleven dollars per patient treated. Zin Ko's teacher pointed out that this closing logos was doing something specific the earlier two minutes could not: it gave the audience, now emotionally moved and already trusting the speaker, a concrete, rational justification for the donation they were now inclined to make. The three appeals hadn't competed with each other -- they had been sequenced deliberately, each preparing the ground for the next.",
+        passageMy:
+            "ဇင်ကိုး၏ ဆရာသည် ပရဟိတအဖွဲ့ ညွှန်ကြားရေးမှူး၏ ငါးမိနစ်ကြာ ငွေရှာဖွေရေး မိန့်ခွန်း အသံဖမ်းယူချက်ကို ဖွင့်ပေးပြီး၊ မိနစ်တစ်မိနစ်ချင်းစီအလိုက် မည်သည့် Rhetorical Appeal က အားကြီးနေသည်ကို ဖော်ထုတ်ရန် အတန်းအား တောင်းဆိုခဲ့သည်။ ညွှန်ကြားရေးမှူးသည် ညွှန်ကြားရေးမှူး မဖြစ်မီ ဆေးရုံငယ်၏ သူနာပြုဌာနကို ကိုယ်တိုင် အနှစ် ၁၁ နှစ် တာဝန်ယူခဲ့ကြောင်းနှင့် ၎င်းမျှဝေတော့မည့် ကိန်းဂဏန်းတိုင်းသည် ၎င်းကိုယ်တိုင် တစ်ကြောင်းချင်း ပြန်လည်စစ်ဆေးခဲ့သော မှတ်တမ်းများမှ ရရှိထားကြောင်း ပြောကြားခြင်းဖြင့် စတင်ခဲ့သည်။ ဇင်ကိုးသည် ဤအချက်ကို ချက်ချင်း မှတ်မိခဲ့သည် - ညွှန်ကြားရေးမှူးသည် စည်းရုံးသိမ်းသွင်းဖွယ် တစ်စုံတစ်ရာ မပြောခင် Ethos ကို တည်ဆောက်နေခြင်း ဖြစ်ပြီး၊ ပရိသတ်အား ရွှေ့လျားစေရန် ကြိုးစားမည့်မီ ၎င်းအား အရင်းအမြစ်တစ်ခုအဖြစ် ယုံကြည်စေရန် သေချာစေခဲ့သည်။\n\nနှစ်မိနစ်ကြာသောအခါ မိန့်ခွန်းသည် ပြင်းထန်စွာ ပြောင်းလဲသွားခဲ့သည်။ ညွှန်ကြားရေးမှူးသည် အသက်ကိုးနှစ်ရှိ လူနာတစ်ဦး၊ အခြား ဆေးရုံငယ်ဘယ်တစ်ခုမျှ မဖွင့်ထားသောကြောင့် ၎င်း၏ မိခင်က သုံးနာရီကြာ လမ်းလျှောက်ခဲ့ရသည့်နောက် သန်းခေါင်ယံတွင် ဆေးရုံငယ်သို့ ရောက်ရှိလာသော ဇာတ်ကြောင်းကို ဖော်ပြခဲ့သည်။ သူ၏ နာမည်ကို မပြောမီ ခဏရပ်နားခဲ့ပြီး ၎င်း၏ ဖျားနာမှု နံနက်ချမ်းစောင်းတွင် နောက်ဆုံး ပျောက်ကင်းသွားသည့် တိကျသော အခိုက်အတန့်ကို ဖော်ပြခဲ့သည်။ ဇင်ကိုးသည် ဤပြောင်းလဲမှုကို ချက်ချင်း မှတ်မိခဲ့သည် - တိကျပြီး ထင်ရှားသော၊ ခံစားချက် အသေးစိတ်ဖြင့် ပရိသတ်အား ကိုယ်တိုင် တွေ့မြင်ခဲ့သကဲ့သို့ ကလေးငယ်၏ ဒုက္ခနှင့် သူ့မိခင်၏ ပင်ပန်းနွမ်းနယ်မှုကို ခံစားစေရန် ဒီဇိုင်းရေးဆွဲထားသည်။ ၎င်းသည် Ethos ကို ရှေးရှုသေချာအောင် ပြုလုပ်ပြီးမှသာ ပြေးလွှင့်ခဲ့သော Pathos ဖြစ်သည်။\n\nမိန့်ခွန်း၏ နောက်ဆုံး စက္ကန့် ၉၀ တွင် Tone သည် ထပ်မံ ပြောင်းလဲသွားခဲ့သည်။ ညွှန်ကြားရေးမှူးသည် တိကျသော ကိန်းဂဏန်းများကို ကိုးကားခဲ့သည် - ယခင်နှစ် ကုသခံခဲ့ရသော လူနာ လေးသောင်း နှစ်ထောင်၊ ကလေးငယ် ခံစားခဲ့ရသော ရောဂါအတွက် ၉၄% သက်သာနှုန်းနှင့် လူနာတစ်ဦးလျှင် ဒေါ်လာ ၁၁ ဒေါ်လာသာ ကုန်ကျခြင်း။ ဇင်ကိုး၏ ဆရာသည် ဤ ပိတ်သိမ်းသော Logos သည် အစောပိုင်း နှစ်မိနစ်က မလုပ်နိုင်ခဲ့သည့် တစ်စုံတစ်ရာကို လုပ်ဆောင်နေကြောင်း ထောက်ပြခဲ့သည် - ၎င်းသည် ယခုအခါ စိတ်ခံစားမှု ရွေ့လျားပြီး စကားပြောသူကို ယုံကြည်နေပြီဖြစ်သော ပရိသတ်အား ယခု ပြုလုပ်လိုသော ငွေလှူဒါန်းမှုအတွက် တိကျသော၊ ယုတ္တိကျသော အကြောင်းပြချက်တစ်ခု ပေးခဲ့သည်။ Appeal သုံးမျိုးသည် တစ်ခုနှင့်တစ်ခု မယှဉ်ပြိုင်ခဲ့ကြပါ - ၎င်းတို့သည် တစ်ခုနောက်တစ်ခု အခြေအနေပြင်ဆင်ပေးလျက် ရည်ရွယ်ချက်ရှိရှိ အစီအစဉ် ချထားခဲ့ခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, how did the director establish ethos before saying anything persuasive?",
+            questionMy:
+                "စည်းရုံးသိမ်းသွင်းဖွယ် တစ်စုံတစ်ရာ မပြောခင် ညွှန်ကြားရေးမှူးသည် Ethos ကို မည်သို့ တည်ဆောက်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "By stating she had run the clinic's nursing ward for eleven years and personally reviewed every figure",
+              "By showing a photograph of the clinic",
+              "By playing background music",
+              "By quoting a famous historical figure",
+            ],
+            optionsMy: [
+              "ဆေးရုံငယ်၏ သူနာပြုဌာနကို အနှစ် ၁၁ နှစ် တာဝန်ယူခဲ့ပြီး ကိန်းဂဏန်းတိုင်းကို ကိုယ်တိုင် ပြန်လည်စစ်ဆေးခဲ့ကြောင်း ပြောကြားခြင်းဖြင့်",
+              "ဆေးရုံငယ်၏ ဓာတ်ပုံကို ပြသခြင်းဖြင့်",
+              "နောက်ခံ ဂီတ ဖွင့်ပေးခြင်းဖြင့်",
+              "နာမည်ကြီး သမိုင်းဝင်ပုဂ္ဂိုလ်တစ်ဦးကို ကိုးကားခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the first two sentences of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ ပထမ ဝါကျ နှစ်ကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what specific technique made the boy's story an example of pathos?",
+            questionMy:
+                "ကလေးငယ်၏ ဇာတ်ကြောင်းကို Pathos ၏ ဥပမာတစ်ခု ဖြစ်စေသော တိကျသော နည်းစနစ်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Specific, vivid, sensory detail designed to make the audience feel the suffering as though they witnessed it",
+              "A list of clinic opening hours",
+              "A comparison with another country's healthcare system",
+              "A discussion of the clinic's annual budget",
+            ],
+            optionsMy: [
+              "ပရိသတ်အား ကိုယ်တိုင်တွေ့မြင်ခဲ့သကဲ့သို့ ဒုက္ခကို ခံစားစေရန် ဒီဇိုင်းရေးဆွဲထားသော တိကျပြီး ထင်ရှားသော၊ ခံစားချက် အသေးစိတ်",
+              "ဆေးရုံငယ် ဖွင့်ချိန် စာရင်း",
+              "အခြားနိုင်ငံ၏ ကျန်းမာရေးစနစ်နှင့် နှိုင်းယှဉ်ချက်",
+              "ဆေးရုံငယ်၏ နှစ်ပတ်လည်ဘတ်ဂျက်နှင့်ပတ်သက်သော ဆွေးနွေးမှု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Zin Ko noted the shift immediately...\"",
+            ],
+            hintsMy: [
+              "\"ဇင်ကိုးသည် ဤပြောင်းလဲမှုကို ချက်ချင်း...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what did the closing logos achieve that the earlier two minutes could not?",
+            questionMy:
+                "ပိတ်သိမ်းသော Logos သည် အစောပိုင်း နှစ်မိနစ်က မလုပ်နိုင်ခဲ့သည့် မည်သည့်အရာကို လုပ်ဆောင်နိုင်ခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It gave the now-moved, trusting audience a concrete, rational justification for donating",
+              "It repeated the boy's story a second time",
+              "It undermined the director's credibility",
+              "It introduced a completely new, unrelated topic",
+            ],
+            optionsMy: [
+              "ယခု ရွေ့လျားပြီး ယုံကြည်နေသော ပရိသတ်အား ငွေလှူဒါန်းရန် တိကျသော၊ ယုတ္တိကျသော အကြောင်းပြချက်တစ်ခု ပေးခဲ့သည်",
+              "ကလေးငယ်၏ ဇာတ်ကြောင်းကို ဒုတိယအကြိမ် ထပ်ပြောခဲ့သည်",
+              "ညွှန်ကြားရေးမှူး၏ ယုံကြည်စိတ်ချရမှုကို ထိခိုက်စေခဲ့သည်",
+              "လုံးဝ မသက်ဆိုင်သော ခေါင်းစဉ်အသစ်တစ်ခုကို မိတ်ဆက်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Zin Ko's teacher pointed out...\"",
+            ],
+            hintsMy: [
+              "\"ဇင်ကိုး၏ ဆရာသည် ...ထောက်ပြခဲ့သည်\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Ethos, Pathos, Logos",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Ethos, Pathos, Logos",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Ethos appeals to an audience through...",
+          questionMy: "Ethos သည် ပရိသတ်ကို ...မှတဆင့် ဆွဲဆောင်သည်",
+          optionsEn: [
+            "The speaker's credibility and character",
+            "Statistics alone",
+            "Vivid emotional imagery",
+            "Sentence length",
+          ],
+          optionsMy: [
+            "စကားပြောသူ၏ ယုံကြည်စိတ်ချရမှုနှင့် ကိုယ်ရည်ကိုယ်သွေး",
+            "စာရင်းအင်းသာ",
+            "ထင်ရှားသော စိတ်ခံစားမှု Imagery",
+            "ဝါကျအရှည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Pathos appeals to an audience through...",
+          questionMy: "Pathos သည် ပရိသတ်ကို ...မှတဆင့် ဆွဲဆောင်သည်",
+          optionsEn: [
+            "Emotion",
+            "Logical structure alone",
+            "The speaker's job title",
+            "Footnotes",
+          ],
+          optionsMy: [
+            "စိတ်ခံစားမှု",
+            "ယုတ္တိ တည်ဆောက်ပုံသာ",
+            "စကားပြောသူ၏ ရာထူးအမည်",
+            "မှတ်ချက်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Skilled persuasive speeches often...",
+          questionMy: "ကျွမ်းကျင်သော စည်းရုံးသိမ်းသွင်းရေး မိန့်ခွန်းများသည် အများအားဖြင့်...",
+          optionsEn: [
+            "Sequence ethos, pathos, and logos deliberately, each preparing for the next",
+            "Use only one of the three appeals, never mixing them",
+            "Avoid all three appeals entirely",
+            "Rely solely on the loudest possible delivery",
+          ],
+          optionsMy: [
+            "Ethos, Pathos နှင့် Logos ကို ရည်ရွယ်ချက်ရှိရှိ အစီအစဉ်ချ၍ တစ်ခုနောက်တစ်ခု အခြေအနေပြင်ဆင်ပေးသည်",
+            "သုံးမျိုးထဲမှ တစ်ခုသာ သုံးပြီး ဘယ်တော့မှ ရောနှောခြင်းမပြု",
+            "သုံးမျိုးလုံးကို လုံးဝ ရှောင်ကြဉ်သည်",
+            "အကျယ်ဆုံး အသံဖြင့်သာ ပြောဆိုမှုအပေါ် အားထားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 2, Week 6: "Rhetorical Devices". Names four
+/// specific, exam-relevant techniques -- anaphora, tricolon, rhetorical
+/// questions, and antithesis -- that skilled persuasive writers use to
+/// give ethos/pathos/logos appeals (Week 5) their memorable, structured
+/// shape.
+const CourseWeekDef _y13EngWeek6 = CourseWeekDef(
+  id: "course-y13-eng-w6",
+  weekNumber: 6,
+  titleEn: "Rhetorical Devices",
+  titleMy: "Rhetorical Devices (စည်းရုံးရေးနည်းပညာများ)",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w6-d1",
+      dayNumber: 1,
+      titleEn: "Naming the Devices",
+      titleMy: "နည်းပညာများကို အမည်တပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "\"We will not waver. We will not retreat. We will not surrender.\" This repeated sentence opening is an example of...",
+          questionMy:
+              "\"ကျွန်ုပ်တို့ တုန်လှုပ်လိမ့်မည် မဟုတ်ပါ။ ကျွန်ုပ်တို့ ဆုတ်ခွာလိမ့်မည် မဟုတ်ပါ။ ကျွန်ုပ်တို့ လက်နက်ချလိမ့်မည် မဟုတ်ပါ။\" ဤ ထပ်ခါထပ်ခါ ဝါကျအစသည် ...၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Anaphora -- repetition of a word or phrase at the start of successive clauses",
+            "Antithesis -- a contrast between opposite ideas",
+            "A rhetorical question",
+            "A statistical claim",
+          ],
+          optionsMy: [
+            "Anaphora - ဆက်တိုက် Clause များ၏ အစတွင် စကားလုံး (သို့) စကားစုကို ထပ်ခါထပ်ခါ သုံးခြင်း",
+            "Antithesis - ဆန့်ကျင်ဘက် အကြံဉာဏ်များ ကြားရှိ ဆန့်ကျင်မှု",
+            "Rhetorical Question တစ်ခု",
+            "စာရင်းအင်း ပြောဆိုချက်တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Anaphora\" comes from Greek meaning \"a carrying back\" -- the same phrase carried back to the start of each clause.",
+          ],
+          hintsMy: [
+            "\"Anaphora\" သည် \"နောက်သို့ သယ်ဆောင်ခြင်း\" ဟု အနက်ရသော ဂရိစကားလုံးမှ လာသည် -- Clause တစ်ခုစီ၏ အစသို့ တူညီသော စကားစုကို ပြန်လည် သယ်ဆောင်လာခြင်း။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Government of the people, by the people, for the people.\" This three-part structure is best named...",
+          questionMy:
+              "\"ပြည်သူများ၏၊ ပြည်သူများအားဖြင့်၊ ပြည်သူများအတွက် အစိုးရ။\" ဤ သုံးပိုင်း ဖွဲ့စည်းပုံကို အကောင်းဆုံး အမည်ပေးရလျှင်...",
+          optionsEn: [
+            "A tricolon -- three parallel elements building to a climax",
+            "A single antithesis",
+            "A rhetorical question",
+            "An unrelated list with no structure",
+          ],
+          optionsMy: [
+            "Tricolon - အထွတ်အထိပ်သို့ တည်ဆောက်ပေးသော ဆက်စပ်နေသော ဒြပ်စင် သုံးခု",
+            "Antithesis တစ်ခုတည်း",
+            "Rhetorical Question တစ်ခု",
+            "ဖွဲ့စည်းပုံ လုံးဝ မရှိသော မသက်ဆိုင်သော စာရင်းတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Tri-\" means three -- count the parallel phrases and notice how the third often lands with the most weight.",
+          ],
+          hintsMy: [
+            "\"Tri-\" ဆိုသည်မှာ သုံးဟု အဓိပ္ပာယ်ရသည် -- ဆက်စပ်နေသော စကားစုများကို ရေတွက်ပြီး တတိယမြောက်တစ်ခုသည် အများဆုံး အလေးထားမှု ကျရောက်လေ့ရှိသည်ကို သတိပြုပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"Is this truly the future we want for our children?\" is best classified as...",
+          questionMy:
+              "\"ဒါက ကျွန်ုပ်တို့ရဲ့ ကလေးများအတွက် ကျွန်ုပ်တို့ လိုချင်တဲ့ အနာဂတ်ပါလားဗျာ။\" ကို အကောင်းဆုံး ခွဲခြားရလျှင်...",
+          optionsEn: [
+            "A rhetorical question -- posed to make a point, not to genuinely request information",
+            "A tricolon",
+            "A statistic",
+            "An example of antithesis",
+          ],
+          optionsMy: [
+            "Rhetorical Question - အချက်အလက် စစ်မှန်စွာ တောင်းဆိုရန်မဟုတ်ဘဲ အချက်တစ်ခုကို ပြသရန် မေးထားခြင်း",
+            "Tricolon တစ်ခု",
+            "စာရင်းအင်း တစ်ခု",
+            "Antithesis ၏ ဥပမာတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The speaker doesn't actually expect an answer -- the question itself is the persuasive move.",
+          ],
+          hintsMy: [
+            "စကားပြောသူသည် အဖြေတစ်ခုကို တကယ် မမျှော်လင့်ပါ -- မေးခွန်း ကိုယ်တိုင်ကသာ စည်းရုံးသိမ်းသွင်းသည့် လှုပ်ရှားမှု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rhetorical Devices and Definitions",
+      titleMy: "တွဲစပ်ကြမည် - Rhetorical Devices နှင့် အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w6-dm-1",
+          termEn: "Anaphora",
+          termMy: "Anaphora",
+          matchEn: "Repetition of a word or phrase at the start of successive clauses",
+          matchMy: "ဆက်တိုက် Clause များ၏ အစတွင် စကားလုံး (သို့) စကားစုကို ထပ်ခါထပ်ခါ သုံးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w6-dm-2",
+          termEn: "Tricolon",
+          termMy: "Tricolon",
+          matchEn: "Three parallel words, phrases, or clauses, often building to a climax",
+          matchMy: "အထွတ်အထိပ်သို့ များသောအားဖြင့် တည်ဆောက်ပေးသော ဆက်စပ်နေသော စကားလုံး၊ စကားစု (သို့) Clause သုံးခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w6-dm-3",
+          termEn: "Rhetorical Question",
+          termMy: "Rhetorical Question",
+          matchEn: "A question posed for persuasive effect, not to genuinely request an answer",
+          matchMy: "အဖြေကို စစ်မှန်စွာ တောင်းဆိုရန်မဟုတ်ဘဲ စည်းရုံးသိမ်းသွင်းသည့် သက်ရောက်မှုအတွက် မေးထားသော မေးခွန်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w6-dm-4",
+          termEn: "Antithesis",
+          termMy: "Antithesis",
+          matchEn: "Two contrasting ideas placed side by side in balanced structure for effect",
+          matchMy: "သက်ရောက်မှုတစ်ခုအတွက် ညီမျှသော ဖွဲ့စည်းပုံဖြင့် ဆန့်ကျင်ဘက် အကြံဉာဏ်နှစ်ခုကို ဘေးချင်းယှဉ် ချထားခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w6-dm-5",
+          termEn: "Hyperbole",
+          termMy: "Hyperbole",
+          matchEn: "Deliberate, obvious exaggeration used for persuasive or emotional effect",
+          matchMy: "စည်းရုံးသိမ်းသွင်းရန် (သို့) စိတ်ခံစားမှု သက်ရောက်မှုအတွက် သုံးထားသော ရည်ရွယ်ချက်ရှိရှိ ထင်ရှားသော လွန်ကဲစွာ ဖော်ပြခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Anaphora or Antithesis?",
+      titleMy: "စီစစ်ကြမည် - Anaphora လား Antithesis လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Anaphora (Repeated Opening)", "Antithesis (Balanced Contrast)"],
+        bucketsMy: ["Anaphora (ထပ်ခါ ဝါကျအစ)", "Antithesis (ညီမျှသော ဆန့်ကျင်မှု)"],
+        items: [
+          SortingItem(
+            id: "y13eng-w6-sort-1",
+            labelEn: "\"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.\"",
+            labelMy: "\"ကျွန်ုပ်တို့ ကမ်းခြေများတွင် တိုက်ခိုက်ပါမည်၊ ကျွန်ုပ်တို့ ဆင်းသက်ရာနေရာများတွင် တိုက်ခိုက်ပါမည်၊ ကျွန်ုပ်တို့ လယ်ကွင်းများတွင် တိုက်ခိုက်ပါမည်။\"",
+            correctBucketEn: "Anaphora (Repeated Opening)",
+            correctBucketMy: "Anaphora (ထပ်ခါ ဝါကျအစ)",
+          ),
+          SortingItem(
+            id: "y13eng-w6-sort-2",
+            labelEn: "\"That's one small step for man, one giant leap for mankind.\"",
+            labelMy: "\"ဒါဟာ လူသားတစ်ဦးအတွက် ခြေလှမ်းတစ်လှမ်း၊ လူသားမျိုးနွယ်အတွက် ခုန်ကူးမှုတစ်ခုကြီးပါ။\"",
+            correctBucketEn: "Antithesis (Balanced Contrast)",
+            correctBucketMy: "Antithesis (ညီမျှသော ဆန့်ကျင်မှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w6-sort-3",
+            labelEn: "\"Ask not what your country can do for you -- ask what you can do for your country.\"",
+            labelMy: "\"သင့်နိုင်ငံက သင့်အတွက် ဘာလုပ်ပေးနိုင်သလဲလို့ မမေးပါနဲ့ - သင်က သင့်နိုင်ငံအတွက် ဘာလုပ်ပေးနိုင်သလဲလို့ မေးပါ။\"",
+            correctBucketEn: "Antithesis (Balanced Contrast)",
+            correctBucketMy: "Antithesis (ညီမျှသော ဆန့်ကျင်မှု)",
+          ),
+          SortingItem(
+            id: "y13eng-w6-sort-4",
+            labelEn: "\"Every child deserves a chance. Every family deserves a chance. Every community deserves a chance.\"",
+            labelMy: "\"ကလေးတိုင်းသည် အခွင့်အလမ်း တစ်ခု ခံစားထိုက်သည်။ မိသားစုတိုင်းသည် အခွင့်အလမ်း တစ်ခု ခံစားထိုက်သည်။ အသိုင်းအဝိုင်းတိုင်းသည် အခွင့်အလမ်း တစ်ခု ခံစားထိုက်သည်။\"",
+            correctBucketEn: "Anaphora (Repeated Opening)",
+            correctBucketMy: "Anaphora (ထပ်ခါ ဝါကျအစ)",
+          ),
+          SortingItem(
+            id: "y13eng-w6-sort-5",
+            labelEn: "\"We rise together, or we fall alone.\"",
+            labelMy: "\"ကျွန်ုပ်တို့ အတူတကွ တက်လှမ်းကြသည် သို့မဟုတ် တစ်ယောက်တည်း ကျဆုံးကြသည်။\"",
+            correctBucketEn: "Antithesis (Balanced Contrast)",
+            correctBucketMy: "Antithesis (ညီမျှသော ဆန့်ကျင်မှု)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Annotating the Graduation Address",
+      titleMy: "စာဖတ်ခြင်း - ဘွဲ့နှင်းသဘင် မိန့်ခွန်းကို မှတ်ချက်ချခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Annotating the Graduation Address",
+        titleMy: "ဘွဲ့နှင်းသဘင် မိန့်ခွန်းကို မှတ်ချက်ချခြင်း",
+        passageEn:
+            "Hla Hla's teacher handed out a graduation address delivered by a former student who had returned to give the school's closing speech, and asked the class to annotate it for rhetorical devices before discussing its effect. The address opened: \"You came here as children. You leave here as thinkers. You will go from here as leaders.\" Hla Hla immediately underlined the repeated \"You... here as...\" structure and labelled it anaphora, noting in the margin that the repetition built momentum across the three clauses, with each one raising the stakes -- children, then thinkers, then leaders.\n\nA few lines later, she found: \"Is failure truly the end, or is it simply the beginning we were too afraid to recognise?\" She labelled this a rhetorical question, noting that the speaker plainly wasn't asking the graduating class to shout out an answer -- the question was structured to lead the audience toward a specific, pre-decided conclusion. Immediately after, the speech offered: \"We feared the wrong things and treasured the wrong outcomes.\" Hla Hla paused here, unsure at first, before her teacher pointed out the balanced contrast between \"feared\" and \"treasured,\" both paired with \"the wrong\" -- a clean example of antithesis, using grammatical symmetry to sharpen the contrast between two related failures.\n\nThe speech's closing line brought two devices together: \"Not the safest choice, not the easiest choice, but the right choice.\" Hla Hla recognised the tricolon structure immediately -- three parallel elements, each beginning with \"the... choice\" -- but her teacher pushed her to notice something more specific: the first two elements were negated (\"not the safest,\" \"not the easiest\"), setting up the third to land with disproportionate force precisely because it broke the pattern of negation. This, her teacher explained, was why analysing a device by name was only the first step; the higher-mark skill was explaining exactly how its specific placement and structure produced its persuasive effect on that particular audience, at that particular moment.",
+        passageMy:
+            "လှလှ၏ ဆရာသည် ကျောင်းသို့ ပြန်လာပြီး ကျောင်း၏ ပိတ်သိမ်းမိန့်ခွန်းကို ပေးခဲ့သော ယခင် ကျောင်းသားတစ်ဦးက ပေးခဲ့သော ဘွဲ့နှင်းသဘင် မိန့်ခွန်းကို ဝေငှပြီး၊ ၎င်း၏ သက်ရောက်မှုအကြောင်း ဆွေးနွေးမီ Rhetorical Devices များအတွက် မှတ်ချက်ချရန် အတန်းအား တောင်းဆိုခဲ့သည်။ မိန့်ခွန်းသည် ဤသို့ စတင်ခဲ့သည် - \"သင်တို့ ဒီကို ကလေးများအဖြစ် ရောက်ရှိလာခဲ့သည်။ သင်တို့ ဒီကနေ တွေးခေါ်သူများအဖြစ် ထွက်ခွာသွားမည်။ သင်တို့ ဒီကနေ ခေါင်းဆောင်များအဖြစ် ထွက်ခွာသွားမည်။\" လှလှသည် ထပ်ခါ သုံးထားသော \"You... here as...\" ဖွဲ့စည်းပုံကို ချက်ချင်း မျဉ်းသားပြီး Anaphora ဟု အမှတ်တံဆိပ်တပ်ကာ ထပ်ခါသုံးထားခြင်းသည် Clause သုံးခု ကူးဖြတ်ရင်း စွမ်းအားကို တည်ဆောက်ပေးကြောင်း၊ တစ်ခုချင်းစီက ကလေး၊ ထို့နောက် တွေးခေါ်သူ၊ ထို့နောက် ခေါင်းဆောင် ဟု အန္တရာယ်ကို တိုးမြှင့်ပေးကြောင်း အနားစွန်းတွင် မှတ်ချက်ချခဲ့သည်။\n\nစာကြောင်း အနည်းငယ် ကြာသောအခါ သူမသည် \"ကျရှုံးမှုသည် အမှန်တကယ် အဆုံးလား၊ သို့မဟုတ် ကျွန်ုပ်တို့ အသိအမှတ်ပြုရန် အလွန်ကြောက်ရွံ့နေခဲ့သော အစသက်သက်လား\" ကို တွေ့ခဲ့သည်။ သူမသည် ဤအချက်ကို Rhetorical Question ဟု အမှတ်တံဆိပ်တပ်ကာ စကားပြောသူသည် ဘွဲ့ရကျောင်းသားများအား အဖြေကို အော်ဟစ်ရန် တောင်းဆိုနေခြင်း ရှင်းရှင်းလင်းလင်း မဟုတ်ကြောင်း၊ မေးခွန်းသည် ပရိသတ်အား တိကျသော၊ ကြိုတင်ဆုံးဖြတ်ထားသော နိဂုံးတစ်ခုသို့ ဦးတည်စေရန် ဖွဲ့စည်းထားခြင်း ဖြစ်ကြောင်း မှတ်ချက်ချခဲ့သည်။ ချက်ချင်းပင် မိန့်ခွန်းက \"ကျွန်ုပ်တို့သည် မှားယွင်းသော အရာများကို ကြောက်ရွံ့ခဲ့ပြီး မှားယွင်းသော ရလဒ်များကို တန်ဖိုးထားခဲ့ကြသည်\" ဟု ပေးခဲ့သည်။ လှလှသည် ဤနေရာတွင် ခေတ္တရပ်နားခဲ့ပြီး၊ ဦးစွာ မသေချာခဲ့သော်လည်း သူ၏ ဆရာက \"Feared\" နှင့် \"Treasured\" ကြားရှိ ညီမျှသော ဆန့်ကျင်မှု၊ နှစ်ခုစလုံးက \"The Wrong\" နှင့် တွဲထားခြင်းကို ထောက်ပြခဲ့သည် - ဆက်စပ်နေသော ကျရှုံးမှုနှစ်ခု ကြားရှိ ဆန့်ကျင်မှုကို ချွန်စွာ ပြုလုပ်ရန် သဒ္ဒါဆိုင်ရာ ညီမျှမှုကို အသုံးပြုထားသော Antithesis ၏ သန့်ရှင်းသော ဥပမာတစ်ခု ဖြစ်သည်။\n\nမိန့်ခွန်း၏ ပိတ်သိမ်းစာကြောင်းသည် နည်းပညာနှစ်ခုကို အတူတကွ ယူဆောင်လာခဲ့သည် - \"အန္တရာယ်အနည်းဆုံး ရွေးချယ်မှု မဟုတ်၊ အလွယ်ဆုံး ရွေးချယ်မှု မဟုတ်၊ သို့သော် မှန်ကန်သော ရွေးချယ်မှု။\" လှလှသည် Tricolon ဖွဲ့စည်းပုံကို ချက်ချင်း မှတ်မိခဲ့သည် - \"The... Choice\" ဖြင့် တစ်ခုချင်းစီ စတင်ထားသော ဆက်စပ်နေသော ဒြပ်စင် သုံးခု - သို့သော် သူ၏ ဆရာက ပို၍ တိကျသော အရာတစ်ခုကို သတိပြုမိစေရန် တွန်းအားပေးခဲ့သည် - ပထမ ဒြပ်စင်နှစ်ခုကို ငြင်းပယ်ထားခဲ့သည် (\"အန္တရာယ်အနည်းဆုံး မဟုတ်\"၊ \"အလွယ်ဆုံး မဟုတ်\") ဤသည်က တတိယမြောက်ကို ငြင်းပယ်မှု ပုံစံကို ချိုးဖျက်လိုက်သောကြောင့် အတိုင်းအတာ မမျှတသော အားဖြင့် ကျရောက်စေရန် ပြင်ဆင်ပေးခဲ့သည်။ ဤအချက်ကို သူ၏ ဆရာက ရှင်းပြခဲ့သည် - နည်းပညာတစ်ခုကို အမည်ဖြင့် ခွဲခြမ်းစိတ်ဖြာခြင်းသည် ပထမ အဆင့်သာ ဖြစ်သည်၊ ပို၍ အမှတ်ရသော ကျွမ်းကျင်မှုမှာ ၎င်း၏ တိကျသော နေရာချထားမှုနှင့် ဖွဲ့စည်းပုံသည် ထိုသီးသန့် ပရိသတ်အပေါ် ထိုသီးသန့် အခိုက်အတန့်တွင် ၎င်း၏ စည်းရုံးသိမ်းသွင်းသည့် သက်ရောက်မှုကို မည်သို့ တိကျစွာ ဖြစ်ပေါ်စေခဲ့သည်ကို ရှင်းပြနိုင်ခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what did Hla Hla note about the effect of the opening's repeated structure?",
+            questionMy:
+                "အစ၏ ထပ်ခါသုံးထားသော ဖွဲ့စည်းပုံ သက်ရောက်မှုအကြောင်း လှလှ မည်သို့ မှတ်ချက်ချခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It built momentum across the three clauses, raising the stakes each time",
+              "It confused the audience completely",
+              "It had no effect on the speech at all",
+              "It repeated exactly the same word three times with no variation",
+            ],
+            optionsMy: [
+              "Clause သုံးခု ကူးဖြတ်ရင်း စွမ်းအားကို တည်ဆောက်ပေးပြီး အကြိမ်တိုင်း အန္တရာယ်ကို တိုးမြှင့်ပေးခဲ့သည်",
+              "ပရိသတ်ကို လုံးဝ ရှုပ်ထွေးစေခဲ့သည်",
+              "မိန့်ခွန်းအပေါ် ဘာသက်ရောက်မှုမျှ လုံးဝ မရှိခဲ့ပါ",
+              "ကွဲပြားမှု လုံးဝ မပါဘဲ တူညီသော စကားလုံးတစ်ခုတည်းကို သုံးကြိမ် ထပ်ခါသုံးခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, what made \"feared\" and \"treasured\" an example of antithesis?",
+            questionMy:
+                "\"Feared\" နှင့် \"Treasured\" ကို Antithesis ၏ ဥပမာတစ်ခု ဖြစ်စေသော အချက်မှာ အဘယ်နည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The balanced, symmetrical contrast between them, both paired with \"the wrong\"",
+              "They were spelled identically",
+              "They appeared in different paragraphs",
+              "They were both spoken in a whisper",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံး \"The Wrong\" နှင့် တွဲထားသော ၎င်းတို့ကြား ညီမျှသော၊ အချိုးကျ ဆန့်ကျင်မှု",
+              "စာလုံးပေါင်း တူညီစွာ ရေးထားခဲ့ခြင်း",
+              "မတူညီသော စာပိုဒ်များတွင် ပေါ်ပါသည်",
+              "နှစ်ခုစလုံးကို တီးတိုးအသံဖြင့် ပြောကြားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence where the teacher points out the pairing.",
+            ],
+            hintsMy: ["ဆရာက တွဲစပ်မှုကို ထောက်ပြသော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what was the \"higher-mark skill\" the teacher pushed Hla Hla toward?",
+            questionMy:
+                "ဆရာက လှလှအား တွန်းအားပေးခဲ့သော \"ပို၍ အမှတ်ရသော ကျွမ်းကျင်မှု\" ကား အဘယ်နည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Explaining exactly how a device's placement and structure produced its persuasive effect on that audience",
+              "Simply naming each device correctly",
+              "Memorising the entire speech word for word",
+              "Counting the total number of sentences in the speech",
+            ],
+            optionsMy: [
+              "နည်းပညာတစ်ခု၏ နေရာချထားမှုနှင့် ဖွဲ့စည်းပုံသည် ထိုပရိသတ်အပေါ် ၎င်း၏ စည်းရုံးသိမ်းသွင်းသည့် သက်ရောက်မှုကို မည်သို့ တိကျစွာ ဖြစ်ပေါ်စေခဲ့သည်ကို ရှင်းပြခြင်း",
+              "နည်းပညာတစ်ခုချင်းစီကို မှန်ကန်စွာ အမည်တပ်ရုံသာ",
+              "မိန့်ခွန်းတစ်ခုလုံးကို စကားလုံးအတိုင်း အလွတ်ကျက်ခြင်း",
+              "မိန့်ခွန်းရှိ စုစုပေါင်း ဝါကျအရေအတွက်ကို ရေတွက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Rhetorical Devices",
+      titleMy: "ဆဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Rhetorical Devices",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Anaphora is defined as...",
+          questionMy: "Anaphora ကို ...ဟု သတ်မှတ်သည်",
+          optionsEn: [
+            "Repetition of a word or phrase at the start of successive clauses",
+            "A single unrepeated statement",
+            "A footnote citation",
+            "A statistic with no context",
+          ],
+          optionsMy: [
+            "ဆက်တိုက် Clause များ၏ အစတွင် စကားလုံး (သို့) စကားစုကို ထပ်ခါထပ်ခါ သုံးခြင်း",
+            "မထပ်ခါသော ဖော်ပြချက် တစ်ခုတည်း",
+            "မှတ်ချက် ကိုးကားချက်",
+            "အကြောင်းအရာ မပါသော စာရင်းအင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A tricolon is best identified by...",
+          questionMy: "Tricolon ကို အကောင်းဆုံး ဖော်ထုတ်ရလျှင်...",
+          optionsEn: [
+            "Three parallel elements, often building to a climax",
+            "Exactly two contrasting ideas",
+            "A single rhetorical question",
+            "Four unrelated clauses",
+          ],
+          optionsMy: [
+            "အထွတ်အထိပ်သို့ များသောအားဖြင့် တည်ဆောက်ပေးသော ဆက်စပ်နေသော ဒြပ်စင် သုံးခု",
+            "ဆန့်ကျင်ဘက် အကြံဉာဏ် အတိအကျ နှစ်ခု",
+            "Rhetorical Question တစ်ခုတည်း",
+            "မသက်ဆိုင်သော Clause လေးခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Naming a rhetorical device by itself is worth fewer marks than...",
+          questionMy: "Rhetorical Device တစ်ခုကို ကိုယ်တိုင် အမည်တပ်ခြင်းသည် ...ထက် အမှတ်နည်းသည်",
+          optionsEn: [
+            "Explaining how its specific placement and structure produced a persuasive effect",
+            "Writing the device's name in capital letters",
+            "Underlining the device three times",
+            "Skipping the analysis entirely",
+          ],
+          optionsMy: [
+            "၎င်း၏ တိကျသော နေရာချထားမှုနှင့် ဖွဲ့စည်းပုံသည် စည်းရုံးသိမ်းသွင်းသည့် သက်ရောက်မှုကို မည်သို့ ဖြစ်ပေါ်စေခဲ့သည်ကို ရှင်းပြခြင်း",
+            "Device ၏ အမည်ကို စာလုံးကြီးဖြင့် ရေးခြင်း",
+            "Device ကို သုံးကြိမ် မျဉ်းသားခြင်း",
+            "ခွဲခြမ်းစိတ်ဖြာမှုကို လုံးဝ ကျော်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 2, Week 7: "Analysing a Persuasive Speech or
+/// Article". Applies the rhetorical triangle (Week 5) and named devices
+/// (Week 6) to the exam skill of full-text analysis: identifying
+/// audience and purpose, structuring an analytical comment around
+/// device-quote-effect, and distinguishing genuine analysis from mere
+/// feature-spotting.
+const CourseWeekDef _y13EngWeek7 = CourseWeekDef(
+  id: "course-y13-eng-w7",
+  weekNumber: 7,
+  titleEn: "Analysing a Persuasive Speech or Article",
+  titleMy: "စည်းရုံးရေး မိန့်ခွန်း (သို့) ဆောင်းပါးကို ခွဲခြမ်းစိတ်ဖြာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w7-d1",
+      dayNumber: 1,
+      titleEn: "Audience, Purpose, and Analytical Structure",
+      titleMy: "ပရိသတ်၊ ရည်ရွယ်ချက်နှင့် ခွဲခြမ်းစိတ်ဖြာမှု ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Before analysing any persuasive text, a candidate should first establish...",
+          questionMy: "စည်းရုံးရေး စာသားတစ်ခုကို ခွဲခြမ်းစိတ်ဖြာမီ ဖြေဆိုသူတစ်ဦးသည် ဦးစွာ ...ကို တည်ထောင်သင့်သည်",
+          optionsEn: [
+            "Who the intended audience is and what the text's specific purpose is",
+            "The exact font used in the printed version",
+            "The total word count",
+            "The publisher's address",
+          ],
+          optionsMy: [
+            "ရည်ရွယ်ထားသော ပရိသတ်သည် မည်သူဖြစ်ကြောင်းနှင့် စာသား၏ တိကျသော ရည်ရွယ်ချက်",
+            "ပုံနှိပ်ထားသော ပုံစံတွင် သုံးထားသော တိကျသည့် Font",
+            "စုစုပေါင်း စကားလုံး အရေအတွက်",
+            "ထုတ်ဝေသူ၏ လိပ်စာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A device's effect depends entirely on who is meant to hear it and why -- start there.",
+          ],
+          hintsMy: [
+            "Device တစ်ခု၏ သက်ရောက်မှုသည် မည်သူကြားစေရန် ရည်ရွယ်ထားသည်နှင့် အဘယ်ကြောင့်ရည်ရွယ်ထားသည်ဟူသော အချက်ပေါ် လုံးလုံးမှီခိုနေသည် -- ထိုနေရာတွင် စတင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A well-structured analytical paragraph about a rhetorical device should move through...",
+          questionMy: "Rhetorical Device တစ်ခုအကြောင်း ကောင်းစွာ တည်ဆောက်ထားသော ခွဲခြမ်းစိတ်ဖြာသည့် စာပိုဒ်တစ်ခုသည် ...မှတဆင့် ရွေ့လျားသင့်သည်",
+          optionsEn: [
+            "Identifying the device, quoting the exact evidence, then explaining its specific effect on the audience",
+            "Quoting the entire passage, then stopping",
+            "Naming the device only, with no quotation or explanation",
+            "Explaining the effect first, before identifying any device",
+          ],
+          optionsMy: [
+            "Device ကို ဖော်ထုတ်ခြင်း၊ တိကျသော သက်သေအထောက်အထားကို ကိုးကားခြင်း၊ ထို့နောက် ပရိသတ်အပေါ် ၎င်း၏ တိကျသော သက်ရောက်မှုကို ရှင်းပြခြင်း",
+            "စာပိုဒ်တစ်ခုလုံးကို ကိုးကားပြီး ရပ်တန့်ခြင်း",
+            "ကိုးကားချက် (သို့) ရှင်းပြချက် မပါဘဲ Device ကိုသာ အမည်တပ်ခြင်း",
+            "Device တစ်ခုကို မဖော်ထုတ်မီ သက်ရောက်မှုကို ဦးစွာ ရှင်းပြခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the classic \"device -- quote -- effect\" structure examiners look for.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ စစ်ဆေးသူများ ရှာဖွေသော ရိုးရာ \"Device -- Quote -- Effect\" ဖွဲ့စည်းပုံ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "\"The writer uses a tricolon.\" On its own, without further comment, this sentence is an example of...",
+          questionMy: "\"စာရေးသူသည် Tricolon ကို အသုံးပြုသည်။\" ဤဝါကျ ကိုယ်တိုင်တည်း၊ နောက်ထပ် မှတ်ချက် မပါဘဲ ဆိုလျှင် ...၏ ဥပမာ ဖြစ်သည်",
+          optionsEn: [
+            "Feature-spotting -- naming a device without analysing its effect, which earns limited marks",
+            "A complete, fully-developed analytical point",
+            "A rhetorical question",
+            "An example of antithesis",
+          ],
+          optionsMy: [
+            "Feature-Spotting - ၎င်း၏ သက်ရောက်မှုကို ခွဲခြမ်းစိတ်ဖြာခြင်းမပြုဘဲ Device ကိုသာ အမည်တပ်ခြင်း ဖြစ်ပြီး အကန့်အသတ်ရှိသော အမှတ်သာ ရရှိသည်",
+            "ပြီးပြည့်စုံစွာ ဖွံ့ဖြိုးပြီးသား ခွဲခြမ်းစိတ်ဖြာသည့် အချက်တစ်ခု",
+            "Rhetorical Question တစ်ခု",
+            "Antithesis ၏ ဥပမာတစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Naming a device is only step one of the device-quote-effect structure -- this sentence stops there.",
+          ],
+          hintsMy: [
+            "Device ကို အမည်တပ်ခြင်းသည် Device-Quote-Effect ဖွဲ့စည်းပုံ၏ ပထမအဆင့်သာ ဖြစ်သည် -- ဤဝါကျသည် ထိုနေရာတွင် ရပ်တန့်နေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Analytical Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ခွဲခြမ်းစိတ်ဖြာသည့် ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w7-dm-1",
+          termEn: "Audience",
+          termMy: "Audience",
+          matchEn: "The specific group of people a persuasive text is designed to reach and move",
+          matchMy: "စည်းရုံးရေး စာသားတစ်ခု ရောက်ရှိရန်နှင့် စိတ်ခံစားစေရန် ဒီဇိုင်းရေးဆွဲထားသော တိကျသော လူအုပ်စု",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w7-dm-2",
+          termEn: "Purpose",
+          termMy: "Purpose",
+          matchEn: "The specific outcome or response a writer wants from their audience",
+          matchMy: "စာရေးသူ ၎င်းတို့ ပရိသတ်ထံမှ လိုချင်သော တိကျသော ရလဒ် (သို့) တုံ့ပြန်ချက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w7-dm-3",
+          termEn: "Counter-Argument",
+          termMy: "Counter-Argument",
+          matchEn: "An opposing viewpoint a writer raises, often in order to dismantle it",
+          matchMy: "စာရေးသူ ဖျက်ဆီးရန် ရည်ရွယ်၍ များသောအားဖြင့် ထောင်ပေးသော ဆန့်ကျင်ဘက် အမြင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w7-dm-4",
+          termEn: "Concession",
+          termMy: "Concession",
+          matchEn: "Acknowledging a valid point on the opposing side before countering it",
+          matchMy: "ဆန့်ကျင်ဘက်၏ တန်ဖိုးရှိသော အချက်ကို ချေဖျက်မီ အသိအမှတ်ပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w7-dm-5",
+          termEn: "Feature-Spotting",
+          termMy: "Feature-Spotting",
+          matchEn: "Naming a device without explaining the specific effect it produces",
+          matchMy: "ဖြစ်ပေါ်စေသော တိကျသော သက်ရောက်မှုကို ရှင်းပြခြင်းမပြုဘဲ Device ကိုသာ အမည်တပ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Analysis?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာမှုလား အားနည်းသော ခွဲခြမ်းစိတ်ဖြာမှုလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong Analysis", "Weak (Feature-Spotting) Analysis"],
+        bucketsMy: ["ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာမှု", "အားနည်းသော (Feature-Spotting) ခွဲခြမ်းစိတ်ဖြာမှု"],
+        items: [
+          SortingItem(
+            id: "y13eng-w7-sort-1",
+            labelEn: "\"The writer uses a rhetorical question, which pressures the reader to silently agree rather than genuinely consider the alternative.\"",
+            labelMy: "\"စာရေးသူသည် Rhetorical Question ကို အသုံးပြုပြီး ၎င်းသည် ဖတ်ရှုသူအား အခြားရွေးချယ်စရာကို စစ်မှန်စွာ စဉ်းစားစေမည့်အစား တိတ်တဆိတ် သဘောတူစေရန် ဖိအားပေးသည်။\"",
+            correctBucketEn: "Strong Analysis",
+            correctBucketMy: "ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာမှု",
+          ),
+          SortingItem(
+            id: "y13eng-w7-sort-2",
+            labelEn: "\"There is a tricolon in the second paragraph.\"",
+            labelMy: "\"ဒုတိယ စာပိုဒ်တွင် Tricolon တစ်ခု ရှိသည်။\"",
+            correctBucketEn: "Weak (Feature-Spotting) Analysis",
+            correctBucketMy: "အားနည်းသော (Feature-Spotting) ခွဲခြမ်းစိတ်ဖြာမှု",
+          ),
+          SortingItem(
+            id: "y13eng-w7-sort-3",
+            labelEn: "\"By opening with a personal anecdote, the writer builds ethos before the reader has any reason to doubt her.\"",
+            labelMy: "\"ကိုယ်ပိုင် ပုံပြင်တစ်ခုဖြင့် စတင်ခြင်းက ဖတ်ရှုသူ ၎င်းကို သံသယဝင်ရန် အကြောင်းရင်း တစ်စုံတစ်ရာ မရှိမီ Ethos ကို တည်ဆောက်ပေးသည်။\"",
+            correctBucketEn: "Strong Analysis",
+            correctBucketMy: "ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာမှု",
+          ),
+          SortingItem(
+            id: "y13eng-w7-sort-4",
+            labelEn: "\"The passage contains anaphora and antithesis.\"",
+            labelMy: "\"စာပိုဒ်တွင် Anaphora နှင့် Antithesis ပါဝင်သည်။\"",
+            correctBucketEn: "Weak (Feature-Spotting) Analysis",
+            correctBucketMy: "အားနည်းသော (Feature-Spotting) ခွဲခြမ်းစိတ်ဖြာမှု",
+          ),
+          SortingItem(
+            id: "y13eng-w7-sort-5",
+            labelEn: "\"The statistic is placed immediately after the emotional anecdote, so the reader's sympathy transfers onto what would otherwise be a dry figure.\"",
+            labelMy: "\"ကိန်းဂဏန်းကို စိတ်ခံစားမှုပါသော ပုံပြင်ပြီးနောက် ချက်ချင်း ချထားခြင်းက ဖတ်ရှုသူ၏ ကရုဏာကို အခြားနည်းဖြင့် သောကြောင်း ကိန်းဂဏန်းတစ်ခုပေါ်သို့ လွှဲပြောင်းပေးသည်။\"",
+            correctBucketEn: "Strong Analysis",
+            correctBucketMy: "ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာမှု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Water Conservation Article",
+      titleMy: "စာဖတ်ခြင်း - ရေ ချွေတာရေး ဆောင်းပါး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Water Conservation Article",
+        titleMy: "ရေ ချွေတာရေး ဆောင်းပါး",
+        passageEn:
+            "Htet Aung's homework was to analyse a newspaper opinion piece urging readers to support a new water conservation law, and his teacher warned that most students would simply list the devices they found without connecting any of them to the article's specific audience: local homeowners who would face new restrictions on garden watering. The article opened by conceding a point directly: \"No one wants another rule telling them what to do with their own garden -- I understand that resentment better than most, since I nearly abandoned this proposal myself last spring.\" Htet Aung recognised this as a concession, and noted that conceding the audience's likely objection first, before asking anything of them, made the writer appear reasonable rather than preachy to precisely the sceptical homeowners she needed to persuade.\n\nThe article then pivoted to logos: it cited a reservoir level that had dropped to 31% of capacity, the lowest recorded in four decades, and calculated that voluntary conservation efforts over the previous two summers had reduced usage by only 3%, far short of what engineers said was needed. Htet Aung noted that this data was placed immediately after the concession, so a reader already inclined to listen -- rather than to bristle defensively -- encountered the hard numbers with their guard already lowered. The article's final paragraph shifted to pathos and antithesis together: \"We can ration water calmly today, on our own terms, or we can ration it in a crisis tomorrow, on nature's terms.\" \n\nHtet Aung's analysis paragraph didn't stop at naming the antithesis. He explained that the balanced structure -- \"calmly today, on our own terms\" against \"in a crisis tomorrow, on nature's terms\" -- offered the sceptical homeowner audience exactly two choices, both involving water rationing, so that refusing the law no longer felt like avoiding restriction at all, only choosing a worse, less controlled version of the same restriction later. His teacher marked this the strongest paragraph of his essay, not because he had found the most devices, but because every device he named was tied explicitly back to its effect on this specific, initially reluctant audience.",
+        passageMy:
+            "လက်ထွန်းအောင်၏ အိမ်စာသည် ရေ ချွေတာရေး ဥပဒေအသစ်တစ်ခုကို ထောက်ခံရန် ဖတ်ရှုသူများကို တိုက်တွန်းသော သတင်းစာ ထင်မြင်ချက် ဆောင်းပါးတစ်ခုကို ခွဲခြမ်းစိတ်ဖြာရန် ဖြစ်ခဲ့သည်။ သူ၏ ဆရာက ကျောင်းသားအများစုသည် တွေ့ရှိသော Device များကို ဆောင်းပါး၏ တိကျသော ပရိသတ်ဖြစ်သော ဥယျာဉ်ရေသွင်းခြင်းအတွက် ကန့်သတ်ချက်အသစ်များ ရင်ဆိုင်ရမည့် ဒေသန္တရ အိမ်ရှင်များနှင့် ချိတ်ဆက်ခြင်းမပြုဘဲ ရိုးရိုးရှင်းရှင်း စာရင်းပြုလုပ်လိမ့်မည်ဟု သတိပေးခဲ့သည်။ ဆောင်းပါးသည် အချက်တစ်ခုကို တိုက်ရိုက် အသိအမှတ်ပြုခြင်းဖြင့် စတင်ခဲ့သည် - \"ဘယ်သူမှ ကိုယ်ပိုင်ဥယျာဉ်ကို ဘာလုပ်ရမလဲဆိုတဲ့ စည်းကမ်းသစ် တစ်ခုကို မလိုချင်ကြပါဘူး - ကျွန်တော်ကိုယ်တိုင် ယခင်နွေဦးက ဤအဆိုပြုချက်ကို စွန့်လွှတ်ရန် နီးပါးလုပ်ခဲ့ဖူးသောကြောင့် ဒီစိတ်ဆိုးမှုကို လူတော်တော်များများထက် ကောင်းစွာ နားလည်ပါတယ်။\" လက်ထွန်းအောင်သည် ဤအချက်ကို Concession ဟု အသိအမှတ်ပြုခဲ့ပြီး ပရိသတ်ထံမှ မည်သည့်အရာကိုမျှ မတောင်းဆိုမီ ပရိသတ်၏ ဖြစ်နိုင်ချေရှိသော ကန့်ကွက်မှုကို ဦးစွာ အသိအမှတ်ပြုခြင်းက စာရေးသူအား သူမ စည်းရုံးရန် လိုအပ်သော သံသယရှိသော အိမ်ရှင်များအတွက် ဟောပြောနေသကဲ့သို့မဟုတ်ဘဲ ဆင်ခြင်တုံတရားရှိသည်ဟု ထင်မြင်စေခဲ့ကြောင်း မှတ်ချက်ချခဲ့သည်။\n\nဆောင်းပါးသည် ထို့နောက် Logos သို့ ကူးပြောင်းသွားခဲ့သည် - ၎င်းသည် ဆယ်စုနှစ်လေးခုအတွင်း အနိမ့်ဆုံး မှတ်တမ်းတင်ထားသော ရေအိုင် အဆင့် ၃၁% အထိ ကျဆင်းသွားခြင်းကို ကိုးကားပြီး ယခင် နွေရာသီနှစ်ကြိမ်အတွင်း စေတနာ့ဝန်ထမ်း ချွေတာရေး ကြိုးပမ်းမှုများသည် သုံးစွဲမှုကို ၃% သာ လျှော့ချနိုင်ခဲ့ကြောင်း၊ အင်ဂျင်နီယာများ လိုအပ်သည်ဟု ဆိုသည့်အရာထက် များစွာ လျော့နည်းခဲ့ကြောင်း တွက်ချက်ခဲ့သည်။ လက်ထွန်းအောင်သည် ဤဒေတာကို Concession ပြီးချက်ချင်း ချထားခြင်းဖြင့် ခုခံကာကွယ်ရန်ထက် နားထောင်ရန် စိတ်ပါနေပြီးသား ဖတ်ရှုသူသည် ၎င်း၏ ကာကွယ်မှုကို လျှော့ချထားသည့်အနေဖြင့် ခိုင်မာသော ကိန်းဂဏန်းများကို တွေ့ကြုံခဲ့ကြောင်း မှတ်ချက်ချခဲ့သည်။ ဆောင်းပါး၏ နောက်ဆုံး စာပိုဒ်သည် Pathos နှင့် Antithesis ကို အတူတကွ ပြောင်းလဲသွားခဲ့သည် - \"ကျွန်ုပ်တို့ ယနေ့ကျွန်ုပ်တို့ကိုယ်ပိုင် စည်းကမ်းများဖြင့် ငြိမ်ငြိမ်သက်သက် ရေကို ချွေတာနိုင်သည် (သို့) ကျွန်ုပ်တို့ နောက်နေ့ ကပ်ဆိုးတစ်ခုတွင် သဘာဝ၏ စည်းကမ်းများဖြင့် ချွေတာရမည်။\"\n\nလက်ထွန်းအောင်၏ ခွဲခြမ်းစိတ်ဖြာသည့် စာပိုဒ်သည် Antithesis ကို အမည်တပ်ရုံနှင့် မရပ်တန့်ခဲ့ပါ။ သူသည် ညီမျှသော ဖွဲ့စည်းပုံ - \"ယနေ့ ငြိမ်ငြိမ်သက်သက်၊ ကျွန်ုပ်တို့ကိုယ်ပိုင် စည်းကမ်းများဖြင့်\" ကို \"နောက်နေ့ ကပ်ဆိုးတစ်ခုတွင်၊ သဘာဝ၏ စည်းကမ်းများဖြင့်\" နှင့် ဆန့်ကျင်ခြင်းက သံသယရှိသော အိမ်ရှင် ပရိသတ်အား ရေချွေတာရေးနှင့် သက်ဆိုင်သော ရွေးချယ်စရာ နှစ်ခုတိတိပေးခဲ့ကြောင်း၊ သို့ဖြင့် ဥပဒေကို ငြင်းပယ်ခြင်းသည် ကန့်သတ်ချက်ကို လွှဲရှောင်ခြင်း တစ်ခုလုံးလုံး ခံစားချက် မဖြစ်တော့ဘဲ နောက်ပိုင်းတွင် ပို၍ဆိုးရွားပြီး ထိန်းချုပ်မှု နည်းသော ကန့်သတ်ချက်တစ်မျိုးတည်းကိုသာ ရွေးချယ်ခြင်း ဖြစ်လာခဲ့ကြောင်း ရှင်းပြခဲ့သည်။ သူ၏ ဆရာက ဤအချက်ကို သူ၏ ဆောင်းပါးတွင် အားအကောင်းဆုံး စာပိုဒ်အဖြစ် မှတ်သားခဲ့သည် - Device အများဆုံး တွေ့ရှိခဲ့သောကြောင့် မဟုတ်ဘဲ သူ အမည်တပ်ခဲ့သော Device တိုင်းသည် ဤသီးသန့်၊ အစပိုင်း စိတ်ပါဝင်စားမှုနည်းသော ပရိသတ်အပေါ် ၎င်း၏ သက်ရောက်မှုနှင့် အတိအလင်း ချိတ်ဆက်ထားခဲ့ကြောင်းကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, why did the article's opening concession work well on its intended audience?",
+            questionMy:
+                "ဆောင်းပါး၏ အစ Concession သည် ၎င်း၏ ရည်ရွယ်ထားသော ပရိသတ်အပေါ် အဘယ်ကြောင့် ကောင်းစွာ အလုပ်ဖြစ်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "It made the writer appear reasonable rather than preachy to sceptical homeowners",
+              "It insulted the homeowners directly",
+              "It contained a rhetorical question",
+              "It was written in a foreign language",
+            ],
+            optionsMy: [
+              "သံသယရှိသော အိမ်ရှင်များအတွက် စာရေးသူအား ဟောပြောနေသကဲ့သို့မဟုတ်ဘဲ ဆင်ခြင်တုံတရားရှိသည်ဟု ထင်မြင်စေခဲ့ခြင်း",
+              "အိမ်ရှင်များကို တိုက်ရိုက် စော်ကားခဲ့ခြင်း",
+              "Rhetorical Question တစ်ခု ပါဝင်ခဲ့ခြင်း",
+              "နိုင်ငံခြားဘာသာစကားဖြင့် ရေးသားထားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 1.",
+            ],
+            hintsMy: ["စာပိုဒ် ၁ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, why did placing the reservoir data right after the concession matter?",
+            questionMy:
+                "Concession ပြီးချက်ချင်း ရေအိုင် ဒေတာကို ချထားခြင်းသည် အဘယ်ကြောင့် အရေးကြီးခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "The reader's guard was already lowered, so the numbers landed on an audience inclined to listen",
+              "It made the article exactly twice as long",
+              "It had no effect on how the data was received",
+              "It confused the reader about the topic entirely",
+            ],
+            optionsMy: [
+              "ဖတ်ရှုသူ၏ ကာကွယ်မှုသည် ရှေးရှုသေချာပြီးဖြစ်၍ ကိန်းဂဏန်းများသည် နားထောင်ရန် စိတ်ပါနေသော ပရိသတ်ပေါ် ကျရောက်ခဲ့သည်",
+              "ဆောင်းပါးကို အတိအကျ နှစ်ဆ ရှည်လျားစေခဲ့သည်",
+              "ဒေတာကို လက်ခံရရှိပုံအပေါ် ဘာသက်ရောက်မှုမျှ မရှိခဲ့ပါ",
+              "ခေါင်းစဉ်အကြောင်း ဖတ်ရှုသူကို လုံးဝ ရှုပ်ထွေးစေခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"Htet Aung noted that this data was placed...\"",
+            ],
+            hintsMy: [
+              "\"လက်ထွန်းအောင်သည် ဤဒေတာကို Concession ပြီးချက်ချင်း...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, why did the teacher mark Htet Aung's final paragraph as the strongest?",
+            questionMy:
+                "ဆရာက လက်ထွန်းအောင်၏ နောက်ဆုံးစာပိုဒ်ကို အားအကောင်းဆုံးအဖြစ် အဘယ်ကြောင့် မှတ်သားခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Every device he named was tied explicitly to its effect on the specific, reluctant audience",
+              "He found the largest total number of devices",
+              "He wrote the longest paragraph in the essay",
+              "He used the most complicated vocabulary",
+            ],
+            optionsMy: [
+              "သူ အမည်တပ်ခဲ့သော Device တိုင်းသည် ဤသီးသန့်၊ ဝန်လေးသော ပရိသတ်အပေါ် ၎င်း၏ သက်ရောက်မှုနှင့် အတိအလင်း ချိတ်ဆက်ထားခဲ့ခြင်း",
+              "စုစုပေါင်း Device အများဆုံး တွေ့ရှိခဲ့ခြင်း",
+              "ဆောင်းပါးတွင် အရှည်ဆုံးစာပိုဒ်ကို ရေးသားခဲ့ခြင်း",
+              "အရှုပ်ထွေးဆုံး ဝေါဟာရများကို သုံးခဲ့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final sentence of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: Analysing Persuasive Texts",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - စည်းရုံးရေး စာသားများကို ခွဲခြမ်းစိတ်ဖြာခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before analysing a persuasive text, establish...",
+          questionMy: "စည်းရုံးရေး စာသားတစ်ခုကို ခွဲခြမ်းစိတ်ဖြာမီ ...ကို တည်ထောင်ပါ",
+          optionsEn: [
+            "Its audience and purpose",
+            "Its font size",
+            "Its total page count",
+            "Its printing date only",
+          ],
+          optionsMy: [
+            "၎င်း၏ ပရိသတ်နှင့် ရည်ရွယ်ချက်",
+            "၎င်း၏ Font အရွယ်အစား",
+            "၎င်း၏ စုစုပေါင်း စာမျက်နှာအရေအတွက်",
+            "၎င်း၏ ပုံနှိပ်ရက်စွဲသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong analytical paragraph follows the structure...",
+          questionMy: "ခိုင်မာသော ခွဲခြမ်းစိတ်ဖြာသည့် စာပိုဒ်တစ်ခုသည် ...ဖွဲ့စည်းပုံကို လိုက်နာသည်",
+          optionsEn: [
+            "Device, quote, effect",
+            "Quote only, with no explanation",
+            "Title, author, date",
+            "Effect only, with no evidence",
+          ],
+          optionsMy: [
+            "Device, Quote, Effect",
+            "ရှင်းပြချက် မပါဘဲ ကိုးကားချက်သာ",
+            "ခေါင်းစဉ်၊ စာရေးသူ၊ ရက်စွဲ",
+            "သက်သေအထောက်အထား မပါဘဲ Effect သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "\"There is a tricolon here,\" with nothing further, is an example of...",
+          questionMy: "\"ဒီမှာ Tricolon တစ်ခု ရှိတယ်\" ဟု ဆက်လက်ရှင်းပြချက် မပါဘဲ ဆိုလျှင် ...၏ ဥပမာဖြစ်သည်",
+          optionsEn: [
+            "Feature-spotting",
+            "A fully developed analytical point",
+            "A concession",
+            "An antithesis",
+          ],
+          optionsMy: [
+            "Feature-Spotting",
+            "ပြီးပြည့်စုံစွာ ဖွံ့ဖြိုးပြီးသား ခွဲခြမ်းစိတ်ဖြာသည့် အချက်",
+            "Concession တစ်ခု",
+            "Antithesis တစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 2, Week 8 (boss week): "Writing Your Own
+/// Persuasive Piece". The Term 2 capstone: turns three weeks of analysis
+/// (ethos/pathos/logos, named devices, full-text analytical structure)
+/// into production -- planning a thesis and audience, sequencing appeals
+/// deliberately, and drafting an opening hook that earns attention before
+/// a single argument has been made.
+const CourseWeekDef _y13EngWeek8 = CourseWeekDef(
+  id: "course-y13-eng-w8",
+  weekNumber: 8,
+  titleEn: "Writing Your Own Persuasive Piece",
+  titleMy: "မိမိကိုယ်ပိုင် စည်းရုံးရေး စာစီစာကုံးကို ရေးသားခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-eng-w8-d1",
+      dayNumber: 1,
+      titleEn: "Planning a Persuasive Piece",
+      titleMy: "စည်းရုံးရေး စာစီစာကုံးတစ်ခု စီစဉ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before drafting a single sentence, a persuasive writer should first decide...",
+          questionMy: "ဝါကျတစ်ကြောင်းမျှ မရေးမီ စည်းရုံးရေး စာရေးဆရာတစ်ဦးသည် ဦးစွာ ...ကို ဆုံးဖြတ်သင့်သည်",
+          optionsEn: [
+            "Their thesis (the specific position they will argue) and their target audience",
+            "Which font to use",
+            "How many pages the finished piece will be",
+            "The exact publication date",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ Thesis (ငြင်းခုံမည့် တိကျသော အနေအထား) နှင့် ရည်ရွယ်ထားသော ပရိသတ်",
+            "မည်သည့် Font ကို သုံးမည်နည်း",
+            "ပြီးစီးသော စာစီစာကုံးသည် စာမျက်နှာ မည်မျှ ရှိမည်နည်း",
+            "တိကျသော ထုတ်ဝေရက်စွဲ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every device and appeal choice that follows depends on knowing what you're arguing and who you're arguing it to.",
+          ],
+          hintsMy: [
+            "ဆက်လက်ဖြစ်ပေါ်လာမည့် Device နှင့် Appeal ရွေးချယ်မှု တိုင်းသည် သင် ဘာကို ငြင်းခုံနေသည်နှင့် မည်သူကို ငြင်းခုံနေသည်ကို သိရှိခြင်းအပေါ် မှီခိုနေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A persuasive piece that leads with a warm personal anecdote before its statistics is likely sequencing appeals to...",
+          questionMy:
+              "စာရင်းအင်းများမတိုင်မီ နွေးထွေးသော ကိုယ်ပိုင် ပုံပြင်တစ်ခုဖြင့် ဦးဆောင်သော စည်းရုံးရေး စာစီစာကုံးတစ်ခုသည် Appeal များကို ...ရန် အစီအစဉ်ချထားနိုင်ခြေရှိသည်",
+          optionsEn: [
+            "Build pathos and trust first, so the logos that follows lands on a receptive audience",
+            "Confuse the reader deliberately",
+            "Avoid logos entirely for the whole piece",
+            "Prove the writer has no real argument",
+          ],
+          optionsMy: [
+            "Pathos နှင့် ယုံကြည်မှုကို ဦးစွာ တည်ဆောက်ပြီး ဆက်လက်လာမည့် Logos သည် လက်ခံနိုင်သော ပရိသတ်ပေါ် ကျရောက်စေရန်",
+            "ဖတ်ရှုသူကို ရည်ရွယ်ချက်ရှိရှိ ရှုပ်ထွေးစေရန်",
+            "စာစီစာကုံး တစ်ခုလုံးအတွက် Logos ကို လုံးဝ ရှောင်ကြဉ်ရန်",
+            "စာရေးသူ၌ စစ်မှန်သော ငြင်းခုံချက် မရှိကြောင်း သက်သေပြရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This mirrors the fundraising speech from Week 5 -- pathos and ethos often prepare the ground for logos.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ ပဉ္စမပတ်မှ ငွေရှာဖွေရေး မိန့်ခွန်းနှင့် တူညီသည် -- Pathos နှင့် Ethos တို့သည် Logos အတွက် အခြေအနေ ပြင်ဆင်ပေးလေ့ ရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A concession followed by a rebuttal (e.g. \"Some argue X. However, they overlook Y.\") strengthens a persuasive piece because it...",
+          questionMy:
+              "ငြင်းချေခြင်းက ဆက်လက်လာသော Concession တစ်ခု (ဥပမာ - \"အချို့က X ဟု ငြင်းခုံသည်။ သို့သော် သူတို့သည် Y ကို လျစ်လျူရှုကြသည်။\") သည် စည်းရုံးရေး စာစီစာကုံးတစ်ခုကို ခိုင်မာစေသည်၊ အကြောင်းမှာ ၎င်းသည်...",
+          optionsEn: [
+            "Shows the writer has considered the opposing view seriously, building credibility before dismissing it",
+            "Proves the opposing view is completely correct",
+            "Weakens the writer's own argument entirely",
+            "Is irrelevant to the reader's opinion",
+          ],
+          optionsMy: [
+            "စာရေးသူသည် ဆန့်ကျင်ဘက် အမြင်ကို လေးနက်စွာ ထည့်သွင်းစဉ်းစားခဲ့ကြောင်း ပြသပြီး ၎င်းကို ပယ်ချမီ ယုံကြည်စိတ်ချရမှုကို တည်ဆောက်ပေးသောကြောင့်",
+            "ဆန့်ကျင်ဘက် အမြင်သည် လုံးဝ မှန်ကန်ကြောင်း သက်သေပြသောကြောင့်",
+            "စာရေးသူကိုယ်ပိုင် ငြင်းခုံချက်ကို လုံးဝ အားနည်းစေသောကြောင့်",
+            "ဖတ်ရှုသူ၏ ထင်မြင်ချက်နှင့် မသက်ဆိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Acknowledging the other side first, then rebutting it, is a form of ethos -- it makes the writer look fair-minded.",
+          ],
+          hintsMy: [
+            "အခြားဘက်ကို ဦးစွာ အသိအမှတ်ပြုပြီးမှ ငြင်းချေခြင်းသည် Ethos ၏ ပုံစံတစ်မျိုး ဖြစ်သည် -- ၎င်းက စာရေးသူအား တရားမျှတသော စိတ်ရှိသည်ဟု ထင်မြင်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Persuasive Writing Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - စည်းရုံးရေး ရေးသားမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13eng-w8-dm-1",
+          termEn: "Thesis",
+          termMy: "Thesis",
+          matchEn: "The specific position a persuasive piece sets out to argue",
+          matchMy: "စည်းရုံးရေး စာစီစာကုံးတစ်ခု ငြင်းခုံရန် ချမှတ်ထားသော တိကျသော အနေအထား",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13eng-w8-dm-2",
+          termEn: "Hook",
+          termMy: "Hook",
+          matchEn: "An opening designed to capture attention before the argument begins",
+          matchMy: "ငြင်းခုံချက် မစတင်မီ အာရုံစိုက်မှု ဆွဲဆောင်ရန် ဒီဇိုင်းရေးဆွဲထားသော အစ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13eng-w8-dm-3",
+          termEn: "Call to Action",
+          termMy: "Call to Action",
+          matchEn: "A direct request for the audience to do something specific",
+          matchMy: "တိကျသော တစ်စုံတစ်ခု ပြုလုပ်ရန် ပရိသတ်ကို တိုက်ရိုက် တောင်းဆိုချက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13eng-w8-dm-4",
+          termEn: "Rebuttal",
+          termMy: "Rebuttal",
+          matchEn: "A direct response that dismantles an opposing argument after conceding it",
+          matchMy: "ဆန့်ကျင်ဘက် ငြင်းခုံချက်ကို အသိအမှတ်ပြုပြီးနောက် ဖျက်ဆီးသည့် တိုက်ရိုက် တုံ့ပြန်ချက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13eng-w8-dm-5",
+          termEn: "Sequencing",
+          termMy: "Sequencing",
+          matchEn: "The deliberate order in which appeals and points are presented for maximum effect",
+          matchMy: "အများဆုံး သက်ရောက်မှုအတွက် Appeal များနှင့် အချက်များကို တင်ပြသည့် ရည်ရွယ်ချက်ရှိရှိ အစီအစဉ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Opening Hook?",
+      titleMy: "စီစစ်ကြမည် - ခိုင်မာသော Hook လား အားနည်းသော Hook လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong, Specific Hook", "Weak, Generic Hook"],
+        bucketsMy: ["ခိုင်မာပြီး တိကျသော Hook", "အားနည်းပြီး ယေဘုယျ Hook"],
+        items: [
+          SortingItem(
+            id: "y13eng-w8-sort-1",
+            labelEn: "\"At 6:14am, the last bus out of the flooded district left without forty passengers still running toward it.\"",
+            labelMy: "\"မနက် ၆:၁၄ တွင် ရေကြီးနေသော ခရိုင်မှ နောက်ဆုံး ဘတ်စ်ကားသည် ၎င်းဆီသို့ ဆက်ပြေးနေဆဲ ခရီးသည် လေးဆယ်ကို ထားခဲ့ပြီး ထွက်ခွာသွားခဲ့သည်။\"",
+            correctBucketEn: "Strong, Specific Hook",
+            correctBucketMy: "ခိုင်မာပြီး တိကျသော Hook",
+          ),
+          SortingItem(
+            id: "y13eng-w8-sort-2",
+            labelEn: "\"In today's modern world, there are many important issues facing society.\"",
+            labelMy: "\"ယနေ့ ခေတ်သစ် ကမ္ဘာကြီးတွင် လူ့အဖွဲ့အစည်းကို ရင်ဆိုင်နေရသော အရေးကြီးသော ကိစ္စရပ် များစွာ ရှိသည်။\"",
+            correctBucketEn: "Weak, Generic Hook",
+            correctBucketMy: "အားနည်းပြီး ယေဘုယျ Hook",
+          ),
+          SortingItem(
+            id: "y13eng-w8-sort-3",
+            labelEn: "\"Since the beginning of time, humans have always cared about many things.\"",
+            labelMy: "\"အစအဦးမှစ၍ လူသားများသည် အမြဲတမ်း အကြောင်းအရာ များစွာကို ဂရုစိုက်ခဲ့ကြသည်။\"",
+            correctBucketEn: "Weak, Generic Hook",
+            correctBucketMy: "အားနည်းပြီး ယေဘုယျ Hook",
+          ),
+          SortingItem(
+            id: "y13eng-w8-sort-4",
+            labelEn: "\"Three hospitals in this district have not had reliable electricity for surgery since March.\"",
+            labelMy: "\"ဤခရိုင်ရှိ ဆေးရုံသုံးရုံသည် မတ်လကတည်းက ခွဲစိတ်မှုအတွက် ယုံကြည်စိတ်ချရသော လျှပ်စစ်မီး မရှိခဲ့ကြပါ။\"",
+            correctBucketEn: "Strong, Specific Hook",
+            correctBucketMy: "ခိုင်မာပြီး တိကျသော Hook",
+          ),
+          SortingItem(
+            id: "y13eng-w8-sort-5",
+            labelEn: "\"Everyone knows education is important for the future.\"",
+            labelMy: "\"ပညာရေးသည် အနာဂတ်အတွက် အရေးကြီးကြောင်း လူတိုင်း သိကြသည်။\"",
+            correctBucketEn: "Weak, Generic Hook",
+            correctBucketMy: "အားနည်းပြီး ယေဘုယျ Hook",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Drafting the School Council Speech",
+      titleMy: "စာဖတ်ခြင်း - ကျောင်းကောင်စီ မိန့်ခွန်းကို ရေးဆွဲခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Drafting the School Council Speech",
+        titleMy: "ကျောင်းကောင်စီ မိန့်ခွန်းကို ရေးဆွဲခြင်း",
+        passageEn:
+            "Ei Ei was running for school council on a proposal to extend library hours, and her first draft opened: \"Libraries are important places where students can study and learn many things.\" Reading it back, she recognised her own Week 8 lesson staring back at her: this was a generic, forgettable hook that could open a speech about literally any library, anywhere, ever. She deleted it and tried again, this time reaching for something specific and true: \"Last Tuesday, four of us were locked out of the library at 4pm, twelve minutes before our chemistry mock exam, with nowhere quiet left to revise.\" The second version named a real moment, a real number of students, and a real consequence -- exactly the kind of concrete hook her teacher had praised all week.\n\nFor her thesis, Ei Ei resisted the urge to simply demand \"longer hours\" without specifics, and instead committed to a precise position: extending library hours by two hours on weekdays, funded by reallocating an existing unused budget line, with no new cost to the school. She planned her sequencing carefully -- opening with the locked-door anecdote (pathos), then conceding a likely objection directly (\"Some will say the school can't afford extra staffing hours\"), rebutting it with the specific budget reallocation (logos), and closing with a direct call to action asking her audience to vote for the proposal, not just to sympathise with it.\n\nHer final check was for named devices used deliberately rather than accidentally. She built a short tricolon into her closing line -- \"a quieter place, a fairer chance, a better result\" -- and checked that each of its three elements actually meant something distinct rather than simply repeating the same idea in different words. She also asked herself the question her teacher had posed all term: not just \"which devices have I used,\" but \"what is each device doing, for this specific audience, at this specific moment in the speech?\" Only once she could answer that for every technique in her draft did she consider the speech finished.",
+        passageMy:
+            "အိအိသည် စာကြည့်တိုက် ဖွင့်ချိန် တိုးမြှင့်ရန် အဆိုပြုချက်ဖြင့် ကျောင်းကောင်စီအတွက် ယှဉ်ပြိုင်နေခဲ့သည်။ ၎င်း၏ ပထမ မူကြမ်းသည် ဤသို့ စတင်ခဲ့သည် - \"စာကြည့်တိုက်များသည် ကျောင်းသားများ လေ့လာဆည်းပူးနိုင်ပြီး အရာများစွာ သင်ယူနိုင်သော အရေးကြီးသော နေရာများ ဖြစ်ပါသည်။\" ၎င်းကို ပြန်ဖတ်သောအခါ သူမသည် ၎င်း၏ ကိုယ်ပိုင် အဌမပတ် သင်ခန်းစာသည် သူမကို ပြန်ကြည့်နေသည်ကို သိမြင်ခဲ့သည် - ဤသည်မှာ မည်သည့် စာကြည့်တိုက်၊ မည်သည့်နေရာ၊ မည်သည့် အချိန်တွင်မဆို ဖွင့်နိုင်သော ယေဘုယျ၊ မှတ်မိစရာမရှိသော Hook တစ်ခု ဖြစ်ခဲ့သည်။ သူမသည် ၎င်းကို ဖျက်ပြီး တိကျပြီး မှန်ကန်သော အရာတစ်ခုကို ထပ်မံ ရှာဖွေခဲ့သည် - \"ယခင် အင်္ဂါနေ့တွင် ကျွန်မတို့ လေးယောက်သည် ဓာတုဗေဒ စမ်းသပ်ဖြေဆိုမှု စတင်ရန် မိနစ် ၁၂ မိနစ်အလိုတွင် ညနေ ၄ နာရီတွင် စာကြည့်တိုက်မှ ပိတ်ချထားခံရပြီး ပြန်လည် လေ့လာရန် တိတ်ဆိတ်သော နေရာ မရှိတော့ပါ။\" ဒုတိယဗားရှင်းသည် စစ်မှန်သော အခိုက်အတန့်တစ်ခု၊ စစ်မှန်သော ကျောင်းသား အရေအတွက်နှင့် စစ်မှန်သော ရလဒ်ကို အမည်ဖော်ခဲ့သည် - ၎င်း၏ ဆရာက တစ်ပတ်လုံး ချီးမွမ်းခဲ့သော တိကျသော Hook အမျိုးအစားပင် ဖြစ်သည်။\n\nအိအိသည် ၎င်း၏ Thesis အတွက် တိကျသောအချက် မပါဘဲ \"ဖွင့်ချိန် ပိုကြာအောင်\" ဟုသာ ရိုးရှင်းစွာ တောင်းဆိုလိုသော ဆန္ဒကို ခုခံနှိမ်နင်းပြီး ၎င်းအစား တိကျသော အနေအထားတစ်ခုကို ကတိပြုခဲ့သည် - ရက်များတွင် စာကြည့်တိုက်ဖွင့်ချိန်ကို နှစ်နာရီ တိုးမြှင့်ခြင်း၊ ကျောင်းအတွက် ကုန်ကျစရိတ်အသစ် မပါဘဲ ရှိပြီးသား အသုံးမပြုသေးသည့် ဘတ်ဂျက်လိုင်းကို ပြန်လည်ခွဲဝေအသုံးပြုခြင်းဖြင့် ရန်ပုံငွေထောက်ပံ့ခြင်း။ သူမသည် ၎င်း၏ Sequencing ကို ဂရုတစိုက် စီစဉ်ခဲ့သည် - တံခါးပိတ်ခံရမှု ဇာတ်ကြောင်း (Pathos) ဖြင့် ဦးစွာစတင်ကာ၊ ဖြစ်နိုင်ချေရှိသော ကန့်ကွက်မှုကို တိုက်ရိုက် Concession ပြုလုပ်ခြင်း (\"ကျောင်းသည် အပိုဝန်ထမ်း ချိန်များကို မတတ်နိုင်ဟု အချို့က ပြောလိမ့်မည်\")၊ ၎င်းကို တိကျသော ဘတ်ဂျက် ပြန်လည်ခွဲဝေအသုံးပြုမှုဖြင့် ငြင်းချေခြင်း (Logos)၊ ထို့နောက် ပရိသတ်အား ၎င်းအတွက် ကရုဏာရှိရုံသက်သက်မက အဆိုပြုချက်ကို မဲပေးရန် တောင်းဆိုသော တိုက်ရိုက် Call To Action ဖြင့် ပိတ်သိမ်းခြင်း ဖြစ်သည်။\n\nသူမ၏ နောက်ဆုံး စစ်ဆေးမှုမှာ မတော်တဆ မဟုတ်ဘဲ ရည်ရွယ်ချက်ရှိရှိ သုံးထားသော အမည်တပ် Device များအတွက် ဖြစ်သည်။ သူမသည် ၎င်း၏ ပိတ်သိမ်းစာကြောင်းထဲသို့ Tricolon တိုတောင်းတစ်ခု တည်ဆောက်ခဲ့သည် - \"ပို၍ တိတ်ဆိတ်သော နေရာတစ်ခု၊ ပို၍ တရားမျှတသော အခွင့်အလမ်းတစ်ခု၊ ပို၍ ကောင်းမွန်သော ရလဒ်တစ်ခု\" - ထို့နောက် ၎င်း၏ ဒြပ်စင် သုံးခုစီသည် တူညီသော အကြံဉာဏ်တစ်ခုကို စကားလုံးကွဲပြားစွာ ထပ်ခါပြောခြင်းသာ မဟုတ်ဘဲ တစ်ခုချင်းစီသည် သီးခြား တစ်စုံတစ်ရာကို အမှန်တကယ် ဆိုလိုကြောင်း စစ်ဆေးခဲ့သည်။ သူမသည် ၎င်း၏ ဆရာ တစ်ပတ်လုံး ထောင်ထားခဲ့သော မေးခွန်းကိုလည်း ကိုယ့်ကိုယ်ကို မေးခဲ့သည် - \"မည်သည့် Device များကို သုံးခဲ့သနည်း\" ဟူသည်ကိုသာ မဟုတ်ဘဲ \"Device တစ်ခုချင်းစီသည် ဤသီးသန့် ပရိသတ်အတွက်၊ မိန့်ခွန်းရှိ ဤသီးသန့် အခိုက်အတန့်တွင် ဘာကို လုပ်ဆောင်နေသနည်း\" ဟူသောမေးခွန်း ဖြစ်သည်။ ၎င်း၏ မူကြမ်းရှိ နည်းပညာတိုင်းအတွက် ထိုမေးခွန်းကို ဖြေနိုင်မှသာ မိန့်ခွန်းကို ပြီးစီးပြီဟု သူမ သဘောထားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 1, what specific elements did Ei Ei's second-draft hook name that the first draft lacked?",
+            questionMy:
+                "အိအိ၏ ဒုတိယ မူကြမ်း Hook တွင် ပထမ မူကြမ်း၌ မရှိခဲ့သော မည်သည့် တိကျသော အချက်များကို အမည်ဖော်ခဲ့သနည်းဟု စာပိုဒ် ၁ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "A real moment, a real number of students, and a real consequence",
+              "A famous historical quotation",
+              "A statistic from a national survey",
+              "A joke to make the audience laugh",
+            ],
+            optionsMy: [
+              "စစ်မှန်သော အခိုက်အတန့်တစ်ခု၊ စစ်မှန်သော ကျောင်းသား အရေအတွက်နှင့် စစ်မှန်သော ရလဒ်",
+              "နာမည်ကြီး သမိုင်းဝင် ကိုးကားချက်",
+              "နိုင်ငံတော် စစ်တမ်းမှ စာရင်းအင်း",
+              "ပရိသတ်ကို ရယ်စေရန် ဟာသတစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the sentence beginning \"The second version named a real moment...\"",
+            ],
+            hintsMy: [
+              "\"ဒုတိယဗားရှင်းသည် စစ်မှန်သော အခိုက်အတန့်တစ်ခု...\" ဟု စတင်သော ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 2, in what order did Ei Ei sequence her speech's appeals?",
+            questionMy:
+                "အိအိသည် ၎င်း၏ မိန့်ခွန်း၏ Appeal များကို မည်သည့် အစီအစဉ်ဖြင့် ချထားခဲ့သနည်းဟု စာပိုဒ် ၂ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "Pathos (anecdote), concession, logos (budget rebuttal), then a call to action",
+              "Logos first, followed immediately by a call to action, with no concession",
+              "A call to action first, followed by nothing else",
+              "Only ethos, repeated four times",
+            ],
+            optionsMy: [
+              "Pathos (ဇာတ်ကြောင်း)၊ Concession၊ Logos (ဘတ်ဂျက် ငြင်းချေချက်)၊ ထို့နောက် Call To Action",
+              "Logos ကို ဦးစွာ၊ ချက်ချင်း Call To Action ဖြင့် ဆက်လက်ပြီး Concession မပါဘဲ",
+              "Call To Action ကို ဦးစွာ၊ အခြား ဘာမျှ မပါဘဲ",
+              "Ethos တစ်ခုတည်းကိုသာ လေးကြိမ် ထပ်ခါသုံးခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the second sentence of paragraph 2, which lists the sequencing in order.",
+            ],
+            hintsMy: [
+              "Sequencing ကို အစီအစဉ်ဖြင့် ဖော်ပြထားသော စာပိုဒ် ၂ ၏ ဒုတိယဝါကျကို ပြန်ဖတ်ကြည့်ပါ။",
+            ],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to paragraph 3, what question did Ei Ei ask herself for every device in her draft before considering it finished?",
+            questionMy:
+                "မူကြမ်းကို ပြီးစီးပြီဟု မယူဆမီ Device တိုင်းအတွက် အိအိသည် ကိုယ့်ကိုယ်ကို မည်သည့်မေးခွန်း မေးခဲ့သနည်းဟု စာပိုဒ် ၃ အရ ဖော်ပြပါ",
+            optionsEn: [
+              "What each device was doing for that specific audience at that specific moment",
+              "How many words each device contained",
+              "Whether the device rhymed with the next sentence",
+              "Whether her friends would find the device funny",
+            ],
+            optionsMy: [
+              "Device တစ်ခုချင်းစီသည် ထိုသီးသန့် ပရိသတ်အတွက်၊ ထိုသီးသန့် အခိုက်အတန့်တွင် ဘာကို လုပ်ဆောင်နေသနည်း",
+              "Device တစ်ခုချင်းစီတွင် စကားလုံး မည်မျှ ပါသနည်း",
+              "Device သည် နောက်ဝါကျနှင့် ကာရန်တွဲမှုရှိမရှိ",
+              "သူမ၏ သူငယ်ချင်းများက Device ကို ရယ်စရာကောင်းသည်ဟု ထင်မည်မထင်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: [
+              "Reread the final two sentences of paragraph 3.",
+            ],
+            hintsMy: ["စာပိုဒ် ၃ ၏ နောက်ဆုံးဝါကျ နှစ်ကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-eng-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Writing a Persuasive Piece",
+      titleMy: "အဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - စည်းရုံးရေး စာစီစာကုံးရေးသားခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Before drafting, a persuasive writer should first settle on...",
+          questionMy: "မရေးမီ စည်းရုံးရေး စာရေးဆရာတစ်ဦးသည် ဦးစွာ ...ပေါ်တွင် ဆုံးဖြတ်သင့်သည်",
+          optionsEn: [
+            "Their thesis and audience",
+            "Their font choice",
+            "The exact word count",
+            "The paper size",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ Thesis နှင့် ပရိသတ်",
+            "၎င်းတို့၏ Font ရွေးချယ်မှု",
+            "အတိအကျ စကားလုံး အရေအတွက်",
+            "စာရွက် အရွယ်အစား",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong opening hook is typically...",
+          questionMy: "ခိုင်မာသော အစ Hook တစ်ခုသည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "Specific and concrete, not generic",
+            "As vague as possible",
+            "Identical to every other essay's opening",
+            "Placed at the very end of the piece",
+          ],
+          optionsMy: [
+            "ယေဘုယျ မဟုတ်ဘဲ တိကျပြီး ခိုင်မာသော",
+            "ဖြစ်နိုင်သမျှ မှုန်ဝါးသော",
+            "အခြား စာစီစာကုံး တိုင်း၏ အစနှင့် တူညီသော",
+            "စာစီစာကုံး၏ အနောက်ဆုံးတွင် ချထားသော",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For every device used, a persuasive writer should be able to explain...",
+          questionMy: "သုံးထားသော Device တိုင်းအတွက် စည်းရုံးရေး စာရေးဆရာတစ်ဦးသည် ...ကို ရှင်းပြနိုင်သင့်သည်",
+          optionsEn: [
+            "What it is doing for that specific audience at that specific moment",
+            "How many times they have used it before",
+            "Whether it is grammatically the longest word available",
+            "Nothing -- devices need no justification",
+          ],
+          optionsMy: [
+            "ထိုသီးသန့် ပရိသတ်အတွက်၊ ထိုသီးသန့် အခိုက်အတန့်တွင် ၎င်းသည် ဘာကို လုပ်ဆောင်နေသနည်း",
+            "ယခင်က ၎င်းကို မည်မျှ အကြိမ် သုံးဖူးသနည်း",
+            "ရရှိနိုင်သည့် စကားလုံးများထဲမှ သဒ္ဒါအရ အရှည်ဆုံး ဖြစ်မဖြစ်",
+            "ဘာမျှ မရှိပါ - Device များသည် အကြောင်းပြချက် မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 English -- Term 2: "Rhetoric and Persuasive Writing". Covers
+/// the rhetorical triangle (ethos, pathos, logos), named rhetorical
+/// devices (anaphora, tricolon, rhetorical questions, antithesis),
+/// full-text persuasive analysis, and closes with a Writing Your Own
+/// Persuasive Piece capstone week.
+const CourseTermDef year13EnglishTerm2 = CourseTermDef(
+  id: "course-y13-eng-term2",
+  termNumber: 2,
+  titleEn: "Rhetoric and Persuasive Writing",
+  titleMy: "Rhetoric နှင့် စည်းရုံးရေး ရေးသားမှု",
+  weeks: [_y13EngWeek5, _y13EngWeek6, _y13EngWeek7, _y13EngWeek8],
+  certificateTitleEn: "A-Level English: Rhetoric and Persuasive Writing",
+  certificateTitleMy: "A-Level အင်္ဂလိပ်စာ - Rhetoric နှင့် စည်းရုံးရေး ရေးသားမှု",
+);
+
 // __IGCSE_ENGLISH_MARKER__
