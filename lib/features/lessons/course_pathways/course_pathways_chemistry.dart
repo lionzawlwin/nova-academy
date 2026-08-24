@@ -25353,3 +25353,3740 @@ const CoursePathwayDef year12ChemistryPathway = CoursePathwayDef(
     year12ChemistryTerm9,
   ],
 );
+
+// =========================================================================
+// YEAR 13 CHEMISTRY (A-Level A2, Cambridge 9701) -- the continuation of the
+// complete Year 12/AS pathway above. Terms 1-3 authored so far (Weeks 1-12
+// / 60 daily lessons): Term 1, Lattice Energy and Born-Haber Cycles, opens
+// with the individual enthalpy terms (atomisation, ionisation, electron
+// affinity) a Born-Haber cycle is built from, then constructs and uses
+// full cycles via Hess's Law, then examines how ionic charge and radius
+// change lattice energy's magnitude, and closes with a boss week
+// connecting entropy and Gibbs free energy (ΔG = ΔH - TΔS) back to why
+// ionic solids form spontaneously despite losing entropy. Term 2,
+// Electrochemistry and Redox, progresses from oxidation states and
+// balancing redox half-equations, to standard electrode potentials and
+// how they're measured, to the electrochemical series and calculating
+// cell EMF, closing with a boss week on predicting reaction feasibility
+// from E° values. Term 3, Further Equilibria: Acids, Bases and Buffers,
+// progresses from Brønsted-Lowry theory and strong-vs-weak acids/bases,
+// to Ka/Kb/pKa/pKb and pH calculations, to buffer solutions and the
+// Henderson-Hasselbalch relationship, closing with a boss week on
+// solubility product Ksp. No LaTeX renderer exists in this app --
+// formulas throughout use the same plain Unicode math notation (², →,
+// Δ, x for multiplication) already established across every other
+// pathway in this file.
+// =========================================================================
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 1: "Lattice Energy and Born-Haber Cycles"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "Defining Enthalpy Changes for Born-Haber Cycles"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek1 = CourseWeekDef(
+  id: "course-y13-chem-w1",
+  weekNumber: 1,
+  titleEn: "Defining Enthalpy Changes for Born-Haber Cycles",
+  titleMy: "Born-Haber Cycle အတွက် Enthalpy Change များ အဓိပ္ပာယ်ဖွင့်ဆိုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w1-d1",
+      dayNumber: 1,
+      titleEn: "Lattice Energy, Atomisation and Electron Affinity",
+      titleMy: "Lattice Energy, Atomisation နှင့် Electron Affinity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Lattice energy (lattice enthalpy of formation) is defined as the enthalpy change when...",
+          questionMy:
+              "Lattice Energy (Lattice Enthalpy of Formation) ကို အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ ...အခါ ဖြစ်ပေါ်သော Enthalpy Change ဖြစ်သည်",
+          optionsEn: [
+            "One mole of an ionic solid forms from its constituent gaseous ions",
+            "One mole of an ionic solid dissolves completely in water",
+            "One mole of gaseous atoms forms from an element in its standard state",
+            "One mole of a compound forms from its elements in their standard states",
+          ],
+          optionsMy: [
+            "Ionic Solid 1 Mole သည် ၎င်း၏ Gaseous Ion များမှ ဖြစ်ပေါ်လာသည်",
+            "Ionic Solid 1 Mole သည် ရေထဲတွင် လုံးဝ ပျော်ဝင်သွားသည်",
+            "Gaseous Atom 1 Mole သည် Element တစ်ခု၏ Standard State မှ ဖြစ်ပေါ်လာသည်",
+            "Compound 1 Mole သည် ၎င်း၏ Element များ၏ Standard State များမှ ဖြစ်ပေါ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Lattice energy is always about the very last step: gaseous ions coming together to form the solid lattice -- this step is strongly exothermic.",
+          ],
+          hintsMy: [
+            "Lattice Energy သည် နောက်ဆုံး Step အကြောင်းသာ အမြဲ ဖြစ်သည် -- Gaseous Ion များ ပေါင်းစည်း၍ Solid Lattice ဖြစ်ပေါ်လာသော Step ဖြစ်ပြီး ပြင်းထန်စွာ Exothermic ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Enthalpy of atomisation (ΔHat°) is defined as the enthalpy change when one mole of gaseous atoms forms from an element in its standard state, and this process is always...",
+          questionMy:
+              "Enthalpy of Atomisation (ΔHat°) ကို Element တစ်ခု၏ Standard State မှ Gaseous Atom 1 Mole ဖြစ်ပေါ်လာသည့်အခါ ဖြစ်ပေါ်သော Enthalpy Change ဟု အဓိပ္ပာယ်ဖွင့်ဆိုပြီး ဤ Process သည် အမြဲ...",
+          optionsEn: [
+            "Endothermic, since bonds must be broken to release free atoms",
+            "Exothermic, since new bonds are formed",
+            "Zero, since no bonds change at all",
+            "Endothermic only for metals, but exothermic for non-metals",
+          ],
+          optionsMy: [
+            "Endothermic ဖြစ်သည်၊ Free Atom များ ထုတ်လွှတ်ရန် Bond များ ချိုးရသောကြောင့်",
+            "Exothermic ဖြစ်သည်၊ Bond အသစ်များ ဖြစ်ပေါ်လာသောကြောင့်",
+            "Zero ဖြစ်သည်၊ Bond မည်သည့်တစ်ခုမျှ လုံးဝ မပြောင်းလဲသောကြောင့်",
+            "Metal များအတွက်သာ Endothermic ဖြစ်ပြီး Non-Metal များအတွက် Exothermic ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Breaking metallic bonds, covalent bonds, or intermolecular forces to free individual gaseous atoms always requires an input of energy.",
+          ],
+          hintsMy: [
+            "Metallic Bond, Covalent Bond, သို့မဟုတ် Intermolecular Force များကို ချိုး၍ Gaseous Atom တစ်ခုချင်းစီကို လွတ်လပ်စေရန် Energy ထည့်ဝင်ရန် အမြဲ လိုအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "First electron affinity is defined as the enthalpy change when one mole of gaseous atoms each gain one electron to form one mole of gaseous 1- ions, and for most elements this is...",
+          questionMy:
+              "First Electron Affinity ကို Gaseous Atom 1 Mole တစ်ခုစီသည် Electron 1 ခုစီ ရရှိကာ Gaseous 1- Ion 1 Mole ဖြစ်ပေါ်လာသည့်အခါ ဖြစ်ပေါ်သော Enthalpy Change ဟု အဓိပ္ပာယ်ဖွင့်ဆိုပြီး Element အများစုအတွက် ဤသည်မှာ...",
+          optionsEn: [
+            "Exothermic, since the incoming electron is attracted to the nucleus",
+            "Endothermic, since electrons always repel each other",
+            "Always exactly zero",
+            "Exothermic only for noble gases",
+          ],
+          optionsMy: [
+            "Exothermic ဖြစ်သည်၊ ဝင်လာသော Electron သည် Nucleus ဆီသို့ ဆွဲငင်ခံရသောကြောင့်",
+            "Endothermic ဖြစ်သည်၊ Electron များသည် အချင်းချင်း အမြဲ ဆန့်ကျင်ဆွဲသောကြောင့်",
+            "အမြဲ Zero အတိအကျ ဖြစ်သည်",
+            "Noble Gas များအတွက်သာ Exothermic ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The incoming electron is attracted by the positive nucleus, so energy is released overall -- first electron affinities are exothermic for almost every element.",
+          ],
+          hintsMy: [
+            "ဝင်လာသော Electron သည် Positive Nucleus ၏ ဆွဲငင်မှုခံရသောကြောင့် Energy စုစုပေါင်း ထွက်လာသည် -- First Electron Affinity များသည် Element အားလုံးနီးပါးအတွက် Exothermic ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: Born-Haber Enthalpy Terms",
+      titleMy: "တွဲစပ်ကြမည် - Born-Haber Enthalpy Term များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w1-dm-1",
+          termEn: "Lattice energy (formation)",
+          termMy: "Lattice Energy (Formation)",
+          matchEn:
+              "Enthalpy change when one mole of an ionic solid forms from its gaseous ions -- always strongly exothermic",
+          matchMy:
+              "Ionic Solid 1 Mole သည် ၎င်း၏ Gaseous Ion များမှ ဖြစ်ပေါ်လာသည့်အခါ Enthalpy Change -- အမြဲ ပြင်းထန်စွာ Exothermic ဖြစ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w1-dm-2",
+          termEn: "Enthalpy of atomisation (ΔHat°)",
+          termMy: "Enthalpy of Atomisation (ΔHat°)",
+          matchEn:
+              "Enthalpy change when one mole of gaseous atoms forms from an element in its standard state -- always endothermic",
+          matchMy:
+              "Element တစ်ခု၏ Standard State မှ Gaseous Atom 1 Mole ဖြစ်ပေါ်လာသည့်အခါ Enthalpy Change -- အမြဲ Endothermic ဖြစ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w1-dm-3",
+          termEn: "First ionisation energy",
+          termMy: "First Ionisation Energy",
+          matchEn:
+              "Enthalpy change when one mole of gaseous 1+ ions forms from one mole of gaseous atoms, losing one mole of electrons",
+          matchMy:
+              "Gaseous Atom 1 Mole မှ Electron 1 Mole ဆုံးရှုံးကာ Gaseous 1+ Ion 1 Mole ဖြစ်ပေါ်လာသည့်အခါ Enthalpy Change",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w1-dm-4",
+          termEn: "First electron affinity",
+          termMy: "First Electron Affinity",
+          matchEn:
+              "Enthalpy change when one mole of gaseous atoms each gain one electron to form gaseous 1- ions -- exothermic for most elements",
+          matchMy:
+              "Gaseous Atom 1 Mole တစ်ခုစီသည် Electron 1 ခုစီ ရရှိကာ Gaseous 1- Ion များ ဖြစ်ပေါ်လာသည့်အခါ Enthalpy Change -- Element အများစုအတွက် Exothermic ဖြစ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w1-dm-5",
+          termEn: "Enthalpy of formation (ΔHf°)",
+          termMy: "Enthalpy of Formation (ΔHf°)",
+          matchEn:
+              "Enthalpy change when one mole of a compound forms from its elements in their standard states",
+          matchMy:
+              "Compound 1 Mole သည် ၎င်း၏ Element များ၏ Standard State များမှ ဖြစ်ပေါ်လာသည့်အခါ Enthalpy Change",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Endothermic or Exothermic?",
+      titleMy: "စီစစ်ကြမည် - Endothermic သို့မဟုတ် Exothermic",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Endothermic (Energy Absorbed)", "Exothermic (Energy Released)"],
+        bucketsMy: ["Endothermic (Energy စုပ်ယူ)", "Exothermic (Energy ထွက်)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w1-sort-1",
+            labelEn: "Enthalpy of atomisation of any element",
+            labelMy: "Element မည်သည့်တစ်ခု၏ Enthalpy of Atomisation",
+            correctBucketEn: "Endothermic (Energy Absorbed)",
+            correctBucketMy: "Endothermic (Energy စုပ်ယူ)",
+          ),
+          SortingItem(
+            id: "y13chem-w1-sort-2",
+            labelEn: "First ionisation energy of any element",
+            labelMy: "Element မည်သည့်တစ်ခု၏ First Ionisation Energy",
+            correctBucketEn: "Endothermic (Energy Absorbed)",
+            correctBucketMy: "Endothermic (Energy စုပ်ယူ)",
+          ),
+          SortingItem(
+            id: "y13chem-w1-sort-3",
+            labelEn: "First electron affinity of chlorine",
+            labelMy: "Chlorine ၏ First Electron Affinity",
+            correctBucketEn: "Exothermic (Energy Released)",
+            correctBucketMy: "Exothermic (Energy ထွက်)",
+          ),
+          SortingItem(
+            id: "y13chem-w1-sort-4",
+            labelEn:
+                "Second electron affinity of oxygen (repelling a second electron onto an already-negative ion)",
+            labelMy:
+                "Oxygen ၏ Second Electron Affinity (Ion အနုတ်ဖြစ်ပြီးသားပေါ်သို့ Electron ဒုတိယတစ်ခု ဆန့်ကျင်ဆွဲခြင်း)",
+            correctBucketEn: "Endothermic (Energy Absorbed)",
+            correctBucketMy: "Endothermic (Energy စုပ်ယူ)",
+          ),
+          SortingItem(
+            id: "y13chem-w1-sort-5",
+            labelEn: "Lattice energy (gaseous ions forming a solid lattice)",
+            labelMy: "Lattice Energy (Gaseous Ion များမှ Solid Lattice ဖြစ်ပေါ်ခြင်း)",
+            correctBucketEn: "Exothermic (Energy Released)",
+            correctBucketMy: "Exothermic (Energy ထွက်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Building Blocks of a Born-Haber Cycle",
+      titleMy: "စာဖတ်ခြင်း - Born-Haber Cycle ၏ Building Block များ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Building Blocks of a Born-Haber Cycle",
+        titleMy: "Born-Haber Cycle ၏ Building Block များ",
+        passageEn:
+            "Sayar Zaw Min asked Htet Aung to list every enthalpy term that would eventually be needed to build a Born-Haber cycle for sodium chloride, NaCl, before a single number was calculated. Htet Aung started with sodium: turning solid Na(s) into gaseous Na atoms needs its enthalpy of atomisation, ΔHat°(Na), and turning those gaseous Na atoms into gaseous Na+ ions needs the first ionisation energy of sodium, IE1(Na). Both steps, he noted, must absorb energy -- atomisation always breaks bonds to free atoms, and ionisation always strips an electron away from a positive nucleus's pull, so both are endothermic.\n\nHtet Aung then turned to chlorine, and Sayar Zaw Min pointed out a detail worth catching: chlorine exists as Cl2 gas, not free atoms, so its enthalpy of atomisation must convert Cl2(g) into 2Cl(g), one atom at a time. Turning those gaseous Cl atoms into gaseous Cl- ions then needs the first electron affinity of chlorine, EA1(Cl) -- and unlike the two sodium steps, this one releases energy, since the incoming electron is attracted to chlorine's nucleus, making it exothermic.\n\nOnce all four gaseous-ion-forming steps were named, Sayar Zaw Min explained why none of them alone answers the real question: none of the four is lattice energy itself. Lattice energy only happens at the very last step, when the newly formed gaseous Na+ and Cl- ions come together to form the solid NaCl lattice -- and that step, he said, cannot be measured directly in a laboratory at all. It has to be calculated indirectly, by building all four of these enthalpy terms into a complete cycle together with the compound's overall enthalpy of formation -- which is exactly the construction Htet Aung would learn to build the following week.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Sodium Chloride, NaCl အတွက် Born-Haber Cycle တစ်ခု တည်ဆောက်ရန် အနာဂတ်တွင် လိုအပ်မည့် Enthalpy Term အားလုံးကို ဂဏန်း တစ်ခုမျှ မတွက်ချက်မီ စာရင်းပြုစုရန် Htet Aung ကို ခိုင်းစေခဲ့သည်။ Htet Aung သည် Sodium ဖြင့် စတင်ခဲ့သည် - Solid Na(s) ကို Gaseous Na Atom ပြောင်းလဲရန် ၎င်း၏ Enthalpy of Atomisation, ΔHat°(Na) လိုအပ်ပြီး ထို Gaseous Na Atom များကို Gaseous Na+ Ion ပြောင်းလဲရန် Sodium ၏ First Ionisation Energy, IE1(Na) လိုအပ်သည်။ Step နှစ်ခုစလုံးသည် Energy စုပ်ယူရမည်ဟု သတိပြုမိခဲ့သည် -- Atomisation သည် Atom များ လွတ်လပ်စေရန် Bond များ အမြဲ ချိုးပြီး Ionisation သည် Positive Nucleus ၏ ဆွဲငင်မှုမှ Electron တစ်ခုကို အမြဲ ဆွဲထုတ်သောကြောင့် နှစ်ခုစလုံး Endothermic ဖြစ်သည်။\n\nထို့နောက် Htet Aung သည် Chlorine ဆီသို့ လှည့်ခဲ့ပြီး Sayar ဇော်မင်း သည် သတိထားထိုက်သော အသေးစိတ်တစ်ခုကို ထောက်ပြခဲ့သည် - Chlorine သည် Free Atom များအဖြစ် မဟုတ်ဘဲ Cl2 Gas အဖြစ် တည်ရှိသောကြောင့် ၎င်း၏ Enthalpy of Atomisation သည် Cl2(g) ကို 2Cl(g) သို့ Atom တစ်ခုချင်းစီ ပြောင်းလဲရမည်။ ထို Gaseous Cl Atom များကို Gaseous Cl- Ion ပြောင်းလဲရန် Chlorine ၏ First Electron Affinity, EA1(Cl) လိုအပ်ပြီး -- Sodium Step နှစ်ခုနှင့် မတူဘဲ ဤ Step သည် Energy ထွက်သည် -- ဝင်လာသော Electron သည် Chlorine ၏ Nucleus ဆီသို့ ဆွဲငင်ခံရသောကြောင့် Exothermic ဖြစ်သည်။\n\nGaseous Ion ဖြစ်ပေါ်စေသော Step လေးခုလုံးကို အမည်တပ်ပြီးသည့်အခါ ၎င်းတို့ထဲမှ မည်သည့် တစ်ခုမျှ တစ်ကိုယ်တည်းက တကယ့် မေးခွန်းကို အဖြေ မပေးနိုင်ကြောင်း Sayar ဇော်မင်း ရှင်းပြခဲ့သည် - လေးခုထဲမှ မည်သည့်တစ်ခုမျှ Lattice Energy ကိုယ်တိုင် မဟုတ်ပါ။ Lattice Energy သည် အသစ်ဖြစ်ပေါ်လာသော Gaseous Na+ နှင့် Cl- Ion များ ပေါင်းစည်း၍ Solid NaCl Lattice ဖြစ်ပေါ်လာသော နောက်ဆုံး Step တွင်သာ ဖြစ်ပျက်ပြီး -- ထို Step ကို Laboratory တွင် တိုက်ရိုက် လုံးဝ တိုင်းတာ၍ မရနိုင်ပါဟု ၎င်း ပြောခဲ့သည်။ ၎င်းကို Compound ၏ စုစုပေါင်း Enthalpy of Formation နှင့်အတူ Enthalpy Term လေးခုလုံးကို Cycle တစ်ခုလုံးအဖြစ် တည်ဆောက်၍ သွယ်ဝိုက်စွာသာ တွက်ချက်ရမည် -- ၎င်းသည် နောက်တစ်ပတ်တွင် Htet Aung သင်ယူမည့် Construction အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why are both ΔHat°(Na) and IE1(Na) endothermic?",
+            questionMy:
+                "ΔHat°(Na) နှင့် IE1(Na) နှစ်ခုလုံး Endothermic ဖြစ်သည့် အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Atomisation breaks bonds to free atoms, and ionisation strips an electron away from a nucleus's pull",
+              "Both steps release energy to the surroundings",
+              "Sodium is a noble gas, so both steps are always endothermic",
+              "The passage says they are actually exothermic",
+            ],
+            optionsMy: [
+              "Atomisation သည် Atom များ လွတ်လပ်စေရန် Bond များ ချိုးပြီး Ionisation သည် Nucleus ၏ ဆွဲငင်မှုမှ Electron တစ်ခုကို ဆွဲထုတ်သည်",
+              "Step နှစ်ခုစလုံးသည် ပတ်ဝန်းကျင်သို့ Energy ထွက်သည်",
+              "Sodium သည် Noble Gas ဖြစ်၍ Step နှစ်ခုစလုံး အမြဲ Endothermic ဖြစ်သည်",
+              "စာပိုဒ်က ၎င်းတို့သည် Exothermic ဟု ပြောသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's final sentence."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why must chlorine's atomisation step be handled carefully?",
+            questionMy:
+                "Chlorine ၏ Atomisation Step ကို အဘယ့်ကြောင့် ဂရုတစိုက် ကိုင်တွယ်ရမည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Chlorine exists as Cl2 gas, not free atoms, so atomisation converts Cl2(g) into 2Cl(g)",
+              "Chlorine has no enthalpy of atomisation at all",
+              "Chlorine's electron affinity is always endothermic",
+              "Chlorine cannot form gaseous ions under any conditions",
+            ],
+            optionsMy: [
+              "Chlorine သည် Free Atom များအဖြစ် မဟုတ်ဘဲ Cl2 Gas အဖြစ် တည်ရှိသောကြောင့် Atomisation က Cl2(g) ကို 2Cl(g) သို့ ပြောင်းလဲသည်",
+              "Chlorine တွင် Enthalpy of Atomisation လုံးဝ မရှိပါ",
+              "Chlorine ၏ Electron Affinity သည် အမြဲ Endothermic ဖြစ်သည်",
+              "Chlorine သည် မည်သည့် Condition တွင်မျှ Gaseous Ion ဖြစ်ပေါ်၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's opening sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ဖွင့်ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why can lattice energy not be measured directly?",
+            questionMy:
+                "Lattice Energy ကို အဘယ့်ကြောင့် တိုက်ရိုက် တိုင်းတာ၍ မရနိုင်ကြောင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It must be calculated indirectly by building a complete cycle from all the other enthalpy terms",
+              "It is always exactly equal to the enthalpy of atomisation",
+              "It only exists for gaseous compounds",
+              "It can be read straight off a thermometer",
+            ],
+            optionsMy: [
+              "အခြား Enthalpy Term အားလုံးမှ Cycle တစ်ခုလုံး တည်ဆောက်၍ သွယ်ဝိုက်စွာ တွက်ချက်ရမည်",
+              "Enthalpy of Atomisation နှင့် အမြဲ အတိအကျ ညီမျှသည်",
+              "Gaseous Compound များအတွက်သာ တည်ရှိသည်",
+              "Thermometer ပေါ်တွင် တိုက်ရိုက် ဖတ်ရှုနိုင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: Enthalpy Terms",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - Enthalpy Term များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Lattice energy is the enthalpy change when...",
+          questionMy: "Lattice Energy ဆိုသည်မှာ ...အခါ ဖြစ်ပေါ်သော Enthalpy Change ဖြစ်သည်",
+          optionsEn: [
+            "An ionic solid forms from its gaseous ions",
+            "An ionic solid dissolves in water",
+            "A gas condenses to a liquid",
+            "An acid neutralises a base",
+          ],
+          optionsMy: [
+            "Ionic Solid သည် ၎င်း၏ Gaseous Ion များမှ ဖြစ်ပေါ်လာသည်",
+            "Ionic Solid သည် ရေထဲတွင် ပျော်ဝင်သည်",
+            "Gas သည် Liquid သို့ ဖြစ်ပျက်သည်",
+            "Acid သည် Base ကို Neutralise ပြုသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Enthalpy of atomisation is always...",
+          questionMy: "Enthalpy of Atomisation သည် အမြဲ...",
+          optionsEn: ["Endothermic", "Exothermic", "Zero", "Negative"],
+          optionsMy: ["Endothermic", "Exothermic", "Zero", "Negative"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "First electron affinity is exothermic for most elements because...",
+          questionMy: "Element အများစုအတွက် First Electron Affinity Exothermic ဖြစ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "The incoming electron is attracted to the positive nucleus",
+            "Electrons always repel each other strongly",
+            "No bonds are involved at all",
+            "It only applies to metals",
+          ],
+          optionsMy: [
+            "ဝင်လာသော Electron သည် Positive Nucleus ဆီသို့ ဆွဲငင်ခံရသောကြောင့်",
+            "Electron များသည် အချင်းချင်း အမြဲ ပြင်းထန်စွာ ဆန့်ကျင်ဆွဲသောကြောင့်",
+            "Bond မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်သောကြောင့်",
+            "Metal များအတွက်သာ သက်ဆိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "Constructing and Using Born-Haber Cycles"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek2 = CourseWeekDef(
+  id: "course-y13-chem-w2",
+  weekNumber: 2,
+  titleEn: "Constructing and Using Born-Haber Cycles",
+  titleMy: "Born-Haber Cycle များ တည်ဆောက်ပြီး အသုံးပြုခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w2-d1",
+      dayNumber: 1,
+      titleEn: "Hess's Law and Calculating Lattice Energy",
+      titleMy: "Hess's Law နှင့် Lattice Energy တွက်ချက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A Born-Haber cycle works because of which law -- that the total enthalpy change of a reaction is independent of the route taken?",
+          questionMy:
+              "Born-Haber Cycle သည် မည်သည့် Law ကြောင့် အလုပ်လုပ်သနည်း -- Reaction တစ်ခု၏ Enthalpy Change စုစုပေါင်းသည် ယူသော Route နှင့် မသက်ဆိုင်ကြောင့်",
+          optionsEn: ["Hess's Law", "Boyle's Law", "Le Chatelier's principle", "Avogadro's Law"],
+          optionsMy: ["Hess's Law", "Boyle's Law", "Le Chatelier's Principle", "Avogadro's Law"],
+          correctIndex: 0,
+          hintsEn: [
+            "Hess's Law states the overall enthalpy change is the same whether you go directly from elements to compound, or via the indirect gaseous-atoms-and-ions route.",
+          ],
+          hintsMy: [
+            "Hess's Law အရ Element များမှ Compound သို့ တိုက်ရိုက် သွားသည်ဖြစ်စေ၊ Gaseous Atom/Ion Route ဖြင့် သွယ်ဝိုက်သွားသည်ဖြစ်စေ Enthalpy Change စုစုပေါင်း တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For NaCl: ΔHf°(NaCl) = -411, ΔHat°(Na) = +107, IE1(Na) = +496, ΔHat°(Cl) = +121, EA1(Cl) = -349 (all kJ mol⁻¹). Using Hess's Law, the lattice energy of NaCl is closest to...",
+          questionMy:
+              "NaCl အတွက် - ΔHf°(NaCl) = -411, ΔHat°(Na) = +107, IE1(Na) = +496, ΔHat°(Cl) = +121, EA1(Cl) = -349 (အားလုံး kJ mol⁻¹) ။ Hess's Law အသုံးပြု၍ NaCl ၏ Lattice Energy သည်...",
+          optionsEn: ["-786 kJ mol⁻¹", "-411 kJ mol⁻¹", "+786 kJ mol⁻¹", "-36 kJ mol⁻¹"],
+          optionsMy: ["-786 kJ mol⁻¹", "-411 kJ mol⁻¹", "+786 kJ mol⁻¹", "-36 kJ mol⁻¹"],
+          correctIndex: 0,
+          hintsEn: [
+            "LE = ΔHf° - (ΔHat°(Na) + IE1(Na) + ΔHat°(Cl) + EA1(Cl)) = -411 - (107 + 496 + 121 - 349) = -411 - 375 = -786 kJ mol⁻¹.",
+          ],
+          hintsMy: [
+            "LE = ΔHf° - (ΔHat°(Na) + IE1(Na) + ΔHat°(Cl) + EA1(Cl)) = -411 - (107 + 496 + 121 - 349) = -411 - 375 = -786 kJ mol⁻¹ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a Born-Haber cycle diagram, the single arrow going directly from elements in their standard states to the ionic compound represents...",
+          questionMy:
+              "Born-Haber Cycle Diagram တွင် Element များ၏ Standard State များမှ Ionic Compound သို့ တိုက်ရိုက် သွားသော Arrow တစ်ခုတည်းသည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "The enthalpy of formation, ΔHf°",
+            "The lattice energy",
+            "The first ionisation energy",
+            "The enthalpy of atomisation",
+          ],
+          optionsMy: [
+            "Enthalpy of Formation, ΔHf°",
+            "Lattice Energy",
+            "First Ionisation Energy",
+            "Enthalpy of Atomisation",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the shortcut route -- elements straight to compound -- exactly the definition of enthalpy of formation.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Shortcut Route ဖြစ်သည် -- Element များမှ Compound သို့ တိုက်ရိုက် -- Enthalpy of Formation ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက် အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Born-Haber Cycle Structure",
+      titleMy: "တွဲစပ်ကြမည် - Born-Haber Cycle Structure",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w2-dm-1",
+          termEn: "Born-Haber cycle",
+          termMy: "Born-Haber Cycle",
+          matchEn:
+              "An enthalpy cycle showing every enthalpy change involved in forming an ionic compound from its elements, via gaseous atoms and ions",
+          matchMy:
+              "Ionic Compound တစ်ခု ၎င်း၏ Element များမှ Gaseous Atom နှင့် Ion များ ဖြတ်၍ ဖြစ်ပေါ်လာစဉ် ပါဝင်သော Enthalpy Change အားလုံးကို ပြသော Enthalpy Cycle",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w2-dm-2",
+          termEn: "Hess's Law",
+          termMy: "Hess's Law",
+          matchEn:
+              "The total enthalpy change of a reaction is independent of the route taken, provided the start and end states are the same",
+          matchMy:
+              "Start နှင့် End State တူညီနေသရွေ့ Reaction တစ်ခု၏ Enthalpy Change စုစုပေါင်းသည် ယူသော Route နှင့် မသက်ဆိုင်ပါ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w2-dm-3",
+          termEn: "Direct route",
+          termMy: "Direct Route",
+          matchEn:
+              "Elements in their standard states converted straight to the ionic compound, ΔHf°",
+          matchMy:
+              "Element များ၏ Standard State များမှ Ionic Compound သို့ တိုက်ရိုက် ပြောင်းလဲခြင်း, ΔHf°",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w2-dm-4",
+          termEn: "Indirect route",
+          termMy: "Indirect Route",
+          matchEn:
+              "Elements converted to gaseous atoms, then gaseous ions, then finally to the ionic solid",
+          matchMy:
+              "Element များမှ Gaseous Atom သို့၊ ထို့နောက် Gaseous Ion သို့၊ နောက်ဆုံး Ionic Solid သို့ ပြောင်းလဲခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w2-dm-5",
+          termEn: "Lattice energy (as the unknown step)",
+          termMy: "Lattice Energy (Unknown Step အဖြစ်)",
+          matchEn:
+              "The one step usually left unknown in a Born-Haber cycle, found by rearranging the cycle using Hess's Law",
+          matchMy:
+              "Born-Haber Cycle တစ်ခုတွင် Unknown အဖြစ် ကျန်ခဲ့လေ့ရှိသော Step တစ်ခုတည်း၊ Hess's Law ဖြင့် Cycle ကို ပြန်လည်စီစဉ်ကာ ရှာဖွေသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Direct Route or Indirect Route?",
+      titleMy: "စီစစ်ကြမည် - Direct Route သို့မဟုတ် Indirect Route",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Part of the Indirect Route", "The Direct Route (ΔHf°)"],
+        bucketsMy: ["Indirect Route ၏ တစ်စိတ်တစ်ပိုင်း", "Direct Route (ΔHf°)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w2-sort-1",
+            labelEn: "ΔHf°(NaCl): elements straight to the ionic solid",
+            labelMy: "ΔHf°(NaCl): Element များမှ Ionic Solid သို့ တိုက်ရိုက်",
+            correctBucketEn: "The Direct Route (ΔHf°)",
+            correctBucketMy: "Direct Route (ΔHf°)",
+          ),
+          SortingItem(
+            id: "y13chem-w2-sort-2",
+            labelEn: "ΔHat°(Na): solid Na to gaseous Na atoms",
+            labelMy: "ΔHat°(Na): Solid Na မှ Gaseous Na Atom များသို့",
+            correctBucketEn: "Part of the Indirect Route",
+            correctBucketMy: "Indirect Route ၏ တစ်စိတ်တစ်ပိုင်း",
+          ),
+          SortingItem(
+            id: "y13chem-w2-sort-3",
+            labelEn: "IE1(Na): gaseous Na atoms to gaseous Na⁺ ions",
+            labelMy: "IE1(Na): Gaseous Na Atom များမှ Gaseous Na⁺ Ion များသို့",
+            correctBucketEn: "Part of the Indirect Route",
+            correctBucketMy: "Indirect Route ၏ တစ်စိတ်တစ်ပိုင်း",
+          ),
+          SortingItem(
+            id: "y13chem-w2-sort-4",
+            labelEn: "ΔHat°(Cl): Cl₂ gas to gaseous Cl atoms",
+            labelMy: "ΔHat°(Cl): Cl₂ Gas မှ Gaseous Cl Atom များသို့",
+            correctBucketEn: "Part of the Indirect Route",
+            correctBucketMy: "Indirect Route ၏ တစ်စိတ်တစ်ပိုင်း",
+          ),
+          SortingItem(
+            id: "y13chem-w2-sort-5",
+            labelEn: "Lattice energy: gaseous Na⁺ and Cl⁻ ions to solid NaCl",
+            labelMy: "Lattice Energy: Gaseous Na⁺ နှင့် Cl⁻ Ion များမှ Solid NaCl သို့",
+            correctBucketEn: "Part of the Indirect Route",
+            correctBucketMy: "Indirect Route ၏ တစ်စိတ်တစ်ပိုင်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating the Lattice Energy of MgO",
+      titleMy: "စာဖတ်ခြင်း - MgO ၏ Lattice Energy တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating the Lattice Energy of MgO",
+        titleMy: "MgO ၏ Lattice Energy တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min gave Su Su a bigger challenge than sodium chloride: magnesium oxide, MgO, whose atoms each lose or gain two electrons rather than one. He handed her the data: ΔHf°(MgO) = -602, ΔHat°(Mg) = +148, IE1(Mg) = +738, IE2(Mg) = +1451, ΔHat°(O) = +249, EA1(O) = -141, EA2(O) = +798, all in kJ mol⁻¹, and asked her to find the lattice energy.\n\nSu Su first checked that she had every step magnesium and oxygen each need to become gaseous ions. Magnesium needs atomisation, then two separate ionisation steps -- IE1(Mg) to remove the first electron and reach Mg+, then IE2(Mg) to remove a second electron and reach the full Mg2+ ion required in MgO. Oxygen needs atomisation, then two separate electron affinity steps -- EA1(O) is exothermic as the first electron is attracted in, but EA2(O) is endothermic, since a second electron is being forced onto an ion that is already negatively charged and repelling it.\n\nApplying Hess's Law exactly as she had for NaCl, Su Su rearranged the cycle: lattice energy = ΔHf° - (sum of every other step) = -602 - (148 + 738 + 1451 + 249 - 141 + 798) = -602 - 3243 = -3845 kJ mol⁻¹. Sayar Zaw Min asked her to compare this to NaCl's -786 kJ mol⁻¹ from the week before, and Su Su noticed immediately how much larger MgO's magnitude was -- nearly five times bigger. She had a guess why, but Sayar Zaw Min told her the real explanation, involving both ionic charge and ionic radius, would be the following week's topic.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Su Su ကို Sodium Chloride ထက် ပိုကြီးသော စိန်ခေါ်မှုတစ်ခု ပေးခဲ့သည် - Magnesium Oxide, MgO, ၎င်း၏ Atom တစ်ခုစီသည် Electron တစ်ခုတည်း မဟုတ်ဘဲ နှစ်ခုစီ ဆုံးရှုံး သို့မဟုတ် ရရှိကြသည်။ Data ကို ပေးအပ်ခဲ့သည် - ΔHf°(MgO) = -602, ΔHat°(Mg) = +148, IE1(Mg) = +738, IE2(Mg) = +1451, ΔHat°(O) = +249, EA1(O) = -141, EA2(O) = +798, အားလုံး kJ mol⁻¹ ဖြစ်ပြီး Lattice Energy ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nSu Su သည် Magnesium နှင့် Oxygen တစ်ခုစီ Gaseous Ion ဖြစ်ရန် လိုအပ်သော Step အားလုံး ရှိမရှိ ဦးစွာ စစ်ဆေးခဲ့သည်။ Magnesium သည် Atomisation လိုအပ်ပြီး ထို့နောက် သီးခြား Ionisation Step နှစ်ခု လိုအပ်သည် -- ပထမ Electron ဖယ်ရှားရန် IE1(Mg) ဖြင့် Mg+ သို့ ရောက်ပြီး ဒုတိယ Electron ဖယ်ရှားရန် IE2(Mg) ဖြင့် MgO တွင် လိုအပ်သော Full Mg2+ Ion သို့ ရောက်သည်။ Oxygen သည် Atomisation လိုအပ်ပြီး ထို့နောက် သီးခြား Electron Affinity Step နှစ်ခု လိုအပ်သည် -- ပထမ Electron ဆွဲငင်ခံရသောကြောင့် EA1(O) သည် Exothermic ဖြစ်သော်လည်း Electron ဒုတိယတစ်ခုကို Negative Charge ရှိပြီးသား Ion ပေါ်သို့ အတင်းတွန်းသွင်းရသောကြောင့် EA2(O) သည် Endothermic ဖြစ်သည်။\n\nNaCl အတွက် လုပ်ခဲ့သကဲ့သို့ Hess's Law ကို အတိအကျ အသုံးပြု၍ Su Su သည် Cycle ကို ပြန်လည်စီစဉ်ခဲ့သည် - Lattice Energy = ΔHf° - (အခြား Step အားလုံး၏ ပေါင်းလဒ်) = -602 - (148 + 738 + 1451 + 249 - 141 + 798) = -602 - 3243 = -3845 kJ mol⁻¹ ။ ယခင်ပတ်မှ NaCl ၏ -786 kJ mol⁻¹ နှင့် ဤတန်ဖိုးကို နှိုင်းယှဉ်ရန် Sayar ဇော်မင်း ခိုင်းစေခဲ့ပြီး MgO ၏ Magnitude ကြီးလွန်းသည်ကို Su Su ချက်ချင်း သတိပြုမိခဲ့သည် -- နီးပါးငါးဆ ပိုကြီးသည်။ အကြောင်းရင်းကို ခန့်မှန်းမိသော်လည်း Ionic Charge နှင့် Ionic Radius နှစ်ခုလုံး ပါဝင်သော တကယ့် ရှင်းပြချက်သည် နောက်ပတ်၏ ခေါင်းစဉ် ဖြစ်လိမ့်မည်ဟု Sayar ဇော်မင်း ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does magnesium need two separate ionisation steps?",
+            questionMy:
+                "Magnesium သည် အဘယ့်ကြောင့် သီးခြား Ionisation Step နှစ်ခု လိုအပ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "MgO requires the full Mg2+ ion, so both electrons must be removed one at a time",
+              "Magnesium has no ionisation energy at all",
+              "Only one ionisation step is actually needed",
+              "Magnesium always forms a 1+ ion in compounds",
+            ],
+            optionsMy: [
+              "MgO တွင် Full Mg2+ Ion လိုအပ်သောကြောင့် Electron နှစ်ခုလုံးကို တစ်ခုချင်းစီ ဖယ်ရှားရသည်",
+              "Magnesium တွင် Ionisation Energy လုံးဝ မရှိပါ",
+              "Ionisation Step တစ်ခုတည်းသာ တကယ် လိုအပ်သည်",
+              "Magnesium သည် Compound များတွင် 1+ Ion အမြဲ ဖြစ်ပေါ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of magnesium."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Magnesium ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why is EA2(O) endothermic while EA1(O) is exothermic?",
+            questionMy:
+                "EA1(O) သည် Exothermic ဖြစ်နေစဉ် EA2(O) သည် အဘယ့်ကြောင့် Endothermic ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A second electron is forced onto an ion that is already negatively charged and repelling it",
+              "Oxygen cannot gain a second electron under any conditions",
+              "Both electron affinity steps are actually exothermic",
+              "EA1(O) always requires more energy than EA2(O)",
+            ],
+            optionsMy: [
+              "Negative Charge ရှိပြီးသား Ion ပေါ်သို့ Electron ဒုတိယတစ်ခုကို အတင်းတွန်းသွင်းသောကြောင့်",
+              "Oxygen သည် မည်သည့် Condition တွင်မျှ Electron ဒုတိယတစ်ခု ရရှိ၍ မရနိုင်ပါ",
+              "Electron Affinity Step နှစ်ခုလုံးသည် တကယ် Exothermic ဖြစ်သည်",
+              "EA1(O) သည် EA2(O) ထက် Energy ပို၍ အမြဲ လိုအပ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of oxygen's two steps."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Oxygen Step နှစ်ခု ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what lattice energy value did Su Su calculate for MgO?",
+            questionMy: "MgO အတွက် Su Su တွက်ချက်ရရှိသော Lattice Energy တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "-3845 kJ mol⁻¹",
+              "-786 kJ mol⁻¹",
+              "-602 kJ mol⁻¹",
+              "+3845 kJ mol⁻¹",
+            ],
+            optionsMy: [
+              "-3845 kJ mol⁻¹",
+              "-786 kJ mol⁻¹",
+              "-602 kJ mol⁻¹",
+              "+3845 kJ mol⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Born-Haber Cycles",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Born-Haber Cycle များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A Born-Haber cycle relies on which fundamental law?",
+          questionMy: "Born-Haber Cycle သည် မည်သည့် အခြေခံ Law အပေါ် မှီခိုသနည်း",
+          optionsEn: ["Hess's Law", "Boyle's Law", "Avogadro's Law", "Charles's Law"],
+          optionsMy: ["Hess's Law", "Boyle's Law", "Avogadro's Law", "Charles's Law"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a Born-Haber cycle, lattice energy is usually the step that is...",
+          questionMy: "Born-Haber Cycle တစ်ခုတွင် Lattice Energy သည် ပုံမှန်အားဖြင့် ...ဖြစ်သည့် Step ဖြစ်သည်",
+          optionsEn: [
+            "Calculated indirectly, since it cannot be measured directly",
+            "Always given directly in the question",
+            "Identical to ΔHf° in every case",
+            "Impossible to calculate at all",
+          ],
+          optionsMy: [
+            "တိုက်ရိုက် တိုင်းတာ၍ မရနိုင်သောကြောင့် သွယ်ဝိုက်စွာ တွက်ချက်ရသည်",
+            "မေးခွန်းတွင် တိုက်ရိုက် ပေးထားလေ့ရှိသည်",
+            "ΔHf° နှင့် အမှုတစ်ခုစီတွင် အတူတူပင် ဖြစ်သည်",
+            "လုံးဝ တွက်ချက်၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a compound: ΔHf° = -400, sum of all other Born-Haber steps = +500 (both kJ mol⁻¹). The lattice energy is...",
+          questionMy:
+              "Compound တစ်ခုအတွက် - ΔHf° = -400, အခြား Born-Haber Step အားလုံး၏ ပေါင်းလဒ် = +500 (နှစ်ခုလုံး kJ mol⁻¹) ။ Lattice Energy သည်...",
+          optionsEn: ["-900 kJ mol⁻¹", "+900 kJ mol⁻¹", "+100 kJ mol⁻¹", "-100 kJ mol⁻¹"],
+          optionsMy: ["-900 kJ mol⁻¹", "+900 kJ mol⁻¹", "+100 kJ mol⁻¹", "-100 kJ mol⁻¹"],
+          correctIndex: 0,
+          hintsEn: ["LE = ΔHf° - (sum of other steps) = -400 - 500 = -900 kJ mol⁻¹."],
+          hintsMy: ["LE = ΔHf° - (အခြား Step များ၏ ပေါင်းလဒ်) = -400 - 500 = -900 kJ mol⁻¹ ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Factors Affecting Lattice Energy Magnitude"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek3 = CourseWeekDef(
+  id: "course-y13-chem-w3",
+  weekNumber: 3,
+  titleEn: "Factors Affecting Lattice Energy Magnitude",
+  titleMy: "Lattice Energy Magnitude ကို သက်ရောက်စေသော Factor များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w3-d1",
+      dayNumber: 1,
+      titleEn: "Ionic Charge and Ionic Radius",
+      titleMy: "Ionic Charge နှင့် Ionic Radius",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "As ionic charge increases (all else equal), the magnitude of lattice energy...",
+          questionMy: "Ionic Charge တိုးလာလျှင် (အခြားအရာများ တူညီသည်ဟု ယူဆလျှင်) Lattice Energy ၏ Magnitude သည်...",
+          optionsEn: [
+            "Increases (becomes more exothermic)",
+            "Decreases (becomes less exothermic)",
+            "Stays exactly the same",
+            "Becomes endothermic instead",
+          ],
+          optionsMy: [
+            "တိုးလာသည် (ပို၍ Exothermic ဖြစ်လာသည်)",
+            "လျော့ကျသည် (ပို၍ Exothermic နည်းလာသည်)",
+            "လုံးဝ မပြောင်းလဲပါ",
+            "အစား Endothermic ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Higher ionic charges create stronger electrostatic (Coulombic) attraction between the ions, releasing more energy when the lattice forms.",
+          ],
+          hintsMy: [
+            "Ionic Charge ပိုများခြင်းသည် Ion များကြား Electrostatic (Coulombic) Attraction ပို၍ ပြင်းထန်စေပြီး Lattice ဖြစ်ပေါ်လာစဉ် Energy ပို၍ ထွက်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "As ionic radius increases (all else equal), the magnitude of lattice energy...",
+          questionMy: "Ionic Radius တိုးလာလျှင် (အခြားအရာများ တူညီသည်ဟု ယူဆလျှင်) Lattice Energy ၏ Magnitude သည်...",
+          optionsEn: [
+            "Decreases (becomes less exothermic)",
+            "Increases (becomes more exothermic)",
+            "Stays exactly the same",
+            "Becomes endothermic instead",
+          ],
+          optionsMy: [
+            "လျော့ကျသည် (ပို၍ Exothermic နည်းလာသည်)",
+            "တိုးလာသည် (ပို၍ Exothermic ဖြစ်လာသည်)",
+            "လုံးဝ မပြောင်းလဲပါ",
+            "အစား Endothermic ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Larger ions keep opposite charges further apart, weakening the electrostatic attraction and reducing lattice energy's magnitude.",
+          ],
+          hintsMy: [
+            "Ion ကြီးများသည် Charge ဆန့်ကျင်ဖက်များကို ပို၍ ဝေးစေပြီး Electrostatic Attraction ကို အားနည်းစေကာ Lattice Energy ၏ Magnitude ကို လျော့ကျစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparing MgO (Mg2+ and O2-) with NaCl (Na+ and Cl-), which has the more exothermic (larger magnitude) lattice energy?",
+          questionMy:
+              "MgO (Mg2+ နှင့် O2-) ကို NaCl (Na+ နှင့် Cl-) နှင့် နှိုင်းယှဉ်လျှင် မည်သည်က ပို၍ Exothermic (Magnitude ပိုကြီး) သော Lattice Energy ရှိသနည်း",
+          optionsEn: [
+            "MgO, because of its higher ionic charges and smaller ionic radii",
+            "NaCl, because sodium is more reactive than magnesium",
+            "Both are exactly equal in magnitude",
+            "Neither has a defined lattice energy",
+          ],
+          optionsMy: [
+            "MgO, Ionic Charge ပိုများပြီး Ionic Radius ပိုသေးငယ်သောကြောင့်",
+            "NaCl, Sodium သည် Magnesium ထက် Reactive ပိုများသောကြောင့်",
+            "နှစ်ခုစလုံး Magnitude အတိအကျ ညီမျှသည်",
+            "မည်သည့်တစ်ခုမျှ သတ်မှတ်ထားသော Lattice Energy မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "MgO combines both factors in its favour: 2+/2- charges (versus 1+/1- for NaCl) and smaller ionic radii for both Mg2+ and O2-.",
+          ],
+          hintsMy: [
+            "MgO သည် Factor နှစ်ခုစလုံးကို ရရှိသည် - 2+/2- Charge (NaCl ၏ 1+/1- နှင့် နှိုင်းယှဉ်လျှင်) နှင့် Mg2+ နှင့် O2- နှစ်ခုစလုံးအတွက် Ionic Radius ပိုသေးငယ်ခြင်း။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Lattice Energy Trends",
+      titleMy: "တွဲစပ်ကြမည် - Lattice Energy Trend များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w3-dm-1",
+          termEn: "Ionic charge",
+          termMy: "Ionic Charge",
+          matchEn:
+              "Larger ionic charges increase the electrostatic attraction between ions, making lattice energy more exothermic",
+          matchMy:
+              "Ionic Charge ပိုများခြင်းသည် Ion များကြား Electrostatic Attraction ကို တိုးစေပြီး Lattice Energy ကို ပို၍ Exothermic ဖြစ်စေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w3-dm-2",
+          termEn: "Ionic radius",
+          termMy: "Ionic Radius",
+          matchEn:
+              "Smaller ionic radii let ions pack closer together, increasing lattice energy's magnitude",
+          matchMy:
+              "Ionic Radius သေးငယ်ခြင်းသည် Ion များ ပို၍ နီးကပ်စွာ ထုပ်ပိုးနိုင်စေပြီး Lattice Energy ၏ Magnitude ကို တိုးစေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w3-dm-3",
+          termEn: "Interionic distance",
+          termMy: "Interionic Distance",
+          matchEn:
+              "The sum of the radii of the cation and anion -- a smaller distance gives stronger electrostatic attraction",
+          matchMy:
+              "Cation နှင့် Anion ၏ Radius ပေါင်းလဒ် -- Distance သေးငယ်လေ Electrostatic Attraction ပြင်းထန်လေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w3-dm-4",
+          termEn: "Coulomb's law",
+          termMy: "Coulomb's Law",
+          matchEn:
+              "Electrostatic attraction is proportional to the product of the charges and inversely proportional to the square of the distance between them",
+          matchMy:
+              "Electrostatic Attraction သည် Charge ပေါင်းလဒ်နှင့် တိုက်ရိုက် အချိုးကျပြီး ၎င်းတို့ကြား Distance ၏ Square နှင့် ပြောင်းပြန် အချိုးကျသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w3-dm-5",
+          termEn: "Lattice energy magnitude",
+          termMy: "Lattice Energy Magnitude",
+          matchEn:
+              "Increases with higher ionic charge and decreases with larger ionic radius",
+          matchMy:
+              "Ionic Charge ပိုများလေ တိုးလေ၊ Ionic Radius ပိုကြီးလေ လျော့ကျလေ ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Larger or Smaller Lattice Energy Magnitude?",
+      titleMy: "စီစစ်ကြမည် - Lattice Energy Magnitude ပိုကြီးလား ပိုသေးလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Larger Magnitude (Higher Charge / Smaller Ions)",
+          "Smaller Magnitude (Lower Charge / Larger Ions)",
+        ],
+        bucketsMy: [
+          "Magnitude ပိုကြီး (Charge ပိုများ / Ion ပိုသေး)",
+          "Magnitude ပိုသေး (Charge ပိုနည်း / Ion ပိုကြီး)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13chem-w3-sort-1",
+            labelEn: "NaF (small F⁻ ion)",
+            labelMy: "NaF (F⁻ Ion သေးငယ်)",
+            correctBucketEn: "Larger Magnitude (Higher Charge / Smaller Ions)",
+            correctBucketMy: "Magnitude ပိုကြီး (Charge ပိုများ / Ion ပိုသေး)",
+          ),
+          SortingItem(
+            id: "y13chem-w3-sort-2",
+            labelEn: "NaI (large I⁻ ion)",
+            labelMy: "NaI (I⁻ Ion ကြီးမား)",
+            correctBucketEn: "Smaller Magnitude (Lower Charge / Larger Ions)",
+            correctBucketMy: "Magnitude ပိုသေး (Charge ပိုနည်း / Ion ပိုကြီး)",
+          ),
+          SortingItem(
+            id: "y13chem-w3-sort-3",
+            labelEn: "MgO (2+ and 2- ions, both small)",
+            labelMy: "MgO (2+ နှင့် 2- Ion၊ နှစ်ခုစလုံး သေးငယ်)",
+            correctBucketEn: "Larger Magnitude (Higher Charge / Smaller Ions)",
+            correctBucketMy: "Magnitude ပိုကြီး (Charge ပိုများ / Ion ပိုသေး)",
+          ),
+          SortingItem(
+            id: "y13chem-w3-sort-4",
+            labelEn: "KCl (K⁺ is a larger cation than Na⁺)",
+            labelMy: "KCl (K⁺ သည် Na⁺ ထက် Cation ကြီးမား)",
+            correctBucketEn: "Smaller Magnitude (Lower Charge / Larger Ions)",
+            correctBucketMy: "Magnitude ပိုသေး (Charge ပိုနည်း / Ion ပိုကြီး)",
+          ),
+          SortingItem(
+            id: "y13chem-w3-sort-5",
+            labelEn: "CaO (2+ and 2- ions, smaller radii than BaO)",
+            labelMy: "CaO (2+ နှင့် 2- Ion၊ BaO ထက် Radius ပိုသေး)",
+            correctBucketEn: "Larger Magnitude (Higher Charge / Smaller Ions)",
+            correctBucketMy: "Magnitude ပိုကြီး (Charge ပိုများ / Ion ပိုသေး)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ranking Four Lattice Energies",
+      titleMy: "စာဖတ်ခြင်း - Lattice Energy လေးခု အဆင့်သတ်မှတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ranking Four Lattice Energies",
+        titleMy: "Lattice Energy လေးခု အဆင့်သတ်မှတ်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min wrote four lattice energy values on the board without saying which compound each belonged to: -918, -787, -753, -703, all in kJ mol⁻¹. He told Htet Aung they belonged, in some order, to NaF, NaCl, NaBr and NaI, and asked him to match each value to its compound using only the trend he had learned that week.\n\nHtet Aung reasoned it through systematically. All four compounds share the same cation, Na+, so ionic charge could not be the deciding factor here -- only the anion's radius was changing, and the halide ions grow steadily larger down the group: F- is the smallest, then Cl-, then Br-, then I- is the largest. Since a smaller ionic radius means a shorter interionic distance and a stronger electrostatic attraction, he expected the most exothermic (largest magnitude) lattice energy to belong to NaF and the least exothermic to belong to NaI, with NaCl and NaBr falling in between in that same order.\n\nMatching the four numbers to that trend, Htet Aung assigned -918 to NaF, -787 to NaCl, -753 to NaBr, and -703 to NaI -- a smooth decrease in magnitude exactly tracking the anion's increasing radius. Sayar Zaw Min then asked one more question: why was magnesium oxide's lattice energy, at -3845 kJ mol⁻¹ from the week before, so much larger than any of these four sodium halides even though O2- isn't dramatically smaller than the halide ions? Htet Aung answered that MgO's advantage wasn't really about radius at all -- it was about charge, since 2+ and 2- ions attract each other roughly four times as strongly as 1+ and 1- ions do at a similar distance, and charge, he now understood, is usually the more powerful of the two factors.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် မည်သည့် Compound က မည်သည့် တန်ဖိုးဖြစ်သည်ကို မပြောဘဲ Lattice Energy တန်ဖိုးလေးခုကို Board ပေါ်တွင် ရေးခဲ့သည် - -918, -787, -753, -703, အားလုံး kJ mol⁻¹ ဖြစ်သည်။ ၎င်းတို့သည် NaF, NaCl, NaBr နှင့် NaI တို့ ဖြစ်ကြောင်း Htet Aung ကို ပြောပြီး ထိုပတ် သင်ယူခဲ့သော Trend တစ်ခုတည်းကိုသာ အသုံးပြု၍ တန်ဖိုးတစ်ခုစီကို Compound တစ်ခုစီနှင့် တွဲစပ်ခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် စနစ်တကျ ဆင်ခြင်တွေးခေါ်ခဲ့သည်။ Compound လေးခုစလုံးသည် Cation တူညီစွာ Na+ ရှိသောကြောင့် Ionic Charge သည် ဤနေရာတွင် ဆုံးဖြတ်ချက် Factor မဖြစ်နိုင်ပါ -- Anion ၏ Radius တစ်ခုတည်းသာ ပြောင်းလဲနေပြီး Halide Ion များသည် Group အောက်သို့ တဖြည်းဖြည်း ကြီးလာသည် - F- သည် အသေးဆုံး၊ ထို့နောက် Cl-, ထို့နောက် Br-, နောက်ဆုံး I- သည် အကြီးဆုံး ဖြစ်သည်။ Ionic Radius သေးငယ်ခြင်းသည် Interionic Distance တိုစေပြီး Electrostatic Attraction ပြင်းထန်စေသောကြောင့် Lattice Energy Exothermic ဆုံး (Magnitude အကြီးဆုံး) သည် NaF ဖြစ်ပြီး Exothermic အနည်းဆုံးသည် NaI ဖြစ်လိမ့်မည်ဟု ခန့်မှန်းခဲ့ပြီး NaCl နှင့် NaBr သည် ထိုအလားတူ အစဉ်အတိုင်း ကြားတွင် ရှိလိမ့်မည်။\n\nဂဏန်းလေးခုကို ထို Trend နှင့် တွဲစပ်ကာ Htet Aung သည် -918 ကို NaF သို့၊ -787 ကို NaCl သို့၊ -753 ကို NaBr သို့၊ -703 ကို NaI သို့ ခွဲဝေခဲ့သည် -- Anion ၏ Radius တိုးလာမှုကို အတိအကျ လိုက်နာသော Magnitude ချောမွေ့စွာ လျော့ကျမှု ဖြစ်သည်။ Sayar ဇော်မင်း သည် နောက်ထပ် မေးခွန်းတစ်ခု ထပ်မံ မေးခဲ့သည် - O2- သည် Halide Ion များထက် အလွန်အမင်း သေးငယ်ခြင်း မရှိသော်လည်း ယခင်ပတ်မှ Magnesium Oxide ၏ Lattice Energy သည် -3845 kJ mol⁻¹ ဖြင့် Sodium Halide လေးခုစလုံးထက် အဘယ့်ကြောင့် ပို၍ ကြီးမားသနည်း။ MgO ၏ အားသာချက်သည် Radius နှင့် လုံးဝ မသက်ဆိုင်ဘဲ Charge နှင့် သက်ဆိုင်ကြောင့် Htet Aung ဖြေကြားခဲ့သည် -- 2+ နှင့် 2- Ion များသည် အလားတူ Distance တွင် 1+ နှင့် 1- Ion များထက် ခန့်မှန်းခြေ လေးဆ ပို၍ ပြင်းထန်စွာ ဆွဲငင်ကြပြီး Charge သည် ယခု နားလည်သွားသည့်အတိုင်း Factor နှစ်ခုအနက် ပို၍ အားကောင်းသည့် တစ်ခု ဖြစ်တတ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which sodium halide has the most exothermic lattice energy?",
+            questionMy: "Sodium Halide များထဲမှ မည်သည်၏ Lattice Energy သည် Exothermic ဆုံးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["NaF", "NaCl", "NaBr", "NaI"],
+            optionsMy: ["NaF", "NaCl", "NaBr", "NaI"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's assignment of -918."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ -918 ခွဲဝေချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does Htet Aung expect NaI to have the smallest-magnitude lattice energy of the four?",
+            questionMy:
+                "Htet Aung သည် NaI ၏ Lattice Energy Magnitude ကို လေးခုထဲမှ အသေးဆုံးဟု အဘယ့်ကြောင့် ခန့်မှန်းသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "I⁻ is the largest halide ion, giving the longest interionic distance and weakest attraction",
+              "Iodine has the highest ionic charge of the halides",
+              "NaI has no lattice energy at all",
+              "I⁻ is actually the smallest halide ion",
+            ],
+            optionsMy: [
+              "I⁻ သည် Halide Ion များထဲမှ အကြီးဆုံးဖြစ်ပြီး Interionic Distance အရှည်ဆုံး၊ Attraction အနည်းဆုံး ရှိစေသည်",
+              "Iodine သည် Halide များထဲမှ Ionic Charge အများဆုံး ရှိသည်",
+              "NaI တွင် Lattice Energy လုံးဝ မရှိပါ",
+              "I⁻ သည် တကယ် Halide Ion များထဲမှ အသေးဆုံး ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's reasoning about anion size."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Anion အရွယ်အစား ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why is MgO's lattice energy so much larger than the sodium halides'?",
+            questionMy:
+                "MgO ၏ Lattice Energy သည် Sodium Halide များထက် အဘယ့်ကြောင့် ပို၍ ကြီးမားသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its higher ionic charges (2+ and 2-) create much stronger electrostatic attraction than 1+/1- charges",
+              "Its ions are dramatically smaller than any halide ion",
+              "It has no relationship to ionic charge or radius at all",
+              "Oxygen always forms weaker bonds than sodium",
+            ],
+            optionsMy: [
+              "Ionic Charge ပိုများခြင်း (2+ နှင့် 2-) သည် 1+/1- Charge ထက် Electrostatic Attraction ပို၍ ပြင်းထန်စေသည်",
+              "၎င်း၏ Ion များသည် Halide Ion မည်သည့်တစ်ခုထက်မဆို အလွန်အမင်း သေးငယ်သည်",
+              "Ionic Charge သို့မဟုတ် Radius နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+              "Oxygen သည် Sodium ထက် Bond အားနည်းသည်များကို အမြဲ ဖြစ်ပေါ်စေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation of MgO's advantage."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ MgO ၏ အားသာချက် ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Lattice Energy Factors",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Lattice Energy Factor များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Higher ionic charge makes lattice energy...",
+          questionMy: "Ionic Charge ပိုများခြင်းသည် Lattice Energy ကို...",
+          optionsEn: ["More exothermic", "Less exothermic", "Exactly zero", "Endothermic"],
+          optionsMy: ["Exothermic ပို၍", "Exothermic နည်း၍", "Zero အတိအကျ", "Endothermic"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Larger ionic radius makes lattice energy...",
+          questionMy: "Ionic Radius ပိုကြီးခြင်းသည် Lattice Energy ကို...",
+          optionsEn: ["Less exothermic", "More exothermic", "Exactly zero", "Endothermic"],
+          optionsMy: ["Exothermic နည်း၍", "Exothermic ပို၍", "Zero အတိအကျ", "Endothermic"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Between NaF and NaI, which has the more exothermic lattice energy?",
+          questionMy: "NaF နှင့် NaI ကြား မည်သည်၏ Lattice Energy သည် ပို၍ Exothermic ဖြစ်သနည်း",
+          optionsEn: [
+            "NaF, since F⁻ is a smaller ion than I⁻",
+            "NaI, since iodine is more reactive",
+            "Both are identical",
+            "Neither has a lattice energy",
+          ],
+          optionsMy: [
+            "NaF, F⁻ သည် I⁻ ထက် Ion သေးငယ်သောကြောင့်",
+            "NaI, Iodine ပို၍ Reactive ဖြစ်သောကြောင့်",
+            "နှစ်ခုစလုံး တူညီသည်",
+            "မည်သည့်တစ်ခုမျှ Lattice Energy မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4 (Boss Week): "Entropy, Gibbs Free Energy and Reaction Feasibility"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek4 = CourseWeekDef(
+  id: "course-y13-chem-w4",
+  weekNumber: 4,
+  titleEn: "Entropy, Gibbs Free Energy and Reaction Feasibility",
+  titleMy: "Entropy, Gibbs Free Energy နှင့် Reaction Feasibility",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w4-d1",
+      dayNumber: 1,
+      titleEn: "Entropy and the Gibbs Free Energy Equation",
+      titleMy: "Entropy နှင့် Gibbs Free Energy Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Entropy (S) is a measure of...",
+          questionMy: "Entropy (S) သည် ...၏ တိုင်းတာမှု ဖြစ်သည်",
+          optionsEn: [
+            "The number of ways particles and their energy can be arranged (disorder) in a system",
+            "The total mass of a system",
+            "The temperature of a system in Kelvin",
+            "The number of moles of gas produced only",
+          ],
+          optionsMy: [
+            "System တစ်ခုတွင် Particle များနှင့် ၎င်းတို့၏ Energy ကို စီစဉ်နိုင်သော နည်းလမ်း အရေအတွက် (Disorder)",
+            "System တစ်ခု၏ Mass စုစုပေါင်း",
+            "System တစ်ခု၏ Temperature ကို Kelvin ဖြင့်",
+            "ထုတ်လွှတ်သော Gas Mole အရေအတွက်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Entropy is often described as a measure of disorder -- the more ways a system's particles and energy can be arranged, the higher its entropy.",
+          ],
+          hintsMy: [
+            "Entropy ကို Disorder ၏ တိုင်းတာမှု ဟု မကြာခဏ ဖော်ပြသည် -- System ၏ Particle များနှင့် Energy ကို စီစဉ်နိုင်သော နည်းလမ်း ပိုများလေ Entropy ပိုမြင့်လေ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a reaction to be thermodynamically feasible (spontaneous) at a given temperature, the Gibbs free energy change, ΔG, must be...",
+          questionMy:
+              "Reaction တစ်ခု Temperature သတ်မှတ်ချက်တစ်ခုတွင် Thermodynamically Feasible (Spontaneous) ဖြစ်ရန် Gibbs Free Energy Change, ΔG သည် ...ဖြစ်ရမည်",
+          optionsEn: ["Negative", "Positive", "Exactly zero always", "Equal to ΔH always"],
+          optionsMy: ["Negative", "Positive", "Zero အမြဲ အတိအကျ", "ΔH နှင့် အမြဲ ညီမျှ"],
+          correctIndex: 0,
+          hintsEn: [
+            "The feasibility criterion is ΔG < 0 -- a negative Gibbs free energy change at the temperature considered.",
+          ],
+          hintsMy: [
+            "Feasibility Criterion သည် ΔG < 0 ဖြစ်သည် -- စဉ်းစားနေသော Temperature တွင် Negative Gibbs Free Energy Change ဖြစ်ရမည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In ΔG = ΔH - TΔS, if ΔH is negative (exothermic) and ΔS is positive (more disorder), then ΔG is...",
+          questionMy:
+              "ΔG = ΔH - TΔS တွင် ΔH သည် Negative (Exothermic) ဖြစ်ပြီး ΔS သည် Positive (Disorder ပိုများ) ဖြစ်ပါက ΔG သည်...",
+          optionsEn: [
+            "Always negative, at any temperature",
+            "Always positive, at any temperature",
+            "Impossible to determine without any numbers",
+            "Always exactly zero",
+          ],
+          optionsMy: [
+            "Temperature မည်သည့်တစ်ခုတွင်မဆို အမြဲ Negative",
+            "Temperature မည်သည့်တစ်ခုတွင်မဆို အမြဲ Positive",
+            "ဂဏန်းများ မပါဘဲ ဆုံးဖြတ်၍ မရနိုင်ပါ",
+            "အမြဲ Zero အတိအကျ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A negative ΔH makes ΔG more negative, and a positive ΔS makes -TΔS negative too, so both terms push ΔG negative at every temperature.",
+          ],
+          hintsMy: [
+            "Negative ΔH သည် ΔG ကို ပို၍ Negative ဖြစ်စေပြီး Positive ΔS သည် -TΔS ကိုလည်း Negative ဖြစ်စေသောကြောင့် Term နှစ်ခုစလုံးသည် Temperature မည်သည့်တစ်ခုတွင်မဆို ΔG ကို Negative ဘက်သို့ တွန်းပို့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Entropy and Feasibility Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Entropy and Feasibility ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w4-dm-1",
+          termEn: "Entropy (S)",
+          termMy: "Entropy (S)",
+          matchEn:
+              "A measure of the number of ways particles and their energy can be arranged in a system -- disorder",
+          matchMy:
+              "System တစ်ခုတွင် Particle များနှင့် ၎င်းတို့၏ Energy ကို စီစဉ်နိုင်သော နည်းလမ်း အရေအတွက် တိုင်းတာမှု -- Disorder",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w4-dm-2",
+          termEn: "Gibbs free energy change (ΔG)",
+          termMy: "Gibbs Free Energy Change (ΔG)",
+          matchEn:
+              "Combines enthalpy and entropy changes to predict whether a reaction is thermodynamically feasible",
+          matchMy:
+              "Reaction တစ်ခု Thermodynamically Feasible ဖြစ်မဖြစ် ခန့်မှန်းရန် Enthalpy Change နှင့် Entropy Change ကို ပေါင်းစည်းသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w4-dm-3",
+          termEn: "Feasible reaction",
+          termMy: "Feasible Reaction",
+          matchEn: "A reaction with ΔG < 0 (negative) at the temperature considered",
+          matchMy: "စဉ်းစားနေသော Temperature တွင် ΔG < 0 (Negative) ရှိသော Reaction",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w4-dm-4",
+          termEn: "ΔS (entropy change)",
+          termMy: "ΔS (Entropy Change)",
+          matchEn:
+              "Positive when a system becomes more disordered, e.g. a solid dissolving or a gas being produced",
+          matchMy:
+              "System ပို၍ Disordered ဖြစ်လာလျှင် Positive ဖြစ်သည်၊ ဥပမာ - Solid တစ်ခု ပျော်ဝင်ခြင်း သို့မဟုတ် Gas ထုတ်လွှတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w4-dm-5",
+          termEn: "ΔG = ΔH - TΔS",
+          termMy: "ΔG = ΔH - TΔS",
+          matchEn:
+              "The Gibbs free energy equation, where T is the absolute temperature in Kelvin",
+          matchMy: "Gibbs Free Energy Equation၊ T သည် Kelvin ဖြင့် Absolute Temperature ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: ΔS Positive or Negative?",
+      titleMy: "စီစစ်ကြမည် - ΔS Positive သို့မဟုတ် Negative",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["ΔS Positive (More Disorder)", "ΔS Negative (Less Disorder)"],
+        bucketsMy: ["ΔS Positive (Disorder ပိုများ)", "ΔS Negative (Disorder ပိုနည်း)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w4-sort-1",
+            labelEn: "A solid dissolving in water",
+            labelMy: "Solid တစ်ခု ရေထဲတွင် ပျော်ဝင်ခြင်း",
+            correctBucketEn: "ΔS Positive (More Disorder)",
+            correctBucketMy: "ΔS Positive (Disorder ပိုများ)",
+          ),
+          SortingItem(
+            id: "y13chem-w4-sort-2",
+            labelEn: "A gas being produced from a solid reactant",
+            labelMy: "Solid Reactant မှ Gas ထုတ်လွှတ်ခြင်း",
+            correctBucketEn: "ΔS Positive (More Disorder)",
+            correctBucketMy: "ΔS Positive (Disorder ပိုများ)",
+          ),
+          SortingItem(
+            id: "y13chem-w4-sort-3",
+            labelEn: "Two moles of gas reacting to form one mole of gas",
+            labelMy: "Gas Mole နှစ်ခု ပေါင်းစပ်ကာ Gas Mole တစ်ခု ဖြစ်ပေါ်ခြင်း",
+            correctBucketEn: "ΔS Negative (Less Disorder)",
+            correctBucketMy: "ΔS Negative (Disorder ပိုနည်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w4-sort-4",
+            labelEn: "A gas condensing to a liquid",
+            labelMy: "Gas တစ်ခု Liquid သို့ ပြောင်းလဲခြင်း",
+            correctBucketEn: "ΔS Negative (Less Disorder)",
+            correctBucketMy: "ΔS Negative (Disorder ပိုနည်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w4-sort-5",
+            labelEn: "Gaseous ions forming a solid ionic lattice",
+            labelMy: "Gaseous Ion များမှ Solid Ionic Lattice ဖြစ်ပေါ်ခြင်း",
+            correctBucketEn: "ΔS Negative (Less Disorder)",
+            correctBucketMy: "ΔS Negative (Disorder ပိုနည်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Ionic Solids Still Form Spontaneously",
+      titleMy: "စာဖတ်ခြင်း - Ionic Solid များ Spontaneously ဖြစ်ပေါ်ဆဲ ရှိနေသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Ionic Solids Still Form Spontaneously",
+        titleMy: "Ionic Solid များ Spontaneously ဖြစ်ပေါ်ဆဲ ရှိနေသည့် အကြောင်း",
+        passageEn:
+            "Sayar Zaw Min posed a puzzle to close the term: over the past three weeks, Su Su had learned that lattice energy -- gaseous ions coming together into a solid -- is always strongly exothermic. But gaseous ions moving freely and randomly, then locking into one fixed, orderly crystal lattice, is exactly the kind of change that should decrease entropy sharply. So why, he asked, does sodium chloride still form completely spontaneously from its elements, if lattice formation costs the system so much entropy?\n\nSu Su worked through it using the equation from that week: ΔG = ΔH - TΔS. For the overall formation of NaCl from Na(s) and Cl2(g), she used ΔHf°(NaCl) = -411 kJ mol⁻¹ and an entropy change of ΔS° = -284 J K⁻¹ mol⁻¹ -- negative, exactly as she now expected, since solid, ordered NaCl has far less entropy than the disordered solid metal and gas it forms from. At room temperature, T = 298 K, she calculated -TΔS = -(298 x -284) = +84,632 J mol⁻¹, or +84.6 kJ mol⁻¹ -- a positive penalty working against feasibility, exactly as a negative ΔS should produce.\n\nAdding the two terms together, ΔG = -411 + 84.6 = -326.4 kJ mol⁻¹ -- still strongly negative, and therefore still feasible. Sayar Zaw Min pointed out what this really showed: the entropy penalty was real and worked in the unfavourable direction, but it was completely dwarfed by the size of ΔHf°'s exothermic value. This, he said, was the whole term coming together -- Weeks 1 to 3 had built and explained lattice energy as a huge, dominant exothermic term, and Week 4 finally showed why that dominance matters: it's large enough to overpower entropy's objection and drive ionic compound formation forward as a spontaneous process every time.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Term ကို ပိတ်ရန် ပဟေဠိတစ်ခု တင်ပြခဲ့သည် - လွန်ခဲ့သော သုံးပတ်အတွင်း Lattice Energy -- Gaseous Ion များ ပေါင်းစည်း၍ Solid ဖြစ်ပေါ်ခြင်း -- သည် အမြဲ ပြင်းထန်စွာ Exothermic ဖြစ်ကြောင်း Su Su သင်ယူခဲ့သည်။ သို့သော် Gaseous Ion များသည် လွတ်လပ်စွာ၊ ကျပန်းစွာ ရွေ့လျားနေရာမှ Fixed, Orderly Crystal Lattice တစ်ခုတည်းသို့ လော့ချထည့်ခြင်းသည် Entropy ကို ပြင်းထန်စွာ လျော့ကျစေမည့် အမျိုးအစား ပြောင်းလဲမှု အတိအကျ ဖြစ်သည်။ Lattice Formation က System ကို Entropy များစွာ ကုန်ကျစေလျှင် Sodium Chloride သည် ၎င်း၏ Element များမှ လုံးဝ Spontaneously အဘယ့်ကြောင့် ဆက်လက်ဖြစ်ပေါ်နေဆဲနည်း ဟု ၎င်း မေးခဲ့သည်။\n\nSu Su သည် ထိုပတ်မှ Equation ကို အသုံးပြု၍ ဖြေရှင်းခဲ့သည် - ΔG = ΔH - TΔS ။ Na(s) နှင့် Cl2(g) မှ NaCl ၏ စုစုပေါင်း Formation အတွက် ΔHf°(NaCl) = -411 kJ mol⁻¹ နှင့် Entropy Change ΔS° = -284 J K⁻¹ mol⁻¹ ကို အသုံးပြုခဲ့သည် -- Negative, ယခု ခန့်မှန်းထားသည့်အတိုင်း အတိအကျ ဖြစ်သည်၊ Solid, Orderly NaCl သည် ၎င်းဖြစ်ပေါ်လာသော Disordered Solid Metal နှင့် Gas ထက် Entropy အလွန် နည်းသောကြောင့် ဖြစ်သည်။ Room Temperature, T = 298 K တွင် -TΔS = -(298 x -284) = +84,632 J mol⁻¹ သို့မဟုတ် +84.6 kJ mol⁻¹ ကို တွက်ချက်ခဲ့သည် -- Feasibility ကို ဆန့်ကျင်၍ အလုပ်လုပ်သော Positive Penalty ဖြစ်ပြီး Negative ΔS ထွက်ပေးသင့်သည့်အတိုင်း အတိအကျ ဖြစ်သည်။\n\nTerm နှစ်ခုကို ပေါင်းထည့်ခြင်း - ΔG = -411 + 84.6 = -326.4 kJ mol⁻¹ -- ဆက်လက် ပြင်းထန်စွာ Negative ဖြစ်၍ ဆက်လက် Feasible ဖြစ်သည်။ ဤသည် တကယ့်တွင် ဘာကို ပြသနေသည်ကို Sayar ဇော်မင်း ထောက်ပြခဲ့သည် - Entropy Penalty သည် တကယ့် ဖြစ်ပြီး မကောင်းသော ဦးတည်ချက်တွင် အလုပ်လုပ်ခဲ့သော်လည်း ΔHf° ၏ Exothermic တန်ဖိုးအရွယ်အစားက ၎င်းကို လုံးဝ ဖုံးအုပ်ထားသည်။ ၎င်းသည် Term တစ်ခုလုံး ပေါင်းစည်းလာသည့် သဘောပင် ဖြစ်သည်ဟု ၎င်း ပြောခဲ့သည် -- Week ၁ မှ ၃ အထိ Lattice Energy ကို ကြီးမား၊ လွှမ်းမိုးထားသော Exothermic Term တစ်ခုအဖြစ် တည်ဆောက်ရှင်းပြခဲ့ပြီး Week ၄ သည် နောက်ဆုံးတွင် ထို လွှမ်းမိုးမှု အဘယ့်ကြောင့် အရေးကြီးသည်ကို ပြသခဲ့သည် - Entropy ၏ ကန့်ကွက်မှုကို လွှမ်းမိုးနိုင်လောက်အောင် ကြီးမားပြီး Ionic Compound Formation ကို Spontaneous Process တစ်ခုအဖြစ် အမြဲ ရှေ့သို့ တွန်းပို့ပေးနိုင်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why is ΔS° negative for the formation of NaCl?",
+            questionMy: "NaCl Formation အတွက် ΔS° သည် အဘယ့်ကြောင့် Negative ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Solid, ordered NaCl has far less entropy than the disordered metal and gas it forms from",
+              "NaCl has no entropy at all",
+              "Sodium chloride is a gas at room temperature",
+              "Entropy is always positive for every reaction",
+            ],
+            optionsMy: [
+              "Solid, Orderly NaCl သည် ၎င်းဖြစ်ပေါ်လာသော Disordered Metal နှင့် Gas ထက် Entropy အလွန် နည်းသည်",
+              "NaCl တွင် Entropy လုံးဝ မရှိပါ",
+              "Sodium Chloride သည် Room Temperature တွင် Gas ဖြစ်သည်",
+              "Reaction တိုင်းအတွက် Entropy သည် အမြဲ Positive ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of ΔS°."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ΔS° ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the sign of ΔG for NaCl's formation at 298 K?",
+            questionMy: "298 K တွင် NaCl Formation ၏ ΔG Sign ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Negative, so the reaction is feasible", "Positive, so the reaction is not feasible", "Exactly zero", "Impossible to calculate"],
+            optionsMy: [
+              "Negative, Reaction သည် Feasible ဖြစ်သည်",
+              "Positive, Reaction သည် Feasible မဟုတ်ပါ",
+              "Zero အတိအကျ",
+              "တွက်ချက်၍ မရနိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final ΔG calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ နောက်ဆုံး ΔG တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does NaCl still form spontaneously despite the negative ΔS?",
+            questionMy:
+                "Negative ΔS ရှိနေသော်လည်း NaCl သည် အဘယ့်ကြောင့် ဆက်လက် Spontaneously ဖြစ်ပေါ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The exothermic ΔHf° term is large enough to overpower the unfavourable entropy penalty",
+              "Entropy has no actual effect on feasibility",
+              "The reaction is not actually spontaneous at all",
+              "Lattice energy has no relationship to ΔH at all",
+            ],
+            optionsMy: [
+              "Exothermic ΔHf° Term သည် မကောင်းသော Entropy Penalty ကို လွှမ်းမိုးလောက်အောင် ကြီးမားသည်",
+              "Entropy သည် Feasibility အပေါ် တကယ့် သက်ရောက်မှု လုံးဝ မရှိပါ",
+              "Reaction သည် တကယ်တမ်း Spontaneous လုံးဝ မဟုတ်ပါ",
+              "Lattice Energy သည် ΔH နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's overall conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ စုစုပေါင်း နိဂုံးချုပ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Entropy and Feasibility",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Entropy နှင့် Feasibility",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A reaction is thermodynamically feasible when ΔG is...",
+          questionMy: "Reaction တစ်ခု Thermodynamically Feasible ဖြစ်သည်မှာ ΔG သည်...",
+          optionsEn: ["Negative", "Positive", "Zero always", "Undefined"],
+          optionsMy: ["Negative", "Positive", "Zero အမြဲ", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Gibbs free energy equation is...",
+          questionMy: "Gibbs Free Energy Equation သည်...",
+          optionsEn: ["ΔG = ΔH - TΔS", "ΔG = ΔH + TΔS", "ΔG = ΔH x ΔS", "ΔG = ΔH / T"],
+          optionsMy: ["ΔG = ΔH - TΔS", "ΔG = ΔH + TΔS", "ΔG = ΔH x ΔS", "ΔG = ΔH / T"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a reaction with ΔH = -300 kJ mol⁻¹ and ΔS = -200 J K⁻¹ mol⁻¹ at T = 300 K, -TΔS is...",
+          questionMy:
+              "ΔH = -300 kJ mol⁻¹ နှင့် ΔS = -200 J K⁻¹ mol⁻¹ ရှိသော Reaction တစ်ခုအတွက် T = 300 K တွင် -TΔS သည်...",
+          optionsEn: [
+            "+60,000 J mol⁻¹ (+60 kJ mol⁻¹)",
+            "-60,000 J mol⁻¹ (-60 kJ mol⁻¹)",
+            "+600 J mol⁻¹",
+            "0 J mol⁻¹",
+          ],
+          optionsMy: [
+            "+60,000 J mol⁻¹ (+60 kJ mol⁻¹)",
+            "-60,000 J mol⁻¹ (-60 kJ mol⁻¹)",
+            "+600 J mol⁻¹",
+            "0 J mol⁻¹",
+          ],
+          correctIndex: 0,
+          hintsEn: ["-TΔS = -(300 x -200) = +60,000 J mol⁻¹."],
+          hintsMy: ["-TΔS = -(300 x -200) = +60,000 J mol⁻¹ ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm1 = CourseTermDef(
+  id: "course-y13-chem-term1",
+  termNumber: 1,
+  titleEn: "Lattice Energy and Born-Haber Cycles",
+  titleMy: "Lattice Energy နှင့် Born-Haber Cycles",
+  weeks: [_y13ChemWeek1, _y13ChemWeek2, _y13ChemWeek3, _y13ChemWeek4],
+  certificateTitleEn: "A2 Chemistry: Lattice Energy and Born-Haber Cycles",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Lattice Energy နှင့် Born-Haber Cycles",
+);
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 2: "Electrochemistry and Redox"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "Oxidation States and Balancing Redox Equations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek5 = CourseWeekDef(
+  id: "course-y13-chem-w5",
+  weekNumber: 5,
+  titleEn: "Oxidation States and Balancing Redox Equations",
+  titleMy: "Oxidation State များနှင့် Redox Equation Balancing",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w5-d1",
+      dayNumber: 1,
+      titleEn: "Oxidation States and Redox Definitions",
+      titleMy: "Oxidation State များနှင့် Redox အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Oxidation, in terms of electrons, is defined as...",
+          questionMy: "Oxidation ကို Electron အနေဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: [
+            "Loss of electrons",
+            "Gain of electrons",
+            "Loss of protons",
+            "Gain of protons",
+          ],
+          optionsMy: [
+            "Electron ဆုံးရှုံးခြင်း",
+            "Electron ရရှိခြင်း",
+            "Proton ဆုံးရှုံးခြင်း",
+            "Proton ရရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The mnemonic OIL RIG helps: Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons).",
+          ],
+          hintsMy: [
+            "OIL RIG Mnemonic က ကူညီသည် - Oxidation Is Loss (Electron ဆုံးရှုံးခြင်း), Reduction Is Gain (Electron ရရှိခြင်း) ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the ion MnO4⁻, the oxidation state of manganese (Mn) is...",
+          questionMy: "MnO4⁻ Ion တွင် Manganese (Mn) ၏ Oxidation State သည်...",
+          optionsEn: ["+7", "+2", "+4", "-1"],
+          optionsMy: ["+7", "+2", "+4", "-1"],
+          correctIndex: 0,
+          hintsEn: [
+            "Oxygen is -2 each (x4 = -8), and the overall ion charge is -1, so Mn + (-8) = -1, giving Mn = +7.",
+          ],
+          hintsMy: [
+            "Oxygen တစ်ခုစီသည် -2 (x4 = -8) ဖြစ်ပြီး Ion Charge စုစုပေါင်းသည် -1 ဖြစ်သောကြောင့် Mn + (-8) = -1၊ Mn = +7 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reaction Zn + Cu2+ -> Zn2+ + Cu, zinc is oxidised and copper is reduced. Zinc, the species that loses electrons and causes copper to be reduced, is called the...",
+          questionMy:
+              "Zn + Cu2+ -> Zn2+ + Cu Reaction တွင် Zinc သည် Oxidise ဖြစ်ပြီး Copper သည် Reduce ဖြစ်သည်။ Electron ဆုံးရှုံးကာ Copper Reduce ဖြစ်စေသော Zinc ကို ...ဟု ခေါ်သည်",
+          optionsEn: [
+            "Reducing agent",
+            "Oxidising agent",
+            "Catalyst",
+            "Spectator ion",
+          ],
+          optionsMy: ["Reducing Agent", "Oxidising Agent", "Catalyst", "Spectator Ion"],
+          correctIndex: 0,
+          hintsEn: [
+            "The species that gets oxidised (loses electrons) is what causes the other species to be reduced -- that makes it the reducing agent.",
+          ],
+          hintsMy: [
+            "Oxidise ဖြစ်သော (Electron ဆုံးရှုံးသော) Species သည် အခြား Species ကို Reduce ဖြစ်စေသောကြောင့် ၎င်းသည် Reducing Agent ဖြစ်လာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Redox Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Redox ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w5-dm-1",
+          termEn: "Oxidation",
+          termMy: "Oxidation",
+          matchEn: "Loss of electrons, or an increase in oxidation state",
+          matchMy: "Electron ဆုံးရှုံးခြင်း သို့မဟုတ် Oxidation State တိုးလာခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w5-dm-2",
+          termEn: "Reduction",
+          termMy: "Reduction",
+          matchEn: "Gain of electrons, or a decrease in oxidation state",
+          matchMy: "Electron ရရှိခြင်း သို့မဟုတ် Oxidation State လျော့ကျခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w5-dm-3",
+          termEn: "Oxidising agent",
+          termMy: "Oxidising Agent",
+          matchEn: "The species that is reduced, causing another species to be oxidised",
+          matchMy: "Reduce ဖြစ်ကာ အခြား Species ကို Oxidise ဖြစ်စေသော Species",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w5-dm-4",
+          termEn: "Reducing agent",
+          termMy: "Reducing Agent",
+          matchEn: "The species that is oxidised, causing another species to be reduced",
+          matchMy: "Oxidise ဖြစ်ကာ အခြား Species ကို Reduce ဖြစ်စေသော Species",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w5-dm-5",
+          termEn: "Oxidation state",
+          termMy: "Oxidation State",
+          matchEn:
+              "A number assigned to an atom showing the degree of oxidation, based on a fixed set of rules",
+          matchMy:
+              "Atom တစ်ခုသို့ သတ်မှတ်ထားသော Rule တစ်ခုတည်း အပေါ် အခြေခံ၍ Oxidation Degree ကို ပြသော ဂဏန်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Oxidised or Reduced?",
+      titleMy: "စီစစ်ကြမည် - Oxidise ဖြစ်လား Reduce ဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Oxidised (Oxidation State Increases)", "Reduced (Oxidation State Decreases)"],
+        bucketsMy: ["Oxidise ဖြစ် (Oxidation State တိုး)", "Reduce ဖြစ် (Oxidation State လျော့)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w5-sort-1",
+            labelEn: "Zn (0) -> Zn2+ in Zn + Cu2+ -> Zn2+ + Cu",
+            labelMy: "Zn (0) -> Zn2+, Zn + Cu2+ -> Zn2+ + Cu တွင်",
+            correctBucketEn: "Oxidised (Oxidation State Increases)",
+            correctBucketMy: "Oxidise ဖြစ် (Oxidation State တိုး)",
+          ),
+          SortingItem(
+            id: "y13chem-w5-sort-2",
+            labelEn: "Cu2+ -> Cu (0) in Zn + Cu2+ -> Zn2+ + Cu",
+            labelMy: "Cu2+ -> Cu (0), Zn + Cu2+ -> Zn2+ + Cu တွင်",
+            correctBucketEn: "Reduced (Oxidation State Decreases)",
+            correctBucketMy: "Reduce ဖြစ် (Oxidation State လျော့)",
+          ),
+          SortingItem(
+            id: "y13chem-w5-sort-3",
+            labelEn: "Fe2+ -> Fe3+ in Fe2+ + MnO4⁻ (acidified) reaction",
+            labelMy: "Fe2+ -> Fe3+, Fe2+ + MnO4⁻ (Acidified) Reaction တွင်",
+            correctBucketEn: "Oxidised (Oxidation State Increases)",
+            correctBucketMy: "Oxidise ဖြစ် (Oxidation State တိုး)",
+          ),
+          SortingItem(
+            id: "y13chem-w5-sort-4",
+            labelEn: "Mn in MnO4⁻ (+7) -> Mn2+ (+2)",
+            labelMy: "Mn, MnO4⁻ (+7) -> Mn2+ (+2) တွင်",
+            correctBucketEn: "Reduced (Oxidation State Decreases)",
+            correctBucketMy: "Reduce ဖြစ် (Oxidation State လျော့)",
+          ),
+          SortingItem(
+            id: "y13chem-w5-sort-5",
+            labelEn: "Cl in Cl2 (0) -> 2Cl⁻ (-1)",
+            labelMy: "Cl, Cl2 (0) -> 2Cl⁻ (-1) တွင်",
+            correctBucketEn: "Reduced (Oxidation State Decreases)",
+            correctBucketMy: "Reduce ဖြစ် (Oxidation State လျော့)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Balancing a Redox Half-Equation",
+      titleMy: "စာဖတ်ခြင်း - Redox Half-Equation Balancing",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Balancing a Redox Half-Equation",
+        titleMy: "Redox Half-Equation Balancing",
+        passageEn:
+            "Sayama Moe Moe Khaing gave Nan Su Yati the half-equation for manganate(VII) ions being reduced in acidic conditions, but left it unbalanced: MnO4⁻ -> Mn2+. She asked Nan Su Yati to balance it fully, step by step, using the standard method for acidic half-equations.\n\nNan Su Yati worked through it in order. First, she balanced the manganese atoms -- already equal, one on each side. Next, she balanced the oxygen atoms by adding water molecules to the side missing oxygen: MnO4⁻ has four oxygens, so she added 4H2O to the right, giving MnO4⁻ -> Mn2+ + 4H2O. Then she balanced the hydrogen atoms using H+ ions, since the reaction happens in acidic conditions: the right side now had 8 hydrogens from the 4H2O, so she added 8H+ to the left, giving MnO4⁻ + 8H+ -> Mn2+ + 4H2O.\n\nFinally, Nan Su Yati balanced the charge using electrons. The left side's charge was -1 + 8(+1) = +7, and the right side's charge was +2, so she added 5 electrons to the left side to bring +7 down to +2: MnO4⁻ + 8H+ + 5e⁻ -> Mn2+ + 4H2O. Sayama Moe Moe Khaing checked it against every rule -- atoms balanced, charge balanced -- and confirmed it was correct. She pointed out that the 5 electrons gained meant manganese's oxidation state had dropped from +7 in MnO4⁻ to +2 in Mn2+, a drop of five, exactly matching the five electrons in the balanced equation -- proof that the number of electrons transferred in a half-equation always equals the change in oxidation state.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Acidic Condition တွင် Manganate(VII) Ion Reduce ဖြစ်ခြင်း Half-Equation ကို Nan Su Yati သို့ ပေးခဲ့သော်လည်း Balance မလုပ်ရသေးဘဲ ချန်ထားခဲ့သည် - MnO4⁻ -> Mn2+ ။ Acidic Half-Equation များအတွက် Standard Method ကို အသုံးပြု၍ Step တစ်ခုစီ လုံးလုံး Balance လုပ်ခိုင်းစေခဲ့သည်။\n\nNan Su Yati သည် အဆင့်လိုက် လုပ်ဆောင်ခဲ့သည်။ ဦးစွာ Manganese Atom များကို Balance လုပ်ခဲ့သည် -- ဘက်နှစ်ဖက်တွင် တစ်ခုစီ ရှိပြီးသား တူညီနေသည်။ ထို့နောက် Oxygen ပျောက်နေသော ဘက်သို့ Water Molecule ထည့်၍ Oxygen Atom များကို Balance လုပ်ခဲ့သည် - MnO4⁻ တွင် Oxygen လေးလုံး ရှိသောကြောင့် ညာဘက်သို့ 4H2O ထည့်ခဲ့ပြီး MnO4⁻ -> Mn2+ + 4H2O ရရှိသည်။ ထို့နောက် Reaction သည် Acidic Condition တွင် ဖြစ်ပျက်သောကြောင့် H+ Ion များကို အသုံးပြု၍ Hydrogen Atom များကို Balance လုပ်ခဲ့သည် - ညာဘက်တွင် 4H2O မှ Hydrogen ရှစ်လုံး ရှိနေပြီဖြစ်၍ ဘယ်ဘက်သို့ 8H+ ထည့်ခဲ့ကာ MnO4⁻ + 8H+ -> Mn2+ + 4H2O ရရှိသည်။\n\nနောက်ဆုံးတွင် Nan Su Yati သည် Electron များ အသုံးပြု၍ Charge ကို Balance လုပ်ခဲ့သည်။ ဘယ်ဘက် Charge သည် -1 + 8(+1) = +7 ဖြစ်ပြီး ညာဘက် Charge သည် +2 ဖြစ်သောကြောင့် +7 မှ +2 သို့ ချရန် ဘယ်ဘက်သို့ Electron 5 ခု ထည့်ခဲ့သည် - MnO4⁻ + 8H+ + 5e⁻ -> Mn2+ + 4H2O ။ Sayama မိုးမိုးခိုင် သည် Rule တစ်ခုစီအလိုက် စစ်ဆေးခဲ့သည် -- Atom Balance, Charge Balance -- ပြီး မှန်ကန်ကြောင်း အတည်ပြုခဲ့သည်။ ရရှိသော Electron 5 ခုသည် Manganese ၏ Oxidation State သည် MnO4⁻ ရှိ +7 မှ Mn2+ ရှိ +2 သို့ ငါးဆင့် ကျဆင်းသွားကြောင်းနှင့် Balanced Equation ထဲရှိ Electron ငါးလုံးနှင့် အတိအကျ ကိုက်ညီကြောင်း ထောက်ပြခဲ့သည် -- Half-Equation တစ်ခုတွင် လွှဲပြောင်းသော Electron အရေအတွက်သည် Oxidation State ပြောင်းလဲမှုနှင့် အမြဲ ညီမျှကြောင်း သက်သေပြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, how many water molecules were added to balance oxygen?",
+            questionMy: "Oxygen Balance လုပ်ရန် Water Molecule မည်မျှ ထည့်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4H2O", "8H2O", "2H2O", "1H2O"],
+            optionsMy: ["4H2O", "8H2O", "2H2O", "1H2O"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's oxygen-balancing step."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Oxygen Balancing Step ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, how many electrons were added to balance the charge?",
+            questionMy: "Charge Balance လုပ်ရန် Electron မည်မျှ ထည့်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["5 electrons", "7 electrons", "2 electrons", "8 electrons"],
+            optionsMy: ["Electron 5 ခု", "Electron 7 ခု", "Electron 2 ခု", "Electron 8 ခု"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final balanced equation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Balanced Equation နောက်ဆုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did the 5 electrons gained confirm about manganese's oxidation state?",
+            questionMy:
+                "ရရှိသော Electron 5 ခုသည် Manganese ၏ Oxidation State အကြောင်း မည်သည့်အချက်ကို အတည်ပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It dropped from +7 to +2, a change of five, matching the electrons transferred",
+              "It increased from +2 to +7",
+              "It stayed exactly the same throughout",
+              "Manganese has no oxidation state in this reaction",
+            ],
+            optionsMy: [
+              "+7 မှ +2 သို့ ငါးဆင့် ကျဆင်းပြီး လွှဲပြောင်းသော Electron နှင့် ကိုက်ညီသည်",
+              "+2 မှ +7 သို့ တိုးလာသည်",
+              "တစ်လျှောက်လုံး အတိအကျ တူညီနေသည်",
+              "ဤ Reaction တွင် Manganese ၏ Oxidation State လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Oxidation States and Redox",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Oxidation State များနှင့် Redox",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Reduction, in terms of electrons, is defined as...",
+          questionMy: "Reduction ကို Electron အနေဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည်မှာ...",
+          optionsEn: ["Gain of electrons", "Loss of electrons", "Loss of protons", "Gain of protons"],
+          optionsMy: ["Electron ရရှိခြင်း", "Electron ဆုံးရှုံးခြင်း", "Proton ဆုံးရှုံးခြင်း", "Proton ရရှိခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The species that gets reduced is called the...",
+          questionMy: "Reduce ဖြစ်သော Species ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Oxidising agent", "Reducing agent", "Catalyst", "Spectator ion"],
+          optionsMy: ["Oxidising Agent", "Reducing Agent", "Catalyst", "Spectator Ion"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the ion Cr2O7²⁻, the oxidation state of chromium (Cr) is...",
+          questionMy: "Cr2O7²⁻ Ion တွင် Chromium (Cr) ၏ Oxidation State သည်...",
+          optionsEn: ["+6", "+3", "+7", "+2"],
+          optionsMy: ["+6", "+3", "+7", "+2"],
+          correctIndex: 0,
+          hintsEn: [
+            "7 oxygens x -2 = -14; overall charge -2; 2Cr + (-14) = -2, so 2Cr = +12, Cr = +6.",
+          ],
+          hintsMy: ["Oxygen 7 x -2 = -14; Charge စုစုပေါင်း -2; 2Cr + (-14) = -2, 2Cr = +12, Cr = +6 ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "Standard Electrode Potentials"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek6 = CourseWeekDef(
+  id: "course-y13-chem-w6",
+  weekNumber: 6,
+  titleEn: "Standard Electrode Potentials",
+  titleMy: "Standard Electrode Potential များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w6-d1",
+      dayNumber: 1,
+      titleEn: "The Standard Hydrogen Electrode",
+      titleMy: "Standard Hydrogen Electrode",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The standard electrode potential (E°) of a half-cell is measured relative to...",
+          questionMy: "Half-Cell တစ်ခု၏ Standard Electrode Potential (E°) ကို ...ဆက်စပ်၍ တိုင်းတာသည်",
+          optionsEn: [
+            "The standard hydrogen electrode, assigned E° = 0.00 V",
+            "The most reactive metal available",
+            "A calcium electrode, assigned E° = 1.00 V",
+            "Pure water alone",
+          ],
+          optionsMy: [
+            "E° = 0.00 V သတ်မှတ်ထားသော Standard Hydrogen Electrode",
+            "ရနိုင်သော Metal Reactive ဆုံး",
+            "E° = 1.00 V သတ်မှတ်ထားသော Calcium Electrode",
+            "ရေစင် တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every standard electrode potential is measured against the standard hydrogen electrode (SHE), which is defined as exactly 0.00 V by convention.",
+          ],
+          hintsMy: [
+            "Standard Electrode Potential တစ်ခုစီကို Standard Hydrogen Electrode (SHE) နှင့် ဆက်စပ်တိုင်းတာသည်၊ ၎င်းကို Convention အရ 0.00 V အတိအကျ ဟု သတ်မှတ်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Standard conditions for measuring electrode potentials are...",
+          questionMy: "Electrode Potential တိုင်းတာရန် Standard Condition များမှာ...",
+          optionsEn: [
+            "298 K, 100 kPa pressure, and 1 mol dm⁻³ ion concentration",
+            "0 K, 0 kPa pressure, and pure water only",
+            "373 K and 200 kPa pressure",
+            "Any temperature, as long as pressure is standard",
+          ],
+          optionsMy: [
+            "298 K, Pressure 100 kPa, နှင့် Ion Concentration 1 mol dm⁻³",
+            "0 K, Pressure 0 kPa, နှင့် ရေစင်တစ်ခုတည်း",
+            "373 K နှင့် Pressure 200 kPa",
+            "Pressure Standard ဖြစ်နေသရွေ့ Temperature မည်သည့်တစ်ခုမဆို",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Standard conditions are 298 K (25°C), 100 kPa, and 1 mol dm⁻³ for any ions involved -- the same triple used throughout AS thermochemistry.",
+          ],
+          hintsMy: [
+            "Standard Condition များမှာ 298 K (25°C), 100 kPa, နှင့် ပါဝင်သော Ion မည်သည့်တစ်ခုအတွက်မဆို 1 mol dm⁻³ ဖြစ်ပြီး AS Thermochemistry တစ်လျှောက် အသုံးပြုခဲ့သော Triple အတူတူပင် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A more positive standard electrode potential (E°) means the half-cell's species...",
+          questionMy:
+              "Standard Electrode Potential (E°) ပို၍ Positive ဖြစ်ခြင်းသည် Half-Cell ၏ Species...",
+          optionsEn: [
+            "Is more easily reduced (a stronger oxidising agent)",
+            "Is more easily oxidised (a stronger reducing agent)",
+            "Cannot be reduced or oxidised at all",
+            "Has no electrode potential",
+          ],
+          optionsMy: [
+            "ပို၍ လွယ်ကူစွာ Reduce ဖြစ်သည် (Oxidising Agent ပို၍ အားကောင်း)",
+            "ပို၍ လွယ်ကူစွာ Oxidise ဖြစ်သည် (Reducing Agent ပို၍ အားကောင်း)",
+            "Reduce သို့မဟုတ် Oxidise လုံးဝ ဖြစ်၍ မရနိုင်ပါ",
+            "Electrode Potential လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A more positive E° means the reduction half-reaction is more favourable -- that species has a stronger pull towards gaining electrons.",
+          ],
+          hintsMy: [
+            "E° ပို၍ Positive ဖြစ်ခြင်းသည် Reduction Half-Reaction ပို၍ ကောင်းမွန်ကြောင်း ဆိုလိုသည် -- ထို Species သည် Electron ရရှိရန် ပို၍ ဆွဲငင်အားကောင်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electrode Potential Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Electrode Potential ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w6-dm-1",
+          termEn: "Standard electrode potential (E°)",
+          termMy: "Standard Electrode Potential (E°)",
+          matchEn:
+              "The EMF measured between a half-cell and the standard hydrogen electrode under standard conditions",
+          matchMy:
+              "Standard Condition အောက်တွင် Half-Cell တစ်ခုနှင့် Standard Hydrogen Electrode ကြား တိုင်းတာသော EMF",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w6-dm-2",
+          termEn: "Standard hydrogen electrode (SHE)",
+          termMy: "Standard Hydrogen Electrode (SHE)",
+          matchEn:
+              "The reference electrode assigned E° = 0.00 V by convention, made of H2 gas bubbled over a platinum electrode in 1 mol dm⁻³ H⁺",
+          matchMy:
+              "Convention အရ E° = 0.00 V သတ်မှတ်ထားသော Reference Electrode၊ Platinum Electrode ပေါ်တွင် H2 Gas ဖျန်းထားသော 1 mol dm⁻³ H⁺ ဖြင့် ပြုလုပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w6-dm-3",
+          termEn: "Half-cell",
+          termMy: "Half-Cell",
+          matchEn:
+              "One electrode dipped into a solution of its own ions, forming one half of an electrochemical cell",
+          matchMy:
+              "Electrode တစ်ခုသည် ၎င်း၏ Ion Solution ထဲသို့ နှစ်ချထားခြင်း၊ Electrochemical Cell တစ်ခု၏ တစ်ဝက်ကို ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w6-dm-4",
+          termEn: "Salt bridge",
+          termMy: "Salt Bridge",
+          matchEn:
+              "Connects the two half-cells, allowing ions to flow and complete the circuit without the solutions mixing",
+          matchMy:
+              "Half-Cell နှစ်ခုကို ချိတ်ဆက်ပေးပြီး Solution များ မရောနှောစေဘဲ Ion များ စီးဆင်း၍ Circuit ပြီးမြောက်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w6-dm-5",
+          termEn: "Reference electrode",
+          termMy: "Reference Electrode",
+          matchEn:
+              "A half-cell with a known, fixed potential used as the comparison point for measuring other electrode potentials",
+          matchMy:
+              "အခြား Electrode Potential များ တိုင်းတာရာတွင် Comparison Point အဖြစ် အသုံးပြုသော သိရှိပြီး Fixed Potential ရှိသော Half-Cell",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Standard Condition or Not?",
+      titleMy: "စီစစ်ကြမည် - Standard Condition ဖြစ်လား မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Standard Condition", "Not a Standard Condition"],
+        bucketsMy: ["Standard Condition", "Standard Condition မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w6-sort-1",
+            labelEn: "Temperature of 298 K",
+            labelMy: "Temperature 298 K",
+            correctBucketEn: "Standard Condition",
+            correctBucketMy: "Standard Condition",
+          ),
+          SortingItem(
+            id: "y13chem-w6-sort-2",
+            labelEn: "Ion concentration of 1 mol dm⁻³",
+            labelMy: "Ion Concentration 1 mol dm⁻³",
+            correctBucketEn: "Standard Condition",
+            correctBucketMy: "Standard Condition",
+          ),
+          SortingItem(
+            id: "y13chem-w6-sort-3",
+            labelEn: "Pressure of 100 kPa for any gases involved",
+            labelMy: "ပါဝင်သော Gas မည်သည့်တစ်ခုအတွက်မဆို Pressure 100 kPa",
+            correctBucketEn: "Standard Condition",
+            correctBucketMy: "Standard Condition",
+          ),
+          SortingItem(
+            id: "y13chem-w6-sort-4",
+            labelEn: "Temperature of 373 K",
+            labelMy: "Temperature 373 K",
+            correctBucketEn: "Not a Standard Condition",
+            correctBucketMy: "Standard Condition မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w6-sort-5",
+            labelEn: "Ion concentration of 2 mol dm⁻³",
+            labelMy: "Ion Concentration 2 mol dm⁻³",
+            correctBucketEn: "Not a Standard Condition",
+            correctBucketMy: "Standard Condition မဟုတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring Zinc's Electrode Potential",
+      titleMy: "စာဖတ်ခြင်း - Zinc ၏ Electrode Potential တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring Zinc's Electrode Potential",
+        titleMy: "Zinc ၏ Electrode Potential တိုင်းတာခြင်း",
+        passageEn:
+            "Sayar Zaw Min set up a demonstration cell in front of his class: a zinc electrode dipped in 1 mol dm⁻³ ZnSO4 solution, connected by a salt bridge to a standard hydrogen electrode, with a voltmeter wired between the two metal contacts. He asked Htet Aung to explain exactly what this apparatus would measure.\n\nHtet Aung recalled that the standard hydrogen electrode is fixed at exactly E° = 0.00 V by convention, so whatever voltage the voltmeter read would directly be the standard electrode potential of the zinc half-cell -- no further calculation needed, since one side of the comparison is already zero. Sayar Zaw Min confirmed this and read off the meter: -0.76 V.\n\nHe then asked what the negative sign meant. Htet Aung reasoned that a negative E° meant zinc's half-reaction, Zn2+ + 2e⁻ -> Zn, was less favourable than hydrogen's own reduction, 2H+ + 2e⁻ -> H2 -- in other words, zinc metal loses its electrons to become Zn2+ more readily than it accepts electrons to stay as Zn, making zinc a good reducing agent. Sayar Zaw Min pointed out that this single number, -0.76 V, was now ready to be placed onto a much bigger table alongside dozens of other half-cells measured the same way against the same standard hydrogen electrode reference -- a table Htet Aung would learn to use the following week to compare and rank electrode potentials directly against each other.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် သူ၏ အတန်းရှေ့တွင် Demonstration Cell တစ်ခု ထားပေးခဲ့သည် - 1 mol dm⁻³ ZnSO4 Solution ထဲသို့ နှစ်ချထားသော Zinc Electrode တစ်ခုကို Salt Bridge ဖြင့် Standard Hydrogen Electrode နှင့် ချိတ်ဆက်ပြီး Metal Contact နှစ်ခုကြား Voltmeter ချိတ်ထားသည်။ ဤ Apparatus သည် အဘယ်အရာကို တိုင်းတာသည်ကို Htet Aung ကို ရှင်းပြခိုင်းစေခဲ့သည်။\n\nStandard Hydrogen Electrode သည် Convention အရ E° = 0.00 V အတိအကျ Fixed ဖြစ်ကြောင်း Htet Aung သတိရခဲ့သည်၊ ထို့ကြောင့် Voltmeter ဖတ်ရသော Voltage မှန်သမျှသည် Zinc Half-Cell ၏ Standard Electrode Potential ကို တိုက်ရိုက် ဖြစ်ပေါ်စေမည် -- Comparison ၏ ဘက်တစ်ဖက်သည် Zero ဖြစ်နေပြီးသားကြောင့် နောက်ထပ် တွက်ချက်မှု မလိုအပ်ပါ။ Sayar ဇော်မင်း သည် ၎င်းကို အတည်ပြုပြီး Meter ကို ဖတ်ပြခဲ့သည် - -0.76 V ။\n\nထို့နောက် Negative Sign မည်သည်ကို ဆိုလိုသည်ကို မေးခဲ့သည်။ Negative E° သည် Zinc ၏ Half-Reaction, Zn2+ + 2e⁻ -> Zn ၊ Hydrogen ၏ Reduction, 2H+ + 2e⁻ -> H2 ထက် ကောင်းမွန်မှု နည်းကြောင်း ဆိုလိုသည်ဟု Htet Aung ဆင်ခြင်တွေးခေါ်ခဲ့သည် -- တစ်နည်းအားဖြင့် Zinc Metal သည် Zn အဖြစ် ဆက်ရှိနေရန် Electron လက်ခံသည်ထက် Zn2+ ဖြစ်ရန် Electron များ ပို၍ လွယ်ကူစွာ ဆုံးရှုံးပေးသည်၊ Zinc ကို Reducing Agent ကောင်းတစ်ခု ဖြစ်စေသည်။ ဤ ဂဏန်းတစ်ခုတည်း၊ -0.76 V သည် တူညီသော Standard Hydrogen Electrode Reference နှင့် Half-Cell အခြားများစွာ တိုင်းတာထားသော ပိုကြီးသော Table တစ်ခုပေါ်သို့ ထည့်သွင်းရန် အသင့် ဖြစ်နေပြီဟု Sayar ဇော်မင်း ထောက်ပြခဲ့သည် -- ထို Table ကို Electrode Potential များကို အချင်းချင်း တိုက်ရိုက် နှိုင်းယှဉ်ပြီး အဆင့်သတ်မှတ်ရန် နောက်တစ်ပတ်တွင် Htet Aung အသုံးပြုနည်း သင်ယူလိမ့်မည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the voltmeter reading directly give zinc's standard electrode potential?",
+            questionMy:
+                "Voltmeter Reading သည် Zinc ၏ Standard Electrode Potential ကို အဘယ့်ကြောင့် တိုက်ရိုက် ပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The standard hydrogen electrode is fixed at exactly 0.00 V by convention",
+              "Zinc has no electrode potential of its own",
+              "The voltmeter always reads 0.00 V by default",
+              "Zinc and hydrogen are the same element",
+            ],
+            optionsMy: [
+              "Standard Hydrogen Electrode သည် Convention အရ 0.00 V အတိအကျ Fixed ဖြစ်သည်",
+              "Zinc တွင် ကိုယ်ပိုင် Electrode Potential မရှိပါ",
+              "Voltmeter သည် Default အားဖြင့် 0.00 V အမြဲ ဖတ်သည်",
+              "Zinc နှင့် Hydrogen သည် Element တစ်ခုတည်း ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's reasoning."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what value was measured for zinc's E°?",
+            questionMy: "Zinc ၏ E° အတွက် မည်သည့် တန်ဖိုး တိုင်းတာရရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-0.76 V", "+0.76 V", "0.00 V", "-1.00 V"],
+            optionsMy: ["-0.76 V", "+0.76 V", "0.00 V", "-1.00 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's final sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does zinc's negative E° suggest about it as a reducing agent?",
+            questionMy: "Zinc ၏ Negative E° သည် Reducing Agent တစ်ခုအနေဖြင့် မည်သို့ အကြံပြုသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Zinc readily loses electrons to become Zn2+, making it a good reducing agent",
+              "Zinc cannot lose electrons under any conditions",
+              "Zinc is a stronger oxidising agent than hydrogen",
+              "Zinc has no tendency to react at all",
+            ],
+            optionsMy: [
+              "Zinc သည် Zn2+ ဖြစ်ရန် Electron များကို လွယ်ကူစွာ ဆုံးရှုံးပေးသောကြောင့် Reducing Agent ကောင်းတစ်ခု ဖြစ်သည်",
+              "Zinc သည် မည်သည့် Condition တွင်မျှ Electron ဆုံးရှုံး၍ မရနိုင်ပါ",
+              "Zinc သည် Hydrogen ထက် Oxidising Agent ပို၍ အားကောင်းသည်",
+              "Zinc တွင် Reaction ဖြစ်ရန် Tendency လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Standard Electrode Potentials",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Standard Electrode Potential များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The standard hydrogen electrode's potential is defined as...",
+          questionMy: "Standard Hydrogen Electrode ၏ Potential ကို ...ဟု သတ်မှတ်ထားသည်",
+          optionsEn: ["0.00 V", "1.00 V", "-1.00 V", "100 V"],
+          optionsMy: ["0.00 V", "1.00 V", "-1.00 V", "100 V"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Standard conditions for electrode potentials include a temperature of...",
+          questionMy: "Electrode Potential များအတွက် Standard Condition တွင် Temperature မှာ...",
+          optionsEn: ["298 K", "0 K", "373 K", "100 K"],
+          optionsMy: ["298 K", "0 K", "373 K", "100 K"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A salt bridge's role in an electrochemical cell is to...",
+          questionMy: "Electrochemical Cell တစ်ခုတွင် Salt Bridge ၏ အခန်းကဏ္ဍမှာ...",
+          optionsEn: [
+            "Complete the circuit by allowing ion flow, without mixing the two solutions",
+            "Generate the voltage on its own",
+            "Replace the need for a voltmeter",
+            "Prevent any current from flowing",
+          ],
+          optionsMy: [
+            "Solution နှစ်ခု မရောနှောစေဘဲ Ion Flow ခွင့်ပြု၍ Circuit ပြီးမြောက်စေသည်",
+            "Voltage ကို ကိုယ်တိုင် ထုတ်ပေးသည်",
+            "Voltmeter လိုအပ်ချက်ကို အစားထိုးသည်",
+            "Current စီးဆင်းမှု လုံးဝ တားဆီးသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "The Electrochemical Series and Cell EMF"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek7 = CourseWeekDef(
+  id: "course-y13-chem-w7",
+  weekNumber: 7,
+  titleEn: "The Electrochemical Series and Cell EMF",
+  titleMy: "Electrochemical Series နှင့် Cell EMF",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w7-d1",
+      dayNumber: 1,
+      titleEn: "Calculating Cell EMF from E° Values",
+      titleMy: "E° Value များမှ Cell EMF တွက်ချက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the electrochemical series, half-cells are ranked in order of...",
+          questionMy: "Electrochemical Series တွင် Half-Cell များကို ...အစဉ်လိုက် အဆင့်သတ်မှတ်ထားသည်",
+          optionsEn: [
+            "Their standard electrode potential (E°) values",
+            "Their atomic mass",
+            "Their melting points",
+            "Their molar mass only",
+          ],
+          optionsMy: [
+            "၎င်းတို့၏ Standard Electrode Potential (E°) Value များ",
+            "၎င်းတို့၏ Atomic Mass",
+            "၎င်းတို့၏ Melting Point",
+            "၎င်းတို့၏ Molar Mass တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The electrochemical series simply lists half-cells in order of increasingly positive (or negative) E° values.",
+          ],
+          hintsMy: [
+            "Electrochemical Series သည် Half-Cell များကို E° Value Positive (သို့မဟုတ် Negative) တိုးလာသော အစဉ်လိုက် စာရင်းပြုစုထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Cell EMF is calculated as E°cell = E°(reduction, more positive) - E°(oxidation, less positive). For a Zn/Cu2+ cell with E°(Cu2+/Cu) = +0.34 V and E°(Zn2+/Zn) = -0.76 V, the cell EMF is...",
+          questionMy:
+              "Cell EMF ကို E°cell = E°(Reduction, ပို Positive) - E°(Oxidation, ပို Negative) ဖြင့် တွက်ချက်သည်။ E°(Cu2+/Cu) = +0.34 V နှင့် E°(Zn2+/Zn) = -0.76 V ရှိသော Zn/Cu2+ Cell တစ်ခုအတွက် Cell EMF သည်...",
+          optionsEn: ["+1.10 V", "+0.42 V", "-1.10 V", "+1.44 V"],
+          optionsMy: ["+1.10 V", "+0.42 V", "-1.10 V", "+1.44 V"],
+          correctIndex: 0,
+          hintsEn: [
+            "E°cell = E°(cathode, reduced) - E°(anode, oxidised) = 0.34 - (-0.76) = +1.10 V.",
+          ],
+          hintsMy: ["E°cell = E°(Cathode, Reduce) - E°(Anode, Oxidise) = 0.34 - (-0.76) = +1.10 V ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In an electrochemical cell, electrons flow through the external circuit from the...",
+          questionMy: "Electrochemical Cell တစ်ခုတွင် Electron များသည် External Circuit ကို ဖြတ်၍ ...မှ စီးဆင်းသည်",
+          optionsEn: [
+            "Half-cell with the more negative E° (where oxidation occurs) to the one with the more positive E°",
+            "Half-cell with the more positive E° to the one with the more negative E°",
+            "Salt bridge directly to the voltmeter",
+            "Voltmeter back into the salt bridge",
+          ],
+          optionsMy: [
+            "E° ပို၍ Negative ဖြစ်သော Half-Cell (Oxidation ဖြစ်နေရာ) မှ E° ပို၍ Positive ဖြစ်သော Half-Cell သို့",
+            "E° ပို၍ Positive ဖြစ်သော Half-Cell မှ E° ပို၍ Negative ဖြစ်သော Half-Cell သို့",
+            "Salt Bridge မှ Voltmeter သို့ တိုက်ရိုက်",
+            "Voltmeter မှ Salt Bridge ထဲသို့ ပြန်လည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Electrons are released where oxidation happens (the more negative E° half-cell) and flow through the wire to where reduction happens (the more positive E° half-cell).",
+          ],
+          hintsMy: [
+            "Electron များသည် Oxidation ဖြစ်ပေါ်ရာနေရာ (E° ပို Negative ဖြစ်သော Half-Cell) တွင် ထွက်လာပြီး Wire ကို ဖြတ်၍ Reduction ဖြစ်ပေါ်ရာနေရာ (E° ပို Positive ဖြစ်သော Half-Cell) သို့ စီးဆင်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electrochemical Series and Cell Terms",
+      titleMy: "တွဲစပ်ကြမည် - Electrochemical Series and Cell Term များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w7-dm-1",
+          termEn: "Electrochemical series",
+          termMy: "Electrochemical Series",
+          matchEn:
+              "A list of half-cells ranked by their standard electrode potential (E°) values",
+          matchMy: "Half-Cell များကို ၎င်းတို့၏ Standard Electrode Potential (E°) Value များအလိုက် စာရင်းပြုစုထားသော List",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w7-dm-2",
+          termEn: "Cell EMF (E°cell)",
+          termMy: "Cell EMF (E°cell)",
+          matchEn:
+              "The overall voltage of an electrochemical cell, calculated as E°(reduced half-cell) - E°(oxidised half-cell)",
+          matchMy:
+              "Electrochemical Cell တစ်ခု၏ Voltage စုစုပေါင်း၊ E°(Reduce Half-Cell) - E°(Oxidise Half-Cell) ဖြင့် တွက်ချက်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w7-dm-3",
+          termEn: "Cathode (in a cell)",
+          termMy: "Cathode (Cell တစ်ခုတွင်)",
+          matchEn: "The electrode where reduction occurs, with the more positive E°",
+          matchMy: "Reduction ဖြစ်ပေါ်ရာ Electrode၊ E° ပို၍ Positive ဖြစ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w7-dm-4",
+          termEn: "Anode (in a cell)",
+          termMy: "Anode (Cell တစ်ခုတွင်)",
+          matchEn: "The electrode where oxidation occurs, with the more negative E°",
+          matchMy: "Oxidation ဖြစ်ပေါ်ရာ Electrode၊ E° ပို၍ Negative ဖြစ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w7-dm-5",
+          termEn: "Electron flow direction",
+          termMy: "Electron Flow Direction",
+          matchEn:
+              "Through the external circuit, from the anode (oxidation) to the cathode (reduction)",
+          matchMy: "External Circuit ကို ဖြတ်၍ Anode (Oxidation) မှ Cathode (Reduction) သို့",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Higher or Lower Cell EMF?",
+      titleMy: "စီစစ်ကြမည် - Cell EMF ပိုမြင့်လား ပိုနိမ့်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Higher Cell EMF (Wider E° Gap)", "Lower Cell EMF (Narrower E° Gap)"],
+        bucketsMy: ["Cell EMF ပိုမြင့် (E° Gap ပိုကျယ်)", "Cell EMF ပိုနိမ့် (E° Gap ပိုကျဉ်း)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w7-sort-1",
+            labelEn: "Zn (E° = -0.76 V) paired with Cu (E° = +0.34 V), gap = 1.10 V",
+            labelMy: "Zn (E° = -0.76 V) ကို Cu (E° = +0.34 V) နှင့် တွဲသည်၊ Gap = 1.10 V",
+            correctBucketEn: "Higher Cell EMF (Wider E° Gap)",
+            correctBucketMy: "Cell EMF ပိုမြင့် (E° Gap ပိုကျယ်)",
+          ),
+          SortingItem(
+            id: "y13chem-w7-sort-2",
+            labelEn: "Fe (E° = -0.44 V) paired with Cu (E° = +0.34 V), gap = 0.78 V",
+            labelMy: "Fe (E° = -0.44 V) ကို Cu (E° = +0.34 V) နှင့် တွဲသည်၊ Gap = 0.78 V",
+            correctBucketEn: "Lower Cell EMF (Narrower E° Gap)",
+            correctBucketMy: "Cell EMF ပိုနိမ့် (E° Gap ပိုကျဉ်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w7-sort-3",
+            labelEn: "Zn (E° = -0.76 V) paired with Ag⁺/Ag (E° = +0.80 V), gap = 1.56 V",
+            labelMy: "Zn (E° = -0.76 V) ကို Ag⁺/Ag (E° = +0.80 V) နှင့် တွဲသည်၊ Gap = 1.56 V",
+            correctBucketEn: "Higher Cell EMF (Wider E° Gap)",
+            correctBucketMy: "Cell EMF ပိုမြင့် (E° Gap ပိုကျယ်)",
+          ),
+          SortingItem(
+            id: "y13chem-w7-sort-4",
+            labelEn: "Fe (E° = -0.44 V) paired with Pb2+/Pb (E° = -0.13 V), gap = 0.31 V",
+            labelMy: "Fe (E° = -0.44 V) ကို Pb2+/Pb (E° = -0.13 V) နှင့် တွဲသည်၊ Gap = 0.31 V",
+            correctBucketEn: "Lower Cell EMF (Narrower E° Gap)",
+            correctBucketMy: "Cell EMF ပိုနိမ့် (E° Gap ပိုကျဉ်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w7-sort-5",
+            labelEn: "Mg (E° = -2.37 V) paired with Ag⁺/Ag (E° = +0.80 V), gap = 3.17 V",
+            labelMy: "Mg (E° = -2.37 V) ကို Ag⁺/Ag (E° = +0.80 V) နှင့် တွဲသည်၊ Gap = 3.17 V",
+            correctBucketEn: "Higher Cell EMF (Wider E° Gap)",
+            correctBucketMy: "Cell EMF ပိုမြင့် (E° Gap ပိုကျယ်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating a Daniell Cell's EMF",
+      titleMy: "စာဖတ်ခြင်း - Daniell Cell ၏ EMF တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating a Daniell Cell's EMF",
+        titleMy: "Daniell Cell ၏ EMF တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing showed Su Su a classic Daniell cell -- a zinc electrode in ZnSO4 solution connected via a salt bridge to a copper electrode in CuSO4 solution -- and gave her the electrochemical series entry for each: E°(Zn2+/Zn) = -0.76 V, E°(Cu2+/Cu) = +0.34 V. She asked Su Su to find the cell's overall EMF and identify which electrode was the cathode.\n\nSu Su applied the rule she had just learned: E°cell = E°(more positive, reduced) - E°(more negative, oxidised). Copper's E° was the more positive of the two, so copper was reduced -- meaning it was the cathode -- while zinc, with the more negative E°, was oxidised at the anode. E°cell = 0.34 - (-0.76) = +1.10 V.\n\nSayama Moe Moe Khaing then asked Su Su to describe the electron flow around the whole circuit. Su Su traced it through: zinc atoms at the anode lose electrons (Zn -> Zn2+ + 2e⁻), those electrons travel through the external wire to the copper electrode, and at the copper cathode, Cu2+ ions in solution gain those electrons to deposit as solid copper (Cu2+ + 2e⁻ -> Cu). Meanwhile, ions flow through the salt bridge to keep both solutions electrically neutral. Sayama Moe Moe Khaing confirmed the whole picture was correct, and noted that this positive +1.10 V EMF was itself a signal worth remembering: a positive cell EMF, she said, is exactly what makes a reaction thermodynamically feasible -- the very idea the next week's boss week would build on directly.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Classic Daniell Cell တစ်ခုကို Su Su ကို ပြသခဲ့သည် -- ZnSO4 Solution ထဲရှိ Zinc Electrode တစ်ခုကို Salt Bridge မှတစ်ဆင့် CuSO4 Solution ထဲရှိ Copper Electrode နှင့် ချိတ်ဆက်ထားသည် -- ပြီး Electrochemical Series Entry တစ်ခုစီကို ပေးအပ်ခဲ့သည် - E°(Zn2+/Zn) = -0.76 V, E°(Cu2+/Cu) = +0.34 V ။ Cell ၏ EMF စုစုပေါင်းကို ရှာဖွေပြီး မည်သည် Cathode ဖြစ်သည်ကို ဖော်ထုတ်ခိုင်းစေခဲ့သည်။\n\nSu Su သည် မကြာသေးမီက သင်ယူခဲ့သော Rule ကို အသုံးပြုခဲ့သည် - E°cell = E°(ပို Positive, Reduce) - E°(ပို Negative, Oxidise) ။ Copper ၏ E° သည် နှစ်ခုထဲမှ ပို Positive ဖြစ်သောကြောင့် Copper သည် Reduce ဖြစ်ခဲ့သည် -- ဆိုလိုသည်မှာ Cathode ဖြစ်ခဲ့သည် -- Zinc သည် E° ပို Negative ဖြင့် Anode တွင် Oxidise ဖြစ်ခဲ့သည်။ E°cell = 0.34 - (-0.76) = +1.10 V ။\n\nSayama မိုးမိုးခိုင် သည် Circuit တစ်ခုလုံးတွင် Electron Flow ကို ဖော်ပြခိုင်းစေခဲ့သည်။ Su Su သည် တစ်ဆင့်ချင်း ခြေရာခံခဲ့သည် - Anode ရှိ Zinc Atom များသည် Electron များ ဆုံးရှုံးသည် (Zn -> Zn2+ + 2e⁻)၊ ထို Electron များသည် External Wire ကို ဖြတ်၍ Copper Electrode သို့ သွားရောက်ပြီး Copper Cathode တွင် Solution ရှိ Cu2+ Ion များသည် ထို Electron များ ရရှိကာ Solid Copper အဖြစ် Deposit ဖြစ်သည် (Cu2+ + 2e⁻ -> Cu) ။ ထို့အတူ Solution နှစ်ခုစလုံး Electrically Neutral ဖြစ်နေစေရန် Ion များသည် Salt Bridge ကို ဖြတ်၍ စီးဆင်းသည်။ Sayama မိုးမိုးခိုင် သည် ပုံစံတစ်ခုလုံး မှန်ကန်ကြောင်း အတည်ပြုခဲ့ပြီး ဤ Positive +1.10 V EMF သည် သတိရထိုက်သော Signal တစ်ခု ဖြစ်ကြောင်း သတိပြုမိစေခဲ့သည် -- Positive Cell EMF သည် Reaction တစ်ခုကို Thermodynamically Feasible ဖြစ်စေသော အချက် အတိအကျ ဖြစ်ကြောင်း ၎င်း ပြောခဲ့သည် -- နောက်ပတ်၏ Boss Week က တိုက်ရိုက် တည်ဆောက်မည့် Idea အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the Daniell cell's overall EMF?",
+            questionMy: "Daniell Cell ၏ EMF စုစုပေါင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["+1.10 V", "+0.42 V", "-1.10 V", "+0.34 V"],
+            optionsMy: ["+1.10 V", "+0.42 V", "-1.10 V", "+0.34 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, which electrode is the cathode in this cell?",
+            questionMy: "ဤ Cell တွင် မည်သည် Cathode ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Copper, since it has the more positive E° and is reduced", "Zinc, since it has the more negative E°", "Both electrodes are cathodes", "Neither electrode is a cathode"],
+            optionsMy: [
+              "Copper, E° ပို Positive ဖြစ်ပြီး Reduce ဖြစ်သောကြောင့်",
+              "Zinc, E° ပို Negative ဖြစ်သောကြောင့်",
+              "Electrode နှစ်ခုစလုံး Cathode ဖြစ်သည်",
+              "Electrode မည်သည့်တစ်ခုမျှ Cathode မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identification of the cathode."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Cathode ဖော်ထုတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does a positive cell EMF signal about a reaction?",
+            questionMy: "Positive Cell EMF သည် Reaction တစ်ခုအကြောင်း မည်သည့်အချက်ကို Signal ပေးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is thermodynamically feasible",
+              "It cannot occur under any conditions",
+              "It has no relationship to feasibility at all",
+              "It always proceeds instantly regardless of kinetics",
+            ],
+            optionsMy: [
+              "Thermodynamically Feasible ဖြစ်သည်",
+              "မည်သည့် Condition တွင်မျှ ဖြစ်ပေါ်၍ မရနိုင်ပါ",
+              "Feasibility နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+              "Kinetics မည်သို့ပင်ရှိစေ ချက်ချင်း အမြဲ ဆက်လက်ဖြစ်ပေါ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing point."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ပိတ်သိမ်းချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: The Electrochemical Series",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Electrochemical Series",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Cell EMF is calculated as...",
+          questionMy: "Cell EMF ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: [
+            "E°(reduced half-cell) - E°(oxidised half-cell)",
+            "E°(reduced half-cell) + E°(oxidised half-cell)",
+            "E°(oxidised half-cell) - E°(reduced half-cell)",
+            "E°(reduced half-cell) x E°(oxidised half-cell)",
+          ],
+          optionsMy: [
+            "E°(Reduce Half-Cell) - E°(Oxidise Half-Cell)",
+            "E°(Reduce Half-Cell) + E°(Oxidise Half-Cell)",
+            "E°(Oxidise Half-Cell) - E°(Reduce Half-Cell)",
+            "E°(Reduce Half-Cell) x E°(Oxidise Half-Cell)",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In an electrochemical cell, oxidation always occurs at the...",
+          questionMy: "Electrochemical Cell တစ်ခုတွင် Oxidation သည် အမြဲ ...တွင် ဖြစ်ပေါ်သည်",
+          optionsEn: ["Anode", "Cathode", "Salt bridge", "Voltmeter"],
+          optionsMy: ["Anode", "Cathode", "Salt Bridge", "Voltmeter"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For E°(Ag⁺/Ag) = +0.80 V and E°(Mg2+/Mg) = -2.37 V, the cell EMF of an Ag/Mg cell is...",
+          questionMy: "E°(Ag⁺/Ag) = +0.80 V နှင့် E°(Mg2+/Mg) = -2.37 V ရှိသော Ag/Mg Cell ၏ EMF သည်...",
+          optionsEn: ["+3.17 V", "-3.17 V", "+1.57 V", "-1.57 V"],
+          optionsMy: ["+3.17 V", "-3.17 V", "+1.57 V", "-1.57 V"],
+          correctIndex: 0,
+          hintsEn: ["E°cell = 0.80 - (-2.37) = +3.17 V."],
+          hintsMy: ["E°cell = 0.80 - (-2.37) = +3.17 V ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8 (Boss Week): "Predicting Feasibility of Redox Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek8 = CourseWeekDef(
+  id: "course-y13-chem-w8",
+  weekNumber: 8,
+  titleEn: "Predicting Feasibility of Redox Reactions",
+  titleMy: "Redox Reaction Feasibility ခန့်မှန်းခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w8-d1",
+      dayNumber: 1,
+      titleEn: "Using E°cell to Predict Feasibility",
+      titleMy: "Feasibility ခန့်မှန်းရန် E°cell အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A redox reaction is predicted to be thermodynamically feasible when E°cell is...",
+          questionMy: "Redox Reaction တစ်ခုကို E°cell သည် ...ဖြစ်သည့်အခါ Thermodynamically Feasible ဟု ခန့်မှန်းသည်",
+          optionsEn: ["Positive", "Negative", "Exactly zero", "Undefined"],
+          optionsMy: ["Positive", "Negative", "Zero အတိအကျ", "Undefined"],
+          correctIndex: 0,
+          hintsEn: [
+            "A positive E°cell corresponds to a negative ΔG, so the reaction is thermodynamically favourable overall.",
+          ],
+          hintsMy: [
+            "Positive E°cell သည် Negative ΔG နှင့် ကိုက်ညီသောကြောင့် Reaction သည် စုစုပေါင်း Thermodynamically ကောင်းမွန်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Given E°(Cl2/Cl⁻) = +1.36 V and E°(Br2/Br⁻) = +1.07 V, is Cl2 able to oxidise Br⁻ to Br2?",
+          questionMy:
+              "E°(Cl2/Cl⁻) = +1.36 V နှင့် E°(Br2/Br⁻) = +1.07 V ရှိသည်ဆိုလျှင် Cl2 သည် Br⁻ ကို Br2 သို့ Oxidise ပြု၍ ရနိုင်သလား",
+          optionsEn: [
+            "Yes -- E°cell = 1.36 - 1.07 = +0.29 V, positive, so it is feasible",
+            "No -- the two E° values are too close together",
+            "Yes, but only in basic conditions",
+            "No -- chlorine cannot oxidise bromide under any conditions",
+          ],
+          optionsMy: [
+            "ဟုတ်သည် -- E°cell = 1.36 - 1.07 = +0.29 V, Positive ဖြစ်၍ Feasible ဖြစ်သည်",
+            "မဟုတ်ပါ -- E° Value နှစ်ခု အလွန် နီးကပ်နေသောကြောင့်",
+            "ဟုတ်သည်၊ သို့သော် Basic Condition တွင်သာ",
+            "မဟုတ်ပါ -- Chlorine သည် Bromide ကို မည်သည့် Condition တွင်မျှ Oxidise ပြု၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Cl2 is reduced (E°=+1.36 V, more positive) while Br⁻ is oxidised (E°=+1.07 V, less positive), giving E°cell = +0.29 V -- feasible.",
+          ],
+          hintsMy: [
+            "Cl2 သည် Reduce ဖြစ်သည် (E°=+1.36 V, ပို Positive) Br⁻ သည် Oxidise ဖြစ်သည် (E°=+1.07 V, ပို Negative)၊ E°cell = +0.29 V ရရှိ၍ Feasible ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A reaction with a strongly positive E°cell but that proceeds extremely slowly at room temperature demonstrates that...",
+          questionMy:
+              "E°cell ပြင်းထန်စွာ Positive ရှိသော်လည်း Room Temperature တွင် အလွန် နှေးကွေးစွာ ဖြစ်ပေါ်သော Reaction တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Thermodynamic feasibility (E°cell) says nothing about reaction rate (kinetics)",
+            "The reaction is actually not feasible at all",
+            "E°cell values are always wrong",
+            "Kinetics and thermodynamics are always identical",
+          ],
+          optionsMy: [
+            "Thermodynamic Feasibility (E°cell) သည် Reaction Rate (Kinetics) နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            "Reaction သည် တကယ်တမ်း Feasible လုံးဝ မဟုတ်ပါ",
+            "E°cell Value များသည် အမြဲ မှားနေသည်",
+            "Kinetics နှင့် Thermodynamics သည် အမြဲ တူညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A positive E°cell only tells you a reaction is energetically favourable -- it says nothing about how fast it happens, which is a separate, kinetic question.",
+          ],
+          hintsMy: [
+            "Positive E°cell သည် Reaction တစ်ခု Energetically ကောင်းမွန်ကြောင်း ပြသာ ဖော်ပြသည် -- မည်မျှ မြန်ဆန်စွာ ဖြစ်ပေါ်သည်ကို လုံးဝ မဖော်ပြပါ၊ ၎င်းသည် သီးခြား Kinetic မေးခွန်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Feasibility Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Feasibility ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w8-dm-1",
+          termEn: "Feasible reaction (redox)",
+          termMy: "Feasible Reaction (Redox)",
+          matchEn: "A reaction predicted to occur because E°cell is positive",
+          matchMy: "E°cell Positive ဖြစ်သောကြောင့် ဖြစ်ပေါ်မည်ဟု ခန့်မှန်းထားသော Reaction",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w8-dm-2",
+          termEn: "Non-feasible reaction",
+          termMy: "Non-Feasible Reaction",
+          matchEn: "A reaction predicted not to occur because E°cell is negative",
+          matchMy: "E°cell Negative ဖြစ်သောကြောင့် ဖြစ်ပေါ်မည် မဟုတ်ဟု ခန့်မှန်းထားသော Reaction",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w8-dm-3",
+          termEn: "Kinetic barrier",
+          termMy: "Kinetic Barrier",
+          matchEn:
+              "A reason a thermodynamically feasible reaction may still proceed too slowly to observe, e.g. a high activation energy",
+          matchMy:
+              "Thermodynamically Feasible ဖြစ်သော်လည်း Reaction သည် သတိမူထိုက်လောက်အောင် နှေးကွေးနိုင်သည့် အကြောင်းရင်း၊ ဥပမာ - Activation Energy မြင့်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w8-dm-4",
+          termEn: "Thermodynamic favourability",
+          termMy: "Thermodynamic Favourability",
+          matchEn: "Whether a reaction is energetically downhill, shown by a positive E°cell (or negative ΔG)",
+          matchMy: "Reaction တစ်ခု Energetically Downhill ဖြစ်မဖြစ်၊ Positive E°cell (သို့မဟုတ် Negative ΔG) ဖြင့် ပြသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w8-dm-5",
+          termEn: "E°cell as a feasibility indicator",
+          termMy: "Feasibility Indicator အနေဖြင့် E°cell",
+          matchEn: "Predicts whether a reaction can occur, but says nothing about how fast",
+          matchMy: "Reaction တစ်ခု ဖြစ်ပေါ်နိုင်မနိုင် ခန့်မှန်းသော်လည်း မည်မျှ မြန်ဆန်သည်ကို လုံးဝ မဖော်ပြပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Feasible or Not Feasible?",
+      titleMy: "စီစစ်ကြမည် - Feasible ဖြစ်လား မဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Feasible (E°cell Positive)", "Not Feasible (E°cell Negative)"],
+        bucketsMy: ["Feasible (E°cell Positive)", "Feasible မဟုတ် (E°cell Negative)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w8-sort-1",
+            labelEn: "Zn reducing Cu2+: E°cell = 0.34 - (-0.76) = +1.10 V",
+            labelMy: "Cu2+ ကို Zn Reduce ပြု: E°cell = 0.34 - (-0.76) = +1.10 V",
+            correctBucketEn: "Feasible (E°cell Positive)",
+            correctBucketMy: "Feasible (E°cell Positive)",
+          ),
+          SortingItem(
+            id: "y13chem-w8-sort-2",
+            labelEn: "Cu reducing Zn2+: E°cell = -0.76 - 0.34 = -1.10 V",
+            labelMy: "Zn2+ ကို Cu Reduce ပြု: E°cell = -0.76 - 0.34 = -1.10 V",
+            correctBucketEn: "Not Feasible (E°cell Negative)",
+            correctBucketMy: "Feasible မဟုတ် (E°cell Negative)",
+          ),
+          SortingItem(
+            id: "y13chem-w8-sort-3",
+            labelEn: "Cl2 oxidising Br⁻: E°cell = 1.36 - 1.07 = +0.29 V",
+            labelMy: "Br⁻ ကို Cl2 Oxidise ပြု: E°cell = 1.36 - 1.07 = +0.29 V",
+            correctBucketEn: "Feasible (E°cell Positive)",
+            correctBucketMy: "Feasible (E°cell Positive)",
+          ),
+          SortingItem(
+            id: "y13chem-w8-sort-4",
+            labelEn: "Br2 oxidising Cl⁻: E°cell = 1.07 - 1.36 = -0.29 V",
+            labelMy: "Cl⁻ ကို Br2 Oxidise ပြု: E°cell = 1.07 - 1.36 = -0.29 V",
+            correctBucketEn: "Not Feasible (E°cell Negative)",
+            correctBucketMy: "Feasible မဟုတ် (E°cell Negative)",
+          ),
+          SortingItem(
+            id: "y13chem-w8-sort-5",
+            labelEn: "Mg reducing Ag⁺: E°cell = 0.80 - (-2.37) = +3.17 V",
+            labelMy: "Ag⁺ ကို Mg Reduce ပြု: E°cell = 0.80 - (-2.37) = +3.17 V",
+            correctBucketEn: "Feasible (E°cell Positive)",
+            correctBucketMy: "Feasible (E°cell Positive)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Will the Displacement Reaction Occur?",
+      titleMy: "စာဖတ်ခြင်း - Displacement Reaction ဖြစ်ပေါ်မည်လား",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Will the Displacement Reaction Occur?",
+        titleMy: "Displacement Reaction ဖြစ်ပေါ်မည်လား",
+        passageEn:
+            "Sayar Zaw Min ended the term with a real prediction problem, no numbers computed for Htet Aung in advance. He proposed adding solid iron filings to a solution of copper(II) sulfate, and asked Htet Aung to use the whole term's tools -- oxidation states, half-equations, and E° values -- to predict whether a displacement reaction would actually occur.\n\nHtet Aung looked up the relevant half-equations and their standard electrode potentials: Fe2+ + 2e⁻ -> Fe, E° = -0.44 V, and Cu2+ + 2e⁻ -> Cu, E° = +0.34 V. Since copper's E° was more positive, he predicted copper would be reduced (gaining electrons to deposit as solid copper) while iron, with the more negative E°, would be oxidised (losing electrons to form Fe2+ in solution). Calculating E°cell = 0.34 - (-0.44) = +0.78 V, a clearly positive value, Htet Aung concluded the reaction was thermodynamically feasible: Fe + Cu2+ -> Fe2+ + Cu.\n\nSayar Zaw Min then asked the reverse question: would copper metal displace iron from a solution of iron(II) sulfate? Htet Aung swapped the roles -- now copper would need to be oxidised and iron reduced -- giving E°cell = -0.44 - 0.34 = -0.78 V, negative, meaning this reverse reaction was not feasible. Sayar Zaw Min confirmed both predictions were correct, and closed the term by tying every piece together: oxidation states told them what was being oxidised and reduced, half-equations let them balance the electron transfer precisely, and E° values -- ranked in the electrochemical series and combined into E°cell -- let them predict, entirely from data on a table, which direction a redox reaction between any two half-cells would actually run.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Htet Aung အတွက် ဂဏန်းများ ကြိုတင် မတွက်ချက်ပေးဘဲ တကယ့် Prediction ပြဿနာတစ်ခုဖြင့် Term ကို ပိတ်ခဲ့သည်။ Copper(II) Sulfate Solution ထဲသို့ Iron Filing Solid ထည့်ရန် အကြံပြုခဲ့ပြီး Term တစ်ခုလုံး၏ Tool များ -- Oxidation State, Half-Equation, နှင့် E° Value များ -- ကို အသုံးပြု၍ Displacement Reaction တကယ် ဖြစ်ပေါ်မလား ခန့်မှန်းခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် သက်ဆိုင်ရာ Half-Equation များနှင့် ၎င်းတို့၏ Standard Electrode Potential များကို ရှာဖွေခဲ့သည် - Fe2+ + 2e⁻ -> Fe, E° = -0.44 V, နှင့် Cu2+ + 2e⁻ -> Cu, E° = +0.34 V ။ Copper ၏ E° သည် ပို Positive ဖြစ်သောကြောင့် Copper သည် Reduce ဖြစ်မည်ဟု ခန့်မှန်းခဲ့ပြီး (Electron ရရှိကာ Solid Copper အဖြစ် Deposit ဖြစ်သည်) Iron သည် E° ပို Negative ဖြစ်ခြင်းနှင့်အတူ Oxidise ဖြစ်မည် (Electron ဆုံးရှုံးကာ Solution ထဲတွင် Fe2+ ဖြစ်ပေါ်သည်) ။ E°cell = 0.34 - (-0.44) = +0.78 V ကို တွက်ချက်ခြင်းက ရှင်းလင်းစွာ Positive တန်ဖိုးရရှိသောကြောင့် Reaction သည် Thermodynamically Feasible ဖြစ်ကြောင်း Htet Aung နိဂုံးချုပ်ခဲ့သည် - Fe + Cu2+ -> Fe2+ + Cu ။\n\nSayar ဇော်မင်း သည် ပြောင်းပြန် မေးခွန်းတစ်ခု ထပ်မံ မေးခဲ့သည် - Copper Metal သည် Iron(II) Sulfate Solution မှ Iron ကို Displace ပြု၍ ရနိုင်သလား။ Htet Aung သည် အခန်းကဏ္ဍများကို လဲလှယ်ခဲ့သည် -- ယခု Copper ကို Oxidise ပြုရမည်ဖြစ်ပြီး Iron ကို Reduce ပြုရမည် -- E°cell = -0.44 - 0.34 = -0.78 V ရရှိကာ Negative ဖြစ်၍ ဤ ပြောင်းပြန် Reaction သည် Feasible မဟုတ်ကြောင်း ဆိုလိုသည်။ Sayar ဇော်မင်း သည် Prediction နှစ်ခုစလုံး မှန်ကန်ကြောင်း အတည်ပြုခဲ့ပြီး အပိုင်းတစ်ခုစီကို ပေါင်းစည်း၍ Term ကို ပိတ်သိမ်းခဲ့သည် - Oxidation State များက မည်သည် Oxidise၊ Reduce ဖြစ်နေသည်ကို ပြောပြပြီး Half-Equation များက Electron Transfer ကို အတိအကျ Balance ပြုနိုင်စေကာ Electrochemical Series တွင် အဆင့်သတ်မှတ်ထားပြီး E°cell အဖြစ် ပေါင်းစပ်ထားသော E° Value များက Half-Cell နှစ်ခုကြား Redox Reaction သည် မည်သည့် ဦးတည်ချက်သို့ တကယ် ဖြစ်ပေါ်မည်ကို Table ပေါ်ရှိ Data တစ်ခုတည်းမှ ခန့်မှန်းနိုင်စေသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what was the E°cell for iron reacting with copper(II) sulfate?",
+            questionMy: "Iron သည် Copper(II) Sulfate နှင့် Reaction ဖြစ်ရာတွင် E°cell မည်မျှ ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["+0.78 V", "-0.78 V", "+0.44 V", "-0.44 V"],
+            optionsMy: ["+0.78 V", "-0.78 V", "+0.44 V", "-0.44 V"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, was copper able to displace iron from iron(II) sulfate?",
+            questionMy: "Copper သည် Iron(II) Sulfate မှ Iron ကို Displace ပြု၍ ရနိုင်ခဲ့သလားဟု စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No -- the reverse reaction gave a negative E°cell of -0.78 V",
+              "Yes -- the reverse reaction gave a positive E°cell",
+              "Both reactions are equally feasible",
+              "The passage does not address this reverse case",
+            ],
+            optionsMy: [
+              "မရနိုင်ပါ -- ပြောင်းပြန် Reaction က Negative E°cell -0.78 V ရရှိသည်",
+              "ရနိုင်သည် -- ပြောင်းပြန် Reaction က Positive E°cell ရရှိသည်",
+              "Reaction နှစ်ခုစလုံး တူညီစွာ Feasible ဖြစ်သည်",
+              "စာပိုဒ်က ဤ ပြောင်းပြန်အခြေအနေကို လုံးဝ မဖော်ပြပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's reverse-reaction calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ပြောင်းပြန် Reaction တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what three tools together let Htet Aung predict a redox reaction's direction?",
+            questionMy:
+                "Redox Reaction ၏ Direction ခန့်မှန်းရန် Htet Aung အသုံးပြုခဲ့သော Tool သုံးခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Oxidation states, half-equations, and E° values combined into E°cell",
+              "Only the melting point of each metal",
+              "Only the colour of each solution",
+              "Random guessing without any data",
+            ],
+            optionsMy: [
+              "Oxidation State, Half-Equation, နှင့် E°cell အဖြစ် ပေါင်းစပ်ထားသော E° Value များ",
+              "Metal တစ်ခုစီ၏ Melting Point တစ်ခုတည်း",
+              "Solution တစ်ခုစီ၏ အရောင်တစ်ခုတည်း",
+              "Data မပါဘဲ ကျပန်း ခန့်မှန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ပိတ်သိမ်းအကျဉ်းချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Feasibility of Redox Reactions",
+      titleMy: "အဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Redox Reaction Feasibility",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A redox reaction is feasible when E°cell is...",
+          questionMy: "Redox Reaction တစ်ခုသည် E°cell ...ဖြစ်သည့်အခါ Feasible ဖြစ်သည်",
+          optionsEn: ["Positive", "Negative", "Zero", "Undefined"],
+          optionsMy: ["Positive", "Negative", "Zero", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "E°cell predicts whether a reaction can occur, but says nothing about...",
+          questionMy: "E°cell သည် Reaction တစ်ခု ဖြစ်ပေါ်နိုင်မနိုင် ခန့်မှန်းသော်လည်း ...ကို လုံးဝ မဖော်ပြပါ",
+          optionsEn: ["How fast it happens (kinetics)", "Whether electrons are involved", "The identity of the reactants", "The colour of the solution"],
+          optionsMy: ["မည်မျှ မြန်ဆန်သည် (Kinetics)", "Electron ပါဝင်မပါဝင်", "Reactant များ၏ Identity", "Solution ၏ အရောင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For E°(A) = +0.50 V (reduced) and E°(B) = +0.20 V (oxidised), is the reaction feasible?",
+          questionMy: "E°(A) = +0.50 V (Reduce) နှင့် E°(B) = +0.20 V (Oxidise) ရှိသည်ဆိုလျှင် Reaction Feasible ဖြစ်သလား",
+          optionsEn: [
+            "Yes -- E°cell = 0.50 - 0.20 = +0.30 V, positive",
+            "No -- E°cell is negative",
+            "Cannot be determined without more data",
+            "Yes, but only above 373 K",
+          ],
+          optionsMy: [
+            "ဖြစ်သည် -- E°cell = 0.50 - 0.20 = +0.30 V, Positive",
+            "မဖြစ်ပါ -- E°cell Negative ဖြစ်သည်",
+            "Data ပို၍ မရှိဘဲ ဆုံးဖြတ်၍ မရနိုင်ပါ",
+            "ဖြစ်သည်၊ သို့သော် 373 K အထက်တွင်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: ["E°cell = 0.50 - 0.20 = +0.30 V, positive, so feasible."],
+          hintsMy: ["E°cell = 0.50 - 0.20 = +0.30 V, Positive ဖြစ်၍ Feasible ဖြစ်သည်။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm2 = CourseTermDef(
+  id: "course-y13-chem-term2",
+  termNumber: 2,
+  titleEn: "Electrochemistry and Redox",
+  titleMy: "Electrochemistry နှင့် Redox",
+  weeks: [_y13ChemWeek5, _y13ChemWeek6, _y13ChemWeek7, _y13ChemWeek8],
+  certificateTitleEn: "A2 Chemistry: Electrochemistry and Redox",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Electrochemistry နှင့် Redox",
+);
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 3: "Further Equilibria: Acids, Bases and
+// Buffers"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Brønsted-Lowry Acids and Bases"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek9 = CourseWeekDef(
+  id: "course-y13-chem-w9",
+  weekNumber: 9,
+  titleEn: "Brønsted-Lowry Acids and Bases",
+  titleMy: "Brønsted-Lowry Acid နှင့် Base များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w9-d1",
+      dayNumber: 1,
+      titleEn: "Brønsted-Lowry Theory and Conjugate Pairs",
+      titleMy: "Brønsted-Lowry Theory နှင့် Conjugate Pair များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "According to Brønsted-Lowry theory, an acid is defined as...",
+          questionMy: "Brønsted-Lowry Theory အရ Acid ကို ...ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: [
+            "A proton (H⁺) donor",
+            "A proton (H⁺) acceptor",
+            "An electron donor",
+            "An electron acceptor",
+          ],
+          optionsMy: ["Proton (H⁺) Donor", "Proton (H⁺) Acceptor", "Electron Donor", "Electron Acceptor"],
+          correctIndex: 0,
+          hintsEn: [
+            "Brønsted-Lowry acids donate a proton (H⁺) to another species; Brønsted-Lowry bases accept one.",
+          ],
+          hintsMy: [
+            "Brønsted-Lowry Acid များသည် အခြား Species သို့ Proton (H⁺) ပေးအပ်ပြီး Brønsted-Lowry Base များသည် လက်ခံသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the reaction HCl + H2O -> H3O⁺ + Cl⁻, the conjugate base of HCl is...",
+          questionMy: "HCl + H2O -> H3O⁺ + Cl⁻ Reaction တွင် HCl ၏ Conjugate Base သည်...",
+          optionsEn: ["Cl⁻", "H3O⁺", "H2O", "HCl itself"],
+          optionsMy: ["Cl⁻", "H3O⁺", "H2O", "HCl ကိုယ်တိုင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "A conjugate base is what remains after an acid donates its proton -- HCl loses H⁺ to become Cl⁻.",
+          ],
+          hintsMy: [
+            "Conjugate Base ဆိုသည်မှာ Acid သည် Proton ပေးအပ်ပြီးနောက် ကျန်ရှိသော အရာ ဖြစ်သည် -- HCl သည် H⁺ ဆုံးရှုံးကာ Cl⁻ ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A strong acid, like HCl, differs from a weak acid, like CH3COOH, in that a strong acid...",
+          questionMy: "Strong Acid (HCl ကဲ့သို့) သည် Weak Acid (CH3COOH ကဲ့သို့) နှင့် ကွာခြားချက်မှာ Strong Acid သည်...",
+          optionsEn: [
+            "Dissociates almost completely in water",
+            "Never dissociates in water at all",
+            "Always has a higher concentration",
+            "Cannot donate protons",
+          ],
+          optionsMy: [
+            "ရေထဲတွင် နီးပါးလုံးဝ Dissociate ဖြစ်သည်",
+            "ရေထဲတွင် လုံးဝ Dissociate မဖြစ်ပါ",
+            "Concentration အမြဲ ပိုမြင့်သည်",
+            "Proton လုံးဝ ပေးအပ်၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Strong acids dissociate (ionise) almost 100% in water, while weak acids only partially dissociate, establishing an equilibrium.",
+          ],
+          hintsMy: [
+            "Strong Acid များသည် ရေထဲတွင် နီးပါး 100% Dissociate (Ionise) ဖြစ်ကြပြီး Weak Acid များသည် တစ်စိတ်တစ်ပိုင်းသာ Dissociate ဖြစ်ကာ Equilibrium တည်ဆောက်ကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Acid-Base Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Acid-Base ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w9-dm-1",
+          termEn: "Brønsted-Lowry acid",
+          termMy: "Brønsted-Lowry Acid",
+          matchEn: "A species that donates a proton (H⁺) in a reaction",
+          matchMy: "Reaction တစ်ခုတွင် Proton (H⁺) ပေးအပ်သော Species",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w9-dm-2",
+          termEn: "Brønsted-Lowry base",
+          termMy: "Brønsted-Lowry Base",
+          matchEn: "A species that accepts a proton (H⁺) in a reaction",
+          matchMy: "Reaction တစ်ခုတွင် Proton (H⁺) လက်ခံသော Species",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w9-dm-3",
+          termEn: "Conjugate acid",
+          termMy: "Conjugate Acid",
+          matchEn: "The species formed when a base gains a proton",
+          matchMy: "Base တစ်ခု Proton ရရှိသော်အခါ ဖြစ်ပေါ်လာသော Species",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w9-dm-4",
+          termEn: "Conjugate base",
+          termMy: "Conjugate Base",
+          matchEn: "The species formed when an acid loses a proton",
+          matchMy: "Acid တစ်ခု Proton ဆုံးရှုံးသော်အခါ ဖြစ်ပေါ်လာသော Species",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w9-dm-5",
+          termEn: "Amphoteric (amphiprotic) species",
+          termMy: "Amphoteric (Amphiprotic) Species",
+          matchEn: "A species that can act as either an acid or a base, e.g. H2O or HCO3⁻",
+          matchMy: "Acid သို့မဟုတ် Base အဖြစ် ဆောင်ရွက်နိုင်သော Species၊ ဥပမာ - H2O သို့မဟုတ် HCO3⁻",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Strong or Weak Acid/Base?",
+      titleMy: "စီစစ်ကြမည် - Strong သို့မဟုတ် Weak Acid/Base",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Strong (Dissociates Almost Completely)", "Weak (Dissociates Only Partially)"],
+        bucketsMy: ["Strong (နီးပါးလုံးဝ Dissociate)", "Weak (တစ်စိတ်တစ်ပိုင်းသာ Dissociate)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w9-sort-1",
+            labelEn: "Hydrochloric acid, HCl",
+            labelMy: "Hydrochloric Acid, HCl",
+            correctBucketEn: "Strong (Dissociates Almost Completely)",
+            correctBucketMy: "Strong (နီးပါးလုံးဝ Dissociate)",
+          ),
+          SortingItem(
+            id: "y13chem-w9-sort-2",
+            labelEn: "Ethanoic acid, CH3COOH",
+            labelMy: "Ethanoic Acid, CH3COOH",
+            correctBucketEn: "Weak (Dissociates Only Partially)",
+            correctBucketMy: "Weak (တစ်စိတ်တစ်ပိုင်းသာ Dissociate)",
+          ),
+          SortingItem(
+            id: "y13chem-w9-sort-3",
+            labelEn: "Sodium hydroxide, NaOH",
+            labelMy: "Sodium Hydroxide, NaOH",
+            correctBucketEn: "Strong (Dissociates Almost Completely)",
+            correctBucketMy: "Strong (နီးပါးလုံးဝ Dissociate)",
+          ),
+          SortingItem(
+            id: "y13chem-w9-sort-4",
+            labelEn: "Ammonia, NH3, as a base in water",
+            labelMy: "Ammonia, NH3, ရေထဲတွင် Base အဖြစ်",
+            correctBucketEn: "Weak (Dissociates Only Partially)",
+            correctBucketMy: "Weak (တစ်စိတ်တစ်ပိုင်းသာ Dissociate)",
+          ),
+          SortingItem(
+            id: "y13chem-w9-sort-5",
+            labelEn: "Sulfuric acid, H2SO4 (first dissociation)",
+            labelMy: "Sulfuric Acid, H2SO4 (ပထမ Dissociation)",
+            correctBucketEn: "Strong (Dissociates Almost Completely)",
+            correctBucketMy: "Strong (နီးပါးလုံးဝ Dissociate)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding Conjugate Pairs",
+      titleMy: "စာဖတ်ခြင်း - Conjugate Pair များ ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding Conjugate Pairs",
+        titleMy: "Conjugate Pair များ ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min wrote a new reaction on the board for the first day of the term: NH3 + H2O <=> NH4⁺ + OH⁻. He asked Htet Aung to identify every acid, base, and conjugate pair present, using only the Brønsted-Lowry proton-transfer definition.\n\nHtet Aung worked from left to right first. In the forward reaction, water, H2O, donates a proton to ammonia, NH3 -- so water is acting as the acid here, and ammonia is acting as the base, accepting that proton to become NH4⁺. This surprised him slightly, since he had always thought of water as neutral, but Sayar Zaw Min reminded him that under Brønsted-Lowry theory, a species's role as acid or base depends entirely on what it reacts with, not on some fixed label.\n\nHtet Aung then identified the two conjugate pairs. NH3 and NH4⁺ are a conjugate pair: NH4⁺ is the conjugate acid formed when the base NH3 gains a proton. H2O and OH⁻ are the other conjugate pair: OH⁻ is the conjugate base formed when the acid H2O loses a proton. Sayar Zaw Min pointed out the double arrow, <=>, meant this reaction was an equilibrium, not a one-way reaction -- and since ammonia is a weak base, that equilibrium lies mostly to the left, with only a small proportion of NH3 molecules actually reacting with water at any given moment. This partial dissociation, he said, was exactly why weak acids and bases needed a numerical way to describe just how far the equilibrium lies -- the topic of the following week.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Term ၏ ပထမနေ့အတွက် Reaction အသစ်တစ်ခုကို Board ပေါ်တွင် ရေးခဲ့သည် - NH3 + H2O <=> NH4⁺ + OH⁻ ။ Brønsted-Lowry Proton-Transfer အဓိပ္ပာယ်ဖွင့်ဆိုချက်တစ်ခုတည်းကို အသုံးပြု၍ ပါဝင်သော Acid, Base, နှင့် Conjugate Pair အားလုံးကို ဖော်ထုတ်ခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် ဦးစွာ ဘယ်မှ ညာသို့ လုပ်ဆောင်ခဲ့သည်။ Forward Reaction တွင် Water, H2O, သည် Ammonia, NH3 သို့ Proton ပေးအပ်သည် -- ထို့ကြောင့် ဤနေရာတွင် Water သည် Acid အဖြစ် ဆောင်ရွက်နေပြီး Ammonia သည် Base အဖြစ် ထို Proton ကို လက်ခံကာ NH4⁺ ဖြစ်လာသည်။ ၎င်းသည် Water ကို Neutral ဟု အမြဲ ထင်ခဲ့သောကြောင့် အနည်းငယ် အံ့သြစေခဲ့သည်၊ သို့သော် Brønsted-Lowry Theory အောက်တွင် Species တစ်ခု၏ Acid သို့မဟုတ် Base အခန်းကဏ္ဍသည် Fixed Label တစ်ခုတွင် မဟုတ်ဘဲ ၎င်းနှင့် မည်သည့်အရာနှင့် Reaction ဖြစ်သည်ဟူသည့် အပေါ် လုံးလုံးအားကိုးနေကြောင်း Sayar ဇော်မင်း သတိပေးခဲ့သည်။\n\nHtet Aung သည် Conjugate Pair နှစ်ခုကို ထို့နောက် ဖော်ထုတ်ခဲ့သည်။ NH3 နှင့် NH4⁺ သည် Conjugate Pair တစ်စုံ ဖြစ်သည် - NH4⁺ သည် Base NH3 Proton ရရှိသော်အခါ ဖြစ်ပေါ်လာသော Conjugate Acid ဖြစ်သည်။ H2O နှင့် OH⁻ သည် အခြား Conjugate Pair ဖြစ်သည် - OH⁻ သည် Acid H2O Proton ဆုံးရှုံးသော်အခါ ဖြစ်ပေါ်လာသော Conjugate Base ဖြစ်သည်။ Double Arrow, <=>, သည် ဤ Reaction သည် Equilibrium ဖြစ်ကြောင်း ဆိုလိုသည်ဟု Sayar ဇော်မင်း ထောက်ပြခဲ့သည် -- One-Way Reaction မဟုတ်ပါ -- Ammonia သည် Weak Base ဖြစ်သောကြောင့် ထို Equilibrium သည် ဘယ်ဘက်တွင် အများစု ရှိနေပြီး NH3 Molecule အချိုးအစားသေး တစ်ခုသာ Water နှင့် အချိန်တိုင်း တကယ် Reaction ဖြစ်နေသည်။ ဤ တစ်စိတ်တစ်ပိုင်း Dissociation သည် Weak Acid နှင့် Base များအတွက် Equilibrium မည်မျှ ဝေးကွာနေသည်ကို ဖော်ပြရန် ဂဏန်းနည်းလမ်း လိုအပ်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း ၎င်း ပြောခဲ့သည် -- နောက်ပတ်၏ ခေါင်းစဉ် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, which species acts as the acid in the forward reaction?",
+            questionMy: "Forward Reaction တွင် မည်သည် Acid အဖြစ် ဆောင်ရွက်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["H2O", "NH3", "NH4⁺", "OH⁻"],
+            optionsMy: ["H2O", "NH3", "NH4⁺", "OH⁻"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identification."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဖော်ထုတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is NH4⁺ in relation to NH3?",
+            questionMy: "NH3 နှင့် ဆက်စပ်၍ NH4⁺ သည် မည်သည် ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its conjugate acid",
+              "Its conjugate base",
+              "An unrelated species",
+              "The same species as NH3",
+            ],
+            optionsMy: [
+              "၎င်း၏ Conjugate Acid",
+              "၎င်း၏ Conjugate Base",
+              "မသက်ဆိုင်သော Species",
+              "NH3 နှင့် Species တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conjugate pair explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Conjugate Pair ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, why does the equilibrium lie mostly to the left?",
+            questionMy: "Equilibrium သည် ဘယ်ဘက်တွင် အများစု အဘယ့်ကြောင့် ရှိနေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Ammonia is a weak base, so only a small proportion reacts with water",
+              "Ammonia is a strong base that reacts completely",
+              "Water cannot act as an acid at all",
+              "The reaction is not actually an equilibrium",
+            ],
+            optionsMy: [
+              "Ammonia သည် Weak Base ဖြစ်၍ အချိုးအစားသေးတစ်ခုသာ Water နှင့် Reaction ဖြစ်သည်",
+              "Ammonia သည် လုံးလုံး Reaction ဖြစ်သော Strong Base ဖြစ်သည်",
+              "Water သည် Acid အဖြစ် လုံးဝ ဆောင်ရွက်၍ မရနိုင်ပါ",
+              "Reaction သည် တကယ်တမ်း Equilibrium မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Brønsted-Lowry Acids and Bases",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Brønsted-Lowry Acid နှင့် Base",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A Brønsted-Lowry base is defined as a proton...",
+          questionMy: "Brønsted-Lowry Base ကို Proton ...ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: ["Acceptor", "Donor", "Neutral species", "Catalyst"],
+          optionsMy: ["Acceptor", "Donor", "Neutral Species", "Catalyst"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A conjugate base forms when an acid...",
+          questionMy: "Acid တစ်ခုသည် ...အခါ Conjugate Base ဖြစ်ပေါ်လာသည်",
+          optionsEn: ["Loses a proton", "Gains a proton", "Loses an electron", "Gains an electron"],
+          optionsMy: ["Proton ဆုံးရှုံး", "Proton ရရှိ", "Electron ဆုံးရှုံး", "Electron ရရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A strong acid dissociates in water...",
+          questionMy: "Strong Acid တစ်ခုသည် ရေထဲတွင်...",
+          optionsEn: ["Almost completely", "Only partially", "Not at all", "Only in the gas phase"],
+          optionsMy: ["နီးပါးလုံးဝ", "တစ်စိတ်တစ်ပိုင်းသာ", "လုံးဝ မဖြစ်ပါ", "Gas Phase တွင်သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "Ka, Kb, pKa/pKb and pH Calculations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek10 = CourseWeekDef(
+  id: "course-y13-chem-w10",
+  weekNumber: 10,
+  titleEn: "Ka, Kb, pKa/pKb and pH Calculations",
+  titleMy: "Ka, Kb, pKa/pKb နှင့် pH Calculation များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w10-d1",
+      dayNumber: 1,
+      titleEn: "The Acid Dissociation Constant, Ka",
+      titleMy: "Acid Dissociation Constant, Ka",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For the weak acid HA <=> H⁺ + A⁻, the acid dissociation constant Ka is defined as...",
+          questionMy: "Weak Acid HA <=> H⁺ + A⁻ အတွက် Acid Dissociation Constant Ka ကို ...ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: [
+            "Ka = [H⁺][A⁻] / [HA]",
+            "Ka = [HA] / [H⁺][A⁻]",
+            "Ka = [H⁺] + [A⁻]",
+            "Ka = [HA] x [H⁺]",
+          ],
+          optionsMy: [
+            "Ka = [H⁺][A⁻] / [HA]",
+            "Ka = [HA] / [H⁺][A⁻]",
+            "Ka = [H⁺] + [A⁻]",
+            "Ka = [HA] x [H⁺]",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ka follows the standard equilibrium constant expression: products over reactants, [H⁺][A⁻] / [HA].",
+          ],
+          hintsMy: [
+            "Ka သည် Standard Equilibrium Constant Expression ကို လိုက်နာသည် - Product ကို Reactant ဖြင့် စား၊ [H⁺][A⁻] / [HA] ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A larger Ka value indicates that the weak acid is...",
+          questionMy: "Ka Value ပိုကြီးခြင်းသည် Weak Acid သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: [
+            "More strongly dissociated (a stronger weak acid)",
+            "Less strongly dissociated (a weaker weak acid)",
+            "Actually a strong acid, not weak",
+            "Unable to dissociate at all",
+          ],
+          optionsMy: [
+            "ပို၍ ပြင်းထန်စွာ Dissociate ဖြစ်သည် (Weak Acid ပို၍ Strong)",
+            "ပို၍ Dissociate နည်းသည် (Weak Acid ပို၍ Weak)",
+            "တကယ်တမ်း Strong Acid ဖြစ်ပြီး Weak မဟုတ်ပါ",
+            "လုံးဝ Dissociate ဖြစ်၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A larger Ka means more of the acid has dissociated into ions at equilibrium, relative to undissociated HA.",
+          ],
+          hintsMy: [
+            "Ka ပိုကြီးခြင်းသည် Equilibrium တွင် Dissociate မဖြစ်သေးသော HA နှင့် နှိုင်းယှဉ်လျှင် Acid ပို၍ များစွာ Ion များအဖြစ် Dissociate ဖြစ်ကြောင်း ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a weak acid with Ka = 1.8 x 10⁻⁵ mol dm⁻³ and concentration 0.10 mol dm⁻³, the approximation [H⁺] = √(Ka x [HA]) gives [H⁺] closest to...",
+          questionMy:
+              "Ka = 1.8 x 10⁻⁵ mol dm⁻³ နှင့် Concentration 0.10 mol dm⁻³ ရှိသော Weak Acid တစ်ခုအတွက် [H⁺] = √(Ka x [HA]) Approximation က [H⁺] ကို...",
+          optionsEn: [
+            "1.34 x 10⁻³ mol dm⁻³",
+            "1.8 x 10⁻⁶ mol dm⁻³",
+            "1.8 x 10⁻⁵ mol dm⁻³",
+            "1.8 x 10⁻⁴ mol dm⁻³",
+          ],
+          optionsMy: [
+            "1.34 x 10⁻³ mol dm⁻³",
+            "1.8 x 10⁻⁶ mol dm⁻³",
+            "1.8 x 10⁻⁵ mol dm⁻³",
+            "1.8 x 10⁻⁴ mol dm⁻³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "[H⁺] = √(1.8 x 10⁻⁵ x 0.10) = √(1.8 x 10⁻⁶) ≈ 1.34 x 10⁻³ mol dm⁻³.",
+          ],
+          hintsMy: ["[H⁺] = √(1.8 x 10⁻⁵ x 0.10) = √(1.8 x 10⁻⁶) ≈ 1.34 x 10⁻³ mol dm⁻³ ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ka, Kb and pH Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ka, Kb and pH ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w10-dm-1",
+          termEn: "Acid dissociation constant (Ka)",
+          termMy: "Acid Dissociation Constant (Ka)",
+          matchEn: "The equilibrium constant for a weak acid's dissociation, Ka = [H⁺][A⁻] / [HA]",
+          matchMy: "Weak Acid Dissociation အတွက် Equilibrium Constant, Ka = [H⁺][A⁻] / [HA]",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w10-dm-2",
+          termEn: "Base dissociation constant (Kb)",
+          termMy: "Base Dissociation Constant (Kb)",
+          matchEn: "The equilibrium constant for a weak base's dissociation, Kb = [BH⁺][OH⁻] / [B]",
+          matchMy: "Weak Base Dissociation အတွက် Equilibrium Constant, Kb = [BH⁺][OH⁻] / [B]",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w10-dm-3",
+          termEn: "pKa",
+          termMy: "pKa",
+          matchEn: "pKa = -log10(Ka) -- a smaller pKa means a stronger weak acid",
+          matchMy: "pKa = -log10(Ka) -- pKa ပိုသေးလေ Weak Acid ပို Strong လေ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w10-dm-4",
+          termEn: "pH",
+          termMy: "pH",
+          matchEn: "pH = -log10([H⁺]) -- a measure of hydrogen ion concentration",
+          matchMy: "pH = -log10([H⁺]) -- Hydrogen Ion Concentration ၏ တိုင်းတာမှု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w10-dm-5",
+          termEn: "Weak acid pH approximation",
+          termMy: "Weak Acid pH Approximation",
+          matchEn: "[H⁺] = √(Ka x [HA]), assuming dissociation is small compared to [HA]",
+          matchMy: "[H⁺] = √(Ka x [HA])၊ Dissociation သည် [HA] နှင့် နှိုင်းယှဉ်လျှင် သေးငယ်သည်ဟု ယူဆသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Stronger or Weaker Weak Acid?",
+      titleMy: "စီစစ်ကြမည် - Weak Acid ပို Strong လား ပို Weak လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Stronger Weak Acid (Larger Ka, Smaller pKa)", "Weaker Weak Acid (Smaller Ka, Larger pKa)"],
+        bucketsMy: ["Weak Acid ပို Strong (Ka ပိုကြီး, pKa ပိုသေး)", "Weak Acid ပို Weak (Ka ပိုသေး, pKa ပိုကြီး)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w10-sort-1",
+            labelEn: "Methanoic acid, Ka = 1.6 x 10⁻⁴ mol dm⁻³",
+            labelMy: "Methanoic Acid, Ka = 1.6 x 10⁻⁴ mol dm⁻³",
+            correctBucketEn: "Stronger Weak Acid (Larger Ka, Smaller pKa)",
+            correctBucketMy: "Weak Acid ပို Strong (Ka ပိုကြီး, pKa ပိုသေး)",
+          ),
+          SortingItem(
+            id: "y13chem-w10-sort-2",
+            labelEn: "Ethanoic acid, Ka = 1.8 x 10⁻⁵ mol dm⁻³",
+            labelMy: "Ethanoic Acid, Ka = 1.8 x 10⁻⁵ mol dm⁻³",
+            correctBucketEn: "Weaker Weak Acid (Smaller Ka, Larger pKa)",
+            correctBucketMy: "Weak Acid ပို Weak (Ka ပိုသေး, pKa ပိုကြီး)",
+          ),
+          SortingItem(
+            id: "y13chem-w10-sort-3",
+            labelEn: "Benzoic acid, pKa = 4.20",
+            labelMy: "Benzoic Acid, pKa = 4.20",
+            correctBucketEn: "Stronger Weak Acid (Larger Ka, Smaller pKa)",
+            correctBucketMy: "Weak Acid ပို Strong (Ka ပိုကြီး, pKa ပိုသေး)",
+          ),
+          SortingItem(
+            id: "y13chem-w10-sort-4",
+            labelEn: "Hydrocyanic acid, HCN, pKa = 9.21",
+            labelMy: "Hydrocyanic Acid, HCN, pKa = 9.21",
+            correctBucketEn: "Weaker Weak Acid (Smaller Ka, Larger pKa)",
+            correctBucketMy: "Weak Acid ပို Weak (Ka ပိုသေး, pKa ပိုကြီး)",
+          ),
+          SortingItem(
+            id: "y13chem-w10-sort-5",
+            labelEn: "Chloroethanoic acid, Ka = 1.3 x 10⁻³ mol dm⁻³",
+            labelMy: "Chloroethanoic Acid, Ka = 1.3 x 10⁻³ mol dm⁻³",
+            correctBucketEn: "Stronger Weak Acid (Larger Ka, Smaller pKa)",
+            correctBucketMy: "Weak Acid ပို Strong (Ka ပိုကြီး, pKa ပိုသေး)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating the pH of a Weak Acid",
+      titleMy: "စာဖတ်ခြင်း - Weak Acid ၏ pH တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating the pH of a Weak Acid",
+        titleMy: "Weak Acid ၏ pH တွက်ချက်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing asked Nan Su Yati to find the pH of a 0.20 mol dm⁻³ solution of ethanoic acid, CH3COOH, given Ka = 1.8 x 10⁻⁵ mol dm⁻³. Unlike a strong acid, she reminded Nan Su Yati, this could not be solved just by reading the concentration straight off -- ethanoic acid only partially dissociates, so the actual [H⁺] had to be calculated from the equilibrium.\n\nNan Su Yati set up the equilibrium expression: Ka = [H⁺][CH3COO⁻] / [CH3COOH]. Since ethanoic acid dissociates so little, she used the standard approximation that [H⁺] ≈ [CH3COO⁻] (they form in a 1:1 ratio) and that [CH3COOH] at equilibrium is still approximately equal to the original 0.20 mol dm⁻³, since so little has actually dissociated. This let her simplify to Ka = [H⁺]2 / [HA], rearranged to [H⁺] = √(Ka x [HA]).\n\nSubstituting the numbers: [H⁺] = √(1.8 x 10⁻⁵ x 0.20) = √(3.6 x 10⁻⁶) ≈ 1.90 x 10⁻³ mol dm⁻³. Taking pH = -log10([H⁺]) = -log10(1.90 x 10⁻³) ≈ 2.72. Sayama Moe Moe Khaing then asked Nan Su Yati to compare this to a strong acid of the same concentration -- 0.20 mol dm⁻³ HCl, which dissociates essentially completely, giving [H⁺] = 0.20 mol dm⁻³ and pH = -log10(0.20) ≈ 0.70. Nan Su Yati saw the difference clearly: despite starting from the identical concentration, the weak acid's pH of 2.72 was far less acidic than the strong acid's pH of 0.70, exactly because only a small fraction of the weak acid's molecules had actually released a proton into solution.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Ka = 1.8 x 10⁻⁵ mol dm⁻³ ပေးထား၍ Ethanoic Acid, CH3COOH, Solution 0.20 mol dm⁻³ ၏ pH ကို ရှာဖွေခိုင်းစေခဲ့သည်။ Strong Acid တစ်ခုနှင့် မတူဘဲ Concentration ကို တိုက်ရိုက် ဖတ်ရုံဖြင့် ဖြေရှင်း၍ မရနိုင်ကြောင်း Nan Su Yati ကို သတိပေးခဲ့သည် -- Ethanoic Acid သည် တစ်စိတ်တစ်ပိုင်းသာ Dissociate ဖြစ်သောကြောင့် တကယ့် [H⁺] ကို Equilibrium မှ တွက်ချက်ရမည်။\n\nNan Su Yati သည် Equilibrium Expression ကို တည်ဆောက်ခဲ့သည် - Ka = [H⁺][CH3COO⁻] / [CH3COOH] ။ Ethanoic Acid သည် အလွန်နည်းစွာသာ Dissociate ဖြစ်သောကြောင့် Standard Approximation ဖြစ်သော [H⁺] ≈ [CH3COO⁻] (1:1 Ratio ဖြင့် ဖြစ်ပေါ်ကြသည်) နှင့် Equilibrium တွင် [CH3COOH] သည် Dissociate ဖြစ်သွားသော ပမာဏ နည်းလွန်းသောကြောင့် မူလ 0.20 mol dm⁻³ နှင့် ခန့်မှန်းခြေ ညီမျှသေးကြောင်း အသုံးပြုခဲ့သည်။ ၎င်းက Ka = [H⁺]2 / [HA] သို့ ရိုးရှင်းစေပြီး [H⁺] = √(Ka x [HA]) သို့ ပြန်လည်စီစဉ်ခဲ့သည်။\n\nဂဏန်းများ အစားထိုးခြင်း - [H⁺] = √(1.8 x 10⁻⁵ x 0.20) = √(3.6 x 10⁻⁶) ≈ 1.90 x 10⁻³ mol dm⁻³ ။ pH = -log10([H⁺]) = -log10(1.90 x 10⁻³) ≈ 2.72 ။ Sayama မိုးမိုးခိုင် သည် ထို့နောက် Concentration တူညီသော Strong Acid -- 0.20 mol dm⁻³ HCl, အခြေခံအားဖြင့် လုံးဝ Dissociate ဖြစ်ကာ [H⁺] = 0.20 mol dm⁻³ နှင့် pH = -log10(0.20) ≈ 0.70 ရရှိသည်ကို ရှိုင်းယှဉ်ခိုင်းစေခဲ့သည်။ Nan Su Yati သည် ကွာခြားချက်ကို ရှင်းလင်းစွာ တွေ့ရှိခဲ့သည် - Concentration တူညီစွာ စတင်သော်လည်း Weak Acid ၏ pH 2.72 သည် Strong Acid ၏ pH 0.70 ထက် Acidic လွန်စွာ နည်းသည် -- Weak Acid ၏ Molecule အချိုးအစားသေးတစ်ခုသာ Proton ကို Solution ထဲသို့ တကယ် ထုတ်လွှတ်ခြင်းကြောင့် အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what approximation lets [H⁺] = √(Ka x [HA]) be used?",
+            questionMy: "[H⁺] = √(Ka x [HA]) ကို အသုံးပြုနိုင်စေသော Approximation ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "[H⁺] ≈ [CH3COO⁻] and [CH3COOH] at equilibrium ≈ the original concentration",
+              "The acid dissociates completely",
+              "Ka is always exactly equal to [H⁺]",
+              "Temperature has no effect on the equilibrium",
+            ],
+            optionsMy: [
+              "[H⁺] ≈ [CH3COO⁻] နှင့် Equilibrium ရှိ [CH3COOH] ≈ မူလ Concentration",
+              "Acid သည် လုံးဝ Dissociate ဖြစ်သည်",
+              "Ka သည် [H⁺] နှင့် အမြဲ အတိအကျ ညီမျှသည်",
+              "Temperature သည် Equilibrium အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's approximation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Approximation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what pH was calculated for the weak acid?",
+            questionMy: "Weak Acid အတွက် pH မည်မျှ တွက်ချက်ရရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈2.72", "≈0.70", "≈5.00", "≈7.00"],
+            optionsMy: ["≈2.72", "≈0.70", "≈5.00", "≈7.00"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ နောက်ဆုံး တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why is the weak acid's pH so much higher (less acidic) than the strong acid's, despite equal concentration?",
+            questionMy:
+                "Concentration တူညီသော်လည်း Weak Acid ၏ pH သည် Strong Acid ၏ pH ထက် အဘယ့်ကြောင့် ပို၍ မြင့် (Acidic နည်း) သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Only a small fraction of the weak acid's molecules actually release a proton",
+              "The weak acid has a higher Ka than the strong acid",
+              "Strong acids never release any protons",
+              "There is no real difference between them",
+            ],
+            optionsMy: [
+              "Weak Acid ၏ Molecule အချိုးအစားသေးတစ်ခုသာ Proton တကယ် ထုတ်လွှတ်သည်",
+              "Weak Acid သည် Strong Acid ထက် Ka ပိုမြင့်သည်",
+              "Strong Acid များသည် Proton မည်သည့်တစ်ခုမျှ လုံးဝ မထုတ်လွှတ်ပါ",
+              "၎င်းတို့ကြား တကယ့် ကွာခြားချက် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's conclusion."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ နိဂုံးချုပ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: Ka, Kb and pH",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Ka, Kb နှင့် pH",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "pH is calculated as...",
+          questionMy: "pH ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: ["-log10([H⁺])", "log10([H⁺])", "[H⁺] x 10", "1 / [H⁺]"],
+          optionsMy: ["-log10([H⁺])", "log10([H⁺])", "[H⁺] x 10", "1 / [H⁺]"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A smaller pKa value means a weak acid is...",
+          questionMy: "pKa Value ပိုသေးခြင်းသည် Weak Acid သည်...",
+          optionsEn: ["Stronger", "Weaker", "Exactly neutral", "Actually a base"],
+          optionsMy: ["ပို Strong", "ပို Weak", "Neutral အတိအကျ", "တကယ်တမ်း Base"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a strong acid of concentration 0.010 mol dm⁻³, which dissociates completely, the pH is...",
+          questionMy: "Concentration 0.010 mol dm⁻³ ရှိပြီး လုံးဝ Dissociate ဖြစ်သော Strong Acid တစ်ခု၏ pH သည်...",
+          optionsEn: ["2", "12", "7", "0.01"],
+          optionsMy: ["2", "12", "7", "0.01"],
+          correctIndex: 0,
+          hintsEn: ["pH = -log10(0.010) = -log10(10⁻²) = 2."],
+          hintsMy: ["pH = -log10(0.010) = -log10(10⁻²) = 2 ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "Buffer Solutions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek11 = CourseWeekDef(
+  id: "course-y13-chem-w11",
+  weekNumber: 11,
+  titleEn: "Buffer Solutions",
+  titleMy: "Buffer Solution များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w11-d1",
+      dayNumber: 1,
+      titleEn: "Buffer Composition and How Buffers Work",
+      titleMy: "Buffer Composition နှင့် Buffer အလုပ်လုပ်ပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A typical acidic buffer solution is made from...",
+          questionMy: "ပုံမှန် Acidic Buffer Solution တစ်ခုကို ...မှ ပြုလုပ်သည်",
+          optionsEn: [
+            "A weak acid and a salt of its conjugate base",
+            "A strong acid and a strong base only",
+            "Pure water alone",
+            "Two strong acids mixed together",
+          ],
+          optionsMy: [
+            "Weak Acid တစ်ခုနှင့် ၎င်း၏ Conjugate Base ၏ Salt",
+            "Strong Acid တစ်ခုနှင့် Strong Base တစ်ခုတည်း",
+            "ရေစင် တစ်ခုတည်း",
+            "Strong Acid နှစ်ခု ရောစပ်ထားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A classic buffer, like ethanoic acid + sodium ethanoate, pairs a weak acid (CH3COOH) with a large reservoir of its conjugate base (CH3COO⁻).",
+          ],
+          hintsMy: [
+            "Classic Buffer တစ်ခု၊ Ethanoic Acid + Sodium Ethanoate ကဲ့သို့၊ Weak Acid (CH3COOH) ကို ၎င်း၏ Conjugate Base (CH3COO⁻) Reservoir ကြီးတစ်ခုနှင့် တွဲစပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "When a small amount of acid (H⁺) is added to a buffer solution, the buffer resists a pH change because...",
+          questionMy: "Buffer Solution တစ်ခုသို့ Acid (H⁺) အနည်းငယ် ထည့်လျှင် Buffer သည် pH ပြောင်းလဲမှုကို ဆန့်ကျင်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "The conjugate base reacts with and removes the added H⁺",
+            "The weak acid instantly evaporates",
+            "The buffer has no effect on added acid at all",
+            "Water molecules neutralise the H⁺ directly",
+          ],
+          optionsMy: [
+            "Conjugate Base သည် ထည့်ထားသော H⁺ နှင့် Reaction ဖြစ်ကာ ဖယ်ရှားပေးသည်",
+            "Weak Acid ချက်ချင်း ငွေ့ပျံသွားသည်",
+            "Buffer သည် ထည့်ထားသော Acid အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+            "Water Molecule များသည် H⁺ ကို တိုက်ရိုက် Neutralise ပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The buffer's conjugate base (A⁻) reacts with the added H⁺ to form more of the weak acid HA, absorbing the extra H⁺ and keeping pH nearly constant.",
+          ],
+          hintsMy: [
+            "Buffer ၏ Conjugate Base (A⁻) သည် ထည့်ထားသော H⁺ နှင့် Reaction ဖြစ်ကာ Weak Acid HA ပို၍ ဖြစ်ပေါ်စေပြီး H⁺ ပိုလျှံကို စုပ်ယူကာ pH ကို နီးပါး Constant ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "When a small amount of base (OH⁻) is added to a buffer solution instead, the buffer resists a pH change because...",
+          questionMy: "အစား Buffer Solution တစ်ခုသို့ Base (OH⁻) အနည်းငယ် ထည့်လျှင် Buffer သည် pH ပြောင်းလဲမှုကို ဆန့်ကျင်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "The weak acid reacts with and removes the added OH⁻",
+            "The conjugate base instantly evaporates",
+            "The buffer has no effect on added base at all",
+            "Water molecules neutralise the OH⁻ directly",
+          ],
+          optionsMy: [
+            "Weak Acid သည် ထည့်ထားသော OH⁻ နှင့် Reaction ဖြစ်ကာ ဖယ်ရှားပေးသည်",
+            "Conjugate Base ချက်ချင်း ငွေ့ပျံသွားသည်",
+            "Buffer သည် ထည့်ထားသော Base အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+            "Water Molecule များသည် OH⁻ ကို တိုက်ရိုက် Neutralise ပြုသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The buffer's weak acid (HA) reacts with the added OH⁻ to form water and more conjugate base, keeping pH nearly constant.",
+          ],
+          hintsMy: [
+            "Buffer ၏ Weak Acid (HA) သည် ထည့်ထားသော OH⁻ နှင့် Reaction ဖြစ်ကာ ရေနှင့် Conjugate Base ပို၍ ဖြစ်ပေါ်စေပြီး pH ကို နီးပါး Constant ဖြစ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Buffer Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Buffer ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w11-dm-1",
+          termEn: "Buffer solution",
+          termMy: "Buffer Solution",
+          matchEn: "A solution that resists changes in pH when small amounts of acid or base are added",
+          matchMy: "Acid သို့မဟုတ် Base အနည်းငယ် ထည့်သွင်းသော်လည်း pH ပြောင်းလဲမှုကို ဆန့်ကျင်နိုင်သော Solution",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w11-dm-2",
+          termEn: "Henderson-Hasselbalch equation",
+          termMy: "Henderson-Hasselbalch Equation",
+          matchEn: "pH = pKa + log10([A⁻] / [HA]) -- relates buffer pH to the acid/conjugate base ratio",
+          matchMy: "pH = pKa + log10([A⁻] / [HA]) -- Buffer pH ကို Acid/Conjugate Base Ratio နှင့် ဆက်စပ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w11-dm-3",
+          termEn: "Common ion effect",
+          termMy: "Common Ion Effect",
+          matchEn: "Adding a salt containing the conjugate base suppresses the weak acid's own dissociation",
+          matchMy: "Conjugate Base ပါဝင်သော Salt ထည့်ခြင်းသည် Weak Acid ကိုယ်တိုင် Dissociation ကို ဖိနှိပ်ပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w11-dm-4",
+          termEn: "Buffer capacity",
+          termMy: "Buffer Capacity",
+          matchEn: "The amount of acid or base a buffer can absorb before its pH changes significantly",
+          matchMy: "pH သိသိသာသာ မပြောင်းလဲမီ Buffer တစ်ခု စုပ်ယူနိုင်သော Acid သို့မဟုတ် Base ပမာဏ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w11-dm-5",
+          termEn: "Acidic buffer",
+          termMy: "Acidic Buffer",
+          matchEn: "A buffer made from a weak acid and a salt of its conjugate base, e.g. CH3COOH / CH3COONa",
+          matchMy: "Weak Acid တစ်ခုနှင့် ၎င်း၏ Conjugate Base ၏ Salt မှ ပြုလုပ်ထားသော Buffer, ဥပမာ - CH3COOH / CH3COONa",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Buffer or Not a Buffer?",
+      titleMy: "စီစစ်ကြမည် - Buffer ဖြစ်လား မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["A Buffer Solution", "Not a Buffer Solution"],
+        bucketsMy: ["Buffer Solution", "Buffer Solution မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w11-sort-1",
+            labelEn: "CH3COOH mixed with CH3COONa",
+            labelMy: "CH3COOH ကို CH3COONa နှင့် ရောစပ်ထားသည်",
+            correctBucketEn: "A Buffer Solution",
+            correctBucketMy: "Buffer Solution",
+          ),
+          SortingItem(
+            id: "y13chem-w11-sort-2",
+            labelEn: "HCl mixed with NaCl",
+            labelMy: "HCl ကို NaCl နှင့် ရောစပ်ထားသည်",
+            correctBucketEn: "Not a Buffer Solution",
+            correctBucketMy: "Buffer Solution မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w11-sort-3",
+            labelEn: "NH3 mixed with NH4Cl",
+            labelMy: "NH3 ကို NH4Cl နှင့် ရောစပ်ထားသည်",
+            correctBucketEn: "A Buffer Solution",
+            correctBucketMy: "Buffer Solution",
+          ),
+          SortingItem(
+            id: "y13chem-w11-sort-4",
+            labelEn: "Pure distilled water alone",
+            labelMy: "Distilled Water စင်ကြယ် တစ်ခုတည်း",
+            correctBucketEn: "Not a Buffer Solution",
+            correctBucketMy: "Buffer Solution မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w11-sort-5",
+            labelEn: "HCOOH mixed with HCOOK",
+            labelMy: "HCOOH ကို HCOOK နှင့် ရောစပ်ထားသည်",
+            correctBucketEn: "A Buffer Solution",
+            correctBucketMy: "Buffer Solution",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Blood's Buffer System",
+      titleMy: "စာဖတ်ခြင်း - သွေး၏ Buffer System",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Blood's Buffer System",
+        titleMy: "သွေး၏ Buffer System",
+        passageEn:
+            "Sayar Zaw Min asked Htet Aung why human blood, which is constantly receiving acidic products from metabolism, stays remarkably close to pH 7.4 at all times, rarely drifting by more than a few hundredths of a pH unit. Htet Aung suggested it might be a buffer system, and Sayar Zaw Min confirmed it: blood relies heavily on the carbonic acid / hydrogencarbonate buffer, H2CO3 / HCO3⁻.\n\nHtet Aung worked through how it would respond to a metabolic acid spike, using the same logic he had learned for CH3COOH / CH3COO⁻. If excess H⁺ enters the bloodstream, the conjugate base, HCO3⁻, reacts with it: HCO3⁻ + H⁺ -> H2CO3, converting the strong disturbance into more of the weak acid, H2CO3, and only slightly nudging the H2CO3-to-HCO3⁻ ratio rather than causing a dramatic pH swing. If excess OH⁻ enters instead, the weak acid H2CO3 reacts with it: H2CO3 + OH⁻ -> HCO3⁻ + H2O, again absorbing the disturbance with only a small ratio shift.\n\nSayar Zaw Min pointed out something Htet Aung hadn't considered: using the Henderson-Hasselbalch relationship, pH = pKa + log10([HCO3⁻] / [H2CO3]), the body doesn't even need to change the buffer's total concentration to adjust its pH slightly -- since the lungs can exhale CO2 (which shifts the H2CO3 side of the ratio) and the kidneys can excrete or retain HCO3⁻ (which shifts the other side), the body has two separate physiological levers acting on exactly the ratio this one equation describes. Htet Aung realised the buffer chemistry he'd learned in the classroom that week was, without exaggeration, one of the reasons his own body could function at all.",
+        passageMy:
+            "Metabolism မှ Acidic Product များ အမြဲ ရရှိနေသော လူ၏ သွေးသည် pH 7.4 အနီးတွင် အံ့ဩဖွယ် ကောင်းစွာ တည်ရှိနေပြီး pH Unit ရာနှင့်ချီသော အစိတ်အပိုင်းထက် ရှားရှားပါးပါးသာ ဆိုင်းလွင့်ကြောင်း Htet Aung ကို Sayar ဇော်မင်း မေးခဲ့သည်။ Buffer System တစ်ခု ဖြစ်နိုင်ကြောင်း Htet Aung အကြံပြုခဲ့ပြီး Sayar ဇော်မင်း အတည်ပြုခဲ့သည် - သွေးသည် Carbonic Acid / Hydrogencarbonate Buffer, H2CO3 / HCO3⁻ ကို များစွာ အားကိုးသည်။\n\nHtet Aung သည် CH3COOH / CH3COO⁻ အတွက် သင်ယူခဲ့သော Logic တူညီကို အသုံးပြု၍ Metabolic Acid Spike တစ်ခုကို မည်သို့ တုံ့ပြန်မည်ကို လုပ်ဆောင်ခဲ့သည်။ H⁺ လျှံပယ် သွေးထဲသို့ ဝင်ရောက်လျှင် Conjugate Base, HCO3⁻ သည် ၎င်းနှင့် Reaction ဖြစ်သည် - HCO3⁻ + H⁺ -> H2CO3၊ ပြင်းထန်သော ဒုက္ခကို Weak Acid, H2CO3 ပို၍ ဖြစ်ပေါ်စေသောသို့ ပြောင်းလဲစေပြီး ပြင်းထန်သော pH ရွေ့လျားမှု ဖြစ်ပေါ်စေမည့်အစား H2CO3-to-HCO3⁻ Ratio ကို အနည်းငယ်သာ တွန်းလှန်ပေးသည်။ အစား OH⁻ လျှံပယ် ဝင်ရောက်လျှင် Weak Acid H2CO3 သည် ၎င်းနှင့် Reaction ဖြစ်သည် - H2CO3 + OH⁻ -> HCO3⁻ + H2O၊ ထပ်မံ၍ Ratio အနည်းငယ် ရွေ့လျားမှုဖြင့်သာ ဒုက္ခကို စုပ်ယူသည်။\n\nHtet Aung မစဉ်းစားမိသေးသော အချက်တစ်ခုကို Sayar ဇော်မင်း ထောက်ပြခဲ့သည် - Henderson-Hasselbalch Relationship, pH = pKa + log10([HCO3⁻] / [H2CO3]) ကို အသုံးပြု၍ ခန္ဓာကိုယ်သည် pH ကို အနည်းငယ် ချိန်ညှိရန် Buffer ၏ Concentration စုစုပေါင်းကို ပြောင်းလဲရန်ပင် မလိုအပ်ပါ -- အဆုတ်သည် CO2 ကို ထုတ်လွှတ်နိုင်ပြီး (Ratio ၏ H2CO3 ဘက်ကို ရွှေ့ပေးသည်) ကျောက်ကပ်သည် HCO3⁻ ကို ထုတ်လွှတ် သို့မဟုတ် ထိန်းသိမ်းနိုင်သောကြောင့် (ကျန်ဘက်ကို ရွှေ့ပေးသည်) ခန္ဓာကိုယ်တွင် ဤ Equation တစ်ခုတည်း ဖော်ပြသည့် Ratio အပေါ် တိုက်ရိုက် အလုပ်လုပ်သော သီးခြား Physiological Lever နှစ်ခု ရှိသည်။ ထိုပတ်တွင် စာသင်ခန်းထဲ၌ သင်ယူခဲ့သော Buffer Chemistry သည် ၎င်း၏ ကိုယ်ပိုင် ခန္ဓာကိုယ် လုံးလုံး လုပ်ဆောင်နိုင်ရသည့် အကြောင်းရင်းများထဲမှ တစ်ခု ဖြစ်ကြောင်း Htet Aung သဘောပေါက်သွားခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, which buffer system does blood rely on heavily?",
+            questionMy: "သွေးသည် မည်သည့် Buffer System ကို များစွာ အားကိုးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The carbonic acid / hydrogencarbonate buffer, H2CO3 / HCO3⁻",
+              "The ethanoic acid / ethanoate buffer",
+              "Pure water alone",
+              "A strong acid / strong base mixture",
+            ],
+            optionsMy: [
+              "Carbonic Acid / Hydrogencarbonate Buffer, H2CO3 / HCO3⁻",
+              "Ethanoic Acid / Ethanoate Buffer",
+              "ရေစင် တစ်ခုတည်း",
+              "Strong Acid / Strong Base ရောစပ်မှု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's final sentence."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံး ဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens to excess H⁺ entering the bloodstream?",
+            questionMy: "သွေးထဲသို့ H⁺ လျှံပယ် ဝင်ရောက်လျှင် မည်သို့ ဖြစ်ပျက်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "HCO3⁻ reacts with it to form more H2CO3",
+              "It is simply ignored by the blood",
+              "It converts all HCO3⁻ into OH⁻",
+              "It has no effect on blood pH at all",
+            ],
+            optionsMy: [
+              "HCO3⁻ သည် ၎င်းနှင့် Reaction ဖြစ်ကာ H2CO3 ပို၍ ဖြစ်ပေါ်စေသည်",
+              "သွေးက ရိုးရိုး လျစ်လျူရှုသည်",
+              "HCO3⁻ အားလုံးကို OH⁻ သို့ ပြောင်းလဲသည်",
+              "သွေး pH အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what two organs act as physiological levers on the buffer ratio?",
+            questionMy: "Buffer Ratio အပေါ် Physiological Lever အဖြစ် ဆောင်ရွက်သော ကိုယ်တွင်း-အင်္ဂါ နှစ်ခုကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The lungs (exhaling CO2) and the kidneys (excreting or retaining HCO3⁻)",
+              "The stomach and the liver",
+              "The heart and the brain",
+              "No organs are involved at all",
+            ],
+            optionsMy: [
+              "အဆုတ် (CO2 ထုတ်လွှတ်) နှင့် ကျောက်ကပ် (HCO3⁻ ထုတ်လွှတ် သို့မဟုတ် ထိန်းသိမ်း)",
+              "အစာအိမ် နှင့် အသည်း",
+              "နှလုံး နှင့် ဦးနှောက်",
+              "ကိုယ်တွင်း-အင်္ဂါ မည်သည့်တစ်ခုမျှ မပါဝင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: Buffer Solutions",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Buffer Solution များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An acidic buffer is typically made from...",
+          questionMy: "Acidic Buffer တစ်ခုကို ပုံမှန် ...မှ ပြုလုပ်သည်",
+          optionsEn: [
+            "A weak acid and a salt of its conjugate base",
+            "A strong acid and a strong base",
+            "Pure water",
+            "Two different strong acids",
+          ],
+          optionsMy: [
+            "Weak Acid တစ်ခုနှင့် ၎င်း၏ Conjugate Base ၏ Salt",
+            "Strong Acid တစ်ခုနှင့် Strong Base",
+            "ရေစင်",
+            "Strong Acid မတူညီ နှစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Henderson-Hasselbalch equation relates pH to...",
+          questionMy: "Henderson-Hasselbalch Equation သည် pH ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "pKa and the ratio [A⁻] / [HA]",
+            "Only the temperature",
+            "Only the total volume",
+            "Only the molar mass of the acid",
+          ],
+          optionsMy: [
+            "pKa နှင့် Ratio [A⁻] / [HA]",
+            "Temperature တစ်ခုတည်း",
+            "Volume စုစုပေါင်း တစ်ခုတည်း",
+            "Acid ၏ Molar Mass တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A mixture of HCl and NaCl is not a buffer because...",
+          questionMy: "HCl နှင့် NaCl ရောစပ်ထားခြင်းသည် Buffer မဟုတ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "HCl is a strong acid, not a weak acid, so there is no reservoir of undissociated acid",
+            "HCl has no conjugate base at all",
+            "NaCl is itself a strong acid",
+            "Chloride ions cannot exist in solution",
+          ],
+          optionsMy: [
+            "HCl သည် Weak Acid မဟုတ်ဘဲ Strong Acid ဖြစ်၍ Dissociate မဖြစ်သေးသော Acid Reservoir မရှိပါ",
+            "HCl တွင် Conjugate Base လုံးဝ မရှိပါ",
+            "NaCl ကိုယ်တိုင် Strong Acid ဖြစ်သည်",
+            "Chloride Ion များသည် Solution ထဲတွင် တည်ရှိ၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12 (Boss Week): "Solubility Product Ksp"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek12 = CourseWeekDef(
+  id: "course-y13-chem-w12",
+  weekNumber: 12,
+  titleEn: "Solubility Product Ksp",
+  titleMy: "Solubility Product Ksp",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w12-d1",
+      dayNumber: 1,
+      titleEn: "Defining and Using Ksp",
+      titleMy: "Ksp အဓိပ္ပာယ်ဖွင့်ဆိုခြင်းနှင့် အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For a sparingly soluble salt AB <=> A⁺ + B⁻, the solubility product Ksp is defined as...",
+          questionMy: "အနည်းငယ်သာ ပျော်ဝင်သော Salt AB <=> A⁺ + B⁻ အတွက် Solubility Product Ksp ကို ...ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: ["Ksp = [A⁺][B⁻]", "Ksp = [AB]", "Ksp = [A⁺] / [B⁻]", "Ksp = [A⁺] + [B⁻]"],
+          optionsMy: ["Ksp = [A⁺][B⁻]", "Ksp = [AB]", "Ksp = [A⁺] / [B⁻]", "Ksp = [A⁺] + [B⁻]"],
+          correctIndex: 0,
+          hintsEn: [
+            "Ksp is simply the product of the ion concentrations in a saturated solution of a sparingly soluble salt -- the solid itself doesn't appear, since it's not in solution.",
+          ],
+          hintsMy: [
+            "Ksp သည် အနည်းငယ်သာ ပျော်ဝင်သော Salt ၏ Saturated Solution ရှိ Ion Concentration ပေါင်းလဒ်ရိုးရိုးသာ ဖြစ်သည် -- Solid ကိုယ်တိုင် Solution ထဲတွင် မပါဝင်သောကြောင့် မပေါ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A smaller Ksp value indicates that a salt is...",
+          questionMy: "Ksp Value ပိုသေးခြင်းသည် Salt တစ်ခု...",
+          optionsEn: [
+            "Less soluble in water",
+            "More soluble in water",
+            "Actually highly soluble",
+            "Unrelated to solubility",
+          ],
+          optionsMy: [
+            "ရေထဲတွင် ပျော်ဝင်မှု ပိုနည်းသည်",
+            "ရေထဲတွင် ပျော်ဝင်မှု ပိုများသည်",
+            "တကယ်တမ်း ပျော်ဝင်မှု အလွန် များသည်",
+            "Solubility နှင့် မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A smaller Ksp means a lower concentration of dissolved ions is enough to reach saturation -- the salt does not dissolve very much.",
+          ],
+          hintsMy: [
+            "Ksp ပိုသေးခြင်းသည် Saturation ရောက်ရန် ပျော်ဝင်ထားသော Ion Concentration ပိုနည်းရုံသာ လိုအပ်ကြောင်း ဆိုလိုသည် -- Salt သည် များများ မပျော်ဝင်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Adding a common ion (e.g. adding NaCl to a saturated AgCl solution) to a saturated solution of a sparingly soluble salt causes the salt's solubility to...",
+          questionMy:
+              "အနည်းငယ်သာ ပျော်ဝင်သော Salt ၏ Saturated Solution သို့ Common Ion (ဥပမာ - Saturated AgCl Solution ထဲသို့ NaCl ထည့်ခြင်း) ထည့်ခြင်းသည် Salt ၏ Solubility ကို...",
+          optionsEn: [
+            "Decrease (Le Chatelier's principle shifts the equilibrium towards more solid)",
+            "Increase substantially",
+            "Have absolutely no effect",
+            "Become infinite",
+          ],
+          optionsMy: [
+            "လျော့ကျစေသည် (Le Chatelier's Principle က Equilibrium ကို Solid ပိုများဘက်သို့ ရွှေ့ပေးသည်)",
+            "သိသိသာသာ တိုးလာစေသည်",
+            "လုံးဝ သက်ရောက်မှု လုံးဝ မရှိပါ",
+            "Infinite ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Adding more Cl⁻ pushes the equilibrium AgCl(s) <=> Ag⁺ + Cl⁻ back towards the solid, since Ksp must stay constant -- this is the common ion effect.",
+          ],
+          hintsMy: [
+            "Cl⁻ ပို၍ ထည့်ခြင်းသည် AgCl(s) <=> Ag⁺ + Cl⁻ Equilibrium ကို Solid ဘက်သို့ ပြန်တွန်းပေးသည်၊ Ksp သည် Constant ဆက်ရှိနေရမည်ဖြစ်သောကြောင့် -- ၎င်းသည် Common Ion Effect ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Solubility Product Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Solubility Product ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w12-dm-1",
+          termEn: "Solubility product (Ksp)",
+          termMy: "Solubility Product (Ksp)",
+          matchEn: "The equilibrium constant for a sparingly soluble salt dissolving, e.g. Ksp = [A⁺][B⁻]",
+          matchMy: "အနည်းငယ်သာ ပျော်ဝင်သော Salt တစ်ခု ပျော်ဝင်ခြင်းအတွက် Equilibrium Constant, ဥပမာ - Ksp = [A⁺][B⁻]",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w12-dm-2",
+          termEn: "Saturated solution",
+          termMy: "Saturated Solution",
+          matchEn: "A solution in equilibrium with undissolved solid, holding the maximum dissolved ion concentration",
+          matchMy: "Dissolve မဖြစ်သေးသော Solid နှင့် Equilibrium တွင် ရှိသော Solution၊ Dissolve ဖြစ်သော Ion Concentration အများဆုံး ဆောင်ထားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w12-dm-3",
+          termEn: "Common ion effect",
+          termMy: "Common Ion Effect",
+          matchEn: "Adding an ion already present in the equilibrium reduces a sparingly soluble salt's solubility",
+          matchMy: "Equilibrium ထဲတွင် ရှိပြီးသား Ion ကို ထပ်မံထည့်သွင်းခြင်းသည် အနည်းငယ်သာ ပျော်ဝင်သော Salt ၏ Solubility ကို လျော့ကျစေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w12-dm-4",
+          termEn: "Precipitation",
+          termMy: "Precipitation",
+          matchEn: "Occurs when the ionic product of a solution exceeds Ksp, forcing excess solid out of solution",
+          matchMy: "Solution တစ်ခု၏ Ionic Product သည် Ksp ကျော်လွန်သောအခါ ဖြစ်ပေါ်ပြီး Solid ပိုလျှံကို Solution ထဲမှ တွန်းထုတ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w12-dm-5",
+          termEn: "Ionic product",
+          termMy: "Ionic Product",
+          matchEn: "The product of ion concentrations at any moment, compared with Ksp to predict whether precipitation occurs",
+          matchMy: "အချိန်တိုင်းရှိ Ion Concentration ပေါင်းလဒ်၊ Precipitation ဖြစ်မဖြစ် ခန့်မှန်းရန် Ksp နှင့် နှိုင်းယှဉ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: More Soluble or Less Soluble?",
+      titleMy: "စီစစ်ကြမည် - ပျော်ဝင်မှု ပိုများလား ပိုနည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["More Soluble (Larger Ksp)", "Less Soluble (Smaller Ksp)"],
+        bucketsMy: ["ပျော်ဝင်မှု ပိုများ (Ksp ပိုကြီး)", "ပျော်ဝင်မှု ပိုနည်း (Ksp ပိုသေး)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w12-sort-1",
+            labelEn: "Calcium sulfate, CaSO4, Ksp = 4.9 x 10⁻⁵",
+            labelMy: "Calcium Sulfate, CaSO4, Ksp = 4.9 x 10⁻⁵",
+            correctBucketEn: "More Soluble (Larger Ksp)",
+            correctBucketMy: "ပျော်ဝင်မှု ပိုများ (Ksp ပိုကြီး)",
+          ),
+          SortingItem(
+            id: "y13chem-w12-sort-2",
+            labelEn: "Silver chloride, AgCl, Ksp = 1.8 x 10⁻¹⁰",
+            labelMy: "Silver Chloride, AgCl, Ksp = 1.8 x 10⁻¹⁰",
+            correctBucketEn: "Less Soluble (Smaller Ksp)",
+            correctBucketMy: "ပျော်ဝင်မှု ပိုနည်း (Ksp ပိုသေး)",
+          ),
+          SortingItem(
+            id: "y13chem-w12-sort-3",
+            labelEn: "Lead(II) chloride, PbCl2, Ksp = 1.7 x 10⁻⁵",
+            labelMy: "Lead(II) Chloride, PbCl2, Ksp = 1.7 x 10⁻⁵",
+            correctBucketEn: "More Soluble (Larger Ksp)",
+            correctBucketMy: "ပျော်ဝင်မှု ပိုများ (Ksp ပိုကြီး)",
+          ),
+          SortingItem(
+            id: "y13chem-w12-sort-4",
+            labelEn: "Silver bromide, AgBr, Ksp = 5.4 x 10⁻¹³",
+            labelMy: "Silver Bromide, AgBr, Ksp = 5.4 x 10⁻¹³",
+            correctBucketEn: "Less Soluble (Smaller Ksp)",
+            correctBucketMy: "ပျော်ဝင်မှု ပိုနည်း (Ksp ပိုသေး)",
+          ),
+          SortingItem(
+            id: "y13chem-w12-sort-5",
+            labelEn: "Barium sulfate, BaSO4, Ksp = 1.1 x 10⁻¹⁰",
+            labelMy: "Barium Sulfate, BaSO4, Ksp = 1.1 x 10⁻¹⁰",
+            correctBucketEn: "Less Soluble (Smaller Ksp)",
+            correctBucketMy: "ပျော်ဝင်မှု ပိုနည်း (Ksp ပိုသေး)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Ksp, Buffers and the Term Coming Together",
+      titleMy: "စာဖတ်ခြင်း - Ksp, Buffer နှင့် Term ပေါင်းစည်းလာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Ksp, Buffers and the Term Coming Together",
+        titleMy: "Ksp, Buffer နှင့် Term ပေါင်းစည်းလာခြင်း",
+        passageEn:
+            "Sayar Zaw Min closed the term with a calculation and a question. He gave Su Su the solubility of silver chloride in pure water: 1.3 x 10⁻⁵ mol dm⁻³, and asked her to find Ksp. Since AgCl <=> Ag⁺ + Cl⁻ dissolves in a 1:1 ratio, [Ag⁺] = [Cl⁻] = 1.3 x 10⁻⁵ mol dm⁻³, so Ksp = [Ag⁺][Cl⁻] = (1.3 x 10⁻⁵)2 = 1.7 x 10⁻¹⁰ mol2 dm⁻⁶ -- a very small value, confirming AgCl barely dissolves at all.\n\nHe then asked her a harder question: if solid AgCl were placed into a solution that already contained 0.10 mol dm⁻³ Cl⁻ from dissolved NaCl, would more or less AgCl dissolve compared to pure water? Su Su reasoned it through using Ksp, which must stay constant at a fixed temperature: since Ksp = [Ag⁺][Cl⁻] and [Cl⁻] was now much larger than in pure water, [Ag⁺] had to become correspondingly smaller to keep the product equal to 1.7 x 10⁻¹⁰ -- meaning far less AgCl would dissolve. This was the common ion effect in action, and Su Su noticed it worked by exactly the same equilibrium logic as buffer solutions the week before: in both cases, adding a species already involved in an equilibrium pushes that equilibrium backward, whether the equilibrium is a weak acid dissociating or a solid salt dissolving.\n\nSayar Zaw Min used this observation to close out the whole term. Brønsted-Lowry theory had defined what acids and bases actually are; Ka, Kb, and pH calculations had given weak equilibria numerical teeth; buffer solutions had shown how a mixture of a weak species and its conjugate could resist disturbance; and Ksp, in this final week, extended the exact same equilibrium thinking to solids dissolving. Every single topic across the term, he said, was really one idea studied from four different angles: chemical equilibrium, applied again and again to proton transfer, acid strength, buffering, and solubility.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် တွက်ချက်မှုတစ်ခုနှင့် မေးခွန်းတစ်ခုဖြင့် Term ကို ပိတ်ခဲ့သည်။ Silver Chloride ၏ ရေစင်ထဲတွင် Solubility ကို Su Su ကို ပေးခဲ့သည် - 1.3 x 10⁻⁵ mol dm⁻³ ၊ Ksp ကို ရှာဖွေခိုင်းစေခဲ့သည်။ AgCl <=> Ag⁺ + Cl⁻ သည် 1:1 Ratio ဖြင့် ပျော်ဝင်သောကြောင့် [Ag⁺] = [Cl⁻] = 1.3 x 10⁻⁵ mol dm⁻³ ၊ Ksp = [Ag⁺][Cl⁻] = (1.3 x 10⁻⁵)2 = 1.7 x 10⁻¹⁰ mol2 dm⁻⁶ -- Value အလွန် သေးငယ်ပြီး AgCl သည် နည်းနည်းသာ ပျော်ဝင်ကြောင်း အတည်ပြုသည်။\n\nထို့နောက် ပို၍ ခက်ခဲသော မေးခွန်းတစ်ခု မေးခဲ့သည် - Solid AgCl ကို NaCl မှ ပျော်ဝင်ထားပြီးသား Cl⁻ 0.10 mol dm⁻³ ပါဝင်သော Solution ထဲသို့ ထည့်လျှင် ရေစင်ထဲထက် AgCl ပို၍ ပျော်ဝင်မည်လား၊ နည်းနည်းသာ ပျော်ဝင်မည်လား။ Su Su သည် Fixed Temperature တွင် Constant ဆက်ရှိနေရမည့် Ksp ကို အသုံးပြု၍ ဆင်ခြင်တွေးခေါ်ခဲ့သည် - Ksp = [Ag⁺][Cl⁻] ဖြစ်ပြီး [Cl⁻] သည် ရေစင်ထက် ယခု များစွာ ကြီးမားနေသောကြောင့် Product ကို 1.7 x 10⁻¹⁰ နှင့် ညီမျှစေရန် [Ag⁺] သည် ထိုအတိုင်း ပိုသေးငယ်ရမည် -- AgCl ပျော်ဝင်မှု အလွန် နည်းသွားမည်ဟု ဆိုလိုသည်။ ၎င်းသည် Common Ion Effect လက်တွေ့ ဖြစ်ပြီး Su Su သည် ယခင်ပတ်မှ Buffer Solution များနှင့် Equilibrium Logic အတူတူပင် အလုပ်လုပ်ကြောင်း သတိပြုမိခဲ့သည် - Case နှစ်ခုစလုံးတွင် Equilibrium ထဲတွင် ရှိပြီးသား Species ကို ထပ်မံ ထည့်သွင်းခြင်းသည် ထို Equilibrium ကို နောက်ပြန်တွန်းပေးသည်၊ Equilibrium သည် Weak Acid Dissociate ဖြစ်ခြင်း ဖြစ်စေ Solid Salt ပျော်ဝင်ခြင်း ဖြစ်စေ တူညီသည်။\n\nSayar ဇော်မင်း သည် ဤ Observation ကို အသုံးပြု၍ Term တစ်ခုလုံးကို ပိတ်သိမ်းခဲ့သည်။ Brønsted-Lowry Theory သည် Acid နှင့် Base တကယ့်တွင် မည်သည်ဖြစ်သည်ကို သတ်မှတ်ခဲ့ပြီး Ka, Kb, နှင့် pH Calculation များသည် Weak Equilibria များကို ဂဏန်း သွားများ ပေးခဲ့ကာ Buffer Solution များသည် Weak Species တစ်ခုနှင့် ၎င်း၏ Conjugate ရောစပ်မှုသည် ဒုက္ခကို မည်သို့ ဆန့်ကျင်နိုင်သည်ကို ပြသခဲ့ပြီး ဤ နောက်ဆုံးပတ်တွင် Ksp သည် Equilibrium Thinking တူတူတစ်ခုတည်းကို Solid ပျော်ဝင်ခြင်းသို့ ဆက်လက် ချဲ့ထွင်ပေးခဲ့သည်။ Term တစ်ခုလုံးရှိ ခေါင်းစဉ် တစ်ခုစီသည် Chemical Equilibrium ဟူသော Idea တစ်ခုတည်းကို ရှုထောင့် လေးခုမှ သင်ယူခဲ့ခြင်းသာ ဖြစ်ကြောင်း ၎င်း ပြောခဲ့သည် - Proton Transfer, Acid Strength, Buffering, နှင့် Solubility သို့ ထပ်ခါထပ်ခါ အသုံးချထားသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what Ksp value did Su Su calculate for AgCl?",
+            questionMy: "AgCl အတွက် Su Su တွက်ချက်ရရှိသော Ksp တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1.7 x 10⁻¹⁰ mol2 dm⁻⁶", "1.3 x 10⁻⁵ mol dm⁻³", "0.10 mol dm⁻³", "1.7 x 10⁻⁵ mol2 dm⁻⁶"],
+            optionsMy: ["1.7 x 10⁻¹⁰ mol2 dm⁻⁶", "1.3 x 10⁻⁵ mol dm⁻³", "0.10 mol dm⁻³", "1.7 x 10⁻⁵ mol2 dm⁻⁶"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's calculation."],
+            hintsMy: ["ပထမစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, does more or less AgCl dissolve when Cl⁻ is already present in solution?",
+            questionMy: "Solution ထဲတွင် Cl⁻ ရှိပြီးသားဖြစ်လျှင် AgCl ပို၍ ပျော်ဝင်သလား၊ နည်းနည်းသာ ပျော်ဝင်သလားဟု စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Less AgCl dissolves, since [Ag⁺] must decrease to keep Ksp constant",
+              "More AgCl dissolves than in pure water",
+              "The exact same amount dissolves regardless",
+              "AgCl becomes completely insoluble",
+            ],
+            optionsMy: [
+              "Ksp Constant ဆက်ရှိနေရန် [Ag⁺] လျော့ကျရသောကြောင့် AgCl ပျော်ဝင်မှု နည်းသည်",
+              "ရေစင်ထက် AgCl ပို၍ ပျော်ဝင်သည်",
+              "မည်သို့ပင်ရှိစေ ပျော်ဝင်မှု ပမာဏ အတိအကျ တူညီသည်",
+              "AgCl သည် လုံးဝ Insoluble ဖြစ်လာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's reasoning."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဆင်ခြင်တွေးခေါ်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what single idea does Sayar Zaw Min say the whole term was really about?",
+            questionMy: "Term တစ်ခုလုံးသည် တကယ်တမ်း မည်သည့် Idea တစ်ခုတည်းအကြောင်း ဖြစ်ကြောင်း Sayar ဇော်မင်း ပြောခဲ့သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Chemical equilibrium, applied to proton transfer, acid strength, buffering, and solubility",
+              "Only lattice energy calculations",
+              "Only electron configuration",
+              "Only organic reaction mechanisms",
+            ],
+            optionsMy: [
+              "Chemical Equilibrium၊ Proton Transfer, Acid Strength, Buffering, နှင့် Solubility သို့ အသုံးချထားသည်",
+              "Lattice Energy Calculation တစ်ခုတည်း",
+              "Electron Configuration တစ်ခုတည်း",
+              "Organic Reaction Mechanism တစ်ခုတည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's closing summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ပိတ်သိမ်းအကျဉ်းချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Solubility Product",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - Solubility Product",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "For AB <=> A⁺ + B⁻, Ksp is defined as...",
+          questionMy: "AB <=> A⁺ + B⁻ အတွက် Ksp ကို ...ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: ["[A⁺][B⁻]", "[AB]", "[A⁺] / [B⁻]", "[A⁺] - [B⁻]"],
+          optionsMy: ["[A⁺][B⁻]", "[AB]", "[A⁺] / [B⁻]", "[A⁺] - [B⁻]"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A smaller Ksp means a salt is...",
+          questionMy: "Ksp ပိုသေးခြင်းသည် Salt တစ်ခုသည်...",
+          optionsEn: ["Less soluble", "More soluble", "Completely insoluble always", "Unrelated to solubility"],
+          optionsMy: ["ပျော်ဝင်မှု ပိုနည်း", "ပျော်ဝင်မှု ပိုများ", "အမြဲ လုံးဝ Insoluble", "Solubility နှင့် မသက်ဆိုင်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Adding a common ion to a saturated salt solution causes solubility to...",
+          questionMy: "Saturated Salt Solution တစ်ခုသို့ Common Ion ထည့်ခြင်းသည် Solubility ကို...",
+          optionsEn: ["Decrease", "Increase", "Have no effect", "Become infinite"],
+          optionsMy: ["လျော့ကျစေသည်", "တိုးလာစေသည်", "သက်ရောက်မှု မရှိစေပါ", "Infinite ဖြစ်လာသည်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm3 = CourseTermDef(
+  id: "course-y13-chem-term3",
+  termNumber: 3,
+  titleEn: "Further Equilibria: Acids, Bases and Buffers",
+  titleMy: "Further Equilibria - Acid, Base နှင့် Buffer များ",
+  weeks: [_y13ChemWeek9, _y13ChemWeek10, _y13ChemWeek11, _y13ChemWeek12],
+  certificateTitleEn: "A2 Chemistry: Further Equilibria: Acids, Bases and Buffers",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Further Equilibria - Acid, Base နှင့် Buffer များ",
+);
