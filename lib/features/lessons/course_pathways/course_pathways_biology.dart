@@ -26242,3 +26242,3847 @@ const CoursePathwayDef year12BiologyPathway = CoursePathwayDef(
     year12BiologyTerm9,
   ],
 );
+
+// =====================================================================
+// YEAR 13 BIOLOGY (A-Level A2, Cambridge 9700) -- Term 1: "Energy and
+// Respiration"
+// (Weeks 1-4). This is the A2 continuation of the completed
+// [year12BiologyPathway] (AS half). Term 2 ("Photosynthesis") and Term
+// 3 ("Homeostasis") continue below. The CoursePathwayDef itself, and
+// Terms 4-9, are added in a later pass -- see the Year 12 equivalent
+// (year12BiologyPathway) for the shape it will eventually take.
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 1: "ATP and Glycolysis"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek1 = CourseWeekDef(
+  id: "course-y13-bio-w1",
+  weekNumber: 1,
+  titleEn: "ATP and Glycolysis",
+  titleMy: "ATP နှင့် Glycolysis",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w1-d1",
+      dayNumber: 1,
+      titleEn: "ATP: Structure and the Universal Energy Currency",
+      titleMy: "ATP - ဖွဲ့စည်းပုံနှင့် Universal Energy Currency",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ATP (adenosine triphosphate) is made up of...",
+          questionMy: "ATP (Adenosine Triphosphate) ကို ...မှ ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Adenine, a ribose sugar, and three phosphate groups",
+            "A fatty acid, glycerol, and a single phosphate group",
+            "A sugar and two phosphate groups only, with no base",
+            "A nucleotide with four phosphate groups",
+          ],
+          optionsMy: [
+            "Adenine, Ribose Sugar နှင့် Phosphate Group သုံးခု",
+            "Fatty Acid, Glycerol နှင့် Phosphate Group တစ်ခုတည်း",
+            "Base မပါဘဲ Sugar နှင့် Phosphate Group နှစ်ခုသာ",
+            "Phosphate Group လေးခုပါသော Nucleotide",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ATP's name literally describes its structure: \"adenosine\" (adenine + ribose) with \"tri-phosphate\" (three phosphate groups) attached.",
+          ],
+          hintsMy: [
+            "ATP ၏ နာမည်ကပင် ၎င်း၏ ဖွဲ့စည်းပုံကို တိုက်ရိုက် ဖော်ပြသည် - \"Adenosine\" (Adenine + Ribose) တွင် \"Tri-phosphate\" (Phosphate Group သုံးခု) ပူးတွဲပါဝင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "ATP is described as the universal energy currency of cells because...",
+          questionMy:
+              "ATP ကို ဆဲလ်များ၏ Universal Energy Currency ဟု ဖော်ပြရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Hydrolysing its terminal phosphate bond releases a manageable amount of energy cells can use directly",
+            "It is the only molecule in a cell that contains carbon",
+            "It cannot be broken down once it has been made",
+            "It is produced only during photosynthesis",
+          ],
+          optionsMy: [
+            "၎င်း၏ အဆုံးဆုံး Phosphate Bond ကို Hydrolysis ပြုလုပ်ခြင်းက ဆဲလ်များ တိုက်ရိုက်အသုံးပြုနိုင်သော စွမ်းအင် သင့်တင့်မှု ထုတ်လွှတ်ပေးသောကြောင့်",
+            "ဆဲလ်တစ်ခုအတွင်း Carbon ပါဝင်သော မော်လီကျူးတစ်ခုတည်း ဖြစ်သောကြောင့်",
+            "တစ်ခါဖန်တီးပြီးလျှင် ပြန်လည် ချေဖျက်၍ မရသောကြောင့်",
+            "Photosynthesis အတွင်းသာ ထုတ်လုပ်နိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Hydrolysing ATP to ADP + Pi releases just enough energy for enzymes to couple directly to processes like active transport, muscle contraction, or biosynthesis -- not too much, not too little.",
+          ],
+          hintsMy: [
+            "ATP ကို ADP + Pi အဖြစ် Hydrolysis ပြုလုပ်ခြင်းက Active Transport, ကြွက်သားညှစ်ခြင်း (သို့) Biosynthesis ကဲ့သို့ လုပ်ငန်းစဉ်များနှင့် Enzyme များ တိုက်ရိုက် ချိတ်ဆက်နိုင်ရန် လုံလောက်သော စွမ်းအင်ကိုသာ ထုတ်လွှတ်ပေးသည် -- များလွန်း၊ နည်းလွန်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During glycolysis, one molecule of glucose (6 carbons) is broken down in the cytoplasm to yield...",
+          questionMy:
+              "Glycolysis အတွင်း Glucose (Carbon 6 ခု) မော်လီကျူးတစ်ခုကို Cytoplasm တွင် ချေဖျက်ပြီး ...ကို ရရှိသည်",
+          optionsEn: [
+            "Two molecules of pyruvate (3 carbons each), a net gain of 2 ATP, and reduced NAD",
+            "Two molecules of carbon dioxide and no ATP at all",
+            "One molecule of acetyl coenzyme A directly",
+            "Six molecules of ATP with no pyruvate produced",
+          ],
+          optionsMy: [
+            "Pyruvate (Carbon 3 ခုစီ) မော်လီကျူးနှစ်ခု, ATP Net 2 ခု နှင့် Reduced NAD",
+            "Carbon Dioxide မော်လီကျူးနှစ်ခုနှင့် ATP လုံးဝ မရှိခြင်း",
+            "Acetyl Coenzyme A မော်လီကျူးတစ်ခု တိုက်ရိုက်",
+            "Pyruvate လုံးဝ မထွက်ဘဲ ATP ခြောက်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Glycolysis invests 2 ATP early on but produces 4 ATP overall by substrate-level phosphorylation -- a net gain of 2 ATP per glucose, plus reduced NAD carrying high-energy electrons onward.",
+          ],
+          hintsMy: [
+            "Glycolysis သည် ATP 2 ခုကို အစောပိုင်းတွင် ရင်းနှီးမြှုပ်နှံသော်လည်း Substrate-Level Phosphorylation ဖြင့် စုစုပေါင်း ATP 4 ခု ထုတ်လုပ်ပေးသည် -- Glucose တစ်ခုလျှင် Net ATP 2 ခု ရရှိပြီး Reduced NAD ကလည်း Electron များကို ရှေ့ဆက် သယ်ဆောင်သွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w1-d2",
+      dayNumber: 2,
+      titleEn: "Match: ATP and Glycolysis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ATP နှင့် Glycolysis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w1-dm-1",
+          termEn: "ATP",
+          termMy: "ATP",
+          matchEn:
+              "A small, reusable molecule of adenine, ribose and three phosphate groups that stores and transfers energy in cells",
+          matchMy:
+              "Adenine, Ribose နှင့် Phosphate Group သုံးခုဖြင့် ဖွဲ့စည်းထားသော ဆဲလ်များအတွင်း စွမ်းအင် သိမ်းဆည်း/လွှဲပြောင်းပေးသည့် သေးငယ်၍ ပြန်လည်အသုံးပြုနိုင်သော မော်လီကျူး",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w1-dm-2",
+          termEn: "ADP",
+          termMy: "ADP",
+          matchEn:
+              "Adenosine diphosphate; formed when ATP is hydrolysed, ready to be rephosphorylated back into ATP",
+          matchMy:
+              "Adenosine Diphosphate; ATP ကို Hydrolysis ပြုလုပ်သောအခါ ဖြစ်ပေါ်ပြီး ATP အဖြစ် ပြန်လည် Phosphorylation ပြုလုပ်ရန် အသင့်ရှိသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w1-dm-3",
+          termEn: "Phosphorylation",
+          termMy: "Phosphorylation",
+          matchEn:
+              "Adding a phosphate group to a molecule, e.g. ADP + Pi -> ATP, usually requiring energy input",
+          matchMy:
+              "မော်လီကျူးတစ်ခုသို့ Phosphate Group ထပ်ပေါင်းခြင်း၊ ဥပမာ - ADP + Pi -> ATP၊ ပုံမှန်အားဖြင့် စွမ်းအင် လိုအပ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w1-dm-4",
+          termEn: "Hydrolysis of ATP",
+          termMy: "ATP ၏ Hydrolysis",
+          matchEn:
+              "Breaking the bond to ATP's terminal phosphate group using water, releasing energy and forming ADP + Pi",
+          matchMy:
+              "ရေကို အသုံးပြု၍ ATP ၏ အဆုံးဆုံး Phosphate Group Bond ကို ချိုးဖျက်ပြီး စွမ်းအင် ထုတ်လွှတ်ကာ ADP + Pi ဖြစ်စေခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w1-dm-5",
+          termEn: "Glycolysis",
+          termMy: "Glycolysis",
+          matchEn:
+              "The first stage of respiration; splits glucose into two pyruvate molecules in the cytoplasm, yielding a net 2 ATP",
+          matchMy:
+              "Respiration ၏ ပထမအဆင့်၊ Cytoplasm တွင် Glucose ကို Pyruvate မော်လီကျူးနှစ်ခုအဖြစ် ခွဲခြမ်းပြီး Net ATP 2 ခု ရရှိသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w1-d3",
+      dayNumber: 3,
+      titleEn: "Sort: ATP Structure/Role or Glycolysis?",
+      titleMy: "စီစစ်ကြမည် - ATP ဖွဲ့စည်းပုံ/တာဝန် သို့မဟုတ် Glycolysis?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["ATP Structure and Role", "Glycolysis"],
+        bucketsMy: ["ATP ဖွဲ့စည်းပုံနှင့် တာဝန်", "Glycolysis"],
+        items: [
+          SortingItem(
+            id: "y13bio-w1-sort-1",
+            labelEn: "Made of adenine, ribose and three phosphate groups",
+            labelMy: "Adenine, Ribose နှင့် Phosphate Group သုံးခုမှ ဖွဲ့စည်းသည်",
+            correctBucketEn: "ATP Structure and Role",
+            correctBucketMy: "ATP ဖွဲ့စည်းပုံနှင့် တာဝန်",
+          ),
+          SortingItem(
+            id: "y13bio-w1-sort-2",
+            labelEn: "Hydrolysis of its terminal phosphate bond releases usable energy",
+            labelMy: "၎င်း၏ အဆုံးဆုံး Phosphate Bond ကို Hydrolysis ပြုလုပ်ခြင်းက အသုံးဝင်သော စွမ်းအင် ထုတ်လွှတ်သည်",
+            correctBucketEn: "ATP Structure and Role",
+            correctBucketMy: "ATP ဖွဲ့စည်းပုံနှင့် တာဝန်",
+          ),
+          SortingItem(
+            id: "y13bio-w1-sort-3",
+            labelEn: "Takes place in the cytoplasm of the cell",
+            labelMy: "ဆဲလ်၏ Cytoplasm တွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Glycolysis",
+            correctBucketMy: "Glycolysis",
+          ),
+          SortingItem(
+            id: "y13bio-w1-sort-4",
+            labelEn: "Splits one glucose molecule into two pyruvate molecules",
+            labelMy: "Glucose မော်လီကျူးတစ်ခုကို Pyruvate မော်လီကျူးနှစ်ခုအဖြစ် ခွဲခြမ်းသည်",
+            correctBucketEn: "Glycolysis",
+            correctBucketMy: "Glycolysis",
+          ),
+          SortingItem(
+            id: "y13bio-w1-sort-5",
+            labelEn: "Produces a net yield of 2 ATP and reduced NAD per glucose molecule",
+            labelMy: "Glucose တစ်ခုလျှင် Net ATP 2 ခုနှင့် Reduced NAD ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "Glycolysis",
+            correctBucketMy: "Glycolysis",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w1-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Cells Need a Constant ATP Supply",
+      titleMy: "စာဖတ်ခြင်း - ဆဲလ်များ ATP အဆက်မပြတ် လိုအပ်ရသည့်အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Cells Need a Constant ATP Supply",
+        titleMy: "ဆဲလ်များ ATP အဆက်မပြတ် လိုအပ်ရသည့်အကြောင်း",
+        passageEn:
+            "Sayar Zaw Min opened the first lesson of Year 13 Biology by asking why every diagram of respiration starts with a small, unremarkable-looking molecule called ATP rather than glucose itself. Htet Aung offered an answer: glucose stores a large amount of energy in its bonds, but a cell cannot release all of that energy in one uncontrolled burst without damaging itself. ATP, by contrast, releases a smaller, manageable amount of energy each time its terminal phosphate bond is hydrolysed to ADP and inorganic phosphate -- exactly the right size to power a single step of active transport, a single muscle contraction, or a single stage of protein synthesis.\n\nSu Su reminded the class that ATP is not stored in large amounts; instead, it is continuously regenerated as fast as it is used, mostly by respiration. The first stage of that process, glycolysis, happens in the cytoplasm of every living cell -- no oxygen and no organelles required. She sketched the outline on the board: a six-carbon glucose molecule is phosphorylated using two ATP, then split into two three-carbon molecules, each of which is oxidised to pyruvate, regenerating four ATP by substrate-level phosphorylation and reducing NAD along the way.\n\n\"So the books were right after all,\" Htet Aung said, working through the arithmetic. \"Two ATP go in, four ATP come out -- a net gain of two ATP, plus two reduced NAD carrying electrons that will matter a great deal once we reach the mitochondria next week.\" Sayar Zaw Min nodded. \"Glycolysis on its own is a modest energy yield,\" he said, \"but it is the universal first step every aerobic and anaerobic organism shares -- which is exactly why every respiration story in this course begins here.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Year 13 ဇီဝဗေဒ ပထမသင်ခန်းစာကို Respiration ဇယားကားများတိုင်းသည် Glucose ကိုယ်တိုင်မဟုတ်ဘဲ ATP ဟု ခေါ်သော သေးငယ်၍ သိပ်မထူးခြားသော မော်လီကျူးတစ်ခုဖြင့် အဘယ်ကြောင့် အစပြုကြသနည်းဟူသော မေးခွန်းဖြင့် စတင်ခဲ့သည်။ Htet Aung က အဖြေတစ်ခု ပေးခဲ့သည် - Glucose သည် ၎င်း၏ Bond များတွင် စွမ်းအင်များစွာ သိမ်းဆည်းထားသော်လည်း ဆဲလ်တစ်ခုသည် ထိုစွမ်းအင်အားလုံးကို ထိန်းချုပ်မှုမရှိဘဲ တစ်ကြိမ်တည်း ထုတ်လွှတ်ပါက မိမိကိုယ်ကို ထိခိုက်စေနိုင်သည်။ ATP မှာမူ ၎င်း၏ အဆုံးဆုံး Phosphate Bond ကို ADP နှင့် Inorganic Phosphate အဖြစ် Hydrolysis ပြုလုပ်တိုင်း သေးငယ်၍ ကိုင်တွယ်နိုင်သော စွမ်းအင်ကိုသာ ထုတ်လွှတ်သည် -- Active Transport အဆင့်တစ်ခု၊ ကြွက်သားညှစ်ခြင်းတစ်ကြိမ် (သို့) Protein Synthesis အဆင့်တစ်ခုကို လှုပ်ရှားစေရန် အတိအကျ လိုက်ဖက်သော အရွယ်အစား ဖြစ်သည်။\n\nATP ကို အရေအတွက် များများ သိမ်းဆည်းမထားကြောင်း Su Su က အတန်းကို သတိပေးခဲ့သည်၊ အစား ၎င်းကို အသုံးပြုသည့်နှုန်းအတိုင်း အဆက်မပြတ် ပြန်လည် ထုတ်လုပ်ပေးသည်၊ အများစုမှာ Respiration ကနေတဆင့် ဖြစ်သည်။ ထိုလုပ်ငန်းစဉ်၏ ပထမအဆင့် Glycolysis သည် သက်ရှိဆဲလ်တိုင်း၏ Cytoplasm တွင် ဖြစ်ပွားပြီး Oxygen နှင့် Organelle မလိုအပ်ပါ။ သူသည် ဘုတ်ပေါ်တွင် အကျဉ်းချုပ် ရေးဆွဲပြခဲ့သည် - Carbon 6 ခုပါ Glucose မော်လီကျူးကို ATP နှစ်ခုအသုံးပြု၍ Phosphorylation ပြုလုပ်ပြီး Carbon 3 ခုစီပါသော မော်လီကျူးနှစ်ခုအဖြစ် ခွဲခြမ်းသည်၊ တစ်ခုစီကို Pyruvate အဖြစ် Oxidation ပြုလုပ်ကာ Substrate-Level Phosphorylation ဖြင့် ATP လေးခု ပြန်လည် ရရှိစေပြီး Path တလျှောက် NAD ကို Reduce လုပ်ပေးသည်။\n\n\"ဒါဆို စာအုပ်တွေ ပြောတာ မှန်ခဲ့တာပဲ\" ဟု Htet Aung က ဂဏန်းတွက်ချက်မှု ပြုလုပ်ရင်း ပြောခဲ့သည်။ \"ATP နှစ်ခု ဝင်သွားပြီး ATP လေးခု ပြန်ထွက်လာသည် -- Net ATP နှစ်ခု ရရှိပြီး နောက်အပတ် Mitochondria ကို ရောက်တော့မည့် Electron များကို သယ်ဆောင်နေသော Reduced NAD နှစ်ခုပါ ရရှိသည်။\" ဆရာဇော်မင်း ခေါင်းညိတ်ပြခဲ့သည်။ \"Glycolysis တစ်ခုတည်းက စွမ်းအင် အနည်းငယ်သာ ရရှိသော်လည်း\" ဟု သူ ဆိုခဲ့သည် \"၎င်းသည် Aerobic နှင့် Anaerobic သတ္တဝါတိုင်း မျှဝေသော Universal ပထမအဆင့် ဖြစ်သည် -- ဤ Course ရှိ Respiration ဇာတ်လမ်းတိုင်း ဤနေရာမှ အစပြုရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, why does a cell use ATP rather than releasing all of glucose's energy at once?",
+            questionMy:
+                "ဆဲလ်တစ်ခုသည် Glucose ၏ စွမ်းအင်အားလုံးကို တစ်ကြိမ်တည်း မထုတ်လွှတ်ဘဲ ATP ကို အသုံးပြုသည့်အကြောင်းရင်းကို Htet Aung ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "ATP releases a smaller, manageable amount of energy each time it is hydrolysed",
+              "ATP contains more carbon atoms than glucose",
+              "Glucose cannot be broken down inside a cell",
+              "ATP is produced only outside the cell",
+            ],
+            optionsMy: [
+              "ATP ကို Hydrolysis ပြုလုပ်တိုင်း သေးငယ်၍ ကိုင်တွယ်နိုင်သော စွမ်းအင်ကိုသာ ထုတ်လွှတ်သောကြောင့်",
+              "ATP တွင် Glucose ထက် Carbon Atom ပိုများသောကြောင့်",
+              "Glucose ကို ဆဲလ်အတွင်း ချေဖျက်၍ မရသောကြောင့်",
+              "ATP ကို ဆဲလ်အပြင်ဘက်တွင်သာ ထုတ်လုပ်နိုင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, where does glycolysis take place?",
+            questionMy: "Glycolysis ဖြစ်ပွားရာနေရာကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "In the cytoplasm of the cell",
+              "Inside the mitochondrial matrix",
+              "On the inner mitochondrial membrane",
+              "Inside the nucleus",
+            ],
+            optionsMy: [
+              "ဆဲလ်၏ Cytoplasm တွင်",
+              "Mitochondrial Matrix အတွင်း",
+              "Mitochondrial Membrane အတွင်းဘက်တွင်",
+              "Nucleus အတွင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's arithmetic, what is the net ATP yield of glycolysis per glucose molecule?",
+            questionMy:
+                "Glucose မော်လီကျူးတစ်ခုလျှင် Glycolysis ၏ Net ATP အထွက်နှုန်းကို Htet Aung ၏ ဂဏန်းတွက်ချက်မှုအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A net gain of 2 ATP",
+              "A net gain of 4 ATP",
+              "A net loss of 2 ATP",
+              "A net gain of 6 ATP",
+            ],
+            optionsMy: [
+              "Net ATP 2 ခု ရရှိခြင်း",
+              "Net ATP 4 ခု ရရှိခြင်း",
+              "Net ATP 2 ခု ဆုံးရှုံးခြင်း",
+              "Net ATP 6 ခု ရရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w1-d5",
+      dayNumber: 5,
+      titleEn: "Week 1 Recap: ATP and Glycolysis",
+      titleMy: "ပထမပတ် ပြန်လည်သုံးသပ်ခြင်း - ATP နှင့် Glycolysis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "ATP stands for...",
+          questionMy: "ATP ၏ အဓိပ္ပာယ်မှာ...",
+          optionsEn: [
+            "Adenosine triphosphate",
+            "Amino triphosphate",
+            "Adenine tripeptide",
+            "Adenosine diphosphate",
+          ],
+          optionsMy: [
+            "Adenosine Triphosphate",
+            "Amino Triphosphate",
+            "Adenine Tripeptide",
+            "Adenosine Diphosphate",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Glycolysis occurs in the...",
+          questionMy: "Glycolysis သည် ...တွင် ဖြစ်ပွားသည်",
+          optionsEn: ["Cytoplasm", "Mitochondrial matrix", "Nucleus", "Cell wall"],
+          optionsMy: ["Cytoplasm", "Mitochondrial Matrix", "Nucleus", "Cell Wall"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The net ATP yield from glycolysis per glucose molecule is...",
+          questionMy: "Glucose မော်လီကျူးတစ်ခုလျှင် Glycolysis ၏ Net ATP အထွက်နှုန်းမှာ...",
+          optionsEn: ["2 ATP", "4 ATP", "38 ATP", "0 ATP"],
+          optionsMy: ["ATP ၂ ခု", "ATP ၄ ခု", "ATP ၃၈ ခု", "ATP ၀ ခု"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 2: "The Link Reaction and Krebs Cycle"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek2 = CourseWeekDef(
+  id: "course-y13-bio-w2",
+  weekNumber: 2,
+  titleEn: "The Link Reaction and Krebs Cycle",
+  titleMy: "Link Reaction နှင့် Krebs Cycle",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w2-d1",
+      dayNumber: 1,
+      titleEn: "From Pyruvate to Acetyl CoA to the Krebs Cycle",
+      titleMy: "Pyruvate မှ Acetyl CoA မှတဆင့် Krebs Cycle ဆီသို့",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The link reaction takes place in the mitochondrial matrix and converts pyruvate into...",
+          questionMy:
+              "Link Reaction သည် Mitochondrial Matrix တွင် ဖြစ်ပွားပြီး Pyruvate ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: [
+            "Acetyl coenzyme A, releasing carbon dioxide and reducing NAD",
+            "Glucose, releasing oxygen",
+            "Lactate, releasing water",
+            "ATP directly, with no other products formed",
+          ],
+          optionsMy: [
+            "Acetyl Coenzyme A, Carbon Dioxide ထွက်ရှိပြီး NAD ကို Reduce လုပ်သည်",
+            "Glucose, Oxygen ထွက်ရှိသည်",
+            "Lactate, ရေ ထွက်ရှိသည်",
+            "အခြားထုတ်ကုန်မရှိဘဲ ATP တိုက်ရိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Pyruvate (3C) loses one carbon as CO2 (decarboxylation) and is oxidised (dehydrogenation, reducing NAD) as the remaining 2-carbon fragment combines with coenzyme A.",
+          ],
+          hintsMy: [
+            "Pyruvate (Carbon 3 ခု) သည် Carbon တစ်ခုကို CO2 အဖြစ် ဆုံးရှုံးသည် (Decarboxylation) ပြီး ကျန်ရှိနေသော Carbon 2 ခုပါ အပိုင်းသည် Coenzyme A နှင့် ပေါင်းစည်းစဉ် Oxidation ခံရသည် (Dehydrogenation, NAD ကို Reduce လုပ်သည်)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the Krebs cycle, acetyl coenzyme A (2 carbons) combines with oxaloacetate (4 carbons) to form...",
+          questionMy:
+              "Krebs Cycle တွင် Acetyl Coenzyme A (Carbon 2 ခု) သည် Oxaloacetate (Carbon 4 ခု) နှင့် ပေါင်းစည်းကာ ...ကို ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Citrate (6 carbons), which is then progressively broken down, releasing CO2 and regenerating oxaloacetate",
+            "Pyruvate directly, with no further reactions",
+            "Glucose, ready for another round of glycolysis",
+            "ATP, with no carbon skeleton involved at all",
+          ],
+          optionsMy: [
+            "Citrate (Carbon 6 ခု), တဖြည်းဖြည်း ချေဖျက်ကာ CO2 ထွက်ရှိပြီး Oxaloacetate ပြန်လည် ဖြစ်ပေါ်စေသည်",
+            "နောက်ထပ် တုံ့ပြန်မှု မရှိတော့ဘဲ Pyruvate တိုက်ရိုက်",
+            "နောက်ထပ် Glycolysis အတွက် အသင့်ဖြစ်သော Glucose",
+            "Carbon Skeleton လုံးဝ မပါဘဲ ATP",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Citrate synthase catalyses this first step; as citrate is broken down around the cycle, CO2 is released, reduced NAD/FAD are produced, and oxaloacetate is eventually regenerated to accept another acetyl group.",
+          ],
+          hintsMy: [
+            "Citrate Synthase သည် ဤပထမအဆင့်ကို Catalyse ပြုလုပ်ပေးသည်၊ Citrate ကို Cycle တစ်လျှောက် ချေဖျက်စဉ် CO2 ထွက်ရှိပြီး Reduced NAD/FAD ထုတ်လုပ်ကာ Oxaloacetate ကို နောက်ဆုံးတွင် Acetyl Group အသစ်တစ်ခု လက်ခံရန် ပြန်လည် ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Each turn of the Krebs cycle produces...",
+          questionMy: "Krebs Cycle ၏ လှည့်ပတ်တစ်ကြိမ်တိုင်းသည် ...ကို ထုတ်လုပ်ပေးသည်",
+          optionsEn: [
+            "Carbon dioxide, reduced NAD and FAD, and one ATP by substrate-level phosphorylation",
+            "Glucose and oxygen only",
+            "Ethanol and carbon dioxide",
+            "A large direct yield of ATP with no reduced coenzymes at all",
+          ],
+          optionsMy: [
+            "Carbon Dioxide, Reduced NAD နှင့် FAD, Substrate-Level Phosphorylation ဖြင့် ATP တစ်ခု",
+            "Glucose နှင့် Oxygen သာ",
+            "Ethanol နှင့် Carbon Dioxide",
+            "Reduced Coenzyme လုံးဝ မပါဘဲ ATP ကြီးမားစွာ တိုက်ရိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Krebs cycle itself makes relatively little ATP directly -- its real value is the reduced NAD and FAD it hands off to the electron transport chain.",
+          ],
+          hintsMy: [
+            "Krebs Cycle ကိုယ်တိုင်က ATP ကို တိုက်ရိုက် အနည်းငယ်သာ ထုတ်လုပ်သည် -- ၎င်း၏ အဓိကတန်ဖိုးမှာ Electron Transport Chain သို့ လွှဲပြောင်းပေးသော Reduced NAD နှင့် FAD ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w2-d2",
+      dayNumber: 2,
+      titleEn: "Match: Link Reaction and Krebs Cycle",
+      titleMy: "တွဲစပ်ကြမည် - Link Reaction နှင့် Krebs Cycle",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w2-dm-1",
+          termEn: "Link reaction",
+          termMy: "Link Reaction",
+          matchEn:
+              "Converts pyruvate to acetyl coenzyme A in the mitochondrial matrix, releasing CO2 and reducing NAD",
+          matchMy:
+              "Mitochondrial Matrix တွင် Pyruvate ကို Acetyl Coenzyme A အဖြစ် ပြောင်းလဲပေးပြီး CO2 ထွက်ရှိကာ NAD ကို Reduce လုပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w2-dm-2",
+          termEn: "Acetyl coenzyme A",
+          termMy: "Acetyl Coenzyme A",
+          matchEn:
+              "A 2-carbon molecule that enters the Krebs cycle by combining with oxaloacetate",
+          matchMy: "Oxaloacetate နှင့် ပေါင်းစည်း၍ Krebs Cycle ထဲသို့ ဝင်ရောက်သော Carbon 2 ခုပါ မော်လီကျူး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w2-dm-3",
+          termEn: "Decarboxylation",
+          termMy: "Decarboxylation",
+          matchEn: "The removal of a carbon atom from a molecule as carbon dioxide",
+          matchMy: "မော်လီကျူးတစ်ခုမှ Carbon Atom တစ်ခုကို Carbon Dioxide အဖြစ် ဖယ်ရှားခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w2-dm-4",
+          termEn: "Krebs cycle",
+          termMy: "Krebs Cycle",
+          matchEn:
+              "A cyclical series of reactions in the mitochondrial matrix releasing CO2 and reducing NAD and FAD",
+          matchMy:
+              "Mitochondrial Matrix တွင် CO2 ထွက်ရှိပြီး NAD နှင့် FAD ကို Reduce လုပ်ပေးသော Cycle ပုံစံ တုံ့ပြန်မှုများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w2-dm-5",
+          termEn: "Oxaloacetate",
+          termMy: "Oxaloacetate",
+          matchEn: "The 4-carbon molecule regenerated at the end of each turn of the Krebs cycle",
+          matchMy: "Krebs Cycle ၏ လှည့်ပတ်တစ်ကြိမ်ပြီးတိုင်း ပြန်လည် ဖြစ်ပေါ်လာသော Carbon 4 ခုပါ မော်လီကျူး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w2-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Link Reaction or Krebs Cycle?",
+      titleMy: "စီစစ်ကြမည် - Link Reaction သို့မဟုတ် Krebs Cycle?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Link Reaction", "Krebs Cycle"],
+        bucketsMy: ["Link Reaction", "Krebs Cycle"],
+        items: [
+          SortingItem(
+            id: "y13bio-w2-sort-1",
+            labelEn: "Converts pyruvate into acetyl coenzyme A",
+            labelMy: "Pyruvate ကို Acetyl Coenzyme A အဖြစ် ပြောင်းလဲပေးသည်",
+            correctBucketEn: "Link Reaction",
+            correctBucketMy: "Link Reaction",
+          ),
+          SortingItem(
+            id: "y13bio-w2-sort-2",
+            labelEn: "Happens once for each pyruvate molecule that enters the mitochondrion",
+            labelMy: "Mitochondrion ထဲသို့ ဝင်ရောက်သော Pyruvate မော်လီကျူးတစ်ခုလျှင် တစ်ကြိမ် ဖြစ်ပွားသည်",
+            correctBucketEn: "Link Reaction",
+            correctBucketMy: "Link Reaction",
+          ),
+          SortingItem(
+            id: "y13bio-w2-sort-3",
+            labelEn: "Combines acetyl coenzyme A with oxaloacetate to form citrate",
+            labelMy: "Acetyl Coenzyme A ကို Oxaloacetate နှင့် ပေါင်းစည်း၍ Citrate ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Krebs Cycle",
+            correctBucketMy: "Krebs Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w2-sort-4",
+            labelEn: "A cyclical series of reactions that regenerates its own starting molecule",
+            labelMy: "မိမိစတင်ခဲ့သော မော်လီကျူးကို ပြန်လည် ဖြစ်ပေါ်စေသော Cycle ပုံစံ တုံ့ပြန်မှုများ",
+            correctBucketEn: "Krebs Cycle",
+            correctBucketMy: "Krebs Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w2-sort-5",
+            labelEn: "Produces ATP by substrate-level phosphorylation as one of its steps",
+            labelMy: "အဆင့်တစ်ခုအနေဖြင့် Substrate-Level Phosphorylation ဖြင့် ATP ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "Krebs Cycle",
+            correctBucketMy: "Krebs Cycle",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w2-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Following One Carbon Atom Into the Mitochondrion",
+      titleMy: "စာဖတ်ခြင်း - Carbon Atom တစ်ခုကို Mitochondrion အထိ လိုက်ကြည့်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Following One Carbon Atom Into the Mitochondrion",
+        titleMy: "Carbon Atom တစ်ခုကို Mitochondrion အထိ လိုက်ကြည့်ခြင်း",
+        passageEn:
+            "Su Su asked the class to imagine they were a single carbon atom, sitting inside a molecule of pyruvate that had just been produced by glycolysis in the cytoplasm. \"Your journey isn't over,\" she said, \"it's only just beginning.\" She described how pyruvate is actively transported into the mitochondrial matrix, where the link reaction strips away one carbon atom as carbon dioxide (decarboxylation) and oxidises what remains, reducing a molecule of NAD in the process. The surviving 2-carbon fragment combines with coenzyme A to form acetyl coenzyme A.\n\nHtet Aung picked up the story from there: acetyl coenzyme A releases its 2-carbon acetyl group to combine with the 4-carbon oxaloacetate already waiting in the matrix, forming 6-carbon citrate. From citrate, a whole series of small steps strips carbon atoms away one at a time as more carbon dioxide, oxidising the molecule further and reducing more NAD (and one FAD), while a single ATP is made directly by substrate-level phosphorylation along the way. By the time the cycle completes one full turn, the original 4-carbon oxaloacetate has been regenerated, ready to accept another acetyl group.\n\n\"So for every original glucose molecule,\" Sayar Zaw Min summarised, \"we get two pyruvate, two acetyl coenzyme A, and the Krebs cycle turning twice -- once for each. Add up all the carbon atoms that started in that glucose molecule, and you'll find every single one has left as carbon dioxide by the end of the cycle. None of it has been \"wasted\", though: what really matters for the next stage is not the carbon skeleton at all, but the pile of reduced NAD and FAD we've been quietly building up the whole time.\"",
+        passageMy:
+            "Su Su က အတန်းကို Cytoplasm ရှိ Glycolysis မှ ယခုတင် ထုတ်လုပ်ခဲ့သော Pyruvate မော်လီကျူးတစ်ခုအတွင်း ရှိနေသော Carbon Atom တစ်ခုဖြစ်နေသည်ဟု စိတ်ကူးကြည့်ရန် ပြောခဲ့သည်။ \"သင်၏ ခရီးက မပြီးသေးပါ\" ဟု သူ ပြောခဲ့သည် \"ယခုမှ စတင်နေခြင်းသာ ဖြစ်သည်။\" Pyruvate ကို Mitochondrial Matrix ထဲသို့ Active Transport ဖြင့် ပို့ဆောင်ပုံ၊ Link Reaction က Carbon Atom တစ်ခုကို Carbon Dioxide အဖြစ် ဖယ်ရှားပုံ (Decarboxylation) နှင့် ကျန်ရှိနေသည်ကို Oxidation ပြုလုပ်ကာ NAD မော်လီကျူးတစ်ခုကို Reduce လုပ်ပုံကို သူ ဖော်ပြခဲ့သည်။ ကျန်ရှိသော Carbon 2 ခုပါ အပိုင်းသည် Coenzyme A နှင့် ပေါင်းစည်းကာ Acetyl Coenzyme A ဖြစ်လာသည်။\n\nHtet Aung က ဇာတ်လမ်းကို ဆက်လက် ပြောပြခဲ့သည် - Acetyl Coenzyme A သည် ၎င်း၏ Carbon 2 ခုပါ Acetyl Group ကို Matrix အတွင်း ရှိနှင့်ပြီးသား Carbon 4 ခုပါ Oxaloacetate နှင့် ပေါင်းစည်းစေကာ Carbon 6 ခုပါ Citrate ဖြစ်ပေါ်စေသည်။ Citrate မှစတင်၍ အဆင့်ငယ်များစွာသည် Carbon Atom များကို တစ်ခုပြီးတစ်ခု Carbon Dioxide အဖြစ် ဖယ်ရှားပေးပြီး မော်လီကျူးကို ထပ်မံ Oxidation ပြုလုပ်ကာ NAD ပိုမို Reduce လုပ်စေသည် (FAD တစ်ခုအပါအဝင်)၊ ထိုအတောအတွင်း Substrate-Level Phosphorylation ဖြင့် ATP တစ်ခု တိုက်ရိုက် ထုတ်လုပ်ပေးသည်။ Cycle တစ်ပတ်လုံး ပြီးဆုံးချိန်တွင် မူလ Carbon 4 ခုပါ Oxaloacetate ကို ပြန်လည် ဖြစ်ပေါ်စေပြီး Acetyl Group အသစ်တစ်ခု လက်ခံရန် အသင့် ရှိနေသည်။\n\n\"ဒါဆို မူလ Glucose မော်လီကျူးတစ်ခုလျှင်\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ် ပြောပြခဲ့သည် \"Pyruvate နှစ်ခု, Acetyl Coenzyme A နှစ်ခု ရရှိပြီး Krebs Cycle သည် တစ်ခုစီအတွက် နှစ်ကြိမ် လှည့်ပတ်သည်။ ထို Glucose မော်လီကျူးတွင် စတင်ခဲ့သော Carbon Atom အားလုံးကို ပေါင်းလိုက်လျှင် Cycle ပြီးဆုံးချိန်တွင် တစ်ခုစီသည် Carbon Dioxide အဖြစ် ထွက်ခွာသွားကြောင်း တွေ့ရလိမ့်မည်။ သို့သော် ၎င်းသည် \"အလဟဿ\" ဖြစ်သွားခြင်း လုံးဝ မဟုတ်ပါ - နောက်အဆင့်အတွက် အဓိကအရေးကြီးသည်မှာ Carbon Skeleton လုံးဝ မဟုတ်ဘဲ ကျွန်တော်တို့ တိတ်တဆိတ် စုဆောင်းနေခဲ့သော Reduced NAD နှင့် FAD အစုအဝေးသာ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what happens to pyruvate as soon as it enters the mitochondrial matrix?",
+            questionMy:
+                "Pyruvate သည် Mitochondrial Matrix ထဲသို့ ဝင်ရောက်သည်နှင့် တစ်ပြိုင်နက် အဘယ်ဖြစ်လာသည်ကို ပထမစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It undergoes the link reaction, losing one carbon as CO2 and reducing NAD",
+              "It is converted straight back into glucose",
+              "It leaves the cell entirely",
+              "It becomes lactate immediately",
+            ],
+            optionsMy: [
+              "Link Reaction ခံရပြီး Carbon တစ်ခုကို CO2 အဖြစ် ဆုံးရှုံးကာ NAD ကို Reduce လုပ်သည်",
+              "Glucose အဖြစ် တိုက်ရိုက် ပြန်လည် ပြောင်းလဲသည်",
+              "ဆဲလ်ကို လုံးဝ ထွက်ခွာသွားသည်",
+              "ချက်ချင်း Lactate ဖြစ်လာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, citrate is formed by combining acetyl coenzyme A with...",
+            questionMy:
+                "Citrate ကို Acetyl Coenzyme A နှင့် မည်သည့်အရာနှင့် ပေါင်းစည်းပြီး ဖွဲ့စည်းသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Oxaloacetate",
+              "Glucose",
+              "Pyruvate",
+              "Carbon dioxide",
+            ],
+            optionsMy: ["Oxaloacetate", "Glucose", "Pyruvate", "Carbon Dioxide"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's summary, what really matters most for the next stage of respiration?",
+            questionMy:
+                "Respiration ၏ နောက်အဆင့်အတွက် အဓိက အရေးကြီးသည့်အရာကို ဆရာဇော်မင်း ၏ အကျဉ်းချုပ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The reduced NAD and FAD produced along the way",
+              "The exact carbon skeleton of the original glucose molecule",
+              "The colour of the citrate molecule",
+              "The number of oxaloacetate molecules destroyed",
+            ],
+            optionsMy: [
+              "လမ်းတလျှောက် ထုတ်လုပ်ခဲ့သော Reduced NAD နှင့် FAD",
+              "မူလ Glucose မော်လီကျူး၏ Carbon Skeleton အတိအကျ",
+              "Citrate မော်လီကျူး၏ အရောင်",
+              "ဖျက်ဆီးခံရသော Oxaloacetate မော်လီကျူး အရေအတွက်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w2-d5",
+      dayNumber: 5,
+      titleEn: "Week 2 Recap: Link Reaction and Krebs Cycle",
+      titleMy: "ဒုတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Link Reaction နှင့် Krebs Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The link reaction converts pyruvate into...",
+          questionMy: "Link Reaction သည် Pyruvate ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: ["Acetyl coenzyme A", "Glucose", "Lactate", "Oxygen"],
+          optionsMy: ["Acetyl Coenzyme A", "Glucose", "Lactate", "Oxygen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Krebs cycle takes place in the...",
+          questionMy: "Krebs Cycle သည် ...တွင် ဖြစ်ပွားသည်",
+          optionsEn: ["Mitochondrial matrix", "Cytoplasm", "Nucleus", "Cell membrane"],
+          optionsMy: ["Mitochondrial Matrix", "Cytoplasm", "Nucleus", "Cell Membrane"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Each turn of the Krebs cycle regenerates a molecule of...",
+          questionMy: "Krebs Cycle ၏ လှည့်ပတ်တစ်ကြိမ်တိုင်းသည် ...မော်လီကျူးကို ပြန်လည် ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Oxaloacetate", "Glucose", "ATP only", "Pyruvate"],
+          optionsMy: ["Oxaloacetate", "Glucose", "ATP သာ", "Pyruvate"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 3: "Oxidative Phosphorylation and the Electron Transport Chain"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek3 = CourseWeekDef(
+  id: "course-y13-bio-w3",
+  weekNumber: 3,
+  titleEn: "Oxidative Phosphorylation and the Electron Transport Chain",
+  titleMy: "Oxidative Phosphorylation နှင့် Electron Transport Chain",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w3-d1",
+      dayNumber: 1,
+      titleEn: "The Electron Transport Chain and Chemiosmosis",
+      titleMy: "Electron Transport Chain နှင့် Chemiosmosis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The electron transport chain is located on the...",
+          questionMy: "Electron Transport Chain သည် ...ပေါ်တွင် တည်ရှိသည်",
+          optionsEn: [
+            "Inner mitochondrial membrane (the cristae)",
+            "Outer mitochondrial membrane",
+            "Cell surface membrane",
+            "Nuclear envelope",
+          ],
+          optionsMy: [
+            "Mitochondrial Membrane အတွင်းဘက် (Cristae)",
+            "Mitochondrial Membrane အပြင်ဘက်",
+            "Cell Surface Membrane",
+            "Nuclear Envelope",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The cristae -- folds of the inner mitochondrial membrane -- greatly increase the surface area available for electron carrier proteins.",
+          ],
+          hintsMy: [
+            "Cristae -- Mitochondrial Membrane အတွင်းဘက်၏ အခေါက်များ -- သည် Electron Carrier Protein များအတွက် ရရှိနိုင်သော မျက်နှာပြင်ဧရိယာကို များစွာ တိုးမြှင့်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "As electrons pass along the electron transport chain, the energy released is used to...",
+          questionMy:
+              "Electron များသည် Electron Transport Chain တလျှောက် သွားစဉ် ထွက်ရှိလာသော စွမ်းအင်ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Actively pump protons (H+) from the matrix into the intermembrane space",
+            "Break down glucose directly into pyruvate",
+            "Synthesise new DNA in the mitochondrion",
+            "Convert oxygen into carbon dioxide",
+          ],
+          optionsMy: [
+            "Proton (H+) များကို Matrix မှ Intermembrane Space ထဲသို့ Active Pump ပြုလုပ်ရန်",
+            "Glucose ကို Pyruvate အဖြစ် တိုက်ရိုက် ချေဖျက်ရန်",
+            "Mitochondrion အတွင်း DNA အသစ် ဖန်တီးရန်",
+            "Oxygen ကို Carbon Dioxide အဖြစ် ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This proton pumping builds up a higher concentration of H+ in the intermembrane space than in the matrix -- an electrochemical gradient called the proton motive force.",
+          ],
+          hintsMy: [
+            "ဤ Proton Pump ပြုလုပ်ခြင်းက Intermembrane Space တွင် Matrix ထက် H+ အာနှုန်း ပိုမြင့်စေသည် -- Proton Motive Force ဟု ခေါ်သော Electrochemical Gradient တစ်ခု ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In chemiosmosis, protons flow back down their concentration gradient through ATP synthase, which...",
+          questionMy:
+              "Chemiosmosis တွင် Proton များသည် ၎င်းတို့၏ အာနှုန်း Gradient အတိုင်း ATP Synthase မှတဆင့် ပြန်လည် စီးဆင်းလာပြီး ...",
+          optionsEn: [
+            "Uses this flow of protons to generate ATP from ADP and Pi",
+            "Pumps protons back into the matrix using ATP",
+            "Breaks ATP synthase down permanently",
+            "Produces glucose directly",
+          ],
+          optionsMy: [
+            "ဤ Proton စီးဆင်းမှုကို အသုံးပြု၍ ADP နှင့် Pi မှ ATP ထုတ်လုပ်ပေးသည်",
+            "ATP ကို အသုံးပြု၍ Proton များကို Matrix ထဲသို့ ပြန်လည် Pump ပြုလုပ်သည်",
+            "ATP Synthase ကို အမြဲတမ်း ချိုးဖျက်ပစ်သည်",
+            "Glucose ကို တိုက်ရိုက် ထုတ်လုပ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ATP synthase acts like a turbine: the flow of protons through it drives the rotation that catalyses ATP formation -- this whole process is oxidative phosphorylation, and oxygen is the final electron acceptor, combining with electrons and H+ to form water.",
+          ],
+          hintsMy: [
+            "ATP Synthase သည် Turbine တစ်ခုကဲ့သို့ လုပ်ဆောင်သည် - ၎င်းကို ဖြတ်သန်းသော Proton စီးဆင်းမှုက ATP ဖွဲ့စည်းခြင်းကို Catalyse ပြုလုပ်ပေးသော လှည့်ပတ်မှုကို တွန်းအားပေးသည် -- ဤလုပ်ငန်းစဉ်တစ်ခုလုံးကို Oxidative Phosphorylation ဟု ခေါ်ပြီး Oxygen သည် အဆုံးသတ် Electron လက်ခံသူဖြစ်ကာ Electron နှင့် H+ တို့နှင့် ပေါင်းစည်း၍ ရေ ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w3-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electron Transport Chain and Chemiosmosis",
+      titleMy: "တွဲစပ်ကြမည် - Electron Transport Chain နှင့် Chemiosmosis",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w3-dm-1",
+          termEn: "Electron transport chain",
+          termMy: "Electron Transport Chain",
+          matchEn:
+              "A series of carrier proteins on the inner mitochondrial membrane that pass electrons along, releasing energy",
+          matchMy:
+              "Mitochondrial Membrane အတွင်းဘက်ရှိ Electron များကို လက်ဆင့်ကမ်း သယ်ဆောင်ပေးပြီး စွမ်းအင် ထုတ်လွှတ်ပေးသော Carrier Protein ကွင်းဆက်များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w3-dm-2",
+          termEn: "Cristae",
+          termMy: "Cristae",
+          matchEn: "Folds of the inner mitochondrial membrane that increase surface area for respiration",
+          matchMy: "Respiration အတွက် မျက်နှာပြင်ဧရိယာ တိုးမြှင့်ပေးသော Mitochondrial Membrane အတွင်းဘက် အခေါက်များ",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w3-dm-3",
+          termEn: "Proton motive force",
+          termMy: "Proton Motive Force",
+          matchEn:
+              "The electrochemical gradient built up when protons are pumped into the intermembrane space",
+          matchMy: "Proton များကို Intermembrane Space ထဲသို့ Pump ပြုလုပ်ချိန် ဖြစ်ပေါ်လာသော Electrochemical Gradient",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w3-dm-4",
+          termEn: "ATP synthase",
+          termMy: "ATP Synthase",
+          matchEn: "An enzyme that uses the flow of protons back through it to catalyse ATP formation",
+          matchMy: "Proton များ ၎င်းကို ဖြတ်သန်း စီးဆင်းမှုကို အသုံးပြု၍ ATP ဖွဲ့စည်းခြင်းကို Catalyse ပြုလုပ်ပေးသော Enzyme",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w3-dm-5",
+          termEn: "Oxidative phosphorylation",
+          termMy: "Oxidative Phosphorylation",
+          matchEn:
+              "ATP production driven by the electron transport chain and chemiosmosis, with oxygen as the final electron acceptor",
+          matchMy:
+              "Electron Transport Chain နှင့် Chemiosmosis ဖြင့် တွန်းအားပေးသော ATP ထုတ်လုပ်မှု၊ Oxygen သည် အဆုံးသတ် Electron လက်ခံသူ ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w3-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Electron Transport Chain or Chemiosmosis/ATP Synthesis?",
+      titleMy: "စီစစ်ကြမည် - Electron Transport Chain သို့မဟုတ် Chemiosmosis/ATP Synthesis?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Electron Transport Chain", "Chemiosmosis and ATP Synthesis"],
+        bucketsMy: ["Electron Transport Chain", "Chemiosmosis နှင့် ATP Synthesis"],
+        items: [
+          SortingItem(
+            id: "y13bio-w3-sort-1",
+            labelEn: "Reduced NAD and FAD donate electrons to begin the process",
+            labelMy: "Reduced NAD နှင့် FAD သည် လုပ်ငန်းစဉ် စတင်ရန် Electron များ ပေးအပ်သည်",
+            correctBucketEn: "Electron Transport Chain",
+            correctBucketMy: "Electron Transport Chain",
+          ),
+          SortingItem(
+            id: "y13bio-w3-sort-2",
+            labelEn: "Protons are actively pumped from the matrix into the intermembrane space",
+            labelMy: "Proton များကို Matrix မှ Intermembrane Space ထဲသို့ Active Pump ပြုလုပ်သည်",
+            correctBucketEn: "Electron Transport Chain",
+            correctBucketMy: "Electron Transport Chain",
+          ),
+          SortingItem(
+            id: "y13bio-w3-sort-3",
+            labelEn: "Protons flow back down their gradient through ATP synthase",
+            labelMy: "Proton များသည် ၎င်းတို့၏ Gradient အတိုင်း ATP Synthase မှတဆင့် ပြန်လည် စီးဆင်းလာသည်",
+            correctBucketEn: "Chemiosmosis and ATP Synthesis",
+            correctBucketMy: "Chemiosmosis နှင့် ATP Synthesis",
+          ),
+          SortingItem(
+            id: "y13bio-w3-sort-4",
+            labelEn: "ADP and inorganic phosphate are combined to form ATP",
+            labelMy: "ADP နှင့် Inorganic Phosphate ကို ပေါင်းစည်း၍ ATP ဖွဲ့စည်းသည်",
+            correctBucketEn: "Chemiosmosis and ATP Synthesis",
+            correctBucketMy: "Chemiosmosis နှင့် ATP Synthesis",
+          ),
+          SortingItem(
+            id: "y13bio-w3-sort-5",
+            labelEn: "Oxygen accepts electrons at the very end, combining with H+ to form water",
+            labelMy: "Oxygen သည် အဆုံးတွင် Electron များကို လက်ခံပြီး H+ နှင့် ပေါင်းစည်း၍ ရေ ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Electron Transport Chain",
+            correctBucketMy: "Electron Transport Chain",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w3-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Mitochondrion as a Tiny Power Station",
+      titleMy: "စာဖတ်ခြင်း - လျှပ်စစ်ဓာတ်အားပေးစက်ရုံငယ်ကဲ့သို့ Mitochondrion",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Mitochondrion as a Tiny Power Station",
+        titleMy: "လျှပ်စစ်ဓာတ်အားပေးစက်ရုံငယ်ကဲ့သို့ Mitochondrion",
+        passageEn:
+            "Sayar Zaw Min brought in a diagram of a hydroelectric dam and asked the class what it had in common with a mitochondrion. Su Su answered first: both store up potential energy by building a gradient -- water held back behind a dam, or protons built up on one side of a membrane -- and both release that stored energy in a controlled way by letting the gradient run back down through a turbine.\n\nHtet Aung filled in the biological detail: the electron transport chain, embedded in the folded cristae of the inner mitochondrial membrane, uses the energy released as electrons (donated by reduced NAD and FAD from glycolysis, the link reaction and the Krebs cycle) pass from carrier to carrier, to actively pump protons from the matrix into the intermembrane space. This builds up a steep proton gradient -- the proton motive force -- across the membrane, exactly like water piling up behind the dam wall.\n\n\"And ATP synthase is the turbine,\" Sayar Zaw Min said, completing the analogy. \"Protons flow back down their gradient through this one specific channel, and the energy of that flow is captured to phosphorylate ADP into ATP -- chemiosmosis powering oxidative phosphorylation. Right at the very end of the chain, oxygen accepts the spent electrons and combines with H+ to form water; without oxygen there to accept them, the whole chain would back up and grind to a halt, which is exactly why we call this aerobic respiration.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ရေအားလျှပ်စစ်ဆည်တစ်ခု၏ ဇယားကားတစ်ခုကို ယူဆောင်လာပြီး Mitochondrion နှင့် မည်သို့ ဆင်တူသည်ကို အတန်းကို မေးခဲ့သည်။ Su Su က ပထမဦးဆုံး အဖြေပြန်ခဲ့သည် - နှစ်ခုစလုံးသည် Gradient တစ်ခု တည်ဆောက်ခြင်းဖြင့် Potential Energy သိမ်းဆည်းထားသည် -- ဆည်နောက်ကွယ်တွင် ရေထိန်းထားခြင်း (သို့) Membrane တစ်ဖက်တွင် Proton များ တည်ဆောက်ထားခြင်း -- နှစ်ခုစလုံးသည် Turbine တစ်ခုမှတဆင့် Gradient ကို ပြန်လည် ဆင်းစေခြင်းဖြင့် ထိန်းချုပ်ထားသော နည်းလမ်းဖြင့် ထိုသိမ်းဆည်းထားသော စွမ်းအင်ကို ထုတ်လွှတ်ကြသည်။\n\nHtet Aung က ဇီဝဗေဒ အသေးစိတ်ကို ဖြည့်စွက်ခဲ့သည် - Mitochondrial Membrane အတွင်းဘက်၏ ခေါက်နေသော Cristae တွင် ရှိသော Electron Transport Chain သည် Glycolysis, Link Reaction နှင့် Krebs Cycle မှ Reduced NAD နှင့် FAD ပေးအပ်သော Electron များ Carrier တစ်ခုမှ တစ်ခုသို့ ရွှေ့ပြောင်းစဉ် ထွက်ရှိလာသော စွမ်းအင်ကို အသုံးပြု၍ Proton များကို Matrix မှ Intermembrane Space ထဲသို့ Active Pump ပြုလုပ်ပေးသည်။ ၎င်းက Membrane တစ်လျှောက် Proton Gradient -- Proton Motive Force -- ကို မြင့်တက်စွာ တည်ဆောက်ပေးသည်၊ ဆည်နံရံနောက်ကွယ်တွင် ရေစုပုံနေသကဲ့သို့ ဖြစ်သည်။\n\n\"ATP Synthase ကတော့ Turbine ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း နှိုင်းယှဉ်ချက်ကို ပြီးဆုံးအောင် ပြောခဲ့သည်။ \"Proton များသည် ဤသီးခြား Channel တစ်ခုမှတဆင့် ၎င်းတို့၏ Gradient အတိုင်း ပြန်လည် စီးဆင်းလာပြီး ထိုစီးဆင်းမှု၏ စွမ်းအင်ကို ADP ကို ATP အဖြစ် Phosphorylation ပြုလုပ်ရန် ဖမ်းယူသည် -- Chemiosmosis က Oxidative Phosphorylation ကို တွန်းအားပေးခြင်း ဖြစ်သည်။ Chain ၏ အဆုံးဆုံးတွင် Oxygen သည် သုံးပြီးသား Electron များကို လက်ခံပြီး H+ နှင့် ပေါင်းစည်း၍ ရေ ဖြစ်ပေါ်စေသည်၊ ၎င်းတို့ကို လက်ခံရန် Oxygen မရှိပါက Chain တစ်ခုလုံး ပိတ်ဆို့ကာ ရပ်တန့်သွားလိမ့်မည် ဖြစ်ပြီး ဤအချက်ကပင် ကျွန်တော်တို့ ၎င်းကို Aerobic Respiration ဟု ခေါ်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what do a hydroelectric dam and a mitochondrion have in common?",
+            questionMy:
+                "ရေအားလျှပ်စစ်ဆည်နှင့် Mitochondrion တို့၏ ဆင်တူချက်ကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both store potential energy by building a gradient and release it in a controlled way",
+              "Both are made entirely of water",
+              "Both produce oxygen directly",
+              "Both are found only in plant cells",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံးသည် Gradient တစ်ခု တည်ဆောက်ခြင်းဖြင့် Potential Energy သိမ်းဆည်းပြီး ထိန်းချုပ်ထားသော နည်းလမ်းဖြင့် ထုတ်လွှတ်ကြသည်",
+              "နှစ်ခုစလုံးကို ရေဖြင့်သာ ဖွဲ့စည်းထားသည်",
+              "နှစ်ခုစလုံးသည် Oxygen ကို တိုက်ရိုက် ထုတ်လုပ်သည်",
+              "နှစ်ခုစလုံးကို အပင်ဆဲလ်များတွင်သာ တွေ့ရသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, where is the electron transport chain located?",
+            questionMy:
+                "Electron Transport Chain တည်ရှိရာနေရာကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Embedded in the folded cristae of the inner mitochondrial membrane",
+              "Free-floating in the cytoplasm",
+              "Inside the nucleus",
+              "On the outer mitochondrial membrane only",
+            ],
+            optionsMy: [
+              "Mitochondrial Membrane အတွင်းဘက်၏ ခေါက်နေသော Cristae တွင်",
+              "Cytoplasm ထဲတွင် လွတ်လပ်စွာ ပေါလောပလော",
+              "Nucleus အတွင်း",
+              "Mitochondrial Membrane အပြင်ဘက်တွင်သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, what happens to oxygen at the very end of the electron transport chain?",
+            questionMy:
+                "Electron Transport Chain ၏ အဆုံးဆုံးတွင် Oxygen ၌ အဘယ်ဖြစ်လာသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It accepts electrons and combines with H+ to form water",
+              "It is converted into carbon dioxide",
+              "It is pumped out of the mitochondrion unused",
+              "It becomes part of a new glucose molecule",
+            ],
+            optionsMy: [
+              "Electron များကို လက်ခံပြီး H+ နှင့် ပေါင်းစည်း၍ ရေ ဖြစ်ပေါ်စေသည်",
+              "Carbon Dioxide အဖြစ် ပြောင်းလဲသည်",
+              "မသုံးဘဲ Mitochondrion မှ Pump ထုတ်ခံရသည်",
+              "Glucose မော်လီကျူးအသစ်၏ အစိတ်အပိုင်း ဖြစ်လာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w3-d5",
+      dayNumber: 5,
+      titleEn: "Week 3 Recap: Oxidative Phosphorylation",
+      titleMy: "တတိယပတ် ပြန်လည်သုံးသပ်ခြင်း - Oxidative Phosphorylation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The electron transport chain is found on the...",
+          questionMy: "Electron Transport Chain ကို ...ပေါ်တွင် တွေ့ရသည်",
+          optionsEn: [
+            "Inner mitochondrial membrane (cristae)",
+            "Cell surface membrane",
+            "Nuclear membrane",
+            "Cell wall",
+          ],
+          optionsMy: ["Mitochondrial Membrane အတွင်းဘက် (Cristae)", "Cell Surface Membrane", "Nuclear Membrane", "Cell Wall"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ATP synthase generates ATP as...",
+          questionMy: "ATP Synthase သည် ...အခါ ATP ထုတ်လုပ်ပေးသည်",
+          optionsEn: [
+            "Protons flow through it down their concentration gradient",
+            "Glucose passes directly through it",
+            "Oxygen is converted into carbon dioxide",
+            "DNA is replicated",
+          ],
+          optionsMy: [
+            "Proton များသည် ၎င်းကို ဖြတ်၍ ၎င်းတို့၏ အာနှုန်း Gradient အတိုင်း စီးဆင်းလာ",
+            "Glucose သည် ၎င်းကို ဖြတ်၍ တိုက်ရိုက် ဖြတ်သန်း",
+            "Oxygen ကို Carbon Dioxide အဖြစ် ပြောင်းလဲ",
+            "DNA ကို Replication ပြုလုပ်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In aerobic respiration, oxygen acts as the...",
+          questionMy: "Aerobic Respiration တွင် Oxygen သည် ...အဖြစ် လုပ်ဆောင်သည်",
+          optionsEn: [
+            "Final electron acceptor, forming water",
+            "Starting substrate of glycolysis",
+            "Enzyme that catalyses the Krebs cycle",
+            "Source of all the cell's carbon atoms",
+          ],
+          optionsMy: [
+            "ရေ ဖြစ်ပေါ်စေသော အဆုံးသတ် Electron လက်ခံသူ",
+            "Glycolysis ၏ အစပြု Substrate",
+            "Krebs Cycle ကို Catalyse ပြုလုပ်ပေးသော Enzyme",
+            "ဆဲလ်၏ Carbon Atom အားလုံး၏ အရင်းအမြစ်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 4: "Anaerobic Respiration and Comparing Respiratory Pathways"
+// (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek4 = CourseWeekDef(
+  id: "course-y13-bio-w4",
+  weekNumber: 4,
+  titleEn: "Anaerobic Respiration and Comparing Respiratory Pathways",
+  titleMy: "Anaerobic Respiration နှင့် Respiratory Pathway များ နှိုင်းယှဉ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w4-d1",
+      dayNumber: 1,
+      titleEn: "Anaerobic Respiration in Yeast and Muscle",
+      titleMy: "Yeast နှင့် ကြွက်သားအတွင်း Anaerobic Respiration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When oxygen is unavailable, yeast cells carry out alcoholic fermentation, converting pyruvate into...",
+          questionMy:
+              "Oxygen မရရှိနိုင်သောအခါ Yeast ဆဲလ်များသည် Alcoholic Fermentation ပြုလုပ်ကာ Pyruvate ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: [
+            "Ethanol and carbon dioxide, regenerating NAD",
+            "Lactate, using up oxygen",
+            "Glucose, releasing ATP directly",
+            "Acetyl coenzyme A, entering the Krebs cycle",
+          ],
+          optionsMy: [
+            "Ethanol နှင့် Carbon Dioxide, NAD ကို ပြန်လည် ဖြစ်ပေါ်စေသည်",
+            "Lactate, Oxygen သုံးစွဲသည်",
+            "Glucose, ATP ကို တိုက်ရိုက် ထုတ်လွှတ်သည်",
+            "Acetyl Coenzyme A, Krebs Cycle ထဲသို့ ဝင်ရောက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This decarboxylation and reduction step regenerates NAD, allowing glycolysis to keep running and keep producing its net 2 ATP even without oxygen present.",
+          ],
+          hintsMy: [
+            "ဤ Decarboxylation နှင့် Reduction အဆင့်သည် NAD ကို ပြန်လည် ဖြစ်ပေါ်စေပြီး Oxygen မရှိသော်လည်း Glycolysis ကို ဆက်လက် လည်ပတ်စေကာ Net ATP 2 ခု ဆက်လက် ထုတ်လုပ်နိုင်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In mammalian muscle cells during vigorous exercise, pyruvate is converted into lactate, which...",
+          questionMy:
+              "ပြင်းထန်စွာ ကာယလှုပ်ရှားမှု ပြုစဉ် Mammal ကြွက်သားဆဲလ်များအတွင်း Pyruvate ကို Lactate အဖြစ် ပြောင်းလဲပေးပြီး ...",
+          optionsEn: [
+            "Regenerates NAD, allowing glycolysis to keep producing ATP without oxygen",
+            "Releases carbon dioxide and produces ethanol",
+            "Is transported directly into the Krebs cycle",
+            "Uses up oxygen at a faster rate than before",
+          ],
+          optionsMy: [
+            "NAD ကို ပြန်လည် ဖြစ်ပေါ်စေပြီး Oxygen မရှိသော်လည်း Glycolysis ကို ATP ဆက်လက် ထုတ်လုပ်နိုင်စေသည်",
+            "Carbon Dioxide ထွက်ရှိပြီး Ethanol ထုတ်လုပ်ပေးသည်",
+            "Krebs Cycle ထဲသို့ တိုက်ရိုက် ပို့ဆောင်သည်",
+            "ယခင်ထက် ပိုမြန်ဆန်စွာ Oxygen သုံးစွဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike yeast, muscle cells cannot remove the carbon as CO2 -- lactate simply accumulates until oxygen becomes available again to break it back down (part of what is loosely called \"oxygen debt\").",
+          ],
+          hintsMy: [
+            "Yeast နှင့် မတူဘဲ ကြွက်သားဆဲလ်များသည် Carbon ကို CO2 အဖြစ် ဖယ်ရှား၍ မရပါ -- Oxygen ပြန်လည် ရရှိသည်အထိ Lactate သည် စုပုံနေပြီး ၎င်းကို ပြန်လည် ချေဖျက်ရန် (\"Oxygen Debt\" ဟု ခေါ်ခေါ်ဆိုနေသော အခြေအနေ၏ တစ်စိတ်တစ်ပိုင်း) ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Compared with aerobic respiration, anaerobic respiration (in either yeast or muscle) yields...",
+          questionMy:
+              "Aerobic Respiration နှင့် နှိုင်းယှဉ်ပါက Anaerobic Respiration (Yeast သို့မဟုတ် ကြွက်သား မည်သည့်တွင်မဆို) သည် ...ရရှိသည်",
+          optionsEn: [
+            "Far less ATP per glucose molecule, since the Krebs cycle and electron transport chain are never used",
+            "Far more ATP per glucose molecule than aerobic respiration",
+            "Exactly the same amount of ATP as aerobic respiration",
+            "No ATP at all",
+          ],
+          optionsMy: [
+            "Krebs Cycle နှင့် Electron Transport Chain ကို လုံးဝ အသုံးမပြုသောကြောင့် Glucose တစ်ခုလျှင် ATP အများကြီး နည်းပါးသည်",
+            "Aerobic Respiration ထက် Glucose တစ်ခုလျှင် ATP အများကြီး ပိုများသည်",
+            "Aerobic Respiration နှင့် ATP အတိအကျ တူညီသည်",
+            "ATP လုံးဝ မရရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Anaerobic respiration only ever gets glycolysis's net 2 ATP per glucose -- the far larger ATP yield of aerobic respiration comes from the link reaction, Krebs cycle and oxidative phosphorylation, none of which can run without oxygen.",
+          ],
+          hintsMy: [
+            "Anaerobic Respiration သည် Glucose တစ်ခုလျှင် Glycolysis ၏ Net ATP 2 ခုကိုသာ ရရှိသည် -- Aerobic Respiration ၏ ပိုကြီးမားသော ATP အထွက်နှုန်းသည် Link Reaction, Krebs Cycle နှင့် Oxidative Phosphorylation မှ ရရှိပြီး ၎င်းတို့သည် Oxygen မရှိဘဲ လည်ပတ်၍ မရပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w4-d2",
+      dayNumber: 2,
+      titleEn: "Match: Anaerobic Respiration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Anaerobic Respiration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w4-dm-1",
+          termEn: "Alcoholic fermentation",
+          termMy: "Alcoholic Fermentation",
+          matchEn:
+              "Anaerobic respiration in yeast; converts pyruvate to ethanol and CO2, regenerating NAD",
+          matchMy:
+              "Yeast တွင် ဖြစ်ပွားသော Anaerobic Respiration; Pyruvate ကို Ethanol နှင့် CO2 အဖြစ် ပြောင်းလဲပြီး NAD ကို ပြန်လည် ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w4-dm-2",
+          termEn: "Lactate fermentation",
+          termMy: "Lactate Fermentation",
+          matchEn:
+              "Anaerobic respiration in mammalian muscle; converts pyruvate to lactate, regenerating NAD",
+          matchMy: "Mammal ကြွက်သားတွင် ဖြစ်ပွားသော Anaerobic Respiration; Pyruvate ကို Lactate အဖြစ် ပြောင်းလဲပြီး NAD ကို ပြန်လည် ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w4-dm-3",
+          termEn: "Oxygen debt",
+          termMy: "Oxygen Debt",
+          matchEn:
+              "The extra oxygen the body needs after vigorous exercise to help break down accumulated lactate",
+          matchMy: "စုပုံနေသော Lactate ကို ချေဖျက်ရန် ပြင်းထန်စွာ ကာယလှုပ်ရှားမှုပြီးနောက် ခန္ဓာကိုယ် ထပ်လိုအပ်သော Oxygen",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w4-dm-4",
+          termEn: "Anaerobic respiration",
+          termMy: "Anaerobic Respiration",
+          matchEn:
+              "Respiration without oxygen; relies on glycolysis alone for a much smaller ATP yield",
+          matchMy: "Oxygen မပါဘဲ ဖြစ်ပွားသော Respiration; Glycolysis တစ်ခုတည်းကို မှီခိုကာ ATP အနည်းငယ်သာ ထွက်ရှိသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w4-dm-5",
+          termEn: "Aerobic respiration",
+          termMy: "Aerobic Respiration",
+          matchEn:
+              "Respiration requiring oxygen; uses the link reaction, Krebs cycle and oxidative phosphorylation for a much larger ATP yield",
+          matchMy:
+              "Oxygen လိုအပ်သော Respiration; Link Reaction, Krebs Cycle နှင့် Oxidative Phosphorylation ကို အသုံးပြု၍ ATP ပိုမိုများစွာ ထုတ်လုပ်ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w4-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Yeast or Mammalian Muscle Fermentation?",
+      titleMy: "စီစစ်ကြမည် - Yeast သို့မဟုတ် Mammal ကြွက်သား Fermentation?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Yeast (Alcoholic Fermentation)",
+          "Mammalian Muscle (Lactate Fermentation)",
+        ],
+        bucketsMy: [
+          "Yeast (Alcoholic Fermentation)",
+          "Mammal ကြွက်သား (Lactate Fermentation)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13bio-w4-sort-1",
+            labelEn: "Pyruvate is converted into ethanol and carbon dioxide",
+            labelMy: "Pyruvate ကို Ethanol နှင့် Carbon Dioxide အဖြစ် ပြောင်းလဲသည်",
+            correctBucketEn: "Yeast (Alcoholic Fermentation)",
+            correctBucketMy: "Yeast (Alcoholic Fermentation)",
+          ),
+          SortingItem(
+            id: "y13bio-w4-sort-2",
+            labelEn: "Carbon dioxide is released as a by-product, used in bread-making",
+            labelMy: "Carbon Dioxide ကို By-product အဖြစ် ထွက်ရှိစေပြီး ပေါင်မုန့်ဖုတ်ခြင်းတွင် အသုံးပြုသည်",
+            correctBucketEn: "Yeast (Alcoholic Fermentation)",
+            correctBucketMy: "Yeast (Alcoholic Fermentation)",
+          ),
+          SortingItem(
+            id: "y13bio-w4-sort-3",
+            labelEn: "Pyruvate is converted into lactate, with no carbon dioxide released",
+            labelMy: "Carbon Dioxide မထွက်ဘဲ Pyruvate ကို Lactate အဖြစ် ပြောင်းလဲသည်",
+            correctBucketEn: "Mammalian Muscle (Lactate Fermentation)",
+            correctBucketMy: "Mammal ကြွက်သား (Lactate Fermentation)",
+          ),
+          SortingItem(
+            id: "y13bio-w4-sort-4",
+            labelEn: "Builds up an oxygen debt that must be repaid once exercise stops",
+            labelMy: "ကာယလှုပ်ရှားမှု ရပ်တန့်ပြီးနောက် ပြန်လည် ပေးဆပ်ရမည့် Oxygen Debt ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Mammalian Muscle (Lactate Fermentation)",
+            correctBucketMy: "Mammal ကြွက်သား (Lactate Fermentation)",
+          ),
+          SortingItem(
+            id: "y13bio-w4-sort-5",
+            labelEn: "Regenerates NAD so glycolysis can keep running without oxygen",
+            labelMy: "Oxygen မရှိသော်လည်း Glycolysis ဆက်လက် လည်ပတ်နိုင်ရန် NAD ကို ပြန်လည် ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Yeast (Alcoholic Fermentation)",
+            correctBucketMy: "Yeast (Alcoholic Fermentation)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w4-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A 400-Metre Race and a Loaf of Bread",
+      titleMy: "စာဖတ်ခြင်း - မီတာ ၄၀၀ ပြေးပွဲနှင့် ပေါင်မုန့်တစ်လုံး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A 400-Metre Race and a Loaf of Bread",
+        titleMy: "မီတာ ၄၀၀ ပြေးပွဲနှင့် ပေါင်မုန့်တစ်လုံး",
+        passageEn:
+            "For the term's capstone lesson, Sayar Zaw Min asked the class to explain two everyday events using everything they had learned about respiration: why did Htet Aung's legs burn and feel heavy after sprinting a 400-metre race, and why did the bread dough Su Su had left rising on the kitchen counter overnight puff up and smell faintly of alcohol?\n\nHtet Aung tackled his own example first. During an all-out sprint, his muscles demanded ATP far faster than his heart and lungs could deliver oxygen to the mitochondria. With oxygen in short supply, his muscle cells fell back on anaerobic respiration: glycolysis kept running, converting pyruvate into lactate to regenerate the NAD it needed, but this route yields only the net 2 ATP of glycolysis itself -- nowhere near the far larger ATP yield of the link reaction, Krebs cycle and oxidative phosphorylation that aerobic respiration provides. The burning sensation was lactate accumulating faster than his body could clear it, and the \"oxygen debt\" he felt afterwards, breathing hard even after stopping, was his body finally catching up.\n\nSu Su's dough told a related but different story. Yeast cells trapped inside the dough, with no access to atmospheric oxygen, also switched to anaerobic respiration -- but yeast solves the NAD-regeneration problem differently from muscle, converting pyruvate into ethanol and carbon dioxide rather than lactate. The trapped CO2 bubbles were exactly what made the dough rise, and the faint alcoholic smell was the ethanol by-product. \"Same underlying problem in both cases -- no oxygen, but glycolysis still needs its NAD regenerated to keep going,\" Sayar Zaw Min summarised, \"and two organisms independently arrived at two different chemical solutions.\"",
+        passageMy:
+            "Term ၏ Capstone သင်ခန်းစာအတွက် ဆရာဇော်မင်းက Respiration အကြောင်း သင်ယူခဲ့သမျှကို အသုံးပြု၍ နေ့စဉ်ဖြစ်ရပ်နှစ်ခုကို ရှင်းပြရန် အတန်းကို မေးခဲ့သည် - Htet Aung သည် မီတာ ၄၀၀ ပြေးပွဲပြီးနောက် ခြေထောက်များ အဘယ်ကြောင့် ချွဲပူပြီး လေးလံခံစားရသနည်း၊ Su Su က ညနေခင်း မီးဖိုချောင်း စားပွဲပေါ်တွင် ချန်ထားခဲ့သော ပေါင်မုန့်မှုန့်လုံးသည် အဘယ်ကြောင့် ဖောင်းကားလာပြီး Alcohol အနံ့ အနည်းငယ် ထွက်ရှိလာသနည်း။\n\nHtet Aung သည် သူ၏ ဥပမာကို ဦးစွာ ကိုင်တွယ်ခဲ့သည်။ အပြင်းအထန် ပြေးနေစဉ် သူ၏ ကြွက်သားများသည် ATP ကို သူ၏ နှလုံးနှင့် အဆုတ်တို့က Mitochondria သို့ Oxygen ပေးပို့နိုင်သည်ထက် ပိုမိုမြန်ဆန်စွာ လိုအပ်ခဲ့သည်။ Oxygen ရှားပါးသောကြောင့် သူ၏ ကြွက်သားဆဲလ်များသည် Anaerobic Respiration ကို မှီခိုခဲ့သည် - Glycolysis သည် ဆက်လက် လည်ပတ်ပြီး လိုအပ်သော NAD ကို ပြန်လည် ဖြစ်ပေါ်စေရန် Pyruvate ကို Lactate အဖြစ် ပြောင်းလဲပေးခဲ့သော်လည်း ဤလမ်းကြောင်းက Glycolysis ကိုယ်တိုင်၏ Net ATP 2 ခုကိုသာ ရရှိစေသည် -- Aerobic Respiration ပေးအပ်သော Link Reaction, Krebs Cycle နှင့် Oxidative Phosphorylation ၏ ပိုကြီးမားသော ATP အထွက်နှုန်းနှင့် လုံးဝ မနီးစပ်ပါ။ ချွဲပူနေသော ခံစားချက်သည် သူ၏ ခန္ဓာကိုယ် ရှင်းလင်းနိုင်သည်ထက် ပိုမြန်ဆန်စွာ Lactate စုပုံနေခြင်း ဖြစ်ပြီး ပြီးနောက် ရပ်တန့်ပြီးမှပင် အသက်ရှူပြင်းစွာ ဖြစ်နေခြင်း \"Oxygen Debt\" သည် သူ၏ ခန္ဓာကိုယ် နောက်ဆုံး ပြန်လည် မီစေခြင်းသာ ဖြစ်သည်။\n\nSu Su ၏ မုန့်လုံးမှာလည်း ဆက်နွယ်သော်လည်း ကွာခြားသော ဇာတ်လမ်းတစ်ခု ရှိသည်။ မုန့်လုံးထဲတွင် ပိတ်မိနေသော Yeast ဆဲလ်များသည် လေထုထဲရှိ Oxygen ရောက်ရှိနိုင်ခြင်း မရှိသောကြောင့် Anaerobic Respiration ဆီသို့ ပြောင်းလဲသွားခဲ့သည် -- သို့သော် Yeast သည် NAD ပြန်လည်ဖြစ်ပေါ်ရေး ပြဿနာကို ကြွက်သားနှင့် မတူဘဲ ကွဲပြားစွာ ဖြေရှင်းခဲ့သည်၊ Pyruvate ကို Lactate မဟုတ်ဘဲ Ethanol နှင့် Carbon Dioxide အဖြစ် ပြောင်းလဲပေးသည်။ ပိတ်မိနေသော CO2 ဗူဖောင်းများသည် မုန့်လုံးကို ဖောင်းကားစေသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပြီး Alcohol အနံ့ အနည်းငယ်ကလည်း Ethanol By-product ဖြစ်သည်။ \"နှစ်ခုစလုံးတွင် အခြေခံပြဿနာ တူညီသည် -- Oxygen မရှိသော်လည်း Glycolysis ဆက်လက် လည်ပတ်ရန် NAD ကို ပြန်လည် ဖြစ်ပေါ်စေရန် လိုအပ်နေဆဲ\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ် ပြောပြခဲ့သည် \"သတ္တဝါနှစ်မျိုးသည် သီးခြားစီ ဓာတုဗေဒ ဖြေရှင်းနည်း နှစ်မျိုးကို ရောက်ရှိခဲ့ကြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what does Htet Aung's muscle cells convert pyruvate into during anaerobic respiration?",
+            questionMy:
+                "Anaerobic Respiration အတွင်း Htet Aung ၏ ကြွက်သားဆဲလ်များသည် Pyruvate ကို မည်သည့်အရာအဖြစ် ပြောင်းလဲပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Lactate", "Ethanol", "Acetyl coenzyme A", "Glucose"],
+            optionsMy: ["Lactate", "Ethanol", "Acetyl Coenzyme A", "Glucose"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the third paragraph, why does yeast in bread dough produce carbon dioxide bubbles?",
+            questionMy:
+                "ပေါင်မုန့်မှုန့်ထဲရှိ Yeast သည် Carbon Dioxide ဗူဖောင်းများ အဘယ်ကြောင့် ထုတ်လုပ်သည်ကို တတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It carries out alcoholic fermentation, converting pyruvate to ethanol and CO2",
+              "It carries out aerobic respiration only",
+              "It converts pyruvate into lactate",
+              "It absorbs carbon dioxide from the air",
+            ],
+            optionsMy: [
+              "Alcoholic Fermentation ပြုလုပ်ကာ Pyruvate ကို Ethanol နှင့် CO2 အဖြစ် ပြောင်းလဲသည်",
+              "Aerobic Respiration ကိုသာ ပြုလုပ်သည်",
+              "Pyruvate ကို Lactate အဖြစ် ပြောင်းလဲသည်",
+              "လေထုမှ Carbon Dioxide ကို စုပ်ယူသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's summary, what problem do both yeast and muscle cells share during anaerobic respiration?",
+            questionMy:
+                "Anaerobic Respiration အတွင်း Yeast နှင့် ကြွက်သားဆဲလ် နှစ်ခုစလုံး မျှဝေသော ပြဿနာကို ဆရာဇော်မင်း ၏ အကျဉ်းချုပ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The need to regenerate NAD so glycolysis can keep running",
+              "The need to produce more oxygen",
+              "The need to build a new nucleus",
+              "The need to stop all respiration completely",
+            ],
+            optionsMy: [
+              "Glycolysis ဆက်လက် လည်ပတ်နိုင်ရန် NAD ပြန်လည် ဖြစ်ပေါ်စေရန် လိုအပ်ခြင်း",
+              "Oxygen ပိုမို ထုတ်လုပ်ရန် လိုအပ်ခြင်း",
+              "Nucleus အသစ် တည်ဆောက်ရန် လိုအပ်ခြင်း",
+              "Respiration အားလုံးကို လုံးဝ ရပ်တန့်ရန် လိုအပ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w4-d5",
+      dayNumber: 5,
+      titleEn: "Week 4 Recap: Anaerobic Respiration",
+      titleMy: "စတုတ္ထပတ် ပြန်လည်သုံးသပ်ခြင်း - Anaerobic Respiration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Yeast carries out alcoholic fermentation, producing ethanol and...",
+          questionMy: "Yeast သည် Alcoholic Fermentation ပြုလုပ်ကာ Ethanol နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Carbon dioxide", "Lactate", "Oxygen", "Glucose"],
+          optionsMy: ["Carbon Dioxide", "Lactate", "Oxygen", "Glucose"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In mammalian muscle, anaerobic respiration converts pyruvate into...",
+          questionMy: "Mammal ကြွက်သားတွင် Anaerobic Respiration သည် Pyruvate ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: ["Lactate", "Ethanol", "Glucose", "Oxygen"],
+          optionsMy: ["Lactate", "Ethanol", "Glucose", "Oxygen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Compared with aerobic respiration, anaerobic respiration produces...",
+          questionMy: "Aerobic Respiration နှင့် နှိုင်းယှဉ်ပါက Anaerobic Respiration သည် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: [
+            "Far less ATP per glucose molecule",
+            "Far more ATP per glucose molecule",
+            "Exactly the same ATP as aerobic respiration",
+            "No pyruvate at all",
+          ],
+          optionsMy: [
+            "Glucose တစ်ခုလျှင် ATP အများကြီး နည်းပါးသည်",
+            "Glucose တစ်ခုလျှင် ATP အများကြီး ပိုများသည်",
+            "Aerobic Respiration နှင့် ATP အတိအကျ တူညီသည်",
+            "Pyruvate လုံးဝ မထုတ်လုပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm1 = CourseTermDef(
+  id: "course-y13-bio-t1",
+  termNumber: 1,
+  titleEn: "Energy and Respiration",
+  titleMy: "စွမ်းအင်နှင့် Respiration",
+  weeks: [_y13BioWeek1, _y13BioWeek2, _y13BioWeek3, _y13BioWeek4],
+  certificateTitleEn: "A2 Biology: Energy and Respiration",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - စွမ်းအင်နှင့် Respiration",
+);
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 2: "Photosynthesis"
+// (Weeks 5-8)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 5: "Chloroplast Structure and Function"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek5 = CourseWeekDef(
+  id: "course-y13-bio-w5",
+  weekNumber: 5,
+  titleEn: "Chloroplast Structure and Function",
+  titleMy: "Chloroplast ဖွဲ့စည်းပုံနှင့် လုပ်ဆောင်ချက်",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w5-d1",
+      dayNumber: 1,
+      titleEn: "Inside the Chloroplast",
+      titleMy: "Chloroplast အတွင်းပိုင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The stacks of flattened, membrane-bound sacs inside a chloroplast, where chlorophyll is embedded, are called...",
+          questionMy:
+              "Chloroplast အတွင်း Chlorophyll ကို ကိန်းဝပ်ထားသော ပြားချပ်ချပ် Membrane အိတ်ငယ်များ အစုအဝေးကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Thylakoids, stacked into grana", "Cristae", "Ribosomes", "Nucleoli"],
+          optionsMy: ["Grana အဖြစ် ကုံးထားသော Thylakoid များ", "Cristae", "Ribosome များ", "Nucleoli"],
+          correctIndex: 0,
+          hintsEn: [
+            "A stack of thylakoids is called a granum (plural: grana) -- chlorophyll on the thylakoid membranes is what captures light energy.",
+          ],
+          hintsMy: [
+            "Thylakoid အစုတစ်ခုကို Granum (Plural: Grana) ဟု ခေါ်ပြီး Thylakoid Membrane ပေါ်ရှိ Chlorophyll သည် အလင်းစွမ်းအင်ကို ဖမ်းယူပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The fluid-filled space surrounding the grana inside a chloroplast is called the...",
+          questionMy: "Chloroplast အတွင်း Grana ပတ်လည်ကို ဝန်းရံထားသော အရည်ပြည့် နေရာကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Stroma", "Cytoplasm", "Matrix", "Intermembrane space"],
+          optionsMy: ["Stroma", "Cytoplasm", "Matrix", "Intermembrane Space"],
+          correctIndex: 0,
+          hintsEn: [
+            "The stroma is where the light-independent reactions (Calvin cycle) take place -- it plays a similar role to the mitochondrial matrix in respiration.",
+          ],
+          hintsMy: [
+            "Stroma သည် Light-Independent Reaction (Calvin Cycle) ဖြစ်ပွားရာနေရာ ဖြစ်ပြီး Respiration တွင် Mitochondrial Matrix ၏ အခန်းကဏ္ဍနှင့် ဆင်တူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Photosynthesis happens in two linked stages: the light-dependent reactions take place on the thylakoid membranes, while the light-independent reactions take place in the...",
+          questionMy:
+              "Photosynthesis သည် ချိတ်ဆက်နေသော အဆင့်နှစ်ဆင့်ဖြင့် ဖြစ်ပွားသည် - Light-Dependent Reaction သည် Thylakoid Membrane တွင် ဖြစ်ပွားပြီး Light-Independent Reaction သည် ...တွင် ဖြစ်ပွားသည်",
+          optionsEn: ["Stroma", "Outer chloroplast membrane", "Cytoplasm outside the chloroplast", "Nucleus"],
+          optionsMy: ["Stroma", "Chloroplast Membrane အပြင်ဘက်", "Chloroplast အပြင်ဘက် Cytoplasm", "Nucleus"],
+          correctIndex: 0,
+          hintsEn: [
+            "The products of the light-dependent reactions (ATP and reduced NADP) diffuse from the thylakoid membranes into the surrounding stroma, where the light-independent reactions use them.",
+          ],
+          hintsMy: [
+            "Light-Dependent Reaction ၏ ထုတ်ကုန်များ (ATP နှင့် Reduced NADP) သည် Thylakoid Membrane မှ ပတ်ဝန်းကျင် Stroma ထဲသို့ Diffusion ဖြစ်သွားပြီး Light-Independent Reaction က ၎င်းတို့ကို အသုံးပြုသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w5-d2",
+      dayNumber: 2,
+      titleEn: "Match: Chloroplast Structures",
+      titleMy: "တွဲစပ်ကြမည် - Chloroplast ဖွဲ့စည်းပုံများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w5-dm-1",
+          termEn: "Chloroplast",
+          termMy: "Chloroplast",
+          matchEn: "A double-membrane-bound organelle where photosynthesis takes place",
+          matchMy: "Photosynthesis ဖြစ်ပွားရာ Membrane နှစ်ထပ်ဖြင့် ဝန်းရံထားသော Organelle",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w5-dm-2",
+          termEn: "Thylakoid",
+          termMy: "Thylakoid",
+          matchEn: "A flattened, membrane-bound sac where the light-dependent reactions occur",
+          matchMy: "Light-Dependent Reaction ဖြစ်ပွားရာ ပြားချပ်ချပ် Membrane အိတ်ငယ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w5-dm-3",
+          termEn: "Granum",
+          termMy: "Granum",
+          matchEn: "A stack of thylakoids inside the chloroplast",
+          matchMy: "Chloroplast အတွင်းရှိ Thylakoid အစု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w5-dm-4",
+          termEn: "Stroma",
+          termMy: "Stroma",
+          matchEn: "The fluid-filled space where the light-independent reactions (Calvin cycle) occur",
+          matchMy: "Light-Independent Reaction (Calvin Cycle) ဖြစ်ပွားရာ အရည်ပြည့် နေရာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w5-dm-5",
+          termEn: "Chlorophyll",
+          termMy: "Chlorophyll",
+          matchEn: "The green pigment embedded in the thylakoid membranes that absorbs light energy",
+          matchMy: "Thylakoid Membrane တွင် ကိန်းဝပ်ပြီး အလင်းစွမ်းအင် စုပ်ယူသော အစိမ်းရောင် Pigment",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w5-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Thylakoid Membrane or Stroma?",
+      titleMy: "စီစစ်ကြမည် - Thylakoid Membrane သို့မဟုတ် Stroma?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Thylakoid Membrane", "Stroma"],
+        bucketsMy: ["Thylakoid Membrane", "Stroma"],
+        items: [
+          SortingItem(
+            id: "y13bio-w5-sort-1",
+            labelEn: "Chlorophyll is embedded here, absorbing light energy",
+            labelMy: "Chlorophyll သည် ဤနေရာတွင် ကိန်းဝပ်ပြီး အလင်းစွမ်းအင် စုပ်ယူသည်",
+            correctBucketEn: "Thylakoid Membrane",
+            correctBucketMy: "Thylakoid Membrane",
+          ),
+          SortingItem(
+            id: "y13bio-w5-sort-2",
+            labelEn: "The light-dependent reactions take place here",
+            labelMy: "Light-Dependent Reaction သည် ဤနေရာတွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Thylakoid Membrane",
+            correctBucketMy: "Thylakoid Membrane",
+          ),
+          SortingItem(
+            id: "y13bio-w5-sort-3",
+            labelEn: "The Calvin cycle (light-independent reactions) takes place here",
+            labelMy: "Calvin Cycle (Light-Independent Reaction) သည် ဤနေရာတွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Stroma",
+            correctBucketMy: "Stroma",
+          ),
+          SortingItem(
+            id: "y13bio-w5-sort-4",
+            labelEn: "Carbon dioxide is fixed onto RuBP here",
+            labelMy: "Carbon Dioxide ကို ဤနေရာတွင် RuBP ပေါ်၌ Fix လုပ်သည်",
+            correctBucketEn: "Stroma",
+            correctBucketMy: "Stroma",
+          ),
+          SortingItem(
+            id: "y13bio-w5-sort-5",
+            labelEn: "Grana are stacks of this structure",
+            labelMy: "Grana သည် ဤဖွဲ့စည်းပုံ၏ အစုများ ဖြစ်သည်",
+            correctBucketEn: "Thylakoid Membrane",
+            correctBucketMy: "Thylakoid Membrane",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w5-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Leaf's Two Kitchens",
+      titleMy: "စာဖတ်ခြင်း - အရွက်တစ်ချပ်၏ မီးဖိုချောင်နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Leaf's Two Kitchens",
+        titleMy: "အရွက်တစ်ချပ်၏ မီးဖိုချောင်နှစ်ခု",
+        passageEn:
+            "Sayar Zaw Min opened Term 2 by asking the class to picture a chloroplast as a building with two connected kitchens, each specialising in a different part of the same meal. Su Su took up the analogy: the first kitchen, she suggested, was the thylakoid membrane, stacked up into grana -- crowded with chlorophyll molecules that behave like solar panels, capturing light energy and using it to make two \"ready-made ingredients\", ATP and reduced NADP, while splitting water molecules apart in the process.\n\nHtet Aung described the second kitchen: the stroma, the fluid-filled space surrounding the grana. It doesn't need light directly at all -- instead, it takes delivery of the ATP and reduced NADP made next door and uses them to build carbon dioxide, absorbed from the air through the leaf's stomata, into sugars. \"So the two kitchens can't work without each other,\" Htet Aung said. \"The first kitchen makes no food, only energy and reducing power; the second kitchen can't do anything without that energy and reducing power arriving on time.\"\n\n\"Exactly,\" Sayar Zaw Min said. \"And notice how neatly this mirrors the mitochondrion from last term: two membrane systems, a much larger inner one for a light-driven chain instead of an electron transport chain, and a fluid-filled matrix-like space where the real biosynthesis happens. The chloroplast even makes its own ATP by chemiosmosis, just like the mitochondrion did -- we'll see exactly how, in tomorrow's lesson on the light-dependent reactions.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Term 2 ကို Chloroplast တစ်ခုကို ဆက်စပ်နေသော မီးဖိုချောင်နှစ်ခုပါသော အဆောက်အအုံတစ်ခုအဖြစ် စိတ်ကူးကြည့်ရန် အတန်းကို မေးခဲ့ခြင်းဖြင့် စတင်ခဲ့သည်၊ တစ်ခုစီသည် တူညီသော အစားအစာတစ်ခု၏ ကွဲပြားသော အပိုင်းတစ်ခုစီကို အထူးပြုသည်။ Su Su က ထို နှိုင်းယှဉ်ချက်ကို ဆက်လက် ဆောင်ရွက်ခဲ့သည် - ပထမ မီးဖိုချောင်သည် Grana အဖြစ် ကုံးထားသော Thylakoid Membrane ဟု သူ အကြံပြုခဲ့သည် -- Solar Panel များကဲ့သို့ လုပ်ဆောင်သော Chlorophyll မော်လီကျူးများဖြင့် ပြည့်နှက်နေပြီး အလင်းစွမ်းအင်ကို ဖမ်းယူကာ \"ပြင်ဆင်ထားပြီးသား ပါဝင်ပစ္စည်း\" နှစ်ခုဖြစ်သော ATP နှင့် Reduced NADP ကို ဖန်တီးပေးသည်၊ လုပ်ငန်းစဉ်အတွင်း ရေမော်လီကျူးများကို ခွဲထုတ်ပေးသည်။\n\nHtet Aung က ဒုတိယ မီးဖိုချောင်ကို ဖော်ပြခဲ့သည် - Grana ပတ်လည်ကို ဝန်းရံထားသော အရည်ပြည့်နေရာ Stroma ဖြစ်သည်။ ၎င်းသည် အလင်းကို တိုက်ရိုက် လုံးဝ မလိုအပ်ပါ -- အစား ၎င်းသည် နီးနားရှိ ပြုလုပ်ခဲ့သော ATP နှင့် Reduced NADP ကို လက်ခံရယူပြီး အရွက်၏ Stomata မှတဆင့် လေထုမှ စုပ်ယူထားသော Carbon Dioxide ကို Sugar များအဖြစ် တည်ဆောက်ရန် အသုံးပြုသည်။ \"ဒါဆို မီးဖိုချောင်နှစ်ခုစလုံးသည် တစ်ခုနှင့်တစ်ခု မရှိမဖြစ် ဖြစ်ကြပါတယ်\" ဟု Htet Aung ဆိုခဲ့သည်။ \"ပထမ မီးဖိုချောင်က အစားအစာ လုံးဝ မထုတ်လုပ်ဘဲ စွမ်းအင်နှင့် Reducing Power ကိုသာ ထုတ်လုပ်ပေးပြီး ဒုတိယ မီးဖိုချောင်ကလည်း ထိုစွမ်းအင်နှင့် Reducing Power အချိန်မီ ရောက်ရှိမှသာ တစ်စုံတစ်ရာ လုပ်ဆောင်နိုင်ပါတယ်။\"\n\n\"အတိအကျပါပဲ\" ဟု ဆရာဇော်မင်း ဆိုခဲ့သည်။ \"ဒါက ပြီးခဲ့သော Term ကရ Mitochondrion နှင့် ဘယ်လောက် လှပစွာ ထင်ဟပ်နေသလဲ ဆိုတာ သတိပြုကြည့်ပါ - Membrane စနစ်နှစ်ခု၊ Electron Transport Chain အစား အလင်းဖြင့် တွန်းအားပေးသော Chain တစ်ခုအတွက် ပိုကြီးမားသော အတွင်းဘက် Membrane တစ်ခု၊ ထို့ပြင် စစ်မှန်သော Biosynthesis ဖြစ်ပွားရာ Matrix ကဲ့သို့ အရည်ပြည့်နေရာ တစ်ခု။ Chloroplast သည် Mitochondrion ပြုလုပ်ခဲ့သကဲ့သို့ Chemiosmosis ဖြင့် ၎င်း၏ ATP ကို ကိုယ်တိုင် ထုတ်လုပ်သည်ပင် -- မနက်ဖြန် Light-Dependent Reaction သင်ခန်းစာတွင် မည်သို့ ဖြစ်ပေါ်သည်ကို တိတိကျကျ တွေ့ကြရမည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what does the \"first kitchen\" (thylakoid membrane) produce?",
+            questionMy:
+                "\"ပထမ မီးဖိုချောင်\" (Thylakoid Membrane) သည် မည်သည်ကို ထုတ်လုပ်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "ATP and reduced NADP, splitting water in the process",
+              "Glucose directly, with no other products",
+              "Carbon dioxide, absorbed from the air",
+              "Oxygen only, with no ATP produced",
+            ],
+            optionsMy: [
+              "ATP နှင့် Reduced NADP, ရေကို ခွဲထုတ်ပေးသည်",
+              "အခြားထုတ်ကုန်မရှိဘဲ Glucose တိုက်ရိုက်",
+              "လေထုမှ စုပ်ယူထားသော Carbon Dioxide",
+              "ATP လုံးဝ မထုတ်လုပ်ဘဲ Oxygen သာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what does the \"second kitchen\" (stroma) use to build sugars?",
+            questionMy:
+                "\"ဒုတိယ မီးဖိုချောင်\" (Stroma) သည် Sugar များ တည်ဆောက်ရန် မည်သည်ကို အသုံးပြုသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "ATP and reduced NADP delivered from the thylakoid membrane, plus carbon dioxide",
+              "Only sunlight, with no chemical input needed",
+              "Ethanol produced by the mitochondrion",
+              "Lactate produced by muscle cells",
+            ],
+            optionsMy: [
+              "Thylakoid Membrane မှ ပေးပို့သော ATP နှင့် Reduced NADP, Carbon Dioxide ပါ",
+              "Chemical Input လုံးဝ မလိုအပ်ဘဲ နေရောင်ခြည်တစ်ခုတည်း",
+              "Mitochondrion မှ ထုတ်လုပ်ထားသော Ethanol",
+              "ကြွက်သားဆဲလ်များ ထုတ်လုပ်ထားသော Lactate",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, what process does the chloroplast share with the mitochondrion?",
+            questionMy:
+                "Chloroplast သည် Mitochondrion နှင့် မည်သည့် လုပ်ငန်းစဉ်ကို မျှဝေသည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Making its own ATP by chemiosmosis",
+              "Producing lactate during exercise",
+              "Storing the cell's DNA",
+              "Digesting worn-out organelles",
+            ],
+            optionsMy: [
+              "Chemiosmosis ဖြင့် ၎င်း၏ ATP ကိုယ်တိုင် ထုတ်လုပ်ခြင်း",
+              "ကာယလှုပ်ရှားစဉ် Lactate ထုတ်လုပ်ခြင်း",
+              "ဆဲလ်၏ DNA ကို သိမ်းဆည်းခြင်း",
+              "အသုံးဆက်ဆံနေသော Organelle များကို ချေဖျက်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w5-d5",
+      dayNumber: 5,
+      titleEn: "Week 5 Recap: Chloroplast Structure",
+      titleMy: "ပဉ္စမပတ် ပြန်လည်သုံးသပ်ခြင်း - Chloroplast ဖွဲ့စည်းပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Chlorophyll is embedded in the...",
+          questionMy: "Chlorophyll သည် ...တွင် ကိန်းဝပ်နေသည်",
+          optionsEn: ["Thylakoid membranes", "Outer chloroplast membrane", "Cytoplasm", "Nucleus"],
+          optionsMy: ["Thylakoid Membrane", "Chloroplast Membrane အပြင်ဘက်", "Cytoplasm", "Nucleus"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The light-independent reactions (Calvin cycle) take place in the...",
+          questionMy: "Light-Independent Reaction (Calvin Cycle) သည် ...တွင် ဖြစ်ပွားသည်",
+          optionsEn: ["Stroma", "Thylakoid membrane", "Mitochondrial matrix", "Nucleus"],
+          optionsMy: ["Stroma", "Thylakoid Membrane", "Mitochondrial Matrix", "Nucleus"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A stack of thylakoids inside a chloroplast is called a...",
+          questionMy: "Chloroplast အတွင်းရှိ Thylakoid အစုကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Granum", "Crista", "Nucleolus", "Vacuole"],
+          optionsMy: ["Granum", "Crista", "Nucleolus", "Vacuole"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 6: "The Light-Dependent Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek6 = CourseWeekDef(
+  id: "course-y13-bio-w6",
+  weekNumber: 6,
+  titleEn: "The Light-Dependent Reactions",
+  titleMy: "Light-Dependent Reaction",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w6-d1",
+      dayNumber: 1,
+      titleEn: "Photolysis, Photosystems and Photophosphorylation",
+      titleMy: "Photolysis, Photosystem နှင့် Photophosphorylation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Photolysis is the light-driven splitting of water into...",
+          questionMy: "Photolysis သည် ရေကို ...အဖြစ် အလင်းဖြင့် တွန်းအားပေး ခွဲထုတ်ခြင်း ဖြစ်သည်",
+          optionsEn: [
+            "Protons, electrons and oxygen",
+            "Glucose and carbon dioxide",
+            "ATP and ADP directly",
+            "Nitrogen and hydrogen",
+          ],
+          optionsMy: [
+            "Proton, Electron နှင့် Oxygen",
+            "Glucose နှင့် Carbon Dioxide",
+            "ATP နှင့် ADP တိုက်ရိုက်",
+            "Nitrogen နှင့် Hydrogen",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Photolysis replaces the electrons lost from chlorophyll in photosystem II, and releases oxygen as a by-product -- the oxygen we breathe ultimately comes from split water molecules.",
+          ],
+          hintsMy: [
+            "Photolysis သည် Photosystem II ရှိ Chlorophyll မှ ဆုံးရှုံးသွားသော Electron များကို အစားထိုးပေးပြီး Oxygen ကို By-product အဖြစ် ထွက်ရှိစေသည် -- ကျွန်တော်တို့ ရှူသွင်းနေသော Oxygen သည် နောက်ဆုံးတွင် ခွဲထုတ်ထားသော ရေမော်လီကျူးများမှ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Light energy absorbed by chlorophyll in the photosystems excites electrons, which then pass along an electron transport chain in the thylakoid membrane, releasing energy used to...",
+          questionMy:
+              "Photosystem များရှိ Chlorophyll က စုပ်ယူသော အလင်းစွမ်းအင်သည် Electron များကို လှုံ့ဆော်ပေးပြီး ထို့နောက် Thylakoid Membrane ရှိ Electron Transport Chain တလျှောက် သွားစဉ် ...ရန် အသုံးပြုသော စွမ်းအင် ထွက်ရှိသည်",
+          optionsEn: [
+            "Pump protons into the thylakoid space, building a proton gradient for chemiosmosis",
+            "Break down glucose directly into pyruvate",
+            "Split DNA into two strands",
+            "Convert carbon dioxide into oxygen directly",
+          ],
+          optionsMy: [
+            "Proton များကို Thylakoid Space ထဲသို့ Pump ပြုလုပ်ကာ Chemiosmosis အတွက် Proton Gradient တည်ဆောက်ရန်",
+            "Glucose ကို Pyruvate အဖြစ် တိုက်ရိုက် ချေဖျက်ရန်",
+            "DNA ကို ကွင်းဆက်နှစ်ခု ခွဲထုတ်ရန်",
+            "Carbon Dioxide ကို Oxygen အဖြစ် တိုက်ရိုက် ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Protons flow back out through ATP synthase, generating ATP -- this light-driven version of chemiosmosis is called photophosphorylation.",
+          ],
+          hintsMy: [
+            "Proton များသည် ATP Synthase မှတဆင့် ပြန်လည် စီးထွက်လာပြီး ATP ထုတ်လုပ်ပေးသည် -- ဤအလင်းဖြင့် တွန်းအားပေးသော Chemiosmosis ပုံစံကို Photophosphorylation ဟု ခေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The products of the light-dependent reactions are...",
+          questionMy: "Light-Dependent Reaction ၏ ထုတ်ကုန်များမှာ...",
+          optionsEn: [
+            "ATP, reduced NADP, and oxygen",
+            "Glucose and carbon dioxide",
+            "Pyruvate and lactate",
+            "Only oxygen, with no ATP produced",
+          ],
+          optionsMy: [
+            "ATP, Reduced NADP နှင့် Oxygen",
+            "Glucose နှင့် Carbon Dioxide",
+            "Pyruvate နှင့် Lactate",
+            "ATP လုံးဝ မထုတ်လုပ်ဘဲ Oxygen သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "NADP is reduced by high-energy electrons (and H+) at the end of the electron transport chain -- both ATP and reduced NADP then diffuse into the stroma to power the light-independent reactions.",
+          ],
+          hintsMy: [
+            "NADP သည် Electron Transport Chain ၏ အဆုံးတွင် စွမ်းအင်မြင့်မား Electron များ (နှင့် H+) ဖြင့် Reduce ဖြစ်သည် -- ATP နှင့် Reduced NADP နှစ်ခုစလုံးသည် Light-Independent Reaction ကို တွန်းအားပေးရန် Stroma ထဲသို့ Diffusion ဖြစ်သွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w6-d2",
+      dayNumber: 2,
+      titleEn: "Match: Light-Dependent Reactions Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Light-Dependent Reaction ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w6-dm-1",
+          termEn: "Photolysis",
+          termMy: "Photolysis",
+          matchEn: "The light-driven splitting of water into protons, electrons and oxygen",
+          matchMy: "ရေကို Proton, Electron နှင့် Oxygen အဖြစ် အလင်းဖြင့် တွန်းအားပေး ခွဲထုတ်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w6-dm-2",
+          termEn: "Photosystem",
+          termMy: "Photosystem",
+          matchEn: "A cluster of chlorophyll and other pigments in the thylakoid membrane that absorbs light",
+          matchMy: "Thylakoid Membrane တွင် အလင်းစုပ်ယူသော Chlorophyll နှင့် Pigment အခြား အစုအဝေး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w6-dm-3",
+          termEn: "Photophosphorylation",
+          termMy: "Photophosphorylation",
+          matchEn: "ATP production driven by light, via chemiosmosis across the thylakoid membrane",
+          matchMy: "Thylakoid Membrane တလျှောက် Chemiosmosis မှတဆင့် အလင်းဖြင့် တွန်းအားပေးသော ATP ထုတ်လုပ်မှု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w6-dm-4",
+          termEn: "Reduced NADP",
+          termMy: "Reduced NADP",
+          matchEn: "The reduced coenzyme carrying hydrogen from the light-dependent to the light-independent reactions",
+          matchMy: "Light-Dependent Reaction မှ Light-Independent Reaction သို့ Hydrogen သယ်ဆောင်ပေးသော Reduced Coenzyme",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w6-dm-5",
+          termEn: "Thylakoid membrane",
+          termMy: "Thylakoid Membrane",
+          matchEn: "The membrane system where the light-dependent reactions take place",
+          matchMy: "Light-Dependent Reaction ဖြစ်ပွားရာ Membrane စနစ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w6-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Product or Raw Material of the Light-Dependent Reactions?",
+      titleMy: "စီစစ်ကြမည် - Light-Dependent Reaction ၏ ထုတ်ကုန် သို့မဟုတ် ကုန်ကြမ်း?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Product of Light-Dependent Reactions", "Raw Material Used"],
+        bucketsMy: ["Light-Dependent Reaction ၏ ထုတ်ကုန်", "အသုံးပြုသော ကုန်ကြမ်း"],
+        items: [
+          SortingItem(
+            id: "y13bio-w6-sort-1",
+            labelEn: "ATP, made by photophosphorylation",
+            labelMy: "Photophosphorylation ဖြင့် ထုတ်လုပ်သော ATP",
+            correctBucketEn: "Product of Light-Dependent Reactions",
+            correctBucketMy: "Light-Dependent Reaction ၏ ထုတ်ကုန်",
+          ),
+          SortingItem(
+            id: "y13bio-w6-sort-2",
+            labelEn: "Reduced NADP, carrying hydrogen to the stroma",
+            labelMy: "Hydrogen ကို Stroma သို့ သယ်ဆောင်သော Reduced NADP",
+            correctBucketEn: "Product of Light-Dependent Reactions",
+            correctBucketMy: "Light-Dependent Reaction ၏ ထုတ်ကုန်",
+          ),
+          SortingItem(
+            id: "y13bio-w6-sort-3",
+            labelEn: "Oxygen, released from the splitting of water",
+            labelMy: "ရေကို ခွဲထုတ်ခြင်းမှ ထွက်ရှိလာသော Oxygen",
+            correctBucketEn: "Product of Light-Dependent Reactions",
+            correctBucketMy: "Light-Dependent Reaction ၏ ထုတ်ကုန်",
+          ),
+          SortingItem(
+            id: "y13bio-w6-sort-4",
+            labelEn: "Water, split by photolysis at photosystem II",
+            labelMy: "Photosystem II တွင် Photolysis ဖြင့် ခွဲထုတ်ခံရသော ရေ",
+            correctBucketEn: "Raw Material Used",
+            correctBucketMy: "အသုံးပြုသော ကုန်ကြမ်း",
+          ),
+          SortingItem(
+            id: "y13bio-w6-sort-5",
+            labelEn: "Light energy, absorbed by chlorophyll in the photosystems",
+            labelMy: "Photosystem များရှိ Chlorophyll က စုပ်ယူသော အလင်းစွမ်းအင်",
+            correctBucketEn: "Raw Material Used",
+            correctBucketMy: "အသုံးပြုသော ကုန်ကြမ်း",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w6-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Chasing an Electron Through the Thylakoid",
+      titleMy: "စာဖတ်ခြင်း - Thylakoid အတွင်းရှိ Electron တစ်ခုကို လိုက်ကြည့်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Chasing an Electron Through the Thylakoid",
+        titleMy: "Thylakoid အတွင်းရှိ Electron တစ်ခုကို လိုက်ကြည့်ခြင်း",
+        passageEn:
+            "Htet Aung asked Su Su to help him trace the path of a single electron through the light-dependent reactions, the same way they had traced a carbon atom through the Krebs cycle in Term 1. Su Su began: sunlight strikes a chlorophyll molecule in photosystem II, exciting one of its electrons to a higher energy level. That electron leaves the photosystem and passes along a chain of carrier proteins in the thylakoid membrane, releasing energy at each step -- energy that is used to pump protons from the stroma into the thylakoid space, building up a steep proton gradient.\n\n\"But photosystem II has just lost an electron,\" Htet Aung pointed out. \"Where does it get a replacement?\" Su Su explained that this is exactly where photolysis comes in: light energy splits a water molecule inside the thylakoid space into protons, electrons and oxygen, and the released electrons replace the ones photosystem II has lost. The oxygen diffuses away as a by-product -- the very oxygen a nearby plant, or the students themselves, will go on to breathe.\n\nSayar Zaw Min picked up the story from photosystem I: the original electron, having lost energy along the first chain, is re-excited by more light energy, then passes to a final carrier that reduces NADP to reduced NADP using the electron together with a proton. \"And meanwhile,\" he added, \"all those protons piling up in the thylakoid space flow back out through ATP synthase, generating ATP by photophosphorylation -- exactly the chemiosmosis mechanism from Term 1, just powered by light instead of respiration's reduced NAD and FAD. Both ATP and reduced NADP now diffuse into the stroma, ready for tomorrow's lesson on the Calvin cycle.\"",
+        passageMy:
+            "Htet Aung သည် Term 1 တွင် Krebs Cycle အတွင်း Carbon Atom တစ်ခုကို လိုက်ကြည့်ခဲ့သကဲ့သို့ Light-Dependent Reaction တလျှောက် Electron တစ်ခု၏ လမ်းကြောင်းကို လိုက်ကြည့်ရန် Su Su ကို ကူညီရန် တောင်းဆိုခဲ့သည်။ Su Su က စတင်ခဲ့သည် - နေရောင်ခြည်သည် Photosystem II ရှိ Chlorophyll မော်လီကျူးတစ်ခုကို ထိမိပြီး ၎င်း၏ Electron တစ်ခုကို စွမ်းအင်ပိုမြင့်သော အဆင့်သို့ လှုံ့ဆော်ပေးသည်။ ထို Electron သည် Photosystem မှ ထွက်ခွာပြီး Thylakoid Membrane ရှိ Carrier Protein ကွင်းဆက်တလျှောက် သွားစဉ် အဆင့်တိုင်းတွင် စွမ်းအင် ထွက်ရှိသည် -- ထိုစွမ်းအင်ကို Proton များအား Stroma မှ Thylakoid Space ထဲသို့ Pump ပြုလုပ်ရန် အသုံးပြုကာ Proton Gradient မြင့်တက်စွာ တည်ဆောက်ပေးသည်။\n\n\"ဒါပေမယ့် Photosystem II က Electron တစ်ခု ဆုံးရှုံးသွားပြီနော်\" ဟု Htet Aung ထောက်ပြခဲ့သည်။ \"ဘယ်ကနေ အစားထိုးမှု ရလဲ။\" Su Su က ဤနေရာတွင် Photolysis ဝင်ရောက်လာကြောင်း ရှင်းပြခဲ့သည် - အလင်းစွမ်းအင်သည် Thylakoid Space အတွင်းရှိ ရေမော်လီကျူးတစ်ခုကို Proton, Electron နှင့် Oxygen အဖြစ် ခွဲထုတ်ပေးပြီး ထွက်ရှိလာသော Electron များက Photosystem II ဆုံးရှုံးခဲ့သော Electron များကို အစားထိုးပေးသည်။ Oxygen သည် By-product အဖြစ် Diffusion ဖြစ်ထွက်ခွာသွားသည် -- အနီးရှိ အပင်တစ်ပင် (သို့) ကျောင်းသားများ ကိုယ်တိုင် ရှူသွင်းသွားမည့် Oxygen ပင် ဖြစ်သည်။\n\nဆရာဇော်မင်းက Photosystem I မှ ဇာတ်လမ်းကို ဆက်ခဲ့သည် - ပထမ Chain တလျှောက် စွမ်းအင် ဆုံးရှုံးသွားခဲ့သော မူလ Electron ကို အလင်းစွမ်းအင် ထပ်မံ လှုံ့ဆော်ပေးပြီး ထို့နောက် Proton တစ်ခုနှင့်အတူ Electron ကို အသုံးပြု၍ NADP ကို Reduced NADP အဖြစ် Reduce ပြုလုပ်ပေးသော အဆုံးသတ် Carrier တစ်ခုသို့ ရောက်ရှိသည်။ \"ထို့ပြင်\" ဟု သူ ထပ်ဆင့်ခဲ့သည် \"Thylakoid Space ထဲတွင် စုပုံနေသော Proton များအားလုံးသည် ATP Synthase မှတဆင့် ပြန်လည် စီးထွက်ကာ Photophosphorylation ဖြင့် ATP ထုတ်လုပ်ပေးသည် -- Term 1 က Chemiosmosis Mechanism အတိအကျပင် ဖြစ်ပြီး Respiration ၏ Reduced NAD နှင့် FAD အစား အလင်းဖြင့်သာ တွန်းအားပေးသည်။ ATP နှင့် Reduced NADP နှစ်ခုစလုံးသည် ယခု Stroma ထဲသို့ Diffusion ဖြစ်သွားကာ မနက်ဖြန် Calvin Cycle သင်ခန်းစာအတွက် အသင့် ဖြစ်နေပါပြီ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what replaces the electron lost by photosystem II?",
+            questionMy:
+                "Photosystem II ဆုံးရှုံးခဲ့သော Electron ကို မည်သည် အစားထိုးပေးသည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Electrons released by photolysis of water",
+              "Electrons from the mitochondrion",
+              "Electrons produced by glycolysis",
+              "No replacement is needed at all",
+            ],
+            optionsMy: [
+              "ရေ၏ Photolysis မှ ထွက်ရှိလာသော Electron များ",
+              "Mitochondrion မှ Electron များ",
+              "Glycolysis မှ ထုတ်လုပ်သော Electron များ",
+              "အစားထိုးမှု လုံးဝ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, what does the final carrier at photosystem I do with the electron?",
+            questionMy:
+                "Photosystem I ၏ အဆုံးသတ် Carrier သည် Electron ကို မည်သို့ အသုံးပြုသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Uses it, with a proton, to reduce NADP to reduced NADP",
+              "Uses it to split another water molecule",
+              "Uses it to build glucose directly",
+              "Discards it with no further reaction",
+            ],
+            optionsMy: [
+              "Proton တစ်ခုနှင့်အတူ NADP ကို Reduced NADP အဖြစ် Reduce ပြုလုပ်ရန် အသုံးပြုသည်",
+              "ရေမော်လီကျူးအခြားတစ်ခုကို ခွဲထုတ်ရန် အသုံးပြုသည်",
+              "Glucose ကို တိုက်ရိုက် တည်ဆောက်ရန် အသုံးပြုသည်",
+              "နောက်ထပ် တုံ့ပြန်မှု မရှိတော့ဘဲ စွန့်ပစ်လိုက်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what powers photophosphorylation instead of respiration's reduced NAD and FAD?",
+            questionMy:
+                "Photophosphorylation ကို Respiration ၏ Reduced NAD နှင့် FAD အစား မည်သည် တွန်းအားပေးသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Light", "Glucose", "Oxygen debt", "Lactate"],
+            optionsMy: ["အလင်း", "Glucose", "Oxygen Debt", "Lactate"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w6-d5",
+      dayNumber: 5,
+      titleEn: "Week 6 Recap: Light-Dependent Reactions",
+      titleMy: "ဆဋ္ဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Light-Dependent Reaction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Photolysis is the splitting of...",
+          questionMy: "Photolysis သည် ...ကို ခွဲထုတ်ခြင်း ဖြစ်သည်",
+          optionsEn: ["Water", "Glucose", "Carbon dioxide", "ATP"],
+          optionsMy: ["ရေ", "Glucose", "Carbon Dioxide", "ATP"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The light-dependent reactions produce ATP, reduced NADP and...",
+          questionMy: "Light-Dependent Reaction သည် ATP, Reduced NADP နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Oxygen", "Glucose", "Carbon dioxide", "Lactate"],
+          optionsMy: ["Oxygen", "Glucose", "Carbon Dioxide", "Lactate"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ATP production driven by light via chemiosmosis is called...",
+          questionMy: "Chemiosmosis မှတဆင့် အလင်းဖြင့် တွန်းအားပေးသော ATP ထုတ်လုပ်မှုကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Photophosphorylation", "Oxidative phosphorylation", "Glycolysis", "Deamination"],
+          optionsMy: ["Photophosphorylation", "Oxidative Phosphorylation", "Glycolysis", "Deamination"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 7: "The Light-Independent Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek7 = CourseWeekDef(
+  id: "course-y13-bio-w7",
+  weekNumber: 7,
+  titleEn: "The Light-Independent Reactions",
+  titleMy: "Light-Independent Reaction",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w7-d1",
+      dayNumber: 1,
+      titleEn: "The Calvin Cycle and Carbon Fixation",
+      titleMy: "Calvin Cycle နှင့် Carbon Fixation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In the Calvin cycle, carbon dioxide is fixed by combining with a 5-carbon molecule called...",
+          questionMy:
+              "Calvin Cycle တွင် Carbon Dioxide ကို Carbon 5 ခုပါ ...ဟု ခေါ်သော မော်လီကျူးနှင့် ပေါင်းစည်း၍ Fix လုပ်သည်",
+          optionsEn: ["RuBP (ribulose bisphosphate)", "Glucose", "Oxaloacetate", "Pyruvate"],
+          optionsMy: ["RuBP (Ribulose Bisphosphate)", "Glucose", "Oxaloacetate", "Pyruvate"],
+          correctIndex: 0,
+          hintsEn: [
+            "This reaction, catalysed by the enzyme rubisco, is the very first step of carbon fixation -- the point where inorganic carbon dioxide becomes part of an organic molecule.",
+          ],
+          hintsMy: [
+            "Rubisco ဟု ခေါ်သော Enzyme ဖြင့် Catalyse ပြုလုပ်သော ဤတုံ့ပြန်မှုသည် Carbon Fixation ၏ ပထမဆုံး အဆင့် ဖြစ်ပြီး Inorganic Carbon Dioxide သည် Organic မော်လီကျူး၏ အစိတ်အပိုင်း ဖြစ်လာသည့် အချက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The unstable 6-carbon intermediate formed when CO2 combines with RuBP immediately splits into two molecules of...",
+          questionMy:
+              "CO2 သည် RuBP နှင့် ပေါင်းစည်းစဉ် ဖြစ်ပေါ်လာသော မတည်ငြိမ်သော Carbon 6 ခုပါ Intermediate သည် ချက်ချင်း ...မော်လီကျူးနှစ်ခုအဖြစ် ပြိုကွဲသွားသည်",
+          optionsEn: [
+            "GP (glycerate 3-phosphate), each containing 3 carbons",
+            "Glucose, each containing 6 carbons",
+            "Pyruvate, each containing 3 carbons",
+            "Acetyl coenzyme A",
+          ],
+          optionsMy: [
+            "GP (Glycerate 3-phosphate), Carbon 3 ခုစီပါဝင်သည်",
+            "Glucose, Carbon 6 ခုစီပါဝင်သည်",
+            "Pyruvate, Carbon 3 ခုစီပါဝင်သည်",
+            "Acetyl Coenzyme A",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "GP is the first stable product of carbon fixation -- do not confuse it with pyruvate from respiration, even though both are 3-carbon molecules.",
+          ],
+          hintsMy: [
+            "GP သည် Carbon Fixation ၏ ပထမဆုံး တည်ငြိမ်သော ထုတ်ကုန် ဖြစ်သည် -- နှစ်ခုစလုံး Carbon 3 ခုပါ မော်လီကျူးများ ဖြစ်သော်လည်း Respiration မှ Pyruvate နှင့် မရောနှောပါနှင့်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "GP is reduced to triose phosphate (TP) using...",
+          questionMy: "GP ကို Triose Phosphate (TP) အဖြစ် ...ကို အသုံးပြု၍ Reduce ပြုလုပ်သည်",
+          optionsEn: [
+            "ATP and reduced NADP from the light-dependent reactions",
+            "Oxygen from the atmosphere",
+            "Reduced NAD and FAD from the Krebs cycle",
+            "Carbon dioxide alone",
+          ],
+          optionsMy: [
+            "Light-Dependent Reaction မှ ATP နှင့် Reduced NADP",
+            "လေထုမှ Oxygen",
+            "Krebs Cycle မှ Reduced NAD နှင့် FAD",
+            "Carbon Dioxide တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly why the two stages of photosynthesis are linked: the light-independent reactions cannot proceed without the ATP and reduced NADP the light-dependent reactions supply.",
+          ],
+          hintsMy: [
+            "Photosynthesis ၏ အဆင့်နှစ်ဆင့် ချိတ်ဆက်နေရသည့်အကြောင်းရင်း အတိအကျ ဖြစ်သည် -- Light-Independent Reaction သည် Light-Dependent Reaction ပေးအပ်သော ATP နှင့် Reduced NADP မရှိဘဲ ဆက်လက် လုပ်ဆောင်၍ မရပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w7-d2",
+      dayNumber: 2,
+      titleEn: "Match: Calvin Cycle Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Calvin Cycle ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w7-dm-1",
+          termEn: "Calvin cycle",
+          termMy: "Calvin Cycle",
+          matchEn: "The cyclical series of light-independent reactions taking place in the stroma",
+          matchMy: "Stroma တွင် ဖြစ်ပွားသော Light-Independent Reaction ကွင်းဆက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w7-dm-2",
+          termEn: "Carbon fixation",
+          termMy: "Carbon Fixation",
+          matchEn: "Combining inorganic carbon dioxide with RuBP to form an organic molecule",
+          matchMy: "Inorganic Carbon Dioxide ကို RuBP နှင့် ပေါင်းစည်း၍ Organic မော်လီကျူး ဖြစ်ပေါ်စေခြင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w7-dm-3",
+          termEn: "Rubisco",
+          termMy: "Rubisco",
+          matchEn: "The enzyme that catalyses the combination of carbon dioxide with RuBP",
+          matchMy: "Carbon Dioxide ကို RuBP နှင့် ပေါင်းစည်းခြင်းကို Catalyse ပြုလုပ်ပေးသော Enzyme",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w7-dm-4",
+          termEn: "RuBP",
+          termMy: "RuBP",
+          matchEn: "The 5-carbon molecule that accepts carbon dioxide at the start of the Calvin cycle",
+          matchMy: "Calvin Cycle စတင်ချိန်တွင် Carbon Dioxide ကို လက်ခံသော Carbon 5 ခုပါ မော်လီကျူး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w7-dm-5",
+          termEn: "Glycerate 3-phosphate (GP)",
+          termMy: "Glycerate 3-phosphate (GP)",
+          matchEn: "The first stable 3-carbon product formed when CO2 combines with RuBP",
+          matchMy: "CO2 သည် RuBP နှင့် ပေါင်းစည်းစဉ် ဖြစ်ပေါ်လာသော ပထမဆုံး တည်ငြိမ်သော Carbon 3 ခုပါ ထုတ်ကုန်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w7-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Light-Dependent or Light-Independent Reactions?",
+      titleMy: "စီစစ်ကြမည် - Light-Dependent သို့မဟုတ် Light-Independent Reaction?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Light-Dependent Reactions", "Light-Independent Reactions (Calvin Cycle)"],
+        bucketsMy: ["Light-Dependent Reaction", "Light-Independent Reaction (Calvin Cycle)"],
+        items: [
+          SortingItem(
+            id: "y13bio-w7-sort-1",
+            labelEn: "Takes place on the thylakoid membrane",
+            labelMy: "Thylakoid Membrane တွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Light-Dependent Reactions",
+            correctBucketMy: "Light-Dependent Reaction",
+          ),
+          SortingItem(
+            id: "y13bio-w7-sort-2",
+            labelEn: "Water is split by photolysis, releasing oxygen",
+            labelMy: "ရေကို Photolysis ဖြင့် ခွဲထုတ်ကာ Oxygen ထွက်ရှိသည်",
+            correctBucketEn: "Light-Dependent Reactions",
+            correctBucketMy: "Light-Dependent Reaction",
+          ),
+          SortingItem(
+            id: "y13bio-w7-sort-3",
+            labelEn: "Carbon dioxide is fixed onto RuBP, catalysed by rubisco",
+            labelMy: "Rubisco ဖြင့် Catalyse ပြုလုပ်ကာ Carbon Dioxide ကို RuBP ပေါ်၌ Fix လုပ်သည်",
+            correctBucketEn: "Light-Independent Reactions (Calvin Cycle)",
+            correctBucketMy: "Light-Independent Reaction (Calvin Cycle)",
+          ),
+          SortingItem(
+            id: "y13bio-w7-sort-4",
+            labelEn: "Takes place in the stroma",
+            labelMy: "Stroma တွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Light-Independent Reactions (Calvin Cycle)",
+            correctBucketMy: "Light-Independent Reaction (Calvin Cycle)",
+          ),
+          SortingItem(
+            id: "y13bio-w7-sort-5",
+            labelEn: "Uses ATP and reduced NADP to reduce GP into triose phosphate",
+            labelMy: "GP ကို Triose Phosphate အဖြစ် Reduce ပြုလုပ်ရန် ATP နှင့် Reduced NADP ကို အသုံးပြုသည်",
+            correctBucketEn: "Light-Independent Reactions (Calvin Cycle)",
+            correctBucketMy: "Light-Independent Reaction (Calvin Cycle)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w7-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Cycle That Never Stops Spinning",
+      titleMy: "စာဖတ်ခြင်း - လှည့်ပတ်ဆဲ ရပ်တန့်ခြင်းမရှိသော Cycle",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Cycle That Never Stops Spinning",
+        titleMy: "လှည့်ပတ်ဆဲ ရပ်တန့်ခြင်းမရှိသော Cycle",
+        passageEn:
+            "Su Su told the class she had been confused, at first, about why the Calvin cycle needed to be a cycle at all -- why not just a straight line from carbon dioxide to glucose? Sayar Zaw Min set her a puzzle to solve it: for every six molecules of carbon dioxide fixed by rubisco, twelve molecules of glycerate 3-phosphate (GP) are formed, each reduced to triose phosphate (TP) using ATP and reduced NADP from the light-dependent reactions. \"Now,\" he asked, \"if all twelve TP molecules went straight on to make glucose, what would happen to RuBP?\"\n\nHtet Aung worked it out: RuBP would run out almost immediately, since each turn of fixation uses it up. So the cycle can only continue if some of the TP produced is used to regenerate RuBP rather than to make glucose. Su Su did the accounting: out of twelve TP molecules, ten are used (via several further reactions) to regenerate six molecules of RuBP, and only two TP molecules are actually exported to build glucose and other organic molecules -- sucrose, starch, amino acids, and more, depending on what the plant needs.\n\n\"That's the real reason it has to be a cycle,\" Sayar Zaw Min confirmed. \"Most of the carbon fixed has to be ploughed straight back in to keep the machine running, so that the small surplus can be exported as usable organic matter. It is the same logic as the Krebs cycle regenerating oxaloacetate -- a self-sustaining loop is the only way this kind of chemistry can keep operating continuously, week after week, season after season.\"",
+        passageMy:
+            "Calvin Cycle သည် Cycle တစ်ခု ဖြစ်ရသည့်အကြောင်းရင်းကို အစပိုင်းတွင် ရှုပ်ထွေးနေခဲ့ကြောင်း Su Su က အတန်းကို ပြောခဲ့သည် -- Carbon Dioxide မှ Glucose သို့ ဘာကြောင့် တိုက်ရိုက် လမ်းကြောင်း မဟုတ်တာလဲ။ ဆရာဇော်မင်းက ၎င်းကို ဖြေရှင်းနိုင်ရန် ပဟေဠိတစ်ခု ပေးခဲ့သည် - Rubisco မှ Fix လုပ်သော Carbon Dioxide မော်လီကျူး ခြောက်ခုလျှင် Glycerate 3-phosphate (GP) မော်လီကျူး ဆယ့်နှစ်ခု ဖြစ်ပေါ်ပြီး Light-Dependent Reaction မှ ATP နှင့် Reduced NADP ကို အသုံးပြု၍ တစ်ခုစီကို Triose Phosphate (TP) အဖြစ် Reduce ပြုလုပ်သည်။ \"ယခု\" ဟု သူ မေးခဲ့သည် \"TP မော်လီကျူး ဆယ့်နှစ်ခုလုံးသည် Glucose ဖန်တီးရန် တိုက်ရိုက် သွားခဲ့ပါက RuBP တွင် အဘယ်ဖြစ်လာလဲ။\"\n\nHtet Aung က ရှင်းရှင်းလင်းလင်း တွက်ချက်ပြခဲ့သည် - Fixation ၏ လှည့်ပတ်တစ်ကြိမ်တိုင်းသည် RuBP ကို သုံးစွဲသောကြောင့် RuBP သည် ချက်ချင်းနီးပါး ကုန်ဆုံးသွားလိမ့်မည်။ ထို့ကြောင့် ထုတ်လုပ်ထားသော TP အနည်းငယ်ကို Glucose ဖန်တီးရန်ထက် RuBP ပြန်လည် ဖြစ်ပေါ်စေရန် အသုံးပြုမှသာ Cycle ဆက်လက် လည်ပတ်နိုင်မည်။ Su Su က ဂဏန်းတွက်ချက်ခဲ့သည် - TP မော်လီကျူး ဆယ့်နှစ်ခုအနက် ဆယ်ခုကို (နောက်ထပ် တုံ့ပြန်မှု များစွာမှတဆင့်) RuBP မော်လီကျူး ခြောက်ခု ပြန်လည် ဖြစ်ပေါ်စေရန် အသုံးပြုပြီး TP မော်လီကျူး နှစ်ခုသာ Glucose နှင့် အခြား Organic မော်လီကျူးများ -- Sucrose, Starch, Amino Acid စသည် အပင်၏ လိုအပ်ချက်အလိုက် -- တည်ဆောက်ရန် တင်ပို့ခံရသည်။\n\n\"ဒါက Cycle တစ်ခု ဖြစ်ရသည့် အကြောင်းရင်း အစစ်အမှန် ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"Fix လုပ်ထားသော Carbon အများစုသည် စက်ယန္တရားကို ဆက်လက် လည်ပတ်နေစေရန် တိုက်ရိုက် ပြန်ရင်းနှီးမြှုပ်နှံရသည်၊ ထို့ကြောင့် ပိုလျှံသေးငယ်သော ပမာဏကိုသာ အသုံးဝင်သော Organic အနေဖြင့် တင်ပို့နိုင်ခြင်း ဖြစ်သည်။ Oxaloacetate ကို ပြန်လည် ဖြစ်ပေါ်စေသော Krebs Cycle နှင့် ကျိုးကြောင်းတူညီပါသည် -- ဤသို့သော ဓာတုဗေဒသည် အပတ်စဉ်၊ ရာသီအလိုက် အဆက်မပြတ် ဆက်လက် လုပ်ဆောင်နိုင်ရန် ကိုယ့်ကိုယ်ကို ထောက်ပံ့သော Loop တစ်ခု ဖြစ်ရုံသာ ရှိသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's working, what would happen to RuBP if every TP molecule went straight to making glucose?",
+            questionMy:
+                "TP မော်လီကျူးတိုင်းသည် Glucose ဖန်တီးရန် တိုက်ရိုက် သွားခဲ့ပါက RuBP တွင် အဘယ်ဖြစ်လာမည်ကို Htet Aung ၏ တွက်ချက်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It would run out almost immediately",
+              "It would keep increasing without limit",
+              "It would turn directly into glucose",
+              "Nothing would change at all",
+            ],
+            optionsMy: [
+              "ချက်ချင်းနီးပါး ကုန်ဆုံးသွားလိမ့်မည်",
+              "ကန့်သတ်မှုမရှိဘဲ ဆက်တိုးလာလိမ့်မည်",
+              "Glucose အဖြစ် တိုက်ရိုက် ပြောင်းလဲသွားလိမ့်မည်",
+              "လုံးဝ ပြောင်းလဲမှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su's accounting, out of twelve TP molecules, how many are used to regenerate RuBP?",
+            questionMy:
+                "TP မော်လီကျူး ဆယ့်နှစ်ခုအနက် RuBP ပြန်လည် ဖြစ်ပေါ်စေရန် မည်မျှ အသုံးပြုသည်ကို Su Su ၏ ဂဏန်းတွက်ချက်မှုအရ ဖော်ပြပါ။",
+            optionsEn: ["Ten", "Two", "Twelve", "Six"],
+            optionsMy: ["ဆယ်ခု", "နှစ်ခု", "ဆယ့်နှစ်ခု", "ခြောက်ခု"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, which earlier cycle does the Calvin cycle's logic resemble?",
+            questionMy:
+                "Calvin Cycle ၏ ကျိုးကြောင်းသည် ယခင် Cycle တစ်ခုနှင့် ဆင်တူသည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Krebs cycle, which regenerates oxaloacetate",
+              "Glycolysis, which occurs in the cytoplasm",
+              "The ornithine cycle, which forms urea",
+              "The menstrual cycle",
+            ],
+            optionsMy: [
+              "Oxaloacetate ကို ပြန်လည် ဖြစ်ပေါ်စေသော Krebs Cycle",
+              "Cytoplasm တွင် ဖြစ်ပွားသော Glycolysis",
+              "Urea ဖွဲ့စည်းပေးသော Ornithine Cycle",
+              "Menstrual Cycle",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w7-d5",
+      dayNumber: 5,
+      titleEn: "Week 7 Recap: The Calvin Cycle",
+      titleMy: "သတ္တမပတ် ပြန်လည်သုံးသပ်ခြင်း - Calvin Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Carbon dioxide is fixed by combining with...",
+          questionMy: "Carbon Dioxide ကို ...နှင့် ပေါင်းစည်း၍ Fix လုပ်သည်",
+          optionsEn: ["RuBP", "Glucose", "Oxaloacetate", "ATP"],
+          optionsMy: ["RuBP", "Glucose", "Oxaloacetate", "ATP"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The enzyme that catalyses carbon fixation is called...",
+          questionMy: "Carbon Fixation ကို Catalyse ပြုလုပ်ပေးသော Enzyme ကို ...ဟု ခေါ်သည်",
+          optionsEn: ["Rubisco", "Amylase", "Catalase", "Lipase"],
+          optionsMy: ["Rubisco", "Amylase", "Catalase", "Lipase"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "GP is reduced to triose phosphate using ATP and...",
+          questionMy: "GP ကို Triose Phosphate အဖြစ် ATP နှင့် ...ကို အသုံးပြု၍ Reduce ပြုလုပ်သည်",
+          optionsEn: ["Reduced NADP", "Reduced NAD", "Oxygen", "Carbon dioxide"],
+          optionsMy: ["Reduced NADP", "Reduced NAD", "Oxygen", "Carbon Dioxide"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 8: "Limiting Factors of Photosynthesis" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek8 = CourseWeekDef(
+  id: "course-y13-bio-w8",
+  weekNumber: 8,
+  titleEn: "Limiting Factors of Photosynthesis",
+  titleMy: "Photosynthesis ကို ကန့်သတ်သော Factor များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w8-d1",
+      dayNumber: 1,
+      titleEn: "Light Intensity, Carbon Dioxide and Temperature",
+      titleMy: "အလင်းအား, Carbon Dioxide နှင့် အပူချိန်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "According to the principle of limiting factors, the rate of photosynthesis at any moment is determined by...",
+          questionMy:
+              "Limiting Factor သဘောတရားအရ မည်သည့်အချိန်တွင်မဆို Photosynthesis နှုန်းကို ...ဖြင့် ဆုံးဖြတ်သည်",
+          optionsEn: [
+            "Whichever factor is in shortest supply relative to the others",
+            "Only light intensity, regardless of any other factor",
+            "The total number of chloroplasts present, and nothing else",
+            "The age of the plant alone",
+          ],
+          optionsMy: [
+            "အခြား Factor များနှင့် နှိုင်းယှဉ်ပါက အနည်းဆုံး ရရှိနိုင်သော Factor မှတဆင့်",
+            "အခြား Factor တစ်ခုမျှ ထည့်သွင်းစဉ်းစားခြင်း မရှိဘဲ အလင်းအားတစ်ခုတည်း",
+            "ရှိနေသော Chloroplast အရေအတွက် စုစုပေါင်းသာ၊ အခြားမည်သည်မျှ မဟုတ်",
+            "အပင်၏ အသက်အရွယ်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Even if light intensity is high, the rate cannot exceed what carbon dioxide concentration or temperature allows if either of those is in short supply -- the scarcest factor sets the ceiling.",
+          ],
+          hintsMy: [
+            "အလင်းအား မြင့်နေသော်လည်း Carbon Dioxide အာနှုန်း (သို့) အပူချိန်တို့ ရှားပါးနေပါက ၎င်းတို့ ခွင့်ပြုနိုင်သည်ထက် နှုန်းကို လွန်၍ တက်၍ မရပါ -- အရှားပါးဆုံး Factor က အမြင့်ဆုံး အကန့်အသတ်ကို သတ်မှတ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a graph of photosynthesis rate against light intensity, the rate initially rises as light intensity increases, then levels off at high light intensity because...",
+          questionMy:
+              "အလင်းအားအပေါ် Photosynthesis နှုန်း Graph တွင် အလင်းအား တိုးလာသည်နှင့်အမျှ နှုန်းသည် အစပိုင်း မြင့်တက်ပြီး အလင်းအား မြင့်မားသောနေရာတွင် ညီမျှသွားရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Another factor, such as carbon dioxide concentration or temperature, has now become limiting instead",
+            "Chlorophyll stops absorbing light completely",
+            "The plant runs out of water entirely",
+            "Photosynthesis stops needing light at that point",
+          ],
+          optionsMy: [
+            "Carbon Dioxide အာနှုန်း (သို့) အပူချိန်ကဲ့သို့ အခြား Factor တစ်ခုသည် ယခု Limiting Factor ဖြစ်လာသောကြောင့်",
+            "Chlorophyll က အလင်း စုပ်ယူခြင်းကို လုံးဝ ရပ်တန့်သွားသောကြောင့်",
+            "အပင်တွင် ရေ လုံးဝ ကုန်ဆုံးသွားသောကြောင့်",
+            "ထိုအချိန်တွင် Photosynthesis က အလင်း လိုအပ်တော့မှု မရှိတော့သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the classic evidence for the law of limiting factors -- the plateau shifts higher if you then increase CO2 concentration or temperature, showing light was no longer the bottleneck.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Law of Limiting Factors ၏ Classic သက်သေအထောက်အထား ဖြစ်သည် -- ထို့နောက် CO2 အာနှုန်း (သို့) အပူချိန်ကို တိုးမြှင့်ပါက Plateau သည် ပိုမြင့်စွာ ရွှေ့ပြောင်းသွားပြီး အလင်းသည် Bottleneck မဖြစ်တော့ကြောင်း ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Above a plant's optimum temperature, the rate of photosynthesis falls sharply mainly because...",
+          questionMy:
+              "အပင်တစ်ပင်၏ Optimum အပူချိန်ထက် ကျော်လွန်ပါက Photosynthesis နှုန်း ပြင်းထန်စွာ ကျဆင်းရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Enzymes such as rubisco denature at high temperatures",
+            "Chlorophyll turns a different colour",
+            "Water becomes impossible for the plant to absorb",
+            "Carbon dioxide stops existing in the air",
+          ],
+          optionsMy: [
+            "Rubisco ကဲ့သို့ Enzyme များသည် အပူချိန်မြင့်မားသောအခါ Denature ဖြစ်သွားသောကြောင့်",
+            "Chlorophyll သည် အခြားအရောင် ပြောင်းလဲသွားသောကြောင့်",
+            "အပင် ရေ စုပ်ယူ၍ လုံးဝ မရနိုင်တော့သောကြောင့်",
+            "လေထုအတွင်း Carbon Dioxide လုံးဝ မရှိတော့သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The Calvin cycle depends on enzymes like rubisco -- once temperature rises past their optimum, their tertiary structure begins to break down and their active site no longer fits the substrate.",
+          ],
+          hintsMy: [
+            "Calvin Cycle သည် Rubisco ကဲ့သို့ Enzyme များကို မှီခိုသည် -- အပူချိန်သည် ၎င်းတို့၏ Optimum ကို ကျော်လွန်လာသောအခါ ၎င်းတို့၏ Tertiary Structure ပျက်စီးလာပြီး ၎င်းတို့၏ Active Site သည် Substrate နှင့် မကိုက်ညီတော့ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w8-d2",
+      dayNumber: 2,
+      titleEn: "Match: Limiting Factors Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Limiting Factor ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w8-dm-1",
+          termEn: "Light intensity",
+          termMy: "အလင်းအား",
+          matchEn: "A limiting factor for the light-dependent reactions; low light means slow photolysis and photophosphorylation",
+          matchMy: "Light-Dependent Reaction အတွက် Limiting Factor တစ်ခု; အလင်း နည်းပါးလျှင် Photolysis နှင့် Photophosphorylation ကို ပြေးဆွဲစေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w8-dm-2",
+          termEn: "Carbon dioxide concentration",
+          termMy: "Carbon Dioxide အာနှုန်း",
+          matchEn: "A limiting factor for the Calvin cycle; low CO2 means slow carbon fixation by rubisco",
+          matchMy: "Calvin Cycle အတွက် Limiting Factor တစ်ခု; CO2 နည်းပါးလျှင် Rubisco ၏ Carbon Fixation ကို ပြေးဆွဲစေသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w8-dm-3",
+          termEn: "Temperature",
+          termMy: "အပူချိန်",
+          matchEn: "A limiting factor affecting enzyme activity; too high denatures enzymes such as rubisco",
+          matchMy: "Enzyme လှုပ်ရှားမှုကို သက်ရောက်စေသော Limiting Factor တစ်ခု; မြင့်လွန်းလျှင် Rubisco ကဲ့သို့ Enzyme များကို Denature ဖြစ်စေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w8-dm-4",
+          termEn: "Limiting factor",
+          termMy: "Limiting Factor",
+          matchEn: "Whichever environmental factor, in shortest supply, sets the maximum possible rate of a process",
+          matchMy: "လုပ်ငန်းစဉ်တစ်ခု၏ အမြင့်ဆုံး ဖြစ်နိုင်သည့် နှုန်းကို သတ်မှတ်ပေးသော ပတ်ဝန်းကျင် Factor၊ အနည်းဆုံး ရရှိနိုင်သော Factor",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w8-dm-5",
+          termEn: "Compensation point",
+          termMy: "Compensation Point",
+          matchEn: "The light intensity at which the rate of photosynthesis exactly equals the rate of respiration",
+          matchMy: "Photosynthesis နှုန်းသည် Respiration နှုန်းနှင့် အတိအကျ ညီမျှသည့် အလင်းအား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w8-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Limits the Rate of Photosynthesis?",
+      titleMy: "စီစစ်ကြမည် - Photosynthesis နှုန်းကို မြှင့်တင်သလား ကန့်သတ်သလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Rate of Photosynthesis", "Limits Rate of Photosynthesis"],
+        bucketsMy: ["Photosynthesis နှုန်းကို မြှင့်တင်သည်", "Photosynthesis နှုန်းကို ကန့်သတ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13bio-w8-sort-1",
+            labelEn: "Raising light intensity when it was previously the limiting factor",
+            labelMy: "ယခင်က Limiting Factor ဖြစ်နေသော အလင်းအားကို တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases Rate of Photosynthesis",
+            correctBucketMy: "Photosynthesis နှုန်းကို မြှင့်တင်သည်",
+          ),
+          SortingItem(
+            id: "y13bio-w8-sort-2",
+            labelEn: "Adding extra carbon dioxide to a greenhouse where CO2 was scarce",
+            labelMy: "CO2 ရှားပါးနေသော Greenhouse တစ်ခုသို့ Carbon Dioxide ထပ်ဖြည့်ပေးခြင်း",
+            correctBucketEn: "Increases Rate of Photosynthesis",
+            correctBucketMy: "Photosynthesis နှုန်းကို မြှင့်တင်သည်",
+          ),
+          SortingItem(
+            id: "y13bio-w8-sort-3",
+            labelEn: "Raising temperature far above the plant's optimum, denaturing rubisco",
+            labelMy: "Rubisco ကို Denature ဖြစ်စေကာ အပင်၏ Optimum ထက် များစွာ ကျော်လွန်စွာ အပူချိန် တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Limits Rate of Photosynthesis",
+            correctBucketMy: "Photosynthesis နှုန်းကို ကန့်သတ်သည်",
+          ),
+          SortingItem(
+            id: "y13bio-w8-sort-4",
+            labelEn: "Deep shade cutting the amount of light reaching the leaf",
+            labelMy: "အရွက်သို့ ရောက်ရှိသော အလင်းပမာဏကို လျှော့ချသော အရိပ်ထူထပ်ခြင်း",
+            correctBucketEn: "Limits Rate of Photosynthesis",
+            correctBucketMy: "Photosynthesis နှုန်းကို ကန့်သတ်သည်",
+          ),
+          SortingItem(
+            id: "y13bio-w8-sort-5",
+            labelEn: "A very cold night reducing enzyme activity in the Calvin cycle",
+            labelMy: "Calvin Cycle ရှိ Enzyme လှုပ်ရှားမှုကို လျှော့ချသော အလွန်အေးမြသော ညအချိန်",
+            correctBucketEn: "Limits Rate of Photosynthesis",
+            correctBucketMy: "Photosynthesis နှုန်းကို ကန့်သတ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w8-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sayar Zaw Min's Greenhouse Experiment",
+      titleMy: "စာဖတ်ခြင်း - ဆရာဇော်မင်း၏ Greenhouse စမ်းသပ်ချက်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sayar Zaw Min's Greenhouse Experiment",
+        titleMy: "ဆရာဇော်မင်း၏ Greenhouse စမ်းသပ်ချက်",
+        passageEn:
+            "For the term's capstone practical, Sayar Zaw Min set up three identical pondweed samples under a lamp at increasing distances, so each sample received a different light intensity, and asked Htet Aung and Su Su to count the bubbles of oxygen released per minute as a rough measure of photosynthetic rate. As expected, the closest sample -- brightest light -- bubbled fastest, and the farthest sample -- dimmest light -- bubbled slowest, with the middle sample in between.\n\nThen he asked a harder question: what would happen if he kept moving the lamp closer and closer to the fastest-bubbling sample, indefinitely? Su Su predicted the rate would keep climbing without limit. Htet Aung disagreed, remembering last week's graphs: eventually the curve would level off into a plateau, because some other factor -- most likely the limited carbon dioxide dissolved in the pondweed's water, since the room had normal atmospheric CO2 levels -- would become limiting instead of light. To test this, Sayar Zaw Min added a small amount of sodium hydrogencarbonate solution to raise the dissolved CO2 concentration in the fastest-bubbling sample's water, and the bubble rate immediately increased again, even though the light intensity hadn't changed.\n\n\"That's exactly the law of limiting factors in action,\" Sayar Zaw Min confirmed. \"At low light intensity, light itself is the bottleneck, so raising it raises the rate. Once light is abundant enough, carbon dioxide becomes the new bottleneck instead, and no amount of extra light can push the rate any higher until you also raise the CO2 supply. In a real glasshouse, growers manage exactly this trade-off -- supplementing light, CO2 and heating together, in proportion, rather than maximising just one factor alone.\"",
+        passageMy:
+            "Term ၏ Capstone Practical အတွက် ဆရာဇော်မင်းသည် Pondweed နမူနာသုံးခုကို မီးဓာတ်အောက်တွင် အကွာအဝေးကွာခြားစွာ စီစဉ်ခဲ့ပြီး နမူနာတစ်ခုစီသည် ကွဲပြားသော အလင်းအား ရရှိစေခဲ့ကာ Photosynthetic Rate ၏ ခန့်မှန်း တိုင်းတာမှုတစ်ခုအနေဖြင့် တစ်မိနစ်လျှင် ထွက်ရှိသော Oxygen ဗူဖောင်း အရေအတွက်ကို ရေတွက်ရန် Htet Aung နှင့် Su Su ကို တောင်းဆိုခဲ့သည်။ မျှော်လင့်ထားသည့်အတိုင်း အနီးဆုံးနမူနာ -- အလင်းအရောင် ထွန်းလင်းဆုံး -- သည် အမြန်ဆုံး ဗူဖောင်းထလာပြီး အဝေးဆုံးနမူနာ -- အမှောင်ဆုံး -- သည် အနှေးဆုံး ဗူဖောင်းထလာကာ အလယ်နမူနာသည် ကြားဖြတ်တွင် ရှိသည်။\n\nထို့နောက် သူ ခက်ခဲသော မေးခွန်းတစ်ခု မေးခဲ့သည် - အမြန်ဆုံး ဗူဖောင်းထသော နမူနာသို့ မီးဓာတ်ကို ကန့်သတ်မှုမရှိဘဲ ဆက်လက် နီးကပ်စေပါက အဘယ်ဖြစ်လာမည်နည်း။ Su Su က နှုန်းသည် ကန့်သတ်မှုမရှိဘဲ ဆက်တိုးလာလိမ့်မည်ဟု ခန့်မှန်းခဲ့သည်။ Htet Aung က ယခင်အပတ်၏ Graph များကို သတိရကာ သဘောမတူခဲ့ပါ - နောက်ဆုံးတွင် Curve သည် Plateau အဖြစ် ညီမျှသွားလိမ့်မည်၊ အဘယ်ကြောင့်ဆိုသော် အခန်း၌ ပုံမှန် လေထု CO2 အဆင့်သာ ရှိသောကြောင့် အခြား Factor တစ်ခု -- အများဆုံးအားဖြင့် Pondweed ၏ ရေထဲ ပျော်ဝင်နေသော Carbon Dioxide ကန့်သတ်ခြင်း -- သည် အလင်းအစား Limiting ဖြစ်လာမည် ဖြစ်သောကြောင့်။ ၎င်းကို စမ်းသပ်ရန် ဆရာဇော်မင်းသည် အမြန်ဆုံး ဗူဖောင်းထသော နမူနာ၏ ရေထဲသို့ ပျော်ဝင်နေသော CO2 အာနှုန်း တိုးမြှင့်ရန် Sodium Hydrogencarbonate Solution အနည်းငယ် ထည့်ခဲ့ပြီး အလင်းအား မပြောင်းလဲသော်လည်း ဗူဖောင်းနှုန်း ချက်ချင်း ထပ်တိုးလာခဲ့သည်။\n\n\"ဒါက Law of Limiting Factors အလုပ်လုပ်နေတာ အတိအကျပါပဲ\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"အလင်းအား နည်းပါးသောအခါ အလင်းကိုယ်တိုင်သည် Bottleneck ဖြစ်သောကြောင့် ၎င်းကို တိုးမြှင့်ခြင်းက နှုန်းကို မြှင့်တင်ပေးသည်။ အလင်း လုံလောက်စွာ ရှိလာသောအခါ Carbon Dioxide သည် Bottleneck အသစ် ဖြစ်လာပြီး CO2 ပေးသွင်းမှုကို ထပ်မံ မတိုးမြှင့်မချင်း အလင်း မည်မျှများများ ထပ်ပေးသော်လည်း နှုန်းကို ပိုမို မတွန်းတင်နိုင်ပါ။ အစစ်အမှန် Glasshouse တစ်ခုတွင် စိုက်ပျိုးသူများသည် ဤ Trade-off ကို အတိအကျ စီမံခန့်ခွဲကြသည် -- Factor တစ်ခုတည်းကို အများဆုံး တိုးမြှင့်မည့်အစား အလင်း, CO2 နှင့် အပူပေးမှုကို အချိုးကျ ပေါင်းစပ် ထပ်ဆောင်းပေးကြသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what did Htet Aung and Su Su measure as a rough indicator of photosynthetic rate?",
+            questionMy:
+                "Photosynthetic Rate ၏ ခန့်မှန်း တိုင်းတာမှုတစ်ခုအနေဖြင့် Htet Aung နှင့် Su Su တို့ မည်သည်ကို တိုင်းတာသည်ကို ပထမစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The number of oxygen bubbles released per minute",
+              "The number of leaves that changed colour",
+              "The weight of the pondweed sample",
+              "The temperature of the water",
+            ],
+            optionsMy: [
+              "တစ်မိနစ်လျှင် ထွက်ရှိသော Oxygen ဗူဖောင်း အရေအတွက်",
+              "အရောင် ပြောင်းလဲသွားသော အရွက် အရေအတွက်",
+              "Pondweed နမူနာ၏ အလေးချိန်",
+              "ရေ၏ အပူချိန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's prediction, why would the bubble rate eventually level off as light intensity kept increasing?",
+            questionMy:
+                "အလင်းအား ဆက်တိုးနေချိန် ဗူဖောင်းနှုန်း နောက်ဆုံးတွင် ညီမျှသွားရမည့်အကြောင်းရင်းကို Htet Aung ၏ ခန့်မှန်းချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Some other factor, such as carbon dioxide, would become limiting instead",
+              "The pondweed would run out of chlorophyll completely",
+              "The lamp would eventually burn out",
+              "Photosynthesis would stop entirely at high light intensity",
+            ],
+            optionsMy: [
+              "Carbon Dioxide ကဲ့သို့ အခြား Factor တစ်ခု Limiting ဖြစ်လာမည်ဖြစ်သောကြောင့်",
+              "Pondweed တွင် Chlorophyll လုံးဝ ကုန်ဆုံးသွားမည်ဖြစ်သောကြောင့်",
+              "မီးဓာတ်သည် နောက်ဆုံးတွင် လောင်ကျွမ်းကုန်မည်ဖြစ်သောကြောင့်",
+              "အလင်းအား မြင့်မားသောအခါ Photosynthesis လုံးဝ ရပ်တန့်သွားမည်ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the second paragraph, what did adding sodium hydrogencarbonate solution do to the bubble rate?",
+            questionMy:
+                "Sodium Hydrogencarbonate Solution ထည့်ခြင်းသည် ဗူဖောင်းနှုန်းကို မည်သို့ သက်ရောက်စေသည်ကို ဒုတိယစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It increased the bubble rate immediately",
+              "It stopped photosynthesis completely",
+              "It had no effect whatsoever",
+              "It decreased the bubble rate sharply",
+            ],
+            optionsMy: [
+              "ဗူဖောင်းနှုန်းကို ချက်ချင်း တိုးမြှင့်ပေးခဲ့သည်",
+              "Photosynthesis ကို လုံးဝ ရပ်တန့်စေခဲ့သည်",
+              "မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+              "ဗူဖောင်းနှုန်းကို ပြင်းထန်စွာ လျှော့ချခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w8-d5",
+      dayNumber: 5,
+      titleEn: "Week 8 Recap: Limiting Factors",
+      titleMy: "အဌမပတ် ပြန်လည်သုံးသပ်ခြင်း - Limiting Factor များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The rate of photosynthesis is limited by...",
+          questionMy: "Photosynthesis နှုန်းကို ...ဖြင့် ကန့်သတ်သည်",
+          optionsEn: [
+            "Whichever factor is in shortest supply",
+            "Light intensity alone, always",
+            "The plant's height",
+            "The colour of the flowers",
+          ],
+          optionsMy: [
+            "အနည်းဆုံး ရရှိနိုင်သော Factor",
+            "အလင်းအားတစ်ခုတည်း၊ အမြဲတမ်း",
+            "အပင်၏ အမြင့်",
+            "ပန်း၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Above the optimum temperature, photosynthesis rate falls because...",
+          questionMy: "Optimum အပူချိန်ထက် ကျော်လွန်ပါက Photosynthesis နှုန်း ကျဆင်းရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Enzymes such as rubisco denature",
+            "Chlorophyll multiplies rapidly",
+            "Water becomes more available",
+            "Carbon dioxide increases sharply",
+          ],
+          optionsMy: [
+            "Rubisco ကဲ့သို့ Enzyme များ Denature ဖြစ်သွားသောကြောင့်",
+            "Chlorophyll အလျင်အမြန် တိုးများသောကြောင့်",
+            "ရေ ပိုမို ရရှိလာသောကြောင့်",
+            "Carbon Dioxide ပြင်းထန်စွာ တိုးလာသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Raising carbon dioxide concentration in a greenhouse where CO2 was scarce would...",
+          questionMy: "CO2 ရှားပါးနေသော Greenhouse တစ်ခုတွင် Carbon Dioxide အာနှုန်း တိုးမြှင့်ခြင်းက...",
+          optionsEn: [
+            "Increase the rate of photosynthesis",
+            "Decrease the rate of photosynthesis",
+            "Have no effect on photosynthesis at all",
+            "Stop respiration completely",
+          ],
+          optionsMy: [
+            "Photosynthesis နှုန်းကို တိုးမြှင့်ပေးလိမ့်မည်",
+            "Photosynthesis နှုန်းကို လျှော့ချလိမ့်မည်",
+            "Photosynthesis အပေါ် မည်သည့် သက်ရောက်မှုမျှ မရှိပါ",
+            "Respiration ကို လုံးဝ ရပ်တန့်စေလိမ့်မည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm2 = CourseTermDef(
+  id: "course-y13-bio-t2",
+  termNumber: 2,
+  titleEn: "Photosynthesis",
+  titleMy: "Photosynthesis",
+  weeks: [_y13BioWeek5, _y13BioWeek6, _y13BioWeek7, _y13BioWeek8],
+  certificateTitleEn: "A2 Biology: Photosynthesis",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Photosynthesis",
+);
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 3: "Homeostasis"
+// (Weeks 9-12)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 9: "Negative Feedback and the Kidney I"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek9 = CourseWeekDef(
+  id: "course-y13-bio-w9",
+  weekNumber: 9,
+  titleEn: "Negative Feedback and the Kidney I",
+  titleMy: "Negative Feedback နှင့် ကျောက်ကပ် I",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w9-d1",
+      dayNumber: 1,
+      titleEn: "Negative Feedback, the Nephron and Ultrafiltration",
+      titleMy: "Negative Feedback, Nephron နှင့် Ultrafiltration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Negative feedback is a control mechanism in which...",
+          questionMy: "Negative Feedback သည် ...ဖြစ်သော ထိန်းချုပ်မှု နည်းလမ်းတစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "A deviation from the set point triggers a response that reverses the change, restoring the norm",
+            "A deviation from the set point triggers a response that increases the change further",
+            "The body ignores any deviation from the set point entirely",
+            "Only hormones are involved, with no nervous input at all",
+          ],
+          optionsMy: [
+            "Set Point မှ ခြားနားမှုသည် ထိုပြောင်းလဲမှုကို ပြန်လှန်ပေးသော တုံ့ပြန်မှုကို လှုံ့ဆော်ကာ ပုံမှန်အခြေအနေကို ပြန်လည် ရရှိစေခြင်း",
+            "Set Point မှ ခြားနားမှုသည် ထိုပြောင်းလဲမှုကို ပိုမို တိုးများစေသော တုံ့ပြန်မှုကို လှုံ့ဆော်ခြင်း",
+            "ခန္ဓာကိုယ်သည် Set Point မှ ခြားနားမှု မည်သည်ကိုမျှ လုံးဝ လျစ်လျူရှုခြင်း",
+            "Nervous Input လုံးဝ မပါဘဲ Hormone များသာ ပါဝင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Negative\" here means the response opposes (cancels out) the original change -- this is exactly opposite to positive feedback, where a change is amplified further.",
+          ],
+          hintsMy: [
+            "ဤနေရာတွင် \"Negative\" ဆိုသည်မှာ တုံ့ပြန်မှုသည် မူလ ပြောင်းလဲမှုကို ဆန့်ကျင် (ပယ်ဖျက်) ပေးခြင်း ဖြစ်သည် -- Positive Feedback တွင် ပြောင်းလဲမှုကို ပို၍ တိုးမြှင့်စေခြင်းနှင့် လုံးဝ ဆန့်ကျင်ဘက် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ultrafiltration in the kidney occurs at the glomerulus and Bowman's capsule, where high blood pressure forces...",
+          questionMy:
+              "ကျောက်ကပ်တွင် Ultrafiltration သည် Glomerulus နှင့် Bowman's Capsule တွင် ဖြစ်ပွားပြီး သွေးဖိအား မြင့်မားခြင်းက ...ကို တွန်းအားပေးသည်",
+          optionsEn: [
+            "Small molecules such as water, glucose, amino acids and urea out of the blood and into the nephron",
+            "Only red blood cells out of the blood",
+            "Large plasma proteins out of the blood",
+            "Urea back into the blood from the nephron",
+          ],
+          optionsMy: [
+            "ရေ, Glucose, Amino Acid နှင့် Urea ကဲ့သို့ မော်လီကျူးငယ်များကို သွေးမှ Nephron ထဲသို့",
+            "သွေးနီဥများကိုသာ သွေးမှ",
+            "Plasma Protein ကြီးများကို သွေးမှ",
+            "Urea ကို Nephron မှ သွေးထဲသို့ ပြန်လည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Large molecules such as plasma proteins and blood cells are too big to pass through the filtration membrane, so they stay in the blood -- this is why the filtrate leaving Bowman's capsule contains no proteins or cells at all.",
+          ],
+          hintsMy: [
+            "Plasma Protein နှင့် သွေးဆဲလ်များကဲ့သို့ မော်လီကျူးကြီးများသည် Filtration Membrane ကို ဖြတ်သန်းရန် ကြီးလွန်းသောကြောင့် သွေးထဲတွင် ဆက်ကျန်ရှိနေသည် -- ထို့ကြောင့် Bowman's Capsule မှ ထွက်လာသော Filtrate တွင် Protein (သို့) ဆဲလ် လုံးဝ မပါဝင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Selective reabsorption in the proximal convoluted tubule actively reabsorbs useful substances such as...",
+          questionMy:
+              "Proximal Convoluted Tubule ရှိ Selective Reabsorption သည် ...ကဲ့သို့ အသုံးဝင်သော ပစ္စည်းများကို Active Reabsorb ပြုလုပ်ပေးသည်",
+          optionsEn: [
+            "Glucose and amino acids, along with some water",
+            "Urea and excess water only",
+            "Red blood cells",
+            "Plasma proteins",
+          ],
+          optionsMy: [
+            "ရေအနည်းငယ်နှင့်အတူ Glucose နှင့် Amino Acid",
+            "Urea နှင့် ရေပိုသာ",
+            "သွေးနီဥများ",
+            "Plasma Protein များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Glucose and amino acids are reabsorbed by active transport (often co-transported with sodium ions), which is exactly why healthy urine normally contains no glucose at all.",
+          ],
+          hintsMy: [
+            "Glucose နှင့် Amino Acid များကို Active Transport ဖြင့် Reabsorb ပြုလုပ်သည် (မကြာခဏ Sodium Ion များနှင့် Co-transport ပြုလုပ်သည်) -- ထို့ကြောင့်ပင် ကျန်းမာသော ဆီးတွင် Glucose လုံးဝ မပါဝင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w9-d2",
+      dayNumber: 2,
+      titleEn: "Match: Kidney and Nephron Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - ကျောက်ကပ်နှင့် Nephron ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w9-dm-1",
+          termEn: "Negative feedback",
+          termMy: "Negative Feedback",
+          matchEn: "A deviation from the set point triggers a response that reverses the change",
+          matchMy: "Set Point မှ ခြားနားမှုသည် ထိုပြောင်းလဲမှုကို ပြန်လှန်ပေးသော တုံ့ပြန်မှုကို လှုံ့ဆော်ခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w9-dm-2",
+          termEn: "Nephron",
+          termMy: "Nephron",
+          matchEn: "The functional unit of the kidney, responsible for filtering blood and forming urine",
+          matchMy: "သွေးကို စစ်ထုတ်ပြီး ဆီးဖွဲ့စည်းရန် တာဝန်ရှိသော ကျောက်ကပ်၏ Functional Unit",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w9-dm-3",
+          termEn: "Glomerulus",
+          termMy: "Glomerulus",
+          matchEn: "A knot of capillaries where high pressure forces small molecules out of the blood",
+          matchMy: "သွေးဖိအား မြင့်မားစွာက မော်လီကျူးငယ်များကို သွေးမှ တွန်းထုတ်ပေးသော Capillary အစု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w9-dm-4",
+          termEn: "Ultrafiltration",
+          termMy: "Ultrafiltration",
+          matchEn: "Forcing small molecules out of the blood into the nephron under high pressure",
+          matchMy: "သွေးဖိအား မြင့်မားစွာဖြင့် မော်လီကျူးငယ်များကို သွေးမှ Nephron ထဲသို့ တွန်းထုတ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w9-dm-5",
+          termEn: "Selective reabsorption",
+          termMy: "Selective Reabsorption",
+          matchEn: "Actively reabsorbing useful substances such as glucose and amino acids back into the blood",
+          matchMy: "Glucose နှင့် Amino Acid ကဲ့သို့ အသုံးဝင်သော ပစ္စည်းများကို သွေးထဲသို့ ပြန်လည် Active Reabsorb ပြုလုပ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w9-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Ultrafiltration or Selective Reabsorption?",
+      titleMy: "စီစစ်ကြမည် - Ultrafiltration သို့မဟုတ် Selective Reabsorption?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Ultrafiltration", "Selective Reabsorption"],
+        bucketsMy: ["Ultrafiltration", "Selective Reabsorption"],
+        items: [
+          SortingItem(
+            id: "y13bio-w9-sort-1",
+            labelEn: "Occurs at the glomerulus and Bowman's capsule",
+            labelMy: "Glomerulus နှင့် Bowman's Capsule တွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Ultrafiltration",
+            correctBucketMy: "Ultrafiltration",
+          ),
+          SortingItem(
+            id: "y13bio-w9-sort-2",
+            labelEn: "Driven by high hydrostatic pressure in the capillaries",
+            labelMy: "Capillary များ၏ Hydrostatic ဖိအား မြင့်မားခြင်းက တွန်းအားပေးသည်",
+            correctBucketEn: "Ultrafiltration",
+            correctBucketMy: "Ultrafiltration",
+          ),
+          SortingItem(
+            id: "y13bio-w9-sort-3",
+            labelEn: "Occurs mainly in the proximal convoluted tubule",
+            labelMy: "အဓိကအားဖြင့် Proximal Convoluted Tubule တွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Selective Reabsorption",
+            correctBucketMy: "Selective Reabsorption",
+          ),
+          SortingItem(
+            id: "y13bio-w9-sort-4",
+            labelEn: "Actively transports glucose back into the blood",
+            labelMy: "Glucose ကို သွေးထဲသို့ Active Transport ပြန်လည် ပို့ဆောင်သည်",
+            correctBucketEn: "Selective Reabsorption",
+            correctBucketMy: "Selective Reabsorption",
+          ),
+          SortingItem(
+            id: "y13bio-w9-sort-5",
+            labelEn: "Plasma proteins and blood cells are too large to pass through and remain in the blood",
+            labelMy: "Plasma Protein နှင့် သွေးဆဲလ်များသည် ဖြတ်သန်းရန် ကြီးလွန်းသောကြောင့် သွေးထဲတွင် ဆက်ကျန်ရှိနေသည်",
+            correctBucketEn: "Ultrafiltration",
+            correctBucketMy: "Ultrafiltration",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w9-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Coffee Filter for the Blood",
+      titleMy: "စာဖတ်ခြင်း - သွေးအတွက် ကော်ဖီစစ်ကရင်တစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Coffee Filter for the Blood",
+        titleMy: "သွေးအတွက် ကော်ဖီစစ်ကရင်တစ်ခု",
+        passageEn:
+            "Su Su opened Term 3 by asking Sayar Zaw Min why the whole body needs a system called homeostasis at all, if cells can already regulate their own internal chemistry. He answered with an analogy: think of the body as a large factory with billions of tiny workshops (cells), all sharing the same water supply and delivery network (blood). If that shared supply drifts too far from ideal -- too concentrated, too dilute, too much or too little glucose -- every workshop suffers at once. Negative feedback is simply the factory's thermostat: whenever a shared condition drifts from its set point, a control system detects the deviation and triggers a response that pushes it back.\n\nHtet Aung asked how the kidney fits into that picture. Sayar Zaw Min compared the glomerulus and Bowman's capsule to a coffee filter under pressure: blood arrives at high pressure through a narrow arteriole, and that pressure alone forces water, glucose, amino acids, ions and urea through the filtration membrane and into the nephron, while leaving the large plasma proteins and blood cells behind in the blood, simply because they are too big to pass through the pores. \"Nothing here is selective yet,\" he said. \"It's pure physical filtration, driven by pressure -- glucose and other useful molecules get filtered out along with the waste, exactly as readily as urea does.\"\n\n\"So how does glucose get back?\" Su Su asked. \"That's tomorrow's answer, in outline today,\" Sayar Zaw Min said. \"As the filtrate flows on into the proximal convoluted tubule, cells lining that tubule actively transport glucose and amino acids back into the blood, alongside some water following by osmosis -- selective reabsorption, correcting the crude filter's one obvious flaw. Between ultrafiltration's brute-force sieving and selective reabsorption's careful sorting, the kidney turns filtered blood plasma into something much closer to what the body actually needs to keep.\"",
+        passageMy:
+            "ဆဲလ်များသည် ၎င်းတို့၏ ရင်းနှီးသော Internal Chemistry ကို ပြင်ဆင် ထိန်းချုပ်နိုင်ပြီးသားဆိုလျှင် ခန္ဓာကိုယ်တစ်ခုလုံး Homeostasis ဟု ခေါ်သော စနစ်တစ်ခု အဘယ်ကြောင့် လိုအပ်သေးသည့်အကြောင်းရင်းကို Su Su က Term 3 ကို ဆရာဇော်မင်းအား မေးခြင်းဖြင့် စတင်ခဲ့သည်။ သူ နှိုင်းယှဉ်ချက်ဖြင့် ဖြေခဲ့သည် - ခန္ဓာကိုယ်ကို Workshop သန်းပေါင်းများစွာ (ဆဲလ်များ) ပါဝင်ပြီး တူညီသော ရေထောက်ပံ့ရေးနှင့် ပို့ဆောင်ရေး Network (သွေး) ကို မျှဝေထားသော စက်ရုံကြီးတစ်ခုဟု စဉ်းစားကြည့်ပါ။ ထို မျှဝေထားသော ထောက်ပံ့မှုသည် Ideal မှ ကျော်လွန်စွာ ထွက်သွားပါက -- ပြင်းအားလွန်းခြင်း, ခွဲခန့်လွန်းခြင်း, Glucose များလွန်း (သို့) နည်းလွန်းခြင်း -- Workshop တိုင်း တစ်ပြိုင်နက် ခံစားရလိမ့်မည်။ Negative Feedback သည် စက်ရုံ၏ Thermostat ရိုးရှင်းစွာ ဖြစ်သည် - မျှဝေထားသော အခြေအနေတစ်ခု ၎င်း၏ Set Point မှ ထွက်သွားတိုင်း Control System က ခြားနားမှုကို ဖော်ထုတ်ပြီး ၎င်းကို ပြန်လည်တွန်းသွင်းသော တုံ့ပြန်မှုကို လှုံ့ဆော်သည်။\n\nကျောက်ကပ်သည် ထိုပုံရိပ်ထဲသို့ မည်သို့ ကိုက်ညီသည်ကို Htet Aung မေးခဲ့သည်။ ဆရာဇော်မင်းက Glomerulus နှင့် Bowman's Capsule ကို ဖိအားအောက်ရှိ ကော်ဖီစစ်ကရင်တစ်ခုနှင့် နှိုင်းယှဉ်ခဲ့သည် - သွေးသည် ကျဉ်းမြောင်းသော Arteriole မှတဆင့် ဖိအားမြင့်မားစွာ ရောက်ရှိလာပြီး ထို ဖိအားတစ်ခုတည်းက ရေ, Glucose, Amino Acid, Ion နှင့် Urea ကို Filtration Membrane ဖြတ်ကာ Nephron ထဲသို့ တွန်းသွင်းသည်၊ Plasma Protein ကြီးများနှင့် သွေးဆဲလ်များမှာမူ Pore များကို ဖြတ်သန်းရန် ကြီးလွန်းသောကြောင့် သွေးထဲတွင် ကျန်ရစ်ခဲ့ရသည်။ \"ဤနေရာတွင် မည်သည့်အရာမျှ Selective မဖြစ်သေးပါ\" ဟု သူ ဆိုခဲ့သည်။ \"ဖိအားက တွန်းအားပေးသော Physical Filtration အစစ်အမှန်သာ ဖြစ်သည် -- Glucose နှင့် အသုံးဝင်သော မော်လီကျူးအခြားများသည် Urea ကဲ့သို့ပင် လွယ်ကူစွာ စွန့်ပစ်ပစ္စည်းနှင့်အတူ Filter ခံရသည်။\"\n\n\"ဒါဆို Glucose ကို ဘယ်လို ပြန်ရနိုင်မလဲ\" ဟု Su Su က မေးခဲ့သည်။ \"ဒါက မနက်ဖြန်ရဲ့ အဖြေပါပဲ၊ ဒီနေ့တော့ အကျဉ်းချုပ်ပါ\" ဟု ဆရာဇော်မင်း ပြောခဲ့သည်။ \"Filtrate သည် Proximal Convoluted Tubule ထဲသို့ စီးဆက်သွားစဉ် ထို Tubule ကို ဖုံးအုပ်ထားသော ဆဲလ်များသည် Glucose နှင့် Amino Acid ကို သွေးထဲသို့ Active Transport ပြန်လည် ပို့ဆောင်ပေးသည်၊ Osmosis ဖြင့် လိုက်ပါလာသော ရေအနည်းငယ်နှင့်အတူ -- Selective Reabsorption ဖြင့် ရိုင်းစိုင်းသော Filter ၏ အထင်ရှားဆုံး အားနည်းချက်ကို ပြုပြင်ပေးသည်။ Ultrafiltration ၏ Brute-Force Sieving နှင့် Selective Reabsorption ၏ ဂရုတစိုက် စီစစ်ခြင်းအကြား ကျောက်ကပ်သည် Filter ခံရသော သွေးပလာစမာကို ခန္ဓာကိုယ် ကိုယ်တိုင် ထိန်းသိမ်းလိုသော အရာနှင့် များစွာ ပိုနီးစပ်သော အရာအဖြစ် ပြောင်းလဲပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's factory analogy, what role does negative feedback play?",
+            questionMy:
+                "ဆရာဇော်မင်း ၏ စက်ရုံ နှိုင်းယှဉ်ချက်အရ Negative Feedback ၏ အခန်းကဏ္ဍကို ဖော်ပြပါ။",
+            optionsEn: [
+              "It acts like a thermostat, detecting deviation and triggering a corrective response",
+              "It amplifies any deviation further and further",
+              "It permanently shuts down the affected workshop",
+              "It has no role in the body at all",
+            ],
+            optionsMy: [
+              "Thermostat တစ်ခုကဲ့သို့ လုပ်ဆောင်ပြီး ခြားနားမှုကို ဖော်ထုတ်ကာ ပြုပြင်ပေးသော တုံ့ပြန်မှုကို လှုံ့ဆော်သည်",
+              "ခြားနားမှု မည်သည့်အရာမဆို ဆက်တိုက် ချဲ့ထွင်ပေးသည်",
+              "ထိခိုက်ခံရသော Workshop ကို အမြဲတမ်း ပိတ်သိမ်းပစ်သည်",
+              "ခန္ဓာကိုယ်တွင် မည်သည့် အခန်းကဏ္ဍမျှ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's coffee filter analogy, why do plasma proteins stay in the blood during ultrafiltration?",
+            questionMy:
+                "Ultrafiltration အတွင်း Plasma Protein များ သွေးထဲတွင် ဆက်ကျန်ရှိနေရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ ကော်ဖီစစ်ကရင် နှိုင်းယှဉ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They are too big to pass through the pores of the filtration membrane",
+              "They are actively pumped back into the blood",
+              "They dissolve completely before filtration begins",
+              "They are attracted magnetically to red blood cells",
+            ],
+            optionsMy: [
+              "Filtration Membrane ၏ Pore များကို ဖြတ်သန်းရန် ကြီးလွန်းသောကြောင့်",
+              "သွေးထဲသို့ Active Pump ပြန်လည် ပို့ဆောင်ခံရသောကြောင့်",
+              "Filtration မစတင်မီ လုံးဝ ပျော်ဝင်သွားသောကြောင့်",
+              "သွေးနီဥများနှင့် သံလိုက်ဆွဲငင်မှု ခံရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, how does glucose filtered out of the blood get back into it?",
+            questionMy:
+                "သွေးမှ Filter ခံခဲ့ရသော Glucose သည် သွေးထဲသို့ မည်သို့ ပြန်လည် ရောက်ရှိသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By selective reabsorption in the proximal convoluted tubule",
+              "By ultrafiltration alone",
+              "It never returns to the blood at all",
+              "By evaporation from the skin",
+            ],
+            optionsMy: [
+              "Proximal Convoluted Tubule ရှိ Selective Reabsorption ဖြင့်",
+              "Ultrafiltration တစ်ခုတည်းဖြင့်",
+              "သွေးထဲသို့ လုံးဝ ပြန်မလာပါ",
+              "အရေပြားမှ အငွေ့ပျံခြင်းဖြင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w9-d5",
+      dayNumber: 5,
+      titleEn: "Week 9 Recap: Negative Feedback and the Kidney",
+      titleMy: "နဝမပတ် ပြန်လည်သုံးသပ်ခြင်း - Negative Feedback နှင့် ကျောက်ကပ်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Negative feedback responds to a deviation from the set point by...",
+          questionMy: "Negative Feedback သည် Set Point မှ ခြားနားမှုကို ...ဖြင့် တုံ့ပြန်သည်",
+          optionsEn: [
+            "Reversing the change to restore the norm",
+            "Amplifying the change further",
+            "Ignoring the change completely",
+            "Shutting down the whole organ",
+          ],
+          optionsMy: [
+            "ပုံမှန်အခြေအနေ ပြန်ရရှိရန် ပြောင်းလဲမှုကို ပြန်လှန်ခြင်း",
+            "ပြောင်းလဲမှုကို ပို၍ ချဲ့ထွင်ခြင်း",
+            "ပြောင်းလဲမှုကို လုံးဝ လျစ်လျူရှုခြင်း",
+            "Organ တစ်ခုလုံးကို ပိတ်သိမ်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ultrafiltration takes place at the...",
+          questionMy: "Ultrafiltration သည် ...တွင် ဖြစ်ပွားသည်",
+          optionsEn: [
+            "Glomerulus and Bowman's capsule",
+            "Loop of Henle only",
+            "Collecting duct only",
+            "Liver",
+          ],
+          optionsMy: ["Glomerulus နှင့် Bowman's Capsule", "Loop of Henle သာ", "Collecting Duct သာ", "အသည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Glucose is normally reabsorbed back into the blood by...",
+          questionMy: "Glucose ကို ပုံမှန်အားဖြင့် သွေးထဲသို့ ...ဖြင့် ပြန်လည် Reabsorb ပြုလုပ်သည်",
+          optionsEn: [
+            "Selective reabsorption in the proximal convoluted tubule",
+            "Ultrafiltration alone",
+            "The liver's ornithine cycle",
+            "Photosynthesis",
+          ],
+          optionsMy: [
+            "Proximal Convoluted Tubule ရှိ Selective Reabsorption",
+            "Ultrafiltration တစ်ခုတည်း",
+            "အသည်း၏ Ornithine Cycle",
+            "Photosynthesis",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 10: "The Kidney II: ADH and Water Reabsorption"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek10 = CourseWeekDef(
+  id: "course-y13-bio-w10",
+  weekNumber: 10,
+  titleEn: "The Kidney II: ADH and Water Reabsorption",
+  titleMy: "ကျောက်ကပ် II - ADH နှင့် ရေ ပြန်လည် Reabsorption",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w10-d1",
+      dayNumber: 1,
+      titleEn: "Osmoreceptors, ADH and the Collecting Duct",
+      titleMy: "Osmoreceptor, ADH နှင့် Collecting Duct",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Osmoreceptors in the hypothalamus detect a fall in the water potential of the blood, meaning...",
+          questionMy:
+              "Hypothalamus ရှိ Osmoreceptor များသည် သွေး၏ Water Potential ကျဆင်းခြင်းကို ရှာဖွေတွေ့ရှိသည်၊ ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "The blood has become more concentrated, e.g. after sweating heavily or not drinking enough water",
+            "The blood has become more dilute than normal",
+            "The blood glucose concentration has risen sharply",
+            "The blood has stopped circulating entirely",
+          ],
+          optionsMy: [
+            "ချွေးများစွာ ထွက်ပြီးနောက် (သို့) ရေ လုံလောက်စွာ မသောက်ခဲ့သောကြောင့် သွေးသည် ပို၍ ပြင်းအားပြင်းလာသည်",
+            "သွေးသည် ပုံမှန်ထက် ပို၍ ခွဲခန့်လာသည်",
+            "သွေး Glucose အာနှုန်း ပြင်းထန်စွာ မြင့်တက်လာသည်",
+            "သွေး လုံးဝ လည်ပတ်ခြင်း ရပ်တန့်သွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Lower water potential means the blood is more concentrated (less water relative to solutes) -- osmoreceptors shrink slightly by osmosis when this happens, triggering the response.",
+          ],
+          hintsMy: [
+            "Water Potential ကျဆင်းခြင်း ဆိုသည်မှာ သွေးသည် ပို၍ ပြင်းအားပြင်းလာခြင်း ဖြစ်သည် (Solute နှင့် နှိုင်းယှဉ်ပါက ရေ နည်းလာခြင်း) -- ၎င်းဖြစ်ပေါ်သောအခါ Osmoreceptor များသည် Osmosis ဖြင့် အနည်းငယ် ကျုံ့သွားပြီး တုံ့ပြန်မှုကို လှုံ့ဆော်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When water potential falls, the posterior pituitary gland releases more ADH (antidiuretic hormone), which travels in the blood to the...",
+          questionMy:
+              "Water Potential ကျဆင်းသောအခါ Posterior Pituitary Gland သည် ADH (Antidiuretic Hormone) ပိုမို ထုတ်လွှတ်ပြီး သွေးထဲမှတဆင့် ...သို့ ရောက်ရှိသည်",
+          optionsEn: [
+            "Collecting duct, where it increases the permeability of the cell membranes to water",
+            "Glomerulus, where it increases blood pressure",
+            "Liver, where it triggers deamination",
+            "Pancreas, where it triggers insulin release",
+          ],
+          optionsMy: [
+            "Collecting Duct, ဆဲလ်မှန်ပြန်ကားများ၏ ရေအတွက် Permeability ကို တိုးမြှင့်ပေးသည်",
+            "Glomerulus, သွေးဖိအားကို တိုးမြှင့်ပေးသည်",
+            "အသည်း, Deamination ကို လှုံ့ဆော်ပေးသည်",
+            "အဆီးချိုအိတ်, Insulin ထုတ်လွှတ်မှုကို လှုံ့ဆော်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ADH causes more aquaporins (water channel proteins) to be inserted into the collecting duct's cell membranes, so more water is reabsorbed by osmosis, producing a smaller volume of more concentrated urine.",
+          ],
+          hintsMy: [
+            "ADH သည် Collecting Duct ၏ ဆဲလ်မှန်ပြန်ကားများထဲသို့ Aquaporin (ရေ Channel Protein) ပိုမို ထည့်သွင်းစေသောကြောင့် Osmosis ဖြင့် ရေ ပိုမို Reabsorb ဖြစ်ကာ ပမာဏနည်းသော ဆီးပြင်းအားပြင်း ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If a person drinks a large volume of water, blood water potential rises, and the body responds by...",
+          questionMy:
+              "လူတစ်ဦးသည် ရေအများကြီး သောက်လိုက်ပါက သွေး Water Potential မြင့်တက်လာပြီး ခန္ဓာကိုယ်က ...ဖြင့် တုံ့ပြန်သည်",
+          optionsEn: [
+            "Releasing less ADH, so less water is reabsorbed and more dilute urine is produced",
+            "Releasing more ADH, so more water is reabsorbed",
+            "Releasing more insulin instead",
+            "Stopping ultrafiltration completely",
+          ],
+          optionsMy: [
+            "ADH နည်းနည်းသာ ထုတ်လွှတ်ကာ ရေ Reabsorb နည်းလာပြီး ဆီးခွဲခန့်ချက်များစွာ ထုတ်လုပ်ပေးသည်",
+            "ADH ပိုများစွာ ထုတ်လွှတ်ကာ ရေ Reabsorb ပိုများသည်",
+            "Insulin ပိုများစွာ ထုတ်လွှတ်ပါသည်",
+            "Ultrafiltration ကို လုံးဝ ရပ်တန့်ပါသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a textbook negative feedback loop: the deviation (higher water potential) triggers a response (less ADH) that reverses the change, bringing water potential back toward its set point.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Textbook Negative Feedback Loop တစ်ခု ဖြစ်သည် - ခြားနားမှု (Water Potential မြင့်တက်ခြင်း) သည် ထို ပြောင်းလဲမှုကို ပြန်လှန်ပေးသော တုံ့ပြန်မှု (ADH နည်းနည်းသာ) ကို လှုံ့ဆော်ကာ Water Potential ကို ၎င်း၏ Set Point ဆီသို့ ပြန်လည် ခေါ်ဆောင်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w10-d2",
+      dayNumber: 2,
+      titleEn: "Match: Osmoregulation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Osmoregulation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w10-dm-1",
+          termEn: "Osmoreceptor",
+          termMy: "Osmoreceptor",
+          matchEn: "A cell in the hypothalamus that detects changes in the water potential of the blood",
+          matchMy: "သွေး၏ Water Potential ပြောင်းလဲမှုကို ရှာဖွေတွေ့ရှိသော Hypothalamus ရှိ ဆဲလ်တစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w10-dm-2",
+          termEn: "ADH (antidiuretic hormone)",
+          termMy: "ADH (Antidiuretic Hormone)",
+          matchEn: "A hormone released by the posterior pituitary that increases water reabsorption in the collecting duct",
+          matchMy: "Collecting Duct ရှိ ရေ Reabsorption ကို တိုးမြှင့်ပေးသော Posterior Pituitary မှ ထုတ်လွှတ်သော Hormone",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w10-dm-3",
+          termEn: "Aquaporin",
+          termMy: "Aquaporin",
+          matchEn: "A water channel protein inserted into cell membranes to allow more water reabsorption",
+          matchMy: "ရေ Reabsorption ပိုမိုခွင့်ပြုရန် ဆဲလ်မှန်ပြန်ကားထဲသို့ ထည့်သွင်းသော ရေ Channel Protein",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w10-dm-4",
+          termEn: "Collecting duct",
+          termMy: "Collecting Duct",
+          matchEn: "The final part of the nephron where ADH controls how much water is reabsorbed",
+          matchMy: "ADH က ရေ မည်မျှ Reabsorb ပြုလုပ်သည်ကို ထိန်းချုပ်ပေးသော Nephron ၏ နောက်ဆုံးအပိုင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w10-dm-5",
+          termEn: "Loop of Henle",
+          termMy: "Loop of Henle",
+          matchEn: "The part of the nephron that builds a concentration gradient in the medulla for water to later follow",
+          matchMy: "နောက်ပိုင်း ရေ ဆက်လိုက်ရန် Medulla အတွင်း အာနှုန်း Gradient တည်ဆောက်ပေးသော Nephron အပိုင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w10-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Low or High Blood Water Potential?",
+      titleMy: "စီစစ်ကြမည် - သွေး Water Potential နိမ့်သလား မြင့်သလား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Low Blood Water Potential (Dehydrated)",
+          "High Blood Water Potential (Overhydrated)",
+        ],
+        bucketsMy: [
+          "သွေး Water Potential နိမ့်ခြင်း (ရေဓာတ်ခန်းခြောက်ခြင်း)",
+          "သွေး Water Potential မြင့်ခြင်း (ရေဓာတ် ပိုလွန်ခြင်း)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13bio-w10-sort-1",
+            labelEn: "More ADH is released by the posterior pituitary",
+            labelMy: "Posterior Pituitary က ADH ပိုမို ထုတ်လွှတ်သည်",
+            correctBucketEn: "Low Blood Water Potential (Dehydrated)",
+            correctBucketMy: "သွေး Water Potential နိမ့်ခြင်း (ရေဓာတ်ခန်းခြောက်ခြင်း)",
+          ),
+          SortingItem(
+            id: "y13bio-w10-sort-2",
+            labelEn: "The collecting duct becomes more permeable to water",
+            labelMy: "Collecting Duct သည် ရေအတွက် ပို၍ Permeable ဖြစ်လာသည်",
+            correctBucketEn: "Low Blood Water Potential (Dehydrated)",
+            correctBucketMy: "သွေး Water Potential နိမ့်ခြင်း (ရေဓာတ်ခန်းခြောက်ခြင်း)",
+          ),
+          SortingItem(
+            id: "y13bio-w10-sort-3",
+            labelEn: "A small volume of concentrated urine is produced",
+            labelMy: "ပမာဏနည်းသော ဆီးပြင်းအားပြင်း ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "Low Blood Water Potential (Dehydrated)",
+            correctBucketMy: "သွေး Water Potential နိမ့်ခြင်း (ရေဓာတ်ခန်းခြောက်ခြင်း)",
+          ),
+          SortingItem(
+            id: "y13bio-w10-sort-4",
+            labelEn: "Less ADH is released by the posterior pituitary",
+            labelMy: "Posterior Pituitary က ADH နည်းနည်းသာ ထုတ်လွှတ်သည်",
+            correctBucketEn: "High Blood Water Potential (Overhydrated)",
+            correctBucketMy: "သွေး Water Potential မြင့်ခြင်း (ရေဓာတ် ပိုလွန်ခြင်း)",
+          ),
+          SortingItem(
+            id: "y13bio-w10-sort-5",
+            labelEn: "A large volume of dilute urine is produced",
+            labelMy: "ပမာဏများသော ဆီးခွဲခန့်ချက် ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "High Blood Water Potential (Overhydrated)",
+            correctBucketMy: "သွေး Water Potential မြင့်ခြင်း (ရေဓာတ် ပိုလွန်ခြင်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w10-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Long Run on a Hot Day",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ နေပူသောနေ့ ခရီးရှည် ပြေးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Long Run on a Hot Day",
+        titleMy: "Su Su ၏ နေပူသောနေ့ ခရီးရှည် ပြေးခြင်း",
+        passageEn:
+            "Su Su came to class describing a long run she had done the previous afternoon in hot weather, and how dark and small in volume her urine had looked afterwards. Sayar Zaw Min used it as the day's worked example: heavy sweating had removed a large volume of water from her blood plasma without removing a proportional amount of dissolved solutes, so her blood water potential had fallen -- her blood had become more concentrated than its normal set point.\n\nHtet Aung continued the chain of events: osmoreceptor cells in Su Su's hypothalamus, losing water to the now more concentrated blood surrounding them by osmosis, detected this deviation and triggered the posterior pituitary gland to release more ADH into her bloodstream. Carried by the blood to her kidneys, that ADH bound to receptors on the cells lining her collecting ducts, causing more aquaporin channels to be inserted into their membranes.\n\n\"So more of the water already concentrated in the medulla by the loop of Henle could now be reabsorbed back into the blood as the filtrate passed through the collecting duct,\" Sayar Zaw Min summarised, \"which is exactly why her urine came out small in volume and dark -- concentrated, because comparatively little water was left to dilute it. And this whole loop is a textbook example of negative feedback: falling water potential (the deviation) triggered a hormonal response (more ADH) that raised water reabsorption, pushing water potential back up toward its normal set point. Once she had rehydrated properly, her osmoreceptors would detect the correction and ADH release would fall again.\"",
+        passageMy:
+            "Su Su သည် တစ်နေ့ကနေ့လယ် နေပူသောရာသီဥတုတွင် ခရီးရှည် ပြေးခဲ့သည်ကို၊ ပြီးနောက် သူ၏ ဆီးသည် ပြီးနောက် အရောင်ရင့်ပြီး ပမာဏနည်းစွာ တွေ့ရသည်ကို အတန်းသို့ ပြောပြခဲ့သည်။ ဆရာဇော်မင်းက ၎င်းကို ထိုနေ့၏ ဥပမာအဖြစ် အသုံးပြုခဲ့သည် - ပြင်းစွာ ချွေးထွက်ခြင်းက သွေးပလာစမာမှ ရေ ပမာဏများစွာကို ဖယ်ရှားပေးခဲ့ပြီး ပျော်ဝင်နေသော Solute အချိုးအစားအားလုံးကိုမူ ဖယ်ရှားပေးခဲ့ခြင်း မဟုတ်ပါ၊ ထို့ကြောင့် သူ၏ သွေး Water Potential ကျဆင်းသွားခဲ့သည် -- သူ၏ သွေးသည် ၎င်း၏ ပုံမှန် Set Point ထက် ပို၍ ပြင်းအားပြင်းလာခဲ့သည်။\n\nHtet Aung က ဖြစ်ရပ်တစ်ဆက်တည်းကို ဆက်လက် ပြောပြခဲ့သည် - Su Su ၏ Hypothalamus ရှိ Osmoreceptor ဆဲလ်များသည် ယခု ပို၍ ပြင်းအားပြင်းလာသော ပတ်ဝန်းကျင် သွေးထဲသို့ Osmosis ဖြင့် ရေ ဆုံးရှုံးကာ ဤ ခြားနားမှုကို ရှာဖွေတွေ့ရှိပြီး Posterior Pituitary Gland ကို သူ၏ သွေးကြောထဲသို့ ADH ပိုမို ထုတ်လွှတ်ရန် လှုံ့ဆော်ပေးခဲ့သည်။ သွေးက သူ၏ ကျောက်ကပ်များသို့ သယ်ဆောင်သွားသော ထို ADH သည် သူ၏ Collecting Duct ကို ဖုံးအုပ်ထားသော ဆဲလ်များပေါ်ရှိ Receptor များနှင့် ဖွဲ့စည်းပြီး ၎င်းတို့၏ Membrane ထဲသို့ Aquaporin Channel ပိုမို ထည့်သွင်းစေခဲ့သည်။\n\n\"ထို့ကြောင့် Loop of Henle က Medulla တွင် ပြင်းအားပြင်းစေထားပြီးသား ရေ ပိုမိုများစွာကို Filtrate သည် Collecting Duct ကို ဖြတ်သန်းစဉ် သွေးထဲသို့ ယခု ပြန်လည် Reabsorb ပြုလုပ်နိုင်ခဲ့သည်\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ် ပြောပြခဲ့သည် \"ထို့ကြောင့်ပင် သူ၏ ဆီးသည် ပမာဏနည်းပြီး အရောင်ရင့်စွာ ထွက်ခဲ့ခြင်း ဖြစ်သည် -- ပြင်းအားပြင်းသည်၊ အဘယ်ကြောင့်ဆိုသော် ၎င်းကို ခွဲခန့်ပေးရန် ရေ ရှိနေခဲ့သည်ထက် နည်းသောကြောင့် ဖြစ်သည်။ ဤ Loop တစ်ခုလုံးသည် Negative Feedback ၏ Textbook ဥပမာတစ်ခု ဖြစ်သည် - Water Potential ကျဆင်းခြင်း (ခြားနားမှု) သည် ရေ Reabsorption ကို တိုးမြှင့်ပေးသော Hormonal တုံ့ပြန်မှု (ADH ပိုမို) ကို လှုံ့ဆော်ပေးကာ Water Potential ကို ၎င်း၏ ပုံမှန် Set Point ဆီသို့ ပြန်လည် တွန်းတင်ပေးသည်။ သူ ကောင်းစွာ ရေဓာတ် ပြန်လည် ဖြည့်တင်းပြီးသည်နှင့် သူ၏ Osmoreceptor များသည် ထို ပြင်ဆင်မှုကို ရှာဖွေတွေ့ရှိပြီး ADH ထုတ်လွှတ်မှု ထပ်မံ ကျဆင်းသွားလိမ့်မည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, why did Su Su's blood water potential fall after her run?",
+            questionMy:
+                "Su Su ၏ ပြေးပြီးနောက် သွေး Water Potential ကျဆင်းသွားရသည့်အကြောင်းရင်းကို ပထမစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Sweating removed water without removing a proportional amount of solutes",
+              "She drank too much water during the run",
+              "Her kidneys stopped working entirely",
+              "Her blood glucose concentration rose sharply",
+            ],
+            optionsMy: [
+              "ချွေးထွက်ခြင်းက Solute အချိုးအစားအားလုံးကို ဖယ်ရှားခြင်းမဟုတ်ဘဲ ရေကို ဖယ်ရှားခဲ့သောကြောင့်",
+              "ပြေးနေစဉ် ရေ များများ သောက်ခဲ့သောကြောင့်",
+              "သူ၏ ကျောက်ကပ်များ လုံးဝ အလုပ်မလုပ်တော့သောကြောင့်",
+              "သူ၏ သွေး Glucose အာနှုန်း ပြင်းထန်စွာ မြင့်တက်လာသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what did ADH cause to happen in the collecting duct's cell membranes?",
+            questionMy:
+                "ADH သည် Collecting Duct ၏ ဆဲလ်မှန်ပြန်ကားများတွင် အဘယ်ဖြစ်စေသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "More aquaporin channels were inserted",
+              "All aquaporin channels were removed",
+              "The membranes became completely impermeable to water",
+              "Glucose channels were inserted instead",
+            ],
+            optionsMy: [
+              "Aquaporin Channel ပိုမို ထည့်သွင်းခံရသည်",
+              "Aquaporin Channel အားလုံး ဖယ်ရှားခံရသည်",
+              "Membrane များသည် ရေအတွက် လုံးဝ Impermeable ဖြစ်သွားသည်",
+              "Glucose Channel အစား ထည့်သွင်းခံရသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's summary, what would happen to ADH release once Su Su rehydrated properly?",
+            questionMy:
+                "Su Su ကောင်းစွာ ရေဓာတ် ပြန်လည် ဖြည့်တင်းပြီးသည်နှင့် ADH ထုတ်လွှတ်မှုတွင် အဘယ်ဖြစ်လာမည်ကို ဆရာဇော်မင်း ၏ အကျဉ်းချုပ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It would fall again",
+              "It would rise permanently",
+              "It would stay exactly the same forever",
+              "It would stop being produced permanently",
+            ],
+            optionsMy: [
+              "ထပ်မံ ကျဆင်းသွားလိမ့်မည်",
+              "အမြဲတမ်း မြင့်တက်သွားလိမ့်မည်",
+              "အမြဲတမ်း အတိအကျ တူညီနေလိမ့်မည်",
+              "အမြဲတမ်း ထုတ်လုပ်ခြင်း ရပ်တန့်သွားလိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w10-d5",
+      dayNumber: 5,
+      titleEn: "Week 10 Recap: ADH and Osmoregulation",
+      titleMy: "ဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - ADH နှင့် Osmoregulation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Osmoreceptors are found in the...",
+          questionMy: "Osmoreceptor များကို ...တွင် တွေ့ရသည်",
+          optionsEn: ["Hypothalamus", "Liver", "Pancreas", "Bowman's capsule"],
+          optionsMy: ["Hypothalamus", "အသည်း", "အဆီးချိုအိတ်", "Bowman's Capsule"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ADH increases the permeability of the collecting duct to...",
+          questionMy: "ADH သည် Collecting Duct ကို ...အတွက် Permeability တိုးမြှင့်ပေးသည်",
+          optionsEn: ["Water", "Glucose", "Urea only", "Oxygen"],
+          optionsMy: ["ရေ", "Glucose", "Urea သာ", "Oxygen"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "When blood water potential is low, the body releases...",
+          questionMy: "သွေး Water Potential နိမ့်ချိန် ခန္ဓာကိုယ်က ...ထုတ်လွှတ်ပေးသည်",
+          optionsEn: ["More ADH", "Less ADH", "More insulin", "More glucagon"],
+          optionsMy: ["ADH ပိုများစွာ", "ADH နည်းနည်းသာ", "Insulin ပိုများစွာ", "Glucagon ပိုများစွာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 11: "The Liver: Deamination and Urea Formation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek11 = CourseWeekDef(
+  id: "course-y13-bio-w11",
+  weekNumber: 11,
+  titleEn: "The Liver: Deamination and Urea Formation",
+  titleMy: "အသည်း - Deamination နှင့် Urea ဖွဲ့စည်းခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w11-d1",
+      dayNumber: 1,
+      titleEn: "Deamination and the Ornithine Cycle",
+      titleMy: "Deamination နှင့် Ornithine Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Deamination is the removal of the amino group from excess amino acids in the liver, producing...",
+          questionMy:
+              "Deamination သည် အသည်းတွင် ပိုလျှံနေသော Amino Acid များမှ Amino Group ကို ဖယ်ရှားပြီး ...ကို ထုတ်လုပ်ပေးသည်",
+          optionsEn: [
+            "Ammonia and a keto acid",
+            "Glucose and oxygen",
+            "Urea directly, with no ammonia formed",
+            "Fatty acids and glycerol",
+          ],
+          optionsMy: [
+            "Ammonia နှင့် Keto Acid",
+            "Glucose နှင့် Oxygen",
+            "Ammonia လုံးဝ မဖြစ်ပေါ်ဘဲ Urea တိုက်ရိုက်",
+            "Fatty Acid နှင့် Glycerol",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The body cannot store excess amino acids, so hepatocytes (liver cells) break them down; the keto acid left over can be used in respiration or converted to glucose or fat.",
+          ],
+          hintsMy: [
+            "ခန္ဓာကိုယ်သည် ပိုလျှံနေသော Amino Acid များကို သိမ်းဆည်း၍ မရသောကြောင့် Hepatocyte (အသည်းဆဲလ်) များက ၎င်းတို့ကို ချေဖျက်သည်၊ ကျန်ရစ်သော Keto Acid ကို Respiration တွင် အသုံးပြု (သို့) Glucose သို့မဟုတ် အဆီအဖြစ် ပြောင်းလဲနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Ammonia produced by deamination is highly toxic to cells, so the liver quickly...",
+          questionMy: "Deamination မှ ထုတ်လုပ်သော Ammonia သည် ဆဲလ်များအတွက် အလွန် အဆိပ်ရှိသောကြောင့် အသည်းသည် အမြန်ဆုံး...",
+          optionsEn: [
+            "Converts it into the far less toxic urea, via the ornithine cycle",
+            "Stores it permanently inside hepatocytes",
+            "Converts it directly into glucose",
+            "Releases it unchanged straight into the blood",
+          ],
+          optionsMy: [
+            "Ornithine Cycle မှတဆင့် အဆိပ် များစွာ နည်းပါးသော Urea အဖြစ် ပြောင်းလဲပေးသည်",
+            "Hepatocyte များအတွင်း အမြဲတမ်း သိမ်းဆည်းထားသည်",
+            "Glucose အဖြစ် တိုက်ရိုက် ပြောင်းလဲပေးသည်",
+            "မပြောင်းလဲဘဲ သွေးထဲသို့ တိုက်ရိုက် ထုတ်လွှတ်ပေးသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The ornithine cycle combines ammonia with carbon dioxide to form urea, which is far safer to carry in the blood at higher concentrations than ammonia would be.",
+          ],
+          hintsMy: [
+            "Ornithine Cycle သည် Ammonia ကို Carbon Dioxide နှင့် ပေါင်းစည်း၍ Urea ဖွဲ့စည်းစေပြီး ၎င်းသည် Ammonia ထက် သွေးထဲတွင် အာနှုန်းမြင့်စွာ သယ်ဆောင်ရန် များစွာ ပိုမို ဘေးကင်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Once formed by the liver, urea is transported in the blood to the...",
+          questionMy: "အသည်းက ဖွဲ့စည်းပြီးနောက် Urea ကို သွေးထဲမှတဆင့် ...သို့ ပို့ဆောင်သည်",
+          optionsEn: [
+            "Kidneys, for excretion in the urine",
+            "Pancreas, for storage",
+            "Chloroplast, for photosynthesis",
+            "Heart, for permanent storage",
+          ],
+          optionsMy: [
+            "ကျောက်ကပ်, ဆီးဖြင့် ထုတ်လွှတ်ရန်",
+            "အဆီးချိုအိတ်, သိမ်းဆည်းရန်",
+            "Chloroplast, Photosynthesis အတွက်",
+            "နှလုံး, အမြဲတမ်း သိမ်းဆည်းရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This links the liver and kidneys into one shared nitrogenous-waste pathway: the liver detoxifies ammonia into urea, and the kidneys filter that urea out of the blood via ultrafiltration.",
+          ],
+          hintsMy: [
+            "ဤအချက်က အသည်းနှင့် ကျောက်ကပ်ကို Nitrogenous Waste လမ်းကြောင်းတစ်ခုတည်းအဖြစ် ချိတ်ဆက်ပေးသည် - အသည်းက Ammonia ကို Urea အဖြစ် Detoxify ပြုလုပ်ပြီး ကျောက်ကပ်က ထို Urea ကို Ultrafiltration မှတဆင့် သွေးမှ စစ်ထုတ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w11-d2",
+      dayNumber: 2,
+      titleEn: "Match: Liver and Deamination Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - အသည်းနှင့် Deamination ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w11-dm-1",
+          termEn: "Deamination",
+          termMy: "Deamination",
+          matchEn: "Removal of the amino group from excess amino acids, producing ammonia and a keto acid",
+          matchMy: "ပိုလျှံနေသော Amino Acid များမှ Amino Group ကို ဖယ်ရှားပြီး Ammonia နှင့် Keto Acid ထုတ်လုပ်ပေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w11-dm-2",
+          termEn: "Ammonia",
+          termMy: "Ammonia",
+          matchEn: "A highly toxic nitrogenous by-product of deamination, quickly converted into urea",
+          matchMy: "Deamination ၏ အလွန်အဆိပ်ရှိသော Nitrogenous By-product၊ Urea အဖြစ် အမြန်ဆုံး ပြောင်းလဲသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w11-dm-3",
+          termEn: "Urea",
+          termMy: "Urea",
+          matchEn: "A far less toxic nitrogenous waste product, transported in the blood to the kidneys",
+          matchMy: "အဆိပ် များစွာ နည်းပါးသော Nitrogenous စွန့်ပစ်ပစ္စည်း၊ ကျောက်ကပ်များသို့ သွေးထဲမှတဆင့် ပို့ဆောင်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w11-dm-4",
+          termEn: "Ornithine cycle",
+          termMy: "Ornithine Cycle",
+          matchEn: "The cyclical series of reactions in the liver that converts ammonia into urea",
+          matchMy: "Ammonia ကို Urea အဖြစ် ပြောင်းလဲပေးသော အသည်း၏ Cycle ပုံစံ တုံ့ပြန်မှုများ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w11-dm-5",
+          termEn: "Hepatocyte",
+          termMy: "Hepatocyte",
+          matchEn: "A liver cell, responsible for deamination, detoxification and many other liver functions",
+          matchMy: "Deamination, Detoxification နှင့် အသည်း၏ အခြားလုပ်ငန်းများစွာ တာဝန်ရှိသော အသည်းဆဲလ်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w11-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Deamination or the Ornithine Cycle?",
+      titleMy: "စီစစ်ကြမည် - Deamination သို့မဟုတ် Ornithine Cycle?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Deamination", "Ornithine Cycle"],
+        bucketsMy: ["Deamination", "Ornithine Cycle"],
+        items: [
+          SortingItem(
+            id: "y13bio-w11-sort-1",
+            labelEn: "Removes the amino group from an excess amino acid",
+            labelMy: "ပိုလျှံနေသော Amino Acid မှ Amino Group ကို ဖယ်ရှားသည်",
+            correctBucketEn: "Deamination",
+            correctBucketMy: "Deamination",
+          ),
+          SortingItem(
+            id: "y13bio-w11-sort-2",
+            labelEn: "Produces ammonia and a keto acid",
+            labelMy: "Ammonia နှင့် Keto Acid ထုတ်လုပ်ပေးသည်",
+            correctBucketEn: "Deamination",
+            correctBucketMy: "Deamination",
+          ),
+          SortingItem(
+            id: "y13bio-w11-sort-3",
+            labelEn: "Combines ammonia with carbon dioxide to form urea",
+            labelMy: "Ammonia ကို Carbon Dioxide နှင့် ပေါင်းစည်း၍ Urea ဖွဲ့စည်းသည်",
+            correctBucketEn: "Ornithine Cycle",
+            correctBucketMy: "Ornithine Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w11-sort-4",
+            labelEn: "Is a cyclical series of reactions occurring inside hepatocytes",
+            labelMy: "Hepatocyte များအတွင်း ဖြစ်ပွားသော Cycle ပုံစံ တုံ့ပြန်မှုများ ဖြစ်သည်",
+            correctBucketEn: "Ornithine Cycle",
+            correctBucketMy: "Ornithine Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w11-sort-5",
+            labelEn: "The keto acid left over can be used in respiration or converted to glucose or fat",
+            labelMy: "ကျန်ရစ်သော Keto Acid ကို Respiration တွင် အသုံးပြု (သို့) Glucose (သို့) အဆီအဖြစ် ပြောင်းလဲနိုင်သည်",
+            correctBucketEn: "Deamination",
+            correctBucketMy: "Deamination",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w11-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A High-Protein Diet and a Chemistry Problem",
+      titleMy: "စာဖတ်ခြင်း - Protein မြင့်မားသော အစားအစာနှင့် ဓာတုဗေဒ ပြဿနာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A High-Protein Diet and a Chemistry Problem",
+        titleMy: "Protein မြင့်မားသော အစားအစာနှင့် ဓာတုဗေဒ ပြဿနာ",
+        passageEn:
+            "Htet Aung mentioned that he had recently started eating far more protein than usual after taking up weight training, and asked Sayar Zaw Min what actually happens to all that extra protein once it is digested into amino acids. Sayar Zaw Min explained that the body has no real storage depot for amino acids the way it does for glucose (as glycogen) or fat -- any amino acids beyond what is needed for growth and repair are sent to the liver to be broken down.\n\nSu Su picked up the chemistry: in the hepatocytes, each excess amino acid is deaminated, its amino group removed to leave a keto acid (which can be respired for energy or converted into glucose or fat) and highly toxic ammonia. \"Toxic is the key word,\" she said. \"Ammonia is extremely soluble and damaging to cells even at low concentrations, so it cannot simply be released into the blood and carried around the body -- it has to be dealt with immediately, right there in the liver.\"\n\n\"That immediate dealing-with is the ornithine cycle,\" Sayar Zaw Min concluded. \"Ammonia is combined with carbon dioxide, through several intermediate steps, to form urea -- a molecule far less toxic and far more soluble in a way that is safe to transport at higher concentrations. The liver releases this urea into the blood, and the kidneys then filter it out via ultrafiltration for excretion in the urine. So a high-protein diet doesn't just mean more amino acids used for muscle -- it also means the liver's deamination and ornithine cycle, and the kidneys' filtration workload, both increase to match.\"",
+        passageMy:
+            "Htet Aung သည် Weight Training စတင်ပြီးနောက် ပုံမှန်ထက် Protein ပိုမို စားသုံးနေကြောင်း ပြောပြပြီး Digest ဖြစ်ပြီးနောက် Amino Acid များအဖြစ် ဖြစ်လာသော Extra Protein အားလုံး၌ တကယ်တမ်း အဘယ်ဖြစ်လာသည်ကို ဆရာဇော်မင်းအား မေးခဲ့သည်။ Glucose (Glycogen အဖြစ်) (သို့) အဆီကဲ့သို့ ခန္ဓာကိုယ်တွင် Amino Acid များအတွက် စစ်မှန်သော သိုလှောင်ရေးနေရာ မရှိကြောင်း - ကြီးထွားမှုနှင့် ပြုပြင်ရေးအတွက် လိုအပ်သည်ထက် ပိုလျှံနေသော Amino Acid များကို ချေဖျက်ရန် အသည်းသို့ ပို့ဆောင်ကြောင်း ဆရာဇော်မင်း ရှင်းပြခဲ့သည်။\n\nSu Su က ဓာတုဗေဒကို ဆက်ခဲ့သည် - Hepatocyte များအတွင်း ပိုလျှံနေသော Amino Acid တစ်ခုစီကို Deamination ပြုလုပ်ကာ ၎င်း၏ Amino Group ကို ဖယ်ရှားလိုက်ပြီး Keto Acid (Energy အတွက် Respire ပြုလုပ် (သို့) Glucose သို့မဟုတ် အဆီအဖြစ် ပြောင်းလဲနိုင်သည်) နှင့် အလွန်အဆိပ်ရှိသော Ammonia ကို ကျန်ရစ်စေသည်။ \"အဆိပ်ရှိခြင်းက အဓိကစကားလုံးပါပဲ\" ဟု သူ ဆိုခဲ့သည်။ \"Ammonia သည် အလွန် Soluble ဖြစ်ပြီး အာနှုန်းနိမ့်နေချိန်ပင် ဆဲလ်များကို ထိခိုက်စေနိုင်သောကြောင့် ၎င်းကို သွေးထဲသို့ ရိုးရှင်းစွာ ထုတ်လွှတ်ပြီး ခန္ဓာကိုယ်ပတ်လည် သယ်ဆောင်၍ မရပါ -- ၎င်းကို အသည်းတွင် ချက်ချင်း ကိုင်တွယ်ရမည် ဖြစ်သည်။\"\n\n\"ထို ချက်ချင်း ကိုင်တွယ်ခြင်းသည် Ornithine Cycle ပင် ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည်။ \"Ammonia ကို Intermediate အဆင့်များစွာ ဖြတ်သန်း၍ Carbon Dioxide နှင့် ပေါင်းစည်းကာ Urea -- အဆိပ် များစွာ နည်းပါးပြီး အာနှုန်းမြင့်စွာ ဘေးကင်းစွာ သယ်ဆောင်နိုင်သော ပို၍ Soluble ဖြစ်သော မော်လီကျူးတစ်ခု -- ဖွဲ့စည်းပေးသည်။ အသည်းက ဤ Urea ကို သွေးထဲသို့ ထုတ်လွှတ်ပြီး ကျောက်ကပ်များက ၎င်းကို Ultrafiltration မှတဆင့် ဆီးဖြင့် ထုတ်လွှတ်ရန် စစ်ထုတ်ပေးသည်။ ထို့ကြောင့် Protein မြင့်မားသော အစားအစာသည် ကြွက်သားအတွက် Amino Acid ပိုသုံးရုံသာ မဟုတ်ဘဲ -- အသည်း၏ Deamination နှင့် Ornithine Cycle၊ ကျောက်ကပ်၏ Filtration အလုပ်ဝန်ပိုးတို့ကိုပါ လိုက်၍ တိုးများစေသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, what happens to amino acids beyond what the body needs for growth and repair?",
+            questionMy:
+                "ကြီးထွားမှုနှင့် ပြုပြင်ရေးအတွက် ခန္ဓာကိုယ် လိုအပ်သည်ထက် ပိုလျှံနေသော Amino Acid များတွင် အဘယ်ဖြစ်လာသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They are sent to the liver to be broken down",
+              "They are stored permanently as glycogen",
+              "They are excreted unchanged in sweat",
+              "They are converted directly into DNA",
+            ],
+            optionsMy: [
+              "ချေဖျက်ရန် အသည်းသို့ ပို့ဆောင်ခံရသည်",
+              "Glycogen အဖြစ် အမြဲတမ်း သိမ်းဆည်းသည်",
+              "ချွေးထဲတွင် မပြောင်းလဲဘဲ ထုတ်လွှတ်သည်",
+              "DNA အဖြစ် တိုက်ရိုက် ပြောင်းလဲသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, why can't ammonia simply be released into the blood?",
+            questionMy:
+                "Ammonia ကို သွေးထဲသို့ ရိုးရှင်းစွာ ထုတ်လွှတ်၍ မရသည့်အကြောင်းရင်းကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is highly toxic and damaging to cells even at low concentrations",
+              "It is too large a molecule to enter the blood",
+              "It has no chemical use anywhere in the body",
+              "It evaporates instantly at body temperature",
+            ],
+            optionsMy: [
+              "အာနှုန်းနိမ့်နေချိန်ပင် အလွန်အဆိပ်ရှိပြီး ဆဲလ်များကို ထိခိုက်စေသောကြောင့်",
+              "သွေးထဲသို့ ဝင်ရောက်ရန် မော်လီကျူး ကြီးလွန်းသောကြောင့်",
+              "ခန္ဓာကိုယ်တွင် ဓာတုဗေဒ အသုံးဝင်မှု မည်သည့်နေရာမှမျှ မရှိသောကြောင့်",
+              "ခန္ဓာကိုယ်အပူချိန်တွင် ချက်ချင်း အငွေ့ပျံသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does the kidney do with urea released by the liver?",
+            questionMy:
+                "အသည်းက ထုတ်လွှတ်လိုက်သော Urea ကို ကျောက်ကပ်က မည်သို့ လုပ်ဆောင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Filters it out via ultrafiltration for excretion in the urine",
+              "Converts it back into ammonia",
+              "Stores it permanently in the nephron",
+              "Converts it into glucose",
+            ],
+            optionsMy: [
+              "ဆီးဖြင့် ထုတ်လွှတ်ရန် Ultrafiltration မှတဆင့် စစ်ထုတ်သည်",
+              "Ammonia အဖြစ် ပြန်လည် ပြောင်းလဲသည်",
+              "Nephron အတွင်း အမြဲတမ်း သိမ်းဆည်းထားသည်",
+              "Glucose အဖြစ် ပြောင်းလဲသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w11-d5",
+      dayNumber: 5,
+      titleEn: "Week 11 Recap: The Liver",
+      titleMy: "ဧကာဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - အသည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Deamination removes the amino group from excess amino acids, producing ammonia and...",
+          questionMy: "Deamination သည် ပိုလျှံနေသော Amino Acid များမှ Amino Group ကို ဖယ်ရှားပြီး Ammonia နှင့် ...ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["A keto acid", "Glucose", "Oxygen", "Water only"],
+          optionsMy: ["Keto Acid", "Glucose", "Oxygen", "ရေသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The ornithine cycle converts toxic ammonia into...",
+          questionMy: "Ornithine Cycle သည် အဆိပ်ရှိသော Ammonia ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: ["Urea", "Glucose", "Oxygen", "Lactate"],
+          optionsMy: ["Urea", "Glucose", "Oxygen", "Lactate"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Urea produced by the liver is transported to the kidneys for...",
+          questionMy: "အသည်းက ထုတ်လုပ်သော Urea ကို ...ရန် ကျောက်ကပ်များသို့ ပို့ဆောင်သည်",
+          optionsEn: ["Excretion in the urine", "Storage permanently", "Conversion into glucose", "Use in photosynthesis"],
+          optionsMy: ["ဆီးဖြင့် ထုတ်လွှတ်", "အမြဲတမ်း သိမ်းဆည်း", "Glucose အဖြစ် ပြောင်းလဲ", "Photosynthesis တွင် အသုံးပြု"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 12: "Blood Glucose Regulation" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek12 = CourseWeekDef(
+  id: "course-y13-bio-w12",
+  weekNumber: 12,
+  titleEn: "Blood Glucose Regulation",
+  titleMy: "သွေးတွင်း Glucose ထိန်းညှိမှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w12-d1",
+      dayNumber: 1,
+      titleEn: "Insulin, Glucagon and the Islets of Langerhans",
+      titleMy: "Insulin, Glucagon နှင့် Islets of Langerhans",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When blood glucose concentration rises above normal, beta cells in the islets of Langerhans secrete...",
+          questionMy:
+              "သွေးတွင်း Glucose အာနှုန်း ပုံမှန်ထက် မြင့်တက်လာသောအခါ Islets of Langerhans ရှိ Beta Cell များက ...ကို ထုတ်လွှတ်ပေးသည်",
+          optionsEn: [
+            "Insulin, which lowers blood glucose concentration",
+            "Glucagon, which raises blood glucose concentration",
+            "ADH, which controls water reabsorption",
+            "Urea, which is a waste product",
+          ],
+          optionsMy: [
+            "သွေးတွင်း Glucose အာနှုန်းကို လျှော့ချပေးသော Insulin",
+            "သွေးတွင်း Glucose အာနှုန်းကို မြှင့်တင်ပေးသော Glucagon",
+            "ရေ Reabsorption ကို ထိန်းချုပ်ပေးသော ADH",
+            "စွန့်ပစ်ပစ္စည်း Urea",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Insulin binds to receptors on liver and muscle cells, increasing glucose uptake and stimulating glycogenesis (converting glucose into glycogen for storage).",
+          ],
+          hintsMy: [
+            "Insulin သည် အသည်းနှင့် ကြွက်သားဆဲလ်များပေါ်ရှိ Receptor များနှင့် ဖွဲ့စည်းပြီး Glucose စုပ်ယူမှုကို တိုးမြှင့်ကာ Glycogenesis (Glucose ကို သိုလှောင်ရန် Glycogen အဖြစ် ပြောင်းလဲခြင်း) ကို လှုံ့ဆော်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "When blood glucose concentration falls below normal, alpha cells in the islets of Langerhans secrete glucagon, which stimulates...",
+          questionMy:
+              "သွေးတွင်း Glucose အာနှုန်း ပုံမှန်ထက် ကျဆင်းလာသောအခါ Islets of Langerhans ရှိ Alpha Cell များက Glucagon ကို ထုတ်လွှတ်ပြီး ...ကို လှုံ့ဆော်ပေးသည်",
+          optionsEn: [
+            "Glycogenolysis, the breakdown of glycogen back into glucose",
+            "Glycogenesis, the storage of glucose as glycogen",
+            "Deamination of excess amino acids",
+            "Photosynthesis in the liver",
+          ],
+          optionsMy: [
+            "Glycogenolysis, Glycogen ကို Glucose အဖြစ် ပြန်လည် ချေဖျက်ခြင်း",
+            "Glycogenesis, Glucose ကို Glycogen အဖြစ် သိုလှောင်ခြင်း",
+            "ပိုလျှံနေသော Amino Acid များ၏ Deamination",
+            "အသည်းတွင် Photosynthesis",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Glucagon acts mainly on the liver, triggering the breakdown of stored glycogen into glucose, which is then released into the blood -- the reverse process to insulin's effect.",
+          ],
+          hintsMy: [
+            "Glucagon သည် အသည်းအပေါ် အဓိက သက်ရောက်ပြီး သိုလှောင်ထားသော Glycogen ကို Glucose အဖြစ် ချေဖျက်ရန် လှုံ့ဆော်ကာ သွေးထဲသို့ ထုတ်လွှတ်ပေးသည် -- Insulin ၏ သက်ရောက်မှုနှင့် ပြောင်းပြန် လုပ်ငန်းစဉ် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Insulin and glucagon together regulate blood glucose concentration through...",
+          questionMy: "Insulin နှင့် Glucagon တို့သည် ...မှတဆင့် သွေးတွင်း Glucose အာနှုန်းကို အတူတကွ ထိန်းညှိပေးသည်",
+          optionsEn: [
+            "Negative feedback, opposing each other to keep glucose near its set point",
+            "Positive feedback, amplifying any deviation further",
+            "Ultrafiltration in the kidney",
+            "Photophosphorylation in the chloroplast",
+          ],
+          optionsMy: [
+            "Glucose ကို ၎င်း၏ Set Point အနီးတွင် ထိန်းသိမ်းရန် အချင်းချင်း ဆန့်ကျင်သော Negative Feedback",
+            "ခြားနားမှု မည်သည်ကိုမဆို ပို၍ ချဲ့ထွင်ပေးသော Positive Feedback",
+            "ကျောက်ကပ်ရှိ Ultrafiltration",
+            "Chloroplast ရှိ Photophosphorylation",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a classic antagonistic hormone pair: insulin pulls glucose down when it is too high, glucagon pushes it up when it is too low, both driven by negative feedback around the same set point.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Classic Antagonistic Hormone အတွဲ တစ်ခု ဖြစ်သည် - Glucose မြင့်လွန်းလျှင် Insulin က ဆွဲချပေးပြီး နိမ့်လွန်းလျှင် Glucagon က တွန်းတင်ပေးသည်၊ နှစ်ခုစလုံးသည် တူညီသော Set Point ပတ်ဝန်းကျင်တွင် Negative Feedback ဖြင့် တွန်းအားပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w12-d2",
+      dayNumber: 2,
+      titleEn: "Match: Blood Glucose Regulation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - သွေးတွင်း Glucose ထိန်းညှိမှု ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w12-dm-1",
+          termEn: "Insulin",
+          termMy: "Insulin",
+          matchEn: "Secreted by beta cells when blood glucose is high; lowers blood glucose concentration",
+          matchMy: "သွေးတွင်း Glucose မြင့်ချိန် Beta Cell များက ထုတ်လွှတ်ပေးသည်; သွေးတွင်း Glucose အာနှုန်းကို လျှော့ချပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w12-dm-2",
+          termEn: "Glucagon",
+          termMy: "Glucagon",
+          matchEn: "Secreted by alpha cells when blood glucose is low; raises blood glucose concentration",
+          matchMy: "သွေးတွင်း Glucose နိမ့်ချိန် Alpha Cell များက ထုတ်လွှတ်ပေးသည်; သွေးတွင်း Glucose အာနှုန်းကို မြှင့်တင်ပေးသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w12-dm-3",
+          termEn: "Glycogenesis",
+          termMy: "Glycogenesis",
+          matchEn: "The conversion of glucose into glycogen for storage, stimulated by insulin",
+          matchMy: "Insulin ဖြင့် လှုံ့ဆော်ပေးသည့် Glucose ကို သိုလှောင်ရန် Glycogen အဖြစ် ပြောင်းလဲခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w12-dm-4",
+          termEn: "Glycogenolysis",
+          termMy: "Glycogenolysis",
+          matchEn: "The breakdown of stored glycogen back into glucose, stimulated by glucagon",
+          matchMy: "Glucagon ဖြင့် လှုံ့ဆော်ပေးသည့် သိုလှောင်ထားသော Glycogen ကို Glucose အဖြစ် ပြန်လည် ချေဖျက်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w12-dm-5",
+          termEn: "Islets of Langerhans",
+          termMy: "Islets of Langerhans",
+          matchEn: "Clusters of hormone-secreting cells in the pancreas, containing alpha and beta cells",
+          matchMy: "Alpha Cell နှင့် Beta Cell များ ပါဝင်သော အဆီးချိုအိတ်ရှိ Hormone ထုတ်လွှတ်သော ဆဲလ်အစုများ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w12-d3",
+      dayNumber: 3,
+      titleEn: "Sort: High or Low Blood Glucose Response?",
+      titleMy: "စီစစ်ကြမည် - သွေးတွင်း Glucose မြင့်ချက်လား နိမ့်ချက်လား တုံ့ပြန်မှု?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "High Blood Glucose Response (Insulin)",
+          "Low Blood Glucose Response (Glucagon)",
+        ],
+        bucketsMy: [
+          "သွေးတွင်း Glucose မြင့်ချိန် တုံ့ပြန်မှု (Insulin)",
+          "သွေးတွင်း Glucose နိမ့်ချိန် တုံ့ပြန်မှု (Glucagon)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13bio-w12-sort-1",
+            labelEn: "Beta cells secrete more insulin into the blood",
+            labelMy: "Beta Cell များသည် Insulin ပိုမို သွေးထဲသို့ ထုတ်လွှတ်ပေးသည်",
+            correctBucketEn: "High Blood Glucose Response (Insulin)",
+            correctBucketMy: "သွေးတွင်း Glucose မြင့်ချိန် တုံ့ပြန်မှု (Insulin)",
+          ),
+          SortingItem(
+            id: "y13bio-w12-sort-2",
+            labelEn: "Liver and muscle cells increase glucose uptake and store it as glycogen",
+            labelMy: "အသည်းနှင့် ကြွက်သားဆဲလ်များသည် Glucose စုပ်ယူမှု တိုးမြှင့်ကာ Glycogen အဖြစ် သိုလှောင်ထားသည်",
+            correctBucketEn: "High Blood Glucose Response (Insulin)",
+            correctBucketMy: "သွေးတွင်း Glucose မြင့်ချိန် တုံ့ပြန်မှု (Insulin)",
+          ),
+          SortingItem(
+            id: "y13bio-w12-sort-3",
+            labelEn: "Alpha cells secrete more glucagon into the blood",
+            labelMy: "Alpha Cell များသည် Glucagon ပိုမို သွေးထဲသို့ ထုတ်လွှတ်ပေးသည်",
+            correctBucketEn: "Low Blood Glucose Response (Glucagon)",
+            correctBucketMy: "သွေးတွင်း Glucose နိမ့်ချိန် တုံ့ပြန်မှု (Glucagon)",
+          ),
+          SortingItem(
+            id: "y13bio-w12-sort-4",
+            labelEn: "The liver breaks glycogen back down into glucose",
+            labelMy: "အသည်းသည် Glycogen ကို Glucose အဖြစ် ပြန်လည် ချေဖျက်ပေးသည်",
+            correctBucketEn: "Low Blood Glucose Response (Glucagon)",
+            correctBucketMy: "သွေးတွင်း Glucose နိမ့်ချိန် တုံ့ပြန်မှု (Glucagon)",
+          ),
+          SortingItem(
+            id: "y13bio-w12-sort-5",
+            labelEn: "Blood glucose concentration falls back toward its set point",
+            labelMy: "သွေးတွင်း Glucose အာနှုန်းသည် ၎င်း၏ Set Point ဆီသို့ ပြန်လည် ကျဆင်းလာသည်",
+            correctBucketEn: "High Blood Glucose Response (Insulin)",
+            correctBucketMy: "သွေးတွင်း Glucose မြင့်ချိန် တုံ့ပြန်မှု (Insulin)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w12-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Three Systems, One Word -- Homeostasis",
+      titleMy: "စာဖတ်ခြင်း - စနစ်သုံးခု, စကားလုံးတစ်ခု -- Homeostasis",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Three Systems, One Word -- Homeostasis",
+        titleMy: "စနစ်သုံးခု, စကားလုံးတစ်ခု -- Homeostasis",
+        passageEn:
+            "For the term's capstone lesson, Sayar Zaw Min asked the class to look back across all three weeks of Term 3 -- the kidney, the liver, and now blood glucose regulation -- and find what they all had in common. Su Su offered the obvious answer first: all three systems keep something inside the body close to a stable set point, correcting deviations rather than letting them drift. \"But that's just restating the definition of homeostasis,\" she admitted. \"I want to know what actually links the mechanisms.\"\n\nHtet Aung took up the challenge. In the kidney, he said, osmoreceptors detect a deviation in blood water potential, and the posterior pituitary responds by adjusting ADH release, which changes how much water the collecting duct reabsorbs -- a purely hormonal negative feedback loop acting on a single organ. In the liver, deamination and the ornithine cycle are less about moment-to-moment feedback and more about continuous detoxification, converting a build-up of toxic ammonia into safely exportable urea, handed off to the kidney for final removal. And in blood glucose regulation, the pancreas's alpha and beta cells act as a matched antagonistic pair, insulin and glucagon pulling glucose concentration in opposite directions around the same set point, using the liver's glycogen store as the shared reservoir they draw from and add to.\n\n\"So the mechanisms are genuinely different -- osmoregulation is about a receptor-hormone-effector loop, deamination is about continuous detoxification, and blood glucose is about a hormone pair pulling in opposite directions,\" Sayar Zaw Min summarised, \"but every single one of them answers the same underlying demand: cells can only function correctly within a narrow internal range, so the body needs dedicated systems, constantly monitoring and correcting, to hold that range steady no matter what the outside world throws at it. That is what makes homeostasis one idea rather than three separate topics.\"",
+        passageMy:
+            "Term ၏ Capstone သင်ခန်းစာအတွက် ဆရာဇော်မင်းသည် Term 3 ၏ သီတင်းပတ်သုံးပတ်လုံးကို ပြန်လည် ကြည့်ရှုရန် -- ကျောက်ကပ်, အသည်းနှင့် ယခု သွေးတွင်း Glucose ထိန်းညှိမှု -- နှင့် ၎င်းတို့အားလုံးတွင် ဘုံရှိသည့်အရာကို ရှာဖွေရန် အတန်းကို မေးခဲ့သည်။ Su Su က ရှင်းရှင်းလင်းလင်း အဖြေကို ဦးစွာ ပြန်ပေးခဲ့သည် - စနစ်သုံးခုစလုံးသည် ခန္ဓာကိုယ်အတွင်းရှိ တစ်စုံတစ်ခုကို ခြားနားစွာ ပြောင်းလဲသွားစေမည့်အစား တည်ငြိမ်သော Set Point တစ်ခုနှင့် နီးကပ်စွာ ထိန်းသိမ်းထားပေးသည်။ \"ဒါပေမယ့် ဒါက Homeostasis ရဲ့ Definition ကို ပြန်ပြောနေတာပဲရှိတယ်\" ဟု သူ ဝန်ခံခဲ့သည်။ \"Mechanism တွေက အမှန်တကယ် ဘယ်လို ချိတ်ဆက်နေလဲဆိုတာ သိချင်ပါတယ်။\"\n\nHtet Aung က စိန်ခေါ်မှုကို ဆက်ကိုင်ခဲ့သည်။ ကျောက်ကပ်တွင် Osmoreceptor များသည် သွေး Water Potential ခြားနားမှုကို ရှာဖွေတွေ့ရှိပြီး Posterior Pituitary က ADH ထုတ်လွှတ်မှုကို ချိန်ညှိကာ တုံ့ပြန်ပေးသည်၊ ၎င်းက Collecting Duct မည်မျှ ရေ Reabsorb ပြုလုပ်သည်ကို ပြောင်းလဲပေးသည် -- Organ တစ်ခုတည်းအပေါ် လုပ်ဆောင်သော ဟော်မုန်း Negative Feedback Loop အစစ်အမှန် ဖြစ်သည်ဟု သူ ဆိုခဲ့သည်။ အသည်းတွင် Deamination နှင့် Ornithine Cycle သည် ခေတ္တခဏ Feedback ထက် ဆက်တိုက် Detoxification အကြောင်းသာ ပို၍ ဖြစ်ပြီး Ammonia အဆိပ် စုပုံလာခြင်းကို ဘေးကင်းစွာ တင်ပို့နိုင်သော Urea အဖြစ် ပြောင်းလဲကာ နောက်ဆုံး ဖယ်ရှားရန် ကျောက်ကပ်သို့ လွှဲပြောင်းပေးသည်။ သွေးတွင်း Glucose ထိန်းညှိမှုတွင် အဆီးချိုအိတ်၏ Alpha နှင့် Beta Cell များသည် ကိုက်ညီသော Antagonistic အတွဲအဖြစ် လုပ်ဆောင်ကြပြီး Insulin နှင့် Glucagon တို့သည် Glucose အာနှုန်းကို တူညီသော Set Point ပတ်ဝန်းကျင်တွင် ဆန့်ကျင်ဘက် ဦးတည်ချက်နှစ်ခုသို့ ဆွဲငင်ကာ ၎င်းတို့ ထုတ်ယူ/ထည့်သွင်းသည့် မျှဝေထားသော သိုလှောင်ကွက်အဖြစ် အသည်း၏ Glycogen သိုလှောင်ကွက်ကို အသုံးပြုသည်။\n\n\"ဒါဆို Mechanism တွေက အမှန်တကယ် ကွဲပြားပါတယ် -- Osmoregulation က Receptor-Hormone-Effector Loop တစ်ခုအကြောင်း, Deamination က ဆက်တိုက် Detoxification အကြောင်းနဲ့ သွေးတွင်း Glucose က ဆန့်ကျင်ဘက် ဦးတည်ချက်နှစ်ခုသို့ ဆွဲငင်နေသော Hormone အတွဲအကြောင်း ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း အကျဉ်းချုပ် ပြောပြခဲ့သည် \"ဒါပေမယ့် တစ်ခုချင်းစီက အခြေခံ လိုအပ်ချက်တစ်ခုတည်းကို ဖြေကြားပေးနေပါတယ် - ဆဲလ်များသည် ကျဉ်းမြောင်းသော Internal Range တစ်ခုအတွင်းမှသာ မှန်ကန်စွာ လုပ်ဆောင်နိုင်သောကြောင့် ခန္ဓာကိုယ်သည် ထို Range ကို အမြဲ စောင့်ကြည့် ပြင်ဆင်ပေးမည့် သီးခြား စနစ်များကို လိုအပ်ပါတယ်၊ အပြင်ဘက်ကမ္ဘာက မည်သို့ပင် ပစ်ချသည်ဖြစ်စေ။ ဒါက Homeostasis ကို ခွဲထွက်နေသော ခေါင်းစဉ်သုံးခုအစား Idea တစ်ခုတည်း ဖြစ်စေတဲ့ အချက်ပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what kind of loop controls water reabsorption in the kidney?",
+            questionMy:
+                "ကျောက်ကပ်ရှိ ရေ Reabsorption ကို မည်သည့်အမျိုးအစား Loop က ထိန်းချုပ်သည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A hormonal negative feedback loop involving osmoreceptors and ADH",
+              "A positive feedback loop involving insulin",
+              "A purely mechanical loop with no hormones involved",
+              "A loop involving only the liver",
+            ],
+            optionsMy: [
+              "Osmoreceptor နှင့် ADH ပါဝင်သော ဟော်မုန်း Negative Feedback Loop",
+              "Insulin ပါဝင်သော Positive Feedback Loop",
+              "Hormone လုံးဝ မပါဝင်သော စက်ပိုင်း Loop သာ",
+              "အသည်းတစ်ခုတည်း ပါဝင်သော Loop",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what shared reservoir do insulin and glucagon both act on?",
+            questionMy:
+                "Insulin နှင့် Glucagon နှစ်ခုစလုံး သက်ရောက်သော မျှဝေထားသော သိုလှောင်ကွက်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The liver's glycogen store",
+              "The kidney's collecting duct",
+              "The chloroplast's stroma",
+              "The mitochondrion's matrix",
+            ],
+            optionsMy: [
+              "အသည်း၏ Glycogen သိုလှောင်ကွက်",
+              "ကျောက်ကပ်၏ Collecting Duct",
+              "Chloroplast ၏ Stroma",
+              "Mitochondrion ၏ Matrix",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing summary, what underlying demand do all three homeostatic systems answer?",
+            questionMy:
+                "Homeostatic စနစ်သုံးခုစလုံး ဖြေကြားသော အခြေခံ လိုအပ်ချက်ကို ဆရာဇော်မင်း ၏ နိဂုံးချုပ်အကျဉ်းချုပ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cells can only function correctly within a narrow internal range",
+              "Cells need constant exposure to sunlight",
+              "Cells must double in number every day",
+              "Cells need to be replaced completely every week",
+            ],
+            optionsMy: [
+              "ဆဲလ်များသည် ကျဉ်းမြောင်းသော Internal Range တစ်ခုအတွင်းမှသာ မှန်ကန်စွာ လုပ်ဆောင်နိုင်ခြင်း",
+              "ဆဲလ်များသည် နေရောင်ခြည်ကို အမြဲ ထိတွေ့ရန် လိုအပ်ခြင်း",
+              "ဆဲလ်များသည် နေ့စဉ် နှစ်ဆ တိုးများရမည် ဖြစ်ခြင်း",
+              "ဆဲလ်များသည် အပတ်စဉ် လုံးဝ အစားထိုးရမည် ဖြစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w12-d5",
+      dayNumber: 5,
+      titleEn: "Week 12 Recap: Blood Glucose Regulation",
+      titleMy: "ဒွါဒသမပတ် ပြန်လည်သုံးသပ်ခြင်း - သွေးတွင်း Glucose ထိန်းညှိမှု",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Insulin is secreted by...",
+          questionMy: "Insulin ကို ...က ထုတ်လွှတ်သည်",
+          optionsEn: [
+            "Beta cells in the islets of Langerhans",
+            "Alpha cells in the islets of Langerhans",
+            "Osmoreceptors in the hypothalamus",
+            "Hepatocytes in the liver",
+          ],
+          optionsMy: [
+            "Islets of Langerhans ရှိ Beta Cell များ",
+            "Islets of Langerhans ရှိ Alpha Cell များ",
+            "Hypothalamus ရှိ Osmoreceptor များ",
+            "အသည်းရှိ Hepatocyte များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Glucagon raises blood glucose concentration by stimulating...",
+          questionMy: "Glucagon သည် ...ကို လှုံ့ဆော်ကာ သွေးတွင်း Glucose အာနှုန်းကို မြှင့်တင်ပေးသည်",
+          optionsEn: ["Glycogenolysis", "Glycogenesis", "Deamination", "Ultrafiltration"],
+          optionsMy: ["Glycogenolysis", "Glycogenesis", "Deamination", "Ultrafiltration"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Insulin and glucagon regulate blood glucose through...",
+          questionMy: "Insulin နှင့် Glucagon တို့သည် ...မှတဆင့် သွေးတွင်း Glucose ကို ထိန်းညှိပေးသည်",
+          optionsEn: ["Negative feedback", "Positive feedback", "Ultrafiltration alone", "Photosynthesis"],
+          optionsMy: ["Negative Feedback", "Positive Feedback", "Ultrafiltration တစ်ခုတည်း", "Photosynthesis"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm3 = CourseTermDef(
+  id: "course-y13-bio-t3",
+  termNumber: 3,
+  titleEn: "Homeostasis",
+  titleMy: "Homeostasis",
+  weeks: [_y13BioWeek9, _y13BioWeek10, _y13BioWeek11, _y13BioWeek12],
+  certificateTitleEn: "A2 Biology: Homeostasis",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Homeostasis",
+);
