@@ -33964,3 +33964,3848 @@ const CourseTermDef year13BiologyTerm6 = CourseTermDef(
   certificateTitleEn: "A2 Biology: Selection and Evolution",
   certificateTitleMy: "A2 ဇီဝဗေဒ - Selection and Evolution",
 );
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 7: "Biodiversity and Classification"
+// (Weeks 25-28)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "Biodiversity: Species Richness and Evenness"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek25 = CourseWeekDef(
+  id: "course-y13-bio-w25",
+  weekNumber: 25,
+  titleEn: "Biodiversity: Species Richness and Evenness",
+  titleMy: "Biodiversity - Species Richness နှင့် Evenness",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w25-d1",
+      dayNumber: 1,
+      titleEn: "What Biodiversity Measures",
+      titleMy: "Biodiversity က မည်သည်ကို တိုင်းတာသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Biodiversity within a habitat can be broken down into two components: species richness and...",
+          questionMy: "Habitat တစ်ခုအတွင်း Biodiversity ကို အစိတ်အပိုင်းနှစ်ခုအဖြစ် ခွဲခြမ်းနိုင်သည် - Species Richness နှင့်...",
+          optionsEn: ["Species evenness", "Species mutation", "Species migration", "Species dominance only"],
+          optionsMy: ["Species Evenness", "Species Mutation", "Species Migration", "Species Dominance သာ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Richness counts how many different species are present; evenness describes how evenly individuals are distributed among those species.",
+          ],
+          hintsMy: [
+            "Richness သည် မည်မျှ မတူညီသော မျိုးစိတ် ရှိသည်ကို ရေတွက်ပြီး Evenness သည် ထို မျိုးစိတ်များအကြား လူပုဂ္ဂိုလ်များ မည်မျှ ညီမျှစွာ ဖြန့်ဝေနေသည်ကို ဖော်ပြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Species richness is best defined as...",
+          questionMy: "Species Richness ကို အကောင်းဆုံး ဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "The number of different species present in a habitat",
+            "The total number of individual organisms of any species",
+            "The average body size of organisms in a habitat",
+            "The number of extinct species in a habitat's history",
+          ],
+          optionsMy: [
+            "Habitat တစ်ခုအတွင်း ရှိသော မတူညီသော မျိုးစိတ် အရေအတွက်",
+            "မျိုးစိတ်မည်သည်ဖြစ်စေ Individual Organism စုစုပေါင်း အရေအတွက်",
+            "Habitat တစ်ခုရှိ Organism များ၏ ပျမ်းမျှ ခန္ဓာကိုယ် အရွယ်အစား",
+            "Habitat တစ်ခု၏ သမိုင်းကြောင်းရှိ မျိုးသုဉ်းသွားသော မျိုးစိတ် အရေအတွက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A habitat with 30 different species present has higher species richness than one with only 5 species, regardless of how many individuals of each are counted.",
+          ],
+          hintsMy: [
+            "မျိုးစိတ် ၃၀ ရှိသော Habitat တစ်ခုသည် တစ်ခုစီ လူပုဂ္ဂိုလ် မည်မျှ ရေတွက်သည်ဖြစ်စေ မျိုးစိတ် ၅ မျိုးသာ ရှိသော Habitat တစ်ခုထက် Species Richness ပိုမြင့်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Two habitats each contain the same 5 species, but Habitat A has roughly equal numbers of each species while Habitat B is dominated almost entirely by one species. Habitat A shows...",
+          questionMy: "Habitat နှစ်ခုစလုံးတွင် မျိုးစိတ် ၅ မျိုးတူညီစွာ ရှိသော်လည်း Habitat A တွင် မျိုးစိတ်တစ်ခုစီ ခန့်မှန်း ညီမျှသော အရေအတွက် ရှိပြီး Habitat B တွင် မျိုးစိတ်တစ်ခုတည်းက လုနီးပါး လွှမ်းမိုးထားသည်။ Habitat A သည်...",
+          optionsEn: [
+            "Higher species evenness than Habitat B",
+            "Lower species richness than Habitat B",
+            "No biodiversity at all",
+            "Exactly the same evenness as Habitat B",
+          ],
+          optionsMy: [
+            "Habitat B ထက် Species Evenness ပိုမြင့်",
+            "Habitat B ထက် Species Richness ပိုနိမ့်",
+            "Biodiversity လုံးဝ မရှိ",
+            "Habitat B နှင့် Evenness အတိအကျ တူညီ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Both habitats have identical species richness (5 species), but Habitat A's more balanced distribution of individuals gives it much higher evenness.",
+          ],
+          hintsMy: [
+            "Habitat နှစ်ခုစလုံးတွင် Species Richness တူညီစွာ ရှိသော်လည်း (မျိုးစိတ် ၅ မျိုး) Habitat A ၏ လူပုဂ္ဂိုလ်များ ပို၍ ညီမျှစွာ ဖြန့်ဝေနေခြင်းက Evenness ကို များစွာ ပိုမြင့်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Biodiversity Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Biodiversity ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w25-dm-1",
+          termEn: "Biodiversity",
+          termMy: "Biodiversity",
+          matchEn: "The variety of living organisms present in an area, at genetic, species and habitat levels",
+          matchMy: "ဧရိယာတစ်ခုအတွင်း Genetic, Species နှင့် Habitat အဆင့်များတွင် ရှိသော သက်ရှိသတ္တဝါ ကွဲပြားမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w25-dm-2",
+          termEn: "Species richness",
+          termMy: "Species Richness",
+          matchEn: "The number of different species present in a habitat",
+          matchMy: "Habitat တစ်ခုအတွင်း ရှိသော မတူညီသော မျိုးစိတ် အရေအတွက်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w25-dm-3",
+          termEn: "Species evenness",
+          termMy: "Species Evenness",
+          matchEn: "How evenly individuals are distributed among the species present",
+          matchMy: "ရှိနေသော မျိုးစိတ်များအကြား လူပုဂ္ဂိုလ်များ မည်မျှ ညီမျှစွာ ဖြန့်ဝေနေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w25-dm-4",
+          termEn: "Habitat",
+          termMy: "Habitat",
+          matchEn: "The place where an organism normally lives",
+          matchMy: "Organism တစ်ခု ပုံမှန် နေထိုင်ရာနေရာ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w25-dm-5",
+          termEn: "Ecosystem",
+          termMy: "Ecosystem",
+          matchEn: "A community of organisms interacting with each other and their physical environment",
+          matchMy: "အချင်းချင်းနှင့် ၎င်းတို့၏ ရုပ်ပိုင်းဆိုင်ရာ ပတ်ဝန်းကျင်နှင့် အပြန်အလှန် တုံ့ပြန်နေသော Organism အသိုက်အဝန်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Species Richness or Species Evenness?",
+      titleMy: "စီစစ်ကြမည် - Species Richness သို့မဟုတ် Species Evenness?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Species Richness", "Species Evenness"],
+        bucketsMy: ["Species Richness", "Species Evenness"],
+        items: [
+          SortingItem(
+            id: "y13bio-w25-sort-1",
+            labelEn: "Counting how many different species are present in a forest",
+            labelMy: "သစ်တောတစ်ခုတွင် မတူညီသော မျိုးစိတ် မည်မျှ ရှိသည်ကို ရေတွက်ခြင်း",
+            correctBucketEn: "Species Richness",
+            correctBucketMy: "Species Richness",
+          ),
+          SortingItem(
+            id: "y13bio-w25-sort-2",
+            labelEn: "Comparing whether individuals are spread evenly or dominated by one species",
+            labelMy: "လူပုဂ္ဂိုလ်များ ညီမျှစွာ ပျံ့နှံ့နေသလား သို့မဟုတ် မျိုးစိတ်တစ်ခုက လွှမ်းမိုးထားသလား နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Species Evenness",
+            correctBucketMy: "Species Evenness",
+          ),
+          SortingItem(
+            id: "y13bio-w25-sort-3",
+            labelEn: "A habitat with only 3 species has lower value than one with 30 species",
+            labelMy: "မျိုးစိတ် ၃ မျိုးသာ ရှိသော Habitat သည် မျိုးစိတ် ၃၀ ရှိသည့် Habitat ထက် တန်ဖိုးနိမ့်သည်",
+            correctBucketEn: "Species Richness",
+            correctBucketMy: "Species Richness",
+          ),
+          SortingItem(
+            id: "y13bio-w25-sort-4",
+            labelEn: "A habitat dominated almost entirely by one species has a low value even with many species present",
+            labelMy: "မျိုးစိတ်များစွာ ရှိသော်လည်း တစ်ခုက လုနီးပါး လွှမ်းမိုးထားသော Habitat သည် တန်ဖိုးနိမ့်သည်",
+            correctBucketEn: "Species Evenness",
+            correctBucketMy: "Species Evenness",
+          ),
+          SortingItem(
+            id: "y13bio-w25-sort-5",
+            labelEn: "Depends only on the number of species, not on how many individuals each has",
+            labelMy: "မျိုးစိတ် အရေအတွက်ကိုသာ မှီခိုပြီး တစ်ခုစီ လူပုဂ္ဂိုလ် မည်မျှ ရှိသည်ကို မမှီခိုပါ",
+            correctBucketEn: "Species Richness",
+            correctBucketMy: "Species Richness",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Fields, Two Very Different Meadows",
+      titleMy: "စာဖတ်ခြင်း - လယ်ကွက်နှစ်ခု, လုံးလုံးကွဲပြားသော မြက်ခင်းနှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Fields, Two Very Different Meadows",
+        titleMy: "လယ်ကွက်နှစ်ခု, လုံးလုံးကွဲပြားသော မြက်ခင်းနှစ်ခု",
+        passageEn:
+            "Sayar Zaw Min opened Term 7 by taking the class to survey two meadows behind the school. In the first meadow, Htet Aung counted 12 different plant species, with roughly similar numbers of each. In the second meadow, he also counted 12 species -- but one grass species alone made up over 90 percent of all the plants he counted, with the remaining 11 species scattered thinly among the rest.\n\nSu Su pointed out that if you only asked \"how many species are here,\" both meadows would score identically -- both have a species richness of 12. \"But that clearly misses something important,\" she said. \"The first meadow feels far more diverse when you actually walk through it. Even though the species count is the same, one meadow is dominated by a single species and the other isn't.\"\n\n\"That's exactly why biodiversity needs two separate measurements, not one,\" Sayar Zaw Min confirmed. \"Species richness alone would call these meadows equally biodiverse, which doesn't match what we observed. Species evenness captures the piece richness misses -- how evenly individuals are distributed among the species present. The first meadow has high evenness alongside its richness; the second meadow's richness is real, but its evenness is low because one species dominates so heavily. A habitat needs both a high species count and a balanced distribution of individuals to be considered genuinely biodiverse -- and conservation decisions later this term will depend on being able to tell these two very different meadows apart.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ကျောင်းနောက်ကွယ်ရှိ မြက်ခင်းနှစ်ခုကို စစ်တမ်းကောက်ရန် အတန်းကို ခေါ်ဆောင်ခြင်းဖြင့် Term 7 ကို စတင်ခဲ့သည်။ ပထမ မြက်ခင်းတွင် Htet Aung သည် ပင်စည် မျိုးစိတ် ၁၂ မျိုးကို ရေတွက်ခဲ့ပြီး တစ်ခုစီ ခန့်မှန်း ဆင်တူသော အရေအတွက် ရှိခဲ့သည်။ ဒုတိယ မြက်ခင်းတွင်လည်း သူ မျိုးစိတ် ၁၂ မျိုးကို ရေတွက်ခဲ့သည် -- သို့သော် မြက်မျိုးစိတ်တစ်ခုတည်းသည် သူ ရေတွက်ခဲ့သော ပင်စည်အားလုံး၏ 90 ရာခိုင်နှုန်းကျော်ကို ဖြစ်စေခဲ့ပြီး ကျန်ရှိသော မျိုးစိတ် ၁၁ မျိုးသည် အနည်းငယ်သာ ကျန်ရစ်ခဲ့သည်။\n\n\"ဒီမှာ မျိုးစိတ် ဘယ်နှစ်မျိုးရှိလဲ\" ဟုသာ မေးလိုက်ပါက မြက်ခင်းနှစ်ခုစလုံးသည် အမှတ် တူညီစွာ ရရှိမည်ဖြစ်ကြောင်း -- နှစ်ခုစလုံး Species Richness 12 ရှိကြောင်း Su Su ထောက်ပြခဲ့သည်။ \"ဒါပေမယ့် ဒါက အရေးကြီးသော တစ်ခုခုကို ရှင်းရှင်းလင်းလင်း ချန်ထားခဲ့တယ်\" ဟု သူ ဆိုခဲ့သည်။ \"ပထမ မြက်ခင်းသည် သင် အမှန်တကယ် လျှောက်ကြည့်သောအခါ ပို၍ ကွဲပြားသည်ဟု ခံစားရသည်။ Species Count တူညီစွာ ရှိသော်လည်း မြက်ခင်းတစ်ခုကို မျိုးစိတ်တစ်ခုတည်းက လွှမ်းမိုးထားပြီး အခြားတစ်ခုကမူ မထားပါ။\"\n\n\"ဒါက Biodiversity ကို တိုင်းတာမှု တစ်ခုတည်းမဟုတ်ဘဲ နှစ်ခု လိုအပ်ရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"Species Richness တစ်ခုတည်းက ဤ မြက်ခင်းများကို Biodiverse တူညီသည်ဟု ခေါ်လိမ့်မည်ဖြစ်ပြီး ကျွန်တော်တို့ တွေ့မြင်ခဲ့သည်နှင့် မကိုက်ညီပါ။ Species Evenness သည် Richness ချန်ထားခဲ့သော အပိုင်းကို ဖမ်းယူပေးသည် -- ရှိနေသော မျိုးစိတ်များအကြား လူပုဂ္ဂိုလ်များ မည်မျှ ညီမျှစွာ ဖြန့်ဝေနေသည်။ ပထမ မြက်ခင်းသည် ၎င်း၏ Richness နှင့်အတူ Evenness မြင့်ပါသည်၊ ဒုတိယ မြက်ခင်း၏ Richness သည် အစစ်အမှန် ဖြစ်သော်လည်း မျိုးစိတ်တစ်ခုက ဤမျှ လွှမ်းမိုးထားသောကြောင့် ၎င်း၏ Evenness သည် နိမ့်သည်။ Habitat တစ်ခုသည် စစ်မှန်စွာ Biodiverse ဖြစ်ရန် Species Count မြင့်ခြင်းနှင့် Individual ဖြန့်ဝေမှု ညီမျှခြင်း နှစ်ခုစလုံး လိုအပ်ပါသည် -- ဤ Term အနှောင်းပိုင်း Conservation ဆုံးဖြတ်ချက်များသည် ဤ ကွဲပြားသော မြက်ခင်းနှစ်ခုကို ခွဲခြားနိုင်စွမ်းအပေါ် မှီခိုနေပါလိမ့်မည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was the species richness of both meadows?",
+            questionMy: "မြက်ခင်းနှစ်ခုစလုံး၏ Species Richness ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["12, the same in both meadows", "5 in the first, 12 in the second", "Only 1 species in the second meadow", "It could not be measured at all"],
+            optionsMy: ["12, မြက်ခင်းနှစ်ခုစလုံးတွင် တူညီ", "ပထမတွင် 5, ဒုတိယတွင် 12", "ဒုတိယ မြက်ခင်းတွင် မျိုးစိတ် 1 မျိုးသာ", "လုံးဝ တိုင်းတာ၍ မရ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, why did the first meadow feel more diverse despite having the same species count?",
+            questionMy: "Species Count တူညီစွာ ရှိသော်လည်း ပထမ မြက်ခင်း ပို၍ ကွဲပြားသည်ဟု ခံစားရသည့်အကြောင်းရင်းကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One meadow was dominated by a single species and the other wasn't",
+              "The first meadow had far more species than the second",
+              "The second meadow had no plants at all",
+              "The two meadows were in completely different countries",
+            ],
+            optionsMy: [
+              "မြက်ခင်းတစ်ခုကို မျိုးစိတ်တစ်ခုတည်းက လွှမ်းမိုးထားပြီး အခြားတစ်ခုကမူ မထားသောကြောင့်",
+              "ပထမ မြက်ခင်းသည် ဒုတိယထက် မျိုးစိတ် များစွာ ပိုများသောကြောင့်",
+              "ဒုတိယ မြက်ခင်းတွင် အပင် လုံးဝ မရှိသောကြောင့်",
+              "မြက်ခင်းနှစ်ခုသည် လုံးလုံးကွဲပြားသော နိုင်ငံများတွင် ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, what does a habitat need to be genuinely biodiverse?",
+            questionMy: "Habitat တစ်ခု စစ်မှန်စွာ Biodiverse ဖြစ်ရန် အဘယ်လိုအပ်သည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Both a high species count and a balanced distribution of individuals",
+              "Only a high species count, nothing else",
+              "Only one dominant species",
+              "No plants of any kind",
+            ],
+            optionsMy: [
+              "Species Count မြင့်ခြင်းနှင့် Individual ဖြန့်ဝေမှု ညီမျှခြင်း နှစ်ခုစလုံး",
+              "Species Count မြင့်ခြင်းသာ၊ အခြားမည်သည်မျှ",
+              "Dominant မျိုးစိတ်တစ်ခုတည်းသာ",
+              "အပင် မည်သည်မျှ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: Biodiversity",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Biodiversity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Species richness measures...",
+          questionMy: "Species Richness သည် ...ကို တိုင်းတာသည်",
+          optionsEn: [
+            "The number of different species present",
+            "How evenly individuals are distributed",
+            "The average body size of organisms",
+            "The temperature of a habitat",
+          ],
+          optionsMy: [
+            "ရှိနေသော မတူညီသော မျိုးစိတ် အရေအတွက်",
+            "လူပုဂ္ဂိုလ်များ မည်မျှ ညီမျှစွာ ဖြန့်ဝေနေသည်",
+            "Organism များ၏ ပျမ်းမျှ ခန္ဓာကိုယ် အရွယ်အစား",
+            "Habitat တစ်ခု၏ အပူချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Species evenness measures...",
+          questionMy: "Species Evenness သည် ...ကို တိုင်းတာသည်",
+          optionsEn: [
+            "How evenly individuals are distributed among species present",
+            "The total number of species present only",
+            "The number of extinct species",
+            "The colour of dominant species",
+          ],
+          optionsMy: [
+            "ရှိနေသော မျိုးစိတ်များအကြား လူပုဂ္ဂိုလ်များ မည်မျှ ညီမျှစွာ ဖြန့်ဝေနေသည်",
+            "ရှိနေသော မျိုးစိတ် စုစုပေါင်း အရေအတွက်သာ",
+            "မျိုးသုဉ်းသွားသော မျိုးစိတ် အရေအတွက်",
+            "Dominant မျိုးစိတ်၏ အရောင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A habitat dominated almost entirely by one species has...",
+          questionMy: "မျိုးစိတ်တစ်ခုက လုနီးပါး လွှမ်းမိုးထားသော Habitat တစ်ခုသည်...",
+          optionsEn: [
+            "Low species evenness",
+            "High species evenness",
+            "No species richness at all",
+            "Zero biodiversity by definition",
+          ],
+          optionsMy: [
+            "Species Evenness နိမ့်",
+            "Species Evenness မြင့်",
+            "Species Richness လုံးဝ မရှိ",
+            "Definition အရ Biodiversity သုည",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "The Classification Hierarchy and Binomial Nomenclature"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek26 = CourseWeekDef(
+  id: "course-y13-bio-w26",
+  weekNumber: 26,
+  titleEn: "The Classification Hierarchy and Binomial Nomenclature",
+  titleMy: "Classification Hierarchy နှင့် Binomial Nomenclature",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w26-d1",
+      dayNumber: 1,
+      titleEn: "From Kingdom to Species and the Binomial System",
+      titleMy: "Kingdom မှ Species သို့ နှင့် Binomial System",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The classification hierarchy, from broadest to most specific, runs kingdom, phylum, class, order, family, genus, and finally...",
+          questionMy: "Classification Hierarchy သည် အကျယ်ဆုံးမှ အကျဉ်းဆုံးအထိ Kingdom, Phylum, Class, Order, Family, Genus, နောက်ဆုံး ...သို့ ဆက်လက်သွားသည်",
+          optionsEn: ["Species", "Cell", "Organelle", "Ecosystem"],
+          optionsMy: ["Species", "Cell", "Organelle", "Ecosystem"],
+          correctIndex: 0,
+          hintsEn: [
+            "Each level down the hierarchy contains fewer, more closely related organisms than the level above it -- species is the narrowest, most specific group.",
+          ],
+          hintsMy: [
+            "Hierarchy ၏ အဆင့်တိုင်းသည် အထက်အဆင့်ထက် ပို၍ ရင်းနှီးစွာ ဆက်နွယ်သော Organism အနည်းငယ်ကိုသာ ပါဝင်သည် -- Species သည် အကျဉ်းဆုံး, အသေးစိတ်ဆုံး အုပ်စု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the binomial naming system, an organism's scientific name consists of two parts: the genus name and the...",
+          questionMy: "Binomial Naming System တွင် Organism တစ်ခု၏ Scientific Name သည် အစိတ်အပိုင်းနှစ်ခုဖြင့် ဖွဲ့စည်းသည် - Genus Name နှင့်...",
+          optionsEn: [
+            "Species name (a descriptive word specific to that species)",
+            "The organism's common English name",
+            "The name of the biologist who discovered it, always",
+            "The family name, repeated twice",
+          ],
+          optionsMy: [
+            "Species Name (ထို Species နှင့် သီးသန့် ဖော်ပြသော စကားလုံး)",
+            "Organism ၏ English Common Name",
+            "ရှာဖွေတွေ့ရှိခဲ့သော Biologist ၏ နာမည်၊ အမြဲတမ်း",
+            "Family Name ကို နှစ်ကြိမ် ထပ်ရေးထားခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For example, Homo sapiens: \"Homo\" is the genus, \"sapiens\" is the species name -- by convention, the genus is capitalised and both words are italicised.",
+          ],
+          hintsMy: [
+            "ဥပမာ - Homo Sapiens: \"Homo\" သည် Genus ဖြစ်ပြီး \"Sapiens\" သည် Species Name ဖြစ်သည် -- ထုံးစံအရ Genus ကို စာလုံးကြီးဖြင့် ရေးပြီး စကားလုံးနှစ်ခုစလုံးကို Italic ဖြင့် ရေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The binomial naming system is used worldwide mainly because it...",
+          questionMy: "Binomial Naming System ကို ကမ္ဘာတစ်ဝှမ်း အသုံးပြုရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Gives every species a single, universally recognised scientific name, avoiding confusion between local common names",
+            "Is only understood by people who speak Latin fluently",
+            "Changes completely every time a new common name is invented",
+            "Only applies to plants, never to animals",
+          ],
+          optionsMy: [
+            "မျိုးစိတ်တိုင်းကို ကမ္ဘာလုံးဆိုင်ရာ အသိအမှတ်ပြုထားသော Scientific Name တစ်ခုတည်း ပေးပြီး ဒေသန္တရ Common Name များအကြား ရှုပ်ထွေးမှုကို ရှောင်ရှားပေးသောကြောင့်",
+            "Latin ကို ကျွမ်းကျင်စွာ ပြောဆိုသော လူများသာ နားလည်သောကြောင့်",
+            "Common Name အသစ်တစ်ခု ဖန်တီးလိုက်တိုင်း လုံးလုံးပြောင်းလဲသွားသောကြောင့်",
+            "အပင်များကိုသာ သက်ဆိုင်ပြီး တိရစ္ဆာန်များနှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The same organism can have many different common names in different languages and regions -- a single agreed scientific name lets biologists worldwide be certain they are talking about the exact same species.",
+          ],
+          hintsMy: [
+            "Organism တစ်ခုတည်းသည် ဘာသာစကားနှင့် ဒေသ ကွဲပြားသည်အလိုက် Common Name ကွဲပြားများစွာ ရှိနိုင်သည် -- သဘောတူထားသော Scientific Name တစ်ခုတည်းက ကမ္ဘာတစ်ဝှမ်းရှိ Biologist များ တူညီသော Species အတိအကျအကြောင်း ပြောနေကြောင်း သေချာစေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Classification Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Classification ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w26-dm-1",
+          termEn: "Kingdom",
+          termMy: "Kingdom",
+          matchEn: "The broadest taxonomic group, e.g. Animalia or Plantae",
+          matchMy: "အကျယ်ဆုံး Taxonomic အုပ်စု၊ ဥပမာ - Animalia သို့ Plantae",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w26-dm-2",
+          termEn: "Genus",
+          termMy: "Genus",
+          matchEn: "The taxonomic group just above species; the first word of a binomial name",
+          matchMy: "Species အပေါ်တွင် ရှိသော Taxonomic အုပ်စု; Binomial Name ၏ ပထမ စကားလုံး",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w26-dm-3",
+          termEn: "Species",
+          termMy: "Species",
+          matchEn: "The narrowest, most specific taxonomic group",
+          matchMy: "အကျဉ်းဆုံး, အသေးစိတ်ဆုံး Taxonomic အုပ်စု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w26-dm-4",
+          termEn: "Binomial nomenclature",
+          termMy: "Binomial Nomenclature",
+          matchEn: "The two-part naming system giving every species a unique genus and species name",
+          matchMy: "မျိုးစိတ်တိုင်းကို သီးသန့် Genus နှင့် Species Name ပေးသော အစိတ်အပိုင်းနှစ်ခုပါ Naming System",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w26-dm-5",
+          termEn: "Taxonomy",
+          termMy: "Taxonomy",
+          matchEn: "The science of classifying organisms into hierarchical groups",
+          matchMy: "Organism များကို Hierarchical အုပ်စုများအဖြစ် ခွဲခြားသော သိပ္ပံပညာ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Broader or Narrower Taxonomic Group?",
+      titleMy: "စီစစ်ကြမည် - ပို၍ ကျယ်သော (သို့) ကျဉ်းသော Taxonomic အုပ်စု?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Broader Group (Kingdom/Phylum)", "Narrower Group (Genus/Species)"],
+        bucketsMy: ["ကျယ်သော အုပ်စု (Kingdom/Phylum)", "ကျဉ်းသော အုပ်စု (Genus/Species)"],
+        items: [
+          SortingItem(
+            id: "y13bio-w26-sort-1",
+            labelEn: "Animalia -- includes every animal on Earth",
+            labelMy: "Animalia -- ကမ္ဘာပေါ်ရှိ တိရစ္ဆာန်အားလုံးကို ထည့်သွင်းသည်",
+            correctBucketEn: "Broader Group (Kingdom/Phylum)",
+            correctBucketMy: "ကျယ်သော အုပ်စု (Kingdom/Phylum)",
+          ),
+          SortingItem(
+            id: "y13bio-w26-sort-2",
+            labelEn: "Chordata -- includes all animals with a notochord",
+            labelMy: "Chordata -- Notochord ရှိသော တိရစ္ဆာန်အားလုံးကို ထည့်သွင်းသည်",
+            correctBucketEn: "Broader Group (Kingdom/Phylum)",
+            correctBucketMy: "ကျယ်သော အုပ်စု (Kingdom/Phylum)",
+          ),
+          SortingItem(
+            id: "y13bio-w26-sort-3",
+            labelEn: "Homo -- the genus containing only closely related human-like species",
+            labelMy: "Homo -- ရင်းနှီးစွာ ဆက်နွယ်သော လူနှင့်ဆင်တူသော Species များကိုသာ ထည့်သွင်းသော Genus",
+            correctBucketEn: "Narrower Group (Genus/Species)",
+            correctBucketMy: "ကျဉ်းသော အုပ်စု (Genus/Species)",
+          ),
+          SortingItem(
+            id: "y13bio-w26-sort-4",
+            labelEn: "Homo sapiens -- the single species of modern humans",
+            labelMy: "Homo Sapiens -- ခေတ်သစ် လူသားများ၏ Species တစ်ခုတည်း",
+            correctBucketEn: "Narrower Group (Genus/Species)",
+            correctBucketMy: "ကျဉ်းသော အုပ်စု (Genus/Species)",
+          ),
+          SortingItem(
+            id: "y13bio-w26-sort-5",
+            labelEn: "Contains the largest number of different organisms",
+            labelMy: "မတူညီသော Organism အများဆုံး ပါဝင်သည်",
+            correctBucketEn: "Broader Group (Kingdom/Phylum)",
+            correctBucketMy: "ကျယ်သော အုပ်စု (Kingdom/Phylum)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Sorting a Shelf of Specimens",
+      titleMy: "စာဖတ်ခြင်း - နမူနာစင်တစ်ခုကို စီစစ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Sorting a Shelf of Specimens",
+        titleMy: "နမူနာစင်တစ်ခုကို စီစစ်ခြင်း",
+        passageEn:
+            "Su Su was given a shelf of twenty unlabelled preserved specimens and asked to sort them using the classification hierarchy, starting from the broadest group. She began by separating them into kingdoms -- animals in one group, plants in another -- then split the animal group further into phyla, setting the specimens with a backbone (vertebrates, phylum Chordata) apart from those without one.\n\nHtet Aung, working on the vertebrate group, split it further into classes: mammals, birds, reptiles, amphibians and fish, based on shared structural features each class was defined by. \"Notice how each split narrows things down,\" he said. \"We started with 'every organism on Earth' and now we're down to just the fish specimens on this side of the table.\" Continuing down through order, family and genus narrowed the fish group further still, until finally each individual specimen could be assigned its own species -- the narrowest group of all, containing only that one kind of organism and its closest relatives.\n\n\"And once you reach species,\" Sayar Zaw Min added, checking their work, \"binomial nomenclature gives each one a name built from exactly two of the levels you just worked through: the genus, and a species name specific to it. Write the genus first and capitalise it, the species name second in lowercase, both in italics -- Salmo salar for the Atlantic salmon on the end of the shelf, for instance. Every biologist in the world, whatever language they speak, would recognise that exact name and know exactly which species you mean -- which is precisely the problem the whole hierarchy and naming system was built to solve.\"",
+        passageMy:
+            "Su Su သည် အမည်မတပ်ထားသော ထိန်းသိမ်းထားသော နမူနာ နှစ်ဆယ်ရှိသော စင်တစ်ခုကို ရရှိခဲ့ပြီး အကျယ်ဆုံး အုပ်စုမှ စတင်၍ Classification Hierarchy ကို အသုံးပြု၍ စီစစ်ရန် တောင်းဆိုခြင်း ခံရသည်။ သူသည် ၎င်းတို့ကို Kingdom များအဖြစ် ဦးစွာ ခွဲထုတ်ခဲ့သည် -- တစ်ဖက်တွင် တိရစ္ဆာန်များ, နောက်တစ်ဖက်တွင် အပင်များ -- ထို့နောက် တိရစ္ဆာန်အုပ်စုကို Phylum အဖြစ် ထပ်မံ ခွဲထုတ်ကာ ကျောရိုးရှိသော နမူနာများ (Vertebrate, Phylum Chordata) ကို ကျောရိုးမရှိသူများနှင့် ခွဲခြားခဲ့သည်။\n\nVertebrate အုပ်စုပေါ်တွင် အလုပ်လုပ်နေသော Htet Aung သည် Class တစ်ခုစီ သတ်မှတ်ပေးသည့် ဘုံ ဖွဲ့စည်းပုံ လက္ခဏာများအပေါ် အခြေခံ၍ ၎င်းကို Mammal, ငှက်, တွားသွားသတ္တဝါ, ရေနေကုန်းနေသတ္တဝါနှင့် ငါးများအဖြစ် ထပ်မံ ခွဲထုတ်ခဲ့သည်။ \"ခွဲထုတ်တိုင်း ဘယ်လို ကျဉ်းသွားလဲ သတိပြုကြည့်ပါ\" ဟု သူ ဆိုခဲ့သည်။ \"ကျွန်တော်တို့ 'ကမ္ဘာပေါ်ရှိ Organism အားလုံး' နှင့် စတင်ခဲ့ပြီး ယခု စားပွဲ၏ ဤဘက်ရှိ ငါးနမူနာများသာ ကျန်ရှိနေပါပြီ။\" Order, Family နှင့် Genus မှတဆင့် ဆက်လက် ကျဉ်းသွားခြင်းက ငါးအုပ်စုကို ပို၍ ကျဉ်းစေပြီး နောက်ဆုံးတွင် နမူနာတစ်ခုစီကို ၎င်း၏ Species တစ်ခုတည်း -- အားလုံး၏ အကျဉ်းဆုံး အုပ်စု၊ ထို Organism တစ်မျိုးနှင့် ၎င်း၏ ရင်းနှီးဆုံး ဆွေမျိုးများသာ ပါဝင်သော -- ကို သတ်မှတ်နိုင်ခဲ့သည်။\n\n\"Species ကို ရောက်ရှိပြီးသည်နှင့်\" ဟု ၎င်းတို့၏ အလုပ်ကို စစ်ဆေးရင်း ဆရာဇော်မင်း ထပ်ဆင့်ခဲ့သည် \"Binomial Nomenclature သည် သင် ယခုမှ ဖြတ်သန်းခဲ့သော အဆင့်နှစ်ခုတိုက်ရိုက်မှ တည်ဆောက်ထားသော နာမည်တစ်ခု ပေးသည် - Genus နှင့် ၎င်းနှင့် သီးသန့် Species Name။ Genus ကို ဦးစွာရေးပြီး စာလုံးကြီးဖြင့် စတင်ပါ၊ Species Name ကို ဒုတိယအနေဖြင့် Lowercase ဖြင့် ရေးပါ၊ နှစ်ခုစလုံးကို Italic ဖြင့်ရေးပါ -- ဥပမာ စင်၏ အဆုံးရှိ Atlantic Salmon အတွက် Salmo Salar။ ကမ္ဘာပေါ်ရှိ Biologist မည်သူမဆို မည်သည့်ဘာသာစကားပြောသည်ဖြစ်စေ ထို နာမည် အတိအကျကို မှတ်မိပြီး သင် ဆိုလိုသည့် Species အတိအကျကို သိရှိလိမ့်မည် -- ၎င်းကပင် Hierarchy တစ်ခုလုံးနှင့် Naming System ကို ဖြေရှင်းရန် တည်ဆောက်ခဲ့ခြင်း၏ ပြဿနာ အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was the very first split Su Su made among the specimens?",
+            questionMy: "Su Su ပြုလုပ်ခဲ့သော နမူနာများအကြား ပထမဆုံး ခွဲထုတ်မှုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Kingdom -- animals separated from plants",
+              "Species -- each specimen given a unique name",
+              "Colour -- specimens sorted by their colour",
+              "Size -- specimens sorted from smallest to largest",
+            ],
+            optionsMy: [
+              "Kingdom -- တိရစ္ဆာန်များကို အပင်များနှင့် ခွဲထုတ်ခြင်း",
+              "Species -- နမူနာတစ်ခုစီကို သီးသန့် နာမည် ပေးခြင်း",
+              "အရောင် -- နမူနာများကို အရောင်ဖြင့် စီစစ်ခြင်း",
+              "အရွယ်အစား -- နမူနာများကို သေးငယ်ဆုံးမှ ကြီးမားဆုံးအထိ စီစစ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, what happens at each step down the classification hierarchy?",
+            questionMy: "Classification Hierarchy ၏ အဆင့်တိုင်းတွင် အဘယ်ဖြစ်ပွားသည်ကို Htet Aung ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The group narrows down further",
+              "The group becomes broader and broader",
+              "Every specimen is destroyed",
+              "The hierarchy resets to the beginning",
+            ],
+            optionsMy: [
+              "အုပ်စုသည် ဆက်လက် ကျဉ်းသွားသည်",
+              "အုပ်စုသည် ဆက်တိုက် ကျယ်များ ကျယ်များ ဖြစ်လာသည်",
+              "နမူနာတိုင်း ဖျက်ဆီးခံရသည်",
+              "Hierarchy သည် အစသို့ ပြန်လည် Reset ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min, a binomial name is built from which two levels of the hierarchy?",
+            questionMy: "Binomial Name ကို Hierarchy ၏ မည်သည့် အဆင့်နှစ်ခုမှ တည်ဆောက်ထားသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Genus and species",
+              "Kingdom and phylum",
+              "Order and family",
+              "Class and order",
+            ],
+            optionsMy: ["Genus နှင့် Species", "Kingdom နှင့် Phylum", "Order နှင့် Family", "Class နှင့် Order"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Classification",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Classification",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The broadest taxonomic group is the...",
+          questionMy: "အကျယ်ဆုံး Taxonomic အုပ်စုမှာ...",
+          optionsEn: ["Kingdom", "Species", "Genus", "Family"],
+          optionsMy: ["Kingdom", "Species", "Genus", "Family"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In a binomial name, the first word represents the...",
+          questionMy: "Binomial Name တွင် ပထမစကားလုံးသည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: ["Genus", "Species only", "Kingdom", "Family"],
+          optionsMy: ["Genus", "Species သာ", "Kingdom", "Family"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The binomial system is used worldwide because it...",
+          questionMy: "Binomial System ကို ကမ္ဘာတစ်ဝှမ်း အသုံးပြုရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Gives every species one universally recognised name",
+            "Changes every year",
+            "Applies only to bacteria",
+            "Uses a different name in every country",
+          ],
+          optionsMy: [
+            "မျိုးစိတ်တိုင်းကို ကမ္ဘာလုံးဆိုင်ရာ အသိအမှတ်ပြုနာမည်တစ်ခု ပေးသောကြောင့်",
+            "နှစ်စဉ် ပြောင်းလဲသောကြောင့်",
+            "Bacteria ကိုသာ သက်ဆိုင်သောကြောင့်",
+            "နိုင်ငံတိုင်းတွင် ကွဲပြားသော နာမည် အသုံးပြုသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "Evidence Used in Modern Classification"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek27 = CourseWeekDef(
+  id: "course-y13-bio-w27",
+  weekNumber: 27,
+  titleEn: "Evidence Used in Modern Classification",
+  titleMy: "ခေတ်သစ် Classification တွင် အသုံးပြုသော သက်သေအထောက်အထား",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w27-d1",
+      dayNumber: 1,
+      titleEn: "Morphology and Molecular Evidence Together",
+      titleMy: "Morphology နှင့် Molecular သက်သေအထောက်အထား အတူတကွ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Traditional classification relied mainly on morphology, meaning...",
+          questionMy: "ရိုးရာ Classification သည် အဓိကအားဖြင့် Morphology ကို မှီခိုခဲ့ပြီး ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "Organisms were grouped by their observable physical structure and appearance",
+            "Organisms were grouped by their DNA sequence alone",
+            "Organisms were grouped by their geographic location alone",
+            "Organisms were grouped randomly with no evidence at all",
+          ],
+          optionsMy: [
+            "Organism များကို ၎င်းတို့၏ တွေ့မြင်နိုင်သော ရုပ်ပိုင်းဆိုင်ရာ ဖွဲ့စည်းပုံနှင့် ပုံသဏ္ဌာန်ဖြင့် အုပ်စု ဖွဲ့ခဲ့သည်",
+            "Organism များကို ၎င်းတို့၏ DNA Sequence တစ်ခုတည်းဖြင့် အုပ်စု ဖွဲ့ခဲ့သည်",
+            "Organism များကို ၎င်းတို့၏ ပထဝီအနေအထားတစ်ခုတည်းဖြင့် အုပ်စု ဖွဲ့ခဲ့သည်",
+            "Organism များကို သက်သေအထောက်အထား လုံးဝ မပါဘဲ Random အုပ်စု ဖွဲ့ခဲ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Features such as body shape, skeletal arrangement, and the presence or absence of specific structures were traditionally the main basis for grouping organisms.",
+          ],
+          hintsMy: [
+            "ခန္ဓာကိုယ် ပုံသဏ္ဌာန်, အရိုးစီစဉ်ပုံ, ဖွဲ့စည်းပုံသီးသန့်တစ်ခု ရှိ/မရှိ ကဲ့သို့ လက္ခဏာများသည် Organism များကို အုပ်စုဖွဲ့ရန် ရိုးရာအားဖြင့် အဓိက အခြေခံ ဖြစ်ခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Modern classification now also uses molecular/genetic evidence, such as comparing DNA base sequences, mainly because...",
+          questionMy: "ခေတ်သစ် Classification သည် DNA Base Sequence နှိုင်းယှဉ်ခြင်းကဲ့သို့ Molecular/Genetic သက်သေအထောက်အထားကိုပါ ယခု အသုံးပြုသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Molecular evidence can reveal evolutionary relationships that similar or different appearances alone might mask",
+            "Morphology is always completely useless and should never be used",
+            "DNA never changes between generations, unlike appearance",
+            "Molecular evidence is always impossible to obtain",
+          ],
+          optionsMy: [
+            "Molecular သက်သေအထောက်အထားသည် ဆင်တူ (သို့) ကွဲပြားသော ပုံသဏ္ဌာန်တစ်ခုတည်းက ဖုံးကွယ်ထားနိုင်သော Evolutionary ဆက်နွယ်မှုများကို ဖော်ထုတ်ပေးနိုင်သောကြောင့်",
+            "Morphology သည် အမြဲတမ်း လုံးလုံးအသုံးမဝင်ဘဲ ဘယ်တော့မှ မသုံးသင့်သောကြောင့်",
+            "ပုံသဏ္ဌာန်နှင့် မတူဘဲ DNA သည် မျိုးဆက်များအကြား ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်",
+            "Molecular သက်သေအထောက်အထားကို ရရှိရန် အမြဲတမ်း မဖြစ်နိုင်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Two species can look very similar due to convergent evolution (adapting to similar environments independently) despite being only distantly related -- DNA comparison can reveal the true underlying relationship.",
+          ],
+          hintsMy: [
+            "မျိုးစိတ်နှစ်ခုသည် ဝေးကွာစွာသာ ဆက်နွယ်နေသော်လည်း Convergent Evolution (ဆင်တူသော ပတ်ဝန်းကျင်များနှင့် သီးခြားစီ လိုက်လျောညီထွေ ဖြစ်ခြင်း) ကြောင့် အလွန် ဆင်တူနေနိုင်သည် -- DNA Comparison သည် အစစ်အမှန် နောက်ကွယ်ဆက်နွယ်မှုကို ဖော်ထုတ်ပေးနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Combining morphological and molecular evidence has, in several cases, led scientists to...",
+          questionMy: "Morphological နှင့် Molecular သက်သေအထောက်အထားကို ပေါင်းစပ်ခြင်းသည် ကိစ္စများစွာတွင် Scientist များကို ...စေခဲ့သည်",
+          optionsEn: [
+            "Reclassify organisms that appear similar but are only distantly related, or vice versa",
+            "Stop classifying organisms altogether",
+            "Ignore DNA evidence completely and rely only on appearance",
+            "Merge every species on Earth into a single kingdom",
+          ],
+          optionsMy: [
+            "ဆင်တူသော်လည်း ဝေးကွာစွာသာ ဆက်နွယ်သော Organism များ (သို့) ပြောင်းပြန် ကို ပြန်လည် Classify ပြုလုပ်စေသည်",
+            "Organism များကို Classify ပြုလုပ်ခြင်းကို လုံးလုံး ရပ်တန့်စေသည်",
+            "DNA သက်သေအထောက်အထားကို လုံးလုံး လျစ်လျူရှုကာ ပုံသဏ္ဌာန်ကိုသာ မှီခိုစေသည်",
+            "ကမ္ဘာပေါ်ရှိ မျိုးစိတ်တိုင်းကို Kingdom တစ်ခုတည်းအဖြစ် ပေါင်းစပ်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Classification is not fixed forever -- as new molecular evidence emerges, taxonomists continue to revise groupings to better reflect true evolutionary relationships.",
+          ],
+          hintsMy: [
+            "Classification သည် အမြဲတမ်း အတည်ပြီး ရပ်တန့်ထားခြင်း မဟုတ်ပါ -- Molecular သက်သေအထောက်အထား အသစ် ပေါ်လာသည်နှင့်အမျှ Taxonomist များသည် အုပ်စုများကို စစ်မှန်သော Evolutionary ဆက်နွယ်မှုကို ပို၍ ကောင်းစွာ ထင်ဟပ်ရန် ဆက်လက် ပြင်ဆင်နေကြသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: Classification Evidence Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Classification သက်သေအထောက်အထား ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w27-dm-1",
+          termEn: "Morphology",
+          termMy: "Morphology",
+          matchEn: "The observable physical structure and appearance of an organism",
+          matchMy: "Organism တစ်ခု၏ တွေ့မြင်နိုင်သော ရုပ်ပိုင်းဆိုင်ရာ ဖွဲ့စည်းပုံနှင့် ပုံသဏ္ဌာန်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w27-dm-2",
+          termEn: "Molecular evidence",
+          termMy: "Molecular Evidence",
+          matchEn: "Evidence from comparing DNA or protein sequences between species",
+          matchMy: "မျိုးစိတ်များအကြား DNA သို့မဟုတ် Protein Sequence နှိုင်းယှဉ်ခြင်းမှ သက်သေအထောက်အထား",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w27-dm-3",
+          termEn: "Convergent evolution",
+          termMy: "Convergent Evolution",
+          matchEn: "Distantly related species independently evolving similar features due to similar environments",
+          matchMy: "ဆင်တူသော ပတ်ဝန်းကျင်များကြောင့် ဝေးကွာစွာသာ ဆက်နွယ်သော မျိုးစိတ်များ ဆင်တူသော လက္ခဏာများကို သီးခြားစီ Evolve ဖြစ်စေခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w27-dm-4",
+          termEn: "Reclassification",
+          termMy: "Reclassification",
+          matchEn: "Revising a species' taxonomic group in light of new evidence",
+          matchMy: "သက်သေအထောက်အထား အသစ်အရ မျိုးစိတ်တစ်ခု၏ Taxonomic အုပ်စုကို ပြန်လည် ပြင်ဆင်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w27-dm-5",
+          termEn: "DNA sequence comparison",
+          termMy: "DNA Sequence Comparison",
+          matchEn: "Comparing base sequences between species to estimate how closely related they are",
+          matchMy: "မျိုးစိတ်များ မည်မျှ ရင်းနှီးစွာ ဆက်နွယ်သည်ကို ခန့်မှန်းရန် Base Sequence များ နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Morphological or Molecular Evidence?",
+      titleMy: "စီစစ်ကြမည် - Morphological သို့မဟုတ် Molecular သက်သေအထောက်အထား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Morphological Evidence", "Molecular Evidence"],
+        bucketsMy: ["Morphological Evidence", "Molecular Evidence"],
+        items: [
+          SortingItem(
+            id: "y13bio-w27-sort-1",
+            labelEn: "Comparing the shape and arrangement of limb bones",
+            labelMy: "ခြေလက်အရိုးများ၏ ပုံသဏ္ဌာန်နှင့် စီစဉ်ပုံကို နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Morphological Evidence",
+            correctBucketMy: "Morphological Evidence",
+          ),
+          SortingItem(
+            id: "y13bio-w27-sort-2",
+            labelEn: "Comparing DNA base sequences between two species",
+            labelMy: "မျိုးစိတ်နှစ်ခုအကြား DNA Base Sequence များ နှိုင်းယှဉ်ခြင်း",
+            correctBucketEn: "Molecular Evidence",
+            correctBucketMy: "Molecular Evidence",
+          ),
+          SortingItem(
+            id: "y13bio-w27-sort-3",
+            labelEn: "Counting the number of legs and wings an organism has",
+            labelMy: "Organism တစ်ခု၏ ခြေထောက်နှင့် အတောင် အရေအတွက်ကို ရေတွက်ခြင်း",
+            correctBucketEn: "Morphological Evidence",
+            correctBucketMy: "Morphological Evidence",
+          ),
+          SortingItem(
+            id: "y13bio-w27-sort-4",
+            labelEn: "Estimating divergence time using a molecular clock",
+            labelMy: "Molecular Clock ကို အသုံးပြု၍ ကွဲထွက်ချိန် ခန့်မှန်းခြင်း",
+            correctBucketEn: "Molecular Evidence",
+            correctBucketMy: "Molecular Evidence",
+          ),
+          SortingItem(
+            id: "y13bio-w27-sort-5",
+            labelEn: "Revealing that two visually similar species are only distantly related",
+            labelMy: "အမြင်ဖြင့် ဆင်တူသော မျိုးစိတ်နှစ်ခုသည် ဝေးကွာစွာသာ ဆက်နွယ်ကြောင်း ဖော်ထုတ်ပေးခြင်း",
+            correctBucketEn: "Molecular Evidence",
+            correctBucketMy: "Molecular Evidence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Panda That Wasn't Where It Seemed",
+      titleMy: "စာဖတ်ခြင်း - ထင်ရသလို မဟုတ်ခဲ့သော Panda",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Panda That Wasn't Where It Seemed",
+        titleMy: "ထင်ရသလို မဟုတ်ခဲ့သော Panda",
+        passageEn:
+            "Sayar Zaw Min told the class a true story from the history of classification: for decades, biologists argued fiercely over where the giant panda belonged. Based on morphology alone -- its diet, its skull shape, aspects of its behaviour -- some taxonomists classified it close to raccoons, while others insisted its bear-like body and gait placed it firmly among the bears.\n\nHtet Aung asked how the debate was finally settled. Sayar Zaw Min explained that molecular evidence, comparing DNA sequences, eventually gave a clear and decisive answer: the giant panda's DNA was far more similar to that of true bears than to raccoons, confirming it as a genuine member of the bear family, Ursidae, despite its unusual bamboo diet and some raccoon-like behaviours that had misled morphological classification for so long.\n\n\"That misleading similarity is exactly why relying on morphology alone can be risky,\" Su Su said, connecting it back to what they had just learned about convergent evolution. \"Diet and behaviour can push two only distantly related species toward superficially similar traits, while DNA -- inherited far more directly from a shared ancestor -- tells a more reliable story about actual relatedness.\" Sayar Zaw Min agreed. \"This is exactly why modern classification never relies on morphology or molecular evidence alone,\" he concluded. \"Used together, they check and correct each other -- morphology gives an accessible first impression, and molecular evidence provides the deeper confirmation, or correction, that decides where an organism truly belongs.\"",
+        passageMy:
+            "Classification သမိုင်းကြောင်းမှ အစစ်အမှန် ဖြစ်ရပ်တစ်ခုကို ဆရာဇော်မင်း အတန်းအား ပြောပြခဲ့သည် - နှစ်ပေါင်းများစွာ Biologist များသည် Giant Panda မည်သည့်နေရာတွင် ပါဝင်သည်ကို ပြင်းထန်စွာ အငြင်းပွားခဲ့ကြသည်။ Morphology တစ်ခုတည်းအပေါ် အခြေခံ၍ -- ၎င်း၏ အစားအစာ, ဦးခေါင်းခွံပုံသဏ္ဌာန်, အပြုအမူ အချို့ -- Taxonomist အချို့သည် ၎င်းကို ရေခွေးများနှင့် နီးစပ်စွာ Classify ပြုလုပ်ခဲ့ပြီး အချို့ကမူ ၎င်း၏ ဝက်ဝံနှင့်ဆင်တူသော ခန္ဓာကိုယ်နှင့် လျှောက်လှမ်းပုံက ၎င်းကို ဝက်ဝံများထဲသို့ ခိုင်ခိုင်မာမာ ထားရှိရမည်ဟု ခိုင်ခိုင်မာမာ ဆိုခဲ့ကြသည်။\n\nအငြင်းပွားမှုကို နောက်ဆုံး မည်သို့ ဖြေရှင်းနိုင်ခဲ့သည်ကို Htet Aung မေးခဲ့သည်။ DNA Sequence နှိုင်းယှဉ်ခြင်း Molecular သက်သေအထောက်အထားက နောက်ဆုံးတွင် ရှင်းလင်းပြီး ဆုံးဖြတ်ချက်ချနိုင်သော အဖြေတစ်ခု ပေးခဲ့ကြောင်း ဆရာဇော်မင်း ရှင်းပြခဲ့သည် - Giant Panda ၏ DNA သည် ရေခွေးများထက် ဝက်ဝံစစ်စစ်များ၏ DNA နှင့် များစွာ ပို၍ ဆင်တူခဲ့ပြီး ၎င်း၏ ထူးခြားသော ဝါးအစားအစာနှင့် ရေခွေးနှင့်ဆင်တူသော အပြုအမူ အချို့ (Morphological Classification ကို ဤမျှ ကြာအောင် လမ်းလွဲစေခဲ့သော) ရှိသော်လည်း Ursidae ဝက်ဝံ Family ၏ စစ်မှန်သော အဖွဲ့ဝင်တစ်ဦးအဖြစ် အတည်ပြုခဲ့သည်။\n\n\"ထို လမ်းလွဲစေသော ဆင်တူမှုကပင် Morphology တစ်ခုတည်းကို မှီခိုခြင်းသည် အန္တရာယ် ရှိနိုင်သည့်အကြောင်းရင်း အတိအကျ ဖြစ်ပါတယ်\" ဟု Su Su က Convergent Evolution အကြောင်း ယခုမှ လေ့လာခဲ့သည်နှင့် ချိတ်ဆက်ကာ ဆိုခဲ့သည်။ \"အစားအစာနှင့် အပြုအမူသည် ဝေးကွာစွာသာ ဆက်နွယ်သော မျိုးစိတ်နှစ်ခုကို ယဉ်ကျေးမှုပြင်ပ ဆင်တူသော လက္ခဏာများဆီသို့ တွန်းအားပေးနိုင်သော်လည်း -- ဘုံ ဘိုးဘေးတစ်ခုမှ ပို၍ တိုက်ရိုက် အမွေဆက်ခံရသော DNA မှာမူ စစ်မှန်သော ဆက်နွယ်မှုအကြောင်း ပို၍ ယုံကြည်စိတ်ချရသော ဇာတ်လမ်းကို ပြောပြသည်။\" ဆရာဇော်မင်း သဘောတူခဲ့သည်။ \"ဒါကပင် ခေတ်သစ် Classification သည် Morphology (သို့) Molecular သက်သေအထောက်အထား တစ်ခုတည်းကို ဘယ်တော့မှ မမှီခိုသည့် အကြောင်းရင်း ဖြစ်ပါတယ်\" ဟု သူ နိဂုံးချုပ်ခဲ့သည်။ \"နှစ်ခုစလုံးကို အတူတကွ အသုံးပြုသောအခါ တစ်ခုနှင့်တစ်ခု စစ်ဆေးပြီး ပြင်ဆင်ပေးသည် -- Morphology က ရရှိလွယ်ကူသော ပထမ ခံစားချက် ပေးပြီး Molecular သက်သေအထောက်အထားက Organism တစ်ခု အမှန်တကယ် မည်သည့်နေရာတွင် ပါဝင်သည်ကို ဆုံးဖြတ်ပေးသော နက်ရှိုင်းသော အတည်ပြုချက် (သို့) ပြင်ဆင်ချက် ပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the first paragraph, what did morphology-based taxonomists disagree about regarding the giant panda?",
+            questionMy: "Giant Panda နှင့်ပတ်သက်၍ Morphology-Based Taxonomist များ မသဘောတူခဲ့ကြသောအရာကို ပထမစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Whether it belonged with raccoons or bears",
+              "Whether it was extinct or still living",
+              "Whether it had DNA at all",
+              "Whether it was a plant or an animal",
+            ],
+            optionsMy: [
+              "ရေခွေးများ (သို့) ဝက်ဝံများနှင့် ပါဝင်သင့်သလား",
+              "မျိုးသုဉ်းသွားပြီလား (သို့) ကျန်ရှိနေသေးသလား",
+              "DNA ရှိသလား",
+              "အပင် (သို့) တိရစ္ဆာန် ဖြစ်သလား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min, what did molecular evidence eventually confirm about the giant panda?",
+            questionMy: "Giant Panda နှင့်ပတ်သက်၍ Molecular သက်သေအထောက်အထားက နောက်ဆုံးတွင် မည်သည်ကို အတည်ပြုသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is a genuine member of the bear family",
+              "It is a genuine member of the raccoon family",
+              "It has no relationship to any other animal",
+              "It is actually a plant, not an animal",
+            ],
+            optionsMy: [
+              "ဝက်ဝံ Family ၏ စစ်မှန်သော အဖွဲ့ဝင်တစ်ဦး ဖြစ်ကြောင်း",
+              "ရေခွေး Family ၏ စစ်မှန်သော အဖွဲ့ဝင်တစ်ဦး ဖြစ်ကြောင်း",
+              "အခြား တိရစ္ဆာန်မည်သည်နှင့်မျှ ဆက်နွယ်မှု မရှိကြောင်း",
+              "တိရစ္ဆာန်မဟုတ်ဘဲ အပင်စစ်စစ် ဖြစ်ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, why does modern classification never rely on just one type of evidence?",
+            questionMy: "ခေတ်သစ် Classification သည် သက်သေအထောက်အထား တစ်မျိုးတည်းကို ဘယ်တော့မှ မမှီခိုသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Morphological and molecular evidence check and correct each other",
+              "Molecular evidence is always wrong on its own",
+              "Morphology is always more reliable than DNA",
+              "Using two types of evidence is required by law",
+            ],
+            optionsMy: [
+              "Morphological နှင့် Molecular သက်သေအထောက်အထားသည် တစ်ခုနှင့်တစ်ခု စစ်ဆေးပြီး ပြင်ဆင်ပေးသောကြောင့်",
+              "Molecular သက်သေအထောက်အထား တစ်ခုတည်းက အမြဲတမ်း မှားနေသောကြောင့်",
+              "Morphology သည် DNA ထက် အမြဲတမ်း ပို၍ ယုံကြည်စိတ်ချရသောကြောင့်",
+              "သက်သေအထောက်အထား အမျိုးအစားနှစ်မျိုး အသုံးပြုရန် ဥပဒေအရ လိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: Evidence for Classification",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Classification သက်သေအထောက်အထား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Traditional classification relied mainly on...",
+          questionMy: "ရိုးရာ Classification သည် အဓိကအားဖြင့် ...ကို မှီခိုခဲ့သည်",
+          optionsEn: ["Morphology", "DNA sequences alone", "Blood glucose level", "Habitat location alone"],
+          optionsMy: ["Morphology", "DNA Sequence တစ်ခုတည်း", "သွေးတွင်း Glucose အဆင့်", "Habitat တည်နေရာတစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Molecular evidence can reveal that two visually similar species are...",
+          questionMy: "Molecular သက်သေအထောက်အထားသည် အမြင်ဖြင့် ဆင်တူသော မျိုးစိတ်နှစ်ခုသည် ...ကြောင်း ဖော်ထုတ်ပေးနိုင်သည်",
+          optionsEn: [
+            "Only distantly related, despite convergent evolution",
+            "Always exactly identical genetically",
+            "Never related at all in any way",
+            "Impossible to compare using DNA",
+          ],
+          optionsMy: [
+            "Convergent Evolution ရှိသော်လည်း ဝေးကွာစွာသာ ဆက်နွယ်",
+            "Genetically အတိအကျ တူညီ, အမြဲတမ်း",
+            "မည်သည့်နည်းနှင့်မျှ လုံးဝ မဆက်နွယ်",
+            "DNA ဖြင့် နှိုင်းယှဉ်၍ မရ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Modern classification combines morphological and molecular evidence because...",
+          questionMy: "ခေတ်သစ် Classification သည် Morphological နှင့် Molecular သက်သေအထောက်အထားကို ပေါင်းစပ်ရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "They check and correct each other",
+            "Only one type of evidence has ever existed",
+            "Morphology is always irrelevant",
+            "DNA never provides useful information",
+          ],
+          optionsMy: [
+            "တစ်ခုနှင့်တစ်ခု စစ်ဆေးပြီး ပြင်ဆင်ပေးသောကြောင့်",
+            "သက်သေအထောက်အထား အမျိုးအစားတစ်ခုတည်းသာ တစ်ခါမျှ ရှိခဲ့သောကြောင့်",
+            "Morphology သည် အမြဲတမ်း မသက်ဆိုင်သောကြောင့်",
+            "DNA သည် အသုံးဝင်သော အချက်အလက် ဘယ်တော့မှ မပေးသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28: "Conservation of Biodiversity" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek28 = CourseWeekDef(
+  id: "course-y13-bio-w28",
+  weekNumber: 28,
+  titleEn: "Conservation of Biodiversity",
+  titleMy: "Biodiversity ထိန်းသိမ်းစောင့်ရှောက်ရေး",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w28-d1",
+      dayNumber: 1,
+      titleEn: "In-Situ and Ex-Situ Conservation",
+      titleMy: "In-Situ နှင့် Ex-Situ Conservation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In-situ conservation protects a species by...",
+          questionMy: "In-Situ Conservation သည် ...ဖြင့် မျိုးစိတ်တစ်ခုကို ကာကွယ်ပေးသည်",
+          optionsEn: [
+            "Protecting it within its natural habitat, e.g. a national park or nature reserve",
+            "Removing it entirely from its natural habitat and breeding it in a zoo",
+            "Freezing its cells in a laboratory seed bank only",
+            "Growing it in a laboratory dish with no connection to nature",
+          ],
+          optionsMy: [
+            "၎င်း၏ သဘာဝ Habitat အတွင်း ကာကွယ်ခြင်း၊ ဥပမာ - National Park (သို့) Nature Reserve",
+            "၎င်းကို ၎င်း၏ သဘာဝ Habitat မှ လုံးလုံး ဖယ်ရှားပြီး Zoo တွင် မျိုးပွားခြင်း",
+            "Laboratory Seed Bank တွင် ၎င်း၏ ဆဲလ်များကို ရေခဲစေခြင်းသာ",
+            "သဘာဝနှင့် ဆက်စပ်မှု လုံးဝ မရှိဘဲ Laboratory Dish ထဲတွင် ပြုစုပျိုးထောင်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In-situ (\"in place\") conservation keeps the species in its natural ecosystem, protecting the whole web of interactions it is part of, not just the species itself.",
+          ],
+          hintsMy: [
+            "In-Situ (\"နေရာတွင်\") Conservation သည် မျိုးစိတ်ကို ၎င်း၏ သဘာဝ Ecosystem တွင် ထားရှိစေပြီး မျိုးစိတ်ကိုယ်တိုင်ကိုသာမက ၎င်းပါဝင်သော အပြန်အလှန် ဆက်နွယ်မှု Web တစ်ခုလုံးကို ကာကွယ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Ex-situ conservation protects a species by...",
+          questionMy: "Ex-Situ Conservation သည် ...ဖြင့် မျိုးစိတ်တစ်ခုကို ကာကွယ်ပေးသည်",
+          optionsEn: [
+            "Removing it from its natural habitat, e.g. into a zoo, botanic garden or seed bank",
+            "Never intervening with the species at all",
+            "Building a national park around it",
+            "Only observing it from a great distance",
+          ],
+          optionsMy: [
+            "၎င်း၏ သဘာဝ Habitat မှ ဖယ်ရှားခြင်း၊ ဥပမာ - Zoo, Botanic Garden (သို့) Seed Bank ထဲသို့",
+            "မျိုးစိတ်ကို လုံးလုံး ဝင်ရောက်စွက်ဖက်ခြင်း မပြုခြင်း",
+            "၎င်းပတ်လည် National Park တစ်ခု တည်ဆောက်ခြင်း",
+            "အလွန်ဝေးသော အကွာအဝေးမှ စောင့်ကြည့်ခြင်းသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ex-situ (\"off site\") conservation is often used as a last resort or safety net for critically endangered species, or to build a genetic reserve for future reintroduction.",
+          ],
+          hintsMy: [
+            "Ex-Situ (\"နေရာပြင်ပ\") Conservation ကို ဆုံးရှုံးလုနီးပါး ရှိသော မျိုးစိတ်များအတွက် နောက်ဆုံး ရွေးချယ်စရာ (သို့) Safety Net အဖြစ် (သို့) နောင် Reintroduction အတွက် Genetic Reserve တည်ဆောက်ရန် မကြာခဏ အသုံးပြုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A key limitation of ex-situ conservation is that...",
+          questionMy: "Ex-Situ Conservation ၏ အဓိက ကန့်သတ်ချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "The species is removed from the ecological relationships and pressures that shaped it, and a small captive population may lose genetic variation",
+            "It is always cheaper than in-situ conservation",
+            "It requires no human effort of any kind",
+            "It guarantees the species can never go extinct",
+          ],
+          optionsMy: [
+            "မျိုးစိတ်ကို ပုံဖော်ပေးခဲ့သော Ecological ဆက်နွယ်မှုများနှင့် ဖိအားများမှ ဖယ်ရှားခံရပြီး Captive Population သေးငယ်သည် Genetic Variation ဆုံးရှုံးနိုင်သည်",
+            "In-Situ Conservation ထက် အမြဲတမ်း ပို၍ တန်ဖိုးသက်သာသောကြောင့်",
+            "လူသား ကြိုးပမ်းမှု မည်သည့်အမျိုးအစားမျှ လုံးဝ မလိုအပ်ခြင်း",
+            "မျိုးစိတ် ဘယ်တော့မှ မျိုးမသုဉ်းနိုင်ကြောင်း အာမခံခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A small captive population, even if well cared for, can suffer from inbreeding and reduced genetic diversity -- which is exactly why in-situ conservation is generally preferred whenever it remains a viable option.",
+          ],
+          hintsMy: [
+            "Captive Population သေးငယ်သည် ကောင်းစွာ စောင့်ရှောက်ထားသော်လည်း Inbreeding နှင့် Genetic Diversity လျော့ကျခြင်းကို ခံစားရနိုင်သည် -- ၎င်းက In-Situ Conservation ဖြစ်နိုင်ချေရှိနေသရွေ့ ပုံမှန်အားဖြင့် ပို၍ ကြိုက်နှစ်သက်ရသည့်အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Conservation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Conservation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w28-dm-1",
+          termEn: "In-situ conservation",
+          termMy: "In-Situ Conservation",
+          matchEn: "Protecting a species within its natural habitat, e.g. a nature reserve",
+          matchMy: "မျိုးစိတ်တစ်ခုကို ၎င်း၏ သဘာဝ Habitat အတွင်း ကာကွယ်ခြင်း၊ ဥပမာ - Nature Reserve",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w28-dm-2",
+          termEn: "Ex-situ conservation",
+          termMy: "Ex-Situ Conservation",
+          matchEn: "Protecting a species outside its natural habitat, e.g. a zoo or seed bank",
+          matchMy: "မျိုးစိတ်တစ်ခုကို ၎င်း၏ သဘာဝ Habitat ပြင်ပ ကာကွယ်ခြင်း၊ ဥပမာ - Zoo (သို့) Seed Bank",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w28-dm-3",
+          termEn: "Seed bank",
+          termMy: "Seed Bank",
+          matchEn: "A facility storing seeds from a wide range of plant species for future use",
+          matchMy: "အနာဂတ် အသုံးပြုရန် အပင်မျိုးစိတ် ကျယ်ပြန့်စွာ၏ မျိုးစေ့များကို သိမ်းဆည်းသော Facility",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w28-dm-4",
+          termEn: "Captive breeding programme",
+          termMy: "Captive Breeding Programme",
+          matchEn: "Breeding endangered species in a controlled environment such as a zoo, sometimes for later reintroduction",
+          matchMy: "Zoo ကဲ့သို့ ထိန်းချုပ်ထားသော ပတ်ဝန်းကျင်တွင် ဆုံးရှုံးလုနီးပါး ရှိသော မျိုးစိတ်များကို မျိုးပွားခြင်း၊ တစ်ခါတစ်ရံ နောင် Reintroduction အတွက်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w28-dm-5",
+          termEn: "Reintroduction",
+          termMy: "Reintroduction",
+          matchEn: "Releasing captive-bred or relocated individuals back into a suitable natural habitat",
+          matchMy: "Captive-Bred (သို့) Relocated လူပုဂ္ဂိုလ်များကို သင့်လျော်သော သဘာဝ Habitat ထဲသို့ ပြန်လည် ထုတ်လွှတ်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: In-Situ or Ex-Situ Conservation?",
+      titleMy: "စီစစ်ကြမည် - In-Situ သို့မဟုတ် Ex-Situ Conservation?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["In-Situ Conservation", "Ex-Situ Conservation"],
+        bucketsMy: ["In-Situ Conservation", "Ex-Situ Conservation"],
+        items: [
+          SortingItem(
+            id: "y13bio-w28-sort-1",
+            labelEn: "A protected national park guarding wild tigers in their natural forest",
+            labelMy: "သဘာဝတောအတွင်း ကျားရိုင်းများကို ကာကွယ်ပေးသော ကာကွယ်ထားသော National Park",
+            correctBucketEn: "In-Situ Conservation",
+            correctBucketMy: "In-Situ Conservation",
+          ),
+          SortingItem(
+            id: "y13bio-w28-sort-2",
+            labelEn: "A seed bank storing seeds from rare plant species",
+            labelMy: "ရှားပါးအပင် မျိုးစိတ်များ၏ မျိုးစေ့များကို သိမ်းဆည်းထားသော Seed Bank",
+            correctBucketEn: "Ex-Situ Conservation",
+            correctBucketMy: "Ex-Situ Conservation",
+          ),
+          SortingItem(
+            id: "y13bio-w28-sort-3",
+            labelEn: "A marine reserve protecting a coral reef in the open ocean",
+            labelMy: "ပင်လယ်ပြင်ရှိ ပြေမြက်ကျောက်တန်းကို ကာကွယ်ပေးသော Marine Reserve",
+            correctBucketEn: "In-Situ Conservation",
+            correctBucketMy: "In-Situ Conservation",
+          ),
+          SortingItem(
+            id: "y13bio-w28-sort-4",
+            labelEn: "A zoo's captive breeding programme for a critically endangered species",
+            labelMy: "ဆုံးရှုံးလုနီးပါး ရှိသော မျိုးစိတ်တစ်ခုအတွက် Zoo ၏ Captive Breeding Programme",
+            correctBucketEn: "Ex-Situ Conservation",
+            correctBucketMy: "Ex-Situ Conservation",
+          ),
+          SortingItem(
+            id: "y13bio-w28-sort-5",
+            labelEn: "Protects the whole ecosystem, not just the target species",
+            labelMy: "Target မျိုးစိတ်ကိုသာမက Ecosystem တစ်ခုလုံးကို ကာကွယ်ပေးသည်",
+            correctBucketEn: "In-Situ Conservation",
+            correctBucketMy: "In-Situ Conservation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Two Plans to Save One Species",
+      titleMy: "စာဖတ်ခြင်း - မျိုးစိတ်တစ်ခု ကယ်တင်ရန် အစီအစဉ်နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Two Plans to Save One Species",
+        titleMy: "မျိုးစိတ်တစ်ခု ကယ်တင်ရန် အစီအစဉ်နှစ်ခု",
+        passageEn:
+            "For the term's capstone lesson, Sayar Zaw Min presented a case study: a critically endangered orchid species, found only in one small patch of forest threatened by logging, with fewer than fifty individuals remaining in the wild. He asked the class to design a conservation plan drawing on everything they had learned this term about biodiversity, classification and conservation.\n\nHtet Aung argued for an in-situ approach first: since the orchid's remaining wild population still existed within its natural ecosystem, protecting that patch of forest -- through legal protection, patrols against illegal logging, and community engagement with local people -- would preserve not just the orchid but the entire web of pollinators, soil fungi and other species it depended on. \"Removing it from that habitat,\" he said, \"would break relationships we might not even know it has yet.\"\n\nSu Su agreed but pushed further: with fewer than fifty individuals left, a single storm, fire or disease outbreak could wipe out the entire wild population overnight. She proposed an ex-situ safety net alongside the in-situ protection -- collecting seeds for a seed bank, and propagating a small number of plants in a botanic garden, purely as insurance against the wild population's total loss. \"Notice this isn't really an either/or choice,\" Sayar Zaw Min said, tying the plan together. \"In-situ protection is almost always the priority, because it preserves the whole ecosystem, not just the species. But for a population this critically small, ex-situ conservation as a backup, with a clear plan for eventual reintroduction once the habitat threat is under control, gives the species two independent chances at survival instead of one. Recognising which combination of tools a given species actually needs -- informed by exactly the kind of species richness, evenness and classification evidence we've studied all term -- is what real conservation planning looks like.\"",
+        passageMy:
+            "Term ၏ Capstone သင်ခန်းစာအတွက် ဆရာဇော်မင်းသည် Case Study တစ်ခု တင်ပြခဲ့သည် - သစ်ခုတ်ခြင်းကြောင့် ခြိမ်းခြောက်ခံနေရသော သစ်တော အနည်းငယ်တွင်သာ တွေ့ရသော ဆုံးရှုံးလုနီးပါး ရှိသော ကြာမျိုးစိတ်တစ်ခု၊ ကျန်ရှိသည့် သဘာဝထဲ လူပုဂ္ဂိုလ် ငါးဆယ်ထက် နည်း။ ဤ Term တလျှောက် Biodiversity, Classification နှင့် Conservation အကြောင်း သင်ယူခဲ့သမျှကို အခြေခံ၍ Conservation Plan တစ်ခု ဒီဇိုင်းရေးဆွဲရန် အတန်းအား သူ တောင်းဆိုခဲ့သည်။\n\nHtet Aung သည် In-Situ Approach ကို ဦးစွာ ငြင်းခုံခဲ့သည် - ကြာ၏ ကျန်ရှိသော သဘာဝ Population သည် ၎င်း၏ သဘာဝ Ecosystem အတွင်း ရှိနေဆဲဖြစ်သောကြောင့် ထို သစ်တော အနည်းငယ်ကို ကာကွယ်ခြင်း -- ဥပဒေအရ ကာကွယ်ခြင်း, တရားမဝင် သစ်ခုတ်ခြင်းကို တားဆီးရန် ကင်းလှည့်ခြင်းနှင့် ဒေသခံလူထုနှင့် ပူးပေါင်းဆောင်ရွက်ခြင်း -- သည် ကြာကိုသာမက ၎င်းမှီခိုနေသော Pollinator, ရေမြေအောက် Fungi နှင့် အခြား မျိုးစိတ်များ Web တစ်ခုလုံးကို ထိန်းသိမ်းပေးလိမ့်မည်။ \"ထို Habitat မှ ၎င်းကို ဖယ်ရှားလိုက်ပါက\" ဟု သူ ဆိုခဲ့သည် \"ကျွန်တော်တို့ ယခုမသိသေးသော ဆက်နွယ်မှုများကို ချိုးဖျက်လိုက်ရာ ကျလိမ့်မည်။\"\n\nSu Su သဘောတူသော်လည်း ပို၍ ရှေ့တိုးခဲ့သည် - လူပုဂ္ဂိုလ် ငါးဆယ်ထက် နည်းသောကြောင့် မိုးသက်မုန်တိုင်း, မီးလောင်ခြင်း (သို့) ရောဂါ ပျံ့နှံ့မှုတစ်ခုတည်းသည် တစ်ညလုံး သဘာဝ Population တစ်ခုလုံးကို သုတ်သင်နိုင်သည်။ ၎င်းသည် In-Situ ကာကွယ်ရေးနှင့်အတူ Ex-Situ Safety Net တစ်ခု အကြံပြုခဲ့သည် -- Seed Bank အတွက် မျိုးစေ့များ စုဆောင်းခြင်းနှင့် Botanic Garden တွင် အပင်အနည်းငယ် ပျိုးထောင်ခြင်း၊ သဘာဝ Population လုံးလုံး ဆုံးရှုံးမှုအား Insurance အနေဖြင့်။ \"ဒါက Either/Or ရွေးချယ်စရာ တကယ်တော့ မဟုတ်ပါ\" ဟု ဆရာဇော်မင်း အစီအစဉ်ကို ပေါင်းစပ်ရင်း ဆိုခဲ့သည်။ \"In-Situ ကာကွယ်ခြင်းသည် Ecosystem တစ်ခုလုံးကို ထိန်းသိမ်းပေးသောကြောင့် လုနီးပါး အမြဲတမ်း ဦးစားပေးအချက် ဖြစ်သည်။ သို့သော် ဤမျှ ဆုံးရှုံးလုနီးပါး ငယ်သေးသော Population အတွက် Habitat ခြိမ်းခြောက်မှု ထိန်းချုပ်ပြီးလျှင် နောင် Reintroduction အတွက် ရှင်းလင်းသော အစီအစဉ်ဖြင့် Backup အနေဖြင့် Ex-Situ Conservation က မျိုးစိတ်ကို ရှင်သန်ရန် တစ်ခုတည်းအစား သီးခြားစီ အခွင့်အလမ်းနှစ်ခု ပေးသည်။ Species Richness, Evenness နှင့် Classification သက်သေအထောက်အထား -- Term တစ်ခုလုံး လေ့လာခဲ့သမျှအတိုင်း -- ဖြင့် ညွှန်ကြားချက် ရရှိထားသော မျိုးစိတ်တစ်ခု အမှန်တကယ် လိုအပ်သော Tool ပေါင်းစပ်မှုကို သိရှိခြင်းသည် အစစ်အမှန် Conservation Planning ၏ ပုံစံ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why does protecting the orchid's forest habitat also help other species?",
+            questionMy: "ကြာ၏ သစ်တော Habitat ကို ကာကွယ်ခြင်းသည် အခြား မျိုးစိတ်များကိုပါ ကူညီရသည့်အကြောင်းရင်းကို Htet Aung ၏ ငြင်းခုံချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It preserves the whole web of pollinators and other species the orchid depends on",
+              "It has no effect on any other species at all",
+              "It removes every other species from the forest",
+              "It only benefits the orchid and destroys everything else",
+            ],
+            optionsMy: [
+              "ကြာ မှီခိုနေသော Pollinator များနှင့် အခြားမျိုးစိတ်များ Web တစ်ခုလုံးကို ထိန်းသိမ်းပေးသောကြောင့်",
+              "အခြားမျိုးစိတ် မည်သည့်တွင်မျှ သက်ရောက်မှု လုံးဝ မရှိသောကြောင့်",
+              "သစ်တောမှ အခြားမျိုးစိတ်အားလုံးကို ဖယ်ရှားသောကြောင့်",
+              "ကြာကိုသာ အကျိုးပြုပြီး အခြားအားလုံးကို ဖျက်ဆီးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, why did she propose an ex-situ safety net alongside in-situ protection?",
+            questionMy: "In-Situ ကာကွယ်ခြင်းနှင့်အတူ Ex-Situ Safety Net တစ်ခု အကြံပြုရသည့်အကြောင်းရင်းကို Su Su ၏ အကြံပြုချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A single storm, fire or disease could wipe out the tiny wild population overnight",
+              "In-situ conservation is always completely useless",
+              "The wild population had already gone extinct",
+              "Ex-situ conservation requires no resources at all",
+            ],
+            optionsMy: [
+              "မိုးသက်မုန်တိုင်း, မီးလောင်ခြင်း (သို့) ရောဂါတစ်ခုတည်းသည် သေးငယ်သော သဘာဝ Population ကို တစ်ညလုံး သုတ်သင်နိုင်သောကြောင့်",
+              "In-Situ Conservation သည် အမြဲတမ်း လုံးလုံး အသုံးမဝင်သောကြောင့်",
+              "သဘာဝ Population သည် မျိုးသုဉ်းသွားခဲ့ပြီးသောကြောင့်",
+              "Ex-Situ Conservation သည် အရင်းအမြစ် မည်သည်မျှ လုံးဝ မလိုအပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, which type of conservation is almost always the priority?",
+            questionMy: "Conservation အမျိုးအစား မည်သည် လုနီးပါး အမြဲတမ်း ဦးစားပေးအချက် ဖြစ်သည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "In-situ conservation, because it preserves the whole ecosystem",
+              "Ex-situ conservation, because it is always cheaper",
+              "Neither type of conservation is ever needed",
+              "Only ex-situ conservation, and never in-situ",
+            ],
+            optionsMy: [
+              "In-Situ Conservation, Ecosystem တစ်ခုလုံးကို ထိန်းသိမ်းပေးသောကြောင့်",
+              "Ex-Situ Conservation, အမြဲတမ်း ပို၍ တန်ဖိုးသက်သာသောကြောင့်",
+              "Conservation အမျိုးအစား နှစ်ခုစလုံး ဘယ်တော့မှ မလိုအပ်ပါ",
+              "Ex-Situ Conservation တစ်ခုတည်း၊ In-Situ လုံးဝ မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Conservation of Biodiversity",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Biodiversity ထိန်းသိမ်းစောင့်ရှောက်ရေး",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In-situ conservation protects a species...",
+          questionMy: "In-Situ Conservation သည် မျိုးစိတ်တစ်ခုကို ...ကာကွယ်ပေးသည်",
+          optionsEn: [
+            "Within its natural habitat",
+            "Only in a laboratory dish",
+            "Only after it has gone extinct",
+            "By removing it from every ecosystem",
+          ],
+          optionsMy: [
+            "၎င်း၏ သဘာဝ Habitat အတွင်း",
+            "Laboratory Dish တွင်သာ",
+            "မျိုးသုဉ်းသွားပြီးနောက်သာ",
+            "Ecosystem တိုင်းမှ ဖယ်ရှားခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Ex-situ conservation examples include...",
+          questionMy: "Ex-Situ Conservation ဥပမာများတွင် ...ပါဝင်သည်",
+          optionsEn: [
+            "Zoos and seed banks",
+            "National parks only",
+            "Marine reserves only",
+            "Wild forests only",
+          ],
+          optionsMy: ["Zoo နှင့် Seed Bank", "National Park သာ", "Marine Reserve သာ", "သစ်တောရိုင်း သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A key limitation of ex-situ conservation is that a small captive population may...",
+          questionMy: "Ex-Situ Conservation ၏ အဓိက ကန့်သတ်ချက်တစ်ခုမှာ Captive Population သေးငယ်သည် ...နိုင်သည်",
+          optionsEn: [
+            "Lose genetic variation",
+            "Automatically gain unlimited genetic variation",
+            "Never require any care",
+            "Become larger than the wild population instantly",
+          ],
+          optionsMy: [
+            "Genetic Variation ဆုံးရှုံး",
+            "ကန့်သတ်မှုမရှိသော Genetic Variation အလိုအလျောက် ရရှိ",
+            "စောင့်ရှောက်မှု မည်သည်မျှ ဘယ်တော့မှ မလိုအပ်",
+            "သဘာဝ Population ထက် ချက်ချင်း ပိုကြီးလာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm7 = CourseTermDef(
+  id: "course-y13-bio-t7",
+  termNumber: 7,
+  titleEn: "Biodiversity and Classification",
+  titleMy: "Biodiversity and Classification",
+  weeks: [_y13BioWeek25, _y13BioWeek26, _y13BioWeek27, _y13BioWeek28],
+  certificateTitleEn: "A2 Biology: Biodiversity and Classification",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Biodiversity and Classification",
+);
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 8: "Genetic Technology"
+// (Weeks 29-32)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Restriction Enzymes and Gel Electrophoresis"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek29 = CourseWeekDef(
+  id: "course-y13-bio-w29",
+  weekNumber: 29,
+  titleEn: "Restriction Enzymes and Gel Electrophoresis",
+  titleMy: "Restriction Enzyme နှင့် Gel Electrophoresis",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w29-d1",
+      dayNumber: 1,
+      titleEn: "Cutting and Separating DNA",
+      titleMy: "DNA ဖြတ်ခြင်းနှင့် ခွဲထုတ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A restriction enzyme cuts DNA at a specific...",
+          questionMy: "Restriction Enzyme သည် DNA ကို သီးခြားတစ်ခုတွင် ဖြတ်ပေးသည်",
+          optionsEn: [
+            "Recognition sequence, a particular short sequence of bases",
+            "Random location, different every single time",
+            "Chromosome centromere only",
+            "Ribosome binding site only",
+          ],
+          optionsMy: [
+            "Recognition Sequence, Base တိုတို သီးခြားစီ",
+            "Random တည်နေရာ, အချိန်တိုင်း ကွဲပြား",
+            "Chromosome Centromere တစ်ခုတည်း",
+            "Ribosome Binding Site တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each restriction enzyme recognises and cuts one specific base sequence -- different enzymes recognise different sequences, letting scientists choose the right cutting tool for a given task.",
+          ],
+          hintsMy: [
+            "Restriction Enzyme တစ်ခုစီသည် သီးခြား Base Sequence တစ်ခုကို ရှာဖွေတွေ့ရှိကာ ဖြတ်ပေးသည် -- Enzyme ကွဲပြားများသည် Sequence ကွဲပြားများကို ရှာဖွေတွေ့ရှိကြပြီး Scientist များအား လုပ်ငန်းတစ်ခုအတွက် မှန်ကန်သော ဖြတ်ခြင်း Tool ရွေးချယ်ခွင့် ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Cutting DNA with a restriction enzyme can produce fragments with \"sticky ends\", meaning...",
+          questionMy: "Restriction Enzyme ဖြင့် DNA ဖြတ်ခြင်းက \"Sticky End\" ပါသော အပိုင်းများ ထုတ်ပေးနိုင်ပြီး ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "Short, single-stranded overhangs that can base-pair with complementary sticky ends on other DNA fragments",
+            "The fragments become permanently welded together and cannot be separated",
+            "The DNA is destroyed completely with no fragments remaining",
+            "Every fragment produced is identical in length",
+          ],
+          optionsMy: [
+            "Complementary Sticky End ပါသော အခြား DNA အပိုင်းများနှင့် Base-pair ဖြစ်နိုင်သော တိုတောင်းသော Single-Stranded Overhang",
+            "အပိုင်းများသည် အမြဲတမ်း ဆက်စည်း၍ ခွဲထုတ်၍ မရနိုင်ကြောင့်",
+            "DNA သည် လုံးလုံး ဖျက်ဆီးခံရပြီး အပိုင်း မည်သည်မျှ မကျန်ကြောင့်",
+            "ထုတ်လုပ်ထားသော အပိုင်းတိုင်း အလျား တူညီကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "These sticky ends are exactly what makes it possible to join a fragment of DNA from one organism into a vector from a completely different one -- the complementary overhangs base-pair together.",
+          ],
+          hintsMy: [
+            "ဤ Sticky End များသည် Organism တစ်ခု၏ DNA အပိုင်းကို လုံးလုံးကွဲပြားသော အခြားတစ်ခု၏ Vector ထဲသို့ ချိတ်ဆက်ရန် ဖြစ်နိုင်စေသည့် အချက် အတိအကျ ဖြစ်သည် -- Complementary Overhang များသည် Base-Pair ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Gel electrophoresis separates DNA fragments mainly by...",
+          questionMy: "Gel Electrophoresis သည် DNA အပိုင်းများကို အဓိကအားဖြင့် ...ဖြင့် ခွဲထုတ်ပေးသည်",
+          optionsEn: [
+            "Size, since smaller fragments move faster through the gel toward the positive electrode",
+            "Colour, since fragments are naturally different colours",
+            "Temperature, since fragments melt at different rates",
+            "Smell, using a specialised detector",
+          ],
+          optionsMy: [
+            "အရွယ်အစား, Fragment ငယ်များသည် Positive Electrode ဆီသို့ Gel ကို ဖြတ်၍ ပိုမြန်စွာ ရွေ့လျားသောကြောင့်",
+            "အရောင်, Fragment များသည် သဘာဝအားဖြင့် အရောင် ကွဲပြားသောကြောင့်",
+            "အပူချိန်, Fragment များသည် ကွဲပြားသော နှုန်းဖြင့် အရည်ပျော်သောကြောင့်",
+            "အနံ့, အထူးပြုလုပ်ထားသော Detector ကို အသုံးပြု၍",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "DNA is negatively charged, so it migrates through the gel toward the positive electrode when a current is applied -- smaller fragments slip through the gel's mesh more easily and travel further in a given time.",
+          ],
+          hintsMy: [
+            "DNA သည် Negative Charge ရှိသောကြောင့် Current ပေးလိုက်သောအခါ Positive Electrode ဆီသို့ Gel ကို ဖြတ်၍ ရွေ့လျားသည် -- Fragment ငယ်များသည် Gel ၏ Mesh ကို ပို၍ လွယ်ကူစွာ ဖြတ်နိုင်ပြီး သတ်မှတ်ထားသော အချိန်အတွင်း ပို၍ ဝေးဝေးသို့ သွားနိုင်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gene Technology Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Gene Technology ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w29-dm-1",
+          termEn: "Restriction enzyme",
+          termMy: "Restriction Enzyme",
+          matchEn: "An enzyme that cuts DNA at a specific recognition sequence",
+          matchMy: "သီးခြား Recognition Sequence တွင် DNA ကို ဖြတ်ပေးသော Enzyme",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w29-dm-2",
+          termEn: "Recognition sequence",
+          termMy: "Recognition Sequence",
+          matchEn: "The specific short DNA base sequence a restriction enzyme cuts at",
+          matchMy: "Restriction Enzyme တစ်ခုက ဖြတ်ပေးသော သီးခြား DNA Base Sequence တိုတို",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w29-dm-3",
+          termEn: "Sticky end",
+          termMy: "Sticky End",
+          matchEn: "A short single-stranded overhang left after cutting, able to base-pair with a complementary overhang",
+          matchMy: "ဖြတ်ပြီးနောက် ကျန်ရစ်သော တိုတောင်းသော Single-Stranded Overhang၊ Complementary Overhang နှင့် Base-Pair ဖြစ်နိုင်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w29-dm-4",
+          termEn: "Gel electrophoresis",
+          termMy: "Gel Electrophoresis",
+          matchEn: "A technique separating DNA fragments by size using an electric current through a gel",
+          matchMy: "Gel တစ်ခုကို ဖြတ်သော Electric Current ကို အသုံးပြု၍ DNA အပိုင်းများကို အရွယ်အစားအလိုက် ခွဲထုတ်ပေးသော Technique",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w29-dm-5",
+          termEn: "DNA fragment",
+          termMy: "DNA Fragment",
+          matchEn: "A piece of DNA produced after cutting with a restriction enzyme",
+          matchMy: "Restriction Enzyme ဖြင့် ဖြတ်ပြီးနောက် ထုတ်လုပ်ထားသော DNA အပိုင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Restriction Enzyme or Gel Electrophoresis?",
+      titleMy: "စီစစ်ကြမည် - Restriction Enzyme သို့မဟုတ် Gel Electrophoresis?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Restriction Enzyme", "Gel Electrophoresis"],
+        bucketsMy: ["Restriction Enzyme", "Gel Electrophoresis"],
+        items: [
+          SortingItem(
+            id: "y13bio-w29-sort-1",
+            labelEn: "Cuts DNA at a specific recognition sequence",
+            labelMy: "သီးခြား Recognition Sequence တွင် DNA ကို ဖြတ်ပေးသည်",
+            correctBucketEn: "Restriction Enzyme",
+            correctBucketMy: "Restriction Enzyme",
+          ),
+          SortingItem(
+            id: "y13bio-w29-sort-2",
+            labelEn: "Produces fragments with sticky or blunt ends",
+            labelMy: "Sticky (သို့) Blunt End ပါသော အပိုင်းများ ထုတ်ပေးသည်",
+            correctBucketEn: "Restriction Enzyme",
+            correctBucketMy: "Restriction Enzyme",
+          ),
+          SortingItem(
+            id: "y13bio-w29-sort-3",
+            labelEn: "Separates fragments by size using an electric current",
+            labelMy: "Electric Current ကို အသုံးပြု၍ အပိုင်းများကို အရွယ်အစားအလိုက် ခွဲထုတ်ပေးသည်",
+            correctBucketEn: "Gel Electrophoresis",
+            correctBucketMy: "Gel Electrophoresis",
+          ),
+          SortingItem(
+            id: "y13bio-w29-sort-4",
+            labelEn: "Smaller fragments travel further through the gel",
+            labelMy: "Fragment ငယ်များသည် Gel ကို ဖြတ်၍ ပို၍ ဝေးစွာ ခရီးသွားသည်",
+            correctBucketEn: "Gel Electrophoresis",
+            correctBucketMy: "Gel Electrophoresis",
+          ),
+          SortingItem(
+            id: "y13bio-w29-sort-5",
+            labelEn: "Is used before joining DNA from two different sources",
+            labelMy: "မတူညီသော ရင်းမြစ်နှစ်ခုမှ DNA ချိတ်ဆက်ခြင်းမပြုမီ အသုံးပြုသည်",
+            correctBucketEn: "Restriction Enzyme",
+            correctBucketMy: "Restriction Enzyme",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Molecular Scissors and a Sizing Race",
+      titleMy: "စာဖတ်ခြင်း - Molecular ကတ်ကြေးနှင့် အရွယ်အစား ပြိုင်ပွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Molecular Scissors and a Sizing Race",
+        titleMy: "Molecular ကတ်ကြေးနှင့် အရွယ်အစား ပြိုင်ပွဲ",
+        passageEn:
+            "Sayar Zaw Min opened Term 8 by describing restriction enzymes as \"molecular scissors\" and asking the class why a scientist would want scissors that only cut at one specific sequence, rather than a blade that cuts DNA anywhere. Htet Aung reasoned that random cutting would be useless for precise genetic work -- if you wanted to isolate a particular gene, you would need to cut exactly at its boundaries, not somewhere in the middle of it or somewhere far away.\n\nSu Su added the second half of the picture: because restriction enzymes leave sticky ends, a gene cut out with one particular enzyme can only be rejoined -- using DNA ligase -- with another piece of DNA cut by that same enzyme, since only matching sticky ends can base-pair together. \"That's precision at both ends of the process,\" she said. \"Precision cutting, and precision rejoining.\"\n\nSayar Zaw Min then set up a demonstration of gel electrophoresis to show how scientists confirm their cutting worked as expected. He loaded several DNA samples, cut by different restriction enzymes, into wells at one end of a gel, then applied an electric current. Because DNA carries a negative charge, every fragment migrated toward the positive electrode -- but the gel itself acted like a sieve, letting smaller fragments slip through more easily and travel further in the same time than larger ones. \"After staining, the fragments show up as a ladder of bands,\" he explained, \"and the pattern of bands tells you exactly how many fragments were produced and roughly how large each one is -- a visual fingerprint confirming whether the restriction enzyme cut the DNA exactly where you expected it to.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Restriction Enzyme များကို \"Molecular ကတ်ကြေး\" ဟု ဖော်ပြခြင်းဖြင့် Term 8 ကို စတင်ခဲ့ပြီး Scientist တစ်ဦးသည် DNA ကို မည်သည့်နေရာမဆို ဖြတ်နိုင်သော Blade အစား သီးခြား Sequence တစ်ခုတည်းတွင်သာ ဖြတ်ပေးသော ကတ်ကြေးကို အဘယ်ကြောင့် လိုချင်သနည်းဟု အတန်းအား မေးခဲ့သည်။ Random ဖြတ်ခြင်းသည် တိကျသော Genetic အလုပ်အတွက် အသုံးမဝင်ကြောင်း Htet Aung ဆင်ခြင်ခဲ့သည် -- Gene တစ်ခု ခွဲထုတ်လိုပါက ၎င်း၏ နယ်နိမိတ်များတွင် အတိအကျ ဖြတ်ရန် လိုအပ်ပြီး ၎င်း၏ အလယ်တွင် (သို့) ဝေးကွာစွာ တစ်နေရာတွင် မဟုတ်ပါ။\n\nSu Su က ဇာတ်လမ်း၏ ဒုတိယ ခြမ်းကို ဖြည့်စွက်ခဲ့သည် - Restriction Enzyme များသည် Sticky End များ ကျန်ရစ်စေသောကြောင့် Enzyme သီးခြားတစ်ခုဖြင့် ဖြတ်ထုတ်ထားသော Gene တစ်ခုကို DNA Ligase ကို အသုံးပြု၍ ထို Enzyme တူညီတစ်ခုတည်းဖြင့် ဖြတ်ထားသော DNA အပိုင်းတစ်ခုနှင့်သာ ပြန်လည် ချိတ်ဆက်နိုင်ပြီး ကိုက်ညီသော Sticky End များသာ Base-Pair ဖြစ်နိုင်သောကြောင့် ဖြစ်သည်။ \"ဒါက Process ၏ အစွန်းနှစ်ဖက်စလုံးတွင် တိကျမှု ဖြစ်ပါတယ်\" ဟု သူ ဆိုခဲ့သည်။ \"တိကျသော ဖြတ်ခြင်း, တိကျသော ပြန်လည် ချိတ်ဆက်ခြင်း။\"\n\nထို့နောက် ဆရာဇော်မင်းသည် Scientist များ ၎င်းတို့ ဖြတ်ခြင်း မျှော်လင့်ထားသည့်အတိုင်း အလုပ်ဖြစ်ကြောင်း မည်သို့ အတည်ပြုသည်ကို ပြသရန် Gel Electrophoresis ၏ Demonstration တစ်ခု စီစဉ်ခဲ့သည်။ Restriction Enzyme ကွဲပြားများဖြင့် ဖြတ်ထားသော DNA နမူနာများစွာကို Gel ၏ တစ်ဖက်ရှိ Well များထဲသို့ သူ ထည့်ပြီး Electric Current ကို ပေးခဲ့သည်။ DNA သည် Negative Charge ရှိသောကြောင့် Fragment တိုင်းသည် Positive Electrode ဆီသို့ ရွေ့လျားခဲ့သည် -- သို့သော် Gel ကိုယ်တိုင်သည် Sieve တစ်ခုကဲ့သို့ လုပ်ဆောင်ကာ Fragment ငယ်များကို ပို၍ လွယ်ကူစွာ ဖြတ်ခွင့်ပေးပြီး တူညီသော အချိန်အတွင်း ကြီးသောများထက် ပို၍ ဝေးဝေးသို့ သွားစေသည်။ \"Stain ပြီးနောက် Fragment များသည် Band လှေကားထစ်တစ်ခုအဖြစ် ပေါ်လာသည်\" ဟု သူ ရှင်းပြခဲ့သည် \"Band ပုံစံက Fragment မည်မျှ ထုတ်လုပ်ခဲ့သည်ကို တိကျစွာ ပြောပြပြီး တစ်ခုစီ ခန့်မှန်း မည်မျှ ကြီးသည်ကိုပါ ပြောပြသည် -- Restriction Enzyme သည် မျှော်လင့်ထားသည့် အတိုင်း DNA ကို အတိအကျ ဖြတ်သလားဆိုတာ အတည်ပြုပေးသော Visual Fingerprint တစ်ခု ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why would random DNA cutting be useless for precise genetic work?",
+            questionMy: "Random DNA ဖြတ်ခြင်းသည် တိကျသော Genetic အလုပ်အတွက် အသုံးမဝင်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ဆင်ခြင်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A gene must be cut exactly at its boundaries to be isolated correctly",
+              "Random cutting produces no fragments at all",
+              "Random cutting always destroys the entire genome",
+              "It is impossible to cut DNA in any way",
+            ],
+            optionsMy: [
+              "Gene တစ်ခုကို မှန်ကန်စွာ ခွဲထုတ်ရန် ၎င်း၏ နယ်နိမိတ်များတွင် အတိအကျ ဖြတ်ရမည် ဖြစ်သောကြောင့်",
+              "Random ဖြတ်ခြင်းက Fragment မည်သည်မျှ မထုတ်ပေးသောကြောင့်",
+              "Random ဖြတ်ခြင်းသည် Genome တစ်ခုလုံးကို အမြဲတမ်း ဖျက်ဆီးသောကြောင့်",
+              "DNA ကို မည်သည့်နည်းနှင့်မျှ ဖြတ်၍ မရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what can a piece of DNA cut by one restriction enzyme be rejoined with?",
+            questionMy: "Restriction Enzyme တစ်ခုဖြင့် ဖြတ်ထားသော DNA အပိုင်းတစ်ခုကို မည်သည်နှင့် ပြန်လည် ချိတ်ဆက်နိုင်သည်ကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Another piece of DNA cut by the same enzyme",
+              "Any piece of DNA regardless of how it was cut",
+              "Only RNA, never DNA",
+              "Nothing at all, ever",
+            ],
+            optionsMy: [
+              "Enzyme တူညီတစ်ခုတည်းဖြင့် ဖြတ်ထားသော အခြား DNA အပိုင်း",
+              "မည်သို့ ဖြတ်ထားသည်ဖြစ်စေ DNA အပိုင်း မည်သည်မဆို",
+              "RNA သာ, DNA မဟုတ်ပါ",
+              "မည်သည်ကိုမျှ, ဘယ်တော့မှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why do smaller DNA fragments travel further through the gel?",
+            questionMy: "DNA Fragment ငယ်များသည် Gel ကို ဖြတ်၍ ပို၍ ဝေးစွာ ခရီးသွားရသည့်အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They slip through the gel's mesh more easily than larger fragments",
+              "They carry a stronger negative charge than larger fragments",
+              "They are attracted to the negative electrode instead",
+              "The gel repels smaller fragments toward the wells",
+            ],
+            optionsMy: [
+              "ကြီးသော Fragment များထက် Gel ၏ Mesh ကို ပို၍ လွယ်ကူစွာ ဖြတ်နိုင်သောကြောင့်",
+              "ကြီးသော Fragment များထက် Negative Charge ပို၍ အားကောင်းသောကြောင့်",
+              "Negative Electrode ဆီသို့ အစား ဆွဲငင်ခံရသောကြောင့်",
+              "Gel သည် Fragment ငယ်များကို Well များဆီသို့ တွန်းလှန်ပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Restriction Enzymes and Gel Electrophoresis",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Restriction Enzyme နှင့် Gel Electrophoresis",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A restriction enzyme cuts DNA at a...",
+          questionMy: "Restriction Enzyme သည် DNA ကို ...တွင် ဖြတ်ပေးသည်",
+          optionsEn: ["Specific recognition sequence", "Random location every time", "Ribosome only", "Cell membrane only"],
+          optionsMy: ["သီးခြား Recognition Sequence", "အချိန်တိုင်း Random တည်နေရာ", "Ribosome တစ်ခုတည်း", "Cell Membrane တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Sticky ends allow DNA fragments to...",
+          questionMy: "Sticky End များက DNA Fragment များကို ...ခွင့်ပြုသည်",
+          optionsEn: [
+            "Base-pair with complementary sticky ends",
+            "Dissolve completely in water",
+            "Become permanently unreadable",
+            "Lose their negative charge",
+          ],
+          optionsMy: [
+            "Complementary Sticky End များနှင့် Base-Pair ဖြစ်",
+            "ရေထဲတွင် လုံးလုံး ပျော်ဝင်",
+            "အမြဲတမ်း ဖတ်၍ မရတော့",
+            "၎င်းတို့၏ Negative Charge ဆုံးရှုံး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In gel electrophoresis, smaller DNA fragments...",
+          questionMy: "Gel Electrophoresis တွင် DNA Fragment ငယ်များသည်...",
+          optionsEn: [
+            "Travel further through the gel",
+            "Travel less far than larger fragments",
+            "Never move at all",
+            "Move toward the negative electrode",
+          ],
+          optionsMy: [
+            "Gel ကို ဖြတ်၍ ပို၍ ဝေးစွာ ခရီးသွား",
+            "ကြီးသော Fragment များထက် ဝေးဝေး မသွား",
+            "လုံးဝ ဘယ်တော့မှ မရွေ့လျား",
+            "Negative Electrode ဆီသို့ ရွေ့လျား",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "PCR and Recombinant DNA Technology"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek30 = CourseWeekDef(
+  id: "course-y13-bio-w30",
+  weekNumber: 30,
+  titleEn: "PCR and Recombinant DNA Technology",
+  titleMy: "PCR နှင့် Recombinant DNA Technology",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w30-d1",
+      dayNumber: 1,
+      titleEn: "Amplifying DNA and Building a Recombinant Organism",
+      titleMy: "DNA ကို Amplify ပြုလုပ်ခြင်းနှင့် Recombinant Organism တည်ဆောက်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "PCR (the polymerase chain reaction) is used to...",
+          questionMy: "PCR (Polymerase Chain Reaction) ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Make millions of copies of a specific DNA sequence very quickly",
+            "Destroy a DNA sample completely",
+            "Directly translate DNA into protein without any intermediate steps",
+            "Permanently join two unrelated organisms into one cell",
+          ],
+          optionsMy: [
+            "သီးခြား DNA Sequence တစ်ခု၏ Copy သန်းပေါင်းများစွာကို အလွန်လျင်မြန်စွာ ပြုလုပ်ရန်",
+            "DNA နမူနာတစ်ခုကို လုံးလုံး ဖျက်ဆီးရန်",
+            "Intermediate အဆင့် မည်သည်မျှ မပါဘဲ DNA ကို Protein အဖြစ် တိုက်ရိုက် Translate ပြုလုပ်ရန်",
+            "မဆိုင်သော Organism နှစ်ခုကို ဆဲလ်တစ်ခုတည်းအဖြစ် အမြဲတမ်း ပေါင်းစည်းရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "PCR repeats a cycle of heating (to separate the DNA strands) and cooling (to let primers bind and DNA polymerase copy each strand) many times, doubling the amount of target DNA with every cycle.",
+          ],
+          hintsMy: [
+            "PCR သည် အပူပေးခြင်း (DNA ကွင်းဆက်များ ခွဲထုတ်ရန်) နှင့် အအေးခံခြင်း (Primer များ ဖွဲ့စည်းစေရန်နှင့် DNA Polymerase က ကွင်းဆက်တစ်ခုစီကို ကူးယူရန်) Cycle ကို အကြိမ်ကြိမ် ထပ်ခါထပ်ခါ ပြုလုပ်ကာ Cycle တစ်ခုစီတိုင်း Target DNA ပမာဏကို နှစ်ဆတိုးစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Recombinant DNA technology typically involves cutting a desired gene from one organism's DNA and inserting it into a vector, such as a...",
+          questionMy: "Recombinant DNA Technology သည် ပုံမှန်အားဖြင့် Organism တစ်ခု၏ DNA မှ လိုချင်သော Gene ကို ဖြတ်ထုတ်ပြီး Vector တစ်ခုထဲသို့ ထည့်သွင်းခြင်း ပါဝင်သည်၊ ဥပမာ...",
+          optionsEn: [
+            "A bacterial plasmid, which can then be inserted into a host bacterium",
+            "A whole other complete organism, with no DNA cutting involved",
+            "A drop of water, with no further processing needed",
+            "The atmosphere directly, with no cell involved at all",
+          ],
+          optionsMy: [
+            "Bacterial Plasmid, ထို့နောက် Host Bacterium ထဲသို့ ထည့်သွင်းနိုင်သည်",
+            "DNA ဖြတ်ခြင်း လုံးဝ မပါဝင်ဘဲ လုံးလုံးအခြား Organism တစ်ခု",
+            "နောက်ထပ် Processing မလိုအပ်ဘဲ ရေစက်",
+            "ဆဲလ် လုံးဝ မပါဝင်ဘဲ လေထု တိုက်ရိုက်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The gene and the plasmid vector are both cut using the same restriction enzyme, giving them matching sticky ends, then joined together permanently using DNA ligase.",
+          ],
+          hintsMy: [
+            "Gene နှင့် Plasmid Vector နှစ်ခုစလုံးကို Restriction Enzyme တူညီတစ်ခုတည်းဖြင့် ဖြတ်ကာ ကိုက်ညီသော Sticky End ရရှိစေပြီး ထို့နောက် DNA Ligase ကို အသုံးပြု၍ အမြဲတမ်း ပေါင်းစည်းသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A well-known example of recombinant DNA technology is genetically modified bacteria producing...",
+          questionMy: "Recombinant DNA Technology ၏ လူသိများသော ဥပမာတစ်ခုမှာ ...ထုတ်လုပ်ပေးသော Genetically Modified Bacteria ဖြစ်သည်",
+          optionsEn: [
+            "Human insulin, after the human insulin gene is inserted into a bacterial plasmid",
+            "Only bacterial toxins, never anything useful",
+            "Pure water, with no protein involved",
+            "Chlorophyll, for use in photosynthesis research only",
+          ],
+          optionsMy: [
+            "Human Insulin Gene ကို Bacterial Plasmid ထဲသို့ ထည့်သွင်းပြီးနောက် Human Insulin",
+            "Bacterial Toxin ကိုသာ, အသုံးဝင်သော မည်သည့်အရာမျှ မဟုတ်",
+            "Protein မပါဝင်ဘဲ ရေစင်",
+            "Photosynthesis သုတေသနအတွက်သာ Chlorophyll",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Before this technology, insulin for diabetics was extracted from animal pancreases -- genetically modified bacteria now grow in large fermenters, producing large, cheap, human-identical insulin supplies.",
+          ],
+          hintsMy: [
+            "ဤ Technology မတိုင်မီ ဆီးချိုရောဂါရှင်များအတွက် Insulin ကို တိရစ္ဆာန် အဆီးချိုအိတ်များမှ ထုတ်ယူခဲ့သည် -- ယခု Genetically Modified Bacteria များသည် Fermenter ကြီးများတွင် ကြီးထွားလာပြီး ကြီးမားသော၊ တန်ဖိုးသက်သာသော၊ လူသားနှင့် တူညီသော Insulin ထောက်ပံ့မှုများ ထုတ်လုပ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: PCR and Recombinant DNA Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - PCR နှင့် Recombinant DNA ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w30-dm-1",
+          termEn: "PCR (polymerase chain reaction)",
+          termMy: "PCR (Polymerase Chain Reaction)",
+          matchEn: "A technique that amplifies a specific DNA sequence into millions of copies",
+          matchMy: "သီးခြား DNA Sequence တစ်ခုကို Copy သန်းပေါင်းများစွာအဖြစ် Amplify ပြုလုပ်ပေးသော Technique",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w30-dm-2",
+          termEn: "Primer",
+          termMy: "Primer",
+          matchEn: "A short DNA sequence that binds to mark the start of the region to be copied in PCR",
+          matchMy: "PCR တွင် Copy ယူမည့် Region ၏ အစကို ရာမှတ်ရန် ဖွဲ့စည်းသော DNA Sequence တိုတို",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w30-dm-3",
+          termEn: "Vector",
+          termMy: "Vector",
+          matchEn: "A carrier, such as a bacterial plasmid, used to transport a gene into a host cell",
+          matchMy: "Gene တစ်ခုကို Host ဆဲလ်ထဲသို့ ပို့ဆောင်ရန် အသုံးပြုသော ဆောင်ရွက်ကိရိယာ (ဥပမာ Bacterial Plasmid)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w30-dm-4",
+          termEn: "DNA ligase",
+          termMy: "DNA Ligase",
+          matchEn: "An enzyme that permanently joins two DNA fragments together",
+          matchMy: "DNA Fragment နှစ်ခုကို အမြဲတမ်း ပေါင်းစည်းပေးသော Enzyme",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w30-dm-5",
+          termEn: "Recombinant DNA",
+          termMy: "Recombinant DNA",
+          matchEn: "DNA formed by combining genetic material from two different sources",
+          matchMy: "ကွဲပြားသော ရင်းမြစ်နှစ်ခုမှ မျိုးရိုးဗီဇပစ္စည်းကို ပေါင်းစပ်၍ ဖွဲ့စည်းထားသော DNA",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: PCR or Recombinant DNA Technology?",
+      titleMy: "စီစစ်ကြမည် - PCR သို့မဟုတ် Recombinant DNA Technology?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["PCR", "Recombinant DNA Technology"],
+        bucketsMy: ["PCR", "Recombinant DNA Technology"],
+        items: [
+          SortingItem(
+            id: "y13bio-w30-sort-1",
+            labelEn: "Uses repeated cycles of heating and cooling",
+            labelMy: "အပူပေးခြင်းနှင့် အအေးခံခြင်း Cycle ထပ်ခါထပ်ခါ အသုံးပြုသည်",
+            correctBucketEn: "PCR",
+            correctBucketMy: "PCR",
+          ),
+          SortingItem(
+            id: "y13bio-w30-sort-2",
+            labelEn: "Amplifies a tiny DNA sample into millions of copies",
+            labelMy: "သေးငယ်သော DNA နမူနာကို Copy သန်းပေါင်းများစွာအဖြစ် Amplify ပြုလုပ်ပေးသည်",
+            correctBucketEn: "PCR",
+            correctBucketMy: "PCR",
+          ),
+          SortingItem(
+            id: "y13bio-w30-sort-3",
+            labelEn: "Inserts a human gene into a bacterial plasmid",
+            labelMy: "Human Gene ကို Bacterial Plasmid ထဲသို့ ထည့်သွင်းသည်",
+            correctBucketEn: "Recombinant DNA Technology",
+            correctBucketMy: "Recombinant DNA Technology",
+          ),
+          SortingItem(
+            id: "y13bio-w30-sort-4",
+            labelEn: "Produces bacteria that manufacture human insulin",
+            labelMy: "Human Insulin ထုတ်လုပ်ပေးသော Bacteria ကို ထုတ်ပေးသည်",
+            correctBucketEn: "Recombinant DNA Technology",
+            correctBucketMy: "Recombinant DNA Technology",
+          ),
+          SortingItem(
+            id: "y13bio-w30-sort-5",
+            labelEn: "Uses primers to mark the start of the region to be copied",
+            labelMy: "Copy ယူမည့် Region အစကို ရာမှတ်ရန် Primer များ အသုံးပြုသည်",
+            correctBucketEn: "PCR",
+            correctBucketMy: "PCR",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From One Gene to a Vat of Insulin",
+      titleMy: "စာဖတ်ခြင်း - Gene တစ်ခုမှ Insulin ဗူးကြီးတစ်ခုသို့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From One Gene to a Vat of Insulin",
+        titleMy: "Gene တစ်ခုမှ Insulin ဗူးကြီးတစ်ခုသို့",
+        passageEn:
+            "Htet Aung, whose grandmother lived with diabetes, asked Sayar Zaw Min how the insulin she injected every day was actually manufactured. Sayar Zaw Min walked the class through the process from beginning to end. First, scientists identify and isolate the human gene coding for insulin, cutting it out of human DNA using a restriction enzyme -- the same technique the class had studied last week.\n\nSu Su continued: that same restriction enzyme is used to cut open a bacterial plasmid, producing matching sticky ends on both the human gene and the plasmid. DNA ligase then joins them together permanently, creating a single piece of recombinant DNA -- part human, part bacterial in origin -- which is inserted into a host bacterium. Because the genetic code is universal, the bacterium's own ribosomes read the inserted human gene using their standard machinery and produce genuine human insulin protein, entirely unaware the instructions originally came from a different species.\n\n\"And this is where scale comes in,\" Sayar Zaw Min said, completing the picture. \"A single genetically modified bacterium producing insulin is not useful on its own -- but bacteria reproduce by binary fission roughly every twenty minutes, so scientists grow enormous fermenter tanks of these modified bacteria, all descended from that one successful insertion, all carrying and expressing the same inserted gene. The insulin they collectively produce is then purified and packaged for diabetics like your grandmother. Notice PCR could also play a role earlier in this pipeline too -- amplifying a tiny initial sample of the insulin gene into enough copies to work with reliably, before the cutting and insertion steps even begin.\"",
+        passageMy:
+            "ဆီးချိုရောဂါ ခံစားနေရသော အဖွားနှင့်အတူ နေထိုင်ခဲ့သော Htet Aung သည် သူ့အဖွား နေ့စဉ် ထိုးသွင်းသော Insulin ကို တကယ်တမ်း မည်သို့ ထုတ်လုပ်သည်ကို ဆရာဇော်မင်းအား မေးခဲ့သည်။ ဆရာဇော်မင်းသည် Process ကို အစမှ အဆုံးအထိ အတန်းအား ရှင်းပြခဲ့သည်။ ဦးစွာ Scientist များသည် Insulin အတွက် Code ပြုလုပ်ပေးသော Human Gene ကို ဖော်ထုတ်ခွဲထုတ်ကြပြီး -- ယခင်အပတ်က လေ့လာခဲ့သော Technique တူညီ -- Restriction Enzyme ကို အသုံးပြု၍ Human DNA မှ ၎င်းကို ဖြတ်ထုတ်ကြသည်။\n\nSu Su ဆက်လက် ရှင်းပြခဲ့သည် - Restriction Enzyme တူညီတစ်ခုတည်းကို Bacterial Plasmid ဖွင့်ဖြတ်ရန် အသုံးပြုကာ Human Gene နှင့် Plasmid နှစ်ခုစလုံးတွင် ကိုက်ညီသော Sticky End များ ထုတ်ပေးသည်။ DNA Ligase သည် ၎င်းတို့ကို အမြဲတမ်း ပေါင်းစည်းကာ Recombinant DNA တစ်ခုတည်း -- တစ်ဝက် Human, တစ်ဝက် Bacterial Origin -- ဖန်တီးပေးပြီး Host Bacterium ထဲသို့ ထည့်သွင်းသည်။ Genetic Code သည် Universal ဖြစ်သောကြောင့် Bacterium ၏ ကိုယ်ပိုင် Ribosome များသည် ၎င်းတို့၏ ပုံမှန် စက်ယန္တရားကို အသုံးပြု၍ ထည့်သွင်းထားသော Human Gene ကို ဖတ်ကာ Species ကွဲပြားတစ်ခုမှ ညွှန်ကြားချက်များ ရရှိကြောင်း လုံးဝ မသိရှိဘဲ Human Insulin Protein အစစ်အမှန် ထုတ်လုပ်ပေးသည်။\n\n\"ဒီနေရာမှာ Scale ဝင်ရောက်လာပါတယ်\" ဟု ဆရာဇော်မင်း ပုံရိပ်ကို ပြီးဆုံးအောင် ပြောခဲ့သည်။ \"Insulin ထုတ်လုပ်သော Genetically Modified Bacterium တစ်ခုတည်းသည် ကိုယ်တိုင် အသုံးမဝင်ပါ -- သို့သော် Bacteria များသည် ခန့်မှန်း မိနစ် နှစ်ဆယ်တိုင်း Binary Fission ဖြင့် မျိုးပွားသောကြောင့် Scientist များသည် ထို အောင်မြင်သော Insertion တစ်ခုတည်းမှ ဆင်းသက်လာသော Modified Bacteria များစွာဖြင့် ကြီးမားသော Fermenter Tank များကို ကြီးထွားစေကြသည်၊ အားလုံးသည် ထည့်သွင်းထားသော Gene တူညီတစ်ခုတည်းကို ဆောင်ထားပြီး Express ပြုလုပ်ကြသည်။ ၎င်းတို့ ပေါင်းစပ်ထုတ်လုပ်သော Insulin ကို ထို့နောက် သန့်စင်ပြီး သင်၏ အဖွားကဲ့သို့ ဆီးချိုရောဂါရှင်များအတွက် ထုပ်ပိုးသည်။ PCR သည်လည်း ဤ Pipeline ၏ ယခင်အပိုင်းတွင် အခန်းကဏ္ဍ ဆောင်နိုင်ကြောင်း သတိပြုကြည့်ပါ -- ဖြတ်ခြင်းနှင့် ထည့်သွင်းခြင်း အဆင့်များ မစတင်မီ Insulin Gene ၏ အစပိုင်း သေးငယ်သော နမူနာကို ယုံကြည်စိတ်ချစွာ အသုံးပြုနိုင်လောက်အောင် Copy များအဖြစ် Amplify ပြုလုပ်ပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, what does DNA ligase do to the human gene and the cut-open plasmid?",
+            questionMy: "Human Gene နှင့် ဖွင့်ဖြတ်ထားသော Plasmid ကို DNA Ligase က မည်သို့ လုပ်ဆောင်သည်ကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Joins them together permanently",
+              "Separates them permanently",
+              "Destroys both of them completely",
+              "Converts them both into protein directly",
+            ],
+            optionsMy: [
+              "အမြဲတမ်း ပေါင်းစည်းပေးသည်",
+              "အမြဲတမ်း ခွဲထုတ်ပေးသည်",
+              "နှစ်ခုစလုံးကို လုံးလုံး ဖျက်ဆီးသည်",
+              "နှစ်ခုစလုံးကို Protein အဖြစ် တိုက်ရိုက် ပြောင်းလဲသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why can the bacterium's own ribosomes produce genuine human insulin?",
+            questionMy: "Bacterium ၏ ကိုယ်ပိုင် Ribosome များသည် Human Insulin အစစ်အမှန် ထုတ်လုပ်နိုင်ရသည့်အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The genetic code is universal across species",
+              "Bacteria have identical DNA to humans",
+              "Ribosomes only exist in human cells",
+              "Insulin is not actually a protein",
+            ],
+            optionsMy: [
+              "Genetic Code သည် Species များတလျှောက် Universal ဖြစ်သောကြောင့်",
+              "Bacteria များတွင် လူသားနှင့် DNA အတိအကျ တူညီသောကြောင့်",
+              "Ribosome များသည် Human ဆဲလ်တွင်သာ ရှိသောကြောင့်",
+              "Insulin သည် တကယ်တမ်း Protein မဟုတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, how does bacterial reproduction help scale up insulin production?",
+            questionMy: "Bacterial Reproduction သည် Insulin ထုတ်လုပ်မှု Scale တိုးရန် မည်သို့ ကူညီသည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bacteria multiply roughly every twenty minutes, producing enormous numbers of modified cells",
+              "Bacteria never reproduce, so numbers stay fixed",
+              "Only one bacterium is ever needed for the entire process",
+              "Bacteria produce insulin only once per lifetime",
+            ],
+            optionsMy: [
+              "Bacteria များသည် ခန့်မှန်း မိနစ် နှစ်ဆယ်တိုင်း မျိုးပွားကာ Modified ဆဲလ် ကြီးမားစွာ ထုတ်ပေးသောကြောင့်",
+              "Bacteria များသည် ဘယ်တော့မှ မျိုးမပွားသောကြောင့် အရေအတွက် Fixed ဖြစ်နေသောကြောင့်",
+              "Process တစ်ခုလုံးအတွက် Bacterium တစ်ခုတည်းသာ လိုအပ်သောကြောင့်",
+              "Bacteria များသည် တစ်သက်တာလျှင် တစ်ကြိမ်သာ Insulin ထုတ်လုပ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: PCR and Recombinant DNA",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - PCR နှင့် Recombinant DNA",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "PCR is used to...",
+          questionMy: "PCR ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Amplify a specific DNA sequence into many copies",
+            "Destroy DNA permanently",
+            "Translate DNA directly into protein",
+            "Fuse two organisms into one",
+          ],
+          optionsMy: [
+            "သီးခြား DNA Sequence တစ်ခုကို Copy များစွာအဖြစ် Amplify ပြုလုပ်",
+            "DNA ကို အမြဲတမ်း ဖျက်ဆီး",
+            "DNA ကို Protein အဖြစ် တိုက်ရိုက် Translate ပြုလုပ်",
+            "Organism နှစ်ခုကို တစ်ခုတည်းအဖြစ် ပေါင်းစည်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A gene and a plasmid vector are joined using...",
+          questionMy: "Gene တစ်ခုနှင့် Plasmid Vector ကို ...ကို အသုံးပြု၍ ပေါင်းစည်းသည်",
+          optionsEn: ["DNA ligase", "PCR alone", "Insulin", "Gel electrophoresis alone"],
+          optionsMy: ["DNA Ligase", "PCR တစ်ခုတည်း", "Insulin", "Gel Electrophoresis တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Genetically modified bacteria can be used to produce...",
+          questionMy: "Genetically Modified Bacteria ကို ...ထုတ်လုပ်ရန် အသုံးပြုနိုင်သည်",
+          optionsEn: ["Human insulin", "Only toxins", "Only water", "Only chlorophyll"],
+          optionsMy: ["Human Insulin", "Toxin ကိုသာ", "ရေကိုသာ", "Chlorophyll ကိုသာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Genetic Screening and Its Ethical Implications"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek31 = CourseWeekDef(
+  id: "course-y13-bio-w31",
+  weekNumber: 31,
+  titleEn: "Genetic Screening and Its Ethical Implications",
+  titleMy: "Genetic Screening နှင့် ကျင့်ဝတ် သက်ရောက်မှုများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w31-d1",
+      dayNumber: 1,
+      titleEn: "What Genetic Screening Reveals and Why It Matters",
+      titleMy: "Genetic Screening က မည်သည်ကို ဖော်ထုတ်ပေးပြီး အဘယ်ကြောင့် အရေးကြီးသနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Genetic screening tests an individual's DNA in order to...",
+          questionMy: "Genetic Screening သည် လူပုဂ္ဂိုလ်တစ်ဦး၏ DNA ကို ...ရန် စစ်ဆေးသည်",
+          optionsEn: [
+            "Detect whether they carry an allele associated with a particular genetic condition",
+            "Change their DNA sequence permanently",
+            "Guarantee they will never develop any disease",
+            "Convert their DNA into a different species' DNA",
+          ],
+          optionsMy: [
+            "သီးခြား Genetic Condition တစ်ခုနှင့် ဆက်စပ်သော Allele ကို ဆောင်ထားသလား ရှာဖွေတွေ့ရှိရန်",
+            "၎င်းတို့၏ DNA Sequence ကို အမြဲတမ်း ပြောင်းလဲရန်",
+            "ရောဂါ မည်သည်ကိုမျှ ဘယ်တော့မှ မဖြစ်ပွားစေရန် အာမခံရန်",
+            "၎င်းတို့၏ DNA ကို Species အခြားတစ်ခု၏ DNA အဖြစ် ပြောင်းလဲရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Genetic screening can identify whether someone is affected, a carrier, or neither, for conditions caused by a specific known allele.",
+          ],
+          hintsMy: [
+            "Genetic Screening သည် သိထားပြီးသား သီးခြား Allele ကြောင့် ဖြစ်သော Condition များအတွက် တစ်စုံတစ်ယောက် ထိခိုက်ခံရသလား, Carrier ဖြစ်သလား, နှစ်ခုစလုံး မဟုတ်သလား ဆိုသည်ကို ဖော်ထုတ်ပေးနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Prenatal genetic screening allows parents to find out, before birth, whether a fetus is likely to have a particular genetic condition, which raises the ethical question of...",
+          questionMy: "Prenatal Genetic Screening က မိဘများအား မွေးဖွားမီ Fetus သည် Genetic Condition တစ်ခု ရှိနိုင်ချေ ရှိသလား သိရှိစေပြီး ...ဆိုသည့် ကျင့်ဝတ် မေးခွန်း ထွက်ပေါ်လာသည်",
+          optionsEn: [
+            "What decisions, if any, should follow from that information, and who should make them",
+            "Whether DNA exists at all before birth",
+            "Whether prenatal testing is technically impossible",
+            "Whether every fetus automatically has an identical genotype",
+          ],
+          optionsMy: [
+            "ထို အချက်အလက်မှ ဆုံးဖြတ်ချက် မည်သည် ဆက်လက် ပြုလုပ်သင့်သနည်း, ရှိလျှင်, ဆုံးဖြတ်ခွင့် မည်သူတွင် ရှိသနည်း",
+            "မွေးဖွားမီ DNA ရှိသလား",
+            "Prenatal Testing သည် နည်းပညာအရ ဖြစ်နိုင်ခြေ ရှိ/မရှိ",
+            "Fetus တိုင်းသည် အလိုအလျောက် Genotype တူညီသလား",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is a genuinely contested area: it touches on informed consent, reproductive choice, potential discrimination, and how society should treat people with genetic conditions.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ အမှန်တကယ် အငြင်းပွားနေသော ဧရိယာ ဖြစ်သည် - ၎င်းသည် Informed Consent, Reproductive Choice, ဖြစ်နိုင်ချေရှိသော Discrimination နှင့် Genetic Condition ရှိသူများကို လူ့အဖွဲ့အစည်းက မည်သို့ ဆက်ဆံသင့်သည်ကို ထိတွေ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A key ethical concern about genetic screening data is that...",
+          questionMy: "Genetic Screening Data နှင့်ပတ်သက်၍ အဓိက ကျင့်ဝတ် စိုးရိမ်ချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "If misused, it could lead to genetic discrimination, such as by employers or insurers",
+            "It never contains any private information about a person",
+            "It is completely useless for any medical purpose",
+            "It always guarantees fair treatment for everyone tested",
+          ],
+          optionsMy: [
+            "အလွဲသုံးစားလုပ်ပါက အလုပ်ရှင် (သို့) အာမခံ ကုမ္ပဏီများ ကဲ့သို့ Genetic Discrimination ဆီသို့ ဦးတည်စေနိုင်သောကြောင့်",
+            "လူပုဂ္ဂိုလ်တစ်ဦးအကြောင်း ကိုယ်ရေးကိုယ်တာ အချက်အလက် မည်သည်မျှ လုံးဝ မပါဝင်သောကြောင့်",
+            "Medical ရည်ရွယ်ချက် မည်သည့်အတွက်မဆို လုံးလုံး အသုံးမဝင်သောကြောင့်",
+            "စစ်ဆေးခံရသူတိုင်းအတွက် တရားမျှတသော ဆက်ဆံမှုကို အမြဲတမ်း အာမခံသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This concern is exactly why many countries have laws restricting how genetic information can be used by employers or insurance companies, and requiring strict confidentiality and informed consent.",
+          ],
+          hintsMy: [
+            "ဤစိုးရိမ်ချက်ကပင် နိုင်ငံများစွာတွင် Genetic Information ကို အလုပ်ရှင် (သို့) အာမခံ ကုမ္ပဏီများက မည်သို့ အသုံးပြုနိုင်သည်ကို ကန့်သတ်ပြီး တင်းကျပ်သော Confidentiality နှင့် Informed Consent လိုအပ်စေသော ဥပဒေများ ရှိနေသည့်အကြောင်းရင်း အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Genetic Screening Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Genetic Screening ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w31-dm-1",
+          termEn: "Genetic screening",
+          termMy: "Genetic Screening",
+          matchEn: "Testing DNA to detect alleles associated with a particular genetic condition",
+          matchMy: "Genetic Condition တစ်ခုနှင့် ဆက်စပ်သော Allele များကို ရှာဖွေတွေ့ရှိရန် DNA စစ်ဆေးခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w31-dm-2",
+          termEn: "Carrier",
+          termMy: "Carrier",
+          matchEn: "An individual heterozygous for a recessive allele, showing no symptoms",
+          matchMy: "Symptom မပြသဘဲ Recessive Allele အတွက် Heterozygous ဖြစ်နေသော လူပုဂ္ဂိုလ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w31-dm-3",
+          termEn: "Prenatal screening",
+          termMy: "Prenatal Screening",
+          matchEn: "Genetic testing carried out before birth, on a fetus or embryo",
+          matchMy: "မွေးဖွားမီ Fetus သို့မဟုတ် Embryo တွင် ပြုလုပ်သော Genetic Testing",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w31-dm-4",
+          termEn: "Informed consent",
+          termMy: "Informed Consent",
+          matchEn: "Agreeing to a test after fully understanding its purpose, risks and possible outcomes",
+          matchMy: "စစ်ဆေးမှု၏ ရည်ရွယ်ချက်, အန္တရာယ်နှင့် ဖြစ်နိုင်ချေရှိသော ရလဒ်များကို အပြည့်အဝ နားလည်ပြီးနောက် သဘောတူညီခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w31-dm-5",
+          termEn: "Genetic discrimination",
+          termMy: "Genetic Discrimination",
+          matchEn: "Treating someone unfairly based on their genetic information, e.g. by an employer or insurer",
+          matchMy: "လူပုဂ္ဂိုလ်တစ်ဦး၏ Genetic Information အပေါ် အခြေခံ၍ မတရားစွာ ဆက်ဆံခြင်း၊ ဥပမာ - အလုပ်ရှင် (သို့) အာမခံကုမ္ပဏီ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Benefit or Ethical Concern of Genetic Screening?",
+      titleMy: "စီစစ်ကြမည် - Genetic Screening ၏ အကျိုးကျေးဇူး သို့မဟုတ် ကျင့်ဝတ် စိုးရိမ်ချက်?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Benefit of Genetic Screening", "Ethical Concern of Genetic Screening"],
+        bucketsMy: ["Genetic Screening ၏ အကျိုးကျေးဇူး", "Genetic Screening ၏ ကျင့်ဝတ် စိုးရိမ်ချက်"],
+        items: [
+          SortingItem(
+            id: "y13bio-w31-sort-1",
+            labelEn: "Allowing carriers to make informed reproductive decisions",
+            labelMy: "Carrier များအား သတင်းအချက်အလက် ပြည့်စုံသော Reproductive ဆုံးဖြတ်ချက်များ ချမှတ်ခွင့် ပေးခြင်း",
+            correctBucketEn: "Benefit of Genetic Screening",
+            correctBucketMy: "Genetic Screening ၏ အကျိုးကျေးဇူး",
+          ),
+          SortingItem(
+            id: "y13bio-w31-sort-2",
+            labelEn: "Enabling earlier medical monitoring or treatment for an at-risk individual",
+            labelMy: "အန္တရာယ်ရှိနိုင်သော လူပုဂ္ဂိုလ်တစ်ဦးအတွက် ပိုစောစွာ Medical ကြည့်ရှုစောင့်ကြည့်ခြင်း (သို့) ကုသခြင်း ခွင့်ပြုခြင်း",
+            correctBucketEn: "Benefit of Genetic Screening",
+            correctBucketMy: "Genetic Screening ၏ အကျိုးကျေးဇူး",
+          ),
+          SortingItem(
+            id: "y13bio-w31-sort-3",
+            labelEn: "Genetic data being misused by an employer to deny someone a job",
+            labelMy: "အလုပ်ရှင်တစ်ဦးက လူပုဂ္ဂိုလ်တစ်ဦးကို အလုပ် ငြင်းပယ်ရန် Genetic Data ကို အလွဲသုံးစားလုပ်ခြင်း",
+            correctBucketEn: "Ethical Concern of Genetic Screening",
+            correctBucketMy: "Genetic Screening ၏ ကျင့်ဝတ် စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13bio-w31-sort-4",
+            labelEn: "Psychological distress from learning about an untreatable genetic risk",
+            labelMy: "ကုသ၍ မရသော Genetic အန္တရာယ်အကြောင်း သိရှိခြင်းမှ စိတ်ပိုင်းဆိုင်ရာ ဒုက္ခခံစားရခြင်း",
+            correctBucketEn: "Ethical Concern of Genetic Screening",
+            correctBucketMy: "Genetic Screening ၏ ကျင့်ဝတ် စိုးရိမ်ချက်",
+          ),
+          SortingItem(
+            id: "y13bio-w31-sort-5",
+            labelEn: "Concerns about the privacy and confidentiality of genetic test results",
+            labelMy: "Genetic Test ရလဒ်များ၏ Privacy နှင့် Confidentiality အကြောင်း စိုးရိမ်ချက်များ",
+            correctBucketEn: "Ethical Concern of Genetic Screening",
+            correctBucketMy: "Genetic Screening ၏ ကျင့်ဝတ် စိုးရိမ်ချက်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Test Result and a Difficult Conversation",
+      titleMy: "စာဖတ်ခြင်း - Test ရလဒ်တစ်ခုနှင့် ခက်ခဲသော စကားပြောဆိုမှု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Test Result and a Difficult Conversation",
+        titleMy: "Test ရလဒ်တစ်ခုနှင့် ခက်ခဲသော စကားပြောဆိုမှု",
+        passageEn:
+            "Sayar Zaw Min presented the class with a realistic scenario rather than an abstract definition: a couple, both apparently healthy, learn through genetic screening that they are each carriers of the same recessive allele for a serious genetic condition -- meaning any child of theirs would have a 1 in 4 chance of being affected, following the monohybrid inheritance the class had studied back in Term 5. He asked the class to identify every stakeholder and every difficult decision this single piece of information creates.\n\nSu Su started with the immediate decision: the couple now has information about a possible future child that they would not otherwise have had, and different people might respond to that information very differently -- some might choose not to have biological children together, others might pursue further prenatal testing during a pregnancy, and others might decide the 1 in 4 risk is one they are willing to accept. \"None of those choices is objectively 'correct',\" she said. \"The whole point of genetic screening providing information is that it should support autonomous decision-making, not dictate what that decision has to be.\"\n\nHtet Aung raised a different stakeholder entirely: what about that information reaching people beyond the couple themselves -- an employer, an insurance company, or even other family members who might also be carriers without knowing it? \"That's exactly why informed consent and confidentiality are treated so seriously around genetic testing,\" Sayar Zaw Min confirmed. \"The science of identifying a recessive allele is now well understood and reliable -- what remains genuinely difficult, and different in every country's laws and every family's values, is who gets to know the result, who gets to decide what happens next, and how society ensures that information is never used to discriminate against the person it describes.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် စိတ္တဇ Definition အစား လက်တွေ့ကျသော Scenario တစ်ခုကို အတန်းအား တင်ပြခဲ့သည် - ကျန်းမာချေရင်ရင် ရှိပုံရသော အတွဲစုံ နှစ်ဦးသည် Genetic Screening မှတဆင့် နှစ်ဦးစလုံး ပြင်းထန်သော Genetic Condition တစ်ခုအတွက် Recessive Allele တူညီတစ်ခုကို Carrier ဖြစ်နေကြောင်း သိရှိလာကြသည် -- Term 5 က လေ့လာခဲ့ဖူးသော Monohybrid Inheritance ကို လိုက်၍ ၎င်းတို့၏ ကလေးမည်သည်ဖြစ်စေ ထိခိုက်ခံရနိုင်ချေ 4 ခုတွင် 1 ခု ရှိကြောင်း ဆိုလိုသည်။ ဤ တစ်ခုတည်းသော အချက်အလက်ဖန်တီးသော Stakeholder တိုင်းနှင့် ခက်ခဲသော ဆုံးဖြတ်ချက်တိုင်းကို ဖော်ထုတ်ရန် အတန်းအား သူ တောင်းဆိုခဲ့သည်။\n\nSu Su က ချက်ချင်း ဆုံးဖြတ်ချက်ဖြင့် စတင်ခဲ့သည် - အတွဲစုံသည် ယခု အခြားနည်းအားဖြင့် ရရှိမည် မဟုတ်သော ဖြစ်နိုင်ချေရှိသော အနာဂတ် ကလေးအကြောင်း အချက်အလက်ရှိပြီး ကွဲပြားသော လူများသည် ထို အချက်အလက်ကို လုံးလုံးကွဲပြားစွာ တုံ့ပြန်နိုင်သည် -- အချို့သည် အတူတကွ ဇီဝသားသမီး မယူဖွားရန် ရွေးချယ်နိုင်ပြီး အချို့သည် ကိုယ်ဝန်ဆောင်စဉ် Prenatal Testing ထပ်မံ ဆက်လုပ်နိုင်သော်လည်း အချို့သည် 4 ခုတွင် 1 ခု အန္တရာယ်ကို လက်ခံရန် ဆန္ဒရှိနေနိုင်သည်။ \"ထို ရွေးချယ်မှု မည်သည်မှ Objectively \"မှန်ကန်\" မဟုတ်ပါ\" ဟု သူ ဆိုခဲ့သည်။ \"Genetic Screening က အချက်အလက် ပေးအပ်ခြင်း၏ အချက်တစ်ခုလုံးမှာ Autonomous ဆုံးဖြတ်ချက်ချမှတ်ခြင်းကို ထောက်ပံ့ပေးရန်ဖြစ်ပြီး ဆုံးဖြတ်ချက် မည်သို့ ဖြစ်ရမည်ကို ခိုင်းစေရန် မဟုတ်ပါ။\"\n\nHtet Aung က Stakeholder လုံးလုံးကွဲပြားသော တစ်ခုကို ထောက်ပြခဲ့သည် - ထို အချက်အလက်သည် အတွဲစုံ ကိုယ်တိုင်ထက် ပိုကျော်လွန်၍ ရောက်ရှိပါက ဘယ်လိုလဲ -- အလုပ်ရှင်, အာမခံကုမ္ပဏီ (သို့) Carrier ဖြစ်နိုင်ချေရှိသော် သိရှိခြင်းမရှိသေးသော အခြား မိသားစုဝင်များပင်။ \"ဒါကပင် Informed Consent နှင့် Confidentiality ကို Genetic Testing ပတ်ဝန်းကျင် ဤမျှ လေးနက်စွာ ဆက်ဆံရသည့်အကြောင်းရင်း အတိအကျ ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"Recessive Allele တစ်ခု ဖော်ထုတ်ခြင်း၏ သိပ္ပံပညာသည် ယခု ကောင်းစွာ နားလည်ပြီး ယုံကြည်စိတ်ချရသည် -- စစ်စစ် ခက်ခဲနေဆဲ၊ နိုင်ငံတိုင်း၏ ဥပဒေနှင့် မိသားစုတိုင်း၏ တန်ဖိုးနှင့် ကွဲပြားနေဆဲ ဖြစ်သောအရာမှာ ရလဒ်ကို မည်သူ သိရှိရမည်၊ နောက်ဆက်လက် ဖြစ်လာမည့်အရာကို မည်သူ ဆုံးဖြတ်ခွင့်ရှိမည်နှင့် လူ့အဖွဲ့အစည်းက ထို အချက်အလက်ကို ၎င်း ဖော်ပြသောသူကို Discriminate ပြုလုပ်ရန် ဘယ်တော့မှ အသုံးမပြုစေရန် မည်သို့ အာမခံမည်နည်း ဆိုသည်တို့ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what does the couple's genetic screening result reveal about a future child?",
+            questionMy: "အတွဲစုံ၏ Genetic Screening ရလဒ်သည် အနာဂတ် ကလေးအကြောင်း မည်သည်ကို ဖော်ထုတ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A 1 in 4 chance of being affected by the condition",
+              "A guarantee the child will definitely be affected",
+              "A guarantee the child will never be affected",
+              "No information about the child at all",
+            ],
+            optionsMy: [
+              "Condition ထိခိုက်ခံရနိုင်ချေ 4 ခုတွင် 1 ခု",
+              "ကလေးသည် ဧကန်စင်စစ် ထိခိုက်ခံရမည်ဟု အာမခံချက်",
+              "ကလေးသည် ဘယ်တော့မှ ထိခိုက်ခံရမည် မဟုတ်ဟု အာမခံချက်",
+              "ကလေးအကြောင်း အချက်အလက် လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what is the whole point of genetic screening providing information?",
+            questionMy: "Genetic Screening က အချက်အလက် ပေးအပ်ခြင်း၏ အချက်တစ်ခုလုံးကို Su Su ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "To support autonomous decision-making, not dictate the decision",
+              "To force every couple to make the exact same choice",
+              "To guarantee a specific outcome for every pregnancy",
+              "To eliminate the need for any decision at all",
+            ],
+            optionsMy: [
+              "Autonomous ဆုံးဖြတ်ချက်ချမှတ်ခြင်းကို ထောက်ပံ့ရန်၊ ဆုံးဖြတ်ချက်ကို မခိုင်းစေရန်",
+              "အတွဲစုံတိုင်းကို ရွေးချယ်မှု တူညီတစ်ခုတည်း ပြုလုပ်ခိုင်းရန်",
+              "ကိုယ်ဝန်ဆောင်မှုတိုင်းအတွက် ရလဒ် သီးခြားတစ်ခု အာမခံရန်",
+              "ဆုံးဖြတ်ချက် မည်သည်ကိုမျှ မလိုအပ်တော့ရန်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, what remains genuinely difficult about genetic screening, even though the science itself is well understood?",
+            questionMy: "သိပ္ပံပညာ ကိုယ်တိုင် ကောင်းစွာ နားလည်ထားသော်လည်း Genetic Screening နှင့်ပတ်သက်၍ စစ်စစ် ခက်ခဲနေဆဲသောအရာကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Who gets to know the result and how the information is used",
+              "How to identify a recessive allele in the first place",
+              "Whether DNA testing is technically possible",
+              "Whether recessive alleles exist at all",
+            ],
+            optionsMy: [
+              "ရလဒ်ကို မည်သူ သိရှိရမည်နှင့် အချက်အလက် မည်သို့ အသုံးပြုမည်",
+              "Recessive Allele ကို ဦးစွာ မည်သို့ ဖော်ထုတ်မည်",
+              "DNA Testing သည် နည်းပညာအရ ဖြစ်နိုင်ချေ ရှိ/မရှိ",
+              "Recessive Allele များ လုံးဝ ရှိ/မရှိ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Genetic Screening",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Genetic Screening",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Genetic screening tests DNA to detect...",
+          questionMy: "Genetic Screening သည် DNA ကို ...ရှာဖွေတွေ့ရှိရန် စစ်ဆေးသည်",
+          optionsEn: [
+            "Alleles associated with a genetic condition",
+            "The organism's exact age",
+            "The colour of the organism's eyes only",
+            "Nothing useful at all",
+          ],
+          optionsMy: [
+            "Genetic Condition တစ်ခုနှင့် ဆက်စပ်သော Allele",
+            "Organism ၏ အတိအကျ အသက်",
+            "Organism ၏ မျက်လုံးအရောင်ကိုသာ",
+            "အသုံးဝင်သော မည်သည်ကိုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A key ethical concern about genetic screening data is...",
+          questionMy: "Genetic Screening Data နှင့်ပတ်သက်သော အဓိက ကျင့်ဝတ် စိုးရိမ်ချက်တစ်ခုမှာ...",
+          optionsEn: [
+            "Possible genetic discrimination if misused",
+            "It contains no personal information whatsoever",
+            "It is always shared publicly by law",
+            "It has no relevance to insurance or employment",
+          ],
+          optionsMy: [
+            "အလွဲသုံးစားလုပ်ပါက ဖြစ်နိုင်ချေရှိသော Genetic Discrimination",
+            "ကိုယ်ရေးကိုယ်တာ အချက်အလက် လုံးဝ မပါဝင်ခြင်း",
+            "ဥပဒေအရ အမြဲတမ်း အများပြည်သူသို့ မျှဝေခြင်း",
+            "အာမခံ (သို့) အလုပ်အကိုင်နှင့် သက်ဆိုင်မှု မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Genetic screening information should support...",
+          questionMy: "Genetic Screening အချက်အလက်သည် ...ကို ထောက်ပံ့ပေးသင့်သည်",
+          optionsEn: [
+            "Autonomous, informed decision-making",
+            "One single mandatory decision for everyone",
+            "The complete elimination of personal choice",
+            "Random, uninformed guessing",
+          ],
+          optionsMy: [
+            "Autonomous, Informed ဆုံးဖြတ်ချက်ချမှတ်ခြင်း",
+            "လူတိုင်းအတွက် မဖြစ်မနေ ဆုံးဖြတ်ချက် တစ်ခုတည်း",
+            "ကိုယ်ရေးကိုယ်တာ ရွေးချယ်မှု လုံးလုံးဖယ်ရှားခြင်း",
+            "Random, Uninformed ခန့်မှန်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32: "Gene Therapy" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek32 = CourseWeekDef(
+  id: "course-y13-bio-w32",
+  weekNumber: 32,
+  titleEn: "Gene Therapy",
+  titleMy: "Gene Therapy",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w32-d1",
+      dayNumber: 1,
+      titleEn: "Somatic and Germline Gene Therapy",
+      titleMy: "Somatic နှင့် Germline Gene Therapy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Gene therapy aims to treat a genetic condition by...",
+          questionMy: "Gene Therapy သည် ...ဖြင့် Genetic Condition တစ်ခုကို ကုသရန် ရည်ရွယ်သည်",
+          optionsEn: [
+            "Inserting a functional copy of a gene into a patient's cells to replace or supplement a faulty allele",
+            "Removing all of a patient's DNA permanently",
+            "Only treating the symptoms with medication, never touching the DNA",
+            "Converting the patient's cells into a completely different species' cells",
+          ],
+          optionsMy: [
+            "ချွတ်ယွင်းနေသော Allele ကို အစားထိုး (သို့) ဖြည့်ဆည်းပေးရန် လူနာ၏ ဆဲလ်များထဲသို့ Gene ၏ Functional Copy တစ်ခု ထည့်သွင်းခြင်း",
+            "လူနာ၏ DNA အားလုံးကို အမြဲတမ်း ဖယ်ရှားခြင်း",
+            "DNA ကို လုံးဝ မထိတွေ့ဘဲ Medication ဖြင့် Symptom ကိုသာ ကုသခြင်း",
+            "လူနာ၏ ဆဲလ်များကို Species လုံးလုံးကွဲပြားသော ဆဲလ်များအဖြစ် ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Gene therapy uses vectors (often modified viruses) to deliver a working copy of a gene into target cells, similar in principle to how recombinant DNA technology delivers genes into bacteria.",
+          ],
+          hintsMy: [
+            "Gene Therapy သည် Target ဆဲလ်များထဲသို့ Gene အလုပ်လုပ်သော Copy တစ်ခု ပို့ဆောင်ရန် Vector များ (မကြာခဏ Modified Virus) ကို အသုံးပြုသည်၊ Recombinant DNA Technology သည် Gene များကို Bacteria ထဲသို့ မည်သို့ ပို့ဆောင်သည်ဆိုသည့် Principle ဆင်တူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Somatic gene therapy targets body cells other than sperm and egg cells, meaning any genetic change...",
+          questionMy: "Somatic Gene Therapy သည် Sperm နှင့် Egg ဆဲလ်မှလွဲ၍ ခန္ဓာကိုယ်ဆဲလ်များကို ဦးတည်ပြီး Genetic ပြောင်းလဲမှု မည်သည်ဖြစ်စေ...",
+          optionsEn: [
+            "Is not passed on to the patient's offspring",
+            "Is automatically passed on to every future generation",
+            "Changes the patient's species permanently",
+            "Cannot be used to treat any disease at all",
+          ],
+          optionsMy: [
+            "လူနာ၏ သားစဉ်မြေးဆက်သို့ ကူးစက်ခြင်း မရှိပါ",
+            "အလိုအလျောက် မျိုးဆက်နောင်တိုင်းသို့ ကူးစက်သည်",
+            "လူနာ၏ Species ကို အမြဲတမ်း ပြောင်းလဲသည်",
+            "ရောဂါ မည်သည့်တွင်မဆို ကုသရန် အသုံးမပြုနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because somatic cells are not involved in reproduction, changes to them affect only the treated individual, not their children.",
+          ],
+          hintsMy: [
+            "Somatic ဆဲလ်များသည် မျိုးပွားခြင်းတွင် ပါဝင်ခြင်း မရှိသောကြောင့် ၎င်းတို့တွင် ပြောင်းလဲမှုများသည် ကုသခံရသော လူပုဂ္ဂိုလ်ကိုသာ သက်ရောက်ပြီး ၎င်းတို့၏ ကလေးများကို မသက်ရောက်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Germline gene therapy targets sperm, egg or very early embryo cells, meaning any genetic change would...",
+          questionMy: "Germline Gene Therapy သည် Sperm, Egg (သို့) အလွန်စောသော Embryo ဆဲလ်များကို ဦးတည်ပြီး Genetic ပြောင်းလဲမှု မည်သည်ဖြစ်စေ...",
+          optionsEn: [
+            "Be passed on to future generations, raising far more serious ethical concerns than somatic therapy",
+            "Never affect any cell of the treated organism at all",
+            "Have no ethical implications whatsoever",
+            "Only ever be used on adult body cells",
+          ],
+          optionsMy: [
+            "မျိုးဆက်နောင်များသို့ ကူးစက်ပြီး Somatic Therapy ထက် များစွာ ပို၍ ပြင်းထန်သော ကျင့်ဝတ် စိုးရိမ်ချက်များ ထွက်ပေါ်လာသည်",
+            "ကုသခံသော Organism ၏ ဆဲလ် မည်သည်ကိုမျှ ဘယ်တော့မှ မသက်ရောက်ပါ",
+            "ကျင့်ဝတ် သက်ရောက်မှု မည်သည်မျှ လုံးဝ မရှိပါ",
+            "အရွယ်ရောက်ပြီး ခန္ဓာကိုယ်ဆဲလ်များတွင်သာ တစ်ခါမျှ အသုံးပြုမည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because a germline change would be inherited by all descendants, most countries currently place strict restrictions or outright bans on germline gene therapy in humans, unlike the more widely accepted somatic form.",
+          ],
+          hintsMy: [
+            "Germline ပြောင်းလဲမှုသည် ဆွေမျိုးများ အားလုံးက အမွေဆက်ခံမည်ဖြစ်သောကြောင့် နိုင်ငံအများစုသည် ယခု လူသားများတွင် ပို၍ တွင်ကျယ်စွာ လက်ခံထားသော Somatic ပုံစံနှင့် မတူဘဲ Germline Gene Therapy အပေါ် တင်းကျပ်သော ကန့်သတ်ချက် (သို့) လုံးလုံး တားမြစ်ချက်များ ထားရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gene Therapy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Gene Therapy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w32-dm-1",
+          termEn: "Gene therapy",
+          termMy: "Gene Therapy",
+          matchEn: "Inserting a functional gene into cells to treat a genetic condition",
+          matchMy: "Genetic Condition တစ်ခုကို ကုသရန် ဆဲလ်များထဲသို့ Functional Gene တစ်ခု ထည့်သွင်းခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w32-dm-2",
+          termEn: "Somatic gene therapy",
+          termMy: "Somatic Gene Therapy",
+          matchEn: "Gene therapy on body cells; changes are not inherited by offspring",
+          matchMy: "ခန္ဓာကိုယ်ဆဲလ်များအပေါ် Gene Therapy; ပြောင်းလဲမှုများကို သားစဉ်မြေးဆက် အမွေမဆက်ခံ",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w32-dm-3",
+          termEn: "Germline gene therapy",
+          termMy: "Germline Gene Therapy",
+          matchEn: "Gene therapy on reproductive cells or early embryos; changes are inherited",
+          matchMy: "မျိုးပွားဆဲလ် (သို့) စောသော Embryo များအပေါ် Gene Therapy; ပြောင်းလဲမှုများကို အမွေဆက်ခံ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w32-dm-4",
+          termEn: "Viral vector",
+          termMy: "Viral Vector",
+          matchEn: "A modified virus used to deliver a therapeutic gene into target cells",
+          matchMy: "Target ဆဲလ်များထဲသို့ Therapeutic Gene ပို့ဆောင်ရန် အသုံးပြုသော Modified Virus",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w32-dm-5",
+          termEn: "Faulty allele",
+          termMy: "Faulty Allele",
+          matchEn: "An allele that does not function correctly, causing a genetic condition",
+          matchMy: "မှန်ကန်စွာ Function ဆောင်ရွက်၍ မရဘဲ Genetic Condition ဖြစ်စေသော Allele",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Somatic or Germline Gene Therapy?",
+      titleMy: "စီစစ်ကြမည် - Somatic သို့မဟုတ် Germline Gene Therapy?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Somatic Gene Therapy", "Germline Gene Therapy"],
+        bucketsMy: ["Somatic Gene Therapy", "Germline Gene Therapy"],
+        items: [
+          SortingItem(
+            id: "y13bio-w32-sort-1",
+            labelEn: "Targets lung cells to treat a respiratory genetic condition",
+            labelMy: "Respiratory Genetic Condition တစ်ခုကို ကုသရန် အဆုတ်ဆဲလ်များကို ဦးတည်သည်",
+            correctBucketEn: "Somatic Gene Therapy",
+            correctBucketMy: "Somatic Gene Therapy",
+          ),
+          SortingItem(
+            id: "y13bio-w32-sort-2",
+            labelEn: "Changes are not passed on to the patient's children",
+            labelMy: "ပြောင်းလဲမှုများကို လူနာ၏ ကလေးများသို့ မကူးစက်ပါ",
+            correctBucketEn: "Somatic Gene Therapy",
+            correctBucketMy: "Somatic Gene Therapy",
+          ),
+          SortingItem(
+            id: "y13bio-w32-sort-3",
+            labelEn: "Targets sperm, egg or very early embryo cells",
+            labelMy: "Sperm, Egg (သို့) အလွန်စောသော Embryo ဆဲလ်များကို ဦးတည်သည်",
+            correctBucketEn: "Germline Gene Therapy",
+            correctBucketMy: "Germline Gene Therapy",
+          ),
+          SortingItem(
+            id: "y13bio-w32-sort-4",
+            labelEn: "Changes would be inherited by all future generations",
+            labelMy: "ပြောင်းလဲမှုများကို မျိုးဆက်နောင်များအားလုံး အမွေဆက်ခံမည်",
+            correctBucketEn: "Germline Gene Therapy",
+            correctBucketMy: "Germline Gene Therapy",
+          ),
+          SortingItem(
+            id: "y13bio-w32-sort-5",
+            labelEn: "Is far more strictly restricted or banned in most countries",
+            labelMy: "နိုင်ငံအများစုတွင် များစွာ ပို၍ တင်းကျပ်စွာ ကန့်သတ် (သို့) တားမြစ်ထားသည်",
+            correctBucketEn: "Germline Gene Therapy",
+            correctBucketMy: "Germline Gene Therapy",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Gene, Two Very Different Futures",
+      titleMy: "စာဖတ်ခြင်း - Gene တစ်ခု, လုံးလုံးကွဲပြားသော အနာဂတ်နှစ်ခု",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Gene, Two Very Different Futures",
+        titleMy: "Gene တစ်ခု, လုံးလုံးကွဲပြားသော အနာဂတ်နှစ်ခု",
+        passageEn:
+            "For the term's capstone lesson, Sayar Zaw Min asked the class to imagine the same faulty gene being corrected in two different ways, and to compare what each approach would actually mean. In the first scenario, doctors used a modified virus as a vector to deliver a working copy of the gene into a patient's own lung cells, correcting a respiratory condition in that one patient alone.\n\nHtet Aung recognised this immediately as somatic gene therapy, drawing on everything the term had covered about vectors and recombinant DNA delivery. \"The lung cells being treated aren't reproductive cells,\" he said, \"so whatever change happens there stays with this one patient. Their children would still inherit the original faulty allele, exactly as before treatment, following ordinary monohybrid inheritance.\" Su Su then described the second scenario: the same gene correction applied instead to a very early embryo, before any cells had differentiated into body cells versus reproductive cells. \"Every cell in the resulting person would carry the corrected gene,\" she said, \"including their own future eggs or sperm -- which means the correction would be passed on to their children, and their children's children, indefinitely.\"\n\n\"And that difference is exactly why the two approaches sit in completely different ethical and legal categories,\" Sayar Zaw Min concluded, tying the whole term together. \"Somatic therapy is broadly accepted precisely because its effects are contained to one consenting patient -- similar in spirit to how genetic screening respects individual autonomy. Germline therapy, by contrast, makes a permanent, heritable decision on behalf of every future descendant, none of whom can possibly give consent -- which is why almost every country restricts or bans it, even while the underlying genetic technology -- restriction enzymes, vectors, recombinant DNA -- is exactly the same toolkit we've studied all term. The science tells you what's technically possible; it never tells you, on its own, what should be done.\"",
+        passageMy:
+            "Term ၏ Capstone သင်ခန်းစာအတွက် Gene ချွတ်ယွင်းချက်တစ်ခုတည်းကို နည်းလမ်းနှစ်ခုဖြင့် ပြင်ဆင်နေသည်ဟု စိတ်ကူးကြည့်ပြီး နည်းလမ်းတစ်ခုစီသည် တကယ်တမ်း အဘယ်ကို ဆိုလိုသည်ကို နှိုင်းယှဉ်ရန် ဆရာဇော်မင်း အတန်းအား တောင်းဆိုခဲ့သည်။ ပထမ Scenario တွင် ဆရာဝန်များသည် လူနာတစ်ဦးကိုယ်တိုင်၏ အဆုတ်ဆဲလ်များထဲသို့ Gene အလုပ်လုပ်သော Copy တစ်ခု ပို့ဆောင်ရန် Modified Virus ကို Vector အဖြစ် အသုံးပြုကာ ထို လူနာတစ်ဦးတည်းတွင် Respiratory Condition တစ်ခုကို ပြင်ဆင်ခဲ့ကြသည်။\n\nVector များနှင့် Recombinant DNA ပို့ဆောင်ခြင်းအကြောင်း Term ၏ ဖုံးအုပ်ခဲ့သမျှကို အခြေခံ၍ ဤသည်ကို Somatic Gene Therapy ဟု Htet Aung ချက်ချင်း မှတ်မိခဲ့သည်။ \"ကုသခံနေရသော အဆုတ်ဆဲလ်များသည် Reproductive ဆဲလ်များ မဟုတ်ပါ\" ဟု သူ ဆိုခဲ့သည် \"ထို့ကြောင့် ထိုနေရာတွင် ဖြစ်ပေါ်သည့် ပြောင်းလဲမှု မည်သည်ဖြစ်စေ ဤ လူနာတစ်ဦးတည်းနှင့်သာ ကျန်ရှိသည်။ ၎င်းတို့၏ ကလေးများသည် ကုသမှုမတိုင်မီ အတိအကျ ပုံမှန် Monohybrid Inheritance အတိုင်း မူလ ချွတ်ယွင်းသော Allele ကို ဆက်လက် အမွေဆက်ခံလိမ့်မည်။\" Su Su ထို့နောက် ဒုတိယ Scenario ကို ဖော်ပြခဲ့သည် - ဆဲလ်များ ခန္ဓာကိုယ်ဆဲလ်နှင့် Reproductive ဆဲလ်အဖြစ် ကွဲပြားမီ Gene ပြင်ဆင်ချက် တူညီတစ်ခုကို အလွန်စောသော Embryo တွင် အစား အသုံးပြုသည်။ \"ရလဒ်ဖြစ်သော လူတစ်ဦး၏ ဆဲလ်တိုင်းသည် ပြင်ဆင်ထားသော Gene ကို ဆောင်ထားလိမ့်မည်\" ဟု သူ ဆိုခဲ့သည် \"၎င်းတို့ ကိုယ်ပိုင် အနာဂတ် Egg (သို့) Sperm များပါ ပါဝင်သည် -- ဆိုလိုသည်မှာ ထို ပြင်ဆင်ချက်ကို ၎င်းတို့၏ ကလေးများနှင့် ကလေးများ၏ ကလေးများသို့ အကန့်အသတ်မရှိ ဆက်ခံသွားလိမ့်မည်။\"\n\n\"ထို ကွာခြားချက်ကပင် Approach နှစ်ခုသည် လုံးလုံးကွဲပြားသော ကျင့်ဝတ်နှင့် ဥပဒေဆိုင်ရာ အမျိုးအစားများတွင် ရှိနေသည့်အကြောင်းရင်း အတိအကျ ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း Term တစ်ခုလုံးကို ပေါင်းစပ်ရင်း နိဂုံးချုပ်ခဲ့သည်။ \"Somatic Therapy ကို ကျယ်ကျယ်ပြန့်ပြန့် လက်ခံထားခြင်းမှာ ၎င်း၏ သက်ရောက်မှုများသည် သဘောတူညီထားသော လူနာတစ်ဦးတည်းနှင့်သာ ကန့်သတ်နေသောကြောင့် ဖြစ်ပြီး Genetic Screening က တစ်ဦးချင်း Autonomy ကို ရိုသေခြင်းနှင့် ဝိသေသတူသည်။ Germline Therapy မှာမူ ဆန့်ကျင်ဘက်ဖြစ်ပြီး Consent ပေးရန် လုံးဝ မဖြစ်နိုင်သော အနာဂတ် ဆွေမျိုးတိုင်း၏ ကိုယ်စား အမြဲတမ်း အမွေဆက်ခံနိုင်သော ဆုံးဖြတ်ချက်တစ်ခု ချမှတ်လိုက်ခြင်း ဖြစ်သည် -- ၎င်းကပင် Restriction Enzyme, Vector, Recombinant DNA ကဲ့သို့ နောက်ကွယ်ရှိ Genetic Technology -- ကျွန်တော်တို့ Term တစ်ခုလုံး လေ့လာခဲ့သော Toolkit အတိအကျ ဖြစ်နေသော်လည်း နိုင်ငံလုနီးပါးအားလုံးက ၎င်းကို ကန့်သတ် (သို့) တားမြစ်ထားသည့်အကြောင်းရင်း ဖြစ်ပါသည်။ သိပ္ပံပညာက နည်းပညာအရ ဖြစ်နိုင်သော အရာကို ပြောပြသော်လည်း ကိုယ်တိုင်ကမူ မည်သည် ပြုလုပ်သင့်သည်ကို ဘယ်တော့မှ မပြောပြပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why does correcting a patient's lung cells not affect their children?",
+            questionMy: "လူနာ၏ အဆုတ်ဆဲလ်များ ပြင်ဆင်ခြင်းသည် ၎င်းတို့၏ ကလေးများကို မသက်ရောက်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Lung cells are not reproductive cells",
+              "Lung cells never contain any DNA at all",
+              "Children automatically inherit corrected genes regardless",
+              "Lung cells are identical to sperm and egg cells",
+            ],
+            optionsMy: [
+              "အဆုတ်ဆဲလ်များသည် Reproductive ဆဲလ် မဟုတ်သောကြောင့်",
+              "အဆုတ်ဆဲလ်များတွင် DNA မည်သည်မျှ လုံးဝ မပါဝင်သောကြောင့်",
+              "ကလေးများသည် မည်သို့ပင်ဖြစ်စေ ပြင်ဆင်ထားသော Gene ကို အလိုအလျောက် အမွေဆက်ခံသောကြောင့်",
+              "အဆုတ်ဆဲလ်များသည် Sperm နှင့် Egg ဆဲလ်များနှင့် အတိအကျ တူညီသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Su Su, what happens if gene correction is applied to a very early embryo?",
+            questionMy: "Gene ပြင်ဆင်ချက်ကို အလွန်စောသော Embryo တွင် အသုံးပြုပါက အဘယ်ဖြစ်လာသည်ကို Su Su ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Every cell in the resulting person, including future eggs or sperm, carries the correction",
+              "Only the embryo's skin cells carry the correction",
+              "The correction disappears completely before birth",
+              "Nothing changes compared with somatic therapy",
+            ],
+            optionsMy: [
+              "ရလဒ်ဖြစ်သော လူ၏ ဆဲလ်တိုင်း၊ အနာဂတ် Egg (သို့) Sperm အပါအဝင် ပြင်ဆင်ချက်ကို ဆောင်ထားသည်",
+              "Embryo ၏ အရေပြားဆဲလ်များကိုသာ ပြင်ဆင်ချက် ဆောင်ထားသည်",
+              "ပြင်ဆင်ချက်သည် မွေးဖွားမီ လုံးလုံး ပျောက်ကွယ်သွားသည်",
+              "Somatic Therapy နှင့် နှိုင်းယှဉ်ပါက မည်သည်မျှ မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, why does germline therapy raise unique ethical concerns?",
+            questionMy: "Germline Therapy သည် ထူးခြားသော ကျင့်ဝတ် စိုးရိမ်ချက်များ ထွက်ပေါ်စေရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It makes a permanent, heritable decision that future descendants cannot consent to",
+              "It has never been technically possible in any way",
+              "It only affects the treated patient and nobody else",
+              "It uses completely different vectors from somatic therapy",
+            ],
+            optionsMy: [
+              "အနာဂတ် ဆွေမျိုးများ Consent ပေးရန် မဖြစ်နိုင်သော အမြဲတမ်း အမွေဆက်ခံနိုင်သော ဆုံးဖြတ်ချက် ချမှတ်လိုက်သောကြောင့်",
+              "မည်သည့်နည်းနှင့်မျှ နည်းပညာအရ တစ်ခါမျှ ဖြစ်နိုင်ခြေ မရှိခဲ့သောကြောင့်",
+              "ကုသခံသော လူနာကိုသာ သက်ရောက်ပြီး အခြားမည်သူကိုမျှ မသက်ရောက်သောကြောင့်",
+              "Somatic Therapy နှင့် လုံးလုံးကွဲပြားသော Vector များကို အသုံးပြုသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Gene Therapy",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Gene Therapy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Gene therapy treats a genetic condition by...",
+          questionMy: "Gene Therapy သည် ...ဖြင့် Genetic Condition တစ်ခုကို ကုသသည်",
+          optionsEn: [
+            "Inserting a functional gene into target cells",
+            "Removing all DNA from a patient",
+            "Only using medication, never DNA",
+            "Converting cells into a different species",
+          ],
+          optionsMy: [
+            "Target ဆဲလ်များထဲသို့ Functional Gene တစ်ခု ထည့်သွင်းခြင်း",
+            "လူနာမှ DNA အားလုံး ဖယ်ရှားခြင်း",
+            "DNA ကို လုံးဝ မထိတွေ့ဘဲ Medication ကိုသာ အသုံးပြုခြင်း",
+            "ဆဲလ်များကို Species ကွဲပြားတစ်ခုအဖြစ် ပြောင်းလဲခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Somatic gene therapy changes are...",
+          questionMy: "Somatic Gene Therapy ပြောင်းလဲမှုများသည်...",
+          optionsEn: [
+            "Not inherited by offspring",
+            "Always inherited by every descendant",
+            "Impossible to ever perform",
+            "Only used on plants, never humans",
+          ],
+          optionsMy: [
+            "သားစဉ်မြေးဆက် အမွေမဆက်ခံ",
+            "ဆွေမျိုးတိုင်း အမြဲတမ်း အမွေဆက်ခံ",
+            "ပြုလုပ်ရန် ဘယ်တော့မှ မဖြစ်နိုင်",
+            "အပင်များကိုသာ အသုံးပြု, လူသားများကို မသုံး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Germline gene therapy is more strictly restricted mainly because...",
+          questionMy: "Germline Gene Therapy သည် အဓိကအားဖြင့် ...ကြောင့် ပို၍ တင်းကျပ်စွာ ကန့်သတ်ထားသည်",
+          optionsEn: [
+            "Changes would be inherited by future generations who cannot consent",
+            "It has never been technically possible",
+            "It always fails immediately",
+            "It only affects bacteria, never humans",
+          ],
+          optionsMy: [
+            "ပြောင်းလဲမှုများကို Consent မပေးနိုင်သော မျိုးဆက်နောင်များ အမွေဆက်ခံမည်ဖြစ်သောကြောင့်",
+            "နည်းပညာအရ ဘယ်တော့မှ ဖြစ်နိုင်ခြေ မရှိခဲ့သောကြောင့်",
+            "အမြဲတမ်း ချက်ချင်း ရှုံးနိမ့်သောကြောင့်",
+            "Bacteria ကိုသာ သက်ရောက်ပြီး လူသားများကို မသက်ရောက်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm8 = CourseTermDef(
+  id: "course-y13-bio-t8",
+  termNumber: 8,
+  titleEn: "Genetic Technology",
+  titleMy: "Genetic Technology",
+  weeks: [_y13BioWeek29, _y13BioWeek30, _y13BioWeek31, _y13BioWeek32],
+  certificateTitleEn: "A2 Biology: Genetic Technology",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Genetic Technology",
+);
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 9: "Ecology and A2 Exam Prep"
+// (Weeks 33-36)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Ecosystems and Energy Flow"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek33 = CourseWeekDef(
+  id: "course-y13-bio-w33",
+  weekNumber: 33,
+  titleEn: "Ecosystems and Energy Flow",
+  titleMy: "Ecosystem နှင့် Energy Flow",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w33-d1",
+      dayNumber: 1,
+      titleEn: "Trophic Levels and Pyramids of Energy",
+      titleMy: "Trophic Level နှင့် Pyramid of Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Producers, such as green plants, occupy the first trophic level because they...",
+          questionMy: "အပင်အစိမ်းများကဲ့သို့ Producer များသည် ...ကြောင့် ပထမ Trophic Level ကို ရယူထားသည်",
+          optionsEn: [
+            "Convert light energy into chemical energy stored in organic molecules via photosynthesis",
+            "Eat other organisms directly",
+            "Cannot produce any energy at all",
+            "Only exist at the very top of a food chain",
+          ],
+          optionsMy: [
+            "Photosynthesis မှတဆင့် အလင်းစွမ်းအင်ကို Organic မော်လီကျူးများတွင် သိမ်းဆည်းထားသော Chemical Energy အဖြစ် ပြောင်းလဲပေးသောကြောင့်",
+            "အခြား Organism များကို တိုက်ရိုက် စားသုံးသောကြောင့်",
+            "စွမ်းအင် မည်သည်ကိုမျှ လုံးဝ မထုတ်လုပ်နိုင်သောကြောင့်",
+            "Food Chain ၏ အထွတ်အထိပ်တွင်သာ ရှိနေသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Every other trophic level ultimately depends on the chemical energy producers first capture from sunlight -- this is why food chains always begin with a producer.",
+          ],
+          hintsMy: [
+            "အခြား Trophic Level တိုင်းသည် Producer များ ဦးစွာ နေရောင်မှ ဖမ်းယူသော Chemical Energy ကို နောက်ဆုံးတွင် မှီခိုသည် -- ထို့ကြောင့်ပင် Food Chain တိုင်းသည် Producer တစ်ခုနှင့် အမြဲ စတင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A pyramid of energy typically shows a narrower shape at each higher trophic level mainly because...",
+          questionMy: "Pyramid of Energy သည် Trophic Level မြင့်တက်တိုင်း ပုံသဏ္ဌာန် ကျဉ်းလာသည်ကို ပြသရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Only a fraction of the energy at one trophic level is transferred to the next; much is lost as heat through respiration",
+            "Every organism at every level has exactly the same mass",
+            "Energy is created out of nothing at each level",
+            "Producers always contain less energy than consumers",
+          ],
+          optionsMy: [
+            "Trophic Level တစ်ခု၏ စွမ်းအင် အစိတ်အပိုင်းတစ်ခုသာ နောက်တစ်ခုသို့ လွှဲပြောင်းသည်; များစွာသည် Respiration မှတဆင့် အပူအဖြစ် ဆုံးရှုံးသည်",
+            "အဆင့်တိုင်းရှိ Organism တိုင်း Mass အတိအကျ တူညီသောကြောင့်",
+            "အဆင့်တိုင်းတွင် စွမ်းအင်ကို ဘာမှမဟုတ်ခြင်းမှ ဖန်တီးသောကြောင့်",
+            "Producer များတွင် Consumer များထက် စွမ်းအင် အမြဲ နည်းသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Roughly only about 10 percent of the energy available at one trophic level typically ends up incorporated into the biomass of the level above -- the rest is lost as heat, used in movement, or lost in waste and undigested material.",
+          ],
+          hintsMy: [
+            "Trophic Level တစ်ခုတွင် ရရှိနိုင်သော စွမ်းအင်၏ ခန့်မှန်း 10 ရာခိုင်နှုန်းသာ ပုံမှန်အားဖြင့် အထက်အဆင့်၏ Biomass ထဲသို့ ပေါင်းစပ်ဝင်ရောက်သွားသည် -- ကျန်သည်မှာ အပူအဖြစ် ဆုံးရှုံးခြင်း, လှုပ်ရှားမှုတွင် အသုံးပြုခြင်း (သို့) စွန့်ပစ်ပစ္စည်းနှင့် မကြေချေသော ပစ္စည်းတွင် ဆုံးရှုံးခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Unlike a pyramid of numbers, a pyramid of energy is always the correct upright pyramid shape, without exception, mainly because...",
+          questionMy: "Pyramid of Numbers နှင့် မတူဘဲ Pyramid of Energy သည် ချွင်းချက်မရှိဘဲ မှန်ကန်သော တည့်မတ် Pyramid ပုံသဏ္ဌာန် အမြဲ ဖြစ်သည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It measures the total energy flow over time, not the number or size of individual organisms",
+            "It only ever includes producers",
+            "Energy transfer is always 100 percent efficient",
+            "Consumers always outnumber producers",
+          ],
+          optionsMy: [
+            "Individual Organism အရေအတွက် (သို့) အရွယ်အစားမဟုတ်ဘဲ အချိန်တစ်လျှောက် စွမ်းအင် စီးဆင်းမှု စုစုပေါင်းကို တိုင်းတာသောကြောင့်",
+            "Producer များကိုသာ တစ်ခါမျှ ပါဝင်စေသောကြောင့်",
+            "Energy Transfer သည် အမြဲတမ်း 100 ရာခိုင်နှုန်း ထိရောက်သောကြောင့်",
+            "Consumer များသည် Producer များထက် အမြဲတမ်း ပိုများသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because energy always decreases going up trophic levels (unlike numbers, which can be skewed by a few large producers or many tiny parasites), a pyramid of energy is never inverted.",
+          ],
+          hintsMy: [
+            "Trophic Level မြင့်တက်လာသည်နှင့်အမျှ စွမ်းအင် အမြဲ ကျဆင်းသောကြောင့် (Producer ကြီးမားနည်းငယ် (သို့) Parasite သေးငယ်များစွာဖြင့် ကွေ့ဝေးနိုင်သော Numbers နှင့် မတူပါ) Pyramid of Energy သည် ဘယ်တော့မှ ပြောင်းပြန် မဖြစ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ecosystem and Energy Flow Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ecosystem နှင့် Energy Flow ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w33-dm-1",
+          termEn: "Trophic level",
+          termMy: "Trophic Level",
+          matchEn: "A feeding level in a food chain, e.g. producer, primary consumer, secondary consumer",
+          matchMy: "Food Chain ရှိ Feeding Level တစ်ခု၊ ဥပမာ - Producer, Primary Consumer, Secondary Consumer",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w33-dm-2",
+          termEn: "Producer",
+          termMy: "Producer",
+          matchEn: "An organism that converts light energy into chemical energy, e.g. a green plant",
+          matchMy: "အလင်းစွမ်းအင်ကို Chemical Energy အဖြစ် ပြောင်းလဲပေးသော Organism၊ ဥပမာ - အပင်အစိမ်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w33-dm-3",
+          termEn: "Primary consumer",
+          termMy: "Primary Consumer",
+          matchEn: "An organism that feeds directly on producers, e.g. a herbivore",
+          matchMy: "Producer များကို တိုက်ရိုက် စားသုံးသော Organism၊ ဥပမာ - Herbivore",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w33-dm-4",
+          termEn: "Pyramid of energy",
+          termMy: "Pyramid of Energy",
+          matchEn: "A diagram showing the energy available at each trophic level, always narrowing upward",
+          matchMy: "Trophic Level တစ်ခုစီတွင် ရရှိနိုင်သော စွမ်းအင်ကို ပြသသော ပုံ၊ အမြဲ အထက်ဆီသို့ ကျဉ်းလာသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w33-dm-5",
+          termEn: "Energy loss",
+          termMy: "Energy Loss",
+          matchEn: "Energy lost as heat through respiration, or in movement, waste and undigested material",
+          matchMy: "Respiration မှတဆင့် အပူအဖြစ်၊ (သို့) လှုပ်ရှားမှု, စွန့်ပစ်ပစ္စည်းနှင့် မကြေချေသော ပစ္စည်းတွင် ဆုံးရှုံးသော စွမ်းအင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Producer or Consumer?",
+      titleMy: "စီစစ်ကြမည် - Producer သို့မဟုတ် Consumer?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Producer", "Consumer"],
+        bucketsMy: ["Producer", "Consumer"],
+        items: [
+          SortingItem(
+            id: "y13bio-w33-sort-1",
+            labelEn: "A green plant carrying out photosynthesis",
+            labelMy: "Photosynthesis ပြုလုပ်နေသော အပင်အစိမ်း",
+            correctBucketEn: "Producer",
+            correctBucketMy: "Producer",
+          ),
+          SortingItem(
+            id: "y13bio-w33-sort-2",
+            labelEn: "A rabbit eating grass",
+            labelMy: "မြက်စားနေသော ယုန်",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "Consumer",
+          ),
+          SortingItem(
+            id: "y13bio-w33-sort-3",
+            labelEn: "A fox eating a rabbit",
+            labelMy: "ယုန်ကို စားနေသော မြေခွေး",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "Consumer",
+          ),
+          SortingItem(
+            id: "y13bio-w33-sort-4",
+            labelEn: "Algae capturing light energy in a pond",
+            labelMy: "ကန်တစ်ခုအတွင်း အလင်းစွမ်းအင် ဖမ်းယူနေသော Algae",
+            correctBucketEn: "Producer",
+            correctBucketMy: "Producer",
+          ),
+          SortingItem(
+            id: "y13bio-w33-sort-5",
+            labelEn: "An owl eating a mouse",
+            labelMy: "ကြွက်ကို စားနေသော ဇီးကွက်",
+            correctBucketEn: "Consumer",
+            correctBucketMy: "Consumer",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Food Chain Is Never Very Long",
+      titleMy: "စာဖတ်ခြင်း - Food Chain ဘယ်တော့မှ ရှည်လျားလွန်း မဖြစ်ရသည့်အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Food Chain Is Never Very Long",
+        titleMy: "Food Chain ဘယ်တော့မှ ရှည်လျားလွန်း မဖြစ်ရသည့်အကြောင်း",
+        passageEn:
+            "Sayar Zaw Min opened Term 9 by asking why food chains in nature rarely extend beyond four or five trophic levels -- why isn't there a chain of ten or twenty links, each organism simply eating the one below it? Htet Aung suggested it might be about energy, remembering the pyramid of energy from earlier in the week, and Sayar Zaw Min asked him to work through the numbers.\n\nHtet Aung reasoned it out: if producers capture, say, 10,000 units of energy from sunlight, only around 10 percent of that -- roughly 1,000 units -- typically ends up available to primary consumers, since the rest is lost as heat through the producers' own respiration, or remains locked in parts the consumers cannot digest. Repeating that same roughly 10 percent transfer at each step, secondary consumers would have access to only about 100 units, and tertiary consumers a mere 10 units. \"By the fourth or fifth level,\" he said, \"there's barely enough energy left to support even a handful of large predators.\"\n\n\"That's exactly the constraint,\" Sayar Zaw Min confirmed. \"A large predator at the top of a long chain would simply not find enough energy available to sustain a viable population -- which is why top predators like tigers or eagles tend to need enormous territories, and why food chains this long are rare. This same 10 percent rule also explains something you may already have noticed about food choices: eating lower on a food chain -- plants directly, rather than animals that ate plants -- makes far more of the sun's original energy available to support human populations, since every extra trophic level in between wastes roughly 90 percent of the energy passing through it.\"",
+        passageMy:
+            "သဘာဝတွင် Food Chain များသည် Trophic Level လေးခု (သို့) ငါးခုထက် ရှားရှားပါးပါးသာ ကျော်လွန်ရသည့်အကြောင်းရင်း -- ဆယ်ခု (သို့) နှစ်ဆယ် ကွင်းဆက်ရှိသော Chain မရှိရသလား, Organism တစ်ခုစီသည် ၎င်းအောက်ရှိတစ်ခုကို ရိုးရိုးတန်းတန်း စားသုံးရုံသာ -- ကို မေးခြင်းဖြင့် ဆရာဇော်မင်း Term 9 ကို စတင်ခဲ့သည်။ ဤအပတ်ရဲ့ အစောပိုင်းက Pyramid of Energy ကို သတိရသည့် Htet Aung သည် ၎င်းသည် စွမ်းအင်နှင့် သက်ဆိုင်နိုင်ကြောင်း အကြံပြုခဲ့ပြီး ဆရာဇော်မင်းက ဂဏန်းများကို ဆက်လက် လုပ်ဆောင်ရန် တောင်းဆိုခဲ့သည်။\n\nHtet Aung ၎င်းကို ဆင်ခြင်ခဲ့သည် - Producer များသည် နေရောင်မှ Energy Unit 10,000 ဖမ်းယူသည်ဆိုပါက ၎င်း၏ ခန့်မှန်း 10 ရာခိုင်နှုန်းသာ -- ခန့်မှန်း Unit 1,000 -- ပုံမှန်အားဖြင့် Primary Consumer များအတွက် ရရှိနိုင်လာသည်၊ ကျန်ရှိသည်မှာ Producer များ ကိုယ်တိုင်၏ Respiration မှတဆင့် အပူအဖြစ် ဆုံးရှုံးခြင်း (သို့) Consumer များ ချေဖျက်၍ မရသော အပိုင်းများတွင် ကျန်ရစ်ခြင်း ဖြစ်သည်။ ဤ ခန့်မှန်း 10 ရာခိုင်နှုန်း လွှဲပြောင်းမှု တူညီတစ်ခုကို အဆင့်တိုင်းတွင် ထပ်ခါထပ်ခါ ပြုလုပ်ပါက Secondary Consumer များတွင် Unit 100 ခန့်သာ ရရှိနိုင်ပြီး Tertiary Consumer များတွင် Unit 10 ခန့်သာ ရရှိနိုင်သည်။ \"စတုတ္ထ (သို့) ပဉ္စမ အဆင့်တွင်\" ဟု သူ ဆိုခဲ့သည် \"သားရဲကြီးအနည်းငယ်ကိုပင် ထောက်ပံ့ပေးရန် စွမ်းအင် လုံလောက်စွာ လုနီးပါး မကျန်တော့ပါ။\"\n\n\"ဒါက ကန့်သတ်ချက် အတိအကျ ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"ရှည်လျားသော Chain ၏ အထွတ်အထိပ်ရှိ သားရဲကြီးတစ်ကောင်သည် အသုံးဝင်သော Population တစ်ခု ထောက်ပံ့ရန် လုံလောက်သော စွမ်းအင်ကို ရိုးရိုးတန်းတန်း မတွေ့ရှိနိုင်ပါ -- ကျားများ (သို့) ရွှေလင်းတများကဲ့သို့ Top Predator များသည် ကျယ်ပြန့်သော နယ်မြေများ လိုအပ်ရသည့်အကြောင်းရင်းနှင့် ဤမျှ ရှည်လျားသော Food Chain များ ရှားပါးရသည့်အကြောင်းရင်း ဖြစ်ပါသည်။ ဤ 10 ရာခိုင်နှုန်း စည်းမျဉ်းတူညီသည် သင် ယခင်က သတိပြုမိပြီးသားလည်း ဖြစ်နိုင်သော အစားအစာ ရွေးချယ်မှုအကြောင်းကိုပါ ရှင်းပြသည် - Food Chain အနိမ့်ဘက်တွင် စားသုံးခြင်း -- အပင်စားသည့် တိရစ္ဆာန်များထက် အပင်များကို တိုက်ရိုက် -- သည် လူသား Population များအတွက် နေ၏ မူလ စွမ်းအင်ကို များစွာ ပို၍ ရရှိနိုင်စေသည်၊ ကြားရှိ Trophic Level တစ်ခုစီသည် ၎င်းကို ဖြတ်သန်းသွားသော စွမ်းအင်၏ ခန့်မှန်း 90 ရာခိုင်နှုန်းကို ဖြုန်းတီးစေသောကြောင့် ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Htet Aung's calculation, roughly how many energy units reach secondary consumers if producers start with 10,000 units?",
+            questionMy: "Producer များသည် Unit 10,000 ဖြင့် စတင်ပါက Secondary Consumer များထံ ခန့်မှန်း Energy Unit မည်မျှ ရောက်ရှိသည်ကို Htet Aung ၏ တွက်ချက်မှုအရ ဖော်ပြပါ။",
+            optionsEn: ["About 100", "About 10,000", "About 1,000", "About 1"],
+            optionsMy: ["ခန့်မှန်း 100", "ခန့်မှန်း 10,000", "ခန့်မှန်း 1,000", "ခန့်မှန်း 1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min, why do top predators like tigers need enormous territories?",
+            questionMy: "ကျားများကဲ့သို့ Top Predator များသည် ကျယ်ပြန့်သော နယ်မြေများ လိုအပ်ရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Very little energy remains available at the top of a long food chain",
+              "Tigers require no energy at all to survive",
+              "Territories have nothing to do with energy availability",
+              "Producers are always found far away from predators",
+            ],
+            optionsMy: [
+              "ရှည်လျားသော Food Chain ၏ အထွတ်အထိပ်တွင် စွမ်းအင် အနည်းငယ်သာ ရရှိနိုင်သောကြောင့်",
+              "ကျားများသည် ရှင်သန်ရန် စွမ်းအင် မည်သည်မျှ လုံးဝ မလိုအပ်သောကြောင့်",
+              "နယ်မြေများသည် စွမ်းအင် ရရှိနိုင်မှုနှင့် မည်သို့မျှ မသက်ဆိုင်သောကြောင့်",
+              "Producer များကို သားရဲများနှင့် ဝေးကွာစွာသာ တွေ့ရသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why does eating plants directly make more energy available to humans than eating animals that ate plants?",
+            questionMy: "အပင်စားသည့် တိရစ္ဆာန်များကို စားသုံးခြင်းထက် အပင်များကို တိုက်ရိုက် စားသုံးခြင်းက လူသားများအတွက် စွမ်းအင် ပို၍ ရရှိနိုင်စေရသည့်အကြောင်းရင်းကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each extra trophic level wastes roughly 90 percent of the energy passing through it",
+              "Animals never contain any energy at all",
+              "Plants contain no energy whatsoever",
+              "Eating animals always produces more energy than eating plants",
+            ],
+            optionsMy: [
+              "Trophic Level ထပ်တစ်ခုစီသည် ၎င်းကို ဖြတ်သန်းသွားသော စွမ်းအင်၏ ခန့်မှန်း 90 ရာခိုင်နှုန်းကို ဖြုန်းတီးစေသောကြောင့်",
+              "တိရစ္ဆာန်များတွင် စွမ်းအင် မည်သည်မျှ လုံးဝ မပါဝင်သောကြောင့်",
+              "အပင်များတွင် စွမ်းအင် လုံးဝ မပါဝင်သောကြောင့်",
+              "တိရစ္ဆာန်စားသုံးခြင်းက အပင်စားသုံးခြင်းထက် စွမ်းအင် ပို၍ အမြဲ ထုတ်ပေးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Energy Flow",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Energy Flow",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Producers occupy the first trophic level because they...",
+          questionMy: "Producer များသည် ...ကြောင့် ပထမ Trophic Level ကို ရယူထားသည်",
+          optionsEn: [
+            "Convert light energy into chemical energy",
+            "Eat other consumers directly",
+            "Never contain any energy",
+            "Only exist underground",
+          ],
+          optionsMy: [
+            "အလင်းစွမ်းအင်ကို Chemical Energy အဖြစ် ပြောင်းလဲပေးသောကြောင့်",
+            "အခြား Consumer များကို တိုက်ရိုက် စားသုံးသောကြောင့်",
+            "စွမ်းအင် မည်သည်ကိုမျှ လုံးဝ မပါဝင်သောကြောင့်",
+            "မြေအောက်တွင်သာ တည်ရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Roughly what percentage of energy is transferred to the next trophic level?",
+          questionMy: "နောက်တစ်ဆင့် Trophic Level သို့ စွမ်းအင် ခန့်မှန်း ရာခိုင်နှုန်းမည်မျှ လွှဲပြောင်းသနည်း",
+          optionsEn: ["About 10 percent", "About 90 percent", "About 100 percent", "About 0 percent"],
+          optionsMy: ["ခန့်မှန်း 10 ရာခိုင်နှုန်း", "ခန့်မှန်း 90 ရာခိုင်နှုန်း", "ခန့်မှန်း 100 ရာခိုင်နှုန်း", "ခန့်မှန်း 0 ရာခိုင်နှုန်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A pyramid of energy is always upright because...",
+          questionMy: "Pyramid of Energy သည် ...ကြောင့် အမြဲ တည့်မတ်နေသည်",
+          optionsEn: [
+            "Energy always decreases going up trophic levels",
+            "Energy always increases going up trophic levels",
+            "Every trophic level has identical energy",
+            "It is drawn randomly with no rule",
+          ],
+          optionsMy: [
+            "Trophic Level မြင့်တက်လာသည်နှင့်အမျှ စွမ်းအင် အမြဲ ကျဆင်းသောကြောင့်",
+            "Trophic Level မြင့်တက်လာသည်နှင့်အမျှ စွမ်းအင် အမြဲ တိုးလာသောကြောင့်",
+            "Trophic Level တိုင်းတွင် စွမ်းအင် အတိအကျ တူညီသောကြောင့်",
+            "စည်းမျဉ်း မရှိဘဲ Random ရေးဆွဲထားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "Nutrient Cycles: Carbon and Nitrogen"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek34 = CourseWeekDef(
+  id: "course-y13-bio-w34",
+  weekNumber: 34,
+  titleEn: "Nutrient Cycles: Carbon and Nitrogen",
+  titleMy: "Nutrient Cycle - Carbon နှင့် Nitrogen",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w34-d1",
+      dayNumber: 1,
+      titleEn: "The Carbon Cycle and the Nitrogen Cycle",
+      titleMy: "Carbon Cycle နှင့် Nitrogen Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In the carbon cycle, carbon dioxide is removed from the atmosphere mainly by...",
+          questionMy: "Carbon Cycle တွင် Carbon Dioxide ကို လေထုမှ အဓိကအားဖြင့် ...က ဖယ်ရှားသည်",
+          optionsEn: [
+            "Photosynthesis, which fixes carbon into organic molecules",
+            "Combustion, which only ever adds carbon dioxide",
+            "Respiration, which only ever adds carbon dioxide",
+            "Nitrogen fixation, which has no connection to carbon",
+          ],
+          optionsMy: [
+            "Photosynthesis, Carbon ကို Organic မော်လီကျူးများထဲသို့ Fix ပြုလုပ်ပေးသည်",
+            "Combustion, Carbon Dioxide ကိုသာ အမြဲ ထပ်ဆောင်းသည်",
+            "Respiration, Carbon Dioxide ကိုသာ အမြဲ ထပ်ဆောင်းသည်",
+            "Nitrogen Fixation, Carbon နှင့် ဆက်စပ်မှု မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Photosynthesis and respiration/combustion/decomposition pull in opposite directions -- photosynthesis removes CO2 from the atmosphere, while respiration, combustion and decomposition return it.",
+          ],
+          hintsMy: [
+            "Photosynthesis နှင့် Respiration/Combustion/Decomposition တို့သည် ဆန့်ကျင်ဘက် ဦးတည်ချက် ဆွဲငင်ကြသည် -- Photosynthesis သည် CO2 ကို လေထုမှ ဖယ်ရှားပေးပြီး Respiration, Combustion နှင့် Decomposition တို့သည် ၎င်းကို ပြန်လည် ပေးပို့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Decomposers return carbon to the atmosphere by...",
+          questionMy: "Decomposer များသည် ...ဖြင့် Carbon ကို လေထုသို့ ပြန်လည် ပေးပို့သည်",
+          optionsEn: [
+            "Respiring as they break down dead organic matter, releasing carbon dioxide",
+            "Photosynthesising like plants",
+            "Fixing nitrogen from the atmosphere",
+            "Absorbing carbon dioxide permanently with no release",
+          ],
+          optionsMy: [
+            "သေဆုံးသွားသော Organic Matter ကို ချေဖျက်နေစဉ် Respire ပြုလုပ်ကာ Carbon Dioxide ထုတ်လွှတ်ပေးသည်",
+            "အပင်များကဲ့သို့ Photosynthesise ပြုလုပ်ခြင်း",
+            "လေထုမှ Nitrogen ကို Fix ပြုလုပ်ခြင်း",
+            "ထုတ်လွှတ်ခြင်း လုံးဝ မရှိဘဲ Carbon Dioxide ကို အမြဲတမ်း စုပ်ယူခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Decomposers such as bacteria and fungi feed on dead organisms and waste, respiring as they do so and completing the cycle by returning carbon back to the atmosphere as CO2.",
+          ],
+          hintsMy: [
+            "Bacteria နှင့် Fungi ကဲ့သို့ Decomposer များသည် သေဆုံးသွားသော Organism များနှင့် စွန့်ပစ်ပစ္စည်းများကို စားသုံးကာ Respire ပြုလုပ်ကာ Carbon ကို CO2 အဖြစ် လေထုသို့ ပြန်လည် ပေးပို့ခြင်းဖြင့် Cycle ကို ပြီးဆုံးစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the nitrogen cycle, nitrogen-fixing bacteria (some living in root nodules of legume plants) convert atmospheric nitrogen gas into...",
+          questionMy: "Nitrogen Cycle တွင် Nitrogen-Fixing Bacteria (အချို့သည် ပဲပင်များ၏ Root Nodule တွင် နေထိုင်) သည် လေထု Nitrogen ဓာတ်ငွေ့ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: [
+            "Ammonia/ammonium compounds that plants can use to build amino acids",
+            "Pure oxygen gas, unrelated to nitrogen",
+            "Carbon dioxide gas",
+            "Water molecules only",
+          ],
+          optionsMy: [
+            "အပင်များ Amino Acid တည်ဆောက်ရန် အသုံးပြုနိုင်သော Ammonia/Ammonium Compound",
+            "Nitrogen နှင့် မသက်ဆိုင်သော Oxygen ဓာတ်ငွေ့ စစ်စစ်",
+            "Carbon Dioxide ဓာတ်ငွေ့",
+            "ရေမော်လီကျူးများသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Atmospheric nitrogen gas (N2) is extremely stable and unusable by most organisms directly -- nitrogen fixation converts it into a form plants can absorb and build into proteins and nucleic acids.",
+          ],
+          hintsMy: [
+            "လေထု Nitrogen ဓာတ်ငွေ့ (N2) သည် အလွန် တည်ငြိမ်ပြီး Organism အများစုက တိုက်ရိုက် အသုံးမပြုနိုင်ပါ -- Nitrogen Fixation သည် ၎င်းကို အပင်များ စုပ်ယူပြီး Protein နှင့် Nucleic Acid အဖြစ် တည်ဆောက်နိုင်သော ပုံစံအဖြစ် ပြောင်းလဲပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nutrient Cycle Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Nutrient Cycle ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w34-dm-1",
+          termEn: "Photosynthesis (carbon cycle)",
+          termMy: "Photosynthesis (Carbon Cycle)",
+          matchEn: "Removes carbon dioxide from the atmosphere, fixing it into organic molecules",
+          matchMy: "Carbon Dioxide ကို လေထုမှ ဖယ်ရှားပြီး Organic မော်လီကျူးများထဲသို့ Fix ပြုလုပ်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w34-dm-2",
+          termEn: "Decomposer",
+          termMy: "Decomposer",
+          matchEn: "An organism, e.g. bacteria or fungi, that breaks down dead matter and releases nutrients",
+          matchMy: "သေဆုံးသွားသော ပစ္စည်းကို ချေဖျက်ကာ Nutrient ထုတ်လွှတ်ပေးသော Organism (ဥပမာ Bacteria (သို့) Fungi)",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w34-dm-3",
+          termEn: "Nitrogen fixation",
+          termMy: "Nitrogen Fixation",
+          matchEn: "Converting atmospheric nitrogen gas into a usable form such as ammonia",
+          matchMy: "လေထု Nitrogen ဓာတ်ငွေ့ကို Ammonia ကဲ့သို့ အသုံးပြုနိုင်သော ပုံစံအဖြစ် ပြောင်းလဲခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w34-dm-4",
+          termEn: "Nitrification",
+          termMy: "Nitrification",
+          matchEn: "Bacteria converting ammonium compounds into nitrites and then nitrates",
+          matchMy: "Ammonium Compound များကို Nitrite ထို့နောက် Nitrate အဖြစ် Bacteria က ပြောင်းလဲခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w34-dm-5",
+          termEn: "Denitrification",
+          termMy: "Denitrification",
+          matchEn: "Bacteria converting nitrates back into atmospheric nitrogen gas",
+          matchMy: "Nitrate များကို လေထု Nitrogen ဓာတ်ငွေ့အဖြစ် Bacteria က ပြန်လည် ပြောင်းလဲခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Carbon Cycle or Nitrogen Cycle?",
+      titleMy: "စီစစ်ကြမည် - Carbon Cycle သို့မဟုတ် Nitrogen Cycle?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Carbon Cycle", "Nitrogen Cycle"],
+        bucketsMy: ["Carbon Cycle", "Nitrogen Cycle"],
+        items: [
+          SortingItem(
+            id: "y13bio-w34-sort-1",
+            labelEn: "Photosynthesis removes CO2 from the atmosphere",
+            labelMy: "Photosynthesis သည် CO2 ကို လေထုမှ ဖယ်ရှားသည်",
+            correctBucketEn: "Carbon Cycle",
+            correctBucketMy: "Carbon Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w34-sort-2",
+            labelEn: "Combustion of fossil fuels releases CO2",
+            labelMy: "Fossil Fuel Combustion သည် CO2 ထုတ်လွှတ်သည်",
+            correctBucketEn: "Carbon Cycle",
+            correctBucketMy: "Carbon Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w34-sort-3",
+            labelEn: "Root nodule bacteria fix atmospheric nitrogen into ammonia",
+            labelMy: "Root Nodule Bacteria များသည် လေထု Nitrogen ကို Ammonia အဖြစ် Fix ပြုလုပ်ပေးသည်",
+            correctBucketEn: "Nitrogen Cycle",
+            correctBucketMy: "Nitrogen Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w34-sort-4",
+            labelEn: "Nitrifying bacteria convert ammonium into nitrate",
+            labelMy: "Nitrifying Bacteria များသည် Ammonium ကို Nitrate အဖြစ် ပြောင်းလဲပေးသည်",
+            correctBucketEn: "Nitrogen Cycle",
+            correctBucketMy: "Nitrogen Cycle",
+          ),
+          SortingItem(
+            id: "y13bio-w34-sort-5",
+            labelEn: "Decomposers respire, releasing carbon dioxide as they break down dead matter",
+            labelMy: "Decomposer များသည် သေဆုံးသွားသော ပစ္စည်းကို ချေဖျက်နေစဉ် Respire ပြုလုပ်ကာ Carbon Dioxide ထုတ်လွှတ်သည်",
+            correctBucketEn: "Carbon Cycle",
+            correctBucketMy: "Carbon Cycle",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Su Su's Compost Heap",
+      titleMy: "စာဖတ်ခြင်း - Su Su ၏ မြေဩဇာအမှိုက်ပုံ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Su Su's Compost Heap",
+        titleMy: "Su Su ၏ မြေဩဇာအမှိုက်ပုံ",
+        passageEn:
+            "Su Su had started a compost heap at home, piling up vegetable peelings and dead leaves, and asked Sayar Zaw Min why the pile felt warm to the touch even though it was sitting outdoors in cool weather. He explained that decomposer bacteria and fungi inside the heap were respiring rapidly as they broke down the organic matter, releasing heat as a by-product -- and, just as importantly, releasing carbon dioxide, returning carbon that the original plants had once captured from the atmosphere by photosynthesis back into it.\n\nHtet Aung connected this to the bigger picture: this same cycle -- photosynthesis capturing carbon, then respiration and decomposition releasing it again -- has been running continuously for billions of years, keeping atmospheric carbon dioxide levels relatively stable over long timescales, at least before human activity like burning fossil fuels began adding carbon that had been locked away underground for millions of years, upsetting that long-standing balance.\n\nSu Su then asked a related question: her compost heap was also full of nitrogen-rich material, so where did that nitrogen end up? Sayar Zaw Min explained the connected nitrogen cycle: as decomposers break down proteins and nucleic acids in the dead plant matter, they release ammonia, which nitrifying bacteria in the soil then convert first into nitrites and then into nitrates -- a form growing plants can absorb through their roots to build their own new proteins. \"Your compost heap is essentially two nutrient cycles running side by side in miniature,\" he concluded. \"Carbon and nitrogen, both locked up in living matter, both released by decomposition, and both made available again for the next generation of plants to build into their own tissues -- which is exactly why compost makes such effective natural fertiliser.\"",
+        passageMy:
+            "Su Su သည် အိမ်တွင် ဟင်းသီးဟင်းရွက် အခွံနှင့် အရွက်ခြောက်များကို စုပုံကာ မြေဩဇာအမှိုက်ပုံ တစ်ခု စတင်ခဲ့ပြီး အအေးရာသီဥတု အပြင်ဘက်တွင် ရှိနေသော်လည်း ထို အစုသည် ထိတွေ့ပါက ပူနွေးစွာ ခံစားရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်းအား မေးခဲ့သည်။ အစုအတွင်းရှိ Decomposer Bacteria နှင့် Fungi များသည် Organic Matter ကို ချေဖျက်နေစဉ် လျင်မြန်စွာ Respire ပြုလုပ်ကာ By-product အဖြစ် အပူ ထုတ်လွှတ်နေခြင်း -- အရေးကြီးစွာ Carbon Dioxide ထုတ်လွှတ်ကာ မူလ အပင်များ Photosynthesis ဖြင့် လေထုမှ တစ်ချိန်က ဖမ်းယူထားခဲ့သော Carbon ကို လေထုသို့ ပြန်လည် ပေးပို့ခြင်း -- ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည်။\n\nHtet Aung က ၎င်းကို ပုံရိပ်ကြီးနှင့် ချိတ်ဆက်ခဲ့သည် - တူညီသော Cycle -- Photosynthesis က Carbon ဖမ်းယူပြီး Respiration နှင့် Decomposition က ၎င်းကို ထပ်မံ ထုတ်လွှတ်ခြင်း -- သည် နှစ်ပေါင်းသန်းချီ ဆက်တိုက် လည်ပတ်နေခဲ့ပြီး ရှည်လျားသော အချိန်ကာလများတလျှောက် လေထု Carbon Dioxide အဆင့်ကို အတိုင်းအတာတစ်ခုအထိ တည်ငြိမ်စွာ ထိန်းသိမ်းထားခဲ့သည်၊ သန်းပေါင်းများစွာ ကြာအောင် မြေအောက်တွင် ပိတ်မိနေခဲ့သော Carbon ကို ထပ်ဆောင်းသည့် Fossil Fuel လောင်ကျွမ်းခြင်းကဲ့သို့ လူသား လုပ်ဆောင်ချက် မစတင်မီ ထို ကာလ ကြာမြင့်စွာ ရှိနေခဲ့သော Balance ကို နှောင့်ယှက်ခဲ့သည်။\n\nSu Su ဆက်စပ် မေးခွန်းတစ်ခု ထပ်မံ မေးခဲ့သည် - သူ၏ မြေဩဇာအမှိုက်ပုံသည် Nitrogen ကြွယ်ဝသော ပစ္စည်းများနှင့်လည်း ပြည့်နှက်နေသောကြောင့် ထို Nitrogen သည် နောက်ဆုံး ဘယ်ရောက်သွားသနည်း။ ဆက်စပ်နေသော Nitrogen Cycle ကို ဆရာဇော်မင်း ရှင်းပြခဲ့သည် - Decomposer များသည် သေဆုံးသွားသော အပင်ပစ္စည်းရှိ Protein နှင့် Nucleic Acid ကို ချေဖျက်နေစဉ် Ammonia ကို ထုတ်လွှတ်ပေးပြီး ထို့နောက် မြေဩဇာရှိ Nitrifying Bacteria များက ၎င်းကို ပထမ Nitrite အဖြစ်၊ ထို့နောက် Nitrate အဖြစ် ပြောင်းလဲပေးသည် -- ကြီးထွားနေသော အပင်များသည် ၎င်းတို့၏ Root များမှတဆင့် စုပ်ယူပြီး ကိုယ်ပိုင် Protein အသစ်များ တည်ဆောက်နိုင်သော ပုံစံ ဖြစ်သည်။ \"သင်၏ မြေဩဇာအမှိုက်ပုံသည် အခြေခံအားဖြင့် Nutrient Cycle နှစ်ခု Miniature ပုံစံတွင် တစ်ဘေးတစ်ချက် လည်ပတ်နေခြင်း ဖြစ်ပါတယ်\" ဟု သူ နိဂုံးချုပ်ခဲ့သည်။ \"Carbon နှင့် Nitrogen, နှစ်ခုစလုံးသည် သက်ရှိပစ္စည်းထဲတွင် ပိတ်မိနေပြီး Decomposition မှတဆင့် ထုတ်လွှတ်ခံရကာ နောက်မျိုးဆက် အပင်များ ကိုယ်ပိုင် Tissue များထဲသို့ တည်ဆောက်နိုင်ရန် ထပ်ဆင့် ရရှိနိုင်စေသည် -- Compost ကို ဤမျှ ထိရောက်သော သဘာဝ မြေဩဇာဖြစ်စေရသည့်အကြောင်းရင်း အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min, why did Su Su's compost heap feel warm?",
+            questionMy: "Su Su ၏ မြေဩဇာအမှိုက်ပုံ ပူနွေးစွာ ခံစားရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Decomposer bacteria and fungi were respiring rapidly, releasing heat",
+              "It was sitting in direct sunlight all day",
+              "Photosynthesis was heating the pile directly",
+              "The pile contained no organisms at all",
+            ],
+            optionsMy: [
+              "Decomposer Bacteria နှင့် Fungi များသည် လျင်မြန်စွာ Respire ပြုလုပ်ကာ အပူ ထုတ်လွှတ်နေသောကြောင့်",
+              "တစ်နေ့လုံး နေရောင်ခြည် တိုက်ရိုက် ထိတွေ့နေသောကြောင့်",
+              "Photosynthesis က အစုကို တိုက်ရိုက် ပူနွေးစေသောကြောင့်",
+              "အစုတွင် Organism မည်သည်မျှ လုံးဝ မပါဝင်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, what human activity has upset the long-standing carbon balance?",
+            questionMy: "ကြာရှည်စွာ တည်ငြိမ်နေခဲ့သော Carbon Balance ကို လူသား လုပ်ဆောင်ချက် မည်သည် နှောင့်ယှက်ခဲ့သည်ကို Htet Aung ၏ ဆိုကြားချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Burning fossil fuels, releasing carbon locked away for millions of years",
+              "Planting more trees than ever before",
+              "Stopping all respiration completely",
+              "Removing all carbon dioxide from the atmosphere",
+            ],
+            optionsMy: [
+              "သန်းပေါင်းများစွာ ပိတ်မိနေခဲ့သော Carbon ကို ထုတ်လွှတ်စေသော Fossil Fuel လောင်ကျွမ်းခြင်း",
+              "ယခင်ကထက် သစ်ပင် ပိုစိုက်ပျိုးခြင်း",
+              "Respiration အားလုံးကို လုံးလုံး ရပ်တန့်ခြင်း",
+              "လေထုမှ Carbon Dioxide အားလုံးကို ဖယ်ရှားခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's explanation, what do nitrifying bacteria convert ammonia into?",
+            questionMy: "Nitrifying Bacteria များသည် Ammonia ကို မည်သည်အဖြစ် ပြောင်းလဲပေးသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Nitrites and then nitrates",
+              "Pure carbon dioxide",
+              "Atmospheric oxygen gas",
+              "Pure water only",
+            ],
+            optionsMy: ["Nitrite ထို့နောက် Nitrate", "Carbon Dioxide စစ်စစ်", "လေထု Oxygen ဓာတ်ငွေ့", "ရေစစ်စစ်သာ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: Nutrient Cycles",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Nutrient Cycle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Photosynthesis removes carbon dioxide from the atmosphere by...",
+          questionMy: "Photosynthesis သည် ...ဖြင့် Carbon Dioxide ကို လေထုမှ ဖယ်ရှားသည်",
+          optionsEn: [
+            "Fixing it into organic molecules",
+            "Releasing more of it into the air",
+            "Converting it into nitrogen gas",
+            "Storing it as liquid water only",
+          ],
+          optionsMy: [
+            "Organic မော်လီကျူးများထဲသို့ Fix ပြုလုပ်ခြင်း",
+            "လေထုထဲသို့ ပို၍ ထုတ်လွှတ်ခြင်း",
+            "Nitrogen ဓာတ်ငွေ့အဖြစ် ပြောင်းလဲခြင်း",
+            "ရေအရည်အဖြစ်သာ သိမ်းဆည်းခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Nitrogen fixation converts atmospheric nitrogen gas into...",
+          questionMy: "Nitrogen Fixation သည် လေထု Nitrogen ဓာတ်ငွေ့ကို ...အဖြစ် ပြောင်းလဲပေးသည်",
+          optionsEn: ["Ammonia", "Carbon dioxide", "Oxygen gas", "Pure water"],
+          optionsMy: ["Ammonia", "Carbon Dioxide", "Oxygen ဓာတ်ငွေ့", "ရေစစ်စစ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Decomposers return carbon to the atmosphere mainly through...",
+          questionMy: "Decomposer များသည် အဓိကအားဖြင့် ...မှတဆင့် Carbon ကို လေထုသို့ ပြန်လည် ပေးပို့သည်",
+          optionsEn: ["Respiration", "Photosynthesis", "Nitrogen fixation", "Osmosis"],
+          optionsMy: ["Respiration", "Photosynthesis", "Nitrogen Fixation", "Osmosis"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "Population Size and Carrying Capacity"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek35 = CourseWeekDef(
+  id: "course-y13-bio-w35",
+  weekNumber: 35,
+  titleEn: "Population Size and Carrying Capacity",
+  titleMy: "Population အရွယ်အစားနှင့် Carrying Capacity",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w35-d1",
+      dayNumber: 1,
+      titleEn: "Carrying Capacity and Limiting Factors",
+      titleMy: "Carrying Capacity နှင့် Limiting Factor",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The carrying capacity of a habitat is best defined as...",
+          questionMy: "Habitat တစ်ခု၏ Carrying Capacity ကို အကောင်းဆုံး ဖော်ပြချက်မှာ...",
+          optionsEn: [
+            "The maximum population size that habitat can sustainably support with its available resources",
+            "The exact number of species present in a habitat",
+            "The total area of a habitat measured in square kilometres",
+            "The number of predators in a habitat only",
+          ],
+          optionsMy: [
+            "ရရှိနိုင်သော အရင်းအမြစ်များဖြင့် ထို Habitat တည်ငြိမ်စွာ ထောက်ပံ့နိုင်သော အမြင့်ဆုံး Population အရွယ်အစား",
+            "Habitat တစ်ခုအတွင်း ရှိသော မျိုးစိတ် အတိအကျ အရေအတွက်",
+            "Habitat တစ်ခု၏ ဧရိယာစုစုပေါင်းကို Square Kilometre ဖြင့် တိုင်းတာသည်",
+            "Habitat တစ်ခုရှိ Predator အရေအတွက်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Beyond the carrying capacity, resources such as food, water, or space become insufficient for the growing population, causing the population growth rate to slow or the population to decline.",
+          ],
+          hintsMy: [
+            "Carrying Capacity ထက် ကျော်လွန်ပါက အစားအစာ, ရေ (သို့) နေရာလွတ်ကဲ့သို့ အရင်းအမြစ်များသည် ကြီးထွားနေသော Population အတွက် မလုံလောက်တော့ဘဲ Population ကြီးထွားမှုနှုန်း ဖြေးညှင်းသွား (သို့) Population ကျဆင်းသွားစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A density-dependent limiting factor, such as competition for food or the spread of disease, affects population growth rate...",
+          questionMy: "အစားအစာအတွက် ယှဉ်ပြိုင်မှု (သို့) ရောဂါ ပျံ့နှံ့မှုကဲ့သို့ Density-Dependent Limiting Factor တစ်ခုသည် Population Growth Rate ကို ...ဖြင့် သက်ရောက်စေသည်",
+          optionsEn: [
+            "More strongly as population density increases",
+            "Exactly the same regardless of population density",
+            "Only when the population is completely absent",
+            "Never at all, in any circumstance",
+          ],
+          optionsMy: [
+            "Population Density တိုးလာသည်နှင့်အမျှ ပို၍ အားကောင်းစွာ",
+            "Population Density မည်သို့ပင်ရှိစေ အတိအကျ တူညီစွာ",
+            "Population လုံးလုံး မရှိချိန်တွင်သာ",
+            "မည်သည့် အခြေအနေတွင်မဆို ဘယ်တော့မှ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "In a crowded population, disease spreads faster and competition for limited food or space intensifies -- both effects grow stronger as density rises, helping to regulate the population back toward the carrying capacity.",
+          ],
+          hintsMy: [
+            "Crowded Population တစ်ခုတွင် ရောဂါသည် ပို၍ မြန်ဆန်စွာ ပျံ့နှံ့ပြီး ကန့်သတ်ထားသော အစားအစာ (သို့) နေရာလွတ်အတွက် ယှဉ်ပြိုင်မှု ပြင်းထန်လာသည် -- သက်ရောက်မှု နှစ်ခုစလုံးသည် Density မြင့်လာသည်နှင့်အမျှ ပို၍ အားကောင်းလာပြီး Population ကို Carrying Capacity ဆီသို့ ပြန်လည် ထိန်းညှိပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A density-independent limiting factor, such as an extreme weather event, affects population size...",
+          questionMy: "အလွန်အမင်း ရာသီဥတု အဖြစ်အပျက်ကဲ့သို့ Density-Independent Limiting Factor တစ်ခုသည် Population အရွယ်အစားကို ...ဖြင့် သက်ရောက်စေသည်",
+          optionsEn: [
+            "Regardless of how crowded the population already is",
+            "Only when the population is at exactly its carrying capacity",
+            "Only in habitats with no predators at all",
+            "Only through competition between individuals",
+          ],
+          optionsMy: [
+            "Population သည် အခုချိန်တွင် မည်မျှ Crowded ဖြစ်နေသည်ဖြစ်စေ",
+            "Population သည် ၎င်း၏ Carrying Capacity တွင် အတိအကျ ရှိသောအခါသာ",
+            "Predator လုံးဝ မရှိသော Habitat တွင်သာ",
+            "လူပုဂ္ဂိုလ်များအကြား ယှဉ်ပြိုင်မှုမှတဆင့်သာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A hurricane, wildfire, or extreme cold snap can kill a similar proportion of a population whether it is sparse or crowded -- unlike density-dependent factors, its impact does not scale with population density.",
+          ],
+          hintsMy: [
+            "Hurricane, သစ်တောမီးလောင်ခြင်း (သို့) အလွန်အမင်း အအေးဒဏ်သည် Population ရှားပါးသည်ဖြစ်စေ Crowded ဖြစ်သည်ဖြစ်စေ ဆင်တူသော အချိုးအစားကို သတ်ဖြတ်နိုင်သည် -- Density-Dependent Factor များနှင့် မတူဘဲ ၎င်း၏ သက်ရောက်မှုသည် Population Density နှင့် Scale မလိုက်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Population Ecology Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Population Ecology ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w35-dm-1",
+          termEn: "Carrying capacity",
+          termMy: "Carrying Capacity",
+          matchEn: "The maximum population size a habitat can sustainably support",
+          matchMy: "Habitat တစ်ခု တည်ငြိမ်စွာ ထောက်ပံ့နိုင်သော အမြင့်ဆုံး Population အရွယ်အစား",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w35-dm-2",
+          termEn: "Limiting factor",
+          termMy: "Limiting Factor",
+          matchEn: "An environmental factor that restricts population growth",
+          matchMy: "Population ကြီးထွားမှုကို ကန့်သတ်ပေးသော ပတ်ဝန်းကျင် Factor",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w35-dm-3",
+          termEn: "Density-dependent factor",
+          termMy: "Density-Dependent Factor",
+          matchEn: "A limiting factor whose effect strengthens as population density increases, e.g. disease",
+          matchMy: "Population Density တိုးလာသည်နှင့်အမျှ သက်ရောက်မှု အားကောင်းလာသော Limiting Factor၊ ဥပမာ - ရောဂါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w35-dm-4",
+          termEn: "Density-independent factor",
+          termMy: "Density-Independent Factor",
+          matchEn: "A limiting factor whose effect does not depend on population density, e.g. extreme weather",
+          matchMy: "သက်ရောက်မှုသည် Population Density အပေါ် မမှီခိုသော Limiting Factor၊ ဥပမာ - အလွန်အမင်း ရာသီဥတု",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w35-dm-5",
+          termEn: "Population growth rate",
+          termMy: "Population Growth Rate",
+          matchEn: "The rate at which a population's size increases or decreases over time",
+          matchMy: "Population အရွယ်အစား အချိန်တစ်လျှောက် တိုးများ (သို့) လျော့ကျသော နှုန်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Density-Dependent or Density-Independent Factor?",
+      titleMy: "စီစစ်ကြမည် - Density-Dependent သို့မဟုတ် Density-Independent Factor?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Density-Dependent Factor", "Density-Independent Factor"],
+        bucketsMy: ["Density-Dependent Factor", "Density-Independent Factor"],
+        items: [
+          SortingItem(
+            id: "y13bio-w35-sort-1",
+            labelEn: "Disease spreading faster in a crowded population",
+            labelMy: "Crowded Population တစ်ခုတွင် ပိုမြန်ဆန်စွာ ပျံ့နှံ့သော ရောဂါ",
+            correctBucketEn: "Density-Dependent Factor",
+            correctBucketMy: "Density-Dependent Factor",
+          ),
+          SortingItem(
+            id: "y13bio-w35-sort-2",
+            labelEn: "Competition for food intensifying as population size increases",
+            labelMy: "Population အရွယ်အစား တိုးလာသည်နှင့်အမျှ ပြင်းထန်လာသော အစားအစာအတွက် ယှဉ်ပြိုင်မှု",
+            correctBucketEn: "Density-Dependent Factor",
+            correctBucketMy: "Density-Dependent Factor",
+          ),
+          SortingItem(
+            id: "y13bio-w35-sort-3",
+            labelEn: "A wildfire destroying habitat regardless of population size",
+            labelMy: "Population အရွယ်အစား မည်သို့ပင်ရှိစေ Habitat ကို ဖျက်ဆီးသော သစ်တောမီးလောင်ခြင်း",
+            correctBucketEn: "Density-Independent Factor",
+            correctBucketMy: "Density-Independent Factor",
+          ),
+          SortingItem(
+            id: "y13bio-w35-sort-4",
+            labelEn: "An extreme cold snap killing a similar proportion whether sparse or crowded",
+            labelMy: "ရှားပါးသည်ဖြစ်စေ Crowded ဖြစ်သည်ဖြစ်စေ ဆင်တူသော အချိုးအစားကို သတ်ဖြတ်သော အလွန်အမင်း အအေးဒဏ်",
+            correctBucketEn: "Density-Independent Factor",
+            correctBucketMy: "Density-Independent Factor",
+          ),
+          SortingItem(
+            id: "y13bio-w35-sort-5",
+            labelEn: "Predation pressure increasing as prey population density rises",
+            labelMy: "Prey Population Density မြင့်တက်လာသည်နှင့်အမျှ တိုးလာသော Predation ဖိအား",
+            correctBucketEn: "Density-Dependent Factor",
+            correctBucketMy: "Density-Dependent Factor",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Rabbit Population's Rise and Fall",
+      titleMy: "စာဖတ်ခြင်း - ယုန် Population ၏ တက်ခြင်းနှင့် ကျခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Rabbit Population's Rise and Fall",
+        titleMy: "ယုန် Population ၏ တက်ခြင်းနှင့် ကျခြင်း",
+        passageEn:
+            "Sayar Zaw Min presented the class with a graph tracking a rabbit population introduced onto an island with abundant grass and no predators. In the first few years, the population grew rapidly, roughly doubling each year, closely resembling exponential growth. Htet Aung noticed the curve then began to level off, and asked why the rabbits didn't simply keep doubling forever.\n\nSu Su suggested that the island's resources -- grass for food, space for burrows, fresh water -- were not unlimited, and as the rabbit population grew larger, those resources became harder for each individual rabbit to find. \"That sounds like competition getting more intense as the population gets denser,\" she said, connecting it to density-dependent limiting factors. Sayar Zaw Min confirmed this: as the population approached the island's carrying capacity, competition for food and space intensified, birth rates fell and death rates rose, until the population growth rate slowed to nearly zero and the population size stabilised, fluctuating around the carrying capacity rather than growing indefinitely.\n\n\"Now imagine a severe drought hits the island the following year,\" Sayar Zaw Min continued, \"cutting the grass supply drastically regardless of how many rabbits are competing for it.\" Htet Aung recognised this as a density-independent factor: the drought's severity, and its effect on the rabbit population, would not depend on whether the population was sparse or dense -- it would simply reduce the carrying capacity itself, potentially causing a sharp population crash even in a population that had been perfectly stable before. \"That's the key distinction to hold onto,\" Sayar Zaw Min concluded. \"Density-dependent factors regulate a population around a relatively stable carrying capacity, while density-independent factors can shift that carrying capacity itself, sometimes suddenly and dramatically -- real populations in nature are shaped by both kinds of pressure operating together, not just one or the other.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ကျားများ (Predator) လုံးဝ မရှိဘဲ မြက်ရေအောင်စွာ ရှိသော ကျွန်းတစ်ခုသို့ ထည့်သွင်းလိုက်သော ယုန် Population ကို ခြေရာခံထားသော Graph တစ်ခုကို အတန်းအား တင်ပြခဲ့သည်။ ပထမ နှစ်အနည်းငယ်တွင် Population သည် လျင်မြန်စွာ ကြီးထွားခဲ့ပြီး နှစ်စဉ် ခန့်မှန်း နှစ်ဆတိုးကာ Exponential Growth နှင့် နီးစပ်စွာ ဆင်တူခဲ့သည်။ Curve သည် ထို့နောက် ညီညာသွားသည်ကို Htet Aung သတိပြုမိပြီး ယုန်များသည် အဘယ်ကြောင့် ရိုးရိုးတန်းတန်း အမြဲတမ်း နှစ်ဆမတိုးရသနည်းဟု မေးခဲ့သည်။\n\nကျွန်းရှိ အရင်းအမြစ်များ -- အစားအစာအတွက် မြက်, ဂူများအတွက် နေရာလွတ်, ရေချိုသန့် -- သည် ကန့်သတ်မှု မရှိသည် မဟုတ်ဘဲ ယုန် Population ကြီးထွားလာသည်နှင့်အမျှ ယုန်တစ်ကောင်စီအတွက် ထို အရင်းအမြစ်များ ရှာဖွေရန် ပို၍ ခက်ခဲလာသည်ဟု Su Su အကြံပြုခဲ့သည်။ \"ဒါက Population Density ပိုကြပ်လာသည်နှင့်အမျှ ယှဉ်ပြိုင်မှု ပို၍ ပြင်းထန်လာသလိုပဲ\" ဟု သူ Density-Dependent Limiting Factor များနှင့် ချိတ်ဆက်ရင်း ဆိုခဲ့သည်။ ဆရာဇော်မင်းက ၎င်းကို အတည်ပြုခဲ့သည် - Population သည် ကျွန်း၏ Carrying Capacity အနီးသို့ ရောက်ရှိသောအခါ အစားအစာနှင့် နေရာလွတ်အတွက် ယှဉ်ပြိုင်မှု ပြင်းထန်လာပြီး မွေးဖွားနှုန်း ကျဆင်းကာ သေဆုံးနှုန်း မြင့်တက်ကာ Population ကြီးထွားနှုန်းသည် သုညနီးပါးအထိ ဖြေးညှင်းသွားပြီး Population အရွယ်အစားသည် ကန့်သတ်မှုမရှိဘဲ ကြီးထွားနေမည့်အစား Carrying Capacity ပတ်ဝန်းကျင်တွင် တုန်လှုပ်ကာ တည်ငြိမ်သွားခဲ့သည်။\n\n\"ယခု နောက်နှစ် ကျွန်းသို့ ပြင်းထန်သော မိုးခေါင်ရေရှားခြင်း တိုက်ခတ်လာသည်ဟု စိတ်ကူးကြည့်ပါ\" ဟု ဆရာဇော်မင်း ဆက်လက်ခဲ့သည် \"ယုန်မည်မျှ ယှဉ်ပြိုင်နေသည်ဖြစ်စေ မြက် ထောက်ပံ့မှုကို ပြင်းထန်စွာ ဖြတ်တောက်ပါသည်။\" ၎င်းကို Density-Independent Factor တစ်ခုအဖြစ် Htet Aung မှတ်မိခဲ့သည် - မိုးခေါင်ရေရှားခြင်း၏ ပြင်းထန်မှုနှင့် ယုန် Population အပေါ် ၎င်း၏ သက်ရောက်မှုသည် Population ရှားပါးသလား ကြပ်နေသလား အပေါ် မမှီခိုဘဲ Carrying Capacity ကိုယ်တိုင်ကိုသာ လျှော့ချစေမည်ဖြစ်ပြီး ယခင်က ပြီးပြည့်စုံစွာ တည်ငြိမ်နေခဲ့သော Population တစ်ခုတွင်ပင် Population ဆတ်ကနဲ ပြိုကျမှုကို ဖြစ်ပေါ်စေနိုင်သည်။ \"ဒါက စွဲထားရမည့် အဓိက ကွာခြားချက် ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည်။ \"Density-Dependent Factor များသည် Population ကို ခန့်မှန်း တည်ငြိမ်သော Carrying Capacity ပတ်ဝန်းကျင် ထိန်းညှိပေးပြီး Density-Independent Factor များသည် ထို Carrying Capacity ကိုယ်တိုင်ကို ရုတ်ချည်း ပြင်းထန်စွာ ရွှေ့ပြောင်းစေနိုင်သည် -- သဘာဝရှိ Population အစစ်အမှန်များသည် Pressure နှစ်မျိုးလုံး အတူတကွ လုပ်ဆောင်ခြင်းဖြင့် ပုံဖော်ခံရသည်၊ တစ်ခုတည်း မဟုတ်ပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why did the rabbit population's growth begin to level off?",
+            questionMy: "ယုန် Population ၏ ကြီးထွားမှု ညီညာသွားရသည့်အကြောင်းရင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Competition for limited resources intensified as the population grew",
+              "All the rabbits suddenly disappeared",
+              "The island had no grass at all from the start",
+              "Predators arrived and ate every rabbit",
+            ],
+            optionsMy: [
+              "Population ကြီးထွားလာသည်နှင့်အမျှ ကန့်သတ်ထားသော အရင်းအမြစ်များအတွက် ယှဉ်ပြိုင်မှု ပြင်းထန်လာသောကြောင့်",
+              "ယုန်အားလုံး ရုတ်တရက် ပျောက်ကွယ်သွားသောကြောင့်",
+              "ကျွန်းတွင် အစကတည်းက မြက် လုံးဝ မရှိသောကြောင့်",
+              "ကျားများ ရောက်ရှိလာပြီး ယုန်တိုင်းကို စားသုံးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why is the drought a density-independent factor?",
+            questionMy: "မိုးခေါင်ရေရှားခြင်းသည် Density-Independent Factor တစ်ခု ဖြစ်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its effect does not depend on whether the population is sparse or dense",
+              "It only affects populations that are extremely crowded",
+              "It has no effect on the rabbit population whatsoever",
+              "It only occurs when the population is at zero",
+            ],
+            optionsMy: [
+              "၎င်း၏ သက်ရောက်မှုသည် Population ရှားပါးသလား ကြပ်နေသလား အပေါ် မမှီခိုသောကြောင့်",
+              "အလွန် ကြပ်နေသော Population များကိုသာ သက်ရောက်စေသောကြောင့်",
+              "ယုန် Population အပေါ် မည်သည့် သက်ရောက်မှုမျှ လုံးဝ မရှိသောကြောင့်",
+              "Population သုညတွင် ရှိသောအခါသာ ဖြစ်ပွားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's closing remark, what is the key distinction between density-dependent and density-independent factors?",
+            questionMy: "Density-Dependent နှင့် Density-Independent Factor များအကြား အဓိက ကွာခြားချက်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Density-dependent factors regulate around a stable carrying capacity; density-independent factors can shift the carrying capacity itself",
+              "Density-dependent factors never affect any population",
+              "Density-independent factors only ever help a population grow",
+              "There is no real difference between the two types of factor",
+            ],
+            optionsMy: [
+              "Density-Dependent Factor များသည် တည်ငြိမ်သော Carrying Capacity ပတ်ဝန်းကျင် ထိန်းညှိပေးပြီး Density-Independent Factor များသည် Carrying Capacity ကိုယ်တိုင်ကို ရွှေ့ပြောင်းစေနိုင်",
+              "Density-Dependent Factor များသည် Population မည်သည့်တွင်မျှ ဘယ်တော့မှ မသက်ရောက်",
+              "Density-Independent Factor များသည် Population ကြီးထွားရန်ကိုသာ တစ်ခါမျှ ကူညီ",
+              "Factor အမျိုးအစားနှစ်မျိုးအကြား စစ်စစ် ကွာခြားချက် မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Population Size",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Population အရွယ်အစား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Carrying capacity is the...",
+          questionMy: "Carrying Capacity ဆိုသည်မှာ...",
+          optionsEn: [
+            "Maximum population a habitat can sustainably support",
+            "Total number of species in a habitat",
+            "Exact age of the oldest organism present",
+            "Number of predators in a habitat only",
+          ],
+          optionsMy: [
+            "Habitat တစ်ခု တည်ငြိမ်စွာ ထောက်ပံ့နိုင်သော အမြင့်ဆုံး Population",
+            "Habitat တစ်ခုရှိ မျိုးစိတ် စုစုပေါင်း အရေအတွက်",
+            "ရှိနေသော အသက်အကြီးဆုံး Organism ၏ အတိအကျ အသက်",
+            "Habitat တစ်ခုရှိ Predator အရေအတွက်သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A density-dependent factor's effect strengthens as...",
+          questionMy: "Density-Dependent Factor တစ်ခု၏ သက်ရောက်မှုသည် ...အလိုက် အားကောင်းလာသည်",
+          optionsEn: [
+            "Population density increases",
+            "Population density decreases",
+            "Nothing at all changes it",
+            "The habitat's temperature drops",
+          ],
+          optionsMy: [
+            "Population Density တိုးလာချိန်",
+            "Population Density လျော့ကျသွားချိန်",
+            "မည်သည့်အရာမျှ ၎င်းကို မပြောင်းလဲစေချိန်",
+            "Habitat ၏ အပူချိန် ကျဆင်းသွားချိန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A density-independent factor, such as extreme weather, affects a population...",
+          questionMy: "အလွန်အမင်း ရာသီဥတုကဲ့သို့ Density-Independent Factor တစ်ခုသည် Population ကို...",
+          optionsEn: [
+            "Regardless of how crowded it is",
+            "Only when it is extremely crowded",
+            "Only when it is completely empty",
+            "Never in any circumstance",
+          ],
+          optionsMy: [
+            "မည်မျှ ကြပ်နေသည်ဖြစ်စေ သက်ရောက်",
+            "အလွန် ကြပ်နေသောအခါသာ သက်ရောက်",
+            "လုံးလုံး ဗလာဖြစ်နေသောအခါသာ သက်ရောက်",
+            "မည်သည့် အခြေအနေတွင်မဆို ဘယ်တော့မှ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36: "A2 Biology Exam Prep" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek36 = CourseWeekDef(
+  id: "course-y13-bio-w36",
+  weekNumber: 36,
+  titleEn: "A2 Biology Exam Prep",
+  titleMy: "A2 ဇီဝဗေဒ စာမေးပွဲပြင်ဆင်မှု",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w36-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1-4",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၄",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The net ATP yield of glycolysis, per glucose molecule, is...",
+          questionMy: "Glucose မော်လီကျူးတစ်ခုလျှင် Glycolysis ၏ Net ATP အထွက်နှုန်းမှာ...",
+          optionsEn: ["2 ATP", "38 ATP", "0 ATP", "100 ATP"],
+          optionsMy: ["ATP ၂ ခု", "ATP ၃၈ ခု", "ATP ၀ ခု", "ATP ၁၀၀ ခု"],
+          correctIndex: 0,
+          hintsEn: [
+            "Glycolysis invests 2 ATP but produces 4 by substrate-level phosphorylation -- a net gain of 2.",
+          ],
+          hintsMy: [
+            "Glycolysis သည် ATP 2 ခု ရင်းနှီးမြှုပ်နှံသော်လည်း Substrate-Level Phosphorylation ဖြင့် 4 ခု ထုတ်လုပ်ပေးသည် -- Net ATP 2 ခု ရရှိသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The light-independent reactions of photosynthesis take place in the...",
+          questionMy: "Photosynthesis ၏ Light-Independent Reaction များသည် ...တွင် ဖြစ်ပွားသည်",
+          optionsEn: ["Stroma", "Thylakoid membrane", "Mitochondrial matrix", "Nucleus"],
+          optionsMy: ["Stroma", "Thylakoid Membrane", "Mitochondrial Matrix", "Nucleus"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "ADH increases the permeability of the collecting duct to...",
+          questionMy: "ADH သည် Collecting Duct ကို ...အတွက် Permeability တိုးမြှင့်ပေးသည်",
+          optionsEn: ["Water", "Glucose", "Urea only", "Oxygen"],
+          optionsMy: ["ရေ", "Glucose", "Urea သာ", "Oxygen"],
+          correctIndex: 0,
+          hintsEn: [
+            "ADH causes aquaporin channels to be inserted into the collecting duct's cell membranes, increasing water reabsorption by osmosis.",
+          ],
+          hintsMy: [
+            "ADH သည် Collecting Duct ၏ ဆဲလ်မှန်ပြန်ကားများထဲသို့ Aquaporin Channel ထည့်သွင်းစေကာ Osmosis ဖြင့် ရေ Reabsorption ကို တိုးမြှင့်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: Vocabulary from Across the Year",
+      titleMy: "တွဲစပ်ကြမည် - တစ်နှစ်လုံးမှ ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w36-dm-1",
+          termEn: "Oxidative phosphorylation (Term 1)",
+          termMy: "Oxidative Phosphorylation (Term 1)",
+          matchEn: "ATP production driven by the electron transport chain and chemiosmosis",
+          matchMy: "Electron Transport Chain နှင့် Chemiosmosis ဖြင့် တွန်းအားပေးသော ATP ထုတ်လုပ်မှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w36-dm-2",
+          termEn: "Rubisco (Term 2)",
+          termMy: "Rubisco (Term 2)",
+          matchEn: "The enzyme catalysing carbon fixation in the Calvin cycle",
+          matchMy: "Calvin Cycle တွင် Carbon Fixation ကို Catalyse ပြုလုပ်ပေးသော Enzyme",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w36-dm-3",
+          termEn: "Negative feedback (Term 3)",
+          termMy: "Negative Feedback (Term 3)",
+          matchEn: "A deviation from the set point triggers a response that reverses the change",
+          matchMy: "Set Point မှ ခြားနားမှုသည် ထိုပြောင်းလဲမှုကို ပြန်လှန်ပေးသော တုံ့ပြန်မှုကို လှုံ့ဆော်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w36-dm-4",
+          termEn: "Sliding filament model (Term 4)",
+          termMy: "Sliding Filament Model (Term 4)",
+          matchEn: "Actin filaments sliding past myosin to shorten a sarcomere",
+          matchMy: "Actin Filament များသည် Myosin ကို ဖြတ်၍ ရွေ့လျားကာ Sarcomere ကို တိုစေခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w36-dm-5",
+          termEn: "Hardy-Weinberg equilibrium (Term 6)",
+          termMy: "Hardy-Weinberg Equilibrium (Term 6)",
+          matchEn: "Stable allele and genotype frequencies expected in a population that is not evolving",
+          matchMy: "Evolve မဖြစ်နေသော Population တစ်ခုတွင် မျှော်လင့်ထားသော တည်ငြိမ်သော Allele နှင့် Genotype Frequency",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Structure or Process?",
+      titleMy: "စီစစ်ကြမည် - Structure လား, Process လား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["A Structure", "A Process"],
+        bucketsMy: ["Structure တစ်ခု", "Process တစ်ခု"],
+        items: [
+          SortingItem(
+            id: "y13bio-w36-sort-1",
+            labelEn: "A sarcomere (Term 4)",
+            labelMy: "Sarcomere (Term 4)",
+            correctBucketEn: "A Structure",
+            correctBucketMy: "Structure တစ်ခု",
+          ),
+          SortingItem(
+            id: "y13bio-w36-sort-2",
+            labelEn: "Crossing over during meiosis (Term 5)",
+            labelMy: "Meiosis အတွင်း Crossing Over (Term 5)",
+            correctBucketEn: "A Process",
+            correctBucketMy: "Process တစ်ခု",
+          ),
+          SortingItem(
+            id: "y13bio-w36-sort-3",
+            labelEn: "A chloroplast (Term 2)",
+            labelMy: "Chloroplast (Term 2)",
+            correctBucketEn: "A Structure",
+            correctBucketMy: "Structure တစ်ခု",
+          ),
+          SortingItem(
+            id: "y13bio-w36-sort-4",
+            labelEn: "Natural selection acting on a population (Term 6)",
+            labelMy: "Population တစ်ခုအပေါ် Natural Selection သက်ရောက်ခြင်း (Term 6)",
+            correctBucketEn: "A Process",
+            correctBucketMy: "Process တစ်ခု",
+          ),
+          SortingItem(
+            id: "y13bio-w36-sort-5",
+            labelEn: "Nitrification in the nitrogen cycle (Term 9)",
+            labelMy: "Nitrogen Cycle ရှိ Nitrification (Term 9)",
+            correctBucketEn: "A Process",
+            correctBucketMy: "Process တစ်ခု",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Last Study Session Before A2",
+      titleMy: "စာဖတ်ခြင်း - A2 မတိုင်မီ နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Last Study Session Before A2",
+        titleMy: "A2 မတိုင်မီ နောက်ဆုံး လေ့လာမှု အစည်းအဝေး",
+        passageEn:
+            "On the evening before their A2 Biology exam, Htet Aung and Su Su met at Sayar Zaw Min's classroom one final time, exactly as they had the night before their AS exam a year earlier. He asked them the same question as before, but about a much longer stretch of biology this time: how did the whole A2 year's nine terms actually connect to one another?\n\nSu Su started with energy: Term 1's respiration and Term 2's photosynthesis are mirror-image processes -- one builds organic molecules and releases oxygen using light energy, the other breaks those same molecules down and uses oxygen to release usable ATP -- and Term 3's homeostasis exists largely to keep the internal conditions (temperature, blood glucose, water potential) that both of those processes depend on within a narrow, workable range.\n\nHtet Aung continued into Term 4 and beyond: coordination -- neurones, synapses, muscle contraction -- is how an organism actually acts on the information homeostasis gathers, while Term 5's inherited change explained how the genetic instructions building every neurone, muscle fibre and enzyme get passed on, sometimes with variation introduced by meiosis or mutation. \"And that variation is exactly what Term 6's natural selection and evolution acts on across generations,\" he said, \"which is also exactly why Term 7's classification exists -- grouping the species that variation and selection have produced, and Term 7's conservation work protects the biodiversity all of that variation represents.\"\n\n\"Term 8 takes something remarkable and makes it deliberate,\" Sayar Zaw Min added, picking up the thread. \"Restriction enzymes, PCR, recombinant DNA -- humans learned to read and rewrite the same genetic code that Term 5 explained gets inherited naturally, for real medical benefit, while also taking on real ethical responsibility for how that power is used. And Term 9's ecology zooms all the way back out -- energy flowing through trophic levels traces straight back to Term 1 and Term 2's respiration and photosynthesis, nutrient cycles recycle the same carbon and nitrogen every organism in every earlier term is built from, and population dynamics apply Term 6's selection pressures at the scale of an entire ecosystem rather than a single organism. Nothing in either year was ever really separate topics -- it was always one continuous story about how life captures energy, maintains itself, passes on information, changes over time, and connects to everything around it. Walk into tomorrow's exam remembering that, and you'll find you already know more than you think.\"",
+        passageMy:
+            "A2 ဇီဝဗေဒ စာမေးပွဲမတိုင်မီ ညနေတွင် Htet Aung နှင့် Su Su သည် တစ်နှစ်အရင်က AS Exam မတိုင်မီ ညကဲ့သို့ပင် ဆရာဇော်မင်း၏ အတန်းခန်းတွင် နောက်ဆုံးအကြိမ် တွေ့ဆုံခဲ့ကြသည်။ ယခင်နှင့် မေးခွန်းတူညီစွာ သူတို့ကို မေးခဲ့သော်လည်း ဤအကြိမ် ဇီဝဗေဒ၏ ရှည်လျားစွာသော ကာလကို ဆိုင်သည် - A2 နှစ်၏ Term ကိုးခုသည် တစ်ခုနှင့်တစ်ခု အမှန်တကယ် မည်သို့ ချိတ်ဆက်နေသနည်း။\n\nSu Su သည် စွမ်းအင်ဖြင့် စတင်ခဲ့သည် - Term 1 ၏ Respiration နှင့် Term 2 ၏ Photosynthesis သည် Mirror-Image Process များ ဖြစ်ကြသည် -- တစ်ခုသည် အလင်းစွမ်းအင်ကို အသုံးပြု၍ Organic မော်လီကျူးများ တည်ဆောက်ကာ Oxygen ထုတ်လွှတ်ပေးပြီး အခြားတစ်ခုသည် ထို မော်လီကျူးများတူညီကို ချေဖျက်ကာ Oxygen ကို အသုံးပြု၍ အသုံးဝင်သော ATP ကို ထုတ်လွှတ်ပေးသည် -- Term 3 ၏ Homeostasis သည် ထို Process နှစ်ခုစလုံး မှီခိုနေသော Internal Condition များ (အပူချိန်, သွေးတွင်း Glucose, Water Potential) ကို ကျဉ်းမြောင်းပြီး အလုပ်ဖြစ်သော အပိုင်းအခြားအတွင်း ထားရှိရန် ရှိနေခြင်း ဖြစ်သည်။\n\nHtet Aung သည် Term 4 နှင့် နောက်ပိုင်းကို ဆက်လက် ရှင်းပြခဲ့သည် - Coordination -- Neurone, Synapse, ကြွက်သားညှစ်ခြင်း -- သည် Organism တစ်ခု Homeostasis ကောက်ယူသော အချက်အလက်ပေါ် အမှန်တကယ် မည်သို့ လုပ်ဆောင်သည် ဖြစ်ပြီး Term 5 ၏ Inherited Change က Neurone, ကြွက်သားအမျှင်နှင့် Enzyme တိုင်းကို တည်ဆောက်သော Genetic ညွှန်ကြားချက်များကို Meiosis (သို့) Mutation က ထည့်သွင်းပေးသော Variation နှင့်အတူ တစ်ခါတစ်ရံ မည်သို့ ဆက်ခံသည်ကို ရှင်းပြခဲ့သည်။ \"ဒီ Variation ကပင် Term 6 ၏ Natural Selection နှင့် Evolution သည် မျိုးဆက်များတလျှောက် သက်ရောက်ရာ အတိအကျ ဖြစ်ပါတယ်\" ဟု သူ ဆိုခဲ့သည် \"ဒါက Term 7 ၏ Classification ရှိနေရသည့်အကြောင်းရင်း အတိအကျလည်း ဖြစ်ပါတယ် -- Variation နှင့် Selection ထုတ်လုပ်ခဲ့သော မျိုးစိတ်များကို အုပ်စုဖွဲ့ခြင်း ဖြစ်ပြီး Term 7 ၏ Conservation အလုပ်သည် ထို Variation အားလုံး ကိုယ်စားပြုသော Biodiversity ကို ကာကွယ်ပေးသည်။\"\n\n\"Term 8 က ထူးဆန်းသော အရာတစ်ခုကို ယူပြီး တမင်ရည်ရွယ်ချက်ရှိစွာ ဖြစ်စေတယ်\" ဟု ဆရာဇော်မင်းက ကွင်းဆက်ကို ဆက်ခံရင်း ထပ်ဆင့်ခဲ့သည်။ \"Restriction Enzyme, PCR, Recombinant DNA -- လူသားများသည် Term 5 က သဘာဝအားဖြင့် အမွေဆက်ခံရသည်ဟု ရှင်းပြခဲ့သော Genetic Code တူညီတစ်ခုတည်းကို ဖတ်ရန်နှင့် ပြန်လည်ရေးသားရန် Medical အကျိုးကျေးဇူး အစစ်အမှန်အတွက် သင်ယူခဲ့ကြပြီး ထို စွမ်းအားကို မည်သို့ အသုံးပြုသည်အတွက် ကျင့်ဝတ်ဆိုင်ရာ တာဝန်ယူမှု အစစ်အမှန်ကိုပါ ဆောင်ယူခဲ့ကြသည်။ Term 9 ၏ Ecology က အားလုံးကို ချဲ့ကား ပြန်ကြည့်စေသည် -- Trophic Level များ ဖြတ်သန်း စီးဆင်းနေသော Energy သည် Term 1 နှင့် Term 2 ၏ Respiration နှင့် Photosynthesis ဆီသို့ တိုက်ရိုက် ပြန်ခြေရာခံနိုင်ပြီး Nutrient Cycle များသည် ယခင် Term တိုင်းရှိ Organism တိုင်း တည်ဆောက်ထားသော Carbon နှင့် Nitrogen တူညီကို ပြန်လည် အသုံးပြုကြပြီး Population Dynamics သည် Term 6 ၏ Selection Pressure များကို Organism တစ်ခုတည်းအစား Ecosystem တစ်ခုလုံး၏ Scale တွင် အသုံးချသည်။ နှစ်နှစ်စလုံးရှိ မည်သည့်အရာမျှ အမှန်တကယ် သီးခြား ခေါင်းစဉ်များ ဘယ်တော့မှ မဟုတ်ခဲ့ပါ -- ၎င်းသည် အသက်ရှင်ခြင်းသည် စွမ်းအင် မည်သို့ ဖမ်းယူသည်၊ ကိုယ်ကို ကိုယ် မည်သို့ ထိန်းသိမ်းသည်၊ အချက်အလက် မည်သို့ ဆက်ခံသည်၊ အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ ပြောင်းလဲသည်နှင့် ၎င်းပတ်လည်ရှိ အရာအားလုံးနှင့် မည်သို့ ဆက်နွယ်သည်ဆိုသော ဇာတ်လမ်း တစ်ခုတည်းသာ အမြဲ ဖြစ်ခဲ့သည်။ နက်ဖြန်ရဲ့ စာမေးပွဲထဲသို့ ၎င်းကို သတိရလျက် ဝင်ရောက်ပါ၊ သင် ထင်ထားသည်ထက် ပိုမို သိရှိထားပြီးသားကို တွေ့ရလိမ့်မည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to Su Su, how are respiration and photosynthesis related?",
+            questionMy: "Respiration နှင့် Photosynthesis မည်သို့ ဆက်နွယ်နေသည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They are mirror-image processes, one building organic molecules and the other breaking them down",
+              "They have absolutely nothing in common",
+              "They both take place only in the mitochondrion",
+              "Only plants ever carry out either process",
+            ],
+            optionsMy: [
+              "Mirror-Image Process များ ဖြစ်ကြပြီး တစ်ခုက Organic မော်လီကျူးများ တည်ဆောက်ကာ အခြားတစ်ခုက ချေဖျက်ပေးသည်",
+              "ဘုံအချက် လုံးဝ မရှိကြပါ",
+              "နှစ်ခုစလုံးသည် Mitochondrion တွင်သာ ဖြစ်ပွားသည်",
+              "အပင်များကသာ Process နှစ်ခုစလုံးကို ပြုလုပ်ကြသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Htet Aung, why does Term 7's classification connect back to Term 6's natural selection?",
+            questionMy: "Term 7 ၏ Classification သည် Term 6 ၏ Natural Selection ဆီသို့ ပြန်လည် ဆက်နွယ်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Classification groups the species that variation and selection have produced",
+              "The two topics have no connection whatsoever",
+              "Classification came before natural selection was ever studied",
+              "Natural selection only ever applies to plants, not animals",
+            ],
+            optionsMy: [
+              "Classification သည် Variation နှင့် Selection ထုတ်လုပ်ခဲ့သော မျိုးစိတ်များကို အုပ်စုဖွဲ့ပေးသည်",
+              "ခေါင်းစဉ်နှစ်ခုအကြား ဆက်နွယ်မှု မည်သည်မျှ လုံးဝ မရှိပါ",
+              "Natural Selection ကို လေ့လာမီ Classification ရှေ့ဆုံးမှ ရှိခဲ့သည်",
+              "Natural Selection သည် အပင်များကိုသာ တစ်ခါမျှ သက်ရောက်ပြီး တိရစ္ဆာန်များကို မသက်ရောက်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to Sayar Zaw Min's final remark, what has the whole course, across both years, always really been?",
+            questionMy: "နှစ်နှစ်စလုံးရှိ Course တစ်ခုလုံးသည် အမှန်တကယ် မည်သည် အမြဲ ဖြစ်ခဲ့သည်ကို ဆရာဇော်မင်း ၏ နောက်ဆုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One continuous story about how life captures energy, maintains itself, passes on information, and changes over time",
+              "A random collection of unrelated facts with nothing in common",
+              "A course only about photosynthesis, with nothing else covered",
+              "Two entirely separate courses with no connection at all",
+            ],
+            optionsMy: [
+              "အသက်ရှင်ခြင်းသည် စွမ်းအင် မည်သို့ ဖမ်းယူသည်၊ ကိုယ့်ကိုယ်ကို မည်သို့ ထိန်းသိမ်းသည်၊ အချက်အလက် မည်သို့ ဆက်ခံသည်နှင့် အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ ပြောင်းလဲသည်ဆိုသော ဇာတ်လမ်း တစ်ခုတည်း",
+              "ဘုံအချက် မရှိသော မဆိုင်သည့် အချက်အလက်များ Random စုစည်းမှု",
+              "Photosynthesis အကြောင်းသာ ဆိုင်သော Course တစ်ခု၊ အခြားမည်သည်မျှ မဖုံးအုပ်ပါ",
+              "ဆက်နွယ်မှု လုံးဝ မရှိသော လုံးလုံးသီးခြား Course နှစ်ခု",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w36-d5",
+      dayNumber: 5,
+      titleEn: "A2 Biology Final Review: Terms 1-9",
+      titleMy: "A2 ဇီဝဗေဒ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Aerobic respiration yields far more ATP than anaerobic respiration mainly because it uses...",
+          questionMy: "Aerobic Respiration သည် Anaerobic Respiration ထက် ATP များစွာ ပို၍ ရရှိရသည့် အဓိကအကြောင်းရင်းမှာ ...ကို အသုံးပြုသောကြောင့် ဖြစ်သည်",
+          optionsEn: [
+            "The link reaction, Krebs cycle and oxidative phosphorylation",
+            "Only glycolysis, repeated many times",
+            "Photosynthesis instead of respiration",
+            "No mitochondria at all",
+          ],
+          optionsMy: [
+            "Link Reaction, Krebs Cycle နှင့် Oxidative Phosphorylation",
+            "Glycolysis တစ်ခုတည်း, အကြိမ်ကြိမ် ထပ်လုပ်ခြင်း",
+            "Respiration အစား Photosynthesis",
+            "Mitochondria လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Insulin and glucagon regulate blood glucose concentration through...",
+          questionMy: "Insulin နှင့် Glucagon တို့သည် ...မှတဆင့် သွေးတွင်း Glucose အာနှုန်းကို ထိန်းညှိပေးသည်",
+          optionsEn: ["Negative feedback", "Positive feedback", "Ultrafiltration alone", "Photophosphorylation"],
+          optionsMy: ["Negative Feedback", "Positive Feedback", "Ultrafiltration တစ်ခုတည်း", "Photophosphorylation"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Independent assortment and crossing over during meiosis both increase...",
+          questionMy: "Meiosis အတွင်း Independent Assortment နှင့် Crossing Over နှစ်ခုစလုံးသည် ...ကို တိုးမြှင့်ပေးသည်",
+          optionsEn: ["Genetic variation", "The chromosome number permanently", "Species richness directly", "Blood glucose concentration"],
+          optionsMy: ["Genetic Variation", "Chromosome အရေအတွက်ကို အမြဲတမ်း", "Species Richness ကို တိုက်ရိုက်", "သွေးတွင်း Glucose အာနှုန်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Across the whole A2 Biology course, coordination, inheritance, evolution, genetic technology and ecology are all...",
+          questionMy: "A2 ဇီဝဗေဒ Course တစ်ခုလုံးတလျှောက် Coordination, Inheritance, Evolution, Genetic Technology နှင့် Ecology များသည် အားလုံး...",
+          optionsEn: [
+            "Interconnected topics building on the same underlying cells, energy and genetic information",
+            "Completely unrelated topics with nothing in common",
+            "Only relevant to bacteria, never to larger organisms",
+            "Impossible to study using anything learned in Year 12",
+          ],
+          optionsMy: [
+            "တူညီသော အခြေခံ ဆဲလ်များ, စွမ်းအင်နှင့် Genetic Information ပေါ် တည်ဆောက်ထားသော ချိတ်ဆက်နေသော ခေါင်းစဉ်များ",
+            "အချင်းချင်း လုံးဝ မသက်ဆိုင်သော ဘုံအချက် မရှိသော ခေါင်းစဉ်များ",
+            "Bacteria များနှင့်သာ သက်ဆိုင်ပြီး ပိုကြီးမားသော Organism များနှင့် လုံးဝ မသက်ဆိုင်",
+            "Year 12 တွင် သင်ယူခဲ့သမျှကို အသုံးပြု၍ လေ့လာ၍ လုံးဝ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm9 = CourseTermDef(
+  id: "course-y13-bio-t9",
+  termNumber: 9,
+  titleEn: "Ecology and A2 Exam Prep",
+  titleMy: "Ecology and A2 Exam Prep",
+  weeks: [_y13BioWeek33, _y13BioWeek34, _y13BioWeek35, _y13BioWeek36],
+  certificateTitleEn: "A2 Biology: Ecology and A2 Exam Prep",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Ecology and A2 Exam Prep",
+);
+
+/// Year 13 Biology (A-Level A2, Cambridge 9700) -- complete, all 9
+/// terms authored (36 weeks / 180 daily lessons): Energy and
+/// Respiration; Photosynthesis; Homeostasis; Coordination; Inherited
+/// Change; Selection and Evolution; Biodiversity and Classification;
+/// Genetic Technology; and Ecology and A2 Exam Prep. This is the A2
+/// continuation of the completed [year12BiologyPathway] (AS half). No
+/// LaTeX renderer exists in this app -- formulas throughout use the
+/// same plain Unicode math notation (², √, x for multiplication)
+/// already established by the IGCSE pathways, not literal LaTeX markup.
+const CoursePathwayDef year13BiologyPathway = CoursePathwayDef(
+  id: "course-year13-biology",
+  subject: "biology",
+  grade: Grade.year13,
+  titleEn: "A-Level Biology — Year 13 (A2)",
+  titleMy: "A-Level ဇီဝဗေဒ — Year ၁၃ (A2)",
+  descriptionEn:
+      "The A2 half of Cambridge A-Level Biology (9700), continuing directly from the completed Year 12 AS pathway: daily bite-sized lessons building on the AS cell-and-molecule foundation. Term 1, Energy and Respiration, covers ATP as the universal energy currency, glycolysis, the link reaction and Krebs cycle, oxidative phosphorylation and the electron transport chain, and anaerobic respiration in yeast and muscle, closing with a capstone comparing aerobic and anaerobic pathways. Terms 2-9 continue through photosynthesis, homeostasis (the kidney, the liver and blood glucose regulation), coordination (neurones, synapses and muscle contraction), inherited change (meiosis, mutation and inheritance), selection and evolution (natural selection, evidence for evolution and the Hardy-Weinberg principle), biodiversity and classification, genetic technology (restriction enzymes, PCR, recombinant DNA and gene therapy), and ecology and nutrient cycles, closing with A2 exam preparation.",
+  descriptionMy:
+      "Cambridge A-Level ဇီဝဗေဒ (9700) ၏ A2 ခြမ်း၊ ပြီးဆုံးသွားပြီးသော Year 12 AS Pathway မှ တိုက်ရိုက် ဆက်လက်ခြင်း - AS ၏ ဆဲလ်-နှင့်-မော်လီကျူး အခြေခံအပေါ် တည်ဆောက်ထားသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Energy and Respiration သည် ATP ကို Universal Energy Currency အဖြစ်, Glycolysis, Link Reaction နှင့် Krebs Cycle, Oxidative Phosphorylation နှင့် Electron Transport Chain, Yeast နှင့် ကြွက်သားရှိ Anaerobic Respiration တို့ကို ဖုံးအုပ်ပြီး Aerobic နှင့် Anaerobic လမ်းကြောင်းများကို နှိုင်းယှဉ်သော အထွတ်အထိပ်ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၉ အထိ Photosynthesis, Homeostasis (ကျောက်ကပ်, အသည်းနှင့် သွေးတွင်း Glucose ထိန်းညှိမှု), Coordination (Neurone, Synapse နှင့် ကြွက်သားညှစ်ခြင်း), Inherited Change (Meiosis, Mutation နှင့် Inheritance), Selection and Evolution (Natural Selection, Evolution သက်သေအထောက်အထားနှင့် Hardy-Weinberg Principle), Biodiversity and Classification, Genetic Technology (Restriction Enzyme, PCR, Recombinant DNA နှင့် Gene Therapy) နှင့် Ecology and Nutrient Cycle တို့ကို ဆက်လက်ဖုံးအုပ်ပြီး A2 စာမေးပွဲပြင်ဆင်မှုဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year13BiologyTerm1,
+    year13BiologyTerm2,
+    year13BiologyTerm3,
+    year13BiologyTerm4,
+    year13BiologyTerm5,
+    year13BiologyTerm6,
+    year13BiologyTerm7,
+    year13BiologyTerm8,
+    year13BiologyTerm9,
+  ],
+);
