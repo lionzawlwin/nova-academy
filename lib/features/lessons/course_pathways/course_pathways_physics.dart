@@ -32468,3 +32468,2703 @@ const CourseTermDef year13PhysicsTerm7 = CourseTermDef(
   certificateTitleEn: "A2 Physics: Quantum Physics",
   certificateTitleMy: "A2 ရူပဗေဒ - Quantum Physics",
 );
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 8: "Nuclear Physics and Medical Physics"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 29: "Radioactive Decay and the Decay Law"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek29 = CourseWeekDef(
+  id: "course-y13-phys-w29",
+  weekNumber: 29,
+  titleEn: "Radioactive Decay and the Decay Law",
+  titleMy: "Radioactive Decay နှင့် Decay Law",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w29-d1",
+      dayNumber: 1,
+      titleEn: "Activity, Decay Constant and the Decay Law",
+      titleMy: "Activity, Decay Constant နှင့် Decay Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using A = λN, find the activity of a sample containing N = 5 x 10¹⁰ undecayed nuclei, given decay constant λ = 2 x 10⁻³ s⁻¹.",
+          questionMy:
+              "A = λN ကို အသုံးပြု၍ Decay Constant λ = 2 x 10⁻³ s⁻¹ ရှိပြီး Undecayed Nuclei N = 5 x 10¹⁰ ပါဝင်သော Sample တစ်ခု၏ Activity ကို ရှာပါ။",
+          optionsEn: [
+            "1.0 x 10⁸ Bq",
+            "2.5 x 10¹³ Bq",
+            "5.0 x 10¹⁰ Bq",
+            "2.0 x 10⁻³ Bq",
+          ],
+          optionsMy: [
+            "1.0 x 10⁸ Bq",
+            "2.5 x 10¹³ Bq",
+            "5.0 x 10¹⁰ Bq",
+            "2.0 x 10⁻³ Bq",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A = λN = 2x10⁻³ x 5x10¹⁰ = 1.0x10⁸ Bq (decays per second).",
+          ],
+          hintsMy: [
+            "A = λN = 2x10⁻³ x 5x10¹⁰ = 1.0x10⁸ Bq (Second တစ်ခုစီအတွက် Decay အရေအတွက်) ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Radioactive decay being \"random and spontaneous\" means...",
+          questionMy:
+              "Radioactive Decay သည် \"Random and Spontaneous\" ဖြစ်ခြင်းဆိုသည်မှာ...",
+          optionsEn: [
+            "It is impossible to predict which nucleus decays next, and decay is unaffected by external conditions like temperature or pressure",
+            "Every nucleus in a sample decays at exactly the same instant",
+            "Decay only happens when a scientist is watching",
+            "External conditions like temperature and pressure control exactly when each nucleus decays",
+          ],
+          optionsMy: [
+            "မည်သည့် Nucleus ရှေ့ဆက် Decay ဖြစ်မည်ကို ခန့်မှန်း၍ မရနိုင်ပြီး Temperature (သို့) Pressure ကဲ့သို့ External Condition များက Decay ကို လုံးဝ မထိခိုက်နိုင်ပါ",
+            "Sample ထဲရှိ Nucleus တိုင်း အချိန်တိုင်တည်တည်ချင်း Decay ဖြစ်ကြသည်",
+            "သိပ္ပံပညာရှင် ကြည့်နေမှသာ Decay ဖြစ်သည်",
+            "Temperature နှင့် Pressure ကဲ့သို့ External Condition များက Nucleus တစ်ခုစီ မည်သည့်အချိန် Decay ဖြစ်မည်ကို အတိအကျ ထိန်းချုပ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "\"Random\" means no way to predict any individual nucleus's decay moment; \"spontaneous\" means it happens without any external trigger and can't be sped up or slowed down by temperature, pressure or chemical state.",
+          ],
+          hintsMy: [
+            "\"Random\" ဆိုသည်မှာ Nucleus တစ်ခုချင်းစီ Decay ဖြစ်မည့်အချိန်ကို ခန့်မှန်း၍ မရခြင်း ဖြစ်ပြီး \"Spontaneous\" ဆိုသည်မှာ External Trigger မပါဘဲ ဖြစ်ပေါ်ကာ Temperature, Pressure (သို့) Chemical State ဖြင့် မြန်၊ နှေးမလုပ်နိုင်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using N = N0e^(-λt), find N after t = 2 s, given N0 = 1 x 10¹⁶ and λ = 0.5 s⁻¹ (e⁻¹ ≈ 0.368).",
+          questionMy:
+              "N = N0e^(-λt) ကို အသုံးပြု၍ N0 = 1 x 10¹⁶ နှင့် λ = 0.5 s⁻¹ (e⁻¹ ≈ 0.368) ရှိသော t = 2 s အပြီးရှိ N ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.68 x 10¹⁵",
+            "≈ 5.00 x 10¹⁵",
+            "≈ 1.00 x 10¹⁶",
+            "≈ 6.32 x 10¹⁵",
+          ],
+          optionsMy: [
+            "≈ 3.68 x 10¹⁵",
+            "≈ 5.00 x 10¹⁵",
+            "≈ 1.00 x 10¹⁶",
+            "≈ 6.32 x 10¹⁵",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "λt = 0.5 x 2 = 1, so N = N0e⁻¹ = 1x10¹⁶ x 0.368 ≈ 3.68x10¹⁵.",
+          ],
+          hintsMy: [
+            "λt = 0.5 x 2 = 1 ဖြစ်ပြီး N = N0e⁻¹ = 1x10¹⁶ x 0.368 ≈ 3.68x10¹⁵ ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w29-d2",
+      dayNumber: 2,
+      titleEn: "Match: Radioactive Decay Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Radioactive Decay ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w29-dm-1",
+          termEn: "A = λN",
+          termMy: "A = λN",
+          matchEn:
+              "Activity equals the decay constant multiplied by the number of undecayed nuclei",
+          matchMy:
+              "Activity သည် Decay Constant ကို Undecayed Nuclei အရေအတွက်ဖြင့် မြှောက်ထားခြင်းနှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w29-dm-2",
+          termEn: "λ (decay constant)",
+          termMy: "λ (Decay Constant)",
+          matchEn: "Probability of an individual nucleus decaying per unit time",
+          matchMy: "Nucleus တစ်ခုချင်းစီ Unit Time အတွင်း Decay ဖြစ်နိုင်ခြေ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w29-dm-3",
+          termEn: "N",
+          termMy: "N",
+          matchEn:
+              "Number of undecayed (parent) nuclei remaining in the sample",
+          matchMy: "Sample ထဲ ကျန်ရှိနေသော Undecayed (Parent) Nuclei အရေအတွက်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w29-dm-4",
+          termEn: "N = N0e^(-λt)",
+          termMy: "N = N0e^(-λt)",
+          matchEn:
+              "Exponential decay law giving N at time t from the initial number N0",
+          matchMy:
+              "Initial Number N0 မှ Time t တွင် N ကို ပေးသော Exponential Decay Law",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w29-dm-5",
+          termEn: "Random and spontaneous",
+          termMy: "Random and Spontaneous",
+          matchEn:
+              "Cannot predict which nucleus decays next; unaffected by external conditions",
+          matchMy:
+              "ရှေ့ဆက် Decay ဖြစ်မည့် Nucleus ကို ခန့်မှန်း၍ မရနိုင်ပြီး External Condition များက မထိခိုက်နိုင်ပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w29-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False About Radioactive Decay?",
+      titleMy: "စီစစ်ကြမည် - Radioactive Decay နှင့် ပတ်သက်၍ မှန်သလား၊ မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "True of Radioactive Decay",
+          "False of Radioactive Decay",
+        ],
+        bucketsMy: [
+          "Radioactive Decay နှင့် ပတ်သက်၍ မှန်သည်",
+          "Radioactive Decay နှင့် ပတ်သက်၍ မှားသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w29-sort-1",
+            labelEn: "The decay of an individual nucleus cannot be predicted",
+            labelMy: "Nucleus တစ်ခုချင်းစီ၏ Decay ကို ခန့်မှန်း၍ မရနိုင်ပါ",
+            correctBucketEn: "True of Radioactive Decay",
+            correctBucketMy: "Radioactive Decay နှင့် ပတ်သက်၍ မှန်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w29-sort-2",
+            labelEn: "Heating a radioactive sample increases its decay rate",
+            labelMy:
+                "Radioactive Sample ကို ပူနွေးအောင်လုပ်ခြင်းက ၎င်း၏ Decay Rate ကို တိုးမြှင့်စေသည်",
+            correctBucketEn: "False of Radioactive Decay",
+            correctBucketMy: "Radioactive Decay နှင့် ပတ်သက်၍ မှားသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w29-sort-3",
+            labelEn:
+                "Activity is proportional to the number of undecayed nuclei present",
+            labelMy:
+                "Activity သည် ကျန်ရှိနေသော Undecayed Nuclei အရေအတွက်နှင့် အချိုးကျသည်",
+            correctBucketEn: "True of Radioactive Decay",
+            correctBucketMy: "Radioactive Decay နှင့် ပတ်သက်၍ မှန်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w29-sort-4",
+            labelEn: "The decay constant λ has units of per second (s⁻¹)",
+            labelMy: "Decay Constant λ ၏ Unit မှာ Per Second (s⁻¹) ဖြစ်သည်",
+            correctBucketEn: "True of Radioactive Decay",
+            correctBucketMy: "Radioactive Decay နှင့် ပတ်သက်၍ မှန်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w29-sort-5",
+            labelEn:
+                "Applying high pressure to a sample changes its decay constant",
+            labelMy:
+                "Sample တစ်ခုအပေါ် Pressure မြင့်မားစွာ ထည့်သွင်းခြင်းက ၎င်း၏ Decay Constant ကို ပြောင်းလဲစေသည်",
+            correctBucketEn: "False of Radioactive Decay",
+            correctBucketMy: "Radioactive Decay နှင့် ပတ်သက်၍ မှားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w29-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring the Activity of a Radioactive Source",
+      titleMy: "စာဖတ်ခြင်း - Radioactive Source တစ်ခု၏ Activity တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring the Activity of a Radioactive Source",
+        titleMy: "Radioactive Source တစ်ခု၏ Activity တိုင်းတာခြင်း",
+        passageEn:
+            "Sayama Moe Moe Aye placed a small radioactive source under a Geiger-Muller tube connected to a counter and asked her class to record the count rate every ten seconds, watching the numbers fall steadily as the source's undecayed nuclei were used up. She reminded them that the reading at any instant is the sample's activity A -- the number of decays happening per second -- and that A = λN, where λ is the decay constant (a fixed probability of decay per nucleus per second) and N is however many undecayed nuclei remain at that moment.\n\nHtet Aung asked why the count rate kept falling if λ never changes. Sayama Moe Moe Aye explained that λ genuinely is constant for a given isotope -- it is N that keeps shrinking as nuclei decay away, so A = λN falls even though λ itself does not. For the source in front of them, with N = 5x10¹⁰ undecayed nuclei remaining and λ = 2x10⁻³ s⁻¹, the current activity was A = λN = 2x10⁻³ x 5x10¹⁰ = 1.0x10⁸ Bq -- one hundred million decays every second, far too fast to count individually, which is exactly why the detector reports a rate rather than counting one at a time.\n\nSu Su then asked how many undecayed nuclei would remain after some time had passed. Sayama Moe Moe Aye wrote the decay law N = N0e^(-λt) on the board: starting from N0 = 1x10¹⁶ nuclei with λ = 0.5 s⁻¹, after t = 2 s the number remaining is N = N0e⁻¹ ≈ 1x10¹⁶ x 0.368 ≈ 3.68x10¹⁵ -- a smooth, predictable exponential curve for the sample as a whole, even though no one could ever say in advance which single nucleus among those billions would decay next.",
+        passageMy:
+            "ဆရာမ မိုးမိုးအေးသည် Geiger-Muller Tube အောက်တွင် Radioactive Source သေးသေးလေးတစ်ခု ထားပြီး Counter နှင့် ဆက်သွယ်ကာ သူမ၏ အတန်းကို Second ၁၀ တိုင်း Count Rate ကို မှတ်တမ်းတင်ခိုင်းခဲ့သည်၊ Source ၏ Undecayed Nuclei များ ကုန်ခန်းသွားသည်နှင့်အမျှ ဂဏန်းများ တဖြည်းဖြည်း ကျဆင်းသွားသည်ကို ကြည့်ရှုခဲ့ကြသည်။ အချိန်တိုင်းရှိ Reading သည် Sample ၏ Activity A -- Second တစ်ခုစီ ဖြစ်ပေါ်နေသော Decay အရေအတွက် -- ဖြစ်ပြီး A = λN ဟု သူမ ပြန်လည် သတိပေးခဲ့သည်၊ ဤတွင် λ သည် Decay Constant (Nucleus တစ်ခုစီ Second တစ်ခုတွင် Decay ဖြစ်နိုင်ခြေ ပုံသေ) ဖြစ်ပြီး N သည် ထိုအခိုက်တွင် ကျန်ရှိနေသော Undecayed Nuclei အရေအတွက် ဖြစ်သည်။\n\nλ ဘယ်တော့မှ မပြောင်းလဲလျှင် Count Rate အဘယ်ကြောင့် ဆက်လက် ကျဆင်းနေရသနည်းဟု Htet Aung က မေးမြန်းခဲ့သည်။ λ သည် Isotope တစ်ခုအတွက် တကယ့် တည်ငြိမ်ကြောင်း၊ Nucleus များ Decay ဖြစ်ကုန်သည်နှင့်အမျှ N ကသာ ဆက်လက် ကျုံ့ဝင်သွားသောကြောင့် λ ကိုယ်တိုင် မပြောင်းလဲသော်လည်း A = λN ကျဆင်းနေခြင်း ဖြစ်ကြောင်း ဆရာမ မိုးမိုးအေး ရှင်းပြခဲ့သည်။ သူတို့ ရှေ့ရှိ Source အတွက် N = 5x10¹⁰ Undecayed Nuclei ကျန်ရှိပြီး λ = 2x10⁻³ s⁻¹ ရှိသဖြင့် လက်ရှိ Activity မှာ A = λN = 2x10⁻³ x 5x10¹⁰ = 1.0x10⁸ Bq -- Second တစ်ခုစီတွင် Decay သန်းတစ်ရာ ဖြစ်ပြီး တစ်ခုချင်းစီ Count လုပ်ရန် အလွန် မြန်လွန်းသော Rate ဖြစ်ကာ ထို့ကြောင့်ပင် Detector က တစ်ခုချင်းစီ Count မလုပ်ဘဲ Rate တစ်ခုကို Report ပြုလုပ်ခြင်း ဖြစ်ကြောင်း သိရှိခဲ့သည်။\n\nအချိန်အနည်းငယ် ကုန်လွန်ပြီးနောက် Undecayed Nuclei မည်မျှ ကျန်ရှိမည်ကို Su Su က ဆက်လက် မေးမြန်းခဲ့သည်။ ဆရာမ မိုးမိုးအေးသည် Decay Law N = N0e^(-λt) ကို ဘုတ်ပေါ်တွင် ရေးသားခဲ့သည် - N0 = 1x10¹⁶ Nuclei၊ λ = 0.5 s⁻¹ မှ စတင်ကာ t = 2 s အပြီး ကျန်ရှိသည့် အရေအတွက်မှာ N = N0e⁻¹ ≈ 1x10¹⁶ x 0.368 ≈ 3.68x10¹⁵ -- ဘီလီယံပေါင်းများစွာထဲမှ မည်သည့် Nucleus တစ်ခု ရှေ့ဆက် Decay ဖြစ်မည်ကို ကြိုတင် ပြောနိုင်မည့်သူ တစ်ဦးမျှ မရှိစေကာမူ Sample တစ်ခုလုံးအတွက် ချောမွေ့ ခန့်မှန်း၍ ရသော Exponential Curve တစ်ခု ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the activity of the source with N = 5x10¹⁰ and λ = 2x10⁻³ s⁻¹?",
+            questionMy:
+                "N = 5x10¹⁰ နှင့် λ = 2x10⁻³ s⁻¹ ရှိသော Source ၏ Activity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "1.0 x 10⁸ Bq",
+              "2.5 x 10¹³ Bq",
+              "5.0 x 10¹⁰ Bq",
+              "2.0 x 10⁻³ Bq",
+            ],
+            optionsMy: [
+              "1.0 x 10⁸ Bq",
+              "2.5 x 10¹³ Bq",
+              "5.0 x 10¹⁰ Bq",
+              "2.0 x 10⁻³ Bq",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does the count rate keep falling even though λ is constant?",
+            questionMy:
+                "λ သည် တည်ငြိမ်နေဆဲ ဖြစ်သော်လည်း Count Rate အဘယ်ကြောင့် ဆက်လက် ကျဆင်းနေရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "N (the number of undecayed nuclei remaining) keeps shrinking",
+              "λ itself decreases over time",
+              "The detector wears out",
+              "Su Su keeps resetting the counter",
+            ],
+            optionsMy: [
+              "N (ကျန်ရှိနေသော Undecayed Nuclei အရေအတွက်) ဆက်လက် ကျုံ့ဝင်နေသောကြောင့်",
+              "λ ကိုယ်တိုင် အချိန်ကြာလာသည်နှင့်အမျှ လျော့ကျလာသောကြောင့်",
+              "Detector ချို့ယွင်းလာသောကြောင့်",
+              "Su Su က Counter ကို ထပ်ခါထပ်ခါ Reset လုပ်နေသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is N after t = 2 s starting from N0 = 1x10¹⁶ with λ = 0.5 s⁻¹?",
+            questionMy:
+                "N0 = 1x10¹⁶ နှင့် λ = 0.5 s⁻¹ မှ t = 2 s အပြီး N ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 3.68 x 10¹⁵",
+              "≈ 5.00 x 10¹⁵",
+              "≈ 1.00 x 10¹⁶",
+              "≈ 6.32 x 10¹⁵",
+            ],
+            optionsMy: [
+              "≈ 3.68 x 10¹⁵",
+              "≈ 5.00 x 10¹⁵",
+              "≈ 1.00 x 10¹⁶",
+              "≈ 6.32 x 10¹⁵",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w29-d5",
+      dayNumber: 5,
+      titleEn: "Week 29 Recap: Radioactive Decay and the Decay Law",
+      titleMy: "နှစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Radioactive Decay နှင့် Decay Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A = λN calculates...",
+          questionMy: "A = λN သည် ...ကို တွက်ချက်ပေးသည်",
+          optionsEn: [
+            "The activity (decays per second) of a radioactive sample",
+            "The mass of the sample",
+            "The half-life of the sample",
+            "The temperature of the sample",
+          ],
+          optionsMy: [
+            "Radioactive Sample တစ်ခု၏ Activity (Second တစ်ခုစီ Decay အရေအတွက်)",
+            "Sample ၏ Mass",
+            "Sample ၏ Half-Life",
+            "Sample ၏ Temperature",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Radioactive decay is described as random and spontaneous because...",
+          questionMy:
+              "Radioactive Decay ကို Random and Spontaneous ဟု ဖော်ပြသည်မှာ...",
+          optionsEn: [
+            "Individual decay times can't be predicted and aren't affected by external conditions",
+            "Every nucleus decays at the same predictable instant",
+            "It only happens in a laboratory",
+            "External heating always speeds it up",
+          ],
+          optionsMy: [
+            "Decay ဖြစ်ချိန် တစ်ခုချင်းစီကို ခန့်မှန်း၍ မရနိုင်ပြီး External Condition များက မထိခိုက်နိုင်သောကြောင့်",
+            "Nucleus တိုင်း ခန့်မှန်း၍ ရနိုင်သော အချိန်တစ်ခုတည်းတွင် Decay ဖြစ်ကြသောကြောင့်",
+            "Laboratory တွင်သာ ဖြစ်ပွားသောကြောင့်",
+            "External ပူနွေးမှုက အမြဲ Decay ကို မြန်ဆန်စေသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In N = N0e^(-λt), N0 represents...",
+          questionMy: "N = N0e^(-λt) တွင် N0 သည် ကိုယ်စားပြုသည်...",
+          optionsEn: [
+            "The initial number of undecayed nuclei at t = 0",
+            "The final number of nuclei",
+            "The decay constant",
+            "The half-life",
+          ],
+          optionsMy: [
+            "t = 0 တွင် Initial Undecayed Nuclei အရေအတွက်",
+            "Final Nuclei အရေအတွက်",
+            "Decay Constant",
+            "Half-Life",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 30: "Half-Life"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek30 = CourseWeekDef(
+  id: "course-y13-phys-w30",
+  weekNumber: 30,
+  titleEn: "Half-Life",
+  titleMy: "Half-Life",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w30-d1",
+      dayNumber: 1,
+      titleEn: "Half-Life From Graphs and Calculations",
+      titleMy: "Graph များနှင့် တွက်ချက်မှုများမှ Half-Life",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using T½ = ln2/λ (ln2 ≈ 0.693), find the half-life of a sample with decay constant λ = 0.0231 s⁻¹.",
+          questionMy:
+              "T½ = ln2/λ (ln2 ≈ 0.693) ကို အသုံးပြု၍ Decay Constant λ = 0.0231 s⁻¹ ရှိသော Sample တစ်ခု၏ Half-Life ကို ရှာပါ။",
+          optionsEn: ["≈ 30.0 s", "≈ 0.0231 s", "≈ 0.693 s", "≈ 15.0 s"],
+          optionsMy: ["≈ 30.0 s", "≈ 0.0231 s", "≈ 0.693 s", "≈ 15.0 s"],
+          correctIndex: 0,
+          hintsEn: ["T½ = 0.693 / 0.0231 ≈ 30.0 s."],
+          hintsMy: ["T½ = 0.693 / 0.0231 ≈ 30.0 s ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a graph of activity (or N) against time for a radioactive sample, the half-life is found by...",
+          questionMy:
+              "Radioactive Sample တစ်ခု၏ Activity (သို့) N ကို Time နှင့် Graph ဆွဲသောအခါ Half-Life ကို ရှာဖွေရာတွင်...",
+          optionsEn: [
+            "Reading the time taken for the activity (or N) to fall to half its value",
+            "Reading the time taken for activity to reach exactly zero",
+            "Measuring the steepest gradient point on the curve",
+            "Reading the y-intercept of the graph",
+          ],
+          optionsMy: [
+            "Activity (သို့) N ၏ Value ထက်ဝက်သို့ ကျဆင်းရန် ကြာချိန်ကို ဖတ်ပါ",
+            "Activity Zero အတိအကျ ရောက်ရှိရန် ကြာချိန်ကို ဖတ်ပါ",
+            "Curve ပေါ်ရှိ Gradient အထက်ဆုံး Point ကို တိုင်းတာပါ",
+            "Graph ၏ Y-Intercept ကို ဖတ်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Half-life is found by picking any starting activity on the curve, then reading off how much time passes before the curve falls to exactly half that value.",
+          ],
+          hintsMy: [
+            "Half-Life ကို ရှာရန် Curve ပေါ်ရှိ Starting Activity တစ်ခုကို ရွေးပြီး ထို Value ၏ ထက်ဝက်တိတိသို့ Curve ကျဆင်းသည်အထိ ကြာချိန်ကို ဖတ်ယူသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After 3 half-lives have passed, what fraction of the original undecayed nuclei remain?",
+          questionMy:
+              "Half-Life သုံးကြိမ် ကုန်လွန်ပြီးနောက် မူလ Undecayed Nuclei ၏ မည်မျှ ဖြစ်ကျန်ရှိသနည်း။",
+          optionsEn: ["1/8", "1/3", "1/6", "3/8"],
+          optionsMy: ["1/8", "1/3", "1/6", "3/8"],
+          correctIndex: 0,
+          hintsEn: ["Each half-life halves the fraction: 1/2 x 1/2 x 1/2 = 1/8."],
+          hintsMy: ["Half-Life တစ်ခုစီသည် ဖြစ်ကျန်ကို ထက်ဝက်လျှော့သည်: 1/2 x 1/2 x 1/2 = 1/8 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w30-d2",
+      dayNumber: 2,
+      titleEn: "Match: Half-Life Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Half-Life ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w30-dm-1",
+          termEn: "Half-life (T½)",
+          termMy: "Half-Life (T½)",
+          matchEn:
+              "Time for N (or activity) to fall to half its original value",
+          matchMy: "N (သို့) Activity ၏ မူလ Value ထက်ဝက်သို့ ကျဆင်းရန် ကြာချိန်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w30-dm-2",
+          termEn: "T½ = ln2/λ",
+          termMy: "T½ = ln2/λ",
+          matchEn: "Formula linking half-life to the decay constant λ",
+          matchMy: "Half-Life ကို Decay Constant λ နှင့် ဆက်စပ်ပေးသော Formula",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w30-dm-3",
+          termEn: "Gradient of a ln N vs t graph",
+          termMy: "ln N vs t Graph ၏ Gradient",
+          matchEn: "Equal to -λ (negative decay constant)",
+          matchMy: "-λ (Negative Decay Constant) နှင့် ညီမျှသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w30-dm-4",
+          termEn: "After each half-life",
+          termMy: "Half-Life တစ်ခုစီပြီးနောက်",
+          matchEn: "The amount remaining is halved again",
+          matchMy: "ကျန်ရှိသော ပမာဏကို ထပ်မံ ထက်ဝက် လျှော့ချသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w30-dm-5",
+          termEn: "Half-life of an isotope",
+          termMy: "Isotope တစ်ခု၏ Half-Life",
+          matchEn:
+              "A fixed property, independent of the sample's initial size",
+          matchMy:
+              "Sample ၏ Initial Size ပေါ် မမှီခိုသော ပုံသေ Property တစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w30-d3",
+      dayNumber: 3,
+      titleEn: "Sort: True or False About Half-Life?",
+      titleMy: "စီစစ်ကြမည် - Half-Life နှင့် ပတ်သက်၍ မှန်သလား၊ မှားသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["True of Half-Life", "False of Half-Life"],
+        bucketsMy: [
+          "Half-Life နှင့် ပတ်သက်၍ မှန်သည်",
+          "Half-Life နှင့် ပတ်သက်၍ မှားသည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w30-sort-1",
+            labelEn: "Half-life is the time for activity to fall to half its value",
+            labelMy: "Half-Life သည် Activity ၏ Value ထက်ဝက်သို့ ကျဆင်းရန် ကြာချိန်ဖြစ်သည်",
+            correctBucketEn: "True of Half-Life",
+            correctBucketMy: "Half-Life နှင့် ပတ်သက်၍ မှန်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w30-sort-2",
+            labelEn: "Half-life depends on how much sample you start with",
+            labelMy: "Half-Life သည် Sample မည်မျှ စတင်သည်ပေါ် မှီခိုသည်",
+            correctBucketEn: "False of Half-Life",
+            correctBucketMy: "Half-Life နှင့် ပတ်သက်၍ မှားသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w30-sort-3",
+            labelEn: "A short half-life means a large decay constant",
+            labelMy: "Half-Life တို ဆိုသည်မှာ Decay Constant ကြီးသည်ဟု ဆိုလိုသည်",
+            correctBucketEn: "True of Half-Life",
+            correctBucketMy: "Half-Life နှင့် ပတ်သက်၍ မှန်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w30-sort-4",
+            labelEn: "After two half-lives, one quarter of the original nuclei remain",
+            labelMy: "Half-Life နှစ်ကြိမ်ပြီးနောက် မူလ Nuclei ၏ လေးပုံတစ်ပုံ ကျန်ရှိသည်",
+            correctBucketEn: "True of Half-Life",
+            correctBucketMy: "Half-Life နှင့် ပတ်သက်၍ မှန်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w30-sort-5",
+            labelEn: "Half-life can be changed by a chemical reaction",
+            labelMy: "Half-Life ကို Chemical Reaction တစ်ခုဖြင့် ပြောင်းလဲနိုင်သည်",
+            correctBucketEn: "False of Half-Life",
+            correctBucketMy: "Half-Life နှင့် ပတ်သက်၍ မှားသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w30-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding Half-Life From a Decay Graph",
+      titleMy: "စာဖတ်ခြင်း - Decay Graph မှ Half-Life ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding Half-Life From a Decay Graph",
+        titleMy: "Decay Graph မှ Half-Life ရှာဖွေခြင်း",
+        passageEn:
+            "Htet Aung recorded the count rate from a radioactive source every minute for an hour, then plotted activity against time on graph paper. Sayar Zaw Min showed him how to read the half-life directly off the curve: find the initial activity, follow the curve down to where it has fallen to exactly half that value, and read across to the corresponding time -- that time is the half-life, T½.\n\nFrom Htet Aung's graph, the activity started at 800 Bq and fell to 400 Bq after 20 minutes, giving T½ = 20 minutes = 1200 s. Using T½ = ln2/λ, Sayar Zaw Min rearranged for the decay constant: λ = ln2/T½ = 0.693/1200 ≈ 5.78x10⁻⁴ s⁻¹ -- a small number, meaning each individual nucleus has only a tiny probability of decaying in any given second, even though the sample as a whole loses half its activity in just twenty minutes.\n\nHe then asked Htet Aung to predict the activity after three more half-lives had passed, starting from the 400 Bq reading. Each half-life halves the activity again: 400 -> 200 -> 100 -> 50 Bq. Sayar Zaw Min pointed out that the graph never technically reaches zero, since each halving still leaves something behind -- which is why physicists always specify a half-life rather than a total decay time.",
+        passageMy:
+            "Htet Aung သည် Radioactive Source တစ်ခု၏ Count Rate ကို တစ်နာရီတိုင် မိနစ်တိုင်း မှတ်တမ်းတင်ပြီး Activity ကို Time နှင့် Graph Paper ပေါ်တွင် Plot ခဲ့သည်။ Sayar ဇော်မင်းသည် Curve ပေါ်မှ Half-Life ကို တိုက်ရိုက် ဖတ်နည်းကို ပြသခဲ့သည် - Initial Activity ကို ရှာပြီး ထို Value ၏ ထက်ဝက်တိတိသို့ ကျဆင်းသည့် နေရာအထိ Curve ကို လိုက်လျက် ကိုက်ညီသော Time ကို ဖတ်ပါ -- ထို Time သည် Half-Life T½ ဖြစ်သည်။\n\nHtet Aung ၏ Graph မှ Activity သည် 800 Bq မှ စတင်ကာ မိနစ် 20 အပြီး 400 Bq သို့ ကျဆင်းခဲ့ပြီး T½ = မိနစ် 20 = 1200 s ဟု ရရှိခဲ့သည်။ T½ = ln2/λ ကို အသုံးပြု၍ Sayar ဇော်မင်းသည် Decay Constant အတွက် ပြန်လည် စီစဉ်ခဲ့သည် - λ = ln2/T½ = 0.693/1200 ≈ 5.78x10⁻⁴ s⁻¹ -- ဂဏန်းသေးလေးတစ်ခု ဖြစ်ပြီး Sample တစ်ခုလုံးက ၎င်း၏ Activity ထက်ဝက်ကို မိနစ် နှစ်ဆယ်အတွင်း ဆုံးရှုံးသည့်တိုင် Nucleus တစ်ခုချင်းစီတွင် Second တစ်ခုစီအတွင်း Decay ဖြစ်နိုင်ခြေ အလွန် သေးငယ်ကြောင်း ဆိုလိုသည်။\n\nထို့နောက် 400 Bq Reading မှ စတင်ကာ Half-Life နောက်ထပ် သုံးကြိမ် ကုန်လွန်ပြီးနောက် Activity ကို ခန့်မှန်းရန် Htet Aung ကို သူ တောင်းဆိုခဲ့သည်။ Half-Life တစ်ခုစီသည် Activity ကို ထပ်မံ ထက်ဝက် လျှော့ချသည် - 400 -> 200 -> 100 -> 50 Bq ။ Graph သည် နည်းပညာအရ Zero သို့ လုံးဝ မရောက်ကြောင်း Sayar ဇော်မင်း ထောက်ပြခဲ့သည်၊ ထက်ဝက်တစ်ခုစီသည် တစ်ခုခု ကျန်ရစ်နေဆဲ ဖြစ်သောကြောင့်ပင် ဖြစ်သည် -- ထို့ကြောင့်ပင် Physicist များသည် စုစုပေါင်း Decay Time အစား Half-Life ကို အမြဲ သတ်မှတ်ကြခြင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what half-life did Htet Aung read from his graph?",
+            questionMy: "Htet Aung ၏ Graph မှ ရရှိသော Half-Life ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["20 minutes", "1200 minutes", "800 minutes", "400 minutes"],
+            optionsMy: ["20 minutes", "1200 minutes", "800 minutes", "400 minutes"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the decay constant λ calculated from T½ = 1200 s?",
+            questionMy: "T½ = 1200 s မှ တွက်ချက်ရသော Decay Constant λ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 5.78 x 10⁻⁴ s⁻¹",
+              "≈ 0.693 s⁻¹",
+              "≈ 1200 s⁻¹",
+              "≈ 20.0 s⁻¹",
+            ],
+            optionsMy: [
+              "≈ 5.78 x 10⁻⁴ s⁻¹",
+              "≈ 0.693 s⁻¹",
+              "≈ 1200 s⁻¹",
+              "≈ 20.0 s⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what will the activity be after three more half-lives from 400 Bq?",
+            questionMy: "400 Bq မှ Half-Life နောက်ထပ် သုံးကြိမ်ပြီးနောက် Activity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["50 Bq", "100 Bq", "200 Bq", "0 Bq"],
+            optionsMy: ["50 Bq", "100 Bq", "200 Bq", "0 Bq"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w30-d5",
+      dayNumber: 5,
+      titleEn: "Week 30 Recap: Half-Life",
+      titleMy: "သုံးဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Half-Life",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Half-life is the time for...",
+          questionMy: "Half-Life သည် ...ကို ကြာချိန် ဖြစ်သည်",
+          optionsEn: [
+            "Activity (or N) to fall to half its value",
+            "Activity to reach exactly zero",
+            "A sample's mass to double",
+            "A sample's temperature to rise",
+          ],
+          optionsMy: [
+            "Activity (သို့) N ၏ Value ထက်ဝက်သို့ ကျဆင်းရန်",
+            "Activity Zero အတိအကျ ရောက်ရှိရန်",
+            "Sample ၏ Mass နှစ်ဆ တိုးရန်",
+            "Sample ၏ Temperature မြင့်တက်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "T½ = ln2/λ shows that half-life is...",
+          questionMy: "T½ = ln2/λ က Half-Life သည်...ကို ပြသသည်",
+          optionsEn: [
+            "Inversely proportional to the decay constant",
+            "Directly proportional to the decay constant",
+            "Unrelated to the decay constant",
+            "Always exactly equal to the decay constant",
+          ],
+          optionsMy: [
+            "Decay Constant နှင့် Inversely ပြောင်းပြန် အချိုးကျသည်",
+            "Decay Constant နှင့် တိုက်ရိုက် အချိုးကျသည်",
+            "Decay Constant နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            "Decay Constant နှင့် အမြဲ အတိအကျ ညီမျှသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "After 2 half-lives, the fraction of original nuclei remaining is...",
+          questionMy: "Half-Life နှစ်ကြိမ်ပြီးနောက် မူလ Nuclei ဖြစ်ကျန်ရှိသော Fraction မှာ...",
+          optionsEn: ["1/4", "1/2", "1/8", "1/16"],
+          optionsMy: ["1/4", "1/2", "1/8", "1/16"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 31: "Binding Energy and Nuclear Stability"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek31 = CourseWeekDef(
+  id: "course-y13-phys-w31",
+  weekNumber: 31,
+  titleEn: "Binding Energy and Nuclear Stability",
+  titleMy: "Binding Energy နှင့် Nuclear Stability",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w31-d1",
+      dayNumber: 1,
+      titleEn: "Mass Defect and Binding Energy",
+      titleMy: "Mass Defect နှင့် Binding Energy",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Eb = Δmc² (c = 3 x 10⁸ m/s), find the binding energy released when a nucleus forms with mass defect Δm = 3.0 x 10⁻²⁸ kg.",
+          questionMy:
+              "Eb = Δmc² (c = 3 x 10⁸ m/s) ကို အသုံးပြု၍ Mass Defect Δm = 3.0 x 10⁻²⁸ kg ရှိသော Nucleus တစ်ခု ဖွဲ့စည်းစဉ် ထုတ်လွှတ်သော Binding Energy ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 2.70 x 10⁻¹¹ J",
+            "≈ 9.00 x 10¹⁶ J",
+            "≈ 3.00 x 10⁻²⁸ J",
+            "≈ 2.70 x 10⁻²⁰ J",
+          ],
+          optionsMy: [
+            "≈ 2.70 x 10⁻¹¹ J",
+            "≈ 9.00 x 10¹⁶ J",
+            "≈ 3.00 x 10⁻²⁸ J",
+            "≈ 2.70 x 10⁻²⁰ J",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Eb = Δmc² = 3.0x10⁻²⁸ x 9x10¹⁶ = 2.7x10⁻¹¹ J.",
+          ],
+          hintsMy: [
+            "Eb = Δmc² = 3.0x10⁻²⁸ x 9x10¹⁶ = 2.7x10⁻¹¹ J ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Binding energy per nucleon is a useful measure because it...",
+          questionMy: "Binding Energy Per Nucleon သည် အသုံးဝင်သော Measure ဖြစ်သည်မှာ...",
+          optionsEn: [
+            "Allows fair comparison of nuclear stability between nuclei of different sizes",
+            "Gives the total electric charge of the nucleus",
+            "Only applies to hydrogen nuclei",
+            "Measures the temperature of the nucleus",
+          ],
+          optionsMy: [
+            "Size ကွဲပြားသော Nuclei များကြား Nuclear Stability ကို တရားမျှတစွာ နှိုင်းယှဉ်ခွင့် ပေးသောကြောင့်",
+            "Nucleus ၏ စုစုပေါင်း Electric Charge ကို ပေးသောကြောင့်",
+            "Hydrogen Nuclei တွင်သာ အသုံးဝင်သောကြောင့်",
+            "Nucleus ၏ Temperature ကို တိုင်းတာသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A large nucleus naturally has a larger total binding energy just from having more nucleons -- dividing by the number of nucleons gives a per-nucleon figure that can be compared fairly across nuclei of any size.",
+          ],
+          hintsMy: [
+            "Nucleus ကြီးတစ်ခုသည် Nucleon ပိုများသောကြောင့် စုစုပေါင်း Binding Energy ပိုကြီးမြင့်နေတတ်သည် -- Nucleon အရေအတွက်ဖြင့် စားခြင်းက Size မည်သည်ဖြစ်စေ တရားမျှတစွာ နှိုင်းယှဉ်နိုင်သော Per-Nucleon ဂဏန်း ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nuclei near which nucleon number have the highest binding energy per nucleon, making them the most stable?",
+          questionMy:
+              "မည်သည့် Nucleon Number အနီးရှိ Nuclei များတွင် Binding Energy Per Nucleon အမြင့်ဆုံး ရှိပြီး အတည်ငြိမ်ဆုံး ဖြစ်သနည်း။",
+          optionsEn: [
+            "Around A ≈ 56 (the iron/nickel region)",
+            "Around A ≈ 1 (hydrogen)",
+            "Around A ≈ 238 (uranium)",
+            "Binding energy per nucleon is the same for every nucleus",
+          ],
+          optionsMy: [
+            "A ≈ 56 (Iron/Nickel Region) အနီးတွင်",
+            "A ≈ 1 (Hydrogen) အနီးတွင်",
+            "A ≈ 238 (Uranium) အနီးတွင်",
+            "Binding Energy Per Nucleon သည် Nucleus တိုင်းအတွက် တူညီသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The nuclear stability curve peaks at iron-56 -- nuclei on either side (both lighter and heavier) have lower binding energy per nucleon and are less stable.",
+          ],
+          hintsMy: [
+            "Nuclear Stability Curve သည် Iron-56 တွင် Peak ရောက်သည် -- ဘက်နှစ်ဖက်ရှိ Nuclei များ (ပေါ့သည်ဖြစ်စေ၊ လေးသည်ဖြစ်စေ) သည် Binding Energy Per Nucleon ငယ်ပြီး Stability နည်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w31-d2",
+      dayNumber: 2,
+      titleEn: "Match: Binding Energy Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Binding Energy ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w31-dm-1",
+          termEn: "Mass defect Δm",
+          termMy: "Mass Defect Δm",
+          matchEn:
+              "Difference between the total mass of separate nucleons and the actual mass of the nucleus",
+          matchMy:
+              "Nucleon များ သီးခြားစီရှိစဉ် စုစုပေါင်း Mass နှင့် Nucleus ၏ တကယ့် Mass ကြား ကွာခြားချက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w31-dm-2",
+          termEn: "Eb = Δmc²",
+          termMy: "Eb = Δmc²",
+          matchEn:
+              "Binding energy released when separate nucleons form a nucleus",
+          matchMy: "Nucleon များ Nucleus တစ်ခု ဖွဲ့စည်းစဉ် ထုတ်လွှတ်သော Binding Energy",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w31-dm-3",
+          termEn: "Binding energy per nucleon",
+          termMy: "Binding Energy Per Nucleon",
+          matchEn: "A measure of how tightly bound (stable) a nucleus is",
+          matchMy: "Nucleus တစ်ခု မည်မျှ အတင်းကျပ် ချည်နှောင်ထား (Stable) ကို ပြသော Measure",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w31-dm-4",
+          termEn: "Iron-56 (A ≈ 56)",
+          termMy: "Iron-56 (A ≈ 56)",
+          matchEn:
+              "Has the highest binding energy per nucleon of any nucleus -- the most stable",
+          matchMy:
+              "Nucleus အားလုံးတွင် Binding Energy Per Nucleon အမြင့်ဆုံး ရှိသည် -- အတည်ငြိမ်ဆုံး",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w31-dm-5",
+          termEn: "Nuclear stability curve",
+          termMy: "Nuclear Stability Curve",
+          matchEn: "Graph of binding energy per nucleon against nucleon number A",
+          matchMy: "Nucleon Number A အပေါ် Binding Energy Per Nucleon Plot ထားသော Graph",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w31-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fusion or Fission?",
+      titleMy: "စီစစ်ကြမည် - Fusion လား၊ Fission လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Light Nuclei -- Release Energy by Fusion",
+          "Heavy Nuclei -- Release Energy by Fission",
+        ],
+        bucketsMy: [
+          "Light Nuclei -- Fusion ဖြင့် Energy ထုတ်လွှတ်သည်",
+          "Heavy Nuclei -- Fission ဖြင့် Energy ထုတ်လွှတ်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w31-sort-1",
+            labelEn: "Hydrogen and helium nuclei combining into a larger nucleus",
+            labelMy: "Hydrogen နှင့် Helium Nuclei များ Nucleus ကြီးတစ်ခုသို့ ပေါင်းစည်းခြင်း",
+            correctBucketEn: "Light Nuclei -- Release Energy by Fusion",
+            correctBucketMy: "Light Nuclei -- Fusion ဖြင့် Energy ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w31-sort-2",
+            labelEn: "Uranium-235 splitting into two smaller nuclei",
+            labelMy: "Uranium-235 သည် Nucleus သေးငယ် နှစ်ခုအဖြစ် ခွဲထွက်ခြင်း",
+            correctBucketEn: "Heavy Nuclei -- Release Energy by Fission",
+            correctBucketMy: "Heavy Nuclei -- Fission ဖြင့် Energy ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w31-sort-3",
+            labelEn: "Powers the Sun and other stars",
+            labelMy: "နေနှင့် အခြား ကြယ်များကို Power ပေးသည်",
+            correctBucketEn: "Light Nuclei -- Release Energy by Fusion",
+            correctBucketMy: "Light Nuclei -- Fusion ဖြင့် Energy ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w31-sort-4",
+            labelEn: "Used in nuclear power stations to generate electricity",
+            labelMy: "လျှပ်စစ်ဓာတ်အား ထုတ်လုပ်ရန် Nuclear Power Station များတွင် အသုံးပြုသည်",
+            correctBucketEn: "Heavy Nuclei -- Release Energy by Fission",
+            correctBucketMy: "Heavy Nuclei -- Fission ဖြင့် Energy ထုတ်လွှတ်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w31-sort-5",
+            labelEn: "Combines two light nuclei such as deuterium and tritium",
+            labelMy: "Deuterium နှင့် Tritium ကဲ့သို့ Light Nuclei နှစ်ခုကို ပေါင်းစည်းသည်",
+            correctBucketEn: "Light Nuclei -- Release Energy by Fusion",
+            correctBucketMy: "Light Nuclei -- Fusion ဖြင့် Energy ထုတ်လွှတ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w31-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Iron Is the Most Stable Nucleus",
+      titleMy: "စာဖတ်ခြင်း - Iron အဘယ်ကြောင့် အတည်ငြိမ်ဆုံး Nucleus ဖြစ်သနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Iron Is the Most Stable Nucleus",
+        titleMy: "Iron အဘယ်ကြောင့် အတည်ငြိမ်ဆုံး Nucleus ဖြစ်သနည်း",
+        passageEn:
+            "Sayar Zaw Min drew the nuclear stability curve on the board -- binding energy per nucleon plotted against nucleon number A -- and asked Su Su what she noticed about its shape. She saw it rise steeply from hydrogen, peak somewhere in the middle, then fall slowly back down toward uranium at the far end.\n\nThe peak, Sayar Zaw Min explained, sits at iron-56, with a binding energy per nucleon of about 8.8x10⁻¹³ J per nucleon -- the highest of any known nucleus, meaning iron-56 is the most tightly bound, most stable nucleus that exists. By comparison, helium-4 has a mass defect of Δm = 5.0x10⁻²⁹ kg, giving a total binding energy of Eb = Δmc² = 5.0x10⁻²⁹ x 9x10¹⁶ = 4.5x10⁻¹² J -- a large total for such a small nucleus, but spread over only 4 nucleons it works out lower per nucleon than iron's.\n\nSu Su asked why this shape explained both fission and fusion releasing energy. Sayar Zaw Min pointed to both slopes of the curve: light nuclei sit on the steep left-hand slope, so fusing them together climbs toward iron and releases energy; heavy nuclei sit on the gentle right-hand slope, so splitting them apart also moves toward iron and releases energy. Either direction, moving a nucleus closer to iron-56 on the curve releases energy -- which is precisely why both the Sun's fusion and a reactor's fission can power something useful.",
+        passageMy:
+            "Sayar ဇော်မင်းသည် Nuclear Stability Curve -- Nucleon Number A အပေါ် Binding Energy Per Nucleon Plot ထားသော Graph -- ကို ဘုတ်ပေါ်တွင် ရေးဆွဲပြီး ၎င်း၏ ပုံသဏ္ဌာန်အကြောင်း Su Su မည်သို့ သတိထားမိသည်ကို မေးမြန်းခဲ့သည်။ Hydrogen မှ ချက်ချင်း မြင့်တက်ကာ အလယ်ပိုင်းတစ်နေရာတွင် အထွတ်အထိပ် ရောက်ပြီး နောက်ဆုံးရှိ Uranium သို့ တဖြည်းဖြည်း နိမ့်ကျသွားသည်ကို သူမ တွေ့မြင်ခဲ့သည်။\n\nPeak သည် Iron-56 တွင် ရှိပြီး Binding Energy Per Nucleon ခန့်မှန်းခြေ 8.8x10⁻¹³ J per Nucleon ရှိကြောင်း Sayar ဇော်မင်း ရှင်းပြခဲ့သည် -- သိရှိထားသော Nucleus အားလုံးတွင် အမြင့်ဆုံး ဖြစ်ပြီး Iron-56 သည် တည်ရှိနေသော Nucleus များအနက် အတင်းကျပ် ချည်နှောင်ထားဆုံး၊ အတည်ငြိမ်ဆုံး Nucleus ဖြစ်ကြောင်း ဆိုလိုသည်။ နှိုင်းယှဉ်ရလျှင် Helium-4 တွင် Mass Defect Δm = 5.0x10⁻²⁹ kg ရှိပြီး စုစုပေါင်း Binding Energy Eb = Δmc² = 5.0x10⁻²⁹ x 9x10¹⁶ = 4.5x10⁻¹² J ရရှိသည် -- Nucleus သေးငယ်တစ်ခုအတွက် စုစုပေါင်းအားဖြင့် များပြားသော်လည်း Nucleon လေးလုံးသာ ပါဝင်သောကြောင့် Iron ထက် Per Nucleon ငယ်သည်။\n\nဤပုံသဏ္ဌာန်သည် Fission နှင့် Fusion နှစ်မျိုးလုံး Energy ထုတ်လွှတ်ကြောင်း အဘယ်ကြောင့် ရှင်းပြသနည်းဟု Su Su က မေးမြန်းခဲ့သည်။ Sayar ဇော်မင်းသည် Curve ၏ Slope နှစ်ဖက်စလုံးကို ညွှန်ပြခဲ့သည် - Light Nuclei များသည် Steep ဖြစ်သော ဘယ်ဘက် Slope ပေါ်တွင် ရှိသောကြောင့် ၎င်းတို့ကို ပေါင်းစပ် Fusion ပြုလုပ်ခြင်းက Iron သို့ တက်လှမ်းစေပြီး Energy ထုတ်လွှတ်စေသည်၊ Heavy Nuclei များသည် ညင်သာသော ညာဘက် Slope ပေါ်တွင် ရှိသောကြောင့် ၎င်းတို့ကို ခွဲခြမ်း Fission ပြုလုပ်ခြင်းကလည်း Iron ဘက်သို့ ရွှေ့ပြောင်းစေပြီး Energy ထုတ်လွှတ်စေသည်။ ဦးတည်ချက် မည်သည့်ဘက်ဖြစ်စေ Nucleus တစ်ခုကို Curve ပေါ်ရှိ Iron-56 နှင့် ပိုနီးအောင် ရွှေ့ပြောင်းခြင်းသည် Energy ထုတ်လွှတ်စေသည် -- ဤသည်ပင် နေ၏ Fusion နှင့် Reactor ၏ Fission နှစ်မျိုးလုံး အသုံးဝင်သော အရာတစ်ခုကို Power ပေးနိုင်ကြောင်း အတိအကျ အကြောင်းရင်း ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which nucleus has the highest binding energy per nucleon?",
+            questionMy: "Binding Energy Per Nucleon အမြင့်ဆုံး ရှိသော Nucleus ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Iron-56", "Helium-4", "Hydrogen-1", "Uranium-238"],
+            optionsMy: ["Iron-56", "Helium-4", "Hydrogen-1", "Uranium-238"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first sentence."],
+            hintsMy: ["ဒုတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the total binding energy of helium-4 with Δm = 5.0x10⁻²⁹ kg?",
+            questionMy:
+                "Δm = 5.0x10⁻²⁹ kg ရှိသော Helium-4 ၏ စုစုပေါင်း Binding Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 4.5 x 10⁻¹² J",
+              "≈ 5.0 x 10⁻²⁹ J",
+              "≈ 9.0 x 10¹⁶ J",
+              "≈ 8.8 x 10⁻¹³ J",
+            ],
+            optionsMy: [
+              "≈ 4.5 x 10⁻¹² J",
+              "≈ 5.0 x 10⁻²⁹ J",
+              "≈ 9.0 x 10¹⁶ J",
+              "≈ 8.8 x 10⁻¹³ J",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does fusing light nuclei release energy?",
+            questionMy: "Light Nuclei များကို Fusion ပြုလုပ်ခြင်းက Energy အဘယ်ကြောင့် ထုတ်လွှတ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It moves them up the steep slope toward iron, increasing binding energy per nucleon",
+              "It moves them away from iron, decreasing stability",
+              "It has nothing to do with the nuclear stability curve",
+              "Only fission releases energy, never fusion",
+            ],
+            optionsMy: [
+              "Iron ဘက်သို့ Steep Slope ပေါ်တက်လှမ်းစေပြီး Binding Energy Per Nucleon တိုးမြှင့်စေသောကြောင့်",
+              "Iron နှင့် ပိုဝေးစေပြီး Stability လျော့ကျစေသောကြောင့်",
+              "Nuclear Stability Curve နှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်",
+              "Fission သာ Energy ထုတ်လွှတ်ပြီး Fusion လုံးဝ မဟုတ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w31-d5",
+      dayNumber: 5,
+      titleEn: "Week 31 Recap: Binding Energy and Nuclear Stability",
+      titleMy: "သုံးဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Binding Energy နှင့် Nuclear Stability",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Binding energy is calculated from mass defect using...",
+          questionMy: "Binding Energy ကို Mass Defect မှ တွက်ချက်ရာတွင်...",
+          optionsEn: ["Eb = Δmc²", "Eb = λN", "Eb = ln2/λ", "Eb = mv²/r"],
+          optionsMy: ["Eb = Δmc²", "Eb = λN", "Eb = ln2/λ", "Eb = mv²/r"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "The most stable nucleus, with the highest binding energy per nucleon, is...",
+          questionMy: "Binding Energy Per Nucleon အမြင့်ဆုံး ရှိသော အတည်ငြိမ်ဆုံး Nucleus မှာ...",
+          optionsEn: ["Iron-56", "Hydrogen-1", "Helium-4", "Uranium-238"],
+          optionsMy: ["Iron-56", "Hydrogen-1", "Helium-4", "Uranium-238"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Both fission of heavy nuclei and fusion of light nuclei release energy because...",
+          questionMy: "Heavy Nuclei ၏ Fission နှင့် Light Nuclei ၏ Fusion နှစ်မျိုးလုံး Energy ထုတ်လွှတ်သည်မှာ...",
+          optionsEn: [
+            "Both move the nucleus closer to iron-56 on the stability curve",
+            "Both move the nucleus further from iron-56",
+            "Only fission actually releases any energy",
+            "Nuclear stability has nothing to do with either process",
+          ],
+          optionsMy: [
+            "Stability Curve ပေါ်ရှိ Iron-56 နှင့် နှစ်ခုစလုံးက ပိုနီးအောင် ရွှေ့ပြောင်းသောကြောင့်",
+            "Iron-56 နှင့် နှစ်ခုစလုံးက ပိုဝေးအောင် ရွှေ့ပြောင်းသောကြောင့်",
+            "Fission တစ်ခုတည်းသာ Energy ထုတ်လွှတ်ပြီး",
+            "Nuclear Stability သည် Process နှစ်ခုစလုံးနှင့် လုံးဝ မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 32: "Mass-Energy Equivalence, Fission, Fusion and X-rays" (boss
+// week -- Medical Physics capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek32 = CourseWeekDef(
+  id: "course-y13-phys-w32",
+  weekNumber: 32,
+  titleEn: "Mass-Energy Equivalence, Fission, Fusion and X-rays",
+  titleMy: "Mass-Energy Equivalence, Fission, Fusion နှင့် X-rays",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w32-d1",
+      dayNumber: 1,
+      titleEn: "E = mc², Fission/Fusion and X-ray Attenuation",
+      titleMy: "E = mc², Fission/Fusion နှင့် X-ray Attenuation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using E = mc² (c = 3 x 10⁸ m/s), find the energy equivalent of a mass Δm = 1 x 10⁻³⁰ kg converted entirely into energy.",
+          questionMy:
+              "E = mc² (c = 3 x 10⁸ m/s) ကို အသုံးပြု၍ Mass Δm = 1 x 10⁻³⁰ kg တစ်ခုလုံး Energy အဖြစ် ပြောင်းလဲသောအခါ ရရှိသော Energy ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 9.00 x 10⁻¹⁴ J",
+            "≈ 3.00 x 10⁻³⁰ J",
+            "≈ 1.00 x 10⁻³⁰ J",
+            "≈ 9.00 x 10¹⁶ J",
+          ],
+          optionsMy: [
+            "≈ 9.00 x 10⁻¹⁴ J",
+            "≈ 3.00 x 10⁻³⁰ J",
+            "≈ 1.00 x 10⁻³⁰ J",
+            "≈ 9.00 x 10¹⁶ J",
+          ],
+          correctIndex: 0,
+          hintsEn: ["E = Δmc² = 1x10⁻³⁰ x 9x10¹⁶ = 9x10⁻¹⁴ J."],
+          hintsMy: ["E = Δmc² = 1x10⁻³⁰ x 9x10¹⁶ = 9x10⁻¹⁴ J ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Nuclear fission is best described as...",
+          questionMy: "Nuclear Fission ကို အကောင်းဆုံး ဖော်ပြရလျှင်...",
+          optionsEn: [
+            "A heavy nucleus splitting into two smaller nuclei, releasing energy",
+            "Two light nuclei combining into a heavier nucleus, releasing energy",
+            "A nucleus emitting a photon with no change in mass",
+            "An electron being captured by the nucleus",
+          ],
+          optionsMy: [
+            "Heavy Nucleus တစ်ခု Nucleus သေးငယ် နှစ်ခုအဖြစ် ခွဲထွက်ကာ Energy ထုတ်လွှတ်ခြင်း",
+            "Light Nuclei နှစ်ခု ပေါင်းစပ်ကာ Nucleus လေးသော တစ်ခု ဖြစ်လာပြီး Energy ထုတ်လွှတ်ခြင်း",
+            "Nucleus တစ်ခုမှ Mass ပြောင်းလဲမှု မရှိဘဲ Photon လွှတ်ခြင်း",
+            "Electron တစ်ခုကို Nucleus က ဖမ်းယူခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Fission splits a heavy nucleus apart into smaller fragments; fusion is the opposite process, combining light nuclei together.",
+          ],
+          hintsMy: [
+            "Fission သည် Heavy Nucleus တစ်ခုကို အပိုင်းအစ သေးငယ်များအဖြစ် ခွဲထွက်စေသည်၊ Fusion သည် ပြောင်းပြန် Process ဖြစ်ပြီး Light Nuclei များ ပေါင်းစပ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using I = I0e^(-µx), find the transmitted intensity I when I0 = 100 units, µ = 0.5 cm⁻¹ and x = 2 cm (e⁻¹ ≈ 0.368).",
+          questionMy:
+              "I = I0e^(-µx) ကို အသုံးပြု၍ I0 = 100 Unit, µ = 0.5 cm⁻¹, x = 2 cm (e⁻¹ ≈ 0.368) ရှိသော ဖြတ်သန်းသော Intensity I ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 36.8 units",
+            "≈ 50.0 units",
+            "≈ 100 units",
+            "≈ 0.5 units",
+          ],
+          optionsMy: [
+            "≈ 36.8 units",
+            "≈ 50.0 units",
+            "≈ 100 units",
+            "≈ 0.5 units",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "I = I0e^(-µx) = 100 x e^(-0.5x2) = 100 x e⁻¹ ≈ 100 x 0.368 ≈ 36.8 units.",
+          ],
+          hintsMy: [
+            "I = I0e^(-µx) = 100 x e^(-0.5x2) = 100 x e⁻¹ ≈ 100 x 0.368 ≈ 36.8 units ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w32-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mass-Energy and X-ray Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mass-Energy နှင့် X-ray ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w32-dm-1",
+          termEn: "E = mc²",
+          termMy: "E = mc²",
+          matchEn: "Mass and energy are equivalent and interconvertible",
+          matchMy: "Mass နှင့် Energy သည် Equivalent ဖြစ်ပြီး အပြန်အလှန် ပြောင်းလဲနိုင်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w32-dm-2",
+          termEn: "Nuclear fission",
+          termMy: "Nuclear Fission",
+          matchEn: "A heavy nucleus splits into two smaller nuclei, releasing energy",
+          matchMy: "Heavy Nucleus တစ်ခု Nucleus သေးငယ် နှစ်ခုသို့ ခွဲထွက်ကာ Energy ထုတ်လွှတ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w32-dm-3",
+          termEn: "Nuclear fusion",
+          termMy: "Nuclear Fusion",
+          matchEn: "Two light nuclei combine into a heavier nucleus, releasing energy",
+          matchMy: "Light Nuclei နှစ်ခု ပေါင်းစပ်ကာ Nucleus လေးသော တစ်ခု ဖြစ်လာပြီး Energy ထုတ်လွှတ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w32-dm-4",
+          termEn: "X-ray production",
+          termMy: "X-ray Production",
+          matchEn:
+              "High-speed electrons suddenly decelerated at a metal target, releasing energy as X-ray photons",
+          matchMy:
+              "မြန်ဆန်သော Electron များ သတ္တု Target ပေါ် ရုတ်ချက် Deceleration ဖြစ်ကာ X-ray Photon များအဖြစ် Energy ထုတ်လွှတ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w32-dm-5",
+          termEn: "I = I0e^(-µx)",
+          termMy: "I = I0e^(-µx)",
+          matchEn:
+              "Exponential attenuation of X-ray intensity passing through a material of thickness x",
+          matchMy:
+              "အထူ x ရှိသော ပစ္စည်းတစ်ခုကို ဖြတ်သန်းသော X-ray Intensity ၏ Exponential Attenuation",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w32-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fission or Fusion?",
+      titleMy: "စီစစ်ကြမည် - Fission လား၊ Fusion လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fission", "Fusion"],
+        bucketsMy: ["Fission", "Fusion"],
+        items: [
+          SortingItem(
+            id: "y13phys-w32-sort-1",
+            labelEn: "Splits a heavy nucleus like uranium-235 into two smaller nuclei",
+            labelMy: "Uranium-235 ကဲ့သို့ Heavy Nucleus ကို Nucleus သေးငယ် နှစ်ခုအဖြစ် ခွဲထွက်စေသည်",
+            correctBucketEn: "Fission",
+            correctBucketMy: "Fission",
+          ),
+          SortingItem(
+            id: "y13phys-w32-sort-2",
+            labelEn: "Combines light nuclei like hydrogen isotopes into helium",
+            labelMy: "Hydrogen Isotope ကဲ့သို့ Light Nuclei များကို Helium အဖြစ် ပေါင်းစပ်သည်",
+            correctBucketEn: "Fusion",
+            correctBucketMy: "Fusion",
+          ),
+          SortingItem(
+            id: "y13phys-w32-sort-3",
+            labelEn: "Powers current nuclear power stations",
+            labelMy: "လက်ရှိ Nuclear Power Station များကို Power ပေးသည်",
+            correctBucketEn: "Fission",
+            correctBucketMy: "Fission",
+          ),
+          SortingItem(
+            id: "y13phys-w32-sort-4",
+            labelEn: "Powers the Sun's core",
+            labelMy: "နေ၏ Core ကို Power ပေးသည်",
+            correctBucketEn: "Fusion",
+            correctBucketMy: "Fusion",
+          ),
+          SortingItem(
+            id: "y13phys-w32-sort-5",
+            labelEn:
+                "Requires extremely high temperature and pressure to overcome electrostatic repulsion between nuclei",
+            labelMy:
+                "Nuclei များကြား Electrostatic Repulsion ကို ကျော်လွှားရန် အလွန်မြင့်မားသော Temperature နှင့် Pressure လိုအပ်သည်",
+            correctBucketEn: "Fusion",
+            correctBucketMy: "Fusion",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w32-d4",
+      dayNumber: 4,
+      titleEn: "Reading: X-rays at the Hospital -- a Medical Physics Capstone",
+      titleMy: "စာဖတ်ခြင်း - ဆေးရုံရှိ X-rays -- Medical Physics Capstone",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "X-rays at the Hospital -- a Medical Physics Capstone",
+        titleMy: "ဆေးရုံရှိ X-rays -- Medical Physics Capstone",
+        passageEn:
+            "Htet Aung visited the hospital's radiology department for a school project and watched Sayama Moe Moe Aye, a radiographer, explain how the X-ray machine actually worked. Inside the tube, she explained, electrons are accelerated to very high speed by a large potential difference, then slammed into a metal target -- the sudden deceleration converts most of their kinetic energy into a spread of X-ray photons, a process called Bremsstrahlung (\"braking radiation\").\n\nShe then showed him how those X-rays are used to image bone: different tissues attenuate (absorb) X-rays by different amounts, following I = I0e^(-µx), where µ is the material's attenuation coefficient and x is the thickness the beam passes through. Bone has a much larger µ than soft tissue, so far more of the beam is absorbed passing through bone -- which is exactly why bone appears white and soft tissue appears grey on the final image.\n\nFor a soft-tissue example, Sayama Moe Moe Aye worked through I = I0e^(-µx) with I0 = 100 units, µ = 0.5 cm⁻¹ and x = 2 cm: I = 100 x e^(-1) ≈ 100 x 0.368 ≈ 36.8 units transmitted. She reminded Htet Aung that this same physics -- mass converting to energy in the tube via E = mc², then that energy attenuating exponentially through tissue -- also underlies the fission reactions in a nuclear power station and the fusion reactions inside the Sun; medical physics, she said, is really just nuclear and particle physics put to careful, controlled, everyday use.",
+        passageMy:
+            "Htet Aung သည် ကျောင်းစီမံကိန်းတစ်ခုအတွက် ဆေးရုံ၏ Radiology ဌာနခွဲသို့ လည်ပတ်ခဲ့ပြီး Radiographer တစ်ဦးဖြစ်သော ဆရာမ မိုးမိုးအေးက X-ray Machine တကယ့် အလုပ်လုပ်ပုံကို ရှင်းပြသည်ကို ကြည့်ရှုခဲ့သည်။ Tube အတွင်းတွင် Electron များကို Potential Difference ကြီးမားစွာဖြင့် အလွန်မြန်ဆန်စွာ Accelerate လုပ်ပြီး သတ္တု Target တစ်ခုပေါ် ရုတ်တရက် ရိုက်ချသည်ဟု သူမ ရှင်းပြခဲ့သည် -- ရုတ်ချက် Deceleration က ၎င်းတို့၏ Kinetic Energy အများစုကို X-ray Photon များအဖြစ် ပြောင်းလဲပေးပြီး Bremsstrahlung (\"Braking Radiation\") ဟု ခေါ်ဆိုသော Process ဖြစ်သည်။\n\nထို့နောက် ထို X-ray များကို အရိုးများကို Image ရိုက်ရန် မည်သို့ အသုံးပြုသည်ကို သူမ ပြသခဲ့သည် - Tissue မျိုးစုံသည် X-ray များကို I = I0e^(-µx) ဖြင့် Attenuate (စုပ်ယူ) မှု ကွာခြားစွာ ပြုလုပ်ကြပြီး ဤတွင် µ သည် ပစ္စည်း၏ Attenuation Coefficient ဖြစ်ပြီး x သည် Beam ဖြတ်သန်းသွားသော အထူ ဖြစ်သည်။ အရိုးသည် Soft Tissue ထက် µ ပိုကြီးသောကြောင့် အရိုးကို ဖြတ်သန်းစဉ် Beam ပိုများစွာ စုပ်ယူခံရပြီး ဤသည်ပင် နောက်ဆုံး Image ပေါ်တွင် အရိုးသည် အဖြူရောင်ဖြင့် Soft Tissue သည် မီးခိုးရောင်ဖြင့် ပေါ်လွင်ရသော အကြောင်းရင်း ဖြစ်သည်။\n\nSoft-Tissue ဥပမာအတွက် ဆရာမ မိုးမိုးအေးသည် I = I0e^(-µx) ကို I0 = 100 Unit, µ = 0.5 cm⁻¹ နှင့် x = 2 cm ဖြင့် တွက်ချက်ပြခဲ့သည် - I = 100 x e^(-1) ≈ 100 x 0.368 ≈ 36.8 Unit ဖြတ်သန်းသည်။ Tube အတွင်း Mass မှ Energy သို့ E = mc² ဖြင့် ပြောင်းလဲခြင်း၊ ထို့နောက် ထို Energy သည် Tissue ကို Exponentially Attenuate ပြုလုပ်ခြင်း -- ဤ ရူပဗေဒ အတိအကျပင် Nuclear Power Station ရှိ Fission Reaction များနှင့် နေ၏ အတွင်းရှိ Fusion Reaction များကို လည်း အုတ်မြစ်ချပေးကြောင်း Htet Aung ကို သူမ ပြန်လည် သတိပေးခဲ့သည်၊ Medical Physics ဆိုသည်မှာ Nuclear နှင့် Particle Physics ကို ဂရုတစိုက်၊ ထိန်းချုပ်ထားပြီး နေ့စဉ် အသုံးချထားခြင်းသာ ဖြစ်ကြောင်း သူမ ပြောပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what process converts electron kinetic energy into X-ray photons at the target?",
+            questionMy:
+                "Target ပေါ်တွင် Electron Kinetic Energy ကို X-ray Photon များအဖြစ် ပြောင်းလဲပေးသော Process ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bremsstrahlung (sudden deceleration of fast electrons)",
+              "Nuclear fission",
+              "Radioactive decay",
+              "Photoelectric emission from the patient",
+            ],
+            optionsMy: [
+              "Bremsstrahlung (မြန်ဆန်သော Electron များ ရုတ်တရက် Deceleration ဖြစ်ခြင်း)",
+              "Nuclear Fission",
+              "Radioactive Decay",
+              "လူနာမှ Photoelectric Emission",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's final sentence."],
+            hintsMy: ["ပထမစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does bone appear white on an X-ray image compared to soft tissue?",
+            questionMy:
+                "Soft Tissue နှင့် နှိုင်းယှဉ်လျှင် X-ray Image ပေါ်တွင် အရိုး အဖြူရောင် ပေါ်လွင်ရသည်မှာ အဘယ်ကြောင့်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Bone has a larger attenuation coefficient, so it absorbs more of the X-ray beam",
+              "Bone is radioactive",
+              "Bone reflects light directly",
+              "Soft tissue has a larger attenuation coefficient than bone",
+            ],
+            optionsMy: [
+              "အရိုးတွင် Attenuation Coefficient ပိုကြီးသောကြောင့် X-ray Beam ပိုများစွာ စုပ်ယူသောကြောင့်",
+              "အရိုးသည် Radioactive ဖြစ်သောကြောင့်",
+              "အရိုးသည် အလင်းကို တိုက်ရိုက် ရောင်ပြန်ဟပ်သောကြောင့်",
+              "Soft Tissue တွင် အရိုးထက် Attenuation Coefficient ပိုကြီးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what intensity is transmitted through the 2 cm soft-tissue example?",
+            questionMy:
+                "Soft-Tissue ဥပမာ 2 cm ကို ဖြတ်သန်းသော Intensity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 36.8 units", "≈ 100 units", "≈ 50 units", "≈ 0.5 units"],
+            optionsMy: ["≈ 36.8 units", "≈ 100 units", "≈ 50 units", "≈ 0.5 units"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w32-d5",
+      dayNumber: 5,
+      titleEn: "Week 32 Recap: Mass-Energy, Fission, Fusion and X-rays",
+      titleMy: "သုံးဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Mass-Energy, Fission, Fusion နှင့် X-rays",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "E = mc² shows that...",
+          questionMy: "E = mc² က ပြသသည်မှာ...",
+          optionsEn: [
+            "Mass and energy are equivalent and can convert into each other",
+            "Mass and energy are unrelated quantities",
+            "Only heavy nuclei can convert mass to energy",
+            "Energy is always conserved but mass is not needed at all",
+          ],
+          optionsMy: [
+            "Mass နှင့် Energy သည် Equivalent ဖြစ်ပြီး အချင်းချင်း ပြောင်းလဲနိုင်သည်",
+            "Mass နှင့် Energy သည် လုံးဝ မသက်ဆိုင်သော ပမာဏများ ဖြစ်သည်",
+            "Heavy Nuclei များသာ Mass မှ Energy သို့ ပြောင်းလဲနိုင်သည်",
+            "Energy သည် အမြဲ Conserve ဖြစ်သော်လည်း Mass လုံးဝ မလိုအပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Fission releases energy by...",
+          questionMy: "Fission သည် Energy ထုတ်လွှတ်ရာတွင်...",
+          optionsEn: [
+            "Splitting a heavy nucleus into two smaller, more tightly bound nuclei",
+            "Combining two light nuclei into a heavier one",
+            "Emitting a photon with no mass change at all",
+            "Cooling the nucleus down",
+          ],
+          optionsMy: [
+            "Heavy Nucleus ကို ချည်နှောင်မှု ပိုကောင်းသော Nucleus သေးငယ် နှစ်ခုအဖြစ် ခွဲထွက်ခြင်းဖြင့်",
+            "Light Nuclei နှစ်ခုကို ပေါင်းစပ်၍ လေးသောတစ်ခု ဖြစ်စေခြင်းဖြင့်",
+            "Mass ပြောင်းလဲမှု လုံးဝ မရှိဘဲ Photon လွှတ်ခြင်းဖြင့်",
+            "Nucleus ကို အေးစေခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In I = I0e^(-µx), a larger attenuation coefficient µ means...",
+          questionMy: "I = I0e^(-µx) တွင် Attenuation Coefficient µ ပိုကြီးလျှင်...",
+          optionsEn: [
+            "More of the beam is absorbed for the same thickness x",
+            "Less of the beam is absorbed for the same thickness x",
+            "The beam speeds up",
+            "The beam's frequency changes",
+          ],
+          optionsMy: [
+            "Thickness x တူညီအတွက် Beam ပိုများစွာ စုပ်ယူခံရသည်",
+            "Thickness x တူညီအတွက် Beam ပိုနည်းစွာ စုပ်ယူခံရသည်",
+            "Beam ပိုမြန်လာသည်",
+            "Beam ၏ Frequency ပြောင်းလဲသွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 8: "Nuclear Physics and Medical Physics". Covers
+/// activity, the decay constant and the exponential decay law, half-life
+/// (from graphs and calculations), mass defect and binding energy per
+/// nucleon (nuclear stability, why fission and fusion both release
+/// energy), and closes with a Mass-Energy Equivalence, Fission, Fusion
+/// and X-rays capstone week (E = mc², X-ray production and exponential
+/// attenuation as a medical physics application).
+const CourseTermDef year13PhysicsTerm8 = CourseTermDef(
+  id: "course-y13-phys-term8",
+  termNumber: 8,
+  titleEn: "Nuclear Physics and Medical Physics",
+  titleMy: "Nuclear Physics နှင့် Medical Physics",
+  weeks: [_y13PhysWeek29, _y13PhysWeek30, _y13PhysWeek31, _y13PhysWeek32],
+  certificateTitleEn: "A2 Physics: Nuclear Physics and Medical Physics",
+  certificateTitleMy: "A2 ရူပဗေဒ - Nuclear Physics နှင့် Medical Physics",
+);
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 9: "Astronomy, Cosmology and A2 Exam Prep"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 33: "Standard Candles and Luminosity"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek33 = CourseWeekDef(
+  id: "course-y13-phys-w33",
+  weekNumber: 33,
+  titleEn: "Standard Candles and Luminosity",
+  titleMy: "Standard Candles နှင့် Luminosity",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w33-d1",
+      dayNumber: 1,
+      titleEn: "Luminosity, Radiant Flux Intensity and the Inverse Square Law",
+      titleMy: "Luminosity, Radiant Flux Intensity နှင့် Inverse Square Law",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using b = L/(4πd²), find the radiant flux intensity (apparent brightness) b of a star with luminosity L = 4 x 10²⁸ W at a distance d = 5 x 10¹⁸ m from Earth (π ≈ 3.14).",
+          questionMy:
+              "b = L/(4πd²) ကို အသုံးပြု၍ Luminosity L = 4 x 10²⁸ W ရှိပြီး Earth မှ Distance d = 5 x 10¹⁸ m အကွာတွင် ရှိသော ကြယ်တစ်ခု၏ Radiant Flux Intensity (Apparent Brightness) b ကို ရှာပါ (π ≈ 3.14) ။",
+          optionsEn: [
+            "≈ 1.27 x 10⁻¹⁰ W/m²",
+            "≈ 8.00 x 10⁹ W/m²",
+            "≈ 4.00 x 10²⁸ W/m²",
+            "≈ 2.50 x 10³⁷ W/m²",
+          ],
+          optionsMy: [
+            "≈ 1.27 x 10⁻¹⁰ W/m²",
+            "≈ 8.00 x 10⁹ W/m²",
+            "≈ 4.00 x 10²⁸ W/m²",
+            "≈ 2.50 x 10³⁷ W/m²",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "4πd² = 4 x 3.14 x (5x10¹⁸)² ≈ 3.14x10³⁸, so b = 4x10²⁸ / 3.14x10³⁸ ≈ 1.27x10⁻¹⁰ W/m².",
+          ],
+          hintsMy: [
+            "4πd² = 4 x 3.14 x (5x10¹⁸)² ≈ 3.14x10³⁸ ဖြစ်ပြီး b = 4x10²⁸ / 3.14x10³⁸ ≈ 1.27x10⁻¹⁰ W/m² ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A \"standard candle\" in astronomy is...",
+          questionMy: "ဗေဒင်ပညာတွင် \"Standard Candle\" ဆိုသည်မှာ...",
+          optionsEn: [
+            "An object of known luminosity, used to find distance via the inverse square law",
+            "Any star, regardless of whether its luminosity is known",
+            "A device used only inside a physics laboratory",
+            "A unit of temperature",
+          ],
+          optionsMy: [
+            "Luminosity သိရှိထားသော Object တစ်ခု ဖြစ်ပြီး Inverse Square Law မှတစ်ဆင့် Distance ရှာရန် အသုံးပြုသည်",
+            "Luminosity သိသည်ဖြစ်စေ၊ မသိသည်ဖြစ်စေ ကြယ်မည်သည်မဆို",
+            "Physics Laboratory အတွင်းတွင်သာ အသုံးပြုသော Device တစ်ခု",
+            "Temperature ၏ Unit တစ်ခု",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because we independently know a standard candle's actual luminosity L, measuring its apparent brightness b lets us solve b = L/(4πd²) for the distance d.",
+          ],
+          hintsMy: [
+            "Standard Candle တစ်ခု၏ Actual Luminosity L ကို သီးခြားစွာ သိရှိထားသောကြောင့် ၎င်း၏ Apparent Brightness b ကို တိုင်းတာခြင်းဖြင့် b = L/(4πd²) ကို Distance d အတွက် ဖြေရှင်းနိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Rearranging b = L/(4πd²) for distance, find d for a star of luminosity L = 1.6 x 10²⁷ W observed with radiant flux intensity b = 4 x 10⁻¹¹ W/m² (π ≈ 3.14).",
+          questionMy:
+              "b = L/(4πd²) ကို Distance အတွက် ပြန်လည်စီစဉ်၍ Luminosity L = 1.6 x 10²⁷ W ရှိပြီး Radiant Flux Intensity b = 4 x 10⁻¹¹ W/m² ဖြင့် တွေ့ရှိရသော ကြယ်တစ်ခု၏ d ကို ရှာပါ (π ≈ 3.14) ။",
+          optionsEn: [
+            "≈ 1.78 x 10¹⁸ m",
+            "≈ 4.00 x 10¹⁰ m",
+            "≈ 1.6 x 10²⁷ m",
+            "≈ 6.4 x 10¹⁶ m",
+          ],
+          optionsMy: [
+            "≈ 1.78 x 10¹⁸ m",
+            "≈ 4.00 x 10¹⁰ m",
+            "≈ 1.6 x 10²⁷ m",
+            "≈ 6.4 x 10¹⁶ m",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "d = √(L/(4πb)) = √(1.6x10²⁷ / (4x3.14x4x10⁻¹¹)) ≈ √(3.18x10³⁶) ≈ 1.78x10¹⁸ m.",
+          ],
+          hintsMy: [
+            "d = √(L/(4πb)) = √(1.6x10²⁷ / (4x3.14x4x10⁻¹¹)) ≈ √(3.18x10³⁶) ≈ 1.78x10¹⁸ m ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w33-d2",
+      dayNumber: 2,
+      titleEn: "Match: Standard Candles Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Standard Candles ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w33-dm-1",
+          termEn: "Luminosity L",
+          termMy: "Luminosity L",
+          matchEn: "Total power radiated by a star in all directions (watts)",
+          matchMy: "ကြယ်တစ်ခုမှ ဦးတည်ချက် အားလုံးသို့ Radiate ပြုလုပ်သော စုစုပေါင်း Power (Watts)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w33-dm-2",
+          termEn: "Radiant flux intensity b",
+          termMy: "Radiant Flux Intensity b",
+          matchEn: "Power received per unit area at Earth (apparent brightness)",
+          matchMy: "Earth တွင် Unit Area လျှင် လက်ခံရရှိသော Power (Apparent Brightness)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w33-dm-3",
+          termEn: "b = L/(4πd²)",
+          termMy: "b = L/(4πd²)",
+          matchEn: "The inverse square law linking brightness, luminosity and distance",
+          matchMy: "Brightness, Luminosity နှင့် Distance ကို ဆက်စပ်ပေးသော Inverse Square Law",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w33-dm-4",
+          termEn: "Standard candle",
+          termMy: "Standard Candle",
+          matchEn: "An object of known luminosity used to determine distance",
+          matchMy: "Distance ဆုံးဖြတ်ရန် အသုံးပြုသော Luminosity သိရှိထားသော Object",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w33-dm-5",
+          termEn: "Type Ia supernova",
+          termMy: "Type Ia Supernova",
+          matchEn: "An example of a standard candle with a known peak luminosity",
+          matchMy: "Peak Luminosity သိရှိထားသော Standard Candle ဥပမာတစ်ခု",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w33-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Standard Candle or Not?",
+      titleMy: "စီစစ်ကြမည် - Standard Candle လား၊ မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Standard Candle", "Not a Standard Candle"],
+        bucketsMy: ["Standard Candle", "Standard Candle မဟုတ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y13phys-w33-sort-1",
+            labelEn:
+                "A Type Ia supernova, whose peak luminosity is known from the physics of the explosion",
+            labelMy: "Explosion ၏ Physics မှ Peak Luminosity သိရှိရသော Type Ia Supernova",
+            correctBucketEn: "Standard Candle",
+            correctBucketMy: "Standard Candle",
+          ),
+          SortingItem(
+            id: "y13phys-w33-sort-2",
+            labelEn: "A Cepheid variable star, whose luminosity is found from its pulsation period",
+            labelMy: "Pulsation Period မှ Luminosity ရှာနိုင်သော Cepheid Variable Star",
+            correctBucketEn: "Standard Candle",
+            correctBucketMy: "Standard Candle",
+          ),
+          SortingItem(
+            id: "y13phys-w33-sort-3",
+            labelEn: "A random star with completely unknown luminosity",
+            labelMy: "Luminosity လုံးဝ မသိရသော ကျပန်း ကြယ်တစ်ခု",
+            correctBucketEn: "Not a Standard Candle",
+            correctBucketMy: "Standard Candle မဟုတ်ပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w33-sort-4",
+            labelEn:
+                "An object whose actual luminosity is known independently, allowing distance to be found from its apparent brightness",
+            labelMy:
+                "Actual Luminosity သီးခြားစွာ သိရှိထားသောကြောင့် Apparent Brightness မှ Distance ရှာနိုင်သော Object",
+            correctBucketEn: "Standard Candle",
+            correctBucketMy: "Standard Candle",
+          ),
+          SortingItem(
+            id: "y13phys-w33-sort-5",
+            labelEn: "An object whose luminosity varies unpredictably and cannot be determined",
+            labelMy: "Luminosity ခန့်မှန်း၍ မရဘဲ ကျပန်း ပြောင်းလဲနေသော Object",
+            correctBucketEn: "Not a Standard Candle",
+            correctBucketMy: "Standard Candle မဟုတ်ပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w33-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring the Universe With Standard Candles",
+      titleMy: "စာဖတ်ခြင်း - Standard Candles ဖြင့် စကြဝဠာကို တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring the Universe With Standard Candles",
+        titleMy: "Standard Candles ဖြင့် စကြဝဠာကို တိုင်းတာခြင်း",
+        passageEn:
+            "Sayar Zaw Min projected a photo of a distant galaxy onto the classroom screen and asked how astronomers could possibly know how far away it was, since no ruler could ever reach that far. The answer, he explained, is the standard candle: an object whose actual luminosity L is known independently of its distance, most famously a Cepheid variable star (whose luminosity can be calculated from how fast it pulsates) or a Type Ia supernova (whose peak luminosity is fixed by the physics of the explosion itself).\n\nOnce L is known, he continued, a telescope only needs to measure the star's apparent brightness -- its radiant flux intensity b -- and the inverse square law b = L/(4πd²) does the rest. For a Cepheid with L = 4x10²⁸ W observed at b = 1.27x10⁻¹⁰ W/m², rearranging gives d = √(L/(4πb)) ≈ 5.0x10¹⁸ m, a distance no ruler could ever measure directly.\n\nSu Su asked what would happen if a star's luminosity were wrongly estimated. Sayar Zaw Min agreed that was the technique's real weakness: get L wrong, and the calculated distance d is wrong too, since d depends on the square root of L. This is exactly why astronomers care so much about carefully calibrating standard candles -- an error in one star's assumed luminosity quietly propagates into every distance measurement built on top of it.",
+        passageMy:
+            "Sayar ဇော်မင်းသည် ဝေးကွာနေသော Galaxy တစ်ခု၏ ဓာတ်ပုံကို Classroom Screen ပေါ်တွင် ထုတ်ပြပြီး Ruler တစ်ခုမျှ ထိုမျှ ဝေးကွာသည်အထိ ရောက်နိုင်စေကာမူ ဗေဒင်ပညာရှင်များ ၎င်း၏ အကွာအဝေးကို မည်သို့ သိရှိနိုင်သနည်းဟု မေးမြန်းခဲ့သည်။ အဖြေမှာ Standard Candle ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည် - Distance နှင့် လွတ်လပ်စွာ Actual Luminosity L သိရှိထားသော Object တစ်ခု ဖြစ်ပြီး အထင်ရှားဆုံးမှာ Cepheid Variable Star (Pulsation မြန်နှုန်းမှ Luminosity တွက်ချက်နိုင်သည်) (သို့) Type Ia Supernova (Explosion ကိုယ်တိုင်၏ Physics က Peak Luminosity ကို ပုံသေ သတ်မှတ်ပေးသည်) ဖြစ်သည်။\n\nL သိရှိလာသည်နှင့် Telescope တစ်လုံးသည် ကြယ်၏ Apparent Brightness -- ၎င်း၏ Radiant Flux Intensity b -- ကိုသာ တိုင်းတာပေးရန် လိုအပ်ပြီး Inverse Square Law b = L/(4πd²) က ကျန်တာကို လုပ်ဆောင်ပေးကြောင်း သူ ဆက်ရှင်းပြခဲ့သည်။ L = 4x10²⁸ W ရှိသော Cepheid တစ်ခုကို b = 1.27x10⁻¹⁰ W/m² ဖြင့် တွေ့ရှိရသောအခါ ပြန်လည်စီစဉ်လျှင် d = √(L/(4πb)) ≈ 5.0x10¹⁸ m ဟု ရရှိပြီး Ruler တစ်ခုမျှ တိုက်ရိုက် တိုင်းတာနိုင်မည် မဟုတ်ပါ။\n\nကြယ်တစ်ခု၏ Luminosity ကို မှားယွင်းစွာ ခန့်မှန်းလျှင် မည်သို့ ဖြစ်မည်ကို Su Su က မေးမြန်းခဲ့သည်။ ဤသည် Technique ၏ တကယ့် အားနည်းချက် ဖြစ်ကြောင်း Sayar ဇော်မင်း သဘောတူခဲ့သည် - L ကို မှားလျှင် တွက်ချက်ထားသော Distance d ကလည်း မှားပါလိမ့်မည်၊ d သည် L ၏ Square Root ပေါ် မှီခိုနေသောကြောင့် ဖြစ်သည်။ ဤသည်ပင် ဗေဒင်ပညာရှင်များ Standard Candle များကို ဂရုတစိုက် Calibrate ပြုလုပ်ခြင်းကို ဤမျှ အလေးထားရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ကြောင်း -- ကြယ်တစ်ခု၏ Assumed Luminosity ရှိ Error တစ်ခုသည် ၎င်းပေါ် တည်ဆောက်ထားသော Distance Measurement တိုင်းသို့ တိတ်တဆိတ် ပျံ့နှံ့သွားသောကြောင့် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what two examples of standard candles are named?",
+            questionMy:
+                "Standard Candle ဥပမာနှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Cepheid variable stars and Type Ia supernovae",
+              "The Moon and Mars",
+              "The Sun and Earth",
+              "Red giants and white dwarfs only",
+            ],
+            optionsMy: [
+              "Cepheid Variable Star များနှင့် Type Ia Supernova များ",
+              "လနှင့် Mars",
+              "နေနှင့် Earth",
+              "Red Giant များနှင့် White Dwarf များသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what distance is calculated for the Cepheid example?",
+            questionMy: "Cepheid ဥပမာအတွက် တွက်ချက်ရသော Distance ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 5.0 x 10¹⁸ m",
+              "≈ 4.0 x 10²⁸ m",
+              "≈ 1.27 x 10⁻¹⁰ m",
+              "≈ 2.5 x 10³⁷ m",
+            ],
+            optionsMy: [
+              "≈ 5.0 x 10¹⁸ m",
+              "≈ 4.0 x 10²⁸ m",
+              "≈ 1.27 x 10⁻¹⁰ m",
+              "≈ 2.5 x 10³⁷ m",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens to the calculated distance if a star's luminosity is wrongly estimated?",
+            questionMy: "ကြယ်တစ်ခု၏ Luminosity ကို မှားယွင်းစွာ ခန့်မှန်းလျှင် တွက်ချက်ထားသော Distance မည်သို့ ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It becomes wrong too, since distance depends on the square root of luminosity",
+              "It is unaffected because distance never depends on luminosity",
+              "It automatically corrects itself",
+              "Only the star's colour changes, not its calculated distance",
+            ],
+            optionsMy: [
+              "Distance သည် Luminosity ၏ Square Root ပေါ် မှီခိုနေသောကြောင့် ၎င်းလည်း မှားသွားသည်",
+              "Distance သည် Luminosity ပေါ် ဘယ်တော့မှ မမှီခိုသောကြောင့် ထိခိုက်မှု မရှိပါ",
+              "အလိုအလျောက် ပြန်လည်ပြင်ဆင်သွားသည်",
+              "ကြယ်၏ အရောင်သာ ပြောင်းလဲပြီး တွက်ချက်ထားသော Distance မပြောင်းလဲပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w33-d5",
+      dayNumber: 5,
+      titleEn: "Week 33 Recap: Standard Candles and Luminosity",
+      titleMy: "သုံးဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Standard Candles နှင့် Luminosity",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "b = L/(4πd²) relates radiant flux intensity to...",
+          questionMy: "b = L/(4πd²) က Radiant Flux Intensity ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "Luminosity and distance",
+            "Temperature only",
+            "The star's colour only",
+            "The observer's telescope size only",
+          ],
+          optionsMy: [
+            "Luminosity နှင့် Distance",
+            "Temperature သာ",
+            "ကြယ်၏ အရောင်သာ",
+            "Observer ၏ Telescope Size သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A standard candle is useful because its...",
+          questionMy: "Standard Candle တစ်ခု အသုံးဝင်ခြင်းမှာ ၎င်း၏...",
+          optionsEn: [
+            "Luminosity is known independently of its distance",
+            "Distance is always exactly the same",
+            "Colour never changes over time",
+            "Temperature is always zero",
+          ],
+          optionsMy: [
+            "Luminosity ကို Distance နှင့် လွတ်လပ်စွာ သိရှိထားသောကြောင့်",
+            "Distance သည် အမြဲ အတိအကျ တူညီသောကြောင့်",
+            "အရောင်သည် ဘယ်တော့မှ မပြောင်းလဲသောကြောင့်",
+            "Temperature သည် အမြဲ Zero ဖြစ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Doubling the distance to a star (luminosity unchanged) makes its apparent brightness...",
+          questionMy: "ကြယ်တစ်ခုသို့ Distance ကို နှစ်ဆတိုးလျှင် (Luminosity မပြောင်းလဲပါ) ၎င်း၏ Apparent Brightness...",
+          optionsEn: [
+            "One quarter as bright",
+            "Twice as bright",
+            "Half as bright",
+            "Exactly the same",
+          ],
+          optionsMy: [
+            "လေးပုံတစ်ပုံအထိ လျော့ကျသည်",
+            "နှစ်ဆ ပိုတောက်ပလာသည်",
+            "ထက်ဝက်အထိ လျော့ကျသည်",
+            "အတိအကျ တူညီနေဆဲ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 34: "The Doppler Effect and Redshift"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek34 = CourseWeekDef(
+  id: "course-y13-phys-w34",
+  weekNumber: 34,
+  titleEn: "The Doppler Effect and Redshift",
+  titleMy: "Doppler Effect နှင့် Redshift",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w34-d1",
+      dayNumber: 1,
+      titleEn: "Redshift, Blueshift and Δλ/λ ≈ v/c",
+      titleMy: "Redshift, Blueshift နှင့် Δλ/λ ≈ v/c",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Δλ/λ ≈ v/c, find the recession velocity v of a galaxy whose spectral line (rest wavelength λ = 500 nm) is redshifted by Δλ = 0.05 nm.",
+          questionMy:
+              "Δλ/λ ≈ v/c ကို အသုံးပြု၍ Rest Wavelength λ = 500 nm ရှိသော Spectral Line ကို Δλ = 0.05 nm ဖြင့် Redshift ဖြစ်စေသော Galaxy တစ်ခု၏ Recession Velocity v ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.0 x 10⁴ m/s",
+            "≈ 5.0 x 10² m/s",
+            "≈ 1.5 x 10¹¹ m/s",
+            "≈ 6.0 x 10⁻⁵ m/s",
+          ],
+          optionsMy: [
+            "≈ 3.0 x 10⁴ m/s",
+            "≈ 5.0 x 10² m/s",
+            "≈ 1.5 x 10¹¹ m/s",
+            "≈ 6.0 x 10⁻⁵ m/s",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "v = cΔλ/λ = 3x10⁸ x 0.05/500 = 3x10⁸ x 1x10⁻⁴ = 3.0x10⁴ m/s.",
+          ],
+          hintsMy: [
+            "v = cΔλ/λ = 3x10⁸ x 0.05/500 = 3x10⁸ x 1x10⁻⁴ = 3.0x10⁴ m/s ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A galaxy's spectral lines being redshifted means the galaxy is...",
+          questionMy: "Galaxy တစ်ခု၏ Spectral Line များ Redshift ဖြစ်ခြင်းက ဆိုလိုသည်မှာ ထို Galaxy သည်...",
+          optionsEn: [
+            "Moving away from Earth (wavelength stretched to longer values)",
+            "Moving toward Earth (wavelength compressed to shorter values)",
+            "Stationary relative to Earth",
+            "Getting hotter, with no change in motion",
+          ],
+          optionsMy: [
+            "Earth မှ ဝေးကွာလျက် ရှိသည် (Wavelength ကို ပိုရှည်စေသည်)",
+            "Earth ဘက် ကပ်လျက် ရှိသည် (Wavelength ကို ပိုတိုစေသည်)",
+            "Earth နှင့် ဆက်စပ်၍ Stationary ဖြစ်သည်",
+            "ရွေ့လျားမှု မပြောင်းလဲဘဲ ပိုပူလာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Redshift means the observed wavelength is longer than the rest wavelength -- consistent with a source moving away, which stretches the wave.",
+          ],
+          hintsMy: [
+            "Redshift ဆိုသည်မှာ Observed Wavelength သည် Rest Wavelength ထက် ရှည်ခြင်း ဖြစ်ပြီး Source သည် ဝေးကွာလျက် ရှိသည့် Wave ကို ဆန့်စေခြင်းနှင့် ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using z = Δλ/λ, find the redshift z of a galaxy with rest wavelength λ = 400 nm shifted by Δλ = 2 nm.",
+          questionMy:
+              "z = Δλ/λ ကို အသုံးပြု၍ Rest Wavelength λ = 400 nm ရှိပြီး Δλ = 2 nm ဖြင့် Shift ဖြစ်သွားသော Galaxy တစ်ခု၏ Redshift z ကို ရှာပါ။",
+          optionsEn: ["≈ 0.005", "≈ 200", "≈ 0.5", "≈ 2.00 x 10⁻⁶"],
+          optionsMy: ["≈ 0.005", "≈ 200", "≈ 0.5", "≈ 2.00 x 10⁻⁶"],
+          correctIndex: 0,
+          hintsEn: ["z = Δλ/λ = 2/400 = 0.005."],
+          hintsMy: ["z = Δλ/λ = 2/400 = 0.005 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w34-d2",
+      dayNumber: 2,
+      titleEn: "Match: Doppler Effect Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Doppler Effect ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w34-dm-1",
+          termEn: "Doppler effect",
+          termMy: "Doppler Effect",
+          matchEn: "Change in observed wavelength/frequency due to relative motion between source and observer",
+          matchMy: "Source နှင့် Observer အကြား Relative Motion ကြောင့် Observed Wavelength/Frequency ပြောင်းလဲခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w34-dm-2",
+          termEn: "Redshift",
+          termMy: "Redshift",
+          matchEn: "Wavelength stretched to longer values as a source recedes",
+          matchMy: "Source ဝေးကွာလာသည်နှင့်အမျှ Wavelength ပိုရှည်လာခြင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w34-dm-3",
+          termEn: "Blueshift",
+          termMy: "Blueshift",
+          matchEn: "Wavelength compressed to shorter values as a source approaches",
+          matchMy: "Source ကပ်လာသည်နှင့်အမျှ Wavelength ပိုတိုလာခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w34-dm-4",
+          termEn: "Δλ/λ ≈ v/c",
+          termMy: "Δλ/λ ≈ v/c",
+          matchEn: "Approximate formula relating fractional wavelength shift to recession velocity",
+          matchMy: "Wavelength Shift Fraction ကို Recession Velocity နှင့် ဆက်စပ်ပေးသော Approximate Formula",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w34-dm-5",
+          termEn: "z = Δλ/λ",
+          termMy: "z = Δλ/λ",
+          matchEn: "Definition of redshift as a fractional wavelength shift",
+          matchMy: "Redshift ကို Fractional Wavelength Shift အဖြစ် အနက်ဖွင့်ခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w34-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Redshifted or Blueshifted?",
+      titleMy: "စီစစ်ကြမည် - Redshifted လား၊ Blueshifted လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Redshifted (Receding)", "Blueshifted (Approaching)"],
+        bucketsMy: ["Redshifted (ဝေးကွာနေသည်)", "Blueshifted (ကပ်လျက်ရှိသည်)"],
+        items: [
+          SortingItem(
+            id: "y13phys-w34-sort-1",
+            labelEn: "A galaxy moving away from Earth",
+            labelMy: "Earth မှ ဝေးကွာလျက်ရှိသော Galaxy",
+            correctBucketEn: "Redshifted (Receding)",
+            correctBucketMy: "Redshifted (ဝေးကွာနေသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w34-sort-2",
+            labelEn: "Wavelength stretched to longer values",
+            labelMy: "Wavelength ပိုရှည်စေခြင်း",
+            correctBucketEn: "Redshifted (Receding)",
+            correctBucketMy: "Redshifted (ဝေးကွာနေသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w34-sort-3",
+            labelEn: "A star moving toward Earth",
+            labelMy: "Earth ဘက် ကပ်လျက်ရှိသော ကြယ်",
+            correctBucketEn: "Blueshifted (Approaching)",
+            correctBucketMy: "Blueshifted (ကပ်လျက်ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w34-sort-4",
+            labelEn: "Wavelength compressed to shorter values",
+            labelMy: "Wavelength ပိုတိုစေခြင်း",
+            correctBucketEn: "Blueshifted (Approaching)",
+            correctBucketMy: "Blueshifted (ကပ်လျက်ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w34-sort-5",
+            labelEn: "Almost all distant galaxies observed from Earth",
+            labelMy: "Earth မှ တွေ့ရှိရသော ဝေးကွာသည့် Galaxy များ အများစု",
+            correctBucketEn: "Redshifted (Receding)",
+            correctBucketMy: "Redshifted (ဝေးကွာနေသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w34-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Measuring a Galaxy's Recession Velocity",
+      titleMy: "စာဖတ်ခြင်း - Galaxy တစ်ခု၏ Recession Velocity တိုင်းတာခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Measuring a Galaxy's Recession Velocity",
+        titleMy: "Galaxy တစ်ခု၏ Recession Velocity တိုင်းတာခြင်း",
+        passageEn:
+            "Htet Aung pointed the school's small telescope, fitted with a spectrometer, at a faint distant galaxy and captured its spectrum on a laptop screen. Sayar Zaw Min showed him a known hydrogen absorption line with a rest wavelength of λ = 500 nm, then asked him to compare it with where that same line actually appeared in the galaxy's spectrum -- shifted slightly toward the red end.\n\nHtet Aung measured the shift as Δλ = 0.05 nm. Using Δλ/λ ≈ v/c, Sayar Zaw Min helped him find the galaxy's recession velocity: v = cΔλ/λ = 3x10⁸ x 0.05/500 = 3.0x10⁴ m/s -- thirty kilometres every second, far too fast for any rocket, yet this galaxy is one of the closer ones in the observable universe.\n\nHe then asked Htet Aung to find the redshift z itself, using z = Δλ/λ = 0.05/500 = 1.0x10⁻⁴ -- a tiny fractional shift, but a real and measurable one. Sayar Zaw Min pointed out that almost every distant galaxy shows this same pattern: a redshift, never a blueshift, in its spectral lines. That near-universal redshift, he said, was the very first clue that led astronomers toward Hubble's law and the idea of an expanding universe -- exactly the topic for next week.",
+        passageMy:
+            "Htet Aung သည် Spectrometer တပ်ဆင်ထားသော ကျောင်း၏ Telescope သေးသေးလေးကို ဝေးကွာသော Galaxy မှေးမှိန်တစ်ခုသို့ ချိန်ညှိပြီး ၎င်း၏ Spectrum ကို Laptop Screen ပေါ် ဖမ်းယူခဲ့သည်။ Sayar ဇော်မင်းသည် Rest Wavelength λ = 500 nm ရှိသော သိရှိပြီးသော Hydrogen Absorption Line တစ်ခုကို ပြသပြီး ထို Line တူညီသည် Galaxy ၏ Spectrum ထဲတွင် တကယ် ဘယ်နေရာတွင် ပေါ်လာသည်ကို နှိုင်းယှဉ်ခိုင်းခဲ့သည် -- အနီရောင် အစွန်းဆီသို့ အနည်းငယ် ရွှေ့ပြောင်းသွားသည်ကို တွေ့ရှိခဲ့သည်။\n\nHtet Aung သည် Shift ကို Δλ = 0.05 nm ဟု တိုင်းတာခဲ့သည်။ Δλ/λ ≈ v/c ကို အသုံးပြု၍ Sayar ဇော်မင်းသည် Galaxy ၏ Recession Velocity ကို ရှာပေးခဲ့သည် - v = cΔλ/λ = 3x10⁸ x 0.05/500 = 3.0x10⁴ m/s -- Second တိုင်း ကီလိုမီတာ သုံးဆယ် ဖြစ်ပြီး Rocket မည်သည်အတွက်မဆို လွန်မြန်လွန်းသော်လည်း ဤ Galaxy သည် Observable Universe ထဲရှိ ပိုနီးသော Galaxy များအနက် တစ်ခု ဖြစ်သည်။\n\nထို့နောက် z = Δλ/λ = 0.05/500 = 1.0x10⁻⁴ ကို အသုံးပြု၍ Redshift z ကိုယ်တိုင်ကို ရှာဖွေရန် Htet Aung ကို သူ တောင်းဆိုခဲ့သည် -- Fractional Shift သေးငယ်တစ်ခု ဖြစ်သော်လည်း တကယ် ရှိပြီး တိုင်းတာနိုင်သော တန်ဖိုး ဖြစ်သည်။ ဝေးကွာသော Galaxy အားလုံးနီးပါးသည် ၎င်း၏ Spectral Line များတွင် ဤ Pattern အတူတူပင် -- Blueshift လုံးဝ မဟုတ်ဘဲ Redshift သာ -- ပြသကြောင်း Sayar ဇော်မင်း ထောက်ပြခဲ့သည်။ ထို Near-Universal Redshift သည် ဗေဒင်ပညာရှင်များကို Hubble's Law နှင့် Expanding Universe ဆိုသော Idea ဆီသို့ ဦးတည်စေသော ပထမဆုံး Clue အတိအကျ ဖြစ်ကြောင်း၊ ၎င်းသည်ပင် နောက်တစ်ပတ် ခေါင်းစဉ် အတိအကျ ဖြစ်ကြောင်း သူ ပြောခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what recession velocity did Htet Aung calculate?",
+            questionMy: "Htet Aung တွက်ချက်ရသော Recession Velocity ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 3.0 x 10⁴ m/s",
+              "≈ 5.0 x 10² m/s",
+              "≈ 1.5 x 10¹¹ m/s",
+              "≈ 5.0 x 10⁻² m/s",
+            ],
+            optionsMy: [
+              "≈ 3.0 x 10⁴ m/s",
+              "≈ 5.0 x 10² m/s",
+              "≈ 1.5 x 10¹¹ m/s",
+              "≈ 5.0 x 10⁻² m/s",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the redshift z of this galaxy?",
+            questionMy: "ဤ Galaxy ၏ Redshift z ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 1.0 x 10⁻⁴",
+              "≈ 500",
+              "≈ 0.05",
+              "≈ 3.0 x 10⁴",
+            ],
+            optionsMy: [
+              "≈ 1.0 x 10⁻⁴",
+              "≈ 500",
+              "≈ 0.05",
+              "≈ 3.0 x 10⁴",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what near-universal pattern do distant galaxies show?",
+            questionMy: "ဝေးကွာသော Galaxy များ ပြသသော Near-Universal Pattern ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A redshift, almost never a blueshift, in their spectral lines",
+              "A blueshift, almost never a redshift",
+              "No shift at all in any galaxy's spectrum",
+              "Random shifts equally in both directions",
+            ],
+            optionsMy: [
+              "၎င်းတို့၏ Spectral Line များတွင် Redshift သာ၊ Blueshift ဘယ်တော့မှ မဟုတ်သလောက်",
+              "Blueshift သာ၊ Redshift ဘယ်တော့မှ မဟုတ်သလောက်",
+              "Galaxy မည်သည့် Spectrum တွင်မှ Shift လုံးဝ မရှိပါ",
+              "ဘက်နှစ်ဖက်စလုံးတွင် Random Shift အညီအမျှ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final sentences."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w34-d5",
+      dayNumber: 5,
+      titleEn: "Week 34 Recap: The Doppler Effect and Redshift",
+      titleMy: "သုံးဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Doppler Effect နှင့် Redshift",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Δλ/λ ≈ v/c relates wavelength shift to...",
+          questionMy: "Δλ/λ ≈ v/c က Wavelength Shift ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "Recession (or approach) velocity",
+            "Temperature only",
+            "Luminosity only",
+            "The observer's telescope size",
+          ],
+          optionsMy: [
+            "Recession (သို့) Approach Velocity",
+            "Temperature သာ",
+            "Luminosity သာ",
+            "Observer ၏ Telescope Size",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A source moving toward the observer produces...",
+          questionMy: "Observer ဘက် ကပ်လျက်ရှိသော Source တစ်ခုက ဖြစ်ပေါ်စေသည်မှာ...",
+          optionsEn: ["Blueshift", "Redshift", "No shift at all", "Only a change in luminosity"],
+          optionsMy: ["Blueshift", "Redshift", "Shift လုံးဝ မရှိပါ", "Luminosity ပြောင်းလဲမှုသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Redshift z is defined as...",
+          questionMy: "Redshift z ကို အနက်ဖွင့်ရာတွင်...",
+          optionsEn: [
+            "z = Δλ/λ",
+            "z = λ/Δλ",
+            "z = λ + Δλ",
+            "z = v x c",
+          ],
+          optionsMy: [
+            "z = Δλ/λ",
+            "z = λ/Δλ",
+            "z = λ + Δλ",
+            "z = v x c",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 35: "Hubble's Law and the Expanding Universe"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek35 = CourseWeekDef(
+  id: "course-y13-phys-w35",
+  weekNumber: 35,
+  titleEn: "Hubble's Law and the Expanding Universe",
+  titleMy: "Hubble's Law နှင့် Expanding Universe",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w35-d1",
+      dayNumber: 1,
+      titleEn: "v = H0d and the Age of the Universe",
+      titleMy: "v = H0d နှင့် Universe ၏ အသက်",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Hubble's law v = H0d, find the recession velocity v of a galaxy at distance d = 3 x 10²⁴ m, given H0 = 2.2 x 10⁻¹⁸ s⁻¹.",
+          questionMy:
+              "Hubble's Law v = H0d ကို အသုံးပြု၍ H0 = 2.2 x 10⁻¹⁸ s⁻¹ ရှိသော Distance d = 3 x 10²⁴ m အကွာရှိ Galaxy တစ်ခု၏ Recession Velocity v ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 6.6 x 10⁶ m/s",
+            "≈ 1.36 x 10⁻⁴¹ m/s",
+            "≈ 3.0 x 10²⁴ m/s",
+            "≈ 7.3 x 10⁴¹ m/s",
+          ],
+          optionsMy: [
+            "≈ 6.6 x 10⁶ m/s",
+            "≈ 1.36 x 10⁻⁴¹ m/s",
+            "≈ 3.0 x 10²⁴ m/s",
+            "≈ 7.3 x 10⁴¹ m/s",
+          ],
+          correctIndex: 0,
+          hintsEn: ["v = H0d = 2.2x10⁻¹⁸ x 3x10²⁴ = 6.6x10⁶ m/s."],
+          hintsMy: ["v = H0d = 2.2x10⁻¹⁸ x 3x10²⁴ = 6.6x10⁶ m/s ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Hubble's law shows that the universe is...",
+          questionMy: "Hubble's Law က ပြသသည်မှာ Universe သည်...",
+          optionsEn: [
+            "Expanding uniformly -- more distant galaxies recede faster",
+            "Shrinking uniformly -- more distant galaxies approach faster",
+            "Completely static, with no galaxy motion at all",
+            "Expanding only in one random direction",
+          ],
+          optionsMy: [
+            "တစ်ညီတစ်ညွတ်တည်း ချဲ့ထွင်နေသည် -- ပိုဝေးသော Galaxy များ ပိုမြန်စွာ ဝေးကွာသွားသည်",
+            "တစ်ညီတစ်ညွတ်တည်း ကျုံ့ဝင်နေသည် -- ပိုဝေးသော Galaxy များ ပိုမြန်စွာ ကပ်လာသည်",
+            "လှုပ်ရှားမှု လုံးဝ မရှိဘဲ လုံးဝ Static ဖြစ်သည်",
+            "Random ဦးတည်ချက် တစ်ခုတည်းတွင်သာ ချဲ့ထွင်နေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "v = H0d means recession velocity is directly proportional to distance -- a galaxy twice as far recedes twice as fast, the signature of uniform, all-directions expansion.",
+          ],
+          hintsMy: [
+            "v = H0d ဆိုသည်မှာ Recession Velocity သည် Distance နှင့် တိုက်ရိုက် အချိုးကျသည် -- နှစ်ဆ ဝေးကွာသော Galaxy သည် နှစ်ဆ မြန်စွာ ဝေးကွာသွားပြီး ဤသည်ပင် တစ်ညီတစ်ညွတ်တည်း၊ ဦးတည်ချက် အားလုံးသို့ Expansion ၏ Signature ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using T ≈ 1/H0, estimate the age of the universe given H0 = 2 x 10⁻¹⁸ s⁻¹.",
+          questionMy:
+              "T ≈ 1/H0 ကို အသုံးပြု၍ H0 = 2 x 10⁻¹⁸ s⁻¹ ရှိသော Universe ၏ အသက်ကို ခန့်မှန်းပါ။",
+          optionsEn: [
+            "≈ 5 x 10¹⁷ s",
+            "≈ 2 x 10⁻¹⁸ s",
+            "≈ 5 x 10⁻¹⁸ s",
+            "≈ 2 x 10¹⁸ s",
+          ],
+          optionsMy: [
+            "≈ 5 x 10¹⁷ s",
+            "≈ 2 x 10⁻¹⁸ s",
+            "≈ 5 x 10⁻¹⁸ s",
+            "≈ 2 x 10¹⁸ s",
+          ],
+          correctIndex: 0,
+          hintsEn: ["T ≈ 1/H0 = 1/(2x10⁻¹⁸) = 5x10¹⁷ s."],
+          hintsMy: ["T ≈ 1/H0 = 1/(2x10⁻¹⁸) = 5x10¹⁷ s ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w35-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hubble's Law Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Hubble's Law ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w35-dm-1",
+          termEn: "v = H0d",
+          termMy: "v = H0d",
+          matchEn: "Hubble's law: recession velocity is proportional to distance",
+          matchMy: "Hubble's Law: Recession Velocity သည် Distance နှင့် အချိုးကျသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w35-dm-2",
+          termEn: "Hubble constant H0",
+          termMy: "Hubble Constant H0",
+          matchEn: "The constant of proportionality between recession velocity and distance",
+          matchMy: "Recession Velocity နှင့် Distance ကြား Proportionality Constant",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w35-dm-3",
+          termEn: "Expanding universe",
+          termMy: "Expanding Universe",
+          matchEn: "Space itself stretching, carrying galaxies apart in every direction",
+          matchMy: "Space ကိုယ်တိုင် ဆန့်လျက်ရှိပြီး Galaxy များကို ဦးတည်ချက် အားလုံးသို့ ခွာသွားစေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w35-dm-4",
+          termEn: "T ≈ 1/H0",
+          termMy: "T ≈ 1/H0",
+          matchEn: "Rough estimate of the age of the universe from the Hubble constant",
+          matchMy: "Hubble Constant မှ Universe ၏ အသက်ကို ခန့်မှန်းသော Formula",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w35-dm-5",
+          termEn: "Recession velocity",
+          termMy: "Recession Velocity",
+          matchEn: "The speed at which a distant galaxy moves away from Earth",
+          matchMy: "ဝေးကွာသော Galaxy တစ်ခု Earth မှ ဝေးကွာသွားသော အလျင်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w35-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Supports an Expanding Universe or Not?",
+      titleMy: "စီစစ်ကြမည် - Expanding Universe ကို ထောက်ခံသလား၊ မထောက်ခံပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Supports an Expanding Universe",
+          "Does NOT Support an Expanding Universe",
+        ],
+        bucketsMy: [
+          "Expanding Universe ကို ထောက်ခံသည်",
+          "Expanding Universe ကို လုံးဝ မထောက်ခံပါ",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w35-sort-1",
+            labelEn: "All distant galaxies show redshift, receding from us",
+            labelMy: "ဝေးကွာသော Galaxy အားလုံးသည် ကျွန်ုပ်တို့ထံမှ ဝေးကွာသည့် Redshift ကို ပြသသည်",
+            correctBucketEn: "Supports an Expanding Universe",
+            correctBucketMy: "Expanding Universe ကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w35-sort-2",
+            labelEn: "More distant galaxies recede faster (Hubble's law)",
+            labelMy: "ပိုဝေးသော Galaxy များ ပိုမြန်စွာ ဝေးကွာသွားသည် (Hubble's Law)",
+            correctBucketEn: "Supports an Expanding Universe",
+            correctBucketMy: "Expanding Universe ကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w35-sort-3",
+            labelEn:
+                "Galaxies show random redshifts and blueshifts equally in all directions with no pattern",
+            labelMy: "Galaxy များသည် ဦးတည်ချက် အားလုံးတွင် Pattern မရှိဘဲ Redshift နှင့် Blueshift အညီအမျှ ကျပန်း ပြသသည်",
+            correctBucketEn: "Does NOT Support an Expanding Universe",
+            correctBucketMy: "Expanding Universe ကို လုံးဝ မထောက်ခံပါ",
+          ),
+          SortingItem(
+            id: "y13phys-w35-sort-4",
+            labelEn: "Recession velocity is proportional to distance",
+            labelMy: "Recession Velocity သည် Distance နှင့် အချိုးကျသည်",
+            correctBucketEn: "Supports an Expanding Universe",
+            correctBucketMy: "Expanding Universe ကို ထောက်ခံသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w35-sort-5",
+            labelEn: "Distances between galaxies stay exactly constant over time",
+            labelMy: "Galaxy များကြား Distance သည် အချိန်ကြာလာသည်နှင့်အမျှ အတိအကျ တူညီနေဆဲ ဖြစ်သည်",
+            correctBucketEn: "Does NOT Support an Expanding Universe",
+            correctBucketMy: "Expanding Universe ကို လုံးဝ မထောက်ခံပါ",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w35-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Combining a Standard Candle With Redshift",
+      titleMy: "စာဖတ်ခြင်း - Standard Candle ကို Redshift နှင့် ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Combining a Standard Candle With Redshift",
+        titleMy: "Standard Candle ကို Redshift နှင့် ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Aye reminded her class that the Hubble constant H0 itself is measured by combining two separate techniques they had just learned: a standard candle gives a galaxy's distance d, and its spectral redshift gives its recession velocity v, and Hubble's law v = H0d links the two.\n\nFor a particular galaxy, a Cepheid standard candle gave a distance of d = 3x10²⁴ m, while its redshifted spectral lines gave a recession velocity of v = 6.6x10⁶ m/s. Rearranging Hubble's law for the constant itself: H0 = v/d = 6.6x10⁶/3x10²⁴ ≈ 2.2x10⁻¹⁸ s⁻¹ -- a single measured galaxy, contributing one data point to the value astronomers now use for the whole universe.\n\nSu Su asked what H0 was actually good for, beyond just describing today's expansion rate. Sayama Moe Moe Aye explained that running the expansion backward in time, using T ≈ 1/H0 = 1/(2.2x10⁻¹⁸) ≈ 4.5x10¹⁷ s, gives a rough estimate of how long the universe has been expanding -- an age for the universe itself, calculated from nothing more than measuring how fast galaxies are moving apart today.",
+        passageMy:
+            "ဆရာမ မိုးမိုးအေးသည် Hubble Constant H0 ကိုယ်တိုင်ကို ၎င်းတို့ ယခုတင် သင်ယူခဲ့သော Technique နှစ်ခု ပေါင်းစပ်ကာ တိုင်းတာကြောင်း သူမ၏ အတန်းကို ပြန်လည် သတိပေးခဲ့သည် - Standard Candle က Galaxy တစ်ခု၏ Distance d ကို ပေးပြီး ၎င်း၏ Spectral Redshift က Recession Velocity v ကို ပေးကာ Hubble's Law v = H0d က ဤနှစ်ခုကို ဆက်စပ်ပေးသည်။\n\nGalaxy အထူးတလည်တစ်ခုအတွက် Cepheid Standard Candle က Distance d = 3x10²⁴ m ကို ပေးခဲ့ပြီး ၎င်း၏ Redshifted Spectral Line များက Recession Velocity v = 6.6x10⁶ m/s ကို ပေးခဲ့သည်။ Hubble's Law ကို Constant ကိုယ်တိုင်အတွက် ပြန်လည် စီစဉ်လျှင် - H0 = v/d = 6.6x10⁶/3x10²⁴ ≈ 2.2x10⁻¹⁸ s⁻¹ -- တိုင်းတာထားသော Galaxy တစ်ခုတည်းသည် ဗေဒင်ပညာရှင်များ ယခု Universe တစ်ခုလုံးအတွက် အသုံးပြုသော Value သို့ Data Point တစ်ခု ပါဝင်ခြင်း ဖြစ်သည်။\n\nယနေ့ Expansion Rate ကို ဖော်ပြရုံမှလွဲ၍ H0 သည် တကယ့် အဘယ်အတွက် အသုံးဝင်သနည်းဟု Su Su က မေးမြန်းခဲ့သည်။ T ≈ 1/H0 = 1/(2.2x10⁻¹⁸) ≈ 4.5x10¹⁷ s ကို အသုံးပြု၍ Expansion ကို အချိန်ပြန်ပြေးလျှင် Universe ချဲ့ထွင်နေသော ကြာချိန်ကို ခန့်မှန်းနိုင်ကြောင်း -- ယနေ့ Galaxy များ မည်မျှ မြန်ဆန်စွာ ဝေးကွာလျက်ရှိသည်ကို တိုင်းတာခြင်းမှသာ တွက်ချက်ရသော Universe ကိုယ်တိုင်၏ အသက် -- ဟု ဆရာမ မိုးမိုးအေး ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is H0 calculated from d = 3x10²⁴ m and v = 6.6x10⁶ m/s?",
+            questionMy: "d = 3x10²⁴ m နှင့် v = 6.6x10⁶ m/s မှ တွက်ချက်ရသော H0 ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 2.2 x 10⁻¹⁸ s⁻¹",
+              "≈ 6.6 x 10⁶ s⁻¹",
+              "≈ 3.0 x 10²⁴ s⁻¹",
+              "≈ 1.98 x 10³⁰ s⁻¹",
+            ],
+            optionsMy: [
+              "≈ 2.2 x 10⁻¹⁸ s⁻¹",
+              "≈ 6.6 x 10⁶ s⁻¹",
+              "≈ 3.0 x 10²⁴ s⁻¹",
+              "≈ 1.98 x 10³⁰ s⁻¹",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which two techniques combine to give H0?",
+            questionMy: "H0 ရရှိရန် ပေါင်းစပ်ရသော Technique နှစ်ခုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A standard candle's distance and a spectral redshift's velocity",
+              "A thermometer's reading and a barometer's reading",
+              "A telescope's size and a camera's resolution",
+              "Two separate redshift measurements only",
+            ],
+            optionsMy: [
+              "Standard Candle ၏ Distance နှင့် Spectral Redshift ၏ Velocity",
+              "Thermometer ၏ Reading နှင့် Barometer ၏ Reading",
+              "Telescope ၏ Size နှင့် Camera ၏ Resolution",
+              "Redshift Measurement နှစ်ခုသာ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what age estimate does T ≈ 1/H0 give for the universe?",
+            questionMy: "T ≈ 1/H0 က Universe အတွက် ပေးသော အသက် ခန့်မှန်းချက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 4.5 x 10¹⁷ s",
+              "≈ 2.2 x 10⁻¹⁸ s",
+              "≈ 6.6 x 10⁶ s",
+              "≈ 3.0 x 10²⁴ s",
+            ],
+            optionsMy: [
+              "≈ 4.5 x 10¹⁷ s",
+              "≈ 2.2 x 10⁻¹⁸ s",
+              "≈ 6.6 x 10⁶ s",
+              "≈ 3.0 x 10²⁴ s",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w35-d5",
+      dayNumber: 5,
+      titleEn: "Week 35 Recap: Hubble's Law and the Expanding Universe",
+      titleMy: "သုံးဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Hubble's Law နှင့် Expanding Universe",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "v = H0d shows that recession velocity is...",
+          questionMy: "v = H0d က ပြသသည်မှာ Recession Velocity သည်...",
+          optionsEn: [
+            "Directly proportional to distance",
+            "Inversely proportional to distance",
+            "Unrelated to distance",
+            "Always exactly the same for every galaxy",
+          ],
+          optionsMy: [
+            "Distance နှင့် တိုက်ရိုက် အချိုးကျသည်",
+            "Distance နှင့် ပြောင်းပြန် အချိုးကျသည်",
+            "Distance နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            "Galaxy တိုင်းအတွက် အမြဲ အတိအကျ တူညီသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "T ≈ 1/H0 gives a rough estimate of...",
+          questionMy: "T ≈ 1/H0 က ခန့်မှန်းချက်ပေးသည်မှာ...",
+          optionsEn: [
+            "The age of the universe",
+            "The mass of a single galaxy",
+            "The luminosity of the Sun",
+            "The temperature of the cosmic microwave background",
+          ],
+          optionsMy: [
+            "Universe ၏ အသက်",
+            "Galaxy တစ်ခုတည်း၏ Mass",
+            "နေ၏ Luminosity",
+            "Cosmic Microwave Background ၏ Temperature",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Nearly all distant galaxies show redshift rather than blueshift, which supports...",
+          questionMy: "ဝေးကွာသော Galaxy အားလုံးနီးပါးသည် Blueshift အစား Redshift ကို ပြသသည်ကို ထောက်ခံသည်မှာ...",
+          optionsEn: [
+            "An expanding universe",
+            "A shrinking universe",
+            "A completely static universe",
+            "No conclusion about the universe at all",
+          ],
+          optionsMy: [
+            "Expanding Universe",
+            "Shrinking Universe",
+            "လုံးဝ Static ဖြစ်သော Universe",
+            "Universe အကြောင်း Conclusion လုံးဝ မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 36: "A2 Physics Capstone and Comprehensive Exam Prep" (boss week --
+// reviews Terms 1-8, no new content)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek36 = CourseWeekDef(
+  id: "course-y13-phys-w36",
+  weekNumber: 36,
+  titleEn: "A2 Physics Capstone and Comprehensive Exam Prep",
+  titleMy: "A2 Physics Capstone နှင့် Comprehensive Exam Prep",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w36-d1",
+      dayNumber: 1,
+      titleEn: "Mixed Review: Terms 1, 4 and 8",
+      titleMy: "ရောနှော ပြန်လည်သုံးသပ်ခြင်း - Term ၁၊ ၄ နှင့် ၈",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using F = mv²/r, find the centripetal force on a mass m = 2 kg moving at v = 4 m/s in a circle of radius r = 8 m.",
+          questionMy:
+              "F = mv²/r ကို အသုံးပြု၍ m = 2 kg ရှိသော Mass တစ်ခု v = 4 m/s ဖြင့် Radius r = 8 m ရှိသော စက်ဝိုင်းတွင် ရွေ့လျားစဉ် ခံစားရသော Centripetal Force ကို ရှာပါ။",
+          optionsEn: ["4 N", "16 N", "32 N", "0.25 N"],
+          optionsMy: ["4 N", "16 N", "32 N", "0.25 N"],
+          correctIndex: 0,
+          hintsEn: ["F = mv²/r = (2 x 4²) / 8 = 32/8 = 4 N."],
+          hintsMy: ["F = mv²/r = (2 x 4²) / 8 = 32/8 = 4 N ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using E = ½CV², find the energy stored in a capacitor of capacitance C = 200 µF charged to V = 10 V.",
+          questionMy:
+              "E = ½CV² ကို အသုံးပြု၍ Capacitance C = 200 µF ရှိသော Capacitor တစ်ခုကို V = 10 V သို့ Charge လုပ်ထားစဉ် သိမ်းဆည်းထားသော Energy ကို ရှာပါ။",
+          optionsEn: [
+            "1.0 x 10⁻² J",
+            "2.0 x 10⁻² J",
+            "2.0 x 10⁻³ J",
+            "1.0 x 10⁻⁴ J",
+          ],
+          optionsMy: [
+            "1.0 x 10⁻² J",
+            "2.0 x 10⁻² J",
+            "2.0 x 10⁻³ J",
+            "1.0 x 10⁻⁴ J",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "E = ½CV² = 0.5 x 200x10⁻⁶ x 10² = 0.5 x 200x10⁻⁶ x 100 = 1.0x10⁻² J.",
+          ],
+          hintsMy: [
+            "E = ½CV² = 0.5 x 200x10⁻⁶ x 10² = 0.5 x 200x10⁻⁶ x 100 = 1.0x10⁻² J ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using N = N0e^(-λt), find N after t = 4 s, given N0 = 2 x 10¹⁴ and λ = 0.25 s⁻¹ (e⁻¹ ≈ 0.368).",
+          questionMy:
+              "N = N0e^(-λt) ကို အသုံးပြု၍ N0 = 2 x 10¹⁴ နှင့် λ = 0.25 s⁻¹ (e⁻¹ ≈ 0.368) ရှိသော t = 4 s အပြီးရှိ N ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 7.36 x 10¹³",
+            "≈ 1.00 x 10¹⁴",
+            "≈ 2.00 x 10¹⁴",
+            "≈ 5.00 x 10¹³",
+          ],
+          optionsMy: [
+            "≈ 7.36 x 10¹³",
+            "≈ 1.00 x 10¹⁴",
+            "≈ 2.00 x 10¹⁴",
+            "≈ 5.00 x 10¹³",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "λt = 0.25 x 4 = 1, so N = N0e⁻¹ = 2x10¹⁴ x 0.368 ≈ 7.36x10¹³.",
+          ],
+          hintsMy: [
+            "λt = 0.25 x 4 = 1 ဖြစ်ပြီး N = N0e⁻¹ = 2x10¹⁴ x 0.368 ≈ 7.36x10¹³ ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w36-d2",
+      dayNumber: 2,
+      titleEn: "Match: A2 Formula Review Across Terms 1-8",
+      titleMy: "တွဲစပ်ကြမည် - Term ၁-၈ Formula ပြန်လည်သုံးသပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w36-dm-1",
+          termEn: "F = mv²/r",
+          termMy: "F = mv²/r",
+          matchEn: "Centripetal force (Term 1: Circular Motion)",
+          matchMy: "Centripetal Force (Term 1: Circular Motion)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w36-dm-2",
+          termEn: "pV = nRT",
+          termMy: "pV = nRT",
+          matchEn: "The ideal gas equation (Term 2: Ideal Gases)",
+          matchMy: "Ideal Gas Equation (Term 2: Ideal Gases)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w36-dm-3",
+          termEn: "Q = CV",
+          termMy: "Q = CV",
+          matchEn: "Charge stored on a capacitor (Term 4: Capacitance)",
+          matchMy: "Capacitor ပေါ်ရှိ Charge (Term 4: Capacitance)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w36-dm-4",
+          termEn: "E = hf",
+          termMy: "E = hf",
+          matchEn: "Photon energy (Term 7: Quantum Physics)",
+          matchMy: "Photon Energy (Term 7: Quantum Physics)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w36-dm-5",
+          termEn: "N = N0e^(-λt)",
+          termMy: "N = N0e^(-λt)",
+          matchEn: "The radioactive decay law (Term 8: Nuclear Physics)",
+          matchMy: "Radioactive Decay Law (Term 8: Nuclear Physics)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w36-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Classical or Modern & Nuclear Physics?",
+      titleMy: "စီစစ်ကြမည် - Classical လား၊ Modern & Nuclear Physics လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Classical Mechanics and Fields (Terms 1-6)",
+          "Modern and Nuclear Physics (Terms 7-8)",
+        ],
+        bucketsMy: [
+          "Classical Mechanics and Fields (Term ၁-၆)",
+          "Modern and Nuclear Physics (Term ၇-၈)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w36-sort-1",
+            labelEn: "Circular motion and gravitational fields",
+            labelMy: "Circular Motion နှင့် Gravitational Fields",
+            correctBucketEn: "Classical Mechanics and Fields (Terms 1-6)",
+            correctBucketMy: "Classical Mechanics and Fields (Term ၁-၆)",
+          ),
+          SortingItem(
+            id: "y13phys-w36-sort-2",
+            labelEn: "Electric fields and capacitance",
+            labelMy: "Electric Fields နှင့် Capacitance",
+            correctBucketEn: "Classical Mechanics and Fields (Terms 1-6)",
+            correctBucketMy: "Classical Mechanics and Fields (Term ၁-၆)",
+          ),
+          SortingItem(
+            id: "y13phys-w36-sort-3",
+            labelEn: "The photoelectric effect and photon energy",
+            labelMy: "Photoelectric Effect နှင့် Photon Energy",
+            correctBucketEn: "Modern and Nuclear Physics (Terms 7-8)",
+            correctBucketMy: "Modern and Nuclear Physics (Term ၇-၈)",
+          ),
+          SortingItem(
+            id: "y13phys-w36-sort-4",
+            labelEn: "Radioactive decay and binding energy",
+            labelMy: "Radioactive Decay နှင့် Binding Energy",
+            correctBucketEn: "Modern and Nuclear Physics (Terms 7-8)",
+            correctBucketMy: "Modern and Nuclear Physics (Term ၇-၈)",
+          ),
+          SortingItem(
+            id: "y13phys-w36-sort-5",
+            labelEn: "Alternating currents and electronics",
+            labelMy: "Alternating Currents နှင့် Electronics",
+            correctBucketEn: "Classical Mechanics and Fields (Terms 1-6)",
+            correctBucketMy: "Classical Mechanics and Fields (Term ၁-၆)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w36-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Mixed Practice Paper for the Whole A2 Course",
+      titleMy: "စာဖတ်ခြင်း - A2 Course တစ်ခုလုံးအတွက် ရောနှော Practice Paper",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Mixed Practice Paper for the Whole A2 Course",
+        titleMy: "A2 Course တစ်ခုလုံးအတွက် ရောနှော Practice Paper",
+        passageEn:
+            "For the final review session of the whole A2 Physics course, Sayar Zaw Min set his class a short mixed practice paper deliberately pulling one question from three very different terms, to prove the same formula-driven thinking works everywhere.\n\nHtet Aung tackled the mechanics question first: a mass m = 2 kg moving at v = 4 m/s around a circle of radius r = 8 m. Using F = mv²/r, he found the centripetal force: F = (2 x 4²)/8 = 32/8 = 4 N -- a Term 1 idea from the very start of the year. Su Su then tackled a capacitance question from Term 4: a 200 µF capacitor charged to 10 V. Using E = ½CV², she found the stored energy: E = 0.5 x 200x10⁻⁶ x 10² = 1.0x10⁻² J.\n\nFinally, Sayar Zaw Min asked them both to work the nuclear decay question from Term 8 together: N0 = 2x10¹⁴ nuclei with λ = 0.25 s⁻¹, after t = 4 s. Using N = N0e^(-λt): N = 2x10¹⁴ x e⁻¹ ≈ 2x10¹⁴ x 0.368 ≈ 7.36x10¹³. He pointed out that these three questions -- circular motion, capacitor energy, radioactive decay -- looked completely unrelated on the surface, yet every single one came down to identifying the right formula, substituting known values carefully, and trusting the arithmetic; that skill, built up steadily since Term 1, was the entire point of the course, and it was exactly what the A2 exam itself would test.",
+        passageMy:
+            "A2 Physics Course တစ်ခုလုံး၏ နောက်ဆုံး Review Session အတွက် Sayar ဇော်မင်းသည် Formula-Driven Thinking တစ်ခုတည်းသည် နေရာတိုင်းတွင် အလုပ်ဖြစ်ကြောင်း သက်သေပြရန် အလွန်ကွဲပြားသော Term သုံးခုမှ မေးခွန်း တစ်ခုစီ ရွေးချယ်ကာ သူ၏ အတန်းကို Mixed Practice Paper တိုတောင်းတစ်ခု ချမှတ်ပေးခဲ့သည်။\n\nHtet Aung သည် Mechanics မေးခွန်းကို ဦးစွာ ကိုင်တွယ်ခဲ့သည် - m = 2 kg ရှိသော Mass တစ်ခု v = 4 m/s ဖြင့် Radius r = 8 m ရှိသော စက်ဝိုင်းတစ်ခုတွင် ရွေ့လျားနေသည်။ F = mv²/r ကို အသုံးပြု၍ Centripetal Force ကို သူ ရှာဖွေခဲ့သည် - F = (2 x 4²)/8 = 32/8 = 4 N -- နှစ်၏ အစောပိုင်းမှ Term 1 Idea တစ်ခု ဖြစ်သည်။ ထို့နောက် Su Su သည် Term 4 မှ Capacitance မေးခွန်းကို ကိုင်တွယ်ခဲ့သည် - 200 µF Capacitor ကို 10 V သို့ Charge လုပ်ထားသည်။ E = ½CV² ကို အသုံးပြု၍ သိမ်းဆည်းထားသော Energy ကို သူမ ရှာဖွေခဲ့သည် - E = 0.5 x 200x10⁻⁶ x 10² = 1.0x10⁻² J ။\n\nနောက်ဆုံးတွင် Term 8 မှ Nuclear Decay မေးခွန်းကို နှစ်ဦးစလုံး အတူတကွ လုပ်ဆောင်ရန် Sayar ဇော်မင်း တောင်းဆိုခဲ့သည် - N0 = 2x10¹⁴ Nuclei၊ λ = 0.25 s⁻¹၊ t = 4 s အပြီး။ N = N0e^(-λt) ကို အသုံးပြု၍ - N = 2x10¹⁴ x e⁻¹ ≈ 2x10¹⁴ x 0.368 ≈ 7.36x10¹³ ။ ဤ မေးခွန်းသုံးခု -- Circular Motion, Capacitor Energy, Radioactive Decay -- သည် မျက်နှာပြင်ပေါ်တွင် လုံးဝ မသက်ဆိုင်သကဲ့သို့ ထင်ရသော်လည်း တစ်ခုစီသည် မှန်ကန်သော Formula ကို ခွဲခြားသိရှိခြင်း၊ သိရှိထားသော Value များကို ဂရုတစိုက် အစားထိုးခြင်း၊ Arithmetic ကို ယုံကြည်ခြင်းသို့ ရောက်ရှိသွားကြောင်း သူ ထောက်ပြခဲ့သည်၊ Term 1 မှစ၍ တစ်တဖြည်းဖြည်း တည်ဆောက်လာခဲ့သော ထို Skill သည် Course တစ်ခုလုံး၏ ရည်ရွယ်ချက် အတိအကျ ဖြစ်ပြီး A2 Exam ကိုယ်တိုင် စစ်ဆေးမည့်အရာ အတိအကျ ဖြစ်ကြောင်း သူ ရှင်းပြခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the centripetal force in the mechanics question?",
+            questionMy: "Mechanics မေးခွန်းရှိ Centripetal Force ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["4 N", "32 N", "8 N", "16 N"],
+            optionsMy: ["4 N", "32 N", "8 N", "16 N"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's first calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ပထမ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what energy is stored in Su Su's capacitor?",
+            questionMy: "Su Su ၏ Capacitor ထဲ သိမ်းဆည်းထားသော Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "1.0 x 10⁻² J",
+              "2.0 x 10⁻² J",
+              "2.0 x 10⁻³ J",
+              "1.0 x 10⁻⁴ J",
+            ],
+            optionsMy: [
+              "1.0 x 10⁻² J",
+              "2.0 x 10⁻² J",
+              "2.0 x 10⁻³ J",
+              "1.0 x 10⁻⁴ J",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's second calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဒုတိယ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what skill did Sayar Zaw Min say was the entire point of the course?",
+            questionMy: "Course တစ်ခုလုံး၏ ရည်ရွယ်ချက် ဖြစ်သည်ဟု Sayar ဇော်မင်း ဆိုသော Skill ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Identifying the right formula, substituting values carefully, and trusting the arithmetic",
+              "Memorising every constant without understanding formulas",
+              "Only mechanics matters for the exam",
+              "Guessing answers quickly without any calculation",
+            ],
+            optionsMy: [
+              "မှန်ကန်သော Formula ကို ခွဲခြားသိရှိခြင်း၊ Value များကို ဂရုတစိုက် အစားထိုးခြင်း၊ Arithmetic ကို ယုံကြည်ခြင်း",
+              "Formula များ နားမလည်ဘဲ Constant တိုင်းကို အလွတ်ကျက်ခြင်း",
+              "Mechanics တစ်ခုတည်းသာ Exam အတွက် အရေးကြီးသည်",
+              "တွက်ချက်မှု လုံးဝ မရှိဘဲ အဖြေကို မြန်မြန် ခန့်မှန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w36-d5",
+      dayNumber: 5,
+      titleEn: "A2 Physics Final Review: Terms 1-9",
+      titleMy: "A2 ရူပဗေဒ နောက်ဆုံး ပြန်လည်သုံးသပ်ခြင်း - Term ၁-၉",
+      kind: LessonKind.quiz,
+      xpReward: 15,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Centripetal force depends on...",
+          questionMy: "Centripetal Force သည် ...ပေါ် မှီခိုသည်",
+          optionsEn: [
+            "Mass, speed and the radius of the circular path",
+            "Only the object's colour",
+            "Only the object's temperature",
+            "Only the object's electric charge",
+          ],
+          optionsMy: [
+            "Mass, Speed နှင့် Circular Path ၏ Radius",
+            "Object ၏ အရောင်သာ",
+            "Object ၏ Temperature သာ",
+            "Object ၏ Electric Charge သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Capacitors store energy according to...",
+          questionMy: "Capacitor များသည် Energy သိမ်းဆည်းရာတွင်...",
+          optionsEn: [
+            "E = ½CV²",
+            "E = mc²",
+            "E = hf",
+            "E = ½mv²",
+          ],
+          optionsMy: [
+            "E = ½CV²",
+            "E = mc²",
+            "E = hf",
+            "E = ½mv²",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Radioactive decay is...",
+          questionMy: "Radioactive Decay သည်...",
+          optionsEn: [
+            "Random and spontaneous, following an exponential decay law",
+            "Perfectly predictable for every individual nucleus",
+            "Controllable by heating or cooling the sample",
+            "Only possible inside a nuclear reactor",
+          ],
+          optionsMy: [
+            "Exponential Decay Law အတိုင်း Random and Spontaneous ဖြစ်သည်",
+            "Nucleus တစ်ခုချင်းစီအတွက် အပြည့်အဝ ခန့်မှန်း၍ ရသည်",
+            "Sample ကို ပူနွေး၊ အေးစေခြင်းဖြင့် ထိန်းချုပ်နိုင်သည်",
+            "Nuclear Reactor အတွင်းတွင်သာ ဖြစ်နိုင်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Across the whole A2 Physics course, quantities like force, charge, energy and activity are all...",
+          questionMy:
+              "A2 Physics Course တစ်ခုလုံးတလျှောက် Force, Charge, Energy နှင့် Activity ကဲ့သို့ ပမာဏများသည် အားလုံး...",
+          optionsEn: [
+            "Measurable physical quantities linked by consistent formulas",
+            "Random numbers with no formulas behind them",
+            "Only relevant to one single topic each",
+            "Impossible to measure in a school lab",
+          ],
+          optionsMy: [
+            "တသမတ်တည်း Formula များဖြင့် ဆက်စပ်ထားသော တိုင်းတာနိုင်သော ရုပ်ပိုင်းဆိုင်ရာ ပမာဏများ",
+            "နောက်ကွယ်တွင် Formula မရှိသော ကျပန်း ဂဏန်းများ",
+            "ခေါင်းစဉ် တစ်ခုစီအတွက်သာ သက်ဆိုင်သည်",
+            "ကျောင်း Lab တွင် တိုင်းတာ၍ လုံးဝ မရပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 9: "Astronomy, Cosmology and A2 Exam Prep".
+/// Covers standard candles and luminosity (the inverse square law
+/// b = L/(4πd²)), the Doppler effect and redshift (Δλ/λ ≈ v/c), Hubble's
+/// law and the expanding universe (v = H0d, T ≈ 1/H0), and closes with an
+/// A2 Physics Capstone and Comprehensive Exam Prep week that reviews
+/// Terms 1-8 across mechanics, fields, quantum and nuclear physics rather
+/// than introducing new content -- the final milestone of the full A2
+/// pathway.
+const CourseTermDef year13PhysicsTerm9 = CourseTermDef(
+  id: "course-y13-phys-term9",
+  termNumber: 9,
+  titleEn: "Astronomy, Cosmology and A2 Exam Prep",
+  titleMy: "Astronomy, Cosmology နှင့် A2 Exam Prep",
+  weeks: [_y13PhysWeek33, _y13PhysWeek34, _y13PhysWeek35, _y13PhysWeek36],
+  certificateTitleEn: "A2 Physics: Astronomy, Cosmology and Exam Prep",
+  certificateTitleMy: "A2 ရူပဗေဒ - Astronomy, Cosmology and Exam Prep",
+);
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Full Pathway
+// =====================================================================
+
+const CoursePathwayDef year13PhysicsPathway = CoursePathwayDef(
+  id: "course-year13-physics",
+  subject: "physics",
+  grade: Grade.year13,
+  titleEn: "A-Level Physics — Year 13 (A2)",
+  titleMy: "A-Level ရူပဗေဒ — Year ၁၃ (A2)",
+  descriptionEn:
+      "The A2 half of Cambridge A-Level Physics (9702), continuing directly from the completed Year 12 AS pathway: daily bite-sized lessons building on the AS foundation. Term 1, Circular Motion and Gravitational Fields, covers centripetal force and acceleration, angular velocity, gravitational field strength and Newton's law of gravitation, and orbital mechanics, closing with a capstone week combining circular motion with gravitation for satellite orbits. Terms 2-8 continue through thermal physics and ideal gases, thermodynamics and oscillations, electric fields and capacitance, magnetic fields and electromagnetic induction, alternating currents and electronics, quantum physics (the photoelectric effect, wave-particle duality and atomic energy levels), and nuclear/medical physics (radioactive decay, half-life, binding energy, mass-energy equivalence and X-rays). Term 9, Astronomy, Cosmology and A2 Exam Prep, covers standard candles and luminosity, the Doppler effect and redshift, and Hubble's law and the expanding universe, closing with a comprehensive A2 Exam Prep capstone reviewing the whole course.",
+  descriptionMy:
+      "Cambridge A-Level ရူပဗေဒ (9702) ၏ A2 ခြမ်းဖြစ်ပြီး ပြီးဆုံးသွားသော Year 12 AS Pathway မှ တိုက်ရိုက် ဆက်လက်သည် - AS အခြေခံအပေါ် တည်ဆောက်ထားသော နေ့စဉ် အတိုချုပ်သင်ခန်းစာများ။ Term ၁၊ Circular Motion and Gravitational Fields သည် Centripetal Force နှင့် Acceleration, Angular Velocity, Gravitational Field Strength နှင့် Newton's Law of Gravitation, Orbital Mechanics တို့ကို ဖုံးအုပ်ပြီး Satellite Orbit များအတွက် Circular Motion နှင့် Gravitation ပေါင်းစပ်ထားသော Capstone Week ဖြင့် ပြီးဆုံးသည်။ Term ၂ မှ ၈ အထိ Thermal Physics နှင့် Ideal Gases, Thermodynamics နှင့် Oscillations, Electric Fields နှင့် Capacitance, Magnetic Fields နှင့် Electromagnetic Induction, Alternating Currents နှင့် Electronics, Quantum Physics (Photoelectric Effect, Wave-Particle Duality နှင့် Atomic Energy Levels), Nuclear/Medical Physics (Radioactive Decay, Half-Life, Binding Energy, Mass-Energy Equivalence နှင့် X-rays) တို့ကို ဆက်လက်ဖုံးအုပ်သည်။ Term ၉၊ Astronomy, Cosmology and A2 Exam Prep သည် Standard Candles နှင့် Luminosity, Doppler Effect နှင့် Redshift, Hubble's Law နှင့် Expanding Universe တို့ကို ဖုံးအုပ်ပြီး Course တစ်ခုလုံးကို ပြန်လည်သုံးသပ်သော Comprehensive A2 Exam Prep Capstone ဖြင့် ပြီးဆုံးသည်။",
+  totalWeeks: 36,
+  terms: [
+    year13PhysicsTerm1,
+    year13PhysicsTerm2,
+    year13PhysicsTerm3,
+    year13PhysicsTerm4,
+    year13PhysicsTerm5,
+    year13PhysicsTerm6,
+    year13PhysicsTerm7,
+    year13PhysicsTerm8,
+    year13PhysicsTerm9,
+  ],
+);
