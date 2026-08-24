@@ -31157,3 +31157,1314 @@ const CourseTermDef year13PhysicsTerm6 = CourseTermDef(
   certificateTitleEn: "A2 Physics: Alternating Currents and Electronics",
   certificateTitleMy: "A2 ရူပဗေဒ - Alternating Currents နှင့် Electronics",
 );
+
+// =====================================================================
+// YEAR 13 PHYSICS -- Term 7: "Quantum Physics"
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 25: "The Photoelectric Effect"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek25 = CourseWeekDef(
+  id: "course-y13-phys-w25",
+  weekNumber: 25,
+  titleEn: "The Photoelectric Effect",
+  titleMy: "Photoelectric Effect",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w25-d1",
+      dayNumber: 1,
+      titleEn: "Einstein's Photoelectric Equation",
+      titleMy: "Einstein's Photoelectric Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using hf = Φ + KEmax (h = 6.63 x 10⁻³⁴ J s), find KEmax for light of frequency 8 x 10¹⁴ Hz incident on a metal with work function Φ = 3.0 x 10⁻¹⁹ J.",
+          questionMy:
+              "hf = Φ + KEmax (h = 6.63 x 10⁻³⁴ J s) ကို အသုံးပြု၍ Work Function Φ = 3.0 x 10⁻¹⁹ J ရှိသော သတ္တုပေါ် Frequency 8 x 10¹⁴ Hz ရှိသော အလင်း သက်ရောက်ပါက KEmax ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 2.30 x 10⁻¹⁹ J",
+            "≈ 5.30 x 10⁻¹⁹ J",
+            "≈ 3.00 x 10⁻¹⁹ J",
+            "≈ 8.30 x 10⁻¹⁹ J",
+          ],
+          optionsMy: [
+            "≈ 2.30 x 10⁻¹⁹ J",
+            "≈ 5.30 x 10⁻¹⁹ J",
+            "≈ 3.00 x 10⁻¹⁹ J",
+            "≈ 8.30 x 10⁻¹⁹ J",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "KEmax = hf - Φ = (6.63x10⁻³⁴ x 8x10¹⁴) - 3.0x10⁻¹⁹ = 5.304x10⁻¹⁹ - 3.0x10⁻¹⁹ ≈ 2.30x10⁻¹⁹ J.",
+          ],
+          hintsMy: [
+            "KEmax = hf - Φ = (6.63x10⁻³⁴ x 8x10¹⁴) - 3.0x10⁻¹⁹ = 5.304x10⁻¹⁹ - 3.0x10⁻¹⁹ ≈ 2.30x10⁻¹⁹ J ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Below the threshold frequency f₀, shining a much brighter (more intense) light on the metal causes...",
+          questionMy:
+              "Threshold Frequency f₀ အောက်တွင် သတ္တုပေါ် ပိုတောက်ပသော (Intensity ပိုမြင့်သော) အလင်းရောင် ထိုးလိုက်ပါက...",
+          optionsEn: [
+            "No photoelectrons are emitted, no matter how intense the light",
+            "Photoelectrons are always emitted if the light is bright enough",
+            "The metal melts instantly",
+            "Electrons gain negative kinetic energy",
+          ],
+          optionsMy: [
+            "အလင်း Intensity မည်မျှ မြင့်စေကာမူ Photoelectron လုံးဝ မထွက်ပါ",
+            "အလင်း လုံလောက်စွာ တောက်ပလျှင် Photoelectron အမြဲ ထွက်သည်",
+            "သတ္တု ချက်ချင်း အရည်ပျော်သွားသည်",
+            "Electron များသည် Negative Kinetic Energy ရရှိသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Below the threshold frequency, each individual photon carries too little energy to overcome the work function -- increasing intensity just means more too-weak photons arrive, not that any single one becomes strong enough.",
+          ],
+          hintsMy: [
+            "Threshold Frequency အောက်တွင် Photon တစ်ခုစီသည် Work Function ကို ကျော်လွှားရန် Energy မလုံလောက်ပါ -- Intensity တိုးမြှင့်ခြင်းက အားနည်းသော Photon ပိုများစွာ ရောက်ရှိလာခြင်းသာ ဆိုလိုပြီး Photon တစ်ခုတစ်ခုချင်းစီ ပိုအားကောင်းလာခြင်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using Φ = hf₀, find the work function of a metal with threshold frequency f₀ = 5 x 10¹⁴ Hz.",
+          questionMy:
+              "Φ = hf₀ ကို အသုံးပြု၍ Threshold Frequency f₀ = 5 x 10¹⁴ Hz ရှိသော သတ္တု၏ Work Function ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.32 x 10⁻¹⁹ J",
+            "≈ 1.33 x 10⁻¹⁹ J",
+            "≈ 5.00 x 10⁻¹⁹ J",
+            "≈ 6.63 x 10⁻¹⁹ J",
+          ],
+          optionsMy: [
+            "≈ 3.32 x 10⁻¹⁹ J",
+            "≈ 1.33 x 10⁻¹⁹ J",
+            "≈ 5.00 x 10⁻¹⁹ J",
+            "≈ 6.63 x 10⁻¹⁹ J",
+          ],
+          correctIndex: 0,
+          hintsEn: ["Φ = hf₀ = 6.63x10⁻³⁴ x 5x10¹⁴ ≈ 3.32x10⁻¹⁹ J."],
+          hintsMy: ["Φ = hf₀ = 6.63x10⁻³⁴ x 5x10¹⁴ ≈ 3.32x10⁻¹⁹ J ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w25-d2",
+      dayNumber: 2,
+      titleEn: "Match: Photoelectric Effect Symbols",
+      titleMy: "တွဲစပ်ကြမည် - Photoelectric Effect သင်္ကေတများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w25-dm-1",
+          termEn: "hf = Φ + KEmax",
+          termMy: "hf = Φ + KEmax",
+          matchEn: "Einstein's photoelectric equation",
+          matchMy: "Einstein's Photoelectric Equation",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w25-dm-2",
+          termEn: "Φ (work function)",
+          termMy: "Φ (Work Function)",
+          matchEn: "Minimum energy needed to release an electron from a metal surface",
+          matchMy: "သတ္တု မျက်နှာပြင်မှ Electron တစ်ခု လွှတ်ရန် လိုအပ်သော အနည်းဆုံး Energy",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w25-dm-3",
+          termEn: "f₀ (threshold frequency)",
+          termMy: "f₀ (Threshold Frequency)",
+          matchEn: "Minimum frequency below which no photoelectrons are emitted",
+          matchMy: "ဤအောက်တွင် Photoelectron လုံးဝ မထွက်သော အနိမ့်ဆုံး Frequency",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w25-dm-4",
+          termEn: "h",
+          termMy: "h",
+          matchEn: "Planck's constant, 6.63 x 10⁻³⁴ J s",
+          matchMy: "Planck's Constant, 6.63 x 10⁻³⁴ J s",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w25-dm-5",
+          termEn: "KEmax",
+          termMy: "KEmax",
+          matchEn: "Maximum kinetic energy of an emitted photoelectron",
+          matchMy: "လွှတ်ခံရသော Photoelectron ၏ Maximum Kinetic Energy",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w25-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases KEmax or Not?",
+      titleMy: "စီစစ်ကြမည် - KEmax ကို တိုးစေသလား၊ မတိုးစေပါလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Increases KEmax",
+          "Does NOT Increase KEmax (only more photoelectrons)",
+        ],
+        bucketsMy: [
+          "KEmax ကို တိုးစေသည်",
+          "KEmax ကို လုံးဝ မတိုးစေပါ (Photoelectron အရေအတွက်သာ တိုးသည်)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w25-sort-1",
+            labelEn: "Increasing the frequency of the incident light (above threshold)",
+            labelMy: "ထိုးသွင်းသော အလင်း၏ Frequency ကို (Threshold ထက်) တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases KEmax",
+            correctBucketMy: "KEmax ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w25-sort-2",
+            labelEn: "Increasing the intensity of the incident light (frequency unchanged)",
+            labelMy: "ထိုးသွင်းသော အလင်း၏ Intensity ကို (Frequency မပြောင်းလဲပါ) တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Does NOT Increase KEmax (only more photoelectrons)",
+            correctBucketMy: "KEmax ကို လုံးဝ မတိုးစေပါ (Photoelectron အရေအတွက်သာ တိုးသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w25-sort-3",
+            labelEn: "Using a metal with a smaller work function (frequency unchanged)",
+            labelMy: "Work Function ငယ်သော သတ္တု အသုံးပြုခြင်း (Frequency မပြောင်းလဲပါ)",
+            correctBucketEn: "Increases KEmax",
+            correctBucketMy: "KEmax ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w25-sort-4",
+            labelEn: "Shining the same light for a longer time",
+            labelMy: "အလင်းတူညီကို ပိုကြာစွာ ထိုးလိုက်ခြင်း",
+            correctBucketEn: "Does NOT Increase KEmax (only more photoelectrons)",
+            correctBucketMy: "KEmax ကို လုံးဝ မတိုးစေပါ (Photoelectron အရေအတွက်သာ တိုးသည်)",
+          ),
+          SortingItem(
+            id: "y13phys-w25-sort-5",
+            labelEn: "Using light of a shorter wavelength (same intensity)",
+            labelMy: "Wavelength ပိုတိုသော အလင်း အသုံးပြုခြင်း (Intensity တူညီ)",
+            correctBucketEn: "Increases KEmax",
+            correctBucketMy: "KEmax ကို တိုးစေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w25-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why the Wave Theory of Light Failed",
+      titleMy: "စာဖတ်ခြင်း - အလင်း၏ Wave Theory မှားယွင်းရသည့် အကြောင်းရင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why the Wave Theory of Light Failed",
+        titleMy: "အလင်း၏ Wave Theory မှားယွင်းရသည့် အကြောင်းရင်း",
+        passageEn:
+            "Sayar Zaw Min set up a gold-leaf electroscope with a freshly cleaned zinc plate on top and shone ultraviolet light onto it, watching the leaf collapse as the plate lost negative charge -- a classic photoelectric-effect demonstration. He asked Htet Aung and Su Su why the old wave theory of light, which had explained reflection, refraction and diffraction beautifully, completely failed to explain what they had just watched.\n\nAccording to wave theory, Su Su reasoned aloud, a dim UV light should simply take longer to build up enough energy at the metal's surface before finally ejecting an electron -- yet real experiments show emission is essentially instantaneous, however dim the light, provided its frequency is above threshold. Htet Aung added the second failure: wave theory predicted that a bright enough light of any frequency should eventually eject electrons, but experiment after experiment showed a hard threshold frequency below which absolutely no electrons were released, no matter how intense the light.\n\nSayar Zaw Min explained that Einstein resolved both puzzles at once in 1905 by proposing light itself is quantised into discrete photons, each carrying a fixed packet of energy E = hf. A single photon either has enough energy to release an electron immediately (explaining the instant emission) or it does not (explaining the threshold), and no amount of extra dim photons arriving together can pool their energy to make up the difference. Using zinc's UV example with f = 1.5x10¹⁵ Hz and Φ = 4.3x10⁻¹⁹ J, KEmax = hf - Φ = (6.63x10⁻³⁴ x 1.5x10¹⁵) - 4.3x10⁻¹⁹ = 9.945x10⁻¹⁹ - 4.3x10⁻¹⁹ ≈ 5.65x10⁻¹⁹ J -- a single photon delivering exactly enough energy, all at once, to do the job.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် အထက်ပိုင်းတွင် သန့်ရှင်းစွာ ပြုလုပ်ထားသော Zinc Plate ရှိသော Gold-Leaf Electroscope တစ်ခုကို တပ်ဆင်ပြီး Ultraviolet အလင်းရောင်ကို ထိုးလိုက်ကာ Plate သည် Negative Charge ဆုံးရှုံးသွားသောအခါ Leaf ပိတ်သွားသည်ကို ကြည့်ရှုခဲ့သည် -- Classic Photoelectric-Effect Demonstration တစ်ခု ဖြစ်သည်။ Reflection, Refraction နှင့် Diffraction ကို လှပစွာ ရှင်းပြနိုင်ခဲ့သော ဟောင်းနွမ်းသော အလင်း Wave Theory သည် ၎င်းတို့ ယခုတင် ကြည့်ရှုခဲ့သည့် ဖြစ်ရပ်ကို လုံးဝ ရှင်းပြ၍ မရသည့် အကြောင်းရင်းကို Htet Aung နှင့် Su Su ကို မေးမြန်းခဲ့သည်။\n\nWave Theory အရ Su Su က ဟန့်တင်ချက်ရေးသားခဲ့သည် - မှေးမှိန်သော UV အလင်းသည် သတ္တု မျက်နှာပြင်တွင် Electron တစ်ခု လွှတ်ခြင်းမတိုင်မီ Energy လုံလောက်စွာ တည်ဆောက်ရန် ပို၍ ကြာချိန်ယူရမည် -- သို့သော် တကယ့် စမ်းသပ်မှုများက Frequency Threshold ထက် မြင့်ရုံမျှသာ ဆိုလျှင် အလင်း မည်မျှ မှေးမှိန်နေစေကာမူ Emission သည် ချက်ချင်းနီးပါး ဖြစ်ပေါ်ကြောင်း ပြသသည်။ ဒုတိယ ကွဲလွဲချက်ကို Htet Aung က ထပ်ဆောင်းခဲ့သည် - Frequency မည်သည့်တစ်ခုမဆို ရှိသော လုံလောက်စွာ တောက်ပသော အလင်းသည် နောက်ဆုံးတွင် Electron များကို လွှတ်ရမည်ဟု Wave Theory က ခန့်မှန်းခဲ့သော်လည်း ဤအောက်တွင် အလင်း Intensity မည်မျှ မြင့်စေကာမူ Electron လုံးဝ လွှတ်မထုတ်သော ခက်ထန်သော Threshold Frequency တစ်ခုကို စမ်းသပ်မှု တစ်ခုပြီးတစ်ခု ပြသခဲ့သည်။\n\nAlbert Einstein သည် 1905 ခုနှစ်တွင် အလင်းသည် ကိုယ်တိုင် Discrete Photon များအဖြစ် Quantised ဖြစ်နေသည်ဟု အဆိုပြုကာ ပုစ္ဆာနှစ်ခုစလုံးကို တစ်ပြိုင်နက် ဖြေရှင်းခဲ့ကြောင်း ဆရာဇော်မင်းက ရှင်းပြခဲ့သည်၊ Photon တစ်ခုစီသည် E = hf ဟူသော ပုံသေ Energy Packet ကို သယ်ဆောင်ထားသည်။ Photon တစ်ခုတည်းသည် Electron တစ်ခုကို ချက်ချင်း လွှတ်ရန် Energy လုံလောက်ခြင်း (Instant Emission ရှင်းပြသည်) ရှိသည် သို့မဟုတ် မရှိသည် (Threshold ရှင်းပြသည်) ဖြစ်ပြီး မှေးမှိန်သော Photon ထပ်ဆောင်း မည်မျှ ရောက်ရှိစေကာမူ ကွာခြားချက်ကို ဖြည့်ဆည်းရန် ၎င်းတို့၏ Energy ကို ပေါင်းစပ်၍ မရနိုင်ပါ။ f = 1.5x10¹⁵ Hz နှင့် Φ = 4.3x10⁻¹⁹ J ရှိသော Zinc ၏ UV ဥပမာကို အသုံးပြု၍ KEmax = hf - Φ = (6.63x10⁻³⁴ x 1.5x10¹⁵) - 4.3x10⁻¹⁹ = 9.945x10⁻¹⁹ - 4.3x10⁻¹⁹ ≈ 5.65x10⁻¹⁹ J -- Photon တစ်ခုတည်းသည် အလုပ်ကို လုပ်ဆောင်ရန် Energy လုံလောက်စွာကို တစ်ပြိုင်နက် ပေးအပ်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did wave theory fail to explain about photoelectric emission?",
+            questionMy:
+                "Photoelectric Emission အကြောင်း Wave Theory က မည်သည့်အရာကို ရှင်းပြ၍ မရခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The instant emission and the existence of a threshold frequency",
+              "Reflection and refraction",
+              "The colour of visible light",
+              "Diffraction around obstacles",
+            ],
+            optionsMy: [
+              "Instant Emission နှင့် Threshold Frequency ရှိခြင်း",
+              "Reflection နှင့် Refraction",
+              "မြင်နိုင်သော အလင်း၏ အရောင်",
+              "အတားအဆီးများ ပတ်ပတ်လည်ရှိ Diffraction",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first and second paragraphs."],
+            hintsMy: ["ပထမနှင့် ဒုတိယစာပိုဒ်များကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what did Einstein propose in 1905?",
+            questionMy: "1905 ခုနှစ်တွင် Einstein မည်သည်ကို အဆိုပြုခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Light is quantised into discrete photons, each carrying E = hf",
+              "Light is a purely continuous wave with no particle nature",
+              "Electrons have no mass at all",
+              "The work function is always zero",
+            ],
+            optionsMy: [
+              "အလင်းသည် E = hf ကို သယ်ဆောင်ထားသော Discrete Photon များအဖြစ် Quantised ဖြစ်နေသည်",
+              "အလင်းသည် Particle Nature လုံးဝ မရှိသော Purely Continuous Wave ဖြစ်သည်",
+              "Electron များတွင် Mass လုံးဝ မရှိပါ",
+              "Work Function သည် အမြဲ Zero ဖြစ်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is KEmax for the zinc UV example?",
+            questionMy: "Zinc UV ဥပမာအတွက် KEmax ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 5.65 x 10⁻¹⁹ J",
+              "≈ 9.95 x 10⁻¹⁹ J",
+              "≈ 4.30 x 10⁻¹⁹ J",
+              "≈ 1.50 x 10¹⁵ J",
+            ],
+            optionsMy: [
+              "≈ 5.65 x 10⁻¹⁹ J",
+              "≈ 9.95 x 10⁻¹⁹ J",
+              "≈ 4.30 x 10⁻¹⁹ J",
+              "≈ 1.50 x 10¹⁵ J",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w25-d5",
+      dayNumber: 5,
+      titleEn: "Week 25 Recap: The Photoelectric Effect",
+      titleMy: "နှစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Photoelectric Effect",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Einstein's photoelectric equation is hf = Φ +...",
+          questionMy: "Einstein's Photoelectric Equation သည် hf = Φ +...",
+          optionsEn: ["KEmax", "λ", "n", "Q"],
+          optionsMy: ["KEmax", "λ", "n", "Q"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Below the threshold frequency, increasing light intensity causes...",
+          questionMy: "Threshold Frequency အောက်တွင် အလင်း Intensity ကို တိုးမြှင့်ခြင်းက...",
+          optionsEn: [
+            "No photoelectrons at all, regardless of intensity",
+            "More photoelectrons, but with the same low energy",
+            "Fewer photoelectrons",
+            "The metal to become negatively charged instantly",
+          ],
+          optionsMy: [
+            "Intensity မည်မျှ မြင့်စေကာမူ Photoelectron လုံးဝ မထွက်ပါ",
+            "Photoelectron ပိုများပြီး Energy တူညီနိမ့်နေဆဲ",
+            "Photoelectron ပိုနည်းလာသည်",
+            "သတ္တုသည် ချက်ချင်း Negatively Charged ဖြစ်သွားသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The work function Φ represents...",
+          questionMy: "Work Function Φ သည် ကိုယ်စားပြုသည်...",
+          optionsEn: [
+            "The minimum energy needed to release an electron from the metal surface",
+            "The maximum kinetic energy of any photoelectron",
+            "The mass of an electron",
+            "The frequency of visible light only",
+          ],
+          optionsMy: [
+            "သတ္တု မျက်နှာပြင်မှ Electron တစ်ခု လွှတ်ရန် လိုအပ်သော အနည်းဆုံး Energy",
+            "Photoelectron တစ်ခု၏ အများဆုံး Kinetic Energy",
+            "Electron တစ်ခု၏ Mass",
+            "မြင်နိုင်သော အလင်း၏ Frequency သာ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 26: "Photon Energy and Wave-Particle Duality"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek26 = CourseWeekDef(
+  id: "course-y13-phys-w26",
+  weekNumber: 26,
+  titleEn: "Photon Energy and Wave-Particle Duality",
+  titleMy: "Photon Energy နှင့် Wave-Particle Duality",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w26-d1",
+      dayNumber: 1,
+      titleEn: "E = hf and Evidence for Wave-Particle Duality",
+      titleMy: "E = hf နှင့် Wave-Particle Duality ၏ Evidence",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Using E = hf, find the energy of a photon with frequency 6 x 10¹⁴ Hz.",
+          questionMy: "E = hf ကို အသုံးပြု၍ Frequency 6 x 10¹⁴ Hz ရှိသော Photon တစ်ခု၏ Energy ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.98 x 10⁻¹⁹ J",
+            "≈ 6.63 x 10⁻¹⁹ J",
+            "≈ 1.11 x 10⁻¹⁹ J",
+            "≈ 2.39 x 10⁻¹⁸ J",
+          ],
+          optionsMy: [
+            "≈ 3.98 x 10⁻¹⁹ J",
+            "≈ 6.63 x 10⁻¹⁹ J",
+            "≈ 1.11 x 10⁻¹⁹ J",
+            "≈ 2.39 x 10⁻¹⁸ J",
+          ],
+          correctIndex: 0,
+          hintsEn: ["E = hf = 6.63x10⁻³⁴ x 6x10¹⁴ ≈ 3.98x10⁻¹⁹ J."],
+          hintsMy: ["E = hf = 6.63x10⁻³⁴ x 6x10¹⁴ ≈ 3.98x10⁻¹⁹ J ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using E = hc/λ (c = 3 x 10⁸ m s⁻¹), find the energy of a photon with wavelength 5 x 10⁻⁷ m (500 nm).",
+          questionMy:
+              "E = hc/λ (c = 3 x 10⁸ m s⁻¹) ကို အသုံးပြု၍ Wavelength 5 x 10⁻⁷ m (500 nm) ရှိသော Photon တစ်ခု၏ Energy ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.98 x 10⁻¹⁹ J",
+            "≈ 1.99 x 10⁻²⁵ J",
+            "≈ 6.63 x 10⁻²⁷ J",
+            "≈ 5.00 x 10⁻⁷ J",
+          ],
+          optionsMy: [
+            "≈ 3.98 x 10⁻¹⁹ J",
+            "≈ 1.99 x 10⁻²⁵ J",
+            "≈ 6.63 x 10⁻²⁷ J",
+            "≈ 5.00 x 10⁻⁷ J",
+          ],
+          correctIndex: 0,
+          hintsEn: ["E = hc/λ = (6.63x10⁻³⁴ x 3x10⁸)/5x10⁻⁷ ≈ 3.98x10⁻¹⁹ J."],
+          hintsMy: ["E = hc/λ = (6.63x10⁻³⁴ x 3x10⁸)/5x10⁻⁷ ≈ 3.98x10⁻¹⁹ J ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Electron diffraction (producing an interference pattern) provides evidence that...",
+          questionMy: "Electron Diffraction (Interference Pattern ဖြစ်ပေါ်စေခြင်း) သည် ...၏ Evidence ဖြစ်သည်",
+          optionsEn: [
+            "Particles like electrons have wave-like properties",
+            "Electrons have no mass at all",
+            "Light cannot behave as a particle",
+            "Electrons are exactly the same as photons",
+          ],
+          optionsMy: [
+            "Electron ကဲ့သို့ Particle များတွင် Wave-Like Property ရှိကြောင်း",
+            "Electron များတွင် Mass လုံးဝ မရှိကြောင်း",
+            "အလင်းသည် Particle အဖြစ် လုံးဝ ဆက်ဆံ၍ မရကြောင်း",
+            "Electron များသည် Photon များနှင့် အတူတူပင် ဖြစ်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Electron diffraction shows electrons producing interference patterns -- a behaviour only waves exhibit -- providing direct experimental evidence that particles have wave properties too.",
+          ],
+          hintsMy: [
+            "Electron Diffraction က Electron များသည် Interference Pattern ဖြစ်ပေါ်စေကြောင်း ပြသသည် -- ၎င်းသည် Wave များသာ ပြသနိုင်သော အပြုအမူ ဖြစ်ပြီး Particle များတွင်ပါ Wave Property ရှိကြောင်း တိုက်ရိုက် စမ်းသပ်မှု Evidence ကို ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w26-d2",
+      dayNumber: 2,
+      titleEn: "Match: Wave-Particle Duality Terms",
+      titleMy: "တွဲစပ်ကြမည် - Wave-Particle Duality ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w26-dm-1",
+          termEn: "E = hf",
+          termMy: "E = hf",
+          matchEn: "Photon energy formula (frequency form)",
+          matchMy: "Photon Energy ဖော်မြူလာ (Frequency ပုံစံ)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w26-dm-2",
+          termEn: "E = hc/λ",
+          termMy: "E = hc/λ",
+          matchEn: "Photon energy formula (wavelength form)",
+          matchMy: "Photon Energy ဖော်မြူလာ (Wavelength ပုံစံ)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w26-dm-3",
+          termEn: "Wave-particle duality",
+          termMy: "Wave-Particle Duality",
+          matchEn: "Light and matter both show wave-like and particle-like behaviour",
+          matchMy: "အလင်းနှင့် Matter နှစ်ခုစလုံးတွင် Wave-Like နှင့် Particle-Like အပြုအမူ ရှိသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w26-dm-4",
+          termEn: "Electron diffraction",
+          termMy: "Electron Diffraction",
+          matchEn: "Experimental evidence that electrons behave as waves",
+          matchMy: "Electron များသည် Wave များအဖြစ် ဆက်ဆံကြောင်း Experimental Evidence",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w26-dm-5",
+          termEn: "Photoelectric effect",
+          termMy: "Photoelectric Effect",
+          matchEn: "Experimental evidence that light behaves as particles (photons)",
+          matchMy: "အလင်းသည် Particle (Photon) များအဖြစ် ဆက်ဆံကြောင်း Experimental Evidence",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w26-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Evidence for Wave or Particle Behaviour?",
+      titleMy: "စီစစ်ကြမည် - Wave Behaviour Evidence လား၊ Particle Behaviour Evidence လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Evidence for Wave Behaviour", "Evidence for Particle Behaviour"],
+        bucketsMy: ["Wave Behaviour Evidence", "Particle Behaviour Evidence"],
+        items: [
+          SortingItem(
+            id: "y13phys-w26-sort-1",
+            labelEn: "Electron diffraction pattern through a thin metal film",
+            labelMy: "သတ္တု Film ပါးပါးတစ်ခုကို ဖြတ်သန်းသော Electron Diffraction Pattern",
+            correctBucketEn: "Evidence for Wave Behaviour",
+            correctBucketMy: "Wave Behaviour Evidence",
+          ),
+          SortingItem(
+            id: "y13phys-w26-sort-2",
+            labelEn: "The photoelectric effect's instant emission and threshold frequency",
+            labelMy: "Photoelectric Effect ၏ Instant Emission နှင့် Threshold Frequency",
+            correctBucketEn: "Evidence for Particle Behaviour",
+            correctBucketMy: "Particle Behaviour Evidence",
+          ),
+          SortingItem(
+            id: "y13phys-w26-sort-3",
+            labelEn: "Light diffracting around an obstacle",
+            labelMy: "အတားအဆီးတစ်ခု ပတ်ပတ်လည်ရှိ အလင်း Diffraction",
+            correctBucketEn: "Evidence for Wave Behaviour",
+            correctBucketMy: "Wave Behaviour Evidence",
+          ),
+          SortingItem(
+            id: "y13phys-w26-sort-4",
+            labelEn: "A photon transferring energy hf in one discrete packet to a single electron",
+            labelMy: "Photon တစ်ခုသည် Electron တစ်ခုသို့ hf ကို Discrete Packet တစ်ခုအဖြစ် လွှဲပြောင်းခြင်း",
+            correctBucketEn: "Evidence for Particle Behaviour",
+            correctBucketMy: "Particle Behaviour Evidence",
+          ),
+          SortingItem(
+            id: "y13phys-w26-sort-5",
+            labelEn: "Electrons producing an interference pattern in a double-slit-style experiment",
+            labelMy: "Double-Slit-Style စမ်းသပ်မှုတစ်ခုတွင် Interference Pattern ဖြစ်ပေါ်စေသော Electron များ",
+            correctBucketEn: "Evidence for Wave Behaviour",
+            correctBucketMy: "Wave Behaviour Evidence",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w26-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Electron Microscope",
+      titleMy: "စာဖတ်ခြင်း - Electron Microscope",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Electron Microscope",
+        titleMy: "Electron Microscope",
+        passageEn:
+            "Sayama Moe Moe Aye showed her class photographs taken with an electron microscope, resolving detail far finer than any ordinary light microscope could ever manage -- individual virus particles, even the arrangement of atoms on a crystal surface. Su Su asked how a beam of electrons could possibly take a photograph at all.\n\nSayama Moe Moe Aye explained that the technique relies directly on wave-particle duality: just as the Davisson-Germer experiment first confirmed by firing electrons at a nickel crystal and observing a diffraction pattern -- exactly the behaviour expected of waves, not tiny billiard balls -- a beam of electrons in a microscope behaves as a wave with its own characteristic wavelength, and that wavelength is what ultimately limits how much detail the instrument can resolve.\n\nThe key advantage over a light microscope, she said, is that a fast-moving electron's wavelength turns out to be thousands of times shorter than that of visible light, letting an electron microscope resolve details visible light's much longer wavelength could never distinguish. Next week's lesson, she promised, would show exactly how to calculate that electron wavelength using the de Broglie relationship -- turning today's qualitative story about waves and particles into hard numbers.",
+        passageMy:
+            "ဆရာမ မိုမိုအေးသည် Electron Microscope ဖြင့် ရိုက်ကူးထားသော ဓာတ်ပုံများကို သူမ၏ အတန်းကို ပြသခဲ့ပြီး ရိုးရိုး Light Microscope တစ်ခုက ဘယ်တော့မှ မဖြစ်နိုင်လောက်အောင် အလွန်သေးငယ်သော အသေးစိတ်ကို ဖြေရှင်းနိုင်ခဲ့သည် -- Virus Particle တစ်ခုချင်းစီပင်၊ Crystal မျက်နှာပြင်ပေါ်ရှိ Atom များ ပြင်ဆင်ထားပုံပင် ဖြစ်သည်။ Electron Beam တစ်ခုသည် ဓာတ်ပုံတစ်ခုကို မည်သို့ ရိုက်နိုင်သည်ကို Su Su မေးမြန်းခဲ့သည်။\n\nဤ Technique သည် Wave-Particle Duality ပေါ် တိုက်ရိုက် မှီခိုနေကြောင်း ဆရာမ မိုမိုအေး ရှင်းပြခဲ့သည် - Davisson-Germer စမ်းသပ်မှုသည် Nickel Crystal ကို Electron များ ပစ်ခတ်ကာ Diffraction Pattern ကို ဦးဆုံး တွေ့ရှိခဲ့ပုံနှင့် အတိအကျ -- ၎င်းသည် Wave များသာ ပြသနိုင်သော အပြုအမူ ဖြစ်ပြီး သေးငယ်သော Billiard Ball များ ပြသနိုင်သော အပြုအမူ မဟုတ်ပါ -- Microscope တစ်ခုရှိ Electron Beam သည် ၎င်းကိုယ်ပိုင် Characteristic Wavelength ရှိသော Wave တစ်ခုကဲ့သို့ ဆက်ဆံပြီး ထို Wavelength သည် Instrument ဖြေရှင်းနိုင်သော အသေးစိတ် ပမာဏကို နောက်ဆုံး ကန့်သတ်ပေးသည်။\n\nLight Microscope ထက် အဓိက အားသာချက်မှာ လျင်မြန်စွာ ရွေ့လျားနေသော Electron တစ်ခု၏ Wavelength သည် မြင်နိုင်သော အလင်း၏ Wavelength ထက် အဆများစွာ ပိုတိုသောကြောင့် Electron Microscope သည် မြင်နိုင်သော အလင်း၏ ရှည်လျားလွန်းသော Wavelength က ဘယ်တော့မှ ခွဲခြား၍ မရသော အသေးစိတ်ကို ဖြေရှင်းနိုင်ခြင်း ဖြစ်ကြောင်း သူမ ဆိုခဲ့သည်။ De Broglie Relationship ကို အသုံးပြု၍ ထို Electron Wavelength ကို မည်သို့ တွက်ချက်ရသည်ကို နောက်အပတ်တွင် ပြသမည်ဟု သူမ ကတိပေးခဲ့ပြီး ယနေ့ Wave နှင့် Particle အကြောင်း Qualitative ပုံပြင်ကို ဂဏန်း တိကျသော အချက်များအဖြစ် ပြောင်းလဲပေးမည် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what did the Davisson-Germer experiment observe?",
+            questionMy: "Davisson-Germer စမ်းသပ်မှုက မည်သည်ကို တွေ့ရှိခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A diffraction pattern from electrons fired at a nickel crystal",
+              "That electrons have no wave properties whatsoever",
+              "That light cannot diffract at all",
+              "That electrons are heavier than protons",
+            ],
+            optionsMy: [
+              "Nickel Crystal ကို ပစ်ခတ်သော Electron များမှ Diffraction Pattern",
+              "Electron များတွင် Wave Property လုံးဝ မရှိကြောင်း",
+              "အလင်းသည် လုံးဝ Diffract မဖြစ်နိုင်ကြောင်း",
+              "Electron များသည် Proton များထက် ပိုလေးလံကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why can an electron microscope resolve finer detail than a light microscope?",
+            questionMy:
+                "Electron Microscope သည် Light Microscope ထက် ပို၍ သေးငယ်သော အသေးစိတ်ကို အဘယ်ကြောင့် ဖြေရှင်းနိုင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A fast electron's wavelength is thousands of times shorter than visible light",
+              "Electron microscopes use no waves at all",
+              "Light microscopes have no wavelength limitation",
+              "Electrons travel slower than light",
+            ],
+            optionsMy: [
+              "လျင်မြန်သော Electron ၏ Wavelength သည် မြင်နိုင်သော အလင်းထက် အဆထောင်ချီ ပိုတိုသောကြောင့်",
+              "Electron Microscope များတွင် Wave လုံးဝ အသုံးမပြုသောကြောင့်",
+              "Light Microscope များတွင် Wavelength ကန့်သတ်ချက် လုံးဝ မရှိသောကြောင့်",
+              "Electron များသည် အလင်းထက် ပိုနှေးစွာ ရွေ့လျားသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what will next week's lesson calculate?",
+            questionMy: "နောက်အပတ် သင်ခန်းစာက မည်သည်ကို တွက်ချက်မည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The electron wavelength using the de Broglie relationship",
+              "The colour of an electron",
+              "The mass of a photon",
+              "The work function of nickel",
+            ],
+            optionsMy: [
+              "De Broglie Relationship ကို အသုံးပြု၍ Electron Wavelength",
+              "Electron တစ်ခု၏ အရောင်",
+              "Photon တစ်ခု၏ Mass",
+              "Nickel ၏ Work Function",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w26-d5",
+      dayNumber: 5,
+      titleEn: "Week 26 Recap: Photon Energy and Duality",
+      titleMy: "နှစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Photon Energy နှင့် Duality",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "E = hf calculates the energy of a...",
+          questionMy: "E = hf သည် ...တစ်ခု၏ Energy ကို တွက်ချက်ပေးသည်",
+          optionsEn: ["Photon", "Nucleus", "Capacitor", "Resistor"],
+          optionsMy: ["Photon", "Nucleus", "Capacitor", "Resistor"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Electron diffraction provides evidence that particles have...",
+          questionMy: "Electron Diffraction သည် Particle များတွင် ...ရှိကြောင်း Evidence ပေးသည်",
+          optionsEn: [
+            "Wave-like properties",
+            "No properties at all",
+            "Infinite mass",
+            "Zero energy",
+          ],
+          optionsMy: ["Wave-Like Property", "Property လုံးဝ မရှိပါ", "Infinite Mass", "Zero Energy"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The photoelectric effect provides evidence that light behaves as...",
+          questionMy: "Photoelectric Effect သည် အလင်း ...အဖြစ် ဆက်ဆံကြောင်း Evidence ပေးသည်",
+          optionsEn: [
+            "Discrete particles (photons)",
+            "A purely continuous wave only",
+            "A magnetic field",
+            "An electric current",
+          ],
+          optionsMy: [
+            "Discrete Particle (Photon) များ",
+            "Purely Continuous Wave တစ်ခုတည်း",
+            "Magnetic Field",
+            "Electric Current",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 27: "The de Broglie Wavelength"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek27 = CourseWeekDef(
+  id: "course-y13-phys-w27",
+  weekNumber: 27,
+  titleEn: "The de Broglie Wavelength",
+  titleMy: "de Broglie Wavelength",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w27-d1",
+      dayNumber: 1,
+      titleEn: "λ = h/p and Particle Momentum",
+      titleMy: "λ = h/p နှင့် Particle Momentum",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using λ = h/p, find the de Broglie wavelength of an electron with momentum p = 2 x 10⁻²⁴ kg m s⁻¹.",
+          questionMy:
+              "λ = h/p ကို အသုံးပြု၍ Momentum p = 2 x 10⁻²⁴ kg m s⁻¹ ရှိသော Electron တစ်ခု၏ de Broglie Wavelength ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.32 x 10⁻¹⁰ m",
+            "≈ 1.33 x 10⁻¹⁰ m",
+            "≈ 2.00 x 10⁻²⁴ m",
+            "≈ 6.63 x 10⁻³⁴ m",
+          ],
+          optionsMy: [
+            "≈ 3.32 x 10⁻¹⁰ m",
+            "≈ 1.33 x 10⁻¹⁰ m",
+            "≈ 2.00 x 10⁻²⁴ m",
+            "≈ 6.63 x 10⁻³⁴ m",
+          ],
+          correctIndex: 0,
+          hintsEn: ["λ = h/p = 6.63x10⁻³⁴/2x10⁻²⁴ ≈ 3.32x10⁻¹⁰ m."],
+          hintsMy: ["λ = h/p = 6.63x10⁻³⁴/2x10⁻²⁴ ≈ 3.32x10⁻¹⁰ m ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using p = mv, find the de Broglie wavelength of an electron (m = 9.11 x 10⁻³¹ kg) moving at v = 2 x 10⁶ m s⁻¹.",
+          questionMy:
+              "p = mv ကို အသုံးပြု၍ v = 2 x 10⁶ m s⁻¹ ဖြင့် ရွေ့လျားနေသော Electron (m = 9.11 x 10⁻³¹ kg) ၏ de Broglie Wavelength ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 3.64 x 10⁻¹⁰ m",
+            "≈ 1.82 x 10⁻²⁴ m",
+            "≈ 9.11 x 10⁻³¹ m",
+            "≈ 6.63 x 10⁻³⁴ m",
+          ],
+          optionsMy: [
+            "≈ 3.64 x 10⁻¹⁰ m",
+            "≈ 1.82 x 10⁻²⁴ m",
+            "≈ 9.11 x 10⁻³¹ m",
+            "≈ 6.63 x 10⁻³⁴ m",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "p = mv = 9.11x10⁻³¹ x 2x10⁶ ≈ 1.82x10⁻²⁴ kg m s⁻¹, then λ = h/p = 6.63x10⁻³⁴/1.82x10⁻²⁴ ≈ 3.64x10⁻¹⁰ m.",
+          ],
+          hintsMy: [
+            "p = mv = 9.11x10⁻³¹ x 2x10⁶ ≈ 1.82x10⁻²⁴ kg m s⁻¹ ဖြစ်ပြီး λ = h/p = 6.63x10⁻³⁴/1.82x10⁻²⁴ ≈ 3.64x10⁻¹⁰ m ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "As the momentum of a particle increases, its de Broglie wavelength...",
+          questionMy: "Particle တစ်ခု၏ Momentum တိုးလာသည်နှင့်အမျှ ၎င်း၏ de Broglie Wavelength သည်...",
+          optionsEn: ["Decreases", "Increases", "Stays the same", "Becomes negative"],
+          optionsMy: ["လျော့ကျသည်", "တိုးလာသည်", "မပြောင်းလဲပါ", "Negative ဖြစ်သွားသည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "λ = h/p shows wavelength is inversely proportional to momentum -- a faster or heavier particle has a shorter de Broglie wavelength.",
+          ],
+          hintsMy: [
+            "λ = h/p က Wavelength သည် Momentum နှင့် Inversely Proportional ဖြစ်ကြောင်း ပြသသည် -- ပို၍ မြန်ဆန် (သို့) လေးလံသော Particle တစ်ခုသည် ပိုတိုသော de Broglie Wavelength ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w27-d2",
+      dayNumber: 2,
+      titleEn: "Match: de Broglie Wavelength Terms",
+      titleMy: "တွဲစပ်ကြမည် - de Broglie Wavelength ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w27-dm-1",
+          termEn: "λ = h/p",
+          termMy: "λ = h/p",
+          matchEn: "de Broglie wavelength formula",
+          matchMy: "de Broglie Wavelength ဖော်မြူလာ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w27-dm-2",
+          termEn: "p = mv",
+          termMy: "p = mv",
+          matchEn: "Momentum formula (non-relativistic)",
+          matchMy: "Momentum ဖော်မြူလာ (Non-Relativistic)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w27-dm-3",
+          termEn: "de Broglie wavelength",
+          termMy: "de Broglie Wavelength",
+          matchEn: "Wavelength associated with any moving particle",
+          matchMy: "ရွေ့လျားနေသော Particle မည်သည်နှင့်မဆို ဆက်စပ်နေသော Wavelength",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w27-dm-4",
+          termEn: "Larger momentum",
+          termMy: "Momentum ပိုကြီးခြင်း",
+          matchEn: "Shorter de Broglie wavelength",
+          matchMy: "ပိုတိုသော de Broglie Wavelength",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w27-dm-5",
+          termEn: "Electron microscope",
+          termMy: "Electron Microscope",
+          matchEn: "Real device exploiting electrons' very short de Broglie wavelength",
+          matchMy: "Electron ၏ အလွန်တိုသော de Broglie Wavelength ကို အသုံးချသော တကယ့် Device",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w27-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Shorter or Longer de Broglie Wavelength?",
+      titleMy: "စီစစ်ကြမည် - de Broglie Wavelength ပိုတိုသလား၊ ပိုရှည်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Shorter de Broglie Wavelength",
+          "Longer de Broglie Wavelength",
+        ],
+        bucketsMy: [
+          "de Broglie Wavelength ပိုတိုသည်",
+          "de Broglie Wavelength ပိုရှည်သည်",
+        ],
+        items: [
+          SortingItem(
+            id: "y13phys-w27-sort-1",
+            labelEn: "Increasing a particle's speed (mass unchanged)",
+            labelMy: "Particle ၏ Speed ကို တိုးမြှင့်ခြင်း (Mass မပြောင်းလဲပါ)",
+            correctBucketEn: "Shorter de Broglie Wavelength",
+            correctBucketMy: "de Broglie Wavelength ပိုတိုသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w27-sort-2",
+            labelEn: "Decreasing a particle's speed (mass unchanged)",
+            labelMy: "Particle ၏ Speed ကို လျော့ချခြင်း (Mass မပြောင်းလဲပါ)",
+            correctBucketEn: "Longer de Broglie Wavelength",
+            correctBucketMy: "de Broglie Wavelength ပိုရှည်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w27-sort-3",
+            labelEn: "Using a heavier particle at the same speed",
+            labelMy: "Speed တူညီဖြင့် ပိုလေးလံသော Particle အသုံးပြုခြင်း",
+            correctBucketEn: "Shorter de Broglie Wavelength",
+            correctBucketMy: "de Broglie Wavelength ပိုတိုသည်",
+          ),
+          SortingItem(
+            id: "y13phys-w27-sort-4",
+            labelEn: "Using a lighter particle at the same speed",
+            labelMy: "Speed တူညီဖြင့် ပိုပေါ့ပါးသော Particle အသုံးပြုခြင်း",
+            correctBucketEn: "Longer de Broglie Wavelength",
+            correctBucketMy: "de Broglie Wavelength ပိုရှည်သည်",
+          ),
+          SortingItem(
+            id: "y13phys-w27-sort-5",
+            labelEn: "Increasing a particle's momentum",
+            labelMy: "Particle ၏ Momentum ကို တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Shorter de Broglie Wavelength",
+            correctBucketMy: "de Broglie Wavelength ပိုတိုသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w27-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Calculating an Electron Microscope's Wavelength",
+      titleMy: "စာဖတ်ခြင်း - Electron Microscope ၏ Wavelength ကို တွက်ချက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Calculating an Electron Microscope's Wavelength",
+        titleMy: "Electron Microscope ၏ Wavelength ကို တွက်ချက်ခြင်း",
+        passageEn:
+            "True to Sayama Moe Moe Aye's promise from last week, Htet Aung now had the tools to calculate exactly how short an electron microscope's wavelength really is. Electrons inside the microscope are accelerated to a speed of v = 5x10⁷ m s⁻¹ before striking the sample.\n\nFirst he found the electron's momentum: p = mv = 9.11x10⁻³¹ x 5x10⁷ ≈ 4.56x10⁻²³ kg m s⁻¹. Then, using λ = h/p: λ = 6.63x10⁻³⁴/4.56x10⁻²³ ≈ 1.46x10⁻¹¹ m -- about 14.6 picometres.\n\nHtet Aung compared this to visible light's wavelength, roughly 5x10⁻⁷ m (500 nm): the electron's de Broglie wavelength is over 30000 times shorter. Since the finest detail an imaging instrument can resolve is fundamentally limited by the wavelength it uses, this dramatic difference is exactly why an electron microscope can image individual atoms while even the best light microscope cannot -- a striking, concrete payoff of the abstract-sounding idea that a moving electron behaves like a wave at all.",
+        passageMy:
+            "ဆရာမ မိုမိုအေးက ယခင်အပတ်က ပေးထားသော ကတိအတိုင်း Electron Microscope တစ်ခု၏ Wavelength တကယ်တမ်း မည်မျှ တိုသည်ကို တွက်ချက်ရန် Htet Aung လက်ဝယ် Tool ရှိလာခဲ့သည်။ Microscope အတွင်းရှိ Electron များသည် Sample ကို မထိမီ v = 5x10⁷ m s⁻¹ Speed အထိ Accelerate ဖြစ်သည်။\n\nဦးစွာ Electron ၏ Momentum ကို ရှာဖွေခဲ့သည် - p = mv = 9.11x10⁻³¹ x 5x10⁷ ≈ 4.56x10⁻²³ kg m s⁻¹ ။ ထို့နောက် λ = h/p ကို အသုံးပြု၍ - λ = 6.63x10⁻³⁴/4.56x10⁻²³ ≈ 1.46x10⁻¹¹ m -- Picometre 14.6 ခန့် ဖြစ်သည်။\n\nHtet Aung သည် ၎င်းကို မြင်နိုင်သော အလင်း၏ Wavelength ခန့်မှန်း 5x10⁻⁷ m (500 nm) နှင့် နှိုင်းယှဉ်ခဲ့သည် - Electron ၏ de Broglie Wavelength သည် 30000 ဆကျော် ပိုတိုသည်။ Imaging Instrument တစ်ခု ဖြေရှင်းနိုင်သော အသေးဆုံး အသေးစိတ်သည် ၎င်း အသုံးပြုသော Wavelength ဖြင့် အခြေခံအားဖြင့် ကန့်သတ်ခံရသောကြောင့် ဤ ထင်ရှားသော ကွာခြားချက်သည် Electron Microscope တစ်ခုက Light Microscope အကောင်းဆုံးပင် မတတ်နိုင်သော Atom တစ်ခုချင်းစီကို Image ရိုက်နိုင်သည့် အကြောင်းရင်း အတိအကျ ဖြစ်သည် -- ရွေ့လျားနေသော Electron တစ်ခု Wave တစ်ခုကဲ့သို့ ဆက်ဆံသည်ဟူသော Abstract Idea ၏ ထင်ရှားပြီး တိကျသော အကျိုးရလဒ် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the de Broglie wavelength of the electron microscope's electrons?",
+            questionMy:
+                "Electron Microscope ၏ Electron များ၏ de Broglie Wavelength ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 1.46 x 10⁻¹¹ m",
+              "≈ 5.00 x 10⁻⁷ m",
+              "≈ 4.56 x 10⁻²³ m",
+              "≈ 9.11 x 10⁻³¹ m",
+            ],
+            optionsMy: [
+              "≈ 1.46 x 10⁻¹¹ m",
+              "≈ 5.00 x 10⁻⁷ m",
+              "≈ 4.56 x 10⁻²³ m",
+              "≈ 9.11 x 10⁻³¹ m",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, roughly how much shorter is the electron's wavelength than visible light's?",
+            questionMy:
+                "Electron ၏ Wavelength သည် မြင်နိုင်သော အလင်းထက် ခန့်မှန်းအားဖြင့် မည်မျှ ပိုတိုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Over 30000 times shorter",
+              "About 10 times shorter",
+              "Exactly the same length",
+              "Longer, not shorter",
+            ],
+            optionsMy: [
+              "30000 ဆကျော် ပိုတိုသည်",
+              "10 ဆခန့် ပိုတိုသည်",
+              "အတိအကျ အလျား တူညီသည်",
+              "ပိုတိုမည့်အစား ပိုရှည်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what fundamentally limits how much detail an imaging instrument can resolve?",
+            questionMy:
+                "Imaging Instrument တစ်ခု ဖြေရှင်းနိုင်သော အသေးစိတ်ကို အခြေခံအားဖြင့် မည်သည်က ကန့်သတ်သည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The wavelength it uses",
+              "The colour of the sample only",
+              "The instrument's weight",
+              "The temperature of the room",
+            ],
+            optionsMy: ["အသုံးပြုသော Wavelength", "Sample ၏ အရောင်သာ", "Instrument ၏ အလေးချိန်", "အခန်း၏ Temperature"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w27-d5",
+      dayNumber: 5,
+      titleEn: "Week 27 Recap: The de Broglie Wavelength",
+      titleMy: "နှစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - de Broglie Wavelength",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "λ = h/p relates de Broglie wavelength to a particle's...",
+          questionMy: "λ = h/p သည် de Broglie Wavelength ကို Particle တစ်ခု၏ ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: ["Momentum", "Charge", "Temperature", "Colour"],
+          optionsMy: ["Momentum", "Charge", "Temperature", "အရောင်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Increasing a particle's momentum...",
+          questionMy: "Particle တစ်ခု၏ Momentum ကို တိုးမြှင့်ခြင်းက...",
+          optionsEn: [
+            "Decreases its de Broglie wavelength",
+            "Increases its de Broglie wavelength",
+            "Has no effect on wavelength at all",
+            "Makes the wavelength negative",
+          ],
+          optionsMy: [
+            "de Broglie Wavelength ကို လျော့ချသည်",
+            "de Broglie Wavelength ကို တိုးမြှင့်သည်",
+            "Wavelength ပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+            "Wavelength ကို Negative ဖြစ်စေသည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn:
+              "Electron microscopes achieve higher resolution than optical microscopes because electrons have...",
+          questionMy: "Electron Microscope များသည် Optical Microscope များထက် Resolution ပိုမြင့်သည်မှာ Electron များတွင် ...ရှိသောကြောင့်",
+          optionsEn: [
+            "Much shorter de Broglie wavelengths than visible light",
+            "No wavelength at all",
+            "Much longer wavelengths than visible light",
+            "No mass at all",
+          ],
+          optionsMy: [
+            "မြင်နိုင်သော အလင်းထက် များစွာ ပိုတိုသော de Broglie Wavelength",
+            "Wavelength လုံးဝ မရှိပါ",
+            "မြင်နိုင်သော အလင်းထက် များစွာ ပိုရှည်သော Wavelength",
+            "Mass လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 28: "Atomic Energy Levels and Line Spectra" (boss week)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13PhysWeek28 = CourseWeekDef(
+  id: "course-y13-phys-w28",
+  weekNumber: 28,
+  titleEn: "Atomic Energy Levels and Line Spectra",
+  titleMy: "Atomic Energy Levels နှင့် Line Spectra",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-phys-w28-d1",
+      dayNumber: 1,
+      titleEn: "hf = E1 - E2 and Discrete Energy Levels",
+      titleMy: "hf = E1 - E2 နှင့် Discrete Energy Levels",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An electron transitions between energy levels E1 = -1.5 x 10⁻¹⁸ J and E2 = -3.4 x 10⁻¹⁹ J, emitting a photon. Using hf = |E1 - E2|, find the photon's frequency.",
+          questionMy:
+              "Electron တစ်ခုသည် Energy Level E1 = -1.5 x 10⁻¹⁸ J နှင့် E2 = -3.4 x 10⁻¹⁹ J ကြား Transition ဖြစ်ကာ Photon တစ်ခု ထုတ်လွှတ်သည်။ hf = |E1 - E2| ကို အသုံးပြု၍ Photon ၏ Frequency ကို ရှာပါ။",
+          optionsEn: [
+            "≈ 1.75 x 10¹⁵ Hz",
+            "≈ 1.16 x 10⁻¹⁸ Hz",
+            "≈ 6.63 x 10⁻³⁴ Hz",
+            "≈ 3.40 x 10¹⁴ Hz",
+          ],
+          optionsMy: [
+            "≈ 1.75 x 10¹⁵ Hz",
+            "≈ 1.16 x 10⁻¹⁸ Hz",
+            "≈ 6.63 x 10⁻³⁴ Hz",
+            "≈ 3.40 x 10¹⁴ Hz",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ΔE = |E1 - E2| = 1.16x10⁻¹⁸ J, then f = ΔE/h = 1.16x10⁻¹⁸/6.63x10⁻³⁴ ≈ 1.75x10¹⁵ Hz.",
+          ],
+          hintsMy: [
+            "ΔE = |E1 - E2| = 1.16x10⁻¹⁸ J ဖြစ်ပြီး f = ΔE/h = 1.16x10⁻¹⁸/6.63x10⁻³⁴ ≈ 1.75x10¹⁵ Hz ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Atomic energy levels are...",
+          questionMy: "Atomic Energy Level များသည်...",
+          optionsEn: [
+            "Discrete (quantised) -- only specific fixed values are allowed",
+            "Continuous -- any energy value is allowed",
+            "Always exactly zero",
+            "Random and unpredictable each time",
+          ],
+          optionsMy: [
+            "Discrete (Quantised) -- သီးခြား ပုံသေ တန်ဖိုးများသာ ခွင့်ပြုသည်",
+            "Continuous -- Energy တန်ဖိုး မည်သည်ကိုမဆို ခွင့်ပြုသည်",
+            "အမြဲ Zero အတိအကျ",
+            "အကြိမ်တိုင်း Random ဖြစ်ပြီး ခန့်မှန်း၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Atomic energy levels are quantised -- an electron bound to an atom can only exist at specific discrete energy values, never anything in between, which is why atomic spectra show sharp lines rather than a continuous spread of colours.",
+          ],
+          hintsMy: [
+            "Atomic Energy Level များသည် Quantised ဖြစ်သည် -- Atom တစ်ခုနှင့် ချည်နှောင်ထားသော Electron တစ်ခုသည် သီးခြား Discrete Energy တန်ဖိုးများတွင်သာ ရှိနိုင်ပြီး ကြားထဲရှိ မည်သည့်တန်ဖိုးမျှ လုံးဝ မဖြစ်နိုင်ပါ -- ထို့ကြောင့် Atomic Spectra များသည် Continuous အရောင် ပြန့်ကားမှုအစား ထက်မြက်သော Line များကို ပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A line emission spectrum consists of...",
+          questionMy: "Line Emission Spectrum တစ်ခုသည် ...ဖြင့် ဖွဲ့စည်းထားသည်",
+          optionsEn: [
+            "Discrete bright lines at specific wavelengths",
+            "A single continuous smear of every colour",
+            "Only invisible infrared light",
+            "Completely random noise with no pattern",
+          ],
+          optionsMy: [
+            "သီးခြား Wavelength များတွင် Discrete တောက်ပ Line များ",
+            "အရောင်တိုင်း Continuous ဖြစ်နေသော အနှစ်တစ်ခုတည်း",
+            "မမြင်ရသော Infrared အလင်းသာ",
+            "Pattern လုံးဝ မရှိသော လုံးဝ Random Noise",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each bright line in an emission spectrum corresponds to a photon of one specific frequency (hf = energy difference) released as an electron drops from a higher to a lower discrete energy level -- different transitions produce different lines.",
+          ],
+          hintsMy: [
+            "Emission Spectrum ရှိ တောက်ပ Line တစ်ခုစီသည် Electron တစ်ခု Higher Energy Level မှ Lower Discrete Energy Level သို့ ကျဆင်းသောအခါ လွှတ်ချသော Frequency အတိအကျ တစ်ခု (hf = Energy Difference) ရှိသော Photon တစ်ခုနှင့် ကိုက်ညီသည် -- Transition ကွဲပြားလျှင် Line ကွဲပြားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w28-d2",
+      dayNumber: 2,
+      titleEn: "Match: Atomic Spectra Terms",
+      titleMy: "တွဲစပ်ကြမည် - Atomic Spectra ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13phys-w28-dm-1",
+          termEn: "hf = E1 - E2",
+          termMy: "hf = E1 - E2",
+          matchEn: "Photon energy equals the energy difference between two atomic levels",
+          matchMy: "Photon Energy သည် Atomic Level နှစ်ခုကြား Energy Difference နှင့် ညီမျှသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13phys-w28-dm-2",
+          termEn: "Discrete energy levels",
+          termMy: "Discrete Energy Level များ",
+          matchEn: "Only specific fixed energy values are allowed in an atom",
+          matchMy: "Atom တစ်ခုအတွင်း သီးခြား ပုံသေ Energy တန်ဖိုးများသာ ခွင့်ပြုသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13phys-w28-dm-3",
+          termEn: "Emission spectrum",
+          termMy: "Emission Spectrum",
+          matchEn: "Bright lines produced when electrons drop to lower energy levels",
+          matchMy: "Electron များသည် Lower Energy Level သို့ ကျဆင်းသောအခါ ဖြစ်ပေါ်သော တောက်ပ Line များ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13phys-w28-dm-4",
+          termEn: "Absorption spectrum",
+          termMy: "Absorption Spectrum",
+          matchEn: "Dark lines produced when electrons absorb photons and jump to higher levels",
+          matchMy: "Electron များသည် Photon စုပ်ယူပြီး Higher Level သို့ ခုန်တက်သောအခါ ဖြစ်ပေါ်သော အမှောင် Line များ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13phys-w28-dm-5",
+          termEn: "Ground state",
+          termMy: "Ground State",
+          matchEn: "The lowest possible energy level of an atom",
+          matchMy: "Atom တစ်ခု၏ ဖြစ်နိုင်ဆုံး အနိမ့်ဆုံး Energy Level",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w28-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Emission Spectrum or Absorption Spectrum?",
+      titleMy: "စီစစ်ကြမည် - Emission Spectrum လား၊ Absorption Spectrum လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Emission Spectrum", "Absorption Spectrum"],
+        bucketsMy: ["Emission Spectrum", "Absorption Spectrum"],
+        items: [
+          SortingItem(
+            id: "y13phys-w28-sort-1",
+            labelEn: "Produces bright lines against a dark background",
+            labelMy: "အမှောင် Background အပေါ် တောက်ပ Line များ ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Emission Spectrum",
+            correctBucketMy: "Emission Spectrum",
+          ),
+          SortingItem(
+            id: "y13phys-w28-sort-2",
+            labelEn: "Produces dark lines against a bright continuous background",
+            labelMy: "တောက်ပ Continuous Background အပေါ် အမှောင် Line များ ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Absorption Spectrum",
+            correctBucketMy: "Absorption Spectrum",
+          ),
+          SortingItem(
+            id: "y13phys-w28-sort-3",
+            labelEn: "Electrons drop from a higher energy level to a lower one, releasing a photon",
+            labelMy: "Electron များသည် Higher Energy Level မှ Lower Energy Level သို့ ကျဆင်းကာ Photon လွှတ်သည်",
+            correctBucketEn: "Emission Spectrum",
+            correctBucketMy: "Emission Spectrum",
+          ),
+          SortingItem(
+            id: "y13phys-w28-sort-4",
+            labelEn: "Electrons absorb a photon and jump to a higher energy level",
+            labelMy: "Electron များသည် Photon တစ်ခု စုပ်ယူပြီး Higher Energy Level သို့ ခုန်တက်သည်",
+            correctBucketEn: "Absorption Spectrum",
+            correctBucketMy: "Absorption Spectrum",
+          ),
+          SortingItem(
+            id: "y13phys-w28-sort-5",
+            labelEn: "Used to identify elements present in a hot glowing gas or discharge tube",
+            labelMy: "ပူနွေးထွန်းလင်းသော Gas (သို့) Discharge Tube ထဲရှိ Element များကို ဖော်ထုတ်ရန် အသုံးပြုသည်",
+            correctBucketEn: "Emission Spectrum",
+            correctBucketMy: "Emission Spectrum",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w28-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Fingerprinting Elements with Spectral Lines",
+      titleMy: "စာဖတ်ခြင်း - Spectral Line များဖြင့် Element များကို Fingerprint လုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Fingerprinting Elements with Spectral Lines",
+        titleMy: "Spectral Line များဖြင့် Element များကို Fingerprint လုပ်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min switched on a hydrogen discharge tube in a darkened lab and handed his class a small diffraction grating to view it through -- instead of a smooth rainbow, they saw a handful of sharp, separated coloured lines, a striking direct look at the discrete atomic energy levels the week had introduced.\n\nSu Su picked out the brightest visible line, a deep red, and measured its wavelength as λ = 656 nm = 6.56x10⁻⁷ m. Using E = hc/λ: E = (6.63x10⁻³⁴ x 3x10⁸)/6.56x10⁻⁷ ≈ 3.03x10⁻¹⁹ J -- the exact energy released each time an electron in a hydrogen atom drops between two particular energy levels.\n\nSayar Zaw Min explained that every element has its own unique arrangement of electron energy levels, and therefore its own unique fingerprint pattern of spectral lines -- no two elements ever produce exactly the same pattern. This is precisely the technique astronomers use today, he added, to identify which elements exist in the outer layers of stars trillions of kilometres away, simply by capturing that star's light and analysing which spectral lines appear in it -- the very same physics Su Su had just used on a hydrogen tube sitting on the lab bench in front of her.",
+        passageMy:
+            "ဆရာဇော်မင်းသည် အမှောင်ချထားသော Lab တစ်ခုတွင် Hydrogen Discharge Tube တစ်ခုကို ဖွင့်ပြီး သူ၏ အတန်းကို Diffraction Grating သေးသေးလေးတစ်ခု ပေးအပ်ကာ ၎င်းကို ဖြတ်၍ ကြည့်ခိုင်းခဲ့သည် -- ချောမွေ့သော သက်တံ့အစား ထက်မြက်ပြီး သီးခြားစီ ခွဲထားသော အရောင် Line အနည်းငယ်ကို ၎င်းတို့ တွေ့ရှိခဲ့ပြီး ထို အပတ် မိတ်ဆက်ပေးခဲ့သော Discrete Atomic Energy Level များကို တိုက်ရိုက် မျက်မြင် ထင်ရှားစွာ ကြည့်ရှုခွင့် ရရှိခဲ့သည်။\n\nSu Su သည် အမြင့်ဆုံး တောက်ပသော မြင်ရသော Line တစ်ခု ဖြစ်သော အနီရင့် Line ကို ရွေးချယ်ပြီး ၎င်း၏ Wavelength ကို λ = 656 nm = 6.56x10⁻⁷ m ဟု တိုင်းတာခဲ့သည်။ E = hc/λ ကို အသုံးပြု၍ - E = (6.63x10⁻³⁴ x 3x10⁸)/6.56x10⁻⁷ ≈ 3.03x10⁻¹⁹ J -- Hydrogen Atom ထဲရှိ Electron တစ်ခု Energy Level နှစ်ခု အထူးတလည်ကြား ကျဆင်းတိုင်း လွှတ်ချသော Energy အတိအကျ ဖြစ်သည်။\n\nElement တိုင်းတွင် ၎င်းကိုယ်ပိုင် ထူးခြားသော Electron Energy Level ပြင်ဆင်ထားပုံရှိပြီး ထို့ကြောင့် ၎င်းကိုယ်ပိုင် ထူးခြားသော Spectral Line Fingerprint Pattern ရှိကြောင်း -- Element နှစ်ခု ဘယ်တော့မှ တူညီသော Pattern ကို ဖြစ်ပေါ်စေမည် မဟုတ်ကြောင်း ဆရာဇော်မင်း ရှင်းပြခဲ့သည်။ ကီလိုမီတာ ထရီလျံနှင့်ချီ ဝေးကွာနေသော ကြယ်များ၏ အပြင်ဆုံး Layer တွင် မည်သည့် Element ရှိကြောင်း ဖော်ထုတ်ရန် ယနေ့ ဗေဒင်ပညာရှင်များ အသုံးပြုနေသော Technique အတိအကျ ဤသည် ဖြစ်ကြောင်း၊ ထိုကြယ်၏ အလင်းရောင်ကို ဖမ်းယူပြီး ၎င်းတွင် မည်သည့် Spectral Line များ ပေါ်လာသည်ကို ခွဲခြမ်းစိတ်ဖြာရုံဖြင့် ဖြစ်ကြောင်း သူ ထပ်ဆောင်းခဲ့သည် -- Su Su ယခုတင် Lab စားပွဲပေါ်ရှိ Hydrogen Tube တွင် အသုံးပြုခဲ့သော ရူပဗေဒ အတိအကျပင် ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the energy of the red hydrogen line's photon?",
+            questionMy: "အနီရင့် Hydrogen Line ၏ Photon Energy ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "≈ 3.03 x 10⁻¹⁹ J",
+              "≈ 6.56 x 10⁻⁷ J",
+              "≈ 6.63 x 10⁻³⁴ J",
+              "≈ 3.00 x 10⁸ J",
+            ],
+            optionsMy: [
+              "≈ 3.03 x 10⁻¹⁹ J",
+              "≈ 6.56 x 10⁻⁷ J",
+              "≈ 6.63 x 10⁻³⁴ J",
+              "≈ 3.00 x 10⁸ J",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's calculation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why does every element have a unique spectral line pattern?",
+            questionMy: "Element တိုင်းတွင် Spectral Line Pattern ထူးခြားစွာ ရှိသည်မှာ အဘယ်ကြောင့်ဟု စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Each element has its own unique arrangement of electron energy levels",
+              "All elements actually share exactly the same spectrum",
+              "Spectral lines are completely random for every element",
+              "Only hydrogen has any spectral lines at all",
+            ],
+            optionsMy: [
+              "Element တစ်ခုစီတွင် ၎င်းကိုယ်ပိုင် ထူးခြားသော Electron Energy Level ပြင်ဆင်ထားပုံ ရှိသောကြောင့်",
+              "Element အားလုံးသည် Spectrum အတိအကျ တူညီစွာ ဝေမျှသောကြောင့်",
+              "Element တိုင်းအတွက် Spectral Line များသည် လုံးဝ Random ဖြစ်သောကြောင့်",
+              "Hydrogen တစ်ခုတည်းတွင်သာ Spectral Line ရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's first sentence."],
+            hintsMy: ["တတိယစာပိုဒ်၏ ပထမစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what technique do astronomers use to identify elements in distant stars?",
+            questionMy:
+                "ဝေးကွာနေသော ကြယ်များရှိ Element များကို ဖော်ထုတ်ရန် ဗေဒင်ပညာရှင်များ မည်သည့် Technique အသုံးပြုသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Capturing the star's light and analysing its spectral lines",
+              "Travelling to the star directly to collect a sample",
+              "Measuring the star's temperature with a thermometer",
+              "Guessing based on the star's colour alone",
+            ],
+            optionsMy: [
+              "ကြယ်၏ အလင်းရောင်ကို ဖမ်းယူပြီး ၎င်း၏ Spectral Line များကို ခွဲခြမ်းစိတ်ဖြာခြင်း",
+              "Sample ကောက်ယူရန် ကြယ်ဆီသို့ တိုက်ရိုက် သွားရောက်ခြင်း",
+              "Thermometer ဖြင့် ကြယ်၏ Temperature တိုင်းတာခြင်း",
+              "ကြယ်၏ အရောင်ကိုသာ အခြေခံ၍ ခန့်မှန်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the passage."],
+            hintsMy: ["စာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-phys-w28-d5",
+      dayNumber: 5,
+      titleEn: "Week 28 Recap: Atomic Energy Levels and Spectra",
+      titleMy: "နှစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Atomic Energy Levels နှင့် Spectra",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "hf = E1 - E2 relates a photon's energy to...",
+          questionMy: "hf = E1 - E2 သည် Photon တစ်ခု၏ Energy ကို ...နှင့် ဆက်စပ်ပေးသည်",
+          optionsEn: [
+            "The difference between two atomic energy levels",
+            "The mass of the atom",
+            "The colour of the container",
+            "The temperature of the gas alone",
+          ],
+          optionsMy: [
+            "Atomic Energy Level နှစ်ခုကြား ကွာခြားချက်",
+            "Atom ၏ Mass",
+            "Container ၏ အရောင်",
+            "Gas ၏ Temperature သာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An emission spectrum shows...",
+          questionMy: "Emission Spectrum တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Bright lines at specific wavelengths",
+            "A single smooth rainbow with no lines",
+            "Only darkness with no light at all",
+            "Random noise with no pattern",
+          ],
+          optionsMy: [
+            "သီးခြား Wavelength များတွင် တောက်ပ Line များ",
+            "Line လုံးဝ မပါသော ချောမွေ့သော သက်တံ့တစ်ခုတည်း",
+            "အလင်းရောင် လုံးဝ မပါသော အမှောင်တစ်ခုတည်း",
+            "Pattern လုံးဝ မရှိသော Random Noise",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Each element produces its own unique pattern of spectral lines because...",
+          questionMy: "Element တစ်ခုစီသည် ၎င်းကိုယ်ပိုင် ထူးခြားသော Spectral Line Pattern ကို ဖြစ်ပေါ်စေသည်မှာ...",
+          optionsEn: [
+            "Its atoms have a unique, distinct set of discrete energy levels",
+            "All atoms actually have identical energy levels",
+            "Spectral lines have nothing to do with atomic structure",
+            "Only some elements have electrons at all",
+          ],
+          optionsMy: [
+            "၎င်း၏ Atom များတွင် ထူးခြားသော Discrete Energy Level စုံလင်စုံ ရှိသောကြောင့်",
+            "Atom အားလုံးတွင် Energy Level အတိအကျ တူညီသောကြောင့်",
+            "Spectral Line များသည် Atomic Structure နှင့် လုံးဝ မသက်ဆိုင်သောကြောင့်",
+            "Element အချို့တွင်သာ Electron လုံးဝ ရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+/// Year 13 Physics -- Term 7: "Quantum Physics". Covers the
+/// photoelectric effect (Einstein's photoelectric equation, threshold
+/// frequency, work function), photon energy and wave-particle duality
+/// (electron diffraction as evidence), the de Broglie wavelength, and
+/// closes with an Atomic Energy Levels and Line Spectra capstone week
+/// (discrete energy levels, emission/absorption spectra, spectroscopy).
+const CourseTermDef year13PhysicsTerm7 = CourseTermDef(
+  id: "course-y13-phys-term7",
+  termNumber: 7,
+  titleEn: "Quantum Physics",
+  titleMy: "Quantum Physics",
+  weeks: [_y13PhysWeek25, _y13PhysWeek26, _y13PhysWeek27, _y13PhysWeek28],
+  certificateTitleEn: "A2 Physics: Quantum Physics",
+  certificateTitleMy: "A2 ရူပဗေဒ - Quantum Physics",
+);
