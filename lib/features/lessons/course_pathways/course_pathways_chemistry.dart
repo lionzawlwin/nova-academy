@@ -29090,3 +29090,3521 @@ const CourseTermDef year13ChemistryTerm3 = CourseTermDef(
   certificateTitleEn: "A2 Chemistry: Further Equilibria: Acids, Bases and Buffers",
   certificateTitleMy: "A2 ဓာတုဗေဒ - Further Equilibria - Acid, Base နှင့် Buffer များ",
 );
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 4: "Reaction Kinetics: Rate Equations and
+// Mechanisms"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "Orders of Reaction and Rate Equations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek13 = CourseWeekDef(
+  id: "course-y13-chem-w13",
+  weekNumber: 13,
+  titleEn: "Orders of Reaction and Rate Equations",
+  titleMy: "Reaction Order များနှင့် Rate Equation များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w13-d1",
+      dayNumber: 1,
+      titleEn: "Order of Reaction and the Rate Equation",
+      titleMy: "Order of Reaction နှင့် Rate Equation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "For a reaction with rate equation rate = k[A]², the order of reaction with respect to A is...",
+          questionMy: "Rate Equation rate = k[A]² ရှိသော Reaction တစ်ခုတွင် A နှင့် ပတ်သက်၍ Order of Reaction သည်...",
+          optionsEn: ["2", "1", "0", "4"],
+          optionsMy: ["2", "1", "0", "4"],
+          correctIndex: 0,
+          hintsEn: [
+            "The order with respect to a reactant is simply the power that reactant is raised to in the rate equation.",
+          ],
+          hintsMy: [
+            "Reactant တစ်ခုနှင့် ပတ်သက်သော Order သည် Rate Equation ထဲရှိ ထို Reactant ၏ Power ရိုးရိုးသာ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For rate = k[A][B]², the overall order of reaction is...",
+          questionMy: "rate = k[A][B]² အတွက် Overall Order of Reaction သည်...",
+          optionsEn: ["3", "2", "1", "6"],
+          optionsMy: ["3", "2", "1", "6"],
+          correctIndex: 0,
+          hintsEn: [
+            "Overall order is the sum of every individual order: 1 (for A) + 2 (for B) = 3.",
+          ],
+          hintsMy: ["Overall Order သည် Individual Order အားလုံး၏ ပေါင်းလဒ်ဖြစ်သည် - 1 (A အတွက်) + 2 (B အတွက်) = 3 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a reaction that is second order with respect to A, doubling [A] while keeping everything else constant makes the rate...",
+          questionMy: "A နှင့် ပတ်သက်၍ Second Order ရှိသော Reaction တစ်ခုတွင် အခြားအရာများ Constant ဆက်ရှိစေဘဲ [A] ကို နှစ်ဆ တိုးလျှင် Rate သည်...",
+          optionsEn: [
+            "4 times faster",
+            "2 times faster",
+            "Unchanged",
+            "Half as fast",
+          ],
+          optionsMy: [
+            "4 ဆ ပို မြန်",
+            "2 ဆ ပို မြန်",
+            "မပြောင်းလဲပါ",
+            "တစ်ဝက် ပို နှေး",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For second order, rate ∝ [A]², so doubling [A] multiplies the rate by 2² = 4.",
+          ],
+          hintsMy: ["Second Order အတွက် rate ∝ [A]² ဖြစ်သောကြောင့် [A] နှစ်ဆ တိုးလျှင် Rate ကို 2² = 4 ဖြင့် မြှောက်ရသည်။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Rate Equation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Rate Equation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w13-dm-1",
+          termEn: "Rate equation",
+          termMy: "Rate Equation",
+          matchEn: "An equation, rate = k[A]^m[B]^n, found only by experiment, linking rate to reactant concentrations",
+          matchMy: "Experiment ဖြင့်သာ ရှာတွေ့နိုင်သော Equation, rate = k[A]^m[B]^n, Rate ကို Reactant Concentration များနှင့် ဆက်စပ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w13-dm-2",
+          termEn: "Order of reaction (with respect to a reactant)",
+          termMy: "Order of Reaction (Reactant တစ်ခုနှင့် ပတ်သက်၍)",
+          matchEn: "The power that reactant's concentration is raised to in the rate equation",
+          matchMy: "Rate Equation ထဲရှိ ထို Reactant ၏ Concentration Power",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w13-dm-3",
+          termEn: "Overall order of reaction",
+          termMy: "Overall Order of Reaction",
+          matchEn: "The sum of all the individual orders in the rate equation",
+          matchMy: "Rate Equation ထဲရှိ Individual Order အားလုံး၏ ပေါင်းလဒ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w13-dm-4",
+          termEn: "Rate constant (k)",
+          termMy: "Rate Constant (k)",
+          matchEn: "A constant linking rate and concentration, whose value changes only with temperature (or a catalyst)",
+          matchMy: "Rate နှင့် Concentration ချိတ်ဆက်ပေးသော Constant၊ Temperature (သို့မဟုတ် Catalyst) ဖြင့်သာ တန်ဖိုး ပြောင်းလဲသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w13-dm-5",
+          termEn: "Zero order (with respect to a reactant)",
+          termMy: "Zero Order (Reactant တစ်ခုနှင့် ပတ်သက်၍)",
+          matchEn: "Changing that reactant's concentration has no effect on the rate at all",
+          matchMy: "ထို Reactant ၏ Concentration ပြောင်းလဲခြင်းသည် Rate အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Effect of Doubling Concentration",
+      titleMy: "စီစစ်ကြမည် - Concentration နှစ်ဆတိုးခြင်း၏ သက်ရောက်မှု",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rate Unchanged (Zero Order)", "Rate Multiplied (First or Second Order)"],
+        bucketsMy: ["Rate မပြောင်းလဲ (Zero Order)", "Rate မြှောက်ခြင်းခံရ (First သို့မဟုတ် Second Order)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w13-sort-1",
+            labelEn: "Zero order with respect to A: doubling [A]",
+            labelMy: "A နှင့် ပတ်သက်၍ Zero Order: [A] နှစ်ဆ တိုးခြင်း",
+            correctBucketEn: "Rate Unchanged (Zero Order)",
+            correctBucketMy: "Rate မပြောင်းလဲ (Zero Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w13-sort-2",
+            labelEn: "First order with respect to A: doubling [A] doubles the rate",
+            labelMy: "A နှင့် ပတ်သက်၍ First Order: [A] နှစ်ဆ တိုးလျှင် Rate နှစ်ဆ တိုးသည်",
+            correctBucketEn: "Rate Multiplied (First or Second Order)",
+            correctBucketMy: "Rate မြှောက်ခြင်းခံရ (First သို့မဟုတ် Second Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w13-sort-3",
+            labelEn: "Second order with respect to A: doubling [A] quadruples the rate",
+            labelMy: "A နှင့် ပတ်သက်၍ Second Order: [A] နှစ်ဆ တိုးလျှင် Rate လေးဆ တိုးသည်",
+            correctBucketEn: "Rate Multiplied (First or Second Order)",
+            correctBucketMy: "Rate မြှောက်ခြင်းခံရ (First သို့မဟုတ် Second Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w13-sort-4",
+            labelEn: "Zero order with respect to B: tripling [B]",
+            labelMy: "B နှင့် ပတ်သက်၍ Zero Order: [B] သုံးဆ တိုးခြင်း",
+            correctBucketEn: "Rate Unchanged (Zero Order)",
+            correctBucketMy: "Rate မပြောင်းလဲ (Zero Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w13-sort-5",
+            labelEn: "First order with respect to C: doubling [C] doubles the rate",
+            labelMy: "C နှင့် ပတ်သက်၍ First Order: [C] နှစ်ဆ တိုးလျှင် Rate နှစ်ဆ တိုးသည်",
+            correctBucketEn: "Rate Multiplied (First or Second Order)",
+            correctBucketMy: "Rate မြှောက်ခြင်းခံရ (First သို့မဟုတ် Second Order)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Finding a Rate Equation from Initial Rates",
+      titleMy: "စာဖတ်ခြင်း - Initial Rate များမှ Rate Equation ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Finding a Rate Equation from Initial Rates",
+        titleMy: "Initial Rate များမှ Rate Equation ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min gave Htet Aung three experiments on the reaction A + B -> products, each with a measured initial rate. Experiment 1: [A] = 0.10, [B] = 0.10, rate = 2.0 x 10⁻³. Experiment 2: [A] = 0.20, [B] = 0.10, rate = 8.0 x 10⁻³. Experiment 3: [A] = 0.20, [B] = 0.20, rate = 8.0 x 10⁻³, all concentrations in mol dm⁻³ and rate in mol dm⁻³ s⁻¹. He asked Htet Aung to find the order with respect to each reactant.\n\nHtet Aung compared Experiments 1 and 2 first, since [B] was held constant between them while [A] doubled: rate went from 2.0 x 10⁻³ to 8.0 x 10⁻³, a four-fold increase. Since doubling [A] quadrupled the rate, he concluded the reaction was second order with respect to A. Then he compared Experiments 2 and 3, where [A] was held constant while [B] doubled: the rate stayed exactly the same, 8.0 x 10⁻³ in both cases, so he concluded the reaction was zero order with respect to B.\n\nPutting the two orders together, Htet Aung wrote the rate equation: rate = k[A]². The overall order was therefore 2, matching only the A term since B's order was zero and dropped out entirely. Sayar Zaw Min then asked him to find k using Experiment 1's data: k = rate / [A]² = 2.0 x 10⁻³ / (0.10)² = 2.0 x 10⁻³ / 0.010 = 0.20 mol⁻¹ dm³ s⁻¹. Htet Aung checked his value against Experiment 2: k[A]² = 0.20 x (0.20)² = 0.20 x 0.040 = 8.0 x 10⁻³, exactly matching the given rate -- confirming the whole rate equation was self-consistent across every experiment.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် A + B -> Products Reaction ၏ Experiment သုံးခုကို Htet Aung ကို ပေးခဲ့သည်၊ တစ်ခုစီတွင် Initial Rate တိုင်းတာထားသည်။ Experiment 1: [A] = 0.10, [B] = 0.10, Rate = 2.0 x 10⁻³ ။ Experiment 2: [A] = 0.20, [B] = 0.10, Rate = 8.0 x 10⁻³ ။ Experiment 3: [A] = 0.20, [B] = 0.20, Rate = 8.0 x 10⁻³, Concentration အားလုံး mol dm⁻³ နှင့် Rate mol dm⁻³ s⁻¹ ဖြစ်သည်။ Reactant တစ်ခုစီနှင့် ပတ်သက်သော Order ကို ရှာဖွေခိုင်းခဲ့သည်။\n\nHtet Aung သည် Experiment 1 နှင့် 2 ကို ဦးစွာ နှိုင်းယှဉ်ခဲ့သည်၊ ၎င်းတို့ကြား [B] Constant ဆက်ရှိနေပြီး [A] နှစ်ဆ တိုးခဲ့သည် - Rate သည် 2.0 x 10⁻³ မှ 8.0 x 10⁻³ သို့ လေးဆ တိုးလာသည်။ [A] နှစ်ဆ တိုးခြင်းသည် Rate ကို လေးဆ တိုးစေသောကြောင့် Reaction သည် A နှင့် ပတ်သက်၍ Second Order ဖြစ်ကြောင်း နိဂုံးချုပ်ခဲ့သည်။ ထို့နောက် Experiment 2 နှင့် 3 ကို နှိုင်းယှဉ်ခဲ့သည်၊ [A] Constant ဆက်ရှိနေပြီး [B] နှစ်ဆ တိုးခဲ့သည် - Rate သည် ကိစ္စနှစ်ခုစလုံးတွင် 8.0 x 10⁻³ ဖြင့် အတိအကျ ဆက်ရှိနေသောကြောင့် Reaction သည် B နှင့် ပတ်သက်၍ Zero Order ဖြစ်ကြောင်း နိဂုံးချုပ်ခဲ့သည်။\n\nOrder နှစ်ခုကို ပေါင်းစပ်ကာ Htet Aung သည် Rate Equation ကို ရေးခဲ့သည် - rate = k[A]² ။ Overall Order သည် ထို့ကြောင့် 2 ဖြစ်ပြီး A Term တစ်ခုတည်းနှင့်သာ ကိုက်ညီသည်၊ B ၏ Order သည် Zero ဖြစ်ကာ လုံးလုံး ကျန်ခဲ့သောကြောင့် ဖြစ်သည်။ Experiment 1 ၏ Data ကို အသုံးပြု၍ k ကို ရှာဖွေခိုင်းစေခဲ့သည် - k = rate / [A]² = 2.0 x 10⁻³ / (0.10)² = 2.0 x 10⁻³ / 0.010 = 0.20 mol⁻¹ dm³ s⁻¹ ။ Htet Aung သည် ၎င်း၏ တန်ဖိုးကို Experiment 2 နှင့် စစ်ဆေးခဲ့သည် - k[A]² = 0.20 x (0.20)² = 0.20 x 0.040 = 8.0 x 10⁻³, ပေးထားသော Rate နှင့် အတိအကျ ကိုက်ညီပြီး Rate Equation တစ်ခုလုံး Experiment တစ်ခုစီတွင် Self-Consistent ဖြစ်ကြောင်း အတည်ပြုသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what order is the reaction with respect to A?",
+            questionMy: "A နှင့် ပတ်သက်၍ Reaction သည် မည်သည့် Order ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Second order", "First order", "Zero order", "Third order"],
+            optionsMy: ["Second Order", "First Order", "Zero Order", "Third Order"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's comparison of Experiments 1 and 2."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Experiment 1 နှင့် 2 နှိုင်းယှဉ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final rate equation?",
+            questionMy: "Rate Equation နောက်ဆုံးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["rate = k[A]²", "rate = k[A][B]", "rate = k[B]²", "rate = k[A]²[B]²"],
+            optionsMy: ["rate = k[A]²", "rate = k[A][B]", "rate = k[B]²", "rate = k[A]²[B]²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's opening."],
+            hintsMy: ["တတိယစာပိုဒ်၏ အစကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what value of k was calculated?",
+            questionMy: "k တန်ဖိုး မည်မျှ တွက်ချက်ရရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["0.20 mol⁻¹ dm³ s⁻¹", "2.0 mol⁻¹ dm³ s⁻¹", "8.0 mol⁻¹ dm³ s⁻¹", "0.020 mol⁻¹ dm³ s⁻¹"],
+            optionsMy: ["0.20 mol⁻¹ dm³ s⁻¹", "2.0 mol⁻¹ dm³ s⁻¹", "8.0 mol⁻¹ dm³ s⁻¹", "0.020 mol⁻¹ dm³ s⁻¹"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's k calculation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ k တွက်ချက်မှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Orders of Reaction",
+      titleMy: "သက္ကရာဇ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Orders of Reaction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Overall order of reaction is calculated as...",
+          questionMy: "Overall Order of Reaction ကို ...ဖြင့် တွက်ချက်သည်",
+          optionsEn: [
+            "The sum of all individual orders",
+            "The product of all individual orders",
+            "Always equal to 1",
+            "The value of k",
+          ],
+          optionsMy: [
+            "Individual Order အားလုံး၏ ပေါင်းလဒ်",
+            "Individual Order အားလုံး၏ မြှောက်လဒ်",
+            "အမြဲ 1 နှင့် ညီမျှ",
+            "k တန်ဖိုး",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A rate equation can only be found by...",
+          questionMy: "Rate Equation ကို ...ဖြင့်သာ ရှာတွေ့နိုင်သည်",
+          optionsEn: ["Experiment", "Reading the balanced equation alone", "Guessing", "Looking at molar mass"],
+          optionsMy: ["Experiment", "Balanced Equation တစ်ခုတည်း ဖတ်ခြင်း", "ခန့်မှန်းခြင်း", "Molar Mass ကြည့်ခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If rate = k[X]³, tripling [X] multiplies the rate by...",
+          questionMy: "rate = k[X]³ ဖြစ်လျှင် [X] သုံးဆ တိုးလျှင် Rate ကို ...ဖြင့် မြှောက်ရသည်",
+          optionsEn: ["27", "3", "9", "6"],
+          optionsMy: ["27", "3", "9", "6"],
+          correctIndex: 0,
+          hintsEn: ["3³ = 27."],
+          hintsMy: ["3³ = 27 ။"],
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "Determining Order from Concentration-Time and Rate-Concentration
+// Graphs"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek14 = CourseWeekDef(
+  id: "course-y13-chem-w14",
+  weekNumber: 14,
+  titleEn: "Determining Order from Graphs",
+  titleMy: "Graph များမှ Order ဆုံးဖြတ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w14-d1",
+      dayNumber: 1,
+      titleEn: "Concentration-Time and Rate-Concentration Graphs",
+      titleMy: "Concentration-Time နှင့် Rate-Concentration Graph များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "On a concentration-time graph, a first-order reactant is identified by...",
+          questionMy: "Concentration-Time Graph ပေါ်တွင် First-Order Reactant တစ်ခုကို ...ဖြင့် ဖော်ထုတ်သည်",
+          optionsEn: [
+            "A constant half-life, regardless of starting concentration",
+            "A straight line through the origin",
+            "A completely flat, horizontal line",
+            "An ever-increasing curve",
+          ],
+          optionsMy: [
+            "Starting Concentration မည်သို့ပင်ရှိစေ Constant Half-Life",
+            "Origin ကို ဖြတ်သော Straight Line",
+            "လုံးဝ ညီညာသော Horizontal Line",
+            "အမြဲ တိုးလာနေသော Curve",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A first-order concentration-time curve has a constant half-life -- the time for concentration to halve is always the same, no matter the starting point.",
+          ],
+          hintsMy: [
+            "First-Order Concentration-Time Curve သည် Constant Half-Life ရှိသည် -- Concentration တစ်ဝက် ကျဆင်းရန် ကြာချိန်သည် Starting Point မည်သို့ပင်ရှိစေ အမြဲ တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a rate-concentration graph, a zero-order reactant is shown by...",
+          questionMy: "Rate-Concentration Graph ပေါ်တွင် Zero-Order Reactant တစ်ခုကို ...ဖြင့် ပြသသည်",
+          optionsEn: [
+            "A horizontal line -- rate does not change as concentration changes",
+            "A straight line through the origin",
+            "A curve that rises steeply",
+            "A line with negative slope",
+          ],
+          optionsMy: [
+            "Horizontal Line -- Concentration ပြောင်းလဲသော်လည်း Rate မပြောင်းလဲပါ",
+            "Origin ကို ဖြတ်သော Straight Line",
+            "ပြင်းထန်စွာ မြင့်တက်သော Curve",
+            "Negative Slope ရှိသော Line",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For a zero-order reactant, rate is completely independent of that reactant's concentration, so the rate-concentration graph is a flat horizontal line.",
+          ],
+          hintsMy: [
+            "Zero-Order Reactant တစ်ခုအတွက် Rate သည် ထို Reactant ၏ Concentration နှင့် လုံးဝ မသက်ဆိုင်ပါ၊ Rate-Concentration Graph သည် ညီညာသော Horizontal Line ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "On a rate-concentration graph, a first-order reactant is shown by...",
+          questionMy: "Rate-Concentration Graph ပေါ်တွင် First-Order Reactant တစ်ခုကို ...ဖြင့် ပြသသည်",
+          optionsEn: [
+            "A straight line through the origin",
+            "A completely flat, horizontal line",
+            "A curve that never touches the axes",
+            "A vertical line",
+          ],
+          optionsMy: [
+            "Origin ကို ဖြတ်သော Straight Line",
+            "လုံးဝ ညီညာသော Horizontal Line",
+            "Axis များကို လုံးဝ မထိသော Curve",
+            "Vertical Line",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "For a first-order reactant, rate is directly proportional to concentration, giving a straight line through the origin.",
+          ],
+          hintsMy: [
+            "First-Order Reactant တစ်ခုအတွက် Rate သည် Concentration နှင့် တိုက်ရိုက် အချိုးကျသောကြောင့် Origin ကို ဖြတ်သော Straight Line ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Kinetics Graph Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Kinetics Graph ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w14-dm-1",
+          termEn: "Concentration-time graph",
+          termMy: "Concentration-Time Graph",
+          matchEn: "Plots how a reactant's concentration falls as the reaction proceeds over time",
+          matchMy: "Reaction ဆက်လက်ဖြစ်ပေါ်စဉ် Reactant ၏ Concentration အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ ကျဆင်းသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w14-dm-2",
+          termEn: "Rate-concentration graph",
+          termMy: "Rate-Concentration Graph",
+          matchEn: "Plots how the initial rate changes as a reactant's starting concentration changes",
+          matchMy: "Reactant ၏ Starting Concentration ပြောင်းလဲသည်နှင့်အမျှ Initial Rate မည်သို့ ပြောင်းလဲသည်ကို ဖော်ပြသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w14-dm-3",
+          termEn: "Half-life (t½)",
+          termMy: "Half-Life (t½)",
+          matchEn: "The time taken for a reactant's concentration to fall to half its value",
+          matchMy: "Reactant ၏ Concentration တစ်ဝက် ကျဆင်းရန် ကြာချိန်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w14-dm-4",
+          termEn: "Constant half-life",
+          termMy: "Constant Half-Life",
+          matchEn: "A half-life that stays the same value throughout the reaction -- the signature of first order",
+          matchMy: "Reaction တစ်လျှောက်လုံး တန်ဖိုးတူညီနေသော Half-Life -- First Order ၏ လက်မှတ်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w14-dm-5",
+          termEn: "Straight line through the origin (rate-concentration)",
+          termMy: "Origin ကို ဖြတ်သော Straight Line (Rate-Concentration)",
+          matchEn: "The graph shape confirming a reactant is first order",
+          matchMy: "Reactant တစ်ခု First Order ဖြစ်ကြောင်း အတည်ပြုသော Graph ပုံစံ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Zero, First or Second Order Graph Shape?",
+      titleMy: "စီစစ်ကြမည် - Zero, First သို့မဟုတ် Second Order Graph ပုံစံ",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Rate-Concentration: Flat Line (Zero Order)", "Rate-Concentration: Straight Line Through Origin (First Order)"],
+        bucketsMy: ["Rate-Concentration: Flat Line (Zero Order)", "Rate-Concentration: Origin ဖြတ်သော Straight Line (First Order)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w14-sort-1",
+            labelEn: "Rate stays constant no matter what [A] is",
+            labelMy: "[A] မည်သို့ပင်ရှိစေ Rate Constant ဆက်ရှိနေသည်",
+            correctBucketEn: "Rate-Concentration: Flat Line (Zero Order)",
+            correctBucketMy: "Rate-Concentration: Flat Line (Zero Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w14-sort-2",
+            labelEn: "Doubling [A] exactly doubles the rate",
+            labelMy: "[A] နှစ်ဆ တိုးလျှင် Rate အတိအကျ နှစ်ဆ တိုးသည်",
+            correctBucketEn: "Rate-Concentration: Straight Line Through Origin (First Order)",
+            correctBucketMy: "Rate-Concentration: Origin ဖြတ်သော Straight Line (First Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w14-sort-3",
+            labelEn: "A horizontal line parallel to the concentration axis",
+            labelMy: "Concentration Axis နှင့် ပြိုင်သော Horizontal Line",
+            correctBucketEn: "Rate-Concentration: Flat Line (Zero Order)",
+            correctBucketMy: "Rate-Concentration: Flat Line (Zero Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w14-sort-4",
+            labelEn: "Tripling [A] exactly triples the rate",
+            labelMy: "[A] သုံးဆ တိုးလျှင် Rate အတိအကျ သုံးဆ တိုးသည်",
+            correctBucketEn: "Rate-Concentration: Straight Line Through Origin (First Order)",
+            correctBucketMy: "Rate-Concentration: Origin ဖြတ်သော Straight Line (First Order)",
+          ),
+          SortingItem(
+            id: "y13chem-w14-sort-5",
+            labelEn: "Removing all of A entirely does not stop the reaction from having a rate",
+            labelMy: "A ကို လုံးဝ ဖယ်ရှားသော်လည်း Reaction ၏ Rate ကို လုံးဝ ရပ်တန့်မသွားစေပါ",
+            correctBucketEn: "Rate-Concentration: Flat Line (Zero Order)",
+            correctBucketMy: "Rate-Concentration: Flat Line (Zero Order)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Half-Life Method",
+      titleMy: "စာဖတ်ခြင်း - Half-Life Method",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Half-Life Method",
+        titleMy: "Half-Life Method",
+        passageEn:
+            "Sayama Moe Moe Khaing showed Nan Su Yati a concentration-time graph for the decomposition of a reactant X, and asked her to read off successive half-lives directly from the curve rather than using the initial-rates method from the week before. The initial concentration of X was 0.80 mol dm⁻³.\n\nNan Su Yati traced the curve carefully. It took 20 seconds for [X] to fall from 0.80 to 0.40 mol dm⁻³ -- the first half-life. She then measured how long it took to fall from 0.40 to 0.20 mol dm⁻³, exactly half again, and found it was also 20 seconds. Checking a third interval, from 0.20 to 0.10 mol dm⁻³, she measured 20 seconds once more.\n\nSayama Moe Moe Khaing asked what this told her. Nan Su Yati concluded that since the half-life stayed exactly constant at 20 seconds regardless of the starting concentration for that interval, the reaction had to be first order with respect to X -- this constancy is the defining signature of first order, and no other order produces it. She noted this method has a real advantage over the initial-rates method from the previous week: a single concentration-time run, read at several points, was enough to establish first order, without needing several separate experiments at different starting concentrations.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Reactant X Decomposition ၏ Concentration-Time Graph ကို Nan Su Yati ကို ပြသခဲ့ပြီး ယခင်ပတ်မှ Initial-Rates Method ကို အသုံးမပြုဘဲ Curve ပေါ်မှ Half-Life ဆက်တိုက်များကို တိုက်ရိုက် ဖတ်ရှုခိုင်းစေခဲ့သည်။ X ၏ Initial Concentration သည် 0.80 mol dm⁻³ ဖြစ်သည်။\n\nNan Su Yati သည် Curve ကို ဂရုတစိုက် ခြေရာခံခဲ့သည်။ [X] သည် 0.80 မှ 0.40 mol dm⁻³ သို့ ကျဆင်းရန် 20 Second ကြာခဲ့သည် -- ပထမ Half-Life ဖြစ်သည်။ ထို့နောက် 0.40 မှ 0.20 mol dm⁻³ သို့ တစ်ဝက် ထပ်ကျဆင်းရန် မည်မျှ ကြာသည်ကို တိုင်းတာခဲ့ပြီး 20 Second ထပ်ဖြစ်ကြောင်း တွေ့ရှိခဲ့သည်။ တတိယ Interval, 0.20 မှ 0.10 mol dm⁻³ သို့ ထပ်စစ်ဆေးရာ 20 Second ထပ်တိုင်းတာခဲ့သည်။\n\nဤသည် မည်သို့ ပြောပြသည်ကို Sayama မိုးမိုးခိုင် မေးခဲ့သည်။ Half-Life သည် ထို Interval အတွက် Starting Concentration မည်သို့ပင်ရှိစေ 20 Second တွင် အတိအကျ Constant ဆက်ရှိနေသောကြောင့် Reaction သည် X နှင့် ပတ်သက်၍ First Order ဖြစ်ရမည်ဟု Nan Su Yati နိဂုံးချုပ်ခဲ့သည် -- ဤ Constancy သည် First Order ၏ သတ်မှတ်ချက် လက်မှတ်ဖြစ်ပြီး Order အခြားမည်သည့်တစ်ခုမျှ ၎င်းကို မဖြစ်ပေါ်စေပါ။ ဤ Method သည် ယခင်ပတ်မှ Initial-Rates Method ထက် တကယ့် အားသာချက် ရှိကြောင်း သတိပြုမိခဲ့သည် - Concentration-Time Run တစ်ခုတည်းကို အမှတ်များစွာတွင် ဖတ်ခြင်းက Starting Concentration မတူညီသော Experiment သီးခြားများစွာ မလိုအပ်ဘဲ First Order ကို ရှာတွေ့ရန် လုံလောက်ခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was the measured half-life?",
+            questionMy: "တိုင်းတာရရှိသော Half-Life ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["20 seconds, constant throughout", "10 seconds, constant throughout", "20 seconds, increasing each time", "40 seconds, decreasing each time"],
+            optionsMy: ["20 Second, တစ်လျှောက်လုံး Constant", "10 Second, တစ်လျှောက်လုံး Constant", "20 Second, အကြိမ်တိုင်း တိုးလာ", "40 Second, အကြိမ်တိုင်း လျော့ကျ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's three measurements."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ တိုင်းတာမှု သုံးခုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what order does a constant half-life indicate?",
+            questionMy: "Constant Half-Life တစ်ခုသည် မည်သည့် Order ကို ညွှန်ပြသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["First order", "Zero order", "Second order", "Third order"],
+            optionsMy: ["First Order", "Zero Order", "Second Order", "Third Order"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's conclusion."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ နိဂုံးချုပ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what advantage does the half-life method have?",
+            questionMy: "Half-Life Method ၏ အားသာချက်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "One concentration-time run is enough, without several separate experiments",
+              "It requires no graph at all",
+              "It only works for second-order reactions",
+              "It is always less accurate than initial rates",
+            ],
+            optionsMy: [
+              "Experiment သီးခြားများစွာ မလိုအပ်ဘဲ Concentration-Time Run တစ်ခုတည်း လုံလောက်သည်",
+              "Graph လုံးဝ မလိုအပ်ပါ",
+              "Second-Order Reaction များအတွက်သာ အလုပ်လုပ်သည်",
+              "Initial Rates ထက် အမြဲ Accuracy နည်းသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Kinetics Graphs",
+      titleMy: "စတုဒ္ဒသပတ် ပြန်လည်သုံးသပ်ခြင်း - Kinetics Graph များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A constant half-life on a concentration-time graph indicates...",
+          questionMy: "Concentration-Time Graph ပေါ်ရှိ Constant Half-Life သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: ["First order", "Zero order", "Second order", "No reaction at all"],
+          optionsMy: ["First Order", "Zero Order", "Second Order", "Reaction လုံးဝ မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A flat, horizontal rate-concentration graph indicates...",
+          questionMy: "ညီညာသော Horizontal Rate-Concentration Graph သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: ["Zero order", "First order", "Second order", "Infinite order"],
+          optionsMy: ["Zero Order", "First Order", "Second Order", "Infinite Order"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A straight line through the origin on a rate-concentration graph indicates...",
+          questionMy: "Rate-Concentration Graph ပေါ်ရှိ Origin ကို ဖြတ်သော Straight Line သည် ...ကို ညွှန်ပြသည်",
+          optionsEn: ["First order", "Zero order", "Second order", "No relationship at all"],
+          optionsMy: ["First Order", "Zero Order", "Second Order", "ဆက်စပ်မှု လုံးဝ မရှိခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "The Rate Constant k and the Arrhenius Equation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek15 = CourseWeekDef(
+  id: "course-y13-chem-w15",
+  weekNumber: 15,
+  titleEn: "The Rate Constant k and the Arrhenius Equation",
+  titleMy: "Rate Constant k နှင့် Arrhenius Equation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w15-d1",
+      dayNumber: 1,
+      titleEn: "How k Changes with Temperature",
+      titleMy: "Temperature ဖြင့် k ပြောင်းလဲပုံ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The rate constant, k, changes in value when...",
+          questionMy: "Rate Constant, k, တန်ဖိုးသည် ...အခါ ပြောင်းလဲသည်",
+          optionsEn: [
+            "Temperature changes (or a catalyst is added)",
+            "Concentration of a reactant changes",
+            "The volume of the container changes only",
+            "The colour of the solution changes",
+          ],
+          optionsMy: [
+            "Temperature ပြောင်းလဲ (သို့မဟုတ် Catalyst ထည့်)",
+            "Reactant ၏ Concentration ပြောင်းလဲ",
+            "Container ၏ Volume တစ်ခုတည်း ပြောင်းလဲ",
+            "Solution ၏ အရောင် ပြောင်းလဲ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike rate itself, k does not depend on concentration -- it only changes with temperature or in the presence of a catalyst.",
+          ],
+          hintsMy: [
+            "Rate ကိုယ်တိုင်နှင့် မတူဘဲ k သည် Concentration အပေါ် မမူတည်ပါ -- Temperature သို့မဟုတ် Catalyst ရှိမှသာ ပြောင်းလဲသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "According to the Arrhenius equation, k = Ae^(-Ea/RT), as temperature T increases, k...",
+          questionMy: "Arrhenius Equation, k = Ae^(-Ea/RT) အရ Temperature T တိုးလာသည်နှင့်အမျှ k သည်...",
+          optionsEn: [
+            "Increases",
+            "Decreases",
+            "Stays exactly the same",
+            "Becomes negative",
+          ],
+          optionsMy: [
+            "တိုးလာသည်",
+            "လျော့ကျသည်",
+            "လုံးဝ မပြောင်းလဲပါ",
+            "Negative ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "As T increases, -Ea/RT becomes less negative, so e^(-Ea/RT) increases, making k larger -- higher temperature always increases the rate constant.",
+          ],
+          hintsMy: [
+            "T တိုးလာသည်နှင့်အမျှ -Ea/RT သည် Negative နည်းလာသောကြောင့် e^(-Ea/RT) တိုးလာပြီး k ကို ပိုကြီးစေသည် -- Temperature မြင့်လေ Rate Constant ကို အမြဲ တိုးစေလေ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst increases the rate constant k by...",
+          questionMy: "Catalyst တစ်ခုသည် Rate Constant k ကို ...ဖြင့် တိုးစေသည်",
+          optionsEn: [
+            "Providing an alternative route with a lower activation energy, Ea",
+            "Increasing the temperature of the reaction",
+            "Increasing the concentration of reactants",
+            "Removing reactants from the system",
+          ],
+          optionsMy: [
+            "Activation Energy, Ea ပိုနိမ့်သော Alternative Route ပေးအပ်ခြင်းဖြင့်",
+            "Reaction ၏ Temperature ကို တိုးစေခြင်းဖြင့်",
+            "Reactant များ၏ Concentration ကို တိုးစေခြင်းဖြင့်",
+            "System မှ Reactant များ ဖယ်ရှားခြင်းဖြင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A lower Ea makes -Ea/RT less negative, increasing e^(-Ea/RT) and therefore k, without changing the temperature at all.",
+          ],
+          hintsMy: [
+            "Ea နိမ့်ခြင်းသည် -Ea/RT ကို Negative နည်းစေပြီး e^(-Ea/RT) ကို တိုးစေကာ k ကို တိုးစေသည်၊ Temperature ကို လုံးဝ မပြောင်းလဲစေဘဲ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Arrhenius Equation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Arrhenius Equation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w15-dm-1",
+          termEn: "Arrhenius equation",
+          termMy: "Arrhenius Equation",
+          matchEn: "k = Ae^(-Ea/RT) -- links the rate constant to temperature and activation energy",
+          matchMy: "k = Ae^(-Ea/RT) -- Rate Constant ကို Temperature နှင့် Activation Energy နှင့် ဆက်စပ်ပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w15-dm-2",
+          termEn: "Activation energy (Ea)",
+          termMy: "Activation Energy (Ea)",
+          matchEn: "The minimum energy colliding particles need for a reaction to occur",
+          matchMy: "Reaction ဖြစ်ပေါ်ရန် Colliding Particle များ လိုအပ်သော အနည်းဆုံး Energy",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w15-dm-3",
+          termEn: "Pre-exponential factor (A)",
+          termMy: "Pre-Exponential Factor (A)",
+          matchEn: "A term related to collision frequency and orientation, roughly constant for a given reaction",
+          matchMy: "Collision Frequency နှင့် Orientation နှင့် ဆက်စပ်သော Term၊ Reaction တစ်ခုအတွက် ခန့်မှန်းခြေ Constant ဖြစ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w15-dm-4",
+          termEn: "Catalyst",
+          termMy: "Catalyst",
+          matchEn: "Speeds up a reaction by lowering Ea, without itself being used up",
+          matchMy: "ကိုယ်တိုင် ကုန်ဆုံးမသွားဘဲ Ea ကို လျော့ကျစေခြင်းဖြင့် Reaction ကို မြန်ဆန်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w15-dm-5",
+          termEn: "Boltzmann distribution",
+          termMy: "Boltzmann Distribution",
+          matchEn: "The spread of particle energies in a sample -- a small temperature rise shifts far more particles above Ea",
+          matchMy: "Sample ထဲရှိ Particle Energy ဖြန့်ကျက်မှု -- Temperature အနည်းငယ် တိုးလာခြင်းက Particle ပို၍ များများကို Ea အထက် ရွှေ့ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases k?",
+      titleMy: "စီစစ်ကြမည် - k ကို တိုးစေလား လျော့ကျစေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases k", "Decreases k"],
+        bucketsMy: ["k ကို တိုးစေသည်", "k ကို လျော့ကျစေသည်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w15-sort-1",
+            labelEn: "Raising the temperature",
+            labelMy: "Temperature တိုးမြှင့်ခြင်း",
+            correctBucketEn: "Increases k",
+            correctBucketMy: "k ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w15-sort-2",
+            labelEn: "Lowering the temperature",
+            labelMy: "Temperature လျှော့ချခြင်း",
+            correctBucketEn: "Decreases k",
+            correctBucketMy: "k ကို လျော့ကျစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w15-sort-3",
+            labelEn: "Adding a catalyst (lowering Ea)",
+            labelMy: "Catalyst ထည့်ခြင်း (Ea ကို လျှော့ချခြင်း)",
+            correctBucketEn: "Increases k",
+            correctBucketMy: "k ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w15-sort-4",
+            labelEn: "A reaction with a higher activation energy, Ea",
+            labelMy: "Activation Energy, Ea ပိုမြင့်သော Reaction",
+            correctBucketEn: "Decreases k",
+            correctBucketMy: "k ကို လျော့ကျစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w15-sort-5",
+            labelEn: "A reaction with a lower activation energy, Ea",
+            labelMy: "Activation Energy, Ea ပိုနိမ့်သော Reaction",
+            correctBucketEn: "Increases k",
+            correctBucketMy: "k ကို တိုးစေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why a Small Temperature Rise Speeds Up Reactions So Much",
+      titleMy: "စာဖတ်ခြင်း - Temperature အနည်းငယ် တိုးခြင်းက Reaction ကို ဤမျှ အဘယ့်ကြောင့် မြန်ဆန်စေသနည်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why a Small Temperature Rise Speeds Up Reactions So Much",
+        titleMy: "Temperature အနည်းငယ် တိုးခြင်းက Reaction ကို ဤမျှ အဘယ့်ကြောင့် မြန်ဆန်စေသနည်း",
+        passageEn:
+            "Sayar Zaw Min told Htet Aung something that sounded surprising at first: raising a typical reaction's temperature by just 10°C can roughly double its rate. Htet Aung had assumed a 10°C rise, which is a fairly small fraction of an absolute temperature around 300 K, should only produce a small change -- so he asked why the effect was so large.\n\nSayar Zaw Min pointed him back to the Boltzmann distribution: a graph of how many particles in a sample have each possible energy value. Only particles with energy above the activation energy, Ea, can react on collision. Because the Boltzmann curve has a long tail rather than a sharp cutoff, a small rightward shift in the whole distribution -- caused by a modest temperature rise -- pushes a disproportionately large number of particles across the Ea threshold for the first time, even though the average particle energy has barely changed.\n\nHtet Aung connected this back to the Arrhenius equation, k = Ae^(-Ea/RT). Because Ea/RT sits inside an exponential rather than a simple linear term, a small change in T produces an outsized change in k -- exactly mirroring what the Boltzmann distribution's shape had already shown him graphically. Sayar Zaw Min summarised the whole picture: temperature doesn't primarily work by making particles collide more often, it works mainly by making a much larger fraction of those collisions energetic enough to succeed -- and that is why chemists treat a 10°C rise as a genuinely powerful lever on reaction rate, not a minor adjustment.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် ပထမတွင် အံ့သြဖွယ် ကြားရသော အရာတစ်ခုကို Htet Aung ကို ပြောပြခဲ့သည် - ပုံမှန် Reaction တစ်ခု၏ Temperature ကို 10°C သာ တိုးမြှင့်ခြင်းသည် ၎င်း၏ Rate ကို ခန့်မှန်းခြေ နှစ်ဆ တိုးစေနိုင်သည်။ 10°C တိုးခြင်းသည် 300 K ခန့် ရှိသော Absolute Temperature ၏ အစိတ်အပိုင်းသေးတစ်ခုသာ ဖြစ်သောကြောင့် ပြောင်းလဲမှု သေးငယ်သည်ဟု Htet Aung ယူဆထားခဲ့ပြီး ထို့ကြောင့် သက်ရောက်မှု အဘယ့်ကြောင့် ဤမျှ ကြီးမားသနည်းဟု မေးခဲ့သည်။\n\nSayar ဇော်မင်း သည် Boltzmann Distribution ဆီသို့ ၎င်းကို ညွှန်ပြခဲ့သည် - Sample ထဲရှိ Particle များ Energy တန်ဖိုးတစ်ခုစီ မည်မျှ ရှိသည်ကို ပြသော Graph ဖြစ်သည်။ Ea အထက် Energy ရှိသော Particle များသာ Collision တွင် Reaction ဖြစ်နိုင်သည်။ Boltzmann Curve သည် ချက်ချင်း ဖြတ်တောက်ခြင်းမဟုတ်ဘဲ Tail ရှည်ရှိသောကြောင့် Distribution တစ်ခုလုံး၏ ညာဘက်သို့ အနည်းငယ် ရွှေ့ခြင်း -- Temperature အနည်းငယ် တိုးခြင်းကြောင့် ဖြစ်ပေါ်သည် -- သည် Average Particle Energy သိသိသာသာ မပြောင်းလဲသေးသော်လည်း Ea Threshold ကို ပထမဆုံးအကြိမ် ဖြတ်ကျော်သော Particle အရေအတွက် အချိုးမမှန် ကြီးမားစွာ တိုးစေသည်။\n\nHtet Aung သည် ၎င်းကို Arrhenius Equation, k = Ae^(-Ea/RT) နှင့် ချိတ်ဆက်ခဲ့သည်။ Ea/RT သည် ရိုးရှင်းသော Linear Term အတွင်း မဟုတ်ဘဲ Exponential အတွင်း ရှိနေသောကြောင့် T ၏ ပြောင်းလဲမှု အနည်းငယ်သည် k ၏ ပြောင်းလဲမှု အလွန် ကြီးမားစွာ ဖြစ်ပေါ်စေသည် -- Boltzmann Distribution ၏ ပုံသဏ္ဍာန်က Graph ပေါ်တွင် ပြသနှင့်ပြီးသား အရာနှင့် အတိအကျ ကိုက်ညီသည်။ Sayar ဇော်မင်း သည် ပုံစံတစ်ခုလုံးကို အနှစ်ချုပ်ပေးခဲ့သည် - Temperature သည် Particle များကို ပို၍ ကြာခဏ Collide ဖြစ်စေခြင်းဖြင့် အဓိက အလုပ်လုပ်ခြင်း မဟုတ်ဘဲ ထို Collision များ များစွာ ပို၍ Successful ဖြစ်လောက်အောင် Energy ရှိစေခြင်းဖြင့် အဓိက အလုပ်လုပ်ခြင်း ဖြစ်သည် -- ထို့ကြောင့် Chemist များသည် 10°C တိုးခြင်းကို Reaction Rate အပေါ် သေးငယ်သော ချိန်ညှိမှုတစ်ခု အဖြစ်မဟုတ်ဘဲ တကယ့် အားကောင်းသော Lever တစ်ခုအဖြစ် သတ်မှတ်ကြသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, roughly how much can a 10°C rise change a typical reaction's rate?",
+            questionMy: "10°C တိုးခြင်းသည် ပုံမှန် Reaction ၏ Rate ကို ခန့်မှန်းခြေ မည်မျှ ပြောင်းလဲစေနိုင်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Roughly double it", "Halve it", "Leave it completely unchanged", "Increase it by exactly 10%"],
+            optionsMy: ["ခန့်မှန်းခြေ နှစ်ဆ", "တစ်ဝက်", "လုံးဝ မပြောင်းလဲစေပါ", "အတိအကျ 10% တိုးစေသည်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's opening claim."],
+            hintsMy: ["ပထမစာပိုဒ်၏ ဖွင့်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does a small temperature rise push a large number of particles over the Ea threshold?",
+            questionMy: "Temperature အနည်းငယ် တိုးခြင်းသည် Particle အများကြီးကို Ea Threshold အထက် အဘယ့်ကြောင့် ရွှေ့ပေးသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The Boltzmann distribution has a long tail rather than a sharp cutoff",
+              "All particles have exactly the same energy",
+              "Temperature has no effect on particle energy at all",
+              "The activation energy always drops to zero",
+            ],
+            optionsMy: [
+              "Boltzmann Distribution သည် ချက်ချင်း ဖြတ်တောက်ခြင်းမဟုတ်ဘဲ Tail ရှည် ရှိသည်",
+              "Particle အားလုံးသည် Energy အတိအကျ တူညီသည်",
+              "Temperature သည် Particle Energy အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+              "Activation Energy သည် Zero သို့ အမြဲ ကျဆင်းသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, how does temperature mainly increase reaction rate?",
+            questionMy: "Temperature သည် Reaction Rate ကို အဓိက မည်သို့ တိုးစေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "By making a much larger fraction of collisions energetic enough to succeed",
+              "By making particles collide more often only",
+              "By changing the identity of the reactants",
+              "It has no real effect on rate at all",
+            ],
+            optionsMy: [
+              "Collision များစွာ ပို၍ Successful ဖြစ်လောက်အောင် Energy ရှိစေခြင်းဖြင့်",
+              "Particle များ ပို၍ ကြာခဏ Collide ဖြစ်စေခြင်းဖြင့်သာ",
+              "Reactant များ၏ Identity ကို ပြောင်းလဲခြင်းဖြင့်",
+              "Rate အပေါ် တကယ့် သက်ရောက်မှု လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ အနှစ်ချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: The Rate Constant and Arrhenius",
+      titleMy: "ပညရသပတ် ပြန်လည်သုံးသပ်ခြင်း - Rate Constant နှင့် Arrhenius",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The rate constant k depends on...",
+          questionMy: "Rate Constant k သည် ...အပေါ် မူတည်သည်",
+          optionsEn: ["Temperature and catalysts", "Concentration only", "Volume only", "Colour only"],
+          optionsMy: ["Temperature နှင့် Catalyst", "Concentration တစ်ခုတည်း", "Volume တစ်ခုတည်း", "အရောင် တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In the Arrhenius equation, Ea represents...",
+          questionMy: "Arrhenius Equation တွင် Ea သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: ["Activation energy", "Absolute temperature", "The rate constant", "Concentration"],
+          optionsMy: ["Activation Energy", "Absolute Temperature", "Rate Constant", "Concentration"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A catalyst speeds up a reaction by...",
+          questionMy: "Catalyst တစ်ခုသည် Reaction ကို ...ဖြင့် မြန်ဆန်စေသည်",
+          optionsEn: ["Lowering the activation energy", "Raising the temperature", "Increasing concentration", "Removing products"],
+          optionsMy: ["Activation Energy ကို လျှော့ချခြင်း", "Temperature တိုးမြှင့်ခြင်း", "Concentration တိုးမြှင့်ခြင်း", "Product များ ဖယ်ရှားခြင်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16 (Boss Week): "Reaction Mechanisms and the Rate-Determining Step"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek16 = CourseWeekDef(
+  id: "course-y13-chem-w16",
+  weekNumber: 16,
+  titleEn: "Reaction Mechanisms and the Rate-Determining Step",
+  titleMy: "Reaction Mechanism များနှင့် Rate-Determining Step",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w16-d1",
+      dayNumber: 1,
+      titleEn: "Mechanisms and the Rate-Determining Step",
+      titleMy: "Mechanism များနှင့် Rate-Determining Step",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A reaction mechanism is...",
+          questionMy: "Reaction Mechanism ဆိုသည်မှာ...",
+          optionsEn: [
+            "A series of simple steps that together make up the overall reaction",
+            "Always identical to the overall balanced equation in one step",
+            "A way of naming the products only",
+            "Unrelated to the rate equation",
+          ],
+          optionsMy: [
+            "Overall Reaction ကို ပေါင်းစပ်ဖြစ်ပေါ်စေသော ရိုးရှင်းသော Step ဆက်တိုက်များ",
+            "Overall Balanced Equation နှင့် Step တစ်ခုတည်းတွင် အမြဲ တူညီသည်",
+            "Product များကိုသာ အမည်တပ်ခြင်း",
+            "Rate Equation နှင့် မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A mechanism breaks a reaction that looks like one step in the balanced equation into the actual smaller elementary steps it really goes through.",
+          ],
+          hintsMy: [
+            "Mechanism တစ်ခုသည် Balanced Equation တွင် Step တစ်ခုတည်းလို ပေါ်နေသော Reaction ကို တကယ်တမ်း ဖြတ်သန်းသော Elementary Step သေးငယ်များအဖြစ် ခွဲခြမ်းပြသသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The rate-determining step (RDS) of a mechanism is...",
+          questionMy: "Mechanism တစ်ခု၏ Rate-Determining Step (RDS) ဆိုသည်မှာ...",
+          optionsEn: [
+            "The slowest step, which controls the overall rate of reaction",
+            "Always the very first step written down",
+            "The step that never involves any reactant",
+            "The fastest step in the mechanism",
+          ],
+          optionsMy: [
+            "Overall Rate of Reaction ကို ထိန်းချုပ်သော အနှေးဆုံး Step",
+            "ရေးသားထားသော ပထမဆုံး Step အမြဲ",
+            "Reactant မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်သော Step",
+            "Mechanism ထဲရှိ အမြန်ဆုံး Step",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Like traffic backing up behind the slowest car, the overall reaction can only go as fast as its slowest individual step.",
+          ],
+          hintsMy: [
+            "အနှေးဆုံး ကားနောက်တွင် ယာဉ်ရှည်တန်းလို Overall Reaction သည် ၎င်း၏ အနှေးဆုံး Individual Step ကဲ့သို့သာ မြန်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For a mechanism to be consistent with an experimentally found rate equation, the rate-determining step must contain...",
+          questionMy: "Mechanism တစ်ခု Experiment ဖြင့် ရှာတွေ့ထားသော Rate Equation နှင့် ကိုက်ညီရန် Rate-Determining Step တွင် ...ပါဝင်ရမည်",
+          optionsEn: [
+            "Exactly the species that appear in the rate equation, up to and including the RDS",
+            "Every single species in the overall balanced equation",
+            "Only species that appear in later, faster steps",
+            "No reactants at all",
+          ],
+          optionsMy: [
+            "Rate Equation ထဲတွင် ပေါ်ပါသော Species များ အတိအကျ၊ RDS အထိ ပါဝင်",
+            "Overall Balanced Equation ထဲရှိ Species တစ်ခုစီ",
+            "နောက်ပိုင်း၊ ပိုမြန်သော Step များတွင် ပေါ်ပါသော Species များသာ",
+            "Reactant မည်သည့်တစ်ခုမျှ လုံးဝ မပါဝင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The rate equation only reflects species involved up to and including the rate-determining step -- anything only appearing in a later, faster step is invisible to the rate equation.",
+          ],
+          hintsMy: [
+            "Rate Equation သည် Rate-Determining Step အထိ ပါဝင်သော Species များကိုသာ ထင်ဟပ်ပြသည် -- နောက်ပိုင်း၊ ပိုမြန်သော Step တွင်သာ ပေါ်ပါသော Species မည်သည့်တစ်ခုမျှ Rate Equation တွင် မမြင်ရပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Mechanism Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Mechanism ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w16-dm-1",
+          termEn: "Reaction mechanism",
+          termMy: "Reaction Mechanism",
+          matchEn: "The series of elementary steps a reaction actually proceeds through",
+          matchMy: "Reaction တစ်ခု တကယ်တမ်း ဖြတ်သန်းသော Elementary Step ဆက်တိုက်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w16-dm-2",
+          termEn: "Rate-determining step (RDS)",
+          termMy: "Rate-Determining Step (RDS)",
+          matchEn: "The slowest step in a mechanism, which controls the overall rate",
+          matchMy: "Mechanism ထဲရှိ အနှေးဆုံး Step၊ Overall Rate ကို ထိန်းချုပ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w16-dm-3",
+          termEn: "Intermediate",
+          termMy: "Intermediate",
+          matchEn: "A species formed in one step of a mechanism and used up in a later step -- never appears in the overall equation",
+          matchMy: "Mechanism ၏ Step တစ်ခုတွင် ဖြစ်ပေါ်ပြီး နောက်ပိုင်း Step တွင် ကုန်ဆုံးသွားသော Species -- Overall Equation ထဲတွင် လုံးဝ မပေါ်ပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w16-dm-4",
+          termEn: "Elementary step",
+          termMy: "Elementary Step",
+          matchEn: "One single simple step within a mechanism, e.g. two molecules colliding directly",
+          matchMy: "Mechanism အတွင်းရှိ ရိုးရှင်းသော Step တစ်ခုတည်း၊ ဥပမာ - Molecule နှစ်ခု တိုက်ရိုက် Collide ဖြစ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w16-dm-5",
+          termEn: "Mechanism consistent with the rate equation",
+          termMy: "Rate Equation နှင့် ကိုက်ညီသော Mechanism",
+          matchEn: "One where the species in the RDS (and any steps before it) exactly match the rate equation's terms",
+          matchMy: "RDS (နှင့် ၎င်းရှေ့ Step များ) ထဲရှိ Species များသည် Rate Equation ၏ Term များနှင့် အတိအကျ ကိုက်ညီသော Mechanism",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Appears in the Rate Equation or Not?",
+      titleMy: "စီစစ်ကြမည် - Rate Equation ထဲတွင် ပေါ်လား မပေါ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: [
+          "Appears in the Rate Equation (Involved in or Before the RDS)",
+          "Does Not Appear (Only in a Later, Faster Step)",
+        ],
+        bucketsMy: [
+          "Rate Equation ထဲတွင် ပေါ် (RDS ထဲ သို့မဟုတ် RDS ရှေ့တွင် ပါဝင်)",
+          "မပေါ် (နောက်ပိုင်း၊ ပိုမြန်သော Step တွင်သာ)",
+        ],
+        items: [
+          SortingItem(
+            id: "y13chem-w16-sort-1",
+            labelEn: "A reactant consumed in the slow, rate-determining step",
+            labelMy: "နှေးကွေးသော Rate-Determining Step တွင် ကုန်ဆုံးသွားသော Reactant",
+            correctBucketEn: "Appears in the Rate Equation (Involved in or Before the RDS)",
+            correctBucketMy: "Rate Equation ထဲတွင် ပေါ် (RDS ထဲ သို့မဟုတ် RDS ရှေ့တွင် ပါဝင်)",
+          ),
+          SortingItem(
+            id: "y13chem-w16-sort-2",
+            labelEn: "A reactant only consumed in a fast step that happens after the RDS",
+            labelMy: "RDS ပြီးနောက် ဖြစ်ပေါ်သော Fast Step တွင်သာ ကုန်ဆုံးသွားသော Reactant",
+            correctBucketEn: "Does Not Appear (Only in a Later, Faster Step)",
+            correctBucketMy: "မပေါ် (နောက်ပိုင်း၊ ပိုမြန်သော Step တွင်သာ)",
+          ),
+          SortingItem(
+            id: "y13chem-w16-sort-3",
+            labelEn: "A catalyst regenerated after being used in the RDS",
+            labelMy: "RDS တွင် အသုံးပြုပြီးနောက် ပြန်လည် ဖြစ်ပေါ်လာသော Catalyst",
+            correctBucketEn: "Appears in the Rate Equation (Involved in or Before the RDS)",
+            correctBucketMy: "Rate Equation ထဲတွင် ပေါ် (RDS ထဲ သို့မဟုတ် RDS ရှေ့တွင် ပါဝင်)",
+          ),
+          SortingItem(
+            id: "y13chem-w16-sort-4",
+            labelEn: "An intermediate that only forms after the slow step is already complete",
+            labelMy: "နှေးကွေးသော Step ပြီးဆုံးပြီးနောက်သာ ဖြစ်ပေါ်လာသော Intermediate",
+            correctBucketEn: "Does Not Appear (Only in a Later, Faster Step)",
+            correctBucketMy: "မပေါ် (နောက်ပိုင်း၊ ပိုမြန်သော Step တွင်သာ)",
+          ),
+          SortingItem(
+            id: "y13chem-w16-sort-5",
+            labelEn: "A reactant present at the very start of the rate-determining step",
+            labelMy: "Rate-Determining Step ၏ အစတွင် ပါဝင်နေသော Reactant",
+            correctBucketEn: "Appears in the Rate Equation (Involved in or Before the RDS)",
+            correctBucketMy: "Rate Equation ထဲတွင် ပေါ် (RDS ထဲ သို့မဟုတ် RDS ရှေ့တွင် ပါဝင်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deducing a Mechanism from a Rate Equation",
+      titleMy: "စာဖတ်ခြင်း - Rate Equation မှ Mechanism ကို ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deducing a Mechanism from a Rate Equation",
+        titleMy: "Rate Equation မှ Mechanism ကို ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min closed the term with the classic reaction between nitrogen dioxide and carbon monoxide: NO2 + CO -> NO + CO2. Experiments had established the rate equation as rate = k[NO2]², with no dependence on [CO] at all -- CO's order was zero. He asked Htet Aung to propose a two-step mechanism consistent with this.\n\nHtet Aung reasoned it through using everything from the term. Since the rate equation only involves [NO2]², squared, the rate-determining step had to involve two molecules of NO2 colliding with each other, and nothing else -- so he proposed Step 1 (slow): NO2 + NO2 -> NO3 + NO, forming an intermediate, NO3, that appears in neither the overall equation nor the rate equation, since it's consumed before the reaction finishes. Because CO had zero order, he made sure CO appeared nowhere in this slow step.\n\nFor Step 2, Htet Aung needed to use up the intermediate NO3 and produce the final products, while introducing CO exactly once (matching the overall equation's 1:1 CO to product ratio) and keeping it out of the rate equation entirely: Step 2 (fast): NO3 + CO -> NO2 + CO2. Adding Steps 1 and 2 together, the NO3 intermediate cancelled out and one NO2 on each side also cancelled, leaving exactly NO2 + CO -> NO + CO2 -- the correct overall equation. Sayar Zaw Min confirmed the mechanism was fully consistent: CO's absence from the rate equation was explained because it only appears in the fast Step 2, invisible to the rate-determining Step 1, and the whole term's ideas -- orders of reaction, rate equations, activation energy, and now mechanisms -- had converged onto a single coherent chemical story.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Nitrogen Dioxide နှင့် Carbon Monoxide ကြား Classic Reaction ဖြင့် Term ကို ပိတ်ခဲ့သည် - NO2 + CO -> NO + CO2 ။ Experiment များက Rate Equation ကို rate = k[NO2]² ဟု သတ်မှတ်ခဲ့ပြီး [CO] နှင့် လုံးဝ မသက်ဆိုင်ပါ -- CO ၏ Order သည် Zero ဖြစ်သည်။ ဤနှင့် ကိုက်ညီသော Two-Step Mechanism တစ်ခုကို အကြံပြုခိုင်းစေခဲ့သည်။\n\nHtet Aung သည် Term တစ်ခုလုံးမှ အရာအားလုံးကို အသုံးပြု၍ ဆင်ခြင်တွေးခေါ်ခဲ့သည်။ Rate Equation တွင် [NO2]², Square ကိုသာ ပါဝင်သောကြောင့် Rate-Determining Step တွင် NO2 Molecule နှစ်ခု အချင်းချင်း Collide ဖြစ်ရမည်ဖြစ်ပြီး အခြားမည်သည့်တစ်ခုမျှ ပါဝင်ရမည် မဟုတ်ပါ -- Step 1 (Slow) ကို အကြံပြုခဲ့သည် - NO2 + NO2 -> NO3 + NO, Intermediate, NO3, ဖြစ်ပေါ်လာပြီး Overall Equation တွင်လည်း Rate Equation တွင်လည်း လုံးဝ မပေါ်ပါ၊ Reaction ပြီးဆုံးမီ ကုန်ဆုံးသွားသောကြောင့် ဖြစ်သည်။ CO ၏ Order သည် Zero ဖြစ်သောကြောင့် ဤ Slow Step တွင် CO မည်သည့်နေရာတွင်မျှ မပေါ်ပါစေရန် သေချာစေခဲ့သည်။\n\nStep 2 အတွက် Htet Aung သည် Intermediate NO3 ကို ကုန်ဆုံးစေရန်နှင့် Final Product များ ထုတ်လုပ်ရန် လိုအပ်ခဲ့ပြီး CO ကို အတိအကျ တစ်ကြိမ် ထည့်သွင်းခဲ့သည် (Overall Equation ၏ CO to Product 1:1 Ratio နှင့် ကိုက်ညီ) ၊ Rate Equation မှ လုံးလုံး ဖယ်ထားခဲ့သည် - Step 2 (Fast): NO3 + CO -> NO2 + CO2 ။ Step 1 နှင့် 2 ကို ပေါင်းထည့်ခြင်းက NO3 Intermediate ကို ပယ်ဖျက်ခဲ့ပြီး ဘက်နှစ်ဖက်ရှိ NO2 တစ်ခုစီကိုလည်း ပယ်ဖျက်ကာ NO2 + CO -> NO + CO2 -- Overall Equation မှန်ကန်စွာ ကျန်ရစ်ခဲ့သည်။ Mechanism သည် လုံးလုံး ကိုက်ညီကြောင်း Sayar ဇော်မင်း အတည်ပြုခဲ့သည် - CO သည် Fast Step 2 တွင်သာ ပေါ်ပြီး Rate-Determining Step 1 တွင် မမြင်ရသောကြောင့် Rate Equation ထဲမှ CO ပျောက်ဆုံးနေခြင်းကို ရှင်းပြနိုင်ခဲ့ပြီး Term တစ်ခုလုံး၏ Idea များ -- Orders of Reaction, Rate Equation, Activation Energy, နှင့် ယခု Mechanism များ -- သည် Chemical Story တစ်ခုတည်း ညီညွတ်စွာ ပေါင်းစည်းလာခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was Step 1 of the proposed mechanism?",
+            questionMy: "အကြံပြုထားသော Mechanism ၏ Step 1 ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "NO2 + NO2 -> NO3 + NO (slow)",
+              "NO3 + CO -> NO2 + CO2 (fast)",
+              "NO2 + CO -> NO + CO2 (one step)",
+              "CO + CO -> C2O2 (slow)",
+            ],
+            optionsMy: [
+              "NO2 + NO2 -> NO3 + NO (Slow)",
+              "NO3 + CO -> NO2 + CO2 (Fast)",
+              "NO2 + CO -> NO + CO2 (Step တစ်ခုတည်း)",
+              "CO + CO -> C2O2 (Slow)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's proposed step."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ အကြံပြုထားသော Step ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does CO not appear in the rate equation?",
+            questionMy: "Rate Equation ထဲတွင် CO အဘယ့်ကြောင့် မပေါ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It only appears in the fast Step 2, after the rate-determining step",
+              "CO does not actually react at all",
+              "CO is not present in the overall equation",
+              "The rate equation includes every species regardless of mechanism",
+            ],
+            optionsMy: [
+              "Rate-Determining Step ပြီးနောက် Fast Step 2 တွင်သာ ပေါ်သည်",
+              "CO သည် တကယ်တမ်း လုံးဝ Reaction မဖြစ်ပါ",
+              "CO သည် Overall Equation ထဲတွင် မပါဝင်ပါ",
+              "Rate Equation သည် Mechanism မည်သို့ပင်ရှိစေ Species အားလုံး ပါဝင်သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what happened to the NO3 intermediate when the two steps were added together?",
+            questionMy: "Step နှစ်ခု ပေါင်းထည့်ခြင်းတွင် NO3 Intermediate မည်သို့ ဖြစ်သွားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It cancelled out, leaving the correct overall equation",
+              "It appeared in the final overall equation",
+              "It became a final product",
+              "It was never actually used up",
+            ],
+            optionsMy: [
+              "ပယ်ဖျက်သွားပြီး Overall Equation မှန်ကန်စွာ ကျန်ရစ်ခဲ့သည်",
+              "Final Overall Equation ထဲတွင် ပေါ်လာသည်",
+              "Final Product တစ်ခု ဖြစ်လာသည်",
+              "တကယ်တမ်း လုံးဝ မကုန်ဆုံးခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final sentences."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံး ဝါကျများကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Reaction Mechanisms",
+      titleMy: "ဆဠသပတ် ပြန်လည်သုံးသပ်ခြင်း - Reaction Mechanism များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The rate-determining step is...",
+          questionMy: "Rate-Determining Step ဆိုသည်မှာ...",
+          optionsEn: ["The slowest step in a mechanism", "The fastest step in a mechanism", "Always the last step", "Unrelated to reaction rate"],
+          optionsMy: ["Mechanism ထဲရှိ အနှေးဆုံး Step", "Mechanism ထဲရှိ အမြန်ဆုံး Step", "အမြဲ နောက်ဆုံး Step", "Reaction Rate နှင့် မသက်ဆိုင်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An intermediate in a mechanism is...",
+          questionMy: "Mechanism တစ်ခုထဲရှိ Intermediate ဆိုသည်မှာ...",
+          optionsEn: [
+            "Formed in one step and used up in a later step",
+            "Present in the final overall equation",
+            "The same as a catalyst",
+            "Always the rate-determining species",
+          ],
+          optionsMy: [
+            "Step တစ်ခုတွင် ဖြစ်ပေါ်ပြီး နောက်ပိုင်း Step တွင် ကုန်ဆုံးသွားသည်",
+            "Final Overall Equation ထဲတွင် ပေါ်နေသည်",
+            "Catalyst နှင့် တူညီသည်",
+            "Rate-Determining Species အမြဲ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A species with zero order in the rate equation most likely...",
+          questionMy: "Rate Equation တွင် Zero Order ရှိသော Species တစ်ခုသည် အများဆုံး...",
+          optionsEn: [
+            "Only appears in a fast step after the RDS",
+            "Is the only species in the rate-determining step",
+            "Is not present in the reaction at all",
+            "Controls the overall rate entirely",
+          ],
+          optionsMy: [
+            "RDS ပြီးနောက် Fast Step တွင်သာ ပေါ်သည်",
+            "Rate-Determining Step ထဲရှိ Species တစ်ခုတည်း ဖြစ်သည်",
+            "Reaction ထဲတွင် လုံးဝ မပါဝင်ပါ",
+            "Overall Rate ကို လုံးလုံး ထိန်းချုပ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm4 = CourseTermDef(
+  id: "course-y13-chem-term4",
+  termNumber: 4,
+  titleEn: "Reaction Kinetics: Rate Equations and Mechanisms",
+  titleMy: "Reaction Kinetics - Rate Equation များနှင့် Mechanism များ",
+  weeks: [_y13ChemWeek13, _y13ChemWeek14, _y13ChemWeek15, _y13ChemWeek16],
+  certificateTitleEn: "A2 Chemistry: Reaction Kinetics: Rate Equations and Mechanisms",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Reaction Kinetics - Rate Equation များနှင့် Mechanism များ",
+);
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 5: "Transition Elements"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "General Properties of Transition Elements"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek17 = CourseWeekDef(
+  id: "course-y13-chem-w17",
+  weekNumber: 17,
+  titleEn: "General Properties of Transition Elements",
+  titleMy: "Transition Element များ၏ General Property များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w17-d1",
+      dayNumber: 1,
+      titleEn: "Defining a Transition Element",
+      titleMy: "Transition Element အဓိပ္ပာယ်ဖွင့်ဆိုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A transition element is defined as a d-block element that...",
+          questionMy: "Transition Element ကို ...D-Block Element ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: [
+            "Forms at least one stable ion with an incomplete d subshell",
+            "Always has a completely full d subshell in every ion it forms",
+            "Never forms any ions at all",
+            "Only exists in Group 1",
+          ],
+          optionsMy: [
+            "Incomplete d Subshell ရှိသော Stable Ion အနည်းဆုံး တစ်ခု ဖြစ်ပေါ်သော",
+            "ဖြစ်ပေါ်သော Ion တိုင်းတွင် d Subshell လုံးဝ ပြည့်နေသော",
+            "Ion မည်သည့်တစ်ခုမျှ လုံးဝ မဖြစ်ပေါ်သော",
+            "Group 1 တွင်သာ တည်ရှိသော",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The defining test is an incomplete d subshell in at least one stable ion -- this is why scandium and zinc, despite being in the d-block, are excluded.",
+          ],
+          hintsMy: [
+            "သတ်မှတ်ချက် Test သည် Stable Ion အနည်းဆုံး တစ်ခု၌ Incomplete d Subshell ဖြစ်သည် -- ၎င်းသည် Scandium နှင့် Zinc တို့ d-Block တွင် ရှိသော်လည်း ဖယ်ထားရသည့် အကြောင်းရင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Scandium, forming only Sc3+ (electron configuration [Ar], 3d⁰), is excluded from being a transition element because...",
+          questionMy: "Sc3+ (Electron Configuration [Ar], 3d⁰) ကိုသာ ဖြစ်ပေါ်သော Scandium ကို Transition Element အဖြစ်မှ ဖယ်ထားရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Its only ion has a completely empty (not incomplete) d subshell",
+            "It is not actually a metal at all",
+            "It has no electron configuration",
+            "It is not in the d-block",
+          ],
+          optionsMy: [
+            "၎င်း၏ Ion တစ်ခုတည်းသည် လုံးဝ Empty (Incomplete မဟုတ်) d Subshell ရှိသောကြောင့်",
+            "တကယ်တမ်း Metal လုံးဝ မဟုတ်သောကြောင့်",
+            "Electron Configuration လုံးဝ မရှိသောကြောင့်",
+            "d-Block ထဲတွင် မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "An empty d⁰ subshell is not the same as an incomplete one -- Sc3+'s d subshell is fully vacated, not partially filled.",
+          ],
+          hintsMy: [
+            "Empty d⁰ Subshell သည် Incomplete d Subshell နှင့် တူညီခြင်း မဟုတ်ပါ -- Sc3+ ၏ d Subshell သည် အပြည့် ဗလာဖြစ်နေပြီး တစ်စိတ်တစ်ပိုင်း ပြည့်နေခြင်း မဟုတ်ပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which of the following is a general property associated with transition elements?",
+          questionMy: "အောက်ပါတို့အနက် Transition Element များနှင့် ဆက်စပ်သော General Property တစ်ခု ဖော်ပြပါ",
+          optionsEn: [
+            "Variable oxidation states, coloured compounds, and catalytic activity",
+            "Only one fixed oxidation state ever",
+            "Always colourless compounds",
+            "No catalytic activity of any kind",
+          ],
+          optionsMy: [
+            "Variable Oxidation State, Coloured Compound, နှင့် Catalytic Activity",
+            "Fixed Oxidation State တစ်ခုတည်း အမြဲ",
+            "Compound အမြဲ Colourless",
+            "Catalytic Activity မည်သည့်အမျိုးအစားမျှ လုံးဝ မရှိ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Transition elements are famous for exactly these three linked properties: variable oxidation states, coloured ions/compounds, and catalytic behaviour.",
+          ],
+          hintsMy: [
+            "Transition Element များသည် ဆက်စပ်သော Property သုံးခု အတွက် ကျော်ကြားသည် - Variable Oxidation State, Coloured Ion/Compound, နှင့် Catalytic Behaviour ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Transition Element Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Transition Element ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w17-dm-1",
+          termEn: "Transition element",
+          termMy: "Transition Element",
+          matchEn: "A d-block element that forms at least one stable ion with an incomplete d subshell",
+          matchMy: "Incomplete d Subshell ရှိသော Stable Ion အနည်းဆုံး တစ်ခု ဖြစ်ပေါ်သော d-Block Element",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w17-dm-2",
+          termEn: "Variable oxidation state",
+          termMy: "Variable Oxidation State",
+          matchEn: "The ability of a transition element to exist in several different oxidation states, e.g. Fe2+ and Fe3+",
+          matchMy: "Transition Element တစ်ခု Oxidation State မတူညီများစွာဖြင့် တည်ရှိနိုင်စွမ်း၊ ဥပမာ - Fe2+ နှင့် Fe3+",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w17-dm-3",
+          termEn: "Catalytic activity",
+          termMy: "Catalytic Activity",
+          matchEn: "Transition elements and their compounds often speed up reactions, e.g. iron in the Haber process",
+          matchMy: "Transition Element နှင့် ၎င်းတို့၏ Compound များသည် Reaction များကို မကြာခဏ မြန်ဆန်စေသည်၊ ဥပမာ - Haber Process ထဲရှိ Iron",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w17-dm-4",
+          termEn: "Coloured compound (transition metal)",
+          termMy: "Coloured Compound (Transition Metal)",
+          matchEn: "Transition metal ions typically form coloured compounds/solutions, due to their incomplete d subshell",
+          matchMy: "Transition Metal Ion များသည် ၎င်းတို့၏ Incomplete d Subshell ကြောင့် ပုံမှန်အားဖြင့် Coloured Compound/Solution များ ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w17-dm-5",
+          termEn: "d-block element",
+          termMy: "d-Block Element",
+          matchEn: "An element whose highest-energy electrons fill the d subshell, e.g. Sc through Zn",
+          matchMy: "Energy အမြင့်ဆုံး Electron များသည် d Subshell ကို ဖြည့်ပေးသော Element၊ ဥပမာ - Sc မှ Zn",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Transition Element or Not?",
+      titleMy: "စီစစ်ကြမည် - Transition Element ဖြစ်လား မဟုတ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["A Transition Element", "Not a Transition Element"],
+        bucketsMy: ["Transition Element", "Transition Element မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w17-sort-1",
+            labelEn: "Scandium, Sc (forms only Sc3+, d⁰)",
+            labelMy: "Scandium, Sc (Sc3+, d⁰ ကိုသာ ဖြစ်ပေါ်စေသည်)",
+            correctBucketEn: "Not a Transition Element",
+            correctBucketMy: "Transition Element မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w17-sort-2",
+            labelEn: "Titanium, Ti (forms Ti3+, d¹, and Ti4+, d⁰)",
+            labelMy: "Titanium, Ti (Ti3+, d¹ နှင့် Ti4+, d⁰ ဖြစ်ပေါ်စေသည်)",
+            correctBucketEn: "A Transition Element",
+            correctBucketMy: "Transition Element",
+          ),
+          SortingItem(
+            id: "y13chem-w17-sort-3",
+            labelEn: "Iron, Fe (forms Fe2+, d⁶, and Fe3+, d⁵)",
+            labelMy: "Iron, Fe (Fe2+, d⁶ နှင့် Fe3+, d⁵ ဖြစ်ပေါ်စေသည်)",
+            correctBucketEn: "A Transition Element",
+            correctBucketMy: "Transition Element",
+          ),
+          SortingItem(
+            id: "y13chem-w17-sort-4",
+            labelEn: "Zinc, Zn (forms only Zn2+, d¹⁰)",
+            labelMy: "Zinc, Zn (Zn2+, d¹⁰ ကိုသာ ဖြစ်ပေါ်စေသည်)",
+            correctBucketEn: "Not a Transition Element",
+            correctBucketMy: "Transition Element မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w17-sort-5",
+            labelEn: "Copper, Cu (forms Cu+, d¹⁰, and Cu2+, d⁹)",
+            labelMy: "Copper, Cu (Cu+, d¹⁰ နှင့် Cu2+, d⁹ ဖြစ်ပေါ်စေသည်)",
+            correctBucketEn: "A Transition Element",
+            correctBucketMy: "Transition Element",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why Scandium and Zinc Are Excluded",
+      titleMy: "စာဖတ်ခြင်း - Scandium နှင့် Zinc ကို ဖယ်ထားရသည့် အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why Scandium and Zinc Are Excluded",
+        titleMy: "Scandium နှင့် Zinc ကို ဖယ်ထားရသည့် အကြောင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing wrote the whole d-block row on the board, from scandium to zinc, and asked Su Su a question that seemed to contradict everything the class had just learned: why are scandium and zinc, sitting right in the middle of the d-block, not actually classed as transition elements?\n\nSu Su worked through the electron configurations one at a time. Scandium's only common ion is Sc3+, formed by losing its 4s2 and single 3d1 electrons, leaving a configuration of [Ar] -- a d subshell with zero electrons in it. Zinc's only common ion is Zn2+, formed by losing its two 4s electrons only, leaving [Ar]3d10 -- a d subshell completely full with ten electrons. Su Su realised both ions had something in common that disqualified them: neither had an incomplete d subshell, just two opposite extremes of completeness -- totally empty versus totally full.\n\nSayama Moe Moe Khaing then asked her to contrast this with iron, sitting between them in the row. Fe2+ has configuration [Ar]3d6 and Fe3+ has [Ar]3d5 -- both partially filled, neither empty nor full. This partial filling, Su Su now understood, is exactly what gives genuine transition elements their signature properties: an incomplete d subshell allows d electrons to absorb specific wavelengths of visible light (producing colour) and to participate flexibly in bonding and oxidation state changes (enabling catalysis and variable oxidation states) -- none of which scandium's empty d⁰ or zinc's full d10 subshell can do.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် d-Block Row တစ်ခုလုံးကို Scandium မှ Zinc အထိ Board ပေါ်တွင် ရေးခဲ့ပြီး အတန်း ယခုပင် သင်ယူခဲ့သည့် အရာအားလုံးကို ဆန့်ကျင်နေသလို ထင်ရသော မေးခွန်းတစ်ခုကို Su Su ကို မေးခဲ့သည် - d-Block အလယ်တွင် ရှိနေသော Scandium နှင့် Zinc တို့ကို Transition Element များအဖြစ် အဘယ့်ကြောင့် တကယ်တမ်း မသတ်မှတ်ကြသနည်း။\n\nSu Su သည် Electron Configuration များကို တစ်ခုချင်းစီ လုပ်ဆောင်ခဲ့သည်။ Scandium ၏ Common Ion တစ်ခုတည်းသည် Sc3+ ဖြစ်ပြီး ၎င်း၏ 4s2 နှင့် 3d1 Electron တစ်ခုတည်းကို ဆုံးရှုံးကာ [Ar] Configuration ကျန်ရစ်ခဲ့သည် -- Electron Zero ခုသာ ပါဝင်သော d Subshell ဖြစ်သည်။ Zinc ၏ Common Ion တစ်ခုတည်းသည် Zn2+ ဖြစ်ပြီး ၎င်း၏ 4s Electron နှစ်ခုကိုသာ ဆုံးရှုံးကာ [Ar]3d10 ကျန်ရစ်ခဲ့သည် -- Electron ဆယ်ခုဖြင့် လုံးဝ ပြည့်နေသော d Subshell ဖြစ်သည်။ Ion နှစ်ခုစလုံးတွင် ၎င်းတို့ကို ဖယ်ထားစေသော တူညီသည့် အချက်တစ်ခု ရှိကြောင်း Su Su သတိပြုမိခဲ့သည် - Incomplete d Subshell နှစ်ခုလုံး မရှိဘဲ Completeness ဆန့်ကျင်ဖက် Extreme နှစ်ခုသာ ဖြစ်ခဲ့သည် -- လုံးဝ ဗလာ Versus လုံးဝ ပြည့်။\n\nSayama မိုးမိုးခိုင် သည် ထို့နောက် Row ထဲ ၎င်းတို့ကြားတွင် ရှိနေသော Iron နှင့် နှိုင်းယှဉ်ခိုင်းစေခဲ့သည်။ Fe2+ တွင် Configuration [Ar]3d6 ရှိပြီး Fe3+ တွင် [Ar]3d5 ရှိသည် -- နှစ်ခုစလုံး တစ်စိတ်တစ်ပိုင်း ပြည့်နေပြီး ဗလာလည်း မဟုတ် ပြည့်လည်း မဟုတ်ပါ။ ဤ Partial Filling သည် တကယ့် Transition Element များ၏ သတ်မှတ်ချက် Property များကို ပေးအပ်သော အရာ အတိအကျ ဖြစ်ကြောင်း Su Su ယခု နားလည်သွားခဲ့သည် - Incomplete d Subshell တစ်ခုသည် d Electron များကို မြင်နိုင်သော အလင်း၏ Wavelength တစ်ခုချင်းစီ စုပ်ယူစေနိုင်ပြီး (Colour ဖြစ်ပေါ်စေသည်) Bonding နှင့် Oxidation State ပြောင်းလဲမှုတွင် ပြောင်းလွယ်ပြင်လွယ်စွာ ပါဝင်နိုင်စေသည် (Catalysis နှင့် Variable Oxidation State ဖြစ်ပေါ်စေသည်) -- Scandium ၏ Empty d⁰ သို့မဟုတ် Zinc ၏ Full d10 Subshell တို့ ဘာမျှ မလုပ်နိုင်ပါ။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is scandium's ion configuration?",
+            questionMy: "Scandium ၏ Ion Configuration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["[Ar], with a completely empty d subshell", "[Ar]3d10, completely full", "[Ar]3d5, half full", "[Ar]3d6, partially full"],
+            optionsMy: ["[Ar], d Subshell လုံးဝ ဗလာ", "[Ar]3d10, လုံးဝ ပြည့်", "[Ar]3d5, တစ်ဝက် ပြည့်", "[Ar]3d6, တစ်စိတ်တစ်ပိုင်း ပြည့်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's description of scandium."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Scandium ဖော်ပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what do Sc3+ and Zn2+ have in common that excludes them?",
+            questionMy: "Sc3+ နှင့် Zn2+ တို့ကို ဖယ်ထားစေသော တူညီသည့်အချက်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Neither has an incomplete d subshell -- one is empty, the other full",
+              "Both have exactly the same charge",
+              "Both are found only in Group 1",
+              "Neither forms any ion at all",
+            ],
+            optionsMy: [
+              "နှစ်ခုစလုံး Incomplete d Subshell မရှိပါ -- တစ်ခုက ဗလာ၊ တစ်ခုက ပြည့်",
+              "နှစ်ခုစလုံး Charge အတိအကျ တူညီသည်",
+              "နှစ်ခုစလုံး Group 1 တွင်သာ တွေ့ရသည်",
+              "နှစ်ခုစလုံး Ion မည်သည့်တစ်ခုမျှ လုံးဝ မဖြစ်ပေါ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's conclusion."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ နိဂုံးချုပ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what does an incomplete d subshell allow d electrons to do?",
+            questionMy: "Incomplete d Subshell တစ်ခုသည် d Electron များကို မည်သို့ ခွင့်ပြုသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Absorb specific wavelengths of light and participate flexibly in bonding",
+              "Become completely inert and unreactive",
+              "Prevent any colour from forming",
+              "Block all catalytic activity",
+            ],
+            optionsMy: [
+              "အလင်း၏ Wavelength တစ်ခုချင်းစီ စုပ်ယူပြီး Bonding တွင် ပြောင်းလွယ်ပြင်လွယ်စွာ ပါဝင်ခြင်း",
+              "လုံးဝ Inert ဖြစ်ပြီး Reactive မဖြစ်တော့ခြင်း",
+              "Colour ဖြစ်ပေါ်ခြင်းကို လုံးဝ ဟန့်တားခြင်း",
+              "Catalytic Activity အားလုံးကို ပိတ်ဆို့ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Transition Element Properties",
+      titleMy: "သတ္တရသပတ် ပြန်လည်သုံးသပ်ခြင်း - Transition Element Property များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A transition element must form at least one stable ion with...",
+          questionMy: "Transition Element တစ်ခုသည် ...ရှိသော Stable Ion အနည်းဆုံး တစ်ခု ဖြစ်ပေါ်ရမည်",
+          optionsEn: ["An incomplete d subshell", "A completely full d subshell only", "No d subshell at all", "Only s electrons"],
+          optionsMy: ["Incomplete d Subshell", "လုံးဝ ပြည့်နေသော d Subshell တစ်ခုတည်း", "d Subshell လုံးဝ မရှိ", "s Electron များသာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Zinc is excluded from being a transition element because Zn2+ has...",
+          questionMy: "Zinc ကို Transition Element အဖြစ်မှ ဖယ်ထားရသည့် အကြောင်းမှာ Zn2+ တွင်...",
+          optionsEn: ["A completely full d10 subshell", "An empty d0 subshell", "A half-full d5 subshell", "No ions at all"],
+          optionsMy: ["လုံးဝ ပြည့်နေသော d10 Subshell", "ဗလာ d0 Subshell", "တစ်ဝက် ပြည့်နေသော d5 Subshell", "Ion လုံးဝ မရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Coloured compounds, variable oxidation states, and catalytic activity are all linked to...",
+          questionMy: "Coloured Compound, Variable Oxidation State, နှင့် Catalytic Activity အားလုံးသည် ...နှင့် ဆက်စပ်သည်",
+          optionsEn: ["An incomplete d subshell", "A full s subshell", "The absence of any electrons", "Group 1 chemistry"],
+          optionsMy: ["Incomplete d Subshell", "ပြည့်နေသော s Subshell", "Electron မည်သည့်တစ်ခုမျှ မရှိခြင်း", "Group 1 Chemistry"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "Electron Configuration of Transition Metal Ions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek18 = CourseWeekDef(
+  id: "course-y13-chem-w18",
+  weekNumber: 18,
+  titleEn: "Electron Configuration of Transition Metal Ions",
+  titleMy: "Transition Metal Ion များ၏ Electron Configuration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w18-d1",
+      dayNumber: 1,
+      titleEn: "The 4s-Before-3d Rule for Ions",
+      titleMy: "Ion များအတွက် 4s-Before-3d Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "When a transition metal atom forms an ion, which electrons are always removed first?",
+          questionMy: "Transition Metal Atom တစ်ခု Ion ဖြစ်ပေါ်လာသောအခါ မည်သည့် Electron များကို အမြဲ ဦးစွာ ဖယ်ရှားသနည်း",
+          optionsEn: [
+            "The 4s electrons, before any 3d electrons",
+            "The 3d electrons, before any 4s electrons",
+            "Electrons are removed randomly",
+            "Only 1s electrons are ever removed",
+          ],
+          optionsMy: [
+            "4s Electron များကို 3d Electron မည်သည့်တစ်ခုမျှ မဖယ်ရှားမီ",
+            "3d Electron များကို 4s Electron မည်သည့်တစ်ခုမျှ မဖယ်ရှားမီ",
+            "Electron များကို ကျပန်း ဖယ်ရှားသည်",
+            "1s Electron များကိုသာ အမြဲ ဖယ်ရှားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Even though 4s fills before 3d in a neutral atom, once ion formation begins, the 4s electrons are always the first to be lost -- this is a well-known exception worth memorising.",
+          ],
+          hintsMy: [
+            "Neutral Atom တစ်ခုတွင် 4s သည် 3d ရှေ့တွင် ဖြည့်သော်လည်း Ion ဖြစ်ပေါ်စတင်သည်နှင့် 4s Electron များသည် အမြဲ ဦးစွာ ဆုံးရှုံးသည် -- ၎င်းသည် မှတ်သားထိုက်သော ကျော်ကြားသော Exception ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A neutral iron atom, Fe, has the configuration [Ar]3d64s2. The configuration of Fe2+ is...",
+          questionMy: "Neutral Iron Atom, Fe, တွင် Configuration [Ar]3d64s2 ရှိသည်။ Fe2+ ၏ Configuration သည်...",
+          optionsEn: ["[Ar]3d6", "[Ar]3d4", "[Ar]3d8", "[Ar]3d64s0"],
+          optionsMy: ["[Ar]3d6", "[Ar]3d4", "[Ar]3d8", "[Ar]3d64s0"],
+          correctIndex: 0,
+          hintsEn: [
+            "Fe2+ has lost two electrons, and since 4s electrons go first, both 4s electrons are removed, leaving the 3d6 untouched: [Ar]3d6.",
+          ],
+          hintsMy: ["Fe2+ သည် Electron နှစ်ခု ဆုံးရှုံးထားပြီး 4s Electron များ ဦးစွာ ဆုံးရှုံးသောကြောင့် 4s နှစ်ခုစလုံး ဖယ်ရှားခံရကာ 3d6 ကို မထိခိုက်စေဘဲ ကျန်ရစ်သည် - [Ar]3d6 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "The configuration of Fe3+ (losing one further electron from Fe2+) is...",
+          questionMy: "Fe2+ မှ Electron နောက်ထပ် တစ်ခု ဆုံးရှုံးကာ ဖြစ်ပေါ်လာသော Fe3+ ၏ Configuration သည်...",
+          optionsEn: ["[Ar]3d5", "[Ar]3d6", "[Ar]3d4", "[Ar]4s1"],
+          optionsMy: ["[Ar]3d5", "[Ar]3d6", "[Ar]3d4", "[Ar]4s1"],
+          correctIndex: 0,
+          hintsEn: [
+            "With no 4s electrons left, the third electron removed must come from the 3d subshell: [Ar]3d6 -> [Ar]3d5.",
+          ],
+          hintsMy: ["4s Electron ကုန်ဆုံးသွားပြီးနောက် တတိယ Electron ကို 3d Subshell မှသာ ဖယ်ရှားရမည် - [Ar]3d6 -> [Ar]3d5 ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Electron Configuration Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Electron Configuration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w18-dm-1",
+          termEn: "3d subshell",
+          termMy: "3d Subshell",
+          matchEn: "The subshell whose partial filling defines transition elements and their behaviour",
+          matchMy: "Transition Element များနှင့် ၎င်းတို့၏ Behaviour ကို သတ်မှတ်ပေးသော Partial Filling ရှိသော Subshell",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w18-dm-2",
+          termEn: "4s subshell",
+          termMy: "4s Subshell",
+          matchEn: "Fills before 3d in a neutral atom, but is always emptied first when an ion forms",
+          matchMy: "Neutral Atom တစ်ခုတွင် 3d ရှေ့ ဖြည့်သော်လည်း Ion ဖြစ်ပေါ်လာသောအခါ အမြဲ ဦးစွာ ဗလာ ဖြစ်သွားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w18-dm-3",
+          termEn: "[Ar] core configuration",
+          termMy: "[Ar] Core Configuration",
+          matchEn: "Shorthand for argon's full electron configuration, used as the starting point for writing 3d/4s configurations",
+          matchMy: "Argon ၏ Full Electron Configuration အတွက် Shorthand၊ 3d/4s Configuration များ ရေးသားရန် Starting Point အဖြစ် အသုံးပြုသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w18-dm-4",
+          termEn: "Fe2+ configuration",
+          termMy: "Fe2+ Configuration",
+          matchEn: "[Ar]3d6 -- both 4s electrons removed, the 3d6 left untouched",
+          matchMy: "[Ar]3d6 -- 4s Electron နှစ်ခုစလုံး ဖယ်ရှားခံရပြီး 3d6 ကို မထိခိုက်စေပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w18-dm-5",
+          termEn: "Fe3+ configuration",
+          termMy: "Fe3+ Configuration",
+          matchEn: "[Ar]3d5 -- after the 4s electrons are gone, a further electron is lost from the 3d subshell itself",
+          matchMy: "[Ar]3d5 -- 4s Electron များ ကုန်ဆုံးပြီးနောက် Electron နောက်ထပ်တစ်ခုကို 3d Subshell ကိုယ်တိုင်မှ ဆုံးရှုံးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Correct or Incorrect Configuration?",
+      titleMy: "စီစစ်ကြမည် - Configuration မှန်လား မှားလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Correct Configuration", "Incorrect Configuration"],
+        bucketsMy: ["Configuration မှန်", "Configuration မှား"],
+        items: [
+          SortingItem(
+            id: "y13chem-w18-sort-1",
+            labelEn: "Fe2+: [Ar]3d6",
+            labelMy: "Fe2+: [Ar]3d6",
+            correctBucketEn: "Correct Configuration",
+            correctBucketMy: "Configuration မှန်",
+          ),
+          SortingItem(
+            id: "y13chem-w18-sort-2",
+            labelEn: "Fe2+: [Ar]3d44s2",
+            labelMy: "Fe2+: [Ar]3d44s2",
+            correctBucketEn: "Incorrect Configuration",
+            correctBucketMy: "Configuration မှား",
+          ),
+          SortingItem(
+            id: "y13chem-w18-sort-3",
+            labelEn: "Cu2+: [Ar]3d9",
+            labelMy: "Cu2+: [Ar]3d9",
+            correctBucketEn: "Correct Configuration",
+            correctBucketMy: "Configuration မှန်",
+          ),
+          SortingItem(
+            id: "y13chem-w18-sort-4",
+            labelEn: "Mn2+: [Ar]4s23d3",
+            labelMy: "Mn2+: [Ar]4s23d3",
+            correctBucketEn: "Incorrect Configuration",
+            correctBucketMy: "Configuration မှား",
+          ),
+          SortingItem(
+            id: "y13chem-w18-sort-5",
+            labelEn: "Cr3+: [Ar]3d3",
+            labelMy: "Cr3+: [Ar]3d3",
+            correctBucketEn: "Correct Configuration",
+            correctBucketMy: "Configuration မှန်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Deriving Iron's Ion Configurations",
+      titleMy: "စာဖတ်ခြင်း - Iron ၏ Ion Configuration များ ရှာဖွေခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Deriving Iron's Ion Configurations",
+        titleMy: "Iron ၏ Ion Configuration များ ရှာဖွေခြင်း",
+        passageEn:
+            "Sayar Zaw Min asked Htet Aung to derive, from scratch, the electron configurations of both common iron ions, starting only from neutral iron's configuration: [Ar]3d64s2. He reminded Htet Aung of the rule that had surprised him the week before: whichever subshell fills last in the neutral atom is not necessarily the one that empties first when an ion forms.\n\nHtet Aung worked through Fe2+ first. Losing two electrons to form a 2+ ion, and knowing 4s electrons are always removed before 3d electrons regardless of filling order, he removed both electrons from the 4s2, leaving the 3d6 completely untouched: [Ar]3d6. He double-checked this made sense -- ten total electrons beyond argon's core in the neutral atom (3d6 + 4s2 = 8, plus argon's 18, totalling iron's 26), minus two for the 2+ charge, leaving 24 electrons total, matching [Ar] (18) + 3d6 (6) = 24.\n\nFor Fe3+, Htet Aung needed to remove one more electron beyond Fe2+'s [Ar]3d6. Since the 4s subshell was already empty, this third electron had to come from the 3d subshell itself, giving [Ar]3d5. Sayar Zaw Min pointed out something worth noticing: 3d5 is a half-filled subshell, which chemists consider especially stable due to the extra symmetry of having one electron in each of the five d orbitals -- part of why Fe3+ is a common, stable oxidation state for iron, alongside Fe2+, and exactly the kind of variable-oxidation-state behaviour the term's first week had introduced as a defining transition element property.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Iron Common Ion နှစ်ခုစလုံး၏ Electron Configuration ကို Neutral Iron ၏ Configuration, [Ar]3d64s2 မှ သီးသန့် စတင်၍ ရှာဖွေခိုင်းစေခဲ့သည်။ ယခင်ပတ်က Htet Aung ကို အံ့သြစေခဲ့သော Rule ကို ပြန်သတိပေးခဲ့သည် - Neutral Atom တွင် နောက်ဆုံး ဖြည့်သော Subshell သည် Ion ဖြစ်ပေါ်လာသောအခါ ဦးစွာ ဗလာ ဖြစ်သွားမည့် Subshell ဖြစ်ချင်မှ ဖြစ်သည်။\n\nHtet Aung သည် Fe2+ ကို ဦးစွာ လုပ်ဆောင်ခဲ့သည်။ 2+ Ion ဖြစ်ရန် Electron နှစ်ခု ဆုံးရှုံးရမည်ဖြစ်ပြီး 4s Electron များသည် Filling Order မည်သို့ပင်ရှိစေ 3d Electron များထက် ဦးစွာ အမြဲ ဖယ်ရှားခံရသည်ကို သိထားသောကြောင့် 4s2 မှ Electron နှစ်ခုစလုံးကို ဖယ်ရှားခဲ့ကာ 3d6 ကို လုံးဝ မထိခိုက်စေဘဲ ချန်ထားခဲ့သည် - [Ar]3d6 ။ ၎င်းသည် အဓိပ္ပာယ်ရှိမရှိ ထပ်စစ်ဆေးခဲ့သည် -- Neutral Atom ထဲ Argon Core ကျော်လွန် Electron စုစုပေါင်း ဆယ်ခု (3d6 + 4s2 = 8, Argon ၏ 18 နှင့်ပေါင်းလျှင် Iron ၏ 26 စုစုပေါင်း) မှ 2+ Charge အတွက် နှစ်ခု နုတ်ခြင်းက Electron 24 ကျန်ရစ်စေပြီး [Ar] (18) + 3d6 (6) = 24 နှင့် ကိုက်ညီသည်။\n\nFe3+ အတွက် Htet Aung သည် Fe2+ ၏ [Ar]3d6 ထက် Electron နောက်ထပ် တစ်ခု ဖယ်ရှားရန် လိုအပ်ခဲ့သည်။ 4s Subshell သည် ဗလာ ဖြစ်နေပြီးဖြစ်သောကြောင့် ဤ တတိယ Electron ကို 3d Subshell ကိုယ်တိုင်မှသာ ရယူရမည်ဖြစ်ကာ [Ar]3d5 ရရှိသည်။ သတိပြုထိုက်သော အချက်တစ်ခုကို Sayar ဇော်မင်း ထောက်ပြခဲ့သည် - 3d5 သည် Half-Filled Subshell ဖြစ်ပြီး d Orbital ငါးခုစီတွင် Electron တစ်ခုစီ ရှိခြင်း၏ Extra Symmetry ကြောင့် Chemist များက အထူး Stable ဟု သတ်မှတ်ကြသည် -- Fe2+ နှင့်အတူ Fe3+ သည် Iron အတွက် Common, Stable Oxidation State ဖြစ်ရသည့် အကြောင်းရင်း တစ်စိတ်တစ်ပိုင်း ဖြစ်ပြီး Term ၏ ပထမပတ်တွင် Transition Element ၏ သတ်မှတ်ချက် Property အဖြစ် မိတ်ဆက်ခဲ့သော Variable-Oxidation-State Behaviour အတိအကျ ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is Fe2+'s configuration?",
+            questionMy: "Fe2+ ၏ Configuration ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["[Ar]3d6", "[Ar]3d5", "[Ar]3d64s2", "[Ar]3d8"],
+            optionsMy: ["[Ar]3d6", "[Ar]3d5", "[Ar]3d64s2", "[Ar]3d8"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's derivation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှာဖွေမှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, where does Fe3+'s third removed electron come from?",
+            questionMy: "Fe3+ ၏ ဖယ်ရှားခံရသော တတိယ Electron ကို မည်သည့်နေရာမှ ရယူသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The 3d subshell, since the 4s subshell is already empty",
+              "The 4s subshell, since it fills last",
+              "The 2p subshell",
+              "There is no third electron removed",
+            ],
+            optionsMy: [
+              "3d Subshell, 4s Subshell ဗလာ ဖြစ်နေပြီးဖြစ်သောကြောင့်",
+              "4s Subshell, နောက်ဆုံး ဖြည့်သောကြောင့်",
+              "2p Subshell",
+              "Electron တတိယတစ်ခု ဖယ်ရှားခံရခြင်း လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, why is 3d5 considered especially stable?",
+            questionMy: "3d5 ကို အထူး Stable ဟု အဘယ့်ကြောင့် သတ်မှတ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It is half-filled, with one electron in each of the five d orbitals",
+              "It has no electrons at all",
+              "It is identical to a full d10 subshell",
+              "It never appears in real compounds",
+            ],
+            optionsMy: [
+              "d Orbital ငါးခုစီတွင် Electron တစ်ခုစီဖြင့် Half-Filled ဖြစ်သည်",
+              "Electron လုံးဝ မရှိပါ",
+              "Full d10 Subshell နှင့် တူညီသည်",
+              "တကယ့် Compound များတွင် လုံးဝ မပေါ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's explanation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Ion Electron Configurations",
+      titleMy: "အဋ္ဌာရသပတ် ပြန်လည်သုံးသပ်ခြင်း - Ion Electron Configuration များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "When forming an ion, transition metals lose their...",
+          questionMy: "Ion ဖြစ်ပေါ်စဉ် Transition Metal များသည် ၎င်းတို့၏...ကို ဆုံးရှုံးသည်",
+          optionsEn: ["4s electrons first", "3d electrons first", "1s electrons first", "No electrons at all"],
+          optionsMy: ["4s Electron ဦးစွာ", "3d Electron ဦးစွာ", "1s Electron ဦးစွာ", "Electron လုံးဝ မရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Cu2+ (from neutral Cu, [Ar]3d104s1) has the configuration...",
+          questionMy: "Cu2+ (Neutral Cu, [Ar]3d104s1 မှ) တွင် Configuration...",
+          optionsEn: ["[Ar]3d9", "[Ar]3d10", "[Ar]3d84s1", "[Ar]4s1"],
+          optionsMy: ["[Ar]3d9", "[Ar]3d10", "[Ar]3d84s1", "[Ar]4s1"],
+          correctIndex: 0,
+          hintsEn: ["Losing the single 4s1 electron first, then one more from 3d10, gives [Ar]3d9."],
+          hintsMy: ["4s1 Electron တစ်ခုတည်း ဦးစွာ ဆုံးရှုံးပြီး 3d10 မှ နောက်ထပ်တစ်ခု ဆုံးရှုံးလျှင် [Ar]3d9 ရရှိသည်။"],
+        ),
+        QuizQuestion(
+          questionEn: "A half-filled d5 subshell is considered...",
+          questionMy: "Half-Filled d5 Subshell ကို ...ဟု သတ်မှတ်သည်",
+          optionsEn: ["Especially stable, due to extra symmetry", "Always unstable", "Impossible to form", "Identical to d0"],
+          optionsMy: ["Extra Symmetry ကြောင့် အထူး Stable", "အမြဲ Unstable", "ဖြစ်ပေါ်၍ လုံးဝ မရနိုင်ပါ", "d0 နှင့် တူညီသည်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Ligands and Complex Ion Formation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek19 = CourseWeekDef(
+  id: "course-y13-chem-w19",
+  weekNumber: 19,
+  titleEn: "Ligands and Complex Ion Formation",
+  titleMy: "Ligand များနှင့် Complex Ion ဖြစ်ပေါ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w19-d1",
+      dayNumber: 1,
+      titleEn: "Ligands, Coordination Number and Shape",
+      titleMy: "Ligand, Coordination Number နှင့် Shape",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A ligand is defined as a species that...",
+          questionMy: "Ligand ကို ...Species ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: [
+            "Donates a lone pair of electrons to a central metal ion via a dative (coordinate) bond",
+            "Always has a positive charge",
+            "Never has any lone pairs at all",
+            "Only exists as a solid",
+          ],
+          optionsMy: [
+            "Central Metal Ion သို့ Dative (Coordinate) Bond ဖြင့် Electron Lone Pair တစ်စုံ ပေးအပ်သော",
+            "အမြဲ Positive Charge ရှိသော",
+            "Lone Pair မည်သည့်တစ်ခုမျှ လုံးဝ မရှိသော",
+            "Solid အဖြစ်သာ တည်ရှိသော",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A ligand supplies both electrons for the bond (a dative/coordinate bond), coming from a lone pair it already has -- H2O, NH3, and Cl⁻ are all common examples.",
+          ],
+          hintsMy: [
+            "Ligand တစ်ခုသည် ၎င်းရှိပြီးသား Lone Pair တစ်ခုမှ Bond အတွက် Electron နှစ်ခုစလုံးကို ပေးအပ်သည် (Dative/Coordinate Bond) -- H2O, NH3, နှင့် Cl⁻ တို့သည် Common Example များ ဖြစ်ကြသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The coordination number of a complex ion is defined as...",
+          questionMy: "Complex Ion တစ်ခု၏ Coordination Number ကို ...ဟု အဓိပ္ပာယ်ဖွင့်ဆိုသည်",
+          optionsEn: [
+            "The number of dative bonds from ligands to the central metal ion",
+            "The overall charge on the complex ion",
+            "The number of electrons on the central metal atom only",
+            "The molar mass of the complex",
+          ],
+          optionsMy: [
+            "Ligand များမှ Central Metal Ion သို့ Dative Bond အရေအတွက်",
+            "Complex Ion ပေါ်ရှိ Overall Charge",
+            "Central Metal Atom ပေါ်ရှိ Electron အရေအတွက်တစ်ခုတည်း",
+            "Complex ၏ Molar Mass",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Coordination number simply counts how many dative bonds surround the central metal ion -- 6 for octahedral, 4 for tetrahedral or square planar.",
+          ],
+          hintsMy: [
+            "Coordination Number သည် Central Metal Ion ကို ဝန်းရံထားသော Dative Bond အရေအတွက်ကိုသာ ရေတွက်သည် -- Octahedral အတွက် 6, Tetrahedral သို့မဟုတ် Square Planar အတွက် 4 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A complex ion with coordination number 6, like [Cu(H2O)6]2+, typically has which shape?",
+          questionMy: "[Cu(H2O)6]2+ ကဲ့သို့ Coordination Number 6 ရှိသော Complex Ion တစ်ခုသည် ပုံမှန်အားဖြင့် မည်သည့် Shape ရှိသနည်း",
+          optionsEn: ["Octahedral", "Tetrahedral", "Linear", "Square planar"],
+          optionsMy: ["Octahedral", "Tetrahedral", "Linear", "Square Planar"],
+          correctIndex: 0,
+          hintsEn: [
+            "Coordination number 6 arranges ligands at the six vertices of an octahedron around the central metal ion.",
+          ],
+          hintsMy: [
+            "Coordination Number 6 သည် Ligand များကို Central Metal Ion ဝန်းရံသော Octahedron ၏ Vertex ခြောက်ခုတွင် စီစဉ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ligand and Complex Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ligand and Complex ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w19-dm-1",
+          termEn: "Ligand",
+          termMy: "Ligand",
+          matchEn: "A species that donates a lone pair to a central metal ion via a dative bond",
+          matchMy: "Central Metal Ion သို့ Dative Bond ဖြင့် Lone Pair ပေးအပ်သော Species",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w19-dm-2",
+          termEn: "Coordination number",
+          termMy: "Coordination Number",
+          matchEn: "The number of dative bonds from ligands surrounding the central metal ion",
+          matchMy: "Central Metal Ion ကို ဝန်းရံသော Ligand များမှ Dative Bond အရေအတွက်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w19-dm-3",
+          termEn: "Dative (coordinate) bond",
+          termMy: "Dative (Coordinate) Bond",
+          matchEn: "A covalent bond where both shared electrons come from just one atom -- the ligand",
+          matchMy: "Ligand တစ်ခုတည်းမှ Share ထားသော Electron နှစ်ခုစလုံး လာသော Covalent Bond",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w19-dm-4",
+          termEn: "Monodentate ligand",
+          termMy: "Monodentate Ligand",
+          matchEn: "A ligand that forms exactly one dative bond to the metal ion, e.g. H2O, NH3, Cl⁻",
+          matchMy: "Metal Ion သို့ Dative Bond တစ်ခုတည်း ဖြစ်ပေါ်စေသော Ligand၊ ဥပမာ - H2O, NH3, Cl⁻",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w19-dm-5",
+          termEn: "Bidentate ligand",
+          termMy: "Bidentate Ligand",
+          matchEn: "A ligand that forms two dative bonds to the metal ion using two separate lone pairs, e.g. 1,2-diaminoethane",
+          matchMy: "Metal Ion သို့ သီးခြား Lone Pair နှစ်ခု အသုံးပြု၍ Dative Bond နှစ်ခု ဖြစ်ပေါ်စေသော Ligand၊ ဥပမာ - 1,2-Diaminoethane",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Monodentate or Bidentate Ligand?",
+      titleMy: "စီစစ်ကြမည် - Monodentate သို့မဟုတ် Bidentate Ligand",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Monodentate (One Dative Bond)", "Bidentate (Two Dative Bonds)"],
+        bucketsMy: ["Monodentate (Dative Bond တစ်ခု)", "Bidentate (Dative Bond နှစ်ခု)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w19-sort-1",
+            labelEn: "Water, H2O",
+            labelMy: "Water, H2O",
+            correctBucketEn: "Monodentate (One Dative Bond)",
+            correctBucketMy: "Monodentate (Dative Bond တစ်ခု)",
+          ),
+          SortingItem(
+            id: "y13chem-w19-sort-2",
+            labelEn: "Ammonia, NH3",
+            labelMy: "Ammonia, NH3",
+            correctBucketEn: "Monodentate (One Dative Bond)",
+            correctBucketMy: "Monodentate (Dative Bond တစ်ခု)",
+          ),
+          SortingItem(
+            id: "y13chem-w19-sort-3",
+            labelEn: "1,2-diaminoethane, NH2CH2CH2NH2",
+            labelMy: "1,2-Diaminoethane, NH2CH2CH2NH2",
+            correctBucketEn: "Bidentate (Two Dative Bonds)",
+            correctBucketMy: "Bidentate (Dative Bond နှစ်ခု)",
+          ),
+          SortingItem(
+            id: "y13chem-w19-sort-4",
+            labelEn: "Chloride ion, Cl⁻",
+            labelMy: "Chloride Ion, Cl⁻",
+            correctBucketEn: "Monodentate (One Dative Bond)",
+            correctBucketMy: "Monodentate (Dative Bond တစ်ခု)",
+          ),
+          SortingItem(
+            id: "y13chem-w19-sort-5",
+            labelEn: "Ethanedioate ion, C2O4²⁻",
+            labelMy: "Ethanedioate Ion, C2O4²⁻",
+            correctBucketEn: "Bidentate (Two Dative Bonds)",
+            correctBucketMy: "Bidentate (Dative Bond နှစ်ခု)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Building a Copper Complex Ion",
+      titleMy: "စာဖတ်ခြင်း - Copper Complex Ion တည်ဆောက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Building a Copper Complex Ion",
+        titleMy: "Copper Complex Ion တည်ဆောက်ခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing dissolved a spatula of copper(II) sulfate crystals in water in front of the class, and the pale blue solution that formed prompted her question: what exactly is the species responsible for that colour, and how is it built? She asked Nan Su Yati to construct it piece by piece.\n\nNan Su Yati started with the bare Cu2+ ion. In water, she reasoned, Cu2+ does not float around alone -- water molecules, each with two lone pairs on oxygen, act as monodentate ligands and donate a lone pair each to Cu2+ via a dative bond. Six water molecules surround the central Cu2+ ion, giving a coordination number of 6, and she recalled that coordination number 6 arranges ligands octahedrally around the metal.\n\nPutting the whole species together, Nan Su Yati wrote its full formula: [Cu(H2O)6]2+. She checked the overall charge made sense: six neutral water ligands contribute nothing to the charge, so the complex ion's overall charge, 2+, comes entirely from the central Cu2+ ion. Sayama Moe Moe Khaing confirmed this was exactly right, and noted that the pale blue colour itself belonged to this whole complex ion, [Cu(H2O)6]2+, not to bare Cu2+ in isolation -- a detail that would matter a great deal the following week, when the water ligands would be swapped for different ones entirely, and the colour would change along with them.",
+        passageMy:
+            "Sayama မိုးမိုးခိုင် သည် Copper(II) Sulfate Crystal များကို Spatula တစ်ခုစာအား ရေထဲတွင် အတန်းရှေ့တွင် ပျော်ဝင်စေခဲ့ပြီး ဖြစ်ပေါ်လာသော Pale Blue Solution သည် ၎င်း၏ မေးခွန်းကို ဖြစ်ပေါ်စေခဲ့သည် - ထို Colour ကို တာဝန်ရှိသော Species သည် တကယ်တမ်း မည်သည်ဖြစ်ပြီး မည်သို့ တည်ဆောက်ထားသနည်း။ ၎င်းကို အပိုင်းလိုက် တည်ဆောက်ရန် Nan Su Yati ကို ခိုင်းစေခဲ့သည်။\n\nNan Su Yati သည် Bare Cu2+ Ion ဖြင့် စတင်ခဲ့သည်။ ရေထဲတွင် Cu2+ သည် တစ်ကိုယ်တည်း ပေါလောပေါ် ဖြစ်၍ မနေဟု ဆင်ခြင်တွေးခေါ်ခဲ့သည် -- Oxygen ပေါ်တွင် Lone Pair နှစ်စုံစီ ရှိသော Water Molecule များသည် Monodentate Ligand အဖြစ် ဆောင်ရွက်ကာ Dative Bond ဖြင့် Cu2+ သို့ Lone Pair တစ်စုံစီ ပေးအပ်သည်။ Water Molecule ခြောက်ခုသည် Central Cu2+ Ion ကို ဝန်းရံထားပြီး Coordination Number 6 ပေးအပ်ကာ Coordination Number 6 သည် Ligand များကို Metal ဝန်းရံ Octahedrally စီစဉ်ပေးကြောင်း သတိရခဲ့သည်။\n\nSpecies တစ်ခုလုံးကို ပေါင်းစပ်ကာ Nan Su Yati သည် ၎င်း၏ Full Formula ကို ရေးခဲ့သည် - [Cu(H2O)6]2+ ။ Overall Charge မှန်ကန်မှု ရှိမရှိ စစ်ဆေးခဲ့သည် - Neutral Water Ligand ခြောက်ခုသည် Charge ထဲသို့ ဘာမျှ ပါဝင်မှု မရှိသောကြောင့် Complex Ion ၏ Overall Charge, 2+, သည် Central Cu2+ Ion မှ လုံးလုံး လာခြင်း ဖြစ်သည်။ ၎င်းသည် အတိအကျ မှန်ကန်ကြောင်း Sayama မိုးမိုးခိုင် အတည်ပြုခဲ့ပြီး Pale Blue Colour ကိုယ်တိုင်သည် Species ဤ Complex Ion, [Cu(H2O)6]2+ တစ်ခုလုံးနှင့် ပိုင်ဆိုင်ပြီး တစ်ကိုယ်တည်း Bare Cu2+ နှင့် ပိုင်ဆိုင်ခြင်း မဟုတ်ကြောင်း သတိပြုစေခဲ့သည် -- ၎င်းသည် နောက်ပတ်တွင် Water Ligand များကို အခြားလုံးလုံး ဖြင့် ဖလှယ်သောအခါ Colour ကလည်း ၎င်းတို့နှင့်အတူ ပြောင်းလဲလိမ့်မည်ဆိုသော အသေးစိတ်တစ်ခု အလွန် အရေးကြီးလိမ့်မည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the full formula of the complex ion formed?",
+            questionMy: "ဖြစ်ပေါ်လာသော Complex Ion ၏ Full Formula ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["[Cu(H2O)6]2+", "[Cu(H2O)4]2+", "[CuH2O]2+", "[Cu(H2O)6]4+"],
+            optionsMy: ["[Cu(H2O)6]2+", "[Cu(H2O)4]2+", "[CuH2O]2+", "[Cu(H2O)6]4+"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's formula."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Formula ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does the complex ion's overall charge come only from Cu2+?",
+            questionMy: "Complex Ion ၏ Overall Charge သည် Cu2+ မှသာ အဘယ့်ကြောင့် လာသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The six neutral water ligands contribute nothing to the overall charge",
+              "Water ligands each carry a 2+ charge",
+              "Copper has no charge at all in the complex",
+              "The complex has no overall charge",
+            ],
+            optionsMy: [
+              "Neutral Water Ligand ခြောက်ခုသည် Overall Charge ထဲသို့ ဘာမျှ ပါဝင်မှု မရှိပါ",
+              "Water Ligand တစ်ခုစီသည် 2+ Charge ဆောင်သည်",
+              "Copper တွင် Complex ထဲ Charge လုံးဝ မရှိပါ",
+              "Complex တွင် Overall Charge လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's charge check."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Charge စစ်ဆေးမှုကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what belongs to the complex ion rather than bare Cu2+?",
+            questionMy: "Bare Cu2+ မဟုတ်ဘဲ Complex Ion ပိုင်ဆိုင်သော အချက်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The pale blue colour",
+              "The 2+ charge",
+              "The atomic mass",
+              "The coordination number is not part of the complex"
+            ],
+            optionsMy: [
+              "Pale Blue Colour",
+              "2+ Charge",
+              "Atomic Mass",
+              "Coordination Number သည် Complex ၏ အစိတ်အပိုင်း မဟုတ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Ligands and Complexes",
+      titleMy: "ဧကူနဝိသတိပတ် ပြန်လည်သုံးသပ်ခြင်း - Ligand များနှင့် Complex များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A ligand bonds to a central metal ion via...",
+          questionMy: "Ligand တစ်ခုသည် Central Metal Ion သို့ ...ဖြင့် Bond ချိတ်သည်",
+          optionsEn: ["A dative (coordinate) bond", "An ionic bond only", "A metallic bond", "No bond at all"],
+          optionsMy: ["Dative (Coordinate) Bond", "Ionic Bond တစ်ခုတည်း", "Metallic Bond", "Bond လုံးဝ မရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Coordination number 6 typically gives which shape?",
+          questionMy: "Coordination Number 6 သည် ပုံမှန်အားဖြင့် မည်သည့် Shape ပေးအပ်သနည်း",
+          optionsEn: ["Octahedral", "Tetrahedral", "Linear", "Trigonal planar"],
+          optionsMy: ["Octahedral", "Tetrahedral", "Linear", "Trigonal Planar"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A bidentate ligand forms how many dative bonds to the metal ion?",
+          questionMy: "Bidentate Ligand တစ်ခုသည် Metal Ion သို့ Dative Bond မည်မျှ ဖြစ်ပေါ်စေသနည်း",
+          optionsEn: ["Two", "One", "Three", "Zero"],
+          optionsMy: ["နှစ်ခု", "တစ်ခု", "သုံးခု", "Zero"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20 (Boss Week): "Ligand Substitution Reactions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek20 = CourseWeekDef(
+  id: "course-y13-chem-w20",
+  weekNumber: 20,
+  titleEn: "Ligand Substitution Reactions",
+  titleMy: "Ligand Substitution Reaction များ",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w20-d1",
+      dayNumber: 1,
+      titleEn: "Substitution, Colour Change and the Chelate Effect",
+      titleMy: "Substitution, Colour Change နှင့် Chelate Effect",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A ligand substitution reaction is one where...",
+          questionMy: "Ligand Substitution Reaction ဆိုသည်မှာ...",
+          optionsEn: [
+            "One ligand in a complex ion is replaced by a different ligand",
+            "The central metal ion itself is replaced entirely",
+            "No bonds change at all",
+            "A complex ion loses its charge completely",
+          ],
+          optionsMy: [
+            "Complex Ion ထဲရှိ Ligand တစ်ခုကို Ligand မတူညီတစ်ခုဖြင့် အစားထိုးခြင်း",
+            "Central Metal Ion ကိုယ်တိုင် လုံးလုံး အစားထိုးခြင်း",
+            "Bond မည်သည့်တစ်ခုမျှ လုံးဝ မပြောင်းလဲပါ",
+            "Complex Ion သည် ၎င်း၏ Charge ကို လုံးလုံး ဆုံးရှုံးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The central metal ion stays the same throughout -- only the ligands surrounding it are swapped out.",
+          ],
+          hintsMy: [
+            "Central Metal Ion သည် တစ်လျှောက်လုံး တူတူပင် ဆက်ရှိနေသည် -- ၎င်းကို ဝန်းရံထားသော Ligand များကိုသာ ဖလှယ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In [Cu(H2O)6]2+ + 4NH3 -> [Cu(NH3)4(H2O)2]2+ + 4H2O, the pale blue solution turns deep blue. This colour change happens because...",
+          questionMy:
+              "[Cu(H2O)6]2+ + 4NH3 -> [Cu(NH3)4(H2O)2]2+ + 4H2O တွင် Pale Blue Solution သည် Deep Blue ဖြစ်လာသည်။ ဤ Colour Change ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Different ligands around the metal ion absorb different wavelengths of light",
+            "The copper ion has been completely removed from solution",
+            "Ammonia is itself coloured deep blue",
+            "The overall charge on the complex has changed",
+          ],
+          optionsMy: [
+            "Metal Ion ဝန်းရံသော Ligand မတူညီများသည် အလင်း၏ Wavelength မတူညီများ စုပ်ယူသောကြောင့်",
+            "Copper Ion ကို Solution မှ လုံးလုံး ဖယ်ရှားလိုက်သောကြောင့်",
+            "Ammonia ကိုယ်တိုင် Deep Blue ရောင်ရှိသောကြောင့်",
+            "Complex ပေါ်ရှိ Overall Charge ပြောင်းလဲသွားသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Swapping the ligands changes the energy gap the d electrons absorb across, so a different colour of visible light is absorbed and a different colour is seen.",
+          ],
+          hintsMy: [
+            "Ligand များ ဖလှယ်ခြင်းသည် d Electron များ စုပ်ယူသော Energy Gap ကို ပြောင်းလဲစေသောကြောင့် မြင်နိုင်သော အလင်း၏ Colour မတူညီသော် စုပ်ယူပြီး Colour မတူညီသော် မြင်ရသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Replacing several monodentate ligands with fewer bidentate ligands (the chelate effect) makes the reaction more favourable mainly because...",
+          questionMy:
+              "Monodentate Ligand များစွာကို Bidentate Ligand နည်းနည်းဖြင့် အစားထိုးခြင်း (Chelate Effect) သည် Reaction ကို ပို၍ ကောင်းမွန်စေသည့် အဓိက အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "More free particles are released overall, increasing entropy",
+            "Bidentate ligands are always heavier",
+            "The overall charge always becomes zero",
+            "Fewer dative bonds form in total",
+          ],
+          optionsMy: [
+            "Free Particle စုစုပေါင်း ပို၍ ထုတ်လွှတ်ကာ Entropy တိုးစေသောကြောင့်",
+            "Bidentate Ligand များသည် အမြဲ ပိုလေးသောကြောင့်",
+            "Overall Charge သည် အမြဲ Zero ဖြစ်လာသောကြောင့်",
+            "Dative Bond စုစုပေါင်း ပိုနည်း ဖြစ်ပေါ်သောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "E.g. replacing 6 monodentate H2O with 3 bidentate ligands releases 6 free H2O molecules -- more separate particles overall, a large positive ΔS favouring the reaction.",
+          ],
+          hintsMy: [
+            "ဥပမာ - Monodentate H2O 6 ခုကို Bidentate Ligand 3 ခုဖြင့် အစားထိုးခြင်းသည် Free H2O Molecule 6 ခု ထုတ်လွှတ်ပေးသည် -- Reaction ကို ကျေနပ်စေသော Particle သီးခြား စုစုပေါင်း ပိုများပြီး Positive ΔS ကြီးမား ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Ligand Substitution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Ligand Substitution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w20-dm-1",
+          termEn: "Ligand substitution reaction",
+          termMy: "Ligand Substitution Reaction",
+          matchEn: "One ligand in a complex ion is replaced by a different ligand, keeping the same central metal ion",
+          matchMy: "Central Metal Ion တူတူပင် ဆက်ထားစဉ် Complex Ion ထဲရှိ Ligand တစ်ခုကို Ligand မတူညီတစ်ခုဖြင့် အစားထိုးခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w20-dm-2",
+          termEn: "Chelate effect",
+          termMy: "Chelate Effect",
+          matchEn: "Bidentate/multidentate ligand substitution is favoured due to a large increase in entropy from releasing many free monodentate ligands",
+          matchMy: "Free Monodentate Ligand များစွာ ထုတ်လွှတ်ခြင်းမှ Entropy သိသိသာသာ တိုးလာသောကြောင့် Bidentate/Multidentate Ligand Substitution ကို ကျေနပ်စေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w20-dm-3",
+          termEn: "Colour change (in ligand substitution)",
+          termMy: "Colour Change (Ligand Substitution တွင်)",
+          matchEn: "Occurs because different ligands change the energy gap d electrons absorb across",
+          matchMy: "Ligand မတူညီများသည် d Electron များ စုပ်ယူသော Energy Gap ကို ပြောင်းလဲစေသောကြောင့် ဖြစ်ပေါ်သည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w20-dm-4",
+          termEn: "Partial substitution",
+          termMy: "Partial Substitution",
+          matchEn: "Only some of the original ligands are replaced, e.g. 4 of 6 water ligands swapped for ammonia",
+          matchMy: "မူလ Ligand အချို့ကိုသာ အစားထိုးထားခြင်း၊ ဥပမာ - Water Ligand 6 ခုအနက် 4 ခုကို Ammonia ဖြင့် ဖလှယ်ခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w20-dm-5",
+          termEn: "Complete substitution",
+          termMy: "Complete Substitution",
+          matchEn: "Every original ligand is replaced by the new ligand",
+          matchMy: "မူလ Ligand တစ်ခုစီကို Ligand အသစ်ဖြင့် အစားထိုးထားခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Full or Partial Substitution?",
+      titleMy: "စီစစ်ကြမည် - Full သို့မဟုတ် Partial Substitution",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Complete Substitution", "Partial Substitution"],
+        bucketsMy: ["Complete Substitution", "Partial Substitution"],
+        items: [
+          SortingItem(
+            id: "y13chem-w20-sort-1",
+            labelEn: "[Cu(H2O)6]2+ + 6NH3 -> [Cu(NH3)6]2+ + 6H2O",
+            labelMy: "[Cu(H2O)6]2+ + 6NH3 -> [Cu(NH3)6]2+ + 6H2O",
+            correctBucketEn: "Complete Substitution",
+            correctBucketMy: "Complete Substitution",
+          ),
+          SortingItem(
+            id: "y13chem-w20-sort-2",
+            labelEn: "[Cu(H2O)6]2+ + 4NH3 -> [Cu(NH3)4(H2O)2]2+ + 4H2O",
+            labelMy: "[Cu(H2O)6]2+ + 4NH3 -> [Cu(NH3)4(H2O)2]2+ + 4H2O",
+            correctBucketEn: "Partial Substitution",
+            correctBucketMy: "Partial Substitution",
+          ),
+          SortingItem(
+            id: "y13chem-w20-sort-3",
+            labelEn: "[Cu(H2O)6]2+ + 4Cl⁻ -> [CuCl4]2⁻ + 6H2O",
+            labelMy: "[Cu(H2O)6]2+ + 4Cl⁻ -> [CuCl4]2⁻ + 6H2O",
+            correctBucketEn: "Complete Substitution",
+            correctBucketMy: "Complete Substitution",
+          ),
+          SortingItem(
+            id: "y13chem-w20-sort-4",
+            labelEn: "[Co(H2O)6]2+ + 2Cl⁻ -> [Co(H2O)4Cl2] + 2H2O",
+            labelMy: "[Co(H2O)6]2+ + 2Cl⁻ -> [Co(H2O)4Cl2] + 2H2O",
+            correctBucketEn: "Partial Substitution",
+            correctBucketMy: "Partial Substitution",
+          ),
+          SortingItem(
+            id: "y13chem-w20-sort-5",
+            labelEn: "[Ni(H2O)6]2+ + 6NH3 -> [Ni(NH3)6]2+ + 6H2O",
+            labelMy: "[Ni(H2O)6]2+ + 6NH3 -> [Ni(NH3)6]2+ + 6H2O",
+            correctBucketEn: "Complete Substitution",
+            correctBucketMy: "Complete Substitution",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Colour-Change Trail Through the Whole Term",
+      titleMy: "စာဖတ်ခြင်း - Term တစ်ခုလုံးကို ဖြတ်သန်းသော Colour-Change လမ်းကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Colour-Change Trail Through the Whole Term",
+        titleMy: "Term တစ်ခုလုံးကို ဖြတ်သန်းသော Colour-Change လမ်းကြောင်း",
+        passageEn:
+            "Sayar Zaw Min closed the term with a single test tube, adding reagents to it one at a time in front of Htet Aung, and asked him to narrate what was happening at every stage using everything the term had taught. He started with pale blue [Cu(H2O)6]2+ solution and added dilute ammonia dropwise.\n\nHtet Aung narrated the first colour change: a pale blue precipitate formed initially, then redissolved in excess ammonia to give a much deeper blue solution -- [Cu(NH3)4(H2O)2]2+. He explained this was a partial ligand substitution, four of the six water ligands replaced by ammonia, and that the deeper blue colour arose because the new ligand set changed the energy gap across which the copper's d electrons absorb light, shifting exactly which wavelength gets absorbed and therefore which colour is transmitted.\n\nSayar Zaw Min then added concentrated hydrochloric acid instead, to a fresh sample of the original pale blue solution. Htet Aung watched the colour shift to yellow-green and correctly identified [CuCl4]2⁻ forming, explaining that the coordination number had actually changed this time, from 6 down to 4, since chloride ions are larger than water and fewer can fit around the same central Cu2+ ion -- shifting the shape from octahedral to tetrahedral, a second, independent source of colour change beyond just swapping which ligand was present. Sayar Zaw Min tied the whole term together on this final point: everything from electron configuration's incomplete d subshells, through ligand donation and coordination number, to substitution reactions changing both ligand identity and coordination number, all converges on one single observable fact a chemist can see with their own eyes -- the colour in the test tube.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Test Tube တစ်ခုတည်းဖြင့် Term ကို ပိတ်ခဲ့သည်၊ Htet Aung ရှေ့တွင် Reagent များကို တစ်ခုချင်းစီ ထည့်သွင်းကာ Term ၏ သင်ကြားပေးထားသည့် အရာအားလုံးကို အသုံးပြု၍ အဆင့်တိုင်းတွင် ဖြစ်ပျက်နေသည်ကို ရှင်းပြခိုင်းစေခဲ့သည်။ Pale Blue [Cu(H2O)6]2+ Solution ဖြင့် စတင်ကာ Dilute Ammonia ကို ရေစက်လိုက် ထည့်ခဲ့သည်။\n\nပထမ Colour Change ကို Htet Aung ဖော်ပြခဲ့သည် - Pale Blue Precipitate စတင် ဖြစ်ပေါ်ပြီး Excess Ammonia ထဲတွင် ပြန်ပျော်ဝင်ကာ Deep Blue Solution ပို၍ ကျယ်ပြန့်စွာ ရရှိခဲ့သည် -- [Cu(NH3)4(H2O)2]2+ ။ ဤသည် Partial Ligand Substitution ဖြစ်ကြောင်း ရှင်းပြခဲ့သည်၊ Water Ligand ခြောက်ခုအနက် လေးခုကို Ammonia ဖြင့် အစားထိုးထားပြီး Deep Blue Colour သည် Ligand Set အသစ်သည် Copper ၏ d Electron များ Light စုပ်ယူသော Energy Gap ကို ပြောင်းလဲစေသောကြောင့် ဖြစ်ပေါ်ကာ မည်သည့် Wavelength ကို စုပ်ယူသည်ကို အတိအကျ ရွှေ့ပေးသောကြောင့် မည်သည့် Colour ကို ပေးပို့သည်ကို ပြောင်းလဲစေသည်ဟု ရှင်းပြခဲ့သည်။\n\nSayar ဇော်မင်း သည် ထို့နောက် Concentrated Hydrochloric Acid ကို မူလ Pale Blue Solution Sample အသစ်တစ်ခုသို့ အစား ထည့်ခဲ့သည်။ Colour သည် Yellow-Green သို့ ပြောင်းလဲသွားသည်ကို Htet Aung ကြည့်ရှုခဲ့ပြီး [CuCl4]2⁻ ဖြစ်ပေါ်လာကြောင်း မှန်ကန်စွာ ဖော်ထုတ်ခဲ့သည်၊ ဤအကြိမ်တွင် Coordination Number သည် 6 မှ 4 သို့ တကယ်တမ်း ပြောင်းလဲသွားကြောင်း ရှင်းပြခဲ့သည်၊ Chloride Ion များသည် Water ထက် ကြီးမားသောကြောင့် Central Cu2+ Ion ဝန်းရံသော နေရာတွင် နည်းနည်းသာ ဝင်နိုင်သည် -- Shape ကို Octahedral မှ Tetrahedral သို့ ရွှေ့ပေးပြီး Ligand မည်သည် ရှိနေသည်ကို ဖလှယ်ခြင်းသာမက Colour Change ၏ ဒုတိယ၊ Independent Source တစ်ခု ဖြစ်ခဲ့သည်။ ဤ နောက်ဆုံးအချက်ပေါ်တွင် Sayar ဇော်မင်း သည် Term တစ်ခုလုံးကို ပေါင်းစည်းခဲ့သည် - Electron Configuration ၏ Incomplete d Subshell များမှ Ligand Donation နှင့် Coordination Number ဖြတ်၍ Ligand Identity နှင့် Coordination Number နှစ်ခုစလုံးကို ပြောင်းလဲစေသော Substitution Reaction များအထိ အားလုံးသည် Chemist တစ်ဦး ကိုယ်တိုင် မျက်စိဖြင့် မြင်နိုင်သော Observable Fact တစ်ခုတည်းသို့ ပေါင်းစည်းလာသည် -- Test Tube ထဲရှိ Colour ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what complex forms when excess ammonia is added?",
+            questionMy: "Excess Ammonia ထည့်သွင်းသောအခါ ဖြစ်ပေါ်လာသော Complex ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["[Cu(NH3)4(H2O)2]2+", "[Cu(H2O)6]2+", "[CuCl4]2⁻", "[Cu(NH3)6]2+"],
+            optionsMy: ["[Cu(NH3)4(H2O)2]2+", "[Cu(H2O)6]2+", "[CuCl4]2⁻", "[Cu(NH3)6]2+"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's identification."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ဖော်ထုတ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what happens to the coordination number when concentrated HCl is added?",
+            questionMy: "Concentrated HCl ထည့်သွင်းသောအခါ Coordination Number မည်သို့ ပြောင်းလဲသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It changes from 6 to 4, and the shape shifts from octahedral to tetrahedral",
+              "It stays exactly at 6",
+              "It increases from 4 to 6",
+              "Coordination number has no relationship to shape",
+            ],
+            optionsMy: [
+              "6 မှ 4 သို့ ပြောင်းလဲပြီး Shape သည် Octahedral မှ Tetrahedral သို့ ရွှေ့သည်",
+              "6 တွင် အတိအကျ ဆက်ရှိနေသည်",
+              "4 မှ 6 သို့ တိုးလာသည်",
+              "Coordination Number သည် Shape နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what single observable fact does the whole term converge on?",
+            questionMy: "Term တစ်ခုလုံး ပေါင်းစည်းလာသော Observable Fact တစ်ခုတည်းကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The colour in the test tube",
+              "The mass of the precipitate only",
+              "The pH of the solution",
+              "The boiling point of water",
+            ],
+            optionsMy: [
+              "Test Tube ထဲရှိ Colour",
+              "Precipitate ၏ Mass တစ်ခုတည်း",
+              "Solution ၏ pH",
+              "Water ၏ Boiling Point",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: Ligand Substitution",
+      titleMy: "ဝိသတိပတ် ပြန်လည်သုံးသပ်ခြင်း - Ligand Substitution",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In a ligand substitution reaction, the species that stays the same is the...",
+          questionMy: "Ligand Substitution Reaction တစ်ခုတွင် တူတူပင် ဆက်ရှိနေသော Species မှာ...",
+          optionsEn: ["Central metal ion", "Ligands", "Overall charge always", "Coordination number always"],
+          optionsMy: ["Central Metal Ion", "Ligand များ", "Overall Charge အမြဲ", "Coordination Number အမြဲ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Colour changes in ligand substitution happen mainly because...",
+          questionMy: "Ligand Substitution တွင် Colour Change များ ဖြစ်ပေါ်ရသည့် အဓိက အကြောင်းမှာ...",
+          optionsEn: [
+            "Different ligands change the energy gap d electrons absorb across",
+            "The central metal ion's charge always becomes zero",
+            "Water is always colourless",
+            "No relationship to electrons at all",
+          ],
+          optionsMy: [
+            "Ligand မတူညီများသည် d Electron များ စုပ်ယူသော Energy Gap ကို ပြောင်းလဲစေသည်",
+            "Central Metal Ion ၏ Charge သည် အမြဲ Zero ဖြစ်လာသည်",
+            "Water သည် အမြဲ Colourless ဖြစ်သည်",
+            "Electron များနှင့် လုံးဝ မသက်ဆိုင်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The chelate effect favours bidentate ligand substitution mainly due to...",
+          questionMy: "Chelate Effect သည် Bidentate Ligand Substitution ကို အဓိက ...ကြောင့် ကျေနပ်စေသည်",
+          optionsEn: ["An increase in entropy from releasing more free particles", "A decrease in entropy", "Colour alone", "Mass alone"],
+          optionsMy: ["Free Particle ပို၍ ထုတ်လွှတ်ခြင်းမှ Entropy တိုးလာခြင်း", "Entropy လျော့ကျခြင်း", "Colour တစ်ခုတည်း", "Mass တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm5 = CourseTermDef(
+  id: "course-y13-chem-term5",
+  termNumber: 5,
+  titleEn: "Transition Elements",
+  titleMy: "Transition Element များ",
+  weeks: [_y13ChemWeek17, _y13ChemWeek18, _y13ChemWeek19, _y13ChemWeek20],
+  certificateTitleEn: "A2 Chemistry: Transition Elements",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Transition Element များ",
+);
+
+// =========================================================================
+// YEAR 13 CHEMISTRY -- Term 6: "Nitrogen Chemistry and Group Chemistry"
+// =========================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "The Nitrogen Cycle and the Haber Process"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek21 = CourseWeekDef(
+  id: "course-y13-chem-w21",
+  weekNumber: 21,
+  titleEn: "The Nitrogen Cycle and the Haber Process",
+  titleMy: "Nitrogen Cycle နှင့် Haber Process",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w21-d1",
+      dayNumber: 1,
+      titleEn: "Nitrogen Fixation and Haber Process Conditions",
+      titleMy: "Nitrogen Fixation နှင့် Haber Process Condition များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Nitrogen fixation is the process of...",
+          questionMy: "Nitrogen Fixation ဆိုသည်မှာ...",
+          optionsEn: [
+            "Converting unreactive N2 gas into nitrogen-containing compounds plants can use",
+            "Removing nitrogen from the atmosphere permanently",
+            "Converting ammonia back into N2 gas",
+            "A process that only happens in industry, never in nature",
+          ],
+          optionsMy: [
+            "Reactive မဟုတ်သော N2 Gas ကို Plant များ အသုံးပြုနိုင်သော Nitrogen ပါဝင်သည့် Compound များသို့ ပြောင်းလဲခြင်း",
+            "Nitrogen ကို Atmosphere မှ အမြဲတမ်း ဖယ်ရှားခြင်း",
+            "Ammonia ကို N2 Gas သို့ ပြန်ပြောင်းလဲခြင်း",
+            "Industry တွင်သာ ဖြစ်ပေါ်ပြီး သဘာဝတွင် လုံးဝ မဖြစ်ပေါ်သော Process",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "N2's triple bond is very strong and unreactive; fixation converts this inert gas into usable forms like ammonia or nitrates, both naturally (lightning, bacteria) and industrially (the Haber process).",
+          ],
+          hintsMy: [
+            "N2 ၏ Triple Bond သည် အလွန် ခိုင်မာပြီး Reactive မဟုတ်ပါ၊ Fixation သည် ဤ Inert Gas ကို Ammonia သို့မဟုတ် Nitrate ကဲ့သို့ အသုံးဝင်သော ပုံစံများသို့ ပြောင်းလဲပေးသည်၊ သဘာဝ (လျှပ်စီး, ဘက်တီးရီးယား) နှင့် Industry (Haber Process) နှစ်မျိုးလုံးတွင် ဖြစ်ပေါ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The Haber process, N2 + 3H2 <=> 2NH3, uses which typical industrial conditions?",
+          questionMy: "Haber Process, N2 + 3H2 <=> 2NH3, သည် ပုံမှန် Industrial Condition မည်သို့ အသုံးပြုသနည်း",
+          optionsEn: [
+            "About 450°C, 200 atm pressure, and an iron catalyst",
+            "About 25°C, 1 atm pressure, and no catalyst at all",
+            "About 1000°C, 1 atm pressure, and a platinum catalyst",
+            "About 0°C, 500 atm pressure, and a copper catalyst",
+          ],
+          optionsMy: [
+            "ခန့်မှန်းခြေ 450°C, 200 atm Pressure, နှင့် Iron Catalyst",
+            "ခန့်မှန်းခြေ 25°C, 1 atm Pressure, Catalyst လုံးဝ မပါဘဲ",
+            "ခန့်မှန်းခြေ 1000°C, 1 atm Pressure, နှင့် Platinum Catalyst",
+            "ခန့်မှန်းခြေ 0°C, 500 atm Pressure, နှင့် Copper Catalyst",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The classic Haber process conditions are roughly 450°C, 200 atm, with an iron catalyst -- worth memorising as a set.",
+          ],
+          hintsMy: [
+            "Classic Haber Process Condition များမှာ ခန့်မှန်းခြေ 450°C, 200 atm, Iron Catalyst ဖြင့် ဖြစ်ပြီး -- Set တစ်ခုအဖြစ် မှတ်သားထိုက်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The Haber process forward reaction is exothermic. Why is a compromise temperature of 450°C used instead of a much lower one that would favour a higher equilibrium yield?",
+          questionMy: "Haber Process Forward Reaction သည် Exothermic ဖြစ်သည်။ Equilibrium Yield ပိုမြင့်စေမည့် Temperature ပိုနိမ့်သော Temperature အစား Compromise Temperature 450°C ကို အဘယ့်ကြောင့် အသုံးပြုသနည်း",
+          optionsEn: [
+            "A lower temperature would give a higher yield but the reaction rate would be too slow to be economical",
+            "A higher temperature always increases the yield as well as the rate",
+            "Temperature has no effect on either yield or rate",
+            "450°C is simply the boiling point of ammonia",
+          ],
+          optionsMy: [
+            "Temperature ပိုနိမ့်လျှင် Yield ပိုမြင့်သော်လည်း Reaction Rate သည် Economical မဖြစ်လောက်အောင် နှေးကွေးလွန်းသည်",
+            "Temperature ပိုမြင့်ခြင်းသည် Yield နှင့် Rate နှစ်ခုလုံးကို အမြဲ တိုးစေသည်",
+            "Temperature သည် Yield သို့မဟုတ် Rate မည်သည့်တစ်ခုအပေါ်မျှ သက်ရောက်မှု မရှိပါ",
+            "450°C သည် Ammonia ၏ Boiling Point ရိုးရိုးသာ ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "450°C is a compromise: high enough for an economically fast rate, while accepting a lower equilibrium yield than a cooler temperature would give.",
+          ],
+          hintsMy: [
+            "450°C သည် Compromise တစ်ခု ဖြစ်သည် - Economical Fast Rate ရရှိလောက်အောင် မြင့်မားပြီး Temperature ပိုအေးလျှင် ပေးမည့် Yield ထက် ပိုနိမ့်သော Yield ကို လက်ခံသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nitrogen Cycle Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Nitrogen Cycle ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w21-dm-1",
+          termEn: "Nitrogen fixation",
+          termMy: "Nitrogen Fixation",
+          matchEn: "Converting unreactive N2 gas into usable nitrogen compounds, naturally or industrially",
+          matchMy: "Reactive မဟုတ်သော N2 Gas ကို အသုံးဝင်သော Nitrogen Compound များသို့ သဘာဝ သို့မဟုတ် Industrial အားဖြင့် ပြောင်းလဲခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w21-dm-2",
+          termEn: "Haber process",
+          termMy: "Haber Process",
+          matchEn: "The industrial synthesis of ammonia from N2 and H2, N2 + 3H2 <=> 2NH3",
+          matchMy: "N2 နှင့် H2 မှ Ammonia ၏ Industrial Synthesis, N2 + 3H2 <=> 2NH3",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w21-dm-3",
+          termEn: "Compromise temperature",
+          termMy: "Compromise Temperature",
+          matchEn: "A temperature balancing a fast enough rate against an acceptable equilibrium yield",
+          matchMy: "လုံလောက်စွာ မြန်ဆန်သော Rate နှင့် လက်ခံနိုင်သော Equilibrium Yield ကြား ဟန်ချက်ညီစေသော Temperature",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w21-dm-4",
+          termEn: "Iron catalyst (Haber process)",
+          termMy: "Iron Catalyst (Haber Process)",
+          matchEn: "Speeds up the approach to equilibrium without shifting the equilibrium position itself",
+          matchMy: "Equilibrium Position ကိုယ်တိုင်ကို မရွှေ့ဘဲ Equilibrium သို့ ချဉ်းကပ်မှုကို မြန်ဆန်စေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w21-dm-5",
+          termEn: "Equilibrium yield",
+          termMy: "Equilibrium Yield",
+          matchEn: "The proportion of reactants converted to product once equilibrium is reached",
+          matchMy: "Equilibrium ရောက်ရှိသောအခါ Product သို့ ပြောင်းလဲသွားသော Reactant အချိုးအစား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Increases or Decreases Ammonia Yield?",
+      titleMy: "စီစစ်ကြမည် - Ammonia Yield ကို တိုးစေလား လျော့ကျစေလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Increases Equilibrium Yield of Ammonia", "Decreases Equilibrium Yield of Ammonia"],
+        bucketsMy: ["Ammonia Equilibrium Yield ကို တိုးစေသည်", "Ammonia Equilibrium Yield ကို လျော့ကျစေသည်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w21-sort-1",
+            labelEn: "Increasing pressure (fewer moles of gas on the product side)",
+            labelMy: "Pressure တိုးမြှင့်ခြင်း (Product ဘက်တွင် Gas Mole ပိုနည်း)",
+            correctBucketEn: "Increases Equilibrium Yield of Ammonia",
+            correctBucketMy: "Ammonia Equilibrium Yield ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w21-sort-2",
+            labelEn: "Increasing temperature (forward reaction is exothermic)",
+            labelMy: "Temperature တိုးမြှင့်ခြင်း (Forward Reaction သည် Exothermic ဖြစ်သည်)",
+            correctBucketEn: "Decreases Equilibrium Yield of Ammonia",
+            correctBucketMy: "Ammonia Equilibrium Yield ကို လျော့ကျစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w21-sort-3",
+            labelEn: "Removing ammonia continuously as it forms",
+            labelMy: "ဖြစ်ပေါ်လာသည်နှင့်အမျှ Ammonia ကို အစဉ်ဆက် ဖယ်ရှားခြင်း",
+            correctBucketEn: "Increases Equilibrium Yield of Ammonia",
+            correctBucketMy: "Ammonia Equilibrium Yield ကို တိုးစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w21-sort-4",
+            labelEn: "Lowering pressure",
+            labelMy: "Pressure လျှော့ချခြင်း",
+            correctBucketEn: "Decreases Equilibrium Yield of Ammonia",
+            correctBucketMy: "Ammonia Equilibrium Yield ကို လျော့ကျစေသည်",
+          ),
+          SortingItem(
+            id: "y13chem-w21-sort-5",
+            labelEn: "Lowering temperature (favours the exothermic forward direction)",
+            labelMy: "Temperature လျှော့ချခြင်း (Exothermic Forward Direction ကို ကျေနပ်စေသည်)",
+            correctBucketEn: "Increases Equilibrium Yield of Ammonia",
+            correctBucketMy: "Ammonia Equilibrium Yield ကို တိုးစေသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Rate-Yield Compromise",
+      titleMy: "စာဖတ်ခြင်း - Rate-Yield Compromise",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Rate-Yield Compromise",
+        titleMy: "Rate-Yield Compromise",
+        passageEn:
+            "Sayar Zaw Min asked Htet Aung a question that had confused him from the textbook: since the Haber process's forward reaction, N2 + 3H2 <=> 2NH3, is exothermic, wouldn't a much lower temperature -- close to room temperature -- give the highest possible yield of ammonia? Why do real factories run it at a scorching 450°C instead?\n\nHtet Aung worked through the two separate effects temperature has. On yield: by Le Chatelier's principle, since the forward reaction releases heat, a lower temperature shifts the equilibrium position further towards the exothermic (forward, ammonia-forming) direction, genuinely giving a higher equilibrium yield. On rate: without enough thermal energy, particles collide too weakly and too rarely to react quickly, so a very low temperature would mean the reaction crawls towards equilibrium over an impractically long time -- weeks or longer, useless for an industrial plant needing continuous output.\n\nSayar Zaw Min helped him see the shape of the actual compromise: 450°C sacrifices some potential yield (a lower temperature would give more) in exchange for a commercially viable rate, and the 200 atm pressure partially compensates by pushing the equilibrium back towards the product side, since 4 moles of gaseous reactant become 2 moles of gaseous product. Htet Aung summarised it in his own words: the Haber process is a real engineering answer to two questions that pull in opposite directions, not a single optimisation -- and 450°C, 200 atm, with an iron catalyst to speed up approach to equilibrium without touching the equilibrium position itself, is the compromise that makes ammonia production both fast enough and profitable enough to run continuously at industrial scale.",
+        passageMy:
+            "Textbook မှ Htet Aung ကို ရှုပ်ထွေးစေခဲ့သော မေးခွန်းတစ်ခုကို Sayar ဇော်မင်း မေးခဲ့သည် - Haber Process ၏ Forward Reaction, N2 + 3H2 <=> 2NH3, သည် Exothermic ဖြစ်သောကြောင့် Temperature ပိုနိမ့်သော -- Room Temperature ခန့် -- သည် Ammonia Yield အမြင့်ဆုံးကို ပေးမည် မဟုတ်ပါလား။ တကယ့် စက်ရုံများသည် 450°C ပူနွေးမှုတွင် အဘယ့်ကြောင့် ဆောင်ရွက်ကြသနည်း။\n\nHtet Aung သည် Temperature ၏ Effect နှစ်ခုကို လုပ်ဆောင်ခဲ့သည်။ Yield တွင် - Le Chatelier's Principle အရ Forward Reaction သည် Heat ထွက်သောကြောင့် Temperature ပိုနိမ့်ခြင်းသည် Equilibrium Position ကို Exothermic (Forward, Ammonia-Forming) Direction ဘက်သို့ ပို၍ ရွှေ့ပေးကာ Equilibrium Yield တကယ်တမ်း ပိုမြင့်စေသည်။ Rate တွင် - လုံလောက်သော Thermal Energy မရှိလျှင် Particle များသည် အားနည်းလွန်းစွာနှင့် ရှားပါးစွာ Collide ဖြစ်ကာ Reaction ဖြစ်ရန် အလွန် နှေးကွေးသောကြောင့် Temperature အလွန် နိမ့်လျှင် Reaction သည် Equilibrium ဆီသို့ ကြောင်များစွာ (သို့မဟုတ် ပို၍ ကြာမြင့်) ဆွဲလိုက်ရမည် -- Continuous Output လိုအပ်သော Industrial Plant တစ်ခုအတွက် အသုံးမကျပါ။\n\nတကယ့် Compromise ၏ ပုံစံကို Sayar ဇော်မင်း သတိပြုစေခဲ့သည် - 450°C သည် Yield ဖြစ်နိုင်ချေအချို့ကို စွန့်လွှတ်ကာ (Temperature ပိုနိမ့်လျှင် ပို၍ ပေးမည်) Commercially Viable Rate နှင့် လဲလှယ်ပေးပြီး 200 atm Pressure သည် Gas Reactant Mole 4 ခုသည် Gas Product Mole 2 ခု ဖြစ်လာသောကြောင့် Equilibrium ကို Product Side ဘက်သို့ တစ်စိတ်တစ်ပိုင်း ပြန်တွန်းပေးသည်။ Htet Aung သည် ၎င်း၏ ကိုယ်ပိုင် စကားလုံးများဖြင့် အနှစ်ချုပ်ခဲ့သည် - Haber Process သည် ဦးတည်ချက် ဆန့်ကျင်ဖက်နှစ်ခုဆီသို့ ဆွဲငင်နေသော မေးခွန်းနှစ်ခုအတွက် တကယ့် Engineering အဖြေတစ်ခု ဖြစ်ပြီး Optimization တစ်ခုတည်း မဟုတ်ပါ -- Equilibrium Position ကိုယ်တိုင်ကို မထိခိုက်စေဘဲ Equilibrium သို့ ချဉ်းကပ်မှုကို မြန်ဆန်စေသော Iron Catalyst ပါဝင်သော 450°C, 200 atm သည် Ammonia Production ကို Industrial Scale တွင် Continuous ဆက်လက် ဆောင်ရွက်နိုင်လောက်အောင် မြန်ဆန်ပြီး အမြတ်ရလောက်စေသော Compromise ဖြစ်သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what effect does a lower temperature have on yield?",
+            questionMy: "Temperature ပိုနိမ့်ခြင်းသည် Yield အပေါ် မည်သို့ Effect ရှိသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It increases the equilibrium yield, since the forward reaction is exothermic",
+              "It always decreases the yield",
+              "It has no effect on yield at all",
+              "It only affects rate, never yield",
+            ],
+            optionsMy: [
+              "Forward Reaction သည် Exothermic ဖြစ်သောကြောင့် Equilibrium Yield ကို တိုးစေသည်",
+              "Yield ကို အမြဲ လျော့ကျစေသည်",
+              "Yield အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+              "Rate ကိုသာ သက်ရောက်ပြီး Yield ကို လုံးဝ မသက်ရောက်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of yield."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Yield ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why isn't a very low temperature used in practice?",
+            questionMy: "Temperature အလွန် နိမ့်သည်ကို လက်တွေ့တွင် အဘယ့်ကြောင့် အသုံးမပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The reaction rate would be far too slow for industrial use",
+              "It would make the reaction endothermic instead",
+              "Low temperature always destroys the iron catalyst",
+              "It has no downside at all",
+            ],
+            optionsMy: [
+              "Reaction Rate သည် Industrial Use အတွက် အလွန် နှေးကွေးလွန်းမည်",
+              "Reaction ကို အစား Endothermic ဖြစ်စေမည်",
+              "Temperature နိမ့်ခြင်းသည် Iron Catalyst ကို အမြဲ ဖျက်ဆီးမည်",
+              "Downside မည်သည့်တစ်ခုမျှ လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of rate."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Rate ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what role does the 200 atm pressure play?",
+            questionMy: "200 atm Pressure ၏ အခန်းကဏ္ဍကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It partially compensates by pushing the equilibrium towards the product side",
+              "It has no effect on the equilibrium at all",
+              "It only affects the colour of ammonia",
+              "It lowers the reaction rate",
+            ],
+            optionsMy: [
+              "Equilibrium ကို Product Side ဘက်သို့ တွန်းပေးခြင်းဖြင့် တစ်စိတ်တစ်ပိုင်း လျော်ကြေပေးသည်",
+              "Equilibrium အပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+              "Ammonia ၏ Colour ကိုသာ သက်ရောက်သည်",
+              "Reaction Rate ကို လျှော့ချသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's explanation of pressure."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Pressure ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Nitrogen Cycle and Haber Process",
+      titleMy: "ဧကဝိသတိပတ် ပြန်လည်သုံးသပ်ခြင်း - Nitrogen Cycle နှင့် Haber Process",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Haber process combines N2 and H2 to form...",
+          questionMy: "Haber Process သည် N2 နှင့် H2 ကို ပေါင်းစပ်၍ ...ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Ammonia, NH3", "Nitric acid, HNO3", "Nitrogen dioxide, NO2", "Nitrous oxide, N2O"],
+          optionsMy: ["Ammonia, NH3", "Nitric Acid, HNO3", "Nitrogen Dioxide, NO2", "Nitrous Oxide, N2O"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The Haber process's typical catalyst is...",
+          questionMy: "Haber Process ၏ ပုံမှန် Catalyst မှာ...",
+          optionsEn: ["Iron", "Platinum", "Copper", "Gold"],
+          optionsMy: ["Iron", "Platinum", "Copper", "Gold"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "450°C is used in the Haber process because it is a compromise between...",
+          questionMy: "450°C ကို Haber Process တွင် အသုံးပြုရသည့် အကြောင်းမှာ ...ကြား Compromise ဖြစ်သောကြောင့်",
+          optionsEn: ["Reaction rate and equilibrium yield", "Colour and mass", "Price and volume only", "Boiling point and freezing point"],
+          optionsMy: ["Reaction Rate နှင့် Equilibrium Yield", "Colour နှင့် Mass", "Price နှင့် Volume တစ်ခုတည်း", "Boiling Point နှင့် Freezing Point"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Oxides of Nitrogen and Acid Rain"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek22 = CourseWeekDef(
+  id: "course-y13-chem-w22",
+  weekNumber: 22,
+  titleEn: "Oxides of Nitrogen and Acid Rain",
+  titleMy: "Nitrogen Oxide များနှင့် Acid Rain",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w22-d1",
+      dayNumber: 1,
+      titleEn: "Nitrogen Oxides and Acid Rain Formation",
+      titleMy: "Nitrogen Oxide များနှင့် Acid Rain ဖြစ်ပေါ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Nitrogen monoxide, NO, and nitrogen dioxide, NO2, form in car engines mainly because...",
+          questionMy: "Nitrogen Monoxide, NO, နှင့် Nitrogen Dioxide, NO2, သည် ကားအင်ဂျင်များတွင် အဓိက ဖြစ်ပေါ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "The high temperature and pressure of combustion let atmospheric N2 and O2 react together",
+            "Petrol itself contains large amounts of nitrogen oxides",
+            "Nitrogen never reacts with oxygen under any conditions",
+            "Car engines remove all nitrogen from the air first",
+          ],
+          optionsMy: [
+            "Combustion ၏ Temperature နှင့် Pressure မြင့်မားခြင်းက Atmospheric N2 နှင့် O2 ကို အတူတကွ Reaction ဖြစ်စေသည်",
+            "Petrol ကိုယ်တိုင်တွင် Nitrogen Oxide များများ ပါဝင်သည်",
+            "Nitrogen သည် Condition မည်သည့်တစ်ခုတွင်မျှ Oxygen နှင့် လုံးဝ Reaction မဖြစ်ပါ",
+            "ကားအင်ဂျင်များသည် လေထဲမှ Nitrogen အားလုံးကို ဦးစွာ ဖယ်ရှားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "N2 and O2 are both present in ordinary air; combustion's extreme heat provides enough energy to overcome N2's very strong triple bond and let the two react.",
+          ],
+          hintsMy: [
+            "N2 နှင့် O2 နှစ်ခုစလုံးသည် ပုံမှန် လေထဲတွင် ရှိနေသည်၊ Combustion ၏ ပြင်းထန်သော Heat သည် N2 ၏ အလွန် ခိုင်မာသော Triple Bond ကို ကျော်လွှားရန် Energy လုံလောက်စွာ ပေးအပ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Nitrogen dioxide, NO2, contributes to acid rain because it reacts with water and oxygen to form...",
+          questionMy: "Nitrogen Dioxide, NO2, သည် ရေနှင့် Oxygen နှင့် Reaction ဖြစ်ကာ ...ဖြစ်ပေါ်စေသောကြောင့် Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်သည်",
+          optionsEn: [
+            "Nitric acid, HNO3",
+            "Ammonia, NH3",
+            "Pure water only",
+            "Sodium hydroxide, NaOH",
+          ],
+          optionsMy: ["Nitric Acid, HNO3", "Ammonia, NH3", "ရေစင် တစ်ခုတည်း", "Sodium Hydroxide, NaOH"],
+          correctIndex: 0,
+          hintsEn: [
+            "NOx gases dissolve in atmospheric moisture and react with oxygen to form dilute nitric acid, which falls as acid rain.",
+          ],
+          hintsMy: [
+            "NOx Gas များသည် Atmospheric Moisture ထဲတွင် ပျော်ဝင်ကာ Oxygen နှင့် Reaction ဖြစ်၍ Dilute Nitric Acid ဖြစ်ပေါ်စေပြီး Acid Rain အဖြစ် ကျသက်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A catalytic converter reduces car engine pollution mainly by...",
+          questionMy: "Catalytic Converter တစ်ခုသည် ကားအင်ဂျင် ညစ်ညမ်းမှုကို အဓိက ...ဖြင့် လျှော့ချသည်",
+          optionsEn: [
+            "Converting NOx gases into harmless N2 and O2 (or CO2) before they reach the exhaust",
+            "Increasing the amount of NOx released",
+            "Removing all nitrogen from the atmosphere permanently",
+            "Adding extra nitrogen oxides to the exhaust",
+          ],
+          optionsMy: [
+            "Exhaust သို့ မရောက်မီ NOx Gas များကို အန္တရာယ်မရှိသော N2 နှင့် O2 (သို့မဟုတ် CO2) သို့ ပြောင်းလဲပေးခြင်း",
+            "ထုတ်လွှတ်သော NOx ပမာဏကို တိုးမြှင့်ခြင်း",
+            "Atmosphere မှ Nitrogen အားလုံးကို အမြဲတမ်း ဖယ်ရှားခြင်း",
+            "Exhaust ထဲသို့ Nitrogen Oxide ထပ်ဆောင်း ထည့်သွင်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Catalytic converters use a catalyst (often platinum/rhodium) to convert harmful NOx into harmless N2, along with converting CO into CO2, before exhaust gases leave the car.",
+          ],
+          hintsMy: [
+            "Catalytic Converter များသည် Catalyst (မကြာခဏ Platinum/Rhodium) ကို အသုံးပြု၍ Exhaust Gas များ ကားမှ မထွက်မီ အန္တရာယ်ရှိသော NOx ကို အန္တရာယ်မရှိသော N2 သို့ ပြောင်းလဲပေးပြီး CO ကို CO2 သို့လည်း ပြောင်းလဲပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Nitrogen Oxide and Pollution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Nitrogen Oxide and Pollution ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w22-dm-1",
+          termEn: "Nitrogen oxides (NOx)",
+          termMy: "Nitrogen Oxides (NOx)",
+          matchEn: "A general term for NO and NO2, formed from N2 and O2 at high combustion temperatures",
+          matchMy: "Combustion Temperature မြင့်မားစဉ် N2 နှင့် O2 မှ ဖြစ်ပေါ်လာသော NO နှင့် NO2 အတွက် General Term",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w22-dm-2",
+          termEn: "Acid rain",
+          termMy: "Acid Rain",
+          matchEn: "Rain made abnormally acidic by dissolved sulfur and nitrogen oxides forming acids in the atmosphere",
+          matchMy: "ပျော်ဝင်နေသော Sulfur နှင့် Nitrogen Oxide များသည် Atmosphere ထဲတွင် Acid များ ဖြစ်ပေါ်စေကာ ပုံမှန်ထက် Acidic ဖြစ်သွားသော မိုးရွာမှု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w22-dm-3",
+          termEn: "Catalytic converter",
+          termMy: "Catalytic Converter",
+          matchEn: "A device in a car's exhaust system that converts NOx and CO into less harmful gases",
+          matchMy: "ကား၏ Exhaust System ထဲရှိ Device တစ်ခု၊ NOx နှင့် CO ကို အန္တရာယ် ပိုနည်းသော Gas များသို့ ပြောင်းလဲပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w22-dm-4",
+          termEn: "Photochemical smog",
+          termMy: "Photochemical Smog",
+          matchEn: "Hazy pollution formed when NOx and hydrocarbons react in sunlight",
+          matchMy: "NOx နှင့် Hydrocarbon များသည် နေရောင်ခြည်ထဲတွင် Reaction ဖြစ်ကာ ဖြစ်ပေါ်လာသော Hazy Pollution",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w22-dm-5",
+          termEn: "Nitric acid (from acid rain)",
+          termMy: "Nitric Acid (Acid Rain မှ)",
+          matchEn: "Formed when NO2 reacts with water and oxygen in the atmosphere",
+          matchMy: "NO2 သည် Atmosphere ထဲတွင် ရေနှင့် Oxygen နှင့် Reaction ဖြစ်၍ ဖြစ်ပေါ်လာသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Contributes to Acid Rain or Not?",
+      titleMy: "စီစစ်ကြမည် - Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်လား မပါဝင်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Contributes to Acid Rain", "Does Not Contribute to Acid Rain"],
+        bucketsMy: ["Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်သည်", "Acid Rain ဖြစ်ပေါ်ရာတွင် မပါဝင်ပါ"],
+        items: [
+          SortingItem(
+            id: "y13chem-w22-sort-1",
+            labelEn: "Nitrogen dioxide, NO2, from vehicle exhausts",
+            labelMy: "ယာဉ် Exhaust များမှ Nitrogen Dioxide, NO2",
+            correctBucketEn: "Contributes to Acid Rain",
+            correctBucketMy: "Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်သည်",
+          ),
+          SortingItem(
+            id: "y13chem-w22-sort-2",
+            labelEn: "Pure nitrogen gas, N2, at ordinary conditions",
+            labelMy: "ပုံမှန် Condition တွင် Pure Nitrogen Gas, N2",
+            correctBucketEn: "Does Not Contribute to Acid Rain",
+            correctBucketMy: "Acid Rain ဖြစ်ပေါ်ရာတွင် မပါဝင်ပါ",
+          ),
+          SortingItem(
+            id: "y13chem-w22-sort-3",
+            labelEn: "Sulfur dioxide, SO2, from burning fossil fuels",
+            labelMy: "Fossil Fuel လောင်ကျွမ်းမှုမှ Sulfur Dioxide, SO2",
+            correctBucketEn: "Contributes to Acid Rain",
+            correctBucketMy: "Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်သည်",
+          ),
+          SortingItem(
+            id: "y13chem-w22-sort-4",
+            labelEn: "Ammonia, NH3, a base rather than an acidic oxide",
+            labelMy: "Ammonia, NH3, Acidic Oxide မဟုတ်ဘဲ Base တစ်ခု",
+            correctBucketEn: "Does Not Contribute to Acid Rain",
+            correctBucketMy: "Acid Rain ဖြစ်ပေါ်ရာတွင် မပါဝင်ပါ",
+          ),
+          SortingItem(
+            id: "y13chem-w22-sort-5",
+            labelEn: "Nitrogen monoxide, NO, which oxidises further to NO2 in air",
+            labelMy: "လေထဲတွင် NO2 သို့ ဆက်လက် Oxidise ဖြစ်သော Nitrogen Monoxide, NO",
+            correctBucketEn: "Contributes to Acid Rain",
+            correctBucketMy: "Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Tracing Acid Rain from Engine to Lake",
+      titleMy: "စာဖတ်ခြင်း - Acid Rain ကို Engine မှ Lake အထိ ခြေရာခံခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Tracing Acid Rain from Engine to Lake",
+        titleMy: "Acid Rain ကို Engine မှ Lake အထိ ခြေရာခံခြင်း",
+        passageEn:
+            "Sayama Moe Moe Khaing asked Nan Su Yati to trace the full journey of a single nitrogen atom from inside a car engine to a distant, acidified lake, using nothing but ordinary atmospheric air as the starting point. Nan Su Yati began with the air itself: about 78% N2, entering the engine's cylinders alongside petrol vapour and oxygen.\n\nAs the fuel-air mixture ignited, Nan Su Yati explained, the extreme heat and pressure of combustion supplied enough energy to break N2's very strong triple bond, letting nitrogen react directly with oxygen to form nitrogen monoxide, NO, which then escaped through the exhaust. Once released into open air, that NO reacted further with more atmospheric oxygen to form nitrogen dioxide, NO2 -- a reaction that happens naturally and continuously outside the engine.\n\nNan Su Yati then traced the final chemical step: NO2 dissolved into water droplets in clouds and reacted with atmospheric oxygen and moisture to form dilute nitric acid, HNO3, which fell to earth as acid rain, lowering the pH of the lake it eventually landed in. Sayama Moe Moe Khaing pointed out this was the same nitrogen atom, born as harmless N2 in ordinary air, transformed by nothing more exotic than combustion heat and further atmospheric oxidation -- and asked Nan Su Yati to connect this back to catalytic converters, which she now recognised existed specifically to intercept NO before it ever left the exhaust, converting it back to harmless N2 and breaking this whole chain before it could begin.",
+        passageMy:
+            "Ordinary Atmospheric Air ကို Starting Point အဖြစ်သာ အသုံးပြု၍ ကားအင်ဂျင်တစ်ခုအတွင်းမှ Nitrogen Atom တစ်ခု၏ ခရီးစဉ်တစ်ခုလုံးကို ဝေးလံသော Acidified Lake တစ်ခုအထိ ခြေရာခံခိုင်းစေခဲ့သည်ကို Sayama မိုးမိုးခိုင် Nan Su Yati ကို မေးခဲ့သည်။ Nan Su Yati သည် လေကိုယ်တိုင်ဖြင့် စတင်ခဲ့သည် - N2 ခန့်မှန်းခြေ 78%, Petrol Vapour နှင့် Oxygen နှင့်အတူ Engine ၏ Cylinder ထဲသို့ ဝင်ရောက်သည်။\n\nFuel-Air Mixture မီးရှို့သောအခါ Combustion ၏ ပြင်းထန်သော Heat နှင့် Pressure သည် N2 ၏ အလွန် ခိုင်မာသော Triple Bond ကို ချိုးဖျက်ရန် Energy လုံလောက်စွာ ပေးအပ်ကာ Nitrogen ကို Oxygen နှင့် တိုက်ရိုက် Reaction ဖြစ်စေကာ Nitrogen Monoxide, NO ဖြစ်ပေါ်စေပြီး Exhaust ကို ဖြတ်၍ ထွက်ခဲ့သည်ဟု Nan Su Yati ရှင်းပြခဲ့သည်။ လေထဲသို့ ထွက်ရောက်သွားသောအခါ ထို NO သည် Atmospheric Oxygen ပို၍ များများနှင့် ဆက်လက် Reaction ဖြစ်ကာ Nitrogen Dioxide, NO2 ဖြစ်ပေါ်စေသည် -- ဤ Reaction သည် Engine ပြင်ပတွင် သဘာဝအားဖြင့် အစဉ်ဆက် ဖြစ်ပျက်နေသည်။\n\nNan Su Yati သည် ထို့နောက် Final Chemical Step ကို ခြေရာခံခဲ့သည် - NO2 သည် တိမ်ထုထဲရှိ Water Droplet များထဲသို့ ပျော်ဝင်ပြီး Atmospheric Oxygen နှင့် Moisture နှင့် Reaction ဖြစ်ကာ Dilute Nitric Acid, HNO3 ဖြစ်ပေါ်စေကာ Earth သို့ Acid Rain အဖြစ် ကျသက်လာကာ ၎င်း နောက်ဆုံး ကျသက်လာသော Lake ၏ pH ကို လျှော့ချခဲ့သည်။ ဤသည် Ordinary Air ထဲတွင် အန္တရာယ်မရှိသော N2 အဖြစ် မွေးဖွားလာသော Nitrogen Atom တစ်ခုတည်း ဖြစ်ပြီး Combustion Heat နှင့် Atmospheric Oxidation ထပ်မံ ပြုလုပ်ခြင်းထက် ပို၍ မထူးဆန်းသော အရာတစ်ခုမျှမရှိဘဲ ပြောင်းလဲသွားခြင်း ဖြစ်ကြောင်း Sayama မိုးမိုးခိုင် ထောက်ပြခဲ့ပြီး Catalytic Converter များနှင့် ၎င်းကို ပြန်လည် ချိတ်ဆက်ခိုင်းစေခဲ့သည်၊ ၎င်းတို့သည် NO ကို Exhaust မှ ထွက်မသွားမီ ပိတ်ဆို့ရန် အထူးဖြင့် တည်ရှိကြောင်း ယခု Nan Su Yati သိရှိသွားခဲ့ပြီး ၎င်းကို အန္တရာယ်မရှိသော N2 အဖြစ် ပြန်လည် ပြောင်းလဲပေးကာ ဤ Chain တစ်ခုလုံးကို မစတင်မီ ချိုးဖျက်ပေးသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what breaks N2's triple bond inside the engine?",
+            questionMy: "Engine အတွင်း N2 ၏ Triple Bond ကို မည်သည် ချိုးဖျက်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The extreme heat and pressure of combustion",
+              "A catalytic converter",
+              "Cold outside air alone",
+              "Nothing -- N2's bond never breaks",
+            ],
+            optionsMy: [
+              "Combustion ၏ ပြင်းထန်သော Heat နှင့် Pressure",
+              "Catalytic Converter",
+              "အပြင်ဘက်ရှိ အအေး လေ တစ်ခုတည်း",
+              "ဘာမျှ မရှိပါ -- N2 ၏ Bond သည် ဘယ်တော့မှ မချိုးပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what acid forms when NO2 dissolves in cloud water?",
+            questionMy: "NO2 သည် Cloud Water ထဲတွင် ပျော်ဝင်သောအခါ ဖြစ်ပေါ်လာသော Acid ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Dilute nitric acid, HNO3", "Sulfuric acid, H2SO4", "Hydrochloric acid, HCl", "Ethanoic acid, CH3COOH"],
+            optionsMy: ["Dilute Nitric Acid, HNO3", "Sulfuric Acid, H2SO4", "Hydrochloric Acid, HCl", "Ethanoic Acid, CH3COOH"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph's final chemical step."],
+            hintsMy: ["တတိယစာပိုဒ်ရှိ Final Chemical Step ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final sentence, what does a catalytic converter do to NO?",
+            questionMy: "Catalytic Converter တစ်ခုသည် NO ကို မည်သို့ လုပ်ဆောင်သည်ကို နောက်ဆုံးဝါကျအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Converts it back to harmless N2 before it leaves the exhaust",
+              "Increases the amount released into the air",
+              "Converts it into more nitric acid",
+              "Has no effect on it at all",
+            ],
+            optionsMy: [
+              "Exhaust မှ မထွက်မီ အန္တရာယ်မရှိသော N2 သို့ ပြန်လည် ပြောင်းလဲပေးသည်",
+              "လေထဲသို့ ထုတ်လွှတ်သော ပမာဏကို တိုးမြှင့်သည်",
+              "Nitric Acid ပို၍ များများသို့ ပြောင်းလဲပေးသည်",
+              "၎င်းအပေါ် လုံးဝ သက်ရောက်မှု မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးဝါကျကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Nitrogen Oxides and Acid Rain",
+      titleMy: "ဒွါဝိသတိပတ် ပြန်လည်သုံးသပ်ခြင်း - Nitrogen Oxide များနှင့် Acid Rain",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "NOx gases form in car engines mainly because of...",
+          questionMy: "NOx Gas များသည် ကားအင်ဂျင်များတွင် အဓိက ...ကြောင့် ဖြစ်ပေါ်သည်",
+          optionsEn: [
+            "The high heat and pressure of combustion reacting N2 with O2",
+            "Petrol containing nitrogen oxides directly",
+            "Cold engine temperatures",
+            "The engine's colour",
+          ],
+          optionsMy: [
+            "Combustion ၏ Heat နှင့် Pressure မြင့်မားခြင်းက N2 ကို O2 နှင့် Reaction ဖြစ်စေခြင်း",
+            "Petrol တွင် Nitrogen Oxide များ တိုက်ရိုက် ပါဝင်ခြင်း",
+            "Engine Temperature အအေး",
+            "Engine ၏ Colour",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "NO2 contributes to acid rain by forming...",
+          questionMy: "NO2 သည် ...ဖြစ်ပေါ်စေခြင်းဖြင့် Acid Rain ဖြစ်ပေါ်ရာတွင် ပါဝင်သည်",
+          optionsEn: ["Nitric acid", "Ammonia", "Pure water", "Sodium chloride"],
+          optionsMy: ["Nitric Acid", "Ammonia", "ရေစင်", "Sodium Chloride"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Catalytic converters help prevent acid rain by...",
+          questionMy: "Catalytic Converter များသည် ...ဖြင့် Acid Rain ကို ကာကွယ်ရန် ကူညီသည်",
+          optionsEn: [
+            "Converting NOx into harmless N2 before it leaves the exhaust",
+            "Adding more NOx to the exhaust",
+            "Increasing engine temperature further",
+            "Removing all oxygen from the air",
+          ],
+          optionsMy: [
+            "Exhaust မှ မထွက်မီ NOx ကို အန္တရာယ်မရှိသော N2 သို့ ပြောင်းလဲပေးခြင်း",
+            "Exhaust သို့ NOx ထပ်ဆောင်း ထည့်သွင်းခြင်း",
+            "Engine Temperature ကို ထပ်မံ တိုးမြှင့်ခြင်း",
+            "လေထဲမှ Oxygen အားလုံးကို ဖယ်ရှားခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "Group 2 Chemistry"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek23 = CourseWeekDef(
+  id: "course-y13-chem-w23",
+  weekNumber: 23,
+  titleEn: "Group 2 Chemistry",
+  titleMy: "Group 2 Chemistry",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w23-d1",
+      dayNumber: 1,
+      titleEn: "Group 2 Reactivity Trends",
+      titleMy: "Group 2 Reactivity Trend",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Going down Group 2 (Be, Mg, Ca, Sr, Ba), reactivity with water...",
+          questionMy: "Group 2 (Be, Mg, Ca, Sr, Ba) ကို အောက်သို့ သွားလျှင် ရေနှင့် Reactivity သည်...",
+          optionsEn: ["Increases", "Decreases", "Stays exactly the same", "Becomes negative"],
+          optionsMy: ["တိုးလာသည်", "လျော့ကျသည်", "လုံးဝ မပြောင်းလဲပါ", "Negative ဖြစ်လာသည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Down Group 2, atomic radius increases and ionisation energy decreases, making it easier for the metal to lose electrons and react -- reactivity increases down the group.",
+          ],
+          hintsMy: [
+            "Group 2 ကို အောက်သို့ သွားလျှင် Atomic Radius တိုးလာပြီး Ionisation Energy လျော့ကျကာ Metal သည် Electron ဆုံးရှုံးပြီး Reaction ဖြစ်ရန် ပို၍ လွယ်ကူသည် -- Reactivity သည် Group အောက်သို့ တိုးလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Magnesium reacts only slowly with cold water, while calcium reacts noticeably faster. This is best explained by...",
+          questionMy: "Magnesium သည် ရေအေးနှင့် နှေးကွေးစွာသာ Reaction ဖြစ်ပြီး Calcium သည် သိသိသာသာ ပို၍ မြန်ဆန်စွာ Reaction ဖြစ်သည်။ ၎င်းကို ကောင်းစွာ ရှင်းပြသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Calcium's larger atomic radius and lower ionisation energy than magnesium",
+            "Calcium having a higher ionisation energy than magnesium",
+            "Magnesium being more reactive than calcium",
+            "No real chemical reason, purely random",
+          ],
+          optionsMy: [
+            "Calcium ၏ Atomic Radius ပိုကြီးပြီး Magnesium ထက် Ionisation Energy ပိုနိမ့်ခြင်း",
+            "Calcium သည် Magnesium ထက် Ionisation Energy ပိုမြင့်ခြင်း",
+            "Magnesium သည် Calcium ထက် Reactive ပိုများခြင်း",
+            "တကယ့် Chemical အကြောင်းရင်း မရှိဘဲ လုံးဝ ကျပန်းသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Calcium sits below magnesium in Group 2, so its outer electrons are further from the nucleus and more easily lost, making calcium more reactive.",
+          ],
+          hintsMy: [
+            "Calcium သည် Group 2 တွင် Magnesium အောက်တွင် ရှိသောကြောင့် ၎င်း၏ Outer Electron များသည် Nucleus နှင့် ပို၍ ဝေးပြီး ပို၍ လွယ်ကူစွာ ဆုံးရှုံးကာ Calcium ကို ပို၍ Reactive ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "When a Group 2 metal reacts with oxygen, the product formed is typically...",
+          questionMy: "Group 2 Metal တစ်ခု Oxygen နှင့် Reaction ဖြစ်သောအခါ ဖြစ်ပေါ်လာသော Product သည် ပုံမှန်အားဖြင့်...",
+          optionsEn: [
+            "A basic oxide, e.g. MgO or CaO",
+            "An acidic oxide",
+            "A pure gas with no metal at all",
+            "Always a coloured complex ion",
+          ],
+          optionsMy: ["Basic Oxide, ဥပမာ - MgO သို့မဟုတ် CaO", "Acidic Oxide", "Metal လုံးဝ မပါဝင်သော Gas စင်", "Coloured Complex Ion အမြဲ"],
+          correctIndex: 0,
+          hintsEn: [
+            "Group 2 metals form basic metal oxides when burned in oxygen, e.g. 2Mg + O2 -> 2MgO -- these oxides react with water/acids as bases.",
+          ],
+          hintsMy: [
+            "Group 2 Metal များသည် Oxygen ထဲတွင် လောင်ကျွမ်းသောအခါ Basic Metal Oxide များ ဖြစ်ပေါ်စေသည်၊ ဥပမာ - 2Mg + O2 -> 2MgO -- ဤ Oxide များသည် Water/Acid များနှင့် Base များအဖြစ် Reaction ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Group 2 Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Group 2 ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w23-dm-1",
+          termEn: "Group 2 metal",
+          termMy: "Group 2 Metal",
+          matchEn: "An element from Be, Mg, Ca, Sr, or Ba, all forming 2+ ions",
+          matchMy: "Be, Mg, Ca, Sr, သို့မဟုတ် Ba မှ Element၊ အားလုံး 2+ Ion ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w23-dm-2",
+          termEn: "Reactivity trend (Group 2)",
+          termMy: "Reactivity Trend (Group 2)",
+          matchEn: "Reactivity increases down the group, as atomic radius increases and ionisation energy decreases",
+          matchMy: "Atomic Radius တိုးလာပြီး Ionisation Energy လျော့ကျသောကြောင့် Reactivity သည် Group အောက်သို့ တိုးလာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w23-dm-3",
+          termEn: "Basic oxide",
+          termMy: "Basic Oxide",
+          matchEn: "The typical product when a Group 2 metal reacts with oxygen, e.g. MgO or CaO",
+          matchMy: "Group 2 Metal Oxygen နှင့် Reaction ဖြစ်သောအခါ ပုံမှန် ဖြစ်ပေါ်လာသော Product၊ ဥပမာ - MgO သို့မဟုတ် CaO",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w23-dm-4",
+          termEn: "Ionisation energy trend (Group 2)",
+          termMy: "Ionisation Energy Trend (Group 2)",
+          matchEn: "Decreases down the group as outer electrons sit further from the nucleus",
+          matchMy: "Outer Electron များသည် Nucleus နှင့် ပို၍ ဝေးလာသောကြောင့် Group အောက်သို့ လျော့ကျသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w23-dm-5",
+          termEn: "Group 2 hydroxide (from reaction with water)",
+          termMy: "Group 2 Hydroxide (Water နှင့် Reaction မှ)",
+          matchEn: "Formed alongside hydrogen gas, e.g. Ca + 2H2O -> Ca(OH)2 + H2",
+          matchMy: "Hydrogen Gas နှင့်အတူ ဖြစ်ပေါ်လာသည်၊ ဥပမာ - Ca + 2H2O -> Ca(OH)2 + H2",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: More or Less Reactive with Water?",
+      titleMy: "စီစစ်ကြမည် - ရေနှင့် Reactive ပိုများလား ပိုနည်းလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["More Reactive with Water (Lower Down Group 2)", "Less Reactive with Water (Higher Up Group 2)"],
+        bucketsMy: ["ရေနှင့် Reactive ပိုများ (Group 2 အောက်ပိုင်း)", "ရေနှင့် Reactive ပိုနည်း (Group 2 အထက်ပိုင်း)"],
+        items: [
+          SortingItem(
+            id: "y13chem-w23-sort-1",
+            labelEn: "Magnesium, Mg",
+            labelMy: "Magnesium, Mg",
+            correctBucketEn: "Less Reactive with Water (Higher Up Group 2)",
+            correctBucketMy: "ရေနှင့် Reactive ပိုနည်း (Group 2 အထက်ပိုင်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w23-sort-2",
+            labelEn: "Barium, Ba",
+            labelMy: "Barium, Ba",
+            correctBucketEn: "More Reactive with Water (Lower Down Group 2)",
+            correctBucketMy: "ရေနှင့် Reactive ပိုများ (Group 2 အောက်ပိုင်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w23-sort-3",
+            labelEn: "Beryllium, Be",
+            labelMy: "Beryllium, Be",
+            correctBucketEn: "Less Reactive with Water (Higher Up Group 2)",
+            correctBucketMy: "ရေနှင့် Reactive ပိုနည်း (Group 2 အထက်ပိုင်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w23-sort-4",
+            labelEn: "Strontium, Sr",
+            labelMy: "Strontium, Sr",
+            correctBucketEn: "More Reactive with Water (Lower Down Group 2)",
+            correctBucketMy: "ရေနှင့် Reactive ပိုများ (Group 2 အောက်ပိုင်း)",
+          ),
+          SortingItem(
+            id: "y13chem-w23-sort-5",
+            labelEn: "Calcium, Ca (reacts noticeably faster than magnesium)",
+            labelMy: "Calcium, Ca (Magnesium ထက် သိသိသာသာ ပို၍ မြန်ဆန်စွာ Reaction ဖြစ်သည်)",
+            correctBucketEn: "More Reactive with Water (Lower Down Group 2)",
+            correctBucketMy: "ရေနှင့် Reactive ပိုများ (Group 2 အောက်ပိုင်း)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Comparing Magnesium and Calcium in Water",
+      titleMy: "စာဖတ်ခြင်း - Magnesium နှင့် Calcium ကို ရေတွင် နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Comparing Magnesium and Calcium in Water",
+        titleMy: "Magnesium နှင့် Calcium ကို ရေတွင် နှိုင်းယှဉ်ခြင်း",
+        passageEn:
+            "Sayar Zaw Min dropped a small piece of magnesium ribbon into cold water in front of Htet Aung, and almost nothing visible happened -- just the faintest trickle of bubbles over several minutes. He then dropped a similarly sized piece of calcium into a fresh beaker of cold water, and this time Htet Aung watched vigorous fizzing begin almost immediately, the metal visibly moving around the surface as hydrogen gas was released.\n\nSayar Zaw Min asked Htet Aung to explain the difference using atomic structure, not just observation. Htet Aung reasoned that both metals react with water by the same general pattern -- M + 2H2O -> M(OH)2 + H2 -- but calcium sits directly below magnesium in Group 2, meaning its outer 4s electrons are one full shell further from the nucleus than magnesium's outer 3s electrons. That extra distance weakens the nuclear pull on calcium's outer electrons, its first and second ionisation energies are correspondingly lower, and losing those electrons to form Ca2+ therefore takes noticeably less energy than forming Mg2+.\n\nSayar Zaw Min confirmed this reasoning and generalised it: this same pattern, increasing atomic radius reducing ionisation energy and therefore increasing reactivity, repeats consistently down the entire Group 2 column, with strontium and barium reacting even more vigorously than calcium. Htet Aung noted the parallel to a concept two terms behind him now, back when Group 2 hadn't come up yet at all: exactly the same radius-and-ionisation-energy logic that explains Group 2's reactivity trend down the group is the mirror image of what would soon explain Group 17's opposite trend -- a connection he suspected Sayar Zaw Min was saving for the very next week.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Magnesium Ribbon အသေးလေးတစ်ခုကို ရေအေးထဲသို့ Htet Aung ရှေ့တွင် ချထားခဲ့ပြီး မြင်နိုင်သော အရာမှန်သမျှ နီးပါး ဘာမျှ မဖြစ်ခဲ့ပါ -- မိနစ်များစွာအတွင်း Bubble အနည်းငယ်သာ ယိုစီးခဲ့သည်။ ထို့နောက် အလားတူ အရွယ်အစားရှိ Calcium အစနား ရေအေး Beaker အသစ်တစ်ခုထဲသို့ ချထားခဲ့ပြီး ဤအကြိမ်တွင် Htet Aung သည် ပြင်းထန်သော Fizzing ချက်ချင်း စတင်ဖြစ်ပေါ်လာသည်ကို ကြည့်ရှုခဲ့ပြီး Hydrogen Gas ထုတ်လွှတ်စဉ် Metal သည် Surface ပေါ်တွင် တွေ့မြင်ရလောက်အောင် ရွေ့လျားနေခဲ့သည်။\n\nAtomic Structure ကို အသုံးပြု၍ ကွာခြားချက်ကို ရှင်းပြရန် Htet Aung ကို Sayar ဇော်မင်း ခိုင်းစေခဲ့သည်၊ Observation တစ်ခုတည်း မဟုတ်ပါ။ Metal နှစ်ခုစလုံးသည် General Pattern တူတူဖြင့် ရေနှင့် Reaction ဖြစ်ကြကြောင်း -- M + 2H2O -> M(OH)2 + H2 -- Htet Aung ဆင်ခြင်တွေးခေါ်ခဲ့သော်လည်း Calcium သည် Group 2 တွင် Magnesium အောက်တွင် တိုက်ရိုက် ရှိသောကြောင့် ၎င်း၏ Outer 4s Electron များသည် Magnesium ၏ Outer 3s Electron များထက် Nucleus နှင့် Shell တစ်ခုပြည့် ပို၍ ဝေးသည်။ ထို Extra Distance သည် Calcium ၏ Outer Electron များအပေါ် Nuclear Pull ကို အားနည်းစေပြီး ၎င်း၏ ပထမနှင့် ဒုတိယ Ionisation Energy များသည် ထိုအတိုင်း ပိုနိမ့်သောကြောင့် ထို Electron များကို ဆုံးရှုံးကာ Ca2+ ဖြစ်ပေါ်စေရန်သည် Mg2+ ဖြစ်ပေါ်စေရန်ထက် Energy သိသိသာသာ ပို၍ နည်းသည်။\n\nဤ ဆင်ခြင်တွေးခေါ်မှုကို Sayar ဇော်မင်း အတည်ပြုပြီး General ပြုလုပ်ခဲ့သည် - ဤ Pattern တူတူ၊ Atomic Radius တိုးလာခြင်းက Ionisation Energy လျော့ကျစေပြီး ထို့ကြောင့် Reactivity တိုးလာစေခြင်းသည် Group 2 Column တစ်ခုလုံး တစ်လျှောက် တသမတ်တည်း ထပ်ခါထပ်ခါ ဖြစ်ပေါ်ပြီး Strontium နှင့် Barium တို့သည် Calcium ထက်ပင် ပို၍ ပြင်းထန်စွာ Reaction ဖြစ်ကြသည်။ ယခု Term နှစ်ခုနောက်တွင် ကျန်နေခဲ့သော Concept တစ်ခုနှင့် ဆင်တူမှုကို Htet Aung သတိပြုမိခဲ့သည်၊ ထိုစဉ်က Group 2 ကို လုံးဝ မထည့်သွင်းသေးခဲ့ပါ - Group 2 ၏ Reactivity Trend ကို Group အောက်သို့ ရှင်းပြသော Radius-and-Ionisation-Energy Logic တူတူပင်သည် Group 17 ၏ ဆန့်ကျင်ဖက် Trend ကို မကြာမီ ရှင်းပြပေးမည့် Mirror Image ဖြစ်သည် -- ဤ ချိတ်ဆက်မှုကို Sayar ဇော်မင်း နောက်ပတ်အတွက် သိမ်းထားဟန်တူကြောင်း ၎င်း သံသယရှိခဲ့သည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, which metal reacted more vigorously with cold water?",
+            questionMy: "ရေအေးနှင့် ပို၍ ပြင်းထန်စွာ Reaction ဖြစ်သော Metal ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Calcium", "Magnesium", "Neither reacted at all", "Both reacted identically"],
+            optionsMy: ["Calcium", "Magnesium", "မည်သည့်တစ်ခုမျှ လုံးဝ Reaction မဖြစ်ပါ", "နှစ်ခုစလုံး တူတူပင် Reaction ဖြစ်သည်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph's observation."],
+            hintsMy: ["ပထမစာပိုဒ်ရှိ Observation ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does calcium have a lower ionisation energy than magnesium?",
+            questionMy: "Calcium သည် Magnesium ထက် Ionisation Energy ပိုနိမ့်ရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Its outer electrons are a shell further from the nucleus, weakening the nuclear pull",
+              "It has fewer protons than magnesium",
+              "It has no outer electrons at all",
+              "Ionisation energy has no relationship to atomic radius",
+            ],
+            optionsMy: [
+              "Outer Electron များသည် Nucleus နှင့် Shell တစ်ခုပြည့် ပို၍ ဝေးပြီး Nuclear Pull ကို အားနည်းစေသည်",
+              "Magnesium ထက် Proton နည်းသည်",
+              "Outer Electron လုံးဝ မရှိပါ",
+              "Ionisation Energy သည် Atomic Radius နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, does the reactivity trend continue further down Group 2?",
+            questionMy: "Reactivity Trend သည် Group 2 အောက်သို့ ဆက်လက် ဖြစ်ပေါ်သလားဟု နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Yes -- strontium and barium react even more vigorously than calcium",
+              "No -- the trend reverses after calcium",
+              "No -- barium does not react with water at all",
+              "The passage does not mention strontium or barium",
+            ],
+            optionsMy: [
+              "ဆက်လက်ဖြစ်ပေါ်သည် -- Strontium နှင့် Barium သည် Calcium ထက်ပင် ပို၍ ပြင်းထန်စွာ Reaction ဖြစ်ကြသည်",
+              "မဖြစ်ပေါ်ပါ -- Calcium ပြီးနောက် Trend ပြောင်းပြန် ဖြစ်သွားသည်",
+              "မဖြစ်ပေါ်ပါ -- Barium သည် ရေနှင့် လုံးဝ Reaction မဖြစ်ပါ",
+              "စာပိုဒ်တွင် Strontium သို့မဟုတ် Barium ကို လုံးဝ ဖော်ပြထားခြင်း မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's generalisation."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ General ပြုလုပ်ချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Group 2 Chemistry",
+      titleMy: "တေဝိသတိပတ် ပြန်လည်သုံးသပ်ခြင်း - Group 2 Chemistry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Down Group 2, reactivity with water...",
+          questionMy: "Group 2 ကို အောက်သို့ သွားလျှင် ရေနှင့် Reactivity သည်...",
+          optionsEn: ["Increases", "Decreases", "Stays the same", "Becomes zero"],
+          optionsMy: ["တိုးလာသည်", "လျော့ကျသည်", "မပြောင်းလဲပါ", "Zero ဖြစ်လာသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Down Group 2, ionisation energy...",
+          questionMy: "Group 2 ကို အောက်သို့ သွားလျှင် Ionisation Energy သည်...",
+          optionsEn: ["Decreases", "Increases", "Stays the same", "Becomes negative"],
+          optionsMy: ["လျော့ကျသည်", "တိုးလာသည်", "မပြောင်းလဲပါ", "Negative ဖြစ်လာသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Group 2 metals typically form which kind of oxide when burned in oxygen?",
+          questionMy: "Group 2 Metal များသည် Oxygen ထဲတွင် လောင်ကျွမ်းသောအခါ မည်သည့် Oxide အမျိုးအစား ပုံမှန် ဖြစ်ပေါ်စေသနည်း",
+          optionsEn: ["Basic oxide", "Acidic oxide", "No oxide at all", "Amphoteric oxide only"],
+          optionsMy: ["Basic Oxide", "Acidic Oxide", "Oxide လုံးဝ မဖြစ်ပေါ်ပါ", "Amphoteric Oxide တစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24 (Boss Week): "Group 17 Chemistry"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13ChemWeek24 = CourseWeekDef(
+  id: "course-y13-chem-w24",
+  weekNumber: 24,
+  titleEn: "Group 17 Chemistry",
+  titleMy: "Group 17 Chemistry",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-chem-w24-d1",
+      dayNumber: 1,
+      titleEn: "Halogen Reactivity and Displacement Reactions",
+      titleMy: "Halogen Reactivity နှင့် Displacement Reaction များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Going down Group 17 (F, Cl, Br, I), oxidising power and reactivity...",
+          questionMy: "Group 17 (F, Cl, Br, I) ကို အောက်သို့ သွားလျှင် Oxidising Power နှင့် Reactivity သည်...",
+          optionsEn: ["Decrease", "Increase", "Stay exactly the same", "Become zero"],
+          optionsMy: ["လျော့ကျသည်", "တိုးလာသည်", "လုံးဝ မပြောင်းလဲပါ", "Zero ဖြစ်လာသည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "Unlike Group 2's metals, Group 17's non-metals become larger down the group, making it harder to attract an extra electron -- reactivity and oxidising power decrease down the group.",
+          ],
+          hintsMy: [
+            "Group 2 ၏ Metal များနှင့် မတူဘဲ Group 17 ၏ Non-Metal များသည် Group အောက်သို့ ပို၍ ကြီးမားလာပြီး Electron တစ်ခုထပ်ကို ဆွဲငင်ရန် ပို၍ ခက်ခဲသည် -- Reactivity နှင့် Oxidising Power သည် Group အောက်သို့ လျော့ကျသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Adding chlorine water to potassium bromide solution, Cl2 + 2Br⁻ -> 2Cl⁻ + Br2, is feasible because...",
+          questionMy: "Potassium Bromide Solution သို့ Chlorine Water ထည့်သွင်းခြင်း, Cl2 + 2Br⁻ -> 2Cl⁻ + Br2, Feasible ဖြစ်ရသည့် အကြောင်းမှာ...",
+          optionsEn: [
+            "Chlorine, higher up the group, is a stronger oxidising agent than bromine",
+            "Bromine is a stronger oxidising agent than chlorine",
+            "Chlorine and bromine have identical oxidising power",
+            "Bromide ions cannot be oxidised under any conditions",
+          ],
+          optionsMy: [
+            "Group အထက်တွင် ရှိသော Chlorine သည် Bromine ထက် Oxidising Agent ပို၍ အားကောင်းသည်",
+            "Bromine သည် Chlorine ထက် Oxidising Agent ပို၍ အားကောင်းသည်",
+            "Chlorine နှင့် Bromine တို့တွင် Oxidising Power အတိအကျ တူညီသည်",
+            "Bromide Ion များကို မည်သည့် Condition တွင်မျှ Oxidise ပြု၍ မရနိုင်ပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A halogen higher up the group can always displace (oxidise) the halide ion of a halogen lower down, since its oxidising power is stronger.",
+          ],
+          hintsMy: [
+            "Group အထက်တွင် ရှိသော Halogen သည် Group အောက်ရှိ Halogen ၏ Halide Ion ကို အမြဲ Displace (Oxidise) ပြုနိုင်သည်၊ ၎င်း၏ Oxidising Power ပို၍ အားကောင်းသောကြောင့် ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Would adding iodine solution to potassium chloride solution, I2 + 2Cl⁻ -> ?, produce a displacement reaction?",
+          questionMy: "Potassium Chloride Solution သို့ Iodine Solution ထည့်သွင်းခြင်း, I2 + 2Cl⁻ -> ?, သည် Displacement Reaction ဖြစ်ပေါ်စေမည်လား",
+          optionsEn: [
+            "No -- iodine, lower down the group, is a weaker oxidising agent than chlorine",
+            "Yes -- iodine easily oxidises chloride ions",
+            "Yes, but only at very high temperatures",
+            "No relationship exists between the two halogens",
+          ],
+          optionsMy: [
+            "မဖြစ်ပါ -- Group အောက်ရှိ Iodine သည် Chlorine ထက် Oxidising Agent ပို၍ အားနည်းသည်",
+            "ဖြစ်သည် -- Iodine သည် Chloride Ion များကို လွယ်ကူစွာ Oxidise ပြုသည်",
+            "ဖြစ်သည်၊ သို့သော် Temperature အလွန် မြင့်မှသာ",
+            "Halogen နှစ်ခုကြား ဆက်စပ်မှု လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A halogen lower down the group cannot displace a halide ion of a halogen higher up -- iodine's oxidising power is too weak to oxidise Cl⁻.",
+          ],
+          hintsMy: [
+            "Group အောက်ရှိ Halogen သည် Group အထက်ရှိ Halogen ၏ Halide Ion ကို Displace ပြု၍ မရနိုင်ပါ -- Iodine ၏ Oxidising Power သည် Cl⁻ ကို Oxidise ပြုရန် အလွန် အားနည်းသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Group 17 Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Group 17 ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13chem-w24-dm-1",
+          termEn: "Halogen",
+          termMy: "Halogen",
+          matchEn: "A Group 17 non-metal element, e.g. F2, Cl2, Br2, I2",
+          matchMy: "Group 17 Non-Metal Element၊ ဥပမာ - F2, Cl2, Br2, I2",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13chem-w24-dm-2",
+          termEn: "Displacement reaction (halogens)",
+          termMy: "Displacement Reaction (Halogen များ)",
+          matchEn: "A halogen higher up the group oxidises the halide ion of one lower down, e.g. Cl2 + 2Br⁻ -> 2Cl⁻ + Br2",
+          matchMy: "Group အထက်ရှိ Halogen သည် Group အောက်ရှိ Halide Ion ကို Oxidise ပြုသည်၊ ဥပမာ - Cl2 + 2Br⁻ -> 2Cl⁻ + Br2",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13chem-w24-dm-3",
+          termEn: "Oxidising power (Group 17)",
+          termMy: "Oxidising Power (Group 17)",
+          matchEn: "Decreases down the group, as atoms get larger and attract an extra electron less strongly",
+          matchMy: "Atom များ ကြီးမားလာပြီး Electron တစ်ခုထပ်ကို ဆွဲငင်ရန် အားနည်းလာသောကြောင့် Group အောက်သို့ လျော့ကျသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13chem-w24-dm-4",
+          termEn: "Halide ion",
+          termMy: "Halide Ion",
+          matchEn: "The 1- ion formed by a halogen gaining an electron, e.g. Cl⁻, Br⁻, I⁻",
+          matchMy: "Halogen Electron တစ်ခု ရရှိကာ ဖြစ်ပေါ်လာသော 1- Ion၊ ဥပမာ - Cl⁻, Br⁻, I⁻",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13chem-w24-dm-5",
+          termEn: "Reactivity trend (Group 17)",
+          termMy: "Reactivity Trend (Group 17)",
+          matchEn: "Decreases down the group -- the opposite direction to Group 2's reactivity trend",
+          matchMy: "Group အောက်သို့ လျော့ကျသည် -- Group 2 ၏ Reactivity Trend နှင့် ဆန့်ကျင်ဖက် Direction ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Feasible or Not Feasible Displacement?",
+      titleMy: "စီစစ်ကြမည် - Displacement Feasible ဖြစ်လား မဖြစ်လား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Feasible Displacement", "Not Feasible"],
+        bucketsMy: ["Feasible Displacement", "Feasible မဟုတ်"],
+        items: [
+          SortingItem(
+            id: "y13chem-w24-sort-1",
+            labelEn: "Cl2 + 2Br⁻ -> 2Cl⁻ + Br2 (Cl higher up than Br)",
+            labelMy: "Cl2 + 2Br⁻ -> 2Cl⁻ + Br2 (Cl သည် Br ထက် Group အထက်တွင်)",
+            correctBucketEn: "Feasible Displacement",
+            correctBucketMy: "Feasible Displacement",
+          ),
+          SortingItem(
+            id: "y13chem-w24-sort-2",
+            labelEn: "Br2 + 2Cl⁻ -> ? (Br lower down than Cl)",
+            labelMy: "Br2 + 2Cl⁻ -> ? (Br သည် Cl ထက် Group အောက်တွင်)",
+            correctBucketEn: "Not Feasible",
+            correctBucketMy: "Feasible မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w24-sort-3",
+            labelEn: "Cl2 + 2I⁻ -> 2Cl⁻ + I2 (Cl much higher up than I)",
+            labelMy: "Cl2 + 2I⁻ -> 2Cl⁻ + I2 (Cl သည် I ထက် Group အလွန် အထက်တွင်)",
+            correctBucketEn: "Feasible Displacement",
+            correctBucketMy: "Feasible Displacement",
+          ),
+          SortingItem(
+            id: "y13chem-w24-sort-4",
+            labelEn: "I2 + 2Cl⁻ -> ? (I lower down than Cl)",
+            labelMy: "I2 + 2Cl⁻ -> ? (I သည် Cl ထက် Group အောက်တွင်)",
+            correctBucketEn: "Not Feasible",
+            correctBucketMy: "Feasible မဟုတ်",
+          ),
+          SortingItem(
+            id: "y13chem-w24-sort-5",
+            labelEn: "Br2 + 2I⁻ -> 2Br⁻ + I2 (Br higher up than I)",
+            labelMy: "Br2 + 2I⁻ -> 2Br⁻ + I2 (Br သည် I ထက် Group အထက်တွင်)",
+            correctBucketEn: "Feasible Displacement",
+            correctBucketMy: "Feasible Displacement",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Metals Up, Non-Metals Down -- A Term-Long Contrast",
+      titleMy: "စာဖတ်ခြင်း - Metal Up, Non-Metal Down -- Term တစ်ခုလုံး၏ Contrast",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Metals Up, Non-Metals Down -- A Term-Long Contrast",
+        titleMy: "Metal Up, Non-Metal Down -- Term တစ်ခုလုံး၏ Contrast",
+        passageEn:
+            "Sayar Zaw Min closed the whole term with a single side-by-side comparison, asking Su Su to explain why Group 2 metals become more reactive going down their group while Group 17 non-metals become less reactive going down theirs -- two trends that look contradictory at first glance but share exactly the same underlying cause.\n\nSu Su started with Group 2. A Group 2 metal reacts by losing its two outer electrons; going down the group, atomic radius increases and those outer electrons sit further from the nucleus, so the nuclear pull on them weakens, ionisation energy falls, and losing the electrons becomes easier -- reactivity increases. She then worked through Group 17 using the mirror-image logic. A halogen reacts by gaining one extra electron; going down the group, atomic radius increases too, but now the relevant question is how strongly the nucleus can attract an incoming electron from outside the atom -- and a larger atom, with its extra electron shells partially shielding the nuclear charge, attracts that incoming electron more weakly, so oxidising power and reactivity decrease.\n\nSayar Zaw Min confirmed both explanations were correct and pointed out they were the same physical principle -- atomic radius weakening nuclear attraction on outer electrons -- applied to two opposite kinds of reaction: metals losing electrons versus non-metals gaining them. He then widened the lens to the whole term: nitrogen fixation and the Haber process had shown a compromise between rate and equilibrium yield; NOx and acid rain had traced a single atom's journey through industrial and atmospheric chemistry; and now Group 2 and Group 17 had shown that even two reactivity trends running in opposite directions come from one shared idea about atomic structure -- a fitting close to a term that, throughout, kept returning to the same lesson: chemistry's apparent variety usually collapses into a small number of underlying principles, applied consistently and repeatedly across very different-looking situations.",
+        passageMy:
+            "Sayar ဇော်မင်း သည် Side-by-Side Comparison တစ်ခုတည်းဖြင့် Term တစ်ခုလုံးကို ပိတ်ခဲ့သည်၊ Group 2 Metal များသည် Group အောက်သို့ သွားလျှင် ပို၍ Reactive ဖြစ်လာသော်လည်း Group 17 Non-Metal များသည် Group အောက်သို့ သွားလျှင် ပို၍ Reactive နည်းလာရသည့် အကြောင်းကို ရှင်းပြခိုင်းစေခဲ့သည် -- Trend နှစ်ခုသည် ကြည့်ကြည့်တွင် ဆန့်ကျင်နေသလို ထင်ရသော်လည်း အခြေခံ အကြောင်းရင်း တူတူပင် ဖြစ်ကြသည်။\n\nSu Su သည် Group 2 ဖြင့် စတင်ခဲ့သည်။ Group 2 Metal တစ်ခုသည် ၎င်း၏ Outer Electron နှစ်ခုကို ဆုံးရှုံးခြင်းဖြင့် Reaction ဖြစ်သည်၊ Group အောက်သို့ သွားလျှင် Atomic Radius တိုးလာပြီး ထို Outer Electron များသည် Nucleus နှင့် ပို၍ ဝေးလာသောကြောင့် Nuclear Pull အားနည်းလာကာ Ionisation Energy ကျဆင်းသွားပြီး Electron များ ဆုံးရှုံးရန် ပို၍ လွယ်ကူလာသည် -- Reactivity တိုးလာသည်။ ထို့နောက် Mirror-Image Logic ကို အသုံးပြု၍ Group 17 ကို လုပ်ဆောင်ခဲ့သည်။ Halogen တစ်ခုသည် Electron တစ်ခုထပ် ရရှိခြင်းဖြင့် Reaction ဖြစ်သည်၊ Group အောက်သို့ သွားလျှင် Atomic Radius တိုးလာသော်လည်း ယခု သက်ဆိုင်ရာ မေးခွန်းသည် Nucleus သည် Atom အပြင်ဘက်မှ ဝင်လာသော Electron ကို မည်မျှ ပြင်းထန်စွာ ဆွဲငင်နိုင်သည် ဖြစ်ပြီး -- Atom ကြီးမားလေ၊ ၎င်း၏ Extra Electron Shell များသည် Nuclear Charge ကို တစ်စိတ်တစ်ပိုင်း ကာကွယ်ပေးလေ ထို ဝင်လာသော Electron ကို ပို၍ အားနည်းစွာ ဆွဲငင်လေ ဖြစ်၍ Oxidising Power နှင့် Reactivity သည် လျော့ကျသည်။\n\nExplanation နှစ်ခုစလုံး မှန်ကန်ကြောင်း Sayar ဇော်မင်း အတည်ပြုပြီး ၎င်းတို့သည် Physical Principle တူတူပင် ဖြစ်ကြောင်း ထောက်ပြခဲ့သည် -- Atomic Radius သည် Outer Electron များအပေါ် Nuclear Attraction ကို အားနည်းစေခြင်း -- Reaction အမျိုးအစား ဆန့်ကျင်ဖက်နှစ်ခုတွင် အသုံးချထားသည် - Electron ဆုံးရှုံးသော Metal များ Versus Electron ရရှိသော Non-Metal များ။ ထို့နောက် Term တစ်ခုလုံးဆီသို့ Lens ကို ကျယ်ပြန့်စွာ လှမ်းကြည့်ခဲ့သည် - Nitrogen Fixation နှင့် Haber Process သည် Rate နှင့် Equilibrium Yield ကြား Compromise တစ်ခု ပြသခဲ့ပြီး NOx နှင့် Acid Rain သည် Atom တစ်ခု၏ ခရီးစဉ်ကို Industrial နှင့် Atmospheric Chemistry ဖြတ်၍ ခြေရာခံခဲ့ပြီး ယခု Group 2 နှင့် Group 17 သည် ဆန့်ကျင်ဖက် Direction နှစ်ခုတွင် ဖြစ်ပေါ်နေသော Reactivity Trend နှစ်ခုပင် Atomic Structure နှင့် ပတ်သက်သော Idea တူတူတစ်ခုမှ လာကြောင်း ပြသခဲ့သည် -- Term တစ်ခုလုံးတွင် ထပ်ခါထပ်ခါ ပြန်ဆိုက်ရောက်ခဲ့သော သင်ခန်းစာ တူတူ ဖြစ်ကြောင်း သင့်လျော်သော ပိတ်သိမ်းချက်တစ်ခု ဖြစ်သည် - Chemistry ၏ ထင်ရှားသော Variety သည် ပုံစံအမျိုးမျိုး ကွဲပြားနေသော Situation များ တစ်လျှောက်တွင် တသမတ်တည်း ထပ်ခါထပ်ခါ အသုံးချထားသော Underlying Principle အနည်းငယ်ဆီသို့ ပုံမှန်အားဖြင့် ချုံ့ကျသွားလေ့ ရှိသည်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, why does Group 2's reactivity increase down the group?",
+            questionMy: "Group 2 ၏ Reactivity သည် Group အောက်သို့ တိုးလာရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Outer electrons sit further from the nucleus, weakening the pull and lowering ionisation energy",
+              "Atomic radius decreases down the group",
+              "Nuclear charge disappears entirely",
+              "Group 2 metals become non-metals lower down",
+            ],
+            optionsMy: [
+              "Outer Electron များသည် Nucleus နှင့် ပို၍ ဝေးလာပြီး Pull ကို အားနည်းစေကာ Ionisation Energy ကို လျော့ကျစေသည်",
+              "Atomic Radius သည် Group အောက်သို့ လျော့ကျသည်",
+              "Nuclear Charge လုံးဝ ပျောက်ကွယ်သွားသည်",
+              "Group 2 Metal များသည် Group အောက်ပိုင်းတွင် Non-Metal ဖြစ်လာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of Group 2."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Group 2 ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, why does Group 17's oxidising power decrease down the group?",
+            questionMy: "Group 17 ၏ Oxidising Power သည် Group အောက်သို့ လျော့ကျရသည့် အကြောင်းကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A larger atom attracts an incoming electron more weakly",
+              "Halogens become metals lower down the group",
+              "Oxidising power has no relationship to atomic size",
+              "Nuclear charge increases without limit",
+            ],
+            optionsMy: [
+              "Atom ကြီးလေ ဝင်လာသော Electron ကို ပို၍ အားနည်းစွာ ဆွဲငင်လေ ဖြစ်သည်",
+              "Halogen များသည် Group အောက်ပိုင်းတွင် Metal ဖြစ်လာသည်",
+              "Oxidising Power သည် Atomic Size နှင့် လုံးဝ မသက်ဆိုင်ပါ",
+              "Nuclear Charge သည် အကန့်အသတ်မရှိ တိုးလာသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph's explanation of Group 17."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ရှိ Group 17 ရှင်းပြချက်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the final paragraph, what shared physical principle explains both opposite trends?",
+            questionMy: "ဆန့်ကျင်ဖက် Trend နှစ်ခုစလုံးကို ရှင်းပြသော Physical Principle တူတူကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Atomic radius weakening nuclear attraction on outer/incoming electrons",
+              "Colour of the elements",
+              "Melting point trends only",
+              "There is no shared principle at all",
+            ],
+            optionsMy: [
+              "Atomic Radius သည် Outer/Incoming Electron များအပေါ် Nuclear Attraction ကို အားနည်းစေခြင်း",
+              "Element များ၏ Colour",
+              "Melting Point Trend တစ်ခုတည်း",
+              "Shared Principle လုံးဝ မရှိပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph's summary."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ရှိ အနှစ်ချုပ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-chem-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: Group 17 Chemistry",
+      titleMy: "စတုဝိသတိပတ် ပြန်လည်သုံးသပ်ခြင်း - Group 17 Chemistry",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Down Group 17, oxidising power...",
+          questionMy: "Group 17 ကို အောက်သို့ သွားလျှင် Oxidising Power သည်...",
+          optionsEn: ["Decreases", "Increases", "Stays the same", "Becomes infinite"],
+          optionsMy: ["လျော့ကျသည်", "တိုးလာသည်", "မပြောင်းလဲပါ", "Infinite ဖြစ်လာသည်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A halogen higher up Group 17 can displace the halide ion of one...",
+          questionMy: "Group 17 အထက်ပိုင်းရှိ Halogen တစ်ခုသည် ...၏ Halide Ion ကို Displace ပြုနိုင်သည်",
+          optionsEn: ["Lower down the group", "Higher up the group", "In a different group entirely", "In Group 2"],
+          optionsMy: ["Group အောက်ပိုင်း", "Group အထက်ပိုင်း", "Group လုံးဝ မတူညီ", "Group 2"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Group 2's reactivity trend (increasing down the group) and Group 17's (decreasing down the group) share which underlying cause?",
+          questionMy: "Group 2 ၏ Reactivity Trend (Group အောက်သို့ တိုးလာ) နှင့် Group 17 ၏ (Group အောက်သို့ လျော့ကျ) တို့သည် မည်သည့် Underlying Cause တူတူ ဆောင်ကြသနည်း",
+          optionsEn: [
+            "Atomic radius changing the strength of nuclear attraction on electrons",
+            "Colour of the elements",
+            "Boiling point trends only",
+            "No shared cause at all",
+          ],
+          optionsMy: [
+            "Atomic Radius သည် Electron များအပေါ် Nuclear Attraction ၏ ခိုင်မာမှုကို ပြောင်းလဲစေခြင်း",
+            "Element များ၏ Colour",
+            "Boiling Point Trend တစ်ခုတည်း",
+            "Shared Cause လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13ChemistryTerm6 = CourseTermDef(
+  id: "course-y13-chem-term6",
+  termNumber: 6,
+  titleEn: "Nitrogen Chemistry and Group Chemistry",
+  titleMy: "Nitrogen Chemistry နှင့် Group Chemistry",
+  weeks: [_y13ChemWeek21, _y13ChemWeek22, _y13ChemWeek23, _y13ChemWeek24],
+  certificateTitleEn: "A2 Chemistry: Nitrogen Chemistry and Group Chemistry",
+  certificateTitleMy: "A2 ဓာတုဗေဒ - Nitrogen Chemistry နှင့် Group Chemistry",
+);
