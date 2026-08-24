@@ -15,11 +15,13 @@
 | **Physics** (9702) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | **Chemistry** (9701) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
 | **Biology** (9700) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
-| **Mathematics** (9709) | **Complete — 9/9 terms** | Not started |
-| English (9093-style) | n/a (not in original ask) | Not started |
-| Computing (9618-style) | n/a (not in original ask) | Not started |
-| Humanities | n/a (not in original ask) | Not started |
-| Global Perspectives | n/a (not in original ask) | Not started |
+| **Mathematics** (9709) | **Complete — 9/9 terms** | **Complete — 9/9 terms** |
+| English | n/a | Not started |
+| Computing | n/a | Not started |
+| Humanities | n/a | Not started |
+| Global Perspectives | n/a | Not started |
+
+**Year 12 (AS) and Year 13 (A2) are now both fully complete across all four core subjects** — Physics, Chemistry, Biology, Mathematics. 8 pathways, 72 terms, 288 weeks, 1,440 daily lessons, all registered and live. Remaining work: four net-new Year 13 subjects with no Year 12 sibling to continue from (English, Computing, Humanities, Global Perspectives) — each gets its own fresh 9-term pathway.
 
 ## Year 12 Biology — COMPLETE
 
@@ -37,7 +39,7 @@ Pathway: `year12MathematicsPathway` (`lib/features/lessons/course_pathways/cours
 
 Two earlier attempts to parallel-dispatch 8 Year-13-subject agents simultaneously both failed immediately (session limit), before any of the 8 agents wrote a single line to any file — confirmed via `dart analyze`/grep showing no `year13*` consts exist anywhere in the codebase yet, and `git status`/`git log` showing no related commits. **Nothing to reconcile — start clean.**
 
-**Planned order:** Year 13 Physics (9702 A2) — DONE. Year 13 Chemistry (9701 A2) — DONE. Year 13 Biology (9700 A2) — DONE. Year 13 Mathematics next (last subject with a Year 12 sibling to continue from), then Year 13 English/Computing/Humanities/Global Perspectives (net-new subjects at this grade, no Year 12 versions exist or were requested).
+**Planned order:** Year 13 Physics (9702 A2) — DONE. Year 13 Chemistry (9701 A2) — DONE. Year 13 Biology (9700 A2) — DONE. Year 13 Mathematics (9709 A2/P3) — DONE. Year 13 English next, then Computing, Humanities, Global Perspectives (net-new subjects at this grade, no Year 12 versions exist or were requested — first pass topic briefs were drafted once during initial planning and are summarized where each subject's section below begins).
 
 **Execution note on session-limit crashes:** both Year 13 Physics (Term 7) and Year 13 Chemistry (Term 8) hit a mid-batch session-limit API error at some point. In both cases, checking the actual file directly (not trusting the crash message) showed the in-progress term's `CourseWeekDef` consts were already fully and correctly written before the crash — only the wrapping `CourseTermDef`/next term was missing. Recovery pattern: verify via grep + `dart analyze` (expect `unused_element` warnings on the orphaned week consts, which is normal and resolves once the term wrapper is added), then resume the same agent pointed at the exact gap rather than redoing completed work. No content has been lost or duplicated so far.
 
@@ -53,6 +55,24 @@ Pathway: `year13ChemistryPathway` (`lib/features/lessons/course_pathways/course_
 
 Pathway: `year13BiologyPathway` (`lib/features/lessons/course_pathways/course_pathways_biology.dart`), wired into `allCoursePathways`, `Grade.year13`. All 9 terms authored (Energy/Respiration; Photosynthesis; Homeostasis; Coordination; Inherited Change; Selection/Evolution; Biodiversity/Classification; Genetic Technology; Ecology/A2 Exam Prep). Commits: `4afc72e` (T1-3), `a2168c2` (T4-6), `d4b0ef6` (T7-9 + CoursePathwayDef + registration).
 
-**Currently in progress:** Year 13 Mathematics (9709 A2, Pure Math 3), Terms 1-3.
+## Year 13 Mathematics — COMPLETE
+
+Pathway: `year13MathematicsPathway` (`lib/features/lessons/course_pathways/course_pathways_mathematics.dart`), wired into `allCoursePathways`, `Grade.year13`. All 9 terms authored (Algebra; Logarithmic/Exponential Functions; Further Trigonometry; Further Differentiation; Further Integration; Numerical Solutions of Equations; Vectors; Differential Equations; Complex Numbers/A2 Exam Prep). Commits: `c57fcd0` (T1-3), `d5bfde8` (T4-6), `f766ed7` (T7-9 + CoursePathwayDef + registration).
+
+**Year 12 and Year 13 are now both fully complete across all four core subjects (Physics, Chemistry, Biology, Mathematics) — 8 pathways, 1,440 daily lessons.**
+
+## Year 13 English/Computing/Humanities/Global Perspectives — topic briefs (net-new subjects)
+
+No Year 12 version of these exists (not requested). Each gets its own fresh 9-term pathway appended to its respective file, same structural conventions throughout (4 weeks/term, boss week 4, 5 daily lessons/week in the quiz/dragMatch/sorting/reading/recap-quiz rotation, bilingual, no LaTeX).
+
+**Year 13 English** (`course_pathways_english.dart`) — advanced critical reading/rhetoric/literary analysis: T1 Advanced Reading Comprehension and Inference; T2 Rhetoric and Persuasive Writing; T3 Literary Analysis: Poetry; T4 Literary Analysis: Prose Fiction; T5 Literary Analysis: Drama; T6 Advanced Grammar and Style; T7 Discursive and Argumentative Essays; T8 Report and Article Writing; T9 Extended Literature Essay + Exam Prep.
+
+**Year 13 Computing** (`course_pathways_computing.dart`) — advanced Computer Science: T1 Advanced Data Representation; T2 Computer Architecture and the Fetch-Execute Cycle; T3 System Software; T4 Networking and Communication; T5 Databases and SQL; T6 Object-Oriented Programming; T7 Algorithm Design and Complexity; T8 Boolean Algebra and Logic Gates; T9 Cybersecurity, Ethics and Exam Prep.
+
+**Year 13 Humanities** (`course_pathways_humanities.dart`) — advanced History/Geography: T1 Historical Skills and Source Analysis; T2 20th Century World History: Causes of the World Wars; T3 Physical Geography: Tectonics and Hazards; T4 Physical Geography: Climate and Ecosystems; T5 Human Geography: Population and Migration; T6 Human Geography: Development and Globalization; T7 Government and Politics; T8 20th Century World History: The Cold War; T9 Extended Essay Skills + Exam Prep.
+
+**Year 13 Global Perspectives** (`course_pathways_global_perspectives.dart`) — critical thinking/research: T1 Analysing Perspectives and Bias; T2 Research Methods and Source Evaluation; T3 Global Issue: Environment and Sustainability; T4 Global Issue: Technology and Ethics; T5 Global Issue: Trade, Poverty and Development; T6 Reasoning and Argument Construction; T7 Collaborative Global Problem-Solving; T8 Presentation and Communication Skills; T9 Individual Research Report + Exam Prep.
+
+**Currently in progress:** Year 13 English, Terms 1-3.
 
 Topic breakdowns for every Year 13 subject (Physics, Chemistry, Biology, Mathematics P3, English, Computing, Humanities, Global Perspectives — term-by-term syllabus content) were drafted once already in this session's planning and can be regenerated from the Cambridge AS/A2 syllabus structure if not otherwise recorded; not duplicated here to keep this file short — see the live conversation/agent dispatch prompts for the exact per-term content briefs used.
