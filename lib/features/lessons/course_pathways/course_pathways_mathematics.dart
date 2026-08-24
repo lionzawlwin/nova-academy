@@ -152067,3 +152067,3258 @@ const CourseTermDef year13MathematicsTerm3 = CourseTermDef(
   certificateTitleEn: "A2 Mathematics: Further Trigonometry",
   certificateTitleMy: "A2 သင်္ချာ - Trigonometry ဆက်လက်လေ့လာခြင်း",
 );
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 4:
+// "Further Differentiation"
+// (Weeks 13-16)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "Differentiating eˣ and ln(x)"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek13 = CourseWeekDef(
+  id: "course-y13-math-w13",
+  weekNumber: 13,
+  titleEn: "Differentiating eˣ and ln(x)",
+  titleMy: "eˣ နှင့် ln(x) ကို Differentiate ပြုလုပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w13-d1",
+      dayNumber: 1,
+      titleEn: "Standard Derivatives of eˣ and ln(x)",
+      titleMy: "eˣ နှင့် ln(x) ၏ Standard Derivative များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Differentiate y = eˣ.",
+          questionMy: "y = eˣ ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = eˣ", "dy/dx = xeˣ⁻¹", "dy/dx = 1", "dy/dx = ln x"],
+          optionsMy: ["dy/dx = eˣ", "dy/dx = xeˣ⁻¹", "dy/dx = 1", "dy/dx = ln x"],
+          correctIndex: 0,
+          hintsEn: ["eˣ is its own derivative -- a unique property of the exponential function with base e."],
+          hintsMy: ["eˣ သည် ၎င်းကိုယ်တိုင်ပင် Derivative ဖြစ်သည် -- Base e ပါသော Exponential Function ၏ ထူးခြားသော Property ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = e^(5x).",
+          questionMy: "y = e^(5x) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = 5e^(5x)", "dy/dx = e^(5x)", "dy/dx = 5xe^(5x)", "dy/dx = e^(4x)"],
+          optionsMy: ["dy/dx = 5e^(5x)", "dy/dx = e^(5x)", "dy/dx = 5xe^(5x)", "dy/dx = e^(4x)"],
+          correctIndex: 0,
+          hintsEn: ["For e^(kx), the derivative is k e^(kx) -- multiply by the coefficient of x in the exponent."],
+          hintsMy: ["e^(kx) အတွက် Derivative သည် k e^(kx) ဖြစ်သည် -- Exponent ထဲရှိ x ၏ Coefficient ဖြင့် မြှောက်ပါ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = ln(4x).",
+          questionMy: "y = ln(4x) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = 1/x", "dy/dx = 4/x", "dy/dx = 1/(4x)", "dy/dx = 4"],
+          optionsMy: ["dy/dx = 1/x", "dy/dx = 4/x", "dy/dx = 1/(4x)", "dy/dx = 4"],
+          correctIndex: 0,
+          hintsEn: [
+            "ln(4x) = ln 4 + ln x, and the derivative of the constant ln 4 is 0, leaving just d/dx(ln x) = 1/x.",
+          ],
+          hintsMy: [
+            "ln(4x) = ln 4 + ln x ဖြစ်ပြီး Constant ln 4 ၏ Derivative သည် 0 ဖြစ်၍ d/dx(ln x) = 1/x သာ ကျန်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: eˣ and ln(x) Derivatives",
+      titleMy: "တွဲစပ်ကြမည် - eˣ နှင့် ln(x) Derivative များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w13-dm-1",
+          termEn: "d/dx(eˣ)",
+          termMy: "d/dx(eˣ)",
+          matchEn: "eˣ",
+          matchMy: "eˣ",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w13-dm-2",
+          termEn: "d/dx(e^(kx))",
+          termMy: "d/dx(e^(kx))",
+          matchEn: "k e^(kx)",
+          matchMy: "k e^(kx)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w13-dm-3",
+          termEn: "d/dx(ln x)",
+          termMy: "d/dx(ln x)",
+          matchEn: "1/x",
+          matchMy: "1/x",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w13-dm-4",
+          termEn: "d/dx(ln(kx))",
+          termMy: "d/dx(ln(kx))",
+          matchEn: "1/x (the constant k vanishes upon differentiating)",
+          matchMy: "1/x (Constant k သည် Differentiate ပြုလုပ်ပါက ပျောက်သွားသည်)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w13-dm-5",
+          termEn: "d/dx(ln x + C)",
+          termMy: "d/dx(ln x + C)",
+          matchEn: "1/x (adding a constant doesn't change the derivative)",
+          matchMy: "1/x (Constant ပေါင်းခြင်းသည် Derivative ကို မပြောင်းလဲစေပါ)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: eˣ-Type or ln-Type Derivative?",
+      titleMy: "စီစစ်ကြမည် - eˣ-Type ဒါမှမဟုတ် ln-Type Derivative",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Derivative is eˣ-type", "Derivative is 1/x-type"],
+        bucketsMy: ["Derivative သည် eˣ-Type ဖြစ်သည်", "Derivative သည် 1/x-Type ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w13-sort-1",
+            labelEn: "y = e^(2x)",
+            labelMy: "y = e^(2x)",
+            correctBucketEn: "Derivative is eˣ-type",
+            correctBucketMy: "Derivative သည် eˣ-Type ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w13-sort-2",
+            labelEn: "y = ln(3x)",
+            labelMy: "y = ln(3x)",
+            correctBucketEn: "Derivative is 1/x-type",
+            correctBucketMy: "Derivative သည် 1/x-Type ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w13-sort-3",
+            labelEn: "y = eˣ",
+            labelMy: "y = eˣ",
+            correctBucketEn: "Derivative is eˣ-type",
+            correctBucketMy: "Derivative သည် eˣ-Type ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w13-sort-4",
+            labelEn: "y = ln x",
+            labelMy: "y = ln x",
+            correctBucketEn: "Derivative is 1/x-type",
+            correctBucketMy: "Derivative သည် 1/x-Type ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w13-sort-5",
+            labelEn: "y = e^(-x)",
+            labelMy: "y = e^(-x)",
+            correctBucketEn: "Derivative is eˣ-type",
+            correctBucketMy: "Derivative သည် eˣ-Type ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Differentiating a Mixed Expression",
+      titleMy: "စာဖတ်ခြင်း - ရောနှောထားသော Expression ကို Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Differentiating a Mixed Expression",
+        titleMy: "ရောနှောထားသော Expression ကို Differentiate ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"Term 4 opens with two new standard results,\" Sayar Zaw Min told Htet Aung, writing y = e^(2x) + ln(5x) on the board. \"Differentiate it term by term, just like you always have.\"\n\nHtet Aung tackled the first term: e^(2x) differentiates to 2e^(2x), since the derivative of e^(kx) is k e^(kx) with k = 2 here. \"That part's just the new rule,\" he said.\n\nFor the second term, he recalled that ln(5x) = ln 5 + ln x, and since ln 5 is a constant, it contributes nothing to the derivative -- only the ln x part matters, differentiating to 1/x. \"So altogether,\" Htet Aung concluded, \"dy/dx = 2e^(2x) + 1/x.\" Sayar Zaw Min nodded: \"Exactly -- and notice the constant multiple inside the logarithm disappeared completely, just like an ordinary constant term would in any derivative.\"",
+        passageMy:
+            "\"Term 4 ကို Standard Result အသစ်နှစ်ခုနှင့် ဖွင့်လှစ်တယ်\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား y = e^(2x) + ln(5x) ကို Board ပေါ်တွင် ရေးပြီး ပြောခဲ့သည်။ \"အမြဲလုပ်ခဲ့သလို Term အလိုက် Differentiate ပြုလုပ်ပါ။\"\n\nHtet Aung သည် ပထမ Term ကို ကိုင်တွယ်ခဲ့သည် - e^(2x) သည် e^(kx) ၏ Derivative သည် k e^(kx) ဖြစ်ပြီး ဤနေရာတွင် k = 2 ဖြစ်သောကြောင့် 2e^(2x) အဖြစ် Differentiate ဖြစ်သည်။ \"ဒီအပိုင်းက Rule အသစ်ရုံပါပဲ\" ဟု သူဆိုခဲ့သည်။\n\nဒုတိယ Term အတွက်ကတော့ သူသည် ln(5x) = ln 5 + ln x ဖြစ်ကြောင်း သတိရခဲ့သည်, ln 5 သည် Constant ဖြစ်၍ Derivative ထဲသို့ မည်သည့်အရာမှ မထောက်ပံ့ပါ -- ln x အပိုင်းသာ အရေးကြီးပြီး 1/x အဖြစ် Differentiate ဖြစ်သည်။ \"ဒါဆို အားလုံးပေါင်းလိုက်ရင်\" ဟု Htet Aung နိဂုံးချုပ်ခဲ့သည်, \"dy/dx = 2e^(2x) + 1/x ။\" ဆရာဇော်မင်းက ခေါင်းညိတ်ခဲ့သည် - \"အတိအကျပဲ -- Logarithm ထဲရှိ Constant Multiple သည် ပုံမှန် Constant Term တစ်ခုကဲ့သို့ပင် Derivative ထဲမှာ လုံးဝ ပျောက်သွားတာ သတိပြုပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is the derivative of e^(2x)?",
+            questionMy: "e^(2x) ၏ Derivative ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2e^(2x)", "e^(2x)", "e^(2x)/2", "2xe^(2x)"],
+            optionsMy: ["2e^(2x)", "e^(2x)", "e^(2x)/2", "2xe^(2x)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the derivative of ln(5x)?",
+            questionMy: "ln(5x) ၏ Derivative ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["1/x", "5/x", "1/(5x)", "5"],
+            optionsMy: ["1/x", "5/x", "1/(5x)", "5"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is dy/dx for y = e^(2x) + ln(5x)?",
+            questionMy: "y = e^(2x) + ln(5x) အတွက် dy/dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2e^(2x) + 1/x", "e^(2x) + 1/x", "2e^(2x) + 5/x", "2e^(2x) + ln x"],
+            optionsMy: ["2e^(2x) + 1/x", "e^(2x) + 1/x", "2e^(2x) + 5/x", "2e^(2x) + ln x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence of the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်၏ နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: Differentiating eˣ and ln(x)",
+      titleMy: "ပထမတဆ်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - eˣ နှင့် ln(x) Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "d/dx(eˣ) = ?",
+          questionMy: "d/dx(eˣ) = ?",
+          optionsEn: ["eˣ", "1", "ln x", "xeˣ"],
+          optionsMy: ["eˣ", "1", "ln x", "xeˣ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "d/dx(ln x) = ?",
+          questionMy: "d/dx(ln x) = ?",
+          optionsEn: ["1/x", "x", "eˣ", "1/eˣ"],
+          optionsMy: ["1/x", "x", "eˣ", "1/eˣ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "d/dx(e^(4x)) = ?",
+          questionMy: "d/dx(e^(4x)) = ?",
+          optionsEn: ["4e^(4x)", "e^(4x)", "4e^(3x)", "e^(3x)"],
+          optionsMy: ["4e^(4x)", "e^(4x)", "4e^(3x)", "e^(3x)"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "The Product Rule and Quotient Rule"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek14 = CourseWeekDef(
+  id: "course-y13-math-w14",
+  weekNumber: 14,
+  titleEn: "The Product Rule and Quotient Rule",
+  titleMy: "Product Rule နှင့် Quotient Rule",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w14-d1",
+      dayNumber: 1,
+      titleEn: "Applying the Product and Quotient Rules",
+      titleMy: "Product Rule နှင့် Quotient Rule အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Differentiate y = x² eˣ using the product rule.",
+          questionMy: "y = x² eˣ ကို Product Rule ဖြင့် Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["eˣ(x² + 2x)", "2xeˣ", "x²eˣ", "eˣ(x² - 2x)"],
+          optionsMy: ["eˣ(x² + 2x)", "2xeˣ", "x²eˣ", "eˣ(x² - 2x)"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x², u' = 2x; v = eˣ, v' = eˣ. dy/dx = u'v + uv' = 2xeˣ + x²eˣ = eˣ(x² + 2x).",
+          ],
+          hintsMy: [
+            "u = x², u' = 2x; v = eˣ, v' = eˣ ။ dy/dx = u'v + uv' = 2xeˣ + x²eˣ = eˣ(x² + 2x) ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = x ln x using the product rule.",
+          questionMy: "y = x ln x ကို Product Rule ဖြင့် Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["ln x + 1", "ln x", "1/x + x", "x/ln x"],
+          optionsMy: ["ln x + 1", "ln x", "1/x + x", "x/ln x"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x, u' = 1; v = ln x, v' = 1/x. dy/dx = u'v + uv' = 1·ln x + x·(1/x) = ln x + 1.",
+          ],
+          hintsMy: [
+            "u = x, u' = 1; v = ln x, v' = 1/x ။ dy/dx = u'v + uv' = 1·ln x + x·(1/x) = ln x + 1 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = eˣ/x using the quotient rule.",
+          questionMy: "y = eˣ/x ကို Quotient Rule ဖြင့် Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["eˣ(x - 1)/x²", "eˣ/x²", "eˣ(x + 1)/x²", "eˣ - 1/x²"],
+          optionsMy: ["eˣ(x - 1)/x²", "eˣ/x²", "eˣ(x + 1)/x²", "eˣ - 1/x²"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = eˣ, u' = eˣ; v = x, v' = 1. dy/dx = (u'v - uv')/v² = (eˣ·x - eˣ·1)/x² = eˣ(x - 1)/x².",
+          ],
+          hintsMy: [
+            "u = eˣ, u' = eˣ; v = x, v' = 1 ။ dy/dx = (u'v - uv')/v² = (eˣ·x - eˣ·1)/x² = eˣ(x - 1)/x² ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Product and Quotient Rule Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Product Rule နှင့် Quotient Rule ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w14-dm-1",
+          termEn: "Product rule",
+          termMy: "Product Rule",
+          matchEn: "d/dx(uv) = u'v + uv'",
+          matchMy: "d/dx(uv) = u'v + uv'",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w14-dm-2",
+          termEn: "Quotient rule",
+          termMy: "Quotient Rule",
+          matchEn: "d/dx(u/v) = (u'v - uv')/v²",
+          matchMy: "d/dx(u/v) = (u'v - uv')/v²",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w14-dm-3",
+          termEn: "u and v",
+          termMy: "u နှင့် v",
+          matchEn: "The two functions multiplied or divided in a product/quotient",
+          matchMy: "Product/Quotient တစ်ခုတွင် မြှောက်ထား/စားထားသော Function နှစ်ခု",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w14-dm-4",
+          termEn: "u'",
+          termMy: "u'",
+          matchEn: "The derivative of u",
+          matchMy: "u ၏ Derivative",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w14-dm-5",
+          termEn: "When to use the product rule",
+          termMy: "Product Rule သုံးရန် အချိန်",
+          matchEn: "When two functions of x are multiplied together",
+          matchMy: "x ၏ Function နှစ်ခု အတူတကွ မြှောက်ထားသောအခါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Product Rule or Quotient Rule?",
+      titleMy: "စီစစ်ကြမည် - Product Rule ဒါမှမဟုတ် Quotient Rule",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Use product rule", "Use quotient rule"],
+        bucketsMy: ["Product Rule သုံးသည်", "Quotient Rule သုံးသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w14-sort-1",
+            labelEn: "y = x² sin x",
+            labelMy: "y = x² sin x",
+            correctBucketEn: "Use product rule",
+            correctBucketMy: "Product Rule သုံးသည်",
+          ),
+          SortingItem(
+            id: "y13math-w14-sort-2",
+            labelEn: "y = eˣ/x²",
+            labelMy: "y = eˣ/x²",
+            correctBucketEn: "Use quotient rule",
+            correctBucketMy: "Quotient Rule သုံးသည်",
+          ),
+          SortingItem(
+            id: "y13math-w14-sort-3",
+            labelEn: "y = x eˣ",
+            labelMy: "y = x eˣ",
+            correctBucketEn: "Use product rule",
+            correctBucketMy: "Product Rule သုံးသည်",
+          ),
+          SortingItem(
+            id: "y13math-w14-sort-4",
+            labelEn: "y = ln x / x",
+            labelMy: "y = ln x / x",
+            correctBucketEn: "Use quotient rule",
+            correctBucketMy: "Quotient Rule သုံးသည်",
+          ),
+          SortingItem(
+            id: "y13math-w14-sort-5",
+            labelEn: "y = x³ ln x",
+            labelMy: "y = x³ ln x",
+            correctBucketEn: "Use product rule",
+            correctBucketMy: "Product Rule သုံးသည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Product Rule Step by Step",
+      titleMy: "စာဖတ်ခြင်း - Product Rule အဆင့်ဆင့်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Product Rule Step by Step",
+        titleMy: "Product Rule အဆင့်ဆင့်",
+        passageEn:
+            "\"Differentiate y = x² ln x,\" Sayar Zaw Min told Su Su. \"Which rule applies?\" Su Su recognised two different functions of x multiplied together -- x² and ln x -- so the product rule was needed: d/dx(uv) = u'v + uv'.\n\nShe labelled u = x², giving u' = 2x, and v = ln x, giving v' = 1/x. \"Now I just substitute into the formula,\" she said, writing dy/dx = u'v + uv' = 2x·ln x + x²·(1/x).\n\n\"The second term simplifies nicely,\" Su Su noticed -- x²·(1/x) = x, since one factor of x cancels. \"So the final answer is dy/dx = 2x ln x + x,\" she concluded. Sayar Zaw Min pointed out that this simplification -- spotting a cancellation after applying the rule -- is common with ln x, since its derivative 1/x so often cancels neatly against a power of x sitting alongside it.",
+        passageMy:
+            "\"y = x² ln x ကို Differentiate ပြုလုပ်ပါ\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်။ \"ဘယ် Rule အသုံးဝင်သနည်း။\" Su Su သည် x² နှင့် ln x ဟူသော x ၏ Function နှစ်ခု အတူတကွ မြှောက်ထားကြောင်း သိမြင်ခဲ့ပြီး Product Rule လိုအပ်ကြောင်း သတိပြုမိခဲ့သည် - d/dx(uv) = u'v + uv' ။\n\nသူမသည် u = x² ဟု Label တပ်ခဲ့ပြီး u' = 2x ရသည်, v = ln x ဟု Label တပ်ပြီး v' = 1/x ရသည်။ \"အခု Formula ထဲသို့ အစားထိုးရုံပါပဲ\" ဟု သူမ ဆိုကာ dy/dx = u'v + uv' = 2x·ln x + x²·(1/x) ဟု ရေးခဲ့သည်။\n\n\"ဒုတိယ Term က လှလှပပ ရိုးရှင်းသွားတယ်\" ဟု Su Su သတိပြုမိခဲ့သည် -- x²·(1/x) = x, x ၏ Factor တစ်ခု ဖျောက်သွားသောကြောင့် ။ \"ဒါဆို နောက်ဆုံးအဖြေက dy/dx = 2x ln x + x ပါ\" ဟု သူမ နိဂုံးချုပ်ခဲ့သည်။ ဆရာဇော်မင်းက ဒီလို ရိုးရှင်းမှု -- Rule အသုံးပြုပြီးနောက် Cancellation တွေ့ခြင်း -- သည် ln x နှင့် အတူ ဘုံဖြစ်ကြောင်း ထောက်ပြခဲ့သည်, ln x ၏ Derivative 1/x သည် ဘေးမှာရှိသော x ၏ Power တစ်ခုနှင့် ရှင်းရှင်းလင်းလင်း Cancel ဖြစ်လေ့ရှိသောကြောင့်။",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was u chosen to be?",
+            questionMy: "u ကို မည်သို့ ရွေးချယ်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x²", "ln x", "x", "2x"],
+            optionsMy: ["x²", "ln x", "x", "2x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is u'?",
+            questionMy: "u' ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2x", "x²", "1/x", "ln x"],
+            optionsMy: ["2x", "x²", "1/x", "ln x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final derivative?",
+            questionMy: "နောက်ဆုံး Derivative ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2x ln x + x", "2x ln x", "x ln x + x", "2 ln x + x"],
+            optionsMy: ["2x ln x + x", "2x ln x", "x ln x + x", "2 ln x + x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: Product and Quotient Rules",
+      titleMy: "ဒသလေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Product နှင့် Quotient Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The product rule formula is...",
+          questionMy: "Product Rule Formula မှာ...",
+          optionsEn: ["d/dx(uv) = u'v + uv'", "d/dx(uv) = u'v'", "d/dx(uv) = u'/v'", "d/dx(uv) = uv' - u'v"],
+          optionsMy: ["d/dx(uv) = u'v + uv'", "d/dx(uv) = u'v'", "d/dx(uv) = u'/v'", "d/dx(uv) = uv' - u'v"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The quotient rule formula is...",
+          questionMy: "Quotient Rule Formula မှာ...",
+          optionsEn: ["d/dx(u/v) = (u'v - uv')/v²", "d/dx(u/v) = u'v + uv'", "d/dx(u/v) = u'/v'", "d/dx(u/v) = (uv' - u'v)/v²"],
+          optionsMy: ["d/dx(u/v) = (u'v - uv')/v²", "d/dx(u/v) = u'v + uv'", "d/dx(u/v) = u'/v'", "d/dx(u/v) = (uv' - u'v)/v²"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For y = uv, if u = x and v = eˣ, what is u'?",
+          questionMy: "y = uv တွင် u = x, v = eˣ ဆိုပါက u' မှာ မည်သို့နည်း။",
+          optionsEn: ["1", "x", "eˣ", "0"],
+          optionsMy: ["1", "x", "eˣ", "0"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "The Chain Rule"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek15 = CourseWeekDef(
+  id: "course-y13-math-w15",
+  weekNumber: 15,
+  titleEn: "The Chain Rule",
+  titleMy: "Chain Rule",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w15-d1",
+      dayNumber: 1,
+      titleEn: "Differentiating Composite Functions",
+      titleMy: "Composite Function များ Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Differentiate y = sin(2x + 1).",
+          questionMy: "y = sin(2x + 1) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = 2cos(2x + 1)", "dy/dx = cos(2x + 1)", "dy/dx = 2sin(2x + 1)", "dy/dx = -2cos(2x + 1)"],
+          optionsMy: ["dy/dx = 2cos(2x + 1)", "dy/dx = cos(2x + 1)", "dy/dx = 2sin(2x + 1)", "dy/dx = -2cos(2x + 1)"],
+          correctIndex: 0,
+          hintsEn: [
+            "Let u = 2x + 1. dy/du = cos u, du/dx = 2. Chain rule: dy/dx = dy/du × du/dx = 2cos(2x + 1).",
+          ],
+          hintsMy: [
+            "u = 2x + 1 ဟု ယူပါ။ dy/du = cos u, du/dx = 2 ။ Chain Rule - dy/dx = dy/du × du/dx = 2cos(2x + 1) ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = (3x - 1)⁵.",
+          questionMy: "y = (3x - 1)⁵ ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = 15(3x - 1)⁴", "dy/dx = 5(3x - 1)⁴", "dy/dx = 15(3x - 1)⁵", "dy/dx = 3(3x - 1)⁴"],
+          optionsMy: ["dy/dx = 15(3x - 1)⁴", "dy/dx = 5(3x - 1)⁴", "dy/dx = 15(3x - 1)⁵", "dy/dx = 3(3x - 1)⁴"],
+          correctIndex: 0,
+          hintsEn: [
+            "Let u = 3x - 1. dy/du = 5u⁴, du/dx = 3. dy/dx = 5(3x - 1)⁴ × 3 = 15(3x - 1)⁴.",
+          ],
+          hintsMy: [
+            "u = 3x - 1 ဟု ယူပါ။ dy/du = 5u⁴, du/dx = 3 ။ dy/dx = 5(3x - 1)⁴ × 3 = 15(3x - 1)⁴ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Differentiate y = cos(x²).",
+          questionMy: "y = cos(x²) ကို Differentiate ပြုလုပ်ပါ။",
+          optionsEn: ["dy/dx = -2x sin(x²)", "dy/dx = -sin(x²)", "dy/dx = 2x sin(x²)", "dy/dx = -2x cos(x²)"],
+          optionsMy: ["dy/dx = -2x sin(x²)", "dy/dx = -sin(x²)", "dy/dx = 2x sin(x²)", "dy/dx = -2x cos(x²)"],
+          correctIndex: 0,
+          hintsEn: [
+            "Let u = x². dy/du = -sin u, du/dx = 2x. dy/dx = -sin(x²) × 2x = -2x sin(x²).",
+          ],
+          hintsMy: [
+            "u = x² ဟု ယူပါ။ dy/du = -sin u, du/dx = 2x ။ dy/dx = -sin(x²) × 2x = -2x sin(x²) ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: The Chain Rule Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Chain Rule ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w15-dm-1",
+          termEn: "Chain rule",
+          termMy: "Chain Rule",
+          matchEn: "dy/dx = dy/du × du/dx",
+          matchMy: "dy/dx = dy/du × du/dx",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w15-dm-2",
+          termEn: "Composite function",
+          termMy: "Composite Function",
+          matchEn: "A function of a function, like sin(2x + 1)",
+          matchMy: "sin(2x + 1) ကဲ့သို့ Function တစ်ခု၏ Function",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w15-dm-3",
+          termEn: "y = (ax + b)ⁿ",
+          termMy: "y = (ax + b)ⁿ",
+          matchEn: "dy/dx = an(ax + b)ⁿ⁻¹",
+          matchMy: "dy/dx = an(ax + b)ⁿ⁻¹",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w15-dm-4",
+          termEn: "y = sin(f(x))",
+          termMy: "y = sin(f(x))",
+          matchEn: "dy/dx = f'(x) cos(f(x))",
+          matchMy: "dy/dx = f'(x) cos(f(x))",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w15-dm-5",
+          termEn: "y = e^(f(x))",
+          termMy: "y = e^(f(x))",
+          matchEn: "dy/dx = f'(x) e^(f(x))",
+          matchMy: "dy/dx = f'(x) e^(f(x))",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Needs the Chain Rule?",
+      titleMy: "စီစစ်ကြမည် - Chain Rule လိုအပ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Needs the chain rule", "Does NOT need the chain rule"],
+        bucketsMy: ["Chain Rule လိုအပ်သည်", "Chain Rule မလိုအပ်ပါ"],
+        items: [
+          SortingItem(
+            id: "y13math-w15-sort-1",
+            labelEn: "y = sin(2x + 1)",
+            labelMy: "y = sin(2x + 1)",
+            correctBucketEn: "Needs the chain rule",
+            correctBucketMy: "Chain Rule လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w15-sort-2",
+            labelEn: "y = sin x",
+            labelMy: "y = sin x",
+            correctBucketEn: "Does NOT need the chain rule",
+            correctBucketMy: "Chain Rule မလိုအပ်ပါ",
+          ),
+          SortingItem(
+            id: "y13math-w15-sort-3",
+            labelEn: "y = (x + 3)⁴",
+            labelMy: "y = (x + 3)⁴",
+            correctBucketEn: "Needs the chain rule",
+            correctBucketMy: "Chain Rule လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w15-sort-4",
+            labelEn: "y = x⁴",
+            labelMy: "y = x⁴",
+            correctBucketEn: "Does NOT need the chain rule",
+            correctBucketMy: "Chain Rule မလိုအပ်ပါ",
+          ),
+          SortingItem(
+            id: "y13math-w15-sort-5",
+            labelEn: "y = e^(3x)",
+            labelMy: "y = e^(3x)",
+            correctBucketEn: "Needs the chain rule",
+            correctBucketMy: "Chain Rule လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Chaining Through ln(x² + 1)",
+      titleMy: "စာဖတ်ခြင်း - ln(x² + 1) ကို Chain ချိတ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Chaining Through ln(x² + 1)",
+        titleMy: "ln(x² + 1) ကို Chain ချိတ်ခြင်း",
+        passageEn:
+            "\"Differentiate y = ln(x² + 1),\" Sayar Zaw Min said to Htet Aung. \"It looks like the standard ln rule, but something's different -- what is it?\" Htet Aung noticed the argument of ln wasn't just x, but a whole expression, x² + 1. \"That means it's a composite function,\" he said, \"so I need the chain rule, not just the plain ln rule.\"\n\nHe set u = x² + 1 as the inner function. Then y = ln u is the outer function, so dy/du = 1/u, and du/dx = 2x. \"Multiply the two together,\" he said, writing dy/dx = dy/du × du/dx = (1/u) × 2x.\n\nSubstituting u back in terms of x gave the final answer: dy/dx = 2x/(x² + 1). \"Notice the pattern,\" Sayar Zaw Min pointed out -- \"whenever you differentiate ln(f(x)), the answer is always f'(x)/f(x) -- the derivative of the inside, over the inside itself. That's worth remembering as a shortcut, once you understand where it comes from.\"",
+        passageMy:
+            "\"y = ln(x² + 1) ကို Differentiate ပြုလုပ်ပါ\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"Standard ln Rule လို့ ထင်ရပေမယ့် တစ်ခုခု ကွာခြားနေတယ် -- ဘာလဲ။\" Htet Aung သည် ln ၏ Argument သည် x တစ်ခုတည်း မဟုတ်ဘဲ x² + 1 ဟူသော Expression တစ်ခုလုံး ဖြစ်နေကြောင်း သတိပြုမိခဲ့သည်။ \"ဒါက Composite Function ဖြစ်တယ်\" ဟု သူဆိုခဲ့သည်, \"ဒါကြောင့် ln Rule ရိုးရိုးအစား Chain Rule လိုအပ်တယ်။\"\n\nသူသည် u = x² + 1 ကို Inner Function အဖြစ် သတ်မှတ်ခဲ့သည်။ ထို့နောက် y = ln u သည် Outer Function ဖြစ်၍ dy/du = 1/u, du/dx = 2x ရသည်။ \"နှစ်ခုကို အတူတကွ မြှောက်ပါ\" ဟု သူဆိုကာ dy/dx = dy/du × du/dx = (1/u) × 2x ဟု ရေးခဲ့သည်။\n\nu ကို x ဖြင့် ပြန်အစားထိုးလိုက်ပါက နောက်ဆုံးအဖြေ dy/dx = 2x/(x² + 1) ရရှိခဲ့သည်။ \"Pattern ကို သတိပြုပါ\" ဟု ဆရာဇော်မင်း ထောက်ပြခဲ့သည် -- \"ln(f(x)) ကို ဘယ်အချိန်မှာ Differentiate ပြုလုပ်ပြုလုပ် အဖြေက အမြဲ f'(x)/f(x) ဖြစ်တယ် -- အတွင်း၏ Derivative ကို အတွင်းကိုယ်တိုင်ဖြင့် စားထားတာ။ ဒါက ဘယ်ကလာလဲဆိုတာ နားလည်ပြီးရင် Shortcut အဖြစ် မှတ်ထားထိုက်တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was u chosen to be?",
+            questionMy: "u ကို မည်သို့ ရွေးချယ်ထားသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x² + 1", "x²", "ln x", "1"],
+            optionsMy: ["x² + 1", "x²", "ln x", "1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is du/dx?",
+            questionMy: "du/dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2x", "x²", "1/u", "1"],
+            optionsMy: ["2x", "x²", "1/u", "1"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final dy/dx?",
+            questionMy: "နောက်ဆုံး dy/dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["2x/(x² + 1)", "1/(x² + 1)", "2x/x²", "x/(x² + 1)"],
+            optionsMy: ["2x/(x² + 1)", "1/(x² + 1)", "2x/x²", "x/(x² + 1)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: The Chain Rule",
+      titleMy: "ဒသငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Chain Rule",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The chain rule formula is...",
+          questionMy: "Chain Rule Formula မှာ...",
+          optionsEn: ["dy/dx = dy/du × du/dx", "dy/dx = dy/du + du/dx", "dy/dx = dy/du ÷ du/dx", "dy/dx = du/dx only"],
+          optionsMy: ["dy/dx = dy/du × du/dx", "dy/dx = dy/du + du/dx", "dy/dx = dy/du ÷ du/dx", "dy/dx = du/dx only"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The derivative of sin(2x + 1) is...",
+          questionMy: "sin(2x + 1) ၏ Derivative မှာ...",
+          optionsEn: ["2cos(2x + 1)", "cos(2x + 1)", "-2cos(2x + 1)", "2sin(2x + 1)"],
+          optionsMy: ["2cos(2x + 1)", "cos(2x + 1)", "-2cos(2x + 1)", "2sin(2x + 1)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The derivative of e^(f(x)) is...",
+          questionMy: "e^(f(x)) ၏ Derivative မှာ...",
+          optionsEn: ["f'(x) e^(f(x))", "e^(f(x))", "f(x) e^(f(x))", "f'(x)"],
+          optionsMy: ["f'(x) e^(f(x))", "e^(f(x))", "f(x) e^(f(x))", "f'(x)"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16 (Boss Week): "Implicit Differentiation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek16 = CourseWeekDef(
+  id: "course-y13-math-w16",
+  weekNumber: 16,
+  titleEn: "Implicit Differentiation",
+  titleMy: "Implicit Differentiation",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w16-d1",
+      dayNumber: 1,
+      titleEn: "Differentiating Equations in x and y",
+      titleMy: "x နှင့် y ပါသော Equation များ Differentiate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find dy/dx for x² + y² = 25.",
+          questionMy: "x² + y² = 25 အတွက် dy/dx ကို ရှာပါ။",
+          optionsEn: ["dy/dx = -x/y", "dy/dx = x/y", "dy/dx = -y/x", "dy/dx = 2x + 2y"],
+          optionsMy: ["dy/dx = -x/y", "dy/dx = x/y", "dy/dx = -y/x", "dy/dx = 2x + 2y"],
+          correctIndex: 0,
+          hintsEn: [
+            "Differentiate each term: 2x + 2y(dy/dx) = 0. Solve for dy/dx: dy/dx = -2x/2y = -x/y.",
+          ],
+          hintsMy: [
+            "Term တစ်ခုစီကို Differentiate ပြုလုပ်ပါ - 2x + 2y(dy/dx) = 0 ။ dy/dx အတွက် ဖြေရှင်းပါ - dy/dx = -2x/2y = -x/y ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Using dy/dx = -x/y, find dy/dx for x² + y² = 25 at the point (3, 4).",
+          questionMy: "dy/dx = -x/y ကို အသုံးပြု၍ x² + y² = 25 ၏ (3, 4) အမှတ်တွင် dy/dx ကို ရှာပါ။",
+          optionsEn: ["-3/4", "3/4", "-4/3", "4/3"],
+          optionsMy: ["-3/4", "3/4", "-4/3", "4/3"],
+          correctIndex: 0,
+          hintsEn: ["Substitute x = 3, y = 4 into dy/dx = -x/y: dy/dx = -3/4."],
+          hintsMy: ["x = 3, y = 4 ကို dy/dx = -x/y ထဲသို့ အစားထိုးပါ - dy/dx = -3/4 ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find dy/dx for xy = 6.",
+          questionMy: "xy = 6 အတွက် dy/dx ကို ရှာပါ။",
+          optionsEn: ["dy/dx = -y/x", "dy/dx = y/x", "dy/dx = -x/y", "dy/dx = 6/x"],
+          optionsMy: ["dy/dx = -y/x", "dy/dx = y/x", "dy/dx = -x/y", "dy/dx = 6/x"],
+          correctIndex: 0,
+          hintsEn: [
+            "Use the product rule on xy: x(dy/dx) + y(1) = 0. Solve: dy/dx = -y/x.",
+          ],
+          hintsMy: [
+            "xy တွင် Product Rule အသုံးပြုပါ - x(dy/dx) + y(1) = 0 ။ ဖြေရှင်းပါ - dy/dx = -y/x ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Implicit Differentiation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Implicit Differentiation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w16-dm-1",
+          termEn: "Implicit differentiation",
+          termMy: "Implicit Differentiation",
+          matchEn: "Differentiating an equation in x and y without solving for y first",
+          matchMy: "y အတွက် ဦးစွာ မဖြေရှင်းဘဲ x နှင့် y ပါသော Equation ကို Differentiate ပြုလုပ်ခြင်း",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w16-dm-2",
+          termEn: "d/dx(y²)",
+          termMy: "d/dx(y²)",
+          matchEn: "2y (dy/dx), by the chain rule since y is a function of x",
+          matchMy: "2y (dy/dx), y သည် x ၏ Function ဖြစ်၍ Chain Rule အရ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w16-dm-3",
+          termEn: "d/dx(xy)",
+          termMy: "d/dx(xy)",
+          matchEn: "x(dy/dx) + y, by the product rule",
+          matchMy: "x(dy/dx) + y, Product Rule အရ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w16-dm-4",
+          termEn: "d/dx(x² + y² = 25)",
+          termMy: "d/dx(x² + y² = 25)",
+          matchEn: "2x + 2y(dy/dx) = 0",
+          matchMy: "2x + 2y(dy/dx) = 0",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w16-dm-5",
+          termEn: "dy/dx for x² + y² = 25",
+          termMy: "x² + y² = 25 အတွက် dy/dx",
+          matchEn: "-x/y",
+          matchMy: "-x/y",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Needs Implicit Differentiation?",
+      titleMy: "စီစစ်ကြမည် - Implicit Differentiation လိုအပ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Needs implicit differentiation", "Can differentiate directly (y already isolated)"],
+        bucketsMy: ["Implicit Differentiation လိုအပ်သည်", "တိုက်ရိုက် Differentiate ပြုလုပ်နိုင်သည် (y ခွဲထုတ်ပြီးသား)"],
+        items: [
+          SortingItem(
+            id: "y13math-w16-sort-1",
+            labelEn: "x² + y² = 25",
+            labelMy: "x² + y² = 25",
+            correctBucketEn: "Needs implicit differentiation",
+            correctBucketMy: "Implicit Differentiation လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w16-sort-2",
+            labelEn: "y = x² + 3",
+            labelMy: "y = x² + 3",
+            correctBucketEn: "Can differentiate directly (y already isolated)",
+            correctBucketMy: "တိုက်ရိုက် Differentiate ပြုလုပ်နိုင်သည် (y ခွဲထုတ်ပြီးသား)",
+          ),
+          SortingItem(
+            id: "y13math-w16-sort-3",
+            labelEn: "xy = 10",
+            labelMy: "xy = 10",
+            correctBucketEn: "Needs implicit differentiation",
+            correctBucketMy: "Implicit Differentiation လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w16-sort-4",
+            labelEn: "y = 5x - 2",
+            labelMy: "y = 5x - 2",
+            correctBucketEn: "Can differentiate directly (y already isolated)",
+            correctBucketMy: "တိုက်ရိုက် Differentiate ပြုလုပ်နိုင်သည် (y ခွဲထုတ်ပြီးသား)",
+          ),
+          SortingItem(
+            id: "y13math-w16-sort-5",
+            labelEn: "x² + 2y² = 8",
+            labelMy: "x² + 2y² = 8",
+            correctBucketEn: "Needs implicit differentiation",
+            correctBucketMy: "Implicit Differentiation လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: This Term's Differentiation Toolkit Together",
+      titleMy: "စာဖတ်ခြင်း - ဒီ Term ၏ Differentiation Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "This Term's Differentiation Toolkit Together",
+        titleMy: "ဒီ Term ၏ Differentiation Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "For the boss-week challenge, Sayar Zaw Min drew the circle x² + y² = 25 and asked Su Su to find the gradient of the tangent at the point (3, 4). \"This pulls together implicit differentiation with the circle geometry you know from AS,\" he said.\n\nSu Su differentiated both sides with respect to x: 2x + 2y(dy/dx) = 0, using the chain rule on y² exactly as she had all week. Rearranging gave dy/dx = -x/y. Substituting the point (3, 4): dy/dx = -3/4.\n\n\"So the tangent's gradient at (3, 4) is -3/4,\" Su Su concluded. Sayar Zaw Min then connected it to the bigger picture: \"Notice how this term built up in layers -- eˣ and ln x gave us two new building blocks, the product and quotient rules let us combine functions that are multiplied or divided, the chain rule handled functions nested inside other functions, and now implicit differentiation lets us find a gradient even when y was never isolated in the first place. Every technique from this term is really just an extension of the same basic derivative rules you've always used.\"",
+        passageMy:
+            "Boss-week Challenge အတွက် ဆရာဇော်မင်းသည် x² + y² = 25 Circle ကို ဆွဲပြီး Su Su အား (3, 4) အမှတ်တွင် Tangent ၏ Gradient ကို ရှာခိုင်းခဲ့သည်။ \"ဒါက Implicit Differentiation ကို AS ကတည်းက သိပြီးသား Circle Geometry နှင့် ချိတ်ဆက်ပေးတယ်\" ဟု သူဆိုခဲ့သည်။\n\nSu Su သည် နှစ်ဖက်စလုံးကို x နှင့်ပတ်သက်၍ Differentiate ပြုလုပ်ခဲ့သည် - 2x + 2y(dy/dx) = 0, အပတ်တစ်ခုလုံးအတွက် လုပ်ခဲ့သလို y² တွင် Chain Rule အသုံးပြု၍။ ပြန်စီစဉ်ပါက dy/dx = -x/y ရသည်။ (3, 4) အမှတ်ကို အစားထိုးပါက - dy/dx = -3/4 ။\n\n\"ဒါဆို (3, 4) မှာ Tangent ၏ Gradient က -3/4 ပါ\" ဟု Su Su နိဂုံးချုပ်ခဲ့သည်။ ဆရာဇော်မင်းသည် ထို့နောက် ပုံကြီးထဲသို့ ဆက်စပ်ပေးခဲ့သည် - \"ဒီ Term က Layer အသီးသီး ဆင့်ကာဆင့်ကာ တည်ဆောက်လာပုံကို သတိပြုပါ -- eˣ နှင့် ln x က Building Block အသစ်နှစ်ခု ပေးခဲ့တယ်, Product နှင့် Quotient Rule က မြှောက်ထား/စားထားသော Function များ ပေါင်းစပ်နိုင်စေခဲ့တယ်, Chain Rule က Function တစ်ခုအတွင်း Nest ဖြစ်နေသော Function များကို ကိုင်တွယ်ပေးခဲ့တယ်, အခု Implicit Differentiation က y ကို ဘယ်တော့မှ ခွဲမထုတ်ခဲ့ရင်တောင် Gradient ကို ရှာနိုင်စေတယ်။ ဒီ Term က Technique တိုင်းဟာ သင် အမြဲသုံးခဲ့တဲ့ အခြေခံ Derivative Rule တွေရဲ့ ချဲ့ထွင်မှုသာ တကယ်တမ်းက ဖြစ်တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, differentiating x² + y² = 25 gives which equation?",
+            questionMy: "x² + y² = 25 ကို Differentiate ပြုလုပ်ပါက မည်သည့် Equation ရသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "2x + 2y(dy/dx) = 0",
+              "2x + 2y = 0",
+              "x + y(dy/dx) = 0",
+              "2xy(dy/dx) = 0",
+            ],
+            optionsMy: [
+              "2x + 2y(dy/dx) = 0",
+              "2x + 2y = 0",
+              "x + y(dy/dx) = 0",
+              "2xy(dy/dx) = 0",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the gradient of the tangent at (3, 4)?",
+            questionMy: "(3, 4) တွင် Tangent ၏ Gradient ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-3/4", "3/4", "-4/3", "4/3"],
+            optionsMy: ["-3/4", "3/4", "-4/3", "4/3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, implicit differentiation lets you find a gradient even when...",
+            questionMy: "Implicit Differentiation သည် မည်သည့်အခါမျိုးတွင်ပင် Gradient ရှာစေသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "y was never isolated in the first place",
+              "x is negative",
+              "y is always positive",
+              "there is no equation at all",
+            ],
+            optionsMy: [
+              "y ကို ဘယ်တော့မှ ခွဲမထုတ်ခဲ့သည့်အခါတွင်ပင်",
+              "x သည် Negative ဖြစ်သည့်အခါ",
+              "y သည် အမြဲ Positive ဖြစ်သည့်အခါ",
+              "Equation လုံးဝ မရှိသည့်အခါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Implicit Differentiation",
+      titleMy: "ဒသခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Implicit Differentiation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Implicit differentiation is used when...",
+          questionMy: "Implicit Differentiation ကို ...အခါ အသုံးပြုသည်",
+          optionsEn: [
+            "y is not isolated and the equation mixes x and y",
+            "y is already given as a function of x",
+            "There is no y in the equation",
+            "The equation has no x term",
+          ],
+          optionsMy: [
+            "y ကို မခွဲထုတ်ရသေးဘဲ Equation တွင် x နှင့် y ရောနှောနေသည့်အခါ",
+            "y ကို x ၏ Function အဖြစ် ပေးပြီးသားဖြစ်သည့်အခါ",
+            "Equation တွင် y လုံးဝ မပါသည့်အခါ",
+            "Equation တွင် x Term လုံးဝ မပါသည့်အခါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "d/dx(y²) = ?",
+          questionMy: "d/dx(y²) = ?",
+          optionsEn: ["2y(dy/dx)", "2y", "y(dy/dx)", "2(dy/dx)"],
+          optionsMy: ["2y(dy/dx)", "2y", "y(dy/dx)", "2(dy/dx)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "For x² + y² = 25, dy/dx = ?",
+          questionMy: "x² + y² = 25 အတွက် dy/dx = ?",
+          optionsEn: ["-x/y", "x/y", "-y/x", "y/x"],
+          optionsMy: ["-x/y", "x/y", "-y/x", "y/x"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm4 = CourseTermDef(
+  id: "course-y13-math-t4",
+  termNumber: 4,
+  titleEn: "Further Differentiation",
+  titleMy: "Differentiation ဆက်လက်လေ့လာခြင်း",
+  weeks: [_y13MathWeek13, _y13MathWeek14, _y13MathWeek15, _y13MathWeek16],
+  certificateTitleEn: "A2 Mathematics: Further Differentiation",
+  certificateTitleMy: "A2 သင်္ချာ - Differentiation ဆက်လက်လေ့လာခြင်း",
+);
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 5:
+// "Further Integration"
+// (Weeks 17-20)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Integrating eˣ and 1/x"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek17 = CourseWeekDef(
+  id: "course-y13-math-w17",
+  weekNumber: 17,
+  titleEn: "Integrating eˣ and 1/x",
+  titleMy: "eˣ နှင့် 1/x ကို Integrate ပြုလုပ်ခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w17-d1",
+      dayNumber: 1,
+      titleEn: "Standard Integrals of eˣ and 1/x",
+      titleMy: "eˣ နှင့် 1/x ၏ Standard Integral များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Find ∫eˣ dx.",
+          questionMy: "∫eˣ dx ကို ရှာပါ။",
+          optionsEn: ["eˣ + C", "xeˣ + C", "eˣ⁺¹ + C", "eˣ/x + C"],
+          optionsMy: ["eˣ + C", "xeˣ + C", "eˣ⁺¹ + C", "eˣ/x + C"],
+          correctIndex: 0,
+          hintsEn: ["Since d/dx(eˣ) = eˣ, integrating reverses this: ∫eˣ dx = eˣ + C."],
+          hintsMy: ["d/dx(eˣ) = eˣ ဖြစ်သောကြောင့် Integrate ပြုလုပ်ခြင်းသည် ၎င်းကို ပြန်ပြောင်းသည် - ∫eˣ dx = eˣ + C ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find ∫e^(4x) dx.",
+          questionMy: "∫e^(4x) dx ကို ရှာပါ။",
+          optionsEn: ["(1/4)e^(4x) + C", "4e^(4x) + C", "e^(4x) + C", "(1/4)e^(3x) + C"],
+          optionsMy: ["(1/4)e^(4x) + C", "4e^(4x) + C", "e^(4x) + C", "(1/4)e^(3x) + C"],
+          correctIndex: 0,
+          hintsEn: ["For e^(kx), ∫e^(kx) dx = (1/k)e^(kx) + C -- divide by the coefficient of x in the exponent."],
+          hintsMy: ["e^(kx) အတွက် ∫e^(kx) dx = (1/k)e^(kx) + C -- Exponent ထဲရှိ x ၏ Coefficient ဖြင့် စားပါ။"],
+        ),
+        QuizQuestion(
+          questionEn: "Find ∫1/x dx.",
+          questionMy: "∫1/x dx ကို ရှာပါ။",
+          optionsEn: ["ln|x| + C", "1/x² + C", "x + C", "-1/x² + C"],
+          optionsMy: ["ln|x| + C", "1/x² + C", "x + C", "-1/x² + C"],
+          correctIndex: 0,
+          hintsEn: ["Since d/dx(ln x) = 1/x, integrating reverses this: ∫1/x dx = ln|x| + C."],
+          hintsMy: ["d/dx(ln x) = 1/x ဖြစ်သောကြောင့် Integrate ပြုလုပ်ခြင်းသည် ၎င်းကို ပြန်ပြောင်းသည် - ∫1/x dx = ln|x| + C ။"],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Standard Integrals of eˣ and 1/x",
+      titleMy: "တွဲစပ်ကြမည် - eˣ နှင့် 1/x ၏ Standard Integral များ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w17-dm-1",
+          termEn: "∫eˣ dx",
+          termMy: "∫eˣ dx",
+          matchEn: "eˣ + C",
+          matchMy: "eˣ + C",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w17-dm-2",
+          termEn: "∫e^(kx) dx",
+          termMy: "∫e^(kx) dx",
+          matchEn: "(1/k)e^(kx) + C",
+          matchMy: "(1/k)e^(kx) + C",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w17-dm-3",
+          termEn: "∫1/x dx",
+          termMy: "∫1/x dx",
+          matchEn: "ln|x| + C",
+          matchMy: "ln|x| + C",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w17-dm-4",
+          termEn: "∫1/(x + a) dx",
+          termMy: "∫1/(x + a) dx",
+          matchEn: "ln|x + a| + C",
+          matchMy: "ln|x + a| + C",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w17-dm-5",
+          termEn: "C",
+          termMy: "C",
+          matchEn: "The constant of integration",
+          matchMy: "Constant of Integration",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Integrates to eˣ-Type or ln-Type?",
+      titleMy: "စီစစ်ကြမည် - eˣ-Type သို့ ဒါမှမဟုတ် ln-Type သို့ Integrate ဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Integrates to an eˣ-type", "Integrates to a ln-type"],
+        bucketsMy: ["eˣ-Type သို့ Integrate ဖြစ်သည်", "ln-Type သို့ Integrate ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w17-sort-1",
+            labelEn: "∫e^(3x) dx",
+            labelMy: "∫e^(3x) dx",
+            correctBucketEn: "Integrates to an eˣ-type",
+            correctBucketMy: "eˣ-Type သို့ Integrate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w17-sort-2",
+            labelEn: "∫1/(2x) dx",
+            labelMy: "∫1/(2x) dx",
+            correctBucketEn: "Integrates to a ln-type",
+            correctBucketMy: "ln-Type သို့ Integrate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w17-sort-3",
+            labelEn: "∫eˣ dx",
+            labelMy: "∫eˣ dx",
+            correctBucketEn: "Integrates to an eˣ-type",
+            correctBucketMy: "eˣ-Type သို့ Integrate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w17-sort-4",
+            labelEn: "∫1/(x - 1) dx",
+            labelMy: "∫1/(x - 1) dx",
+            correctBucketEn: "Integrates to a ln-type",
+            correctBucketMy: "ln-Type သို့ Integrate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w17-sort-5",
+            labelEn: "∫e^(-x) dx",
+            labelMy: "∫e^(-x) dx",
+            correctBucketEn: "Integrates to an eˣ-type",
+            correctBucketMy: "eˣ-Type သို့ Integrate ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Integrating a Mixed Expression",
+      titleMy: "စာဖတ်ခြင်း - ရောနှောထားသော Expression ကို Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Integrating a Mixed Expression",
+        titleMy: "ရောနှောထားသော Expression ကို Integrate ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"Term 5 mirrors Term 4,\" Sayar Zaw Min told Htet Aung, \"but running in reverse -- we're undoing what we did before.\" He wrote ∫(e^(2x) + 1/x) dx on the board.\n\nHtet Aung split it into two integrals, term by term. For e^(2x), he used the rule ∫e^(kx) dx = (1/k)e^(kx) + C with k = 2, giving (1/2)e^(2x). For 1/x, the standard result gave ln|x|.\n\n\"So combining both parts,\" Htet Aung concluded, \"∫(e^(2x) + 1/x) dx = (1/2)e^(2x) + ln|x| + C -- only one constant of integration at the very end, even though there were two terms.\" Sayar Zaw Min agreed: \"Exactly -- you don't need a separate C for each term, since any constants combine into a single overall constant.\"",
+        passageMy:
+            "\"Term 5 သည် Term 4 ကို ကြည့်ရသလိုပါပဲ\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်, \"ဒါပေမဲ့ ပြောင်းပြန် ပြေးနေတာ -- ကျွန်တော်တို့ အရင်လုပ်ခဲ့တာကို ပြန်ဖြေရှင်းနေတာပါ။\" သူသည် ∫(e^(2x) + 1/x) dx ကို Board ပေါ်တွင် ရေးခဲ့သည်။\n\nHtet Aung သည် ၎င်းကို Term အလိုက် Integral နှစ်ခုအဖြစ် ခွဲခဲ့သည်။ e^(2x) အတွက် ∫e^(kx) dx = (1/k)e^(kx) + C ကို k = 2 ဖြင့် အသုံးပြု၍ (1/2)e^(2x) ရသည်။ 1/x အတွက်ကတော့ Standard Result က ln|x| ကို ပေးသည်။\n\n\"ဒါဆို နှစ်ပိုင်းလုံးကို ပေါင်းစည်းလိုက်ရင်\" ဟု Htet Aung နိဂုံးချုပ်ခဲ့သည်, \"∫(e^(2x) + 1/x) dx = (1/2)e^(2x) + ln|x| + C -- Term နှစ်ခု ရှိပေမယ့် နောက်ဆုံးမှာ Integration of Constant တစ်ခုပဲ လိုတယ်။\" ဆရာဇော်မင်း သဘောတူခဲ့သည် - \"အတိအကျပဲ -- Term တစ်ခုစီအတွက် သီးခြား C မလိုပါဘူး, Constant များ အားလုံး Overall Constant တစ်ခုတည်းအဖြစ် ပေါင်းစပ်သွားတာကြောင့်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is ∫e^(2x) dx?",
+            questionMy: "∫e^(2x) dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["(1/2)e^(2x) + C", "2e^(2x) + C", "e^(2x) + C", "e^(x) + C"],
+            optionsMy: ["(1/2)e^(2x) + C", "2e^(2x) + C", "e^(2x) + C", "e^(x) + C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is ∫1/x dx?",
+            questionMy: "∫1/x dx ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["ln|x| + C", "1/x² + C", "x + C", "e^x + C"],
+            optionsMy: ["ln|x| + C", "1/x² + C", "x + C", "e^x + C"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what is the combined final answer?",
+            questionMy: "ပေါင်းစပ်ထားသော နောက်ဆုံးအဖြေကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "(1/2)e^(2x) + ln|x| + C",
+              "e^(2x) + ln|x| + C",
+              "(1/2)e^(2x) + 1/x + C",
+              "2e^(2x) + ln|x| + C",
+            ],
+            optionsMy: [
+              "(1/2)e^(2x) + ln|x| + C",
+              "e^(2x) + ln|x| + C",
+              "(1/2)e^(2x) + 1/x + C",
+              "2e^(2x) + ln|x| + C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Integrating eˣ and 1/x",
+      titleMy: "ဒသခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - eˣ နှင့် 1/x ကို Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "∫eˣ dx = ?",
+          questionMy: "∫eˣ dx = ?",
+          optionsEn: ["eˣ + C", "xeˣ + C", "eˣ/x + C", "1 + C"],
+          optionsMy: ["eˣ + C", "xeˣ + C", "eˣ/x + C", "1 + C"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫1/x dx = ?",
+          questionMy: "∫1/x dx = ?",
+          optionsEn: ["ln|x| + C", "x + C", "1/x² + C", "eˣ + C"],
+          optionsMy: ["ln|x| + C", "x + C", "1/x² + C", "eˣ + C"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫e^(kx) dx = ?",
+          questionMy: "∫e^(kx) dx = ?",
+          optionsEn: ["(1/k)e^(kx) + C", "k e^(kx) + C", "e^(kx) + C", "e^(kx)/x + C"],
+          optionsMy: ["(1/k)e^(kx) + C", "k e^(kx) + C", "e^(kx) + C", "e^(kx)/x + C"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "Integration by Substitution"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek18 = CourseWeekDef(
+  id: "course-y13-math-w18",
+  weekNumber: 18,
+  titleEn: "Integration by Substitution",
+  titleMy: "Substitution ဖြင့် Integration",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w18-d1",
+      dayNumber: 1,
+      titleEn: "Choosing and Using a Substitution",
+      titleMy: "Substitution ရွေးချယ်ခြင်းနှင့် အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using the substitution u = x² + 1, find ∫2x(x² + 1)⁴ dx.",
+          questionMy:
+              "Substitution u = x² + 1 ကို အသုံးပြု၍ ∫2x(x² + 1)⁴ dx ကို ရှာပါ။",
+          optionsEn: ["(x² + 1)⁵/5 + C", "(x² + 1)⁴/4 + C", "2(x² + 1)⁵ + C", "(x² + 1)⁵ + C"],
+          optionsMy: ["(x² + 1)⁵/5 + C", "(x² + 1)⁴/4 + C", "2(x² + 1)⁵ + C", "(x² + 1)⁵ + C"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x² + 1, du = 2x dx. ∫u⁴ du = u⁵/5 + C = (x² + 1)⁵/5 + C.",
+          ],
+          hintsMy: [
+            "u = x² + 1, du = 2x dx ။ ∫u⁴ du = u⁵/5 + C = (x² + 1)⁵/5 + C ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Using the substitution u = 3x + 2, find ∫(3x + 2)⁴ dx.",
+          questionMy: "Substitution u = 3x + 2 ကို အသုံးပြု၍ ∫(3x + 2)⁴ dx ကို ရှာပါ။",
+          optionsEn: ["(3x + 2)⁵/15 + C", "(3x + 2)⁵/5 + C", "3(3x + 2)⁵ + C", "(3x + 2)⁴/4 + C"],
+          optionsMy: ["(3x + 2)⁵/15 + C", "(3x + 2)⁵/5 + C", "3(3x + 2)⁵ + C", "(3x + 2)⁴/4 + C"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = 3x + 2, du = 3 dx, so dx = du/3. ∫u⁴(du/3) = u⁵/15 + C = (3x + 2)⁵/15 + C.",
+          ],
+          hintsMy: [
+            "u = 3x + 2, du = 3 dx ဖြစ်၍ dx = du/3 ။ ∫u⁴(du/3) = u⁵/15 + C = (3x + 2)⁵/15 + C ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Which substitution is most useful for ∫x e^(x²) dx?",
+          questionMy: "∫x e^(x²) dx အတွက် မည်သည့် Substitution အသုံးဝင်ဆုံးနည်း။",
+          optionsEn: ["u = x²", "u = eˣ", "u = x", "u = e^(x²)"],
+          optionsMy: ["u = x²", "u = eˣ", "u = x", "u = e^(x²)"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x² gives du = 2x dx, and an x dx term is exactly what's already present -- a good sign for substitution.",
+          ],
+          hintsMy: [
+            "u = x² ဆိုလျှင် du = 2x dx ရသည်, x dx Term သည် ရှိပြီးသားဖြစ်သောကြောင့် -- Substitution အတွက် ကောင်းသော လက္ခဏာ ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Integration by Substitution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Substitution ဖြင့် Integration ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w18-dm-1",
+          termEn: "Substitution u = g(x)",
+          termMy: "Substitution u = g(x)",
+          matchEn: "Turns ∫f(g(x))g'(x) dx into ∫f(u) du",
+          matchMy: "∫f(g(x))g'(x) dx ကို ∫f(u) du အဖြစ် ပြောင်းပေးသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w18-dm-2",
+          termEn: "du",
+          termMy: "du",
+          matchEn: "g'(x) dx, the derivative of u times dx",
+          matchMy: "g'(x) dx, u ၏ Derivative ကို dx ဖြင့် မြှောက်ထားသော",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w18-dm-3",
+          termEn: "∫2x(x² + 1)⁴ dx",
+          termMy: "∫2x(x² + 1)⁴ dx",
+          matchEn: "Substitute u = x² + 1",
+          matchMy: "u = x² + 1 ဟု Substitute ပြုလုပ်ပါ",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w18-dm-4",
+          termEn: "After integrating in u",
+          termMy: "u တွင် Integrate ပြီးနောက်",
+          matchEn: "Substitute back to get the answer in terms of x",
+          matchMy: "x ဖြင့် အဖြေကို ပြန်ရရန် Substitute ပြန်ပြုလုပ်ပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w18-dm-5",
+          termEn: "Good substitution choice",
+          termMy: "ကောင်းသော Substitution ရွေးချယ်မှု",
+          matchEn: "Look for a function and (something close to) its derivative both present",
+          matchMy: "Function တစ်ခုနှင့် ၎င်း၏ Derivative (နီးစပ်သော) နှစ်ခုစလုံး ရှိနေမရှိနေ ရှာပါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good Candidate for Substitution?",
+      titleMy: "စီစစ်ကြမည် - Substitution အတွက် ကောင်းသော Candidate ဖြစ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good candidate for substitution", "Not suited to substitution (use a standard rule)"],
+        bucketsMy: ["Substitution အတွက် ကောင်းသော Candidate", "Substitution နှင့် မသင့်တော် (Standard Rule သုံးပါ)"],
+        items: [
+          SortingItem(
+            id: "y13math-w18-sort-1",
+            labelEn: "∫2x(x² + 1)⁴ dx",
+            labelMy: "∫2x(x² + 1)⁴ dx",
+            correctBucketEn: "Good candidate for substitution",
+            correctBucketMy: "Substitution အတွက် ကောင်းသော Candidate",
+          ),
+          SortingItem(
+            id: "y13math-w18-sort-2",
+            labelEn: "∫eˣ dx",
+            labelMy: "∫eˣ dx",
+            correctBucketEn: "Not suited to substitution (use a standard rule)",
+            correctBucketMy: "Substitution နှင့် မသင့်တော် (Standard Rule သုံးပါ)",
+          ),
+          SortingItem(
+            id: "y13math-w18-sort-3",
+            labelEn: "∫x e^(x²) dx",
+            labelMy: "∫x e^(x²) dx",
+            correctBucketEn: "Good candidate for substitution",
+            correctBucketMy: "Substitution အတွက် ကောင်းသော Candidate",
+          ),
+          SortingItem(
+            id: "y13math-w18-sort-4",
+            labelEn: "∫1/x dx",
+            labelMy: "∫1/x dx",
+            correctBucketEn: "Not suited to substitution (use a standard rule)",
+            correctBucketMy: "Substitution နှင့် မသင့်တော် (Standard Rule သုံးပါ)",
+          ),
+          SortingItem(
+            id: "y13math-w18-sort-5",
+            labelEn: "∫3x²(x³ + 2)⁶ dx",
+            labelMy: "∫3x²(x³ + 2)⁶ dx",
+            correctBucketEn: "Good candidate for substitution",
+            correctBucketMy: "Substitution အတွက် ကောင်းသော Candidate",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Substituting for a Square Root Integral",
+      titleMy: "စာဖတ်ခြင်း - Square Root Integral အတွက် Substitute ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Substituting for a Square Root Integral",
+        titleMy: "Square Root Integral အတွက် Substitute ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"Find ∫x√(x² + 4) dx,\" Sayar Zaw Min told Su Su. \"There's no standard rule for this directly, so look for a substitution.\" Su Su noticed that x² + 4 sits inside the square root, and its derivative, 2x, is close to the x already sitting outside. \"I'll try u = x² + 4,\" she said.\n\nShe found du = 2x dx, so x dx = du/2 -- exactly the piece needed to replace what's outside the square root. Rewriting the integral in terms of u: ∫√u × (du/2) = (1/2)∫u^(1/2) du.\n\nIntegrating u^(1/2) using the power rule for integration gives (2/3)u^(3/2), so the whole expression becomes (1/2) × (2/3)u^(3/2) + C = (1/3)u^(3/2) + C. \"Substituting back,\" Su Su finished, \"gives (1/3)(x² + 4)^(3/2) + C.\" Sayar Zaw Min nodded: \"Notice the pattern once more -- a function and something close to its derivative, sitting side by side, is always the signal to try substitution.\"",
+        passageMy:
+            "\"∫x√(x² + 4) dx ကို ရှာပါ\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်။ \"ဒါအတွက် တိုက်ရိုက် Standard Rule မရှိတာကြောင့် Substitution ရှာပါ။\" Su Su သည် x² + 4 သည် Square Root ထဲတွင် ရှိနေပြီး ၎င်း၏ Derivative 2x သည် အပြင်ဘက်ရှိ x နှင့် နီးစပ်ကြောင်း သတိပြုမိခဲ့သည်။ \"u = x² + 4 ကို စမ်းကြည့်မယ်\" ဟု သူမ ဆိုခဲ့သည်။\n\nသူမသည် du = 2x dx ကို ရှာတွေ့ခဲ့ပြီး x dx = du/2 ရသည် -- Square Root အပြင်ဘက်ရှိအရာကို အစားထိုးရန် အတိအကျ လိုအပ်သော အပိုင်းပါပဲ။ Integral ကို u ဖြင့် ပြန်ရေးပါက - ∫√u × (du/2) = (1/2)∫u^(1/2) du ။\n\nu^(1/2) ကို Power Rule for Integration ဖြင့် Integrate ပြုလုပ်ပါက (2/3)u^(3/2) ရသည်, ထို့ကြောင့် Expression တစ်ခုလုံးသည် (1/2) × (2/3)u^(3/2) + C = (1/3)u^(3/2) + C ဖြစ်လာသည်။ \"ပြန်အစားထိုးလိုက်ပါက\" ဟု Su Su ပြီးဆုံးခဲ့သည်, \"(1/3)(x² + 4)^(3/2) + C ရသည်။\" ဆရာဇော်မင်းက ခေါင်းညိတ်ခဲ့သည် - \"Pattern ကို ထပ်မံ သတိပြုပါ -- Function တစ်ခုနှင့် ၎င်း၏ Derivative နှင့် နီးစပ်သောအရာ ဘေးချင်းယှဉ်နေခြင်းသည် Substitution ကို စမ်းရန် Signal အမြဲ ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what substitution did Su Su try?",
+            questionMy: "Su Su စမ်းကြည့်သော Substitution ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["u = x² + 4", "u = x", "u = √x", "u = 4x"],
+            optionsMy: ["u = x² + 4", "u = x", "u = √x", "u = 4x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is x dx equal to in terms of du?",
+            questionMy: "x dx သည် du ဖြင့် မည်သို့ ညီသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["du/2", "du", "2du", "du/4"],
+            optionsMy: ["du/2", "du", "2du", "du/4"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final answer?",
+            questionMy: "နောက်ဆုံးအဖြေကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "(1/3)(x² + 4)^(3/2) + C",
+              "(2/3)(x² + 4)^(3/2) + C",
+              "(1/2)(x² + 4)^(3/2) + C",
+              "(1/3)(x² + 4)^(1/2) + C",
+            ],
+            optionsMy: [
+              "(1/3)(x² + 4)^(3/2) + C",
+              "(2/3)(x² + 4)^(3/2) + C",
+              "(1/2)(x² + 4)^(3/2) + C",
+              "(1/3)(x² + 4)^(1/2) + C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Integration by Substitution",
+      titleMy: "ဒသရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Substitution ဖြင့် Integration",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Substitution turns ∫f(g(x))g'(x) dx into...",
+          questionMy: "Substitution သည် ∫f(g(x))g'(x) dx ကို ...အဖြစ် ပြောင်းသည်",
+          optionsEn: ["∫f(u) du", "∫f(x) dx", "∫g(u) du", "∫u du"],
+          optionsMy: ["∫f(u) du", "∫f(x) dx", "∫g(u) du", "∫u du"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "After integrating in terms of u, you must...",
+          questionMy: "u ဖြင့် Integrate ပြီးနောက် ...ရပါမည်",
+          optionsEn: ["Substitute back in terms of x", "Leave the answer in u", "Differentiate again", "Multiply by u"],
+          optionsMy: ["x ဖြင့် ပြန် Substitute ပြုလုပ်ပါ", "အဖြေကို u ဖြင့်ပင် ချန်ထားပါ", "ထပ်မံ Differentiate ပြုလုပ်ပါ", "u ဖြင့် မြှောက်ပါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A good substitution candidate has...",
+          questionMy: "ကောင်းသော Substitution Candidate တွင် ...ရှိသည်",
+          optionsEn: [
+            "A function and its derivative both present",
+            "Only constants",
+            "No x terms at all",
+            "Two unrelated functions",
+          ],
+          optionsMy: [
+            "Function တစ်ခုနှင့် ၎င်း၏ Derivative နှစ်ခုစလုံး ရှိသည်",
+            "Constant များသာ ရှိသည်",
+            "x Term လုံးဝ မပါ",
+            "မဆက်စပ်သော Function နှစ်ခု",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Integration by Parts"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek19 = CourseWeekDef(
+  id: "course-y13-math-w19",
+  weekNumber: 19,
+  titleEn: "Integration by Parts",
+  titleMy: "Integration by Parts",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w19-d1",
+      dayNumber: 1,
+      titleEn: "The Integration by Parts Formula",
+      titleMy: "Integration by Parts Formula",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using integration by parts with u = x, dv = eˣ dx, find ∫x eˣ dx.",
+          questionMy:
+              "u = x, dv = eˣ dx ဖြင့် Integration by Parts သုံး၍ ∫x eˣ dx ကို ရှာပါ။",
+          optionsEn: ["xeˣ - eˣ + C", "xeˣ + eˣ + C", "eˣ + C", "x²eˣ/2 + C"],
+          optionsMy: ["xeˣ - eˣ + C", "xeˣ + eˣ + C", "eˣ + C", "x²eˣ/2 + C"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x, du = dx; dv = eˣ dx, v = eˣ. ∫u dv = uv - ∫v du = xeˣ - ∫eˣ dx = xeˣ - eˣ + C.",
+          ],
+          hintsMy: [
+            "u = x, du = dx; dv = eˣ dx, v = eˣ ။ ∫u dv = uv - ∫v du = xeˣ - ∫eˣ dx = xeˣ - eˣ + C ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using integration by parts with u = x, dv = cos x dx, find ∫x cos x dx.",
+          questionMy:
+              "u = x, dv = cos x dx ဖြင့် Integration by Parts သုံး၍ ∫x cos x dx ကို ရှာပါ။",
+          optionsEn: ["x sin x + cos x + C", "x sin x - cos x + C", "x cos x + sin x + C", "sin x + C"],
+          optionsMy: ["x sin x + cos x + C", "x sin x - cos x + C", "x cos x + sin x + C", "sin x + C"],
+          correctIndex: 0,
+          hintsEn: [
+            "u = x, du = dx; dv = cos x dx, v = sin x. ∫u dv = uv - ∫v du = x sin x - ∫sin x dx = x sin x + cos x + C.",
+          ],
+          hintsMy: [
+            "u = x, du = dx; dv = cos x dx, v = sin x ။ ∫u dv = uv - ∫v du = x sin x - ∫sin x dx = x sin x + cos x + C ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "For ∫x ln x dx, the sensible choice is u = ln x, dv = x dx. What is du?",
+          questionMy:
+              "∫x ln x dx အတွက် သင့်လျော်သော ရွေးချယ်မှုမှာ u = ln x, dv = x dx ဖြစ်သည်။ du ကို ရှာပါ။",
+          optionsEn: ["du = (1/x) dx", "du = x dx", "du = ln x dx", "du = dx"],
+          optionsMy: ["du = (1/x) dx", "du = x dx", "du = ln x dx", "du = dx"],
+          correctIndex: 0,
+          hintsEn: [
+            "ln x is chosen as u because it differentiates simply: du/dx = 1/x, so du = (1/x) dx.",
+          ],
+          hintsMy: [
+            "ln x ကို u အဖြစ် ရွေးချယ်သည်မှာ ရိုးရှင်းစွာ Differentiate ဖြစ်သောကြောင့် ဖြစ်သည် - du/dx = 1/x ဖြစ်၍ du = (1/x) dx ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Integration by Parts Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Integration by Parts ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w19-dm-1",
+          termEn: "Integration by parts formula",
+          termMy: "Integration by Parts Formula",
+          matchEn: "∫u dv = uv - ∫v du",
+          matchMy: "∫u dv = uv - ∫v du",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w19-dm-2",
+          termEn: "u",
+          termMy: "u",
+          matchEn: "The part you differentiate",
+          matchMy: "Differentiate ပြုလုပ်ရမည့်အပိုင်း",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w19-dm-3",
+          termEn: "dv",
+          termMy: "dv",
+          matchEn: "The part you integrate",
+          matchMy: "Integrate ပြုလုပ်ရမည့်အပိုင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w19-dm-4",
+          termEn: "Choosing u",
+          termMy: "u ရွေးချယ်ခြင်း",
+          matchEn: "Pick the part that gets simpler when differentiated (e.g. ln x, x)",
+          matchMy: "Differentiate လုပ်ပါက ရိုးရှင်းလာသောအပိုင်းကို ရွေးပါ (ဥပမာ ln x, x)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w19-dm-5",
+          termEn: "∫x eˣ dx",
+          termMy: "∫x eˣ dx",
+          matchEn: "= eˣ(x - 1) + C",
+          matchMy: "= eˣ(x - 1) + C",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Choose as u or as dv?",
+      titleMy: "စီစစ်ကြမည် - u အဖြစ် ဒါမှမဟုတ် dv အဖြစ် ရွေးမလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Choose as u (differentiate)", "Choose as dv (integrate)"],
+        bucketsMy: ["u အဖြစ် ရွေးသည် (Differentiate)", "dv အဖြစ် ရွေးသည် (Integrate)"],
+        items: [
+          SortingItem(
+            id: "y13math-w19-sort-1",
+            labelEn: "x (in ∫x eˣ dx)",
+            labelMy: "x (∫x eˣ dx တွင်)",
+            correctBucketEn: "Choose as u (differentiate)",
+            correctBucketMy: "u အဖြစ် ရွေးသည် (Differentiate)",
+          ),
+          SortingItem(
+            id: "y13math-w19-sort-2",
+            labelEn: "eˣ dx (in ∫x eˣ dx)",
+            labelMy: "eˣ dx (∫x eˣ dx တွင်)",
+            correctBucketEn: "Choose as dv (integrate)",
+            correctBucketMy: "dv အဖြစ် ရွေးသည် (Integrate)",
+          ),
+          SortingItem(
+            id: "y13math-w19-sort-3",
+            labelEn: "ln x (in ∫x ln x dx)",
+            labelMy: "ln x (∫x ln x dx တွင်)",
+            correctBucketEn: "Choose as u (differentiate)",
+            correctBucketMy: "u အဖြစ် ရွေးသည် (Differentiate)",
+          ),
+          SortingItem(
+            id: "y13math-w19-sort-4",
+            labelEn: "x dx (in ∫x ln x dx)",
+            labelMy: "x dx (∫x ln x dx တွင်)",
+            correctBucketEn: "Choose as dv (integrate)",
+            correctBucketMy: "dv အဖြစ် ရွေးသည် (Integrate)",
+          ),
+          SortingItem(
+            id: "y13math-w19-sort-5",
+            labelEn: "x (in ∫x cos x dx)",
+            labelMy: "x (∫x cos x dx တွင်)",
+            correctBucketEn: "Choose as u (differentiate)",
+            correctBucketMy: "u အဖြစ် ရွေးသည် (Differentiate)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Integrating x ln x by Parts",
+      titleMy: "စာဖတ်ခြင်း - x ln x ကို Parts ဖြင့် Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Integrating x ln x by Parts",
+        titleMy: "x ln x ကို Parts ဖြင့် Integrate ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"Find ∫x ln x dx,\" Sayar Zaw Min told Htet Aung. \"Which part should be u, and which should be dv?\" Htet Aung remembered the rule of thumb: choose u to be the part that gets simpler when differentiated. \"ln x doesn't have a simple standard integral we've memorised,\" he reasoned, \"but it differentiates to 1/x, which is much simpler. So u = ln x, and dv = x dx.\"\n\nThat gave du = (1/x) dx, and integrating dv gave v = x²/2. Substituting into the formula ∫u dv = uv - ∫v du: (x²/2)ln x - ∫(x²/2)(1/x) dx.\n\nHtet Aung simplified the remaining integral: (x²/2)(1/x) = x/2, so ∫(x/2) dx = x²/4. \"Putting it all together,\" he concluded, \"∫x ln x dx = (x²/2)ln x - x²/4 + C.\" Sayar Zaw Min pointed out the key lesson: \"Whenever ln x appears multiplied by a power of x, u = ln x is almost always the right choice -- it turns a logarithm you can't easily integrate into a simple 1/x you can.\"",
+        passageMy:
+            "\"∫x ln x dx ကို ရှာပါ\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"ဘယ်အပိုင်းက u ဖြစ်ပြီး ဘယ်အပိုင်းက dv ဖြစ်သင့်သနည်း။\" Htet Aung သည် Rule of Thumb ကို သတိရခဲ့သည် - Differentiate ပြုလုပ်ပါက ရိုးရှင်းလာသောအပိုင်းကို u အဖြစ် ရွေးပါ။ \"ln x မှာ ကျွန်တော်တို့ ကျက်ထားတဲ့ ရိုးရှင်းသော Standard Integral မရှိဘူး\" ဟု သူ ခြေရာခံခဲ့သည်, \"ဒါပေမဲ့ ၎င်းသည် 1/x အဖြစ် Differentiate ဖြစ်ပြီး ပိုရိုးရှင်းတယ်။ ဒါကြောင့် u = ln x, dv = x dx ။\"\n\nဒါက du = (1/x) dx ကို ပေးခဲ့ပြီး dv ကို Integrate ပြုလုပ်ပါက v = x²/2 ရသည်။ Formula ∫u dv = uv - ∫v du ထဲသို့ အစားထိုးပါက - (x²/2)ln x - ∫(x²/2)(1/x) dx ။\n\nHtet Aung သည် ကျန်ရစ်သော Integral ကို ရိုးရှင်းအောင် ပြုလုပ်ခဲ့သည် - (x²/2)(1/x) = x/2, ထို့ကြောင့် ∫(x/2) dx = x²/4 ။ \"အားလုံးကို ပေါင်းစပ်လိုက်ရင်\" ဟု သူ နိဂုံးချုပ်ခဲ့သည်, \"∫x ln x dx = (x²/2)ln x - x²/4 + C ။\" ဆရာဇော်မင်းသည် အဓိက သင်ခန်းစာကို ထောက်ပြခဲ့သည် - \"ln x သည် x ၏ Power တစ်ခုနှင့် မြှောက်ထားသည့်အခါတိုင်း u = ln x သည် နီးပါးအမြဲ မှန်ကန်သော ရွေးချယ်မှု ဖြစ်သည် -- ၎င်းသည် လွယ်လွယ်ကူကူ Integrate မလုပ်နိုင်သော Logarithm ကို ရိုးရှင်းသော 1/x အဖြစ် ပြောင်းပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what was chosen for u?",
+            questionMy: "u အတွက် မည်သည်ကို ရွေးချယ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["ln x", "x", "x²/2", "1/x"],
+            optionsMy: ["ln x", "x", "x²/2", "1/x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is v?",
+            questionMy: "v ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x²/2", "x", "ln x", "1/x"],
+            optionsMy: ["x²/2", "x", "ln x", "1/x"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final answer?",
+            questionMy: "နောက်ဆုံးအဖြေကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "(x²/2)ln x - x²/4 + C",
+              "(x²/2)ln x + x²/4 + C",
+              "x ln x - x + C",
+              "(x²/2)ln x - x/4 + C",
+            ],
+            optionsMy: [
+              "(x²/2)ln x - x²/4 + C",
+              "(x²/2)ln x + x²/4 + C",
+              "x ln x - x + C",
+              "(x²/2)ln x - x/4 + C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Integration by Parts",
+      titleMy: "ဒသကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Integration by Parts",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The integration by parts formula is...",
+          questionMy: "Integration by Parts Formula မှာ...",
+          optionsEn: ["∫u dv = uv - ∫v du", "∫u dv = uv + ∫v du", "∫u dv = u'v'", "∫u dv = u/v"],
+          optionsMy: ["∫u dv = uv - ∫v du", "∫u dv = uv + ∫v du", "∫u dv = u'v'", "∫u dv = u/v"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "In ∫x eˣ dx, the sensible choice for u is...",
+          questionMy: "∫x eˣ dx တွင် u အတွက် သင့်လျော်သော ရွေးချယ်မှုမှာ...",
+          optionsEn: ["x", "eˣ", "xeˣ", "eˣ dx"],
+          optionsMy: ["x", "eˣ", "xeˣ", "eˣ dx"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If u = ln x, then du = ?",
+          questionMy: "u = ln x ဆိုလျှင် du = ?",
+          optionsEn: ["(1/x) dx", "x dx", "dx", "ln x dx"],
+          optionsMy: ["(1/x) dx", "x dx", "dx", "ln x dx"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20 (Boss Week): "Integrating Using Partial Fractions"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek20 = CourseWeekDef(
+  id: "course-y13-math-w20",
+  weekNumber: 20,
+  titleEn: "Integrating Using Partial Fractions",
+  titleMy: "Partial Fractions ဖြင့် Integrate ပြုလုပ်ခြင်း",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w20-d1",
+      dayNumber: 1,
+      titleEn: "Splitting Then Integrating",
+      titleMy: "ခွဲပြီးမှ Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using the partial fractions 2/(x - 1) + 5/(x + 2), find ∫(7x - 1)/((x - 1)(x + 2)) dx.",
+          questionMy:
+              "Partial Fractions 2/(x - 1) + 5/(x + 2) ကို အသုံးပြု၍ ∫(7x - 1)/((x - 1)(x + 2)) dx ကို ရှာပါ။",
+          optionsEn: [
+            "2ln|x - 1| + 5ln|x + 2| + C",
+            "2ln|x - 1| - 5ln|x + 2| + C",
+            "ln|x - 1| + ln|x + 2| + C",
+            "7ln|x - 1| - ln|x + 2| + C",
+          ],
+          optionsMy: [
+            "2ln|x - 1| + 5ln|x + 2| + C",
+            "2ln|x - 1| - 5ln|x + 2| + C",
+            "ln|x - 1| + ln|x + 2| + C",
+            "7ln|x - 1| - ln|x + 2| + C",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "∫2/(x - 1) dx + ∫5/(x + 2) dx = 2ln|x - 1| + 5ln|x + 2| + C, using ∫A/(x - a) dx = A ln|x - a| + C.",
+          ],
+          hintsMy: [
+            "∫2/(x - 1) dx + ∫5/(x + 2) dx = 2ln|x - 1| + 5ln|x + 2| + C, ∫A/(x - a) dx = A ln|x - a| + C ကို အသုံးပြု၍ ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Using A = 1/3, B = -1/3, find ∫1/((x - 1)(x + 2)) dx.",
+          questionMy:
+              "A = 1/3, B = -1/3 ကို အသုံးပြု၍ ∫1/((x - 1)(x + 2)) dx ကို ရှာပါ။",
+          optionsEn: [
+            "(1/3)ln|x - 1| - (1/3)ln|x + 2| + C",
+            "(1/3)ln|x - 1| + (1/3)ln|x + 2| + C",
+            "ln|x - 1| - ln|x + 2| + C",
+            "-(1/3)ln|x - 1| + (1/3)ln|x + 2| + C",
+          ],
+          optionsMy: [
+            "(1/3)ln|x - 1| - (1/3)ln|x + 2| + C",
+            "(1/3)ln|x - 1| + (1/3)ln|x + 2| + C",
+            "ln|x - 1| - ln|x + 2| + C",
+            "-(1/3)ln|x - 1| + (1/3)ln|x + 2| + C",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "∫(1/3)/(x - 1) dx + ∫(-1/3)/(x + 2) dx = (1/3)ln|x - 1| - (1/3)ln|x + 2| + C.",
+          ],
+          hintsMy: [
+            "∫(1/3)/(x - 1) dx + ∫(-1/3)/(x + 2) dx = (1/3)ln|x - 1| - (1/3)ln|x + 2| + C ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which technique from Term 1 is essential before integrating a fraction like (7x - 1)/((x - 1)(x + 2))?",
+          questionMy:
+              "(7x - 1)/((x - 1)(x + 2)) ကဲ့သို့ Fraction ကို Integrate မပြုလုပ်မီ Term 1 မှ မည်သည့် Technique လိုအပ်သနည်း။",
+          optionsEn: [
+            "Splitting into partial fractions first",
+            "Differentiating first",
+            "Applying the chain rule first",
+            "Squaring both sides",
+          ],
+          optionsMy: [
+            "ပထမဆုံး Partial Fractions ခွဲထုတ်ခြင်း",
+            "ပထမဆုံး Differentiate ပြုလုပ်ခြင်း",
+            "ပထမဆုံး Chain Rule အသုံးပြုခြင်း",
+            "နှစ်ဖက်စလုံးကို Square လုပ်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "There is no standard integration rule for a complicated algebraic fraction, but there is one for each simple term A/(x - a) once it's split.",
+          ],
+          hintsMy: [
+            "ရှုပ်ထွေးသော Algebraic Fraction တစ်ခုအတွက် Standard Integration Rule မရှိပါ, ဒါပေမဲ့ ခွဲထုတ်ပြီးသား Simple Term A/(x - a) တစ်ခုစီအတွက်တော့ ရှိသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Integrating Partial Fractions",
+      titleMy: "တွဲစပ်ကြမည် - Partial Fractions ကို Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w20-dm-1",
+          termEn: "∫A/(x - a) dx",
+          termMy: "∫A/(x - a) dx",
+          matchEn: "A ln|x - a| + C",
+          matchMy: "A ln|x - a| + C",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w20-dm-2",
+          termEn: "Partial fractions before integrating",
+          termMy: "Integrate မလုပ်မီ Partial Fractions",
+          matchEn: "Split the fraction first, then integrate each simple term",
+          matchMy: "Fraction ကို ပထမဆုံး ခွဲထုတ်ပြီးမှ Simple Term တစ်ခုစီကို Integrate ပြုလုပ်ပါ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w20-dm-3",
+          termEn: "∫(7x - 1)/((x - 1)(x + 2)) dx",
+          termMy: "∫(7x - 1)/((x - 1)(x + 2)) dx",
+          matchEn: "2 ln|x - 1| + 5 ln|x + 2| + C",
+          matchMy: "2 ln|x - 1| + 5 ln|x + 2| + C",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w20-dm-4",
+          termEn: "Why split first?",
+          termMy: "ဘာကြောင့် ပထမဆုံး ခွဲထုတ်သနည်း",
+          matchEn: "A complicated algebraic fraction has no direct integration rule, but 1/(x - a) does",
+          matchMy: "ရှုပ်ထွေးသော Algebraic Fraction တွင် တိုက်ရိုက် Integration Rule မရှိပါ, ဒါပေမဲ့ 1/(x - a) တွင် ရှိသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w20-dm-5",
+          termEn: "Repeated factor A/(x - a)²",
+          termMy: "Repeated Factor A/(x - a)²",
+          matchEn: "Integrates to -A/(x - a) + C",
+          matchMy: "-A/(x - a) + C အဖြစ် Integrate ဖြစ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Needs Partial Fractions Before Integrating?",
+      titleMy: "စီစစ်ကြမည် - Integrate မလုပ်မီ Partial Fractions လိုအပ်သလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Needs partial fractions before integrating", "Integrates directly with a standard rule"],
+        bucketsMy: ["Integrate မလုပ်မီ Partial Fractions လိုအပ်သည်", "Standard Rule ဖြင့် တိုက်ရိုက် Integrate ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w20-sort-1",
+            labelEn: "∫(7x - 1)/((x - 1)(x + 2)) dx",
+            labelMy: "∫(7x - 1)/((x - 1)(x + 2)) dx",
+            correctBucketEn: "Needs partial fractions before integrating",
+            correctBucketMy: "Integrate မလုပ်မီ Partial Fractions လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w20-sort-2",
+            labelEn: "∫eˣ dx",
+            labelMy: "∫eˣ dx",
+            correctBucketEn: "Integrates directly with a standard rule",
+            correctBucketMy: "Standard Rule ဖြင့် တိုက်ရိုက် Integrate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w20-sort-3",
+            labelEn: "∫1/((x - 1)(x + 2)) dx",
+            labelMy: "∫1/((x - 1)(x + 2)) dx",
+            correctBucketEn: "Needs partial fractions before integrating",
+            correctBucketMy: "Integrate မလုပ်မီ Partial Fractions လိုအပ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w20-sort-4",
+            labelEn: "∫1/x dx",
+            labelMy: "∫1/x dx",
+            correctBucketEn: "Integrates directly with a standard rule",
+            correctBucketMy: "Standard Rule ဖြင့် တိုက်ရိုက် Integrate ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w20-sort-5",
+            labelEn: "∫(5x - 4)/(x - 1)² dx",
+            labelMy: "∫(5x - 4)/(x - 1)² dx",
+            correctBucketEn: "Needs partial fractions before integrating",
+            correctBucketMy: "Integrate မလုပ်မီ Partial Fractions လိုအပ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Reaching Back to Term 1's Partial Fractions",
+      titleMy: "စာဖတ်ခြင်း - Term 1 ၏ Partial Fractions သို့ ပြန်လှမ်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Reaching Back to Term 1's Partial Fractions",
+        titleMy: "Term 1 ၏ Partial Fractions သို့ ပြန်လှမ်းခြင်း",
+        passageEn:
+            "For the boss-week challenge, Sayar Zaw Min gave Su Su and Htet Aung ∫(7x - 1)/((x - 1)(x + 2)) dx. \"You've solved a piece of this before,\" he said, \"back in Term 1.\"\n\nSu Su remembered immediately: in Term 1's partial fractions work, (7x - 1)/((x - 1)(x + 2)) had already been split into 2/(x - 1) + 5/(x + 2) using the cover-up rule, with A = 2 and B = 5. \"So I don't need to redo that algebra,\" she said, \"I can jump straight to integrating.\"\n\nHtet Aung applied this week's rule to each simple term: ∫2/(x - 1) dx = 2ln|x - 1|, and ∫5/(x + 2) dx = 5ln|x + 2|. \"Adding them together,\" he concluded, \"∫(7x - 1)/((x - 1)(x + 2)) dx = 2ln|x - 1| + 5ln|x + 2| + C.\" Sayar Zaw Min smiled: \"That's the whole point of this week -- partial fractions turns an integral with no direct rule into two integrals that do have one, and every skill from earlier in the course keeps paying off in later terms.\"",
+        passageMy:
+            "Boss-week Challenge အတွက် ဆရာဇော်မင်းသည် Su Su နှင့် Htet Aung အား ∫(7x - 1)/((x - 1)(x + 2)) dx ပေးခဲ့သည်။ \"ဒါရဲ့ အပိုင်းတစ်ခုကို အရင်က ဖြေရှင်းခဲ့ဖူးတယ်\" ဟု သူ ဆိုခဲ့သည်, \"Term 1 က ပါ။\"\n\nSu Su ချက်ချင်း သတိရခဲ့သည် - Term 1 ၏ Partial Fractions အလုပ်တွင် (7x - 1)/((x - 1)(x + 2)) ကို Cover-up Rule ဖြင့် 2/(x - 1) + 5/(x + 2) အဖြစ် A = 2, B = 5 ဖြင့် ခွဲထားပြီးသား ဖြစ်ခဲ့သည်။ \"ဒါဆို အဲဒီ Algebra ကို ပြန်လုပ်စရာ မလိုတော့ဘူး\" ဟု သူမ ဆိုခဲ့သည်, \"Integrate လုပ်ရန် တိုက်ရိုက် ခုန်နိုင်တယ်။\"\n\nHtet Aung သည် ဒီအပတ်ရဲ့ Rule ကို Simple Term တစ်ခုစီအပေါ် အသုံးပြုခဲ့သည် - ∫2/(x - 1) dx = 2ln|x - 1|, ∫5/(x + 2) dx = 5ln|x + 2| ။ \"နှစ်ခုကို ပေါင်းလိုက်ရင်\" ဟု သူ နိဂုံးချုပ်ခဲ့သည်, \"∫(7x - 1)/((x - 1)(x + 2)) dx = 2ln|x - 1| + 5ln|x + 2| + C ။\" ဆရာဇော်မင်း ပြုံးပြခဲ့သည် - \"ဒါက ဒီအပတ်ရဲ့ အဓိက Point ပါပဲ -- Partial Fractions က တိုက်ရိုက် Rule မရှိတဲ့ Integral တစ်ခုကို Rule ရှိတဲ့ Integral နှစ်ခုအဖြစ် ပြောင်းပေးတယ်, Course ရဲ့ အစောပိုင်း Skill တိုင်းက နောက်ပိုင်း Term တွေမှာ အမြဲ ပြန်ဆပ်ပေးနေတယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what partial fraction split was recalled from Term 1?",
+            questionMy: "Term 1 မှ ပြန်သတိရသော Partial Fraction ခွဲထုတ်မှုကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "2/(x - 1) + 5/(x + 2)",
+              "5/(x - 1) + 2/(x + 2)",
+              "1/(x - 1) + 1/(x + 2)",
+              "7/(x - 1) - 1/(x + 2)",
+            ],
+            optionsMy: [
+              "2/(x - 1) + 5/(x + 2)",
+              "5/(x - 1) + 2/(x + 2)",
+              "1/(x - 1) + 1/(x + 2)",
+              "7/(x - 1) - 1/(x + 2)",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what rule was used to integrate each simple term?",
+            questionMy: "Simple Term တစ်ခုစီကို Integrate ရန် အသုံးပြုသော Rule ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "∫A/(x - a) dx = A ln|x - a| + C",
+              "∫A/(x - a) dx = A(x - a) + C",
+              "∫A/(x - a) dx = A eˣ + C",
+              "∫A/(x - a) dx = A/(x - a)² + C",
+            ],
+            optionsMy: [
+              "∫A/(x - a) dx = A ln|x - a| + C",
+              "∫A/(x - a) dx = A(x - a) + C",
+              "∫A/(x - a) dx = A eˣ + C",
+              "∫A/(x - a) dx = A/(x - a)² + C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the final answer?",
+            questionMy: "နောက်ဆုံးအဖြေကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "2ln|x - 1| + 5ln|x + 2| + C",
+              "2ln|x - 1| - 5ln|x + 2| + C",
+              "5ln|x - 1| + 2ln|x + 2| + C",
+              "ln|x - 1| + ln|x + 2| + C",
+            ],
+            optionsMy: [
+              "2ln|x - 1| + 5ln|x + 2| + C",
+              "2ln|x - 1| - 5ln|x + 2| + C",
+              "5ln|x - 1| + 2ln|x + 2| + C",
+              "ln|x - 1| + ln|x + 2| + C",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: Integrating with Partial Fractions",
+      titleMy: "ဒသနှစ်ဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Partial Fractions ဖြင့် Integrate ပြုလုပ်ခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Before integrating a fraction with a factorised denominator, first...",
+          questionMy: "Factorise ဖြစ်ထားသော Denominator ပါသော Fraction ကို Integrate မလုပ်မီ ပထမဆုံး...",
+          optionsEn: [
+            "Split into partial fractions",
+            "Differentiate the whole expression",
+            "Square the numerator",
+            "Substitute x = 0",
+          ],
+          optionsMy: [
+            "Partial Fractions ခွဲထုတ်ပါ",
+            "Expression တစ်ခုလုံးကို Differentiate ပြုလုပ်ပါ",
+            "Numerator ကို Square လုပ်ပါ",
+            "x = 0 ကို Substitute လုပ်ပါ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫A/(x - a) dx = ?",
+          questionMy: "∫A/(x - a) dx = ?",
+          optionsEn: ["A ln|x - a| + C", "A(x - a) + C", "A/(x - a)² + C", "A eˣ + C"],
+          optionsMy: ["A ln|x - a| + C", "A(x - a) + C", "A/(x - a)² + C", "A eˣ + C"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "∫(7x - 1)/((x - 1)(x + 2)) dx = ?",
+          questionMy: "∫(7x - 1)/((x - 1)(x + 2)) dx = ?",
+          optionsEn: [
+            "2ln|x - 1| + 5ln|x + 2| + C",
+            "7ln|x - 1| - ln|x + 2| + C",
+            "ln|x - 1| + ln|x + 2| + C",
+            "2ln|x - 1| - 5ln|x + 2| + C",
+          ],
+          optionsMy: [
+            "2ln|x - 1| + 5ln|x + 2| + C",
+            "7ln|x - 1| - ln|x + 2| + C",
+            "ln|x - 1| + ln|x + 2| + C",
+            "2ln|x - 1| - 5ln|x + 2| + C",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm5 = CourseTermDef(
+  id: "course-y13-math-t5",
+  termNumber: 5,
+  titleEn: "Further Integration",
+  titleMy: "Integration ဆက်လက်လေ့လာခြင်း",
+  weeks: [_y13MathWeek17, _y13MathWeek18, _y13MathWeek19, _y13MathWeek20],
+  certificateTitleEn: "A2 Mathematics: Further Integration",
+  certificateTitleMy: "A2 သင်္ချာ - Integration ဆက်လက်လေ့လာခြင်း",
+);
+
+
+// =====================================================================
+// YEAR 13 MATHEMATICS (A-Level A2, Cambridge 9709 Pure 3) -- Term 6:
+// "Numerical Solutions of Equations"
+// (Weeks 21-24)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "Locating a Root by Sign Change"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek21 = CourseWeekDef(
+  id: "course-y13-math-w21",
+  weekNumber: 21,
+  titleEn: "Locating a Root by Sign Change",
+  titleMy: "Sign Change ဖြင့် Root တည်နေရာ ရှာခြင်း",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w21-d1",
+      dayNumber: 1,
+      titleEn: "The Sign-Change Method",
+      titleMy: "Sign-Change Method",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "f(x) = x³ - x - 3. Given f(1) = -3 and f(2) = 3, what can you conclude?",
+          questionMy:
+              "f(x) = x³ - x - 3 ။ f(1) = -3, f(2) = 3 ဖြစ်ပါက မည်သို့ ကောက်ချက်ချနိုင်သနည်း။",
+          optionsEn: [
+            "There is a root between x = 1 and x = 2",
+            "There is no root between x = 1 and x = 2",
+            "x = 1 is a root",
+            "x = 2 is a root",
+          ],
+          optionsMy: [
+            "x = 1 နှင့် x = 2 ကြားတွင် Root တစ်ခု ရှိသည်",
+            "x = 1 နှင့် x = 2 ကြားတွင် Root မရှိပါ",
+            "x = 1 သည် Root ဖြစ်သည်",
+            "x = 2 သည် Root ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "f(1) is negative and f(2) is positive -- a sign change means the continuous curve must cross zero somewhere in between.",
+          ],
+          hintsMy: [
+            "f(1) သည် Negative ဖြစ်ပြီး f(2) သည် Positive ဖြစ်သည် -- Sign Change ဆိုသည်မှာ Continuous Curve သည် ကြားတစ်နေရာတွင် Zero ကို ဖြတ်ရမည်ဟု ဆိုလိုသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "f(x) = x³ - x - 3. Evaluate f(1.5).",
+          questionMy: "f(x) = x³ - x - 3 ။ f(1.5) ကို တွက်ချက်ပါ။",
+          optionsEn: ["-1.125", "1.125", "3.375", "-3.375"],
+          optionsMy: ["-1.125", "1.125", "3.375", "-3.375"],
+          correctIndex: 0,
+          hintsEn: ["f(1.5) = 1.5³ - 1.5 - 3 = 3.375 - 1.5 - 3 = -1.125."],
+          hintsMy: ["f(1.5) = 1.5³ - 1.5 - 3 = 3.375 - 1.5 - 3 = -1.125 ။"],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Why must f(x) be continuous for the sign-change method to guarantee a root?",
+          questionMy:
+              "Sign-Change Method သည် Root တစ်ခု ရှိကြောင်း အာမခံရန် f(x) သည် အဘယ်ကြောင့် Continuous ဖြစ်ရသနည်း။",
+          optionsEn: [
+            "A discontinuous function could jump across zero without ever crossing it",
+            "Continuous functions are always positive",
+            "It makes the calculation faster",
+            "Discontinuous functions have no roots at all",
+          ],
+          optionsMy: [
+            "Discontinuous Function သည် Zero ကို လုံးဝ မဖြတ်ဘဲ ခုန်ကျော်သွားနိုင်သောကြောင့်",
+            "Continuous Function များသည် အမြဲ Positive ဖြစ်သောကြောင့်",
+            "တွက်ချက်မှုကို ပိုမြန်စေသောကြောင့်",
+            "Discontinuous Function များတွင် Root လုံးဝ မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A continuous curve can't skip over zero -- it must pass through every value between a negative and a positive one.",
+          ],
+          hintsMy: [
+            "Continuous Curve သည် Zero ကို ကျော်ခုန်၍ မရနိုင်ပါ -- Negative နှင့် Positive တန်ဖိုးကြား တန်ဖိုးတိုင်းကို ဖြတ်သန်းရမည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Sign-Change Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Sign-Change ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w21-dm-1",
+          termEn: "Sign-change method",
+          termMy: "Sign-Change Method",
+          matchEn: "If f(a) and f(b) have opposite signs, a root lies between a and b",
+          matchMy: "f(a) နှင့် f(b) တို့တွင် Sign ဆန့်ကျင်ဖက် ရှိပါက Root တစ်ခုသည် a နှင့် b ကြားတွင် ရှိသည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w21-dm-2",
+          termEn: "Continuous function",
+          termMy: "Continuous Function",
+          matchEn: "A function with no breaks or jumps in its graph",
+          matchMy: "Graph တွင် ကျိုးပြတ်မှု ဒါမှမဟုတ် ခုန်ကျော်မှု မရှိသော Function",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w21-dm-3",
+          termEn: "f(a) × f(b) < 0",
+          termMy: "f(a) × f(b) < 0",
+          matchEn: "Indicates a root between a and b",
+          matchMy: "a နှင့် b ကြားတွင် Root တစ်ခု ရှိကြောင်း ညွှန်ပြသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w21-dm-4",
+          termEn: "Narrowing the interval",
+          termMy: "Interval ကျဉ်းစေခြင်း",
+          matchEn: "Test the midpoint to halve the interval containing the root",
+          matchMy: "Root ပါသော Interval ကို တစ်ဝက်လျှော့ရန် Midpoint ကို Test ပြုလုပ်ပါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w21-dm-5",
+          termEn: "Root",
+          termMy: "Root",
+          matchEn: "A value of x where f(x) = 0",
+          matchMy: "f(x) = 0 ဖြစ်စေသော x ၏ တန်ဖိုး",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Sign Change Present?",
+      titleMy: "စီစစ်ကြမည် - Sign Change ရှိသလား",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sign change (root likely present)", "No sign change (root not indicated)"],
+        bucketsMy: ["Sign Change (Root ရှိနိုင်ခြေ ရှိသည်)", "Sign Change မရှိ (Root မညွှန်ပြပါ)"],
+        items: [
+          SortingItem(
+            id: "y13math-w21-sort-1",
+            labelEn: "f(1) = -3, f(2) = 3",
+            labelMy: "f(1) = -3, f(2) = 3",
+            correctBucketEn: "Sign change (root likely present)",
+            correctBucketMy: "Sign Change (Root ရှိနိုင်ခြေ ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y13math-w21-sort-2",
+            labelEn: "f(0) = 2, f(1) = 5",
+            labelMy: "f(0) = 2, f(1) = 5",
+            correctBucketEn: "No sign change (root not indicated)",
+            correctBucketMy: "Sign Change မရှိ (Root မညွှန်ပြပါ)",
+          ),
+          SortingItem(
+            id: "y13math-w21-sort-3",
+            labelEn: "f(2) = -1, f(3) = 4",
+            labelMy: "f(2) = -1, f(3) = 4",
+            correctBucketEn: "Sign change (root likely present)",
+            correctBucketMy: "Sign Change (Root ရှိနိုင်ခြေ ရှိသည်)",
+          ),
+          SortingItem(
+            id: "y13math-w21-sort-4",
+            labelEn: "f(-1) = -2, f(0) = -6",
+            labelMy: "f(-1) = -2, f(0) = -6",
+            correctBucketEn: "No sign change (root not indicated)",
+            correctBucketMy: "Sign Change မရှိ (Root မညွှန်ပြပါ)",
+          ),
+          SortingItem(
+            id: "y13math-w21-sort-5",
+            labelEn: "f(0) = 1, f(1) = -2",
+            labelMy: "f(0) = 1, f(1) = -2",
+            correctBucketEn: "Sign change (root likely present)",
+            correctBucketMy: "Sign Change (Root ရှိနိုင်ခြေ ရှိသည်)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Narrowing In on a Root",
+      titleMy: "စာဖတ်ခြင်း - Root ဆီသို့ ကျဉ်းသွင်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Narrowing In on a Root",
+        titleMy: "Root ဆီသို့ ကျဉ်းသွင်းခြင်း",
+        passageEn:
+            "Su Su was given f(x) = x³ - x - 3 and asked to locate a root as precisely as she could using only sign changes. She started with f(1) = 1 - 1 - 3 = -3 and f(2) = 8 - 2 - 3 = 3. \"Negative, then positive,\" she said, \"so a root lies somewhere between 1 and 2.\"\n\nTo narrow it down, Sayar Zaw Min suggested testing the midpoint. Su Su calculated f(1.5) = 3.375 - 1.5 - 3 = -1.125 -- still negative. \"So the sign change now happens between 1.5 and 2, not the whole [1, 2] interval,\" she said, discarding the left half where both endpoints agreed in sign.\n\nShe tested again, this time f(1.7) = 4.913 - 1.7 - 3 = 0.213 -- positive. \"So the root is between 1.5 and 1.7,\" she concluded, \"and I could keep testing midpoints to narrow it further and further, getting as many decimal places of accuracy as needed.\" Sayar Zaw Min nodded: \"That's the whole idea behind numerical methods -- you rarely find an exact answer, but you can trap it in an interval as small as you like.\"",
+        passageMy:
+            "Su Su သည် f(x) = x³ - x - 3 ကို ရရှိခဲ့ပြီး Sign Change များသာ အသုံးပြု၍ Root တစ်ခုကို တတ်နိုင်သမျှ တိကျစွာ ရှာဖွေခိုင်းခံခဲ့ရသည်။ သူမသည် f(1) = 1 - 1 - 3 = -3, f(2) = 8 - 2 - 3 = 3 ဖြင့် စတင်ခဲ့သည်။ \"Negative ပြီးရင် Positive\" ဟု သူမ ဆိုခဲ့သည်, \"ဒါဆို Root တစ်ခုသည် 1 နှင့် 2 ကြား တစ်နေရာမှာ ရှိတယ်။\"\n\nကျဉ်းသွင်းရန် ဆရာဇော်မင်းသည် Midpoint ကို Test လုပ်ရန် အကြံပြုခဲ့သည်။ Su Su သည် f(1.5) = 3.375 - 1.5 - 3 = -1.125 ကို တွက်ချက်ခဲ့သည် -- ဆက်လက် Negative ဖြစ်နေသေးသည်။ \"ဒါဆို Sign Change က ယခု 1.5 နှင့် 2 ကြားမှာ ဖြစ်နေတယ်, [1, 2] Interval တစ်ခုလုံး မဟုတ်တော့ဘူး\" ဟု သူမ ဆိုကာ Sign တူညီသော Endpoint နှစ်ခုပါသော ဘယ်ဘက်ခြမ်းကို ပယ်ချခဲ့သည်။\n\nသူမ ထပ်မံ Test လုပ်ခဲ့သည်, ဒီတစ်ကြိမ် f(1.7) = 4.913 - 1.7 - 3 = 0.213 -- Positive ဖြစ်သည်။ \"ဒါဆို Root က 1.5 နှင့် 1.7 ကြားမှာ ရှိတယ်\" ဟု သူမ နိဂုံးချုပ်ခဲ့သည်, \"လိုအပ်သလို Decimal Place အတိကျ ရအောင် Midpoint များကို ဆက်တိုက် Test လုပ်ပြီး ပိုပိုကျဉ်းလာအောင် လုပ်နိုင်တယ်။\" ဆရာဇော်မင်း ခေါင်းညိတ်ခဲ့သည် - \"ဒါက Numerical Method များ၏ အဓိက Idea ပါပဲ -- အတိအကျ အဖြေကို ရှားရှားပါးပါးသာ တွေ့ရပေမယ့် လိုချင်သလောက် သေးငယ်သော Interval ထဲမှာ ချုပ်ကိုင်ထားနိုင်တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what are the signs of f(1) and f(2)?",
+            questionMy: "f(1) နှင့် f(2) ၏ Sign များကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "f(1) is negative, f(2) is positive",
+              "f(1) is positive, f(2) is negative",
+              "Both are negative",
+              "Both are positive",
+            ],
+            optionsMy: [
+              "f(1) သည် Negative, f(2) သည် Positive",
+              "f(1) သည် Positive, f(2) သည် Negative",
+              "နှစ်ခုစလုံး Negative",
+              "နှစ်ခုစလုံး Positive",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is the value of f(1.5)?",
+            questionMy: "f(1.5) ၏ တန်ဖိုးကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["-1.125 (negative)", "1.125 (positive)", "0 (a root)", "3.375 (positive)"],
+            optionsMy: ["-1.125 (Negative)", "1.125 (Positive)", "0 (Root)", "3.375 (Positive)"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, after testing f(1.5) and f(1.7), the narrowed interval containing the root is...",
+            questionMy: "f(1.5) နှင့် f(1.7) Test လုပ်ပြီးနောက် Root ပါသော ကျဉ်းလာသော Interval ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Between 1.5 and 1.7", "Between 1 and 1.5", "Between 1.7 and 2", "Between 1 and 2"],
+            optionsMy: ["1.5 နှင့် 1.7 ကြား", "1 နှင့် 1.5 ကြား", "1.7 နှင့် 2 ကြား", "1 နှင့် 2 ကြား"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Locating Roots by Sign Change",
+      titleMy: "ဒသနှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Sign Change ဖြင့် Root ရှာဖွေခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The sign-change method requires...",
+          questionMy: "Sign-Change Method တွင် ...လိုအပ်သည်",
+          optionsEn: [
+            "f(a) and f(b) to have opposite signs",
+            "f(a) and f(b) to be equal",
+            "f(a) and f(b) to both be positive",
+            "f(a) to equal zero",
+          ],
+          optionsMy: [
+            "f(a) နှင့် f(b) တို့တွင် Sign ဆန့်ကျင်ဖက် ရှိရန်",
+            "f(a) နှင့် f(b) တူညီရန်",
+            "f(a) နှင့် f(b) နှစ်ခုစလုံး Positive ဖြစ်ရန်",
+            "f(a) သည် Zero ဖြစ်ရန်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "If f(a) × f(b) < 0, then...",
+          questionMy: "f(a) × f(b) < 0 ဖြစ်ပါက...",
+          optionsEn: [
+            "A root lies between a and b",
+            "There is no root between a and b",
+            "a and b are both roots",
+            "f(a) = f(b)",
+          ],
+          optionsMy: [
+            "Root တစ်ခုသည် a နှင့် b ကြားတွင် ရှိသည်",
+            "a နှင့် b ကြားတွင် Root မရှိပါ",
+            "a နှင့် b နှစ်ခုစလုံး Root ဖြစ်သည်",
+            "f(a) = f(b) ဖြစ်သည်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Testing the midpoint of an interval helps...",
+          questionMy: "Interval တစ်ခု၏ Midpoint ကို Test ပြုလုပ်ခြင်းသည် ...ကူညီသည်",
+          optionsEn: [
+            "Narrow the interval containing the root",
+            "Prove there is no root",
+            "Find the exact root immediately",
+            "Widen the search interval",
+          ],
+          optionsMy: [
+            "Root ပါသော Interval ကို ကျဉ်းစေရန်",
+            "Root မရှိကြောင်း သက်သေပြရန်",
+            "အတိအကျ Root ကို ချက်ချင်း ရှာတွေ့ရန်",
+            "ရှာဖွေရေး Interval ကို ကျယ်စေရန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Iterative Methods"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek22 = CourseWeekDef(
+  id: "course-y13-math-w22",
+  weekNumber: 22,
+  titleEn: "Iterative Methods",
+  titleMy: "Iterative Method များ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w22-d1",
+      dayNumber: 1,
+      titleEn: "The Iteration xₙ₊₁ = g(xₙ)",
+      titleMy: "Iteration xₙ₊₁ = g(xₙ)",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Rearranging f(x) = x³ - x - 3 = 0 gives x = (x + 3)^(1/3). Using x₀ = 1.5, find x₁ to 4 decimal places.",
+          questionMy:
+              "f(x) = x³ - x - 3 = 0 ကို ပြန်စီစဉ်ပါက x = (x + 3)^(1/3) ရသည်။ x₀ = 1.5 ကို အသုံးပြု၍ x₁ ကို ဒသမ 4 နေရာအထိ ရှာပါ။",
+          optionsEn: ["x₁ ≈ 1.6510", "x₁ ≈ 1.5000", "x₁ ≈ 1.7000", "x₁ ≈ 4.5000"],
+          optionsMy: ["x₁ ≈ 1.6510", "x₁ ≈ 1.5000", "x₁ ≈ 1.7000", "x₁ ≈ 4.5000"],
+          correctIndex: 0,
+          hintsEn: [
+            "x₁ = g(x₀) = (1.5 + 3)^(1/3) = 4.5^(1/3) ≈ 1.6510.",
+          ],
+          hintsMy: [
+            "x₁ = g(x₀) = (1.5 + 3)^(1/3) = 4.5^(1/3) ≈ 1.6510 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "In the iteration xₙ₊₁ = g(xₙ), what does convergence mean?",
+          questionMy: "Iteration xₙ₊₁ = g(xₙ) တွင် Convergence ဆိုသည်မှာ မည်သို့ ဆိုလိုသနည်း။",
+          optionsEn: [
+            "The sequence of x values approaches a fixed limit (the root) as n increases",
+            "The sequence of x values grows without bound",
+            "The sequence stays exactly the same every step",
+            "The sequence alternates randomly forever",
+          ],
+          optionsMy: [
+            "n တိုးလာသည်နှင့်အမျှ x တန်ဖိုးအစီအစဉ်သည် Fixed Limit (Root) ဆီသို့ ကပ်လာခြင်း",
+            "x တန်ဖိုးအစီအစဉ်သည် အကန့်အသတ်မရှိ ကြီးလာခြင်း",
+            "အစီအစဉ်သည် အဆင့်တိုင်းတွင် အတိအကျတူညီနေခြင်း",
+            "အစီအစဉ်သည် ကျပန်း အမြဲ ပြောင်းလဲနေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A convergent sequence settles down, getting closer and closer to a single value -- the root -- with each iteration.",
+          ],
+          hintsMy: [
+            "Convergent Sequence သည် Iteration တစ်ခုစီနှင့်အတူ တန်ဖိုးတစ်ခုတည်း -- Root -- ဆီသို့ ပိုနီးလာပြီး တည်ငြိမ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Which diagram shows the iteration values alternating above and below the root as they converge?",
+          questionMy:
+              "Iteration Value များ Converge ဖြစ်စဉ် Root အထက်အောက် အလှည့်ကျ ပြောင်းလဲနေသည်ကို မည်သည့် Diagram က ပြသနည်း။",
+          optionsEn: ["Cobweb diagram", "Staircase diagram", "Bar chart", "Pie chart"],
+          optionsMy: ["Cobweb Diagram", "Staircase Diagram", "Bar Chart", "Pie Chart"],
+          correctIndex: 0,
+          hintsEn: [
+            "A cobweb diagram spirals around the root, alternating sides, while a staircase diagram approaches steadily from one side only.",
+          ],
+          hintsMy: [
+            "Cobweb Diagram သည် Root ပတ်လည် အလှည့်ကျ ဘေးပြောင်းကာ Spiral ဖြစ်နေပြီး Staircase Diagram ကတော့ ဘက်တစ်ဘက်တည်းမှသာ တည်တည်ငြိမ်ငြိမ် ကပ်လာသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Iterative Methods Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Iterative Method ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w22-dm-1",
+          termEn: "xₙ₊₁ = g(xₙ)",
+          termMy: "xₙ₊₁ = g(xₙ)",
+          matchEn: "An iterative formula generating a sequence of approximations",
+          matchMy: "ခန့်မှန်းချက် Sequence တစ်ခု ထုတ်ပေးသော Iterative Formula",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w22-dm-2",
+          termEn: "Fixed point",
+          termMy: "Fixed Point",
+          matchEn: "A value x where x = g(x), i.e. the root of the rearranged equation",
+          matchMy: "x = g(x) ဖြစ်စေသော x တန်ဖိုး, ပြန်စီစဉ်ထားသော Equation ၏ Root",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w22-dm-3",
+          termEn: "Staircase diagram",
+          termMy: "Staircase Diagram",
+          matchEn: "Iteration values approach the root steadily from one side",
+          matchMy: "Iteration Value များသည် Root ဆီသို့ ဘက်တစ်ဘက်တည်းမှ တည်တည်ငြိမ်ငြိမ် ကပ်လာသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w22-dm-4",
+          termEn: "Cobweb diagram",
+          termMy: "Cobweb Diagram",
+          matchEn: "Iteration values spiral around the root, alternating sides",
+          matchMy: "Iteration Value များသည် Root ပတ်လည် အလှည့်ကျ ဘေးပြောင်းကာ Spiral ဖြစ်သည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w22-dm-5",
+          termEn: "Convergence",
+          termMy: "Convergence",
+          matchEn: "The sequence x₀, x₁, x₂, ... approaches the root",
+          matchMy: "Sequence x₀, x₁, x₂, ... သည် Root ဆီသို့ ကပ်လာခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Converges or Diverges?",
+      titleMy: "စီစစ်ကြမည် - Converges ဒါမှမဟုတ် Diverges",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Converges to the root", "Diverges away from the root"],
+        bucketsMy: ["Root ဆီသို့ Converges ဖြစ်သည်", "Root မှ Diverges ဝေးသွားသည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w22-sort-1",
+            labelEn: "x₀=1.5, x₁=1.651, x₂=1.669, x₃=1.671 (differences shrinking)",
+            labelMy: "x₀=1.5, x₁=1.651, x₂=1.669, x₃=1.671 (ကွာခြားချက်များ ကျုံ့လာသည်)",
+            correctBucketEn: "Converges to the root",
+            correctBucketMy: "Root ဆီသို့ Converges ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w22-sort-2",
+            labelEn: "x₀=1.5, x₁=0.375, x₂=-2.947, x₃=-28.6 (values growing wildly)",
+            labelMy: "x₀=1.5, x₁=0.375, x₂=-2.947, x₃=-28.6 (တန်ဖိုးများ ရမ်းသန်းကြီးလာသည်)",
+            correctBucketEn: "Diverges away from the root",
+            correctBucketMy: "Root မှ Diverges ဝေးသွားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w22-sort-3",
+            labelEn: "x₀=2, x₁=1.710, x₂=1.680, x₃=1.673 (getting closer to a fixed value)",
+            labelMy: "x₀=2, x₁=1.710, x₂=1.680, x₃=1.673 (Fixed Value တစ်ခုဆီသို့ ပိုနီးလာသည်)",
+            correctBucketEn: "Converges to the root",
+            correctBucketMy: "Root ဆီသို့ Converges ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w22-sort-4",
+            labelEn: "x₀=1, x₁=5, x₂=48, x₃=3000 (values exploding)",
+            labelMy: "x₀=1, x₁=5, x₂=48, x₃=3000 (တန်ဖိုးများ ပေါက်ကွဲသွားသည်)",
+            correctBucketEn: "Diverges away from the root",
+            correctBucketMy: "Root မှ Diverges ဝေးသွားသည်",
+          ),
+          SortingItem(
+            id: "y13math-w22-sort-5",
+            labelEn: "Successive values differ by less and less each time",
+            labelMy: "အဆက်တိုက် တန်ဖိုးများသည် အကြိမ်တိုင်း ကွာခြားချက် လျော့ကျလာသည်",
+            correctBucketEn: "Converges to the root",
+            correctBucketMy: "Root ဆီသို့ Converges ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Iterating Toward a Root",
+      titleMy: "စာဖတ်ခြင်း - Root ဆီသို့ Iterate ပြုလုပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Iterating Toward a Root",
+        titleMy: "Root ဆီသို့ Iterate ပြုလုပ်ခြင်း",
+        passageEn:
+            "\"Last week you trapped a root of f(x) = x³ - x - 3 between 1.5 and 1.7 using sign changes,\" Sayar Zaw Min told Htet Aung. \"Now let's find it a different way -- rearrange f(x) = 0 into x = (x + 3)^(1/3), and iterate.\"\n\nHtet Aung started with x₀ = 1.5, the same value Su Su had used before. Applying the formula, x₁ = (1.5 + 3)^(1/3) = 4.5^(1/3) ≈ 1.6510. Feeding that back in, x₂ = (1.6510 + 3)^(1/3) ≈ 1.6685. \"Each answer feeds into the next,\" he said, watching the values creep closer together with every step.\n\nHe continued a few more rounds, watching the sequence settle down toward approximately 1.6717, matching the interval [1.5, 1.7] found last week by sign changes. \"So sign changes and iteration both found the same root, just by completely different routes,\" Htet Aung observed. Sayar Zaw Min agreed: \"And that's a useful check in itself -- when two independent methods agree, you can trust the answer.\"",
+        passageMy:
+            "\"ပြီးခဲ့တဲ့ အပတ်က f(x) = x³ - x - 3 ၏ Root ကို Sign Change များဖြင့် 1.5 နှင့် 1.7 ကြားမှာ ချုပ်ကိုင်ခဲ့တယ်\" ဟု ဆရာဇော်မင်းသည် Htet Aung အား ပြောခဲ့သည်။ \"အခု နည်းလမ်းတစ်ခုခြားနားစွာ ရှာကြည့်ရအောင် -- f(x) = 0 ကို x = (x + 3)^(1/3) အဖြစ် ပြန်စီစဉ်ပြီး Iterate ပြုလုပ်ကြည့်ပါ။\"\n\nHtet Aung သည် Su Su အသုံးပြုခဲ့သော တန်ဖိုးတူညီသော x₀ = 1.5 နှင့် စတင်ခဲ့သည်။ Formula ကို အသုံးပြု၍ x₁ = (1.5 + 3)^(1/3) = 4.5^(1/3) ≈ 1.6510 ရသည်။ ၎င်းကို ပြန်ထည့်လိုက်ပါက x₂ = (1.6510 + 3)^(1/3) ≈ 1.6685 ရသည်။ \"အဖြေတစ်ခုစီက နောက်တစ်ခုထဲ ပြန်ဝင်တယ်\" ဟု သူဆိုကာ တန်ဖိုးများ အဆင့်တိုင်းတွင် ပိုနီးကပ်လာသည်ကို ကြည့်ခဲ့သည်။\n\nသူသည် နောက်ထပ် အနည်းငယ် ဆက်လက်ပြုလုပ်ခဲ့ပြီး Sequence သည် ခန့်မှန်းခြေ 1.6717 ဆီသို့ တည်ငြိမ်သွားသည်ကို တွေ့ခဲ့သည်, ပြီးခဲ့တဲ့ အပတ်က Sign Change များဖြင့် ရှာတွေ့ခဲ့သော [1.5, 1.7] Interval နှင့် ကိုက်ညီသည်။ \"ဒါဆို Sign Change နှင့် Iteration နှစ်ခုစလုံးက Root တူတူကို လုံးဝ မတူညီသော ခရီးလမ်းနှစ်ခုမှတဆင့် ရှာတွေ့ကြတယ်\" ဟု Htet Aung သတိပြုမိခဲ့သည်။ ဆရာဇော်မင်း သဘောတူခဲ့သည် - \"အဲဒါ ကိုယ်တိုင်ကလည်း အသုံးဝင်သော Check တစ်ခုပါပဲ -- သီးခြား Method နှစ်ခု သဘောတူညီတဲ့အခါ အဖြေကို ယုံကြည်နိုင်တယ်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what rearrangement was used?",
+            questionMy: "မည်သည့် Rearrangement ကို အသုံးပြုသည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["x = (x + 3)^(1/3)", "x = x³ - 3", "x = 3 - x³", "x = x/3"],
+            optionsMy: ["x = (x + 3)^(1/3)", "x = x³ - 3", "x = 3 - x³", "x = x/3"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is x₁?",
+            questionMy: "x₁ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 1.6510", "≈ 1.5000", "≈ 1.6685", "≈ 4.5000"],
+            optionsMy: ["≈ 1.6510", "≈ 1.5000", "≈ 1.6685", "≈ 4.5000"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what happens to the successive iterations?",
+            questionMy: "အဆက်တိုက် Iteration များတွင် မည်သို့ ဖြစ်သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They converge toward the root, approximately 1.6717",
+              "They grow without bound",
+              "They stay exactly at 1.5",
+              "They oscillate wildly forever",
+            ],
+            optionsMy: [
+              "ခန့်မှန်းခြေ 1.6717 Root ဆီသို့ Converge ဖြစ်သည်",
+              "အကန့်အသတ်မရှိ ကြီးလာသည်",
+              "1.5 တွင်ပင် အတိအကျ ရှိနေသည်",
+              "အမြဲ ရမ်းသန်း တုန်ခါနေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Iterative Methods",
+      titleMy: "ဒသနှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Iterative Method များ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "xₙ₊₁ = g(xₙ) generates...",
+          questionMy: "xₙ₊₁ = g(xₙ) သည် ...ထုတ်ပေးသည်",
+          optionsEn: [
+            "A sequence of approximations to a root",
+            "A single exact root immediately",
+            "A random sequence of numbers",
+            "The derivative of f(x)",
+          ],
+          optionsMy: [
+            "Root အတွက် ခန့်မှန်းချက် Sequence တစ်ခု",
+            "အတိအကျ Root တစ်ခုကို ချက်ချင်း",
+            "ကျပန်း နံပါတ် Sequence တစ်ခု",
+            "f(x) ၏ Derivative",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Convergence means...",
+          questionMy: "Convergence ဆိုသည်မှာ...",
+          optionsEn: [
+            "The sequence approaches a fixed value (the root)",
+            "The sequence grows forever",
+            "The sequence stays constant from the start",
+            "The sequence has no pattern",
+          ],
+          optionsMy: [
+            "Sequence သည် Fixed Value (Root) ဆီသို့ ကပ်လာခြင်း",
+            "Sequence သည် ထာဝရ ကြီးလာခြင်း",
+            "Sequence သည် အစကတည်းက Constant ဖြစ်နေခြင်း",
+            "Sequence တွင် Pattern လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A cobweb diagram shows iteration values...",
+          questionMy: "Cobweb Diagram တွင် Iteration Value များသည်...",
+          optionsEn: [
+            "Alternating above and below the root",
+            "Increasing forever in one direction",
+            "Staying on one side of the root only",
+            "Never changing",
+          ],
+          optionsMy: [
+            "Root အထက်အောက် အလှည့်ကျ ရှိသည်",
+            "ဘက်တစ်ဘက်တည်းသို့ ထာဝရ တိုးလာသည်",
+            "Root ၏ ဘက်တစ်ဘက်တည်းတွင်သာ ရှိသည်",
+            "ဘယ်တော့မှ ပြောင်းလဲခြင်း မရှိပါ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "The Newton-Raphson Method"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek23 = CourseWeekDef(
+  id: "course-y13-math-w23",
+  weekNumber: 23,
+  titleEn: "The Newton-Raphson Method",
+  titleMy: "Newton-Raphson Method",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w23-d1",
+      dayNumber: 1,
+      titleEn: "Applying the Newton-Raphson Formula",
+      titleMy: "Newton-Raphson Formula အသုံးပြုခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Using Newton-Raphson with f(x) = x³ - x - 3, f'(x) = 3x² - 1, and x₀ = 2, find x₁.",
+          questionMy:
+              "f(x) = x³ - x - 3, f'(x) = 3x² - 1, x₀ = 2 ဖြင့် Newton-Raphson သုံး၍ x₁ ကို ရှာပါ။",
+          optionsEn: ["x₁ ≈ 1.7273", "x₁ ≈ 2.0000", "x₁ ≈ 1.5000", "x₁ ≈ 0.2727"],
+          optionsMy: ["x₁ ≈ 1.7273", "x₁ ≈ 2.0000", "x₁ ≈ 1.5000", "x₁ ≈ 0.2727"],
+          correctIndex: 0,
+          hintsEn: [
+            "f(2) = 8 - 2 - 3 = 3, f'(2) = 12 - 1 = 11. x₁ = x₀ - f(x₀)/f'(x₀) = 2 - 3/11 ≈ 1.7273.",
+          ],
+          hintsMy: [
+            "f(2) = 8 - 2 - 3 = 3, f'(2) = 12 - 1 = 11 ။ x₁ = x₀ - f(x₀)/f'(x₀) = 2 - 3/11 ≈ 1.7273 ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "The Newton-Raphson formula is...",
+          questionMy: "Newton-Raphson Formula မှာ...",
+          optionsEn: [
+            "xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)",
+            "xₙ₊₁ = xₙ + f(xₙ)/f'(xₙ)",
+            "xₙ₊₁ = xₙ × f(xₙ)",
+            "xₙ₊₁ = f(xₙ)/xₙ",
+          ],
+          optionsMy: [
+            "xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)",
+            "xₙ₊₁ = xₙ + f(xₙ)/f'(xₙ)",
+            "xₙ₊₁ = xₙ × f(xₙ)",
+            "xₙ₊₁ = f(xₙ)/xₙ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Each step subtracts the ratio of the function value to its derivative from the current approximation.",
+          ],
+          hintsMy: [
+            "အဆင့်တစ်ခုစီတွင် Function ၏ တန်ဖိုးနှင့် ၎င်း၏ Derivative ၏ အချိုးကို လက်ရှိ ခန့်မှန်းချက်မှ နုတ်ပါသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "Newton-Raphson fails or converges slowly when...",
+          questionMy: "Newton-Raphson သည် ...တွင် ကျရှုံးခြင်း ဒါမှမဟုတ် နှေးကွေးစွာ Converge ဖြစ်တတ်သည်",
+          optionsEn: [
+            "f'(xₙ) is close to zero",
+            "f(xₙ) is exactly zero",
+            "xₙ is very close to the root",
+            "f'(xₙ) is very large",
+          ],
+          optionsMy: [
+            "f'(xₙ) သည် Zero နှင့် နီးစပ်သောအခါ",
+            "f(xₙ) သည် Zero အတိအကျ ဖြစ်သောအခါ",
+            "xₙ သည် Root နှင့် အလွန် နီးစပ်သောအခါ",
+            "f'(xₙ) သည် အလွန် ကြီးမားသောအခါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The formula divides by f'(xₙ) -- a near-zero gradient makes that division blow up, sending xₙ₊₁ far off track.",
+          ],
+          hintsMy: [
+            "Formula သည် f'(xₙ) ဖြင့် စားသည် -- Zero နှင့် နီးစပ်သော Gradient သည် ထို Division ကို ပေါက်ကွဲစေပြီး xₙ₊₁ ကို လမ်းကြောင်းအပြင်သို့ ဝေးစွာ ပို့သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Newton-Raphson Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Newton-Raphson ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w23-dm-1",
+          termEn: "Newton-Raphson formula",
+          termMy: "Newton-Raphson Formula",
+          matchEn: "xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)",
+          matchMy: "xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w23-dm-2",
+          termEn: "f'(xₙ)",
+          termMy: "f'(xₙ)",
+          matchEn: "The gradient (derivative) at the current approximation",
+          matchMy: "လက်ရှိ ခန့်မှန်းချက်တွင် Gradient (Derivative)",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w23-dm-3",
+          termEn: "Tangent line interpretation",
+          termMy: "Tangent Line ဖော်ညွှန်းချက်",
+          matchEn: "Each step follows the tangent line at xₙ down to the x-axis",
+          matchMy: "အဆင့်တစ်ခုစီသည် xₙ ရှိ Tangent Line ကို လိုက်ပြီး x-Axis သို့ ဆင်းသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w23-dm-4",
+          termEn: "Newton-Raphson converges quickly when",
+          termMy: "Newton-Raphson မြန်ဆန်စွာ Converge ဖြစ်သည့်အခါ",
+          matchEn: "The starting value is close to the root",
+          matchMy: "စတင် တန်ဖိုးသည် Root နှင့် နီးစပ်သောအခါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w23-dm-5",
+          termEn: "Newton-Raphson can fail when",
+          termMy: "Newton-Raphson ကျရှုံးနိုင်သည့်အခါ",
+          matchEn: "f'(xₙ) is close to zero",
+          matchMy: "f'(xₙ) သည် Zero နှင့် နီးစပ်သောအခါ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Good or Risky Starting Point for Newton-Raphson?",
+      titleMy: "စီစစ်ကြမည် - Newton-Raphson အတွက် ကောင်းသော ဒါမှမဟုတ် စွန့်စားရသော စတင်အမှတ်",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Good starting point", "Risky starting point"],
+        bucketsMy: ["ကောင်းသော စတင်အမှတ်", "စွန့်စားရသော စတင်အမှတ်"],
+        items: [
+          SortingItem(
+            id: "y13math-w23-sort-1",
+            labelEn: "x₀ close to the root, with f'(x₀) clearly nonzero",
+            labelMy: "x₀ သည် Root နှင့် နီးစပ်ပြီး f'(x₀) သည် Zero မဟုတ်ကြောင်း ရှင်းလင်းစွာ ရှိသည်",
+            correctBucketEn: "Good starting point",
+            correctBucketMy: "ကောင်းသော စတင်အမှတ်",
+          ),
+          SortingItem(
+            id: "y13math-w23-sort-2",
+            labelEn: "x₀ near a point where f'(x₀) ≈ 0",
+            labelMy: "x₀ သည် f'(x₀) ≈ 0 ဖြစ်သောနေရာနှင့် နီးစပ်သည်",
+            correctBucketEn: "Risky starting point",
+            correctBucketMy: "စွန့်စားရသော စတင်အမှတ်",
+          ),
+          SortingItem(
+            id: "y13math-w23-sort-3",
+            labelEn: "x₀ chosen from a sign-change bracket",
+            labelMy: "x₀ ကို Sign-Change Bracket မှ ရွေးချယ်ထားသည်",
+            correctBucketEn: "Good starting point",
+            correctBucketMy: "ကောင်းသော စတင်အမှတ်",
+          ),
+          SortingItem(
+            id: "y13math-w23-sort-4",
+            labelEn: "x₀ far from the root with a flat gradient",
+            labelMy: "x₀ သည် Root နှင့် ဝေးပြီး Gradient ပြားနေသည်",
+            correctBucketEn: "Risky starting point",
+            correctBucketMy: "စွန့်စားရသော စတင်အမှတ်",
+          ),
+          SortingItem(
+            id: "y13math-w23-sort-5",
+            labelEn: "x₀ = 2 for a root near 1.67, with f'(2) = 11",
+            labelMy: "x₀ = 2, Root ခန့်မှန်းခြေ 1.67 နှင့် f'(2) = 11",
+            correctBucketEn: "Good starting point",
+            correctBucketMy: "ကောင်းသော စတင်အမှတ်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Newton-Raphson Versus Simple Iteration",
+      titleMy: "စာဖတ်ခြင်း - Newton-Raphson နှင့် Simple Iteration နှိုင်းယှဉ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Newton-Raphson Versus Simple Iteration",
+        titleMy: "Newton-Raphson နှင့် Simple Iteration နှိုင်းယှဉ်ခြင်း",
+        passageEn:
+            "\"Let's find the same root of f(x) = x³ - x - 3 a third way,\" Sayar Zaw Min told Su Su, \"using Newton-Raphson, starting from x₀ = 2.\" Su Su first found the derivative: f'(x) = 3x² - 1.\n\nShe calculated f(2) = 8 - 2 - 3 = 3 and f'(2) = 12 - 1 = 11, giving x₁ = 2 - 3/11 ≈ 1.7273. Repeating the process, she found f(1.7273) ≈ 0.426 and f'(1.7273) ≈ 7.950, giving x₂ = 1.7273 - 0.426/7.950 ≈ 1.6737 -- already extremely close to the true root of approximately 1.6717.\n\n\"That took only two steps to get very close,\" Su Su noticed, \"but the simple iteration from last week needed several more rounds to reach the same accuracy.\" Sayar Zaw Min explained why: \"Newton-Raphson uses both the function's value and its gradient at each step, which lets it home in on the root much faster than an iteration that only uses g(xₙ). The trade-off is that Newton-Raphson needs f'(x) to exist and be well away from zero -- something a simple iteration never has to worry about.\"",
+        passageMy:
+            "\"f(x) = x³ - x - 3 ၏ Root တူတူကို တတိယအကြိမ် နည်းလမ်းတစ်ခုနှင့် ရှာကြည့်ရအောင်\" ဟု ဆရာဇော်မင်းသည် Su Su အား ပြောခဲ့သည်, \"Newton-Raphson သုံးပြီး x₀ = 2 မှ စတင်ကြည့်ရအောင်။\" Su Su သည် ပထမဆုံး Derivative ကို ရှာတွေ့ခဲ့သည် - f'(x) = 3x² - 1 ။\n\nသူမသည် f(2) = 8 - 2 - 3 = 3, f'(2) = 12 - 1 = 11 ကို တွက်ချက်ခဲ့ပြီး x₁ = 2 - 3/11 ≈ 1.7273 ကို ရရှိခဲ့သည်။ လုပ်ငန်းစဉ်ကို ထပ်လုပ်ကာ f(1.7273) ≈ 0.426, f'(1.7273) ≈ 7.950 ကို ရှာတွေ့ခဲ့ပြီး x₂ = 1.7273 - 0.426/7.950 ≈ 1.6737 ရရှိခဲ့သည် -- ခန့်မှန်းခြေ 1.6717 ဖြစ်သော Root အစစ်နှင့် အလွန် နီးကပ်နေပြီ။\n\n\"ဒါက အလွန် နီးကပ်ဖို့ Step နှစ်ခုပဲ ကြာတယ်\" ဟု Su Su သတိပြုမိခဲ့သည်, \"ဒါပေမဲ့ ပြီးခဲ့တဲ့ အပတ်က Simple Iteration က တူညီသော တိကျမှု ရောက်ဖို့ ထပ်ပြီး Round အများကြီး လိုအပ်ခဲ့တယ်။\" ဆရာဇော်မင်းက အကြောင်းရင်းကို ရှင်းပြခဲ့သည် - \"Newton-Raphson သည် အဆင့်တစ်ခုစီတွင် Function ၏ တန်ဖိုးနှင့် ၎င်း၏ Gradient နှစ်ခုစလုံးကို အသုံးပြုသောကြောင့် g(xₙ) ကိုသာ အသုံးပြုသော Iteration ထက် Root ဆီသို့ ပိုမြန်ဆန်စွာ ရောက်စေသည်။ Trade-Off ကတော့ Newton-Raphson သည် f'(x) ရှိရန်နှင့် Zero နှင့် သိသိသာသာ ဝေးရန် လိုအပ်ခြင်းပါပဲ -- Simple Iteration က ဘယ်တော့မှ စိုးရိမ်စရာ မလိုတဲ့ အချက်ပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn: "According to the passage, what is f'(x) for f(x) = x³ - x - 3?",
+            questionMy: "f(x) = x³ - x - 3 အတွက် f'(x) ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["3x² - 1", "x² - 1", "3x - 1", "3x²"],
+            optionsMy: ["3x² - 1", "x² - 1", "3x - 1", "3x²"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn: "According to the passage, what is x₁?",
+            questionMy: "x₁ ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["≈ 1.7273", "≈ 2.0000", "≈ 1.6737", "≈ 0.2727"],
+            optionsMy: ["≈ 1.7273", "≈ 2.0000", "≈ 1.6737", "≈ 0.2727"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what did Su Su notice compared to the simple iteration?",
+            questionMy: "Simple Iteration နှင့် နှိုင်းယှဉ်ပါက Su Su မည်သို့ သတိပြုမိခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Newton-Raphson converged faster (fewer steps needed)",
+              "Newton-Raphson converged slower",
+              "Both methods needed the same number of steps",
+              "Newton-Raphson never converged at all",
+            ],
+            optionsMy: [
+              "Newton-Raphson သည် ပိုမြန်ဆန်စွာ Converge ဖြစ်ခဲ့သည် (Step နည်းနည်းသာ လိုအပ်)",
+              "Newton-Raphson သည် ပိုနှေးကွေးစွာ Converge ဖြစ်ခဲ့သည်",
+              "Method နှစ်ခုစလုံး Step အရေအတွက် တူညီစွာ လိုအပ်ခဲ့သည်",
+              "Newton-Raphson သည် လုံးဝ Converge မဖြစ်ခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: The Newton-Raphson Method",
+      titleMy: "ဒသနှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Newton-Raphson Method",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The Newton-Raphson formula is...",
+          questionMy: "Newton-Raphson Formula မှာ...",
+          optionsEn: ["xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)", "xₙ₊₁ = f(xₙ)", "xₙ₊₁ = xₙ + f'(xₙ)", "xₙ₊₁ = f'(xₙ)/f(xₙ)"],
+          optionsMy: ["xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ)", "xₙ₊₁ = f(xₙ)", "xₙ₊₁ = xₙ + f'(xₙ)", "xₙ₊₁ = f'(xₙ)/f(xₙ)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Newton-Raphson can fail when...",
+          questionMy: "Newton-Raphson သည် ...တွင် ကျရှုံးနိုင်သည်",
+          optionsEn: ["f'(xₙ) is close to zero", "f(xₙ) is large", "xₙ is an integer", "f(xₙ) is negative"],
+          optionsMy: ["f'(xₙ) သည် Zero နှင့် နီးစပ်သောအခါ", "f(xₙ) သည် ကြီးမားသောအခါ", "xₙ သည် Integer ဖြစ်သောအခါ", "f(xₙ) သည် Negative ဖြစ်သောအခါ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Newton-Raphson follows the ___ line at each point.",
+          questionMy: "Newton-Raphson သည် အမှတ်တစ်ခုစီတွင် ___ Line ကို လိုက်သည်",
+          optionsEn: ["Tangent", "Normal", "Horizontal", "Vertical"],
+          optionsMy: ["Tangent", "Normal", "Horizontal", "Vertical"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24 (Boss Week): "Convergence and Failure of Iterations"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13MathWeek24 = CourseWeekDef(
+  id: "course-y13-math-w24",
+  weekNumber: 24,
+  titleEn: "Convergence and Failure of Iterations",
+  titleMy: "Iteration များ၏ Convergence နှင့် Failure",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-math-w24-d1",
+      dayNumber: 1,
+      titleEn: "When Does an Iteration Converge?",
+      titleMy: "Iteration တစ်ခု ဘယ်အချိန် Converge ဖြစ်သနည်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "An iteration xₙ₊₁ = g(xₙ) converges to the root α if, near α, |g'(x)| is...",
+          questionMy:
+              "Iteration xₙ₊₁ = g(xₙ) သည် α အနီးတွင် |g'(x)| သည် ...ဖြစ်လျှင် Root α ဆီသို့ Converge ဖြစ်သည်",
+          optionsEn: ["Less than 1", "Greater than 1", "Equal to 1", "Equal to 0"],
+          optionsMy: ["1 ထက် နည်းလျှင်", "1 ထက် ကြီးလျှင်", "1 နှင့် ညီလျှင်", "0 နှင့် ညီလျှင်"],
+          correctIndex: 0,
+          hintsEn: [
+            "If |g'(x)| < 1 near the root, each iteration shrinks the error, so the sequence settles down toward the root.",
+          ],
+          hintsMy: [
+            "Root အနီးတွင် |g'(x)| < 1 ဖြစ်ပါက Iteration တစ်ခုစီသည် Error ကို ကျုံ့စေသောကြောင့် Sequence သည် Root ဆီသို့ တည်ငြိမ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "If |g'(x)| > 1 near the root, the iteration...",
+          questionMy: "Root အနီးတွင် |g'(x)| > 1 ဖြစ်ပါက Iteration သည်...",
+          optionsEn: ["Diverges (moves away from the root)", "Converges quickly", "Stays constant", "Always finds the exact root"],
+          optionsMy: ["Diverges (Root မှ ဝေးသွားသည်)", "မြန်ဆန်စွာ Converge ဖြစ်သည်", "Constant တည်နေသည်", "အတိအကျ Root ကို အမြဲ ရှာတွေ့သည်"],
+          correctIndex: 0,
+          hintsEn: [
+            "If |g'(x)| > 1, each iteration magnifies the error instead of shrinking it, pushing the sequence further from the root.",
+          ],
+          hintsMy: [
+            "|g'(x)| > 1 ဖြစ်ပါက Iteration တစ်ခုစီသည် Error ကို ကျုံ့စေမည့်အစား ချဲ့ကားစေသောကြောင့် Sequence ကို Root မှ ပိုဝေးအောင် တွန်းပို့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A sign-change search fails to detect a root when...",
+          questionMy: "Sign-Change Search သည် ...ဖြစ်သောအခါ Root ကို ရှာမတွေ့ပါ",
+          optionsEn: [
+            "The curve touches zero without changing sign (e.g. a repeated root)",
+            "There is exactly one root in the interval",
+            "f(a) and f(b) have opposite signs",
+            "The function is a simple straight line",
+          ],
+          optionsMy: [
+            "Curve သည် Sign မပြောင်းလဲဘဲ Zero ကို ထိသောအခါ (ဥပမာ Repeated Root)",
+            "Interval အတွင်း Root အတိအကျ တစ်ခု ရှိသောအခါ",
+            "f(a) နှင့် f(b) တို့တွင် Sign ဆန့်ကျင်ဖက် ရှိသောအခါ",
+            "Function သည် ရိုးရိုး Straight Line ဖြစ်သောအခါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A repeated root (like a curve that just touches the x-axis and bounces back) produces no sign change, even though f(x) = 0 there.",
+          ],
+          hintsMy: [
+            "Repeated Root တစ်ခု (x-Axis ကို ထိပြီး ပြန်ခုန်တက်သော Curve ကဲ့သို့) သည် f(x) = 0 ရှိပါသော်လည်း Sign Change မဖြစ်ပေါ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Convergence and Failure Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Convergence နှင့် Failure ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13math-w24-dm-1",
+          termEn: "|g'(x)| < 1 near the root",
+          termMy: "Root အနီးတွင် |g'(x)| < 1",
+          matchEn: "The iteration xₙ₊₁ = g(xₙ) converges",
+          matchMy: "Iteration xₙ₊₁ = g(xₙ) သည် Converge ဖြစ်သည်",
+          colorValue: 0xFF3F51B5,
+        ),
+        DragMatchPair(
+          id: "y13math-w24-dm-2",
+          termEn: "|g'(x)| > 1 near the root",
+          termMy: "Root အနီးတွင် |g'(x)| > 1",
+          matchEn: "The iteration xₙ₊₁ = g(xₙ) diverges",
+          matchMy: "Iteration xₙ₊₁ = g(xₙ) သည် Diverge ဖြစ်သည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13math-w24-dm-3",
+          termEn: "Sign-change method fails when",
+          termMy: "Sign-Change Method ကျရှုံးသည့်အခါ",
+          matchEn: "The curve touches the x-axis without crossing it (e.g. a repeated root)",
+          matchMy: "Curve သည် x-Axis ကို မဖြတ်ဘဲ ထိသောအခါ (ဥပမာ Repeated Root)",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13math-w24-dm-4",
+          termEn: "Newton-Raphson fails when",
+          termMy: "Newton-Raphson ကျရှုံးသည့်အခါ",
+          matchEn: "f'(xₙ) is zero or very close to zero",
+          matchMy: "f'(xₙ) သည် Zero (သို့) Zero နှင့် အလွန်နီးစပ်ဖြစ်သည့်အခါ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13math-w24-dm-5",
+          termEn: "Choosing a good rearrangement",
+          termMy: "ကောင်းသော Rearrangement ရွေးချယ်ခြင်း",
+          matchEn: "Essential for a simple iteration to converge",
+          matchMy: "Simple Iteration Converge ဖြစ်ရန် မရှိမဖြစ် လိုအပ်သည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Converges or Diverges/Fails?",
+      titleMy: "စီစစ်ကြမည် - Converges ဒါမှမဟုတ် Diverges/Fails",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Converges", "Diverges/Fails"],
+        bucketsMy: ["Converges ဖြစ်သည်", "Diverges/Fails ဖြစ်သည်"],
+        items: [
+          SortingItem(
+            id: "y13math-w24-sort-1",
+            labelEn: "g'(x) ≈ 0.3 near the root",
+            labelMy: "Root အနီးတွင် g'(x) ≈ 0.3",
+            correctBucketEn: "Converges",
+            correctBucketMy: "Converges ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w24-sort-2",
+            labelEn: "g'(x) ≈ 2.5 near the root",
+            labelMy: "Root အနီးတွင် g'(x) ≈ 2.5",
+            correctBucketEn: "Diverges/Fails",
+            correctBucketMy: "Diverges/Fails ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w24-sort-3",
+            labelEn: "Newton-Raphson with f'(xₙ) far from zero",
+            labelMy: "Newton-Raphson, f'(xₙ) သည် Zero နှင့် ဝေးသည်",
+            correctBucketEn: "Converges",
+            correctBucketMy: "Converges ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w24-sort-4",
+            labelEn: "Newton-Raphson started exactly at a turning point (f'(xₙ) = 0)",
+            labelMy: "Newton-Raphson, Turning Point တွင် အတိအကျ စတင်သည် (f'(xₙ) = 0)",
+            correctBucketEn: "Diverges/Fails",
+            correctBucketMy: "Diverges/Fails ဖြစ်သည်",
+          ),
+          SortingItem(
+            id: "y13math-w24-sort-5",
+            labelEn: "g'(x) ≈ -0.5 near the root (values shrinking each step)",
+            labelMy: "Root အနီးတွင် g'(x) ≈ -0.5 (တန်ဖိုးများ အဆင့်တိုင်း ကျုံ့လာသည်)",
+            correctBucketEn: "Converges",
+            correctBucketMy: "Converges ဖြစ်သည်",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: This Term's Numerical Methods Toolkit Together",
+      titleMy: "စာဖတ်ခြင်း - ဒီ Term ၏ Numerical Method Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "This Term's Numerical Methods Toolkit Together",
+        titleMy: "ဒီ Term ၏ Numerical Method Toolkit အားလုံး ပေါင်းစပ်ခြင်း",
+        passageEn:
+            "For the boss-week capstone, Sayar Zaw Min reviewed the whole term with Htet Aung and Su Su using f(x) = x³ - x - 3 as the running example. \"Three different methods, all found the same root,\" he said. \"Sign changes bracketed it in [1.5, 1.7]. Simple iteration with x = (x + 3)^(1/3) converged steadily toward it. Newton-Raphson reached it in just two steps. Why did the simple iteration actually work?\"\n\nSu Su recalled Week 24's rule: an iteration converges when |g'(x)| < 1 near the root. For g(x) = (x + 3)^(1/3), differentiating gives g'(x) = (1/3)(x + 3)^(-2/3). Evaluating near the root, x + 3 ≈ 4.6717, and (4.6717)^(2/3) ≈ (1.6717)² ≈ 2.7946, so g'(x) ≈ 1/(3 × 2.7946) ≈ 0.119. \"That's well under 1,\" Su Su said, \"so convergence was guaranteed.\"\n\n\"And Newton-Raphson converged even faster,\" Htet Aung added, \"because it uses the actual gradient of f at each step, not just a fixed rearrangement.\" Sayar Zaw Min closed the term: \"That's the real lesson -- sign changes prove a root exists and trap it in an interval, simple iteration turns the equation into a self-correcting loop as long as the gradient condition holds, and Newton-Raphson exploits calculus itself to close in faster still. Three tools, one shared goal: pinning down a root you can't always solve for exactly.\"",
+        passageMy:
+            "Boss-week Capstone အတွက် ဆရာဇော်မင်းသည် Htet Aung နှင့် Su Su နှင့်အတူ f(x) = x³ - x - 3 ကို ဥပမာအဖြစ် သုံး၍ Term တစ်ခုလုံးကို ပြန်လည်သုံးသပ်ခဲ့သည်။ \"Method သီးခြားသုံးမျိုးက Root တူတူကို ရှာတွေ့ကြတယ်\" ဟု သူဆိုခဲ့သည်။ \"Sign Change များက [1.5, 1.7] တွင် ချုပ်ကိုင်ခဲ့တယ်။ x = (x + 3)^(1/3) ဖြင့် Simple Iteration သည် ၎င်းဆီသို့ တည်တည်ငြိမ်ငြိမ် Converge ဖြစ်ခဲ့တယ်။ Newton-Raphson သည် Step နှစ်ခုသာဖြင့် ရောက်ခဲ့တယ်။ Simple Iteration ဘာကြောင့် တကယ် အလုပ်ဖြစ်ခဲ့သနည်း။\"\n\nSu Su သည် Week 24 ၏ Rule ကို ပြန်သတိရခဲ့သည် - Root အနီးတွင် |g'(x)| < 1 ဖြစ်ပါက Iteration သည် Converge ဖြစ်သည်။ g(x) = (x + 3)^(1/3) အတွက် Differentiate ပြုလုပ်ပါက g'(x) = (1/3)(x + 3)^(-2/3) ရသည်။ Root အနီးတွင် x + 3 ≈ 4.6717, (4.6717)^(2/3) ≈ (1.6717)² ≈ 2.7946 ဖြစ်၍ g'(x) ≈ 1/(3 × 2.7946) ≈ 0.119 ရသည်။ \"ဒါက 1 ထက် အများကြီး နည်းတယ်\" ဟု Su Su ဆိုခဲ့သည်, \"ဒါကြောင့် Convergence က အာမခံချက်ရှိတယ်။\"\n\n\"Newton-Raphson ကတော့ ပိုမြန်ဆန်စွာ Converge ဖြစ်ခဲ့တယ်\" ဟု Htet Aung ထပ်ဆင့်ခဲ့သည်, \"အကြောင်းက Fixed Rearrangement တစ်ခုတည်း အစား အဆင့်တစ်ခုစီတွင် f ၏ တကယ့် Gradient ကို အသုံးပြုသောကြောင့်ပါ။\" ဆရာဇော်မင်းသည် Term ကို ပိတ်ခဲ့သည် - \"ဒါက တကယ့် သင်ခန်းစာပါပဲ -- Sign Change များက Root ရှိကြောင်း သက်သေပြပြီး Interval ထဲမှာ ချုပ်ကိုင်ပေးသည်, Simple Iteration က Gradient Condition ပြည့်မီနေသရွေ့ Equation ကို Self-Correcting Loop အဖြစ် ပြောင်းပေးသည်, Newton-Raphson ကတော့ Calculus ကိုယ်တိုင်ကို အသုံးချ၍ ပိုမြန်ဆန်စွာ ချဉ်းကပ်စေသည်။ Tool သုံးမျိုး, ရည်မှန်းချက် တစ်ခုတည်း -- အမြဲတမ်း အတိအကျ မဖြေရှင်းနိုင်သော Root တစ်ခုကို ရှာဖွေတည်ခြားရန်ပါပဲ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the passage, what interval did sign changes bracket the root in?",
+            questionMy: "Sign Change များက Root ကို မည်သည့် Interval တွင် ချုပ်ကိုင်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["[1.5, 1.7]", "[1, 2]", "[1.6, 1.8]", "[2, 3]"],
+            optionsMy: ["[1.5, 1.7]", "[1, 2]", "[1.6, 1.8]", "[2, 3]"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, why did the simple iteration converge?",
+            questionMy: "Simple Iteration ဘာကြောင့် Converge ဖြစ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Because |g'(x)| < 1 near the root",
+              "Because |g'(x)| > 1 near the root",
+              "Because f(x) was linear",
+              "Because x₀ was exactly the root",
+            ],
+            optionsMy: [
+              "Root အနီးတွင် |g'(x)| < 1 ဖြစ်သောကြောင့်",
+              "Root အနီးတွင် |g'(x)| > 1 ဖြစ်သောကြောင့်",
+              "f(x) သည် Linear ဖြစ်သောကြောင့်",
+              "x₀ သည် Root အတိအကျ ဖြစ်သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage, which method converged fastest?",
+            questionMy: "မည်သည့် Method က အမြန်ဆုံး Converge ဖြစ်ခဲ့သည်ကို စာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: ["Newton-Raphson", "Sign-change method", "Simple iteration", "None of them converged"],
+            optionsMy: ["Newton-Raphson", "Sign-Change Method", "Simple Iteration", "မည်သည့်တစ်ခုမှ Converge မဖြစ်ခဲ့ပါ"],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-math-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: Convergence and Failure",
+      titleMy: "ဒသနှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Convergence နှင့် Failure",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "An iteration converges if, near the root, |g'(x)| is...",
+          questionMy: "Root အနီးတွင် |g'(x)| သည် ...ဖြစ်လျှင် Iteration သည် Converge ဖြစ်သည်",
+          optionsEn: ["Less than 1", "Greater than 1", "Exactly 1", "Undefined"],
+          optionsMy: ["1 ထက် နည်းလျှင်", "1 ထက် ကြီးလျှင်", "1 အတိအကျ", "Undefined"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Newton-Raphson uses both f(x) and...",
+          questionMy: "Newton-Raphson သည် f(x) နှင့် ...နှစ်ခုစလုံးကို အသုံးပြုသည်",
+          optionsEn: ["f'(x)", "g(x)", "The root only", "1/f(x)"],
+          optionsMy: ["f'(x)", "g(x)", "Root တစ်ခုတည်း", "1/f(x)"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The sign-change method can miss a root that...",
+          questionMy: "Sign-Change Method သည် ...သော Root ကို လွတ်သွားနိုင်သည်",
+          optionsEn: [
+            "Touches the x-axis without crossing (e.g. a repeated root)",
+            "Has a clear sign change nearby",
+            "Is very far from the interval",
+            "Is a whole number",
+          ],
+          optionsMy: [
+            "x-Axis ကို မဖြတ်ဘဲ ထိသော (ဥပမာ Repeated Root)",
+            "အနီးတွင် ရှင်းလင်းသော Sign Change ရှိသော",
+            "Interval နှင့် အလွန် ဝေးသော",
+            "Whole Number ဖြစ်သော",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13MathematicsTerm6 = CourseTermDef(
+  id: "course-y13-math-t6",
+  termNumber: 6,
+  titleEn: "Numerical Solutions of Equations",
+  titleMy: "Equation များ၏ Numerical Solution",
+  weeks: [_y13MathWeek21, _y13MathWeek22, _y13MathWeek23, _y13MathWeek24],
+  certificateTitleEn: "A2 Mathematics: Numerical Solutions of Equations",
+  certificateTitleMy: "A2 သင်္ချာ - Equation များ၏ Numerical Solution",
+);
