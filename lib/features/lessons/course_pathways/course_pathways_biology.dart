@@ -30086,3 +30086,3881 @@ const CourseTermDef year13BiologyTerm3 = CourseTermDef(
   certificateTitleEn: "A2 Biology: Homeostasis",
   certificateTitleMy: "A2 ဇီဝဗေဒ - Homeostasis",
 );
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 4: "Coordination"
+// (Weeks 13-16)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 13: "The Neurone and the Resting Potential"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek13 = CourseWeekDef(
+  id: "course-y13-bio-w13",
+  weekNumber: 13,
+  titleEn: "The Neurone and the Resting Potential",
+  titleMy: "Neurone နှင့် Resting Potential",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w13-d1",
+      dayNumber: 1,
+      titleEn: "Motor Neurone Structure and the Resting Potential",
+      titleMy: "Motor Neurone ဖွဲ့စည်းပုံနှင့် Resting Potential",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A motor neurone carries nerve impulses from the central nervous system to...",
+          questionMy:
+              "Motor Neurone သည် အာရုံကြောလှုပ်ရှားမှုများကို Central Nervous System မှ ...သို့ သယ်ဆောင်ပေးသည်",
+          optionsEn: [
+            "An effector, such as a muscle or gland",
+            "Another sensory receptor",
+            "The kidney only",
+            "The chloroplast",
+          ],
+          optionsMy: [
+            "ကြွက်သား (သို့) ဂလင်းကဲ့သို့ Effector",
+            "အခြား Sensory Receptor",
+            "ကျောက်ကပ်တစ်ခုတည်း",
+            "Chloroplast",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The long axon of a motor neurone, often wrapped in an insulating myelin sheath, carries the impulse from the cell body all the way to the effector it controls.",
+          ],
+          hintsMy: [
+            "Myelin Sheath ဖြင့် ကာရံလေ့ရှိသော Motor Neurone ၏ Axon ရှည်သည် Impulse ကို Cell Body မှ ၎င်းထိန်းချုပ်သော Effector ဆီသို့ အပြီးအပိုင် သယ်ဆောင်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "At resting potential, the inside of a neurone's axon is...",
+          questionMy: "Resting Potential တွင် Neurone ၏ Axon အတွင်းပိုင်းသည်...",
+          optionsEn: [
+            "Negatively charged relative to the outside, at around -70mV",
+            "Positively charged relative to the outside",
+            "Exactly the same charge as the outside",
+            "Impossible to measure at all",
+          ],
+          optionsMy: [
+            "အပြင်ဘက်နှင့် နှိုင်းယှဉ်ပါက Negative Charge ရှိသည်၊ ခန့်မှန်း -70mV",
+            "အပြင်ဘက်နှင့် နှိုင်းယှဉ်ပါက Positive Charge ရှိသည်",
+            "အပြင်ဘက်နှင့် Charge အတိအကျ တူညီသည်",
+            "လုံးဝ တိုင်းတာ၍ မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This negative resting potential is maintained by the sodium-potassium pump actively transporting Na+ out and K+ in, combined with the membrane's greater permeability to K+.",
+          ],
+          hintsMy: [
+            "ဤ Negative Resting Potential ကို Na+ ကို အပြင်ဘက်သို့၊ K+ ကို အတွင်းသို့ Active Transport ပြုလုပ်ပေးသော Sodium-Potassium Pump နှင့် K+ အတွက် Membrane ၏ Permeability ပိုများခြင်း ပေါင်းစပ်၍ ထိန်းသိမ်းထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The sodium-potassium pump actively transports Na+ and K+ ions in what ratio, using ATP?",
+          questionMy:
+              "Sodium-Potassium Pump သည် ATP ကို အသုံးပြု၍ Na+ နှင့် K+ Ion များကို မည်သည့် အချိုးဖြင့် Active Transport ပြုလုပ်ပေးသနည်း",
+          optionsEn: [
+            "3 Na+ pumped out for every 2 K+ pumped in",
+            "2 Na+ pumped out for every 3 K+ pumped in",
+            "Equal numbers of Na+ and K+ in both directions",
+            "No ATP is used at all",
+          ],
+          optionsMy: [
+            "K+ 2 ခု အတွင်းသို့ ဝင်ရောက်တိုင်း Na+ 3 ခု အပြင်ဘက်သို့ ထုတ်",
+            "K+ 3 ခု အတွင်းသို့ ဝင်ရောက်တိုင်း Na+ 2 ခု အပြင်ဘက်သို့ ထုတ်",
+            "Na+ နှင့် K+ ဦးတည်ချက်နှစ်ဖက်စလုံးတွင် အရေအတွက် တူညီသည်",
+            "ATP လုံးဝ အသုံးမပြုပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This 3-out-2-in imbalance contributes to the net negative charge inside the axon, on top of the membrane's differing permeability to each ion.",
+          ],
+          hintsMy: [
+            "ဤ 3-ထွက်-2-ဝင် မညီမျှမှုသည် Axon အတွင်းပိုင်း၏ Net Negative Charge ကို Membrane ၏ Ion တစ်ခုစီအတွက် Permeability ကွဲပြားမှုအပေါ် ထပ်ဆောင်း ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w13-d2",
+      dayNumber: 2,
+      titleEn: "Match: Neurone Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Neurone ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w13-dm-1",
+          termEn: "Motor neurone",
+          termMy: "Motor Neurone",
+          matchEn: "Carries nerve impulses from the central nervous system to an effector",
+          matchMy: "Central Nervous System မှ Effector ထံသို့ အာရုံကြောလှုပ်ရှားမှုများကို သယ်ဆောင်ပေးသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w13-dm-2",
+          termEn: "Resting potential",
+          termMy: "Resting Potential",
+          matchEn: "The stable negative voltage (around -70mV) across the membrane of an unstimulated neurone",
+          matchMy: "လှုံ့ဆော်ခြင်း မခံရသေးသော Neurone ၏ Membrane တစ်လျှောက် တည်ငြိမ်သော Negative Voltage (ခန့်မှန်း -70mV)",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w13-dm-3",
+          termEn: "Sodium-potassium pump",
+          termMy: "Sodium-Potassium Pump",
+          matchEn: "Actively transports 3 Na+ out and 2 K+ in per cycle, using ATP",
+          matchMy: "ATP ကို အသုံးပြု၍ Cycle တစ်ခုလျှင် Na+ 3 ခု ထုတ်ပြီး K+ 2 ခု သွင်းပေးသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w13-dm-4",
+          termEn: "Axon",
+          termMy: "Axon",
+          matchEn: "The long extension of a neurone that carries an impulse to the effector",
+          matchMy: "Impulse ကို Effector ဆီသို့ သယ်ဆောင်ပေးသော Neurone ၏ ရှည်လျားသော ကိုယ်ထည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w13-dm-5",
+          termEn: "Myelin sheath",
+          termMy: "Myelin Sheath",
+          matchEn: "An insulating layer around some axons that speeds up impulse conduction",
+          matchMy: "Axon အချို့ ပတ်လည်ကို ကာရံပေးပြီး Impulse Conduction ကို မြန်ဆန်စေသော Insulating Layer",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w13-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Resting Potential Mechanism",
+      titleMy: "စီစစ်ကြမည် - Resting Potential Mechanism",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Sodium-Potassium Pump", "Membrane Permeability"],
+        bucketsMy: ["Sodium-Potassium Pump", "Membrane Permeability"],
+        items: [
+          SortingItem(
+            id: "y13bio-w13-sort-1",
+            labelEn: "Actively pumps 3 Na+ out of the axon per cycle",
+            labelMy: "Cycle တစ်ခုလျှင် Na+ 3 ခုကို Axon မှ Active Pump ပြုလုပ်သည်",
+            correctBucketEn: "Sodium-Potassium Pump",
+            correctBucketMy: "Sodium-Potassium Pump",
+          ),
+          SortingItem(
+            id: "y13bio-w13-sort-2",
+            labelEn: "Actively pumps 2 K+ into the axon per cycle",
+            labelMy: "Cycle တစ်ခုလျှင် K+ 2 ခုကို Axon ထဲသို့ Active Pump ပြုလုပ်သည်",
+            correctBucketEn: "Sodium-Potassium Pump",
+            correctBucketMy: "Sodium-Potassium Pump",
+          ),
+          SortingItem(
+            id: "y13bio-w13-sort-3",
+            labelEn: "Uses ATP directly to move ions against their gradient",
+            labelMy: "Ion များကို ၎င်းတို့၏ Gradient ဆန့်ကျင်၍ ရွှေ့ရန် ATP ကို တိုက်ရိုက် အသုံးပြုသည်",
+            correctBucketEn: "Sodium-Potassium Pump",
+            correctBucketMy: "Sodium-Potassium Pump",
+          ),
+          SortingItem(
+            id: "y13bio-w13-sort-4",
+            labelEn: "The axon membrane is more permeable to K+ than to Na+ at rest",
+            labelMy: "Resting အခြေအနေတွင် Axon Membrane သည် Na+ ထက် K+ အတွက် ပို၍ Permeable ဖြစ်သည်",
+            correctBucketEn: "Membrane Permeability",
+            correctBucketMy: "Membrane Permeability",
+          ),
+          SortingItem(
+            id: "y13bio-w13-sort-5",
+            labelEn: "Contributes to the overall negative charge inside the resting axon",
+            labelMy: "Resting Axon အတွင်းပိုင်း၏ စုစုပေါင်း Negative Charge ကို ထောက်ကူပေးသည်",
+            correctBucketEn: "Membrane Permeability",
+            correctBucketMy: "Membrane Permeability",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w13-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Neurone's Quiet Standby Mode",
+      titleMy: "စာဖတ်ခြင်း - Neurone ၏ တိတ်ဆိတ်သော Standby Mode",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Neurone's Quiet Standby Mode",
+        titleMy: "Neurone ၏ တိတ်ဆိတ်သော Standby Mode",
+        passageEn:
+            "Sayar Zaw Min opened Term 4 by pointing out that a neurone is never truly \"off\" -- even when no impulse is travelling along it, the cell is hard at work maintaining a quiet standby state called the resting potential. Htet Aung asked how a cell keeps working when nothing seems to be happening. Sayar Zaw Min's answer was the sodium-potassium pump: an active-transport protein in the axon membrane that continuously pumps three sodium ions out of the cell for every two potassium ions it pumps in, using ATP the whole time it runs.\n\nSu Su worked through why this particular ratio matters. Because more positive ions leave than enter with each cycle of the pump, the pump itself makes the inside of the axon slightly more negative relative to the outside. On top of that, she explained, the axon membrane happens to be far more permeable to potassium than to sodium at rest, so potassium ions leak back out through separate channel proteins faster than sodium ions can leak in, pushing the inside even further negative. The combined effect of the pump and this differential permeability settles the membrane at a stable resting potential of around -70mV.\n\n\"So resting is an active process, not a passive one,\" Sayar Zaw Min concluded. \"The cell is spending ATP continuously just to hold this negative charge in place, the same way you might keep a spring compressed by leaning on it. And that stored, spring-loaded charge is exactly what makes tomorrow's action potential possible -- a sudden, dramatic release of that tension, all at once, along the length of the axon.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Neurone တစ်ခုသည် \"ပိတ်\" ထားခြင်း လုံးဝ မဟုတ်ကြောင်း ထောက်ပြခြင်းဖြင့် Term 4 ကို စတင်ခဲ့သည် -- Impulse တစ်ခုမျှ ၎င်းတလျှောက် မသွားနေချိန်ပင် ဆဲလ်သည် Resting Potential ဟု ခေါ်သော တိတ်ဆိတ် Standby အခြေအနေကို ထိန်းသိမ်းရန် အလုပ်များစွာ လုပ်နေသည်။ ဘာမျှ ဖြစ်နေပုံမပေါ်ချိန်တွင် ဆဲလ်သည် မည်သို့ ဆက်လက် လုပ်ဆောင်နေသည်ကို Htet Aung မေးခဲ့သည်။ ဆရာဇော်မင်း၏ အဖြေမှာ Sodium-Potassium Pump ဖြစ်သည် - Axon Membrane ရှိ Active-Transport Protein တစ်ခုဖြစ်ပြီး ၎င်း၏ လုပ်ဆောင်ချိန်တစ်လျှောက် ATP ကို အသုံးပြုကာ K+ Ion နှစ်ခု ဝင်ရောက်တိုင်း Sodium Ion သုံးခုကို ဆဲလ်မှ ဆက်တိုက် Pump ထုတ်ပေးသည်။\n\nဤသီးခြားအချိုး အရေးကြီးရသည့်အကြောင်းရင်းကို Su Su က ဆက်လက်တွက်ချက်ခဲ့သည်။ Pump ၏ Cycle တစ်ခုစီတွင် Positive Ion ဝင်ရောက်သည်ထက် ထွက်ခွာသည်က ပိုများသောကြောင့် Pump ကိုယ်တိုင်သည် Axon အတွင်းပိုင်းကို အပြင်ဘက်နှင့် နှိုင်းယှဉ်ပါက အနည်းငယ် ပို၍ Negative ဖြစ်စေသည်။ ထို့ပြင် Axon Membrane သည် Resting အခြေအနေတွင် Sodium ထက် Potassium အတွက် များစွာ ပို၍ Permeable ဖြစ်နေသောကြောင့် Potassium Ion များသည် သီးခြား Channel Protein များမှတဆင့် Sodium Ion များ ဝင်ရောက်နိုင်သည်ထက် ပိုမြန်စွာ ပြန်လည် ယိုစိမ့်ထွက်သွားပြီး အတွင်းပိုင်းကို ပို၍ Negative ဖြစ်စေသည်ဟု သူ ရှင်းပြခဲ့သည်။ Pump နှင့် ဤ Differential Permeability ၏ ပေါင်းစပ်ထားသော သက်ရောက်မှုသည် Membrane ကို ခန့်မှန်း -70mV ရှိသော တည်ငြိမ်သော Resting Potential တွင် အနားယူစေသည်။\n\n\"ဒါဆို Resting ဆိုတာက Passive Process မဟုတ်ဘဲ Active Process တစ်ခု ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်း နိဂုံးချုပ်ခဲ့သည်။ \"ဆဲလ်သည် ဤ Negative Charge ကို နေရာတွင် ထိန်းသိမ်းထားရန်အတွက်သာ ATP ကို ဆက်တိုက် အသုံးပြုနေခြင်း ဖြစ်ပြီး Spring တစ်ခုကို ကိုယ်တိုင် စောင်းထား၍ ကျုံ့နေအောင် ထိန်းထားသကဲ့သို့ ဖြစ်သည်။ ထို သိမ်းဆည်းထားသော Spring ကဲ့သို့ Charge သည် မနက်ဖြန် Action Potential ကို ဖြစ်နိုင်စေသည့် အချက် အတိအကျ ဖြစ်သည် -- ထို Tension ကို Axon တစ်လျှောက် ချက်ချင်း တစ်ပြိုင်နက် ပြင်းထန်စွာ ထုတ်လွှတ်ခြင်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to the first paragraph, what does the sodium-potassium pump do with each cycle?",
+            questionMy:
+                "Cycle တစ်ခုစီတွင် Sodium-Potassium Pump အဘယ်ပြုလုပ်သည်ကို ပထမစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Pumps three sodium ions out and two potassium ions in",
+              "Pumps two sodium ions out and three potassium ions in",
+              "Pumps only sodium ions, in both directions",
+              "Uses no ATP at all",
+            ],
+            optionsMy: [
+              "Sodium Ion သုံးခု ထုတ်ပြီး Potassium Ion နှစ်ခု သွင်းသည်",
+              "Sodium Ion နှစ်ခု ထုတ်ပြီး Potassium Ion သုံးခု သွင်းသည်",
+              "Sodium Ion သာ ဦးတည်ချက်နှစ်ဖက်စလုံး Pump ပြုလုပ်သည်",
+              "ATP လုံးဝ မသုံးပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, which ion is the resting axon membrane more permeable to?",
+            questionMy:
+                "Resting Axon Membrane သည် မည်သည့် Ion အတွက် ပို၍ Permeable ဖြစ်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: ["Potassium", "Sodium", "Chloride", "Calcium"],
+            optionsMy: ["Potassium", "Sodium", "Chloride", "Calcium"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's spring analogy, what does resting potential represent?",
+            questionMy:
+                "Resting Potential သည် အဘယ်ကို ကိုယ်စားပြုသည်ကို ဆရာဇော်မင်း ၏ Spring နှိုင်းယှဉ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Stored, spring-loaded charge, actively maintained and ready for release",
+              "A completely passive state needing no energy at all",
+              "A permanent, unchangeable state of the neurone",
+              "The final step of the action potential",
+            ],
+            optionsMy: [
+              "Active ဖြင့် ထိန်းသိမ်းထားပြီး ထုတ်လွှတ်ရန် အသင့်ရှိသော သိမ်းဆည်းထားသော Spring ကဲ့သို့ Charge",
+              "စွမ်းအင် လုံးဝ မလိုအပ်သော Passive အခြေအနေ",
+              "Neurone ၏ ပြောင်းလဲ၍ မရသော အမြဲတမ်း အခြေအနေ",
+              "Action Potential ၏ နောက်ဆုံးအဆင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w13-d5",
+      dayNumber: 5,
+      titleEn: "Week 13 Recap: The Neurone and the Resting Potential",
+      titleMy: "တစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Neurone နှင့် Resting Potential",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A motor neurone carries impulses from the CNS to a...",
+          questionMy: "Motor Neurone သည် Impulse များကို CNS မှ ...ဆီသို့ သယ်ဆောင်ပေးသည်",
+          optionsEn: ["Effector", "Sensory receptor", "Chloroplast", "Nephron"],
+          optionsMy: ["Effector", "Sensory Receptor", "Chloroplast", "Nephron"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "At resting potential, the inside of the axon is around...",
+          questionMy: "Resting Potential တွင် Axon အတွင်းပိုင်းသည် ခန့်မှန်း...",
+          optionsEn: ["-70mV", "+70mV", "0mV", "+40mV"],
+          optionsMy: ["-70mV", "+70mV", "0mV", "+40mV"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The sodium-potassium pump uses...",
+          questionMy: "Sodium-Potassium Pump သည် ...ကို အသုံးပြုသည်",
+          optionsEn: ["ATP", "Glucose directly", "Light energy", "Oxygen only"],
+          optionsMy: ["ATP", "Glucose တိုက်ရိုက်", "အလင်းစွမ်းအင်", "Oxygen သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 14: "The Action Potential"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek14 = CourseWeekDef(
+  id: "course-y13-bio-w14",
+  weekNumber: 14,
+  titleEn: "The Action Potential",
+  titleMy: "Action Potential",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w14-d1",
+      dayNumber: 1,
+      titleEn: "Depolarisation, Repolarisation and Propagation",
+      titleMy: "Depolarisation, Repolarisation နှင့် Propagation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "During depolarisation, a stimulus causes voltage-gated sodium channels to open, and...",
+          questionMy:
+              "Depolarisation အတွင်း Stimulus တစ်ခုသည် Voltage-Gated Sodium Channel များကို ဖွင့်စေပြီး...",
+          optionsEn: [
+            "Na+ ions rush into the axon, making the inside less negative and then positive",
+            "K+ ions rush out of the axon, making the inside more negative",
+            "The membrane becomes completely impermeable to all ions",
+            "The sodium-potassium pump reverses direction permanently",
+          ],
+          optionsMy: [
+            "Na+ Ion များသည် Axon ထဲသို့ လျင်မြန်စွာ ဝင်ရောက်ကာ အတွင်းပိုင်းကို Negative နည်းလာစေပြီး Positive ဖြစ်လာစေသည်",
+            "K+ Ion များသည် Axon မှ လျင်မြန်စွာ ထွက်ခွာကာ အတွင်းပိုင်းကို ပို၍ Negative ဖြစ်စေသည်",
+            "Membrane သည် Ion အားလုံးအတွက် လုံးဝ Impermeable ဖြစ်သွားသည်",
+            "Sodium-Potassium Pump သည် အမြဲတမ်း ဦးတည်ချက် ပြောင်းသွားသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If the stimulus is strong enough to reach threshold, this rapid Na+ influx reverses the membrane potential from around -70mV to around +40mV.",
+          ],
+          hintsMy: [
+            "Stimulus သည် Threshold ရောက်ရန် လုံလောက်စွာ အားကောင်းပါက ဤ Na+ လျင်မြန်စွာ ဝင်ရောက်မှုက Membrane Potential ကို ခန့်မှန်း -70mV မှ ခန့်မှန်း +40mV သို့ ပြောင်းပြန် ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Repolarisation follows depolarisation as voltage-gated sodium channels close and voltage-gated potassium channels open, causing...",
+          questionMy:
+              "Repolarisation သည် Depolarisation ပြီးနောက် ဖြစ်ပွားသည်၊ Voltage-Gated Sodium Channel များ ပိတ်ပြီး Voltage-Gated Potassium Channel များ ဖွင့်လှစ်ကာ...",
+          optionsEn: [
+            "K+ ions to rush out of the axon, returning the membrane potential toward negative",
+            "Na+ ions to rush further into the axon",
+            "The axon membrane to rupture completely",
+            "Glucose to enter the axon",
+          ],
+          optionsMy: [
+            "K+ Ion များသည် Axon မှ လျင်မြန်စွာ ထွက်ခွာကာ Membrane Potential ကို Negative ဆီသို့ ပြန်လည် ခေါ်ဆောင်သည်",
+            "Na+ Ion များသည် Axon ထဲသို့ ပို၍ ဝင်ရောက်သည်",
+            "Axon Membrane သည် လုံးဝ ပေါက်ကွဲသွားသည်",
+            "Glucose သည် Axon ထဲသို့ ဝင်ရောက်သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This outflow of K+ often briefly overshoots resting potential, causing a short period of hyperpolarisation before the resting potential is restored.",
+          ],
+          hintsMy: [
+            "ဤ K+ ထွက်ခွာမှုသည် Resting Potential ကို မကြာခဏ ခေတ္တ ကျော်လွန်သွားစေပြီး Resting Potential ပြန်လည် ရရှိမီ Hyperpolarisation ကာလတိုတစ်ခု ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "During the refractory period immediately after an action potential, the axon...",
+          questionMy:
+              "Action Potential ပြီးနောက် ချက်ချင်း Refractory Period အတွင်း Axon သည်...",
+          optionsEn: [
+            "Cannot generate another action potential (or needs a much stronger stimulus), because sodium channels are temporarily inactivated",
+            "Immediately generates another identical action potential",
+            "Stops using the sodium-potassium pump forever",
+            "Becomes permanently depolarised",
+          ],
+          optionsMy: [
+            "Sodium Channel များ ယာယီ Inactivate ဖြစ်နေသောကြောင့် Action Potential အသစ် (သို့) ပိုအားကောင်းသော Stimulus မရှိလျှင် ဆက်လက် မဖြစ်ပွားနိုင်ပါ",
+            "Action Potential တူညီတစ်ခု ချက်ချင်း ဆက်လက် ဖြစ်ပေါ်စေသည်",
+            "Sodium-Potassium Pump ကို အမြဲတမ်း အသုံးပြုခြင်း ရပ်တန့်သည်",
+            "အမြဲတမ်း Depolarised ဖြစ်နေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The refractory period ensures action potentials only travel in one direction along the axon (away from the point already fired) and limits the maximum frequency of impulses.",
+          ],
+          hintsMy: [
+            "Refractory Period သည် Action Potential များကို Axon တလျှောက် တစ်ဦးတည်းသောဦးတည်ချက်တွင်သာ ခရီးသွားစေရန် (ဖြစ်ပွားပြီးသား အမှတ်မှ ဝေးရာသို့) သေချာစေပြီး Impulse ၏ အမြင့်ဆုံး Frequency ကို ကန့်သတ်ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w14-d2",
+      dayNumber: 2,
+      titleEn: "Match: Action Potential Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Action Potential ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w14-dm-1",
+          termEn: "Depolarisation",
+          termMy: "Depolarisation",
+          matchEn: "Na+ channels open, Na+ rushes in, and the membrane potential becomes positive",
+          matchMy: "Na+ Channel များ ဖွင့်လှစ်ကာ Na+ ဝင်ရောက်ပြီး Membrane Potential Positive ဖြစ်လာသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w14-dm-2",
+          termEn: "Repolarisation",
+          termMy: "Repolarisation",
+          matchEn: "K+ channels open, K+ rushes out, and the membrane potential returns toward negative",
+          matchMy: "K+ Channel များ ဖွင့်လှစ်ကာ K+ ထွက်ခွာပြီး Membrane Potential Negative ဆီသို့ ပြန်လည် ရောက်ရှိသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w14-dm-3",
+          termEn: "Threshold",
+          termMy: "Threshold",
+          matchEn: "The minimum depolarisation needed to trigger a full action potential",
+          matchMy: "Action Potential အပြည့်အဝ ဖြစ်ပေါ်စေရန် လိုအပ်သော အနည်းဆုံး Depolarisation",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w14-dm-4",
+          termEn: "Refractory period",
+          termMy: "Refractory Period",
+          matchEn: "A brief period after an action potential when another cannot easily be triggered",
+          matchMy: "Action Potential ပြီးနောက် အခြားတစ်ခုကို လွယ်ကူစွာ ဖြစ်ပေါ်စေ၍ မရသော ကာလတို",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w14-dm-5",
+          termEn: "Propagation",
+          termMy: "Propagation",
+          matchEn: "The action potential regenerating itself along successive sections of the axon membrane",
+          matchMy: "Action Potential သည် Axon Membrane ၏ ဆက်တိုက် အပိုင်းများတလျှောက် ကိုယ်တိုင် ပြန်လည် ဖြစ်ပေါ်စေခြင်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w14-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Depolarisation or Repolarisation?",
+      titleMy: "စီစစ်ကြမည် - Depolarisation သို့မဟုတ် Repolarisation?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Depolarisation", "Repolarisation"],
+        bucketsMy: ["Depolarisation", "Repolarisation"],
+        items: [
+          SortingItem(
+            id: "y13bio-w14-sort-1",
+            labelEn: "Voltage-gated sodium channels open",
+            labelMy: "Voltage-Gated Sodium Channel များ ဖွင့်လှစ်သည်",
+            correctBucketEn: "Depolarisation",
+            correctBucketMy: "Depolarisation",
+          ),
+          SortingItem(
+            id: "y13bio-w14-sort-2",
+            labelEn: "The membrane potential rises from -70mV toward +40mV",
+            labelMy: "Membrane Potential သည် -70mV မှ +40mV ဆီသို့ မြင့်တက်လာသည်",
+            correctBucketEn: "Depolarisation",
+            correctBucketMy: "Depolarisation",
+          ),
+          SortingItem(
+            id: "y13bio-w14-sort-3",
+            labelEn: "Voltage-gated potassium channels open",
+            labelMy: "Voltage-Gated Potassium Channel များ ဖွင့်လှစ်သည်",
+            correctBucketEn: "Repolarisation",
+            correctBucketMy: "Repolarisation",
+          ),
+          SortingItem(
+            id: "y13bio-w14-sort-4",
+            labelEn: "K+ ions flow out of the axon",
+            labelMy: "K+ Ion များသည် Axon မှ စီးထွက်သည်",
+            correctBucketEn: "Repolarisation",
+            correctBucketMy: "Repolarisation",
+          ),
+          SortingItem(
+            id: "y13bio-w14-sort-5",
+            labelEn: "The membrane potential falls back toward the resting potential",
+            labelMy: "Membrane Potential သည် Resting Potential ဆီသို့ ပြန်လည် ကျဆင်းလာသည်",
+            correctBucketEn: "Repolarisation",
+            correctBucketMy: "Repolarisation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w14-d4",
+      dayNumber: 4,
+      titleEn: "Reading: A Spike on the Oscilloscope",
+      titleMy: "စာဖတ်ခြင်း - Oscilloscope ပေါ်ရှိ Spike",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "A Spike on the Oscilloscope",
+        titleMy: "Oscilloscope ပေါ်ရှိ Spike",
+        passageEn:
+            "Su Su watched the classroom's oscilloscope trace a sharp spike as Sayar Zaw Min applied a simulated stimulus to a model axon, and asked why the trace rose so suddenly rather than climbing gradually. He explained that once a stimulus depolarises the membrane past a critical threshold, voltage-gated sodium channels do not open gradually -- they open essentially all at once, causing a rapid, self-reinforcing flood of Na+ into the axon that drives the membrane potential from about -70mV up to around +40mV in a fraction of a millisecond.\n\nHtet Aung noticed the trace didn't stay at the peak, but fell back down just as sharply -- and even briefly dipped below the original resting line before settling. Sayar Zaw Min confirmed that was repolarisation: the sodium channels close and inactivate almost as quickly as they opened, while voltage-gated potassium channels, slightly slower to respond, now open and let K+ flood back out, pushing the membrane potential back toward negative. Because the potassium channels stay open a little longer than strictly necessary, the membrane briefly overshoots resting potential into hyperpolarisation before settling back to normal.\n\n\"And that overshoot isn't wasted -- it's useful,\" Sayar Zaw Min added. \"Together with the sodium channels' brief inactivation, it creates a refractory period, a short window in which this section of membrane cannot fire again. That refractory period is exactly why an action potential only ever travels forward along the axon, away from where it just fired, rather than doubling back on itself -- and it's also what limits how frequently a neurone can fire action potentials one after another.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Model Axon တစ်ခုကို Simulated Stimulus ပေးသောအခါ Classroom ၏ Oscilloscope သည် ထက်မြက်သော Spike တစ်ခုကို ရေးဆွဲသည်ကို Su Su ကြည့်ရှုနေခဲ့ပြီး Trace သည် တဖြည်းဖြည်း တက်မလာဘဲ ရုတ်တရက် အဘယ်ကြောင့် မြင့်တက်ရသနည်းဟု မေးခဲ့သည်။ Stimulus တစ်ခုသည် Membrane ကို အရေးကြီးသော Threshold ကို ကျော်လွန်စွာ Depolarise ပြုလုပ်ပြီးသည်နှင့် Voltage-Gated Sodium Channel များသည် တဖြည်းဖြည်း မဖွင့်ကြဘဲ -- အခြေခံအားဖြင့် အားလုံး တစ်ပြိုင်နက် ဖွင့်လှစ်ကာ Na+ ကို Axon ထဲသို့ Millisecond ၏ အစိတ်အပိုင်းအတွင်း Membrane Potential ကို -70mV ခန့်မှ +40mV ခန့်သို့ တွန်းတင်ပေးသော လျင်မြန်ပြီး Self-Reinforcing ဖြစ်သော ရေလွှမ်းမှု ဖြစ်ပေါ်စေကြောင်း သူ ရှင်းပြခဲ့သည်။\n\nTrace သည် အထွတ်အထိပ်တွင် ဆက်၍ ရပ်မနေဘဲ ထက်မြက်စွာပင် ပြန်ကျသွားကြောင်း -- ထို့ပြင် မူလ Resting Line အောက်သို့ပင် ခေတ္တ ဆင်းသွားပြီးမှ ပုံမှန်အခြေအနေသို့ ပြန်ရောက်ကြောင်း Htet Aung သတိပြုမိခဲ့သည်။ ၎င်းသည် Repolarisation ဖြစ်ကြောင်း ဆရာဇော်မင်း အတည်ပြုခဲ့သည် - Sodium Channel များသည် ဖွင့်ခဲ့သကဲ့သို့ လုနီးပါး လျင်မြန်စွာ ပိတ်ကာ Inactivate ဖြစ်ပြီး Voltage-Gated Potassium Channel များမှာမူ အနည်းငယ် နှေးကွေးစွာ တုံ့ပြန်ကာ ယခု ဖွင့်လှစ်ကာ K+ ကို ပြန်လည် စီးထွက်စေသည်၊ Membrane Potential ကို Negative ဆီသို့ ပြန်လည် တွန်းတင်ပေးသည်။ Potassium Channel များသည် လိုအပ်သည်ထက် အနည်းငယ် ကြာအောင် ဖွင့်ထားနေသောကြောင့် Membrane သည် ပုံမှန်သို့ ပြန်မတည်ငြိမ်မီ Resting Potential ကို ခေတ္တ ကျော်လွန်ကာ Hyperpolarisation ဖြစ်ပေါ်စေသည်။\n\n\"ထို ကျော်လွန်မှုသည် အလဟဿ မဟုတ်ဘဲ -- အသုံးဝင်ပါသည်\" ဟု ဆရာဇော်မင်း ထပ်ဆင့်ခဲ့သည်။ \"Sodium Channel များ၏ ခေတ္တ Inactivation နှင့်အတူ ၎င်းသည် Refractory Period တစ်ခုကို ဖန်တီးပေးသည်၊ ဤ Membrane အပိုင်းသည် ထပ်မံ မလှုပ်ရှားနိုင်သော ကာလတိုတစ်ခု ဖြစ်သည်။ ထို Refractory Period ကပင် Action Potential တစ်ခုသည် ၎င်း ဖြစ်ပွားခဲ့ပြီးသား နေရာမှ ကိုယ့်ကိုယ်ကို ပြန်လှည့်မည့်အစား Axon တလျှောက် ရှေ့သို့သာ အမြဲ ခရီးသွားရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပြီး Neurone တစ်ခု တစ်ကြောင်းပြီးတစ်ကြောင်း မည်မျှ မကြာခဏ Action Potential ဖြစ်ပေါ်နိုင်သည်ကိုပါ ကန့်သတ်ပေးသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, why does the trace rise so suddenly once threshold is reached?",
+            questionMy:
+                "Threshold ရောက်ရှိပြီးသည်နှင့် Trace ရုတ်တရက် မြင့်တက်ရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Voltage-gated sodium channels open essentially all at once",
+              "The sodium-potassium pump suddenly reverses",
+              "Potassium channels open before sodium channels do",
+              "Glucose floods into the axon",
+            ],
+            optionsMy: [
+              "Voltage-Gated Sodium Channel များသည် အခြေခံအားဖြင့် အားလုံး တစ်ပြိုင်နက် ဖွင့်လှစ်သောကြောင့်",
+              "Sodium-Potassium Pump သည် ရုတ်တရက် ပြောင်းပြန် ဖြစ်သွားသောကြောင့်",
+              "Sodium Channel များ မဖွင့်မီ Potassium Channel များ ဖွင့်သောကြောင့်",
+              "Glucose သည် Axon ထဲသို့ ရေလွှမ်းမိုးသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's observation, what happened briefly after repolarisation?",
+            questionMy:
+                "Repolarisation ပြီးနောက် ခေတ္တ မည်သည်ဖြစ်ခဲ့သည်ကို Htet Aung ၏ တွေ့ရှိချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The membrane briefly dipped below resting potential (hyperpolarisation)",
+              "The membrane stayed permanently depolarised",
+              "Another identical action potential fired immediately",
+              "The axon membrane ruptured",
+            ],
+            optionsMy: [
+              "Membrane သည် Resting Potential အောက်သို့ ခေတ္တ ဆင်းသွားခဲ့သည် (Hyperpolarisation)",
+              "Membrane သည် အမြဲတမ်း Depolarised ဖြစ်နေခဲ့သည်",
+              "Action Potential တူညီတစ်ခု ချက်ချင်း ဆက်လက် ဖြစ်ပေါ်ခဲ့သည်",
+              "Axon Membrane ပေါက်ကွဲသွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does the refractory period ensure about action potentials?",
+            questionMy:
+                "Action Potential များနှင့်ပတ်သက်၍ Refractory Period က မည်သည်ကို သေချာစေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They only travel forward along the axon, not backward",
+              "They travel equally in both directions along the axon",
+              "They never stop once started",
+              "They require no threshold at all",
+            ],
+            optionsMy: [
+              "Axon တလျှောက် ရှေ့သို့သာ ခရီးသွားပြီး နောက်ပြန် မသွားပါ",
+              "Axon တလျှောက် ဦးတည်ချက်နှစ်ဖက်စလုံးသို့ တူညီစွာ ခရီးသွားသည်",
+              "စတင်ပြီးလျှင် ဘယ်တော့မှ မရပ်ပါ",
+              "Threshold လုံးဝ မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w14-d5",
+      dayNumber: 5,
+      titleEn: "Week 14 Recap: The Action Potential",
+      titleMy: "တစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Action Potential",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Depolarisation is caused by...",
+          questionMy: "Depolarisation ကို ...က ဖြစ်ပေါ်စေသည်",
+          optionsEn: [
+            "Na+ channels opening and Na+ flooding in",
+            "K+ channels opening and K+ flooding out",
+            "The sodium-potassium pump alone",
+            "Glucose entering the axon",
+          ],
+          optionsMy: [
+            "Na+ Channel များ ဖွင့်လှစ်ပြီး Na+ ရေလွှမ်းမိုးဝင်ရောက်ခြင်း",
+            "K+ Channel များ ဖွင့်လှစ်ပြီး K+ ရေလွှမ်းမိုးထွက်ခွာခြင်း",
+            "Sodium-Potassium Pump တစ်ခုတည်း",
+            "Glucose Axon ထဲသို့ ဝင်ရောက်ခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Repolarisation is caused by...",
+          questionMy: "Repolarisation ကို ...က ဖြစ်ပေါ်စေသည်",
+          optionsEn: [
+            "K+ channels opening and K+ flooding out",
+            "Na+ channels opening and Na+ flooding in",
+            "Glucose leaving the axon",
+            "Photolysis of water",
+          ],
+          optionsMy: [
+            "K+ Channel များ ဖွင့်လှစ်ပြီး K+ ရေလွှမ်းမိုးထွက်ခွာခြင်း",
+            "Na+ Channel များ ဖွင့်လှစ်ပြီး Na+ ရေလွှမ်းမိုးဝင်ရောက်ခြင်း",
+            "Glucose Axon မှ ထွက်ခွာခြင်း",
+            "ရေ၏ Photolysis",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "During the refractory period, an axon...",
+          questionMy: "Refractory Period အတွင်း Axon သည်...",
+          optionsEn: [
+            "Cannot easily fire another action potential",
+            "Fires action potentials continuously with no limit",
+            "Stops all ion transport permanently",
+            "Becomes a chloroplast",
+          ],
+          optionsMy: [
+            "Action Potential အသစ်ကို လွယ်ကူစွာ မဖြစ်ပေါ်နိုင်ပါ",
+            "ကန့်သတ်မှုမရှိဘဲ Action Potential ဆက်တိုက် ဖြစ်ပေါ်စေသည်",
+            "Ion Transport အားလုံးကို အမြဲတမ်း ရပ်တန့်သည်",
+            "Chloroplast တစ်ခု ဖြစ်လာသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 15: "Synaptic Transmission"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek15 = CourseWeekDef(
+  id: "course-y13-bio-w15",
+  weekNumber: 15,
+  titleEn: "Synaptic Transmission",
+  titleMy: "Synaptic Transmission",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w15-d1",
+      dayNumber: 1,
+      titleEn: "Neurotransmitter Release and Excitatory/Inhibitory Synapses",
+      titleMy: "Neurotransmitter ထုတ်လွှတ်ခြင်းနှင့် Excitatory/Inhibitory Synapse",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "When an action potential arrives at the presynaptic knob, voltage-gated calcium channels open, and the resulting Ca2+ influx triggers...",
+          questionMy:
+              "Action Potential တစ်ခု Presynaptic Knob သို့ ရောက်ရှိသောအခါ Voltage-Gated Calcium Channel များ ဖွင့်လှစ်ပြီး ထွက်ပေါ်လာသော Ca2+ ဝင်ရောက်မှုက...",
+          optionsEn: [
+            "Synaptic vesicles to fuse with the presynaptic membrane and release neurotransmitter by exocytosis",
+            "The postsynaptic membrane to release neurotransmitter",
+            "The action potential to travel backward across the synapse",
+            "Sodium ions to leave the presynaptic knob permanently",
+          ],
+          optionsMy: [
+            "Synaptic Vesicle များသည် Presynaptic Membrane နှင့် ပေါင်းစည်းပြီး Exocytosis ဖြင့် Neurotransmitter ကို ထုတ်လွှတ်ခြင်း",
+            "Postsynaptic Membrane က Neurotransmitter ကို ထုတ်လွှတ်ခြင်း",
+            "Action Potential သည် Synapse ကို ပြန်လှန် ဖြတ်သွားခြင်း",
+            "Sodium Ion များသည် Presynaptic Knob မှ အမြဲတမ်း ထွက်ခွာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Ca2+ triggers vesicles containing neurotransmitter (e.g. acetylcholine) to move to and fuse with the presynaptic membrane, releasing their contents into the synaptic cleft.",
+          ],
+          hintsMy: [
+            "Ca2+ သည် Neurotransmitter (ဥပမာ - Acetylcholine) ပါဝင်သော Vesicle များကို Presynaptic Membrane ဆီသို့ ရွှေ့ပြီး ပေါင်းစည်းစေကာ ၎င်းတို့၏ ပါဝင်ပစ္စည်းများကို Synaptic Cleft ထဲသို့ ထုတ်လွှတ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "After neurotransmitter diffuses across the synaptic cleft and binds to receptors on the postsynaptic membrane, an excitatory synapse...",
+          questionMy:
+              "Neurotransmitter သည် Synaptic Cleft ကို ဖြတ်၍ Diffusion ဖြစ်ပြီး Postsynaptic Membrane ပေါ်ရှိ Receptor များနှင့် ဖွဲ့စည်းပြီးနောက် Excitatory Synapse တစ်ခုသည်...",
+          optionsEn: [
+            "Opens Na+ channels, depolarising the postsynaptic membrane toward threshold",
+            "Opens Cl- channels, making the postsynaptic membrane more negative",
+            "Closes all ion channels permanently",
+            "Has no effect on the postsynaptic membrane at all",
+          ],
+          optionsMy: [
+            "Na+ Channel များ ဖွင့်ပြီး Postsynaptic Membrane ကို Threshold ဆီသို့ Depolarise ပြုလုပ်သည်",
+            "Cl- Channel များ ဖွင့်ပြီး Postsynaptic Membrane ကို ပို၍ Negative ဖြစ်စေသည်",
+            "Ion Channel အားလုံးကို အမြဲတမ်း ပိတ်ပစ်သည်",
+            "Postsynaptic Membrane အပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This local depolarisation is called an excitatory postsynaptic potential (EPSP) -- if enough EPSPs add up to reach threshold, a new action potential is triggered in the postsynaptic neurone.",
+          ],
+          hintsMy: [
+            "ဤ Local Depolarisation ကို Excitatory Postsynaptic Potential (EPSP) ဟု ခေါ်သည် -- EPSP များ လုံလောက်စွာ ပေါင်းစည်းပြီး Threshold ရောက်ပါက Postsynaptic Neurone တွင် Action Potential အသစ် ဖြစ်ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "At an inhibitory synapse, neurotransmitter binding instead tends to...",
+          questionMy: "Inhibitory Synapse တစ်ခုတွင် Neurotransmitter ဖွဲ့စည်းခြင်းက ၎င်းအစား...",
+          optionsEn: [
+            "Open K+ or Cl- channels, hyperpolarising the postsynaptic membrane and making an action potential less likely",
+            "Open Na+ channels, making an action potential more likely",
+            "Destroy the postsynaptic membrane completely",
+            "Have exactly the same effect as an excitatory synapse",
+          ],
+          optionsMy: [
+            "K+ (သို့) Cl- Channel များ ဖွင့်ပြီး Postsynaptic Membrane ကို Hyperpolarise ပြုလုပ်ကာ Action Potential ဖြစ်ပေါ်နိုင်ခြေ လျော့ချသည်",
+            "Na+ Channel များ ဖွင့်ပြီး Action Potential ဖြစ်ပေါ်နိုင်ခြေ တိုးမြှင့်သည်",
+            "Postsynaptic Membrane ကို လုံးဝ ဖျက်ဆီးသည်",
+            "Excitatory Synapse တစ်ခုနှင့် အတိအကျ တူညီသော သက်ရောက်မှု ရှိသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is called an inhibitory postsynaptic potential (IPSP) -- the postsynaptic neurone integrates EPSPs and IPSPs from many synapses at once, and only fires if the net effect reaches threshold.",
+          ],
+          hintsMy: [
+            "ဤသည်ကို Inhibitory Postsynaptic Potential (IPSP) ဟု ခေါ်သည် -- Postsynaptic Neurone သည် Synapse များစွာမှ EPSP နှင့် IPSP များကို တစ်ပြိုင်နက် ပေါင်းစည်းပြီး Net သက်ရောက်မှု Threshold ရောက်မှသာ ဖြစ်ပွားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w15-d2",
+      dayNumber: 2,
+      titleEn: "Match: Synapse Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Synapse ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w15-dm-1",
+          termEn: "Synaptic cleft",
+          termMy: "Synaptic Cleft",
+          matchEn: "The narrow gap between the presynaptic and postsynaptic membranes",
+          matchMy: "Presynaptic နှင့် Postsynaptic Membrane အကြား ကျဉ်းမြောင်းသော ကွက်လပ်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w15-dm-2",
+          termEn: "Neurotransmitter",
+          termMy: "Neurotransmitter",
+          matchEn: "A chemical released from the presynaptic knob that diffuses across the cleft to bind receptors",
+          matchMy: "Presynaptic Knob မှ ထုတ်လွှတ်ပြီး Cleft ကို ဖြတ်၍ Diffusion ဖြစ်ကာ Receptor များနှင့် ဖွဲ့စည်းသော Chemical",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w15-dm-3",
+          termEn: "Exocytosis",
+          termMy: "Exocytosis",
+          matchEn: "Vesicles fusing with the membrane to release their contents outside the cell",
+          matchMy: "Vesicle များသည် Membrane နှင့် ပေါင်းစည်းကာ ၎င်းတို့၏ ပါဝင်ပစ္စည်းများကို ဆဲလ်အပြင်ဘက်သို့ ထုတ်လွှတ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w15-dm-4",
+          termEn: "Excitatory postsynaptic potential (EPSP)",
+          termMy: "Excitatory Postsynaptic Potential (EPSP)",
+          matchEn: "A local depolarisation that makes an action potential more likely",
+          matchMy: "Action Potential ဖြစ်ပေါ်နိုင်ခြေ တိုးမြှင့်ပေးသော Local Depolarisation",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w15-dm-5",
+          termEn: "Inhibitory postsynaptic potential (IPSP)",
+          termMy: "Inhibitory Postsynaptic Potential (IPSP)",
+          matchEn: "A local hyperpolarisation that makes an action potential less likely",
+          matchMy: "Action Potential ဖြစ်ပေါ်နိုင်ခြေ လျော့ချပေးသော Local Hyperpolarisation",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w15-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Excitatory or Inhibitory Synapse?",
+      titleMy: "စီစစ်ကြမည် - Excitatory သို့မဟုတ် Inhibitory Synapse?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Excitatory Synapse", "Inhibitory Synapse"],
+        bucketsMy: ["Excitatory Synapse", "Inhibitory Synapse"],
+        items: [
+          SortingItem(
+            id: "y13bio-w15-sort-1",
+            labelEn: "Opens Na+ channels on the postsynaptic membrane",
+            labelMy: "Postsynaptic Membrane ပေါ်ရှိ Na+ Channel များကို ဖွင့်ပေးသည်",
+            correctBucketEn: "Excitatory Synapse",
+            correctBucketMy: "Excitatory Synapse",
+          ),
+          SortingItem(
+            id: "y13bio-w15-sort-2",
+            labelEn: "Depolarises the postsynaptic membrane toward threshold",
+            labelMy: "Postsynaptic Membrane ကို Threshold ဆီသို့ Depolarise ပြုလုပ်သည်",
+            correctBucketEn: "Excitatory Synapse",
+            correctBucketMy: "Excitatory Synapse",
+          ),
+          SortingItem(
+            id: "y13bio-w15-sort-3",
+            labelEn: "Opens K+ or Cl- channels on the postsynaptic membrane",
+            labelMy: "Postsynaptic Membrane ပေါ်ရှိ K+ (သို့) Cl- Channel များကို ဖွင့်ပေးသည်",
+            correctBucketEn: "Inhibitory Synapse",
+            correctBucketMy: "Inhibitory Synapse",
+          ),
+          SortingItem(
+            id: "y13bio-w15-sort-4",
+            labelEn: "Hyperpolarises the postsynaptic membrane, moving it further from threshold",
+            labelMy: "Postsynaptic Membrane ကို Hyperpolarise ပြုလုပ်ကာ Threshold မှ ပို၍ ဝေးစေသည်",
+            correctBucketEn: "Inhibitory Synapse",
+            correctBucketMy: "Inhibitory Synapse",
+          ),
+          SortingItem(
+            id: "y13bio-w15-sort-5",
+            labelEn: "Makes an action potential in the postsynaptic neurone more likely",
+            labelMy: "Postsynaptic Neurone တွင် Action Potential ဖြစ်ပေါ်နိုင်ခြေ တိုးမြှင့်ပေးသည်",
+            correctBucketEn: "Excitatory Synapse",
+            correctBucketMy: "Excitatory Synapse",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w15-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Gap That Cannot Be Skipped",
+      titleMy: "စာဖတ်ခြင်း - ကျော်၍ မရသော ကွက်လပ်",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Gap That Cannot Be Skipped",
+        titleMy: "ကျော်၍ မရသော ကွက်လပ်",
+        passageEn:
+            "Htet Aung asked Sayar Zaw Min why an action potential simply couldn't jump straight from one neurone to the next, the way it propagated along a single axon in last week's lesson. Sayar Zaw Min pointed out the crucial difference: an axon is one continuous piece of membrane, but two neurones meeting at a synapse are two separate cells, physically separated by the synaptic cleft. An electrical impulse cannot cross that physical gap directly -- it has to be converted into a chemical signal and then back into an electrical one.\n\nSu Su described the chemical crossing step by step: when the action potential reaches the presynaptic knob, voltage-gated calcium channels open, and the resulting Ca2+ influx causes vesicles full of neurotransmitter to fuse with the presynaptic membrane and release their contents by exocytosis. The neurotransmitter molecules diffuse across the narrow cleft in a fraction of a millisecond and bind to specific receptor proteins on the postsynaptic membrane.\n\n\"And here's the part that makes synapses so useful, not just necessary,\" Sayar Zaw Min added. \"Depending on which receptors and channels that neurotransmitter opens, the effect on the postsynaptic membrane can go either way -- an excitatory synapse opens Na+ channels and nudges the membrane toward firing, while an inhibitory synapse opens K+ or Cl- channels and pushes it further away. A single postsynaptic neurone typically receives thousands of synapses at once, some excitatory and some inhibitory, and it is the sum of all those EPSPs and IPSPs together -- not any single synapse alone -- that decides whether that neurone ultimately fires its own action potential. The synapse isn't just a relay point; it's where the nervous system actually does its decision-making.\"",
+        passageMy:
+            "Action Potential တစ်ခုသည် ယခင်အပတ် သင်ခန်းစာတွင် Axon တစ်ခုတည်းအတွင်း Propagation ဖြစ်ခဲ့သကဲ့သို့ Neurone တစ်ခုမှ နောက်တစ်ခုသို့ တိုက်ရိုက် အဘယ်ကြောင့် ခုန်၍ မရသနည်းဟု Htet Aung က ဆရာဇော်မင်းအား မေးခဲ့သည်။ ဆရာဇော်မင်းက အရေးကြီးသော ကွာခြားချက်ကို ထောက်ပြခဲ့သည် - Axon သည် ဆက်စပ်နေသော Membrane တစ်ခုတည်း ဖြစ်သော်လည်း Synapse တစ်ခုတွင် တွေ့ဆုံသော Neurone နှစ်ခုသည် ဆဲလ်နှစ်ခု ဖြစ်ပြီး Synaptic Cleft ဖြင့် ရုပ်ပိုင်းဆိုင်ရာ ခွဲခြားထားသည်။ Electrical Impulse သည် ထို ရုပ်ပိုင်းဆိုင်ရာ ကွက်လပ်ကို တိုက်ရိုက် ဖြတ်ကျော်၍ မရပါ -- ၎င်းကို Chemical Signal အဖြစ် ပြောင်းလဲပြီး ထို့နောက် Electrical Signal အဖြစ် ပြန်လည် ပြောင်းလဲရန် လိုအပ်သည်။\n\nSu Su က Chemical ဖြတ်ကျော်ခြင်း အဆင့်ဆင့်ကို ဖော်ပြခဲ့သည် - Action Potential သည် Presynaptic Knob သို့ ရောက်ရှိသောအခါ Voltage-Gated Calcium Channel များ ဖွင့်လှစ်ပြီး ထွက်ပေါ်လာသော Ca2+ ဝင်ရောက်မှုက Neurotransmitter ပြည့်နှက်နေသော Vesicle များကို Presynaptic Membrane နှင့် ပေါင်းစည်းစေကာ Exocytosis ဖြင့် ၎င်းတို့၏ ပါဝင်ပစ္စည်းများကို ထုတ်လွှတ်ပေးသည်။ Neurotransmitter မော်လီကျူးများသည် Millisecond ၏ အစိတ်အပိုင်းအတွင်း ကျဉ်းမြောင်းသော Cleft ကို ဖြတ်၍ Diffusion ဖြစ်ပြီး Postsynaptic Membrane ပေါ်ရှိ သီးခြား Receptor Protein များနှင့် ဖွဲ့စည်းသည်။\n\n\"ဒီအပိုင်းက Synapse တွေကို လိုအပ်ခြင်းသာ မဟုတ်ဘဲ အလွန် အသုံးဝင်စေတယ်\" ဟု ဆရာဇော်မင်း ထပ်ဆင့်ခဲ့သည်။ \"ထို Neurotransmitter ဖွင့်ပေးသော Receptor နှင့် Channel မည်သည်ဖြစ်သည်ပေါ် မူတည်၍ Postsynaptic Membrane အပေါ် သက်ရောက်မှုသည် ဦးတည်ချက်နှစ်ခု သွားနိုင်သည် -- Excitatory Synapse က Na+ Channel များကို ဖွင့်ပြီး Membrane ကို လှုပ်ရှားမှု (Firing) ဆီသို့ တွန်းအားပေးပြီး Inhibitory Synapse က K+ (သို့) Cl- Channel များကို ဖွင့်ကာ ပို၍ ဝေးအောင် တွန်းအားပေးသည်။ Postsynaptic Neurone တစ်ခုသည် ပုံမှန်အားဖြင့် Synapse ထောင်ပေါင်းများစွာကို တစ်ပြိုင်နက် လက်ခံရရှိပြီး အချို့ Excitatory, အချို့ Inhibitory ဖြစ်ကြသည်၊ Synapse တစ်ခုတည်း၏ သက်ရောက်မှုမဟုတ်ဘဲ ထို EPSP နှင့် IPSP အားလုံး ပေါင်းလိုက်သော စုစုပေါင်းက ထို Neurone သည် နောက်ဆုံးတွင် ၎င်း၏ Action Potential ကိုယ်တိုင် ဖြစ်ပေါ်စေမည်လား ဆုံးဖြတ်ပေးသည်။ Synapse သည် Relay Point တစ်ခုသာ မဟုတ်ဘဲ Nervous System ၏ ဆုံးဖြတ်ချက် ချမှတ်ရာနေရာ အစစ်အမှန် ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, why can't an action potential jump directly across the synaptic cleft?",
+            questionMy:
+                "Action Potential တစ်ခုသည် Synaptic Cleft ကို တိုက်ရိုက် အဘယ်ကြောင့် ခုန်၍ မရသနည်းကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The two neurones are physically separate cells, so an electrical signal must be converted to a chemical one",
+              "There is no cleft between two neurones at all",
+              "Neurotransmitter is not needed at any synapse",
+              "The axon membrane is broken permanently at a synapse",
+            ],
+            optionsMy: [
+              "Neurone နှစ်ခုသည် ရုပ်ပိုင်းဆိုင်ရာ ဆဲလ်ခွဲခြားနေသောကြောင့် Electrical Signal ကို Chemical Signal အဖြစ် ပြောင်းလဲရမည်",
+              "Neurone နှစ်ခုအကြား Cleft လုံးဝ မရှိပါ",
+              "Synapse မည်သည့်တွင်မဆို Neurotransmitter လုံးဝ မလိုအပ်ပါ",
+              "Axon Membrane သည် Synapse တွင် အမြဲတမ်း ပြတ်တောက်နေသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what triggers vesicles to fuse with the presynaptic membrane?",
+            questionMy:
+                "Vesicle များ Presynaptic Membrane နှင့် ပေါင်းစည်းရန် မည်သည်က လှုံ့ဆော်ပေးသည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The influx of Ca2+ through voltage-gated calcium channels",
+              "The influx of glucose",
+              "The efflux of Na+",
+              "The release of ADH",
+            ],
+            optionsMy: [
+              "Voltage-Gated Calcium Channel များမှတဆင့် Ca2+ ဝင်ရောက်မှု",
+              "Glucose ဝင်ရောက်မှု",
+              "Na+ ထွက်ခွာမှု",
+              "ADH ထုတ်လွှတ်ခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what determines whether a postsynaptic neurone fires?",
+            questionMy:
+                "Postsynaptic Neurone ဖြစ်ပွားမည်လားဆိုတာကို မည်သည်က ဆုံးဖြတ်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The sum of all EPSPs and IPSPs it receives at once",
+              "A single excitatory synapse alone, regardless of others",
+              "The colour of the neurotransmitter",
+              "The size of the presynaptic neurone",
+            ],
+            optionsMy: [
+              "တစ်ပြိုင်နက် လက်ခံရရှိသော EPSP နှင့် IPSP အားလုံး၏ စုစုပေါင်း",
+              "အခြားများကို မထည့်သွင်းစဉ်းစားဘဲ Excitatory Synapse တစ်ခုတည်း",
+              "Neurotransmitter ၏ အရောင်",
+              "Presynaptic Neurone ၏ အရွယ်အစား",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w15-d5",
+      dayNumber: 5,
+      titleEn: "Week 15 Recap: Synaptic Transmission",
+      titleMy: "တစ်ဆယ့်ငါးပတ် ပြန်လည်သုံးသပ်ခြင်း - Synaptic Transmission",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Neurotransmitter is released from the presynaptic knob by...",
+          questionMy: "Neurotransmitter ကို Presynaptic Knob မှ ...ဖြင့် ထုတ်လွှတ်သည်",
+          optionsEn: ["Exocytosis", "Endocytosis", "Osmosis", "Diffusion through the membrane directly"],
+          optionsMy: ["Exocytosis", "Endocytosis", "Osmosis", "Membrane တစ်ဆင့် တိုက်ရိုက် Diffusion"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An excitatory synapse typically opens...",
+          questionMy: "Excitatory Synapse တစ်ခုသည် ပုံမှန်အားဖြင့် ...ဖွင့်ပေးသည်",
+          optionsEn: ["Na+ channels", "K+ or Cl- channels", "Calcium channels on the postsynaptic side only", "No channels at all"],
+          optionsMy: ["Na+ Channel", "K+ (သို့) Cl- Channel", "Postsynaptic ဘက်တွင်သာ Calcium Channel", "Channel မည်သည်မျှ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An inhibitory synapse makes an action potential...",
+          questionMy: "Inhibitory Synapse တစ်ခုသည် Action Potential ကို...",
+          optionsEn: ["Less likely", "More likely", "Guaranteed every time", "Irrelevant"],
+          optionsMy: ["ဖြစ်ပေါ်နိုင်ခြေ လျော့ချသည်", "ဖြစ်ပေါ်နိုင်ခြေ တိုးမြှင့်သည်", "အမြဲတမ်း သေချာစေသည်", "မသက်ဆိုင်စေသည်"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 16: "Skeletal Muscle and the Sliding Filament Model" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek16 = CourseWeekDef(
+  id: "course-y13-bio-w16",
+  weekNumber: 16,
+  titleEn: "Skeletal Muscle and the Sliding Filament Model",
+  titleMy: "Skeletal Muscle နှင့် Sliding Filament Model",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w16-d1",
+      dayNumber: 1,
+      titleEn: "Muscle Structure and the Sliding Filament Model",
+      titleMy: "ကြွက်သားဖွဲ့စည်းပုံနှင့် Sliding Filament Model",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A sarcomere, the repeating unit of a myofibril, is made mainly of two protein filaments called...",
+          questionMy:
+              "Myofibril ၏ ထပ်ကာထပ်ကာ ဖြစ်ပေါ်နေသော Unit ဖြစ်သော Sarcomere ကို အဓိကအားဖြင့် ...ဟု ခေါ်သော Protein Filament နှစ်မျိုးမှ ဖွဲ့စည်းသည်",
+          optionsEn: [
+            "Actin (thin) and myosin (thick)",
+            "Collagen and keratin",
+            "Chlorophyll and rubisco",
+            "Amylose and amylopectin",
+          ],
+          optionsMy: [
+            "Actin (ပါးသော) နှင့် Myosin (ထူထဲသော)",
+            "Collagen နှင့် Keratin",
+            "Chlorophyll နှင့် Rubisco",
+            "Amylose နှင့် Amylopectin",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The regular, overlapping arrangement of actin and myosin filaments within each sarcomere is exactly what gives skeletal muscle its striped (striated) appearance under a microscope.",
+          ],
+          hintsMy: [
+            "Sarcomere တစ်ခုစီအတွင်း Actin နှင့် Myosin Filament များ ပုံမှန် ထပ်နေသော စီစဉ်မှုသည် Skeletal Muscle ကို မိုက်ခရိုစကုပ်အောက်တွင် Striped (Striated) ပုံပေါ်စေသော အချက် အတိအကျ ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In the sliding filament model, muscle contraction occurs as myosin heads bind to actin, forming cross-bridges, and...",
+          questionMy:
+              "Sliding Filament Model တွင် Myosin Head များသည် Actin နှင့် ဖွဲ့စည်းကာ Cross-Bridge ဖြစ်ပေါ်စေပြီး ကြွက်သားညှစ်ခြင်းသည်...",
+          optionsEn: [
+            "Pull the actin filaments inward, sliding past the myosin, shortening the sarcomere",
+            "Push the actin filaments outward, lengthening the sarcomere",
+            "Break the actin filaments apart completely",
+            "Convert actin into myosin directly",
+          ],
+          optionsMy: [
+            "Actin Filament များကို အတွင်းသို့ ဆွဲငင်ကာ Myosin ကို ဖြတ်၍ ရွေ့လျားစေကာ Sarcomere ကို တိုစေသည်",
+            "Actin Filament များကို အပြင်ဘက်သို့ တွန်းထုတ်ကာ Sarcomere ကို ရှည်စေသည်",
+            "Actin Filament များကို လုံးဝ ချိုးဖျက်သည်",
+            "Actin ကို Myosin အဖြစ် တိုက်ရိုက် ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Neither filament actually changes length -- they slide past each other, which is exactly why this is called the sliding filament model rather than a contracting filament model.",
+          ],
+          hintsMy: [
+            "Filament နှစ်ခုစလုံး၏ အလျား အမှန်တကယ် မပြောင်းလဲပါ -- ၎င်းတို့ တစ်ခုနှင့်တစ်ခု ဖြတ်၍ ရွေ့လျားကြသည်၊ ထို့ကြောင့်ပင် ၎င်းကို Contracting Filament Model ဟု မခေါ်ဘဲ Sliding Filament Model ဟု ခေါ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Calcium ions released from the sarcoplasmic reticulum bind to troponin, causing tropomyosin to move and...",
+          questionMy:
+              "Sarcoplasmic Reticulum မှ ထုတ်လွှတ်သော Calcium Ion များသည် Troponin နှင့် ဖွဲ့စည်းပြီး Tropomyosin ကို ရွေ့လျားစေကာ...",
+          optionsEn: [
+            "Expose the myosin-binding sites on actin, allowing cross-bridges to form",
+            "Permanently block the myosin-binding sites on actin",
+            "Destroy the actin filament completely",
+            "Trigger the sodium-potassium pump to reverse",
+          ],
+          optionsMy: [
+            "Actin ပေါ်ရှိ Myosin-Binding Site များကို ဖော်ထုတ်ကာ Cross-Bridge ဖြစ်ပေါ်စေသည်",
+            "Actin ပေါ်ရှိ Myosin-Binding Site များကို အမြဲတမ်း ပိတ်ဆို့သည်",
+            "Actin Filament ကို လုံးဝ ဖျက်ဆီးသည်",
+            "Sodium-Potassium Pump ကို ပြောင်းပြန် ဖြစ်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "ATP is also needed for the myosin head to detach from actin and reset for another cross-bridge cycle -- which is why muscles need a continuous ATP supply throughout contraction, not just at the start.",
+          ],
+          hintsMy: [
+            "Myosin Head သည် Actin မှ ခွာထွက်ပြီး Cross-Bridge Cycle အသစ်တစ်ခုအတွက် ပြန်လည် ပြင်ဆင်ရန်လည်း ATP လိုအပ်သည် -- ထို့ကြောင့်ပင် ကြွက်သားများသည် ညှစ်ခြင်း တစ်လျှောက်လုံး အစပိုင်းတွင်သာမက ATP အဆက်မပြတ် ထောက်ပံ့မှု လိုအပ်ခြင်း ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w16-d2",
+      dayNumber: 2,
+      titleEn: "Match: Skeletal Muscle Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Skeletal Muscle ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w16-dm-1",
+          termEn: "Sarcomere",
+          termMy: "Sarcomere",
+          matchEn: "The repeating contractile unit of a myofibril, made of actin and myosin filaments",
+          matchMy: "Actin နှင့် Myosin Filament များမှ ဖွဲ့စည်းထားသော Myofibril ၏ ထပ်ကာထပ်ကာ ညှစ်နိုင်သော Unit",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w16-dm-2",
+          termEn: "Actin",
+          termMy: "Actin",
+          matchEn: "The thin protein filament that slides past myosin during contraction",
+          matchMy: "ညှစ်ခြင်းအတွင်း Myosin ကို ဖြတ်၍ ရွေ့လျားသော ပါးလွှာသော Protein Filament",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w16-dm-3",
+          termEn: "Myosin",
+          termMy: "Myosin",
+          matchEn: "The thick protein filament whose heads form cross-bridges with actin",
+          matchMy: "၎င်း၏ Head များသည် Actin နှင့် Cross-Bridge ဖွဲ့စည်းသော ထူထဲသော Protein Filament",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w16-dm-4",
+          termEn: "Troponin and tropomyosin",
+          termMy: "Troponin နှင့် Tropomyosin",
+          matchEn: "Proteins that block or expose the myosin-binding site on actin, controlled by calcium",
+          matchMy: "Calcium ဖြင့် ထိန်းချုပ်ကာ Actin ပေါ်ရှိ Myosin-Binding Site ကို ပိတ်ဆို့ (သို့) ဖော်ထုတ်ပေးသော Protein များ",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w16-dm-5",
+          termEn: "Cross-bridge cycle",
+          termMy: "Cross-Bridge Cycle",
+          matchEn: "The repeated attach-pull-detach-reset cycle of myosin heads on actin, powered by ATP",
+          matchMy: "ATP ဖြင့် တွန်းအားပေးသော Actin ပေါ်ရှိ Myosin Head များ၏ ကပ်-ဆွဲ-ခွာ-ပြန်ပြင် ထပ်ကာထပ်ကာ Cycle",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w16-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Actin/Thin Filament or Myosin/Thick Filament?",
+      titleMy: "စီစစ်ကြမည် - Actin/Thin Filament သို့မဟုတ် Myosin/Thick Filament?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Actin (Thin Filament)", "Myosin (Thick Filament)"],
+        bucketsMy: ["Actin (Thin Filament)", "Myosin (Thick Filament)"],
+        items: [
+          SortingItem(
+            id: "y13bio-w16-sort-1",
+            labelEn: "Carries troponin and tropomyosin along its length",
+            labelMy: "၎င်း၏ အလျားတလျှောက် Troponin နှင့် Tropomyosin ကို ဆောင်ထားသည်",
+            correctBucketEn: "Actin (Thin Filament)",
+            correctBucketMy: "Actin (Thin Filament)",
+          ),
+          SortingItem(
+            id: "y13bio-w16-sort-2",
+            labelEn: "Slides toward the centre of the sarcomere during contraction",
+            labelMy: "ညှစ်ခြင်းအတွင်း Sarcomere ၏ ဗဟိုဆီသို့ ရွေ့လျားသည်",
+            correctBucketEn: "Actin (Thin Filament)",
+            correctBucketMy: "Actin (Thin Filament)",
+          ),
+          SortingItem(
+            id: "y13bio-w16-sort-3",
+            labelEn: "Has globular heads that form cross-bridges",
+            labelMy: "Cross-Bridge ဖွဲ့စည်းသော Globular Head များ ရှိသည်",
+            correctBucketEn: "Myosin (Thick Filament)",
+            correctBucketMy: "Myosin (Thick Filament)",
+          ),
+          SortingItem(
+            id: "y13bio-w16-sort-4",
+            labelEn: "Hydrolyses ATP to power the cross-bridge cycle",
+            labelMy: "Cross-Bridge Cycle ကို တွန်းအားပေးရန် ATP ကို Hydrolysis ပြုလုပ်သည်",
+            correctBucketEn: "Myosin (Thick Filament)",
+            correctBucketMy: "Myosin (Thick Filament)",
+          ),
+          SortingItem(
+            id: "y13bio-w16-sort-5",
+            labelEn: "Does not itself shorten, but is pulled past the other filament",
+            labelMy: "မိမိကိုယ်တိုင် မတိုဘဲ အခြား Filament ကို ဖြတ်၍ ဆွဲငင်ခံရသည်",
+            correctBucketEn: "Actin (Thin Filament)",
+            correctBucketMy: "Actin (Thin Filament)",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w16-d4",
+      dayNumber: 4,
+      titleEn: "Reading: From Neurone to Muscle Fibre",
+      titleMy: "စာဖတ်ခြင်း - Neurone မှ ကြွက်သားအမျှင်ဆီသို့",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "From Neurone to Muscle Fibre",
+        titleMy: "Neurone မှ ကြွက်သားအမျှင်ဆီသို့",
+        passageEn:
+            "For the term's capstone lesson, Sayar Zaw Min asked the class to trace a single decision -- Htet Aung deciding to flex his arm -- all the way from a motor neurone to a contracting muscle fibre, tying together everything from the last four weeks. Su Su started at the beginning: a motor neurone's action potential, generated by the depolarisation and repolarisation cycle they had studied in Week 14, propagates all the way down the axon to a specialised synapse called the neuromuscular junction.\n\nHtet Aung continued from there: exactly as in ordinary synaptic transmission, the arriving action potential opens voltage-gated calcium channels in the presynaptic knob, triggering the neurotransmitter acetylcholine to be released by exocytosis and diffuse across the synaptic cleft. Acetylcholine binds to receptors on the muscle fibre's membrane, triggering depolarisation that spreads deep into the fibre and causes the sarcoplasmic reticulum to release a flood of calcium ions into the sarcomeres.\n\n\"And that's exactly where this week's new content picks up,\" Sayar Zaw Min said. \"Those calcium ions bind to troponin, which shifts tropomyosin aside and finally exposes the myosin-binding sites on actin that had been blocked until now. Myosin heads attach, form cross-bridges, and use energy from ATP hydrolysis to pull the actin filaments inward -- sliding, not shortening, each individual filament -- so the whole sarcomere shortens. Multiply that shortening across thousands of sarcomeres in series along one myofibril, and thousands of myofibrils in one muscle fibre, and a single decision in Htet Aung's motor cortex becomes a visible, physical flex of his arm. Every system from Term 3 and Term 4 -- feedback loops, action potentials, synapses, and now muscle -- turns out to be variations on the same underlying logic: a signal, converted from one form to another, precisely controlled at every step.\"",
+        passageMy:
+            "Term ၏ Capstone သင်ခန်းစာအတွက် ဆရာဇော်မင်းသည် ဆုံးဖြတ်ချက်တစ်ခု -- Htet Aung သည် သူ့လက်မောင်းကို လှန်ရန် ဆုံးဖြတ်ခြင်း -- ကို Motor Neurone မှ ညှစ်နေသော ကြွက်သားအမျှင်ဆီသို့ လိုက်ကြည့်ရန် အတန်းကို မေးခဲ့ပြီး ပြီးခဲ့သော လေးပတ်၏ အရာအားလုံးကို ချိတ်ဆက်ခဲ့သည်။ Su Su က အစမှ စတင်ခဲ့သည် - Week 14 တွင် လေ့လာခဲ့သော Depolarisation နှင့် Repolarisation Cycle ဖြင့် ဖြစ်ပေါ်လာသော Motor Neurone ၏ Action Potential သည် Axon တလျှောက် Neuromuscular Junction ဟု ခေါ်သော အထူး Synapse တစ်ခုသို့ Propagation ဖြစ်သွားသည်။\n\nHtet Aung က ဆက်လက် ဖော်ပြခဲ့သည် - ပုံမှန် Synaptic Transmission တွင်ကဲ့သို့ပင် ရောက်ရှိလာသော Action Potential သည် Presynaptic Knob ရှိ Voltage-Gated Calcium Channel များကို ဖွင့်ပေးကာ Neurotransmitter Acetylcholine ကို Exocytosis ဖြင့် ထုတ်လွှတ်ပြီး Synaptic Cleft ကို ဖြတ်၍ Diffusion ဖြစ်စေသည်။ Acetylcholine သည် ကြွက်သားအမျှင်၏ Membrane ပေါ်ရှိ Receptor များနှင့် ဖွဲ့စည်းကာ Depolarisation ဖြစ်ပေါ်စေပြီး အမျှင်အတွင်းသို့ နက်ရှိုင်းစွာ ပျံ့နှံ့သွားကာ Sarcoplasmic Reticulum ကို Calcium Ion များ Sarcomere ထဲသို့ ရေလွှမ်းမိုး ထုတ်လွှတ်စေသည်။\n\n\"ဒီနေရာကနေ ဒီအပတ်ရဲ့ အကြောင်းအရာသစ်က ဆက်စတင်ပါတယ်\" ဟု ဆရာဇော်မင်း ပြောခဲ့သည်။ \"ထို Calcium Ion များသည် Troponin နှင့် ဖွဲ့စည်းကာ Tropomyosin ကို ဘေးသို့ ရွှေ့ပေးပြီး ယခုအထိ ပိတ်ဆို့နေခဲ့သော Actin ပေါ်ရှိ Myosin-Binding Site များကို နောက်ဆုံးတွင် ဖော်ထုတ်ပေးသည်။ Myosin Head များ ကပ်ပြီး Cross-Bridge ဖွဲ့စည်းကာ ATP Hydrolysis မှ စွမ်းအင်ကို အသုံးပြု၍ Actin Filament များကို အတွင်းသို့ ဆွဲငင်သည် -- Filament တစ်ခုချင်းစီကို တို၍ မဟုတ်ဘဲ ရွေ့လျားစေခြင်း ဖြစ်သည် -- ထို့ကြောင့် Sarcomere တစ်ခုလုံး တိုသွားသည်။ ထို တိုသွားခြင်းကို Myofibril တစ်ခုအတွင်း အစီအစဉ်ကျ ရှိနေသော Sarcomere ထောင်ပေါင်းများစွာနှင့် ကြွက်သားအမျှင်တစ်ခုအတွင်း Myofibril ထောင်ပေါင်းများစွာ တစ်ခုနှင့်တစ်ခု မြှောက်လိုက်ပါက Htet Aung ၏ Motor Cortex ရှိ ဆုံးဖြတ်ချက်တစ်ခုသည် ရုပ်ပိုင်းဆိုင်ရာ တွေ့မြင်ရသော လက်မောင်းလှန်ခြင်း ဖြစ်လာသည်။ Term 3 နှင့် Term 4 ၏ စနစ်တိုင်း -- Feedback Loop, Action Potential, Synapse နှင့် ယခု ကြွက်သား -- သည် တူညီသော အခြေခံ ကျိုးကြောင်းကို ကွဲပြားစွာ ဖော်ပြနေခြင်း ဖြစ်ကြောင်း တွေ့ရသည် - Signal တစ်ခု၊ ပုံစံတစ်ခုမှ နောက်တစ်ခုသို့ ပြောင်းလဲကာ အဆင့်တိုင်းတွင် တိကျစွာ ထိန်းချုပ်ထားခြင်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what does the arriving action potential trigger at the neuromuscular junction?",
+            questionMy:
+                "Neuromuscular Junction တွင် ရောက်ရှိလာသော Action Potential သည် မည်သည်ကို လှုံ့ဆော်သည်ကို Htet Aung ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The release of acetylcholine by exocytosis",
+              "The immediate destruction of the muscle fibre",
+              "The release of ADH",
+              "The formation of new sarcomeres",
+            ],
+            optionsMy: [
+              "Exocytosis ဖြင့် Acetylcholine ထုတ်လွှတ်ခြင်း",
+              "ကြွက်သားအမျှင်ကို ချက်ချင်း ဖျက်ဆီးခြင်း",
+              "ADH ထုတ်လွှတ်ခြင်း",
+              "Sarcomere အသစ်များ ဖွဲ့စည်းခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what does calcium binding to troponin allow to happen?",
+            questionMy:
+                "Calcium သည် Troponin နှင့် ဖွဲ့စည်းခြင်းက မည်သည်ကို ဖြစ်ပေါ်စေသည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Tropomyosin shifts aside, exposing the myosin-binding sites on actin",
+              "Actin dissolves completely",
+              "The sarcoplasmic reticulum stops working",
+              "ATP is no longer needed at any point",
+            ],
+            optionsMy: [
+              "Tropomyosin ဘေးသို့ ရွှေ့သွားပြီး Actin ပေါ်ရှိ Myosin-Binding Site များကို ဖော်ထုတ်သည်",
+              "Actin လုံးဝ ပျော်ဝင်သွားသည်",
+              "Sarcoplasmic Reticulum အလုပ်လုပ်ခြင်း ရပ်တန့်သည်",
+              "မည်သည့်အဆင့်တွင်မျှ ATP ထပ်မံ မလိုအပ်တော့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, what common theme links every system studied in Term 3 and Term 4?",
+            questionMy:
+                "Term 3 နှင့် Term 4 တွင် လေ့လာခဲ့သော စနစ်တိုင်းကို ချိတ်ဆက်ပေးသော ဘုံအကြောင်းအရာကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A signal converted from one form to another, precisely controlled at every step",
+              "All systems use exactly the same molecule throughout",
+              "None of the systems involve any energy at all",
+              "Every system happens only in the chloroplast",
+            ],
+            optionsMy: [
+              "Signal တစ်ခုကို ပုံစံတစ်ခုမှ နောက်တစ်ခုသို့ ပြောင်းလဲကာ အဆင့်တိုင်းတွင် တိကျစွာ ထိန်းချုပ်ထားခြင်း",
+              "စနစ်အားလုံးသည် တစ်လျှောက်လုံး မော်လီကျူးတစ်ခုတည်းကို အသုံးပြုသည်",
+              "စနစ်မည်သည့်တွင်မျှ စွမ်းအင် လုံးဝ မပါဝင်ပါ",
+              "စနစ်တိုင်းသည် Chloroplast တွင်သာ ဖြစ်ပွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w16-d5",
+      dayNumber: 5,
+      titleEn: "Week 16 Recap: Skeletal Muscle Contraction",
+      titleMy: "တစ်ဆယ့်ခြောက်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Skeletal Muscle Contraction",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A sarcomere is made mainly of actin and...",
+          questionMy: "Sarcomere ကို အဓိကအားဖြင့် Actin နှင့် ...မှ ဖွဲ့စည်းသည်",
+          optionsEn: ["Myosin", "Collagen", "Chlorophyll", "Keratin"],
+          optionsMy: ["Myosin", "Collagen", "Chlorophyll", "Keratin"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Calcium ions released into the sarcomere bind to...",
+          questionMy: "Sarcomere ထဲသို့ ထုတ်လွှတ်ထားသော Calcium Ion များသည် ...နှင့် ဖွဲ့စည်းသည်",
+          optionsEn: ["Troponin", "Haemoglobin", "Rubisco", "ADH receptors"],
+          optionsMy: ["Troponin", "Haemoglobin", "Rubisco", "ADH Receptor"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "During contraction, actin filaments...",
+          questionMy: "ညှစ်ခြင်းအတွင်း Actin Filament များသည်...",
+          optionsEn: [
+            "Slide past myosin, shortening the sarcomere",
+            "Dissolve completely",
+            "Lengthen individually",
+            "Turn into myosin",
+          ],
+          optionsMy: [
+            "Myosin ကို ဖြတ်၍ ရွေ့လျားကာ Sarcomere ကို တိုစေသည်",
+            "လုံးဝ ပျော်ဝင်သွားသည်",
+            "တစ်ခုချင်းစီ ရှည်လာသည်",
+            "Myosin အဖြစ် ပြောင်းလဲသည်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm4 = CourseTermDef(
+  id: "course-y13-bio-t4",
+  termNumber: 4,
+  titleEn: "Coordination",
+  titleMy: "Coordination",
+  weeks: [_y13BioWeek13, _y13BioWeek14, _y13BioWeek15, _y13BioWeek16],
+  certificateTitleEn: "A2 Biology: Coordination",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Coordination",
+);
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 5: "Inherited Change"
+// (Weeks 17-20)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 17: "Meiosis and Genetic Variation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek17 = CourseWeekDef(
+  id: "course-y13-bio-w17",
+  weekNumber: 17,
+  titleEn: "Meiosis and Genetic Variation",
+  titleMy: "Meiosis နှင့် Genetic Variation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w17-d1",
+      dayNumber: 1,
+      titleEn: "Meiosis, Crossing Over and Independent Assortment",
+      titleMy: "Meiosis, Crossing Over နှင့် Independent Assortment",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Meiosis consists of two successive divisions and produces gametes that are...",
+          questionMy:
+              "Meiosis သည် ဆက်တိုက် Division နှစ်ခုဖြင့် ဖွဲ့စည်းထားပြီး ...ဖြစ်သော Gamete များ ထုတ်လုပ်ပေးသည်",
+          optionsEn: [
+            "Haploid, containing half the chromosome number of the parent cell",
+            "Diploid, containing the same chromosome number as the parent cell",
+            "Triploid, containing three times the chromosome number",
+            "Identical clones of the parent cell",
+          ],
+          optionsMy: [
+            "Haploid, မိဘဆဲလ်၏ တစ်ဝက်သော Chromosome အရေအတွက် ပါဝင်သည်",
+            "Diploid, မိဘဆဲလ်နှင့် တူညီသော Chromosome အရေအတွက် ပါဝင်သည်",
+            "Triploid, Chromosome အရေအတွက် သုံးဆ ပါဝင်သည်",
+            "မိဘဆဲလ်၏ တူညီသော Clone များ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Halving the chromosome number is essential -- it means that when two gametes fuse at fertilisation, the resulting zygote has the normal diploid chromosome number again.",
+          ],
+          hintsMy: [
+            "Chromosome အရေအတွက် တစ်ဝက် ချေဖျက်ခြင်းသည် မရှိမဖြစ် လိုအပ်သည် -- Fertilisation တွင် Gamete နှစ်ခု ပေါင်းစည်းသောအခါ ဖြစ်ပေါ်လာသော Zygote သည် ပုံမှန် Diploid Chromosome အရေအတွက်ကို ပြန်လည် ရရှိစေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Crossing over occurs during prophase I of meiosis, when homologous chromosomes pair up and...",
+          questionMy:
+              "Crossing Over သည် Meiosis ၏ Prophase I တွင် ဖြစ်ပွားပြီး Homologous Chromosome များ တွဲဖက်ကာ...",
+          optionsEn: [
+            "Exchange sections of DNA at points called chiasmata, creating new allele combinations",
+            "Fuse into a single chromosome permanently",
+            "Duplicate their DNA for the first time",
+            "Move directly into separate gametes with no further change",
+          ],
+          optionsMy: [
+            "Chiasmata ဟု ခေါ်သော အမှတ်များတွင် DNA အပိုင်းများ ဖလှယ်ကာ Allele ပေါင်းစပ်မှု အသစ်များ ဖန်တီးသည်",
+            "Chromosome တစ်ခုတည်းအဖြစ် အမြဲတမ်း ပေါင်းစည်းသည်",
+            "ပထမဆုံးအကြိမ် ၎င်းတို့၏ DNA ကို Duplicate ပြုလုပ်သည်",
+            "ထပ်မံပြောင်းလဲမှု မရှိဘဲ Gamete သီးခြားစီထဲသို့ တိုက်ရိုက် ရွှေ့သည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because the exchanged sections carry different alleles, the chromosomes that separate afterward carry new combinations of alleles never present in either parent chromosome alone.",
+          ],
+          hintsMy: [
+            "ဖလှယ်ထားသော အပိုင်းများသည် ကွဲပြားသော Allele များ ပါဝင်သောကြောင့် ထို့နောက် ခွဲထွက်သွားသော Chromosome များသည် မိဘ Chromosome တစ်ခုတည်းတွင် တစ်ခါမျှ မရှိခဲ့ဖူးသော Allele ပေါင်းစပ်မှု အသစ်များ ဆောင်ထားသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Independent assortment refers to the way that...",
+          questionMy: "Independent Assortment ဆိုသည်မှာ...",
+          optionsEn: [
+            "Each pair of homologous chromosomes lines up and separates independently of every other pair at metaphase I",
+            "Only one chromosome pair ever separates during meiosis",
+            "Chromosomes always separate in the exact same combination every time",
+            "Chromosomes fuse together permanently before separating",
+          ],
+          optionsMy: [
+            "Homologous Chromosome အတွဲတိုင်းသည် Metaphase I တွင် အခြားအတွဲတိုင်းနှင့် သီးခြားစီ တန်းစီကာ ခွဲထွက်ခြင်း",
+            "Meiosis အတွင်း Chromosome အတွဲတစ်တွဲသာ ခွဲထွက်ခြင်း",
+            "Chromosome များသည် အမြဲတမ်း တူညီသော ပေါင်းစပ်မှုအတိုင်း ခွဲထွက်ခြင်း",
+            "Chromosome များသည် မခွဲထွက်မီ အမြဲတမ်း ပေါင်းစည်းခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "With multiple chromosome pairs, this independent lining-up produces a huge number of possible combinations of maternal and paternal chromosomes in the resulting gametes.",
+          ],
+          hintsMy: [
+            "Chromosome အတွဲများစွာဖြင့် ဤ Independent တန်းစီမှုသည် ဖြစ်ပေါ်လာသော Gamete များတွင် မိခင်နှင့် ဖခင် Chromosome ၏ ဖြစ်နိုင်သော ပေါင်းစပ်မှု များစွာကို ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w17-d2",
+      dayNumber: 2,
+      titleEn: "Match: Meiosis Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Meiosis ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w17-dm-1",
+          termEn: "Meiosis",
+          termMy: "Meiosis",
+          matchEn: "Two successive divisions producing haploid gametes with half the chromosome number",
+          matchMy: "Chromosome အရေအတွက် တစ်ဝက်ရှိသော Haploid Gamete များ ထုတ်လုပ်ပေးသော ဆက်တိုက် Division နှစ်ခု",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w17-dm-2",
+          termEn: "Crossing over",
+          termMy: "Crossing Over",
+          matchEn: "The exchange of DNA sections between homologous chromosomes at chiasmata",
+          matchMy: "Chiasmata တွင် Homologous Chromosome များအကြား DNA အပိုင်းများ ဖလှယ်ခြင်း",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w17-dm-3",
+          termEn: "Chiasma",
+          termMy: "Chiasma",
+          matchEn: "The point where homologous chromosomes are physically joined during crossing over",
+          matchMy: "Crossing Over အတွင်း Homologous Chromosome များ ရုပ်ပိုင်းဆိုင်ရာ ချိတ်ဆက်နေသော အမှတ်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w17-dm-4",
+          termEn: "Independent assortment",
+          termMy: "Independent Assortment",
+          matchEn: "Each homologous pair separating independently of other pairs, increasing possible gamete combinations",
+          matchMy: "Homologous အတွဲတိုင်းသည် အခြားအတွဲများနှင့် သီးခြားစီ ခွဲထွက်ကာ ဖြစ်နိုင်သော Gamete ပေါင်းစပ်မှုများကို တိုးမြှင့်ပေးခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w17-dm-5",
+          termEn: "Haploid",
+          termMy: "Haploid",
+          matchEn: "Containing a single set of chromosomes (half the diploid number)",
+          matchMy: "Chromosome အစုတစ်ခုတည်း ပါဝင်ခြင်း (Diploid အရေအတွက်၏ တစ်ဝက်)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w17-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Crossing Over or Independent Assortment?",
+      titleMy: "စီစစ်ကြမည် - Crossing Over သို့မဟုတ် Independent Assortment?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Crossing Over", "Independent Assortment"],
+        bucketsMy: ["Crossing Over", "Independent Assortment"],
+        items: [
+          SortingItem(
+            id: "y13bio-w17-sort-1",
+            labelEn: "Exchanges sections of DNA between homologous chromosomes",
+            labelMy: "Homologous Chromosome များအကြား DNA အပိုင်းများ ဖလှယ်ပေးသည်",
+            correctBucketEn: "Crossing Over",
+            correctBucketMy: "Crossing Over",
+          ),
+          SortingItem(
+            id: "y13bio-w17-sort-2",
+            labelEn: "Occurs at chiasmata during prophase I",
+            labelMy: "Prophase I အတွင်း Chiasmata တွင် ဖြစ်ပွားသည်",
+            correctBucketEn: "Crossing Over",
+            correctBucketMy: "Crossing Over",
+          ),
+          SortingItem(
+            id: "y13bio-w17-sort-3",
+            labelEn: "Each chromosome pair lines up independently at metaphase I",
+            labelMy: "Chromosome အတွဲတိုင်းသည် Metaphase I တွင် သီးခြားစီ တန်းစီသည်",
+            correctBucketEn: "Independent Assortment",
+            correctBucketMy: "Independent Assortment",
+          ),
+          SortingItem(
+            id: "y13bio-w17-sort-4",
+            labelEn: "Creates new allele combinations within a single chromosome",
+            labelMy: "Chromosome တစ်ခုတည်းအတွင်း Allele ပေါင်းစပ်မှု အသစ်များ ဖန်တီးသည်",
+            correctBucketEn: "Crossing Over",
+            correctBucketMy: "Crossing Over",
+          ),
+          SortingItem(
+            id: "y13bio-w17-sort-5",
+            labelEn: "Creates new combinations of maternal and paternal whole chromosomes",
+            labelMy: "မိခင်နှင့် ဖခင် Chromosome အပြည့်အစုံ၏ ပေါင်းစပ်မှု အသစ်များ ဖန်တီးသည်",
+            correctBucketEn: "Independent Assortment",
+            correctBucketMy: "Independent Assortment",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w17-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Why No Two Siblings Look the Same",
+      titleMy: "စာဖတ်ခြင်း - မောင်နှမများ တူညီစွာ ပုံသဏ္ဌာန် မရှိရသည့်အကြောင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Why No Two Siblings Look the Same",
+        titleMy: "မောင်နှမများ တူညီစွာ ပုံသဏ္ဌာန် မရှိရသည့်အကြောင်း",
+        passageEn:
+            "Su Su mentioned that she and her younger brother had the same two parents, yet looked noticeably different, and asked Sayar Zaw Min why siblings weren't simply identical. He explained that the answer lay entirely in meiosis, the process that produces gametes such as eggs and sperm -- and specifically in two separate sources of variation that meiosis introduces, both of which happen before fertilisation even occurs.\n\nHtet Aung described the first source: crossing over, during prophase I, when homologous chromosomes pair up tightly and exchange sections of DNA at points called chiasmata. Because the two homologous chromosomes in a pair usually carry different alleles for at least some genes, this exchange shuffles those alleles into new combinations that did not exist on either original chromosome -- meaning even a single chromosome coming out of meiosis is genetically unique.\n\n\"And the second source multiplies that even further,\" Sayar Zaw Min added. \"Independent assortment means that when the many pairs of homologous chromosomes line up at metaphase I, each pair orients randomly and independently of every other pair -- so which chromosome of a pair ends up in which gamete is essentially down to chance, for every pair, every time. With 23 pairs of chromosomes in humans, that alone produces over eight million possible combinations, even before crossing over is factored in. Every gamete Su Su's parents ever produced was therefore genetically distinct, which is exactly why she and her brother -- each built from a different, independently shuffled combination -- were never going to be identical, despite sharing the same two parents.\"",
+        passageMy:
+            "Su Su နှင့် သူ့ညီသည် မိဘနှစ်ဦးတည်းရှိသော်လည်း သိသိသာသာ ကွဲပြားသည့် ပုံသဏ္ဌာန် ရှိကြောင်း ပြောပြခဲ့ပြီး မောင်နှမများ ရိုးရိုးတန်းတန်း တူညီစွာ အဘယ်ကြောင့် မရှိသနည်းဟု ဆရာဇော်မင်းအား မေးခဲ့သည်။ ဥ (Egg) နှင့် ကာယကလေး (Sperm) ကဲ့သို့ Gamete များ ထုတ်လုပ်ပေးသော လုပ်ငန်းစဉ်ဖြစ်သော Meiosis တွင်သာ အဖြေ လုံးလုံးကျော်ရှိကြောင်း -- သီးခြားအားဖြင့် Meiosis ဖြင့် Fertilisation မဖြစ်ပွားမီပင် ဖြစ်ပေါ်လာသော Variation ရင်းမြစ် နှစ်ခုတွင် ရှိကြောင်း သူ ရှင်းပြခဲ့သည်။\n\nHtet Aung က ပထမ ရင်းမြစ်ကို ဖော်ပြခဲ့သည် - Homologous Chromosome များ ကျပ်ကျပ်ကွပ်၍ Chiasmata ဟု ခေါ်သော အမှတ်များတွင် DNA အပိုင်းများ ဖလှယ်သည့် Prophase I ကာလ Crossing Over ဖြစ်သည်။ အတွဲတစ်တွဲအတွင်းရှိ Homologous Chromosome နှစ်ခုသည် ပုံမှန်အားဖြင့် အနည်းဆုံး Gene အချို့အတွက် ကွဲပြားသော Allele များ ဆောင်ထားသောကြောင့် ဤ ဖလှယ်ခြင်းက ထို Allele များကို မူလ Chromosome နှစ်ခုစလုံးတွင် တစ်ခါမျှ မရှိခဲ့သော ပေါင်းစပ်မှု အသစ်များအဖြစ် ရောနှောပေးသည် -- Meiosis မှ ထွက်လာသော Chromosome တစ်ခုတည်းပင် Genetically ထူးခြားသည်ဟု ဆိုလိုသည်။\n\n\"ဒုတိယ ရင်းမြစ်က ဒါကို ပိုပြီးတောင် များများပွားစေတယ်\" ဟု ဆရာဇော်မင်း ထပ်ဆင့်ခဲ့သည်။ \"Homologous Chromosome အတွဲများစွာသည် Metaphase I တွင် တန်းစီသောအခါ Independent Assortment သည် အတွဲတိုင်းက အခြားအတွဲတိုင်းနှင့် သီးခြားစီ Random အစီအစဉ်ဖြင့် ဦးတည်ခြင်းကို ဆိုလိုသည် -- ထို့ကြောင့် အတွဲတစ်တွဲ၏ Chromosome မည်သည်က Gamete မည်သည့်ထဲတွင် နောက်ဆုံး ရောက်ရှိသည်ကို အခြေခံအားဖြင့် အတွဲတိုင်း၊ အကြိမ်တိုင်း အလျှင်းကံစမ်းမှုသာ ဖြစ်သည်။ လူသားများတွင် Chromosome အတွဲ ၂၃ တွဲဖြင့် ၎င်းတစ်ခုတည်းကပင် Crossing Over ကို ထည့်တွက်မီ ဖြစ်နိုင်သော ပေါင်းစပ်မှု သန်း ရှစ်ကျော် ထုတ်လုပ်ပေးသည်။ Su Su ၏ မိဘများ ထုတ်လုပ်ခဲ့သမျှ Gamete တိုင်းသည် Genetically ထူးခြားခဲ့သောကြောင့် သူနှင့် သူ့ညီ -- ကွဲပြားသော၊ သီးခြားစီ ရောနှောထားသော ပေါင်းစပ်မှုတစ်ခုစီမှ တည်ဆောက်ထားသော -- သည် တူညီသော မိဘနှစ်ဦးတည်း ရှိသော်လည်း တူညီစွာ ဘယ်တော့မှ ဖြစ်လာမည် မဟုတ်ခဲ့ခြင်း ဖြစ်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what happens during crossing over at chiasmata?",
+            questionMy:
+                "Chiasmata တွင် Crossing Over အတွင်း အဘယ်ဖြစ်ပွားသည်ကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Homologous chromosomes exchange sections of DNA",
+              "Chromosomes duplicate for the first time",
+              "Chromosomes fuse permanently into one",
+              "All alleles become identical",
+            ],
+            optionsMy: [
+              "Homologous Chromosome များ DNA အပိုင်းများ ဖလှယ်ကြသည်",
+              "Chromosome များ ပထမဆုံးအကြိမ် Duplicate ဖြစ်သည်",
+              "Chromosome များ တစ်ခုတည်းအဖြစ် အမြဲတမ်း ပေါင်းစည်းသည်",
+              "Allele အားလုံး တူညီသွားသည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, how many possible chromosome combinations does independent assortment alone produce in humans?",
+            questionMy:
+                "Independent Assortment တစ်ခုတည်းက လူသားများတွင် ဖြစ်နိုင်သော Chromosome ပေါင်းစပ်မှု မည်မျှ ထုတ်လုပ်ပေးသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Over eight million",
+              "Exactly two",
+              "Exactly twenty-three",
+              "Fewer than one hundred",
+            ],
+            optionsMy: ["သန်း ရှစ်ကျော်", "နှစ်ခု အတိအကျ", "နှစ်ဆယ့်သုံးခု အတိအကျ", "တစ်ရာ အောက်"],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the passage overall, why were Su Su and her brother never going to be identical?",
+            questionMy:
+                "Su Su နှင့် သူ့ညီသည် တူညီစွာ ဘယ်တော့မှ ဖြစ်လာမည် မဟုတ်ခဲ့ရသည့်အကြောင်းရင်းကို စာပိုဒ်တစ်ခုလုံးအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Crossing over and independent assortment made every gamete genetically distinct",
+              "They were raised in different households",
+              "Meiosis produces identical gametes every time",
+              "Only one parent contributed any chromosomes",
+            ],
+            optionsMy: [
+              "Crossing Over နှင့် Independent Assortment တို့က Gamete တိုင်းကို Genetically ထူးခြားစေသောကြောင့်",
+              "မတူညီသော အိမ်ထောင်စုများတွင် ကြီးပြင်းလာခဲ့သောကြောင့်",
+              "Meiosis သည် အကြိမ်တိုင်း တူညီသော Gamete များ ထုတ်လုပ်ပေးသောကြောင့်",
+              "မိဘတစ်ဦးတည်းသာ Chromosome ထည့်ပေးခဲ့သောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the passage as a whole."],
+            hintsMy: ["စာပိုဒ်တစ်ခုလုံးကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w17-d5",
+      dayNumber: 5,
+      titleEn: "Week 17 Recap: Meiosis and Variation",
+      titleMy: "တစ်ဆယ့်ခုနစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Meiosis နှင့် Variation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Meiosis produces gametes that are...",
+          questionMy: "Meiosis သည် ...ဖြစ်သော Gamete များ ထုတ်လုပ်ပေးသည်",
+          optionsEn: ["Haploid", "Diploid", "Triploid", "Identical clones"],
+          optionsMy: ["Haploid", "Diploid", "Triploid", "တူညီသော Clone များ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Crossing over occurs at points called...",
+          questionMy: "Crossing Over သည် ...ဟု ခေါ်သော အမှတ်များတွင် ဖြစ်ပွားသည်",
+          optionsEn: ["Chiasmata", "Centromeres only", "Ribosomes", "Synapses"],
+          optionsMy: ["Chiasmata", "Centromere သာ", "Ribosome", "Synapse"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Independent assortment increases genetic variation by...",
+          questionMy: "Independent Assortment သည် ...ဖြင့် Genetic Variation ကို တိုးမြှင့်ပေးသည်",
+          optionsEn: [
+            "Randomly orienting each homologous pair independently at metaphase I",
+            "Always separating chromosomes in the same order",
+            "Fusing all chromosomes together",
+            "Preventing any chromosome from entering a gamete",
+          ],
+          optionsMy: [
+            "Metaphase I တွင် Homologous အတွဲတိုင်းကို သီးခြားစီ Random ဦးတည်စေခြင်း",
+            "Chromosome များကို အမြဲတမ်း အစီအစဉ်တူ ခွဲထွက်စေခြင်း",
+            "Chromosome အားလုံးကို ပေါင်းစည်းခြင်း",
+            "Chromosome မည်သည်ကိုမျှ Gamete ထဲသို့ မဝင်စေခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 18: "Gene Mutation"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek18 = CourseWeekDef(
+  id: "course-y13-bio-w18",
+  weekNumber: 18,
+  titleEn: "Gene Mutation",
+  titleMy: "Gene Mutation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w18-d1",
+      dayNumber: 1,
+      titleEn: "Types of Gene Mutation and Their Effects",
+      titleMy: "Gene Mutation အမျိုးအစားများနှင့် ၎င်းတို့၏ သက်ရောက်မှုများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "A substitution mutation replaces one base in the DNA sequence with a different base, and...",
+          questionMy:
+              "Substitution Mutation သည် DNA Sequence ရှိ Base တစ်ခုကို Base တစ်ခြားဖြင့် အစားထိုးပြီး...",
+          optionsEn: [
+            "May change one codon, potentially altering just one amino acid in the protein",
+            "Always shifts every codon after it, changing the entire protein",
+            "Always deletes a whole gene",
+            "Never affects the protein produced in any way",
+          ],
+          optionsMy: [
+            "Codon တစ်ခုကို ပြောင်းလဲစေနိုင်ပြီး Protein ရှိ Amino Acid တစ်ခုတည်းကိုသာ ပြောင်းလဲနိုင်သည်",
+            "၎င်း၏ နောက်ပိုင်း Codon အားလုံးကို အမြဲတမ်း Shift ဖြစ်စေကာ Protein တစ်ခုလုံးကို ပြောင်းလဲသည်",
+            "Gene တစ်ခုလုံးကို အမြဲတမ်း ဖျက်ပစ်သည်",
+            "ထုတ်လုပ်သော Protein အပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because the genetic code is read in triplets (codons), a substitution generally affects only the single codon it falls within -- unlike insertions or deletions.",
+          ],
+          hintsMy: [
+            "Genetic Code ကို Triplet (Codon) များအဖြစ် ဖတ်သောကြောင့် Substitution သည် ပုံမှန်အားဖြင့် ၎င်း ကျရောက်နေသော Codon တစ်ခုတည်းကိုသာ သက်ရောက်စေသည် -- Insertion (သို့) Deletion နှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "An insertion or deletion of a single base within a coding sequence causes a frameshift mutation because...",
+          questionMy:
+              "Coding Sequence အတွင်း Base တစ်ခု Insertion (သို့) Deletion ပြုလုပ်ခြင်းက Frameshift Mutation ဖြစ်ပေါ်စေရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "It shifts how every subsequent triplet is read, usually changing every amino acid after that point",
+            "It only ever changes the very first amino acid of the protein",
+            "It has no effect on the reading frame at all",
+            "It only affects mutations in non-coding DNA",
+          ],
+          optionsMy: [
+            "နောက်ပိုင်း Triplet တိုင်း ဖတ်ပုံကို Shift ဖြစ်စေပြီး ပုံမှန်အားဖြင့် ထိုအမှတ်ပြီးနောက် Amino Acid အားလုံးကို ပြောင်းလဲစေသည်",
+            "Protein ၏ ပထမဆုံး Amino Acid ကိုသာ အမြဲတမ်း ပြောင်းလဲစေသည်",
+            "Reading Frame အပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+            "Non-coding DNA ရှိ Mutation ကိုသာ သက်ရောက်စေသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Because the reading frame is read three bases at a time from a fixed starting point, adding or removing even one base shifts the grouping of every triplet that follows.",
+          ],
+          hintsMy: [
+            "Reading Frame ကို Fixed Starting Point မှ တစ်ကြိမ်လျှင် Base သုံးခုစီ ဖတ်သောကြောင့် Base တစ်ခုတည်း ထပ်ထည့် (သို့) ဖယ်ရှားခြင်းသည် ဆက်လက်ပါဝင်သော Triplet အားလုံး၏ အုပ်စုကို Shift ဖြစ်စေသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Ionising radiation and certain chemicals (mutagens) increase mutation rate mainly by...",
+          questionMy:
+              "Ionising Radiation နှင့် Chemical အချို့ (Mutagen) များသည် Mutation Rate ကို အဓိကအားဖြင့် ...ဖြင့် တိုးမြှင့်ပေးသည်",
+          optionsEn: [
+            "Directly damaging DNA structure or interfering with accurate DNA replication",
+            "Adding extra chromosomes to every cell",
+            "Preventing meiosis from occurring entirely",
+            "Only affecting proteins, never DNA itself",
+          ],
+          optionsMy: [
+            "DNA ဖွဲ့စည်းပုံကို တိုက်ရိုက် ထိခိုက်စေခြင်း (သို့) တိကျသော DNA Replication ကို နှောင့်ယှက်ခြင်း",
+            "ဆဲလ်တိုင်းသို့ Chromosome ထပ်ဆောင်း ထည့်ပေးခြင်း",
+            "Meiosis ကို လုံးဝ မဖြစ်ပွားစေခြင်း",
+            "Protein ကိုသာ သက်ရောက်စေပြီး DNA ကိုယ်တိုင်ကို လုံးဝ မထိခိုက်စေခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Not every mutation is harmful -- most substitution mutations, in particular, have little or no effect, since the genetic code is degenerate (several codons can code for the same amino acid).",
+          ],
+          hintsMy: [
+            "Mutation တိုင်းသည် အန္တရာယ်ရှိသည် မဟုတ်ပါ -- Substitution Mutation အများစုသည် သီးခြားအားဖြင့် သက်ရောက်မှု အနည်းငယ် (သို့) လုံးဝ မရှိပါ၊ Genetic Code သည် Degenerate ဖြစ်သောကြောင့် (Codon များစွာသည် Amino Acid တူညီတစ်ခုအတွက် Code ပြုလုပ်နိုင်သည်)။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w18-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gene Mutation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Gene Mutation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w18-dm-1",
+          termEn: "Substitution mutation",
+          termMy: "Substitution Mutation",
+          matchEn: "One base is replaced with another; usually affects only one codon",
+          matchMy: "Base တစ်ခုကို တစ်ခြားတစ်ခုဖြင့် အစားထိုးသည်; ပုံမှန်အားဖြင့် Codon တစ်ခုတည်းကိုသာ သက်ရောက်စေသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w18-dm-2",
+          termEn: "Insertion/deletion mutation",
+          termMy: "Insertion/Deletion Mutation",
+          matchEn: "A base is added or removed, usually causing a frameshift",
+          matchMy: "Base တစ်ခု ထပ်ထည့် (သို့) ဖယ်ရှားသည်; ပုံမှန်အားဖြင့် Frameshift ဖြစ်ပေါ်စေသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w18-dm-3",
+          termEn: "Frameshift",
+          termMy: "Frameshift",
+          matchEn: "The reading frame shifts, changing every triplet grouping after the mutation point",
+          matchMy: "Reading Frame Shift ဖြစ်ကာ Mutation ဖြစ်ရာအမှတ်ပြီးနောက် Triplet အုပ်စုတိုင်းကို ပြောင်းလဲသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w18-dm-4",
+          termEn: "Mutagen",
+          termMy: "Mutagen",
+          matchEn: "A physical or chemical agent that increases the rate of mutation",
+          matchMy: "Mutation Rate ကို တိုးမြှင့်ပေးသော Physical (သို့) Chemical Agent",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w18-dm-5",
+          termEn: "Degenerate code",
+          termMy: "Degenerate Code",
+          matchEn: "The property that several different codons can code for the same amino acid",
+          matchMy: "ကွဲပြားသော Codon များစွာသည် Amino Acid တူညီတစ်ခုအတွက် Code ပြုလုပ်နိုင်သော ဂုဏ်သတ္တိ",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w18-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Substitution or Insertion/Deletion Mutation?",
+      titleMy: "စီစစ်ကြမည် - Substitution သို့မဟုတ် Insertion/Deletion Mutation?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Substitution Mutation", "Insertion/Deletion Mutation"],
+        bucketsMy: ["Substitution Mutation", "Insertion/Deletion Mutation"],
+        items: [
+          SortingItem(
+            id: "y13bio-w18-sort-1",
+            labelEn: "One base is swapped for a different base",
+            labelMy: "Base တစ်ခုကို တစ်ခြားတစ်ခုဖြင့် အစားထိုးသည်",
+            correctBucketEn: "Substitution Mutation",
+            correctBucketMy: "Substitution Mutation",
+          ),
+          SortingItem(
+            id: "y13bio-w18-sort-2",
+            labelEn: "Usually affects only a single amino acid in the protein",
+            labelMy: "ပုံမှန်အားဖြင့် Protein ရှိ Amino Acid တစ်ခုတည်းကိုသာ သက်ရောက်စေသည်",
+            correctBucketEn: "Substitution Mutation",
+            correctBucketMy: "Substitution Mutation",
+          ),
+          SortingItem(
+            id: "y13bio-w18-sort-3",
+            labelEn: "A base is added into or removed from the sequence",
+            labelMy: "Base တစ်ခုကို Sequence ထဲသို့ ထပ်ထည့် (သို့) ဖယ်ရှားသည်",
+            correctBucketEn: "Insertion/Deletion Mutation",
+            correctBucketMy: "Insertion/Deletion Mutation",
+          ),
+          SortingItem(
+            id: "y13bio-w18-sort-4",
+            labelEn: "Shifts the reading frame for every codon after it",
+            labelMy: "၎င်းပြီးနောက် Codon တိုင်း၏ Reading Frame ကို Shift ဖြစ်စေသည်",
+            correctBucketEn: "Insertion/Deletion Mutation",
+            correctBucketMy: "Insertion/Deletion Mutation",
+          ),
+          SortingItem(
+            id: "y13bio-w18-sort-5",
+            labelEn: "May have no effect at all, thanks to the degenerate genetic code",
+            labelMy: "Degenerate Genetic Code ကြောင့် သက်ရောက်မှု လုံးဝ မရှိနိုင်သည်",
+            correctBucketEn: "Substitution Mutation",
+            correctBucketMy: "Substitution Mutation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w18-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Letter Changed, One Letter Missing",
+      titleMy: "စာဖတ်ခြင်း - စာလုံးတစ်လုံး ပြောင်းလဲခြင်း, စာလုံးတစ်လုံး ပျောက်ဆုံးခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Letter Changed, One Letter Missing",
+        titleMy: "စာလုံးတစ်လုံး ပြောင်းလဲခြင်း, စာလုံးတစ်လုံး ပျောက်ဆုံးခြင်း",
+        passageEn:
+            "Sayar Zaw Min wrote a short sentence on the board, split into three-letter groups: \"THE FAT CAT ATE ONE RAT.\" He explained that DNA is read the same way, in triplets, and asked the class to predict what would happen if he changed just one letter in the fourth group, turning \"CAT\" into \"COT\": \"THE FAT COT ATE ONE RAT.\" Su Su pointed out that only one word changed -- exactly like a substitution mutation, which typically alters only the single codon (and therefore, at most, the single amino acid) it falls within.\n\nThen Sayar Zaw Min deleted a single letter from that same fourth group instead, and asked the class to re-group the remaining letters into new triplets, still reading three at a time from the same starting point: \"THE FAT ATA TEO NER AT.\" Htet Aung gasped as he worked it out -- every single group after the deletion point had changed into nonsense, even though only one letter had been removed. \"That's a frameshift,\" he said, \"and it's obviously much more damaging than the substitution -- one missing letter wrecked the entire rest of the message.\"\n\n\"Exactly the pattern real proteins follow,\" Sayar Zaw Min confirmed. \"A substitution changes at most one amino acid, and thanks to the genetic code's degeneracy -- several codons coding for the same amino acid -- it sometimes changes nothing detectable at all. But an insertion or deletion inside a coding sequence shifts the reading frame for every triplet that follows, almost always producing a completely different, usually non-functional protein from that point onward. Same underlying chemistry, wildly different consequences -- which is exactly why geneticists always ask not just what changed, but how many bases changed and where.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် ဘုတ်ပေါ်တွင် စာကြောင်းတိုတစ်ကြောင်းကို သုံးလုံးစီ အုပ်စုခွဲကာ ရေးထားခဲ့သည် - \"THE FAT CAT ATE ONE RAT.\" DNA ကို Triplet အဖြစ် နည်းတူ ဖတ်ကြောင်း ရှင်းပြပြီး စတုတ္ထ အုပ်စုတွင် စာလုံးတစ်လုံးသာ ပြောင်းလဲပါက \"CAT\" ကို \"COT\" အဖြစ် ပြောင်းလဲပါက အဘယ်ဖြစ်လာမည်ကို ခန့်မှန်းခိုင်းခဲ့သည် - \"THE FAT COT ATE ONE RAT.\" စကားလုံးတစ်လုံးသာ ပြောင်းလဲသည်ကို Su Su ထောက်ပြခဲ့သည် -- Codon တစ်ခုတည်း (ထို့ကြောင့် Amino Acid တစ်ခုတည်း အများဆုံး) ကိုသာ ပုံမှန်အားဖြင့် ပြောင်းလဲစေသော Substitution Mutation နှင့် အတိအကျ တူညီသည်။\n\nထို့နောက် ဆရာဇော်မင်းသည် ထို စတုတ္ထ အုပ်စုမှ စာလုံးတစ်လုံးကို ဖျက်ပစ်ခဲ့ပြီး ကျန်ရှိသော စာလုံးများကို Triplet အသစ်များအဖြစ် တူညီသော အစပြု အမှတ်မှ သုံးလုံးစီ ဆက်လက် ဖတ်၍ ပြန်လည် အုပ်စုခွဲခိုင်းခဲ့သည် - \"THE FAT ATA TEO NER AT.\" Htet Aung သည် ၎င်းကို တွက်ချက်ရင်း အံ့ဩသွားခဲ့သည် -- စာလုံးတစ်လုံးသာ ဖယ်ရှားခဲ့သော်လည်း ဖျက်ဆီးမှုအမှတ် ပြီးနောက် အုပ်စုတိုင်း အဓိပ္ပာယ်မရှိသည့် အဖြစ် ပြောင်းလဲသွားခဲ့သည်။ \"ဒါက Frameshift ပါပဲ\" ဟု သူ ဆိုခဲ့သည် \"ထို့ပြင် Substitution ထက် သိသိသာသာ ပိုဆိုးသည် ထင်ရှားသည် -- စာလုံးတစ်လုံး ပျောက်ဆုံးခြင်းက Message ၏ ကျန်ရှိသမျှ အားလုံးကို ဖျက်ဆီးလိုက်ခြင်း ဖြစ်သည်။\"\n\n\"Protein အစစ်အမှန်တွေ လိုက်နာတဲ့ Pattern အတိအကျပါပဲ\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"Substitution တစ်ခုသည် အများဆုံး Amino Acid တစ်ခုကိုသာ ပြောင်းလဲစေပြီး Genetic Code ၏ Degeneracy -- Amino Acid တူညီတစ်ခုအတွက် Codon များစွာ Code ပြုလုပ်ခြင်း -- ကြောင့် တစ်ခါတစ်ရံ မည်သည့် တွေ့ရှိနိုင်သော ပြောင်းလဲမှုမျှ လုံးဝ မဖြစ်စေပါ။ သို့သော် Coding Sequence အတွင်းရှိ Insertion (သို့) Deletion သည် ဆက်လက်ပါဝင်သော Triplet တိုင်း၏ Reading Frame ကို Shift ဖြစ်စေပြီး ထိုအမှတ်ပြီးနောက် လုံးလုံးကွဲပြားသော ပုံမှန်အားဖြင့် Functional မဖြစ်တော့သော Protein ကို ထုတ်လုပ်စေသည်။ တူညီသော အခြေခံ ဓာတုဗေဒ၊ လုံးဝ ကွဲပြားသော ရလဒ်များ -- ဤသည်ကပင် Geneticist များသည် အဘယ် ပြောင်းလဲသနည်း ဆိုတာသာ မဟုတ်ဘဲ Base မည်မျှ ပြောင်းလဲပြီး ဘယ်နေရာတွင် ပြောင်းလဲသနည်းဟု အမြဲ မေးမြန်းရသည့် အကြောင်းရင်း အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, changing \"CAT\" to \"COT\" is analogous to which type of mutation?",
+            questionMy:
+                "\"CAT\" ကို \"COT\" အဖြစ် ပြောင်းလဲခြင်းသည် Mutation မည်သည့်အမျိုးအစားနှင့် တူညီသည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A substitution mutation",
+              "An insertion mutation",
+              "A deletion mutation",
+              "A frameshift mutation",
+            ],
+            optionsMy: ["Substitution Mutation", "Insertion Mutation", "Deletion Mutation", "Frameshift Mutation"],
+            correctIndex: 0,
+            hintsEn: ["Reread the first paragraph."],
+            hintsMy: ["ပထမစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what happened to every triplet group after the deleted letter?",
+            questionMy:
+                "ဖျက်ပစ်ခံခဲ့ရသော စာလုံးပြီးနောက် Triplet အုပ်စုတိုင်းတွင် အဘယ်ဖြစ်လာသည်ကို Htet Aung ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They all changed into nonsense",
+              "They stayed exactly the same",
+              "Only the very last group changed",
+              "They all disappeared completely",
+            ],
+            optionsMy: [
+              "အားလုံး အဓိပ္ပာယ်မရှိသည့် အဖြစ် ပြောင်းလဲသွားခဲ့သည်",
+              "အတိအကျ တူညီစွာ ဆက်ရှိနေခဲ့သည်",
+              "နောက်ဆုံးအုပ်စုတစ်ခုတည်းသာ ပြောင်းလဲသွားခဲ့သည်",
+              "အားလုံး လုံးဝ ပျောက်ကွယ်သွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, what question do geneticists always ask about a mutation?",
+            questionMy:
+                "Mutation တစ်ခုနှင့်ပတ်သက်၍ Geneticist များ အမြဲ မေးမြန်းရသော မေးခွန်းကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "How many bases changed and where",
+              "What colour the DNA is",
+              "How many organisms are affected worldwide",
+              "Whether the mutation happened in a plant or animal",
+            ],
+            optionsMy: [
+              "Base မည်မျှ ပြောင်းလဲပြီး ဘယ်နေရာတွင် ပြောင်းလဲသနည်း",
+              "DNA ၏ အရောင်",
+              "ကမ္ဘာတစ်ဝှမ်း သက်ရှိမည်မျှ ထိခိုက်သနည်း",
+              "Mutation သည် အပင် (သို့) တိရစ္ဆာန်တွင် ဖြစ်ပွားသနည်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w18-d5",
+      dayNumber: 5,
+      titleEn: "Week 18 Recap: Gene Mutation",
+      titleMy: "တစ်ဆယ့်ရှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Gene Mutation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A substitution mutation usually affects...",
+          questionMy: "Substitution Mutation သည် ပုံမှန်အားဖြင့် ...ကို သက်ရောက်စေသည်",
+          optionsEn: [
+            "Only one codon",
+            "Every codon after it",
+            "The entire chromosome",
+            "Nothing at all, ever",
+          ],
+          optionsMy: ["Codon တစ်ခုတည်း", "၎င်းပြီးနောက် Codon တိုင်း", "Chromosome တစ်ခုလုံး", "ဘာမျှ လုံးဝ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "An insertion or deletion mutation typically causes a...",
+          questionMy: "Insertion (သို့) Deletion Mutation သည် ပုံမှန်အားဖြင့် ...ဖြစ်ပေါ်စေသည်",
+          optionsEn: ["Frameshift", "No change at all", "New chromosome pair", "Extra mitochondria"],
+          optionsMy: ["Frameshift", "ပြောင်းလဲမှု လုံးဝ မရှိခြင်း", "Chromosome အတွဲအသစ်", "Mitochondria ထပ်ဆောင်း"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A mutagen is an agent that...",
+          questionMy: "Mutagen ဆိုသည်မှာ ...သော Agent တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Increases the rate of mutation",
+            "Always prevents mutation",
+            "Only affects the light-dependent reactions",
+            "Only exists inside the nephron",
+          ],
+          optionsMy: [
+            "Mutation Rate ကို တိုးမြှင့်ပေး",
+            "Mutation ကို အမြဲတမ်း ကာကွယ်ပေး",
+            "Light-Dependent Reaction ကိုသာ သက်ရောက်",
+            "Nephron အတွင်းတွင်သာ ရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 19: "Monohybrid and Dihybrid Inheritance"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek19 = CourseWeekDef(
+  id: "course-y13-bio-w19",
+  weekNumber: 19,
+  titleEn: "Monohybrid and Dihybrid Inheritance",
+  titleMy: "Monohybrid နှင့် Dihybrid Inheritance",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w19-d1",
+      dayNumber: 1,
+      titleEn: "Punnett Squares, Monohybrid and Dihybrid Crosses",
+      titleMy: "Punnett Square, Monohybrid နှင့် Dihybrid Cross",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "In a monohybrid cross between two heterozygous parents (Aa x Aa), the expected phenotype ratio in the offspring is...",
+          questionMy:
+              "Heterozygous မိဘနှစ်ဦး (Aa x Aa) အကြား Monohybrid Cross တွင် သားစဉ်မြေးဆက်ရှိ မျှော်လင့်ထားသော Phenotype အချိုးမှာ...",
+          optionsEn: [
+            "3 dominant : 1 recessive",
+            "1 dominant : 1 recessive",
+            "1 dominant : 3 recessive",
+            "All offspring show the recessive phenotype",
+          ],
+          optionsMy: [
+            "3 Dominant : 1 Recessive",
+            "1 Dominant : 1 Recessive",
+            "1 Dominant : 3 Recessive",
+            "သားစဉ်မြေးဆက် အားလုံး Recessive Phenotype ပြသသည်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A Punnett square for Aa x Aa gives genotypes AA, Aa, Aa, Aa (1:2:1), and since both AA and Aa show the dominant phenotype, that becomes a 3:1 phenotype ratio.",
+          ],
+          hintsMy: [
+            "Aa x Aa အတွက် Punnett Square က Genotype AA, Aa, Aa, aa (1:2:1) ပေးပြီး AA နှင့် Aa နှစ်ခုစလုံးသည် Dominant Phenotype ပြသသောကြောင့် Phenotype အချိုး 3:1 ဖြစ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A dihybrid cross between two individuals heterozygous for two genes (AaBb x AaBb) produces a classic phenotype ratio of...",
+          questionMy:
+              "Gene နှစ်ခုအတွက် Heterozygous ဖြစ်သော လူပုဂ္ဂိုလ်နှစ်ဦး (AaBb x AaBb) အကြား Dihybrid Cross သည် Classic Phenotype အချိုး ...ကို ထုတ်ပေးသည်",
+          optionsEn: ["9:3:3:1", "3:1", "1:1:1:1", "1:2:1"],
+          optionsMy: ["9:3:3:1", "3:1", "1:1:1:1", "1:2:1"],
+          correctIndex: 0,
+          hintsEn: [
+            "This ratio assumes the two genes assort independently (they are on different chromosomes, or far apart on the same one) -- exactly the independent assortment studied in Week 17.",
+          ],
+          hintsMy: [
+            "ဤအချိုးသည် Gene နှစ်ခုသည် Independently Assort ဖြစ်သည် ဟု ယူဆထားသည် (မတူညီသော Chromosome ပေါ်တွင် ရှိသည် (သို့) Chromosome တစ်ခုတည်းပေါ်တွင် အလွန်ဝေးစွာ ရှိသည်) -- Week 17 တွင် လေ့လာခဲ့သော Independent Assortment နှင့် အတိအကျ တူညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "In a genetic cross, a test cross (crossing an organism of unknown genotype with a homozygous recessive individual) is used to...",
+          questionMy:
+              "Genetic Cross တွင် Test Cross (Genotype မသိသော သတ္တဝါတစ်ခုကို Homozygous Recessive လူပုဂ္ဂိုလ်တစ်ဦးနှင့် ကူးစက်ခြင်း) ကို ...ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Determine whether the unknown individual is homozygous dominant or heterozygous",
+            "Guarantee every offspring shows the dominant phenotype",
+            "Change the genotype of the parent permanently",
+            "Skip meiosis entirely",
+          ],
+          optionsMy: [
+            "မသိသော လူပုဂ္ဂိုလ်သည် Homozygous Dominant ဖြစ်သလား Heterozygous ဖြစ်သလား ဆုံးဖြတ်ရန်",
+            "သားစဉ်မြေးဆက်တိုင်း Dominant Phenotype ပြသကြောင်း အာမခံရန်",
+            "မိဘ၏ Genotype ကို အမြဲတမ်း ပြောင်းလဲရန်",
+            "Meiosis ကို လုံးဝ ကျော်ဖြတ်ရန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "If any offspring show the recessive phenotype, the unknown parent must have been heterozygous (since a homozygous dominant parent could only ever pass on the dominant allele).",
+          ],
+          hintsMy: [
+            "သားစဉ်မြေးဆက် မည်သည်ကမဆို Recessive Phenotype ပြသပါက မသိသော မိဘသည် Heterozygous ဖြစ်ရမည် (Homozygous Dominant မိဘသည် Dominant Allele ကိုသာ တစ်ခါမျှ လွှဲပြောင်းပေးနိုင်သောကြောင့်)။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w19-d2",
+      dayNumber: 2,
+      titleEn: "Match: Inheritance Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Inheritance ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w19-dm-1",
+          termEn: "Punnett square",
+          termMy: "Punnett Square",
+          matchEn: "A grid used to predict the genotype and phenotype ratios of offspring from a cross",
+          matchMy: "Cross တစ်ခုမှ သားစဉ်မြေးဆက်၏ Genotype နှင့် Phenotype အချိုးများကို ခန့်မှန်းရန် အသုံးပြုသော Grid",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w19-dm-2",
+          termEn: "Monohybrid cross",
+          termMy: "Monohybrid Cross",
+          matchEn: "A cross tracking the inheritance of a single gene",
+          matchMy: "Gene တစ်ခု၏ Inheritance ကို ခြေရာခံသော Cross",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w19-dm-3",
+          termEn: "Dihybrid cross",
+          termMy: "Dihybrid Cross",
+          matchEn: "A cross tracking the inheritance of two genes simultaneously",
+          matchMy: "Gene နှစ်ခု၏ Inheritance ကို တစ်ပြိုင်နက် ခြေရာခံသော Cross",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w19-dm-4",
+          termEn: "Homozygous",
+          termMy: "Homozygous",
+          matchEn: "Having two identical alleles for a gene (e.g. AA or aa)",
+          matchMy: "Gene တစ်ခုအတွက် Allele နှစ်ခုတူညီစွာ ရှိခြင်း (ဥပမာ - AA သို့ aa)",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w19-dm-5",
+          termEn: "Heterozygous",
+          termMy: "Heterozygous",
+          matchEn: "Having two different alleles for a gene (e.g. Aa)",
+          matchMy: "Gene တစ်ခုအတွက် Allele နှစ်ခု ကွဲပြားစွာ ရှိခြင်း (ဥပမာ - Aa)",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w19-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Monohybrid or Dihybrid Cross?",
+      titleMy: "စီစစ်ကြမည် - Monohybrid သို့မဟုတ် Dihybrid Cross?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Monohybrid Cross", "Dihybrid Cross"],
+        bucketsMy: ["Monohybrid Cross", "Dihybrid Cross"],
+        items: [
+          SortingItem(
+            id: "y13bio-w19-sort-1",
+            labelEn: "Tracks the inheritance of a single gene, e.g. Aa x Aa",
+            labelMy: "Gene တစ်ခု၏ Inheritance ကို ခြေရာခံသည်၊ ဥပမာ - Aa x Aa",
+            correctBucketEn: "Monohybrid Cross",
+            correctBucketMy: "Monohybrid Cross",
+          ),
+          SortingItem(
+            id: "y13bio-w19-sort-2",
+            labelEn: "Typically produces a 3:1 phenotype ratio between heterozygous parents",
+            labelMy: "Heterozygous မိဘများအကြား ပုံမှန်အားဖြင့် Phenotype အချိုး 3:1 ထုတ်ပေးသည်",
+            correctBucketEn: "Monohybrid Cross",
+            correctBucketMy: "Monohybrid Cross",
+          ),
+          SortingItem(
+            id: "y13bio-w19-sort-3",
+            labelEn: "Tracks the inheritance of two genes simultaneously, e.g. AaBb x AaBb",
+            labelMy: "Gene နှစ်ခု၏ Inheritance ကို တစ်ပြိုင်နက် ခြေရာခံသည်၊ ဥပမာ - AaBb x AaBb",
+            correctBucketEn: "Dihybrid Cross",
+            correctBucketMy: "Dihybrid Cross",
+          ),
+          SortingItem(
+            id: "y13bio-w19-sort-4",
+            labelEn: "Typically produces a 9:3:3:1 phenotype ratio when genes assort independently",
+            labelMy: "Gene များ Independently Assort ဖြစ်သောအခါ ပုံမှန်အားဖြင့် Phenotype အချိုး 9:3:3:1 ထုတ်ပေးသည်",
+            correctBucketEn: "Dihybrid Cross",
+            correctBucketMy: "Dihybrid Cross",
+          ),
+          SortingItem(
+            id: "y13bio-w19-sort-5",
+            labelEn: "Uses a 4-square Punnett square for two parents' gametes",
+            labelMy: "မိဘနှစ်ဦး၏ Gamete များအတွက် Square 4 ခုပါ Punnett Square ကို အသုံးပြုသည်",
+            correctBucketEn: "Monohybrid Cross",
+            correctBucketMy: "Monohybrid Cross",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w19-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Predicting a Litter Before It Is Born",
+      titleMy: "စာဖတ်ခြင်း - မွေးဖွားမီ Litter ကို ခန့်မှန်းခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Predicting a Litter Before It Is Born",
+        titleMy: "မွေးဖွားမီ Litter ကို ခန့်မှန်းခြင်း",
+        passageEn:
+            "Htet Aung's family kept guinea pigs, and he mentioned that black fur (B) was dominant over brown fur (b), and short hair (H) was dominant over long hair (h), two separate genes assorting independently. Both of his breeding pair were heterozygous for both genes (BbHh), and he wanted to know what proportions of offspring to expect before the litter arrived.\n\nSu Su set up the dihybrid cross methodically: each BbHh parent could produce four types of gametes -- BH, Bh, bH, and bh -- in equal proportions, thanks to independent assortment shuffling the two gene pairs separately. Filling in the resulting 4x4 Punnett square and sorting the sixteen offspring genotypes by phenotype, she arrived at the classic dihybrid ratio: 9 black short-haired, 3 black long-haired, 3 brown short-haired, and 1 brown long-haired, out of every sixteen offspring on average.\n\n\"Notice this ratio only holds because the two genes assort completely independently,\" Sayar Zaw Min added, checking Su Su's working. \"If the genes for coat colour and hair length happened to sit close together on the same chromosome, they'd tend to be inherited together more often than chance alone would predict, and the ratio would skew away from 9:3:3:1. For now, though, with two genes on separate chromosomes, Htet Aung can reasonably expect roughly nine sixteenths of the litter to be black and short-haired -- though with a small litter, random chance alone means the actual numbers might not match the prediction exactly.\"",
+        passageMy:
+            "Htet Aung ၏ မိသားစုသည် Guinea Pig များ ထားရှိခဲ့ပြီး Black Fur (B) သည် Brown Fur (b) ထက် Dominant ဖြစ်ကြောင်း၊ Short Hair (H) သည် Long Hair (h) ထက် Dominant ဖြစ်ကြောင်း၊ Independently Assort ဖြစ်သော Gene သီးခြား နှစ်ခု ဖြစ်ကြောင်း ပြောပြခဲ့သည်။ သူ၏ ပြောင်းရေးအတွဲနှစ်ခုသည် Gene နှစ်ခုစလုံးအတွက် Heterozygous (BbHh) ဖြစ်ခဲ့ပြီး Litter မရောက်မီ သားစဉ်မြေးဆက် အချိုးအစား မည်မျှ မျှော်လင့်ရမည်ကို သိလိုခဲ့သည်။\n\nSu Su သည် Dihybrid Cross ကို စနစ်တကျ စီစဉ်ခဲ့သည် - BbHh မိဘတစ်ဦးစီသည် Independent Assortment က Gene အတွဲနှစ်ခုကို သီးခြားစီ ရောနှောပေးခြင်းကြောင့် Gamete အမျိုးအစား လေးမျိုး -- BH, Bh, bH, bh -- ကို ညီမျှသော အချိုးဖြင့် ထုတ်လုပ်ပေးနိုင်သည်။ ဖြစ်ပေါ်လာသော Punnett Square 4x4 ကို ဖြည့်ပြီး သားစဉ်မြေးဆက် Genotype ဆယ့်ခြောက်ခုကို Phenotype ဖြင့် စီစဉ်ကာ Classic Dihybrid အချိုးသို့ ရောက်ရှိခဲ့သည် - သားစဉ်မြေးဆက် ဆယ့်ခြောက်ခုစီတွင် ပျမ်းမျှအားဖြင့် Black Short-Haired ကိုးခု, Black Long-Haired သုံးခု, Brown Short-Haired သုံးခုနှင့် Brown Long-Haired တစ်ခု။\n\n\"ဒီအချိုးက Gene နှစ်ခု လုံးလုံးလျားလျား Independently Assort ဖြစ်တဲ့အတွက်ကြောင့်သာ ဖြစ်ပါတယ်\" ဟု ဆရာဇော်မင်းက Su Su ၏ တွက်ချက်မှုကို စစ်ဆေးရင်း ထပ်ဆင့်ခဲ့သည်။ \"Coat Colour နှင့် Hair Length အတွက် Gene များသည် Chromosome တစ်ခုတည်းပေါ်တွင် နီးကပ်စွာ တည်ရှိနေပါက ကံအလျောက်ခန့်မှန်းသည်ထက် ပိုမကြာခဏ အတူတကွ ရရှိလေ့ရှိပြီး အချိုးသည် 9:3:3:1 မှ ကွေ့ဝေးသွားလိမ့်မည်။ ယခုအတွက်မူ Chromosome သီးခြားစီပေါ်တွင် Gene နှစ်ခု ရှိသောကြောင့် Litter ၏ ဆယ့်ခြောက်ပုံ ကိုးပုံခန့်ကို Black နှင့် Short-Haired ဖြစ်လိမ့်မည်ဟု Htet Aung သင့်တင့်စွာ မျှော်လင့်နိုင်ပါသည် -- သို့သော် Litter သေးငယ်ပါက Random ကံအလျောက်တစ်ခုတည်းက အမှန်တကယ် ဂဏန်းများကို ခန့်မှန်းချက်နှင့် အတိအကျ မကိုက်ညီစေနိုင်ပါ။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, how many types of gametes can each BbHh parent produce?",
+            questionMy:
+                "BbHh မိဘတစ်ဦးစီသည် Gamete အမျိုးအစား မည်မျှ ထုတ်လုပ်နိုင်သည်ကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: ["Four", "Two", "One", "Sixteen"],
+            optionsMy: ["လေးမျိုး", "နှစ်မျိုး", "တစ်မျိုး", "ဆယ့်ခြောက်မျိုး"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Su Su's cross, how many of every sixteen offspring on average are expected to be black and short-haired?",
+            questionMy:
+                "Su Su ၏ Cross အရ ပျမ်းမျှအားဖြင့် သားစဉ်မြေးဆက် ဆယ့်ခြောက်ခုတွင် Black နှင့် Short-Haired မည်မျှ မျှော်လင့်ရသည်ကို ဖော်ပြပါ။",
+            optionsEn: ["Nine", "Three", "One", "Sixteen"],
+            optionsMy: ["ကိုးခု", "သုံးခု", "တစ်ခု", "ဆယ့်ခြောက်ခု"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, what would happen to the 9:3:3:1 ratio if the two genes sat close together on the same chromosome?",
+            questionMy:
+                "Gene နှစ်ခု Chromosome တစ်ခုတည်းပေါ်တွင် နီးကပ်စွာ ရှိပါက 9:3:3:1 အချိုးတွင် အဘယ်ဖြစ်လာမည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It would skew away from 9:3:3:1",
+              "It would become exactly 1:1:1:1 instead",
+              "It would have no effect on the ratio at all",
+              "It would guarantee only black short-haired offspring",
+            ],
+            optionsMy: [
+              "9:3:3:1 မှ ကွေ့ဝေးသွားလိမ့်မည်",
+              "1:1:1:1 အဖြစ် အတိအကျ ပြောင်းသွားလိမ့်မည်",
+              "အချိုးအပေါ် သက်ရောက်မှု လုံးဝ မရှိပါ",
+              "Black Short-Haired သားစဉ်မြေးဆက်ကိုသာ အာမခံလိမ့်မည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w19-d5",
+      dayNumber: 5,
+      titleEn: "Week 19 Recap: Monohybrid and Dihybrid Inheritance",
+      titleMy: "တစ်ဆယ့်ကိုးပတ် ပြန်လည်သုံးသပ်ခြင်း - Monohybrid နှင့် Dihybrid Inheritance",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A monohybrid cross between two heterozygotes gives a phenotype ratio of...",
+          questionMy: "Heterozygote နှစ်ခုအကြား Monohybrid Cross သည် Phenotype အချိုး ...ပေးသည်",
+          optionsEn: ["3:1", "9:3:3:1", "1:1", "1:2:1"],
+          optionsMy: ["3:1", "9:3:3:1", "1:1", "1:2:1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A dihybrid cross between two double heterozygotes gives a classic ratio of...",
+          questionMy: "Double Heterozygote နှစ်ခုအကြား Dihybrid Cross သည် Classic အချိုး ...ပေးသည်",
+          optionsEn: ["9:3:3:1", "3:1", "1:1", "1:1:1:1"],
+          optionsMy: ["9:3:3:1", "3:1", "1:1", "1:1:1:1"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A test cross is used to determine whether an individual is...",
+          questionMy: "Test Cross ကို လူပုဂ္ဂိုလ်တစ်ဦးသည် ...ဆိုသည်ကို ဆုံးဖြတ်ရန် အသုံးပြုသည်",
+          optionsEn: [
+            "Homozygous dominant or heterozygous",
+            "Male or female",
+            "Diploid or haploid",
+            "A plant or an animal",
+          ],
+          optionsMy: [
+            "Homozygous Dominant ဖြစ်သလား Heterozygous ဖြစ်သလား",
+            "ကျား သို့မဟုတ် မ",
+            "Diploid သို့မဟုတ် Haploid",
+            "အပင် သို့မဟုတ် တိရစ္ဆာန်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 20: "Gene Control" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek20 = CourseWeekDef(
+  id: "course-y13-bio-w20",
+  weekNumber: 20,
+  titleEn: "Gene Control",
+  titleMy: "Gene Control",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w20-d1",
+      dayNumber: 1,
+      titleEn: "Transcription Factors and Gene Expression",
+      titleMy: "Transcription Factor နှင့် Gene Expression",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Every cell in an organism contains the same genes, yet a liver cell and a muscle cell look and behave very differently, mainly because...",
+          questionMy:
+              "သတ္တဝါတစ်ခု၏ ဆဲလ်တိုင်းတွင် Gene တူညီစွာ ပါဝင်သော်လည်း အသည်းဆဲလ်နှင့် ကြွက်သားဆဲလ်တို့သည် အလွန် ကွဲပြားစွာ ရှုပုံနှင့် လုပ်ဆောင်ကြသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Different genes are switched on or off in each cell type, controlling gene expression",
+            "Each cell type contains an entirely different set of genes",
+            "Only liver cells contain any DNA at all",
+            "Muscle cells have no genes for liver proteins removed or added",
+          ],
+          optionsMy: [
+            "ဆဲလ်အမျိုးအစားတိုင်းတွင် Gene ကွဲပြားစွာ ဖွင့် (သို့) ပိတ်ထားပြီး Gene Expression ကို ထိန်းချုပ်ထားသောကြောင့်",
+            "ဆဲလ်အမျိုးအစားတိုင်းတွင် လုံးလုံးကွဲပြားသော Gene အစုအဝေးတစ်ခု ပါဝင်သောကြောင့်",
+            "အသည်းဆဲလ်တွင်သာ DNA မည်သည်မဆို ပါဝင်သောကြောင့်",
+            "ကြွက်သားဆဲလ်များတွင် အသည်း Protein Gene များ ဖယ်ရှား (သို့) ထပ်ထည့်ခြင်း မရှိသောကြောင့်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is the core idea of gene control: cell specialisation comes from which genes are actively expressed, not from cells carrying different genes in the first place.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ Gene Control ၏ အဓိက အယူအဆ ဖြစ်သည် - Cell Specialisation သည် ဆဲလ်များ အစပိုင်းတွင် ကွဲပြားသော Gene ပါဝင်ခြင်းမှ မဟုတ်ဘဲ Gene မည်သည် Active စွာ Expressed ဖြစ်သည်ဆိုသည်မှ ဖြစ်ပေါ်လာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn: "A transcription factor controls gene expression by...",
+          questionMy: "Transcription Factor တစ်ခုသည် ...ဖြင့် Gene Expression ကို ထိန်းချုပ်သည်",
+          optionsEn: [
+            "Binding to specific DNA sequences and switching a gene's transcription on or off",
+            "Directly translating mRNA into protein at the ribosome",
+            "Physically cutting the DNA molecule into pieces",
+            "Replacing the gene's promoter with a completely new sequence permanently",
+          ],
+          optionsMy: [
+            "သီးခြား DNA Sequence များနှင့် ဖွဲ့စည်းပြီး Gene ၏ Transcription ကို ဖွင့် (သို့) ပိတ်ခြင်း",
+            "Ribosome တွင် mRNA ကို Protein အဖြစ် တိုက်ရိုက် Translation ပြုလုပ်ခြင်း",
+            "DNA မော်လီကျူးကို အပိုင်းအစများအဖြစ် ရုပ်ပိုင်းဆိုင်ရာ ဖြတ်ခြင်း",
+            "Gene ၏ Promoter ကို လုံးလုံးအသစ်တစ်ခုဖြင့် အမြဲတမ်း အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "A transcription factor may act as an activator (binding to a promoter or enhancer region to increase transcription) or a repressor (blocking RNA polymerase from binding), depending on the specific factor.",
+          ],
+          hintsMy: [
+            "Transcription Factor တစ်ခုသည် Activator (Transcription တိုးမြှင့်ရန် Promoter (သို့) Enhancer Region နှင့် ဖွဲ့စည်းခြင်း) (သို့) Repressor (RNA Polymerase ဖွဲ့စည်းခြင်းကို ပိတ်ဆို့ခြင်း) အဖြစ် သီးခြား Factor အလိုက် လုပ်ဆောင်နိုင်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The presence of a particular hormone can act as a signal that determines which transcription factors are active in a cell, meaning...",
+          questionMy:
+              "Hormone အထူးတစ်ခု ရှိနေခြင်းသည် ဆဲလ်တစ်ခုအတွင်း Transcription Factor မည်သည် Active ဖြစ်သည်ကို ဆုံးဖြတ်ပေးသော Signal အဖြစ် လုပ်ဆောင်နိုင်ပြီး ဆိုလိုသည်မှာ...",
+          optionsEn: [
+            "Gene expression can be regulated by signals from outside the cell, not only by factors already inside it",
+            "Hormones can never influence which genes are transcribed",
+            "Every cell responds to every hormone in exactly the same way",
+            "Gene expression is completely fixed from birth and cannot be regulated",
+          ],
+          optionsMy: [
+            "Gene Expression ကို ဆဲလ်အတွင်း ရှိနှင့်ပြီးသား Factor များကသာမက ဆဲလ်အပြင်ဘက်မှ Signal များကလည်း ထိန်းညှိနိုင်သည်",
+            "Hormone များသည် Gene မည်သည် Transcribe ဖြစ်သည်ကို ဘယ်တော့မှ လွှမ်းမိုးနိုင်ခြင်း မရှိပါ",
+            "ဆဲလ်တိုင်းသည် Hormone တိုင်းကို အတိအကျ တူညီသော နည်းလမ်းဖြင့် တုံ့ပြန်သည်",
+            "Gene Expression သည် မွေးဖွားချိန်မှစ၍ လုံးလုံးကုန်ဆုံးနေပြီး ထိန်းညှိ၍ မရပါ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is how an organism responds appropriately to its environment or its own internal signals -- gene expression is dynamic and responsive, not a one-time fixed program set at birth.",
+          ],
+          hintsMy: [
+            "ဤသည်မှာ သတ္တဝါတစ်ခုသည် ၎င်း၏ ပတ်ဝန်းကျင် (သို့) ကိုယ်ပိုင် Internal Signal များအား သင့်လျော်စွာ တုံ့ပြန်ပုံ ဖြစ်သည် -- Gene Expression သည် Dynamic ဖြစ်ပြီး တုံ့ပြန်နိုင်သည်၊ မွေးဖွားချိန်တွင် သတ်မှတ်ထားသော တစ်ကြိမ်တည်း Fixed Program မဟုတ်ပါ။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w20-d2",
+      dayNumber: 2,
+      titleEn: "Match: Gene Control Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Gene Control ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w20-dm-1",
+          termEn: "Transcription factor",
+          termMy: "Transcription Factor",
+          matchEn: "A protein that binds to DNA and switches a gene's transcription on or off",
+          matchMy: "DNA နှင့် ဖွဲ့စည်းပြီး Gene ၏ Transcription ကို ဖွင့် (သို့) ပိတ်ပေးသော Protein",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w20-dm-2",
+          termEn: "Gene expression",
+          termMy: "Gene Expression",
+          matchEn: "The process by which information in a gene is used to produce a functional product, such as a protein",
+          matchMy: "Gene တစ်ခုရှိ အချက်အလက်ကို Protein ကဲ့သို့ Functional Product ထုတ်လုပ်ရန် အသုံးပြုသော လုပ်ငန်းစဉ်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w20-dm-3",
+          termEn: "Cell specialisation",
+          termMy: "Cell Specialisation",
+          matchEn: "Cells becoming structurally and functionally different despite carrying identical genes",
+          matchMy: "Gene တူညီစွာ ဆောင်ထားသော်လည်း ဆဲလ်များ ဖွဲ့စည်းပုံနှင့် လုပ်ဆောင်ချက် ကွဲပြားလာခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w20-dm-4",
+          termEn: "Activator",
+          termMy: "Activator",
+          matchEn: "A transcription factor that increases the rate of transcription of a gene",
+          matchMy: "Gene တစ်ခု၏ Transcription နှုန်းကို တိုးမြှင့်ပေးသော Transcription Factor",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w20-dm-5",
+          termEn: "Repressor",
+          termMy: "Repressor",
+          matchEn: "A transcription factor that blocks or reduces the transcription of a gene",
+          matchMy: "Gene တစ်ခု၏ Transcription ကို ပိတ်ဆို့ (သို့) လျှော့ချပေးသော Transcription Factor",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w20-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Activator or Repressor?",
+      titleMy: "စီစစ်ကြမည် - Activator သို့မဟုတ် Repressor?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Activator", "Repressor"],
+        bucketsMy: ["Activator", "Repressor"],
+        items: [
+          SortingItem(
+            id: "y13bio-w20-sort-1",
+            labelEn: "Binds to a promoter or enhancer to increase transcription",
+            labelMy: "Transcription ကို တိုးမြှင့်ရန် Promoter (သို့) Enhancer နှင့် ဖွဲ့စည်းသည်",
+            correctBucketEn: "Activator",
+            correctBucketMy: "Activator",
+          ),
+          SortingItem(
+            id: "y13bio-w20-sort-2",
+            labelEn: "Switches a gene on, making its protein product more abundant",
+            labelMy: "Gene ကို ဖွင့်ပေးကာ ၎င်း၏ Protein Product ကို ပိုများစေသည်",
+            correctBucketEn: "Activator",
+            correctBucketMy: "Activator",
+          ),
+          SortingItem(
+            id: "y13bio-w20-sort-3",
+            labelEn: "Blocks RNA polymerase from binding to a gene's promoter",
+            labelMy: "RNA Polymerase သည် Gene ၏ Promoter နှင့် ဖွဲ့စည်းခြင်းကို ပိတ်ဆို့သည်",
+            correctBucketEn: "Repressor",
+            correctBucketMy: "Repressor",
+          ),
+          SortingItem(
+            id: "y13bio-w20-sort-4",
+            labelEn: "Switches a gene off, reducing its expression",
+            labelMy: "Gene ကို ပိတ်ပေးကာ ၎င်း၏ Expression ကို လျှော့ချသည်",
+            correctBucketEn: "Repressor",
+            correctBucketMy: "Repressor",
+          ),
+          SortingItem(
+            id: "y13bio-w20-sort-5",
+            labelEn: "Can respond to a hormone signal from outside the cell",
+            labelMy: "ဆဲလ်အပြင်ဘက်မှ Hormone Signal ကို တုံ့ပြန်နိုင်သည်",
+            correctBucketEn: "Activator",
+            correctBucketMy: "Activator",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w20-d4",
+      dayNumber: 4,
+      titleEn: "Reading: One Genome, Two Hundred Types of Cell",
+      titleMy: "စာဖတ်ခြင်း - Genome တစ်ခု, ဆဲလ်အမျိုးအစား နှစ်ရာ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "One Genome, Two Hundred Types of Cell",
+        titleMy: "Genome တစ်ခု, ဆဲလ်အမျိုးအစား နှစ်ရာ",
+        passageEn:
+            "For Term 5's capstone lesson, Sayar Zaw Min asked the class a question that tied the whole term together: if every cell in the human body -- roughly two hundred different types -- contains an identical copy of the same genome, inherited through the same meiosis and fertilisation studied in Week 17, why do a nerve cell and a red blood cell look and behave nothing alike?\n\nSu Su offered the answer built on this week's new material: it isn't the genes themselves that differ between cell types, but which genes are actively expressed. Transcription factors -- proteins that bind to specific DNA sequences near a gene -- act as the switches: an activator binding near a gene increases its transcription, while a repressor blocks RNA polymerase and shuts transcription down. A liver cell expresses a different combination of transcription factors than a muscle cell does, so each transcribes a different subset of the shared genome into mRNA, and ultimately into different proteins.\n\n\"And this connects directly back to mutation and inheritance too,\" Htet Aung added, working through the implications himself. \"A mutation in a gene that codes for a transcription factor doesn't just change one protein -- it can change which other genes get switched on or off, potentially in every cell type that transcription factor normally controls. That's a much bigger consequence than a mutation in an ordinary structural gene.\" Sayar Zaw Min agreed. \"Gene control is the missing piece that finally explains how one genome, faithfully copied and inherited according to everything we studied this term, can still produce hundreds of visibly different cell types -- and it's exactly this kind of regulated gene expression, not any difference in the DNA sequence itself, that builds a whole organism out of a single fertilised cell.\"",
+        passageMy:
+            "Term 5 ၏ Capstone သင်ခန်းစာအတွက် ဆရာဇော်မင်းက Term တစ်ခုလုံးကို ချိတ်ဆက်ပေးသော မေးခွန်းတစ်ခု အတန်းအား မေးခဲ့သည် - လူသားခန္ဓာကိုယ်ရှိ ဆဲလ်တိုင်း -- ခန့်မှန်း အမျိုးအစား နှစ်ရာခန့် -- သည် Week 17 တွင် လေ့လာခဲ့သော Meiosis နှင့် Fertilisation တစ်ခုတည်းမှ အမွေဆက်ခံလာသော Genome တူညီတစ်ခု ရှိပါက Nerve Cell နှင့် သွေးနီဥသည် အဘယ်ကြောင့် အလွန် ရှုပုံနှင့် လုပ်ဆောင်ချက် ကွဲပြားနေသနည်း။\n\nSu Su က ဒီအပတ်ရဲ့ အကြောင်းအရာသစ်ပေါ်တွင် တည်ဆောက်ထားသော အဖြေကို ပေးခဲ့သည် - ဆဲလ်အမျိုးအစားများအကြား ကွဲပြားသည်မှာ Gene များ ကိုယ်တိုင် မဟုတ်ဘဲ Gene မည်သည် Active စွာ Expressed ဖြစ်သည်ဆိုသည်သာ ဖြစ်သည်။ Gene တစ်ခုအနီးရှိ သီးခြား DNA Sequence များနှင့် ဖွဲ့စည်းသော Protein များ Transcription Factor များသည် Switch များအဖြစ် လုပ်ဆောင်ကြသည် - Gene တစ်ခု အနီးတွင် ဖွဲ့စည်းသော Activator သည် ၎င်း၏ Transcription ကို တိုးမြှင့်ပေးပြီး Repressor သည် RNA Polymerase ကို ပိတ်ဆို့ကာ Transcription ကို ပိတ်ပစ်သည်။ အသည်းဆဲလ်သည် ကြွက်သားဆဲလ်နှင့် ကွဲပြားသော Transcription Factor ပေါင်းစပ်မှုကို Express ပြုလုပ်ခြင်းကြောင့် တစ်ခုစီသည် မျှဝေထားသော Genome ၏ ကွဲပြားသော အစိတ်အပိုင်းတစ်ခုကို mRNA အဖြစ်၊ နောက်ဆုံးတွင် ကွဲပြားသော Protein များအဖြစ် Transcribe ပြုလုပ်ကြသည်။\n\n\"ဒါက Mutation နဲ့ Inheritance ကိုလည်း တိုက်ရိုက် ပြန်ဆက်ပေးပါတယ်\" ဟု Htet Aung က ၎င်း၏ သက်ရောက်မှုကို ကိုယ်တိုင် တွက်ချက်ကာ ထပ်ဆင့်ခဲ့သည်။ \"Transcription Factor အတွက် Code ပြုလုပ်ပေးသော Gene တစ်ခုတွင် Mutation တစ်ခု ဖြစ်ခြင်းသည် Protein တစ်ခုတည်းကိုသာ ပြောင်းလဲစေသည် မဟုတ်ပါ -- ထို Transcription Factor ပုံမှန်အားဖြင့် ထိန်းချုပ်သည့် ဆဲလ်အမျိုးအစားတိုင်းတွင် အခြား Gene မည်သည် ဖွင့် (သို့) ပိတ်သည်ကိုပါ ပြောင်းလဲစေနိုင်သည်။ ဒါက ပုံမှန် Structural Gene တစ်ခုတွင် Mutation ဖြစ်ခြင်းထက် များစွာ ပိုကြီးမားသော သက်ရောက်မှု ဖြစ်ပါတယ်။\" ဆရာဇော်မင်း သဘောတူခဲ့သည်။ \"Gene Control သည် Term ဤတစ်လျှောက် လေ့လာခဲ့သမျှအတိုင်း သစ္စာရှိစွာ ကူးယူပြီး အမွေဆက်ခံလာသော Genome တစ်ခုသည် ရှင်းရှင်းလင်းလင်း ကွဲပြားသော ဆဲလ်အမျိုးအစား ရာနှင့်ချီ၍ မည်သို့ ထုတ်လုပ်နိုင်သေးသည်ကို နောက်ဆုံးတွင် ရှင်းပြပေးသော ပျောက်ဆုံးနေသော အစိတ်အပိုင်း ဖြစ်ပါသည် -- ထို့ပြင် DNA Sequence ကိုယ်တိုင်၏ ကွဲပြားမှု မဟုတ်ဘဲ ဤသို့သော Regulated Gene Expression ကပင် Fertilised ဆဲလ်တစ်ခုတည်းမှ သတ္တဝါတစ်ခုလုံးကို တည်ဆောက်ပေးသည် အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what actually differs between a liver cell and a muscle cell?",
+            questionMy:
+                "အသည်းဆဲလ်နှင့် ကြွက်သားဆဲလ် အကြား အမှန်တကယ် ကွဲပြားသောအရာကို Su Su ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Which genes are actively expressed",
+              "The actual genes each cell contains",
+              "The number of chromosomes in each cell",
+              "The species each cell belongs to",
+            ],
+            optionsMy: [
+              "Gene မည်သည် Active စွာ Expressed ဖြစ်သည်",
+              "ဆဲလ်တစ်ခုစီ ပါဝင်သော Gene အမှန်တကယ်",
+              "ဆဲလ်တစ်ခုစီရှိ Chromosome အရေအတွက်",
+              "ဆဲလ်တစ်ခုစီ ပါဝင်သော မျိုးစိတ်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, why can a mutation in a transcription factor gene be especially significant?",
+            questionMy:
+                "Transcription Factor Gene တစ်ခုတွင် Mutation တစ်ခု အထူး အရေးကြီးနိုင်သည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "It can change which other genes are switched on or off",
+              "It only ever affects one single protein and nothing else",
+              "It always makes the organism produce more chlorophyll",
+              "It has no connection to gene expression at all",
+            ],
+            optionsMy: [
+              "အခြား Gene မည်သည် ဖွင့် (သို့) ပိတ်သည်ကို ပြောင်းလဲစေနိုင်သောကြောင့်",
+              "Protein တစ်ခုတည်းကိုသာ တစ်ခါမျှ သက်ရောက်ပြီး အခြားမည်သည်ကိုမျှ မသက်ရောက်သောကြောင့်",
+              "သတ္တဝါအား Chlorophyll ပိုများစွာ ထုတ်လုပ်စေအောင် အမြဲတမ်း ပြုလုပ်သောကြောင့်",
+              "Gene Expression နှင့် ဆက်စပ်မှု လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, what actually builds a whole organism out of a single fertilised cell?",
+            questionMy:
+                "Fertilised ဆဲလ်တစ်ခုတည်းမှ သတ္တဝါတစ်ခုလုံးကို မည်သည်က အမှန်တကယ် တည်ဆောက်ပေးသည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Regulated gene expression, not a difference in DNA sequence",
+              "A completely different DNA sequence in every cell",
+              "Random chance alone, with no regulation at all",
+              "Only the process of meiosis, with no further control needed",
+            ],
+            optionsMy: [
+              "Regulated Gene Expression၊ DNA Sequence ကွဲပြားမှု မဟုတ်ပါ",
+              "ဆဲလ်တိုင်းရှိ လုံးလုံးကွဲပြားသော DNA Sequence",
+              "Regulation လုံးဝ မပါဘဲ Random ကံအလျောက်တစ်ခုတည်း",
+              "Meiosis လုပ်ငန်းစဉ်တစ်ခုတည်းသာ၊ နောက်ထပ် Control မလိုအပ်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w20-d5",
+      dayNumber: 5,
+      titleEn: "Week 20 Recap: Gene Control",
+      titleMy: "နှစ်ဆယ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Gene Control",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "A transcription factor controls gene expression by...",
+          questionMy: "Transcription Factor တစ်ခုသည် ...ဖြင့် Gene Expression ကို ထိန်းချုပ်သည်",
+          optionsEn: [
+            "Binding to DNA and switching transcription on or off",
+            "Directly synthesising protein at the ribosome",
+            "Cutting DNA into random fragments",
+            "Replacing the entire genome",
+          ],
+          optionsMy: [
+            "DNA နှင့် ဖွဲ့စည်းပြီး Transcription ကို ဖွင့် (သို့) ပိတ်ခြင်း",
+            "Ribosome တွင် Protein ကို တိုက်ရိုက် Synthesise ပြုလုပ်ခြင်း",
+            "DNA ကို Random အပိုင်းအစများအဖြစ် ဖြတ်ခြင်း",
+            "Genome တစ်ခုလုံးကို အစားထိုးခြင်း",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A liver cell and a muscle cell differ mainly because...",
+          questionMy: "အသည်းဆဲလ်နှင့် ကြွက်သားဆဲလ်တို့ ကွဲပြားရသည့် အဓိကအကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "Different genes are expressed in each cell",
+            "Each cell contains a different genome",
+            "Only one of them contains DNA",
+            "They belong to different species",
+          ],
+          optionsMy: [
+            "ဆဲလ်တစ်ခုစီတွင် Gene ကွဲပြားစွာ Expressed ဖြစ်သောကြောင့်",
+            "ဆဲလ်တစ်ခုစီတွင် Genome ကွဲပြားစွာ ပါဝင်သောကြောင့်",
+            "တစ်ခုတည်းသာ DNA ပါဝင်သောကြောင့်",
+            "မျိုးစိတ် ကွဲပြားသောကြောင့်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A repressor is a transcription factor that...",
+          questionMy: "Repressor ဆိုသည်မှာ ...သော Transcription Factor တစ်ခု ဖြစ်သည်",
+          optionsEn: [
+            "Blocks or reduces transcription of a gene",
+            "Always increases transcription",
+            "Only affects the mitochondrion",
+            "Has no effect on any gene",
+          ],
+          optionsMy: [
+            "Gene တစ်ခု၏ Transcription ကို ပိတ်ဆို့ (သို့) လျှော့ချ",
+            "Transcription ကို အမြဲတမ်း တိုးမြှင့်",
+            "Mitochondrion ကိုသာ သက်ရောက်",
+            "Gene မည်သည့်ကိုမျှ သက်ရောက်မှု မရှိ",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm5 = CourseTermDef(
+  id: "course-y13-bio-t5",
+  termNumber: 5,
+  titleEn: "Inherited Change",
+  titleMy: "Inherited Change",
+  weeks: [_y13BioWeek17, _y13BioWeek18, _y13BioWeek19, _y13BioWeek20],
+  certificateTitleEn: "A2 Biology: Inherited Change",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Inherited Change",
+);
+
+// =====================================================================
+// YEAR 13 BIOLOGY -- Term 6: "Selection and Evolution"
+// (Weeks 21-24)
+// =====================================================================
+
+// -----------------------------------------------------------------------
+// Week 21: "Variation Within a Population"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek21 = CourseWeekDef(
+  id: "course-y13-bio-w21",
+  weekNumber: 21,
+  titleEn: "Variation Within a Population",
+  titleMy: "Population တစ်ခုအတွင်း Variation",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w21-d1",
+      dayNumber: 1,
+      titleEn: "Genetic and Environmental Variation",
+      titleMy: "Genetic နှင့် Environmental Variation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Variation within a population arises from two main sources: genetic variation and...",
+          questionMy:
+              "Population တစ်ခုအတွင်း Variation သည် အဓိက ရင်းမြစ်နှစ်ခုမှ ဖြစ်ပေါ်လာသည် - Genetic Variation နှင့်...",
+          optionsEn: [
+            "Environmental variation, caused by differences in surroundings",
+            "Only mutation, with no other source at all",
+            "Only crossing over, with no other source at all",
+            "Chance alone, unrelated to genes or environment",
+          ],
+          optionsMy: [
+            "ပတ်ဝန်းကျင် ကွဲပြားမှုကြောင့် ဖြစ်ပေါ်လာသော Environmental Variation",
+            "အခြားရင်းမြစ် လုံးဝ မရှိဘဲ Mutation သာ",
+            "အခြားရင်းမြစ် လုံးဝ မရှိဘဲ Crossing Over သာ",
+            "Gene (သို့) ပတ်ဝန်းကျင်နှင့် မသက်ဆိုင်သော ကံအလျောက်တစ်ခုတည်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Height in humans is a good example of both: genetics sets a range of possibility, but diet and health during growth (environmental factors) determine where within that range an individual ends up.",
+          ],
+          hintsMy: [
+            "လူသားများ၏ အရပ်အမြင့်သည် နှစ်ခုစလုံး၏ ဥပမာကောင်းတစ်ခု ဖြစ်သည် - Genetics သည် ဖြစ်နိုင်ခြေ အပိုင်းအခြားတစ်ခုကို သတ်မှတ်ပေးသော်လည်း ကြီးထွားစဉ် Diet နှင့် ကျန်းမာရေး (Environmental Factor) များက ထို အပိုင်းအခြားအတွင်း လူပုဂ္ဂိုလ်တစ်ဦး မည်သည့်နေရာ ရောက်ရှိသည်ကို ဆုံးဖြတ်ပေးသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trait such as human blood group, which falls into a small number of distinct categories (A, B, AB, O), shows...",
+          questionMy:
+              "Human Blood Group ကဲ့သို့ ကွဲပြားသော အုပ်စု အနည်းငယ် (A, B, AB, O) ထဲသို့ ကျရောက်သော Trait တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Discontinuous variation, usually controlled by one or a small number of genes",
+            "Continuous variation, controlled by many genes and environment",
+            "No variation at all within the population",
+            "Purely environmental variation with no genetic basis",
+          ],
+          optionsMy: [
+            "ပုံမှန်အားဖြင့် Gene တစ်ခု (သို့) အနည်းငယ်ဖြင့် ထိန်းချုပ်ထားသော Discontinuous Variation",
+            "Gene များနှင့် ပတ်ဝန်းကျင်ဖြင့် ထိန်းချုပ်ထားသော Continuous Variation",
+            "Population အတွင်း Variation လုံးဝ မရှိခြင်း",
+            "Genetic အခြေခံ လုံးဝ မရှိဘဲ Pure Environmental Variation",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Discontinuous variation gives distinct categories with no intermediates (you cannot be \"halfway\" between blood group A and B) -- unlike continuous variation, which shows a smooth range.",
+          ],
+          hintsMy: [
+            "Discontinuous Variation သည် ကွဲပြားသော အုပ်စုများကို Intermediate မပါဘဲ ပေးသည် (Blood Group A နှင့် B အကြား \"တစ်ဝက်\" ဖြစ်၍ မရပါ) -- ချောမွေ့သော အပိုင်းအခြားကို ပြသသော Continuous Variation နှင့် မတူပါ။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "A trait such as human height, which shows a smooth range from short to tall with no distinct categories, shows...",
+          questionMy:
+              "လူသားများ၏ အရပ်အမြင့်ကဲ့သို့ တိုသည်မှ မြင့်သည်အထိ ကွဲပြားသော အုပ်စု မပါဘဲ ချောမွေ့သော အပိုင်းအခြား ပြသသော Trait တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: [
+            "Continuous variation, usually influenced by many genes plus the environment",
+            "Discontinuous variation, controlled by a single gene",
+            "No genetic influence at all",
+            "A mutation affecting only one individual",
+          ],
+          optionsMy: [
+            "ပုံမှန်အားဖြင့် Gene များနှင့် ပတ်ဝန်းကျင်ဖြင့် လွှမ်းမိုးထားသော Continuous Variation",
+            "Gene တစ်ခုတည်းဖြင့် ထိန်းချုပ်ထားသော Discontinuous Variation",
+            "Genetic လွှမ်းမိုးမှု လုံးဝ မရှိခြင်း",
+            "လူပုဂ္ဂိုလ်တစ်ဦးတည်းကိုသာ သက်ရောက်သော Mutation",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "When a trait is controlled by many genes acting together (polygenic inheritance), plotting the population's values typically produces a bell-shaped (normal distribution) curve.",
+          ],
+          hintsMy: [
+            "Trait တစ်ခုကို Gene များစွာ ပေါင်းစပ်ထားသော (Polygenic Inheritance) ကထိန်းချုပ်သောအခါ Population ၏ တန်ဖိုးများကို Plot လုပ်ခြင်းက ပုံမှန်အားဖြင့် Bell-Shaped (Normal Distribution) Curve ကို ဖြစ်ပေါ်စေသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w21-d2",
+      dayNumber: 2,
+      titleEn: "Match: Variation Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Variation ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w21-dm-1",
+          termEn: "Genetic variation",
+          termMy: "Genetic Variation",
+          matchEn: "Differences between individuals caused by differences in their alleles",
+          matchMy: "လူပုဂ္ဂိုလ်များ၏ Allele ကွဲပြားမှုကြောင့် ဖြစ်ပေါ်လာသော ကွဲပြားမှုများ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w21-dm-2",
+          termEn: "Environmental variation",
+          termMy: "Environmental Variation",
+          matchEn: "Differences between individuals caused by differences in their surroundings",
+          matchMy: "ပတ်ဝန်းကျင် ကွဲပြားမှုကြောင့် ဖြစ်ပေါ်လာသော လူပုဂ္ဂိုလ်များ ကွဲပြားမှုများ",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w21-dm-3",
+          termEn: "Discontinuous variation",
+          termMy: "Discontinuous Variation",
+          matchEn: "Distinct categories with no intermediates, e.g. blood group",
+          matchMy: "Intermediate မပါဘဲ ကွဲပြားသော အုပ်စုများ၊ ဥပမာ - Blood Group",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w21-dm-4",
+          termEn: "Continuous variation",
+          termMy: "Continuous Variation",
+          matchEn: "A smooth range of values with no distinct categories, e.g. height",
+          matchMy: "ကွဲပြားသော အုပ်စု မပါဘဲ ချောမွေ့သော တန်ဖိုး အပိုင်းအခြား၊ ဥပမာ - အရပ်အမြင့်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w21-dm-5",
+          termEn: "Polygenic inheritance",
+          termMy: "Polygenic Inheritance",
+          matchEn: "A trait controlled by many genes acting together, typically giving continuous variation",
+          matchMy: "Gene များစွာ ပေါင်းစပ်ထိန်းချုပ်ထားသော Trait၊ ပုံမှန်အားဖြင့် Continuous Variation ပေးသည်",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w21-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Continuous or Discontinuous Variation?",
+      titleMy: "စီစစ်ကြမည် - Continuous သို့မဟုတ် Discontinuous Variation?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Continuous Variation", "Discontinuous Variation"],
+        bucketsMy: ["Continuous Variation", "Discontinuous Variation"],
+        items: [
+          SortingItem(
+            id: "y13bio-w21-sort-1",
+            labelEn: "Human height, ranging smoothly from short to tall",
+            labelMy: "တိုသည်မှ မြင့်သည်အထိ ချောမွေ့စွာ ကွာဟနေသော လူသားများ အရပ်အမြင့်",
+            correctBucketEn: "Continuous Variation",
+            correctBucketMy: "Continuous Variation",
+          ),
+          SortingItem(
+            id: "y13bio-w21-sort-2",
+            labelEn: "Typically produces a bell-shaped curve when plotted",
+            labelMy: "Plot လုပ်သောအခါ ပုံမှန်အားဖြင့် Bell-Shaped Curve ဖြစ်ပေါ်စေသည်",
+            correctBucketEn: "Continuous Variation",
+            correctBucketMy: "Continuous Variation",
+          ),
+          SortingItem(
+            id: "y13bio-w21-sort-3",
+            labelEn: "Human ABO blood group, falling into distinct categories",
+            labelMy: "ကွဲပြားသော အုပ်စုများထဲသို့ ကျရောက်သော လူသားများ ABO Blood Group",
+            correctBucketEn: "Discontinuous Variation",
+            correctBucketMy: "Discontinuous Variation",
+          ),
+          SortingItem(
+            id: "y13bio-w21-sort-4",
+            labelEn: "Usually controlled by one or very few genes",
+            labelMy: "ပုံမှန်အားဖြင့် Gene တစ်ခု (သို့) အလွန်နည်းသော Gene ဖြင့် ထိန်းချုပ်ထားသည်",
+            correctBucketEn: "Discontinuous Variation",
+            correctBucketMy: "Discontinuous Variation",
+          ),
+          SortingItem(
+            id: "y13bio-w21-sort-5",
+            labelEn: "Usually influenced by many genes together with the environment",
+            labelMy: "ပုံမှန်အားဖြင့် Gene များစွာနှင့် ပတ်ဝန်းကျင်တို့ ပေါင်းစပ်လွှမ်းမိုးသည်",
+            correctBucketEn: "Continuous Variation",
+            correctBucketMy: "Continuous Variation",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w21-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Same Seeds, Different Fields",
+      titleMy: "စာဖတ်ခြင်း - မျိုးစေ့တူ, လယ်ကွက်ကွဲ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Same Seeds, Different Fields",
+        titleMy: "မျိုးစေ့တူ, လယ်ကွက်ကွဲ",
+        passageEn:
+            "Sayar Zaw Min opened Term 6 by describing an experiment run by a rice farmer he knew: genetically identical rice seedlings, cloned from a single plant, were split into two groups and grown in two different fields -- one with rich, well-fertilised soil, the other with poor, sandy soil. Despite starting from identical genotypes, the two groups of plants ended up noticeably different heights and yields by harvest time.\n\nHtet Aung recognised this straight away as environmental variation: since the genotype was held constant across both groups, any difference observed had to come from the environment -- soil quality, in this case -- rather than genetics. Su Su then asked what would happen if the farmer instead planted genetically varied seeds (different varieties of rice) in identical fields. Sayar Zaw Min confirmed that in that case, any height or yield differences would instead reflect genetic variation, since the environment would now be the constant factor.\n\n\"In practice, real populations almost never let you separate the two so cleanly,\" Sayar Zaw Min added. \"A trait like plant height in a natural rice population reflects both genetic variation between individuals and environmental variation between the exact conditions each plant experienced, tangled together -- and because so many genes typically contribute to height (polygenic inheritance) as well, the population's heights form a smooth, continuous range rather than a few distinct categories. Compare that to a trait controlled by a single gene, like resistance to one particular rice disease, which usually sorts cleanly into 'resistant' and 'susceptible' categories with nothing in between -- discontinuous variation. Both kinds of variation matter enormously for what comes next this term: natural selection can only act on variation that already exists within a population.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် သိထားသော ဆန်လုပ်သူတစ်ဦး ပြုလုပ်ခဲ့သော စမ်းသပ်ချက်တစ်ခုကို ဖော်ပြခြင်းဖြင့် Term 6 ကို စတင်ခဲ့သည် - Genotype တူညီစွာ ရှိသော ဆန်ပင်ငယ်များကို အပင်တစ်ပင်တည်းမှ Clone ပြုလုပ်ပြီး အုပ်စုနှစ်ခု ခွဲကာ လယ်ကွက်နှစ်ခုတွင် စိုက်ပျိုးခဲ့သည် -- တစ်ခုက ကောင်းမွန်စွာ Fertilise ပြုလုပ်ထားသော မြေဩဇာကောင်းသည့် လယ်ကွက်၊ အခြားတစ်ခုက Fertilise အားနည်းသော သဲကြွင်းလယ်ကွက်။ Genotype တူညီစွာ စတင်ခဲ့သော်လည်း အုပ်စုနှစ်ခုသည် အသီးအနှံ ရိတ်သိမ်းချိန်တွင် သိသိသာသာ ကွဲပြားသော အမြင့်နှင့် အထွက်နှုန်း ရရှိခဲ့သည်။\n\nHtet Aung သည် ၎င်းကို Environmental Variation ဟု ချက်ချင်း မှတ်မိခဲ့သည် - Genotype ကို အုပ်စုနှစ်ခုစလုံးတွင် တူညီစွာ ထိန်းသိမ်းထားခဲ့သောကြောင့် တွေ့ရှိရသော ကွဲပြားမှုတိုင်းသည် Genetics ထက် ပတ်ဝန်းကျင် -- ဤနေရာတွင် မြေဩဇာအရည်အသွေး -- မှ ဖြစ်ရမည် ဖြစ်သည်။ ထို့နောက် Su Su က ဆန်လုပ်သူသည် Genetically ကွဲပြားသော မျိုးစေ့များ (ဆန်မျိုးကွဲများ) ကို လယ်ကွက်တူညီစွာတွင် စိုက်ပျိုးခဲ့ပါက အဘယ်ဖြစ်လာမည်ကို မေးခဲ့သည်။ ဤကိစ္စတွင် ပတ်ဝန်းကျင်သည် ယခု ကန့်သတ်ချက် Factor ဖြစ်လာမည်ဖြစ်သောကြောင့် အမြင့် (သို့) အထွက်နှုန်း ကွဲပြားမှုတိုင်းသည် Genetic Variation ကို ဖော်ပြမည်ဖြစ်ကြောင်း ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။\n\n\"လက်တွေ့တွင် Population အစစ်အမှန်များသည် နှစ်ခုကို ဤမျှ ရှင်းလင်းစွာ ခွဲခြား၍ ဘယ်တော့မှ မခွင့်ပြုကြပါ\" ဟု ဆရာဇော်မင်း ထပ်ဆင့်ခဲ့သည်။ \"သဘာဝ ဆန် Population တစ်ခုရှိ အပင်အမြင့်ကဲ့သို့ Trait တစ်ခုသည် လူပုဂ္ဂိုလ်များအကြား Genetic Variation နှင့် အပင်တစ်ပင်စီ ကြုံတွေ့ခဲ့ရသော အတိအကျ အခြေအနေများအကြား Environmental Variation နှစ်ခုစလုံးကို ရောနှောကာ ဖော်ပြသည် -- Gene များစွာ ပုံမှန်အားဖြင့် အမြင့်ကို ထောက်ကူထားသောကြောင့်လည်း (Polygenic Inheritance) Population ၏ အမြင့်များသည် ကွဲပြားသော အုပ်စု အနည်းငယ်ထက် ချောမွေ့ Continuous အပိုင်းအခြား ဖွဲ့စည်းသည်။ ၎င်းကို ဆန်ရောဂါတစ်ခု အထူး ခုခံနိုင်စွမ်းကဲ့သို့ Gene တစ်ခုတည်းက ထိန်းချုပ်ထားသော Trait တစ်ခုနှင့် နှိုင်းယှဉ်ကြည့်ပါ - ၎င်းသည် ပုံမှန်အားဖြင့် 'ခုခံနိုင်' နှင့် 'ခုခံနိုင်စွမ်းမရှိ' အုပ်စုများထဲသို့ အလယ်အလတ်မပါဘဲ ရှင်းလင်းစွာ ခွဲထွက်သည် -- Discontinuous Variation။ Variation အမျိုးအစားနှစ်ခုစလုံးသည် ဤ Term ၏ ဆက်လက် ဖြစ်ပေါ်လာမည့်အရာအတွက် များစွာ အရေးကြီးသည် - Natural Selection သည် Population တစ်ခုအတွင်း ရှိနှင့်ပြီးသား Variation ကိုသာ သက်ရောက်နိုင်သည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, why was the difference between the two rice groups an example of environmental variation?",
+            questionMy:
+                "ဆန်အုပ်စုနှစ်ခုအကြား ကွဲပြားမှုသည် Environmental Variation ၏ ဥပမာတစ်ခု ဖြစ်ရသည့်အကြောင်းရင်းကို Htet Aung ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The genotype was held constant across both groups",
+              "The two groups had completely different genotypes",
+              "Neither group grew in soil at all",
+              "The plants had no genes for height at all",
+            ],
+            optionsMy: [
+              "Genotype ကို အုပ်စုနှစ်ခုစလုံးတွင် တူညီစွာ ထိန်းသိမ်းထားခဲ့သောကြောင့်",
+              "အုပ်စုနှစ်ခုသည် လုံးလုံးကွဲပြားသော Genotype ရှိခဲ့သောကြောင့်",
+              "အုပ်စုနှစ်ခုစလုံး မြေဩဇာတွင် လုံးဝ မကြီးထွားခဲ့သောကြောင့်",
+              "အပင်များတွင် အမြင့်အတွက် Gene လုံးဝ မရှိသောကြောင့်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, why does plant height in a natural population form a continuous range?",
+            questionMy:
+                "သဘာဝ Population တစ်ခုရှိ အပင်အမြင့်သည် Continuous အပိုင်းအခြား ဖွဲ့စည်းရသည့်အကြောင်းရင်းကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Many genes typically contribute to height (polygenic inheritance)",
+              "Only one gene ever affects height",
+              "Height is entirely determined by the environment alone",
+              "Height cannot vary at all within a population",
+            ],
+            optionsMy: [
+              "Gene များစွာသည် ပုံမှန်အားဖြင့် အမြင့်ကို ထောက်ကူသောကြောင့် (Polygenic Inheritance)",
+              "Gene တစ်ခုတည်းကသာ အမြင့်ကို တစ်ခါမျှ သက်ရောက်ခြင်း",
+              "အမြင့်ကို ပတ်ဝန်းကျင်တစ်ခုတည်းက လုံးလုံး ဆုံးဖြတ်ခြင်း",
+              "Population အတွင်း အမြင့် လုံးဝ ကွဲပြား၍ မရခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final paragraph, what can natural selection only act on?",
+            questionMy:
+                "Natural Selection သည် မည်သည့်အရာအပေါ်တွင်သာ သက်ရောက်နိုင်သည်ကို နောက်ဆုံးစာပိုဒ်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Variation that already exists within a population",
+              "A population with no genetic variation at all",
+              "Only environmental variation, never genetic",
+              "Only discontinuous variation, never continuous",
+            ],
+            optionsMy: [
+              "Population တစ်ခုအတွင်း ရှိနှင့်ပြီးသား Variation",
+              "Genetic Variation လုံးဝ မရှိသော Population",
+              "Environmental Variation ကိုသာ၊ Genetic ကို မသက်ရောက်ပါ",
+              "Discontinuous Variation ကိုသာ၊ Continuous ကို မသက်ရောက်ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w21-d5",
+      dayNumber: 5,
+      titleEn: "Week 21 Recap: Variation Within a Population",
+      titleMy: "နှစ်ဆယ့်တစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Population တစ်ခုအတွင်း Variation",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The two main sources of variation within a population are genetic and...",
+          questionMy: "Population တစ်ခုအတွင်း Variation ၏ အဓိက ရင်းမြစ်နှစ်ခုမှာ Genetic နှင့်...",
+          optionsEn: ["Environmental", "Chemical only", "Radioactive only", "None at all"],
+          optionsMy: ["Environmental", "Chemical သာ", "Radioactive သာ", "လုံးဝ မရှိ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trait like human blood group, with distinct categories, shows...",
+          questionMy: "Blood Group ကဲ့သို့ ကွဲပြားသော အုပ်စုများ ရှိသော Trait တစ်ခုသည် ...ကို ပြသသည်",
+          optionsEn: ["Discontinuous variation", "Continuous variation", "No variation", "Only environmental variation"],
+          optionsMy: ["Discontinuous Variation", "Continuous Variation", "Variation မရှိခြင်း", "Environmental Variation သာ"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A trait like human height typically shows...",
+          questionMy: "လူသားများ၏ အရပ်အမြင့်ကဲ့သို့ Trait တစ်ခုသည် ပုံမှန်အားဖြင့် ...ကို ပြသသည်",
+          optionsEn: ["Continuous variation", "Discontinuous variation", "No genetic influence", "Only one possible value"],
+          optionsMy: ["Continuous Variation", "Discontinuous Variation", "Genetic လွှမ်းမိုးမှု မရှိခြင်း", "ဖြစ်နိုင်သော တန်ဖိုးတစ်ခုတည်း"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 22: "Natural Selection"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek22 = CourseWeekDef(
+  id: "course-y13-bio-w22",
+  weekNumber: 22,
+  titleEn: "Natural Selection",
+  titleMy: "Natural Selection",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w22-d1",
+      dayNumber: 1,
+      titleEn: "Directional and Stabilising Selection",
+      titleMy: "Directional နှင့် Stabilising Selection",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "Natural selection acts on existing variation because individuals with advantageous alleles for their environment...",
+          questionMy:
+              "Natural Selection သည် ၎င်းတို့၏ ပတ်ဝန်းကျင်အတွက် အားသာချက်ရှိသော Allele ရှိသော လူပုဂ္ဂိုလ်များ ...သောကြောင့် ရှိနှင့်ပြီးသား Variation အပေါ် သက်ရောက်သည်",
+          optionsEn: [
+            "Tend to survive and reproduce more successfully, passing those alleles to more offspring",
+            "Always die before reproducing",
+            "Never pass their alleles to the next generation",
+            "Have no effect on allele frequency at all",
+          ],
+          optionsMy: [
+            "ရှင်သန်ကာ ပိုမို အောင်မြင်စွာ မျိုးပွားနိုင်ပြီး ထို Allele များကို သားစဉ်မြေးဆက် ပိုများစွာသို့ လွှဲပြောင်းပေးနိုင်လေ့ရှိသောကြောင့်",
+            "မျိုးမပွားမီ အမြဲတမ်း သေဆုံးခြင်း",
+            "၎င်းတို့၏ Allele များကို မျိုးဆက်နောက်တစ်ခုသို့ ဘယ်တော့မှ မလွှဲပြောင်းခြင်း",
+            "Allele Frequency အပေါ် သက်ရောက်မှု လုံးဝ မရှိခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Over many generations, this differential survival and reproduction shifts allele frequencies in the population -- more individuals inherit the advantageous allele over time.",
+          ],
+          hintsMy: [
+            "မျိုးဆက်များစွာ ကြာအောင် ဤ ကွာခြားသော ရှင်သန်ခြင်းနှင့် မျိုးပွားခြင်းသည် Population ၏ Allele Frequency ကို ရွှေ့ပြောင်းစေသည် -- အချိန်ကြာလာသည်နှင့်အမျှ လူပုဂ္ဂိုလ် ပိုများများ အားသာချက်ရှိသော Allele ကို အမွေဆက်ခံလာသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Directional selection favours individuals at one extreme of a range (e.g. the darkest moths in a polluted, sooty environment), causing...",
+          questionMy:
+              "Directional Selection သည် Range တစ်ခု၏ အစွန်းတစ်ဖက်ရှိ လူပုဂ္ဂိုလ်များကို (ဥပမာ - Pollution ကြောင့် Soot ကြွယ်ဝသော ပတ်ဝန်းကျင်ရှိ အမှောင်ဆုံး ပိုးဖလံများ) ပို၍ ကြိုက်နှစ်သက်စေပြီး...",
+          optionsEn: [
+            "The population's mean value to shift over time toward that extreme",
+            "The population's mean value to stay exactly the same forever",
+            "Every individual in the population to become genetically identical instantly",
+            "Variation within the population to increase without limit",
+          ],
+          optionsMy: [
+            "Population ၏ Mean တန်ဖိုးသည် အချိန်ကြာလာသည်နှင့်အမျှ ထို အစွန်းဆီသို့ ရွှေ့ပြောင်းလာခြင်း",
+            "Population ၏ Mean တန်ဖိုးသည် အမြဲတမ်း အတိအကျ တူညီနေခြင်း",
+            "Population ရှိ လူပုဂ္ဂိုလ်တိုင်းသည် ချက်ချင်း Genetically တူညီသွားခြင်း",
+            "Population အတွင်း Variation ကန့်သတ်မှုမရှိဘဲ တိုးများလာခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "The classic textbook example is the peppered moth: as tree bark darkened with industrial soot, darker moths were less visible to predators, and the population's average colour shifted darker over generations.",
+          ],
+          hintsMy: [
+            "Classic Textbook ဥပမာမှာ Peppered Moth ဖြစ်သည် - သစ်ပင်အခွံသည် စက်မှု Soot ကြောင့် ပို၍ အမှောင်ဖြစ်လာသောအခါ အမှောင်ရောင်ပိုးဖလံများသည် သားရဲများ မမြင်နိုင်သောကြောင့် Population ၏ ပျမ်းမျှ အရောင်သည် မျိုးဆက်များစွာ ကြာသောအခါ အမှောင်ရောင် ရွှေ့ပြောင်းလာခဲ့သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Stabilising selection favours individuals near the average of a range and disadvantages both extremes, causing...",
+          questionMy:
+              "Stabilising Selection သည် Range တစ်ခု၏ ပျမ်းမျှအနီးရှိ လူပုဂ္ဂိုလ်များကို ကြိုက်နှစ်သက်ပြီး အစွန်းနှစ်ဖက်စလုံးကို အားနည်းစေကာ...",
+          optionsEn: [
+            "The population's variation to decrease, with the mean value staying about the same",
+            "The population's mean value to shift dramatically toward one extreme",
+            "All variation in the population to disappear within one generation",
+            "Only the tallest individuals to survive",
+          ],
+          optionsMy: [
+            "Population ၏ Variation လျော့ကျစေကာ Mean တန်ဖိုးမှာ ခန့်မှန်း အတူတူ ရှိနေခြင်း",
+            "Population ၏ Mean တန်ဖိုးသည် အစွန်းတစ်ဖက်ဆီသို့ ပြင်းထန်စွာ ရွှေ့ပြောင်းလာခြင်း",
+            "Population ရှိ Variation အားလုံး မျိုးဆက်တစ်ခုတည်းအတွင်း ပျောက်ကွယ်သွားခြင်း",
+            "အရပ်အမြင့်ဆုံး လူပုဂ္ဂိုလ်များသာ ရှင်သန်ခြင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Human birth weight is a classic example -- babies of very low or very high birth weight have historically had lower survival rates than babies of average weight, keeping the population centred around that average.",
+          ],
+          hintsMy: [
+            "လူသား မွေးကင်းစ ကလေး ကိုယ်အလေးချိန်သည် Classic ဥပမာတစ်ခု ဖြစ်သည် -- ကိုယ်အလေးချိန် အလွန်နည်း (သို့) အလွန်များသော ကလေးများသည် သမိုင်းကြောင်းအရ ပျမ်းမျှ ကိုယ်အလေးချိန်ရှိသော ကလေးများထက် ရှင်သန်နှုန်း နိမ့်ခဲ့ပြီး Population ကို ထို ပျမ်းမျှအနီးတွင် ဗဟိုပြုစေထားသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w22-d2",
+      dayNumber: 2,
+      titleEn: "Match: Natural Selection Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Natural Selection ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w22-dm-1",
+          termEn: "Natural selection",
+          termMy: "Natural Selection",
+          matchEn: "Individuals with advantageous alleles survive and reproduce more successfully",
+          matchMy: "အားသာချက်ရှိသော Allele ရှိသော လူပုဂ္ဂိုလ်များသည် ရှင်သန်ကာ ပိုမို အောင်မြင်စွာ မျိုးပွားသည်",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w22-dm-2",
+          termEn: "Selection pressure",
+          termMy: "Selection Pressure",
+          matchEn: "An environmental factor that affects an organism's chance of survival and reproduction",
+          matchMy: "သတ္တဝါတစ်ခု၏ ရှင်သန်နှင့် မျိုးပွားနိုင်ခြေကို သက်ရောက်စေသော ပတ်ဝန်းကျင် Factor",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w22-dm-3",
+          termEn: "Directional selection",
+          termMy: "Directional Selection",
+          matchEn: "Favours one extreme of a range, shifting the population mean over time",
+          matchMy: "Range ၏ အစွန်းတစ်ဖက်ကို ကြိုက်နှစ်သက်ကာ Population Mean ကို အချိန်ကြာလာသည်နှင့်အမျှ ရွှေ့ပြောင်းစေသည်",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w22-dm-4",
+          termEn: "Stabilising selection",
+          termMy: "Stabilising Selection",
+          matchEn: "Favours values near the average, reducing variation while the mean stays about the same",
+          matchMy: "ပျမ်းမျှအနီးရှိ တန်ဖိုးများကို ကြိုက်နှစ်သက်ကာ Mean ခန့်မှန်း အတူတူ ရှိစဉ် Variation ကို လျော့ကျစေသည်",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w22-dm-5",
+          termEn: "Allele frequency",
+          termMy: "Allele Frequency",
+          matchEn: "The proportion of a particular allele among all alleles for that gene in a population",
+          matchMy: "Population တစ်ခုရှိ Gene တစ်ခုအတွက် Allele အားလုံးအနက် Allele တစ်ခုတည်း၏ အချိုးအစား",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w22-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Directional or Stabilising Selection?",
+      titleMy: "စီစစ်ကြမည် - Directional သို့မဟုတ် Stabilising Selection?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Directional Selection", "Stabilising Selection"],
+        bucketsMy: ["Directional Selection", "Stabilising Selection"],
+        items: [
+          SortingItem(
+            id: "y13bio-w22-sort-1",
+            labelEn: "Peppered moths becoming darker as pollution increased",
+            labelMy: "Pollution တိုးလာသည်နှင့်အမျှ Peppered Moth များ ပို၍ အမှောင်ဖြစ်လာခြင်း",
+            correctBucketEn: "Directional Selection",
+            correctBucketMy: "Directional Selection",
+          ),
+          SortingItem(
+            id: "y13bio-w22-sort-2",
+            labelEn: "The population mean shifts toward one extreme over time",
+            labelMy: "Population Mean သည် အချိန်ကြာလာသည်နှင့်အမျှ အစွန်းတစ်ဖက်ဆီသို့ ရွှေ့ပြောင်းသည်",
+            correctBucketEn: "Directional Selection",
+            correctBucketMy: "Directional Selection",
+          ),
+          SortingItem(
+            id: "y13bio-w22-sort-3",
+            labelEn: "Human babies of average birth weight surviving best",
+            labelMy: "ပျမ်းမျှ မွေးကင်းစ ကိုယ်အလေးချိန်ရှိသော လူသား ကလေးများ အကောင်းဆုံး ရှင်သန်ခြင်း",
+            correctBucketEn: "Stabilising Selection",
+            correctBucketMy: "Stabilising Selection",
+          ),
+          SortingItem(
+            id: "y13bio-w22-sort-4",
+            labelEn: "Variation within the population decreases while the mean stays about the same",
+            labelMy: "Mean ခန့်မှန်း အတူတူ ရှိစဉ် Population အတွင်း Variation လျော့ကျသွားသည်",
+            correctBucketEn: "Stabilising Selection",
+            correctBucketMy: "Stabilising Selection",
+          ),
+          SortingItem(
+            id: "y13bio-w22-sort-5",
+            labelEn: "Antibiotic resistance spreading through a bacterial population under antibiotic exposure",
+            labelMy: "Antibiotic ထိတွေ့နေသော Bacteria Population တစ်ခုအတွင်း Antibiotic Resistance ပျံ့နှံ့သွားခြင်း",
+            correctBucketEn: "Directional Selection",
+            correctBucketMy: "Directional Selection",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w22-d4",
+      dayNumber: 4,
+      titleEn: "Reading: The Moths That Changed Colour",
+      titleMy: "စာဖတ်ခြင်း - အရောင် ပြောင်းလဲသွားသော ပိုးဖလံများ",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "The Moths That Changed Colour",
+        titleMy: "အရောင် ပြောင်းလဲသွားသော ပိုးဖလံများ",
+        passageEn:
+            "Su Su asked Sayar Zaw Min to explain the peppered moth story properly, since she had only ever heard it mentioned in passing. He began with the population before industrialisation: peppered moths existed in two main forms, a common pale, speckled form that camouflaged well against the pale lichen-covered tree bark of the era, and a rarer dark form that stood out clearly against that same bark, making it an easy target for bird predators.\n\nHtet Aung picked up the story as industrial pollution spread: soot from factories killed the pale lichen and blackened tree trunks across many industrial areas. Suddenly the camouflage advantage reversed -- the pale moths now stood out sharply against the darkened bark, while the dark moths blended in almost perfectly. Bird predators, hunting by sight, caught and ate far more of the now-conspicuous pale moths than the now-camouflaged dark ones.\n\n\"And that's directional selection in action,\" Sayar Zaw Min confirmed. \"The dark allele wasn't new -- it already existed in the population before pollution ever began, as background genetic variation. What changed was the selection pressure: which moths survived to reproduce, and therefore which allele got passed on more often. Generation after generation, the population's allele frequencies shifted, and the average colour of the moth population moved measurably darker, all without a single new mutation being required. When air pollution laws later cleaned up the industrial areas and pale lichen returned, the selection pressure reversed again, and the population's colour shifted back toward pale -- a rare case where scientists could actually observe natural selection changing direction within a human lifetime.\"",
+        passageMy:
+            "Peppered Moth ဇာတ်လမ်းကို ဖြတ်၍ ကြားဖူးရုံသာ ရှိသောကြောင့် ၎င်းကို စနစ်တကျ ရှင်းပြရန် Su Su က ဆရာဇော်မင်းအား တောင်းဆိုခဲ့သည်။ စက်မှုတော်လှန်ရေး မတိုင်မီ Population ဖြင့် သူ စတင်ခဲ့သည် - Peppered Moth များသည် အဓိက ပုံစံနှစ်မျိုး ရှိခဲ့သည် - ထိုခေတ်ကာလ၏ Lichen ဖုံးလွှမ်းနေသော ဖျော့ရောင် သစ်ပင်အခွံနှင့် ကောင်းစွာ Camouflage ဖြစ်နေသော ပုံမှန် ဖျော့ရောင်၊ Speckled ပုံစံနှင့် ထို သစ်ပင်အခွံနှင့်ပင် ရှင်းလင်းစွာ ထင်ရှားနေသော ငှက်သားရဲများ လွယ်ကူစွာ ပစ်မှတ်ထားနိုင်စေသော ရှားပါးသော အမှောင်ရောင် ပုံစံ။\n\nစက်မှုညစ်ညမ်းမှု ပျံ့နှံ့လာချိန် Htet Aung က ဇာတ်လမ်းကို ဆက်ခဲ့သည် - စက်ရုံများမှ Soot သည် ဖျော့ရောင် Lichen များကို သတ်ပစ်ပြီး စက်မှုနယ်မြေများစွာ တလျှောက် သစ်ပင်ပင်စည်များကို အမည်းရောင်ဖြစ်စေခဲ့သည်။ Camouflage အားသာချက် ချက်ချင်း ပြောင်းပြန် ဖြစ်သွားခဲ့သည် -- ဖျော့ရောင်ပိုးဖလံများသည် ယခု အမည်းရောင် အခွံနှင့် ထင်ရှားစွာ ပေါ်လွင်လာပြီး အမှောင်ရောင်ပိုးဖလံများမှာမူ လုနီးပါး ပြီးပြည့်စုံစွာ ရောနှောနေခဲ့သည်။ အမြင်ဖြင့် အမဲလိုက်ကြသော ငှက်သားရဲများသည် ယခု ပေါ်လွင်နေသော ဖျော့ရောင်ပိုးဖလံများကို ယခု Camouflage ဖြစ်နေသော အမှောင်ရောင်များထက် များစွာ ပိုများစွာ ဖမ်းယူစားသုံးခဲ့ကြသည်။\n\n\"ဒါက Directional Selection အလုပ်လုပ်နေတာပါပဲ\" ဟု ဆရာဇော်မင်း အတည်ပြုခဲ့သည်။ \"အမှောင်ရောင် Allele သည် အသစ် မဟုတ်ပါ -- Pollution မစတင်မီ Population ထဲတွင် Background Genetic Variation အဖြစ် ရှိနှင့်ပြီးသား ဖြစ်သည်။ ပြောင်းလဲသွားသည်မှာ Selection Pressure ဖြစ်သည် - မည်သည့် ပိုးဖလံများ ရှင်သန်ကာ မျိုးပွားသည်၊ ထို့ကြောင့် Allele မည်သည် ပိုမိုမကြာခဏ လွှဲပြောင်းသည်။ မျိုးဆက်ပြီးမျိုးဆက် Population ၏ Allele Frequency များ ရွှေ့ပြောင်းလာပြီး ပိုးဖလံ Population ၏ ပျမ်းမျှအရောင်သည် Mutation အသစ် လုံးဝ မလိုအပ်ဘဲ တိုင်းတာနိုင်စွာ အမှောင်ရောင်ဆီသို့ ရွေ့လျားခဲ့သည်။ နောက်ပိုင်း လေထုညစ်ညမ်းမှု ဥပဒေများက စက်မှုနယ်မြေများကို သန့်ရှင်းစေပြီး ဖျော့ရောင် Lichen ပြန်လည် ရောက်ရှိလာသောအခါ Selection Pressure ထပ်မံ ပြောင်းပြန် ဖြစ်သွားပြီး Population ၏ အရောင်သည် ဖျော့ရောင်ဆီသို့ ပြန်လည် ရွှေ့ပြောင်းသွားခဲ့သည် -- Scientist များသည် လူသားတစ်ဦး၏ တစ်သက်တာအတွင်း Natural Selection ဦးတည်ချက် ပြောင်းလဲသွားသည်ကို အမှန်တကယ် တွေ့မြင်ခဲ့ရသော ရှားပါးအဖြစ်အပျက် တစ်ခု ဖြစ်ခဲ့ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what happened to the pale moths after industrial pollution blackened tree bark?",
+            questionMy:
+                "စက်မှုညစ်ညမ်းမှုက သစ်ပင်အခွံကို အမည်းရောင်ဖြစ်စေပြီးနောက် ဖျော့ရောင် ပိုးဖလံများတွင် အဘယ်ဖြစ်လာသည်ကို Htet Aung ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "They became more visible to predators and were caught more often",
+              "They became invisible to all predators",
+              "They evolved into a completely new species",
+              "They stopped reproducing entirely",
+            ],
+            optionsMy: [
+              "သားရဲများအား ပို၍ မြင်နိုင်လာကာ ပို၍ မကြာခဏ ဖမ်းမိလာကြသည်",
+              "သားရဲအားလုံးအတွက် လုံးဝ မမြင်နိုင်တော့ပါ",
+              "လုံးလုံးမျိုးစိတ်အသစ်တစ်ခုအဖြစ် Evolve ဖြစ်သွားခဲ့သည်",
+              "မျိုးပွားခြင်း လုံးဝ ရပ်တန့်သွားခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min, was the dark allele newly created by pollution?",
+            questionMy:
+                "အမှောင်ရောင် Allele ကို Pollution က အသစ် ဖန်တီးခဲ့သလား ဆိုသည်ကို ဆရာဇော်မင်း ၏ ရှင်းပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "No, it already existed in the population as background genetic variation",
+              "Yes, pollution caused a brand new mutation to appear",
+              "No allele change was involved at all",
+              "The dark allele appeared only after all pale moths died",
+            ],
+            optionsMy: [
+              "မဟုတ်ပါ၊ Population တွင် Background Genetic Variation အဖြစ် ရှိနှင့်ပြီးသား ဖြစ်သည်",
+              "ဟုတ်သည်၊ Pollution က Mutation လုံးလုံးအသစ်တစ်ခု ပေါ်လာစေခဲ့သည်",
+              "Allele ပြောင်းလဲမှု လုံးဝ မပါဝင်ပါ",
+              "ဖျော့ရောင်ပိုးဖလံအားလုံး သေဆုံးပြီးမှသာ အမှောင်ရောင် Allele ပေါ်ခဲ့သည်",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the third paragraph."],
+            hintsMy: ["တတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to the final sentence, what happened when pollution laws later cleaned up the environment?",
+            questionMy:
+                "နောက်ပိုင်း ညစ်ညမ်းမှု ဥပဒေများက ပတ်ဝန်းကျင်ကို သန့်ရှင်းစေချိန် အဘယ်ဖြစ်လာသည်ကို နောက်ဆုံးစာကြောင်းအရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The population's colour shifted back toward pale",
+              "All moths went extinct immediately",
+              "The dark allele disappeared instantly and permanently",
+              "Nothing changed at all in the population",
+            ],
+            optionsMy: [
+              "Population ၏ အရောင်သည် ဖျော့ရောင်ဆီသို့ ပြန်လည် ရွှေ့ပြောင်းသွားခဲ့သည်",
+              "ပိုးဖလံအားလုံး ချက်ချင်း မျိုးသုဉ်းသွားခဲ့သည်",
+              "အမှောင်ရောင် Allele သည် ချက်ချင်းနှင့် အမြဲတမ်း ပျောက်ကွယ်သွားခဲ့သည်",
+              "Population တွင် မည်သည့်အရာမျှ မပြောင်းလဲခဲ့ပါ",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final sentence."],
+            hintsMy: ["နောက်ဆုံးစာကြောင်းကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w22-d5",
+      dayNumber: 5,
+      titleEn: "Week 22 Recap: Natural Selection",
+      titleMy: "နှစ်ဆယ့်နှစ်ပတ် ပြန်လည်သုံးသပ်ခြင်း - Natural Selection",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "Directional selection shifts the population mean toward...",
+          questionMy: "Directional Selection သည် Population Mean ကို ...ဆီသို့ ရွှေ့ပြောင်းစေသည်",
+          optionsEn: ["One extreme of the range", "The exact average, always", "Zero variation", "A completely new species"],
+          optionsMy: ["Range ၏ အစွန်းတစ်ဖက်", "အတိအကျ ပျမ်းမျှ, အမြဲတမ်း", "Variation သုည", "လုံးလုံးမျိုးစိတ်အသစ်"],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "Stabilising selection favours...",
+          questionMy: "Stabilising Selection သည် ...ကို ကြိုက်နှစ်သက်သည်",
+          optionsEn: [
+            "Individuals near the average of a range",
+            "Only individuals at one extreme",
+            "Only individuals at both extremes",
+            "No individuals at all",
+          ],
+          optionsMy: [
+            "Range ၏ ပျမ်းမျှအနီးရှိ လူပုဂ္ဂိုလ်များ",
+            "အစွန်းတစ်ဖက်ရှိ လူပုဂ္ဂိုလ်များကိုသာ",
+            "အစွန်းနှစ်ဖက်စလုံးရှိ လူပုဂ္ဂိုလ်များကိုသာ",
+            "လူပုဂ္ဂိုလ် မည်သူကိုမျှ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "The peppered moth example illustrates...",
+          questionMy: "Peppered Moth ဥပမာသည် ...ကို ဖော်ပြသည်",
+          optionsEn: ["Directional selection", "Stabilising selection", "No selection at all", "Only environmental variation"],
+          optionsMy: ["Directional Selection", "Stabilising Selection", "Selection လုံးဝ မရှိခြင်း", "Environmental Variation သာ"],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 23: "Evidence for Evolution"
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek23 = CourseWeekDef(
+  id: "course-y13-bio-w23",
+  weekNumber: 23,
+  titleEn: "Evidence for Evolution",
+  titleMy: "Evolution အတွက် သက်သေအထောက်အထားများ",
+  xpReward: 20,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w23-d1",
+      dayNumber: 1,
+      titleEn: "The Fossil Record, Comparative Anatomy and DNA Evidence",
+      titleMy: "Fossil Record, Comparative Anatomy နှင့် DNA သက်သေအထောက်အထား",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The fossil record provides evidence for evolution mainly by showing...",
+          questionMy:
+              "Fossil Record သည် ...ပြသခြင်းဖြင့် Evolution အတွက် အဓိကအားဖြင့် သက်သေအထောက်အထား ပေးသည်",
+          optionsEn: [
+            "A sequence of gradual change in organisms' structure across successive geological time periods",
+            "That every species alive today has always existed unchanged",
+            "That no organisms have ever gone extinct",
+            "Only the exact date each fossil formed, with no other information",
+          ],
+          optionsMy: [
+            "ဆက်တိုက် ပထဝီဆိုင်ရာ ကာလများတလျှောက် သတ္တဝါများ၏ ဖွဲ့စည်းပုံ တဖြည်းဖြည်း ပြောင်းလဲမှု အစီအစဉ်တစ်ခု",
+            "ယနေ့ ရှိနေသော မျိုးစိတ်တိုင်းသည် အမြဲတမ်း မပြောင်းလဲဘဲ ရှိနေခဲ့ကြောင်း",
+            "သတ္တဝါ မည်သည်မျှ တစ်ခါမျှ မျိုးသုဉ်း၍ မသွားခဲ့ကြောင်း",
+            "အခြားအချက်အလက် မပါဘဲ Fossil တစ်ခုစီ ဖြစ်ပေါ်ခဲ့သော အတိအကျ ရက်စွဲသာ",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Fossils found in progressively younger rock layers often show intermediate forms bridging older and more recent species, consistent with gradual change over time.",
+          ],
+          hintsMy: [
+            "တဖြည်းဖြည်း ငယ်လာသော ကျောက်တုံးအလွှာများတွင် တွေ့ရှိသော Fossil များသည် ပို၍ ဟောင်းနှင့် ပို၍ လတ်တလော မျိုးစိတ်များအကြား ကွက်ကျားချိတ်ဆက်ပေးသော Intermediate ပုံစံများကို မကြာခဏ ပြသကြသည်၊ အချိန်ကြာလာသည်နှင့်အမျှ တဖြည်းဖြည်း ပြောင်းလဲမှုနှင့် ကိုက်ညီသည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparative anatomy, such as the similar bone arrangement in a human arm, a whale flipper and a bat wing, supports evolution by suggesting...",
+          questionMy:
+              "လူသား လက်မောင်း, ဝေလငါး Flipper နှင့် လင်းနို့ အတောင် ရှိ ဆင်တူသော အရိုးစီစဉ်ပုံကဲ့သို့ Comparative Anatomy သည်...",
+          optionsEn: [
+            "These species share a common ancestor, with the basic structure modified for different functions over time",
+            "These species have completely unrelated ancestry",
+            "Only mammals ever have bones in their limbs",
+            "Bone structure has no connection to evolutionary history at all",
+          ],
+          optionsMy: [
+            "ဤ မျိုးစိတ်များသည် ဘုံ ဘိုးဘေးတစ်ခုတည်းကို မျှဝေထားပြီး အခြေခံ ဖွဲ့စည်းပုံကို အချိန်ကြာလာသည်နှင့်အမျှ ကွဲပြားသော လုပ်ဆောင်ချက်များအတွက် ပြင်ဆင်ထားကြောင်း အကြံပြုသည်",
+            "ဤ မျိုးစိတ်များသည် လုံးလုံးမသက်ဆိုင်သော ဘိုးဘေးမှု ရှိကြောင်း",
+            "Mammal များတွင်သာ လက်ခြေများတွင် အရိုးရှိကြောင်း",
+            "အရိုးဖွဲ့စည်းပုံသည် Evolutionary History နှင့် ဆက်စပ်မှု လုံးဝ မရှိကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This shared basic pattern, modified for swimming, flying or grasping, is called a homologous structure -- strong evidence for descent from a common ancestor rather than coincidental similarity.",
+          ],
+          hintsMy: [
+            "ရေကူးခြင်း၊ ပျံသန်းခြင်း (သို့) ဆုပ်ကိုင်ခြင်းအတွက် ပြင်ဆင်ထားသော ဤ ဘုံ အခြေခံ Pattern ကို Homologous Structure ဟု ခေါ်သည် -- ကိုက်ညီစွာ ဆင်တူခြင်း ထက် ဘုံ ဘိုးဘေးမှ ဆင်းသက်လာခြင်း၏ အားကောင်းသော သက်သေအထောက်အထား ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "Comparing the DNA base sequences of two species provides evidence for evolution because...",
+          questionMy:
+              "မျိုးစိတ်နှစ်ခု၏ DNA Base Sequence ကို နှိုင်းယှဉ်ခြင်းသည် Evolution အတွက် သက်သေအထောက်အထား ပေးရသည့်အကြောင်းရင်းမှာ...",
+          optionsEn: [
+            "The more similar the sequences, the more recently the species are likely to have shared a common ancestor",
+            "All species have exactly identical DNA sequences",
+            "DNA sequences never change between generations",
+            "DNA comparison can only ever be done within one single species",
+          ],
+          optionsMy: [
+            "Sequence ပို၍ ဆင်တူလေ မျိုးစိတ်များသည် ဘုံ ဘိုးဘေးတစ်ခုကို မကြာသေးမီက ပို၍ မျှဝေထားလေ ဖြစ်နိုင်လေ",
+            "မျိုးစိတ်အားလုံးတွင် DNA Sequence အတိအကျ တူညီကြောင်း",
+            "DNA Sequence များသည် မျိုးဆက်များအကြား တစ်ခါမျှ မပြောင်းလဲကြောင်း",
+            "DNA Comparison ကို မျိုးစိတ်တစ်ခုတည်းအတွင်းတွင်သာ ပြုလုပ်နိုင်ကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Random mutations accumulate over time at a roughly measurable rate, so counting the number of DNA differences between two species gives a rough molecular clock estimating how long ago they diverged.",
+          ],
+          hintsMy: [
+            "Random Mutation များသည် အချိန်ကြာလာသည်နှင့်အမျှ ခန့်မှန်း တိုင်းတာနိုင်သော နှုန်းဖြင့် စုပုံလာသောကြောင့် မျိုးစိတ်နှစ်ခုအကြား DNA ကွဲပြားမှု အရေအတွက်ကို ရေတွက်ခြင်းက ၎င်းတို့ မည်မျှကြာအောင် ကွဲထွက်ခဲ့သည်ကို ခန့်မှန်းပေးသော Molecular Clock ခန့်မှန်းချက်ကို ပေးသည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w23-d2",
+      dayNumber: 2,
+      titleEn: "Match: Evidence for Evolution Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Evolution သက်သေအထောက်အထား ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w23-dm-1",
+          termEn: "Fossil record",
+          termMy: "Fossil Record",
+          matchEn: "Preserved remains showing a sequence of gradual change over geological time",
+          matchMy: "ပထဝီဆိုင်ရာ ကာလတလျှောက် တဖြည်းဖြည်း ပြောင်းလဲမှု အစီအစဉ်ကို ပြသသော ထိန်းသိမ်းထားသော အကြွင်းအကျန်များ",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w23-dm-2",
+          termEn: "Homologous structure",
+          termMy: "Homologous Structure",
+          matchEn: "A similar basic structure in different species, modified for different functions, suggesting a common ancestor",
+          matchMy: "မတူညီသော မျိုးစိတ်များတွင် ဆင်တူသော အခြေခံ ဖွဲ့စည်းပုံ၊ ကွဲပြားသော လုပ်ဆောင်ချက်အတွက် ပြင်ဆင်ထားပြီး ဘုံ ဘိုးဘေးတစ်ခု အကြံပြုသည်",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w23-dm-3",
+          termEn: "Comparative anatomy",
+          termMy: "Comparative Anatomy",
+          matchEn: "Comparing the physical structures of different species for evidence of shared ancestry",
+          matchMy: "ဘုံ ဘိုးဘေးမှုအတွက် သက်သေအထောက်အထားရှာရန် မျိုးစိတ်ကွဲပြားများ၏ ရုပ်ပိုင်းဆိုင်ရာ ဖွဲ့စည်းပုံများကို နှိုင်းယှဉ်ခြင်း",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w23-dm-4",
+          termEn: "Molecular clock",
+          termMy: "Molecular Clock",
+          matchEn: "Using the number of DNA differences between species to estimate how long ago they diverged",
+          matchMy: "မျိုးစိတ်များ မည်မျှကြာအောင် ကွဲထွက်ခဲ့သည်ကို ခန့်မှန်းရန် မျိုးစိတ်များအကြား DNA ကွဲပြားမှု အရေအတွက်ကို အသုံးပြုခြင်း",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w23-dm-5",
+          termEn: "Common ancestor",
+          termMy: "Common Ancestor",
+          matchEn: "A single earlier species from which two or more present-day species have descended",
+          matchMy: "ယနေ့ခေတ် မျိုးစိတ် နှစ်ခု (သို့) ထို့ထက်ပို၍ ဆင်းသက်လာသော ယခင်ကာလ မျိုးစိတ်တစ်ခုတည်း",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w23-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Fossil, Anatomical or DNA Evidence?",
+      titleMy: "စီစစ်ကြမည် - Fossil, Anatomical သို့မဟုတ် DNA သက်သေအထောက်အထား?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Fossil or Anatomical Evidence", "DNA Evidence"],
+        bucketsMy: ["Fossil (သို့) Anatomical သက်သေအထောက်အထား", "DNA သက်သေအထောက်အထား"],
+        items: [
+          SortingItem(
+            id: "y13bio-w23-sort-1",
+            labelEn: "Intermediate forms found in successive rock layers",
+            labelMy: "ဆက်တိုက် ကျောက်တုံးအလွှာများတွင် တွေ့ရှိသော Intermediate ပုံစံများ",
+            correctBucketEn: "Fossil or Anatomical Evidence",
+            correctBucketMy: "Fossil (သို့) Anatomical သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13bio-w23-sort-2",
+            labelEn: "Similar bone arrangement in a human arm, whale flipper and bat wing",
+            labelMy: "လူသား လက်မောင်း, ဝေလငါး Flipper နှင့် လင်းနို့ အတောင်ရှိ ဆင်တူသော အရိုးစီစဉ်ပုံ",
+            correctBucketEn: "Fossil or Anatomical Evidence",
+            correctBucketMy: "Fossil (သို့) Anatomical သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13bio-w23-sort-3",
+            labelEn: "Counting the number of base differences between two species' genomes",
+            labelMy: "မျိုးစိတ်နှစ်ခု၏ Genome အကြား Base ကွဲပြားမှု အရေအတွက်ကို ရေတွက်ခြင်း",
+            correctBucketEn: "DNA Evidence",
+            correctBucketMy: "DNA သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13bio-w23-sort-4",
+            labelEn: "Estimating divergence time using a molecular clock",
+            labelMy: "Molecular Clock ကို အသုံးပြု၍ ကွဲထွက်ချိန် ခန့်မှန်းခြင်း",
+            correctBucketEn: "DNA Evidence",
+            correctBucketMy: "DNA သက်သေအထောက်အထား",
+          ),
+          SortingItem(
+            id: "y13bio-w23-sort-5",
+            labelEn: "Preserved remains showing gradual structural change over geological time",
+            labelMy: "ပထဝီဆိုင်ရာ ကာလတလျှောက် ဖွဲ့စည်းပုံ တဖြည်းဖြည်း ပြောင်းလဲမှုကို ပြသသော ထိန်းသိမ်းထားသော အကြွင်းအကျန်များ",
+            correctBucketEn: "Fossil or Anatomical Evidence",
+            correctBucketMy: "Fossil (သို့) Anatomical သက်သေအထောက်အထား",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w23-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Three Kinds of Detective Work",
+      titleMy: "စာဖတ်ခြင်း - Detective အလုပ် အမျိုးအစား သုံးမျိုး",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Three Kinds of Detective Work",
+        titleMy: "Detective အလုပ် အမျိုးအစား သုံးမျိုး",
+        passageEn:
+            "Sayar Zaw Min compared building a case for evolution to detective work: no single piece of evidence proves the whole theory alone, but multiple independent lines of evidence, all pointing the same direction, make the conclusion very difficult to doubt. He asked the class to each investigate one line of evidence and report back.\n\nSu Su took the fossil record. She described how palaeontologists, examining fossils from progressively younger rock layers, can trace gradual structural change across millions of years -- early whale ancestors, for instance, show a fossil sequence moving from four-legged land mammals through intermediate forms with reduced hind limbs, to the fully aquatic, flippered whales alive today. Htet Aung took comparative anatomy, pointing out that a human arm, a whale flipper, a bat wing and a cat's leg all share the same basic arrangement of bones -- humerus, radius, ulna, and so on -- despite being used for completely different purposes (grasping, swimming, flying, walking). \"That's not what you'd expect if each species were designed independently from scratch,\" he said. \"It's exactly what you'd expect if they all inherited the same basic bone plan from a shared ancestor and then modified it for different functions.\"\n\n\"And my line of evidence ties the other two together at the molecular level,\" Sayar Zaw Min said, taking DNA comparison for himself. \"Comparing DNA base sequences between species shows that more closely related species -- as already suggested by fossils and anatomy -- also tend to have more similar DNA, and since mutations accumulate at a roughly steady rate, the number of DNA differences between two species can even estimate how long ago they diverged, a rough molecular clock. Fossils, anatomy and DNA are three completely independent kinds of evidence, gathered using entirely different methods -- and the fact that all three consistently point toward the same evolutionary relationships between species is exactly the kind of converging evidence that makes evolutionary theory so well supported.\"",
+        passageMy:
+            "ဆရာဇော်မင်းသည် Evolution အတွက် Case တစ်ခု တည်ဆောက်ခြင်းကို Detective အလုပ်နှင့် နှိုင်းယှဉ်ခဲ့သည် - သက်သေအထောက်အထား တစ်ခုတည်းက Theory တစ်ခုလုံးကို သက်သေပြ၍ မရသော်လည်း သီးခြားစီ ဆီးလိုင်းများစွာ တူညီသောဦးတည်ချက်ကို ညွှန်ပြနေခြင်းက ဆုံးဖြတ်ချက်ကို ဒွိဟဖြစ်ရန် အလွန်ခက်ခဲစေသည်။ အတန်းအား ဆီးလိုင်းတစ်ခုစီကို စုံစမ်းစစ်ဆေးပြီး ပြန်လည် ဖော်ပြရန် သူ တောင်းဆိုခဲ့သည်။\n\nSu Su က Fossil Record ကို ယူခဲ့သည်။ တဖြည်းဖြည်း ငယ်လာသော ကျောက်တုံးအလွှာများမှ Fossil များကို စစ်ဆေးသော Palaeontologist များသည် သန်းပေါင်းများစွာတလျှောက် တဖြည်းဖြည်း ဖွဲ့စည်းပုံ ပြောင်းလဲမှုကို ခြေရာခံနိုင်ကြောင်း ဖော်ပြခဲ့သည် -- ဥပမာ ဝေလငါး ဘိုးဘေးအစောပိုင်းများသည် လက်ခြေလေးချောင်းရှိ ကုန်းနေ Mammal များမှ Hind Limb လျော့နည်းသွားသော Intermediate ပုံစံများကို ဖြတ်ကာ ယနေ့ ရှင်နေသော Flipper ပါသည့် အပြည့်အဝ ရေနေ ဝေလငါးများဆီသို့ ရွေ့လျားနေသော Fossil အစီအစဉ်တစ်ခုကို ပြသသည်။ Htet Aung က Comparative Anatomy ကို ယူခဲ့ပြီး လူသား လက်မောင်း, ဝေလငါး Flipper, လင်းနို့ အတောင်နှင့် ကြောင် ခြေထောက်တို့သည် လုံးလုံးကွဲပြားသော ရည်ရွယ်ချက်များ (ဆုပ်ကိုင်ခြင်း၊ ရေကူးခြင်း၊ ပျံသန်းခြင်း၊ လမ်းလျှောက်ခြင်း) အတွက် အသုံးပြုနေကြသော်လည်း Humerus, Radius, Ulna စသည် အရိုးများ၏ တူညီသော အခြေခံ စီစဉ်ပုံ ဆောင်ထားကြောင်း ထောက်ပြခဲ့သည်။ \"မျိုးစိတ်တစ်ခုစီကို သီးခြားစီ အစအဆုံးမှ ဒီဇိုင်းရေးဆွဲထားပါက မျှော်လင့်ရသည့်အရာ မဟုတ်ပါ\" ဟု သူ ဆိုခဲ့သည်။ \"ဘုံ ဘိုးဘေးတစ်ခုမှ တူညီသော အခြေခံ အရိုးစီစဉ်ပုံကို အားလုံး အမွေဆက်ခံပြီး ကွဲပြားသော လုပ်ဆောင်ချက်များအတွက် ပြင်ဆင်ခဲ့ပါက မျှော်လင့်ရသည့်အရာ အတိအကျ ဖြစ်ပါတယ်။\"\n\n\"ငါ့ ဆီးလိုင်းက Molecular အဆင့်တွင် အခြားနှစ်ခုကို ချိတ်ဆက်ပေးတယ်\" ဟု ဆရာဇော်မင်းက DNA Comparison ကို ကိုယ်တိုင် ယူကာ ဆိုခဲ့သည်။ \"မျိုးစိတ်များအကြား DNA Base Sequence နှိုင်းယှဉ်ခြင်းက Fossil နှင့် Anatomy က အကြံပြုပြီးသားအတိုင်း ပို၍ ရင်းနှီးစွာ ဆက်နွယ်သော မျိုးစိတ်များသည် ပို၍ ဆင်တူသော DNA ရှိလေ့ရှိကြောင်း ပြသသည်၊ Mutation များသည် ခန့်မှန်း တည်ငြိမ်သော နှုန်းဖြင့် စုပုံလာသောကြောင့် မျိုးစိတ်နှစ်ခုအကြား DNA ကွဲပြားမှု အရေအတွက်ကပင် ၎င်းတို့ မည်မျှကြာအောင် ကွဲထွက်ခဲ့သည်ကို ခန့်မှန်းနိုင်သည်၊ Molecular Clock ခန့်မှန်းချက်တစ်ခု ဖြစ်သည်။ Fossil, Anatomy နှင့် DNA သည် လုံးလုံးသီးခြား နည်းလမ်းများကို အသုံးပြု၍ စုဆောင်းထားသော လုံးလုံးသီးခြား သက်သေအထောက်အထား အမျိုးအစားသုံးမျိုး ဖြစ်ကြသည် -- သုံးမျိုးစလုံးသည် မျိုးစိတ်များအကြား တူညီသော Evolutionary ဆက်နွယ်မှုများကို တသမတ်တည်း ညွှန်ပြနေခြင်းသည် Evolutionary Theory ကို ဤမျှ ကောင်းစွာ ထောက်ခံပေးစေသည့် ပေါင်းစည်းသော သက်သေအထောက်အထား အမျိုးအစား အတိအကျ ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Su Su, what does the fossil sequence of whale ancestors show?",
+            questionMy:
+                "ဝေလငါး ဘိုးဘေးများ၏ Fossil အစီအစဉ်သည် မည်သည်ကို ပြသသည်ကို Su Su ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "A gradual change from four-legged land mammals to fully aquatic whales",
+              "That whales have never changed at all",
+              "That whales evolved directly from fish with no mammal ancestry",
+              "No fossils of whale ancestors have ever been found",
+            ],
+            optionsMy: [
+              "လက်ခြေလေးချောင်းရှိ ကုန်းနေ Mammal များမှ အပြည့်အဝ ရေနေ ဝေလငါးများသို့ တဖြည်းဖြည်း ပြောင်းလဲမှု",
+              "ဝေလငါးများသည် လုံးဝ တစ်ခါမျှ မပြောင်းလဲခဲ့ကြောင်း",
+              "ဝေလငါးများသည် Mammal ဘိုးဘေးမှုမပါဘဲ ငါးများမှ တိုက်ရိုက် Evolve ဖြစ်ခဲ့ကြောင်း",
+              "ဝေလငါး ဘိုးဘေးများ၏ Fossil ကို ဘယ်တော့မှ ရှာမတွေ့ခဲ့ကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung, what do a human arm, whale flipper, bat wing and cat's leg all share?",
+            questionMy:
+                "လူသား လက်မောင်း, ဝေလငါး Flipper, လင်းနို့ အတောင်နှင့် ကြောင် ခြေထောက်တို့ အားလုံး မျှဝေထားသော အရာကို Htet Aung ၏ ဖော်ပြချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "The same basic arrangement of bones",
+              "Exactly identical functions",
+              "The same exact size",
+              "No relationship at all",
+            ],
+            optionsMy: [
+              "အရိုး၏ တူညီသော အခြေခံ စီစဉ်ပုံ",
+              "အတိအကျ တူညီသော လုပ်ဆောင်ချက်",
+              "အတိအကျ တူညီသော အရွယ်အစား",
+              "ဆက်စပ်မှု လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, what makes evolutionary theory so well supported?",
+            questionMy:
+                "Evolutionary Theory ကို ဤမျှ ကောင်းစွာ ထောက်ခံစေသည့်အရာကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "Multiple independent lines of evidence consistently pointing to the same conclusion",
+              "A single fossil that proves everything alone",
+              "The fact that DNA never changes between species",
+              "The complete absence of any fossil record",
+            ],
+            optionsMy: [
+              "သီးခြားစီ ဆီးလိုင်းများစွာသည် တူညီသော ဆုံးဖြတ်ချက်ကို တသမတ်တည်း ညွှန်ပြနေခြင်း",
+              "အားလုံးကို တစ်ခုတည်းက သက်သေပြသော Fossil တစ်ခု",
+              "မျိုးစိတ်များအကြား DNA ဘယ်တော့မှ မပြောင်းလဲကြောင်း အချက်",
+              "Fossil Record မည်သည်မျှ လုံးဝ မရှိခြင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w23-d5",
+      dayNumber: 5,
+      titleEn: "Week 23 Recap: Evidence for Evolution",
+      titleMy: "နှစ်ဆယ့်သုံးပတ် ပြန်လည်သုံးသပ်ခြင်း - Evolution သက်သေအထောက်အထားများ",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "The fossil record provides evidence for evolution by showing...",
+          questionMy: "Fossil Record သည် ...ပြသခြင်းဖြင့် Evolution အတွက် သက်သေအထောက်အထား ပေးသည်",
+          optionsEn: [
+            "Gradual structural change over geological time",
+            "That species never change",
+            "That fossils never form",
+            "Only present-day organisms",
+          ],
+          optionsMy: [
+            "ပထဝီဆိုင်ရာ ကာလတလျှောက် တဖြည်းဖြည်း ဖွဲ့စည်းပုံ ပြောင်းလဲမှု",
+            "မျိုးစိတ်များ တစ်ခါမျှ မပြောင်းလဲကြောင်း",
+            "Fossil များ တစ်ခါမျှ မဖြစ်ပေါ်ကြောင်း",
+            "ယနေ့ခေတ် သတ္တဝါများကိုသာ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A homologous structure is a similar basic structure...",
+          questionMy: "Homologous Structure ဆိုသည်မှာ ...သော ဆင်တူသည့် အခြေခံ ဖွဲ့စည်းပုံ ဖြစ်သည်",
+          optionsEn: [
+            "In different species, modified for different functions",
+            "Found only within one single species",
+            "That never appears in the fossil record",
+            "Unrelated to ancestry in any way",
+          ],
+          optionsMy: [
+            "မတူညီသော မျိုးစိတ်များတွင် ကွဲပြားသော လုပ်ဆောင်ချက်အတွက် ပြင်ဆင်ထား",
+            "မျိုးစိတ်တစ်ခုတည်းအတွင်းတွင်သာ တွေ့ရ",
+            "Fossil Record တွင် တစ်ခါမျှ မပေါ်လာ",
+            "ဘိုးဘေးမှုနှင့် မည်သို့မျှ မသက်ဆိုင်",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A molecular clock uses DNA differences between species to estimate...",
+          questionMy: "Molecular Clock သည် ...ခန့်မှန်းရန် မျိုးစိတ်များအကြား DNA ကွဲပြားမှုကို အသုံးပြုသည်",
+          optionsEn: [
+            "How long ago species diverged",
+            "The exact colour of an organism",
+            "The number of chromosomes in a cell",
+            "The blood glucose level of an organism",
+          ],
+          optionsMy: [
+            "မျိုးစိတ်များ မည်မျှကြာအောင် ကွဲထွက်ခဲ့သည်",
+            "သတ္တဝါတစ်ခု၏ အတိအကျ အရောင်",
+            "ဆဲလ်တစ်ခုရှိ Chromosome အရေအတွက်",
+            "သတ္တဝါတစ်ခု၏ သွေးတွင်း Glucose အဆင့်",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+// -----------------------------------------------------------------------
+// Week 24: "The Hardy-Weinberg Principle" (capstone)
+// -----------------------------------------------------------------------
+
+const CourseWeekDef _y13BioWeek24 = CourseWeekDef(
+  id: "course-y13-bio-w24",
+  weekNumber: 24,
+  titleEn: "The Hardy-Weinberg Principle",
+  titleMy: "Hardy-Weinberg Principle",
+  xpReward: 25,
+  isBossWeek: true,
+  dailyLessons: [
+    DailyLessonDef(
+      id: "course-y13-bio-w24-d1",
+      dayNumber: 1,
+      titleEn: "Estimating Allele Frequencies with Hardy-Weinberg",
+      titleMy: "Hardy-Weinberg ဖြင့် Allele Frequency ခန့်မှန်းခြင်း",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn:
+              "The Hardy-Weinberg principle uses the equations p + q = 1 and p² + 2pq + q² = 1 to estimate...",
+          questionMy:
+              "Hardy-Weinberg Principle သည် ...ခန့်မှန်းရန် p + q = 1 နှင့် p² + 2pq + q² = 1 ညီမျှခြင်းများကို အသုံးပြုသည်",
+          optionsEn: [
+            "Allele and genotype frequencies within a population that is not evolving",
+            "The exact number of chromosomes in every cell",
+            "The rate of mutation directly, with no other input needed",
+            "The temperature at which enzymes denature",
+          ],
+          optionsMy: [
+            "Evolve မဖြစ်နေသော Population တစ်ခုအတွင်း Allele နှင့် Genotype Frequency",
+            "ဆဲလ်တိုင်းရှိ Chromosome အတိအကျ အရေအတွက်",
+            "Mutation Rate တိုက်ရိုက်၊ အခြားအချက်အလက် လိုအပ်ခြင်း မရှိ",
+            "Enzyme များ Denature ဖြစ်သည့် အပူချိန်",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Here p and q represent the frequencies of the dominant and recessive alleles for one gene (p + q = 1), and p², 2pq, q² represent the resulting genotype frequencies (homozygous dominant, heterozygous, homozygous recessive).",
+          ],
+          hintsMy: [
+            "ဤနေရာတွင် p နှင့် q သည် Gene တစ်ခုအတွက် Dominant နှင့် Recessive Allele ၏ Frequency များကို ကိုယ်စားပြုသည် (p + q = 1)၊ p², 2pq, q² တို့သည် ရလဒ် Genotype Frequency များကို ကိုယ်စားပြုသည် (Homozygous Dominant, Heterozygous, Homozygous Recessive)။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "If the frequency of the recessive homozygous genotype (q²) in a population is known -- for example, from the proportion of individuals showing a recessive phenotype -- Hardy-Weinberg allows you to calculate...",
+          questionMy:
+              "Population တစ်ခုရှိ Recessive Homozygous Genotype (q²) ၏ Frequency ကို သိရှိပါက -- ဥပမာ Recessive Phenotype ပြသသော လူပုဂ္ဂိုလ်များ အချိုးအစားမှ -- Hardy-Weinberg က ...ကို တွက်ချက်ခွင့်ပြုသည်",
+          optionsEn: [
+            "The frequency of the recessive allele (q), and from there the frequencies of every other genotype",
+            "The exact number of individuals born in the next century",
+            "The precise DNA sequence of the gene",
+            "Nothing at all beyond what is already known",
+          ],
+          optionsMy: [
+            "Recessive Allele (q) ၏ Frequency ကို၊ ထို့နောက် Genotype အခြားအားလုံး၏ Frequency ကို",
+            "လာမည့် ရာစုနှစ်တွင် မွေးဖွားလာမည့် လူပုဂ္ဂိုလ် အတိအကျ အရေအတွက်",
+            "Gene ၏ အတိအကျ DNA Sequence",
+            "သိရှိပြီးသားအတိုင်း ဘာမျှ ထပ်ဆောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "Taking the square root of q² gives q; then p = 1 - q gives the dominant allele frequency, and p², 2pq give the remaining genotype frequencies -- a powerful way to estimate carrier (heterozygous) frequency in a population.",
+          ],
+          hintsMy: [
+            "q² ၏ Square Root ကို ယူခြင်းက q ကို ပေးသည်၊ ထို့နောက် p = 1 - q က Dominant Allele Frequency ကို ပေးပြီး p², 2pq က ကျန်ရှိသော Genotype Frequency များကို ပေးသည် -- Population တစ်ခုအတွင်း Carrier (Heterozygous) Frequency ကို ခန့်မှန်းရန် အားကောင်းသော နည်းလမ်းတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+        QuizQuestion(
+          questionEn:
+              "The Hardy-Weinberg principle assumes a population is not evolving, which requires conditions such as random mating and no selection pressure; if a population's actual genotype frequencies differ substantially from the Hardy-Weinberg prediction, this suggests...",
+          questionMy:
+              "Hardy-Weinberg Principle သည် Population တစ်ခု Evolve မဖြစ်နေကြောင်း ယူဆထားပြီး Random Mating နှင့် Selection Pressure မရှိခြင်းကဲ့သို့ အခြေအနေများ လိုအပ်သည်၊ Population တစ်ခု၏ အမှန်တကယ် Genotype Frequency သည် Hardy-Weinberg ခန့်မှန်းချက်နှင့် သိသိသာသာ ကွဲပြားနေပါက ၎င်းက ...ကို အကြံပြုသည်",
+          optionsEn: [
+            "Evolutionary factors such as selection, mutation, or non-random mating may be acting on the population",
+            "The gene involved has stopped existing entirely",
+            "The population contains no alleles at all",
+            "Every individual in the population is genetically identical",
+          ],
+          optionsMy: [
+            "Selection, Mutation (သို့) Non-Random Mating ကဲ့သို့ Evolutionary Factor များသည် Population အပေါ် သက်ရောက်နေနိုင်ကြောင်း",
+            "သက်ဆိုင်သော Gene သည် လုံးလုံး ရပ်တန့်ရှိနေတော့ကြောင်း",
+            "Population တွင် Allele မည်သည်မျှ လုံးဝ မပါဝင်ကြောင်း",
+            "Population ရှိ လူပုဂ္ဂိုလ်တိုင်းသည် Genetically တူညီစွာ ရှိကြောင်း",
+          ],
+          correctIndex: 0,
+          hintsEn: [
+            "This is exactly why Hardy-Weinberg is useful beyond just calculating frequencies -- deviation from the predicted equilibrium is itself a clue that evolution may be occurring in that population.",
+          ],
+          hintsMy: [
+            "ဤသည်ကပင် Hardy-Weinberg သည် Frequency များ တွက်ချက်ခြင်းထက် ကျော်လွန်၍ အသုံးဝင်ရသည့်အကြောင်းရင်း အတိအကျ ဖြစ်သည် -- ခန့်မှန်းထားသော Equilibrium မှ ကွဲလွဲမှုသည် ထို Population တွင် Evolution ဖြစ်ပွားနေနိုင်ကြောင်း အလားလက္ခဏာတစ်ခု ဖြစ်သည်။",
+          ],
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w24-d2",
+      dayNumber: 2,
+      titleEn: "Match: Hardy-Weinberg Vocabulary",
+      titleMy: "တွဲစပ်ကြမည် - Hardy-Weinberg ဝေါဟာရများ",
+      kind: LessonKind.dragMatch,
+      xpReward: 10,
+      dragMatchPairs: [
+        DragMatchPair(
+          id: "y13bio-w24-dm-1",
+          termEn: "p (allele frequency)",
+          termMy: "p (Allele Frequency)",
+          matchEn: "The frequency of the dominant allele for a gene in a population",
+          matchMy: "Population တစ်ခုရှိ Gene တစ်ခုအတွက် Dominant Allele ၏ Frequency",
+          colorValue: 0xFF4CAF50,
+        ),
+        DragMatchPair(
+          id: "y13bio-w24-dm-2",
+          termEn: "q (allele frequency)",
+          termMy: "q (Allele Frequency)",
+          matchEn: "The frequency of the recessive allele for a gene in a population",
+          matchMy: "Population တစ်ခုရှိ Gene တစ်ခုအတွက် Recessive Allele ၏ Frequency",
+          colorValue: 0xFF2196F3,
+        ),
+        DragMatchPair(
+          id: "y13bio-w24-dm-3",
+          termEn: "q² (genotype frequency)",
+          termMy: "q² (Genotype Frequency)",
+          matchEn: "The frequency of the homozygous recessive genotype in a population",
+          matchMy: "Population တစ်ခုရှိ Homozygous Recessive Genotype ၏ Frequency",
+          colorValue: 0xFFFF9800,
+        ),
+        DragMatchPair(
+          id: "y13bio-w24-dm-4",
+          termEn: "2pq (genotype frequency)",
+          termMy: "2pq (Genotype Frequency)",
+          matchEn: "The frequency of the heterozygous genotype (carriers) in a population",
+          matchMy: "Population တစ်ခုရှိ Heterozygous Genotype (Carrier) ၏ Frequency",
+          colorValue: 0xFF9C27B0,
+        ),
+        DragMatchPair(
+          id: "y13bio-w24-dm-5",
+          termEn: "Hardy-Weinberg equilibrium",
+          termMy: "Hardy-Weinberg Equilibrium",
+          matchEn: "The stable allele and genotype frequencies expected in a population that is not evolving",
+          matchMy: "Evolve မဖြစ်နေသော Population တစ်ခုတွင် မျှော်လင့်ထားသော တည်ငြိမ်သော Allele နှင့် Genotype Frequency",
+          colorValue: 0xFF00BCD4,
+        ),
+      ],
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w24-d3",
+      dayNumber: 3,
+      titleEn: "Sort: Allele Frequency or Genotype Frequency?",
+      titleMy: "စီစစ်ကြမည် - Allele Frequency သို့မဟုတ် Genotype Frequency?",
+      kind: LessonKind.sorting,
+      xpReward: 10,
+      sortingActivity: SortingActivity(
+        bucketsEn: ["Allele Frequency", "Genotype Frequency"],
+        bucketsMy: ["Allele Frequency", "Genotype Frequency"],
+        items: [
+          SortingItem(
+            id: "y13bio-w24-sort-1",
+            labelEn: "p, representing the dominant allele's proportion",
+            labelMy: "p, Dominant Allele ၏ အချိုးအစားကို ကိုယ်စားပြု",
+            correctBucketEn: "Allele Frequency",
+            correctBucketMy: "Allele Frequency",
+          ),
+          SortingItem(
+            id: "y13bio-w24-sort-2",
+            labelEn: "q, representing the recessive allele's proportion",
+            labelMy: "q, Recessive Allele ၏ အချိုးအစားကို ကိုယ်စားပြု",
+            correctBucketEn: "Allele Frequency",
+            correctBucketMy: "Allele Frequency",
+          ),
+          SortingItem(
+            id: "y13bio-w24-sort-3",
+            labelEn: "p², representing the homozygous dominant proportion",
+            labelMy: "p², Homozygous Dominant အချိုးအစားကို ကိုယ်စားပြု",
+            correctBucketEn: "Genotype Frequency",
+            correctBucketMy: "Genotype Frequency",
+          ),
+          SortingItem(
+            id: "y13bio-w24-sort-4",
+            labelEn: "2pq, representing the heterozygous carrier proportion",
+            labelMy: "2pq, Heterozygous Carrier အချိုးအစားကို ကိုယ်စားပြု",
+            correctBucketEn: "Genotype Frequency",
+            correctBucketMy: "Genotype Frequency",
+          ),
+          SortingItem(
+            id: "y13bio-w24-sort-5",
+            labelEn: "q², representing the homozygous recessive proportion",
+            labelMy: "q², Homozygous Recessive အချိုးအစားကို ကိုယ်စားပြု",
+            correctBucketEn: "Genotype Frequency",
+            correctBucketMy: "Genotype Frequency",
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w24-d4",
+      dayNumber: 4,
+      titleEn: "Reading: Counting What You Cannot See",
+      titleMy: "စာဖတ်ခြင်း - မမြင်နိုင်သောအရာကို ရေတွက်ခြင်း",
+      kind: LessonKind.reading,
+      xpReward: 10,
+      readingPassage: ReadingPassageModel(
+        titleEn: "Counting What You Cannot See",
+        titleMy: "မမြင်နိုင်သောအရာကို ရေတွက်ခြင်း",
+        passageEn:
+            "For Term 6's capstone lesson, Sayar Zaw Min posed a puzzle: in a village population of 10,000 people, 16 people were born with a rare recessive condition, meaning they were homozygous recessive for the gene involved. Nobody could directly observe who was a heterozygous carrier -- carriers show no symptoms at all -- yet Su Su insisted this hidden information could still be calculated.\n\nHtet Aung worked through the Hardy-Weinberg method step by step. The frequency of affected individuals, 16 out of 10,000, gave q² = 0.0016. Taking the square root gave q = 0.04, the frequency of the recessive allele itself. Since p + q = 1, p worked out to 0.96, the frequency of the dominant allele. Plugging both values into 2pq gave 2 x 0.96 x 0.04 = 0.0768 -- meaning roughly 7.68% of the population, or about 768 people, were expected to be heterozygous carriers, entirely invisible to observation but calculable from the visible recessive cases alone.\n\n\"And notice what this number depends on,\" Sayar Zaw Min added, tying the whole term together. \"This calculation only works cleanly if the population satisfies the assumptions behind Hardy-Weinberg -- no significant selection pressure on this gene, random mating, no major migration in or out, a large population size, and no unusually high mutation rate. If a future survey found the actual carrier frequency had drifted noticeably away from 7.68%, that drift itself would be evidence that one of this term's earlier topics -- natural selection acting on this gene, perhaps, or non-random mating -- was at work. Variation, mutation, selection and the maths of allele frequencies are not four separate topics; they are one continuous story of how populations change, or fail to change, over time.\"",
+        passageMy:
+            "Term 6 ၏ Capstone သင်ခန်းစာအတွက် ဆရာဇော်မင်းက ပဟေဠိတစ်ခု ချမှတ်ခဲ့သည် - လူဦးရေ ၁၀,၀၀၀ ရှိသော ရွာ Population တစ်ခုတွင် လူ ၁၆ ဦးသည် ရှားပါးသော Recessive Condition တစ်ခုနှင့်အတူ မွေးဖွားခဲ့ကြသည်၊ ဆိုလိုသည်မှာ သက်ဆိုင်ရာ Gene အတွက် Homozygous Recessive ဖြစ်ကြသည်။ Heterozygous Carrier မည်သူဖြစ်သည်ကို တစ်ဦးမျှ တိုက်ရိုက် မြင်နိုင်ခြင်း မရှိပါ -- Carrier များတွင် Symptom လုံးဝ မပြသကြပါ -- သို့သော် ဤ ဝှက်ထားသော အချက်အလက်ကို ဆက်လက် တွက်ချက်နိုင်ကြောင်း Su Su က ခိုင်ခိုင်မာမာ ဆိုခဲ့သည်။\n\nHtet Aung သည် Hardy-Weinberg နည်းလမ်းကို အဆင့်ဆင့် လုပ်ဆောင်ခဲ့သည်။ ထိခိုက်ခံရသော လူပုဂ္ဂိုလ်များ၏ Frequency, ၁၀,၀၀၀ ထဲမှ ၁၆ ဦးက q² = 0.0016 ပေးခဲ့သည်။ Square Root ယူခြင်းက q = 0.04, Recessive Allele ကိုယ်တိုင်၏ Frequency ကို ပေးခဲ့သည်။ p + q = 1 ဖြစ်သောကြောင့် p သည် 0.96, Dominant Allele ၏ Frequency ဖြစ်လာသည်။ တန်ဖိုးနှစ်ခုစလုံးကို 2pq ထဲသို့ ထည့်သွင်းလိုက်ပါက 2 x 0.96 x 0.04 = 0.0768 -- Population ၏ ခန့်မှန်း 7.68% (သို့) လူ ၇၆၈ ဦးခန့်သည် Heterozygous Carrier ဖြစ်လိမ့်မည်ဟု မျှော်လင့်ရသည်၊ တွေ့မြင်နိုင်သော Recessive Case များတစ်ခုတည်းမှ တွက်ချက်နိုင်သော်လည်း စောင့်ကြည့်ရှုသည့်အတွက် လုံးလုံး မမြင်နိုင်ပါ။\n\n\"ဒီ ဂဏန်းက ဘာအပေါ် မှီခိုနေလဲ ဆိုတာ သတိပြုကြည့်ပါ\" ဟု ဆရာဇော်မင်း Term တစ်ခုလုံးကို ချိတ်ဆက်ရင်း ထပ်ဆင့်ခဲ့သည်။ \"ဒီတွက်ချက်မှုက Population သည် Hardy-Weinberg နောက်ကွယ်ရှိ ယူဆချက်များကို ကိုက်ညီမှသာ ရှင်းလင်းစွာ အလုပ်လုပ်ပါတယ် -- ဒီ Gene အပေါ် သိသိသာသာ Selection Pressure မရှိခြင်း, Random Mating, ကြီးမားသော Migration အဝင်အထွက် မရှိခြင်း, Population Size ကြီးမားခြင်းနှင့် Mutation Rate ပုံမှန်ထက် မမြင့်ခြင်း။ နောင်တစ်နေ့ Survey တစ်ခုက Carrier Frequency အမှန်တကယ်သည် 7.68% မှ သိသိသာသာ ကွေ့ဝေးသွားကြောင်း တွေ့ရှိပါက ထို ကွေ့ဝေးမှုသည် ဤ Term ၏ ယခင် ခေါင်းစဉ်တစ်ခု -- ဤ Gene အပေါ် Natural Selection သက်ရောက်နေခြင်း (သို့) Non-Random Mating -- အလုပ်လုပ်နေကြောင်း သက်သေအထောက်အထားပင် ဖြစ်လိမ့်မည်။ Variation, Mutation, Selection နှင့် Allele Frequency များ၏ ဂဏန်းသင်္ချာသည် ခေါင်းစဉ် သီးခြားလေးခု မဟုတ်ပါ - ၎င်းတို့သည် Population များ အချိန်ကြာလာသည်နှင့်အမျှ မည်သို့ ပြောင်းလဲသည်၊ (သို့) ပြောင်းလဲရန် ပျက်ကွက်သည်ဆိုသော ဇာတ်လမ်းတစ်ခုတည်း ဖြစ်ပါသည်။\"",
+        comprehensionQuestions: [
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's calculation, what was the value of q (recessive allele frequency)?",
+            questionMy:
+                "q (Recessive Allele Frequency) ၏ တန်ဖိုးကို Htet Aung ၏ တွက်ချက်မှုအရ ဖော်ပြပါ။",
+            optionsEn: ["0.04", "0.96", "0.16", "0.0016"],
+            optionsMy: ["0.04", "0.96", "0.16", "0.0016"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Htet Aung's calculation, roughly what percentage of the population were expected to be heterozygous carriers?",
+            questionMy:
+                "Population ၏ ခန့်မှန်း ရာခိုင်နှုန်းမည်မျှသည် Heterozygous Carrier ဖြစ်လိမ့်မည်ဟု မျှော်လင့်ရသည်ကို Htet Aung ၏ တွက်ချက်မှုအရ ဖော်ပြပါ။",
+            optionsEn: ["About 7.68%", "About 0.16%", "About 96%", "About 50%"],
+            optionsMy: ["ခန့်မှန်း 7.68%", "ခန့်မှန်း 0.16%", "ခန့်မှန်း 96%", "ခန့်မှန်း 50%"],
+            correctIndex: 0,
+            hintsEn: ["Reread the second paragraph."],
+            hintsMy: ["ဒုတိယစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+          QuizQuestion(
+            questionEn:
+                "According to Sayar Zaw Min's closing remark, what would a large drift away from the predicted carrier frequency suggest?",
+            questionMy:
+                "ခန့်မှန်းထားသော Carrier Frequency မှ သိသိသာသာ ကွေ့ဝေးမှုသည် မည်သည်ကို အကြံပြုသည်ကို ဆရာဇော်မင်း ၏ နိဂုံးမှတ်ချက်အရ ဖော်ပြပါ။",
+            optionsEn: [
+              "That an evolutionary factor, such as selection, may be acting on the gene",
+              "That the gene has been completely lost from the population",
+              "That the calculation method is always wrong",
+              "That the population has stopped reproducing entirely",
+            ],
+            optionsMy: [
+              "Selection ကဲ့သို့ Evolutionary Factor တစ်ခုသည် ထို Gene အပေါ် သက်ရောက်နေနိုင်ကြောင်း",
+              "ထို Gene သည် Population မှ လုံးလုံး ပျောက်ဆုံးသွားခဲ့ကြောင်း",
+              "တွက်ချက်နည်းလမ်းသည် အမြဲတမ်း မှားနေကြောင်း",
+              "Population သည် မျိုးပွားခြင်း လုံးလုံး ရပ်တန့်သွားကြောင်း",
+            ],
+            correctIndex: 0,
+            hintsEn: ["Reread the final paragraph."],
+            hintsMy: ["နောက်ဆုံးစာပိုဒ်ကို ပြန်ဖတ်ကြည့်ပါ။"],
+          ),
+        ],
+      ),
+    ),
+    DailyLessonDef(
+      id: "course-y13-bio-w24-d5",
+      dayNumber: 5,
+      titleEn: "Week 24 Recap: The Hardy-Weinberg Principle",
+      titleMy: "နှစ်ဆယ့်လေးပတ် ပြန်လည်သုံးသပ်ခြင်း - Hardy-Weinberg Principle",
+      kind: LessonKind.quiz,
+      xpReward: 10,
+      isRecapDay: true,
+      quizQuestions: [
+        QuizQuestion(
+          questionEn: "In the Hardy-Weinberg equations, p and q represent...",
+          questionMy: "Hardy-Weinberg ညီမျှခြင်းများတွင် p နှင့် q သည် ...ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "Allele frequencies",
+            "The exact number of chromosomes",
+            "Enzyme concentrations",
+            "Blood glucose levels",
+          ],
+          optionsMy: [
+            "Allele Frequency များ",
+            "Chromosome အတိအကျ အရေအတွက်",
+            "Enzyme အာနှုန်းများ",
+            "သွေးတွင်း Glucose အဆင့်များ",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "q² represents the frequency of...",
+          questionMy: "q² သည် ...၏ Frequency ကို ကိုယ်စားပြုသည်",
+          optionsEn: [
+            "The homozygous recessive genotype",
+            "The homozygous dominant genotype",
+            "The heterozygous genotype",
+            "A completely new mutation",
+          ],
+          optionsMy: [
+            "Homozygous Recessive Genotype",
+            "Homozygous Dominant Genotype",
+            "Heterozygous Genotype",
+            "လုံးလုံးအသစ် Mutation",
+          ],
+          correctIndex: 0,
+        ),
+        QuizQuestion(
+          questionEn: "A large deviation from Hardy-Weinberg's predicted frequencies suggests...",
+          questionMy: "Hardy-Weinberg ခန့်မှန်းထားသော Frequency များမှ သိသိသာသာ ကွေ့ဝေးမှုသည် ...ကို အကြံပြုသည်",
+          optionsEn: [
+            "Evolutionary factors may be acting on the population",
+            "The population has zero alleles",
+            "No calculation is possible ever again",
+            "The gene has become invisible",
+          ],
+          optionsMy: [
+            "Evolutionary Factor များသည် Population အပေါ် သက်ရောက်နေနိုင်ကြောင်း",
+            "Population တွင် Allele သုည ရှိကြောင်း",
+            "တွက်ချက်မှု တစ်ခါမျှ ထပ်၍ မဖြစ်နိုင်တော့ကြောင်း",
+            "Gene သည် မမြင်နိုင်တော့ကြောင်း",
+          ],
+          correctIndex: 0,
+        ),
+      ],
+    ),
+  ],
+);
+
+const CourseTermDef year13BiologyTerm6 = CourseTermDef(
+  id: "course-y13-bio-t6",
+  termNumber: 6,
+  titleEn: "Selection and Evolution",
+  titleMy: "Selection and Evolution",
+  weeks: [_y13BioWeek21, _y13BioWeek22, _y13BioWeek23, _y13BioWeek24],
+  certificateTitleEn: "A2 Biology: Selection and Evolution",
+  certificateTitleMy: "A2 ဇီဝဗေဒ - Selection and Evolution",
+);
